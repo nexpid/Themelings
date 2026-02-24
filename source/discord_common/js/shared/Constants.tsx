@@ -1041,6 +1041,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var26['NAVIGATE_TO_CONNECTIONS'] = var8;
     var8 = 'INVITE_USER_EMBEDDED';
     var26['INVITE_USER_EMBEDDED'] = var8;
+    var8 = 'REQUEST_PROXY_TICKET_REFRESH';
+    var26['REQUEST_PROXY_TICKET_REFRESH'] = var8;
     var8 = 'GET_QUEST_ENROLLMENT_STATUS';
     var26['GET_QUEST_ENROLLMENT_STATUS'] = var8;
     var8 = 'QUEST_START_TIMER';

@@ -290,7 +290,7 @@ case 17:
     var6 = new var19[var11](var18, var17, var16);
     var6 = var6 instanceof Object ? var6 : var7;
     var _closure1_slot10 = var6;
-    var7 = 9;
+    var7 = 10;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -328,7 +328,7 @@ case 20:
 case 21:
             var4 = var6.params;
             if(!(var3 != var4)) { _fun0006_ip = 19; continue _fun0006 }
-case 5:
+case 4:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var7 = 8;
@@ -358,24 +358,34 @@ case 22:
             var4 = var4.bind(var5)(var6);
             if(!(var3 != var4)) { _fun0006_ip = 19; continue _fun0006 }
 case 24:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var5 = 9;
+            var5 = var7[var5];
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.getChatLayout;
+            var5 = var5.bind(var6)();
+            var5 = var5.isChatLockedOpen;
+            if(!var5) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
             var5 = var4.params;
             var7 = var3 == var5;
             var6 = undefined;
-            if(var7) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
-            var6 = var5.channelId;
-case 25:
-            if(!(var3 == var6)) { _fun0006_ip = 27; continue _fun0006 }
+            if(var7) { _fun0006_ip = 27; continue _fun0006 }
 case 28:
+            var6 = var5.channelId;
+case 27:
+            if(!(var3 == var6)) { _fun0006_ip = 29; continue _fun0006 }
+case 25:
             var4 = var4.params;
             var5 = var3 == var4;
             var8 = undefined;
-            if(var5) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
-            var8 = var4.guildId;
-case 29:
-            if(!(var3 != var8)) { _fun0006_ip = 19; continue _fun0006 }
+            if(var5) { _fun0006_ip = 30; continue _fun0006 }
 case 31:
+            var8 = var4.guildId;
+case 30:
+            if(!(var3 != var8)) { _fun0006_ip = 19; continue _fun0006 }
+case 32:
             var4 = _closure1_slot12;
             var3 = global;
             var3 = var3.HermesInternal;
@@ -386,7 +396,7 @@ case 31:
             var3 = var4.bind(var1)(var3);
 case 19:
             return var1;
-case 27:
+case 29:
             var3 = _closure1_slot12;
             var2 = global;
             var2 = var2.HermesInternal;

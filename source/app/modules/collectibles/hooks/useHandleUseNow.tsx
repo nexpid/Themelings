@@ -225,7 +225,7 @@ case 24:
                         var7 = 9;
                         var7 = var10[var7];
                         var9 = var9.bind(var5)(var7);
-                        var7 = var9.saveAccountChanges;
+                        var7 = var9.saveProfileAndAccountChanges;
                         var6 = var7.bind(var9)(var6);
                         SaveGenerator(address=233);
 case 25:

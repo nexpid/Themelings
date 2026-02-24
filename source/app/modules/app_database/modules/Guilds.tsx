@@ -941,9 +941,9 @@ case 65:
         var7 = function value(arg1, arg2) {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                var10 = arg1;
+                var13 = arg1;
                 var5 = this;
-                var3 = var10.members;
+                var3 = var13.members;
                 var2 = var3.find;
                 var1 = function(arg1) {
                     var1 = arg1;
@@ -958,46 +958,38 @@ case 0:
                 var9 = var2.bind(var3)(var1);
                 var3 = _closure1_slot10;
                 var2 = var3.getGuild;
-                var1 = var10.id;
+                var1 = var13.id;
                 var12 = var2.bind(var3)(var1);
                 var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var4 = 12;
-                var6 = var2[var4];
+                var10 = _closure1_slot2;
+                var2 = 11;
+                var6 = var10[var2];
                 var1 = undefined;
+                var11 = var3.bind(var1)(var6);
+                var8 = var11.fromSyncOperation;
+                var7 = var13.id;
+                var6 = var13.roles;
+                var15 = _closure1_slot9;
+                var14 = var15.getUnsafeMutableRoles;
+                var4 = var13.id;
+                var4 = var14.bind(var15)(var4);
+                var8 = var8.bind(var11)(var7, var6, var4);
+                var4 = 12;
+                var6 = var10[var4];
                 var7 = var3.bind(var1)(var6);
                 var6 = var7.attachSerializedData;
-                var4 = var2[var4];
-                var8 = var3.bind(var1)(var4);
-                var4 = var8.fromServer;
-                var4 = var4.bind(var8)(var10, var12);
-                var13 = 11;
-                var2 = var2[var13];
-                var8 = var3.bind(var1)(var2);
-                var3 = var8.toSerializedPartition;
-                var12 = var10.roles;
-                var2 = global;
-                var2 = var2.Array;
-                var2 = var12 instanceof var2;
-                if(var2) { _fun0012_ip = 68; continue _fun0012 }
-case 69:
-                var2 = var10.roles;
-                _fun0012_ip = 70; continue _fun0012;
-case 68:
-                var12 = _closure1_slot1;
-                var11 = _closure1_slot2;
-                var11 = var11[var13];
-                var13 = var12.bind(var1)(var11);
-                var12 = var13.fromServerArray;
-                var11 = var10.id;
-                var10 = var10.roles;
-                var2 = var12.bind(var13)(var11, var10);
-case 70:
-                var3 = var3.bind(var8)(var2);
+                var4 = var10[var4];
+                var11 = var3.bind(var1)(var4);
+                var4 = var11.fromServer;
+                var4 = var4.bind(var11)(var13, var12);
+                var2 = var10[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.toSerializedPartition;
+                var3 = var2.bind(var3)(var8);
                 var2 = null;
                 var8 = var2 != var9;
-                if(!var8) { _fun0012_ip = 71; continue _fun0012 }
-case 72:
+                if(!var8) { _fun0012_ip = 68; continue _fun0012 }
+case 19:
                 var8 = {};
                 var10 = var9.user;
                 var10 = var10.id;
@@ -1005,7 +997,7 @@ case 72:
                 var9 = var9.roles;
                 var8['roles'] = var9;
                 var2 = var8;
-case 71:
+case 68:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var5.put;
                 var2 = arg2;

@@ -89,6 +89,11 @@ case 0:
 case 3:
             var7 = true;
 case 2:
+            var16 = var1.profileSkeletonOpacity;
+            if(!(var16 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var16 = 1;
+case 4:
             var1 = _closure1_slot9;
             var14 = var1.bind(var4)();
             var2 = _closure1_slot0;
@@ -107,17 +112,17 @@ case 2:
             var1 = null;
             var2 = var1 != var5;
             var3 = null;
-            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot5;
             var3 = var2[var5];
-case 4:
-            var13 = var1 != var3;
-            if(var13) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var12 = var14.profileSkeletonBackground;
-            _fun0001_ip = 8; continue _fun0001;
 case 6:
+            var13 = var1 != var3;
+            if(var13) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var15 = var14.profileSkeletonBackground;
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var2 = var14.profileSkeletonBackgroundBundle;
             var1 = new Array(2);
             var1[0] = var2;
@@ -129,35 +134,40 @@ case 6:
             var3 = var5 * var3;
             var2['height'] = var3;
             var1[1] = var2;
-            var12 = var1;
-case 8:
+            var15 = var1;
+case 10:
             var3 = _closure1_slot8;
             var2 = _closure1_slot3;
             var1 = {};
             var10 = var14.profileEffectContainer;
             var5 = new Array(2);
             var5[0] = var10;
-            if(!var8) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(!var8) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = var14.purchasedProfileEffect;
-case 9:
+case 11:
             var5[1] = var8;
             var1['style'] = var5;
             var10 = _closure1_slot7;
             var8 = _closure1_slot4;
             var5 = {};
+            var12 = new Array(2);
+            var12[0] = var15;
+            var15 = {};
+            var15['opacity'] = var16;
+            var12[1] = var15;
             var5['style'] = var12;
             var12 = _closure1_slot1;
             var16 = _closure1_slot2;
-            if(var11) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(var11) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var11 = 7;
             var11 = var16[var11];
-            _fun0001_ip = 13; continue _fun0001;
-case 11:
+            _fun0001_ip = 15; continue _fun0001;
+case 13:
             var15 = 6;
             var11 = var16[var15];
-case 13:
+case 15:
             var11 = var12.bind(var4)(var11);
             var5['source'] = var11;
             var11 = false;
@@ -165,8 +175,8 @@ case 13:
             var8 = var10.bind(var4)(var8, var5);
             var5 = new Array(3);
             var5[0] = var8;
-            if(!var7) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var7) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var11 = _closure1_slot7;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -197,17 +207,17 @@ case 15:
             var14 = var14[var18];
             var21 = var15.bind(var4)(var14);
             var20 = var21.hexWithOpacity;
-            if(var13) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(var13) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var14 = 0.35;
             var14 = var20.bind(var21)(var19, var14);
             var14 = var16.bind(var17)(var14);
-            _fun0001_ip = 18; continue _fun0001;
-case 16:
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
             var15 = 0.75;
             var15 = var20.bind(var21)(var19, var15);
             var14 = var16.bind(var17)(var15);
-case 18:
+case 20:
             var12[1] = var14;
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -217,17 +227,17 @@ case 18:
             var14 = var14[var18];
             var18 = var17.bind(var4)(var14);
             var17 = var18.hexWithOpacity;
-            if(var13) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(var13) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var13 = 0.7;
             var13 = var17.bind(var18)(var19, var13);
             var13 = var15.bind(var16)(var13);
-            _fun0001_ip = 21; continue _fun0001;
-case 19:
+            _fun0001_ip = 23; continue _fun0001;
+case 21:
             var14 = 1;
             var14 = var17.bind(var18)(var19, var14);
             var13 = var15.bind(var16)(var14);
-case 21:
+case 23:
             var12[2] = var13;
             var8['colors'] = var12;
             var12 = [0, 0.3, 0.6, 0.85, 1];
@@ -237,7 +247,7 @@ case 21:
             var12 = {'x': 0, 'y': 1};
             var8['end'] = var12;
             var7 = var11.bind(var4)(var10, var8);
-case 14:
+case 16:
             var5[1] = var7;
             var8 = _closure1_slot7;
             var7 = _closure1_slot1;

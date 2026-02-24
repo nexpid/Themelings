@@ -184,8 +184,8 @@ case 4:
     var7['retryBackgroundColor'] = var10;
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
-    var10 = var10.unsafe_rawColors;
-    var10 = var10.BRAND_500;
+    var10 = var10.colors;
+    var10 = var10.BACKGROUND_BRAND;
     var7['clipTagBackgroundColor'] = var10;
     var8 = var6[var8];
     var8 = var9.bind(var1)(var8);

@@ -806,22 +806,22 @@ case 39:
                 var9['estimatedItemSize'] = var13;
                 var14 = _closure2_slot9;
                 var13 = undefined;
-                if(!var14) { _fun0010_ip = 25; continue _fun0010 }
-case 40:
+                if(!var14) { _fun0010_ip = 40; continue _fun0010 }
+case 41:
                 var15 = _closure1_slot1;
                 var16 = _closure1_slot2;
                 var14 = 18;
                 var14 = var16[var14];
                 var13 = var15.bind(var2)(var14);
-case 25:
+case 40:
                 var9['ListFooterComponent'] = var13;
                 var14 = _closure2_slot9;
                 var13 = undefined;
-                if(!var14) { _fun0010_ip = 41; continue _fun0010 }
-case 42:
+                if(!var14) { _fun0010_ip = 42; continue _fun0010 }
+case 43:
                 var14 = _closure2_slot3;
                 var13 = var14.footer;
-case 41:
+case 42:
                 var9['ListFooterComponentStyle'] = var13;
                 var12 = _closure2_slot2;
                 var9['contentContainerStyle'] = var12;

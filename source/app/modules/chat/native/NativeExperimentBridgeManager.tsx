@@ -54,19 +54,19 @@ case 0:
             var2 = var5 == var4;
             if(var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var3 = var4.setShouldClearChannelNotificationsOnPushAck;
+            var3 = var4.setShouldEnableAnimatedReactionUpdates;
             var2 = var5 == var3;
 case 6:
             if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var3 = var4.setShouldClearChannelNotificationsOnPushAck;
+            var3 = var4.setShouldEnableAnimatedReactionUpdates;
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 6;
             var6 = var6[var2];
             var2 = undefined;
             var7 = var7.bind(var2)(var6);
-            var6 = var7.shouldClearChannelNotificationsOnPushAck;
+            var6 = var7.shouldEnableAnimatedReactionUpdates;
             var2 = {};
             var8 = 'NativeExperimentBridgeManager';
             var2['location'] = var8;
@@ -78,60 +78,36 @@ case 8:
             var2 = var5 == var4;
             if(var2) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var3 = var4.setShouldEnableAnimatedReactionUpdates;
+            var3 = var4.setShouldFixPushNotificationRawPayload;
             var2 = var5 == var3;
 case 10:
             if(var2) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var3 = var4.setShouldEnableAnimatedReactionUpdates;
+            var3 = var4.setShouldFixPushNotificationRawPayload;
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 7;
-            var6 = var6[var2];
-            var2 = undefined;
-            var7 = var7.bind(var2)(var6);
-            var6 = var7.shouldEnableAnimatedReactionUpdates;
-            var2 = {};
-            var8 = 'NativeExperimentBridgeManager';
-            var2['location'] = var8;
-            var2 = var6.bind(var7)(var2);
-            var2 = var3.bind(var4)(var2);
-case 12:
-            var2 = _closure1_slot7;
-            var4 = var2.NSUserDefaultsBridge;
-            var2 = var5 == var4;
-            if(var2) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-            var3 = var4.setShouldFixPushNotificationRawPayload;
-            var2 = var5 == var3;
-case 14:
-            if(var2) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-            var3 = var4.setShouldFixPushNotificationRawPayload;
-            var7 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 8;
             var6 = var6[var2];
             var2 = undefined;
             var6 = var7.bind(var2)(var6);
             var2 = var6.isIOSPushNotificationRawPayloadFixExperimentEnabled;
             var2 = var2.bind(var6)();
             var2 = var3.bind(var4)(var2);
-case 16:
+case 12:
             var2 = _closure1_slot7;
             var3 = var2.NSUserDefaultsBridge;
             var2 = var5 == var3;
-            if(var2) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var4 = var3.setShouldEnableYYTextReplacement;
             var2 = var5 == var4;
-case 18:
-            if(var2) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+case 14:
+            if(var2) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var2 = var3.setShouldEnableYYTextReplacement;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 9;
+            var1 = 8;
             var4 = var4[var1];
             var1 = undefined;
             var5 = var5.bind(var1)(var4);
@@ -141,7 +117,7 @@ case 21:
             var1['location'] = var6;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-case 20:
+case 16:
             var1 = undefined;
             return var1;
         }
@@ -186,7 +162,7 @@ case 20:
     var4 = var5.bind(var1)(var4);
     var4 = var4.NativeModules;
     var _closure1_slot7 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -210,12 +186,12 @@ case 0:
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot8;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                if(var1) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var4, var10);
                 _fun0003_ip = 10; continue _fun0003;
-case 22:
+case 18:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -227,33 +203,33 @@ case 10:
                 var1 = var2.bind(var5)(var4, var1);
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var6 = 10;
+                var6 = 9;
                 var2 = var2[var6];
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isIOS;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0003_ip = 14; continue _fun0003 }
-case 24:
+                if(var2) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var6];
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isAndroid;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+                if(var2) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                 var2 = function() {
                     var1 = undefined;
                     return var1;
                 };
-                _fun0003_ip = 27; continue _fun0003;
-case 25:
+                _fun0003_ip = 24; continue _fun0003;
+case 22:
                 var2 = _closure1_slot10;
-case 27:
-                _fun0003_ip = 28; continue _fun0003;
-case 14:
+case 24:
+                _fun0003_ip = 25; continue _fun0003;
+case 20:
                 var2 = _closure1_slot9;
-case 28:
+case 25:
                 var1['handleUpdate'] = var2;
                 var2 = {};
                 var3 = var1.handleUpdate;
@@ -277,7 +253,7 @@ case 28:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

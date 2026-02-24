@@ -500,8 +500,10 @@ case 27:
                 var1['thumbnailAssetId'] = var3;
                 var3 = var2.description;
                 var1['description'] = var3;
-                var2 = var2.orbsReward;
-                var1['orbsReward'] = var2;
+                var3 = var2.orbsReward;
+                var1['orbsReward'] = var3;
+                var2 = var2.eligibleOffers;
+                var1['eligibleOffers'] = var2;
                 return var1;
             }
         };
@@ -939,39 +941,39 @@ case 0:
                 var1['type'] = var4;
                 var4 = var2.application_id;
                 var1['applicationId'] = var4;
-                var4 = var2.application;
-                var5 = null;
-                var6 = var5 != var4;
+                var5 = var2.application;
                 var4 = null;
+                var6 = var4 != var5;
+                var5 = null;
                 if(!var6) { _fun0019_ip = 10; continue _fun0019 }
 case 66:
                 var9 = _closure1_slot8;
                 var7 = var9.createFromServer;
                 var6 = var2.application;
-                var4 = var7.bind(var9)(var6);
+                var5 = var7.bind(var9)(var6);
 case 10:
-                var1['application'] = var4;
+                var1['application'] = var5;
                 var6 = var2.eligible_payment_gateways;
-                var7 = var5 != var6;
-                var4 = null;
+                var7 = var4 != var6;
+                var5 = null;
                 if(!var7) { _fun0019_ip = 42; continue _fun0019 }
 case 53:
-                var4 = var6;
+                var5 = var6;
 case 42:
-                var1['eligiblePaymentGateways'] = var4;
-                var4 = var2.product_line;
-                var1['productLine'] = var4;
+                var1['eligiblePaymentGateways'] = var5;
+                var5 = var2.product_line;
+                var1['productLine'] = var5;
                 var7 = var2.name;
-                var9 = var5 != var7;
-                var4 = '';
-                var6 = var4;
+                var9 = var4 != var7;
+                var5 = '';
+                var6 = var5;
                 if(!var9) { _fun0019_ip = 67; continue _fun0019 }
 case 68:
                 var6 = var7;
 case 67:
                 var1['name'] = var6;
                 var6 = var2.release_date;
-                var7 = var5 != var6;
+                var7 = var4 != var6;
                 var6 = null;
                 if(!var7) { _fun0019_ip = 69; continue _fun0019 }
 case 70:
@@ -986,7 +988,7 @@ case 70:
 case 69:
                 var1['releaseDate'] = var6;
                 var6 = var2.preorder_release_at;
-                var7 = var5 != var6;
+                var7 = var4 != var6;
                 var6 = null;
                 if(!var7) { _fun0019_ip = 71; continue _fun0019 }
 case 72:
@@ -1037,7 +1039,7 @@ case 71:
                 var1['contentRatingAgency'] = var6;
                 var6 = var2.legal_notice;
                 var1['legalNotice'] = var6;
-                var7 = var5 != var8;
+                var7 = var4 != var8;
                 var6 = null;
                 if(!var7) { _fun0019_ip = 73; continue _fun0019 }
 case 74:
@@ -1056,7 +1058,7 @@ case 74:
 case 73:
                 var1['price'] = var6;
                 var7 = var2.premium;
-                var6 = var5 != var7;
+                var6 = var4 != var7;
                 if(!var6) { _fun0019_ip = 75; continue _fun0019 }
 case 76:
                 var6 = var7;
@@ -1075,72 +1077,78 @@ case 80:
 case 79:
                 var1['restricted'] = var6;
                 var6 = var2.slug;
-                var7 = var5 != var6;
+                var7 = var4 != var6;
                 if(!var7) { _fun0019_ip = 81; continue _fun0019 }
 case 82:
-                var4 = var6;
+                var5 = var6;
 case 81:
-                var1['slug'] = var4;
-                var4 = var2.exclusive;
-                if(var4) { _fun0019_ip = 83; continue _fun0019 }
+                var1['slug'] = var5;
+                var5 = var2.exclusive;
+                if(var5) { _fun0019_ip = 83; continue _fun0019 }
 case 84:
-                var4 = false;
+                var5 = false;
 case 83:
-                var1['exclusive'] = var4;
-                var4 = var2.locales;
-                if(!(var5 == var4)) { _fun0019_ip = 85; continue _fun0019 }
+                var1['exclusive'] = var5;
+                var5 = var2.locales;
+                if(!(var4 == var5)) { _fun0019_ip = 85; continue _fun0019 }
 case 86:
-                var4 = ['en-US'];
+                var5 = ['en-US'];
 case 85:
-                var1['locales'] = var4;
-                var4 = var2.flags;
-                var1['flags'] = var4;
-                var4 = var2.external_purchase_url;
-                var1['externalPurchaseUrl'] = var4;
+                var1['locales'] = var5;
+                var5 = var2.flags;
+                var1['flags'] = var5;
+                var5 = var2.external_purchase_url;
+                var1['externalPurchaseUrl'] = var5;
                 var6 = var2.deleted;
-                var4 = var5 != var6;
-                if(!var4) { _fun0019_ip = 87; continue _fun0019 }
+                var5 = var4 != var6;
+                if(!var5) { _fun0019_ip = 87; continue _fun0019 }
 case 88:
-                var4 = var6;
+                var5 = var6;
 case 87:
-                var1['deleted'] = var4;
-                var4 = var2.bundled_sku_ids;
-                if(!(var5 == var4)) { _fun0019_ip = 89; continue _fun0019 }
+                var1['deleted'] = var5;
+                var5 = var2.bundled_sku_ids;
+                if(!(var4 == var5)) { _fun0019_ip = 89; continue _fun0019 }
 case 90:
-                var4 = new Array(0);
+                var5 = new Array(0);
 case 89:
-                var1['bundledSkuIds'] = var4;
+                var1['bundledSkuIds'] = var5;
                 var9 = var2.bundled_skus;
-                var7 = var5 == var9;
-                var6 = undefined;
-                var4 = undefined;
-                if(var7) { _fun0019_ip = 91; continue _fun0019 }
+                var6 = var4 == var9;
+                var7 = undefined;
+                var5 = undefined;
+                if(var6) { _fun0019_ip = 91; continue _fun0019 }
 case 92:
                 var8 = var9.map;
-                var7 = function(arg1) {
+                var6 = function(arg1) {
                     var3 = _closure2_slot0;
                     var2 = var3.createFromServer;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var4 = var8.bind(var9)(var7);
+                var5 = var8.bind(var9)(var6);
 case 91:
-                if(!(var5 == var4)) { _fun0019_ip = 93; continue _fun0019 }
+                if(!(var4 == var5)) { _fun0019_ip = 93; continue _fun0019 }
 case 94:
-                var4 = new Array(0);
+                var5 = new Array(0);
 case 93:
-                var1['bundledSkus'] = var4;
-                var5 = _closure1_slot20;
-                var4 = var2.tenant_metadata;
-                var4 = var5.bind(var6)(var4);
-                var1['tenantMetadata'] = var4;
-                var4 = var2.thumbnail_asset_id;
-                var1['thumbnailAssetId'] = var4;
-                var4 = var2.description;
-                var1['description'] = var4;
-                var2 = var2.orbs_reward;
-                var1['orbsReward'] = var2;
+                var1['bundledSkus'] = var5;
+                var6 = _closure1_slot20;
+                var5 = var2.tenant_metadata;
+                var5 = var6.bind(var7)(var5);
+                var1['tenantMetadata'] = var5;
+                var5 = var2.thumbnail_asset_id;
+                var1['thumbnailAssetId'] = var5;
+                var5 = var2.description;
+                var1['description'] = var5;
+                var5 = var2.orbs_reward;
+                var1['orbsReward'] = var5;
+                var2 = var2.eligible_offers;
+                if(!(var4 == var2)) { _fun0019_ip = 95; continue _fun0019 }
+case 96:
+                var2 = new Array(0);
+case 95:
+                var1['eligibleOffers'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var12 = var2;

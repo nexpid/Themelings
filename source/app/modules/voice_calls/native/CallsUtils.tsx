@@ -65,15 +65,11 @@ case 0:
         var4 = var9[var15];
         var4 = var10.bind(var1)(var4);
         var _closure1_slot14 = var4;
-        var4 = var9[var15];
-        var4 = var8.bind(var1)(var4);
-        var4 = var4.RouteTypes;
-        var _closure1_slot15 = var4;
         var14 = 11;
         var4 = var9[var14];
         var4 = var8.bind(var1)(var4);
         var4 = var4.NativePermissionTypes;
-        var _closure1_slot16 = var4;
+        var _closure1_slot15 = var4;
         var4 = function() {
             var4 = _closure1_slot5;
             var3 = undefined;
@@ -109,7 +105,7 @@ case 7:
                         var3 = var10[var3];
                         var7 = var4.bind(var2)(var3);
                         var5 = var7.requestPermission;
-                        var3 = _closure1_slot16;
+                        var3 = _closure1_slot15;
                         var3 = var3.CAMERA;
                         var3 = var5.bind(var7)(var3);
                         SaveGenerator(address=128);
@@ -218,7 +214,7 @@ case 14:
         };
         var4 = 250;
         var4 = var7.bind(var11)(var5, var4);
-        var _closure1_slot17 = var4;
+        var _closure1_slot16 = var4;
         var4 = var9[var13];
         var7 = var10.bind(var1)(var4);
         var5 = var7.debounce;
@@ -229,7 +225,7 @@ case 14:
             return var1;
         };
         var4 = var5.bind(var7)(var4, var24);
-        var _closure1_slot18 = var4;
+        var _closure1_slot17 = var4;
         var5 = {};
         var12 = 22;
         var4 = var9[var12];
@@ -249,7 +245,7 @@ case 14:
         var4 = var9[var7];
         var4 = var10.bind(var1)(var4);
         var5['INVALID'] = var4;
-        var _closure1_slot19 = var5;
+        var _closure1_slot18 = var5;
         var10 = {};
         var10['TYPE_UNKNOWN'] = var25;
         var4 = 'TYPE_UNKNOWN';
@@ -355,15 +351,15 @@ case 14:
         var10['TYPE_HDMI_EARC'] = var11;
         var7 = 'TYPE_HDMI_EARC';
         var10[var11] = var7;
-        var7 = 30;
-        var10['TYPE_BLE_BROADCAST'] = var7;
-        var11 = 'TYPE_BLE_BROADCAST';
-        var10[var7] = var11;
-        var12 = 31;
-        var10['TYPE_DOCK_ANALOG'] = var12;
+        var11 = 30;
+        var10['TYPE_BLE_BROADCAST'] = var11;
+        var7 = 'TYPE_BLE_BROADCAST';
+        var10[var11] = var7;
+        var7 = 31;
+        var10['TYPE_DOCK_ANALOG'] = var7;
         var11 = 'TYPE_DOCK_ANALOG';
-        var10[var12] = var11;
-        var _closure1_slot20 = var10;
+        var10[var7] = var11;
+        var _closure1_slot19 = var10;
         var4 = var9[var4];
         var10 = var8.bind(var1)(var4);
         var4 = var10.isAndroid;
@@ -391,31 +387,37 @@ case 0:
                 var3[3] = var1;
                 var1 = _closure1_slot10;
                 var3[4] = var1;
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot13;
                 var3[5] = var1;
                 var1 = function() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot3;
+                        var6 = _closure1_slot0;
+                        var7 = _closure1_slot3;
                         var2 = 29;
-                        var3 = var3[var2];
-                        var2 = undefined;
-                        var8 = var4.bind(var2)(var3);
-                        var7 = var8.isVideoMode;
-                        var13 = _closure1_slot9;
-                        var12 = _closure1_slot11;
-                        var11 = _closure1_slot8;
-                        var10 = _closure1_slot12;
-                        var9 = _closure1_slot10;
-                        var14 = var8;
-                        var3 = var14[var7](var13, var12, var11, var10, var9, var8);
-                        var4 = _closure1_slot14;
-                        var2 = var4.getCurrentRouteType;
-                        var2 = var2.bind(var4)();
-                        var1 = _closure1_slot15;
-                        var4 = var1.SPEAKER;
+                        var2 = var7[var2];
+                        var5 = undefined;
+                        var11 = var6.bind(var5)(var2);
+                        var10 = var11.isVideoMode;
+                        var16 = _closure1_slot9;
+                        var15 = _closure1_slot11;
+                        var14 = _closure1_slot8;
+                        var13 = _closure1_slot12;
+                        var12 = _closure1_slot10;
+                        var17 = var11;
+                        var3 = var17[var10](var16, var15, var14, var13, var12, var11);
+                        var2 = _closure1_slot13;
+                        var1 = var2.getCurrentRouteType;
+                        var2 = var1.bind(var2)();
+                        var1 = 30;
+                        var4 = var7[var1];
+                        var4 = var6.bind(var5)(var4);
+                        var4 = var4.RouteTypes;
+                        var4 = var4.SPEAKER;
                         var4 = var2 === var4;
+                        var1 = var7[var1];
+                        var1 = var6.bind(var5)(var1);
+                        var1 = var1.RouteTypes;
                         var1 = var1.BLUETOOTH;
                         var2 = var2 === var1;
                         var1 = {};
@@ -458,12 +460,12 @@ case 20:
                 var3 = function() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                        var3 = _closure1_slot14;
+                        var3 = _closure1_slot13;
                         var2 = var3.getMultipleRoutesAvailable;
                         var2 = var2.bind(var3)();
                         if(var2) { _fun0006_ip = 22; continue _fun0006 }
 case 23:
-                        var3 = _closure1_slot18;
+                        var3 = _closure1_slot17;
                         var2 = var3.cancel;
                         var2 = var2.bind(var3)();
                         var3 = _closure2_slot1;
@@ -475,7 +477,7 @@ case 24:
                         var2 = undefined;
                         var2 = var4.bind(var2)(var3);
 case 22:
-                        var3 = _closure1_slot17;
+                        var3 = _closure1_slot16;
                         var1 = _closure2_slot2;
                         var2 = !var1;
                         var1 = undefined;
@@ -491,7 +493,7 @@ case 22:
                 var2 = function() {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                        var3 = _closure1_slot14;
+                        var3 = _closure1_slot13;
                         var2 = var3.getMultipleRoutesAvailable;
                         var2 = var2.bind(var3)();
                         if(var2) { _fun0007_ip = 25; continue _fun0007 }
@@ -499,7 +501,7 @@ case 23:
                         var2 = _closure2_slot1;
                         if(var2) { _fun0007_ip = 25; continue _fun0007 }
 case 26:
-                        var3 = _closure1_slot18;
+                        var3 = _closure1_slot17;
                         var2 = undefined;
                         var1 = function() {
                             var3 = _closure2_slot3;
@@ -550,13 +552,13 @@ case 16:
             var2 = undefined;
             var5 = var4.bind(var2)(var3);
             var4 = var5.useStateFromStoresObject;
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot14;
             var3 = new Array(1);
             var3[0] = var1;
             var2 = function() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                    var2 = _closure1_slot13;
+                    var2 = _closure1_slot14;
                     var1 = var2.getActiveAudioDevice;
                     var7 = var1.bind(var2)();
                     var1 = {};
@@ -570,7 +572,7 @@ case 0:
                     var2 = var3.bind(var6)(var2);
                     var2 = var2.showAudioOutputSelector;
                     var1['toggleAudio'] = var2;
-                    var3 = _closure1_slot19;
+                    var3 = _closure1_slot18;
                     var5 = null;
                     var8 = var5 == var7;
                     var2 = undefined;
@@ -624,7 +626,7 @@ case 31:
             var1 = undefined;
             var7 = var3.bind(var1)(var5);
             var6 = var7.requestPermission;
-            var2 = _closure1_slot16;
+            var2 = _closure1_slot15;
             var5 = var2.AUDIO;
             var2 = {};
             var8 = true;
@@ -1027,7 +1029,7 @@ case 0:
                 var4 = var5.bind(var8)(var4);
                 var3['INVALID'] = var4;
                 var5 = var1.deviceType;
-                var4 = _closure1_slot20;
+                var4 = _closure1_slot19;
                 var4 = var4.TYPE_BLE_HEADSET;
                 if(!(var5 !== var4)) { _fun0010_ip = 38; continue _fun0010 }
 case 39:
@@ -1055,42 +1057,48 @@ case 2:
         var2 = function() {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                var3 = _closure1_slot0;
+                var4 = _closure1_slot0;
                 var7 = _closure1_slot3;
                 var1 = 26;
                 var1 = var7[var1];
                 var5 = undefined;
-                var8 = var3.bind(var5)(var1);
-                var4 = var8.useStateFromStores;
-                var1 = _closure1_slot14;
+                var9 = var4.bind(var5)(var1);
+                var8 = var9.useStateFromStores;
+                var1 = _closure1_slot13;
                 var3 = new Array(1);
                 var3[0] = var1;
                 var1 = function() {
-                    var2 = _closure1_slot14;
+                    var2 = _closure1_slot13;
                     var1 = var2.getCurrentRouteType;
                     var1 = var1.bind(var2)();
                     return var1;
                 };
-                var3 = var4.bind(var8)(var3, var1);
-                var4 = _closure1_slot1;
+                var3 = var8.bind(var9)(var3, var1);
+                var8 = _closure1_slot1;
                 var1 = 29;
                 var1 = var7[var1];
-                var1 = var4.bind(var5)(var1);
+                var1 = var8.bind(var5)(var1);
                 var10 = var1.bind(var5)();
                 var _closure2_slot0 = var10;
-                var1 = _closure1_slot15;
-                var4 = var1.SPEAKER;
-                var11 = var3 === var4;
+                var1 = 30;
+                var8 = var7[var1];
+                var8 = var4.bind(var5)(var8);
+                var8 = var8.RouteTypes;
+                var8 = var8.SPEAKER;
+                var11 = var3 === var8;
+                var1 = var7[var1];
+                var1 = var4.bind(var5)(var1);
+                var1 = var1.RouteTypes;
                 var1 = var1.BLUETOOTH;
                 var1 = var3 === var1;
-                if(var11) { _fun0011_ip = 40; continue _fun0011 }
-case 41:
-                var11 = var1;
+                if(var11) { _fun0011_ip = 13; continue _fun0011 }
 case 40:
-                if(var11) { _fun0011_ip = 42; continue _fun0011 }
-case 43:
-                var11 = var10;
+                var11 = var1;
+case 13:
+                if(var11) { _fun0011_ip = 41; continue _fun0011 }
 case 42:
+                var11 = var10;
+case 41:
                 var _closure2_slot1 = var11;
                 var9 = _closure1_slot6;
                 var3 = var9.useState;
@@ -1111,12 +1119,12 @@ case 42:
                 var3 = function() {
                     _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                        var3 = _closure1_slot14;
+                        var3 = _closure1_slot13;
                         var2 = var3.getMultipleRoutesAvailable;
                         var2 = var2.bind(var3)();
                         if(var2) { _fun0012_ip = 22; continue _fun0012 }
 case 23:
-                        var3 = _closure1_slot18;
+                        var3 = _closure1_slot17;
                         var2 = var3.cancel;
                         var2 = var2.bind(var3)();
                         var3 = _closure2_slot0;
@@ -1128,7 +1136,7 @@ case 24:
                         var2 = undefined;
                         var2 = var4.bind(var2)(var3);
 case 22:
-                        var3 = _closure1_slot17;
+                        var3 = _closure1_slot16;
                         var1 = _closure2_slot2;
                         var2 = !var1;
                         var1 = undefined;
@@ -1151,15 +1159,15 @@ case 22:
                 var2 = var8.bind(var9)(var2, var7);
                 var2 = _closure1_slot1;
                 var7 = _closure1_slot3;
-                if(var1) { _fun0011_ip = 44; continue _fun0011 }
-case 45:
+                if(var1) { _fun0011_ip = 43; continue _fun0011 }
+case 44:
                 var1 = 24;
                 var1 = var7[var1];
-                _fun0011_ip = 46; continue _fun0011;
-case 44:
+                _fun0011_ip = 45; continue _fun0011;
+case 43:
                 var6 = 23;
                 var1 = var7[var6];
-case 46:
+case 45:
                 var2 = var2.bind(var5)(var1);
                 var1 = {};
                 var1['isAudioRouteEnabled'] = var4;

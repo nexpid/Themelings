@@ -100,7 +100,7 @@ case 6:
     var2 = var5.bind(var1)(var2);
     var2 = var2.AnalyticEvents;
     var _closure1_slot8 = var2;
-    var2 = {'numberOfDCsShownToday': 0, 'dailyCapPeriodStart': null, 'dismissibleContentSeenDuringSession': null, 'dailyCapOverridden': false, 'newUserMinAgeRequiredOverridden': false, 'renderedAtTimestamps': null, 'lastDCDismissed': null};
+    var2 = {'numberOfDCsShownToday': 0, 'dailyCapPeriodStart': null, 'dismissibleContentSeenDuringSession': null, 'dailyCapOverridden': false, 'newUserMinAgeRequiredOverridden': false, 'renderedAtTimestamps': null, 'lastDismissed': null};
     var9 = var8.Set;
     var10 = var9.prototype;
     var10 = Object.create(var10, {constructor: {value: var9}});
@@ -226,7 +226,7 @@ case 11:
                 var3 = var3 instanceof Object ? var3 : var5;
                 var4['seenForGuildId'] = var3;
                 var1 = _closure1_slot9;
-                var1['lastDCDismissed'] = var2;
+                var1['lastDismissed'] = var2;
                 var1 = undefined;
                 return var1;
             }
@@ -264,11 +264,11 @@ case 11:
         var5['get'] = var7;
         var1[3] = var5;
         var5 = {};
-        var7 = 'lastDCDismissed';
+        var7 = 'lastDismissed';
         var5['key'] = var7;
         var7 = function get() {
             var1 = _closure1_slot9;
-            var1 = var1.lastDCDismissed;
+            var1 = var1.lastDismissed;
             return var1;
         };
         var5['get'] = var7;
@@ -611,31 +611,55 @@ case 37:
     };
     var2['DCF_HANDLE_DC_SHOWN'] = var9;
     var9 = function handleDCDismissed(arg1) {
-        var1 = arg1;
-        var3 = var1.dismissibleContent;
-        var2 = _closure1_slot9;
-        var2['lastDCDismissed'] = var3;
-        var1 = _closure1_slot9;
-        var2 = var1.renderedAtTimestamps;
-        var1 = var2.delete;
-        var1 = var1.bind(var2)(var3);
-        var1 = undefined;
-        return var1;
-    };
-    var2['DCF_HANDLE_DC_DISMISSED'] = var9;
-    var9 = function handleResetLastDCDismissed(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.dismissibleContent;
-            var2 = _closure1_slot9;
-            var1 = null;
-            var4 = var1 != var3;
-            if(!var4) { _fun0007_ip = 53; continue _fun0007 }
+            var6 = var1.guildId;
+            var4 = _closure1_slot9;
+            var2 = {};
+            var2['content'] = var3;
+            var5 = null;
+            var7 = var5 != var6;
+            if(!var7) { _fun0007_ip = 53; continue _fun0007 }
 case 54:
-            var1 = var3;
+            var5 = var6;
 case 53:
-            var2['lastDCDismissed'] = var1;
+            var2['guildId'] = var5;
+            var4['lastDismissed'] = var2;
+            var1 = _closure1_slot9;
+            var2 = var1.renderedAtTimestamps;
+            var1 = var2.delete;
+            var1 = var1.bind(var2)(var3);
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var2['DCF_HANDLE_DC_DISMISSED'] = var9;
+    var9 = function handleResetLastDCDismissed(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var1 = arg1;
+            var6 = var1.dismissibleContent;
+            var5 = var1.guildId;
+            var2 = _closure1_slot9;
+            var4 = null;
+            var3 = var4 != var6;
+            var1 = null;
+            if(!var3) { _fun0008_ip = 55; continue _fun0008 }
+case 56:
+            var3 = {};
+            var3['content'] = var6;
+            var6 = var4 != var5;
+            var4 = null;
+            if(!var6) { _fun0008_ip = 57; continue _fun0008 }
+case 58:
+            var4 = var5;
+case 57:
+            var3['guildId'] = var4;
+            var1 = var3;
+case 55:
+            var2['lastDismissed'] = var1;
             var1 = undefined;
             return var1;
         }
@@ -666,7 +690,7 @@ case 53:
         var3 = var3 instanceof Object ? var3 : var5;
         var4['seenForGuildId'] = var3;
         var1 = _closure1_slot9;
-        var1['lastDCDismissed'] = var2;
+        var1['lastDismissed'] = var2;
         var1 = undefined;
         return var1;
     };

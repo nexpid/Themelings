@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.ChannelTypes;
     var _closure1_slot5 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -242,7 +242,7 @@ case 26:
         }
     };
     var3['getNotificationBodyText'] = var4;
-    var2 = function isReactionMilestoneNotification(arg1, arg2) {
+    var4 = function isReactionMilestoneNotification(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg2;
@@ -305,6 +305,18 @@ case 30:
             return var1;
         }
     };
-    var3['isReactionMilestoneNotification'] = var2;
+    var3['isReactionMilestoneNotification'] = var4;
+    var2 = function generateInAppNotificationId() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.v4;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var3['generateInAppNotificationId'] = var2;
     return var1;
 })();

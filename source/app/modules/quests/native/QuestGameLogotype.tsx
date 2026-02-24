@@ -71,15 +71,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
-            var11 = var3.assetUrl;
-            var _closure2_slot0 = var11;
-            var13 = var3.width;
+            var12 = var3.assetUrl;
+            var _closure2_slot0 = var12;
+            var14 = var3.width;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var14 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var13 = 120;
+            var14 = 120;
 case 2:
-            var _closure2_slot1 = var13;
+            var _closure2_slot1 = var14;
             var8 = var3.height;
             var _closure2_slot2 = var8;
             var6 = var3.maxWidth;
@@ -87,28 +87,29 @@ case 2:
             var1 = var3.maxHeight;
             var _closure2_slot4 = var1;
             var7 = var3.style;
+            var11 = var3.onError;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var3 = _closure1_slot9;
-            var12 = var3.bind(var4)();
+            var13 = var3.bind(var4)();
             var10 = _closure1_slot4;
             var5 = var10.useState;
             var3 = null;
-            var14 = var5.bind(var10)(var3);
+            var15 = var5.bind(var10)(var3);
             var5 = _closure1_slot3;
             var3 = 2;
-            var5 = var5.bind(var4)(var14, var3);
+            var5 = var5.bind(var4)(var15, var3);
             var3 = 0;
-            var14 = var5[var3];
-            _closure2_slot5 = var14;
+            var15 = var5[var3];
+            _closure2_slot5 = var15;
             var3 = 1;
             var3 = var5[var3];
             _closure2_slot6 = var3;
             var5 = var10.useMemo;
             var3 = new Array(5);
-            var3[0] = var14;
-            var3[1] = var13;
+            var3[0] = var15;
+            var3[1] = var14;
             var3[2] = var8;
             var3[3] = var6;
             var3[4] = var1;
@@ -175,11 +176,11 @@ case 11:
                     return var1;
                 }
             };
-            var13 = var5.bind(var10)(var1, var3);
-            _closure2_slot7 = var13;
+            var14 = var5.bind(var10)(var1, var3);
+            _closure2_slot7 = var14;
             var5 = var10.useEffect;
             var3 = new Array(1);
-            var3[0] = var11;
+            var3[0] = var12;
             var1 = function() {
                 var4 = _closure1_slot6;
                 var3 = var4.getSize;
@@ -213,13 +214,13 @@ case 15:
                 return var1;
             };
             var1 = var5.bind(var10)(var1, var3);
-            var16 = _closure1_slot0;
+            var17 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 7;
             var3 = var6[var1];
-            var8 = var16.bind(var4)(var3);
+            var8 = var17.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
-            var3 = function P() {
+            var3 = function C() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -245,24 +246,24 @@ case 17:
                     return var1;
                 }
             };
-            var14 = {};
-            var15 = 8;
-            var15 = var6[var15];
-            var15 = var16.bind(var4)(var15);
-            var15 = var15.withSpring;
-            var14['withSpring'] = var15;
-            var14['logoDimensionStyles'] = var13;
-            var15 = _closure1_slot8;
-            var14['SPRING_CONFIG'] = var15;
-            var3['__closure'] = var14;
-            var14 = 11242802634598.0;
-            var3['__workletHash'] = var14;
-            var14 = _closure1_slot10;
-            var3['__initData'] = var14;
+            var15 = {};
+            var16 = 8;
+            var16 = var6[var16];
+            var16 = var17.bind(var4)(var16);
+            var16 = var16.withSpring;
+            var15['withSpring'] = var16;
+            var15['logoDimensionStyles'] = var14;
+            var16 = _closure1_slot8;
+            var15['SPRING_CONFIG'] = var16;
+            var3['__closure'] = var15;
+            var15 = 11242802634598.0;
+            var3['__workletHash'] = var15;
+            var15 = _closure1_slot10;
+            var3['__initData'] = var15;
             var8 = var5.bind(var8)(var3);
             var5 = var10.useMemo;
             var3 = new Array(1);
-            var3[0] = var11;
+            var3[0] = var12;
             var2 = function() {
                 var3 = _closure2_slot0;
                 var2 = var3.endsWith;
@@ -291,31 +292,33 @@ case 20:
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var7 = {};
-            var7['uri'] = var11;
+            var7['uri'] = var12;
             var5['source'] = var7;
             var7 = new Array(2);
-            var7[0] = var13;
-            var10 = var12.logo;
+            var7[0] = var14;
+            var10 = var13.logo;
             var7[1] = var10;
             var5['style'] = var7;
+            var5['onError'] = var11;
             var5 = var8.bind(var4)(var6, var5);
             _fun0001_ip = 21; continue _fun0001;
 case 19:
             var7 = _closure1_slot5;
             var6 = {};
             var10 = new Array(2);
-            var10[0] = var13;
-            var12 = var12.logo;
-            var10[1] = var12;
+            var10[0] = var14;
+            var13 = var13.logo;
+            var10[1] = var13;
             var6['style'] = var10;
             var10 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var9 = 9;
-            var9 = var12[var9];
+            var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.SvgUri;
             var9 = {'height': '100%', 'width': '100%'};
-            var9['uri'] = var11;
+            var9['uri'] = var12;
+            var9['onError'] = var11;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);

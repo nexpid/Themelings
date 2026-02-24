@@ -5,7 +5,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var6;
     var1 = global;
     var7 = var1.Object;
     var4 = var7.defineProperty;
@@ -18,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var1];
     var1 = undefined;
     var2 = var10.bind(var1)(var2);
-    var _closure1_slot2 = var2;
+    var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -30,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var11 = function title() {
         var5 = _closure1_slot0;
-        var6 = _closure1_slot1;
+        var6 = _closure1_slot2;
         var1 = 4;
         var2 = var6[var1];
         var4 = undefined;
@@ -51,17 +52,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['maximum'] = var9;
     var9 = function useOutputVolumeSettingValue() {
         var4 = _closure1_slot0;
-        var3 = _closure1_slot1;
+        var3 = _closure1_slot2;
         var2 = 2;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
         var3 = var4.useStateFromStores;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var2 = new Array(1);
         var2[0] = var1;
         var1 = function() {
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var1 = var2.getOutputVolume;
             var1 = var1.bind(var2)();
             return var1;
@@ -75,9 +76,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var10.bind(var1)(var9);
     var9 = var9.setOutputVolume;
     var2['onValueChange'] = var9;
-    var8 = function additionalSearchTerms() {
+    var9 = function additionalSearchTerms() {
         var6 = _closure1_slot0;
-        var7 = _closure1_slot1;
+        var7 = _closure1_slot2;
         var2 = 4;
         var1 = var7[var2];
         var5 = undefined;
@@ -103,9 +104,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[1] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var8;
+    var2['additionalSearchTerms'] = var9;
+    var8 = function usePredicate() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.useConfig;
+        var1 = {};
+        var4 = 'OutputVolumeSetting';
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.audioOutputPresent;
+        return var1;
+    };
+    var2['usePredicate'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

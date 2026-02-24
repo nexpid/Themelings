@@ -472,18 +472,18 @@ case 32:
                     var15 = var15.bind(var1)(var14);
                     var14 = var15.isAndroid;
                     var14 = var14.bind(var15)();
-                    if(var14) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+                    if(var14) { _fun0005_ip = 15; continue _fun0005 }
+case 34:
                     var14 = _closure1_slot4;
                     var14 = var14.DCDFastConnectManager;
                     var15 = var14.useChannelObfuscation;
                     var14 = var10 != var15;
-                    if(!var14) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
-                    var14 = var15;
+                    if(!var14) { _fun0005_ip = 35; continue _fun0005 }
 case 36:
-                    _fun0005_ip = 38; continue _fun0005;
-case 34:
+                    var14 = var15;
+case 35:
+                    _fun0005_ip = 37; continue _fun0005;
+case 15:
                     var16 = _closure1_slot1;
                     var17 = _closure1_slot3;
                     var15 = 5;
@@ -493,12 +493,12 @@ case 34:
                     var15 = var15.bind(var16)();
                     var16 = var15.useChannelObfuscation;
                     var15 = var10 != var16;
-                    if(!var15) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
-                    var15 = var16;
+                    if(!var15) { _fun0005_ip = 38; continue _fun0005 }
 case 39:
-                    var14 = var15;
+                    var15 = var16;
 case 38:
+                    var14 = var15;
+case 37:
                     var7['useChannelObfuscation'] = var14;
                     var7 = var8.bind(var9)(var7);
                     var2['capabilities'] = var7;
@@ -519,8 +519,8 @@ case 38:
                     var8 = var8.bind(var1)(var7);
                     var7 = var8.isAndroid;
                     var7 = var7.bind(var8)();
-                    if(var7) { _fun0005_ip = 41; continue _fun0005 }
-case 9:
+                    if(var7) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                     var7 = _closure1_slot4;
                     var13 = var7.DCDFastConnectManager;
                     var8 = var13.prepareIdentify;
@@ -543,7 +543,7 @@ case 42:
                     var18 = var7;
                     var7 = var22[var8](var21, var20, var19, var18, var17);
                     _fun0005_ip = 44; continue _fun0005;
-case 41:
+case 40:
                     var8 = var10 == var12;
                     var7 = undefined;
                     if(var8) { _fun0005_ip = 45; continue _fun0005 }

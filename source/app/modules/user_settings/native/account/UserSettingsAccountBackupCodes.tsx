@@ -71,8 +71,8 @@ case 5:
             var9 = 6;
             var9 = var11[var9];
             var9 = var10.bind(var3)(var9);
-            var9 = var9.unsafe_rawColors;
-            var9 = var9.BRAND_500;
+            var9 = var9.colors;
+            var9 = var9.TEXT_BRAND;
             var6['color'] = var9;
             var5 = var8.bind(var3)(var7, var6);
 case 4:

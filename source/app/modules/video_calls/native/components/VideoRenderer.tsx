@@ -547,26 +547,20 @@ case 35:
             if(!var14) { _fun0001_ip = 39; continue _fun0001 }
 case 40:
             var3 = _closure1_slot9;
-            var27 = _closure1_slot1;
-            var28 = _closure1_slot2;
+            var2 = _closure1_slot1;
+            var12 = _closure1_slot2;
             var1 = 8;
-            var1 = var28[var1];
-            var2 = var27.bind(var5)(var1);
+            var1 = var12[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = {};
             var1['animate'] = var18;
             var12 = var16.spinner;
             var1['style'] = var12;
-            var12 = 9;
-            var12 = var28[var12];
-            var12 = var27.bind(var5)(var12);
-            var12 = var12.unsafe_rawColors;
-            var12 = var12.BRAND_500;
-            var1['color'] = var12;
             var17 = var3.bind(var5)(var2, var1);
 case 39:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var12 = var3[var1];
             var27 = var2.bind(var5)(var12);
             var12 = var27.useStore;
@@ -604,7 +598,7 @@ case 44:
             var28 = _closure1_slot9;
             var27 = _closure1_slot1;
             var29 = _closure1_slot2;
-            var3 = 12;
+            var3 = 11;
             var3 = var29[var3];
             var27 = var27.bind(var5)(var3);
             var3 = {};
@@ -647,12 +641,12 @@ case 43:
             var28 = _closure1_slot9;
             var30 = _closure1_slot1;
             var32 = _closure1_slot2;
-            var23 = 13;
+            var23 = 12;
             var23 = var32[var23];
             var23 = var30.bind(var5)(var23);
             var27 = var23.View;
             var23 = {};
-            var29 = 12;
+            var29 = 11;
             var29 = var32[var29];
             var30 = var30.bind(var5)(var29);
             var29 = {};
@@ -700,7 +694,7 @@ case 41:
             var8 = _closure1_slot9;
             var18 = _closure1_slot1;
             var23 = _closure1_slot2;
-            var6 = 11;
+            var6 = 10;
             var6 = var23[var6];
             var7 = var18.bind(var5)(var6);
             var6 = {};
@@ -719,7 +713,7 @@ case 41:
             var16['alignItems'] = var24;
             var16['justifyContent'] = var24;
             var15['style'] = var16;
-            var16 = 12;
+            var16 = 11;
             var16 = var23[var16];
             var18 = var18.bind(var5)(var16);
             var16 = {};
@@ -766,7 +760,7 @@ case 50:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 14;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

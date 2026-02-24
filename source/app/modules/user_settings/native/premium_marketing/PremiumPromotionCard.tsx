@@ -316,8 +316,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12['style'] = var17;
         var14 = var16[var14];
         var14 = var15.bind(var4)(var14);
-        var14 = var14.unsafe_rawColors;
-        var14 = var14.BRAND_500;
+        var14 = var14.colors;
+        var14 = var14.BACKGROUND_BRAND;
         var12['color'] = var14;
         var14 = 'custom';
         var12['size'] = var14;

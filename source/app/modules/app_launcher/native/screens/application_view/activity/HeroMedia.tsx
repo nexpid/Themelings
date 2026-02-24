@@ -99,7 +99,7 @@ case 6:
     var5['mediaBackground'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot7 = var5;
-    var5 = 12;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -109,116 +109,143 @@ case 6:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.applicationId;
+            var3 = var1.applicationId;
             var12 = var1.containerHeight;
-            var7 = var1.width;
+            var4 = var1.width;
             var1 = _closure1_slot7;
             var5 = undefined;
             var6 = var1.bind(var5)();
-            var3 = _closure1_slot8;
+            var2 = _closure1_slot8;
             var1 = {};
-            var1['width'] = var7;
-            var10 = var3.bind(var5)(var1);
-            var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var1['width'] = var4;
+            var10 = var2.bind(var5)(var1);
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
             var1 = 7;
-            var1 = var8[var1];
-            var3 = var3.bind(var5)(var1);
+            var1 = var4[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = {};
-            var1['applicationId'] = var4;
-            var7 = var10.width;
-            var1['size'] = var7;
-            var7 = ['embedded_cover'];
-            var1['names'] = var7;
-            var7 = var3.bind(var5)(var1);
-            var3 = _closure1_slot0;
+            var1['applicationId'] = var3;
+            var8 = var10.width;
+            var1['size'] = var8;
+            var8 = ['embedded_cover'];
+            var1['names'] = var8;
+            var9 = var2.bind(var5)(var1);
+            var2 = _closure1_slot0;
             var1 = 8;
-            var1 = var8[var1];
-            var14 = var3.bind(var5)(var1);
+            var1 = var4[var1];
+            var14 = var2.bind(var5)(var1);
             var13 = var14.useStateFromStores;
             var1 = _closure1_slot3;
             var11 = new Array(1);
             var11[0] = var1;
-            var9 = function() {
+            var8 = function() {
                 var1 = _closure1_slot3;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
             var1 = new Array(0);
-            var9 = var13.bind(var14)(var11, var9, var1);
+            var11 = var13.bind(var14)(var11, var8, var1);
             var1 = 9;
-            var1 = var8[var1];
-            var3 = var3.bind(var5)(var1);
-            var1 = var3.useGetOrFetchApplication;
-            var3 = var1.bind(var3)(var4);
+            var1 = var4[var1];
+            var2 = var2.bind(var5)(var1);
+            var1 = var2.useGetOrFetchApplication;
+            var16 = var1.bind(var2)(var3);
             var8 = null;
-            var11 = var8 == var3;
+            var2 = var8 == var16;
             var1 = undefined;
-            if(var11) { _fun0002_ip = 8; continue _fun0002 }
+            if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var1 = var3.embeddedActivityConfig;
+            var1 = var16.embeddedActivityConfig;
 case 8:
-            var11 = var8 == var1;
-            var3 = undefined;
-            if(var11) { _fun0002_ip = 10; continue _fun0002 }
+            var4 = var8 == var1;
+            var2 = undefined;
+            if(var4) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var3 = var1.activity_preview_video_asset_id;
+            var2 = var1.activity_preview_video_asset_id;
 case 10:
-            var3 = var8 != var3;
-            var13 = null;
-            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+            var2 = var8 != var2;
+            var15 = null;
+            if(!var2) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var11 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var3 = 10;
-            var3 = var14[var3];
-            var3 = var11.bind(var5)(var3);
+            var4 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var2 = 10;
+            var2 = var13[var2];
+            var2 = var4.bind(var5)(var2);
             var1 = var1.activity_preview_video_asset_id;
-            var13 = var3.bind(var5)(var4, var1);
+            var15 = var2.bind(var5)(var3, var1);
 case 12:
-            var3 = var8 == var13;
+            var2 = var8 == var15;
             var1 = null;
-            if(var3) { _fun0002_ip = 14; continue _fun0002 }
+            if(var2) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var11 = '';
+            var14 = '';
             var1 = null;
-            if(!(var11 !== var13)) { _fun0002_ip = 14; continue _fun0002 }
+            if(!(var14 !== var15)) { _fun0002_ip = 14; continue _fun0002 }
 case 16:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
-            var14 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var2 = 11;
-            var2 = var14[var2];
+            var2 = var13[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
-            var2['paused'] = var9;
-            if(!(var8 != var13)) { _fun0002_ip = 17; continue _fun0002 }
+            var2['paused'] = var11;
+            if(!(var8 != var15)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            if(!(var11 === var13)) { _fun0002_ip = 19; continue _fun0002 }
+            if(!(var14 === var15)) { _fun0002_ip = 19; continue _fun0002 }
 case 17:
-            var9 = {};
-            var14 = var7.url;
-            var15 = var8 != var14;
-            if(!var15) { _fun0002_ip = 20; continue _fun0002 }
+            var11 = {};
+            var17 = var9.url;
+            var18 = var8 != var17;
+            var13 = var14;
+            if(!var18) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-            var11 = var14;
+            var13 = var17;
 case 20:
-            var9['uri'] = var11;
+            var11['uri'] = var13;
             _fun0002_ip = 22; continue _fun0002;
 case 19:
-            var11 = {};
-            var11['videoURI'] = var13;
-            var9 = var11;
+            var13 = {};
+            var13['videoURI'] = var15;
+            var11 = var13;
 case 22:
-            var2['src'] = var9;
-            var9 = var10.height;
-            var2['height'] = var9;
-            var9 = var10.width;
-            var2['width'] = var9;
-            var7 = var7.url;
-            var2['poster'] = var7;
-            var7 = 'cover';
-            var2['resizeMode'] = var7;
+            var2['src'] = var11;
+            var11 = var10.height;
+            var2['height'] = var11;
+            var11 = var10.width;
+            var2['width'] = var11;
+            var9 = var9.url;
+            var2['poster'] = var9;
+            var9 = 'cover';
+            var2['resizeMode'] = var9;
+            var9 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var7 = 12;
+            var11 = var15[var7];
+            var11 = var9.bind(var5)(var11);
+            var13 = var11.intl;
+            var11 = var13.formatToPlainString;
+            var7 = var15[var7];
+            var7 = var9.bind(var5)(var7);
+            var7 = var7.t;
+            var9 = var7.Af+EQD;
+            var7 = {};
+            var17 = var8 == var16;
+            var15 = undefined;
+            if(var17) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
+            var15 = var16.name;
+case 23:
+            var16 = var8 != var15;
+            if(!var16) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
+            var14 = var15;
+case 25:
+            var7['applicationName'] = var14;
+            var7 = var11.bind(var13)(var9, var7);
+            var2['accessibilityLabel'] = var7;
             var9 = var6.mediaBackground;
             var7 = new Array(3);
             var7[0] = var9;
@@ -227,8 +254,8 @@ case 22:
             var9['maxHeight'] = var11;
             var7[1] = var9;
             var8 = var8 != var12;
-            if(!var8) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(!var8) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var9 = {};
             var11 = {};
             var10 = var10.height;
@@ -240,7 +267,7 @@ case 24:
             var10[0] = var11;
             var9['transform'] = var10;
             var8 = var9;
-case 23:
+case 27:
             var7[2] = var8;
             var2['style'] = var7;
             var6 = var6.mediaBackground;

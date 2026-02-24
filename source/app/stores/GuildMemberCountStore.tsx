@@ -316,15 +316,15 @@ case 0:
             var3 = var1.guildId;
             var2 = var1.count;
             var1 = null;
-            if(!(var1 != var3)) { _fun0008_ip = 21; continue _fun0008 }
-case 22:
-            if(!(var1 != var2)) { _fun0008_ip = 21; continue _fun0008 }
-case 23:
+            if(!(var1 != var3)) { _fun0008_ip = 6; continue _fun0008 }
+case 21:
+            if(!(var1 != var2)) { _fun0008_ip = 6; continue _fun0008 }
+case 14:
             var1 = _closure1_slot6;
             var1[var3] = var2;
             var1 = undefined;
             return var1;
-case 21:
+case 6:
             var1 = false;
             return var1;
         }

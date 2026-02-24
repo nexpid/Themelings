@@ -175,8 +175,11 @@ case 6:
             var6 = 0.8;
             var2['activeOpacity'] = var6;
             var2['disabled'] = var14;
-            var6 = 'button';
+            var6 = 'radio';
             var2['accessibilityRole'] = var6;
+            var6 = {};
+            var6['selected'] = var16;
+            var2['accessibilityState'] = var6;
             var8 = _closure1_slot7;
             var7 = _closure1_slot4;
             var6 = {};

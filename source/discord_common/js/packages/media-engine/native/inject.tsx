@@ -101,7 +101,7 @@ case 6:
         }
     };
     var3['getVoiceEngine'] = var4;
-    var2 = function getVoiceFilters() {
+    var4 = function getVoiceFilters() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot3;
@@ -122,6 +122,16 @@ case 6:
             return var1;
         }
     };
-    var3['getVoiceFilters'] = var2;
+    var3['getVoiceFilters'] = var4;
+    var2 = function getOpenH264LibraryPath() {
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var2 = var3.bind(var2)();
+        var2 = _closure1_slot0;
+        var1 = var2.getOpenH264LibraryPath;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var3['getOpenH264LibraryPath'] = var2;
     return var1;
 })();

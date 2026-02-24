@@ -230,10 +230,10 @@ case 0:
             var2 = var1[var2];
             var4 = null;
             if(!(var4 != var2)) { _fun0006_ip = 17; continue _fun0006 }
-case 16:
+case 18:
             var1 = var2[var3];
-            if(!(var4 != var1)) { _fun0006_ip = 18; continue _fun0006 }
-case 15:
+            if(!(var4 != var1)) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var1 = global;
             var4 = var1.Object;
             var1 = var4.keys;
@@ -244,7 +244,7 @@ case 15:
             var2[var3] = var1;
             var1 = undefined;
             return var1;
-case 18:
+case 19:
             var1 = false;
             return var1;
 case 17:
@@ -263,20 +263,20 @@ case 0:
             var4 = var1[var2];
             var3 = null;
             var1 = var3 != var4;
-            if(!var1) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
+            if(!var1) { _fun0007_ip = 21; continue _fun0007 }
+case 22:
             var2 = var4[var5];
             var2 = var3 != var2;
-            if(!var2) { _fun0007_ip = 21; continue _fun0007 }
-case 15:
+            if(!var2) { _fun0007_ip = 23; continue _fun0007 }
+case 20:
             var6 = var4[var5];
             var3 = 1;
             var3 = var6 + var3;
             var4[var5] = var3;
             var2 = undefined;
-case 21:
+case 23:
             var1 = var2;
-case 19:
+case 21:
             return var1;
         }
     };
@@ -291,12 +291,12 @@ case 0:
             var4 = var1[var2];
             var3 = null;
             var1 = var3 != var4;
-            if(!var1) { _fun0008_ip = 22; continue _fun0008 }
-case 20:
+            if(!var1) { _fun0008_ip = 24; continue _fun0008 }
+case 22:
             var2 = var4[var5];
             var2 = var3 != var2;
-            if(!var2) { _fun0008_ip = 23; continue _fun0008 }
-case 15:
+            if(!var2) { _fun0008_ip = 25; continue _fun0008 }
+case 20:
             var3 = global;
             var8 = var3.Math;
             var7 = var8.max;
@@ -307,9 +307,9 @@ case 15:
             var3 = var7.bind(var8)(var6, var3);
             var4[var5] = var3;
             var2 = undefined;
-case 23:
+case 25:
             var1 = var2;
-case 22:
+case 24:
             return var1;
         }
     };
@@ -323,12 +323,12 @@ case 0:
             var4 = _closure1_slot5;
             var5 = var4[var3];
             var4 = null;
-            if(!(var4 == var5)) { _fun0009_ip = 24; continue _fun0009 }
-case 25:
+            if(!(var4 == var5)) { _fun0009_ip = 26; continue _fun0009 }
+case 27:
             var5 = _closure1_slot5;
             var4 = {};
             var5[var3] = var4;
-case 24:
+case 26:
             var2 = _closure1_slot5;
             var3 = var2[var3];
             var2 = var1.id;

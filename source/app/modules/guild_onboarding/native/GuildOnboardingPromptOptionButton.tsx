@@ -586,8 +586,8 @@ case 28:
             var14 = var16.useToken;
             var3 = var1[var18];
             var3 = var2.bind(var4)(var3);
-            var3 = var3.unsafe_rawColors;
-            var3 = var3.BRAND_500;
+            var3 = var3.colors;
+            var3 = var3.BACKGROUND_BRAND;
             var27 = var14.bind(var16)(var3);
             _closure2_slot13 = var27;
             var3 = var1[var11];

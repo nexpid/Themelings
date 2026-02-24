@@ -40,13 +40,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot22 = var2;
+            _closure1_slot21 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot21 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -118,7 +118,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot24;
+            var9 = _closure1_slot23;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -130,7 +130,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot24;
+            var7 = _closure1_slot23;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -189,7 +189,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot22 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -222,7 +222,7 @@ case 3:
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot23 = var1;
     var1 = function clearSpeakingFlagsInContext(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -250,7 +250,7 @@ case 39:
             return var1;
         }
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot24 = var1;
     var1 = function hasSpeakingFlagInContext(arg1, arg2, arg3) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -283,7 +283,7 @@ case 44:
             return var1;
         }
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot25 = var1;
     var1 = function anyoneHasFlagInContext(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -301,7 +301,7 @@ case 36:
             var1 = null;
             if(!(var1 != var2)) { _fun0007_ip = 47; continue _fun0007 }
 case 48:
-            var1 = _closure1_slot23;
+            var1 = _closure1_slot22;
             var6 = var1.bind(var8)(var2);
             var2 = var6.bind(var8)();
             var1 = var2.done;
@@ -341,7 +341,7 @@ case 47:
             return var1;
         }
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot26 = var1;
     var1 = function setSpeakingFlagForUserInContext(arg1, arg2, arg3) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -460,7 +460,7 @@ case 64:
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot27 = var1;
     var9 = function handleConnectionOpen(arg1) {
         var1 = arg1;
         var2 = var1.user;
@@ -547,7 +547,6 @@ case 64:
     var _closure1_slot19 = var2;
     var2 = false;
     var _closure1_slot20 = var2;
-    var _closure1_slot21 = var2;
     var2 = 14;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -565,7 +564,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot22;
+                var1 = _closure1_slot21;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0009_ip = 50; continue _fun0009 }
 case 77:
@@ -628,7 +627,7 @@ case 79:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(14);
+        var1 = new Array(13);
         var1[0] = var5;
         var5 = {};
         var7 = 'getSpeakingDuration';
@@ -707,7 +706,7 @@ case 13:
                 var3 = var2.bind(var3)(var4);
                 var2 = var3.filter;
                 var1 = function(arg1) {
-                    var5 = _closure1_slot26;
+                    var5 = _closure1_slot25;
                     var4 = _closure3_slot0;
                     var1 = _closure1_slot14;
                     var3 = var1.VOICE;
@@ -735,7 +734,7 @@ case 82:
                 var1 = _closure1_slot15;
                 var5 = var1.DEFAULT;
 case 81:
-                var3 = _closure1_slot26;
+                var3 = _closure1_slot25;
                 var1 = _closure1_slot14;
                 var2 = var1.VOICE;
                 var1 = arg1;
@@ -758,7 +757,7 @@ case 82:
                 var1 = _closure1_slot15;
                 var5 = var1.DEFAULT;
 case 81:
-                var3 = _closure1_slot26;
+                var3 = _closure1_slot25;
                 var1 = _closure1_slot14;
                 var2 = var1.PRIORITY;
                 var1 = arg1;
@@ -781,7 +780,7 @@ case 82:
                 var1 = _closure1_slot15;
                 var5 = var1.DEFAULT;
 case 81:
-                var3 = _closure1_slot26;
+                var3 = _closure1_slot25;
                 var1 = _closure1_slot14;
                 var2 = var1.SOUNDSHARE;
                 var1 = arg1;
@@ -804,7 +803,7 @@ case 82:
                 var1 = _closure1_slot15;
                 var5 = var1.DEFAULT;
 case 81:
-                var3 = _closure1_slot27;
+                var3 = _closure1_slot26;
                 var1 = _closure1_slot14;
                 var2 = var1.VOICE;
                 var1 = true;
@@ -846,20 +845,11 @@ case 90:
         var7 = 'isCurrentUserPTTActive';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot21;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[8] = var5;
-        var5 = {};
-        var7 = 'isCurrentUserPTTLatched';
-        var5['key'] = var7;
-        var7 = function value() {
             var1 = _closure1_slot20;
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'isAnyonePrioritySpeaking';
         var5['key'] = var7;
@@ -873,7 +863,7 @@ case 82:
                 var1 = _closure1_slot15;
                 var4 = var1.DEFAULT;
 case 81:
-                var2 = _closure1_slot27;
+                var2 = _closure1_slot26;
                 var5 = _closure1_slot14;
                 var5 = var5.VOICE;
                 var1 = _closure1_slot14;
@@ -884,7 +874,7 @@ case 81:
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'isCurrentUserPrioritySpeaker';
         var5['key'] = var7;
@@ -912,7 +902,7 @@ case 90:
             }
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'isCurrentUserPrioritySpeaking';
         var5['key'] = var7;
@@ -946,7 +936,7 @@ case 92:
             }
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getVoiceVolume';
         var5['key'] = var7;
@@ -1006,7 +996,7 @@ case 94:
             }
         };
         var5['value'] = var6;
-        var1[13] = var5;
+        var1[12] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1085,7 +1075,7 @@ case 101:
 case 106:
             var3 = 0;
 case 105:
-            var2 = _closure1_slot28;
+            var2 = _closure1_slot27;
             var16 = undefined;
             var15 = var6;
             var14 = var5;
@@ -1162,7 +1152,7 @@ case 18:
                 var1 = var5;
                 if(!var3) { _fun0023_ip = 116; continue _fun0023 }
 case 117:
-                var9 = _closure1_slot25;
+                var9 = _closure1_slot24;
                 var3 = _closure1_slot15;
                 var7 = var3.DEFAULT;
                 var3 = undefined;
@@ -1192,7 +1182,7 @@ case 122:
                 var3 = _closure1_slot18;
                 if(!(var6 !== var3)) { _fun0023_ip = 123; continue _fun0023 }
 case 121:
-                var7 = _closure1_slot25;
+                var7 = _closure1_slot24;
                 var3 = _closure1_slot15;
                 var6 = var3.DEFAULT;
                 var3 = undefined;
@@ -1231,9 +1221,7 @@ case 129:
     var4 = function handlePushToTalkStateChange(arg1) {
         var1 = arg1;
         var2 = var1.isActive;
-        var3 = var1.isLatched;
-        _closure1_slot20 = var3;
-        _closure1_slot21 = var2;
+        _closure1_slot20 = var2;
         var1 = undefined;
         return var1;
     };

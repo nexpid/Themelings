@@ -1,11 +1,11 @@
 // app/modules/routing/RouteManager.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var5 = metroImportDefault;
+    var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -191,25 +191,25 @@ case 35:
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var4 = var7[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot2 = var4;
     var4 = 1;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 2;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 3;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 4;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var4 = var4.Routes;
     var _closure1_slot6 = var4;
     var2 = function() {
@@ -746,17 +746,16 @@ case 65:
     };
     var2 = var2.bind(var1)();
     var4 = var2.prototype;
-    var5 = Object.create(var4, {constructor: {value: var2}});
-    var13 = var5;
-    var4 = new var13[var2](var12);
-    var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 8;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/routing/RouteManager.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['default'] = var4;
-    var3['RouteManager'] = var2;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var13 = var4;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/routing/RouteManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
     return var1;
 })();

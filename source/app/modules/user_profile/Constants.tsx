@@ -223,6 +223,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['SET_NOTE'] = var5;
     var5 = 'SET_VOLUME';
     var11['SET_VOLUME'] = var5;
+    var5 = 'SET_STREAM_VOLUME';
+    var11['SET_STREAM_VOLUME'] = var5;
     var5 = 'EDIT_PROFILE';
     var11['EDIT_PROFILE'] = var5;
     var5 = 'EDIT_GUILD_PROFILE';
@@ -482,6 +484,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD'] = var5;
     var5 = 'VIEW_WISHLIST';
     var8['VIEW_WISHLIST'] = var5;
+    var5 = 'PRESS_EDIT_WISHLIST';
+    var8['PRESS_EDIT_WISHLIST'] = var5;
+    var5 = 'PRESS_ADD_WISHLIST_ITEM';
+    var8['PRESS_ADD_WISHLIST_ITEM'] = var5;
     var7 = {};
     var5 = 'USER_PROFILE';
     var7['USER_PROFILE'] = var5;

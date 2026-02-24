@@ -126,6 +126,9 @@ case 9:
     var44['REQUIRE'] = var5;
     var9 = 'REQUIRE';
     var44[var5] = var9;
+    var44['ASSIGNMENT'] = var4;
+    var9 = 'ASSIGNMENT';
+    var44[var4] = var9;
     var _closure1_slot8 = var44;
     var43 = {};
     var43['REGULAR'] = var8;

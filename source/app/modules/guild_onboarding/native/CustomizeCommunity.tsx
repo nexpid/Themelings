@@ -699,8 +699,8 @@ case 0:
             var1 = 13;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
-            var1 = var1.unsafe_rawColors;
-            var1 = var1.BRAND_500;
+            var1 = var1.colors;
+            var1 = var1.BACKGROUND_BRAND;
             var13 = var3.bind(var7)(var1);
             var _closure2_slot4 = var13;
             var1 = 35;
@@ -1081,8 +1081,8 @@ case 0:
             var1 = 13;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
-            var1 = var1.unsafe_rawColors;
-            var1 = var1.BRAND_500;
+            var1 = var1.colors;
+            var1 = var1.BACKGROUND_BRAND;
             var15 = var3.bind(var8)(var1);
             var _closure2_slot5 = var15;
             var1 = 35;
@@ -1894,8 +1894,8 @@ case 71:
             var4 = var19.length;
             var8 = var4 > var11;
 case 70:
-            if(!var8) { _fun0016_ip = 47; continue _fun0016 }
-case 72:
+            if(!var8) { _fun0016_ip = 72; continue _fun0016 }
+case 73:
             var14 = _closure1_slot17;
             var12 = _closure1_slot18;
             var4 = {};
@@ -1942,13 +1942,13 @@ case 72:
             var15[3] = var16;
             var4['children'] = var15;
             var8 = var14.bind(var5)(var12, var4);
-case 47:
+case 72:
             var4 = new Array(3);
             var4[0] = var8;
             var8 = var18.length;
             var8 = var8 > var11;
-            if(!var8) { _fun0016_ip = 73; continue _fun0016 }
-case 74:
+            if(!var8) { _fun0016_ip = 74; continue _fun0016 }
+case 75:
             var14 = _closure1_slot17;
             var12 = _closure1_slot18;
             var11 = {};
@@ -1998,7 +1998,7 @@ case 74:
             var15[2] = var16;
             var11['children'] = var15;
             var8 = var14.bind(var5)(var12, var11);
-case 73:
+case 74:
             var4[1] = var8;
             var12 = _closure1_slot16;
             var11 = _closure1_slot25;
@@ -2008,7 +2008,7 @@ case 73:
             var4[2] = var8;
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0016_ip = 75; continue _fun0016;
+            _fun0016_ip = 76; continue _fun0016;
 case 68:
             var4 = _closure1_slot16;
             var3 = _closure1_slot6;
@@ -2033,7 +2033,7 @@ case 68:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 75:
+case 76:
             return var1;
         }
     };

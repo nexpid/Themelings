@@ -38,8 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ephemeralBackgroundColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.unsafe_rawColors;
-    var13 = var13.BRAND_500;
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_BRAND;
     var2['ephemeralGutterColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);

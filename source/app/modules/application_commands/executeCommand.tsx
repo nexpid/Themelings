@@ -2825,7 +2825,7 @@ case 296:
                     var8 = var14;
                     var7 = true;
                     var7 = var9.bind(var6)(var8, var7);
-                    SaveGenerator(address=368);
+                    SaveGenerator(address=367);
 case 298:
                     return var7;
 case 299:
@@ -3205,12 +3205,12 @@ case 321:
 case 324:
             var10 = var7.length;
             var9 = 0;
-            if(!(!(var10 > var9))) { _fun0016_ip = 325; continue _fun0016 }
+            if(!(!(var10 > var9))) { _fun0016_ip = 299; continue _fun0016 }
 case 323:
             var4 = _closure1_slot21;
             var4 = var4.bind(var1)(var3, var8);
             _fun0016_ip = 318; continue _fun0016;
-case 325:
+case 299:
             var22 = var3.nonce;
             var3 = function stageAttachments() {
                 var1 = undefined;
@@ -3233,7 +3233,7 @@ case 325:
 case 0:
                     var1 = arg1;
                     if(!var1) { _fun0017_ip = 289; continue _fun0017 }
-case 326:
+case 325:
                     var4 = _closure1_slot21;
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot0;

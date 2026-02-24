@@ -89,7 +89,6 @@ case 6:
             var5['voicePlatform'] = var4;
             var4 = false;
             var5['speaking'] = var4;
-            var5['latched'] = var4;
             var6 = 0;
             var5['lastSpoke'] = var6;
             var5['soundsharing'] = var4;

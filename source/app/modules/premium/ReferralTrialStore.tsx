@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot26 = var2;
+            _closure1_slot27 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -117,7 +117,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot28;
+            var9 = _closure1_slot29;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -129,7 +129,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot28;
+            var7 = _closure1_slot29;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -188,7 +188,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot28 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -221,7 +221,7 @@ case 3:
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var1 = function handleReferralTrialResolve(arg1) {
         var3 = _closure1_slot14;
         var2 = var3.add;
@@ -230,13 +230,13 @@ case 3:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var9 = function handleLoadMessages(arg1) {
         var1 = arg1;
         var3 = var1.messages;
         var2 = var3.forEach;
         var1 = function(arg1) {
-            var3 = _closure1_slot30;
+            var3 = _closure1_slot31;
             var2 = undefined;
             var1 = arg1;
             var1 = var3.bind(var2)(var1);
@@ -279,7 +279,7 @@ case 43:
 case 42:
             if(var4) { _fun0005_ip = 44; continue _fun0005 }
 case 45:
-            var4 = _closure1_slot29;
+            var4 = _closure1_slot30;
             var4 = var4.bind(var1)(var5);
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -310,7 +310,7 @@ case 40:
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot31 = var1;
     var11 = global;
     var10 = var11.Object;
     var8 = var10.defineProperty;
@@ -397,11 +397,12 @@ case 40:
     var _closure1_slot22 = var8;
     var _closure1_slot23 = var8;
     var _closure1_slot24 = var2;
+    var _closure1_slot25 = var2;
     var2 = function emitChanges() {
         var1 = true;
         return var1;
     };
-    var _closure1_slot25 = var2;
+    var _closure1_slot26 = var2;
     var2 = 10;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -419,7 +420,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot26;
+                var1 = _closure1_slot27;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0006_ip = 46; continue _fun0006 }
 case 47:
@@ -459,13 +460,13 @@ case 48:
             var3 = var4.syncWith;
             var2 = new Array(1);
             var2[0] = var5;
-            var1 = _closure1_slot25;
+            var1 = _closure1_slot26;
             var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(15);
+        var1 = new Array(16);
         var1[0] = var5;
         var5 = {};
         var7 = 'checkAndFetchReferralsRemaining';
@@ -654,12 +655,21 @@ case 55:
         var5 = {};
         var7 = 'getRecipientStatus';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = _closure1_slot12;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[14] = var5;
+        var5 = {};
+        var7 = 'getReminderStateId';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot25;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[15] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -693,7 +703,7 @@ case 57:
             var3 = var3.bind(var4)(var5);
             if(var3) { _fun0008_ip = 59; continue _fun0008 }
 case 4:
-            var3 = _closure1_slot29;
+            var3 = _closure1_slot30;
             var4 = undefined;
             var3 = var3.bind(var4)(var5);
             var3 = _closure1_slot1;
@@ -747,27 +757,29 @@ case 51:
     var2['BILLING_REFERRALS_REMAINING_FETCH_START'] = var10;
     var10 = function handleReferralsRemainingFetchSuccess(arg1) {
         var1 = arg1;
-        var4 = var1.referrals_remaining;
-        var8 = var1.sent_user_ids;
-        var3 = var1.refresh_at;
-        var2 = var1.recipient_status;
-        var5 = var1.has_eligible_friends;
-        var7 = true;
-        _closure1_slot22 = var7;
-        _closure1_slot23 = var5;
-        var5 = false;
-        _closure1_slot13 = var5;
-        _closure1_slot10 = var4;
-        var4 = global;
-        var4 = var4.Set;
-        var5 = var4.prototype;
-        var5 = Object.create(var5, {constructor: {value: var4}});
-        var9 = var5;
-        var4 = new var9[var4](var8, var7);
-        var4 = var4 instanceof Object ? var4 : var5;
-        _closure1_slot11 = var4;
-        _closure1_slot24 = var3;
-        _closure1_slot12 = var2;
+        var5 = var1.referrals_remaining;
+        var9 = var1.sent_user_ids;
+        var4 = var1.refresh_at;
+        var3 = var1.recipient_status;
+        var6 = var1.has_eligible_friends;
+        var2 = var1.reminder_state_id;
+        var8 = true;
+        _closure1_slot22 = var8;
+        _closure1_slot23 = var6;
+        var6 = false;
+        _closure1_slot13 = var6;
+        _closure1_slot10 = var5;
+        var5 = global;
+        var5 = var5.Set;
+        var6 = var5.prototype;
+        var6 = Object.create(var6, {constructor: {value: var5}});
+        var10 = var6;
+        var5 = new var10[var5](var9, var8);
+        var5 = var5 instanceof Object ? var5 : var6;
+        _closure1_slot11 = var5;
+        _closure1_slot24 = var4;
+        _closure1_slot12 = var3;
+        _closure1_slot25 = var2;
         var1 = undefined;
         return var1;
     };
@@ -847,7 +859,7 @@ case 0:
             var4 = var4.bind(var1)(var2);
             var2 = var4.fetchReferralsRemaining;
             var2 = var2.bind(var4)();
-            var2 = _closure1_slot27;
+            var2 = _closure1_slot28;
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
@@ -940,7 +952,7 @@ case 54:
     var10 = function handleMessage(arg1) {
         var1 = arg1;
         var3 = var1.message;
-        var2 = _closure1_slot30;
+        var2 = _closure1_slot31;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -948,10 +960,10 @@ case 54:
     var2['MESSAGE_CREATE'] = var10;
     var2['LOAD_MESSAGES_AROUND_SUCCESS'] = var9;
     var4 = function handleReset() {
-        var3 = null;
-        _closure1_slot10 = var3;
-        var1 = global;
-        var4 = var1.Set;
+        var1 = null;
+        _closure1_slot10 = var1;
+        var3 = global;
+        var4 = var3.Set;
         var5 = var4.prototype;
         var5 = Object.create(var5, {constructor: {value: var4}});
         var7 = var5;
@@ -960,21 +972,21 @@ case 54:
         _closure1_slot11 = var4;
         var4 = false;
         _closure1_slot13 = var4;
-        var5 = var1.Set;
+        var5 = var3.Set;
         var6 = var5.prototype;
         var6 = Object.create(var6, {constructor: {value: var5}});
         var7 = var6;
         var5 = new var7[var5](var6);
         var5 = var5 instanceof Object ? var5 : var6;
         _closure1_slot14 = var5;
-        var5 = var1.Set;
+        var5 = var3.Set;
         var6 = var5.prototype;
         var6 = Object.create(var6, {constructor: {value: var5}});
         var7 = var6;
         var5 = new var7[var5](var6);
         var5 = var5 instanceof Object ? var5 : var6;
         _closure1_slot15 = var5;
-        var5 = var1.Map;
+        var5 = var3.Map;
         var6 = var5.prototype;
         var6 = Object.create(var6, {constructor: {value: var5}});
         var7 = var6;
@@ -983,21 +995,22 @@ case 54:
         _closure1_slot16 = var5;
         var5 = 0;
         _closure1_slot17 = var5;
-        _closure1_slot18 = var3;
+        _closure1_slot18 = var1;
         var6 = new Array(0);
         _closure1_slot19 = var6;
         _closure1_slot20 = var4;
         _closure1_slot21 = var5;
         _closure1_slot22 = var4;
         _closure1_slot23 = var4;
-        _closure1_slot24 = var3;
-        var1 = var1.Map;
-        var3 = var1.prototype;
-        var3 = Object.create(var3, {constructor: {value: var1}});
-        var7 = var3;
-        var1 = new var7[var1](var6);
-        var1 = var1 instanceof Object ? var1 : var3;
-        _closure1_slot12 = var1;
+        _closure1_slot24 = var1;
+        var3 = var3.Map;
+        var4 = var3.prototype;
+        var4 = Object.create(var4, {constructor: {value: var3}});
+        var7 = var4;
+        var3 = new var7[var3](var6);
+        var3 = var3 instanceof Object ? var3 : var4;
+        _closure1_slot12 = var3;
+        _closure1_slot25 = var1;
         var1 = undefined;
         return var1;
     };

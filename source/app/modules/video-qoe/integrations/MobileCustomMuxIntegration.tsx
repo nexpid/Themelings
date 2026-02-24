@@ -1068,11 +1068,16 @@ case 60:
         var6 = function value() {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
-                var1 = '5180';
-                return var1;
-case 62:
-                CatchBlockStart(arg_register=0);
+                var1 = this;
+                var1 = var1.config;
+                var2 = var1.appVersion;
+                var1 = null;
+                var3 = var1 != var2;
                 var1 = 'unknown';
+                if(!var3) { _fun0022_ip = 5; continue _fun0022 }
+case 15:
+                var1 = var2;
+case 5:
                 return var1;
             }
         };
@@ -1093,11 +1098,16 @@ case 62:
         var5 = function value() {
             _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
-                var1 = 'alpha';
-                return var1;
-case 63:
-                CatchBlockStart(arg_register=0);
+                var1 = this;
+                var1 = var1.config;
+                var2 = var1.releaseChannel;
+                var1 = null;
+                var3 = var1 != var2;
                 var1 = 'stable';
+                if(!var3) { _fun0023_ip = 5; continue _fun0023 }
+case 15:
+                var1 = var2;
+case 5:
                 return var1;
             }
         };

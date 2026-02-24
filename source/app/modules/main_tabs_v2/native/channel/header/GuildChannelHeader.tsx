@@ -629,50 +629,50 @@ case 29:
                     var1 = _closure2_slot4;
                     var2 = var6 != var1;
                     var1 = undefined;
-                    if(!var2) { _fun0008_ip = 40; continue _fun0008 }
+                    if(!var2) { _fun0008_ip = 63; continue _fun0008 }
 case 33:
                     var2 = _closure2_slot4;
                     var2 = var2.parent_id;
                     var2 = var6 != var2;
                     var1 = undefined;
-                    if(!var2) { _fun0008_ip = 40; continue _fun0008 }
-case 63:
+                    if(!var2) { _fun0008_ip = 63; continue _fun0008 }
+case 64:
                     var8 = _closure1_slot8;
                     var7 = var8.has;
                     var3 = _closure2_slot4;
                     var3 = var3.type;
                     var3 = var7.bind(var8)(var3);
                     var1 = undefined;
-                    if(!var3) { _fun0008_ip = 40; continue _fun0008 }
-case 64:
+                    if(!var3) { _fun0008_ip = 63; continue _fun0008 }
+case 65:
                     var4 = _closure1_slot10;
                     var3 = var4.getChannel;
                     var2 = _closure2_slot4;
                     var2 = var2.parent_id;
                     var1 = var3.bind(var4)(var2);
-case 40:
-                    _fun0008_ip = 65; continue _fun0008;
+case 63:
+                    _fun0008_ip = 66; continue _fun0008;
 case 61:
                     var4 = _closure1_slot10;
                     var3 = var4.getChannel;
                     var2 = _closure2_slot5;
                     var6 = var6 == var2;
                     var2 = undefined;
-                    if(var6) { _fun0008_ip = 66; continue _fun0008 }
-case 67:
+                    if(var6) { _fun0008_ip = 67; continue _fun0008 }
+case 68:
                     var5 = _closure2_slot5;
                     var2 = var5.parentChannelId;
-case 66:
+case 67:
                     var1 = var3.bind(var4)(var2);
-case 65:
+case 66:
                     return var1;
                 }
             };
             var11 = var13.bind(var15)(var11, var8);
-            if(!var2) { _fun0007_ip = 68; continue _fun0007 }
-case 69:
+            if(!var2) { _fun0007_ip = 69; continue _fun0007 }
+case 41:
             var2 = var14 != var16;
-case 68:
+case 69:
             if(!var2) { _fun0007_ip = 70; continue _fun0007 }
 case 71:
             var2 = !var1;

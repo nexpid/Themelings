@@ -1049,6 +1049,47 @@ case 81:
         return var1;
     };
     var2['sendGiftingPromptSystemMessage'] = var8;
+    var8 = function sendGuildBoostUpsellSystemMessage(arg1, arg2) {
+        var6 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 47;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = {};
+        var2['channelId'] = var6;
+        var4 = _closure1_slot35;
+        var4 = var4.GUILD_BOOST_UPSELL;
+        var2['type'] = var4;
+        var4 = '';
+        var2['content'] = var4;
+        var4 = _closure1_slot33;
+        var4 = var4.EPHEMERAL;
+        var2['flags'] = var4;
+        var4 = {'id': null, 'username': 'Guild Boost Upsell', 'discriminator': null, 'avatar': 'guild_boost_upsell', 'bot': true};
+        var5 = _closure1_slot40;
+        var4['id'] = var5;
+        var5 = _closure1_slot41;
+        var4['discriminator'] = var5;
+        var5 = true;
+        var2['author'] = var4;
+        var4 = arg2;
+        var2['boostingPrompt'] = var4;
+        var10 = var3.bind(var1)(var2);
+        var4 = _closure1_slot54;
+        var3 = var4.receiveMessage;
+        var2 = {};
+        var11 = var2;
+        var8 = copyDataProperties(var11, var10);
+        var7 = _closure1_slot42;
+        var8 = var7.SENT;
+        var7 = 'state';
+        var2[var7] = var8;
+        var2 = var3.bind(var4)(var6, var2, var5);
+        return var1;
+    };
+    var2['sendGuildBoostUpsellSystemMessage'] = var8;
     var8 = function sendClydeError(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:

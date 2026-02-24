@@ -45,16 +45,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var _closure2_slot0 = var3;
         var1 = {};
-        var5 = 'getCPUCoreCount';
-        var1['key'] = var5;
+        var2 = 'setShouldCollectHermesInstrumentedStats';
+        var1['key'] = var2;
         var2 = function value() {
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var2;
+        var2 = new Array(3);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'getCurrentHermesInstrumentedStatsSummary';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'getCPUCoreCount';
+        var1['key'] = var6;
+        var5 = function value() {
             var1 = this;
             var1 = var1.cpuCoreCount;
             return var1;
         };
-        var1['value'] = var2;
-        var2 = new Array(1);
-        var2[0] = var1;
+        var1['value'] = var5;
+        var2[2] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

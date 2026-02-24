@@ -1,12 +1,12 @@
 // app/modules/local_app_detection/native/LocalAppDetectionUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var8 = metroImportDefault;
+    var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var7;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -183,98 +183,388 @@ case 35:
         }
     };
     var _closure1_slot8 = var1;
-    var4 = function getDetectableAppScheme(arg1) {
+    var1 = function isGameCommunityUpsellMultiExperimentEnabled() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.GameCommunityUpsellMultiExperiment;
+        var2 = var3.getConfig;
+        var1 = {};
+        var4 = 'LocalAppDetectionUtils';
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
+    };
+    var _closure1_slot9 = var1;
+    var1 = function isEitherUpsellExperimentEnabled() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            var2 = var2.DetectableAppNames;
-            var3 = var2.ROBLOX;
-            var2 = arg1;
-            if(!(var2 !== var3)) { _fun0004_ip = 2; continue _fun0004 }
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var4.bind(var3)(var1);
+            var5 = var1.GameCommunityUpsellExperiment;
+            var4 = var5.getConfig;
+            var1 = {};
+            var6 = 'LocalAppDetectionUtils';
+            var1['location'] = var6;
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.enabled;
+            if(var1) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
-            return var1;
-case 2:
-            var1 = 'roblox';
+            var2 = _closure1_slot9;
+            var1 = var2.bind(var3)();
+case 35:
             return var1;
         }
     };
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var1;
+    var1 = function getDetectableApp(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var4 = arg1;
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var6 = 4;
+            var3 = var1[var6];
+            var1 = undefined;
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.ROBLOX;
+            if(!(var3 !== var4)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.MINECRAFT;
+            if(!(var3 !== var4)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.FORTNITE;
+            if(!(var3 !== var4)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.GENSHIN;
+            if(!(var3 !== var4)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.PUBG_MOBILE;
+            if(!(var3 !== var4)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.CALL_OF_DUTY_MOBILE;
+            if(!(var3 !== var4)) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.CLASH_OF_CLANS;
+            if(!(var3 !== var4)) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.MOBILE_LEGENDS_BANG_BANG;
+            if(!(var3 !== var4)) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.GARENA_FREE_FIRE;
+            if(!(var3 !== var4)) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.POKEMON_GO;
+            if(!(var3 !== var4)) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.POKEMON_TCG_POCKET;
+            if(!(var3 !== var4)) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.CLASH_ROYALE;
+            if(!(var3 !== var4)) { _fun0005_ip = 59; continue _fun0005 }
+case 60:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.AMONG_US;
+            if(!(var3 !== var4)) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.MONOPOLY_GO;
+            if(!(var3 !== var4)) { _fun0005_ip = 63; continue _fun0005 }
+case 64:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.BRAWL_STARS;
+            if(!(var3 !== var4)) { _fun0005_ip = 65; continue _fun0005 }
+case 66:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.BRAWLHALLA;
+            if(!(var3 !== var4)) { _fun0005_ip = 67; continue _fun0005 }
+case 68:
+            return var1;
+case 67:
+            var1 = {'disabledIOS': true, 'scheme': 'brawlhalla'};
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 65:
+            var1 = {};
+            var3 = 'brawlstars';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 63:
+            var1 = {};
+            var3 = 'monopolygo';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 61:
+            var1 = {};
+            var3 = 'amongus';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 59:
+            var1 = {};
+            var3 = 'clashroyale';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 57:
+            var1 = {};
+            var3 = 'pokemontcgp';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 55:
+            var1 = {};
+            var3 = 'pokemongo';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 53:
+            var1 = {'disabledIOS': true, 'scheme': 'garenafreefire'};
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 51:
+            var1 = {};
+            var3 = 'mobilelegends';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 49:
+            var1 = {};
+            var3 = 'clashofclans';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 47:
+            var1 = {};
+            var3 = 'codm';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 45:
+            var1 = {'disabledIOS': true, 'scheme': 'pubgmobile'};
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
+            return var1;
+case 43:
+            var1 = {};
+            var3 = 'genshin';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot10;
+            var1['predicate'] = var3;
+            return var1;
+case 41:
+            var1 = {};
+            var3 = 'fortnite';
+            var1['scheme'] = var3;
+            var3 = _closure1_slot10;
+            var1['predicate'] = var3;
+            return var1;
+case 39:
+            var1 = {};
+            var3 = 'minecraft';
+            var1['scheme'] = var3;
+            var2 = _closure1_slot10;
+            var1['predicate'] = var2;
+            return var1;
+case 37:
+            var1 = {};
+            var2 = 'roblox';
+            var1['scheme'] = var2;
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var1;
     var1 = function _detectLocalApps() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                    if(var2) { _fun0006_ip = 69; continue _fun0006 }
+case 70:
                     var6 = {};
                     var5 = _closure1_slot4;
                     var4 = var5.hasConsented;
                     var3 = _closure1_slot6;
                     var3 = var3.PERSONALIZATION;
                     var3 = var4.bind(var5)(var3);
-                    if(!var3) { _fun0005_ip = 39; continue _fun0005 }
+                    if(!var3) { _fun0006_ip = 71; continue _fun0006 }
 case 2:
                     var4 = _closure1_slot7;
-                    var10 = undefined;
+                    var12 = undefined;
                     var3 = arg1;
-                    var9 = var4.bind(var10)(var3);
-                    var4 = var9.bind(var10)();
+                    var11 = var4.bind(var12)(var3);
+                    var4 = var11.bind(var12)();
                     var3 = var4.done;
-                    var8 = 5;
-                    var7 = 4;
-                    var5 = var4;
-                    if(var3) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
-                    var4 = var5.value;
-                    var3 = _closure1_slot9;
-                    var14 = var3.bind(var10)(var4);
-                    var11 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var7];
-                    var11 = var11.bind(var10)(var3);
-                    var3 = var11.canOpenUrlScheme;
-                    var3 = var3.bind(var11)(var14);
-                    SaveGenerator(address=130);
-case 41:
-                    return var3;
-case 42:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=10);
-                    if(var11) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
-                    var6[var4] = var3;
-                    var11 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var4 = var4[var8];
-                    var13 = var11.bind(var10)(var4);
-                    var12 = var13.track;
-                    var4 = _closure1_slot5;
-                    var11 = var4.CAN_OPEN_URL_REQUESTED;
-                    var4 = {};
-                    var4['scheme'] = var14;
-                    var4['result'] = var3;
-                    var4 = var12.bind(var13)(var11, var4);
-                    var11 = var9.bind(var10)();
-                    var4 = var11.done;
-                    var5 = var11;
-                    if(var4) { _fun0005_ip = 39; continue _fun0005 }
-case 22:
-                    _fun0005_ip = 40; continue _fun0005;
-case 43:
-                    return var3;
-case 39:
+                    var10 = false;
+                    var9 = 7;
+                    var8 = 6;
+                    var7 = null;
+                    var5 = 5;
+                    if(var3) { _fun0006_ip = 71; continue _fun0006 }
+case 72:
+                    var3 = var4.value;
+                    var13 = _closure1_slot11;
+                    var18 = var13.bind(var12)(var3);
+                    var14 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var13 = var13[var5];
+                    var14 = var14.bind(var12)(var13);
+                    var13 = var14.isIOS;
+                    var13 = var13.bind(var14)();
+                    if(!var13) { _fun0006_ip = 73; continue _fun0006 }
+case 74:
+                    var13 = var18.disabledIOS;
+                    if(var13) { _fun0006_ip = 75; continue _fun0006 }
+case 73:
+                    var13 = var18.predicate;
+                    var14 = var7 == var13;
+                    var13 = undefined;
+                    if(var14) { _fun0006_ip = 17; continue _fun0006 }
+case 76:
+                    var14 = var18.predicate;
+                    var13 = var14.bind(var18)();
+case 17:
+                    if(!(var10 !== var13)) { _fun0006_ip = 75; continue _fun0006 }
+case 77:
+                    var14 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var13 = var13[var8];
+                    var15 = var14.bind(var12)(var13);
+                    var14 = var15.canOpenUrlScheme;
+                    var13 = var18.scheme;
+                    var13 = var14.bind(var15)(var13);
+                    SaveGenerator(address=211);
+case 78:
+                    return var13;
+case 79:
+                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=13);
+                    if(var14) { _fun0006_ip = 80; continue _fun0006 }
+case 81:
+                    var6[var3] = var13;
+                    var15 = _closure1_slot1;
+                    var14 = _closure1_slot2;
+                    var14 = var14[var9];
+                    var17 = var15.bind(var12)(var14);
+                    var16 = var17.track;
+                    var14 = _closure1_slot5;
+                    var15 = var14.CAN_OPEN_URL_REQUESTED;
+                    var14 = {};
+                    var18 = var18.scheme;
+                    var14['scheme'] = var18;
+                    var14['result'] = var13;
+                    var14 = var16.bind(var17)(var15, var14);
+                    _fun0006_ip = 82; continue _fun0006;
+case 80:
+                    return var13;
+case 75:
+                    var6[var3] = var10;
+case 82:
+                    var13 = var11.bind(var12)();
+                    var3 = var13.done;
+                    var4 = var13;
+                    if(!var3) { _fun0006_ip = 72; continue _fun0006 }
+case 71:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 6;
+                    var2 = 8;
                     var3 = var3[var2];
                     var2 = undefined;
                     var5 = var4.bind(var2)(var3);
@@ -285,14 +575,14 @@ case 39:
                     var3['result'] = var6;
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 37:
+case 69:
                     return var1;
                 }
             };
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot10 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -300,41 +590,40 @@ case 37:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
     var1 = true;
-    var5['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var5 = var7[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.AnalyticEvents;
-    var _closure1_slot5 = var8;
-    var5 = var5.Consents;
-    var _closure1_slot6 = var5;
-    var5 = 7;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/local_app_detection/native/LocalAppDetectionUtils.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['getDetectableAppScheme'] = var4;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot5 = var7;
+    var4 = var4.Consents;
+    var _closure1_slot6 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/local_app_detection/native/LocalAppDetectionUtils.tsx';
+    var4 = var5.bind(var6)(var4);
     var2 = function detectLocalApps() {
         var1 = undefined;
-        var4 = _closure1_slot10;
+        var4 = _closure1_slot12;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

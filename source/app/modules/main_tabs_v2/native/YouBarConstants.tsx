@@ -59,7 +59,7 @@ case 5:
     var13 = var5.PX_12;
     var5 = 2;
     var8 = var5 * var13;
-    var5 = 40;
+    var5 = 32;
     var12 = var5 + var8;
     var _closure1_slot3 = var12;
     var5 = var16[var2];

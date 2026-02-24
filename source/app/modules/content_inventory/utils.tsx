@@ -1160,7 +1160,7 @@ case 81:
 case 85:
             var1 = var7;
 case 84:
-            _fun0016_ip = 40; continue _fun0016;
+            _fun0016_ip = 86; continue _fun0016;
 case 83:
             var2 = global;
             var2 = var2.HermesInternal;
@@ -1171,7 +1171,7 @@ case 83:
             var15 = var7;
             var13 = var6;
             var1 = var16[var5](var15, var14, var13, var12, var11);
-case 40:
+case 86:
             return var1;
         }
     };
@@ -1200,11 +1200,11 @@ case 0:
             var4 = undefined;
             var5 = var3.bind(var4)(var1);
             var3 = null;
-            if(!(var3 != var5)) { _fun0017_ip = 86; continue _fun0017 }
-case 87:
+            if(!(var3 != var5)) { _fun0017_ip = 87; continue _fun0017 }
+case 88:
             var3 = 3;
-            if(!(!(var5 < var3))) { _fun0017_ip = 88; continue _fun0017 }
-case 89:
+            if(!(!(var5 < var3))) { _fun0017_ip = 89; continue _fun0017 }
+case 90:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 1;
@@ -1228,10 +1228,10 @@ case 89:
             var1 = var2 > var1;
             var1 = !var1;
             return var1;
-case 88:
+case 89:
             var1 = false;
             return var1;
-case 86:
+case 87:
             var1 = false;
             return var1;
         }
@@ -1245,7 +1245,7 @@ case 0:
             var1 = arg1;
             var6 = var3.bind(var7)(var1);
             var1 = null;
-            if(!(var1 != var6)) { _fun0018_ip = 90; continue _fun0018 }
+            if(!(var1 != var6)) { _fun0018_ip = 91; continue _fun0018 }
 case 9:
             var1 = global;
             var5 = var1.Math;
@@ -1289,12 +1289,12 @@ case 47:
             var2['hours'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var1['tooltipText'] = var2;
-            _fun0018_ip = 91; continue _fun0018;
+            _fun0018_ip = 92; continue _fun0018;
 case 60:
             var1 = {'text': null, 'tooltipText': null};
-case 91:
+case 92:
             return var1;
-case 90:
+case 91:
             var1 = {'text': null, 'tooltipText': null};
             return var1;
         }

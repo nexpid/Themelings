@@ -347,7 +347,7 @@ case 46:
                 var4 = var4 > var3;
                 var3 = 0;
                 if(!var4) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+case 21:
                 var5 = var2.total;
                 var4 = var2.totalWeight;
                 var3 = var5 / var4;

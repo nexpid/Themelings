@@ -403,6 +403,58 @@ case 27:
         return var1;
     };
     var2['captureMessage'] = var7;
+    var7 = function addFeatureFlag(arg1, arg2) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var4 = _closure1_slot2;
+            var1 = _closure1_slot3;
+            var5 = 3;
+            var3 = var1[var5];
+            var1 = undefined;
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.getClient;
+            var4 = null;
+            var3 = var4 == var3;
+            var6 = undefined;
+            if(var3) { _fun0008_ip = 29; continue _fun0008 }
+case 30:
+            var3 = _closure1_slot2;
+            var2 = _closure1_slot3;
+            var2 = var2[var5];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.getClient;
+            var6 = var2.bind(var3)();
+case 29:
+            var2 = var4 == var6;
+            var5 = undefined;
+            if(var2) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
+            var2 = var6.getIntegrationByName;
+            var2 = var4 == var2;
+            var5 = undefined;
+            if(var2) { _fun0008_ip = 31; continue _fun0008 }
+case 12:
+            var3 = var6.getIntegrationByName;
+            var2 = 'FeatureFlags';
+            var5 = var3.bind(var6)(var2);
+case 31:
+            var2 = var4 == var5;
+            if(var2) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
+            var3 = var5.addFeatureFlag;
+            var2 = var4 == var3;
+case 33:
+            if(var2) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
+            var4 = var5.addFeatureFlag;
+            var3 = arg1;
+            var2 = arg2;
+            var2 = var4.bind(var5)(var3, var2);
+case 35:
+            return var1;
+        }
+    };
+    var2['addFeatureFlag'] = var7;
     var7 = function addBreadcrumb(arg1) {
         var3 = arg1;
         var5 = _closure1_slot5;
@@ -420,7 +472,7 @@ case 27:
     };
     var2['addBreadcrumb'] = var7;
     var7 = function profiledRootComponent(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var5 = arg1;
             var3 = _closure1_slot2;
@@ -434,7 +486,7 @@ case 0:
             var6 = var1.ReleaseChannel;
             var3 = 'canaryRelease';
             var1 = var5;
-            if(!(var3 === var6)) { _fun0008_ip = 29; continue _fun0008 }
+            if(!(var3 === var6)) { _fun0009_ip = 37; continue _fun0009 }
 case 18:
             var3 = _closure1_slot2;
             var6 = _closure1_slot3;
@@ -444,7 +496,7 @@ case 18:
             var3 = var4.withProfiler;
             var2 = {'includeRender': true, 'includeUpdates': true};
             var1 = var3.bind(var4)(var5, var2);
-case 29:
+case 37:
             return var1;
         }
     };
@@ -459,33 +511,33 @@ case 29:
     };
     var2['crash'] = var7;
     var7 = function markCrashHandled(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var2 = arg1;
             var1 = var2;
             var3 = var2.length;
             var2 = 0;
-            if(!(var2 !== var3)) { _fun0009_ip = 30; continue _fun0009 }
+            if(!(var2 !== var3)) { _fun0010_ip = 38; continue _fun0010 }
 case 3: // try_start_0
             var3 = _closure1_slot4;
             var3 = var3.CrashReportingManager;
             var4 = var3.markCrashHandled;
             var3 = null;
-            if(!(var3 != var4)) { _fun0009_ip = 31; continue _fun0009 }
-case 32:
+            if(!(var3 != var4)) { _fun0010_ip = 39; continue _fun0010 }
+case 30:
             var2 = _closure1_slot4;
             var3 = var2.CrashReportingManager;
             var2 = var3.markCrashHandled;
             var1 = var2.bind(var3)(var1);
-case 31: // try_end0
-            _fun0009_ip = 30; continue _fun0009;
+case 39: // try_end0
+            _fun0010_ip = 38; continue _fun0010;
 case 10: // catch_target0
             CatchBlockStart(arg_register=3);
             var3 = _closure1_slot5;
             var2 = var3.warn;
             var1 = 'Failed to mark crash as handled';
             var1 = var2.bind(var3)(var1, var4);
-case 30:
+case 38:
             var1 = undefined;
             return var1;
         }
@@ -497,7 +549,7 @@ case 30:
         var1 = var3.prototype;
         var2 = Object.create(var1, {constructor: {value: var3}});
         var4 = function(arg1, arg2) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var5 = arg1;
                 var _closure3_slot0 = var5;
@@ -509,65 +561,65 @@ case 0:
                 var7 = var3 == var4;
                 var1 = undefined;
                 var6 = undefined;
-                if(var7) { _fun0010_ip = 33; continue _fun0010 }
-case 32:
+                if(var7) { _fun0011_ip = 40; continue _fun0011 }
+case 30:
                 var6 = var4.getLastCrashReport;
-case 33:
-                if(!(var3 == var6)) { _fun0010_ip = 34; continue _fun0010 }
-case 35:
+case 40:
+                if(!(var3 == var6)) { _fun0011_ip = 41; continue _fun0011 }
+case 42:
                 var3 = var5.bind(var1)(var3);
-                _fun0010_ip = 13; continue _fun0010;
-case 34:
+                _fun0011_ip = 13; continue _fun0011;
+case 41:
                 var3 = var4.getLastCrashReport;
                 var2 = function(arg1) {
-                    _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                    _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                         var4 = arg1;
-case 36: // try_start_0
+case 43: // try_start_0
                         var3 = _closure3_slot0;
                         var2 = var4;
                         var1 = null;
                         var5 = var1 == var2;
                         var2 = null;
-                        if(var5) { _fun0011_ip = 37; continue _fun0011 }
-case 38:
+                        if(var5) { _fun0012_ip = 44; continue _fun0012 }
+case 45:
                         var5 = var4.timestamp;
                         var7 = undefined;
                         var8 = 'number';
                         var5 = typeof var5;
                         var6 = undefined;
-                        if(!(var8 === var5)) { _fun0011_ip = 39; continue _fun0011 }
-case 33:
+                        if(!(var8 === var5)) { _fun0012_ip = 46; continue _fun0012 }
+case 40:
                         var5 = global;
                         var9 = var5.Number;
                         var8 = var9.isNaN;
                         var5 = var4.timestamp;
                         var5 = var8.bind(var9)(var5);
                         var6 = undefined;
-                        if(var5) { _fun0011_ip = 39; continue _fun0011 }
-case 40:
+                        if(var5) { _fun0012_ip = 46; continue _fun0012 }
+case 32:
                         var8 = var4.timestamp;
                         var5 = 1000;
                         var6 = var8 / var5;
-case 39:
+case 46:
                         var8 = var4.level;
-                        if(!(var1 == var8)) { _fun0011_ip = 41; continue _fun0011 }
-case 42:
+                        if(!(var1 == var8)) { _fun0012_ip = 47; continue _fun0012 }
+case 48:
                         var9 = var4.is_native;
                         var5 = 'error';
-                        if(!var9) { _fun0011_ip = 43; continue _fun0011 }
-case 44:
+                        if(!var9) { _fun0012_ip = 49; continue _fun0012 }
+case 34:
                         var5 = 'fatal';
-case 43:
+case 49:
                         var8 = var5;
-case 41:
+case 47:
                         var1 = var1 == var8;
                         var5 = undefined;
-                        if(var1) { _fun0011_ip = 45; continue _fun0011 }
-case 46:
+                        if(var1) { _fun0012_ip = 50; continue _fun0012 }
+case 51:
                         var1 = var8.toLowerCase;
                         var5 = var1.bind(var8)();
-case 45:
+case 50:
                         var1 = {};
                         var1['type'] = var7;
                         var8 = var4.event_id;
@@ -578,98 +630,98 @@ case 45:
                         var6 = var4.origin;
                         var8 = var8.bind(var7)(var6);
                         var6 = undefined;
-                        if(!var8) { _fun0011_ip = 47; continue _fun0011 }
-case 48:
+                        if(!var8) { _fun0012_ip = 52; continue _fun0012 }
+case 53:
                         var8 = {};
                         var9 = var4.origin;
                         var8['event.origin'] = var9;
                         var6 = var8;
-case 47:
+case 52:
                         var1['tags'] = var6;
                         var8 = {};
                         var9 = _closure1_slot6;
                         var6 = var4.error_message;
                         var6 = var9.bind(var7)(var6);
-                        if(!var6) { _fun0011_ip = 49; continue _fun0011 }
-case 50:
+                        if(!var6) { _fun0012_ip = 54; continue _fun0012 }
+case 55:
                         var6 = var4.error_message;
                         var1['message'] = var6;
                         var6 = var4.error_message;
                         var8['persisted_error_message'] = var6;
-case 49:
-                        var9 = _closure1_slot6;
-                        var6 = var4.error_stack;
-                        var6 = var9.bind(var7)(var6);
-                        if(!var6) { _fun0011_ip = 51; continue _fun0011 }
-case 52:
-                        var6 = var4.error_stack;
-                        var8['persisted_error_stack'] = var6;
-case 51:
-                        var6 = var4.is_native;
-                        if(!var6) { _fun0011_ip = 53; continue _fun0011 }
 case 54:
                         var9 = _closure1_slot6;
-                        var6 = var4.exit_reason;
+                        var6 = var4.error_stack;
                         var6 = var9.bind(var7)(var6);
-                        if(!var6) { _fun0011_ip = 55; continue _fun0011 }
-case 56:
-                        var6 = var4.exit_reason;
-                        var8['native_exit_reason'] = var6;
-case 55:
-                        var9 = _closure1_slot6;
-                        var6 = var4.exit_description;
-                        var6 = var9.bind(var7)(var6);
-                        if(!var6) { _fun0011_ip = 57; continue _fun0011 }
-case 58:
-                        var6 = var4.exit_description;
-                        var8['native_exit_description'] = var6;
+                        if(!var6) { _fun0012_ip = 56; continue _fun0012 }
 case 57:
-                        var9 = _closure1_slot6;
-                        var6 = var4.tombstone;
-                        var6 = var9.bind(var7)(var6);
-                        if(!var6) { _fun0011_ip = 59; continue _fun0011 }
-case 60:
-                        var6 = var4.tombstone;
-                        var8['native_tombstone'] = var6;
+                        var6 = var4.error_stack;
+                        var8['persisted_error_stack'] = var6;
+case 56:
+                        var6 = var4.is_native;
+                        if(!var6) { _fun0012_ip = 58; continue _fun0012 }
 case 59:
                         var9 = _closure1_slot6;
+                        var6 = var4.exit_reason;
+                        var6 = var9.bind(var7)(var6);
+                        if(!var6) { _fun0012_ip = 60; continue _fun0012 }
+case 61:
+                        var6 = var4.exit_reason;
+                        var8['native_exit_reason'] = var6;
+case 60:
+                        var9 = _closure1_slot6;
+                        var6 = var4.exit_description;
+                        var6 = var9.bind(var7)(var6);
+                        if(!var6) { _fun0012_ip = 62; continue _fun0012 }
+case 63:
+                        var6 = var4.exit_description;
+                        var8['native_exit_description'] = var6;
+case 62:
+                        var9 = _closure1_slot6;
+                        var6 = var4.tombstone;
+                        var6 = var9.bind(var7)(var6);
+                        if(!var6) { _fun0012_ip = 64; continue _fun0012 }
+case 65:
+                        var6 = var4.tombstone;
+                        var8['native_tombstone'] = var6;
+case 64:
+                        var9 = _closure1_slot6;
                         var6 = var4.tombstone_cause;
                         var6 = var9.bind(var7)(var6);
-                        if(!var6) { _fun0011_ip = 61; continue _fun0011 }
-case 62:
+                        if(!var6) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
                         var6 = var4.tombstone_cause;
                         var8['native_tombstone_cause'] = var6;
-case 61:
+case 66:
                         var9 = _closure1_slot6;
                         var6 = var4.tombstone_hash;
                         var6 = var9.bind(var7)(var6);
-                        if(!var6) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
+                        if(!var6) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
                         var6 = var4.tombstone_hash;
                         var8['native_tombstone_hash'] = var6;
-case 63:
+case 68:
                         var9 = _closure1_slot6;
                         var6 = var4.tombstone_group_by;
                         var6 = var9.bind(var7)(var6);
-                        if(!var6) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+                        if(!var6) { _fun0012_ip = 70; continue _fun0012 }
+case 71:
                         var6 = var4.tombstone_group_by;
                         var8['native_tombstone_group_by'] = var6;
-case 65:
+case 70:
                         var6 = _closure1_slot6;
                         var5 = var4.tombstone_origin;
                         var5 = var6.bind(var7)(var5);
-                        if(!var5) { _fun0011_ip = 53; continue _fun0011 }
-case 67:
+                        if(!var5) { _fun0012_ip = 58; continue _fun0012 }
+case 72:
                         var5 = var4.tombstone_origin;
                         var8['native_tombstone_origin'] = var5;
-case 53:
+case 58:
                         var5 = var4.is_native;
                         var4 = 'false';
-                        if(!var5) { _fun0011_ip = 68; continue _fun0011 }
-case 69:
+                        if(!var5) { _fun0012_ip = 73; continue _fun0012 }
+case 74:
                         var4 = 'true';
-case 68:
+case 73:
                         var8['native_is_native'] = var4;
                         var4 = global;
                         var7 = var4.Object;
@@ -679,17 +731,17 @@ case 68:
                         var4 = var6.bind(var7)(var4, var5, var8);
                         var1['extra'] = var4;
                         var2 = var1;
-case 37:
+case 44:
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
-case 70: // try_end0
-                        _fun0011_ip = 71; continue _fun0011;
-case 72: // catch_target0
+case 75: // try_end0
+                        _fun0012_ip = 76; continue _fun0012;
+case 77: // catch_target0
                         CatchBlockStart(arg_register=2);
                         var2 = _closure3_slot1;
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
-case 71:
+case 76:
                         var1 = undefined;
                         return var1;
                     }

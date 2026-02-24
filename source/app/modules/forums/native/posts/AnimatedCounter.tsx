@@ -663,15 +663,15 @@ case 0:
             var6 = var2.textStyle;
             var1 = var2.animate;
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
+            if(!(var1 === var5)) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
             var1 = true;
-case 23:
+case 24:
             var8 = var2.textColor;
-            if(!(var8 === var5)) { _fun0007_ip = 25; continue _fun0007 }
+            if(!(var8 === var5)) { _fun0007_ip = 6; continue _fun0007 }
 case 26:
             var8 = 'text-default';
-case 25:
+case 6:
             var7 = var2.textVariant;
             if(!(var7 === var5)) { _fun0007_ip = 27; continue _fun0007 }
 case 28:
@@ -698,7 +698,7 @@ case 32:
             var1['textVariant'] = var7;
             var1['textStyle'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0007_ip = 9; continue _fun0007;
+            _fun0007_ip = 33; continue _fun0007;
 case 31:
             var3 = _closure1_slot18;
             var2 = {};
@@ -709,7 +709,7 @@ case 31:
             var2['textVariant'] = var7;
             var2['textStyle'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 9:
+case 33:
             return var1;
         }
     };

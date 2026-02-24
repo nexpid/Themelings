@@ -85,7 +85,7 @@ case 3:
             var3 = 3;
             var3 = var7[var3];
             var5 = var4.bind(var5)(var3);
-            var4 = var5.saveAccountRequest;
+            var4 = var5.saveProfileAndAccountRequest;
             var3 = {};
             var7 = var6.imageUri;
             var3['avatar'] = var7;

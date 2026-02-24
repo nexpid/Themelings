@@ -210,6 +210,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['QUEST_ACTIVITY_UNENROLLED_MODAL'] = var6;
     var2 = 'QUEST_ACTIVITY_UNENROLLED_MODAL';
     var4[var6] = var2;
+    var6 = 50;
+    var4['QUEST_HOME_HERO'] = var6;
+    var2 = 'QUEST_HOME_HERO';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

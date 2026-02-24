@@ -108,29 +108,33 @@ case 5:
                 if(!(var2 !== var8)) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
                 var2 = _closure1_slot6;
+                var2 = var2.SUSPENDED_USER_GROUP;
+                if(!(var2 !== var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
+                var2 = _closure1_slot6;
                 var2 = var2.MESSAGE;
-                if(!(var2 !== var8)) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+                if(!(var2 !== var8)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var2 = _closure1_slot7;
                 var2 = var2.DAY;
-                if(!(var2 !== var8)) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-                var2 = _closure1_slot7;
-                var2 = var2.UNREAD;
-                if(!(var2 !== var8)) { _fun0001_ip = 9; continue _fun0001 }
+                if(!(var2 !== var8)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
                 var2 = _closure1_slot7;
-                var2 = var2.SUMMARY;
-                if(!(var2 !== var8)) { _fun0001_ip = 9; continue _fun0001 }
+                var2 = var2.UNREAD;
+                if(!(var2 !== var8)) { _fun0001_ip = 10; continue _fun0001 }
 case 12:
+                var2 = _closure1_slot7;
+                var2 = var2.SUMMARY;
+                if(!(var2 !== var8)) { _fun0001_ip = 10; continue _fun0001 }
+case 13:
                 var2 = _closure1_slot8;
                 var2 = var2.LOAD_BEFORE;
-                if(!(var2 !== var8)) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+                if(!(var2 !== var8)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var2 = _closure1_slot8;
                 var2 = var2.LOAD_AFTER;
-                if(!(var2 !== var8)) { _fun0001_ip = 13; continue _fun0001 }
-case 15:
+                if(!(var2 !== var8)) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 10;
@@ -140,7 +144,7 @@ case 15:
                 var6 = var7.assertNever;
                 var6 = var6.bind(var7)(var8);
                 return var2;
-case 13:
+case 14:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 9;
@@ -150,7 +154,7 @@ case 13:
                 var2 = var6.generateLoadingRowData;
                 var2 = var2.bind(var6)(var5, var3);
                 return var2;
-case 9:
+case 10:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 8;
@@ -160,7 +164,7 @@ case 9:
                 var2 = var6.generateSeparatorRowData;
                 var2 = var2.bind(var6)(var5, var3);
                 return var2;
-case 7:
+case 8:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 7;

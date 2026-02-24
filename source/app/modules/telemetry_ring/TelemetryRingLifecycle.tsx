@@ -91,7 +91,7 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var4 = var4.AppStates;
     var _closure1_slot10 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -176,32 +176,51 @@ case 8:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var3 = _closure1_slot9;
-                var2 = var3.getState;
-                var3 = var2.bind(var3)();
-                var2 = _closure1_slot10;
-                var2 = var2.ACTIVE;
-                if(!(var3 !== var2)) { _fun0003_ip = 9; continue _fun0003 }
+                var1 = var3.getState;
+                var4 = var1.bind(var3)();
+                var1 = _closure1_slot10;
+                var1 = var1.ACTIVE;
+                var6 = var4 === var1;
+                if(!var6) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var4 = _closure1_slot0;
+                var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var2 = 10;
-                var3 = var3[var2];
-                var2 = undefined;
-                var3 = var4.bind(var2)(var3);
-                var2 = var3.stop;
-                var2 = var2.bind(var3)();
-                _fun0003_ip = 11; continue _fun0003;
-case 9:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot1;
                 var1 = 10;
-                var2 = var2[var1];
+                var3 = var3[var1];
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var1 = var2.start;
-                var1 = var1.bind(var2)();
+                var3 = var5.bind(var1)(var3);
+                var1 = var3.shouldRun;
+                var6 = var1.bind(var3)();
+case 9:
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 11;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.setShouldCollectHermesInstrumentedStats;
+                var3 = var3.bind(var5)(var6);
+                var3 = _closure1_slot10;
+                var3 = var3.ACTIVE;
+                if(!(var4 !== var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var3 = 10;
+                var3 = var5[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.stop;
+                var3 = var3.bind(var4)();
+                _fun0003_ip = 13; continue _fun0003;
 case 11:
-                var1 = undefined;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var2 = 10;
+                var2 = var4[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.start;
+                var2 = var2.bind(var3)();
+case 13:
                 return var1;
             }
         };
@@ -217,13 +236,13 @@ case 0:
                 var2 = this;
                 var _closure3_slot0 = var2;
                 var3 = var2._initialized;
-                if(var3) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                if(var3) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                 var3 = true;
                 var2['_initialized'] = var3;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var3 = 11;
+                var3 = 12;
                 var7 = var5[var3];
                 var3 = undefined;
                 var10 = var4.bind(var3)(var7);
@@ -260,7 +279,7 @@ case 13:
                 var1 = var1.bind(var3)();
                 var1 = var2._updateZoomedInExport;
                 var1 = var1.bind(var2)();
-case 12:
+case 14:
                 var1 = undefined;
                 return var1;
             }
@@ -276,7 +295,7 @@ case 0:
                 var3 = this;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot1;
-                var1 = 11;
+                var1 = 12;
                 var4 = var4[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var4);
@@ -295,7 +314,7 @@ case 0:
                 var5 = var3._experimentUnsubscribe;
                 var4 = null;
                 if(!(var4 != var5)) { _fun0005_ip = 8; continue _fun0005 }
-case 14:
+case 16:
                 var5 = var3._experimentUnsubscribe;
                 var5 = var5.bind(var3)();
                 var3['_experimentUnsubscribe'] = var4;
@@ -304,10 +323,15 @@ case 8:
                 var5 = _closure1_slot1;
                 var2 = 10;
                 var2 = var5[var2];
-                var4 = var4.bind(var1)(var2);
-                var2 = var4.stop;
-                var2 = var2.bind(var4)();
+                var6 = var4.bind(var1)(var2);
+                var2 = var6.stop;
+                var2 = var2.bind(var6)();
+                var2 = 11;
+                var2 = var5[var2];
+                var5 = var4.bind(var1)(var2);
+                var4 = var5.setShouldCollectHermesInstrumentedStats;
                 var2 = false;
+                var4 = var4.bind(var5)(var2);
                 var3['_initialized'] = var2;
                 return var1;
             }
@@ -323,7 +347,7 @@ case 8:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

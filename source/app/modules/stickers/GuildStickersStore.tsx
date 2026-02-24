@@ -398,6 +398,90 @@ case 41:
         }
     };
     var _closure1_slot16 = var1;
+    var1 = function syncStickers(arg1, arg2, arg3) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var4 = arg1;
+            var1 = arg2;
+            var3 = arg3;
+            var5 = var1.op;
+            var2 = 'full_sync';
+            if(!(var2 !== var5)) { _fun0007_ip = 48; continue _fun0007 }
+case 49:
+            var2 = var3.getNullablePartition;
+            var2 = var2.bind(var3)(var4);
+            var5 = null;
+            if(!(var5 != var2)) { _fun0007_ip = 50; continue _fun0007 }
+case 51:
+            var5 = var1.writes;
+            var5 = var5.length;
+            var6 = 0;
+            if(!(!(var5 > var6))) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
+            var5 = var1.deletes;
+            var5 = var5.length;
+            if(!(var5 > var6)) { _fun0007_ip = 54; continue _fun0007 }
+case 52:
+            var5 = {};
+            var13 = var5;
+            var12 = var2;
+            var2 = copyDataProperties(var13, var12);
+            var6 = _closure1_slot12;
+            var2 = var1.deletes;
+            var8 = undefined;
+            var7 = var6.bind(var8)(var2);
+            var6 = var7.bind(var8)();
+            var2 = var6.done;
+            if(var2) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
+            var2 = var6.value;
+            var2 = delete var5[var2];
+            var10 = var7.bind(var8)();
+            var2 = var10.done;
+            var6 = var10;
+            if(!var2) { _fun0007_ip = 56; continue _fun0007 }
+case 55:
+            var6 = _closure1_slot12;
+            var2 = var1.writes;
+            var7 = var6.bind(var8)(var2);
+            var6 = var7.bind(var8)();
+            var2 = var6.done;
+            if(var2) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
+            var11 = var6.value;
+            var10 = var11.id;
+            var2 = _closure1_slot14;
+            var2 = var2.bind(var8)(var11);
+            var5[var10] = var2;
+            var10 = var7.bind(var8)();
+            var2 = var10.done;
+            var6 = var10;
+            if(!var2) { _fun0007_ip = 58; continue _fun0007 }
+case 57:
+            var2 = var3.setPartition;
+            var2 = var2.bind(var3)(var4, var5);
+            _fun0007_ip = 54; continue _fun0007;
+case 50:
+            var5 = var3.setPartition;
+            var7 = _closure1_slot15;
+            var6 = var1.writes;
+            var2 = undefined;
+            var2 = var7.bind(var2)(var6);
+            var2 = var5.bind(var3)(var4, var2);
+            _fun0007_ip = 54; continue _fun0007;
+case 48:
+            var2 = var3.setPartition;
+            var6 = _closure1_slot15;
+            var5 = var1.items;
+            var1 = undefined;
+            var1 = var6.bind(var1)(var5);
+            var1 = var2.bind(var3)(var4, var1);
+case 54:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var _closure1_slot17 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -446,7 +530,7 @@ case 41:
     var _closure1_slot10 = var4;
     var4 = function(arg1) {
         var4 = function GuildStickersStore(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var5 = this;
                 var13 = 0;
@@ -465,11 +549,11 @@ case 0:
                 var3 = _closure1_slot6;
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0007_ip = 13; continue _fun0007 }
-case 48:
+                if(var1) { _fun0008_ip = 13; continue _fun0008 }
+case 59:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0007_ip = 49; continue _fun0007;
+                _fun0008_ip = 60; continue _fun0008;
 case 13:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -478,7 +562,7 @@ case 13:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 49:
+case 60:
                 var1 = var3.bind(var4)(var5, var1);
                 var4 = var1.addKKVDatabase;
                 var3 = 'guildStickers';
@@ -492,7 +576,7 @@ case 49:
                 var5 = var1.database;
                 var4 = var5.memoized;
                 var3 = function(arg1) {
-                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                         var8 = arg1;
                         var7 = global;
@@ -504,9 +588,9 @@ case 0:
                         var1 = var1 instanceof Object ? var1 : var2;
                         var5 = var8;
                         for(var2 in var5)
-case 50:
+case 61:
                         {
-case 51:
+case 62:
                             var11 = var2;
                             var10 = var1.set;
                             var13 = var7.Object;
@@ -515,9 +599,9 @@ case 51:
                             var9 = var9.root;
                             var9 = var12.bind(var13)(var9);
                             var9 = var10.bind(var1)(var11, var9);
-                            _fun0008_ip = 50; continue _fun0008;
+                            _fun0009_ip = 61; continue _fun0009;
                         }
-case 52:
+case 63:
                         return var1;
                     }
                 };
@@ -526,7 +610,7 @@ case 52:
                 var5 = var1.database;
                 var4 = var5.memoized;
                 var3 = function(arg1) {
-                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                    _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                         var17 = arg1;
                         var16 = global;
@@ -554,8 +638,8 @@ case 53:
                             var2 = var4.length;
                             var2 = var10 < var2;
                             var3 = 0;
-                            if(!var2) { _fun0009_ip = 8; continue _fun0009 }
-case 54:
+                            if(!var2) { _fun0010_ip = 8; continue _fun0010 }
+case 64:
                             var18 = var4[var3];
                             var2 = _closure1_slot3;
                             var2 = var2.bind(var8)(var18, var7);
@@ -567,11 +651,11 @@ case 54:
                             var2 = var18.bind(var1)(var19, var2);
                             var3 = var3 + 1;
                             var2 = var4.length;
-                            if(var3 < var2) { _fun0009_ip = 54; continue _fun0009 }
+                            if(var3 < var2) { _fun0010_ip = 64; continue _fun0010 }
 case 18:
-                            _fun0009_ip = 8; continue _fun0009;
+                            _fun0010_ip = 8; continue _fun0010;
                         }
-case 55:
+case 65:
                         return var1;
                     }
                 };
@@ -602,7 +686,7 @@ case 55:
         var1 = 'getStickerById';
         var5['key'] = var1;
         var1 = function value(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var1 = this;
                 var3 = var1.stickerByIdIndex;
@@ -612,10 +696,10 @@ case 0:
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = undefined;
-                if(!var3) { _fun0010_ip = 56; continue _fun0010 }
+                if(!var3) { _fun0011_ip = 66; continue _fun0011 }
 case 37:
                 var1 = var2;
-case 56:
+case 66:
                 return var1;
             }
         };
@@ -654,117 +738,102 @@ case 56:
     };
     var7['BACKGROUND_SYNC'] = var4;
     var4 = function CONNECTION_OPEN(arg1, arg2) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-            var4 = arg1;
-            var5 = arg2;
+            var1 = arg1;
+            var6 = arg2;
+            var3 = var1.guilds;
+            var4 = var1.unavailableGuilds;
             var1 = global;
-            var3 = var1.Set;
-            var1 = var5.getPartitionKeys;
-            var14 = var1.bind(var5)();
-            var2 = var3.prototype;
-            var2 = Object.create(var2, {constructor: {value: var3}});
-            var15 = var2;
-            var1 = new var15[var3](var14, var13);
-            var3 = var1 instanceof Object ? var1 : var2;
-            var7 = _closure1_slot12;
-            var6 = var4.guilds;
+            var5 = var1.Set;
+            var2 = var3.map;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.id;
+                return var1;
+            };
+            var12 = var2.bind(var3)(var1);
+            var2 = var5.prototype;
+            var2 = Object.create(var2, {constructor: {value: var5}});
+            var13 = var2;
+            var1 = new var13[var5](var12, var11);
+            var8 = var1 instanceof Object ? var1 : var2;
+            var2 = _closure1_slot12;
             var1 = undefined;
-            var9 = var7.bind(var1)(var6);
-            var7 = var9.bind(var1)();
-            var6 = var7.done;
-            var8 = null;
-            if(var6) { _fun0011_ip = 55; continue _fun0011 }
-case 57:
-            var6 = var7.value;
-            var11 = var3.delete;
-            var10 = var6.id;
-            var10 = var11.bind(var3)(var10);
-            var10 = var6.stickers;
-            var10 = var10.items;
-            if(!(var8 != var10)) { _fun0011_ip = 58; continue _fun0011 }
-case 59:
-            var11 = var5.setPartition;
-            var10 = var6.id;
-            var12 = _closure1_slot15;
-            var6 = var6.stickers;
-            var6 = var6.items;
-            var6 = var12.bind(var1)(var6);
-            var6 = var11.bind(var5)(var10, var6);
-case 58:
-            var10 = var9.bind(var1)();
-            var6 = var10.done;
-            var7 = var10;
-            if(!var6) { _fun0011_ip = 57; continue _fun0011 }
+            var7 = var2.bind(var1)(var4);
+            var4 = var7.bind(var1)();
+            var2 = var4.done;
+            if(var2) { _fun0012_ip = 67; continue _fun0012 }
+case 68:
+            var9 = var4.value;
+            var2 = var8.add;
+            var2 = var2.bind(var8)(var9);
+            var9 = var7.bind(var1)();
+            var2 = var9.done;
+            var4 = var9;
+            if(!var2) { _fun0012_ip = 68; continue _fun0012 }
+case 67:
+            var4 = _closure1_slot12;
+            var2 = var6.getPartitionKeys;
+            var2 = var2.bind(var6)();
+            var7 = var4.bind(var1)(var2);
+            var4 = var7.bind(var1)();
+            var2 = var4.done;
+            if(var2) { _fun0012_ip = 69; continue _fun0012 }
 case 55:
-            var6 = _closure1_slot12;
-            var4 = var4.unavailableGuilds;
-            var7 = var6.bind(var1)(var4);
-            var6 = var7.bind(var1)();
-            var4 = var6.done;
-            if(var4) { _fun0011_ip = 60; continue _fun0011 }
-case 61:
-            var8 = var6.value;
-            var4 = var3.delete;
-            var4 = var4.bind(var3)(var8);
-            var8 = var7.bind(var1)();
-            var4 = var8.done;
-            var6 = var8;
-            if(!var4) { _fun0011_ip = 61; continue _fun0011 }
-case 60:
+            var9 = var4.value;
+            var2 = var8.has;
+            var2 = var2.bind(var8)(var9);
+            if(var2) { _fun0012_ip = 20; continue _fun0012 }
+case 70:
+            var2 = var6.removePartition;
+            var2 = var2.bind(var6)(var9);
+case 20:
+            var9 = var7.bind(var1)();
+            var2 = var9.done;
+            var4 = var9;
+            if(!var2) { _fun0012_ip = 55; continue _fun0012 }
+case 69:
             var2 = _closure1_slot12;
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0011_ip = 62; continue _fun0011 }
-case 46:
-            var6 = var3.value;
-            var2 = var5.removePartition;
-            var2 = var2.bind(var5)(var6);
-            var6 = var4.bind(var1)();
-            var2 = var6.done;
-            var3 = var6;
-            if(!var2) { _fun0011_ip = 46; continue _fun0011 }
-case 62:
+            if(var2) { _fun0012_ip = 71; continue _fun0012 }
+case 57:
+            var2 = var3.value;
+            var8 = _closure1_slot17;
+            var7 = var2.id;
+            var2 = var2.stickers;
+            var2 = var8.bind(var1)(var7, var2, var6);
+            var7 = var4.bind(var1)();
+            var2 = var7.done;
+            var3 = var7;
+            if(!var2) { _fun0012_ip = 57; continue _fun0012 }
+case 71:
             return var1;
         }
     };
     var7['CONNECTION_OPEN'] = var4;
     var4 = function GUILD_CREATE(arg1, arg2) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-            var7 = arg1;
-            var6 = arg2;
-            var1 = var7.guild;
-            var1 = var1.joined_at;
-            var3 = null;
-            var1 = var3 != var1;
-            if(!var1) { _fun0012_ip = 63; continue _fun0012 }
-case 64:
-            var2 = var7.guild;
-            var2 = var2.stickers;
-            var2 = var2.items;
-            var2 = var3 != var2;
-            if(!var2) { _fun0012_ip = 65; continue _fun0012 }
-case 9:
-            var5 = var6.setPartition;
-            var4 = var7.guild;
-            var4 = var4.id;
-            var8 = _closure1_slot15;
-            var7 = var7.guild;
-            var7 = var7.stickers;
-            var7 = var7.items;
-            if(!(var3 == var7)) { _fun0012_ip = 15; continue _fun0012 }
-case 66:
-            var7 = new Array(0);
-case 15:
-            var3 = undefined;
-            var3 = var8.bind(var3)(var7);
-            var3 = var5.bind(var6)(var4, var3);
-            var2 = undefined;
-case 65:
-            var1 = var2;
-case 63:
+            var1 = arg1;
+            var2 = var1.guild;
+            var3 = var2.joined_at;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0013_ip = 72; continue _fun0013 }
+case 33:
+            var5 = _closure1_slot17;
+            var2 = var1.guild;
+            var4 = var2.id;
+            var1 = var1.guild;
+            var3 = var1.stickers;
+            var1 = undefined;
+            var2 = arg2;
+            var2 = var5.bind(var1)(var4, var3, var2);
+            return var1;
+case 72:
+            var1 = false;
             return var1;
         }
     };
@@ -812,7 +881,7 @@ case 63:
     };
     var7['GUILD_STICKER_FETCH_SUCCESS'] = var4;
     var4 = function GUILD_STICKERS_UPDATE(arg1, arg2) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var2 = arg1;
             var5 = arg2;
@@ -824,30 +893,30 @@ case 0:
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var11 = null;
-            if(!(var11 != var12)) { _fun0013_ip = 67; continue _fun0013 }
-case 68:
+            if(!(var11 != var12)) { _fun0014_ip = 73; continue _fun0014 }
+case 74:
             var9 = var4;
             var3 = 'user_id';
             for(var6 in var9)
-case 69:
+case 75:
             {
 case 5:
                 var14 = var6;
                 var16 = var4[var14];
                 var15 = var12[var14];
                 var13 = var11 != var15;
-                if(!var13) { _fun0013_ip = 70; continue _fun0013 }
-case 71:
+                if(!var13) { _fun0014_ip = 76; continue _fun0014 }
+case 77:
                 var17 = var16.user_id;
                 var13 = var11 == var17;
-case 70:
-                if(!var13) { _fun0013_ip = 59; continue _fun0013 }
-case 72:
+case 76:
+                if(!var13) { _fun0014_ip = 78; continue _fun0014 }
+case 79:
                 var17 = var15.user_id;
                 var13 = var11 != var17;
-case 59:
-                if(!var13) { _fun0013_ip = 69; continue _fun0013 }
-case 73:
+case 78:
+                if(!var13) { _fun0014_ip = 75; continue _fun0014 }
+case 80:
                 var13 = {};
                 var19 = var13;
                 var18 = var16;
@@ -855,9 +924,9 @@ case 73:
                 var15 = var15.user_id;
                 var13[var3] = var15;
                 var4[var14] = var13;
-                _fun0013_ip = 69; continue _fun0013;
+                _fun0014_ip = 75; continue _fun0014;
             }
-case 67:
+case 73:
             var3 = var5.setPartition;
             var2 = var2.guildId;
             var2 = var3.bind(var5)(var2, var4);
@@ -866,7 +935,7 @@ case 67:
     };
     var7['GUILD_STICKERS_UPDATE'] = var4;
     var4 = function CACHED_STICKERS_LOADED(arg1, arg2) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var9 = arg2;
             var3 = _closure1_slot12;
@@ -879,7 +948,7 @@ case 0:
             var6 = 2;
             var5 = 0;
             var4 = 1;
-            if(var2) { _fun0014_ip = 74; continue _fun0014 }
+            if(var2) { _fun0015_ip = 81; continue _fun0015 }
 case 6:
             var10 = var3.value;
             var2 = _closure1_slot3;
@@ -893,8 +962,8 @@ case 6:
             var10 = var7.bind(var1)();
             var2 = var10.done;
             var3 = var10;
-            if(!var2) { _fun0014_ip = 6; continue _fun0014 }
-case 74:
+            if(!var2) { _fun0015_ip = 6; continue _fun0015 }
+case 81:
             return var1;
         }
     };

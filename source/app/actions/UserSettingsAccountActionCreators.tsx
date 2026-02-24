@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
-    var4 = function saveAccountRequest() {
+    var4 = function saveProfileAndAccountRequest() {
         var1 = undefined;
         var4 = _closure1_slot11;
         var3 = var4.apply;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot10 = var4;
-    var1 = function _saveAccountRequest() {
+    var1 = function _saveProfileAndAccountRequest() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
@@ -168,7 +168,7 @@ case 2:
     var _closure1_slot8 = var8;
     var5 = var5.getDevicePushProvider;
     var _closure1_slot9 = var5;
-    var5 = 10;
+    var5 = 12;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -260,8 +260,8 @@ case 18:
         }
     };
     var3['disableAccount'] = var5;
-    var3['saveAccountRequest'] = var4;
-    var4 = function saveAccountChanges(arg1) {
+    var3['saveProfileAndAccountRequest'] = var4;
+    var4 = function saveProfileAndAccountChanges(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
@@ -463,7 +463,7 @@ case 46:
             return var1;
         }
     };
-    var3['saveAccountChanges'] = var4;
+    var3['saveProfileAndAccountChanges'] = var4;
     var4 = function getHarvestStatus() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
@@ -743,7 +743,7 @@ case 50:
         return var1;
     };
     var3['resetPendingLegacyUsernameDisabled'] = var4;
-    var2 = function resetPendingPrimaryGuildChanges() {
+    var4 = function resetPendingPrimaryGuildChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -757,6 +757,270 @@ case 50:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['resetPendingPrimaryGuildChanges'] = var2;
+    var3['resetPendingPrimaryGuildChanges'] = var4;
+    var4 = function updateAccount(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'USER_SETTINGS_MODAL_UPDATE_ACCOUNT';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['settings'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['updateAccount'] = var4;
+    var4 = function resetAccount() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'USER_SETTINGS_MODAL_RESET';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['resetAccount'] = var4;
+    var2 = function saveAccountChanges(arg1, arg2) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var3 = arg1;
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 3;
+            var2 = var4[var2];
+            var4 = undefined;
+            var7 = var5.bind(var4)(var2);
+            var5 = var7.dispatch;
+            var2 = {};
+            var8 = 'USER_SETTINGS_MODAL_SUBMIT';
+            var2['type'] = var8;
+            var2 = var5.bind(var7)(var2);
+            var11 = var3.username;
+            var10 = var3.email;
+            var9 = var3.emailToken;
+            var8 = var3.password;
+            var _closure2_slot0 = var8;
+            var7 = var3.avatar;
+            var _closure2_slot1 = var7;
+            var2 = var3.newPassword;
+            var _closure2_slot2 = var2;
+            var3 = var3.discriminator;
+            var5 = arg2;
+            var5 = var5.close;
+            var _closure2_slot3 = var5;
+            var5 = {};
+            var5['username'] = var11;
+            var5['email'] = var10;
+            var5['email_token'] = var9;
+            var5['password'] = var8;
+            var5['avatar'] = var7;
+            var5['new_password'] = var2;
+            var7 = null;
+            var8 = var7 != var3;
+            var2 = undefined;
+            if(!var8) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
+            var8 = '';
+            var2 = undefined;
+            if(!(var8 !== var3)) { _fun0006_ip = 51; continue _fun0006 }
+case 53:
+            var2 = var3;
+case 51:
+            var5['discriminator'] = var2;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var8 = 7;
+            var2 = var2[var8];
+            var2 = var3.bind(var4)(var2);
+            var9 = var2.Storage;
+            var3 = var9.get;
+            var2 = _closure1_slot6;
+            var2 = var3.bind(var9)(var2);
+            var3 = _closure1_slot9;
+            var3 = var3.bind(var4)();
+            var9 = var7 != var3;
+            if(!var9) { _fun0006_ip = 54; continue _fun0006 }
+case 50:
+            var9 = var7 != var2;
+case 54:
+            if(!var9) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
+            var5['push_provider'] = var3;
+            var5['push_token'] = var2;
+case 55:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var3.bind(var4)(var2);
+            var8 = var2.Storage;
+            var3 = var8.get;
+            var2 = _closure1_slot7;
+            var2 = var3.bind(var8)(var2);
+            var3 = _closure1_slot8;
+            var3 = var7 != var3;
+            if(!var3) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
+            var3 = var7 != var2;
+case 57:
+            if(!var3) { _fun0006_ip = 59; continue _fun0006 }
+case 35:
+            var3 = _closure1_slot8;
+            var5['push_voip_provider'] = var3;
+            var5['push_voip_token'] = var2;
+case 59:
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 4;
+            var2 = var7[var2];
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.HTTP;
+            var3 = var4.patch;
+            var2 = {};
+            var6 = _closure1_slot4;
+            var6 = var6.ME;
+            var2['url'] = var6;
+            var6 = true;
+            var2['oldFormErrors'] = var6;
+            var2['body'] = var5;
+            var5 = false;
+            var2['rejectWithError'] = var5;
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.then;
+            var2 = function(arg1) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var1 = arg1;
+                    var9 = var1.body;
+                    var11 = var9.token;
+                    var2 = delete var9.token;
+                    var6 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var7 = var3[var2];
+                    var4 = undefined;
+                    var10 = var6.bind(var4)(var7);
+                    var8 = var10.dispatch;
+                    var7 = {};
+                    var12 = 'UPDATE_TOKEN';
+                    var7['type'] = var12;
+                    var7['token'] = var11;
+                    var11 = var9.id;
+                    var7['userId'] = var11;
+                    var7 = var8.bind(var10)(var7);
+                    var3 = var3[var2];
+                    var7 = var6.bind(var4)(var3);
+                    var6 = var7.dispatch;
+                    var3 = {};
+                    var8 = 'CURRENT_USER_UPDATE';
+                    var3['type'] = var8;
+                    var3['user'] = var9;
+                    var3 = var6.bind(var7)(var3);
+                    var6 = _closure2_slot1;
+                    if(!(var4 !== var6)) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var6 = 10;
+                    var6 = var8[var6];
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.trackUserAvatarUpdated;
+                    var6 = {};
+                    var10 = var9.avatar;
+                    var6['avatarHash'] = var10;
+                    var6 = var7.bind(var8)(var6);
+case 60:
+                    var6 = _closure2_slot2;
+                    var8 = null;
+                    if(!(var8 != var6)) { _fun0007_ip = 16; continue _fun0007 }
+case 62:
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var2];
+                    var10 = var7.bind(var4)(var6);
+                    var7 = var10.dispatch;
+                    var6 = {};
+                    var11 = 'USER_PASSWORD_UPDATE';
+                    var6['type'] = var11;
+                    var6['user'] = var9;
+                    var11 = _closure2_slot2;
+                    var6['newPassword'] = var11;
+                    var6 = var7.bind(var10)(var6);
+case 16:
+                    var6 = _closure2_slot0;
+                    var6 = var8 != var6;
+                    if(!var6) { _fun0007_ip = 63; continue _fun0007 }
+case 54:
+                    var7 = _closure2_slot2;
+                    var6 = var8 != var7;
+case 63:
+                    if(!var6) { _fun0007_ip = 64; continue _fun0007 }
+case 25:
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var2];
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.dispatch;
+                    var6 = {};
+                    var10 = 'PASSWORD_UPDATED';
+                    var6['type'] = var10;
+                    var9 = var9.id;
+                    var6['userId'] = var9;
+                    var6 = var7.bind(var8)(var6);
+case 64:
+                    var6 = _closure2_slot3;
+                    var3 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    if(var6) { _fun0007_ip = 65; continue _fun0007 }
+case 66:
+                    var2 = var5[var2];
+                    var7 = var3.bind(var4)(var2);
+                    var6 = var7.dispatch;
+                    var2 = {};
+                    var8 = 'USER_SETTINGS_MODAL_SUBMIT_COMPLETE';
+                    var2['type'] = var8;
+                    var2 = var6.bind(var7)(var2);
+                    _fun0007_ip = 67; continue _fun0007;
+case 65:
+                    var2 = 11;
+                    var2 = var5[var2];
+                    var3 = var3.bind(var4)(var2);
+                    var2 = var3.close;
+                    var2 = var2.bind(var3)();
+case 67:
+                    return var1;
+                }
+            };
+            var1 = function(arg1) {
+                var1 = arg1;
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 3;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'USER_SETTINGS_MODAL_SUBMIT_FAILURE';
+                var2['type'] = var5;
+                var5 = var1.body;
+                var2['errors'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['saveAccountChanges'] = var2;
     return var1;
 })();

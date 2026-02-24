@@ -53,37 +53,38 @@ case 0:
             var1 = arg1;
             var10 = var1.children;
             var5 = var1.value;
-            var17 = var1.defaultValue;
+            var18 = var1.defaultValue;
             var2 = var1.onChange;
             var _closure2_slot0 = var2;
-            var12 = var1.title;
-            var11 = var1.description;
+            var13 = var1.title;
+            var12 = var1.description;
+            var11 = var1.helperText;
             var9 = var1.hasIcons;
             var4 = undefined;
             if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var9 = true;
 case 2:
-            var13 = var1.groupRef;
+            var14 = var1.groupRef;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
-            var15 = var4 !== var5;
-            var _closure2_slot1 = var15;
+            var16 = var4 !== var5;
+            var _closure2_slot1 = var16;
             var8 = _closure1_slot3;
             var6 = var8.useState;
-            var14 = null;
+            var15 = null;
             var3 = null;
-            if(var15) { _fun0001_ip = 4; continue _fun0001 }
+            if(var16) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var18 = var14 != var17;
-            var16 = null;
-            if(!var18) { _fun0001_ip = 6; continue _fun0001 }
+            var19 = var15 != var18;
+            var17 = null;
+            if(!var19) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var16 = var17;
+            var17 = var18;
 case 6:
-            var3 = var16;
+            var3 = var17;
 case 4:
             var8 = var6.bind(var8)(var3);
             var6 = _closure1_slot2;
@@ -94,23 +95,23 @@ case 4:
             var6 = 1;
             var6 = var8[var6];
             _closure2_slot2 = var6;
-            if(!var15) { _fun0001_ip = 8; continue _fun0001 }
+            if(!var16) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var3 = var5;
 case 8:
-            var5 = var14 != var3;
-            var14 = null;
+            var5 = var15 != var3;
+            var15 = null;
             if(!var5) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var14 = var3;
+            var15 = var3;
 case 10:
-            _closure2_slot3 = var14;
+            _closure2_slot3 = var15;
             var8 = _closure1_slot3;
             var6 = var8.useImperativeHandle;
             var5 = new Array(3);
-            var5[0] = var15;
+            var5[0] = var16;
             var5[1] = var2;
-            var5[2] = var14;
+            var5[2] = var15;
             var3 = function() {
                 var1 = {};
                 var3 = function setValue(arg1) {
@@ -144,19 +145,19 @@ case 14:
                 var1['getValue'] = var2;
                 return var1;
             };
-            var3 = var6.bind(var8)(var13, var3, var5);
+            var3 = var6.bind(var8)(var14, var3, var5);
             var5 = var8.useContext;
             var6 = _closure1_slot0;
-            var13 = _closure1_slot1;
+            var14 = _closure1_slot1;
             var3 = 4;
-            var3 = var13[var3];
+            var3 = var14[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.RedesignCompatContext;
             var3 = var5.bind(var8)(var3);
             _closure2_slot4 = var3;
             var5 = var8.useCallback;
             var3 = new Array(2);
-            var3[0] = var15;
+            var3[0] = var16;
             var3[1] = var2;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -185,7 +186,7 @@ case 14:
             _closure2_slot5 = var2;
             var5 = var8.useMemo;
             var3 = new Array(2);
-            var3[0] = var14;
+            var3[0] = var15;
             var3[1] = var2;
             var2 = function() {
                 var1 = {};
@@ -202,14 +203,15 @@ case 14:
             var1 = {};
             var1['value'] = var5;
             var5 = 5;
-            var5 = var13[var5];
+            var5 = var14[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.TableRowGroup;
             var5 = {};
-            var13 = 'radiogroup';
-            var5['accessibilityRole'] = var13;
-            var5['title'] = var12;
-            var5['description'] = var11;
+            var14 = 'radiogroup';
+            var5['accessibilityRole'] = var14;
+            var5['title'] = var13;
+            var5['description'] = var12;
+            var5['helperText'] = var11;
             var5['hasIcons'] = var9;
             var9 = var8.Children;
             var8 = var9.map;
@@ -220,7 +222,7 @@ case 0:
                     var4 = _closure1_slot3;
                     var3 = var4.isValidElement;
                     var3 = var3.bind(var4)(var2);
-                    if(!var3) { _fun0004_ip = 16; continue _fun0004 }
+                    if(!var3) { _fun0004_ip = 2; continue _fun0004 }
 case 12:
                     var3 = var2.type;
                     var5 = _closure1_slot0;
@@ -230,14 +232,14 @@ case 12:
                     var1 = undefined;
                     var1 = var5.bind(var1)(var4);
                     var1 = var1.TableRadioRow;
-                    if(!(var3 !== var1)) { _fun0004_ip = 17; continue _fun0004 }
-case 16:
+                    if(!(var3 !== var1)) { _fun0004_ip = 16; continue _fun0004 }
+case 2:
                     var3 = _closure2_slot4;
                     var1 = null;
-                    if(!var3) { _fun0004_ip = 18; continue _fun0004 }
-case 17:
+                    if(!var3) { _fun0004_ip = 17; continue _fun0004 }
+case 16:
                     var1 = var2;
-case 18:
+case 17:
                     return var1;
                 }
             };

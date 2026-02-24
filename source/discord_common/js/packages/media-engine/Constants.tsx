@@ -325,6 +325,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['WMF_GPU_ENCODE'] = var2;
     var2 = 'use_h264_mf_decoder';
     var5['USE_H264_MF_DECODER'] = var2;
+    var2 = 'use_libopenh264_decoder';
+    var5['USE_LIBOPENH264_DECODER'] = var2;
     var4 = {};
     var4['AUTO'] = var30;
     var2 = 'AUTO';
@@ -367,6 +369,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DEFAULT_VOLUME'] = var22;
     var24 = 18;
     var3['DEFAULT_STREAM_VOLUME'] = var24;
+    var24 = 200;
+    var3['MAX_EMBEDDED_VOLUME_PERCEPTUAL'] = var24;
+    var3['MAX_NON_EMBEDDED_VOLUME_PERCEPTUAL'] = var22;
     var24 = 64000;
     var3['DEFAULT_VOICE_BITRATE'] = var24;
     var24 = 128000;

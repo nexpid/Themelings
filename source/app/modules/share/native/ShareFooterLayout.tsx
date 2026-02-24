@@ -122,6 +122,8 @@ case 0:
             var6 = var2.bind(var4)(var1);
             var1 = {};
             var1['includeKeyboardHeight'] = var7;
+            var7 = false;
+            var1['includeCustomKeyboardHeight'] = var7;
             var1 = var6.bind(var4)(var1);
             var1 = var1.insets;
             var6 = var12.footer;

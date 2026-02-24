@@ -146,6 +146,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_GIFT_INTENT_CARD'] = var1;
     var1 = 'premium gift intent friend row';
     var2['PREMIUM_GIFT_INTENT_FRIEND_ROW'] = var1;
+    var1 = 'gift selection modal wishlist';
+    var2['GIFT_SELECTION_MODAL_WISHLIST'] = var1;
     var1 = 'expression suggestions';
     var2['EXPRESSION_SUGGESTIONS'] = var1;
     var1 = 'emoji picker';
@@ -194,6 +196,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GAME_SERVER_INSTRUCTIONS_MODAL'] = var1;
     var1 = 'game server setup modal';
     var2['GAME_SERVER_SETUP_MODAL'] = var1;
+    var1 = 'game server guild select modal';
+    var2['GAME_SERVER_GUILD_SELECT_MODAL'] = var1;
     var1 = 'guild powerups - overview';
     var2['GUILD_POWERUPS_OVERVIEW'] = var1;
     var1 = 'guild powerups - guild settings role edit';
@@ -218,8 +222,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_POWERUPS_COACHMARK_GAME_SERVER_HOSTING_AVAILABLE'] = var1;
     var1 = 'guild powerups - coachmark - boost to unlock';
     var2['GUILD_POWERUPS_COACHMARK_BOOST_TO_UNLOCK'] = var1;
+    var1 = 'guild powerups - coachmark - expiring perk';
+    var2['GUILD_POWERUPS_COACHMARK_EXPIRING_PERK'] = var1;
     var1 = 'guild powerups - marketing';
     var2['GUILD_POWERUPS_MARKETING'] = var1;
+    var1 = 'guild powerups - marketing video modal';
+    var2['GUILD_POWERUPS_MARKETING_VIDEO_MODAL'] = var1;
     var1 = 'guild boosting premium upsell';
     var2['GUILD_BOOSTING_PREMIUM_UPSELL'] = var1;
     var1 = 'rpc';
@@ -946,6 +954,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_PROFILE_ACTIVITY_CLOUD_PLAY_SECTION'] = var1;
     var1 = 'user profile wishlist';
     var2['USER_PROFILE_WISHLIST'] = var1;
+    var1 = 'user profile edit wishlist action sheet';
+    var2['USER_PROFILE_EDIT_WISHLIST_ACTION_SHEET'] = var1;
     var1 = 'wishlist banner';
     var2['WISHLIST_BANNER'] = var1;
     var1 = 'blocked profile modal';

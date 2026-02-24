@@ -927,18 +927,32 @@ case 82:
                 var2['refresh_at'] = var8;
                 var2['recipient_status'] = var7;
                 var7 = var6.body;
+                var9 = var5 == var7;
+                var8 = undefined;
+                if(var9) { _fun0009_ip = 83; continue _fun0009 }
+case 84:
+                var8 = var7.has_eligible_friends;
+case 83:
+                var7 = var5 != var8;
+                if(!var7) { _fun0009_ip = 27; continue _fun0009 }
+case 8:
+                var7 = var8;
+case 27:
+                var2['has_eligible_friends'] = var7;
+                var7 = var6.body;
                 var8 = var5 == var7;
                 var6 = undefined;
-                if(var8) { _fun0009_ip = 83; continue _fun0009 }
-case 84:
-                var6 = var7.has_eligible_friends;
-case 83:
-                var5 = var5 != var6;
-                if(!var5) { _fun0009_ip = 27; continue _fun0009 }
-case 8:
+                if(var8) { _fun0009_ip = 85; continue _fun0009 }
+case 86:
+                var6 = var7.reminder_state_id;
+case 85:
+                var7 = var5 != var6;
+                var5 = null;
+                if(!var7) { _fun0009_ip = 87; continue _fun0009 }
+case 88:
                 var5 = var6;
-case 27:
-                var2['has_eligible_friends'] = var5;
+case 87:
+                var2['reminder_state_id'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             }
@@ -951,13 +965,13 @@ case 0:
                 var4 = var1 == var2;
                 var1 = undefined;
                 var3 = undefined;
-                if(var4) { _fun0010_ip = 85; continue _fun0010 }
-case 86:
+                if(var4) { _fun0010_ip = 89; continue _fun0010 }
+case 90:
                 var3 = var2.status;
-case 85:
+case 89:
                 var2 = 404;
                 if(!(var2 !== var3)) { _fun0010_ip = 72; continue _fun0010 }
-case 87:
+case 91:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var2 = 7;

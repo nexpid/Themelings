@@ -97,16 +97,21 @@ case 6:
 case 0:
                         var1 = arg1;
                         var4 = _closure2_slot3;
-                        var2 = var1.body;
-                        var5 = var2.message;
+                        var6 = var1.body;
                         var2 = null;
-                        var6 = var2 != var5;
+                        var7 = var2 == var6;
                         var3 = undefined;
-                        var2 = undefined;
-                        if(!var6) { _fun0002_ip = 7; continue _fun0002 }
+                        var5 = undefined;
+                        if(var7) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-                        var2 = var5;
+                        var5 = var6.message;
 case 7:
+                        var6 = var2 != var5;
+                        var2 = undefined;
+                        if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                        var2 = var5;
+case 9:
                         var2 = var4.bind(var3)(var2);
                         throw var1;
                     }

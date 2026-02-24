@@ -1,12 +1,12 @@
 // app/modules/libdiscore/libdiscoreExperiments.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var11 = require;
+    var13 = require;
     var6 = metroImportDefault;
     var3 = exports;
-    var12 = dependencyMap;
-    var _closure1_slot0 = var11;
+    var14 = dependencyMap;
+    var _closure1_slot0 = var13;
     var _closure1_slot1 = var6;
-    var _closure1_slot2 = var12;
+    var _closure1_slot2 = var14;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -90,33 +90,33 @@ case 9:
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var5);
     var1 = 0;
-    var5 = var12[var1];
+    var5 = var14[var1];
     var1 = undefined;
     var5 = var6.bind(var1)(var5);
     var _closure1_slot3 = var5;
     var5 = 1;
-    var5 = var12[var5];
+    var5 = var14[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot4 = var5;
     var5 = 2;
-    var5 = var12[var5];
+    var5 = var14[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot5 = var5;
     var5 = 3;
-    var5 = var12[var5];
+    var5 = var14[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot6 = var5;
     var5 = 4;
-    var5 = var12[var5];
+    var5 = var14[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot7 = var5;
     var5 = 5;
-    var5 = var12[var5];
-    var5 = var11.bind(var1)(var5);
+    var5 = var14[var5];
+    var5 = var13.bind(var1)(var5);
     var5 = var5.ensureValidMode;
     var _closure1_slot8 = var5;
-    var9 = new Array(0);
-    var _closure1_slot9 = var9;
+    var11 = new Array(0);
+    var _closure1_slot9 = var11;
     var5 = var4.Symbol;
     var4 = 'unknown';
     var4 = var5.bind(var1)(var4);
@@ -274,7 +274,7 @@ case 19:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var8 = var4.bind(var1)();
+    var10 = var4.bind(var1)();
     var4 = function(arg1) {
         var4 = function LibdiscoreWrapperSimpleExperiment(arg1, arg2) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -365,7 +365,7 @@ case 25:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var7 = var4.bind(var1)(var8);
+    var9 = var4.bind(var1)(var10);
     var4 = function(arg1) {
         var4 = function LibdiscoreBridgedStoreExperiment(arg1, arg2, arg3) {
             var5 = this;
@@ -501,7 +501,7 @@ case 15:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var13 = var4.bind(var1)(var8);
+    var8 = var4.bind(var1)(var10);
     var4 = function(arg1) {
         var4 = function LibdiscoreTelemetryExperiment(arg1) {
             var6 = this;
@@ -629,17 +629,17 @@ case 0:
                 var1 = 0;
                 var1 = var1 !== var5;
                 if(!var1) { _fun0011_ip = 39; continue _fun0011 }
-case 34:
+case 40:
                 var2 = 1;
                 var2 = var2 === var5;
-                if(var2) { _fun0011_ip = 40; continue _fun0011 }
-case 41:
+                if(var2) { _fun0011_ip = 41; continue _fun0011 }
+case 26:
                 var4 = var3.emissionsCount;
                 var3 = var3.MAX_EMISSIONS_PER_APP_LAUNCH;
                 var4 = var4 >= var3;
                 var3 = !var4;
                 if(var4) { _fun0011_ip = 42; continue _fun0011 }
-case 25:
+case 43:
                 var4 = global;
                 var6 = var4.Math;
                 var4 = var6.random;
@@ -647,7 +647,7 @@ case 25:
                 var3 = var4 < var5;
 case 42:
                 var2 = var3;
-case 40:
+case 41:
                 var1 = var2;
 case 39:
                 return var1;
@@ -658,28 +658,28 @@ case 39:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var10 = var4.bind(var1)(var8);
-    var4 = var13.prototype;
-    var5 = Object.create(var4, {constructor: {value: var13}});
-    var17 = '2026-01-libdiscore-batch-store-refactor';
-    var16 = 'batch-store-refactor';
-    var18 = var5;
-    var4 = new var18[var13](var17, var16, var15);
+    var6 = var4.bind(var1)(var10);
+    var4 = var8.prototype;
+    var5 = Object.create(var4, {constructor: {value: var8}});
+    var18 = '2026-01-libdiscore-batch-store-refactor';
+    var17 = 'batch-store-refactor';
+    var19 = var5;
+    var4 = new var19[var8](var18, var17, var16);
+    var8 = var4 instanceof Object ? var4 : var5;
+    var4 = var6.prototype;
+    var5 = Object.create(var4, {constructor: {value: var6}});
+    var18 = '2025-09-libdiscore-telemetry';
+    var19 = var5;
+    var4 = new var19[var6](var18, var17);
+    var7 = var4 instanceof Object ? var4 : var5;
+    var4 = var9.prototype;
+    var5 = Object.create(var4, {constructor: {value: var9}});
+    var18 = '2025-11-defer-load-late-lazy-cache';
+    var17 = 'Allow react to render before lazy cache is loaded';
+    var19 = var5;
+    var4 = new var19[var9](var18, var17, var16);
     var6 = var4 instanceof Object ? var4 : var5;
-    var4 = var10.prototype;
-    var5 = Object.create(var4, {constructor: {value: var10}});
-    var17 = '2025-09-libdiscore-telemetry';
-    var18 = var5;
-    var4 = new var18[var10](var17, var16);
-    var5 = var4 instanceof Object ? var4 : var5;
-    var4 = var7.prototype;
-    var10 = Object.create(var4, {constructor: {value: var7}});
-    var17 = '2025-11-defer-load-late-lazy-cache';
-    var16 = 'Allow react to render before lazy cache is loaded';
-    var18 = var10;
-    var4 = new var18[var7](var17, var16, var15);
-    var4 = var4 instanceof Object ? var4 : var10;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         var4 = function LibdiscoreFourTreatmentsExperiment(arg1, arg2) {
             var5 = this;
             var2 = _closure1_slot6;
@@ -740,26 +740,100 @@ case 39:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var14 = var2.bind(var1)(var8);
-    var2 = var14.prototype;
-    var10 = Object.create(var2, {constructor: {value: var14}});
-    var17 = '2026-01-android-rmle';
-    var16 = 'Android Pull Mode Rendering';
-    var18 = var10;
-    var2 = new var18[var14](var17, var16, var15);
-    var2 = var2 instanceof Object ? var2 : var10;
-    var10 = 8;
-    var10 = var12[var10];
-    var12 = var11.bind(var1)(var10);
-    var11 = var12.fileFinishedImporting;
-    var10 = 'modules/libdiscore/libdiscoreExperiments.tsx';
-    var10 = var11.bind(var12)(var10);
-    var3['ALL_LIBDISCORE_EXPERIMENTS'] = var9;
-    var3['LibdiscoreCachedExperiment'] = var8;
-    var3['LibdiscoreWrapperSimpleExperiment'] = var7;
-    var3['LibdiscoreBatchStoreRefactorExperiment'] = var6;
-    var3['TelemetryExperiment'] = var5;
-    var3['DelayLoadLateLazyCacheHoldoutExperiment'] = var4;
-    var3['AndroidPullModeRenderingExperiment'] = var2;
+    var12 = var4.bind(var1)(var10);
+    var2 = function(arg1) {
+        var4 = function LibdiscoreThreeTreatmentsExperiment(arg1, arg2) {
+            var5 = this;
+            var2 = _closure1_slot6;
+            var4 = _closure2_slot0;
+            var3 = undefined;
+            var2 = var2.bind(var3)(var5, var4);
+            var2 = _closure1_slot11;
+            var1 = new Array(1);
+            var6 = arg1;
+            var1[0] = var6;
+            var1 = var2.bind(var3)(var5, var4, var1);
+            var2 = arg2;
+            var1['label'] = var2;
+            return var1;
+        };
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot5;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot7;
+        var5 = {};
+        var1 = 'getLabel';
+        var5['key'] = var1;
+        var1 = function value() {
+            var1 = this;
+            var1 = var1.label;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(2);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getTreatments';
+        var5['key'] = var7;
+        var6 = function value() {
+            var2 = {};
+            var1 = 0;
+            var2['treatmentId'] = var1;
+            var1 = new Array(3);
+            var1[0] = var2;
+            var2 = {};
+            var3 = 1;
+            var2['treatmentId'] = var3;
+            var1[1] = var2;
+            var2 = {};
+            var3 = 2;
+            var2['treatmentId'] = var3;
+            var1[2] = var2;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[1] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
+    };
+    var15 = var2.bind(var1)(var10);
+    var2 = var12.prototype;
+    var4 = Object.create(var2, {constructor: {value: var12}});
+    var18 = '2026-01-android-rmle';
+    var17 = 'Android Pull Mode Rendering';
+    var19 = var4;
+    var2 = new var19[var12](var18, var17, var16);
+    var5 = var2 instanceof Object ? var2 : var4;
+    var2 = var15.prototype;
+    var4 = Object.create(var2, {constructor: {value: var15}});
+    var18 = '2026-02-android-fresco-cache';
+    var17 = 'Android Fresco Cache';
+    var19 = var4;
+    var2 = new var19[var15](var18, var17, var16);
+    var4 = var2 instanceof Object ? var2 : var4;
+    var2 = var9.prototype;
+    var12 = Object.create(var2, {constructor: {value: var9}});
+    var18 = '2026-02-android-chat-mosaic-shared-pool';
+    var17 = 'Android Chat Mosaic Shared Pool';
+    var19 = var12;
+    var2 = new var19[var9](var18, var17, var16);
+    var2 = var2 instanceof Object ? var2 : var12;
+    var12 = 8;
+    var12 = var14[var12];
+    var14 = var13.bind(var1)(var12);
+    var13 = var14.fileFinishedImporting;
+    var12 = 'modules/libdiscore/libdiscoreExperiments.tsx';
+    var12 = var13.bind(var14)(var12);
+    var3['ALL_LIBDISCORE_EXPERIMENTS'] = var11;
+    var3['LibdiscoreCachedExperiment'] = var10;
+    var3['LibdiscoreWrapperSimpleExperiment'] = var9;
+    var3['LibdiscoreBatchStoreRefactorExperiment'] = var8;
+    var3['TelemetryExperiment'] = var7;
+    var3['DelayLoadLateLazyCacheHoldoutExperiment'] = var6;
+    var3['AndroidPullModeRenderingExperiment'] = var5;
+    var3['AndroidFrescoCacheExperiment'] = var4;
+    var3['AndroidChatMosaicSharedPoolExperiment'] = var2;
     return var1;
 })();

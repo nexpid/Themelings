@@ -90,29 +90,29 @@ case 0:
                 var5 = this;
                 var1 = _closure1_slot2;
                 var3 = _closure2_slot0;
-                var4 = undefined;
-                var1 = var1.bind(var4)(var5, var3);
+                var6 = undefined;
+                var1 = var1.bind(var6)(var5, var3);
                 var1 = _closure1_slot5;
-                var10 = var1.bind(var4)(var3);
+                var11 = var1.bind(var6)(var3);
                 var3 = _closure1_slot4;
                 var1 = _closure1_slot8;
-                var1 = var1.bind(var4)();
+                var1 = var1.bind(var6)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                var1 = var10.apply;
-                var1 = var1.bind(var10)(var5, var4);
+                var1 = var11.apply;
+                var1 = var1.bind(var11)(var5, var6);
                 _fun0002_ip = 8; continue _fun0002;
 case 6:
                 var7 = global;
-                var9 = var7.Reflect;
-                var8 = var9.construct;
-                var6 = _closure1_slot5;
-                var6 = var6.bind(var4)(var5);
-                var7 = var6.constructor;
-                var6 = new Array(0);
-                var1 = var8.bind(var9)(var10, var6, var7);
+                var10 = var7.Reflect;
+                var9 = var10.construct;
+                var7 = _closure1_slot5;
+                var7 = var7.bind(var6)(var5);
+                var8 = var7.constructor;
+                var7 = new Array(0);
+                var1 = var9.bind(var10)(var11, var7, var8);
 case 8:
-                var1 = var3.bind(var4)(var5, var1);
+                var1 = var3.bind(var6)(var5, var1);
                 var3 = var2.id;
                 var1['id'] = var3;
                 var3 = var2.trialId;
@@ -139,27 +139,45 @@ case 8:
                 var1['outboundRedemptionPageLink'] = var3;
                 var3 = var2.outboundRedemptionUrlFormat;
                 var1['outboundRedemptionUrlFormat'] = var3;
-                var5 = var2.flags;
-                var4 = null;
-                var6 = var4 != var5;
+                var7 = var2.flags;
+                var5 = null;
+                var8 = var5 != var7;
                 var3 = 0;
-                if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+                if(!var8) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                var3 = var5;
+                var3 = var7;
 case 9:
                 var1['flags'] = var3;
                 var3 = var2.inboundRestrictedCountries;
-                if(!(var4 == var3)) { _fun0002_ip = 11; continue _fun0002 }
+                if(!(var5 == var3)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
                 var3 = new Array(0);
 case 11:
                 var1['inboundRestrictedCountries'] = var3;
                 var3 = var2.outboundRestrictedCountries;
-                if(!(var4 == var3)) { _fun0002_ip = 13; continue _fun0002 }
+                if(!(var5 == var3)) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
                 var3 = new Array(0);
 case 13:
                 var1['outboundRestrictedCountries'] = var3;
+                var3 = var2.allowedCountries;
+                if(!(var5 == var3)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                var3 = new Array(0);
+case 15:
+                var1['allowedCountries'] = var3;
+                var3 = var2.countryListMode;
+                if(!(var5 == var3)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                var5 = _closure1_slot0;
+                var7 = _closure1_slot1;
+                var4 = 7;
+                var4 = var7[var4];
+                var4 = var5.bind(var6)(var4);
+                var4 = var4.CountryListMode;
+                var3 = var4.BLOCKLIST;
+case 17:
+                var1['countryListMode'] = var3;
                 var3 = var2.promotionType;
                 var1['promotionType'] = var3;
                 var3 = var2.partnerId;
@@ -243,44 +261,67 @@ case 13:
 case 0:
                 var3 = arg1;
                 var1 = this;
+                var5 = var1.countryListMode;
+                var8 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var7 = 7;
+                var4 = var4[var7];
+                var6 = undefined;
+                var4 = var8.bind(var6)(var4);
+                var4 = var4.CountryListMode;
+                var4 = var4.ALLOWLIST;
+                if(!(var5 !== var4)) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                 var4 = var1.promotionType;
                 var8 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var7 = 7;
                 var5 = var5[var7];
-                var6 = undefined;
                 var5 = var8.bind(var6)(var5);
                 var5 = var5.PromotionTypes;
                 var5 = var5.THIRD_PARTY_INBOUND;
-                if(!(var5 !== var4)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                if(!(var5 !== var4)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
+                var8 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var5 = var5[var7];
+                var5 = var8.bind(var6)(var5);
+                var5 = var5.PromotionTypes;
+                var5 = var5.THIRD_PARTY_DIRECT_FULFILLMENT;
+                if(!(var5 !== var4)) { _fun0003_ip = 21; continue _fun0003 }
+case 23:
                 var8 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var5 = var5[var7];
                 var5 = var8.bind(var6)(var5);
                 var5 = var5.PromotionTypes;
                 var5 = var5.THIRD_PARTY_OUTBOUND;
-                if(!(var5 !== var4)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+                if(!(var5 !== var4)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var7];
                 var2 = var5.bind(var6)(var2);
                 var2 = var2.PromotionTypes;
                 var2 = var2.THIRD_PARTY_OUTBOUND_RECURRING;
-                if(!(var2 !== var4)) { _fun0003_ip = 17; continue _fun0003 }
-case 19:
+                if(!(var2 !== var4)) { _fun0003_ip = 24; continue _fun0003 }
+case 26:
                 var2 = false;
                 return var2;
-case 17:
+case 24:
                 var4 = var1.outboundRestrictedCountries;
                 var2 = var4.includes;
                 var2 = var2.bind(var4)(var3);
                 return var2;
-case 15:
-                var2 = var1.inboundRestrictedCountries;
+case 21:
+                var4 = var1.inboundRestrictedCountries;
+                var2 = var4.includes;
+                var2 = var2.bind(var4)(var3);
+                return var2;
+case 19:
+                var2 = var1.allowedCountries;
                 var1 = var2.includes;
                 var1 = var1.bind(var2)(var3);
+                var1 = !var1;
                 return var1;
             }
         };
@@ -333,8 +374,8 @@ case 0:
                 var4 = null;
                 var7 = var4 != var5;
                 var5 = null;
-                if(!var7) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                if(!var7) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                 var8 = var6.Date;
                 var9 = var2.outbound_redemption_end_date;
                 var7 = var8.prototype;
@@ -342,71 +383,71 @@ case 21:
                 var10 = var7;
                 var6 = new var10[var8](var9, var8);
                 var5 = var6 instanceof Object ? var6 : var7;
-case 20:
+case 27:
                 var1['outboundRedemptionEndDate'] = var5;
                 var7 = var2.inbound_header_text;
                 var8 = var4 != var7;
                 var5 = '';
                 var6 = var5;
-                if(!var8) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                if(!var8) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                 var6 = var7;
-case 22:
+case 29:
                 var1['inboundHeaderText'] = var6;
                 var7 = var2.inbound_body_text;
                 var8 = var4 != var7;
                 var6 = var5;
-                if(!var8) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
-                var6 = var7;
-case 24:
-                var1['inboundBodyText'] = var6;
-                var7 = var2.inbound_help_center_link;
-                var8 = var4 != var7;
-                var6 = var5;
-                if(!var8) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
-                var6 = var7;
-case 26:
-                var1['inboundHelpCenterLink'] = var6;
-                var7 = var2.outbound_title;
-                var8 = var4 != var7;
-                var6 = var5;
-                if(!var8) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
-                var6 = var7;
-case 28:
-                var1['outboundTitle'] = var6;
-                var7 = var2.outbound_redemption_modal_body;
-                var8 = var4 != var7;
-                var6 = var5;
-                if(!var8) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
-                var6 = var7;
-case 30:
-                var1['outboundRedemptionModalBody'] = var6;
-                var7 = var2.outbound_terms_and_conditions;
-                var8 = var4 != var7;
-                var6 = var5;
-                if(!var8) { _fun0004_ip = 14; continue _fun0004 }
+                if(!var8) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
                 var6 = var7;
-case 14:
-                var1['outboundTermsAndConditions'] = var6;
-                var7 = var2.outbound_redemption_page_link;
+case 31:
+                var1['inboundBodyText'] = var6;
+                var7 = var2.inbound_help_center_link;
                 var8 = var4 != var7;
                 var6 = var5;
                 if(!var8) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
                 var6 = var7;
 case 33:
+                var1['inboundHelpCenterLink'] = var6;
+                var7 = var2.outbound_title;
+                var8 = var4 != var7;
+                var6 = var5;
+                if(!var8) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
+                var6 = var7;
+case 35:
+                var1['outboundTitle'] = var6;
+                var7 = var2.outbound_redemption_modal_body;
+                var8 = var4 != var7;
+                var6 = var5;
+                if(!var8) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
+                var6 = var7;
+case 37:
+                var1['outboundRedemptionModalBody'] = var6;
+                var7 = var2.outbound_terms_and_conditions;
+                var8 = var4 != var7;
+                var6 = var5;
+                if(!var8) { _fun0004_ip = 14; continue _fun0004 }
+case 39:
+                var6 = var7;
+case 14:
+                var1['outboundTermsAndConditions'] = var6;
+                var7 = var2.outbound_redemption_page_link;
+                var8 = var4 != var7;
+                var6 = var5;
+                if(!var8) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
+                var6 = var7;
+case 40:
                 var1['outboundRedemptionPageLink'] = var6;
                 var6 = var2.outbound_redemption_url_format;
                 var7 = var4 != var6;
-                if(!var7) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+                if(!var7) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
                 var5 = var6;
-case 35:
+case 42:
                 var1['outboundRedemptionUrlFormat'] = var5;
                 var5 = var2.flags;
                 var1['flags'] = var5;
@@ -414,38 +455,57 @@ case 35:
                 var1['inboundRestrictedCountries'] = var5;
                 var5 = var2.outbound_restricted_countries;
                 var1['outboundRestrictedCountries'] = var5;
+                var5 = var2.allowed_countries;
+                if(!(var4 == var5)) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
+                var5 = new Array(0);
+case 44:
+                var1['allowedCountries'] = var5;
+                var5 = var2.country_list_mode;
+                if(!(var4 == var5)) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
+                var8 = _closure1_slot0;
+                var7 = _closure1_slot1;
+                var6 = 7;
+                var7 = var7[var6];
+                var6 = undefined;
+                var6 = var8.bind(var6)(var7);
+                var6 = var6.CountryListMode;
+                var5 = var6.BLOCKLIST;
+case 46:
+                var1['countryListMode'] = var5;
                 var5 = var2.promotion_type;
                 var1['promotionType'] = var5;
                 var6 = var2.partner_id;
                 var7 = var4 != var6;
                 var5 = null;
-                if(!var7) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+                if(!var7) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
                 var5 = var6;
-case 37:
+case 48:
                 var1['partnerId'] = var5;
                 var5 = var2.marketing_components;
-                if(!(var4 == var5)) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+                if(!(var4 == var5)) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
                 var5 = new Array(0);
-case 39:
+case 50:
                 var1['marketingComponents'] = var5;
                 var5 = var2.metadata;
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
+                if(var6) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
                 var5 = var5.gift_promotion;
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0004_ip = 41; continue _fun0004 }
-case 43:
+                if(var6) { _fun0004_ip = 52; continue _fun0004 }
+case 54:
                 var2 = var5.reward_sku_ids;
-case 41:
-                if(!(var4 == var2)) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+case 52:
+                if(!(var4 == var2)) { _fun0004_ip = 55; continue _fun0004 }
+case 56:
                 var2 = new Array(0);
-case 44:
+case 55:
                 var1['rewardSkuIds'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

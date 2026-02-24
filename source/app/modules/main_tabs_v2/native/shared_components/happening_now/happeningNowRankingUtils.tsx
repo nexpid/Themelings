@@ -62,24 +62,21 @@ case 9:
             var1 = 'unified-vc';
             if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 10:
-            var1 = 'user-returned';
-            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 11:
             var1 = 'user';
-            if(!(var1 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!(var1 !== var2)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var1 = 'invite';
-            if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!(var1 !== var2)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var1 = 'create-channel';
-            if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
-case 16:
+            if(!(var1 !== var2)) { _fun0001_ip = 13; continue _fun0001 }
+case 15:
             var1 = 'customize-guild';
-            if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
-case 17:
+            if(!(var1 !== var2)) { _fun0001_ip = 13; continue _fun0001 }
+case 16:
             var1 = 'student-hub-add-channel';
-            if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
-case 18:
+            if(!(var1 !== var2)) { _fun0001_ip = 13; continue _fun0001 }
+case 17:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -89,10 +86,10 @@ case 18:
             var2 = var3.assertNever;
             var2 = var2.bind(var3)(var4);
             return var1;
-case 14:
+case 13:
             var1 = _closure1_slot6;
             return var1;
-case 12:
+case 11:
             var1 = _closure1_slot7;
             return var1;
 case 2:
@@ -121,15 +118,15 @@ case 0:
                     var2 = arg1;
                     var1 = 'voiceState';
                     var1 = var1 in var2;
-                    if(!var1) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+                    if(!var1) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var3 = var2.voiceState;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 19; continue _fun0002 }
-case 21:
+                    if(!(var1 != var3)) { _fun0002_ip = 18; continue _fun0002 }
+case 20:
                     var2 = var2.voiceState;
                     var5 = var2.channelId;
-                    if(!(var1 != var5)) { _fun0002_ip = 11; continue _fun0002 }
+                    if(!(var1 != var5)) { _fun0002_ip = 21; continue _fun0002 }
 case 5:
                     var1 = global;
                     var3 = var1.Object;
@@ -154,10 +151,10 @@ case 23:
                     var1 = var3.bind(var4)(var2);
 case 22:
                     return var1;
-case 11:
+case 21:
                     var1 = false;
                     return var1;
-case 19:
+case 18:
                     var1 = false;
                     return var1;
                 }
@@ -293,11 +290,11 @@ case 0:
                     var1 = 'voiceState';
                     var1 = var1 in var2;
                     if(!var1) { _fun0006_ip = 33; continue _fun0006 }
-case 20:
+case 19:
                     var3 = var2.voiceState;
                     var1 = null;
                     if(!(var1 != var3)) { _fun0006_ip = 33; continue _fun0006 }
-case 21:
+case 20:
                     var2 = var2.voiceState;
                     var4 = var2.discoverable;
                     var3 = false;

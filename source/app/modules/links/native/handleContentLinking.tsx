@@ -7,6 +7,201 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
+    var1 = function _handleContentLinking() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                    StartGenerator();
+                    var2 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                    var12 = var2.guildId;
+                    var8 = var2.channelId;
+                    var6 = var2.navigationSettings;
+                    var11 = var2.messageId;
+                    var7 = var2.summaryId;
+                    var4 = undefined;
+                    SaveGenerator(address=46);
+case 4:
+                    return var4;
+case 5:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                    var9 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var10[var3];
+                    var13 = var9.bind(var4)(var3);
+                    var3 = var13.popAll;
+                    var3 = var3.bind(var13)();
+                    var3 = 4;
+                    var3 = var10[var3];
+                    var10 = var9.bind(var4)(var3);
+                    var9 = var10.getConfig;
+                    var3 = {};
+                    var13 = 'handleContentLinking';
+                    var3['location'] = var13;
+                    var3 = var9.bind(var10)(var3);
+                    var9 = var3.enabled;
+                    var3 = var6.safe;
+                    var13 = var6.navigationReplace;
+                    var10 = var4 === var13;
+                    if(var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+                    var10 = var13;
+case 8:
+                    var13 = var6.waitForConnection;
+                    var6 = var4 === var13;
+                    if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+                    var6 = var13;
+case 10:
+                    var6 = !var6;
+                    if(!var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+                    var6 = var9;
+case 12:
+                    if(var6) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+                    var9 = _closure1_slot6;
+                    var6 = null;
+                    if(!(var6 != var9)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+                    var6 = _closure1_slot6;
+                    var6 = var6.bind(var4)();
+case 16:
+                    var6 = global;
+                    var13 = var6.Promise;
+                    var6 = var13.prototype;
+                    var9 = Object.create(var6, {constructor: {value: var13}});
+                    var17 = function(arg1, arg2) {
+                        var1 = arg1;
+                        var _closure5_slot0 = var1;
+                        var1 = arg2;
+                        var _closure5_slot1 = var1;
+                        var3 = function o() {
+                            var3 = _closure5_slot1;
+                            var1 = global;
+                            var4 = var1.Error;
+                            var1 = var4.prototype;
+                            var2 = Object.create(var1, {constructor: {value: var4}});
+                            var5 = 'superseded';
+                            var6 = var2;
+                            var1 = new var6[var4](var5, var4);
+                            var2 = var1 instanceof Object ? var1 : var2;
+                            var1 = undefined;
+                            var1 = var3.bind(var1)(var2);
+                            return var1;
+                        };
+                        _closure1_slot6 = var3;
+                        var3 = _closure1_slot4;
+                        var1 = undefined;
+                        var2 = function() {
+                            var1 = null;
+                            _closure1_slot6 = var1;
+                            var2 = _closure5_slot0;
+                            var1 = undefined;
+                            var2 = var2.bind(var1)();
+                            return var1;
+                        };
+                        var2 = var3.bind(var1)(var2);
+                        return var1;
+                    };
+                    var18 = var9;
+                    var6 = new var18[var13](var17, var16);
+                    var6 = var6 instanceof Object ? var6 : var9;
+                    SaveGenerator(address=237);
+case 18:
+                    return var6;
+case 19:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
+                    if(!var9) { _fun0001_ip = 14; continue _fun0001 }
+case 20:
+                    return var6;
+case 14:
+                    if(var3) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+                    var6 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var3 = 6;
+                    var3 = var9[var3];
+                    var13 = var6.bind(var4)(var3);
+                    var9 = var13.transitionTo;
+                    var6 = _closure1_slot5;
+                    var3 = var6.CHANNEL;
+                    var6 = var3.bind(var6)(var12, var8, var11);
+                    var3 = {};
+                    var3['navigationReplace'] = var10;
+                    var14 = true;
+                    var3['openChannel'] = var14;
+                    var3 = var9.bind(var13)(var6, var3);
+                    _fun0001_ip = 23; continue _fun0001;
+case 21:
+                    var6 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var9[var3];
+                    var9 = var6.bind(var4)(var3);
+                    var6 = _closure1_slot5;
+                    var3 = var6.CHANNEL;
+                    var6 = var3.bind(var6)(var12, var8, var11);
+                    var3 = {};
+                    var3['navigationReplace'] = var10;
+                    var10 = true;
+                    var3['openChannel'] = var10;
+                    var3 = var9.bind(var4)(var6, var3);
+                    SaveGenerator(address=375);
+case 24:
+                    return var3;
+case 25:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(var6) { _fun0001_ip = 26; continue _fun0001 }
+case 23:
+                    var9 = null;
+                    var6 = var9 != var8;
+                    if(!var6) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
+                    var6 = var9 != var7;
+case 27:
+                    if(!var6) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
+                    var6 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var5 = 7;
+                    var5 = var9[var5];
+                    var6 = var6.bind(var4)(var5);
+                    var5 = var6.setSelectedSummary;
+                    var5 = var5.bind(var6)(var8, var7);
+case 29:
+                    return var4;
+case 26:
+                    return var3;
+case 6:
+                    return var2;
+case 2:
+                    return var1;
+                }
+            };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot7 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -30,126 +225,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.Routes;
     var _closure1_slot5 = var4;
-    var4 = 7;
+    var4 = null;
+    var _closure1_slot6 = var4;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/links/native/handleContentLinking.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function handleContentLinking(arg1) {
-        var1 = arg1;
-        var3 = var1.guildId;
-        var _closure2_slot0 = var3;
-        var3 = var1.channelId;
-        var _closure2_slot1 = var3;
-        var3 = var1.navigationSettings;
-        var _closure2_slot2 = var3;
-        var3 = var1.messageId;
-        var _closure2_slot3 = var3;
-        var1 = var1.summaryId;
-        var _closure2_slot4 = var1;
-        var5 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 3;
-        var3 = var3[var1];
+    var2 = function handleContentLinking() {
         var1 = undefined;
-        var5 = var5.bind(var1)(var3);
-        var3 = var5.popAll;
-        var3 = var3.bind(var5)();
-        var3 = _closure1_slot4;
-        var4 = _closure1_slot3;
-        var2 = function* () {
-            var1 = function* anon_0_() {
-                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                    var3 = _closure2_slot2;
-                    var2 = var3.safe;
-                    var5 = var3.navigationReplace;
-                    var3 = undefined;
-                    var8 = var3 === var5;
-                    if(var8) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-                    var8 = var5;
-case 4:
-                    if(var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 5;
-                    var2 = var7[var2];
-                    var9 = var6.bind(var3)(var2);
-                    var7 = var9.transitionTo;
-                    var12 = _closure1_slot5;
-                    var11 = var12.CHANNEL;
-                    var10 = _closure2_slot0;
-                    var6 = _closure2_slot1;
-                    var2 = _closure2_slot3;
-                    var6 = var11.bind(var12)(var10, var6, var2);
-                    var2 = {};
-                    var2['navigationReplace'] = var8;
-                    var10 = true;
-                    var2['openChannel'] = var10;
-                    var2 = var7.bind(var9)(var6, var2);
-                    _fun0001_ip = 8; continue _fun0001;
-case 6:
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var2 = 4;
-                    var2 = var7[var2];
-                    var7 = var6.bind(var3)(var2);
-                    var11 = _closure1_slot5;
-                    var10 = var11.CHANNEL;
-                    var9 = _closure2_slot0;
-                    var6 = _closure2_slot1;
-                    var2 = _closure2_slot3;
-                    var6 = var10.bind(var11)(var9, var6, var2);
-                    var2 = {};
-                    var2['navigationReplace'] = var8;
-                    var8 = true;
-                    var2['openChannel'] = var8;
-                    var2 = var7.bind(var3)(var6, var2);
-                    SaveGenerator(address=197);
-case 9:
-                    return var2;
-case 10:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 11; continue _fun0001 }
-case 8:
-                    var6 = _closure2_slot1;
-                    var8 = null;
-                    var6 = var8 != var6;
-                    if(!var6) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-                    var7 = _closure2_slot4;
-                    var6 = var8 != var7;
-case 12:
-                    if(!var6) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var5 = 6;
-                    var5 = var7[var5];
-                    var7 = var6.bind(var3)(var5);
-                    var6 = var7.setSelectedSummary;
-                    var5 = _closure2_slot1;
-                    var4 = _closure2_slot4;
-                    var4 = var6.bind(var7)(var5, var4);
-case 14:
-                    return var3;
-case 11:
-                    return var2;
-case 2:
-                    return var1;
-                }
-            };
-            return var1;
-        };
-        var2 = var4.bind(var1)(var2);
-        var2 = var3.bind(var1)(var2);
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
     var3['default'] = var2;

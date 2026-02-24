@@ -1,11 +1,11 @@
 // app/modules/collectibles/native/FeedProductList.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -28,69 +28,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot4 = var7;
-    var7 = var4.Fragment;
-    var _closure1_slot5 = var7;
-    var4 = var4.jsxs;
-    var _closure1_slot6 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'flex': 1, 'alignItems': 'center'};
-    var10 = 4;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_16;
-    var9['paddingTop'] = var12;
     var4['skeletonGrid'] = var9;
     var9 = {};
-    var12 = 'row';
-    var9['flexDirection'] = var12;
-    var12 = 5;
-    var13 = var6[var12];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.COLLECTIBLES_SHOP_CARD_GAP;
-    var9['gap'] = var13;
-    var13 = var6[var12];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.COLLECTIBLES_SHOP_CARD_GAP;
-    var9['paddingBottom'] = var13;
-    var12 = var6[var12];
-    var12 = var5.bind(var1)(var12);
-    var12 = var12.COLLECTIBLES_SHOP_CARD_GAP;
-    var9['paddingHorizontal'] = var12;
-    var4['skeletonRow'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_16;
-    var9['paddingHorizontal'] = var12;
+    var10 = 'row';
+    var9['flexDirection'] = var10;
+    var10 = 4;
+    var11 = var6[var10];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.COLLECTIBLES_SHOP_CARD_GAP;
+    var9['gap'] = var11;
+    var11 = var6[var10];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.COLLECTIBLES_SHOP_CARD_GAP;
+    var9['paddingBottom'] = var11;
     var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_16;
-    var9['marginBottom'] = var10;
-    var4['titleContainer'] = var9;
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.COLLECTIBLES_SHOP_CARD_GAP;
+    var9['paddingHorizontal'] = var10;
+    var4['skeletonRow'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot7 = var4;
+    var _closure1_slot5 = var4;
     var4 = function SkeletonGrid(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var8 = var1.loadingCardsNum;
             var _closure2_slot0 = var8;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot5;
             var4 = undefined;
             var6 = var3.bind(var4)();
             var _closure2_slot1 = var6;
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 6;
+            var3 = 5;
             var3 = var7[var3];
             var5 = var5.bind(var4)(var3);
             var3 = var5.useCardLayout;
@@ -123,7 +101,7 @@ case 0:
                     var5 = _closure1_slot4;
                     var2 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var1 = 7;
+                    var1 = 6;
                     var1 = var8[var1];
                     var4 = undefined;
                     var3 = var2.bind(var4)(var1);
@@ -132,7 +110,7 @@ case 0:
                     var2['width'] = var1;
                     var1 = {};
                     var7 = _closure1_slot0;
-                    var6 = 5;
+                    var6 = 4;
                     var6 = var8[var6];
                     var6 = var7.bind(var4)(var6);
                     var6 = var6.COLLECTIBLES_SHOP_CARD_GAP;
@@ -192,8 +170,8 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
-    var4 = 10;
+    var _closure1_slot6 = var4;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -203,81 +181,47 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var12 = var1.products;
-            var10 = var1.loadingCardsNum;
-            var16 = var1.title;
-            var11 = var1.preferVCPrice;
-            var1 = _closure1_slot7;
-            var4 = undefined;
-            var14 = var1.bind(var4)();
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 6;
-            var1 = var3[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.useCardLayout;
-            var1 = var1.bind(var2)();
-            var13 = var1.columns;
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot5;
-            var1 = {};
-            var5 = null;
-            var6 = var5 != var16;
-            if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+            var8 = var1.products;
+            var6 = var1.loadingCardsNum;
+            var7 = var1.preferVCPrice;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 5;
+            var1 = var4[var1];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.useCardLayout;
+            var1 = var1.bind(var3)();
+            var9 = var1.columns;
+            var3 = var8.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var9 = _closure1_slot4;
-            var8 = _closure1_slot3;
-            var5 = {};
-            var14 = var14.titleContainer;
-            var5['style'] = var14;
-            var15 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var14 = 8;
-            var14 = var17[var14];
-            var14 = var15.bind(var4)(var14);
-            var15 = var14.Text;
-            var14 = {};
-            var17 = 'heading-lg/semibold';
-            var14['variant'] = var17;
-            var14['children'] = var16;
-            var14 = var9.bind(var4)(var15, var14);
-            var5['children'] = var14;
-            var6 = var9.bind(var4)(var8, var5);
-case 4:
-            var5 = new Array(2);
-            var5[0] = var6;
-            var8 = var12.length;
-            var6 = 0;
-            if(!(var6 !== var8)) { _fun0002_ip = 6; continue _fun0002 }
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var1 = 7;
+            var1 = var10[var1];
+            var3 = var3.bind(var5)(var1);
+            var1 = {};
+            var1['products'] = var8;
+            var8 = 1;
+            var10 = var9 < var8;
+            if(var10) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var9 = _closure1_slot4;
-            var8 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var6 = 9;
-            var6 = var14[var6];
-            var8 = var8.bind(var4)(var6);
-            var6 = {};
-            var6['products'] = var12;
-            var12 = 1;
-            var14 = var13 < var12;
-            if(var14) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-            var12 = var13;
-case 8:
-            var6['column'] = var12;
-            var6['preferVCPrice'] = var11;
-            var6 = var9.bind(var4)(var8, var6);
-            _fun0002_ip = 10; continue _fun0002;
+            var8 = var9;
 case 6:
-            var9 = _closure1_slot4;
-            var8 = _closure1_slot8;
-            var7 = {};
-            var7['loadingCardsNum'] = var10;
-            var6 = var9.bind(var4)(var8, var7);
-case 10:
-            var5[1] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var1['column'] = var8;
+            var1['preferVCPrice'] = var7;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0002_ip = 8; continue _fun0002;
+case 4:
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot6;
+            var2 = {};
+            var2['loadingCardsNum'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 8:
             return var1;
         }
     };

@@ -384,6 +384,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DESIGN_SYSTEMS_COACHMARK'] = var1;
     var1 = 'DESIGN_SYSTEMS_MODAL';
     var2['DESIGN_SYSTEMS_MODAL'] = var1;
+    var1 = 'DESIGN_SYSTEMS_LEGACY_BUTTON';
+    var2['DESIGN_SYSTEMS_LEGACY_BUTTON'] = var1;
     var1 = 'HIGHLIGHT_NOTIFICATIONS';
     var2['HIGHLIGHT_NOTIFICATIONS'] = var1;
     var1 = 'COLLECTIBLES_SHOP';
@@ -416,6 +418,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_SETTING_ACTIVITY_STATUS'] = var1;
     var1 = 'GUILD_SETTING_ACTIVITY_JOINING';
     var2['GUILD_SETTING_ACTIVITY_JOINING'] = var1;
+    var1 = 'PROFILE_PRIVACY';
+    var2['PROFILE_PRIVACY'] = var1;
     var1 = 'DATA_AND_PRIVACY';
     var2['DATA_AND_PRIVACY'] = var1;
     var1 = 'CONTENT_AND_SOCIAL';
@@ -464,8 +468,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS'] = var1;
     var1 = 'PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P';
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P'] = var1;
-    var1 = 'LOW_PERFORMANCE_MODE';
-    var2['LOW_PERFORMANCE_MODE'] = var1;
     var1 = 'ENABLE_DM_REPLY_NUDGE_REMINDERS';
     var2['ENABLE_DM_REPLY_NUDGE_REMINDERS'] = var1;
     var4 = dependencyMap;

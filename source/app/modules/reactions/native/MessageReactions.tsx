@@ -207,21 +207,21 @@ case 0:
                     var1 = arg2;
                     var2 = var1.burst_count;
                     var4 = 0;
-                    if(!(!(var2 > var4))) { _fun0005_ip = 7; continue _fun0005 }
-case 16:
-                    var2 = var1.count;
-                    _fun0005_ip = 17; continue _fun0005;
-case 7:
-                    var2 = var1.burst_count;
+                    if(!(!(var2 > var4))) { _fun0005_ip = 16; continue _fun0005 }
 case 17:
-                    var1 = var3.burst_count;
-                    if(!(!(var1 > var4))) { _fun0005_ip = 18; continue _fun0005 }
-case 4:
-                    var1 = var3.count;
-                    _fun0005_ip = 14; continue _fun0005;
+                    var2 = var1.count;
+                    _fun0005_ip = 18; continue _fun0005;
+case 16:
+                    var2 = var1.burst_count;
 case 18:
                     var1 = var3.burst_count;
-case 14:
+                    if(!(!(var1 > var4))) { _fun0005_ip = 6; continue _fun0005 }
+case 2:
+                    var1 = var3.count;
+                    _fun0005_ip = 19; continue _fun0005;
+case 6:
+                    var1 = var3.burst_count;
+case 19:
                     var1 = var2 - var1;
                     return var1;
                 }
@@ -236,8 +236,8 @@ case 14:
             var1 = {};
             var1['value'] = var5;
             var5 = var11.length;
-            if(!(!(var5 > var7))) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(!(!(var5 > var7))) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -247,8 +247,8 @@ case 20:
             var7 = var5.MessageReactionsEmpty;
             var5 = {};
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 21; continue _fun0001;
-case 19:
+            _fun0001_ip = 22; continue _fun0001;
+case 20:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -266,7 +266,7 @@ case 19:
             var18 = var9;
             var9 = copyDataProperties(var19, var18);
             var5 = var8.bind(var4)(var7, var6);
-case 21:
+case 22:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

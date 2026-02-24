@@ -34,5 +34,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var3['FAVORITES_RAW_GUILD_ID'] = var4;
     var3['FAVORITES_GUILD_RECORD'] = var2;
+    var2 = '0';
+    var3['FAVORITES_UNCATEGORIZED_PARENT_ID'] = var2;
+    var2 = 200;
+    var3['MAX_FAVORITE_CHANNELS'] = var2;
     return var1;
 })();

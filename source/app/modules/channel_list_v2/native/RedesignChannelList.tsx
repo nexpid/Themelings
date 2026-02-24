@@ -71,15 +71,17 @@ case 0:
             var7 = var7.bind(var5)(var3);
             var3 = var6.guild;
             var3 = var7.bind(var5)(var3);
-            var _closure2_slot2 = var3;
+            var7 = var3.rows;
+            var _closure2_slot2 = var7;
+            var7 = var3.gameClaimMarkAsDismissed;
             var3 = _closure1_slot0;
-            var7 = 40;
-            var7 = var4[var7];
-            var9 = var3.bind(var5)(var7);
-            var8 = var9.useStateFromStoresObject;
-            var10 = _closure1_slot7;
-            var7 = new Array(1);
-            var7[0] = var10;
+            var8 = 40;
+            var8 = var4[var8];
+            var10 = var3.bind(var5)(var8);
+            var9 = var10.useStateFromStoresObject;
+            var11 = _closure1_slot7;
+            var8 = new Array(1);
+            var8[0] = var11;
             var1 = function() {
                 var4 = _closure1_slot7;
                 var3 = var4.getGuild;
@@ -94,9 +96,9 @@ case 0:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var1 = var8.bind(var9)(var7, var1);
-            var8 = var1.guildChannels;
-            var7 = var1.guildChannelsVersion;
+            var1 = var9.bind(var10)(var8, var1);
+            var9 = var1.guildChannels;
+            var8 = var1.guildChannelsVersion;
             var1 = 41;
             var1 = var4[var1];
             var3 = var3.bind(var5)(var1);
@@ -108,12 +110,14 @@ case 13:
             var4 = _closure1_slot14;
             var3 = _closure1_slot17;
             var2 = {};
-            var12 = var2;
-            var11 = var6;
-            var6 = copyDataProperties(var12, var11);
+            var13 = var2;
+            var12 = var6;
+            var6 = copyDataProperties(var13, var12);
             var6 = 'guildChannels';
-            var2[var6] = var8;
+            var2[var6] = var9;
             var6 = 'guildChannelsVersion';
+            var2[var6] = var8;
+            var6 = 'gameClaimMarkAsDismissed';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 12:
@@ -243,22 +247,24 @@ case 14:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
-            var15 = var2.contentInset;
-            var _closure2_slot0 = var15;
+            var17 = var2.contentInset;
+            var _closure2_slot0 = var17;
+            var12 = var2.gameClaimMarkAsDismissed;
+            var _closure2_slot1 = var12;
             var18 = var2.guild;
-            var _closure2_slot1 = var18;
+            var _closure2_slot2 = var18;
             var24 = var2.guildChannels;
-            var _closure2_slot2 = var24;
+            var _closure2_slot3 = var24;
             var23 = var2.selectedChannelId;
-            var _closure2_slot3 = var23;
+            var _closure2_slot4 = var23;
             var3 = var2.selectedVoiceChannelId;
-            var _closure2_slot4 = var3;
-            var12 = var2.style;
-            var _closure2_slot5 = var12;
+            var _closure2_slot5 = var3;
+            var15 = var2.style;
+            var _closure2_slot6 = var15;
             var2 = _closure1_slot16;
             var4 = undefined;
             var13 = var2.bind(var4)();
-            var _closure2_slot6 = var13;
+            var _closure2_slot7 = var13;
             var6 = _closure1_slot0;
             var19 = _closure1_slot2;
             var2 = 16;
@@ -266,30 +272,30 @@ case 0:
             var7 = var6.bind(var4)(var5);
             var5 = var7.useCategoryStyles;
             var7 = var5.bind(var7)();
-            var _closure2_slot7 = var7;
+            var _closure2_slot8 = var7;
             var16 = _closure1_slot1;
             var5 = 17;
             var5 = var19[var5];
             var5 = var16.bind(var4)(var5);
             var5 = var5.bind(var4)(var18);
-            var20 = var5.bannerHeight;
-            var _closure2_slot8 = var20;
-            var17 = var5.bannerWidth;
-            var _closure2_slot9 = var17;
+            var22 = var5.bannerHeight;
+            var _closure2_slot9 = var22;
+            var20 = var5.bannerWidth;
+            var _closure2_slot10 = var20;
             var9 = var5.headerHeight;
-            var _closure2_slot10 = var9;
+            var _closure2_slot11 = var9;
             var8 = var5.fontScale;
-            var _closure2_slot11 = var8;
+            var _closure2_slot12 = var8;
             var37 = var5.listTop;
             var36 = var5.listBottom;
             var35 = var5.listPaddingBottom;
             var25 = var5.listViewportHeight;
-            var _closure2_slot12 = var25;
+            var _closure2_slot13 = var25;
             var5 = _closure1_slot4;
             var11 = var5.useRef;
             var10 = null;
             var39 = var11.bind(var5)(var10);
-            var _closure2_slot13 = var39;
+            var _closure2_slot14 = var39;
             var14 = var5.useEffect;
             var11 = new Array(2);
             var11[0] = var39;
@@ -302,8 +308,8 @@ case 0:
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
                 var4 = var5.registerFastListChannelVisibilityMethod;
-                var3 = _closure2_slot13;
-                var2 = _closure2_slot2;
+                var3 = _closure2_slot14;
+                var2 = _closure2_slot3;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
@@ -311,23 +317,23 @@ case 0:
             var11 = var24.getSections;
             var10 = false;
             var32 = var11.bind(var24)(var10);
-            var _closure2_slot14 = var32;
-            var22 = var18.id;
+            var _closure2_slot15 = var32;
+            var26 = var18.id;
             var10 = 19;
             var10 = var19[var10];
             var14 = var6.bind(var4)(var10);
             var11 = var14.useExternalScrollEventHandler;
             var10 = {};
-            var10['id'] = var22;
+            var10['id'] = var26;
             var10 = var11.bind(var14)(var10);
-            var _closure2_slot15 = var10;
+            var _closure2_slot16 = var10;
             var14 = var5.useCallback;
             var11 = new Array(1);
             var11[0] = var10;
             var10 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.nativeEvent;
-                var5 = _closure2_slot15;
+                var5 = _closure2_slot16;
                 var2 = var1.contentOffset;
                 var4 = var2.y;
                 var2 = var1.contentSize;
@@ -339,7 +345,7 @@ case 0:
                 return var1;
             };
             var14 = var14.bind(var5)(var10, var11);
-            var22 = var5.useCallback;
+            var26 = var5.useCallback;
             var11 = new Array(3);
             var11[0] = var24;
             var11[1] = var18;
@@ -355,21 +361,21 @@ case 0:
                 var1 = {};
                 var5 = arg1;
                 var1['fastList'] = var5;
-                var6 = _closure2_slot2;
+                var6 = _closure2_slot3;
                 var1['guildChannels'] = var6;
-                var6 = _closure2_slot1;
+                var6 = _closure2_slot2;
                 var1['guild'] = var6;
-                var5 = _closure2_slot10;
+                var5 = _closure2_slot11;
                 var1['headerHeight'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var33 = var22.bind(var5)(var10, var11);
+            var33 = var26.bind(var5)(var10, var11);
             var11 = var5.useCallback;
             var10 = new Array(4);
             var10[0] = var18;
-            var10[1] = var20;
-            var10[2] = var17;
+            var10[1] = var22;
+            var10[2] = var20;
             var10[3] = var9;
             var9 = function(arg1) {
                 var5 = _closure1_slot14;
@@ -380,16 +386,16 @@ case 0:
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
                 var2 = {};
-                var1 = _closure2_slot1;
+                var1 = _closure2_slot2;
                 var2['guild'] = var1;
                 var7 = arg1;
                 var7 = var7.scrollPosValue;
                 var2['scrollPosition'] = var7;
-                var7 = _closure2_slot8;
-                var2['bannerHeight'] = var7;
                 var7 = _closure2_slot9;
+                var2['bannerHeight'] = var7;
+                var7 = _closure2_slot10;
                 var2['bannerWidth'] = var7;
-                var6 = _closure2_slot10;
+                var6 = _closure2_slot11;
                 var2['headerHeight'] = var6;
                 var1 = var1.id;
                 var1 = var5.bind(var4)(var3, var2, var1);
@@ -415,17 +421,17 @@ case 0:
             var10 = var6.bind(var4)(var9);
             var9 = var10.useMobileQuestDockHeight;
             var9 = var9.bind(var10)();
-            var _closure2_slot16 = var9;
+            var _closure2_slot17 = var9;
             var11 = var5.useMemo;
             var10 = new Array(4);
-            var10[0] = var15;
-            var10[1] = var12;
+            var10[0] = var17;
+            var10[1] = var15;
             var10[2] = var13;
             var10[3] = var9;
             var9 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var1 = _closure2_slot6;
+                    var1 = _closure2_slot7;
                     var3 = var1.container;
                     var1 = new Array(3);
                     var1[0] = var3;
@@ -460,7 +466,7 @@ case 20:
 case 23:
                     var8 = var7;
 case 22:
-                    var7 = _closure2_slot16;
+                    var7 = _closure2_slot17;
                     var7 = var8 + var7;
                     var3['paddingBottom'] = var7;
                     var7 = _closure2_slot0;
@@ -494,7 +500,7 @@ case 31:
 case 30:
                     var3['marginRight'] = var4;
                     var1[1] = var3;
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot6;
                     var1[2] = var2;
                     return var1;
                 }
@@ -505,32 +511,32 @@ case 30:
             var10 = var6.bind(var4)(var9);
             var9 = var10.useRecentlyActiveChannelsEnabled;
             var17 = var9.bind(var10)();
-            var _closure2_slot17 = var17;
+            var _closure2_slot18 = var17;
             var9 = 25;
             var9 = var19[var9];
             var10 = var16.bind(var4)(var9);
             var9 = var18.id;
             var9 = var10.bind(var4)(var9);
-            var _closure2_slot18 = var9;
+            var _closure2_slot19 = var9;
             var10 = 26;
             var10 = var19[var10];
-            var15 = var6.bind(var4)(var10);
-            var12 = var15.useOptInEnabledForGuild;
+            var20 = var6.bind(var4)(var10);
+            var15 = var20.useOptInEnabledForGuild;
             var10 = var18.id;
-            var10 = var12.bind(var15)(var10);
-            var _closure2_slot19 = var10;
-            var12 = 27;
-            var12 = var19[var12];
-            var20 = var6.bind(var4)(var12);
-            var15 = var20.useGuildLiveChannelNoticeInfo;
-            var12 = var18.id;
-            var20 = var15.bind(var20)(var12);
-            var12 = 28;
-            var12 = var19[var12];
-            var15 = var6.bind(var4)(var12);
-            var12 = var15.getScaledLiveChannelNoticeHeight;
-            var12 = var12.bind(var15)(var8, var20);
-            var _closure2_slot20 = var12;
+            var10 = var15.bind(var20)(var10);
+            var _closure2_slot20 = var10;
+            var15 = 27;
+            var15 = var19[var15];
+            var22 = var6.bind(var4)(var15);
+            var20 = var22.useGuildLiveChannelNoticeInfo;
+            var15 = var18.id;
+            var22 = var20.bind(var22)(var15);
+            var15 = 28;
+            var15 = var19[var15];
+            var20 = var6.bind(var4)(var15);
+            var15 = var20.getScaledLiveChannelNoticeHeight;
+            var20 = var15.bind(var20)(var8, var22);
+            var _closure2_slot21 = var20;
             var15 = function useDrawerAwareScrollToTop(arg1) {
                 var6 = arg1;
                 var _closure3_slot0 = var6;
@@ -659,10 +665,10 @@ case 32:
                 return var1;
             };
             var15 = var15.bind(var4)(var39);
-            var22 = var5.useCallback;
-            var20 = new Array(2);
-            var20[0] = var24;
-            var20[1] = var32;
+            var26 = var5.useCallback;
+            var22 = new Array(2);
+            var22[0] = var24;
+            var22[1] = var32;
             var15 = function(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -683,7 +689,7 @@ case 42:
                     var5 = var9;
                     if(!(var9 >= var7)) { _fun0008_ip = 41; continue _fun0008 }
 case 43:
-                    var1 = _closure2_slot14;
+                    var1 = _closure2_slot15;
                     var1 = var1[var9];
                     var3 = var9;
                     var5 = var3;
@@ -693,7 +699,7 @@ case 44:
                     var5 = var9;
                     if(!(var5 >= var7)) { _fun0008_ip = 41; continue _fun0008 }
 case 39:
-                    var1 = _closure2_slot14;
+                    var1 = _closure2_slot15;
                     var1 = var1[var9];
                     var3 = var9;
                     var5 = var3;
@@ -709,23 +715,23 @@ case 46:
                     var2 = var6[var2];
                     var4 = var3.bind(var4)(var2);
                     var3 = var4.getChannelListSectionHasFooterDivider;
-                    var2 = _closure2_slot2;
+                    var2 = _closure2_slot3;
                     var2 = var3.bind(var4)(var2, var5);
                     var1 = !var2;
 case 45:
                     return var1;
                 }
             };
-            var15 = var22.bind(var5)(var15, var20);
-            var _closure2_slot21 = var15;
-            var22 = var5.useCallback;
-            var20 = new Array(5);
-            var20[0] = var24;
-            var20[1] = var8;
-            var20[2] = var9;
-            var20[3] = var12;
-            var20[4] = var25;
-            var12 = function(arg1, arg2) {
+            var15 = var26.bind(var5)(var15, var22);
+            var _closure2_slot22 = var15;
+            var26 = var5.useCallback;
+            var22 = new Array(5);
+            var22[0] = var24;
+            var22[1] = var8;
+            var22[2] = var9;
+            var22[3] = var20;
+            var22[4] = var25;
+            var20 = function(arg1, arg2) {
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var2 = 30;
@@ -734,19 +740,19 @@ case 45:
                 var6 = var4.bind(var3)(var2);
                 var4 = var6.getChannelListItemSize;
                 var2 = {};
-                var8 = _closure2_slot2;
+                var8 = _closure2_slot3;
                 var2['guildChannels'] = var8;
                 var8 = arg1;
                 var2['section'] = var8;
                 var8 = arg2;
                 var2['row'] = var8;
-                var8 = _closure2_slot11;
+                var8 = _closure2_slot12;
                 var2['fontScale'] = var8;
-                var8 = _closure2_slot18;
+                var8 = _closure2_slot19;
                 var2['voiceStates'] = var8;
-                var8 = _closure2_slot20;
+                var8 = _closure2_slot21;
                 var2['liveChannelNoticeHeight'] = var8;
-                var7 = _closure2_slot12;
+                var7 = _closure2_slot13;
                 var2['listViewportHeight'] = var7;
                 var2 = var4.bind(var6)(var2);
                 var4 = _closure1_slot1;
@@ -756,12 +762,13 @@ case 45:
                 var1 = var1.bind(var3)(var2);
                 return var1;
             };
-            var28 = var22.bind(var5)(var12, var20);
+            var28 = var26.bind(var5)(var20, var22);
             var22 = var5.useCallback;
-            var20 = new Array(3);
+            var20 = new Array(4);
             var20[0] = var24;
             var20[1] = var23;
             var20[2] = var18;
+            var20[3] = var12;
             var12 = function(arg1, arg2) {
                 var4 = _closure1_slot14;
                 var3 = _closure1_slot5;
@@ -774,16 +781,18 @@ case 45:
                 var7 = var6.bind(var1)(var5);
                 var6 = var7.renderChannelListItem;
                 var5 = {};
-                var9 = _closure2_slot2;
+                var9 = _closure2_slot3;
                 var5['guildChannels'] = var9;
                 var9 = arg1;
                 var5['section'] = var9;
                 var9 = arg2;
                 var5['row'] = var9;
-                var9 = _closure2_slot3;
+                var9 = _closure2_slot4;
                 var5['selectedChannelId'] = var9;
+                var9 = _closure2_slot2;
+                var5['guild'] = var9;
                 var8 = _closure2_slot1;
-                var5['guild'] = var8;
+                var5['gameClaimMarkAsDismissed'] = var8;
                 var5 = var6.bind(var7)(var5);
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);
@@ -804,9 +813,9 @@ case 45:
                 var3 = undefined;
                 var8 = var4.bind(var3)(var2);
                 var7 = var8.getChannelListSectionHeaderSize;
-                var6 = _closure2_slot2;
-                var11 = _closure2_slot11;
-                var2 = _closure2_slot21;
+                var6 = _closure2_slot3;
+                var11 = _closure2_slot12;
+                var2 = _closure2_slot22;
                 var10 = var2.bind(var3)(var9);
                 var14 = var8;
                 var13 = var6;
@@ -835,11 +844,11 @@ case 45:
                 var4 = undefined;
                 var8 = var3.bind(var4)(var2);
                 var7 = var8.renderChannelListSectionHeader;
-                var6 = _closure2_slot2;
-                var12 = _closure2_slot17;
-                var3 = _closure2_slot21;
+                var6 = _closure2_slot3;
+                var12 = _closure2_slot18;
+                var3 = _closure2_slot22;
                 var11 = var3.bind(var4)(var9);
-                var10 = _closure2_slot7;
+                var10 = _closure2_slot8;
                 var15 = var8;
                 var14 = var6;
                 var13 = var9;
@@ -869,16 +878,16 @@ case 45:
                 var10 = var4.bind(var3)(var6);
                 var9 = var10.calculateVoiceSummary;
                 var6 = {};
-                var7 = _closure2_slot2;
+                var7 = _closure2_slot3;
                 var6['guildChannels'] = var7;
                 var6['section'] = var8;
-                var12 = _closure2_slot19;
+                var12 = _closure2_slot20;
                 var6['optInChannelsEnabled'] = var12;
-                var12 = _closure2_slot18;
+                var12 = _closure2_slot19;
                 var6['voiceStates'] = var12;
-                var12 = _closure2_slot3;
+                var12 = _closure2_slot4;
                 var6['selectedChannelId'] = var12;
-                var11 = _closure2_slot4;
+                var11 = _closure2_slot5;
                 var6['selectedVoiceChannelId'] = var11;
                 var6 = var9.bind(var10)(var6);
                 var2 = var5[var2];
@@ -910,22 +919,22 @@ case 45:
                 var11 = var5.bind(var4)(var2);
                 var10 = var11.calculateVoiceSummary;
                 var6 = {};
-                var7 = _closure2_slot2;
+                var7 = _closure2_slot3;
                 var6['guildChannels'] = var7;
                 var6['section'] = var8;
-                var12 = _closure2_slot19;
+                var12 = _closure2_slot20;
                 var6['optInChannelsEnabled'] = var12;
-                var12 = _closure2_slot18;
+                var12 = _closure2_slot19;
                 var6['voiceStates'] = var12;
-                var12 = _closure2_slot3;
-                var6['selectedChannelId'] = var12;
                 var12 = _closure2_slot4;
+                var6['selectedChannelId'] = var12;
+                var12 = _closure2_slot5;
                 var6['selectedVoiceChannelId'] = var12;
                 var13 = var10.bind(var11)(var6);
                 var3 = var9[var3];
                 var5 = var5.bind(var4)(var3);
                 var3 = var5.renderChannelListSectionFooter;
-                var14 = _closure2_slot13;
+                var14 = _closure2_slot14;
                 var17 = var5;
                 var16 = var7;
                 var15 = var8;
@@ -942,7 +951,7 @@ case 45:
             var7 = new Array(1);
             var7[0] = var32;
             var3 = function() {
-                var4 = _closure2_slot14;
+                var4 = _closure2_slot15;
                 var3 = var4.reduce;
                 var1 = function(arg1, arg2) {
                     var2 = arg1;
@@ -967,7 +976,7 @@ case 45:
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
                 var5 = var6.getFastListRecyclerKey;
-                var10 = _closure2_slot2;
+                var10 = _closure2_slot3;
                 var9 = arg1;
                 var8 = arg2;
                 var7 = arg3;

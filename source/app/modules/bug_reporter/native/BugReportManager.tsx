@@ -175,29 +175,29 @@ case 26:
                     if(var4) { _fun0003_ip = 27; continue _fun0003 }
 case 28:
                     var5 = _closure1_slot1;
-                    var9 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var4 = 11;
-                    var4 = var9[var4];
+                    var4 = var8[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.enqueueNotification;
                     var4 = {'type': 'BUG_REPORTER', 'duration': 5000};
-                    var8 = _closure1_slot0;
-                    var7 = 12;
-                    var7 = var9[var7];
-                    var8 = var8.bind(var3)(var7);
-                    var7 = var8.v4;
-                    var7 = var7.bind(var8)();
-                    var4['key'] = var7;
+                    var10 = _closure1_slot0;
+                    var9 = 12;
+                    var8 = var8[var9];
+                    var10 = var10.bind(var3)(var8);
+                    var8 = var10.v4;
+                    var8 = var8.bind(var10)();
+                    var4['key'] = var8;
                     var4['image'] = var2;
-                    var7 = null;
-                    var8 = var7 == var2;
-                    var7 = undefined;
-                    if(var8) { _fun0003_ip = 29; continue _fun0003 }
+                    var8 = null;
+                    var10 = var8 == var2;
+                    var8 = undefined;
+                    if(var10) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
-                    var7 = var2.uri;
+                    var8 = var2.uri;
 case 29:
-                    var4['imageUri'] = var7;
-                    var7 = function onDismiss() {
+                    var4['imageUri'] = var8;
+                    var8 = function onDismiss() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 11;
@@ -208,7 +208,14 @@ case 29:
                         var2 = var2.bind(var3)();
                         return var1;
                     };
-                    var4['onDismiss'] = var7;
+                    var4['onDismiss'] = var8;
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var9];
+                    var8 = var8.bind(var3)(var7);
+                    var7 = var8.v4;
+                    var7 = var7.bind(var8)();
+                    var4['inAppNotificationId'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
 case 27:

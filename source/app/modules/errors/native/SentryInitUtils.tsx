@@ -1187,7 +1187,7 @@ case 153:
                     var5['autoInitializeNativeSdk'] = var9;
                     var9 = _closure1_slot16;
                     var5['beforeSend'] = var9;
-                    var9 = '5180';
+                    var9 = '5215';
                     var5['dist'] = var9;
                     var5['dsn'] = var11;
                     var5['environment'] = var3;
@@ -1197,17 +1197,22 @@ case 153:
                     var5['sampleRate'] = var3;
                     var3 = _closure1_slot11;
                     var5['ignoreErrors'] = var3;
-                    var3 = 'discord_android@318.1.0-2+318201';
+                    var3 = 'discord_android@319.1.0-2+319201';
                     var5['release'] = var3;
                     var11 = _closure1_slot7;
                     var3 = new Array(1);
                     var3[0] = var11;
                     var5['tracePropagationTargets'] = var3;
                     var3 = _closure1_slot8;
-                    var11 = new Array(2);
+                    var11 = new Array(3);
                     var11[0] = var3;
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot3;
+                    var12 = var6[var4];
+                    var13 = var3.bind(var1)(var12);
+                    var12 = var13.featureFlagsIntegration;
+                    var12 = var12.bind(var13)();
+                    var11[1] = var12;
                     var12 = var6[var4];
                     var14 = var3.bind(var1)(var12);
                     var13 = var14.reactNativeTracingIntegration;
@@ -1223,7 +1228,7 @@ case 153:
                     };
                     var12['shouldCreateSpanForRequest'] = var15;
                     var12 = var13.bind(var14)(var12);
-                    var11[1] = var12;
+                    var11[2] = var12;
                     var5['integrations'] = var11;
                     var10 = function beforeBreadcrumb(arg1) {
                         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {

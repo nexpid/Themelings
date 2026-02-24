@@ -551,7 +551,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['GuildOnboardingManager'] = var1;
     var1 = {};
-    var8 = ['GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE', 'GUILD_APPLIED_BOOSTS_UPDATE'];
+    var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE', 'GUILD_APPLIED_BOOSTS_UPDATE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
@@ -1383,12 +1383,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['hasStoreChangeListeners'] = var4;
     var2['GameCommunityUpsellManager'] = var1;
     var1 = {};
-    var8 = ['VOICE_CHANNEL_SELECT'];
+    var8 = ['LOCAL_APP_DETECTION_COMPLETE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 89;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.default;
+        return var1;
+    };
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var2['MobileGameCommunitiesManager'] = var1;
+    var1 = {};
+    var8 = ['VOICE_CHANNEL_SELECT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 90;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1403,7 +1419,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 90;
+        var1 = 91;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1418,7 +1434,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 91;
+        var1 = 92;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1433,7 +1449,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 92;
+        var1 = 93;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1448,7 +1464,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 93;
+        var1 = 94;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1463,7 +1479,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 94;
+        var1 = 95;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1478,7 +1494,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 95;
+        var1 = 96;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1494,7 +1510,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 96;
+        var1 = 97;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1510,7 +1526,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 97;
+        var1 = 98;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1526,7 +1542,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 98;
+        var1 = 99;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1542,7 +1558,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 99;
+        var1 = 100;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1558,7 +1574,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 100;
+        var1 = 101;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1574,7 +1590,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 101;
+        var1 = 102;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1590,7 +1606,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 102;
+        var1 = 103;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1605,7 +1621,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 103;
+        var1 = 104;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1622,7 +1638,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 104;
+        var1 = 105;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1638,7 +1654,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 105;
+        var1 = 106;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1653,7 +1669,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 106;
+        var1 = 107;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1668,7 +1684,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 107;
+        var1 = 108;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1683,7 +1699,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 108;
+        var1 = 109;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1700,7 +1716,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 109;
+        var1 = 110;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1715,7 +1731,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 110;
+        var1 = 111;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1731,7 +1747,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 111;
+        var1 = 112;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1747,7 +1763,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 112;
+        var1 = 113;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1763,7 +1779,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 113;
+        var1 = 114;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1779,7 +1795,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 114;
+        var1 = 115;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1795,7 +1811,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 115;
+        var1 = 116;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1811,7 +1827,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 116;
+        var1 = 117;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1826,7 +1842,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 117;
+        var1 = 118;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1841,7 +1857,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 118;
+        var1 = 119;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1855,7 +1871,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 119;
+        var1 = 120;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1866,12 +1882,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['hasStoreChangeListeners'] = var4;
     var2['RestrictedHoursManager'] = var1;
     var1 = {};
+    var8 = new Array(0);
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 121;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.default;
+        return var1;
+    };
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
+    var1['loadRightBeforeConnectionOpen'] = var4;
+    var2['SentryExperimentFeatureFlagManager'] = var1;
+    var1 = {};
     var8 = ['QUESTS_SEND_HEARTBEAT_SUCCESS', 'QUESTS_SEND_HEARTBEAT_FAILURE', 'QUESTS_ENROLL_SUCCESS', 'RUNNING_GAMES_CHANGE', 'RUNNING_NON_GAMES_CHANGE', 'QUESTS_FETCH_CURRENT_QUESTS_SUCCESS', 'STREAM_START', 'STREAM_CREATE', 'STREAM_CLOSE', 'PASSIVE_UPDATE_V2', 'VOICE_STATE_UPDATES', 'EMBEDDED_ACTIVITY_LAUNCH_SUCCESS', 'FRAME_LAUNCH', 'EMBEDDED_ACTIVITY_UPDATE_V2', 'QUESTS_PREVIEW_UPDATE_SUCCESS', 'QUEST_APPLICATION_START_TIMER'];
     var1['actions'] = var8;
     var7 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 120;
+        var1 = 122;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1881,13 +1914,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['inlineRequire'] = var7;
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['QuestProgressManager'] = var1;
-    var1 = 121;
+    var1 = 123;
     var4 = var6[var1];
     var1 = undefined;
     var7 = var5.bind(var1)(var4);
     var4 = var7.initialize;
     var4 = var4.bind(var7)(var2);
-    var4 = 122;
+    var4 = 124;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

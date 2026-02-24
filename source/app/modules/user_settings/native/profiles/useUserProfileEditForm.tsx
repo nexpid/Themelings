@@ -169,7 +169,7 @@ case 9:
                     var13 = 7;
                     var3 = var3[var13];
                     var4 = var4.bind(var2)(var3);
-                    var3 = var4.saveAccountChanges;
+                    var3 = var4.saveProfileAndAccountChanges;
                     var3 = var3.bind(var4)(var16);
                     SaveGenerator(address=174);
 case 10:
@@ -518,7 +518,7 @@ case 82:
                     var2 = var2[var6];
                     var5 = undefined;
                     var7 = var4.bind(var5)(var2);
-                    var4 = var7.saveAccountChanges;
+                    var4 = var7.saveProfileAndAccountChanges;
                     var2 = {};
                     var8 = _closure2_slot0;
                     var8 = var8.pendingAvatarDecoration;

@@ -94,7 +94,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-    var19 = new Array(10);
+    var19 = new Array(12);
     var19[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -141,6 +141,16 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.COLLECTIBLES_SHOP_MARVEL_RIVALS_ORBS_REWARD;
     var19[9] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.GAME_SHOP_ORBS_REWARD_BANNER;
+    var19[10] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.SLAYER_STOREFRONT_ORBS_REWARDS_ANNOUNCEMENT;
+    var19[11] = var14;
     var _closure1_slot0 = var19;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -223,7 +233,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.THIRD_PARTY_OUTBOUND_PROMO_NAGBAR;
-    var17 = new Array(8);
+    var17 = new Array(9);
     var17[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -260,6 +270,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.QUEST_HOME_ENTRYPOINT_TAKEOVER_BADGE;
     var17[7] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.REFERRAL_PROGRAM_POPOVER_V2;
+    var17[8] = var14;
     var _closure1_slot2 = var17;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -272,7 +287,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION;
-    var15 = new Array(7);
+    var15 = new Array(8);
     var15[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -304,6 +319,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.GAME_CLAIM_COACHMARK;
     var15[6] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.FIRST_BOOSTER_UPSELL;
+    var15[7] = var14;
     var _closure1_slot4 = var15;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

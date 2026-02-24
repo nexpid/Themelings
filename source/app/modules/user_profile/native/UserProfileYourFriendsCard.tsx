@@ -380,6 +380,8 @@ case 5:
         var10 = var12.pressable;
         var8[1] = var10;
         var1['style'] = var8;
+        var8 = 0.8;
+        var1['activeOpacity'] = var8;
         var8 = _closure1_slot10;
         var5 = 18;
         var5 = var9[var5];

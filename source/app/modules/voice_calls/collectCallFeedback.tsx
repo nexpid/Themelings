@@ -40,7 +40,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
-    var4 = 10;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -99,7 +103,7 @@ case 7:
             var2['media_session_id'] = var6;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 6;
+            var6 = 7;
             var6 = var10[var6];
             var11 = var9.bind(var3)(var6);
             var10 = var11.getVoiceStateMetadata;
@@ -153,6 +157,11 @@ case 20:
 case 19:
             var6 = 'duration_muted_ms';
             var2[var6] = var7;
+            var7 = _closure1_slot9;
+            var6 = var7.getCurrentRouteType;
+            var7 = var6.bind(var7)();
+            var6 = 'output_audio_route_type';
+            var2[var6] = var7;
             var4 = var4.bind(var3)();
             var4 = _closure1_slot3;
             var4 = var4.hasUsedBackgroundInCall;
@@ -160,7 +169,7 @@ case 19:
 case 22:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var4 = 9;
+            var4 = 10;
             var4 = var7[var4];
             var7 = var6.bind(var3)(var4);
             var6 = var7.dispatch;
@@ -177,7 +186,7 @@ case 21:
             var2 = copyDataProperties(var14, var13);
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var7[var2];
             var7 = var6.bind(var3)(var2);
             var6 = var7.getLastUsedVideoBackgroundOption;
@@ -205,7 +214,7 @@ case 23:
             var2['video_hardware_scaling_enabled'] = var5;
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var6 = 8;
+            var6 = 9;
             var9 = var5[var6];
             var10 = var7.bind(var3)(var9);
             var9 = var10.getEffectAnalyticsType;
@@ -220,7 +229,7 @@ case 23:
             var13 = var2;
             var2 = copyDataProperties(var14, var13);
             var2 = _closure1_slot1;
-            var1 = 9;
+            var1 = 10;
             var1 = var5[var1];
             var3 = var2.bind(var3)(var1);
             var2 = var3.dispatch;

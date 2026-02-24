@@ -26,11 +26,5 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/user_settings/UserSettingsVoiceAndVideoConstants.tsx';
     var4 = var5.bind(var6)(var4);
     var3['InputProfile'] = var2;
-    var2 = 150;
-    var3['DEFAULT_PTT_LATCH_TIME'] = var2;
-    var2 = 500;
-    var3['MAX_PTT_LATCH_TIME'] = var2;
-    var2 = [0, 100, 200, 300, 400, 500];
-    var3['PTT_LATCH_TIMES'] = var2;
     return var1;
 })();

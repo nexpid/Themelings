@@ -807,7 +807,7 @@ case 126:
 case 0:
             var1 = arg1;
             var2 = var1.avatarDecoration;
-            var11 = var1.size;
+            var12 = var1.size;
             var8 = var1.canAnimate;
             var1 = undefined;
             if(!(var8 === var1)) { _fun0010_ip = 116; continue _fun0010 }
@@ -815,8 +815,8 @@ case 128:
             var8 = false;
 case 116:
             var4 = null;
-            if(!(var4 != var2)) { _fun0010_ip = 37; continue _fun0010 }
-case 129:
+            if(!(var4 != var2)) { _fun0010_ip = 129; continue _fun0010 }
+case 130:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 8;
@@ -824,20 +824,20 @@ case 129:
             var6 = var6.bind(var1)(var3);
             var3 = var6.isAvatarDecorationExpired;
             var3 = var3.bind(var6)(var2);
-            if(var3) { _fun0010_ip = 37; continue _fun0010 }
+            if(var3) { _fun0010_ip = 129; continue _fun0010 }
 case 86:
             var2 = var2.asset;
-            if(!(var4 != var2)) { _fun0010_ip = 37; continue _fun0010 }
+            if(!(var4 != var2)) { _fun0010_ip = 129; continue _fun0010 }
 case 8:
             var6 = /^data:/;
             var3 = var6.test;
             var3 = var3.bind(var6)(var2);
-            if(var3) { _fun0010_ip = 130; continue _fun0010 }
+            if(var3) { _fun0010_ip = 40; continue _fun0010 }
 case 131:
             var3 = global;
             var6 = var3.window;
             var6 = var6.GLOBAL_ENV;
-            var12 = var6.CDN_HOST;
+            var11 = var6.CDN_HOST;
             var13 = var6.API_ENDPOINT;
             var7 = _closure1_slot3;
             var6 = var7.AVATAR_DECORATION_PRESETS;
@@ -847,7 +847,7 @@ case 131:
             var6 = var6.bind(var7)(var2);
             if(var6) { _fun0010_ip = 132; continue _fun0010 }
 case 133:
-            if(!(var4 == var12)) { _fun0010_ip = 134; continue _fun0010 }
+            if(!(var4 == var11)) { _fun0010_ip = 134; continue _fun0010 }
 case 135:
             var7 = var3.URL;
             var4 = var3.location;
@@ -855,11 +855,11 @@ case 135:
             var4 = var3.HermesInternal;
             var6 = var4.concat;
             var4 = '';
-            var16 = var6.bind(var4)(var9, var13, var10);
+            var17 = var6.bind(var4)(var9, var13, var10);
             var6 = var7.prototype;
             var6 = Object.create(var6, {constructor: {value: var7}});
-            var17 = var6;
-            var4 = new var17[var7](var16, var15);
+            var18 = var6;
+            var4 = new var18[var7](var17, var16);
             var4 = var4 instanceof Object ? var4 : var6;
             _fun0010_ip = 136; continue _fun0010;
 case 134:
@@ -867,27 +867,28 @@ case 134:
             var6 = var3.HermesInternal;
             var7 = var6.concat;
             var6 = 'https://';
-            var16 = var7.bind(var6)(var12, var10);
+            var17 = var7.bind(var6)(var11, var10);
             var7 = var9.prototype;
             var7 = Object.create(var7, {constructor: {value: var9}});
-            var17 = var7;
-            var6 = new var17[var9](var16, var15);
+            var18 = var7;
+            var6 = new var18[var9](var17, var16);
             var4 = var6 instanceof Object ? var6 : var7;
 case 136:
             var10 = var4.searchParams;
             var9 = var10.set;
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var5 = 3;
-            var6 = var13[var5];
-            var7 = var12.bind(var1)(var6);
-            var6 = var7.getBestMediaProxySize;
-            var5 = var13[var5];
-            var12 = var12.bind(var1)(var5);
-            var5 = var12.getDevicePixelRatio;
-            var5 = var5.bind(var12)();
-            var5 = var11 * var5;
-            var7 = var6.bind(var7)(var5);
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var6 = 3;
+            var7 = var14[var6];
+            var11 = var13.bind(var1)(var7);
+            var7 = var11.getBestMediaProxySize;
+            var6 = var14[var6];
+            var13 = var13.bind(var1)(var6);
+            var6 = var13.getDevicePixelRatio;
+            var6 = var6.bind(var13)();
+            var6 = var12 * var6;
+            var5 = _closure1_slot9;
+            var7 = var7.bind(var11)(var6, var5);
             var5 = var3.HermesInternal;
             var6 = var5.concat;
             var5 = '';
@@ -906,9 +907,9 @@ case 136:
             return var3;
 case 132:
             return var2;
-case 130:
+case 40:
             return var2;
-case 37:
+case 129:
             return var1;
         }
     };

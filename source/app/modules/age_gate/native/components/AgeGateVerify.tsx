@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['button'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -80,8 +80,13 @@ case 0:
             var10 = var1.verifyAgreementButtonText;
             var12 = var1.verifyGateDescription;
             var16 = var1.verifyTitle;
-            var3 = _closure1_slot4;
             var1 = 5;
+            var1 = var13[var1];
+            var2 = var8.bind(var4)(var1);
+            var1 = var2.useMaybePerformReactiveCheckForSource;
+            var1 = var1.bind(var2)(var3);
+            var3 = _closure1_slot4;
+            var1 = 6;
             var1 = var13[var1];
             var1 = var8.bind(var4)(var1);
             var2 = var1.SafeAreaPaddingView;
@@ -91,7 +96,7 @@ case 0:
             var5 = var11.container;
             var1['style'] = var5;
             var9 = _closure1_slot3;
-            var5 = 6;
+            var5 = 7;
             var5 = var13[var5];
             var5 = var8.bind(var4)(var5);
             var6 = var5.ShieldSpotIllustration;
@@ -99,7 +104,7 @@ case 0:
             var6 = var9.bind(var4)(var6, var5);
             var5 = new Array(4);
             var5[0] = var6;
-            var6 = 7;
+            var6 = 8;
             var14 = var13[var6];
             var14 = var8.bind(var4)(var14);
             var15 = var14.Text;
@@ -125,7 +130,7 @@ case 3:
             var9 = _closure1_slot3;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var7 = 8;
+            var7 = 9;
             var7 = var12[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -135,14 +140,14 @@ case 3:
             var10 = function onPress() {
                 var3 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var7[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.showAgeVerificationGetStartedModal;
                 var2 = {};
                 var6 = _closure1_slot0;
-                var5 = 10;
+                var5 = 11;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.AgeVerificationModalEntryPoint;

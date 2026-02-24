@@ -159,6 +159,8 @@ case 10:
                 return var1;
             };
             var1['onPress'] = var5;
+            var5 = 0.8;
+            var1['activeOpacity'] = var5;
             var7 = _closure1_slot3;
             var6 = _closure1_slot1;
             var11 = _closure1_slot2;

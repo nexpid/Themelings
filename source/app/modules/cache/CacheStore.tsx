@@ -1346,8 +1346,8 @@ case 111:
                     return var2;
 case 112:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0008_ip = 31; continue _fun0008 }
-case 113:
+                    if(var3) { _fun0008_ip = 113; continue _fun0008 }
+case 114:
                     var7 = _closure1_slot3;
                     var3 = 3;
                     var7 = var7.bind(var4)(var2, var3);
@@ -1375,20 +1375,20 @@ case 0:
 case 106:
                             var2 = _closure4_slot6;
                             if(!(var3 != var2)) { _fun0012_ip = 13; continue _fun0012 }
-case 114:
+case 115:
                             var1 = _closure4_slot6;
                             var1 = var1.stale;
                             var2 = var1.length;
                             var1 = 0;
-                            if(!(!(var2 > var1))) { _fun0012_ip = 115; continue _fun0012 }
+                            if(!(!(var2 > var1))) { _fun0012_ip = 116; continue _fun0012 }
 case 13:
                             var1 = global;
                             var3 = var1.Promise;
                             var2 = var3.resolve;
                             var1 = new Array(0);
                             var1 = var2.bind(var3)(var1);
-                            _fun0012_ip = 116; continue _fun0012;
-case 115:
+                            _fun0012_ip = 117; continue _fun0012;
+case 116:
                             var4 = _closure1_slot0;
                             var3 = _closure1_slot2;
                             var2 = 29;
@@ -1455,17 +1455,17 @@ case 115:
                                 return var1;
                             };
                             var1 = var3.bind(var4)(var2);
-case 116:
+case 117:
                             return var1;
                         }
                     };
                     var3 = var7.bind(var8)(var3);
                     SaveGenerator(address=229);
-case 117:
-                    return var3;
 case 118:
+                    return var3;
+case 119:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0008_ip = 119; continue _fun0008 }
+                    if(var7) { _fun0008_ip = 120; continue _fun0008 }
 case 16:
                     _closure4_slot7 = var3;
                     var8 = _closure1_slot0;
@@ -1478,8 +1478,8 @@ case 16:
                     var7 = var7.bind(var8)();
                     var10 = _closure1_slot18;
                     var8 = var10.verbose;
-                    if(var7) { _fun0008_ip = 120; continue _fun0008 }
-case 121:
+                    if(var7) { _fun0008_ip = 121; continue _fun0008 }
+case 122:
                     var7 = 'loadLateLazyCache: yielding to react';
                     var7 = var8.bind(var10)(var7);
                     var14 = _closure1_slot0;
@@ -1494,23 +1494,23 @@ case 121:
                     var7 = var14.isIOS;
                     var14 = var7.bind(var14)();
                     var7 = undefined;
-                    if(!var14) { _fun0008_ip = 122; continue _fun0008 }
-case 123:
-                    var7 = 0;
-case 122:
-                    var7 = var11.bind(var12)(var7);
-                    SaveGenerator(address=368);
+                    if(!var14) { _fun0008_ip = 123; continue _fun0008 }
 case 124:
-                    return var7;
+                    var7 = 0;
+case 123:
+                    var7 = var11.bind(var12)(var7);
+                    SaveGenerator(address=366);
 case 125:
+                    return var7;
+case 126:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=10);
-                    if(!var11) { _fun0008_ip = 126; continue _fun0008 }
+                    if(!var11) { _fun0008_ip = 28; continue _fun0008 }
 case 127:
                     return var7;
-case 120:
+case 121:
                     var7 = 'loadLateLazyCache: not yielding to react';
                     var7 = var8.bind(var10)(var7);
-case 126:
+case 28:
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var7 = var7[var9];
@@ -1991,9 +1991,9 @@ case 128:
                     };
                     var5 = var6.bind(var4)(var5);
                     return var4;
-case 119:
+case 120:
                     return var3;
-case 31:
+case 113:
                     return var2;
 case 103:
                     return var1;

@@ -1,0 +1,438 @@
+// app/modules/game_claim/native/GameClaimCoachmark.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var14 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var14;
+    var _closure1_slot2 = var9;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = 0;
+    var4 = var9[var1];
+    var1 = undefined;
+    var4 = var14.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var5 = var9[var4];
+    var4 = metroImportAll;
+    var10 = var4.bind(var1)(var5);
+    var7 = 2;
+    var4 = var9[var7];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var9[var4];
+    var4 = var14.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
+    var5 = var4.GuildFeatures;
+    var _closure1_slot6 = var5;
+    var4 = var4.RelativeMarketingURLs;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.ContentDismissActionType;
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
+    var5 = var4.jsx;
+    var _closure1_slot9 = var5;
+    var4 = var4.jsxs;
+    var _closure1_slot10 = var4;
+    var13 = 7;
+    var4 = var9[var13];
+    var4 = var14.bind(var1)(var4);
+    var4 = var4.spacing;
+    var5 = var4.PX_8;
+    var _closure1_slot11 = var5;
+    var4 = var9[var13];
+    var4 = var14.bind(var1)(var4);
+    var4 = var4.spacing;
+    var4 = var4.PX_8;
+    var _closure1_slot12 = var4;
+    var6 = var9[var13];
+    var6 = var14.bind(var1)(var6);
+    var6 = var6.spacing;
+    var6 = var6.PX_12;
+    var6 = var7 * var6;
+    var _closure1_slot13 = var6;
+    var6 = 11;
+    var6 = var9[var6];
+    var11 = var8.bind(var1)(var6);
+    var7 = var11.createStyles;
+    var6 = {};
+    var12 = {};
+    var15 = var9[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_12;
+    var12['padding'] = var15;
+    var6['card'] = var12;
+    var12 = {'position': 'absolute', 'top': null, 'right': null, 'width': 24, 'height': 24, 'alignItems': 'center', 'justifyContent': 'center', 'zIndex': 1};
+    var15 = var9[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_12;
+    var12['top'] = var15;
+    var15 = var9[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_12;
+    var12['right'] = var15;
+    var15 = 'center';
+    var6['closeButton'] = var12;
+    var12 = {};
+    var12['textAlign'] = var15;
+    var6['centeredText'] = var12;
+    var12 = {};
+    var15 = var9[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_4;
+    var12['marginTop'] = var15;
+    var6['body'] = var12;
+    var12 = {};
+    var13 = var9[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_8;
+    var12['marginTop'] = var13;
+    var6['cta'] = var12;
+    var6 = var7.bind(var11)(var6);
+    var _closure1_slot14 = var6;
+    var7 = var10.memo;
+    var6 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.guild;
+            var _closure2_slot0 = var2;
+            var1 = var1.markAsDismissed;
+            var _closure2_slot1 = var1;
+            var1 = _closure1_slot14;
+            var5 = undefined;
+            var10 = var1.bind(var5)();
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 12;
+            var1 = var4[var1];
+            var7 = var3.bind(var5)(var1);
+            var6 = var7.useStateFromStores;
+            var1 = _closure1_slot5;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = var2.id;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.getUnclaimedGameIdsForGuild;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var4 = var6.bind(var7)(var4, var1, var3);
+            var1 = null;
+            if(!(var1 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = new Array(0);
+case 2:
+            var6 = 0;
+            var3 = var4[var6];
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var7 = 13;
+            var7 = var9[var7];
+            var8 = var8.bind(var5)(var7);
+            var9 = var1 != var3;
+            var7 = '';
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var7 = var3;
+case 4:
+            var7 = var8.bind(var5)(var7);
+            var17 = var7.coverImageUrl;
+            var22 = var7.gameName;
+            var4 = var4.length;
+            if(!(var6 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(!(var1 != var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
+            if(!(var1 != var17)) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
+            if(!(var1 == var22)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 14;
+            var4 = var8[var3];
+            var4 = var7.bind(var5)(var4);
+            var6 = var4.intl;
+            var4 = var6.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var5)(var3);
+            var3 = var3.t;
+            var3 = var3.VQq92a;
+            var22 = var4.bind(var6)(var3);
+case 10:
+            var4 = var2.features;
+            var3 = var4.has;
+            var2 = _closure1_slot6;
+            var2 = var2.VERIFIED;
+            var6 = var3.bind(var4)(var2);
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var14 = 14;
+            var3 = var2[var14];
+            var3 = var7.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var2[var14];
+            var2 = var7.bind(var5)(var2);
+            var2 = var2.t;
+            if(var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var6 = var2.0Dx29f;
+            var11 = var3.bind(var4)(var6);
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
+            var2 = var2.uUARXe;
+            var11 = var3.bind(var4)(var2);
+case 14:
+            var4 = _closure1_slot10;
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var2 = 15;
+            var2 = var16[var2];
+            var2 = var15.bind(var5)(var2);
+            var3 = var2.Card;
+            var2 = {};
+            var6 = 'secondary';
+            var2['variant'] = var6;
+            var6 = var10.card;
+            var2['style'] = var6;
+            var9 = _closure1_slot9;
+            var6 = 16;
+            var6 = var16[var6];
+            var6 = var15.bind(var5)(var6);
+            var7 = var6.PressableOpacity;
+            var6 = {};
+            var8 = 'button';
+            var6['accessibilityRole'] = var8;
+            var8 = function onPress() {
+                var3 = _closure2_slot1;
+                var1 = _closure1_slot8;
+                var2 = var1.USER_DISMISS;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var6['onPress'] = var8;
+            var8 = var10.closeButton;
+            var6['style'] = var8;
+            var8 = 17;
+            var8 = var16[var8];
+            var8 = var15.bind(var5)(var8);
+            var18 = var8.XSmallIcon;
+            var8 = {'size': 'sm', 'color': 'text-default'};
+            var8 = var9.bind(var5)(var18, var8);
+            var6['children'] = var8;
+            var7 = var9.bind(var5)(var7, var6);
+            var6 = new Array(5);
+            var6[0] = var7;
+            var8 = _closure1_slot1;
+            var7 = 8;
+            var7 = var16[var7];
+            var8 = var8.bind(var5)(var7);
+            var7 = {};
+            var7['imageSrc'] = var17;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[1] = var7;
+            var7 = 18;
+            var8 = var16[var7];
+            var8 = var15.bind(var5)(var8);
+            var17 = var8.Text;
+            var8 = {'variant': 'text-md/medium', 'color': 'always-white'};
+            var18 = var10.centeredText;
+            var8['style'] = var18;
+            var18 = var16[var14];
+            var18 = var15.bind(var5)(var18);
+            var21 = var18.intl;
+            var20 = var21.format;
+            var18 = var16[var14];
+            var18 = var15.bind(var5)(var18);
+            var18 = var18.t;
+            var19 = var18.Q11WTQ;
+            var18 = {};
+            var18['gameName'] = var22;
+            var18 = var20.bind(var21)(var19, var18);
+            var8['children'] = var18;
+            var8 = var9.bind(var5)(var17, var8);
+            var6[2] = var8;
+            var7 = var16[var7];
+            var7 = var15.bind(var5)(var7);
+            var8 = var7.Text;
+            var7 = {'variant': 'text-sm/normal', 'color': 'always-white'};
+            var18 = var10.body;
+            var17 = new Array(2);
+            var17[0] = var18;
+            var18 = var10.centeredText;
+            var17[1] = var18;
+            var7['style'] = var17;
+            var7['children'] = var11;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[3] = var7;
+            var8 = _closure1_slot4;
+            var7 = {};
+            var10 = var10.cta;
+            var7['style'] = var10;
+            var10 = 19;
+            var10 = var16[var10];
+            var10 = var15.bind(var5)(var10);
+            var11 = var10.Button;
+            var10 = {'variant': 'primary', 'size': 'sm', 'text': null, 'icon': null, 'iconPosition': 'end'};
+            var17 = var16[var14];
+            var17 = var15.bind(var5)(var17);
+            var18 = var17.intl;
+            var17 = var18.string;
+            var14 = var16[var14];
+            var14 = var15.bind(var5)(var14);
+            var14 = var14.t;
+            var14 = var14.2u6ZlY;
+            var14 = var17.bind(var18)(var14);
+            var10['text'] = var14;
+            var14 = 20;
+            var14 = var16[var14];
+            var14 = var15.bind(var5)(var14);
+            var15 = var14.LinkExternalSmallIcon;
+            var14 = {'size': 'xs', 'color': 'white'};
+            var14 = var9.bind(var5)(var15, var14);
+            var10['icon'] = var14;
+            var13 = _closure1_slot3;
+            var12 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                        var5 = _closure2_slot1;
+                        var3 = _closure1_slot8;
+                        var4 = var3.TAKE_ACTION;
+                        var3 = undefined;
+                        var4 = var5.bind(var3)(var4);
+                        var5 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var4 = 21;
+                        var4 = var6[var4];
+                        var5 = var5.bind(var3)(var4);
+                        var4 = var5.redirectDeveloperPortalWithHandoffToken;
+                        var2 = _closure1_slot7;
+                        var2 = var2.DEVELOPER_PORTAL_APPLICATIONS_GAME_IDENTITY;
+                        var2 = var4.bind(var5)(var2);
+                        SaveGenerator(address=79);
+case 17:
+                        return var2;
+case 18:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+                        return var3;
+case 19:
+                        return var2;
+case 15:
+                        return var1;
+                    }
+                };
+                return var1;
+            };
+            var12 = var13.bind(var5)(var12);
+            var10['onPress'] = var12;
+            var10 = var9.bind(var5)(var11, var10);
+            var7['children'] = var10;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[4] = var7;
+            var2['children'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
+case 6:
+            return var1;
+        }
+    };
+    var6 = var7.bind(var10)(var6);
+    var7 = 22;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/game_claim/native/GameClaimCoachmark.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['default'] = var6;
+    var3['GAME_CLAIM_NOTICE_MARGIN_TOP'] = var5;
+    var3['GAME_CLAIM_NOTICE_MARGIN_BOTTOM'] = var4;
+    var2 = function getScaledGameClaimNoticeHeight(arg1) {
+        var11 = arg1;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot13;
+        var3 = var3 + var2;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var2 = 8;
+        var2 = var6[var2];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var2 = var2.CARD_STACK_HEIGHT;
+        var7 = var3 + var2;
+        var2 = 9;
+        var3 = var6[var2];
+        var9 = var5.bind(var4)(var3);
+        var8 = var9.scaleTextLineHeight;
+        var3 = 'text-md/medium';
+        var3 = var8.bind(var9)(var3, var11);
+        var9 = var7 + var3;
+        var8 = _closure1_slot1;
+        var3 = 7;
+        var7 = var6[var3];
+        var7 = var8.bind(var4)(var7);
+        var7 = var7.spacing;
+        var7 = var7.PX_4;
+        var7 = var9 + var7;
+        var2 = var6[var2];
+        var10 = var5.bind(var4)(var2);
+        var9 = var10.scaleTextLineHeight;
+        var2 = 'text-sm/normal';
+        var9 = var9.bind(var10)(var2, var11);
+        var2 = 2;
+        var2 = var2 * var9;
+        var3 = var6[var3];
+        var3 = var8.bind(var4)(var3);
+        var3 = var3.spacing;
+        var3 = var3.PX_8;
+        var2 = var7 + var2;
+        var3 = var2 + var3;
+        var2 = 10;
+        var2 = var6[var2];
+        var2 = var5.bind(var4)(var2);
+        var2 = var2.SMALL_BUTTON_HEIGHT;
+        var2 = var3 + var2;
+        var1 = _closure1_slot12;
+        var1 = var2 + var1;
+        return var1;
+    };
+    var3['getScaledGameClaimNoticeHeight'] = var2;
+    return var1;
+})();

@@ -999,8 +999,8 @@ case 103:
             var31 = 12;
             var31 = var33[var31];
             var31 = var32.bind(var4)(var31);
-            var31 = var31.unsafe_rawColors;
-            var31 = var31.BRAND_500;
+            var31 = var31.colors;
+            var31 = var31.BACKGROUND_BRAND;
             var28['color'] = var31;
             var31 = 'sm';
             var28['size'] = var31;

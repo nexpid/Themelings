@@ -69,12 +69,12 @@ case 9:
             var1 = var1.bind(var2)(var3);
             if(!(var7 !== var1)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
+            var10 = _closure1_slot2;
             var1 = 11;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
+            var1 = var10[var1];
+            var9 = undefined;
+            var3 = var2.bind(var9)(var1);
             var2 = var3.enqueueNotification;
             var1 = {};
             var4 = _closure1_slot12;
@@ -100,6 +100,13 @@ case 11:
                 return var1;
             };
             var1['onDismiss'] = var4;
+            var8 = _closure1_slot0;
+            var4 = 12;
+            var4 = var10[var4];
+            var8 = var8.bind(var9)(var4);
+            var4 = var8.generateInAppNotificationId;
+            var4 = var4.bind(var8)();
+            var1['inAppNotificationId'] = var4;
             var1 = var2.bind(var3)(var1);
             _fun0002_ip = 6; continue _fun0002;
 case 10:
@@ -108,7 +115,7 @@ case 10:
 case 8:
             var2 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var1 = var12[var1];
             var11 = undefined;
             var3 = var2.bind(var11)(var1);
@@ -117,7 +124,7 @@ case 8:
             var4 = 'local';
             var1['category'] = var4;
             var10 = _closure1_slot0;
-            var4 = 13;
+            var4 = 14;
             var8 = var12[var4];
             var8 = var10.bind(var11)(var8);
             var13 = var8.intl;
@@ -276,7 +283,7 @@ case 22:
     var4 = var5.bind(var1)(var4);
     var4 = var4.LocalNotificationTypes;
     var _closure1_slot14 = var4;
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -339,7 +346,7 @@ case 26:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -537,58 +537,97 @@ case 49:
     var4 = function CONNECTION_OPEN(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-            var8 = arg2;
             var1 = arg1;
-            var3 = var1.guilds;
-            var7 = {};
-            var2 = _closure1_slot15;
+            var5 = arg2;
+            var8 = var1.guilds;
+            var6 = var1.unavailableGuilds;
+            var1 = var5.getAllRecords;
+            var12 = var1.bind(var5)();
+            var4 = global;
+            var3 = var4.Set;
+            var2 = var4.Object;
+            var1 = var2.keys;
+            var19 = var1.bind(var2)(var12);
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var20 = var2;
+            var1 = new var20[var3](var19, var18);
+            var3 = var1 instanceof Object ? var1 : var2;
+            var7 = _closure1_slot15;
             var1 = undefined;
-            var9 = var2.bind(var1)(var3);
-            var4 = var9.bind(var1)();
-            var2 = var4.done;
-            var5 = null;
-            if(var2) { _fun0009_ip = 54; continue _fun0009 }
+            var11 = var7.bind(var1)(var8);
+            var8 = var11.bind(var1)();
+            var7 = var8.done;
+            var10 = 13;
+            var9 = null;
+            if(var7) { _fun0009_ip = 54; continue _fun0009 }
 case 55:
-            var2 = var4.value;
-            var11 = var8.get;
-            var10 = var2.id;
-            var10 = var11.bind(var8)(var10);
-            if(!(var5 != var10)) { _fun0009_ip = 56; continue _fun0009 }
-case 57:
-            var2 = var2.id;
-            var7[var2] = var10;
+            var17 = var8.value;
+            var13 = var3.delete;
+            var7 = var17.id;
+            var7 = var13.bind(var3)(var7);
+            var7 = var17.properties;
+            if(!(var9 == var7)) { _fun0009_ip = 42; continue _fun0009 }
 case 56:
-            var10 = var9.bind(var1)();
-            var2 = var10.done;
-            var4 = var10;
-            if(!var2) { _fun0009_ip = 55; continue _fun0009 }
-case 54:
-            var2 = var8.clear;
-            var2 = var2.bind(var8)();
-            var2 = _closure1_slot15;
-            var5 = var2.bind(var1)(var3);
-            var3 = var5.bind(var1)();
-            var2 = var3.done;
-            var4 = 13;
-            if(var2) { _fun0009_ip = 58; continue _fun0009 }
-case 59:
-            var13 = var3.value;
-            var10 = var8.set;
-            var9 = var13.id;
-            var11 = _closure1_slot2;
-            var2 = _closure1_slot3;
-            var2 = var2[var4];
-            var12 = var11.bind(var1)(var2);
-            var11 = var12.fromServer;
-            var2 = var13.id;
-            var2 = var7[var2];
-            var2 = var11.bind(var12)(var13, var2);
-            var2 = var10.bind(var8)(var9, var2);
-            var9 = var5.bind(var1)();
-            var2 = var9.done;
-            var3 = var9;
-            if(!var2) { _fun0009_ip = 59; continue _fun0009 }
+            var7 = var17.id;
+            var7 = var12[var7];
+            if(!(var9 != var7)) { _fun0009_ip = 57; continue _fun0009 }
+case 42:
+            var14 = var5.set;
+            var13 = var17.id;
+            var15 = _closure1_slot2;
+            var7 = _closure1_slot3;
+            var7 = var7[var10];
+            var16 = var15.bind(var1)(var7);
+            var15 = var16.fromServer;
+            var7 = var17.id;
+            var7 = var12[var7];
+            var7 = var15.bind(var16)(var17, var7);
+            var7 = var14.bind(var5)(var13, var7);
+            var13 = var11.bind(var1)();
+            var7 = var13.done;
+            var8 = var13;
+            if(var7) { _fun0009_ip = 54; continue _fun0009 }
 case 58:
+            _fun0009_ip = 55; continue _fun0009;
+case 57:
+            var8 = var4.Error;
+            var4 = var8.prototype;
+            var7 = Object.create(var4, {constructor: {value: var8}});
+            var19 = 'Guild data was missing from store, but hash was still available.';
+            var20 = var7;
+            var4 = new var20[var8](var19, var18);
+            var4 = var4 instanceof Object ? var4 : var7;
+            throw var4;
+case 54:
+            var4 = _closure1_slot15;
+            var7 = var4.bind(var1)(var6);
+            var6 = var7.bind(var1)();
+            var4 = var6.done;
+            if(var4) { _fun0009_ip = 59; continue _fun0009 }
+case 60:
+            var8 = var6.value;
+            var4 = var3.delete;
+            var4 = var4.bind(var3)(var8);
+            var8 = var7.bind(var1)();
+            var4 = var8.done;
+            var6 = var8;
+            if(!var4) { _fun0009_ip = 60; continue _fun0009 }
+case 59:
+            var2 = _closure1_slot15;
+            var4 = var2.bind(var1)(var3);
+            var3 = var4.bind(var1)();
+            var2 = var3.done;
+            if(var2) { _fun0009_ip = 61; continue _fun0009 }
+case 27:
+            var6 = var3.value;
+            var2 = var5.remove;
+            var2 = var2.bind(var5)(var6);
+            var6 = var4.bind(var1)();
+            var2 = var6.done;
+            var3 = var6;
+            if(!var2) { _fun0009_ip = 27; continue _fun0009 }
+case 61:
             return var1;
         }
     };
@@ -602,8 +641,8 @@ case 0:
             var1 = var9.clear;
             var1 = var1.bind(var9)();
             var8 = null;
-            if(!(var8 != var2)) { _fun0010_ip = 60; continue _fun0010 }
-case 61:
+            if(!(var8 != var2)) { _fun0010_ip = 62; continue _fun0010 }
+case 63:
             var1 = _closure1_slot15;
             var6 = undefined;
             var5 = var1.bind(var6)(var2);
@@ -611,8 +650,8 @@ case 61:
             var1 = var2.done;
             var4 = global;
             var3 = 13;
-            if(var1) { _fun0010_ip = 60; continue _fun0010 }
-case 62:
+            if(var1) { _fun0010_ip = 62; continue _fun0010 }
+case 64:
             var1 = var2.value;
             var14 = var1.properties;
             var15 = var1.additionalFields;
@@ -627,7 +666,7 @@ case 62:
             var16 = var15.joinedAt;
             var17 = var8 != var16;
             var16 = null;
-            if(!var17) { _fun0010_ip = 63; continue _fun0010 }
+            if(!var17) { _fun0010_ip = 65; continue _fun0010 }
 case 52:
             var19 = var4.Date;
             var21 = var15.joinedAt;
@@ -636,7 +675,7 @@ case 52:
             var22 = var18;
             var17 = new var22[var19](var21, var20);
             var16 = var17 instanceof Object ? var17 : var18;
-case 63:
+case 65:
             var1['joinedAt'] = var16;
             var15 = var15.premiumSubscriberCount;
             var1['premiumSubscriberCount'] = var15;
@@ -645,8 +684,8 @@ case 63:
             var10 = var5.bind(var6)();
             var1 = var10.done;
             var2 = var10;
-            if(!var1) { _fun0010_ip = 62; continue _fun0010 }
-case 60:
+            if(!var1) { _fun0010_ip = 64; continue _fun0010 }
+case 62:
             var1 = undefined;
             return var1;
         }
@@ -666,8 +705,8 @@ case 0:
             var3 = var5.bind(var1)();
             var2 = var3.done;
             var4 = 13;
-            if(var2) { _fun0011_ip = 64; continue _fun0011 }
-case 65:
+            if(var2) { _fun0011_ip = 66; continue _fun0011 }
+case 67:
             var11 = var3.value;
             var9 = var7.set;
             var8 = var11.id;
@@ -681,8 +720,8 @@ case 65:
             var8 = var5.bind(var1)();
             var2 = var8.done;
             var3 = var8;
-            if(!var2) { _fun0011_ip = 65; continue _fun0011 }
-case 64:
+            if(!var2) { _fun0011_ip = 67; continue _fun0011 }
+case 66:
             return var1;
         }
     };
@@ -695,7 +734,7 @@ case 0:
             var2 = var1.guilds;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0012_ip = 66; continue _fun0012 }
+            if(!(var1 !== var3)) { _fun0012_ip = 68; continue _fun0012 }
 case 31:
             var1 = var7.clear;
             var1 = var1.bind(var7)();
@@ -705,8 +744,8 @@ case 31:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = 13;
-            if(var1) { _fun0012_ip = 66; continue _fun0012 }
-case 67:
+            if(var1) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
             var11 = var2.value;
             var9 = var7.set;
             var8 = var11.id;
@@ -720,32 +759,51 @@ case 67:
             var8 = var4.bind(var5)();
             var1 = var8.done;
             var2 = var8;
-            if(!var1) { _fun0012_ip = 67; continue _fun0012 }
-case 66:
+            if(!var1) { _fun0012_ip = 69; continue _fun0012 }
+case 68:
             var1 = undefined;
             return var1;
         }
     };
     var7['CACHE_LOADED_LAZY'] = var4;
     var4 = function GUILD_CREATE(arg1, arg2) {
-        var5 = arg2;
-        var1 = arg1;
-        var8 = var1.guild;
-        var2 = var5.get;
-        var1 = var8.id;
-        var7 = var2.bind(var5)(var1);
-        var4 = var5.set;
-        var3 = var8.id;
-        var6 = _closure1_slot2;
-        var2 = _closure1_slot3;
-        var1 = 13;
-        var2 = var2[var1];
-        var1 = undefined;
-        var6 = var6.bind(var1)(var2);
-        var2 = var6.fromServer;
-        var2 = var2.bind(var6)(var8, var7);
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var5 = arg2;
+            var1 = arg1;
+            var8 = var1.guild;
+            var2 = var5.get;
+            var1 = var8.id;
+            var7 = var2.bind(var5)(var1);
+            var2 = var8.properties;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0013_ip = 70; continue _fun0013 }
+case 71:
+            if(!(var1 != var7)) { _fun0013_ip = 72; continue _fun0013 }
+case 70:
+            var4 = var5.set;
+            var3 = var8.id;
+            var6 = _closure1_slot2;
+            var2 = _closure1_slot3;
+            var1 = 13;
+            var2 = var2[var1];
+            var1 = undefined;
+            var6 = var6.bind(var1)(var2);
+            var2 = var6.fromServer;
+            var2 = var2.bind(var6)(var8, var7);
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+case 72:
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var10 = 'Guild data was missing from store, but hash was still available.';
+            var11 = var2;
+            var1 = new var11[var3](var10, var9);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+        }
     };
     var7['GUILD_CREATE'] = var4;
     var4 = function GUILD_UPDATE(arg1, arg2) {
@@ -770,25 +828,25 @@ case 66:
     };
     var7['GUILD_UPDATE'] = var4;
     var4 = function GUILD_DELETE(arg1, arg2) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var3 = arg2;
             var1 = arg1;
             var1 = var1.guild;
             var2 = var1.unavailable;
-            if(var2) { _fun0013_ip = 68; continue _fun0013 }
+            if(var2) { _fun0014_ip = 73; continue _fun0014 }
 case 29:
             var2 = var3.remove;
             var1 = var1.id;
             var1 = var2.bind(var3)(var1);
-case 68:
+case 73:
             var1 = undefined;
             return var1;
         }
     };
     var7['GUILD_DELETE'] = var4;
     var2 = function GUILD_MEMBER_ADD(arg1, arg2) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
             var4 = arg2;
@@ -801,16 +859,16 @@ case 0:
             var6 = var4.get;
             var7 = var6.bind(var4)(var3);
             var2 = var2.id;
-            if(!(var5 === var2)) { _fun0014_ip = 69; continue _fun0014 }
-case 70:
+            if(!(var5 === var2)) { _fun0015_ip = 74; continue _fun0015 }
+case 75:
             var5 = null;
-            if(!(var5 != var7)) { _fun0014_ip = 69; continue _fun0014 }
-case 71:
+            if(!(var5 != var7)) { _fun0015_ip = 74; continue _fun0015 }
+case 76:
             var8 = 'string';
             var2 = typeof var9;
             var6 = var9;
-            if(!(var8 === var2)) { _fun0014_ip = 72; continue _fun0014 }
-case 73:
+            if(!(var8 === var2)) { _fun0015_ip = 77; continue _fun0015 }
+case 78:
             var2 = global;
             var2 = var2.Date;
             var8 = var2.prototype;
@@ -819,21 +877,21 @@ case 73:
             var11 = var9;
             var2 = new var12[var2](var11, var10);
             var6 = var2 instanceof Object ? var2 : var8;
-case 72:
+case 77:
             var2 = var7.joinedAt;
             var2 = var6 !== var2;
-            if(!var2) { _fun0014_ip = 66; continue _fun0014 }
-case 74:
+            if(!var2) { _fun0015_ip = 68; continue _fun0015 }
+case 79:
             var2 = var5 != var6;
-case 66:
-            if(!var2) { _fun0014_ip = 69; continue _fun0014 }
-case 75:
+case 68:
+            if(!var2) { _fun0015_ip = 74; continue _fun0015 }
+case 80:
             var2 = var4.set;
             var5 = _closure1_slot11;
             var1 = undefined;
             var1 = var5.bind(var1)(var7, var6);
             var1 = var2.bind(var4)(var3, var1);
-case 69:
+case 74:
             var1 = undefined;
             return var1;
         }

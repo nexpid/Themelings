@@ -37,7 +37,7 @@ case 2:
             var1 = null;
             if(!var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var4 = _closure1_slot10;
+            var4 = _closure1_slot11;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 24;
@@ -57,7 +57,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -94,15 +94,17 @@ case 4:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.GuildFeatures;
+    var7 = var4.Fonts;
     var _closure1_slot8 = var7;
+    var7 = var4.GuildFeatures;
+    var _closure1_slot9 = var7;
     var4 = var4.Permissions;
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -194,7 +196,7 @@ case 8:
                     var1['isMentionLowImportance'] = var6;
                     var8 = _closure1_slot5;
                     var7 = var8.can;
-                    var6 = _closure1_slot9;
+                    var6 = _closure1_slot10;
                     var6 = var6.CONNECT;
                     var6 = var7.bind(var8)(var6, var2);
                     var6 = !var6;
@@ -270,7 +272,7 @@ case 18:
 case 20:
             var27 = var25.features;
             var26 = var27.has;
-            var25 = _closure1_slot8;
+            var25 = _closure1_slot9;
             var25 = var25.COMMUNITY;
             var24 = var26.bind(var27)(var25);
 case 19:
@@ -317,8 +319,8 @@ case 36:
             var2 = null;
             if(!var3) { _fun0002_ip = 35; continue _fun0002 }
 case 37:
-            var13 = _closure1_slot10;
-            var12 = _closure1_slot11;
+            var13 = _closure1_slot11;
+            var12 = _closure1_slot12;
             var3 = {};
             var3['channel'] = var8;
             var3['voiceStates'] = var22;
@@ -331,7 +333,7 @@ case 37:
 case 35:
             _fun0002_ip = 38; continue _fun0002;
 case 34:
-            var13 = _closure1_slot10;
+            var13 = _closure1_slot11;
             var12 = _closure1_slot1;
             var17 = _closure1_slot2;
             var3 = 22;
@@ -343,7 +345,7 @@ case 34:
 case 38:
             _fun0002_ip = 39; continue _fun0002;
 case 30:
-            var13 = _closure1_slot10;
+            var13 = _closure1_slot11;
             var12 = _closure1_slot1;
             var16 = _closure1_slot2;
             var3 = 21;
@@ -356,7 +358,7 @@ case 30:
 case 39:
             _fun0002_ip = 40; continue _fun0002;
 case 26:
-            var13 = _closure1_slot10;
+            var13 = _closure1_slot11;
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
             var3 = 19;
@@ -367,11 +369,16 @@ case 26:
             var14 = {};
             var14['start'] = var15;
             var3['entry'] = var14;
+            var14 = {};
+            var15 = _closure1_slot8;
+            var15 = var15.CODE_NORMAL;
+            var14['fontFamily'] = var15;
+            var3['style'] = var14;
             var2 = var13.bind(var4)(var12, var3);
 case 40:
             _fun0002_ip = 41; continue _fun0002;
 case 23:
-            var13 = _closure1_slot10;
+            var13 = _closure1_slot11;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
             var3 = 18;
@@ -382,7 +389,7 @@ case 23:
 case 41:
             return var2;
 case 10:
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot11;
             var2 = _closure1_slot1;
             var12 = _closure1_slot2;
             var1 = 16;

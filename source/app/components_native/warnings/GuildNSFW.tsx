@@ -34,9 +34,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.AgeGateSource;
     var _closure1_slot7 = var4;
-    var4 = 11;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot8 = var4;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -49,7 +54,7 @@ case 0:
             var _closure2_slot0 = var2;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 4;
+            var3 = 5;
             var3 = var7[var3];
             var4 = undefined;
             var9 = var6.bind(var4)(var3);
@@ -66,21 +71,28 @@ case 0:
                 return var1;
             };
             var3 = var8.bind(var9)(var5, var3);
-            var5 = 5;
+            var5 = 6;
             var5 = var7[var5];
-            var6 = var6.bind(var4)(var5);
-            var5 = var6.useAgeGateVerifyContentForGuild;
-            var7 = var5.bind(var6)(var3);
-            var8 = var7.modalType;
-            var6 = _closure1_slot4;
+            var8 = var6.bind(var4)(var5);
+            var5 = var8.useAgeGateVerifyContentForGuild;
+            var11 = var5.bind(var8)(var3);
+            var8 = var11.modalType;
+            var9 = _closure1_slot4;
             var5 = _closure1_slot3;
-            var9 = var6.bind(var4)(var7, var5);
+            var9 = var9.bind(var4)(var11, var5);
+            var5 = 7;
+            var5 = var7[var5];
+            var7 = var6.bind(var4)(var5);
+            var6 = var7.useMaybePerformReactiveCheckForSource;
+            var5 = _closure1_slot7;
+            var5 = var5.NSFW_SERVER;
+            var5 = var6.bind(var7)(var5);
             var6 = function handleDisagree() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 6;
+                    var1 = 8;
                     var2 = var2[var1];
                     var1 = undefined;
                     var6 = var3.bind(var1)(var2);
@@ -104,14 +116,14 @@ case 2:
             var7 = function() {
                 var3 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 7;
+                var1 = 9;
                 var2 = var7[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.showAgeVerificationGetStartedModal;
                 var2 = {};
                 var6 = _closure1_slot0;
-                var5 = 8;
+                var5 = 10;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.AgeVerificationModalEntryPoint;
@@ -140,7 +152,7 @@ case 4:
             var5[var2] = var3;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var9 = 9;
+            var9 = 11;
             var11 = var2[var9];
             var11 = var3.bind(var4)(var11);
             var12 = var11.intl;
@@ -152,7 +164,7 @@ case 4:
             var11 = var11.bind(var12)(var9);
             var9 = 'disagreement';
             var5[var9] = var11;
-            var9 = 8;
+            var9 = 10;
             var2 = var2[var9];
             var2 = var3.bind(var4)(var2);
             var2 = var2.NsfwSpaceWarningModalType;
@@ -175,10 +187,10 @@ case 8:
             var2 = var2.NSFW_CHANNEL_UNDERAGE;
             if(!(var2 !== var8)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot8;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 10;
+            var2 = 12;
             var2 = var11[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -186,7 +198,7 @@ case 10:
             var10 = function onAgree() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 6;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -204,10 +216,10 @@ case 10:
             var2 = var9.bind(var4)(var3, var2);
             return var2;
 case 9:
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot8;
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var2 = 10;
+            var2 = 12;
             var2 = var10[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -221,10 +233,10 @@ case 9:
             var2 = var9.bind(var4)(var3, var2);
             return var2;
 case 6:
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 10;
+            var1 = 12;
             var1 = var9[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};

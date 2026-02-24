@@ -35,7 +35,7 @@ case 3:
                     var6 = '';
                     var5['authorization'] = var6;
                     var2['headers'] = var5;
-                    var5 = false;
+                    var5 = true;
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=93);
@@ -94,7 +94,7 @@ case 9:
                     var5 = _closure1_slot4;
                     var5 = var5.WEBAUTHN_PASSWORDLESS_CHALLENGE;
                     var2['url'] = var5;
-                    var5 = false;
+                    var5 = true;
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=74);

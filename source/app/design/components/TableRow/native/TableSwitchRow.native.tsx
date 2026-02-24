@@ -27,9 +27,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.View;
     var _closure1_slot4 = var4;
-    var4 = 7;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot5 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = function() {
+        var1 = {};
+        var2 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
+        var1['labelWithTrailing'] = var2;
+        return var1;
+    };
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -43,8 +62,9 @@ case 0:
             var _closure2_slot0 = var10;
             var1 = var5.onValueChange;
             var _closure2_slot1 = var1;
-            var18 = var5.label;
+            var26 = var5.label;
             var16 = var5.subLabel;
+            var22 = var5.trailing;
             var8 = var5.disabled;
             var4 = undefined;
             if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -52,21 +72,23 @@ case 3:
             var8 = false;
 case 2:
             var13 = var5.accessibilityHint;
-            var3 = {'value': 0, 'onValueChange': 0, 'label': 0, 'subLabel': 0, 'disabled': 0, 'accessibilityHint': 0};
+            var3 = {'value': 0, 'onValueChange': 0, 'label': 0, 'subLabel': 0, 'trailing': 0, 'disabled': 0, 'accessibilityHint': 0};
             var14 = null;
-            var24 = var3;
-            var23 = null;
-            var1 = silentSetPrototypeOf(var24, var23);
+            var30 = var3;
+            var29 = null;
+            var1 = silentSetPrototypeOf(var30, var29);
             var1 = 0;
-            var24 = {};
-            var23 = var5;
-            var22 = var3;
-            var15 = copyDataProperties(var24, var23, var22);
+            var30 = {};
+            var29 = var5;
+            var28 = var3;
+            var15 = copyDataProperties(var30, var29, var28);
             var _closure2_slot2 = var4;
+            var2 = _closure1_slot7;
+            var21 = var2.bind(var4)();
             var2 = _closure1_slot0;
-            var19 = _closure1_slot1;
-            var3 = 3;
-            var3 = var19[var3];
+            var18 = _closure1_slot1;
+            var3 = 5;
+            var3 = var18[var3];
             var7 = var2.bind(var4)(var3);
             var3 = var7.isAndroid;
             var7 = var3.bind(var7)();
@@ -88,26 +110,26 @@ case 4:
                     return var1;
                 }
             };
-            var3 = 4;
-            var11 = var19[var3];
+            var3 = 6;
+            var11 = var18[var3];
             var12 = var2.bind(var4)(var11);
             var11 = var12.getNodeText;
-            var17 = var11.bind(var12)(var18);
-            var3 = var19[var3];
+            var17 = var11.bind(var12)(var26);
+            var3 = var18[var3];
             var11 = var2.bind(var4)(var3);
             var3 = var11.getNodeText;
             var12 = var3.bind(var11)(var16);
-            var21 = _closure1_slot3;
-            var3 = var21.useState;
-            var20 = var3.bind(var21)(var10);
+            var20 = _closure1_slot3;
+            var3 = var20.useState;
+            var19 = var3.bind(var20)(var10);
             var11 = _closure1_slot2;
             var3 = 2;
-            var3 = var11.bind(var4)(var20, var3);
+            var3 = var11.bind(var4)(var19, var3);
             var11 = var3[var1];
             var1 = 1;
             var1 = var3[var1];
             _closure2_slot2 = var1;
-            var20 = var21.useEffect;
+            var19 = var20.useEffect;
             var3 = new Array(1);
             var3[0] = var10;
             var1 = function() {
@@ -117,19 +139,50 @@ case 4:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var1 = var20.bind(var21)(var1, var3);
-            var3 = _closure1_slot4;
-            var1 = 5;
-            var1 = var19[var1];
+            var1 = var19.bind(var20)(var1, var3);
+            var3 = _closure1_slot5;
+            var1 = 7;
+            var1 = var18[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
-            var24 = var1;
-            var23 = var15;
-            var15 = copyDataProperties(var24, var23);
-            var19 = false;
+            var30 = var1;
+            var29 = var15;
+            var15 = copyDataProperties(var30, var29);
+            var18 = false;
             var15 = 'arrow';
-            var1[var15] = var19;
+            var1[var15] = var18;
+            var18 = var26;
+            if(!(var14 != var22)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var20 = _closure1_slot6;
+            var19 = _closure1_slot4;
+            var15 = {};
+            var21 = var21.labelWithTrailing;
+            var15['style'] = var21;
+            var23 = _closure1_slot3;
+            var21 = var23.isValidElement;
+            var21 = var21.bind(var23)(var26);
+            var23 = var26;
+            if(var21) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var25 = _closure1_slot5;
+            var24 = _closure1_slot0;
+            var27 = _closure1_slot1;
+            var21 = 8;
+            var21 = var27[var21];
+            var21 = var24.bind(var4)(var21);
+            var24 = var21.Text;
+            var21 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
+            var21['children'] = var26;
+            var23 = var25.bind(var4)(var24, var21);
+case 8:
+            var21 = new Array(2);
+            var21[0] = var23;
+            var21[1] = var22;
+            var15['children'] = var21;
+            var18 = var20.bind(var4)(var19, var15);
+case 6:
             var15 = 'label';
             var1[var15] = var18;
             var15 = 'subLabel';
@@ -150,10 +203,10 @@ case 4:
             var14 = var14 != var12;
             var16 = '';
             var15 = var16;
-            if(!var14) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var14) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var15 = var12;
-case 6:
+case 10:
             var12 = global;
             var12 = var12.HermesInternal;
             var14 = var12.concat;
@@ -164,10 +217,10 @@ case 6:
             var12 = 'accessibilityHint';
             var1[var12] = var13;
             var12 = undefined;
-            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var12 = var9;
-case 8:
+case 12:
             var7 = 'onPress';
             var1[var7] = var12;
             var7 = function onAccessibilityTap() {
@@ -183,14 +236,14 @@ case 8:
 case 0:
                         var3 = _closure2_slot1;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                        if(!(var2 != var3)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var3 = _closure2_slot1;
                         var1 = _closure2_slot0;
                         var2 = !var1;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
-case 10:
+case 14:
                         var1 = undefined;
                         return var1;
                     }
@@ -200,10 +253,10 @@ case 10:
             };
             var6 = 'onAccessibilityTap';
             var1[var6] = var7;
-            var7 = _closure1_slot4;
+            var7 = _closure1_slot5;
             var6 = _closure1_slot0;
             var12 = _closure1_slot1;
-            var5 = 6;
+            var5 = 9;
             var5 = var12[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.FormSwitch;

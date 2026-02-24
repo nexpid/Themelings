@@ -166,6 +166,8 @@ case 9:
 case 8:
             var10[1] = var11;
             var6['style'] = var10;
+            var10 = var14.label;
+            var6['accessibilityLabel'] = var10;
             var11 = _closure1_slot5;
             var10 = _closure1_slot1;
             var15 = _closure1_slot2;

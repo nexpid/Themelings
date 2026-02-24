@@ -293,7 +293,7 @@ case 15:
             var4 = var3.count;
             var3 = 0;
             if(!(var3 === var4)) { _fun0005_ip = 16; continue _fun0005 }
-case 11:
+case 17:
             var2 = _closure1_slot7;
             var1 = var1.id;
             var1 = delete var2[var1];

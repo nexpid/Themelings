@@ -164,6 +164,8 @@ case 4:
                 var3 = var3.fYfGgK;
                 var3 = var4.bind(var5)(var3);
                 var1['buttonLabel'] = var3;
+                var3 = 'primary';
+                var1['buttonVariant'] = var3;
                 var2 = _closure2_slot6;
                 var1['onButtonPress'] = var2;
                 return var1;

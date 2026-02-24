@@ -780,47 +780,70 @@ case 0:
             var10 = var11.bind(var4)(var10);
             var1['source'] = var10;
             var1['onPress'] = var5;
-            var5 = 0;
-            if(!(!(var7 > var5))) { _fun0008_ip = 38; continue _fun0008 }
+            var13 = '';
+            var11 = var13;
+            if(!var9) { _fun0008_ip = 38; continue _fun0008 }
 case 39:
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var5 = 20;
+            var10 = var15[var5];
+            var10 = var14.bind(var4)(var10);
+            var12 = var10.intl;
+            var10 = var12.string;
+            var5 = var15[var5];
+            var5 = var14.bind(var4)(var5);
+            var5 = var5.t;
+            var5 = var5.hcaVYl;
+            var12 = var10.bind(var12)(var5);
+            var5 = global;
+            var5 = var5.HermesInternal;
+            var10 = var5.concat;
+            var5 = ', ';
+            var11 = var10.bind(var13)(var12, var5);
+case 38:
+            var5 = 0;
+            if(!(!(var7 > var5))) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot2;
             var10 = 20;
-            var11 = var14[var10];
-            var11 = var13.bind(var4)(var11);
-            var12 = var11.intl;
-            var11 = var12.string;
-            var10 = var14[var10];
-            var10 = var13.bind(var4)(var10);
+            var12 = var15[var10];
+            var12 = var14.bind(var4)(var12);
+            var13 = var12.intl;
+            var12 = var13.string;
+            var10 = var15[var10];
+            var10 = var14.bind(var4)(var10);
             var10 = var10.t;
             var10 = var10.tlopTM;
-            var10 = var11.bind(var12)(var10);
-            _fun0008_ip = 40; continue _fun0008;
-case 38:
-            var12 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var11 = 20;
-            var13 = var15[var11];
-            var13 = var12.bind(var4)(var13);
-            var14 = var13.intl;
-            var13 = var14.formatToPlainString;
-            var11 = var15[var11];
-            var11 = var12.bind(var4)(var11);
-            var11 = var11.t;
-            var12 = var11.IBdqSu;
-            var11 = {};
-            var11['number'] = var7;
-            var10 = var13.bind(var14)(var12, var11);
+            var10 = var12.bind(var13)(var10);
+            _fun0008_ip = 42; continue _fun0008;
 case 40:
+            var13 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var12 = 20;
+            var14 = var16[var12];
+            var14 = var13.bind(var4)(var14);
+            var15 = var14.intl;
+            var14 = var15.formatToPlainString;
+            var12 = var16[var12];
+            var12 = var13.bind(var4)(var12);
+            var12 = var12.t;
+            var13 = var12.IBdqSu;
+            var12 = {};
+            var12['number'] = var7;
+            var10 = var14.bind(var15)(var13, var12);
+case 42:
+            var10 = var11 + var10;
             var1['accessibilityLabel'] = var10;
             var1['badge'] = var9;
             var10 = var7 > var5;
             var9 = undefined;
-            if(!var10) { _fun0008_ip = 41; continue _fun0008 }
-case 42:
+            if(!var10) { _fun0008_ip = 43; continue _fun0008 }
+case 44:
             var10 = var7.toString;
             var9 = var10.bind(var7)();
-case 41:
+case 43:
             var1['buttonText'] = var9;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -832,10 +855,10 @@ case 41:
             var1['hitSlop'] = var8;
             var7 = var7 > var5;
             var5 = null;
-            if(!var7) { _fun0008_ip = 43; continue _fun0008 }
-case 44:
+            if(!var7) { _fun0008_ip = 45; continue _fun0008 }
+case 46:
             var5 = var6.eventsActionButtonWithText;
-case 43:
+case 45:
             var1['style'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

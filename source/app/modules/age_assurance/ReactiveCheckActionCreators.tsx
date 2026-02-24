@@ -19,49 +19,49 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3: // try_start_0
-                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 2;
                     var2 = var5[var2];
-                    var5 = undefined;
-                    var2 = var4.bind(var5)(var2);
-                    var6 = var2.HTTP;
-                    var4 = var6.get;
+                    var6 = undefined;
+                    var2 = var3.bind(var6)(var2);
+                    var5 = var2.HTTP;
+                    var3 = var5.get;
                     var2 = {};
                     var7 = _closure1_slot4;
                     var7 = var7.AGE_VERIFICATION_REACTIVE_CHECK;
                     var2['url'] = var7;
                     var7 = true;
                     var2['rejectWithError'] = var7;
-                    var2 = var4.bind(var6)(var2);
+                    var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=76);
 case 4:
                     return var2;
 case 5:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var6 = var2.body;
-                    var4 = _closure1_slot1;
+                    var3 = var2.body;
+                    var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var3 = 3;
-                    var3 = var7[var3];
-                    var5 = var4.bind(var5)(var3);
-                    var4 = var5.dispatch;
-                    var3 = {};
+                    var4 = 3;
+                    var4 = var7[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
                     var7 = 'AGE_VERIFICATION_CHECK_RESULT_SET';
-                    var3['type'] = var7;
-                    var6 = var6.status;
-                    var3['status'] = var6;
-                    var3 = var4.bind(var5)(var3);
+                    var4['type'] = var7;
+                    var7 = var3.status;
+                    var4['status'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    var3 = var3.status;
 case 8: // try_end0
-                    _fun0001_ip = 9; continue _fun0001;
+                    return var3;
 case 6:
                     return var2;
-case 10: // catch_target0
+case 9: // catch_target0
                     CatchBlockStart(arg_register=1);
-case 9:
-                    var2 = undefined;
+                    var2 = null;
                     return var2;
 case 2:
                     return var1;
@@ -89,8 +89,8 @@ case 2:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+                    if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 2;
@@ -107,12 +107,12 @@ case 12:
                     var2['rejectWithError'] = var7;
                     var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=74);
-case 13:
+case 12:
                     return var2;
 case 4:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+                    if(var5) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 3;
@@ -124,9 +124,9 @@ case 15:
                     var4['type'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 14:
+case 13:
                     return var2;
-case 11:
+case 10:
                     return var1;
                 }
             };

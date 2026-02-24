@@ -367,19 +367,19 @@ case 15:
             var6 = new Array(2);
             var6[0] = var10;
             var7 = var7 != var12;
-            if(!var7) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-            var7 = var12 > var9;
+            if(!var7) { _fun0004_ip = 2; continue _fun0004 }
 case 16:
-            if(!var7) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+            var7 = var12 > var9;
+case 2:
+            if(!var7) { _fun0004_ip = 5; continue _fun0004 }
+case 17:
             var10 = _closure1_slot5;
             var9 = _closure1_slot10;
             var8 = {};
             var8['audienceCount'] = var12;
             var8['collapsed'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 18:
+case 5:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var5.bind(var4)(var3, var2);

@@ -111,12 +111,55 @@ case 2:
         }
     };
     var3['useSelectedDismissibleContent'] = var4;
-    var4 = function useSelectedVersionedDismissibleContent(arg1, arg2, arg3) {
+    var4 = function useSelectedSingleUseGuildDismissibleContent(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var6 = arg2;
+            var5 = arguments[3];
+            var7 = undefined;
+            if(!(var5 === var7)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var5 = false;
+case 4:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 3;
+            var2 = var8[var2];
+            var10 = var4.bind(var7)(var2);
+            var9 = var10.UNSAFE_useGetSingleUseGuildDismissibleContent;
+            var3 = arg1;
+            var2 = arg3;
+            var3 = var9.bind(var10)(var3, var6, var2);
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2.bind(var7)(var3, var1);
+            var1 = 0;
+            var3 = var2[var1];
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = 4;
+            var1 = var8[var1];
+            var4 = var4.bind(var7)(var1);
+            var1 = var4.useSelectedDismissibleContentShared;
+            var15 = var4;
+            var14 = var3;
+            var13 = var2;
+            var12 = var5;
+            var11 = var6;
+            var1 = var15[var1](var14, var13, var12, var11, var10);
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
+        }
+    };
+    var3['useSelectedSingleUseGuildDismissibleContent'] = var4;
+    var4 = function useSelectedVersionedDismissibleContent(arg1, arg2, arg3) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arguments[3];
             var6 = undefined;
-            if(!(var5 === var6)) { _fun0002_ip = 2; continue _fun0002 }
+            if(!(var5 === var6)) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
             var5 = false;
 case 2:
@@ -150,11 +193,11 @@ case 2:
     };
     var3['useSelectedVersionedDismissibleContent'] = var4;
     var4 = function useSelectedTimeRecurringDismissibleContent(arg1, arg2, arg3) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var5 = arguments[3];
             var6 = undefined;
-            if(!(var5 === var6)) { _fun0003_ip = 2; continue _fun0003 }
+            if(!(var5 === var6)) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
             var5 = false;
 case 2:
@@ -188,11 +231,11 @@ case 2:
     };
     var3['useSelectedTimeRecurringDismissibleContent'] = var4;
     var4 = function useSelectedSnowflakeBoundDismissibleContent(arg1, arg2, arg3) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var5 = arguments[3];
             var6 = undefined;
-            if(!(var5 === var6)) { _fun0004_ip = 2; continue _fun0004 }
+            if(!(var5 === var6)) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
             var5 = false;
 case 2:
@@ -226,11 +269,11 @@ case 2:
     };
     var3['useSelectedSnowflakeBoundDismissibleContent'] = var4;
     var4 = function useSelectedTimeReccuringSnowflakeBoundDismissibleContent(arg1, arg2, arg3, arg4) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var5 = arguments[4];
             var6 = undefined;
-            if(!(var5 === var6)) { _fun0005_ip = 2; continue _fun0005 }
+            if(!(var5 === var6)) { _fun0006_ip = 2; continue _fun0006 }
 case 3:
             var5 = false;
 case 2:

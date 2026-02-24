@@ -402,8 +402,8 @@ case 0:
             var6 = var4[var8];
             var7 = undefined;
             var6 = var5.bind(var7)(var6);
-            var6 = var6.unsafe_rawColors;
-            var6 = var6.BRAND_500;
+            var6 = var6.colors;
+            var6 = var6.BACKGROUND_BRAND;
             var1['acceptBlurpleLabelBackgroundColor'] = var6;
             var6 = var4[var8];
             var6 = var5.bind(var7)(var6);

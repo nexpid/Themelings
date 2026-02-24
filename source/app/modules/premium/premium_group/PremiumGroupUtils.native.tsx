@@ -194,6 +194,13 @@ case 10:
         return var1;
     };
     var3['useIsEligibleForPremiumGroupPurchase'] = var4;
+    var4 = function(arg1) {
+        var1 = arg1;
+        var1 = var1.isGift;
+        var1 = false;
+        return var1;
+    };
+    var3['useCheckoutInstancePremiumGroupPurchaseEligibility'] = var4;
     var4 = function() {
         var1 = false;
         return var1;

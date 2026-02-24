@@ -12,57 +12,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 3;
-            var2 = var8[var2];
-            var4 = undefined;
-            var3 = var7.bind(var4)(var2);
-            var2 = var3.getSystemKeyboardHeight;
-            var2 = var2.bind(var3)();
-            var3 = 4;
-            var3 = var8[var3];
-            var5 = var7.bind(var4)(var3);
-            var3 = var5.getCustomKeyboardHeight;
-            var3 = var3.bind(var5)();
-            var5 = 5;
-            var5 = var8[var5];
-            var6 = var7.bind(var4)(var5);
-            var5 = var6.getKeyboardType;
-            var6 = var5.bind(var6)();
-            var5 = 6;
-            var5 = var8[var5];
-            var5 = var7.bind(var4)(var5);
-            var5 = var5.KeyboardTypes;
-            var5 = var5.SYSTEM;
-            if(!(var6 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+            var1 = 4;
+            var1 = var8[var1];
+            var5 = undefined;
+            var3 = var7.bind(var5)(var1);
+            var1 = var3.getSystemKeyboardHeight;
+            var3 = var1.bind(var3)();
+            var1 = 5;
+            var1 = var8[var1];
+            var4 = var7.bind(var5)(var1);
+            var1 = var4.getCustomKeyboardHeight;
+            var1 = var1.bind(var4)();
+            var4 = 6;
+            var4 = var8[var4];
+            var6 = var7.bind(var5)(var4);
+            var4 = var6.getKeyboardType;
+            var6 = var4.bind(var6)();
+            var4 = 7;
+            var4 = var8[var4];
+            var4 = var7.bind(var5)(var4);
+            var4 = var4.KeyboardTypes;
+            var4 = var4.SYSTEM;
+            if(!(var6 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var3;
+            var3 = var1;
 case 2:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 7;
-            var1 = var5[var1];
-            var4 = var3.bind(var4)(var1);
-            var3 = var4.getWindowDimensions;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 8;
+            var1 = var6[var1];
+            var5 = var4.bind(var5)(var1);
+            var4 = var5.getWindowDimensions;
             var1 = {};
-            var5 = true;
-            var1['ignoreKeyboard'] = var5;
-            var1 = var3.bind(var4)(var1);
+            var6 = true;
+            var1['ignoreKeyboard'] = var6;
+            var1 = var4.bind(var5)(var1);
             var1 = var1.height;
-            var1 = var1 - var2;
-            var2 = global;
-            var4 = var2.Math;
+            var1 = var1 - var3;
+            var5 = global;
+            var4 = var5.Math;
             var3 = var4.min;
-            var7 = var2.Math;
+            var7 = var5.Math;
             var6 = var7.max;
+            var5 = _closure1_slot6;
+            var2 = 2;
+            var5 = var2 * var5;
             var2 = 200;
-            var5 = var1 - var2;
-            var1 = 76;
-            var1 = var6.bind(var7)(var1, var5);
+            var1 = var1 - var2;
+            var1 = var6.bind(var7)(var5, var1);
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -85,7 +87,12 @@ case 2:
     var5 = var7[var5];
     var5 = var8.bind(var1)(var5);
     var _closure1_slot5 = var5;
-    var5 = 12;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.CHAT_INPUT_PILL_CONTENT_SIZE;
+    var _closure1_slot6 = var5;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -96,7 +103,7 @@ case 2:
         var _closure2_slot0 = var6;
         var5 = _closure1_slot4;
         var4 = var5.useState;
-        var3 = _closure1_slot6;
+        var3 = _closure1_slot7;
         var7 = var4.bind(var5)(var3);
         var4 = _closure1_slot3;
         var3 = undefined;
@@ -118,7 +125,7 @@ case 2:
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var1 = arg1;
-                        var2 = _closure1_slot6;
+                        var2 = _closure1_slot7;
                         var4 = undefined;
                         var2 = var2.bind(var4)();
                         if(!(var1 !== var2)) { _fun0002_ip = 4; continue _fun0002 }
@@ -140,7 +147,7 @@ case 4:
             };
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 8;
+            var3 = 9;
             var5 = var5[var3];
             var3 = undefined;
             var5 = var6.bind(var3)(var5);
@@ -164,7 +171,7 @@ case 4:
     };
     var3['default'] = var5;
     var5 = function getChatInputMinHeight() {
-        var1 = 38;
+        var1 = _closure1_slot6;
         return var1;
     };
     var3['getChatInputMinHeight'] = var5;
@@ -173,24 +180,24 @@ case 4:
         var1 = global;
         var5 = var1.Math;
         var4 = var5.min;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot7;
         var7 = undefined;
         var3 = var2.bind(var7)();
         var2 = arg1;
         var4 = var4.bind(var5)(var2, var3);
         var6 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var1 = 9;
+        var1 = 10;
         var1 = var8[var1];
         var3 = var6.bind(var7)(var1);
         var2 = var3.withTiming;
         var1 = {};
-        var5 = 10;
+        var5 = 11;
         var5 = var8[var5];
         var5 = var6.bind(var7)(var5);
         var5 = var5.timingFastDuration;
         var1['duration'] = var5;
-        var5 = 11;
+        var5 = 12;
         var5 = var8[var5];
         var5 = var6.bind(var7)(var5);
         var5 = var5.Easing;

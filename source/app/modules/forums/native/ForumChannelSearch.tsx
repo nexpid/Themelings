@@ -79,21 +79,20 @@ case 0:
             var1 = _closure1_slot7;
             var5 = undefined;
             var7 = var1.bind(var5)();
-            var2 = _closure1_slot1;
+            var3 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 8;
-            var1 = var9[var1];
-            var1 = var2.bind(var5)(var1);
-            var10 = var1.bind(var5)();
+            var2 = var9[var1];
+            var10 = var3.bind(var5)(var2);
+            var2 = var10.useNavigation;
+            var10 = var2.bind(var10)();
             var _closure2_slot1 = var10;
-            var3 = _closure1_slot0;
-            var1 = 9;
             var1 = var9[var1];
             var2 = var3.bind(var5)(var1);
             var1 = var2.useRoute;
             var1 = var1.bind(var2)();
             var _closure2_slot2 = var1;
-            var2 = 10;
+            var2 = 9;
             var2 = var9[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.useCanSearchForumPostsByChannelId;
@@ -115,7 +114,7 @@ case 3:
                         var2 = var3.setOptions;
                         var6 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var4 = 11;
+                        var4 = 10;
                         var5 = var5[var4];
                         var4 = undefined;
                         var5 = var6.bind(var4)(var5);
@@ -137,14 +136,14 @@ case 5:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var2 = 12;
+            var2 = 11;
             var2 = var12[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var9 = var7.cancelButton;
             var2['style'] = var9;
             var11 = _closure1_slot0;
-            var8 = 13;
+            var8 = 12;
             var9 = var12[var8];
             var9 = var11.bind(var5)(var9);
             var10 = var9.intl;
@@ -166,7 +165,7 @@ case 0:
 case 3:
                     var5 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 13;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -200,12 +199,12 @@ case 0:
             var6 = var2.bind(var5)();
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var7[var2];
             var3 = var4.bind(var5)(var2);
             var2 = var3.useCanSearchForumPostsByChannelId;
             var2 = var2.bind(var3)(var1);
-            var3 = 15;
+            var3 = 14;
             var3 = var7[var3];
             var9 = var4.bind(var5)(var3);
             var7 = var9.useStateFromStores;
@@ -238,7 +237,7 @@ case 10:
             var2 = var12 != var9;
             var1 = null;
             if(!var2) { _fun0004_ip = 9; continue _fun0004 }
-case 11:
+case 5:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
@@ -246,7 +245,7 @@ case 11:
             var2['style'] = var6;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 16;
+            var6 = 15;
             var6 = var13[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.SearchField;
@@ -259,11 +258,11 @@ case 11:
 case 0:
                     var3 = _closure2_slot0;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0006_ip = 12; continue _fun0006 }
+                    if(!(var2 != var3)) { _fun0006_ip = 11; continue _fun0006 }
 case 3:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 13;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -271,17 +270,17 @@ case 3:
                     var2 = _closure2_slot0;
                     var1 = arg1;
                     var1 = var3.bind(var4)(var2, var1);
-case 12:
+case 11:
                     var1 = undefined;
                     return var1;
                 }
             };
             var6['onChange'] = var13;
-            if(!(var12 == var10)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+            if(!(var12 == var10)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var11 = 13;
+            var11 = 12;
             var12 = var15[var11];
             var12 = var14.bind(var5)(var12);
             var13 = var12.intl;
@@ -291,7 +290,7 @@ case 14:
             var11 = var11.t;
             var11 = var11.Iy2gnS;
             var10 = var12.bind(var13)(var11);
-case 13:
+case 12:
             var6['placeholder'] = var10;
             var10 = var9.length;
             var9 = 0;
@@ -303,16 +302,16 @@ case 0:
                     var2 = _closure2_slot1;
                     var3 = null;
                     var2 = var3 != var2;
-                    if(!var2) { _fun0007_ip = 15; continue _fun0007 }
+                    if(!var2) { _fun0007_ip = 14; continue _fun0007 }
 case 8:
                     var4 = _closure2_slot0;
                     var2 = var3 != var4;
-case 15:
-                    if(!var2) { _fun0007_ip = 16; continue _fun0007 }
-case 17:
+case 14:
+                    if(!var2) { _fun0007_ip = 15; continue _fun0007 }
+case 16:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 17;
+                    var2 = 16;
                     var4 = var4[var2];
                     var2 = undefined;
                     var5 = var5.bind(var2)(var4);
@@ -323,13 +322,13 @@ case 17:
                     var6 = _closure2_slot0;
                     var2['channelId'] = var6;
                     var2 = var4.bind(var5)(var2);
-case 16:
+case 15:
                     var2 = _closure2_slot0;
                     if(!(var3 != var2)) { _fun0007_ip = 10; continue _fun0007 }
-case 18:
+case 17:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 13;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -353,7 +352,7 @@ case 9:
         }
     };
     var2 = var5.bind(var8)(var2);
-    var5 = 18;
+    var5 = 17;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

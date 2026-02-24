@@ -1,9 +1,8 @@
 // app/stores/UserSettingsModalStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var7 = metroImportDefault;
+    var6 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
+    var5 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -36,40 +35,40 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot17 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
-    var11 = function handleFormInit(arg1) {
+    var _closure1_slot12 = var1;
+    var9 = function handleFormInit(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
             var4 = _closure1_slot5;
             var2 = var4.getCurrentUser;
-            var8 = var2.bind(var4)();
+            var4 = var2.bind(var4)();
             var2 = null;
-            if(!(var2 != var8)) { _fun0002_ip = 6; continue _fun0002 }
+            if(!(var2 != var4)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var4 = var3.section;
             if(!(var2 == var4)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot6;
 case 8:
-            _closure1_slot9 = var4;
+            _closure1_slot6 = var4;
             var4 = var3.subsection;
             var4 = var2 != var4;
             if(!var4) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var5 = _closure1_slot9;
+            var5 = _closure1_slot6;
             var4 = var2 != var5;
 case 10:
             if(!var4) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var6 = _closure1_slot10;
-            var5 = _closure1_slot9;
+            var6 = _closure1_slot7;
+            var5 = _closure1_slot6;
             var4 = var3.subsection;
             var6[var5] = var4;
 case 12:
@@ -77,47 +76,16 @@ case 12:
             var4 = var2 != var4;
             if(!var4) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var5 = _closure1_slot9;
+            var5 = _closure1_slot6;
             var4 = var2 != var5;
 case 14:
             if(!var4) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-            var6 = _closure1_slot11;
-            var5 = _closure1_slot9;
+            var6 = _closure1_slot8;
+            var5 = _closure1_slot6;
             var4 = var3.scrollPosition;
             var6[var5] = var4;
 case 16:
-            var4 = _closure1_slot6;
-            var4 = var4.OPEN;
-            _closure1_slot8 = var4;
-            var4 = {};
-            _closure1_slot12 = var4;
-            var5 = {};
-            var4 = _closure1_slot7;
-            var6 = var4.ACCOUNT;
-            var4 = {};
-            var7 = var8.id;
-            var4['userId'] = var7;
-            var7 = var8.username;
-            var4['username'] = var7;
-            var7 = var8.discriminator;
-            var4['discriminator'] = var7;
-            var7 = var8.email;
-            var4['email'] = var7;
-            var7 = var8.avatar;
-            var4['avatar'] = var7;
-            var7 = '';
-            var4['password'] = var7;
-            var4['newPassword'] = var2;
-            var7 = var8.isClaimed;
-            var7 = var7.bind(var8)();
-            var4['claimed'] = var7;
-            var5[var6] = var4;
-            var4 = {};
-            var10 = var4;
-            var9 = var5;
-            var5 = copyDataProperties(var10, var9);
-            _closure1_slot13 = var4;
             var5 = var3.analyticsLocation;
             var6 = var2 != var5;
             var4 = null;
@@ -125,13 +93,13 @@ case 16:
 case 19:
             var4 = var5;
 case 18:
-            _closure1_slot14 = var4;
+            _closure1_slot9 = var4;
             var4 = var3.analyticsLocations;
             if(!(var2 == var4)) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
             var4 = new Array(0);
 case 20:
-            _closure1_slot15 = var4;
+            _closure1_slot10 = var4;
             var3 = var3.searchParams;
             var4 = var2 != var3;
             var2 = null;
@@ -139,105 +107,79 @@ case 20:
 case 23:
             var2 = var3;
 case 22:
-            _closure1_slot16 = var2;
+            _closure1_slot11 = var2;
             var2 = undefined;
             return var2;
 case 6:
-            var2 = _closure1_slot19;
+            var2 = _closure1_slot14;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot18 = var11;
-    var10 = function handleFormClose() {
-        var1 = _closure1_slot6;
-        var1 = var1.CLOSED;
-        _closure1_slot8 = var1;
+    var _closure1_slot13 = var9;
+    var8 = function handleFormClose() {
         var1 = null;
-        _closure1_slot13 = var1;
+        _closure1_slot6 = var1;
+        var3 = {};
+        _closure1_slot7 = var3;
+        var3 = {};
+        _closure1_slot8 = var3;
         _closure1_slot9 = var1;
-        var3 = {};
-        _closure1_slot10 = var3;
-        var3 = {};
-        _closure1_slot11 = var3;
-        _closure1_slot14 = var1;
         var3 = new Array(0);
-        _closure1_slot15 = var3;
-        _closure1_slot16 = var1;
+        _closure1_slot10 = var3;
+        _closure1_slot11 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot19 = var10;
-    var9 = function handleFormSubmitComplete() {
-        var1 = _closure1_slot6;
-        var1 = var1.OPEN;
-        _closure1_slot8 = var1;
-        var1 = {};
-        _closure1_slot12 = var1;
-        var1 = undefined;
-        return var1;
-    };
-    var _closure1_slot20 = var9;
+    var _closure1_slot14 = var8;
     var1 = global;
-    var12 = var1.Object;
-    var8 = var12.defineProperty;
+    var10 = var1.Object;
+    var7 = var10.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var12)(var3, var1, var2);
+    var1 = var7.bind(var10)(var3, var1, var2);
     var1 = 0;
-    var2 = var6[var1];
+    var2 = var5[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot0 = var2;
     var2 = 1;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot1 = var2;
     var2 = 2;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot2 = var2;
     var2 = 3;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 4;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 5;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot5 = var2;
-    var2 = 6;
-    var2 = var6[var2];
-    var8 = var5.bind(var1)(var2);
-    var2 = var8.FormStates;
-    var _closure1_slot6 = var2;
-    var8 = var8.UserSettingsSections;
-    var _closure1_slot7 = var8;
-    var2 = var2.CLOSED;
-    var _closure1_slot8 = var2;
     var2 = null;
+    var _closure1_slot6 = var2;
+    var7 = {};
+    var _closure1_slot7 = var7;
+    var7 = {};
+    var _closure1_slot8 = var7;
     var _closure1_slot9 = var2;
-    var8 = {};
-    var _closure1_slot10 = var8;
-    var8 = {};
-    var _closure1_slot11 = var8;
-    var8 = {};
-    var _closure1_slot12 = var8;
-    var _closure1_slot13 = var2;
-    var _closure1_slot14 = var2;
-    var8 = new Array(0);
-    var _closure1_slot15 = var8;
-    var _closure1_slot16 = var2;
-    var2 = 7;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var8 = var2.Store;
+    var7 = new Array(0);
+    var _closure1_slot10 = var7;
+    var _closure1_slot11 = var2;
+    var2 = 6;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var7 = var2.Store;
     var2 = function(arg1) {
         var4 = function UserSettingsModalStore() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -251,7 +193,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 13; continue _fun0003 }
 case 24:
@@ -292,13 +234,13 @@ case 25:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(10);
+        var1 = new Array(7);
         var1[0] = var5;
         var5 = {};
         var7 = 'getSection';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot6;
             return var1;
         };
         var5['value'] = var7;
@@ -309,13 +251,13 @@ case 25:
         var7 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot6;
                 var1 = null;
                 var3 = var1 != var3;
                 if(!var3) { _fun0004_ip = 7; continue _fun0004 }
 case 26:
-                var3 = _closure1_slot10;
-                var2 = _closure1_slot9;
+                var3 = _closure1_slot7;
+                var2 = _closure1_slot6;
                 var1 = var3[var2];
 case 7:
                 return var1;
@@ -329,13 +271,13 @@ case 7:
         var7 = function value() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot6;
                 var1 = null;
                 var3 = var1 != var3;
                 if(!var3) { _fun0005_ip = 7; continue _fun0005 }
 case 26:
-                var3 = _closure1_slot11;
-                var2 = _closure1_slot9;
+                var3 = _closure1_slot8;
+                var2 = _closure1_slot6;
                 var1 = var3[var2];
 case 7:
                 return var1;
@@ -347,7 +289,7 @@ case 7:
         var7 = 'getAnalyticsLocation';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot9;
             return var1;
         };
         var5['value'] = var7;
@@ -356,268 +298,126 @@ case 7:
         var7 = 'getAnalyticsLocations';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot10;
             return var1;
         };
         var5['value'] = var7;
         var1[5] = var5;
         var5 = {};
-        var7 = 'getErrors';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot12;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[6] = var5;
-        var5 = {};
-        var7 = 'getSubmitting';
-        var5['key'] = var7;
-        var7 = function value() {
-            var2 = _closure1_slot8;
-            var1 = _closure1_slot6;
-            var1 = var1.SUBMITTING;
-            var1 = var2 === var1;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[7] = var5;
-        var5 = {};
-        var7 = 'getSettings';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot13;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[8] = var5;
-        var5 = {};
         var7 = 'getSearchParams';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot11;
             return var1;
         };
         var5['value'] = var6;
-        var1[9] = var5;
+        var1[6] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var2.bind(var1)(var8);
+    var7 = var2.bind(var1)(var7);
     var2 = 'UserSettingsModalStore';
-    var8['displayName'] = var2;
-    var2 = 8;
-    var2 = var6[var2];
-    var15 = var7.bind(var1)(var2);
+    var7['displayName'] = var2;
+    var2 = 7;
+    var2 = var5[var2];
+    var13 = var6.bind(var1)(var2);
     var2 = {};
-    var12 = function handleFormOpen(arg1) {
-        var3 = _closure1_slot18;
+    var10 = function handleFormOpen(arg1) {
+        var3 = _closure1_slot13;
         var1 = undefined;
         var2 = arg1;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var2['USER_SETTINGS_MODAL_OPEN'] = var12;
-    var2['USER_SETTINGS_MODAL_INIT'] = var11;
-    var2['USER_SETTINGS_MODAL_CLOSE'] = var10;
-    var2['LOGOUT'] = var10;
-    var10 = function handleFormSubmit() {
-        var1 = _closure1_slot6;
-        var1 = var1.SUBMITTING;
-        _closure1_slot8 = var1;
-        var1 = undefined;
-        return var1;
-    };
-    var2['USER_SETTINGS_MODAL_SUBMIT'] = var10;
-    var10 = function handleFormSubmitFailure(arg1) {
+    var2['USER_SETTINGS_MODAL_OPEN'] = var10;
+    var2['USER_SETTINGS_MODAL_INIT'] = var9;
+    var2['USER_SETTINGS_MODAL_CLOSE'] = var8;
+    var2['LOGOUT'] = var8;
+    var8 = function handleSetSection(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-            var3 = _closure1_slot8;
-            var1 = _closure1_slot6;
-            var1 = var1.SUBMITTING;
-            if(!(var3 === var1)) { _fun0006_ip = 4; continue _fun0006 }
-case 27:
-            var1 = _closure1_slot6;
-            var1 = var1.OPEN;
-            _closure1_slot8 = var1;
-            var1 = _closure1_slot7;
-            var1 = var1.ACCOUNT;
-            _closure1_slot9 = var1;
-            var1 = arg1;
-            var1 = var1.errors;
-            var3 = null;
-            if(!(var3 == var1)) { _fun0006_ip = 10; continue _fun0006 }
-case 28:
-            var1 = {};
-case 10:
-            _closure1_slot12 = var1;
-            var1 = undefined;
-            return var1;
-case 4:
-            var1 = false;
-            return var1;
-        }
-    };
-    var2['USER_SETTINGS_MODAL_SUBMIT_FAILURE'] = var10;
-    var10 = function handleSetSection(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.section;
-            _closure1_slot9 = var3;
+            _closure1_slot6 = var3;
             var4 = null;
-            _closure1_slot14 = var4;
+            _closure1_slot9 = var4;
             var3 = var1.analyticsLocations;
-            if(!(var4 == var3)) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+            if(!(var4 == var3)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
             var3 = new Array(0);
-case 29:
-            _closure1_slot15 = var3;
+case 27:
+            _closure1_slot10 = var3;
             var3 = var1.subsection;
-            if(!(var4 != var3)) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
-            var3 = _closure1_slot10;
-            var2 = _closure1_slot9;
+            if(!(var4 != var3)) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot6;
             var1 = var1.subsection;
             var3[var2] = var1;
-case 31:
+case 29:
             var1 = undefined;
             return var1;
         }
     };
-    var2['USER_SETTINGS_MODAL_SET_SECTION'] = var10;
-    var10 = function handleClearSubsection(arg1) {
+    var2['USER_SETTINGS_MODAL_SET_SECTION'] = var8;
+    var8 = function handleClearSubsection(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.forSection;
+            var4 = null;
+            if(!(var4 == var2)) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
+            var3 = _closure1_slot6;
+            if(!(var4 != var3)) { _fun0007_ip = 24; continue _fun0007 }
+case 33:
+            var3 = _closure1_slot7;
+            var1 = _closure1_slot6;
+            var1 = delete var3[var1];
+            _fun0007_ip = 24; continue _fun0007;
+case 31:
+            var1 = _closure1_slot7;
+            var1 = delete var1[var2];
+case 24:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var2['USER_SETTINGS_MODAL_CLEAR_SUBSECTION'] = var8;
+    var4 = function handleClearScrollPosition(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.forSection;
             var4 = null;
-            if(!(var4 == var2)) { _fun0008_ip = 33; continue _fun0008 }
-case 34:
-            var3 = _closure1_slot9;
+            if(!(var4 == var2)) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
+            var3 = _closure1_slot6;
             if(!(var4 != var3)) { _fun0008_ip = 24; continue _fun0008 }
-case 35:
-            var3 = _closure1_slot10;
-            var1 = _closure1_slot9;
+case 33:
+            var3 = _closure1_slot8;
+            var1 = _closure1_slot6;
             var1 = delete var3[var1];
             _fun0008_ip = 24; continue _fun0008;
-case 33:
-            var1 = _closure1_slot10;
+case 31:
+            var1 = _closure1_slot8;
             var1 = delete var1[var2];
 case 24:
             var1 = undefined;
             return var1;
         }
     };
-    var2['USER_SETTINGS_MODAL_CLEAR_SUBSECTION'] = var10;
-    var10 = function handleClearScrollPosition(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.forSection;
-            var4 = null;
-            if(!(var4 == var2)) { _fun0009_ip = 33; continue _fun0009 }
-case 34:
-            var3 = _closure1_slot9;
-            if(!(var4 != var3)) { _fun0009_ip = 24; continue _fun0009 }
-case 35:
-            var3 = _closure1_slot11;
-            var1 = _closure1_slot9;
-            var1 = delete var3[var1];
-            _fun0009_ip = 24; continue _fun0009;
-case 33:
-            var1 = _closure1_slot11;
-            var1 = delete var1[var2];
-case 24:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var2['USER_SETTINGS_MODAL_CLEAR_SCROLL_POSITION'] = var10;
-    var10 = function handleUpdateAccount(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-            var1 = arg1;
-            var4 = var1.settings;
-            var3 = _closure1_slot13;
-            var2 = null;
-            if(!(var2 == var3)) { _fun0010_ip = 7; continue _fun0010 }
-case 36:
-            var2 = {};
-            _closure1_slot13 = var2;
-case 7:
-            var3 = _closure1_slot13;
-            var2 = _closure1_slot7;
-            var2 = var2.ACCOUNT;
-            var6 = var3[var2];
-            var3 = _closure1_slot13;
-            var1 = _closure1_slot7;
-            var2 = var1.ACCOUNT;
-            var1 = {};
-            var7 = var1;
-            var5 = copyDataProperties(var7, var6);
-            var7 = var1;
-            var6 = var4;
-            var4 = copyDataProperties(var7, var6);
-            var3[var2] = var1;
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var2['USER_SETTINGS_MODAL_UPDATE_ACCOUNT'] = var10;
-    var2['USER_SETTINGS_MODAL_SUBMIT_COMPLETE'] = var9;
-    var4 = function handleFormReset() {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-            var2 = _closure1_slot5;
-            var1 = var2.getCurrentUser;
-            var7 = var1.bind(var2)();
-            var2 = _closure1_slot20;
-            var1 = undefined;
-            var2 = var2.bind(var1)();
-            var6 = null;
-            if(!(var6 != var7)) { _fun0011_ip = 37; continue _fun0011 }
-case 38:
-            var4 = {};
-            var2 = _closure1_slot7;
-            var5 = var2.ACCOUNT;
-            var2 = {};
-            var8 = var7.id;
-            var2['userId'] = var8;
-            var8 = var7.username;
-            var2['username'] = var8;
-            var8 = var7.discriminator;
-            var2['discriminator'] = var8;
-            var8 = var7.email;
-            var2['email'] = var8;
-            var8 = var7.avatar;
-            var2['avatar'] = var8;
-            var8 = '';
-            var2['password'] = var8;
-            var2['newPassword'] = var6;
-            var6 = var7.isClaimed;
-            var6 = var6.bind(var7)();
-            var2['claimed'] = var6;
-            var4[var5] = var2;
-            var2 = {};
-            var10 = var2;
-            var9 = var4;
-            var4 = copyDataProperties(var10, var9);
-            _closure1_slot13 = var2;
-case 37:
-            return var1;
-        }
-    };
-    var2['USER_SETTINGS_MODAL_RESET'] = var4;
-    var4 = var8.prototype;
-    var4 = Object.create(var4, {constructor: {value: var8}});
-    var16 = var4;
-    var14 = var2;
-    var2 = new var16[var8](var15, var14, var13);
+    var2['USER_SETTINGS_MODAL_CLEAR_SCROLL_POSITION'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
+    var14 = var4;
+    var12 = var2;
+    var2 = new var14[var7](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
+    var4 = 8;
+    var5 = var5[var4];
+    var4 = require;
+    var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'stores/UserSettingsModalStore.tsx';
     var4 = var5.bind(var6)(var4);

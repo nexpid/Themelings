@@ -1,6 +1,7 @@
 // app/modules/webauthn/native/WebAuthnUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var9 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
@@ -34,7 +35,7 @@ case 7:
 case 9:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot1;
-                    var3 = 2;
+                    var3 = 3;
                     var3 = var5[var3];
                     var4 = var4.bind(var6)(var3);
                     var3 = var4.startRegisterWebAuthnCredential;
@@ -75,7 +76,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot4 = var4;
+        _closure1_slot5 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -83,7 +84,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot4 = var1;
+    var _closure1_slot5 = var1;
     var4 = function registerSecurityKey(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -112,7 +113,7 @@ case 20:
             var2 = var6.bind(var3)(var2);
             var2 = function promptForRegisterCredential() {
                 var1 = undefined;
-                var4 = _closure1_slot4;
+                var4 = _closure1_slot5;
                 var3 = var4.apply;
                 var1 = arguments;
                 var2 = var1;
@@ -135,7 +136,7 @@ case 22:
                     var3 = _closure2_slot0;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot1;
-                    var2 = 3;
+                    var2 = 4;
                     var5 = var8[var2];
                     var5 = var7.bind(var4)(var5);
                     var6 = var5.intl;
@@ -164,7 +165,7 @@ case 11:
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var1 = function mutateAndroidRegisterChallengeForDiscoverable(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -188,10 +189,10 @@ case 11:
         };
         return var1;
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot7 = var1;
     var8 = function registerAndroidCredentialManagerPasskey(arg1) {
-        var4 = _closure1_slot5;
-        var2 = _closure1_slot6;
+        var4 = _closure1_slot6;
+        var2 = _closure1_slot7;
         var1 = _closure1_slot3;
         var1 = var1.DCDSecurityKeyManager;
         var1 = var1.registerPasskey;
@@ -201,33 +202,42 @@ case 11:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot7 = var8;
+    var _closure1_slot8 = var8;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = var10.bind(var11)(var3, var1, var2);
     var1 = 0;
-    var9 = var6[var1];
-    var2 = metroImportDefault;
+    var2 = var6[var1];
     var1 = undefined;
-    var2 = var2.bind(var1)(var9);
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.NativeModules;
     var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var10 = var9.bind(var1)(var2);
+    var2 = var10.prototype;
+    var9 = Object.create(var2, {constructor: {value: var10}});
+    var14 = 'WebAuthnUtils';
+    var15 = var9;
+    var2 = new var15[var10](var14, var13);
+    var2 = var2 instanceof Object ? var2 : var9;
+    var _closure1_slot4 = var2;
     var2 = {};
     var10 = function get hasAndroidPasskeySupport() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 4;
+            var1 = 5;
             var1 = var3[var1];
             var6 = undefined;
             var2 = var2.bind(var6)(var1);
@@ -261,7 +271,7 @@ case 23:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 4;
+            var1 = 5;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -271,7 +281,7 @@ case 0:
 case 4:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 5;
+            var2 = 8;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isMetaQuest;
@@ -283,10 +293,142 @@ case 21:
     };
     var9 = 'shouldDisplayAndroidFidoSelector';
     Object.defineProperty(var2, var9, {get: var10, set: var1, enumerable: true});
+    var9 = function getPasskeyAuthenticator() {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var3 = _closure1_slot3;
+            var3 = var3.DCDSecurityKeyManager;
+            var3 = var3.authenticate;
+            var _closure2_slot0 = var3;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 5;
+            var4 = var4[var3];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = var5.isAndroid;
+            var4 = var4.bind(var5)();
+            if(!var4) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+            var5 = _closure1_slot3;
+            var6 = null;
+            var7 = var6 == var5;
+            var5 = undefined;
+            if(var7) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
+            var7 = _closure1_slot3;
+            var7 = var7.DCDSecurityKeyManager;
+            var8 = var6 == var7;
+            var5 = undefined;
+            if(var8) { _fun0006_ip = 29; continue _fun0006 }
+case 31:
+            var5 = var7.authenticatePasskey;
+case 29:
+            var4 = var6 != var5;
+case 27:
+            if(!var4) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
+            var4 = _closure1_slot3;
+            var4 = var4.DCDSecurityKeyManager;
+            var4 = var4.authenticatePasskey;
+            _closure2_slot0 = var4;
+case 32:
+            var2 = _closure1_slot2;
+            var1 = function* (arg1) {
+                var1 = function* anon_0_(arg1) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
+                        var11 = 0;
+                        var3 = copyRestArgs(var11);
+                        var5 = undefined;
+                        SaveGenerator(address=22);
+case 36:
+                        return var5;
+case 37:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                        if(var6) { _fun0007_ip = 38; continue _fun0007 }
+case 39: // try_start_0
+                        var6 = _closure2_slot0;
+                        var10 = var3;
+                        var3 = new Array(0);
+                        var11 = var3;
+                        var9 = 0;
+                        var7 = arraySpread(var11, var10, var9);
+                        var11 = var6;
+                        var10 = var3;
+                        var9 = undefined;
+                        var3 = apply(var11, var10, var9);
+                        SaveGenerator(address=70);
+case 40:
+                        return var3;
+case 41:
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                        if(var6) { _fun0007_ip = 42; continue _fun0007 }
+case 43: // try_end0
+                        return var3;
+case 42:
+                        return var3;
+case 23: // catch_target0
+                        CatchBlockStart(arg_register=2);
+                        var4 = var3;
+                        var6 = var3.code;
+                        var3 = 'AbortError';
+                        if(!(var3 !== var6)) { _fun0007_ip = 44; continue _fun0007 }
+case 29:
+                        var3 = 'NotAllowedError';
+                        if(!(var3 !== var6)) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
+                        var7 = _closure1_slot0;
+                        var8 = _closure1_slot1;
+                        var3 = 7;
+                        var3 = var8[var3];
+                        var8 = var7.bind(var5)(var3);
+                        var7 = var8.captureWebAuthnException;
+                        var3 = var4;
+                        var7 = var7.bind(var8)(var3);
+                        var7 = _closure1_slot4;
+                        var6 = var7.error;
+                        var6 = var6.bind(var7)(var3);
+                        throw var3;
+case 44:
+                        var7 = _closure1_slot4;
+                        var6 = var7.warn;
+                        var4 = var6.bind(var7)(var4);
+                        var4 = _closure1_slot0;
+                        var6 = _closure1_slot1;
+                        var3 = 6;
+                        var3 = var6[var3];
+                        var3 = var4.bind(var5)(var3);
+                        var3 = var3.IgnorableWebAuthnError;
+                        var4 = var3.prototype;
+                        var4 = Object.create(var4, {constructor: {value: var3}});
+                        var12 = var4;
+                        var3 = new var12[var3](var11);
+                        var3 = var3 instanceof Object ? var3 : var4;
+                        throw var3;
+case 38:
+                        return var2;
+case 34:
+                        return var1;
+                    }
+                };
+                var2 = var1.next;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        }
+    };
+    var2['getPasskeyAuthenticator'] = var9;
     var2['registerAndroidCredentialManagerPasskey'] = var8;
     var8 = function registerAndroidDevicePasskey(arg1) {
-        var4 = _closure1_slot5;
-        var2 = _closure1_slot6;
+        var4 = _closure1_slot6;
+        var2 = _closure1_slot7;
         var1 = _closure1_slot3;
         var1 = var1.DCDSecurityKeyManager;
         var1 = var1.register;
@@ -298,32 +440,32 @@ case 21:
     };
     var2['registerAndroidDevicePasskey'] = var8;
     var7 = function registerPasskey(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 4;
+            var1 = 5;
             var1 = var3[var1];
             var3 = undefined;
             var5 = var5.bind(var3)(var1);
             var1 = var5.isAndroid;
             var1 = var1.bind(var5)();
-            if(var1) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
-            var1 = _closure1_slot5;
+            if(var1) { _fun0008_ip = 46; continue _fun0008 }
+case 47:
+            var1 = _closure1_slot6;
             var1 = var1.bind(var3)(var4);
-            _fun0006_ip = 29; continue _fun0006;
-case 27:
-            var2 = _closure1_slot7;
+            _fun0008_ip = 48; continue _fun0008;
+case 46:
+            var2 = _closure1_slot8;
             var1 = var2.bind(var3)(var4);
-case 29:
+case 48:
             return var1;
         }
     };
     var2['registerPasskey'] = var7;
     var2['registerSecurityKey'] = var4;
-    var4 = 6;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -453,6 +453,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['USER_AGE_GATE_UNDERAGE'] = var2;
     var2 = 'impression_user_age_gate_verify';
     var4['USER_AGE_GATE_VERIFY'] = var2;
+    var2 = 'impression_user_age_verification_reset_confirm';
+    var4['USER_AGE_VERIFICATION_RESET_CONFIRM'] = var2;
+    var2 = 'impression_user_age_verification_reset_options';
+    var4['USER_AGE_VERIFICATION_RESET_OPTIONS'] = var2;
     var2 = 'impression_user_agreements';
     var4['USER_AGREEMENTS'] = var2;
     var2 = 'impression_user_clyde_ai_consent_modal';

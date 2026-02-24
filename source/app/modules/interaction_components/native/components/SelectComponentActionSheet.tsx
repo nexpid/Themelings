@@ -860,21 +860,21 @@ case 62:
             var5['labelComponent'] = var22;
             var22 = var23.maxValues;
             var22 = var24 > var22;
-            if(var22) { _fun0006_ip = 64; continue _fun0006 }
-case 65:
+            if(var22) { _fun0006_ip = 23; continue _fun0006 }
+case 64:
             var23 = var23.minValues;
             var22 = var24 < var23;
-case 64:
+case 23:
             var5['selectButtonDisabled'] = var22;
             var5['selectedOptions'] = var21;
             var5['submitSelection'] = var20;
             var5['onQueryChange'] = var19;
             var5['onPressOptionItem'] = var18;
             var5['onRemoveOptionItem'] = var17;
-            if(!(var16 != var15)) { _fun0006_ip = 66; continue _fun0006 }
-case 67:
-            var13 = var15;
+            if(!(var16 != var15)) { _fun0006_ip = 65; continue _fun0006 }
 case 66:
+            var13 = var15;
+case 65:
             var5['renderIcon'] = var13;
             var5 = var7.bind(var4)(var6, var5);
             var1['header'] = var5;
@@ -917,10 +917,10 @@ case 66:
             var8 = 'always';
             var5['keyboardShouldPersistTaps'] = var8;
             var8 = 'radiogroup';
-            if(!var9) { _fun0006_ip = 68; continue _fun0006 }
-case 69:
-            var8 = 'none';
+            if(!var9) { _fun0006_ip = 67; continue _fun0006 }
 case 68:
+            var8 = 'none';
+case 67:
             var5['accessibilityRole'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

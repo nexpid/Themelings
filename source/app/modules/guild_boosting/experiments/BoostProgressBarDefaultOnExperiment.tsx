@@ -77,7 +77,7 @@ case 4:
         return var1;
     };
     var3['getIsBoostProgressBarEnabled'] = var4;
-    var2 = function useIsBoostProgressBarEnabled(arg1, arg2) {
+    var4 = function useIsBoostProgressBarEnabled(arg1, arg2) {
         var4 = arg1;
         var3 = _closure1_slot1;
         var5 = _closure1_slot0;
@@ -95,6 +95,23 @@ case 4:
         var1 = var3.bind(var1)(var4, var2);
         return var1;
     };
-    var3['useIsBoostProgressBarEnabled'] = var2;
+    var3['useIsBoostProgressBarEnabled'] = var4;
+    var2 = function isGuildDefaultedToOn(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = arg1;
+            var4 = _closure1_slot1;
+            var3 = undefined;
+            var1 = arg2;
+            var1 = var4.bind(var3)(var2, var1);
+            var2 = var2.premiumProgressBarEnabled;
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 4:
+            var1 = !var2;
+case 6:
+            return var1;
+        }
+    };
+    var3['isGuildDefaultedToOn'] = var2;
     return var1;
 })();

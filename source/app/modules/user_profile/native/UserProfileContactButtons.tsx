@@ -505,11 +505,10 @@ case 0:
             var1 = 21;
             var1 = var8[var1];
             var5 = var3.bind(var4)(var1);
-            var2 = var5.useIsEligibleForCombinedCallButton;
-            var1 = {};
-            var6 = 'UserProfileContactButtons';
-            var1['location'] = var6;
+            var2 = var5.useMobileWishlistOwnerExperiment;
+            var1 = 'UserProfileContactButtons';
             var1 = var2.bind(var5)(var1);
+            var1 = var1.enabled;
             var2 = _closure1_slot8;
             var10 = var2.bind(var4)();
             var2 = 13;

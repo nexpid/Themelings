@@ -484,7 +484,7 @@ case 67: // try_start_0
                     var11['include_wishlists'] = var14;
                     var5['query'] = var11;
                     var5 = var9.bind(var10)(var5);
-                    SaveGenerator(address=329);
+                    SaveGenerator(address=327);
 case 72:
                     return var5;
 case 73:
@@ -1034,21 +1034,33 @@ case 102:
             };
             var4 = var4.bind(var5)(var3);
             var3 = var4.catch;
-            var2 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 4;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.dispatch;
-                var2 = {};
-                var5 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE';
-                var2['type'] = var5;
-                var5 = _closure2_slot0;
-                var2['skuId'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
+            var2 = function(arg1) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var6 = arg1;
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 4;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE';
+                    var2['type'] = var5;
+                    var5 = _closure2_slot0;
+                    var2['skuId'] = var5;
+                    var5 = null;
+                    var7 = var5 == var6;
+                    var5 = undefined;
+                    if(var7) { _fun0007_ip = 13; continue _fun0007 }
+case 103:
+                    var5 = var6.status;
+case 13:
+                    var2['httpStatus'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                }
             };
             var2 = var3.bind(var4)(var2);
 case 97:

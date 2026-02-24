@@ -71,8 +71,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'borderWidth': 2, 'borderBottomWidth': 0, 'borderColor': null, 'borderBottomColor': 'transparent'};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
-    var14 = var14.unsafe_rawColors;
-    var14 = var14.BRAND_500;
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_BRAND;
     var10['borderColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['borderWidth'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.unsafe_rawColors;
-    var13 = var13.BRAND_500;
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_BRAND;
     var10['borderColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -291,7 +291,7 @@ case 8:
             var7['__workletHash'] = var5;
             var5 = _closure1_slot12;
             var7['__initData'] = var5;
-            var5 = function E(arg1, arg2) {
+            var5 = function f(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var4 = arg1;

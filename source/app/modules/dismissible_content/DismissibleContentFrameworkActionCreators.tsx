@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['handleDCShownToUser'] = var4;
-    var4 = function(arg1) {
+    var4 = function(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -53,6 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['type'] = var5;
         var5 = arg1;
         var2['dismissibleContent'] = var5;
+        var5 = arg2;
+        var2['guildId'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
@@ -106,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['overrideNewUserMinAgeRequired'] = var4;
-    var2 = function(arg1) {
+    var2 = function(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -119,6 +121,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['type'] = var5;
         var5 = arg1;
         var2['dismissibleContent'] = var5;
+        var5 = arg2;
+        var2['guildId'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };

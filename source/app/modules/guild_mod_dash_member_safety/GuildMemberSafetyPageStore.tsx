@@ -940,7 +940,7 @@ case 31:
 case 97:
                 var1 = var3._initialized;
                 if(!var1) { _fun0019_ip = 96; continue _fun0019 }
-case 98:
+case 56:
                 var2 = _closure1_slot8;
                 var1 = arg1;
                 var18 = var2.bind(var21)(var1);
@@ -961,27 +961,27 @@ case 98:
                 var5 = undefined;
                 var2 = false;
                 var1 = false;
-                if(var4) { _fun0019_ip = 99; continue _fun0019 }
-case 100:
+                if(var4) { _fun0019_ip = 98; continue _fun0019 }
+case 99:
                 var4 = var9.value;
                 var26 = var4.joinedAt;
                 var25 = var8;
                 var24 = var7;
-                if(!(var20 != var26)) { _fun0019_ip = 101; continue _fun0019 }
+                if(!(var20 != var26)) { _fun0019_ip = 100; continue _fun0019 }
 case 79:
                 var28 = var4;
-                if(!var23) { _fun0019_ip = 102; continue _fun0019 }
-case 103:
+                if(!var23) { _fun0019_ip = 101; continue _fun0019 }
+case 102:
                 var26 = {};
                 var32 = var26;
                 var31 = var4;
                 var27 = copyDataProperties(var32, var31);
                 var26[var10] = var11;
                 var28 = var26;
-case 102:
+case 101:
                 var26 = var28;
-                if(!var22) { _fun0019_ip = 104; continue _fun0019 }
-case 105:
+                if(!var22) { _fun0019_ip = 103; continue _fun0019 }
+case 104:
                 var29 = _closure1_slot0;
                 var27 = _closure1_slot1;
                 var27 = var27[var14];
@@ -1000,27 +1000,27 @@ case 105:
                 var28 = var3.lastRefreshTimestamp;
                 var27[var12] = var28;
                 var26 = var27;
-case 104:
+case 103:
                 var27 = var3._rawUpdateMember;
                 var4 = var4.userId;
                 var27 = var27.bind(var3)(var4, var26);
                 var4 = _closure1_slot2;
                 var4 = var4.bind(var21)(var27, var16);
                 var28 = var4[var15];
-                if(var28) { _fun0019_ip = 106; continue _fun0019 }
-case 107:
-                var28 = var8;
+                if(var28) { _fun0019_ip = 105; continue _fun0019 }
 case 106:
+                var28 = var8;
+case 105:
                 var27 = var4[var17];
-                if(var27) { _fun0019_ip = 108; continue _fun0019 }
-case 109:
-                var27 = var7;
+                if(var27) { _fun0019_ip = 107; continue _fun0019 }
 case 108:
+                var27 = var7;
+case 107:
                 var24 = var27;
                 var25 = var28;
                 var6 = var26;
                 var5 = var4;
-case 101:
+case 100:
                 var26 = var18.bind(var21)();
                 var4 = var26.done;
                 var8 = var25;
@@ -1028,13 +1028,13 @@ case 101:
                 var9 = var26;
                 var2 = var8;
                 var1 = var7;
-                if(!var4) { _fun0019_ip = 100; continue _fun0019 }
-case 99:
-                if(!var2) { _fun0019_ip = 110; continue _fun0019 }
-case 111:
+                if(!var4) { _fun0019_ip = 99; continue _fun0019 }
+case 98:
+                if(!var2) { _fun0019_ip = 109; continue _fun0019 }
+case 110:
                 var2 = var3.updatePaginationChunks;
                 var1 = var2.bind(var3)();
-case 110:
+case 109:
                 return var1;
 case 96:
                 var1 = false;
@@ -1052,10 +1052,10 @@ case 0:
                 var3 = this;
                 var1 = var3._members;
                 var15 = null;
-                if(!(var15 != var1)) { _fun0020_ip = 112; continue _fun0020 }
+                if(!(var15 != var1)) { _fun0020_ip = 111; continue _fun0020 }
 case 63:
                 var1 = var3._initialized;
-                if(!var1) { _fun0020_ip = 112; continue _fun0020 }
+                if(!var1) { _fun0020_ip = 111; continue _fun0020 }
 case 3:
                 var2 = _closure1_slot8;
                 var13 = undefined;
@@ -1072,7 +1072,7 @@ case 3:
                 var5 = undefined;
                 var2 = false;
                 var1 = false;
-                if(var4) { _fun0020_ip = 113; continue _fun0020 }
+                if(var4) { _fun0020_ip = 112; continue _fun0020 }
 case 49:
                 var4 = var8.value;
                 var19 = _closure1_slot5;
@@ -1083,8 +1083,8 @@ case 49:
                 var19 = var18.bind(var19)(var17, var16);
                 var17 = var7;
                 var16 = var6;
-                if(!(var15 != var19)) { _fun0020_ip = 114; continue _fun0020 }
-case 115:
+                if(!(var15 != var19)) { _fun0020_ip = 113; continue _fun0020 }
+case 114:
                 var18 = var3._rawUpdateMember;
                 var4 = var4.user;
                 var4 = var4.id;
@@ -1092,19 +1092,19 @@ case 115:
                 var4 = _closure1_slot2;
                 var4 = var4.bind(var13)(var18, var10);
                 var19 = var4[var9];
-                if(var19) { _fun0020_ip = 116; continue _fun0020 }
-case 117:
-                var19 = var7;
+                if(var19) { _fun0020_ip = 115; continue _fun0020 }
 case 116:
+                var19 = var7;
+case 115:
                 var18 = var4[var11];
-                if(var18) { _fun0020_ip = 118; continue _fun0020 }
-case 105:
+                if(var18) { _fun0020_ip = 117; continue _fun0020 }
+case 104:
                 var18 = var6;
-case 118:
+case 117:
                 var16 = var18;
                 var17 = var19;
                 var5 = var4;
-case 114:
+case 113:
                 var18 = var12.bind(var13)();
                 var4 = var18.done;
                 var7 = var17;
@@ -1113,14 +1113,14 @@ case 114:
                 var2 = var7;
                 var1 = var6;
                 if(!var4) { _fun0020_ip = 49; continue _fun0020 }
-case 113:
-                if(!var2) { _fun0020_ip = 119; continue _fun0020 }
-case 120:
+case 112:
+                if(!var2) { _fun0020_ip = 118; continue _fun0020 }
+case 119:
                 var2 = var3.updatePaginationChunks;
                 var1 = var2.bind(var3)();
-case 119:
+case 118:
                 return var1;
-case 112:
+case 111:
                 var1 = false;
                 return var1;
             }
@@ -1156,7 +1156,7 @@ case 0:
                         var3 = var4.bind(var5)(var3, var2);
                         var2 = null;
                         if(!(var2 != var3)) { _fun0022_ip = 61; continue _fun0022 }
-case 121:
+case 120:
                         var2 = var1.push;
                         var2 = var2.bind(var1)(var3);
 case 61:
@@ -1242,20 +1242,20 @@ case 0:
                         var2 = null;
                         var6 = var2 == var8;
                         var4 = undefined;
-                        if(var6) { _fun0023_ip = 122; continue _fun0023 }
+                        if(var6) { _fun0023_ip = 121; continue _fun0023 }
 case 72:
                         var6 = var8.isMemberIncludedInSearchResults;
                         var4 = var6.bind(var8)(var5);
-case 122:
+case 121:
                         var6 = var2 != var4;
-                        if(!var6) { _fun0023_ip = 123; continue _fun0023 }
+                        if(!var6) { _fun0023_ip = 122; continue _fun0023 }
 case 9:
                         var6 = var4;
-case 123:
+case 122:
                         var3 = _closure3_slot0;
                         var4 = var3._members;
                         if(!(var2 != var4)) { _fun0023_ip = 77; continue _fun0023 }
-case 124:
+case 123:
                         var3 = var4.updateMember;
                         var2 = {};
                         var2['sort'] = var7;
@@ -1302,7 +1302,7 @@ case 2:
 case 5:
                 var2 = var5 != var4;
 case 61:
-                if(!var2) { _fun0024_ip = 125; continue _fun0024 }
+                if(!var2) { _fun0024_ip = 124; continue _fun0024 }
 case 28:
                 var6 = var3.updatePaginationState;
                 var5 = {};
@@ -1320,7 +1320,7 @@ case 28:
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
-case 125:
+case 124:
                 var1 = undefined;
                 return var1;
             }
@@ -1338,14 +1338,14 @@ case 0:
                 var _closure3_slot0 = var5;
                 var2 = var5._search;
                 var3 = null;
-                if(!(var3 != var2)) { _fun0025_ip = 125; continue _fun0025 }
+                if(!(var3 != var2)) { _fun0025_ip = 124; continue _fun0025 }
 case 53:
                 var2 = var5._members;
-                if(!(var3 != var2)) { _fun0025_ip = 125; continue _fun0025 }
+                if(!(var3 != var2)) { _fun0025_ip = 124; continue _fun0025 }
 case 66:
                 var2 = var5._initialized;
-                if(!var2) { _fun0025_ip = 125; continue _fun0025 }
-case 121:
+                if(!var2) { _fun0025_ip = 124; continue _fun0025 }
+case 120:
                 var3 = var4.reduce;
                 var2 = function(arg1, arg2) {
                     _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
@@ -1359,7 +1359,7 @@ case 0:
                         var3 = var4.bind(var5)(var3, var2);
                         var2 = null;
                         if(!(var2 != var3)) { _fun0026_ip = 61; continue _fun0026 }
-case 121:
+case 120:
                         var2 = var1.push;
                         var2 = var2.bind(var1)(var3);
 case 61:
@@ -1376,7 +1376,7 @@ case 61:
                 var1 = var1 !== var6;
                 var1 = var3.bind(var5)(var4, var2, var1);
                 return var1;
-case 125:
+case 124:
                 var1 = false;
                 return var1;
             }
@@ -1463,14 +1463,14 @@ case 0:
                 var3 = this;
                 var1 = var3._search;
                 var2 = null;
-                if(!(var2 != var1)) { _fun0029_ip = 126; continue _fun0029 }
+                if(!(var2 != var1)) { _fun0029_ip = 125; continue _fun0029 }
 case 63:
                 var1 = var3._members;
-                if(!(var2 != var1)) { _fun0029_ip = 126; continue _fun0029 }
+                if(!(var2 != var1)) { _fun0029_ip = 125; continue _fun0029 }
 case 50:
                 var1 = var3._initialized;
-                if(!var1) { _fun0029_ip = 126; continue _fun0029 }
-case 121:
+                if(!var1) { _fun0029_ip = 125; continue _fun0029 }
+case 120:
                 var1 = global;
                 var2 = var1.Number;
                 var4 = var1.Date;
@@ -1504,8 +1504,8 @@ case 121:
                 var8 = var2;
                 var7 = false;
                 var2 = false;
-                if(var6) { _fun0029_ip = 127; continue _fun0029 }
-case 128:
+                if(var6) { _fun0029_ip = 126; continue _fun0029 }
+case 127:
                 var14 = var8.value;
                 var13 = var3._members;
                 var12 = var13.updateMember;
@@ -1518,26 +1518,26 @@ case 128:
                 var15 = var16.bind(var17)(var15);
                 var6['user'] = var15;
                 var12 = var12.bind(var13)(var14, var6);
-                if(var12) { _fun0029_ip = 104; continue _fun0029 }
-case 129:
+                if(var12) { _fun0029_ip = 103; continue _fun0029 }
+case 128:
                 var12 = var7;
-case 104:
+case 103:
                 var13 = var10.bind(var9)();
                 var6 = var13.done;
                 var7 = var12;
                 var8 = var13;
                 var2 = var7;
-                if(!var6) { _fun0029_ip = 128; continue _fun0029 }
-case 127:
+                if(!var6) { _fun0029_ip = 127; continue _fun0029 }
+case 126:
                 var7 = var3._members;
                 var6 = var7.resetNewMemberTimestamp;
                 var6 = var6.bind(var7)();
                 var6 = var3.resetSearchState;
                 var6 = var6.bind(var3)();
-                if(!var6) { _fun0029_ip = 130; continue _fun0029 }
-case 131:
-                var2 = false;
+                if(!var6) { _fun0029_ip = 129; continue _fun0029 }
 case 130:
+                var2 = false;
+case 129:
                 var8 = var3.updatePaginationState;
                 var7 = {};
                 var6 = 1;
@@ -1549,17 +1549,17 @@ case 130:
                 var7 = 0;
                 var7 = var5[var7];
                 var5 = var5[var6];
-                if(!var5) { _fun0029_ip = 110; continue _fun0029 }
-case 132:
+                if(!var5) { _fun0029_ip = 109; continue _fun0029 }
+case 131:
                 var2 = false;
-case 110:
-                if(!var2) { _fun0029_ip = 133; continue _fun0029 }
-case 134:
+case 109:
+                if(!var2) { _fun0029_ip = 132; continue _fun0029 }
+case 133:
                 var2 = var3.updatePaginationChunks;
                 var2 = var2.bind(var3)();
-case 133:
+case 132:
                 return var1;
-case 126:
+case 125:
                 var1 = false;
                 return var1;
             }
@@ -1577,15 +1577,15 @@ case 0:
                 var1 = null;
                 var3 = var1 != var3;
                 var1 = 0;
-                if(!var3) { _fun0030_ip = 121; continue _fun0030 }
+                if(!var3) { _fun0030_ip = 120; continue _fun0030 }
 case 29:
                 var3 = var2._initialized;
                 var1 = 0;
-                if(!var3) { _fun0030_ip = 121; continue _fun0030 }
+                if(!var3) { _fun0030_ip = 120; continue _fun0030 }
 case 50:
                 var2 = var2._members;
                 var1 = var2.newMemberTimestamp;
-case 121:
+case 120:
                 return var1;
             }
         };
@@ -1601,13 +1601,13 @@ case 0:
                 var2 = this;
                 var1 = var2._members;
                 var3 = null;
-                if(!(var3 != var1)) { _fun0031_ip = 135; continue _fun0031 }
+                if(!(var3 != var1)) { _fun0031_ip = 134; continue _fun0031 }
 case 58:
                 var1 = var2._search;
-                if(!(var3 != var1)) { _fun0031_ip = 135; continue _fun0031 }
+                if(!(var3 != var1)) { _fun0031_ip = 134; continue _fun0031 }
 case 66:
                 var1 = var2._initialized;
-                if(!var1) { _fun0031_ip = 135; continue _fun0031 }
+                if(!var1) { _fun0031_ip = 134; continue _fun0031 }
 case 2:
                 var1 = global;
                 var5 = var1.Boolean;
@@ -1617,7 +1617,7 @@ case 2:
                 var6 = var5.bind(var11)(var1);
                 var1 = var4.selectedSort;
                 var1 = var3 != var1;
-                if(!var1) { _fun0031_ip = 136; continue _fun0031 }
+                if(!var1) { _fun0031_ip = 135; continue _fun0031 }
 case 9:
                 var5 = var4.selectedSort;
                 var7 = var2._search;
@@ -1625,22 +1625,22 @@ case 9:
                 var3 = var3.bind(var7)();
                 var3 = var3.selectedSort;
                 var1 = var5 !== var3;
-case 136:
-                if(!var1) { _fun0031_ip = 137; continue _fun0031 }
-case 138:
+case 135:
+                if(!var1) { _fun0031_ip = 136; continue _fun0031 }
+case 137:
                 var3 = var2.sortMembersBySelectedSort;
                 var1 = var4.selectedSort;
                 var1 = var3.bind(var2)(var1);
-case 137:
+case 136:
                 var3 = var2._search;
                 var1 = var3.updateSearchState;
                 var1 = var1.bind(var3)(var4);
                 var3 = var2._search;
                 var3 = var3.hasDefaultQuery;
-                if(!var3) { _fun0031_ip = 105; continue _fun0031 }
-case 102:
-                if(var6) { _fun0031_ip = 139; continue _fun0031 }
-case 105:
+                if(!var3) { _fun0031_ip = 104; continue _fun0031 }
+case 101:
+                if(var6) { _fun0031_ip = 138; continue _fun0031 }
+case 104:
                 var10 = _closure1_slot0;
                 var12 = _closure1_slot1;
                 var4 = 10;
@@ -1668,13 +1668,13 @@ case 105:
                 var6 = undefined;
                 var1 = var9;
                 var4 = var7;
-                if(var5) { _fun0031_ip = 140; continue _fun0031 }
-case 109:
+                if(var5) { _fun0031_ip = 139; continue _fun0031 }
+case 108:
                 var17 = var8.value;
                 var5 = var17.isCurrentGuildMemberByTimestamp;
                 var13 = var9;
                 var12 = var7;
-                if(!var5) { _fun0031_ip = 141; continue _fun0031 }
+                if(!var5) { _fun0031_ip = 140; continue _fun0031 }
 case 8:
                 var14 = var2._search;
                 var5 = var14.isMemberIncludedInSearchResults;
@@ -1683,8 +1683,8 @@ case 8:
                 var13 = var9;
                 var12 = var7;
                 var6 = var5;
-                if(!(var5 !== var14)) { _fun0031_ip = 141; continue _fun0031 }
-case 132:
+                if(!(var5 !== var14)) { _fun0031_ip = 140; continue _fun0031 }
+case 131:
                 var16 = var2._members;
                 var15 = var16.updateMember;
                 var14 = {};
@@ -1693,7 +1693,7 @@ case 132:
                 var13 = true;
                 var12 = true;
                 var6 = var5;
-case 141:
+case 140:
                 var14 = var10.bind(var11)();
                 var5 = var14.done;
                 var9 = var13;
@@ -1701,10 +1701,10 @@ case 141:
                 var8 = var14;
                 var1 = var9;
                 var4 = var7;
-                if(!var5) { _fun0031_ip = 109; continue _fun0031 }
-case 140:
-                if(!var4) { _fun0031_ip = 142; continue _fun0031 }
-case 143:
+                if(!var5) { _fun0031_ip = 108; continue _fun0031 }
+case 139:
+                if(!var4) { _fun0031_ip = 141; continue _fun0031 }
+case 142:
                 var4 = var2.updatePaginationChunks;
                 var4 = var4.bind(var2)();
                 var5 = var2.updatePaginationState;
@@ -1713,13 +1713,13 @@ case 143:
                 var4['currentPage'] = var6;
                 var4 = var5.bind(var2)(var4);
                 var1 = true;
-case 142:
+case 141:
                 return var1;
-case 139:
+case 138:
                 var1 = var2.updatePaginationChunks;
                 var1 = var1.bind(var2)();
                 return var1;
-case 135:
+case 134:
                 var1 = false;
                 return var1;
             }
@@ -1748,12 +1748,12 @@ case 53:
                 var3 = var4.bind(var1)(var3);
                 var1 = var3.getDefaultSearchState;
                 var1 = var1.bind(var3)();
-                _fun0032_ip = 144; continue _fun0032;
+                _fun0032_ip = 143; continue _fun0032;
 case 7:
                 var3 = var2._search;
                 var2 = var3.getSearchState;
                 var1 = var2.bind(var3)();
-case 144:
+case 143:
                 return var1;
             }
         };
@@ -1774,11 +1774,11 @@ case 63:
                 var3 = var2._initialized;
                 var1 = !var3;
 case 68:
-                if(var1) { _fun0033_ip = 145; continue _fun0033 }
+                if(var1) { _fun0033_ip = 144; continue _fun0033 }
 case 3:
                 var2 = var2._search;
                 var1 = var2.hasDefaultQuery;
-case 145:
+case 144:
                 return var1;
             }
         };
@@ -1800,7 +1800,7 @@ case 63:
                 var2 = !var1;
 case 68:
                 var1 = !var2;
-                if(var2) { _fun0034_ip = 146; continue _fun0034 }
+                if(var2) { _fun0034_ip = 145; continue _fun0034 }
 case 33:
                 var3 = var4._search;
                 var2 = var3.resetSearchState;
@@ -1813,7 +1813,7 @@ case 83:
                 var2 = var3.bind(var4)();
 case 72:
                 var1 = var2;
-case 146:
+case 145:
                 return var1;
             }
         };
@@ -1843,19 +1843,19 @@ case 44:
 case 2:
                 var2 = var3._search;
                 var2 = var2.hasDefaultQuery;
-                if(!var2) { _fun0035_ip = 146; continue _fun0035 }
+                if(!var2) { _fun0035_ip = 145; continue _fun0035 }
 case 7:
                 var2 = var3._defaultSearchTotalResultsCount;
                 if(!(var4 == var2)) { _fun0035_ip = 89; continue _fun0035 }
-case 146:
+case 145:
                 var4 = var3._pagination;
                 var2 = var4.getPaginationState;
                 var2 = var2.bind(var4)();
                 var2 = var2.totalResultsCount;
-                _fun0035_ip = 147; continue _fun0035;
+                _fun0035_ip = 146; continue _fun0035;
 case 89:
                 var2 = var3._defaultSearchTotalResultsCount;
-case 147:
+case 146:
                 var1 = var2;
 case 91:
                 return var1;
@@ -1880,19 +1880,19 @@ case 95:
                 var1 = var2._search;
                 var6 = null;
                 if(!(var6 != var1)) { _fun0036_ip = 70; continue _fun0036 }
-case 148:
+case 147:
                 var1 = var2._pagination;
                 if(!(var6 != var1)) { _fun0036_ip = 70; continue _fun0036 }
-case 149:
+case 148:
                 var1 = var2._initialized;
-                if(var1) { _fun0036_ip = 150; continue _fun0036 }
+                if(var1) { _fun0036_ip = 149; continue _fun0036 }
 case 70:
                 var1 = new Array(2);
                 var5 = false;
                 var1[0] = var5;
                 var1[1] = var5;
-                _fun0036_ip = 151; continue _fun0036;
-case 150:
+                _fun0036_ip = 150; continue _fun0036;
+case 149:
                 if(!var3) { _fun0036_ip = 47; continue _fun0036 }
 case 30:
                 var3 = 0;
@@ -1900,20 +1900,20 @@ case 30:
 case 47:
                 var3 = var2._search;
                 var3 = var3.hasDefaultQuery;
-                if(!var3) { _fun0036_ip = 152; continue _fun0036 }
+                if(!var3) { _fun0036_ip = 151; continue _fun0036 }
 case 55:
                 var5 = var4.totalResultsCount;
                 var3 = var6 != var5;
-case 152:
-                if(!var3) { _fun0036_ip = 153; continue _fun0036 }
-case 124:
+case 151:
+                if(!var3) { _fun0036_ip = 152; continue _fun0036 }
+case 123:
                 var3 = var4.totalResultsCount;
                 var2['_defaultSearchTotalResultsCount'] = var3;
-case 153:
+case 152:
                 var3 = var2._pagination;
                 var2 = var3.updatePaginationState;
                 var1 = var2.bind(var3)(var4);
-case 151:
+case 150:
                 return var1;
             }
         };
@@ -1961,12 +1961,12 @@ case 53:
                 var3 = var4.bind(var1)(var3);
                 var1 = var3.createDefaultMemberSafetyPaginationState;
                 var1 = var1.bind(var3)();
-                _fun0038_ip = 144; continue _fun0038;
+                _fun0038_ip = 143; continue _fun0038;
 case 7:
                 var3 = var2._pagination;
                 var2 = var3.getPaginationState;
                 var1 = var2.bind(var3)();
-case 144:
+case 143:
                 return var1;
             }
         };
@@ -1984,7 +1984,7 @@ case 0:
                 if(!(var1 != var2)) { _fun0039_ip = 53; continue _fun0039 }
 case 37:
                 var1 = var3._initialized;
-                if(var1) { _fun0039_ip = 145; continue _fun0039 }
+                if(var1) { _fun0039_ip = 144; continue _fun0039 }
 case 53:
                 var1 = new Array(2);
                 var2 = {};
@@ -1992,7 +1992,7 @@ case 53:
                 var2 = 0;
                 var1[1] = var2;
                 _fun0039_ip = 49; continue _fun0039;
-case 145:
+case 144:
                 var2 = var3._pagination;
                 var4 = var2.paginatedMembers;
                 var2 = new Array(2);

@@ -973,73 +973,88 @@ case 0:
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                 if(var2) { _fun0010_ip = 86; continue _fun0010 }
 case 11:
-                var3 = undefined;
                 var4 = undefined;
-case 87: // try_start_0
+                var6 = undefined;
+                var5 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var3 = 16;
+                var3 = var7[var3];
+                var5 = var5.bind(var4)(var3);
+                var3 = var5.isQuestRelease;
+                var3 = var3.bind(var5)();
+                if(var3) { _fun0010_ip = 87; continue _fun0010 }
+case 33: // try_start_0
                 var5 = _closure1_slot13;
-                var2 = var5.getUserCountry;
-                var2 = var2.bind(var5)();
-                SaveGenerator(address=35);
-case 88:
-                return var2;
-case 89:
-                ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                if(var5) { _fun0010_ip = 90; continue _fun0010 }
-case 91: // try_end0
-                return var2;
-case 90:
-                return var2;
-case 92: // catch_target0
+                var3 = var5.getUserCountry;
+                var3 = var3.bind(var5)();
+                SaveGenerator(address=71);
+case 49:
+                return var3;
+case 52:
+                ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                if(var5) { _fun0010_ip = 6; continue _fun0010 }
+case 88: // try_end0
+                return var3;
+case 6:
+                return var3;
+case 2: // catch_target0
                 CatchBlockStart(arg_register=4);
-                var7 = var5;
-                var2 = null;
-                var6 = var2 == var5;
+                var8 = var5;
+                var3 = null;
+                var7 = var3 == var5;
                 var5 = undefined;
-                if(var6) { _fun0010_ip = 93; continue _fun0010 }
-case 47:
+                if(var7) { _fun0010_ip = 39; continue _fun0010 }
+case 89:
+                var7 = var8;
+                var7 = var7.message;
                 var6 = var7;
-                var6 = var6.message;
-                var4 = var6;
-                var6 = var2 == var6;
+                var7 = var3 == var7;
                 var5 = undefined;
-                if(var6) { _fun0010_ip = 93; continue _fun0010 }
-case 2:
-                var8 = var4;
-                var6 = var8.includes;
-                var4 = 'max attempts exceeded';
-                var5 = var6.bind(var8)(var4);
-case 93:
-                if(var5) { _fun0010_ip = 94; continue _fun0010 }
-case 95:
+                if(var7) { _fun0010_ip = 39; continue _fun0010 }
+case 90:
+                var9 = var6;
+                var7 = var9.includes;
+                var6 = 'max attempts exceeded';
+                var5 = var7.bind(var9)(var6);
+case 39:
+                if(var5) { _fun0010_ip = 91; continue _fun0010 }
+case 92:
                 var6 = _closure1_slot0;
-                var8 = _closure1_slot2;
+                var7 = _closure1_slot2;
                 var5 = 11;
-                var5 = var8[var5];
-                var9 = var6.bind(var3)(var5);
-                var8 = var9.captureBillingException;
-                var6 = var7;
+                var5 = var7[var5];
+                var9 = var6.bind(var4)(var5);
+                var7 = var9.captureBillingException;
+                var6 = var8;
                 var5 = {};
                 var10 = {};
                 var11 = 'getUserCountry';
                 var10['source'] = var11;
                 var5['tags'] = var10;
-                var5 = var8.bind(var9)(var6, var5);
-                _fun0010_ip = 96; continue _fun0010;
+                var5 = var7.bind(var9)(var6, var5);
+                _fun0010_ip = 93; continue _fun0010;
+case 91:
+                var7 = _closure1_slot14;
+                var6 = var7.warn;
+                var5 = {};
+                var9 = var8;
+                var9 = var3 == var9;
+                var4 = undefined;
+                if(var9) { _fun0010_ip = 94; continue _fun0010 }
+case 95:
+                var4 = var8.message;
 case 94:
-                var6 = _closure1_slot14;
-                var5 = var6.warn;
-                var4 = {};
-                var8 = var7;
-                var8 = var2 == var8;
-                var3 = undefined;
-                if(var8) { _fun0010_ip = 97; continue _fun0010 }
-case 98:
-                var3 = var7.message;
-case 97:
-                var4['error'] = var3;
-                var3 = '[getUserCountry] Failed to get user country from Google Play Billing';
-                var3 = var5.bind(var6)(var3, var4);
-case 96:
+                var5['error'] = var4;
+                var4 = '[getUserCountry] Failed to get user country from Google Play Billing';
+                var4 = var6.bind(var7)(var4, var5);
+case 93:
+                return var3;
+case 87:
+                var4 = _closure1_slot14;
+                var3 = var4.info;
+                var2 = '[getUserCountry] Quest: Skipping Google Play country lookup';
+                var2 = var3.bind(var4)(var2);
+                var2 = null;
                 return var2;
 case 86:
                 return var1;
@@ -1050,7 +1065,7 @@ case 86:
     var2 = var15.bind(var1)(var2);
     var2 = var14.bind(var1)(var2, var11);
     var _closure1_slot17 = var2;
-    var11 = 16;
+    var11 = 17;
     var11 = var13[var11];
     var13 = var12.bind(var1)(var11);
     var12 = var13.fileFinishedImporting;
@@ -1084,8 +1099,8 @@ case 0:
             var3 = var1.productId;
             var7 = var4[var3];
             var3 = null;
-            if(!(var3 != var7)) { _fun0011_ip = 99; continue _fun0011 }
-case 100:
+            if(!(var3 != var7)) { _fun0011_ip = 96; continue _fun0011 }
+case 97:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 14;
@@ -1099,7 +1114,7 @@ case 100:
             var2 = _closure1_slot4;
             var1 = var1.productId;
             var1 = var2.bind(var3)(var1);
-case 99:
+case 96:
             var1 = undefined;
             return var1;
         }
@@ -1123,9 +1138,9 @@ case 0:
             var1 = 1;
             var3 = var3[var1];
             var4 = null;
-            if(!(var4 != var3)) { _fun0012_ip = 101; continue _fun0012 }
+            if(!(var4 != var3)) { _fun0012_ip = 98; continue _fun0012 }
 case 49:
-            if(!(var4 != var6)) { _fun0012_ip = 101; continue _fun0012 }
+            if(!(var4 != var6)) { _fun0012_ip = 98; continue _fun0012 }
 case 17:
             if(!(var4 != var3)) { _fun0012_ip = 71; continue _fun0012 }
 case 6:
@@ -1133,10 +1148,10 @@ case 6:
 case 54:
             var1 = var3.billingPeriod;
             if(!(var4 != var1)) { _fun0012_ip = 71; continue _fun0012 }
-case 102:
+case 99:
             var1 = var6.billingPeriod;
             if(!(var4 != var1)) { _fun0012_ip = 71; continue _fun0012 }
-case 103:
+case 100:
             var5 = var6.price;
             var7 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -1150,7 +1165,7 @@ case 103:
             var4 = var8.bind(var9)(var7, var4);
             var4 = var5 / var4;
             var3 = var3.price;
-            if(!(!(var3 < var4))) { _fun0012_ip = 104; continue _fun0012 }
+            if(!(!(var3 < var4))) { _fun0012_ip = 101; continue _fun0012 }
 case 71:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -1171,10 +1186,10 @@ case 71:
             var5['newSubscriptionSkuId'] = var6;
             var2['pendingDowngrade'] = var5;
             var2 = var3.bind(var4)(var2);
-case 101:
+case 98:
             var2 = undefined;
             return var2;
-case 104:
+case 101:
             return var1;
         }
     };

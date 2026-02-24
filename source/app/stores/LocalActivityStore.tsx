@@ -264,10 +264,9 @@ case 36:
 case 38:
             if(!(var6 != var4)) { _fun0002_ip = 33; continue _fun0002 }
 case 37:
-            var7 = _closure1_slot18;
-            var5 = var7.getGameByName;
-            var4 = var10.name;
-            var11 = var5.bind(var7)(var4);
+            var5 = _closure1_slot18;
+            var4 = var5.findGame;
+            var11 = var4.bind(var5)(var10);
             var5 = var3.push;
             var4 = {};
             var7 = _closure1_slot24;

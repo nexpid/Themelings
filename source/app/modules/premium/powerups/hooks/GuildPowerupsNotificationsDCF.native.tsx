@@ -119,7 +119,7 @@ case 8:
         }
     };
     var3['useGuildPowerupNotificationDCF'] = var4;
-    var2 = function useBoostToUnlockCoachmarkDCF() {
+    var4 = function useBoostToUnlockCoachmarkDCF() {
         var1 = [null];
         var2 = function() {
             var1 = undefined;
@@ -128,6 +128,16 @@ case 8:
         var1[1] = var2;
         return var1;
     };
-    var3['useBoostToUnlockCoachmarkDCF'] = var2;
+    var3['useBoostToUnlockCoachmarkDCF'] = var4;
+    var2 = function useExpiringPowerupCoachmarkDCF() {
+        var1 = [null];
+        var2 = function() {
+            var1 = undefined;
+            return var1;
+        };
+        var1[1] = var2;
+        return var1;
+    };
+    var3['useExpiringPowerupCoachmarkDCF'] = var2;
     return var1;
 })();

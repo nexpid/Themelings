@@ -40,11 +40,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.useYouBarHorizontalMargin;
     var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot9 = var4;
     var5 = var8.createContext;
     var4 = {};
-    var9 = 5;
+    var9 = 6;
     var12 = var7[var9];
     var14 = var6.bind(var1)(var12);
     var13 = var14.createFakeSharedValue;
@@ -69,25 +74,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.bind(var10)(var11);
     var4['minExpandedContentHeight'] = var9;
     var4 = var5.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var5 = var8.memo;
     var2 = function QuestDockGestureContextProviderInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var6 = _closure1_slot3;
             var7 = var6.useMemo;
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var3 = 6;
-            var3 = var12[var3];
+            var15 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var3 = 7;
+            var3 = var14[var3];
             var4 = undefined;
-            var3 = var11.bind(var4)(var3);
+            var3 = var15.bind(var4)(var3);
             var5 = var3.getWindowDimensions;
             var3 = new Array(0);
-            var13 = var7.bind(var6)(var5, var3);
-            var3 = 7;
-            var3 = var12[var3];
-            var7 = var11.bind(var4)(var3);
+            var11 = var7.bind(var6)(var5, var3);
+            var3 = 8;
+            var3 = var14[var3];
+            var7 = var15.bind(var4)(var3);
             var5 = var7.useMainTabsHeight;
             var3 = {'enabled': true, 'ignoreQuestDock': true};
             var3 = var5.bind(var7)(var3);
@@ -95,71 +100,98 @@ case 0:
             var5 = var6.useRef;
             var5 = var5.bind(var6)(var3);
             var _closure2_slot1 = var5;
-            var7 = 8;
-            var5 = var12[var7];
-            var8 = var11.bind(var4)(var5);
+            var7 = 9;
+            var5 = var14[var7];
+            var8 = var15.bind(var4)(var5);
             var6 = var8.useSharedValue;
             var5 = {};
-            var9 = var13.width;
+            var9 = var11.width;
             var5['width'] = var9;
-            var9 = var13.height;
+            var9 = var11.height;
             var5['height'] = var9;
-            var10 = var13.width;
-            var9 = var13.height;
+            var10 = var11.width;
+            var9 = var11.height;
             var9 = var10 > var9;
             var5['landscape'] = var9;
-            var9 = var13.height;
+            var9 = var11.height;
             var9 = var9 - var3;
             var5['maxContentHeight'] = var9;
             var10 = var6.bind(var8)(var5);
             var _closure2_slot2 = var10;
-            var5 = var12[var7];
-            var9 = var11.bind(var4)(var5);
-            var8 = var9.useSharedValue;
-            var6 = {};
-            var5 = 9;
-            var14 = var12[var5];
-            var17 = var11.bind(var4)(var14);
-            var16 = var17.getQuestDockCollapsedWidth;
-            var15 = var13.width;
-            var13 = 10;
-            var14 = var12[var13];
-            var18 = var11.bind(var4)(var14);
-            var14 = var18.getSafeAreaInsets;
-            var14 = var14.bind(var18)();
-            var14 = var14.left;
-            var13 = var12[var13];
-            var18 = var11.bind(var4)(var13);
-            var13 = var18.getSafeAreaInsets;
-            var13 = var13.bind(var18)();
-            var13 = var13.right;
-            var13 = var16.bind(var17)(var15, var14, var13);
-            var6['width'] = var13;
-            var14 = _closure1_slot6;
-            var6['height'] = var14;
-            var13 = 0;
-            var6['x'] = var13;
-            var6['y'] = var14;
-            var6['prevDeltaY'] = var13;
-            var9 = var8.bind(var9)(var6);
+            var5 = 10;
+            var5 = var14[var5];
+            var8 = var15.bind(var4)(var5);
+            var6 = var8.useYouBarEnabled;
+            var5 = 'QuestDockGestureContext';
+            var13 = var6.bind(var8)(var5);
+            var5 = _closure1_slot8;
+            var9 = var5.bind(var4)();
+            var5 = var14[var7];
+            var8 = var15.bind(var4)(var5);
+            var6 = var8.useSharedValue;
+            var5 = {};
+            var12 = 11;
+            var14 = var14[var12];
+            var16 = var15.bind(var4)(var14);
+            var15 = var16.getQuestDockCollapsedWidth;
+            var14 = var11.width;
+            var11 = var9;
+            if(var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var17 = 12;
+            var17 = var19[var17];
+            var18 = var18.bind(var4)(var17);
+            var17 = var18.getSafeAreaInsets;
+            var17 = var17.bind(var18)();
+            var11 = var17.left;
+case 2:
+            if(var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var17 = 12;
+            var17 = var19[var17];
+            var18 = var18.bind(var4)(var17);
+            var17 = var18.getSafeAreaInsets;
+            var17 = var17.bind(var18)();
+            var9 = var17.right;
+case 4:
+            var9 = var15.bind(var16)(var14, var11, var9);
+            var5['width'] = var9;
+            var9 = _closure1_slot6;
+            var5['height'] = var9;
+            var9 = 0;
+            var5['x'] = var9;
+            var11 = -8;
+            if(var13) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var11 = _closure1_slot6;
+case 6:
+            var5['y'] = var11;
+            var5['prevDeltaY'] = var9;
+            var9 = var6.bind(var8)(var5);
             var _closure2_slot3 = var9;
-            var6 = var12[var7];
+            var11 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var6 = var5[var7];
             var8 = var11.bind(var4)(var6);
             var6 = var8.useSharedValue;
-            var5 = var12[var5];
+            var5 = var5[var12];
             var12 = var11.bind(var4)(var5);
             var11 = var12.isSoftDismissed;
             var5 = _closure1_slot4;
             var5 = var5.questDockSoftDismissedAt;
             var5 = var11.bind(var12)(var5);
             var11 = _closure1_slot5;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var11.COLLAPSED;
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var5 = var11.SOFT_DISMISSED;
-case 4:
+case 10:
             var8 = var6.bind(var8)(var5);
             var _closure2_slot4 = var8;
             var6 = _closure1_slot0;
@@ -188,7 +220,7 @@ case 4:
             var3 = function() {
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 11;
+                var1 = 13;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -234,8 +266,8 @@ case 4:
                 return var1;
             };
             var5 = var5.bind(var6)(var2, var3);
-            var3 = _closure1_slot8;
-            var1 = _closure1_slot9;
+            var3 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var2 = var1.Provider;
             var1 = {};
             var1['value'] = var5;
@@ -247,7 +279,7 @@ case 4:
         }
     };
     var2 = var5.bind(var8)(var2);
-    var5 = 12;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

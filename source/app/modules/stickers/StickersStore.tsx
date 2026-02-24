@@ -54,17 +54,17 @@ case 4:
     var2['value'] = var1;
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var2);
-    var11 = 0;
-    var2 = var6[var11];
+    var10 = 0;
+    var2 = var6[var10];
     var1 = undefined;
     var2 = var7.bind(var1)(var2);
     var _closure1_slot3 = var2;
-    var10 = 1;
-    var2 = var6[var10];
+    var9 = 1;
+    var2 = var6[var9];
     var2 = var7.bind(var1)(var2);
     var _closure1_slot4 = var2;
-    var9 = 2;
-    var2 = var6[var9];
+    var2 = 2;
+    var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var _closure1_slot5 = var2;
     var2 = 3;
@@ -96,11 +96,8 @@ case 4:
     var2 = var7.bind(var1)(var2);
     var _closure1_slot12 = var2;
     var2 = {};
-    var2['Unloaded'] = var11;
+    var2['Unloaded'] = var10;
     var8 = 'Unloaded';
-    var2[var11] = var8;
-    var2['MaybeLoaded'] = var10;
-    var8 = 'MaybeLoaded';
     var2[var10] = var8;
     var2['Loaded'] = var9;
     var8 = 'Loaded';
@@ -474,7 +471,7 @@ case 19:
     var8['displayName'] = var2;
     var2 = 14;
     var2 = var6[var2];
-    var14 = var7.bind(var1)(var2);
+    var13 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function BACKGROUND_SYNC() {
         var1 = _closure1_slot13;
@@ -489,64 +486,36 @@ case 19:
 case 0:
             var1 = arg1;
             var3 = var1.guilds;
+            var1 = var1.unavailableGuilds;
+            var2 = var1.length;
+            var1 = 0;
+            if(!(var1 === var2)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var2 = var3.every;
             var1 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.stickers;
-                var2 = var1.items;
-                var1 = null;
-                var1 = var1 != var2;
+                var2 = var1.op;
+                var1 = 'full_sync';
+                var1 = var1 === var2;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-            var3 = _closure1_slot13;
-            if(var1) { _fun0005_ip = 21; continue _fun0005 }
-case 20:
-            var1 = var3.Unloaded;
-            _fun0005_ip = 17; continue _fun0005;
+            if(var1) { _fun0005_ip = 23; continue _fun0005 }
 case 21:
-            var1 = var3.MaybeLoaded;
-case 17:
-            _closure1_slot14 = var1;
+            var1 = _closure1_slot13;
+            var2 = var1.Unloaded;
+            _fun0005_ip = 24; continue _fun0005;
+case 23:
+            var1 = _closure1_slot13;
+            var2 = var1.Loaded;
+case 24:
+            _closure1_slot14 = var2;
             var1 = undefined;
             return var1;
         }
     };
     var2['CONNECTION_OPEN'] = var9;
-    var9 = function handleGuildCreate(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.guild;
-            var4 = _closure1_slot14;
-            var1 = _closure1_slot13;
-            var1 = var1.MaybeLoaded;
-            var1 = var4 === var1;
-            if(!var1) { _fun0006_ip = 17; continue _fun0006 }
-case 22:
-            var4 = var3.stickers;
-            var5 = var4.op;
-            var4 = 'update';
-            var1 = var4 === var5;
-case 17:
-            if(!var1) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
-            var3 = var3.stickers;
-            var4 = var3.items;
-            var3 = null;
-            var1 = var3 == var4;
-case 23:
-            if(!var1) { _fun0006_ip = 25; continue _fun0006 }
-case 4:
-            var1 = _closure1_slot13;
-            var1 = var1.Unloaded;
-            _closure1_slot14 = var1;
-case 25:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var2['GUILD_CREATE'] = var9;
     var4 = function LOGOUT() {
         var1 = _closure1_slot13;
         var1 = var1.Unloaded;
@@ -557,9 +526,9 @@ case 25:
     var2['LOGOUT'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
-    var15 = var4;
-    var13 = var2;
-    var2 = new var15[var8](var14, var13, var12);
+    var14 = var4;
+    var12 = var2;
+    var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 16;
     var4 = var6[var4];

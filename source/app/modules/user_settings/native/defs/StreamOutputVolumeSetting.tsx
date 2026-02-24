@@ -93,7 +93,7 @@ case 11:
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var9 = var2.MobileSetting;
-    var2 = 8;
+    var2 = 9;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createVolumeSlider;
@@ -101,7 +101,7 @@ case 11:
     var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 9;
+        var1 = 10;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -199,39 +199,56 @@ case 14:
     };
     var2['onValueChange'] = var9;
     var9 = function useHasStreamVolumeSetting() {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot2;
-        var2 = 4;
-        var3 = var3[var2];
-        var2 = undefined;
-        var4 = var4.bind(var2)(var3);
-        var3 = var4.useStateFromStores;
-        var5 = _closure1_slot3;
-        var2 = new Array(2);
-        var2[0] = var5;
-        var1 = _closure1_slot4;
-        var2[1] = var1;
-        var1 = function() {
-            var3 = _closure1_slot6;
-            var4 = _closure1_slot3;
-            var2 = new Array(2);
-            var2[0] = var4;
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 8;
+            var2 = var6[var2];
+            var5 = undefined;
+            var4 = var3.bind(var5)(var2);
+            var3 = var4.getConfig;
+            var2 = {};
+            var7 = 'StreamOutputVolumeSetting';
+            var2['location'] = var7;
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.audioOutputPresent;
+            var4 = _closure1_slot0;
+            var3 = 4;
+            var3 = var6[var3];
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.useStateFromStores;
+            var6 = _closure1_slot3;
+            var3 = new Array(2);
+            var3[0] = var6;
             var1 = _closure1_slot4;
-            var2[1] = var1;
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            var1 = null;
-            var1 = var1 != var2;
+            var3[1] = var1;
+            var1 = function() {
+                var3 = _closure1_slot6;
+                var4 = _closure1_slot3;
+                var2 = new Array(2);
+                var2[0] = var4;
+                var1 = _closure1_slot4;
+                var2[1] = var1;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = null;
+                var1 = var1 != var2;
+                return var1;
+            };
+            var1 = var4.bind(var5)(var3, var1);
+            if(!var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var1 = var2;
+case 16:
             return var1;
-        };
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        }
     };
     var2['usePredicate'] = var9;
     var8 = function additionalSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var2 = 9;
+        var2 = 10;
         var1 = var7[var2];
         var5 = undefined;
         var1 = var6.bind(var5)(var1);
@@ -258,7 +275,7 @@ case 14:
     };
     var2['additionalSearchTerms'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

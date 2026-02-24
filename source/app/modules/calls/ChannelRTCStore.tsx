@@ -2462,7 +2462,7 @@ case 0:
             var2 = arg1;
             var5 = var2.channelId;
             var9 = var2.guildId;
-            var7 = var2.ringing;
+            var7 = var2.ongoingRings;
             var4 = undefined;
             var _closure2_slot0 = var4;
             var6 = _closure1_slot1;
@@ -2485,6 +2485,10 @@ case 48:
             var3 = _closure1_slot44;
             var3 = var3.bind(var4)(var5);
             _closure2_slot0 = var3;
+            var3 = global;
+            var6 = var3.Object;
+            var3 = var6.keys;
+            var7 = var3.bind(var6)(var7);
             var6 = var7.forEach;
             var3 = function(arg1) {
                 var4 = _closure2_slot0;

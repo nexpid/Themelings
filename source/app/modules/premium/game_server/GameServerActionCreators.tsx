@@ -167,19 +167,98 @@ case 4:
         }
     };
     var3['fetchGameServerCatalog'] = var4;
-    var4 = function fetchGameServerInstances(arg1) {
+    var4 = function fetchGameServerGlobalCatalog() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = _closure1_slot3;
+            var1 = var2.getCurrentUser;
+            var6 = var1.bind(var2)();
+            var2 = null;
+            var5 = var2 == var6;
+            var3 = undefined;
+            var1 = undefined;
+            if(var5) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var5 = var6.isStaff;
+            var1 = var5.bind(var6)();
+case 10:
+            var5 = var2 != var1;
+            if(!var5) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var5 = var1;
+case 12:
+            var2 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 5;
+            var1 = var6[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.httpGetWithCountryCodeQuery;
+            var1 = {'url': null, 'query': null, 'oldFormErrors': true, 'rejectWithError': false, 'retries': 2};
+            var7 = _closure1_slot6;
+            var6 = var7.COLLECTION_PUBLISHED_LISTINGS_SKU;
+            var4 = _closure1_slot4;
+            var4 = var6.bind(var7)(var4);
+            var1['url'] = var4;
+            var4 = {};
+            var4['include_unpublished_products'] = var5;
+            var4['include_unpublished_collection'] = var5;
+            var1['query'] = var4;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.then;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.body;
+                var4 = var1.products;
+                var3 = var4.reduce;
+                var2 = function(arg1, arg2) {
+                    var1 = arg1;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 6;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.productToGameServerGame;
+                    var2 = arg2;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = var3.id;
+                    var1[var2] = var3;
+                    return var1;
+                };
+                var1 = {};
+                var5 = var3.bind(var4)(var2, var1);
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var6 = 'GAME_SERVER_FETCH_GLOBAL_CATALOG_SUCCESS';
+                var2['type'] = var6;
+                var2['catalog'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        }
+    };
+    var3['fetchGameServerGlobalCatalog'] = var4;
+    var4 = function fetchGameServerInstances(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var8 = arg1;
             var1 = arguments[1];
             var _closure2_slot0 = var8;
             var6 = undefined;
-            if(!(var1 === var6)) { _fun0002_ip = 2; continue _fun0002 }
+            if(!(var1 === var6)) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
             var1 = false;
 case 2:
-            if(var1) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(var1) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 7;
@@ -197,13 +276,13 @@ case 11:
             var4 = var2.bind(var4)(var1);
             var2 = var4.then;
             var1 = function(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = arg1;
                     var3 = var1.body;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                    if(!(var2 != var3)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                     var4 = var1.body;
                     var3 = var4.reduce;
                     var2 = function(arg1, arg2) {
@@ -236,14 +315,14 @@ case 13:
                     var1['guildId'] = var5;
                     var1['instances'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 12:
+case 16:
                     var1 = undefined;
                     return var1;
                 }
             };
             var1 = var2.bind(var4)(var1);
-            _fun0002_ip = 14; continue _fun0002;
-case 10:
+            _fun0003_ip = 18; continue _fun0003;
+case 14:
             var2 = global;
             var5 = var2.setTimeout;
             var4 = function() {
@@ -283,7 +362,7 @@ case 10:
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)();
-case 14:
+case 18:
             return var1;
         }
     };
@@ -309,37 +388,37 @@ case 14:
         var3 = var3.bind(var4)(var2);
         var2 = var3.then;
         var1 = function(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var2 = arg1;
                 var3 = var2.body;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+                if(!(var1 != var3)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                 var2 = var2.body;
                 var2 = var2.tenant_metadata;
                 var5 = var1 == var2;
                 var3 = undefined;
                 var4 = undefined;
-                if(var5) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+                if(var5) { _fun0005_ip = 21; continue _fun0005 }
+case 10:
                 var2 = var2.guild_monetization;
                 var5 = var1 == var2;
                 var4 = undefined;
-                if(var5) { _fun0004_ip = 17; continue _fun0004 }
-case 19:
+                if(var5) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
                 var2 = var2.game_server;
                 var5 = var1 == var2;
                 var4 = undefined;
-                if(var5) { _fun0004_ip = 17; continue _fun0004 }
-case 20:
+                if(var5) { _fun0005_ip = 21; continue _fun0005 }
+case 23:
                 var2 = var2.instructions;
                 var4 = var2.pc;
-case 17:
-                if(!(var1 == var4)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                var4 = new Array(0);
 case 21:
+                if(!(var1 == var4)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+                var4 = new Array(0);
+case 24:
                 var2 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var1 = 3;
@@ -355,7 +434,7 @@ case 21:
                 var1['skuId'] = var5;
                 var1['instructions'] = var4;
                 var1 = var2.bind(var3)(var1);
-case 15:
+case 19:
                 var1 = undefined;
                 return var1;
             }
@@ -365,11 +444,11 @@ case 15:
     };
     var3['fetchGameServerInstructions'] = var4;
     var4 = function acceptGameServerToS(arg1, arg2) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
-            if(!var1) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+            if(!var1) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -385,15 +464,15 @@ case 24:
             var6 = var6.bind(var7)();
             var7 = null;
             var7 = var7 == var6;
-            if(var7) { _fun0005_ip = 25; continue _fun0005 }
+            if(var7) { _fun0006_ip = 28; continue _fun0006 }
 case 9:
             var5 = var6.id;
-case 25:
+case 28:
             var1['user_id'] = var5;
             var5 = arg2;
             var1['provider'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-case 23:
+case 26:
             var1 = undefined;
             return var1;
         }

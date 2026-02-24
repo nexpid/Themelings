@@ -48,6 +48,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['IGNORED_GROUP'] = var2;
     var1 = 'IGNORED_GROUP';
     var10[var2] = var1;
+    var2 = 7;
+    var10['SUSPENDED_USER_GROUP'] = var2;
+    var1 = 'SUSPENDED_USER_GROUP';
+    var10[var2] = var1;
     var9 = {};
     var1 = 'day';
     var9['DAY'] = var1;
@@ -62,6 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['LOAD_MORE_BEFORE'] = var1;
     var1 = 'load_more_after';
     var8['LOAD_MORE_AFTER'] = var1;
+    var1 = 'dismiss';
+    var8['DISMISS_SUSPENDED_USER_MESSAGES'] = var1;
     var7 = {};
     var1 = 'load_before';
     var7['LOAD_BEFORE'] = var1;

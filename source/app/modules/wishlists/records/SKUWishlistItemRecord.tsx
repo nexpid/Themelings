@@ -119,14 +119,14 @@ case 8:
             }
         };
         var _closure2_slot0 = var5;
-        var6 = _closure1_slot4;
+        var3 = _closure1_slot4;
         var4 = undefined;
-        var3 = arg1;
-        var3 = var6.bind(var4)(var5, var3);
+        var2 = arg1;
+        var2 = var3.bind(var4)(var5, var2);
         var3 = _closure1_slot1;
         var1 = {};
-        var6 = 'fromServer';
-        var1['key'] = var6;
+        var2 = 'fromServer';
+        var1['key'] = var2;
         var2 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -165,8 +165,40 @@ case 9:
             }
         };
         var1['value'] = var2;
-        var2 = new Array(1);
+        var2 = new Array(2);
         var2[0] = var1;
+        var1 = {};
+        var7 = 'fromSKU';
+        var1['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var3 = arg1;
+                var1 = null;
+                var2 = var1 == var3;
+                if(var2) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
+                var4 = _closure2_slot0;
+                var2 = {};
+                var5 = var3.id;
+                var2['sku_id'] = var5;
+                var5 = var3.productLine;
+                var2['sku_product_line'] = var5;
+                var5 = var3.name;
+                var2['sku_name'] = var5;
+                var2['sku'] = var3;
+                var3 = var4.prototype;
+                var3 = Object.create(var3, {constructor: {value: var4}});
+                var7 = var3;
+                var6 = var2;
+                var2 = new var7[var4](var6, var5);
+                var1 = var2 instanceof Object ? var2 : var3;
+case 11:
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[1] = var1;
         var1 = null;
         var1 = var3.bind(var4)(var5, var1, var2);
         return var1;

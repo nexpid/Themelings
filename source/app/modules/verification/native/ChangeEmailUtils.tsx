@@ -1,11 +1,11 @@
 // app/modules/verification/native/ChangeEmailUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var1 = metroImportAll;
+    var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function _saveEmail() {
         var5 = undefined;
@@ -180,17 +180,18 @@ case 2:
     };
     var _closure1_slot6 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var7 = var6[var1];
+    var4 = metroImportDefault;
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
+    var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];

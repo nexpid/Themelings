@@ -1031,6 +1031,9 @@ case 57:
             var5['majorResolutionTotal'] = var4;
             var5['intervalTotal'] = var4;
             var5['cryptorMaxAttempts'] = var4;
+            var4 = null;
+            var5['minWidth'] = var4;
+            var5['minHeight'] = var4;
             var4 = _closure1_slot18;
             var4 = var4.None;
             var5['videoStoppedReason'] = var4;

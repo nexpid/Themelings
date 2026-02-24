@@ -148,7 +148,7 @@ case 4:
     var2 = new var20[var10](var19, var18, var17, var16);
     var2 = var2 instanceof Object ? var2 : var8;
     var _closure1_slot12 = var2;
-    var2 = function f() {
+    var2 = function y() {
         var4 = _closure1_slot0;
         var9 = _closure1_slot3;
         var1 = 8;
@@ -316,7 +316,7 @@ case 12:
     var _closure1_slot14 = var2;
     var2 = 'DeveloperOptionsStore';
     var _closure1_slot15 = var2;
-    var9 = {'trace': false, 'canary': false, 'logGatewayEvents': false, 'logOverlayEvents': false, 'logAnalyticsEvents': false, 'sourceMapsEnabled': false, 'axeEnabled': false, 'cssDebuggingEnabled': false, 'layoutDebuggingEnabled': false, 'bugReporterEnabled': true, 'idleStatusIndicatorEnabled': false, 'onlyShowPreviewAppCollections': false, 'disableAppCollectionsCache': false, 'isStreamInfoOverlayEnabled': false, 'preventPopoutClose': false, 'logKeyboardMismatches': false, 'alertStartupMetrics': false, 'personaForceFaeFail': false, 'personaForceIdVerificationFail': false, 'personaDisableModularPilotTestTemplate': false};
+    var9 = {'trace': false, 'canary': false, 'logGatewayEvents': false, 'logOverlayEvents': false, 'logAnalyticsEvents': false, 'sourceMapsEnabled': false, 'axeEnabled': false, 'cssDebuggingEnabled': false, 'layoutDebuggingEnabled': false, 'bugReporterEnabled': true, 'idleStatusIndicatorEnabled': false, 'onlyShowPreviewAppCollections': false, 'disableAppCollectionsCache': false, 'isStreamInfoOverlayEnabled': false, 'preventPopoutClose': false, 'logKeyboardMismatches': false, 'alertStartupMetrics': false};
     var _closure1_slot16 = var9;
     var8 = {};
     var19 = var8;
@@ -401,7 +401,7 @@ case 18:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(22);
+        var1 = new Array(19);
         var1[0] = var5;
         var5 = {};
         var7 = 'isTracingRequests';
@@ -574,36 +574,6 @@ case 18:
         var5['get'] = var7;
         var1[17] = var5;
         var5 = {};
-        var7 = 'personaForceFaeFail';
-        var5['key'] = var7;
-        var7 = function get() {
-            var1 = _closure1_slot17;
-            var1 = var1.personaForceFaeFail;
-            return var1;
-        };
-        var5['get'] = var7;
-        var1[18] = var5;
-        var5 = {};
-        var7 = 'personaForceIdVerificationFail';
-        var5['key'] = var7;
-        var7 = function get() {
-            var1 = _closure1_slot17;
-            var1 = var1.personaForceIdVerificationFail;
-            return var1;
-        };
-        var5['get'] = var7;
-        var1[19] = var5;
-        var5 = {};
-        var7 = 'personaDisableModularPilotTestTemplate';
-        var5['key'] = var7;
-        var7 = function get() {
-            var1 = _closure1_slot17;
-            var1 = var1.personaDisableModularPilotTestTemplate;
-            return var1;
-        };
-        var5['get'] = var7;
-        var1[20] = var5;
-        var5 = {};
         var7 = 'getDebugOptionsHeaderValue';
         var5['key'] = var7;
         var6 = function getDebugOptionsHeaderValue() {
@@ -638,7 +608,7 @@ case 18:
             return var1;
         };
         var5['value'] = var6;
-        var1[21] = var5;
+        var1[18] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

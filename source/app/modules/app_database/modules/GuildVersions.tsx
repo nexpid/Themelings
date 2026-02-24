@@ -573,80 +573,64 @@ case 54:
         var7 = 'handleGuildCreate';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            var1 = arg1;
+            var4 = this;
+            var6 = function entitiesForOperation(arg1) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                var1 = arg1;
-                var4 = this;
-                var7 = function entitiesForOperation(arg1) {
-                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                        var1 = arg1;
-                        var3 = var1.op;
-                        var2 = 'full_sync';
-                        if(!(var2 !== var3)) { _fun0008_ip = 56; continue _fun0008 }
+                    var1 = arg1;
+                    var3 = var1.op;
+                    var2 = 'full_sync';
+                    if(!(var2 !== var3)) { _fun0007_ip = 56; continue _fun0007 }
 case 57:
-                        var2 = 'update';
-                        if(!(var2 !== var3)) { _fun0008_ip = 58; continue _fun0008 }
+                    var2 = 'update';
+                    if(!(var2 !== var3)) { _fun0007_ip = 58; continue _fun0007 }
 case 59:
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var2 = 7;
-                        var3 = var3[var2];
-                        var2 = undefined;
-                        var4 = var4.bind(var2)(var3);
-                        var3 = var4.assertNever;
-                        var3 = var3.bind(var4)(var1);
-                        return var2;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 7;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.assertNever;
+                    var3 = var3.bind(var4)(var1);
+                    return var2;
 case 58:
-                        var2 = var1.writes;
-                        return var2;
+                    var2 = var1.writes;
+                    return var2;
 case 56:
-                        var1 = var1.items;
-                        return var1;
-                    }
-                };
-                var6 = var1.guild;
-                var1 = var1.guild;
-                var5 = var1.id;
-                var2 = var4.updateWith;
-                var1 = new Array(1);
-                var1[0] = var6;
-                var1 = var2.bind(var4)(var5, var1);
-                var3 = var4.updateWith;
-                var2 = var6.emojis;
-                var1 = undefined;
-                var2 = var7.bind(var1)(var2);
-                var2 = var3.bind(var4)(var5, var2);
-                var3 = var4.updateWith;
-                var2 = var6.stickers;
-                var2 = var7.bind(var1)(var2);
-                var2 = var3.bind(var4)(var5, var2);
-                var3 = var4.updateWith;
-                var2 = var6.channels;
-                var2 = var7.bind(var1)(var2);
-                var2 = var3.bind(var4)(var5, var2);
-                var3 = var4.updateWith;
-                var2 = global;
-                var9 = var2.Array;
-                var8 = var9.isArray;
-                var7 = var6.roles;
-                var7 = var8.bind(var9)(var7);
-                if(var7) { _fun0007_ip = 60; continue _fun0007 }
-case 61:
-                var8 = var2.Object;
-                var7 = var8.values;
-                var2 = var6.roles;
-                var2 = var7.bind(var8)(var2);
-                _fun0007_ip = 62; continue _fun0007;
-case 60:
-                var2 = var6.roles;
-case 62:
-                var2 = var3.bind(var4)(var5, var2);
-                var3 = var4.commit;
-                var2 = arg2;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            }
+                    var1 = var1.items;
+                    return var1;
+                }
+            };
+            var2 = var1.guild;
+            var1 = var1.guild;
+            var5 = var1.id;
+            var3 = var4.updateWith;
+            var1 = new Array(1);
+            var1[0] = var2;
+            var1 = var3.bind(var4)(var5, var1);
+            var7 = var4.updateWith;
+            var3 = var2.emojis;
+            var1 = undefined;
+            var3 = var6.bind(var1)(var3);
+            var3 = var7.bind(var4)(var5, var3);
+            var7 = var4.updateWith;
+            var3 = var2.stickers;
+            var3 = var6.bind(var1)(var3);
+            var3 = var7.bind(var4)(var5, var3);
+            var7 = var4.updateWith;
+            var3 = var2.channels;
+            var3 = var6.bind(var1)(var3);
+            var3 = var7.bind(var4)(var5, var3);
+            var3 = var4.updateWith;
+            var2 = var2.roles;
+            var2 = var6.bind(var1)(var2);
+            var2 = var3.bind(var4)(var5, var2);
+            var3 = var4.commit;
+            var2 = arg2;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
         var5['value'] = var7;
         var1[4] = var5;
@@ -654,46 +638,29 @@ case 62:
         var7 = 'handleGuildUpdate';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                var1 = arg1;
-                var3 = this;
-                var5 = var1.guild;
-                var1 = var1.guild;
-                var4 = var1.id;
-                var2 = var3.updateWith;
-                var1 = new Array(1);
-                var1[0] = var5;
-                var1 = var2.bind(var3)(var4, var1);
-                var2 = var3.updateWith;
-                var1 = var5.emojis;
-                var1 = var2.bind(var3)(var4, var1);
-                var2 = var3.updateWith;
-                var1 = var5.stickers;
-                var1 = var2.bind(var3)(var4, var1);
-                var2 = var3.updateWith;
-                var1 = global;
-                var8 = var1.Array;
-                var7 = var8.isArray;
-                var6 = var5.roles;
-                var6 = var7.bind(var8)(var6);
-                if(var6) { _fun0009_ip = 63; continue _fun0009 }
-case 13:
-                var7 = var1.Object;
-                var6 = var7.values;
-                var1 = var5.roles;
-                var1 = var6.bind(var7)(var1);
-                _fun0009_ip = 64; continue _fun0009;
-case 63:
-                var1 = var5.roles;
-case 64:
-                var1 = var2.bind(var3)(var4, var1);
-                var2 = var3.commit;
-                var1 = arg2;
-                var1 = var2.bind(var3)(var1);
-                var1 = undefined;
-                return var1;
-            }
+            var2 = arg1;
+            var3 = this;
+            var1 = var2.guild;
+            var2 = var2.guild;
+            var4 = var2.id;
+            var5 = var3.updateWith;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var2 = var5.bind(var3)(var4, var2);
+            var5 = var3.updateWith;
+            var2 = var1.emojis;
+            var2 = var5.bind(var3)(var4, var2);
+            var5 = var3.updateWith;
+            var2 = var1.stickers;
+            var2 = var5.bind(var3)(var4, var2);
+            var2 = var3.updateWith;
+            var1 = var1.roles;
+            var1 = var2.bind(var3)(var4, var1);
+            var2 = var3.commit;
+            var1 = arg2;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
         var5['value'] = var7;
         var1[5] = var5;
@@ -797,15 +764,15 @@ case 64:
         var7 = 'handleChannelCreate';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var1 = arg1;
                 var3 = this;
                 var2 = var1.channel;
                 var4 = var2.guild_id;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0010_ip = 65; continue _fun0010 }
-case 66:
+                if(!(var2 != var4)) { _fun0008_ip = 60; continue _fun0008 }
+case 61:
                 var4 = var3.updateWith;
                 var2 = var1.channel;
                 var2 = var2.guild_id;
@@ -813,7 +780,7 @@ case 66:
                 var1 = new Array(1);
                 var1[0] = var5;
                 var1 = var4.bind(var3)(var2, var1);
-case 65:
+case 60:
                 var2 = var3.commit;
                 var1 = arg2;
                 var1 = var2.bind(var3)(var1);
@@ -827,7 +794,7 @@ case 65:
         var7 = 'handleChannelUpdates';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var4 = this;
                 var3 = _closure1_slot9;
@@ -838,23 +805,23 @@ case 0:
                 var3 = var6.bind(var1)();
                 var2 = var3.done;
                 var5 = null;
-                if(var2) { _fun0011_ip = 67; continue _fun0011 }
-case 68:
+                if(var2) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
                 var9 = var3.value;
                 var2 = var9.guild_id;
-                if(!(var5 != var2)) { _fun0011_ip = 69; continue _fun0011 }
-case 70:
+                if(!(var5 != var2)) { _fun0009_ip = 64; continue _fun0009 }
+case 65:
                 var8 = var4.updateWith;
                 var7 = var9.guild_id;
                 var2 = new Array(1);
                 var2[0] = var9;
                 var2 = var8.bind(var4)(var7, var2);
-case 69:
+case 64:
                 var7 = var6.bind(var1)();
                 var2 = var7.done;
                 var3 = var7;
-                if(!var2) { _fun0011_ip = 68; continue _fun0011 }
-case 67:
+                if(!var2) { _fun0009_ip = 63; continue _fun0009 }
+case 62:
                 var3 = var4.commit;
                 var2 = arg2;
                 var2 = var3.bind(var4)(var2);
@@ -867,15 +834,15 @@ case 67:
         var7 = 'handleChannelDelete';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var1 = arg1;
                 var3 = this;
                 var2 = var1.channel;
                 var4 = var2.guild_id;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0012_ip = 65; continue _fun0012 }
-case 66:
+                if(!(var2 != var4)) { _fun0010_ip = 60; continue _fun0010 }
+case 61:
                 var4 = var3.updateWith;
                 var2 = var1.channel;
                 var2 = var2.guild_id;
@@ -883,7 +850,7 @@ case 66:
                 var1 = new Array(1);
                 var1[0] = var5;
                 var1 = var4.bind(var3)(var2, var1);
-case 65:
+case 60:
                 var2 = var3.commit;
                 var1 = arg2;
                 var1 = var2.bind(var3)(var1);
@@ -949,14 +916,14 @@ case 65:
         var7 = 'updateWith';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var4 = arg1;
                 var5 = arg2;
                 var1 = this;
                 var2 = var5.length;
                 var7 = 0;
-                if(!(var7 !== var2)) { _fun0013_ip = 71; continue _fun0013 }
+                if(!(var7 !== var2)) { _fun0011_ip = 66; continue _fun0011 }
 case 29:
                 var2 = global;
                 var6 = var2.Math;
@@ -967,28 +934,28 @@ case 29:
                 var9 = null;
                 var10 = var9 != var8;
                 var2 = 0;
-                if(!var10) { _fun0013_ip = 72; continue _fun0013 }
-case 73:
+                if(!var10) { _fun0011_ip = 67; continue _fun0011 }
+case 68:
                 var2 = var8;
-case 72:
+case 67:
                 var10 = var1.pending;
                 var8 = var10.get;
                 var8 = var8.bind(var10)(var4);
                 var9 = var9 != var8;
                 var7 = 0;
-                if(!var9) { _fun0013_ip = 74; continue _fun0013 }
-case 75:
+                if(!var9) { _fun0011_ip = 69; continue _fun0011 }
+case 70:
                 var7 = var8;
-case 74:
+case 69:
                 var2 = var3.bind(var6)(var2, var7);
                 var3 = var1.computeLatestVersion;
                 var3 = var3.bind(var1)(var2, var5);
-                if(!(var3 > var2)) { _fun0013_ip = 71; continue _fun0013 }
-case 76:
+                if(!(var3 > var2)) { _fun0011_ip = 66; continue _fun0011 }
+case 71:
                 var2 = var1.pending;
                 var1 = var2.set;
                 var1 = var1.bind(var2)(var4, var3);
-case 71:
+case 66:
                 var1 = undefined;
                 return var1;
             }
@@ -999,7 +966,7 @@ case 71:
         var7 = 'computeLatestVersion';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var1 = arg1;
                 var3 = _closure1_slot9;
@@ -1013,25 +980,25 @@ case 0:
                 var4 = var3;
                 var3 = var1;
                 var1 = var3;
-                if(var2) { _fun0014_ip = 77; continue _fun0014 }
-case 78:
+                if(var2) { _fun0012_ip = 72; continue _fun0012 }
+case 73:
                 var2 = var4.value;
                 var11 = var7.Math;
                 var10 = var11.max;
                 var12 = var2.version;
                 var13 = var6 != var12;
                 var2 = 0;
-                if(!var13) { _fun0014_ip = 69; continue _fun0014 }
-case 79:
+                if(!var13) { _fun0012_ip = 64; continue _fun0012 }
+case 74:
                 var2 = var12;
-case 69:
+case 64:
                 var3 = var10.bind(var11)(var3, var2);
                 var11 = var8.bind(var9)();
                 var2 = var11.done;
                 var4 = var11;
                 var1 = var3;
-                if(!var2) { _fun0014_ip = 78; continue _fun0014 }
-case 77:
+                if(!var2) { _fun0012_ip = 73; continue _fun0012 }
+case 72:
                 return var1;
             }
         };
@@ -1041,13 +1008,13 @@ case 77:
         var7 = 'commit';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var1 = this;
                 var2 = var1.pending;
                 var2 = var2.size;
                 var11 = 0;
-                if(!(var2 > var11)) { _fun0015_ip = 80; continue _fun0015 }
+                if(!(var2 > var11)) { _fun0013_ip = 75; continue _fun0013 }
 case 31:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -1066,22 +1033,22 @@ case 31:
                 var6 = 2;
                 var5 = 1;
                 var4 = null;
-                if(var2) { _fun0015_ip = 81; continue _fun0015 }
-case 82:
+                if(var2) { _fun0013_ip = 76; continue _fun0013 }
+case 77:
                 var12 = var3.value;
                 var2 = _closure1_slot3;
                 var2 = var2.bind(var9)(var12, var6);
                 var14 = var2[var11];
                 var13 = var2[var5];
-                if(!(var4 == var13)) { _fun0015_ip = 83; continue _fun0015 }
-case 84:
+                if(!(var4 == var13)) { _fun0013_ip = 78; continue _fun0013 }
+case 79:
                 var2 = var8.delete;
                 var2 = var2.bind(var8)(var14);
                 var12 = var1.committed;
                 var2 = var12.delete;
                 var2 = var2.bind(var12)(var14);
-                _fun0015_ip = 85; continue _fun0015;
-case 83:
+                _fun0013_ip = 80; continue _fun0013;
+case 78:
                 var12 = var8.put;
                 var2 = {};
                 var2['id'] = var14;
@@ -1090,16 +1057,16 @@ case 83:
                 var12 = var1.committed;
                 var2 = var12.set;
                 var2 = var2.bind(var12)(var14, var13);
-case 85:
+case 80:
                 var12 = var7.bind(var9)();
                 var2 = var12.done;
                 var3 = var12;
-                if(!var2) { _fun0015_ip = 82; continue _fun0015 }
-case 81:
+                if(!var2) { _fun0013_ip = 77; continue _fun0013 }
+case 76:
                 var2 = var1.pending;
                 var1 = var2.clear;
                 var1 = var1.bind(var2)();
-case 80:
+case 75:
                 var1 = undefined;
                 return var1;
             }

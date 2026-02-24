@@ -19,11 +19,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = {'enabled': false, 'animateBetweenServers': false, 'questDockEnabled': false, 'largeAvatarEnabled': false};
     var4['defaultConfig'] = var7;
     var7 = {};
-    var8 = {'enabled': true, 'animateBetweenServers': true, 'questDockEnabled': true, 'largeAvatarEnabled': false};
+    var8 = {'enabled': true, 'animateBetweenServers': false, 'questDockEnabled': true, 'largeAvatarEnabled': false};
     var7[1] = var8;
-    var8 = {'enabled': true, 'animateBetweenServers': true, 'questDockEnabled': true, 'largeAvatarEnabled': true};
+    var8 = {'enabled': true, 'animateBetweenServers': false, 'questDockEnabled': true, 'largeAvatarEnabled': true};
     var7[2] = var8;
-    var8 = {'enabled': true, 'animateBetweenServers': true, 'questDockEnabled': false, 'largeAvatarEnabled': true};
+    var8 = {'enabled': true, 'animateBetweenServers': false, 'questDockEnabled': false, 'largeAvatarEnabled': true};
     var7[3] = var8;
     var4['variations'] = var7;
     var4 = var5.bind(var1)(var4);
