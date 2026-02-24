@@ -4,6 +4,7 @@ import { commitAnyway, cuteVersion } from "../shared";
 import { handleShellErr, join, type Progress } from "../util";
 
 const gzipWorkerURL = new URL("decompile-gzip.ts", import.meta.url).href;
+const decompilerPy = "src/decompilation/hbc_decompiler.py";
 
 export default async function decompile(progress: Progress, pathToBundle: string, tmpDir: string) {
 	const pathToDecompiler = join(tmpDir, "decompiler");
@@ -24,7 +25,7 @@ export default async function decompile(progress: Progress, pathToBundle: string
 
 	progress.start("decompile_decompiling");
 	if (!(await Bun.file(pathToJs).exists())) {
-		await Bun.$`python ${join(pathToDecompiler, "hbc_decompiler.py")} ${pathToBundle} ${pathToJs}`
+		await Bun.$`python ${join(pathToDecompiler, decompilerPy)} ${pathToBundle} ${pathToJs}`
 			.quiet()
 			.nothrow()
 			.then(handleShellErr);
