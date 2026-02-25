@@ -129,7 +129,7 @@ case 8:
         return var1;
     };
     var _closure1_slot6 = var1;
-    var1 = function _deleteWebAuthnCredentialAsync() {
+    var1 = function _deleteWebAuthnCredential() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
@@ -157,7 +157,7 @@ case 15:
                     var6 = var6.id;
                     var6 = var7.bind(var8)(var6);
                     var3['url'] = var6;
-                    var6 = false;
+                    var6 = true;
                     var3['rejectWithError'] = var6;
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.then;
@@ -401,7 +401,7 @@ case 3:
                     var8 = var8.WEBAUTHN_REGISTER;
                     var7['event'] = var8;
                     var2['trackedActionData'] = var7;
-                    var7 = false;
+                    var7 = true;
                     var2['rejectWithError'] = var7;
                     var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=141);
@@ -574,48 +574,7 @@ case 35:
         return var1;
     };
     var3['fetchWebAuthnCredentials'] = var4;
-    var4 = function deleteWebAuthnCredential(arg1) {
-        var6 = arg1;
-        var _closure2_slot0 = var6;
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot2;
-        var1 = 2;
-        var3 = var3[var1];
-        var1 = undefined;
-        var3 = var4.bind(var1)(var3);
-        var5 = var3.HTTP;
-        var4 = var5.del;
-        var3 = {};
-        var8 = _closure1_slot4;
-        var7 = var8.MFA_WEBAUTHN_CREDENTIAL;
-        var6 = var6.id;
-        var6 = var7.bind(var8)(var6);
-        var3['url'] = var6;
-        var6 = true;
-        var3['rejectWithError'] = var6;
-        var4 = var4.bind(var5)(var3);
-        var3 = var4.then;
-        var2 = function() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.dispatch;
-            var2 = {};
-            var5 = 'AUTHENTICATOR_DELETE';
-            var2['type'] = var5;
-            var5 = _closure2_slot0;
-            var2['credential'] = var5;
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['deleteWebAuthnCredential'] = var4;
-    var4 = function deleteWebAuthnCredentialAsync() {
+    var4 = function deleteWebAuthnCredential() {
         var1 = undefined;
         var4 = _closure1_slot7;
         var3 = var4.apply;
@@ -625,7 +584,7 @@ case 35:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['deleteWebAuthnCredentialAsync'] = var4;
+    var3['deleteWebAuthnCredential'] = var4;
     var4 = function editWebAuthnCredential() {
         var1 = undefined;
         var4 = _closure1_slot8;

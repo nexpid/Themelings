@@ -179,40 +179,44 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
-            var1 = arguments[1];
+            var2 = arguments[1];
             var4 = this;
             var10 = undefined;
-            if(!(var1 === var10)) { _fun0002_ip = 14; continue _fun0002 }
+            if(!(var2 === var10)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var1 = false;
+            var2 = false;
 case 14:
-            var6 = _closure1_slot14;
-            var3 = var6.log;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var9 = var2.concat;
-            var7 = 'Registering push notification token: ';
-            var2 = ', is voip:';
-            var2 = var9.bind(var7)(var5, var2, var1);
-            var2 = var3.bind(var6)(var2);
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot3;
-            var2 = 10;
-            var2 = var6[var2];
-            var2 = var3.bind(var10)(var2);
-            var6 = var2.Storage;
-            var2 = var6.set;
-            var3 = var1;
-            if(var3) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-            var1 = _closure1_slot7;
-            _fun0002_ip = 18; continue _fun0002;
-case 16:
-            var1 = _closure1_slot8;
-case 18:
-            var1 = var2.bind(var6)(var1, var5);
             var1 = _closure1_slot5;
             var1 = var1.canUseMultiAccountNotifications;
+            var7 = _closure1_slot14;
+            var6 = var7.log;
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var12 = var3.concat;
+            var18 = 'Registering push notification token: ';
+            var16 = ', is voip:';
+            var14 = ', multi-account:';
+            var17 = var5;
+            var15 = var2;
+            var13 = var1;
+            var3 = var18[var12](var17, var16, var15, var14, var13, var12);
+            var3 = var6.bind(var7)(var3);
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var3 = 10;
+            var3 = var7[var3];
+            var3 = var6.bind(var10)(var3);
+            var7 = var3.Storage;
+            var6 = var7.set;
+            var3 = var2;
+            if(var3) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            var2 = _closure1_slot7;
+            _fun0002_ip = 18; continue _fun0002;
+case 16:
+            var2 = _closure1_slot8;
+case 18:
+            var2 = var6.bind(var7)(var2, var5);
             if(var1) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
             var2 = _closure1_slot1;
@@ -367,13 +371,13 @@ case 40:
                         var9 = {};
                         var11 = _closure2_slot1;
                         if(var11) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
+case 23:
                         var11 = _closure1_slot12;
                         var11 = var11.bind(var3)();
-                        _fun0004_ip = 43; continue _fun0004;
+                        _fun0004_ip = 42; continue _fun0004;
 case 41:
                         var11 = _closure1_slot11;
-case 43:
+case 42:
                         var9['provider'] = var11;
                         var10 = _closure2_slot0;
                         var9['token'] = var10;
@@ -391,11 +395,11 @@ case 43:
                         var11 = var11.bind(var3)(var10);
                         var10 = var11.isAndroid;
                         var10 = var10.bind(var11)();
-                        if(!var10) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+                        if(!var10) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
                         var11 = _closure1_slot13;
                         var10 = !var11;
-case 44:
+case 43:
                         var9['bypass_server_throttling_supported'] = var10;
                         var10 = _closure1_slot10;
                         var9['bundle_id'] = var10;
@@ -404,17 +408,17 @@ case 44:
                         var4['rejectWithError'] = var9;
                         var4 = var6.bind(var8)(var4);
                         SaveGenerator(address=344);
-case 46:
+case 45:
                         return var4;
-case 47:
+case 46:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                        if(var6) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
+                        if(var6) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
                         var6 = var4.body;
                         var6 = var6.invalid_push_sync_tokens;
                         var6 = var6.length;
                         if(!(var6 > var7)) { _fun0004_ip = 38; continue _fun0004 }
-case 50:
+case 49:
                         var6 = _closure1_slot2;
                         var7 = _closure1_slot3;
                         var5 = 9;
@@ -425,7 +429,7 @@ case 50:
                         var5 = var5.invalid_push_sync_tokens;
                         var5 = var6.bind(var7)(var5);
                         _fun0004_ip = 38; continue _fun0004;
-case 48:
+case 47:
                         return var4;
 case 38:
                         return var3;

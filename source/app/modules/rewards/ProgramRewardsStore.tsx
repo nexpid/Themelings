@@ -248,8 +248,8 @@ case 41:
             var7 = 7;
             var4 = -1;
             var3 = var2;
-            if(var1) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(var1) { _fun0005_ip = 14; continue _fun0005 }
+case 42:
             var1 = var3.value;
             var12 = var11.Date;
             var15 = var1.next_reward_date;
@@ -262,17 +262,17 @@ case 43:
             var1 = var2.getTime;
             var1 = var1.bind(var2)();
             var1 = var12.bind(var9)(var1);
-            if(var1) { _fun0005_ip = 44; continue _fun0005 }
+            if(var1) { _fun0005_ip = 28; continue _fun0005 }
+case 43:
+            if(!(!(var10 >= var2))) { _fun0005_ip = 44; continue _fun0005 }
 case 45:
-            if(!(!(var10 >= var2))) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
             var12 = _closure1_slot1;
             var1 = _closure1_slot2;
             var1 = var1[var7];
             var1 = var12.bind(var9)(var1);
             var1 = var1.bind(var9)(var2, var4);
-            if(!(var10 >= var1)) { _fun0005_ip = 44; continue _fun0005 }
-case 48:
+            if(!(var10 >= var1)) { _fun0005_ip = 28; continue _fun0005 }
+case 24:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var1 = 8;
@@ -284,57 +284,57 @@ case 48:
             var12 = var12.LESS_THAN_24H_BEFORE_REWARD;
             var1['state'] = var12;
             var1['msUntilReward'] = var2;
-            _fun0005_ip = 49; continue _fun0005;
-case 46:
+            _fun0005_ip = 12; continue _fun0005;
+case 44:
             var2 = {};
             var12 = _closure1_slot11;
             var12 = var12.PAST_REWARD_DATE;
             var2['state'] = var12;
             var1 = var2;
-            _fun0005_ip = 49; continue _fun0005;
-case 44:
+            _fun0005_ip = 12; continue _fun0005;
+case 28:
             var12 = var8.bind(var9)();
             var2 = var12.done;
             var3 = var12;
-            if(!var2) { _fun0005_ip = 43; continue _fun0005 }
-case 42:
+            if(!var2) { _fun0005_ip = 42; continue _fun0005 }
+case 14:
             var2 = {};
             var3 = _closure1_slot11;
             var3 = var3.MORE_THAN_24H_BEFORE_REWARD;
             var2['state'] = var3;
             var1 = var2;
-            _fun0005_ip = 49; continue _fun0005;
+            _fun0005_ip = 12; continue _fun0005;
 case 40:
             var2 = {};
             var3 = _closure1_slot11;
             var3 = var3.MORE_THAN_24H_BEFORE_REWARD;
             var2['state'] = var3;
             var1 = var2;
-case 49:
+case 12:
             var7 = var1.state;
             var4 = var1.msUntilReward;
             var3 = _closure1_slot10;
             var2 = var3.setTtl;
             var1 = _closure1_slot11;
             var1 = var1.LESS_THAN_24H_BEFORE_REWARD;
-            if(!(var1 !== var7)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(!(var1 !== var7)) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
             var1 = _closure1_slot11;
             var1 = var1.MORE_THAN_24H_BEFORE_REWARD;
-            if(!(var1 !== var7)) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+            if(!(var1 !== var7)) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
             var1 = _closure1_slot11;
             var1 = var1.PAST_REWARD_DATE;
-case 52:
+case 48:
             var1 = _closure1_slot9;
-            _fun0005_ip = 54; continue _fun0005;
-case 50:
-            if(!(var6 == var4)) { _fun0005_ip = 55; continue _fun0005 }
-case 56:
+            _fun0005_ip = 50; continue _fun0005;
+case 46:
+            if(!(var6 == var4)) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
             var4 = _closure1_slot9;
-case 55:
+case 51:
             var1 = var4;
-case 54:
+case 50:
             var1 = var2.bind(var3)(var1);
             var1 = undefined;
             return var1;
@@ -397,7 +397,7 @@ case 54:
     var8 = 'PAST_REWARD_DATE';
     var2['PAST_REWARD_DATE'] = var8;
     var _closure1_slot11 = var2;
-    var2 = 14;
+    var2 = 13;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -416,14 +416,14 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
+                if(var1) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0006_ip = 59; continue _fun0006;
-case 57:
+                _fun0006_ip = 55; continue _fun0006;
+case 53:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -432,7 +432,7 @@ case 57:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 59:
+case 55:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -458,12 +458,12 @@ case 0:
                 var5 = var4 == var6;
                 var1 = undefined;
                 var3 = undefined;
-                if(var5) { _fun0007_ip = 60; continue _fun0007 }
-case 61:
+                if(var5) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
                 var3 = var6.cache;
-case 60:
-                if(!(var4 != var3)) { _fun0007_ip = 62; continue _fun0007 }
-case 63:
+case 56:
+                if(!(var4 != var3)) { _fun0007_ip = 58; continue _fun0007 }
+case 59:
                 var3 = global;
                 var5 = var3.Map;
                 var3 = var6.cache;
@@ -481,14 +481,14 @@ case 63:
                 var6 = var6.fetchedAt;
                 var3['fetchedAt'] = var6;
                 var3 = var4.bind(var5)(var3);
-case 62:
+case 58:
                 var2 = _closure1_slot15;
                 var2 = var2.bind(var1)();
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(14);
+        var1 = new Array(12);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -502,7 +502,7 @@ case 0:
                 var1 = {};
                 var2 = null;
                 var3 = var2 != var4;
-                if(!var3) { _fun0008_ip = 64; continue _fun0008 }
+                if(!var3) { _fun0008_ip = 60; continue _fun0008 }
 case 38:
                 var3 = {};
                 var5 = global;
@@ -516,7 +516,7 @@ case 38:
                 var4 = var4.fetchedAt;
                 var3['fetchedAt'] = var4;
                 var2 = var3;
-case 64:
+case 60:
                 var1['cache'] = var2;
                 return var1;
             }
@@ -524,242 +524,34 @@ case 64:
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'passesGeneralUIInvariant';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                var4 = arg1;
-                var3 = this;
-                var6 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var2 = 9;
-                var2 = var5[var2];
-                var5 = undefined;
-                var7 = var6.bind(var5)(var2);
-                var6 = var7.isEligibleForProgramReward;
-                var2 = 'ProgramRewardsStore.passesGeneralUIInvariant';
-                var2 = var6.bind(var7)(var4, var2);
-                if(var2) { _fun0009_ip = 32; continue _fun0009 }
-case 65:
-                var2 = false;
-                return var2;
-case 32:
-                var7 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var6 = 10;
-                var2 = var2[var6];
-                var2 = var7.bind(var5)(var2);
-                var2 = var2.RewardProgram;
-                var2 = var2.NITRO;
-                if(!(var4 === var2)) { _fun0009_ip = 66; continue _fun0009 }
-case 67:
-                var2 = var3.getRewardForProgram;
-                var3 = var2.bind(var3)(var4);
-                var2 = null;
-                if(!(var2 != var3)) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
-                var8 = var3.next_reward_date;
-                var3 = var3.program_current_state;
-                if(!(var2 != var3)) { _fun0009_ip = 70; continue _fun0009 }
-case 71:
-                if(!(var2 != var8)) { _fun0009_ip = 72; continue _fun0009 }
-case 73:
-                var2 = '';
-                if(!(var2 !== var8)) { _fun0009_ip = 72; continue _fun0009 }
-case 74:
-                var2 = global;
-                var4 = var2.Date;
-                var7 = var4.prototype;
-                var7 = Object.create(var7, {constructor: {value: var4}});
-                var11 = var7;
-                var10 = var8;
-                var4 = new var11[var4](var10, var9);
-                var7 = var4 instanceof Object ? var4 : var7;
-                var4 = var7.getTime;
-                var4 = var4.bind(var7)();
-                var8 = var2.Number;
-                var7 = var8.isNaN;
-                var7 = var7.bind(var8)(var4);
-                if(var7) { _fun0009_ip = 75; continue _fun0009 }
-case 76:
-                var7 = var2.Date;
-                var2 = var7.now;
-                var2 = var2.bind(var7)();
-                if(!(var4 < var2)) { _fun0009_ip = 66; continue _fun0009 }
-case 75:
-                var2 = false;
-                return var2;
-case 72:
-                var4 = _closure1_slot0;
-                var1 = _closure1_slot2;
-                var2 = var1[var6];
-                var2 = var4.bind(var5)(var2);
-                var2 = var2.ProgramCurrentState;
-                var7 = var2.PAYMENT_PROCESSING;
-                var2 = new Array(2);
-                var2[0] = var7;
-                var1 = var1[var6];
-                var1 = var4.bind(var5)(var1);
-                var1 = var1.ProgramCurrentState;
-                var1 = var1.PAYMENT_ERROR;
-                var2[1] = var1;
-                var1 = var2.includes;
-                var1 = var1.bind(var2)(var3);
-                if(var1) { _fun0009_ip = 66; continue _fun0009 }
-case 77:
-                var1 = false;
-                return var1;
-case 66:
-                var1 = true;
-                return var1;
-case 70:
-                var1 = false;
-                return var1;
-case 68:
-                var1 = false;
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[2] = var5;
-        var5 = {};
-        var7 = 'passesProgressBarInvariant';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-                var7 = arg1;
-                var6 = this;
-                var2 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var1 = 9;
-                var1 = var4[var1];
-                var5 = undefined;
-                var4 = var2.bind(var5)(var1);
-                var2 = var4.isEligibleForProgramReward;
-                var1 = 'ProgramRewardsStore.passesProgressBarInvariant';
-                var1 = var2.bind(var4)(var7, var1);
-                if(var1) { _fun0010_ip = 32; continue _fun0010 }
-case 65:
-                var1 = false;
-                return var1;
-case 32:
-                var2 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var1 = 10;
-                var1 = var4[var1];
-                var1 = var2.bind(var5)(var1);
-                var1 = var1.RewardProgram;
-                var1 = var1.NITRO;
-                if(!(var7 === var1)) { _fun0010_ip = 78; continue _fun0010 }
-case 67:
-                var1 = var6.getRewardForProgram;
-                var4 = var1.bind(var6)(var7);
-                var1 = null;
-                if(!(var1 != var4)) { _fun0010_ip = 79; continue _fun0010 }
-case 69:
-                var2 = var6.getTotalDaysInDuration;
-                var2 = var2.bind(var6)(var7);
-                if(!(var1 != var2)) { _fun0010_ip = 80; continue _fun0010 }
-case 81:
-                var7 = var4.next_reward_date;
-                if(!(var1 != var7)) { _fun0010_ip = 82; continue _fun0010 }
-case 83:
-                var1 = '';
-                if(!(var1 !== var7)) { _fun0010_ip = 82; continue _fun0010 }
-case 84:
-                var1 = global;
-                var4 = var1.Date;
-                var6 = var4.prototype;
-                var6 = Object.create(var6, {constructor: {value: var4}});
-                var11 = var6;
-                var10 = var7;
-                var4 = new var11[var4](var10, var9);
-                var6 = var4 instanceof Object ? var4 : var6;
-                var4 = var6.getTime;
-                var6 = var4.bind(var6)();
-                var8 = var1.Number;
-                var4 = var8.isNaN;
-                var4 = var4.bind(var8)(var6);
-                if(var4) { _fun0010_ip = 85; continue _fun0010 }
-case 86:
-                var8 = var1.Date;
-                var4 = var8.now;
-                var4 = var4.bind(var8)();
-                if(!(!(var6 <= var4))) { _fun0010_ip = 85; continue _fun0010 }
-case 87:
-                var4 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                var3 = 11;
-                var3 = var6[var3];
-                var4 = var4.bind(var5)(var3);
-                var3 = var1.Date;
-                var6 = var3.prototype;
-                var6 = Object.create(var6, {constructor: {value: var3}});
-                var11 = var6;
-                var10 = var7;
-                var3 = new var11[var3](var10, var9);
-                var3 = var3 instanceof Object ? var3 : var6;
-                var1 = var1.Date;
-                var6 = var1.prototype;
-                var6 = Object.create(var6, {constructor: {value: var1}});
-                var11 = var6;
-                var1 = new var11[var1](var10);
-                var1 = var1 instanceof Object ? var1 : var6;
-                var1 = var4.bind(var5)(var3, var1);
-                if(!(!(var1 > var2))) { _fun0010_ip = 88; continue _fun0010 }
-case 78:
-                var1 = true;
-                return var1;
-case 88:
-                var1 = false;
-                return var1;
-case 85:
-                var1 = false;
-                return var1;
-case 82:
-                var1 = false;
-                return var1;
-case 80:
-                var1 = false;
-                return var1;
-case 79:
-                var1 = false;
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[3] = var5;
-        var5 = {};
         var7 = 'getTotalDaysInDuration';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var3 = this;
                 var2 = var3.getRewardForProgram;
                 var1 = arg1;
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
-                if(!(var1 != var2)) { _fun0011_ip = 89; continue _fun0011 }
+                if(!(var1 != var2)) { _fun0009_ip = 61; continue _fun0009 }
 case 35:
                 var6 = var2.total_countdown_duration_ms;
                 var3 = var1 == var6;
                 var2 = null;
-                if(var3) { _fun0011_ip = 90; continue _fun0011 }
-case 91:
+                if(var3) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
                 var3 = 0;
                 var3 = var6 <= var3;
                 var2 = null;
-                if(var3) { _fun0011_ip = 90; continue _fun0011 }
-case 58:
+                if(var3) { _fun0009_ip = 62; continue _fun0009 }
+case 54:
                 var3 = global;
                 var5 = var3.Math;
                 var4 = var5.ceil;
                 var8 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var3 = 12;
+                var3 = 9;
                 var7 = var7[var3];
                 var3 = undefined;
                 var3 = var8.bind(var3)(var7);
@@ -767,14 +559,14 @@ case 58:
                 var3 = var3.DAY;
                 var3 = var6 / var3;
                 var2 = var4.bind(var5)(var3);
-case 90:
+case 62:
                 return var2;
-case 89:
+case 61:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'isFetching';
         var5['key'] = var7;
@@ -785,7 +577,7 @@ case 89:
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'isFetched';
         var5['key'] = var7;
@@ -796,7 +588,7 @@ case 89:
             return var1;
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'hasCachedValue';
         var5['key'] = var7;
@@ -809,26 +601,26 @@ case 89:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'isReady';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var4 = this;
                 var1 = var4.isFetching;
                 var1 = var1.bind(var4)();
                 var1 = !var1;
-                if(!var1) { _fun0012_ip = 92; continue _fun0012 }
-case 93:
+                if(!var1) { _fun0010_ip = 64; continue _fun0010 }
+case 65:
                 var2 = var4.hasCachedValue;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0012_ip = 94; continue _fun0012 }
-case 95:
+                if(var2) { _fun0010_ip = 66; continue _fun0010 }
+case 67:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 9;
+                var3 = 10;
                 var5 = var5[var3];
                 var3 = undefined;
                 var6 = var6.bind(var3)(var5);
@@ -836,41 +628,41 @@ case 95:
                 var3 = 'ProgramRewardsStore';
                 var3 = var5.bind(var6)(var3);
                 var2 = !var3;
-case 94:
-                if(var2) { _fun0012_ip = 96; continue _fun0012 }
-case 97:
+case 66:
+                if(var2) { _fun0010_ip = 68; continue _fun0010 }
+case 69:
                 var3 = var4.isError;
                 var2 = var3.bind(var4)();
-case 96:
-                if(var2) { _fun0012_ip = 98; continue _fun0012 }
-case 67:
+case 68:
+                if(var2) { _fun0010_ip = 70; continue _fun0010 }
+case 71:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 9;
+                var3 = 10;
                 var4 = var4[var3];
                 var3 = undefined;
                 var4 = var5.bind(var3)(var4);
                 var3 = var4.hasNecessaryPremiumSubscriptionStatus;
                 var3 = var3.bind(var4)();
                 var2 = !var3;
-case 98:
+case 70:
                 var1 = var2;
-case 92:
+case 64:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'shouldFetch';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var7 = this;
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var6 = 9;
+                var6 = 10;
                 var1 = var1[var6];
                 var5 = undefined;
                 var4 = var2.bind(var5)(var1);
@@ -878,8 +670,8 @@ case 0:
                 var1 = 'ProgramRewardsStore.shouldFetch';
                 var1 = var2.bind(var4)(var1);
                 var2 = !var1;
-                if(var2) { _fun0013_ip = 64; continue _fun0013 }
-case 58:
+                if(var2) { _fun0011_ip = 60; continue _fun0011 }
+case 54:
                 var4 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var1 = var1[var6];
@@ -887,37 +679,37 @@ case 58:
                 var1 = var4.hasNecessaryPremiumSubscriptionStatus;
                 var1 = var1.bind(var4)();
                 var2 = !var1;
-case 64:
+case 60:
                 var1 = !var2;
-                if(var2) { _fun0013_ip = 99; continue _fun0013 }
-case 100:
+                if(var2) { _fun0011_ip = 72; continue _fun0011 }
+case 73:
                 var4 = _closure1_slot10;
                 var2 = var4.shouldFetch;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0013_ip = 101; continue _fun0013 }
-case 102:
+                if(var2) { _fun0011_ip = 45; continue _fun0011 }
+case 74:
                 var6 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var4 = 13;
+                var4 = 11;
                 var4 = var9[var4];
                 var4 = var6.bind(var5)(var4);
                 var6 = var7.getRewardForProgram;
                 var8 = _closure1_slot0;
-                var3 = 10;
+                var3 = 12;
                 var3 = var9[var3];
                 var3 = var8.bind(var5)(var3);
                 var3 = var3.RewardProgram;
                 var3 = var3.NITRO;
                 var3 = var6.bind(var7)(var3);
                 var2 = var4.bind(var5)(var3);
-case 101:
+case 45:
                 var1 = var2;
-case 99:
+case 72:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'isError';
         var5['key'] = var7;
@@ -928,7 +720,7 @@ case 99:
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getStatus';
         var5['key'] = var7;
@@ -939,12 +731,12 @@ case 99:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getRewardForProgram';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var2 = _closure1_slot10;
                 var1 = var2.getValue;
@@ -952,17 +744,17 @@ case 0:
                 var1 = null;
                 var2 = var1 == var4;
                 var1 = undefined;
-                if(var2) { _fun0014_ip = 103; continue _fun0014 }
+                if(var2) { _fun0012_ip = 75; continue _fun0012 }
 case 38:
                 var3 = var4.get;
                 var2 = arg1;
                 var1 = var3.bind(var4)(var2);
-case 103:
+case 75:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'forceExpire';
         var5['key'] = var7;
@@ -974,7 +766,7 @@ case 103:
             return var1;
         };
         var5['value'] = var6;
-        var1[13] = var5;
+        var1[11] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -982,7 +774,7 @@ case 103:
     var2 = 'ProgramRewardsStore';
     var8['displayName'] = var2;
     var8['persistKey'] = var2;
-    var2 = 15;
+    var2 = 14;
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
@@ -1003,7 +795,7 @@ case 103:
     };
     var2['PROGRAM_REWARDS_FETCH'] = var10;
     var10 = function handleProgramRewardsFetchSuccess(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.programRewards;
@@ -1012,11 +804,11 @@ case 0:
             var5 = _closure1_slot10;
             var4 = var5.isLoading;
             var4 = var4.bind(var5)();
-            if(var4) { _fun0015_ip = 60; continue _fun0015 }
-case 104:
+            if(var4) { _fun0013_ip = 56; continue _fun0013 }
+case 76:
             var4 = false;
             return var4;
-case 60:
+case 56:
             var4 = global;
             var4 = var4.Map;
             var5 = var4.prototype;
@@ -1046,16 +838,16 @@ case 60:
     };
     var2['PROGRAM_REWARDS_FETCH_SUCCESS'] = var10;
     var9 = function handleProgramRewardsFetchFailure() {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var3 = _closure1_slot10;
             var2 = var3.isLoading;
             var2 = var2.bind(var3)();
-            if(var2) { _fun0016_ip = 105; continue _fun0016 }
+            if(var2) { _fun0014_ip = 77; continue _fun0014 }
 case 33:
             var2 = false;
             return var2;
-case 105:
+case 77:
             var2 = _closure1_slot10;
             var1 = var2.setError;
             var1 = var1.bind(var2)();
@@ -1072,7 +864,7 @@ case 105:
     var12 = var2;
     var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 16;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

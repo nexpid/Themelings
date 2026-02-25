@@ -24,6 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9[1] = var10;
     var10 = {'enableObfuscation': true, 'enableIntegrityCheck': true};
     var9[2] = var10;
+    var10 = {'enableObfuscation': false, 'enableIntegrityCheck': false};
+    var9[3] = var10;
     var4['variations'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot0 = var4;

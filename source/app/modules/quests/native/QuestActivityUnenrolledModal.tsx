@@ -79,7 +79,7 @@ case 0:
             var3['quest'] = var30;
             var3['taskDetails'] = var8;
             var8 = _closure1_slot10;
-            var8 = var8.QUESTS_BAR;
+            var8 = var8.QUEST_ACTIVITY_UNENROLLED_MODAL;
             var3['location'] = var8;
             var8 = 18;
             var9 = var5[var8];

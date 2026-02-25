@@ -30,21 +30,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.ACTION_SHEET_MAX_DYNAMIC_CONTENT_SIZE_RATIO;
-    var _closure1_slot5 = var7;
     var4 = var4.ACTION_SHEET_START_HEIGHT_RATIO;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var7 = var5.bind(var1)(var4);
     var4 = var7.isIOS;
     var4 = var4.bind(var7)();
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -76,11 +74,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var10;
     var4['toast'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = {};
-    var7 = 'function ActionSheetBackdropToastTsx1(){const{isInIOS,isExpanded,maxDynamicContentSize,TOAST_BOTTOM_MARGIN,nonExpandedHeight,ACTION_SHEET_MAX_DYNAMIC_CONTENT_SIZE_RATIO,ACTION_SHEET_START_HEIGHT_RATIO,TOAST_BOTTOM_GAP_EXPANDED,TOAST_BOTTOM_GAP,positionDelta,TOAST_ANIMATION_Y_DELTA,opacity}=this.__closure;return{bottom:(isInIOS?isExpanded?maxDynamicContentSize+TOAST_BOTTOM_MARGIN:nonExpandedHeight+TOAST_BOTTOM_MARGIN:(isExpanded?ACTION_SHEET_MAX_DYNAMIC_CONTENT_SIZE_RATIO:ACTION_SHEET_START_HEIGHT_RATIO)*maxDynamicContentSize+(isExpanded?TOAST_BOTTOM_GAP_EXPANDED:TOAST_BOTTOM_GAP))+ +(1-positionDelta.get())*TOAST_ANIMATION_Y_DELTA,opacity:opacity.get()};}';
+    var7 = 'function ActionSheetBackdropToastTsx1(){const{isInIOS,isExpanded,maxDynamicContentSize,TOAST_BOTTOM_MARGIN,nonExpandedHeight,ACTION_SHEET_START_HEIGHT_RATIO,TOAST_BOTTOM_GAP,positionDelta,TOAST_ANIMATION_Y_DELTA,opacity}=this.__closure;return{bottom:(isInIOS?isExpanded?maxDynamicContentSize+TOAST_BOTTOM_MARGIN:nonExpandedHeight+TOAST_BOTTOM_MARGIN:isExpanded?maxDynamicContentSize+TOAST_BOTTOM_MARGIN:ACTION_SHEET_START_HEIGHT_RATIO*maxDynamicContentSize+TOAST_BOTTOM_GAP)+ +(1-positionDelta.get())*TOAST_ANIMATION_Y_DELTA,opacity:opacity.get()};}';
     var4['code'] = var7;
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -92,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var1.text;
         var18 = var1.isExpanded;
         var _closure2_slot0 = var18;
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot8;
         var4 = undefined;
         var7 = var3.bind(var4)();
         var6 = _closure1_slot1;
@@ -107,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6.bind(var4)(var3);
         var3 = var3.bind(var4)();
         var11 = var3.height;
-        var15 = _closure1_slot6;
+        var15 = _closure1_slot5;
         var16 = var11 * var15;
         var _closure2_slot1 = var16;
         var8 = _closure1_slot0;
@@ -233,45 +231,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var10[var5];
         var11 = var8.bind(var4)(var3);
         var3 = var11.useAnimatedStyle;
-        var2 = function D() {
+        var2 = function x() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = {};
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot7;
                 var3 = _closure2_slot0;
                 if(var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var5 = _closure1_slot6;
-                _fun0001_ip = 6; continue _fun0001;
-case 4:
                 var5 = _closure1_slot5;
-case 6:
                 var4 = _closure2_slot2;
                 var5 = var5 * var4;
-                var6 = _closure2_slot0;
                 var4 = 46;
-                if(!var6) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-                var4 = 72;
-case 7:
                 var4 = var5 + var4;
-                _fun0001_ip = 9; continue _fun0001;
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
+                var6 = _closure2_slot2;
+                var5 = 24;
+                var4 = var6 + var5;
+case 6:
+                _fun0001_ip = 7; continue _fun0001;
 case 2:
-                if(var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+                if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var5 = _closure2_slot1;
                 var3 = 24;
                 var3 = var5 + var3;
-                _fun0001_ip = 12; continue _fun0001;
-case 10:
+                _fun0001_ip = 10; continue _fun0001;
+case 8:
                 var6 = _closure2_slot2;
                 var5 = 24;
                 var3 = var6 + var5;
-case 12:
+case 10:
                 var4 = var3;
-case 9:
+case 7:
                 var5 = _closure2_slot3;
                 var3 = var5.get;
                 var5 = var3.bind(var5)();
@@ -289,18 +284,14 @@ case 9:
             }
         };
         var12 = {};
-        var19 = _closure1_slot8;
+        var19 = _closure1_slot7;
         var12['isInIOS'] = var19;
         var12['isExpanded'] = var18;
         var12['maxDynamicContentSize'] = var17;
         var17 = 24;
         var12['TOAST_BOTTOM_MARGIN'] = var17;
         var12['nonExpandedHeight'] = var16;
-        var16 = _closure1_slot5;
-        var12['ACTION_SHEET_MAX_DYNAMIC_CONTENT_SIZE_RATIO'] = var16;
         var12['ACTION_SHEET_START_HEIGHT_RATIO'] = var15;
-        var15 = 72;
-        var12['TOAST_BOTTOM_GAP_EXPANDED'] = var15;
         var15 = 46;
         var12['TOAST_BOTTOM_GAP'] = var15;
         var12['positionDelta'] = var14;
@@ -308,12 +299,12 @@ case 9:
         var12['TOAST_ANIMATION_Y_DELTA'] = var14;
         var12['opacity'] = var13;
         var2['__closure'] = var12;
-        var12 = 4629963124809.0;
+        var12 = 9630436597435.0;
         var2['__workletHash'] = var12;
-        var12 = _closure1_slot10;
+        var12 = _closure1_slot9;
         var2['__initData'] = var12;
         var11 = var3.bind(var11)(var2);
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot6;
         var2 = _closure1_slot4;
         var1 = {};
         var13 = var7.container;

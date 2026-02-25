@@ -433,7 +433,7 @@ case 24:
                     var6 = var9[var6];
                     var6 = var8.bind(var7)(var6);
                     var6 = var6.AdCreativeType;
-                    var6 = var6.QUEST_HOME_HEROES;
+                    var6 = var6.QUEST_HOME_HERO;
                     var1['adCreativeType'] = var6;
                     var1['event'] = var5;
                     var5 = _closure2_slot3;

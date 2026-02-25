@@ -1008,7 +1008,7 @@ case 156:
 case 158:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot3;
-                    var7 = 50;
+                    var7 = 51;
                     var7 = var10[var7];
                     var8 = var8.bind(var1)(var7);
                     var7 = {};
@@ -1097,26 +1097,24 @@ case 162:
                     var7 = function() {
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot3;
-                        var1 = 35;
+                        var1 = 36;
                         var5 = var2[var1];
                         var1 = undefined;
-                        var8 = var4.bind(var1)(var5);
-                        var7 = var8.transitionTo;
-                        var5 = _closure1_slot11;
-                        var6 = var5.NOTIFICATIONS;
+                        var7 = var4.bind(var1)(var5);
+                        var6 = var7.navigateToRootTab;
                         var5 = {};
-                        var9 = true;
-                        var5['navigationReplace'] = var9;
-                        var5 = var7.bind(var8)(var6, var5);
+                        var8 = 'notifications';
+                        var5['screen'] = var8;
+                        var5 = var6.bind(var7)(var5);
                         var5 = _closure1_slot1;
-                        var3 = 47;
+                        var3 = 48;
                         var3 = var2[var3];
                         var6 = var5.bind(var1)(var3);
                         var5 = var6.openLazy;
-                        var3 = 49;
+                        var3 = 50;
                         var3 = var2[var3];
                         var4 = var4.bind(var1)(var3);
-                        var3 = 48;
+                        var3 = 49;
                         var3 = var2[var3];
                         var2 = var2.paths;
                         var4 = var4.bind(var1)(var3, var2);
@@ -1171,7 +1169,7 @@ case 149:
 case 147:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var7 = 46;
+                    var7 = 47;
                     var7 = var9[var7];
                     var8 = var8.bind(var1)(var7);
                     var7 = {};
@@ -1218,14 +1216,14 @@ case 22:
 case 163:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot3;
-                            var2 = 38;
+                            var2 = 39;
                             var2 = var6[var2];
                             var3 = var5.bind(var1)(var2);
                             var2 = {};
                             var4 = _closure2_slot0;
                             var4 = var4.user_id;
                             var2['userId'] = var4;
-                            var4 = 39;
+                            var4 = 40;
                             var4 = var6[var4];
                             var4 = var5.bind(var1)(var4);
                             var5 = var4.PUSH_NOTIFICATION;
@@ -1247,7 +1245,7 @@ case 143:
 case 0:
                             var6 = _closure1_slot0;
                             var7 = _closure1_slot3;
-                            var1 = 41;
+                            var1 = 42;
                             var2 = var7[var1];
                             var1 = undefined;
                             var8 = var6.bind(var1)(var2);
@@ -1256,7 +1254,7 @@ case 0:
                             var4 = var12.channel_id;
                             var4 = var5.bind(var8)(var4);
                             var13 = _closure1_slot1;
-                            var4 = 42;
+                            var4 = 43;
                             var4 = var7[var4];
                             var9 = var13.bind(var1)(var4);
                             var8 = var9.call;
@@ -1270,7 +1268,7 @@ case 0:
                             var5 = _closure1_slot9;
                             var8 = var5.RING_CALL_ACCEPTED;
                             var5 = {};
-                            var10 = 39;
+                            var10 = 40;
                             var10 = var7[var10];
                             var10 = var13.bind(var1)(var10);
                             var10 = var10.PUSH_NOTIFICATION;
@@ -1279,7 +1277,7 @@ case 0:
                             var5['guild_id'] = var10;
                             var10 = var12.user_id;
                             var5['ringer_user_id'] = var10;
-                            var10 = 43;
+                            var10 = 44;
                             var13 = var7[var10];
                             var14 = var6.bind(var1)(var13);
                             var13 = var14.collectChannelAnalyticsMetadataFromId;
@@ -1288,7 +1286,7 @@ case 0:
                             var17 = var5;
                             var12 = copyDataProperties(var17, var16);
                             var5 = var9.bind(var11)(var8, var5);
-                            var5 = 44;
+                            var5 = 45;
                             var5 = var7[var5];
                             var6 = var6.bind(var1)(var5);
                             var5 = var6.isAndroid;
@@ -1322,7 +1320,7 @@ case 167:
 case 166:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot3;
-                            var3 = 45;
+                            var3 = 46;
                             var3 = var5[var3];
                             var3 = var4.bind(var1)(var3);
                             var2 = _closure2_slot0;
@@ -1341,7 +1339,7 @@ case 141:
                     var7 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
-                        var1 = 41;
+                        var1 = 42;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -1392,7 +1390,7 @@ case 173:
 case 170:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var7 = 40;
+                    var7 = 41;
                     var7 = var9[var7];
                     var9 = var8.bind(var1)(var7);
                     var8 = var9.openPrivateChannel;
@@ -1409,34 +1407,35 @@ case 168:
                     var7 = function() {
                         var7 = _closure1_slot0;
                         var6 = _closure1_slot3;
-                        var1 = 35;
+                        var1 = 36;
                         var3 = var6[var1];
                         var1 = undefined;
                         var5 = var7.bind(var1)(var3);
-                        var4 = var5.transitionTo;
-                        var3 = _closure1_slot11;
-                        var3 = var3.NOTIFICATIONS;
+                        var4 = var5.navigateToRootTab;
+                        var3 = {};
+                        var8 = 'notifications';
+                        var3['screen'] = var8;
                         var3 = var4.bind(var5)(var3);
                         var4 = _closure1_slot2;
-                        var3 = 36;
+                        var3 = 37;
                         var3 = var6[var3];
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.setTab;
-                        var3 = 37;
+                        var3 = 38;
                         var3 = var6[var3];
                         var3 = var7.bind(var1)(var3);
                         var3 = var3.NotificationCenterTabs;
                         var3 = var3.ForYou;
                         var3 = var4.bind(var5)(var3);
                         var5 = _closure1_slot1;
-                        var2 = 38;
+                        var2 = 39;
                         var2 = var6[var2];
                         var3 = var5.bind(var1)(var2);
                         var2 = {};
                         var4 = _closure2_slot0;
                         var4 = var4.user_id;
                         var2['userId'] = var4;
-                        var4 = 39;
+                        var4 = 40;
                         var4 = var6[var4];
                         var4 = var5.bind(var1)(var4);
                         var5 = var4.PUSH_NOTIFICATION;
@@ -1581,7 +1580,7 @@ case 153:
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot14 = var4;
-    var4 = 51;
+    var4 = 52;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

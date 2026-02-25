@@ -156,7 +156,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    var18 = new Array(15);
+    var18 = new Array(16);
     var18[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -228,6 +228,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.GUILD_TAG_UPDATED_COACHMARK;
     var18[14] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.GIFT_INTENT_MESSAGE;
+    var18[15] = var14;
     var _closure1_slot1 = var18;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

@@ -1,4 +1,4 @@
-// app/modules/game_community_upsell/GameCommunityConfig.tsx
+// app/modules/game_community_upsell/native/GameCommunityConfig.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/game_community_upsell/GameCommunityConfig.tsx';
+    var5 = 'modules/game_community_upsell/native/GameCommunityConfig.tsx';
     var5 = var6.bind(var7)(var5);
     var6 = {'id': '1402418491272986635', 'name': 'Minecraft', 'iosUrlSchemes': null, 'androidPackageName': 'minecraft', 'guildId': '302094807046684672', 'guildName': 'The official Minecraft Discord', 'overrideInstall': false};
     var5 = ['minecraft'];

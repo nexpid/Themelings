@@ -239,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 13;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
-            var4 = var5.deleteWebAuthnCredentialAsync;
+            var4 = var5.deleteWebAuthnCredential;
             var3 = _closure2_slot0;
             var5 = var4.bind(var5)(var3);
             var4 = var5.then;

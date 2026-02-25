@@ -174,8 +174,6 @@ case 2:
             return var1;
         };
         var2['BILLING_PROMOTION_DIRECT_FULFILLMENT_REDEMPTION'] = var15;
-        var15 = '/notifications';
-        var2['NOTIFICATIONS'] = var15;
         var15 = '/channels/@me';
         var2['FRIENDS'] = var15;
         var2['ME'] = var15;

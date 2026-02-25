@@ -63,7 +63,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['_consecutiveFlushesBeforeQueueEmpty'] = var4;
             var4 = false;
             var3['_isBackgrounded'] = var4;
-            var3['_enableRequestIdleCallback'] = var4;
+            var5 = true;
+            var3['_enableRequestIdleCallback'] = var5;
             var3['_criticalWorkScheduled'] = var4;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;

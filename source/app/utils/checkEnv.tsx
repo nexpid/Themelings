@@ -180,10 +180,17 @@ case 49:
 case 48:
         if(var3) { _fun0001_ip = 50; continue _fun0001 }
 case 51:
+        var4 = var2.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.MUX_ENV_KEY;
+        var3 = var5 != var4;
+case 50:
+        if(var3) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
         var3 = var2.window;
         var3 = var3.GLOBAL_ENV;
-        var3 = var3.MUX_ENV_KEY;
-case 50:
+        var3 = var3.WEBAUTHN_ORIGIN;
+case 52:
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
         var3 = '//discord.com/api';
@@ -277,6 +284,10 @@ case 50:
         var4 = var3.GLOBAL_ENV;
         var3 = 'https://discord.com';
         var4['MIGRATION_DESTINATION_ORIGIN'] = var3;
+        var3 = var1.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'discord.com';
+        var4['WEBAUTHN_ORIGIN'] = var3;
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
         var3 = '//latency.discord.media/rtc';

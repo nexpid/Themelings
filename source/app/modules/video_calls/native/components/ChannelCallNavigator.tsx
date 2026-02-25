@@ -615,13 +615,13 @@ case 40:
             var1 = var7.isVocalThread;
             var1 = var1.bind(var7)();
             if(var1) { _fun0006_ip = 39; continue _fun0006 }
-case 12:
+case 41:
             var3 = _closure1_slot13;
             var2 = _closure1_slot21;
             var1 = {};
             var1['channel'] = var7;
             var8 = var3.bind(var4)(var2, var1);
-            _fun0006_ip = 41; continue _fun0006;
+            _fun0006_ip = 42; continue _fun0006;
 case 39:
             var3 = _closure1_slot13;
             var2 = _closure1_slot6;
@@ -633,27 +633,27 @@ case 39:
             var12 = _closure1_slot13;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
-            if(var9) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
+            if(var9) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
             var9 = 15;
             var9 = var13[var9];
             var10 = var11.bind(var4)(var9);
             var9 = {};
             var9['channel'] = var7;
             var9 = var12.bind(var4)(var10, var9);
-            _fun0006_ip = 44; continue _fun0006;
-case 42:
+            _fun0006_ip = 45; continue _fun0006;
+case 43:
             var10 = 14;
             var10 = var13[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
             var10['channel'] = var7;
             var9 = var12.bind(var4)(var11, var10);
-case 44:
+case 45:
             var1['children'] = var9;
             var8 = var3.bind(var4)(var2, var1);
-case 41:
-            _fun0006_ip = 45; continue _fun0006;
+case 42:
+            _fun0006_ip = 46; continue _fun0006;
 case 37:
             var3 = _closure1_slot13;
             var10 = _closure1_slot1;
@@ -672,7 +672,7 @@ case 37:
             var7 = var7.id;
             var1['channelId'] = var7;
             var8 = var3.bind(var4)(var2, var1);
-case 45:
+case 46:
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
             var1 = 27;
@@ -690,10 +690,10 @@ case 45:
             var10 = var10.bind(var4)(var7);
             var7 = var10.isAndroid;
             var7 = var7.bind(var10)();
-            if(var7) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+            if(var7) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var7 = !var6;
-case 46:
+case 47:
             var1['forceHide'] = var7;
             var6 = !var6;
             var1['showWhenParticipantOnScreen'] = var6;

@@ -375,38 +375,38 @@ case 38:
                         var8 = var1.bind(var3)(var6);
                         var7 = var1.bind(var3)(var2);
                         var1 = 'quest';
-                        if(!(var1 === var8)) { _fun0005_ip = 40; continue _fun0005 }
-case 24:
-                        if(!(var1 !== var7)) { _fun0005_ip = 41; continue _fun0005 }
+                        if(!(var1 === var8)) { _fun0005_ip = 27; continue _fun0005 }
 case 40:
+                        if(!(var1 !== var7)) { _fun0005_ip = 4; continue _fun0005 }
+case 27:
                         var1 = global;
                         var1 = var1.HermesInternal;
                         var5 = var1.concat;
                         var4 = '';
                         var1 = '_to_';
                         var1 = var5.bind(var4)(var8, var1, var7);
-                        _fun0005_ip = 42; continue _fun0005;
-case 41:
+                        _fun0005_ip = 41; continue _fun0005;
+case 4:
                         var5 = null;
                         var7 = var5 == var6;
                         var4 = undefined;
-                        if(var7) { _fun0005_ip = 20; continue _fun0005 }
+                        if(var7) { _fun0005_ip = 42; continue _fun0005 }
 case 43:
                         var4 = var6.questId;
-case 20:
+case 42:
                         var5 = var5 == var2;
                         var3 = undefined;
                         if(var5) { _fun0005_ip = 44; continue _fun0005 }
-case 21:
+case 45:
                         var3 = var2.questId;
 case 44:
                         var2 = 'different_quest';
-                        if(!(var4 === var3)) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                        if(!(var4 === var3)) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
                         var2 = 'same_quest';
-case 45:
+case 46:
                         var1 = var2;
-case 42:
+case 41:
                         return var1;
                     }
                 };

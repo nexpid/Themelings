@@ -2232,70 +2232,58 @@ case 216:
                     var25 = _closure1_slot2;
                     var13 = 25;
                     var13 = var25[var13];
-                    var27 = var15.bind(var3)(var13);
-                    var26 = var27.getUploadTarget;
+                    var25 = var15.bind(var3)(var13);
+                    var15 = var25.getUploadTarget;
                     var13 = var6.item;
                     var13 = var13.target;
-                    var28 = var26.bind(var27)(var13);
+                    var28 = var15.bind(var25)(var13);
                     _closure4_slot3 = var28;
-                    var13 = 26;
-                    var13 = var25[var13];
-                    var25 = var15.bind(var3)(var13);
-                    var15 = var25.getDetectedFileSizeExperimentConfig;
-                    var13 = {};
-                    var26 = 'CloudUpload.upload';
-                    var13['location'] = var26;
-                    var13 = var15.bind(var25)(var13);
-                    var25 = var5.filename;
+                    var13 = var5.filename;
                     var15 = null;
-                    if(!(var15 != var25)) { _fun0024_ip = 217; continue _fun0024 }
+                    if(!(var15 != var13)) { _fun0024_ip = 217; continue _fun0024 }
 case 218:
-                    var26 = var5.filename;
-                    var25 = '';
-                    if(!(var25 !== var26)) { _fun0024_ip = 217; continue _fun0024 }
-case 219:
-                    var13 = var13.useDetectedFileSize;
-                    if(!var13) { _fun0024_ip = 220; continue _fun0024 }
-case 221:
+                    var25 = var5.filename;
+                    var13 = '';
+                    if(!(var13 !== var25)) { _fun0024_ip = 217; continue _fun0024 }
+case 84:
                     var13 = var6.currentSize;
-case 220:
                     var13 = var6.currentSize;
                     var27 = 0;
-                    if(!(var27 === var13)) { _fun0024_ip = 222; continue _fun0024 }
-case 223:
+                    if(!(var27 === var13)) { _fun0024_ip = 219; continue _fun0024 }
+case 220:
                     var25 = var6.handleError;
                     var13 = _closure1_slot14;
                     var13 = var13.ENTITY_EMPTY;
                     var13 = var25.bind(var6)(var13);
                     _fun0024_ip = 193; continue _fun0024;
-case 222:
+case 219:
                     var13 = var6.currentSize;
                     var26 = var15 != var13;
                     var25 = 0;
-                    if(!var26) { _fun0024_ip = 224; continue _fun0024 }
-case 225:
+                    if(!var26) { _fun0024_ip = 221; continue _fun0024 }
+case 222:
                     var25 = var13;
-case 224:
+case 221:
                     var26 = var28.getMaxFileSize;
                     var13 = var6.channelId;
                     var13 = var26.bind(var28)(var13);
-                    if(!(!(var25 > var13))) { _fun0024_ip = 226; continue _fun0024 }
-case 227:
+                    if(!(!(var25 > var13))) { _fun0024_ip = 223; continue _fun0024 }
+case 224:
                     var26 = _closure1_slot11;
                     var25 = var26.get;
                     var13 = 'upload_fail_50';
                     var13 = var25.bind(var26)(var13);
-                    if(!var13) { _fun0024_ip = 228; continue _fun0024 }
-case 229:
+                    if(!var13) { _fun0024_ip = 225; continue _fun0024 }
+case 226:
                     var25 = var8.Math;
                     var13 = var25.random;
                     var25 = var13.bind(var25)();
                     var13 = 0.5;
-                    if(!(!(var25 < var13))) { _fun0024_ip = 230; continue _fun0024 }
-case 228:
+                    if(!(!(var25 < var13))) { _fun0024_ip = 227; continue _fun0024 }
+case 225:
                     var25 = _closure1_slot1;
                     var26 = _closure1_slot2;
-                    var13 = 28;
+                    var13 = 27;
                     var13 = var26[var13];
                     var28 = var25.bind(var3)(var13);
                     var26 = var28.getCurrentConfig;
@@ -2310,8 +2298,8 @@ case 228:
                     _closure4_slot4 = var13;
                     var16 = null;
                     var13 = var13.enabled;
-                    if(!var13) { _fun0024_ip = 231; continue _fun0024 }
-case 232:
+                    if(!var13) { _fun0024_ip = 228; continue _fun0024 }
+case 229:
                     var26 = var6.trackTime;
                     var25 = _closure1_slot4;
                     var13 = function* () {
@@ -2330,10 +2318,10 @@ case 125:
                                 SaveGenerator(address=39);
 case 63:
                                 return var2;
-case 233:
+case 230:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                                 if(var3) { _fun0025_ip = 188; continue _fun0025 }
-case 234:
+case 231:
                                 return var2;
 case 188:
                                 return var2;
@@ -2346,7 +2334,7 @@ case 2:
                     var25 = var25.bind(var3)(var13);
                     var13 = 'hashTimeMs';
                     var16 = var26.bind(var6)(var13, var25);
-case 231: // try_start_0
+case 228: // try_start_0
                     var26 = _closure1_slot16;
                     var25 = var26.log;
                     var29 = var6.id;
@@ -2363,8 +2351,8 @@ case 231: // try_start_0
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0026_ip = 235; continue _fun0026 }
-case 236:
+                                if(var2) { _fun0026_ip = 232; continue _fun0026 }
+case 233:
                                 var4 = _closure4_slot3;
                                 var3 = var4.getCreateAttachmentURL;
                                 var6 = _closure4_slot1;
@@ -2397,14 +2385,14 @@ case 236:
                                 SaveGenerator(address=143);
 case 103:
                                 return var2;
-case 237:
+case 234:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                                 if(var3) { _fun0026_ip = 102; continue _fun0026 }
-case 238:
+case 235:
                                 return var2;
 case 102:
                                 return var2;
-case 235:
+case 232:
                                 return var1;
                             }
                         };
@@ -2413,13 +2401,13 @@ case 235:
                     var25 = var25.bind(var3)(var13);
                     var13 = 'getUploadUrlTimeMs';
                     var13 = var26.bind(var6)(var13, var25);
-                    SaveGenerator(address=965);
-case 239:
+                    SaveGenerator(address=921);
+case 236:
                     return var13;
-case 240:
+case 237:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=24);
-                    if(var25) { _fun0024_ip = 241; continue _fun0024 }
-case 242:
+                    if(var25) { _fun0024_ip = 238; continue _fun0024 }
+case 239:
                     var26 = var6.setResponseUrl;
                     var25 = var13.body;
                     var25 = var25.attachments;
@@ -2432,24 +2420,24 @@ case 242:
                     var25 = var25[var27];
                     var25 = var25.upload_filename;
                     var25 = var26.bind(var6)(var25);
-case 243: // try_end0
+case 240: // try_end0
                     var25 = var16;
-                    if(!(var15 == var25)) { _fun0024_ip = 244; continue _fun0024 }
-case 245:
-                    _fun0024_ip = 246; continue _fun0024;
+                    if(!(var15 == var25)) { _fun0024_ip = 241; continue _fun0024 }
+case 242:
+                    _fun0024_ip = 243; continue _fun0024;
+case 241:
+                    SaveGenerator(address=1015);
 case 244:
-                    SaveGenerator(address=1059);
-case 247:
                     return var16;
-case 248:
+case 245:
                     ResumeGenerator(result_out_reg=15, return_bool_out_reg=24);
-                    if(var25) { _fun0024_ip = 249; continue _fun0024 }
-case 250:
+                    if(var25) { _fun0024_ip = 246; continue _fun0024 }
+case 247:
                     var18 = var16;
-                    if(!(var15 != var16)) { _fun0024_ip = 246; continue _fun0024 }
-case 251:
+                    if(!(var15 != var16)) { _fun0024_ip = 243; continue _fun0024 }
+case 248:
                     var6['contentHash'] = var18;
-case 246: // try_start_1
+case 243: // try_start_1
                     var26 = var6.trackTime;
                     var25 = _closure1_slot4;
                     var18 = function* () {
@@ -2458,7 +2446,7 @@ case 246: // try_start_1
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0027_ip = 252; continue _fun0027 }
+                                if(var2) { _fun0027_ip = 249; continue _fun0027 }
 case 125:
                                 var3 = _closure4_slot1;
                                 var2 = var3.uploadFileToCloud;
@@ -2466,14 +2454,14 @@ case 125:
                                 SaveGenerator(address=30);
 case 74:
                                 return var2;
-case 253:
+case 250:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                if(var3) { _fun0027_ip = 233; continue _fun0027 }
+                                if(var3) { _fun0027_ip = 230; continue _fun0027 }
 case 26:
                                 return var2;
-case 233:
+case 230:
                                 return var2;
-case 252:
+case 249:
                                 return var1;
                             }
                         };
@@ -2482,49 +2470,49 @@ case 252:
                     var25 = var25.bind(var3)(var18);
                     var18 = 'uploadTimeMs';
                     var18 = var26.bind(var6)(var18, var25);
-                    SaveGenerator(address=1117);
-case 254:
+                    SaveGenerator(address=1073);
+case 251:
                     return var18;
-case 255:
+case 252:
                     ResumeGenerator(result_out_reg=17, return_bool_out_reg=24);
-                    if(var25) { _fun0024_ip = 256; continue _fun0024 }
-case 257:
+                    if(var25) { _fun0024_ip = 253; continue _fun0024 }
+case 254:
                     var19 = var18;
                     var25 = var21;
                     var25 = var25.enabled;
-                    if(!var25) { _fun0024_ip = 258; continue _fun0024 }
-case 259:
+                    if(!var25) { _fun0024_ip = 255; continue _fun0024 }
+case 256:
                     var25 = var19;
-                    if(!(var15 != var25)) { _fun0024_ip = 258; continue _fun0024 }
-case 260:
+                    if(!(var15 != var25)) { _fun0024_ip = 255; continue _fun0024 }
+case 257:
                     var22 = false;
                     var25 = var6.getEtagFromResponse;
                     var24 = var19;
                     var24 = var25.bind(var6)(var24);
                     var23 = var24;
-                    if(!(var15 != var24)) { _fun0024_ip = 261; continue _fun0024 }
-case 262:
+                    if(!(var15 != var24)) { _fun0024_ip = 258; continue _fun0024 }
+case 259:
                     var24 = var23;
                     var6['etag'] = var24;
                     var23 = var6.contentHash;
                     var22 = var24 === var23;
-case 261:
+case 258:
                     var23 = var6.uploadAnalytics;
                     var23['validUploadHash'] = var22;
-                    if(var22) { _fun0024_ip = 258; continue _fun0024 }
-case 263:
+                    if(var22) { _fun0024_ip = 255; continue _fun0024 }
+case 260:
                     var21 = var21.enforced;
-                    if(!var21) { _fun0024_ip = 258; continue _fun0024 }
-case 264:
+                    if(!var21) { _fun0024_ip = 255; continue _fun0024 }
+case 261:
                     var21 = var6.filename;
                     var20 = var21;
-                    if(!(var15 == var21)) { _fun0024_ip = 265; continue _fun0024 }
-case 266:
+                    if(!(var15 == var21)) { _fun0024_ip = 262; continue _fun0024 }
+case 263:
                     var26 = var6.id;
-                    _fun0024_ip = 267; continue _fun0024;
-case 265:
+                    _fun0024_ip = 264; continue _fun0024;
+case 262:
                     var26 = var20;
-case 267:
+case 264:
                     var32 = var6.etag;
                     var30 = var6.contentHash;
                     var20 = var8.HermesInternal;
@@ -2539,7 +2527,7 @@ case 267:
                     var20 = var20.bind(var21)(var22);
                     var21 = _closure1_slot1;
                     var23 = _closure1_slot2;
-                    var20 = 29;
+                    var20 = 28;
                     var20 = var23[var20];
                     var21 = var21.bind(var3)(var20);
                     var20 = var21.captureMessage;
@@ -2548,26 +2536,26 @@ case 267:
                     var20 = _closure1_slot14;
                     var20 = var20.INVALID_FILE_ASSET;
                     var20 = var21.bind(var6)(var20);
-case 268: // try_end1
+case 265: // try_end1
                     var20 = undefined;
                     return var20;
-case 258: // try_start_2
+case 255: // try_start_2
                     var21 = var6.trackUploadFinished;
                     var20 = _closure1_slot18;
                     var20 = var20.COMPLETED;
                     var20 = var21.bind(var6)(var20);
                     var20 = var6.handleComplete;
                     var19 = var20.bind(var6)(var19);
-case 269: // try_end2
+case 266: // try_end2
                     _fun0024_ip = 193; continue _fun0024;
-case 256:
+case 253:
                     return var18;
-case 270: // catch_target1 // catch_target2
+case 267: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=16);
                     var18 = var6.isCancelled;
                     var18 = var18.bind(var6)();
-                    if(var18) { _fun0024_ip = 271; continue _fun0024 }
-case 272:
+                    if(var18) { _fun0024_ip = 268; continue _fun0024 }
+case 269:
                     var21 = _closure1_slot16;
                     var20 = var21.info;
                     var19 = var17;
@@ -2582,58 +2570,58 @@ case 272:
                     var18 = var6.handleError;
                     var18 = var18.bind(var6)(var19);
                     _fun0024_ip = 193; continue _fun0024;
-case 271:
+case 268:
                     var18 = var6.handleComplete;
                     var17 = var18.bind(var6)(var17);
                     _fun0024_ip = 193; continue _fun0024;
-case 249:
+case 246:
                     return var16;
-case 241:
+case 238:
                     return var13;
-case 273: // catch_target0
+case 270: // catch_target0
                     CatchBlockStart(arg_register=12);
                     var11 = var13;
                     var16 = var15 == var13;
                     var13 = undefined;
-                    if(var16) { _fun0024_ip = 274; continue _fun0024 }
-case 275:
+                    if(var16) { _fun0024_ip = 271; continue _fun0024 }
+case 272:
                     var16 = var11;
                     var16 = var16.body;
                     var14 = var16;
                     var16 = var15 == var16;
                     var13 = undefined;
-                    if(var16) { _fun0024_ip = 274; continue _fun0024 }
-case 276:
+                    if(var16) { _fun0024_ip = 271; continue _fun0024 }
+case 273:
                     var13 = var14.code;
-case 274:
+case 271:
                     var12 = var13;
-                    if(!(var15 == var13)) { _fun0024_ip = 277; continue _fun0024 }
-case 278:
+                    if(!(var15 == var13)) { _fun0024_ip = 274; continue _fun0024 }
+case 275:
                     var13 = var11;
                     var13 = var13.status;
-                    _fun0024_ip = 279; continue _fun0024;
-case 277:
+                    _fun0024_ip = 276; continue _fun0024;
+case 274:
                     var13 = var12;
-case 279:
+case 276:
                     var10 = var13;
                     var12 = _closure1_slot14;
                     var12 = var12.ENTITY_TOO_LARGE;
-                    if(!(var13 !== var12)) { _fun0024_ip = 280; continue _fun0024 }
-case 281:
+                    if(!(var13 !== var12)) { _fun0024_ip = 277; continue _fun0024 }
+case 278:
                     var14 = _closure1_slot16;
                     var13 = var14.error;
                     var12 = var10;
-                    if(!(var15 == var12)) { _fun0024_ip = 282; continue _fun0024 }
-case 283:
+                    if(!(var15 == var12)) { _fun0024_ip = 279; continue _fun0024 }
+case 280:
                     var16 = var8.JSON;
                     var15 = var16.stringify;
                     var12 = var11;
                     var12 = var12.body;
                     var18 = var15.bind(var16)(var12);
-                    _fun0024_ip = 284; continue _fun0024;
-case 282:
+                    _fun0024_ip = 281; continue _fun0024;
+case 279:
                     var18 = var10;
-case 284:
+case 281:
                     var17 = var6.id;
                     var12 = var8.HermesInternal;
                     var16 = var12.concat;
@@ -2643,17 +2631,17 @@ case 284:
                     var12 = var13.bind(var14)(var12);
                     var13 = _closure1_slot1;
                     var14 = _closure1_slot2;
-                    var12 = 29;
+                    var12 = 28;
                     var12 = var14[var12];
                     var13 = var13.bind(var3)(var12);
                     var12 = var13.captureException;
                     var11 = var12.bind(var13)(var11);
-case 280:
+case 277:
                     var11 = var6.handleError;
                     var10 = var11.bind(var6)(var10);
                     var10 = undefined;
                     return var10;
-case 230:
+case 227:
                     var11 = var8.setTimeout;
                     var10 = function() {
                         var3 = _closure4_slot0;
@@ -2666,7 +2654,7 @@ case 230:
                     var9 = 1000;
                     var9 = var11.bind(var3)(var10, var9);
                     _fun0024_ip = 193; continue _fun0024;
-case 226:
+case 223:
                     var10 = var6.handleError;
                     var9 = _closure1_slot14;
                     var9 = var9.ENTITY_TOO_LARGE;
@@ -2728,7 +2716,7 @@ case 0:
                     StartGenerator();
                     var2 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0028_ip = 285; continue _fun0028 }
+                    if(var3) { _fun0028_ip = 282; continue _fun0028 }
 case 12:
                     var _closure4_slot0 = var2;
                     var6 = _closure1_slot0;
@@ -2742,7 +2730,7 @@ case 12:
                     var5 = var5.target;
                     var5 = var6.bind(var7)(var5);
                     var5 = var5.shouldReactNativeCompressUploads;
-                    if(var5) { _fun0028_ip = 286; continue _fun0028 }
+                    if(var5) { _fun0028_ip = 283; continue _fun0028 }
 case 124:
                     var6 = var2.uploadAnalytics;
                     var5 = true;
@@ -2752,10 +2740,10 @@ case 124:
                     var5 = 'reactNativeCompressAndExtractData() disabled by upload target';
                     var5 = var6.bind(var7)(var5);
                     return var2;
-case 286:
+case 283:
                     var6 = var2.reactNativeFilePrepped;
                     var5 = true;
-                    if(!(var5 !== var6)) { _fun0028_ip = 287; continue _fun0028 }
+                    if(!(var5 !== var6)) { _fun0028_ip = 284; continue _fun0028 }
 case 33:
                     var9 = _closure1_slot16;
                     var8 = var9.log;
@@ -2774,11 +2762,11 @@ case 33:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0029_ip = 288; continue _fun0029 }
+                                if(var2) { _fun0029_ip = 285; continue _fun0029 }
 case 125:
                                 var4 = _closure1_slot0;
                                 var3 = _closure1_slot2;
-                                var2 = 30;
+                                var2 = 29;
                                 var3 = var3[var2];
                                 var2 = undefined;
                                 var5 = var4.bind(var2)(var3);
@@ -2788,10 +2776,10 @@ case 125:
                                 var2 = null;
                                 var7 = var2 != var6;
                                 var2 = 0;
-                                if(!var7) { _fun0029_ip = 289; continue _fun0029 }
+                                if(!var7) { _fun0029_ip = 286; continue _fun0029 }
 case 171:
                                 var2 = var6;
-case 289:
+case 286:
                                 var2 = var4.bind(var5)(var3, var2);
                                 SaveGenerator(address=75);
 case 70:
@@ -2799,11 +2787,11 @@ case 70:
 case 44:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                                 if(var3) { _fun0029_ip = 99; continue _fun0029 }
-case 290:
+case 287:
                                 return var2;
 case 99:
                                 return var2;
-case 288:
+case 285:
                                 return var1;
                             }
                         };
@@ -2817,14 +2805,14 @@ case 184:
                     return var4;
 case 39:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0028_ip = 291; continue _fun0028 }
+                    if(var7) { _fun0028_ip = 288; continue _fun0028 }
 case 135:
                     var9 = null;
-                    if(!(var9 != var4)) { _fun0028_ip = 292; continue _fun0028 }
-case 293:
+                    if(!(var9 != var4)) { _fun0028_ip = 289; continue _fun0028 }
+case 290:
                     var7 = var4.file;
-                    if(!(var9 != var7)) { _fun0028_ip = 292; continue _fun0028 }
-case 294:
+                    if(!(var9 != var7)) { _fun0028_ip = 289; continue _fun0028 }
+case 291:
                     var7 = var4.uri;
                     var8 = var4.file;
                     var11 = var8.name;
@@ -2836,7 +2824,7 @@ case 294:
                     var10 = var12.isResolvedUpload;
                     var8 = var4.file;
                     var8 = var10.bind(var12)(var8);
-                    if(!var8) { _fun0028_ip = 295; continue _fun0028 }
+                    if(!var8) { _fun0028_ip = 292; continue _fun0028 }
 case 202:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
@@ -2853,7 +2841,7 @@ case 202:
                     var8 = var4.file;
                     var8 = var8.isImage;
                     if(!var8) { _fun0028_ip = 59; continue _fun0028 }
-case 296:
+case 293:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.sourceWidth;
@@ -2865,8 +2853,8 @@ case 296:
 case 59:
                     var8 = var4.file;
                     var8 = var8.videoMetadata;
-                    if(!(var13 !== var8)) { _fun0028_ip = 297; continue _fun0028 }
-case 298:
+                    if(!(var13 !== var8)) { _fun0028_ip = 294; continue _fun0028 }
+case 295:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.videoMetadata;
@@ -2907,11 +2895,11 @@ case 298:
                     var8 = var8.videoMetadata;
                     var8 = var8.sourceLevel;
                     var10['sourceVideoLevel'] = var8;
-case 297:
+case 294:
                     var8 = var4.file;
                     var8 = var8.encodingConfig;
-                    if(!(var13 !== var8)) { _fun0028_ip = 239; continue _fun0028 }
-case 225:
+                    if(!(var13 !== var8)) { _fun0028_ip = 296; continue _fun0028 }
+case 297:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.encodingConfig;
@@ -2932,10 +2920,10 @@ case 225:
                     var8 = var8.encodingConfig;
                     var12 = var8.useHEVC;
                     var8 = 'avc1';
-                    if(!var12) { _fun0028_ip = 299; continue _fun0028 }
-case 300:
-                    var8 = 'hvc1';
+                    if(!var12) { _fun0028_ip = 298; continue _fun0028 }
 case 299:
+                    var8 = 'hvc1';
+case 298:
                     var10['targetVideoCodec'] = var8;
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
@@ -2957,7 +2945,7 @@ case 299:
                     var8 = var8.encodingConfig;
                     var8 = var8.progressUpdateGranularity;
                     var10['progressUpdateGranularity'] = var8;
-case 239:
+case 296:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.psnr;
@@ -2978,15 +2966,15 @@ case 239:
                     var8 = var4.file;
                     var8 = var8.ssimMeasurementLatencyMs;
                     var10['ssimMeasurementLatencyMs'] = var8;
-case 295:
+case 292:
                     var2['filename'] = var11;
-                    if(!(var9 != var11)) { _fun0028_ip = 241; continue _fun0028 }
+                    if(!(var9 != var11)) { _fun0028_ip = 300; continue _fun0028 }
 case 301:
-                    if(!(var9 != var7)) { _fun0028_ip = 241; continue _fun0028 }
+                    if(!(var9 != var7)) { _fun0028_ip = 300; continue _fun0028 }
 case 302:
                     var8 = var4.file;
                     var8 = var8.type;
-                    if(!(var9 != var8)) { _fun0028_ip = 241; continue _fun0028 }
+                    if(!(var9 != var8)) { _fun0028_ip = 300; continue _fun0028 }
 case 303:
                     var10 = var11.split;
                     var8 = '.';
@@ -3004,19 +2992,19 @@ case 304:
                     var10 = 'jpg';
                     var8 = var14;
                     if(!(var10 !== var12)) { _fun0028_ip = 306; continue _fun0028 }
-case 307:
+case 261:
                     var10 = 'jpeg';
                     var8 = var14;
                     if(!(var10 !== var12)) { _fun0028_ip = 306; continue _fun0028 }
-case 308:
+case 263:
                     var10 = var4.file;
                     var8 = var10.type;
 case 306:
                     var10 = var2.uploadAnalytics;
                     var10['convertedMimeType'] = var8;
                     var21 = var4.fileSize;
-                    if(!(var9 == var21)) { _fun0028_ip = 309; continue _fun0028 }
-case 310:
+                    if(!(var9 == var21)) { _fun0028_ip = 307; continue _fun0028 }
+case 308:
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var10 = 23;
@@ -3025,21 +3013,21 @@ case 310:
                     var10 = var12.getFileData;
                     var10 = var10.bind(var12)(var7);
                     SaveGenerator(address=1264);
+case 309:
+                    return var10;
+case 310:
+                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
+                    if(var12) { _fun0028_ip = 311; continue _fun0028 }
+case 312:
+                    var21 = var10.size;
+                    _fun0028_ip = 307; continue _fun0028;
 case 311:
                     return var10;
-case 312:
-                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(var12) { _fun0028_ip = 313; continue _fun0028 }
-case 314:
-                    var21 = var10.size;
-                    _fun0028_ip = 309; continue _fun0028;
-case 313:
-                    return var10;
-case 309:
+case 307:
                     var2['postCompressionSize'] = var21;
                     var2['currentSize'] = var21;
-                    if(!(var9 != var21)) { _fun0028_ip = 315; continue _fun0028 }
-case 316:
+                    if(!(var9 != var21)) { _fun0028_ip = 313; continue _fun0028 }
+case 314:
                     var12 = _closure1_slot16;
                     var10 = var12.log;
                     var26 = var2.mimeType;
@@ -3072,7 +3060,7 @@ case 316:
                     var2['item'] = var8;
                     var2['reactNativeFilePrepped'] = var5;
                     return var2;
-case 315:
+case 313:
                     var10 = _closure1_slot16;
                     var9 = var10.error;
                     var13 = var2.id;
@@ -3089,7 +3077,7 @@ case 315:
                     var8 = new var33[var10](var32, var31);
                     var8 = var8 instanceof Object ? var8 : var9;
                     throw var8;
-case 241:
+case 300:
                     var12 = _closure1_slot16;
                     var9 = var12.error;
                     var15 = {};
@@ -3121,7 +3109,7 @@ case 241:
                     var7 = new var33[var9](var32, var31);
                     var7 = var7 instanceof Object ? var7 : var8;
                     throw var7;
-case 292:
+case 289:
                     var8 = _closure1_slot16;
                     var7 = var8.error;
                     var10 = var2.id;
@@ -3131,9 +3119,9 @@ case 292:
                     var6 = var9.bind(var6)(var10);
                     var6 = var7.bind(var8)(var6);
                     return var2;
-case 291:
+case 288:
                     return var4;
-case 287:
+case 284:
                     var4 = var2.uploadAnalytics;
                     var4['fileAlreadyPrepped'] = var5;
                     var5 = _closure1_slot16;
@@ -3146,7 +3134,7 @@ case 287:
                     var3 = var6.bind(var3)(var7);
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 285:
+case 282:
                     return var1;
                 }
             };
@@ -3189,10 +3177,10 @@ case 97: // try_start_0
                 var1 = 'error';
                 var1 = var4.bind(var2)(var1, var3);
 case 44: // try_end0
-                _fun0030_ip = 317; continue _fun0030;
+                _fun0030_ip = 315; continue _fun0030;
 case 124: // catch_target0
                 CatchBlockStart(arg_register=0);
-case 317:
+case 315:
                 var1 = var2.removeAllListeners;
                 var1 = var1.bind(var2)();
                 var1 = undefined;
@@ -3252,11 +3240,11 @@ case 0:
                 var4 = var2.status;
                 var1 = _closure1_slot18;
                 var1 = var1.COMPLETED;
-                if(!(var4 === var1)) { _fun0031_ip = 318; continue _fun0031 }
-case 319:
+                if(!(var4 === var1)) { _fun0031_ip = 316; continue _fun0031 }
+case 317:
                 var1 = var2.delete;
                 var1 = var1.bind(var2)();
-case 318:
+case 316:
                 var1 = var2.setStatus;
                 var1 = var1.bind(var2)(var3);
                 var3 = var2.emit;
@@ -3379,7 +3367,7 @@ case 0:
                     var8 = var1 & var3;
                     var1 = var5;
                     if(!var8) { _fun0033_ip = 128; continue _fun0033 }
-case 233:
+case 230:
                     var1 = var5.prototype;
 case 128:
                     var5 = undefined;
@@ -3391,12 +3379,12 @@ case 128:
                     var3 = var1 & var3;
                     var1 = var5;
                     if(!var3) { _fun0033_ip = 189; continue _fun0033 }
-case 317:
+case 315:
                     var4 = 'function';
                     var3 = typeof var5;
                     var1 = var5;
                     if(!(var4 === var3)) { _fun0033_ip = 189; continue _fun0033 }
-case 320:
+case 318:
                     var1 = function(arg1) {
                         var4 = _closure4_slot1;
                         var3 = var4.apply;
@@ -3430,13 +3418,13 @@ case 0:
                     StartGenerator();
                     var5 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0034_ip = 238; continue _fun0034 }
+                    if(var2) { _fun0034_ip = 235; continue _fun0034 }
 case 72:
                     var2 = undefined;
                     var3 = undefined;
                     var6 = var5.uploadedFilename;
                     var4 = null;
-                    if(!(var4 != var6)) { _fun0034_ip = 321; continue _fun0034 }
+                    if(!(var4 != var6)) { _fun0034_ip = 319; continue _fun0034 }
 case 110:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -3450,7 +3438,7 @@ case 110:
                     var6 = var7.getDeleteUploadURL;
                     var5 = var5.uploadedFilename;
                     var3 = var6.bind(var7)(var5);
-case 320: // try_start_0
+case 318: // try_start_0
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var4 = 14;
@@ -3462,18 +3450,18 @@ case 320: // try_start_0
                     SaveGenerator(address=133);
 case 33:
                     return var3;
-case 322:
+case 320:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     if(var4) { _fun0034_ip = 103; continue _fun0034 }
-case 323: // try_end0
-                    _fun0034_ip = 321; continue _fun0034;
+case 321: // try_end0
+                    _fun0034_ip = 319; continue _fun0034;
 case 103:
                     return var3;
 case 13: // catch_target0
                     CatchBlockStart(arg_register=2);
-case 321:
+case 319:
                     return var2;
-case 238:
+case 235:
                     return var1;
                 }
             };
@@ -3550,7 +3538,7 @@ case 0:
                 var7 = this;
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 31;
+                var1 = 30;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -3564,10 +3552,10 @@ case 0:
                 var8 = null;
                 var10 = var8 != var9;
                 var8 = 'unknown';
-                if(!var10) { _fun0035_ip = 324; continue _fun0035 }
+                if(!var10) { _fun0035_ip = 322; continue _fun0035 }
 case 44:
                 var8 = var9;
-case 324:
+case 322:
                 var2['mime_type'] = var8;
                 var8 = _closure1_slot12;
                 var9 = var8.videoUploadQuality;
@@ -3616,7 +3604,7 @@ case 178:
 case 2:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 31;
+                var1 = 30;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -3635,19 +3623,19 @@ case 2:
                 var12 = var9 != var11;
                 var8 = 'unknown';
                 var10 = var8;
-                if(!var12) { _fun0036_ip = 235; continue _fun0036 }
+                if(!var12) { _fun0036_ip = 232; continue _fun0036 }
 case 102:
                 var10 = var11;
-case 235:
+case 232:
                 var2['mime_type'] = var10;
                 var10 = var7.uploadAnalytics;
                 var11 = var10.numUploadAttempts;
                 var12 = var9 != var11;
                 var10 = 1;
-                if(!var12) { _fun0036_ip = 325; continue _fun0036 }
+                if(!var12) { _fun0036_ip = 323; continue _fun0036 }
 case 183:
                 var10 = var11;
-case 325:
+case 323:
                 var2['num_upload_attempts'] = var10;
                 var10 = var7.error;
                 var2['error_code'] = var10;
@@ -3674,47 +3662,47 @@ case 325:
                 var11 = var10.convertedMimeType;
                 var12 = var9 != var11;
                 var10 = var8;
-                if(!var12) { _fun0036_ip = 326; continue _fun0036 }
-case 327:
+                if(!var12) { _fun0036_ip = 324; continue _fun0036 }
+case 325:
                 var10 = var11;
-case 326:
+case 324:
                 var2['converted_mime_type'] = var10;
                 var10 = var7.uploadAnalytics;
                 var11 = var10.imageCompressionQuality;
                 var12 = var9 != var11;
                 var10 = 0;
-                if(!var12) { _fun0036_ip = 328; continue _fun0036 }
+                if(!var12) { _fun0036_ip = 326; continue _fun0036 }
 case 154:
                 var10 = var11;
-case 328:
+case 326:
                 var2['image_compression_quality'] = var10;
                 var10 = var7.uploadAnalytics;
                 var11 = var10.videoCompressionQuality;
                 var12 = var9 != var11;
                 var10 = var8;
-                if(!var12) { _fun0036_ip = 329; continue _fun0036 }
-case 330:
+                if(!var12) { _fun0036_ip = 327; continue _fun0036 }
+case 328:
                 var10 = var11;
-case 329:
+case 327:
                 var2['video_compression_quality'] = var10;
                 var10 = var7.uploadAnalytics;
                 var10 = var10.imageEncoderType;
                 var11 = var9 != var10;
                 if(!var11) { _fun0036_ip = 59; continue _fun0036 }
-case 331:
+case 329:
                 var8 = var10;
 case 59:
                 var2['image_encoder_type'] = var8;
                 var8 = var7.uploadAnalytics;
                 var8 = var8.convertedMimeType;
                 var8 = var9 != var8;
-                if(!var8) { _fun0036_ip = 332; continue _fun0036 }
-case 333:
+                if(!var8) { _fun0036_ip = 330; continue _fun0036 }
+case 331:
                 var10 = var7.mimeType;
                 var9 = var7.uploadAnalytics;
                 var9 = var9.convertedMimeType;
                 var8 = var10 !== var9;
-case 332:
+case 330:
                 var2['was_converted'] = var8;
                 var9 = var7.currentSize;
                 var8 = var7.preCompressionSize;
@@ -3810,10 +3798,10 @@ case 332:
                 var2['conversion_failure_reason'] = var8;
                 var8 = var7._libdiscoreEnabled;
                 var7 = 'httputils';
-                if(!var8) { _fun0036_ip = 246; continue _fun0036 }
-case 251:
+                if(!var8) { _fun0036_ip = 332; continue _fun0036 }
+case 333:
                 var7 = 'libdiscore';
-case 246:
+case 332:
                 var2['upload_http_client'] = var7;
                 var7 = _closure1_slot13;
                 var6 = var7.getType;
@@ -3902,7 +3890,7 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0039_ip = 337; continue _fun0039 }
-case 236:
+case 233:
                     var17 = arg1;
                     var15 = arg2;
                     var3 = arg3;
@@ -3917,7 +3905,7 @@ case 236:
                     var6 = undefined;
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var2 = 32;
+                    var2 = 31;
                     var2 = var14[var2];
                     var14 = var12.bind(var9)(var2);
                     var12 = var14.getImageAttachmentMezzanineV2Config;
@@ -3968,7 +3956,7 @@ case 345:
 case 346: // try_start_0
                     var18 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var19 = 33;
+                    var19 = 32;
                     var12 = var12[var19];
                     var20 = var18.bind(var9)(var12);
                     var18 = var20.maybeConvertToWebP;
@@ -3979,7 +3967,7 @@ case 347:
                     return var12;
 case 67:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=17);
-                    if(var18) { _fun0039_ip = 221; continue _fun0039 }
+                    if(var18) { _fun0039_ip = 219; continue _fun0039 }
 case 348:
                     var11 = var12;
                     var15 = var15.bind(var9)();
@@ -4075,7 +4063,7 @@ case 89: // try_end0
                     _fun0039_ip = 356; continue _fun0039;
 case 349:
                     return var2;
-case 221:
+case 219:
                     return var12;
 case 357: // catch_target0
                     CatchBlockStart(arg_register=15);
@@ -4091,7 +4079,7 @@ case 357: // catch_target0
                     var13 = var5;
                     var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var12 = 33;
+                    var12 = 32;
                     var12 = var16[var12];
                     var12 = var15.bind(var9)(var12);
                     var12 = var12.ConversionFailureReason;
@@ -4110,16 +4098,16 @@ case 356:
                     var11 = var2 == var11;
                     var9 = undefined;
                     if(var11) { _fun0039_ip = 358; continue _fun0039 }
-case 228:
+case 359:
                     var9 = var10.compressTimeMs;
 case 358:
                     var8 = var9;
-                    if(!(var2 == var9)) { _fun0039_ip = 359; continue _fun0039 }
-case 360:
-                    _fun0039_ip = 361; continue _fun0039;
-case 359:
-                    var6 = var8;
+                    if(!(var2 == var9)) { _fun0039_ip = 360; continue _fun0039 }
 case 361:
+                    _fun0039_ip = 362; continue _fun0039;
+case 360:
+                    var6 = var8;
+case 362:
                     var7['compressTimeMs'] = var6;
                     return var5;
 case 344:
@@ -4172,7 +4160,7 @@ case 337:
         return var1;
     };
     var2 = var2.bind(var1)(var6);
-    var6 = 34;
+    var6 = 33;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
-            var3 = var4.trackSettingSearchPress;
+            var3 = var4.trackSettingSearchInputFocused;
             var3 = var3.bind(var4)();
             var4 = _closure1_slot4;
             var3 = var4.setState;

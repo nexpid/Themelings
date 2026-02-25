@@ -1098,8 +1098,8 @@ case 61:
                         var4 = var5.isEligibleForQuestsClientMonitoring;
                         var3 = 'QuestImpressionTracker';
                         var3 = var4.bind(var5)(var3);
-                        if(!var3) { _fun0009_ip = 30; continue _fun0009 }
-case 74:
+                        if(!var3) { _fun0009_ip = 74; continue _fun0009 }
+case 22:
                         var4 = _closure1_slot1;
                         var9 = _closure1_slot2;
                         var3 = 18;
@@ -1129,7 +1129,7 @@ case 74:
                         var6[0] = var7;
                         var3['tags'] = var6;
                         var3 = var4.bind(var5)(var3);
-case 30:
+case 74:
                         var3 = _closure3_slot0;
                         var2 = true;
                         var3['isRunning'] = var2;

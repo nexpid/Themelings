@@ -179,7 +179,7 @@ case 10:
         var _closure2_slot0 = var1;
         var1 = arg2;
         var _closure2_slot1 = var1;
-        var1 = {'volume': null, 'muted': false, 'transcriptEnabled': false, 'captionEnabled': false, 'fullScreenEnabled': false, 'videoProgress': null, 'transcript': null};
+        var1 = {'volume': null, 'muted': false, 'transcriptEnabled': false, 'captionEnabled': false, 'videoProgress': null, 'transcript': null};
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
         var3 = 3;
@@ -351,29 +351,6 @@ case 14:
             return var1;
         };
         var1['setCaptionEnabled'] = var3;
-        var3 = function setFullScreenEnabled(arg1) {
-            var1 = arg1;
-            var _closure3_slot0 = var1;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 4;
-            var3 = var3[var1];
-            var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.batchUpdates;
-            var2 = function() {
-                var3 = _closure2_slot0;
-                var2 = {};
-                var1 = _closure3_slot0;
-                var2['fullScreenEnabled'] = var1;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var1['setFullScreenEnabled'] = var3;
         var3 = function getVideoProgress(arg1) {
             var2 = _closure2_slot1;
             var1 = undefined;

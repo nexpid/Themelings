@@ -357,9 +357,9 @@ case 41: // try_start_0
                     var8['rejectWithError'] = var11;
                     var8 = var9.bind(var10)(var8);
                     SaveGenerator(address=297);
-case 42:
-                    return var8;
 case 19:
+                    return var8;
+case 42:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
                     if(var9) { _fun0006_ip = 43; continue _fun0006 }
 case 44:

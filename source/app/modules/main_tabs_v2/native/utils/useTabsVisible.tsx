@@ -155,21 +155,21 @@ case 11:
 case 0:
                     var2 = _closure2_slot0;
                     var1 = 0;
-                    if(!var2) { _fun0005_ip = 4; continue _fun0005 }
-case 13:
+                    if(!var2) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
                     var4 = _closure1_slot3;
                     var3 = var4.roundToNearestPixel;
                     var2 = arg1;
                     var2 = var2.tabsHeight;
                     var7 = _closure2_slot1;
                     var5 = 0;
-                    if(var7) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
+                    if(var7) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                     var5 = _closure2_slot2;
-case 14:
+case 15:
                     var2 = var2 + var5;
                     var1 = var3.bind(var4)(var2);
-case 4:
+case 13:
                     return var1;
                 }
             };
@@ -194,11 +194,11 @@ case 0:
             var1 = var1.bind(var4)();
             var4 = var1.isChatBesideChannelList;
             var1 = '100%';
-            if(!var4) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
+            if(!var4) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
             var2 = _closure1_slot4;
             var1 = var2 + var3;
-case 16:
+case 17:
             return var1;
         }
     };

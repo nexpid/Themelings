@@ -185,18 +185,18 @@ case 0:
             var6 = null;
             var4 = var6 != var2;
             var1 = null;
-            if(!var4) { _fun0004_ip = 15; continue _fun0004 }
+            if(!var4) { _fun0004_ip = 5; continue _fun0004 }
 case 11:
             var4 = 'expiresAtPremium';
             var4 = var4 in var2;
             var1 = null;
-            if(!var4) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+            if(!var4) { _fun0004_ip = 5; continue _fun0004 }
+case 15:
             var4 = var2.expiresAtPremium;
             var4 = var6 != var4;
             var1 = null;
-            if(!var4) { _fun0004_ip = 15; continue _fun0004 }
-case 17:
+            if(!var4) { _fun0004_ip = 5; continue _fun0004 }
+case 16:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var3 = 3;
@@ -205,7 +205,7 @@ case 17:
             var3 = var4.getQuestFormattedDate;
             var2 = var2.expiresAtPremium;
             var1 = var3.bind(var4)(var2);
-case 15:
+case 5:
             return var1;
         }
     };
@@ -218,14 +218,14 @@ case 0:
             var7 = undefined;
             var3 = var1.bind(var7)(var5);
             var1 = null;
-            if(!(var1 != var3)) { _fun0005_ip = 18; continue _fun0005 }
+            if(!(var1 != var3)) { _fun0005_ip = 17; continue _fun0005 }
 case 7:
             var4 = 'expiresAt';
             var4 = var4 in var3;
-            if(!var4) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+            if(!var4) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var4 = var3.expiresAt;
-            if(!(var1 != var4)) { _fun0005_ip = 18; continue _fun0005 }
+            if(!(var1 != var4)) { _fun0005_ip = 17; continue _fun0005 }
 case 8:
             var4 = global;
             var8 = var4.Date;
@@ -258,16 +258,16 @@ case 8:
             var5 = 0;
             var8 = 25;
             var3 = 0;
-            if(!(var12 >= var8)) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
-            var3 = 1;
+            if(!(var12 >= var8)) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
+            var3 = 1;
+case 19:
             var6 = var6 + var3;
             var3 = 12;
-            if(!(!(var6 >= var3))) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-            if(!(!(var6 > var5))) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(!(!(var6 >= var3))) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
+            if(!(!(var6 > var5))) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var8 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var11];
@@ -275,8 +275,8 @@ case 25:
             var5 = var8.differenceInDays;
             var10 = var5.bind(var8)(var9, var10);
             var5 = 7;
-            if(!(!(var10 >= var5))) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
+            if(!(!(var10 >= var5))) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var9 = _closure1_slot0;
             var13 = _closure1_slot1;
             var8 = 5;
@@ -292,7 +292,7 @@ case 27:
             var8['days'] = var10;
             var8 = var11.bind(var12)(var9, var8);
             return var8;
-case 26:
+case 25:
             var9 = var4.Math;
             var8 = var9.ceil;
             var5 = var10 / var5;
@@ -312,7 +312,7 @@ case 26:
             var5['weeks'] = var11;
             var5 = var9.bind(var10)(var8, var5);
             return var5;
-case 24:
+case 23:
             var8 = _closure1_slot0;
             var11 = _closure1_slot1;
             var5 = 5;
@@ -328,7 +328,7 @@ case 24:
             var5['months'] = var6;
             var5 = var9.bind(var10)(var8, var5);
             return var5;
-case 22:
+case 21:
             var5 = var4.Math;
             var4 = var5.floor;
             var3 = var6 / var3;
@@ -348,7 +348,7 @@ case 22:
             var2['years'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 18:
+case 17:
             return var1;
         }
     };
@@ -457,10 +457,10 @@ case 0:
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0006_ip = 28; continue _fun0006 }
-case 16:
-            var1 = var2;
+            if(!var3) { _fun0006_ip = 27; continue _fun0006 }
 case 28:
+            var1 = var2;
+case 27:
             return var1;
         }
     };
@@ -552,10 +552,10 @@ case 37:
             var3 = null;
             var6 = var3 == var4;
             var3 = undefined;
-            if(var6) { _fun0009_ip = 38; continue _fun0009 }
-case 19:
+            if(var6) { _fun0009_ip = 27; continue _fun0009 }
+case 18:
             var3 = var4.expirationMode;
-case 38:
+case 27:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 1;
@@ -583,20 +583,20 @@ case 37:
 case 7:
             var4 = var3 != var1;
             var3 = 0;
-            if(!var4) { _fun0010_ip = 39; continue _fun0010 }
-case 40:
-            var3 = var1;
+            if(!var4) { _fun0010_ip = 38; continue _fun0010 }
 case 39:
+            var3 = var1;
+case 38:
             var4 = var2.config;
             var1 = 'rewardsConfig';
             var1 = var1 in var4;
             var2 = var2.config;
-            if(var1) { _fun0010_ip = 41; continue _fun0010 }
-case 42:
+            if(var1) { _fun0010_ip = 40; continue _fun0010 }
+case 41:
             var1 = var2.rewards;
             var1 = var1[var3];
             _fun0010_ip = 33; continue _fun0010;
-case 41:
+case 40:
             var2 = var2.rewardsConfig;
             var2 = var2.rewards;
             var1 = var2[var3];
@@ -630,8 +630,8 @@ case 0:
             var2 = var1.quest;
             var3 = var1.idx;
             var1 = null;
-            if(!(var1 != var3)) { _fun0011_ip = 43; continue _fun0011 }
-case 44:
+            if(!(var1 != var3)) { _fun0011_ip = 42; continue _fun0011 }
+case 43:
             var2 = var2.config;
             var2 = var2.rewardsConfig;
             var2 = var2.rewards;
@@ -646,12 +646,12 @@ case 44:
             var2 = var2.QuestRewardTypes;
             var4 = var2.REWARD_CODE;
             var2 = null;
-            if(!(var5 === var4)) { _fun0011_ip = 15; continue _fun0011 }
+            if(!(var5 === var4)) { _fun0011_ip = 5; continue _fun0011 }
 case 32:
             var2 = var3;
-case 15:
+case 5:
             return var2;
-case 43:
+case 42:
             return var1;
         }
     };
@@ -680,7 +680,7 @@ case 12:
             var3 = 0;
             var1 = var4 > var3;
 case 33:
-            if(!var1) { _fun0012_ip = 45; continue _fun0012 }
+            if(!var1) { _fun0012_ip = 44; continue _fun0012 }
 case 32:
             var4 = var2.rewards;
             var3 = var4.every;
@@ -699,7 +699,7 @@ case 32:
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
-case 45:
+case 44:
             return var1;
         }
     };
@@ -712,7 +712,7 @@ case 0:
             var3 = var1.platforms;
             var1 = var3.length;
             var2 = 0;
-            if(!(!(var1 > var2))) { _fun0013_ip = 46; continue _fun0013 }
+            if(!(!(var1 > var2))) { _fun0013_ip = 45; continue _fun0013 }
 case 7:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -722,10 +722,10 @@ case 7:
             var1 = var5.bind(var1)(var4);
             var1 = var1.QuestRewardCodePlatforms;
             var1 = var1.CROSS_PLATFORM;
-            _fun0013_ip = 47; continue _fun0013;
-case 46:
+            _fun0013_ip = 46; continue _fun0013;
+case 45:
             var1 = var3[var2];
-case 47:
+case 46:
             return var1;
         }
     };
@@ -742,6 +742,14 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var2 = var2.QuestRewardCodePlatforms;
             var2 = var2.XBOX;
+            if(!(var2 !== var3)) { _fun0014_ip = 47; continue _fun0014 }
+case 3:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.QuestRewardCodePlatforms;
+            var2 = var2.PLAYSTATION;
             if(!(var2 !== var3)) { _fun0014_ip = 48; continue _fun0014 }
 case 49:
             var4 = _closure1_slot0;
@@ -749,7 +757,7 @@ case 49:
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.QuestRewardCodePlatforms;
-            var2 = var2.PLAYSTATION;
+            var2 = var2.SWITCH;
             if(!(var2 !== var3)) { _fun0014_ip = 50; continue _fun0014 }
 case 51:
             var4 = _closure1_slot0;
@@ -757,7 +765,7 @@ case 51:
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.QuestRewardCodePlatforms;
-            var2 = var2.SWITCH;
+            var2 = var2.PC;
             if(!(var2 !== var3)) { _fun0014_ip = 52; continue _fun0014 }
 case 53:
             var4 = _closure1_slot0;
@@ -765,19 +773,11 @@ case 53:
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.QuestRewardCodePlatforms;
-            var2 = var2.PC;
+            var2 = var2.CROSS_PLATFORM;
             if(!(var2 !== var3)) { _fun0014_ip = 54; continue _fun0014 }
 case 55:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.QuestRewardCodePlatforms;
-            var2 = var2.CROSS_PLATFORM;
-            if(!(var2 !== var3)) { _fun0014_ip = 56; continue _fun0014 }
-case 57:
             return var5;
-case 56:
+case 54:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 5;
@@ -791,7 +791,7 @@ case 56:
             var2 = var2.UWVbzV;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 54:
+case 52:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 5;
@@ -805,7 +805,7 @@ case 54:
             var2 = var2.YK+wUg;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 52:
+case 50:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 5;
@@ -819,7 +819,7 @@ case 52:
             var2 = var2.1pp0su;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 50:
+case 48:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 5;
@@ -833,7 +833,7 @@ case 50:
             var2 = var2.6IeKx2;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 48:
+case 47:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 5;

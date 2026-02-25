@@ -490,6 +490,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GORE_NON_DEDICATED_GUILD_SAFETY_DISPATCH'] = var5;
     var1 = 'GORE_NON_DEDICATED_GUILD_SAFETY_DISPATCH';
     var2[var5] = var1;
+    var5 = 986;
+    var2['AGE_RESTRICTED_CONTENT_IN_SERVER_ASSETS_NON_DEDICATED_GUILD_SAFETY_DISPATCH'] = var5;
+    var1 = 'AGE_RESTRICTED_CONTENT_IN_SERVER_ASSETS_NON_DEDICATED_GUILD_SAFETY_DISPATCH';
+    var2[var5] = var1;
     var5 = 3000;
     var2['CSAM_SMITE'] = var5;
     var1 = 'CSAM_SMITE';

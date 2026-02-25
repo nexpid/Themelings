@@ -230,6 +230,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_POWERUPS_MARKETING_VIDEO_MODAL'] = var1;
     var1 = 'guild boosting premium upsell';
     var2['GUILD_BOOSTING_PREMIUM_UPSELL'] = var1;
+    var1 = 'guild boosting first time booster upsell';
+    var2['GUILD_BOOSTING_FIRST_TIME_BOOSTER_UPSELL'] = var1;
     var1 = 'rpc';
     var2['RPC'] = var1;
     var1 = 'billing standalone';

@@ -151,44 +151,35 @@ case 0:
 case 3:
             var4 = new Array(0);
 case 2:
-            var6 = 0;
-            var3 = var4[var6];
-            var8 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var7 = 13;
-            var7 = var9[var7];
-            var8 = var8.bind(var5)(var7);
-            var9 = var1 != var3;
-            var7 = '';
-            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+            var3 = 0;
+            var3 = var4[var3];
+            var4 = var1 != var3;
+            var6 = null;
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = var3;
+            var6 = var3;
 case 4:
-            var7 = var8.bind(var5)(var7);
-            var17 = var7.coverImageUrl;
-            var22 = var7.gameName;
-            var4 = var4.length;
-            if(!(var6 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            if(!(var1 != var3)) { _fun0001_ip = 6; continue _fun0001 }
-case 8:
-            if(!(var1 != var17)) { _fun0001_ip = 6; continue _fun0001 }
-case 9:
-            if(!(var1 == var22)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var3 = 14;
-            var4 = var8[var3];
+            var7 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var4 = 13;
+            var4 = var3[var4];
             var4 = var7.bind(var5)(var4);
-            var6 = var4.intl;
-            var4 = var6.string;
-            var3 = var8[var3];
-            var3 = var7.bind(var5)(var3);
+            var9 = _closure1_slot0;
+            var14 = 14;
+            var7 = var3[var14];
+            var7 = var9.bind(var5)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var3 = var3[var14];
+            var3 = var9.bind(var5)(var3);
             var3 = var3.t;
             var3 = var3.VQq92a;
-            var22 = var4.bind(var6)(var3);
-case 10:
+            var3 = var7.bind(var8)(var3);
+            var3 = var4.bind(var5)(var6, var3);
+            var17 = var3.coverImageUrl;
+            var22 = var3.gameName;
+            if(!(var1 != var17)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var2.features;
             var3 = var4.has;
             var2 = _closure1_slot6;
@@ -196,7 +187,6 @@ case 10:
             var6 = var3.bind(var4)(var2);
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var14 = 14;
             var3 = var2[var14];
             var3 = var7.bind(var5)(var3);
             var4 = var3.intl;
@@ -204,15 +194,15 @@ case 10:
             var2 = var2[var14];
             var2 = var7.bind(var5)(var2);
             var2 = var2.t;
-            if(var6) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var2.0Dx29f;
             var11 = var3.bind(var4)(var6);
-            _fun0001_ip = 14; continue _fun0001;
-case 12:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var2 = var2.uUARXe;
             var11 = var3.bind(var4)(var2);
-case 14:
+case 10:
             var4 = _closure1_slot10;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -329,8 +319,8 @@ case 14:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+                        if(var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                         var5 = _closure2_slot1;
                         var3 = _closure1_slot8;
                         var4 = var3.TAKE_ACTION;
@@ -346,16 +336,16 @@ case 16:
                         var2 = var2.DEVELOPER_PORTAL_APPLICATIONS_GAME_IDENTITY;
                         var2 = var4.bind(var5)(var2);
                         SaveGenerator(address=79);
-case 17:
+case 13:
                         return var2;
-case 18:
+case 14:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+                        if(var4) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                         return var3;
-case 19:
-                        return var2;
 case 15:
+                        return var2;
+case 11:
                         return var1;
                     }
                 };

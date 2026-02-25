@@ -72,16 +72,17 @@ case 3:
             var8 = false;
 case 2:
             var13 = var5.accessibilityHint;
-            var3 = {'value': 0, 'onValueChange': 0, 'label': 0, 'subLabel': 0, 'trailing': 0, 'disabled': 0, 'accessibilityHint': 0};
+            var29 = var5.variant;
+            var3 = {'value': 0, 'onValueChange': 0, 'label': 0, 'subLabel': 0, 'trailing': 0, 'disabled': 0, 'accessibilityHint': 0, 'variant': 0};
             var14 = null;
-            var30 = var3;
-            var29 = null;
-            var1 = silentSetPrototypeOf(var30, var29);
+            var32 = var3;
+            var31 = null;
+            var1 = silentSetPrototypeOf(var32, var31);
             var1 = 0;
-            var30 = {};
-            var29 = var5;
-            var28 = var3;
-            var15 = copyDataProperties(var30, var29, var28);
+            var32 = {};
+            var31 = var5;
+            var30 = var3;
+            var15 = copyDataProperties(var32, var31, var30);
             var _closure2_slot2 = var4;
             var2 = _closure1_slot7;
             var21 = var2.bind(var4)();
@@ -146,9 +147,11 @@ case 4:
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
-            var30 = var1;
-            var29 = var15;
-            var15 = copyDataProperties(var30, var29);
+            var32 = var1;
+            var31 = var15;
+            var15 = copyDataProperties(var32, var31);
+            var15 = 'variant';
+            var1[var15] = var29;
             var18 = false;
             var15 = 'arrow';
             var1[var15] = var18;
@@ -173,7 +176,16 @@ case 9:
             var21 = var27[var21];
             var21 = var24.bind(var4)(var21);
             var24 = var21.Text;
-            var21 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
+            var21 = {};
+            var27 = 'text-md/semibold';
+            var21['variant'] = var27;
+            var27 = 'mobile-text-heading-primary';
+            var28 = 'danger';
+            if(!(var28 === var29)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var27 = 'text-feedback-critical';
+case 10:
+            var21['color'] = var27;
             var21['children'] = var26;
             var23 = var25.bind(var4)(var24, var21);
 case 8:
@@ -203,10 +215,10 @@ case 6:
             var14 = var14 != var12;
             var16 = '';
             var15 = var16;
-            if(!var14) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var14) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var15 = var12;
-case 10:
+case 12:
             var12 = global;
             var12 = var12.HermesInternal;
             var14 = var12.concat;
@@ -217,10 +229,10 @@ case 10:
             var12 = 'accessibilityHint';
             var1[var12] = var13;
             var12 = undefined;
-            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!var7) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var12 = var9;
-case 12:
+case 14:
             var7 = 'onPress';
             var1[var7] = var12;
             var7 = function onAccessibilityTap() {
@@ -236,14 +248,14 @@ case 12:
 case 0:
                         var3 = _closure2_slot1;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                        if(!(var2 != var3)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                         var3 = _closure2_slot1;
                         var1 = _closure2_slot0;
                         var2 = !var1;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
-case 14:
+case 16:
                         var1 = undefined;
                         return var1;
                     }

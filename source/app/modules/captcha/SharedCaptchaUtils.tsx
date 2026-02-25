@@ -113,12 +113,12 @@ case 0:
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 5; continue _fun0002 }
+                if(var1) { _fun0002_ip = 3; continue _fun0002 }
 case 6:
                 var1 = var8.apply;
                 var1 = var1.bind(var8)(var4, var9);
                 _fun0002_ip = 7; continue _fun0002;
-case 5:
+case 3:
                 var6 = global;
                 var7 = var6.Reflect;
                 var6 = var7.construct;

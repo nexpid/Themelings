@@ -24,6 +24,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['STABLE'] = var2;
     var2 = 'adhoc';
     var4['ADHOC'] = var2;
+    var2 = 'questCanaryRelease';
+    var4['QUEST_CANARY_RELEASE'] = var2;
+    var2 = 'questBetaRelease';
+    var4['QUEST_BETA_RELEASE'] = var2;
+    var2 = 'questProductionRelease';
+    var4['QUEST_PRODUCTION_RELEASE'] = var2;
     var2 = 'staging';
     var4['STAGING'] = var2;
     var2 = 'development';
@@ -50,6 +56,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
+    var10 = ['questBetaRelease', 'questCanaryRelease', 'questProductionRelease'];
+    var11 = var6;
+    var5 = new var11[var7](var10, var9);
+    var5 = var5 instanceof Object ? var5 : var6;
+    var2['QUEST_VR'] = var5;
+    var7 = var1.Set;
+    var5 = var7.prototype;
+    var6 = Object.create(var5, {constructor: {value: var7}});
     var10 = ['N/A', 'adhoc', 'development', 'staging'];
     var11 = var6;
     var5 = new var11[var7](var10, var9);
@@ -58,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var1.Set;
     var1 = var6.prototype;
     var5 = Object.create(var1, {constructor: {value: var6}});
-    var10 = ['N/A', 'adhoc', 'betaRelease', 'canary', 'canaryRelease', 'development', 'googleRelease', 'ptb', 'stable', 'staging'];
+    var10 = ['N/A', 'adhoc', 'betaRelease', 'canary', 'canaryRelease', 'development', 'googleRelease', 'ptb', 'questBetaRelease', 'questCanaryRelease', 'questProductionRelease', 'stable', 'staging'];
     var11 = var5;
     var1 = new var11[var6](var10, var9);
     var1 = var1 instanceof Object ? var1 : var5;

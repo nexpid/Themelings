@@ -74,13 +74,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7.bind(var1)(var5);
         var5 = function() {
             var1 = function() {
-                var3 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 7;
                 var2 = var2[var1];
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var3 = var2.SettingSearchSessionAnalyticsManager;
+                var3 = var3.bind(var1)(var2);
                 var2 = var3.terminate;
                 var2 = var2.bind(var3)();
                 return var1;
@@ -121,13 +120,12 @@ case 7:
 case 6:
                 if(!var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                var6 = _closure1_slot0;
+                var6 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var2 = 7;
                 var5 = var5[var2];
                 var2 = undefined;
-                var2 = var6.bind(var2)(var5);
-                var5 = var2.SettingSearchSessionAnalyticsManager;
+                var5 = var6.bind(var2)(var5);
                 var2 = var5.initialize;
                 var2 = var2.bind(var5)();
 case 8:
@@ -143,13 +141,12 @@ case 13:
 case 12:
                 if(!var2) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                var3 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 7;
                 var2 = var2[var1];
                 var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                var2 = var1.SettingSearchSessionAnalyticsManager;
+                var2 = var3.bind(var1)(var2);
                 var1 = var2.terminate;
                 var1 = var1.bind(var2)();
 case 14:
@@ -190,13 +187,12 @@ case 16:
             var1 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var3 = _closure1_slot0;
+                    var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 7;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var2 = var3.bind(var1)(var2);
-                    var3 = var2.SettingSearchSessionAnalyticsManager;
+                    var3 = var3.bind(var1)(var2);
                     var2 = arg1;
                     if(var2) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
@@ -249,14 +245,13 @@ case 0:
                     var1 = arg1;
                     if(!var1) { _fun0005_ip = 18; continue _fun0005 }
 case 21:
-                    var3 = _closure1_slot0;
+                    var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 7;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-                    var2 = var1.SettingSearchSessionAnalyticsManager;
-                    var1 = var2.maybeTrackSettingSearchQueryEntered;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.maybeTrackQueryEntered;
                     var1 = var1.bind(var2)();
 case 18:
                     var1 = undefined;

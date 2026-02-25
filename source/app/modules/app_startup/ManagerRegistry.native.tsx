@@ -551,7 +551,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['GuildOnboardingManager'] = var1;
     var1 = {};
-    var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE', 'GUILD_APPLIED_BOOSTS_UPDATE'];
+    var8 = ['GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE', 'GUILD_APPLIED_BOOSTS_UPDATE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

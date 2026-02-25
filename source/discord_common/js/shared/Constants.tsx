@@ -1389,10 +1389,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var20['TWITTER_SUPPORT'] = var9;
     var9 = '/quests';
     var20['QUESTS'] = var9;
-    var9 = '/terms/paid-services-terms';
-    var20['PAID_SERVICES_TERMS'] = var9;
-    var9 = '/terms/paid-services-terms#:~:text=one%2Dtime%20purchases.-,VIRTUAL%20GOODS,-You%20may%20be';
-    var20['VIRTUAL_GOODS_TERMS'] = var9;
     var12 = var2.Object;
     var10 = var12.freeze;
     var9 = {};

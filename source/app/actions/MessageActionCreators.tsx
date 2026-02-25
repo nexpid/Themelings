@@ -6224,7 +6224,7 @@ case 108:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0041_ip = 116; continue _fun0041 }
+                        if(var2) { _fun0041_ip = 20; continue _fun0041 }
 case 79:
                         var3 = function dispatchDelete() {
                             var3 = _closure1_slot1;
@@ -6270,7 +6270,7 @@ case 79:
                         };
                         var _closure4_slot0 = var3;
                         var2 = _closure2_slot2;
-                        if(var2) { _fun0041_ip = 203; continue _fun0041 }
+                        if(var2) { _fun0041_ip = 181; continue _fun0041 }
 case 103:
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
@@ -6311,16 +6311,16 @@ case 486:
                             return var1;
                         };
                         var4 = var5.bind(var6)(var4);
-                        _fun0041_ip = 43; continue _fun0041;
+                        _fun0041_ip = 270; continue _fun0041;
 case 485:
                         return var2;
-case 203:
+case 181:
                         var2 = undefined;
                         var2 = var3.bind(var2)();
-case 43:
+case 270:
                         var2 = undefined;
                         return var2;
-case 116:
+case 20:
                         return var1;
                     }
                 };
