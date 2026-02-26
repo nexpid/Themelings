@@ -3485,16 +3485,6 @@
         "width": 24,
         "height": 24
     },
-    "group": {
-        "file": "app/modules/video_calls/native/images/group.png",
-        "hash": "a80d0b8277b912228834b7272f06f610",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 20,
-        "height": 20
-    },
     "GroupArrowDownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GroupArrowDownIcon.png",
         "hash": "e535ea871b8155df08d1e92a6b532c6c",
@@ -4107,16 +4097,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_big_arrow_down": {
-        "file": "app/images/native/icons/ic_big_arrow_down.png",
-        "hash": "2119d81f7cd1e2c3a6470d3f2d1f8f3b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_block": {
         "file": "app/modules/stage_channels/native/images/ic_block.png",
         "hash": "d3638c1d3e13cd543d354bc72debe331",
@@ -4503,7 +4483,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "app/modules/parent_tools/images/ic_eye.png",
+        "file": "app/modules/media_viewer/native/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -5857,16 +5837,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_soundboard_mobile": {
-        "file": "app/images/native/icons/ic_soundboard_mobile.png",
-        "hash": "a94450110a0ae3dde58f5bcebdda910d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 36,
-        "height": 36
-    },
     "ic_sparkle": {
         "file": "app/images/native/icons/ic_sparkle.png",
         "hash": "b28329d7d2ebd0b330f6112973e5d746",
@@ -5906,16 +5876,6 @@
         ],
         "width": 6,
         "height": 6
-    },
-    "ic_sparkle3": {
-        "file": "app/images/native/icons/ic_sparkle3.png",
-        "hash": "81e6e01301c14a5c2a754345602b2149",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 13.5,
-        "height": 14
     },
     "ic_spotify_white_16px": {
         "file": "app/images/native/ic_spotify_white_16px.png",
@@ -8844,36 +8804,6 @@
         "width": 213.5,
         "height": 19
     },
-    "img_text_in_voice_empty_state_dark": {
-        "file": "app/images/native/img_text_in_voice_empty_state_dark.png",
-        "hash": "c31fa2d8bbcdf416a8094c367f0da7a9",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 80
-    },
-    "img_text_in_voice_empty_state_darker": {
-        "file": "app/design/components/Illustration/native/redesign/generated/images/img_text_in_voice_empty_state_darker.png",
-        "hash": "2d6a33bf9850fa6d9b96ea97041fb2b9",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 96
-    },
-    "img_text_in_voice_empty_state_light": {
-        "file": "app/images/native/img_text_in_voice_empty_state_light.png",
-        "hash": "04da65e574cf21689b5157c1184b4e09",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 80
-    },
     "img_tier_0_clouds": {
         "file": "app/images/native/premium/illustrations/img_tier_0_clouds.png",
         "hash": "285e979e530f2dfb10749ec34ebaf83a",
@@ -9931,16 +9861,6 @@
         "width": 60,
         "height": 60
     },
-    "minimize": {
-        "file": "app/modules/video_calls/native/images/minimize.png",
-        "hash": "d23999b5166ea7acbdb11a0c3d8265f8",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 20,
-        "height": 20
-    },
     "mobile": {
         "file": "app/modules/video_calls/native/images/mobile.png",
         "hash": "4c0809fe1983c7e9abf26a16ef03ad00",
@@ -10422,16 +10342,6 @@
         ],
         "width": 192,
         "height": 108
-    },
-    "nux_gaming": {
-        "file": "app/modules/video_calls/native/images/nux_gaming.png",
-        "hash": "87d5f6910cd4834593faa4b25724711b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 48,
-        "height": 48
     },
     "ObjectIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ObjectIcon.png",
@@ -11341,7 +11251,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/hub/native/images/search_empty_state.png",
+        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
@@ -11418,16 +11328,6 @@
         ],
         "width": 300.5,
         "height": 175
-    },
-    "server_video_invite": {
-        "file": "app/modules/video_calls/native/images/server_video_invite.png",
-        "hash": "e5cb54fd46a5751ec9dfe4d286f070ce",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 34,
-        "height": 32
     },
     "server-error": {
         "file": "app/images/native/server-error.png",
@@ -13264,16 +13164,6 @@
         ],
         "width": 84,
         "height": 46
-    },
-    "xbox_voice_upsell": {
-        "file": "app/modules/video_calls/native/images/xbox_voice_upsell.png",
-        "hash": "ae1f6f3947b90343d6dfecdb39623a93",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 36,
-        "height": 36
     },
     "XboxNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/XboxNeutralIcon.png",
