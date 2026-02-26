@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/rive/native/GameServerHosting.riv.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/25c916a19abce1f37df705560ce5495e27311e05d20ca719caee60874fc16257.riv';
+    var2 = 'https://cdn.discordapp.com/assets/content/03622d5cf6122c0557116bfd66c48955caf9a146c3dc6dcbd53c94fe0fe58a3a.riv';
     var3['default'] = var2;
     var2 = {};
-    var4 = 13460330;
+    var4 = 1458564;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

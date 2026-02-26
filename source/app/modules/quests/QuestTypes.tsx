@@ -60,6 +60,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['LOST_FOCUS'] = var2;
     var2 = 'MODAL_CLOSED';
     var5['MODAL_CLOSED'] = var2;
+    var2 = 'ANOTHER_MODAL_OPENED';
+    var5['ANOTHER_MODAL_OPENED'] = var2;
     var4 = {};
     var2 = 'quest_home_banner';
     var4['QUEST_HOME_BANNER'] = var2;

@@ -136,7 +136,7 @@ case 14:
                     var13 = 'utf8';
                     var17 = var12;
                     var3 = var17[var11](var16, var15, var14, var13, var12);
-                    SaveGenerator(address=186);
+                    SaveGenerator(address=188);
 case 15:
                     return var3;
 case 16:
@@ -169,7 +169,7 @@ case 20:
                     var17 = var11;
                     var3 = var17[var10](var16, var15, var14, var13, var12);
 case 19:
-                    SaveGenerator(address=282);
+                    SaveGenerator(address=284);
 case 21:
                     return var3;
 case 22:

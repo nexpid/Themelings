@@ -248,14 +248,14 @@ case 12:
             var2 = var5.bind(var6)(var2);
             var5 = !var2;
             var2 = !var5;
-            if(var5) { _fun0004_ip = 3; continue _fun0004 }
+            if(var5) { _fun0004_ip = 5; continue _fun0004 }
 case 13:
             var5 = _closure1_slot10;
             var4 = var3.id;
             var3 = 0;
             var5[var4] = var3;
             var2 = undefined;
-case 3:
+case 5:
             var1 = var2;
 case 11:
             return var1;

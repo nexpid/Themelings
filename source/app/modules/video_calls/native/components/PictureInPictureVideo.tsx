@@ -889,14 +889,14 @@ case 79:
             var1 = null;
             var2 = var1 == var12;
             var3 = undefined;
-            if(var2) { _fun0008_ip = 25; continue _fun0008 }
-case 89:
+            if(var2) { _fun0008_ip = 89; continue _fun0008 }
+case 21:
             var10 = var12.user;
             var9 = var10.getAvatarURL;
             var7 = var14.guild_id;
             var2 = 80;
             var3 = var9.bind(var10)(var7, var2);
-case 25:
+case 89:
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
             var2 = 32;
@@ -912,10 +912,10 @@ case 93:
             var3 = var12.voiceState;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0008_ip = 76; continue _fun0008 }
-case 94:
+            if(var4) { _fun0008_ip = 94; continue _fun0008 }
+case 95:
             var2 = var3.selfVideo;
-case 76:
+case 94:
             var7 = var2;
 case 92:
             var4 = _closure1_slot19;
@@ -928,9 +928,9 @@ case 92:
             var10['backgroundColor'] = var15;
             var9[1] = var10;
             var2['style'] = var9;
-            if(!var7) { _fun0008_ip = 95; continue _fun0008 }
-case 96:
-            if(var6) { _fun0008_ip = 95; continue _fun0008 }
+            if(!var7) { _fun0008_ip = 96; continue _fun0008 }
+case 52:
+            if(var6) { _fun0008_ip = 96; continue _fun0008 }
 case 97:
             var9 = _closure1_slot17;
             var7 = _closure1_slot1;
@@ -955,7 +955,7 @@ case 97:
             var6['resizeMode'] = var10;
             var7 = var9.bind(var5)(var7, var6);
             _fun0008_ip = 98; continue _fun0008;
-case 95:
+case 96:
             var10 = _closure1_slot17;
             var9 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -1093,14 +1093,14 @@ case 104:
             var13 = var22.isAndroid;
             var22 = var13.bind(var22)();
             var13 = undefined;
-            if(!var22) { _fun0013_ip = 105; continue _fun0013 }
-case 106:
+            if(!var22) { _fun0013_ip = 94; continue _fun0013 }
+case 95:
             var13 = var15.elevationShadow;
-case 105:
+case 94:
             var11[1] = var13;
             var13 = {};
-            if(!(!(var20 > var19))) { _fun0013_ip = 107; continue _fun0013 }
-case 108:
+            if(!(!(var20 > var19))) { _fun0013_ip = 105; continue _fun0013 }
+case 106:
             var20 = _closure1_slot0;
             var22 = _closure1_slot2;
             var19 = 39;
@@ -1109,25 +1109,25 @@ case 108:
             var19 = var19.OrientationType;
             var20 = var19.LANDSCAPE;
             var19 = 'column';
-            if(!(var21 === var20)) { _fun0013_ip = 109; continue _fun0013 }
-case 107:
+            if(!(var21 === var20)) { _fun0013_ip = 107; continue _fun0013 }
+case 105:
             var19 = 'row';
-case 109:
+case 107:
             var13['flexDirection'] = var19;
             var11[2] = var13;
             var11[3] = var12;
             var8['style'] = var11;
             var13 = _closure1_slot17;
-            if(var10) { _fun0013_ip = 60; continue _fun0013 }
-case 110:
+            if(var10) { _fun0013_ip = 108; continue _fun0013 }
+case 109:
             var11 = _closure1_slot21;
             var10 = {};
             var10['channel'] = var18;
             var10['pipParticipant'] = var17;
             var10['selfParticipant'] = var16;
             var10 = var13.bind(var4)(var11, var10);
-            _fun0013_ip = 111; continue _fun0013;
-case 60:
+            _fun0013_ip = 110; continue _fun0013;
+case 108:
             var12 = _closure1_slot6;
             var11 = {};
             var19 = 'none';
@@ -1142,7 +1142,7 @@ case 60:
             var14 = var13.bind(var4)(var15, var14);
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
-case 111:
+case 110:
             var8['children'] = var10;
             var8 = var7.bind(var4)(var9, var8);
             var5['children'] = var8;

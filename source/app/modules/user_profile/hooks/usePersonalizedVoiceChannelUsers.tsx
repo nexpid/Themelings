@@ -140,32 +140,32 @@ case 0:
                         var4 = null;
                         var2 = var4 == var1;
                         var6 = undefined;
-                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                        if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                         var6 = var1.vcProbability;
-case 4:
+case 5:
                         var7 = var4 != var6;
                         var1 = 0;
-                        if(!var7) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                        if(!var7) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                         var1 = var6;
-case 6:
+case 7:
                         var7 = _closure2_slot2;
                         var6 = var7.get;
                         var5 = arg1;
                         var5 = var6.bind(var7)(var5);
                         var6 = var4 == var5;
                         var3 = undefined;
-                        if(var6) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                        if(var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                         var3 = var5.vcProbability;
-case 8:
+case 9:
                         var4 = var4 != var3;
                         var2 = 0;
-                        if(!var4) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                        if(!var4) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                         var2 = var3;
-case 10:
+case 11:
                         var1 = var1 - var2;
                         return var1;
                     }

@@ -403,8 +403,8 @@ case 51:
     var9 = var1.Object;
     var4 = var9.defineProperty;
     var2 = {};
-    var1 = true;
-    var2['value'] = var1;
+    var12 = true;
+    var2['value'] = var12;
     var1 = '__esModule';
     var1 = var4.bind(var9)(var3, var1, var2);
     var1 = 0;
@@ -448,8 +448,10 @@ case 51:
     var16 = var11;
     var15 = var4;
     var9 = new var16[var9](var15, var14);
-    var9 = var9 instanceof Object ? var9 : var11;
-    var _closure1_slot10 = var9;
+    var11 = var9 instanceof Object ? var9 : var11;
+    var _closure1_slot10 = var11;
+    var9 = var11.enableNativeLogger;
+    var9 = var9.bind(var11)(var12);
     var11 = {};
     var9 = 7;
     var9 = var7[var9];

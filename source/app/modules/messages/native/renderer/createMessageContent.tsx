@@ -1801,7 +1801,7 @@ case 258:
             var74 = var77.uri;
 case 257:
             var1['avatarURL'] = var74;
-            var74 = undefined;
+            var74 = null;
             if(var67) { _fun0003_ip = 259; continue _fun0003 }
 case 260:
             var74 = var76;

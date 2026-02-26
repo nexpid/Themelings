@@ -19,8 +19,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = {};
     var2 = 'MainCallScreen';
     var6['MAIN_CALL_SCREEN'] = var2;
-    var2 = 'NitroActivitiesUpsell';
-    var6['NITRO_ACTIVITIES_UPSELL'] = var2;
     var5 = {};
     var5['VOICE_CONTROLS_TOGGLE_BUTTON'] = var11;
     var2 = 'VOICE_CONTROLS_TOGGLE_BUTTON';

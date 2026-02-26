@@ -857,8 +857,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = {};
         var7 = var3.string;
         var8 = var7.bind(var3)();
-        var7 = var8.required;
-        var7 = var7.bind(var8)();
+        var7 = var8.allow;
+        var7 = var7.bind(var8)(var6);
         var4['asset'] = var7;
         var7 = var3.string;
         var7 = var7.bind(var3)();

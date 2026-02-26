@@ -229,9 +229,7 @@ case 6:
                 var9 = var12[var9];
                 var9 = var10.bind(var4)(var9);
                 var10 = var9.XSmallIcon;
-                var9 = {};
-                var12 = 'sm';
-                var9['size'] = var12;
+                var9 = {'size': 'sm', 'color': 'icon-subtle'};
                 var9 = var11.bind(var4)(var10, var9);
                 var6['children'] = var9;
                 var6 = var8.bind(var4)(var7, var6);
@@ -312,7 +310,7 @@ case 6:
         var9 = {'opacity': 0, 'position': 'absolute'};
         var4['measurement'] = var9;
         var13 = 'center';
-        var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'paddingVertical': 12, 'paddingLeft': 16, 'paddingRight': 12};
+        var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'padding': 12};
         var4['container'] = var9;
         var9 = {};
         var12 = var6[var10];

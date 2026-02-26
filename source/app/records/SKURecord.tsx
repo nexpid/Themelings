@@ -383,13 +383,13 @@ case 6:
     var7 = 7;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
-    var8 = var7.OperatingSystems;
+    var8 = var7.GIFTABLE_CURRENCIES;
     var _closure1_slot9 = var8;
-    var8 = var7.SKUFlags;
+    var8 = var7.OperatingSystems;
     var _closure1_slot10 = var8;
-    var8 = var7.SKUTypes;
+    var8 = var7.SKUFlags;
     var _closure1_slot11 = var8;
-    var7 = var7.GIFTABLE_CURRENCIES;
+    var7 = var7.SKUTypes;
     var _closure1_slot12 = var7;
     var7 = ['500428425362931713', '451550535720501248', '471376328319303681', '466696214818193408'];
     var _closure1_slot13 = var7;
@@ -468,6 +468,8 @@ case 26:
                 var1['legalNotice'] = var3;
                 var3 = var2.price;
                 var1['price'] = var3;
+                var3 = var2.prices;
+                var1['prices'] = var3;
                 var3 = var2.premium;
                 var1['premium'] = var3;
                 var3 = var2.showAgeGate;
@@ -496,6 +498,10 @@ case 27:
                 var1['bundledSkus'] = var3;
                 var3 = var2.tenantMetadata;
                 var1['tenantMetadata'] = var3;
+                var3 = var2.selectedOptions;
+                var1['selectedOptions'] = var3;
+                var3 = var2.productId;
+                var1['productId'] = var3;
                 var3 = var2.thumbnailAssetId;
                 var1['thumbnailAssetId'] = var3;
                 var3 = var2.description;
@@ -537,7 +543,7 @@ case 31:
                 var2 = 0;
                 if(!(!(var3 > var2))) { _fun0009_ip = 32; continue _fun0009 }
 case 33:
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.WINDOWS;
                 var2 = new Array(1);
                 var2[0] = var3;
@@ -584,7 +590,7 @@ case 15:
                 var3 = var2.price;
 case 35:
                 var5 = var2.type;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var1 = var1.DURABLE_PRIMARY;
                 var1 = var5 === var1;
                 if(!var1) { _fun0011_ip = 36; continue _fun0011 }
@@ -602,7 +608,7 @@ case 40:
 case 39:
                 if(!var1) { _fun0011_ip = 41; continue _fun0011 }
 case 5:
-                var5 = _closure1_slot12;
+                var5 = _closure1_slot9;
                 var4 = var5.has;
                 var3 = var3.currency;
                 var1 = var4.bind(var5)(var3);
@@ -772,7 +778,7 @@ case 0:
                 var5 = var5.bind(var3)(var4);
                 var4 = var5.hasFlag;
                 var3 = var2.flags;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot11;
                 var1 = var1.AVAILABLE;
                 var1 = var4.bind(var5)(var3, var1);
                 if(var1) { _fun0015_ip = 3; continue _fun0015 }
@@ -821,7 +827,7 @@ case 59:
                 var6 = var7.bind(var5)(var6);
                 var5 = var6.hasFlag;
                 var4 = var4.flags;
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot11;
                 var3 = var3.PREMIUM_AND_DISTRIBUTION;
                 var2 = var5.bind(var6)(var4, var3);
 case 62:
@@ -845,7 +851,7 @@ case 61:
             var3 = var4.hasFlag;
             var2 = this;
             var2 = var2.flags;
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot11;
             var1 = var1.AVAILABLE;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -870,7 +876,7 @@ case 15:
                 var9 = var5.bind(var7)(var2);
                 var6 = var9.hasFlag;
                 var5 = var4.flags;
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot11;
                 var2 = var2.PREMIUM_PURCHASE;
                 var2 = var6.bind(var9)(var5, var2);
                 if(var2) { _fun0017_ip = 64; continue _fun0017 }
@@ -881,7 +887,7 @@ case 65:
                 var6 = var6.bind(var7)(var5);
                 var5 = var6.hasFlag;
                 var4 = var4.flags;
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot11;
                 var3 = var3.PREMIUM_AND_DISTRIBUTION;
                 var2 = var5.bind(var6)(var4, var3);
 case 64:
@@ -932,7 +938,7 @@ case 60:
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var2 = arg1;
-                var8 = var2.price;
+                var9 = var2.price;
                 var3 = _closure2_slot0;
                 var1 = {};
                 var4 = var2.id;
@@ -943,200 +949,241 @@ case 0:
                 var1['applicationId'] = var4;
                 var5 = var2.application;
                 var4 = null;
-                var6 = var4 != var5;
+                var7 = var4 != var5;
                 var5 = null;
-                if(!var6) { _fun0019_ip = 10; continue _fun0019 }
+                if(!var7) { _fun0019_ip = 66; continue _fun0019 }
+case 8:
+                var10 = _closure1_slot8;
+                var8 = var10.createFromServer;
+                var7 = var2.application;
+                var5 = var8.bind(var10)(var7);
 case 66:
-                var9 = _closure1_slot8;
-                var7 = var9.createFromServer;
-                var6 = var2.application;
-                var5 = var7.bind(var9)(var6);
-case 10:
                 var1['application'] = var5;
-                var6 = var2.eligible_payment_gateways;
-                var7 = var4 != var6;
+                var7 = var2.eligible_payment_gateways;
+                var8 = var4 != var7;
                 var5 = null;
-                if(!var7) { _fun0019_ip = 42; continue _fun0019 }
-case 53:
-                var5 = var6;
-case 42:
+                if(!var8) { _fun0019_ip = 67; continue _fun0019 }
+case 68:
+                var5 = var7;
+case 67:
                 var1['eligiblePaymentGateways'] = var5;
                 var5 = var2.product_line;
                 var1['productLine'] = var5;
-                var7 = var2.name;
-                var9 = var4 != var7;
+                var8 = var2.name;
+                var10 = var4 != var8;
                 var5 = '';
-                var6 = var5;
-                if(!var9) { _fun0019_ip = 67; continue _fun0019 }
-case 68:
-                var6 = var7;
-case 67:
-                var1['name'] = var6;
-                var6 = var2.release_date;
-                var7 = var4 != var6;
-                var6 = null;
-                if(!var7) { _fun0019_ip = 69; continue _fun0019 }
-case 70:
-                var9 = _closure1_slot1;
-                var10 = _closure1_slot2;
-                var7 = 11;
-                var7 = var10[var7];
-                var10 = undefined;
-                var9 = var9.bind(var10)(var7);
-                var7 = var2.release_date;
-                var6 = var9.bind(var10)(var7);
+                var7 = var5;
+                if(!var10) { _fun0019_ip = 69; continue _fun0019 }
+case 19:
+                var7 = var8;
 case 69:
-                var1['releaseDate'] = var6;
-                var6 = var2.preorder_release_at;
-                var7 = var4 != var6;
-                var6 = null;
-                if(!var7) { _fun0019_ip = 71; continue _fun0019 }
-case 72:
-                var9 = _closure1_slot1;
-                var10 = _closure1_slot2;
-                var7 = 11;
-                var7 = var10[var7];
-                var10 = undefined;
-                var9 = var9.bind(var10)(var7);
-                var7 = var2.preorder_release_at;
-                var6 = var9.bind(var10)(var7);
+                var1['name'] = var7;
+                var7 = var2.release_date;
+                var8 = var4 != var7;
+                var7 = null;
+                if(!var8) { _fun0019_ip = 70; continue _fun0019 }
 case 71:
-                var1['preorderReleaseAt'] = var6;
-                var6 = var2.preorder_approximate_release_date;
-                var1['preorderApproximateReleaseDate'] = var6;
-                var6 = var2.summary;
-                var1['summary'] = var6;
-                var6 = global;
-                var10 = var6.Set;
-                var11 = var2.features;
-                var9 = var10.prototype;
-                var9 = Object.create(var9, {constructor: {value: var10}});
-                var12 = var9;
-                var7 = new var12[var10](var11, var10);
-                var7 = var7 instanceof Object ? var7 : var9;
-                var1['features'] = var7;
-                var9 = var6.Set;
-                var11 = var2.genres;
-                var7 = var9.prototype;
-                var7 = Object.create(var7, {constructor: {value: var9}});
-                var12 = var7;
-                var6 = new var12[var9](var11, var10);
-                var6 = var6 instanceof Object ? var6 : var7;
-                var1['genres'] = var6;
-                var6 = var2.dependent_sku_id;
-                var1['dependentSkuId'] = var6;
-                var6 = var2.manifests;
-                var1['manifests'] = var6;
-                var6 = var2.available_regions;
-                var1['availableRegions'] = var6;
-                var6 = var2.access_type;
-                var1['accessType'] = var6;
-                var6 = var2.system_requirements;
-                var1['systemRequirements'] = var6;
-                var6 = var2.content_rating;
-                var1['contentRating'] = var6;
-                var6 = var2.content_rating_agency;
-                var1['contentRatingAgency'] = var6;
-                var6 = var2.legal_notice;
-                var1['legalNotice'] = var6;
-                var7 = var4 != var8;
-                var6 = null;
-                if(!var7) { _fun0019_ip = 73; continue _fun0019 }
-case 74:
-                var7 = {};
-                var9 = var8.amount;
-                var7['amount'] = var9;
-                var9 = var8.currency;
-                var7['currency'] = var9;
-                var9 = var8.sale_amount;
-                var7['saleAmount'] = var9;
-                var9 = var8.sale_percentage;
-                var7['salePercentage'] = var9;
-                var8 = var8.premium;
-                var7['premium'] = var8;
-                var6 = var7;
+                var10 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var8 = 11;
+                var8 = var11[var8];
+                var11 = undefined;
+                var10 = var10.bind(var11)(var8);
+                var8 = var2.release_date;
+                var7 = var10.bind(var11)(var8);
+case 70:
+                var1['releaseDate'] = var7;
+                var7 = var2.preorder_release_at;
+                var8 = var4 != var7;
+                var7 = null;
+                if(!var8) { _fun0019_ip = 72; continue _fun0019 }
 case 73:
-                var1['price'] = var6;
-                var7 = var2.premium;
-                var6 = var4 != var7;
-                if(!var6) { _fun0019_ip = 75; continue _fun0019 }
-case 76:
-                var6 = var7;
+                var10 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var8 = 11;
+                var8 = var11[var8];
+                var11 = undefined;
+                var10 = var10.bind(var11)(var8);
+                var8 = var2.preorder_release_at;
+                var7 = var10.bind(var11)(var8);
+case 72:
+                var1['preorderReleaseAt'] = var7;
+                var7 = var2.preorder_approximate_release_date;
+                var1['preorderApproximateReleaseDate'] = var7;
+                var7 = var2.summary;
+                var1['summary'] = var7;
+                var7 = global;
+                var11 = var7.Set;
+                var12 = var2.features;
+                var10 = var11.prototype;
+                var10 = Object.create(var10, {constructor: {value: var11}});
+                var13 = var10;
+                var8 = new var13[var11](var12, var11);
+                var8 = var8 instanceof Object ? var8 : var10;
+                var1['features'] = var8;
+                var10 = var7.Set;
+                var12 = var2.genres;
+                var8 = var10.prototype;
+                var8 = Object.create(var8, {constructor: {value: var10}});
+                var13 = var8;
+                var7 = new var13[var10](var12, var11);
+                var7 = var7 instanceof Object ? var7 : var8;
+                var1['genres'] = var7;
+                var7 = var2.dependent_sku_id;
+                var1['dependentSkuId'] = var7;
+                var7 = var2.manifests;
+                var1['manifests'] = var7;
+                var7 = var2.available_regions;
+                var1['availableRegions'] = var7;
+                var7 = var2.access_type;
+                var1['accessType'] = var7;
+                var7 = var2.system_requirements;
+                var1['systemRequirements'] = var7;
+                var7 = var2.content_rating;
+                var1['contentRating'] = var7;
+                var7 = var2.content_rating_agency;
+                var1['contentRatingAgency'] = var7;
+                var7 = var2.legal_notice;
+                var1['legalNotice'] = var7;
+                var8 = var4 != var9;
+                var7 = null;
+                if(!var8) { _fun0019_ip = 74; continue _fun0019 }
 case 75:
-                var1['premium'] = var6;
-                var6 = var2.show_age_gate;
-                if(var6) { _fun0019_ip = 77; continue _fun0019 }
-case 78:
-                var6 = false;
+                var8 = {};
+                var10 = var9.amount;
+                var8['amount'] = var10;
+                var10 = var9.currency;
+                var8['currency'] = var10;
+                var10 = var9.sale_amount;
+                var8['saleAmount'] = var10;
+                var10 = var9.sale_percentage;
+                var8['salePercentage'] = var10;
+                var9 = var9.premium;
+                var8['premium'] = var9;
+                var7 = var8;
+case 74:
+                var1['price'] = var7;
+                var7 = var2.prices;
+                if(!(var4 == var7)) { _fun0019_ip = 76; continue _fun0019 }
 case 77:
-                var1['showAgeGate'] = var6;
-                var6 = var2.restricted;
-                if(var6) { _fun0019_ip = 79; continue _fun0019 }
+                var7 = {};
+                _fun0019_ip = 78; continue _fun0019;
+case 76:
+                var10 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var8 = 12;
+                var9 = var9[var8];
+                var8 = undefined;
+                var10 = var10.bind(var8)(var9);
+                var9 = var10.getPricesFromServer;
+                var8 = var2.prices;
+                var7 = var9.bind(var10)(var8);
+case 78:
+                var1['prices'] = var7;
+                var8 = var2.premium;
+                var7 = var4 != var8;
+                if(!var7) { _fun0019_ip = 79; continue _fun0019 }
 case 80:
-                var6 = false;
+                var7 = var8;
 case 79:
-                var1['restricted'] = var6;
-                var6 = var2.slug;
-                var7 = var4 != var6;
-                if(!var7) { _fun0019_ip = 81; continue _fun0019 }
+                var1['premium'] = var7;
+                var7 = var2.show_age_gate;
+                if(var7) { _fun0019_ip = 81; continue _fun0019 }
 case 82:
-                var5 = var6;
+                var7 = false;
 case 81:
+                var1['showAgeGate'] = var7;
+                var7 = var2.restricted;
+                if(var7) { _fun0019_ip = 83; continue _fun0019 }
+case 84:
+                var7 = false;
+case 83:
+                var1['restricted'] = var7;
+                var7 = var2.slug;
+                var8 = var4 != var7;
+                if(!var8) { _fun0019_ip = 85; continue _fun0019 }
+case 86:
+                var5 = var7;
+case 85:
                 var1['slug'] = var5;
                 var5 = var2.exclusive;
-                if(var5) { _fun0019_ip = 83; continue _fun0019 }
-case 84:
+                if(var5) { _fun0019_ip = 87; continue _fun0019 }
+case 88:
                 var5 = false;
-case 83:
+case 87:
                 var1['exclusive'] = var5;
                 var5 = var2.locales;
-                if(!(var4 == var5)) { _fun0019_ip = 85; continue _fun0019 }
-case 86:
+                if(!(var4 == var5)) { _fun0019_ip = 89; continue _fun0019 }
+case 90:
                 var5 = ['en-US'];
-case 85:
+case 89:
                 var1['locales'] = var5;
                 var5 = var2.flags;
                 var1['flags'] = var5;
                 var5 = var2.external_purchase_url;
                 var1['externalPurchaseUrl'] = var5;
-                var6 = var2.deleted;
-                var5 = var4 != var6;
-                if(!var5) { _fun0019_ip = 87; continue _fun0019 }
-case 88:
-                var5 = var6;
-case 87:
+                var7 = var2.deleted;
+                var5 = var4 != var7;
+                if(!var5) { _fun0019_ip = 91; continue _fun0019 }
+case 92:
+                var5 = var7;
+case 91:
                 var1['deleted'] = var5;
                 var5 = var2.bundled_sku_ids;
-                if(!(var4 == var5)) { _fun0019_ip = 89; continue _fun0019 }
-case 90:
+                if(!(var4 == var5)) { _fun0019_ip = 93; continue _fun0019 }
+case 94:
                 var5 = new Array(0);
-case 89:
+case 93:
                 var1['bundledSkuIds'] = var5;
-                var9 = var2.bundled_skus;
-                var6 = var4 == var9;
-                var7 = undefined;
+                var10 = var2.bundled_skus;
+                var8 = var4 == var10;
                 var5 = undefined;
-                if(var6) { _fun0019_ip = 91; continue _fun0019 }
-case 92:
-                var8 = var9.map;
-                var6 = function(arg1) {
+                var7 = undefined;
+                if(var8) { _fun0019_ip = 95; continue _fun0019 }
+case 96:
+                var9 = var10.map;
+                var8 = function(arg1) {
                     var3 = _closure2_slot0;
                     var2 = var3.createFromServer;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var5 = var8.bind(var9)(var6);
-case 91:
-                if(!(var4 == var5)) { _fun0019_ip = 93; continue _fun0019 }
-case 94:
+                var7 = var9.bind(var10)(var8);
+case 95:
+                if(!(var4 == var7)) { _fun0019_ip = 97; continue _fun0019 }
+case 98:
+                var7 = new Array(0);
+case 97:
+                var1['bundledSkus'] = var7;
+                var8 = _closure1_slot20;
+                var7 = var2.tenant_metadata;
+                var7 = var8.bind(var5)(var7);
+                var1['tenantMetadata'] = var7;
+                var8 = var2.selected_options;
+                var7 = var4 == var8;
+                var5 = undefined;
+                if(var7) { _fun0019_ip = 99; continue _fun0019 }
+case 100:
+                var7 = var8.map;
+                var6 = function(arg1) {
+                    var1 = arg1;
+                    var3 = var1.option_name;
+                    var2 = var1.option_value;
+                    var1 = {};
+                    var1['optionName'] = var3;
+                    var1['optionValue'] = var2;
+                    return var1;
+                };
+                var5 = var7.bind(var8)(var6);
+case 99:
+                if(!(var4 == var5)) { _fun0019_ip = 101; continue _fun0019 }
+case 102:
                 var5 = new Array(0);
-case 93:
-                var1['bundledSkus'] = var5;
-                var6 = _closure1_slot20;
-                var5 = var2.tenant_metadata;
-                var5 = var6.bind(var7)(var5);
-                var1['tenantMetadata'] = var5;
+case 101:
+                var1['selectedOptions'] = var5;
+                var5 = var2.product_id;
+                var1['productId'] = var5;
                 var5 = var2.thumbnail_asset_id;
                 var1['thumbnailAssetId'] = var5;
                 var5 = var2.description;
@@ -1144,16 +1191,16 @@ case 93:
                 var5 = var2.orbs_reward;
                 var1['orbsReward'] = var5;
                 var2 = var2.eligible_offers;
-                if(!(var4 == var2)) { _fun0019_ip = 95; continue _fun0019 }
-case 96:
+                if(!(var4 == var2)) { _fun0019_ip = 103; continue _fun0019 }
+case 104:
                 var2 = new Array(0);
-case 95:
+case 103:
                 var1['eligibleOffers'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var12 = var2;
-                var11 = var1;
-                var1 = new var12[var3](var11, var10);
+                var13 = var2;
+                var12 = var1;
+                var1 = new var13[var3](var12, var11);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             }
@@ -1165,7 +1212,7 @@ case 95:
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

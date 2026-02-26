@@ -187,7 +187,7 @@ case 11:
             var9 = var9[var7];
             var9 = var11.bind(var6)(var9);
             var9 = var9.colors;
-            var9 = var9.BACKGROUND_MOD_SUBTLE;
+            var9 = var9.CARD_BACKGROUND_DEFAULT;
             var2['backgroundColor'] = var9;
             var1['bannerContainer'] = var2;
             var2 = {};
@@ -868,6 +868,8 @@ case 66:
             var33 = 'text-sm/normal';
 case 65:
             var30['variant'] = var33;
+            var33 = 'text-subtle';
+            var30['color'] = var33;
             var34 = _closure1_slot0;
             var39 = _closure1_slot2;
             var33 = 20;
@@ -914,9 +916,7 @@ case 70:
             var29 = var37[var29];
             var29 = var33.bind(var4)(var29);
             var30 = var29.Text;
-            var29 = {};
-            var32 = 'text-sm/normal';
-            var29['variant'] = var32;
+            var29 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
             var32 = 20;
             var34 = var37[var32];
             var34 = var33.bind(var4)(var34);

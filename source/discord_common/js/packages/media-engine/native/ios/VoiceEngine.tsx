@@ -83,8 +83,8 @@ case 2:
         var10 = var1.Object;
         var8 = var10.defineProperty;
         var2 = {};
-        var1 = true;
-        var2['value'] = var1;
+        var11 = true;
+        var2['value'] = var11;
         var1 = '__esModule';
         var1 = var8.bind(var10)(var3, var1, var2);
         var8 = 0;
@@ -103,14 +103,16 @@ case 2:
         var7 = 3;
         var2 = var5[var7];
         var2 = var4.bind(var1)(var2);
-        var11 = var2.Logger;
-        var2 = var11.prototype;
-        var10 = Object.create(var2, {constructor: {value: var11}});
+        var12 = var2.Logger;
+        var2 = var12.prototype;
+        var10 = Object.create(var2, {constructor: {value: var12}});
         var16 = 'VoiceEngine';
         var17 = var10;
-        var2 = new var17[var11](var16, var15);
-        var2 = var2 instanceof Object ? var2 : var10;
-        var _closure1_slot4 = var2;
+        var2 = new var17[var12](var16, var15);
+        var10 = var2 instanceof Object ? var2 : var10;
+        var _closure1_slot4 = var10;
+        var2 = var10.enableNativeLogger;
+        var2 = var2.bind(var10)(var11);
         var2 = 4;
         var10 = var5[var2];
         var10 = var4.bind(var1)(var10);
@@ -338,6 +340,14 @@ case 10:
                     return var1;
                 };
                 var5['setOnSpeakingCallback'] = var4;
+                var7 = var5.callbackSetter;
+                var6 = 'speaking-while-muted';
+                var4 = function() {
+                    var1 = new Array(0);
+                    return var1;
+                };
+                var4 = var7.bind(var5)(var6, var4);
+                var5['setOnSpeakingWhileMutedCallback'] = var4;
                 var7 = var5.callbackSetter;
                 var6 = 'on-video-callback';
                 var4 = function(arg1) {

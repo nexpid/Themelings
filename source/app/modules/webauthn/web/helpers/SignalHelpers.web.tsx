@@ -285,7 +285,7 @@ case 16:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     StartGenerator();
-                    var8 = arg1;
+                    var7 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 26; continue _fun0003 }
 case 17:
@@ -299,9 +299,9 @@ case 18:
 case 19:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0003_ip = 27; continue _fun0003 }
-case 21:
-                    if(!var2) { _fun0003_ip = 28; continue _fun0003 }
 case 23:
+                    if(!var2) { _fun0003_ip = 28; continue _fun0003 }
+case 4:
                     var6 = _closure1_slot5;
                     var5 = var6.signalCurrentUserDetails;
                     var3 = {};
@@ -311,28 +311,32 @@ case 23:
                     var9 = var9.WEBAUTHN_ORIGIN;
                     var3['rpId'] = var9;
                     var9 = _closure1_slot6;
-                    var7 = var8.id;
-                    var7 = var9.bind(var4)(var7);
-                    var3['userId'] = var7;
-                    var7 = var8.username;
-                    var3['name'] = var7;
-                    var7 = var8.global_name;
+                    var8 = var7.id;
+                    var8 = var9.bind(var4)(var8);
+                    var3['userId'] = var8;
+                    var8 = var7.email;
                     var9 = null;
-                    if(!(var9 == var7)) { _fun0003_ip = 29; continue _fun0003 }
+                    if(!(var9 == var8)) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
-                    var7 = var8.username;
+                    var8 = var7.global_name;
 case 29:
+                    if(!(var9 == var8)) { _fun0003_ip = 24; continue _fun0003 }
+case 8:
+                    var8 = var7.username;
+case 24:
+                    var3['name'] = var8;
+                    var7 = var7.username;
                     var3['displayName'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=144);
-case 31:
+                    SaveGenerator(address=157);
+case 12:
                     return var3;
-case 32:
+case 31:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 33; continue _fun0003 }
+                    if(var5) { _fun0003_ip = 32; continue _fun0003 }
 case 28:
                     return var4;
-case 33:
+case 32:
                     return var3;
 case 27:
                     return var2;
@@ -374,12 +378,12 @@ case 17:
                     var2 = 'signalUnknownCredential';
                     var2 = var5.bind(var4)(var2);
                     SaveGenerator(address=35);
-case 34:
+case 33:
                     return var2;
 case 18:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(var5) { _fun0004_ip = 16; continue _fun0004 }
-case 35:
+case 34:
                     if(!var2) { _fun0004_ip = 25; continue _fun0004 }
 case 5:
                     var6 = _closure1_slot5;
@@ -392,22 +396,22 @@ case 5:
                     var3['rpId'] = var7;
                     var9 = 'string';
                     var7 = typeof var10;
-                    if(!(var9 !== var7)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-                    var7 = var10.id;
-                    _fun0004_ip = 38; continue _fun0004;
+                    if(!(var9 !== var7)) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
+                    var7 = var10.id;
+                    _fun0004_ip = 37; continue _fun0004;
+case 35:
                     var9 = var8.JSON;
                     var8 = var9.parse;
                     var8 = var8.bind(var9)(var10);
                     var7 = var8.id;
-case 38:
+case 37:
                     var3['credentialId'] = var7;
                     var3 = var5.bind(var6)(var3);
                     SaveGenerator(address=137);
-case 39:
+case 38:
                     return var3;
-case 40:
+case 39:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     if(var5) { _fun0004_ip = 20; continue _fun0004 }
 case 25:

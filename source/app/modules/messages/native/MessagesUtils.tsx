@@ -1636,11 +1636,18 @@ case 0:
             var2 = _closure1_slot17;
             var3 = var2.MEDIA_PLAY_FINISHED;
             var2 = {};
-            var8 = var7.playWallTimeMs;
+            var9 = var7.playWallTimeMs;
+            var8 = 1000;
+            var8 = var9 / var8;
             var2['play_time_sec'] = var8;
             var8 = var7.playWallTimeMs;
             var2['play_wall_time_ms'] = var8;
-            var8 = var7.firstPlayWaitingMs;
+            var8 = global;
+            var11 = var8.Math;
+            var10 = var11.min;
+            var9 = var7.firstPlayWaitingMs;
+            var8 = 600000;
+            var8 = var10.bind(var11)(var9, var8);
             var2['first_play_waiting_ms'] = var8;
             var8 = var7.stallCount;
             var2['stall_count'] = var8;
@@ -1652,12 +1659,17 @@ case 0:
             var2['seek_waiting_ms'] = var8;
             var9 = var7.mediaSource;
             var2['media_source'] = var9;
-            var10 = var7.mimeType;
-            var11 = var8 != var10;
-            var9 = 'video';
-            if(!var11) { _fun0021_ip = 190; continue _fun0021 }
+            var9 = var7.mimeType;
+            var10 = var8 != var9;
+            var9 = null;
+            if(!var10) { _fun0021_ip = 190; continue _fun0021 }
+case 45:
+            var11 = var7.mimeType;
+            var10 = '';
+            var9 = null;
+            if(!(var10 !== var11)) { _fun0021_ip = 190; continue _fun0021 }
 case 191:
-            var9 = var10;
+            var9 = var7.mimeType;
 case 190:
             var2['mime_type'] = var9;
             var2['file_size'] = var8;

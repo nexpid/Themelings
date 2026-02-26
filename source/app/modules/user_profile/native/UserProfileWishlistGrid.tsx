@@ -805,6 +805,8 @@ case 43:
                             var10 = new Array(1);
                             var10[0] = var11;
                             var6['analyticsLocations'] = var10;
+                            var10 = _closure2_slot8;
+                            var6['initialRecipientUser'] = var10;
                             var6 = var7.bind(var8)(var6);
                             var6 = undefined;
                             return var6;
@@ -860,8 +862,8 @@ case 44:
                             var5 = var6.maybeFetchCollectiblesProduct;
                             var2 = var3.skuId;
                             var2 = var5.bind(var6)(var2);
-                            SaveGenerator(address=510);
-case 14:
+                            SaveGenerator(address=519);
+case 17:
                             return var2;
 case 48:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);

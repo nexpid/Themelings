@@ -745,6 +745,10 @@ case 42:
                     return var1;
                 };
                 var1['handleSystemMicrophoneModeChangeCallback'] = var8;
+                var10 = var1.logger;
+                var9 = var10.enableNativeLogger;
+                var8 = true;
+                var8 = var9.bind(var10)(var8);
                 var9 = 15;
                 var5 = var5[var9];
                 var7 = var7.bind(var3)(var5);

@@ -491,6 +491,8 @@ case 24:
     var6 = 'modules/quests/VideoQuestUIStore.tsx';
     var6 = var7.bind(var8)(var6);
     var3['default'] = var2;
+    var6 = {'timestampSec': 0, 'duration': 10, 'maxTimestampSec': 0};
+    var3['DEFAULT_VIDEO_PROGRESS'] = var6;
     var3['VideoProgressState'] = var5;
     var3['FetchStatus'] = var4;
     var3['useVideoQuestUIStore'] = var2;

@@ -50,8 +50,8 @@ case 4:
     var9 = var1.Object;
     var8 = var9.defineProperty;
     var4 = {};
-    var1 = true;
-    var4['value'] = var1;
+    var12 = true;
+    var4['value'] = var12;
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
@@ -122,14 +122,16 @@ case 4:
     var _closure1_slot18 = var4;
     var4 = 14;
     var4 = var6[var4];
-    var12 = var7.bind(var1)(var4);
-    var4 = var12.prototype;
-    var10 = Object.create(var4, {constructor: {value: var12}});
-    var15 = 'VoiceEngineStreamingManager';
-    var16 = var10;
-    var4 = new var16[var12](var15, var14);
-    var4 = var4 instanceof Object ? var4 : var10;
-    var _closure1_slot20 = var4;
+    var13 = var7.bind(var1)(var4);
+    var4 = var13.prototype;
+    var10 = Object.create(var4, {constructor: {value: var13}});
+    var16 = 'VoiceEngineStreamingManager';
+    var17 = var10;
+    var4 = new var17[var13](var16, var15);
+    var10 = var4 instanceof Object ? var4 : var10;
+    var _closure1_slot19 = var10;
+    var4 = var10.enableNativeLogger;
+    var4 = var4.bind(var10)(var12);
     var4 = var11.get;
     var10 = 'window';
     var4 = var4.bind(var11)(var10);
@@ -145,8 +147,8 @@ case 4:
     var10 = var10.Timeout;
     var11 = var10.prototype;
     var11 = Object.create(var11, {constructor: {value: var10}});
-    var16 = var11;
-    var10 = new var16[var10](var15);
+    var17 = var11;
+    var10 = new var17[var10](var16);
     var10 = var10 instanceof Object ? var10 : var11;
     var _closure1_slot23 = var10;
     var4 = var6[var4];
@@ -154,8 +156,8 @@ case 4:
     var4 = var4.Timeout;
     var10 = var4.prototype;
     var10 = Object.create(var10, {constructor: {value: var4}});
-    var16 = var10;
-    var4 = new var16[var4](var15);
+    var17 = var10;
+    var4 = new var17[var4](var16);
     var4 = var4 instanceof Object ? var4 : var10;
     var _closure1_slot24 = var4;
     var4 = new Array(0);
@@ -246,7 +248,7 @@ case 13:
                     return var5;
 case 15: // catch_target0
                     CatchBlockStart(arg_register=7);
-                    var7 = _closure1_slot20;
+                    var7 = _closure1_slot19;
                     var6 = var7.error;
                     var5 = 'Failed to post stream preview';
                     var5 = var6.bind(var7)(var5, var8);
@@ -347,7 +349,7 @@ case 0:
                         var4 = _closure1_slot27;
                         if(!(var4 !== var2)) { _fun0004_ip = 4; continue _fun0004 }
 case 19:
-                        var5 = _closure1_slot19;
+                        var5 = _closure1_slot20;
                         var4 = null;
                         if(!(var4 != var5)) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
@@ -415,12 +417,12 @@ case 4:
             var6 = var6.bind(var1)(var4);
             var4 = var6.getVoiceEngine;
             var7 = var4.bind(var6)();
-            var _closure1_slot19 = var7;
+            var _closure1_slot20 = var7;
             var6 = var7.setBroadcastRequestCallback;
             var4 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var5 = _closure1_slot20;
+                    var5 = _closure1_slot19;
                     var3 = var5.log;
                     var1 = 'Broadcast Requested';
                     var1 = var3.bind(var5)(var1);
@@ -430,7 +432,7 @@ case 0:
                     var3 = var3[var1];
                     var1 = undefined;
                     var7 = var5.bind(var1)(var3);
-                    var5 = _closure1_slot19;
+                    var5 = _closure1_slot20;
                     var3 = null;
                     var6 = var3 != var5;
                     var5 = 'Voice Engine should be initialized in callback';
@@ -448,7 +450,7 @@ case 0:
                     var5 = var5.bind(var7)();
                     if(!(var3 == var6)) { _fun0006_ip = 23; continue _fun0006 }
 case 24:
-                    var10 = _closure1_slot19;
+                    var10 = _closure1_slot20;
                     var9 = var10.stopBroadcastWithError;
                     var8 = -1;
                     var7 = 'Not currently in a voice channel';
@@ -488,7 +490,7 @@ case 26:
                     var6 = var10.encodeStreamKey;
                     var6 = var6.bind(var10)(var11);
                     var6 = var8.bind(var9)(var7, var6);
-                    var6 = _closure1_slot19;
+                    var6 = _closure1_slot20;
                     var7 = var6.platform;
                     var6 = 'android';
                     if(!(var6 === var7)) { _fun0006_ip = 27; continue _fun0006 }
@@ -503,7 +505,7 @@ case 8:
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
-                        var3 = _closure1_slot19;
+                        var3 = _closure1_slot20;
                         var2 = null;
                         var3 = var2 != var3;
                         var2 = 'Voice Engine should be initialized in callback';
@@ -518,14 +520,14 @@ case 8:
                         var2 = 288;
                         var2 = var2 / var3;
                         var2 = var7.bind(var8)(var6, var2);
-                        var7 = _closure1_slot19;
+                        var7 = _closure1_slot20;
                         var6 = var7.setBroadcastThumbnailCallback;
                         var12 = var4 * var2;
                         var11 = var3 * var2;
                         var10 = 300;
                         var9 = function(arg1) {
                             var4 = arg1;
-                            var6 = _closure1_slot20;
+                            var6 = _closure1_slot19;
                             var5 = var6.log;
                             var3 = var4.length;
                             var1 = 'Broadcast thumbnail of size:';
@@ -561,10 +563,10 @@ case 25:
                 }
             };
             var4 = var6.bind(var7)(var4);
-            var7 = _closure1_slot19;
+            var7 = _closure1_slot20;
             var6 = var7.setBroadcastFinishedCallback;
             var4 = function() {
-                var4 = _closure1_slot20;
+                var4 = _closure1_slot19;
                 var3 = var4.log;
                 var2 = 'Broadcast Finished';
                 var2 = var3.bind(var4)(var2);
@@ -585,13 +587,13 @@ case 25:
                 return var1;
             };
             var4 = var6.bind(var7)(var4);
-            var7 = _closure1_slot19;
+            var7 = _closure1_slot20;
             var6 = var7.setBroadcastAnnotatedCallback;
             var4 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var3 = arg1;
-                    var5 = _closure1_slot20;
+                    var5 = _closure1_slot19;
                     var4 = var5.log;
                     var2 = 'Broadcast Annotated:';
                     var2 = var4.bind(var5)(var2, var3);
@@ -619,10 +621,10 @@ case 29:
                 }
             };
             var4 = var6.bind(var7)(var4);
-            var6 = _closure1_slot19;
+            var6 = _closure1_slot20;
             var4 = var6.setBroadcastBlockedCallback;
             var3 = function() {
-                var3 = _closure1_slot20;
+                var3 = _closure1_slot19;
                 var2 = var3.log;
                 var1 = 'Broadcast Blocked';
                 var1 = var2.bind(var3)(var1);
@@ -733,8 +735,8 @@ case 32:
     var2 = var2.bind(var1)(var4);
     var4 = var2.prototype;
     var4 = Object.create(var4, {constructor: {value: var2}});
-    var16 = var4;
-    var2 = new var16[var2](var15);
+    var17 = var4;
+    var2 = new var17[var2](var16);
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 28;
     var4 = var6[var4];

@@ -42,8 +42,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['reducedMotion'] = var8;
     var4['hytale_gameplay'] = var7;
     var7 = {};
-    var4['gameplay_palworld_nozoom'] = var7;
-    var7 = {};
     var4['c_chara_1'] = var7;
     var7 = {};
     var4['c_chara_4'] = var7;
@@ -59,8 +57,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['c_chara_5'] = var7;
     var7 = ['Instance'];
     var4['hytale_gameplay'] = var7;
-    var7 = new Array(0);
-    var4['gameplay_palworld_nozoom'] = var7;
     var7 = new Array(0);
     var4['c_chara_1'] = var7;
     var7 = new Array(0);

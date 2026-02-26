@@ -132,9 +132,12 @@ case 7:
                     var4 = _closure2_slot1;
                     var4 = var4.progressSeconds;
                     var2['timestampSec'] = var4;
+                    var4 = _closure2_slot1;
+                    var4 = var4.targetSeconds;
+                    var2['duration'] = var4;
                     var3 = _closure2_slot1;
-                    var3 = var3.targetSeconds;
-                    var2['duration'] = var3;
+                    var3 = var3.progressSeconds;
+                    var2['maxTimestampSec'] = var3;
                     var1 = var2;
 case 6:
                     var4 = _closure1_slot0;

@@ -16,82 +16,85 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function parseAvatarDecorationData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var3 = arg1;
-            var2 = 'object';
-            var1 = typeof var3;
-            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = arg1;
+            var3 = 'object';
+            var1 = typeof var2;
+            if(!(var3 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var2 = 'asset';
-            var2 = var2 in var3;
-            if(!var2) { _fun0001_ip = 5; continue _fun0001 }
+            var1 = {};
+            var3 = 'asset';
+            var3 = var3 in var2;
+            if(!var3) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var2 = var3.asset;
-            var6 = 'string';
-            var2 = typeof var2;
-            if(!(var6 === var2)) { _fun0001_ip = 5; continue _fun0001 }
-case 7:
-            var2 = {};
-            var4 = var3.asset;
-            var2['asset'] = var4;
-            var4 = 'sku_id';
-            var4 = var4 in var3;
-            if(!var4) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var5 = var3.sku_id;
-            var5 = typeof var5;
-            var4 = var6 === var5;
-case 8:
-            if(!var4) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var4 = var3.sku_id;
-            var2['skuId'] = var4;
-case 10:
-            var4 = 'skuId';
-            var4 = var4 in var3;
-            if(!var4) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var5 = var3.skuId;
-            var5 = typeof var5;
-            var4 = var6 === var5;
-case 12:
-            if(!var4) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var4 = var3.skuId;
-            var2['skuId'] = var4;
-case 14:
-            var4 = 'expires_at';
-            var4 = var4 in var3;
-            if(!var4) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var5 = var3.expires_at;
-            var6 = 'number';
-            var5 = typeof var5;
-            var4 = var6 === var5;
-case 16:
-            if(!var4) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-            var4 = var3.expires_at;
-            var2['expiresAt'] = var4;
-case 18:
-            var4 = 'expiresAt';
-            var4 = var4 in var3;
-            if(!var4) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var5 = var3.expiresAt;
-            var6 = 'number';
-            var5 = typeof var5;
-            var4 = var6 === var5;
-case 20:
-            if(!var4) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var3 = var3.expiresAt;
-            var2['expiresAt'] = var3;
-case 22:
-            return var2;
+            var4 = var2.asset;
+            var5 = 'string';
+            var4 = typeof var4;
+            var3 = var5 === var4;
 case 5:
+            if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var3 = var2.asset;
+            var1['asset'] = var3;
+case 7:
+            var3 = 'sku_id';
+            var3 = var3 in var2;
+            if(!var3) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            var4 = var2.sku_id;
+            var5 = 'string';
+            var4 = typeof var4;
+            var3 = var5 === var4;
+case 9:
+            if(!var3) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var3 = var2.sku_id;
+            var1['skuId'] = var3;
+case 11:
+            var3 = 'skuId';
+            var3 = var3 in var2;
+            if(!var3) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            var4 = var2.skuId;
+            var5 = 'string';
+            var4 = typeof var4;
+            var3 = var5 === var4;
+case 13:
+            if(!var3) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var3 = var2.skuId;
+            var1['skuId'] = var3;
+case 15:
+            var3 = 'expires_at';
+            var3 = var3 in var2;
+            if(!var3) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
+            var4 = var2.expires_at;
+            var5 = 'number';
+            var4 = typeof var4;
+            var3 = var5 === var4;
+case 17:
+            if(!var3) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var3 = var2.expires_at;
+            var1['expiresAt'] = var3;
+case 19:
+            var3 = 'expiresAt';
+            var3 = var3 in var2;
+            if(!var3) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+            var4 = var2.expiresAt;
+            var5 = 'number';
+            var4 = typeof var4;
+            var3 = var5 === var4;
+case 21:
+            if(!var3) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
+            var2 = var2.expiresAt;
+            var1['expiresAt'] = var2;
+case 23:
             return var1;
 case 2:
             var1 = null;
@@ -106,13 +109,13 @@ case 0:
             var3 = null;
             var4 = var3 == var2;
             var1 = undefined;
-            if(var4) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+            if(var4) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var1 = var2.expiresAt;
-case 24:
+case 25:
             var1 = var3 != var1;
-            if(!var1) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            if(!var1) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var3 = var2.expiresAt;
             var2 = 1000;
             var3 = var2 * var3;
@@ -121,7 +124,7 @@ case 27:
             var2 = var4.now;
             var2 = var2.bind(var4)();
             var1 = var3 < var2;
-case 26:
+case 27:
             return var1;
         }
     };
@@ -141,10 +144,10 @@ case 0:
             var3 = arg1;
             var2 = arg2;
             var1 = null;
-            if(!(var1 != var3)) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
-            if(!(var1 != var2)) { _fun0003_ip = 28; continue _fun0003 }
+            if(!(var1 != var3)) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
+            if(!(var1 != var2)) { _fun0003_ip = 29; continue _fun0003 }
+case 31:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var4 = 0;
@@ -156,10 +159,10 @@ case 30:
             var4 = var1.bind(var7)(var3);
             var1 = var1.bind(var7)(var2);
             var1 = var5.bind(var6)(var4, var1);
-            _fun0003_ip = 31; continue _fun0003;
-case 28:
+            _fun0003_ip = 32; continue _fun0003;
+case 29:
             var1 = var3 === var2;
-case 31:
+case 32:
             return var1;
         }
     };
@@ -171,34 +174,34 @@ case 0:
             var3 = null;
             var1 = arg2;
             var1 = var3 != var1;
-            if(!var1) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+            if(!var1) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
             var6 = _closure1_slot3;
             var7 = var3 == var4;
             var5 = undefined;
             var2 = undefined;
-            if(var7) { _fun0004_ip = 34; continue _fun0004 }
+            if(var7) { _fun0004_ip = 6; continue _fun0004 }
 case 35:
             var2 = var4.avatarDecoration;
-case 34:
+case 6:
             var2 = var6.bind(var5)(var2);
             var1 = !var2;
-case 32:
-            if(!var1) { _fun0004_ip = 9; continue _fun0004 }
-case 36:
+case 33:
+            if(!var1) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(var5) { _fun0004_ip = 38; continue _fun0004 }
+case 8:
             var4 = var4.avatarDecoration;
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 37; continue _fun0004 }
+            if(var5) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
             var2 = var4.asset;
-case 37:
+case 38:
             var1 = var3 != var2;
-case 9:
+case 36:
             return var1;
         }
     };

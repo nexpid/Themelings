@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -36,36 +36,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var13 = var2.forceMaxHeight;
-            var7 = undefined;
-            if(!(var13 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+            var3 = undefined;
+            if(!(var13 === var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var13 = false;
 case 2:
             var _closure2_slot0 = var13;
-            var _closure2_slot1 = var7;
-            var _closure2_slot2 = var7;
-            var _closure2_slot3 = var7;
-            var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var _closure2_slot1 = var3;
+            var _closure2_slot2 = var3;
+            var _closure2_slot3 = var3;
+            var5 = _closure1_slot1;
+            var10 = _closure1_slot2;
             var2 = 6;
-            var2 = var9[var2];
-            var4 = var3.bind(var7)(var2);
+            var2 = var10[var2];
+            var6 = var5.bind(var3)(var2);
             var2 = {};
-            var5 = true;
-            var2['ignoreKeyboard'] = var5;
-            var4 = var4.bind(var7)(var2);
-            _closure2_slot1 = var4;
+            var7 = true;
+            var2['ignoreKeyboard'] = var7;
+            var6 = var6.bind(var3)(var2);
+            _closure2_slot1 = var6;
             var2 = 7;
-            var2 = var9[var2];
-            var2 = var3.bind(var7)(var2);
-            var2 = var2.bind(var7)();
+            var2 = var10[var2];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.bind(var3)();
             var12 = var2.minimum;
             _closure2_slot2 = var12;
-            var5 = var2.maximum;
-            _closure2_slot3 = var5;
+            var7 = var2.maximum;
+            _closure2_slot3 = var7;
             var2 = 8;
-            var2 = var9[var2];
-            var3 = var3.bind(var7)(var2);
+            var2 = var10[var2];
+            var5 = var5.bind(var3)(var2);
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -129,14 +129,14 @@ case 4:
                     return var1;
                 }
             };
-            var2 = var3.bind(var7)(var2);
-            var3 = var2.initialPosition;
+            var2 = var5.bind(var3)(var2);
+            var5 = var2.initialPosition;
             var8 = var2.animateOnMount;
             var11 = _closure1_slot3;
-            var10 = var11.useMemo;
+            var9 = var11.useMemo;
             var2 = new Array(3);
             var2[0] = var13;
-            var2[1] = var5;
+            var2[1] = var7;
             var2[2] = var12;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -161,30 +161,42 @@ case 12:
                     return var1;
                 }
             };
-            var2 = var10.bind(var11)(var1, var2);
+            var2 = var9.bind(var11)(var1, var2);
             var1 = {};
             var1['animateOnMount'] = var8;
-            var8 = _closure1_slot0;
-            var6 = 2;
-            var6 = var9[var6];
-            var8 = var8.bind(var7)(var6);
-            var6 = var8.isAndroid;
-            var6 = var6.bind(var8)();
-            var8 = !var6;
-            var6 = !var8;
-            if(var8) { _fun0001_ip = 13; continue _fun0001 }
+            var9 = _closure1_slot0;
+            var8 = 2;
+            var8 = var10[var8];
+            var9 = var9.bind(var3)(var8);
+            var8 = var9.isAndroid;
+            var8 = var8.bind(var9)();
+            var9 = !var8;
+            var8 = !var9;
+            if(var9) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var6 = undefined;
+            var8 = undefined;
 case 13:
-            var1['accessible'] = var6;
-            var1['contentHeight'] = var5;
-            var4 = var4.height;
-            var1['containerHeight'] = var4;
-            var4 = false;
-            var1['enableDynamicSizing'] = var4;
-            var1['initialPosition'] = var3;
-            var3 = 'extend';
-            var1['keyboardBehavior'] = var3;
+            var1['accessible'] = var8;
+            var1['contentHeight'] = var7;
+            var6 = var6.height;
+            var1['containerHeight'] = var6;
+            var6 = false;
+            var1['enableDynamicSizing'] = var6;
+            var1['initialPosition'] = var5;
+            var5 = 'extend';
+            var1['keyboardBehavior'] = var5;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var4 = 9;
+            var4 = var6[var4];
+            var4 = var5.bind(var3)(var4);
+            var4 = var4.IS_SYSTEM_KEYBOARD_EXTERNAL;
+            var3 = undefined;
+            if(!var4) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var3 = 'adjustResize';
+case 15:
+            var1['android_keyboardInputMode'] = var3;
             var1['snapPoints'] = var2;
             return var1;
         }

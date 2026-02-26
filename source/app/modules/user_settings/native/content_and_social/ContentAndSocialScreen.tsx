@@ -11,53 +11,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.allServersSelected;
+            var5 = var1.allServersSelected;
             var1 = _closure1_slot7;
             var1 = var1.SAFETY_GUILD_SETTING_GUILD_SELECT;
-            var6 = new Array(3);
-            var6[0] = var1;
+            var7 = new Array(3);
+            var7[0] = var1;
             var1 = _closure1_slot7;
             var1 = var1.SAFETY_GUILD_SETTING_DIRECT_MESSAGES;
-            var6[1] = var1;
+            var7[1] = var1;
             var1 = _closure1_slot7;
             var1 = var1.SAFETY_GUILD_SETTING_MESSAGE_REQUESTS;
-            var6[2] = var1;
+            var7[2] = var1;
             var2 = {};
-            var10 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var9 = 8;
-            var5 = var1[var9];
-            var8 = undefined;
-            var5 = var10.bind(var8)(var5);
-            var7 = var5.intl;
-            var5 = var7.string;
-            var1 = var1[var9];
-            var1 = var10.bind(var8)(var1);
-            var1 = var1.t;
-            var1 = var1.MeYuqs;
-            var1 = var5.bind(var7)(var1);
-            var2['label'] = var1;
-            var1 = var6;
-            if(var4) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = new Array(0);
-            var15 = 0;
-            var17 = var4;
-            var16 = var6;
-            var15 = arraySpread(var17, var16, var15);
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 10;
-            var5 = var10[var5];
-            var5 = var7.bind(var8)(var5);
-            var16 = var5.GUILD_SPECIFIC_SETTINGS;
-            var17 = var4;
-            var5 = arraySpread(var17, var16, var15);
-            var1 = var4;
-case 2:
+            var1 = _closure1_slot7;
+            var4 = var1.ACTIVITY_PRIVACY_DEFAULT_SHARING;
+            var1 = new Array(1);
+            var1[0] = var4;
             var2['settings'] = var1;
-            var1 = new Array(6);
+            var1 = new Array(7);
             var1[0] = var2;
+            var2 = {};
+            var11 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var9 = 8;
+            var6 = var4[var9];
+            var8 = undefined;
+            var6 = var11.bind(var8)(var6);
+            var10 = var6.intl;
+            var6 = var10.string;
+            var4 = var4[var9];
+            var4 = var11.bind(var8)(var4);
+            var4 = var4.t;
+            var4 = var4.MeYuqs;
+            var4 = var6.bind(var10)(var4);
+            var2['label'] = var4;
+            var4 = var7;
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var5 = new Array(0);
+            var15 = 0;
+            var17 = var5;
+            var16 = var7;
+            var15 = arraySpread(var17, var16, var15);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var6 = 10;
+            var6 = var11[var6];
+            var6 = var10.bind(var8)(var6);
+            var16 = var6.GUILD_SPECIFIC_SETTINGS;
+            var17 = var5;
+            var6 = arraySpread(var17, var16, var15);
+            var4 = var5;
+case 2:
+            var2['settings'] = var4;
+            var1[1] = var2;
             var2 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -82,7 +89,7 @@ case 2:
             var6 = var6.SAFETY_SEND_FRIEND_REQUESTS_MUTUAL_GUILDS;
             var5[2] = var6;
             var2['settings'] = var5;
-            var1[1] = var2;
+            var1[2] = var2;
             var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
@@ -122,7 +129,7 @@ case 2:
             var5['helpArticle'] = var12;
             var5 = var10.bind(var11)(var6, var5);
             var2['subLabel'] = var5;
-            var1[2] = var2;
+            var1[3] = var2;
             var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
@@ -161,7 +168,7 @@ case 2:
             var5['onClick'] = var12;
             var5 = var10.bind(var11)(var6, var5);
             var2['subLabel'] = var5;
-            var1[3] = var2;
+            var1[4] = var2;
             var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
@@ -181,7 +188,7 @@ case 2:
             var6 = var6.DISCOVERY_BY_EMAIL;
             var5[1] = var6;
             var2['settings'] = var5;
-            var1[4] = var2;
+            var1[5] = var2;
             var2 = {};
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
@@ -198,7 +205,7 @@ case 2:
             var3 = new Array(1);
             var3[0] = var4;
             var2['settings'] = var3;
-            var1[5] = var2;
+            var1[6] = var2;
             return var1;
         }
     };

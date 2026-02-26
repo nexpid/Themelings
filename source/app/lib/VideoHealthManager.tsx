@@ -85,6 +85,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var6)(var3);
             var5['fpsWindowBorderlineCount'] = var3;
             var5['backoffTimeSec'] = var12;
+            var6 = var5.logger;
+            var4 = var6.enableNativeLogger;
+            var3 = true;
+            var3 = var4.bind(var6)(var3);
             var4 = var5.logger;
             var3 = var4.info;
             var19 = var5.windowLength;

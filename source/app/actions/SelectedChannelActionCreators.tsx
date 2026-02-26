@@ -36,9 +36,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var2.ME;
     var _closure1_slot7 = var7;
     var7 = var2.PopoutWindowKeys;
-    var _closure1_slot8 = var7;
     var2 = var2.Routes;
-    var _closure1_slot9 = var2;
+    var _closure1_slot8 = var2;
     var2 = {};
     var7 = function selectChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -87,7 +86,7 @@ case 2:
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
         var3 = var4.transitionTo;
-        var7 = _closure1_slot9;
+        var7 = _closure1_slot8;
         var6 = var7.CHANNEL;
         var5 = _closure1_slot7;
         var2 = arg1;
@@ -182,50 +181,30 @@ case 16:
     var4 = function disconnect() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var6 = this;
-            var3 = _closure1_slot4;
-            var1 = var3.getRemoteSessionId;
-            var4 = var1.bind(var3)();
-            var5 = null;
-            if(!(var5 != var4)) { _fun0003_ip = 20; continue _fun0003 }
+            var3 = this;
+            var4 = _closure1_slot4;
+            var2 = var4.getRemoteSessionId;
+            var5 = var2.bind(var4)();
+            var2 = null;
+            if(!(var2 != var5)) { _fun0003_ip = 20; continue _fun0003 }
 case 6:
-            var7 = _closure1_slot2;
-            var3 = _closure1_slot3;
+            var6 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var1 = 8;
-            var3 = var3[var1];
+            var4 = var4[var1];
             var1 = undefined;
-            var3 = var7.bind(var1)(var3);
-            var1 = var3.remoteDisconnect;
-            var1 = var1.bind(var3)(var4);
+            var4 = var6.bind(var1)(var4);
+            var1 = var4.remoteDisconnect;
+            var1 = var1.bind(var4)(var5);
 case 20:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot3;
-            var1 = 9;
-            var3 = var3[var1];
+            var1 = var3.selectVoiceChannel;
+            var1 = var1.bind(var3)(var2);
             var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.isVoicePanelEnabled;
-            var3 = var3.bind(var4)();
-            var4 = var6.selectVoiceChannel;
-            var4 = var4.bind(var6)(var5);
-            if(var3) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-            var4 = _closure1_slot2;
-            var5 = _closure1_slot3;
-            var3 = 10;
-            var3 = var5[var3];
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.close;
-            var2 = _closure1_slot8;
-            var2 = var2.CHANNEL_CALL_POPOUT;
-            var2 = var3.bind(var4)(var2);
-            _fun0003_ip = 21; continue _fun0003;
-case 21:
             return var1;
         }
     };
     var2['disconnect'] = var4;
-    var4 = 11;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -47,6 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['avatar'] = var4;
             var4 = var2.decorations;
             var3['decorations'] = var4;
+            var4 = var2.avatarDecorationSkuIds;
+            var3['avatarDecorationSkuIds'] = var4;
             var4 = var2.dismissibleContent;
             var3['dismissibleContent'] = var4;
             var4 = var2.version;
@@ -73,6 +75,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = copyDataProperties(var7, var6);
             var5 = var2.dismissible_content;
             var4 = 'dismissibleContent';
+            var1[var4] = var5;
+            var5 = var2.avatar_decoration_sku_ids;
+            var4 = 'avatarDecorationSkuIds';
             var1[var4] = var5;
             var5 = var2.ref_target_background;
             var4 = 'refTargetBackground';
