@@ -10711,26 +10711,6 @@
         "width": 107.5,
         "height": 107
     },
-    "profile-placeholder-dark": {
-        "file": "app/images/native/profile-placeholder-dark.png",
-        "hash": "909e86433c8d32cae528a66dd6b87738",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 150,
-        "height": 286
-    },
-    "profile-placeholder-light": {
-        "file": "app/images/native/profile-placeholder-light.png",
-        "hash": "b42cafa9a6fea61c31f27182d9a9259b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 150,
-        "height": 286
-    },
     "progress-center": {
         "file": "app/modules/guild_progress/native/images/progress-center.png",
         "hash": "db6ae8d142cba500f31d32a778771a2a",
