@@ -503,12 +503,13 @@ case 0:
             var5 = 34;
             var5 = var7[var5];
             var5 = var6.bind(var10)(var5);
-            var5 = var5.bind(var10)();
+            var28 = 'useGuildsBarProps';
+            var5 = var5.bind(var10)(var28);
             var19 = 0;
-            if(!var5) { _fun0006_ip = 54; continue _fun0006 }
-case 17:
-            var19 = 1;
+            if(!var5) { _fun0006_ip = 16; continue _fun0006 }
 case 54:
+            var19 = 1;
+case 16:
             var _closure2_slot6 = var19;
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -680,7 +681,6 @@ case 54:
             var27 = var5.GameCommunityUpsellMultiExperiment;
             var26 = var27.useConfig;
             var5 = {};
-            var28 = 'useGuildsBarProps';
             var5['location'] = var28;
             var5 = var26.bind(var27)(var5);
             var5 = var5.enabled;

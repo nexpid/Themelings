@@ -54,18 +54,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var3.bind(var7)(var6);
         var10 = _closure1_slot3;
         var7 = var10.useCallback;
-        var11 = var6.sku;
-        var3 = new Array(1);
+        var11 = var6.bundleItems;
+        var3 = new Array(3);
         var3[0] = var11;
+        var11 = var6.collectiblesItem;
+        var3[1] = var11;
+        var11 = var6.sku;
+        var3[2] = var11;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = _closure2_slot0;
-                var2 = var1.sku;
+                var2 = var1.bundleItems;
                 var1 = null;
-                var2 = var1 == var2;
-                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+                if(!(var1 == var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
+                var2 = _closure2_slot0;
+                var2 = var2.collectiblesItem;
+                if(!(var1 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                var2 = _closure2_slot0;
+                var2 = var2.sku;
+                var2 = var1 != var2;
+                var1 = null;
+                if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var5 = _closure1_slot4;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -78,7 +91,47 @@ case 3:
                 var6 = var6.sku;
                 var2['sku'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
+case 6:
+                _fun0001_ip = 8; continue _fun0001;
+case 4:
+                var5 = _closure1_slot4;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 3;
+                var2 = var4[var2];
+                var4 = undefined;
+                var2 = var3.bind(var4)(var2);
+                var3 = var2.CollectiblesPreview;
+                var2 = {};
+                var6 = {};
+                var8 = 'single';
+                var6['type'] = var8;
+                var8 = _closure2_slot0;
+                var8 = var8.collectiblesItem;
+                var6['item'] = var8;
+                var2['collectiblesItemData'] = var6;
+                var1 = var5.bind(var4)(var3, var2);
+case 8:
+                _fun0001_ip = 9; continue _fun0001;
 case 2:
+                var5 = _closure1_slot4;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 3;
+                var2 = var4[var2];
+                var4 = undefined;
+                var2 = var3.bind(var4)(var2);
+                var3 = var2.CollectiblesPreview;
+                var2 = {};
+                var6 = {};
+                var8 = 'bundle';
+                var6['type'] = var8;
+                var7 = _closure2_slot0;
+                var7 = var7.bundleItems;
+                var6['items'] = var7;
+                var2['collectiblesItemData'] = var6;
+                var1 = var5.bind(var4)(var3, var2);
+case 9:
                 return var1;
             }
         };

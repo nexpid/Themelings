@@ -163,6 +163,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['FRIEND_REQUESTS_SPAM_INBOX'] = var2;
     var2 = 'impression_friends';
     var4['FRIENDS'] = var2;
+    var2 = 'impression_game_community_multi_guild_upsell_card';
+    var4['GAME_COMMUNITY_MULTI_GUILD_UPSELL_CARD'] = var2;
     var2 = 'impression_game_console_device_list';
     var4['GAME_CONSOLE_DEVICE_LIST'] = var2;
     var2 = 'impression_game_detection_report_modal';

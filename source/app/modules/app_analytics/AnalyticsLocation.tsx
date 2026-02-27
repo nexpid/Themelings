@@ -1077,6 +1077,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CF_WARP_SETTINGS'] = var1;
     var1 = 'age group';
     var2['AGE_GROUP'] = var1;
+    var1 = 'game community multi guild upsell guilds bar entrypoint';
+    var2['GAME_COMMUNITY_MULTI_GUILD_UPSELL_GUILDS_BAR_ENTRYPOINT'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

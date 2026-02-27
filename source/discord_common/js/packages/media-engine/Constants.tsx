@@ -327,6 +327,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['USE_H264_MF_DECODER'] = var2;
     var2 = 'use_libopenh264_decoder';
     var5['USE_LIBOPENH264_DECODER'] = var2;
+    var2 = 'swallow_volume_only_speaking_events';
+    var5['SWALLOW_VOLUME_ONLY_SPEAKING_EVENTS'] = var2;
     var4 = {};
     var4['AUTO'] = var30;
     var2 = 'AUTO';

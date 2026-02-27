@@ -270,7 +270,7 @@ case 22:
 case 24:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 27;
+                    var2 = 26;
                     var2 = var6[var2];
                     var4 = var4.bind(var5)(var2);
                     var2 = var4.fetchReactiveCheckResult;
@@ -428,7 +428,7 @@ case 5:
     var8['VERIFIED_TEEN'] = var12;
     var12 = 'error';
     var8['ERROR'] = var12;
-    var12 = 28;
+    var12 = 27;
     var12 = var14[var12];
     var14 = var13.bind(var1)(var12);
     var13 = var14.fileFinishedImporting;
@@ -1249,35 +1249,6 @@ case 0:
             var1 = var3.bind(var4)(var1);
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            if(var1) { _fun0023_ip = 73; continue _fun0023 }
-case 40:
-            var1 = 25;
-            var1 = var7[var1];
-            var9 = undefined;
-            var4 = var6.bind(var9)(var1);
-            var3 = var4.getUpdatedAgeVerificationString;
-            var1 = 24;
-            var2 = var7[var1];
-            var2 = var6.bind(var9)(var2);
-            var8 = var2.intl;
-            var5 = var8.string;
-            var2 = var7[var1];
-            var2 = var6.bind(var9)(var2);
-            var2 = var2.t;
-            var2 = var2.JHNunj;
-            var2 = var5.bind(var8)(var2);
-            var5 = var7[var1];
-            var5 = var6.bind(var9)(var5);
-            var8 = var5.intl;
-            var5 = var8.string;
-            var1 = var7[var1];
-            var1 = var6.bind(var9)(var1);
-            var1 = var1.t;
-            var1 = var1.xYXsr6;
-            var1 = var5.bind(var8)(var1);
-            var1 = var3.bind(var4)(var2, var1);
-            _fun0023_ip = 74; continue _fun0023;
-case 73:
             var2 = 24;
             var3 = var7[var2];
             var5 = undefined;
@@ -1287,6 +1258,12 @@ case 73:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
+            if(var1) { _fun0023_ip = 73; continue _fun0023 }
+case 49:
+            var1 = var2.xYXsr6;
+            var1 = var3.bind(var4)(var1);
+            _fun0023_ip = 74; continue _fun0023;
+case 73:
             var2 = var2.lSWVTM;
             var1 = var3.bind(var4)(var2);
 case 74:
@@ -1310,39 +1287,25 @@ case 70:
             var3 = var4.bind(var5)(var3);
             if(var3) { _fun0024_ip = 75; continue _fun0024 }
 case 14:
-            if(var1) { _fun0024_ip = 76; continue _fun0024 }
-case 77:
+            if(var1) { _fun0024_ip = 35; continue _fun0024 }
+case 76:
             var1 = null;
-            if(!(var1 == var8)) { _fun0024_ip = 78; continue _fun0024 }
-case 47:
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var1 = 25;
-            var1 = var11[var1];
-            var5 = var10.bind(var6)(var1);
-            var4 = var5.getUpdatedAgeVerificationString;
+            if(!(var1 == var8)) { _fun0024_ip = 11; continue _fun0024 }
+case 77:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var1 = 24;
-            var3 = var11[var1];
-            var3 = var10.bind(var6)(var3);
-            var9 = var3.intl;
-            var7 = var9.string;
-            var3 = var11[var1];
-            var3 = var10.bind(var6)(var3);
-            var3 = var3.t;
-            var3 = var3.+BLIGh;
-            var3 = var7.bind(var9)(var3);
-            var7 = var11[var1];
-            var7 = var10.bind(var6)(var7);
-            var9 = var7.intl;
-            var7 = var9.string;
-            var1 = var11[var1];
-            var1 = var10.bind(var6)(var1);
+            var3 = var7[var1];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
             var1 = var1.t;
             var1 = var1.HxS3oQ;
-            var1 = var7.bind(var9)(var1);
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0024_ip = 79; continue _fun0024;
-case 78:
+            var1 = var3.bind(var4)(var1);
+            _fun0024_ip = 78; continue _fun0024;
+case 11:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 24;
@@ -1351,44 +1314,31 @@ case 78:
             var7 = var3.intl;
             var5 = var7.format;
             var4 = _closure1_slot1;
-            var3 = 26;
+            var3 = 25;
             var3 = var9[var3];
             var3 = var4.bind(var6)(var3);
             var4 = var3.RpMIT0;
             var3 = {};
             var3['handleOnHelpUrlHook'] = var8;
             var1 = var5.bind(var7)(var4, var3);
+case 78:
+            _fun0024_ip = 79; continue _fun0024;
+case 35:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 24;
+            var3 = var8[var3];
+            var3 = var4.bind(var6)(var3);
+            var5 = var3.intl;
+            var4 = var5.string;
+            var7 = _closure1_slot1;
+            var3 = 25;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.h7qzoa;
+            var1 = var4.bind(var5)(var3);
 case 79:
             _fun0024_ip = 80; continue _fun0024;
-case 76:
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var3 = 25;
-            var3 = var11[var3];
-            var7 = var9.bind(var6)(var3);
-            var5 = var7.getUpdatedAgeVerificationString;
-            var8 = 24;
-            var3 = var11[var8];
-            var3 = var9.bind(var6)(var3);
-            var13 = var3.intl;
-            var12 = var13.string;
-            var10 = _closure1_slot1;
-            var3 = 26;
-            var4 = var11[var3];
-            var4 = var10.bind(var6)(var4);
-            var4 = var4.1/6wta;
-            var4 = var12.bind(var13)(var4);
-            var8 = var11[var8];
-            var8 = var9.bind(var6)(var8);
-            var9 = var8.intl;
-            var8 = var9.string;
-            var3 = var11[var3];
-            var3 = var10.bind(var6)(var3);
-            var3 = var3.h7qzoa;
-            var3 = var8.bind(var9)(var3);
-            var1 = var5.bind(var7)(var4, var3);
-case 80:
-            _fun0024_ip = 81; continue _fun0024;
 case 75:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -1402,7 +1352,7 @@ case 75:
             var2 = var2.t;
             var2 = var2.S/xS/w;
             var1 = var3.bind(var4)(var2);
-case 81:
+case 80:
             return var1;
         }
     };
@@ -1424,18 +1374,18 @@ case 81:
             _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                 var1 = _closure2_slot1;
-                if(!var1) { _fun0025_ip = 82; continue _fun0025 }
+                if(!var1) { _fun0025_ip = 81; continue _fun0025 }
 case 54:
                 var4 = _closure1_slot13;
                 var3 = var4.has;
                 var2 = _closure2_slot0;
                 var1 = var3.bind(var4)(var2);
-case 82:
+case 81:
                 if(!var1) { _fun0025_ip = 49; continue _fun0025 }
 case 40:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 27;
+                var1 = 26;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);

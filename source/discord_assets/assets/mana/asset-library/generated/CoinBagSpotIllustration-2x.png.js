@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/CoinBagSpotIllustration-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/2f65bd7b3d811ece5ffb9755dd2af3ed7014179b2859dca22d5d13d72aaec727.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/27aeb4bba663f240a37b2220ccf6756012e4b7f4f76f527a3789f616342b9fce.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 20664;
+    var4 = 20690;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

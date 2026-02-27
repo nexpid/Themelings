@@ -151,7 +151,7 @@ case 12:
 case 15:
                 var5 = _closure2_slot3;
                 var7 = var5.currencyCode;
-                var5 = var7.toLowerCase;
+                var5 = var7.toUpperCase;
                 var7 = var5.bind(var7)();
                 var5 = _closure1_slot4;
                 var5 = var7 in var5;

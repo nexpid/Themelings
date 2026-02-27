@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/CloudKeypadSpotIllustration-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/3264c5ad2fbefec87ca540e187c1dcb82126a7f30c36911fde5230dbae7b165e.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/d10ce1413d1aafeb52e2e0522f1b48c444f3dfe785dd193585f384f8d2e25071.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 19871;
+    var4 = 19897;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/BlossomIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/344ab5055099061e6b5da0554d489216e1833d4c9241f58c08ece9d94f595096.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/453e651fa55bccdae349af9e0adafbf77827ea52e848331341d2a75af8888834.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 731;
+    var4 = 757;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

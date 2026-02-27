@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/WordBalloonIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/469b515a5d2a63d03ce272268c15064a62ce3b34911e12cf520da36391c7e744.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/17697fc8e116f19941438678066d1cc4afcdef9ad5c3c4164ac484577049077d.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 595;
+    var4 = 621;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

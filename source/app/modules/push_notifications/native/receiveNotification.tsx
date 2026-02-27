@@ -1252,26 +1252,28 @@ case 0:
             var4 = var4.bind(var3)(var1);
             var1 = var4.initializeRouteManagerIfNeeded;
             var1 = var1.bind(var4)();
+            var8 = false;
+            var _closure2_slot1 = var8;
             var1 = var5.type;
             var4 = 'MESSAGE_CREATE';
             if(!(var4 !== var1)) { _fun0012_ip = 123; continue _fun0012 }
-case 124:
+case 112:
             var9 = var5.type;
             var7 = 'GENERIC_PUSH_NOTIFICATION_SENT';
             var1 = false;
-            if(!(var7 === var9)) { _fun0012_ip = 125; continue _fun0012 }
-case 126:
+            if(!(var7 === var9)) { _fun0012_ip = 124; continue _fun0012 }
+case 125:
             var7 = var5.deeplink;
             var10 = null;
             var7 = var10 != var7;
             var1 = false;
-            if(!var7) { _fun0012_ip = 125; continue _fun0012 }
-case 127:
+            if(!var7) { _fun0012_ip = 124; continue _fun0012 }
+case 126:
             var9 = var5.deeplink;
             var7 = '';
             var1 = false;
-            if(!(var7 !== var9)) { _fun0012_ip = 125; continue _fun0012 }
-case 90:
+            if(!(var7 !== var9)) { _fun0012_ip = 124; continue _fun0012 }
+case 127:
             var11 = _closure1_slot1;
             var9 = _closure1_slot3;
             var7 = 43;
@@ -1297,7 +1299,7 @@ case 129:
             var9 = var9.LinkingTypes;
             var9 = var9.ICYMI;
             if(!(var11 === var9)) { _fun0012_ip = 130; continue _fun0012 }
-case 104:
+case 52:
             var9 = var5.channel_id;
             if(!(var10 != var9)) { _fun0012_ip = 130; continue _fun0012 }
 case 131:
@@ -1312,28 +1314,28 @@ case 130:
             var9 = var9.LinkingTypes;
             var9 = var9.ICYMI;
             var1 = false;
-            if(!(var11 === var9)) { _fun0012_ip = 125; continue _fun0012 }
-case 74:
+            if(!(var11 === var9)) { _fun0012_ip = 124; continue _fun0012 }
+case 133:
             var9 = var5.user_id;
             var9 = var10 != var9;
             var1 = false;
-            if(!var9) { _fun0012_ip = 125; continue _fun0012 }
-case 133:
+            if(!var9) { _fun0012_ip = 124; continue _fun0012 }
+case 134:
             var9 = var5.notification_center_id;
             var9 = var10 != var9;
             var1 = false;
-            if(!var9) { _fun0012_ip = 125; continue _fun0012 }
-case 134:
+            if(!var9) { _fun0012_ip = 124; continue _fun0012 }
+case 95:
             var9 = var5.status_emoji_id;
             var9 = var10 != var9;
             var11 = null;
             if(!var9) { _fun0012_ip = 135; continue _fun0012 }
-case 136:
+case 121:
             var12 = var5.status_emoji_id;
             var9 = '0';
             var11 = null;
             if(!(var9 !== var12)) { _fun0012_ip = 135; continue _fun0012 }
-case 137:
+case 136:
             var11 = var5.status_emoji_id;
 case 135:
             var12 = {};
@@ -1369,7 +1371,7 @@ case 135:
             var9 = var11.fetchForStatusNotification;
             var9 = var9.bind(var11)(var12);
             var1 = false;
-            _fun0012_ip = 125; continue _fun0012;
+            _fun0012_ip = 124; continue _fun0012;
 case 132:
             var11 = _closure1_slot1;
             var12 = _closure1_slot3;
@@ -1381,31 +1383,31 @@ case 132:
             var9 = var5.message_id;
             var9 = var12.bind(var13)(var11, var9);
             var1 = false;
-            _fun0012_ip = 125; continue _fun0012;
+            _fun0012_ip = 124; continue _fun0012;
 case 128:
             var8 = var10 == var5;
             var12 = undefined;
-            if(var8) { _fun0012_ip = 138; continue _fun0012 }
-case 139:
-            var12 = var5.tracking_type;
+            if(var8) { _fun0012_ip = 137; continue _fun0012 }
 case 138:
-            if(!(var10 == var12)) { _fun0012_ip = 140; continue _fun0012 }
-case 141:
-            var12 = var5.type;
+            var12 = var5.tracking_type;
+case 137:
+            if(!(var10 == var12)) { _fun0012_ip = 139; continue _fun0012 }
 case 140:
+            var12 = var5.type;
+case 139:
             var8 = var10 != var12;
-            if(!var8) { _fun0012_ip = 142; continue _fun0012 }
-case 143:
+            if(!var8) { _fun0012_ip = 141; continue _fun0012 }
+case 142:
             var9 = var7.messageId;
             var8 = var10 != var9;
-case 142:
-            if(!var8) { _fun0012_ip = 144; continue _fun0012 }
-case 145:
+case 141:
+            if(!var8) { _fun0012_ip = 143; continue _fun0012 }
+case 144:
             var9 = var7.channelId;
             var8 = var10 != var9;
-case 144:
-            if(!var8) { _fun0012_ip = 146; continue _fun0012 }
-case 147:
+case 143:
+            if(!var8) { _fun0012_ip = 145; continue _fun0012 }
+case 146:
             var9 = _closure1_slot0;
             var10 = _closure1_slot3;
             var8 = 45;
@@ -1415,7 +1417,7 @@ case 147:
             var9 = var7.messageId;
             var8 = var7.channelId;
             var8 = var10.bind(var11)(var9, var8, var12);
-case 146:
+case 145:
             var9 = _closure1_slot1;
             var10 = _closure1_slot3;
             var8 = 42;
@@ -1432,8 +1434,9 @@ case 146:
             var7 = true;
             var8['isPreload'] = var7;
             var8 = var9.bind(var10)(var8);
+            _closure2_slot1 = var7;
             var1 = true;
-case 125:
+case 124:
             var9 = _closure1_slot17;
             var8 = var9.log;
             var11 = var5.type;
@@ -1443,7 +1446,7 @@ case 125:
             var7 = 'Notification clicked of type ';
             var7 = var10.bind(var7)(var11);
             var7 = var8.bind(var9)(var7);
-            _fun0012_ip = 148; continue _fun0012;
+            _fun0012_ip = 147; continue _fun0012;
 case 123:
             var9 = _closure1_slot17;
             var8 = var9.log;
@@ -1476,90 +1479,91 @@ case 123:
             var6 = true;
             var7['isPreload'] = var6;
             var7 = var8.bind(var9)(var7);
+            _closure2_slot1 = var6;
             var1 = true;
-case 148:
+case 147:
             var5 = var5.type;
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 150:
-            var4 = 'FORUM_THREAD_CREATED';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 151:
-            var4 = 'RELATIONSHIP_ADD';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 152:
-            var4 = 'CALL_RING';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 153:
-            var4 = 'CALL_CONNECT';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 154:
-            var4 = 'FRIEND_SUGGESTION_CREATE';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 155:
-            var4 = 'STAGE_INSTANCE_CREATE';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 156:
-            var4 = 'GUILD_SCHEDULED_EVENT_UPDATE';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 157:
-            var4 = 'GUILD_STREAM_START';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 158:
-            var4 = 'GENERIC_PUSH_NOTIFICATION_SENT';
-            if(!(var4 !== var5)) { _fun0012_ip = 149; continue _fun0012 }
-case 159:
-            return var1;
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
 case 149:
+            var4 = 'FORUM_THREAD_CREATED';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 150:
+            var4 = 'RELATIONSHIP_ADD';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 151:
+            var4 = 'CALL_RING';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 152:
+            var4 = 'CALL_CONNECT';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 153:
+            var4 = 'FRIEND_SUGGESTION_CREATE';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 154:
+            var4 = 'STAGE_INSTANCE_CREATE';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 155:
+            var4 = 'GUILD_SCHEDULED_EVENT_UPDATE';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 156:
+            var4 = 'GUILD_STREAM_START';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 157:
+            var4 = 'GENERIC_PUSH_NOTIFICATION_SENT';
+            if(!(var4 !== var5)) { _fun0012_ip = 148; continue _fun0012 }
+case 158:
+            return var1;
+case 148:
             var2 = function dispatch() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot1;
                     var7 = _closure1_slot3;
-                    var6 = 48;
-                    var2 = var7[var6];
+                    var5 = 48;
+                    var4 = var7[var5];
                     var1 = undefined;
-                    var9 = var5.bind(var1)(var2);
+                    var9 = var6.bind(var1)(var4);
                     var8 = var9.dispatch;
-                    var2 = {};
+                    var4 = {};
                     var10 = 'PUSH_NOTIFICATION_CLICK';
-                    var2['type'] = var10;
-                    var2 = var8.bind(var9)(var2);
-                    var2 = 29;
-                    var2 = var7[var2];
-                    var10 = var5.bind(var1)(var2);
+                    var4['type'] = var10;
+                    var4 = var8.bind(var9)(var4);
+                    var4 = 29;
+                    var4 = var7[var4];
+                    var10 = var6.bind(var1)(var4);
                     var9 = var10.track;
-                    var2 = _closure1_slot11;
-                    var8 = var2.NOTIFICATION_CLICKED;
+                    var4 = _closure1_slot11;
+                    var8 = var4.NOTIFICATION_CLICKED;
                     var7 = {};
                     var11 = _closure2_slot0;
-                    var5 = 'tracking_type';
-                    var5 = var5 in var11;
+                    var4 = 'tracking_type';
+                    var4 = var4 in var11;
                     var11 = _closure2_slot0;
-                    if(var5) { _fun0013_ip = 21; continue _fun0013 }
-case 160:
-                    var5 = var11.type;
+                    if(var4) { _fun0013_ip = 21; continue _fun0013 }
+case 159:
+                    var4 = var11.type;
                     _fun0013_ip = 22; continue _fun0013;
 case 21:
-                    var5 = var11.tracking_type;
+                    var4 = var11.tracking_type;
 case 22:
-                    var7['notif_type'] = var5;
+                    var7['notif_type'] = var4;
                     var11 = _closure2_slot0;
-                    var5 = 'user_id';
-                    var12 = var5 in var11;
-                    var5 = null;
+                    var4 = 'user_id';
+                    var12 = var4 in var11;
+                    var4 = null;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 161; continue _fun0013 }
-case 162:
+                    if(!var12) { _fun0013_ip = 160; continue _fun0013 }
+case 161:
                     var12 = _closure2_slot0;
                     var11 = var12.user_id;
-case 161:
+case 160:
                     var7['notif_user_id'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'message_id';
                     var12 = var11 in var12;
                     var11 = null;
                     if(!var12) { _fun0013_ip = 114; continue _fun0013 }
-case 163:
+case 162:
                     var12 = _closure2_slot0;
                     var11 = var12.message_id;
 case 114:
@@ -1568,124 +1572,124 @@ case 114:
                     var11 = 'message_type_';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 164; continue _fun0013 }
-case 165:
+                    if(!var12) { _fun0013_ip = 163; continue _fun0013 }
+case 164:
                     var12 = _closure2_slot0;
                     var11 = var12.message_type_;
-case 164:
+case 163:
                     var7['message_type'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'message';
                     var11 = var11 in var12;
-                    if(!var11) { _fun0013_ip = 166; continue _fun0013 }
-case 167:
+                    if(!var11) { _fun0013_ip = 165; continue _fun0013 }
+case 166:
                     var12 = _closure2_slot0;
                     var12 = var12.message;
-                    var11 = var5 != var12;
-case 166:
+                    var11 = var4 != var12;
+case 165:
                     var7['has_message'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'guild_id';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 168; continue _fun0013 }
-case 169:
+                    if(!var12) { _fun0013_ip = 167; continue _fun0013 }
+case 168:
                     var12 = _closure2_slot0;
                     var11 = var12.guild_id;
-case 168:
+case 167:
                     var7['guild_id'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'channel_id';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 170; continue _fun0013 }
-case 171:
+                    if(!var12) { _fun0013_ip = 169; continue _fun0013 }
+case 170:
                     var12 = _closure2_slot0;
                     var11 = var12.channel_id;
-case 170:
+case 169:
                     var7['channel_id'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'channel_type';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 172; continue _fun0013 }
-case 173:
+                    if(!var12) { _fun0013_ip = 171; continue _fun0013 }
+case 172:
                     var12 = _closure2_slot0;
                     var11 = var12.channel_type;
-case 172:
+case 171:
                     var7['channel_type'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'rel_type';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 174; continue _fun0013 }
-case 175:
+                    if(!var12) { _fun0013_ip = 173; continue _fun0013 }
+case 174:
                     var12 = global;
                     var13 = var12.Number;
                     var12 = _closure2_slot0;
                     var12 = var12.rel_type;
                     var11 = var13.bind(var1)(var12);
-case 174:
+case 173:
                     var7['rel_type'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'notification_id';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 176; continue _fun0013 }
-case 177:
+                    if(!var12) { _fun0013_ip = 175; continue _fun0013 }
+case 176:
                     var12 = _closure2_slot0;
                     var11 = var12.notification_id;
-case 176:
+case 175:
                     var7['notification_id'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'image_url';
                     var11 = var11 in var12;
-                    if(!var11) { _fun0013_ip = 178; continue _fun0013 }
+                    if(!var11) { _fun0013_ip = 177; continue _fun0013 }
 case 96:
                     var12 = _closure2_slot0;
                     var12 = var12.image_url;
-                    var11 = var5 != var12;
-case 178:
+                    var11 = var4 != var12;
+case 177:
                     var7['has_image_thumbnail'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'join_id';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 179; continue _fun0013 }
-case 180:
+                    if(!var12) { _fun0013_ip = 178; continue _fun0013 }
+case 179:
                     var12 = _closure2_slot0;
                     var11 = var12.join_id;
-case 179:
+case 178:
                     var7['join_id'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'notif_instance_id';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 181; continue _fun0013 }
-case 182:
+                    if(!var12) { _fun0013_ip = 180; continue _fun0013 }
+case 181:
                     var12 = _closure2_slot0;
                     var11 = var12.notif_instance_id;
-case 181:
+case 180:
                     var7['notif_instance_id'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'notif_type_id';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 183; continue _fun0013 }
-case 184:
+                    if(!var12) { _fun0013_ip = 182; continue _fun0013 }
+case 132:
                     var12 = _closure2_slot0;
                     var11 = var12.notif_type_id;
-case 183:
+case 182:
                     var7['notif_type_id'] = var11;
                     var12 = _closure2_slot0;
                     var11 = 'mention_type';
                     var12 = var11 in var12;
                     var11 = null;
-                    if(!var12) { _fun0013_ip = 185; continue _fun0013 }
-case 186:
+                    if(!var12) { _fun0013_ip = 183; continue _fun0013 }
+case 184:
                     var12 = _closure2_slot0;
                     var11 = var12.mention_type;
-case 185:
+case 183:
                     var7['mention_type'] = var11;
                     var7 = var9.bind(var10)(var8, var7);
                     var7 = _closure2_slot0;
@@ -1702,44 +1706,44 @@ case 185:
                     var8 = var8.bind(var1)(var7);
                     var8 = var7.type;
                     var7 = 'MESSAGE_CREATE';
+                    if(!(var7 !== var8)) { _fun0013_ip = 185; continue _fun0013 }
+case 186:
+                    var7 = 'FORUM_THREAD_CREATED';
                     if(!(var7 !== var8)) { _fun0013_ip = 187; continue _fun0013 }
 case 188:
-                    var7 = 'FORUM_THREAD_CREATED';
-                    if(!(var7 !== var8)) { _fun0013_ip = 189; continue _fun0013 }
-case 144:
                     var7 = 'RELATIONSHIP_ADD';
-                    if(!(var7 !== var8)) { _fun0013_ip = 190; continue _fun0013 }
-case 191:
+                    if(!(var7 !== var8)) { _fun0013_ip = 189; continue _fun0013 }
+case 190:
                     var7 = 'CALL_RING';
-                    if(!(var7 !== var8)) { _fun0013_ip = 192; continue _fun0013 }
-case 193:
+                    if(!(var7 !== var8)) { _fun0013_ip = 191; continue _fun0013 }
+case 192:
                     var7 = 'CALL_CONNECT';
-                    if(!(var7 !== var8)) { _fun0013_ip = 194; continue _fun0013 }
-case 195:
+                    if(!(var7 !== var8)) { _fun0013_ip = 193; continue _fun0013 }
+case 194:
                     var7 = 'FRIEND_SUGGESTION_CREATE';
-                    if(!(var7 !== var8)) { _fun0013_ip = 196; continue _fun0013 }
-case 197:
+                    if(!(var7 !== var8)) { _fun0013_ip = 195; continue _fun0013 }
+case 196:
                     var7 = 'GUILD_STREAM_START';
-                    if(!(var7 !== var8)) { _fun0013_ip = 198; continue _fun0013 }
-case 199:
+                    if(!(var7 !== var8)) { _fun0013_ip = 197; continue _fun0013 }
+case 198:
                     var7 = 'GUILD_SCHEDULED_EVENT_UPDATE';
-                    if(!(var7 !== var8)) { _fun0013_ip = 200; continue _fun0013 }
-case 201:
+                    if(!(var7 !== var8)) { _fun0013_ip = 199; continue _fun0013 }
+case 200:
                     var7 = 'STAGE_INSTANCE_CREATE';
-                    if(!(var7 !== var8)) { _fun0013_ip = 202; continue _fun0013 }
-case 203:
+                    if(!(var7 !== var8)) { _fun0013_ip = 201; continue _fun0013 }
+case 202:
                     var7 = 'GENERIC_PUSH_NOTIFICATION_SENT';
-                    if(!(var7 === var8)) { _fun0013_ip = 204; continue _fun0013 }
-case 205:
+                    if(!(var7 === var8)) { _fun0013_ip = 203; continue _fun0013 }
+case 204:
                     var7 = _closure2_slot0;
                     var7 = var7.deeplink;
-                    if(!(var5 != var7)) { _fun0013_ip = 204; continue _fun0013 }
-case 206:
+                    if(!(var4 != var7)) { _fun0013_ip = 203; continue _fun0013 }
+case 205:
                     var7 = _closure2_slot0;
                     var8 = var7.deeplink;
                     var7 = '';
-                    if(!(var7 !== var8)) { _fun0013_ip = 204; continue _fun0013 }
-case 207:
+                    if(!(var7 !== var8)) { _fun0013_ip = 203; continue _fun0013 }
+case 206:
                     var8 = _closure1_slot1;
                     var11 = _closure1_slot3;
                     var7 = 43;
@@ -1757,8 +1761,8 @@ case 207:
                     var7 = var10.bind(var1)(var7);
                     var7 = var7.LinkingTypes;
                     var7 = var7.GAME_UPDATE;
-                    if(!(var8 !== var7)) { _fun0013_ip = 208; continue _fun0013 }
-case 209:
+                    if(!(var8 !== var7)) { _fun0013_ip = 207; continue _fun0013 }
+case 208:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot3;
                     var7 = 55;
@@ -1768,9 +1772,11 @@ case 209:
                     var7['payload'] = var9;
                     var9 = false;
                     var7['waitForConnection'] = var9;
+                    var9 = _closure2_slot1;
+                    var7['skipMessageFetch'] = var9;
                     var7 = var8.bind(var1)(var7);
-                    _fun0013_ip = 204; continue _fun0013;
-case 208:
+                    _fun0013_ip = 203; continue _fun0013;
+case 207:
                     var7 = _closure1_slot19;
                     var9 = var7.bind(var1)();
                     var8 = var9.then;
@@ -1823,8 +1829,8 @@ case 208:
                         return var1;
                     };
                     var7 = var8.bind(var9)(var7);
-                    _fun0013_ip = 204; continue _fun0013;
-case 202:
+                    _fun0013_ip = 203; continue _fun0013;
+case 201:
                     var8 = _closure2_slot0;
                     var7 = function handleStageNotification() {
                         var1 = undefined;
@@ -1838,8 +1844,8 @@ case 202:
                     };
                     var7 = var7.bind(var1)(var8);
                     var7 = !var7;
-                    _fun0013_ip = 204; continue _fun0013;
-case 200:
+                    _fun0013_ip = 203; continue _fun0013;
+case 199:
                     var8 = _closure2_slot0;
                     var7 = function handleGuildEventNotification() {
                         var1 = undefined;
@@ -1853,8 +1859,8 @@ case 200:
                     };
                     var7 = var7.bind(var1)(var8);
                     var7 = !var7;
-                    _fun0013_ip = 204; continue _fun0013;
-case 198:
+                    _fun0013_ip = 203; continue _fun0013;
+case 197:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot3;
                     var7 = 51;
@@ -1872,8 +1878,8 @@ case 198:
                     var9 = var9.channel_id;
                     var7['channelId'] = var9;
                     var7 = var8.bind(var1)(var7);
-                    _fun0013_ip = 204; continue _fun0013;
-case 196:
+                    _fun0013_ip = 203; continue _fun0013;
+case 195:
                     var8 = _closure2_slot0;
                     var7 = function handleFriendSuggestionCreateNotification() {
                         var1 = undefined;
@@ -1887,8 +1893,8 @@ case 196:
                     };
                     var7 = var7.bind(var1)(var8);
                     var7 = !var7;
-                    _fun0013_ip = 204; continue _fun0013;
-case 194:
+                    _fun0013_ip = 203; continue _fun0013;
+case 193:
                     var8 = _closure2_slot0;
                     var7 = function handleCallConnectNotification() {
                         var1 = undefined;
@@ -1902,8 +1908,8 @@ case 194:
                     };
                     var7 = var7.bind(var1)(var8);
                     var7 = !var7;
-                    _fun0013_ip = 204; continue _fun0013;
-case 192:
+                    _fun0013_ip = 203; continue _fun0013;
+case 191:
                     var8 = _closure2_slot0;
                     var7 = function handleCallRingNotification() {
                         var1 = undefined;
@@ -1917,8 +1923,8 @@ case 192:
                     };
                     var7 = var7.bind(var1)(var8);
                     var7 = !var7;
-                    _fun0013_ip = 204; continue _fun0013;
-case 190:
+                    _fun0013_ip = 203; continue _fun0013;
+case 189:
                     var8 = _closure2_slot0;
                     var7 = function handleRelationshipAddNotification() {
                         var1 = undefined;
@@ -1932,12 +1938,12 @@ case 190:
                     };
                     var7 = var7.bind(var1)(var8);
                     var7 = !var7;
-                    _fun0013_ip = 204; continue _fun0013;
-case 189:
+                    _fun0013_ip = 203; continue _fun0013;
+case 187:
                     var7 = _closure1_slot19;
                     var8 = var7.bind(var1)();
                     var7 = var8.then;
-                    var4 = function() {
+                    var3 = function() {
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
                         var1 = 50;
@@ -1955,49 +1961,51 @@ case 189:
                         var2 = var4.bind(var5)(var3, var2);
                         return var1;
                     };
-                    var4 = var7.bind(var8)(var4);
-                    _fun0013_ip = 204; continue _fun0013;
-case 187:
-                    var4 = _closure2_slot0;
-                    var4 = var4.message;
-                    if(!(var5 != var4)) { _fun0013_ip = 210; continue _fun0013 }
-case 211:
-                    var5 = _closure1_slot1;
-                    var4 = _closure1_slot3;
-                    var4 = var4[var6];
-                    var6 = var5.bind(var1)(var4);
-                    var5 = var6.dispatch;
-                    var4 = {'type': 'MESSAGE_CREATE', 'channelId': null, 'message': null, 'optimistic': true, 'isPushNotification': true};
+                    var3 = var7.bind(var8)(var3);
+                    _fun0013_ip = 203; continue _fun0013;
+case 185:
+                    var3 = _closure2_slot0;
+                    var3 = var3.message;
+                    if(!(var4 != var3)) { _fun0013_ip = 209; continue _fun0013 }
+case 210:
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot3;
+                    var3 = var3[var5];
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {'type': 'MESSAGE_CREATE', 'channelId': null, 'message': null, 'optimistic': true, 'isPushNotification': true};
                     var7 = _closure2_slot0;
                     var8 = var7.message;
                     var8 = var8.channel_id;
-                    var4['channelId'] = var8;
+                    var3['channelId'] = var8;
                     var7 = var7.message;
-                    var4['message'] = var7;
-                    var4 = var5.bind(var6)(var4);
-case 210:
-                    var5 = _closure1_slot1;
-                    var6 = _closure1_slot3;
-                    var4 = 49;
-                    var4 = var6[var4];
-                    var5 = var5.bind(var1)(var4);
-                    var4 = var5.popAll;
-                    var4 = var4.bind(var5)();
-                    var5 = _closure1_slot0;
-                    var4 = 50;
-                    var4 = var6[var4];
-                    var5 = var5.bind(var1)(var4);
+                    var3['message'] = var7;
+                    var3 = var4.bind(var5)(var3);
+case 209:
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot3;
+                    var3 = 49;
+                    var3 = var5[var3];
+                    var4 = var4.bind(var1)(var3);
+                    var3 = var4.popAll;
+                    var3 = var3.bind(var4)();
+                    var4 = _closure1_slot0;
+                    var3 = 50;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var1)(var3);
                     var4 = var5.transitionTo;
-                    var8 = _closure1_slot14;
-                    var7 = var8.CHANNEL;
+                    var9 = _closure1_slot14;
+                    var8 = var9.CHANNEL;
                     var2 = _closure2_slot0;
-                    var6 = var2.guild_id;
+                    var7 = var2.guild_id;
                     var3 = var2.channel_id;
                     var2 = var2.message_id;
-                    var3 = var7.bind(var8)(var6, var3, var2);
+                    var3 = var8.bind(var9)(var7, var3, var2);
                     var2 = {'navigationReplace': true, 'openChannel': true};
+                    var6 = _closure2_slot1;
+                    var2['skipMessageFetch'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
-case 204:
+case 203:
                     return var1;
                 }
             };
@@ -2088,8 +2096,8 @@ case 0:
             var3 = arg1;
             var1 = var3.getData;
             var5 = null;
-            if(!(var5 != var1)) { _fun0014_ip = 212; continue _fun0014 }
-case 213:
+            if(!(var5 != var1)) { _fun0014_ip = 211; continue _fun0014 }
+case 212:
             var7 = _closure1_slot0;
             var8 = _closure1_slot3;
             var1 = 35;
@@ -2117,17 +2125,17 @@ case 213:
             var1 = var8.bind(var9)(var1, var7);
             var1 = var3.receiving_user_id;
             if(!(var5 != var1)) { _fun0014_ip = 119; continue _fun0014 }
-case 161:
+case 160:
             var7 = _closure1_slot7;
             var1 = var7.getId;
             var1 = var1.bind(var7)();
             if(!(var5 != var1)) { _fun0014_ip = 119; continue _fun0014 }
-case 214:
+case 213:
             var5 = var3.receiving_user_id;
             var7 = _closure1_slot7;
             var1 = var7.getId;
             var1 = var1.bind(var7)();
-            if(!(var5 === var1)) { _fun0014_ip = 167; continue _fun0014 }
+            if(!(var5 === var1)) { _fun0014_ip = 166; continue _fun0014 }
 case 119:
             var5 = _closure1_slot1;
             var7 = _closure1_slot3;
@@ -2144,8 +2152,8 @@ case 119:
                 return var1;
             };
             var1 = var5.bind(var7)(var1);
-            _fun0014_ip = 215; continue _fun0014;
-case 167:
+            _fun0014_ip = 214; continue _fun0014;
+case 166:
             var5 = _closure1_slot0;
             var7 = _closure1_slot3;
             var4 = 37;
@@ -2183,9 +2191,9 @@ case 167:
             };
             var2 = var3.bind(var4)(var2);
             var1 = true;
-case 215:
+case 214:
             return var1;
-case 212:
+case 211:
             var1 = false;
             return var1;
         }

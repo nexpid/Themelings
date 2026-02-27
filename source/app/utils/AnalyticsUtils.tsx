@@ -1091,15 +1091,6 @@ case 39:
         var17 = var12.LIBDISCORE_SLOW_TIMERS;
         var15 = {};
         var15['throttlePeriod'] = var20;
-        var21 = function throttleKeys() {
-            var1 = new Array(0);
-            return var1;
-        };
-        var15['throttleKeys'] = var21;
-        var9[var17] = var15;
-        var17 = var12.DEBUG_MISSING_STRING;
-        var15 = {};
-        var15['throttlePeriod'] = var20;
         var20 = function throttleKeys() {
             var1 = new Array(0);
             return var1;

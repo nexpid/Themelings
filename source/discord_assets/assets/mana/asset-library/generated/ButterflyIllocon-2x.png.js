@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/ButterflyIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/82f4ce2fbdb46650e22761ef3f711ee4fd30c954fb4579a54283a3e0c816f79e.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/2ef831e04586fcfa6aabc0e3834696934843eb92fd9b61aa10758836fe3b74dd.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 675;
+    var4 = 701;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

@@ -49,7 +49,7 @@ case 0:
             var8 = var1.jumpType;
             var7 = var1.preserveDrawerState;
             var6 = var1.source;
-            var5 = var1.isInitialSetup;
+            var5 = var1.skipMessageFetch;
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
             var1 = 4;
@@ -72,7 +72,7 @@ case 2:
             var2['jumpType'] = var8;
             var2['preserveDrawerState'] = var7;
             var2['source'] = var6;
-            var2['isInitialSetup'] = var5;
+            var2['skipMessageFetch'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
         }

@@ -2002,6 +2002,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['EMPTY_GAME_SERVER_TAB'] = var2;
     var1 = 'EMPTY_GAME_SERVER_TAB';
     var4[var2] = var1;
+    var2 = 701;
+    var4['GUILD_POWERUPS_OVERVIEW_SIDEBAR_VIDEO_CARD'] = var2;
+    var1 = 'GUILD_POWERUPS_OVERVIEW_SIDEBAR_VIDEO_CARD';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

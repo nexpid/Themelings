@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/SoundIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/a55f16aae888edbbd4de7f7187656eb888eeca2614114f15243ed8313390904f.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/063e5feb2c3eddbd8cedc6902502cd7870b9e65b6672520dc875512a97927090.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 703;
+    var4 = 729;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

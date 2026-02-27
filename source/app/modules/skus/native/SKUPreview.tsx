@@ -15,20 +15,6 @@ case 0:
             var2 = _closure1_slot8;
             var4 = undefined;
             var7 = var2.bind(var4)();
-            var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 6;
-            var2 = var8[var2];
-            var6 = var3.bind(var4)(var2);
-            var2 = var6.useThemeContext;
-            var2 = var2.bind(var6)();
-            var6 = var2.theme;
-            var12 = var2.primaryColor;
-            var2 = 7;
-            var2 = var8[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.isThemeDark;
-            var13 = var2.bind(var3)(var6);
             var3 = var1.type;
             var2 = 'bundle';
             if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
@@ -37,7 +23,7 @@ case 3:
             var3 = var2.type;
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var8 = 11;
+            var8 = 9;
             var2 = var2[var8];
             var2 = var6.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
@@ -71,7 +57,7 @@ case 8:
             var10 = _closure1_slot7;
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var8 = 14;
+            var8 = 12;
             var8 = var11[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
@@ -92,24 +78,12 @@ case 6:
             var10 = _closure1_slot7;
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var8 = 13;
+            var8 = 11;
             var8 = var11[var8];
             var9 = var9.bind(var4)(var8);
-            var8 = {};
+            var8 = {'item': null, 'isPurchased': false, 'hideBackground': true};
             var11 = var1.item;
             var8['item'] = var11;
-            var11 = false;
-            var8['isPurchased'] = var11;
-            var8['isDarkTheme'] = var13;
-            var8['showGradient'] = var11;
-            var11 = null;
-            var12 = var11 != var12;
-            var11 = 1;
-            if(!var12) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var11 = 0.5;
-case 10:
-            var8['profileSkeletonOpacity'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var2['children'] = var8;
             var2 = var6.bind(var4)(var3, var2);
@@ -123,7 +97,7 @@ case 4:
             var10 = _closure1_slot7;
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var8 = 12;
+            var8 = 10;
             var8 = var11[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {'isPurchased': false, 'item': null, 'size': 100};
@@ -136,28 +110,28 @@ case 4:
 case 2:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 8;
+            var2 = 6;
             var2 = var6[var2];
             var6 = var3.bind(var4)(var2);
             var3 = var6.isValidCollectiblesBundleItems;
             var2 = var1.items;
             var2 = var3.bind(var6)(var2);
-            if(var2) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = null;
             return var2;
-case 12:
+case 10:
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 9;
+            var2 = 7;
             var2 = var9[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.ItemsSortingHat;
-            var16 = var1.items;
+            var13 = var1.items;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
-            var17 = var2;
-            var1 = new var17[var3](var16, var15);
+            var14 = var2;
+            var1 = new var14[var3](var13, var12);
             var8 = var1 instanceof Object ? var1 : var2;
             var3 = _closure1_slot7;
             var2 = _closure1_slot4;
@@ -170,16 +144,20 @@ case 12:
             var1['style'] = var6;
             var7 = _closure1_slot7;
             var6 = _closure1_slot1;
-            var5 = 10;
+            var5 = 8;
             var5 = var9[var5];
             var6 = var6.bind(var4)(var5);
-            var5 = {'isPurchased': false, 'deco': null, 'pfx': null, 'nameplate': null, 'size': 'small', 'showProfileGradient': false};
+            var5 = {};
+            var9 = false;
+            var5['isPurchased'] = var9;
             var9 = var8.firstAvatarDecoration;
             var5['deco'] = var9;
             var9 = var8.firstProfileEffect;
             var5['pfx'] = var9;
             var8 = var8.firstNameplate;
             var5['nameplate'] = var8;
+            var8 = 'small';
+            var5['size'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -207,15 +185,15 @@ case 0:
             var2 = var4.bind(var5)(var1, var2);
             var1 = null;
             var4 = var1 == var2;
-            if(var4) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(var4) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var5 = _closure1_slot7;
             var4 = _closure1_slot9;
             var3 = {};
             var3['collectiblesItemData'] = var2;
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
-case 14:
+case 12:
             return var1;
         }
     };
@@ -272,7 +250,7 @@ case 14:
     var5['bundleContainer'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot8 = var5;
-    var5 = 16;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -286,35 +264,35 @@ case 0:
             var4 = var1.productLine;
             var3 = _closure1_slot6;
             var3 = var3.COLLECTIBLES;
+            if(!(var3 !== var4)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            var3 = _closure1_slot6;
+            var3 = var3.SOCIAL_LAYER_GAME_ITEM;
             if(!(var3 !== var4)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
             var3 = _closure1_slot6;
-            var3 = var3.SOCIAL_LAYER_GAME_ITEM;
+            var3 = var3.APPLICATION;
             if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
             var3 = _closure1_slot6;
-            var3 = var3.APPLICATION;
-            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-            var3 = _closure1_slot6;
             var3 = var3.BOOST;
-            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
-case 22:
+            if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+case 20:
             var3 = _closure1_slot6;
             var3 = var3.GUILD_ROLE;
-            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
-case 23:
+            if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+case 21:
             var3 = _closure1_slot6;
             var3 = var3.PREMIUM;
-            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
-case 24:
+            if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+case 22:
             var3 = _closure1_slot6;
             var3 = var3.GUILD_PRODUCT;
-            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
-case 25:
+            if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+case 23:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 15;
+            var3 = 13;
             var4 = var4[var3];
             var3 = undefined;
             var6 = var5.bind(var3)(var4);
@@ -322,17 +300,17 @@ case 25:
             var4 = var1.productLine;
             var4 = var5.bind(var6)(var4);
             return var3;
-case 20:
+case 18:
             var3 = null;
             return var3;
-case 18:
+case 16:
             var6 = _closure1_slot7;
             var5 = _closure1_slot11;
             var4 = undefined;
             var3 = {};
             var3 = var6.bind(var4)(var5, var3);
             return var3;
-case 16:
+case 14:
             var4 = _closure1_slot7;
             var3 = _closure1_slot10;
             var2 = {};

@@ -41,11 +41,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = copyDataProperties(var8, var7);
         var5 = 'onPress';
         var1[var5] = var6;
+        var6 = 'no-hide-descendants';
+        var5 = 'importantForAccessibility';
+        var1[var5] = var6;
+        var6 = true;
+        var5 = 'accessibilityElementsHidden';
+        var1[var5] = var6;
         var6 = false;
         var5 = 'accessible';
-        var1[var5] = var6;
-        var6 = 'no';
-        var5 = 'importantForAccessibility';
         var1[var5] = var6;
         var1 = var4.bind(var3)(var2, var1);
         return var1;

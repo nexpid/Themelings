@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/HdStreamAbstractUI-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/106deb62726038ec15250f6fe81c745eaabe8f71f83b44ace0c898600c4ae1d3.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/68a02537c415fc04cc75911f661f34c0be4a31f0644428ca68935012d19e2dbc.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 144900;
+    var4 = 144926;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

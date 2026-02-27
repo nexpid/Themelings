@@ -768,6 +768,11 @@ case 4:
             var8['skusToRecommendationReasons'] = var10;
             var8['numItemsRequested'] = var9;
             var6['data'] = var8;
+            var8 = global;
+            var9 = var8.Date;
+            var8 = var9.now;
+            var8 = var8.bind(var9)();
+            var6['fetchedAt'] = var8;
             var4[var7] = var6;
             var3[var5] = var4;
             _closure1_slot10 = var3;
@@ -802,9 +807,9 @@ case 48:
             if(!(var2 !== var4)) { _fun0015_ip = 49; continue _fun0015 }
 case 46:
             var2 = {};
-            var9 = _closure1_slot10;
-            var10 = var2;
-            var4 = copyDataProperties(var10, var9);
+            var10 = _closure1_slot10;
+            var11 = var2;
+            var4 = copyDataProperties(var11, var10);
             var4 = {};
             var6 = _closure1_slot10;
             var6 = var6[var5];
@@ -812,12 +817,17 @@ case 46:
 case 51:
             var6 = {};
 case 50:
-            var10 = var4;
-            var9 = var6;
-            var6 = copyDataProperties(var10, var9);
+            var11 = var4;
+            var10 = var6;
+            var6 = copyDataProperties(var11, var10);
             var6 = {};
             var8 = 'error';
             var6['state'] = var8;
+            var8 = global;
+            var9 = var8.Date;
+            var8 = var9.now;
+            var8 = var8.bind(var9)();
+            var6['fetchedAt'] = var8;
             var4[var7] = var6;
             var2[var5] = var4;
             _closure1_slot10 = var2;

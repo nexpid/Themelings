@@ -113,7 +113,7 @@ case 4:
     var4 = var7.bind(var1)(var4);
     var4 = var4.Millis;
     var4 = var4.HOUR;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -469,24 +469,14 @@ case 0:
                 var6 = var6.QUESTS_MANAGER;
                 var2['location'] = var6;
                 var2 = var3.bind(var5)(var2);
-                var2 = !var2;
-                if(var2) { _fun0008_ip = 12; continue _fun0008 }
+                if(!var2) { _fun0008_ip = 12; continue _fun0008 }
 case 30:
                 var3 = _closure1_slot8;
-                var2 = var3.isFetchingCurrentQuests;
+                var3 = var3.isFetchingCurrentQuests;
+                var2 = !var3;
 case 12:
-                if(var2) { _fun0008_ip = 29; continue _fun0008 }
-case 14:
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var3 = 12;
-                var3 = var6[var3];
-                var5 = var5.bind(var1)(var3);
-                var3 = var5.isMetaQuest;
-                var2 = var3.bind(var5)();
-case 29:
-                if(var2) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
+                if(!var2) { _fun0008_ip = 31; continue _fun0008 }
+case 5:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 11;
@@ -494,28 +484,28 @@ case 32:
                 var7 = var5.bind(var1)(var3);
                 var3 = var7.fetchCurrentQuests;
                 var3 = var3.bind(var7)();
-                var3 = 13;
+                var3 = 12;
                 var3 = var6[var3];
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isMac;
                 var3 = var3.bind(var5)();
-                if(!var3) { _fun0008_ip = 33; continue _fun0008 }
-case 34:
+                if(!var3) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 14;
+                var5 = 13;
                 var5 = var7[var5];
                 var6 = var6.bind(var1)(var5);
                 var5 = var6.getState;
                 var6 = var5.bind(var6)();
                 var5 = 'focused';
                 var3 = var5 !== var6;
-case 33:
-                if(var3) { _fun0008_ip = 35; continue _fun0008 }
-case 36:
+case 32:
+                if(var3) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 15;
+                var5 = 14;
                 var5 = var7[var5];
                 var7 = var6.bind(var1)(var5);
                 var6 = var7.getConfig;
@@ -524,15 +514,15 @@ case 36:
                 var5['location'] = var8;
                 var5 = var6.bind(var7)(var5);
                 var3 = var5.enableNewRequestBehavior;
-case 35:
+case 34:
                 if(var3) { _fun0008_ip = 31; continue _fun0008 }
-case 37:
+case 36:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = var6[var2];
                 var5 = var3.bind(var1)(var2);
                 var4 = var5.fetchQuestToDeliver;
-                var2 = 16;
+                var2 = 15;
                 var2 = var6[var2];
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.QuestPlacement;
@@ -555,7 +545,7 @@ case 31:
     var14 = var4;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

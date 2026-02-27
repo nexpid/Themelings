@@ -20,10 +20,10 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var12 = var2.guildId;
+                    var13 = var2.guildId;
                     var8 = var2.channelId;
-                    var6 = var2.navigationSettings;
-                    var11 = var2.messageId;
+                    var10 = var2.navigationSettings;
+                    var12 = var2.messageId;
                     var7 = var2.summaryId;
                     var4 = undefined;
                     SaveGenerator(address=46);
@@ -33,35 +33,36 @@ case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var9 = _closure1_slot1;
-                    var10 = _closure1_slot2;
+                    var6 = _closure1_slot1;
+                    var9 = _closure1_slot2;
                     var3 = 3;
-                    var3 = var10[var3];
-                    var13 = var9.bind(var4)(var3);
-                    var3 = var13.popAll;
-                    var3 = var3.bind(var13)();
+                    var3 = var9[var3];
+                    var11 = var6.bind(var4)(var3);
+                    var3 = var11.popAll;
+                    var3 = var3.bind(var11)();
                     var3 = 4;
-                    var3 = var10[var3];
-                    var10 = var9.bind(var4)(var3);
-                    var9 = var10.getConfig;
+                    var3 = var9[var3];
+                    var9 = var6.bind(var4)(var3);
+                    var6 = var9.getConfig;
                     var3 = {};
-                    var13 = 'handleContentLinking';
-                    var3['location'] = var13;
-                    var3 = var9.bind(var10)(var3);
+                    var11 = 'handleContentLinking';
+                    var3['location'] = var11;
+                    var3 = var6.bind(var9)(var3);
                     var9 = var3.enabled;
-                    var3 = var6.safe;
-                    var13 = var6.navigationReplace;
-                    var10 = var4 === var13;
-                    if(var10) { _fun0001_ip = 8; continue _fun0001 }
+                    var3 = var10.safe;
+                    var6 = var10.navigationReplace;
+                    var11 = var4 === var6;
+                    if(var11) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var10 = var13;
+                    var11 = var6;
 case 8:
-                    var13 = var6.waitForConnection;
-                    var6 = var4 === var13;
+                    var14 = var10.waitForConnection;
+                    var6 = var4 === var14;
                     if(var6) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-                    var6 = var13;
+                    var6 = var14;
 case 10:
+                    var10 = var10.skipMessageFetch;
                     var6 = !var6;
                     if(!var6) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
@@ -77,10 +78,10 @@ case 17:
                     var6 = var6.bind(var4)();
 case 16:
                     var6 = global;
-                    var13 = var6.Promise;
-                    var6 = var13.prototype;
-                    var9 = Object.create(var6, {constructor: {value: var13}});
-                    var17 = function(arg1, arg2) {
+                    var14 = var6.Promise;
+                    var6 = var14.prototype;
+                    var9 = Object.create(var6, {constructor: {value: var14}});
+                    var18 = function(arg1, arg2) {
                         var1 = arg1;
                         var _closure5_slot0 = var1;
                         var1 = arg2;
@@ -113,10 +114,10 @@ case 16:
                         var2 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var18 = var9;
-                    var6 = new var18[var13](var17, var16);
+                    var19 = var9;
+                    var6 = new var19[var14](var18, var17);
                     var6 = var6 instanceof Object ? var6 : var9;
-                    SaveGenerator(address=237);
+                    SaveGenerator(address=243);
 case 18:
                     return var6;
 case 19:
@@ -131,16 +132,17 @@ case 22:
                     var9 = _closure1_slot2;
                     var3 = 6;
                     var3 = var9[var3];
-                    var13 = var6.bind(var4)(var3);
-                    var9 = var13.transitionTo;
+                    var14 = var6.bind(var4)(var3);
+                    var9 = var14.transitionTo;
                     var6 = _closure1_slot5;
                     var3 = var6.CHANNEL;
-                    var6 = var3.bind(var6)(var12, var8, var11);
+                    var6 = var3.bind(var6)(var13, var8, var12);
                     var3 = {};
-                    var3['navigationReplace'] = var10;
-                    var14 = true;
-                    var3['openChannel'] = var14;
-                    var3 = var9.bind(var13)(var6, var3);
+                    var3['navigationReplace'] = var11;
+                    var15 = true;
+                    var3['openChannel'] = var15;
+                    var3['skipMessageFetch'] = var10;
+                    var3 = var9.bind(var14)(var6, var3);
                     _fun0001_ip = 23; continue _fun0001;
 case 21:
                     var6 = _closure1_slot1;
@@ -150,13 +152,14 @@ case 21:
                     var9 = var6.bind(var4)(var3);
                     var6 = _closure1_slot5;
                     var3 = var6.CHANNEL;
-                    var6 = var3.bind(var6)(var12, var8, var11);
+                    var6 = var3.bind(var6)(var13, var8, var12);
                     var3 = {};
-                    var3['navigationReplace'] = var10;
-                    var10 = true;
-                    var3['openChannel'] = var10;
+                    var3['navigationReplace'] = var11;
+                    var11 = true;
+                    var3['openChannel'] = var11;
+                    var3['skipMessageFetch'] = var10;
                     var3 = var9.bind(var4)(var6, var3);
-                    SaveGenerator(address=375);
+                    SaveGenerator(address=391);
 case 24:
                     return var3;
 case 25:

@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/DiscordQuestsLockupLogo-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/481962311c8773bd2c1e7c476707b7030977589d7009f31a1245dd5c0a7fa378.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/4c55bedb285367da010745f517f516c89dd8d1bf5af4066c7be76f489e78d31b.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 4500;
+    var4 = 4526;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

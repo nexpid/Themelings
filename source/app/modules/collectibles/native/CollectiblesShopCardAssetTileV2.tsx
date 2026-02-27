@@ -55,14 +55,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['borderRadius'] = var13;
     var4['assetContainer'] = var10;
     var10 = {'position': 'absolute', 'opacity': 1, 'color': null, 'fontWeight': 'bold'};
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.ICON_STRONG;
-    var10['color'] = var11;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.ICON_STRONG;
+    var10['color'] = var13;
     var4['overlayIcon'] = var10;
     var10 = {'position': 'absolute', 'top': 0, 'zIndex': 2, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'width': '100%', 'height': '75%'};
     var4['overlayContainer'] = var10;
+    var10 = {'position': 'absolute', 'top': 0, 'width': '100%', 'height': '100%'};
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var11;
+    var4['profileEffectContainer'] = var10;
     var10 = {'width': 80, 'height': 80, 'resizeMode': 'contain'};
     var4['externalProductImage'] = var10;
     var10 = {};
@@ -131,43 +138,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var2 = var1.product;
-            var10 = var1.isDarkTheme;
             var8 = var1.isPurchased;
             var11 = var1.isDisabled;
-            var12 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var4 = 9;
-            var5 = var3[var4];
+            var3 = _closure1_slot8;
             var4 = undefined;
-            var6 = var12.bind(var4)(var5);
+            var13 = var3.bind(var4)();
+            var10 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var5 = 9;
+            var5 = var3[var5];
+            var6 = var10.bind(var4)(var5);
             var5 = var6.useShopProductItems;
             var5 = var5.bind(var6)(var2);
             var6 = var5.firstProfileEffect;
             var7 = var5.firstAvatarDecoration;
             var5 = var5.firstNameplate;
-            var9 = _closure1_slot8;
-            var13 = var9.bind(var4)();
             var9 = var2.type;
-            var15 = 10;
-            var3 = var3[var15];
-            var3 = var12.bind(var4)(var3);
+            var12 = 10;
+            var3 = var3[var12];
+            var3 = var10.bind(var4)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.BUNDLE;
             if(!(var9 === var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var9 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var3 = 11;
-            var3 = var12[var3];
+            var3 = var10[var3];
             var9 = var9.bind(var4)(var3);
             var3 = var9.isValidCollectiblesBundle;
             var3 = var3.bind(var9)(var2);
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 2:
-            var12 = _closure1_slot3;
+            var10 = _closure1_slot3;
             var9 = var2.items;
             var3 = 1;
-            var9 = var12.bind(var4)(var9, var3);
+            var9 = var10.bind(var4)(var9, var3);
             var3 = 0;
             var14 = var9[var3];
             var9 = var2.skuId;
@@ -187,26 +193,26 @@ case 8:
 case 10:
             var9 = var14.type;
 case 9:
-            var12 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var3 = var3[var15];
-            var3 = var12.bind(var4)(var3);
+            var3 = var3[var12];
+            var3 = var10.bind(var4)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.AVATAR_DECORATION;
             if(!(var3 !== var9)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var12 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var3 = var3[var15];
-            var3 = var12.bind(var4)(var3);
+            var3 = var3[var12];
+            var3 = var10.bind(var4)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.PROFILE_EFFECT;
             if(!(var3 !== var9)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var12 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var3 = var3[var15];
-            var3 = var12.bind(var4)(var3);
+            var3 = var3[var12];
+            var3 = var10.bind(var4)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.NAMEPLATE;
             if(!(var3 !== var9)) { _fun0001_ip = 15; continue _fun0001 }
@@ -216,31 +222,38 @@ case 15:
             var9 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
-            var12 = var13.overlayContainer;
-            var2['style'] = var12;
-            var15 = _closure1_slot1;
-            var16 = _closure1_slot2;
-            var12 = 18;
-            var12 = var16[var12];
-            var15 = var15.bind(var4)(var12);
-            var12 = {};
-            var12['item'] = var14;
-            var12['isPurchased'] = var8;
-            var12 = var9.bind(var4)(var15, var12);
-            var2['children'] = var12;
+            var10 = var13.overlayContainer;
+            var2['style'] = var10;
+            var12 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var10 = 18;
+            var10 = var15[var10];
+            var12 = var12.bind(var4)(var10);
+            var10 = {};
+            var10['item'] = var14;
+            var10['isPurchased'] = var8;
+            var10 = var9.bind(var4)(var12, var10);
+            var2['children'] = var10;
             var2 = var9.bind(var4)(var3, var2);
             return var2;
 case 13:
             var9 = _closure1_slot6;
-            var3 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var2 = 17;
-            var2 = var12[var2];
-            var3 = var3.bind(var4)(var2);
+            var3 = _closure1_slot4;
             var2 = {};
-            var2['item'] = var14;
-            var2['isPurchased'] = var8;
-            var2['isDarkTheme'] = var10;
+            var10 = var13.profileEffectContainer;
+            var2['style'] = var10;
+            var12 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var10 = 17;
+            var10 = var15[var10];
+            var12 = var12.bind(var4)(var10);
+            var10 = {};
+            var10['item'] = var14;
+            var10['isPurchased'] = var8;
+            var15 = true;
+            var10['hideBackground'] = var15;
+            var10 = var9.bind(var4)(var12, var10);
+            var2['children'] = var10;
             var2 = var9.bind(var4)(var3, var2);
             return var2;
 case 11:
@@ -415,7 +428,6 @@ case 25:
 case 0:
             var1 = arg1;
             var9 = var1.product;
-            var11 = var1.isDarkTheme;
             var8 = var1.isPurchased;
             var5 = var1.solidBackground;
             var6 = var1.isDisabled;
@@ -431,7 +443,7 @@ case 0:
             var1 = var10[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.getSelectedProduct;
-            var12 = var1.bind(var2)(var9, var3);
+            var11 = var1.bind(var2)(var9, var3);
             var3 = _closure1_slot7;
             var2 = _closure1_slot12;
             var1 = {};
@@ -439,8 +451,7 @@ case 0:
             var10 = _closure1_slot6;
             var9 = _closure1_slot11;
             var5 = {};
-            var5['product'] = var12;
-            var5['isDarkTheme'] = var11;
+            var5['product'] = var11;
             var5['isPurchased'] = var8;
             var5['isDisabled'] = var6;
             var9 = var10.bind(var4)(var9, var5);

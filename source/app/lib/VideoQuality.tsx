@@ -2915,6 +2915,8 @@ case 208:
                 var28['sender_freeze_count'] = var33;
                 var28['sender_total_freezes_duration'] = var30;
                 var28['sender_total_frames_duration'] = var2;
+                var2 = var3.consecutiveStaticColorFramesMax;
+                var28['consecutive_static_color_frames_max'] = var2;
 case 210:
                 var2 = {};
                 var43 = var2;

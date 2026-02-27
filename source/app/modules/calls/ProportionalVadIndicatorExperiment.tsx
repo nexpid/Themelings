@@ -26,6 +26,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6[1] = var7;
     var7 = {'enabled': true, 'disableUI': true};
     var6[2] = var7;
+    var7 = {'enabled': true, 'disableUI': true, 'swallowVolumeOnlySpeakingEvents': true};
+    var6[3] = var7;
+    var7 = {'enabled': true, 'disableUI': true, 'dontEmitVolumeOnlySpeakingEvents': true};
+    var6[4] = var7;
     var2['variations'] = var6;
     var2 = var4.bind(var1)(var2);
     var4 = 1;

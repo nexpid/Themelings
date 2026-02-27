@@ -179,11 +179,11 @@ case 0:
                     var11 = null;
                     var13 = var11 != var13;
                     var11 = '';
-                    if(!var13) { _fun0004_ip = 9; continue _fun0004 }
-case 13:
+                    if(!var13) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var12 = _closure2_slot7;
                     var11 = var12.username;
-case 9:
+case 13:
                     var6['username'] = var11;
                     var6 = var8.bind(var10)(var7, var6);
                     var2['body'] = var6;
@@ -251,8 +251,8 @@ case 0:
             var1 = var3.getChannel;
             var5 = var1.bind(var3)(var11);
             var3 = null;
-            if(!(var3 != var5)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
+            if(!(var3 != var5)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var7 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 10;
@@ -266,10 +266,10 @@ case 15:
             var8 = var9.has;
             var1 = var5.type;
             var1 = var8.bind(var9)(var1);
-            if(var7) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
-            if(!var1) { _fun0005_ip = 14; continue _fun0005 }
+            if(var7) { _fun0005_ip = 17; continue _fun0005 }
 case 18:
+            if(!var1) { _fun0005_ip = 15; continue _fun0005 }
+case 19:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var1 = 11;
@@ -282,10 +282,10 @@ case 18:
             var1['channelId'] = var11;
             var1['recipients'] = var6;
             var1 = var7.bind(var8)(var1);
-case 14:
+case 15:
             var1 = undefined;
             return var1;
-case 16:
+case 17:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 5;
@@ -311,12 +311,12 @@ case 16:
             var1 = _closure1_slot9;
             var1 = var1.GUILD_VOICE;
             var1 = var7 === var1;
-            if(!var1) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+            if(!var1) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
             var1 = var3 != var6;
-case 19:
-            if(!var1) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+case 20:
+            if(!var1) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 11;
@@ -330,7 +330,7 @@ case 22:
             var5 = var5.guild_id;
             var2['guildId'] = var5;
             var1 = var3.bind(var4)(var2);
-case 21:
+case 22:
             var1 = undefined;
             return var1;
         }

@@ -334,6 +334,101 @@ case 15:
         return var1;
     };
     var _closure1_slot13 = var1;
+    var1 = function _fetchPublicDiscoveryGuild() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0003_ip = 16; continue _fun0003 }
+case 31:
+                    var7 = arg1;
+                    var4 = undefined;
+                    var5 = undefined;
+case 43: // try_start_0
+                    var3 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var2 = 10;
+                    var2 = var6[var2];
+                    var2 = var3.bind(var4)(var2);
+                    var6 = var2.HTTP;
+                    var3 = var6.get;
+                    var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+                    var9 = _closure1_slot9;
+                    var8 = var9.GUILD_DISCOVERY_SLUG;
+                    var10 = global;
+                    var10 = var10.String;
+                    var7 = var10.bind(var4)(var7);
+                    var7 = var8.bind(var9)(var7);
+                    var2['url'] = var7;
+                    var2 = var3.bind(var6)(var2);
+                    SaveGenerator(address=103);
+case 44:
+                    return var2;
+case 45:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0003_ip = 39; continue _fun0003 }
+case 46:
+                    var3 = var2.body;
+                    var5 = var3;
+                    var6 = null;
+                    var7 = var6 == var3;
+                    var3 = undefined;
+                    if(var7) { _fun0003_ip = 47; continue _fun0003 }
+case 48:
+                    var7 = var5;
+                    var3 = var7.guild;
+case 47:
+                    var7 = var6 == var3;
+                    var3 = null;
+                    if(var7) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
+                    var7 = var5;
+                    var7 = var6 == var7;
+                    var4 = undefined;
+                    if(var7) { _fun0003_ip = 51; continue _fun0003 }
+case 52:
+                    var7 = var5;
+                    var4 = var7.slug;
+case 51:
+                    var4 = var6 == var4;
+                    var3 = null;
+                    if(var4) { _fun0003_ip = 49; continue _fun0003 }
+case 53:
+                    var4 = {};
+                    var6 = var5.guild;
+                    var4['guild'] = var6;
+                    var5 = var5.slug;
+                    var4['slug'] = var5;
+                    var3 = var4;
+case 49: // try_end0
+                    return var3;
+case 39:
+                    return var2;
+case 41: // catch_target0
+                    CatchBlockStart(arg_register=1);
+                    var2 = null;
+                    return var2;
+case 16:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot14 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot14 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -409,14 +504,14 @@ case 15:
     var3['startLurking'] = var5;
     var3['makeDiscoverableGuild'] = var4;
     var4 = function trackDiscoveryExited(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var6 = arguments[2];
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0003_ip = 43; continue _fun0003 }
-case 44:
+            if(!(var6 === var1)) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
             var6 = null;
-case 43:
+case 54:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 9;
@@ -454,14 +549,14 @@ case 43:
     };
     var3['trackSearchClosed'] = var4;
     var4 = function trackSearchStarted(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = arguments[2];
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+            if(!(var6 === var1)) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
             var6 = {};
-case 43:
+case 54:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 9;
@@ -551,7 +646,7 @@ case 43:
     };
     var3['trackGuildDiscoveryGetFeaturedGuildsFailed'] = var4;
     var4 = function trackSearchResultsViewed(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var10 = var1.loadId;
@@ -572,26 +667,26 @@ case 0:
             var3 = var2.SEARCH_RESULT_VIEWED;
             var2 = {};
             var13 = _closure1_slot8;
-            if(var11) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+            if(var11) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
             var11 = var13.GUILD_DISCOVERY;
-            _fun0005_ip = 47; continue _fun0005;
-case 45:
+            _fun0006_ip = 58; continue _fun0006;
+case 56:
             var11 = var13.GUILD_DISCOVERY_TAG;
-case 47:
+case 58:
             var2['search_type'] = var11;
             var2['load_id'] = var10;
             var2['search_id'] = var9;
             var10 = var1 !== var12;
             var11 = null;
-            if(!var10) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+            if(!var10) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
             var11 = var12.length;
-case 48:
+case 59:
             var2['total_results'] = var11;
             var9 = null;
-            if(!var10) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(!var10) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
             var11 = var12.map;
             var10 = function(arg1) {
                 var1 = arg1;
@@ -599,7 +694,7 @@ case 51:
                 return var1;
             };
             var9 = var11.bind(var12)(var10);
-case 50:
+case 61:
             var2['guild_ids'] = var9;
             var2['query'] = var8;
             var7 = var7.location;
@@ -635,7 +730,7 @@ case 50:
         return var1;
     };
     var3['trackGuildJoinClicked'] = var4;
-    var2 = function getDiscoverableGuild() {
+    var4 = function getDiscoverableGuild() {
         var1 = undefined;
         var4 = _closure1_slot13;
         var3 = var4.apply;
@@ -645,6 +740,17 @@ case 50:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['getDiscoverableGuild'] = var2;
+    var3['getDiscoverableGuild'] = var4;
+    var2 = function fetchPublicDiscoveryGuild() {
+        var1 = undefined;
+        var4 = _closure1_slot14;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchPublicDiscoveryGuild'] = var2;
     return var1;
 })();

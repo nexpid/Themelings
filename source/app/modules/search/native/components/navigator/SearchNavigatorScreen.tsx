@@ -119,37 +119,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6[0] = var2;
         var6[1] = var22;
         var3 = function() {
-            var4 = _closure2_slot0;
-            var3 = var4.addListener;
-            var2 = 'transitionEnd';
-            var1 = function(arg1) {
+            var5 = _closure2_slot0;
+            var4 = var5.addListener;
+            var3 = 'transitionStart';
+            var2 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     var1 = arg1;
                     var1 = var1.data;
                     var1 = var1.closing;
-                    if(var1) { _fun0001_ip = 2; continue _fun0001 }
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var2 = _closure2_slot3;
-                    var2 = var2.current;
-                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
-                    var3 = _closure2_slot3;
-                    var2 = true;
-                    var3['current'] = var2;
                     var1 = _closure2_slot2;
                     var2 = var1.current;
                     var1 = null;
                     if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 5:
-                    var1 = var2.focus;
+case 4:
+                    var1 = var2.blur;
                     var1 = var1.bind(var2)();
 case 2:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var1 = var3.bind(var4)(var2, var1);
+            var2 = var4.bind(var5)(var3, var2);
+            var _closure3_slot0 = var2;
+            var4 = var5.addListener;
+            var3 = 'transitionEnd';
+            var2 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = arg1;
+                    var1 = var1.data;
+                    var1 = var1.closing;
+                    if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 3:
+                    var2 = _closure2_slot3;
+                    var2 = var2.current;
+                    if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                    var3 = _closure2_slot3;
+                    var2 = true;
+                    var3['current'] = var2;
+                    var1 = _closure2_slot2;
+                    var2 = var1.current;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0002_ip = 5; continue _fun0002 }
+case 7:
+                    var1 = var2.focus;
+                    var1 = var1.bind(var2)();
+case 5:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var2 = var4.bind(var5)(var3, var2);
+            var _closure3_slot1 = var2;
+            var1 = function() {
+                var3 = _closure3_slot0;
+                var1 = undefined;
+                var3 = var3.bind(var1)();
+                var2 = _closure3_slot1;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
             return var1;
         };
         var3 = var8.bind(var5)(var3, var6);

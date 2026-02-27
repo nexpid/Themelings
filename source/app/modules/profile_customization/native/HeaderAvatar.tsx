@@ -22,7 +22,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.bind(var1)(var7);
     var4 = 1;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
@@ -34,21 +35,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.ActivityTypes;
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.ActivityTypes;
     var _closure1_slot7 = var4;
     var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot8 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 7;
+    var10 = 8;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
@@ -56,8 +61,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var10;
     var4['avatarStatusStyle'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 15;
+    var _closure1_slot9 = var4;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -75,16 +80,16 @@ case 0:
             var1 = var6.pendingAvatarSrc;
             var _closure2_slot2 = var1;
             var22 = var6.pendingAvatarDecoration;
-            var9 = var6.style;
+            var8 = var6.style;
             var14 = var6.statusStyle;
-            var8 = var6.onPress;
+            var9 = var6.onPress;
             var15 = var6.size;
             var5 = undefined;
             if(!(var15 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var1 = var4[var1];
             var1 = var2.bind(var5)(var1);
             var1 = var1.AvatarSizes;
@@ -107,21 +112,21 @@ case 4:
             var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
             var _closure2_slot5 = var5;
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot9;
             var12 = var4.bind(var5)();
             var6 = var24.id;
             _closure2_slot3 = var6;
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var4 = 9;
+            var4 = 10;
             var11 = var20[var4];
             var18 = var19.bind(var5)(var11);
             var16 = var18.useStateFromStores;
-            var11 = _closure1_slot3;
+            var11 = _closure1_slot4;
             var13 = new Array(1);
             var13[0] = var11;
             var11 = function() {
-                var1 = _closure1_slot3;
+                var1 = _closure1_slot4;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
@@ -130,14 +135,14 @@ case 4:
             var13 = var20[var4];
             var23 = var19.bind(var5)(var13);
             var18 = var23.useStateFromStoresObject;
-            var13 = _closure1_slot5;
+            var13 = _closure1_slot6;
             var16 = new Array(1);
             var16[0] = var13;
             var13 = new Array(1);
             var13[0] = var6;
             var6 = function() {
                 var1 = {};
-                var5 = _closure1_slot5;
+                var5 = _closure1_slot6;
                 var4 = var5.isMobileOnline;
                 var3 = _closure2_slot3;
                 var3 = var4.bind(var5)(var3);
@@ -155,7 +160,7 @@ case 4:
                 var2 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.type;
-                    var1 = _closure1_slot6;
+                    var1 = _closure1_slot7;
                     var1 = var1.CUSTOM_STATUS;
                     var1 = var2 === var1;
                     return var1;
@@ -171,7 +176,7 @@ case 4:
             var4 = var20[var4];
             var25 = var19.bind(var5)(var4);
             var23 = var25.useStateFromStores;
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot5;
             var6 = new Array(1);
             var6[0] = var4;
             var4 = function() {
@@ -182,7 +187,7 @@ case 0:
                     var3 = var1 != var3;
                     if(!var3) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                    var5 = _closure1_slot4;
+                    var5 = _closure1_slot5;
                     var4 = var5.getMember;
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot3;
@@ -193,10 +198,10 @@ case 6:
             };
             var23 = var23.bind(var25)(var6, var4);
             var6 = _closure1_slot1;
-            var4 = 10;
+            var4 = 11;
             var4 = var20[var4];
             var6 = var6.bind(var5)(var4);
-            var4 = 11;
+            var4 = 12;
             var4 = var20[var4];
             var20 = var19.bind(var5)(var4);
             var19 = var20.getProfilePreviewValue;
@@ -235,7 +240,7 @@ case 12:
             var4['statusStyle'] = var12;
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var12 = 12;
+            var12 = 13;
             var12 = var15[var12];
             var12 = var14.bind(var5)(var12);
             var12 = var12.bind(var5)(var13);
@@ -247,72 +252,81 @@ case 14:
             var4['animate'] = var10;
             var4['avatarDecoration'] = var6;
             _closure2_slot5 = var4;
-            var6 = function renderAvatar(arg1) {
+            var6 = function renderAvatar() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var7 = arg1;
-                    var4 = _closure1_slot7;
+                    var4 = _closure1_slot8;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 9;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
                     var1 = _closure2_slot2;
                     if(!(var3 === var1)) { _fun0003_ip = 16; continue _fun0003 }
-case 6:
+case 17:
                     var1 = {};
                     var5 = _closure2_slot0;
                     var1['user'] = var5;
                     var5 = _closure2_slot1;
                     var1['guildId'] = var5;
-                    var1['style'] = var7;
-                    var16 = _closure2_slot5;
-                    var17 = var1;
-                    var5 = copyDataProperties(var17, var16);
-                    _fun0003_ip = 17; continue _fun0003;
+                    var15 = _closure2_slot5;
+                    var16 = var1;
+                    var5 = copyDataProperties(var16, var15);
+                    _fun0003_ip = 18; continue _fun0003;
 case 16:
                     var5 = {};
-                    var9 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var8 = 13;
-                    var8 = var10[var8];
-                    var13 = var9.bind(var3)(var8);
-                    var12 = var13.getAvatarSource;
-                    var17 = _closure2_slot0;
-                    var16 = _closure2_slot1;
-                    var15 = _closure2_slot2;
-                    var14 = _closure2_slot4;
-                    var18 = var13;
-                    var8 = var18[var12](var17, var16, var15, var14, var13);
-                    var5['source'] = var8;
-                    var5['style'] = var7;
-                    var16 = _closure2_slot5;
-                    var17 = var5;
-                    var6 = copyDataProperties(var17, var16);
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var7 = 14;
+                    var7 = var9[var7];
+                    var12 = var8.bind(var3)(var7);
+                    var11 = var12.getAvatarSource;
+                    var16 = _closure2_slot0;
+                    var15 = _closure2_slot1;
+                    var14 = _closure2_slot2;
+                    var13 = _closure2_slot4;
+                    var17 = var12;
+                    var7 = var17[var11](var16, var15, var14, var13, var12);
+                    var5['source'] = var7;
+                    var15 = _closure2_slot5;
+                    var16 = var5;
+                    var6 = copyDataProperties(var16, var15);
                     var1 = var5;
-case 17:
+case 18:
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 }
             };
-            if(!(var1 == var8)) { _fun0001_ip = 18; continue _fun0001 }
+            if(!(var1 == var9)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot3;
+            var1 = {'style': null, 'accessibilityRole': 'image', 'accessible': true};
+            var1['style'] = var8;
+            var28 = var1;
+            var27 = var7;
+            var10 = copyDataProperties(var28, var27);
+            var11 = var6.bind(var5)();
+            var10 = 'children';
+            var1[var10] = var11;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0001_ip = 21; continue _fun0001;
 case 19:
-            var1 = var6.bind(var5)(var9);
-            _fun0001_ip = 20; continue _fun0001;
-case 18:
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot8;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var2 = var10[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.PressableOpacity;
             var2 = {};
-            var2['style'] = var9;
-            var2['onLongPress'] = var8;
-            var2['onPress'] = var8;
-            var8 = 'button';
+            var2['onPress'] = var9;
+            var2['onLongPress'] = var9;
+            var2['style'] = var8;
+            var8 = 0.8;
+            var2['activeOpacity'] = var8;
+            var8 = 'imagebutton';
             var2['accessibilityRole'] = var8;
             var28 = var2;
             var27 = var7;
@@ -321,7 +335,7 @@ case 18:
             var6 = 'children';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
-case 20:
+case 21:
             return var1;
         }
     };

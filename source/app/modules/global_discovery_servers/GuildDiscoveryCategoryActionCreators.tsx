@@ -117,7 +117,7 @@ case 11: // try_start_0
                     var8 = var9.bind(var10)(var8);
                     var2['url'] = var8;
                     var2 = var3.bind(var5)(var2);
-                    SaveGenerator(address=95);
+                    SaveGenerator(address=91);
 case 12:
                     return var2;
 case 13:
@@ -229,7 +229,7 @@ case 19:
 case 20:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0003_ip = 21; continue _fun0003 }
-case 12:
+case 22:
                     var4 = var2.body;
                     var7 = var4.slug;
                     var4 = _closure1_slot1;
@@ -243,11 +243,11 @@ case 12:
                     var3['type'] = var8;
                     var3['slug'] = var7;
                     var3 = var4.bind(var6)(var3);
-case 22: // try_end0
-                    _fun0003_ip = 23; continue _fun0003;
+case 23: // try_end0
+                    _fun0003_ip = 24; continue _fun0003;
 case 21:
                     return var2;
-case 24: // catch_target0
+case 25: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -261,7 +261,7 @@ case 24: // catch_target0
                     var2['type'] = var6;
                     var2['guildId'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 23:
+case 24:
                     var2 = undefined;
                     return var2;
 case 18:
@@ -291,7 +291,7 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 25; continue _fun0004 }
+                    if(var3) { _fun0004_ip = 26; continue _fun0004 }
 case 11:
                     var7 = var2.guildId;
                     var18 = var2.primaryCategoryId;
@@ -305,11 +305,11 @@ case 11:
                     var10 = var2.about;
                     var6 = undefined;
                     SaveGenerator(address=78);
-case 26:
-                    return var6;
 case 27:
+                    return var6;
+case 28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 28; continue _fun0004 }
+                    if(var3) { _fun0004_ip = 29; continue _fun0004 }
 case 20: // try_start_0
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -341,12 +341,12 @@ case 20: // try_start_0
                     var3['rejectWithError'] = var9;
                     var3 = var5.bind(var8)(var3);
                     SaveGenerator(address=218);
-case 29:
-                    return var3;
 case 30:
+                    return var3;
+case 31:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+                    if(var5) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                     var5 = var3.body;
                     var19 = var5.primary_category_id;
                     var18 = var5.category_ids;
@@ -382,11 +382,11 @@ case 32:
                     var9['about'] = var10;
                     var4['metadata'] = var9;
                     var4 = var5.bind(var8)(var4);
-case 33: // try_end0
+case 34: // try_end0
                     return var6;
-case 31:
+case 32:
                     return var3;
-case 34: // catch_target0
+case 35: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -402,9 +402,9 @@ case 34: // catch_target0
                     var4['errors'] = var7;
                     var4 = var5.bind(var6)(var4);
                     throw var3;
-case 28:
+case 29:
                     return var2;
-case 25:
+case 26:
                     return var1;
                 }
             };

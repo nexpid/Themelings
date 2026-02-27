@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/CrosshairIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/d65b8b3fb767c53293294007f57c2f458210f9daf054f0ae51f5f01cadda7d5b.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/352214a582ba6e96246d99dd9bf7b759f3fd1f7b3fd013e4299dd90d0afe0729.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 752;
+    var4 = 778;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;
