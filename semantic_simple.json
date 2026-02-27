@@ -1337,6 +1337,24 @@
     "midnight": "#000000",
     "darker": "#000000"
   },
+  "STEAM_REVIEW_TEXT_MIXED": {
+    "dark": "#dc8d00",
+    "light": "#884800",
+    "midnight": "#e09000",
+    "darker": "#f49f00"
+  },
+  "STEAM_REVIEW_TEXT_NEGATIVE": {
+    "dark": "#e55455",
+    "light": "#d22d39",
+    "midnight": "#e55455",
+    "darker": "#f16d6a"
+  },
+  "STEAM_REVIEW_TEXT_POSITIVE": {
+    "dark": "#3286e9",
+    "light": "#006dd4",
+    "midnight": "#3286e9",
+    "darker": "#5299ef"
+  },
   "TEXT_BRAND": {
     "dark": "#949cf7",
     "light": "#5865f2",

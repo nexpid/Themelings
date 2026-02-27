@@ -6689,6 +6689,96 @@
       }
     ]
   },
+  "STEAM_REVIEW_TEXT_MIXED": {
+    "dark": [
+      "#dc8d00",
+      {
+        "raw": "YELLOW_NEW_56",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#884800",
+      {
+        "raw": "YELLOW_NEW_75",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#e09000",
+      {
+        "raw": "YELLOW_NEW_55",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#f49f00",
+      {
+        "raw": "YELLOW_NEW_51",
+        "opacity": 1
+      }
+    ]
+  },
+  "STEAM_REVIEW_TEXT_NEGATIVE": {
+    "dark": [
+      "#e55455",
+      {
+        "raw": "RED_NEW_40",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#d22d39",
+      {
+        "raw": "RED_NEW_50",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#e55455",
+      {
+        "raw": "RED_NEW_40",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#f16d6a",
+      {
+        "raw": "RED_NEW_33",
+        "opacity": 1
+      }
+    ]
+  },
+  "STEAM_REVIEW_TEXT_POSITIVE": {
+    "dark": [
+      "#3286e9",
+      {
+        "raw": "BLUE_NEW_43",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#006dd4",
+      {
+        "raw": "BLUE_NEW_53",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3286e9",
+      {
+        "raw": "BLUE_NEW_43",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5299ef",
+      {
+        "raw": "BLUE_NEW_36",
+        "opacity": 1
+      }
+    ]
+  },
   "TEXT_BRAND": {
     "dark": [
       "#949cf7",
