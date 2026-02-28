@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot18 = var4;
-    var4 = 45;
+    var4 = 46;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -315,6 +315,93 @@ case 6:
         }
     };
     var3['JoinActivityButton'] = var4;
+    var4 = function JoinGameActivityButton(arg1) {
+        var1 = arg1;
+        var2 = var1.user;
+        var _closure2_slot0 = var2;
+        var2 = var1.activity;
+        var _closure2_slot1 = var2;
+        var3 = var1.application;
+        var1 = var1.onAction;
+        var _closure2_slot2 = var1;
+        var6 = _closure1_slot1;
+        var10 = _closure1_slot2;
+        var2 = 16;
+        var2 = var10[var2];
+        var4 = undefined;
+        var2 = var6.bind(var4)(var2);
+        var2 = var2.bind(var4)();
+        var2 = var2.analyticsLocations;
+        var _closure2_slot3 = var2;
+        var2 = {};
+        var6 = var3.id;
+        var2['id'] = var6;
+        var3 = var3.deepLinkUri;
+        var2['deeplink_uri'] = var3;
+        var _closure2_slot4 = var2;
+        var3 = _closure1_slot17;
+        var9 = _closure1_slot0;
+        var1 = 22;
+        var1 = var10[var1];
+        var1 = var9.bind(var4)(var1);
+        var2 = var1.Button;
+        var1 = {};
+        var6 = 23;
+        var7 = var10[var6];
+        var7 = var9.bind(var4)(var7);
+        var8 = var7.intl;
+        var7 = var8.string;
+        var6 = var10[var6];
+        var6 = var9.bind(var4)(var6);
+        var6 = var6.t;
+        var6 = var6.VJlc0S;
+        var6 = var7.bind(var8)(var6);
+        var1['text'] = var6;
+        var6 = 'active';
+        var1['variant'] = var6;
+        var5 = function onPress() {
+            var3 = _closure2_slot2;
+            var2 = {};
+            var1 = 'PRESS_JOIN_BUTTON';
+            var2['action'] = var1;
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 27;
+            var2 = var4[var2];
+            var6 = var3.bind(var1)(var2);
+            var5 = var6.join;
+            var2 = {};
+            var8 = _closure2_slot0;
+            var8 = var8.id;
+            var2['userId'] = var8;
+            var8 = _closure2_slot1;
+            var9 = var8.session_id;
+            var2['sessionId'] = var9;
+            var9 = _closure2_slot4;
+            var2['application'] = var9;
+            var9 = null;
+            var2['channelId'] = var9;
+            var2['messageId'] = var9;
+            var2['applicationActivity'] = var8;
+            var8 = 'UserProfile';
+            var2['source'] = var8;
+            var7 = _closure2_slot3;
+            var2['analyticsLocations'] = var7;
+            var2 = var5.bind(var6)(var2);
+            var2 = 26;
+            var2 = var4[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.hideActionSheet;
+            var2 = var2.bind(var3)();
+            return var1;
+        };
+        var1['onPress'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['JoinGameActivityButton'] = var4;
     var4 = function PlayOnSpotifyButton(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -329,7 +416,7 @@ case 0:
             var _closure2_slot1 = var2;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 27;
+            var1 = 28;
             var1 = var4[var1];
             var1 = var3.bind(var5)(var1);
             var4 = var1.bind(var5)(var14);
@@ -364,7 +451,7 @@ case 12:
             var8 = var11.bind(var12)(var9, var8);
             var2['text'] = var8;
             var12 = _closure1_slot1;
-            var11 = 28;
+            var11 = 29;
             var8 = var13[var11];
             var9 = var12.bind(var5)(var8);
             var8 = {};
@@ -373,7 +460,7 @@ case 12:
             var11 = var11.Sizes;
             var11 = var11.SMALL;
             var8['size'] = var11;
-            var11 = 29;
+            var11 = 30;
             var11 = var13[var11];
             var11 = var12.bind(var5)(var11);
             var8['source'] = var11;
@@ -404,7 +491,7 @@ case 14:
 case 15: // try_start_0
                         var8 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var4 = 30;
+                        var4 = 31;
                         var3 = var3[var4];
                         var8 = var8.bind(var2)(var3);
                         var3 = var8.canOpenSpotifyUrl;
@@ -426,7 +513,7 @@ case 21:
                         var4 = var9.attributeInstall;
                         var4 = var4.bind(var9)();
                         var8 = _closure1_slot1;
-                        var4 = 31;
+                        var4 = 32;
                         var4 = var10[var4];
                         var10 = var8.bind(var2)(var4);
                         var8 = var10.openURL;
@@ -470,13 +557,13 @@ case 0:
             var _closure2_slot0 = var1;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 32;
+            var1 = 33;
             var1 = var8[var1];
             var5 = undefined;
             var1 = var7.bind(var5)(var1);
             var3 = var1.bind(var5)(var4);
             var _closure2_slot1 = var3;
-            var1 = 33;
+            var1 = 34;
             var1 = var8[var1];
             var1 = var7.bind(var5)(var1);
             var7 = var1.bind(var5)(var4);
@@ -518,7 +605,7 @@ case 25:
                 var3 = var4.bind(var1)(var3);
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 31;
+                var3 = 32;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.openURL;
@@ -674,7 +761,7 @@ case 0:
                     var7 = var4.bind(var1)(var3);
                     var3 = var7.hideActionSheet;
                     var3 = var3.bind(var7)();
-                    var3 = 34;
+                    var3 = 35;
                     var3 = var6[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.popAll;
@@ -684,7 +771,7 @@ case 0:
                     var5 = _closure1_slot2;
                     if(var3) { _fun0006_ip = 29; continue _fun0006 }
 case 45:
-                    var3 = 36;
+                    var3 = 37;
                     var3 = var5[var3];
                     var8 = var4.bind(var1)(var3);
                     var7 = var8.openGuildVoiceModal;
@@ -693,7 +780,7 @@ case 45:
                     var3 = var7.bind(var8)(var6, var3);
                     _fun0006_ip = 46; continue _fun0006;
 case 29:
-                    var3 = 35;
+                    var3 = 36;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.connectAndOpen;
@@ -751,7 +838,7 @@ case 0:
 case 27:
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var2 = 37;
+            var2 = 38;
             var2 = var12[var2];
             var3 = var13.bind(var4)(var2);
             var2 = var3.get;
@@ -778,7 +865,7 @@ case 27:
             var6['platform'] = var15;
             var6 = var10.bind(var14)(var7, var6);
             var1['text'] = var6;
-            var10 = 28;
+            var10 = 29;
             var6 = var12[var10];
             var7 = var13.bind(var4)(var6);
             var6 = {};
@@ -787,7 +874,7 @@ case 27:
             var10 = var10.Sizes;
             var10 = var10.SMALL;
             var6['size'] = var10;
-            var10 = 38;
+            var10 = 39;
             var10 = var12[var10];
             var11 = var11.bind(var4)(var10);
             var10 = var11.makeSource;
@@ -821,7 +908,7 @@ case 48:
                     var3 = var5.bind(var1)(var3);
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var2 = 39;
+                    var2 = 40;
                     var2 = var5[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = {};
@@ -833,7 +920,7 @@ case 48:
                     var4 = function onClose() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 40;
+                        var1 = 41;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -893,7 +980,7 @@ case 52:
             var3 = var2.Button;
             var2 = {};
             var11 = _closure1_slot1;
-            var10 = 41;
+            var10 = 42;
             var10 = var12[var10];
             var10 = var11.bind(var4)(var10);
             var10 = var10.bind(var4)(var8);
@@ -941,7 +1028,7 @@ case 56:
 case 57: // try_start_0
                         var10 = _closure1_slot0;
                         var11 = _closure1_slot2;
-                        var3 = 42;
+                        var3 = 43;
                         var3 = var11[var3];
                         var12 = var10.bind(var2)(var3);
                         var11 = var12.getMetadata;
@@ -972,7 +1059,7 @@ case 63:
 case 65:
                         var10 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var8 = 43;
+                        var8 = 44;
                         var9 = var9[var8];
                         var10 = var10.bind(var2)(var9);
                         var9 = var10.safeParseWithQuery;
@@ -1006,7 +1093,7 @@ case 72:
                         var8 = var8.bind(var9)(var5);
                         _closure4_slot0 = var8;
                         var5 = _closure1_slot0;
-                        var4 = 44;
+                        var4 = 45;
                         var4 = var6[var4];
                         var6 = var5.bind(var2)(var4);
                         var5 = var6.handleClick;
@@ -1015,7 +1102,7 @@ case 72:
                         var7 = function onConfirm() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 31;
+                            var1 = 32;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);

@@ -107,6 +107,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['DEFAULT_REACT_EMOJI'] = var10;
     var4 = 'DEFAULT_REACT_EMOJI';
     var5[var10] = var4;
+    var10 = 15;
+    var5['NO_CUSTOM_EMOJI'] = var10;
+    var4 = 'NO_CUSTOM_EMOJI';
+    var5[var10] = var4;
     var10 = var1.Set;
     var4 = var5.COMMUNITY_CONTENT;
     var1 = new Array(5);

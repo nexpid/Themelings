@@ -224,7 +224,7 @@ case 26:
                 var6 = _closure2_slot0;
                 var1 = {};
                 var4 = _closure1_slot5;
-                var10 = var4.QUEST_HOME_V2;
+                var10 = var4.QUEST_HOME;
                 var4 = _closure1_slot6;
                 var9 = var4.VIRTUAL_CURRENCY;
                 var4 = global;
@@ -329,7 +329,7 @@ case 16:
                 var4 = _closure2_slot0;
                 var1 = {};
                 var3 = _closure1_slot5;
-                var3 = var3.QUEST_HOME_V2;
+                var3 = var3.QUEST_HOME;
                 var1['path'] = var3;
                 var3 = _closure1_slot7;
                 var3 = var3.QUEST_HOME;

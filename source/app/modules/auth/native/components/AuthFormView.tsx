@@ -1,10 +1,10 @@
 // app/modules/auth/native/components/AuthFormView.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
-    var _closure1_slot0 = var12;
+    var1 = metroImportDefault;
+    var _closure1_slot0 = var1;
     var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -19,8 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var10 = 1;
-    var4 = var6[var10];
+    var4 = 1;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.View;
     var _closure1_slot2 = var7;
@@ -35,124 +35,213 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var7 = {};
-    var4 = {};
-    var11 = 4;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOW;
-    var4['backgroundColor'] = var11;
-    var4['flex'] = var10;
-    var7['container'] = var4;
-    var4 = {};
-    var4['flex'] = var10;
-    var7['flex'] = var4;
-    var4 = {'paddingRight': 16, 'paddingLeft': 16, 'flex': 1};
-    var7['content'] = var4;
-    var4 = 8;
-    var10 = {'marginTop': 8, 'alignItems': 'center'};
-    var7['subHeader'] = var10;
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot6 = var7;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var5 = arg1;
+            var1 = {};
+            var2 = {};
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 4;
+            var4 = var4[var3];
+            var3 = undefined;
+            var3 = var6.bind(var3)(var4);
+            var3 = var3.colors;
+            var3 = var3.BACKGROUND_BASE_LOW;
+            var2['backgroundColor'] = var3;
+            var3 = 1;
+            var2['flex'] = var3;
+            var1['container'] = var2;
+            var2 = {};
+            var2['flex'] = var3;
+            var1['flex'] = var2;
+            var2 = {};
+            var6 = 0;
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var6 = 60;
+case 2:
+            var2['paddingTop'] = var6;
+            var6 = 16;
+            var7 = var6;
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var7 = 24;
+case 4:
+            var2['paddingRight'] = var7;
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var6 = 24;
+case 6:
+            var2['paddingLeft'] = var6;
+            if(!var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var3 = 0;
+case 8:
+            var2['flex'] = var3;
+            var1['content'] = var2;
+            var2 = {'marginTop': 8, 'alignItems': 'center'};
+            var1['subHeader'] = var2;
+            return var1;
+        }
+    };
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/auth/native/components/AuthFormView.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function AuthFormView(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.children;
-            var17 = var1.headerText;
-            var14 = var1.subHeader;
-            var10 = var1.contentStyle;
-            var16 = var1.backgroundImageSource;
-            var13 = var1.backgroundImageCover;
-            var1 = _closure1_slot6;
-            var4 = undefined;
-            var15 = var1.bind(var4)();
-            var3 = _closure1_slot5;
+            var7 = var1.children;
+            var15 = var1.headerText;
+            var12 = var1.subHeader;
+            var8 = var1.contentStyle;
+            var17 = var1.backgroundImageSource;
+            var16 = var1.backgroundImageCover;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 5;
+            var1 = var3[var1];
+            var5 = undefined;
+            var1 = var2.bind(var5)(var1);
+            var1 = var1.bind(var5)();
+            var2 = _closure1_slot6;
+            var13 = var2.bind(var5)(var1);
+            var4 = _closure1_slot5;
+            if(var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var2 = _closure1_slot2;
             var1 = {};
-            var6 = var15.container;
-            var5 = new Array(2);
-            var5[0] = var6;
-            var6 = var15.flex;
-            var5[1] = var6;
-            var1['style'] = var5;
-            var8 = _closure1_slot4;
-            var7 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var5 = 5;
-            var5 = var12[var5];
-            var6 = var7.bind(var4)(var5);
-            var5 = {};
-            var5['backgroundImageSource'] = var16;
-            var5['backgroundImageCover'] = var13;
-            var6 = var8.bind(var4)(var6, var5);
-            var5 = new Array(3);
-            var5[0] = var6;
-            var6 = 6;
-            var6 = var12[var6];
-            var7 = var7.bind(var4)(var6);
+            var6 = var13.container;
+            var3 = new Array(2);
+            var3[0] = var6;
+            var6 = var13.flex;
+            var3[1] = var6;
+            var1['style'] = var3;
+            var11 = _closure1_slot4;
+            var10 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var3 = 7;
+            var3 = var14[var3];
+            var6 = var10.bind(var5)(var3);
+            var3 = {};
+            var3['backgroundImageSource'] = var17;
+            var3['backgroundImageCover'] = var16;
+            var6 = var11.bind(var5)(var6, var3);
+            var3 = new Array(3);
+            var3[0] = var6;
+            var6 = 8;
+            var6 = var14[var6];
+            var10 = var10.bind(var5)(var6);
             var6 = {};
-            var6 = var8.bind(var4)(var7, var6);
-            var5[1] = var6;
-            var7 = _closure1_slot3;
+            var6 = var11.bind(var5)(var10, var6);
+            var3[1] = var6;
+            var10 = _closure1_slot3;
             var6 = {'contentInset': null, 'automaticallyAdjustContentInsets': false, 'keyboardShouldPersistTaps': 'handled', 'alwaysBounceVertical': false};
-            var8 = {};
-            var12 = 0;
-            var8['top'] = var12;
-            var6['contentInset'] = var8;
-            var8 = var15.flex;
-            var6['style'] = var8;
-            var12 = var15.content;
-            var8 = new Array(3);
-            var8[0] = var12;
-            var12 = var15.flex;
-            var8[1] = var12;
-            var8[2] = var10;
-            var6['contentContainerStyle'] = var8;
-            var10 = null;
-            var8 = var10 != var17;
-            var12 = null;
-            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var16 = _closure1_slot4;
-            var13 = _closure1_slot0;
-            var18 = _closure1_slot1;
-            var8 = 7;
-            var8 = var18[var8];
-            var13 = var13.bind(var4)(var8);
-            var8 = {};
-            var8['children'] = var17;
-            var12 = var16.bind(var4)(var13, var8);
-case 2:
-            var8 = new Array(3);
-            var8[0] = var12;
-            var12 = var10 != var14;
-            var10 = null;
-            if(!var12) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var13 = _closure1_slot4;
-            var12 = _closure1_slot2;
             var11 = {};
-            var15 = var15.subHeader;
-            var11['style'] = var15;
-            var11['children'] = var14;
-            var10 = var13.bind(var4)(var12, var11);
-case 4:
-            var8[1] = var10;
-            var8[2] = var9;
-            var6['children'] = var8;
-            var6 = var3.bind(var4)(var7, var6);
-            var5[2] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var14 = 0;
+            var11['top'] = var14;
+            var6['contentInset'] = var11;
+            var11 = var13.flex;
+            var6['style'] = var11;
+            var14 = var13.content;
+            var11 = new Array(3);
+            var11[0] = var14;
+            var14 = var13.flex;
+            var11[1] = var14;
+            var11[2] = var8;
+            var6['contentContainerStyle'] = var11;
+            var14 = null;
+            var11 = var14 != var15;
+            var16 = null;
+            if(!var11) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var18 = _closure1_slot4;
+            var17 = _closure1_slot0;
+            var19 = _closure1_slot1;
+            var11 = 6;
+            var11 = var19[var11];
+            var17 = var17.bind(var5)(var11);
+            var11 = {};
+            var11['children'] = var15;
+            var16 = var18.bind(var5)(var17, var11);
+case 12:
+            var11 = new Array(3);
+            var11[0] = var16;
+            var16 = var14 != var12;
+            var14 = null;
+            if(!var16) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            var18 = _closure1_slot4;
+            var17 = _closure1_slot2;
+            var16 = {};
+            var19 = var13.subHeader;
+            var16['style'] = var19;
+            var16['children'] = var12;
+            var14 = var18.bind(var5)(var17, var16);
+case 14:
+            var11[1] = var14;
+            var11[2] = var7;
+            var6['children'] = var11;
+            var6 = var4.bind(var5)(var10, var6);
+            var3[2] = var6;
+            var1['children'] = var3;
+            var1 = var4.bind(var5)(var2, var1);
+            _fun0002_ip = 16; continue _fun0002;
+case 10:
+            var3 = _closure1_slot3;
+            var2 = {'contentInset': null, 'automaticallyAdjustContentInsets': false, 'keyboardShouldPersistTaps': 'handled', 'alwaysBounceVertical': false};
+            var6 = {};
+            var10 = 0;
+            var6['top'] = var10;
+            var2['contentInset'] = var6;
+            var10 = var13.content;
+            var6 = new Array(2);
+            var6[0] = var10;
+            var6[1] = var8;
+            var2['contentContainerStyle'] = var6;
+            var8 = null;
+            var6 = var8 != var15;
+            var10 = null;
+            if(!var6) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+            var14 = _closure1_slot4;
+            var11 = _closure1_slot0;
+            var16 = _closure1_slot1;
+            var6 = 6;
+            var6 = var16[var6];
+            var11 = var11.bind(var5)(var6);
+            var6 = {};
+            var6['children'] = var15;
+            var10 = var14.bind(var5)(var11, var6);
+case 17:
+            var6 = new Array(3);
+            var6[0] = var10;
+            var10 = var8 != var12;
+            var8 = null;
+            if(!var10) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var11 = _closure1_slot4;
+            var10 = _closure1_slot2;
+            var9 = {};
+            var13 = var13.subHeader;
+            var9['style'] = var13;
+            var9['children'] = var12;
+            var8 = var11.bind(var5)(var10, var9);
+case 19:
+            var6[1] = var8;
+            var6[2] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 16:
             return var1;
         }
     };

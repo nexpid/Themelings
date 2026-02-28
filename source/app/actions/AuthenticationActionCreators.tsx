@@ -10,17 +10,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var7;
     var1 = function dispatchLogout(arg1) {
-        var4 = {};
-        var1 = 'LOGOUT';
-        var4['type'] = var1;
-        var5 = arg1;
-        var6 = var4;
-        var1 = copyDataProperties(var6, var5);
         var3 = _closure1_slot1;
-        var2 = _closure1_slot3;
+        var5 = _closure1_slot3;
         var1 = 7;
-        var2 = var2[var1];
+        var2 = var5[var1];
         var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var2 = var4.clearNavigationHistory;
+        var2 = var2.bind(var4)();
+        var4 = {};
+        var2 = 'LOGOUT';
+        var4['type'] = var2;
+        var6 = arg1;
+        var7 = var4;
+        var2 = copyDataProperties(var7, var6);
+        var2 = 8;
+        var2 = var5[var2];
         var3 = var3.bind(var1)(var2);
         var2 = var3.dispatch;
         var4 = var2.bind(var3)(var4);
@@ -66,7 +71,7 @@ case 4:
 case 7:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var4 = 8;
+            var4 = 9;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.getRootNavigationRef;
@@ -75,7 +80,7 @@ case 7:
 case 9:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var3 = 9;
+            var3 = 10;
             var3 = var6[var3];
             var6 = var5.bind(var1)(var3);
             var5 = var6.transitionTo;
@@ -87,7 +92,7 @@ case 9:
 case 8:
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var2 = 10;
+            var2 = 11;
             var2 = var5[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.popAll;
@@ -178,7 +183,7 @@ case 6:
         var _closure2_slot0 = var1;
         var4 = _closure1_slot1;
         var3 = _closure1_slot3;
-        var1 = 7;
+        var1 = 8;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -186,7 +191,7 @@ case 6:
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 7;
+            var1 = 8;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -221,7 +226,7 @@ case 0:
             var _closure2_slot3 = var5;
             var3 = _closure1_slot1;
             var11 = _closure1_slot3;
-            var2 = 7;
+            var2 = 8;
             var2 = var11[var2];
             var8 = undefined;
             var10 = var3.bind(var8)(var2);
@@ -229,7 +234,7 @@ case 0:
             var6 = true;
             var2 = {'type': 'LOGIN', 'isPasswordAttempt': true};
             var2 = var4.bind(var10)(var2);
-            var2 = 11;
+            var2 = 12;
             var2 = var11[var2];
             var4 = var3.bind(var8)(var2);
             var3 = var4.post;
@@ -249,7 +254,7 @@ case 0:
             var2['oldFormErrors'] = var6;
             var6 = {};
             var10 = _closure1_slot0;
-            var7 = 12;
+            var7 = 13;
             var7 = var11[var7];
             var7 = var10.bind(var8)(var7);
             var7 = var7.NetworkActionNames;
@@ -303,7 +308,7 @@ case 0:
                     var5 = var1.login_instance_id;
                     var13 = _closure1_slot1;
                     var1 = _closure1_slot3;
-                    var4 = 7;
+                    var4 = 8;
                     var11 = var1[var4];
                     var1 = undefined;
                     var14 = var13.bind(var1)(var11);
@@ -361,7 +366,7 @@ case 0:
                     var6 = arg1;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var1 = 13;
+                    var1 = 14;
                     var1 = var4[var1];
                     var5 = undefined;
                     var1 = var3.bind(var5)(var1);
@@ -420,7 +425,7 @@ case 31:
 case 36:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot3;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var8[var3];
                     var8 = var4.bind(var5)(var3);
                     var4 = var8.dispatch;
@@ -433,7 +438,7 @@ case 36:
 case 35:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot3;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var8[var3];
                     var8 = var4.bind(var5)(var3);
                     var4 = var8.dispatch;
@@ -451,7 +456,7 @@ case 35:
 case 34:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot3;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var8[var3];
                     var8 = var4.bind(var5)(var3);
                     var4 = var8.dispatch;
@@ -469,7 +474,7 @@ case 34:
 case 30:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot3;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var8[var3];
                     var8 = var4.bind(var5)(var3);
                     var4 = var8.dispatch;
@@ -488,7 +493,7 @@ case 37:
 case 24:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var2 = 7;
+                    var2 = 8;
                     var2 = var4[var2];
                     var4 = var3.bind(var5)(var2);
                     var3 = var4.dispatch;
@@ -528,7 +533,7 @@ case 0:
             var7 = var2.loginInstanceId;
             var3 = _closure1_slot1;
             var4 = _closure1_slot3;
-            var2 = 11;
+            var2 = 12;
             var2 = var4[var2];
             var8 = undefined;
             var4 = var3.bind(var8)(var2);
@@ -555,7 +560,7 @@ case 40:
             var5 = {};
             var7 = _closure1_slot0;
             var9 = _closure1_slot3;
-            var6 = 12;
+            var6 = 13;
             var6 = var9[var6];
             var6 = var7.bind(var8)(var6);
             var6 = var6.NetworkActionNames;
@@ -573,7 +578,7 @@ case 0:
 case 42:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var3 = 7;
+                    var3 = 8;
                     var4 = var4[var3];
                     var3 = undefined;
                     var5 = var5.bind(var3)(var4);
@@ -613,7 +618,7 @@ case 45:
 case 46:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var2 = 7;
+                    var2 = 8;
                     var4 = var4[var2];
                     var2 = undefined;
                     var6 = var5.bind(var2)(var4);
@@ -693,7 +698,7 @@ case 46:
 case 52:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var6 = 7;
+                    var6 = 8;
                     var2 = var2[var6];
                     var9 = var4.bind(var5)(var2);
                     var4 = var9.dispatch;
@@ -704,7 +709,7 @@ case 52:
 case 53: // try_start_1
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot3;
-                    var2 = 14;
+                    var2 = 15;
                     var2 = var9[var2];
                     var4 = var4.bind(var5)(var2);
                     var2 = var4.fetchWebAuthnPasswordlessChallenge;
@@ -755,7 +760,7 @@ case 66: // try_start_2 // catch_target0
                     var8 = var11;
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot3;
-                    var9 = 13;
+                    var9 = 14;
                     var9 = var13[var9];
                     var9 = var12.bind(var5)(var9);
                     var9 = var9.APIError;
@@ -778,7 +783,7 @@ case 70:
 case 71:
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot3;
-                    var9 = 15;
+                    var9 = 16;
                     var9 = var11[var9];
                     var9 = var10.bind(var5)(var9);
                     var11 = var9.SignalUnknownCredentialExperiment;
@@ -792,7 +797,7 @@ case 71:
 case 72:
                     var10 = _closure1_slot1;
                     var11 = _closure1_slot3;
-                    var9 = 16;
+                    var9 = 17;
                     var9 = var11[var9];
                     var10 = var10.bind(var5)(var9);
                     var9 = var10.signalUnknownCredential;
@@ -843,7 +848,7 @@ case 50:
         var7 = var2.giftCodeSKUId;
         var3 = _closure1_slot1;
         var9 = _closure1_slot3;
-        var2 = 11;
+        var2 = 12;
         var2 = var9[var2];
         var8 = undefined;
         var4 = var3.bind(var8)(var2);
@@ -862,7 +867,7 @@ case 50:
         var2['retries'] = var5;
         var5 = {};
         var7 = _closure1_slot0;
-        var6 = 12;
+        var6 = 13;
         var6 = var9[var6];
         var6 = var7.bind(var8)(var6);
         var6 = var6.NetworkActionNames;
@@ -881,7 +886,7 @@ case 50:
             var9 = var1.required_actions;
             var3 = _closure1_slot1;
             var4 = _closure1_slot3;
-            var2 = 7;
+            var2 = 8;
             var6 = var4[var2];
             var1 = undefined;
             var8 = var3.bind(var1)(var6);
@@ -910,7 +915,7 @@ case 0:
                 var4 = arg1;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot3;
-                var2 = 17;
+                var2 = 18;
                 var2 = var3[var2];
                 var3 = undefined;
                 var2 = var5.bind(var3)(var2);
@@ -926,7 +931,7 @@ case 78:
 case 80:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot3;
-                var5 = 13;
+                var5 = 14;
                 var5 = var7[var5];
                 var5 = var6.bind(var3)(var5);
                 var5 = var5.APIError;
@@ -941,7 +946,7 @@ case 77:
 case 79:
                 var2 = _closure1_slot1;
                 var5 = _closure1_slot3;
-                var1 = 7;
+                var1 = 8;
                 var1 = var5[var1];
                 var3 = var2.bind(var3)(var1);
                 var2 = var3.dispatch;
@@ -976,7 +981,7 @@ case 81:
             var _closure2_slot2 = var2;
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var2 = 7;
+            var2 = 8;
             var2 = var5[var2];
             var4 = var3.bind(var4)(var2);
             var3 = var4.dispatch;
@@ -999,7 +1004,7 @@ case 81:
 case 0:
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot3;
-                        var1 = 7;
+                        var1 = 8;
                         var2 = var2[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
@@ -1052,7 +1057,7 @@ case 51:
                     var5 = undefined;
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var3 = 7;
+                    var3 = 8;
                     var2 = var2[var3];
                     var7 = var4.bind(var8)(var2);
                     var4 = var7.dispatch;
@@ -1063,7 +1068,7 @@ case 51:
 case 86: // try_start_0
                     var4 = _closure1_slot1;
                     var14 = _closure1_slot3;
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var14[var2];
                     var9 = var4.bind(var8)(var2);
                     var7 = var9.post;
@@ -1079,7 +1084,7 @@ case 86: // try_start_0
                     var2['oldFormErrors'] = var10;
                     var11 = {};
                     var13 = _closure1_slot0;
-                    var12 = 12;
+                    var12 = 13;
                     var12 = var14[var12];
                     var12 = var13.bind(var8)(var12);
                     var12 = var12.NetworkActionNames;
@@ -1138,7 +1143,7 @@ case 95: // catch_target0
                     var7 = 'LOGIN_FAILURE';
                     var3['type'] = var7;
                     var7 = _closure1_slot0;
-                    var6 = 13;
+                    var6 = 14;
                     var6 = var9[var6];
                     var6 = var7.bind(var8)(var6);
                     var6 = var6.V6OrEarlierAPIError;
@@ -1165,7 +1170,7 @@ case 85:
     var8 = function loginReset(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 7;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -1182,7 +1187,7 @@ case 85:
     var8 = function loginStatusReset() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 7;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -1219,7 +1224,7 @@ case 96:
             var _closure2_slot2 = var11;
             var3 = _closure1_slot1;
             var10 = _closure1_slot3;
-            var2 = 11;
+            var2 = 12;
             var2 = var10[var2];
             var4 = var3.bind(var12)(var2);
             var3 = var4.post;
@@ -1232,7 +1237,7 @@ case 96:
             var6 = var6.bind(var12)();
             var5['provider'] = var6;
             var8 = _closure1_slot0;
-            var6 = 18;
+            var6 = 19;
             var13 = var10[var6];
             var13 = var8.bind(var12)(var13);
             var15 = var13.Storage;
@@ -1253,7 +1258,7 @@ case 96:
             var5 = true;
             var2['oldFormErrors'] = var5;
             var5 = {};
-            var6 = 12;
+            var6 = 13;
             var6 = var10[var6];
             var6 = var8.bind(var12)(var6);
             var6 = var6.NetworkActionNames;
@@ -1271,7 +1276,7 @@ case 99:
             var7 = {};
             var10 = _closure1_slot2;
             var13 = _closure1_slot3;
-            var9 = 19;
+            var9 = 20;
             var9 = var13[var9];
             var10 = var10.bind(var12)(var9);
             var9 = var10.getToken;
@@ -1393,7 +1398,7 @@ case 106:
             var _closure2_slot1 = var2;
             var3 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var2 = 17;
+            var2 = 18;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var4 = var2.HTTP;
@@ -1432,7 +1437,7 @@ case 0:
 case 51:
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot3;
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var10[var2];
                     var5 = undefined;
                     var6 = var4.bind(var5)(var2);
@@ -1447,7 +1452,7 @@ case 51:
                     var2['body'] = var7;
                     var7 = {};
                     var9 = _closure1_slot0;
-                    var8 = 12;
+                    var8 = 13;
                     var8 = var10[var8];
                     var8 = var9.bind(var5)(var8);
                     var8 = var8.NetworkActionNames;
@@ -1466,7 +1471,7 @@ case 49:
 case 18:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var6[var3];
                     var5 = var4.bind(var5)(var3);
                     var4 = var5.dispatch;
@@ -1496,7 +1501,7 @@ case 108:
     var8 = function authorizePayment(arg1) {
         var2 = _closure1_slot1;
         var8 = _closure1_slot3;
-        var1 = 11;
+        var1 = 12;
         var1 = var8[var1];
         var7 = undefined;
         var3 = var2.bind(var7)(var1);
@@ -1511,7 +1516,7 @@ case 108:
         var1['body'] = var4;
         var4 = {};
         var6 = _closure1_slot0;
-        var5 = 12;
+        var5 = 13;
         var5 = var8[var5];
         var5 = var6.bind(var7)(var5);
         var5 = var5.NetworkActionNames;
@@ -1527,7 +1532,7 @@ case 108:
     var8 = function authorizeIPAddress(arg1) {
         var2 = _closure1_slot1;
         var8 = _closure1_slot3;
-        var1 = 11;
+        var1 = 12;
         var1 = var8[var1];
         var7 = undefined;
         var3 = var2.bind(var7)(var1);
@@ -1542,7 +1547,7 @@ case 108:
         var1['body'] = var4;
         var4 = {};
         var6 = _closure1_slot0;
-        var5 = 12;
+        var5 = 13;
         var5 = var8[var5];
         var5 = var6.bind(var7)(var5);
         var5 = var5.NetworkActionNames;
@@ -1558,7 +1563,7 @@ case 108:
     var8 = function verifyResend() {
         var2 = _closure1_slot1;
         var8 = _closure1_slot3;
-        var1 = 11;
+        var1 = 12;
         var1 = var8[var1];
         var7 = undefined;
         var3 = var2.bind(var7)(var1);
@@ -1571,7 +1576,7 @@ case 108:
         var1['oldFormErrors'] = var4;
         var4 = {};
         var6 = _closure1_slot0;
-        var5 = 12;
+        var5 = 13;
         var5 = var8[var5];
         var5 = var6.bind(var7)(var5);
         var5 = var5.NetworkActionNames;
@@ -1611,7 +1616,7 @@ case 51:
                     var7 = undefined;
                     var13 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var6 = 7;
+                    var6 = 8;
                     var3 = var2[var6];
                     var15 = var13.bind(var5)(var3);
                     var13 = var15.dispatch;
@@ -1628,7 +1633,7 @@ case 51:
                     var3['source'] = var13;
                     var14 = var3;
                     var3 = _closure1_slot0;
-                    var15 = 18;
+                    var15 = 19;
                     var2 = var2[var15];
                     var2 = var3.bind(var5)(var2);
                     var13 = var2.Storage;
@@ -1672,7 +1677,7 @@ case 64:
 case 115: // try_start_0
                     var3 = _closure1_slot1;
                     var17 = _closure1_slot3;
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var17[var2];
                     var13 = var3.bind(var5)(var2);
                     var3 = var13.post;
@@ -1685,7 +1690,7 @@ case 115: // try_start_0
                     var2['oldFormErrors'] = var14;
                     var14 = {};
                     var16 = _closure1_slot0;
-                    var15 = 12;
+                    var15 = 13;
                     var15 = var17[var15];
                     var15 = var16.bind(var5)(var15);
                     var15 = var15.NetworkActionNames;
@@ -1734,7 +1739,7 @@ case 123: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 13;
+                    var2 = 14;
                     var2 = var3[var2];
                     var2 = var7.bind(var5)(var2);
                     var2 = var2.V6OrEarlierAPIError;
@@ -1791,7 +1796,7 @@ case 0:
 case 51:
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot3;
-                    var2 = 7;
+                    var2 = 8;
                     var2 = var10[var2];
                     var9 = undefined;
                     var5 = var3.bind(var9)(var2);
@@ -1800,7 +1805,7 @@ case 51:
                     var6 = 'LOGIN_MFA';
                     var2['type'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var10[var2];
                     var4 = var3.bind(var9)(var2);
                     var3 = var4.post;
@@ -1826,7 +1831,7 @@ case 51:
                     var2['oldFormErrors'] = var5;
                     var6 = {};
                     var8 = _closure1_slot0;
-                    var7 = 12;
+                    var7 = 13;
                     var7 = var10[var7];
                     var7 = var8.bind(var9)(var7);
                     var7 = var7.NetworkActionNames;
@@ -1878,7 +1883,7 @@ case 51:
                     var3 = undefined;
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var5 = 7;
+                    var5 = 8;
                     var6 = var6[var5];
                     var8 = var7.bind(var4)(var6);
                     var7 = var8.dispatch;
@@ -1889,7 +1894,7 @@ case 51:
 case 86: // try_start_0
                     var7 = _closure1_slot1;
                     var12 = _closure1_slot3;
-                    var6 = 11;
+                    var6 = 12;
                     var6 = var12[var6];
                     var8 = var7.bind(var4)(var6);
                     var7 = var8.post;
@@ -1905,7 +1910,7 @@ case 86: // try_start_0
                     var6['oldFormErrors'] = var9;
                     var9 = {};
                     var11 = _closure1_slot0;
-                    var10 = 12;
+                    var10 = 13;
                     var10 = var12[var10];
                     var10 = var11.bind(var4)(var10);
                     var10 = var10.NetworkActionNames;
@@ -1941,7 +1946,7 @@ case 128: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot3;
-                    var6 = 13;
+                    var6 = 14;
                     var6 = var9[var6];
                     var6 = var7.bind(var4)(var6);
                     var6 = var6.V6OrEarlierAPIError;
@@ -1998,7 +2003,7 @@ case 73:
     var8 = function setFingerprint(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 7;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -2015,7 +2020,7 @@ case 73:
     var8 = function getExperiments(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 7;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -2045,7 +2050,7 @@ case 107:
             var4 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
-                var1 = 7;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -2059,7 +2064,7 @@ case 107:
             var _closure1_slot4 = var3;
             var4 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var3 = 17;
+            var3 = 18;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var5 = var3.HTTP;
@@ -2103,7 +2108,7 @@ case 83:
 case 135:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot3;
-                    var4 = 7;
+                    var4 = 8;
                     var4 = var7[var4];
                     var7 = var6.bind(var1)(var4);
                     var6 = var7.dispatch;
@@ -2115,7 +2120,7 @@ case 135:
 case 132:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot3;
-                    var4 = 7;
+                    var4 = 8;
                     var4 = var7[var4];
                     var7 = var6.bind(var1)(var4);
                     var6 = var7.dispatch;
@@ -2178,7 +2183,7 @@ case 138:
                 var2 = var4.bind(var1)(var2);
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot3;
-                var2 = 7;
+                var2 = 8;
                 var2 = var5[var2];
                 var5 = var4.bind(var1)(var2);
                 var4 = var5.dispatch;
@@ -2201,7 +2206,7 @@ case 112:
     var5 = function closeSuspendedUser() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 7;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -2213,7 +2218,7 @@ case 112:
         return var1;
     };
     var4['closeSuspendedUser'] = var5;
-    var5 = 20;
+    var5 = 21;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

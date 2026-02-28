@@ -49,6 +49,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['title'] = var10;
     var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
     var2['parent'] = var9;
+    var9 = function usePredicate() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.useIsInActivityPrivacyCopyExperiment;
+        var1 = 'ActivityPrivacyDefaultSharingSetting';
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['usePredicate'] = var9;
     var9 = function useOptions() {
         var4 = _closure1_slot3;
         var3 = var4.useMemo;

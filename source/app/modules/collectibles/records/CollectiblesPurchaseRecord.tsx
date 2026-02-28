@@ -4,7 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
-    var _closure1_slot0 = var5;
+    var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
     var1 = global;
     var9 = var1.Object;
@@ -107,10 +107,10 @@ case 0:
                 var20 = var11.type;
                 var13 = var11.sku_id;
                 var _closure3_slot0 = var13;
-                var16 = var11.name;
+                var17 = var11.name;
                 var19 = var11.premium_type;
                 var14 = var11.category_sku_id;
-                var17 = var11.prices;
+                var16 = var11.prices;
                 var18 = var11.bundled_products;
                 var15 = var11.variants;
                 var10 = var11.base_variant_name;
@@ -132,18 +132,18 @@ case 0:
                 var3 = _closure2_slot0;
                 var1 = {};
                 var1['type'] = var20;
-                var1['name'] = var16;
+                var1['name'] = var17;
                 var1['skuId'] = var13;
                 var20 = _closure1_slot8;
-                var16 = null;
+                var17 = null;
                 if(!(var19 !== var20)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var16 = var19;
+                var17 = var19;
 case 2:
-                var1['premiumType'] = var16;
+                var1['premiumType'] = var17;
                 var1['categorySkuId'] = var14;
-                var16 = _closure1_slot7;
-                var14 = var16.some;
+                var17 = _closure1_slot7;
+                var14 = var17.some;
                 var12 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.rewardSkuId;
@@ -151,16 +151,15 @@ case 2:
                     var1 = var2 === var1;
                     return var1;
                 };
-                var12 = var14.bind(var16)(var12);
+                var12 = var14.bind(var17)(var12);
                 var1['isCategoryReward'] = var12;
-                var16 = _closure1_slot0;
+                var17 = _closure1_slot0;
                 var14 = _closure1_slot1;
                 var12 = 7;
                 var14 = var14[var12];
                 var12 = undefined;
-                var16 = var16.bind(var12)(var14);
-                var14 = var16.getPricesFromServer;
-                var14 = var14.bind(var16)(var17);
+                var14 = var17.bind(var12)(var14);
+                var14 = var14.bind(var12)(var16);
                 var1['prices'] = var14;
                 var16 = _closure1_slot5;
                 var14 = var11.items;

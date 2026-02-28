@@ -262,7 +262,7 @@ case 0:
             var3 = 16;
             var3 = var19[var3];
             var10 = var18.bind(var5)(var3);
-            var7 = var10.useStateFromStores;
+            var7 = var10.useStateFromStoresArray;
             var3 = _closure1_slot9;
             var6 = new Array(1);
             var6[0] = var3;

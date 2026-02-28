@@ -8,17 +8,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
     var4 = function MFAModal(arg1) {
-        var2 = arg1;
-        var8 = var2.mfaChallenge;
-        var _closure2_slot0 = var8;
-        var11 = var2.finish;
-        var _closure2_slot1 = var11;
-        var10 = var2.cancel;
-        var _closure2_slot2 = var10;
-        var3 = var2.handleOnClose;
+        var5 = arg1;
+        var9 = var5.mfaChallenge;
+        var _closure2_slot0 = var9;
+        var12 = var5.finish;
+        var _closure2_slot1 = var12;
+        var11 = var5.cancel;
+        var _closure2_slot2 = var11;
+        var3 = var5.handleOnClose;
         var _closure2_slot3 = var3;
-        var9 = _closure1_slot4;
-        var7 = var9.useCallback;
+        var4 = {'mfaChallenge': 0, 'finish': 0, 'cancel': 0, 'handleOnClose': 0};
+        var14 = null;
+        var15 = var4;
+        var2 = silentSetPrototypeOf(var15, var14);
+        var15 = {};
+        var14 = var5;
+        var13 = var4;
+        var5 = copyDataProperties(var15, var14, var13);
+        var10 = _closure1_slot4;
+        var8 = var10.useCallback;
         var2 = function() {
             var4 = _closure1_slot3;
             var3 = undefined;
@@ -92,18 +100,18 @@ case 2:
             return var1;
         };
         var4 = undefined;
-        var6 = var2.bind(var4)();
+        var7 = var2.bind(var4)();
         var2 = new Array(2);
-        var2[0] = var11;
-        var11 = var8.ticket;
-        var2[1] = var11;
-        var2 = var7.bind(var9)(var6, var2);
+        var2[0] = var12;
+        var12 = var9.ticket;
+        var2[1] = var12;
+        var2 = var8.bind(var10)(var7, var2);
         var _closure2_slot4 = var2;
-        var9 = _closure1_slot4;
-        var7 = var9.useCallback;
-        var6 = new Array(2);
-        var6[0] = var10;
-        var6[1] = var3;
+        var10 = _closure1_slot4;
+        var8 = var10.useCallback;
+        var7 = new Array(2);
+        var7[0] = var11;
+        var7[1] = var3;
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -154,12 +162,12 @@ case 14:
                 return var1;
             }
         };
-        var9 = var7.bind(var9)(var3, var6);
-        var _closure2_slot5 = var9;
-        var7 = _closure1_slot4;
-        var6 = var7.useMemo;
+        var10 = var8.bind(var10)(var3, var7);
+        var _closure2_slot5 = var10;
+        var8 = _closure1_slot4;
+        var7 = var8.useMemo;
         var3 = new Array(2);
-        var3[0] = var8;
+        var3[0] = var9;
         var3[1] = var2;
         var2 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -211,13 +219,13 @@ case 20:
                 return var1;
             }
         };
-        var6 = var6.bind(var7)(var2, var3);
-        var7 = _closure1_slot4;
-        var3 = var7.useMemo;
+        var7 = var7.bind(var8)(var2, var3);
+        var8 = _closure1_slot4;
+        var3 = var8.useMemo;
         var2 = new Array(2);
-        var2[0] = var9;
-        var8 = var8.methods;
-        var2[1] = var8;
+        var2[0] = var10;
+        var9 = var9.methods;
+        var2[1] = var9;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -629,20 +637,23 @@ case 64:
                 return var1;
             }
         };
-        var7 = var3.bind(var7)(var1, var2);
+        var8 = var3.bind(var8)(var1, var2);
         var3 = _closure1_slot6;
         var2 = _closure1_slot0;
-        var8 = _closure1_slot2;
+        var9 = _closure1_slot2;
         var1 = 16;
-        var1 = var8[var1];
+        var1 = var9[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Navigator;
         var1 = {};
-        var1['screens'] = var7;
-        var1['initialRouteStack'] = var6;
-        var5 = _closure1_slot5;
-        var5 = var5.dismiss;
-        var1['onWillFocus'] = var5;
+        var1['screens'] = var8;
+        var1['initialRouteStack'] = var7;
+        var6 = _closure1_slot5;
+        var6 = var6.dismiss;
+        var1['onWillFocus'] = var6;
+        var15 = var1;
+        var14 = var5;
+        var5 = copyDataProperties(var15, var14);
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

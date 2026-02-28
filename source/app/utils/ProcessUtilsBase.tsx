@@ -45,15 +45,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var _closure2_slot0 = var3;
         var1 = {};
-        var2 = 'setShouldCollectHermesInstrumentedStats';
+        var2 = 'getSystemMetrics';
         var1['key'] = var2;
         var2 = function value() {
-            var1 = undefined;
+            var1 = global;
+            var3 = var1.Promise;
+            var2 = var3.resolve;
+            var1 = null;
+            var1 = var2.bind(var3)(var1);
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(3);
+        var2 = new Array(4);
         var2[0] = var1;
+        var1 = {};
+        var6 = 'setShouldCollectHermesInstrumentedStats';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[1] = var1;
         var1 = {};
         var6 = 'getCurrentHermesInstrumentedStatsSummary';
         var1['key'] = var6;
@@ -62,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[1] = var1;
+        var2[2] = var1;
         var1 = {};
         var6 = 'getCPUCoreCount';
         var1['key'] = var6;
@@ -72,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var5;
-        var2[2] = var1;
+        var2[3] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

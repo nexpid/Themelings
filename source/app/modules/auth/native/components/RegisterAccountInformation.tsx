@@ -1,52 +1,52 @@
 // app/modules/auth/native/components/RegisterAccountInformation.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var10 = 1;
-    var4 = var6[var10];
-    var4 = var13.bind(var1)(var4);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
-    var7 = var6[var4];
+    var8 = var6[var4];
     var4 = metroImportAll;
-    var4 = var4.bind(var1)(var7);
+    var4 = var4.bind(var1)(var8);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.View;
-    var _closure1_slot6 = var7;
+    var8 = var4.View;
+    var _closure1_slot6 = var8;
     var4 = var4.ScrollView;
     var _closure1_slot7 = var4;
-    var11 = 4;
-    var4 = var6[var11];
-    var4 = var13.bind(var1)(var4);
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot10 = var4;
     var4 = 7;
     var4 = var6[var4];
@@ -80,27 +80,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
-    var4 = {};
-    var9 = {};
-    var12 = 12;
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_24;
-    var9['marginTop'] = var12;
-    var4['container'] = var9;
-    var9 = {};
-    var12 = 24;
-    var9['marginTop'] = var12;
-    var4['password'] = var9;
-    var9 = {'marginTop': 24, 'marginBottom': 50};
-    var4['button'] = var9;
-    var9 = {};
-    var9['marginTop'] = var11;
-    var4['errors'] = var9;
-    var9 = {};
-    var9['flex'] = var10;
-    var4['page'] = var9;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = {};
+            var2 = {};
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 12;
+            var4 = var4[var3];
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var3 = var3.spacing;
+            var3 = var3.PX_24;
+            var2['marginTop'] = var3;
+            var1['container'] = var2;
+            var2 = {};
+            var3 = 24;
+            var2['marginTop'] = var3;
+            var1['password'] = var2;
+            var2 = {};
+            var2['marginTop'] = var3;
+            var3 = 50;
+            var4 = arg1;
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = 0;
+case 2:
+            var2['marginBottom'] = var3;
+            var1['button'] = var2;
+            var2 = {};
+            var3 = 4;
+            var2['marginTop'] = var3;
+            var1['errors'] = var2;
+            var2 = {};
+            var3 = 1;
+            var2['flex'] = var3;
+            var1['page'] = var2;
+            return var1;
+        }
+    };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot19 = var4;
     var4 = {};
@@ -124,14 +143,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.bind(var9)(var7);
     var4['layout'] = var7;
     var _closure1_slot20 = var4;
-    var4 = 29;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/auth/native/components/RegisterAccountInformation.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function RegisterAccountInformation() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var24 = function handleSubmit() {
                 var1 = undefined;
@@ -149,12 +168,12 @@ case 0:
                 var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
-                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                            if(var2) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                             var5 = undefined;
                             var6 = undefined;
                             var4 = undefined;
@@ -171,30 +190,30 @@ case 3:
                             var2 = _closure2_slot6;
                             var9 = var2.bind(var5)();
                             var7 = null;
-                            if(!(var7 != var9)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                            if(!(var7 != var9)) { _fun0003_ip = 6; continue _fun0003 }
+case 2:
                             var2 = var6;
                             var2['username'] = var9;
-case 4:
+case 6:
                             var9 = _closure2_slot1;
                             var2 = true;
                             var2 = var9.bind(var5)(var2);
-case 6: // try_start_0
+case 7: // try_start_0
                             var2 = _closure2_slot4;
                             var2 = var2.bind(var5)();
                             SaveGenerator(address=111);
-case 7:
-                            return var2;
 case 8:
+                            return var2;
+case 9:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=8);
-                            if(var9) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+                            if(var9) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                             var4 = var2;
-                            if(!(var7 != var2)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+                            if(!(var7 != var2)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                             var7 = var6;
                             var7['password'] = var4;
-case 11: // try_end0
+case 12: // try_end0
                             var7 = _closure2_slot1;
                             var4 = false;
                             var4 = var7.bind(var5)(var4);
@@ -205,8 +224,8 @@ case 11: // try_end0
                             var4 = var9.bind(var10)(var4);
                             var9 = var4.length;
                             var4 = 0;
-                            if(!(!(var9 > var4))) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                            if(!(!(var9 > var4))) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                             var9 = _closure1_slot12;
                             var4 = _closure2_slot7;
                             var4 = var9.bind(var5)(var4);
@@ -214,7 +233,7 @@ case 14:
                             var4 = _closure2_slot8;
                             var4 = var9.bind(var5)(var4);
                             return var5;
-case 13:
+case 14:
                             var4 = _closure1_slot11;
                             var9 = var6;
                             var4 = var4.bind(var5)(var9);
@@ -233,18 +252,18 @@ case 13:
                             var4 = var6.bind(var5)(var4);
                             var4 = undefined;
                             return var4;
-case 9:
+case 10:
                             var6 = _closure2_slot1;
                             var4 = false;
                             var4 = var6.bind(var5)(var4);
                             return var2;
-case 15: // catch_target0
+case 16: // catch_target0
                             CatchBlockStart(arg_register=1);
                             var4 = _closure2_slot1;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
                             throw var2;
-case 2:
+case 4:
                             return var1;
                         }
                     };
@@ -260,14 +279,19 @@ case 2:
                 return var1;
             };
             var _closure2_slot9 = var2;
-            var2 = _closure1_slot19;
+            var3 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 14;
+            var2 = var9[var2];
             var4 = undefined;
-            var21 = var2.bind(var4)();
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.bind(var4)();
+            var2 = _closure1_slot19;
+            var21 = var2.bind(var4)(var3);
             var10 = _closure1_slot5;
             var3 = var10.useContext;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var2 = var9[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.TrackRegistrationContext;
@@ -303,7 +327,7 @@ case 2:
                 return var1;
             };
             var20 = var5.bind(var4)(var3);
-            var3 = 15;
+            var3 = 16;
             var5 = var9[var3];
             var13 = var8.bind(var4)(var5);
             var12 = var13.useStateFromStores;
@@ -325,18 +349,18 @@ case 2:
             var7 = new Array(1);
             var7[0] = var5;
             var5 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = _closure2_slot2;
                     var1 = null;
                     var3 = var1 != var3;
-                    if(!var3) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+                    if(!var3) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                     var4 = _closure1_slot9;
                     var3 = var4.getInvite;
                     var2 = _closure2_slot2;
                     var1 = var3.bind(var4)(var2);
-case 16:
+case 17:
                     return var1;
                 }
             };
@@ -345,7 +369,7 @@ case 16:
             var22 = null;
             var30 = var7.bind(var10)(var22);
             var _closure2_slot3 = var30;
-            var7 = 16;
+            var7 = 17;
             var7 = var9[var7];
             var10 = var8.bind(var4)(var7);
             var7 = var10.usePasswordRegistrationStep;
@@ -356,7 +380,7 @@ case 16:
             var23 = var7.preventSubmitPassword;
             var7 = var7.validatePassword;
             var _closure2_slot4 = var7;
-            var7 = 17;
+            var7 = 18;
             var7 = var9[var7];
             var9 = var8.bind(var4)(var7);
             var8 = var9.useUsernameRegistrationStep;
@@ -381,10 +405,10 @@ case 16:
             var7[var6] = var29;
             var8 = var22 == var5;
             var6 = undefined;
-            if(var8) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(var8) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var6 = var5.code;
-case 18:
+case 19:
             var5 = 'invite';
             var7[var5] = var6;
             var _closure2_slot7 = var7;
@@ -403,7 +427,7 @@ case 18:
                 return var1;
             };
             var8 = var9.bind(var10)(var8, var3);
-            var3 = 18;
+            var3 = 19;
             var3 = var6[var3];
             var6 = var5.bind(var4)(var3);
             var5 = var6.hasAllRegistrationFieldsCompleted;
@@ -415,7 +439,7 @@ case 18:
             var _closure2_slot8 = var18;
             var8 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var7 = 19;
+            var7 = 20;
             var5 = var3[var7];
             var5 = var8.bind(var4)(var5);
             var6 = var5.intl;
@@ -423,22 +447,22 @@ case 18:
             var3 = var3[var7];
             var3 = var8.bind(var4)(var3);
             var3 = var3.t;
-            if(var18) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(var18) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var8 = var3.PDTjLN;
             var25 = var5.bind(var6)(var8);
-            _fun0001_ip = 22; continue _fun0001;
-case 20:
+            _fun0002_ip = 23; continue _fun0002;
+case 21:
             var3 = var3.825cFy;
             var25 = var5.bind(var6)(var3);
-case 22:
+case 23:
             var13 = _closure1_slot1;
             var31 = _closure1_slot2;
-            var3 = 20;
+            var3 = 21;
             var3 = var31[var3];
             var6 = var13.bind(var4)(var3);
             var15 = _closure1_slot0;
-            var3 = 21;
+            var3 = 22;
             var3 = var31[var3];
             var9 = var15.bind(var4)(var3);
             var8 = var9.getPreviousRegistrationTransitionStep;
@@ -446,7 +470,7 @@ case 22:
             var5 = var3.REGISTER_ACCOUNT_INFORMATION;
             var5 = var8.bind(var9)(var5);
             var5 = var6.bind(var4)(var5);
-            var5 = 22;
+            var5 = 23;
             var5 = var31[var5];
             var5 = var13.bind(var4)(var5);
             var3 = var3.REGISTER_ACCOUNT_INFORMATION;
@@ -471,16 +495,16 @@ case 22:
             var2 = var6.bind(var5)(var2, var3);
             var3 = var5.useCallback;
             var2 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot3;
                     var2 = var1.current;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+                    if(!(var1 != var2)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
                     var1 = var2.focus;
                     var1 = var1.bind(var2)();
-case 23:
+case 24:
                     var1 = undefined;
                     return var1;
                 }
@@ -488,13 +512,13 @@ case 23:
             var1 = new Array(0);
             var34 = var3.bind(var5)(var2, var1);
             var3 = _closure1_slot17;
-            var1 = 23;
+            var1 = 24;
             var1 = var31[var1];
             var2 = var13.bind(var4)(var1);
             var1 = {};
             var5 = var21.page;
             var1['style'] = var5;
-            var5 = 24;
+            var5 = 25;
             var5 = var31[var5];
             var6 = var13.bind(var4)(var5);
             var5 = {};
@@ -520,7 +544,7 @@ case 23:
             var10 = {};
             var12 = var21.container;
             var10['style'] = var12;
-            var12 = 25;
+            var12 = 26;
             var12 = var31[var12];
             var12 = var15.bind(var4)(var12);
             var14 = var12.RegisterUsernameInput;
@@ -547,7 +571,7 @@ case 23:
             var37 = _closure1_slot20;
             var38 = var12;
             var14 = copyDataProperties(var38, var37);
-            var14 = 26;
+            var14 = 27;
             var14 = var31[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.RegisterPasswordInput;
@@ -558,10 +582,10 @@ case 23:
             var14['onSubmitEditing'] = var24;
             var14['passwordScore'] = var16;
             var16 = 'next';
-            if(!var18) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+            if(!var18) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var16 = 'done';
-case 25:
+case 26:
             var14['returnKeyType'] = var16;
             var14 = var3.bind(var4)(var15, var14);
             var15 = 'children';
@@ -582,24 +606,24 @@ case 25:
             var14 = copyDataProperties(var38, var37);
             var18 = _closure1_slot17;
             var16 = _closure1_slot0;
-            var14 = 27;
+            var14 = 28;
             var14 = var28[var14];
             var14 = var16.bind(var4)(var14);
             var16 = var14.Button;
             var14 = {};
             var28 = 'lg';
             var14['size'] = var28;
-            if(var26) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+            if(var26) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var26 = var27;
-case 27:
+case 28:
             var14['loading'] = var26;
             var14['text'] = var25;
             var14['onPress'] = var24;
-            if(var19) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+            if(var19) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var19 = var23;
-case 29:
+case 30:
             var14['disabled'] = var19;
             var16 = var18.bind(var4)(var16, var14);
             var14 = new Array(2);
@@ -607,17 +631,17 @@ case 29:
             var16 = var20.message;
             var18 = var22 != var16;
             var16 = null;
-            if(!var18) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(!var18) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var19 = var20.message;
             var18 = '';
             var16 = null;
-            if(!(var18 !== var19)) { _fun0001_ip = 31; continue _fun0001 }
-case 33:
+            if(!(var18 !== var19)) { _fun0002_ip = 32; continue _fun0002 }
+case 34:
             var19 = _closure1_slot17;
             var18 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var17 = 28;
+            var17 = 29;
             var17 = var22[var17];
             var18 = var18.bind(var4)(var17);
             var17 = {};
@@ -626,7 +650,7 @@ case 33:
             var20 = var20.message;
             var17['children'] = var20;
             var16 = var19.bind(var4)(var18, var17);
-case 31:
+case 32:
             var14[1] = var16;
             var11[var15] = var14;
             var11 = var13.bind(var4)(var12, var11);

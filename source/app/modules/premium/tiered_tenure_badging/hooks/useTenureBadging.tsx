@@ -380,8 +380,8 @@ case 0:
             var4 = _closure1_slot2;
             var1 = 4;
             var1 = var4[var1];
-            var8 = undefined;
-            var5 = var2.bind(var8)(var1);
+            var6 = undefined;
+            var5 = var2.bind(var6)(var1);
             var4 = var5.useStateFromStores;
             var1 = _closure1_slot4;
             var2 = new Array(1);
@@ -395,76 +395,45 @@ case 0:
             var5 = var4.bind(var5)(var2, var1);
             var4 = _closure1_slot11;
             var1 = null;
-            var6 = var1 == var5;
+            var7 = var1 == var5;
             var2 = undefined;
-            if(var6) { _fun0009_ip = 28; continue _fun0009 }
+            if(var7) { _fun0009_ip = 28; continue _fun0009 }
 case 29:
             var2 = var5.id;
 case 28:
-            var4 = var4.bind(var8)(var2);
+            var4 = var4.bind(var6)(var2);
             var2 = _closure1_slot10;
-            var5 = var2.bind(var8)();
+            var5 = var2.bind(var6)();
             var2 = _closure1_slot13;
-            var10 = var2.bind(var8)();
-            var2 = global;
-            var7 = var2.Object;
-            var6 = var7.values;
-            var2 = _closure1_slot7;
-            var6 = var6.bind(var7)(var2);
-            var7 = var1 == var10;
-            var2 = null;
-            if(var7) { _fun0009_ip = 30; continue _fun0009 }
+            var2 = var2.bind(var6)();
+            if(!(var1 == var4)) { _fun0009_ip = 30; continue _fun0009 }
 case 31:
-            var7 = var1 == var6;
-            var2 = null;
-            if(var7) { _fun0009_ip = 30; continue _fun0009 }
-case 32:
-            var9 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var7 = 7;
-            var7 = var11[var7];
-            var7 = var9.bind(var8)(var7);
-            var9 = var7.bind(var8)();
-            var8 = var9.diff;
-            var7 = 'days';
-            var9 = var8.bind(var9)(var10, var7);
-            var7 = 0;
-            var8 = var6[var7];
-            var10 = var8.tenureReqNumMonths;
-            var6 = 30;
-            var6 = var6 * var10;
-            var9 = var6 - var9;
-            var6 = null;
-            if(!(!(var9 <= var7))) { _fun0009_ip = 33; continue _fun0009 }
-case 34:
-            var7 = {};
-            var13 = var7;
-            var12 = var8;
-            var8 = copyDataProperties(var13, var12);
-            var8 = 'daysLeft';
-            var7[var8] = var9;
-            var8 = _closure1_slot8;
-            var9 = var8.UPCOMING;
-            var8 = 'status';
-            var7[var8] = var9;
-            var6 = var7;
-case 33:
-            var2 = var6;
-case 30:
-            if(!(var1 == var4)) { _fun0009_ip = 35; continue _fun0009 }
-case 36:
-            var6 = var1 != var2;
+            var2 = var1 != var2;
             var1 = null;
-            if(!var6) { _fun0009_ip = 37; continue _fun0009 }
-case 38:
-            var1 = var2;
-case 37:
-            _fun0009_ip = 39; continue _fun0009;
-case 35:
+            if(!var2) { _fun0009_ip = 12; continue _fun0009 }
+case 32:
             var2 = {};
-            var13 = var2;
-            var12 = var4;
-            var4 = copyDataProperties(var13, var12);
+            var6 = global;
+            var8 = var6.Object;
+            var7 = var8.values;
+            var6 = _closure1_slot7;
+            var7 = var7.bind(var8)(var6);
+            var6 = 0;
+            var9 = var7[var6];
+            var10 = var2;
+            var6 = copyDataProperties(var10, var9);
+            var6 = _closure1_slot8;
+            var7 = var6.UPCOMING;
+            var6 = 'status';
+            var2[var6] = var7;
+            var1 = var2;
+case 12:
+            _fun0009_ip = 33; continue _fun0009;
+case 30:
+            var2 = {};
+            var10 = var2;
+            var9 = var4;
+            var4 = copyDataProperties(var10, var9);
             var4 = 'earnedOnDate';
             var2[var4] = var5;
             var3 = _closure1_slot8;
@@ -472,7 +441,7 @@ case 35:
             var3 = 'status';
             var2[var3] = var4;
             var1 = var2;
-case 39:
+case 33:
             return var1;
         }
     };

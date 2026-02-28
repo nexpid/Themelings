@@ -913,7 +913,7 @@ case 74:
         var3 = var1.pathname;
         var2 = var3.startsWith;
         var1 = _closure1_slot8;
-        var1 = var1.QUEST_HOME;
+        var1 = var1.QUEST_HOME_DEPRECATED;
         var1 = var2.bind(var3)(var1);
         return var1;
     };

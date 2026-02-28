@@ -81,7 +81,7 @@ case 2:
         var8 = 4;
         var8 = var7[var8];
         var10 = var4.bind(var6)(var8);
-        var9 = var10.useStateFromStores;
+        var9 = var10.useStateFromStoresArray;
         var3 = _closure1_slot4;
         var8 = new Array(1);
         var8[0] = var3;

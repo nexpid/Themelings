@@ -456,8 +456,10 @@ case 17:
             var11['style'] = var15;
             if(var14) { _fun0005_ip = 18; continue _fun0005 }
 case 19:
+            if(var20) { _fun0005_ip = 18; continue _fun0005 }
+case 20:
             var15 = null;
-            if(!var20) { _fun0005_ip = 20; continue _fun0005 }
+            if(!var21) { _fun0005_ip = 21; continue _fun0005 }
 case 18:
             var17 = _closure1_slot7;
             var27 = _closure1_slot0;
@@ -482,9 +484,11 @@ case 18:
             var14['accessibilityLabel'] = var24;
             var24 = _closure1_slot11;
             var14['onPress'] = var24;
-            var26 = _closure1_slot7;
-            if(var20) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+            if(var20) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
+            if(var21) { _fun0005_ip = 22; continue _fun0005 }
+case 24:
+            var25 = _closure1_slot7;
             var24 = _closure1_slot0;
             var28 = _closure1_slot2;
             var20 = 17;
@@ -493,17 +497,18 @@ case 22:
             var24 = var20.XSmallIcon;
             var20 = {};
             var27 = _closure1_slot1;
-            var25 = 6;
-            var25 = var28[var25];
-            var25 = var27.bind(var4)(var25);
-            var25 = var25.colors;
-            var25 = var25.INTERACTIVE_TEXT_DEFAULT;
-            var20['color'] = var25;
-            var20 = var26.bind(var4)(var24, var20);
-            _fun0005_ip = 23; continue _fun0005;
-case 21:
-            if(var21) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            var26 = 6;
+            var26 = var28[var26];
+            var26 = var27.bind(var4)(var26);
+            var26 = var26.colors;
+            var26 = var26.INTERACTIVE_TEXT_DEFAULT;
+            var20['color'] = var26;
+            var20 = var25.bind(var4)(var24, var20);
+            _fun0005_ip = 25; continue _fun0005;
+case 22:
+            var26 = _closure1_slot7;
+            if(var21) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
             var24 = _closure1_slot0;
             var28 = _closure1_slot2;
             var21 = 16;
@@ -519,8 +524,8 @@ case 25:
             var25 = var25.INTERACTIVE_TEXT_DEFAULT;
             var21['color'] = var25;
             var21 = var26.bind(var4)(var24, var21);
-            _fun0005_ip = 26; continue _fun0005;
-case 24:
+            _fun0005_ip = 28; continue _fun0005;
+case 26:
             var25 = _closure1_slot1;
             var27 = _closure1_slot2;
             var24 = 15;
@@ -528,12 +533,12 @@ case 24:
             var25 = var25.bind(var4)(var24);
             var24 = {};
             var21 = var26.bind(var4)(var25, var24);
-case 26:
+case 28:
             var20 = var21;
-case 23:
+case 25:
             var14['children'] = var20;
             var15 = var17.bind(var4)(var16, var14);
-case 20:
+case 21:
             var14 = new Array(3);
             var14[0] = var15;
             var17 = _closure1_slot7;
@@ -565,8 +570,8 @@ case 20:
             var20 = var9.actionButtons;
             var15['style'] = var20;
             var19 = null;
-            if(!var18) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+            if(!var18) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var21 = _closure1_slot7;
             var20 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -577,7 +582,7 @@ case 28:
             var18['ref'] = var23;
             var18['onOpen'] = var22;
             var19 = var21.bind(var4)(var20, var18);
-case 27:
+case 29:
             var18 = new Array(2);
             var18[0] = var19;
             var21 = _closure1_slot7;

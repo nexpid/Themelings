@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot21 = var2;
+            _closure1_slot22 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = function updateGiftCode(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -54,10 +54,10 @@ case 0:
             var2 = arg1;
             var6 = var3.bind(var4)(var2);
             var4 = var6.code;
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = var3.has;
             var5 = var2.bind(var3)(var4);
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = var3.set;
             if(var5) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -78,13 +78,13 @@ case 3:
             var11 = var8;
             var5 = new var11[var5](var10);
             var8 = var5 instanceof Object ? var5 : var8;
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot12;
             var5[var4] = var8;
-            var5 = _closure1_slot23;
+            var5 = _closure1_slot24;
             var5 = var5.bind(var7)(var4);
             _fun0002_ip = 8; continue _fun0002;
 case 6:
-            var5 = _closure1_slot12;
+            var5 = _closure1_slot13;
             var1 = var5.get;
             var5 = var1.bind(var5)(var4);
             var1 = var5.merge;
@@ -95,13 +95,13 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = function checkGiftCodeExpiry(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg1;
             var _closure2_slot0 = var3;
-            var5 = _closure1_slot12;
+            var5 = _closure1_slot13;
             var2 = var5.get;
             var2 = var2.bind(var5)(var3);
             var5 = null;
@@ -126,7 +126,7 @@ case 11:
             var6 = 0;
             if(!(!(var10 <= var6))) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-            var6 = _closure1_slot11;
+            var6 = _closure1_slot12;
             var7 = var6[var3];
             if(!(var5 != var7)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
@@ -134,10 +134,10 @@ case 15:
             var5 = global;
             var9 = var5.Math;
             var8 = var9.min;
-            var5 = 2147483647;
+            var5 = _closure1_slot10;
             var5 = var8.bind(var9)(var5, var10);
             var4 = function() {
-                var3 = _closure1_slot23;
+                var3 = _closure1_slot24;
                 var2 = _closure2_slot0;
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -148,12 +148,12 @@ case 15:
 case 14:
             return var2;
 case 12:
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot13;
             var2 = var4.delete;
             var2 = var2.bind(var4)(var3);
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var2 = delete var2[var3];
-            var2 = _closure1_slot20;
+            var2 = _closure1_slot21;
             var1 = var2.emitChange;
             var1 = var1.bind(var2)();
 case 9:
@@ -161,7 +161,7 @@ case 9:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot24 = var1;
     var1 = function resolveMessageGiftCodes(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -174,7 +174,7 @@ case 17:
 case 16:
             if(!var1) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot20;
             var2 = var3.has;
             var1 = var6.channel_id;
             var1 = var2.bind(var3)(var1);
@@ -235,18 +235,18 @@ case 31:
 case 0:
                     var4 = arg1;
                     var _closure3_slot0 = var4;
-                    var5 = _closure1_slot13;
+                    var5 = _closure1_slot14;
                     var3 = var5.includes;
                     var3 = var3.bind(var5)(var4);
                     if(var3) { _fun0005_ip = 32; continue _fun0005 }
 case 33:
-                    var6 = _closure1_slot15;
+                    var6 = _closure1_slot16;
                     var5 = var6.includes;
                     var3 = var5.bind(var6)(var4);
 case 32:
                     if(var3) { _fun0005_ip = 34; continue _fun0005 }
 case 18:
-                    var5 = _closure1_slot25;
+                    var5 = _closure1_slot26;
                     var3 = {};
                     var3['code'] = var4;
                     var4 = undefined;
@@ -270,7 +270,7 @@ case 18:
                         var2 = true;
                         var3 = var5.bind(var6)(var4, var3, var2);
                         var2 = var3.catch;
-                        var1 = _closure1_slot10;
+                        var1 = _closure1_slot11;
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
@@ -286,18 +286,18 @@ case 30:
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var12 = function handleGiftCodeResolve(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.code;
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot14;
             var1 = var4.includes;
             var1 = var1.bind(var4)(var3);
             if(var1) { _fun0006_ip = 35; continue _fun0006 }
 case 36:
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot14;
             var1 = new Array(1);
             var6 = 0;
             var8 = var1;
@@ -305,17 +305,17 @@ case 36:
             var1[var4] = var3;
             var3 = 1;
             var3 = var4 + var3;
-            _closure1_slot13 = var1;
+            _closure1_slot14 = var1;
 case 35:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot25 = var12;
+    var _closure1_slot26 = var12;
     var11 = function handleMessage(arg1) {
         var1 = arg1;
         var4 = var1.message;
-        var3 = _closure1_slot24;
+        var3 = _closure1_slot25;
         var2 = undefined;
         var1 = true;
         var1 = var3.bind(var2)(var4, var1);
@@ -326,12 +326,12 @@ case 35:
         var1 = arg1;
         var4 = var1.channelId;
         var3 = var1.messages;
-        var2 = _closure1_slot19;
+        var2 = _closure1_slot20;
         var1 = var2.add;
         var1 = var1.bind(var2)(var4);
         var2 = var3.forEach;
         var1 = function(arg1) {
-            var4 = _closure1_slot24;
+            var4 = _closure1_slot25;
             var3 = undefined;
             var2 = arg1;
             var1 = true;
@@ -355,7 +355,7 @@ case 38:
 case 40:
             var2 = var3.forEach;
             var1 = function(arg1) {
-                var3 = _closure1_slot24;
+                var3 = _closure1_slot25;
                 var2 = undefined;
                 var1 = arg1;
                 var1 = var3.bind(var2)(var1);
@@ -409,41 +409,43 @@ case 37:
     var9 = var5.bind(var1)(var9);
     var13 = var9.AbortCodes;
     var _closure1_slot9 = var13;
+    var13 = var9.MAX_TIMEOUT_MS;
+    var _closure1_slot10 = var13;
     var9 = var9.NOOP_NULL;
-    var _closure1_slot10 = var9;
-    var9 = {};
     var _closure1_slot11 = var9;
+    var9 = {};
+    var _closure1_slot12 = var9;
     var9 = var2.Map;
     var13 = var9.prototype;
     var13 = Object.create(var13, {constructor: {value: var9}});
     var18 = var13;
     var9 = new var18[var9](var17);
     var9 = var9 instanceof Object ? var9 : var13;
-    var _closure1_slot12 = var9;
-    var9 = new Array(0);
     var _closure1_slot13 = var9;
     var9 = new Array(0);
     var _closure1_slot14 = var9;
     var9 = new Array(0);
     var _closure1_slot15 = var9;
+    var9 = new Array(0);
+    var _closure1_slot16 = var9;
     var9 = var2.Set;
     var13 = var9.prototype;
     var13 = Object.create(var13, {constructor: {value: var9}});
     var18 = var13;
     var9 = new var18[var9](var17);
     var9 = var9 instanceof Object ? var9 : var13;
-    var _closure1_slot16 = var9;
-    var9 = {};
     var _closure1_slot17 = var9;
     var9 = {};
     var _closure1_slot18 = var9;
+    var9 = {};
+    var _closure1_slot19 = var9;
     var2 = var2.Set;
     var9 = var2.prototype;
     var9 = Object.create(var9, {constructor: {value: var2}});
     var18 = var9;
     var2 = new var18[var2](var17);
     var2 = var2 instanceof Object ? var2 : var9;
-    var _closure1_slot19 = var2;
+    var _closure1_slot20 = var2;
     var2 = 12;
     var2 = var6[var2];
     var2 = var8.bind(var1)(var2);
@@ -461,7 +463,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot21;
+                var1 = _closure1_slot22;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0008_ip = 41; continue _fun0008 }
 case 42:
@@ -496,7 +498,7 @@ case 43:
         var1 = function value(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot13;
                 var2 = var3.get;
                 var1 = arg1;
                 var2 = var2.bind(var3)(var1);
@@ -529,7 +531,7 @@ case 0:
                 var2 = var1 != var3;
                 if(!var2) { _fun0010_ip = 46; continue _fun0010 }
 case 17:
-                var2 = _closure1_slot18;
+                var2 = _closure1_slot19;
                 var1 = var2[var3];
 case 46:
                 return var1;
@@ -550,7 +552,7 @@ case 46:
             var2 = global;
             var4 = var2.Array;
             var3 = var4.from;
-            var5 = _closure1_slot12;
+            var5 = _closure1_slot13;
             var2 = var5.values;
             var2 = var2.bind(var5)();
             var3 = var3.bind(var4)(var2);
@@ -599,7 +601,7 @@ case 50:
         var7 = 'getIsResolving';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot14;
             var2 = var3.includes;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
@@ -611,7 +613,7 @@ case 50:
         var7 = 'getIsResolved';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot16;
             var2 = var3.includes;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
@@ -623,7 +625,7 @@ case 50:
         var7 = 'getIsAccepting';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot15;
             var2 = var3.includes;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
@@ -635,7 +637,7 @@ case 50:
         var7 = 'getUserGiftCodesFetchingForSKUAndPlan';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot17;
             var2 = var3.has;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -656,7 +658,7 @@ case 50:
         var7 = 'getUserGiftCodesLoadedAtForSKUAndPlan';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot18;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -676,7 +678,7 @@ case 50:
         var7 = 'getResolvingCodes';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot14;
             return var1;
         };
         var5['value'] = var7;
@@ -685,7 +687,7 @@ case 50:
         var7 = 'getResolvedCodes';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot16;
             return var1;
         };
         var5['value'] = var7;
@@ -694,7 +696,7 @@ case 50:
         var7 = 'getAcceptingCodes';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot15;
             return var1;
         };
         var5['value'] = var6;
@@ -710,7 +712,7 @@ case 50:
     var17 = var8.bind(var1)(var2);
     var2 = {};
     var13 = function handleConnectionOpen() {
-        var2 = _closure1_slot19;
+        var2 = _closure1_slot20;
         var1 = var2.clear;
         var1 = var1.bind(var2)();
         var1 = false;
@@ -725,7 +727,7 @@ case 0:
             var1 = null;
             if(!(var1 != var3)) { _fun0012_ip = 45; continue _fun0012 }
 case 16:
-            var2 = _closure1_slot19;
+            var2 = _closure1_slot20;
             var1 = var2.add;
             var1 = var1.bind(var2)(var3);
 case 45:
@@ -741,7 +743,7 @@ case 0:
             var1 = arg1;
             var3 = var1.giftCode;
             var _closure2_slot0 = var3;
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot14;
             var4 = var5.filter;
             var2 = function(arg1) {
                 var1 = _closure2_slot0;
@@ -751,14 +753,14 @@ case 0:
                 return var1;
             };
             var2 = var4.bind(var5)(var2);
-            _closure1_slot13 = var2;
-            var5 = _closure1_slot15;
+            _closure1_slot14 = var2;
+            var5 = _closure1_slot16;
             var4 = var5.includes;
             var2 = var3.code;
             var2 = var4.bind(var5)(var2);
             if(var2) { _fun0013_ip = 51; continue _fun0013 }
 case 52:
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot16;
             var2 = new Array(1);
             var6 = 0;
             var8 = var2;
@@ -767,9 +769,9 @@ case 52:
             var2[var5] = var4;
             var4 = 1;
             var4 = var5 + var4;
-            _closure1_slot15 = var2;
+            _closure1_slot16 = var2;
 case 51:
-            var2 = _closure1_slot22;
+            var2 = _closure1_slot23;
             var1 = undefined;
             var2 = var2.bind(var1)(var3);
             return var1;
@@ -782,7 +784,7 @@ case 0:
             var2 = arg1;
             var3 = var2.code;
             var _closure2_slot0 = var3;
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot14;
             var4 = var5.filter;
             var1 = function(arg1) {
                 var2 = _closure2_slot0;
@@ -791,13 +793,13 @@ case 0:
                 return var1;
             };
             var1 = var4.bind(var5)(var1);
-            _closure1_slot13 = var1;
-            var4 = _closure1_slot15;
+            _closure1_slot14 = var1;
+            var4 = _closure1_slot16;
             var1 = var4.includes;
             var1 = var1.bind(var4)(var3);
             if(var1) { _fun0014_ip = 53; continue _fun0014 }
 case 54:
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot16;
             var1 = new Array(1);
             var6 = 0;
             var8 = var1;
@@ -805,7 +807,7 @@ case 54:
             var1[var4] = var3;
             var3 = 1;
             var3 = var4 + var3;
-            _closure1_slot15 = var1;
+            _closure1_slot16 = var1;
 case 53:
             var1 = undefined;
             return var1;
@@ -817,12 +819,12 @@ case 53:
 case 0:
             var1 = arg1;
             var3 = var1.code;
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot15;
             var1 = var4.includes;
             var1 = var1.bind(var4)(var3);
             if(var1) { _fun0015_ip = 35; continue _fun0015 }
 case 36:
-            var7 = _closure1_slot14;
+            var7 = _closure1_slot15;
             var1 = new Array(1);
             var6 = 0;
             var8 = var1;
@@ -830,7 +832,7 @@ case 36:
             var1[var4] = var3;
             var3 = 1;
             var3 = var4 + var3;
-            _closure1_slot14 = var1;
+            _closure1_slot15 = var1;
 case 35:
             var1 = undefined;
             return var1;
@@ -843,7 +845,7 @@ case 0:
             var1 = arg1;
             var4 = var1.code;
             var _closure2_slot0 = var4;
-            var5 = _closure1_slot14;
+            var5 = _closure1_slot15;
             var3 = var5.filter;
             var2 = function(arg1) {
                 var2 = _closure2_slot0;
@@ -852,14 +854,14 @@ case 0:
                 return var1;
             };
             var2 = var3.bind(var5)(var2);
-            _closure1_slot14 = var2;
-            var3 = _closure1_slot12;
+            _closure1_slot15 = var2;
+            var3 = _closure1_slot13;
             var2 = var3.get;
             var6 = var2.bind(var3)(var4);
             var2 = null;
             if(!(var2 != var6)) { _fun0016_ip = 55; continue _fun0016 }
 case 56:
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = var3.set;
             var5 = var6.merge;
             var1 = {};
@@ -884,7 +886,7 @@ case 0:
             var4 = var1.code;
             var _closure2_slot0 = var4;
             var2 = var1.error;
-            var6 = _closure1_slot14;
+            var6 = _closure1_slot15;
             var5 = var6.filter;
             var3 = function(arg1) {
                 var2 = _closure2_slot0;
@@ -893,11 +895,11 @@ case 0:
                 return var1;
             };
             var3 = var5.bind(var6)(var3);
-            _closure1_slot14 = var3;
-            var5 = _closure1_slot12;
+            _closure1_slot15 = var3;
+            var5 = _closure1_slot13;
             var3 = var5.get;
             var7 = var3.bind(var5)(var4);
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot19;
             var3[var4] = var2;
             var3 = null;
             if(!(var3 != var7)) { _fun0017_ip = 57; continue _fun0017 }
@@ -911,7 +913,7 @@ case 59:
             var2 = var2.INVALID_GIFT_REDEMPTION_EXHAUSTED;
             if(!(var2 === var3)) { _fun0017_ip = 57; continue _fun0017 }
 case 22:
-            var5 = _closure1_slot12;
+            var5 = _closure1_slot13;
             var3 = var5.set;
             var8 = var7.set;
             var6 = var7.maxUses;
@@ -920,7 +922,7 @@ case 22:
             var2 = var3.bind(var5)(var4, var2);
             _fun0017_ip = 57; continue _fun0017;
 case 27:
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = var3.set;
             var6 = var7.set;
             var5 = 'revoked';
@@ -938,25 +940,25 @@ case 57:
 case 0:
             var1 = arg1;
             var3 = var1.code;
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot13;
             var1 = var4.delete;
             var1 = var1.bind(var4)(var3);
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var4 = var1[var3];
             var1 = null;
             if(!(var1 != var4)) { _fun0018_ip = 54; continue _fun0018 }
 case 48:
             var1 = var4.stop;
             var1 = var1.bind(var4)();
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var1 = delete var1[var3];
 case 54:
-            var4 = _closure1_slot15;
+            var4 = _closure1_slot16;
             var1 = var4.includes;
             var1 = var1.bind(var4)(var3);
             if(var1) { _fun0018_ip = 60; continue _fun0018 }
 case 4:
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot16;
             var1 = new Array(1);
             var6 = 0;
             var8 = var1;
@@ -964,7 +966,7 @@ case 4:
             var1[var4] = var3;
             var3 = 1;
             var3 = var4 + var3;
-            _closure1_slot15 = var1;
+            _closure1_slot16 = var1;
 case 60:
             var1 = undefined;
             return var1;
@@ -974,7 +976,7 @@ case 60:
     var12 = function handleGiftCodeCreate(arg1) {
         var1 = arg1;
         var3 = var1.giftCode;
-        var2 = _closure1_slot22;
+        var2 = _closure1_slot23;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -984,7 +986,7 @@ case 60:
         var1 = arg1;
         var7 = var1.skuId;
         var6 = var1.subscriptionPlanId;
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot17;
         var3 = var4.add;
         var5 = _closure1_slot0;
         var2 = _closure1_slot2;
@@ -1004,7 +1006,7 @@ case 60:
         var6 = var1.skuId;
         var5 = var1.subscriptionPlanId;
         var3 = var4.forEach;
-        var1 = _closure1_slot22;
+        var1 = _closure1_slot23;
         var1 = var3.bind(var4)(var1);
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
@@ -1014,13 +1016,13 @@ case 60:
         var4 = var4.bind(var1)(var3);
         var3 = var4.makeComboId;
         var4 = var3.bind(var4)(var6, var5);
-        var5 = _closure1_slot17;
+        var5 = _closure1_slot18;
         var3 = global;
         var6 = var3.Date;
         var3 = var6.now;
         var3 = var3.bind(var6)();
         var5[var4] = var3;
-        var3 = _closure1_slot16;
+        var3 = _closure1_slot17;
         var2 = var3.delete;
         var2 = var2.bind(var3)(var4);
         return var1;
@@ -1030,7 +1032,7 @@ case 60:
         var1 = arg1;
         var7 = var1.skuId;
         var6 = var1.subscriptionPlanId;
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot17;
         var3 = var4.delete;
         var5 = _closure1_slot0;
         var2 = _closure1_slot2;
@@ -1054,7 +1056,7 @@ case 60:
         var3 = var1.messages;
         var2 = var3.forEach;
         var1 = function(arg1) {
-            var3 = _closure1_slot24;
+            var3 = _closure1_slot25;
             var2 = undefined;
             var1 = arg1;
             var1 = var3.bind(var2)(var1);
@@ -1073,7 +1075,7 @@ case 60:
         var1 = function(arg1) {
             var1 = arg1;
             var3 = var1.message;
-            var2 = _closure1_slot24;
+            var2 = _closure1_slot25;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
             var1 = false;
@@ -1096,7 +1098,7 @@ case 60:
                 var3 = arg1;
                 var2 = var3.forEach;
                 var1 = function(arg1) {
-                    var3 = _closure1_slot24;
+                    var3 = _closure1_slot25;
                     var2 = undefined;
                     var1 = arg1;
                     var1 = var3.bind(var2)(var1);
@@ -1122,13 +1124,13 @@ case 0:
             var1 = arg1;
             var9 = var1.uses;
             var4 = var1.code;
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = var3.get;
             var7 = var2.bind(var3)(var4);
             var2 = null;
             if(!(var2 != var7)) { _fun0019_ip = 59; continue _fun0019 }
 case 61:
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = var3.set;
             var6 = var7.set;
             var1 = global;
@@ -1164,7 +1166,7 @@ case 0:
                 var1 = var1 != var4;
                 if(!var1) { _fun0020_ip = 62; continue _fun0020 }
 case 63:
-                var3 = _closure1_slot24;
+                var3 = _closure1_slot25;
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4);
                 var1 = false;
@@ -1183,7 +1185,7 @@ case 62:
     var16 = var2;
     var2 = new var18[var9](var17, var16, var15);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot20 = var2;
+    var _closure1_slot21 = var2;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

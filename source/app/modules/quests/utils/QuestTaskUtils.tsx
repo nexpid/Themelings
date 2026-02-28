@@ -1270,7 +1270,7 @@ case 106:
             return var1;
         }
     };
-    var3['isMobileOnlyQuest'] = var10;
+    var3['isVideoQuestForMobilePlatformOnly'] = var10;
     var10 = function isConsoleQuest(arg1) {
         var3 = _closure1_slot4;
         var2 = undefined;

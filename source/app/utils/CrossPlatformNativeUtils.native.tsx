@@ -10,6 +10,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = '__esModule';
     var2 = var5.bind(var6)(var3, var2, var4);
     var2 = {};
+    var4 = function clearNavigationHistory() {
+        var1 = undefined;
+        return var1;
+    };
+    var2['clearNavigationHistory'] = var4;
     var4 = function flushDNSCache() {
         var1 = undefined;
         return var1;

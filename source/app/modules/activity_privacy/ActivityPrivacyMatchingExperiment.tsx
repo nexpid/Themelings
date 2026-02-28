@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Object;
     var7 = var8.defineProperty;
     var4 = {};
-    var11 = true;
-    var4['value'] = var11;
+    var1 = true;
+    var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
@@ -19,17 +19,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
     var4 = {'name': '2026-02-activity-privacy-matching', 'kind': 'user'};
-    var9 = {};
-    var12 = false;
-    var9['enabled'] = var12;
+    var9 = {'copyChanges': false, 'upsell': false};
     var4['defaultConfig'] = var9;
     var9 = {};
-    var10 = {};
-    var10['enabled'] = var12;
+    var10 = {'copyChanges': false, 'upsell': false};
     var9[0] = var10;
-    var10 = {};
-    var10['enabled'] = var11;
+    var10 = {'copyChanges': true, 'upsell': false};
     var9[1] = var10;
+    var10 = {'copyChanges': true, 'upsell': true};
+    var9[2] = var10;
     var4['variations'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot2 = var4;
@@ -56,15 +54,14 @@ case 0:
             var2 = {};
             var2['location'] = var5;
             var2 = var3.bind(var4)(var2);
-            var2 = var2.enabled;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var2;
+            var1 = var2.copyChanges;
 case 2:
             return var1;
         }
     };
-    var3['useIsInActivityPrivacyUpsellExperiment'] = var4;
+    var3['useIsInActivityPrivacyCopyExperiment'] = var4;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -77,15 +74,15 @@ case 0:
             var3 = var4.bind(var1)(var3);
             var1 = var3.getIsInPrivateProfilesExperiment;
             var1 = var1.bind(var3)(var5);
-            if(var1) { _fun0002_ip = 3; continue _fun0002 }
+            if(var1) { _fun0002_ip = 2; continue _fun0002 }
 case 4:
             var4 = _closure1_slot2;
             var3 = var4.getConfig;
             var2 = {};
             var2['location'] = var5;
             var2 = var3.bind(var4)(var2);
-            var1 = var2.enabled;
-case 3:
+            var1 = var2.upsell;
+case 2:
             return var1;
         }
     };

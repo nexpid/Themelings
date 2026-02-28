@@ -359,110 +359,97 @@ case 66:
             var3 = var3.BRAWLHALLA;
             if(!(var3 !== var4)) { _fun0005_ip = 67; continue _fun0005 }
 case 68:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var1)(var3);
+            var3 = var3.DetectableAppNames;
+            var3 = var3.WUTHERING_WAVES;
+            if(!(var3 !== var4)) { _fun0005_ip = 69; continue _fun0005 }
+case 70:
+            return var1;
+case 69:
+            var1 = {'androidScheme': 'wutheringwaves', 'iosScheme': 'akioversea'};
+            var3 = _closure1_slot9;
+            var1['predicate'] = var3;
             return var1;
 case 67:
-            var1 = {'disabledIOS': true, 'scheme': 'brawlhalla'};
+            var1 = {'androidScheme': 'brawlhalla', 'iosScheme': null};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 65:
-            var1 = {};
-            var3 = 'brawlstars';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'brawlstars', 'iosScheme': 'brawlstars'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 63:
-            var1 = {};
-            var3 = 'monopolygo';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'monopolygo', 'iosScheme': 'monopolygo'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 61:
-            var1 = {};
-            var3 = 'amongus';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'amongus', 'iosScheme': 'amongus'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 59:
-            var1 = {};
-            var3 = 'clashroyale';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'clashroyale', 'iosScheme': 'clashroyale'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 57:
-            var1 = {};
-            var3 = 'pokemontcgp';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'pokemontcgp', 'iosScheme': 'pokemontcgp'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 55:
-            var1 = {};
-            var3 = 'pokemongo';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'pokemongo', 'iosScheme': 'pokemongo'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 53:
-            var1 = {'disabledIOS': true, 'scheme': 'garenafreefire'};
+            var1 = {'androidScheme': 'garenafreefire', 'iosScheme': 'freefire'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 51:
-            var1 = {};
-            var3 = 'mobilelegends';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'mobilelegends', 'iosScheme': 'mobilelegends'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 49:
-            var1 = {};
-            var3 = 'clashofclans';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'clashofclans', 'iosScheme': 'clashofclans'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 47:
-            var1 = {};
-            var3 = 'codm';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'codm', 'iosScheme': 'codm'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 45:
-            var1 = {'disabledIOS': true, 'scheme': 'pubgmobile'};
+            var1 = {'androidScheme': 'pubgmobile', 'iosScheme': 'igame1320'};
             var3 = _closure1_slot9;
             var1['predicate'] = var3;
             return var1;
 case 43:
-            var1 = {};
-            var3 = 'genshin';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'genshin', 'iosScheme': 'genshin'};
             var3 = _closure1_slot10;
             var1['predicate'] = var3;
             return var1;
 case 41:
-            var1 = {};
-            var3 = 'fortnite';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'fortnite', 'iosScheme': 'com.epicgames.fortnite'};
             var3 = _closure1_slot10;
             var1['predicate'] = var3;
             return var1;
 case 39:
-            var1 = {};
-            var3 = 'minecraft';
-            var1['scheme'] = var3;
+            var1 = {'androidScheme': 'minecraft', 'iosScheme': 'minecraft'};
             var2 = _closure1_slot10;
             var1['predicate'] = var2;
             return var1;
 case 37:
-            var1 = {};
-            var2 = 'roblox';
-            var1['scheme'] = var2;
+            var1 = {'androidScheme': 'roblox', 'iosScheme': 'roblox'};
             return var1;
         }
     };
@@ -477,91 +464,96 @@ case 37:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 69; continue _fun0006 }
-case 70:
+                    if(var2) { _fun0006_ip = 71; continue _fun0006 }
+case 72:
                     var6 = {};
                     var5 = _closure1_slot4;
                     var4 = var5.hasConsented;
                     var3 = _closure1_slot6;
                     var3 = var3.PERSONALIZATION;
                     var3 = var4.bind(var5)(var3);
-                    if(!var3) { _fun0006_ip = 71; continue _fun0006 }
+                    if(!var3) { _fun0006_ip = 73; continue _fun0006 }
 case 2:
                     var4 = _closure1_slot7;
-                    var12 = undefined;
-                    var3 = arg1;
-                    var11 = var4.bind(var12)(var3);
-                    var4 = var11.bind(var12)();
-                    var3 = var4.done;
-                    var10 = false;
-                    var9 = 7;
-                    var8 = 6;
-                    var7 = null;
-                    var5 = 5;
-                    if(var3) { _fun0006_ip = 71; continue _fun0006 }
-case 72:
-                    var3 = var4.value;
-                    var13 = _closure1_slot11;
-                    var18 = var13.bind(var12)(var3);
-                    var14 = _closure1_slot0;
-                    var13 = _closure1_slot2;
-                    var13 = var13[var5];
-                    var14 = var14.bind(var12)(var13);
-                    var13 = var14.isIOS;
-                    var13 = var13.bind(var14)();
-                    if(!var13) { _fun0006_ip = 73; continue _fun0006 }
-case 74:
-                    var13 = var18.disabledIOS;
-                    if(var13) { _fun0006_ip = 75; continue _fun0006 }
-case 73:
-                    var13 = var18.predicate;
-                    var14 = var7 == var13;
                     var13 = undefined;
-                    if(var14) { _fun0006_ip = 17; continue _fun0006 }
-case 76:
-                    var14 = var18.predicate;
-                    var13 = var14.bind(var18)();
-case 17:
-                    if(!(var10 !== var13)) { _fun0006_ip = 75; continue _fun0006 }
-case 77:
+                    var3 = arg1;
+                    var12 = var4.bind(var13)(var3);
+                    var4 = var12.bind(var13)();
+                    var3 = var4.done;
+                    var11 = 7;
+                    var10 = 6;
+                    var9 = false;
+                    var8 = null;
+                    var7 = 5;
+                    var5 = var4;
+                    if(var3) { _fun0006_ip = 73; continue _fun0006 }
+case 74:
+                    var4 = var5.value;
+                    var3 = _closure1_slot11;
+                    var15 = var3.bind(var13)(var4);
                     var14 = _closure1_slot0;
-                    var13 = _closure1_slot2;
-                    var13 = var13[var8];
-                    var15 = var14.bind(var12)(var13);
-                    var14 = var15.canOpenUrlScheme;
-                    var13 = var18.scheme;
-                    var13 = var14.bind(var15)(var13);
-                    SaveGenerator(address=211);
-case 78:
-                    return var13;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var7];
+                    var14 = var14.bind(var13)(var3);
+                    var3 = var14.isIOS;
+                    var3 = var3.bind(var14)();
+                    if(var3) { _fun0006_ip = 75; continue _fun0006 }
+case 76:
+                    var17 = var15.androidScheme;
+                    _fun0006_ip = 77; continue _fun0006;
+case 75:
+                    var17 = var15.iosScheme;
+case 77:
+                    if(!(var8 != var17)) { _fun0006_ip = 78; continue _fun0006 }
 case 79:
-                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=13);
+                    var3 = var15.predicate;
+                    var14 = var8 == var3;
+                    var3 = undefined;
                     if(var14) { _fun0006_ip = 80; continue _fun0006 }
 case 81:
-                    var6[var3] = var13;
-                    var15 = _closure1_slot1;
-                    var14 = _closure1_slot2;
-                    var14 = var14[var9];
-                    var17 = var15.bind(var12)(var14);
-                    var16 = var17.track;
-                    var14 = _closure1_slot5;
-                    var15 = var14.CAN_OPEN_URL_REQUESTED;
-                    var14 = {};
-                    var18 = var18.scheme;
-                    var14['scheme'] = var18;
-                    var14['result'] = var13;
-                    var14 = var16.bind(var17)(var15, var14);
-                    _fun0006_ip = 82; continue _fun0006;
+                    var14 = var15.predicate;
+                    var3 = var14.bind(var15)();
 case 80:
-                    return var13;
-case 75:
-                    var6[var3] = var10;
+                    if(!(var9 === var3)) { _fun0006_ip = 82; continue _fun0006 }
+case 78:
+                    var6[var4] = var9;
+                    _fun0006_ip = 83; continue _fun0006;
 case 82:
-                    var13 = var11.bind(var12)();
-                    var3 = var13.done;
-                    var4 = var13;
-                    if(!var3) { _fun0006_ip = 72; continue _fun0006 }
-case 71:
+                    var14 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var10];
+                    var14 = var14.bind(var13)(var3);
+                    var3 = var14.canOpenUrlScheme;
+                    var3 = var3.bind(var14)(var17);
+                    SaveGenerator(address=220);
+case 84:
+                    return var3;
+case 85:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=13);
+                    if(var14) { _fun0006_ip = 86; continue _fun0006 }
+case 87:
+                    var6[var4] = var3;
+                    var14 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var11];
+                    var16 = var14.bind(var13)(var4);
+                    var15 = var16.track;
+                    var4 = _closure1_slot5;
+                    var14 = var4.CAN_OPEN_URL_REQUESTED;
+                    var4 = {};
+                    var4['scheme'] = var17;
+                    var4['result'] = var3;
+                    var4 = var15.bind(var16)(var14, var4);
+case 83:
+                    var14 = var12.bind(var13)();
+                    var4 = var14.done;
+                    var5 = var14;
+                    if(var4) { _fun0006_ip = 73; continue _fun0006 }
+case 88:
+                    _fun0006_ip = 74; continue _fun0006;
+case 86:
+                    return var3;
+case 73:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 8;
@@ -575,7 +567,7 @@ case 71:
                     var3['result'] = var6;
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 69:
+case 71:
                     return var1;
                 }
             };

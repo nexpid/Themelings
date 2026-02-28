@@ -320,7 +320,7 @@ case 30:
 case 0:
             var1 = arg1;
             var2 = var1.message;
-            var93 = var1.messageForward;
+            var94 = var1.messageForward;
             var13 = var1.roleStyle;
             var12 = var1.isFirst;
             var11 = var1.isEditing;
@@ -341,7 +341,7 @@ case 38:
             var18 = var7.inlineEmbedMedia;
             var16 = var7.inlineAttachmentMedia;
             var79 = var7.constrainedWidth;
-            var89 = var7.ignoreMentioned;
+            var90 = var7.ignoreMentioned;
             var78 = var7.animateEmoji;
             var38 = var7.animatingStickerMessageId;
             var54 = var7.gifAutoPlay;
@@ -434,7 +434,7 @@ case 48:
             var22 = var23.getHasEnhancedRoleColors;
             var73 = var22.bind(var23)(var18, var24);
             var62 = var18;
-            if(!(var17 == var93)) { _fun0003_ip = 50; continue _fun0003 }
+            if(!(var17 == var94)) { _fun0003_ip = 50; continue _fun0003 }
 case 51:
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
@@ -442,12 +442,12 @@ case 51:
             var18 = var23[var18];
             var22 = var22.bind(var5)(var18);
             var18 = var22.maybeCreateSingleForwardForMessage;
-            var93 = var18.bind(var22)(var2);
+            var94 = var18.bind(var22)(var2);
 case 50:
             var39 = var2;
-            if(!(var17 != var93)) { _fun0003_ip = 52; continue _fun0003 }
+            if(!(var17 != var94)) { _fun0003_ip = 52; continue _fun0003 }
 case 53:
-            var18 = var93.messageSnapshot;
+            var18 = var94.messageSnapshot;
             var39 = var18.message;
 case 52:
             var18 = new Array(0);
@@ -546,15 +546,15 @@ case 77:
             var36 = var2.isFirstMessageInForumPost;
             var23 = var36.bind(var2)(var16);
 case 76:
-            r104 = var26;
-            r103 = var2;
-            r102 = var39;
-            r101 = var35;
-            r100 = var6;
-            var100 = var23;
+            r105 = var26;
+            r104 = var2;
+            r103 = var39;
+            r102 = var35;
+            r101 = var6;
+            r100 = var23;
+            var100 = var31;
             var99 = var31;
-            var98 = var31;
-            var22 = r104[var24](r103, r102, r101, r100, var100, var99, var98, var97);
+            var22 = r105[var24](r104, r103, r102, r101, r100, var100, var99, var98);
 case 71:
             var24 = var22.content;
             var35 = var22.hasSpoilerEmbeds;
@@ -616,7 +616,8 @@ case 80:
             var22['channel'] = var21;
             var22['colors'] = var25;
             var22 = var26.bind(var5)(var22);
-            var88 = var22.tagText;
+            var89 = var22.tagText;
+            var88 = var22.tagAccessibilityLabel;
             var87 = var22.tagVerified;
             var86 = var22.tagTextColor;
             var85 = var22.tagBackgroundColor;
@@ -862,10 +863,10 @@ case 111:
             var23 = var2.type;
             var22 = _closure1_slot23;
             var22 = var22.REPLY;
-            var94 = undefined;
+            var95 = undefined;
             if(!(var23 === var22)) { _fun0003_ip = 113; continue _fun0003 }
 case 114:
-            var94 = undefined;
+            var95 = undefined;
             if(!var20) { _fun0003_ip = 113; continue _fun0003 }
 case 115:
             var23 = _closure1_slot12;
@@ -892,7 +893,7 @@ case 121:
             var23 = var23.bind(var5)(var22);
             var22 = var23.assertNever;
             var22 = var22.bind(var23)(var20);
-            var94 = undefined;
+            var95 = undefined;
             _fun0003_ip = 113; continue _fun0003;
 case 120:
             var22 = {};
@@ -912,7 +913,7 @@ case 120:
             var23 = var23.mE3KJN;
             var23 = var29.bind(var31)(var23);
             var22['content'] = var23;
-            var94 = var22;
+            var95 = var22;
             _fun0003_ip = 113; continue _fun0003;
 case 118:
             var22 = {};
@@ -932,7 +933,7 @@ case 118:
             var23 = var23.1i+hMi;
             var23 = var29.bind(var31)(var23);
             var22['content'] = var23;
-            var94 = var22;
+            var95 = var22;
             _fun0003_ip = 113; continue _fun0003;
 case 116:
             var20 = var20.message;
@@ -960,9 +961,9 @@ case 125:
             var22['roleStyle'] = var13;
             var35 = false;
             var31 = {};
-            r103 = var31;
-            r102 = var7;
-            var34 = copyDataProperties(r103, r102);
+            r104 = var31;
+            r103 = var7;
+            var34 = copyDataProperties(r104, r103);
             var34 = 'renderReplies';
             var31[var34] = var35;
             var22['options'] = var31;
@@ -1203,11 +1204,11 @@ case 170:
             var29 = var29.LOADED;
             var20['state'] = var29;
             var20['message'] = var23;
-            var94 = var20;
+            var95 = var20;
             if(!(var17 != var22)) { _fun0003_ip = 113; continue _fun0003 }
 case 172:
             var20['systemContent'] = var22;
-            var94 = var20;
+            var95 = var20;
             _fun0003_ip = 113; continue _fun0003;
 case 126:
             var20 = {};
@@ -1227,7 +1228,7 @@ case 126:
             var22 = var22.1i+hMi;
             var22 = var23.bind(var29)(var22);
             var20['content'] = var22;
-            var94 = var20;
+            var95 = var20;
             _fun0003_ip = 113; continue _fun0003;
 case 124:
             var20 = {};
@@ -1247,7 +1248,7 @@ case 124:
             var22 = var22.G7p6v/;
             var22 = var23.bind(var29)(var22);
             var20['content'] = var22;
-            var94 = var20;
+            var95 = var20;
             _fun0003_ip = 113; continue _fun0003;
 case 122:
             var20 = {};
@@ -1267,19 +1268,19 @@ case 122:
             var22 = var22.XAkOo2;
             var22 = var23.bind(var29)(var22);
             var20['content'] = var22;
-            var94 = var20;
+            var95 = var20;
 case 113:
-            var91 = undefined;
+            var92 = undefined;
             if(!var15) { _fun0003_ip = 173; continue _fun0003 }
 case 174:
             var15 = _closure1_slot29;
-            r104 = undefined;
-            r103 = var2;
-            r102 = var13;
-            r101 = var6;
-            r100 = var16;
-            var100 = var7;
-            var91 = r104[var15](r103, r102, r101, r100, var100, var99);
+            r105 = undefined;
+            r104 = var2;
+            r103 = var13;
+            r102 = var6;
+            r101 = var16;
+            r100 = var7;
+            var92 = r105[var15](r104, r103, r102, r101, r100, var100);
 case 173:
             var20 = _closure1_slot9;
             var15 = var20.getInteraction;
@@ -1555,8 +1556,8 @@ case 214:
 case 213:
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var95 = 61;
-            var1 = var1[var95];
+            var96 = 61;
+            var1 = var1[var96];
             var20 = var4.bind(var5)(var1);
             var15 = var20.shouldDisplayGuildTag;
             var4 = var70.id;
@@ -1574,7 +1575,7 @@ case 215:
 case 218:
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var1 = var1[var95];
+            var1 = var1[var96];
             var26 = var4.bind(var5)(var1);
             var4 = var26.getUserPrimaryGuild;
             var1 = var70.primaryGuild;
@@ -1582,20 +1583,20 @@ case 218:
             var26 = var28.guildId;
             var4 = var28.tag;
             var1 = var28.guildId;
-            var90 = var17 != var1;
+            var91 = var17 != var1;
             var1 = undefined;
-            if(!var90) { _fun0003_ip = 219; continue _fun0003 }
+            if(!var91) { _fun0003_ip = 219; continue _fun0003 }
 case 220:
-            var92 = _closure1_slot0;
-            var90 = _closure1_slot2;
-            var90 = var90[var95];
-            var96 = var92.bind(var5)(var90);
-            var95 = var96.getGuildTagBadgeUrl;
-            var92 = var28.guildId;
-            var90 = var28.badge;
+            var93 = _closure1_slot0;
+            var91 = _closure1_slot2;
+            var91 = var91[var96];
+            var97 = var93.bind(var5)(var91);
+            var96 = var97.getGuildTagBadgeUrl;
+            var93 = var28.guildId;
+            var91 = var28.badge;
             var28 = _closure1_slot27;
             var28 = var28.SIZE_12;
-            var1 = var95.bind(var96)(var92, var90, var28);
+            var1 = var96.bind(var97)(var93, var91, var28);
 case 219:
             var15 = var1;
             var23 = var26;
@@ -1603,8 +1604,8 @@ case 219:
 case 217:
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var96 = 29;
-            var1 = var1[var96];
+            var97 = 29;
+            var1 = var1[var97];
             var28 = var4.bind(var5)(var1);
             var26 = var28.hasFlag;
             var1 = var2;
@@ -1620,11 +1621,11 @@ case 221:
             var1['currentUserId'] = var32;
             var1['message'] = var2;
             var1['theme'] = var19;
-            var95 = var1.currentUserId;
-            var92 = var1.message;
-            var90 = var1.theme;
-            var1 = var92.referralTrialOfferId;
-            var28 = var92.type;
+            var96 = var1.currentUserId;
+            var93 = var1.message;
+            var91 = var1.theme;
+            var1 = var93.referralTrialOfferId;
+            var28 = var93.type;
             var4 = _closure1_slot23;
             var4 = var4.PREMIUM_REFERRAL;
             if(!(var28 === var4)) { _fun0003_ip = 223; continue _fun0003 }
@@ -1633,145 +1634,146 @@ case 224:
 case 225:
             var1 = {};
             var28 = _closure1_slot0;
-            var97 = _closure1_slot2;
+            var98 = _closure1_slot2;
             var4 = 21;
-            var4 = var97[var4];
+            var4 = var98[var4];
             var28 = var28.bind(var5)(var4);
             var4 = var28.createReferralTrialEmbedRedeemable;
-            var4 = var4.bind(var28)(var92, var90, var95);
+            var4 = var4.bind(var28)(var93, var91, var96);
             var1['referralTrialOfferDataUpdated'] = var4;
             _fun0003_ip = 226; continue _fun0003;
 case 223:
             var1 = _closure1_slot28;
 case 226:
             var28 = var1.referralTrialOfferDataUpdated;
-            var92 = _closure1_slot5;
-            var4 = var92.getApplication;
-            var95 = var2.applicationId;
-            var97 = var17 != var95;
-            var90 = '';
-            var1 = var90;
-            if(!var97) { _fun0003_ip = 227; continue _fun0003 }
+            var93 = _closure1_slot5;
+            var4 = var93.getApplication;
+            var96 = var2.applicationId;
+            var98 = var17 != var96;
+            var91 = '';
+            var1 = var91;
+            if(!var98) { _fun0003_ip = 227; continue _fun0003 }
 case 228:
-            var1 = var95;
+            var1 = var96;
 case 227:
-            var1 = var4.bind(var92)(var1);
-            var92 = var17 != var1;
-            if(!var92) { _fun0003_ip = 229; continue _fun0003 }
+            var1 = var4.bind(var93)(var1);
+            var93 = var17 != var1;
+            if(!var93) { _fun0003_ip = 229; continue _fun0003 }
 case 230:
-            var95 = _closure1_slot0;
+            var96 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var4 = var4[var96];
-            var97 = var95.bind(var5)(var4);
-            var96 = var97.hasFlag;
-            var95 = var2.flags;
+            var4 = var4[var97];
+            var98 = var96.bind(var5)(var4);
+            var97 = var98.hasFlag;
+            var96 = var2.flags;
             var4 = _closure1_slot25;
             var4 = var4.SENT_BY_SOCIAL_LAYER_INTEGRATION;
-            var92 = var96.bind(var97)(var95, var4);
+            var93 = var97.bind(var98)(var96, var4);
 case 229:
             var4 = undefined;
-            if(!var92) { _fun0003_ip = 231; continue _fun0003 }
+            if(!var93) { _fun0003_ip = 231; continue _fun0003 }
 case 232:
             var4 = var1.id;
 case 231:
             var1 = {};
-            var92 = var2.id;
-            var1['id'] = var92;
-            var92 = var2.channel_id;
-            var1['channelId'] = var92;
-            var95 = var17 != var62;
-            var92 = undefined;
-            if(!var95) { _fun0003_ip = 233; continue _fun0003 }
+            var93 = var2.id;
+            var1['id'] = var93;
+            var93 = var2.channel_id;
+            var1['channelId'] = var93;
+            var96 = var17 != var62;
+            var93 = undefined;
+            if(!var96) { _fun0003_ip = 233; continue _fun0003 }
 case 234:
-            var92 = var62;
+            var93 = var62;
 case 233:
-            var1['guildId'] = var92;
-            var92 = var2;
+            var1['guildId'] = var93;
+            var93 = var2;
             if(!(var17 != var39)) { _fun0003_ip = 235; continue _fun0003 }
 case 236:
-            var92 = var39;
+            var93 = var39;
 case 235:
-            var92 = var92.flags;
-            var1['flags'] = var92;
-            var92 = var2.type;
-            var1['type'] = var92;
-            var92 = var2.nonce;
-            if(!(var17 != var92)) { _fun0003_ip = 237; continue _fun0003 }
+            var93 = var93.flags;
+            var1['flags'] = var93;
+            var93 = var2.type;
+            var1['type'] = var93;
+            var93 = var2.nonce;
+            if(!(var17 != var93)) { _fun0003_ip = 237; continue _fun0003 }
 case 238:
-            var92 = var2.nonce;
-            var95 = 'string';
-            var92 = typeof var92;
-            if(!(var95 === var92)) { _fun0003_ip = 239; continue _fun0003 }
+            var93 = var2.nonce;
+            var96 = 'string';
+            var93 = typeof var93;
+            if(!(var96 === var93)) { _fun0003_ip = 239; continue _fun0003 }
 case 237:
-            var92 = var2.nonce;
+            var93 = var2.nonce;
             _fun0003_ip = 240; continue _fun0003;
 case 239:
-            var95 = global;
-            var96 = var95.String;
-            var95 = var2.nonce;
-            var92 = var96.bind(var5)(var95);
+            var96 = global;
+            var97 = var96.String;
+            var96 = var2.nonce;
+            var93 = var97.bind(var5)(var96);
 case 240:
-            var1['nonce'] = var92;
-            var92 = var2.state;
-            var1['state'] = var92;
+            var1['nonce'] = var93;
+            var93 = var2.state;
+            var1['state'] = var93;
             var1['reactions'] = var18;
-            var92 = undefined;
+            var93 = undefined;
             if(var50) { _fun0003_ip = 241; continue _fun0003 }
 case 242:
-            var92 = var94;
+            var93 = var95;
 case 241:
-            var1['referencedMessage'] = var92;
-            var1['threadEmbed'] = var91;
-            var92 = var17 != var93;
-            var91 = undefined;
-            if(!var92) { _fun0003_ip = 243; continue _fun0003 }
+            var1['referencedMessage'] = var93;
+            var1['threadEmbed'] = var92;
+            var93 = var17 != var94;
+            var92 = undefined;
+            if(!var93) { _fun0003_ip = 243; continue _fun0003 }
 case 244:
-            var92 = var93.getForwardInfo;
-            var91 = var92.bind(var93)();
+            var93 = var94.getForwardInfo;
+            var92 = var93.bind(var94)();
 case 243:
-            var1['forwardInfo'] = var91;
-            var89 = !var89;
-            if(!var89) { _fun0003_ip = 245; continue _fun0003 }
+            var1['forwardInfo'] = var92;
+            var90 = !var90;
+            if(!var90) { _fun0003_ip = 245; continue _fun0003 }
 case 246:
-            var89 = var2.mentioned;
+            var90 = var2.mentioned;
 case 245:
-            var1['mentioned'] = var89;
-            var89 = var2.isEdited;
-            var91 = var89.bind(var2)();
-            var89 = var90;
-            if(!var91) { _fun0003_ip = 247; continue _fun0003 }
+            var1['mentioned'] = var90;
+            var90 = var2.isEdited;
+            var92 = var90.bind(var2)();
+            var90 = var91;
+            if(!var92) { _fun0003_ip = 247; continue _fun0003 }
 case 248:
-            var89 = var90;
+            var90 = var91;
             if(var50) { _fun0003_ip = 247; continue _fun0003 }
 case 249:
-            var93 = _closure1_slot0;
-            var94 = _closure1_slot2;
-            var90 = 24;
-            var91 = var94[var90];
-            var91 = var93.bind(var5)(var91);
-            var92 = var91.intl;
-            var91 = var92.string;
-            var90 = var94[var90];
-            var90 = var93.bind(var5)(var90);
-            var90 = var90.t;
-            var90 = var90.C8sXIM;
-            var89 = var91.bind(var92)(var90);
+            var94 = _closure1_slot0;
+            var95 = _closure1_slot2;
+            var91 = 24;
+            var92 = var95[var91];
+            var92 = var94.bind(var5)(var92);
+            var93 = var92.intl;
+            var92 = var93.string;
+            var91 = var95[var91];
+            var91 = var94.bind(var5)(var91);
+            var91 = var91.t;
+            var91 = var91.C8sXIM;
+            var90 = var92.bind(var93)(var91);
 case 247:
-            var1['edited'] = var89;
-            var89 = var25.editedColor;
-            var1['editedColor'] = var89;
-            var89 = var2.isUnsupported;
-            if(var89) { _fun0003_ip = 250; continue _fun0003 }
+            var1['edited'] = var90;
+            var90 = var25.editedColor;
+            var1['editedColor'] = var90;
+            var90 = var2.isUnsupported;
+            if(var90) { _fun0003_ip = 250; continue _fun0003 }
 case 251:
-            var89 = var25.textColor;
+            var90 = var25.textColor;
             _fun0003_ip = 252; continue _fun0003;
 case 250:
-            var89 = var25.unsupportedColor;
+            var90 = var25.unsupportedColor;
 case 252:
-            var1['textColor'] = var89;
-            var89 = var25.linkColor;
-            var1['linkColor'] = var89;
-            var1['tagText'] = var88;
+            var1['textColor'] = var90;
+            var90 = var25.linkColor;
+            var1['linkColor'] = var90;
+            var1['tagText'] = var89;
+            var1['tagAccessibilityLabel'] = var88;
             var1['tagVerified'] = var87;
             var1['tagTextColor'] = var86;
             var1['tagBackgroundColor'] = var85;
@@ -1962,13 +1964,13 @@ case 298:
             var53 = var64[var53];
             var64 = var63.bind(var5)(var53);
             var63 = var64.createExecutedCommand;
-            var100 = var25.defaultUsernameColor;
-            r104 = var64;
-            r103 = var2;
-            r102 = var21;
-            r101 = var13;
-            r100 = var19;
-            var51 = r104[var63](r103, r102, r101, r100, var100, var99);
+            r100 = var25.defaultUsernameColor;
+            r105 = var64;
+            r104 = var2;
+            r103 = var21;
+            r102 = var13;
+            r101 = var19;
+            var51 = r105[var63](r104, r103, r102, r101, r100, var100);
 case 297:
             var1['executedCommand'] = var51;
             var51 = var39.components;
@@ -2305,13 +2307,13 @@ case 348:
 case 346:
             var4 = {};
             var15 = _closure1_slot29;
-            r104 = undefined;
-            r103 = var2;
-            r102 = var13;
-            r101 = var6;
-            r100 = var16;
-            var100 = var7;
-            var15 = r104[var15](r103, r102, r101, r100, var100, var99);
+            r105 = undefined;
+            r104 = var2;
+            r103 = var13;
+            r102 = var6;
+            r101 = var16;
+            r100 = var7;
+            var15 = r105[var15](r104, r103, r102, r101, r100, var100);
             var4['threadEmbed'] = var15;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -2324,9 +2326,9 @@ case 346:
             var15['theme'] = var19;
             var15['reactions'] = var18;
             var15['roleStyle'] = var13;
-            r102 = var16.bind(var17)(var15);
-            r103 = var4;
-            var15 = copyDataProperties(r103, r102);
+            r103 = var16.bind(var17)(var15);
+            r104 = var4;
+            var15 = copyDataProperties(r104, r103);
             var1 = var4;
 case 350:
             return var1;
@@ -2342,9 +2344,9 @@ case 60:
             var3['isSystemDM'] = var9;
             var3['isInlineReplyPreview'] = var6;
             var6 = {};
-            r103 = var6;
-            r102 = var7;
-            var7 = copyDataProperties(r103, r102);
+            r104 = var6;
+            r103 = var7;
+            var7 = copyDataProperties(r104, r103);
             var9 = false;
             var7 = 'renderThreadEmbeds';
             var6[var7] = var9;
@@ -2353,9 +2355,9 @@ case 60:
             var7 = 'shouldDisableInteractiveComponents';
             var6[var7] = var8;
             var3['options'] = var6;
-            r102 = var4.bind(var5)(var3);
-            r103 = var1;
-            var3 = copyDataProperties(r103, r102);
+            r103 = var4.bind(var5)(var3);
+            r104 = var1;
+            var3 = copyDataProperties(r104, r103);
             var3 = var2.id;
             var2 = 'id';
             var1[var2] = var3;

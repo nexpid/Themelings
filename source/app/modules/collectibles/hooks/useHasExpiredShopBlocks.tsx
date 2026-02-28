@@ -26,6 +26,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var7;
     var4 = var4.useState;
     var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MAX_TIMEOUT_MS;
+    var _closure1_slot5 = var4;
     var4 = function getNextBlockExpiration(arg1) {
         var4 = arg1;
         var2 = null;
@@ -38,7 +43,7 @@ case 0:
                 var5 = var4.type;
                 var7 = _closure1_slot0;
                 var1 = _closure1_slot1;
-                var6 = 2;
+                var6 = 3;
                 var3 = var1[var6];
                 var1 = undefined;
                 var3 = var7.bind(var1)(var3);
@@ -96,8 +101,8 @@ case 12:
         var1 = _closure2_slot0;
         return var1;
     };
-    var _closure1_slot5 = var4;
-    var4 = 3;
+    var _closure1_slot6 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -132,34 +137,34 @@ case 12:
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var5 = _closure1_slot5;
-                var4 = _closure2_slot0;
+                var6 = _closure1_slot6;
+                var5 = _closure2_slot0;
                 var1 = undefined;
-                var6 = var5.bind(var1)(var4);
-                var4 = _closure2_slot1;
-                if(var4) { _fun0002_ip = 14; continue _fun0002 }
+                var7 = var6.bind(var1)(var5);
+                var5 = _closure2_slot1;
+                if(var5) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-                var4 = _closure2_slot2;
-                if(var4) { _fun0002_ip = 14; continue _fun0002 }
+                var5 = _closure2_slot2;
+                if(var5) { _fun0002_ip = 14; continue _fun0002 }
 case 16:
-                var4 = null;
-                if(!(var4 != var6)) { _fun0002_ip = 14; continue _fun0002 }
+                var5 = null;
+                if(!(var5 != var7)) { _fun0002_ip = 14; continue _fun0002 }
 case 17:
-                var4 = global;
-                var7 = var4.Date;
-                var5 = var7.now;
-                var5 = var5.bind(var7)();
-                var8 = var6 - var5;
-                var5 = 0;
-                if(!(!(var8 <= var5))) { _fun0002_ip = 18; continue _fun0002 }
+                var5 = global;
+                var8 = var5.Date;
+                var6 = var8.now;
+                var6 = var6.bind(var8)();
+                var8 = var7 - var6;
+                var6 = 0;
+                if(!(!(var8 <= var6))) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-                var6 = _closure2_slot3;
-                var5 = false;
-                var5 = var6.bind(var1)(var5);
-                var6 = var4.setTimeout;
-                var7 = var4.Math;
+                var7 = _closure2_slot3;
+                var6 = false;
+                var6 = var7.bind(var1)(var6);
+                var6 = var5.setTimeout;
+                var7 = var5.Math;
                 var5 = var7.min;
-                var4 = 2147483647;
+                var4 = _closure1_slot5;
                 var5 = var5.bind(var7)(var4, var8);
                 var4 = function() {
                     var3 = _closure2_slot3;

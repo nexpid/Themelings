@@ -634,14 +634,14 @@ case 0:
             var2 = var1.channel;
             var5 = var1.isSmallSize;
             var3 = _closure1_slot1;
-            var1 = _closure1_slot3;
-            var11 = 23;
-            var1 = var1[var11];
+            var4 = _closure1_slot3;
+            var1 = 23;
+            var1 = var4[var1];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
             var1 = var1.bind(var4)(var2);
             var8 = var1.isActive;
-            var3 = var1.onPress;
+            var6 = var1.onPress;
             var9 = var1.imgSource;
             var10 = var1.isFeatureEnabled;
             if(var10) { _fun0011_ip = 50; continue _fun0011 }
@@ -650,15 +650,7 @@ case 51:
                 var1 = undefined;
                 return var1;
             };
-            _fun0011_ip = 52; continue _fun0011;
 case 50:
-            var2 = _closure1_slot0;
-            var1 = _closure1_slot3;
-            var1 = var1[var11];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.handleOnPressWithOnboard;
-            var6 = var1.bind(var2)(var3);
-case 52:
             var3 = _closure1_slot14;
             var2 = _closure1_slot2;
             var11 = _closure1_slot3;
@@ -879,8 +871,8 @@ case 27:
             var _closure2_slot2 = var2;
             var1 = null;
             var2 = var1 == var2;
-            if(var2) { _fun0012_ip = 53; continue _fun0012 }
-case 54:
+            if(var2) { _fun0012_ip = 52; continue _fun0012 }
+case 53:
             var4 = _closure1_slot14;
             var3 = _closure1_slot2;
             var12 = _closure1_slot3;
@@ -935,7 +927,7 @@ case 54:
             };
             var2['onPress'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 53:
+case 52:
             return var1;
         }
     };
@@ -982,16 +974,16 @@ case 0:
                 var8 = var5 == var6;
                 var7 = undefined;
                 if(var8) { _fun0015_ip = 38; continue _fun0015 }
-case 55:
+case 54:
                 var7 = var6.location;
 case 38:
                 var2['location'] = var7;
                 var7 = var5 == var6;
                 var5 = undefined;
-                if(var7) { _fun0015_ip = 50; continue _fun0015 }
+                if(var7) { _fun0015_ip = 55; continue _fun0015 }
 case 41:
                 var5 = var6.applicationId;
-case 50:
+case 55:
                 var2['applicationId'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;

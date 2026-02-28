@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['title'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -89,9 +89,14 @@ case 0:
             var6 = var3.bind(var5)(var1);
             var1 = var6.usePremiumSince;
             var20 = var1.bind(var6)();
+            var1 = 7;
+            var1 = var4[var1];
+            var6 = var3.bind(var5)(var1);
+            var1 = var6.useTimeUntilNextBadge;
+            var24 = var1.bind(var6)();
             var1 = _closure1_slot9;
             var14 = var1.bind(var5)();
-            var1 = 7;
+            var1 = 8;
             var1 = var4[var1];
             var9 = var3.bind(var5)(var1);
             var8 = var9.useStateFromStores;
@@ -106,7 +111,7 @@ case 0:
             };
             var8 = var8.bind(var9)(var6, var1);
             var _closure2_slot1 = var8;
-            var1 = 8;
+            var1 = 9;
             var1 = var4[var1];
             var6 = var3.bind(var5)(var1);
             var4 = var6.useMobileTenureBadgeImages;
@@ -155,7 +160,7 @@ case 10:
 case 13:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 10;
                     var2 = var4[var2];
                     var4 = var3.bind(var7)(var2);
                     var3 = var4.track;
@@ -175,19 +180,19 @@ case 14:
 case 12:
                     var3 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var2 = 10;
+                    var2 = 11;
                     var2 = var8[var2];
                     var5 = var3.bind(var7)(var2);
                     var4 = var5.openLazy;
                     var2 = _closure1_slot0;
-                    var1 = 12;
+                    var1 = 13;
                     var1 = var8[var1];
                     var9 = var2.bind(var7)(var1);
-                    var1 = 11;
+                    var1 = 12;
                     var3 = var8[var1];
                     var1 = var8.paths;
                     var3 = var9.bind(var7)(var3, var1);
-                    var1 = 13;
+                    var1 = 14;
                     var1 = var8[var1];
                     var1 = var2.bind(var7)(var1);
                     var2 = var1.TIERED_TENURE_BADGE_ACTION_SHEET_KEY;
@@ -217,7 +222,7 @@ case 17:
 case 19:
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var3 = var10[var2];
             var3 = var6.bind(var5)(var3);
             var4 = var3.intl;
@@ -231,7 +236,7 @@ case 19:
 case 18:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var3 = var11[var2];
             var3 = var10.bind(var5)(var3);
             var4 = var3.intl;
@@ -256,20 +261,25 @@ case 22:
             var2 = var2.EARNED;
             if(!(var3 !== var2)) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var10 = var15.status;
-            var3 = _closure1_slot0;
+            var3 = var15.status;
+            var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var17];
-            var2 = var3.bind(var5)(var2);
+            var2 = var4.bind(var5)(var2);
             var2 = var2.TieredTenureBadgeStatus;
-            var4 = var2.UPCOMING;
+            var2 = var2.UPCOMING;
+            var4 = var3 === var2;
+            if(!var4) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+            var4 = var1 != var24;
+case 25:
             var3 = var9;
             var2 = null;
-            if(!(var10 === var4)) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+            if(!var4) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var21 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var18 = 14;
+            var18 = 15;
             var4 = var13[var18];
             var4 = var21.bind(var5)(var4);
             var16 = var4.intl;
@@ -288,7 +298,7 @@ case 26:
             var18 = var18.t;
             var21 = var18.k2UNz+;
             var18 = {};
-            var24 = var15.daysLeft;
+            var24 = var24.days;
             var18['days'] = var24;
             var18 = var22.bind(var23)(var21, var18);
             var4['timeFrame'] = var18;
@@ -303,15 +313,15 @@ case 26:
             var4['date'] = var18;
             var2 = var11.bind(var16)(var10, var4);
             var11 = _closure1_slot1;
-            var10 = 15;
+            var10 = 16;
             var10 = var13[var10];
             var3 = var11.bind(var5)(var10);
-case 25:
-            _fun0001_ip = 27; continue _fun0001;
+case 27:
+            _fun0001_ip = 29; continue _fun0001;
 case 23:
             var10 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var4 = 14;
+            var4 = 15;
             var11 = var16[var4];
             var11 = var10.bind(var5)(var11);
             var13 = var11.intl;
@@ -332,7 +342,7 @@ case 23:
             var4['date'] = var16;
             var2 = var11.bind(var13)(var10, var4);
             var3 = var9;
-case 27:
+case 29:
             var12 = var3;
             var19 = var2;
 case 21:
@@ -345,12 +355,12 @@ case 21:
             var18 = _closure1_slot7;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var20 = 16;
+            var20 = 17;
             var9 = var23[var20];
             var9 = var22.bind(var5)(var9);
             var13 = var9.Text;
             var11 = {'variant': 'heading-md/medium', 'color': 'text-default'};
-            var9 = 14;
+            var9 = 15;
             var16 = var23[var9];
             var16 = var22.bind(var5)(var16);
             var24 = var16.intl;
@@ -367,7 +377,7 @@ case 21:
             var13 = {'variant': 'heading-md/medium', 'color': 'text-muted'};
             var21 = var14.tenureRequirements;
             var13['style'] = var21;
-            var21 = 17;
+            var21 = 18;
             var21 = var23[var21];
             var24 = var22.bind(var5)(var21);
             var23 = var24.getTenureBadgeRequirementString;
@@ -382,8 +392,8 @@ case 21:
             var10 = new Array(2);
             var10[0] = var11;
             var11 = var1 != var19;
-            if(!var11) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(!var11) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var18 = _closure1_slot7;
             var16 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -393,14 +403,14 @@ case 29:
             var13 = {'variant': 'heading-sm/normal', 'color': 'text-muted'};
             var13['children'] = var19;
             var11 = var18.bind(var5)(var16, var13);
-case 28:
+case 30:
             var10[1] = var11;
             var2['children'] = var10;
             var11 = var4.bind(var5)(var3, var2);
             var4 = _closure1_slot7;
             var10 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var2 = 18;
+            var2 = 19;
             var2 = var13[var2];
             var3 = var10.bind(var5)(var2);
             var2 = {};
@@ -433,7 +443,7 @@ case 28:
             var7 = {};
             var9 = var14.imageContainer;
             var7['style'] = var9;
-            var9 = 19;
+            var9 = 20;
             var9 = var13[var9];
             var10 = var10.bind(var5)(var9);
             var9 = {};
@@ -448,10 +458,10 @@ case 28:
             var13 = var13.TieredTenureBadgeStatus;
             var13 = var13.UPCOMING;
             var13 = var15 === var13;
-            if(!var13) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
+            if(!var13) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
             var13 = var14.upcomingBadge;
-case 30:
+case 32:
             var11[1] = var13;
             var9['style'] = var11;
             var11 = {};

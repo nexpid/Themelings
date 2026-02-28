@@ -580,24 +580,19 @@ case 20:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
-            var5 = var1.channel;
+            var3 = var1.channel;
             var9 = var1.disabled;
-            var6 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
             var2 = 29;
-            var3 = var10[var2];
+            var2 = var4[var2];
             var4 = undefined;
-            var3 = var6.bind(var4)(var3);
-            var3 = var3.bind(var4)(var5);
-            var7 = var3.onPress;
-            var6 = var3.imgSource;
-            var5 = var3.text;
-            var8 = var3.isFeatureEnabled;
-            var3 = _closure1_slot0;
-            var2 = var10[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.handleOnPressWithOnboard;
-            var7 = var2.bind(var3)(var7);
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.bind(var4)(var3);
+            var7 = var2.onPress;
+            var6 = var2.imgSource;
+            var5 = var2.text;
+            var8 = var2.isFeatureEnabled;
             var3 = _closure1_slot20;
             var2 = _closure1_slot25;
             var1 = {};
@@ -907,10 +902,10 @@ case 33:
                 var2['location'] = var7;
                 var7 = var5 == var6;
                 var5 = undefined;
-                if(var7) { _fun0010_ip = 35; continue _fun0010 }
+                if(var7) { _fun0010_ip = 23; continue _fun0010 }
 case 9:
                 var5 = var6.applicationId;
-case 35:
+case 23:
                 var2['applicationId'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -960,10 +955,10 @@ case 0:
             var2 = _closure1_slot25;
             var1 = {};
             var9 = null;
-            if(!(var9 != var8)) { _fun0011_ip = 36; continue _fun0011 }
-case 37:
-            var7 = var8;
+            if(!(var9 != var8)) { _fun0011_ip = 35; continue _fun0011 }
 case 36:
+            var7 = var8;
+case 35:
             var1['onPress'] = var7;
             var1['iconSource'] = var6;
             var1['label'] = var5;
@@ -1120,7 +1115,7 @@ case 0:
             var7 = var6.bind(var7)(var4, var3);
             var _closure2_slot0 = var7;
             var6 = undefined;
-            if(!var2) { _fun0012_ip = 22; continue _fun0012 }
+            if(!var2) { _fun0012_ip = 37; continue _fun0012 }
 case 38:
             var6 = function() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
@@ -1207,7 +1202,7 @@ case 41:
                     return var1;
                 }
             };
-case 22:
+case 37:
             var1 = null;
             var2 = var1 == var6;
             if(var2) { _fun0012_ip = 42; continue _fun0012 }

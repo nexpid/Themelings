@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
     var4 = var4.BOT;
-    var5 = new Array(44);
+    var5 = new Array(45);
     var5[0] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
@@ -171,208 +171,213 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.EMAIL;
+    var4 = var4.IDENTIFY_PREMIUM;
     var5[3] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.CONNECTIONS;
+    var4 = var4.EMAIL;
     var5[4] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.MESSAGES_READ;
+    var4 = var4.CONNECTIONS;
     var5[5] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.GUILDS;
+    var4 = var4.MESSAGES_READ;
     var5[6] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.GUILDS_JOIN;
+    var4 = var4.GUILDS;
     var5[7] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.GUILDS_MEMBERS_READ;
+    var4 = var4.GUILDS_JOIN;
     var5[8] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.GUILDS_CHANNELS_READ;
+    var4 = var4.GUILDS_MEMBERS_READ;
     var5[9] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.GDM_JOIN;
+    var4 = var4.GUILDS_CHANNELS_READ;
     var5[10] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC;
+    var4 = var4.GDM_JOIN;
     var5[11] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC_NOTIFICATIONS_READ;
+    var4 = var4.RPC;
     var5[12] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC_VOICE_READ;
+    var4 = var4.RPC_NOTIFICATIONS_READ;
     var5[13] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC_VOICE_WRITE;
+    var4 = var4.RPC_VOICE_READ;
     var5[14] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC_VIDEO_READ;
+    var4 = var4.RPC_VOICE_WRITE;
     var5[15] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC_VIDEO_WRITE;
+    var4 = var4.RPC_VIDEO_READ;
     var5[16] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC_SCREENSHARE_READ;
+    var4 = var4.RPC_VIDEO_WRITE;
     var5[17] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC_SCREENSHARE_WRITE;
+    var4 = var4.RPC_SCREENSHARE_READ;
     var5[18] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RPC_ACTIVITIES_WRITE;
+    var4 = var4.RPC_SCREENSHARE_WRITE;
     var5[19] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATION_IDENTITIES_WRITE;
+    var4 = var4.RPC_ACTIVITIES_WRITE;
     var5[20] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_BUILDS_UPLOAD;
+    var4 = var4.APPLICATION_IDENTITIES_WRITE;
     var5[21] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_BUILDS_READ;
+    var4 = var4.APPLICATIONS_BUILDS_UPLOAD;
     var5[22] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_COMMANDS;
+    var4 = var4.APPLICATIONS_BUILDS_READ;
     var5[23] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_COMMANDS_UPDATE;
+    var4 = var4.APPLICATIONS_COMMANDS;
     var5[24] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_COMMANDS_PERMISSIONS_UPDATE;
+    var4 = var4.APPLICATIONS_COMMANDS_UPDATE;
     var5[25] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_STORE_UPDATE;
+    var4 = var4.APPLICATIONS_COMMANDS_PERMISSIONS_UPDATE;
     var5[26] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.APPLICATIONS_ENTITLEMENTS;
+    var4 = var4.APPLICATIONS_STORE_UPDATE;
     var5[27] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.ACTIVITIES_INVITES_WRITE;
+    var4 = var4.APPLICATIONS_ENTITLEMENTS;
     var5[28] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.ACTIVITIES_READ;
+    var4 = var4.ACTIVITIES_INVITES_WRITE;
     var5[29] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.ACTIVITIES_WRITE;
+    var4 = var4.ACTIVITIES_READ;
     var5[30] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RELATIONSHIPS_READ;
+    var4 = var4.ACTIVITIES_WRITE;
     var5[31] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.RELATIONSHIPS_WRITE;
+    var4 = var4.RELATIONSHIPS_READ;
     var5[32] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.VOICE;
+    var4 = var4.RELATIONSHIPS_WRITE;
     var5[33] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.DM_CHANNELS_READ;
+    var4 = var4.VOICE;
     var5[34] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.DM_CHANNELS_MESSAGES_READ;
+    var4 = var4.DM_CHANNELS_READ;
     var5[35] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.DM_CHANNELS_MESSAGES_WRITE;
+    var4 = var4.DM_CHANNELS_MESSAGES_READ;
     var5[36] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.ROLE_CONNECTIONS_WRITE;
+    var4 = var4.DM_CHANNELS_MESSAGES_WRITE;
     var5[37] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.PRESENCES_READ;
+    var4 = var4.ROLE_CONNECTIONS_WRITE;
     var5[38] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.PRESENCES_WRITE;
+    var4 = var4.PRESENCES_READ;
     var5[39] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.GATEWAY_CONNECT;
+    var4 = var4.PRESENCES_WRITE;
     var5[40] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.PAYMENT_SOURCES_COUNTRY_CODE;
+    var4 = var4.GATEWAY_CONNECT;
     var5[41] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.SDK_SOCIAL_LAYER_PRESENCE;
+    var4 = var4.PAYMENT_SOURCES_COUNTRY_CODE;
     var5[42] = var4;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
     var4 = var4.OAuth2Scopes;
-    var4 = var4.SDK_SOCIAL_LAYER;
+    var4 = var4.SDK_SOCIAL_LAYER_PRESENCE;
     var5[43] = var4;
+    var4 = var9[var10];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.OAuth2Scopes;
+    var4 = var4.SDK_SOCIAL_LAYER;
+    var5[44] = var4;
     var7 = var5.concat;
     var4 = var9[var10];
     var4 = var8.bind(var1)(var4);
@@ -417,7 +422,7 @@ case 3:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.OPENID;
+            var2 = var2.IDENTIFY_PREMIUM;
             if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var6 = _closure1_slot0;
@@ -425,7 +430,7 @@ case 5:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.EMAIL;
+            var2 = var2.OPENID;
             if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var6 = _closure1_slot0;
@@ -433,7 +438,7 @@ case 7:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.BOT;
+            var2 = var2.EMAIL;
             if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var6 = _closure1_slot0;
@@ -441,7 +446,7 @@ case 9:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.CONNECTIONS;
+            var2 = var2.BOT;
             if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var6 = _closure1_slot0;
@@ -449,7 +454,7 @@ case 11:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.MESSAGES_READ;
+            var2 = var2.CONNECTIONS;
             if(!(var2 !== var3)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var6 = _closure1_slot0;
@@ -457,7 +462,7 @@ case 13:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.GUILDS;
+            var2 = var2.MESSAGES_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var6 = _closure1_slot0;
@@ -465,7 +470,7 @@ case 15:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.GUILDS_JOIN;
+            var2 = var2.GUILDS;
             if(!(var2 !== var3)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
             var6 = _closure1_slot0;
@@ -473,7 +478,7 @@ case 17:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.GUILDS_MEMBERS_READ;
+            var2 = var2.GUILDS_JOIN;
             if(!(var2 !== var3)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
             var6 = _closure1_slot0;
@@ -481,7 +486,7 @@ case 19:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.GUILDS_CHANNELS_READ;
+            var2 = var2.GUILDS_MEMBERS_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
             var6 = _closure1_slot0;
@@ -489,7 +494,7 @@ case 21:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.GDM_JOIN;
+            var2 = var2.GUILDS_CHANNELS_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
             var6 = _closure1_slot0;
@@ -497,7 +502,7 @@ case 23:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC;
+            var2 = var2.GDM_JOIN;
             if(!(var2 !== var3)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
             var6 = _closure1_slot0;
@@ -505,7 +510,7 @@ case 25:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC_NOTIFICATIONS_READ;
+            var2 = var2.RPC;
             if(!(var2 !== var3)) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
             var6 = _closure1_slot0;
@@ -513,7 +518,7 @@ case 27:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC_VOICE_WRITE;
+            var2 = var2.RPC_NOTIFICATIONS_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
             var6 = _closure1_slot0;
@@ -521,7 +526,7 @@ case 29:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC_VIDEO_READ;
+            var2 = var2.RPC_VOICE_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
             var6 = _closure1_slot0;
@@ -529,7 +534,7 @@ case 31:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC_VIDEO_WRITE;
+            var2 = var2.RPC_VIDEO_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 32; continue _fun0001 }
 case 33:
             var6 = _closure1_slot0;
@@ -537,7 +542,7 @@ case 33:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC_SCREENSHARE_READ;
+            var2 = var2.RPC_VIDEO_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 34; continue _fun0001 }
 case 35:
             var6 = _closure1_slot0;
@@ -545,7 +550,7 @@ case 35:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC_SCREENSHARE_WRITE;
+            var2 = var2.RPC_SCREENSHARE_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 36; continue _fun0001 }
 case 37:
             var6 = _closure1_slot0;
@@ -553,7 +558,7 @@ case 37:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC_VOICE_READ;
+            var2 = var2.RPC_SCREENSHARE_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 38; continue _fun0001 }
 case 39:
             var6 = _closure1_slot0;
@@ -561,7 +566,7 @@ case 39:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RPC_ACTIVITIES_WRITE;
+            var2 = var2.RPC_VOICE_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 40; continue _fun0001 }
 case 41:
             var6 = _closure1_slot0;
@@ -569,7 +574,7 @@ case 41:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.APPLICATIONS_BUILDS_UPLOAD;
+            var2 = var2.RPC_ACTIVITIES_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
             var6 = _closure1_slot0;
@@ -577,7 +582,7 @@ case 43:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.APPLICATIONS_BUILDS_READ;
+            var2 = var2.APPLICATIONS_BUILDS_UPLOAD;
             if(!(var2 !== var3)) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
             var6 = _closure1_slot0;
@@ -585,7 +590,7 @@ case 45:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.APPLICATIONS_COMMANDS;
+            var2 = var2.APPLICATIONS_BUILDS_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 46; continue _fun0001 }
 case 47:
             var6 = _closure1_slot0;
@@ -593,7 +598,7 @@ case 47:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.APPLICATIONS_COMMANDS_UPDATE;
+            var2 = var2.APPLICATIONS_COMMANDS;
             if(!(var2 !== var3)) { _fun0001_ip = 48; continue _fun0001 }
 case 49:
             var6 = _closure1_slot0;
@@ -601,7 +606,7 @@ case 49:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.APPLICATIONS_COMMANDS_PERMISSIONS_UPDATE;
+            var2 = var2.APPLICATIONS_COMMANDS_UPDATE;
             if(!(var2 !== var3)) { _fun0001_ip = 50; continue _fun0001 }
 case 51:
             var6 = _closure1_slot0;
@@ -609,7 +614,7 @@ case 51:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.APPLICATIONS_STORE_UPDATE;
+            var2 = var2.APPLICATIONS_COMMANDS_PERMISSIONS_UPDATE;
             if(!(var2 !== var3)) { _fun0001_ip = 52; continue _fun0001 }
 case 53:
             var6 = _closure1_slot0;
@@ -617,7 +622,7 @@ case 53:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.APPLICATIONS_ENTITLEMENTS;
+            var2 = var2.APPLICATIONS_STORE_UPDATE;
             if(!(var2 !== var3)) { _fun0001_ip = 54; continue _fun0001 }
 case 55:
             var6 = _closure1_slot0;
@@ -625,7 +630,7 @@ case 55:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.ACTIVITIES_READ;
+            var2 = var2.APPLICATIONS_ENTITLEMENTS;
             if(!(var2 !== var3)) { _fun0001_ip = 56; continue _fun0001 }
 case 57:
             var6 = _closure1_slot0;
@@ -633,7 +638,7 @@ case 57:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.ACTIVITIES_WRITE;
+            var2 = var2.ACTIVITIES_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 58; continue _fun0001 }
 case 59:
             var6 = _closure1_slot0;
@@ -641,7 +646,7 @@ case 59:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RELATIONSHIPS_READ;
+            var2 = var2.ACTIVITIES_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 60; continue _fun0001 }
 case 61:
             var6 = _closure1_slot0;
@@ -649,7 +654,7 @@ case 61:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.RELATIONSHIPS_WRITE;
+            var2 = var2.RELATIONSHIPS_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 62; continue _fun0001 }
 case 63:
             var6 = _closure1_slot0;
@@ -657,7 +662,7 @@ case 63:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.VOICE;
+            var2 = var2.RELATIONSHIPS_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 64; continue _fun0001 }
 case 65:
             var6 = _closure1_slot0;
@@ -665,7 +670,7 @@ case 65:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.DM_CHANNELS_READ;
+            var2 = var2.VOICE;
             if(!(var2 !== var3)) { _fun0001_ip = 66; continue _fun0001 }
 case 67:
             var6 = _closure1_slot0;
@@ -673,7 +678,7 @@ case 67:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.ROLE_CONNECTIONS_WRITE;
+            var2 = var2.DM_CHANNELS_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 68; continue _fun0001 }
 case 69:
             var6 = _closure1_slot0;
@@ -681,7 +686,7 @@ case 69:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.PRESENCES_READ;
+            var2 = var2.ROLE_CONNECTIONS_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 70; continue _fun0001 }
 case 71:
             var6 = _closure1_slot0;
@@ -689,7 +694,7 @@ case 71:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.PRESENCES_WRITE;
+            var2 = var2.PRESENCES_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 72; continue _fun0001 }
 case 73:
             var6 = _closure1_slot0;
@@ -697,7 +702,7 @@ case 73:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.DM_CHANNELS_MESSAGES_READ;
+            var2 = var2.PRESENCES_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 74; continue _fun0001 }
 case 75:
             var6 = _closure1_slot0;
@@ -705,7 +710,7 @@ case 75:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.DM_CHANNELS_MESSAGES_WRITE;
+            var2 = var2.DM_CHANNELS_MESSAGES_READ;
             if(!(var2 !== var3)) { _fun0001_ip = 76; continue _fun0001 }
 case 77:
             var6 = _closure1_slot0;
@@ -713,7 +718,7 @@ case 77:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.GATEWAY_CONNECT;
+            var2 = var2.DM_CHANNELS_MESSAGES_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 78; continue _fun0001 }
 case 79:
             var6 = _closure1_slot0;
@@ -721,7 +726,7 @@ case 79:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.PAYMENT_SOURCES_COUNTRY_CODE;
+            var2 = var2.GATEWAY_CONNECT;
             if(!(var2 !== var3)) { _fun0001_ip = 80; continue _fun0001 }
 case 81:
             var6 = _closure1_slot0;
@@ -729,7 +734,7 @@ case 81:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.ACTIVITIES_INVITES_WRITE;
+            var2 = var2.PAYMENT_SOURCES_COUNTRY_CODE;
             if(!(var2 !== var3)) { _fun0001_ip = 82; continue _fun0001 }
 case 83:
             var6 = _closure1_slot0;
@@ -737,7 +742,7 @@ case 83:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.APPLICATION_IDENTITIES_WRITE;
+            var2 = var2.ACTIVITIES_INVITES_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 84; continue _fun0001 }
 case 85:
             var6 = _closure1_slot0;
@@ -745,7 +750,7 @@ case 85:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.SDK_SOCIAL_LAYER_PRESENCE;
+            var2 = var2.APPLICATION_IDENTITIES_WRITE;
             if(!(var2 !== var3)) { _fun0001_ip = 86; continue _fun0001 }
 case 87:
             var6 = _closure1_slot0;
@@ -753,13 +758,21 @@ case 87:
             var2 = var2[var7];
             var2 = var6.bind(var5)(var2);
             var2 = var2.OAuth2Scopes;
-            var2 = var2.SDK_SOCIAL_LAYER;
+            var2 = var2.SDK_SOCIAL_LAYER_PRESENCE;
             if(!(var2 !== var3)) { _fun0001_ip = 88; continue _fun0001 }
 case 89:
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var7];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.OAuth2Scopes;
+            var2 = var2.SDK_SOCIAL_LAYER;
+            if(!(var2 !== var3)) { _fun0001_ip = 90; continue _fun0001 }
+case 91:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 88:
+case 90:
             var8 = _closure1_slot0;
             var3 = _closure1_slot1;
             var11 = 0;
@@ -820,8 +833,8 @@ case 88:
             var3 = var3.OAuth2Scopes;
             var3 = var3.APPLICATION_IDENTITIES_WRITE;
             var3 = var6.bind(var4)(var3);
-            if(var3) { _fun0001_ip = 90; continue _fun0001 }
-case 91:
+            if(var3) { _fun0001_ip = 92; continue _fun0001 }
+case 93:
             var6 = var2.push;
             var10 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -835,9 +848,9 @@ case 91:
             var3 = var3.1zioRF;
             var3 = var8.bind(var9)(var3);
             var3 = var6.bind(var2)(var3);
-case 90:
+case 92:
             return var2;
-case 86:
+case 88:
             var8 = _closure1_slot0;
             var3 = _closure1_slot1;
             var11 = 0;
@@ -888,8 +901,8 @@ case 86:
             var3 = var3.OAuth2Scopes;
             var3 = var3.APPLICATION_IDENTITIES_WRITE;
             var3 = var6.bind(var4)(var3);
-            if(var3) { _fun0001_ip = 92; continue _fun0001 }
-case 93:
+            if(var3) { _fun0001_ip = 94; continue _fun0001 }
+case 95:
             var6 = var2.push;
             var10 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -903,9 +916,9 @@ case 93:
             var3 = var3.1zioRF;
             var3 = var8.bind(var9)(var3);
             var3 = var6.bind(var2)(var3);
-case 92:
+case 94:
             return var2;
-case 84:
+case 86:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -921,7 +934,7 @@ case 84:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 82:
+case 84:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -937,7 +950,7 @@ case 82:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 80:
+case 82:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -953,7 +966,7 @@ case 80:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 78:
+case 80:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -969,7 +982,7 @@ case 78:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 76:
+case 78:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -985,7 +998,7 @@ case 76:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 74:
+case 76:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1001,7 +1014,7 @@ case 74:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 72:
+case 74:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1017,7 +1030,7 @@ case 72:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 70:
+case 72:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1033,7 +1046,7 @@ case 70:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 68:
+case 70:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1049,7 +1062,7 @@ case 68:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 66:
+case 68:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1065,7 +1078,7 @@ case 66:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 64:
+case 66:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1081,7 +1094,7 @@ case 64:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 62:
+case 64:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1097,7 +1110,7 @@ case 62:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 60:
+case 62:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1113,7 +1126,7 @@ case 60:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 58:
+case 60:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1129,7 +1142,7 @@ case 58:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 56:
+case 58:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1145,7 +1158,7 @@ case 56:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 54:
+case 56:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1161,7 +1174,7 @@ case 54:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 52:
+case 54:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1177,7 +1190,7 @@ case 52:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 50:
+case 52:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1193,7 +1206,7 @@ case 50:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 48:
+case 50:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1209,7 +1222,7 @@ case 48:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 46:
+case 48:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1225,7 +1238,7 @@ case 46:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 44:
+case 46:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1241,7 +1254,7 @@ case 44:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 42:
+case 44:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1257,7 +1270,7 @@ case 42:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 40:
+case 42:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1273,7 +1286,7 @@ case 40:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 38:
+case 40:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1289,7 +1302,7 @@ case 38:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 36:
+case 38:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1305,7 +1318,7 @@ case 36:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 34:
+case 36:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1321,7 +1334,7 @@ case 34:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 32:
+case 34:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1337,7 +1350,7 @@ case 32:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 30:
+case 32:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1353,7 +1366,7 @@ case 30:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 28:
+case 30:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1369,7 +1382,7 @@ case 28:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 26:
+case 28:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1385,7 +1398,7 @@ case 26:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 24:
+case 26:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1401,7 +1414,7 @@ case 24:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 22:
+case 24:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1417,7 +1430,7 @@ case 22:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 20:
+case 22:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 0;
@@ -1433,7 +1446,7 @@ case 20:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 18:
+case 20:
             var3 = var4.includes;
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -1452,22 +1465,22 @@ case 18:
             var3 = var8[var3];
             var3 = var7.bind(var5)(var3);
             var3 = var3.t;
-            if(var2) { _fun0001_ip = 94; continue _fun0001 }
-case 95:
+            if(var2) { _fun0001_ip = 96; continue _fun0001 }
+case 97:
             var2 = var3.o6M1aS;
             var7 = var4.bind(var6)(var2);
             var2 = new Array(1);
             var2[0] = var7;
-            _fun0001_ip = 96; continue _fun0001;
-case 94:
+            _fun0001_ip = 98; continue _fun0001;
+case 96:
             var3 = var3.OSvmfH;
             var4 = var4.bind(var6)(var3);
             var3 = new Array(1);
             var3[0] = var4;
             var2 = var3;
-case 96:
+case 98:
             return var2;
-case 16:
+case 18:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1483,7 +1496,7 @@ case 16:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 14:
+case 16:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1499,7 +1512,7 @@ case 14:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 12:
+case 14:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1515,7 +1528,7 @@ case 12:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 10:
+case 12:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1531,7 +1544,7 @@ case 10:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 8:
+case 10:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1547,7 +1560,7 @@ case 8:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 6:
+case 8:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1563,7 +1576,7 @@ case 6:
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
-case 4:
+case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1575,6 +1588,22 @@ case 4:
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
             var2 = var2.R5IKv1;
+            var3 = var3.bind(var4)(var2);
+            var2 = new Array(1);
+            var2[0] = var3;
+            return var2;
+case 4:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 0;
+            var3 = var7[var2];
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.xhQsxx;
             var3 = var3.bind(var4)(var2);
             var2 = new Array(1);
             var2[0] = var3;
@@ -1611,8 +1640,8 @@ case 0:
             var1 = var1.OAuth2Scopes;
             var1 = var1.SDK_SOCIAL_LAYER_PRESENCE;
             var1 = var3 === var1;
-            if(var1) { _fun0002_ip = 97; continue _fun0002 }
-case 98:
+            if(var1) { _fun0002_ip = 99; continue _fun0002 }
+case 100:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -1620,7 +1649,7 @@ case 98:
             var2 = var2.OAuth2Scopes;
             var2 = var2.SDK_SOCIAL_LAYER;
             var1 = var3 === var2;
-case 97:
+case 99:
             return var1;
         }
     };
@@ -1639,8 +1668,8 @@ case 0:
             var1 = var1.OAuth2Scopes;
             var1 = var1.DM_CHANNELS_MESSAGES_WRITE;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0003_ip = 99; continue _fun0003 }
-case 100:
+            if(var1) { _fun0003_ip = 101; continue _fun0003 }
+case 102:
             var3 = var4.includes;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -1649,8 +1678,8 @@ case 100:
             var1 = var1.OAuth2Scopes;
             var1 = var1.SDK_SOCIAL_LAYER;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0003_ip = 99; continue _fun0003 }
-case 101:
+            if(var1) { _fun0003_ip = 101; continue _fun0003 }
+case 103:
             var3 = var4.includes;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -1659,8 +1688,8 @@ case 101:
             var1 = var1.OAuth2Scopes;
             var1 = var1.MESSAGES_READ;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0003_ip = 102; continue _fun0003 }
-case 103:
+            if(var1) { _fun0003_ip = 104; continue _fun0003 }
+case 105:
             var3 = var4.includes;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -1669,8 +1698,8 @@ case 103:
             var1 = var1.OAuth2Scopes;
             var1 = var1.DM_CHANNELS_MESSAGES_READ;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0003_ip = 102; continue _fun0003 }
-case 104:
+            if(var1) { _fun0003_ip = 104; continue _fun0003 }
+case 106:
             var3 = _closure1_slot0;
             var7 = _closure1_slot1;
             var1 = 0;
@@ -1684,8 +1713,8 @@ case 104:
             var3 = var1.TeL+Ct;
             var1 = {};
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 105; continue _fun0003;
-case 102:
+            _fun0003_ip = 107; continue _fun0003;
+case 104:
             var4 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 0;
@@ -1699,9 +1728,9 @@ case 102:
             var4 = var3.Soy7jJ;
             var3 = {};
             var1 = var5.bind(var7)(var4, var3);
-case 105:
-            _fun0003_ip = 106; continue _fun0003;
-case 99:
+case 107:
+            _fun0003_ip = 108; continue _fun0003;
+case 101:
             var3 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -1715,7 +1744,7 @@ case 99:
             var3 = var2.o0GMBD;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
-case 106:
+case 108:
             return var1;
         }
     };

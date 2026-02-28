@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'width': 128, 'height': 128, 'marginBottom': 32};
+    var9 = {'width': 128, 'height': 128, 'marginBottom': 8};
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot4 = var4;

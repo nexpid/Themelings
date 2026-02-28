@@ -4,7 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
-    var _closure1_slot0 = var6;
+    var _closure1_slot0 = var4;
     var _closure1_slot1 = var7;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -228,9 +228,9 @@ case 13:
 case 0:
                 var3 = arg1;
                 var14 = var3.type;
-                var9 = var3.premium_type;
+                var10 = var3.premium_type;
                 var12 = var3.category_sku_id;
-                var10 = var3.prices;
+                var9 = var3.prices;
                 var11 = var3.bundled_products;
                 var7 = var3.variants;
                 var2 = {'type': 0, 'premium_type': 0, 'category_sku_id': 0, 'prices': 0, 'bundled_products': 0, 'variants': 0};
@@ -262,16 +262,16 @@ case 0:
                 var1[var13] = var14;
                 var14 = _closure1_slot11;
                 var13 = null;
-                if(!(var9 !== var14)) { _fun0004_ip = 16; continue _fun0004 }
+                if(!(var10 !== var14)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-                var13 = var9;
+                var13 = var10;
 case 16:
-                var9 = 'premiumType';
-                var1[var9] = var13;
-                var9 = 'categorySkuId';
-                var1[var9] = var12;
+                var10 = 'premiumType';
+                var1[var10] = var13;
+                var10 = 'categorySkuId';
+                var1[var10] = var12;
                 var12 = _closure1_slot10;
-                var9 = var12.some;
+                var10 = var12.some;
                 var8 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.rewardSkuId;
@@ -280,16 +280,15 @@ case 16:
                     var1 = var2 === var1;
                     return var1;
                 };
-                var9 = var9.bind(var12)(var8);
+                var10 = var10.bind(var12)(var8);
                 var8 = 'isCategoryReward';
-                var1[var8] = var9;
-                var9 = _closure1_slot0;
+                var1[var8] = var10;
+                var10 = _closure1_slot0;
                 var12 = _closure1_slot1;
                 var8 = 11;
                 var8 = var12[var8];
-                var9 = var9.bind(var5)(var8);
-                var8 = var9.getPricesFromServer;
-                var9 = var8.bind(var9)(var10);
+                var8 = var10.bind(var5)(var8);
+                var9 = var8.bind(var5)(var9);
                 var8 = 'prices';
                 var1[var8] = var9;
                 var9 = _closure1_slot9;

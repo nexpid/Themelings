@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot7 = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -57,9 +57,13 @@ case 0:
             var3 = 5;
             var3 = var22[var3];
             var4 = undefined;
+            var3 = var2.bind(var4)(var3);
+            var6 = var3.bind(var4)();
+            var3 = 6;
+            var3 = var22[var3];
             var5 = var2.bind(var4)(var3);
             var3 = var5.useScreenStyles;
-            var5 = var3.bind(var5)();
+            var5 = var3.bind(var5)(var6);
             var13 = _closure1_slot5;
             var6 = var13.useState;
             var3 = null;
@@ -181,12 +185,12 @@ case 2:
             };
             var11 = var1.bind(var4)();
             var3 = _closure1_slot7;
-            var1 = 6;
+            var1 = 7;
             var1 = var22[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var25 = _closure1_slot0;
-            var20 = 7;
+            var20 = 8;
             var6 = var22[var20];
             var6 = var25.bind(var4)(var6);
             var10 = var6.intl;
@@ -201,7 +205,7 @@ case 2:
             var6 = {};
             var5 = var5.inputContainer;
             var6['style'] = var5;
-            var5 = 8;
+            var5 = 9;
             var5 = var22[var5];
             var5 = var25.bind(var4)(var5);
             var14 = var5.TextInput;
@@ -246,7 +250,7 @@ case 17:
             var10 = _closure1_slot7;
             var9 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var6 = 9;
+            var6 = 10;
             var6 = var14[var6];
             var9 = var9.bind(var4)(var6);
             var6 = {};

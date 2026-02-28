@@ -12,6 +12,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var2 = 'identify';
     var4['IDENTIFY'] = var2;
+    var2 = 'identify.premium';
+    var4['IDENTIFY_PREMIUM'] = var2;
     var2 = 'email';
     var4['EMAIL'] = var2;
     var2 = 'connections';
@@ -116,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var11 = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'lobbies.write', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'sdk.social_layer', 'sdk.social_layer_presence', 'voice'];
+    var11 = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'identify.premium', 'lobbies.write', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'sdk.social_layer', 'sdk.social_layer_presence', 'voice'];
     var12 = var6;
     var5 = new var12[var7](var11, var10);
     var5 = var5 instanceof Object ? var5 : var6;
@@ -216,7 +218,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6;
     var5 = new var12[var7](var11, var10);
     var5 = var5 instanceof Object ? var5 : var6;
-    var2['SLAYER_UMBRELLA_PERMISSIBLE_SCOPES_MASK'] = var5;
+    var2['SLAYER_UMBRELLA_DEFAULT_SCOPES_MASK'] = var5;
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
@@ -237,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'gateway.connect', 'identify', 'relationships.read', 'relationships.write'];
+    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'gateway.connect', 'identify', 'identify.premium', 'relationships.read', 'relationships.write'];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -245,7 +247,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'identify.premium', 'lobbies.write', 'relationships.read', 'relationships.write'];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -266,11 +268,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6;
     var5 = new var12[var7](var11, var10);
     var5 = var5 instanceof Object ? var5 : var6;
-    var2['SDK_SOCIAL_LAYER_UMBRELLA_PERMISSIBLE_SCOPES'] = var5;
+    var2['SDK_SOCIAL_LAYER_UMBRELLA_DEFAULT_SCOPES'] = var5;
     var6 = var1.Set;
     var1 = var6.prototype;
     var5 = Object.create(var1, {constructor: {value: var6}});
-    var11 = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'applications.builds.read', 'applications.builds.upload', 'applications.commands', 'applications.commands.permissions.update', 'applications.entitlements', 'applications.store.update', 'bot', 'connections', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'email', 'gateway.connect', 'gdm.join', 'guilds', 'guilds.channels.read', 'guilds.join', 'guilds.members.read', 'identify', 'lobbies.write', 'messages.read', 'openid', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'role_connections.write', 'rpc', 'rpc.activities.write', 'rpc.notifications.read', 'rpc.screenshare.read', 'rpc.screenshare.write', 'rpc.video.read', 'rpc.video.write', 'rpc.voice.read', 'rpc.voice.write', 'sdk.social_layer', 'sdk.social_layer_presence', 'voice', 'webhook.incoming'];
+    var11 = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'applications.builds.read', 'applications.builds.upload', 'applications.commands', 'applications.commands.permissions.update', 'applications.entitlements', 'applications.store.update', 'bot', 'connections', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'email', 'gateway.connect', 'gdm.join', 'guilds', 'guilds.channels.read', 'guilds.join', 'guilds.members.read', 'identify', 'identify.premium', 'lobbies.write', 'messages.read', 'openid', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'role_connections.write', 'rpc', 'rpc.activities.write', 'rpc.notifications.read', 'rpc.screenshare.read', 'rpc.screenshare.write', 'rpc.video.read', 'rpc.video.write', 'rpc.voice.read', 'rpc.voice.write', 'sdk.social_layer', 'sdk.social_layer_presence', 'voice', 'webhook.incoming'];
     var12 = var5;
     var1 = new var12[var6](var11, var10);
     var1 = var1 instanceof Object ? var1 : var5;

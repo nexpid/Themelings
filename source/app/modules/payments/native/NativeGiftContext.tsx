@@ -285,7 +285,7 @@ case 7:
             var33 = 20;
             var8 = var34[var33];
             var36 = var11.bind(var5)(var8);
-            var35 = var36.useStateFromStores;
+            var35 = var36.useStateFromStoresArray;
             var8 = _closure1_slot6;
             var12 = new Array(1);
             var12[0] = var8;

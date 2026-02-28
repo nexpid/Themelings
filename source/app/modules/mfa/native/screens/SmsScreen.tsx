@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var7;
     var4 = var4.jsxs;
     var _closure1_slot9 = var4;
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -65,9 +65,13 @@ case 0:
             var1 = 6;
             var1 = var19[var1];
             var4 = undefined;
+            var1 = var8.bind(var4)(var1);
+            var3 = var1.bind(var4)();
+            var1 = 7;
+            var1 = var19[var1];
             var2 = var8.bind(var4)(var1);
             var1 = var2.useScreenStyles;
-            var13 = var1.bind(var2)();
+            var13 = var1.bind(var2)(var3);
             var16 = _closure1_slot5;
             var2 = var16.useState;
             var1 = null;
@@ -97,7 +101,7 @@ case 0:
             var _closure2_slot5 = var1;
             var5 = var16.useState;
             var18 = _closure1_slot0;
-            var15 = 7;
+            var15 = 8;
             var1 = var19[var15];
             var1 = var18.bind(var4)(var1);
             var23 = var1.intl;
@@ -129,7 +133,7 @@ case 0:
                 var3 = var4.bind(var1)(var3);
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 8;
+                var3 = 9;
                 var3 = var5[var3];
                 var3 = var4.bind(var1)(var3);
                 var5 = var3.HTTP;
@@ -153,7 +157,7 @@ case 0:
                     var3 = _closure2_slot6;
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 8;
                     var5 = var7[var2];
                     var1 = undefined;
                     var5 = var4.bind(var1)(var5);
@@ -223,7 +227,7 @@ case 7:
                             var7 = var5.length;
                             var8 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var5 = 9;
+                            var5 = 10;
                             var5 = var10[var5];
                             var5 = var8.bind(var2)(var5);
                             var5 = var5.SMS_CODE_LENGTH;
@@ -327,7 +331,7 @@ case 24:
                             var11 = _closure2_slot6;
                             var14 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var15 = 7;
+                            var15 = 8;
                             var12 = var4[var15];
                             var12 = var14.bind(var5)(var12);
                             var13 = var12.intl;
@@ -341,7 +345,7 @@ case 24:
 case 25: // try_start_0 // try_start_1
                             var11 = _closure1_slot0;
                             var12 = _closure1_slot2;
-                            var4 = 8;
+                            var4 = 9;
                             var4 = var12[var4];
                             var4 = var11.bind(var5)(var4);
                             var12 = var4.HTTP;
@@ -445,7 +449,7 @@ case 23:
             };
             var23 = var1.bind(var4)();
             var3 = _closure1_slot8;
-            var1 = 10;
+            var1 = 11;
             var1 = var19[var1];
             var2 = var8.bind(var4)(var1);
             var1 = {};
@@ -465,12 +469,12 @@ case 23:
             var5 = {};
             var13 = var13.inputContainer;
             var5['style'] = var13;
-            var13 = 11;
+            var13 = 12;
             var13 = var19[var13];
             var13 = var18.bind(var4)(var13);
             var21 = var13.TextInput;
             var20 = {'autoFocus': true, 'autoCapitalize': 'characters', 'maxLength': null, 'autoComplete': 'sms-otp', 'textContentType': 'oneTimeCode', 'keyboardType': 'number-pad'};
-            var13 = 9;
+            var13 = 10;
             var25 = var19[var13];
             var25 = var18.bind(var4)(var25);
             var25 = var25.SMS_CODE_LENGTH;
@@ -510,7 +514,7 @@ case 23:
             var21 = var3.bind(var4)(var21, var20);
             var20 = new Array(2);
             var20[0] = var21;
-            var24 = 12;
+            var24 = 13;
             var21 = var19[var24];
             var22 = var8.bind(var4)(var21);
             var21 = {};
@@ -545,7 +549,7 @@ case 23:
             var5['children'] = var20;
             var5 = var17.bind(var4)(var16, var5);
             var1['input'] = var5;
-            var5 = 13;
+            var5 = 14;
             var5 = var19[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};

@@ -42,6 +42,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BRAWL_STARS'] = var2;
     var2 = 'brawlhalla';
     var4['BRAWLHALLA'] = var2;
+    var2 = 'wuthering_waves';
+    var4['WUTHERING_WAVES'] = var2;
     var2 = var1.Object;
     var1 = var2.values;
     var2 = var1.bind(var2)(var4);

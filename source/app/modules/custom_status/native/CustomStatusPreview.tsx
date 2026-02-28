@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var5 = arg1;
             var1 = {};
-            var2 = {'flex': 1, 'position': 'relative', 'overflow': 'hidden', 'width': 323, 'maxHeight': 301, 'borderWidth': null, 'borderColor': null, 'borderRadius': 16};
+            var2 = {'flex': 1, 'position': 'relative', 'overflow': 'hidden', 'width': 323, 'maxHeight': 301};
             var3 = 1;
             var4 = var3;
             if(!var5) { _fun0001_ip = 2; continue _fun0001 }
@@ -74,6 +74,11 @@ case 6:
             var2['borderColor'] = var5;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
+            var8 = var4[var7];
+            var8 = var5.bind(var6)(var8);
+            var8 = var8.radii;
+            var8 = var8.lg;
+            var2['borderRadius'] = var8;
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
             var4 = var4.shadows;

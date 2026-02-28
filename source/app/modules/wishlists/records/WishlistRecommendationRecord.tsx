@@ -121,7 +121,7 @@ case 8:
                 var6 = var3.skus;
                 var5 = var6.map;
                 var4 = function(arg1) {
-                    var3 = _closure1_slot6;
+                    var3 = _closure1_slot5;
                     var2 = var3.createFromServer;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);
@@ -181,7 +181,7 @@ case 14:
                 var4 = var3.applications;
                 var3 = var4.map;
                 var2 = function(arg1) {
-                    var3 = _closure1_slot5;
+                    var3 = _closure1_slot6;
                     var2 = var3.createFromServer;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);

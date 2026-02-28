@@ -690,6 +690,8 @@ case 32:
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
             var1 = {};
+            var5 = true;
+            var1['inContainer'] = var5;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };

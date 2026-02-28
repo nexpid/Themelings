@@ -1,12 +1,12 @@
 // app/modules/guilds_bar/native/GuildsBarAnimatedItemWrapper.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
-    var14 = metroImportDefault;
+    var8 = require;
+    var15 = metroImportDefault;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var14;
-    var _closure1_slot2 = var8;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var15;
+    var _closure1_slot2 = var9;
     var1 = function UnreadIndicatorLA(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -605,7 +605,7 @@ case 36:
         }
     };
     var _closure1_slot22 = var1;
-    var2 = function UnreadIndicator(arg1) {
+    var4 = function UnreadIndicator(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -647,8 +647,8 @@ case 42:
             return var1;
         }
     };
-    var _closure1_slot23 = var2;
-    var1 = function renderUnreadIndicator(arg1, arg2, arg3, arg4) {
+    var _closure1_slot23 = var4;
+    var2 = function renderUnreadIndicator(arg1, arg2, arg3, arg4) {
         var2 = arg2;
         var1 = var2.selected;
         var6 = var2.sharedId;
@@ -668,85 +668,85 @@ case 42:
         var1 = var5.bind(var2)(var4, var3, var1);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot24 = var2;
     var1 = global;
-    var9 = var1.Object;
-    var6 = var9.defineProperty;
-    var4 = {};
+    var10 = var1.Object;
+    var7 = var10.defineProperty;
+    var5 = {};
     var1 = true;
-    var4['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var6.bind(var9)(var3, var1, var4);
-    var15 = 0;
-    var6 = var8[var15];
-    var4 = metroImportAll;
+    var1 = var7.bind(var10)(var3, var1, var5);
+    var16 = 0;
+    var7 = var9[var16];
+    var5 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var6);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.IOS_POINTER_STYLE;
-    var _closure1_slot4 = var4;
-    var13 = 2;
-    var4 = var8[var13];
-    var4 = var7.bind(var1)(var4);
-    var6 = var4.GUILD_ITEM_SIZE;
-    var _closure1_slot5 = var6;
-    var6 = var4.GUILD_ITEM_SELECTED_BORDER_RADIUS;
-    var _closure1_slot6 = var6;
-    var6 = var4.GUILD_ITEM_HIT_SLOP;
-    var _closure1_slot7 = var6;
-    var12 = var4.WRAPPER_SIZE;
-    var _closure1_slot8 = var12;
-    var4 = 3;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var6 = var4.jsx;
-    var _closure1_slot9 = var6;
-    var4 = var4.jsxs;
-    var _closure1_slot10 = var4;
-    var4 = {'mass': 0.8, 'damping': 100, 'stiffness': 150};
-    var _closure1_slot11 = var4;
-    var4 = {'mass': 0.25, 'damping': 100, 'stiffness': 200};
-    var _closure1_slot12 = var4;
-    var4 = 4;
-    var6 = var8[var4];
-    var10 = var7.bind(var1)(var6);
-    var9 = var10.createStyles;
-    var6 = {};
-    var11 = {};
-    var11['opacity'] = var15;
-    var6['draggedElement'] = var11;
-    var11 = {'position': 'relative', 'overflow': 'visible'};
-    var6['container'] = var11;
-    var11 = {'position': 'absolute', 'top': null, 'left': 4294967292, 'height': 8, 'width': 8};
-    var13 = var12 / var13;
-    var11['top'] = var13;
-    var13 = 5;
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.xs;
-    var11['borderRadius'] = var15;
-    var13 = var8[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.INTERACTIVE_TEXT_ACTIVE;
-    var11['backgroundColor'] = var13;
-    var6['unreadIndicator'] = var11;
-    var11 = {'position': 'absolute', 'left': null, 'top': 0, 'right': 16, 'height': null, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
-    var13 = 16;
-    var13 = var12 + var13;
-    var11['left'] = var13;
-    var11['height'] = var12;
-    var6['expandedChildrenWrapper'] = var11;
-    var6 = var9.bind(var10)(var6);
-    var _closure1_slot13 = var6;
-    var4 = var8[var4];
-    var9 = var7.bind(var1)(var4);
-    var6 = var9.createStyles;
-    var4 = function() {
+    var5 = var5.bind(var1)(var7);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var9[var5];
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.IOS_POINTER_STYLE;
+    var _closure1_slot4 = var5;
+    var14 = 2;
+    var5 = var9[var14];
+    var5 = var8.bind(var1)(var5);
+    var7 = var5.GUILD_ITEM_SIZE;
+    var _closure1_slot5 = var7;
+    var7 = var5.GUILD_ITEM_SELECTED_BORDER_RADIUS;
+    var _closure1_slot6 = var7;
+    var7 = var5.GUILD_ITEM_HIT_SLOP;
+    var _closure1_slot7 = var7;
+    var13 = var5.WRAPPER_SIZE;
+    var _closure1_slot8 = var13;
+    var5 = 3;
+    var5 = var9[var5];
+    var5 = var8.bind(var1)(var5);
+    var7 = var5.jsx;
+    var _closure1_slot9 = var7;
+    var5 = var5.jsxs;
+    var _closure1_slot10 = var5;
+    var5 = {'mass': 0.8, 'damping': 100, 'stiffness': 150};
+    var _closure1_slot11 = var5;
+    var5 = {'mass': 0.25, 'damping': 100, 'stiffness': 200};
+    var _closure1_slot12 = var5;
+    var5 = 4;
+    var7 = var9[var5];
+    var11 = var8.bind(var1)(var7);
+    var10 = var11.createStyles;
+    var7 = {};
+    var12 = {};
+    var12['opacity'] = var16;
+    var7['draggedElement'] = var12;
+    var12 = {'position': 'relative', 'overflow': 'visible'};
+    var7['container'] = var12;
+    var12 = {'position': 'absolute', 'top': null, 'left': 4294967292, 'height': 8, 'width': 8};
+    var14 = var13 / var14;
+    var12['top'] = var14;
+    var14 = 5;
+    var16 = var9[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.xs;
+    var12['borderRadius'] = var16;
+    var14 = var9[var14];
+    var14 = var15.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.INTERACTIVE_TEXT_ACTIVE;
+    var12['backgroundColor'] = var14;
+    var7['unreadIndicator'] = var12;
+    var12 = {'position': 'absolute', 'left': null, 'top': 0, 'right': 16, 'height': null, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+    var14 = 16;
+    var14 = var13 + var14;
+    var12['left'] = var14;
+    var12['height'] = var13;
+    var7['expandedChildrenWrapper'] = var12;
+    var7 = var10.bind(var11)(var7);
+    var _closure1_slot13 = var7;
+    var5 = var9[var5];
+    var10 = var8.bind(var1)(var5);
+    var7 = var10.createStyles;
+    var5 = function() {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var3 = arguments[0];
@@ -832,42 +832,42 @@ case 53:
             return var1;
         }
     };
-    var4 = var6.bind(var9)(var4);
-    var6 = {};
-    var9 = "function GuildsBarAnimatedItemWrapperTsx1(values){const{disableEntering,sharedId,id,withSpring,BAR_SPRING_PHYSICS,WRAPPER_SIZE}=this.__closure;if(disableEntering||sharedId!=null&&sharedId.get()!==id){return{animations:{},initialValues:{}};}return{animations:{originY:withSpring(values.targetOriginY,BAR_SPRING_PHYSICS,'animate-always'),originX:withSpring(values.targetOriginX,BAR_SPRING_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,BAR_SPRING_PHYSICS,'animate-always')},initialValues:{height:8,originY:WRAPPER_SIZE/2-4,originX:-12}};}";
-    var6['code'] = var9;
-    var _closure1_slot14 = var6;
-    var6 = {};
-    var9 = "function GuildsBarAnimatedItemWrapperTsx2(values){const{withSpring,BAR_SPRING_PHYSICS,transitionState,TransitionStates,cleanUp,runOnJS}=this.__closure;return{animations:{originY:withSpring(values.targetOriginY,BAR_SPRING_PHYSICS,'animate-always'),originX:withSpring(values.targetOriginX,BAR_SPRING_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,BAR_SPRING_PHYSICS,'animate-always')},initialValues:{height:values.currentHeight,originY:values.currentOriginY,originX:values.currentOriginX},callback:function(finished){if(transitionState===TransitionStates.YEETED&&finished&&cleanUp!=null){runOnJS(cleanUp)();}}};}";
-    var6['code'] = var9;
-    var _closure1_slot15 = var6;
-    var6 = {};
-    var9 = "function GuildsBarAnimatedItemWrapperTsx3(){const{sharedId,id,height,targetHeight,withSpring,BAR_SPRING_PHYSICS}=this.__closure;if(sharedId!=null&&sharedId.get()!==id){height.set(targetHeight);}else{height.set(withSpring(targetHeight,BAR_SPRING_PHYSICS,'animate-always'));}}";
-    var6['code'] = var9;
-    var _closure1_slot16 = var6;
-    var6 = {};
-    var9 = 'function GuildsBarAnimatedItemWrapperTsx4(finished){const{isYeeted,cleanUp,runOnJS}=this.__closure;if(isYeeted&&finished&&cleanUp!=null){runOnJS(cleanUp)();}}';
-    var6['code'] = var9;
-    var _closure1_slot17 = var6;
-    var6 = {};
-    var9 = 'function GuildsBarAnimatedItemWrapperTsx5(){const{height}=this.__closure;const h=height.get();return{height:h,marginTop:-(h/2)};}';
-    var6['code'] = var9;
-    var _closure1_slot18 = var6;
-    var6 = {};
-    var9 = "function GuildsBarAnimatedItemWrapperTsx6(){const{withSpring,circle,GUILD_ITEM_SELECTED_BORDER_RADIUS,GUILD_ITEM_SIZE,CORNER_SPRING_PHYSICS}=this.__closure;return{borderRadius:withSpring(!circle?GUILD_ITEM_SELECTED_BORDER_RADIUS:GUILD_ITEM_SIZE/2,CORNER_SPRING_PHYSICS,'animate-always')};}";
-    var6['code'] = var9;
-    var _closure1_slot19 = var6;
-    var6 = {};
-    var9 = 'function GuildsBarAnimatedItemWrapperTsx7(){const{withSpring,panelX,MIN_OPACITY_REVEAL_WIDTH,MAX_OPACITY_REVEAL_WIDTH,HOME_DRAWER_FLING_PHYSICS}=this.__closure;return{opacity:withSpring(Math.max(0,Math.min(1,(panelX.get()-MIN_OPACITY_REVEAL_WIDTH)/MAX_OPACITY_REVEAL_WIDTH)),HOME_DRAWER_FLING_PHYSICS)};}';
-    var6['code'] = var9;
-    var _closure1_slot20 = var6;
-    var6 = 19;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/guilds_bar/native/GuildsBarAnimatedItemWrapper.tsx';
-    var6 = var7.bind(var8)(var6);
-    var5 = function GuildsBarAnimatedItemWrapper(arg1) {
+    var5 = var7.bind(var10)(var5);
+    var7 = {};
+    var10 = "function GuildsBarAnimatedItemWrapperTsx1(values){const{disableEntering,sharedId,id,withSpring,BAR_SPRING_PHYSICS,WRAPPER_SIZE}=this.__closure;if(disableEntering||sharedId!=null&&sharedId.get()!==id){return{animations:{},initialValues:{}};}return{animations:{originY:withSpring(values.targetOriginY,BAR_SPRING_PHYSICS,'animate-always'),originX:withSpring(values.targetOriginX,BAR_SPRING_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,BAR_SPRING_PHYSICS,'animate-always')},initialValues:{height:8,originY:WRAPPER_SIZE/2-4,originX:-12}};}";
+    var7['code'] = var10;
+    var _closure1_slot14 = var7;
+    var7 = {};
+    var10 = "function GuildsBarAnimatedItemWrapperTsx2(values){const{withSpring,BAR_SPRING_PHYSICS,transitionState,TransitionStates,cleanUp,runOnJS}=this.__closure;return{animations:{originY:withSpring(values.targetOriginY,BAR_SPRING_PHYSICS,'animate-always'),originX:withSpring(values.targetOriginX,BAR_SPRING_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,BAR_SPRING_PHYSICS,'animate-always')},initialValues:{height:values.currentHeight,originY:values.currentOriginY,originX:values.currentOriginX},callback:function(finished){if(transitionState===TransitionStates.YEETED&&finished&&cleanUp!=null){runOnJS(cleanUp)();}}};}";
+    var7['code'] = var10;
+    var _closure1_slot15 = var7;
+    var7 = {};
+    var10 = "function GuildsBarAnimatedItemWrapperTsx3(){const{sharedId,id,height,targetHeight,withSpring,BAR_SPRING_PHYSICS}=this.__closure;if(sharedId!=null&&sharedId.get()!==id){height.set(targetHeight);}else{height.set(withSpring(targetHeight,BAR_SPRING_PHYSICS,'animate-always'));}}";
+    var7['code'] = var10;
+    var _closure1_slot16 = var7;
+    var7 = {};
+    var10 = 'function GuildsBarAnimatedItemWrapperTsx4(finished){const{isYeeted,cleanUp,runOnJS}=this.__closure;if(isYeeted&&finished&&cleanUp!=null){runOnJS(cleanUp)();}}';
+    var7['code'] = var10;
+    var _closure1_slot17 = var7;
+    var7 = {};
+    var10 = 'function GuildsBarAnimatedItemWrapperTsx5(){const{height}=this.__closure;const h=height.get();return{height:h,marginTop:-(h/2)};}';
+    var7['code'] = var10;
+    var _closure1_slot18 = var7;
+    var7 = {};
+    var10 = "function GuildsBarAnimatedItemWrapperTsx6(){const{withSpring,circle,GUILD_ITEM_SELECTED_BORDER_RADIUS,GUILD_ITEM_SIZE,CORNER_SPRING_PHYSICS}=this.__closure;return{borderRadius:withSpring(!circle?GUILD_ITEM_SELECTED_BORDER_RADIUS:GUILD_ITEM_SIZE/2,CORNER_SPRING_PHYSICS,'animate-always')};}";
+    var7['code'] = var10;
+    var _closure1_slot19 = var7;
+    var7 = {};
+    var10 = 'function GuildsBarAnimatedItemWrapperTsx7(){const{withSpring,panelX,MIN_OPACITY_REVEAL_WIDTH,MAX_OPACITY_REVEAL_WIDTH,HOME_DRAWER_FLING_PHYSICS}=this.__closure;return{opacity:withSpring(Math.max(0,Math.min(1,(panelX.get()-MIN_OPACITY_REVEAL_WIDTH)/MAX_OPACITY_REVEAL_WIDTH)),HOME_DRAWER_FLING_PHYSICS)};}';
+    var7['code'] = var10;
+    var _closure1_slot20 = var7;
+    var7 = 19;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/guilds_bar/native/GuildsBarAnimatedItemWrapper.tsx';
+    var7 = var8.bind(var9)(var7);
+    var6 = function GuildsBarAnimatedItemWrapper(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var7 = arg1;
@@ -1438,8 +1438,9 @@ case 102:
             return var1;
         }
     };
-    var3['default'] = var5;
-    var3['useGuildsBarAnimatedWrapperStyles'] = var4;
-    var3['UnreadIndicator'] = var2;
+    var3['default'] = var6;
+    var3['useGuildsBarAnimatedWrapperStyles'] = var5;
+    var3['UnreadIndicator'] = var4;
+    var3['renderUnreadIndicator'] = var2;
     return var1;
 })();

@@ -1,15 +1,15 @@
 // app/modules/game_community_upsell/native/GameCommunityMultiGuildUpsellModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var7 = metroImportDefault;
-    var8 = metroImportAll;
+    var7 = require;
+    var9 = metroImportDefault;
+    var10 = metroImportAll;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
-    var _closure1_slot2 = var8;
-    var _closure1_slot3 = var6;
-    var1 = function OneColumnGuildUpsellList(arg1) {
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var10;
+    var _closure1_slot3 = var8;
+    var4 = function OneColumnGuildUpsellList(arg1) {
         var2 = arg1;
         var7 = var2.suggestedGuilds;
         var9 = var2.contentContainerStyle;
@@ -115,8 +115,8 @@ case 2:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot15 = var1;
-    var1 = function TwoColumnGuildUpsellList(arg1) {
+    var _closure1_slot15 = var4;
+    var2 = function TwoColumnGuildUpsellList(arg1) {
         var3 = arg1;
         var2 = var3.suggestedGuilds;
         var _closure2_slot0 = var2;
@@ -380,51 +380,51 @@ case 25:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot16 = var2;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var4 = {};
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var6 = {};
     var1 = true;
-    var4['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = var11.bind(var12)(var3, var1, var6);
     var1 = 0;
-    var4 = var6[var1];
+    var6 = var8[var1];
     var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.View;
-    var _closure1_slot5 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot7 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.MIN_HEADER_HEIGHT;
-    var _closure1_slot8 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot9 = var7;
-    var4 = var4.jsxs;
-    var _closure1_slot10 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
-    var4 = function(arg1, arg2) {
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot4 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.View;
+    var _closure1_slot5 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.AnalyticEvents;
+    var _closure1_slot7 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.MIN_HEADER_HEIGHT;
+    var _closure1_slot8 = var6;
+    var6 = 5;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.jsx;
+    var _closure1_slot9 = var9;
+    var6 = var6.jsxs;
+    var _closure1_slot10 = var6;
+    var6 = 6;
+    var6 = var8[var6];
+    var10 = var7.bind(var1)(var6);
+    var9 = var10.createStyles;
+    var6 = function(arg1, arg2) {
         var9 = arg2;
         var1 = {};
         var2 = {};
@@ -496,11 +496,11 @@ case 25:
         var1['twoColumnRow'] = var2;
         return var1;
     };
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
-    var4 = {'itemVisiblePercentThreshold': 50, 'minimumViewTime': 500};
-    var _closure1_slot12 = var4;
-    var4 = function trackImpressionForCard(arg1, arg2, arg3, arg4, arg5) {
+    var6 = var9.bind(var10)(var6);
+    var _closure1_slot11 = var6;
+    var6 = {'itemVisiblePercentThreshold': 50, 'minimumViewTime': 500};
+    var _closure1_slot12 = var6;
+    var6 = function trackImpressionForCard(arg1, arg2, arg3, arg4, arg5) {
         var6 = arg2;
         var1 = arg1;
         var3 = var1.current;
@@ -539,8 +539,8 @@ case 25:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot13 = var4;
-    var4 = function useOnViewableItemsChanged(arg1, arg2, arg3) {
+    var _closure1_slot13 = var6;
+    var6 = function useOnViewableItemsChanged(arg1, arg2, arg3) {
         var7 = arg1;
         var5 = arg2;
         var6 = arg3;
@@ -698,14 +698,14 @@ case 28:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot14 = var4;
-    var4 = 25;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/game_community_upsell/native/GameCommunityMultiGuildUpsellModal.tsx';
-    var4 = var5.bind(var6)(var4);
-    var2 = function GameCommunityMultiGuildUpsellModal(arg1) {
+    var _closure1_slot14 = var6;
+    var6 = 25;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/game_community_upsell/native/GameCommunityMultiGuildUpsellModal.tsx';
+    var6 = var7.bind(var8)(var6);
+    var5 = function GameCommunityMultiGuildUpsellModal(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = arg1;
@@ -739,6 +739,7 @@ case 0:
             var3['location'] = var7;
             var3 = var5.bind(var6)(var3);
             var13 = var3.visualVariant;
+            var _closure2_slot2 = var13;
             var3 = 11;
             var3 = var23[var3];
             var7 = var26.bind(var4)(var3);
@@ -804,7 +805,9 @@ case 0:
             var15 = var5.bind(var6)(var2, var3);
             var5 = _closure1_slot4;
             var3 = var5.useCallback;
-            var2 = function(arg1, arg2, arg3) {
+            var2 = new Array(1);
+            var2[0] = var13;
+            var1 = function(arg1, arg2) {
                 var6 = arg1;
                 var4 = _closure1_slot2;
                 var5 = _closure1_slot3;
@@ -825,13 +828,12 @@ case 0:
                 var7 = arg2;
                 var2['game_id'] = var7;
                 var2['guild_id'] = var6;
-                var6 = arg3;
+                var6 = _closure2_slot2;
                 var2['variant'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var1 = new Array(0);
-            var14 = var3.bind(var5)(var2, var1);
+            var14 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot10;
             var2 = _closure1_slot5;
             var1 = {};
@@ -959,6 +961,8 @@ case 49:
             return var1;
         }
     };
-    var3['default'] = var2;
+    var3['default'] = var5;
+    var3['OneColumnGuildUpsellList'] = var4;
+    var3['TwoColumnGuildUpsellList'] = var2;
     return var1;
 })();

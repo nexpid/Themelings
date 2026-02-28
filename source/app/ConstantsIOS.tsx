@@ -38,8 +38,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var24['WELCOME'] = var2;
     var2 = 'LOGIN';
     var24['LOGIN'] = var2;
-    var2 = 'REGISTER';
-    var24['REGISTER'] = var2;
     var2 = 'REGISTER_IDENTITY';
     var24['REGISTER_IDENTITY'] = var2;
     var2 = 'REGISTER_DISPLAY_NAME';
@@ -319,8 +317,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['ACKNOWLEDGED_TOOLTIPS_KEY'] = var5;
     var5 = 'krisp_onboard';
     var12['KRISP_ONBOARD'] = var5;
-    var5 = 'screenshare_onboard';
-    var12['SCREENSHARE_ONBOARD'] = var5;
     var11 = {};
     var11['NONE'] = var2;
     var2 = 'slide-up';
