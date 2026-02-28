@@ -4483,7 +4483,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "app/modules/media_viewer/native/images/ic_eye.png",
+        "file": "app/modules/parent_tools/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -11179,16 +11179,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "screenshare_halfsheet_splash": {
-        "file": "app/modules/video_calls/native/images/screenshare_halfsheet_splash.png",
-        "hash": "61e9046e5aed4bcf7b8a3924d231642c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 300,
-        "height": 200
     },
     "screenshare_splash": {
         "file": "app/modules/video_calls/native/images/screenshare_splash.png",
