@@ -4456,7 +4456,7 @@
 { "file": "app/modules/main_tabs_v2/native/sidebar/details/screens/MuteSettingsActionSheet.tsx", "size": 18574 }
 { "file": "app/modules/main_tabs_v2/native/sidebar/details/screens/MuteSettingsScreen.tsx", "size": 29405 }
 { "file": "app/modules/main_tabs_v2/native/sidebar/details/screens/MuteSettingsUtils.tsx", "size": 18639 }
-{ "file": "app/modules/main_tabs_v2/native/sidebar/details/screens/PinsScreen.tsx", "size": 3902 }
+{ "file": "app/modules/main_tabs_v2/native/sidebar/details/screens/PinsScreen.tsx", "size": 3882 }
 { "file": "app/modules/main_tabs_v2/native/sidebar/details/screens/ThreadsScreen.tsx", "size": 9527 }
 { "file": "app/modules/main_tabs_v2/native/sidebar/details/stores/ChannelDetailsStore.tsx", "size": 8676 }
 { "file": "app/modules/main_tabs_v2/native/sidebar/member_list/SwipeToMemberListUtils.tsx", "size": 1903 }

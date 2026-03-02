@@ -20,8 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
-    var4 = 1;
-    var4 = var6[var4];
+    var11 = 1;
+    var4 = var6[var11];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot3 = var4;
@@ -44,7 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
-    var10 = {'flex': 1, 'backgroundColor': null, 'padding': 16};
+    var10 = {};
+    var10['flex'] = var11;
     var11 = 6;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
