@@ -11108,16 +11108,6 @@
         "width": 300,
         "height": 120
     },
-    "sample-profile": {
-        "file": "app/images/native/sample-profile.png",
-        "hash": "d0a71c633be999f3f91dfdd3607f840b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 180,
-        "height": 300
-    },
     "sample-profile-small": {
         "file": "app/images/native/sample-profile-small.png",
         "hash": "7a804469bba8c85980e03f6a77b01d49",
@@ -11221,7 +11211,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
+        "file": "app/modules/hub/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
