@@ -4,7 +4,7 @@ import { commitAnyway, cuteVersion } from "../shared";
 import { handleShellErr, join, type Progress } from "../util";
 
 const gzipWorkerURL = new URL("decompile-gzip.ts", import.meta.url).href;
-const decompilerPy = "src/decompilation/hbc_decompiler.py";
+const decompilerPy = "src/hermes_dec/decompilation/hbc_decompiler.py";
 
 export default async function decompile(progress: Progress, pathToBundle: string, tmpDir: string) {
 	const pathToDecompiler = join(tmpDir, "decompiler");
