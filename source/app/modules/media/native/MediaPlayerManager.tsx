@@ -1335,7 +1335,7 @@ case 97:
 case 96:
                     var10 = var6[var7];
                     if(!(var3 == var10)) { _fun0017_ip = 42; continue _fun0017 }
-case 98:
+case 63:
                     var5 = _closure1_slot20;
                     var4 = var5.setState;
                     var3 = {};
@@ -1348,12 +1348,12 @@ case 42:
                     var5 = _closure1_slot20;
                     var4 = var5.setState;
                     var3 = {};
-                    if(!var8) { _fun0017_ip = 99; continue _fun0017 }
-case 100:
+                    if(!var8) { _fun0017_ip = 98; continue _fun0017 }
+case 99:
                     var9 = var10.has;
                     var9 = var9.bind(var10)(var11);
                     var8 = !var9;
-case 99:
+case 98:
                     var3['showPip'] = var8;
                     var3['currentlyDisplayedChannelId'] = var7;
                     var3['displayedMediaItemIdsPerChannel'] = var6;

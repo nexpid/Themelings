@@ -1423,7 +1423,7 @@ case 0:
                     var6 = null;
                     var6 = var6 != var7;
                     if(!var6) { _fun0010_ip = 70; continue _fun0010 }
-case 15:
+case 71:
                     var7 = global;
                     var10 = var7.JSON;
                     var9 = var10.stringify;
@@ -1692,12 +1692,12 @@ case 0:
             var2 = var2.enabled;
             var3 = _closure1_slot10;
             if(var2) { _fun0011_ip = 56; continue _fun0011 }
-case 71:
+case 72:
             var2 = _closure1_slot20;
-            _fun0011_ip = 72; continue _fun0011;
+            _fun0011_ip = 73; continue _fun0011;
 case 56:
             var2 = _closure1_slot19;
-case 72:
+case 73:
             var1 = {};
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -216,8 +216,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['GAMESCOPE_CAPTURE'] = var1;
     var1 = 'ASYNC_VIDEO_INPUT_DEVICE_INIT';
     var14['ASYNC_VIDEO_INPUT_DEVICE_INIT'] = var1;
-    var1 = 'ASYNC_CLIPS_SOURCE_DEINIT';
-    var14['ASYNC_CLIPS_SOURCE_DEINIT'] = var1;
     var1 = 'PORT_AWARE_LATENCY_TESTING';
     var14['PORT_AWARE_LATENCY_TESTING'] = var1;
     var13 = {};

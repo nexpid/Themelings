@@ -1921,7 +1921,7 @@
 { "file": "app/modules/channel_list_v2/native/items/TextChannel.tsx", "size": 18090 }
 { "file": "app/modules/channel_list_v2/native/items/ThreadChannel.tsx", "size": 26470 }
 { "file": "app/modules/channel_list_v2/native/items/UnknownChannel.tsx", "size": 4811 }
-{ "file": "app/modules/channel_list_v2/native/items/VoiceChannel.tsx", "size": 21102 }
+{ "file": "app/modules/channel_list_v2/native/items/VoiceChannel.tsx", "size": 20817 }
 { "file": "app/modules/channel_list_v2/native/RedesignChannelList.tsx", "size": 47111 }
 { "file": "app/modules/channel_list_v2/native/RedesignChannelListConstants.tsx", "size": 4645 }
 { "file": "app/modules/channel_list_v2/native/RedesignGuildHeader.tsx", "size": 31217 }
@@ -1958,7 +1958,6 @@
 { "file": "app/modules/channel/getChannelIcon.tsx", "size": 5422 }
 { "file": "app/modules/channel/getConnectionsRoles.tsx", "size": 5253 }
 { "file": "app/modules/channel/getFlattedChannelList.tsx", "size": 2683 }
-{ "file": "app/modules/channel/getVoiceUserA11yLabel.tsx", "size": 3788 }
 { "file": "app/modules/channel/hooks/useRequiredLinkedLobbyApplicationAuthorization.tsx", "size": 10345 }
 { "file": "app/modules/channel/isRoleRequired.tsx", "size": 2965 }
 { "file": "app/modules/channel/native/ChannelActionSheetUtils.tsx", "size": 1428 }
@@ -2168,7 +2167,7 @@
 { "file": "app/modules/collectibles/native/FeedProductList.tsx", "size": 7738 }
 { "file": "app/modules/collectibles/native/FractionalNitroCollectedActionSheet.tsx", "size": 20219 }
 { "file": "app/modules/collectibles/native/FractionalNitroPreview.tsx", "size": 7333 }
-{ "file": "app/modules/collectibles/native/HeroBlock.tsx", "size": 33539 }
+{ "file": "app/modules/collectibles/native/HeroBlock.tsx", "size": 33490 }
 { "file": "app/modules/collectibles/native/hooks/useCardLayout.tsx", "size": 6737 }
 { "file": "app/modules/collectibles/native/hooks/useFilteredAndSortedProducts.tsx", "size": 7291 }
 { "file": "app/modules/collectibles/native/hooks/useScrollToInitialIndexOnce.tsx", "size": 3929 }
@@ -2266,7 +2265,7 @@
 { "file": "app/modules/connections/authorizeConnection.native.tsx", "size": 11238 }
 { "file": "app/modules/connections/ConnectionsHooks.tsx", "size": 16603 }
 { "file": "app/modules/connections/ConnectionsRoleActionCreators.tsx", "size": 13811 }
-{ "file": "app/modules/connections/ConnectionsUtils.tsx", "size": 50339 }
+{ "file": "app/modules/connections/ConnectionsUtils.tsx", "size": 50345 }
 { "file": "app/modules/connections/Constants.tsx", "size": 3438 }
 { "file": "app/modules/connections/DomainVerifyUtils.tsx", "size": 1240 }
 { "file": "app/modules/connections/FederatedSocialUtils.tsx", "size": 2110 }
@@ -3753,7 +3752,7 @@
 { "file": "app/modules/guild_sidebar/native/useShouldRenderChannelList.tsx", "size": 8540 }
 { "file": "app/modules/guild_sidebar/native/VoiceChannelUserLimit.tsx", "size": 6305 }
 { "file": "app/modules/guild_sidebar/native/VoiceUser.tsx", "size": 13299 }
-{ "file": "app/modules/guild_sidebar/native/VoiceUserItem.tsx", "size": 27232 }
+{ "file": "app/modules/guild_sidebar/native/VoiceUserItem.tsx", "size": 25191 }
 { "file": "app/modules/guild_sidebar/native/VoiceUserNameItem.tsx", "size": 9607 }
 { "file": "app/modules/guild_sidebar/native/VoiceUsers.tsx", "size": 13825 }
 { "file": "app/modules/guild_sidebar/native/VoiceUsersItem.js", "size": 5958 }
@@ -3811,7 +3810,7 @@
 { "file": "app/modules/guilds_bar/hooks/useGuildsBarSelectedGuildScroller.tsx", "size": 2988 }
 { "file": "app/modules/guilds_bar/native/GuildsBar.tsx", "size": 6230 }
 { "file": "app/modules/guilds_bar/native/GuildsBarActivityIndicator.tsx", "size": 13207 }
-{ "file": "app/modules/guilds_bar/native/GuildsBarAnimatedItemWrapper.tsx", "size": 54769 }
+{ "file": "app/modules/guilds_bar/native/GuildsBarAnimatedItemWrapper.tsx", "size": 41678 }
 { "file": "app/modules/guilds_bar/native/GuildsBarConstants.tsx", "size": 2206 }
 { "file": "app/modules/guilds_bar/native/GuildsBarCreateJoinButton.tsx", "size": 15372 }
 { "file": "app/modules/guilds_bar/native/GuildsBarDirectMessage.tsx", "size": 12889 }
@@ -4580,7 +4579,6 @@
 { "file": "app/modules/media_engine/AsyncAudioDeviceExperiment.tsx", "size": 1729 }
 { "file": "app/modules/media_engine/AsyncAudioDeviceMobileExperiment.tsx", "size": 1747 }
 { "file": "app/modules/media_engine/AsyncCameraInitExperiment.tsx", "size": 1682 }
-{ "file": "app/modules/media_engine/AsyncClipsSourceDeinitExperiment.tsx", "size": 2471 }
 { "file": "app/modules/media_engine/AudioBitrateAdaptationExperiment.tsx", "size": 1935 }
 { "file": "app/modules/media_engine/AudioShortCircuitExperiment.tsx", "size": 2539 }
 { "file": "app/modules/media_engine/AudioShortCircuitGuildExperiment.tsx", "size": 2559 }
@@ -4711,7 +4709,7 @@
 { "file": "app/modules/media/native/AttachmentPreview.tsx", "size": 19616 }
 { "file": "app/modules/media/native/Caption.tsx", "size": 3216 }
 { "file": "app/modules/media/native/IosImageTypesManager.tsx", "size": 14865 }
-{ "file": "app/modules/media/native/MediaPlayerManager.tsx", "size": 51978 }
+{ "file": "app/modules/media/native/MediaPlayerManager.tsx", "size": 51977 }
 { "file": "app/modules/media/VideoActionCreators.tsx", "size": 1308 }
 { "file": "app/modules/media/web/utils/DiscordImageFactory.tsx", "size": 3400 }
 { "file": "app/modules/media/web/utils/DiscordImagePng.tsx", "size": 10178 }
@@ -5893,10 +5891,10 @@
 { "file": "app/modules/read_states/ReadStateUtils.tsx", "size": 3042 }
 { "file": "app/modules/read_states/trackAckMessages.tsx", "size": 3658 }
 { "file": "app/modules/reanimated/native/cheapWorkletShallowEqual.tsx", "size": 4422 }
-{ "file": "app/modules/reanimated/native/REAWorkaroundView.tsx", "size": 1386 }
+{ "file": "app/modules/reanimated/native/REAWorkaroundView.tsx", "size": 2430 }
 { "file": "app/modules/reanimated/native/useStateFromSharedValue.tsx", "size": 18401 }
 { "file": "app/modules/reanimated/ReanimatedHelperTypes.tsx", "size": 3270 }
-{ "file": "app/modules/reanimated/ReanimatedRexport.tsx", "size": 1463 }
+{ "file": "app/modules/reanimated/ReanimatedRexport.tsx", "size": 1595 }
 { "file": "app/modules/reanimated/utils/updateSharedValueIfChanged.native.tsx", "size": 7565 }
 { "file": "app/modules/rebrand/native/TextStyles.tsx", "size": 3019 }
 { "file": "app/modules/recent_avatars/RecentAvatarsTypes.tsx", "size": 864 }
@@ -6346,7 +6344,7 @@
 { "file": "app/modules/settings/native/renderer/SettingLayout.tsx", "size": 2542 }
 { "file": "app/modules/settings/native/renderer/SettingListItemHighlight.tsx", "size": 10325 }
 { "file": "app/modules/settings/native/renderer/SettingListRenderer.tsx", "size": 21245 }
-{ "file": "app/modules/settings/native/renderer/SettingRenderer.tsx", "size": 77357 }
+{ "file": "app/modules/settings/native/renderer/SettingRenderer.tsx", "size": 77360 }
 { "file": "app/modules/settings/native/renderer/SettingRendererConstants.tsx", "size": 2299 }
 { "file": "app/modules/settings/native/renderer/SettingRendererUtils.tsx", "size": 34709 }
 { "file": "app/modules/settings/native/renderer/SettingSegmentedControlRenderer.tsx", "size": 14787 }
@@ -7705,7 +7703,7 @@
 { "file": "app/modules/voice_panel/native/prejoin/VoicePanelPreJoinUtils.tsx", "size": 8754 }
 { "file": "app/modules/voice_panel/native/shared/CircleWithCutout.tsx", "size": 6125 }
 { "file": "app/modules/voice_panel/native/shared/CircleWithCutoutUtils.tsx", "size": 5553 }
-{ "file": "app/modules/voice_panel/native/shared/FormComponents.tsx", "size": 21146 }
+{ "file": "app/modules/voice_panel/native/shared/FormComponents.tsx", "size": 20412 }
 { "file": "app/modules/voice_panel/native/shared/VoicePanelChannelOptInNotice.tsx", "size": 3979 }
 { "file": "app/modules/voice_panel/native/shared/VoicePanelDismissableContent.tsx", "size": 9791 }
 { "file": "app/modules/voice_panel/native/shared/VoicePanelEmoji.tsx", "size": 5652 }
@@ -7729,7 +7727,7 @@
 { "file": "app/modules/voice_panel/native/utils/useSelfHasVideo.tsx", "size": 2638 }
 { "file": "app/modules/voice_panel/native/utils/useStableParticipant.tsx", "size": 14056 }
 { "file": "app/modules/voice_panel/native/utils/VoicePanelControlsUtils.tsx", "size": 3737 }
-{ "file": "app/modules/voice_panel/native/utils/VoiceStateIconUtils.tsx", "size": 13886 }
+{ "file": "app/modules/voice_panel/native/utils/VoiceStateIconUtils.tsx", "size": 10506 }
 { "file": "app/modules/voice_panel/native/VoicePanelAccessibilityView.tsx", "size": 3127 }
 { "file": "app/modules/voice_panel/native/VoicePanelContainer.tsx", "size": 4858 }
 { "file": "app/modules/voice_panel/native/VoicePanelController.tsx", "size": 189031 }
@@ -7897,7 +7895,7 @@
 { "file": "app/stores/LocalActivityStore.tsx", "size": 30175 }
 { "file": "app/stores/MaskedLinkStore.tsx", "size": 16581 }
 { "file": "app/stores/MaskedLinkStoreMethodsAdditional.native.tsx", "size": 2073 }
-{ "file": "app/stores/MediaEngineStore.tsx", "size": 417280 }
+{ "file": "app/stores/MediaEngineStore.tsx", "size": 409313 }
 { "file": "app/stores/MessageReactionsStore.tsx", "size": 12714 }
 { "file": "app/stores/MessageStore.tsx", "size": 88649 }
 { "file": "app/stores/MFAStore.tsx", "size": 8869 }
@@ -8164,7 +8162,7 @@
 { "file": "app/utils/PurchaseTokenUtils.tsx", "size": 6419 }
 { "file": "app/utils/QueryStringUtils.tsx", "size": 1127 }
 { "file": "app/utils/Queue.tsx", "size": 9674 }
-{ "file": "app/utils/ReadyPayloadUtils.tsx", "size": 44958 }
+{ "file": "app/utils/ReadyPayloadUtils.tsx", "size": 44959 }
 { "file": "app/utils/RegexUtils.tsx", "size": 882 }
 { "file": "app/utils/RelationshipUtils.tsx", "size": 4018 }
 { "file": "app/utils/ReleaseChannelUtils.native.tsx", "size": 2241 }
@@ -8691,15 +8689,15 @@
 { "file": "discord_common/js/packages/media-engine/BaseConnection.tsx", "size": 41745 }
 { "file": "discord_common/js/packages/media-engine/BaseConnectionEvent.tsx", "size": 3651 }
 { "file": "discord_common/js/packages/media-engine/ConnectionEventFramerateReducer.tsx", "size": 9809 }
-{ "file": "discord_common/js/packages/media-engine/Constants.tsx", "size": 14938 }
+{ "file": "discord_common/js/packages/media-engine/Constants.tsx", "size": 14851 }
 { "file": "discord_common/js/packages/media-engine/index.tsx", "size": 4706 }
-{ "file": "discord_common/js/packages/media-engine/MediaEngineDummy.tsx", "size": 33037 }
+{ "file": "discord_common/js/packages/media-engine/MediaEngineDummy.tsx", "size": 32791 }
 { "file": "discord_common/js/packages/media-engine/MediaEngineEvent.tsx", "size": 2517 }
 { "file": "discord_common/js/packages/media-engine/MediaSinkWantsLadder.tsx", "size": 20324 }
 { "file": "discord_common/js/packages/media-engine/native/Connection.tsx", "size": 261119 }
-{ "file": "discord_common/js/packages/media-engine/native/Constants.tsx", "size": 9481 }
+{ "file": "discord_common/js/packages/media-engine/native/Constants.tsx", "size": 9395 }
 { "file": "discord_common/js/packages/media-engine/native/Devices.tsx", "size": 10022 }
-{ "file": "discord_common/js/packages/media-engine/native/index.tsx", "size": 205142 }
+{ "file": "discord_common/js/packages/media-engine/native/index.tsx", "size": 203587 }
 { "file": "discord_common/js/packages/media-engine/native/inject.tsx", "size": 4205 }
 { "file": "discord_common/js/packages/media-engine/native/ios/VoiceEngine.tsx", "size": 40626 }
 { "file": "discord_common/js/packages/media-engine/native/ios/VoiceEngineModule.android.tsx", "size": 6441 }
@@ -8716,17 +8714,17 @@
 { "file": "discord_common/js/packages/performance-utils/index.js", "size": 4338 }
 { "file": "discord_common/js/packages/performance-utils/performance-polyfill.js", "size": 12021 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_experimentation/v1/experiment.tsx", "size": 112553 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_experimentation/v1/rules.tsx", "size": 493743 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_experimentation/v1/rules.tsx", "size": 493745 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx", "size": 40496 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 72284 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/frecency_user_settings.tsx", "size": 197370 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 931923 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 931921 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 14092 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx", "size": 86329 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx", "size": 24633 }
-{ "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_customization_banner.tsx", "size": 24691 }
+{ "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_customization_banner.tsx", "size": 24693 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon_coachmark.tsx", "size": 16408 }
-{ "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon.tsx", "size": 16565 }
+{ "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon.tsx", "size": 16566 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_plan_selection_card_banner.tsx", "size": 30763 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_reminder_coachmark.tsx", "size": 16424 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_reminder_nagbar.tsx", "size": 11844 }
@@ -8741,7 +8739,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/safety_common/v1/classification_type.tsx", "size": 82592 }
 { "file": "discord_common/js/packages/protos/discord_protos/safety_common/v1/safety_state.tsx", "size": 79482 }
 { "file": "discord_common/js/packages/protos/discord_protos/users/v1/user.tsx", "size": 314144 }
-{ "file": "discord_common/js/packages/protos/google/protobuf/timestamp.tsx", "size": 27271 }
+{ "file": "discord_common/js/packages/protos/google/protobuf/timestamp.tsx", "size": 27270 }
 { "file": "discord_common/js/packages/protos/google/protobuf/wrappers.tsx", "size": 92900 }
 { "file": "discord_common/js/packages/rpc-schema/definitions.tsx", "size": 29064 }
 { "file": "discord_common/js/packages/rpc-schema/helpers.tsx", "size": 1309 }
@@ -8814,7 +8812,7 @@
 { "file": "discord_common/js/packages/rtn-codegen/js/PassthroughTouchNativeComponent.tsx", "size": 1545 }
 { "file": "discord_common/js/packages/rtn-codegen/js/PortalViewNativeComponent.tsx", "size": 1581 }
 { "file": "discord_common/js/packages/rtn-codegen/js/QRScannerNativeComponent.tsx", "size": 1536 }
-{ "file": "discord_common/js/packages/rtn-codegen/js/ReanimatedViewNativeComponent.tsx", "size": 1099 }
+{ "file": "discord_common/js/packages/rtn-codegen/js/ReanimatedViewNativeComponent.tsx", "size": 1140 }
 { "file": "discord_common/js/packages/rtn-codegen/js/SelectActionComponentViewNativeComponent.tsx", "size": 1568 }
 { "file": "discord_common/js/packages/rtn-codegen/js/SelfMeasuredNativeComponent.tsx", "size": 1102 }
 { "file": "discord_common/js/packages/rtn-codegen/js/StickerPickerListRowNativeComponent.tsx", "size": 1727 }

@@ -881,7 +881,6 @@ case 46:
                 return var1;
             };
             var20['ItemSeparatorComponent'] = var25;
-            var20['initialScrollIndex'] = var23;
             var20 = var24.bind(var5)(var22, var20);
             _fun0001_ip = 49; continue _fun0001;
 case 44:
