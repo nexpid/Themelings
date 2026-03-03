@@ -37,15 +37,12 @@ case 0:
             var1 = var4[var1];
             var6 = undefined;
             var1 = var2.bind(var6)(var1);
-            var7 = var1.ClipsExperiment;
-            var4 = var7.getCurrentConfig;
-            var2 = {};
-            var1 = 'isClipsClientCapable';
-            var2['location'] = var1;
+            var4 = var1.ClipsExperiment;
+            var2 = var4.getConfig;
             var1 = {};
-            var8 = false;
-            var1['autoTrackExposure'] = var8;
-            var1 = var4.bind(var7)(var2, var1);
+            var7 = 'isClipsClientCapable';
+            var1['location'] = var7;
+            var1 = var2.bind(var4)(var1);
             var1 = var1.ignorePlatformRestriction;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:

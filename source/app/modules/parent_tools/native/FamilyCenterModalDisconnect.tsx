@@ -254,7 +254,7 @@ case 0:
             var9 = 19;
             var9 = var12[var9];
             var9 = var15.bind(var4)(var9);
-            var10 = var9.FormRow;
+            var10 = var9.TableRow;
             var9 = {};
             var9['disabled'] = var17;
             var21 = function onPress() {
@@ -286,7 +286,7 @@ case 0:
             var13 = {};
             var13['selected'] = var18;
             var13 = var21.bind(var4)(var19, var13);
-            var9['leading'] = var13;
+            var9['icon'] = var13;
             var9 = var11.bind(var4)(var10, var9);
             var8[2] = var9;
             var5['children'] = var8;

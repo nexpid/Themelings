@@ -771,8 +771,14 @@ case 30:
                 var1 = {};
                 var5 = var24.form;
                 var1['style'] = var5;
-                var5 = var15.props;
-                var5 = var5.contentContainerStyle;
+                var7 = {};
+                var5 = 16;
+                var7['paddingTop'] = var5;
+                var5 = new Array(2);
+                var5[0] = var7;
+                var7 = var15.props;
+                var7 = var7.contentContainerStyle;
+                var5[1] = var7;
                 var1['contentContainerStyle'] = var5;
                 var7 = _closure1_slot18;
                 var5 = 26;

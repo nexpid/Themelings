@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = {'id': 1, 'label': 'Enable Hang Status with illocons - chilling default'};
     var10 = {'enableHangStatus': true, 'setDefaultStatus': true, 'showEmptyChannelTopic': false, 'allowPermanentClear': false, 'defaultStatusVariant': 'illocons'};
     var5['config'] = var10;
-    var10 = new Array(4);
+    var10 = new Array(5);
     var10[0] = var5;
     var11 = {'id': 2, 'label': 'Enable Hang Status with Twemoji - chilling default'};
     var5 = 2;
@@ -43,6 +43,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = {'enableHangStatus': true, 'setDefaultStatus': true, 'showEmptyChannelTopic': false, 'allowPermanentClear': true, 'defaultStatusVariant': 'twemojimild'};
     var11['config'] = var12;
     var10[3] = var11;
+    var11 = {'id': 5, 'label': 'Enable Hang Status with no default, allow clearing statuses'};
+    var12 = {'enableHangStatus': true, 'setDefaultStatus': false, 'showEmptyChannelTopic': false, 'allowPermanentClear': true, 'defaultStatusVariant': 'illocons'};
+    var11['config'] = var12;
+    var10[4] = var11;
     var4['treatments'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot0 = var4;

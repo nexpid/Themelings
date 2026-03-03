@@ -1,4 +1,4 @@
-// app/modules/chat/native/DirectJumpNewMessagesExperiment.tsx
+// app/modules/auth/experiment/EmailFirstRegistrationExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,12 +16,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var2);
     var7 = var8.createExperiment;
-    var2 = {'kind': 'user', 'id': '2025-01_direct_jump_new_messages', 'label': 'Jump directly to new messages'};
+    var2 = {'id': '2026-02_email_registration_rollout', 'kind': 'user', 'label': 'Email First Registration Rollout'};
     var4 = {};
     var9 = false;
     var4['enabled'] = var9;
     var2['defaultConfig'] = var4;
-    var10 = {'id': 1, 'label': 'Enable'};
+    var10 = {'id': 1, 'label': 'Enable email-first registration for low-risk countries'};
     var4 = 1;
     var9 = {};
     var9['enabled'] = var11;
@@ -33,8 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/chat/native/DirectJumpNewMessagesExperiment.tsx';
+    var4 = 'modules/auth/experiment/EmailFirstRegistrationExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var3['EmailFirstRegistrationExperiment'] = var2;
     return var1;
 })();

@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var7;
     var4 = var4.jsxs;
     var _closure1_slot6 = var4;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -44,8 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function ChannelPickerActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var5 = arg1;
-            var _closure2_slot0 = var5;
+            var6 = arg1;
+            var _closure2_slot0 = var6;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
@@ -53,36 +53,36 @@ case 0:
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
-            var19 = var1.bottom;
-            var16 = var5.header;
-            var1 = var5.guild;
+            var17 = var1.bottom;
+            var14 = var6.header;
+            var1 = var6.guild;
             var _closure2_slot1 = var1;
-            var15 = var5.channels;
-            var _closure2_slot2 = var15;
-            var1 = var5.onSelect;
+            var13 = var6.channels;
+            var _closure2_slot2 = var13;
+            var1 = var6.onSelect;
             var _closure2_slot3 = var1;
-            var17 = var5.selectedChannel;
-            var12 = null;
-            var1 = var12 != var16;
-            var7 = undefined;
+            var15 = var6.selectedChannel;
+            var10 = null;
+            var1 = var10 != var14;
+            var5 = undefined;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var8 = var16.title;
-            var1 = var16.onClose;
+            var9 = var14.title;
+            var1 = var14.onClose;
             var _closure2_slot4 = var1;
-            var1 = var12 != var1;
-            var6 = undefined;
+            var1 = var10 != var1;
+            var8 = undefined;
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var1 = 5;
-            var1 = var10[var1];
+            var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.ActionSheetCloseButton;
             var1 = {};
-            var10 = function onPress() {
+            var12 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 6;
@@ -95,103 +95,98 @@ case 5:
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var1['onPress'] = var10;
-            var6 = var3.bind(var4)(var2, var1);
+            var1['onPress'] = var12;
+            var8 = var3.bind(var4)(var2, var1);
 case 4:
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var1 = 7;
-            var1 = var10[var1];
+            var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BottomSheetTitleHeader;
             var1 = {};
-            var1['title'] = var8;
-            var1['trailing'] = var6;
-            var7 = var3.bind(var4)(var2, var1);
+            var1['title'] = var9;
+            var1['trailing'] = var8;
+            var5 = var3.bind(var4)(var2, var1);
 case 2:
-            var1 = var5.noChannelOptionLabel;
-            var1 = var12 != var1;
-            var14 = undefined;
+            var1 = var6.noChannelOptionLabel;
+            var1 = var10 != var1;
+            var12 = undefined;
             if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var3 = _closure1_slot5;
-            var6 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var8 = _closure1_slot0;
+            var18 = _closure1_slot2;
             var1 = 8;
-            var1 = var11[var1];
-            var1 = var6.bind(var4)(var1);
+            var1 = var18[var1];
+            var1 = var8.bind(var4)(var1);
             var2 = var1.TableRadioRow;
             var1 = {};
-            var8 = '';
-            var1['value'] = var8;
-            var5 = var5.noChannelOptionLabel;
-            var1['label'] = var5;
-            var5 = 9;
-            var5 = var11[var5];
-            var5 = var6.bind(var4)(var5);
-            var6 = var5.TableRowIcon;
-            var5 = {};
-            var10 = _closure1_slot1;
-            var8 = 10;
-            var8 = var11[var8];
-            var8 = var10.bind(var4)(var8);
-            var5['source'] = var8;
-            var5 = var3.bind(var4)(var6, var5);
-            var1['icon'] = var5;
-            var14 = var3.bind(var4)(var2, var1);
+            var9 = '';
+            var1['value'] = var9;
+            var6 = var6.noChannelOptionLabel;
+            var1['label'] = var6;
+            var6 = 9;
+            var6 = var18[var6];
+            var6 = var8.bind(var4)(var6);
+            var8 = var6.TableRowIcon;
+            var6 = {};
+            var16 = _closure1_slot1;
+            var9 = 10;
+            var9 = var18[var9];
+            var9 = var16.bind(var4)(var9);
+            var6['source'] = var9;
+            var6 = var3.bind(var4)(var8, var6);
+            var1['icon'] = var6;
+            var12 = var3.bind(var4)(var2, var1);
 case 6:
             var3 = _closure1_slot5;
-            var10 = _closure1_slot0;
-            var18 = _closure1_slot2;
+            var8 = _closure1_slot0;
+            var16 = _closure1_slot2;
             var1 = 11;
-            var1 = var18[var1];
-            var1 = var10.bind(var4)(var1);
-            var2 = var1.RedesignCompat;
+            var1 = var16[var1];
+            var1 = var8.bind(var4)(var1);
+            var2 = var1.ActionSheet;
             var1 = {};
+            var6 = true;
+            var1['scrollable'] = var6;
+            var1['header'] = var5;
             var5 = 12;
-            var5 = var18[var5];
-            var5 = var10.bind(var4)(var5);
-            var6 = var5.ActionSheet;
+            var5 = var16[var5];
+            var5 = var8.bind(var4)(var5);
+            var6 = var5.BottomSheetScrollView;
             var5 = {};
-            var8 = true;
-            var5['scrollable'] = var8;
-            var5['header'] = var7;
-            var7 = 13;
-            var7 = var18[var7];
-            var7 = var10.bind(var4)(var7);
-            var8 = var7.BottomSheetScrollView;
-            var7 = {};
-            var11 = {};
-            var11['paddingBottom'] = var19;
-            var7['contentContainerStyle'] = var11;
-            var11 = _closure1_slot6;
-            var9 = 14;
-            var9 = var18[var9];
-            var9 = var10.bind(var4)(var9);
-            var10 = var9.TableRadioGroup;
             var9 = {};
-            var19 = var12 == var17;
-            var18 = undefined;
-            if(var19) { _fun0001_ip = 8; continue _fun0001 }
+            var9['paddingBottom'] = var17;
+            var5['contentContainerStyle'] = var9;
+            var9 = _closure1_slot6;
+            var7 = 13;
+            var7 = var16[var7];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.TableRadioGroup;
+            var7 = {};
+            var17 = var10 == var15;
+            var16 = undefined;
+            if(var17) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var18 = var17.id;
+            var16 = var15.id;
 case 8:
-            var19 = var12 != var18;
-            var17 = '';
-            if(!var19) { _fun0001_ip = 10; continue _fun0001 }
+            var17 = var10 != var16;
+            var15 = '';
+            if(!var17) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var17 = var18;
+            var15 = var16;
 case 10:
-            var9['defaultValue'] = var17;
-            var17 = var12 == var16;
-            var12 = undefined;
-            if(var17) { _fun0001_ip = 12; continue _fun0001 }
+            var7['defaultValue'] = var15;
+            var15 = var10 == var14;
+            var10 = undefined;
+            if(var15) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var12 = var16.title;
+            var10 = var14.title;
 case 12:
-            var9['accessibilityLabel'] = var12;
-            var12 = function onChange(arg1) {
+            var7['accessibilityLabel'] = var10;
+            var10 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = arg1;
@@ -246,17 +241,17 @@ case 16:
                     return var1;
                 }
             };
-            var9['onChange'] = var12;
-            var12 = new Array(2);
-            var12[0] = var14;
-            var14 = var15.map;
-            var13 = function(arg1) {
+            var7['onChange'] = var10;
+            var10 = new Array(2);
+            var10[0] = var12;
+            var12 = var13.map;
+            var11 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = arg1;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 14;
                     var2 = var9[var2];
                     var5 = undefined;
                     var4 = var8.bind(var5)(var2);
@@ -271,7 +266,7 @@ case 0:
                     var2 = {};
                     var6 = var1.id;
                     var2['value'] = var6;
-                    var6 = 16;
+                    var6 = 15;
                     var6 = var9[var6];
                     var11 = var8.bind(var5)(var6);
                     var9 = var11.computeChannelName;
@@ -300,12 +295,10 @@ case 19:
                     return var1;
                 }
             };
-            var13 = var14.bind(var15)(var13);
-            var12[1] = var13;
-            var9['children'] = var12;
-            var9 = var11.bind(var4)(var10, var9);
-            var7['children'] = var9;
-            var7 = var3.bind(var4)(var8, var7);
+            var11 = var12.bind(var13)(var11);
+            var10[1] = var11;
+            var7['children'] = var10;
+            var7 = var9.bind(var4)(var8, var7);
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

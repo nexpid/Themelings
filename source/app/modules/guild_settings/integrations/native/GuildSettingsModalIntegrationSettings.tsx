@@ -633,8 +633,14 @@ case 19:
                 var9 = 1;
                 var7['flex'] = var9;
                 var5['style'] = var7;
-                var7 = var22.props;
-                var7 = var7.contentContainerStyle;
+                var9 = {};
+                var17 = 16;
+                var9['paddingTop'] = var17;
+                var7 = new Array(2);
+                var7[0] = var9;
+                var9 = var22.props;
+                var9 = var9.contentContainerStyle;
+                var7[1] = var9;
                 var5['contentContainerStyle'] = var7;
                 var7 = 26;
                 var7 = var16[var7];
@@ -659,7 +665,6 @@ case 19:
                 var9 = var7.TableRowGroup;
                 var7 = {};
                 var25 = _closure1_slot13;
-                var17 = 16;
                 var16 = var16[var17];
                 var16 = var19.bind(var4)(var16);
                 var19 = var16.TableRow;

@@ -169,6 +169,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GAME_CONSOLE_DEVICE_LIST'] = var2;
     var2 = 'impression_game_detection_report_modal';
     var4['GAME_DETECTION_REPORT_MODAL'] = var2;
+    var2 = 'impression_game_server_activity_button';
+    var4['GAME_SERVER_ACTIVITY_BUTTON'] = var2;
     var2 = 'impression_gdm_settings_invites';
     var4['GDM_SETTINGS_INVITES'] = var2;
     var2 = 'impression_gift_intent_action_button';

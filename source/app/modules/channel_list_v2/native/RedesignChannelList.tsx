@@ -134,7 +134,7 @@ case 0:
             var1 = var4[var1];
             var5 = undefined;
             var6 = var3.bind(var5)(var1);
-            var1 = var6.useFavoritesServerChannelList;
+            var1 = var6.useFavoritesGuildChannelList;
             var7 = var1.bind(var6)();
             var1 = 41;
             var1 = var4[var1];

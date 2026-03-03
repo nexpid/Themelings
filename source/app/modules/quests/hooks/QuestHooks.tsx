@@ -3813,12 +3813,17 @@ case 237:
     var7 = function useQuestCompletionDetails(arg1) {
         _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
 case 0:
-            var3 = arg1;
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 11;
-            var1 = var5[var1];
+            var2 = arg1;
+            var8 = arguments[1];
             var5 = undefined;
+            if(!(var8 === var5)) { _fun0044_ip = 32; continue _fun0044 }
+case 238:
+            var8 = false;
+case 32:
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 11;
+            var1 = var6[var1];
             var7 = var4.bind(var5)(var1);
             var6 = var7.useStateFromStores;
             var1 = _closure1_slot6;
@@ -3829,55 +3834,57 @@ case 0:
                 var1 = var1.locale;
                 return var1;
             };
-            var9 = var6.bind(var7)(var4, var1);
+            var7 = var6.bind(var7)(var4, var1);
             var1 = _closure1_slot30;
-            var1 = var1.bind(var5)(var3);
-            var8 = var1.percentComplete;
+            var1 = var1.bind(var5)(var2);
+            var6 = var1.percentComplete;
             var1 = _closure1_slot54;
-            var3 = var1.bind(var5)(var3);
+            var2 = var1.bind(var5)(var2);
             var4 = null;
-            if(!(var4 != var3)) { _fun0044_ip = 11; continue _fun0044 }
-case 238:
-            var8 = var3.percentComplete;
-case 11:
+            if(!(var4 != var2)) { _fun0044_ip = 144; continue _fun0044 }
+case 125:
+            var6 = var2.percentComplete;
+case 144:
             var1 = {};
-            var1['completedRatio'] = var8;
-            var6 = 100;
-            var6 = var6 * var8;
-            var1['percentComplete'] = var6;
-            if(!(var4 == var3)) { _fun0044_ip = 232; continue _fun0044 }
+            var1['completedRatio'] = var6;
+            var9 = 100;
+            var9 = var9 * var6;
+            var1['percentComplete'] = var9;
+            if(!(var4 != var2)) { _fun0044_ip = 198; continue _fun0044 }
+case 142:
+            if(var8) { _fun0044_ip = 198; continue _fun0044 }
 case 239:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 36;
-            var2 = var7[var2];
-            var7 = var6.bind(var5)(var2);
-            var6 = var7.formatPercent;
-            var2 = {};
-            var10 = 'floor';
-            var2['roundingMode'] = var10;
-            var2 = var6.bind(var7)(var9, var8, var2);
-            _fun0044_ip = 240; continue _fun0044;
-case 232:
-            var6 = var4 == var3;
-            var7 = undefined;
-            if(var6) { _fun0044_ip = 60; continue _fun0044 }
-case 120:
-            var7 = var3.progress;
-case 60:
-            var4 = var4 == var3;
-            var6 = undefined;
-            if(var4) { _fun0044_ip = 20; continue _fun0044 }
-case 241:
-            var6 = var3.target;
-case 20:
-            var3 = global;
-            var3 = var3.HermesInternal;
-            var5 = var3.concat;
-            var4 = '';
-            var3 = '/';
-            var2 = var5.bind(var4)(var7, var3, var6);
+            var8 = var4 == var2;
+            var10 = undefined;
+            if(var8) { _fun0044_ip = 240; continue _fun0044 }
+case 175:
+            var10 = var2.progress;
 case 240:
+            var4 = var4 == var2;
+            var9 = undefined;
+            if(var4) { _fun0044_ip = 57; continue _fun0044 }
+case 58:
+            var9 = var2.target;
+case 57:
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var8 = var2.concat;
+            var4 = '';
+            var2 = '/';
+            var2 = var8.bind(var4)(var10, var2, var9);
+            _fun0044_ip = 241; continue _fun0044;
+case 198:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 36;
+            var3 = var8[var3];
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.formatPercent;
+            var3 = {};
+            var8 = 'floor';
+            var3['roundingMode'] = var8;
+            var2 = var4.bind(var5)(var7, var6, var3);
+case 241:
             var1['completedRatioDisplay'] = var2;
             return var1;
         }

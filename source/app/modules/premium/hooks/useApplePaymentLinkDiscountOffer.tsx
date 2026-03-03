@@ -299,10 +299,10 @@ case 26:
             _closure2_slot10 = var11;
             var7 = var9 != var3;
             var9 = null;
-            if(!var7) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
-            var9 = var3.id;
+            if(!var7) { _fun0002_ip = 19; continue _fun0002 }
 case 28:
+            var9 = var3.id;
+case 19:
             _closure2_slot11 = var9;
             var7 = _closure1_slot5;
             var5 = var7.useRef;
@@ -319,13 +319,13 @@ case 28:
 case 0:
                     var2 = _closure2_slot12;
                     var2 = var2.current;
-                    if(var2) { _fun0005_ip = 30; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 29; continue _fun0005 }
 case 24:
                     var4 = _closure2_slot10;
                     var3 = null;
                     var2 = var3 == var4;
-case 30:
-                    if(var2) { _fun0005_ip = 31; continue _fun0005 }
+case 29:
+                    if(var2) { _fun0005_ip = 30; continue _fun0005 }
 case 11:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -349,7 +349,7 @@ case 11:
                     var2 = _closure2_slot12;
                     var1 = true;
                     var2['current'] = var1;
-case 31:
+case 30:
                     var1 = undefined;
                     return var1;
                 }

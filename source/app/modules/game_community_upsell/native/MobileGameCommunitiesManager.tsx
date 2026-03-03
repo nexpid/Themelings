@@ -148,36 +148,36 @@ case 0:
                 var1 = arg1;
                 var5 = var1.result;
                 var4 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 6;
-                var2 = var2[var1];
+                var1 = _closure1_slot2;
+                var6 = 6;
+                var2 = var1[var6];
                 var1 = undefined;
                 var2 = var4.bind(var1)(var2);
-                var6 = var2.GameCommunityUpsellMultiExperiment;
-                var4 = var6.getConfig;
+                var7 = var2.GameCommunityUpsellMultiExperiment;
+                var4 = var7.getConfig;
                 var2 = {};
-                var7 = 'MobileGameCommunitiesManager';
-                var2['location'] = var7;
-                var2 = var4.bind(var6)(var2);
+                var8 = 'MobileGameCommunitiesManager';
+                var2['location'] = var8;
+                var2 = var4.bind(var7)(var2);
                 var2 = var2.enabled;
                 if(!var2) { _fun0003_ip = 9; continue _fun0003 }
 case 5:
                 var4 = _closure1_slot0;
-                var6 = _closure1_slot2;
+                var7 = _closure1_slot2;
                 var2 = 7;
-                var2 = var6[var2];
+                var2 = var7[var2];
                 var4 = var4.bind(var1)(var2);
                 var2 = var4.getGameIdsForDetectedGames;
                 var5 = var2.bind(var4)(var5);
                 var2 = global;
-                var6 = var2.Date;
-                var4 = var6.now;
-                var6 = var4.bind(var6)();
-                var7 = _closure1_slot8;
-                var4 = var7.getLastFetchedAt;
-                var4 = var4.bind(var7)();
-                var7 = var6 - var4;
-                var6 = var5.some;
+                var7 = var2.Date;
+                var4 = var7.now;
+                var7 = var4.bind(var7)();
+                var8 = _closure1_slot8;
+                var4 = var8.getLastFetchedAt;
+                var4 = var4.bind(var8)();
+                var8 = var7 - var4;
+                var7 = var5.some;
                 var4 = function(arg1) {
                     var2 = _closure1_slot8;
                     var1 = var2.getLastFetchedGameIds;
@@ -188,25 +188,25 @@ case 5:
                     var1 = !var1;
                     return var1;
                 };
-                var4 = var6.bind(var5)(var4);
-                var6 = 86400000;
-                if(!(!(var7 >= var6))) { _fun0003_ip = 10; continue _fun0003 }
+                var4 = var7.bind(var5)(var4);
+                var7 = 86400000;
+                if(!(!(var8 >= var7))) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
                 if(!var4) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var6 = _closure1_slot8;
-                var4 = var6.getDismissedGuildIds;
-                var7 = var4.bind(var6)();
+                var7 = _closure1_slot8;
+                var4 = var7.getDismissedGuildIds;
+                var8 = var4.bind(var7)();
                 var4 = _closure1_slot1;
-                var6 = _closure1_slot2;
+                var7 = _closure1_slot2;
                 var3 = 8;
-                var3 = var6[var3];
+                var3 = var7[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.fetchMobileGameCommunities;
-                var6 = var2.Array;
-                var2 = var6.from;
-                var2 = var2.bind(var6)(var7);
-                var2 = var3.bind(var4)(var5, var2);
+                var7 = var2.Array;
+                var2 = var7.from;
+                var2 = var2.bind(var7)(var8);
+                var2 = var3.bind(var4)(var5, var2, var6);
 case 9:
                 return var1;
             }

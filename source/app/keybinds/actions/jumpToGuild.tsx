@@ -98,7 +98,7 @@ case 10:
                 var2 = 6;
                 var2 = var6[var2];
                 var2 = var4.bind(var1)(var2);
-                var8 = var2.FavoritesServerExperiment;
+                var8 = var2.FavoritesGuildExperiment;
                 var7 = var8.getConfig;
                 var2 = {};
                 var9 = 'jumpToGuild';

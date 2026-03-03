@@ -30,18 +30,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function fetchMobileGameCommunities(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var9 = arg1;
+            var10 = arg1;
             var8 = arguments[1];
-            var _closure2_slot0 = var9;
+            var9 = arguments[2];
+            var _closure2_slot0 = var10;
             var7 = undefined;
             if(!(var8 === var7)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var8 = new Array(0);
 case 2:
+            if(!(var9 === var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var9 = 20;
+case 4:
             var3 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var2 = 1;
-            var2 = var10[var2];
+            var2 = var11[var2];
             var2 = var3.bind(var7)(var2);
             var4 = var2.HTTP;
             var3 = var4.get;
@@ -51,12 +56,11 @@ case 2:
             var2['url'] = var6;
             var6 = _closure1_slot1;
             var5 = 2;
-            var5 = var10[var5];
+            var5 = var11[var5];
             var7 = var6.bind(var7)(var5);
             var6 = var7.stringify;
             var5 = {};
-            var5['game_ids'] = var9;
-            var9 = 20;
+            var5['game_ids'] = var10;
             var5['limit'] = var9;
             var5['ignored_guild_ids'] = var8;
             var5 = var6.bind(var7)(var5);

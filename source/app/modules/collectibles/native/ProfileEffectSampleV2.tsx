@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var12;
     var4['profileBackground'] = var9;
     var9 = {};
-    var12 = 0.6114130434782609;
+    var12 = 0.5113636363636364;
     var9['aspectRatio'] = var12;
     var4['sampleProfileImage'] = var9;
     var9 = {'position': 'absolute', 'height': '100%', 'width': '100%', 'borderWidth': 1};

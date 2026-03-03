@@ -48,7 +48,7 @@ case 8:
             if(var2) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var2 = arg1;
-            var1 = var2.favoriteServerEnabled;
+            var1 = var2.favoriteGuildEnabled;
 case 10:
             return var1;
 case 6:
@@ -105,7 +105,7 @@ case 6:
         var2 = 5;
         var2 = var6[var2];
         var8 = var3.bind(var4)(var2);
-        var7 = var8.useFavoritesServerConfig;
+        var7 = var8.useFavoritesGuildConfig;
         var2 = {};
         var9 = arg1;
         var2['location'] = var9;

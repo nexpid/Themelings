@@ -1,4 +1,4 @@
-// app/modules/channel_text_area/TimestampAutocompleteExperiment.tsx
+// app/modules/calls/MobileMuteIndicatorExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var5 = dependencyMap;
@@ -15,14 +15,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = metroImportDefault;
     var1 = undefined;
     var4 = var2.bind(var1)(var4);
-    var2 = {'kind': 'user', 'name': '2025-10-timestamp-autocomplete'};
+    var2 = {'kind': 'user', 'name': '2026-02-mobile-mute-indicator'};
     var6 = {};
     var7 = false;
-    var6['enabled'] = var7;
+    var6['enableMuteWarning'] = var7;
     var2['defaultConfig'] = var6;
     var6 = {};
     var7 = {};
-    var7['enabled'] = var8;
+    var7['enableMuteWarning'] = var8;
     var6[1] = var7;
     var2['variations'] = var6;
     var2 = var4.bind(var1)(var2);
@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/channel_text_area/TimestampAutocompleteExperiment.tsx';
+    var4 = 'modules/calls/MobileMuteIndicatorExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

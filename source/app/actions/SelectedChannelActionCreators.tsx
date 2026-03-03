@@ -43,11 +43,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var12 = var1.guildId;
-            var10 = var1.channelId;
-            var9 = var1.messageId;
-            var8 = var1.jumpType;
-            var7 = var1.preserveDrawerState;
+            var11 = var1.guildId;
+            var9 = var1.channelId;
+            var8 = var1.messageId;
+            var7 = var1.jumpType;
             var6 = var1.source;
             var5 = var1.skipMessageFetch;
             var3 = _closure1_slot1;
@@ -58,19 +57,18 @@ case 0:
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
             var2 = {};
-            var13 = 'CHANNEL_SELECT';
-            var2['type'] = var13;
-            var13 = _closure1_slot7;
-            var11 = null;
-            if(!(var12 !== var13)) { _fun0001_ip = 2; continue _fun0001 }
+            var12 = 'CHANNEL_SELECT';
+            var2['type'] = var12;
+            var12 = _closure1_slot7;
+            var10 = null;
+            if(!(var11 !== var12)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var11 = var12;
+            var10 = var11;
 case 2:
-            var2['guildId'] = var11;
-            var2['channelId'] = var10;
-            var2['messageId'] = var9;
-            var2['jumpType'] = var8;
-            var2['preserveDrawerState'] = var7;
+            var2['guildId'] = var10;
+            var2['channelId'] = var9;
+            var2['messageId'] = var8;
+            var2['jumpType'] = var7;
             var2['source'] = var6;
             var2['skipMessageFetch'] = var5;
             var2 = var3.bind(var4)(var2);

@@ -323,186 +323,181 @@ case 43:
     var5 = function updateSelectedChannelListener(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var15 = arg1;
+            var14 = arg1;
             var2 = _closure1_slot19;
             var3 = undefined;
-            var2 = var2.bind(var3)(var15);
-            var11 = null;
-            if(!(var11 == var2)) { _fun0005_ip = 44; continue _fun0005 }
+            var2 = var2.bind(var3)(var14);
+            var10 = null;
+            if(!(var10 == var2)) { _fun0005_ip = 44; continue _fun0005 }
 case 45:
             var2 = {};
 case 44:
-            var9 = var2.guildId;
-            var8 = var2.channelId;
-            var7 = var2.messageId;
-            var6 = var2.jumpType;
-            var19 = var2.voiceChannelId;
-            var18 = var2.voiceGuildId;
-            var17 = var2.voiceMessageId;
-            var5 = var2.preserveDrawerState;
+            var8 = var2.guildId;
+            var7 = var2.channelId;
+            var6 = var2.messageId;
+            var5 = var2.jumpType;
+            var18 = var2.voiceChannelId;
+            var17 = var2.voiceGuildId;
+            var16 = var2.voiceMessageId;
             var4 = var2.skipMessageFetch;
-            if(!(var11 == var19)) { _fun0005_ip = 46; continue _fun0005 }
-case 8:
-            if(!(var11 != var18)) { _fun0005_ip = 47; continue _fun0005 }
+            if(!(var10 == var18)) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
+            if(!(var10 != var17)) { _fun0005_ip = 48; continue _fun0005 }
 case 46:
-            var12 = _closure1_slot7;
-            var2 = var12.getChannel;
-            var2 = var2.bind(var12)(var19);
+            var11 = _closure1_slot7;
+            var2 = var11.getChannel;
+            var2 = var2.bind(var11)(var18);
             var _closure2_slot0 = var2;
-            var12 = var11 == var2;
-            var13 = undefined;
-            if(var12) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
-            var13 = var2.type;
-case 48:
-            var12 = _closure1_slot13;
-            var12 = var12.GUILD_VOICE;
-            if(!(var13 !== var12)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
-            var12 = var11 == var2;
-            var13 = undefined;
-            if(var12) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
-            var13 = var2.type;
-case 52:
-            var12 = _closure1_slot13;
-            var12 = var12.GUILD_STAGE_VOICE;
-            if(!(var13 !== var12)) { _fun0005_ip = 50; continue _fun0005 }
-case 23:
-            var12 = _closure1_slot15;
-            if(!(var11 != var12)) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
-            var14 = _closure1_slot15;
-            var13 = var14.log;
-            var12 = var11 == var2;
-            var25 = undefined;
-            if(var12) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
-            var25 = var2.id;
-case 56:
-            var12 = global;
-            var20 = var12.JSON;
-            var16 = var20.stringify;
-            var29 = var16.bind(var20)(var15);
-            var21 = var12.JSON;
-            var20 = var21.stringify;
-            var16 = {};
-            var16['guildId'] = var9;
-            var16['channelId'] = var8;
-            var16['messageId'] = var7;
-            var16['jumpType'] = var6;
-            var16['preserveDrawerState'] = var5;
-            var16['voiceChannelId'] = var19;
-            var16['voiceGuildId'] = var18;
-            var16['voiceMessageId'] = var17;
-            var27 = var20.bind(var21)(var16);
-            var12 = var12.HermesInternal;
-            var22 = var12.concat;
-            var34 = 'UpdateSelectedChannelListener -> !!!VERY BAD!!! channel.id ';
-            var32 = ' (voiceChannelId ';
-            var30 = ') is not a voice channel! and yet RouteUtils thinks it is! ';
-            var12 = ' ';
-            var33 = var25;
-            var31 = var19;
-            var28 = var12;
-            var26 = var12;
-            var12 = var34[var22](var33, var32, var31, var30, var29, var28, var27, var26, var25);
-            var12 = var13.bind(var14)(var12);
-            _fun0005_ip = 54; continue _fun0005;
+            var11 = var10 == var2;
+            var12 = undefined;
+            if(var11) { _fun0005_ip = 49; continue _fun0005 }
 case 50:
-            var12 = _closure1_slot15;
-            if(!(var11 != var12)) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
-            var14 = _closure1_slot15;
-            var13 = var14.verbose;
-            var12 = global;
-            var20 = var12.JSON;
-            var16 = var20.stringify;
-            var22 = var16.bind(var20)(var15);
-            var21 = var12.JSON;
-            var20 = var21.stringify;
-            var16 = {};
-            var16['guildId'] = var9;
-            var16['channelId'] = var8;
-            var16['messageId'] = var7;
-            var16['jumpType'] = var6;
-            var16['preserveDrawerState'] = var5;
-            var16['voiceChannelId'] = var19;
-            var16['voiceGuildId'] = var18;
-            var16['voiceMessageId'] = var17;
-            var31 = var20.bind(var21)(var16);
-            var12 = var12.HermesInternal;
-            var20 = var12.concat;
-            var34 = 'UpdateSelectedChannelListener -> voice route present! ';
-            var12 = ' ';
-            var33 = var22;
-            var32 = var12;
-            var30 = var12;
-            var12 = var34[var20](var33, var32, var31, var30, var29);
-            var12 = var13.bind(var14)(var12);
+            var12 = var2.type;
+case 49:
+            var11 = _closure1_slot13;
+            var11 = var11.GUILD_VOICE;
+            if(!(var12 !== var11)) { _fun0005_ip = 51; continue _fun0005 }
+case 15:
+            var11 = var10 == var2;
+            var12 = undefined;
+            if(var11) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
+            var12 = var2.type;
+case 52:
+            var11 = _closure1_slot13;
+            var11 = var11.GUILD_STAGE_VOICE;
+            if(!(var12 !== var11)) { _fun0005_ip = 51; continue _fun0005 }
+case 54:
+            var11 = _closure1_slot15;
+            if(!(var10 != var11)) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
+            var13 = _closure1_slot15;
+            var12 = var13.log;
+            var11 = var10 == var2;
+            var24 = undefined;
+            if(var11) { _fun0005_ip = 57; continue _fun0005 }
 case 58:
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var12 = 18;
-            var12 = var14[var12];
-            var13 = var13.bind(var3)(var12);
-            var12 = var13.isVoicePanelEnabled;
-            var12 = var12.bind(var13)(var2);
-            if(var12) { _fun0005_ip = 60; continue _fun0005 }
-case 61:
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var12 = 17;
-            var12 = var14[var12];
-            var16 = var13.bind(var3)(var12);
-            var12 = var16.selectGuild;
-            var12 = var12.bind(var16)(var18);
-            var12 = 12;
-            var12 = var14[var12];
-            var14 = var13.bind(var3)(var12);
-            var13 = var14.selectChannel;
-            var12 = {};
-            var12['guildId'] = var18;
-            var12['channelId'] = var19;
-            var12['messageId'] = var17;
-            var12['jumpType'] = var6;
-            var16 = true;
-            var12['preserveDrawerState'] = var16;
-            var12 = var13.bind(var14)(var12);
+            var24 = var2.id;
+case 57:
+            var11 = global;
+            var19 = var11.JSON;
+            var15 = var19.stringify;
+            var28 = var15.bind(var19)(var14);
+            var20 = var11.JSON;
+            var19 = var20.stringify;
+            var15 = {};
+            var15['guildId'] = var8;
+            var15['channelId'] = var7;
+            var15['messageId'] = var6;
+            var15['jumpType'] = var5;
+            var15['voiceChannelId'] = var18;
+            var15['voiceGuildId'] = var17;
+            var15['voiceMessageId'] = var16;
+            var26 = var19.bind(var20)(var15);
+            var11 = var11.HermesInternal;
+            var21 = var11.concat;
+            var33 = 'UpdateSelectedChannelListener -> !!!VERY BAD!!! channel.id ';
+            var31 = ' (voiceChannelId ';
+            var29 = ') is not a voice channel! and yet RouteUtils thinks it is! ';
+            var11 = ' ';
+            var32 = var24;
+            var30 = var18;
+            var27 = var11;
+            var25 = var11;
+            var11 = var33[var21](var32, var31, var30, var29, var28, var27, var26, var25, var24);
+            var11 = var12.bind(var13)(var11);
+            _fun0005_ip = 55; continue _fun0005;
+case 51:
+            var11 = _closure1_slot15;
+            if(!(var10 != var11)) { _fun0005_ip = 59; continue _fun0005 }
 case 60:
-            var20 = _closure1_slot0;
+            var13 = _closure1_slot15;
+            var12 = var13.verbose;
+            var11 = global;
+            var19 = var11.JSON;
+            var15 = var19.stringify;
+            var21 = var15.bind(var19)(var14);
+            var20 = var11.JSON;
+            var19 = var20.stringify;
+            var15 = {};
+            var15['guildId'] = var8;
+            var15['channelId'] = var7;
+            var15['messageId'] = var6;
+            var15['jumpType'] = var5;
+            var15['voiceChannelId'] = var18;
+            var15['voiceGuildId'] = var17;
+            var15['voiceMessageId'] = var16;
+            var30 = var19.bind(var20)(var15);
+            var11 = var11.HermesInternal;
+            var19 = var11.concat;
+            var33 = 'UpdateSelectedChannelListener -> voice route present! ';
+            var11 = ' ';
+            var32 = var21;
+            var31 = var11;
+            var29 = var11;
+            var11 = var33[var19](var32, var31, var30, var29, var28);
+            var11 = var12.bind(var13)(var11);
+case 59:
+            var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var12 = 19;
-            var12 = var13[var12];
-            var16 = var20.bind(var3)(var12);
-            var14 = var16.isModalOpen;
-            var12 = 16;
-            var13 = var13[var12];
-            var21 = var20.bind(var3)(var13);
-            var20 = var21.getVoiceChannelKey;
-            var13 = var2.id;
-            var13 = var20.bind(var21)(var13);
-            var13 = var14.bind(var16)(var13);
-            if(var13) { _fun0005_ip = 62; continue _fun0005 }
-case 63:
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var16 = 15;
-            var16 = var14[var16];
-            var20 = var13.bind(var3)(var16);
-            var16 = var20.popAboveKey;
-            var21 = _closure1_slot0;
-            var12 = var14[var12];
-            var22 = var21.bind(var3)(var12);
-            var21 = var22.getVoiceChannelKey;
+            var11 = 18;
+            var11 = var13[var11];
+            var12 = var12.bind(var3)(var11);
+            var11 = var12.isVoicePanelEnabled;
+            var11 = var11.bind(var12)(var2);
+            if(var11) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var11 = 17;
+            var11 = var13[var11];
+            var15 = var12.bind(var3)(var11);
+            var11 = var15.selectGuild;
+            var11 = var11.bind(var15)(var17);
+            var11 = 12;
+            var11 = var13[var11];
+            var13 = var12.bind(var3)(var11);
+            var12 = var13.selectChannel;
+            var11 = {};
+            var11['guildId'] = var17;
+            var11['channelId'] = var18;
+            var11['messageId'] = var16;
+            var11['jumpType'] = var5;
+            var11 = var12.bind(var13)(var11);
+case 61:
+            var19 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var11 = 19;
+            var11 = var12[var11];
+            var15 = var19.bind(var3)(var11);
+            var13 = var15.isModalOpen;
+            var11 = 16;
+            var12 = var12[var11];
+            var20 = var19.bind(var3)(var12);
+            var19 = var20.getVoiceChannelKey;
             var12 = var2.id;
-            var12 = var21.bind(var22)(var12);
-            var12 = var16.bind(var20)(var12);
-            var12 = 20;
-            var12 = var14[var12];
-            var13 = var13.bind(var3)(var12);
-            var12 = var13.wait;
-            var10 = function() {
+            var12 = var19.bind(var20)(var12);
+            var12 = var13.bind(var15)(var12);
+            if(var12) { _fun0005_ip = 63; continue _fun0005 }
+case 64:
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var15 = 15;
+            var15 = var13[var15];
+            var19 = var12.bind(var3)(var15);
+            var15 = var19.popAboveKey;
+            var20 = _closure1_slot0;
+            var11 = var13[var11];
+            var21 = var20.bind(var3)(var11);
+            var20 = var21.getVoiceChannelKey;
+            var11 = var2.id;
+            var11 = var20.bind(var21)(var11);
+            var11 = var15.bind(var19)(var11);
+            var11 = 20;
+            var11 = var13[var11];
+            var12 = var12.bind(var3)(var11);
+            var11 = var12.wait;
+            var9 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 16;
@@ -514,139 +509,137 @@ case 63:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var10 = var12.bind(var13)(var10);
-case 62:
-            var10 = var2.isGuildVoice;
-            var10 = var10.bind(var2)();
-            if(!var10) { _fun0005_ip = 64; continue _fun0005 }
-case 65:
-            var10 = var11 != var17;
-case 64:
-            if(var10) { _fun0005_ip = 66; continue _fun0005 }
-case 67:
-            var12 = var2.isGuildStageVoice;
-            var10 = var12.bind(var2)();
+            var9 = var11.bind(var12)(var9);
+case 63:
+            var9 = var2.isGuildVoice;
+            var9 = var9.bind(var2)();
+            if(!var9) { _fun0005_ip = 65; continue _fun0005 }
 case 66:
-            if(!var10) { _fun0005_ip = 54; continue _fun0005 }
+            var9 = var10 != var16;
+case 65:
+            if(var9) { _fun0005_ip = 67; continue _fun0005 }
 case 68:
-            var12 = _closure1_slot5;
-            var10 = var2.id;
+            var11 = var2.isGuildStageVoice;
+            var9 = var11.bind(var2)();
+case 67:
+            if(!var9) { _fun0005_ip = 55; continue _fun0005 }
+case 69:
+            var11 = _closure1_slot5;
+            var9 = var2.id;
             var2 = _closure1_slot14;
             var2 = var2.OPEN;
-            var2 = var12.bind(var3)(var10, var2);
-            var2 = var11 != var18;
-            if(!var2) { _fun0005_ip = 69; continue _fun0005 }
-case 70:
-            var2 = var11 != var19;
-case 69:
-            if(!var2) { _fun0005_ip = 71; continue _fun0005 }
-case 72:
-            var2 = var11 != var17;
+            var2 = var11.bind(var3)(var9, var2);
+            var2 = var10 != var17;
+            if(!var2) { _fun0005_ip = 70; continue _fun0005 }
 case 71:
-            if(!var2) { _fun0005_ip = 54; continue _fun0005 }
+            var2 = var10 != var18;
+case 70:
+            if(!var2) { _fun0005_ip = 72; continue _fun0005 }
 case 73:
-            var10 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var2 = var10 != var16;
+case 72:
+            if(!var2) { _fun0005_ip = 55; continue _fun0005 }
+case 74:
+            var9 = _closure1_slot1;
+            var11 = _closure1_slot2;
             var2 = 21;
-            var2 = var12[var2];
-            var10 = var10.bind(var3)(var2);
-            var2 = var10.jumpToVoiceChannelMessage;
-            var34 = var10;
-            var33 = var18;
-            var32 = var19;
-            var31 = var17;
-            var30 = var6;
-            var2 = var34[var2](var33, var32, var31, var30, var29);
-case 54:
+            var2 = var11[var2];
+            var9 = var9.bind(var3)(var2);
+            var2 = var9.jumpToVoiceChannelMessage;
+            var33 = var9;
+            var32 = var17;
+            var31 = var18;
+            var30 = var16;
+            var29 = var5;
+            var2 = var33[var2](var32, var31, var30, var29, var28);
+case 55:
             return var3;
-case 47:
+case 48:
             var2 = _closure1_slot15;
-            if(!(var11 != var2)) { _fun0005_ip = 74; continue _fun0005 }
-case 75:
-            var12 = _closure1_slot15;
-            var10 = var12.verbose;
+            if(!(var10 != var2)) { _fun0005_ip = 75; continue _fun0005 }
+case 76:
+            var11 = _closure1_slot15;
+            var9 = var11.verbose;
             var2 = global;
+            var13 = var2.JSON;
+            var12 = var13.stringify;
+            var15 = var12.bind(var13)(var14);
             var14 = var2.JSON;
             var13 = var14.stringify;
-            var16 = var13.bind(var14)(var15);
-            var15 = var2.JSON;
-            var14 = var15.stringify;
-            var13 = {};
-            var13['guildId'] = var9;
-            var13['channelId'] = var8;
-            var13['messageId'] = var7;
-            var13['jumpType'] = var6;
-            var13['preserveDrawerState'] = var5;
-            var13['voiceChannelId'] = var19;
-            var13['voiceGuildId'] = var18;
-            var13['voiceMessageId'] = var17;
-            var31 = var14.bind(var15)(var13);
+            var12 = {};
+            var12['guildId'] = var8;
+            var12['channelId'] = var7;
+            var12['messageId'] = var6;
+            var12['jumpType'] = var5;
+            var12['voiceChannelId'] = var18;
+            var12['voiceGuildId'] = var17;
+            var12['voiceMessageId'] = var16;
+            var30 = var13.bind(var14)(var12);
             var2 = var2.HermesInternal;
-            var14 = var2.concat;
-            var34 = 'UpdateSelectedChannelListener -> no voice route present in ';
+            var13 = var2.concat;
+            var33 = 'UpdateSelectedChannelListener -> no voice route present in ';
             var2 = ' ';
-            var33 = var16;
-            var32 = var2;
-            var30 = var2;
-            var2 = var34[var14](var33, var32, var31, var30, var29);
-            var2 = var10.bind(var12)(var2);
-case 74:
-            var10 = _closure1_slot10;
-            var2 = var10.getLastSelectedChannelId;
-            var12 = var2.bind(var10)();
-            var10 = _closure1_slot7;
-            var2 = var10.getChannel;
-            var2 = var2.bind(var10)(var12);
-            var10 = var11 != var2;
-            if(!var10) { _fun0005_ip = 76; continue _fun0005 }
-case 77:
-            var12 = var2.isGuildVoice;
-            var10 = var12.bind(var2)();
-case 76:
-            if(var10) { _fun0005_ip = 78; continue _fun0005 }
-case 79:
-            var11 = var11 != var2;
-            if(!var11) { _fun0005_ip = 80; continue _fun0005 }
-case 81:
-            var12 = var2.isGuildStageVoice;
-            var11 = var12.bind(var2)();
-case 80:
-            var10 = var11;
+            var32 = var15;
+            var31 = var2;
+            var29 = var2;
+            var2 = var33[var13](var32, var31, var30, var29, var28);
+            var2 = var9.bind(var11)(var2);
+case 75:
+            var9 = _closure1_slot10;
+            var2 = var9.getLastSelectedChannelId;
+            var11 = var2.bind(var9)();
+            var9 = _closure1_slot7;
+            var2 = var9.getChannel;
+            var2 = var2.bind(var9)(var11);
+            var9 = var10 != var2;
+            if(!var9) { _fun0005_ip = 77; continue _fun0005 }
 case 78:
-            if(!var10) { _fun0005_ip = 82; continue _fun0005 }
-case 83:
-            var11 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var10 = 15;
-            var10 = var14[var10];
-            var11 = var11.bind(var3)(var10);
-            var10 = var11.popWithKey;
-            var13 = _closure1_slot0;
-            var12 = 16;
-            var12 = var14[var12];
-            var13 = var13.bind(var3)(var12);
-            var12 = var13.getVoiceChannelKey;
-            var2 = var2.id;
-            var2 = var12.bind(var13)(var2);
-            var2 = var10.bind(var11)(var2);
+            var11 = var2.isGuildVoice;
+            var9 = var11.bind(var2)();
+case 77:
+            if(var9) { _fun0005_ip = 79; continue _fun0005 }
+case 80:
+            var10 = var10 != var2;
+            if(!var10) { _fun0005_ip = 81; continue _fun0005 }
 case 82:
+            var11 = var2.isGuildStageVoice;
+            var10 = var11.bind(var2)();
+case 81:
+            var9 = var10;
+case 79:
+            if(!var9) { _fun0005_ip = 83; continue _fun0005 }
+case 84:
+            var10 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var9 = 15;
+            var9 = var13[var9];
+            var10 = var10.bind(var3)(var9);
+            var9 = var10.popWithKey;
+            var12 = _closure1_slot0;
+            var11 = 16;
+            var11 = var13[var11];
+            var12 = var12.bind(var3)(var11);
+            var11 = var12.getVoiceChannelKey;
+            var2 = var2.id;
+            var2 = var11.bind(var12)(var2);
+            var2 = var9.bind(var10)(var2);
+case 83:
             var2 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var1 = 17;
-            var1 = var10[var1];
-            var11 = var2.bind(var3)(var1);
-            var1 = var11.selectGuild;
-            var1 = var1.bind(var11)(var9);
+            var1 = var9[var1];
+            var10 = var2.bind(var3)(var1);
+            var1 = var10.selectGuild;
+            var1 = var1.bind(var10)(var8);
             var1 = 12;
-            var1 = var10[var1];
+            var1 = var9[var1];
             var3 = var2.bind(var3)(var1);
             var2 = var3.selectChannel;
             var1 = {};
-            var1['guildId'] = var9;
-            var1['channelId'] = var8;
-            var1['messageId'] = var7;
-            var1['jumpType'] = var6;
-            var1['preserveDrawerState'] = var5;
+            var1['guildId'] = var8;
+            var1['channelId'] = var7;
+            var1['messageId'] = var6;
+            var1['jumpType'] = var5;
             var1['skipMessageFetch'] = var4;
             var1 = var2.bind(var3)(var1);
             var1 = undefined;
@@ -661,8 +654,8 @@ case 0:
             var1 = var2.match;
             var2 = var2.location;
             var5 = null;
-            if(!(var5 != var1)) { _fun0006_ip = 84; continue _fun0006 }
-case 85:
+            if(!(var5 != var1)) { _fun0006_ip = 85; continue _fun0006 }
+case 86:
             var1 = var1.params;
             var8 = var1.guildId;
             var6 = var1.channelId;
@@ -676,23 +669,23 @@ case 85:
             var1 = var10.bind(var9)(var1);
             var1 = var1.JumpTypes;
             var1 = var1.INSTANT;
-            if(!(var3 !== var1)) { _fun0006_ip = 86; continue _fun0006 }
-case 87:
+            if(!(var3 !== var1)) { _fun0006_ip = 87; continue _fun0006 }
+case 88:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var11];
             var1 = var3.bind(var9)(var1);
             var1 = var1.JumpTypes;
             var3 = var1.ANIMATED;
-            _fun0006_ip = 88; continue _fun0006;
-case 86:
+            _fun0006_ip = 89; continue _fun0006;
+case 87:
             var10 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var11];
             var1 = var10.bind(var9)(var1);
             var1 = var1.JumpTypes;
             var3 = var1.INSTANT;
-case 88:
+case 89:
             var1 = {};
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -701,10 +694,10 @@ case 88:
             var12 = var12.bind(var9)(var11);
             var11 = var12.isValidGuildId;
             var11 = var11.bind(var12)(var8);
-            if(var11) { _fun0006_ip = 89; continue _fun0006 }
-case 90:
+            if(var11) { _fun0006_ip = 90; continue _fun0006 }
+case 91:
             var8 = _closure1_slot11;
-case 89:
+case 90:
             var1['guildId'] = var8;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -713,24 +706,20 @@ case 89:
             var7 = var8.isValidChannelId;
             var7 = var7.bind(var8)(var6);
             var5 = null;
-            if(!var7) { _fun0006_ip = 91; continue _fun0006 }
-case 92:
+            if(!var7) { _fun0006_ip = 92; continue _fun0006 }
+case 93:
             var5 = var6;
-case 91:
+case 92:
             var1['channelId'] = var5;
             var1['messageId'] = var4;
             var1['jumpType'] = var3;
-            var3 = var2.preserveDrawerState;
-            var3 = !var3;
-            var3 = !var3;
-            var1['preserveDrawerState'] = var3;
             var2 = var2.skipMessageFetch;
             var2 = !var2;
             var2 = !var2;
             var1['skipMessageFetch'] = var2;
             return var1;
-case 84:
-            var1 = {'guildId': null, 'channelId': null, 'messageId': null, 'jumpType': null, 'preserveDrawerState': false, 'skipMessageFetch': false};
+case 85:
+            var1 = {'guildId': null, 'channelId': null, 'messageId': null, 'jumpType': null, 'skipMessageFetch': false};
             var3 = _closure1_slot11;
             var1['guildId'] = var3;
             var4 = _closure1_slot0;
@@ -882,110 +871,98 @@ case 84:
     var9 = function popVoiceRoute(arg1) {
         var9 = arg1;
         var1 = _closure1_slot8;
-        var5 = var1.lastNonVoiceRoute;
-        var4 = _closure1_slot15;
-        var3 = var4.log;
+        var4 = var1.lastNonVoiceRoute;
+        var5 = _closure1_slot15;
+        var3 = var5.log;
         var1 = global;
         var1 = var1.HermesInternal;
         var6 = var1.concat;
         var1 = 'popVoiceRoute: last non-voice route is ';
-        var1 = var6.bind(var1)(var5);
-        var1 = var3.bind(var4)(var1);
+        var1 = var6.bind(var1)(var4);
+        var1 = var3.bind(var5)(var1);
         var6 = _closure1_slot1;
-        var4 = _closure1_slot2;
+        var5 = _closure1_slot2;
         var1 = 12;
-        var3 = var4[var1];
+        var3 = var5[var1];
         var1 = undefined;
-        var8 = var6.bind(var1)(var3);
-        var7 = var8.selectChannel;
+        var7 = var6.bind(var1)(var3);
+        var6 = var7.selectChannel;
         var3 = {};
         var3['guildId'] = var9;
-        var6 = _closure1_slot20;
-        var6 = var6.bind(var1)(var9);
-        var3['channelId'] = var6;
-        var6 = true;
-        var3['preserveDrawerState'] = var6;
-        var3 = var7.bind(var8)(var3);
+        var8 = _closure1_slot20;
+        var8 = var8.bind(var1)(var9);
+        var3['channelId'] = var8;
+        var3 = var6.bind(var7)(var3);
         var3 = _closure1_slot0;
         var2 = 13;
-        var2 = var4[var2];
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.transitionTo;
-        var2 = {};
-        var2['preserveDrawerState'] = var6;
-        var2 = var3.bind(var4)(var5, var2);
+        var2 = var5[var2];
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.transitionTo;
+        var2 = var2.bind(var3)(var4);
         return var1;
     };
     var3['popVoiceRoute'] = var9;
     var9 = function transitionToVoiceRoute(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var6 = arg1;
-            var5 = arg2;
+            var5 = arg1;
+            var4 = arg2;
             var1 = _closure1_slot8;
             var14 = var1.defaultRoute;
-            var4 = _closure1_slot18;
+            var6 = _closure1_slot18;
             var3 = _closure1_slot17;
             var1 = undefined;
-            var7 = var4.bind(var1)(var14, var3);
-            var4 = null;
-            var8 = var4 == var7;
+            var7 = var6.bind(var1)(var14, var3);
+            var6 = null;
+            var8 = var6 == var7;
             var3 = undefined;
             if(var8) { _fun0007_ip = 6; continue _fun0007 }
-case 93:
+case 94:
             var3 = var7.params;
 case 6:
-            if(!(var4 == var3)) { _fun0007_ip = 94; continue _fun0007 }
+            if(!(var6 == var3)) { _fun0007_ip = 95; continue _fun0007 }
 case 9:
             var3 = {};
-case 94:
+case 95:
             var11 = var3.voiceChannelId;
             var8 = _closure1_slot15;
             var7 = var8.log;
             var3 = global;
-            var4 = var3.HermesInternal;
-            var13 = var4.concat;
+            var6 = var3.HermesInternal;
+            var13 = var6.concat;
             var22 = 'transitionToVoiceRoute(<';
             var20 = '>, <';
             var18 = '>), current route ';
             var16 = ' has voiceChannelId ';
-            var21 = var6;
-            var19 = var5;
+            var21 = var5;
+            var19 = var4;
             var17 = var14;
             var15 = var11;
-            var4 = var22[var13](var21, var20, var19, var18, var17, var16, var15, var14);
-            var4 = var7.bind(var8)(var4);
-            if(!(var11 === var5)) { _fun0007_ip = 95; continue _fun0007 }
+            var6 = var22[var13](var21, var20, var19, var18, var17, var16, var15, var14);
+            var6 = var7.bind(var8)(var6);
+            if(!(var11 === var4)) { _fun0007_ip = 96; continue _fun0007 }
 case 13:
             var7 = _closure1_slot15;
-            var4 = var7.log;
+            var6 = var7.log;
             var3 = var3.HermesInternal;
             var10 = var3.concat;
             var22 = 'transitionToVoiceRoute -> ';
             var20 = ' === ';
             var18 = '. staying where we are';
             var21 = var11;
-            var19 = var5;
+            var19 = var4;
             var3 = var22[var10](var21, var20, var19, var18, var17);
-            var3 = var4.bind(var7)(var3);
-            _fun0007_ip = 96; continue _fun0007;
-case 95:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 13;
-            var2 = var4[var2];
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.transitionToGuild;
-            var2 = {};
-            var7 = true;
-            var2['preserveDrawerState'] = var7;
-            var22 = var4;
-            var21 = var6;
-            var20 = var5;
-            var19 = undefined;
-            var18 = var2;
-            var2 = var22[var3](var21, var20, var19, var18, var17);
+            var3 = var6.bind(var7)(var3);
+            _fun0007_ip = 97; continue _fun0007;
 case 96:
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 13;
+            var2 = var6[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.transitionToGuild;
+            var2 = var2.bind(var3)(var5, var4);
+case 97:
             return var1;
         }
     };
@@ -999,8 +976,8 @@ case 96:
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = _closure1_slot16;
-            if(var1) { _fun0008_ip = 97; continue _fun0008 }
-case 98:
+            if(var1) { _fun0008_ip = 98; continue _fun0008 }
+case 99:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 23;
@@ -1036,7 +1013,7 @@ case 98:
             var1 = var1.bind(var3)();
             var1 = true;
             _closure1_slot16 = var1;
-case 97:
+case 98:
             var1 = undefined;
             return var1;
         }
@@ -1046,8 +1023,8 @@ case 97:
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = _closure1_slot16;
-            if(!var1) { _fun0009_ip = 99; continue _fun0009 }
-case 98:
+            if(!var1) { _fun0009_ip = 100; continue _fun0009 }
+case 99:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 23;
@@ -1083,7 +1060,7 @@ case 98:
             var1 = var1.bind(var3)();
             var1 = false;
             _closure1_slot16 = var1;
-case 99:
+case 100:
             var1 = undefined;
             return var1;
         }

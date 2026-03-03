@@ -1,301 +1,205 @@
 // app/modules/clips/ClipsExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var5 = metroImportDefault;
+    var6 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var8;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var _closure1_slot2 = var8;
+    var4 = function isUserPremiumTypeForClipsEarlyAccess(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var5 = arg1;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var2 = 6;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.isPremiumAtLeast;
+            var6 = null;
+            var6 = var6 == var5;
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var2 = var5.premiumType;
+case 2:
+            var1 = _closure1_slot5;
+            var1 = var1.TIER_2;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot7 = var4;
     var1 = global;
-    var9 = var1.Object;
-    var6 = var9.defineProperty;
-    var4 = {};
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
     var1 = true;
-    var4['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = var9.bind(var10)(var3, var1, var5);
     var1 = 0;
-    var4 = var8[var1];
+    var5 = var8[var1];
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot2 = var4;
-    var4 = 1;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.PremiumTypes;
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var5 = var8[var4];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var8[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
+    var5 = var5.PremiumTypes;
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var8[var5];
     var9 = var7.bind(var1)(var5);
-    var6 = var9.createExperiment;
-    var5 = {'kind': 'user', 'id': '2022-11_clips_experiment', 'label': 'Clips Experiment'};
+    var6 = var9.createApexExperiment;
+    var5 = {'kind': 'user', 'name': '2026-03-clips-experiment'};
     var10 = {'enableClips': false, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var5['defaultConfig'] = var10;
-    var11 = {'id': 1, 'label': 'Clips without upsells'};
-    var10 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
-    var11['config'] = var10;
-    var10 = new Array(3);
-    var10[0] = var11;
-    var11 = {'id': 2, 'label': 'Clips with upsells'};
-    var12 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
-    var11['config'] = var12;
+    var10 = {};
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var10[1] = var11;
-    var11 = {'id': 99, 'label': 'Clips 4 da Developerz'};
-    var12 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': true, 'enableVoiceOnlyClips': true, 'enableAdvancedSignals': true};
-    var11['config'] = var12;
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': true, 'enableVoiceOnlyClips': true, 'enableAdvancedSignals': true};
     var10[2] = var11;
-    var5['treatments'] = var10;
+    var5['variations'] = var10;
     var5 = var6.bind(var9)(var5);
-    var _closure1_slot4 = var5;
-    var4 = var8[var4];
-    var9 = var7.bind(var1)(var4);
-    var6 = var9.createExperiment;
-    var4 = {'kind': 'user', 'id': '2023-09_clips_nitro_early_access', 'label': 'Clips (Nitro EA)'};
-    var10 = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': false, 'enablePremiumEarlyAccessGoLiveRoadblock': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
-    var4['defaultConfig'] = var10;
-    var11 = {'id': 1, 'label': 'Clips Nitro EA Upsells Visible'};
-    var10 = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
-    var11['config'] = var10;
-    var10 = new Array(2);
-    var10[0] = var11;
-    var11 = {'id': 2, 'label': 'Clips Enabled (Nitro)'};
-    var12 = {'enableClips': true, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
-    var11['config'] = var12;
-    var10[1] = var11;
-    var4['treatments'] = var10;
-    var4 = var6.bind(var9)(var4);
-    var _closure1_slot5 = var4;
-    var6 = 5;
+    var _closure1_slot6 = var5;
+    var6 = 7;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/clips/ClipsExperiment.tsx';
     var6 = var7.bind(var8)(var6);
     var3['ClipsExperiment'] = var5;
-    var3['ClipsPremiumEarlyAccessExperiment'] = var4;
-    var4 = function areClipsAvailable() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var2 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 3;
-            var1 = var4[var1];
-            var4 = undefined;
-            var2 = var2.bind(var4)(var1);
-            var1 = _closure1_slot2;
-            var1 = var2.bind(var4)(var1);
-            if(var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = false;
-            return var1;
-case 2:
-            var7 = _closure1_slot5;
-            var5 = var7.getCurrentConfig;
-            var4 = {};
-            var2 = 'areClipsEnabled';
-            var4['location'] = var2;
-            var1 = {};
-            var6 = false;
-            var1['autoTrackExposure'] = var6;
-            var1 = var5.bind(var7)(var4, var1);
-            var1 = var1.enableClips;
-            var5 = _closure1_slot4;
-            var4 = var5.getCurrentConfig;
-            var3 = {};
-            var3['location'] = var2;
-            var2 = {};
-            var2['autoTrackExposure'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-            var2 = var2.enableClips;
-            if(var1) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var1 = var2;
-case 4:
-            return var1;
-        }
-    };
-    var3['areClipsAvailable'] = var4;
-    var4 = function useIsClipsAvailable() {
+    var5 = function areClipsAvailable() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
-            var1 = var3[var1];
-            var3 = undefined;
-            var2 = var2.bind(var3)(var1);
-            var1 = _closure1_slot2;
-            var2 = var2.bind(var3)(var1);
-            var8 = _closure1_slot5;
-            var6 = var8.useExperiment;
-            var5 = {};
-            var1 = 'useEnableClips';
-            var5['location'] = var1;
-            var3 = {};
-            var7 = false;
-            var3['autoTrackExposure'] = var7;
-            var3 = var6.bind(var8)(var5, var3);
-            var3 = var3.enableClips;
-            var6 = _closure1_slot4;
-            var5 = var6.useExperiment;
-            var4 = {};
-            var4['location'] = var1;
-            var1 = {};
-            var1['autoTrackExposure'] = var7;
-            var1 = var5.bind(var6)(var4, var1);
-            var1 = var1.enableClips;
+            var4 = _closure1_slot2;
+            var1 = 4;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = _closure1_slot3;
+            var1 = var3.bind(var4)(var1);
+            if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var1 = false;
+            return var1;
+case 4:
+            var3 = _closure1_slot7;
+            var5 = _closure1_slot4;
+            var1 = var5.getCurrentUser;
+            var1 = var1.bind(var5)();
+            var1 = var3.bind(var4)(var1);
+            var4 = _closure1_slot6;
+            var3 = var4.getConfig;
+            var2 = {};
+            var5 = 'areClipsEnabled';
+            var2['location'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.enableClips;
             if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var1 = var3;
-case 6:
-            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
             var1 = var2;
-case 8:
+case 6:
             return var1;
         }
     };
-    var3['useIsClipsAvailable'] = var4;
-    var4 = function(arg1) {
+    var3['areClipsAvailable'] = var5;
+    var5 = function useIsClipsAvailable() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var1 = arg1;
-            var6 = var1.autoTrackExposure;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 3;
-            var1 = var4[var1];
-            var4 = undefined;
-            var3 = var3.bind(var4)(var1);
-            var1 = _closure1_slot2;
-            var1 = var3.bind(var4)(var1);
-            var5 = _closure1_slot5;
-            var4 = var5.useExperiment;
-            var3 = {};
-            var2 = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
-            var3['location'] = var2;
-            var2 = {};
-            if(!var6) { _fun0003_ip = 10; continue _fun0003 }
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var2);
+            var2 = _closure1_slot3;
+            var2 = var3.bind(var5)(var2);
+            var4 = _closure1_slot0;
+            var3 = 5;
+            var3 = var6[var3];
+            var6 = var4.bind(var5)(var3);
+            var5 = var6.useStateFromStores;
+            var3 = _closure1_slot4;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = function() {
+                var3 = _closure1_slot7;
+                var2 = _closure1_slot4;
+                var1 = var2.getCurrentUser;
+                var2 = var1.bind(var2)();
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var3 = var5.bind(var6)(var4, var3);
+            var5 = _closure1_slot6;
+            var4 = var5.getConfig;
+            var1 = {};
+            var6 = 'useEnableClips';
+            var1['location'] = var6;
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.enableClips;
+            if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
+            var1 = var3;
+case 8:
+            if(!var1) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
-            var6 = var1;
-case 10:
-            var2['autoTrackExposure'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-            var2 = var2.enablePremiumEarlyAccessGoLiveRoadblock;
-            var3 = !var1;
-            var1 = !var3;
-            if(var3) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
             var1 = var2;
-case 12:
+case 10:
             return var1;
         }
     };
-    var3['useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock'] = var4;
-    var4 = function(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-            var1 = arg1;
-            var6 = var1.autoTrackExposure;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 3;
-            var1 = var4[var1];
-            var4 = undefined;
-            var3 = var3.bind(var4)(var1);
-            var1 = _closure1_slot2;
-            var1 = var3.bind(var4)(var1);
-            var5 = _closure1_slot5;
-            var4 = var5.useExperiment;
-            var3 = {};
-            var2 = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
-            var3['location'] = var2;
-            var2 = {};
-            if(!var6) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
-            var6 = var1;
-case 10:
-            var2['autoTrackExposure'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-            var2 = var2.enablePremiumEarlyAccessAnnouncementCoachmark;
-            var3 = !var1;
-            var1 = !var3;
-            if(var3) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
-            var1 = var2;
-case 12:
-            return var1;
-        }
-    };
-    var3['useShouldSeeClipsPremiumEarlyAccessAnnouncementCoachmark'] = var4;
-    var4 = function isUserPremiumTypeForClipsEarlyAccess(arg1) {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot1;
-        var2 = 4;
-        var3 = var3[var2];
-        var2 = undefined;
-        var4 = var4.bind(var2)(var3);
-        var3 = var4.isPremiumAtLeast;
-        var2 = arg1;
-        var2 = var2.premiumType;
-        var1 = _closure1_slot3;
-        var1 = var1.TIER_2;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
+    var3['useIsClipsAvailable'] = var5;
     var3['isUserPremiumTypeForClipsEarlyAccess'] = var4;
     var4 = function isScreenshotKeybindEnabled() {
-        var4 = _closure1_slot4;
-        var3 = var4.getCurrentConfig;
-        var2 = {};
-        var1 = 'isScreenshotKeybindEnabled';
-        var2['location'] = var1;
+        var3 = _closure1_slot6;
+        var2 = var3.getConfig;
         var1 = {};
-        var5 = false;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
+        var4 = 'isScreenshotKeybindEnabled';
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
         var1 = var1.enableScreenshotKeybind;
         return var1;
     };
     var3['isScreenshotKeybindEnabled'] = var4;
     var4 = function useScreenshotKeybindEnabled() {
-        var4 = _closure1_slot4;
-        var3 = var4.useExperiment;
-        var2 = {};
-        var1 = 'useScreenshotKeybindEnabled';
-        var2['location'] = var1;
+        var3 = _closure1_slot6;
+        var2 = var3.useConfig;
         var1 = {};
-        var5 = false;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
+        var4 = 'useScreenshotKeybindEnabled';
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
         var1 = var1.enableScreenshotKeybind;
         return var1;
     };
     var3['useScreenshotKeybindEnabled'] = var4;
     var4 = function areVoiceOnlyClipsEnabled() {
-        var4 = _closure1_slot4;
-        var3 = var4.getCurrentConfig;
-        var2 = {};
-        var1 = 'areVoiceOnlyClipsEnabled';
-        var2['location'] = var1;
+        var3 = _closure1_slot6;
+        var2 = var3.getConfig;
         var1 = {};
-        var5 = false;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
+        var4 = 'areVoiceOnlyClipsEnabled';
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
         var1 = var1.enableVoiceOnlyClips;
         return var1;
     };
     var3['areVoiceOnlyClipsEnabled'] = var4;
     var2 = function areAdvancedSignalsEnabled() {
-        var4 = _closure1_slot4;
-        var3 = var4.getCurrentConfig;
-        var2 = {};
-        var1 = 'areAdvancedSignalsEnabled';
-        var2['location'] = var1;
+        var3 = _closure1_slot6;
+        var2 = var3.getConfig;
         var1 = {};
-        var5 = false;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
+        var4 = 'areAdvancedSignalsEnabled';
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
         var1 = var1.enableAdvancedSignals;
         return var1;
     };

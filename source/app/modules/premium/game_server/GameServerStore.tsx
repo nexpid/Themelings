@@ -277,7 +277,7 @@ case 17:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(10);
+        var1 = new Array(11);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -317,6 +317,31 @@ case 19:
         };
         var5['value'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'getGlobalCatalogGame';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var2 = global;
+            var4 = var2.Object;
+            var3 = var4.values;
+            var2 = _closure1_slot8;
+            var2 = var2.catalog;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.gameId;
+                var1 = _closure3_slot0;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getLowestGameCostForGuild';
         var5['key'] = var7;
@@ -372,7 +397,7 @@ case 21:
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'hasFetchedCatalog';
         var5['key'] = var7;
@@ -399,7 +424,7 @@ case 27:
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'hasFetchedInstances';
         var5['key'] = var7;
@@ -426,7 +451,7 @@ case 31:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'shouldFetchCatalogForGuild';
         var5['key'] = var7;
@@ -458,7 +483,7 @@ case 14:
             }
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'shouldFetchInstancesForGuild';
         var5['key'] = var7;
@@ -490,7 +515,7 @@ case 8:
             }
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'shouldFetchGlobalCatalog';
         var5['key'] = var7;
@@ -515,7 +540,7 @@ case 35:
             }
         };
         var5['value'] = var6;
-        var1[9] = var5;
+        var1[10] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

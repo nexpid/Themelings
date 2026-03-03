@@ -1,4 +1,4 @@
-// app/modules/favorites/FavoritesServerExperiment.tsx
+// app/modules/favorites/FavoritesGuildExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -31,10 +31,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/favorites/FavoritesServerExperiment.tsx';
+    var5 = 'modules/favorites/FavoritesGuildExperiment.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['FavoritesServerExperiment'] = var4;
-    var2 = function useFavoritesServerConfig(arg1) {
+    var3['FavoritesGuildExperiment'] = var4;
+    var2 = function useFavoritesGuildConfig(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
@@ -44,6 +44,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['useFavoritesServerConfig'] = var2;
+    var3['useFavoritesGuildConfig'] = var2;
     return var1;
 })();

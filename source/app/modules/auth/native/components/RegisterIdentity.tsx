@@ -478,192 +478,261 @@ case 17:
     var4['scrollContent'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;
-    var4 = 25;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/auth/native/components/RegisterIdentity.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function RegisterIdentity() {
-        var2 = _closure1_slot16;
-        var4 = undefined;
-        var11 = var2.bind(var4)();
-        var5 = _closure1_slot5;
-        var3 = var5.useState;
-        var8 = _closure1_slot0;
-        var9 = _closure1_slot2;
-        var2 = 16;
-        var2 = var9[var2];
-        var2 = var8.bind(var4)(var2);
-        var2 = var2.PhoneOrEmailSelectorForceMode;
-        var2 = var2.PHONE;
-        var5 = var3.bind(var5)(var2);
-        var3 = _closure1_slot4;
-        var2 = 2;
-        var3 = var3.bind(var4)(var5, var2);
-        var2 = 0;
-        var6 = var3[var2];
-        var2 = 1;
-        var2 = var3[var2];
-        var _closure2_slot0 = var2;
-        var12 = _closure1_slot5;
-        var7 = var12.useMemo;
-        var5 = function() {
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 21;
-            var1 = var5[var2];
-            var3 = undefined;
-            var1 = var4.bind(var3)(var1);
-            var1 = var1.t;
-            var6 = var1.dEYpSt;
-            var1 = new Array(2);
-            var1[0] = var6;
-            var2 = var5[var2];
-            var2 = var4.bind(var3)(var2);
-            var2 = var2.t;
-            var2 = var2.w/qqKK;
-            var1[1] = var2;
-            return var1;
-        };
-        var3 = new Array(0);
-        var13 = var7.bind(var12)(var5, var3);
-        var7 = _closure1_slot5;
-        var5 = var7.useCallback;
-        var3 = new Array(1);
-        var3[0] = var2;
-        var2 = function(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
+            var2 = _closure1_slot16;
+            var4 = undefined;
+            var11 = var2.bind(var4)();
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 23;
+            var2 = var6[var2];
+            var2 = var5.bind(var4)(var2);
+            var7 = var2.EmailFirstRegistrationExperiment;
+            var3 = var7.useExperiment;
+            var2 = {};
+            var8 = 'RegisterIdentity';
+            var2['location'] = var8;
+            var2 = var3.bind(var7)(var2);
+            var2 = var2.enabled;
+            var3 = 24;
+            var3 = var6[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.getDeviceCountry;
+            var6 = var3.bind(var5)();
+            if(!var2) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+            var3 = null;
+            var2 = var3 != var6;
+case 20:
+            if(!var2) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 25;
+            var3 = var7[var3];
+            var3 = var5.bind(var4)(var3);
+            var5 = var3.EMAIL_FIRST_COUNTRIES;
+            var3 = var5.has;
+            var2 = var3.bind(var5)(var6);
+case 22:
+            var _closure2_slot0 = var2;
+            var6 = _closure1_slot5;
+            var5 = var6.useMemo;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var1 = _closure2_slot0;
+                    var3 = {};
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var8 = 21;
+                    var2 = var7[var8];
+                    var5 = undefined;
+                    var2 = var6.bind(var5)(var2);
+                    var2 = var2.t;
+                    if(var1) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+                    var1 = var2.dEYpSt;
+                    var3['descriptor'] = var1;
+                    var9 = 16;
+                    var1 = var7[var9];
+                    var1 = var6.bind(var5)(var1);
+                    var1 = var1.PhoneOrEmailSelectorForceMode;
+                    var1 = var1.PHONE;
+                    var3['mode'] = var1;
+                    var1 = new Array(2);
+                    var1[0] = var3;
+                    var4 = {};
+                    var10 = var7[var8];
+                    var10 = var6.bind(var5)(var10);
+                    var10 = var10.t;
+                    var10 = var10.w/qqKK;
+                    var4['descriptor'] = var10;
+                    var9 = var7[var9];
+                    var9 = var6.bind(var5)(var9);
+                    var9 = var9.PhoneOrEmailSelectorForceMode;
+                    var9 = var9.EMAIL;
+                    var4['mode'] = var9;
+                    var1[1] = var4;
+                    _fun0005_ip = 26; continue _fun0005;
+case 24:
+                    var2 = var2.w/qqKK;
+                    var3['descriptor'] = var2;
+                    var4 = 16;
+                    var2 = var7[var4];
+                    var2 = var6.bind(var5)(var2);
+                    var2 = var2.PhoneOrEmailSelectorForceMode;
+                    var2 = var2.EMAIL;
+                    var3['mode'] = var2;
+                    var2 = new Array(2);
+                    var2[0] = var3;
+                    var3 = {};
+                    var8 = var7[var8];
+                    var8 = var6.bind(var5)(var8);
+                    var8 = var8.t;
+                    var8 = var8.dEYpSt;
+                    var3['descriptor'] = var8;
+                    var4 = var7[var4];
+                    var4 = var6.bind(var5)(var4);
+                    var4 = var4.PhoneOrEmailSelectorForceMode;
+                    var4 = var4.PHONE;
+                    var3['mode'] = var4;
+                    var2[1] = var3;
+                    var1 = var2;
+case 26:
+                    return var1;
+                }
+            };
+            var7 = var5.bind(var6)(var2, var3);
+            var _closure2_slot1 = var7;
+            var6 = _closure1_slot5;
+            var5 = var6.useState;
+            var2 = 0;
+            var3 = var7[var2];
+            var3 = var3.mode;
+            var6 = var5.bind(var6)(var3);
+            var5 = _closure1_slot4;
+            var3 = 2;
+            var3 = var5.bind(var4)(var6, var3);
+            var6 = var3[var2];
+            var2 = 1;
+            var2 = var3[var2];
+            var _closure2_slot2 = var2;
+            var8 = _closure1_slot5;
+            var5 = var8.useCallback;
+            var3 = new Array(2);
+            var3[0] = var2;
+            var3[1] = var7;
+            var2 = function(arg1) {
                 var2 = _closure1_slot8;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
-                var3 = _closure2_slot0;
-                var5 = 0;
+                var3 = _closure2_slot2;
+                var4 = _closure2_slot1;
                 var2 = arg1;
-                if(!(var5 !== var2)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                var2 = var4[var2];
+                var2 = var2.mode;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var12 = var5.bind(var8)(var2, var3);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 26;
+            var2 = var9[var2];
+            var5 = var8.bind(var4)(var2);
+            var3 = var5.useSegmentedControlState;
+            var2 = {'pageWidth': 0, 'defaultIndex': 0};
+            var2['onSetActiveIndex'] = var12;
+            var13 = var7.map;
+            var12 = function(arg1) {
+                var1 = arg1;
+                var4 = var1.descriptor;
+                var1 = {};
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 16;
+                var2 = 21;
+                var7 = var6[var2];
+                var3 = undefined;
+                var7 = var5.bind(var3)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var7 = var7.bind(var8)(var4);
+                var1['id'] = var7;
                 var2 = var6[var2];
-                var2 = var5.bind(var1)(var2);
-                var2 = var2.PhoneOrEmailSelectorForceMode;
-                var2 = var2.EMAIL;
-                _fun0004_ip = 22; continue _fun0004;
-case 20:
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var4 = 16;
-                var4 = var6[var4];
-                var4 = var5.bind(var1)(var4);
-                var4 = var4.PhoneOrEmailSelectorForceMode;
-                var2 = var4.PHONE;
-case 22:
-                var2 = var3.bind(var1)(var2);
+                var2 = var5.bind(var3)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var2 = var2.bind(var3)(var4);
+                var1['label'] = var2;
+                var2 = null;
+                var1['page'] = var2;
                 return var1;
-            }
-        };
-        var7 = var5.bind(var7)(var2, var3);
-        var2 = 23;
-        var2 = var9[var2];
-        var5 = var8.bind(var4)(var2);
-        var3 = var5.useSegmentedControlState;
-        var2 = {'pageWidth': 0, 'defaultIndex': 0};
-        var2['onSetActiveIndex'] = var7;
-        var12 = var13.map;
-        var7 = function(arg1) {
-            var4 = arg1;
-            var1 = {};
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 21;
-            var7 = var6[var2];
-            var3 = undefined;
-            var7 = var5.bind(var3)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var7 = var7.bind(var8)(var4);
-            var1['id'] = var7;
-            var2 = var6[var2];
-            var2 = var5.bind(var3)(var2);
-            var3 = var2.intl;
-            var2 = var3.string;
-            var2 = var2.bind(var3)(var4);
-            var1['label'] = var2;
-            var2 = null;
-            var1['page'] = var2;
-            return var1;
-        };
-        var7 = var12.bind(var13)(var7);
-        var2['items'] = var7;
-        var13 = var3.bind(var5)(var2);
-        var _closure2_slot1 = var13;
-        var5 = _closure1_slot5;
-        var3 = var5.useCallback;
-        var2 = new Array(1);
-        var2[0] = var13;
-        var1 = function(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            };
+            var12 = var13.bind(var7)(var12);
+            var2['items'] = var12;
+            var13 = var3.bind(var5)(var2);
+            var _closure2_slot3 = var13;
+            var5 = _closure1_slot5;
+            var3 = var5.useCallback;
+            var2 = new Array(2);
+            var2[0] = var13;
+            var2[1] = var7;
+            var1 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var5 = _closure2_slot1;
-                var4 = var5.setActiveIndex;
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 16;
-                var2 = var2[var1];
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var2 = var2.PhoneOrEmailSelectorForceMode;
-                var6 = var2.PHONE;
-                var3 = 1;
-                var2 = arg1;
-                if(!(var2 === var6)) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
-                var3 = 0;
-case 23:
-                var2 = false;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            }
-        };
-        var5 = var3.bind(var5)(var1, var2);
-        var3 = _closure1_slot14;
-        var2 = _closure1_slot17;
-        var1 = {};
-        var1['inputMode'] = var6;
-        var1['setInputMode'] = var5;
-        var7 = _closure1_slot14;
-        var6 = _closure1_slot6;
-        var5 = {};
-        var11 = var11.segmentedControl;
-        var5['style'] = var11;
-        var12 = _closure1_slot14;
-        var10 = 24;
-        var10 = var9[var10];
-        var10 = var8.bind(var4)(var10);
-        var11 = var10.SegmentedControl;
-        var10 = {};
-        var10['state'] = var13;
-        var13 = 'handled';
-        var10['keyboardShouldPersistTaps'] = var13;
-        var10 = var12.bind(var4)(var11, var10);
-        var5['children'] = var10;
-        var5 = var7.bind(var4)(var6, var5);
-        var1['controlComponent'] = var5;
-        var5 = 21;
-        var6 = var9[var5];
-        var6 = var8.bind(var4)(var6);
-        var7 = var6.intl;
-        var6 = var7.string;
-        var5 = var9[var5];
-        var5 = var8.bind(var4)(var5);
-        var5 = var5.t;
-        var5 = var5.WEdDgv;
-        var5 = var6.bind(var7)(var5);
-        var1['headerText'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+                    var1 = arg1;
+                    var _closure3_slot0 = var1;
+                    var4 = _closure2_slot1;
+                    var3 = var4.findIndex;
+                    var2 = function(arg1) {
+                        var1 = arg1;
+                        var2 = var1.mode;
+                        var1 = _closure3_slot0;
+                        var1 = var2 === var1;
+                        return var1;
+                    };
+                    var4 = var3.bind(var4)(var2);
+                    var2 = -1;
+                    if(!(var2 !== var4)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+                    var3 = _closure2_slot3;
+                    var2 = var3.setActiveIndex;
+                    var1 = false;
+                    var1 = var2.bind(var3)(var4, var1);
+case 27:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var5 = var3.bind(var5)(var1, var2);
+            var3 = _closure1_slot14;
+            var2 = _closure1_slot17;
+            var1 = {};
+            var1['inputMode'] = var6;
+            var1['setInputMode'] = var5;
+            var7 = _closure1_slot14;
+            var6 = _closure1_slot6;
+            var5 = {};
+            var11 = var11.segmentedControl;
+            var5['style'] = var11;
+            var12 = _closure1_slot14;
+            var10 = 27;
+            var10 = var9[var10];
+            var10 = var8.bind(var4)(var10);
+            var11 = var10.SegmentedControl;
+            var10 = {};
+            var10['state'] = var13;
+            var13 = 'handled';
+            var10['keyboardShouldPersistTaps'] = var13;
+            var10 = var12.bind(var4)(var11, var10);
+            var5['children'] = var10;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['controlComponent'] = var5;
+            var5 = 21;
+            var6 = var9[var5];
+            var6 = var8.bind(var4)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var9[var5];
+            var5 = var8.bind(var4)(var5);
+            var5 = var5.t;
+            var5 = var5.WEdDgv;
+            var5 = var6.bind(var7)(var5);
+            var1['headerText'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var3['RegisterIdentity'] = var2;
     return var1;

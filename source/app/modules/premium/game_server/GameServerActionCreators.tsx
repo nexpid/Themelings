@@ -75,7 +75,7 @@ case 8:
             var4 = var5.httpGetWithCountryCodeQuery;
             var3 = {'url': null, 'query': null, 'oldFormErrors': true, 'rejectWithError': false, 'retries': 2};
             var10 = _closure1_slot6;
-            var9 = var10.COLLECTION_PUBLISHED_LISTINGS_SKU;
+            var9 = var10.STOREFRONT_COLLECTION_WITH_PRODUCTS;
             var6 = _closure1_slot4;
             var6 = var9.bind(var10)(var6);
             var3['url'] = var6;
@@ -195,7 +195,7 @@ case 12:
             var2 = var3.httpGetWithCountryCodeQuery;
             var1 = {'url': null, 'query': null, 'oldFormErrors': true, 'rejectWithError': false, 'retries': 2};
             var7 = _closure1_slot6;
-            var6 = var7.COLLECTION_PUBLISHED_LISTINGS_SKU;
+            var6 = var7.STOREFRONT_COLLECTION_WITH_PRODUCTS;
             var4 = _closure1_slot4;
             var4 = var6.bind(var7)(var4);
             var1['url'] = var4;
@@ -399,7 +399,7 @@ case 21:
             var3 = var4.httpGetWithCountryCodeQuery;
             var2 = {};
             var7 = _closure1_slot6;
-            var5 = var7.PRODUCT_FOR_SKU;
+            var5 = var7.STOREFRONT_PRODUCT_BY_SKU_ID;
             var5 = var5.bind(var7)(var8);
             var2['url'] = var5;
             var5 = {};

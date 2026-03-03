@@ -2039,6 +2039,31 @@ case 103:
         return var1;
     };
     var2['setNoiseCancellationEnableStats'] = var7;
+    var7 = function setOpenH264Enabled(arg1) {
+        _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
+case 0:
+            var3 = _closure1_slot15;
+            var1 = undefined;
+            var3 = var3.bind(var1)();
+            if(var3) { _fun0042_ip = 120; continue _fun0042 }
+case 80:
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 13;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var5 = 'MEDIA_ENGINE_SET_OPENH264_ENABLED';
+            var2['type'] = var5;
+            var5 = arg1;
+            var2['enabled'] = var5;
+            var2 = var3.bind(var4)(var2);
+case 120:
+            return var1;
+        }
+    };
+    var2['setOpenH264Enabled'] = var7;
     var4 = function resetMediaEngineSettings(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

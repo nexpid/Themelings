@@ -1738,20 +1738,14 @@ case 117:
         }
     };
     var5['APP_STATE_UPDATE'] = var6;
-    var6 = function handleChannelSelected(arg1) {
+    var6 = function handleChannelSelected() {
         _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var3 = _closure1_slot12;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0024_ip = 38; continue _fun0024 }
-case 41:
-            var3 = arg1;
-            var3 = var3.preserveDrawerState;
-            var1 = !var3;
-case 38:
             if(!var1) { _fun0024_ip = 119; continue _fun0024 }
-case 120:
+case 41:
             var3 = _closure1_slot21;
             var2 = undefined;
             var1 = var3.bind(var2)();
@@ -1777,7 +1771,7 @@ case 0:
             var1 = arg1;
             var4 = _closure1_slot12;
             var3 = null;
-            if(!(var3 == var4)) { _fun0025_ip = 121; continue _fun0025 }
+            if(!(var3 == var4)) { _fun0025_ip = 120; continue _fun0025 }
 case 41:
             var6 = _closure1_slot16;
             var9 = _closure1_slot13;
@@ -1788,7 +1782,7 @@ case 41:
             var3 = new var10[var6](var9, var8, var7);
             var3 = var3 instanceof Object ? var3 : var4;
             _closure1_slot12 = var3;
-case 121:
+case 120:
             var5 = _closure1_slot12;
             var4 = var5.trackItemInteraction;
             var3 = var1.itemId;
@@ -1806,7 +1800,7 @@ case 0:
             var3 = _closure1_slot12;
             var2 = null;
             if(!(var2 == var3)) { _fun0026_ip = 9; continue _fun0026 }
-case 122:
+case 121:
             var5 = _closure1_slot16;
             var7 = _closure1_slot13;
             var2 = var5.prototype;
@@ -1832,7 +1826,7 @@ case 0:
             var3 = _closure1_slot12;
             var2 = null;
             if(!(var2 == var3)) { _fun0027_ip = 9; continue _fun0027 }
-case 122:
+case 121:
             var5 = _closure1_slot16;
             var7 = _closure1_slot13;
             var2 = var5.prototype;
@@ -1858,7 +1852,7 @@ case 0:
             var3 = _closure1_slot12;
             var2 = null;
             if(!(var2 == var3)) { _fun0028_ip = 9; continue _fun0028 }
-case 122:
+case 121:
             var5 = _closure1_slot16;
             var7 = _closure1_slot13;
             var2 = var5.prototype;
@@ -1897,7 +1891,7 @@ case 0:
             var3 = _closure1_slot12;
             var2 = null;
             if(!(var2 != var3)) { _fun0029_ip = 111; continue _fun0029 }
-case 122:
+case 121:
             var3 = global;
             var5 = var3.clearTimeout;
             var3 = _closure1_slot12;

@@ -527,7 +527,7 @@ case 13:
     var4['loadingContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot19 = var4;
-    var4 = 37;
+    var4 = 36;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -535,20 +535,10 @@ case 13:
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterContainer() {
         var4 = _closure1_slot16;
-        var2 = _closure1_slot0;
-        var3 = _closure1_slot2;
-        var1 = 36;
-        var1 = var3[var1];
-        var3 = undefined;
-        var1 = var2.bind(var3)(var1);
-        var2 = var1.RedesignCompat;
+        var3 = _closure1_slot21;
+        var2 = undefined;
         var1 = {};
-        var7 = _closure1_slot16;
-        var6 = _closure1_slot21;
-        var5 = {};
-        var5 = var7.bind(var3)(var6, var5);
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
+        var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
     var3['default'] = var2;

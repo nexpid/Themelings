@@ -772,7 +772,7 @@ case 63:
     var5 = 30;
     var5 = var5 * var8;
     var _closure1_slot8 = var5;
-    var5 = 13;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -782,42 +782,39 @@ case 63:
     var2 = function useWishlistRecommendationsForSingleUser(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-            var2 = arg1;
-            var1 = var2.userId;
-            var _closure2_slot0 = var1;
-            var10 = var2.numItems;
-            var _closure2_slot1 = var10;
-            var8 = var2.source;
-            var5 = undefined;
-            if(!(var8 === var5)) { _fun0012_ip = 35; continue _fun0012 }
-case 57:
-            var4 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 6;
-            var3 = var7[var3];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.WishlistFetchSource;
-            var8 = var3.USER_PROFILE;
-case 35:
-            var9 = var2.location;
-            var _closure2_slot2 = var5;
-            var _closure2_slot3 = var5;
-            var _closure2_slot4 = var5;
+            var1 = arg1;
+            var8 = var1.userId;
+            var _closure2_slot0 = var8;
+            var7 = var1.numItems;
+            var5 = var1.source;
+            var6 = undefined;
+            if(!(var5 === var6)) { _fun0012_ip = 62; continue _fun0012 }
+case 70:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var2 = var4[var2];
+            var2 = var3.bind(var6)(var2);
+            var2 = var2.WishlistFetchSource;
+            var5 = var2.USER_PROFILE;
+case 62:
+            var12 = var1.location;
+            var _closure2_slot1 = var6;
             var4 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var2 = 10;
-            var2 = var13[var2];
-            var2 = var4.bind(var5)(var2);
-            var12 = var2.bind(var5)(var1);
-            var11 = _closure1_slot0;
-            var2 = 8;
-            var2 = var13[var2];
-            var15 = var11.bind(var5)(var2);
+            var10 = _closure1_slot2;
+            var1 = 10;
+            var1 = var10[var1];
+            var1 = var4.bind(var6)(var1);
+            var13 = var1.bind(var6)(var8);
+            var2 = _closure1_slot0;
+            var1 = 8;
+            var1 = var10[var1];
+            var15 = var2.bind(var6)(var1);
             var14 = var15.useStateFromStoresObject;
-            var2 = _closure1_slot5;
+            var1 = _closure1_slot5;
             var3 = new Array(1);
-            var3[0] = var2;
-            var2 = function() {
+            var3[0] = var1;
+            var1 = function() {
                 var1 = {};
                 var4 = _closure1_slot5;
                 var3 = var4.getFirstWishlistId;
@@ -826,101 +823,60 @@ case 35:
                 var1['defaultWishlistId'] = var2;
                 return var1;
             };
-            var2 = var14.bind(var15)(var3, var2);
-            var3 = var2.defaultWishlistId;
-            _closure2_slot2 = var3;
-            var2 = 11;
-            var2 = var13[var2];
-            var4 = var4.bind(var5)(var2);
-            var2 = {};
-            var2['displayProfile'] = var12;
-            var2['location'] = var9;
-            var12 = var4.bind(var5)(var2);
+            var1 = var14.bind(var15)(var3, var1);
+            var3 = var1.defaultWishlistId;
+            _closure2_slot1 = var3;
+            var1 = 11;
+            var1 = var10[var1];
+            var4 = var4.bind(var6)(var1);
+            var1 = {};
+            var1['displayProfile'] = var13;
+            var1['location'] = var12;
+            var12 = var4.bind(var6)(var1);
             var4 = _closure1_slot11;
-            var2 = {};
-            var16 = _closure1_slot4;
-            var15 = var16.useMemo;
-            var14 = new Array(2);
-            var14[0] = var1;
-            var14[1] = var3;
+            var1 = {};
+            var14 = _closure1_slot4;
+            var13 = var14.useMemo;
+            var11 = new Array(2);
+            var11[0] = var8;
+            var11[1] = var3;
             var9 = function() {
                 var2 = {};
                 var3 = _closure2_slot0;
                 var2['userId'] = var3;
-                var1 = _closure2_slot2;
+                var1 = _closure2_slot1;
                 var2['wishlistId'] = var1;
                 var1 = new Array(1);
                 var1[0] = var2;
                 return var1;
             };
-            var9 = var15.bind(var16)(var9, var14);
-            var2['userIdsAndWishlistIds'] = var9;
+            var9 = var13.bind(var14)(var9, var11);
+            var1['userIdsAndWishlistIds'] = var9;
             var9 = 12;
-            var9 = var13[var9];
-            var11 = var11.bind(var5)(var9);
+            var9 = var10[var9];
+            var11 = var2.bind(var6)(var9);
             var9 = var11.useWishlistApplicationIds;
             var9 = var9.bind(var11)(var12);
-            var2['applicationIds'] = var9;
-            var2['numItems'] = var10;
-            var2['source'] = var8;
-            var2 = var4.bind(var5)(var2);
-            var11 = var2.wishlistAndRecommendations;
-            _closure2_slot3 = var11;
-            var5 = var2.skusToUserAndReason;
-            _closure2_slot4 = var5;
-            var4 = var2.status;
-            var9 = _closure1_slot4;
-            var8 = var9.useMemo;
-            var2 = new Array(3);
-            var2[0] = var11;
-            var2[1] = var1;
-            var2[2] = var5;
-            var1 = function() {
-                var3 = _closure2_slot3;
-                var2 = var3.filter;
-                var1 = function(arg1) {
-                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
-case 0:
-                        var3 = arg1;
-                        var4 = _closure2_slot4;
-                        var1 = var3.id;
-                        var4 = var4[var1];
-                        var1 = null;
-                        var1 = var1 != var4;
-                        if(!var1) { _fun0013_ip = 62; continue _fun0013 }
-case 34:
-                        var4 = _closure2_slot4;
-                        var3 = var3.id;
-                        var3 = var4[var3];
-                        var2 = _closure2_slot0;
-                        var3 = var3[var2];
-                        var2 = _closure1_slot7;
-                        var2 = var2.WISHLIST;
-                        var1 = var3 === var2;
-case 62:
-                        return var1;
-                    }
-                };
-                var1 = var2.bind(var3)(var1);
-                var1 = var1.length;
-                return var1;
-            };
-            var2 = var8.bind(var9)(var1, var2);
+            var1['applicationIds'] = var9;
+            var1['numItems'] = var7;
+            var1['source'] = var5;
+            var1 = var4.bind(var6)(var1);
+            var9 = var1.wishlistAndRecommendations;
+            var5 = var1.skusToUserAndReason;
+            var4 = var1.status;
+            var1 = 13;
+            var1 = var10[var1];
+            var6 = var2.bind(var6)(var1);
+            var2 = var6.useWishlistSkuFilter;
             var1 = {};
-            var9 = _closure1_slot4;
-            var8 = var9.useMemo;
-            var7 = new Array(2);
-            var7[0] = var11;
-            var7[1] = var10;
-            var6 = function() {
-                var4 = _closure2_slot3;
-                var3 = var4.slice;
-                var2 = _closure2_slot1;
-                var1 = 0;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
-            var6 = var8.bind(var9)(var6, var7);
+            var1['wishlistAndRecommendations'] = var9;
+            var1['skusToUserAndReason'] = var5;
+            var1['userId'] = var8;
+            var1['numItems'] = var7;
+            var6 = var2.bind(var6)(var1);
+            var2 = var6.totalUnownedWishlistItemCount;
+            var1 = {};
+            var6 = var6.slicedWishlistAndRecommendations;
             var1['wishlistAndRecommendations'] = var6;
             var1['skusToUserAndReason'] = var5;
             var1['status'] = var4;

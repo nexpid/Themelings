@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'aspectRatio': 1, 'borderWidth': 1, 'borderRadius': null, 'borderColor': null, 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden'};
+    var9 = {'borderWidth': 1, 'borderRadius': null, 'borderColor': null, 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden'};
     var12 = 4;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
@@ -93,11 +93,11 @@ case 0:
             var9 = var1.onPress;
             var10 = var1.accessibilityLabel;
             var16 = var1.renderPreview;
-            var4 = var1.size;
+            var6 = var1.size;
             var5 = undefined;
-            if(!(var4 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = 170;
+            var6 = 170;
 case 2:
             var12 = var1.isOwned;
             if(!(var12 === var5)) { _fun0001_ip = 4; continue _fun0001 }
@@ -111,46 +111,61 @@ case 4:
             var1 = _closure1_slot2;
             var3 = 5;
             var3 = var1[var3];
-            var6 = var11.bind(var5)(var3);
-            var3 = var6.useThemeContext;
-            var3 = var3.bind(var6)();
+            var4 = var11.bind(var5)(var3);
+            var3 = var4.useThemeContext;
+            var3 = var3.bind(var4)();
             var15 = var3.theme;
             var7 = var3.primaryColor;
             var14 = var3.secondaryColor;
             var3 = 6;
             var3 = var1[var3];
             var13 = var11.bind(var5)(var3);
-            var6 = var13.useUserProfileColors;
+            var4 = var13.useUserProfileColors;
             var3 = {};
             var3['theme'] = var15;
             var3['primaryColor'] = var7;
             var3['secondaryColor'] = var14;
-            var3 = var6.bind(var13)(var3);
+            var3 = var4.bind(var13)(var3);
             var3 = var3.containerBackground;
-            var6 = 7;
-            var6 = var1[var6];
-            var13 = var11.bind(var5)(var6);
-            var6 = var13.useToken;
+            var4 = 7;
+            var4 = var1[var4];
+            var13 = var11.bind(var5)(var4);
+            var4 = var13.useToken;
             var14 = _closure1_slot1;
             var11 = 4;
             var1 = var1[var11];
             var1 = var14.bind(var5)(var1);
             var1 = var1.colors;
             var1 = var1.BG_SURFACE_RAISED;
-            var6 = var6.bind(var13)(var1);
+            var4 = var4.bind(var13)(var1);
             var1 = null;
             if(!(var1 != var7)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var6 = var3;
+            var4 = var3;
 case 6:
             var3 = var18.card;
             var7 = new Array(3);
             var7[0] = var3;
             var3 = {};
-            var3['backgroundColor'] = var6;
+            var3['backgroundColor'] = var4;
             var7[1] = var3;
+            var4 = 'object';
+            var3 = typeof var6;
+            if(!(var4 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = {};
-            var3['width'] = var4;
+            var3['width'] = var6;
+            var4 = 1;
+            var3['aspectRatio'] = var4;
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
+            var4 = {};
+            var13 = var6.width;
+            var4['width'] = var13;
+            var6 = var6.height;
+            var4['height'] = var6;
+            var3 = var4;
+case 10:
             var7[2] = var3;
             var15 = _closure1_slot5;
             var14 = _closure1_slot4;
@@ -195,25 +210,25 @@ case 6:
             var3 = {};
             var11 = {};
             var17 = var12;
-            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var12) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var17 = var18.ownedCard;
-case 8:
+case 11:
             var11['style'] = var17;
             var16 = var16.bind(var5)();
             var11['children'] = var16;
             var14 = var15.bind(var5)(var14, var11);
             var11 = new Array(2);
             var11[0] = var14;
-            if(!var12) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var12) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var12 = var13;
-case 10:
+case 13:
             var11[1] = var12;
             var3['children'] = var11;
             var6 = var6.bind(var5)(var4, var3);
-            if(!(var1 != var9)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!(var1 != var9)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var1 = {};
@@ -224,29 +239,29 @@ case 13:
             var1['onPress'] = var9;
             var1['accessibilityElementsHidden'] = var8;
             var9 = 'auto';
-            if(!var8) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var8) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var9 = 'no-hide-descendants';
-case 14:
+case 17:
             var1['importantForAccessibility'] = var9;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 16; continue _fun0001;
-case 12:
+            _fun0001_ip = 19; continue _fun0001;
+case 15:
             var4 = _closure1_slot5;
             var3 = _closure1_slot4;
             var2 = {};
             var2['style'] = var7;
             var2['accessibilityElementsHidden'] = var8;
             var7 = 'auto';
-            if(!var8) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!var8) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var7 = 'no-hide-descendants';
-case 17:
+case 20:
             var2['importantForAccessibility'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 16:
+case 19:
             return var1;
         }
     };

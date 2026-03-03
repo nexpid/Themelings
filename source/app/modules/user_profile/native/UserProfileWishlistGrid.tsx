@@ -426,14 +426,16 @@ case 0:
             var19 = var1.isVisible;
             var6 = var1.onNavigateAway;
             var _closure2_slot1 = var6;
+            var27 = var1.onGiftModalDismiss;
+            var _closure2_slot2 = var27;
             var5 = undefined;
-            var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
             var _closure2_slot5 = var5;
             var _closure2_slot6 = var5;
             var _closure2_slot7 = var5;
             var _closure2_slot8 = var5;
             var _closure2_slot9 = var5;
+            var _closure2_slot10 = var5;
             var1 = _closure1_slot18;
             var16 = var1.bind(var5)();
             var3 = _closure1_slot1;
@@ -446,7 +448,7 @@ case 0:
             var1['maxWidth'] = var4;
             var1 = var3.bind(var5)(var1);
             var3 = var1.cardWidth;
-            var _closure2_slot2 = var3;
+            var _closure2_slot3 = var3;
             var4 = var1.rowWidth;
             var1 = null;
             var3 = var1 != var4;
@@ -465,16 +467,16 @@ case 8:
             var3 = var4.useUserProfileAnalyticsContext;
             var3 = var3.bind(var4)();
             var24 = var3.context;
-            _closure2_slot3 = var24;
+            _closure2_slot4 = var24;
             var17 = var3.trackUserProfileWishlistAction;
-            _closure2_slot4 = var17;
+            _closure2_slot5 = var17;
             var4 = _closure1_slot1;
             var3 = 26;
             var3 = var7[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.bind(var5)();
             var12 = var3.analyticsLocations;
-            _closure2_slot5 = var12;
+            _closure2_slot6 = var12;
             var13 = 27;
             var3 = var7[var13];
             var14 = var9.bind(var5)(var3);
@@ -490,7 +492,7 @@ case 8:
                 return var1;
             };
             var3 = var11.bind(var14)(var8, var3);
-            _closure2_slot6 = var3;
+            _closure2_slot7 = var3;
             var8 = var7[var13];
             var15 = var9.bind(var5)(var8);
             var14 = var15.useStateFromStores;
@@ -529,14 +531,14 @@ case 8:
             var7 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var3 = _closure2_slot6;
+                    var3 = _closure2_slot7;
                     var1 = null;
                     var3 = var1 != var3;
                     if(!var3) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
                     var5 = _closure1_slot11;
                     var4 = var5.getWishlistSettings;
-                    var3 = _closure2_slot6;
+                    var3 = _closure2_slot7;
                     var3 = var3.userId;
                     var2 = _closure2_slot0;
                     var1 = var4.bind(var5)(var3, var2);
@@ -585,7 +587,7 @@ case 17:
             var7 = var3.userId;
 case 16:
             var14 = var11 === var7;
-            _closure2_slot7 = var14;
+            _closure2_slot8 = var14;
             var11 = _closure1_slot0;
             var7 = _closure1_slot2;
             var7 = var7[var13];
@@ -599,14 +601,14 @@ case 16:
             var7 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var3 = _closure2_slot6;
+                    var3 = _closure2_slot7;
                     var1 = null;
                     var3 = var1 != var3;
                     if(!var3) { _fun0005_ip = 18; continue _fun0005 }
 case 11:
                     var4 = _closure1_slot10;
                     var3 = var4.getUser;
-                    var2 = _closure2_slot6;
+                    var2 = _closure2_slot7;
                     var2 = var2.userId;
                     var1 = var3.bind(var4)(var2);
 case 18:
@@ -614,7 +616,7 @@ case 18:
                 }
             };
             var26 = var15.bind(var20)(var13, var7, var11);
-            _closure2_slot8 = var26;
+            _closure2_slot9 = var26;
             var7 = var1 == var26;
             var11 = undefined;
             if(var7) { _fun0003_ip = 19; continue _fun0003 }
@@ -649,13 +651,13 @@ case 23:
             var7 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var1 = _closure2_slot6;
+                    var1 = _closure2_slot7;
                     var2 = null;
                     var4 = var2 == var1;
                     var1 = undefined;
                     if(var4) { _fun0006_ip = 24; continue _fun0006 }
 case 25:
-                    var3 = _closure2_slot6;
+                    var3 = _closure2_slot7;
                     var5 = var3.items;
                     var4 = var5.filter;
                     var3 = _closure1_slot8;
@@ -676,13 +678,13 @@ case 26:
             var7 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var2 = _closure2_slot6;
+                    var2 = _closure2_slot7;
                     var1 = null;
                     var4 = var1 == var2;
                     var2 = undefined;
                     if(var4) { _fun0007_ip = 27; continue _fun0007 }
 case 25:
-                    var3 = _closure2_slot6;
+                    var3 = _closure2_slot7;
                     var5 = var3.items;
                     var4 = var5.some;
                     var3 = _closure1_slot9;
@@ -706,17 +708,17 @@ case 28:
             var13['wishlistId'] = var10;
             var13['onAction'] = var17;
             var25 = var1 == var3;
-            var27 = undefined;
+            var28 = undefined;
             if(var25) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
             var25 = var3.getProductLines;
-            var27 = var25.bind(var3)();
+            var28 = var25.bind(var3)();
 case 29:
-            var28 = var1 != var27;
+            var29 = var1 != var28;
             var25 = null;
-            if(!var28) { _fun0003_ip = 31; continue _fun0003 }
+            if(!var29) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
-            var25 = var27;
+            var25 = var28;
 case 31:
             var13['productLines'] = var25;
             var13['isVisible'] = var19;
@@ -735,7 +737,7 @@ case 0:
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0008_ip = 33; continue _fun0008 }
 case 34:
-                            var6 = _closure2_slot4;
+                            var6 = _closure2_slot5;
                             var5 = {};
                             var7 = _closure1_slot12;
                             var7 = var7.WISHLIST_ITEM_CLICKED;
@@ -758,10 +760,10 @@ case 34:
                             var5['productLines'] = var7;
                             var9 = undefined;
                             var5 = var6.bind(var9)(var5);
-                            var5 = _closure2_slot7;
+                            var5 = _closure2_slot8;
                             if(var5) { _fun0008_ip = 35; continue _fun0008 }
 case 36:
-                            var5 = _closure2_slot8;
+                            var5 = _closure2_slot9;
                             var6 = null;
                             if(!(var6 != var5)) { _fun0008_ip = 35; continue _fun0008 }
 case 37:
@@ -805,8 +807,10 @@ case 43:
                             var10 = new Array(1);
                             var10[0] = var11;
                             var6['analyticsLocations'] = var10;
-                            var10 = _closure2_slot8;
+                            var10 = _closure2_slot9;
                             var6['initialRecipientUser'] = var10;
+                            var10 = _closure2_slot2;
+                            var6['onGiftModalDismiss'] = var10;
                             var6 = var7.bind(var8)(var6);
                             var6 = undefined;
                             return var6;
@@ -862,20 +866,20 @@ case 44:
                             var5 = var6.maybeFetchCollectiblesProduct;
                             var2 = var3.skuId;
                             var2 = var5.bind(var6)(var2);
-                            SaveGenerator(address=519);
-case 17:
-                            return var2;
+                            SaveGenerator(address=528);
 case 48:
+                            return var2;
+case 49:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0008_ip = 49; continue _fun0008 }
-case 50:
+                            if(var5) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
                             var6 = _closure1_slot6;
                             var5 = var6.getProduct;
                             var3 = var3.skuId;
                             var8 = var5.bind(var6)(var3);
                             var3 = null;
-                            if(!(var3 == var8)) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
+                            if(!(var3 == var8)) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var3 = 32;
@@ -884,8 +888,8 @@ case 52:
                             var3 = var5.hideAllActionSheets;
                             var3 = var3.bind(var5)();
                             var3 = undefined;
-                            _fun0008_ip = 53; continue _fun0008;
-case 51:
+                            _fun0008_ip = 54; continue _fun0008;
+case 52:
                             var6 = _closure1_slot0;
                             var10 = _closure1_slot2;
                             var5 = 31;
@@ -905,9 +909,9 @@ case 51:
                             var4 = 'stack';
                             var4 = var6.bind(var7)(var5, var4);
                             var3 = undefined;
-case 53:
+case 54:
                             return var3;
-case 49:
+case 50:
                             return var2;
 case 33:
                             return var1;
@@ -930,14 +934,15 @@ case 33:
                 return var1;
             };
             var15 = var13.bind(var5)();
-            var13 = new Array(5);
+            var13 = new Array(6);
             var13[0] = var10;
             var13[1] = var17;
             var13[2] = var6;
-            var13[3] = var14;
-            var13[4] = var26;
+            var13[3] = var27;
+            var13[4] = var14;
+            var13[5] = var26;
             var13 = var19.bind(var25)(var15, var13);
-            _closure2_slot9 = var13;
+            _closure2_slot10 = var13;
             var19 = _closure1_slot4;
             var15 = var19.useCallback;
             var13 = new Array(5);
@@ -949,24 +954,24 @@ case 33:
             var12 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-                    var5 = _closure2_slot4;
+                    var5 = _closure2_slot5;
                     var3 = {};
                     var1 = _closure1_slot12;
                     var1 = var1.PRESS_EDIT_WISHLIST;
                     var3['action'] = var1;
                     var1 = _closure2_slot0;
                     var3['wishlistId'] = var1;
-                    var6 = _closure2_slot6;
+                    var6 = _closure2_slot7;
                     var1 = null;
                     var7 = var1 == var6;
                     var1 = undefined;
                     var6 = undefined;
-                    if(var7) { _fun0009_ip = 54; continue _fun0009 }
+                    if(var7) { _fun0009_ip = 55; continue _fun0009 }
 case 26:
-                    var8 = _closure2_slot6;
+                    var8 = _closure2_slot7;
                     var7 = var8.getProductLines;
                     var6 = var7.bind(var8)();
-case 54:
+case 55:
                     var3['productLines'] = var6;
                     var3 = var5.bind(var1)(var3);
                     var6 = _closure1_slot1;
@@ -986,9 +991,9 @@ case 54:
                     var4 = {};
                     var3 = _closure2_slot0;
                     var4['wishlistId'] = var3;
-                    var3 = _closure2_slot3;
+                    var3 = _closure2_slot4;
                     var4['analyticsContext'] = var3;
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot6;
                     var4['analyticsLocations'] = var2;
                     var11 = 'EditWishlistActionSheet';
                     var9 = 'stack';
@@ -1008,7 +1013,7 @@ case 54:
             var10 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                    var4 = _closure2_slot4;
+                    var4 = _closure2_slot5;
                     var3 = {};
                     var1 = _closure1_slot12;
                     var1 = var1.PRESS_ADD_WISHLIST_ITEM;
@@ -1032,11 +1037,11 @@ case 0:
                     var3 = var4.bind(var1)(var3);
                     var4 = _closure2_slot1;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0010_ip = 55; continue _fun0010 }
+                    if(!(var3 != var4)) { _fun0010_ip = 56; continue _fun0010 }
 case 3:
                     var2 = _closure2_slot1;
                     var2 = var2.bind(var1)();
-case 55:
+case 56:
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 18;
@@ -1064,33 +1069,33 @@ case 55:
                 }
             };
             var27 = var13.bind(var15)(var10, var12);
-            if(!var8) { _fun0003_ip = 56; continue _fun0003 }
+            if(!var8) { _fun0003_ip = 57; continue _fun0003 }
+case 58:
+            if(!(var1 != var3)) { _fun0003_ip = 59; continue _fun0003 }
 case 57:
-            if(!(var1 != var3)) { _fun0003_ip = 58; continue _fun0003 }
-case 56:
-            if(!(var1 == var4)) { _fun0003_ip = 59; continue _fun0003 }
-case 60:
-            if(!(var1 != var3)) { _fun0003_ip = 61; continue _fun0003 }
-case 62:
+            if(!(var1 == var4)) { _fun0003_ip = 60; continue _fun0003 }
+case 61:
+            if(!(var1 != var3)) { _fun0003_ip = 62; continue _fun0003 }
+case 63:
             var4 = var20.length;
             var3 = 0;
-            if(!(var3 !== var4)) { _fun0003_ip = 63; continue _fun0003 }
-case 64:
+            if(!(var3 !== var4)) { _fun0003_ip = 64; continue _fun0003 }
+case 65:
             var28 = var20.length;
             var8 = _closure1_slot16;
             var4 = _closure1_slot17;
             var3 = {};
             var10 = var14;
-            if(!var14) { _fun0003_ip = 65; continue _fun0003 }
-case 66:
-            if(var9) { _fun0003_ip = 67; continue _fun0003 }
-case 68:
-            var9 = var11;
+            if(!var14) { _fun0003_ip = 66; continue _fun0003 }
 case 67:
+            if(var9) { _fun0003_ip = 68; continue _fun0003 }
+case 69:
+            var9 = var11;
+case 68:
             var10 = var9;
-case 65:
-            if(!var10) { _fun0003_ip = 69; continue _fun0003 }
-case 70:
+case 66:
+            if(!var10) { _fun0003_ip = 70; continue _fun0003 }
+case 71:
             var12 = _closure1_slot16;
             var11 = _closure1_slot5;
             var9 = {};
@@ -1124,7 +1129,7 @@ case 70:
             var13[1] = var15;
             var9['children'] = var13;
             var10 = var12.bind(var5)(var11, var9);
-case 69:
+case 70:
             var9 = new Array(4);
             var9[0] = var10;
             var12 = _closure1_slot16;
@@ -1155,8 +1160,8 @@ case 69:
             var17 = var19.bind(var5)(var17, var13);
             var13 = new Array(2);
             var13[0] = var17;
-            if(!var14) { _fun0003_ip = 71; continue _fun0003 }
-case 72:
+            if(!var14) { _fun0003_ip = 72; continue _fun0003 }
+case 73:
             var23 = _closure1_slot16;
             var19 = _closure1_slot5;
             var17 = {};
@@ -1232,7 +1237,7 @@ case 72:
             var24[1] = var25;
             var17['children'] = var24;
             var14 = var23.bind(var5)(var19, var17);
-case 71:
+case 72:
             var13[1] = var14;
             var10['children'] = var13;
             var10 = var12.bind(var5)(var11, var10);
@@ -1264,14 +1269,14 @@ case 71:
                 var2 = {};
                 var2['item'] = var1;
                 var6 = function onPress() {
-                    var3 = _closure2_slot9;
+                    var3 = _closure2_slot10;
                     var2 = _closure3_slot0;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
                     return var1;
                 };
                 var2['onPress'] = var6;
-                var6 = _closure2_slot2;
+                var6 = _closure2_slot3;
                 var2['size'] = var6;
                 var1 = var1.skuId;
                 var1 = var5.bind(var4)(var3, var2, var1);
@@ -1284,8 +1289,8 @@ case 71:
             var10 = var12.bind(var5)(var11, var10);
             var9[2] = var10;
             var10 = var7;
-            if(!var10) { _fun0003_ip = 73; continue _fun0003 }
-case 74:
+            if(!var10) { _fun0003_ip = 74; continue _fun0003 }
+case 75:
             var13 = _closure1_slot16;
             var12 = _closure1_slot5;
             var11 = {};
@@ -1327,12 +1332,12 @@ case 74:
             var14[1] = var15;
             var11['children'] = var14;
             var10 = var13.bind(var5)(var12, var11);
-case 73:
+case 74:
             var9[3] = var10;
             var3['children'] = var9;
             var3 = var8.bind(var5)(var4, var3);
             return var3;
-case 63:
+case 64:
             var4 = _closure1_slot15;
             var3 = _closure1_slot19;
             var2 = {};
@@ -1340,11 +1345,11 @@ case 63:
             var2['onNavigateAway'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 61:
+case 62:
+            return var1;
+case 60:
             return var1;
 case 59:
-            return var1;
-case 58:
             return var1;
         }
     };

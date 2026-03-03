@@ -1,4 +1,4 @@
-// app/modules/guild_sidebar/FavoritesServerChannelList.tsx
+// app/modules/guild_sidebar/FavoritesGuildChannelList.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var8 = metroImportDefault;
@@ -1243,9 +1243,9 @@ case 97:
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/guild_sidebar/FavoritesServerChannelList.tsx';
+    var5 = 'modules/guild_sidebar/FavoritesGuildChannelList.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function useFavoritesServerChannelList() {
+    var4 = function useFavoritesGuildChannelList() {
         var5 = _closure1_slot4;
         var4 = var5.useState;
         var3 = function() {
@@ -1313,7 +1313,7 @@ case 97:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var3['useFavoritesServerChannelList'] = var4;
+    var3['useFavoritesGuildChannelList'] = var4;
     var3['computeFavoritesState'] = var2;
     return var1;
 })();

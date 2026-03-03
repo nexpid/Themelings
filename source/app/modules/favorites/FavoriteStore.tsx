@@ -290,7 +290,7 @@ case 32:
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'favoriteServerMuted';
+        var7 = 'favoriteGuildMuted';
         var5['key'] = var7;
         var7 = function get() {
             var1 = _closure1_slot13;
@@ -299,7 +299,7 @@ case 32:
         var5['get'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'favoriteServerEnabled';
+        var7 = 'favoriteGuildEnabled';
         var5['key'] = var7;
         var7 = function get() {
             var1 = _closure1_slot14;

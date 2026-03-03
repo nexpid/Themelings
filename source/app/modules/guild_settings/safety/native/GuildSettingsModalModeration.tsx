@@ -706,8 +706,14 @@ case 0:
                 var5 = var10.bind(var1)(var5);
                 var7 = var5.Form;
                 var5 = {};
-                var9 = var14.props;
-                var9 = var9.contentContainerStyle;
+                var11 = {};
+                var9 = 16;
+                var11['paddingTop'] = var9;
+                var9 = new Array(2);
+                var9[0] = var11;
+                var11 = var14.props;
+                var11 = var11.contentContainerStyle;
+                var9[1] = var11;
                 var5['contentContainerStyle'] = var9;
                 var9 = 24;
                 var9 = var15[var9];
