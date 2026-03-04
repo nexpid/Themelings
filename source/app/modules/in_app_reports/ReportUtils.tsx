@@ -1948,14 +1948,15 @@ case 121:
 case 0:
             var4 = arg1;
             var1 = arg2;
-            var9 = var4.freeTextElements;
-            var5 = var4.dropdownElements;
+            var10 = var4.freeTextElements;
+            var9 = var4.dropdownElements;
+            var5 = var4.countrySelectElement;
             var2 = var4.multiSelectElement;
             var6 = var4.contentUrlInputElement;
             var8 = var1.textInput;
             var _closure2_slot0 = var8;
             var7 = var1.multiSelect;
-            var4 = var9.some;
+            var4 = var10.some;
             var1 = function(arg1) {
                 _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
@@ -2015,10 +2016,10 @@ case 123:
                     return var1;
                 }
             };
-            var1 = var4.bind(var9)(var1);
+            var1 = var4.bind(var10)(var1);
             if(var1) { _fun0020_ip = 132; continue _fun0020 }
 case 133:
-            var4 = var5.some;
+            var4 = var9.some;
             var3 = function(arg1) {
                 _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
@@ -2059,24 +2060,62 @@ case 54:
                     return var1;
                 }
             };
-            var1 = var4.bind(var5)(var3);
+            var1 = var4.bind(var9)(var3);
 case 132:
-            if(var1) { _fun0020_ip = 102; continue _fun0020 }
-case 37:
+            if(var1) { _fun0020_ip = 20; continue _fun0020 }
+case 36:
+            var10 = null;
+            var3 = var10 == var5;
+            var4 = undefined;
+            if(var3) { _fun0020_ip = 139; continue _fun0020 }
+case 27:
+            var4 = var5.should_submit_data;
+case 139:
+            var3 = true;
+            var3 = var3 === var4;
+            if(!var3) { _fun0020_ip = 21; continue _fun0020 }
+case 140:
+            var11 = var10 == var8;
+            var4 = undefined;
+            if(var11) { _fun0020_ip = 11; continue _fun0020 }
+case 131:
+            var11 = var5.name;
+            var4 = var8[var11];
+case 11:
+            var4 = var10 == var4;
+            if(var4) { _fun0020_ip = 141; continue _fun0020 }
+case 142:
+            var10 = var10 == var8;
+            var9 = undefined;
+            if(var10) { _fun0020_ip = 143; continue _fun0020 }
+case 102:
+            var5 = var5.name;
+            var5 = var8[var5];
+            var9 = var5.value;
+case 143:
+            var5 = '';
+            var4 = var5 === var9;
+case 141:
+            var3 = var4;
+case 21:
+            var1 = var3;
+case 20:
+            if(var1) { _fun0020_ip = 144; continue _fun0020 }
+case 17:
             var3 = null;
             var5 = var3 == var2;
             var4 = undefined;
-            if(var5) { _fun0020_ip = 101; continue _fun0020 }
-case 24:
+            if(var5) { _fun0020_ip = 145; continue _fun0020 }
+case 146:
             var4 = var2.should_submit_data;
-case 101:
+case 145:
             var2 = true;
             var2 = var2 === var4;
-            if(!var2) { _fun0020_ip = 139; continue _fun0020 }
-case 6:
+            if(!var2) { _fun0020_ip = 147; continue _fun0020 }
+case 148:
             var3 = var3 == var7;
-            if(var3) { _fun0020_ip = 140; continue _fun0020 }
-case 141:
+            if(var3) { _fun0020_ip = 149; continue _fun0020 }
+case 150:
             var4 = global;
             var5 = var4.Object;
             var4 = var5.keys;
@@ -2084,66 +2123,66 @@ case 141:
             var5 = var4.length;
             var4 = 0;
             var3 = var4 === var5;
-case 140:
+case 149:
             var2 = var3;
-case 139:
+case 147:
             var1 = var2;
-case 102:
-            if(var1) { _fun0020_ip = 142; continue _fun0020 }
-case 143:
+case 144:
+            if(var1) { _fun0020_ip = 151; continue _fun0020 }
+case 152:
             var7 = null;
             var2 = var7 == var6;
             var3 = undefined;
-            if(var2) { _fun0020_ip = 2; continue _fun0020 }
-case 12:
+            if(var2) { _fun0020_ip = 153; continue _fun0020 }
+case 154:
             var3 = var6.should_submit_data;
-case 2:
+case 153:
             var2 = true;
             var2 = var2 === var3;
-            if(!var2) { _fun0020_ip = 144; continue _fun0020 }
-case 145:
+            if(!var2) { _fun0020_ip = 155; continue _fun0020 }
+case 156:
             var4 = var7 == var8;
             var3 = undefined;
-            if(var4) { _fun0020_ip = 146; continue _fun0020 }
-case 147:
+            if(var4) { _fun0020_ip = 157; continue _fun0020 }
+case 158:
             var4 = var6.name;
             var3 = var8[var4];
-case 146:
+case 157:
             var3 = var7 == var3;
-            if(var3) { _fun0020_ip = 148; continue _fun0020 }
-case 149:
+            if(var3) { _fun0020_ip = 159; continue _fun0020 }
+case 160:
             var4 = var7 == var8;
             var9 = undefined;
-            if(var4) { _fun0020_ip = 150; continue _fun0020 }
-case 151:
+            if(var4) { _fun0020_ip = 161; continue _fun0020 }
+case 162:
             var4 = var6.name;
             var4 = var8[var4];
             var9 = var4.value;
-case 150:
+case 161:
             var4 = '';
             var3 = var4 === var9;
-case 148:
-            if(var3) { _fun0020_ip = 152; continue _fun0020 }
-case 153:
+case 159:
+            if(var3) { _fun0020_ip = 163; continue _fun0020 }
+case 164:
             var4 = var7 != var8;
             var5 = undefined;
-            if(!var4) { _fun0020_ip = 154; continue _fun0020 }
-case 155:
+            if(!var4) { _fun0020_ip = 165; continue _fun0020 }
+case 166:
             var6 = var6.name;
             var6 = var8[var6];
             var4 = var7 != var6;
             var5 = var6;
-case 154:
-            if(!var4) { _fun0020_ip = 156; continue _fun0020 }
-case 157:
+case 165:
+            if(!var4) { _fun0020_ip = 167; continue _fun0020 }
+case 168:
             var4 = var5.isValid;
-case 156:
+case 167:
             var3 = !var4;
-case 152:
+case 163:
             var2 = var3;
-case 144:
+case 155:
             var1 = var2;
-case 142:
+case 151:
             return var1;
         }
     };

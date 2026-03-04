@@ -39,16 +39,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
-            var7 = var4.item;
+            var8 = var4.item;
+            var7 = var4.source;
             var1 = null;
             var3 = Object.create(var1);
             var2 = 0;
             var3['item'] = var2;
-            var10 = {};
-            var9 = var4;
-            var8 = var3;
-            var6 = copyDataProperties(var10, var9, var8);
-            var4 = var7.skuProductLine;
+            var3['source'] = var2;
+            var11 = {};
+            var10 = var4;
+            var9 = var3;
+            var6 = copyDataProperties(var11, var10, var9);
+            var4 = var8.skuProductLine;
             var3 = _closure1_slot2;
             var3 = var3.COLLECTIBLES;
             if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
@@ -61,10 +63,11 @@ case 3:
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
             var2 = {};
-            var2['item'] = var7;
-            var10 = var2;
-            var9 = var6;
-            var6 = copyDataProperties(var10, var9);
+            var2['item'] = var8;
+            var2['source'] = var7;
+            var11 = var2;
+            var10 = var6;
+            var6 = copyDataProperties(var11, var10);
             var1 = var5.bind(var4)(var3, var2);
 case 2:
             return var1;

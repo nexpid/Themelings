@@ -173,6 +173,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GAME_SERVER_ACTIVITY_BUTTON'] = var2;
     var2 = 'impression_gdm_settings_invites';
     var4['GDM_SETTINGS_INVITES'] = var2;
+    var2 = 'impression_gift_card_redemption_succeeded_modal';
+    var4['GIFT_CARD_REDEMPTION_SUCCEEDED_MODAL'] = var2;
     var2 = 'impression_gift_intent_action_button';
     var4['GIFT_INTENT_ACTION_BUTTON'] = var2;
     var2 = 'impression_gift_intent_badge';

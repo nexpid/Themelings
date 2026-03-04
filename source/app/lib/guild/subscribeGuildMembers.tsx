@@ -377,6 +377,8 @@ case 20:
         return var1;
     };
     var3['default'] = var4;
+    var4 = 50;
+    var3['MAX_GUILD_MEMBER_SUBSCRIPTIONS'] = var4;
     var2 = function useSubscribeGuildMembers(arg1, arg2) {
         var6 = arg1;
         var5 = arg2;
@@ -423,7 +425,7 @@ case 25:
                     var3 = {};
                     var2 = {};
                     var8 = var5.length;
-                    var2['userIdsCount'] = var8;
+                    var2['count'] = var8;
                     var2['guildId'] = var4;
                     var8 = _closure2_slot1;
                     var2['reason'] = var8;

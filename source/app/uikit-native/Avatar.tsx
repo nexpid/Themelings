@@ -117,6 +117,14 @@ case 17:
             var2 = var2.PROFILE;
             if(!(var2 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
 case 18:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.AvatarSizes;
+            var2 = var2.YOUBAR_60;
+            if(!(var2 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
+case 19:
             var2 = null;
             return var2;
 case 14:
@@ -259,26 +267,26 @@ case 0:
             var32 = var2.channel;
             var13 = var2.streaming;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
-            var13 = false;
-case 19:
-            var20 = var2.isMobileOnline;
-            if(!(var20 === var4)) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
-            var20 = false;
+            if(!(var13 === var4)) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
+            var13 = false;
+case 20:
+            var20 = var2.isMobileOnline;
+            if(!(var20 === var4)) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+            var20 = false;
+case 22:
             var _closure2_slot0 = var20;
             var19 = var2.isVROnline;
-            if(!(var19 === var4)) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(!(var19 === var4)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var19 = false;
-case 23:
+case 24:
             var15 = var2.status;
             var _closure2_slot1 = var15;
             var21 = var2.size;
-            if(!(var21 === var4)) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+            if(!(var21 === var4)) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 7;
@@ -286,18 +294,18 @@ case 26:
             var3 = var5.bind(var4)(var3);
             var3 = var3.AvatarSizes;
             var21 = var3.NORMAL;
-case 25:
+case 26:
             var _closure2_slot2 = var21;
             var26 = var2.animate;
-            if(!(var26 === var4)) { _fun0002_ip = 27; continue _fun0002 }
+            if(!(var26 === var4)) { _fun0002_ip = 28; continue _fun0002 }
 case 5:
             var26 = false;
-case 27:
-            var27 = var2.speaking;
-            if(!(var27 === var4)) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
-            var27 = false;
 case 28:
+            var27 = var2.speaking;
+            if(!(var27 === var4)) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
+            var27 = false;
+case 29:
             var17 = var2.avatarDecoration;
             var7 = var2.mute;
             var6 = var2.deaf;
@@ -309,26 +317,26 @@ case 28:
             var25 = var2.autoStatusCutout;
             var _closure2_slot4 = var25;
             var5 = var2.isStageCall;
-            if(!(var5 === var4)) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+            if(!(var5 === var4)) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var5 = false;
-case 30:
+case 31:
             var29 = var2.source;
             var16 = var2.user;
             var31 = var2.guildId;
             var23 = var2.disablePlaceholder;
             var28 = var2.needsOffscreenAlphaCompositing;
-            if(!(var28 === var4)) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
+            if(!(var28 === var4)) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var28 = false;
-case 32:
+case 33:
             var24 = var2.accessible;
             var11 = var2.accessibilityLabel;
             var18 = var2.typing;
-            if(!(var18 === var4)) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
+            if(!(var18 === var4)) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var18 = false;
-case 34:
+case 35:
             var _closure2_slot5 = var18;
             var9 = var2.statusSizeOverride;
             var _closure2_slot6 = var9;
@@ -352,11 +360,11 @@ case 34:
 case 0:
                     var1 = _closure2_slot4;
                     var3 = null;
-                    if(!(var3 == var1)) { _fun0003_ip = 20; continue _fun0003 }
-case 36:
+                    if(!(var3 == var1)) { _fun0003_ip = 21; continue _fun0003 }
+case 37:
                     var5 = _closure2_slot3;
-                    _fun0003_ip = 37; continue _fun0003;
-case 20:
+                    _fun0003_ip = 38; continue _fun0003;
+case 21:
                     var1 = {};
                     var4 = _closure2_slot2;
                     var1['avatarSize'] = var4;
@@ -366,14 +374,14 @@ case 20:
                     var1['isMobileOnline'] = var4;
                     var6 = _closure2_slot4;
                     var4 = true;
-                    if(!(var4 !== var6)) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
+                    if(!(var4 !== var6)) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
                     var4 = _closure2_slot4;
                     var4 = var4.padding;
-                    _fun0003_ip = 40; continue _fun0003;
-case 38:
+                    _fun0003_ip = 41; continue _fun0003;
+case 39:
                     var4 = _closure1_slot5;
-case 40:
+case 41:
                     var1['padding'] = var4;
                     var4 = _closure2_slot5;
                     var1['typing'] = var4;
@@ -388,13 +396,13 @@ case 40:
                     var6 = var3 != var11;
                     var16 = undefined;
                     var1 = undefined;
-                    if(!var6) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
+                    if(!var6) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
                     var6 = _closure1_slot7;
                     var6 = var6.UNKNOWN;
                     var1 = undefined;
-                    if(!(var11 !== var6)) { _fun0003_ip = 41; continue _fun0003 }
-case 43:
+                    if(!(var11 !== var6)) { _fun0003_ip = 42; continue _fun0003 }
+case 44:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var6 = 7;
@@ -402,23 +410,23 @@ case 43:
                     var6 = var11.bind(var16)(var6);
                     var6 = var6.AVATAR_SIZE_MAP;
                     var11 = var6[var10];
-                    if(!(var3 == var9)) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
+                    if(!(var3 == var9)) { _fun0003_ip = 45; continue _fun0003 }
+case 46:
                     var6 = _closure1_slot11;
                     var9 = var6.bind(var16)(var10);
-case 44:
+case 45:
                     var10 = var3 != var9;
                     var6 = 0;
                     if(!var10) { _fun0003_ip = 10; continue _fun0003 }
-case 46:
+case 47:
                     var6 = var9;
 case 10:
                     var9 = 4;
                     var15 = var6 / var9;
-                    if(var4) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
-                    if(var7) { _fun0003_ip = 49; continue _fun0003 }
-case 50:
+                    if(var4) { _fun0003_ip = 48; continue _fun0003 }
+case 49:
+                    if(var7) { _fun0003_ip = 50; continue _fun0003 }
+case 51:
                     var10 = 2;
                     var4 = var6 / var10;
                     var8 = var4 + var8;
@@ -443,8 +451,8 @@ case 50:
                     var8[0] = var9;
                     var4['nativeCutouts'] = var8;
                     var1 = var4;
-                    _fun0003_ip = 41; continue _fun0003;
-case 49:
+                    _fun0003_ip = 42; continue _fun0003;
+case 50:
                     var17 = _closure1_slot0;
                     var18 = _closure1_slot2;
                     var4 = 8;
@@ -476,8 +484,8 @@ case 49:
                     var8[0] = var9;
                     var4['nativeCutouts'] = var8;
                     var1 = var4;
-                    _fun0003_ip = 41; continue _fun0003;
-case 47:
+                    _fun0003_ip = 42; continue _fun0003;
+case 48:
                     var8 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var17 = 8;
@@ -492,10 +500,10 @@ case 47:
                     var4 = var12[var4];
                     var4 = var8.bind(var16)(var4);
                     var3 = var3 != var7;
-                    if(!var3) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+                    if(!var3) { _fun0003_ip = 52; continue _fun0003 }
+case 53:
                     var3 = var7;
-case 51:
+case 52:
                     var12 = var4.bind(var16)(var6, var3);
                     var8 = _closure1_slot5;
                     var7 = 2;
@@ -533,9 +541,9 @@ case 51:
                     var4[0] = var6;
                     var3['nativeCutouts'] = var4;
                     var1 = var3;
-case 41:
+case 42:
                     var5 = var1;
-case 37:
+case 38:
                     var1 = {};
                     var1['cutout'] = var5;
                     var6 = _closure1_slot0;
@@ -578,8 +586,8 @@ case 37:
             var1['accessibilityLabel'] = var11;
             var11 = null;
             var24 = null;
-            if(!var27) { _fun0002_ip = 53; continue _fun0002 }
-case 54:
+            if(!var27) { _fun0002_ip = 54; continue _fun0002 }
+case 55:
             var28 = _closure1_slot0;
             var27 = _closure1_slot2;
             var27 = var27[var30];
@@ -589,7 +597,7 @@ case 54:
             var27 = 4;
             var37 = var28 + var27;
             var33 = _closure1_slot8;
-            if(var5) { _fun0002_ip = 55; continue _fun0002 }
+            if(var5) { _fun0002_ip = 2; continue _fun0002 }
 case 56:
             var27 = _closure1_slot4;
             var5 = {};
@@ -606,7 +614,7 @@ case 56:
             var5['style'] = var28;
             var5 = var33.bind(var4)(var27, var5);
             _fun0002_ip = 57; continue _fun0002;
-case 55:
+case 2:
             var28 = _closure1_slot1;
             var34 = _closure1_slot2;
             var27 = 12;
@@ -627,7 +635,7 @@ case 55:
             var5 = var33.bind(var4)(var28, var27);
 case 57:
             var24 = var5;
-case 53:
+case 54:
             var5 = new Array(5);
             var5[0] = var24;
             var28 = {};

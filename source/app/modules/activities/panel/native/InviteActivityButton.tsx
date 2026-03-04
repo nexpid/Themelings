@@ -138,7 +138,7 @@ case 5:
             var2['size'] = var6;
             var6 = true;
             var2['shrink'] = var6;
-            var6 = 2;
+            var6 = 1;
             var2['maxFontSizeMultiplier'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 4:

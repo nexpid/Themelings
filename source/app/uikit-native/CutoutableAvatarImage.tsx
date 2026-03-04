@@ -544,6 +544,8 @@ case 28:
     var7['GIFT_START'] = var4;
     var4 = 'giftSuccess';
     var7['GIFT_SUCCESS'] = var4;
+    var4 = 'youBar60';
+    var7['YOUBAR_60'] = var4;
     var4 = 'tabs22';
     var7['TABS_22'] = var4;
     var5 = var2.Object;
@@ -599,6 +601,9 @@ case 28:
     var2[var16] = var6;
     var16 = var7.REFRESH_MEDIUM_32;
     var6 = 32;
+    var2[var16] = var6;
+    var16 = var7.YOUBAR_60;
+    var6 = 60;
     var2[var16] = var6;
     var16 = var7.TABS_22;
     var6 = 22;
@@ -812,6 +817,18 @@ case 28:
     var4 = var4 / var9;
     var2['borderRadius'] = var4;
     var5['giftSuccess'] = var2;
+    var2 = {};
+    var4 = var7.YOUBAR_60;
+    var4 = var6[var4];
+    var2['width'] = var4;
+    var4 = var7.YOUBAR_60;
+    var4 = var6[var4];
+    var2['height'] = var4;
+    var4 = var7.YOUBAR_60;
+    var4 = var6[var4];
+    var4 = var4 / var9;
+    var2['borderRadius'] = var4;
+    var5['youBar60'] = var2;
     var2 = {};
     var4 = var7.TABS_22;
     var4 = var6[var4];

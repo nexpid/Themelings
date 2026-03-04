@@ -309,9 +309,8 @@ case 9:
         var1 = var3.bind(var5)(var1, var2);
         var1 = 17;
         var1 = var16[var1];
-        var2 = var12.bind(var4)(var1);
-        var1 = var2.useLocalHorizontalSafeArea;
-        var1 = var1.bind(var2)();
+        var1 = var28.bind(var4)(var1);
+        var1 = var1.bind(var4)();
         var30 = var1.left;
         var29 = var1.right;
         var3 = _closure1_slot10;

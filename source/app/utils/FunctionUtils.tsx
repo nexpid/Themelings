@@ -98,94 +98,41 @@ case 8:
         return var1;
     };
     var3['cachedFunction'] = var4;
-    var4 = function promiseThrottle(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var2 = arguments[1];
-            var3 = arg1;
-            var _closure2_slot0 = var3;
-            var3 = undefined;
-            if(!(var2 === var3)) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-            var2 = 5000;
-case 13:
-            var _closure2_slot1 = var2;
-            var2 = -1;
-            var _closure2_slot2 = var2;
-            var2 = null;
-            var _closure2_slot3 = var2;
-            var1 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var3 = _closure2_slot3;
-                    var2 = null;
-                    var2 = var2 == var3;
-                    if(var2) { _fun0004_ip = 15; continue _fun0004 }
-case 5:
-                    var3 = global;
-                    var4 = var3.Date;
-                    var3 = var4.now;
-                    var4 = var3.bind(var4)();
-                    var3 = _closure2_slot2;
-                    var2 = var4 >= var3;
-case 15:
-                    if(!var2) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-                    var2 = global;
-                    var3 = var2.Date;
-                    var2 = var3.now;
-                    var3 = var2.bind(var3)();
-                    var2 = _closure2_slot1;
-                    var2 = var3 + var2;
-                    _closure2_slot2 = var2;
-                    var3 = _closure2_slot0;
-                    var2 = undefined;
-                    var2 = var3.bind(var2)();
-                    _closure2_slot3 = var2;
-case 16:
-                    var1 = _closure2_slot3;
-                    return var1;
-                }
-            };
-            return var1;
-        }
-    };
-    var3['promiseThrottle'] = var4;
     var4 = function clearObject(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var6 = arg1;
             var4 = var6;
             for(var1 in var4)
-case 18:
+case 13:
             {
-case 19:
+case 14:
                 var7 = var1;
                 var8 = var6.hasOwnProperty;
                 var8 = var8.bind(var6)(var7);
-                if(!var8) { _fun0005_ip = 18; continue _fun0005 }
-case 20:
+                if(!var8) { _fun0003_ip = 13; continue _fun0003 }
+case 15:
                 var7 = delete var6[var7];
-                _fun0005_ip = 18; continue _fun0005;
+                _fun0003_ip = 13; continue _fun0003;
             }
-case 21:
+case 16:
             var1 = undefined;
             return var1;
         }
     };
     var3['clearObject'] = var4;
     var2 = function isPlainObjectEmpty(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
             for(var1 in var4)
-case 22:
+case 17:
             {
 case 6:
                 var1 = false;
                 return var1;
             }
-case 13:
+case 18:
             var1 = true;
             return var1;
         }

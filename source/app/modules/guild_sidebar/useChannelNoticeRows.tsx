@@ -193,37 +193,37 @@ case 0:
                     var3 = var1.SPACER;
                     var1 = new Array(1);
                     var1[0] = var3;
-                    var4 = _closure2_slot2;
-                    if(var4) { _fun0003_ip = 11; continue _fun0003 }
+                    var4 = _closure2_slot6;
+                    if(!var4) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-                    var4 = _closure2_slot4;
-                    if(!var4) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
                     var5 = var1.push;
                     var4 = _closure1_slot7;
-                    var4 = var4.MFA_WARNING;
+                    var4 = var4.GAME_CLAIM;
                     var4 = var5.bind(var1)(var4);
-                    _fun0003_ip = 13; continue _fun0003;
 case 11:
-                    var5 = var1.push;
-                    var4 = _closure1_slot7;
-                    var4 = var4.GUILD_PROGRESS;
-                    var4 = var5.bind(var1)(var4);
-case 13:
-                    var4 = _closure2_slot5;
+                    var4 = _closure2_slot2;
+                    if(var4) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                    var4 = _closure2_slot4;
                     if(!var4) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
                     var5 = var1.push;
                     var4 = _closure1_slot7;
-                    var4 = var4.LIVE_CHANNEL_NOTICE;
+                    var4 = var4.MFA_WARNING;
+                    var4 = var5.bind(var1)(var4);
+                    _fun0003_ip = 15; continue _fun0003;
+case 13:
+                    var5 = var1.push;
+                    var4 = _closure1_slot7;
+                    var4 = var4.GUILD_PROGRESS;
                     var4 = var5.bind(var1)(var4);
 case 15:
-                    var3 = _closure2_slot6;
+                    var3 = _closure2_slot5;
                     if(!var3) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
                     var3 = var1.push;
                     var2 = _closure1_slot7;
-                    var2 = var2.GAME_CLAIM;
+                    var2 = var2.LIVE_CHANNEL_NOTICE;
                     var2 = var3.bind(var1)(var2);
 case 17:
                     return var1;

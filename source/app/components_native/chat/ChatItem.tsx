@@ -155,41 +155,41 @@ case 12:
 case 11:
         var _closure1_slot14 = var2;
         var2 = 9;
-        var2 = var9[var2];
-        var4 = var8.bind(var1)(var2);
-        var2 = var4.isFabric;
-        var2 = var2.bind(var4)();
-        if(var2) { _fun0001_ip = 13; continue _fun0001 }
+        var4 = var9[var2];
+        var5 = var8.bind(var1)(var4);
+        var4 = var5.isFabric;
+        var4 = var4.bind(var5)();
+        if(var4) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-        var2 = 'DCDMessageView';
-        var5 = var12.bind(var1)(var2);
+        var4 = 'DCDMessageView';
+        var5 = var12.bind(var1)(var4);
         _fun0001_ip = 15; continue _fun0001;
 case 13:
-        var2 = 10;
-        var2 = var9[var2];
-        var2 = var8.bind(var1)(var2);
-        var5 = var2.default;
+        var4 = 10;
+        var4 = var9[var4];
+        var4 = var8.bind(var1)(var4);
+        var5 = var4.default;
 case 15:
         var _closure1_slot15 = var5;
-        var2 = var9[var11];
-        var4 = var8.bind(var1)(var2);
-        var2 = var4.isAndroid;
-        var2 = var2.bind(var4)();
-        if(var2) { _fun0001_ip = 16; continue _fun0001 }
+        var4 = var9[var2];
+        var13 = var8.bind(var1)(var4);
+        var4 = var13.isFabric;
+        var4 = var4.bind(var13)();
+        if(var4) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-        var2 = 'DCDSystemMessageView';
-        var4 = var12.bind(var1)(var2);
+        var4 = 'DCDSystemMessageView';
+        var4 = var12.bind(var1)(var4);
         _fun0001_ip = 18; continue _fun0001;
 case 16:
-        var2 = 11;
-        var2 = var9[var2];
-        var2 = var8.bind(var1)(var2);
-        var4 = var2.default;
+        var13 = 11;
+        var13 = var9[var13];
+        var13 = var8.bind(var1)(var13);
+        var4 = var13.default;
 case 18:
         var _closure1_slot16 = var4;
-        var2 = var9[var11];
+        var2 = var9[var2];
         var13 = var8.bind(var1)(var2);
-        var2 = var13.isAndroid;
+        var2 = var13.isFabric;
         var2 = var2.bind(var13)();
         if(var2) { _fun0001_ip = 19; continue _fun0001 }
 case 20:

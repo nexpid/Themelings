@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = {'mass': 0.5, 'damping': 80, 'stiffness': 320};
     var _closure1_slot6 = var5;
     var5 = {};
-    var8 = 'function FloatingActionButtonNativeTsx1(){const{withSpring,positionBottom,SPRING_CONFIG,positionRight}=this.__closure;return{bottom:withSpring(positionBottom!=null?positionBottom:0,SPRING_CONFIG),right:withSpring(positionRight!=null?positionRight:0,SPRING_CONFIG)};}';
+    var8 = "function FloatingActionButtonNativeTsx1(){const{withSpring,positionBottom,SPRING_CONFIG,positionRight}=this.__closure;return{position:'absolute',bottom:withSpring(positionBottom!=null?positionBottom:0,SPRING_CONFIG),right:withSpring(positionRight!=null?positionRight:0,SPRING_CONFIG)};}";
     var5['code'] = var8;
     var _closure1_slot7 = var5;
     var5 = 8;
@@ -139,6 +139,8 @@ case 4:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
+                    var2 = 'absolute';
+                    var1['position'] = var2;
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var9 = 6;
@@ -186,7 +188,7 @@ case 8:
             var15['SPRING_CONFIG'] = var17;
             var15['positionRight'] = var16;
             var2['__closure'] = var15;
-            var15 = 4835339439561.0;
+            var15 = 15844771072241.0;
             var2['__workletHash'] = var15;
             var15 = _closure1_slot7;
             var2['__initData'] = var15;

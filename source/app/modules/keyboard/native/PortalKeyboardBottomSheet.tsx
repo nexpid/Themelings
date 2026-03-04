@@ -589,7 +589,7 @@ case 36:
             var3 = var42[var5];
             var19 = var43.bind(var4)(var3);
             var10 = var19.useAnimatedStyle;
-            var3 = function z() {
+            var3 = function q() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -710,7 +710,7 @@ case 36:
             var28['__workletHash'] = var3;
             var3 = _closure1_slot15;
             var28['__initData'] = var3;
-            var3 = function q(arg1, arg2) {
+            var3 = function z(arg1, arg2) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var3 = arg1;
@@ -749,17 +749,9 @@ case 40:
 case 42:
             var28 = var1;
 case 41:
-            var3 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var2 = 25;
-            var2 = var1[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.useLocalHorizontalSafeArea;
-            var2 = var2.bind(var3)();
-            var36 = var2.left;
-            var35 = var2.right;
             var3 = _closure1_slot8;
             var2 = _closure1_slot1;
+            var1 = _closure1_slot2;
             var1 = var1[var5];
             var1 = var2.bind(var4)(var1);
             var2 = var1.View;
@@ -774,8 +766,8 @@ case 43:
             var5 = new Array(3);
             var5[0] = var7;
             var7 = {};
-            var7['marginLeft'] = var36;
-            var7['marginRight'] = var35;
+            var7['marginLeft'] = var39;
+            var7['marginRight'] = var38;
             var5[1] = var7;
             var7 = {};
             var40 = global;
@@ -857,7 +849,7 @@ case 52:
             var12 = _closure1_slot7;
             var10 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var9 = 26;
+            var9 = 25;
             var9 = var20[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.AccessibilityViewAnimated;
@@ -905,7 +897,7 @@ case 57:
             var10 = _closure1_slot7;
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var8 = 27;
+            var8 = 26;
             var8 = var12[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
@@ -916,7 +908,7 @@ case 56:
             var8 = _closure1_slot7;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var6 = 28;
+            var6 = 27;
             var6 = var9[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.NavScrim;
@@ -929,7 +921,7 @@ case 56:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 29;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

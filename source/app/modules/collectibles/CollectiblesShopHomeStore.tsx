@@ -36,13 +36,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot18 = var2;
+            _closure1_slot19 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var2 = global;
     var10 = var2.Object;
     var9 = var10.defineProperty;
@@ -138,6 +138,7 @@ case 4:
     var2 = var2 instanceof Object ? var2 : var8;
     var _closure1_slot16 = var2;
     var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var2 = 7;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -155,7 +156,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot18;
+                var1 = _closure1_slot19;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -195,7 +196,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getLastErrorTimestamp';
@@ -280,12 +281,21 @@ case 9:
         var5 = {};
         var7 = 'getShopHomeConfigOverride';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = _closure1_slot17;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[7] = var5;
+        var5 = {};
+        var7 = 'getShopLayoutUrlOverride';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot18;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -408,6 +418,14 @@ case 9:
         return var1;
     };
     var2['COLLECTIBLES_SET_SHOP_HOME_CONFIG_OVERRIDE'] = var9;
+    var9 = function COLLECTIBLES_SET_SHOP_LAYOUT_URL_OVERRIDE(arg1) {
+        var1 = arg1;
+        var2 = var1.shopLayoutUrlOverride;
+        _closure1_slot18 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['COLLECTIBLES_SET_SHOP_LAYOUT_URL_OVERRIDE'] = var9;
     var9 = function SKU_PURCHASE_SUCCESS(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -484,6 +502,7 @@ case 16:
         var1 = var1.bind(var3)();
         var1 = undefined;
         _closure1_slot17 = var1;
+        _closure1_slot18 = var1;
         return var1;
     };
     var2['LOGOUT'] = var4;

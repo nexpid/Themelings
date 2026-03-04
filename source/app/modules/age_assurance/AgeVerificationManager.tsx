@@ -128,7 +128,7 @@ case 4:
     var4 = new var13[var9](var12, var11);
     var4 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot15 = var4;
-    var4 = 19;
+    var4 = 18;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -212,60 +212,47 @@ case 0:
                         var3 = var3.ageVerificationStatus;
                         var6 = null;
                         var9 = var6 != var3;
-                        var10 = null;
+                        var11 = null;
                         if(!var9) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-                        var10 = var3;
+                        var11 = var3;
 case 13:
-                        var2 = var10;
-                        var9 = _closure3_slot0;
-                        var9 = var9._previousAgeVerificationStatus;
-                        var10 = var9 !== var10;
+                        var2 = var11;
+                        var10 = _closure3_slot0;
+                        var10 = var10._previousAgeVerificationStatus;
+                        var10 = var10 !== var11;
                         if(!var10) { _fun0004_ip = 8; continue _fun0004 }
 case 15:
-                        var11 = var2;
-                        var12 = _closure1_slot0;
-                        var13 = _closure1_slot2;
-                        var9 = 14;
-                        var9 = var13[var9];
-                        var9 = var12.bind(var1)(var9);
-                        var9 = var9.AgeVerificationStatusUkAndAusOnly;
-                        var9 = var9.VERIFIED_ADULT;
-                        var10 = var11 === var9;
+                        var12 = var2;
+                        var13 = _closure1_slot0;
+                        var14 = _closure1_slot2;
+                        var11 = 14;
+                        var11 = var14[var11];
+                        var11 = var13.bind(var1)(var11);
+                        var11 = var11.AgeVerificationStatusUkAndAusOnly;
+                        var11 = var11.VERIFIED_ADULT;
+                        var10 = var12 === var11;
 case 8:
-                        var11 = _closure1_slot0;
-                        var12 = _closure1_slot2;
-                        var9 = 15;
-                        var9 = var12[var9];
-                        var12 = var11.bind(var1)(var9);
-                        var11 = var12.getIsGidgetPawtectEnabled;
-                        var9 = 'age-verification-manager';
-                        var11 = var11.bind(var12)(var9);
                         var9 = var10;
                         if(!var10) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-                        var14 = _closure1_slot0;
-                        var15 = _closure1_slot2;
+                        var13 = _closure1_slot0;
+                        var14 = _closure1_slot2;
+                        var10 = 15;
+                        var10 = var14[var10];
+                        var12 = var13.bind(var1)(var10);
+                        var11 = var12.isFeatureAgeGated;
                         var10 = 16;
-                        var10 = var15[var10];
-                        var13 = var14.bind(var1)(var10);
-                        var12 = var13.isFeatureAgeGated;
-                        var10 = 17;
-                        var10 = var15[var10];
-                        var10 = var14.bind(var1)(var10);
+                        var10 = var14[var10];
+                        var10 = var13.bind(var1)(var10);
                         var10 = var10.AgeGatedFeature;
                         var10 = var10.AGE_GATED_SPACES;
-                        var10 = var12.bind(var13)(var10);
-                        if(var10) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
-                        var10 = var11;
-case 18:
-                        var9 = var10;
+                        var9 = var11.bind(var12)(var10);
 case 16:
                         var7 = var9;
-case 20: // try_start_0 // try_start_1
-                        if(!var7) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+case 18: // try_start_0 // try_start_1
+                        if(!var7) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                         var9 = _closure1_slot10;
                         var7 = var9.getChannelId;
                         var7 = var7.bind(var9)();
@@ -275,7 +262,7 @@ case 22:
                         _closure4_slot1 = var7;
                         var9 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var7 = 18;
+                        var7 = 17;
                         var7 = var10[var7];
                         var10 = var9.bind(var1)(var7);
                         var9 = var10.forEach;
@@ -289,26 +276,26 @@ case 0:
                                 var4 = var2.bind(var4)(var3);
                                 var2 = null;
                                 var2 = var2 != var4;
+                                if(!var2) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
+                                var2 = var4.nsfw;
+case 21:
                                 if(!var2) { _fun0005_ip = 23; continue _fun0005 }
 case 24:
-                                var2 = var4.nsfw;
-case 23:
-                                if(!var2) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
                                 var4 = _closure1_slot1;
                                 var2 = _closure1_slot2;
-                                var1 = 18;
+                                var1 = 17;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var2 = var4.bind(var1)(var2);
                                 var1 = var2.clear;
                                 var1 = var1.bind(var2)(var3);
                                 var1 = _closure4_slot0;
-                                if(!(var3 === var1)) { _fun0005_ip = 25; continue _fun0005 }
-case 27:
+                                if(!(var3 === var1)) { _fun0005_ip = 23; continue _fun0005 }
+case 25:
                                 var1 = true;
                                 _closure4_slot1 = var1;
-case 25:
+case 23:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -316,13 +303,13 @@ case 25:
                         var7 = var9.bind(var10)(var7);
                         var8 = _closure4_slot1;
                         var7 = var8;
-                        if(!var8) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                        if(!var8) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
                         var8 = var5;
                         var7 = var6 != var8;
+case 26:
+                        if(!var7) { _fun0004_ip = 19; continue _fun0004 }
 case 28:
-                        if(!var7) { _fun0004_ip = 21; continue _fun0004 }
-case 30:
                         var8 = var5;
                         var7 = _closure1_slot1;
                         var9 = _closure1_slot2;
@@ -340,27 +327,27 @@ case 30:
                         var7 = var5.bind(var7)(var8);
                         var5 = var6 == var7;
                         var8 = undefined;
-                        if(var5) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+                        if(var5) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                         var8 = var7.type;
-case 31:
+case 29:
                         var5 = _closure1_slot13;
                         var5 = var5.GUILD_FORUM;
                         var5 = var8 !== var5;
-                        if(!var5) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+                        if(!var5) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
                         var6 = var6 == var7;
                         var8 = undefined;
-                        if(var6) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+                        if(var6) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
                         var8 = var7.type;
-case 35:
+case 33:
                         var6 = _closure1_slot13;
                         var6 = var6.GUILD_MEDIA;
                         var5 = var8 !== var6;
-case 33:
-                        if(var5) { _fun0004_ip = 21; continue _fun0004 }
-case 37:
+case 31:
+                        if(var5) { _fun0004_ip = 19; continue _fun0004 }
+case 35:
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var5 = 13;
@@ -368,20 +355,20 @@ case 37:
                         var6 = var6.bind(var1)(var5);
                         var5 = var6.preloadForumThreads;
                         var5 = var5.bind(var6)(var7);
-case 21: // try_end0
-                        _fun0004_ip = 38; continue _fun0004;
-case 39: // catch_target0
+case 19: // try_end0
+                        _fun0004_ip = 36; continue _fun0004;
+case 37: // catch_target0
                         CatchBlockStart(arg_register=6);
                         var6 = _closure1_slot15;
                         var5 = var6.warn;
                         var4 = 'Error clearing cache and refetching messages';
                         var4 = var5.bind(var6)(var4, var7);
-case 38: // try_end1
+case 36: // try_end1
                         var5 = _closure3_slot0;
                         var4 = var2;
                         var5['_previousAgeVerificationStatus'] = var4;
                         return var1;
-case 40: // catch_target1
+case 38: // catch_target1
                         CatchBlockStart(arg_register=0);
                         var3 = _closure3_slot0;
                         var3['_previousAgeVerificationStatus'] = var2;
@@ -415,7 +402,7 @@ case 40: // catch_target1
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

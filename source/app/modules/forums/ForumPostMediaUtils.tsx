@@ -939,7 +939,7 @@ case 69:
             var2 = var12.length;
             var7 = 0;
             var2 = var2 > var7;
-            if(!var2) { _fun0017_ip = 107; continue _fun0017 }
+            if(!var2) { _fun0017_ip = 85; continue _fun0017 }
 case 25:
             var11 = var12.find;
             var10 = function(arg1) {
@@ -956,13 +956,13 @@ case 96:
             };
             var10 = var11.bind(var12)(var10);
             var2 = var5 != var10;
-case 107:
-            if(!var2) { _fun0017_ip = 108; continue _fun0017 }
-case 109:
+case 85:
+            if(!var2) { _fun0017_ip = 107; continue _fun0017 }
+case 84:
             var10 = var3.isForumPost;
             var2 = var10.bind(var3)();
-case 108:
-            if(!var2) { _fun0017_ip = 110; continue _fun0017 }
+case 107:
+            if(!var2) { _fun0017_ip = 108; continue _fun0017 }
 case 90:
             var10 = var3.ownerId;
             var12 = _closure1_slot7;
@@ -970,27 +970,27 @@ case 90:
             var11 = var11.bind(var12)();
             var12 = var5 == var11;
             var9 = undefined;
-            if(var12) { _fun0017_ip = 111; continue _fun0017 }
-case 112:
-            var9 = var11.id;
-case 111:
-            var2 = var10 === var9;
+            if(var12) { _fun0017_ip = 109; continue _fun0017 }
 case 110:
-            if(!var2) { _fun0017_ip = 113; continue _fun0017 }
-case 114:
+            var9 = var11.id;
+case 109:
+            var2 = var10 === var9;
+case 108:
+            if(!var2) { _fun0017_ip = 111; continue _fun0017 }
+case 112:
             var9 = _closure1_slot4;
             var8 = var9.getCount;
             var3 = var3.id;
             var3 = var8.bind(var9)(var3);
             var2 = var7 === var3;
-case 113:
-            if(!var2) { _fun0017_ip = 115; continue _fun0017 }
-case 116:
+case 111:
+            if(!var2) { _fun0017_ip = 113; continue _fun0017 }
+case 114:
             var3 = var6.attachments;
             var3 = var3.length;
             var3 = var7 === var3;
-            if(var3) { _fun0017_ip = 117; continue _fun0017 }
-case 118:
+            if(var3) { _fun0017_ip = 115; continue _fun0017 }
+case 116:
             var7 = var6.attachments;
             var6 = var7.find;
             var4 = function(arg1) {
@@ -1010,9 +1010,9 @@ case 16:
             };
             var4 = var6.bind(var7)(var4);
             var3 = var5 == var4;
-case 117:
-            var2 = var3;
 case 115:
+            var2 = var3;
+case 113:
             var1 = var2;
 case 106:
             return var1;
@@ -1032,14 +1032,14 @@ case 0:
                 var3 = arg2;
                 var1 = {};
                 var4 = var2.containsVideo;
-                if(var4) { _fun0020_ip = 119; continue _fun0020 }
-case 120:
+                if(var4) { _fun0020_ip = 117; continue _fun0020 }
+case 118:
                 var4 = var3.isVideo;
-case 119:
+case 117:
                 var1['containsVideo'] = var4;
                 var2 = var2.containsGif;
-                if(var2) { _fun0020_ip = 121; continue _fun0020 }
-case 122:
+                if(var2) { _fun0020_ip = 119; continue _fun0020 }
+case 120:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var4 = 6;
@@ -1049,7 +1049,7 @@ case 122:
                 var4 = var5.isAnimatedImageUrl;
                 var3 = var3.src;
                 var2 = var4.bind(var5)(var3);
-case 121:
+case 119:
                 var1['containsGif'] = var2;
                 return var1;
             }

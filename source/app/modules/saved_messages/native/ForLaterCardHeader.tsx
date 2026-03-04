@@ -174,7 +174,7 @@ case 11:
             var1['style'] = var7;
             var7 = null;
             if(var5) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+case 7:
             var8 = _closure1_slot5;
             var5 = {};
             var12 = var10.channelTypeIcon;
@@ -293,7 +293,7 @@ case 0:
             var7 = var12.isPrivate;
             var8 = var7.bind(var12)();
             var7 = null;
-            if(var8) { _fun0003_ip = 15; continue _fun0003 }
+            if(var8) { _fun0003_ip = 14; continue _fun0003 }
 case 5:
             var13 = _closure1_slot5;
             var11 = _closure1_slot0;
@@ -306,7 +306,7 @@ case 5:
             var14 = 'xxs';
             var8['size'] = var14;
             var7 = var13.bind(var4)(var11, var8);
-case 15:
+case 14:
             var5[1] = var7;
             var11 = _closure1_slot5;
             var8 = _closure1_slot9;

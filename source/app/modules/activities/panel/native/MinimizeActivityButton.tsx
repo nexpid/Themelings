@@ -82,7 +82,7 @@ case 2:
             var1 = var13[var1];
             var1 = var12.bind(var5)(var1);
             var2 = var1.IconButton;
-            var1 = {'icon': null, 'accessibilityLabel': null, 'onPress': null, 'size': 'sm', 'variant': 'secondary-overlay', 'maxFontSizeMultiplier': 2};
+            var1 = {'icon': null, 'accessibilityLabel': null, 'onPress': null, 'size': 'sm', 'variant': 'secondary-overlay', 'maxFontSizeMultiplier': 1};
             var7 = _closure1_slot1;
             var4 = 6;
             var4 = var13[var4];
@@ -137,7 +137,7 @@ case 4:
             var6['size'] = var8;
             var8 = 'secondary-overlay';
             var6['variant'] = var8;
-            var8 = 2;
+            var8 = 1;
             var6['maxFontSizeMultiplier'] = var8;
             var8 = true;
             var6['shrink'] = var8;

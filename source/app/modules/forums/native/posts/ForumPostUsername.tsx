@@ -300,23 +300,23 @@ case 27:
             var3 = var14 == var1;
             var11 = undefined;
             if(var3) { _fun0002_ip = 29; continue _fun0002 }
-case 3:
+case 30:
             var11 = var1.colorStrings;
 case 29:
             var3 = var14 == var15;
             var1 = null;
-            if(var3) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+            if(var3) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var4 = _closure1_slot6;
             var3 = _closure1_slot9;
             var2 = {};
             var2['thread'] = var16;
             var16 = var14 == var15;
             var14 = undefined;
-            if(var16) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
+            if(var16) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var14 = var15.id;
-case 32:
+case 33:
             var2['authorId'] = var14;
             var2['authorName'] = var13;
             var2['authorColor'] = var12;
@@ -327,7 +327,7 @@ case 32:
             var2['textStyle'] = var7;
             var2['hasUnreads'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 30:
+case 31:
             return var1;
         }
     };
@@ -362,10 +362,10 @@ case 0:
             var13 = null;
             var15 = var13 == var14;
             var13 = undefined;
-            if(var15) { _fun0003_ip = 34; continue _fun0003 }
-case 35:
+            if(var15) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
             var13 = var14.id;
-case 34:
+case 35:
             var1['authorId'] = var13;
             var1['authorName'] = var12;
             var1['authorColor'] = var11;

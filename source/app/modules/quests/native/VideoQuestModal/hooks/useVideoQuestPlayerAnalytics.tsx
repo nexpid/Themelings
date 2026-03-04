@@ -466,12 +466,11 @@ case 7:
         var3 = function(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var1 = arg1;
-                var1 = var1.isBuffering;
-                var3 = _closure1_slot6;
-                var2 = var3.getEffectiveConnectionSpeed;
-                var8 = var2.bind(var3)();
+                var2 = _closure1_slot6;
+                var1 = var2.getEffectiveConnectionSpeed;
+                var8 = var1.bind(var2)();
                 var2 = _closure2_slot14;
+                var1 = arg1;
                 if(var1) { _fun0005_ip = 17; continue _fun0005 }
 case 18:
                 var1 = var2.current;

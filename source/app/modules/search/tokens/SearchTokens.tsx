@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = function getWeekdays() {
         var1 = global;
         var3 = var1.Set;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot28 = var1;
     var1 = function getYears() {
         var1 = global;
         var2 = var1.Date;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var1 = function makeDateRange(arg1, arg2) {
         var3 = arg1;
         var1 = new Array(2);
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[1] = var2;
         return var1;
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var1 = function makeDate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -123,7 +123,7 @@ case 0:
 case 3:
             var6 = 0;
 case 2:
-            var2 = _closure1_slot29;
+            var2 = _closure1_slot30;
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 11;
@@ -138,9 +138,9 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot31 = var1;
     var1 = function parseDate(arg1, arg2, arg3) {
-        var4 = _closure1_slot29;
+        var4 = _closure1_slot30;
         var2 = _closure1_slot1;
         var3 = _closure1_slot2;
         var1 = 11;
@@ -156,7 +156,7 @@ case 2:
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot31 = var1;
+    var _closure1_slot32 = var1;
     var1 = function getShortcuts() {
         var1 = {};
         var7 = _closure1_slot0;
@@ -173,7 +173,7 @@ case 2:
         var4 = var4.HYiVEQ;
         var5 = var5.bind(var9)(var4);
         var4 = function() {
-            var3 = _closure1_slot30;
+            var3 = _closure1_slot31;
             var2 = undefined;
             var1 = 'day';
             var1 = var3.bind(var2)(var1);
@@ -190,7 +190,7 @@ case 2:
         var4 = var4.cu86KC;
         var5 = var5.bind(var9)(var4);
         var4 = function() {
-            var4 = _closure1_slot30;
+            var4 = _closure1_slot31;
             var3 = undefined;
             var2 = 'day';
             var1 = -1;
@@ -208,7 +208,7 @@ case 2:
         var4 = var4.FvBj/6;
         var5 = var5.bind(var9)(var4);
         var4 = function() {
-            var3 = _closure1_slot30;
+            var3 = _closure1_slot31;
             var2 = undefined;
             var1 = 'week';
             var1 = var3.bind(var2)(var1);
@@ -225,7 +225,7 @@ case 2:
         var4 = var4.20uWCw;
         var5 = var5.bind(var9)(var4);
         var4 = function() {
-            var3 = _closure1_slot30;
+            var3 = _closure1_slot31;
             var2 = undefined;
             var1 = 'month';
             var1 = var3.bind(var2)(var1);
@@ -242,7 +242,7 @@ case 2:
         var3 = var3.dXC/hn;
         var3 = var4.bind(var5)(var3);
         var2 = function() {
-            var3 = _closure1_slot30;
+            var3 = _closure1_slot31;
             var2 = undefined;
             var1 = 'year';
             var1 = var3.bind(var2)(var1);
@@ -251,7 +251,7 @@ case 2:
         var1[var3] = var2;
         return var1;
     };
-    var _closure1_slot32 = var1;
+    var _closure1_slot33 = var1;
     var1 = function buildKey(arg1) {
         var1 = global;
         var1 = var1.HermesInternal;
@@ -262,11 +262,11 @@ case 2:
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot33 = var1;
+    var _closure1_slot34 = var1;
     var1 = function buildFilterRegex(arg1) {
         var1 = global;
         var4 = var1.RegExp;
-        var3 = _closure1_slot33;
+        var3 = _closure1_slot34;
         var2 = undefined;
         var1 = arg1;
         var6 = var3.bind(var2)(var1);
@@ -278,7 +278,7 @@ case 2:
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var _closure1_slot34 = var1;
+    var _closure1_slot35 = var1;
     var8 = function isValidUserAutocomplete(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -306,13 +306,13 @@ case 4:
                     return var1;
                 }
             };
-            var4 = _closure1_slot20;
+            var4 = _closure1_slot21;
             var1 = var4.test;
             var1 = var1.bind(var4)(var3);
             var4 = var3;
             if(var1) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot16;
             if(!(var3 !== var1)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
             var1 = var5.getMatch;
@@ -364,7 +364,7 @@ case 15:
             return var1;
         }
     };
-    var _closure1_slot35 = var8;
+    var _closure1_slot36 = var8;
     var1 = function dateValidator(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -376,33 +376,33 @@ case 0:
             var2 = var1.bind(var2)();
             var1 = var2.toLowerCase;
             var12 = var1.bind(var2)();
-            var1 = _closure1_slot32;
+            var1 = _closure1_slot33;
             var9 = undefined;
             var1 = var1.bind(var9)();
             var6 = var1[var12];
             var2 = null;
             if(!(var2 == var6)) { _fun0004_ip = 17; continue _fun0004 }
 case 18:
-            var1 = _closure1_slot26;
+            var1 = _closure1_slot27;
             var3 = var1.bind(var9)();
             var1 = var3.has;
             var1 = var1.bind(var3)(var12);
             if(var1) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot28;
             var3 = var1.bind(var9)();
             var1 = var3.has;
             var1 = var1.bind(var3)(var12);
             if(var1) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
-            var1 = _closure1_slot28;
+            var1 = _closure1_slot29;
             var3 = var1.bind(var9)();
             var1 = var3.has;
             var1 = var1.bind(var3)(var12);
-            var11 = _closure1_slot31;
+            var11 = _closure1_slot32;
             if(var1) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot18;
             var1 = 'day';
             var7 = var11.bind(var9)(var12, var3, var1);
             var3 = _closure1_slot3;
@@ -426,7 +426,7 @@ case 23:
             var3 = var11[var7];
             _fun0004_ip = 25; continue _fun0004;
 case 21:
-            var11 = _closure1_slot31;
+            var11 = _closure1_slot32;
             var10 = 'dddd';
             var7 = 'day';
             var11 = var11.bind(var9)(var12, var10, var7);
@@ -439,7 +439,7 @@ case 21:
             var3 = var11[var7];
             _fun0004_ip = 25; continue _fun0004;
 case 19:
-            var11 = _closure1_slot31;
+            var11 = _closure1_slot32;
             var10 = 'MMMM';
             var7 = 'month';
             var11 = var11.bind(var9)(var12, var10, var7);
@@ -498,7 +498,7 @@ case 28:
             return var1;
         }
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot37 = var1;
     var7 = function isValidChannelAutocomplete(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -507,7 +507,7 @@ case 0:
             var1 = var5.getMatch;
             var9 = 1;
             var2 = var1.bind(var5)(var9);
-            var6 = _closure1_slot20;
+            var6 = _closure1_slot21;
             var1 = var6.test;
             var1 = var1.bind(var6)(var2);
             if(var1) { _fun0005_ip = 33; continue _fun0005 }
@@ -546,7 +546,7 @@ case 37:
             if(var1) { _fun0005_ip = 38; continue _fun0005 }
 case 39:
             var9 = var4.type;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot19;
             var1 = var1.DMS;
             var1 = var9 === var1;
             if(!var1) { _fun0005_ip = 40; continue _fun0005 }
@@ -774,7 +774,7 @@ case 63:
             return var1;
         }
     };
-    var _closure1_slot37 = var7;
+    var _closure1_slot38 = var7;
     var1 = function hasValidator(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -904,7 +904,7 @@ case 66:
             return var1;
         }
     };
-    var _closure1_slot38 = var1;
+    var _closure1_slot39 = var1;
     var1 = function authorTypeValidator(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -968,12 +968,12 @@ case 69:
             return var1;
         }
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot40 = var1;
     var1 = function generateDateAutocompletions() {
         var4 = global;
         var5 = var4.Array;
         var3 = var5.from;
-        var1 = _closure1_slot26;
+        var1 = _closure1_slot27;
         var6 = undefined;
         var1 = var1.bind(var6)();
         var10 = var3.bind(var5)(var1);
@@ -983,33 +983,33 @@ case 69:
         var9 = arraySpread(var11, var10, var9);
         var8 = var4.Array;
         var7 = var8.from;
-        var3 = _closure1_slot27;
+        var3 = _closure1_slot28;
         var3 = var3.bind(var6)();
         var10 = var7.bind(var8)(var3);
         var11 = var1;
         var9 = arraySpread(var11, var10, var9);
         var8 = var4.Array;
         var7 = var8.from;
-        var3 = _closure1_slot28;
+        var3 = _closure1_slot29;
         var3 = var3.bind(var6)();
         var10 = var7.bind(var8)(var3);
         var11 = var1;
         var9 = arraySpread(var11, var10, var9);
         var5 = var4.Object;
         var4 = var5.keys;
-        var2 = _closure1_slot32;
+        var2 = _closure1_slot33;
         var2 = var2.bind(var6)();
         var10 = var4.bind(var5)(var2);
         var11 = var1;
         var2 = arraySpread(var11, var10, var9);
         return var1;
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot41 = var1;
     var1 = function getDateAutocompletions(arg1, arg2, arg3) {
         var2 = arg3;
         var _closure2_slot0 = var2;
-        var6 = _closure1_slot42;
-        var2 = _closure1_slot40;
+        var6 = _closure1_slot43;
+        var2 = _closure1_slot41;
         var5 = undefined;
         var4 = var2.bind(var5)();
         var3 = arg1;
@@ -1039,7 +1039,7 @@ case 69:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot41 = var1;
+    var _closure1_slot42 = var1;
     var1 = function genericSearch(arg1, arg2, arg3) {
         var3 = arg1;
         var2 = var3.toLocaleLowerCase;
@@ -1084,7 +1084,7 @@ case 69:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var _closure1_slot42 = var1;
+    var _closure1_slot43 = var1;
     var6 = function getUserAutocompletions(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -1129,23 +1129,23 @@ case 70:
             var7 = var8.bind(var12)(var7);
             var13['boosters'] = var7;
             var8 = var5.type;
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var7 = var7.GUILD;
             if(!(var7 !== var8)) { _fun0012_ip = 72; continue _fun0012 }
 case 7:
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var7 = var7.GUILD_CHANNEL;
             if(!(var7 !== var8)) { _fun0012_ip = 72; continue _fun0012 }
 case 43:
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var7 = var7.THREAD;
             if(!(var7 !== var8)) { _fun0012_ip = 72; continue _fun0012 }
 case 73:
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var7 = var7.CHANNEL;
             if(!(var7 !== var8)) { _fun0012_ip = 74; continue _fun0012 }
 case 51:
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var7 = var7.DMS;
             if(!(var7 !== var8)) { _fun0012_ip = 75; continue _fun0012 }
 case 76:
@@ -1413,7 +1413,7 @@ case 97:
             var2 = var2.bind(var8)(var14);
             if(var2) { _fun0012_ip = 98; continue _fun0012 }
 case 99:
-            var15 = _closure1_slot15;
+            var15 = _closure1_slot16;
             var13 = var15.substr;
             var8 = 1;
             var13 = var13.bind(var15)(var8);
@@ -1479,7 +1479,7 @@ case 100:
 case 105:
             var8 = var2.unshift;
             var7 = {};
-            var12 = _closure1_slot15;
+            var12 = _closure1_slot16;
             var7['text'] = var12;
             var7['user'] = var9;
             var7 = var8.bind(var2)(var7);
@@ -1583,14 +1583,14 @@ case 106:
             return var1;
         }
     };
-    var _closure1_slot43 = var6;
+    var _closure1_slot44 = var6;
     var1 = function streamerModeValidator() {
         var1 = _closure1_slot10;
         var1 = var1.hidePersonalInformation;
         var1 = !var1;
         return var1;
     };
-    var _closure1_slot44 = var1;
+    var _closure1_slot45 = var1;
     var1 = function getChannelAutocompletions(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
@@ -1660,7 +1660,7 @@ case 110:
             if(var7) { _fun0019_ip = 111; continue _fun0019 }
 case 112:
             var8 = var3.type;
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var7 = var7.DMS;
             if(!(var8 === var7)) { _fun0019_ip = 113; continue _fun0019 }
 case 114:
@@ -1923,7 +1923,7 @@ case 121:
             return var1;
         }
     };
-    var _closure1_slot45 = var1;
+    var _closure1_slot46 = var1;
     var1 = function makeSearchTokenConfigs(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -2056,10 +2056,10 @@ case 121:
         var10[8] = var1;
         var _closure2_slot2 = var10;
         var1 = {};
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_FROM;
         var2 = {};
-        var18 = _closure1_slot34;
+        var18 = _closure1_slot35;
         var5 = var17[var7];
         var5 = var16.bind(var15)(var5);
         var9 = var5.intl;
@@ -2071,10 +2071,10 @@ case 121:
         var5 = var8.bind(var9)(var5);
         var5 = var18.bind(var15)(var5);
         var2['regex'] = var5;
-        var5 = _closure1_slot24;
+        var5 = _closure1_slot25;
         var5 = var5.FILTER;
         var2['componentType'] = var5;
-        var14 = _closure1_slot33;
+        var14 = _closure1_slot34;
         var5 = var17[var7];
         var5 = var16.bind(var15)(var5);
         var9 = var5.intl;
@@ -2096,32 +2096,32 @@ case 121:
         var5 = var5.1TUdFo;
         var5 = var8.bind(var9)(var5);
         var2['plainText'] = var5;
-        var9 = _closure1_slot44;
+        var9 = _closure1_slot45;
         var2['validator'] = var9;
-        var8 = _closure1_slot43;
+        var8 = _closure1_slot44;
         var2['getAutocompletions'] = var8;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_USERNAME_FROM;
         var2 = {};
-        var5 = _closure1_slot16;
+        var5 = _closure1_slot17;
         var11 = var5.FILTER_FROM;
         var5 = new Array(1);
         var5[0] = var11;
         var2['follows'] = var5;
-        var5 = _closure1_slot23;
+        var5 = _closure1_slot24;
         var2['regex'] = var5;
-        var5 = _closure1_slot35;
+        var5 = _closure1_slot36;
         var2['validator'] = var5;
         var11 = true;
         var2['mutable'] = var11;
-        var12 = _closure1_slot24;
+        var12 = _closure1_slot25;
         var12 = var12.ANSWER;
         var2['componentType'] = var12;
         var12 = 'author_id';
         var2['queryKey'] = var12;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_MENTIONS;
         var2 = {};
         var12 = var17[var7];
@@ -2135,7 +2135,7 @@ case 121:
         var12 = var19.bind(var20)(var12);
         var12 = var18.bind(var15)(var12);
         var2['regex'] = var12;
-        var12 = _closure1_slot24;
+        var12 = _closure1_slot25;
         var12 = var12.FILTER;
         var2['componentType'] = var12;
         var12 = var17[var7];
@@ -2162,25 +2162,25 @@ case 121:
         var2['validator'] = var9;
         var2['getAutocompletions'] = var8;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_USERNAME_MENTIONS;
         var2 = {};
-        var8 = _closure1_slot16;
+        var8 = _closure1_slot17;
         var9 = var8.FILTER_MENTIONS;
         var8 = new Array(1);
         var8[0] = var9;
         var2['follows'] = var8;
-        var8 = _closure1_slot23;
+        var8 = _closure1_slot24;
         var2['regex'] = var8;
         var2['validator'] = var5;
         var2['mutable'] = var11;
-        var5 = _closure1_slot24;
+        var5 = _closure1_slot25;
         var5 = var5.ANSWER;
         var2['componentType'] = var5;
         var5 = 'mentions';
         var2['queryKey'] = var5;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_HAS;
         var2 = {};
         var5 = var17[var7];
@@ -2194,7 +2194,7 @@ case 121:
         var5 = var8.bind(var9)(var5);
         var5 = var18.bind(var15)(var5);
         var2['regex'] = var5;
-        var5 = _closure1_slot24;
+        var5 = _closure1_slot25;
         var5 = var5.FILTER;
         var2['componentType'] = var5;
         var5 = var17[var7];
@@ -2222,7 +2222,7 @@ case 121:
             var1 = arg1;
             var5 = var1.query;
             var4 = var1.maxResults;
-            var3 = _closure1_slot42;
+            var3 = _closure1_slot43;
             var2 = _closure2_slot2;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var4, var2);
@@ -2230,7 +2230,7 @@ case 121:
         };
         var2['getAutocompletions'] = var5;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_HAS;
         var2 = {};
         var5 = global;
@@ -2265,20 +2265,76 @@ case 121:
         var19 = new var28[var21](var27, var26, var25);
         var19 = var19 instanceof Object ? var19 : var20;
         var2['regex'] = var19;
-        var19 = _closure1_slot16;
+        var19 = _closure1_slot17;
         var20 = var19.FILTER_HAS;
         var19 = new Array(1);
         var19[0] = var20;
         var2['follows'] = var19;
-        var19 = _closure1_slot38;
+        var19 = _closure1_slot39;
         var2['validator'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.ANSWER;
         var2['componentType'] = var19;
         var19 = 'has';
         var2['queryKey'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
+        var3 = var2.FILTER_LINK_FROM;
+        var2 = {};
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.RpRAZD;
+        var19 = var20.bind(var21)(var19);
+        var19 = var18.bind(var15)(var19);
+        var2['regex'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.RpRAZD;
+        var19 = var20.bind(var21)(var19);
+        var19 = var14.bind(var15)(var19);
+        var2['key'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.RpRAZD;
+        var19 = var20.bind(var21)(var19);
+        var2['plainText'] = var19;
+        var19 = _closure1_slot25;
+        var19 = var19.FILTER;
+        var2['componentType'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot17;
+        var3 = var2.ANSWER_LINK_FROM;
+        var2 = {};
+        var19 = _closure1_slot15;
+        var2['regex'] = var19;
+        var19 = _closure1_slot17;
+        var20 = var19.FILTER_LINK_FROM;
+        var19 = new Array(1);
+        var19[0] = var20;
+        var2['follows'] = var19;
+        var2['mutable'] = var11;
+        var19 = _closure1_slot25;
+        var19 = var19.ANSWER;
+        var2['componentType'] = var19;
+        var19 = 'link_hostname';
+        var2['queryKey'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_FILE_TYPE;
         var2 = {};
         var19 = var17[var7];
@@ -2313,28 +2369,28 @@ case 121:
         var19 = var19.TMNjFm;
         var19 = var20.bind(var21)(var19);
         var2['plainText'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.FILTER;
         var2['componentType'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_FILE_TYPE;
         var2 = {};
-        var19 = /(?:\s*([^\s]+))/;
+        var19 = _closure1_slot15;
         var2['regex'] = var19;
-        var19 = _closure1_slot16;
+        var19 = _closure1_slot17;
         var20 = var19.FILTER_FILE_TYPE;
         var19 = new Array(1);
         var19[0] = var20;
         var2['follows'] = var19;
         var2['mutable'] = var11;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.ANSWER;
         var2['componentType'] = var19;
-        var19 = 'attachment_extensions';
+        var19 = 'attachment_extension';
         var2['queryKey'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_FILE_NAME;
         var2 = {};
         var19 = var17[var7];
@@ -2369,28 +2425,28 @@ case 121:
         var19 = var19.5xtLRC;
         var19 = var20.bind(var21)(var19);
         var2['plainText'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.FILTER;
         var2['componentType'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_FILE_NAME;
         var2 = {};
-        var19 = /(?:\s*([^\s]+)(?=\s))/;
+        var19 = _closure1_slot15;
         var2['regex'] = var19;
-        var19 = _closure1_slot16;
+        var19 = _closure1_slot17;
         var20 = var19.FILTER_FILE_NAME;
         var19 = new Array(1);
         var19[0] = var20;
         var2['follows'] = var19;
         var2['mutable'] = var11;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.ANSWER;
         var2['componentType'] = var19;
         var19 = 'attachment_filename';
         var2['queryKey'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_BEFORE;
         var2 = {};
         var19 = var17[var7];
@@ -2404,7 +2460,7 @@ case 121:
         var19 = var20.bind(var21)(var19);
         var19 = var18.bind(var15)(var19);
         var2['regex'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.FILTER;
         var2['componentType'] = var19;
         var19 = var17[var7];
@@ -2432,8 +2488,8 @@ case 121:
             var1 = arg1;
             var5 = var1.query;
             var4 = var1.maxResults;
-            var3 = _closure1_slot41;
-            var1 = _closure1_slot16;
+            var3 = _closure1_slot42;
+            var1 = _closure1_slot17;
             var2 = var1.FILTER_BEFORE;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var4, var2);
@@ -2441,7 +2497,7 @@ case 121:
         };
         var2['getAutocompletions'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_ON;
         var2 = {};
         var19 = var17[var7];
@@ -2471,7 +2527,7 @@ case 121:
         var19 = var28[var21](var27, var26, var25, var24, var23);
         var19 = var18.bind(var15)(var19);
         var2['regex'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.FILTER;
         var2['componentType'] = var19;
         var19 = var17[var7];
@@ -2499,8 +2555,8 @@ case 121:
             var1 = arg1;
             var5 = var1.query;
             var4 = var1.maxResults;
-            var3 = _closure1_slot41;
-            var1 = _closure1_slot16;
+            var3 = _closure1_slot42;
+            var1 = _closure1_slot17;
             var2 = var1.FILTER_ON;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var4, var2);
@@ -2508,7 +2564,7 @@ case 121:
         };
         var2['getAutocompletions'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_AFTER;
         var2 = {};
         var19 = var17[var7];
@@ -2522,7 +2578,7 @@ case 121:
         var19 = var20.bind(var21)(var19);
         var19 = var18.bind(var15)(var19);
         var2['regex'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.FILTER;
         var2['componentType'] = var19;
         var19 = var17[var7];
@@ -2550,8 +2606,8 @@ case 121:
             var1 = arg1;
             var5 = var1.query;
             var4 = var1.maxResults;
-            var3 = _closure1_slot41;
-            var1 = _closure1_slot16;
+            var3 = _closure1_slot42;
+            var1 = _closure1_slot17;
             var2 = var1.FILTER_AFTER;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var4, var2);
@@ -2559,22 +2615,22 @@ case 121:
         };
         var2['getAutocompletions'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_BEFORE;
         var2 = {};
-        var19 = _closure1_slot21;
+        var19 = _closure1_slot22;
         var2['regex'] = var19;
-        var19 = _closure1_slot16;
+        var19 = _closure1_slot17;
         var20 = var19.FILTER_BEFORE;
         var19 = new Array(1);
         var19[0] = var20;
         var2['follows'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.ANSWER;
         var2['componentType'] = var19;
         var2['mutable'] = var11;
         var19 = function validator(arg1) {
-            var4 = _closure1_slot36;
+            var4 = _closure1_slot37;
             var3 = undefined;
             var2 = arg1;
             var1 = 'before';
@@ -2583,22 +2639,22 @@ case 121:
         };
         var2['validator'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_ON;
         var2 = {};
-        var19 = _closure1_slot21;
+        var19 = _closure1_slot22;
         var2['regex'] = var19;
-        var19 = _closure1_slot16;
+        var19 = _closure1_slot17;
         var20 = var19.FILTER_ON;
         var19 = new Array(1);
         var19[0] = var20;
         var2['follows'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.ANSWER;
         var2['componentType'] = var19;
         var2['mutable'] = var11;
         var19 = function validator(arg1) {
-            var4 = _closure1_slot36;
+            var4 = _closure1_slot37;
             var3 = undefined;
             var2 = arg1;
             var1 = 'on';
@@ -2607,22 +2663,22 @@ case 121:
         };
         var2['validator'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_AFTER;
         var2 = {};
-        var19 = _closure1_slot21;
+        var19 = _closure1_slot22;
         var2['regex'] = var19;
-        var19 = _closure1_slot16;
+        var19 = _closure1_slot17;
         var20 = var19.FILTER_AFTER;
         var19 = new Array(1);
         var19[0] = var20;
         var2['follows'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.ANSWER;
         var2['componentType'] = var19;
         var2['mutable'] = var11;
         var19 = function validator(arg1) {
-            var4 = _closure1_slot36;
+            var4 = _closure1_slot37;
             var3 = undefined;
             var2 = arg1;
             var1 = 'after';
@@ -2631,7 +2687,7 @@ case 121:
         };
         var2['validator'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_IN;
         var2 = {};
         var19 = var17[var7];
@@ -2645,7 +2701,7 @@ case 121:
         var19 = var20.bind(var21)(var19);
         var19 = var18.bind(var15)(var19);
         var2['regex'] = var19;
-        var19 = _closure1_slot24;
+        var19 = _closure1_slot25;
         var19 = var19.FILTER;
         var2['componentType'] = var19;
         var19 = var17[var7];
@@ -2699,21 +2755,21 @@ case 85:
             }
         };
         var2['validator'] = var19;
-        var19 = _closure1_slot45;
+        var19 = _closure1_slot46;
         var2['getAutocompletions'] = var19;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_IN;
         var2 = {};
         var19 = _closure1_slot14;
         var2['regex'] = var19;
         var2['mutable'] = var11;
-        var11 = _closure1_slot16;
+        var11 = _closure1_slot17;
         var19 = var11.FILTER_IN;
         var11 = new Array(1);
         var11[0] = var19;
         var2['follows'] = var11;
-        var11 = _closure1_slot24;
+        var11 = _closure1_slot25;
         var11 = var11.ANSWER;
         var2['componentType'] = var11;
         var11 = function validator(arg1) {
@@ -2733,7 +2789,7 @@ case 117:
                 var1 = var1 != var5;
                 if(!var1) { _fun0025_ip = 127; continue _fun0025 }
 case 58:
-                var4 = _closure1_slot37;
+                var4 = _closure1_slot38;
                 var3 = undefined;
                 var2 = arg1;
                 var1 = var4.bind(var3)(var2, var5);
@@ -2745,7 +2801,7 @@ case 127:
         var11 = 'channel_id';
         var2['queryKey'] = var11;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_PINNED;
         var2 = {};
         var11 = var17[var7];
@@ -2759,7 +2815,7 @@ case 127:
         var11 = var19.bind(var20)(var11);
         var11 = var18.bind(var15)(var11);
         var2['regex'] = var11;
-        var11 = _closure1_slot24;
+        var11 = _closure1_slot25;
         var11 = var11.FILTER;
         var2['componentType'] = var11;
         var11 = var17[var7];
@@ -2797,15 +2853,15 @@ case 127:
         };
         var2['getAutocompletions'] = var11;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_PINNED;
         var2 = {};
-        var11 = _closure1_slot22;
+        var11 = _closure1_slot23;
         var2['regex'] = var11;
-        var11 = _closure1_slot24;
+        var11 = _closure1_slot25;
         var11 = var11.ANSWER;
         var2['componentType'] = var11;
-        var11 = _closure1_slot16;
+        var11 = _closure1_slot17;
         var19 = var11.FILTER_PINNED;
         var11 = new Array(1);
         var11[0] = var19;
@@ -2845,7 +2901,7 @@ case 102:
         };
         var2['validator'] = var11;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.FILTER_AUTHOR_TYPE;
         var2 = {};
         var11 = var17[var7];
@@ -2859,7 +2915,7 @@ case 102:
         var11 = var19.bind(var20)(var11);
         var11 = var18.bind(var15)(var11);
         var2['regex'] = var11;
-        var11 = _closure1_slot24;
+        var11 = _closure1_slot25;
         var11 = var11.FILTER;
         var2['componentType'] = var11;
         var11 = var17[var7];
@@ -2887,7 +2943,7 @@ case 102:
             var1 = arg1;
             var5 = var1.query;
             var4 = var1.maxResults;
-            var3 = _closure1_slot42;
+            var3 = _closure1_slot43;
             var2 = _closure2_slot1;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var4, var2);
@@ -2895,7 +2951,7 @@ case 102:
         };
         var2['getAutocompletions'] = var7;
         var1[var3] = var2;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var3 = var2.ANSWER_AUTHOR_TYPE;
         var2 = {};
         var7 = var5.RegExp;
@@ -2925,14 +2981,14 @@ case 102:
         var5 = new var28[var7](var27, var26, var25);
         var5 = var5 instanceof Object ? var5 : var6;
         var2['regex'] = var5;
-        var5 = _closure1_slot16;
+        var5 = _closure1_slot17;
         var6 = var5.FILTER_AUTHOR_TYPE;
         var5 = new Array(1);
         var5[0] = var6;
         var2['follows'] = var5;
-        var5 = _closure1_slot39;
+        var5 = _closure1_slot40;
         var2['validator'] = var5;
-        var4 = _closure1_slot24;
+        var4 = _closure1_slot25;
         var4 = var4.ANSWER;
         var2['componentType'] = var4;
         var4 = 'author_type';
@@ -2940,15 +2996,15 @@ case 102:
         var1[var3] = var2;
         return var1;
     };
-    var _closure1_slot46 = var1;
+    var _closure1_slot47 = var1;
     var4 = function isSearchFilterTokenType(arg1) {
-        var3 = _closure1_slot19;
+        var3 = _closure1_slot20;
         var2 = var3.test;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot47 = var4;
+    var _closure1_slot48 = var4;
     var5 = global;
     var14 = var5.Object;
     var13 = var14.defineProperty;
@@ -3003,23 +3059,25 @@ case 102:
     var9 = 9;
     var9 = var12[var9];
     var9 = var11.bind(var1)(var9);
-    var9 = var9.ANSWER_IN_REGEX;
-    var _closure1_slot14 = var9;
+    var10 = var9.ANSWER_IN_REGEX;
+    var _closure1_slot14 = var10;
+    var9 = var9.GENERIC_REGEX;
+    var _closure1_slot15 = var9;
     var9 = 10;
     var9 = var12[var9];
     var9 = var11.bind(var1)(var9);
     var10 = var9.ME;
-    var _closure1_slot15 = var10;
-    var10 = var9.SearchTokenTypes;
     var _closure1_slot16 = var10;
-    var10 = var9.SEARCH_DATE_FORMAT;
+    var10 = var9.SearchTokenTypes;
     var _closure1_slot17 = var10;
-    var10 = var9.SearchTypes;
+    var10 = var9.SEARCH_DATE_FORMAT;
     var _closure1_slot18 = var10;
-    var10 = var9.IS_SEARCH_FILTER_TOKEN;
+    var10 = var9.SearchTypes;
     var _closure1_slot19 = var10;
+    var10 = var9.IS_SEARCH_FILTER_TOKEN;
+    var _closure1_slot20 = var10;
     var9 = var9.ID_REGEX;
-    var _closure1_slot20 = var9;
+    var _closure1_slot21 = var9;
     var14 = var5.RegExp;
     var9 = var14.prototype;
     var10 = Object.create(var9, {constructor: {value: var14}});
@@ -3029,7 +3087,7 @@ case 102:
     var16 = var13;
     var9 = new var18[var14](var17, var16, var15);
     var9 = var9 instanceof Object ? var9 : var10;
-    var _closure1_slot21 = var9;
+    var _closure1_slot22 = var9;
     var10 = var5.RegExp;
     var5 = var10.prototype;
     var9 = Object.create(var5, {constructor: {value: var10}});
@@ -3037,17 +3095,17 @@ case 102:
     var18 = var9;
     var5 = new var18[var10](var17, var16, var15);
     var5 = var5 instanceof Object ? var5 : var9;
-    var _closure1_slot22 = var5;
-    var5 = /^(?:\s*(\d{17,20}|@me|([^@#:]+)#([0-9]{4})|([a-z0-9_.]{2,32})))/i;
     var _closure1_slot23 = var5;
+    var5 = /^(?:\s*(\d{17,20}|@me|([^@#:]+)#([0-9]{4})|([a-z0-9_.]{2,32})))/i;
+    var _closure1_slot24 = var5;
     var5 = {};
     var9 = 'FILTER';
     var5['FILTER'] = var9;
     var9 = 'ANSWER';
     var5['ANSWER'] = var9;
-    var _closure1_slot24 = var5;
+    var _closure1_slot25 = var5;
     var9 = {};
-    var _closure1_slot25 = var9;
+    var _closure1_slot26 = var9;
     var10 = 21;
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);
@@ -3065,7 +3123,7 @@ case 102:
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
         var2 = var3.sample;
-        var1 = _closure1_slot40;
+        var1 = _closure1_slot41;
         var1 = var1.bind(var4)();
         var1 = var2.bind(var3)(var1);
         return var1;
@@ -3074,9 +3132,9 @@ case 102:
     var3['getUserAutocompletions'] = var6;
     var3['ComponentTypes'] = var5;
     var5 = function buildCrossDMSearchTokensConfig() {
-        var3 = _closure1_slot46;
+        var3 = _closure1_slot47;
         var2 = {};
-        var1 = _closure1_slot18;
+        var1 = _closure1_slot19;
         var1 = var1.DMS;
         var2['type'] = var1;
         var1 = undefined;
@@ -3088,8 +3146,8 @@ case 102:
         var1 = global;
         var5 = var1.Object;
         var4 = var5.assign;
-        var3 = _closure1_slot25;
-        var2 = _closure1_slot46;
+        var3 = _closure1_slot26;
+        var2 = _closure1_slot47;
         var1 = undefined;
         var2 = var2.bind(var1)();
         var2 = var4.bind(var5)(var3, var2);
@@ -3108,7 +3166,7 @@ case 3:
             var1 = global;
             var3 = var1.Object;
             var2 = var3.keys;
-            var1 = _closure1_slot25;
+            var1 = _closure1_slot26;
             var1 = var2.bind(var3)(var1);
             var9 = var1.length;
 case 131:
@@ -3116,7 +3174,7 @@ case 131:
             var2 = global;
             var4 = var2.Object;
             var3 = var4.keys;
-            var2 = _closure1_slot25;
+            var2 = _closure1_slot26;
             var6 = var3.bind(var4)(var2);
             var2 = var6.length;
             var5 = 0;
@@ -3129,10 +3187,10 @@ case 47:
             var2 = var1.length;
             if(!(!(var2 >= var9))) { _fun0027_ip = 132; continue _fun0027 }
 case 133:
-            var2 = _closure1_slot25;
+            var2 = _closure1_slot26;
             var2 = var2[var13];
             var12 = var2.key;
-            var2 = _closure1_slot47;
+            var2 = _closure1_slot48;
             var2 = var2.bind(var8)(var13);
             if(!var2) { _fun0027_ip = 24; continue _fun0027 }
 case 134:
@@ -3195,7 +3253,7 @@ case 118:
             var1 = var1.bind(var3)(var4);
             if(var1) { _fun0028_ip = 138; continue _fun0028 }
 case 139:
-            var5 = _closure1_slot15;
+            var5 = _closure1_slot16;
             var3 = var5.substring;
             var2 = 1;
             var3 = var3.bind(var5)(var2);

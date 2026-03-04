@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var1.navigationParams;
         var10 = var1.product;
         var9 = var1.analyticsLocations;
-        var8 = var1.initialRecipientUser;
+        var8 = var1.lockedRecipientUser;
         var2 = var1.onGiftModalDismiss;
         var6 = _closure1_slot1;
         var3 = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = {};
         var3['product'] = var10;
         var3['analyticsLocations'] = var9;
-        var3['initialRecipientUser'] = var8;
+        var3['lockedRecipientUser'] = var8;
         var3['onGiftModalDismiss'] = var2;
         var13 = 'Shop Gift Modal';
         var16 = var6;

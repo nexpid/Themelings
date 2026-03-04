@@ -211,20 +211,30 @@ case 8:
         var11 = function() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var1 = _closure2_slot4;
-                var2 = var1.length;
-                var1 = 0;
-                if(!(!(var2 > var1))) { _fun0005_ip = 10; continue _fun0005 }
-case 9:
+                var5 = _closure2_slot4;
+                var4 = var5.slice;
+                var6 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 7;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var6.bind(var1)(var2);
+                var2 = var1.MAX_GUILD_MEMBER_SUBSCRIPTIONS;
+                var1 = 2;
+                var1 = var2 / var1;
+                var2 = 0;
+                var4 = var4.bind(var5)(var2, var1);
+                var1 = var4.length;
+                if(!(!(var1 > var2))) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
                 var1 = {};
-                _fun0005_ip = 7; continue _fun0005;
+                _fun0005_ip = 5; continue _fun0005;
 case 10:
                 var2 = {};
-                var4 = _closure2_slot0;
-                var3 = _closure2_slot4;
-                var2[var4] = var3;
+                var3 = _closure2_slot0;
+                var2[var3] = var4;
                 var1 = var2;
-case 7:
+case 5:
                 return var1;
             }
         };
@@ -272,8 +282,8 @@ case 0:
                 var3 = _closure2_slot5;
                 var2 = _closure2_slot2;
                 var2 = var2.length;
-                if(!(var3 !== var2)) { _fun0007_ip = 11; continue _fun0007 }
-case 12:
+                if(!(var3 !== var2)) { _fun0007_ip = 12; continue _fun0007 }
+case 13:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 8;
@@ -283,7 +293,7 @@ case 12:
                 var2 = var3.fetchAppliedGuildBoostsForGuild;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
-case 11:
+case 12:
                 var1 = undefined;
                 return var1;
             }
@@ -336,44 +346,44 @@ case 0:
                 var2 = var2.userId;
                 var3 = var6.bind(var7)(var3, var2);
                 var2 = null;
-                if(!(var2 == var3)) { _fun0008_ip = 13; continue _fun0008 }
-case 14:
+                if(!(var2 == var3)) { _fun0008_ip = 14; continue _fun0008 }
+case 15:
                 var5 = _closure2_slot0;
                 var6 = var5.user;
                 var7 = var2 == var6;
                 var5 = undefined;
-                if(var7) { _fun0008_ip = 15; continue _fun0008 }
-case 16:
+                if(var7) { _fun0008_ip = 16; continue _fun0008 }
+case 17:
                 var5 = var6.username;
-case 15:
+case 16:
                 var3 = var5;
-case 13:
+case 14:
                 var1['username'] = var3;
                 var5 = var2 == var4;
                 var6 = undefined;
-                if(var5) { _fun0008_ip = 17; continue _fun0008 }
-case 18:
+                if(var5) { _fun0008_ip = 18; continue _fun0008 }
+case 19:
                 var6 = var4.colorString;
-case 17:
+case 18:
                 var7 = var2 != var6;
                 var5 = null;
-                if(!var7) { _fun0008_ip = 19; continue _fun0008 }
-case 20:
+                if(!var7) { _fun0008_ip = 20; continue _fun0008 }
+case 21:
                 var5 = var6;
-case 19:
+case 20:
                 var1['roleColor'] = var5;
                 var5 = var2 == var4;
                 var3 = undefined;
-                if(var5) { _fun0008_ip = 21; continue _fun0008 }
-case 22:
+                if(var5) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
                 var3 = var4.colorStrings;
-case 21:
+case 22:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
+                if(!var4) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
                 var2 = var3;
-case 23:
+case 24:
                 var1['roleColorStrings'] = var2;
                 return var1;
             }

@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['variant'] = var5;
         var5 = 'sm';
         var1['size'] = var5;
-        var5 = 2;
+        var5 = 1;
         var1['maxFontSizeMultiplier'] = var5;
         var1 = var4.bind(var3)(var2, var1);
         return var1;

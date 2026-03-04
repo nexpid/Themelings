@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.ExplicitContentFilterToDmSpamFilterV2;
     var _closure1_slot3 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -64,10 +64,14 @@ case 0:
             var2 = 4;
             var2 = var4[var2];
             var10 = var9.bind(var5)(var2);
-            var6 = var10.useIsGidgetPawtectEnabled;
-            var2 = 'use_derived_dm_spam_filter_setting';
+            var6 = var10.useIsSettingTeenByDefault;
+            var2 = 5;
+            var2 = var4[var2];
+            var2 = var9.bind(var5)(var2);
+            var2 = var2.SettingsDefaultFeature;
+            var2 = var2.SPAM_FILTERS;
             var2 = var6.bind(var10)(var2);
-            var6 = 5;
+            var6 = 6;
             var4 = var4[var6];
             var4 = var9.bind(var5)(var4);
             var4 = var4.DmSpamFilterV2;

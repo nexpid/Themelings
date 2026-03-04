@@ -50,8 +50,11 @@ case 2:
     var4['AutomodViolation'] = var7;
     var1 = 'AutomodViolation';
     var4[var7] = var1;
-    var _closure1_slot2 = var4;
     var1 = 2;
+    var4['ApiValidation'] = var1;
+    var7 = 'ApiValidation';
+    var4[var1] = var7;
+    var _closure1_slot2 = var4;
     var5 = var5[var1];
     var1 = undefined;
     var7 = var6.bind(var1)(var5);
@@ -97,6 +100,27 @@ case 2:
         return var1;
     };
     var3['makeEmptyMessageError'] = var4;
+    var4 = function makeApiNameRequiredError() {
+        var4 = _closure1_slot3;
+        var2 = _closure1_slot2;
+        var3 = var2.ApiValidation;
+        var7 = _closure1_slot0;
+        var8 = _closure1_slot1;
+        var1 = 0;
+        var5 = var8[var1];
+        var2 = undefined;
+        var5 = var7.bind(var2)(var5);
+        var6 = var5.intl;
+        var5 = var6.string;
+        var1 = var8[var1];
+        var1 = var7.bind(var2)(var1);
+        var1 = var1.t;
+        var1 = var1.uXA573;
+        var1 = var5.bind(var6)(var1);
+        var1 = var4.bind(var2)(var3, var1);
+        return var1;
+    };
+    var3['makeApiNameRequiredError'] = var4;
     var4 = function makeAutomodViolationError(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:

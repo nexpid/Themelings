@@ -154,24 +154,12 @@ case 13:
             var5 = var8[var5];
             var6 = var6.bind(var1)(var5);
             var5 = var6.hasAgeGatedFeatures;
-            var5 = var5.bind(var6)();
-            if(var5) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var6 = 8;
-            var6 = var9[var6];
-            var9 = var8.bind(var1)(var6);
-            var8 = var9.getIsGidgetPawtectEnabled;
-            var6 = 'age_verification_utils';
-            var5 = var8.bind(var9)(var6);
-case 14:
-            var4 = var5;
+            var4 = var5.bind(var6)();
 case 12:
             _closure2_slot1 = var4;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 9;
+            var4 = 8;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.isAgeVerificationExpressiveModalEverywhereEnabled;
@@ -198,7 +186,7 @@ case 7:
                         var4 = 5;
                         var4 = var2[var4];
                         var5 = var5.bind(var6)(var4);
-                        var4 = 10;
+                        var4 = 9;
                         var4 = var2[var4];
                         var2 = var2.paths;
                         var2 = var5.bind(var6)(var4, var2);
@@ -245,7 +233,7 @@ case 6:
     var4 = function openUrl(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -255,7 +243,7 @@ case 6:
         return var1;
     };
     var2['openUrl'] = var4;
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -214,6 +214,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['QUEST_HOME_HERO'] = var6;
     var2 = 'QUEST_HOME_HERO';
     var4[var6] = var2;
+    var6 = 51;
+    var4['QUEST_ACTIVITY_HEADER'] = var6;
+    var2 = 'QUEST_ACTIVITY_HEADER';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

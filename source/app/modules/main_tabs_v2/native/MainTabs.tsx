@@ -61,9 +61,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var1.bind(var4)();
         var1 = 6;
         var1 = var13[var1];
-        var2 = var8.bind(var4)(var1);
-        var1 = var2.useLocalHorizontalSafeArea;
-        var1 = var1.bind(var2)();
+        var1 = var12.bind(var4)(var1);
+        var1 = var1.bind(var4)();
         var11 = var1.left;
         var9 = var1.right;
         var3 = _closure1_slot4;

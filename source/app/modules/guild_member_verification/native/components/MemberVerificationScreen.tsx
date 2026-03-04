@@ -438,18 +438,17 @@ case 26:
                 }
             };
             var12 = var4.bind(var6)(var1, var3);
-            var3 = _closure1_slot0;
+            var3 = _closure1_slot1;
             var4 = _closure1_slot3;
             var1 = 17;
             var1 = var4[var1];
-            var3 = var3.bind(var5)(var1);
-            var1 = var3.useLocalHorizontalSafeArea;
-            var1 = var1.bind(var3)();
+            var1 = var3.bind(var5)(var1);
+            var1 = var1.bind(var5)();
             var14 = var1.left;
             var11 = var1.right;
             var1 = null;
             if(!(var1 != var13)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+case 27:
             var4 = _closure1_slot10;
             var3 = _closure1_slot14;
             var1 = {};
@@ -480,13 +479,13 @@ case 37:
             var6 = var8.bind(var5)(var7, var6);
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0005_ip = 38; continue _fun0005;
+            _fun0005_ip = 37; continue _fun0005;
 case 36:
             var4 = _closure1_slot10;
             var3 = _closure1_slot12;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
-case 38:
+case 37:
             return var1;
         }
     };

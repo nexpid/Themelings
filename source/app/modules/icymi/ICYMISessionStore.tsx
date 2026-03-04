@@ -1890,7 +1890,7 @@ case 9:
 case 0:
             var3 = _closure1_slot12;
             var2 = null;
-            if(!(var2 != var3)) { _fun0029_ip = 111; continue _fun0029 }
+            if(!(var2 != var3)) { _fun0029_ip = 122; continue _fun0029 }
 case 121:
             var3 = global;
             var5 = var3.clearTimeout;
@@ -1898,7 +1898,7 @@ case 121:
             var4 = var3._timeout;
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
-case 111:
+case 122:
             _closure1_slot12 = var2;
             var2 = new Array(0);
             _closure1_slot13 = var2;

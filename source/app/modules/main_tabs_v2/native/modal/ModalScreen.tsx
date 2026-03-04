@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['containerWithPadding'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -190,31 +190,21 @@ case 6:
             };
             var1 = new Array(0);
             var1 = var3.bind(var6)(var2, var1);
-            var2 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var3 = 11;
-            var1 = var1[var3];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.useLocalHorizontalSafeArea;
-            var1 = var1.bind(var2)();
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 11;
+            var1 = var3[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.bind(var4)();
             var15 = var1.left;
             var14 = var1.right;
-            var1 = 0;
-            var13 = var1 === var15;
-            if(!var13) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var13 = var1 === var14;
-case 9:
-            if(var13) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
             var2 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var3];
+            var1 = 12;
+            var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.shouldExcludeSafeAreaForModalKey;
             var1 = var5.key;
             var13 = var2.bind(var3)(var1);
-case 11:
             var3 = _closure1_slot10;
             var2 = _closure1_slot6;
             var1 = {};
@@ -223,8 +213,8 @@ case 11:
             var6 = new Array(2);
             var6[0] = var8;
             var8 = undefined;
-            if(var13) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(var13) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var13 = var9.containerWithPadding;
             var9 = new Array(2);
             var9[0] = var13;
@@ -233,22 +223,22 @@ case 14:
             var13['paddingRight'] = var14;
             var9[1] = var13;
             var8 = var9;
-case 13:
+case 9:
             var6[1] = var8;
             var1['style'] = var6;
             var6 = var5.closable;
-            if(var6) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(var6) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var6 = _closure1_slot8;
-            _fun0001_ip = 17; continue _fun0001;
-case 15:
+            _fun0001_ip = 13; continue _fun0001;
+case 11:
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
             var8 = 7;
             var8 = var13[var8];
             var8 = var9.bind(var4)(var8);
             var6 = var8.pop;
-case 17:
+case 13:
             var1['onAccessibilityEscape'] = var6;
             var9 = _closure1_slot5;
             var8 = var9.createElement;
@@ -268,17 +258,17 @@ case 17:
             var5[0] = var6;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var6 = 12;
+            var6 = 13;
             var6 = var9[var6];
             var8 = var8.bind(var4)(var6);
             var6 = var8.isIOS;
             var6 = var6.bind(var8)();
-            if(!var6) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(!var6) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var9 = _closure1_slot9;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var7 = 13;
+            var7 = 14;
             var7 = var10[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.PortalKeyboardRenderer;
@@ -286,7 +276,7 @@ case 19:
             var10 = false;
             var7['portal'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 18:
+case 14:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

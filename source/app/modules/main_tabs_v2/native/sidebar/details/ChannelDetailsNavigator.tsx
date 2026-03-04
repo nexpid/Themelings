@@ -380,11 +380,11 @@ case 20:
                 }
             };
             var1 = var2.bind(var3)(var1);
+            var2 = _closure1_slot1;
             var1 = 19;
             var1 = var21[var1];
-            var2 = var18.bind(var4)(var1);
-            var1 = var2.useLocalHorizontalSafeArea;
-            var1 = var1.bind(var2)();
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.bind(var4)();
             var10 = var1.left;
             var7 = var1.right;
             var3 = _closure1_slot9;

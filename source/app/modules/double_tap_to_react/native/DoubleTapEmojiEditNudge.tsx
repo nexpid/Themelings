@@ -430,19 +430,19 @@ case 15:
     var2 = function DoubleTapEmojiEditNudge(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var2 = arg1;
-            var8 = var2.location;
-            var4 = _closure1_slot0;
+            var1 = arg1;
+            var9 = var1.location;
+            var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 11;
-            var2 = var5[var2];
-            var6 = undefined;
-            var7 = var4.bind(var6)(var2);
-            var5 = var7.useStateFromStoresObject;
-            var2 = _closure1_slot8;
-            var4 = new Array(1);
-            var4[0] = var2;
-            var2 = function() {
+            var1 = 11;
+            var1 = var5[var1];
+            var7 = undefined;
+            var6 = var3.bind(var7)(var1);
+            var5 = var6.useStateFromStoresObject;
+            var1 = _closure1_slot8;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = _closure1_slot8;
@@ -462,13 +462,13 @@ case 19:
                     return var1;
                 }
             };
-            var10 = var5.bind(var7)(var4, var2);
-            var _closure2_slot0 = var10;
-            var7 = _closure1_slot4;
-            var5 = var7.useMemo;
-            var4 = new Array(1);
-            var4[0] = var10;
-            var2 = function() {
+            var1 = var5.bind(var6)(var3, var1);
+            var _closure2_slot0 = var1;
+            var8 = _closure1_slot4;
+            var6 = var8.useMemo;
+            var5 = new Array(1);
+            var5[0] = var1;
+            var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 12;
@@ -480,10 +480,10 @@ case 19:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var7 = var5.bind(var7)(var2, var4);
-            var9 = _closure1_slot4;
-            var5 = var9.useMemo;
-            var4 = function() {
+            var8 = var6.bind(var8)(var3, var5);
+            var10 = _closure1_slot4;
+            var6 = var10.useMemo;
+            var5 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 12;
@@ -494,13 +494,13 @@ case 19:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var2 = new Array(0);
-            var5 = var5.bind(var9)(var4, var2);
-            var9 = _closure1_slot4;
-            var4 = var9.useMemo;
-            var2 = new Array(1);
-            var2[0] = var10;
-            var1 = function() {
+            var3 = new Array(0);
+            var10 = var6.bind(var10)(var5, var3);
+            var6 = _closure1_slot4;
+            var5 = var6.useMemo;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var2 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = _closure2_slot0;
@@ -527,44 +527,57 @@ case 24:
                     var2 = var3.value;
 case 23:
                     var2 = var4 != var2;
-                    if(!var2) { _fun0007_ip = 8; continue _fun0007 }
-case 25:
-                    var4 = var3.value;
-                    var3 = '0';
-                    var2 = var3 !== var4;
-case 8:
-                    if(var1) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
-                    var1 = var2;
+                    if(!var2) { _fun0007_ip = 25; continue _fun0007 }
 case 26:
+                    var4 = var3.value;
+                    var3 = '';
+                    var2 = var3 !== var4;
+case 25:
+                    if(var1) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
+                    var1 = var2;
+case 27:
                     return var1;
                 }
             };
-            var1 = var4.bind(var9)(var1, var2);
-            if(var1) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
-            var1 = null;
-            if(!(var1 != var5)) { _fun0005_ip = 28; continue _fun0005 }
+            var2 = var5.bind(var6)(var2, var3);
+            var1 = var1.disableDoubleTap;
+            var3 = null;
+            var5 = var3 == var1;
+            var6 = undefined;
+            if(var5) { _fun0005_ip = 29; continue _fun0005 }
 case 30:
-            var4 = _closure1_slot12;
-            var2 = _closure1_slot16;
-            var1 = {};
-            var1['location'] = var8;
-            var1['fallback'] = var5;
-            var1 = var4.bind(var6)(var2, var1);
-            _fun0005_ip = 31; continue _fun0005;
-case 28:
-            var2 = null;
-            var4 = var2 == var7;
-            if(var4) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
-            var5 = _closure1_slot12;
-            var4 = _closure1_slot17;
-            var3 = {};
-            var3['location'] = var8;
-            var3['emoji'] = var7;
-            var2 = var5.bind(var6)(var4, var3);
+            var6 = var1.value;
+case 29:
+            var5 = true;
+            var1 = null;
+            if(!(var5 !== var6)) { _fun0005_ip = 31; continue _fun0005 }
 case 32:
+            if(var2) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
+            if(!(var3 != var10)) { _fun0005_ip = 33; continue _fun0005 }
+case 35:
+            var6 = _closure1_slot12;
+            var5 = _closure1_slot16;
+            var2 = {};
+            var2['location'] = var9;
+            var2['fallback'] = var10;
+            var2 = var6.bind(var7)(var5, var2);
+            _fun0005_ip = 36; continue _fun0005;
+case 33:
+            var5 = var3 != var8;
+            var3 = null;
+            if(!var5) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
+            var6 = _closure1_slot12;
+            var5 = _closure1_slot17;
+            var4 = {};
+            var4['location'] = var9;
+            var4['emoji'] = var8;
+            var3 = var6.bind(var7)(var5, var4);
+case 37:
+            var2 = var3;
+case 36:
             var1 = var2;
 case 31:
             return var1;

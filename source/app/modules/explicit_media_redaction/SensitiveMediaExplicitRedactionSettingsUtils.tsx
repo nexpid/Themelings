@@ -159,58 +159,50 @@ case 6:
             var8 = _closure1_slot2;
             var2 = var8.getCurrentUser;
             var2 = var2.bind(var8)();
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot1;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot1;
             var8 = 3;
-            var8 = var13[var8];
-            var10 = var12.bind(var5)(var8);
-            var9 = var10.getIsGidgetPawtectEnabled;
-            var8 = 'resolveExplicitContentSettingWithDefaults';
+            var8 = var12[var8];
+            var10 = var11.bind(var5)(var8);
+            var9 = var10.isSettingTeenByDefault;
+            var8 = 4;
+            var8 = var12[var8];
+            var8 = var11.bind(var5)(var8);
+            var8 = var8.SettingsDefaultFeature;
+            var8 = var8.SENSITIVE_CONTENT;
             var8 = var9.bind(var10)(var8);
-            var9 = 4;
-            var9 = var13[var9];
-            var11 = var12.bind(var5)(var9);
-            var10 = var11.isSettingTeenByDefault;
-            var9 = 5;
-            var9 = var13[var9];
-            var9 = var12.bind(var5)(var9);
-            var9 = var9.SettingsDefaultFeature;
-            var9 = var9.SENSITIVE_CONTENT;
-            var9 = var10.bind(var11)(var9);
-            if(var9) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
             if(var8) { _fun0001_ip = 9; continue _fun0001 }
-case 11:
+case 10:
             var8 = var4 == var2;
             var4 = undefined;
-            if(var8) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var4 = var2.nsfwAllowed;
+            if(var8) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
+            var4 = var2.nsfwAllowed;
+case 11:
             var2 = false;
-            if(!(var2 !== var4)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!(var2 !== var4)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var4 = _closure1_slot8;
             var2 = {};
             var2['isDm'] = var7;
             var2['isFriend'] = var6;
             var2 = var4.bind(var5)(var2);
-            _fun0001_ip = 16; continue _fun0001;
-case 14:
+            _fun0001_ip = 15; continue _fun0001;
+case 13:
             var8 = _closure1_slot9;
             var4 = {};
             var4['isDm'] = var7;
             var4['isFriend'] = var6;
             var2 = var8.bind(var5)(var4);
-case 16:
-            _fun0001_ip = 17; continue _fun0001;
+case 15:
+            _fun0001_ip = 16; continue _fun0001;
 case 9:
             var4 = _closure1_slot10;
             var3 = {};
             var3['isDm'] = var7;
             var3['isFriend'] = var6;
             var2 = var4.bind(var5)(var3);
-case 17:
+case 16:
             return var2;
 case 8:
             return var1;
@@ -223,41 +215,41 @@ case 0:
             var1 = arg1;
             var3 = var1.isDm;
             var5 = undefined;
-            if(!(var3 === var5)) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
-            var3 = false;
+            if(!(var3 === var5)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
+            var3 = false;
+case 17:
             var1 = var1.isFriend;
-            if(!(var1 === var5)) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
-            var1 = false;
+            if(!(var1 === var5)) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
+            var1 = false;
+case 19:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
-            if(var3) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
+            if(var3) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var3 = 2;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.ExplicitContentRedaction;
             var3 = var3.SHOW;
             return var3;
-case 22:
-            var3 = 6;
+case 21:
+            var3 = 5;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var4 = var3.ExplicitContentFilter;
             var3 = var4.getSetting;
             var3 = var3.bind(var4)();
-            if(var1) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+            if(var1) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var1 = _closure1_slot4;
             var1 = var1[var3];
-            _fun0002_ip = 26; continue _fun0002;
-case 24:
+            _fun0002_ip = 25; continue _fun0002;
+case 23:
             var2 = _closure1_slot3;
             var1 = var2[var3];
-case 26:
+case 25:
             return var1;
         }
     };
@@ -268,41 +260,41 @@ case 0:
             var1 = arg1;
             var3 = var1.isDm;
             var5 = undefined;
-            if(!(var3 === var5)) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-            var3 = false;
+            if(!(var3 === var5)) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
+            var3 = false;
+case 17:
             var1 = var1.isFriend;
-            if(!(var1 === var5)) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-            var1 = false;
+            if(!(var1 === var5)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
+            var1 = false;
+case 19:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
-            if(var3) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+            if(var3) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var3 = 2;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.ExplicitContentRedaction;
             var3 = var3.BLUR;
             return var3;
-case 22:
-            var3 = 6;
+case 21:
+            var3 = 5;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var4 = var3.ExplicitContentFilter;
             var3 = var4.getSetting;
             var3 = var3.bind(var4)();
-            if(var1) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+            if(var1) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var1 = _closure1_slot6;
             var1 = var1[var3];
-            _fun0003_ip = 26; continue _fun0003;
-case 24:
+            _fun0003_ip = 25; continue _fun0003;
+case 23:
             var2 = _closure1_slot5;
             var1 = var2[var3];
-case 26:
+case 25:
             return var1;
         }
     };
@@ -313,18 +305,18 @@ case 0:
             var1 = arg1;
             var2 = var1.isDm;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
-            var2 = false;
+            if(!(var2 === var4)) { _fun0004_ip = 17; continue _fun0004 }
 case 18:
+            var2 = false;
+case 17:
             var1 = var1.isFriend;
-            if(!(var1 === var4)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
-            var1 = false;
+            if(!(var1 === var4)) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
-            if(!var2) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
-            if(var1) { _fun0004_ip = 27; continue _fun0004 }
+            var1 = false;
+case 19:
+            if(!var2) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
+            if(var1) { _fun0004_ip = 26; continue _fun0004 }
 case 4:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -333,8 +325,8 @@ case 4:
             var1 = var2.bind(var4)(var1);
             var1 = var1.ExplicitContentRedaction;
             var1 = var1.BLOCK;
-            _fun0004_ip = 29; continue _fun0004;
-case 27:
+            _fun0004_ip = 28; continue _fun0004;
+case 26:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 2;
@@ -342,7 +334,7 @@ case 27:
             var2 = var3.bind(var4)(var2);
             var2 = var2.ExplicitContentRedaction;
             var1 = var2.BLUR;
-case 29:
+case 28:
             return var1;
         }
     };
@@ -352,28 +344,28 @@ case 29:
 case 0:
             var6 = arg1;
             var5 = null;
-            if(!(var5 == var6)) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+            if(!(var5 == var6)) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 6;
+            var1 = 5;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var2 = var1.ExplicitContentSettings;
             var1 = var2.getSetting;
             var6 = var1.bind(var2)();
-case 30:
+case 29:
             var1 = {};
             var7 = _closure1_slot7;
             var3 = {};
             var9 = var5 == var6;
             var4 = undefined;
             var8 = undefined;
-            if(var9) { _fun0005_ip = 32; continue _fun0005 }
-case 27:
+            if(var9) { _fun0005_ip = 31; continue _fun0005 }
+case 26:
             var8 = var6.explicitContentGuilds;
-case 32:
+case 31:
             var3['setting'] = var8;
             var3 = var7.bind(var4)(var3);
             var1['explicitContentGuilds'] = var3;
@@ -381,10 +373,10 @@ case 32:
             var3 = {};
             var9 = var5 == var6;
             var8 = undefined;
-            if(var9) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
-            var8 = var6.explicitContentNonFriendDm;
+            if(var9) { _fun0005_ip = 32; continue _fun0005 }
 case 33:
+            var8 = var6.explicitContentNonFriendDm;
+case 32:
             var3['setting'] = var8;
             var8 = true;
             var3['isDm'] = var8;
@@ -394,10 +386,10 @@ case 33:
             var2 = {'setting': null, 'isDm': true, 'isFriend': true};
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
-            var5 = var6.explicitContentFriendDm;
+            if(var7) { _fun0005_ip = 34; continue _fun0005 }
 case 35:
+            var5 = var6.explicitContentFriendDm;
+case 34:
             var2['setting'] = var5;
             var2 = var3.bind(var4)(var2);
             var1['explicitContentFriendDm'] = var2;
@@ -405,7 +397,7 @@ case 35:
         }
     };
     var _closure1_slot11 = var4;
-    var9 = 8;
+    var9 = 7;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.fileFinishedImporting;
@@ -422,7 +414,7 @@ case 35:
         var6 = var3.bind(var1)();
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var2 = 6;
+        var2 = 5;
         var2 = var4[var2];
         var2 = var3.bind(var1)(var2);
         var4 = var2.ExplicitContentSettings;
@@ -444,21 +436,21 @@ case 0:
             var2 = var3.getCurrentUser;
             var3 = var2.bind(var3)();
             var2 = null;
-            if(!(var2 != var3)) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+            if(!(var2 != var3)) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
             var2 = _closure1_slot11;
             var4 = undefined;
             var2 = var2.bind(var4)();
             var3 = var2.explicitContentGuilds;
             var2 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var1 = 7;
+            var1 = 6;
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.getShouldObscureForSetting;
             var1 = var1.bind(var2)(var3);
             return var1;
-case 37:
+case 36:
             var1 = false;
             return var1;
         }

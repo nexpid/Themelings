@@ -322,7 +322,7 @@ case 13:
                             var7[0] = var8;
                             var4['analyticsLocations'] = var7;
                             var7 = _closure2_slot0;
-                            var4['initialRecipientUser'] = var7;
+                            var4['lockedRecipientUser'] = var7;
                             var4 = var5.bind(var6)(var4);
 case 12:
                             return var3;
@@ -359,10 +359,11 @@ case 6:
             var8 = var8.bind(var4)(var3);
             var3 = var8.getName;
             var8 = var3.bind(var8)(var9);
+            var _closure2_slot8 = var8;
             var3 = 13;
             var3 = var1[var3];
             var3 = var6.bind(var4)(var3);
-            var3 = var3.BANNER_CONFIG;
+            var3 = var3.BANNER_CONFIG_MOBILE;
             var5 = var3[var5];
             var19 = var5.title;
             var3 = var5.getSubtitle;
@@ -375,7 +376,7 @@ case 6:
             var1 = var6.bind(var4)(var1);
             var1 = var1.COLLECTIBLES_SHOP_CARD_HEIGHT;
             var11 = var5.bind(var4)(var3, var1);
-            var _closure2_slot8 = var11;
+            var _closure2_slot9 = var11;
             var1 = 'error';
             if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
@@ -438,6 +439,7 @@ case 19:
                 var2 = arg1;
                 var6 = var2.item;
                 var _closure3_slot0 = var6;
+                var7 = var2.source;
                 var5 = _closure1_slot10;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -447,8 +449,11 @@ case 19:
                 var3 = var3.bind(var4)(var2);
                 var2 = {};
                 var2['item'] = var6;
-                var6 = _closure2_slot1;
-                var2['size'] = var6;
+                var8 = _closure2_slot1;
+                var2['size'] = var8;
+                var2['source'] = var7;
+                var6 = _closure2_slot8;
+                var2['recipientName'] = var6;
                 var1 = function onPress() {
                     var3 = _closure2_slot7;
                     var2 = _closure3_slot0;
@@ -479,7 +484,7 @@ case 18:
                 var5 = _closure1_slot10;
                 var4 = _closure1_slot6;
                 var3 = {};
-                var1 = _closure2_slot8;
+                var1 = _closure2_slot9;
                 var1 = var1.placeholder;
                 var3['style'] = var1;
                 var2 = undefined;

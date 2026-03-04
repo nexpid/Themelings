@@ -20,5 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = /(?:\s*#?((?:"(\\\\|\\"|[^\\"])*")|(?:[^\s]+)))/i;
     var3['ANSWER_IN_REGEX'] = var2;
+    var2 = /(?:\s*([^\s]+))/;
+    var3['GENERIC_REGEX'] = var2;
     return var1;
 })();

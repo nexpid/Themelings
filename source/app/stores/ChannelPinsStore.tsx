@@ -365,11 +365,11 @@ case 18:
             var5 = arraySpread(var10, var9, var8);
             var2['items'] = var4;
             var3 = _closure1_slot15;
-            if(var1) { _fun0004_ip = 8; continue _fun0004 }
-case 19:
+            if(var1) { _fun0004_ip = 19; continue _fun0004 }
+case 13:
             var1 = var3.LOADED_FINISHED;
             _fun0004_ip = 20; continue _fun0004;
-case 8:
+case 19:
             var1 = var3.LOADED_HAS_MORE;
 case 20:
             var2['state'] = var1;
@@ -494,7 +494,7 @@ case 0:
             var2 = _closure1_slot16;
             var2 = var2[var3];
             var3 = null;
-            if(!(var3 != var2)) { _fun0007_ip = 6; continue _fun0007 }
+            if(!(var3 != var2)) { _fun0007_ip = 27; continue _fun0007 }
 case 18:
             var4 = var2.items;
             var3 = var4.filter;
@@ -512,7 +512,7 @@ case 18:
             var2['items'] = var1;
             var1 = undefined;
             return var1;
-case 6:
+case 27:
             var1 = false;
             return var1;
         }
@@ -528,15 +528,15 @@ case 0:
             var1 = var4.message;
             var8 = var1.channel_id;
             var6 = null;
-            if(!(var6 != var8)) { _fun0008_ip = 27; continue _fun0008 }
-case 28:
+            if(!(var6 != var8)) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
             var1 = _closure1_slot16;
             var1 = var1[var8];
-            if(!(var6 != var1)) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
+            if(!(var6 != var1)) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
             var3 = var4.message;
             var3 = var3.author;
-            if(!(var6 == var3)) { _fun0008_ip = 31; continue _fun0008 }
+            if(!(var6 == var3)) { _fun0008_ip = 32; continue _fun0008 }
 case 5:
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -556,8 +556,8 @@ case 5:
             };
             var9 = var9.bind(var10)(var7, var6);
             var6 = -1;
-            if(!(var6 !== var9)) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
+            if(!(var6 !== var9)) { _fun0008_ip = 33; continue _fun0008 }
+case 25:
             var6 = var1.items;
             var6 = var6[var9];
             var11 = var6.pinnedAt;
@@ -583,9 +583,9 @@ case 35:
             var6 = var6[var8];
             var6['items'] = var7;
             _fun0008_ip = 34; continue _fun0008;
-case 32:
+case 33:
             return var3;
-case 31:
+case 32:
             var3 = var4.message;
             var3 = var3.pinned;
             if(var3) { _fun0008_ip = 36; continue _fun0008 }
@@ -687,10 +687,10 @@ case 40:
 case 34:
             var1 = undefined;
             return var1;
-case 29:
+case 30:
             var1 = false;
             return var1;
-case 27:
+case 28:
             var1 = false;
             return var1;
         }

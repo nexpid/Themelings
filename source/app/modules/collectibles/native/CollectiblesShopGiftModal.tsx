@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var7 = var1.product;
         var14 = var1.analyticsLocations;
-        var6 = var1.initialRecipientUser;
+        var6 = var1.lockedRecipientUser;
         var3 = var1.onGiftModalDismiss;
         var12 = _closure1_slot1;
         var10 = _closure1_slot2;
@@ -127,24 +127,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var2.analyticsLocations;
         var2 = function useScreens(arg1, arg2, arg3) {
             var6 = arg1;
+            var8 = arg2;
             var3 = arg3;
             var _closure3_slot0 = var6;
-            var _closure3_slot1 = var3;
-            var9 = _closure1_slot4;
-            var5 = var9.useState;
-            var4 = arg2;
-            var8 = var5.bind(var9)(var4);
+            var _closure3_slot1 = var8;
+            var _closure3_slot2 = var3;
+            var10 = _closure1_slot4;
+            var4 = var10.useState;
+            var9 = var4.bind(var10)(var8);
             var7 = _closure1_slot3;
             var4 = undefined;
             var5 = 2;
-            var8 = var7.bind(var4)(var8, var5);
+            var9 = var7.bind(var4)(var9, var5);
             var5 = 0;
-            var7 = var8[var5];
-            var _closure3_slot2 = var7;
+            var7 = var9[var5];
+            var _closure3_slot3 = var7;
             var5 = 1;
-            var5 = var8[var5];
-            var _closure3_slot3 = var5;
-            var8 = var9.useCallback;
+            var5 = var9[var5];
+            var _closure3_slot4 = var5;
+            var9 = var10.useCallback;
             var5 = new Array(1);
             var5[0] = var3;
             var3 = function() {
@@ -158,28 +159,29 @@ case 0:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.pop;
                     var2 = var2.bind(var3)();
-                    var4 = _closure3_slot1;
+                    var4 = _closure3_slot2;
                     var3 = null;
                     if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var2 = _closure3_slot1;
+                    var2 = _closure3_slot2;
                     var2 = var2.bind(var1)();
 case 2:
                     return var1;
                 }
             };
-            var5 = var8.bind(var9)(var3, var5);
-            var _closure3_slot4 = var5;
+            var5 = var9.bind(var10)(var3, var5);
+            var _closure3_slot5 = var5;
             var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 6;
-            var2 = var8[var2];
+            var2 = var9[var2];
             var4 = var3.bind(var4)(var2);
             var3 = var4.useNavigatorScreens;
-            var2 = new Array(3);
-            var2[0] = var7;
-            var2[1] = var6;
-            var2[2] = var5;
+            var2 = new Array(4);
+            var2[0] = var8;
+            var2[1] = var7;
+            var2[2] = var6;
+            var2[3] = var5;
             var1 = function() {
                 var1 = {};
                 var3 = _closure1_slot8;
@@ -203,7 +205,7 @@ case 2:
                 var11 = var8[var5];
                 var13 = var7.bind(var6)(var11);
                 var12 = var13.getHeaderCloseButton;
-                var11 = _closure3_slot4;
+                var11 = _closure3_slot5;
                 var11 = var12.bind(var13)(var11);
                 var3['headerLeft'] = var11;
                 var11 = function render() {
@@ -217,10 +219,14 @@ case 2:
                     var1 = {};
                     var6 = _closure3_slot0;
                     var1['product'] = var6;
-                    var6 = _closure3_slot2;
+                    var6 = _closure3_slot3;
                     var1['recipientUser'] = var6;
-                    var5 = _closure3_slot3;
-                    var1['setRecipientUser'] = var5;
+                    var6 = _closure3_slot4;
+                    var1['setRecipientUser'] = var6;
+                    var6 = _closure3_slot1;
+                    var5 = null;
+                    var5 = var5 != var6;
+                    var1['lockedRecipient'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
@@ -248,7 +254,7 @@ case 2:
                     var4 = _closure1_slot7;
                     var3 = _closure1_slot9;
                     var2 = {};
-                    var1 = _closure3_slot3;
+                    var1 = _closure3_slot4;
                     var2['setRecipientUser'] = var1;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);

@@ -1,4 +1,4 @@
-// app/modules/tti_analytics/native/TTIMeasurementView.android.tsx
+// app/modules/tti_analytics/native/TTIMeasurementView.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = metroImportDefault;
     var3 = exports;
@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/tti_analytics/native/TTIMeasurementView.android.tsx';
+    var4 = 'modules/tti_analytics/native/TTIMeasurementView.tsx';
     var4 = var5.bind(var6)(var4);
     var3['TTIMeasurementView'] = var2;
     return var1;

@@ -51,7 +51,7 @@ case 4:
         }
     };
     var _closure1_slot3 = var4;
-    var5 = 7;
+    var5 = 6;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -59,223 +59,171 @@ case 4:
     var5 = var6.bind(var7)(var5);
     var3['resolveNsfwTogglesWithDefaults'] = var4;
     var4 = function() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var1 = 1;
-            var1 = var9[var1];
-            var6 = undefined;
-            var1 = var8.bind(var6)(var1);
-            var3 = var1.ViewNsfwCommands;
-            var1 = var3.useSetting;
-            var5 = var1.bind(var3)();
-            var1 = 2;
-            var1 = var9[var1];
-            var3 = var8.bind(var6)(var1);
-            var1 = var3.useIsAgeVerified;
-            var4 = var1.bind(var3)();
-            var1 = 3;
-            var1 = var9[var1];
-            var3 = var8.bind(var6)(var1);
-            var1 = var3.useNSFWAllowed;
-            var3 = var1.bind(var3)();
-            var1 = 4;
-            var1 = var9[var1];
-            var10 = var8.bind(var6)(var1);
-            var7 = var10.useIsFeatureAgeGated;
-            var1 = 5;
-            var1 = var9[var1];
-            var1 = var8.bind(var6)(var1);
-            var1 = var1.AgeGatedFeature;
-            var1 = var1.COMMANDS_TOGGLE;
-            var7 = var7.bind(var10)(var1);
-            var1 = 6;
-            var1 = var9[var1];
-            var9 = var8.bind(var6)(var1);
-            var8 = var9.useIsGidgetPawtectEnabled;
-            var1 = 'useViewNsfwCommandsOrDefault';
-            var1 = var8.bind(var9)(var1);
-            var2 = _closure1_slot3;
-            if(var1) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var1 = var7;
-case 10:
-            var15 = undefined;
-            var14 = var5;
-            var13 = var1;
-            var12 = var3;
-            var11 = var4;
-            var1 = var15[var2](var14, var13, var12, var11, var10);
-            return var1;
-        }
+        var9 = _closure1_slot0;
+        var10 = _closure1_slot1;
+        var2 = 1;
+        var2 = var10[var2];
+        var6 = undefined;
+        var2 = var9.bind(var6)(var2);
+        var3 = var2.ViewNsfwCommands;
+        var2 = var3.useSetting;
+        var5 = var2.bind(var3)();
+        var2 = 2;
+        var2 = var10[var2];
+        var3 = var9.bind(var6)(var2);
+        var2 = var3.useIsAgeVerified;
+        var11 = var2.bind(var3)();
+        var2 = 3;
+        var2 = var10[var2];
+        var3 = var9.bind(var6)(var2);
+        var2 = var3.useNSFWAllowed;
+        var12 = var2.bind(var3)();
+        var2 = 4;
+        var2 = var10[var2];
+        var8 = var9.bind(var6)(var2);
+        var7 = var8.useIsFeatureAgeGated;
+        var2 = 5;
+        var2 = var10[var2];
+        var2 = var9.bind(var6)(var2);
+        var2 = var2.AgeGatedFeature;
+        var2 = var2.COMMANDS_TOGGLE;
+        var13 = var7.bind(var8)(var2);
+        var1 = _closure1_slot3;
+        var15 = undefined;
+        var14 = var5;
+        var1 = var15[var1](var14, var13, var12, var11, var10);
+        return var1;
     };
     var3['useViewNsfwCommandsOrDefault'] = var4;
     var4 = function() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var1 = 1;
-            var1 = var9[var1];
-            var6 = undefined;
-            var1 = var8.bind(var6)(var1);
-            var3 = var1.ViewNsfwGuilds;
-            var1 = var3.useSetting;
-            var5 = var1.bind(var3)();
-            var1 = 2;
-            var1 = var9[var1];
-            var3 = var8.bind(var6)(var1);
-            var1 = var3.useIsAgeVerified;
-            var4 = var1.bind(var3)();
-            var1 = 3;
-            var1 = var9[var1];
-            var3 = var8.bind(var6)(var1);
-            var1 = var3.useNSFWAllowed;
-            var3 = var1.bind(var3)();
-            var1 = 4;
-            var1 = var9[var1];
-            var10 = var8.bind(var6)(var1);
-            var7 = var10.useIsFeatureAgeGated;
-            var1 = 5;
-            var1 = var9[var1];
-            var1 = var8.bind(var6)(var1);
-            var1 = var1.AgeGatedFeature;
-            var1 = var1.COMMANDS_TOGGLE;
-            var7 = var7.bind(var10)(var1);
-            var1 = 6;
-            var1 = var9[var1];
-            var9 = var8.bind(var6)(var1);
-            var8 = var9.useIsGidgetPawtectEnabled;
-            var1 = 'useViewNsfwGuildsOrDefault';
-            var1 = var8.bind(var9)(var1);
-            var2 = _closure1_slot3;
-            if(var1) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-            var1 = var7;
-case 12:
-            var15 = undefined;
-            var14 = var5;
-            var13 = var1;
-            var12 = var3;
-            var11 = var4;
-            var1 = var15[var2](var14, var13, var12, var11, var10);
-            return var1;
-        }
+        var9 = _closure1_slot0;
+        var10 = _closure1_slot1;
+        var2 = 1;
+        var2 = var10[var2];
+        var6 = undefined;
+        var2 = var9.bind(var6)(var2);
+        var3 = var2.ViewNsfwGuilds;
+        var2 = var3.useSetting;
+        var5 = var2.bind(var3)();
+        var2 = 2;
+        var2 = var10[var2];
+        var3 = var9.bind(var6)(var2);
+        var2 = var3.useIsAgeVerified;
+        var11 = var2.bind(var3)();
+        var2 = 3;
+        var2 = var10[var2];
+        var3 = var9.bind(var6)(var2);
+        var2 = var3.useNSFWAllowed;
+        var12 = var2.bind(var3)();
+        var2 = 4;
+        var2 = var10[var2];
+        var8 = var9.bind(var6)(var2);
+        var7 = var8.useIsFeatureAgeGated;
+        var2 = 5;
+        var2 = var10[var2];
+        var2 = var9.bind(var6)(var2);
+        var2 = var2.AgeGatedFeature;
+        var2 = var2.COMMANDS_TOGGLE;
+        var13 = var7.bind(var8)(var2);
+        var1 = _closure1_slot3;
+        var15 = undefined;
+        var14 = var5;
+        var1 = var15[var1](var14, var13, var12, var11, var10);
+        return var1;
     };
     var3['useViewNsfwGuildsOrDefault'] = var4;
     var4 = function() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var1 = 1;
-            var1 = var9[var1];
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var2 = 1;
+            var2 = var10[var2];
             var6 = undefined;
-            var1 = var8.bind(var6)(var1);
-            var2 = var1.ViewNsfwCommands;
-            var1 = var2.getSetting;
-            var5 = var1.bind(var2)();
-            var1 = 2;
-            var1 = var9[var1];
-            var2 = var8.bind(var6)(var1);
-            var1 = var2.isAgeVerified;
-            var4 = var1.bind(var2)();
-            var2 = _closure1_slot2;
-            var1 = var2.getCurrentUser;
-            var7 = var1.bind(var2)();
-            var1 = 4;
-            var1 = var9[var1];
-            var10 = var8.bind(var6)(var1);
-            var2 = var10.isFeatureAgeGated;
-            var1 = 5;
-            var1 = var9[var1];
-            var1 = var8.bind(var6)(var1);
-            var1 = var1.AgeGatedFeature;
-            var1 = var1.COMMANDS_TOGGLE;
-            var1 = var2.bind(var10)(var1);
-            var2 = 6;
-            var2 = var9[var2];
-            var9 = var8.bind(var6)(var2);
-            var8 = var9.getIsGidgetPawtectEnabled;
-            var2 = 'getViewNsfwCommandsOrDefault';
-            var2 = var8.bind(var9)(var2);
-            var3 = _closure1_slot3;
-            if(var2) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-            var2 = var1;
-case 14:
+            var2 = var9.bind(var6)(var2);
+            var3 = var2.ViewNsfwCommands;
+            var2 = var3.getSetting;
+            var5 = var2.bind(var3)();
+            var2 = 2;
+            var2 = var10[var2];
+            var3 = var9.bind(var6)(var2);
+            var2 = var3.isAgeVerified;
+            var4 = var2.bind(var3)();
+            var3 = _closure1_slot2;
+            var2 = var3.getCurrentUser;
+            var7 = var2.bind(var3)();
+            var2 = 4;
+            var2 = var10[var2];
+            var8 = var9.bind(var6)(var2);
+            var3 = var8.isFeatureAgeGated;
+            var2 = 5;
+            var2 = var10[var2];
+            var2 = var9.bind(var6)(var2);
+            var2 = var2.AgeGatedFeature;
+            var2 = var2.COMMANDS_TOGGLE;
+            var3 = var3.bind(var8)(var2);
+            var2 = _closure1_slot3;
             var1 = null;
             var8 = var1 == var7;
             var1 = undefined;
-            if(var8) { _fun0004_ip = 16; continue _fun0004 }
-case 12:
+            if(var8) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var1 = var7.nsfwAllowed;
-case 16:
+case 10:
             var15 = undefined;
             var14 = var5;
-            var13 = var2;
+            var13 = var3;
             var12 = var1;
             var11 = var4;
-            var1 = var15[var3](var14, var13, var12, var11, var10);
+            var1 = var15[var2](var14, var13, var12, var11, var10);
             return var1;
         }
     };
     var3['getViewNsfwCommandsOrDefault'] = var4;
     var2 = function() {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var1 = 1;
-            var1 = var9[var1];
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var2 = 1;
+            var2 = var10[var2];
             var6 = undefined;
-            var1 = var8.bind(var6)(var1);
-            var2 = var1.ViewNsfwGuilds;
-            var1 = var2.getSetting;
-            var5 = var1.bind(var2)();
-            var1 = 2;
-            var1 = var9[var1];
-            var2 = var8.bind(var6)(var1);
-            var1 = var2.isAgeVerified;
-            var4 = var1.bind(var2)();
-            var2 = _closure1_slot2;
-            var1 = var2.getCurrentUser;
-            var7 = var1.bind(var2)();
-            var1 = 4;
-            var1 = var9[var1];
-            var10 = var8.bind(var6)(var1);
-            var2 = var10.isFeatureAgeGated;
-            var1 = 5;
-            var1 = var9[var1];
-            var1 = var8.bind(var6)(var1);
-            var1 = var1.AgeGatedFeature;
-            var1 = var1.COMMANDS_TOGGLE;
-            var1 = var2.bind(var10)(var1);
-            var2 = 6;
-            var2 = var9[var2];
-            var9 = var8.bind(var6)(var2);
-            var8 = var9.getIsGidgetPawtectEnabled;
-            var2 = 'getViewNsfwGuildsOrDefault';
-            var2 = var8.bind(var9)(var2);
-            var3 = _closure1_slot3;
-            if(var2) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
-            var2 = var1;
-case 14:
+            var2 = var9.bind(var6)(var2);
+            var3 = var2.ViewNsfwGuilds;
+            var2 = var3.getSetting;
+            var5 = var2.bind(var3)();
+            var2 = 2;
+            var2 = var10[var2];
+            var3 = var9.bind(var6)(var2);
+            var2 = var3.isAgeVerified;
+            var4 = var2.bind(var3)();
+            var3 = _closure1_slot2;
+            var2 = var3.getCurrentUser;
+            var7 = var2.bind(var3)();
+            var2 = 4;
+            var2 = var10[var2];
+            var8 = var9.bind(var6)(var2);
+            var3 = var8.isFeatureAgeGated;
+            var2 = 5;
+            var2 = var10[var2];
+            var2 = var9.bind(var6)(var2);
+            var2 = var2.AgeGatedFeature;
+            var2 = var2.COMMANDS_TOGGLE;
+            var3 = var3.bind(var8)(var2);
+            var2 = _closure1_slot3;
             var1 = null;
             var8 = var1 == var7;
             var1 = undefined;
-            if(var8) { _fun0005_ip = 16; continue _fun0005 }
-case 12:
+            if(var8) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var1 = var7.nsfwAllowed;
-case 16:
+case 10:
             var15 = undefined;
             var14 = var5;
-            var13 = var2;
+            var13 = var3;
             var12 = var1;
             var11 = var4;
-            var1 = var15[var3](var14, var13, var12, var11, var10);
+            var1 = var15[var2](var14, var13, var12, var11, var10);
             return var1;
         }
     };

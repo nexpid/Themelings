@@ -245,46 +245,62 @@ case 37:
         return var1;
     };
     var _closure1_slot13 = var1;
-    var1 = function syncRoles(arg1, arg2, arg3) {
+    var1 = function syncAndValidateRoles(arg1, arg2, arg3) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var4 = arg1;
-            var7 = arg2;
-            var3 = arg3;
-            var2 = var7.op;
+            var6 = arg1;
+            var5 = arg2;
+            var2 = arg3;
+            var3 = var5.op;
             var1 = 'update';
-            var1 = var1 === var2;
-            if(!var1) { _fun0005_ip = 39; continue _fun0005 }
+            if(!(var1 === var3)) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
-            var2 = var7.writes;
-            var5 = var2.length;
-            var2 = 0;
-            var1 = var2 === var5;
-case 39:
-            if(!var1) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
-            var2 = var7.deletes;
-            var5 = var2.length;
-            var2 = 0;
-            var1 = var2 === var5;
+            var1 = var5.writes;
+            var1 = var1.length;
+            var3 = 0;
+            if(!(var3 === var1)) { _fun0005_ip = 39; continue _fun0005 }
 case 41:
-            if(var1) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
-            var2 = var3.setPartition;
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var1 = var5.deletes;
+            var1 = var1.length;
+            if(!(var3 !== var1)) { _fun0005_ip = 42; continue _fun0005 }
+case 39:
+            var3 = var2.setPartition;
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot1;
             var1 = 11;
-            var5 = var5[var1];
+            var4 = var4[var1];
             var1 = undefined;
-            var6 = var6.bind(var1)(var5);
-            var5 = var6.fromSyncOperation;
-            var1 = var3.getPartition;
-            var1 = var1.bind(var3)(var4);
-            var1 = var5.bind(var6)(var4, var7, var1);
-            var1 = var2.bind(var3)(var4, var1);
-case 43:
+            var7 = var7.bind(var1)(var4);
+            var4 = var7.fromSyncOperation;
+            var1 = var2.getPartition;
+            var1 = var1.bind(var2)(var6);
+            var1 = var4.bind(var7)(var6, var5, var1);
+            var1 = var3.bind(var2)(var6, var1);
+case 42:
+            var1 = var2.partitionLength;
+            var2 = var1.bind(var2)(var6);
+            var1 = 0;
+            if(!(var1 !== var2)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var1 = undefined;
             return var1;
+case 43:
+            var1 = global;
+            var3 = var1.Error;
+            var4 = var1.Array;
+            var2 = var4.isArray;
+            var5 = var2.bind(var4)(var5);
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var2 = 'Guild data was missing from store for guild ';
+            var1 = ': got empty role update with no existing partition, Array.isArray(roles) = ';
+            var10 = var4.bind(var2)(var6, var1, var5);
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var11 = var2;
+            var1 = new var11[var3](var10, var9);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
     var _closure1_slot14 = var1;
@@ -860,7 +876,7 @@ case 0:
             var2 = var1.id;
             var1 = var1.unavailable;
             if(var1) { _fun0013_ip = 69; continue _fun0013 }
-case 40:
+case 70:
             var1 = var3.removePartition;
             var1 = var1.bind(var3)(var2);
 case 69:

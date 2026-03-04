@@ -66,16 +66,16 @@ case 9:
 case 11:
             var2 = _closure1_slot4;
             var2 = var2.emojiFrecencyWithoutFetchingLatest;
-            var3 = var2.numFrequentlyItems;
+            var5 = var2.numFrequentlyItems;
             _fun0001_ip = 12; continue _fun0001;
 case 10:
             var2 = _closure1_slot4;
             var2 = var2.emojiReactionFrecencyWithoutFetchingLatest;
-            var3 = var2.numFrequentlyItems;
+            var5 = var2.numFrequentlyItems;
 case 12:
-            var2 = var12.slice;
-            var5 = 0;
-            var18 = var2.bind(var12)(var5, var3);
+            var3 = var12.slice;
+            var2 = 0;
+            var18 = var3.bind(var12)(var2, var5);
             if(!(var6 == var4)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
             var14 = new Array(0);
@@ -87,32 +87,16 @@ case 13:
 case 15:
             var4 = _closure1_slot4;
             var3 = var4.getDisambiguatedEmojiContext;
-            var12 = var6 == var17;
+            var5 = var6 == var17;
             var2 = undefined;
-            if(var12) { _fun0001_ip = 16; continue _fun0001 }
+            if(var5) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var12 = var17.getGuildId;
-            var2 = var12.bind(var17)();
+            var5 = var17.getGuildId;
+            var2 = var5.bind(var17)();
 case 16:
-            var2 = var3.bind(var4)(var2);
-            var4 = var2.groupedCustomEmojis;
-            if(!(var6 == var4)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-            var4 = {};
-case 18:
-            var2 = global;
-            var3 = var2.Object;
-            var2 = var3.values;
-            var4 = var2.bind(var3)(var4);
-            var3 = var4.reduce;
-            var2 = function(arg1, arg2) {
-                var1 = arg2;
-                var2 = var1.length;
-                var1 = arg1;
-                var1 = var1 + var2;
-                return var1;
-            };
-            var12 = var3.bind(var4)(var2, var5);
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.getCustomEmoji;
+            var12 = var2.bind(var3)();
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 7;
@@ -122,11 +106,11 @@ case 18:
             var2 = {};
             var15 = var6 == var17;
             var5 = undefined;
-            if(var15) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(var15) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var15 = var17.getGuildId;
             var5 = var15.bind(var17)();
-case 20:
+case 18:
             var2['guildId'] = var5;
             var2['pickerIntention'] = var9;
             var2 = var3.bind(var4)(var2);
@@ -152,15 +136,15 @@ case 20:
             var4 = var5.trackWithMetadata;
             var2 = _closure1_slot8;
             var2 = var2.REACTION;
-            if(!(var9 !== var2)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!(var9 !== var2)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var2 = _closure1_slot7;
             var3 = var2.EXPRESSION_PICKER_OPENED;
-            _fun0001_ip = 24; continue _fun0001;
-case 22:
+            _fun0001_ip = 22; continue _fun0001;
+case 20:
             var2 = _closure1_slot7;
             var3 = var2.REACTION_PICKER_OPENED;
-case 24:
+case 22:
             var2 = {};
             var2['width'] = var16;
             var16 = _closure1_slot9;
@@ -178,10 +162,10 @@ case 0:
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+                    if(var3) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
                     var1 = var2.animated;
-case 25:
+case 23:
                     return var1;
                 }
             };
@@ -219,10 +203,10 @@ case 0:
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+                    if(var3) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                     var1 = var2.animated;
-case 25:
+case 23:
                     return var1;
                 }
             };
@@ -249,6 +233,7 @@ case 25:
             var2['num_standard_expressions_frecent'] = var16;
             var14 = var14.length;
             var2['num_current_guild_expressions'] = var14;
+            var12 = var12.size;
             var2['num_custom_expressions_total'] = var12;
             var12 = var15.length;
             var2['num_expressions_top_server'] = var12;
@@ -275,22 +260,22 @@ case 25:
             var7 = _closure1_slot8;
             var7 = var7.REACTION;
             var7 = var9 === var7;
-            if(!var7) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+            if(!var7) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var9 = {};
             var9['is_burst'] = var10;
             var7 = var9;
-case 27:
+case 25:
             var24 = var2;
             var23 = var7;
             var7 = copyDataProperties(var24, var23);
             var6 = var6 != var8;
-            if(!var6) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+            if(!var6) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var7 = {};
             var7['location_object'] = var8;
             var6 = var7;
-case 29:
+case 27:
             var24 = var2;
             var23 = var6;
             var6 = copyDataProperties(var24, var23);
@@ -362,14 +347,14 @@ case 0:
                 var4 = var2.intention;
                 var3 = _closure1_slot8;
                 var3 = var3.REACTION;
-                if(!(var4 === var3)) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+                if(!(var4 === var3)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                 var3 = _closure1_slot10;
                 var1 = _closure2_slot0;
                 var2 = var1.current;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
-case 31:
+case 29:
                 var1 = undefined;
                 return var1;
             }

@@ -617,16 +617,16 @@ case 0:
                 var4 = this;
                 var3 = var1.op;
                 var2 = 'update';
-                if(!(var2 !== var3)) { _fun0009_ip = 54; continue _fun0009 }
-case 55:
+                if(!(var2 !== var3)) { _fun0009_ip = 46; continue _fun0009 }
+case 54:
                 var2 = 'full_sync';
-                if(!(var2 === var3)) { _fun0009_ip = 17; continue _fun0009 }
+                if(!(var2 === var3)) { _fun0009_ip = 55; continue _fun0009 }
 case 56:
                 var3 = var4.replace;
                 var2 = var1.items;
                 var2 = var3.bind(var4)(var6, var2, var7);
-                _fun0009_ip = 17; continue _fun0009;
-case 54:
+                _fun0009_ip = 55; continue _fun0009;
+case 46:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var3 = 5;
@@ -643,7 +643,7 @@ case 54:
                 var3 = var2.bind(var5)(var1);
                 var2 = var3.bind(var5)();
                 var1 = var2.done;
-                if(var1) { _fun0009_ip = 17; continue _fun0009 }
+                if(var1) { _fun0009_ip = 55; continue _fun0009 }
 case 57:
                 var7 = var2.value;
                 var1 = var4.delete;
@@ -652,7 +652,7 @@ case 57:
                 var1 = var7.done;
                 var2 = var7;
                 if(!var1) { _fun0009_ip = 57; continue _fun0009 }
-case 17:
+case 55:
                 var1 = undefined;
                 return var1;
             }
