@@ -2084,7 +2084,7 @@
     },
     "CreditCardIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CreditCardIcon.png",
-        "hash": "8cab4fe136f4e8a8dc73f9bc3b13b713",
+        "hash": "f8921adf87f8546b7d4daea0fdb51efd",
         "scales": [
             2,
             3
@@ -11107,17 +11107,6 @@
         ],
         "width": 300,
         "height": 120
-    },
-    "sample-profile-small": {
-        "file": "app/images/native/sample-profile-small.png",
-        "hash": "7a804469bba8c85980e03f6a77b01d49",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 98,
-        "height": 98
     },
     "ScienceIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ScienceIcon.png",
