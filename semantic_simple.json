@@ -497,6 +497,18 @@
     "midnight": "#212229",
     "darker": "#2c2d35"
   },
+  "DATEPICKER_RANGE_BACKGROUND_DEFAULT": {
+    "dark": "#5865f266",
+    "light": "#5865f266",
+    "midnight": "#5865f266",
+    "darker": "#5865f266"
+  },
+  "DATEPICKER_RANGE_BACKGROUND_HOVER": {
+    "dark": "#5865f299",
+    "light": "#5865f299",
+    "midnight": "#5865f299",
+    "darker": "#5865f299"
+  },
   "EMBED_BACKGROUND": {
     "dark": "#2b2d31",
     "light": "#f2f3f5",

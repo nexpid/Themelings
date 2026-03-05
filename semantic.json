@@ -2489,6 +2489,66 @@
       }
     ]
   },
+  "DATEPICKER_RANGE_BACKGROUND_DEFAULT": {
+    "dark": [
+      "#5865f266",
+      {
+        "raw": "OPACITY_BLURPLE_40",
+        "opacity": 0.4
+      }
+    ],
+    "light": [
+      "#5865f266",
+      {
+        "raw": "OPACITY_BLURPLE_40",
+        "opacity": 0.4
+      }
+    ],
+    "midnight": [
+      "#5865f266",
+      {
+        "raw": "OPACITY_BLURPLE_40",
+        "opacity": 0.4
+      }
+    ],
+    "darker": [
+      "#5865f266",
+      {
+        "raw": "OPACITY_BLURPLE_40",
+        "opacity": 0.4
+      }
+    ]
+  },
+  "DATEPICKER_RANGE_BACKGROUND_HOVER": {
+    "dark": [
+      "#5865f299",
+      {
+        "raw": "OPACITY_BLURPLE_60",
+        "opacity": 0.6
+      }
+    ],
+    "light": [
+      "#5865f299",
+      {
+        "raw": "OPACITY_BLURPLE_60",
+        "opacity": 0.6
+      }
+    ],
+    "midnight": [
+      "#5865f299",
+      {
+        "raw": "OPACITY_BLURPLE_60",
+        "opacity": 0.6
+      }
+    ],
+    "darker": [
+      "#5865f299",
+      {
+        "raw": "OPACITY_BLURPLE_60",
+        "opacity": 0.6
+      }
+    ]
+  },
   "EMBED_BACKGROUND": {
     "dark": [
       "#2b2d31",
