@@ -428,7 +428,7 @@ case 19:
                 if(!(!(var16 > var1))) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
                 var1 = null;
-                if(!var13) { _fun0004_ip = 29; continue _fun0004 }
+                if(!var13) { _fun0004_ip = 44; continue _fun0004 }
 case 42:
                 var4 = _closure1_slot9;
                 var3 = _closure1_slot3;
@@ -454,7 +454,7 @@ case 42:
                 var6 = var8.bind(var5)(var7, var6);
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
-case 29:
+case 44:
                 return var1;
             }
         };

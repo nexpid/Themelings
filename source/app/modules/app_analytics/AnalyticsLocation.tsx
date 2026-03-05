@@ -910,6 +910,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_SETTINGS_SOUNDBOARD_TAB'] = var1;
     var1 = 'user settings debug tab';
     var2['USER_SETTINGS_DEBUG_TAB'] = var1;
+    var1 = 'user settings favorites';
+    var2['USER_SETTINGS_FAVORITES'] = var1;
     var1 = 'deeplink';
     var2['DEEPLINK'] = var1;
     var1 = 'holiday coachmark';
@@ -1073,8 +1075,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFT_CODE_EMBED'] = var1;
     var1 = 'slayer storefront product details embed';
     var2['SLAYER_STOREFRONT_PRODUCT_DETAILS_EMBED'] = var1;
-    var1 = 'cloudflare warp settings';
-    var2['CF_WARP_SETTINGS'] = var1;
     var1 = 'age group';
     var2['AGE_GROUP'] = var1;
     var1 = 'game community multi guild upsell guilds bar entrypoint';

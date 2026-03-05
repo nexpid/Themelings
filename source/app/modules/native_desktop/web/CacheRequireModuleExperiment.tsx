@@ -1,4 +1,4 @@
-// app/modules/user/ContextMenuCommandRefreshExperiment.tsx
+// app/modules/native_desktop/web/CacheRequireModuleExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -7,8 +7,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Object;
     var4 = var7.defineProperty;
     var2 = {};
-    var1 = true;
-    var2['value'] = var1;
+    var10 = true;
+    var2['value'] = var10;
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
@@ -16,23 +16,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'name': '2025-09-cmc-refresh', 'kind': 'user'};
-    var8 = {'newUIEnabled': false, 'searchEnabled': false, 'desktopSendIconEnabled': false};
+    var2 = {'name': '2026-03-cache-require-module', 'kind': 'user'};
+    var8 = {};
+    var9 = false;
+    var8['moduleCacheEnabled'] = var9;
     var2['defaultConfig'] = var8;
     var8 = {};
-    var9 = {'newUIEnabled': true, 'searchEnabled': false, 'desktopSendIconEnabled': true};
+    var9 = {};
+    var9['moduleCacheEnabled'] = var10;
     var8[1] = var9;
-    var9 = {'newUIEnabled': true, 'searchEnabled': true, 'desktopSendIconEnabled': true};
-    var8[2] = var9;
-    var9 = {'newUIEnabled': true, 'searchEnabled': true, 'desktopSendIconEnabled': false};
-    var8[3] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/user/ContextMenuCommandRefreshExperiment.tsx';
+    var4 = 'modules/native_desktop/web/CacheRequireModuleExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

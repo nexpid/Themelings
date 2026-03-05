@@ -51,11 +51,11 @@ case 3:
 case 2:
             var _closure2_slot2 = var6;
             var _closure2_slot3 = var1;
-            var9 = !var3;
+            var4 = null;
+            var9 = var4 != var7;
             if(!var9) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = null;
-            var9 = var3 != var7;
+            var9 = !var3;
 case 4:
             if(!var9) { _fun0001_ip = 6; continue _fun0001 }
 case 7:

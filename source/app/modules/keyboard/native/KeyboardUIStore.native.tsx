@@ -158,8 +158,8 @@ case 0:
                         var1 = arg1;
                         var2 = _closure2_slot0;
                         var10 = var2.keyboardDuration;
-                        var12 = null;
-                        if(!(var12 == var10)) { _fun0004_ip = 19; continue _fun0004 }
+                        var15 = null;
+                        if(!(var15 == var10)) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
                         var10 = var1.keyboardDuration;
 case 19:
@@ -167,7 +167,7 @@ case 19:
                         var3 = {};
                         var5 = _closure2_slot0;
                         var5 = var5.keyboardHeight;
-                        if(!(var12 == var5)) { _fun0004_ip = 21; continue _fun0004 }
+                        if(!(var15 == var5)) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
                         var5 = var1.keyboardHeight;
 case 21:
@@ -180,23 +180,23 @@ case 21:
                         var3 = {};
                         var5 = _closure2_slot0;
                         var5 = var5.keyboardHeight;
-                        if(!(var12 == var5)) { _fun0004_ip = 23; continue _fun0004 }
+                        if(!(var15 == var5)) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
                         var5 = var1.keyboardHeight;
 case 23:
                         var3['keyboardHeight'] = var5;
-                        var11 = true;
-                        var3['excludeSafeAreaInsets'] = var11;
+                        var7 = true;
+                        var3['excludeSafeAreaInsets'] = var7;
                         var8 = var4.bind(var13)(var3);
                         var3 = _closure2_slot0;
                         var3 = var3.keyboardType;
-                        var4 = var12 == var3;
+                        var4 = var15 == var3;
                         var6 = undefined;
                         if(var4) { _fun0004_ip = 25; continue _fun0004 }
 case 8:
                         var6 = var3.type;
 case 25:
-                        if(!(var12 == var6)) { _fun0004_ip = 26; continue _fun0004 }
+                        if(!(var15 == var6)) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
                         var6 = var1.keyboardType;
 case 26:
@@ -210,59 +210,61 @@ case 28:
 case 30:
                         var3 = _closure1_slot10;
                         var4 = var3.bind(var13)(var9, var6, var17);
-                        var3 = var3.bind(var13)(var9, var6, var11);
-                        var11 = var1.keyboardContexts;
-                        var16 = var11[var6];
-                        var11 = _closure2_slot0;
-                        var14 = var11.keyboardType;
-                        var15 = var12 == var14;
-                        var11 = undefined;
-                        if(var15) { _fun0004_ip = 31; continue _fun0004 }
+                        var3 = var3.bind(var13)(var9, var6, var7);
+                        var7 = var1.keyboardContexts;
+                        var16 = var7[var6];
+                        var7 = _closure2_slot0;
+                        var11 = var7.keyboardType;
+                        var14 = var15 == var11;
+                        var7 = undefined;
+                        if(var14) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                        var11 = var14.context;
+                        var7 = var11.context;
 case 31:
                         var14 = var16;
-                        if(!(var12 != var11)) { _fun0004_ip = 33; continue _fun0004 }
+                        if(!(var15 != var7)) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
-                        var14 = var11;
+                        var14 = var7;
 case 33:
-                        var15 = 'object';
-                        var11 = typeof var16;
-                        if(!(var15 === var11)) { _fun0004_ip = 35; continue _fun0004 }
+                        var11 = 'object';
+                        var7 = typeof var16;
+                        if(!(var11 === var7)) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
-                        var11 = typeof var14;
-                        if(!(var15 !== var11)) { _fun0004_ip = 37; continue _fun0004 }
+                        var7 = typeof var14;
+                        if(!(var11 !== var7)) { _fun0004_ip = 37; continue _fun0004 }
 case 35:
                         var11 = var16 !== var14;
                         _fun0004_ip = 38; continue _fun0004;
 case 37:
                         var18 = _closure1_slot1;
                         var19 = _closure1_slot2;
-                        var15 = 10;
-                        var15 = var19[var15];
-                        var15 = var18.bind(var13)(var15);
-                        var15 = var15.bind(var13)(var16, var14);
-                        var11 = !var15;
+                        var7 = 10;
+                        var7 = var19[var7];
+                        var7 = var18.bind(var13)(var7);
+                        var7 = var7.bind(var13)(var16, var14);
+                        var11 = !var7;
 case 38:
                         var7 = _closure2_slot0;
                         var7 = var7.systemKeyboardOpen;
-                        if(!(var12 == var7)) { _fun0004_ip = 39; continue _fun0004 }
+                        if(!(var15 == var7)) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
                         var7 = var1.systemKeyboardOpen;
 case 39:
-                        if(!var7) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
-                        var15 = var1.keyboardContexts;
-                        var16 = _closure1_slot0;
-                        var12 = _closure1_slot2;
+                        var18 = var1.keyboardContexts;
+                        var19 = _closure1_slot0;
+                        var16 = _closure1_slot2;
                         var20 = 5;
-                        var12 = var12[var20];
-                        var12 = var16.bind(var13)(var12);
-                        var12 = var12.KeyboardTypes;
-                        var12 = var12.SYSTEM;
-                        var12 = var15[var12];
-                        var12 = var12.keyboardWillOpen;
-                        if(var12) { _fun0004_ip = 43; continue _fun0004 }
+                        var16 = var16[var20];
+                        var16 = var19.bind(var13)(var16);
+                        var16 = var16.KeyboardTypes;
+                        var16 = var16.SYSTEM;
+                        var16 = var18[var16];
+                        var16 = var16.keyboardWillOpen;
+                        if(!var16) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
+                        var12 = _closure2_slot0;
+                        var12 = var12.systemKeyboardOpen;
+                        if(!(var15 == var12)) { _fun0004_ip = 43; continue _fun0004 }
 case 41:
                         var15 = var1.keyboardContexts;
                         if(var11) { _fun0004_ip = 44; continue _fun0004 }

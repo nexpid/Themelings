@@ -66,5 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var3['ChannelListGuildActionRow'] = var4;
     var3['ChannelListChannelNoticeRow'] = var2;
+    var2 = 17;
+    var3['STANDARD_GUILD_SIDEBAR_POPOVER_GAP'] = var2;
     return var1;
 })();

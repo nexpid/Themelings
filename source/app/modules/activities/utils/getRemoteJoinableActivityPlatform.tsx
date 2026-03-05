@@ -48,7 +48,7 @@ case 3:
 case 5:
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var9 = 5;
+            var9 = 4;
             var4 = var4[var9];
             var8 = undefined;
             var10 = var6.bind(var8)(var4);
@@ -72,88 +72,59 @@ case 8:
             var2 = null;
             if(var5) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var11 = var4.platform;
             var6 = _closure1_slot0;
             var10 = _closure1_slot1;
-            var5 = 3;
+            var5 = 5;
             var5 = var10[var5];
             var6 = var6.bind(var8)(var5);
             var5 = var6.isContextlessEmbeddedActivity;
             var5 = var5.bind(var6)(var4);
-            var6 = !var5;
-            var5 = !var6;
-            if(!var6) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-            var10 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var13 = 4;
-            var6 = var6[var13];
-            var10 = var10.bind(var8)(var6);
-            var6 = var10.isAndroid;
-            var6 = var6.bind(var10)();
-            if(var6) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-            var10 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var6 = var6[var13];
-            var10 = var10.bind(var8)(var6);
-            var6 = var10.isIOS;
-            var6 = var6.bind(var10)();
-            if(var6) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-            var10 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var6 = var6[var13];
-            var10 = var10.bind(var8)(var6);
-            var6 = var10.isWeb;
-            var6 = var6.bind(var10)();
-            if(var6) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
-            var12 = _closure1_slot0;
-            var10 = _closure1_slot1;
-            var10 = var10[var13];
-            var12 = var12.bind(var8)(var10);
-            var10 = var12.isDesktop;
-            var10 = var10.bind(var12)();
-            var12 = !var10;
-            var10 = !var12;
-            if(var12) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-            var12 = var4.application_id;
-            var10 = var1 != var12;
-case 19:
-            if(!var10) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
-            var14 = _closure1_slot2;
-            var13 = var14.isConnected;
-            var12 = var4.application_id;
-            var10 = var13.bind(var14)(var12);
-case 21:
-            var6 = var10;
-case 17:
-            if(!var6) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
-            var10 = _closure1_slot5;
-            var10 = var10.DESKTOP;
-            var6 = var11 === var10;
-case 23:
-            _fun0001_ip = 25; continue _fun0001;
-case 15:
-            var10 = _closure1_slot5;
-            var10 = var10.IOS;
-            var6 = var11 === var10;
-case 25:
-            _fun0001_ip = 26; continue _fun0001;
-case 13:
-            var10 = _closure1_slot5;
-            var10 = var10.ANDROID;
-            var6 = var11 === var10;
-case 26:
-            var5 = var6;
-case 11:
             var2 = null;
             if(var5) { _fun0001_ip = 9; continue _fun0001 }
-case 27:
+case 11:
+            var5 = var4.application_id;
+            if(!(var1 != var5)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var10 = _closure1_slot2;
+            var6 = var10.isConnected;
+            var5 = var4.application_id;
+            var5 = var6.bind(var10)(var5);
+            var2 = null;
+            if(var5) { _fun0001_ip = 9; continue _fun0001 }
+case 14:
+            var10 = var4.platform;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var11 = 3;
+            var5 = var5[var11];
+            var6 = var6.bind(var8)(var5);
+            var5 = var6.isAndroid;
+            var5 = var5.bind(var6)();
+            if(var5) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var11];
+            var6 = var6.bind(var8)(var5);
+            var5 = var6.isIOS;
+            var5 = var5.bind(var6)();
+            var6 = !var5;
+            var5 = !var6;
+            if(var6) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
+            var6 = _closure1_slot5;
+            var6 = var6.IOS;
+            var5 = var10 === var6;
+case 17:
+            _fun0001_ip = 19; continue _fun0001;
+case 15:
+            var6 = _closure1_slot5;
+            var6 = var6.ANDROID;
+            var5 = var10 === var6;
+case 19:
+            var2 = null;
+            if(var5) { _fun0001_ip = 9; continue _fun0001 }
+case 12:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var9];
@@ -162,23 +133,23 @@ case 27:
             var8 = var4.flags;
             var9 = var1 != var8;
             var7 = 0;
-            if(!var9) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(!var9) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var7 = var8;
-case 28:
+case 20:
             var3 = _closure1_slot4;
             var3 = var3.SUPPORTS_GATEWAY_ACTIVITY_ACTION_JOIN;
             var5 = var5.bind(var6)(var7, var3);
             var3 = null;
-            if(!var5) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
+            if(!var5) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var4 = var4.platform;
             var5 = var1 != var4;
             var3 = null;
-            if(!var5) { _fun0001_ip = 30; continue _fun0001 }
-case 32:
+            if(!var5) { _fun0001_ip = 22; continue _fun0001 }
+case 24:
             var3 = var4;
-case 30:
+case 22:
             var2 = var3;
 case 9:
             return var2;

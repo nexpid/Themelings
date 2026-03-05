@@ -4491,23 +4491,23 @@ case 0:
                     var3 = var1.items;
                     var4 = var1.item;
                     var1 = 'SYNC';
-                    if(!(var1 !== var2)) { _fun0058_ip = 171; continue _fun0058 }
-case 193:
+                    if(!(var1 !== var2)) { _fun0058_ip = 177; continue _fun0058 }
+case 101:
                     var1 = 'UPDATE';
-                    if(!(var1 !== var2)) { _fun0058_ip = 194; continue _fun0058 }
-case 45:
+                    if(!(var1 !== var2)) { _fun0058_ip = 111; continue _fun0058 }
+case 43:
                     var1 = 'INSERT';
-                    if(!(var1 === var2)) { _fun0058_ip = 106; continue _fun0058 }
-case 194:
+                    if(!(var1 === var2)) { _fun0058_ip = 193; continue _fun0058 }
+case 111:
                     var2 = _closure3_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var4);
-                    _fun0058_ip = 106; continue _fun0058;
-case 171:
+                    _fun0058_ip = 193; continue _fun0058;
+case 177:
                     var2 = var3.forEach;
                     var1 = _closure3_slot0;
                     var1 = var2.bind(var3)(var1);
-case 106:
+case 193:
                     var1 = undefined;
                     return var1;
                 }
@@ -5643,7 +5643,7 @@ case 94:
                 var6 = var2 != var5;
                 var4 = null;
                 if(!var6) { _fun0059_ip = 179; continue _fun0059 }
-case 195:
+case 194:
                 var4 = var5;
 case 179:
                 var1['requestToSpeakTimestamp'] = var4;
@@ -5666,10 +5666,10 @@ case 187:
 case 186:
                 var1['selfStream'] = var4;
                 var4 = var3.self_video;
-                if(var4) { _fun0059_ip = 196; continue _fun0059 }
-case 197:
-                var4 = false;
+                if(var4) { _fun0059_ip = 195; continue _fun0059 }
 case 196:
+                var4 = false;
+case 195:
                 var1['selfVideo'] = var4;
                 var4 = var3.session_id;
                 var1['sessionId'] = var4;
@@ -5679,10 +5679,10 @@ case 196:
                 var1['userId'] = var4;
                 var3 = var3.discoverable;
                 var2 = var2 == var3;
-                if(var2) { _fun0059_ip = 198; continue _fun0059 }
-case 199:
-                var2 = var3;
+                if(var2) { _fun0059_ip = 197; continue _fun0059 }
 case 198:
+                var2 = var3;
+case 197:
                 var1['discoverable'] = var2;
                 return var1;
             }

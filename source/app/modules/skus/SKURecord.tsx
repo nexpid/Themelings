@@ -139,6 +139,8 @@ case 8:
                 var1['application'] = var3;
                 var3 = var2.eligiblePaymentGateways;
                 var1['eligiblePaymentGateways'] = var3;
+                var3 = var2.googleSkuIds;
+                var1['googleSkuIds'] = var3;
                 var3 = var2.productLine;
                 var1['productLine'] = var3;
                 var3 = var2.name;
@@ -672,33 +674,26 @@ case 53:
                 var5 = var7;
 case 52:
                 var1['eligiblePaymentGateways'] = var5;
+                var7 = var2.google_sku_ids;
+                var8 = var4 != var7;
+                var5 = null;
+                if(!var8) { _fun0013_ip = 54; continue _fun0013 }
+case 55:
+                var5 = var7;
+case 54:
+                var1['googleSkuIds'] = var5;
                 var5 = var2.product_line;
                 var1['productLine'] = var5;
                 var7 = var2.name;
                 var10 = var4 != var7;
                 var8 = '';
                 var5 = var8;
-                if(!var10) { _fun0013_ip = 54; continue _fun0013 }
-case 55:
+                if(!var10) { _fun0013_ip = 56; continue _fun0013 }
+case 57:
                 var5 = var7;
-case 54:
+case 56:
                 var1['name'] = var5;
                 var5 = var2.release_date;
-                var7 = var4 != var5;
-                var5 = null;
-                if(!var7) { _fun0013_ip = 56; continue _fun0013 }
-case 57:
-                var10 = _closure1_slot1;
-                var11 = _closure1_slot2;
-                var7 = 10;
-                var7 = var11[var7];
-                var11 = undefined;
-                var10 = var10.bind(var11)(var7);
-                var7 = var2.release_date;
-                var5 = var10.bind(var11)(var7);
-case 56:
-                var1['releaseDate'] = var5;
-                var5 = var2.preorder_release_at;
                 var7 = var4 != var5;
                 var5 = null;
                 if(!var7) { _fun0013_ip = 58; continue _fun0013 }
@@ -709,9 +704,24 @@ case 59:
                 var7 = var11[var7];
                 var11 = undefined;
                 var10 = var10.bind(var11)(var7);
-                var7 = var2.preorder_release_at;
+                var7 = var2.release_date;
                 var5 = var10.bind(var11)(var7);
 case 58:
+                var1['releaseDate'] = var5;
+                var5 = var2.preorder_release_at;
+                var7 = var4 != var5;
+                var5 = null;
+                if(!var7) { _fun0013_ip = 60; continue _fun0013 }
+case 61:
+                var10 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var7 = 10;
+                var7 = var11[var7];
+                var11 = undefined;
+                var10 = var10.bind(var11)(var7);
+                var7 = var2.preorder_release_at;
+                var5 = var10.bind(var11)(var7);
+case 60:
                 var1['preorderReleaseAt'] = var5;
                 var5 = var2.preorder_approximate_release_date;
                 var1['preorderApproximateReleaseDate'] = var5;
@@ -752,8 +762,8 @@ case 58:
                 var1['legalNotice'] = var5;
                 var7 = var4 != var9;
                 var5 = null;
-                if(!var7) { _fun0013_ip = 60; continue _fun0013 }
-case 61:
+                if(!var7) { _fun0013_ip = 62; continue _fun0013 }
+case 63:
                 var7 = {};
                 var10 = var9.amount;
                 var7['amount'] = var10;
@@ -766,7 +776,7 @@ case 61:
                 var9 = var9.premium;
                 var7['premium'] = var9;
                 var5 = var7;
-case 60:
+case 62:
                 var1['price'] = var5;
                 var10 = _closure1_slot1;
                 var9 = _closure1_slot2;
@@ -779,41 +789,41 @@ case 60:
                 var1['prices'] = var9;
                 var10 = var2.premium;
                 var9 = var4 != var10;
-                if(!var9) { _fun0013_ip = 62; continue _fun0013 }
-case 63:
+                if(!var9) { _fun0013_ip = 64; continue _fun0013 }
+case 65:
                 var9 = var10;
-case 62:
+case 64:
                 var1['premium'] = var9;
                 var9 = var2.show_age_gate;
-                if(var9) { _fun0013_ip = 64; continue _fun0013 }
-case 65:
-                var9 = false;
-case 64:
-                var1['showAgeGate'] = var9;
-                var9 = var2.restricted;
                 if(var9) { _fun0013_ip = 66; continue _fun0013 }
 case 67:
                 var9 = false;
 case 66:
+                var1['showAgeGate'] = var9;
+                var9 = var2.restricted;
+                if(var9) { _fun0013_ip = 68; continue _fun0013 }
+case 69:
+                var9 = false;
+case 68:
                 var1['restricted'] = var9;
                 var9 = var2.slug;
                 var10 = var4 != var9;
-                if(!var10) { _fun0013_ip = 68; continue _fun0013 }
-case 69:
+                if(!var10) { _fun0013_ip = 70; continue _fun0013 }
+case 71:
                 var8 = var9;
-case 68:
+case 70:
                 var1['slug'] = var8;
                 var8 = var2.exclusive;
-                if(var8) { _fun0013_ip = 70; continue _fun0013 }
-case 71:
+                if(var8) { _fun0013_ip = 72; continue _fun0013 }
+case 73:
                 var8 = false;
-case 70:
+case 72:
                 var1['exclusive'] = var8;
                 var8 = var2.locales;
-                if(!(var4 == var8)) { _fun0013_ip = 72; continue _fun0013 }
-case 73:
+                if(!(var4 == var8)) { _fun0013_ip = 74; continue _fun0013 }
+case 75:
                 var8 = ['en-US'];
-case 72:
+case 74:
                 var1['locales'] = var8;
                 var8 = var2.flags;
                 var1['flags'] = var8;
@@ -821,22 +831,22 @@ case 72:
                 var1['externalPurchaseUrl'] = var8;
                 var9 = var2.deleted;
                 var8 = var4 != var9;
-                if(!var8) { _fun0013_ip = 74; continue _fun0013 }
-case 75:
+                if(!var8) { _fun0013_ip = 76; continue _fun0013 }
+case 77:
                 var8 = var9;
-case 74:
+case 76:
                 var1['deleted'] = var8;
                 var8 = var2.bundled_sku_ids;
-                if(!(var4 == var8)) { _fun0013_ip = 76; continue _fun0013 }
-case 77:
+                if(!(var4 == var8)) { _fun0013_ip = 78; continue _fun0013 }
+case 79:
                 var8 = new Array(0);
-case 76:
+case 78:
                 var1['bundledSkuIds'] = var8;
                 var11 = var2.bundled_skus;
                 var9 = var4 == var11;
                 var8 = undefined;
-                if(var9) { _fun0013_ip = 78; continue _fun0013 }
-case 79:
+                if(var9) { _fun0013_ip = 80; continue _fun0013 }
+case 81:
                 var10 = var11.map;
                 var9 = function(arg1) {
                     var3 = _closure2_slot0;
@@ -846,11 +856,11 @@ case 79:
                     return var1;
                 };
                 var8 = var10.bind(var11)(var9);
-case 78:
-                if(!(var4 == var8)) { _fun0013_ip = 80; continue _fun0013 }
-case 81:
-                var8 = new Array(0);
 case 80:
+                if(!(var4 == var8)) { _fun0013_ip = 82; continue _fun0013 }
+case 83:
+                var8 = new Array(0);
+case 82:
                 var1['bundledSkus'] = var8;
                 var8 = _closure1_slot1;
                 var9 = _closure1_slot2;
@@ -863,8 +873,8 @@ case 80:
                 var8 = var2.selected_options;
                 var7 = var4 == var8;
                 var5 = undefined;
-                if(var7) { _fun0013_ip = 82; continue _fun0013 }
-case 83:
+                if(var7) { _fun0013_ip = 84; continue _fun0013 }
+case 85:
                 var7 = var8.map;
                 var6 = function(arg1) {
                     var1 = arg1;
@@ -876,11 +886,11 @@ case 83:
                     return var1;
                 };
                 var5 = var7.bind(var8)(var6);
-case 82:
-                if(!(var4 == var5)) { _fun0013_ip = 84; continue _fun0013 }
-case 85:
-                var5 = new Array(0);
 case 84:
+                if(!(var4 == var5)) { _fun0013_ip = 86; continue _fun0013 }
+case 87:
+                var5 = new Array(0);
+case 86:
                 var1['selectedOptions'] = var5;
                 var5 = var2.product_id;
                 var1['productId'] = var5;
@@ -891,10 +901,10 @@ case 84:
                 var5 = var2.orbs_reward;
                 var1['orbsReward'] = var5;
                 var2 = var2.eligible_offers;
-                if(!(var4 == var2)) { _fun0013_ip = 86; continue _fun0013 }
-case 87:
+                if(!(var4 == var2)) { _fun0013_ip = 88; continue _fun0013 }
+case 89:
                 var2 = new Array(0);
-case 86:
+case 88:
                 var1['eligibleOffers'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

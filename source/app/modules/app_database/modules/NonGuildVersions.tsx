@@ -184,12 +184,12 @@ case 2:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+                    if(var3) { _fun0004_ip = 2; continue _fun0004 }
+case 10:
                     var5 = undefined;
                     var2 = undefined;
                     var6 = undefined;
-case 12: // try_start_0
+case 11: // try_start_0
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var3 = 7;
@@ -199,18 +199,18 @@ case 12: // try_start_0
                     var3 = var3.bind(var4)();
                     var2 = var3;
                     var7 = null;
-                    if(!(var7 != var3)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                    if(!(var7 != var3)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var3 = var2;
                     var2 = var3.getMany;
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=75);
-case 15:
+case 14:
                     return var2;
-case 16:
+case 15:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+                    if(var3) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                     var4 = var2.map;
                     var3 = function(arg1) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -221,11 +221,11 @@ case 0:
                             var1[0] = var2;
                             var2 = 'version';
                             var2 = var2 in var3;
-                            if(var2) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                            if(var2) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                             var2 = var3.versionString;
                             _fun0005_ip = 5; continue _fun0005;
-case 19:
+case 18:
                             var2 = var3.version;
 case 5:
                             var1[1] = var2;
@@ -237,22 +237,22 @@ case 5:
                     var4 = global;
                     var5 = var4.Object;
                     var4 = var5.fromEntries;
-                    if(!(var7 == var3)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                    var3 = new Array(0);
-                    _fun0004_ip = 23; continue _fun0004;
+                    if(!(var7 == var3)) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
+                    var3 = new Array(0);
+                    _fun0004_ip = 22; continue _fun0004;
+case 20:
                     var3 = var6;
-case 23:
+case 22:
                     var3 = var4.bind(var5)(var3);
-case 24: // try_end0
+case 23: // try_end0
                     return var3;
-case 17:
+case 16:
                     return var2;
-case 13:
+case 12:
                     var2 = {};
                     return var2;
-case 25: // catch_target0
+case 24: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot7;
                     var3 = var4.warn;
@@ -260,7 +260,7 @@ case 25: // catch_target0
                     var2 = var3.bind(var4)(var2, var5);
                     var2 = {};
                     return var2;
-case 10:
+case 2:
                     return var1;
                 }
             };
@@ -290,8 +290,8 @@ case 0:
                 var4 = arg1;
                 var2 = var4.apiCodeVersion;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+                if(!(var1 != var2)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 7;
@@ -308,7 +308,7 @@ case 27:
                 var4 = var4.apiCodeVersion;
                 var1['version'] = var4;
                 var1 = var2.bind(var3)(var1);
-case 26:
+case 25:
                 var1 = undefined;
                 return var1;
             }

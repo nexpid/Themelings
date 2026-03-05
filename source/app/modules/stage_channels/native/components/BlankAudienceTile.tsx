@@ -4,7 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -21,8 +23,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.useWindowDimensions;
-    var _closure1_slot2 = var8;
     var4 = var4.View;
     var _closure1_slot3 = var4;
     var4 = 2;
@@ -32,13 +32,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = var7.memo;
     var2 = function() {
-        var2 = _closure1_slot2;
+        var3 = _closure1_slot1;
+        var7 = _closure1_slot2;
+        var2 = 3;
+        var2 = var7[var2];
         var4 = undefined;
+        var2 = var3.bind(var4)(var2);
         var2 = var2.bind(var4)();
         var6 = var2.width;
         var3 = _closure1_slot0;
-        var7 = _closure1_slot1;
-        var2 = 3;
+        var2 = 4;
         var5 = var7[var2];
         var8 = var3.bind(var4)(var5);
         var5 = var8.useAudienceTileStyles;
@@ -61,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

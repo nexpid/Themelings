@@ -194,6 +194,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['marginTop'] = var6;
         var1['promotionalLogoSingleLine'] = var2;
         var2 = {};
+        var6 = 18;
+        var2['marginTop'] = var6;
+        var1['promotionalLogoSmallCompact'] = var2;
+        var2 = {};
         var6 = 140;
         var2['maxWidth'] = var6;
         var6 = var8[var3];
@@ -566,7 +570,7 @@ case 31:
             var11 = var11.bind(var4)(var9);
             var9 = {};
             var22 = var15.logo;
-            var21 = new Array(2);
+            var21 = new Array(3);
             var21[0] = var22;
             var22 = var14;
             if(!var14) { _fun0001_ip = 36; continue _fun0001 }
@@ -582,6 +586,17 @@ case 40:
             var22 = var23;
 case 36:
             var21[1] = var22;
+            var22 = var14;
+            if(!var14) { _fun0001_ip = 41; continue _fun0001 }
+case 42:
+            var23 = 'smallCompact';
+            var22 = var23 === var20;
+case 41:
+            if(!var22) { _fun0001_ip = 43; continue _fun0001 }
+case 44:
+            var22 = var15.promotionalLogoSmallCompact;
+case 43:
+            var21[2] = var22;
             var9['style'] = var21;
             var9['premiumType'] = var19;
             var9 = var12.bind(var4)(var11, var9);
@@ -671,10 +686,10 @@ case 36:
             var17 = _closure1_slot16;
             var17 = var17[var20];
             var13[1] = var17;
-            if(!var14) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+            if(!var14) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
             var14 = var15.promotionalButton;
-case 41:
+case 45:
             var13[2] = var14;
             var9['style'] = var13;
             var15 = _closure1_slot10;
@@ -689,8 +704,8 @@ case 41:
             var13['variant'] = var17;
             var17 = _closure1_slot7;
             var17 = var17.TIER_0;
-            if(!(var19 !== var17)) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
+            if(!(var19 !== var17)) { _fun0001_ip = 47; continue _fun0001 }
+case 48:
             var21 = _closure1_slot0;
             var17 = _closure1_slot2;
             var19 = var17[var22];
@@ -702,8 +717,8 @@ case 44:
             var17 = var17.t;
             var17 = var17.Ve9Ge6;
             var17 = var19.bind(var20)(var17);
-            _fun0001_ip = 45; continue _fun0001;
-case 43:
+            _fun0001_ip = 49; continue _fun0001;
+case 47:
             var21 = _closure1_slot0;
             var18 = _closure1_slot2;
             var19 = var18[var22];
@@ -715,7 +730,7 @@ case 43:
             var18 = var18.t;
             var18 = var18.rk4Uu8;
             var17 = var19.bind(var20)(var18);
-case 45:
+case 49:
             var13['text'] = var17;
             var13['onPress'] = var16;
             var13 = var15.bind(var4)(var14, var13);

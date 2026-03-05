@@ -5,7 +5,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
     var2 = function useTooltipHelper(arg1, arg2, arg3) {
         var6 = arg1;
         var10 = arg2;
@@ -13,30 +14,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var6;
         var _closure2_slot1 = var10;
         var _closure2_slot2 = var1;
-        var4 = _closure1_slot5;
+        var5 = _closure1_slot1;
+        var12 = _closure1_slot2;
+        var4 = 8;
+        var4 = var12[var4];
         var11 = undefined;
+        var4 = var5.bind(var11)(var4);
         var7 = var4.bind(var11)();
         var _closure2_slot3 = var7;
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot5;
         var4 = var5.useRef;
         var4 = var4.bind(var5)(var7);
         var _closure2_slot4 = var4;
-        var8 = _closure1_slot4;
+        var8 = _closure1_slot5;
         var5 = var8.useContext;
         var9 = _closure1_slot0;
-        var12 = _closure1_slot1;
-        var4 = 7;
+        var4 = 6;
         var4 = var12[var4];
         var4 = var9.bind(var11)(var4);
         var4 = var4.LayerContext;
         var8 = var5.bind(var8)(var4);
         var _closure2_slot5 = var8;
-        var9 = _closure1_slot4;
+        var9 = _closure1_slot5;
         var5 = var9.useRef;
         var4 = null;
         var4 = var5.bind(var9)(var4);
         var _closure2_slot6 = var4;
-        var11 = _closure1_slot4;
+        var11 = _closure1_slot5;
         var9 = var11.useEffect;
         var5 = new Array(2);
         var5[0] = var8;
@@ -66,7 +70,7 @@ case 2:
             return var1;
         };
         var4 = var9.bind(var11)(var4, var5);
-        var9 = _closure1_slot4;
+        var9 = _closure1_slot5;
         var5 = var9.useCallback;
         var11 = var8.surfaceRef;
         var4 = new Array(4);
@@ -78,7 +82,7 @@ case 2:
             var2 = arg1;
             var _closure3_slot0 = var2;
             var1 = function() {
-                var4 = _closure1_slot3;
+                var4 = _closure1_slot4;
                 var3 = undefined;
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
@@ -94,7 +98,7 @@ case 5:
                             var5 = undefined;
 case 6: // try_start_0
                             var9 = _closure1_slot0;
-                            var10 = _closure1_slot1;
+                            var10 = _closure1_slot2;
                             var3 = 9;
                             var6 = var10[var3];
                             var14 = var9.bind(var2)(var6);
@@ -122,7 +126,7 @@ case 8:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
                             if(var9) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                            var9 = _closure1_slot2;
+                            var9 = _closure1_slot3;
                             var7 = 2;
                             var9 = var9.bind(var2)(var3, var7);
                             var7 = 0;
@@ -178,8 +182,8 @@ case 4:
             var2 = var1.bind(var3)();
             var1 = _closure2_slot6;
             var5 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var4 = 6;
+            var6 = _closure1_slot2;
+            var4 = 5;
             var4 = var6[var4];
             var5 = var5.bind(var3)(var4);
             var4 = var5.v4;
@@ -191,7 +195,7 @@ case 4:
         };
         var1 = var5.bind(var9)(var1, var4);
         var _closure2_slot7 = var1;
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot5;
         var4 = var5.useEffect;
         var3 = new Array(4);
         var3[0] = var8;
@@ -244,27 +248,22 @@ case 17:
     var5 = var7[var1];
     var1 = undefined;
     var5 = var8.bind(var1)(var5);
-    var _closure1_slot2 = var5;
+    var _closure1_slot3 = var5;
     var5 = 1;
     var5 = var7[var5];
     var5 = var8.bind(var1)(var5);
-    var _closure1_slot3 = var5;
+    var _closure1_slot4 = var5;
     var5 = 2;
     var9 = var7[var5];
     var5 = metroImportAll;
     var5 = var5.bind(var1)(var9);
-    var _closure1_slot4 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.useWindowDimensions;
     var _closure1_slot5 = var5;
-    var5 = 4;
+    var5 = 3;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.jsx;
     var _closure1_slot6 = var5;
-    var5 = 5;
+    var5 = 4;
     var5 = var7[var5];
     var9 = var8.bind(var1)(var5);
     var5 = var9.prototype;
@@ -281,11 +280,11 @@ case 17:
     var5 = 'design/components/Tooltip/native/useTooltip.native.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function(arg1, arg2) {
-        var4 = _closure1_slot4;
+        var4 = _closure1_slot5;
         var3 = var4.useRef;
         var6 = _closure1_slot0;
-        var5 = _closure1_slot1;
-        var2 = 6;
+        var5 = _closure1_slot2;
+        var2 = 5;
         var2 = var5[var2];
         var5 = undefined;
         var6 = var6.bind(var5)(var2);
@@ -297,11 +296,11 @@ case 17:
 case 0:
                 var5 = arg1;
                 var _closure3_slot0 = var5;
-                var6 = _closure1_slot4;
+                var6 = _closure1_slot5;
                 var4 = var6.useContext;
                 var8 = _closure1_slot0;
-                var7 = _closure1_slot1;
-                var3 = 7;
+                var7 = _closure1_slot2;
+                var3 = 6;
                 var7 = var7[var3];
                 var3 = undefined;
                 var3 = var8.bind(var3)(var7);
@@ -316,7 +315,7 @@ case 22:
                 var3 = 'Tooltip called with no layer context. It will not show without a LayerScope.';
                 var3 = var4.bind(var7)(var3);
 case 21:
-                var4 = _closure1_slot4;
+                var4 = _closure1_slot5;
                 var3 = var4.useCallback;
                 var2 = new Array(2);
                 var2[0] = var6;
@@ -324,8 +323,8 @@ case 21:
                 var1 = function(arg1, arg2, arg3) {
                     var5 = _closure1_slot6;
                     var3 = _closure1_slot0;
-                    var2 = _closure1_slot1;
-                    var1 = 8;
+                    var2 = _closure1_slot2;
+                    var1 = 7;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);

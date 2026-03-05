@@ -78,13 +78,13 @@ case 0:
             var7 = undefined;
             var1 = undefined;
             if(!var9) { _fun0002_ip = 9; continue _fun0002 }
-case 6:
+case 10:
             var10 = _closure1_slot7;
             var9 = var10.get;
             var1 = var9.bind(var10)(var6);
 case 9:
-            if(!(var8 == var1)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(!(var8 == var1)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
             var8 = 4;
@@ -98,7 +98,7 @@ case 11:
             var8 = var8.unsafe_rawColors;
             var8 = var8.PRIMARY_800;
             var1 = var9.bind(var10)(var8);
-case 10:
+case 11:
             var5 = var4.bind(var5)(var1);
             var4 = _closure1_slot3;
             var1 = 2;
@@ -120,19 +120,19 @@ case 0:
                     var6 = var4 != var1;
                     var1 = undefined;
                     var3 = undefined;
-                    if(!var6) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                    if(!var6) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var8 = _closure1_slot7;
                     var7 = var8.get;
                     var6 = _closure2_slot0;
                     var3 = var7.bind(var8)(var6);
-case 12:
+case 13:
                     var _closure3_slot0 = var3;
                     var6 = _closure2_slot0;
-                    if(!(var4 != var6)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                    if(!(var4 != var3)) { _fun0003_ip = 4; continue _fun0003 }
+                    if(!(var4 != var6)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
+                    if(!(var4 != var3)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                     var6 = _closure2_slot2;
                     var3 = function(arg1) {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -140,8 +140,8 @@ case 0:
                             var4 = arg1;
                             var3 = _closure3_slot0;
                             var1 = var4;
-                            if(!(var3 !== var4)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                            if(!(var3 !== var4)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var3 = 6;
@@ -151,25 +151,25 @@ case 17:
                             var3 = _closure3_slot0;
                             var3 = var5.bind(var6)(var3, var4);
                             var1 = var4;
-                            if(var3) { _fun0004_ip = 16; continue _fun0004 }
-case 15:
-                            var1 = _closure3_slot0;
+                            if(var3) { _fun0004_ip = 18; continue _fun0004 }
 case 16:
+                            var1 = _closure3_slot0;
+case 18:
                             return var1;
                         }
                     };
                     var3 = var6.bind(var1)(var3);
-                    _fun0003_ip = 14; continue _fun0003;
-case 4:
+                    _fun0003_ip = 15; continue _fun0003;
+case 17:
                     var6 = _closure1_slot9;
                     var5 = _closure2_slot0;
                     var8 = var6.bind(var1)(var5);
-                    if(!(var4 != var8)) { _fun0003_ip = 14; continue _fun0003 }
-case 18:
+                    if(!(var4 != var8)) { _fun0003_ip = 15; continue _fun0003 }
+case 20:
                     var5 = 'number';
                     var4 = typeof var8;
-                    if(!(var5 !== var4)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                    if(!(var5 !== var4)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                     var4 = _closure1_slot5;
                     var6 = var4.ImageManager;
                     var5 = var6.getDominantColors;
@@ -177,8 +177,8 @@ case 20:
                     var4 = var7.resolveAssetSource;
                     var4 = var4.bind(var7)(var8);
                     var5 = var5.bind(var6)(var4);
-                    _fun0003_ip = 21; continue _fun0003;
-case 19:
+                    _fun0003_ip = 23; continue _fun0003;
+case 21:
                     var4 = _closure1_slot5;
                     var6 = var4.ImageManager;
                     var4 = var6.getDominantColorsLocalAsset;
@@ -186,7 +186,7 @@ case 19:
                     var3 = var7.resolveAssetSource;
                     var3 = var3.bind(var7)(var8);
                     var5 = var4.bind(var6)(var3);
-case 21:
+case 23:
                     var4 = var5.then;
                     var3 = function(arg1) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -213,11 +213,11 @@ case 0:
                             var4 = var5.bind(var6)(var4, var3);
                             var4 = _closure2_slot1;
                             var4 = var4.current;
-                            if(!var4) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
+                            if(!var4) { _fun0005_ip = 20; continue _fun0005 }
+case 9:
                             var2 = _closure2_slot2;
                             var2 = var2.bind(var1)(var3);
-case 22:
+case 20:
                             return var1;
                         }
                     };
@@ -228,7 +228,7 @@ case 22:
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
-case 14:
+case 15:
                     return var1;
                 }
             };

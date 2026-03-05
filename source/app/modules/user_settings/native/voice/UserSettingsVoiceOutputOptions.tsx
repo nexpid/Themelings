@@ -1,4 +1,4 @@
-// app/modules/user_settings/native/voice/redesign/NewUserSettingsVoiceOutputOptions.tsx
+// app/modules/user_settings/native/voice/UserSettingsVoiceOutputOptions.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -64,9 +64,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/user_settings/native/voice/redesign/NewUserSettingsVoiceOutputOptions.tsx';
+    var4 = 'modules/user_settings/native/voice/UserSettingsVoiceOutputOptions.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function NewUserSettingsVoiceOutputOptions() {
+    var2 = function UserSettingsVoiceOutputOptions() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = _closure1_slot11;
@@ -179,7 +179,7 @@ case 2:
             var1 = 11;
             var1 = var18[var1];
             var1 = var19.bind(var4)(var1);
-            var2 = var1.NewUserSettingsTableRowGroup;
+            var2 = var1.UserSettingsTableRowGroup;
             var1 = {};
             var10 = 12;
             var5 = var18[var10];

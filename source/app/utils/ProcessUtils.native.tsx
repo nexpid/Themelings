@@ -111,10 +111,10 @@ case 15:
 case 14:
                     var5 = var4;
                     var4 = var3;
-                    if(var4) { _fun0003_ip = 3; continue _fun0003 }
+                    if(var4) { _fun0003_ip = 5; continue _fun0003 }
 case 16:
                     var2.return();
-case 3:
+case 5:
                     var6 = var5;
                     var7 = 'number';
                     var6 = typeof var6;
@@ -293,7 +293,7 @@ case 33:
                 var3 = var7 == var4;
 case 32:
                 if(var3) { _fun0005_ip = 34; continue _fun0005 }
-case 27:
+case 35:
                 var4 = var6.getCpuCoreCount;
                 var3 = function(arg1) {
                     var2 = _closure3_slot0;
@@ -313,13 +313,13 @@ case 0:
                         var5 = null;
                         var3 = var5 == var3;
                         if(var3) { _fun0006_ip = 13; continue _fun0006 }
-case 35:
+case 36:
                         var4 = _closure3_slot1;
                         var4 = var4.getCurrentCpuUsagePercent;
                         var3 = var5 == var4;
 case 13:
-                        if(var3) { _fun0006_ip = 15; continue _fun0006 }
-case 36:
+                        if(var3) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
                         var6 = _closure3_slot1;
                         var4 = var6.getCurrentCpuUsagePercent;
                         var3 = function(arg1) {
@@ -331,26 +331,26 @@ case 0:
                                 var5 = var4 >= var1;
                                 var1 = undefined;
                                 var2 = undefined;
-                                if(!var5) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+                                if(!var5) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
                                 var2 = var4;
-case 37:
+case 39:
                                 var3['cpuPercentage'] = var2;
                                 return var1;
                             }
                         };
                         var3 = var4.bind(var6)(var3);
-case 15:
+case 37:
                         var3 = _closure3_slot1;
                         var3 = var5 == var3;
-                        if(var3) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
+                        if(var3) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
                         var4 = _closure3_slot1;
                         var4 = var4.getCumulativeCpuUsage;
                         var3 = var5 == var4;
-case 39:
-                        if(var3) { _fun0006_ip = 41; continue _fun0006 }
-case 12:
+case 41:
+                        if(var3) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                         var6 = _closure3_slot1;
                         var4 = var6.getCumulativeCpuUsage;
                         var3 = function(arg1) {
@@ -359,7 +359,7 @@ case 0:
                                 var3 = arg1;
                                 var1 = 0;
                                 if(!(var3 >= var1)) { _fun0008_ip = 24; continue _fun0008 }
-case 42:
+case 45:
                                 var2 = _closure3_slot0;
                                 var1 = {};
                                 var1['usage'] = var3;
@@ -375,17 +375,17 @@ case 24:
                             }
                         };
                         var3 = var4.bind(var6)(var3);
-case 41:
+case 43:
                         var3 = _closure3_slot1;
                         var3 = var5 == var3;
-                        if(var3) { _fun0006_ip = 43; continue _fun0006 }
-case 21:
+                        if(var3) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
                         var4 = _closure3_slot1;
                         var4 = var4.getCurrentMemoryUsageKb;
                         var3 = var5 == var4;
-case 43:
-                        if(var3) { _fun0006_ip = 44; continue _fun0006 }
-case 31:
+case 46:
+                        if(var3) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                         var4 = _closure3_slot1;
                         var3 = var4.getCurrentMemoryUsageKb;
                         var2 = function(arg1) {
@@ -397,25 +397,25 @@ case 0:
                                 var5 = var4 >= var1;
                                 var1 = undefined;
                                 var2 = undefined;
-                                if(!var5) { _fun0009_ip = 37; continue _fun0009 }
-case 38:
+                                if(!var5) { _fun0009_ip = 39; continue _fun0009 }
+case 40:
                                 var2 = var4;
-case 37:
+case 39:
                                 var3['memory'] = var2;
                                 return var1;
                             }
                         };
                         var2 = var3.bind(var4)(var2);
-case 44:
+case 48:
                         var3 = _closure3_slot0;
                         var4 = var3.shouldCollectHermesInstrumentedStats;
                         var1 = undefined;
                         var2 = undefined;
-                        if(!var4) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+                        if(!var4) { _fun0006_ip = 50; continue _fun0006 }
+case 51:
                         var4 = _closure1_slot7;
                         var2 = var4.bind(var1)();
-case 45:
+case 50:
                         var3['hermesInstrumentedStatsSummary'] = var2;
                         return var1;
                     }
@@ -482,11 +482,11 @@ case 0:
                 var3['shouldCollectHermesInstrumentedStats'] = var4;
                 var1 = undefined;
                 var2 = undefined;
-                if(!var4) { _fun0010_ip = 47; continue _fun0010 }
-case 48:
+                if(!var4) { _fun0010_ip = 52; continue _fun0010 }
+case 53:
                 var4 = _closure1_slot7;
                 var2 = var4.bind(var1)();
-case 47:
+case 52:
                 var3['hermesInstrumentedStatsSummary'] = var2;
                 return var1;
             }
@@ -501,11 +501,11 @@ case 47:
 case 0:
                 var1 = this;
                 var2 = var1.shouldCollectHermesInstrumentedStats;
-                if(var2) { _fun0011_ip = 49; continue _fun0011 }
-case 50:
+                if(var2) { _fun0011_ip = 54; continue _fun0011 }
+case 55:
                 var2 = undefined;
                 return var2;
-case 49:
+case 54:
                 var1 = var1.hermesInstrumentedStatsSummary;
                 return var1;
             }

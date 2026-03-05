@@ -775,7 +775,7 @@ case 63:
         }
     };
     var _closure1_slot38 = var7;
-    var1 = function hasValidator(arg1) {
+    var1 = function isValidHasAutocomplete(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var5 = arg1;
@@ -905,7 +905,7 @@ case 66:
         }
     };
     var _closure1_slot39 = var1;
-    var1 = function authorTypeValidator(arg1) {
+    var1 = function isValidAuthorTypeAutocomplete(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var5 = arg1;
@@ -1584,13 +1584,6 @@ case 106:
         }
     };
     var _closure1_slot44 = var6;
-    var1 = function streamerModeValidator() {
-        var1 = _closure1_slot10;
-        var1 = var1.hidePersonalInformation;
-        var1 = !var1;
-        return var1;
-    };
-    var _closure1_slot45 = var1;
     var1 = function getChannelAutocompletions(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
@@ -1923,7 +1916,7 @@ case 121:
             return var1;
         }
     };
-    var _closure1_slot46 = var1;
+    var _closure1_slot45 = var1;
     var1 = function makeSearchTokenConfigs(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -2096,8 +2089,18 @@ case 121:
         var5 = var5.1TUdFo;
         var5 = var8.bind(var9)(var5);
         var2['plainText'] = var5;
-        var9 = _closure1_slot45;
-        var2['validator'] = var9;
+        var5 = function validator() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 20;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var1 = var2.isFromUserFilterSupported;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var2['validator'] = var5;
         var8 = _closure1_slot44;
         var2['getAutocompletions'] = var8;
         var1[var3] = var2;
@@ -2105,9 +2108,9 @@ case 121:
         var3 = var2.ANSWER_USERNAME_FROM;
         var2 = {};
         var5 = _closure1_slot17;
-        var11 = var5.FILTER_FROM;
+        var9 = var5.FILTER_FROM;
         var5 = new Array(1);
-        var5[0] = var11;
+        var5[0] = var9;
         var2['follows'] = var5;
         var5 = _closure1_slot24;
         var2['regex'] = var5;
@@ -2115,50 +2118,61 @@ case 121:
         var2['validator'] = var5;
         var11 = true;
         var2['mutable'] = var11;
-        var12 = _closure1_slot25;
-        var12 = var12.ANSWER;
-        var2['componentType'] = var12;
-        var12 = 'author_id';
-        var2['queryKey'] = var12;
+        var9 = _closure1_slot25;
+        var9 = var9.ANSWER;
+        var2['componentType'] = var9;
+        var9 = 'author_id';
+        var2['queryKey'] = var9;
         var1[var3] = var2;
         var2 = _closure1_slot17;
         var3 = var2.FILTER_MENTIONS;
         var2 = {};
-        var12 = var17[var7];
-        var12 = var16.bind(var15)(var12);
-        var20 = var12.intl;
-        var19 = var20.string;
-        var12 = var17[var7];
-        var12 = var16.bind(var15)(var12);
-        var12 = var12.t;
-        var12 = var12.i96lO+;
-        var12 = var19.bind(var20)(var12);
-        var12 = var18.bind(var15)(var12);
-        var2['regex'] = var12;
-        var12 = _closure1_slot25;
-        var12 = var12.FILTER;
-        var2['componentType'] = var12;
-        var12 = var17[var7];
-        var12 = var16.bind(var15)(var12);
-        var20 = var12.intl;
-        var19 = var20.string;
-        var12 = var17[var7];
-        var12 = var16.bind(var15)(var12);
-        var12 = var12.t;
-        var12 = var12.i96lO+;
-        var12 = var19.bind(var20)(var12);
-        var12 = var14.bind(var15)(var12);
-        var2['key'] = var12;
-        var12 = var17[var7];
-        var12 = var16.bind(var15)(var12);
-        var20 = var12.intl;
-        var19 = var20.string;
-        var12 = var17[var7];
-        var12 = var16.bind(var15)(var12);
-        var12 = var12.t;
-        var12 = var12.i96lO+;
-        var12 = var19.bind(var20)(var12);
-        var2['plainText'] = var12;
+        var9 = var17[var7];
+        var9 = var16.bind(var15)(var9);
+        var19 = var9.intl;
+        var12 = var19.string;
+        var9 = var17[var7];
+        var9 = var16.bind(var15)(var9);
+        var9 = var9.t;
+        var9 = var9.i96lO+;
+        var9 = var12.bind(var19)(var9);
+        var9 = var18.bind(var15)(var9);
+        var2['regex'] = var9;
+        var9 = _closure1_slot25;
+        var9 = var9.FILTER;
+        var2['componentType'] = var9;
+        var9 = var17[var7];
+        var9 = var16.bind(var15)(var9);
+        var19 = var9.intl;
+        var12 = var19.string;
+        var9 = var17[var7];
+        var9 = var16.bind(var15)(var9);
+        var9 = var9.t;
+        var9 = var9.i96lO+;
+        var9 = var12.bind(var19)(var9);
+        var9 = var14.bind(var15)(var9);
+        var2['key'] = var9;
+        var9 = var17[var7];
+        var9 = var16.bind(var15)(var9);
+        var19 = var9.intl;
+        var12 = var19.string;
+        var9 = var17[var7];
+        var9 = var16.bind(var15)(var9);
+        var9 = var9.t;
+        var9 = var9.i96lO+;
+        var9 = var12.bind(var19)(var9);
+        var2['plainText'] = var9;
+        var9 = function validator() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 20;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var1 = var2.isMentionsUserFilterSupported;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
         var2['validator'] = var9;
         var2['getAutocompletions'] = var8;
         var1[var3] = var2;
@@ -2239,7 +2253,7 @@ case 121:
         var8 = function(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 20;
+            var1 = 21;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -2744,18 +2758,18 @@ case 117:
 case 58:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 16;
+                var2 = 20;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
-                var2 = var3.isChannelFilterSupported;
+                var2 = var3.isInChannelFilterSupported;
                 var1 = var2.bind(var3)(var4);
 case 85:
                 return var1;
             }
         };
         var2['validator'] = var19;
-        var19 = _closure1_slot46;
+        var19 = _closure1_slot45;
         var2['getAutocompletions'] = var19;
         var1[var3] = var2;
         var2 = _closure1_slot17;
@@ -2959,7 +2973,7 @@ case 102:
         var6 = function(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 20;
+            var1 = 21;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -2996,7 +3010,7 @@ case 102:
         var1[var3] = var2;
         return var1;
     };
-    var _closure1_slot47 = var1;
+    var _closure1_slot46 = var1;
     var4 = function isSearchFilterTokenType(arg1) {
         var3 = _closure1_slot20;
         var2 = var3.test;
@@ -3004,7 +3018,7 @@ case 102:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot48 = var4;
+    var _closure1_slot47 = var4;
     var5 = global;
     var14 = var5.Object;
     var13 = var14.defineProperty;
@@ -3106,7 +3120,7 @@ case 102:
     var _closure1_slot25 = var5;
     var9 = {};
     var _closure1_slot26 = var9;
-    var10 = 21;
+    var10 = 22;
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);
     var11 = var12.fileFinishedImporting;
@@ -3132,7 +3146,7 @@ case 102:
     var3['getUserAutocompletions'] = var6;
     var3['ComponentTypes'] = var5;
     var5 = function buildCrossDMSearchTokensConfig() {
-        var3 = _closure1_slot47;
+        var3 = _closure1_slot46;
         var2 = {};
         var1 = _closure1_slot19;
         var1 = var1.DMS;
@@ -3147,7 +3161,7 @@ case 102:
         var5 = var1.Object;
         var4 = var5.assign;
         var3 = _closure1_slot26;
-        var2 = _closure1_slot47;
+        var2 = _closure1_slot46;
         var1 = undefined;
         var2 = var2.bind(var1)();
         var2 = var4.bind(var5)(var3, var2);
@@ -3190,7 +3204,7 @@ case 133:
             var2 = _closure1_slot26;
             var2 = var2[var13];
             var12 = var2.key;
-            var2 = _closure1_slot48;
+            var2 = _closure1_slot47;
             var2 = var2.bind(var8)(var13);
             if(!var2) { _fun0027_ip = 24; continue _fun0027 }
 case 134:

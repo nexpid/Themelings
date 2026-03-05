@@ -390,8 +390,8 @@ case 32:
                     return var2;
 case 33:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+                    if(var5) { _fun0005_ip = 14; continue _fun0005 }
+case 34:
                     var7 = var2.body;
                     var6 = var7.map;
                     var5 = function(arg1) {
@@ -419,11 +419,11 @@ case 35:
                     var4['type'] = var8;
                     var4['soundboardSounds'] = var7;
                     var4 = var5.bind(var6)(var4);
-case 36: // try_end0
+case 35: // try_end0
                     return var3;
-case 34:
+case 14:
                     return var2;
-case 37: // catch_target0
+case 36: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -520,14 +520,14 @@ case 0:
             var3 = _closure1_slot4;
             var1 = var3.shouldFetchDefaultSounds;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+            if(var1) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
             var1 = global;
             var3 = var1.Promise;
             var1 = var3.resolve;
             var1 = var1.bind(var3)();
             return var1;
-case 38:
+case 37:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 7;
@@ -561,8 +561,8 @@ case 0:
             var5 = var1.bind(var3)();
             var3 = var5.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+            if(!(var1 !== var3)) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
             var3 = _closure1_slot12;
             var1 = 'SOUNDBOARD_SOUNDS_RECEIVED';
             var1 = var3.bind(var4)(var1);
@@ -585,7 +585,7 @@ case 41:
             var2['guildIds'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
-case 40:
+case 39:
             var1 = global;
             var2 = var1.Promise;
             var1 = var2.resolve;
@@ -604,7 +604,7 @@ case 0:
                     StartGenerator();
                     var5 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 42; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 41; continue _fun0008 }
 case 3:
                     var4 = global;
                     var3 = var4.performance;
@@ -615,25 +615,25 @@ case 3:
                     var6 = undefined;
                     var3 = undefined;
                     if(var7) { _fun0008_ip = 4; continue _fun0008 }
-case 43:
+case 42:
                     var3 = var5.disableAnalytics;
 case 4:
                     var2 = var2 != var3;
-                    if(!var2) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
-                    var2 = var3;
+                    if(!var2) { _fun0008_ip = 43; continue _fun0008 }
 case 44:
+                    var2 = var3;
+case 43:
                     var7 = _closure1_slot10;
                     var5 = !var7;
-                    if(var7) { _fun0008_ip = 46; continue _fun0008 }
+                    if(var7) { _fun0008_ip = 45; continue _fun0008 }
 case 32:
                     var5 = !var2;
-case 46:
-                    if(!var5) { _fun0008_ip = 47; continue _fun0008 }
-case 48:
+case 45:
+                    if(!var5) { _fun0008_ip = 46; continue _fun0008 }
+case 47:
                     var2 = true;
                     _closure1_slot10 = var2;
-case 47:
+case 46:
                     var9 = var4.Promise;
                     var7 = var9.all;
                     var2 = _closure1_slot13;
@@ -645,14 +645,14 @@ case 47:
                     var2[1] = var10;
                     var2 = var7.bind(var9)(var2);
                     SaveGenerator(address=135);
-case 49:
+case 48:
                     return var2;
-case 50:
+case 49:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(var7) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
-                    if(!var5) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
+                    if(var7) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
+                    if(!var5) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
                     var5 = var4.performance;
                     var4 = var5.now;
                     var7 = var4.bind(var5)();
@@ -668,11 +668,11 @@ case 54:
                     var7 = var7 - var8;
                     var3['elapsed_ms'] = var7;
                     var3 = var5.bind(var6)(var4, var3);
-case 53:
+case 52:
                     return var2;
-case 51:
+case 50:
                     return var2;
-case 42:
+case 41:
                     return var1;
                 }
             };
@@ -761,23 +761,23 @@ case 0:
                 var1 = var3.soundIds;
                 var2 = var2.bind(var4)(var1);
                 var1 = _closure1_slot8;
-                if(!(!(var2 >= var1))) { _fun0009_ip = 55; continue _fun0009 }
-case 56:
+                if(!(!(var2 >= var1))) { _fun0009_ip = 54; continue _fun0009 }
+case 55:
                 var5 = var3.soundIds;
                 var4 = var5.includes;
                 var1 = _closure2_slot0;
                 var1 = var4.bind(var5)(var1);
                 var1 = !var1;
-                if(!var1) { _fun0009_ip = 57; continue _fun0009 }
-case 58:
+                if(!var1) { _fun0009_ip = 56; continue _fun0009 }
+case 57:
                 var4 = var3.soundIds;
                 var3 = var4.push;
                 var2 = _closure2_slot0;
                 var2 = var3.bind(var4)(var2);
                 var1 = undefined;
-case 57:
-                _fun0009_ip = 59; continue _fun0009;
-case 55:
+case 56:
+                _fun0009_ip = 58; continue _fun0009;
+case 54:
                 var3 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var2 = 13;
@@ -812,7 +812,7 @@ case 55:
                 var2['body'] = var5;
                 var2 = var3.bind(var4)(var2);
                 var1 = false;
-case 59:
+case 58:
                 return var1;
             }
         };

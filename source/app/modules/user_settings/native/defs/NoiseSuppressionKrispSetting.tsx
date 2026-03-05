@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 4;
+        var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -47,65 +47,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['title'] = var10;
     var9 = var9.VOICE;
     var2['parent'] = var9;
-    var9 = function useNoiseSuppressionKrispSettingValue() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var4 = 2;
-            var1 = var7[var4];
-            var5 = undefined;
-            var11 = var6.bind(var5)(var1);
-            var10 = var11.useStateFromStores;
-            var8 = _closure1_slot2;
-            var9 = new Array(1);
-            var9[0] = var8;
-            var1 = function() {
-                var2 = _closure1_slot2;
-                var1 = var2.getNoiseSuppression;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var1 = var10.bind(var11)(var9, var1);
-            var4 = var7[var4];
-            var7 = var6.bind(var5)(var4);
-            var6 = var7.useStateFromStores;
-            var4 = new Array(1);
-            var4[0] = var8;
-            var3 = function() {
-                var2 = _closure1_slot2;
-                var1 = var2.getNoiseCancellation;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var6.bind(var7)(var4, var3);
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 3;
-            var2 = var6[var2];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.NoiseSuppressionOpt;
-            if(var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            if(var1) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var1 = var2.NONE;
-            _fun0001_ip = 6; continue _fun0001;
-case 4:
-            var1 = var2.STANDARD;
-case 6:
-            _fun0001_ip = 7; continue _fun0001;
-case 2:
-            var1 = var2.KRISP;
-case 7:
-            return var1;
-        }
+    var9 = function useValue() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.useSelectedNoiseSuppressionOption;
+        var1 = var1.bind(var2)();
+        return var1;
     };
     var2['useValue'] = var9;
     var9 = function onNoiseSuppressionKrispValueSettingChange(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -116,52 +73,59 @@ case 7:
     };
     var2['onValueChange'] = var9;
     var9 = function useNoiseSuppressionKrispSettingOptions() {
-        var2 = {};
         var7 = _closure1_slot0;
         var8 = _closure1_slot1;
-        var4 = 3;
-        var1 = var8[var4];
+        var5 = 2;
+        var1 = var8[var5];
         var6 = undefined;
+        var2 = var7.bind(var6)(var1);
+        var1 = var2.useNoiseCancellationDeferredToSystem;
+        var4 = var1.bind(var2)();
+        var2 = {};
+        var1 = var8[var5];
         var1 = var7.bind(var6)(var1);
         var1 = var1.NoiseSuppressionOpt;
         var1 = var1.KRISP;
         var2['value'] = var1;
-        var3 = 4;
+        var3 = 3;
         var1 = var8[var3];
         var1 = var7.bind(var6)(var1);
-        var9 = var1.intl;
-        var5 = var9.string;
+        var10 = var1.intl;
+        var9 = var10.string;
         var1 = var8[var3];
         var1 = var7.bind(var6)(var1);
         var1 = var1.t;
         var1 = var1.rdoNzt;
-        var1 = var5.bind(var9)(var1);
+        var1 = var9.bind(var10)(var1);
         var2['label'] = var1;
+        var2['disabled'] = var4;
         var1 = new Array(3);
         var1[0] = var2;
         var2 = {};
-        var5 = var8[var4];
-        var5 = var7.bind(var6)(var5);
-        var5 = var5.NoiseSuppressionOpt;
-        var5 = var5.STANDARD;
-        var2['value'] = var5;
-        var5 = var8[var3];
-        var5 = var7.bind(var6)(var5);
-        var10 = var5.intl;
-        var9 = var10.string;
-        var5 = var8[var3];
-        var5 = var7.bind(var6)(var5);
-        var5 = var5.t;
-        var5 = var5.qXeYHw;
-        var5 = var9.bind(var10)(var5);
-        var2['label'] = var5;
+        var9 = var8[var5];
+        var9 = var7.bind(var6)(var9);
+        var9 = var9.NoiseSuppressionOpt;
+        var9 = var9.STANDARD;
+        var2['value'] = var9;
+        var2['disabled'] = var4;
+        var9 = var8[var3];
+        var9 = var7.bind(var6)(var9);
+        var11 = var9.intl;
+        var10 = var11.string;
+        var9 = var8[var3];
+        var9 = var7.bind(var6)(var9);
+        var9 = var9.t;
+        var9 = var9.qXeYHw;
+        var9 = var10.bind(var11)(var9);
+        var2['label'] = var9;
         var1[1] = var2;
         var2 = {};
-        var4 = var8[var4];
-        var4 = var7.bind(var6)(var4);
-        var4 = var4.NoiseSuppressionOpt;
-        var4 = var4.NONE;
-        var2['value'] = var4;
+        var5 = var8[var5];
+        var5 = var7.bind(var6)(var5);
+        var5 = var5.NoiseSuppressionOpt;
+        var5 = var5.NONE;
+        var2['value'] = var5;
+        var2['disabled'] = var4;
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var5 = var4.intl;
@@ -179,7 +143,7 @@ case 7:
     var9 = function useHasNoiseSuppressionKrispSetting() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -200,7 +164,7 @@ case 7:
     var8 = function additionalSearchTerms() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 4;
+        var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);

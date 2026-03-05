@@ -131,6 +131,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.createStyles;
     var5 = {};
     var10 = {};
+    var12 = 'right';
+    var10['textAlign'] = var12;
+    var5['value'] = var10;
+    var10 = {};
     var10['marginTop'] = var11;
     var5['slider'] = var10;
     var5 = var8.bind(var9)(var5);
@@ -181,7 +185,7 @@ case 0:
             var1 = 10;
             var1 = var12[var1];
             var1 = var10.bind(var4)(var1);
-            var2 = var1.TableRowGroup;
+            var2 = var1.UserSettingsTableRowGroup;
             var1 = {};
             var14 = 7;
             var5 = var12[var14];
@@ -214,10 +218,8 @@ case 0:
             var9 = var12[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-md/medium', 'color': 'text-muted'};
-            var12 = {};
-            var13 = 'right';
-            var12['textAlign'] = var13;
+            var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-muted'};
+            var12 = var17.value;
             var9['style'] = var12;
             var12 = _closure1_slot5;
             var12 = var12.PUSH_TO_TALK;

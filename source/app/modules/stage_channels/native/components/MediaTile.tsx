@@ -23,24 +23,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 1;
     var4 = var6[var11];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.useWindowDimensions;
-    var _closure1_slot3 = var8;
     var4 = var4.View;
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var12.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ParticipantTypes;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = 5;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -58,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['borderRadius'] = var11;
     var4['media'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -69,7 +67,7 @@ case 0:
             var11 = var2.participant;
             var _closure2_slot1 = var11;
             var17 = var2.size;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var5 = undefined;
             var8 = var2.bind(var5)();
             var3 = _closure1_slot0;
@@ -79,19 +77,22 @@ case 0:
             var7 = var3.bind(var5)(var2);
             var2 = var7.useSpeakerTileStyles;
             var19 = var2.bind(var7)();
-            var2 = _closure1_slot3;
+            var7 = _closure1_slot1;
+            var2 = 8;
+            var2 = var4[var2];
+            var2 = var7.bind(var5)(var2);
             var2 = var2.bind(var5)();
             var16 = var2.width;
-            var2 = 8;
+            var2 = 9;
             var2 = var4[var2];
             var7 = var3.bind(var5)(var2);
             var2 = var7.useIsScreenLandscape;
             var15 = var2.bind(var7)();
-            var2 = 9;
+            var2 = 10;
             var2 = var4[var2];
             var7 = var3.bind(var5)(var2);
             var4 = var7.useStateFromStores;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot4;
             var3 = new Array(1);
             var3[0] = var2;
             var12 = var10.id;
@@ -100,7 +101,7 @@ case 0:
             var11 = var11.id;
             var2[1] = var11;
             var1 = function() {
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot4;
                 var3 = var4.getParticipant;
                 var2 = _closure2_slot0;
                 var2 = var2.id;
@@ -116,13 +117,13 @@ case 0:
             if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var11.type;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var2 = var2.ACTIVITY;
             var1 = null;
             if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot4;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot3;
             var2 = {};
             var12 = var8.container;
             var7 = new Array(3);
@@ -141,13 +142,13 @@ case 4:
             var7[2] = var9;
             var2['style'] = var7;
             var7 = _closure1_slot1;
-            var6 = 10;
+            var6 = 11;
             var6 = var13[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {'hasBottomSafeArea': false, 'hasLeftSafeArea': false, 'hasRightSafeArea': false, 'hasTopSafeArea': false};
             var9 = false;
             var6['participant'] = var11;
-            var11 = 11;
+            var11 = 12;
             var11 = var13[var11];
             var11 = var12.bind(var5)(var11);
             var11 = var11.AvatarSizes;
@@ -165,7 +166,7 @@ case 2:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

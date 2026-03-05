@@ -88,6 +88,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['GameShop'] = var5;
     var4 = 'GameShop';
     var6[var5] = var4;
+    var5 = 15;
+    var6['LinkAccount'] = var5;
+    var4 = 'LinkAccount';
+    var6[var5] = var4;
     var5 = {};
     var4 = 'activity_card';
     var5['ActivityCard'] = var4;

@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot6;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot7;
+            var7 = _closure1_slot6;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot5 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot6 = var1;
     var4 = function useIsDisplayProfileSocialLayerStorefrontEligible(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -191,17 +191,17 @@ case 0:
             var _closure2_slot0 = var8;
             var6 = var1.location;
             var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var1 = 2;
-            var2 = var10[var1];
+            var2 = var11[var1];
             var1 = undefined;
             var5 = var9.bind(var1)(var2);
             var4 = var5.useIsEligibleForSocialLayerStorefrontUserExperiment;
             var2 = {};
             var2['location'] = var6;
             var6 = var4.bind(var5)(var2);
-            var11 = _closure1_slot3;
-            var5 = var11.useMemo;
+            var10 = _closure1_slot3;
+            var5 = var10.useMemo;
             var4 = new Array(1);
             var4[0] = var8;
             var2 = function() {
@@ -230,32 +230,28 @@ case 40:
                     return var1;
                 }
             };
-            var11 = var5.bind(var11)(var2, var4);
+            var10 = var5.bind(var10)(var2, var4);
             var4 = 3;
-            var2 = var10[var4];
+            var2 = var11[var4];
             var12 = var9.bind(var1)(var2);
             var5 = var12.useAreUsersPlayingStorefrontEnabledGames;
             var2 = {};
             var13 = _closure1_slot4;
             var2['gameIds'] = var13;
-            var2['userIds'] = var11;
+            var2['userIds'] = var10;
             var2 = var5.bind(var12)(var2);
-            var5 = var10[var4];
+            var5 = var11[var4];
             var13 = var9.bind(var1)(var5);
             var12 = var13.useUsersHavePlayedSocialLayerStorefrontGamesInOutbox;
             var5 = {};
             var14 = _closure1_slot4;
             var5['gameIds'] = var14;
-            var5['userIds'] = var11;
+            var5['userIds'] = var10;
             var5 = var12.bind(var13)(var5);
-            var4 = var10[var4];
-            var10 = var9.bind(var1)(var4);
-            var9 = var10.useAreUsersInSocialLayerStorefrontMutualGuilds;
-            var4 = {};
-            var4['userIds'] = var11;
-            var11 = _closure1_slot5;
-            var4['guildIdsWithGameStores'] = var11;
-            var4 = var9.bind(var10)(var4);
+            var4 = var11[var4];
+            var9 = var9.bind(var1)(var4);
+            var4 = var9.useAreUsersInSocialLayerStorefrontMutualGuilds;
+            var4 = var4.bind(var9)(var10);
             var11 = _closure1_slot3;
             var10 = var11.useMemo;
             var7 = null;
@@ -350,7 +346,7 @@ case 44:
                     var8 = var3;
                     var1 = new var9[var1](var8, var7);
                     var4 = var1 instanceof Object ? var1 : var2;
-                    var2 = _closure1_slot6;
+                    var2 = _closure1_slot5;
                     var1 = _closure1_slot4;
                     var3 = var2.bind(var5)(var1);
                     var2 = var3.bind(var5)();
@@ -393,24 +389,24 @@ case 57:
 case 56:
             if(!var1) { _fun0004_ip = 58; continue _fun0004 }
 case 59:
-            if(var2) { _fun0004_ip = 10; continue _fun0004 }
-case 60:
-            var2 = var5;
-case 10:
-            if(var2) { _fun0004_ip = 25; continue _fun0004 }
+            if(var2) { _fun0004_ip = 60; continue _fun0004 }
 case 61:
-            var2 = var4;
-case 25:
+            var2 = var5;
+case 60:
             if(var2) { _fun0004_ip = 62; continue _fun0004 }
-case 63:
-            var2 = var3;
+case 12:
+            var2 = var4;
 case 62:
+            if(var2) { _fun0004_ip = 63; continue _fun0004 }
+case 64:
+            var2 = var3;
+case 63:
             var1 = var2;
 case 58:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -428,10 +424,8 @@ case 58:
     var5 = 1;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var8 = var5.STOREFRONT_ENABLED_MARKETING_GAME_IDS;
-    var _closure1_slot4 = var8;
-    var5 = var5.STOREFRONT_ENABLED_MARKETING_GUILD_IDS;
-    var _closure1_slot5 = var5;
+    var5 = var5.STOREFRONT_ENABLED_MARKETING_GAME_IDS;
+    var _closure1_slot4 = var5;
     var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -443,7 +437,7 @@ case 58:
         var1 = arg1;
         var6 = var1.userId;
         var4 = var1.location;
-        var3 = _closure1_slot8;
+        var3 = _closure1_slot7;
         var2 = {};
         var7 = _closure1_slot1;
         var5 = _closure1_slot2;

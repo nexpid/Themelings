@@ -26,20 +26,15 @@ case 0:
         var4 = 1;
         var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
-        var4 = var4.useWindowDimensions;
+        var4 = var4.LaunchPadTypes;
         var _closure1_slot4 = var4;
         var4 = 2;
-        var4 = var6[var4];
-        var4 = var5.bind(var1)(var4);
-        var4 = var4.LaunchPadTypes;
-        var _closure1_slot5 = var4;
-        var4 = 3;
         var4 = var6[var4];
         var7 = var5.bind(var1)(var4);
         var4 = var7.isAndroid;
         var4 = var4.bind(var7)();
-        var _closure1_slot6 = var4;
-        var7 = 4;
+        var _closure1_slot5 = var4;
+        var7 = 3;
         var7 = var6[var7];
         var7 = var5.bind(var1)(var7);
         if(var4) { _fun0001_ip = 2; continue _fun0001 }
@@ -49,47 +44,47 @@ case 3:
 case 2:
         var4 = var7.ANDROID_PANELS_ANIMATION_CONFIG;
 case 4:
-        var _closure1_slot7 = var4;
+        var _closure1_slot6 = var4;
         var4 = {};
         var7 = "function useMainTabsPanelsGestureTsx1(width){const{isDragging,translateX,IS_ANDROID,withTiming,timingInstant}=this.__closure;if(isDragging.get())return;if(translateX.get()===0)return;translateX.set(IS_ANDROID?withTiming(width,timingInstant,'animate-always'):width);}";
         var4['code'] = var7;
-        var _closure1_slot8 = var4;
+        var _closure1_slot7 = var4;
         var4 = {};
         var7 = "function useMainTabsPanelsGestureTsx2(show,isFling,velocity,force){const{translateX,width,onVisibilityChange,runOnJS,onPreMovement,panelsConfig,isTimingConfig,withTiming,withSpring}=this.__closure;if(!force&&translateX.get()!==0&&translateX.get()!==width){return false;}const targetTranslationX=show?0:width;if(translateX.get()===targetTranslationX){if(onVisibilityChange!=null){runOnJS(onVisibilityChange)(show);}return false;}if(onPreMovement!=null){runOnJS(onPreMovement)(show);}const animationConfig=show?isFling?panelsConfig.swipeSidePanelOpen:panelsConfig.nonSwipeSidePanelOpen:isFling?panelsConfig.swipeSidePanelClose:panelsConfig.nonSwipeSidePanelClose;function handleAnimationFinish(finished){'worklet';if(!finished)return;if(onVisibilityChange!=null){runOnJS(onVisibilityChange)(show);}}translateX.set(isTimingConfig(animationConfig)?withTiming(targetTranslationX,animationConfig,'respect-motion-settings',handleAnimationFinish):withSpring(targetTranslationX,{...animationConfig,velocity:velocity},'respect-motion-settings',handleAnimationFinish));return true;}";
         var4['code'] = var7;
-        var _closure1_slot9 = var4;
+        var _closure1_slot8 = var4;
         var4 = {};
         var7 = 'function handleAnimationFinish_useMainTabsPanelsGestureTsx3(finished){const{onVisibilityChange,runOnJS,show}=this.__closure;if(!finished)return;if(onVisibilityChange!=null){runOnJS(onVisibilityChange)(show);}}';
         var4['code'] = var7;
-        var _closure1_slot10 = var4;
+        var _closure1_slot9 = var4;
         var4 = {};
         var7 = 'function useMainTabsPanelsGestureTsx4(){const{disallowGesture}=this.__closure;return disallowGesture.get();}';
         var4['code'] = var7;
-        var _closure1_slot11 = var4;
+        var _closure1_slot10 = var4;
         var4 = {};
         var7 = 'function useMainTabsPanelsGestureTsx5(currentDisallow,previousDisallow){const{didJustAllowGesture}=this.__closure;if(currentDisallow===previousDisallow)return;if(currentDisallow)return;didJustAllowGesture.set(true);}';
         var4['code'] = var7;
-        var _closure1_slot12 = var4;
+        var _closure1_slot11 = var4;
         var4 = {};
         var7 = 'function useMainTabsPanelsGestureTsx6(e){const{isDragging,disallowGesture,didJustAllowGesture,runOnJS,setIsDraggingRef,panelsConfig,movePanel,translateX,width}=this.__closure;try{if(!isDragging.get()||disallowGesture.get()||didJustAllowGesture.get()){return;}}finally{isDragging.set(false);didJustAllowGesture.set(false);runOnJS(setIsDraggingRef)(false);}if(Math.abs(e.velocityX)>panelsConfig.minFlingVelocityX){movePanel(e.velocityX<0,true,e.velocityX,true);}else{movePanel(translateX.get()<width/2,false,e.velocityX,true);}}';
         var4['code'] = var7;
-        var _closure1_slot13 = var4;
+        var _closure1_slot12 = var4;
         var4 = {};
         var7 = 'function useMainTabsPanelsGestureTsx7(e){const{disallowGesture,translateX,width,didJustAllowGesture}=this.__closure;if(disallowGesture.get()){const currentTranslateX=translateX.get();if(currentTranslateX===0||currentTranslateX===width){return;}translateX.set(0);return;}translateX.set(Math.max(0,Math.min(width,translateX.get()+e.changeX)));didJustAllowGesture.set(false);}';
         var4['code'] = var7;
-        var _closure1_slot14 = var4;
+        var _closure1_slot13 = var4;
         var4 = {};
         var7 = 'function useMainTabsPanelsGestureTsx8(){const{isDragging,runOnJS,setIsDraggingRef,onDragStart}=this.__closure;isDragging.set(true);runOnJS(setIsDraggingRef)(true);if(onDragStart!=null){runOnJS(onDragStart)();}}';
         var4['code'] = var7;
-        var _closure1_slot15 = var4;
+        var _closure1_slot14 = var4;
         var4 = {};
         var7 = 'function useMainTabsPanelsGestureTsx9(event,manager){const{State,startPosition,GESTURE_MIN_DISTANCE,disallowGesture,translateX,cancelOnSwipeRightFromStart,width,launchPadType,LaunchPadTypes,windowWidth,LAUNCHPAD_GESTURE_INSET}=this.__closure;if(event.state!==State.BEGAN)return;const touch=event.allTouches[0];if(touch==null)return;const xDiff=touch.x-startPosition.get().x;const xDiffAbs=Math.abs(xDiff);if(xDiffAbs<=GESTURE_MIN_DISTANCE)return;if(disallowGesture.get()){return;}const yDiffAbs=Math.abs(touch.y-startPosition.get().y);if(xDiffAbs<=yDiffAbs||xDiffAbs*xDiffAbs+yDiffAbs*yDiffAbs<GESTURE_MIN_DISTANCE*GESTURE_MIN_DISTANCE){return;}if(xDiff<=0){if(translateX.get()===0){manager.fail();return;}}else{if(cancelOnSwipeRightFromStart===true&&translateX.get()>=width){manager.fail();return;}}const isGestureBasedLaunchPad=launchPadType===LaunchPadTypes.GESTURE_EDGE||launchPadType===LaunchPadTypes.GESTURE_FULL;if(isGestureBasedLaunchPad&&xDiff<0){const launchpadGestureEdge=windowWidth-LAUNCHPAD_GESTURE_INSET;if(launchPadType===LaunchPadTypes.GESTURE_FULL&&startPosition.get().x<launchpadGestureEdge||launchPadType===LaunchPadTypes.GESTURE_EDGE&&startPosition.get().x>=launchpadGestureEdge){manager.fail();return;}}manager.activate();}';
         var4['code'] = var7;
-        var _closure1_slot16 = var4;
+        var _closure1_slot15 = var4;
         var4 = {};
         var7 = 'function useMainTabsPanelsGestureTsx10(event,manager){const{startPosition}=this.__closure;const touch=event.allTouches[0];if(touch==null)return;startPosition.set({x:touch.x,y:touch.y});manager.begin();}';
         var4['code'] = var7;
-        var _closure1_slot17 = var4;
+        var _closure1_slot16 = var4;
         var4 = 13;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
@@ -126,17 +121,19 @@ case 0:
                 var _closure2_slot18 = var21;
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 5;
+                var3 = 4;
                 var3 = var5[var3];
                 var3 = var4.bind(var21)(var3);
                 var15 = var3.bind(var21)();
                 var _closure2_slot5 = var15;
-                var3 = 6;
+                var3 = 5;
                 var3 = var5[var3];
                 var3 = var4.bind(var21)(var3);
                 var20 = var3.bind(var21)();
                 var _closure2_slot6 = var20;
-                var3 = _closure1_slot4;
+                var3 = 6;
+                var3 = var5[var3];
+                var3 = var4.bind(var21)(var3);
                 var3 = var3.bind(var21)();
                 var19 = var3.width;
                 var _closure2_slot7 = var19;
@@ -219,7 +216,7 @@ case 10:
 case 11:
                             var3 = _closure2_slot9;
                             var2 = var3.set;
-                            var5 = _closure1_slot6;
+                            var5 = _closure1_slot5;
                             var1 = var8;
                             if(!var5) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
@@ -248,7 +245,7 @@ case 9:
                     var7['isDragging'] = var8;
                     var8 = _closure2_slot9;
                     var7['translateX'] = var8;
-                    var8 = _closure1_slot6;
+                    var8 = _closure1_slot5;
                     var7['IS_ANDROID'] = var8;
                     var8 = 8;
                     var8 = var10[var8];
@@ -263,7 +260,7 @@ case 9:
                     var3['__closure'] = var7;
                     var7 = 16976202846494.0;
                     var3['__workletHash'] = var7;
-                    var6 = _closure1_slot8;
+                    var6 = _closure1_slot7;
                     var3['__initData'] = var6;
                     var3 = var4.bind(var5)(var3);
                     var2 = _closure2_slot8;
@@ -272,7 +269,7 @@ case 9:
                 };
                 var4 = var16.bind(var10)(var4, var7);
                 var16 = var10.useCallback;
-                var7 = function N(arg1, arg2, arg3, arg4) {
+                var7 = function R(arg1, arg2, arg3, arg4) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var3 = arg1;
@@ -321,7 +318,7 @@ case 23:
                         var5 = var7.bind(var8)(var5);
                         var5 = var5.bind(var6)(var3);
 case 22:
-                        var5 = _closure1_slot7;
+                        var5 = _closure1_slot6;
                         if(var3) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
                         if(var4) { _fun0004_ip = 26; continue _fun0004 }
@@ -387,7 +384,7 @@ case 35:
                             var1['__closure'] = var3;
                             var3 = 1018878139815.0;
                             var1['__workletHash'] = var3;
-                            var2 = _closure1_slot10;
+                            var2 = _closure1_slot9;
                             var1['__initData'] = var2;
                             return var1;
                         };
@@ -397,7 +394,7 @@ case 35:
                         var4 = var5.set;
                         var7 = _closure1_slot0;
                         var12 = _closure1_slot2;
-                        var2 = 4;
+                        var2 = 3;
                         var2 = var12[var2];
                         var7 = var7.bind(var8)(var2);
                         var2 = var7.isTimingConfig;
@@ -469,9 +466,9 @@ case 39:
                 var26 = var26.runOnJS;
                 var4['runOnJS'] = var26;
                 var4['onPreMovement'] = var24;
-                var26 = _closure1_slot7;
+                var26 = _closure1_slot6;
                 var4['panelsConfig'] = var26;
-                var26 = 4;
+                var26 = 3;
                 var26 = var22[var26];
                 var26 = var12.bind(var21)(var26);
                 var26 = var26.isTimingConfig;
@@ -489,7 +486,7 @@ case 39:
                 var7['__closure'] = var4;
                 var4 = 4205680413964.0;
                 var7['__workletHash'] = var4;
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot8;
                 var7['__initData'] = var4;
                 var4 = new Array(4);
                 var4[0] = var25;
@@ -506,7 +503,7 @@ case 39:
                 var16 = var22[var9];
                 var25 = var12.bind(var21)(var16);
                 var24 = var25.useAnimatedReaction;
-                var23 = function F() {
+                var23 = function U() {
                     var2 = _closure2_slot13;
                     var1 = var2.get;
                     var1 = var1.bind(var2)();
@@ -517,9 +514,9 @@ case 39:
                 var23['__closure'] = var16;
                 var16 = 15338765161171.0;
                 var23['__workletHash'] = var16;
-                var16 = _closure1_slot11;
+                var16 = _closure1_slot10;
                 var23['__initData'] = var16;
-                var16 = function U(arg1, arg2) {
+                var16 = function N(arg1, arg2) {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                         var1 = arg1;
@@ -542,7 +539,7 @@ case 41:
                 var16['__closure'] = var26;
                 var26 = 17048450187141.0;
                 var16['__workletHash'] = var26;
-                var26 = _closure1_slot12;
+                var26 = _closure1_slot11;
                 var16['__initData'] = var26;
                 var16 = var24.bind(var25)(var23, var16);
                 var9 = var22[var9];
@@ -592,7 +589,7 @@ case 41:
                     var2 = _closure2_slot17;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.manualActivation;
-                    var2 = 3;
+                    var2 = 2;
                     var2 = var10[var2];
                     var7 = var9.bind(var8)(var2);
                     var2 = var7.isAndroid;
@@ -647,11 +644,11 @@ case 44:
                     var2['__closure'] = var7;
                     var7 = 718728838752.0;
                     var2['__workletHash'] = var7;
-                    var7 = _closure1_slot17;
+                    var7 = _closure1_slot16;
                     var2['__initData'] = var7;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onTouchesMove;
-                    var2 = function l(arg1, arg2) {
+                    var2 = function o(arg1, arg2) {
                         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                             var2 = arg1;
@@ -708,17 +705,17 @@ case 50:
                             if(!(!(var8 < var7))) { _fun0008_ip = 46; continue _fun0008 }
 case 51:
                             if(!(!(var4 <= var6))) { _fun0008_ip = 52; continue _fun0008 }
-case 8:
+case 53:
                             var8 = _closure2_slot4;
                             var7 = true;
-                            if(!(var7 === var8)) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
+                            if(!(var7 === var8)) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
                             var8 = _closure2_slot9;
                             var7 = var8.get;
                             var8 = var7.bind(var8)();
                             var7 = _closure2_slot8;
-                            if(!(var8 >= var7)) { _fun0008_ip = 53; continue _fun0008 }
-case 55:
+                            if(!(var8 >= var7)) { _fun0008_ip = 54; continue _fun0008 }
+case 56:
                             var7 = var3.fail;
                             var7 = var7.bind(var3)();
                             var7 = undefined;
@@ -727,54 +724,54 @@ case 52:
                             var8 = _closure2_slot9;
                             var7 = var8.get;
                             var7 = var7.bind(var8)();
-                            if(!(var6 !== var7)) { _fun0008_ip = 56; continue _fun0008 }
-case 53:
+                            if(!(var6 !== var7)) { _fun0008_ip = 57; continue _fun0008 }
+case 54:
                             var8 = _closure2_slot5;
-                            var7 = _closure1_slot5;
+                            var7 = _closure1_slot4;
                             var7 = var7.GESTURE_EDGE;
-                            if(!(var8 !== var7)) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
+                            if(!(var8 !== var7)) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
                             var8 = _closure2_slot5;
-                            var7 = _closure1_slot5;
+                            var7 = _closure1_slot4;
                             var7 = var7.GESTURE_FULL;
-                            if(!(var8 === var7)) { _fun0008_ip = 59; continue _fun0008 }
-case 57:
-                            if(!(var4 < var6)) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+                            if(!(var8 === var7)) { _fun0008_ip = 60; continue _fun0008 }
+case 58:
+                            if(!(var4 < var6)) { _fun0008_ip = 60; continue _fun0008 }
+case 61:
                             var6 = _closure2_slot7;
                             var4 = 48;
                             var4 = var6 - var4;
                             var7 = _closure2_slot5;
-                            var6 = _closure1_slot5;
+                            var6 = _closure1_slot4;
                             var6 = var6.GESTURE_FULL;
-                            if(!(var7 === var6)) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+                            if(!(var7 === var6)) { _fun0008_ip = 62; continue _fun0008 }
+case 63:
                             var7 = _closure2_slot16;
                             var6 = var7.get;
                             var6 = var6.bind(var7)();
                             var6 = var6.x;
-                            if(!(!(var6 < var4))) { _fun0008_ip = 63; continue _fun0008 }
-case 61:
+                            if(!(!(var6 < var4))) { _fun0008_ip = 64; continue _fun0008 }
+case 62:
                             var6 = _closure2_slot5;
-                            var5 = _closure1_slot5;
+                            var5 = _closure1_slot4;
                             var5 = var5.GESTURE_EDGE;
-                            if(!(var6 === var5)) { _fun0008_ip = 59; continue _fun0008 }
-case 64:
+                            if(!(var6 === var5)) { _fun0008_ip = 60; continue _fun0008 }
+case 65:
                             var5 = _closure2_slot16;
                             var2 = var5.get;
                             var2 = var2.bind(var5)();
                             var2 = var2.x;
-                            if(!(!(var2 >= var4))) { _fun0008_ip = 63; continue _fun0008 }
-case 59:
+                            if(!(!(var2 >= var4))) { _fun0008_ip = 64; continue _fun0008 }
+case 60:
                             var2 = var3.activate;
                             var2 = var2.bind(var3)();
                             _fun0008_ip = 46; continue _fun0008;
-case 63:
+case 64:
                             var2 = var3.fail;
                             var2 = var2.bind(var3)();
                             var2 = undefined;
                             return var2;
-case 56:
+case 57:
                             var2 = var3.fail;
                             var2 = var2.bind(var3)();
                             var2 = undefined;
@@ -801,7 +798,7 @@ case 46:
                     var7['width'] = var11;
                     var11 = _closure2_slot5;
                     var7['launchPadType'] = var11;
-                    var11 = _closure1_slot5;
+                    var11 = _closure1_slot4;
                     var7['LaunchPadTypes'] = var11;
                     var11 = _closure2_slot7;
                     var7['windowWidth'] = var11;
@@ -810,11 +807,11 @@ case 46:
                     var2['__closure'] = var7;
                     var7 = 13108412336922.0;
                     var2['__workletHash'] = var7;
-                    var7 = _closure1_slot16;
+                    var7 = _closure1_slot15;
                     var2['__initData'] = var7;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onStart;
-                    var2 = function s() {
+                    var2 = function l() {
                         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                             var3 = _closure2_slot10;
@@ -833,8 +830,8 @@ case 0:
                             var4 = var4.bind(var1)(var6);
                             var6 = _closure2_slot2;
                             var4 = null;
-                            if(!(var4 != var6)) { _fun0009_ip = 65; continue _fun0009 }
-case 66:
+                            if(!(var4 != var6)) { _fun0009_ip = 66; continue _fun0009 }
+case 67:
                             var4 = _closure1_slot0;
                             var3 = _closure1_slot2;
                             var3 = var3[var5];
@@ -843,7 +840,7 @@ case 66:
                             var2 = _closure2_slot2;
                             var2 = var3.bind(var4)(var2);
                             var2 = var2.bind(var1)();
-case 65:
+case 66:
                             return var1;
                         }
                     };
@@ -862,19 +859,19 @@ case 65:
                     var2['__closure'] = var11;
                     var11 = 8659650895938.0;
                     var2['__workletHash'] = var11;
-                    var11 = _closure1_slot15;
+                    var11 = _closure1_slot14;
                     var2['__initData'] = var11;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onChange;
-                    var2 = function t(arg1) {
+                    var2 = function n(arg1) {
                         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                             var3 = _closure2_slot13;
                             var2 = var3.get;
                             var2 = var2.bind(var3)();
                             var3 = _closure2_slot9;
-                            if(var2) { _fun0010_ip = 67; continue _fun0010 }
-case 68:
+                            if(var2) { _fun0010_ip = 68; continue _fun0010 }
+case 69:
                             var4 = var3.set;
                             var2 = global;
                             var7 = var2.Math;
@@ -896,23 +893,23 @@ case 68:
                             var4 = var5.set;
                             var2 = false;
                             var2 = var4.bind(var5)(var2);
-                            _fun0010_ip = 69; continue _fun0010;
-case 67:
+                            _fun0010_ip = 70; continue _fun0010;
+case 68:
                             var2 = var3.get;
                             var4 = var2.bind(var3)();
                             var3 = 0;
-                            if(!(var3 !== var4)) { _fun0010_ip = 70; continue _fun0010 }
-case 71:
-                            var2 = _closure2_slot8;
-                            if(!(var4 !== var2)) { _fun0010_ip = 70; continue _fun0010 }
+                            if(!(var3 !== var4)) { _fun0010_ip = 71; continue _fun0010 }
 case 72:
+                            var2 = _closure2_slot8;
+                            if(!(var4 !== var2)) { _fun0010_ip = 71; continue _fun0010 }
+case 73:
                             var2 = _closure2_slot9;
                             var1 = var2.set;
                             var1 = var1.bind(var2)(var3);
-case 69:
+case 70:
                             var1 = undefined;
                             return var1;
-case 70:
+case 71:
                             var1 = undefined;
                             return var1;
                         }
@@ -929,7 +926,7 @@ case 70:
                     var2['__closure'] = var11;
                     var11 = 13355779907583.0;
                     var2['__workletHash'] = var11;
-                    var11 = _closure1_slot14;
+                    var11 = _closure1_slot13;
                     var2['__initData'] = var11;
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.onFinalize;
@@ -937,21 +934,21 @@ case 70:
                         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                             var3 = arg1;
-case 73: // try_start_0
+case 74: // try_start_0
                             var4 = _closure2_slot10;
                             var1 = var4.get;
                             var1 = var1.bind(var4)();
-                            if(!var1) { _fun0011_ip = 74; continue _fun0011 }
-case 75:
+                            if(!var1) { _fun0011_ip = 75; continue _fun0011 }
+case 76:
                             var4 = _closure2_slot13;
                             var1 = var4.get;
                             var1 = var1.bind(var4)();
-                            if(var1) { _fun0011_ip = 74; continue _fun0011 }
-case 76:
+                            if(var1) { _fun0011_ip = 75; continue _fun0011 }
+case 77:
                             var4 = _closure2_slot15;
                             var1 = var4.get;
                             var1 = var1.bind(var4)();
-                            if(var1) { _fun0011_ip = 74; continue _fun0011 }
+                            if(var1) { _fun0011_ip = 75; continue _fun0011 }
 case 13: // try_end0
                             var4 = _closure2_slot10;
                             var1 = var4.set;
@@ -976,10 +973,10 @@ case 13: // try_end0
                             var5 = var3;
                             var5 = var5.velocityX;
                             var5 = var6.bind(var7)(var5);
-                            var4 = _closure1_slot7;
+                            var4 = _closure1_slot6;
                             var4 = var4.minFlingVelocityX;
-                            if(!(!(var5 > var4))) { _fun0011_ip = 77; continue _fun0011 }
-case 78:
+                            if(!(!(var5 > var4))) { _fun0011_ip = 78; continue _fun0011 }
+case 79:
                             var7 = _closure2_slot14;
                             var5 = _closure2_slot9;
                             var4 = var5.get;
@@ -994,8 +991,8 @@ case 78:
                             var13 = undefined;
                             var11 = false;
                             var4 = var13[var7](var12, var11, var10, var9, var8);
-                            _fun0011_ip = 79; continue _fun0011;
-case 77:
+                            _fun0011_ip = 80; continue _fun0011;
+case 78:
                             var6 = _closure2_slot14;
                             var5 = var3.velocityX;
                             var4 = 0;
@@ -1005,9 +1002,9 @@ case 77:
                             var11 = true;
                             var9 = true;
                             var3 = var13[var6](var12, var11, var10, var9, var8);
-case 79:
+case 80:
                             return var1;
-case 74:
+case 75:
                             var4 = _closure2_slot10;
                             var1 = var4.set;
                             var3 = false;
@@ -1026,7 +1023,7 @@ case 74:
                             var2 = var4.bind(var5)(var2);
                             var2 = var2.bind(var1)(var3);
                             return var1;
-case 80: // catch_target0
+case 81: // catch_target0
                             CatchBlockStart(arg_register=0);
                             var5 = _closure2_slot10;
                             var3 = var5.set;
@@ -1061,7 +1058,7 @@ case 80: // catch_target0
                     var5['runOnJS'] = var7;
                     var7 = _closure2_slot12;
                     var5['setIsDraggingRef'] = var7;
-                    var7 = _closure1_slot7;
+                    var7 = _closure1_slot6;
                     var5['panelsConfig'] = var7;
                     var7 = _closure2_slot14;
                     var5['movePanel'] = var7;
@@ -1072,7 +1069,7 @@ case 80: // catch_target0
                     var1['__closure'] = var5;
                     var5 = 2071301756262.0;
                     var1['__workletHash'] = var5;
-                    var4 = _closure1_slot13;
+                    var4 = _closure1_slot12;
                     var1['__initData'] = var4;
                     var1 = var2.bind(var3)(var1);
                     return var1;

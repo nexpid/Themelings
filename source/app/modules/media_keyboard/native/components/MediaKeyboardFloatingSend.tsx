@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var9)(var4);
     var _closure1_slot8 = var4;
     var4 = {};
-    var8 = 'function MediaKeyboardFloatingSendTsx1(){const{animatedIndex,INDEX_HEADER_CHANGE_THRESHOLD,isLandscape,hasUploads}=this.__closure;const isSheetOpenOrLandscape=animatedIndex.get()>INDEX_HEADER_CHANGE_THRESHOLD||isLandscape;return isSheetOpenOrLandscape&&hasUploads;}';
+    var8 = 'function MediaKeyboardFloatingSendTsx1(){const{animatedIndex,INDEX_HEADER_CHANGE_THRESHOLD,hasUploads}=this.__closure;const isSheetOpen=animatedIndex.get()>INDEX_HEADER_CHANGE_THRESHOLD;return isSheetOpen&&hasUploads;}';
     var4['code'] = var8;
     var _closure1_slot9 = var4;
     var4 = {};
@@ -105,7 +105,7 @@ case 0:
             var _closure2_slot0 = var13;
             var5 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var9[var2];
             var2 = var5.bind(var4)(var2);
             var7 = var2.ChatInputIaMobileExperiment;
@@ -116,7 +116,7 @@ case 0:
             var2 = var5.bind(var7)(var2);
             var5 = var2.iaUsesFloatingBarForOverflow;
             var7 = _closure1_slot1;
-            var2 = 11;
+            var2 = 10;
             var2 = var9[var2];
             var2 = var7.bind(var4)(var2);
             var12 = var2.bind(var4)();
@@ -155,8 +155,8 @@ case 4:
             var2['draftType'] = var1;
             var1 = function useSendVisibleSharedValue(arg1) {
                 var1 = arg1;
-                var10 = var1.animatedIndex;
-                var _closure3_slot0 = var10;
+                var9 = var1.animatedIndex;
+                var _closure3_slot0 = var9;
                 var12 = var1.channelId;
                 var _closure3_slot1 = var12;
                 var1 = var1.draftType;
@@ -167,7 +167,7 @@ case 4:
                 var3 = var7[var3];
                 var4 = undefined;
                 var11 = var5.bind(var4)(var3);
-                var9 = var11.useStateFromStores;
+                var10 = var11.useStateFromStores;
                 var3 = _closure1_slot5;
                 var8 = new Array(1);
                 var8[0] = var3;
@@ -184,26 +184,15 @@ case 4:
                     var1 = var2 > var1;
                     return var1;
                 };
-                var8 = var9.bind(var11)(var8, var1, var3);
+                var8 = var10.bind(var11)(var8, var1, var3);
                 var _closure3_slot3 = var8;
                 var3 = 8;
                 var1 = var7[var3];
                 var11 = var5.bind(var4)(var1);
-                var9 = var11.useSharedValue;
+                var10 = var11.useSharedValue;
                 var1 = false;
-                var1 = var9.bind(var11)(var1);
+                var1 = var10.bind(var11)(var1);
                 var _closure3_slot4 = var1;
-                var9 = 9;
-                var11 = var7[var9];
-                var12 = var5.bind(var4)(var11);
-                var11 = var12.useOrientation;
-                var11 = var11.bind(var12)();
-                var9 = var7[var9];
-                var9 = var5.bind(var4)(var9);
-                var9 = var9.OrientationType;
-                var9 = var9.LANDSCAPE;
-                var9 = var11 === var9;
-                var _closure3_slot5 = var9;
                 var3 = var7[var3];
                 var5 = var5.bind(var4)(var3);
                 var4 = var5.useAnimatedReaction;
@@ -215,25 +204,20 @@ case 0:
                         var3 = var1.bind(var3)();
                         var1 = 0.7;
                         var1 = var3 > var1;
-                        if(var1) { _fun0002_ip = 6; continue _fun0002 }
+                        if(!var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                        var1 = _closure3_slot5;
-case 6:
-                        if(!var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
                         var1 = _closure3_slot3;
-case 8:
+case 6:
                         return var1;
                     }
                 };
                 var7 = {};
-                var7['animatedIndex'] = var10;
-                var10 = 0.7;
-                var7['INDEX_HEADER_CHANGE_THRESHOLD'] = var10;
-                var7['isLandscape'] = var9;
+                var7['animatedIndex'] = var9;
+                var9 = 0.7;
+                var7['INDEX_HEADER_CHANGE_THRESHOLD'] = var9;
                 var7['hasUploads'] = var8;
                 var3['__closure'] = var7;
-                var7 = 15911908244940.0;
+                var7 = 12206635621152.0;
                 var3['__workletHash'] = var7;
                 var7 = _closure1_slot9;
                 var3['__initData'] = var7;
@@ -284,7 +268,7 @@ case 0:
                     var4 = var7 + var4;
                     var1['height'] = var4;
                     var4 = _closure1_slot0;
-                    var3 = 12;
+                    var3 = 11;
                     var3 = var6[var3];
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.withSpring;
@@ -292,10 +276,10 @@ case 0:
                     var2 = var5.get;
                     var5 = var2.bind(var5)();
                     var2 = 0;
-                    if(!var5) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                    if(!var5) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var2 = 1;
-case 10:
+case 8:
                     var2 = var3.bind(var4)(var2);
                     var1['opacity'] = var2;
                     return var1;
@@ -308,7 +292,7 @@ case 10:
             var18 = var11[var18];
             var18 = var2.bind(var4)(var18);
             var16['tokens'] = var18;
-            var18 = 12;
+            var18 = 11;
             var18 = var11[var18];
             var18 = var12.bind(var4)(var18);
             var18 = var18.withSpring;
@@ -331,10 +315,10 @@ case 0:
                     var2 = var3.get;
                     var3 = var2.bind(var3)();
                     var2 = 'none';
-                    if(!var3) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                    if(!var3) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var2 = 'box-none';
-case 12:
+case 10:
                     var1['pointerEvents'] = var2;
                     return var1;
                 }
@@ -362,7 +346,7 @@ case 12:
                 var1['end'] = var2;
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var4 = 13;
+                var4 = 12;
                 var2 = var7[var4];
                 var5 = undefined;
                 var8 = var6.bind(var5)(var2);
@@ -409,12 +393,12 @@ case 12:
             var1['style'] = var11;
             var1['animatedProps'] = var8;
             var7 = null;
-            if(!var5) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var11 = _closure1_slot6;
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var5 = 14;
+            var5 = 13;
             var5 = var14[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
@@ -427,18 +411,18 @@ case 15:
             var12 = 'pointerEvents';
             var5[var12] = var13;
             var7 = var11.bind(var4)(var8, var5);
-case 14:
+case 12:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot6;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 15;
+            var6 = 14;
             var6 = var13[var6];
             var6 = var12.bind(var4)(var6);
             var7 = var6.FloatingActionButton;
             var6 = {};
-            var11 = 16;
+            var11 = 15;
             var14 = var13[var11];
             var14 = var12.bind(var4)(var14);
             var15 = var14.intl;
@@ -449,7 +433,7 @@ case 14:
             var11 = var11.TXNS7S;
             var11 = var14.bind(var15)(var11);
             var6['accessibilityLabel'] = var11;
-            var11 = 17;
+            var11 = 16;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.SendMessageIcon;
@@ -468,7 +452,7 @@ case 14:
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

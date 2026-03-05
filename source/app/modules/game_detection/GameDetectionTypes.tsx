@@ -80,18 +80,18 @@ case 4:
     var5 = var9.bind(var1)(var5);
     var5 = var5.createExecutable;
     var _closure1_slot5 = var5;
-    var6 = {};
-    var6['LINKED'] = var16;
+    var7 = {};
+    var7['LINKED'] = var16;
     var5 = 'LINKED';
-    var6[var16] = var5;
-    var6['OFFICIAL'] = var15;
+    var7[var16] = var5;
+    var7['OFFICIAL'] = var15;
     var5 = 'OFFICIAL';
-    var6[var15] = var5;
-    var5 = {};
-    var7 = 'Erotic';
-    var5['EROTIC'] = var7;
+    var7[var15] = var5;
+    var6 = {};
+    var5 = 'Erotic';
+    var6['EROTIC'] = var5;
     var2 = function(arg1) {
-        var4 = function GameRecord(arg1) {
+        var4 = function DetectableGameRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = arg1;
@@ -191,8 +191,24 @@ case 26:
                 var3 = new Array(0);
 case 25:
                 var1['themes'] = var3;
-                var2 = var2.linkedApplications;
-                var1['linkedApplications'] = var2;
+                var3 = var2.linkedApplications;
+                var1['linkedApplications'] = var3;
+                var3 = var2.genres;
+                var1['genres'] = var3;
+                var3 = var2.platforms;
+                var1['platforms'] = var3;
+                var3 = var2.bannerHash;
+                var1['bannerHash'] = var3;
+                var3 = var2.screenshotHashes;
+                var1['screenshotHashes'] = var3;
+                var3 = var2.screenshotUrls;
+                var1['screenshotUrls'] = var3;
+                var3 = var2.websites;
+                var1['websites'] = var3;
+                var3 = var2.companies;
+                var1['companies'] = var3;
+                var2 = var2.supplementalGameData;
+                var1['supplementalGameData'] = var2;
                 return var1;
             }
         };
@@ -261,7 +277,7 @@ case 27:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var7 = var2.bind(var1)(var4);
+    var5 = var2.bind(var1)(var4);
     var4 = {};
     var4['NONE'] = var17;
     var2 = 'NONE';
@@ -311,9 +327,9 @@ case 27:
     var9 = var10.fileFinishedImporting;
     var8 = 'modules/game_detection/GameDetectionTypes.tsx';
     var8 = var9.bind(var10)(var8);
-    var3['default'] = var7;
-    var3['GameLinkTypes'] = var6;
-    var3['GameTheme'] = var5;
+    var3['GameLinkTypes'] = var7;
+    var3['GameTheme'] = var6;
+    var3['DetectableGameRecord'] = var5;
     var3['GameDetectionDebugLevel'] = var4;
     var3['SteamReviewScoreDescription'] = var2;
     return var1;

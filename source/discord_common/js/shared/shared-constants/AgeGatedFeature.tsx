@@ -42,6 +42,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['REACTIVE_CHECK'] = var5;
     var1 = 'REACTIVE_CHECK';
     var2[var5] = var1;
+    var5 = 128;
+    var2['STAGE_SPEAKING'] = var5;
+    var1 = 'STAGE_SPEAKING';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

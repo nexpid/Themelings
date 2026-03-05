@@ -989,7 +989,7 @@ case 0:
                 var2 = null;
                 var8 = var2 != var9;
                 if(!var8) { _fun0012_ip = 68; continue _fun0012 }
-case 19:
+case 65:
                 var8 = {};
                 var10 = var9.user;
                 var10 = var10.id;

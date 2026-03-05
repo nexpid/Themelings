@@ -930,10 +930,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var46['CUSTOM_THEMES_UPSELL'] = var5;
     var5 = 'app_icons_inline_upsell';
     var46['APP_ICON_INLINE_UPSELL'] = var5;
-    var5 = 'privacy_perk_settings_upsell';
-    var46['PRIVACY_PERK_SETTINGS'] = var5;
-    var5 = 'privacy_perk_exit_modal';
-    var46['PRIVACY_PERK_EXIT_MODAL'] = var5;
     var45 = {};
     var45['PREMIUM_TIER_1'] = var10;
     var5 = 'PREMIUM_TIER_1';

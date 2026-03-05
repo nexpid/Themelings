@@ -1954,6 +1954,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NON_CONSENSUAL_ADULT_INTIMATE_MEDIA_TAKEDOWN_NON_DEDICATED_GUILD_ADMIN'] = var5;
     var1 = 'NON_CONSENSUAL_ADULT_INTIMATE_MEDIA_TAKEDOWN_NON_DEDICATED_GUILD_ADMIN';
     var2[var5] = var1;
+    var5 = 7500;
+    var2['NON_CONSENSUAL_ADULT_INTIMATE_MEDIA_TAKEDOWN_HASH_MATCH'] = var5;
+    var1 = 'NON_CONSENSUAL_ADULT_INTIMATE_MEDIA_TAKEDOWN_HASH_MATCH';
+    var2[var5] = var1;
     var5 = 9000;
     var2['TEST_CLASSIFICATION'] = var5;
     var1 = 'TEST_CLASSIFICATION';

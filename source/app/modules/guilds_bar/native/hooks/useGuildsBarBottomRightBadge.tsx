@@ -20,12 +20,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 1;
-    var7 = var6[var4];
+    var12 = 1;
+    var7 = var6[var12];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
-    var4 = 2;
+    var13 = 2;
+    var4 = var6[var13];
+    var4 = var5.bind(var1)(var4);
+    var11 = var4.GUILD_ITEM_MARGIN;
+    var10 = var4.GUILD_ITEM_PADDING;
+    var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.BADGE_MASK_SIZE;
@@ -34,21 +39,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.BADGE_PADDING;
     var _closure1_slot7 = var4;
-    var4 = 3;
+    var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot8 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var7 = {};
-    var4 = 9;
-    var10 = {'position': 'absolute', 'bottom': 1, 'right': 9, 'backgroundColor': 'transparent', 'borderColor': 'transparent'};
-    var7['bottomRightBadge'] = var10;
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot9 = var7;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'position': 'absolute', 'bottom': null, 'right': 9, 'backgroundColor': 'transparent', 'borderColor': 'transparent'};
+    var11 = var13 * var11;
+    var10 = var10 - var12;
+    var10 = var11 - var10;
+    var9['bottom'] = var10;
+    var4['bottomRightBadge'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -136,7 +145,7 @@ case 11:
 case 10:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var1 = 5;
+                    var1 = 6;
                     var1 = var8[var1];
                     var6 = undefined;
                     var3 = var4.bind(var6)(var1);
@@ -146,7 +155,7 @@ case 10:
                     var3 = var3.bind(var6)(var1);
                     var1 = {};
                     var5 = _closure1_slot8;
-                    var2 = 8;
+                    var2 = 9;
                     var2 = var8[var2];
                     var4 = var4.bind(var6)(var2);
                     var2 = {};
@@ -163,7 +172,7 @@ case 10:
 case 9:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var1 = 5;
+                    var1 = 6;
                     var1 = var8[var1];
                     var6 = undefined;
                     var3 = var4.bind(var6)(var1);
@@ -173,7 +182,7 @@ case 9:
                     var3 = var3.bind(var6)(var1);
                     var1 = {};
                     var5 = _closure1_slot8;
-                    var2 = 7;
+                    var2 = 8;
                     var2 = var8[var2];
                     var4 = var4.bind(var6)(var2);
                     var2 = {};
@@ -192,7 +201,7 @@ case 9:
 case 7:
                     var3 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var1 = 5;
+                    var1 = 6;
                     var1 = var8[var1];
                     var6 = undefined;
                     var3 = var3.bind(var6)(var1);
@@ -209,7 +218,7 @@ case 7:
                     var1 = {};
                     var5 = _closure1_slot8;
                     var4 = _closure1_slot0;
-                    var2 = 6;
+                    var2 = 7;
                     var2 = var8[var2];
                     var2 = var4.bind(var6)(var2);
                     var4 = var2.MaskedBadge;

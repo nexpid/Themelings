@@ -335,10 +335,10 @@ case 0:
                     var _closure3_slot0 = var3;
                     var2 = var2.hasListEnd;
                     var4 = undefined;
-                    if(!(var2 === var4)) { _fun0006_ip = 17; continue _fun0006 }
-case 21:
+                    if(!(var2 === var4)) { _fun0006_ip = 21; continue _fun0006 }
+case 11:
                     var2 = false;
-case 17:
+case 21:
                     var _closure3_slot1 = var2;
                     var2 = var3.map;
                     var1 = function(arg1, arg2) {

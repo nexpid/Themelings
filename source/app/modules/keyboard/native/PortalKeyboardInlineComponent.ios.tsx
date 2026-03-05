@@ -307,8 +307,20 @@ case 21:
 case 24:
                 var5 = _closure2_slot4;
                 var5 = var5.keyboardWillOpen;
-                if(var5) { _fun0003_ip = 16; continue _fun0003 }
+                if(!var5) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+                var7 = _closure2_slot6;
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var6 = 10;
+                var6 = var9[var6];
+                var6 = var8.bind(var4)(var6);
+                var6 = var6.PortalKeyboardState;
+                var6 = var6.REQUEST_CLOSE;
+                var5 = var7 !== var6;
 case 25:
+                if(var5) { _fun0003_ip = 16; continue _fun0003 }
+case 27:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var5 = 8;

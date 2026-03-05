@@ -374,7 +374,7 @@ case 0:
                     var10 = var8.username;
                     var6 = undefined;
                     if(!(var10 !== var9)) { _fun0004_ip = 33; continue _fun0004 }
-case 6:
+case 34:
                     var6 = var9;
 case 33:
                     var2['nickname'] = var6;
@@ -386,13 +386,13 @@ case 33:
                     var6 = null;
                     var9 = var6 == var9;
                     var10 = undefined;
-                    if(var9) { _fun0004_ip = 34; continue _fun0004 }
+                    if(var9) { _fun0004_ip = 17; continue _fun0004 }
 case 35:
                     var12 = _closure2_slot1;
                     var11 = var12.includes;
                     var9 = var8.id;
                     var10 = var11.bind(var12)(var9);
-case 34:
+case 17:
                     var9 = var6 != var10;
                     if(!var9) { _fun0004_ip = 36; continue _fun0004 }
 case 37:

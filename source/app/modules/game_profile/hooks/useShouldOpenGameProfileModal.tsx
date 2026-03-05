@@ -152,7 +152,7 @@ case 15:
         return var1;
     };
     var _closure1_slot10 = var4;
-    var5 = 12;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -162,167 +162,298 @@ case 15:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
-            var12 = var3.location;
+            var9 = var3.location;
             var2 = var3.applicationId;
-            var7 = undefined;
-            if(!(var2 === var7)) { _fun0002_ip = 17; continue _fun0002 }
+            var11 = undefined;
+            if(!(var2 === var11)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
             var2 = '';
 case 17:
             var _closure2_slot0 = var2;
-            var11 = var3.autoTrackExposure;
-            if(!(var11 === var7)) { _fun0002_ip = 19; continue _fun0002 }
+            var12 = var3.autoTrackExposure;
+            if(!(var12 === var11)) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
-            var11 = true;
+            var12 = true;
 case 19:
-            var9 = var3.source;
-            var _closure2_slot1 = var9;
-            var8 = var3.trackEntryPointImpression;
-            if(!(var8 === var7)) { _fun0002_ip = 21; continue _fun0002 }
+            var8 = var3.source;
+            var _closure2_slot1 = var8;
+            var7 = var3.trackEntryPointImpression;
+            if(!(var7 === var11)) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
-            var8 = true;
+            var7 = true;
 case 21:
-            var _closure2_slot2 = var8;
-            var _closure2_slot3 = var7;
-            var _closure2_slot4 = var7;
-            var _closure2_slot5 = var7;
-            var _closure2_slot6 = var7;
-            var _closure2_slot7 = var7;
+            var _closure2_slot2 = var7;
+            var _closure2_slot3 = var11;
+            var _closure2_slot4 = var11;
+            var _closure2_slot5 = var11;
+            var _closure2_slot6 = var11;
+            var _closure2_slot7 = var11;
+            var _closure2_slot8 = var11;
             var6 = _closure1_slot3;
-            var4 = var6.useRef;
+            var5 = var6.useRef;
             var3 = false;
-            var3 = var4.bind(var6)(var3);
+            var3 = var5.bind(var6)(var3);
             _closure2_slot3 = var3;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 7;
             var3 = var10[var3];
-            var4 = var6.bind(var7)(var3);
-            var3 = var4.useCanSeeGameProfile;
-            var3 = var3.bind(var4)(var12, var11);
-            _closure2_slot4 = var3;
-            var4 = 8;
-            var4 = var10[var4];
-            var10 = var6.bind(var7)(var4);
-            var6 = var10.useRequestDetectableGameSupplementalData;
-            var4 = null;
-            if(!var3) { _fun0002_ip = 23; continue _fun0002 }
+            var5 = var6.bind(var11)(var3);
+            var3 = var5.useCanSeeGameProfile;
+            var3 = var3.bind(var5)(var9, var12);
+            var5 = 8;
+            var5 = var10[var5];
+            var6 = var6.bind(var11)(var5);
+            var5 = var6.useCanSeeGameProfileV2;
+            var5 = var5.bind(var6)(var9);
+            if(var3) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            var11 = '';
-            var4 = null;
-            if(!(var11 !== var2)) { _fun0002_ip = 23; continue _fun0002 }
-case 10:
-            var4 = var2;
+            var3 = var5;
 case 23:
-            var4 = var6.bind(var10)(var4);
+            _closure2_slot4 = var3;
             var6 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var4 = 9;
-            var4 = var11[var4];
-            var13 = var6.bind(var7)(var4);
-            var12 = var13.useStateFromStores;
-            var4 = _closure1_slot5;
-            var10 = new Array(1);
-            var10[0] = var4;
-            var4 = function() {
-                var3 = _closure1_slot5;
-                var2 = var3.getGame;
+            var9 = _closure1_slot2;
+            var13 = 9;
+            var5 = var9[var13];
+            var12 = var6.bind(var11)(var5);
+            var10 = var12.useStateFromStores;
+            var5 = _closure1_slot4;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
+                var3 = _closure1_slot4;
+                var2 = var3.getApplication;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var10 = var12.bind(var13)(var10, var4);
+            var10 = var10.bind(var12)(var6, var5);
             _closure2_slot5 = var10;
-            var4 = 10;
-            var4 = var11[var4];
-            var6 = var6.bind(var7)(var4);
-            var4 = var6.useGetOrFetchApplicationBatched;
-            var4 = var4.bind(var6)(var2);
-            _closure2_slot6 = var4;
-            var7 = _closure1_slot3;
-            var6 = var7.useMemo;
+            var12 = _closure1_slot3;
+            var6 = var12.useMemo;
             var5 = new Array(2);
-            var5[0] = var4;
+            var5[0] = var2;
             var5[1] = var10;
-            var4 = function() {
+            var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var1 = _closure2_slot5;
-                    var4 = null;
-                    var3 = var4 != var1;
-                    var1 = null;
-                    if(!var3) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-                    var3 = _closure2_slot6;
-                    var3 = var4 != var3;
-                    var1 = null;
-                    if(!var3) { _fun0003_ip = 25; continue _fun0003 }
-case 27:
-                    var5 = _closure1_slot10;
                     var4 = _closure2_slot5;
-                    var3 = _closure2_slot6;
-                    var2 = undefined;
-                    var1 = var5.bind(var2)(var4, var3);
+                    var3 = null;
+                    var5 = var3 == var4;
+                    var4 = undefined;
+                    if(var5) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+                    var5 = _closure2_slot5;
+                    var7 = var5.linkedGames;
+                    var5 = var3 == var7;
+                    var4 = undefined;
+                    if(var5) { _fun0003_ip = 25; continue _fun0003 }
+case 20:
+                    var6 = var7.map;
+                    var5 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.id;
+                        return var1;
+                    };
+                    var4 = var6.bind(var7)(var5);
 case 25:
+                    if(!(var3 == var4)) { _fun0003_ip = 27; continue _fun0003 }
+case 22:
+                    var4 = new Array(0);
+case 27:
+                    var2 = _closure2_slot0;
+                    var3 = new Array(1);
+                    var3[0] = var2;
+                    var8 = 1;
+                    var10 = var3;
+                    var9 = var4;
+                    var2 = arraySpread(var10, var9, var8);
+                    var2 = var3.filter;
+                    var1 = function(arg1) {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                            var3 = arg1;
+                            var1 = null;
+                            var1 = var1 != var3;
+                            if(!var1) { _fun0004_ip = 26; continue _fun0004 }
+case 28:
+                            var2 = '';
+                            var1 = var2 !== var3;
+case 26:
+                            return var1;
+                        }
+                    };
+                    var1 = var2.bind(var3)(var1);
                     return var1;
                 }
             };
-            var5 = var6.bind(var7)(var4, var5);
-            _closure2_slot7 = var5;
-            var6 = var7.useEffect;
+            var2 = var6.bind(var12)(var2, var5);
+            _closure2_slot6 = var2;
+            var6 = _closure1_slot1;
+            var5 = 10;
+            var5 = var9[var5];
+            var6 = var6.bind(var11)(var5);
+            var5 = var2;
+            if(var3) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
+            var5 = new Array(0);
+case 29:
+            var5 = var6.bind(var11)(var5);
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var5 = 11;
+            var5 = var9[var5];
+            var6 = var6.bind(var11)(var5);
+            var5 = var6.useGamesWithSupplementalDataRequest;
+            if(var3) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
+            var2 = new Array(0);
+case 31:
+            var2 = var5.bind(var6)(var2);
+            var9 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = var6[var13];
+            var16 = var9.bind(var11)(var2);
+            var15 = var16.useStateFromStores;
+            var12 = _closure1_slot5;
+            var14 = new Array(2);
+            var14[0] = var12;
+            var5 = _closure1_slot4;
+            var14[1] = var5;
+            var2 = function() {
+                var3 = _closure2_slot6;
+                var2 = var3.find;
+                var1 = function(arg1) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                        var6 = arg1;
+                        var4 = _closure1_slot10;
+                        var3 = _closure1_slot5;
+                        var2 = var3.getGame;
+                        var5 = var2.bind(var3)(var6);
+                        var2 = null;
+                        var7 = var2 == var5;
+                        var3 = undefined;
+                        var2 = undefined;
+                        if(var7) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
+                        var2 = var5.supplementalData;
+case 33:
+                        var5 = _closure1_slot4;
+                        var1 = var5.getApplication;
+                        var1 = var1.bind(var5)(var6);
+                        var1 = var4.bind(var3)(var2, var1);
+                        return var1;
+                    }
+                };
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var2 = var15.bind(var16)(var14, var2);
+            _closure2_slot7 = var2;
+            var6 = var6[var13];
+            var11 = var9.bind(var11)(var6);
+            var9 = var11.useStateFromStores;
+            var6 = new Array(2);
+            var6[0] = var12;
+            var6[1] = var5;
+            var5 = function() {
+                var3 = _closure2_slot6;
+                var2 = var3.every;
+                var1 = function(arg1) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                        var4 = arg1;
+                        var3 = _closure1_slot5;
+                        var1 = var3.isFetching;
+                        var1 = var1.bind(var3)(var4);
+                        var1 = !var1;
+                        if(!var1) { _fun0006_ip = 35; continue _fun0006 }
+case 36:
+                        var3 = _closure1_slot4;
+                        var2 = var3.isFetchingApplication;
+                        var2 = var2.bind(var3)(var4);
+                        var1 = !var2;
+case 35:
+                        return var1;
+                    }
+                };
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var9 = var9.bind(var11)(var6, var5);
+            _closure2_slot8 = var9;
+            var6 = _closure1_slot3;
+            var5 = var6.useEffect;
             var4 = new Array(6);
-            var4[0] = var5;
-            var4[1] = var2;
+            var4[0] = var2;
+            var4[1] = var10;
             var4[2] = var3;
-            var4[3] = var10;
-            var4[4] = var9;
-            var4[5] = var8;
+            var4[3] = var9;
+            var4[4] = var8;
+            var4[5] = var7;
             var1 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var2 = _closure2_slot3;
                     var2 = var2.current;
-                    if(var2) { _fun0004_ip = 28; continue _fun0004 }
-case 26:
+                    if(var2) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
                     var2 = _closure2_slot4;
-                    if(!var2) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                    if(!var2) { _fun0007_ip = 37; continue _fun0007 }
+case 39:
                     var2 = _closure2_slot2;
-                    if(!var2) { _fun0004_ip = 28; continue _fun0004 }
-case 30:
+                    if(!var2) { _fun0007_ip = 37; continue _fun0007 }
+case 34:
+                    var2 = _closure2_slot5;
+                    var8 = null;
+                    if(!(var8 != var2)) { _fun0007_ip = 37; continue _fun0007 }
+case 40:
+                    var2 = _closure2_slot8;
+                    if(var2) { _fun0007_ip = 41; continue _fun0007 }
+case 42:
+                    var2 = _closure2_slot7;
+                    if(!(var8 != var2)) { _fun0007_ip = 37; continue _fun0007 }
+case 41:
+                    var2 = _closure2_slot7;
+                    if(!(var8 == var2)) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
+                    var4 = _closure1_slot5;
+                    var3 = var4.getGame;
+                    var2 = _closure2_slot5;
+                    var2 = var2.id;
+                    var4 = var3.bind(var4)(var2);
+                    _fun0007_ip = 45; continue _fun0007;
+case 43:
                     var5 = _closure1_slot5;
-                    var4 = var5.isFetching;
-                    var3 = _closure2_slot0;
-                    var4 = var4.bind(var5)(var3);
-                    var3 = false;
-                    if(!(var3 === var4)) { _fun0004_ip = 28; continue _fun0004 }
-case 31:
-                    var4 = _closure2_slot5;
-                    var3 = null;
-                    if(!(var3 != var4)) { _fun0004_ip = 28; continue _fun0004 }
-case 32:
-                    var4 = _closure2_slot7;
-                    if(!(var3 != var4)) { _fun0004_ip = 28; continue _fun0004 }
-case 33:
+                    var3 = var5.getGame;
+                    var2 = _closure2_slot7;
+                    var4 = var3.bind(var5)(var2);
+case 45:
+                    if(!(var8 != var4)) { _fun0007_ip = 37; continue _fun0007 }
+case 46:
                     var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var4 = 11;
-                    var4 = var5[var4];
+                    var3 = 12;
+                    var3 = var5[var3];
                     var5 = undefined;
-                    var7 = var6.bind(var5)(var4);
+                    var9 = var6.bind(var5)(var3);
                     var6 = _closure2_slot1;
-                    var4 = var3 != var6;
+                    var7 = var8 != var6;
                     var3 = 'Cannot track a Game Profile Entry Point Impressions without a source.';
-                    var3 = var7.bind(var5)(var4, var3);
-                    var4 = _closure1_slot9;
+                    var3 = var9.bind(var5)(var7, var3);
+                    var9 = _closure1_slot9;
+                    var7 = var4.supplementalData;
                     var3 = _closure2_slot5;
-                    var7 = var4.bind(var5)(var3);
-                    var9 = _closure2_slot7;
-                    var8 = _closure2_slot0;
-                    if(!(var7 === var5)) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+                    var3 = var9.bind(var5)(var7, var3);
+                    var7 = _closure2_slot7;
+                    var9 = var8 != var7;
+                    var8 = var4.applicationId;
+                    var7 = var3;
+                    if(!(var7 === var5)) { _fun0007_ip = 47; continue _fun0007 }
+case 11:
                     var7 = new Array(0);
-case 34:
+case 47:
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var3 = 4;
@@ -340,18 +471,18 @@ case 34:
                     var2 = _closure2_slot3;
                     var1 = true;
                     var2['current'] = var1;
-case 28:
+case 37:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var1 = var6.bind(var7)(var1, var4);
+            var1 = var5.bind(var6)(var1, var4);
             var1 = {};
-            if(!var3) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
-            var4 = true;
-            var3 = var4 === var5;
-case 36:
+            if(!var3) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
+            var4 = null;
+            var3 = var4 != var2;
+case 48:
             var1['shouldOpenGameProfile'] = var3;
             var1['applicationId'] = var2;
             return var1;
@@ -360,17 +491,27 @@ case 36:
     var3['default'] = var5;
     var3['gameIsAcceptable'] = var4;
     var2 = function(arg1) {
-        var5 = arg1;
-        var3 = _closure1_slot5;
-        var2 = var3.getGame;
-        var4 = var2.bind(var3)(var5);
-        var3 = _closure1_slot4;
-        var2 = var3.getApplication;
-        var3 = var2.bind(var3)(var5);
-        var2 = _closure1_slot10;
-        var1 = undefined;
-        var1 = var2.bind(var1)(var4, var3);
-        return var1;
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var6 = arg1;
+            var3 = _closure1_slot5;
+            var2 = var3.getGame;
+            var2 = var2.bind(var3)(var6);
+            var3 = null;
+            var5 = var3 == var2;
+            var4 = undefined;
+            var3 = undefined;
+            if(var5) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
+            var3 = var2.supplementalData;
+case 50:
+            var5 = _closure1_slot4;
+            var2 = var5.getApplication;
+            var2 = var2.bind(var5)(var6);
+            var1 = _closure1_slot10;
+            var1 = var1.bind(var4)(var3, var2);
+            return var1;
+        }
     };
     var3['gameIdIsAcceptable'] = var2;
     return var1;

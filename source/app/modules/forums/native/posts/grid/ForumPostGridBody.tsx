@@ -8,10 +8,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function GIFIcon() {
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot8;
         var4 = undefined;
         var5 = var2.bind(var4)();
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot6;
         var7 = _closure1_slot1;
         var8 = _closure1_slot2;
         var6 = 6;
@@ -34,9 +34,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = function PlayIcon() {
-        var4 = _closure1_slot7;
+        var4 = _closure1_slot6;
         var6 = _closure1_slot1;
         var7 = _closure1_slot2;
         var5 = 6;
@@ -58,19 +58,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function ExtraMediaIcon(arg1) {
         var1 = arg1;
         var11 = var1.extraMediaCount;
-        var1 = _closure1_slot9;
+        var1 = _closure1_slot8;
         var4 = undefined;
         var9 = var1.bind(var4)();
-        var3 = _closure1_slot8;
+        var3 = _closure1_slot7;
         var2 = _closure1_slot5;
         var1 = {};
         var5 = var9.extraMediaCountContainer;
         var1['style'] = var5;
-        var8 = _closure1_slot7;
+        var8 = _closure1_slot6;
         var13 = _closure1_slot1;
         var10 = _closure1_slot2;
         var12 = 6;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var8.bind(var4)(var7, var5);
         var5 = new Array(2);
         var5[0] = var7;
-        var8 = _closure1_slot7;
+        var8 = _closure1_slot6;
         var7 = _closure1_slot0;
         var6 = 10;
         var6 = var10[var6];
@@ -113,25 +113,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = function MediaGridColumn(arg1) {
         var1 = arg1;
         var7 = var1.column;
         var1 = var1.thread;
         var _closure2_slot0 = var1;
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot8;
         var4 = undefined;
         var6 = var2.bind(var4)();
         var _closure2_slot1 = var6;
         var3 = var7.filter;
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var2 = 11;
+        var2 = 12;
         var2 = var9[var2];
         var2 = var8.bind(var4)(var2);
         var2 = var2.isNotNullish;
         var7 = var3.bind(var7)(var2);
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot6;
         var2 = _closure1_slot5;
         var1 = {};
         var6 = var6.column;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
                 var11 = arg1;
                 var9 = arg2;
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot7;
                 var2 = _closure1_slot4;
                 var4 = var2.Fragment;
                 var3 = {};
@@ -150,7 +150,7 @@ case 0:
                 var2 = var9 > var2;
                 if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var10 = _closure1_slot7;
+                var10 = _closure1_slot6;
                 var8 = _closure1_slot5;
                 var7 = {};
                 var6 = _closure2_slot1;
@@ -161,10 +161,10 @@ case 3:
 case 2:
                 var6 = new Array(2);
                 var6[0] = var2;
-                var10 = _closure1_slot7;
+                var10 = _closure1_slot6;
                 var7 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var1 = var2[var1];
                 var2 = undefined;
                 var1 = var7.bind(var2)(var1);
@@ -197,7 +197,7 @@ case 2:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -219,17 +219,15 @@ case 2:
     var13 = 2;
     var4 = var6[var13];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.View;
-    var _closure1_slot5 = var7;
-    var4 = var4.useWindowDimensions;
-    var _closure1_slot6 = var4;
+    var4 = var4.View;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -298,14 +296,14 @@ case 2:
     var9['color'] = var10;
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = new Array(2);
     var7 = [0, 3];
     var4[0] = var7;
     var7 = [1, 2];
     var4[1] = var7;
-    var _closure1_slot10 = var4;
-    var4 = 16;
+    var _closure1_slot9 = var4;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -320,13 +318,13 @@ case 0:
             var20 = var1.hasUnreads;
             var1 = var1.media;
             var _closure2_slot1 = var1;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot8;
             var4 = undefined;
             var11 = var2.bind(var4)();
             var _closure2_slot2 = var11;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 13;
+            var2 = 14;
             var2 = var6[var2];
             var5 = var5.bind(var4)(var2);
             var2 = var5.useSomeAppliedTags;
@@ -354,9 +352,13 @@ case 0:
                 var5 = arg2;
                 var _closure3_slot0 = var3;
                 var _closure3_slot1 = var5;
-                var6 = _closure1_slot6;
-                var4 = undefined;
-                var4 = var6.bind(var4)();
+                var7 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var4 = 11;
+                var4 = var6[var4];
+                var6 = undefined;
+                var4 = var7.bind(var6)(var4);
+                var4 = var4.bind(var6)();
                 var7 = var4.width;
                 var _closure3_slot2 = var7;
                 var8 = _closure1_slot4;
@@ -371,7 +373,7 @@ case 0:
                     var3 = var2.length;
                     var2 = 2;
                     var5 = var4.bind(var5)(var3, var2);
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot9;
                     var3 = var4.slice;
                     var2 = 0;
                     var4 = var3.bind(var4)(var2, var5);
@@ -389,7 +391,7 @@ case 0:
                         var2 = var3.filter;
                         var5 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 12;
                         var4 = var4[var1];
                         var1 = undefined;
                         var1 = var5.bind(var1)(var4);
@@ -434,7 +436,7 @@ case 4:
                             var4 = var3.filter;
                             var6 = _closure1_slot0;
                             var5 = _closure1_slot2;
-                            var2 = 11;
+                            var2 = 12;
                             var5 = var5[var2];
                             var2 = undefined;
                             var2 = var6.bind(var2)(var5);
@@ -504,7 +506,7 @@ case 8:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -516,7 +518,7 @@ case 8:
             var1 = var3.bind(var5)(var1, var2);
             var15 = var1.containsVideo;
             var16 = var1.containsGif;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var2 = _closure1_slot5;
             var1 = {};
             var7 = var11.container;
@@ -529,7 +531,7 @@ case 10:
 case 9:
             var5[1] = var7;
             var1['style'] = var5;
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var7 = _closure1_slot5;
             var5 = {};
             var19 = var11.grid;
@@ -547,7 +549,7 @@ case 11:
 case 0:
                     var9 = arg1;
                     var8 = arg2;
-                    var5 = _closure1_slot8;
+                    var5 = _closure1_slot7;
                     var1 = _closure1_slot4;
                     var4 = var1.Fragment;
                     var3 = {};
@@ -555,7 +557,7 @@ case 0:
                     var6 = var8 > var1;
                     if(!var6) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
-                    var11 = _closure1_slot7;
+                    var11 = _closure1_slot6;
                     var10 = _closure1_slot5;
                     var7 = {};
                     var1 = _closure2_slot2;
@@ -566,8 +568,8 @@ case 3:
 case 2:
                     var1 = new Array(2);
                     var1[0] = var6;
-                    var10 = _closure1_slot7;
-                    var7 = _closure1_slot14;
+                    var10 = _closure1_slot6;
+                    var7 = _closure1_slot13;
                     var6 = {};
                     var6['column'] = var9;
                     var2 = _closure2_slot0;
@@ -594,7 +596,7 @@ case 2:
             var7 = var17;
             if(!var7) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var12 = _closure1_slot7;
+            var12 = _closure1_slot6;
             var9 = _closure1_slot5;
             var8 = {};
             var14 = var11.footerLeftContainer;
@@ -602,10 +604,10 @@ case 14:
             var14 = var17;
             if(!var17) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var19 = _closure1_slot7;
+            var19 = _closure1_slot6;
             var18 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var17 = 15;
+            var17 = 16;
             var17 = var23[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.ForumPostAppliedTagPills;
@@ -626,20 +628,20 @@ case 18:
 case 17:
             if(!var7) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
-            var12 = _closure1_slot8;
+            var12 = _closure1_slot7;
             var9 = _closure1_slot5;
             var8 = {};
             var14 = var11.headerLeftContainer;
             var8['style'] = var14;
             if(!var16) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
-            var18 = _closure1_slot7;
+            var18 = _closure1_slot6;
             var17 = _closure1_slot5;
             var14 = {};
             var19 = var11.mediaIconContainer;
             var14['style'] = var19;
-            var21 = _closure1_slot7;
-            var20 = _closure1_slot11;
+            var21 = _closure1_slot6;
+            var20 = _closure1_slot10;
             var19 = {};
             var19 = var21.bind(var4)(var20, var19);
             var14['children'] = var19;
@@ -649,13 +651,13 @@ case 21:
             var14[0] = var16;
             if(!var15) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            var18 = _closure1_slot7;
+            var18 = _closure1_slot6;
             var17 = _closure1_slot5;
             var16 = {};
             var19 = var11.mediaIconContainer;
             var16['style'] = var19;
-            var21 = _closure1_slot7;
-            var20 = _closure1_slot12;
+            var21 = _closure1_slot6;
+            var20 = _closure1_slot11;
             var19 = {};
             var19 = var21.bind(var4)(var20, var19);
             var16['children'] = var19;
@@ -669,13 +671,13 @@ case 19:
             var6 = var6 !== var13;
             if(!var6) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot6;
             var8 = _closure1_slot5;
             var7 = {};
             var11 = var11.footerRightContainer;
             var7['style'] = var11;
-            var12 = _closure1_slot7;
-            var11 = _closure1_slot13;
+            var12 = _closure1_slot6;
+            var11 = _closure1_slot12;
             var10 = {};
             var10['extraMediaCount'] = var13;
             var10 = var12.bind(var4)(var11, var10);

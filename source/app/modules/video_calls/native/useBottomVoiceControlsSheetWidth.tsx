@@ -3,6 +3,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var1 = metroImportDefault;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -15,15 +18,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
-    var4 = var4.useWindowDimensions;
-    var _closure1_slot0 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.BOX_MODE_ACTIONSHEET_WIDTH;
-    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var7;
     var4 = var4.BOX_MODE_THRESHOLD_WIDTH;
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -33,14 +31,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useBottomVoiceControlsSheetWidth() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var3 = _closure1_slot0;
-            var1 = undefined;
-            var1 = var3.bind(var1)();
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var4.bind(var3)(var1);
+            var1 = var1.bind(var3)();
             var1 = var1.width;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             if(!(var1 > var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = _closure1_slot1;
+            var1 = _closure1_slot2;
 case 2:
             return var1;
         }

@@ -34,133 +34,132 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var3 = var1.platform;
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var6 = 2;
-            var2 = var2[var6];
+            var5 = var1.size;
             var4 = undefined;
-            var2 = var5.bind(var4)(var2);
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var5 = 'xs';
+case 2:
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var7 = 2;
+            var2 = var2[var7];
+            var2 = var6.bind(var4)(var2);
             var2 = var2.PlatformType;
             var2 = var2.DESKTOP;
-            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var5.bind(var4)(var2);
-            var2 = var2.PlatformType;
-            var2 = var2.XBOX;
             if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var5 = _closure1_slot0;
+            var6 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var5.bind(var4)(var2);
+            var2 = var2[var7];
+            var2 = var6.bind(var4)(var2);
             var2 = var2.PlatformType;
-            var2 = var2.PLAYSTATION;
+            var2 = var2.XBOX;
             if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var5 = _closure1_slot0;
+            var6 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var5.bind(var4)(var2);
+            var2 = var2[var7];
+            var2 = var6.bind(var4)(var2);
             var2 = var2.PlatformType;
-            var2 = var2.NINTENDO;
+            var2 = var2.PLAYSTATION;
             if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var5 = _closure1_slot0;
+            var6 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var5.bind(var4)(var2);
+            var2 = var2[var7];
+            var2 = var6.bind(var4)(var2);
             var2 = var2.PlatformType;
-            var2 = var2.ANDROID;
+            var2 = var2.NINTENDO;
             if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var5 = _closure1_slot0;
+            var6 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var5.bind(var4)(var2);
+            var2 = var2[var7];
+            var2 = var6.bind(var4)(var2);
             var2 = var2.PlatformType;
-            var2 = var2.IOS;
+            var2 = var2.ANDROID;
             if(!(var2 !== var3)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var7];
+            var2 = var6.bind(var4)(var2);
+            var2 = var2.PlatformType;
+            var2 = var2.IOS;
+            if(!(var2 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = null;
             return var2;
-case 12:
-            var5 = _closure1_slot2;
+case 14:
+            var6 = _closure1_slot2;
             var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var7 = _closure1_slot1;
             var2 = 8;
-            var2 = var6[var2];
+            var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.AppleNeutralIcon;
             var2 = {};
-            var6 = 'xs';
-            var2['size'] = var6;
-            var2 = var5.bind(var4)(var3, var2);
+            var2['size'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 10:
-            var5 = _closure1_slot2;
+case 12:
+            var6 = _closure1_slot2;
             var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var7 = _closure1_slot1;
             var2 = 7;
-            var2 = var6[var2];
+            var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.MobilePhoneIcon;
             var2 = {};
-            var6 = 'xs';
-            var2['size'] = var6;
-            var2 = var5.bind(var4)(var3, var2);
+            var2['size'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 8:
-            var5 = _closure1_slot2;
+case 10:
+            var6 = _closure1_slot2;
             var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var7 = _closure1_slot1;
             var2 = 6;
-            var2 = var6[var2];
+            var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.NintendoSwitchNeutralIcon;
             var2 = {};
-            var6 = 'xs';
-            var2['size'] = var6;
-            var2 = var5.bind(var4)(var3, var2);
+            var2['size'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 6:
-            var5 = _closure1_slot2;
+case 8:
+            var6 = _closure1_slot2;
             var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var7 = _closure1_slot1;
             var2 = 5;
-            var2 = var6[var2];
+            var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.PlaystationNeutralIcon;
             var2 = {};
-            var6 = 'xs';
-            var2['size'] = var6;
-            var2 = var5.bind(var4)(var3, var2);
+            var2['size'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 4:
-            var5 = _closure1_slot2;
+case 6:
+            var6 = _closure1_slot2;
             var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var7 = _closure1_slot1;
             var2 = 4;
-            var2 = var6[var2];
+            var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.XboxNeutralIcon;
             var2 = {};
-            var6 = 'xs';
-            var2['size'] = var6;
-            var2 = var5.bind(var4)(var3, var2);
+            var2['size'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 2:
+case 4:
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var6 = _closure1_slot1;
             var1 = 3;
-            var1 = var5[var1];
+            var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.ScreenIcon;
             var1 = {};
-            var5 = 'xs';
             var1['size'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

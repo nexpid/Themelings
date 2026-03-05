@@ -172,7 +172,7 @@ case 25:
             var1['indicatorLeft'] = var7;
             var1['showIndicator'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0002_ip = 17; continue _fun0002;
+            _fun0002_ip = 26; continue _fun0002;
 case 24:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
@@ -232,7 +232,7 @@ case 24:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 17:
+case 26:
             return var1;
         }
     };
@@ -243,61 +243,61 @@ case 0:
             var1 = arg1;
             var2 = var1.value;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+            if(!(var2 === var4)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var2 = null;
-case 26:
+case 27:
             var _closure2_slot0 = var2;
             var7 = var1.options;
-            if(!(var7 === var4)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+            if(!(var7 === var4)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var7 = new Array(0);
-case 28:
+case 29:
             var _closure2_slot1 = var7;
             var2 = var1.style;
             var _closure2_slot2 = var2;
             var2 = var1.size;
-            if(!(var2 === var4)) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+            if(!(var2 === var4)) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
             var3 = _closure1_slot7;
             var2 = var3.MEDIUM;
-case 30:
+case 31:
             var _closure2_slot3 = var2;
             var2 = var1.disabled;
-            if(!(var2 === var4)) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+            if(!(var2 === var4)) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
             var2 = false;
-case 32:
+case 33:
             var _closure2_slot4 = var2;
             var2 = var1.withSpacing;
-            if(!(var2 === var4)) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+            if(!(var2 === var4)) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
             var2 = false;
-case 34:
+case 35:
             var _closure2_slot5 = var2;
             var2 = var1.indicatorLeft;
-            if(!(var2 === var4)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(!(var2 === var4)) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
             var2 = false;
-case 36:
+case 37:
             var _closure2_slot6 = var2;
             var2 = var1.showIndicator;
-            if(!(var2 === var4)) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+            if(!(var2 === var4)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var2 = true;
-case 38:
+case 39:
             var _closure2_slot7 = var2;
             var2 = var1.withDividers;
-            if(!(var2 === var4)) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+            if(!(var2 === var4)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var2 = true;
-case 40:
+case 41:
             var _closure2_slot8 = var2;
             var1 = var1.onChange;
-            if(!(var1 === var4)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+            if(!(var1 === var4)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
             var1 = _closure1_slot4;
-case 42:
+case 43:
             var _closure2_slot9 = var1;
             var _closure2_slot10 = var4;
             var2 = _closure1_slot9;
@@ -331,26 +331,26 @@ case 0:
                     var2 = var2.length;
                     var13 = 1;
                     var2 = var2 - var13;
-                    if(!(var9 !== var2)) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
-                    var2 = _closure2_slot5;
-                    if(var2) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
-                    var2 = {};
-                    _fun0005_ip = 48; continue _fun0005;
+                    if(!(var9 !== var2)) { _fun0005_ip = 45; continue _fun0005 }
 case 46:
+                    var2 = _closure2_slot5;
+                    if(var2) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
+                    var2 = {};
+                    _fun0005_ip = 49; continue _fun0005;
+case 47:
                     var7 = {};
                     var8 = 8;
                     var7['marginBottom'] = var8;
                     var2 = var7;
-case 48:
-                    _fun0005_ip = 49; continue _fun0005;
-case 44:
+case 49:
+                    _fun0005_ip = 25; continue _fun0005;
+case 45:
                     var7 = {};
                     var8 = 0;
                     var7['marginBottom'] = var8;
                     var2 = var7;
-case 49:
+case 25:
                     var1[1] = var2;
                     var11['style'] = var1;
                     var1 = _closure2_slot3;

@@ -350,7 +350,7 @@ case 26:
         }
     };
     var3['browserManagerSelectBrowser'] = var4;
-    var2 = function browserManagerCloseBrowser() {
+    var4 = function browserManagerCloseBrowser() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -371,6 +371,49 @@ case 31:
             return var1;
         }
     };
-    var3['browserManagerCloseBrowser'] = var2;
+    var3['browserManagerCloseBrowser'] = var4;
+    var2 = function openPlayStoreInlineInstall(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var5 = arg1;
+            var4 = arg2;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 2;
+            var1 = var6[var1];
+            var6 = undefined;
+            var3 = var3.bind(var6)(var1);
+            var1 = var3.isAndroid;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
+            var1 = null;
+            if(!(var1 != var4)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+            var3 = _closure1_slot4;
+            var1 = var3.openAppStoreInline;
+            var1 = var1.bind(var3)(var5, var4);
+            _fun0005_ip = 37; continue _fun0005;
+case 35:
+            var3 = global;
+            var8 = var3.Promise;
+            var7 = var8.resolve;
+            var3 = false;
+            var1 = var7.bind(var8)(var3);
+case 37:
+            _fun0005_ip = 38; continue _fun0005;
+case 33:
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 3;
+            var2 = var7[var2];
+            var3 = var3.bind(var6)(var2);
+            var2 = var3.openPlayStoreInline;
+            var1 = var2.bind(var3)(var5, var4);
+case 38:
+            return var1;
+        }
+    };
+    var3['openPlayStoreInlineInstall'] = var2;
     return var1;
 })();

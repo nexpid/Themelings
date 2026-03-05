@@ -949,7 +949,7 @@ case 83:
             var3 = var3 instanceof Object ? var3 : var5;
             _closure2_slot9 = var3;
             var3 = _closure1_slot3;
-            var2 = function* (arg1) {
+            var5 = function* (arg1) {
                 var1 = function* anon_0_(arg1) {
                     _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
@@ -957,8 +957,8 @@ case 0:
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0015_ip = 85; continue _fun0015 }
 case 86:
-                        var11 = 0;
-                        var6 = copyRestArgs(var11);
+                        var12 = 0;
+                        var7 = copyRestArgs(var12);
                         var4 = undefined;
                         SaveGenerator(address=22);
 case 87:
@@ -967,39 +967,40 @@ case 88:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                         if(var3) { _fun0015_ip = 89; continue _fun0015 }
 case 90:
-                        var7 = _closure2_slot1;
+                        var6 = _closure2_slot1;
                         var5 = new Array(0);
-                        var11 = var5;
-                        var10 = var6;
-                        var9 = 0;
-                        var8 = arraySpread(var11, var10, var9);
+                        var12 = var5;
                         var11 = var7;
-                        var10 = var5;
-                        var9 = undefined;
-                        var7 = apply(var11, var10, var9);
+                        var10 = 0;
+                        var8 = arraySpread(var12, var11, var10);
+                        var12 = var6;
+                        var11 = var5;
+                        var10 = undefined;
+                        var8 = apply(var12, var11, var10);
                         var5 = _closure2_slot10;
-                        var8 = var5.bind(var4)(var7);
-                        var5 = var8.getState;
-                        var5 = var5.bind(var8)();
-                        var8 = var5.backoff;
-                        var5 = var8.succeed;
-                        var5 = var5.bind(var8)();
+                        var6 = var5.bind(var4)(var8);
+                        var5 = var6.getState;
+                        var5 = var5.bind(var6)();
+                        var9 = var5.backoff;
+                        var5 = var9.succeed;
+                        var5 = var5.bind(var9)();
                         var5 = _closure2_slot11;
                         var3 = {};
-                        var3['queryId'] = var7;
-                        var3['args'] = var6;
+                        var3['queryId'] = var8;
+                        var3['args'] = var7;
+                        var3['useStoreState'] = var6;
                         var6 = true;
                         var3['refetch'] = var6;
                         var3 = var5.bind(var4)(var3);
-                        SaveGenerator(address=130);
+                        SaveGenerator(address=135);
 case 91:
                         return var3;
-case 22:
-                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                        if(var5) { _fun0015_ip = 75; continue _fun0015 }
 case 92:
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                        if(var5) { _fun0015_ip = 93; continue _fun0015 }
+case 94:
                         return var4;
-case 75:
+case 93:
                         return var3;
 case 89:
                         return var2;
@@ -1011,8 +1012,153 @@ case 85:
                 var2 = var2.bind(var1)();
                 return var1;
             };
+            var5 = var3.bind(var4)(var5);
+            var1['refetch'] = var5;
+            var5 = function* (arg1) {
+                var1 = function* anon_0_(arg1) {
+                    _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0016_ip = 95; continue _fun0016 }
+case 96:
+                        var9 = 0;
+                        var8 = copyRestArgs(var9);
+                        var4 = undefined;
+                        SaveGenerator(address=19);
+case 11:
+                        return var4;
+case 97:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                        if(var3) { _fun0016_ip = 98; continue _fun0016 }
+case 79:
+                        var3 = global;
+                        var6 = var3.Promise;
+                        var5 = var6.all;
+                        var7 = var8.map;
+                        var3 = function(arg1) {
+                            var6 = arg1;
+                            var2 = _closure2_slot1;
+                            var1 = new Array(0);
+                            var8 = 0;
+                            var10 = var1;
+                            var9 = var6;
+                            var3 = arraySpread(var10, var9, var8);
+                            var3 = undefined;
+                            var10 = var2;
+                            var9 = var1;
+                            var8 = undefined;
+                            var5 = apply(var10, var9, var8);
+                            var2 = _closure2_slot11;
+                            var1 = {};
+                            var1['queryId'] = var5;
+                            var1['args'] = var6;
+                            var4 = _closure2_slot10;
+                            var4 = var4.bind(var3)(var5);
+                            var1['useStoreState'] = var4;
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
+                        };
+                        var3 = var7.bind(var8)(var3);
+                        var3 = var5.bind(var6)(var3);
+                        SaveGenerator(address=65);
+case 65:
+                        return var3;
+case 52:
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                        if(var5) { _fun0016_ip = 4; continue _fun0016 }
+case 99:
+                        return var4;
+case 4:
+                        return var3;
+case 98:
+                        return var2;
+case 95:
+                        return var1;
+                    }
+                };
+                var2 = var1.next;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
+            var5 = var3.bind(var4)(var5);
+            var1['fetchMany'] = var5;
+            var2 = function* (arg1) {
+                var1 = function* anon_0_(arg1) {
+                    _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0017_ip = 95; continue _fun0017 }
+case 96:
+                        var9 = 0;
+                        var8 = copyRestArgs(var9);
+                        var4 = undefined;
+                        SaveGenerator(address=19);
+case 11:
+                        return var4;
+case 97:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                        if(var3) { _fun0017_ip = 98; continue _fun0017 }
+case 79:
+                        var3 = global;
+                        var6 = var3.Promise;
+                        var5 = var6.all;
+                        var7 = var8.map;
+                        var3 = function(arg1) {
+                            var5 = arg1;
+                            var4 = _closure2_slot1;
+                            var2 = new Array(0);
+                            var8 = 0;
+                            var10 = var2;
+                            var9 = var5;
+                            var3 = arraySpread(var10, var9, var8);
+                            var3 = undefined;
+                            var10 = var4;
+                            var9 = var2;
+                            var8 = undefined;
+                            var6 = apply(var10, var9, var8);
+                            var2 = _closure2_slot10;
+                            var4 = var2.bind(var3)(var6);
+                            var2 = var4.getState;
+                            var2 = var2.bind(var4)();
+                            var7 = var2.backoff;
+                            var2 = var7.succeed;
+                            var2 = var2.bind(var7)();
+                            var2 = _closure2_slot11;
+                            var1 = {};
+                            var1['queryId'] = var6;
+                            var1['args'] = var5;
+                            var1['useStoreState'] = var4;
+                            var4 = true;
+                            var1['refetch'] = var4;
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
+                        };
+                        var3 = var7.bind(var8)(var3);
+                        var3 = var5.bind(var6)(var3);
+                        SaveGenerator(address=65);
+case 65:
+                        return var3;
+case 52:
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                        if(var5) { _fun0017_ip = 4; continue _fun0017 }
+case 99:
+                        return var4;
+case 4:
+                        return var3;
+case 98:
+                        return var2;
+case 95:
+                        return var1;
+                    }
+                };
+                var2 = var1.next;
+                var2 = var2.bind(var1)();
+                return var1;
+            };
             var2 = var3.bind(var4)(var2);
-            var1['refetch'] = var2;
+            var1['refetchMany'] = var2;
             return var1;
         }
     };

@@ -121,8 +121,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['start'] = var8;
             var6 = var7 === var6;
             var2['end'] = var6;
-            var6 = true;
-            var2['newUI'] = var6;
             var1 = var1.id;
             var1 = var5.bind(var4)(var3, var2, var1);
             return var1;

@@ -232,7 +232,7 @@ case 9:
         }
     };
     var3['getNativePlatform'] = var4;
-    var2 = function getOS() {
+    var4 = function getOS() {
         var1 = global;
         var1 = var1.window;
         var1 = var1.navigator;
@@ -240,6 +240,21 @@ case 9:
         var1 = 'android';
         return var1;
     };
-    var3['getOS'] = var2;
+    var3['getOS'] = var4;
+    var2 = function getNewUpdaterPlatformName() {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var2 = _closure1_slot2;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            if(var2) { _fun0009_ip = 2; continue _fun0009 }
+case 3:
+            return var1;
+case 2:
+            var1 = 'win';
+            return var1;
+        }
+    };
+    var3['getNewUpdaterPlatformName'] = var2;
     return var1;
 })();
