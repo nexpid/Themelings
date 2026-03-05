@@ -5330,26 +5330,6 @@
         "width": 16,
         "height": 16
     },
-    "ic_noise_cancellation_active": {
-        "file": "app/images/native/icons/ic_noise_cancellation_active.png",
-        "hash": "f33ce4e2648871bdafadf0cdb5a7a8ed",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_noise_cancellation_disabled": {
-        "file": "app/images/native/icons/ic_noise_cancellation_disabled.png",
-        "hash": "ef357f40cf0099fc9738eec4aab8cfe8",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_notif": {
         "file": "app/images/native/chat_sidebar/ic_notif.png",
         "hash": "f15a8eea867ca31909b0a1cf49c6c7d8",
@@ -5450,16 +5430,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_pip": {
-        "file": "app/images/native/icons/ic_pip.png",
-        "hash": "8f82b1f0fb6182069890257518be8722",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 12,
-        "height": 12
     },
     "ic_play": {
         "file": "app/images/native/icons/ic_play.png",
@@ -5820,16 +5790,6 @@
     "ic_show_password": {
         "file": "app/images/native/icons/ic_show_password.png",
         "hash": "5150b233942dc6f429a27a73fff2408c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_soundboard": {
-        "file": "app/images/native/icons/ic_soundboard.png",
-        "hash": "8cafd9a5c078b00c47046b0e37a97f6c",
         "scales": [
             2,
             3
@@ -9303,16 +9263,6 @@
         "width": 70,
         "height": 47
     },
-    "krisp_header": {
-        "file": "app/images/native/krisp_header.png",
-        "hash": "7250758ce8c8a2ccb1a5a900307df9d2",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 248,
-        "height": 117
-    },
     "krisp_logo_dark": {
         "file": "app/images/native/krisp_logo_dark.png",
         "hash": "6d3bdfffed77899f44fd075e4ef2e92a",
@@ -9860,16 +9810,6 @@
         ],
         "width": 60,
         "height": 60
-    },
-    "mobile": {
-        "file": "app/modules/video_calls/native/images/mobile.png",
-        "hash": "4c0809fe1983c7e9abf26a16ef03ad00",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "mobile-empty-state": {
         "file": "app/modules/guild_onboarding_home/images/mobile-empty-state.png",
@@ -11200,7 +11140,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/hub/native/images/search_empty_state.png",
+        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
@@ -12266,14 +12206,14 @@
         "height": 23
     },
     "tier_1_32px": {
-        "file": "app/images/native/premium/guild_boosting/tier_icons/colored/tier_1_32px.png",
-        "hash": "e7624f04ed4a80ca86e10402e935320b",
+        "file": "app/images/native/premium/guild_boosting/tier_icons/simple/tier_1_32px.png",
+        "hash": "b352e1ffa0afe53b75c17fb675b513d6",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 32,
+        "height": 32
     },
     "tier_2_24px": {
         "file": "app/images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_2_24px.png",
@@ -12286,14 +12226,14 @@
         "height": 23
     },
     "tier_2_32px": {
-        "file": "app/images/native/premium/guild_boosting/tier_icons/colored/tier_2_32px.png",
-        "hash": "8f9077e5b37bff7706de677d0f3debbe",
+        "file": "app/images/native/premium/guild_boosting/tier_icons/simple/tier_2_32px.png",
+        "hash": "d9ada236b866307c8985fc87fdd51c88",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 32,
+        "height": 32
     },
     "tier_3_24px": {
         "file": "app/images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_3_24px.png",
@@ -12306,14 +12246,14 @@
         "height": 23
     },
     "tier_3_32px": {
-        "file": "app/images/native/premium/guild_boosting/tier_icons/colored/tier_3_32px.png",
-        "hash": "81c4c8246b195a90d6f5bb90212bbc6a",
+        "file": "app/images/native/premium/guild_boosting/tier_icons/simple/tier_3_32px.png",
+        "hash": "1b3ea47fa559c5b08fa13d985346d3b8",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 32,
+        "height": 32
     },
     "TiktokNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TiktokNeutralIcon.png",
@@ -13137,6 +13077,16 @@
     "XLargeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/XLargeIcon.png",
         "hash": "7a48deb52103abdcd6ae6a0e506c31e4",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "XNeutralIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/XNeutralIcon.png",
+        "hash": "06dd03fc60ccef8d12f4f7cb6c5d239c",
         "scales": [
             2,
             3
