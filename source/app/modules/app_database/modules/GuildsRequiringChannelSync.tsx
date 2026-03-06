@@ -1164,7 +1164,7 @@ case 115:
                 var1 = var1.id;
                 var1 = var2.bind(var4)(var1, var5);
                 if(var1) { _fun0016_ip = 118; continue _fun0016 }
-case 119:
+case 113:
                 var2 = var4.anyChannelsObfuscated;
                 var1 = var2.bind(var4)(var3);
 case 118:
@@ -1182,10 +1182,10 @@ case 0:
                 var2 = arguments[1];
                 var3 = this;
                 var4 = undefined;
-                if(!(var2 === var4)) { _fun0017_ip = 120; continue _fun0017 }
+                if(!(var2 === var4)) { _fun0017_ip = 119; continue _fun0017 }
 case 32:
                 var2 = new Array(0);
-case 120:
+case 119:
                 var _closure3_slot0 = var2;
                 var5 = _closure1_slot7;
                 var4 = var5.getMutableGuildChannelsForGuild;

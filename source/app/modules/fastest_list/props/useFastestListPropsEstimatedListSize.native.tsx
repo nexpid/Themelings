@@ -3,6 +3,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -16,17 +18,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportDefault;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var _closure1_slot0 = var4;
+    var _closure1_slot2 = var4;
     var4 = 1;
     var7 = var6[var4];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
-    var _closure1_slot1 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.Dimensions;
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -39,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var3;
         var1 = var1.horizontal;
         var _closure2_slot1 = var1;
-        var4 = _closure1_slot1;
+        var4 = _closure1_slot3;
         var3 = var4.useState;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -52,10 +49,14 @@ case 3:
                 _fun0001_ip = 4; continue _fun0001;
 case 2:
                 var2 = _closure2_slot1;
-                var5 = _closure1_slot2;
-                var4 = var5.get;
-                var3 = 'window';
-                var3 = var4.bind(var5)(var3);
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var3 = 2;
+                var4 = var4[var3];
+                var3 = undefined;
+                var4 = var5.bind(var3)(var4);
+                var3 = var4.getWindowDimensions;
+                var3 = var3.bind(var4)();
                 if(var2) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
                 var2 = var3.height;
@@ -69,7 +70,7 @@ case 4:
             }
         };
         var4 = var3.bind(var4)(var2);
-        var3 = _closure1_slot0;
+        var3 = _closure1_slot2;
         var2 = undefined;
         var1 = 2;
         var3 = var3.bind(var2)(var4, var1);

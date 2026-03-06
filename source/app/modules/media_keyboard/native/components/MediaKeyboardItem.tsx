@@ -212,25 +212,8 @@ case 20:
     var16 = var16.xs;
     var6['borderRadius'] = var16;
     var8['imageContainer'] = var6;
-    var6 = {'backgroundColor': null, 'borderRadius': null, 'paddingHorizontal': 8, 'paddingVertical': 2, 'position': 'absolute', 'right': 6, 'bottom': 6};
-    var17 = 8;
-    var16 = var10[var17];
-    var21 = var9.bind(var1)(var16);
-    var20 = var21.hexWithOpacity;
-    var16 = var10[var13];
-    var16 = var14.bind(var1)(var16);
-    var16 = var16.unsafe_rawColors;
-    var19 = var16.PRIMARY_700;
-    var16 = 0.5;
-    var16 = var20.bind(var21)(var19, var16);
-    var6['backgroundColor'] = var16;
-    var16 = var10[var13];
-    var16 = var14.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.xs;
-    var6['borderRadius'] = var16;
-    var8['labelContainer'] = var6;
     var6 = {'flexDirection': 'row', 'alignItems': 'center', 'backgroundColor': null, 'borderRadius': null, 'paddingHorizontal': 5, 'paddingVertical': 4, 'position': 'absolute', 'left': 8, 'bottom': 8};
+    var17 = 8;
     var16 = var10[var17];
     var21 = var9.bind(var1)(var16);
     var20 = var21.hexWithOpacity;
@@ -247,8 +230,6 @@ case 20:
     var16 = var16.xs;
     var6['borderRadius'] = var16;
     var8['newlabelContainer'] = var6;
-    var6 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var8['errorContainer'] = var6;
     var6 = {};
     var16 = 10;
     var6['right'] = var16;
@@ -663,7 +644,7 @@ case 49:
 case 48:
             var14 = var1;
 case 44:
-            var19 = _closure1_slot9;
+            var18 = _closure1_slot9;
             var22 = _closure1_slot1;
             var23 = _closure1_slot2;
             var1 = 5;
@@ -671,37 +652,36 @@ case 44:
             var1 = var22.bind(var4)(var1);
             var7 = var1.View;
             var1 = {};
-            var18 = var13.checkIconContainer;
-            var1['style'] = var18;
-            var18 = 9;
-            var18 = var23[var18];
-            var21 = var22.bind(var4)(var18);
-            var20 = {};
-            var18 = 19;
-            var18 = var23[var18];
-            var18 = var22.bind(var4)(var18);
-            var20['source'] = var18;
-            var18 = false;
-            var20['disableColor'] = var18;
-            var22 = var13.checkIcon;
-            var22 = var22.color;
-            var20['color'] = var22;
-            var22 = var13.checkIcon;
-            var20['style'] = var22;
-            var20 = var19.bind(var4)(var21, var20);
-            var1['children'] = var20;
-            var7 = var19.bind(var4)(var7, var1);
+            var19 = var13.checkIconContainer;
+            var1['style'] = var19;
+            var19 = 9;
+            var19 = var23[var19];
+            var20 = var22.bind(var4)(var19);
+            var19 = {};
+            var21 = 19;
+            var21 = var23[var21];
+            var21 = var22.bind(var4)(var21);
+            var19['source'] = var21;
+            var21 = false;
+            var19['disableColor'] = var21;
+            var21 = var13.checkIcon;
+            var21 = var21.color;
+            var19['color'] = var21;
+            var21 = var13.checkIcon;
+            var19['style'] = var21;
+            var19 = var18.bind(var4)(var20, var19);
+            var1['children'] = var19;
+            var7 = var18.bind(var4)(var7, var1);
             var1 = _closure1_slot20;
             var11 = var1.bind(var4)(var11, var2, var3);
             var3 = _closure1_slot10;
             var2 = _closure1_slot5;
             var1 = {};
-            var19 = 'button';
-            var1['accessibilityRole'] = var19;
+            var18 = 'button';
+            var1['accessibilityRole'] = var18;
             var1['accessibilityLabel'] = var17;
             var17 = {};
             var17['selected'] = var8;
-            var17['disabled'] = var18;
             var1['accessibilityState'] = var17;
             var1['onPress'] = var12;
             var1['onLongPress'] = var5;
@@ -1246,12 +1226,12 @@ case 0:
             var2 = arg1;
             var1 = 'type';
             var1 = var1 in var2;
-            if(!var1) { _fun0012_ip = 63; continue _fun0012 }
+            if(!var1) { _fun0012_ip = 64; continue _fun0012 }
 case 3:
             var3 = var2.type;
             var2 = 'allphotos';
             var1 = var2 === var3;
-case 63:
+case 64:
             return var1;
         }
     };

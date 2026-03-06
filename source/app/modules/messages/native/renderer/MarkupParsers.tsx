@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new var16[var4](var15, var14);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot7 = var4;
-    var4 = 7;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -228,133 +228,124 @@ case 12:
     var2 = function parseMessageMarkup(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var5 = arg1;
-            var13 = arg3;
-            var12 = arguments[3];
-            var10 = arguments[4];
-            var11 = arguments[5];
-            var4 = arguments[6];
-            var9 = undefined;
-            if(!(var12 === var9)) { _fun0004_ip = 14; continue _fun0004 }
+            var6 = arg1;
+            var14 = arg3;
+            var13 = arguments[3];
+            var11 = arguments[4];
+            var12 = arguments[5];
+            var5 = arguments[6];
+            var10 = undefined;
+            if(!(var13 === var10)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
-            var12 = false;
+            var13 = false;
 case 14:
-            if(!(var10 === var9)) { _fun0004_ip = 16; continue _fun0004 }
+            if(!(var11 === var10)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-            var10 = false;
-case 16:
-            if(!(var11 === var9)) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
             var11 = false;
+case 16:
+            if(!(var12 === var10)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+            var12 = false;
 case 18:
-            if(!(var4 === var9)) { _fun0004_ip = 20; continue _fun0004 }
+            if(!(var5 === var10)) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
-            var4 = false;
+            var5 = false;
 case 20:
             var2 = _closure1_slot7;
             var1 = var2.get;
-            var1 = var1.bind(var2)(var5);
-            var6 = null;
-            if(!(var6 != var1)) { _fun0004_ip = 22; continue _fun0004 }
+            var1 = var1.bind(var2)(var6);
+            var3 = null;
+            if(!(var3 != var1)) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
             var2 = var1.isInlineReplyPreview;
-            if(!(var2 !== var12)) { _fun0004_ip = 24; continue _fun0004 }
+            if(!(var2 !== var13)) { _fun0004_ip = 24; continue _fun0004 }
 case 22:
-            var7 = var5.type;
+            var7 = var6.type;
             var2 = _closure1_slot3;
             var2 = var2.CHANGELOG;
             if(!(var7 === var2)) { _fun0004_ip = 25; continue _fun0004 }
 case 6:
-            var2 = var5.changelogId;
-            if(!(var6 == var2)) { _fun0004_ip = 26; continue _fun0004 }
+            var2 = var6.changelogId;
+            if(!(var3 == var2)) { _fun0004_ip = 26; continue _fun0004 }
 case 25:
+            var2 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 5;
-            var2 = var8[var2];
-            var2 = var7.bind(var9)(var2);
-            var14 = var2.GameMentionsUserExperiment;
-            var6 = var14.getCurrentConfig;
-            var2 = {};
-            var15 = 'native/MarkupParsers';
-            var2['location'] = var15;
-            var2 = var6.bind(var14)(var2);
-            var14 = var2.enabled;
-            var2 = {};
-            var6 = 6;
-            var6 = var8[var6];
-            var8 = var7.bind(var9)(var6);
+            var3 = 5;
+            var3 = var8[var3];
+            var8 = var7.bind(var10)(var3);
             var7 = var8.renderMessageMarkupToAST;
-            var6 = {};
-            var15 = arg2;
-            var6['contentMessage'] = var15;
-            var6['hideSimpleEmbedContent'] = var13;
-            var6['formatInline'] = var12;
-            var15 = var10;
-            if(var10) { _fun0004_ip = 27; continue _fun0004 }
+            var3 = {};
+            var9 = arg2;
+            var3['contentMessage'] = var9;
+            var3['hideSimpleEmbedContent'] = var14;
+            var3['formatInline'] = var13;
+            var9 = var11;
+            if(var11) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
-            var15 = var11;
+            var9 = var12;
 case 27:
-            var6['allowHeading'] = var15;
-            var15 = var10;
-            if(var10) { _fun0004_ip = 29; continue _fun0004 }
+            var3['allowHeading'] = var9;
+            var9 = var11;
+            if(var11) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
-            var15 = var11;
+            var9 = var12;
 case 29:
-            var6['allowList'] = var15;
-            var6['allowLinks'] = var4;
-            var6['allowGameMentions'] = var14;
-            var6['previewLinkTarget'] = var4;
-            var18 = var7.bind(var8)(var5, var6);
-            var19 = var2;
-            var6 = copyDataProperties(var19, var18);
-            var6 = 'isInlineReplyPreview';
-            var2[var6] = var12;
+            var3['allowList'] = var9;
+            var3['allowLinks'] = var5;
+            var3['previewLinkTarget'] = var5;
+            var19 = var7.bind(var8)(var6, var3);
+            var20 = var2;
+            var3 = copyDataProperties(var20, var19);
+            var3 = 'isInlineReplyPreview';
+            var2[var3] = var13;
             var7 = _closure1_slot7;
-            var6 = var7.set;
-            var6 = var6.bind(var7)(var5, var2);
-            return var2;
+            var3 = var7.set;
+            var3 = var3.bind(var7)(var6, var2);
+            _fun0004_ip = 31; continue _fun0004;
 case 26:
-            var2 = {'content': null, 'isInlineReplyPreview': false, 'hasSpoilerEmbeds': false, 'hasBailedAst': false};
-            var7 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var6 = 3;
-            var6 = var15[var6];
-            var8 = var7.bind(var9)(var6);
-            var7 = var8.astParserFor;
-            var14 = _closure1_slot0;
-            var6 = 4;
-            var6 = var15[var6];
-            var16 = var14.bind(var9)(var6);
-            var15 = var16.changelogRules;
-            var14 = var5.changelogId;
-            var6 = true;
-            var6 = var15.bind(var16)(var14, var6);
-            var8 = var7.bind(var8)(var6);
-            var7 = var5.content;
-            var6 = {};
-            var6['hideSimpleEmbedContent'] = var13;
-            var6['formatInline'] = var12;
-            var12 = var10;
-            if(var10) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
-            var12 = var11;
-case 31:
-            var6['allowHeading'] = var12;
-            if(var10) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
-            var10 = var11;
+            var3 = {'content': null, 'isInlineReplyPreview': false, 'hasSpoilerEmbeds': false, 'hasBailedAst': false};
+            var8 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var7 = 3;
+            var7 = var16[var7];
+            var9 = var8.bind(var10)(var7);
+            var8 = var9.astParserFor;
+            var15 = _closure1_slot0;
+            var7 = 4;
+            var7 = var16[var7];
+            var17 = var15.bind(var10)(var7);
+            var16 = var17.changelogRules;
+            var15 = var6.changelogId;
+            var7 = true;
+            var7 = var16.bind(var17)(var15, var7);
+            var9 = var8.bind(var9)(var7);
+            var8 = var6.content;
+            var7 = {};
+            var7['hideSimpleEmbedContent'] = var14;
+            var7['formatInline'] = var13;
+            var13 = var11;
+            if(var11) { _fun0004_ip = 32; continue _fun0004 }
 case 33:
-            var6['allowList'] = var10;
-            var6['allowLinks'] = var4;
-            var6['previewLinkTarget'] = var4;
-            var4 = false;
-            var4 = var8.bind(var9)(var7, var4, var6);
-            var2['content'] = var4;
-            var4 = _closure1_slot7;
-            var3 = var4.set;
-            var3 = var3.bind(var4)(var5, var2);
-            return var2;
+            var13 = var12;
+case 32:
+            var7['allowHeading'] = var13;
+            if(var11) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
+            var11 = var12;
+case 34:
+            var7['allowList'] = var11;
+            var7['allowLinks'] = var5;
+            var7['previewLinkTarget'] = var5;
+            var5 = false;
+            var5 = var9.bind(var10)(var8, var5, var7);
+            var3['content'] = var5;
+            var5 = _closure1_slot7;
+            var4 = var5.set;
+            var4 = var4.bind(var5)(var6, var3);
+            var2 = var3;
+case 31:
+            var1 = var2;
 case 24:
             return var1;
         }

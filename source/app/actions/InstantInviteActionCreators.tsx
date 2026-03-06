@@ -2632,10 +2632,10 @@ case 233:
             var6['attemptId'] = var13;
             var14 = var10 == var11;
             var10 = undefined;
-            if(var14) { _fun0029_ip = 235; continue _fun0029 }
-case 236:
+            if(var14) { _fun0029_ip = 61; continue _fun0029 }
+case 58:
             var10 = var11.guildScheduledEventId;
-case 235:
+case 61:
             var6['event'] = var10;
             var10 = global;
             var10 = var10.HermesInternal;
@@ -2691,20 +2691,20 @@ case 133:
                     var2 = _closure2_slot0;
                     var5['code'] = var2;
                     var2 = var5;
-                    _fun0030_ip = 237; continue _fun0030;
+                    _fun0030_ip = 235; continue _fun0030;
 case 200:
                     var6 = 'INVITE_APP_OPENED';
                     var5['type'] = var6;
                     var6 = _closure2_slot0;
                     var5['code'] = var6;
                     var2 = var5;
-case 237:
+case 235:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
             };
             var3 = var6.bind(var7)(var8, var3);
-            _fun0029_ip = 238; continue _fun0029;
+            _fun0029_ip = 236; continue _fun0029;
 case 222:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
@@ -2716,7 +2716,7 @@ case 222:
             var2['type'] = var6;
             var2['code'] = var5;
             var2 = var3.bind(var4)(var2);
-case 238:
+case 236:
             return var1;
         }
     };
@@ -2757,25 +2757,25 @@ case 0:
             var6 = null;
             var11 = var6 == var12;
             var8 = undefined;
-            if(var11) { _fun0031_ip = 239; continue _fun0031 }
+            if(var11) { _fun0031_ip = 237; continue _fun0031 }
 case 91:
             var11 = var12.toString;
             var8 = var11.bind(var12)();
-case 239:
+case 237:
             var2['invite_type'] = var8;
             var11 = var6 != var10;
             var8 = null;
             if(!var11) { _fun0031_ip = 113; continue _fun0031 }
-case 240:
+case 238:
             var8 = var10;
 case 113:
             var2['inviter_id'] = var8;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0031_ip = 241; continue _fun0031 }
+            if(!var10) { _fun0031_ip = 239; continue _fun0031 }
 case 11:
             var8 = var9;
-case 241:
+case 239:
             var2['invite_message_id'] = var8;
             var8 = var6 != var7;
             var6 = null;

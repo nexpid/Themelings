@@ -1,4 +1,4 @@
-// app/modules/media_engine/AppleMicrophoneModeExperiments.tsx
+// app/modules/media_engine/VoiceTimeoutMitigationsExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var5 = dependencyMap;
@@ -6,8 +6,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var1.Object;
     var4 = var6.defineProperty;
     var2 = {};
-    var1 = true;
-    var2['value'] = var1;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
     var1 = var4.bind(var6)(var3, var1, var2);
     var1 = 0;
@@ -15,20 +15,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = metroImportDefault;
     var1 = undefined;
     var4 = var2.bind(var1)(var4);
-    var2 = {'kind': 'user', 'name': '2025-09-disable-krisp-with-apple-microphone-modes'};
+    var2 = {'kind': 'user', 'name': '2026-02-voice-timeout-mitigations'};
     var6 = {};
-    var7 = new Array(0);
-    var6['disabledModes'] = var7;
+    var7 = false;
+    var6['enabled'] = var7;
     var2['defaultConfig'] = var6;
     var6 = {};
     var7 = {};
-    var8 = ['voice_isolation'];
-    var7['disabledModes'] = var8;
+    var7['enabled'] = var8;
     var6[1] = var7;
-    var7 = {};
-    var8 = ['voice_isolation', 'wide_spectrum'];
-    var7['disabledModes'] = var8;
-    var6[2] = var7;
     var2['variations'] = var6;
     var2 = var4.bind(var1)(var2);
     var4 = 1;
@@ -36,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/media_engine/AppleMicrophoneModeExperiments.tsx';
+    var4 = 'modules/media_engine/VoiceTimeoutMitigationsExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['DisableKrispWithAppleMicrophoneModesExperiment'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

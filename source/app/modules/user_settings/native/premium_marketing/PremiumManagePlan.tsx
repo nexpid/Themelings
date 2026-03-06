@@ -1419,7 +1419,7 @@ case 66:
             var27 = var32.bind(var33)(var27);
             var23['children'] = var27;
             var23 = var26.bind(var4)(var24, var23);
-            _fun0005_ip = 40; continue _fun0005;
+            _fun0005_ip = 69; continue _fun0005;
 case 68:
             var27 = _closure1_slot26;
             var26 = _closure1_slot0;
@@ -1432,7 +1432,7 @@ case 68:
             var24['variant'] = var32;
             var24['children'] = var28;
             var23 = var27.bind(var4)(var26, var24);
-case 40:
+case 69:
             var20[1] = var23;
             var16['children'] = var20;
             var16 = var19.bind(var4)(var18, var16);
@@ -1469,13 +1469,13 @@ case 40:
             var17 = {};
             var20 = var29.fpRowContent;
             var17['style'] = var20;
-            if(!var22) { _fun0005_ip = 69; continue _fun0005 }
-case 70:
+            if(!var22) { _fun0005_ip = 70; continue _fun0005 }
+case 71:
             var23 = var21.fractionalState;
             var20 = _closure1_slot22;
             var20 = var20.NONE;
-            if(!(var23 !== var20)) { _fun0005_ip = 71; continue _fun0005 }
-case 69:
+            if(!(var23 !== var20)) { _fun0005_ip = 72; continue _fun0005 }
+case 70:
             var24 = _closure1_slot26;
             var33 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -1497,8 +1497,8 @@ case 69:
             var26 = var27.bind(var32)(var26);
             var20['children'] = var26;
             var23 = var24.bind(var4)(var23, var20);
-            _fun0005_ip = 72; continue _fun0005;
-case 71:
+            _fun0005_ip = 73; continue _fun0005;
+case 72:
             var26 = _closure1_slot27;
             var24 = _closure1_slot7;
             var20 = {};
@@ -1524,7 +1524,7 @@ case 71:
             var27 = new Array(2);
             var27[0] = var32;
             var32 = var4 !== var40;
-            if(!var32) { _fun0005_ip = 73; continue _fun0005 }
+            if(!var32) { _fun0005_ip = 46; continue _fun0005 }
 case 74:
             var35 = _closure1_slot26;
             var37 = _closure1_slot0;
@@ -1546,11 +1546,11 @@ case 74:
             var36 = var38.bind(var39)(var37, var36);
             var33['children'] = var36;
             var32 = var35.bind(var4)(var34, var33);
-case 73:
+case 46:
             var27[1] = var32;
             var20['children'] = var27;
             var23 = var26.bind(var4)(var24, var20);
-case 72:
+case 73:
             var20 = new Array(2);
             var20[0] = var23;
             if(!var22) { _fun0005_ip = 75; continue _fun0005 }

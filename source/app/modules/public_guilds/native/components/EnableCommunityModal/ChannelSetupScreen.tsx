@@ -359,10 +359,10 @@ case 17:
                     var9 = _closure2_slot1;
                     var2 = var9.id;
 case 16:
-                    if(!(var8 == var2)) { _fun0004_ip = 7; continue _fun0004 }
-case 18:
+                    if(!(var8 == var2)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var2 = _closure1_slot12;
-case 7:
+case 18:
                     var3['selectedItem'] = var2;
                     var2 = 'SelectRulesChannel';
                     var2 = var5.bind(var6)(var4, var2, var3);
@@ -436,10 +436,10 @@ case 17:
                     var9 = _closure2_slot2;
                     var2 = var9.id;
 case 16:
-                    if(!(var8 == var2)) { _fun0005_ip = 7; continue _fun0005 }
-case 18:
+                    if(!(var8 == var2)) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                     var2 = _closure1_slot12;
-case 7:
+case 18:
                     var3['selectedItem'] = var2;
                     var2 = 'SelectUpdatesChannel';
                     var2 = var5.bind(var6)(var4, var2, var3);

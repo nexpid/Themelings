@@ -193,8 +193,8 @@ case 2:
 case 0:
                     var11 = arg1;
                     var8 = arg2;
-                    var14 = arg3;
-                    var _closure3_slot0 = var14;
+                    var13 = arg3;
+                    var _closure3_slot0 = var13;
                     var1 = _closure1_slot9;
                     var9 = undefined;
                     var5 = var1.bind(var9)();
@@ -203,18 +203,18 @@ case 0:
                     var3 = 7;
                     var3 = var1[var3];
                     var10 = var2.bind(var9)(var3);
-                    var3 = var10.useMobileWishlistViewingGiftingExperiment;
-                    var7 = 'PremiumGiftModal';
-                    var3 = var3.bind(var10)(var7);
+                    var7 = var10.useMobileWishlistViewingGiftingExperiment;
+                    var3 = 'PremiumGiftModal';
+                    var3 = var7.bind(var10)(var3);
                     var12 = var3.enabled;
                     var _closure3_slot1 = var12;
                     var3 = 8;
                     var3 = var1[var3];
-                    var15 = var2.bind(var9)(var3);
-                    var13 = var15.useStateFromStores;
+                    var14 = var2.bind(var9)(var3);
+                    var10 = var14.useStateFromStores;
                     var3 = _closure1_slot5;
-                    var10 = new Array(1);
-                    var10[0] = var3;
+                    var7 = new Array(1);
+                    var7[0] = var3;
                     var3 = function() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -231,17 +231,17 @@ case 7:
                             return var1;
                         }
                     };
-                    var10 = var13.bind(var15)(var10, var3);
+                    var10 = var10.bind(var14)(var7, var3);
                     var3 = 9;
                     var1 = var1[var3];
-                    var13 = var2.bind(var9)(var1);
-                    var2 = var13.useFetchWishlistAndProfileInfoForUser;
+                    var7 = var2.bind(var9)(var1);
+                    var2 = var7.useFetchWishlistAndProfileInfoForUser;
                     var1 = undefined;
                     if(!var12) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                    var1 = var14;
+                    var1 = var13;
 case 9:
-                    var1 = var2.bind(var13)(var1);
+                    var1 = var2.bind(var7)(var1);
                     var2 = var1.wishlist;
                     var _closure3_slot2 = var2;
                     var2 = var1.userProfile;
@@ -256,7 +256,6 @@ case 9:
                     var3 = var2.bind(var9)(var1);
                     var2 = var3.useShouldShowWishlistInDMGifting;
                     var1 = {};
-                    var1['location'] = var7;
                     var1['isGift'] = var12;
                     var7 = null;
                     if(!var12) { _fun0002_ip = 11; continue _fun0002 }

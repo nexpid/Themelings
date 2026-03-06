@@ -1122,7 +1122,7 @@ case 0:
                     var1 = 0;
                     var1 = var2 > var1;
                     if(!var1) { _fun0010_ip = 86; continue _fun0010 }
-case 9:
+case 29:
                     var6 = _closure1_slot16;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;

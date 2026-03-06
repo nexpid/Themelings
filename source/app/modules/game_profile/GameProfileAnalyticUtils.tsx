@@ -92,6 +92,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['LinkAccount'] = var5;
     var4 = 'LinkAccount';
     var6[var5] = var4;
+    var5 = 16;
+    var6['ClaimGame'] = var5;
+    var4 = 'ClaimGame';
+    var6[var5] = var4;
     var5 = {};
     var4 = 'activity_card';
     var5['ActivityCard'] = var4;

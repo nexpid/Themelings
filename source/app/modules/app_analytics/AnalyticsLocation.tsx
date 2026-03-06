@@ -222,6 +222,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_POWERUPS_COACHMARK_NEW_PERK_AVAILABLE'] = var1;
     var1 = 'guild powerups - coachmark - game server hosting available';
     var2['GUILD_POWERUPS_COACHMARK_GAME_SERVER_HOSTING_AVAILABLE'] = var1;
+    var1 = 'guild powerups - coachmark - game server new games';
+    var2['GUILD_POWERUPS_COACHMARK_GAME_SERVER_NEW_GAMES'] = var1;
     var1 = 'guild powerups - coachmark - boost to unlock';
     var2['GUILD_POWERUPS_COACHMARK_BOOST_TO_UNLOCK'] = var1;
     var1 = 'guild powerups - coachmark - expiring perk';
@@ -1077,6 +1079,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SLAYER_STOREFRONT_PRODUCT_DETAILS_EMBED'] = var1;
     var1 = 'age group';
     var2['AGE_GROUP'] = var1;
+    var1 = 'gift card redemption success modal';
+    var2['GIFT_CARD_REDEMPTION_SUCCESS_MODAL'] = var1;
     var1 = 'game community multi guild upsell guilds bar entrypoint';
     var2['GAME_COMMUNITY_MULTI_GUILD_UPSELL_GUILDS_BAR_ENTRYPOINT'] = var1;
     var4 = dependencyMap;

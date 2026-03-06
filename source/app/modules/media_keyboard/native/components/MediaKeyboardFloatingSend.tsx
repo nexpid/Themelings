@@ -107,14 +107,10 @@ case 0:
             var9 = _closure1_slot2;
             var2 = 9;
             var2 = var9[var2];
-            var2 = var5.bind(var4)(var2);
-            var7 = var2.ChatInputIaMobileExperiment;
-            var5 = var7.useConfig;
-            var2 = {};
-            var12 = 'MediaKeyboardFloatingSendInner';
-            var2['location'] = var12;
-            var2 = var5.bind(var7)(var2);
-            var5 = var2.iaUsesFloatingBarForOverflow;
+            var7 = var5.bind(var4)(var2);
+            var5 = var7.useIsMediaKeyboardFloatingBarEnabled;
+            var2 = 'MediaKeyboardFloatingSendInner';
+            var5 = var5.bind(var7)(var2);
             var7 = _closure1_slot1;
             var2 = 10;
             var2 = var9[var2];
@@ -247,7 +243,7 @@ case 6:
             var2 = var11[var1];
             var15 = var12.bind(var4)(var2);
             var14 = var15.useAnimatedStyle;
-            var8 = function I() {
+            var8 = function V() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -307,7 +303,7 @@ case 8:
             var8 = var11[var1];
             var15 = var12.bind(var4)(var8);
             var12 = var15.useAnimatedProps;
-            var8 = function V() {
+            var8 = function I() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};

@@ -138,7 +138,7 @@ case 13:
         var7 = 'webp';
 case 12:
         var _closure1_slot12 = var7;
-        var8 = 10;
+        var8 = 9;
         var8 = var10[var8];
         var10 = var9.bind(var1)(var8);
         var9 = var10.fileFinishedImporting;
@@ -618,35 +618,21 @@ case 57:
             return var1;
         };
         var3['getForwardedSKUShareURL'] = var4;
-        var4 = function canSeeGameShop(arg1, arg2) {
+        var4 = function canSeeGameShop(arg1) {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var4 = _closure1_slot5;
                 var3 = var4.getGuild;
                 var1 = arg1;
-                var5 = var3.bind(var4)(var1);
+                var4 = var3.bind(var4)(var1);
                 var1 = null;
-                var1 = var1 != var5;
+                var1 = var1 != var4;
                 if(!var1) { _fun0013_ip = 58; continue _fun0013 }
 case 59:
-                var4 = _closure1_slot14;
-                var3 = undefined;
-                var1 = var4.bind(var3)(var5);
-case 58:
-                if(!var1) { _fun0013_ip = 49; continue _fun0013 }
-case 60:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 8;
-                var3 = var3[var2];
+                var3 = _closure1_slot14;
                 var2 = undefined;
-                var4 = var4.bind(var2)(var3);
-                var3 = var4.getIsEligibleForSocialLayerStorefrontUserExperiment;
-                var2 = {};
-                var5 = arg2;
-                var2['location'] = var5;
-                var1 = var3.bind(var4)(var2);
-case 49:
+                var1 = var3.bind(var2)(var4);
+case 58:
                 return var1;
             }
         };
@@ -675,7 +661,7 @@ case 0:
                         var1 = null;
                         var2 = var1 == var4;
                         var1 = undefined;
-                        if(var2) { _fun0015_ip = 61; continue _fun0015 }
+                        if(var2) { _fun0015_ip = 60; continue _fun0015 }
 case 18:
                         var3 = var4.some;
                         var2 = function(arg1) {
@@ -685,7 +671,7 @@ case 0:
                                 var3 = var2.reason;
                                 var5 = _closure1_slot0;
                                 var4 = _closure1_slot2;
-                                var1 = 9;
+                                var1 = 8;
                                 var4 = var4[var1];
                                 var1 = undefined;
                                 var1 = var5.bind(var1)(var4);
@@ -693,7 +679,7 @@ case 0:
                                 var1 = var1.WISHLIST;
                                 var1 = var3 === var1;
                                 if(!var1) { _fun0016_ip = 10; continue _fun0016 }
-case 62:
+case 61:
                                 var4 = _closure2_slot1;
                                 var3 = var4.has;
                                 var2 = var2.userId;
@@ -703,7 +689,7 @@ case 10:
                             }
                         };
                         var1 = var3.bind(var4)(var2);
-case 61:
+case 60:
                         return var1;
                     }
                 };
@@ -719,7 +705,7 @@ case 0:
                         var4 = var4[var1];
                         var1 = null;
                         var1 = var1 == var4;
-                        if(var1) { _fun0017_ip = 63; continue _fun0017 }
+                        if(var1) { _fun0017_ip = 62; continue _fun0017 }
 case 59:
                         var3 = _closure2_slot0;
                         var2 = var2.skuId;
@@ -732,7 +718,7 @@ case 0:
                                 var3 = var2.reason;
                                 var5 = _closure1_slot0;
                                 var4 = _closure1_slot2;
-                                var1 = 9;
+                                var1 = 8;
                                 var4 = var4[var1];
                                 var1 = undefined;
                                 var1 = var5.bind(var1)(var4);
@@ -740,34 +726,34 @@ case 0:
                                 var1 = var1.RECOMMENDATION;
                                 var1 = var3 === var1;
                                 if(!var1) { _fun0018_ip = 10; continue _fun0018 }
-case 62:
+case 61:
                                 var5 = _closure2_slot1;
                                 var4 = var5.has;
                                 var3 = var2.userId;
                                 var1 = var4.bind(var5)(var3);
 case 10:
-                                if(var1) { _fun0018_ip = 64; continue _fun0018 }
+                                if(var1) { _fun0018_ip = 63; continue _fun0018 }
 case 6:
                                 var4 = _closure2_slot1;
                                 var3 = var4.has;
                                 var2 = var2.userId;
                                 var2 = var3.bind(var4)(var2);
                                 var1 = !var2;
-case 64:
+case 63:
                                 return var1;
                             }
                         };
                         var1 = var3.bind(var4)(var2);
-case 63:
+case 62:
                         return var1;
                     }
                 };
                 var2 = var3.bind(var4)(var2);
                 var1['hasPopular'] = var2;
-                _fun0014_ip = 65; continue _fun0014;
+                _fun0014_ip = 64; continue _fun0014;
 case 57:
                 var1 = {'hasWishlist': false, 'hasPopular': false};
-case 65:
+case 64:
                 return var1;
             }
         };

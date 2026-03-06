@@ -35,14 +35,10 @@ case 0:
             var4 = 2;
             var4 = var3[var4];
             var6 = undefined;
-            var4 = var5.bind(var6)(var4);
-            var7 = var4.ChatInputIaMobileExperiment;
-            var5 = var7.useConfig;
-            var4 = {};
-            var8 = 'useMediaKeyboardItemsPerRow';
-            var4['location'] = var8;
+            var7 = var5.bind(var6)(var4);
+            var5 = var7.useIsMediaKeyboardFloatingBarEnabled;
+            var4 = 'useMediaKeyboardItemsPerRow';
             var4 = var5.bind(var7)(var4);
-            var4 = var4.resizePictures;
             var5 = _closure1_slot1;
             var8 = 1;
             var3 = var3[var8];

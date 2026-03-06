@@ -679,8 +679,7 @@ case 52:
     var2 = var6.bind(var1)(var2);
     var11 = var2.GUILD_ITEM_SIZE;
     var _closure1_slot12 = var11;
-    var13 = var2.GUILD_ITEM_MARGIN;
-    var5 = var2.GUILD_ITEM_PADDING;
+    var5 = var2.WRAPPER_SIZE;
     var _closure1_slot13 = var5;
     var5 = var2.TRANSITION_PHYSICS;
     var _closure1_slot14 = var5;
@@ -698,9 +697,8 @@ case 52:
     var9 = var6.bind(var1)(var2);
     var5 = var9.createStyles;
     var2 = {};
-    var10 = {'position': 'absolute', 'top': null, 'left': 12};
+    var10 = {'position': 'absolute', 'top': 4, 'left': 12};
     var12 = 'absolute';
-    var10['top'] = var13;
     var13 = 10;
     var16 = var7[var13];
     var16 = var14.bind(var1)(var16);
@@ -834,7 +832,6 @@ case 52:
         var7 = {};
         var10 = _closure1_slot12;
         var8 = _closure1_slot13;
-        var8 = var10 + var8;
         var8 = var8 * var11;
         var8 = var10 + var8;
         var8 = var8 + var9;
@@ -1481,7 +1478,7 @@ case 110:
             _closure2_slot12 = var19;
             var33 = _closure1_slot3;
             var32 = var33.useCallback;
-            var5 = function _(arg1) {
+            var5 = function y(arg1) {
                 _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                     var3 = arg1;

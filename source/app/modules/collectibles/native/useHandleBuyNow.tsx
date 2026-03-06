@@ -48,7 +48,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var8;
         var10 = undefined;
         var _closure2_slot3 = var10;
-        var _closure2_slot4 = var10;
         var1 = function _onPurchaseComplete() {
             var4 = undefined;
             var1 = undefined;
@@ -61,48 +60,39 @@ case 0:
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                        var5 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var2 = 6;
-                        var2 = var3[var2];
+                        var8 = _closure1_slot0;
+                        var9 = _closure1_slot2;
+                        var2 = 5;
+                        var2 = var9[var2];
                         var3 = undefined;
-                        var6 = var5.bind(var3)(var2);
+                        var6 = var8.bind(var3)(var2);
                         var5 = var6.fetchCollectiblesPurchases;
                         var2 = {};
-                        var8 = _closure2_slot4;
-                        var10 = _closure1_slot0;
-                        var11 = _closure1_slot2;
-                        var9 = 7;
-                        var9 = var11[var9];
-                        var9 = var10.bind(var3)(var9);
-                        var9 = var9.ShopVariantsReturnStyle;
-                        if(var8) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-                        var8 = var9.INDIVIDUAL_PRODUCTS;
-                        _fun0001_ip = 6; continue _fun0001;
-case 4:
-                        var8 = var9.VARIANTS_GROUP;
-case 6:
-                        var2['variantsReturnStyle'] = var8;
+                        var7 = 6;
+                        var7 = var9[var7];
+                        var7 = var8.bind(var3)(var7);
+                        var7 = var7.ShopVariantsReturnStyle;
+                        var7 = var7.VARIANTS_GROUP;
+                        var2['variantsReturnStyle'] = var7;
                         var2 = var5.bind(var6)(var2);
-                        SaveGenerator(address=107);
-case 7:
+                        SaveGenerator(address=81);
+case 4:
                         return var2;
-case 8:
+case 5:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+                        if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                         var6 = _closure2_slot3;
                         var5 = false;
                         var5 = var6.bind(var3)(var5);
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var4 = 8;
+                        var4 = 7;
                         var4 = var6[var4];
                         var8 = var5.bind(var3)(var4);
                         var4 = var8.hideActionSheet;
                         var4 = var4.bind(var8)();
-                        var4 = 9;
+                        var4 = 8;
                         var4 = var6[var4];
                         var6 = var5.bind(var3)(var4);
                         var5 = var6.open;
@@ -113,7 +103,7 @@ case 10:
                         var4['useCategoryImage'] = var7;
                         var4 = var5.bind(var6)(var4);
                         return var3;
-case 9:
+case 6:
                         return var2;
 case 2:
                         return var1;
@@ -122,7 +112,7 @@ case 2:
                 return var1;
             };
             var4 = var3.bind(var4)(var2);
-            _closure2_slot6 = var4;
+            _closure2_slot5 = var4;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -130,7 +120,7 @@ case 2:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure2_slot6 = var1;
+        var _closure2_slot5 = var1;
         var6 = _closure1_slot5;
         var2 = var6.useState;
         var1 = false;
@@ -144,17 +134,9 @@ case 2:
         var1 = 1;
         var1 = var5[var1];
         _closure2_slot3 = var1;
-        var5 = _closure1_slot0;
+        var5 = _closure1_slot1;
         var11 = _closure1_slot2;
         var1 = 4;
-        var1 = var11[var1];
-        var12 = var5.bind(var10)(var1);
-        var5 = var12.useEnableMobileVariants;
-        var1 = 'useHandleBuyNow';
-        var1 = var5.bind(var12)(var1);
-        _closure2_slot4 = var1;
-        var5 = _closure1_slot1;
-        var1 = 5;
         var1 = var11[var1];
         var5 = var5.bind(var10)(var1);
         var1 = {};
@@ -162,7 +144,7 @@ case 2:
         var1['analyticsLocations'] = var9;
         var9 = function onPurchaseComplete() {
             var1 = undefined;
-            var4 = _closure2_slot6;
+            var4 = _closure2_slot5;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -185,7 +167,7 @@ case 2:
         };
         var1['onPurchasePending'] = var9;
         var9 = var5.bind(var10)(var1);
-        var _closure2_slot5 = var9;
+        var _closure2_slot4 = var9;
         var1 = {};
         var5 = var6.useCallback;
         var4 = _closure1_slot3;
@@ -195,36 +177,36 @@ case 2:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 11; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 3: // try_start_0
                     var2 = _closure2_slot2;
-                    if(var2) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                    if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var5 = _closure2_slot3;
                     var4 = undefined;
                     var2 = true;
                     var2 = var5.bind(var4)(var2);
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot4;
                     var2 = var2.bind(var4)();
                     SaveGenerator(address=45);
-case 14:
-                    return var2;
-case 15:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-                    var6 = _closure2_slot1;
-                    var5 = null;
-                    if(!(var5 != var6)) { _fun0002_ip = 12; continue _fun0002 }
-case 18:
-                    var3 = _closure2_slot1;
-                    var3 = var3.bind(var4)();
-                    _fun0002_ip = 12; continue _fun0002;
-case 16: // try_end0
+case 11:
                     return var2;
 case 12:
-                    _fun0002_ip = 19; continue _fun0002;
-case 5: // catch_target0
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+                    var6 = _closure2_slot1;
+                    var5 = null;
+                    if(!(var5 != var6)) { _fun0002_ip = 9; continue _fun0002 }
+case 15:
+                    var3 = _closure2_slot1;
+                    var3 = var3.bind(var4)();
+                    _fun0002_ip = 9; continue _fun0002;
+case 13: // try_end0
+                    return var2;
+case 9:
+                    _fun0002_ip = 16; continue _fun0002;
+case 4: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var3 = _closure2_slot3;
                     var4 = undefined;
@@ -243,7 +225,7 @@ case 5: // catch_target0
                     var3 = var6.bind(var8)(var3);
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 10;
+                    var2 = 9;
                     var2 = var6[var2];
                     var4 = var3.bind(var4)(var2);
                     var3 = var4.captureBillingException;
@@ -256,10 +238,10 @@ case 5: // catch_target0
                     var6['skuId'] = var7;
                     var2['tags'] = var6;
                     var2 = var3.bind(var4)(var5, var2);
-case 19:
+case 16:
                     var2 = undefined;
                     return var2;
-case 11:
+case 8:
                     return var1;
                 }
             };
@@ -277,7 +259,7 @@ case 11:
         var1['isBuying'] = var2;
         return var1;
     };
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

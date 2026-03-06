@@ -163,8 +163,6 @@ case 0:
             var8 = var9.id;
             var2['userId'] = var8;
             var2['numItems'] = var14;
-            var8 = 'Mobile Wishlist Banner';
-            var2['location'] = var8;
             var3 = var3.bind(var5)(var2);
             var13 = var3.wishlistAndRecommendations;
             var _closure2_slot3 = var13;

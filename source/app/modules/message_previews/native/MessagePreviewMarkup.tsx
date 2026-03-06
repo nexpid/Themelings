@@ -160,7 +160,7 @@ case 2:
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var11.bind(var12)(var3, var1, var4);
-    var1 = 7;
+    var1 = 6;
     var4 = var10[var1];
     var1 = undefined;
     var11 = var8.bind(var1)(var4);
@@ -174,7 +174,7 @@ case 2:
     var4 = new var16[var11](var15, var14);
     var4 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot3 = var4;
-    var8 = 8;
+    var8 = 7;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -188,7 +188,7 @@ case 0:
             var4 = arg1;
             var12 = var4.content;
             var2 = var4.muted;
-            var10 = var4.guildId;
+            var9 = var4.guildId;
             var1 = var4.channelId;
             var7 = var4.layout;
             var3 = undefined;
@@ -204,10 +204,10 @@ case 9:
 case 8:
             var6 = var4.color;
             var11 = var4.postProcessor;
-            var14 = var4.disableAnimatedEmoji;
-            if(!(var14 === var3)) { _fun0002_ip = 10; continue _fun0002 }
+            var10 = var4.disableAnimatedEmoji;
+            if(!(var10 === var3)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var14 = true;
+            var10 = true;
 case 10:
             var5 = var4.fontScale;
             if(!(var5 === var3)) { _fun0002_ip = 12; continue _fun0002 }
@@ -218,28 +218,13 @@ case 12:
             var8 = '';
             if(!(var8 !== var12)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'allowGameMentions': null, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false};
-            var13 = true;
-            var9 = new Array(0);
-            var8['mentionChannels'] = var9;
-            var9 = new Array(0);
-            var8['soundboardSounds'] = var9;
-            var16 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var15 = 6;
-            var15 = var17[var15];
-            var15 = var16.bind(var3)(var15);
-            var17 = var15.GameMentionsUserExperiment;
-            var16 = var17.getCurrentConfig;
-            var15 = {};
-            var18 = 'message preview';
-            var15['location'] = var18;
-            var15 = var16.bind(var17)(var15);
-            var15 = var15.enabled;
-            var8['allowGameMentions'] = var15;
-            var8['disableAnimatedEmoji'] = var14;
-            var8['unknownUserMentionPlaceholder'] = var13;
-            var8['guildId'] = var10;
+            var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': null, 'unknownUserMentionPlaceholder': true};
+            var13 = new Array(0);
+            var8['mentionChannels'] = var13;
+            var13 = new Array(0);
+            var8['soundboardSounds'] = var13;
+            var8['disableAnimatedEmoji'] = var10;
+            var8['guildId'] = var9;
             var8['channelId'] = var1;
             var1 = null;
             var1 = var1 != var2;

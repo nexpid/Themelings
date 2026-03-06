@@ -1,4 +1,4 @@
-// app/modules/collectibles/experiments/CollectiblesShopMobileVariantsExperiment.tsx
+// app/modules/media_keyboard/native/components/MediaKeyboardFloatingBarExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,17 +16,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
-    var4 = {'name': '2025-12-shop-mobile-variants', 'kind': 'user'};
+    var4 = {'name': '2026-03-media-keyboard-floating-bar', 'kind': 'user'};
     var9 = {};
-    var12 = false;
-    var9['enableMobileVariants'] = var12;
+    var10 = false;
+    var9['enabled'] = var10;
     var4['defaultConfig'] = var9;
     var9 = {};
     var10 = {};
-    var10['enableMobileVariants'] = var12;
-    var9[0] = var10;
-    var10 = {};
-    var10['enableMobileVariants'] = var11;
+    var10['enabled'] = var11;
     var9[1] = var10;
     var4['variations'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -35,18 +32,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/experiments/CollectiblesShopMobileVariantsExperiment.tsx';
+    var4 = 'modules/media_keyboard/native/components/MediaKeyboardFloatingBarExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function useIsMediaKeyboardFloatingBarEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.useConfig;
         var1 = {};
         var4 = arg1;
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
-        var1 = var1.enableMobileVariants;
+        var1 = var1.enabled;
         return var1;
     };
-    var3['useEnableMobileVariants'] = var2;
+    var3['useIsMediaKeyboardFloatingBarEnabled'] = var2;
     return var1;
 })();

@@ -296,7 +296,7 @@ case 38:
                     var11 = var11.bind(var2)(var4);
                     var4 = var11.saveProfileChanges;
                     var4 = var4.bind(var11)(var12);
-                    SaveGenerator(address=585);
+                    SaveGenerator(address=584);
 case 39:
                     return var4;
 case 40:
@@ -375,7 +375,7 @@ case 55: // try_start_0
                     var10 = _closure2_slot0;
                     var10 = var10.pendingLegacyUsernameDisabled;
                     var10 = var11.bind(var12)(var10);
-                    SaveGenerator(address=841);
+                    SaveGenerator(address=840);
 case 56:
                     return var10;
 case 57:
@@ -415,7 +415,7 @@ case 64:
                     var10 = null;
                     var5 = var10 !== var11;
                     var5 = var8.bind(var9)(var11, var5);
-                    SaveGenerator(address=969);
+                    SaveGenerator(address=968);
 case 65:
                     return var5;
 case 66:

@@ -2034,6 +2034,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['DOUBLE_TAP_TO_REACT_EXPANDED_UPSELL'] = var2;
     var1 = 'DOUBLE_TAP_TO_REACT_EXPANDED_UPSELL';
     var4[var2] = var1;
+    var2 = 709;
+    var4['FAVORITES_GUILD_NEW_BADGE'] = var2;
+    var1 = 'FAVORITES_GUILD_NEW_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

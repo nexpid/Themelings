@@ -126,7 +126,7 @@ case 13:
                     var10 = true;
                     var7['rejectWithError'] = var10;
                     var7 = var8.bind(var9)(var7);
-                    SaveGenerator(address=278);
+                    SaveGenerator(address=279);
 case 15:
                     return var7;
 case 16:
@@ -159,7 +159,7 @@ case 19:
                     var11 = var11.has_more;
                     var8['hasMore'] = var11;
                     var8 = var9.bind(var10)(var8);
-                    SaveGenerator(address=388);
+                    SaveGenerator(address=391);
 case 21:
                     return var8;
 case 22:
@@ -188,7 +188,7 @@ case 26:
                     var7 = 'LOAD_NOTIFICATION_CENTER_ITEMS_FAILURE';
                     var4['type'] = var7;
                     var4 = var5.bind(var6)(var4);
-                    SaveGenerator(address=458);
+                    SaveGenerator(address=461);
 case 28:
                     return var4;
 case 29:
@@ -290,12 +290,12 @@ case 34:
                     return var2;
 case 35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 10; continue _fun0003 }
-case 36: // try_end0
-                    _fun0003_ip = 37; continue _fun0003;
-case 10:
+                    if(var3) { _fun0003_ip = 36; continue _fun0003 }
+case 37: // try_end0
+                    _fun0003_ip = 38; continue _fun0003;
+case 36:
                     return var2;
-case 38: // catch_target0
+case 39: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -312,7 +312,7 @@ case 38: // catch_target0
                     var5[0] = var6;
                     var2['ids'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 37:
+case 38:
                     var2 = undefined;
                     return var2;
 case 31:
@@ -359,8 +359,8 @@ case 0:
                     StartGenerator();
                     var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+                    if(var2) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                     var4 = var8;
                     var2 = undefined;
                     var6 = undefined;
@@ -371,7 +371,7 @@ case 40:
                         return var1;
                     };
                     var6 = var7.bind(var8)(var5);
-case 41: // try_start_0
+case 42: // try_start_0
                     var9 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var7 = 3;
@@ -392,8 +392,8 @@ case 0:
                             var2 = var4.local_id;
                             var1 = null;
                             var1 = var1 == var2;
-                            if(var1) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                            if(var1) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                             var5 = _closure1_slot0;
                             var3 = _closure1_slot2;
                             var2 = 7;
@@ -402,7 +402,7 @@ case 43:
                             var3 = var5.bind(var2)(var3);
                             var2 = var3.isMentionItem;
                             var1 = var2.bind(var3)(var4);
-case 42:
+case 43:
                             return var1;
                         }
                     };
@@ -430,16 +430,16 @@ case 42:
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
                     SaveGenerator(address=203);
-case 44:
-                    return var3;
 case 45:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 46; continue _fun0004 }
-case 47: // try_end0
-                    _fun0004_ip = 48; continue _fun0004;
-case 46:
                     return var3;
-case 49: // catch_target0
+case 46:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0004_ip = 47; continue _fun0004 }
+case 48: // try_end0
+                    _fun0004_ip = 49; continue _fun0004;
+case 47:
+                    return var3;
+case 50: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -452,9 +452,9 @@ case 49: // catch_target0
                     var3['type'] = var7;
                     var3['ids'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 48:
+case 49:
                     return var2;
-case 39:
+case 40:
                     return var1;
                 }
             };
@@ -480,7 +480,7 @@ case 39:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 50; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 51; continue _fun0006 }
 case 32:
                     var6 = arg1;
                     var5 = undefined;
@@ -493,7 +493,7 @@ case 32:
                     var4 = var2.NotificationCenterAckedBeforeId;
                     var2 = var4.getSetting;
                     var11 = var2.bind(var4)();
-case 51: // try_start_0
+case 52: // try_start_0
                     var4 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var2 = 3;
@@ -525,10 +525,10 @@ case 51: // try_start_0
                     var9 = var10.isMentionItem;
                     var10 = var9.bind(var10)(var12);
                     var9 = 'regular';
-                    if(!var10) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+                    if(!var10) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
                     var9 = 'mention';
-case 52:
+case 53:
                     var8['item_type'] = var9;
                     var2['body'] = var8;
                     var8 = {};
@@ -557,16 +557,16 @@ case 52:
                     var2['rejectWithError'] = var8;
                     var2 = var4.bind(var7)(var2);
                     SaveGenerator(address=315);
-case 54:
-                    return var2;
 case 55:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0006_ip = 56; continue _fun0006 }
-case 57: // try_end0
-                    return var5;
-case 56:
                     return var2;
-case 58: // catch_target0
+case 56:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0006_ip = 57; continue _fun0006 }
+case 58: // try_end0
+                    return var5;
+case 57:
+                    return var2;
+case 59: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -580,7 +580,7 @@ case 58: // catch_target0
                     var3['item'] = var6;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
-case 50:
+case 51:
                     return var1;
                 }
             };
@@ -690,8 +690,8 @@ case 0:
             var1 = arg1;
             var3 = var1.local_id;
             var2 = null;
-            if(!(var2 == var3)) { _fun0007_ip = 59; continue _fun0007 }
-case 40:
+            if(!(var2 == var3)) { _fun0007_ip = 60; continue _fun0007 }
+case 41:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var3 = 7;
@@ -700,25 +700,25 @@ case 40:
             var5 = var5.bind(var4)(var3);
             var3 = var5.isMentionItem;
             var3 = var3.bind(var5)(var1);
-            if(var3) { _fun0007_ip = 60; continue _fun0007 }
-case 42:
+            if(var3) { _fun0007_ip = 61; continue _fun0007 }
+case 43:
             var5 = _closure1_slot8;
             var3 = var1.id;
             var3 = var5.bind(var4)(var3);
-            _fun0007_ip = 61; continue _fun0007;
-case 60:
+            _fun0007_ip = 62; continue _fun0007;
+case 61:
             var3 = _closure1_slot10;
             var2 = var1.id;
             var2 = var3.bind(var4)(var2);
-            _fun0007_ip = 61; continue _fun0007;
-case 59:
+            _fun0007_ip = 62; continue _fun0007;
+case 60:
             var3 = _closure1_slot7;
             var1 = var1.local_id;
             var2 = new Array(1);
             var2[0] = var1;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
-case 61:
+case 62:
             var1 = undefined;
             return var1;
         }
