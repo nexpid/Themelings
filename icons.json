@@ -652,14 +652,14 @@
         "height": 12
     },
     "badge": {
-        "file": "app/images/native/premium/guild_boosting/perks/badge.png",
-        "hash": "6d92319c85fd42e305e389df8a64c64a",
+        "file": "app/modules/premium/native/images/perks/badge.png",
+        "hash": "7d09a15a2a5682035199dcfee2a26d08",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 300,
+        "height": 175
     },
     "badge_2": {
         "file": "app/images/native/premium/guild_boosting/perks/badge_2.png",
@@ -1082,16 +1082,6 @@
     "CameraIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CameraIcon.png",
         "hash": "f0636d1e0fce06c72d7f93fbaad0adb6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CameraSwapIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/CameraSwapIcon.png",
-        "hash": "06b6e55a0e0fb6ebac50634ed5457494",
         "scales": [
             2,
             3
@@ -2509,14 +2499,14 @@
         "height": 24
     },
     "emoji": {
-        "file": "app/images/native/premium/guild_boosting/perks/emoji.png",
-        "hash": "6ce9cfa41f5b080fb1f9fac04190337a",
+        "file": "app/modules/premium/native/images/perks/emoji.png",
+        "hash": "337f717407aa04f32bdedf504de7310b",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 300,
+        "height": 175
     },
     "emoji-negative": {
         "file": "app/modules/icymi/native/images/emoji-negative.png",
@@ -4169,16 +4159,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_camera_white": {
-        "file": "app/images/native/icons/ic_camera_white.png",
-        "hash": "737e3cfff26d73447610819646895926",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 32,
-        "height": 32
-    },
     "ic_caret_24px": {
         "file": "app/images/native/icons/ic_caret_24px.png",
         "hash": "ea3c9abdbf7b4bdacb76018f8790d9b4",
@@ -4483,7 +4463,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "app/modules/parent_tools/images/ic_eye.png",
+        "file": "app/modules/media_viewer/native/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -11765,14 +11745,14 @@
         "height": 16
     },
     "sticker": {
-        "file": "app/images/native/premium/guild_boosting/perks/sticker.png",
-        "hash": "4f7f3933dfbb31e71ae1545e9b3d82b6",
+        "file": "app/modules/premium/native/images/perks/sticker.png",
+        "hash": "fac2e3b3b87c5c331642c571eab831c9",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 300,
+        "height": 175
     },
     "sticker_search_empty": {
         "file": "app/modules/stickers/native/images/sticker_search_empty.png",
