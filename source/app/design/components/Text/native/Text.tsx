@@ -1,42 +1,42 @@
 // app/design/components/Text/native/Text.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
+    var7 = require;
     var15 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
     var _closure1_slot1 = var15;
-    var _closure1_slot2 = var7;
+    var _closure1_slot2 = var8;
     var4 = global;
     var9 = var4.Object;
-    var8 = var9.defineProperty;
+    var6 = var9.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = var6.bind(var9)(var3, var1, var5);
     var1 = 0;
-    var8 = var7[var1];
+    var6 = var8[var1];
     var5 = metroImportAll;
     var1 = undefined;
-    var8 = var5.bind(var1)(var8);
+    var9 = var5.bind(var1)(var6);
     var5 = 1;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
     var12 = var5.Text;
     var _closure1_slot3 = var12;
-    var9 = var5.StyleSheet;
+    var6 = var5.StyleSheet;
     var5 = 2;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
     var10 = var5.Fonts;
     var5 = 3;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
     var5 = var5.jsx;
     var _closure1_slot4 = var5;
     var5 = 4;
-    var5 = var7[var5];
+    var5 = var8[var5];
     var11 = var15.bind(var1)(var5);
     var5 = var11.createAnimatedComponent;
     var5 = var5.bind(var11)(var12);
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var4.Object;
     var13 = var14.keys;
     var5 = 5;
-    var5 = var7[var5];
+    var5 = var8[var5];
     var5 = var15.bind(var1)(var5);
     var5 = var5.colors;
     var14 = var13.bind(var14)(var5);
@@ -95,12 +95,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.GINTO_NORD_EXTRA_BOLD;
     var5[800] = var10;
     var _closure1_slot9 = var5;
-    var5 = var9.create;
+    var5 = var6.create;
     var11 = var4.Object;
     var10 = var11.fromEntries;
     var12 = 7;
-    var12 = var7[var12];
-    var12 = var6.bind(var1)(var12);
+    var12 = var8[var12];
+    var12 = var7.bind(var1)(var12);
     var14 = var12.TextVariantsFlat;
     var13 = var14.map;
     var12 = function(arg1) {
@@ -170,13 +170,13 @@ case 2:
     var4 = var4.Boolean;
     var4 = var12.bind(var13)(var4);
     var4 = var10.bind(var11)(var4);
-    var4 = var5.bind(var9)(var4);
-    var _closure1_slot10 = var4;
-    var5 = 8;
-    var5 = var7[var5];
-    var10 = var6.bind(var1)(var5);
-    var9 = var10.createStyles;
-    var5 = function(arg1, arg2) {
+    var5 = var5.bind(var6)(var4);
+    var _closure1_slot10 = var5;
+    var4 = 8;
+    var4 = var8[var4];
+    var10 = var7.bind(var1)(var4);
+    var6 = var10.createStyles;
+    var4 = function(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = arg1;
@@ -223,10 +223,10 @@ case 14:
             return var1;
         }
     };
-    var5 = var9.bind(var10)(var5);
-    var _closure1_slot11 = var5;
-    var5 = var8.forwardRef;
-    var2 = function(arg1, arg2) {
+    var4 = var6.bind(var10)(var4);
+    var _closure1_slot11 = var4;
+    var6 = var9.forwardRef;
+    var4 = function(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var9 = arg1;
@@ -315,14 +315,34 @@ case 30:
             return var1;
         }
     };
-    var2 = var5.bind(var8)(var2);
-    var5 = 10;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'design/components/Text/native/Text.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['TextStyleSheet'] = var4;
-    var3['Text'] = var2;
+    var4 = var6.bind(var9)(var4);
+    var _closure1_slot12 = var4;
+    var6 = var9.forwardRef;
+    var2 = function(arg1, arg2) {
+        var4 = _closure1_slot4;
+        var3 = _closure1_slot12;
+        var2 = {};
+        var1 = arg2;
+        var2['ref'] = var1;
+        var6 = arg1;
+        var7 = var2;
+        var1 = copyDataProperties(var7, var6);
+        var5 = 'header';
+        var1 = 'accessibilityRole';
+        var2[var1] = var5;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
+    };
+    var2 = var6.bind(var9)(var2);
+    var6 = 10;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'design/components/Text/native/Text.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['TextStyleSheet'] = var5;
+    var3['Text'] = var4;
+    var3['Heading'] = var2;
     return var1;
 })();

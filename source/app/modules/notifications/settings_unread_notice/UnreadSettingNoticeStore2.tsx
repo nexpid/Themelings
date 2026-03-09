@@ -49,51 +49,52 @@ case 4:
     var1 = function trackChannel() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = _closure1_slot21;
+            var3 = _closure1_slot21;
             var1 = null;
-            if(!(var1 != var2)) { _fun0002_ip = 6; continue _fun0002 }
+            if(!(var1 != var3)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var4 = _closure1_slot29;
-            var2 = _closure1_slot21;
-            var1 = undefined;
-            var2 = var4.bind(var1)(var2);
-            if(var2) { _fun0002_ip = 8; continue _fun0002 }
+            var3 = _closure1_slot29;
+            var1 = _closure1_slot21;
+            var8 = undefined;
+            var1 = var3.bind(var8)(var1);
+            if(var1) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var2 = false;
-            return var2;
+            var1 = false;
+            return var1;
 case 8:
-            var4 = _closure1_slot28;
-            var2 = _closure1_slot21;
-            var5 = var4.bind(var1)(var2);
-            var6 = var5.lastActionTime;
-            var2 = global;
-            var7 = var2.Date;
-            var4 = var7.now;
-            var7 = var4.bind(var7)();
-            var8 = _closure1_slot1;
+            var3 = _closure1_slot28;
+            var1 = _closure1_slot21;
+            var4 = var3.bind(var8)(var1);
+            var5 = var4.lastActionTime;
+            var1 = global;
+            var6 = var1.Date;
+            var3 = var6.now;
+            var6 = var3.bind(var6)();
+            var7 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var4 = 13;
-            var4 = var9[var4];
-            var4 = var8.bind(var1)(var4);
-            var4 = var4.Millis;
-            var4 = var4.DAY;
-            var4 = var7 - var4;
-            if(!(var6 > var4)) { _fun0002_ip = 10; continue _fun0002 }
+            var3 = 13;
+            var3 = var9[var3];
+            var3 = var7.bind(var8)(var3);
+            var3 = var3.Millis;
+            var3 = var3.DAY;
+            var3 = var6 - var3;
+            if(!(var5 > var3)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var6 = var5.viewDuration;
-            var4 = _closure1_slot17;
-            if(!(!(var6 > var4))) { _fun0002_ip = 12; continue _fun0002 }
+            var5 = var4.viewDuration;
+            var3 = _closure1_slot17;
+            if(!(!(var5 > var3))) { _fun0002_ip = 12; continue _fun0002 }
 case 10:
-            var4 = var2.Date;
-            var2 = var4.now;
-            var2 = var2.bind(var4)();
-            var5['lastActionTime'] = var2;
-            var6 = var5.viewDuration;
-            var4 = _closure1_slot22;
-            var4 = var2 - var4;
-            var4 = var6 + var4;
-            var5['viewDuration'] = var4;
-            _closure1_slot22 = var2;
+            var3 = var1.Date;
+            var1 = var3.now;
+            var1 = var1.bind(var3)();
+            var4['lastActionTime'] = var1;
+            var5 = var4.viewDuration;
+            var3 = _closure1_slot22;
+            var3 = var1 - var3;
+            var3 = var5 + var3;
+            var4['viewDuration'] = var3;
+            _closure1_slot22 = var1;
+            var1 = true;
             return var1;
 case 12:
             var1 = false;

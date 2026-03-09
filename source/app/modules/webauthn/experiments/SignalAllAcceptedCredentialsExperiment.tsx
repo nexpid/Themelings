@@ -1,4 +1,4 @@
-// app/modules/in_app_notifications/InAppNotificationsNegativeTestExperiment.tsx
+// app/modules/webauthn/experiments/SignalAllAcceptedCredentialsExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,17 +16,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'kind': 'user', 'name': '2026-01-in-app-notifications-negative-test'};
+    var2 = {'kind': 'user', 'name': '2026-02-signal-all-accepted-credentials'};
     var8 = {};
-    var11 = false;
-    var8['shouldSuppress'] = var11;
+    var9 = false;
+    var8['enabled'] = var9;
     var2['defaultConfig'] = var8;
     var8 = {};
     var9 = {};
-    var9['shouldSuppress'] = var11;
-    var8[0] = var9;
-    var9 = {};
-    var9['shouldSuppress'] = var10;
+    var9['enabled'] = var10;
     var8[1] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
@@ -34,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/in_app_notifications/InAppNotificationsNegativeTestExperiment.tsx';
+    var4 = 'modules/webauthn/experiments/SignalAllAcceptedCredentialsExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var3['SignalAllAcceptedCredentialsExperiment'] = var2;
     return var1;
 })();

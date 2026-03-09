@@ -229,7 +229,7 @@ case 20:
     var16 = var16.radii;
     var16 = var16.xs;
     var6['borderRadius'] = var16;
-    var8['newlabelContainer'] = var6;
+    var8['labelContainer'] = var6;
     var6 = {};
     var16 = 10;
     var6['right'] = var16;
@@ -316,7 +316,7 @@ case 20:
         var3 = _closure1_slot10;
         var2 = _closure1_slot4;
         var1 = {};
-        var8 = var12.newlabelContainer;
+        var8 = var12.labelContainer;
         var5 = new Array(2);
         var5[0] = var8;
         var5[1] = var7;

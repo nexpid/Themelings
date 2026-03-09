@@ -543,7 +543,7 @@ case 38:
             var10['channel'] = var14;
             var10['unread'] = var23;
             var10['mentionCount'] = var26;
-            var10['userCount'] = var29;
+            var10['voiceStates'] = var8;
             var19 = var25.length;
             var10['embeddedActivitiesCount'] = var19;
             var10 = var17.bind(var18)(var10);

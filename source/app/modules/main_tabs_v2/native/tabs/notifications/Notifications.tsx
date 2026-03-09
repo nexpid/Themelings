@@ -396,7 +396,7 @@ case 0:
             var2 = 9;
             var2 = var10[var2];
             var7 = var3.bind(var4)(var2);
-            var5 = var7.useExperiment;
+            var5 = var7.useConfig;
             var2 = {};
             var8 = 'NativeNotifications';
             var2['location'] = var8;

@@ -1502,7 +1502,9 @@ case 57:
                     var1['messageRenderCachedCount'] = var2;
                     var1['messageRenderHasMoreAfter'] = var2;
                     var1['firstAppActiveTime'] = var2;
-                    var1['cacheInfo'] = var2;
+                    var1['initialPage'] = var2;
+                    var1['earlyCacheInfo'] = var2;
+                    var1['lazyCacheInfo'] = var2;
                     var2 = {};
                     var1['extraProperties'] = var2;
                     return var1;
@@ -1543,20 +1545,44 @@ case 33:
                 return var1;
             };
             var5['value'] = var1;
-            var1 = new Array(13);
+            var1 = new Array(15);
             var1[0] = var5;
             var5 = {};
-            var7 = 'setCacheInfo';
+            var7 = 'setInitialPage';
             var5['key'] = var7;
             var7 = function value(arg1) {
                 var2 = arg1;
                 var1 = this;
-                var1['cacheInfo'] = var2;
+                var1['initialPage'] = var2;
                 var1 = undefined;
                 return var1;
             };
             var5['value'] = var7;
             var1[1] = var5;
+            var5 = {};
+            var7 = 'setEarlyCacheInfo';
+            var5['key'] = var7;
+            var7 = function value(arg1) {
+                var2 = arg1;
+                var1 = this;
+                var1['earlyCacheInfo'] = var2;
+                var1 = undefined;
+                return var1;
+            };
+            var5['value'] = var7;
+            var1[2] = var5;
+            var5 = {};
+            var7 = 'setLazyCacheInfo';
+            var5['key'] = var7;
+            var7 = function value(arg1) {
+                var2 = arg1;
+                var1 = this;
+                var1['lazyCacheInfo'] = var2;
+                var1 = undefined;
+                return var1;
+            };
+            var5['value'] = var7;
+            var1[3] = var5;
             var5 = {};
             var7 = 'setInterstitial';
             var5['key'] = var7;
@@ -1570,7 +1596,7 @@ case 33:
                 return var1;
             };
             var5['value'] = var7;
-            var1[2] = var5;
+            var1[4] = var5;
             var5 = {};
             var7 = 'addLocalMessages';
             var5['key'] = var7;
@@ -1606,7 +1632,7 @@ case 78:
                 }
             };
             var5['value'] = var7;
-            var1[3] = var5;
+            var1[5] = var5;
             var5 = {};
             var7 = 'attachReadyPayloadProperties';
             var5['key'] = var7;
@@ -1618,7 +1644,7 @@ case 78:
                 return var1;
             };
             var5['value'] = var7;
-            var1[4] = var5;
+            var1[6] = var5;
             var5 = {};
             var7 = 'appStateChanged';
             var5['key'] = var7;
@@ -1660,7 +1686,7 @@ case 82:
                 }
             };
             var5['value'] = var7;
-            var1[5] = var5;
+            var1[7] = var5;
             var5 = {};
             var7 = 'recordRender';
             var5['key'] = var7;
@@ -1696,7 +1722,7 @@ case 83:
                 }
             };
             var5['value'] = var7;
-            var1[6] = var5;
+            var1[8] = var5;
             var5 = {};
             var7 = 'recordMessageRender';
             var5['key'] = var7;
@@ -1862,7 +1888,7 @@ case 87:
                 }
             };
             var5['value'] = var7;
-            var1[7] = var5;
+            var1[9] = var5;
             var5 = {};
             var7 = 'getStartTime';
             var5['key'] = var7;
@@ -1896,7 +1922,7 @@ case 108:
                 }
             };
             var5['value'] = var7;
-            var1[8] = var5;
+            var1[10] = var5;
             var5 = {};
             var7 = 'processNativeLogs';
             var5['key'] = var7;
@@ -2094,7 +2120,7 @@ case 109:
                 }
             };
             var5['value'] = var7;
-            var1[9] = var5;
+            var1[11] = var5;
             var5 = {};
             var7 = 'serializeAppStartupMetrics';
             var5['key'] = var7;
@@ -2110,7 +2136,7 @@ case 109:
                 return var1;
             };
             var5['value'] = var7;
-            var1[10] = var5;
+            var1[12] = var5;
             var5 = {};
             var7 = 'serializeWebPerfStartupMetrics';
             var5['key'] = var7;
@@ -2133,7 +2159,7 @@ case 109:
                 return var1;
             };
             var5['value'] = var7;
-            var1[11] = var5;
+            var1[13] = var5;
             var5 = {};
             var7 = 'serializeTTITracker';
             var5['key'] = var7;
@@ -2147,19 +2173,19 @@ case 0:
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot4;
                     var4 = 9;
-                    var5 = var8[var4];
-                    var4 = undefined;
-                    var5 = var6.bind(var4)(var5);
+                    var4 = var8[var4];
+                    var5 = undefined;
+                    var4 = var6.bind(var5)(var4);
                     var6 = _closure1_slot2;
                     var3 = 6;
                     var3 = var8[var3];
-                    var3 = var6.bind(var4)(var3);
-                    var6 = var3.logGroups;
-                    var3 = 0;
-                    var3 = var6[var3];
+                    var3 = var6.bind(var5)(var3);
+                    var3 = var3.logGroups;
+                    var9 = 0;
+                    var3 = var3[var9];
                     var3 = var3.logs;
-                    var6 = var5.bind(var4)(var3);
-                    var5 = var6.filter;
+                    var6 = var4.bind(var5)(var3);
+                    var4 = var6.filter;
                     var3 = function(arg1) {
                         var1 = arg1;
                         var3 = var1.log;
@@ -2168,8 +2194,8 @@ case 0:
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var5 = var5.bind(var6)(var3);
-                    var3 = var5.map;
+                    var4 = var4.bind(var6)(var3);
+                    var3 = var4.map;
                     var1 = function(arg1) {
                         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
@@ -2185,18 +2211,21 @@ case 31:
                             return var1;
                         }
                     };
-                    var3 = var3.bind(var5)(var1);
+                    var3 = var3.bind(var4)(var1);
                     var1 = var3.sum;
-                    var5 = var1.bind(var3)();
+                    var4 = var1.bind(var3)();
                     var1 = var2.serializeAppStartupMetrics;
                     var3 = var1.bind(var2)();
                     var1 = {};
-                    var9 = var2.extraProperties;
-                    var10 = var1;
-                    var6 = copyDataProperties(var10, var9);
-                    var10 = var1;
-                    var9 = var3;
-                    var3 = copyDataProperties(var10, var9);
+                    var13 = var2.extraProperties;
+                    var14 = var1;
+                    var6 = copyDataProperties(var14, var13);
+                    var14 = var1;
+                    var13 = var3;
+                    var3 = copyDataProperties(var14, var13);
+                    var6 = var2.initialPage;
+                    var3 = 'initial_page';
+                    var1[var3] = var6;
                     var6 = var2.loadIndex;
                     var3 = var6.serializeStart;
                     var6 = var3.bind(var6)(var7);
@@ -2695,121 +2724,143 @@ case 31:
                     var3 = var2.loadIndex;
                     var3 = var3.start;
                     var3 = var6 - var3;
-                    var5 = var3 + var5;
+                    var4 = var3 + var4;
                     var3 = 'duration_major_js_imports';
-                    var1[var3] = var5;
-                    var3 = var2.cacheInfo;
-                    var5 = null;
-                    var7 = var5 == var3;
-                    var6 = undefined;
-                    if(var7) { _fun0025_ip = 139; continue _fun0025 }
-case 140:
-                    var6 = var3.guilds;
-case 139:
-                    var3 = 'cache_num_guilds';
-                    var1[var3] = var6;
-                    var3 = var2.cacheInfo;
-                    var7 = var5 == var3;
-                    var6 = undefined;
-                    if(var7) { _fun0025_ip = 141; continue _fun0025 }
-case 142:
-                    var6 = var3.privateChannels;
-case 141:
-                    var3 = 'cache_num_private_channels';
-                    var1[var3] = var6;
-                    var3 = var2.cacheInfo;
-                    var7 = var5 == var3;
-                    var6 = undefined;
-                    if(var7) { _fun0025_ip = 143; continue _fun0025 }
-case 144:
-                    var6 = var3.basicChannels;
-case 143:
-                    var3 = 'cache_num_basic_channels';
-                    var1[var3] = var6;
-                    var3 = var2.cacheInfo;
-                    var7 = var5 == var3;
-                    var6 = undefined;
-                    if(var7) { _fun0025_ip = 145; continue _fun0025 }
-case 146:
-                    var6 = var3.basicChannelsStale;
-case 145:
-                    var3 = 'cache_num_basic_channels_stale';
-                    var1[var3] = var6;
-                    var3 = var2.cacheInfo;
-                    var7 = var5 == var3;
-                    var6 = undefined;
-                    if(var7) { _fun0025_ip = 147; continue _fun0025 }
-case 148:
-                    var6 = var3.fullChannels;
-case 147:
-                    var3 = 'cache_num_full_channels';
-                    var1[var3] = var6;
-                    var3 = var2.cacheInfo;
-                    var5 = var5 == var3;
-                    var4 = undefined;
-                    if(var5) { _fun0025_ip = 149; continue _fun0025 }
-case 150:
-                    var4 = var3.fullChannelGuilds;
-case 149:
-                    var3 = 'cache_num_full_channel_guilds';
-                    var1[var3] = var4;
-                    var3 = var2.loadIndex;
-                    var4 = var3.endNumImports;
-                    var3 = 'num_imports_at_load_index_end';
-                    var1[var3] = var4;
-                    var3 = var2.init;
-                    var4 = var3.endNumImports;
-                    var3 = 'num_imports_at_init_end';
-                    var1[var3] = var4;
-                    var3 = var2.loadMiniCache;
-                    var4 = var3.endNumImports;
-                    var3 = 'num_imports_at_load_mini_cache_end';
-                    var1[var3] = var4;
-                    var3 = var2.renderApp;
-                    var4 = var3.numImports;
-                    var3 = 'num_imports_at_render_app_start';
-                    var1[var3] = var4;
-                    var3 = var2.renderAppEffect;
-                    var4 = var3.numImports;
-                    var3 = 'num_imports_at_render_app_effect_start';
-                    var1[var3] = var4;
-                    var3 = var2.renderMessages;
-                    var4 = var3.numImports;
-                    var3 = 'num_imports_at_render_messages_end';
-                    var1[var3] = var4;
-                    var3 = var2.renderMessagesWithCache;
-                    var4 = var3.numImports;
-                    var3 = 'num_imports_at_render_messages_with_cache_end';
-                    var1[var3] = var4;
-                    var3 = var2.renderLatestMessages;
-                    var4 = var3.numImports;
-                    var3 = 'num_imports_at_render_latest_messages_end';
-                    var1[var3] = var4;
-                    var3 = var2.loadLazyCache;
-                    var4 = var3.startNumImports;
-                    var3 = 'num_imports_at_load_lazy_cache_start';
-                    var1[var3] = var4;
-                    var3 = var2.loadLazyCache;
-                    var4 = var3.endNumImports;
-                    var3 = 'num_imports_at_load_lazy_cache_end';
-                    var1[var3] = var4;
-                    var3 = var2.ready;
-                    var4 = var3.startNumImports;
-                    var3 = 'num_imports_at_ready_start';
-                    var1[var3] = var4;
-                    var3 = var2.ready;
-                    var4 = var3.endNumImports;
-                    var3 = 'num_imports_at_ready_end';
-                    var1[var3] = var4;
-                    var3 = var2.readySupplemental;
-                    var4 = var3.startNumImports;
-                    var3 = 'num_imports_at_ready_supplemental_start';
-                    var1[var3] = var4;
-                    var3 = var2.readySupplemental;
-                    var4 = var3.endNumImports;
-                    var3 = 'num_imports_at_ready_supplemental_end';
                     var1[var3] = var4;
                     var3 = global;
+                    var8 = var3.Math;
+                    var7 = var8.max;
+                    var4 = var2.earlyCacheInfo;
+                    var6 = null;
+                    var11 = var6 == var4;
+                    var10 = undefined;
+                    if(var11) { _fun0025_ip = 139; continue _fun0025 }
+case 140:
+                    var10 = var4.guilds;
+case 139:
+                    var11 = var6 != var10;
+                    var4 = 0;
+                    if(!var11) { _fun0025_ip = 141; continue _fun0025 }
+case 142:
+                    var4 = var10;
+case 141:
+                    var11 = var2.lazyCacheInfo;
+                    var12 = var6 == var11;
+                    var10 = undefined;
+                    if(var12) { _fun0025_ip = 143; continue _fun0025 }
+case 144:
+                    var10 = var11.guilds;
+case 143:
+                    var11 = var6 != var10;
+                    var9 = 0;
+                    if(!var11) { _fun0025_ip = 145; continue _fun0025 }
+case 146:
+                    var9 = var10;
+case 145:
+                    var7 = var7.bind(var8)(var4, var9);
+                    var4 = 'cache_num_guilds';
+                    var1[var4] = var7;
+                    var4 = var2.lazyCacheInfo;
+                    var8 = var6 == var4;
+                    var7 = undefined;
+                    if(var8) { _fun0025_ip = 147; continue _fun0025 }
+case 148:
+                    var7 = var4.privateChannels;
+case 147:
+                    var4 = 'cache_num_private_channels';
+                    var1[var4] = var7;
+                    var4 = var2.lazyCacheInfo;
+                    var8 = var6 == var4;
+                    var7 = undefined;
+                    if(var8) { _fun0025_ip = 149; continue _fun0025 }
+case 150:
+                    var7 = var4.basicChannels;
+case 149:
+                    var4 = 'cache_num_basic_channels';
+                    var1[var4] = var7;
+                    var4 = var2.lazyCacheInfo;
+                    var8 = var6 == var4;
+                    var7 = undefined;
+                    if(var8) { _fun0025_ip = 151; continue _fun0025 }
+case 152:
+                    var7 = var4.basicChannelsStale;
+case 151:
+                    var4 = 'cache_num_basic_channels_stale';
+                    var1[var4] = var7;
+                    var4 = var2.lazyCacheInfo;
+                    var8 = var6 == var4;
+                    var7 = undefined;
+                    if(var8) { _fun0025_ip = 153; continue _fun0025 }
+case 154:
+                    var7 = var4.fullChannels;
+case 153:
+                    var4 = 'cache_num_full_channels';
+                    var1[var4] = var7;
+                    var4 = var2.lazyCacheInfo;
+                    var6 = var6 == var4;
+                    var5 = undefined;
+                    if(var6) { _fun0025_ip = 155; continue _fun0025 }
+case 156:
+                    var5 = var4.fullChannelGuilds;
+case 155:
+                    var4 = 'cache_num_full_channel_guilds';
+                    var1[var4] = var5;
+                    var4 = var2.loadIndex;
+                    var5 = var4.endNumImports;
+                    var4 = 'num_imports_at_load_index_end';
+                    var1[var4] = var5;
+                    var4 = var2.init;
+                    var5 = var4.endNumImports;
+                    var4 = 'num_imports_at_init_end';
+                    var1[var4] = var5;
+                    var4 = var2.loadMiniCache;
+                    var5 = var4.endNumImports;
+                    var4 = 'num_imports_at_load_mini_cache_end';
+                    var1[var4] = var5;
+                    var4 = var2.renderApp;
+                    var5 = var4.numImports;
+                    var4 = 'num_imports_at_render_app_start';
+                    var1[var4] = var5;
+                    var4 = var2.renderAppEffect;
+                    var5 = var4.numImports;
+                    var4 = 'num_imports_at_render_app_effect_start';
+                    var1[var4] = var5;
+                    var4 = var2.renderMessages;
+                    var5 = var4.numImports;
+                    var4 = 'num_imports_at_render_messages_end';
+                    var1[var4] = var5;
+                    var4 = var2.renderMessagesWithCache;
+                    var5 = var4.numImports;
+                    var4 = 'num_imports_at_render_messages_with_cache_end';
+                    var1[var4] = var5;
+                    var4 = var2.renderLatestMessages;
+                    var5 = var4.numImports;
+                    var4 = 'num_imports_at_render_latest_messages_end';
+                    var1[var4] = var5;
+                    var4 = var2.loadLazyCache;
+                    var5 = var4.startNumImports;
+                    var4 = 'num_imports_at_load_lazy_cache_start';
+                    var1[var4] = var5;
+                    var4 = var2.loadLazyCache;
+                    var5 = var4.endNumImports;
+                    var4 = 'num_imports_at_load_lazy_cache_end';
+                    var1[var4] = var5;
+                    var4 = var2.ready;
+                    var5 = var4.startNumImports;
+                    var4 = 'num_imports_at_ready_start';
+                    var1[var4] = var5;
+                    var4 = var2.ready;
+                    var5 = var4.endNumImports;
+                    var4 = 'num_imports_at_ready_end';
+                    var1[var4] = var5;
+                    var4 = var2.readySupplemental;
+                    var5 = var4.startNumImports;
+                    var4 = 'num_imports_at_ready_supplemental_start';
+                    var1[var4] = var5;
+                    var4 = var2.readySupplemental;
+                    var5 = var4.endNumImports;
+                    var4 = 'num_imports_at_ready_supplemental_end';
+                    var1[var4] = var5;
                     var6 = var3.Math;
                     var5 = var6.ceil;
                     var4 = var2.loadIndex;
@@ -2989,7 +3040,7 @@ case 149:
                 }
             };
             var5['value'] = var6;
-            var1[12] = var5;
+            var1[14] = var5;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };

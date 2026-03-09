@@ -100,7 +100,7 @@ case 0:
             var1 = 6;
             var1 = var6[var1];
             var3 = var23.bind(var4)(var1);
-            var2 = var3.useExperiment;
+            var2 = var3.useConfig;
             var1 = {};
             var8 = 'NotificationCenterActionSheet';
             var1['location'] = var8;

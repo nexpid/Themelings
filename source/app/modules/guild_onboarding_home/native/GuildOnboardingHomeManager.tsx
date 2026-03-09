@@ -852,7 +852,7 @@ case 93:
                                 var8 = var8.bind(var4)(var6);
                                 var6 = var8.getIsNewMember;
                                 var6 = var6.bind(var8)(var7);
-                                if(var6) { _fun0010_ip = 91; continue _fun0010 }
+                                if(!var6) { _fun0010_ip = 91; continue _fun0010 }
 case 94:
                                 var6 = _closure1_slot0;
                                 var8 = _closure1_slot2;

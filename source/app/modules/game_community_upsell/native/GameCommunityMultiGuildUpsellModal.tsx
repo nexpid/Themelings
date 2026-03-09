@@ -10,375 +10,420 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var10;
     var _closure1_slot3 = var8;
     var4 = function OneColumnGuildUpsellList(arg1) {
-        var2 = arg1;
-        var7 = var2.suggestedGuilds;
-        var9 = var2.contentContainerStyle;
-        var6 = var2.subheader;
-        var15 = var2.onDismiss;
-        var _closure2_slot0 = var15;
-        var5 = _closure1_slot4;
-        var4 = var5.useCallback;
-        var3 = function(arg1) {
-            var1 = arg1;
-            var1 = var1.id;
-            return var1;
-        };
-        var2 = new Array(0);
-        var8 = var4.bind(var5)(var3, var2);
-        var2 = _closure1_slot0;
-        var12 = _closure1_slot3;
-        var3 = 11;
-        var3 = var12[var3];
-        var4 = undefined;
-        var13 = var2.bind(var4)(var3);
-        var11 = var13.useStateFromStoresObject;
-        var3 = _closure1_slot6;
-        var5 = new Array(1);
-        var5[0] = var3;
-        var3 = function() {
-            var2 = _closure1_slot6;
-            var1 = var2.getGuildGameIds;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var13 = var11.bind(var13)(var5, var3);
-        var _closure2_slot1 = var13;
-        var11 = _closure1_slot1;
-        var3 = 12;
-        var3 = var12[var3];
-        var5 = var11.bind(var4)(var3);
-        var3 = 13;
-        var3 = var12[var3];
-        var3 = var11.bind(var4)(var3);
-        var3 = var3.GAME_COMMUNITY_MULTI_GUILD_UPSELL_GUILDS_BAR_ENTRYPOINT;
-        var3 = var5.bind(var4)(var3);
-        var11 = var3.analyticsLocations;
-        var14 = _closure1_slot4;
-        var5 = var14.useCallback;
-        var3 = new Array(2);
-        var3[0] = var15;
-        var3[1] = var13;
-        var1 = function(arg1) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var1 = arg1;
-                var1 = var1.item;
-                var10 = _closure2_slot1;
-                var2 = var1.id;
-                var2 = var10[var2];
-                var6 = null;
-                var8 = var6 != var2;
-                var5 = _closure1_slot9;
-                var3 = _closure1_slot1;
-                var4 = _closure1_slot3;
-                var2 = 14;
-                var2 = var4[var2];
-                var4 = undefined;
-                var3 = var3.bind(var4)(var2);
-                var2 = {};
-                var2['guild'] = var1;
-                var9 = var1.id;
-                var9 = var10[var9];
-                var2['gameId'] = var9;
-                var9 = 'one-column';
-                var2['variant'] = var9;
-                if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = arg1;
+            var8 = var2.suggestedGuilds;
+            var10 = var2.contentContainerStyle;
+            var7 = var2.subheader;
+            var3 = var2.onDismiss;
+            var _closure2_slot0 = var3;
+            var15 = var2.bottomPadding;
+            var4 = undefined;
+            if(!(var15 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var6 = _closure2_slot0;
+            var15 = 0;
 case 2:
-                var2['onDismiss'] = var6;
+            var _closure2_slot1 = var15;
+            var _closure2_slot2 = var4;
+            var9 = _closure1_slot4;
+            var6 = var9.useCallback;
+            var5 = function(arg1) {
+                var1 = arg1;
                 var1 = var1.id;
-                var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
-            }
-        };
-        var5 = var5.bind(var14)(var1, var3);
-        var3 = _closure1_slot14;
-        var1 = 'one-column';
-        var11 = var3.bind(var4)(var13, var1, var11);
-        var3 = _closure1_slot9;
-        var1 = 15;
-        var1 = var12[var1];
-        var1 = var2.bind(var4)(var1);
-        var2 = var1.FlashList;
-        var1 = {};
-        var1['onViewableItemsChanged'] = var11;
-        var10 = _closure1_slot12;
-        var1['viewabilityConfig'] = var10;
-        var1['contentContainerStyle'] = var9;
-        var1['keyExtractor'] = var8;
-        var1['data'] = var7;
-        var1['ListHeaderComponent'] = var6;
-        var1['renderItem'] = var5;
-        var5 = 390;
-        var1['estimatedItemSize'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot15 = var4;
-    var2 = function TwoColumnGuildUpsellList(arg1) {
-        var3 = arg1;
-        var2 = var3.suggestedGuilds;
-        var _closure2_slot0 = var2;
-        var9 = var3.contentContainerStyle;
-        var16 = var3.rowStyle;
-        var _closure2_slot1 = var16;
-        var6 = var3.subheader;
-        var15 = var3.onDismiss;
-        var _closure2_slot2 = var15;
-        var5 = _closure1_slot4;
-        var4 = var5.useMemo;
-        var3 = new Array(1);
-        var3[0] = var2;
-        var2 = function() {
-            var4 = _closure2_slot0;
-            var3 = var4.reduce;
-            var2 = function(arg1, arg2, arg3) {
+            };
+            var2 = new Array(0);
+            var9 = var6.bind(var9)(var5, var2);
+            var2 = _closure1_slot0;
+            var13 = _closure1_slot3;
+            var5 = 11;
+            var5 = var13[var5];
+            var14 = var2.bind(var4)(var5);
+            var12 = var14.useStateFromStoresObject;
+            var5 = _closure1_slot6;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
+                var2 = _closure1_slot6;
+                var1 = var2.getGuildGameIds;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var14 = var12.bind(var14)(var6, var5);
+            _closure2_slot2 = var14;
+            var12 = _closure1_slot1;
+            var5 = 12;
+            var5 = var13[var5];
+            var6 = var12.bind(var4)(var5);
+            var5 = 13;
+            var5 = var13[var5];
+            var5 = var12.bind(var4)(var5);
+            var5 = var5.GAME_COMMUNITY_MULTI_GUILD_UPSELL_GUILDS_BAR_ENTRYPOINT;
+            var5 = var6.bind(var4)(var5);
+            var12 = var5.analyticsLocations;
+            var16 = _closure1_slot4;
+            var6 = var16.useCallback;
+            var5 = new Array(2);
+            var5[0] = var3;
+            var5[1] = var14;
+            var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = arg1;
-                    var6 = arg3;
-                    var2 = 2;
-                    var3 = var6 % var2;
-                    var2 = 0;
-                    if(!(var3 === var2)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                    var3 = var1.push;
+                    var1 = var1.item;
+                    var3 = _closure2_slot2;
+                    var2 = var1.id;
+                    var2 = var3[var2];
+                    var6 = null;
+                    var8 = var6 != var2;
+                    var5 = _closure1_slot9;
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot3;
+                    var2 = 14;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var2);
                     var2 = {};
-                    var4 = arg2;
-                    var2['left'] = var4;
-                    var5 = _closure2_slot0;
-                    var4 = 1;
-                    var4 = var6 + var4;
-                    var4 = var5[var4];
-                    var2['right'] = var4;
-                    var2 = var3.bind(var1)(var2);
+                    var2['guild'] = var1;
+                    var10 = _closure2_slot2;
+                    var9 = var1.id;
+                    var9 = var10[var9];
+                    var2['gameId'] = var9;
+                    var9 = 'one-column';
+                    var2['variant'] = var9;
+                    if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var6 = _closure2_slot0;
 case 4:
+                    var2['onDismiss'] = var6;
+                    var1 = var1.id;
+                    var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
             };
-            var1 = new Array(0);
+            var6 = var6.bind(var16)(var3, var5);
+            var5 = _closure1_slot14;
+            var3 = 'one-column';
+            var12 = var5.bind(var4)(var14, var3, var12);
+            var14 = _closure1_slot4;
+            var5 = var14.useMemo;
+            var3 = new Array(1);
+            var3[0] = var15;
+            var1 = function() {
+                var1 = {};
+                var2 = _closure2_slot1;
+                var1['paddingBottom'] = var2;
+                return var1;
+            };
+            var5 = var5.bind(var14)(var1, var3);
+            var3 = _closure1_slot9;
+            var1 = 15;
+            var1 = var13[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.FlashList;
+            var1 = {};
+            var1['onViewableItemsChanged'] = var12;
+            var11 = _closure1_slot12;
+            var1['viewabilityConfig'] = var11;
+            var1['contentContainerStyle'] = var10;
+            var1['keyExtractor'] = var9;
+            var1['data'] = var8;
+            var1['ListHeaderComponent'] = var7;
+            var1['renderItem'] = var6;
+            var6 = 390;
+            var1['estimatedItemSize'] = var6;
+            var1['ListFooterComponentStyle'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-        };
-        var7 = var4.bind(var5)(var2, var3);
-        var5 = _closure1_slot4;
-        var4 = var5.useCallback;
-        var3 = function(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        }
+    };
+    var _closure1_slot15 = var4;
+    var2 = function TwoColumnGuildUpsellList(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var3 = arg1;
-                var4 = var3.left;
-                var2 = null;
-                var5 = var2 == var4;
-                var6 = undefined;
-                if(var5) { _fun0003_ip = 6; continue _fun0003 }
-case 5:
-                var6 = var4.id;
-case 6:
-                var7 = var2 != var6;
-                var5 = '';
-                var4 = var5;
-                if(!var7) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
-                var4 = var6;
+            var3 = arg1;
+            var2 = var3.suggestedGuilds;
+            var _closure2_slot0 = var2;
+            var10 = var3.contentContainerStyle;
+            var17 = var3.rowStyle;
+            var _closure2_slot1 = var17;
+            var7 = var3.subheader;
+            var16 = var3.onDismiss;
+            var _closure2_slot2 = var16;
+            var3 = var3.bottomPadding;
+            var4 = undefined;
+            if(!(var3 === var4)) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-                var3 = var3.right;
-                var6 = var2 == var3;
-                var1 = undefined;
-                if(var6) { _fun0003_ip = 4; continue _fun0003 }
-case 9:
-                var1 = var3.id;
-case 4:
-                var2 = var2 != var1;
-                var3 = var5;
-                if(!var2) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                var3 = var1;
-case 10:
-                var1 = global;
-                var1 = var1.HermesInternal;
-                var2 = var1.concat;
-                var1 = '-';
-                var1 = var2.bind(var5)(var4, var1, var3);
-                return var1;
-            }
-        };
-        var2 = new Array(0);
-        var8 = var4.bind(var5)(var3, var2);
-        var2 = _closure1_slot0;
-        var12 = _closure1_slot3;
-        var3 = 11;
-        var3 = var12[var3];
-        var4 = undefined;
-        var13 = var2.bind(var4)(var3);
-        var11 = var13.useStateFromStoresObject;
-        var3 = _closure1_slot6;
-        var5 = new Array(1);
-        var5[0] = var3;
-        var3 = function() {
-            var2 = _closure1_slot6;
-            var1 = var2.getGuildGameIds;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var14 = var11.bind(var13)(var5, var3);
-        var _closure2_slot3 = var14;
-        var11 = _closure1_slot1;
-        var3 = 12;
-        var3 = var12[var3];
-        var5 = var11.bind(var4)(var3);
-        var3 = 13;
-        var3 = var12[var3];
-        var3 = var11.bind(var4)(var3);
-        var3 = var3.GAME_COMMUNITY_MULTI_GUILD_UPSELL_GUILDS_BAR_ENTRYPOINT;
-        var3 = var5.bind(var4)(var3);
-        var11 = var3.analyticsLocations;
-        var5 = _closure1_slot14;
-        var3 = 'two-column';
-        var11 = var5.bind(var4)(var14, var3, var11);
-        var13 = _closure1_slot4;
-        var5 = var13.useCallback;
-        var3 = new Array(3);
-        var3[0] = var16;
-        var3[1] = var15;
-        var3[2] = var14;
-        var1 = function(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            var3 = 0;
+case 6:
+            var _closure2_slot3 = var3;
+            var _closure2_slot4 = var4;
+            var8 = _closure1_slot4;
+            var6 = var8.useMemo;
+            var5 = new Array(1);
+            var5[0] = var2;
+            var2 = function() {
+                var4 = _closure2_slot0;
+                var3 = var4.reduce;
+                var2 = function(arg1, arg2, arg3) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var1 = arg1;
-                var13 = var1.item;
-                var2 = var13.left;
-                var10 = null;
-                var3 = var10 == var2;
-                var4 = undefined;
-                var1 = undefined;
-                if(var3) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
-                var1 = var2.id;
-case 12:
-                var15 = var10 != var1;
-                if(!var15) { _fun0004_ip = 14; continue _fun0004 }
+                        var1 = arg1;
+                        var6 = arg3;
+                        var2 = 2;
+                        var3 = var6 % var2;
+                        var2 = 0;
+                        if(!(var3 === var2)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
+                        var3 = var1.push;
+                        var2 = {};
+                        var4 = arg2;
+                        var2['left'] = var4;
+                        var5 = _closure2_slot0;
+                        var4 = 1;
+                        var4 = var6 + var4;
+                        var4 = var5[var4];
+                        var2['right'] = var4;
+                        var2 = var3.bind(var1)(var2);
 case 8:
-                var2 = _closure2_slot3;
-                var1 = var13.left;
-                var1 = var1.id;
-                var1 = var2[var1];
-                var15 = var10 != var1;
-case 14:
-                var2 = var13.right;
-                var3 = var10 == var2;
-                var1 = undefined;
-                if(var3) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-                var1 = var2.id;
-case 15:
-                var12 = var10 != var1;
-                if(!var12) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
-                var2 = _closure2_slot3;
-                var1 = var13.right;
-                var1 = var1.id;
-                var1 = var2[var1];
-                var12 = var10 != var1;
-case 17:
-                var3 = _closure1_slot10;
-                var2 = _closure1_slot5;
-                var1 = {};
-                var5 = _closure2_slot1;
-                var1['style'] = var5;
-                var5 = var13.left;
-                var6 = var10 != var5;
-                if(!var6) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-                var9 = _closure1_slot9;
-                var8 = _closure1_slot1;
-                var14 = _closure1_slot3;
-                var5 = 14;
-                var5 = var14[var5];
-                var8 = var8.bind(var4)(var5);
-                var5 = {};
-                var14 = var13.left;
-                var5['guild'] = var14;
-                var16 = _closure2_slot3;
-                var14 = var13.left;
-                var14 = var14.id;
-                var14 = var16[var14];
-                var5['gameId'] = var14;
-                var14 = 'two-column';
-                var5['variant'] = var14;
-                var14 = null;
-                if(!var15) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                var14 = _closure2_slot2;
-case 21:
-                var5['onDismiss'] = var14;
-                var6 = var9.bind(var4)(var8, var5);
-case 19:
-                var5 = new Array(2);
-                var5[0] = var6;
-                var6 = var13.right;
-                if(!(var10 == var6)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
-                var9 = _closure1_slot9;
-                var8 = _closure1_slot5;
-                var6 = {};
-                var14 = {};
-                var15 = 1;
-                var14['flex'] = var15;
-                var6['style'] = var14;
-                var6 = var9.bind(var4)(var8, var6);
-                _fun0004_ip = 25; continue _fun0004;
-case 23:
-                var9 = _closure1_slot9;
-                var8 = _closure1_slot1;
-                var14 = _closure1_slot3;
-                var7 = 14;
-                var7 = var14[var7];
-                var8 = var8.bind(var4)(var7);
-                var7 = {};
-                var14 = var13.right;
-                var7['guild'] = var14;
-                var14 = _closure2_slot3;
-                var13 = var13.right;
-                var13 = var13.id;
-                var13 = var14[var13];
-                var7['gameId'] = var13;
-                var13 = 'two-column';
-                var7['variant'] = var13;
-                var10 = null;
-                if(!var12) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
-                var10 = _closure2_slot2;
-case 26:
-                var7['onDismiss'] = var10;
-                var6 = var9.bind(var4)(var8, var7);
-case 25:
-                var5[1] = var6;
-                var1['children'] = var5;
+                        return var1;
+                    }
+                };
+                var1 = new Array(0);
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
-            }
-        };
-        var5 = var5.bind(var13)(var1, var3);
-        var3 = _closure1_slot9;
-        var1 = 15;
-        var1 = var12[var1];
-        var1 = var2.bind(var4)(var1);
-        var2 = var1.FlashList;
-        var1 = {};
-        var1['onViewableItemsChanged'] = var11;
-        var10 = _closure1_slot12;
-        var1['viewabilityConfig'] = var10;
-        var1['contentContainerStyle'] = var9;
-        var1['keyExtractor'] = var8;
-        var1['data'] = var7;
-        var1['ListHeaderComponent'] = var6;
-        var1['renderItem'] = var5;
-        var5 = 250;
-        var1['estimatedItemSize'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+            };
+            var8 = var6.bind(var8)(var2, var5);
+            var9 = _closure1_slot4;
+            var6 = var9.useCallback;
+            var5 = function(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var3 = arg1;
+                    var4 = var3.left;
+                    var2 = null;
+                    var5 = var2 == var4;
+                    var6 = undefined;
+                    if(var5) { _fun0005_ip = 10; continue _fun0005 }
+case 9:
+                    var6 = var4.id;
+case 10:
+                    var7 = var2 != var6;
+                    var5 = '';
+                    var4 = var5;
+                    if(!var7) { _fun0005_ip = 11; continue _fun0005 }
+case 12:
+                    var4 = var6;
+case 11:
+                    var3 = var3.right;
+                    var6 = var2 == var3;
+                    var1 = undefined;
+                    if(var6) { _fun0005_ip = 8; continue _fun0005 }
+case 13:
+                    var1 = var3.id;
+case 8:
+                    var2 = var2 != var1;
+                    var3 = var5;
+                    if(!var2) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
+                    var3 = var1;
+case 14:
+                    var1 = global;
+                    var1 = var1.HermesInternal;
+                    var2 = var1.concat;
+                    var1 = '-';
+                    var1 = var2.bind(var5)(var4, var1, var3);
+                    return var1;
+                }
+            };
+            var2 = new Array(0);
+            var9 = var6.bind(var9)(var5, var2);
+            var2 = _closure1_slot0;
+            var13 = _closure1_slot3;
+            var5 = 11;
+            var5 = var13[var5];
+            var14 = var2.bind(var4)(var5);
+            var12 = var14.useStateFromStoresObject;
+            var5 = _closure1_slot6;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
+                var2 = _closure1_slot6;
+                var1 = var2.getGuildGameIds;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var15 = var12.bind(var14)(var6, var5);
+            _closure2_slot4 = var15;
+            var12 = _closure1_slot1;
+            var5 = 12;
+            var5 = var13[var5];
+            var6 = var12.bind(var4)(var5);
+            var5 = 13;
+            var5 = var13[var5];
+            var5 = var12.bind(var4)(var5);
+            var5 = var5.GAME_COMMUNITY_MULTI_GUILD_UPSELL_GUILDS_BAR_ENTRYPOINT;
+            var5 = var6.bind(var4)(var5);
+            var12 = var5.analyticsLocations;
+            var6 = _closure1_slot14;
+            var5 = 'two-column';
+            var12 = var6.bind(var4)(var15, var5, var12);
+            var14 = _closure1_slot4;
+            var6 = var14.useMemo;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
+                var1 = {};
+                var2 = _closure2_slot3;
+                var1['paddingBottom'] = var2;
+                return var1;
+            };
+            var5 = var6.bind(var14)(var3, var5);
+            var14 = _closure1_slot4;
+            var6 = var14.useCallback;
+            var3 = new Array(3);
+            var3[0] = var17;
+            var3[1] = var16;
+            var3[2] = var15;
+            var1 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var1 = arg1;
+                    var13 = var1.item;
+                    var2 = var13.left;
+                    var10 = null;
+                    var3 = var10 == var2;
+                    var4 = undefined;
+                    var1 = undefined;
+                    if(var3) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
+                    var1 = var2.id;
+case 16:
+                    var15 = var10 != var1;
+                    if(!var15) { _fun0006_ip = 18; continue _fun0006 }
+case 12:
+                    var2 = _closure2_slot4;
+                    var1 = var13.left;
+                    var1 = var1.id;
+                    var1 = var2[var1];
+                    var15 = var10 != var1;
+case 18:
+                    var2 = var13.right;
+                    var3 = var10 == var2;
+                    var1 = undefined;
+                    if(var3) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
+                    var1 = var2.id;
+case 19:
+                    var12 = var10 != var1;
+                    if(!var12) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
+                    var2 = _closure2_slot4;
+                    var1 = var13.right;
+                    var1 = var1.id;
+                    var1 = var2[var1];
+                    var12 = var10 != var1;
+case 21:
+                    var3 = _closure1_slot10;
+                    var2 = _closure1_slot5;
+                    var1 = {};
+                    var5 = _closure2_slot1;
+                    var1['style'] = var5;
+                    var5 = var13.left;
+                    var6 = var10 != var5;
+                    if(!var6) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
+                    var9 = _closure1_slot9;
+                    var8 = _closure1_slot1;
+                    var14 = _closure1_slot3;
+                    var5 = 14;
+                    var5 = var14[var5];
+                    var8 = var8.bind(var4)(var5);
+                    var5 = {};
+                    var14 = var13.left;
+                    var5['guild'] = var14;
+                    var16 = _closure2_slot4;
+                    var14 = var13.left;
+                    var14 = var14.id;
+                    var14 = var16[var14];
+                    var5['gameId'] = var14;
+                    var14 = 'two-column';
+                    var5['variant'] = var14;
+                    var14 = null;
+                    if(!var15) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
+                    var14 = _closure2_slot2;
+case 25:
+                    var5['onDismiss'] = var14;
+                    var6 = var9.bind(var4)(var8, var5);
+case 23:
+                    var5 = new Array(2);
+                    var5[0] = var6;
+                    var6 = var13.right;
+                    if(!(var10 == var6)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+                    var9 = _closure1_slot9;
+                    var8 = _closure1_slot5;
+                    var6 = {};
+                    var14 = {};
+                    var15 = 1;
+                    var14['flex'] = var15;
+                    var6['style'] = var14;
+                    var6 = var9.bind(var4)(var8, var6);
+                    _fun0006_ip = 29; continue _fun0006;
+case 27:
+                    var9 = _closure1_slot9;
+                    var8 = _closure1_slot1;
+                    var14 = _closure1_slot3;
+                    var7 = 14;
+                    var7 = var14[var7];
+                    var8 = var8.bind(var4)(var7);
+                    var7 = {};
+                    var14 = var13.right;
+                    var7['guild'] = var14;
+                    var14 = _closure2_slot4;
+                    var13 = var13.right;
+                    var13 = var13.id;
+                    var13 = var14[var13];
+                    var7['gameId'] = var13;
+                    var13 = 'two-column';
+                    var7['variant'] = var13;
+                    var10 = null;
+                    if(!var12) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
+                    var10 = _closure2_slot2;
+case 30:
+                    var7['onDismiss'] = var10;
+                    var6 = var9.bind(var4)(var8, var7);
+case 29:
+                    var5[1] = var6;
+                    var1['children'] = var5;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
+                }
+            };
+            var6 = var6.bind(var14)(var1, var3);
+            var3 = _closure1_slot9;
+            var1 = 15;
+            var1 = var13[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.FlashList;
+            var1 = {};
+            var1['onViewableItemsChanged'] = var12;
+            var11 = _closure1_slot12;
+            var1['viewabilityConfig'] = var11;
+            var1['contentContainerStyle'] = var10;
+            var1['keyExtractor'] = var9;
+            var1['data'] = var8;
+            var1['ListHeaderComponent'] = var7;
+            var1['renderItem'] = var6;
+            var6 = 250;
+            var1['estimatedItemSize'] = var6;
+            var1['ListFooterComponentStyle'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var _closure1_slot16 = var2;
     var1 = global;
@@ -589,22 +634,22 @@ case 25:
             var3 = var1.viewableItems;
             var2 = var3.forEach;
             var1 = function(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = arg1;
                     var7 = var1.item;
                     var3 = null;
-                    if(!(var3 != var7)) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+                    if(!(var3 != var7)) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                     var1 = 'left';
                     var1 = var1 in var7;
-                    if(!var1) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+                    if(!var1) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
                     var2 = var7.left;
                     var1 = var3 != var2;
-case 30:
-                    if(!var1) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+case 34:
+                    if(!var1) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
                     var2 = _closure2_slot3;
                     var5 = var2.current;
                     var4 = var5.has;
@@ -612,9 +657,9 @@ case 33:
                     var2 = var2.id;
                     var2 = var4.bind(var5)(var2);
                     var1 = !var2;
-case 32:
-                    if(!var1) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+case 36:
+                    if(!var1) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
                     var9 = _closure1_slot13;
                     var14 = _closure2_slot3;
                     var13 = var7.left;
@@ -626,16 +671,16 @@ case 35:
                     var10 = _closure2_slot2;
                     var15 = undefined;
                     var1 = var15[var9](var14, var13, var12, var11, var10, var9);
-case 34:
+case 38:
                     var1 = 'right';
                     var1 = var1 in var7;
-                    if(!var1) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                    if(!var1) { _fun0007_ip = 40; continue _fun0007 }
+case 41:
                     var2 = var7.right;
                     var1 = var3 != var2;
-case 36:
-                    if(!var1) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+case 40:
+                    if(!var1) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
                     var2 = _closure2_slot3;
                     var5 = var2.current;
                     var4 = var5.has;
@@ -643,9 +688,9 @@ case 39:
                     var2 = var2.id;
                     var2 = var4.bind(var5)(var2);
                     var1 = !var2;
-case 38:
-                    if(!var1) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+case 42:
+                    if(!var1) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
                     var9 = _closure1_slot13;
                     var14 = _closure2_slot3;
                     var13 = var7.right;
@@ -657,25 +702,25 @@ case 41:
                     var10 = _closure2_slot2;
                     var15 = undefined;
                     var1 = var15[var9](var14, var13, var12, var11, var10, var9);
-case 40:
+case 44:
                     var1 = 'id';
                     var1 = var1 in var7;
-                    if(!var1) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                    if(!var1) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
                     var2 = var7.id;
                     var1 = var3 != var2;
-case 42:
-                    if(!var1) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+case 46:
+                    if(!var1) { _fun0007_ip = 48; continue _fun0007 }
+case 49:
                     var2 = _closure2_slot3;
                     var4 = var2.current;
                     var3 = var4.has;
                     var2 = var7.id;
                     var2 = var3.bind(var4)(var2);
                     var1 = !var2;
-case 44:
-                    if(!var1) { _fun0005_ip = 28; continue _fun0005 }
-case 46:
+case 48:
+                    if(!var1) { _fun0007_ip = 32; continue _fun0007 }
+case 50:
                     var6 = _closure1_slot13;
                     var14 = _closure2_slot3;
                     var3 = _closure2_slot0;
@@ -686,7 +731,7 @@ case 46:
                     var15 = undefined;
                     var13 = var7;
                     var1 = var15[var6](var14, var13, var12, var11, var10, var9);
-case 28:
+case 32:
                     var1 = undefined;
                     return var1;
                 }
@@ -706,7 +751,7 @@ case 28:
     var6 = 'modules/game_community_upsell/native/GameCommunityMultiGuildUpsellModal.tsx';
     var6 = var7.bind(var8)(var6);
     var5 = function GameCommunityMultiGuildUpsellModal(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = arg1;
             var12 = var2.onClose;
@@ -915,8 +960,8 @@ case 0:
             var6['style'] = var9;
             var9 = 'one-column';
             var12 = null;
-            if(!(var9 === var13)) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+            if(!(var9 === var13)) { _fun0008_ip = 51; continue _fun0008 }
+case 52:
             var18 = _closure1_slot9;
             var17 = _closure1_slot15;
             var9 = {};
@@ -930,13 +975,13 @@ case 48:
             var9['subheader'] = var15;
             var9['onDismiss'] = var14;
             var12 = var18.bind(var4)(var17, var9);
-case 47:
+case 51:
             var9 = new Array(2);
             var9[0] = var12;
             var12 = 'two-column';
             var10 = null;
-            if(!(var12 === var13)) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+            if(!(var12 === var13)) { _fun0008_ip = 53; continue _fun0008 }
+case 54:
             var13 = _closure1_slot9;
             var12 = _closure1_slot16;
             var11 = {};
@@ -951,7 +996,7 @@ case 50:
             var11['subheader'] = var15;
             var11['onDismiss'] = var14;
             var10 = var13.bind(var4)(var12, var11);
-case 49:
+case 53:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

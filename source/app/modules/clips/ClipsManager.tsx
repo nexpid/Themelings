@@ -915,7 +915,7 @@ case 66:
                 var4 = 22;
                 var4 = var8[var4];
                 var4 = var7.bind(var5)(var4);
-                var7 = var4.remoteApp;
+                var7 = var4.app;
                 var4 = var7.getAppArch;
                 var7 = var4.bind(var7)();
                 var4 = 'arm64';

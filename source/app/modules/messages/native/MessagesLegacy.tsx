@@ -4789,9 +4789,6 @@ case 25:
             var13 = var13.handleTapDismissMediaPostSharePrompt;
             var5['onTapDismissMediaPostSharePrompt'] = var13;
             var13 = var9.handlers;
-            var13 = var13.handleTapChannelPromptButton;
-            var5['onTapChannelPromptButton'] = var13;
-            var13 = var9.handlers;
             var13 = var13.handleTapObscuredMediaLearnMore;
             var5['onTapObscuredMediaLearnMore'] = var13;
             var13 = var9.handlers;

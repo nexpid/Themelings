@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = 15;
         var18 = var31[var19];
         var18 = var30.bind(var4)(var18);
-        var20 = var18.Text;
+        var20 = var18.Heading;
         var18 = {'variant': 'heading-lg/medium', 'color': 'mobile-text-heading-primary'};
         var27 = 16;
         var22 = var31[var27];

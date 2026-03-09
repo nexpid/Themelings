@@ -324,7 +324,7 @@ case 36:
 case 38:
         var13 = var6[var2];
         var13 = var7.bind(var1)(var13);
-        var10 = var13.remotePowerMonitor;
+        var10 = var13.powerMonitor;
 case 37:
         if(!(var12 == var10)) { _fun0001_ip = 39; continue _fun0001 }
 case 35:
@@ -400,7 +400,7 @@ case 46:
                 var7 = _closure1_slot2;
                 var7 = var7[var5];
                 var7 = var8.bind(var1)(var7);
-                var7 = var7.remotePowerMonitor;
+                var7 = var7.powerMonitor;
                 var8 = var6 == var7;
                 var3 = undefined;
                 if(var8) { _fun0007_ip = 45; continue _fun0007 }
@@ -413,7 +413,7 @@ case 49:
                 var2 = _closure1_slot2;
                 var2 = var2[var5];
                 var2 = var3.bind(var1)(var2);
-                var3 = var2.remotePowerMonitor;
+                var3 = var2.powerMonitor;
                 var2 = var3.getSystemIdleTimeMs;
                 var3 = var2.bind(var3)();
                 var2 = global;
@@ -434,7 +434,7 @@ case 48:
         var8 = var8.bind(var1)();
         var8 = var6[var2];
         var8 = var7.bind(var1)(var8);
-        var12 = var8.remotePowerMonitor;
+        var12 = var8.powerMonitor;
         var11 = var12.on;
         var10 = 'resume';
         var8 = function() {
@@ -448,7 +448,7 @@ case 48:
         var8 = var11.bind(var12)(var10, var8);
         var8 = var6[var2];
         var8 = var7.bind(var1)(var8);
-        var12 = var8.remotePowerMonitor;
+        var12 = var8.powerMonitor;
         var11 = var12.on;
         var10 = 'suspend';
         var8 = function() {
@@ -469,7 +469,7 @@ case 48:
         var8 = var11.bind(var12)(var10, var8);
         var8 = var6[var2];
         var8 = var7.bind(var1)(var8);
-        var12 = var8.remotePowerMonitor;
+        var12 = var8.powerMonitor;
         var11 = var12.on;
         var10 = 'lock-screen';
         var8 = function() {
@@ -483,7 +483,7 @@ case 48:
         var8 = var11.bind(var12)(var10, var8);
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
-        var11 = var2.remotePowerMonitor;
+        var11 = var2.powerMonitor;
         var10 = var11.on;
         var8 = 'unlock-screen';
         var2 = function() {

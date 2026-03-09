@@ -1,4 +1,4 @@
-// app/modules/webauthn/native/WebAuthnUtils.tsx
+// app/modules/webauthn/native/NativeCeremonies.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var9 = metroImportDefault;
@@ -235,28 +235,23 @@ case 11:
     var10 = function get hasAndroidPasskeySupport() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
             var1 = 5;
-            var1 = var3[var1];
-            var6 = undefined;
-            var2 = var2.bind(var6)(var1);
-            var1 = var2.isAndroid;
-            var1 = var1.bind(var2)();
+            var1 = var2[var1];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var1);
+            var1 = var4.isAndroid;
+            var1 = var1.bind(var4)();
             if(!var1) { _fun0004_ip = 23; continue _fun0004 }
 case 4:
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot3;
+            var4 = var3.DCDSecurityKeyManager;
             var3 = null;
-            var5 = var3 == var2;
-            var2 = undefined;
-            if(var5) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
-            var4 = _closure1_slot3;
-            var4 = var4.DCDSecurityKeyManager;
             var5 = var3 == var4;
             var2 = undefined;
             if(var5) { _fun0004_ip = 24; continue _fun0004 }
-case 26:
+case 25:
             var2 = var4.registerPasskey;
 case 24:
             var1 = var3 != var2;
@@ -308,31 +303,26 @@ case 0:
             var5 = var5.bind(var3)(var4);
             var4 = var5.isAndroid;
             var4 = var4.bind(var5)();
-            if(!var4) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(!var4) { _fun0006_ip = 13; continue _fun0006 }
+case 26:
             var5 = _closure1_slot3;
+            var7 = var5.DCDSecurityKeyManager;
             var6 = null;
-            var7 = var6 == var5;
-            var5 = undefined;
-            if(var7) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
-            var7 = _closure1_slot3;
-            var7 = var7.DCDSecurityKeyManager;
             var8 = var6 == var7;
             var5 = undefined;
-            if(var8) { _fun0006_ip = 29; continue _fun0006 }
-case 31:
+            if(var8) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
             var5 = var7.authenticatePasskey;
-case 29:
-            var4 = var6 != var5;
 case 27:
-            if(!var4) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+            var4 = var6 != var5;
+case 13:
+            if(!var4) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
             var4 = _closure1_slot3;
             var4 = var4.DCDSecurityKeyManager;
             var4 = var4.authenticatePasskey;
             _closure2_slot0 = var4;
-case 32:
+case 29:
             var2 = _closure1_slot2;
             var1 = function* (arg1) {
                 var1 = function* anon_0_(arg1) {
@@ -340,18 +330,18 @@ case 32:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0007_ip = 34; continue _fun0007 }
-case 35:
+                        if(var2) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
                         var11 = 0;
                         var3 = copyRestArgs(var11);
                         var5 = undefined;
                         SaveGenerator(address=22);
-case 36:
+case 33:
                         return var5;
-case 37:
+case 34:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(var6) { _fun0007_ip = 38; continue _fun0007 }
-case 39: // try_start_0
+                        if(var6) { _fun0007_ip = 35; continue _fun0007 }
+case 36: // try_start_0
                         var6 = _closure2_slot0;
                         var10 = var3;
                         var3 = new Array(0);
@@ -363,25 +353,25 @@ case 39: // try_start_0
                         var9 = undefined;
                         var3 = apply(var11, var10, var9);
                         SaveGenerator(address=70);
-case 40:
+case 37:
                         return var3;
-case 41:
+case 38:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                        if(var6) { _fun0007_ip = 42; continue _fun0007 }
-case 43: // try_end0
+                        if(var6) { _fun0007_ip = 39; continue _fun0007 }
+case 40: // try_end0
                         return var3;
-case 42:
+case 39:
                         return var3;
-case 23: // catch_target0
+case 41: // catch_target0
                         CatchBlockStart(arg_register=2);
                         var4 = var3;
                         var6 = var3.code;
                         var3 = 'AbortError';
-                        if(!(var3 !== var6)) { _fun0007_ip = 44; continue _fun0007 }
-case 29:
+                        if(!(var3 !== var6)) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
                         var3 = 'NotAllowedError';
-                        if(!(var3 !== var6)) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+                        if(!(var3 !== var6)) { _fun0007_ip = 42; continue _fun0007 }
+case 44:
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot1;
                         var3 = 7;
@@ -394,7 +384,7 @@ case 45:
                         var6 = var7.error;
                         var6 = var6.bind(var7)(var3);
                         throw var3;
-case 44:
+case 42:
                         var7 = _closure1_slot4;
                         var6 = var7.warn;
                         var4 = var6.bind(var7)(var4);
@@ -410,9 +400,9 @@ case 44:
                         var3 = new var12[var3](var11);
                         var3 = var3 instanceof Object ? var3 : var4;
                         throw var3;
-case 38:
+case 35:
                         return var2;
-case 34:
+case 31:
                         return var1;
                     }
                 };
@@ -451,15 +441,15 @@ case 0:
             var5 = var5.bind(var3)(var1);
             var1 = var5.isAndroid;
             var1 = var1.bind(var5)();
-            if(var1) { _fun0008_ip = 46; continue _fun0008 }
-case 47:
+            if(var1) { _fun0008_ip = 45; continue _fun0008 }
+case 46:
             var1 = _closure1_slot6;
             var1 = var1.bind(var3)(var4);
-            _fun0008_ip = 48; continue _fun0008;
-case 46:
+            _fun0008_ip = 47; continue _fun0008;
+case 45:
             var2 = _closure1_slot8;
             var1 = var2.bind(var3)(var4);
-case 48:
+case 47:
             return var1;
         }
     };
@@ -469,7 +459,7 @@ case 48:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/webauthn/native/WebAuthnUtils.tsx';
+    var4 = 'modules/webauthn/native/NativeCeremonies.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

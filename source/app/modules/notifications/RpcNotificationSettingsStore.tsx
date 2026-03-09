@@ -1,9 +1,8 @@
 // app/modules/notifications/RpcNotificationSettingsStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var8 = metroImportDefault;
+    var6 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
+    var5 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -36,71 +35,53 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot8 = var2;
+            _closure1_slot7 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot7 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var4 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var2 = {};
-    var12 = true;
-    var2['value'] = var12;
+    var1 = true;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var8)(var3, var1, var2);
     var1 = 0;
-    var2 = var7[var1];
+    var2 = var5[var1];
     var1 = undefined;
-    var2 = var8.bind(var1)(var2);
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot0 = var2;
     var2 = 1;
-    var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot1 = var2;
     var2 = 2;
-    var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot2 = var2;
     var2 = 3;
-    var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 4;
-    var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 5;
-    var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot5 = var2;
     var2 = {};
     var _closure1_slot6 = var2;
     var2 = 6;
-    var2 = var7[var2];
-    var9 = var6.bind(var1)(var2);
-    var4 = var9.createExperiment;
-    var2 = {'kind': 'user', 'id': '2025-03_slayer_notif_supression_killswitch', 'label': 'Disable suppressing notifications with slayer game active'};
-    var10 = {};
-    var11 = false;
-    var10['enabled'] = var11;
-    var2['defaultConfig'] = var10;
-    var11 = {'id': 1, 'label': 'Disable suppressing'};
-    var10 = {};
-    var10['enabled'] = var12;
-    var11['config'] = var10;
-    var10 = new Array(1);
-    var10[0] = var11;
-    var2['treatments'] = var10;
-    var2 = var4.bind(var9)(var2);
-    var _closure1_slot7 = var2;
-    var4 = 7;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var9 = var4.Store;
-    var4 = function(arg1) {
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var7 = var2.Store;
+    var2 = function(arg1) {
         var4 = function RpcNotificationSettingsStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -113,7 +94,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot7;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -162,37 +143,24 @@ case 8:
         var6 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var5 = _closure1_slot7;
-                var4 = var5.getCurrentConfig;
-                var3 = {};
-                var1 = 'Store';
-                var3['location'] = var1;
-                var2 = {};
-                var1 = false;
-                var2['autoTrackExposure'] = var1;
-                var2 = var4.bind(var5)(var3, var2);
-                var2 = var2.enabled;
-                if(var2) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
                 var7 = _closure1_slot6;
-                for(var4 in var7)
-case 11:
-                {
-case 12:
-                    var3 = var4;
-                    var2 = _closure1_slot6;
-                    var3 = var2[var3];
-                    var10 = _closure1_slot5;
-                    var2 = var10.getId;
-                    var2 = var2.bind(var10)();
-                    if(var3 !== var2) { _fun0003_ip = 11; continue _fun0003 }
-case 13:
-                    var2 = true;
-                    return var2;
-                }
-case 14:
-                return var1;
+                for(var3 in var7)
 case 9:
+                {
+case 10:
+                    var2 = var3;
+                    var1 = _closure1_slot6;
+                    var2 = var1[var2];
+                    var9 = _closure1_slot5;
+                    var1 = var9.getId;
+                    var1 = var1.bind(var9)();
+                    if(var2 !== var1) { _fun0003_ip = 9; continue _fun0003 }
+case 11:
+                    var1 = true;
+                    return var1;
+                }
+case 12:
+                var1 = false;
                 return var1;
             }
         };
@@ -201,14 +169,14 @@ case 9:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var9 = var4.bind(var1)(var9);
-    var4 = 'RpcNotificationSettingsStore';
-    var9['displayName'] = var4;
-    var4 = 8;
-    var4 = var7[var4];
-    var15 = var8.bind(var1)(var4);
-    var4 = {};
-    var10 = function handleRpcAppDisconnected(arg1) {
+    var7 = var2.bind(var1)(var7);
+    var2 = 'RpcNotificationSettingsStore';
+    var7['displayName'] = var2;
+    var2 = 7;
+    var2 = var5[var2];
+    var11 = var6.bind(var1)(var2);
+    var2 = {};
+    var8 = function handleRpcAppDisconnected(arg1) {
         var2 = _closure1_slot6;
         var1 = arg1;
         var1 = var1.socketId;
@@ -216,8 +184,8 @@ case 9:
         var1 = undefined;
         return var1;
     };
-    var4['RPC_APP_DISCONNECTED'] = var10;
-    var5 = function handleSetRpcNotificationSettings(arg1) {
+    var2['RPC_APP_DISCONNECTED'] = var8;
+    var4 = function handleSetRpcNotificationSettings(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -226,7 +194,7 @@ case 0:
             var3 = delete var4[var3];
             var3 = var1.suppressNotifications;
             if(!var3) { _fun0004_ip = 7; continue _fun0004 }
-case 15:
+case 13:
             var3 = _closure1_slot6;
             var2 = var1.socketId;
             var1 = var1.targetUserId;
@@ -236,20 +204,20 @@ case 7:
             return var1;
         }
     };
-    var4['SET_RPC_NOTIFICATION_SETTINGS'] = var5;
-    var5 = var9.prototype;
-    var5 = Object.create(var5, {constructor: {value: var9}});
-    var16 = var5;
-    var14 = var4;
-    var4 = new var16[var9](var15, var14, var13);
-    var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 9;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/notifications/RpcNotificationSettingsStore.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['default'] = var4;
-    var3['Killswitch'] = var2;
+    var2['SET_RPC_NOTIFICATION_SETTINGS'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
+    var12 = var4;
+    var10 = var2;
+    var2 = new var12[var7](var11, var10, var9);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 8;
+    var5 = var5[var4];
+    var4 = require;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/notifications/RpcNotificationSettingsStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
     return var1;
 })();

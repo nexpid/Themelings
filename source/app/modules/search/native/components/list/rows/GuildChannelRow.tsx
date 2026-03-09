@@ -102,7 +102,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var3.trailing;
         var6 = var3.extras;
         var8 = var3.onPress;
-        var2 = {'channel': 0, 'subtitle': 0, 'trailing': 0, 'extras': 0, 'onPress': 0};
+        var13 = var3.voiceStates;
+        var2 = {'channel': 0, 'subtitle': 0, 'trailing': 0, 'extras': 0, 'onPress': 0, 'voiceStates': 0};
         var20 = null;
         var21 = var2;
         var1 = silentSetPrototypeOf(var21, var20);
@@ -121,6 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var11.getChannelAccessibilityProps;
         var1 = {'channel': null, 'unread': false, 'mentionCount': 0};
         var1['channel'] = var12;
+        var1['voiceStates'] = var13;
         var15 = var3.bind(var11)(var1);
         var1 = {};
         var13 = _closure1_slot6;

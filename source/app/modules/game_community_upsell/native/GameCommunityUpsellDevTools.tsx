@@ -440,20 +440,63 @@ case 26:
             var25 = var27.bind(var4)(var26, var25);
             var15['trailing'] = var25;
             var17 = var18.bind(var4)(var17, var15);
-            var15 = new Array(2);
+            var15 = new Array(3);
             var15[0] = var17;
-            var18 = _closure1_slot10;
-            var16 = var22[var16];
-            var16 = var20.bind(var4)(var16);
-            var17 = var16.TableRow;
-            var16 = {'label': 'Clear Dismissed Guilds', 'subLabel': 'Reset dismissed guild IDs so all guilds show again'};
-            var24 = function onPress() {
+            var25 = _closure1_slot10;
+            var17 = var22[var16];
+            var17 = var20.bind(var4)(var17);
+            var18 = var17.TableRow;
+            var17 = {'label': 'Clear Dismissed Guilds', 'subLabel': 'Reset dismissed guild IDs so all guilds show again'};
+            var26 = function onPress() {
                 var2 = _closure1_slot9;
                 var1 = var2.DEV_clearDismissedGuilds;
                 var1 = var1.bind(var2)();
                 var2 = _closure2_slot1;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
+                return var1;
+            };
+            var17['onPress'] = var26;
+            var28 = _closure1_slot10;
+            var26 = var22[var23];
+            var26 = var20.bind(var4)(var26);
+            var27 = var26.RefreshIcon;
+            var26 = {};
+            var26 = var28.bind(var4)(var27, var26);
+            var17['icon'] = var26;
+            var28 = _closure1_slot10;
+            var26 = var22[var19];
+            var26 = var20.bind(var4)(var26);
+            var27 = var26.TableRowArrow;
+            var26 = {};
+            var26 = var28.bind(var4)(var27, var26);
+            var17['trailing'] = var26;
+            var17 = var25.bind(var4)(var18, var17);
+            var15[1] = var17;
+            var18 = _closure1_slot10;
+            var16 = var22[var16];
+            var16 = var20.bind(var4)(var16);
+            var17 = var16.TableRow;
+            var16 = {'label': 'Reset Upsell Animation', 'subLabel': 'Clear the dismissed state for the create button NUX animation so it can replay'};
+            var24 = function onPress() {
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 18;
+                var2 = var4[var1];
+                var1 = undefined;
+                var6 = var3.bind(var1)(var2);
+                var5 = var6.removeDismissedContent;
+                var2 = 19;
+                var2 = var4[var2];
+                var2 = var3.bind(var1)(var2);
+                var2 = var2.DismissibleContent;
+                var2 = var2.MOBILE_MULTI_GUILD_CREATE_UPSELL_ANIMATION;
+                var2 = var5.bind(var6)(var2);
+                var2 = 20;
+                var2 = var4[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.resetDismissibleContentFrameworkStore;
+                var2 = var2.bind(var3)();
                 return var1;
             };
             var16['onPress'] = var24;
@@ -472,7 +515,7 @@ case 26:
             var19 = var21.bind(var4)(var20, var19);
             var16['trailing'] = var19;
             var16 = var18.bind(var4)(var17, var16);
-            var15[1] = var16;
+            var15[2] = var16;
             var12['children'] = var15;
             var12 = var14.bind(var4)(var13, var12);
             var9['children'] = var12;
@@ -607,7 +650,7 @@ case 0:
                 var2 = var3.bind(var1)(var2);
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 18;
+                var2 = 21;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.detectInstalledGamesWithDiagnostics;
@@ -641,7 +684,7 @@ case 0:
                     var3 = var3.bind(var1)();
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 19;
+                    var4 = 22;
                     var4 = var6[var4];
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.isAndroid;
@@ -673,7 +716,7 @@ case 27:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 20;
+                var1 = 23;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -691,7 +734,7 @@ case 27:
                 var2 = var2.bind(var3)();
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 18;
+                var1 = 21;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -818,7 +861,7 @@ case 35:
             var29 = _closure1_slot10;
             var33 = _closure1_slot0;
             var32 = _closure1_slot2;
-            var23 = 22;
+            var23 = 25;
             var23 = var32[var23];
             var23 = var33.bind(var4)(var23);
             var26 = var23.TableSwitchRow;
@@ -858,7 +901,7 @@ case 35:
             var23 = {'label': 'Force Show Upsell', 'subLabel': 'Bypasses all checks and shows the upsell immediately with the highest priority detected game'};
             var23['onPress'] = var37;
             var39 = _closure1_slot10;
-            var37 = 23;
+            var37 = 26;
             var37 = var32[var37];
             var37 = var33.bind(var4)(var37);
             var38 = var37.PlayIcon;
@@ -924,7 +967,7 @@ case 38:
             var29 = var35.bind(var4)(var29);
             var30 = var29.TableRow;
             var29 = {'label': 'Platform', 'subLabel': null, 'disabled': true};
-            var33 = 19;
+            var33 = 22;
             var33 = var37[var33];
             var35 = var35.bind(var4)(var33);
             var33 = var35.isAndroid;
@@ -987,7 +1030,7 @@ case 44:
             var23 = _closure1_slot10;
             var22 = _closure1_slot0;
             var35 = _closure1_slot2;
-            var21 = 21;
+            var21 = 24;
             var21 = var35[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
@@ -1034,7 +1077,7 @@ case 10:
                     var8 = _closure1_slot11;
                     var7 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var13 = 21;
+                    var13 = 24;
                     var6 = var2[var13];
                     var2 = undefined;
                     var6 = var7.bind(var2)(var6);
@@ -1153,7 +1196,7 @@ case 59:
                             var4 = _closure1_slot11;
                             var10 = _closure1_slot0;
                             var9 = _closure1_slot2;
-                            var14 = 21;
+                            var14 = 24;
                             var1 = var9[var14];
                             var3 = undefined;
                             var1 = var10.bind(var3)(var1);
@@ -1223,7 +1266,7 @@ case 43:
 case 63:
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var11 = 19;
+            var11 = 22;
             var11 = var15[var11];
             var12 = var12.bind(var4)(var11);
             var11 = var12.isAndroid;
@@ -1245,7 +1288,7 @@ case 67:
             var22 = _closure1_slot10;
             var30 = _closure1_slot0;
             var37 = _closure1_slot2;
-            var29 = 21;
+            var29 = 24;
             var19 = var37[var29];
             var19 = var30.bind(var4)(var19);
             var21 = var19.Text;
@@ -1287,7 +1330,7 @@ case 67:
                 var4 = _closure1_slot11;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 21;
+                var1 = 24;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -1401,7 +1444,7 @@ case 0:
                     var5 = _closure1_slot11;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 24;
                     var1 = var3[var1];
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
@@ -1668,7 +1711,7 @@ case 68:
     var5['logEntry'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot16 = var5;
-    var5 = 25;
+    var5 = 28;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1679,7 +1722,7 @@ case 68:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 24;
+            var2 = 27;
             var2 = var4[var2];
             var4 = undefined;
             var2 = var3.bind(var4)(var2);

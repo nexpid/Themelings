@@ -132,18 +132,15 @@ case 0:
                         var1 = 5;
                         var3 = var3[var1];
                         var1 = undefined;
-                        var6 = var4.bind(var1)(var3);
-                        var5 = var6.getCurrentConfig;
-                        var4 = {};
-                        var3 = 'saved_messages_manager';
-                        var4['location'] = var3;
+                        var5 = var4.bind(var1)(var3);
+                        var4 = var5.getConfig;
                         var3 = {};
-                        var7 = false;
-                        var3['autoTrackExposure'] = var7;
-                        var3 = var5.bind(var6)(var4, var3);
+                        var6 = 'saved_messages_manager';
+                        var3['location'] = var6;
+                        var3 = var4.bind(var5)(var3);
                         var3 = var3.enabled;
-                        if(!var3) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                        if(!var3) { _fun0003_ip = 6; continue _fun0003 }
+case 9:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
                         var2 = 6;
@@ -151,7 +148,7 @@ case 10:
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.fetchAndUpdateSavedMessages;
                         var2 = var2.bind(var3)();
-case 9:
+case 6:
                         return var1;
                     }
                 };

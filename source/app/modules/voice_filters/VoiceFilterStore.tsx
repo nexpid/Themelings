@@ -978,7 +978,7 @@ case 53:
             var6 = _closure1_slot2;
             var6 = var6[var9];
             var6 = var8.bind(var1)(var6);
-            var8 = var6.remoteApp;
+            var8 = var6.app;
             var6 = var8.getVersion;
             var7 = var6.bind(var8)();
 case 71:

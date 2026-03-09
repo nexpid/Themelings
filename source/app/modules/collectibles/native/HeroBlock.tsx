@@ -732,26 +732,26 @@ case 43:
             if(!(var23 !== var20)) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
             var24 = _closure1_slot11;
-            var28 = _closure1_slot0;
+            var30 = _closure1_slot0;
             var26 = _closure1_slot2;
             var20 = 33;
             var20 = var26[var20];
-            var20 = var28.bind(var5)(var20);
+            var20 = var30.bind(var5)(var20);
             var22 = var20.FlashList;
             var20 = {};
-            var30 = true;
-            var20['horizontal'] = var30;
-            var30 = 28;
-            var31 = var26[var30];
-            var31 = var28.bind(var5)(var31);
+            var28 = true;
+            var20['horizontal'] = var28;
+            var28 = 28;
+            var31 = var26[var28];
+            var31 = var30.bind(var5)(var31);
             var32 = var31.intl;
             var31 = var32.string;
-            var30 = var26[var30];
-            var30 = var28.bind(var5)(var30);
-            var30 = var30.t;
-            var30 = var30.pWG4ze;
-            var30 = var31.bind(var32)(var30);
-            var20['accessibilityLabel'] = var30;
+            var28 = var26[var28];
+            var28 = var30.bind(var5)(var28);
+            var28 = var28.t;
+            var28 = var28.pWG4ze;
+            var28 = var31.bind(var32)(var28);
+            var20['accessibilityLabel'] = var28;
             var20['data'] = var21;
             var20['onScroll'] = var27;
             var27 = function renderItem(arg1) {
@@ -811,11 +811,22 @@ case 46:
                 }
             };
             var20['renderItem'] = var27;
+            var27 = 'fast';
+            var20['decelerationRate'] = var27;
             var27 = 6;
-            var27 = var26[var27];
-            var27 = var28.bind(var5)(var27);
-            var27 = var27.COLLECTIBLES_SHOP_CARD_WIDTH;
+            var28 = var26[var27];
+            var28 = var30.bind(var5)(var28);
+            var32 = var28.COLLECTIBLES_SHOP_CARD_WIDTH;
             var28 = _closure1_slot1;
+            var31 = var26[var29];
+            var31 = var28.bind(var5)(var31);
+            var31 = var31.spacing;
+            var31 = var31.PX_12;
+            var31 = var32 + var31;
+            var20['snapToInterval'] = var31;
+            var27 = var26[var27];
+            var27 = var30.bind(var5)(var27);
+            var27 = var27.COLLECTIBLES_SHOP_CARD_WIDTH;
             var26 = var26[var29];
             var26 = var28.bind(var5)(var26);
             var26 = var26.spacing;

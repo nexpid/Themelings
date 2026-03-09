@@ -45,29 +45,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var7;
     var7 = var4.QUEST_DOCK_EXTERNAL_OFFSET_COLLAPSED;
     var _closure1_slot10 = var7;
-    var7 = var4.QUEST_DOCK_EXTERNAL_OFFSET_EXPANDED;
+    var7 = var4.QUEST_DOCK_EXTERNAL_OFFSET_COLLAPSED_WITH_YOU_BAR;
     var _closure1_slot11 = var7;
-    var7 = var4.QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED;
+    var7 = var4.QUEST_DOCK_EXTERNAL_OFFSET_EXPANDED;
     var _closure1_slot12 = var7;
-    var7 = var4.QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED;
+    var7 = var4.QUEST_DOCK_EXTERNAL_OFFSET_EXPANDED_WITH_YOU_BAR;
     var _closure1_slot13 = var7;
+    var7 = var4.QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED;
+    var _closure1_slot14 = var7;
+    var7 = var4.QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED;
+    var _closure1_slot15 = var7;
     var4 = var4.QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED;
-    var _closure1_slot14 = var4;
+    var _closure1_slot16 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.useYouBarHorizontalMargin;
-    var _closure1_slot15 = var7;
+    var _closure1_slot17 = var7;
     var4 = var4.useYouBarTotalHeight;
-    var _closure1_slot16 = var4;
+    var _closure1_slot18 = var4;
     var4 = {};
     var7 = 'function QuestDockHooksTsx1(){const{restingQuestDockMode,minExpandedContentHeight,windowDimensions,safeArea}=this.__closure;return{restingQuestDockMode:restingQuestDockMode.get(),minExpandedContentHeight:minExpandedContentHeight.get(),windowWidth:windowDimensions.get().width,windowHeight:windowDimensions.get().height,safeArea:safeArea.get()};}';
     var4['code'] = var7;
-    var _closure1_slot17 = var4;
+    var _closure1_slot19 = var4;
     var4 = {};
     var7 = 'function QuestDockHooksTsx2(props,previous){const{cheapWorkletShallowEqual,QuestDockMode,runOnJS,setRestingQuestDockMode,questDockWrapperSpecs,youBarEnabled,QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED,getQuestDockCollapsedWidth,youBarHorizontalMargin,QUEST_DOCK_COLLAPSED_HEIGHT,activeQuestDockMode,QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED,getQuestDockClosedWidth,QUEST_DOCK_CLOSED_HEIGHT,getQuestDockExpandedHeightLimits,youBarHeight,QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED,getQuestDockExpandedWidth}=this.__closure;var _previous$restingQues;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{restingQuestDockMode:restingQuestDockMode,minExpandedContentHeight:minExpandedContentHeight,windowWidth:windowWidth,windowHeight:windowHeight,safeArea:safeArea}=props;switch(restingQuestDockMode){case QuestDockMode.RESET_TO_PREVIOUS:runOnJS(setRestingQuestDockMode)((_previous$restingQues=previous===null||previous===void 0?void 0:previous.restingQuestDockMode)!==null&&_previous$restingQues!==void 0?_previous$restingQues:QuestDockMode.COLLAPSED);return;case QuestDockMode.COLLAPSED:questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:youBarEnabled?0:QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED*-1,width:getQuestDockCollapsedWidth(windowWidth,youBarEnabled?youBarHorizontalMargin:safeArea.left,youBarEnabled?youBarHorizontalMargin:safeArea.right),height:QUEST_DOCK_COLLAPSED_HEIGHT});activeQuestDockMode.set(QuestDockMode.COLLAPSED);break;case QuestDockMode.CLOSED:case QuestDockMode.SOFT_DISMISSED:questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:youBarEnabled?0:QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED*-1,width:getQuestDockClosedWidth(windowWidth,youBarEnabled?youBarHorizontalMargin:safeArea.left,youBarEnabled?youBarHorizontalMargin:safeArea.right),height:QUEST_DOCK_CLOSED_HEIGHT});activeQuestDockMode.set(restingQuestDockMode);break;case QuestDockMode.EXPANDED:const minContentHeight=minExpandedContentHeight;const{minHeight:minHeight,maxHeight:maxHeight}=getQuestDockExpandedHeightLimits(windowHeight,safeArea.top,minContentHeight);const heightMidpoint=(maxHeight+minHeight)/2;let height;if(questDockWrapperSpecs.get().height<=QUEST_DOCK_COLLAPSED_HEIGHT){height=maxHeight;}else if(previous!=null&&questDockWrapperSpecs.get().height===getQuestDockExpandedHeightLimits(previous.windowHeight,previous.safeArea.top,minContentHeight).maxHeight){height=maxHeight;}else if(questDockWrapperSpecs.get().height>=heightMidpoint){height=maxHeight;}else{height=maxHeight;}questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:youBarHeight>0?youBarHeight:QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED,width:getQuestDockExpandedWidth(windowWidth,safeArea.left,safeArea.right),height:height});activeQuestDockMode.set(QuestDockMode.EXPANDED);break;}}';
     var4['code'] = var7;
-    var _closure1_slot18 = var4;
+    var _closure1_slot20 = var4;
     var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -109,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.bind(var1)(var3);
         var17 = var3.bind(var1)();
         var _closure2_slot6 = var17;
-        var3 = _closure1_slot15;
+        var3 = _closure1_slot17;
         var13 = var3.bind(var1)();
         var _closure2_slot7 = var13;
         var3 = 9;
@@ -119,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = 'QuestDock';
         var8 = var4.bind(var5)(var3);
         var _closure2_slot8 = var8;
-        var3 = _closure1_slot16;
+        var3 = _closure1_slot18;
         var11 = var3.bind(var1)();
         var _closure2_slot9 = var11;
         var16 = 10;
@@ -159,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['__closure'] = var7;
         var7 = 9502251090521.0;
         var3['__workletHash'] = var7;
-        var7 = _closure1_slot17;
+        var7 = _closure1_slot19;
         var3['__initData'] = var7;
         var2 = function t(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -267,7 +271,7 @@ case 18:
                 var11 = _closure2_slot9;
                 if(!(!(var11 > var14))) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-                var14 = _closure1_slot14;
+                var14 = _closure1_slot16;
                 _fun0001_ip = 22; continue _fun0001;
 case 20:
                 var14 = _closure2_slot9;
@@ -307,7 +311,7 @@ case 10:
                 var11 = _closure2_slot8;
                 if(var11) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-                var14 = _closure1_slot12;
+                var14 = _closure1_slot14;
                 var11 = -1;
                 var12 = var11 * var14;
 case 23:
@@ -360,7 +364,7 @@ case 8:
                 var10 = _closure2_slot8;
                 if(var10) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
-                var12 = _closure1_slot13;
+                var12 = _closure1_slot15;
                 var10 = -1;
                 var11 = var10 * var12;
 case 31:
@@ -443,7 +447,7 @@ case 4:
         var7['setRestingQuestDockMode'] = var15;
         var7['questDockWrapperSpecs'] = var14;
         var7['youBarEnabled'] = var8;
-        var8 = _closure1_slot13;
+        var8 = _closure1_slot15;
         var7['QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED'] = var8;
         var8 = 12;
         var14 = var10[var8];
@@ -454,7 +458,7 @@ case 4:
         var13 = _closure1_slot8;
         var7['QUEST_DOCK_COLLAPSED_HEIGHT'] = var13;
         var7['activeQuestDockMode'] = var12;
-        var12 = _closure1_slot12;
+        var12 = _closure1_slot14;
         var7['QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED'] = var12;
         var12 = var10[var8];
         var12 = var9.bind(var1)(var12);
@@ -467,7 +471,7 @@ case 4:
         var12 = var12.getQuestDockExpandedHeightLimits;
         var7['getQuestDockExpandedHeightLimits'] = var12;
         var7['youBarHeight'] = var11;
-        var11 = _closure1_slot14;
+        var11 = _closure1_slot16;
         var7['QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED'] = var11;
         var8 = var10[var8];
         var8 = var9.bind(var1)(var8);
@@ -476,23 +480,23 @@ case 4:
         var2['__closure'] = var7;
         var7 = 9030555854984.0;
         var2['__workletHash'] = var7;
-        var6 = _closure1_slot18;
+        var6 = _closure1_slot20;
         var2['__initData'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
     var3['useQuestDockModeAnimatedReaction'] = var4;
     var4 = function useQuestDockExternalOffset() {
-        var4 = _closure1_slot0;
-        var5 = _closure1_slot2;
+        var5 = _closure1_slot0;
+        var8 = _closure1_slot2;
         var3 = 13;
-        var3 = var5[var3];
-        var6 = undefined;
-        var7 = var4.bind(var6)(var3);
-        var5 = var7.useStateFromStoresArray;
+        var3 = var8[var3];
+        var4 = undefined;
+        var9 = var5.bind(var4)(var3);
+        var7 = var9.useStateFromStoresArray;
         var3 = _closure1_slot5;
-        var4 = new Array(1);
-        var4[0] = var3;
+        var6 = new Array(1);
+        var6[0] = var3;
         var3 = function() {
             var2 = _closure1_slot5;
             var3 = var2.prevRestingQuestDockMode;
@@ -502,21 +506,29 @@ case 4:
             var1[1] = var2;
             return var1;
         };
-        var5 = var5.bind(var7)(var4, var3);
-        var4 = _closure1_slot3;
+        var7 = var7.bind(var9)(var6, var3);
+        var6 = _closure1_slot3;
         var3 = 2;
-        var4 = var4.bind(var6)(var5, var3);
+        var7 = var6.bind(var4)(var7, var3);
         var3 = 0;
-        var5 = var4[var3];
-        var _closure2_slot0 = var5;
+        var6 = var7[var3];
+        var _closure2_slot0 = var6;
         var3 = 1;
-        var6 = var4[var3];
-        var _closure2_slot1 = var6;
+        var7 = var7[var3];
+        var _closure2_slot1 = var7;
+        var3 = 9;
+        var3 = var8[var3];
+        var5 = var5.bind(var4)(var3);
+        var4 = var5.useYouBarEnabled;
+        var3 = 'QuestDock';
+        var5 = var4.bind(var5)(var3);
+        var _closure2_slot2 = var5;
         var4 = _closure1_slot4;
         var3 = var4.useMemo;
-        var2 = new Array(2);
-        var2[0] = var6;
-        var2[1] = var5;
+        var2 = new Array(3);
+        var2[0] = var7;
+        var2[1] = var6;
+        var2[2] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -526,33 +538,47 @@ case 44:
                 var2 = 0;
                 return var2;
 case 43:
-                var3 = _closure2_slot0;
-                var2 = _closure1_slot6;
-                var2 = var2.COLLAPSED;
-                if(!(var2 !== var3)) { _fun0002_ip = 45; continue _fun0002 }
+                var4 = _closure2_slot0;
+                var3 = _closure1_slot6;
+                var3 = var3.COLLAPSED;
+                if(!(var3 !== var4)) { _fun0002_ip = 45; continue _fun0002 }
 case 46:
-                var2 = _closure1_slot6;
-                var2 = var2.EXPANDED;
-                if(!(var2 !== var3)) { _fun0002_ip = 47; continue _fun0002 }
+                var3 = _closure1_slot6;
+                var3 = var3.EXPANDED;
+                if(!(var3 !== var4)) { _fun0002_ip = 47; continue _fun0002 }
 case 48:
-                var2 = _closure1_slot6;
-                var2 = var2.CLOSED;
-                if(!(var2 !== var3)) { _fun0002_ip = 49; continue _fun0002 }
+                var3 = _closure1_slot6;
+                var3 = var3.CLOSED;
+                if(!(var3 !== var4)) { _fun0002_ip = 49; continue _fun0002 }
 case 5:
-                var2 = _closure1_slot6;
-                var2 = var2.SOFT_DISMISSED;
-                if(!(var2 !== var3)) { _fun0002_ip = 49; continue _fun0002 }
+                var3 = _closure1_slot6;
+                var3 = var3.SOFT_DISMISSED;
+                if(!(var3 !== var4)) { _fun0002_ip = 49; continue _fun0002 }
 case 50:
-                var2 = 0;
-                return var2;
+                var3 = 0;
+                return var3;
 case 49:
-                var2 = _closure1_slot9;
-                return var2;
+                var3 = _closure1_slot9;
+                return var3;
 case 47:
-                var2 = _closure1_slot11;
-                return var2;
+                var3 = _closure2_slot2;
+                if(var3) { _fun0002_ip = 51; continue _fun0002 }
+case 52:
+                var3 = _closure1_slot12;
+                _fun0002_ip = 53; continue _fun0002;
+case 51:
+                var3 = _closure1_slot13;
+case 53:
+                return var3;
 case 45:
+                var1 = _closure2_slot2;
+                if(var1) { _fun0002_ip = 54; continue _fun0002 }
+case 55:
                 var1 = _closure1_slot10;
+                _fun0002_ip = 56; continue _fun0002;
+case 54:
+                var1 = _closure1_slot11;
+case 56:
                 return var1;
             }
         };
@@ -595,8 +621,8 @@ case 0:
                     var3 = _closure1_slot6;
                     var3 = var3.SOFT_DISMISSED;
                     var3 = var4 !== var3;
-                    if(var3) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+                    if(var3) { _fun0003_ip = 57; continue _fun0003 }
+case 58:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var4 = 12;
@@ -607,15 +633,15 @@ case 52:
                     var4 = _closure1_slot5;
                     var4 = var4.questDockSoftDismissedAt;
                     var3 = var5.bind(var6)(var4);
-case 51:
-                    if(var3) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
+case 57:
+                    if(var3) { _fun0003_ip = 59; continue _fun0003 }
+case 60:
                     var3 = _closure2_slot0;
                     var1 = _closure1_slot6;
                     var2 = var1.COLLAPSED;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 53:
+case 59:
                     var1 = undefined;
                     return var1;
                 }

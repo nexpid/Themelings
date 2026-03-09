@@ -331,6 +331,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 26;
     var9 = var5[var8];
     var9 = var4.bind(var1)(var9);
+    var9 = var9.Heading;
+    var3['Heading'] = var9;
+    var9 = var5[var8];
+    var9 = var4.bind(var1)(var9);
     var9 = var9.Text;
     var3['Text'] = var9;
     var8 = var5[var8];

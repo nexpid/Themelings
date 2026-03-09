@@ -235,15 +235,12 @@ case 0:
                     var1 = 18;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var6 = var4.bind(var1)(var2);
-                    var5 = var6.getCurrentConfig;
-                    var4 = {};
-                    var2 = 'NativeNotificationsTapSequencer';
-                    var4['location'] = var2;
+                    var5 = var4.bind(var1)(var2);
+                    var4 = var5.getConfig;
                     var2 = {};
-                    var7 = false;
-                    var2['autoTrackExposure'] = var7;
-                    var2 = var5.bind(var6)(var4, var2);
+                    var6 = 'NativeNotificationsTapSequencer';
+                    var2['location'] = var6;
+                    var2 = var4.bind(var5)(var2);
                     var2 = var2.enabled;
                     if(!var2) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
@@ -444,19 +441,19 @@ case 0:
                     var9 = 'gravity_tab';
                     var6['homeSessionId'] = var9;
                     var9 = 'NoDotShown';
-                    if(!var2) { _fun0004_ip = 14; continue _fun0004 }
+                    if(!var2) { _fun0004_ip = 18; continue _fun0004 }
 case 11:
                     var9 = 'DotShown';
-case 14:
+case 18:
                     var6['variant'] = var9;
                     var6 = var7.bind(var8)(var6);
-                    if(!var2) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                    if(!var2) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                     var7 = _closure1_slot5;
                     var6 = var7.hasOpened;
                     var2 = var6.bind(var7)();
-case 18:
-                    if(!var2) { _fun0004_ip = 20; continue _fun0004 }
+case 19:
+                    if(!var2) { _fun0004_ip = 21; continue _fun0004 }
 case 7:
                     var6 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -471,7 +468,7 @@ case 7:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.reloadICYMITab;
                     var2 = var2.bind(var3)();
-case 20:
+case 21:
                     return var1;
                 }
             };
@@ -540,8 +537,8 @@ case 20:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+                        if(var2) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                         var6 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var3 = 22;
@@ -553,12 +550,12 @@ case 22:
                         var2 = var2.paths;
                         var2 = var6.bind(var3)(var5, var2);
                         SaveGenerator(address=54);
-case 23:
-                        return var2;
 case 24:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0005_ip = 19; continue _fun0005 }
+                        return var2;
 case 25:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(var5) { _fun0005_ip = 20; continue _fun0005 }
+case 26:
                         var5 = var2.showYouAccountActionSheet;
                         var5 = var5.bind(var2)();
                         var7 = _closure1_slot0;
@@ -573,9 +570,9 @@ case 25:
                         var4 = var4.IMPACT_MEDIUM;
                         var4 = var5.bind(var6)(var4);
                         return var3;
-case 19:
+case 20:
                         return var2;
-case 21:
+case 22:
                         return var1;
                     }
                 };

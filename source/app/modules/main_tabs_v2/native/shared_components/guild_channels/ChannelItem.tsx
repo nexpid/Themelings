@@ -184,7 +184,7 @@ case 6:
         var9 = var1.channel;
         var8 = var1.unread;
         var7 = var1.mentionCount;
-        var6 = var1.userCount;
+        var6 = var1.voiceStates;
         var5 = var1.embeddedActivitiesCount;
         var1 = {'accessible': true, 'accessibilityRole': 'button'};
         var3 = _closure1_slot1;
@@ -197,7 +197,7 @@ case 6:
         var2['channel'] = var9;
         var2['unread'] = var8;
         var2['mentionCount'] = var7;
-        var2['userCount'] = var6;
+        var2['voiceStates'] = var6;
         var2['embeddedActivitiesCount'] = var5;
         var2 = var3.bind(var4)(var2);
         var1['accessibilityLabel'] = var2;

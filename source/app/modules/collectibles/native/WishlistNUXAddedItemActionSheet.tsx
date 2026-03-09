@@ -266,7 +266,6 @@ case 8:
         var8 = var19[var8];
         var9 = var9.bind(var4)(var8);
         var8 = {};
-        var8['onPress'] = var16;
         var8['renderPreview'] = var10;
         var9 = var3.bind(var4)(var9, var8);
         var8 = new Array(3);

@@ -389,7 +389,7 @@ case 19:
             var3 = var5.bind(var6)(var4);
 case 8:
             if(!var3) { _fun0006_ip = 20; continue _fun0006 }
-case 3:
+case 5:
             var3 = true;
             _closure1_slot11 = var3;
 case 20:
@@ -582,7 +582,7 @@ case 0:
             var4 = var5.bind(var1)(var4);
             var5 = null;
             if(!(var5 != var4)) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
+case 9:
             var5 = var3.avatar;
             var4['avatar'] = var5;
             var5 = var3.username;
@@ -611,8 +611,8 @@ case 0:
                 var5 = var4.id;
                 var2 = _closure2_slot0;
                 var1 = var4;
-                if(!(var5 === var2)) { _fun0009_ip = 30; continue _fun0009 }
-case 31:
+                if(!(var5 === var2)) { _fun0009_ip = 29; continue _fun0009 }
+case 30:
                 var2 = {};
                 var7 = var2;
                 var6 = var4;
@@ -621,7 +621,7 @@ case 31:
                 var3 = 'pushSyncToken';
                 var2[var3] = var4;
                 var1 = var2;
-case 30:
+case 29:
                 return var1;
             }
         };
@@ -644,15 +644,15 @@ case 0:
                 var2 = var3.pushSyncToken;
                 var4 = null;
                 var1 = var3;
-                if(!(var4 != var2)) { _fun0010_ip = 32; continue _fun0010 }
-case 33:
+                if(!(var4 != var2)) { _fun0010_ip = 31; continue _fun0010 }
+case 32:
                 var6 = _closure2_slot0;
                 var5 = var6.includes;
                 var2 = var3.pushSyncToken;
                 var2 = var5.bind(var6)(var2);
                 var1 = var3;
-                if(!var2) { _fun0010_ip = 32; continue _fun0010 }
-case 34:
+                if(!var2) { _fun0010_ip = 31; continue _fun0010 }
+case 33:
                 var2 = {};
                 var8 = var2;
                 var7 = var3;
@@ -660,7 +660,7 @@ case 34:
                 var3 = 'pushSyncToken';
                 var2[var3] = var4;
                 var1 = var2;
-case 32:
+case 31:
                 return var1;
             }
         };

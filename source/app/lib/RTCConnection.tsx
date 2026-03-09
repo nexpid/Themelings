@@ -1381,7 +1381,7 @@ case 80:
                     var5 = 34;
                     var5 = var8[var5];
                     var5 = var6.bind(var7)(var5);
-                    var8 = var5.remotePowerMonitor;
+                    var8 = var5.powerMonitor;
                     var7 = var8.on;
                     var6 = var1._handlePowerResume;
                     var5 = 'resume';

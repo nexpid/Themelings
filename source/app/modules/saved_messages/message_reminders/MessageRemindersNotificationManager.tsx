@@ -52,15 +52,12 @@ case 0:
             var1 = 6;
             var4 = var4[var1];
             var1 = undefined;
-            var7 = var5.bind(var1)(var4);
-            var6 = var7.getCurrentConfig;
-            var5 = {};
-            var4 = 'MessageRemindersNotificationManager';
-            var5['location'] = var4;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.getConfig;
             var4 = {};
-            var8 = false;
-            var4['autoTrackExposure'] = var8;
-            var4 = var6.bind(var7)(var5, var4);
+            var7 = 'MessageRemindersNotificationManager';
+            var4['location'] = var7;
+            var4 = var5.bind(var6)(var4);
             var4 = var4.enabled;
             if(!var4) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -155,15 +152,12 @@ case 0:
                     var1 = 6;
                     var3 = var3[var1];
                     var1 = undefined;
-                    var7 = var4.bind(var1)(var3);
-                    var5 = var7.getCurrentConfig;
-                    var4 = {};
-                    var3 = 'MessageRemindersNotificationManager';
-                    var4['location'] = var3;
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.getConfig;
                     var3 = {};
-                    var8 = false;
-                    var3['autoTrackExposure'] = var8;
-                    var3 = var5.bind(var7)(var4, var3);
+                    var7 = 'MessageRemindersNotificationManager';
+                    var3['location'] = var7;
+                    var3 = var4.bind(var5)(var3);
                     var3 = var3.enabled;
                     if(!var3) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
@@ -251,10 +245,10 @@ case 0:
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0005_ip = 20; continue _fun0005 }
-case 19:
+case 21:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0005_ip = 21; continue _fun0005;
+                _fun0005_ip = 22; continue _fun0005;
 case 20:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -263,7 +257,7 @@ case 20:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 21:
+case 22:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var3 = {};

@@ -89,7 +89,7 @@ case 0:
             var1 = var4[var1];
             var4 = undefined;
             var6 = var3.bind(var4)(var1);
-            var3 = var6.useExperiment;
+            var3 = var6.useConfig;
             var1 = {};
             var7 = 'forLaterCoachmark';
             var1['location'] = var7;

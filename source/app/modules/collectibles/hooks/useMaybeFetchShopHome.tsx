@@ -208,6 +208,8 @@ case 6:
                 var3 = 'variantsReturnStyle';
                 var1[var3] = var4;
                 var4 = true;
+                var3 = 'includeBundles';
+                var1[var3] = var4;
                 var3 = 'includeDynamicBlocks';
                 var1[var3] = var4;
                 var4 = _closure2_slot11;

@@ -212,8 +212,8 @@ case 18:
             var _closure1_slot4 = var2;
             return var1;
         };
-        var12 = global;
-        var11 = var12.Object;
+        var13 = global;
+        var11 = var13.Object;
         var10 = var11.defineProperty;
         var7 = {};
         var1 = true;
@@ -226,23 +226,23 @@ case 18:
         var7 = var8.bind(var1)(var7);
         var7 = var7.getSystemLocale;
         var _closure1_slot5 = var7;
-        var10 = var12.window;
-        var13 = var10.DiscordNative;
+        var10 = var13.window;
+        var12 = var10.DiscordNative;
         var10 = null;
-        if(!(var10 != var13)) { _fun0001_ip = 20; continue _fun0001 }
+        if(!(var10 != var12)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-        var14 = var13.remoteApp;
+        var14 = var12.app;
         var11 = var14.getVersion;
         var21 = var11.bind(var14)();
-        var11 = var13.process;
+        var11 = var12.process;
         var11 = var11.platform;
-        var14 = var13.os;
+        var14 = var12.os;
         var17 = var14.release;
-        var14 = var13.os;
+        var14 = var12.os;
         var20 = var14.arch;
-        var14 = var13.os;
+        var14 = var12.os;
         var18 = var14.appArch;
-        var16 = var13.remoteApp;
+        var16 = var12.app;
         var14 = var16.getReleaseChannel;
         var22 = var14.bind(var16)();
         var16 = var7.bind(var1)();
@@ -357,7 +357,7 @@ case 45:
         var11['os_sdk_version'] = var7;
         _fun0001_ip = 20; continue _fun0001;
 case 38:
-        var11 = var13.crashReporter;
+        var11 = var12.crashReporter;
         var7 = var11.getMetadata;
         var7 = var7.bind(var11)();
         var14 = _closure1_slot3;
@@ -561,39 +561,37 @@ case 65: // catch_target0
         _closure1_slot3 = var7;
 case 47:
         var7 = {};
-        var11 = var12.window;
+        var11 = var13.window;
         var11 = var11.GLOBAL_ENV;
         var11 = var11.RELEASE_CHANNEL;
-        var15 = var12.parseInt;
-        var14 = '5267';
+        var15 = var13.parseInt;
+        var14 = '5274';
         var11 = 10;
         var11 = var15.bind(var1)(var14, var11);
-        var14 = var12.isNaN;
+        var14 = var13.isNaN;
         var14 = var14.bind(var1)(var11);
         if(var14) { _fun0001_ip = 66; continue _fun0001 }
 case 67:
         var7['client_build_number'] = var11;
 case 66:
-        var14 = var10 == var13;
+        var14 = var10 == var12;
         var11 = undefined;
         if(var14) { _fun0001_ip = 68; continue _fun0001 }
 case 69:
-        var14 = var13.remoteApp;
-        var14 = var14.getBuildNumber;
-        var14 = var10 == var14;
-        var11 = undefined;
-        if(var14) { _fun0001_ip = 68; continue _fun0001 }
-case 70:
-        var14 = var13.remoteApp;
-        var13 = var14.getBuildNumber;
-        var11 = var13.bind(var14)();
+        var14 = var12.app;
+        var12 = var14.getBuildNumber;
+        var11 = var12.bind(var14)();
 case 68:
-        var12 = var12.isNaN;
-        var12 = var12.bind(var1)(var11);
-        if(var12) { _fun0001_ip = 71; continue _fun0001 }
-case 72:
-        var7['native_build_number'] = var11;
+        var12 = var10 == var11;
+        if(var12) { _fun0001_ip = 70; continue _fun0001 }
 case 71:
+        var13 = var13.isNaN;
+        var12 = var13.bind(var1)(var11);
+case 70:
+        if(var12) { _fun0001_ip = 72; continue _fun0001 }
+case 73:
+        var7['native_build_number'] = var11;
+case 72:
         var7['client_event_source'] = var10;
         var10 = 1;
         var10 = var9[var10];
@@ -631,8 +629,8 @@ case 0:
                     var4 = var5 == var8;
                     var9 = '';
                     var2 = var9;
-                    if(var4) { _fun0007_ip = 73; continue _fun0007 }
-case 74:
+                    if(var4) { _fun0007_ip = 74; continue _fun0007 }
+case 75:
                     var7 = var3.replace;
                     var6 = /[[]/;
                     var4 = '\\[';
@@ -656,19 +654,19 @@ case 74:
                     var4 = var6.exec;
                     var6 = var4.bind(var6)(var8);
                     var4 = var9;
-                    if(!(var5 !== var6)) { _fun0007_ip = 75; continue _fun0007 }
+                    if(!(var5 !== var6)) { _fun0007_ip = 76; continue _fun0007 }
 case 11:
                     var5 = 1;
                     var8 = var6[var5];
                     var10 = 'string';
                     var8 = typeof var8;
-                    if(!(var10 !== var8)) { _fun0007_ip = 76; continue _fun0007 }
-case 77:
+                    if(!(var10 !== var8)) { _fun0007_ip = 77; continue _fun0007 }
+case 78:
                     var8 = var6[var5];
                     var8 = var8.length;
                     var4 = var9;
-                    if(var8) { _fun0007_ip = 75; continue _fun0007 }
-case 76:
+                    if(var8) { _fun0007_ip = 76; continue _fun0007 }
+case 77:
                     var7 = var7.decodeURIComponent;
                     var6 = var6[var5];
                     var5 = undefined;
@@ -677,16 +675,16 @@ case 76:
                     var6 = /\+/g;
                     var5 = ' ';
                     var4 = var7.bind(var8)(var6, var5);
-case 75:
+case 76:
                     var2 = var4;
-case 73:
+case 74:
                     var5 = var2.length;
                     var4 = 0;
-                    if(!(var5 > var4)) { _fun0007_ip = 78; continue _fun0007 }
+                    if(!(var5 > var4)) { _fun0007_ip = 79; continue _fun0007 }
 case 27:
                     var1 = _closure2_slot1;
                     var1[var3] = var2;
-case 78:
+case 79:
                     var1 = undefined;
                     return var1;
                 }

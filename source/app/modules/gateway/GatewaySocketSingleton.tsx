@@ -144,7 +144,7 @@ case 8:
         var9 = 9;
         var9 = var8[var9];
         var9 = var10.bind(var1)(var9);
-        var13 = var9.remotePowerMonitor;
+        var13 = var9.powerMonitor;
         var12 = var13.on;
         var11 = 'resume';
         var9 = function() {

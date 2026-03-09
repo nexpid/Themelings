@@ -120,8 +120,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['POLL_CREATION'] = var8;
     var8 = 'share_custom_theme';
     var2['SHARE_CUSTOM_THEME'] = var8;
-    var8 = 'channel_prompt';
-    var2['CHANNEL_PROMPT'] = var8;
     var8 = 'gif_reply';
     var2['GIF_REPLY'] = var8;
     var8 = 'sticker_reply';

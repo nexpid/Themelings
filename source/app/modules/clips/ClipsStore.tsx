@@ -253,14 +253,14 @@ case 43:
                     var2 = _closure1_slot2;
                     var2 = var2[var6];
                     var2 = var7.bind(var5)(var2);
-                    var2 = var2.remoteApp;
+                    var2 = var2.app;
                     if(!(var4 != var2)) { _fun0005_ip = 41; continue _fun0005 }
 case 44:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var2 = var2[var6];
                     var2 = var4.bind(var5)(var2);
-                    var5 = var2.remoteApp;
+                    var5 = var2.app;
                     var4 = var5.getPath;
                     var2 = 'documents';
                     var2 = var4.bind(var5)(var2);

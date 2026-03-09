@@ -161,7 +161,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    var18 = new Array(18);
+    var18 = new Array(19);
     var18[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -248,6 +248,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.USER_PROFILE_WISHLIST_RECOMMENDATIONS;
     var18[17] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.FIRST_BOOSTER_UPSELL_OVERSEER;
+    var18[18] = var14;
     var _closure1_slot1 = var18;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

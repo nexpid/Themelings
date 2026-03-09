@@ -93,30 +93,28 @@ case 0:
             var5 = var6;
             if(!var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
-case 6:
+case 5:
             var3 = var2.isVisible;
-            if(!var3) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var2 = var2.isCustomBackground;
-            if(var2) { _fun0001_ip = 9; continue _fun0001 }
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var2 = var2.isCustomBackground;
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var2 = 'dark-content';
-            if(!var7) { _fun0001_ip = 10; continue _fun0001 }
-case 9:
+            if(!var7) { _fun0001_ip = 9; continue _fun0001 }
+case 8:
             var2 = var6;
-case 10:
-            _fun0001_ip = 11; continue _fun0001;
+case 9:
+            _fun0001_ip = 10; continue _fun0001;
 case 4:
             var3 = 'dark-content';
-            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var3 = var6;
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var2 = var3;
+            var3 = var6;
 case 11:
+            var2 = var3;
+case 10:
             var5 = var2;
 case 2:
             var3 = _closure1_slot5;

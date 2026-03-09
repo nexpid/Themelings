@@ -244,25 +244,25 @@ case 10:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     StartGenerator();
-                    var17 = arg1;
-                    var20 = arg3;
+                    var20 = arg1;
+                    var23 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
-                    var _closure4_slot0 = var17;
-                    var _closure4_slot1 = var20;
-                    var16 = undefined;
-                    var _closure4_slot2 = var16;
-                    var _closure4_slot3 = var16;
-                    var _closure4_slot4 = var16;
-                    var _closure4_slot5 = var16;
-                    var _closure4_slot6 = var16;
-                    var _closure4_slot7 = var16;
-                    var _closure4_slot8 = var16;
-                    var _closure4_slot9 = var16;
-                    var _closure4_slot10 = var16;
-                    var _closure4_slot11 = var16;
-                    var _closure4_slot12 = var16;
+                    var _closure4_slot0 = var20;
+                    var _closure4_slot1 = var23;
+                    var8 = undefined;
+                    var _closure4_slot2 = var8;
+                    var _closure4_slot3 = var8;
+                    var _closure4_slot4 = var8;
+                    var _closure4_slot5 = var8;
+                    var _closure4_slot6 = var8;
+                    var _closure4_slot7 = var8;
+                    var _closure4_slot8 = var8;
+                    var _closure4_slot9 = var8;
+                    var _closure4_slot10 = var8;
+                    var _closure4_slot11 = var8;
+                    var _closure4_slot12 = var8;
                     var5 = _closure1_slot18;
                     var4 = var5.verbose;
                     var2 = 'loading early cache';
@@ -276,35 +276,35 @@ case 20:
                     var4 = _closure1_slot13;
                     var2 = var4.getGuildId;
                     var2 = var2.bind(var4)();
-                    var8 = null;
-                    var4 = var8 != var2;
-                    var44 = null;
+                    var5 = null;
+                    var4 = var5 != var2;
+                    var48 = null;
                     if(!var4) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
-                    var44 = var2;
+                    var48 = var2;
 case 21:
-                    _closure4_slot3 = var44;
+                    _closure4_slot3 = var48;
                     var4 = _closure1_slot12;
                     var2 = var4.getChannelId;
                     var2 = var2.bind(var4)();
-                    var4 = var8 != var2;
-                    var43 = null;
+                    var4 = var5 != var2;
+                    var47 = null;
                     if(!var4) { _fun0004_ip = 6; continue _fun0004 }
 case 23:
-                    var43 = var2;
+                    var47 = var2;
 case 6:
-                    _closure4_slot4 = var43;
-                    var5 = global;
-                    var4 = var5.performance;
+                    _closure4_slot4 = var47;
+                    var6 = global;
+                    var4 = var6.performance;
                     var2 = var4.now;
-                    var10 = var2.bind(var4)();
+                    var11 = var2.bind(var4)();
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var2 = 17;
-                    var7 = var6[var2];
-                    var7 = var4.bind(var16)(var7);
-                    var12 = var7.loadCachedMessages;
-                    var11 = var12.measureAsyncWithoutNesting;
+                    var2 = _closure1_slot2;
+                    var12 = 17;
+                    var7 = var2[var12];
+                    var7 = var4.bind(var8)(var7);
+                    var13 = var7.loadCachedMessages;
+                    var10 = var13.measureAsyncWithoutNesting;
                     var7 = function() {
                         var5 = _closure4_slot0;
                         var4 = _closure4_slot3;
@@ -323,11 +323,11 @@ case 6:
                         var1 = var2.bind(var1)(var5, var4, var3);
                         return var1;
                     };
-                    var18 = var11.bind(var12)(var7);
-                    var7 = var6[var2];
-                    var7 = var4.bind(var16)(var7);
-                    var12 = var7.fetchGuildCache;
-                    var11 = var12.measureAsync;
+                    var18 = var10.bind(var13)(var7);
+                    var7 = var2[var12];
+                    var7 = var4.bind(var8)(var7);
+                    var13 = var7.fetchGuildCache;
+                    var10 = var13.measureAsync;
                     var7 = function() {
                         var4 = _closure4_slot0;
                         var3 = _closure4_slot1;
@@ -345,11 +345,11 @@ case 6:
                         var1 = var2.bind(var1)(var4, var3);
                         return var1;
                     };
-                    var15 = var11.bind(var12)(var7);
-                    var2 = var6[var2];
-                    var2 = var4.bind(var16)(var2);
-                    var6 = var2.fetchGuildCache;
-                    var4 = var6.measureAsync;
+                    var17 = var10.bind(var13)(var7);
+                    var2 = var2[var12];
+                    var2 = var4.bind(var8)(var2);
+                    var7 = var2.fetchGuildCache;
+                    var4 = var7.measureAsync;
                     var2 = function() {
                         var4 = _closure4_slot0;
                         var3 = _closure4_slot1;
@@ -367,22 +367,22 @@ case 6:
                         var1 = var2.bind(var1)(var4, var3);
                         return var1;
                     };
-                    var14 = var4.bind(var6)(var2);
-                    if(!(var8 == var17)) { _fun0004_ip = 24; continue _fun0004 }
+                    var16 = var4.bind(var7)(var2);
+                    if(!(var5 == var20)) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
-                    var6 = var5.Promise;
-                    var4 = var6.resolve;
+                    var7 = var6.Promise;
+                    var4 = var7.resolve;
                     var2 = new Array(0);
-                    var13 = var4.bind(var6)(var2);
+                    var15 = var4.bind(var7)(var2);
                     _fun0004_ip = 26; continue _fun0004;
 case 24:
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var7 = _closure1_slot2;
                     var2 = 18;
-                    var2 = var6[var2];
-                    var11 = var4.bind(var16)(var2);
-                    var7 = var11.timeAsync;
-                    var6 = '💾';
+                    var2 = var7[var2];
+                    var13 = var4.bind(var8)(var2);
+                    var10 = var13.timeAsync;
+                    var7 = '💾';
                     var4 = 'cache: private_channels';
                     var2 = function() {
                         var3 = _closure1_slot1;
@@ -397,17 +397,17 @@ case 24:
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
                     };
-                    var13 = var7.bind(var11)(var6, var4, var2);
+                    var15 = var10.bind(var13)(var7, var4, var2);
 case 26:
-                    if(!(var8 != var17)) { _fun0004_ip = 27; continue _fun0004 }
+                    if(!(var5 != var20)) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var7 = _closure1_slot2;
                     var2 = 18;
-                    var2 = var6[var2];
-                    var11 = var4.bind(var16)(var2);
-                    var7 = var11.timeAsync;
-                    var6 = '💾';
+                    var2 = var7[var2];
+                    var13 = var4.bind(var8)(var2);
+                    var10 = var13.timeAsync;
+                    var7 = '💾';
                     var4 = 'cache: user_settings';
                     var2 = function() {
                         var3 = _closure1_slot1;
@@ -421,23 +421,23 @@ case 28:
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var12 = var7.bind(var11)(var6, var4, var2);
+                    var14 = var10.bind(var13)(var7, var4, var2);
                     _fun0004_ip = 29; continue _fun0004;
 case 27:
-                    var6 = var5.Promise;
-                    var4 = var6.resolve;
+                    var7 = var6.Promise;
+                    var4 = var7.resolve;
                     var2 = {};
-                    var12 = var4.bind(var6)(var2);
+                    var14 = var4.bind(var7)(var2);
 case 29:
-                    if(!(var8 != var17)) { _fun0004_ip = 30; continue _fun0004 }
+                    if(!(var5 != var20)) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var7 = _closure1_slot2;
                     var2 = 18;
-                    var2 = var6[var2];
-                    var11 = var4.bind(var16)(var2);
-                    var7 = var11.timeAsync;
-                    var6 = '💾';
+                    var2 = var7[var2];
+                    var13 = var4.bind(var8)(var2);
+                    var10 = var13.timeAsync;
+                    var7 = '💾';
                     var4 = 'cache: read_states';
                     var2 = function() {
                         var3 = _closure1_slot1;
@@ -451,23 +451,23 @@ case 31:
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var11 = var7.bind(var11)(var6, var4, var2);
+                    var13 = var10.bind(var13)(var7, var4, var2);
                     _fun0004_ip = 32; continue _fun0004;
 case 30:
-                    var6 = var5.Promise;
-                    var4 = var6.resolve;
+                    var7 = var6.Promise;
+                    var4 = var7.resolve;
                     var2 = new Array(0);
-                    var11 = var4.bind(var6)(var2);
+                    var13 = var4.bind(var7)(var2);
 case 32:
-                    if(!(var8 != var17)) { _fun0004_ip = 33; continue _fun0004 }
+                    if(!(var5 != var20)) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var7 = _closure1_slot2;
                     var2 = 18;
-                    var2 = var6[var2];
-                    var19 = var4.bind(var16)(var2);
-                    var7 = var19.timeAsync;
-                    var6 = '💾';
+                    var2 = var7[var2];
+                    var19 = var4.bind(var8)(var2);
+                    var10 = var19.timeAsync;
+                    var7 = '💾';
                     var4 = 'cache: user_guild_settings';
                     var2 = function() {
                         var3 = _closure1_slot1;
@@ -481,19 +481,19 @@ case 34:
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var7 = var7.bind(var19)(var6, var4, var2);
+                    var10 = var10.bind(var19)(var7, var4, var2);
                     _fun0004_ip = 35; continue _fun0004;
 case 33:
-                    var6 = var5.Promise;
-                    var4 = var6.resolve;
+                    var7 = var6.Promise;
+                    var4 = var7.resolve;
                     var2 = new Array(0);
-                    var7 = var4.bind(var6)(var2);
+                    var10 = var4.bind(var7)(var2);
 case 35:
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var7 = _closure1_slot2;
                     var2 = 23;
-                    var19 = var6[var2];
-                    var22 = var4.bind(var16)(var19);
+                    var19 = var7[var2];
+                    var22 = var4.bind(var8)(var19);
                     var21 = 'AllCacheStores';
                     var19 = function() {
                         var3 = _closure1_slot0;
@@ -504,9 +504,9 @@ case 35:
                         var1 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var19 = var22.bind(var16)(var21, var19);
-                    var2 = var6[var2];
-                    var6 = var4.bind(var16)(var2);
+                    var19 = var22.bind(var8)(var21, var19);
+                    var2 = var7[var2];
+                    var7 = var4.bind(var8)(var2);
                     var4 = 'MobileAppDatabaseManager';
                     var2 = function() {
                         var3 = _closure1_slot0;
@@ -517,18 +517,18 @@ case 35:
                         var1 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var2 = var6.bind(var16)(var4, var2);
-                    var6 = var5.Promise;
-                    var4 = var6.all;
+                    var2 = var7.bind(var8)(var4, var2);
+                    var7 = var6.Promise;
+                    var4 = var7.all;
                     var2 = new Array(7);
                     var2[0] = var18;
-                    var2[1] = var15;
-                    var2[2] = var14;
-                    var2[3] = var13;
-                    var2[4] = var12;
-                    var2[5] = var11;
-                    var2[6] = var7;
-                    var2 = var4.bind(var6)(var2);
+                    var2[1] = var17;
+                    var2[2] = var16;
+                    var2[3] = var15;
+                    var2[4] = var14;
+                    var2[5] = var13;
+                    var2[6] = var10;
+                    var2 = var4.bind(var7)(var2);
                     SaveGenerator(address=721);
 case 36:
                     return var2;
@@ -536,72 +536,54 @@ case 37:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-                    var6 = _closure1_slot3;
+                    var7 = _closure1_slot3;
                     var4 = 7;
-                    var11 = var6.bind(var16)(var2, var4);
-                    var12 = _closure1_slot3;
-                    var7 = 0;
-                    var6 = var11[var7];
-                    var4 = 2;
-                    var12 = var12.bind(var16)(var6, var4);
-                    var76 = var12[var7];
-                    var6 = 1;
-                    var14 = var12[var6];
-                    _closure4_slot5 = var14;
-                    var6 = var11[var6];
-                    _closure4_slot6 = var6;
-                    var13 = var11[var4];
-                    _closure4_slot7 = var13;
-                    var4 = 3;
-                    var4 = var11[var4];
-                    _closure4_slot8 = var4;
-                    var6 = 4;
-                    var15 = var11[var6];
-                    _closure4_slot9 = var15;
-                    var6 = 5;
-                    var12 = var11[var6];
-                    _closure4_slot10 = var12;
-                    var6 = 6;
-                    var11 = var11[var6];
-                    _closure4_slot11 = var11;
-                    var18 = var5.performance;
-                    var6 = var18.now;
-                    var6 = var6.bind(var18)();
-                    var78 = var6 - var10;
-                    var18 = _closure1_slot18;
-                    var10 = var18.verbose;
-                    var6 = var5.HermesInternal;
-                    var22 = var6.concat;
-                    var79 = 'cache loaded in ';
-                    var77 = 'ms (channel_history ';
-                    var75 = 'ms)';
-                    var6 = var79[var22](var78, var77, var76, var75, var74);
-                    var6 = var10.bind(var18)(var6);
-                    if(!(var8 == var14)) { _fun0004_ip = 40; continue _fun0004 }
+                    var14 = var7.bind(var8)(var2, var4);
+                    var13 = _closure1_slot3;
+                    var4 = 0;
+                    var10 = var14[var4];
+                    var7 = 2;
+                    var13 = var13.bind(var8)(var10, var7);
+                    var80 = var13[var4];
+                    var10 = 1;
+                    var18 = var13[var10];
+                    _closure4_slot5 = var18;
+                    var13 = var14[var10];
+                    _closure4_slot6 = var13;
+                    var17 = var14[var7];
+                    _closure4_slot7 = var17;
+                    var7 = 3;
+                    var7 = var14[var7];
+                    _closure4_slot8 = var7;
+                    var10 = 4;
+                    var19 = var14[var10];
+                    _closure4_slot9 = var19;
+                    var10 = 5;
+                    var16 = var14[var10];
+                    _closure4_slot10 = var16;
+                    var10 = 6;
+                    var15 = var14[var10];
+                    _closure4_slot11 = var15;
+                    var14 = var6.performance;
+                    var10 = var14.now;
+                    var10 = var10.bind(var14)();
+                    var82 = var10 - var11;
+                    var14 = _closure1_slot18;
+                    var11 = var14.verbose;
+                    var10 = var6.HermesInternal;
+                    var24 = var10.concat;
+                    var83 = 'cache loaded in ';
+                    var81 = 'ms (channel_history ';
+                    var79 = 'ms)';
+                    var10 = var83[var24](var82, var81, var80, var79, var78);
+                    var10 = var11.bind(var14)(var10);
+                    if(!(var5 != var18)) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
-                    var10 = _closure1_slot1;
-                    var18 = _closure1_slot2;
-                    var6 = 28;
-                    var6 = var18[var6];
-                    var10 = var10.bind(var16)(var6);
-                    var6 = 'database:history_cache_null';
-                    var6 = var10.bind(var16)(var6);
-                    var18 = _closure1_slot18;
-                    var10 = var18.verbose;
-                    var6 = 'finished without dispatching CACHE_LOADED';
-                    var6 = var10.bind(var18)(var6);
-                    var6 = new Array(3);
-                    var10 = false;
-                    var6[0] = var10;
-                    var6[1] = var8;
-                    var6[2] = var7;
-                    return var6;
-case 40:
-                    var10 = var5.Object;
-                    var7 = var10.fromEntries;
-                    var19 = var14.members;
-                    var18 = var19.map;
-                    var6 = function(arg1) {
+                    var14 = var6.Object;
+                    var11 = var14.fromEntries;
+                    var22 = var18.members;
+                    var21 = var22.map;
+                    var10 = function(arg1) {
                         var2 = arg1;
                         var3 = var2.userId;
                         var1 = new Array(2);
@@ -609,24 +591,24 @@ case 40:
                         var1[1] = var2;
                         return var1;
                     };
-                    var6 = var18.bind(var19)(var6);
-                    var6 = var7.bind(var10)(var6);
-                    _closure4_slot12 = var6;
-                    var6 = var13.guildId;
-                    var7 = var8 != var6;
-                    if(!var7) { _fun0004_ip = 42; continue _fun0004 }
+                    var10 = var21.bind(var22)(var10);
+                    var10 = var11.bind(var14)(var10);
+                    _closure4_slot12 = var10;
+                    var10 = var17.guildId;
+                    var11 = var5 != var10;
+                    if(!var11) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
-                    var6 = var13.channels;
-                    var7 = var8 != var6;
+                    var10 = var17.channels;
+                    var11 = var5 != var10;
 case 42:
-                    var6 = var13.guildId;
-                    var18 = _closure1_slot1;
-                    var19 = _closure1_slot2;
-                    var10 = 26;
-                    var10 = var19[var10];
-                    var10 = var18.bind(var16)(var10);
-                    var18 = var10.Emitter;
-                    var10 = var18.batched;
+                    var10 = var17.guildId;
+                    var21 = _closure1_slot1;
+                    var22 = _closure1_slot2;
+                    var14 = 27;
+                    var14 = var22[var14];
+                    var14 = var21.bind(var8)(var14);
+                    var21 = var14.Emitter;
+                    var14 = var21.batched;
                     var9 = function() {
                         var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
@@ -642,7 +624,7 @@ case 42:
 case 0:
                                 var3 = _closure1_slot1;
                                 var2 = _closure1_slot2;
-                                var1 = 27;
+                                var1 = 28;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var3 = var3.bind(var1)(var2);
@@ -731,95 +713,122 @@ case 51:
                         var2 = var4.bind(var5)(var6, var3, var2);
                         return var1;
                     };
-                    var9 = var10.bind(var18)(var9);
-                    var10 = _closure1_slot18;
-                    var9 = var10.verbose;
-                    var19 = var5.JSON;
-                    var18 = var19.stringify;
-                    var42 = var18.bind(var19)(var20);
-                    var41 = var8 != var17;
-                    var18 = var8 == var17;
-                    var40 = undefined;
-                    if(var18) { _fun0004_ip = 52; continue _fun0004 }
+                    var9 = var14.bind(var21)(var9);
+                    var14 = _closure1_slot18;
+                    var9 = var14.verbose;
+                    var22 = var6.JSON;
+                    var21 = var22.stringify;
+                    var46 = var21.bind(var22)(var23);
+                    var45 = var5 != var20;
+                    var21 = var5 == var20;
+                    var44 = undefined;
+                    if(var21) { _fun0004_ip = 52; continue _fun0004 }
 case 53:
-                    var40 = var17.name;
+                    var44 = var20.name;
 case 52:
-                    var39 = var4.length;
-                    var38 = var14.guildId;
-                    var37 = var14.channelId;
-                    var17 = var14.messages;
-                    var36 = var17.length;
-                    var17 = var14.members;
-                    var35 = var17.length;
-                    var14 = var14.users;
-                    var34 = var14.length;
-                    var13 = var13.channels;
-                    var14 = var8 == var13;
-                    var33 = undefined;
-                    if(var14) { _fun0004_ip = 54; continue _fun0004 }
+                    var43 = var7.length;
+                    var42 = var18.guildId;
+                    var41 = var18.channelId;
+                    var20 = var18.messages;
+                    var40 = var20.length;
+                    var20 = var18.members;
+                    var39 = var20.length;
+                    var18 = var18.users;
+                    var38 = var18.length;
+                    var17 = var17.channels;
+                    var18 = var5 == var17;
+                    var37 = undefined;
+                    if(var18) { _fun0004_ip = 54; continue _fun0004 }
 case 55:
-                    var33 = var13.length;
+                    var37 = var17.length;
 case 54:
-                    var14 = var5.Object;
-                    var13 = var14.keys;
-                    var13 = var13.bind(var14)(var15);
-                    var50 = var13.length;
-                    var48 = var12.length;
-                    var46 = var11.length;
-                    var5 = var5.HermesInternal;
-                    var29 = var5.concat;
-                    var79 = 'early_cache_summary: (\n        ok: true\n        meta:\n          auth_user_id: ';
-                    var78 = arg2;
-                    var77 = '\n          selected_guild: ';
-                    var75 = '\n          selected_channel: ';
-                    var73 = '\n          navigation_state: ';
-                    var71 = '\n          database: ';
-                    var69 = '\n            name: ';
-                    var67 = '\n        data:\n          database:\n            private_channels: ';
-                    var65 = '\n            channel_history:\n              guild: ';
-                    var63 = '\n              channel: ';
-                    var61 = '\n              messages: ';
-                    var59 = '\n                members: ';
-                    var57 = '\n                users: ';
-                    var55 = '\n            initial_guild:\n              id: ';
-                    var53 = '\n              channels: ';
-                    var51 = '\n            user_settings: ';
-                    var49 = '\n            read_states: ';
-                    var47 = '\n            user_guild_settings: ';
-                    var45 = '\n      )';
-                    var76 = var44;
-                    var74 = var43;
-                    var72 = var42;
-                    var70 = var41;
-                    var68 = var40;
-                    var66 = var39;
-                    var64 = var38;
-                    var62 = var37;
-                    var60 = var36;
-                    var58 = var35;
-                    var56 = var34;
-                    var54 = var6;
-                    var52 = var33;
-                    var5 = var79[var29](var78, var77, var76, var75, var74, var73, var72, var71, var70, var69, var68, var67, var66, var65, var64, var63, var62, var61, var60, var59, var58, var57, var56, var55, var54, var53, var52, var51, var50, var49, var48, var47, var46, var45, var44);
-                    var5 = var9.bind(var10)(var5);
-                    var9 = _closure1_slot18;
-                    var5 = var9.verbose;
-                    var3 = 'finished dispatching CACHE_LOADED';
-                    var3 = var5.bind(var9)(var3);
-                    var3 = new Array(3);
-                    var5 = true;
-                    var3[0] = var5;
-                    var5 = null;
-                    if(!var7) { _fun0004_ip = 56; continue _fun0004 }
+                    var18 = var6.Object;
+                    var17 = var18.keys;
+                    var17 = var17.bind(var18)(var19);
+                    var54 = var17.length;
+                    var52 = var16.length;
+                    var50 = var15.length;
+                    var6 = var6.HermesInternal;
+                    var33 = var6.concat;
+                    var83 = 'early_cache_summary: (\n        ok: true\n        meta:\n          auth_user_id: ';
+                    var82 = arg2;
+                    var81 = '\n          selected_guild: ';
+                    var79 = '\n          selected_channel: ';
+                    var77 = '\n          navigation_state: ';
+                    var75 = '\n          database: ';
+                    var73 = '\n            name: ';
+                    var71 = '\n        data:\n          database:\n            private_channels: ';
+                    var69 = '\n            channel_history:\n              guild: ';
+                    var67 = '\n              channel: ';
+                    var65 = '\n              messages: ';
+                    var63 = '\n                members: ';
+                    var61 = '\n                users: ';
+                    var59 = '\n            initial_guild:\n              id: ';
+                    var57 = '\n              channels: ';
+                    var55 = '\n            user_settings: ';
+                    var53 = '\n            read_states: ';
+                    var51 = '\n            user_guild_settings: ';
+                    var49 = '\n      )';
+                    var80 = var48;
+                    var78 = var47;
+                    var76 = var46;
+                    var74 = var45;
+                    var72 = var44;
+                    var70 = var43;
+                    var68 = var42;
+                    var66 = var41;
+                    var64 = var40;
+                    var62 = var39;
+                    var60 = var38;
+                    var58 = var10;
+                    var56 = var37;
+                    var6 = var83[var33](var82, var81, var80, var79, var78, var77, var76, var75, var74, var73, var72, var71, var70, var69, var68, var67, var66, var65, var64, var63, var62, var61, var60, var59, var58, var57, var56, var55, var54, var53, var52, var51, var50, var49, var48);
+                    var6 = var9.bind(var14)(var6);
+                    var9 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var12];
+                    var12 = var9.bind(var8)(var6);
+                    var9 = var12.setEarlyCacheInfo;
+                    var6 = {};
+                    var13 = var13.length;
+                    var6['guilds'] = var13;
+                    var6 = var9.bind(var12)(var6);
+                    var12 = _closure1_slot18;
+                    var9 = var12.verbose;
+                    var6 = 'finished dispatching CACHE_LOADED';
+                    var6 = var9.bind(var12)(var6);
+                    var6 = new Array(3);
+                    var9 = true;
+                    var6[0] = var9;
+                    var9 = null;
+                    if(!var11) { _fun0004_ip = 56; continue _fun0004 }
 case 57:
-                    var7 = var8 != var6;
-                    var5 = null;
-                    if(!var7) { _fun0004_ip = 56; continue _fun0004 }
+                    var11 = var5 != var10;
+                    var9 = null;
+                    if(!var11) { _fun0004_ip = 56; continue _fun0004 }
 case 58:
-                    var5 = var6;
+                    var9 = var10;
 case 56:
+                    var6[1] = var9;
+                    var7 = var7.length;
+                    var6[2] = var7;
+                    return var6;
+case 40:
+                    var7 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var6 = 26;
+                    var6 = var9[var6];
+                    var7 = var7.bind(var8)(var6);
+                    var6 = 'database:history_cache_null';
+                    var6 = var7.bind(var8)(var6);
+                    var7 = _closure1_slot18;
+                    var6 = var7.verbose;
+                    var3 = 'finished without dispatching CACHE_LOADED';
+                    var3 = var6.bind(var7)(var3);
+                    var3 = new Array(3);
+                    var6 = false;
+                    var3[0] = var6;
                     var3[1] = var5;
-                    var4 = var4.length;
                     var3[2] = var4;
                     return var3;
 case 38:
@@ -1641,7 +1650,7 @@ case 71:
                             var5 = function() {
                                 var3 = _closure1_slot1;
                                 var2 = _closure1_slot2;
-                                var1 = 27;
+                                var1 = 28;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var3 = var3.bind(var1)(var2);
@@ -1856,7 +1865,7 @@ case 145:
                             var4 = _closure1_slot2;
                             var4 = var4[var6];
                             var6 = var5.bind(var3)(var4);
-                            var5 = var6.setCacheInfo;
+                            var5 = var6.setLazyCacheInfo;
                             var4 = {};
                             var13 = _closure4_slot5;
                             var13 = var13.length;
@@ -1872,7 +1881,7 @@ case 145:
 case 135:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var3 = 28;
+                            var3 = 26;
                             var6 = var5[var3];
                             var3 = undefined;
                             var9 = var4.bind(var3)(var6);
@@ -1882,7 +1891,7 @@ case 135:
                             var6 = var9.log;
                             var2 = 'Skipping lazy cache; already connected.';
                             var2 = var6.bind(var9)(var2);
-                            var2 = 27;
+                            var2 = 28;
                             var2 = var5[var2];
                             var4 = var4.bind(var3)(var2);
                             var3 = var4.dispatch;
@@ -1895,7 +1904,7 @@ case 135:
 case 134:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var3 = 28;
+                            var3 = 26;
                             var6 = var5[var3];
                             var3 = undefined;
                             var9 = var4.bind(var3)(var6);
@@ -1905,7 +1914,7 @@ case 134:
                             var6 = var9.log;
                             var2 = 'kv_cache was not ok (null version with values)';
                             var2 = var6.bind(var9)(var2);
-                            var2 = 27;
+                            var2 = 28;
                             var6 = var5[var2];
                             var10 = var4.bind(var3)(var6);
                             var9 = var10.dispatch;
@@ -1923,7 +1932,7 @@ case 134:
 case 130:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var2 = 28;
+                            var2 = 26;
                             var6 = var4[var2];
                             var2 = undefined;
                             var9 = var3.bind(var2)(var6);
@@ -1948,7 +1957,7 @@ case 130:
                             var58 = '\n        )';
                             var1 = var66[var11](var65, var64, var63, var62, var61, var60, var59, var58, var57);
                             var1 = var5.bind(var6)(var1);
-                            var1 = 27;
+                            var1 = 28;
                             var5 = var4[var1];
                             var7 = var3.bind(var2)(var5);
                             var6 = var7.dispatch;
@@ -1966,13 +1975,13 @@ case 130:
 case 128:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var1 = 28;
+                            var1 = 26;
                             var1 = var4[var1];
                             var2 = undefined;
                             var5 = var3.bind(var2)(var1);
                             var1 = 'database:not_ok';
                             var1 = var5.bind(var2)(var1);
-                            var1 = 27;
+                            var1 = 28;
                             var5 = var4[var1];
                             var7 = var3.bind(var2)(var5);
                             var6 = var7.dispatch;
@@ -2024,7 +2033,7 @@ case 0:
             var _closure2_slot2 = var1;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 26;
+            var1 = 27;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var5.bind(var1)(var4);
@@ -2105,7 +2114,7 @@ case 79: // catch_target0 // catch_target1
                     var2 = var3.bind(var4)(var2, var5);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 27;
+                    var1 = 28;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -2225,7 +2234,7 @@ case 149:
     var _closure1_slot23 = var9;
     var _closure1_slot24 = var9;
     var _closure1_slot25 = var9;
-    var9 = 26;
+    var9 = 27;
     var9 = var7[var9];
     var9 = var8.bind(var1)(var9);
     var11 = var9.Store;
@@ -2382,11 +2391,11 @@ case 156:
                 _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                     StartGenerator();
+                    var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
                     if(var4) { _fun0022_ip = 160; continue _fun0022 }
-case 104:
-                    var4 = arg1;
-                    var _closure4_slot0 = var4;
+case 161:
+                    var _closure4_slot0 = var6;
                     var5 = undefined;
                     var3 = undefined;
                     var9 = undefined;
@@ -2395,34 +2404,40 @@ case 104:
                     var _closure4_slot2 = var5;
                     var8 = undefined;
                     var7 = undefined;
-                    var11 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var6 = 38;
-                    var6 = var12[var6];
-                    var12 = var11.bind(var5)(var6);
-                    var11 = var12.callOnce;
-                    var6 = arg2;
-                    var3 = var11.bind(var12)(var6);
+                    var13 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var12 = 38;
+                    var12 = var11[var12];
+                    var14 = var13.bind(var5)(var12);
+                    var13 = var14.callOnce;
+                    var12 = arg2;
+                    var3 = var13.bind(var14)(var12);
+                    var13 = _closure1_slot1;
+                    var12 = 17;
+                    var11 = var11[var12];
+                    var13 = var13.bind(var5)(var11);
+                    var11 = var13.setInitialPage;
+                    var6 = var6.page;
+                    var6 = var11.bind(var13)(var6);
                     var11 = _closure1_slot20;
                     var6 = 'initializing';
-                    if(!(var6 === var11)) { _fun0022_ip = 161; continue _fun0022 }
+                    if(!(var6 === var11)) { _fun0022_ip = 113; continue _fun0022 }
 case 162: // try_start_0
                     var11 = _closure1_slot11;
                     var6 = var11.getId;
-                    var14 = var6.bind(var11)();
-                    var9 = var14;
-                    _closure4_slot1 = var14;
+                    var15 = var6.bind(var11)();
+                    var9 = var15;
+                    _closure4_slot1 = var15;
                     var11 = _closure1_slot1;
-                    var12 = _closure1_slot2;
-                    var6 = 39;
-                    var6 = var12[var6];
-                    var13 = var11.bind(var5)(var6);
-                    var6 = var13.carefullyOpenDatabase;
-                    var6 = var6.bind(var13)(var14);
-                    var10 = var6;
-                    _closure4_slot2 = var6;
-                    var6 = 17;
-                    var6 = var12[var6];
+                    var6 = _closure1_slot2;
+                    var13 = 39;
+                    var13 = var6[var13];
+                    var14 = var11.bind(var5)(var13);
+                    var13 = var14.carefullyOpenDatabase;
+                    var13 = var13.bind(var14)(var15);
+                    var10 = var13;
+                    _closure4_slot2 = var13;
+                    var6 = var6[var12];
                     var6 = var11.bind(var5)(var6);
                     var12 = var6.loadMiniCache;
                     var11 = var12.measureAsync;
@@ -2445,13 +2460,13 @@ case 162: // try_start_0
                         return var1;
                     };
                     var6 = var11.bind(var12)(var6);
-                    SaveGenerator(address=190);
+                    SaveGenerator(address=220);
 case 163:
                     return var6;
 case 164:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=10);
-                    if(var11) { _fun0022_ip = 165; continue _fun0022 }
-case 166:
+                    if(var11) { _fun0022_ip = 88; continue _fun0022 }
+case 165:
                     var12 = _closure1_slot3;
                     var11 = 3;
                     var13 = var12.bind(var5)(var6, var11);
@@ -2463,15 +2478,15 @@ case 166:
                     var7 = var13[var12];
                     var12 = var3;
                     var12 = var12.bind(var5)();
-                    if(var11) { _fun0022_ip = 167; continue _fun0022 }
-case 168:
+                    if(var11) { _fun0022_ip = 122; continue _fun0022 }
+case 166:
                     var11 = function dontLoadLateLazyCache() {
                         var3 = _closure1_slot32;
                         var2 = undefined;
                         var1 = function() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 27;
+                            var1 = 28;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -2490,19 +2505,19 @@ case 168:
                         return var1;
                     };
                     var11 = var11.bind(var5)();
-                    SaveGenerator(address=252);
-case 169:
+                    SaveGenerator(address=282);
+case 167:
                     return var11;
-case 170:
+case 168:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(!var12) { _fun0022_ip = 171; continue _fun0022 }
-case 172: // try_end0
+                    if(!var12) { _fun0022_ip = 169; continue _fun0022 }
+case 170: // try_end0
                     return var11;
-case 167: // try_start_1
-                    var18 = var10;
-                    var17 = var9;
-                    var16 = var8;
-                    var15 = var7;
+case 122: // try_start_1
+                    var19 = var10;
+                    var18 = var9;
+                    var17 = var8;
+                    var16 = var7;
                     var7 = function loadLateLazyCache() {
                         var1 = undefined;
                         var4 = _closure1_slot31;
@@ -2513,21 +2528,21 @@ case 167: // try_start_1
                         var1 = var3.bind(var4)(var1, var2);
                         return var1;
                     };
-                    var19 = undefined;
-                    var7 = var19[var7](var18, var17, var16, var15, var14);
-                    SaveGenerator(address=288);
-case 91:
+                    var20 = undefined;
+                    var7 = var20[var7](var19, var18, var17, var16, var15);
+                    SaveGenerator(address=318);
+case 171:
                     return var7;
-case 173:
+case 172:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0022_ip = 174; continue _fun0022 }
-case 171: // try_end1
-                    _fun0022_ip = 175; continue _fun0022;
-case 174:
+                    if(var8) { _fun0022_ip = 173; continue _fun0022 }
+case 169: // try_end1
+                    _fun0022_ip = 120; continue _fun0022;
+case 173:
                     return var7;
-case 165:
+case 88:
                     return var6;
-case 176: // catch_target0 // catch_target1
+case 86: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=9);
                     var9 = _closure1_slot18;
                     var8 = var9.error;
@@ -2536,14 +2551,14 @@ case 176: // catch_target0 // catch_target1
                     var6 = var8.bind(var9)(var6, var10, var7);
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var6 = 28;
+                    var6 = 26;
                     var6 = var8[var6];
                     var9 = var7.bind(var5)(var6);
                     var6 = 'cache:exception';
                     var6 = var9.bind(var5)(var6);
                     var6 = var3;
                     var6 = var6.bind(var5)();
-                    var6 = 27;
+                    var6 = 28;
                     var6 = var8[var6];
                     var8 = var7.bind(var5)(var6);
                     var7 = var8.dispatch;
@@ -2556,12 +2571,12 @@ case 176: // catch_target0 // catch_target1
                     var9['action'] = var10;
                     var6['args'] = var9;
                     var6 = var7.bind(var8)(var6);
-case 175:
+case 120:
                     return var5;
-case 161:
+case 113:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 28;
+                    var4 = 26;
                     var4 = var7[var4];
                     var6 = var6.bind(var5)(var4);
                     var4 = 'cache:lazy_cache_not_initializing';
@@ -2579,7 +2594,7 @@ case 0:
                             var5 = var2 == var3;
                             var1 = undefined;
                             if(var5) { _fun0023_ip = 63; continue _fun0023 }
-case 177:
+case 174:
                             var3 = var3.dispatcher;
                             var2 = var2 == var3;
                             var1 = undefined;
@@ -2620,7 +2635,7 @@ case 160:
     };
     var9 = var9.bind(var1)(var11);
     var9['displayName'] = var4;
-    var4 = 27;
+    var4 = 28;
     var4 = var7[var4];
     var15 = var8.bind(var1)(var4);
     var4 = {};

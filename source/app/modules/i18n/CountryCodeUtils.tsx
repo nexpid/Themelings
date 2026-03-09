@@ -4457,18 +4457,34 @@ case 2:
         return var1;
     };
     var3['getI18NCountryName'] = var4;
-    var2 = function convertToAlpha2(arg1) {
+    var4 = function getI18NCountryNameSafe(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var2 = _closure1_slot3;
+            var3 = var2[var1];
+            var2 = null;
+            if(!(var2 != var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
+            var2 = undefined;
+            var1 = var3.bind(var2)();
+case 4:
+            return var1;
+        }
+    };
+    var3['getI18NCountryNameSafe'] = var4;
+    var2 = function convertToAlpha2(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
             var2 = var4.length;
             var1 = 2;
-            if(!(var1 !== var2)) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
+            if(!(var1 !== var2)) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
             var2 = var4.length;
             var1 = 3;
-            if(!(var1 === var2)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+            if(!(var1 === var2)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 4;
@@ -4478,10 +4494,10 @@ case 7:
             var1 = var1.CountryCodesISO3to2;
             var1 = var1[var4];
             var2 = null;
-            if(!(var2 != var1)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+            if(!(var2 != var1)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
             return var1;
-case 8:
+case 10:
             var1 = global;
             var3 = var1.Error;
             var1 = var1.HermesInternal;
@@ -4495,7 +4511,7 @@ case 8:
             var1 = new var10[var3](var9, var8);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
-case 6:
+case 8:
             var1 = global;
             var3 = var1.Error;
             var6 = var4.length;
@@ -4510,7 +4526,7 @@ case 6:
             var1 = new var10[var3](var9, var8);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
-case 4:
+case 6:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -4520,10 +4536,10 @@ case 4:
             var1 = var1.CountryCodes;
             var1 = var1[var4];
             var2 = null;
-            if(!(var2 != var1)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(!(var2 != var1)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
             return var1;
-case 10:
+case 12:
             var1 = global;
             var3 = var1.Error;
             var1 = var1.HermesInternal;

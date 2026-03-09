@@ -365,18 +365,17 @@ case 0:
             var13 = var3.bind(var4)();
             var3 = var10.isGuildStageVoice;
             var3 = var3.bind(var10)();
-            var7 = var9;
             if(!var3) { _fun0006_ip = 23; continue _fun0006 }
 case 24:
-            var7 = var2;
+            var9 = var2;
 case 23:
-            var3 = var7.map;
+            var3 = var9.map;
             var2 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.user;
                 return var1;
             };
-            var8 = var3.bind(var7)(var2);
+            var8 = var3.bind(var9)(var2);
             var7 = _closure1_slot3;
             var3 = var7.useCallback;
             var12 = var10.id;
@@ -400,6 +399,7 @@ case 23:
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['onPress'] = var7;
+            var1['voiceStates'] = var9;
             var1['channel'] = var10;
             var12 = _closure1_slot7;
             var11 = _closure1_slot9;

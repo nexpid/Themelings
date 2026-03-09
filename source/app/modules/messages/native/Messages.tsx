@@ -4262,14 +4262,6 @@ case 203:
                     return var1;
                 };
                 var1['handleTapDismissMediaPostSharePrompt'] = var3;
-                var3 = function handleTapChannelPromptButton(arg1) {
-                    var3 = _closure2_slot137;
-                    var2 = var3.handleTapChannelPromptButton;
-                    var1 = arg1;
-                    var1 = var2.bind(var3)(var1);
-                    return var1;
-                };
-                var1['handleTapChannelPromptButton'] = var3;
                 var3 = function handleTapObscuredMediaLearnMore(arg1) {
                     var3 = _closure2_slot137;
                     var2 = var3.handleTapObscuredMediaLearnMore;
@@ -9000,8 +8992,6 @@ case 390:
             var5['onTapPostPreviewEmbed'] = var18;
             var18 = var17.handleTapDismissMediaPostSharePrompt;
             var5['onTapDismissMediaPostSharePrompt'] = var18;
-            var18 = var17.handleTapChannelPromptButton;
-            var5['onTapChannelPromptButton'] = var18;
             var18 = var17.handleTapObscuredMediaLearnMore;
             var5['onTapObscuredMediaLearnMore'] = var18;
             var18 = var17.handleTapObscuredMediaToggle;

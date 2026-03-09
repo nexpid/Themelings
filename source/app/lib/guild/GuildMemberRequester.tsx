@@ -383,26 +383,27 @@ case 0:
                 var4 = function(arg1, arg2) {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                        var2 = arg2;
-                        var1 = var2.requestUnacknowledged;
-                        var3 = var1.bind(var2)();
+                        var2 = arg1;
+                        var3 = arg2;
+                        var1 = var3.requestUnacknowledged;
+                        var3 = var1.bind(var3)();
                         var1 = false;
                         var1 = var1 !== var3;
-                        if(var1) { _fun0008_ip = 21; continue _fun0008 }
-case 22:
-                        var1 = var2;
+                        if(var1) { _fun0008_ip = 11; continue _fun0008 }
 case 21:
+                        var1 = var2;
+case 11:
                         return var1;
                     }
                 };
                 var3 = false;
                 var3 = var6.bind(var7)(var5, var4, var3);
-                if(!var3) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
+                if(!var3) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
                 var3 = var2._flush;
                 var2 = var3.delay;
                 var2 = var2.bind(var3)();
-case 23:
+case 22:
                 return var1;
             }
         };
@@ -419,8 +420,8 @@ case 0:
                 var1 = var2._guildStates;
                 var1 = var1[var4];
                 var3 = null;
-                if(!(var3 == var1)) { _fun0009_ip = 25; continue _fun0009 }
-case 22:
+                if(!(var3 == var1)) { _fun0009_ip = 24; continue _fun0009 }
+case 25:
                 var3 = var2._guildStates;
                 var6 = _closure1_slot5;
                 var7 = var2._guildMemberExists;
@@ -432,7 +433,7 @@ case 22:
                 var2 = var2 instanceof Object ? var2 : var5;
                 var3[var4] = var2;
                 var1 = var2;
-case 25:
+case 24:
                 return var1;
             }
         };

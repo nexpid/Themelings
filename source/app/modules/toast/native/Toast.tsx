@@ -221,28 +221,58 @@ case 17:
     var2 = function Toast(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var1 = arg1;
-            var14 = var1.icon;
-            var13 = var1.iconColor;
-            var12 = var1.IconComponent;
-            var10 = var1.content;
-            var7 = var1.containerStyle;
-            var11 = var1.recolorLegacyIcon;
-            var1 = _closure1_slot9;
+            var2 = arg1;
+            var14 = var2.icon;
+            var13 = var2.iconColor;
+            var12 = var2.IconComponent;
+            var10 = var2.content;
+            var7 = var2.containerStyle;
+            var11 = var2.recolorLegacyIcon;
+            var2 = _closure1_slot9;
             var4 = undefined;
-            var15 = var1.bind(var4)();
-            var3 = _closure1_slot4;
-            var2 = var3.useState;
-            var1 = false;
-            var3 = var2.bind(var3)(var1);
-            var2 = _closure1_slot3;
-            var1 = 2;
-            var2 = var2.bind(var4)(var3, var1);
-            var1 = 0;
-            var16 = var2[var1];
-            var1 = 1;
-            var1 = var2[var1];
-            var _closure2_slot0 = var1;
+            var15 = var2.bind(var4)();
+            var5 = _closure1_slot4;
+            var2 = var5.useState;
+            var3 = false;
+            var9 = var2.bind(var5)(var3);
+            var8 = _closure1_slot3;
+            var2 = 2;
+            var8 = var8.bind(var4)(var9, var2);
+            var2 = 0;
+            var16 = var8[var2];
+            var2 = 1;
+            var2 = var8[var2];
+            var _closure2_slot0 = var2;
+            var2 = var5.useRef;
+            var2 = var2.bind(var5)(var3);
+            var _closure2_slot1 = var2;
+            var3 = var5.useCallback;
+            var2 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var2 = _closure2_slot1;
+                    var2 = var2.current;
+                    if(var2) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+                    var3 = _closure2_slot1;
+                    var2 = true;
+                    var3['current'] = var2;
+                    var3 = _closure2_slot0;
+                    var1 = arg1;
+                    var1 = var1.nativeEvent;
+                    var1 = var1.lines;
+                    var2 = var1.length;
+                    var1 = 1;
+                    var2 = var2 > var1;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+case 18:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = new Array(0);
+            var9 = var3.bind(var5)(var2, var1);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
@@ -250,10 +280,10 @@ case 0:
             var5 = new Array(3);
             var5[0] = var8;
             var8 = null;
-            if(!var16) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+            if(!var16) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var8 = var15.multilineContainer;
-case 18:
+case 20:
             var5[1] = var8;
             var5[2] = var7;
             var1['style'] = var5;
@@ -273,18 +303,6 @@ case 18:
             var7 = _closure1_slot11;
             var6 = {};
             var6['content'] = var10;
-            var9 = function onTextLayout(arg1) {
-                var3 = _closure2_slot0;
-                var1 = arg1;
-                var1 = var1.nativeEvent;
-                var1 = var1.lines;
-                var2 = var1.length;
-                var1 = 1;
-                var2 = var2 > var1;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                return var1;
-            };
             var6['onTextLayout'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

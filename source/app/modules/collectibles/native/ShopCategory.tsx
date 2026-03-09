@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = _closure1_slot5;
         var2 = {};
         var1 = {};
-        var5 = 10;
+        var5 = 12;
         var1['width'] = var5;
         var2['style'] = var1;
         var1 = undefined;
@@ -169,8 +169,8 @@ case 0:
             var8 = var9.products;
             var5 = var9.unpublishedAt;
             var _closure2_slot3 = var5;
-            var17 = 10;
-            var5 = var2[var17];
+            var5 = 10;
+            var5 = var2[var5];
             var7 = var3.bind(var4)(var5);
             var6 = var7.useFilteredAndSortedProducts;
             var5 = {};
@@ -196,23 +196,23 @@ case 0:
             var5 = var10.useRef;
             var8 = null;
             var22 = var5.bind(var10)(var8);
-            var10 = 12;
-            var2 = var2[var10];
+            var17 = 12;
+            var2 = var2[var17];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useScrollToInitialIndexOnce;
             var2 = {};
-            var11 = var8 != var13;
-            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+            var10 = var8 != var13;
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var12 = 0;
-            var11 = var13 > var12;
+            var11 = 0;
+            var10 = var13 > var11;
 case 2:
-            var2['shouldScroll'] = var11;
+            var2['shouldScroll'] = var10;
             var2['initialScrollIndex'] = var13;
             var2['flashListRef'] = var22;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var10 = var12[var10];
+            var10 = var12[var17];
             var10 = var11.bind(var4)(var10);
             var10 = var10.INITIAL_SCROLL_DELAY_MS;
             var2['afterMs'] = var10;
@@ -467,7 +467,14 @@ case 14:
                 return var1;
             };
             var10['renderItem'] = var15;
+            var15 = 'fast';
+            var10['decelerationRate'] = var15;
             var15 = 5;
+            var20 = var19[var15];
+            var20 = var18.bind(var4)(var20);
+            var20 = var20.COLLECTIBLES_SHOP_CARD_WIDTH;
+            var20 = var20 + var17;
+            var10['snapToInterval'] = var20;
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.COLLECTIBLES_SHOP_CARD_WIDTH;

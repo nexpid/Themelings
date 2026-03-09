@@ -53,44 +53,52 @@ case 0:
             var1 = var2.useShopOrientationLock;
             var1 = var1.bind(var2)();
             var1 = var6.params;
-            var8 = null;
-            var2 = var8 == var1;
-            var5 = undefined;
+            var5 = null;
+            var2 = var5 == var1;
+            var7 = undefined;
             if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = var1.screen;
+            var7 = var1.screen;
 case 2:
-            if(!(var8 == var5)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var5 == var7)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var1 = _closure1_slot3;
-            var5 = var1.FEATURED_PAGE;
+            var7 = var1.FEATURED_PAGE;
 case 4:
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var1 = 5;
-            var1 = var9[var1];
+            var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.CollectiblesShopV2;
             var1 = {};
-            var9 = var6.params;
-            var10 = var8 == var9;
-            var6 = undefined;
-            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+            var10 = var6.params;
+            var11 = var5 == var10;
+            var8 = undefined;
+            if(var11) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var6 = var9.analyticsSource;
+            var8 = var10.analyticsSource;
 case 6:
-            if(!(var8 == var6)) { _fun0001_ip = 8; continue _fun0001 }
+            if(!(var5 == var8)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var8 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var7 = 6;
-            var7 = var9[var7];
-            var7 = var8.bind(var4)(var7);
-            var6 = var7.COLLECTIBLES_SHOP;
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var9 = 6;
+            var9 = var11[var9];
+            var9 = var10.bind(var4)(var9);
+            var8 = var9.COLLECTIBLES_SHOP;
 case 8:
-            var1['analyticsSource'] = var6;
-            var1['screen'] = var5;
+            var1['analyticsSource'] = var8;
+            var1['screen'] = var7;
+            var6 = var6.params;
+            var7 = var5 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var5 = var6.onNavigateAway;
+case 10:
+            var1['onNavigateAway'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

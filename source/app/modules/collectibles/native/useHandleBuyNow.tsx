@@ -60,22 +60,15 @@ case 0:
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                        var8 = _closure1_slot0;
-                        var9 = _closure1_slot2;
+                        var5 = _closure1_slot0;
+                        var3 = _closure1_slot2;
                         var2 = 5;
-                        var2 = var9[var2];
+                        var2 = var3[var2];
                         var3 = undefined;
-                        var6 = var8.bind(var3)(var2);
-                        var5 = var6.fetchCollectiblesPurchases;
-                        var2 = {};
-                        var7 = 6;
-                        var7 = var9[var7];
-                        var7 = var8.bind(var3)(var7);
-                        var7 = var7.ShopVariantsReturnStyle;
-                        var7 = var7.VARIANTS_GROUP;
-                        var2['variantsReturnStyle'] = var7;
-                        var2 = var5.bind(var6)(var2);
-                        SaveGenerator(address=81);
+                        var5 = var5.bind(var3)(var2);
+                        var2 = var5.fetchCollectiblesPurchases;
+                        var2 = var2.bind(var5)();
+                        SaveGenerator(address=49);
 case 4:
                         return var2;
 case 5:
@@ -87,12 +80,12 @@ case 7:
                         var5 = var6.bind(var3)(var5);
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var4 = 7;
+                        var4 = 6;
                         var4 = var6[var4];
                         var8 = var5.bind(var3)(var4);
                         var4 = var8.hideActionSheet;
                         var4 = var4.bind(var8)();
-                        var4 = 8;
+                        var4 = 7;
                         var4 = var6[var4];
                         var6 = var5.bind(var3)(var4);
                         var5 = var6.open;
@@ -206,7 +199,7 @@ case 13: // try_end0
                     return var2;
 case 9:
                     _fun0002_ip = 16; continue _fun0002;
-case 4: // catch_target0
+case 17: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var3 = _closure2_slot3;
                     var4 = undefined;
@@ -225,7 +218,7 @@ case 4: // catch_target0
                     var3 = var6.bind(var8)(var3);
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 8;
                     var2 = var6[var2];
                     var4 = var3.bind(var4)(var2);
                     var3 = var4.captureBillingException;
@@ -259,7 +252,7 @@ case 8:
         var1['isBuying'] = var2;
         return var1;
     };
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

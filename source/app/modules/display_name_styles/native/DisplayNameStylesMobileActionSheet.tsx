@@ -433,22 +433,14 @@ case 19:
             _fun0001_ip = 20; continue _fun0001;
 case 18:
             var28 = _closure1_slot1;
-            var23 = _closure1_slot2;
+            var29 = _closure1_slot2;
             var19 = 21;
-            var19 = var23[var19];
+            var19 = var29[var19];
             var23 = var28.bind(var4)(var19);
             var19 = {};
             var26 = {};
-            var30 = _closure1_slot2;
-            if(var25) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
             var27 = 24;
-            var27 = var30[var27];
-            _fun0001_ip = 23; continue _fun0001;
-case 21:
-            var29 = 22;
-            var27 = var30[var29];
-case 23:
+            var27 = var29[var27];
             var27 = var28.bind(var4)(var27);
             var26['uri'] = var27;
             var19['source'] = var26;
@@ -480,10 +472,10 @@ case 16:
             var15['style'] = var13;
             var19 = 'black';
             var13 = var19;
-            if(!var21) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+            if(!var21) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var13 = 'white';
-case 24:
+case 21:
             var15['color'] = var13;
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -510,10 +502,10 @@ case 24:
             var13['variant'] = var23;
             var23 = var17.subtitle;
             var13['style'] = var23;
-            if(!var21) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+            if(!var21) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var19 = 'white';
-case 26:
+case 23:
             var13['color'] = var19;
             var24 = _closure1_slot0;
             var21 = _closure1_slot2;

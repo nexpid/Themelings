@@ -528,10 +528,6 @@ case 66:
             var2 = {};
             var2['ref'] = var21;
             var24 = 'done';
-            if(!var22) { _fun0001_ip = 67; continue _fun0001 }
-case 68:
-            var24 = 'default';
-case 67:
             var2['returnKeyType'] = var24;
             var2['onChange'] = var20;
             var2['keyboardAppearance'] = var19;
@@ -549,14 +545,14 @@ case 67:
             var2['onEndEditing'] = var24;
             var25 = var8 != var9;
             var24 = undefined;
-            if(!var25) { _fun0001_ip = 69; continue _fun0001 }
-case 70:
+            if(!var25) { _fun0001_ip = 67; continue _fun0001 }
+case 68:
             var24 = var9;
-case 69:
+case 67:
             var2['value'] = var24;
             var2['errorMessage'] = var7;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0001_ip = 71; continue _fun0001;
+            _fun0001_ip = 69; continue _fun0001;
 case 65:
             var3 = 9;
             var3 = var23[var3];
@@ -565,10 +561,10 @@ case 65:
             var3 = {};
             var3['ref'] = var21;
             var21 = 'done';
-            if(!var22) { _fun0001_ip = 72; continue _fun0001 }
-case 73:
+            if(!var22) { _fun0001_ip = 70; continue _fun0001 }
+case 71:
             var21 = 'default';
-case 72:
+case 70:
             var3['returnKeyType'] = var21;
             var3['onChange'] = var20;
             var3['keyboardAppearance'] = var19;
@@ -588,14 +584,14 @@ case 72:
             var3['onEndEditing'] = var10;
             var10 = var8 != var9;
             var8 = undefined;
-            if(!var10) { _fun0001_ip = 74; continue _fun0001 }
-case 75:
+            if(!var10) { _fun0001_ip = 72; continue _fun0001 }
+case 73:
             var8 = var9;
-case 74:
+case 72:
             var3['value'] = var8;
             var3['errorMessage'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 71:
+case 69:
             var1 = var2;
 case 64:
             return var1;
