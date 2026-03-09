@@ -1438,7 +1438,7 @@
 { "file": "app/modules/app_database/managers/native/KvBackgroundManager.tsx", "size": 47165 }
 { "file": "app/modules/app_database/modules/Channels.tsx", "size": 27623 }
 { "file": "app/modules/app_database/modules/channels/ChannelReader.tsx", "size": 10507 }
-{ "file": "app/modules/app_database/modules/GuildBasicChannels.tsx", "size": 61017 }
+{ "file": "app/modules/app_database/modules/GuildBasicChannels.tsx", "size": 61019 }
 { "file": "app/modules/app_database/modules/GuildEmojis.tsx", "size": 23920 }
 { "file": "app/modules/app_database/modules/Guilds.tsx", "size": 37827 }
 { "file": "app/modules/app_database/modules/GuildsRequiringChannelSync.tsx", "size": 44840 }
