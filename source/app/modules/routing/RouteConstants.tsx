@@ -1192,6 +1192,16 @@ case 48:
             return var1;
         };
         var2['COLLECTIBLES_SHOP_WITH_TAB'] = var16;
+        var16 = function COLLECTIBLES_SHOP_COLLECTION_DETAIL(arg1) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var2 = '/shop/collection/';
+            var1 = arg1;
+            var1 = var3.bind(var2)(var1);
+            return var1;
+        };
+        var2['COLLECTIBLES_SHOP_COLLECTION_DETAIL'] = var16;
         var16 = function COLLECTIBLES_SHOP_PRODUCT_DETAIL(arg1) {
             var1 = global;
             var1 = var1.HermesInternal;

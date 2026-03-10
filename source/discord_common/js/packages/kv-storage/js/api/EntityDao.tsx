@@ -478,7 +478,7 @@ case 6:
             }
         };
         var1['value'] = var3;
-        var3 = new Array(4);
+        var3 = new Array(5);
         var3[0] = var1;
         var1 = {};
         var6 = 'putAll';
@@ -563,6 +563,21 @@ case 12:
         };
         var1['value'] = var6;
         var3[3] = var1;
+        var1 = {};
+        var6 = 'deleteAllExcept';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var1 = this;
+            var4 = var1.transaction;
+            var3 = var4.deleteAllExcept;
+            var2 = new Array(0);
+            var1 = arg1;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var6;
+        var3[4] = var1;
         var1 = {};
         var6 = 'fromDatabaseTransaction';
         var1['key'] = var6;

@@ -1375,15 +1375,16 @@ case 0:
                     var2['onPress'] = var6;
                     var6 = _closure2_slot1;
                     var2['size'] = var6;
-                    var6 = var1.isOwned;
-                    if(var6) { _fun0010_ip = 74; continue _fun0010 }
+                    var8 = _closure2_slot7;
+                    var6 = null;
+                    var8 = var6 == var8;
+                    var6 = undefined;
+                    if(var8) { _fun0010_ip = 74; continue _fun0010 }
 case 75:
-                    var9 = _closure2_slot10;
-                    var8 = var9.has;
-                    var7 = var1.skuId;
-                    var6 = var8.bind(var9)(var7);
+                    var7 = _closure2_slot7;
+                    var6 = var7.id;
 case 74:
-                    var2['isOwned'] = var6;
+                    var2['wishlistOwnerId'] = var6;
                     var1 = var1.skuId;
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;

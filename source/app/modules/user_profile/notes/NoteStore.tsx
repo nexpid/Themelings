@@ -162,6 +162,13 @@ case 8:
     var4 = 'NoteStore';
     var8['displayName'] = var4;
     var7 = {};
+    var4 = function RESET_SOCKET(arg1, arg2) {
+        var2 = arg2;
+        var1 = var2.clear;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var7['RESET_SOCKET'] = var4;
     var4 = function CONNECTION_OPEN(arg1, arg2) {
         var2 = arg2;
         var1 = var2.clear;

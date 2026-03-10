@@ -359,12 +359,36 @@ case 36:
         var7 = function value(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
+                var2 = arg1;
                 var6 = arg2;
                 var5 = this;
-                var3 = _closure1_slot6;
-                var1 = arg1;
-                var2 = var1.guilds;
+                var4 = var2.guilds;
+                var3 = var4.map;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.id;
+                    return var1;
+                };
+                var10 = var3.bind(var4)(var1);
+                var8 = new Array(0);
+                var9 = 0;
+                var11 = var8;
+                var9 = arraySpread(var11, var10, var9);
+                var10 = var2.unavailableGuilds;
+                var11 = var8;
+                var1 = arraySpread(var11, var10, var9);
+                var7 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var1 = 4;
+                var4 = var4[var1];
                 var1 = undefined;
+                var7 = var7.bind(var1)(var4);
+                var4 = var7.emojisTransaction;
+                var7 = var4.bind(var7)(var6);
+                var4 = var7.deleteAllExcept;
+                var4 = var4.bind(var7)(var8);
+                var3 = _closure1_slot6;
+                var2 = var2.guilds;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;

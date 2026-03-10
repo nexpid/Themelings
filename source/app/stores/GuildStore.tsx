@@ -534,6 +534,14 @@ case 49:
         }
     };
     var7['BACKGROUND_SYNC'] = var4;
+    var4 = function RESET_SOCKET(arg1, arg2) {
+        var2 = arg2;
+        var1 = var2.clear;
+        var1 = var1.bind(var2)();
+        var1 = undefined;
+        return var1;
+    };
+    var7['RESET_SOCKET'] = var4;
     var4 = function CONNECTION_OPEN(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:

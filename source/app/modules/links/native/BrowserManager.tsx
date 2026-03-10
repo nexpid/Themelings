@@ -372,45 +372,90 @@ case 31:
         }
     };
     var3['browserManagerCloseBrowser'] = var4;
-    var2 = function openPlayStoreInlineInstall(arg1, arg2) {
+    var2 = function openPlayStoreInlineInstall(arg1, arg2, arg3) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var5 = arg1;
-            var4 = arg2;
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 2;
-            var1 = var6[var1];
-            var6 = undefined;
-            var3 = var3.bind(var6)(var1);
-            var1 = var3.isAndroid;
+            var6 = arg1;
+            var5 = arg2;
+            var8 = arg3;
+            var _closure2_slot0 = var8;
+            var4 = global;
+            var3 = var4.Date;
+            var1 = var3.now;
             var1 = var1.bind(var3)();
+            var _closure2_slot1 = var1;
+            var9 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 2;
+            var1 = var7[var1];
+            var7 = undefined;
+            var9 = var9.bind(var7)(var1);
+            var1 = var9.isAndroid;
+            var1 = var1.bind(var9)();
             if(var1) { _fun0005_ip = 33; continue _fun0005 }
 case 34:
             var1 = null;
-            if(!(var1 != var4)) { _fun0005_ip = 35; continue _fun0005 }
+            if(!(var1 != var5)) { _fun0005_ip = 35; continue _fun0005 }
 case 36:
-            var3 = _closure1_slot4;
-            var1 = var3.openAppStoreInline;
-            var1 = var1.bind(var3)(var5, var4);
-            _fun0005_ip = 37; continue _fun0005;
-case 35:
-            var3 = global;
-            var8 = var3.Promise;
-            var7 = var8.resolve;
-            var3 = false;
-            var1 = var7.bind(var8)(var3);
+            if(!(var1 != var8)) { _fun0005_ip = 28; continue _fun0005 }
 case 37:
+            var9 = _closure1_slot4;
+            var8 = var9.setOpenAppStoreDismissCallback;
+            var1 = function() {
+                var1 = global;
+                var2 = var1.Date;
+                var1 = var2.now;
+                var3 = var1.bind(var2)();
+                var2 = _closure2_slot1;
+                var3 = var3 - var2;
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var2 = var2.bind(var1)(var3);
+                return var1;
+            };
+            var1 = var8.bind(var9)(var1);
+case 28:
+            var8 = _closure1_slot4;
+            var1 = var8.openAppStoreInline;
+            var1 = var1.bind(var8)(var6, var5);
             _fun0005_ip = 38; continue _fun0005;
-case 33:
-            var3 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var2 = 3;
-            var2 = var7[var2];
-            var3 = var3.bind(var6)(var2);
-            var2 = var3.openPlayStoreInline;
-            var1 = var2.bind(var3)(var5, var4);
+case 35:
+            var9 = var4.Promise;
+            var8 = var9.resolve;
+            var4 = false;
+            var1 = var8.bind(var9)(var4);
 case 38:
+            _fun0005_ip = 39; continue _fun0005;
+case 33:
+            var4 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var3 = var8[var3];
+            var4 = var4.bind(var7)(var3);
+            var3 = var4.openPlayStoreInline;
+            var2 = function() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var1 = global;
+                    var2 = var1.Date;
+                    var1 = var2.now;
+                    var3 = var1.bind(var2)();
+                    var2 = _closure2_slot1;
+                    var3 = var3 - var2;
+                    var4 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0006_ip = 40; continue _fun0006 }
+case 32:
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)(var3);
+case 40:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var4)(var6, var5, var2);
+case 39:
             return var1;
         }
     };

@@ -755,7 +755,7 @@ case 30:
             var10 = var19[var11];
             var13 = var17.bind(var4)(var10);
             var10 = {};
-            var16 = 'button';
+            var16 = 'link';
             var10['accessibilityRole'] = var16;
             var15 = 23;
             var21 = var19[var15];

@@ -261,8 +261,8 @@ case 29:
                                     var8 = var3.type;
                                     var9 = _closure1_slot8;
                                     var9 = var9.APPLICATION;
-                                    if(!(var9 !== var8)) { _fun0004_ip = 9; continue _fun0004 }
-case 30:
+                                    if(!(var9 !== var8)) { _fun0004_ip = 30; continue _fun0004 }
+case 6:
                                     var5 = _closure1_slot8;
                                     var5 = var5.GUILD;
                                     if(!(var5 === var8)) { _fun0004_ip = 28; continue _fun0004 }
@@ -271,7 +271,7 @@ case 31:
                                     var5 = var3.guild;
                                     var5 = var8.bind(var7)(var5);
                                     _fun0004_ip = 28; continue _fun0004;
-case 9:
+case 30:
                                     var5 = _closure2_slot6;
                                     var3 = var3.application;
                                     var3 = var5.bind(var7)(var3);

@@ -140,7 +140,7 @@ case 6:
                 var20 = 17;
                 var20 = var12[var20];
                 var20 = var10.bind(var4)(var20);
-                var21 = var20.DoubleTapNewBadge;
+                var21 = var20.NewBadge;
                 var20 = {};
                 var20 = var22.bind(var4)(var21, var20);
                 var19[1] = var20;
@@ -152,7 +152,7 @@ case 6:
                 var16 = var12[var16];
                 var16 = var10.bind(var4)(var16);
                 var17 = var16.Text;
-                var16 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
+                var16 = {'variant': 'text-xs/medium', 'color': 'text-default'};
                 var19 = var12[var14];
                 var19 = var10.bind(var4)(var19);
                 var22 = var19.intl;

@@ -482,7 +482,7 @@ case 20:
     var11 = var6[var14];
     var11 = var16.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MOD_NORMAL;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var19 = 'backgroundColor';
     var10[var19] = var11;
     var4['container'] = var10;

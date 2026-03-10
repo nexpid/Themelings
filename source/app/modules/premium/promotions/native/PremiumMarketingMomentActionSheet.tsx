@@ -236,6 +236,8 @@ case 4:
             var7 = var7.MOBILE_BOTTOM_SHEET;
             var3['component_type'] = var7;
             var3['component_id'] = var6;
+            var6 = var16.dismissibleContent;
+            var3['dismissible_content'] = var6;
             var1['properties'] = var3;
             var1 = var2.bind(var4)(var1);
             var3 = _closure1_slot8;

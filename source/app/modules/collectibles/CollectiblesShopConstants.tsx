@@ -80,6 +80,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['BUNDLES'] = var2;
     var2 = 'layout';
     var11['LAYOUT'] = var2;
+    var2 = 'collection-index';
+    var11['COLLECTION_INDEX'] = var2;
     var _closure1_slot0 = var11;
     var2 = var11.AVATAR_DECORATIONS;
     var10 = new Array(4);

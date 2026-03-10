@@ -1773,11 +1773,11 @@ case 33:
                     var1 = _closure2_slot0;
                     var2 = var1.content;
                     var1 = '';
-                    if(!(var1 === var2)) { _fun0030_ip = 31; continue _fun0030 }
+                    if(!(var1 === var2)) { _fun0030_ip = 105; continue _fun0030 }
 case 114:
                     var1 = {'hasSpoilerEmbeds': false, 'content': null};
                     _fun0030_ip = 115; continue _fun0030;
-case 31:
+case 105:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 32;

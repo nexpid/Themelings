@@ -2046,6 +2046,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['MOBILE_MULTI_GUILD_CREATE_UPSELL_ANIMATION'] = var2;
     var1 = 'MOBILE_MULTI_GUILD_CREATE_UPSELL_ANIMATION';
     var4[var2] = var1;
+    var2 = 712;
+    var4['PREMIUM_MARKETING_MOMENT_REMINDER_UPSELL'] = var2;
+    var1 = 'PREMIUM_MARKETING_MOMENT_REMINDER_UPSELL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

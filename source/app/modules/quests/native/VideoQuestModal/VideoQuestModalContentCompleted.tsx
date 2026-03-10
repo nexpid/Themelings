@@ -219,7 +219,7 @@ case 2:
             var3 = var15[var8];
             var6 = var12.bind(var4)(var3);
             var5 = var6.useAnimatedStyle;
-            var3 = function T() {
+            var3 = function y() {
                 var1 = {};
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot2;
@@ -665,12 +665,19 @@ case 16:
             if(!var11) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
             var16 = _closure1_slot6;
-            var13 = _closure1_slot0;
+            var20 = _closure1_slot0;
             var29 = _closure1_slot2;
             var12 = var29[var15];
-            var12 = var13.bind(var4)(var12);
+            var12 = var20.bind(var4)(var12);
             var13 = var12.PressableOpacity;
             var12 = {};
+            var12['accessibilityRole'] = var24;
+            var17 = 15;
+            var17 = var29[var17];
+            var20 = var20.bind(var4)(var17);
+            var17 = var20.getExternalCtaLabel;
+            var17 = var17.bind(var20)(var25);
+            var12['accessibilityLabel'] = var17;
             var12['onPress'] = var19;
             var20 = _closure1_slot1;
             var17 = 29;

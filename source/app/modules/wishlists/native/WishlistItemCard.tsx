@@ -39,20 +39,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
-            var8 = var4.item;
-            var7 = var4.source;
-            var1 = null;
-            var3 = Object.create(var1);
-            var2 = 0;
-            var3['item'] = var2;
-            var3['source'] = var2;
-            var11 = {};
-            var10 = var4;
-            var9 = var3;
-            var6 = copyDataProperties(var11, var10, var9);
-            var4 = var8.skuProductLine;
+            var9 = var4.item;
+            var8 = var4.source;
+            var7 = var4.wishlistOwnerId;
+            var3 = {'item': 0, 'source': 0, 'wishlistOwnerId': 0};
+            var12 = var3;
+            var11 = null;
+            var2 = silentSetPrototypeOf(var12, var11);
+            var12 = {};
+            var11 = var4;
+            var10 = var3;
+            var6 = copyDataProperties(var12, var11, var10);
+            var4 = var9.skuProductLine;
             var3 = _closure1_slot2;
             var3 = var3.COLLECTIBLES;
+            var1 = null;
             if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var5 = _closure1_slot3;
@@ -63,11 +64,12 @@ case 3:
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
             var2 = {};
-            var2['item'] = var8;
-            var2['source'] = var7;
-            var11 = var2;
-            var10 = var6;
-            var6 = copyDataProperties(var11, var10);
+            var2['item'] = var9;
+            var2['source'] = var8;
+            var2['wishlistOwnerId'] = var7;
+            var12 = var2;
+            var11 = var6;
+            var6 = copyDataProperties(var12, var11);
             var1 = var5.bind(var4)(var3, var2);
 case 2:
             return var1;

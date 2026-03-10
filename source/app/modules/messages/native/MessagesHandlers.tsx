@@ -5247,11 +5247,14 @@ case 72:
                 var1 = 148;
                 var2 = var2[var1];
                 var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.transitionToMessage;
+                var6 = var3.bind(var1)(var2);
+                var5 = var6.transitionToMessage;
+                var4 = {};
+                var2 = false;
+                var4['navigationReplace'] = var2;
                 var3 = arg2;
                 var2 = arg3;
-                var2 = var4.bind(var5)(var3, var2);
+                var2 = var5.bind(var6)(var3, var2, var4);
                 return var1;
             };
             var3['handleTransitionToMessage'] = var4;

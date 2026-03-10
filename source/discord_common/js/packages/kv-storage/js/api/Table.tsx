@@ -1051,7 +1051,7 @@ case 28:
             }
         };
         var1['value'] = var3;
-        var3 = new Array(5);
+        var3 = new Array(6);
         var3[0] = var1;
         var1 = {};
         var6 = 'putAll';
@@ -1172,7 +1172,7 @@ case 26:
         var1['value'] = var6;
         var3[3] = var1;
         var1 = {};
-        var6 = 'deleteGeneration';
+        var6 = 'deleteAllExcept';
         var1['key'] = var6;
         var6 = function value() {
             _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
@@ -1181,6 +1181,43 @@ case 0:
                 var5 = this;
                 var1 = undefined;
                 if(!(var8 === var1)) { _fun0023_ip = 26; continue _fun0023 }
+case 27:
+                var8 = new Array(0);
+case 26:
+                var4 = var5.transaction;
+                var3 = var4.add;
+                var2 = {};
+                var6 = 'kv.delete_all_except';
+                var2['type'] = var6;
+                var6 = var5.tableId;
+                var2['table'] = var6;
+                var7 = _closure1_slot0;
+                var9 = _closure1_slot1;
+                var6 = 3;
+                var6 = var9[var6];
+                var7 = var7.bind(var1)(var6);
+                var6 = var7.combineKeyPrefix;
+                var5 = var5.prefix;
+                var5 = var6.bind(var7)(var5, var8);
+                var2['key'] = var5;
+                var5 = arguments[1];
+                var2['retain'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var3[4] = var1;
+        var1 = {};
+        var6 = 'deleteGeneration';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+case 0:
+                var8 = arguments[0];
+                var5 = this;
+                var1 = undefined;
+                if(!(var8 === var1)) { _fun0024_ip = 26; continue _fun0024 }
 case 27:
                 var8 = new Array(0);
 case 26:
@@ -1209,7 +1246,7 @@ case 26:
             }
         };
         var1['value'] = var6;
-        var3[4] = var1;
+        var3[5] = var1;
         var1 = {};
         var6 = 'fromDatabaseTransaction';
         var1['key'] = var6;

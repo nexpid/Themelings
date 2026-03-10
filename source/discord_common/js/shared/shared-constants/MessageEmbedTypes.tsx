@@ -48,6 +48,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GAMING_PROFILE'] = var1;
     var1 = 'poll_result';
     var2['POLL_RESULT'] = var1;
+    var1 = 'components';
+    var2['COMPONENTS'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

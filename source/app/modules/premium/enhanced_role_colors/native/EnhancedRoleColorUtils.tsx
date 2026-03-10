@@ -219,9 +219,9 @@ case 0:
             var1 = var3.bind(var4)(var2, var1);
             if(!var1) { _fun0005_ip = 16; continue _fun0005 }
 case 17:
-            var3 = 'hidden';
+            var3 = 'username';
             var2 = arg3;
-            var1 = var3 !== var2;
+            var1 = var3 === var2;
 case 16:
             return var1;
         }
@@ -241,9 +241,9 @@ case 0:
             var1 = var3.bind(var4)(var2, var1);
             if(!var1) { _fun0006_ip = 18; continue _fun0006 }
 case 19:
-            var3 = 'hidden';
+            var3 = 'username';
             var2 = arg3;
-            var1 = var3 !== var2;
+            var1 = var3 === var2;
 case 18:
             if(!var1) { _fun0006_ip = 20; continue _fun0006 }
 case 21:
