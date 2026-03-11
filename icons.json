@@ -10087,6 +10087,15 @@
         "width": 24,
         "height": 24
     },
+    "NitroWheelIconWithGradient": {
+        "file": "app/images/native/main_tabs/NitroWheelIconWithGradient.png",
+        "hash": "af7e0b726a672f5506a1ba72e26e2adc",
+        "scales": [
+            1
+        ],
+        "width": 48,
+        "height": 48
+    },
     "nl": {
         "file": "discord_common/js/shared/images/flags/nl.png",
         "hash": "c9f51873ae719a6b4b8c6724362e999e",
