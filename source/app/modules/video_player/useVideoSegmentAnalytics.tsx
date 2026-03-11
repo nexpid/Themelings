@@ -1,4 +1,4 @@
-// app/modules/quests/hooks/useVideoWatchTracker.tsx
+// app/modules/video_player/useVideoSegmentAnalytics.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -34,18 +34,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/quests/hooks/useVideoWatchTracker.tsx';
+    var4 = 'modules/video_player/useVideoSegmentAnalytics.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useVideoWatchTracker(arg1) {
+    var2 = function useVideoSegmentAnalytics(arg1) {
         var2 = arg1;
-        var7 = var2.getCurrentVideoTime;
-        var _closure2_slot0 = var7;
         var14 = var2.isPlaying;
-        var _closure2_slot1 = var14;
+        var _closure2_slot0 = var14;
         var13 = var2.isMetadataLoaded;
-        var _closure2_slot2 = var13;
+        var _closure2_slot1 = var13;
         var12 = var2.isInitialSeekComplete;
-        var _closure2_slot3 = var12;
+        var _closure2_slot2 = var12;
+        var7 = var2.getCurrentVideoTime;
+        var _closure2_slot3 = var7;
         var1 = var2.onAnalytics;
         var _closure2_slot4 = var1;
         var15 = var2.emitIntervalMs;
@@ -91,12 +91,12 @@ case 0:
 case 3:
                 var3 = _closure2_slot4;
                 var2 = {};
-                var4 = var1.startTime;
+                var4 = var1.startTimeMs;
                 var2['start_time'] = var4;
-                var4 = var1.endTime;
+                var4 = var1.endTimeMs;
                 var2['end_time'] = var4;
-                var5 = var1.endTime;
-                var4 = var1.startTime;
+                var5 = var1.endTimeMs;
+                var4 = var1.startTimeMs;
                 var4 = var5 - var4;
                 var2['duration'] = var4;
                 var4 = var1.segmentStartSec;
@@ -123,16 +123,16 @@ case 2:
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot3;
                 var1 = undefined;
                 var5 = var3.bind(var1)();
                 var3 = null;
                 if(!(var3 != var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 3:
-                var3 = _closure2_slot2;
+                var3 = _closure2_slot1;
                 if(!var3) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot2;
                 if(!var3) { _fun0002_ip = 4; continue _fun0002 }
 case 6:
                 var3 = global;
@@ -141,8 +141,8 @@ case 6:
                 var6 = var3.bind(var4)();
                 var4 = _closure2_slot8;
                 var3 = {};
-                var3['startTime'] = var6;
-                var3['endTime'] = var6;
+                var3['startTimeMs'] = var6;
+                var3['endTimeMs'] = var6;
                 var3['segmentStartSec'] = var5;
                 var3['segmentEndSec'] = var5;
                 var3 = var4.bind(var1)(var3);
@@ -164,7 +164,7 @@ case 4:
         var10 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot3;
                 var1 = undefined;
                 var6 = var3.bind(var1)();
                 var4 = null;
@@ -199,15 +199,15 @@ case 11:
                 var9 = _closure2_slot7;
                 var10 = var4;
                 var7 = copyDataProperties(var10, var9);
-                var7 = 'endTime';
+                var7 = 'endTimeMs';
                 var4[var7] = var3;
                 var7 = 'segmentEndSec';
                 var4[var7] = var6;
                 var4 = var5.bind(var1)(var4);
                 var5 = _closure2_slot8;
                 var4 = {};
-                var4['startTime'] = var3;
-                var4['endTime'] = var3;
+                var4['startTimeMs'] = var3;
+                var4['endTimeMs'] = var3;
                 var4['segmentStartSec'] = var6;
                 var4['segmentEndSec'] = var6;
                 var4 = var5.bind(var1)(var4);
@@ -226,10 +226,10 @@ case 7:
         var4 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var2 = _closure2_slot2;
+                var2 = _closure2_slot1;
                 if(!var2) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-                var2 = _closure2_slot3;
+                var2 = _closure2_slot2;
 case 12:
                 if(var2) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
@@ -258,16 +258,16 @@ case 14:
         var1 = function() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var3 = _closure2_slot1;
+                var3 = _closure2_slot0;
                 if(!var3) { _fun0005_ip = 16; continue _fun0005 }
 case 17:
-                var3 = _closure2_slot2;
+                var3 = _closure2_slot1;
                 if(!var3) { _fun0005_ip = 16; continue _fun0005 }
 case 3:
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot2;
                 if(var3) { _fun0005_ip = 18; continue _fun0005 }
 case 16:
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot3;
                 var7 = undefined;
                 var8 = var3.bind(var7)();
                 var3 = _closure2_slot7;
@@ -291,7 +291,7 @@ case 22:
                 var10 = _closure2_slot7;
                 var11 = var3;
                 var6 = copyDataProperties(var11, var10);
-                var6 = 'endTime';
+                var6 = 'endTimeMs';
                 var3[var6] = var9;
                 var6 = 'segmentEndSec';
                 var3[var6] = var8;
@@ -368,7 +368,7 @@ case 27:
         var3 = function() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot3;
                 var1 = undefined;
                 var7 = var3.bind(var1)();
                 var3 = _closure2_slot7;
@@ -392,7 +392,7 @@ case 33:
                 var9 = _closure2_slot7;
                 var10 = var3;
                 var6 = copyDataProperties(var10, var9);
-                var6 = 'endTime';
+                var6 = 'endTimeMs';
                 var3[var6] = var8;
                 var6 = 'segmentEndSec';
                 var3[var6] = var7;
@@ -414,5 +414,9 @@ case 29:
         return var1;
     };
     var3['default'] = var2;
+    var2 = 4000;
+    var3['SEGMENT_ANALYTICS_EMIT_INTERVAL_MS'] = var2;
+    var2 = 2000;
+    var3['SEGMENT_ANALYTICS_MIN_DURATION_MS'] = var2;
     return var1;
 })();

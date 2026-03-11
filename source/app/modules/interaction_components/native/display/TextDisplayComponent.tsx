@@ -56,16 +56,23 @@ case 0:
         var4 = var4.bind(var9)();
         if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
+        var4 = 8;
+        var4 = var6[var4];
+        var9 = var5.bind(var1)(var4);
+        var4 = var9.isFabric;
+        var4 = var4.bind(var9)();
+        if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
         var4 = 'DCDTextDisplayComponentView';
         var4 = var7.bind(var1)(var4);
-        _fun0001_ip = 4; continue _fun0001;
+        _fun0001_ip = 5; continue _fun0001;
 case 2:
-        var7 = 8;
+        var7 = 9;
         var7 = var6[var7];
         var4 = var8.bind(var1)(var7);
-case 4:
+case 5:
         var _closure1_slot9 = var4;
-        var4 = 18;
+        var4 = 19;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -75,24 +82,24 @@ case 4:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var16 = arg1;
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var1 = 9;
-                var1 = var4[var1];
+                var9 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var1 = 10;
+                var1 = var8[var1];
                 var5 = undefined;
-                var6 = var3.bind(var5)(var1);
-                var1 = var6.useComponentContainerId;
-                var15 = var1.bind(var6)();
+                var3 = var9.bind(var5)(var1);
+                var1 = var3.useComponentContainerId;
+                var15 = var1.bind(var3)();
                 var14 = _closure1_slot4;
                 var1 = var14.useState;
                 var1 = var1.bind(var14)();
                 var12 = _closure1_slot3;
                 var11 = 2;
                 var1 = var12.bind(var5)(var1, var11);
-                var8 = 0;
-                var10 = var1[var8];
-                var6 = 1;
-                var1 = var1[var6];
+                var6 = 0;
+                var10 = var1[var6];
+                var3 = 1;
+                var1 = var1[var3];
                 var _closure2_slot0 = var1;
                 var13 = var14.useCallback;
                 var7 = function(arg1) {
@@ -112,19 +119,19 @@ case 0:
                 var20 = var1.bind(var13)();
                 var _closure2_slot1 = var20;
                 var13 = _closure1_slot1;
-                var1 = 10;
-                var1 = var4[var1];
+                var1 = 11;
+                var1 = var8[var1];
                 var14 = var13.bind(var5)(var1);
                 var1 = 'channelId not available in TextDisplayComponent';
                 var1 = var14.bind(var5)(var20, var1);
-                var1 = 11;
-                var1 = var4[var1];
+                var1 = 12;
+                var1 = var8[var1];
                 var18 = var13.bind(var5)(var1);
                 var17 = var18.parseToAST;
                 var14 = var16.content;
-                var1 = 12;
-                var1 = var4[var1];
-                var19 = var3.bind(var5)(var1);
+                var1 = 13;
+                var1 = var8[var1];
+                var19 = var9.bind(var5)(var1);
                 var13 = var19.getInitialParserState;
                 var1 = {};
                 var1['channelId'] = var20;
@@ -133,9 +140,9 @@ case 0:
                 var13 = var13.bind(var19)(var1);
                 var1 = true;
                 var17 = var17.bind(var18)(var14, var1, var13);
-                var1 = 13;
-                var1 = var4[var1];
-                var18 = var3.bind(var5)(var1);
+                var1 = 14;
+                var1 = var8[var1];
+                var18 = var9.bind(var5)(var1);
                 var14 = var18.useStateFromStoresArray;
                 var1 = _closure1_slot5;
                 var13 = new Array(1);
@@ -151,16 +158,16 @@ case 0:
                 };
                 var1 = var14.bind(var18)(var13, var1);
                 var1 = var12.bind(var5)(var1, var11);
-                var13 = var1[var8];
-                var12 = var1[var6];
-                var1 = 14;
-                var1 = var4[var1];
-                var1 = var3.bind(var5)(var1);
-                var6 = var1.AnimateEmoji;
-                var1 = var6.useSetting;
-                var14 = var1.bind(var6)();
-                var8 = _closure1_slot8;
-                var6 = _closure1_slot9;
+                var13 = var1[var6];
+                var12 = var1[var3];
+                var1 = 15;
+                var1 = var8[var1];
+                var1 = var9.bind(var5)(var1);
+                var3 = var1.AnimateEmoji;
+                var1 = var3.useSetting;
+                var14 = var1.bind(var3)();
+                var6 = _closure1_slot8;
+                var3 = _closure1_slot9;
                 var1 = {};
                 var11 = {};
                 var23 = var11;
@@ -180,13 +187,13 @@ case 0:
                 var12 = var12 === var13;
                 var11['shouldShowRoleOnName'] = var12;
                 var1['markdownTextRenderOptions'] = var11;
-                var9 = function onTapLink(arg1) {
+                var4 = function onTapLink(arg1) {
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var5 = var1.data;
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 15;
+                    var1 = 16;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -195,68 +202,79 @@ case 0:
                     var2 = var3.bind(var4)(var5, var2);
                     return var1;
                 };
-                var1['onTapLink'] = var9;
-                var9 = 16;
-                var11 = var4[var9];
-                var11 = var3.bind(var5)(var11);
+                var1['onTapLink'] = var4;
+                var4 = 17;
+                var11 = var8[var4];
+                var11 = var9.bind(var5)(var11);
                 var11 = var11.contentHandlers;
                 var11 = var11.onLongPressLink;
                 var1['onLongPressLink'] = var11;
-                var11 = var4[var9];
-                var11 = var3.bind(var5)(var11);
+                var11 = var8[var4];
+                var11 = var9.bind(var5)(var11);
                 var11 = var11.contentHandlers;
                 var11 = var11.onTapAttachmentLink;
                 var1['onTapAttachmentLink'] = var11;
-                var11 = var4[var9];
-                var11 = var3.bind(var5)(var11);
+                var11 = var8[var4];
+                var11 = var9.bind(var5)(var11);
                 var11 = var11.contentHandlers;
                 var11 = var11.onLongPressAttachmentLink;
                 var1['onLongPressAttachmentLink'] = var11;
-                var11 = var4[var9];
-                var11 = var3.bind(var5)(var11);
+                var11 = var8[var4];
+                var11 = var9.bind(var5)(var11);
                 var11 = var11.contentHandlers;
                 var11 = var11.onTapMention;
                 var1['onTapMention'] = var11;
-                var11 = var4[var9];
-                var11 = var3.bind(var5)(var11);
+                var11 = var8[var4];
+                var11 = var9.bind(var5)(var11);
                 var11 = var11.contentHandlers;
                 var11 = var11.onTapTimestamp;
                 var1['onTapTimestamp'] = var11;
-                var11 = var4[var9];
-                var11 = var3.bind(var5)(var11);
+                var11 = var8[var4];
+                var11 = var9.bind(var5)(var11);
                 var11 = var11.contentHandlers;
                 var11 = var11.onTapInlineCode;
                 var1['onTapInlineCode'] = var11;
-                var9 = var4[var9];
-                var9 = var3.bind(var5)(var9);
-                var9 = var9.contentHandlers;
-                var9 = var9.onTapEmoji;
-                var1['onTapEmoji'] = var9;
+                var4 = var8[var4];
+                var4 = var9.bind(var5)(var4);
+                var4 = var4.contentHandlers;
+                var4 = var4.onTapEmoji;
+                var1['onTapEmoji'] = var4;
+                var4 = 7;
+                var8 = var8[var4];
+                var9 = var9.bind(var5)(var8);
+                var8 = var9.isAndroid;
+                var9 = var8.bind(var9)();
+                var8 = null;
+                if(!var9) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var9 = {};
                 var11 = '100%';
                 var9['width'] = var11;
                 var9['height'] = var10;
-                var1['style'] = var9;
-                var6 = var8.bind(var5)(var6, var1);
-                var1 = 7;
-                var1 = var4[var1];
+                var8 = var9;
+case 6:
+                var1['style'] = var8;
+                var6 = var6.bind(var5)(var3, var1);
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var4];
                 var3 = var3.bind(var5)(var1);
                 var1 = var3.isAndroid;
                 var3 = var1.bind(var3)();
                 var1 = var6;
-                if(!var3) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+                if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var4 = _closure1_slot8;
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var2 = 17;
+                var2 = 18;
                 var2 = var8[var2];
                 var3 = var3.bind(var5)(var2);
                 var2 = {};
                 var2['onLayout'] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
-case 5:
+case 8:
                 return var1;
             }
         };

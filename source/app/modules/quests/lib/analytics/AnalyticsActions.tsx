@@ -346,12 +346,12 @@ case 32:
                     var3 = {};
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var2 = 17;
+                    var2 = 16;
                     var2 = var10[var2];
                     var7 = undefined;
                     var8 = var9.bind(var7)(var2);
                     var5 = var8.getAdUser;
-                    var2 = 16;
+                    var2 = 17;
                     var2 = var10[var2];
                     var9 = var9.bind(var7)(var2);
                     var2 = var9.getQuestContentName;
@@ -458,7 +458,7 @@ case 21:
                     var4 = {};
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var6 = 16;
+                    var6 = 17;
                     var6 = var14[var6];
                     var13 = var13.bind(var10)(var6);
                     var6 = var13.getContentProperties;
@@ -636,7 +636,7 @@ case 60:
 case 62:
                     var18 = _closure1_slot0;
                     var20 = _closure1_slot2;
-                    var16 = 16;
+                    var16 = 17;
                     var16 = var20[var16];
                     var18 = var18.bind(var4)(var16);
                     var16 = var18.getQuestStatus;
@@ -836,98 +836,6 @@ case 67:
     var6 = 'modules/quests/lib/analytics/AnalyticsActions.tsx';
     var6 = var7.bind(var8)(var6);
     var3['trackQuestEvent'] = var5;
-    var5 = function trackAppStoreOverlayEvent(arg1, arg2, arg3, arg4, arg5) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-            var8 = arg1;
-            var4 = arg2;
-            var5 = arg4;
-            var7 = arg5;
-            var6 = {};
-            var1 = var4.content;
-            var6['content_id'] = var1;
-            var9 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var10 = 16;
-            var3 = var1[var10];
-            var1 = undefined;
-            var11 = var9.bind(var1)(var3);
-            var9 = var11.getQuestContentName;
-            var3 = var4.content;
-            var3 = var9.bind(var11)(var3);
-            var6['content_name'] = var3;
-            var11 = var4.position;
-            var3 = null;
-            var12 = var3 != var11;
-            var9 = null;
-            if(!var12) { _fun0010_ip = 74; continue _fun0010 }
-case 75:
-            var9 = var11;
-case 74:
-            var6['content_position'] = var9;
-            var9 = var4.ctaContent;
-            var6['cta_name'] = var9;
-            var9 = var4.impressionId;
-            var11 = var3 != var9;
-            var3 = null;
-            if(!var11) { _fun0010_ip = 76; continue _fun0010 }
-case 77:
-            var3 = var9;
-case 76:
-            var6['impression_id'] = var3;
-            var3 = var4.sourceQuestContent;
-            var6['source_quest_content_id'] = var3;
-            var9 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var10];
-            var10 = var9.bind(var1)(var3);
-            var9 = var10.getQuestContentName;
-            var3 = var4.sourceQuestContent;
-            var3 = var9.bind(var10)(var3);
-            var6['source_content_name'] = var3;
-            var3 = arg3;
-            var6['app_id'] = var3;
-            var3 = _closure1_slot8;
-            var3 = var3.APP_STORE_OVERLAY_CLOSED;
-            if(!(var5 === var3)) { _fun0010_ip = 78; continue _fun0010 }
-case 22:
-            if(!(var1 === var7)) { _fun0010_ip = 79; continue _fun0010 }
-case 78:
-            var9 = _closure1_slot15;
-            var3 = {};
-            var10 = var8.id;
-            var3['questId'] = var10;
-            var3['event'] = var5;
-            var10 = {};
-            var14 = var10;
-            var13 = var6;
-            var11 = copyDataProperties(var14, var13);
-            var3['properties'] = var10;
-            var10 = var4.sourceQuestContent;
-            var3['sourceQuestContent'] = var10;
-            var3 = var9.bind(var1)(var3);
-            _fun0010_ip = 80; continue _fun0010;
-case 79:
-            var3 = _closure1_slot15;
-            var2 = {};
-            var8 = var8.id;
-            var2['questId'] = var8;
-            var2['event'] = var5;
-            var5 = {};
-            var14 = var5;
-            var13 = var6;
-            var6 = copyDataProperties(var14, var13);
-            var6 = 'time_spent_ms';
-            var5[var6] = var7;
-            var2['properties'] = var5;
-            var4 = var4.sourceQuestContent;
-            var2['sourceQuestContent'] = var4;
-            var2 = var3.bind(var1)(var2);
-case 80:
-            return var1;
-        }
-    };
-    var3['trackAppStoreOverlayEvent'] = var5;
     var3['trackAdContentEvent'] = var4;
     var4 = function trackQuestContentClicked() {
         var1 = undefined;
@@ -960,7 +868,7 @@ case 80:
         var6 = var1.prevMode;
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 16;
+        var1 = 17;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);

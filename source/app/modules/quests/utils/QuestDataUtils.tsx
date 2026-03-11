@@ -374,8 +374,29 @@ case 40:
     var7 = var8.bind(var9)(var7);
     var7 = 2592000000.0;
     var3['THIRTY_DAYS_MS'] = var7;
-    var7 = function findQuestOrReplacement(arg1, arg2, arg3) {
+    var7 = function earnedDecisionIsValid(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0005_ip = 5; continue _fun0005 }
+case 42:
+            var3 = var2.fetchedAt;
+            var2 = var2.ttlMillis;
+            var3 = var3 + var2;
+            var2 = global;
+            var4 = var2.Date;
+            var2 = var4.now;
+            var2 = var2.bind(var4)();
+            var1 = var3 >= var2;
+case 5:
+            return var1;
+        }
+    };
+    var3['earnedDecisionIsValid'] = var7;
+    var7 = function findQuestOrReplacement(arg1, arg2, arg3) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var6 = arg1;
             var9 = arg2;
@@ -385,8 +406,8 @@ case 0:
             var3 = var4.isArray;
             var3 = var3.bind(var4)(var9);
             var5 = var9;
-            if(!var3) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(!var3) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
             var8 = var2.Map;
             var4 = var9.map;
             var3 = function(arg1) {
@@ -403,13 +424,13 @@ case 43:
             var11 = var4;
             var3 = new var11[var8](var10, var9);
             var5 = var3 instanceof Object ? var3 : var4;
-case 42:
+case 43:
             var4 = var2.Array;
             var3 = var4.isArray;
             var3 = var3.bind(var4)(var7);
             var4 = var7;
-            if(!var3) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+            if(!var3) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var3 = var2.Map;
             var2 = var7.map;
             var1 = function(arg1) {
@@ -426,46 +447,46 @@ case 45:
             var11 = var2;
             var1 = new var11[var3](var10, var9);
             var4 = var1 instanceof Object ? var1 : var2;
-case 44:
+case 45:
             var1 = var5.get;
             var1 = var1.bind(var5)(var6);
             var3 = null;
-            if(!(var3 == var1)) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+            if(!(var3 == var1)) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var2 = var4.get;
             var6 = var2.bind(var4)(var6);
             var7 = var3 == var6;
             var4 = undefined;
-            if(var7) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+            if(var7) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
             var4 = var6.replacementId;
-case 48:
+case 49:
             var3 = var3 != var4;
             var2 = undefined;
-            if(!var3) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(!var3) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
             var3 = var5.get;
             var2 = var3.bind(var5)(var4);
-case 50:
+case 51:
             return var2;
-case 46:
+case 47:
             return var1;
         }
     };
     var3['findQuestOrReplacement'] = var7;
     var3['isDismissible'] = var6;
     var6 = function isDismissed(arg1, arg2) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var5 = arg2;
             var2 = _closure1_slot11;
             var4 = undefined;
             var2 = var2.bind(var4)(var5);
-            if(var2) { _fun0006_ip = 52; continue _fun0006 }
+            if(var2) { _fun0007_ip = 53; continue _fun0007 }
 case 29:
             var2 = false;
             return var2;
-case 52:
+case 53:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -486,28 +507,19 @@ case 52:
         }
     };
     var3['isDismissed'] = var6;
-    var6 = function includesTarget(arg1, arg2) {
-        var1 = arg1;
-        var3 = var1.targetedContent;
-        var2 = var3.includes;
-        var1 = arg2;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['includesTarget'] = var6;
     var3['isQuestExpired'] = var5;
     var5 = function getIsQuestExpiredButWithinThirtyDayLookback(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var3 = _closure1_slot12;
             var2 = undefined;
             var2 = var3.bind(var2)(var1);
-            if(var2) { _fun0007_ip = 52; continue _fun0007 }
+            if(var2) { _fun0008_ip = 53; continue _fun0008 }
 case 29:
             var2 = false;
             return var2;
-case 52:
+case 53:
             var2 = global;
             var4 = var2.Date;
             var3 = var4.now;
@@ -528,17 +540,17 @@ case 52:
             var4 = var1.expiresAt;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0007_ip = 53; continue _fun0007 }
-case 54:
+            if(!var1) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
             var2 = var2 <= var3;
             var1 = !var2;
-case 53:
+case 54:
             return var1;
         }
     };
     var3['getIsQuestExpiredButWithinThirtyDayLookback'] = var5;
     var5 = function findNextUpcomingExpirationEpochMs(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var9 = global;
             var2 = var9.Date;
@@ -554,7 +566,7 @@ case 0:
             var4 = var1;
             var3 = null;
             var1 = null;
-            if(var2) { _fun0008_ip = 55; continue _fun0008 }
+            if(var2) { _fun0009_ip = 56; continue _fun0009 }
 case 4:
             var2 = var4.value;
             var11 = var9.Date;
@@ -568,47 +580,47 @@ case 4:
             var2 = var10.valueOf;
             var2 = var2.bind(var10)();
             var10 = var3;
-            if(!(!(var2 <= var8))) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
-            var11 = var5 == var3;
-            if(var11) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
-            var11 = var2 < var3;
+            if(!(!(var2 <= var8))) { _fun0009_ip = 57; continue _fun0009 }
 case 58:
-            if(!var11) { _fun0008_ip = 60; continue _fun0008 }
-case 61:
-            var3 = var2;
+            var11 = var5 == var3;
+            if(var11) { _fun0009_ip = 59; continue _fun0009 }
 case 60:
+            var11 = var2 < var3;
+case 59:
+            if(!var11) { _fun0009_ip = 61; continue _fun0009 }
+case 62:
+            var3 = var2;
+case 61:
             var10 = var3;
-case 56:
+case 57:
             var11 = var6.bind(var7)();
             var2 = var11.done;
             var3 = var10;
             var4 = var11;
             var1 = var3;
-            if(!var2) { _fun0008_ip = 4; continue _fun0008 }
-case 55:
+            if(!var2) { _fun0009_ip = 4; continue _fun0009 }
+case 56:
             return var1;
         }
     };
     var3['findNextUpcomingExpirationEpochMs'] = var5;
     var5 = function getQuestFormattedDate(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var4 = arg1;
             var5 = arguments[1];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0009_ip = 62; continue _fun0009 }
-case 63:
+            if(!(var5 === var1)) { _fun0010_ip = 63; continue _fun0010 }
+case 42:
             var1 = {};
             var2 = 'short';
             var1['dateStyle'] = var2;
             var5 = var1;
-case 62:
+case 63:
             var1 = null;
             var2 = var1 == var4;
             var1 = '';
-            if(var2) { _fun0009_ip = 64; continue _fun0009 }
+            if(var2) { _fun0010_ip = 64; continue _fun0010 }
 case 65:
             var2 = global;
             var2 = var2.Date;
@@ -628,7 +640,7 @@ case 64:
     };
     var3['getQuestFormattedDate'] = var5;
     var5 = function getQuestForPlacement(arg1, arg2, arg3) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg1;
             var3 = arg2;
@@ -636,7 +648,7 @@ case 0:
             var1 = arg3;
             var2 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var1 == var2)) { _fun0010_ip = 66; continue _fun0010 }
+            if(!(var1 == var2)) { _fun0011_ip = 66; continue _fun0011 }
 case 67:
             var3 = undefined;
             return var3;
@@ -648,12 +660,12 @@ case 66:
             var3 = var1 == var2;
             var4 = undefined;
             var1 = undefined;
-            if(var3) { _fun0010_ip = 68; continue _fun0010 }
+            if(var3) { _fun0011_ip = 68; continue _fun0011 }
 case 7:
             var3 = _closure1_slot12;
             var3 = var3.bind(var4)(var2);
             var1 = undefined;
-            if(var3) { _fun0010_ip = 68; continue _fun0010 }
+            if(var3) { _fun0011_ip = 68; continue _fun0011 }
 case 69:
             var1 = var2;
 case 68:
@@ -663,7 +675,7 @@ case 68:
     var3['getQuestForPlacement'] = var5;
     var3['getQuestPlacementFromQuestContent'] = var4;
     var4 = function isBillableQuestContent(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var4 = _closure1_slot13;
             var3 = undefined;
@@ -671,8 +683,8 @@ case 0:
             var4 = var4.bind(var3)(var1);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0011_ip = 70; continue _fun0011 }
-case 62:
+            if(!var1) { _fun0012_ip = 70; continue _fun0012 }
+case 63:
             var3 = _closure1_slot6;
             var2 = var3.has;
             var1 = var2.bind(var3)(var4);
@@ -682,27 +694,27 @@ case 70:
     };
     var3['isBillableQuestContent'] = var4;
     var4 = function getAdDecisionData(arg1, arg2) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var3 = _closure1_slot13;
             var5 = undefined;
             var2 = arg2;
             var4 = var3.bind(var5)(var2);
             var3 = null;
-            if(!(var3 != var4)) { _fun0012_ip = 30; continue _fun0012 }
+            if(!(var3 != var4)) { _fun0013_ip = 30; continue _fun0013 }
 case 31:
             var2 = _closure1_slot14;
             var4 = var2.bind(var5)(var4);
-            if(!(var3 == var4)) { _fun0012_ip = 71; continue _fun0012 }
+            if(!(var3 == var4)) { _fun0013_ip = 71; continue _fun0013 }
 case 72:
             var4 = {};
 case 71:
             var2 = var4.adDecisionData;
             var4 = var4.questId;
-            if(!(var3 != var2)) { _fun0012_ip = 7; continue _fun0012 }
+            if(!(var3 != var2)) { _fun0013_ip = 7; continue _fun0013 }
 case 73:
             var3 = arg1;
-            if(!(var4 !== var3)) { _fun0012_ip = 74; continue _fun0012 }
+            if(!(var4 !== var3)) { _fun0013_ip = 74; continue _fun0013 }
 case 7:
             var2 = _closure1_slot7;
 case 74:
@@ -714,30 +726,6 @@ case 30:
     };
     var3['getAdDecisionData'] = var4;
     var4 = function getAdMetadataRaw(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
-case 0:
-            var4 = _closure1_slot13;
-            var1 = undefined;
-            var3 = arg1;
-            var4 = var4.bind(var1)(var3);
-            var3 = null;
-            if(!(var3 == var4)) { _fun0013_ip = 67; continue _fun0013 }
-case 31:
-            return var1;
-case 67:
-            var2 = _closure1_slot14;
-            var2 = var2.bind(var1)(var4);
-            var3 = var3 == var2;
-            var1 = undefined;
-            if(var3) { _fun0013_ip = 5; continue _fun0013 }
-case 75:
-            var1 = var2.metadataRaw;
-case 5:
-            return var1;
-        }
-    };
-    var3['getAdMetadataRaw'] = var4;
-    var4 = function getAdMetadataSealed(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var4 = _closure1_slot13;
@@ -755,6 +743,30 @@ case 67:
             var1 = undefined;
             if(var3) { _fun0014_ip = 5; continue _fun0014 }
 case 75:
+            var1 = var2.metadataRaw;
+case 5:
+            return var1;
+        }
+    };
+    var3['getAdMetadataRaw'] = var4;
+    var4 = function getAdMetadataSealed(arg1) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+            var4 = _closure1_slot13;
+            var1 = undefined;
+            var3 = arg1;
+            var4 = var4.bind(var1)(var3);
+            var3 = null;
+            if(!(var3 == var4)) { _fun0015_ip = 67; continue _fun0015 }
+case 31:
+            return var1;
+case 67:
+            var2 = _closure1_slot14;
+            var2 = var2.bind(var1)(var4);
+            var3 = var3 == var2;
+            var1 = undefined;
+            if(var3) { _fun0015_ip = 5; continue _fun0015 }
+case 75:
             var1 = var2.metadataSealed;
 case 5:
             return var1;
@@ -762,48 +774,6 @@ case 5:
     };
     var3['getAdMetadataSealed'] = var4;
     var4 = function getAdTrafficMetadataRaw(arg1, arg2) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-            var6 = arg2;
-            var4 = _closure1_slot13;
-            var2 = undefined;
-            var1 = arg1;
-            var5 = var4.bind(var2)(var1);
-            var4 = null;
-            if(!(var4 != var5)) { _fun0015_ip = 7; continue _fun0015 }
-case 62:
-            var1 = _closure1_slot14;
-            var5 = var1.bind(var2)(var5);
-            if(!(var4 == var5)) { _fun0015_ip = 76; continue _fun0015 }
-case 65:
-            var5 = {};
-case 76:
-            var1 = var5.trafficMetadataRaw;
-            var5 = var5.questId;
-            if(!(var4 != var1)) { _fun0015_ip = 7; continue _fun0015 }
-case 77:
-            if(!(var5 !== var6)) { _fun0015_ip = 78; continue _fun0015 }
-case 7:
-            if(!(var4 == var6)) { _fun0015_ip = 30; continue _fun0015 }
-case 74:
-            return var2;
-case 30:
-            var5 = _closure1_slot4;
-            var3 = var5.getQuest;
-            var3 = var3.bind(var5)(var6);
-            var4 = var4 == var3;
-            var2 = undefined;
-            if(var4) { _fun0015_ip = 79; continue _fun0015 }
-case 80:
-            var2 = var3.trafficMetadataRaw;
-case 79:
-            return var2;
-case 78:
-            return var1;
-        }
-    };
-    var3['getAdTrafficMetadataRaw'] = var4;
-    var4 = function getAdTrafficMetadataSealed(arg1, arg2) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var6 = arg2;
@@ -813,14 +783,14 @@ case 0:
             var5 = var4.bind(var2)(var1);
             var4 = null;
             if(!(var4 != var5)) { _fun0016_ip = 7; continue _fun0016 }
-case 62:
+case 63:
             var1 = _closure1_slot14;
             var5 = var1.bind(var2)(var5);
             if(!(var4 == var5)) { _fun0016_ip = 76; continue _fun0016 }
 case 65:
             var5 = {};
 case 76:
-            var1 = var5.trafficMetadataSealed;
+            var1 = var5.trafficMetadataRaw;
             var5 = var5.questId;
             if(!(var4 != var1)) { _fun0016_ip = 7; continue _fun0016 }
 case 77:
@@ -837,6 +807,48 @@ case 30:
             var2 = undefined;
             if(var4) { _fun0016_ip = 79; continue _fun0016 }
 case 80:
+            var2 = var3.trafficMetadataRaw;
+case 79:
+            return var2;
+case 78:
+            return var1;
+        }
+    };
+    var3['getAdTrafficMetadataRaw'] = var4;
+    var4 = function getAdTrafficMetadataSealed(arg1, arg2) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+            var6 = arg2;
+            var4 = _closure1_slot13;
+            var2 = undefined;
+            var1 = arg1;
+            var5 = var4.bind(var2)(var1);
+            var4 = null;
+            if(!(var4 != var5)) { _fun0017_ip = 7; continue _fun0017 }
+case 63:
+            var1 = _closure1_slot14;
+            var5 = var1.bind(var2)(var5);
+            if(!(var4 == var5)) { _fun0017_ip = 76; continue _fun0017 }
+case 65:
+            var5 = {};
+case 76:
+            var1 = var5.trafficMetadataSealed;
+            var5 = var5.questId;
+            if(!(var4 != var1)) { _fun0017_ip = 7; continue _fun0017 }
+case 77:
+            if(!(var5 !== var6)) { _fun0017_ip = 78; continue _fun0017 }
+case 7:
+            if(!(var4 == var6)) { _fun0017_ip = 30; continue _fun0017 }
+case 74:
+            return var2;
+case 30:
+            var5 = _closure1_slot4;
+            var3 = var5.getQuest;
+            var3 = var3.bind(var5)(var6);
+            var4 = var4 == var3;
+            var2 = undefined;
+            if(var4) { _fun0017_ip = 79; continue _fun0017 }
+case 80:
             var2 = var3.trafficMetadataSealed;
 case 79:
             return var2;
@@ -846,14 +858,14 @@ case 78:
     };
     var3['getAdTrafficMetadataSealed'] = var4;
     var4 = function getAdContext(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var4 = _closure1_slot13;
             var1 = undefined;
             var3 = arg1;
             var4 = var4.bind(var1)(var3);
             var3 = null;
-            if(!(var3 == var4)) { _fun0017_ip = 67; continue _fun0017 }
+            if(!(var3 == var4)) { _fun0018_ip = 67; continue _fun0018 }
 case 31:
             return var1;
 case 67:
@@ -861,7 +873,7 @@ case 67:
             var2 = var2.bind(var1)(var4);
             var3 = var3 == var2;
             var1 = undefined;
-            if(var3) { _fun0017_ip = 5; continue _fun0017 }
+            if(var3) { _fun0018_ip = 5; continue _fun0018 }
 case 75:
             var1 = var2.adContext;
 case 5:
@@ -870,7 +882,7 @@ case 5:
     };
     var3['getAdContext'] = var4;
     var4 = function captureQuestsException(arg1, arg2) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var7 = arg2;
             var3 = _closure1_slot1;
@@ -888,7 +900,7 @@ case 0:
             var2 = null;
             var8 = var2 == var7;
             var2 = undefined;
-            if(var8) { _fun0018_ip = 74; continue _fun0018 }
+            if(var8) { _fun0019_ip = 74; continue _fun0019 }
 case 81:
             var2 = var7.tags;
 case 74:

@@ -267,7 +267,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(27);
+        var1 = new Array(26);
         var1[0] = var5;
         var5 = {};
         var8 = 'getLocalMute';
@@ -847,21 +847,6 @@ case 42:
         var5['value'] = var8;
         var1[19] = var5;
         var5 = {};
-        var8 = 'configureGoLiveSimulcast';
-        var5['key'] = var8;
-        var8 = function value(arg1, arg2) {
-            var1 = this;
-            var4 = var1.videoQualityManager;
-            var3 = var4.configGoLiveSimulcast;
-            var2 = arg1;
-            var1 = arg2;
-            var1 = var3.bind(var4)(var2, var1);
-            var1 = undefined;
-            return var1;
-        };
-        var5['value'] = var8;
-        var1[20] = var5;
-        var5 = {};
         var8 = 'applyQualityConstraints';
         var5['key'] = var8;
         var8 = function value() {
@@ -882,7 +867,7 @@ case 43:
             }
         };
         var5['value'] = var8;
-        var1[21] = var5;
+        var1[20] = var5;
         var5 = {};
         var8 = 'initializeStreamParameters';
         var5['key'] = var8;
@@ -997,7 +982,7 @@ case 57:
             return var1;
         };
         var5['value'] = var8;
-        var1[22] = var5;
+        var1[21] = var5;
         var5 = {};
         var8 = 'getLocalWant';
         var5['key'] = var8;
@@ -1087,7 +1072,7 @@ case 69:
             }
         };
         var5['value'] = var8;
-        var1[23] = var5;
+        var1[22] = var5;
         var5 = {};
         var8 = 'getRemoteVideoSinkWants';
         var5['key'] = var8;
@@ -1099,7 +1084,7 @@ case 69:
             return var1;
         };
         var5['value'] = var8;
-        var1[24] = var5;
+        var1[23] = var5;
         var5 = {};
         var8 = 'getRemoteVideoSinkPixelCount';
         var5['key'] = var8;
@@ -1133,7 +1118,7 @@ case 76:
             }
         };
         var5['value'] = var8;
-        var1[25] = var5;
+        var1[24] = var5;
         var5 = {};
         var8 = 'emitStats';
         var5['key'] = var8;
@@ -1192,7 +1177,7 @@ case 79:
             return var1;
         };
         var5['value'] = var6;
-        var1[26] = var5;
+        var1[25] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

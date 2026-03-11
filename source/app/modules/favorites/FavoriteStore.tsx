@@ -278,7 +278,7 @@ case 32:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getFavoriteChannels';
@@ -405,7 +405,7 @@ case 37:
         var5 = {};
         var7 = 'getNickname';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var3 = this;
@@ -428,8 +428,28 @@ case 44:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[7] = var5;
+        var5 = {};
+        var7 = 'hasFavorites';
+        var5['key'] = var7;
+        var6 = function value() {
+            var4 = this;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 9;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.isEmpty;
+            var1 = var4.getFavoriteChannels;
+            var1 = var1.bind(var4)();
+            var1 = var2.bind(var3)(var1);
+            var1 = !var1;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

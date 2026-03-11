@@ -78,6 +78,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GAME_FRIEND_REQUEST_ACCEPTED'] = var1;
     var1 = 'reaction_sent';
     var4['REACTION_SENT'] = var1;
+    var1 = 'referral_program_entrypoint_reminder';
+    var4['REFERRAL_PROGRAM_ENTRYPOINT_REMINDER'] = var1;
     var2 = {};
     var1 = 'INCOMING_FRIEND_REQUESTS';
     var2['INCOMING_FRIEND_REQUESTS'] = var1;

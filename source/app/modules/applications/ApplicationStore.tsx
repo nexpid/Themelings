@@ -1553,7 +1553,7 @@ case 79:
         }
     };
     var2['SOCIAL_LAYER_STOREFRONT_LOAD_SUCCESS'] = var8;
-    var4 = function handleSocialLayerStorefrontRecommendationsFetchSuccess(arg1) {
+    var8 = function handleSocialLayerStorefrontRecommendationsFetchSuccess(arg1) {
         var1 = arg1;
         var3 = var1.application;
         var2 = _closure1_slot17;
@@ -1561,7 +1561,42 @@ case 79:
         var2 = var2.bind(var1)(var3);
         return var1;
     };
-    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_SUCCESS'] = var4;
+    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_SUCCESS'] = var8;
+    var4 = function handleWishlistRecommendationsFetchSuccess(arg1) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
+case 0:
+            var1 = arg1;
+            var1 = var1.data;
+            var3 = var1.applications;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0034_ip = 86; continue _fun0034 }
+case 33:
+            var2 = var3.length;
+            var1 = 0;
+            if(!(var1 !== var2)) { _fun0034_ip = 86; continue _fun0034 }
+case 103:
+            var2 = _closure1_slot15;
+            var1 = undefined;
+            var4 = var2.bind(var1)(var3);
+            var3 = var4.bind(var1)();
+            var2 = var3.done;
+            if(var2) { _fun0034_ip = 13; continue _fun0034 }
+case 104:
+            var6 = _closure1_slot17;
+            var2 = var3.value;
+            var2 = var6.bind(var1)(var2);
+            var6 = var4.bind(var1)();
+            var2 = var6.done;
+            var3 = var6;
+            if(!var2) { _fun0034_ip = 104; continue _fun0034 }
+case 13:
+            return var1;
+case 86:
+            var1 = false;
+            return var1;
+        }
+    };
+    var2['WISHLIST_RECOMMENDATIONS_FETCH_SUCCESS'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var15 = var4;

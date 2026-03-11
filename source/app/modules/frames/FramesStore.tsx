@@ -510,7 +510,7 @@ case 38:
         }
     };
     var2['FRAME_SET_PROXY_TICKET_REFRESHING'] = var9;
-    var4 = function handleUpdateProxyTicket(arg1) {
+    var9 = function handleUpdateProxyTicket(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
@@ -538,7 +538,39 @@ case 6:
             return var1;
         }
     };
-    var2['FRAME_UPDATE_PROXY_TICKET'] = var4;
+    var2['FRAME_UPDATE_PROXY_TICKET'] = var9;
+    var4 = function handleChannelSelect() {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+            var2 = _closure1_slot9;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0014_ip = 39; continue _fun0014 }
+case 40:
+            var2 = _closure1_slot9;
+            var3 = var2.layoutMode;
+            var2 = _closure1_slot7;
+            var2 = var2.PIP;
+            var2 = var3 !== var2;
+            if(!var2) { _fun0014_ip = 41; continue _fun0014 }
+case 27:
+            var3 = {};
+            var7 = _closure1_slot9;
+            var8 = var3;
+            var5 = copyDataProperties(var8, var7);
+            var5 = _closure1_slot7;
+            var6 = var5.PIP;
+            var5 = 'layoutMode';
+            var3[var5] = var6;
+            _closure1_slot9 = var3;
+            var2 = true;
+case 41:
+            var1 = var2;
+case 39:
+            return var1;
+        }
+    };
+    var2['CHANNEL_SELECT'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var14 = var4;

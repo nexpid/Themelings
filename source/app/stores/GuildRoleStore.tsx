@@ -697,6 +697,14 @@ case 58:
         }
     };
     var7['OVERLAY_INITIALIZE'] = var4;
+    var4 = function LOGOUT(arg1, arg2) {
+        var2 = arg2;
+        var1 = var2.clear;
+        var1 = var1.bind(var2)();
+        var1 = undefined;
+        return var1;
+    };
+    var7['LOGOUT'] = var4;
     var4 = function RESET_SOCKET(arg1, arg2) {
         var2 = arg2;
         var1 = var2.clear;

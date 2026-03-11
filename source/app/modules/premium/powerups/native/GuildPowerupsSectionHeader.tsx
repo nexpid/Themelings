@@ -67,9 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var10[var6];
         var5 = var7.bind(var4)(var5);
         var11 = var5.Text;
-        var5 = {};
-        var13 = 'heading-lg/semibold';
-        var5['variant'] = var13;
+        var5 = {'variant': 'heading-lg/semibold', 'accessibilityRole': 'header'};
         var5['children'] = var12;
         var11 = var8.bind(var4)(var11, var5);
         var5 = new Array(2);

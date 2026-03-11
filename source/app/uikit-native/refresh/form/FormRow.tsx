@@ -123,7 +123,7 @@ case 6:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var37 = arg2;
+            var32 = arg2;
             var20 = var1.label;
             var _closure2_slot0 = var20;
             var25 = var1.leading;
@@ -161,7 +161,6 @@ case 12:
             var9 = var1.onAccessibilityTap;
             var8 = var1.numberOfLines;
             var _closure2_slot4 = var8;
-            var32 = var1.activeOpacity;
             var35 = var1.style;
             var7 = var1.labelStyle;
             var _closure2_slot5 = var7;
@@ -377,9 +376,9 @@ case 37:
 case 40:
             var30 = {};
             var30['disabled'] = var17;
-            var41 = var30;
-            var40 = var12;
-            var2 = copyDataProperties(var41, var40);
+            var40 = var30;
+            var39 = var12;
+            var2 = copyDataProperties(var40, var39);
             var31 = null;
             if(!(var31 == var6)) { _fun0003_ip = 41; continue _fun0003 }
 case 42:
@@ -388,24 +387,24 @@ case 43:
             var21 = _closure1_slot5;
             var18 = _closure1_slot4;
             var2 = {};
-            var2['ref'] = var37;
-            var38 = var34.container;
+            var2['ref'] = var32;
+            var37 = var34.container;
             var26 = new Array(5);
-            var26[0] = var38;
+            var26[0] = var37;
             var26[1] = var36;
             var26[2] = var35;
-            var38 = var33;
+            var37 = var33;
             if(!var33) { _fun0003_ip = 44; continue _fun0003 }
 case 45:
-            var38 = var34.error;
+            var37 = var34.error;
 case 44:
-            var26[3] = var38;
-            var38 = null;
+            var26[3] = var37;
+            var37 = null;
             if(!var17) { _fun0003_ip = 46; continue _fun0003 }
 case 47:
-            var38 = var34.disabled;
+            var37 = var34.disabled;
 case 46:
-            var26[4] = var38;
+            var26[4] = var37;
             var2['style'] = var26;
             var2['accessible'] = var16;
             var2['accessibilityRole'] = var13;
@@ -422,14 +421,13 @@ case 46:
 case 41:
             var26 = _closure1_slot5;
             var21 = _closure1_slot0;
-            var38 = _closure1_slot2;
+            var37 = _closure1_slot2;
             var18 = 10;
-            var18 = var38[var18];
+            var18 = var37[var18];
             var18 = var21.bind(var4)(var18);
             var21 = var18.PressableHighlight;
             var18 = {};
-            var18['ref'] = var37;
-            var18['activeOpacity'] = var32;
+            var18['ref'] = var32;
             var37 = var34.container;
             var32 = new Array(5);
             var32[0] = var37;

@@ -3,6 +3,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = require;
     var3 = exports;
     var7 = dependencyMap;
+    var1 = metroImportDefault;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var7;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -27,8 +30,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.bind(var1)(var4);
     var12 = var13.createJSONStorage;
     var4 = function() {
-        var1 = global;
-        var1 = var1.localStorage;
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
         return var1;
     };
     var4 = var12.bind(var13)(var4);
@@ -47,8 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var10.bind(var11)(var4, var9);
     var4 = var5.bind(var8)(var4);
-    var _closure1_slot0 = var4;
-    var5 = 2;
+    var _closure1_slot2 = var4;
+    var5 = 3;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -56,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var3['useSharedSpacesWarningStore'] = var4;
     var4 = function getChannelDismissTimestamp(arg1) {
-        var2 = _closure1_slot0;
+        var2 = _closure1_slot2;
         var1 = var2.getState;
         var1 = var1.bind(var2)();
         var2 = var1.channelDismissTimestamps;
@@ -66,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getChannelDismissTimestamp'] = var4;
     var4 = function getUserDismissTimestamp(arg1) {
-        var2 = _closure1_slot0;
+        var2 = _closure1_slot2;
         var1 = var2.getState;
         var1 = var1.bind(var2)();
         var2 = var1.userDismissTimestamps;
@@ -76,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getUserDismissTimestamp'] = var4;
     var4 = function getGlobalDismissTimestamp() {
-        var2 = _closure1_slot0;
+        var2 = _closure1_slot2;
         var1 = var2.getState;
         var1 = var1.bind(var2)();
         var1 = var1.globalDismissTimestamp;
@@ -84,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getGlobalDismissTimestamp'] = var4;
     var4 = function isBlockedWarningQueued() {
-        var2 = _closure1_slot0;
+        var2 = _closure1_slot2;
         var1 = var2.getState;
         var1 = var1.bind(var2)();
         var1 = var1.queuedWarning;
@@ -92,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['isBlockedWarningQueued'] = var4;
     var4 = function queueBlockWarning() {
-        var3 = _closure1_slot0;
+        var3 = _closure1_slot2;
         var2 = var3.setState;
         var1 = {};
         var4 = true;
@@ -103,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['queueBlockWarning'] = var4;
     var4 = function dequeueBlockWarning() {
-        var3 = _closure1_slot0;
+        var3 = _closure1_slot2;
         var2 = var3.setState;
         var1 = {};
         var4 = false;
@@ -116,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function setDismissalTimeForChannel(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
-        var3 = _closure1_slot0;
+        var3 = _closure1_slot2;
         var2 = var3.setState;
         var1 = function(arg1) {
             var1 = {};
@@ -142,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function setDismissalTimeForUser(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
-        var3 = _closure1_slot0;
+        var3 = _closure1_slot2;
         var2 = var3.setState;
         var1 = function(arg1) {
             var1 = {};
@@ -189,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var2 = var4.bind(var5)(var3, var2);
         var _closure2_slot0 = var2;
-        var3 = _closure1_slot0;
+        var3 = _closure1_slot2;
         var2 = var3.setState;
         var1 = function(arg1) {
             var1 = {};

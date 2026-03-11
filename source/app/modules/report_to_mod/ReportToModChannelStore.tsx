@@ -4,7 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -29,8 +31,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.bind(var1)(var4);
     var12 = var13.createJSONStorage;
     var4 = function() {
-        var1 = global;
-        var1 = var1.localStorage;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
         return var1;
     };
     var4 = var12.bind(var13)(var4);
@@ -49,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg2;
             var _closure3_slot1 = var2;
             var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot2;
             var2 = 2;
             var3 = var3[var2];
             var2 = undefined;
@@ -101,8 +107,8 @@ case 2:
     };
     var4 = var10.bind(var11)(var4, var9);
     var4 = var5.bind(var8)(var4);
-    var _closure1_slot2 = var4;
-    var5 = 3;
+    var _closure1_slot3 = var4;
+    var5 = 4;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -114,7 +120,7 @@ case 2:
 case 0:
             var6 = arg1;
             var _closure2_slot0 = var6;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var1 = undefined;
             var5 = var2.bind(var1)();
             var _closure2_slot1 = var5;

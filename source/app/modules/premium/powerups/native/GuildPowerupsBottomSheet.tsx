@@ -138,9 +138,7 @@ case 11:
             var9 = var17[var9];
             var9 = var11.bind(var4)(var9);
             var12 = var9.Text;
-            var9 = {};
-            var19 = 'heading-xl/bold';
-            var9['variant'] = var19;
+            var9 = {'variant': 'heading-xl/bold', 'accessibilityRole': 'header'};
             var19 = var16.title;
             var9['children'] = var19;
             var12 = var18.bind(var4)(var12, var9);

@@ -253,17 +253,6 @@ case 11:
     var11 = var11.useMobileNotificationAppStartupNudgeExperiment;
     var8['useExperiment'] = var11;
     var4[var10] = var8;
-    var10 = var5.DM_SPACE;
-    var8 = {};
-    var11 = var7[var9];
-    var11 = var6.bind(var1)(var11);
-    var11 = var11.getMobileNotificationMessageHomePageNudgeExperiment;
-    var8['getExperiment'] = var11;
-    var11 = var7[var9];
-    var11 = var6.bind(var1)(var11);
-    var11 = var11.useMobileNotificationMessageHomePageNudgeExperiment;
-    var8['useExperiment'] = var11;
-    var4[var10] = var8;
     var8 = var5.CHANNEL_BANNER;
     var5 = {};
     var10 = var7[var9];

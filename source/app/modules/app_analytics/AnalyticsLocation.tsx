@@ -1083,6 +1083,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFT_CARD_REDEMPTION_SUCCESS_MODAL'] = var1;
     var1 = 'game community multi guild upsell guilds bar entrypoint';
     var2['GAME_COMMUNITY_MULTI_GUILD_UPSELL_GUILDS_BAR_ENTRYPOINT'] = var1;
+    var1 = 'favorites guild home';
+    var2['FAVORITES_GUILD_HOME'] = var1;
+    var1 = 'favorites guild upsell modal';
+    var2['FAVORITES_GUILD_UPSELL_MODAL'] = var1;
+    var1 = 'favorites guild button';
+    var2['FAVORITES_GUILD_BUTTON'] = var1;
+    var1 = 'favorites guild menu item';
+    var2['FAVORITES_GUILD_MENU_ITEM'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

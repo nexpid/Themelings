@@ -4,7 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -30,59 +32,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var5.bind(var1)(var11);
     var12 = var13.createJSONStorage;
     var11 = function() {
-        var1 = {};
-        var3 = function getItem(arg1) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var1 = 3;
-                var2 = var2[var1];
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                var3 = var1.Storage;
-                var2 = var3.get;
-                var1 = arg1;
-                var2 = var2.bind(var3)(var1);
-                var1 = null;
-                var3 = var1 != var2;
-                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var1 = var2;
-case 2:
-                return var1;
-            }
-        };
-        var1['getItem'] = var3;
-        var3 = function setItem(arg1, arg2) {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var4 = var1.Storage;
-            var3 = var4.set;
-            var2 = arg1;
-            var1 = arg2;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        };
-        var1['setItem'] = var3;
-        var2 = function removeItem(arg1) {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var3 = var1.Storage;
-            var2 = var3.remove;
-            var1 = arg1;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var1['removeItem'] = var2;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
         return var1;
     };
     var11 = var12.bind(var13)(var11);
@@ -108,14 +63,14 @@ case 2:
             var1 = arg1;
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot2;
             var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.batchUpdates;
             var2 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     var3 = _closure2_slot1;
                     var1 = undefined;
@@ -124,8 +79,8 @@ case 0:
                     var3 = _closure3_slot0;
                     var3 = var7[var3];
                     var6 = true;
-                    if(!(var6 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                    if(!(var6 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure2_slot0;
                     var2 = {};
                     var4 = {};
@@ -136,7 +91,7 @@ case 5:
                     var4[var5] = var6;
                     var2['seenUnfurlQuestIds'] = var4;
                     var2 = var3.bind(var1)(var2);
-case 4:
+case 2:
                     return var1;
                 }
             };

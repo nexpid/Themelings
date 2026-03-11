@@ -1035,8 +1035,8 @@ case 82:
                         return var4;
 case 83:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                        if(var7) { _fun0009_ip = 84; continue _fun0009 }
-case 85:
+                        if(var7) { _fun0009_ip = 23; continue _fun0009 }
+case 84:
                         var7 = _closure1_slot14;
                         var7 = var7.bind(var2)(var4);
                         var9 = _closure1_slot8;
@@ -1057,9 +1057,9 @@ case 85:
                         var7['applicationIds'] = var11;
                         var7['data'] = var10;
                         var7 = var8.bind(var9)(var7);
-case 23: // try_end0
+case 85: // try_end0
                         _fun0009_ip = 86; continue _fun0009;
-case 84:
+case 23:
                         return var4;
 case 87: // catch_target0
                         CatchBlockStart(arg_register=8);

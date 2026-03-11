@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -148,16 +148,11 @@ case 0:
             var2 = 10;
             var2 = var1[var2];
             var5 = var6.bind(var4)(var2);
-            var3 = var5.useIsEligibleForWishlistSkuPreview;
-            var2 = 'mobile_wishlist_banner';
-            var5 = var3.bind(var5)(var2);
-            var2 = 11;
-            var2 = var1[var2];
-            var3 = var6.bind(var4)(var2);
-            var2 = var3.getWishlistInDmLength;
-            var14 = var2.bind(var3)(var5);
+            var3 = var5.getWishlistInDmLength;
+            var2 = false;
+            var14 = var3.bind(var5)(var2);
             var _closure2_slot2 = var14;
-            var2 = 12;
+            var2 = 11;
             var2 = var1[var2];
             var5 = var6.bind(var4)(var2);
             var3 = var5.useWishlistRecommendationsForSingleUser;
@@ -210,7 +205,7 @@ case 3:
 case 2:
                         var5 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var2 = 11;
+                        var2 = 10;
                         var4 = var4[var2];
                         var2 = undefined;
                         var2 = var5.bind(var2)(var4);
@@ -220,7 +215,7 @@ case 2:
 case 4:
                         var5 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var3 = 11;
+                        var3 = 10;
                         var4 = var4[var3];
                         var3 = undefined;
                         var3 = var5.bind(var3)(var4);
@@ -253,7 +248,7 @@ case 5:
             var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 13;
+                var1 = 12;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -277,7 +272,7 @@ case 5:
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 13;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -294,13 +289,13 @@ case 6:
 case 9:
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 14;
                     var2 = var8[var2];
                     var9 = var3.bind(var1)(var2);
                     var4 = var9.openCollectiblesShopMobile;
                     var2 = {};
                     var7 = _closure1_slot1;
-                    var6 = 16;
+                    var6 = 15;
                     var10 = var8[var6];
                     var10 = var7.bind(var1)(var10);
                     var11 = var10.GIFT_SELECTION_MODAL_WISHLIST;
@@ -315,7 +310,7 @@ case 9:
                     var10 = var10.FEATURED_PAGE;
                     var2['screen'] = var10;
                     var2 = var4.bind(var9)(var2);
-                    var2 = 17;
+                    var2 = 16;
                     var2 = var8[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openShopGiftModal;
@@ -342,13 +337,13 @@ case 8:
             var3 = var11.bind(var12)(var3, var8);
             var _closure2_slot7 = var3;
             var8 = _closure1_slot1;
-            var3 = 18;
+            var3 = 17;
             var3 = var1[var3];
             var8 = var8.bind(var4)(var3);
             var3 = var8.getName;
             var8 = var3.bind(var8)(var9);
             var _closure2_slot8 = var8;
-            var3 = 13;
+            var3 = 12;
             var3 = var1[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.BANNER_CONFIG_MOBILE;
@@ -382,7 +377,7 @@ case 12:
             var12 = _closure1_slot10;
             var9 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var8 = 19;
+            var8 = 18;
             var5 = var17[var8];
             var5 = var9.bind(var4)(var5);
             var18 = var5.Text;
@@ -431,7 +426,7 @@ case 15:
                 var5 = _closure1_slot10;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 20;
+                var2 = 19;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);

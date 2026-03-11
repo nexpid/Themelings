@@ -1023,7 +1023,7 @@ case 109:
         }
     };
     var _closure1_slot43 = var1;
-    var1 = function fetchNewLocalMessagesForSelectedChannel() {
+    var1 = function handleAppWillBecomeActive() {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var3 = _closure1_slot14;
@@ -1048,40 +1048,6 @@ case 7:
         }
     };
     var _closure1_slot44 = var1;
-    var1 = function handleAppStateChanged(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-            var1 = arg1;
-            var4 = var1.state;
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 31;
-            var3 = var3[var1];
-            var1 = undefined;
-            var5 = var5.bind(var1)(var3);
-            var3 = var5.isIOS;
-            var3 = var3.bind(var5)();
-            if(var3) { _fun0015_ip = 113; continue _fun0015 }
-case 108:
-            var3 = 'active';
-            if(!(var3 === var4)) { _fun0015_ip = 113; continue _fun0015 }
-case 89:
-            var2 = _closure1_slot44;
-            var2 = var2.bind(var1)();
-            return var1;
-case 113:
-            var1 = false;
-            return var1;
-        }
-    };
-    var _closure1_slot45 = var1;
-    var1 = function handleAppWillBecomeActive() {
-        var2 = _closure1_slot44;
-        var1 = undefined;
-        var2 = var2.bind(var1)();
-        return var1;
-    };
-    var _closure1_slot46 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -1192,12 +1158,12 @@ case 113:
     var _closure1_slot27 = var4;
     var4 = {};
     var _closure1_slot28 = var4;
-    var4 = 32;
+    var4 = 31;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
         var4 = function MessageManager(arg1) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var6 = this;
                 var14 = 0;
@@ -1216,12 +1182,12 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot29;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0016_ip = 114; continue _fun0016 }
-case 115:
+                if(var1) { _fun0015_ip = 113; continue _fun0015 }
+case 114:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var6, var11);
-                _fun0016_ip = 83; continue _fun0016;
-case 114:
+                _fun0015_ip = 83; continue _fun0015;
+case 113:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
@@ -1248,9 +1214,7 @@ case 83:
                 var2 = var6.bind(var7)(var5, var2);
                 var1['stores'] = var2;
                 var2 = {};
-                var5 = _closure1_slot45;
-                var2['APP_STATE_UPDATE'] = var5;
-                var5 = _closure1_slot46;
+                var5 = _closure1_slot44;
                 var2['APP_STATE_UPDATE_WILL_BECOME_ACTIVE'] = var5;
                 var5 = _closure1_slot31;
                 var2['OVERLAY_INITIALIZE'] = var5;
@@ -1357,7 +1321,7 @@ case 83:
     var14 = var4;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 33;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -100,14 +100,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'GUILD_PROFILE';
     var5[var10] = var4;
     var10 = 13;
-    var5['CHANNEL_NAME'] = var10;
-    var4 = 'CHANNEL_NAME';
-    var5[var10] = var4;
-    var10 = 14;
     var5['DEFAULT_REACT_EMOJI'] = var10;
     var4 = 'DEFAULT_REACT_EMOJI';
     var5[var10] = var4;
-    var10 = 15;
+    var10 = 14;
     var5['NO_CUSTOM_EMOJI'] = var10;
     var4 = 'NO_CUSTOM_EMOJI';
     var5[var10] = var4;

@@ -273,48 +273,55 @@ case 37:
         var4 = function AccessibilityFocusLockManager(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var4 = this;
-                var12 = 0;
-                var1 = copyRestArgs(var12);
+                var5 = this;
+                var13 = 0;
+                var1 = copyRestArgs(var13);
                 var7 = _closure1_slot3;
-                var2 = _closure2_slot0;
-                var3 = undefined;
-                var7 = var7.bind(var3)(var4, var2);
-                var9 = new Array(0);
-                var12 = var9;
-                var11 = var1;
-                var10 = 0;
-                var1 = arraySpread(var12, var11, var10);
+                var3 = _closure2_slot0;
+                var4 = undefined;
+                var7 = var7.bind(var4)(var5, var3);
+                var10 = new Array(0);
+                var13 = var10;
+                var12 = var1;
+                var11 = 0;
+                var1 = arraySpread(var13, var12, var11);
                 var1 = _closure1_slot6;
-                var8 = var1.bind(var3)(var2);
-                var2 = _closure1_slot5;
+                var9 = var1.bind(var4)(var3);
+                var3 = _closure1_slot5;
                 var1 = _closure1_slot12;
-                var1 = var1.bind(var3)();
+                var1 = var1.bind(var4)();
                 if(var1) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
-                var1 = var8.apply;
-                var1 = var1.bind(var8)(var4, var9);
+                var1 = var9.apply;
+                var1 = var1.bind(var9)(var5, var10);
                 _fun0005_ip = 41; continue _fun0005;
 case 39:
                 var6 = global;
-                var7 = var6.Reflect;
-                var6 = var7.construct;
-                var5 = _closure1_slot6;
-                var5 = var5.bind(var3)(var4);
-                var5 = var5.constructor;
-                var1 = var6.bind(var7)(var8, var9, var5);
+                var8 = var6.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot6;
+                var6 = var6.bind(var4)(var5);
+                var6 = var6.constructor;
+                var1 = var7.bind(var8)(var9, var10, var6);
 case 41:
-                var1 = var2.bind(var3)(var4, var1);
-                var2 = false;
+                var1 = var3.bind(var4)(var5, var1);
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var2 = 7;
+                var2 = var5[var2];
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.getIsScreenReaderEnabled;
+                var2 = var2.bind(var3)();
                 var1['_screenReaderEnabled'] = var2;
-                var3 = global;
-                var3 = var3.Map;
-                var4 = var3.prototype;
-                var4 = Object.create(var4, {constructor: {value: var3}});
-                var13 = var4;
-                var3 = new var13[var3](var12);
-                var3 = var3 instanceof Object ? var3 : var4;
-                var1['_focusLockedNativeIDGroups'] = var3;
+                var2 = global;
+                var2 = var2.Map;
+                var3 = var2.prototype;
+                var3 = Object.create(var3, {constructor: {value: var2}});
+                var14 = var3;
+                var2 = new var14[var2](var13);
+                var2 = var2 instanceof Object ? var2 : var3;
+                var1['_focusLockedNativeIDGroups'] = var2;
+                var2 = false;
                 var1['_focusLockEnabled'] = var2;
                 var2 = -1;
                 var1['_focusLockEnabledDelayTimeoutId'] = var2;
@@ -379,7 +386,7 @@ case 44:
 case 48:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var6 = 7;
+                var6 = 8;
                 var6 = var8[var6];
                 var7 = var7.bind(var1)(var6);
                 var6 = var7.isAndroid;
@@ -394,7 +401,7 @@ case 50:
 case 49:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 8;
+                var5 = 9;
                 var5 = var7[var5];
                 var6 = var6.bind(var1)(var5);
                 var5 = var6.disableFocusLock;
@@ -411,7 +418,7 @@ case 46:
 case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 7;
+                        var1 = 8;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -429,7 +436,7 @@ case 53:
 case 52:
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var2 = 8;
+                        var2 = 9;
                         var2 = var4[var2];
                         var5 = var3.bind(var1)(var2);
                         var4 = var5.enableFocusLock;
@@ -459,7 +466,7 @@ case 47:
             var _closure3_slot0 = var3;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 9;
+            var1 = 7;
             var4 = var4[var1];
             var1 = undefined;
             var5 = var5.bind(var1)(var4);
