@@ -989,24 +989,24 @@ case 0:
             var2 = null;
             var3 = var2 == var1;
             var2 = undefined;
-            if(var3) { _fun0017_ip = 47; continue _fun0017 }
-case 53:
+            if(var3) { _fun0017_ip = 53; continue _fun0017 }
+case 54:
             var2 = var1.state;
-case 47:
+case 53:
             var1 = 'checking';
             var1 = var1 === var2;
-            if(!var1) { _fun0017_ip = 54; continue _fun0017 }
-case 55:
+            if(!var1) { _fun0017_ip = 55; continue _fun0017 }
+case 56:
             var3 = _closure1_slot14;
             var2 = var3.has;
             var2 = var2.bind(var3)(var7);
-            if(var2) { _fun0017_ip = 56; continue _fun0017 }
-case 57:
+            if(var2) { _fun0017_ip = 27; continue _fun0017 }
+case 13:
             var2 = _closure1_slot13;
             var2[var7] = var6;
             var2 = undefined;
-            _fun0017_ip = 58; continue _fun0017;
-case 56:
+            _fun0017_ip = 57; continue _fun0017;
+case 27:
             var5 = _closure1_slot14;
             var3 = var5.delete;
             var3 = var3.bind(var5)(var7);
@@ -1018,9 +1018,9 @@ case 56:
             var3[var6] = var5;
             _closure1_slot12 = var3;
             var2 = undefined;
-case 58:
+case 57:
             var1 = var2;
-case 54:
+case 55:
             return var1;
         }
     };
@@ -1032,26 +1032,26 @@ case 0:
             var5 = var2.skuId;
             var7 = var2.reason;
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0018_ip = 59; continue _fun0018 }
-case 12:
+            if(!(var7 === var1)) { _fun0018_ip = 9; continue _fun0018 }
+case 16:
             var7 = 'http_error';
-case 59:
+case 9:
             var6 = var2.httpStatus;
             var2 = _closure1_slot12;
             var2 = var2[var5];
             var4 = null;
             var8 = var4 == var2;
             var4 = undefined;
-            if(var8) { _fun0018_ip = 60; continue _fun0018 }
-case 61:
+            if(var8) { _fun0018_ip = 58; continue _fun0018 }
+case 59:
             var4 = var2.state;
-case 60:
+case 58:
             var2 = 'checking';
-            if(!(var2 !== var4)) { _fun0018_ip = 35; continue _fun0018 }
-case 62:
+            if(!(var2 !== var4)) { _fun0018_ip = 60; continue _fun0018 }
+case 61:
             var2 = 'interaction_deadline';
-            if(!(var2 !== var7)) { _fun0018_ip = 63; continue _fun0018 }
-case 35:
+            if(!(var2 !== var7)) { _fun0018_ip = 62; continue _fun0018 }
+case 60:
             var2 = {};
             var9 = _closure1_slot12;
             var10 = var2;
@@ -1064,7 +1064,7 @@ case 35:
             var2[var5] = var4;
             _closure1_slot12 = var2;
             return var1;
-case 63:
+case 62:
             var1 = false;
             return var1;
         }
@@ -1075,29 +1075,36 @@ case 63:
 case 0:
             var1 = arg1;
             var4 = var1.skuId;
-            var3 = var1.recipientId;
-            var6 = var1.eligible;
-            var5 = _closure1_slot7;
-            var1 = var5.getId;
-            var1 = var1.bind(var5)();
-            if(!(var1 === var3)) { _fun0019_ip = 64; continue _fun0019 }
-case 47:
+            var6 = var1.recipientId;
+            var3 = var1.eligible;
+            var5 = var1.ineligibleReason;
+            var7 = _closure1_slot7;
+            var1 = var7.getId;
+            var1 = var1.bind(var7)();
+            if(!(var1 === var6)) { _fun0019_ip = 63; continue _fun0019 }
+case 64:
             var1 = {};
-            var7 = _closure1_slot12;
-            var8 = var1;
-            var3 = copyDataProperties(var8, var7);
+            var8 = _closure1_slot12;
+            var9 = var1;
+            var6 = copyDataProperties(var9, var8);
+            if(var3) { _fun0019_ip = 65; continue _fun0019 }
+case 24:
             var3 = {};
-            var5 = 'ineligible';
-            if(!var6) { _fun0019_ip = 62; continue _fun0019 }
-case 6:
-            var5 = 'eligible';
-case 62:
-            var3['state'] = var5;
+            var6 = 'ineligible';
+            var3['state'] = var6;
+            var3['ineligibleReason'] = var5;
+            _fun0019_ip = 66; continue _fun0019;
+case 65:
+            var5 = {};
+            var6 = 'eligible';
+            var5['state'] = var6;
+            var3 = var5;
+case 66:
             var1[var4] = var3;
             _closure1_slot12 = var1;
             var1 = undefined;
             return var1;
-case 64:
+case 63:
             var1 = false;
             return var1;
         }

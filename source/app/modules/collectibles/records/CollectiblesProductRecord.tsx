@@ -206,6 +206,8 @@ case 13:
             var1['prices'] = var3;
             var3 = var2.bundledProducts;
             var1['bundledProducts'] = var3;
+            var3 = var2.previewAssets;
+            var1['previewAssets'] = var3;
             var3 = var2.googleSkuIds;
             var1['googleSkuIds'] = var3;
             var3 = var2.variants;
@@ -227,51 +229,52 @@ case 13:
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var3 = arg1;
-                var14 = var3.type;
-                var10 = var3.premium_type;
-                var12 = var3.category_sku_id;
+                var15 = var3.type;
+                var11 = var3.premium_type;
+                var13 = var3.category_sku_id;
                 var9 = var3.prices;
-                var11 = var3.bundled_products;
+                var12 = var3.bundled_products;
+                var10 = var3.preview_assets;
                 var7 = var3.variants;
-                var2 = {'type': 0, 'premium_type': 0, 'category_sku_id': 0, 'prices': 0, 'bundled_products': 0, 'variants': 0};
+                var2 = {'type': 0, 'premium_type': 0, 'category_sku_id': 0, 'prices': 0, 'bundled_products': 0, 'preview_assets': 0, 'variants': 0};
                 var6 = null;
-                var21 = var2;
-                var20 = null;
-                var1 = silentSetPrototypeOf(var21, var20);
-                var21 = {};
-                var20 = var3;
-                var19 = var2;
-                var2 = copyDataProperties(var21, var20, var19);
+                var22 = var2;
+                var21 = null;
+                var1 = silentSetPrototypeOf(var22, var21);
+                var22 = {};
+                var21 = var3;
+                var20 = var2;
+                var2 = copyDataProperties(var22, var21, var20);
                 var _closure3_slot0 = var2;
                 var3 = _closure2_slot0;
                 var1 = {};
-                var17 = _closure1_slot15;
+                var18 = _closure1_slot15;
                 var5 = undefined;
-                var20 = 'fromServer';
-                var19 = this;
-                var18 = 2;
-                var22 = undefined;
-                var21 = var3;
-                var15 = var22[var17](var21, var20, var19, var18, var17);
-                var13 = new Array(1);
-                var13[0] = var2;
-                var20 = var15.bind(var5)(var13);
-                var21 = var1;
-                var13 = copyDataProperties(var21, var20);
-                var13 = 'type';
-                var1[var13] = var14;
-                var14 = _closure1_slot11;
-                var13 = null;
-                if(!(var10 !== var14)) { _fun0004_ip = 16; continue _fun0004 }
+                var21 = 'fromServer';
+                var20 = this;
+                var19 = 2;
+                var23 = undefined;
+                var22 = var3;
+                var16 = var23[var18](var22, var21, var20, var19, var18);
+                var14 = new Array(1);
+                var14[0] = var2;
+                var21 = var16.bind(var5)(var14);
+                var22 = var1;
+                var14 = copyDataProperties(var22, var21);
+                var14 = 'type';
+                var1[var14] = var15;
+                var15 = _closure1_slot11;
+                var14 = null;
+                if(!(var11 !== var15)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-                var13 = var10;
+                var14 = var11;
 case 16:
-                var10 = 'premiumType';
-                var1[var10] = var13;
-                var10 = 'categorySkuId';
-                var1[var10] = var12;
-                var12 = _closure1_slot10;
-                var10 = var12.some;
+                var11 = 'premiumType';
+                var1[var11] = var14;
+                var11 = 'categorySkuId';
+                var1[var11] = var13;
+                var13 = _closure1_slot10;
+                var11 = var13.some;
                 var8 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.rewardSkuId;
@@ -280,14 +283,14 @@ case 16:
                     var1 = var2 === var1;
                     return var1;
                 };
-                var10 = var10.bind(var12)(var8);
+                var11 = var11.bind(var13)(var8);
                 var8 = 'isCategoryReward';
-                var1[var8] = var10;
-                var10 = _closure1_slot0;
-                var12 = _closure1_slot1;
+                var1[var8] = var11;
+                var11 = _closure1_slot0;
+                var13 = _closure1_slot1;
                 var8 = 11;
-                var8 = var12[var8];
-                var8 = var10.bind(var5)(var8);
+                var8 = var13[var8];
+                var8 = var11.bind(var5)(var8);
                 var9 = var8.bind(var5)(var9);
                 var8 = 'prices';
                 var1[var8] = var9;
@@ -296,26 +299,43 @@ case 16:
                 var9 = var9.bind(var5)(var8);
                 var8 = 'items';
                 var1[var8] = var9;
-                var8 = var6 == var11;
+                var8 = var6 == var12;
                 var9 = undefined;
                 if(var8) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
-                var10 = var11.map;
+                var11 = var12.map;
                 var8 = _closure1_slot8;
                 var8 = var8.fromServer;
-                var9 = var10.bind(var11)(var8);
+                var9 = var11.bind(var12)(var8);
 case 18:
                 var8 = 'bundledProducts';
                 var1[var8] = var9;
+                var8 = var6 != var10;
+                var9 = undefined;
+                if(!var8) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+                var8 = {};
+                var11 = var10.fg_static;
+                var8['fgStatic'] = var11;
+                var11 = var10.fg_animated;
+                var8['fgAnimated'] = var11;
+                var11 = var10.bg_static;
+                var8['bgStatic'] = var11;
+                var10 = var10.bg_animated;
+                var8['bgAnimated'] = var10;
+                var9 = var8;
+case 20:
+                var8 = 'previewAssets';
+                var1[var8] = var9;
                 var6 = var6 == var7;
                 var5 = undefined;
-                if(var6) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                if(var6) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                 var6 = var7.map;
                 var4 = _closure1_slot12;
                 var4 = var4.fromServer;
                 var5 = var6.bind(var7)(var4);
-case 20:
+case 22:
                 var4 = 'variants';
                 var1[var4] = var5;
                 var5 = var2.google_sku_ids;
@@ -326,9 +346,9 @@ case 20:
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var22 = var2;
-                var21 = var1;
-                var1 = new var22[var3](var21, var20);
+                var23 = var2;
+                var22 = var1;
+                var1 = new var23[var3](var22, var21);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             }

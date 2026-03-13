@@ -118,10 +118,12 @@ case 2:
     var2['CONTEXT_MENU_HIDE_CONTENT'] = var6;
     var6 = 'CONTEXT_MENU.OPEN_GAME_LINK';
     var2['CONTEXT_MENU_OPEN_GAME_LINK'] = var6;
-    var6 = '2026-02-quest-card-learn-more-cta_treatment_1_OPEN_GAME_LINK';
-    var2['CONTEXT_MENU_OPEN_GAME_LINK_EXP_TREATMENT_ONE'] = var6;
-    var6 = '2026-02-quest-card-learn-more-cta_treatment_2_OPEN_GAME_LINK';
-    var2['CONTEXT_MENU_OPEN_GAME_LINK_EXP_TREATMENT_TWO'] = var6;
+    var6 = '2026-03-learn-more-cta-and-expressive-button_treatment_2_OPEN_GAME_LINK';
+    var2['LEARN_MORE_CTA_AND_EXPRESSIVE_BUTTON_TREATMENT_TWO_OPEN_GAME_LINK'] = var6;
+    var6 = '2026-03-learn-more-cta-and-expressive-button_treatment_3_OPEN_GAME_LINK';
+    var2['LEARN_MORE_CTA_AND_EXPRESSIVE_BUTTON_TREATMENT_THREE_OPEN_GAME_LINK'] = var6;
+    var6 = '2026-03-learn-more-cta-and-expressive-button_treatment_4_OPEN_GAME_LINK';
+    var2['LEARN_MORE_CTA_AND_EXPRESSIVE_BUTTON_TREATMENT_FOUR_OPEN_GAME_LINK'] = var6;
     var6 = 'CONTEXT_MENU.OPEN_DISCLOSURE';
     var2['CONTEXT_MENU_OPEN_DISCLOSURE'] = var6;
     var6 = 'CONTEXT_MENU.LEARN_MORE';

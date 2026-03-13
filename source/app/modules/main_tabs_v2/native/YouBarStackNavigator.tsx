@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot14 = var1;
-    var1 = function getYouComponent() {
+    var1 = function getICYMIComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 9;
@@ -40,17 +40,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot15 = var1;
-    var1 = function getICYMIComponent() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 10;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        var1 = var1.default;
-        return var1;
-    };
-    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -111,7 +100,7 @@ case 0:
                 var1 = var1.bind(var2)(var3);
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 11;
+                var2 = 10;
                 var2 = var6[var2];
                 var7 = var5.bind(var3)(var2);
                 var6 = var7.useStateFromStores;
@@ -157,19 +146,19 @@ case 4:
         var _closure2_slot0 = var13;
         var2 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 12;
+        var1 = 11;
         var1 = var3[var1];
         var1 = var2.bind(var4)(var1);
         var1 = var1.bind(var4)();
         var2 = _closure1_slot0;
-        var1 = 13;
+        var1 = 12;
         var1 = var3[var1];
         var8 = var2.bind(var4)(var1);
         var6 = var8.useICYMIEnabled;
         var1 = 'TabsNavigator';
         var12 = var6.bind(var8)(var1);
         var _closure2_slot1 = var12;
-        var1 = 14;
+        var1 = 13;
         var1 = var3[var1];
         var2 = var2.bind(var4)(var1);
         var1 = var2.useAccessibilityNativeStackOptions;
@@ -239,7 +228,7 @@ case 0:
                 var5['options'] = var1;
                 var1 = undefined;
                 var7 = var8.bind(var1)(var7, var5);
-                var5 = new Array(4);
+                var5 = new Array(3);
                 var5[0] = var7;
                 var7 = _closure2_slot1;
                 var6 = null;
@@ -252,7 +241,7 @@ case 9:
                 var12 = _closure1_slot8;
                 var12 = var12.ICYMI;
                 var7['name'] = var12;
-                var12 = _closure1_slot16;
+                var12 = _closure1_slot15;
                 var7['getComponent'] = var12;
                 var12 = function options() {
                     var1 = {};
@@ -267,28 +256,12 @@ case 8:
                 var5[1] = var6;
                 var8 = _closure1_slot9;
                 var6 = _closure1_slot12;
-                var12 = var6.Screen;
-                var7 = {};
-                var11 = _closure1_slot8;
-                var13 = var11.NOTIFICATIONS;
-                var7['name'] = var13;
-                var13 = _closure1_slot14;
-                var7['getComponent'] = var13;
-                var13 = function options() {
-                    var1 = {};
-                    var3 = _closure2_slot2;
-                    var4 = var1;
-                    var2 = copyDataProperties(var4, var3);
-                    return var1;
-                };
-                var7['options'] = var13;
-                var7 = var8.bind(var1)(var12, var7);
-                var5[2] = var7;
                 var7 = var6.Screen;
                 var6 = {};
-                var11 = var11.YOU;
+                var11 = _closure1_slot8;
+                var11 = var11.NOTIFICATIONS;
                 var6['name'] = var11;
-                var10 = _closure1_slot15;
+                var10 = _closure1_slot14;
                 var6['getComponent'] = var10;
                 var9 = function options() {
                     var1 = {};
@@ -299,7 +272,7 @@ case 8:
                 };
                 var6['options'] = var9;
                 var6 = var8.bind(var1)(var7, var6);
-                var5[3] = var6;
+                var5[2] = var6;
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
@@ -313,7 +286,7 @@ case 8:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

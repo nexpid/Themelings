@@ -335,6 +335,16 @@ case 11:
     var17 = var17.colors;
     var17 = var17.BACKGROUND_BASE_LOW;
     var13['backgroundColor'] = var17;
+    var17 = var9[var14];
+    var17 = var15.bind(var1)(var17);
+    var17 = var17.radii;
+    var17 = var17.sm;
+    var13['borderTopLeftRadius'] = var17;
+    var17 = var9[var14];
+    var17 = var15.bind(var1)(var17);
+    var17 = var17.radii;
+    var17 = var17.sm;
+    var13['borderTopRightRadius'] = var17;
     var13['flexGrow'] = var16;
     var7['container'] = var13;
     var16 = 'center';
@@ -507,30 +517,29 @@ case 24:
             _fun0005_ip = 25; continue _fun0005;
 case 22:
             var26 = _closure1_slot7;
+            var25 = _closure1_slot0;
+            var27 = _closure1_slot2;
             if(var21) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
-            var24 = _closure1_slot0;
-            var28 = _closure1_slot2;
             var21 = 16;
-            var21 = var28[var21];
-            var21 = var24.bind(var4)(var21);
+            var21 = var27[var21];
+            var21 = var25.bind(var4)(var21);
             var24 = var21.ArrowLargeLeftIcon;
             var21 = {};
-            var27 = _closure1_slot1;
-            var25 = 6;
-            var25 = var28[var25];
-            var25 = var27.bind(var4)(var25);
-            var25 = var25.colors;
-            var25 = var25.INTERACTIVE_TEXT_DEFAULT;
-            var21['color'] = var25;
+            var29 = _closure1_slot1;
+            var28 = 6;
+            var28 = var27[var28];
+            var28 = var29.bind(var4)(var28);
+            var28 = var28.colors;
+            var28 = var28.INTERACTIVE_TEXT_DEFAULT;
+            var21['color'] = var28;
             var21 = var26.bind(var4)(var24, var21);
             _fun0005_ip = 28; continue _fun0005;
 case 26:
-            var25 = _closure1_slot1;
-            var27 = _closure1_slot2;
             var24 = 15;
             var24 = var27[var24];
-            var25 = var25.bind(var4)(var24);
+            var24 = var25.bind(var4)(var24);
+            var25 = var24.LeftBackIconWithBadge;
             var24 = {};
             var21 = var26.bind(var4)(var25, var24);
 case 28:

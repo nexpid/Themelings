@@ -72,10 +72,10 @@ case 4:
             var _closure2_slot3 = var2;
             var8 = var3.disabled;
             var _closure2_slot4 = var8;
-            var7 = var3.variant;
-            if(!(var7 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+            var10 = var3.variant;
+            if(!(var10 === var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var7 = 'tertiary';
+            var10 = 'tertiary';
 case 6:
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
@@ -95,14 +95,20 @@ case 9:
             var9 = var3 === var20;
 case 8:
             _closure2_slot5 = var9;
+            var6 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var5 = 4;
+            var5 = var11[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = 'BalanceWidgetPill';
+            var7 = var6.bind(var4)(var5);
             var6 = _closure1_slot12;
             var5 = 'android';
-            var15 = var6.bind(var4)(var5, var7);
+            var15 = var6.bind(var4)(var5, var10, var7);
             var7 = _closure1_slot4;
             var6 = var7.useContext;
             var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var5 = 4;
+            var5 = 5;
             var5 = var11[var5];
             var5 = var10.bind(var4)(var5);
             var5 = var5.AccessibilityPreferencesContext;
@@ -146,7 +152,7 @@ case 10:
             _closure2_slot13 = var3;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 5;
+            var3 = 6;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var12 = var3.bind(var4)(var20);
@@ -382,7 +388,7 @@ case 37:
             var5['accessibilityRole'] = var7;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var10 = 6;
+            var10 = 7;
             var7 = var14[var10];
             var7 = var13.bind(var4)(var7);
             var12 = var7.intl;
@@ -424,7 +430,7 @@ case 42:
             var10['style'] = var11;
             var14 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var11 = 7;
+            var11 = 8;
             var11 = var23[var11];
             var11 = var14.bind(var4)(var11);
             var13 = var11.OrbLottieAnimation;
@@ -439,7 +445,7 @@ case 42:
             var11 = {};
             var13 = var15.balanceCounterContainer;
             var11['style'] = var13;
-            var13 = 8;
+            var13 = 9;
             var13 = var23[var13];
             var13 = var14.bind(var4)(var13);
             var14 = var13.BalanceCounter;
@@ -454,7 +460,7 @@ case 44:
             var13['onValueReached'] = var17;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var16 = 9;
+            var16 = 10;
             var16 = var18[var16];
             var16 = var17.bind(var4)(var16);
             var16 = var16.EXPECTED_ORB_LOTTIE_ANIMATION_DURATION_MS;
@@ -477,11 +483,11 @@ case 44:
     var2 = var4.bind(var1)(var2);
     var4 = 'BalanceWidgetPill';
     var2['displayName'] = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
-    var4 = function(arg1, arg2) {
+    var4 = function(arg1, arg2, arg3) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = arg2;
@@ -493,47 +499,47 @@ case 12:
 case 47:
             var6 = undefined;
             var1 = 'tertiary';
-            var3 = undefined;
+            var5 = undefined;
             var4 = undefined;
             if(!(var1 === var2)) { _fun0007_ip = 48; continue _fun0007 }
 case 28:
-            var5 = _closure1_slot1;
+            var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var2 = var7[var1];
-            var2 = var5.bind(var6)(var2);
+            var2 = var3.bind(var6)(var2);
             var2 = var2.colors;
-            var3 = var2.BACKGROUND_MOD_SUBTLE;
+            var5 = var2.BACKGROUND_MOD_SUBTLE;
             var1 = var7[var1];
-            var1 = var5.bind(var6)(var1);
+            var1 = var3.bind(var6)(var1);
             var1 = var1.colors;
             var4 = var1.REDESIGN_BUTTON_TERTIARY_TEXT;
             _fun0007_ip = 48; continue _fun0007;
 case 20:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var2 = var7[var1];
-            var5 = undefined;
-            var2 = var6.bind(var5)(var2);
+            var3 = undefined;
+            var2 = var6.bind(var3)(var2);
             var2 = var2.colors;
-            var3 = var2.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
+            var5 = var2.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
             var1 = var7[var1];
-            var1 = var6.bind(var5)(var1);
+            var1 = var6.bind(var3)(var1);
             var1 = var1.colors;
             var4 = var1.CONTROL_SECONDARY_TEXT_DEFAULT;
             _fun0007_ip = 48; continue _fun0007;
 case 46:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var2 = var7[var1];
-            var5 = undefined;
-            var2 = var6.bind(var5)(var2);
+            var3 = undefined;
+            var2 = var6.bind(var3)(var2);
             var2 = var2.colors;
-            var3 = var2.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
+            var5 = var2.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
             var1 = var7[var1];
-            var1 = var6.bind(var5)(var1);
+            var1 = var6.bind(var3)(var1);
             var1 = var1.colors;
             var4 = var1.CONTROL_PRIMARY_TEXT_DEFAULT;
 case 48:
@@ -541,23 +547,28 @@ case 48:
             var2 = {'height': 36, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row'};
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var5 = 11;
-            var9 = var8[var5];
-            var6 = undefined;
-            var9 = var7.bind(var6)(var9);
+            var6 = 12;
+            var9 = var8[var6];
+            var3 = undefined;
+            var9 = var7.bind(var3)(var9);
             var9 = var9.radii;
             var9 = var9.round;
             var2['borderRadius'] = var9;
-            var9 = var8[var5];
-            var9 = var7.bind(var6)(var9);
+            var9 = var8[var6];
+            var9 = var7.bind(var3)(var9);
             var9 = var9.spacing;
             var9 = var9.PX_12;
             var2['paddingHorizontal'] = var9;
-            var5 = var8[var5];
-            var5 = var7.bind(var6)(var5);
-            var5 = var5.spacing;
-            var5 = var5.PX_4;
-            var2['paddingVertical'] = var5;
+            var6 = var8[var6];
+            var6 = var7.bind(var3)(var6);
+            var6 = var6.spacing;
+            var6 = var6.PX_4;
+            var2['paddingVertical'] = var6;
+            var6 = arg3;
+            if(var6) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
+            var3 = var5;
+case 49:
             var2['backgroundColor'] = var3;
             var3 = 0;
             var2['borderWidth'] = var3;
@@ -574,10 +585,10 @@ case 48:
             var2['textAlign'] = var4;
             var5 = 'android';
             var4 = arg1;
-            if(!(var5 === var4)) { _fun0007_ip = 49; continue _fun0007 }
-case 50:
+            if(!(var5 === var4)) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var3 = 16;
-case 49:
+case 51:
             var2['lineHeight'] = var3;
             var1['balanceText'] = var2;
             return var1;
@@ -585,7 +596,7 @@ case 49:
     };
     var4 = var8.bind(var9)(var4);
     var _closure1_slot12 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -311,7 +311,7 @@ case 24:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(18);
+        var1 = new Array(19);
         var1[0] = var5;
         var5 = {};
         var7 = 'outboundPromotions';
@@ -464,6 +464,32 @@ case 17:
         var5['value'] = var7;
         var1[13] = var5;
         var5 = {};
+        var7 = 'getPromotionByTypeAndKey';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            var2 = arg2;
+            var _closure3_slot0 = var2;
+            var2 = global;
+            var4 = var2.Object;
+            var3 = var4.values;
+            var5 = _closure1_slot16;
+            var2 = arg1;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.promotionKey;
+                var1 = _closure3_slot0;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[14] = var5;
+        var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
         var7 = function value() {
@@ -471,7 +497,7 @@ case 17:
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'getMarketingComponentByType';
         var5['key'] = var7;
@@ -492,7 +518,7 @@ case 17:
             }
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getGiftPromotionRewardSkuIds';
         var5['key'] = var7;
@@ -528,7 +554,7 @@ case 9:
             }
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'getMarketingMomentRewardSkuIds';
         var5['key'] = var7;
@@ -564,7 +590,7 @@ case 9:
             }
         };
         var5['value'] = var6;
-        var1[17] = var5;
+        var1[18] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

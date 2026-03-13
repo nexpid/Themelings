@@ -31,45 +31,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var10 = {'width': 24, 'height': 24, 'flexGrow': 0, 'flexShrink': 0, 'alignItems': 'center', 'justifyContent': 'center', 'borderRadius': null, 'borderWidth': 2};
+    var10 = {'width': null, 'height': null, 'flexGrow': 0, 'flexShrink': 0, 'alignItems': 'center', 'justifyContent': 'center'};
     var11 = 3;
     var12 = var6[var11];
     var12 = var9.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.sm;
+    var12 = var12.modules;
+    var12 = var12.mobile;
+    var12 = var12.CONTROL_CHECKBOX_SIZE_DEFAULT;
+    var10['width'] = var12;
+    var12 = var6[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.modules;
+    var12 = var12.mobile;
+    var12 = var12.CONTROL_CHECKBOX_SIZE_DEFAULT;
+    var10['height'] = var12;
+    var12 = var6[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.modules;
+    var12 = var12.mobile;
+    var12 = var12.CONTROL_CHECKBOX_BORDER_RADIUS;
     var10['borderRadius'] = var12;
     var12 = var6[var11];
     var12 = var9.bind(var1)(var12);
+    var12 = var12.modules;
+    var12 = var12.mobile;
+    var12 = var12.CONTROL_CHECKBOX_BORDER_WIDTH;
+    var10['borderWidth'] = var12;
+    var12 = var6[var11];
+    var12 = var9.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
+    var12 = var12.CHECKBOX_BORDER_DEFAULT;
     var10['borderColor'] = var12;
     var4['checkbox'] = var10;
     var10 = {};
-    var12 = 'transparent';
+    var12 = var6[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.CHECKBOX_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var12;
     var12 = var6[var11];
     var12 = var9.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
+    var12 = var12.CHECKBOX_BORDER_DEFAULT;
     var10['borderColor'] = var12;
     var4['unselected'] = var10;
     var10 = {};
     var12 = var6[var11];
     var12 = var9.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.REDESIGN_INPUT_CONTROL_SELECTED;
+    var12 = var12.CHECKBOX_BORDER_SELECTED_DEFAULT;
     var10['borderColor'] = var12;
     var12 = var6[var11];
     var12 = var9.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.REDESIGN_INPUT_CONTROL_SELECTED;
+    var12 = var12.CHECKBOX_BACKGROUND_SELECTED_DEFAULT;
     var10['backgroundColor'] = var12;
     var4['selected'] = var10;
     var10 = {};
     var11 = var6[var11];
     var11 = var9.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.WHITE;
+    var11 = var11.CHECKBOX_ICON_ACTIVE;
     var10['tintColor'] = var11;
     var4['checkmark'] = var10;
     var4 = var7.bind(var8)(var4);
@@ -91,243 +113,259 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = "function FormCheckboxNativeTsx2(){const{useReducedMotion,withSpring,checked,SUBTLE_SPRING}=this.__closure;const uncheckedScale=useReducedMotion?1:0.5;return{opacity:withSpring(checked?1:0,SUBTLE_SPRING,'animate-always'),transform:[{scale:withSpring(checked?1:uncheckedScale,SUBTLE_SPRING)}]};}";
     var4['code'] = var7;
     var _closure1_slot8 = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'design/components/Forms/native/FormCheckbox.native.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function FormCheckbox(arg1) {
-        var2 = arg1;
-        var3 = var2.checked;
-        var2 = _closure1_slot5;
-        var4 = undefined;
-        var7 = var2.bind(var4)();
-        var8 = _closure1_slot3;
-        var6 = var8.useContext;
-        var9 = _closure1_slot0;
-        var11 = _closure1_slot2;
-        var2 = 6;
-        var2 = var11[var2];
-        var2 = var9.bind(var4)(var2);
-        var2 = var2.AccessibilityPreferencesContext;
-        var2 = var6.bind(var8)(var2);
-        var2 = var2.reducedMotion;
-        var2 = var2.enabled;
-        var6 = function useCheckboxStyles(arg1) {
-            var11 = arg1;
-            var _closure3_slot0 = var11;
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var2 = arg1;
+            var3 = var2.checked;
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var2 = 6;
+            var2 = var13[var2];
+            var4 = undefined;
+            var5 = var12.bind(var4)(var2);
+            var2 = 'FormCheckbox';
+            var9 = var5.bind(var4)(var2);
             var2 = _closure1_slot5;
-            var8 = undefined;
-            var2 = var2.bind(var8)();
-            var10 = var2.selected;
-            var _closure3_slot1 = var10;
-            var6 = var2.unselected;
-            var _closure3_slot2 = var6;
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var2 = 4;
-            var2 = var9[var2];
-            var3 = var7.bind(var8)(var2);
-            var2 = var3.useAnimatedStyle;
-            var1 = function S() {
-                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                    var1 = {};
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var5 = 8;
-                    var3 = var3[var5];
-                    var8 = undefined;
-                    var13 = var4.bind(var8)(var3);
-                    var12 = var13.withSpring;
-                    var3 = _closure3_slot0;
-                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                    var3 = _closure3_slot2;
-                    var11 = var3.borderColor;
-                    _fun0001_ip = 4; continue _fun0001;
-case 2:
-                    var3 = _closure3_slot1;
-                    var11 = var3.borderColor;
-case 4:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var9 = 9;
-                    var6 = var3[var9];
-                    var6 = var4.bind(var8)(var6);
-                    var10 = var6.SUBTLE_SPRING;
-                    var6 = 'animate-always';
-                    var10 = var12.bind(var13)(var11, var10, var6);
-                    var1['borderColor'] = var10;
-                    var3 = var3[var5];
-                    var5 = var4.bind(var8)(var3);
-                    var4 = var5.withSpring;
-                    var3 = _closure3_slot0;
-                    if(var3) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-                    var3 = _closure3_slot2;
-                    var3 = var3.backgroundColor;
-                    _fun0001_ip = 7; continue _fun0001;
-case 5:
-                    var7 = _closure3_slot1;
-                    var3 = var7.backgroundColor;
-case 7:
-                    var7 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var2 = var2[var9];
-                    var2 = var7.bind(var8)(var2);
-                    var2 = var2.SUBTLE_SPRING;
-                    var2 = var4.bind(var5)(var3, var2, var6);
-                    var1['backgroundColor'] = var2;
-                    return var1;
-                }
-            };
-            var5 = {};
-            var12 = 8;
-            var12 = var9[var12];
-            var12 = var7.bind(var8)(var12);
-            var12 = var12.withSpring;
-            var5['withSpring'] = var12;
-            var5['checked'] = var11;
-            var5['selected'] = var10;
-            var5['unselected'] = var6;
-            var6 = 9;
-            var6 = var9[var6];
-            var6 = var7.bind(var8)(var6);
-            var6 = var6.SUBTLE_SPRING;
-            var5['SUBTLE_SPRING'] = var6;
-            var1['__closure'] = var5;
-            var5 = 11278373524374.0;
-            var1['__workletHash'] = var5;
-            var4 = _closure1_slot7;
-            var1['__initData'] = var4;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var9 = var6.bind(var4)(var3);
-        var1 = function useCheckmarkStyles(arg1, arg2) {
-            var10 = arg1;
-            var6 = arg2;
-            var _closure3_slot0 = var10;
-            var _closure3_slot1 = var6;
+            var7 = var2.bind(var4)();
+            var6 = _closure1_slot3;
+            var5 = var6.useContext;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var2 = 4;
-            var2 = var9[var2];
-            var7 = undefined;
-            var3 = var8.bind(var7)(var2);
-            var2 = var3.useAnimatedStyle;
-            var1 = function c() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            var2 = 7;
+            var2 = var13[var2];
+            var2 = var8.bind(var4)(var2);
+            var2 = var2.AccessibilityPreferencesContext;
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.reducedMotion;
+            var2 = var2.enabled;
+            var5 = function useCheckboxStyles(arg1) {
+                var11 = arg1;
+                var _closure3_slot0 = var11;
+                var2 = _closure1_slot5;
+                var8 = undefined;
+                var2 = var2.bind(var8)();
+                var10 = var2.selected;
+                var _closure3_slot1 = var10;
+                var6 = var2.unselected;
+                var _closure3_slot2 = var6;
+                var7 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var2 = 4;
+                var2 = var9[var2];
+                var3 = var7.bind(var8)(var2);
+                var2 = var3.useAnimatedStyle;
+                var1 = function _() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var1 = _closure3_slot0;
-                    var7 = 0.5;
-                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var7 = 1;
-case 8:
-                    var1 = {};
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var10 = 8;
-                    var3 = var3[var10];
-                    var8 = undefined;
-                    var14 = var5.bind(var8)(var3);
-                    var13 = var14.withSpring;
-                    var3 = _closure3_slot1;
-                    var12 = 0;
-                    if(!var3) { _fun0002_ip = 10; continue _fun0002 }
+                        var1 = {};
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var5 = 9;
+                        var3 = var3[var5];
+                        var8 = undefined;
+                        var13 = var4.bind(var8)(var3);
+                        var12 = var13.withSpring;
+                        var3 = _closure3_slot0;
+                        if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                        var3 = _closure3_slot2;
+                        var11 = var3.borderColor;
+                        _fun0002_ip = 4; continue _fun0002;
+case 2:
+                        var3 = _closure3_slot1;
+                        var11 = var3.borderColor;
 case 4:
-                    var12 = 1;
-case 10:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var9 = 9;
-                    var3 = var5[var9];
-                    var3 = var6.bind(var8)(var3);
-                    var11 = var3.SUBTLE_SPRING;
-                    var3 = 'animate-always';
-                    var3 = var13.bind(var14)(var12, var11, var3);
-                    var1['opacity'] = var3;
-                    var3 = {};
-                    var5 = var5[var10];
-                    var6 = var6.bind(var8)(var5);
-                    var5 = var6.withSpring;
-                    var10 = _closure3_slot1;
-                    var4 = 1;
-                    if(var10) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-                    var4 = var7;
-case 11:
-                    var7 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var2 = var2[var9];
-                    var2 = var7.bind(var8)(var2);
-                    var2 = var2.SUBTLE_SPRING;
-                    var2 = var5.bind(var6)(var4, var2);
-                    var3['scale'] = var2;
-                    var2 = new Array(1);
-                    var2[0] = var3;
-                    var1['transform'] = var2;
-                    return var1;
-                }
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var9 = 10;
+                        var6 = var3[var9];
+                        var6 = var4.bind(var8)(var6);
+                        var10 = var6.SUBTLE_SPRING;
+                        var6 = 'animate-always';
+                        var10 = var12.bind(var13)(var11, var10, var6);
+                        var1['borderColor'] = var10;
+                        var3 = var3[var5];
+                        var5 = var4.bind(var8)(var3);
+                        var4 = var5.withSpring;
+                        var3 = _closure3_slot0;
+                        if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                        var3 = _closure3_slot2;
+                        var3 = var3.backgroundColor;
+                        _fun0002_ip = 7; continue _fun0002;
+case 5:
+                        var7 = _closure3_slot1;
+                        var3 = var7.backgroundColor;
+case 7:
+                        var7 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var2 = var2[var9];
+                        var2 = var7.bind(var8)(var2);
+                        var2 = var2.SUBTLE_SPRING;
+                        var2 = var4.bind(var5)(var3, var2, var6);
+                        var1['backgroundColor'] = var2;
+                        return var1;
+                    }
+                };
+                var5 = {};
+                var12 = 9;
+                var12 = var9[var12];
+                var12 = var7.bind(var8)(var12);
+                var12 = var12.withSpring;
+                var5['withSpring'] = var12;
+                var5['checked'] = var11;
+                var5['selected'] = var10;
+                var5['unselected'] = var6;
+                var6 = 10;
+                var6 = var9[var6];
+                var6 = var7.bind(var8)(var6);
+                var6 = var6.SUBTLE_SPRING;
+                var5['SUBTLE_SPRING'] = var6;
+                var1['__closure'] = var5;
+                var5 = 11278373524374.0;
+                var1['__workletHash'] = var5;
+                var4 = _closure1_slot7;
+                var1['__initData'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
+            var6 = var5.bind(var4)(var3);
+            var1 = function useCheckmarkStyles(arg1, arg2) {
+                var10 = arg1;
+                var6 = arg2;
+                var _closure3_slot0 = var10;
+                var _closure3_slot1 = var6;
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var2 = 4;
+                var2 = var9[var2];
+                var7 = undefined;
+                var3 = var8.bind(var7)(var2);
+                var2 = var3.useAnimatedStyle;
+                var1 = function c() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var1 = _closure3_slot0;
+                        var7 = 0.5;
+                        if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
+                        var7 = 1;
+case 8:
+                        var1 = {};
+                        var5 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var10 = 9;
+                        var3 = var3[var10];
+                        var8 = undefined;
+                        var14 = var5.bind(var8)(var3);
+                        var13 = var14.withSpring;
+                        var3 = _closure3_slot1;
+                        var12 = 0;
+                        if(!var3) { _fun0003_ip = 10; continue _fun0003 }
+case 4:
+                        var12 = 1;
+case 10:
+                        var6 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        var9 = 10;
+                        var3 = var5[var9];
+                        var3 = var6.bind(var8)(var3);
+                        var11 = var3.SUBTLE_SPRING;
+                        var3 = 'animate-always';
+                        var3 = var13.bind(var14)(var12, var11, var3);
+                        var1['opacity'] = var3;
+                        var3 = {};
+                        var5 = var5[var10];
+                        var6 = var6.bind(var8)(var5);
+                        var5 = var6.withSpring;
+                        var10 = _closure3_slot1;
+                        var4 = 1;
+                        if(var10) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+                        var4 = var7;
+case 11:
+                        var7 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var2 = var2[var9];
+                        var2 = var7.bind(var8)(var2);
+                        var2 = var2.SUBTLE_SPRING;
+                        var2 = var5.bind(var6)(var4, var2);
+                        var3['scale'] = var2;
+                        var2 = new Array(1);
+                        var2[0] = var3;
+                        var1['transform'] = var2;
+                        return var1;
+                    }
+                };
+                var5 = {};
+                var5['useReducedMotion'] = var10;
+                var10 = 9;
+                var10 = var9[var10];
+                var10 = var8.bind(var7)(var10);
+                var10 = var10.withSpring;
+                var5['withSpring'] = var10;
+                var5['checked'] = var6;
+                var6 = 10;
+                var6 = var9[var6];
+                var6 = var8.bind(var7)(var6);
+                var6 = var6.SUBTLE_SPRING;
+                var5['SUBTLE_SPRING'] = var6;
+                var1['__closure'] = var5;
+                var5 = 13939484082835.0;
+                var1['__workletHash'] = var5;
+                var4 = _closure1_slot8;
+                var1['__initData'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var8 = var1.bind(var4)(var2, var3);
+            var3 = _closure1_slot4;
+            var1 = 4;
+            var1 = var13[var1];
+            var1 = var12.bind(var4)(var1);
+            var2 = var1.View;
+            var1 = {};
+            var11 = var7.checkbox;
+            var5 = new Array(2);
+            var5[0] = var11;
+            var5[1] = var6;
+            var1['style'] = var5;
+            var6 = _closure1_slot6;
             var5 = {};
-            var5['useReducedMotion'] = var10;
-            var10 = 8;
-            var10 = var9[var10];
-            var10 = var8.bind(var7)(var10);
-            var10 = var10.withSpring;
-            var5['withSpring'] = var10;
-            var5['checked'] = var6;
-            var6 = 9;
-            var6 = var9[var6];
-            var6 = var8.bind(var7)(var6);
-            var6 = var6.SUBTLE_SPRING;
-            var5['SUBTLE_SPRING'] = var6;
-            var1['__closure'] = var5;
-            var5 = 13939484082835.0;
-            var1['__workletHash'] = var5;
-            var4 = _closure1_slot8;
-            var1['__initData'] = var4;
-            var1 = var2.bind(var3)(var1);
+            var11 = 8;
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var5['source'] = var11;
+            var11 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var10 = 5;
+            var10 = var12[var10];
+            var10 = var11.bind(var4)(var10);
+            var10 = var10.Sizes;
+            if(var9) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            var9 = var10.SMALL;
+            _fun0001_ip = 15; continue _fun0001;
+case 13:
+            var9 = var10.SMALL_20;
+case 15:
+            var5['size'] = var9;
+            var9 = var7.checkmark;
+            var7 = new Array(2);
+            var7[0] = var9;
+            var7[1] = var8;
+            var5['style'] = var7;
+            var5 = var3.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
-        };
-        var8 = var1.bind(var4)(var2, var3);
-        var3 = _closure1_slot4;
-        var10 = _closure1_slot1;
-        var1 = 4;
-        var1 = var11[var1];
-        var1 = var10.bind(var4)(var1);
-        var2 = var1.View;
-        var1 = {};
-        var12 = var7.checkbox;
-        var6 = new Array(2);
-        var6[0] = var12;
-        var6[1] = var9;
-        var1['style'] = var6;
-        var6 = _closure1_slot6;
-        var5 = {};
-        var9 = 7;
-        var9 = var11[var9];
-        var9 = var10.bind(var4)(var9);
-        var5['source'] = var9;
-        var9 = 5;
-        var9 = var11[var9];
-        var9 = var10.bind(var4)(var9);
-        var9 = var9.Sizes;
-        var9 = var9.SMALL;
-        var5['size'] = var9;
-        var9 = var7.checkmark;
-        var7 = new Array(2);
-        var7[0] = var9;
-        var7[1] = var8;
-        var5['style'] = var7;
-        var5 = var3.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        }
     };
     var3['FormCheckbox'] = var2;
     return var1;

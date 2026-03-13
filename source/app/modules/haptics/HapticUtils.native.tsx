@@ -111,8 +111,36 @@ case 16:
             var2 = var2[var6];
             var2 = var4.bind(var1)(var2);
             var2 = var2.SOFT;
-            if(!(var2 === var3)) { _fun0002_ip = 17; continue _fun0002 }
+            if(!(var2 !== var3)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.SELECTION;
+            if(!(var2 === var3)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 1;
+            var2 = var7[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trigger;
+            var6 = _closure1_slot0;
+            var2 = 2;
+            var2 = var7[var2];
+            var6 = var6.bind(var1)(var2);
+            var2 = var6.isAndroid;
+            var6 = var2.bind(var6)();
+            var2 = 'selection';
+            if(!var6) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+            var6 = _closure1_slot3;
+            var2 = var6.bind(var1)();
+case 21:
+            var2 = var3.bind(var4)(var2);
+            _fun0002_ip = 19; continue _fun0002;
+case 17:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 1;
@@ -121,7 +149,7 @@ case 18:
             var3 = var4.trigger;
             var2 = 'soft';
             var2 = var3.bind(var4)(var2);
-            _fun0002_ip = 17; continue _fun0002;
+            _fun0002_ip = 19; continue _fun0002;
 case 15:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -136,13 +164,13 @@ case 15:
             var2 = var6.isAndroid;
             var6 = var2.bind(var6)();
             var2 = 'impactMedium';
-            if(!var6) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+            if(!var6) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var6 = _closure1_slot3;
             var2 = var6.bind(var1)();
-case 19:
+case 23:
             var2 = var3.bind(var4)(var2);
-            _fun0002_ip = 17; continue _fun0002;
+            _fun0002_ip = 19; continue _fun0002;
 case 13:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -157,13 +185,13 @@ case 13:
             var2 = var6.isAndroid;
             var6 = var2.bind(var6)();
             var2 = 'notificationSuccess';
-            if(!var6) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+            if(!var6) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var6 = _closure1_slot3;
             var2 = var6.bind(var1)();
-case 21:
+case 25:
             var2 = var3.bind(var4)(var2);
-            _fun0002_ip = 17; continue _fun0002;
+            _fun0002_ip = 19; continue _fun0002;
 case 11:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -178,12 +206,12 @@ case 11:
             var2 = var6.isAndroid;
             var6 = var2.bind(var6)();
             var2 = 'impactHeavy';
-            if(!var6) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(!var6) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var2 = 'impactMedium';
-case 23:
+case 27:
             var2 = var3.bind(var4)(var2);
-            _fun0002_ip = 17; continue _fun0002;
+            _fun0002_ip = 19; continue _fun0002;
 case 9:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -193,7 +221,7 @@ case 9:
             var3 = var4.trigger;
             var2 = 'notificationError';
             var2 = var3.bind(var4)(var2);
-            _fun0002_ip = 17; continue _fun0002;
+            _fun0002_ip = 19; continue _fun0002;
 case 7:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -203,7 +231,7 @@ case 7:
             var3 = var4.trigger;
             var2 = 'impactHeavy';
             var2 = var3.bind(var4)(var2);
-            _fun0002_ip = 17; continue _fun0002;
+            _fun0002_ip = 19; continue _fun0002;
 case 6:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -218,13 +246,13 @@ case 6:
             var2 = var6.isAndroid;
             var6 = var2.bind(var6)();
             var2 = 'impactMedium';
-            if(!var6) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+            if(!var6) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
             var6 = _closure1_slot3;
             var2 = var6.bind(var1)();
-case 25:
+case 29:
             var2 = var3.bind(var4)(var2);
-            _fun0002_ip = 17; continue _fun0002;
+            _fun0002_ip = 19; continue _fun0002;
 case 4:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -239,13 +267,13 @@ case 4:
             var2 = var6.isAndroid;
             var6 = var2.bind(var6)();
             var2 = 'selection';
-            if(!var6) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+            if(!var6) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var5 = _closure1_slot3;
             var2 = var5.bind(var1)();
-case 27:
+case 31:
             var2 = var3.bind(var4)(var2);
-case 17:
+case 19:
             return var1;
         }
     };

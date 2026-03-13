@@ -363,7 +363,7 @@ case 25: // try_start_0 // try_start_1
                         var5['loadId'] = var2;
                         var2 = 'collectibles';
                         var2 = var8.bind(var4)(var2, var7, var5);
-                        SaveGenerator(address=202);
+                        SaveGenerator(address=201);
 case 26:
                         return var2;
 case 27:
@@ -385,12 +385,12 @@ case 32: // try_end3 // try_end5
                         var5 = _closure2_slot9;
                         var5['current'] = var7;
                         return var2;
-case 33: // try_start_2 // try_start_4 // try_start_6 // catch_target0
+case 4: // try_start_2 // try_start_4 // try_start_6 // catch_target0
                         CatchBlockStart(arg_register=1);
                         var5 = _closure2_slot4;
                         var5 = var5.bind(var4)();
                         throw var2;
-case 34: // try_end2 // catch_target1 // catch_target2
+case 33: // try_end2 // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=1);
                         var7 = _closure2_slot9;
                         var5 = false;
@@ -414,35 +414,35 @@ case 19:
                         var6 = null;
                         var7 = var6 == var7;
                         var6 = undefined;
-                        if(var7) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+                        if(var7) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
                         var7 = _closure2_slot7;
                         var6 = var7.options;
-case 35:
+case 34:
                         var2['giftInfoOptions'] = var6;
                         var6 = _closure2_slot4;
                         var2['onPurchaseError'] = var6;
                         var2 = var5.bind(var4)(var2);
-                        SaveGenerator(address=389);
-case 37:
+                        SaveGenerator(address=387);
+case 36:
                         return var2;
-case 38:
+case 37:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0003_ip = 39; continue _fun0003 }
+                        if(var5) { _fun0003_ip = 38; continue _fun0003 }
 case 31: // try_end4 // try_end6
                         var6 = _closure2_slot9;
                         var5 = false;
                         var6['current'] = var5;
                         return var4;
-case 39:
+case 38:
                         var5 = _closure2_slot9;
                         var4 = false;
                         var5['current'] = var4;
                         return var2;
-case 40: // try_start_7 // catch_target3 // catch_target4
+case 39: // try_start_7 // catch_target3 // catch_target4
                         CatchBlockStart(arg_register=1);
                         throw var2;
-case 41: // try_end7 // catch_target5 // catch_target6 // catch_target7
+case 40: // try_end7 // catch_target5 // catch_target6 // catch_target7
                         CatchBlockStart(arg_register=1);
                         var4 = _closure2_slot9;
                         var3 = false;

@@ -75,7 +75,7 @@ case 2:
     var4 = var9[var4];
     var4 = var8.bind(var1)(var4);
     var11 = var4.BACKGROUND_GRADIENT_PRESETS_MOBILE;
-    var4 = var4.REDESIGN_STANDARD_BACKGROUND_THEMES;
+    var4 = var4.LEGACY_STANDARD_BACKGROUND_THEMES;
     var5 = 2;
     var5 = var9[var5];
     var5 = var8.bind(var1)(var5);

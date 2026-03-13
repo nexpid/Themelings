@@ -41,56 +41,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
-    var4 = function(arg1) {
-        var8 = arg1;
+    var4 = function(arg1, arg2) {
+        var7 = arg1;
+        var9 = arg2;
         var1 = {};
         var2 = {};
-        var7 = 1;
-        var2['flexGrow'] = var7;
+        var8 = 1;
+        var2['flexGrow'] = var8;
         var1['scrollContentContainer'] = var2;
         var2 = {'backgroundColor': null, 'borderRadius': null, 'paddingVertical': null, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
         var5 = _closure1_slot1;
         var6 = _closure1_slot2;
         var3 = 4;
-        var9 = var6[var3];
+        var10 = var6[var3];
         var4 = undefined;
-        var9 = var5.bind(var4)(var9);
-        var9 = var9.colors;
-        var9 = var9.INPUT_BACKGROUND_DEFAULT;
-        var2['backgroundColor'] = var9;
-        var9 = var6[var3];
-        var9 = var5.bind(var4)(var9);
-        var9 = var9.radii;
-        var9 = var9.lg;
-        var9 = var9 + var8;
-        var2['borderRadius'] = var9;
-        var2['paddingVertical'] = var8;
+        var10 = var5.bind(var4)(var10);
+        var10 = var10.colors;
+        var10 = var10.MOBILE_SEGMENTED_CONTROL_BACKGROUND;
+        var2['backgroundColor'] = var10;
+        var10 = var7 + var9;
+        var2['borderRadius'] = var10;
+        var2['paddingVertical'] = var9;
         var1['controlsContainer'] = var2;
         var2 = {'position': 'absolute', 'width': '100%', 'height': '100%', 'borderRadius': null, 'flexDirection': 'row'};
-        var8 = var6[var3];
-        var8 = var5.bind(var4)(var8);
-        var8 = var8.radii;
-        var8 = var8.lg;
-        var2['borderRadius'] = var8;
+        var2['borderRadius'] = var7;
         var1['indicatorContainer'] = var2;
         var2 = {};
-        var2['flex'] = var7;
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.colors;
-        var7 = var7.REDESIGN_INPUT_CONTROL_ACTIVE_BG;
-        var2['backgroundColor'] = var7;
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.radii;
-        var7 = var7.lg;
+        var2['flex'] = var8;
+        var8 = var6[var3];
+        var8 = var5.bind(var4)(var8);
+        var8 = var8.colors;
+        var8 = var8.MOBILE_SEGMENTED_CONTROL_INDICATOR_BACKGROUND;
+        var2['backgroundColor'] = var8;
         var2['borderRadius'] = var7;
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.shadows;
-        var10 = var3.SHADOW_LOW;
-        var11 = var2;
-        var3 = copyDataProperties(var11, var10);
+        var11 = var3.SHADOW_LOW;
+        var12 = var2;
+        var3 = copyDataProperties(var12, var11);
         var1['indicator'] = var2;
         return var1;
     };
@@ -128,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function SegmentedControlNativeTsx8(){const{panIndex,activeIndex}=this.__closure;panIndex.set(activeIndex.get());}';
     var4['code'] = var7;
     var _closure1_slot17 = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -178,20 +167,32 @@ case 2:
             var2 = 'experimental_Large';
             var3 = var2 === var7;
             _closure2_slot7 = var3;
-            var21 = 4;
+            var8 = 4;
+            var21 = var8;
             if(!var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var21 = 8;
 case 4:
             _closure2_slot8 = var21;
-            var6 = _closure1_slot9;
-            var11 = var6.bind(var5)(var21);
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var11 = 5;
+            var11 = var9[var11];
+            var12 = var6.bind(var5)(var11);
+            var11 = var12.useToken;
+            var13 = _closure1_slot1;
+            var8 = var9[var8];
+            var8 = var13.bind(var5)(var8);
+            var8 = var8.modules;
+            var8 = var8.mobile;
+            var8 = var8.SEGMENTED_CONTROL_BORDER_RADIUS;
+            var11 = var11.bind(var12)(var8);
+            var8 = _closure1_slot9;
+            var11 = var8.bind(var5)(var11, var21);
             _closure2_slot9 = var11;
             var22 = var1.length;
             _closure2_slot10 = var22;
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var17 = 5;
+            var17 = 6;
             var8 = var9[var17];
             var13 = var6.bind(var5)(var8);
             var12 = var13.useSharedValue;
@@ -275,7 +276,7 @@ case 6:
             var8 = var9[var17];
             var15 = var6.bind(var5)(var8);
             var12 = var15.useDerivedValue;
-            var8 = function F() {
+            var8 = function k() {
                 var1 = global;
                 var4 = var1.Math;
                 var3 = var4.min;
@@ -305,7 +306,7 @@ case 6:
             var8 = var9[var17];
             var15 = var6.bind(var5)(var8);
             var12 = var15.useDerivedValue;
-            var8 = function k() {
+            var8 = function G() {
                 var3 = _closure2_slot16;
                 var2 = var3.get;
                 var3 = var2.bind(var3)();
@@ -333,7 +334,7 @@ case 6:
             var8 = var9[var17];
             var15 = var6.bind(var5)(var8);
             var12 = var15.useAnimatedStyle;
-            var8 = function G() {
+            var8 = function B() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = _closure2_slot17;
@@ -402,7 +403,7 @@ case 16:
 case 18:
                     var9 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 5;
+                    var2 = 6;
                     var6 = var6[var2];
                     var2 = undefined;
                     var12 = var9.bind(var2)(var6);
@@ -428,7 +429,7 @@ case 18:
 case 15:
                     var9 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 5;
+                    var2 = 6;
                     var6 = var6[var2];
                     var2 = undefined;
                     var12 = var9.bind(var2)(var6);
@@ -499,7 +500,7 @@ case 23:
 case 26:
                     var9 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var5 = 6;
+                    var5 = 7;
                     var6 = var6[var5];
                     var5 = undefined;
                     var6 = var9.bind(var5)(var6);
@@ -513,7 +514,7 @@ case 25:
                     var3 = {};
                     var8 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var5 = 6;
+                    var5 = 7;
                     var6 = var6[var5];
                     var5 = undefined;
                     var6 = var8.bind(var5)(var6);
@@ -545,7 +546,7 @@ case 25:
             var25['segmentSpacing'] = var21;
             var25['itemCount'] = var22;
             var25['previousIndicatorWidth'] = var26;
-            var26 = 6;
+            var26 = 7;
             var26 = var9[var26];
             var26 = var6.bind(var5)(var26);
             var26 = var26.withSpring;
@@ -583,7 +584,7 @@ case 0:
                         var4 = _closure1_slot6;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 5;
+                        var1 = 6;
                         var1 = var3[var1];
                         var3 = undefined;
                         var1 = var2.bind(var3)(var1);
@@ -675,7 +676,7 @@ case 30:
                         var4 = _closure1_slot6;
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 7;
+                        var1 = 8;
                         var1 = var3[var1];
                         var3 = undefined;
                         var1 = var2.bind(var3)(var1);
@@ -788,14 +789,14 @@ case 18:
                 return var1;
             };
             var13 = var7.bind(var5)();
-            var8 = 8;
+            var8 = 9;
             var7 = var9[var8];
             var7 = var6.bind(var5)(var7);
             var12 = var7.Gesture;
             var7 = var12.Pan;
             var20 = var7.bind(var12)();
             var12 = var20.onStart;
-            var7 = function B() {
+            var7 = function J() {
                 var3 = _closure2_slot11;
                 var2 = var3.set;
                 var4 = _closure2_slot2;
@@ -834,7 +835,7 @@ case 18:
                 var1 = var3.bind(var4)(var1);
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 5;
+                var1 = 6;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -861,7 +862,7 @@ case 18:
             var13 = _closure1_slot16;
             var4['__initData'] = var13;
             var7 = var7.bind(var12)(var4);
-            var4 = 9;
+            var4 = 10;
             var4 = var9[var4];
             var6 = var6.bind(var5)(var4);
             var4 = var6.isAndroid;

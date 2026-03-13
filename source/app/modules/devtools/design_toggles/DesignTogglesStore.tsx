@@ -71,7 +71,7 @@ case 4:
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var _closure1_slot4 = var2;
-    var2 = {'enable_recently_active': 'Enable recently active channels', 'theme_setting_in_account_sheet': 'Show theme settings in the Account action sheet', 'nav_experiment_server_drawer_enabled': '[NavI] Enable expandable server drawer', 'show_icymi_debug_scores': 'Show ICYMI debug scores', 'channel_list_scrim': 'Dim the channel list when chat appears'};
+    var2 = {'enable_recently_active': 'Enable recently active channels', 'theme_setting_in_account_sheet': 'Show theme settings in the Account action sheet', 'nav_experiment_server_drawer_enabled': '[NavI] Enable expandable server drawer', 'show_icymi_debug_scores': 'Show ICYMI debug scores', 'channel_list_scrim': 'Dim the channel list when chat appears', 'mana_radio_large_variant': 'Larger Radio', 'mana_checkbox_large_variant': 'Larger Checkbox', 'mana_switch_large_variant': 'Larger Switch', 'mana_switch_show_icons': 'Show icons on switches'};
     var _closure1_slot5 = var2;
     var4 = {};
     var _closure1_slot6 = var4;

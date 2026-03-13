@@ -464,7 +464,7 @@ case 13:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.REDESIGN_STANDARD_BACKGROUND_THEMES;
+    var4 = var4.LEGACY_STANDARD_BACKGROUND_THEMES;
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];

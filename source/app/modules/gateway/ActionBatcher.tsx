@@ -258,7 +258,7 @@ case 3:
                 var1 = function(arg1) {
                     var1 = _closure3_slot0;
                     var3 = var1.socket;
-                    var2 = var3.resetSocketOnError;
+                    var2 = var3.resetSocketAndClearCacheOnError;
                     var1 = {};
                     var5 = arg1;
                     var1['error'] = var5;

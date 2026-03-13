@@ -26,7 +26,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var10 = var1.location;
             var9 = var1.analyticsLocations;
             var2 = var1.prompt;
             var5 = _closure1_slot1;
@@ -39,13 +38,12 @@ case 0:
             var7 = _closure1_slot0;
             var3 = 2;
             var3 = var8[var3];
-            var11 = var7.bind(var1)(var3);
+            var10 = var7.bind(var1)(var3);
             var3 = 1;
             var4 = var8[var3];
             var3 = var8.paths;
-            var4 = var11.bind(var1)(var4, var3);
+            var4 = var10.bind(var1)(var4, var3);
             var3 = {};
-            var3['location'] = var10;
             var3['analyticsLocations'] = var9;
             var3['prompt'] = var2;
             var2 = 3;
@@ -61,12 +59,12 @@ case 3:
             var7['presentation'] = var8;
             var2 = var7;
 case 2:
-            var16 = var6;
-            var15 = var4;
-            var14 = var3;
-            var13 = undefined;
-            var12 = var2;
-            var2 = var16[var5](var15, var14, var13, var12, var11);
+            var15 = var6;
+            var14 = var4;
+            var13 = var3;
+            var12 = undefined;
+            var11 = var2;
+            var2 = var15[var5](var14, var13, var12, var11, var10);
             return var1;
         }
     };

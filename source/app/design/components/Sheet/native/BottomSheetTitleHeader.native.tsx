@@ -296,24 +296,40 @@ case 8:
     };
     var _closure1_slot13 = var1;
     var1 = function Title(arg1) {
-        var2 = _closure1_slot8;
-        var4 = undefined;
-        var5 = var2.bind(var4)();
-        var3 = _closure1_slot6;
-        var2 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 6;
-        var1 = var6[var1];
-        var1 = var2.bind(var4)(var1);
-        var2 = var1.Text;
-        var1 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
-        var5 = var5.title;
-        var1['style'] = var5;
-        var7 = arg1;
-        var8 = var1;
-        var5 = copyDataProperties(var8, var7);
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var2 = _closure1_slot8;
+            var4 = undefined;
+            var5 = var2.bind(var4)();
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 6;
+            var2 = var6[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = 'BottomSheetTitleHeader';
+            var2 = var3.bind(var4)(var2);
+            var6 = 'redesign/heading-18/bold';
+            if(!var2) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
+            var6 = 'heading-lg/semibold';
+case 10:
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 7;
+            var1 = var7[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Text;
+            var1 = {'variant': null, 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
+            var1['variant'] = var6;
+            var5 = var5.title;
+            var1['style'] = var5;
+            var8 = arg1;
+            var9 = var1;
+            var5 = copyDataProperties(var9, var8);
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var _closure1_slot14 = var1;
     var1 = function Subtitle(arg1) {
@@ -325,7 +341,7 @@ case 8:
         var3 = _closure1_slot6;
         var2 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
@@ -422,14 +438,14 @@ case 8:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'design/components/Sheet/native/BottomSheetTitleHeader.native.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function BottomSheetTitleHeader(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var7 = arg1;
             var10 = var7.leading;
@@ -448,20 +464,20 @@ case 0:
             var5 = var9[var5];
             var _closure2_slot0 = var5;
             var5 = null;
-            if(!(var5 != var10)) { _fun0005_ip = 10; continue _fun0005 }
-case 11:
-            if(!(var1 !== var10)) { _fun0005_ip = 10; continue _fun0005 }
-case 12:
-            var9 = '';
-            if(!(var9 === var10)) { _fun0005_ip = 13; continue _fun0005 }
-case 10:
-            if(!(var5 != var4)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
-            if(!(var1 !== var4)) { _fun0005_ip = 14; continue _fun0005 }
-case 16:
-            var1 = '';
-            if(!(var1 === var4)) { _fun0005_ip = 13; continue _fun0005 }
+            if(!(var5 != var10)) { _fun0006_ip = 12; continue _fun0006 }
+case 13:
+            if(!(var1 !== var10)) { _fun0006_ip = 12; continue _fun0006 }
 case 14:
+            var9 = '';
+            if(!(var9 === var10)) { _fun0006_ip = 15; continue _fun0006 }
+case 12:
+            if(!(var5 != var4)) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
+            if(!(var1 !== var4)) { _fun0006_ip = 16; continue _fun0006 }
+case 18:
+            var1 = '';
+            if(!(var1 === var4)) { _fun0006_ip = 15; continue _fun0006 }
+case 16:
             var5 = _closure1_slot6;
             var4 = _closure1_slot11;
             var1 = {};
@@ -469,11 +485,11 @@ case 14:
             var11 = var7;
             var9 = copyDataProperties(var12, var11);
             var1 = var5.bind(var6)(var4, var1);
-            _fun0005_ip = 17; continue _fun0005;
-case 13:
+            _fun0006_ip = 19; continue _fun0006;
+case 15:
             var5 = _closure1_slot6;
-            if(var2) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+            if(var2) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
             var4 = _closure1_slot13;
             var2 = {};
             var12 = var2;
@@ -494,17 +510,17 @@ case 19:
             var8 = 'onTitleTextLayout';
             var2[var8] = var9;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0005_ip = 20; continue _fun0005;
-case 18:
+            _fun0006_ip = 22; continue _fun0006;
+case 20:
             var4 = _closure1_slot12;
             var3 = {};
             var12 = var3;
             var11 = var7;
             var7 = copyDataProperties(var12, var11);
             var2 = var5.bind(var6)(var4, var3);
-case 20:
+case 22:
             var1 = var2;
-case 17:
+case 19:
             return var1;
         }
     };

@@ -235,19 +235,27 @@ case 0:
             var2 = var2.bind(var4)();
             if(!var2) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var8 = 7;
+            var2 = var2[var8];
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.isExperimentSyncDisabled;
+            var2 = var2.bind(var4)();
+            if(var2) { _fun0005_ip = 40; continue _fun0005 }
+case 42:
             var2 = {};
             var5 = _closure1_slot11;
             var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var4 = 7;
-            var4 = var8[var4];
+            var4 = _closure1_slot2;
+            var4 = var4[var8];
             var4 = var7.bind(var1)(var4);
             var4 = var4.ALL_LIBDISCORE_EXPERIMENTS;
             var7 = var5.bind(var1)(var4);
             var5 = var7.bind(var1)();
             var4 = var5.done;
-            if(var4) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(var4) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var9 = var5.value;
             var8 = var9.id;
             var4 = var9.getCurrentConfig;
@@ -256,12 +264,12 @@ case 43:
             var8 = var7.bind(var1)();
             var4 = var8.done;
             var5 = var8;
-            if(!var4) { _fun0005_ip = 43; continue _fun0005 }
-case 42:
+            if(!var4) { _fun0005_ip = 44; continue _fun0005 }
+case 43:
             var5 = _closure1_slot9;
             var4 = null;
             var4 = var4 != var5;
-            if(!var4) { _fun0005_ip = 44; continue _fun0005 }
+            if(!var4) { _fun0005_ip = 26; continue _fun0005 }
 case 45:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -270,7 +278,7 @@ case 45:
             var7 = var7.bind(var1)(var5);
             var5 = _closure1_slot9;
             var4 = var7.bind(var1)(var5, var2);
-case 44:
+case 26:
             if(var4) { _fun0005_ip = 40; continue _fun0005 }
 case 46:
             var5 = _closure1_slot0;

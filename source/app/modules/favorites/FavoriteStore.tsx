@@ -431,7 +431,7 @@ case 44:
         var5['value'] = var7;
         var1[7] = var5;
         var5 = {};
-        var7 = 'hasFavorites';
+        var7 = 'hasStoredFavorites';
         var5['key'] = var7;
         var6 = function value() {
             var4 = this;

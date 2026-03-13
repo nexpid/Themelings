@@ -1400,6 +1400,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['DM_CHANNEL_WISHLIST'] = var70;
     var4 = 'DM_CHANNEL_WISHLIST';
     var11[var70] = var4;
+    var11['GUILD_CHANNEL'] = var96;
+    var4 = 'GUILD_CHANNEL';
+    var11[var96] = var4;
     var8 = {};
     var4 = 'premium_tenure_1_month_v2';
     var8['PREMIUM_TENURE_1_MONTH'] = var4;

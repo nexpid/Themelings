@@ -54,9 +54,17 @@ case 0:
                 if(!(var4 == var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 var6 = var3.contentMetadata;
-                var7 = var6.durationSec;
-                var6 = 1000;
-                var2 = var6 * var7;
+                var6 = var6.durationSec;
+                var7 = var4 != var6;
+                var6 = undefined;
+                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                var7 = var3.contentMetadata;
+                var8 = var7.durationSec;
+                var7 = 1000;
+                var6 = var7 * var8;
+case 4:
+                var2 = var6;
 case 2:
                 var1['video_duration'] = var2;
                 var2 = var3.contentMetadata;
@@ -72,10 +80,10 @@ case 2:
                 var6 = var2.gameName;
                 var7 = var4 != var6;
                 var2 = 'Discord';
-                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+                if(!var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var2 = var6;
-case 4:
+case 6:
                 var1['video_brand'] = var2;
                 var2 = 'Cloudflare';
                 var1['video_cdn'] = var2;
@@ -91,18 +99,18 @@ case 4:
                 var6 = var3.userContext;
                 var7 = var4 == var6;
                 var5 = undefined;
-                if(var7) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+                if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var5 = var6.userId;
-case 6:
+case 8:
                 var1['viewer_user_id'] = var5;
                 var3 = var3.userContext;
                 var4 = var4 == var3;
                 var2 = undefined;
-                if(var4) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+                if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var2 = var3.userTier;
-case 8:
+case 10:
                 var1['viewer_plan'] = var2;
                 return var1;
             }
@@ -116,9 +124,9 @@ case 8:
         var6 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var1 = '5289';
+                var1 = '5298';
                 return var1;
-case 10:
+case 12:
                 CatchBlockStart(arg_register=0);
                 var1 = 'unknown';
                 return var1;
@@ -134,7 +142,7 @@ case 10:
 case 0:
                 var2 = undefined;
                 var4 = undefined;
-case 11: // try_start_0
+case 13: // try_start_0
                 var1 = global;
                 var1 = var1.window;
                 var5 = var1.GLOBAL_ENV;
@@ -142,19 +150,19 @@ case 11: // try_start_0
                 var1 = null;
                 var5 = var1 == var5;
                 var3 = undefined;
-                if(var5) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                if(var5) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                 var3 = var4.RELEASE_CHANNEL;
-case 12:
+case 14:
                 var2 = var3;
                 var3 = var1 != var3;
                 var1 = 'stable';
-                if(!var3) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                if(!var3) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                 var1 = var2;
-case 14: // try_end0
+case 16: // try_end0
                 return var1;
-case 16: // catch_target0
+case 18: // catch_target0
                 CatchBlockStart(arg_register=0);
                 var1 = 'stable';
                 return var1;

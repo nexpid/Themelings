@@ -539,32 +539,27 @@ case 47:
         var7 = function value(arg1) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                var2 = arg1;
+                var1 = arg1;
                 var3 = _closure1_slot8;
-                var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var1 = this;
-                var4 = var1.database;
-                var3 = var4.getRecord;
-                var1 = var2.id;
-                var1 = var3.bind(var4)(var1, var5);
-                var3 = null;
-                if(!(var3 != var1)) { _fun0008_ip = 48; continue _fun0008 }
+                var2 = undefined;
+                var4 = var3.bind(var2)(var1);
+                var2 = this;
+                var3 = var2.database;
+                var2 = var3.getRecord;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1, var4);
+                var2 = null;
+                if(!(var2 != var1)) { _fun0008_ip = 48; continue _fun0008 }
 case 5:
                 return var1;
 case 48:
                 var1 = global;
                 var3 = var1.Error;
-                var5 = var2.id;
-                var1 = var1.HermesInternal;
-                var4 = var1.concat;
-                var2 = 'Guild ';
-                var1 = ' does not have an @everyone role';
-                var7 = var4.bind(var2)(var5, var1);
-                var2 = var3.prototype;
-                var2 = Object.create(var2, {constructor: {value: var3}});
-                var8 = var2;
-                var1 = new var8[var3](var7, var6);
+                var1 = var3.prototype;
+                var2 = Object.create(var1, {constructor: {value: var3}});
+                var6 = 'Guild does not have an @everyone role';
+                var7 = var2;
+                var1 = new var7[var3](var6, var5);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
             }

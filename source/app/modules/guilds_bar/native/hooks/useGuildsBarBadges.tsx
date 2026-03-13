@@ -79,21 +79,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/guilds_bar/native/hooks/useGuildsBarBadges.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useGuildsBarBadges(arg1, arg2, arg3) {
-        var7 = arg1;
-        var _closure2_slot0 = var7;
+        var6 = arg1;
+        var _closure2_slot0 = var6;
         var1 = _closure1_slot15;
-        var6 = undefined;
-        var1 = var1.bind(var6)();
+        var7 = undefined;
+        var1 = var1.bind(var7)();
         var _closure2_slot1 = var1;
         var8 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var5 = 11;
-        var3 = var10[var5];
-        var13 = var8.bind(var6)(var3);
+        var11 = _closure1_slot2;
+        var4 = 11;
+        var2 = var11[var4];
+        var13 = var8.bind(var7)(var2);
         var12 = var13.useStateFromStores;
-        var3 = _closure1_slot9;
-        var11 = new Array(1);
-        var11[0] = var3;
+        var2 = _closure1_slot9;
+        var10 = new Array(1);
+        var10[0] = var2;
         var9 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -120,21 +120,21 @@ case 4:
                 return var1;
             }
         };
-        var9 = var12.bind(var13)(var11, var9);
+        var9 = var12.bind(var13)(var10, var9);
         var _closure2_slot2 = var9;
-        var11 = var10[var5];
-        var14 = var8.bind(var6)(var11);
+        var10 = var11[var4];
+        var14 = var8.bind(var7)(var10);
         var13 = var14.useStateFromStores;
-        var11 = _closure1_slot7;
+        var10 = _closure1_slot7;
         var12 = new Array(3);
-        var12[0] = var11;
-        var11 = _closure1_slot11;
-        var12[1] = var11;
-        var11 = _closure1_slot8;
-        var12[2] = var11;
-        var11 = new Array(2);
-        var11[0] = var7;
-        var11[1] = var9;
+        var12[0] = var10;
+        var10 = _closure1_slot11;
+        var12[1] = var10;
+        var10 = _closure1_slot8;
+        var12[2] = var10;
+        var10 = new Array(2);
+        var10[0] = var6;
+        var10[1] = var9;
         var9 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -184,19 +184,19 @@ case 11:
                 return var1;
             }
         };
-        var9 = var13.bind(var14)(var12, var9, var11);
-        var5 = var10[var5];
-        var12 = var8.bind(var6)(var5);
-        var11 = var12.useStateFromStores;
-        var5 = _closure1_slot10;
+        var10 = var13.bind(var14)(var12, var9, var10);
+        var4 = var11[var4];
+        var12 = var8.bind(var7)(var4);
+        var9 = var12.useStateFromStores;
+        var4 = _closure1_slot10;
         var8 = new Array(3);
-        var8[0] = var5;
-        var8[1] = var3;
-        var3 = _closure1_slot6;
-        var8[2] = var3;
-        var5 = new Array(1);
-        var5[0] = var7;
-        var3 = function() {
+        var8[0] = var4;
+        var8[1] = var2;
+        var2 = _closure1_slot6;
+        var8[2] = var2;
+        var4 = new Array(1);
+        var4[0] = var6;
+        var2 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var4 = _closure1_slot9;
@@ -268,19 +268,19 @@ case 20:
                 return var1;
             }
         };
-        var8 = var11.bind(var12)(var8, var3, var5);
-        var3 = _closure1_slot1;
-        var5 = 13;
-        var5 = var10[var5];
-        var5 = var3.bind(var6)(var5);
-        var11 = var5.bind(var6)(var7);
-        var _closure2_slot3 = var11;
-        var5 = _closure1_slot5;
-        var7 = var5.useMemo;
-        var4 = new Array(2);
-        var4[0] = var11;
+        var9 = var9.bind(var12)(var8, var2, var4);
+        var4 = _closure1_slot1;
+        var2 = 13;
+        var2 = var11[var2];
+        var2 = var4.bind(var7)(var2);
+        var2 = var2.bind(var7)(var6);
+        var _closure2_slot3 = var2;
+        var6 = _closure1_slot5;
+        var8 = var6.useMemo;
+        var5 = new Array(2);
+        var5[0] = var2;
         var1 = var1.topRightBadge;
-        var4[1] = var1;
+        var5[1] = var1;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -362,32 +362,32 @@ case 33:
                 return var1;
             }
         };
-        var1 = var7.bind(var5)(var1, var4);
-        var4 = var1.badgeTopRight;
-        var7 = var1.cutoutTopRight;
-        var _closure2_slot4 = var7;
+        var1 = var8.bind(var6)(var1, var5);
+        var5 = var1.badgeTopRight;
+        var8 = var1.cutoutTopRight;
+        var _closure2_slot4 = var8;
         var1 = 16;
-        var1 = var10[var1];
-        var3 = var3.bind(var6)(var1);
+        var1 = var11[var1];
+        var4 = var4.bind(var7)(var1);
         var1 = {};
-        var10 = arg2;
-        var1['mentionCount'] = var10;
-        var10 = arg3;
-        var1['isMentionLowImportance'] = var10;
-        var1['joinRequestState'] = var9;
-        var1['shouldShowInvitesDisabled'] = var8;
-        var1 = var3.bind(var6)(var1);
-        var3 = var1.badge;
-        var6 = var1.cutout;
-        var _closure2_slot5 = var6;
+        var11 = arg2;
+        var1['mentionCount'] = var11;
+        var11 = arg3;
+        var1['isMentionLowImportance'] = var11;
+        var1['joinRequestState'] = var10;
+        var1['shouldShowInvitesDisabled'] = var9;
+        var1 = var4.bind(var7)(var1);
+        var4 = var1.badge;
+        var7 = var1.cutout;
+        var _closure2_slot5 = var7;
         var1 = {};
-        var1['badgeTopRight'] = var4;
-        var1['badgeBottomRight'] = var3;
-        var4 = var5.useMemo;
-        var3 = new Array(2);
-        var3[0] = var7;
-        var3[1] = var6;
-        var2 = function() {
+        var1['badgeTopRight'] = var5;
+        var1['badgeBottomRight'] = var4;
+        var5 = var6.useMemo;
+        var4 = new Array(2);
+        var4[0] = var8;
+        var4[1] = var7;
+        var3 = function() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = new Array(0);
@@ -409,8 +409,9 @@ case 37:
                 return var1;
             }
         };
-        var2 = var4.bind(var5)(var2, var3);
-        var1['cutouts'] = var2;
+        var3 = var5.bind(var6)(var3, var4);
+        var1['cutouts'] = var3;
+        var1['mediaState'] = var2;
         return var1;
     };
     var3['default'] = var2;

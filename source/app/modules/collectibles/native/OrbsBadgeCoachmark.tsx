@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['coachmarkDescription'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = copyDataProperties(var9, var8, var7);
         var6 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 8;
+        var2 = 7;
         var3 = var3[var2];
         var2 = undefined;
         var3 = var6.bind(var2)(var3);
@@ -110,31 +110,21 @@ case 0:
             var2 = arg1;
             var2 = var2.disabled;
             var _closure2_slot0 = var2;
-            var4 = _closure1_slot7;
-            var6 = undefined;
-            var7 = var4.bind(var6)();
-            var _closure2_slot1 = var7;
-            var5 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var4 = 5;
-            var4 = var8[var4];
-            var5 = var5.bind(var6)(var4);
-            var4 = var5.useYouScreenContext;
-            var4 = var4.bind(var5)();
-            var6 = var4.setShowOrbsBadgeCoachmark;
-            var _closure2_slot2 = var6;
+            var5 = _closure1_slot7;
+            var4 = undefined;
+            var6 = var5.bind(var4)();
+            var _closure2_slot1 = var6;
             var5 = _closure1_slot3;
             var4 = var5.useMemo;
-            var3 = new Array(3);
+            var3 = new Array(2);
             var3[0] = var2;
-            var7 = var7.coachmarkDescription;
-            var3[1] = var7;
-            var3[2] = var6;
+            var6 = var6.coachmarkDescription;
+            var3[1] = var6;
             var1 = function() {
                 var1 = {};
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var4 = 6;
+                var4 = 5;
                 var5 = var9[var4];
                 var7 = undefined;
                 var5 = var8.bind(var7)(var5);
@@ -162,30 +152,28 @@ case 0:
                 var3 = function onDismiss() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                        var3 = _closure2_slot2;
-                        var2 = undefined;
-                        var1 = false;
-                        var3 = var3.bind(var2)(var1);
-                        var4 = _closure1_slot0;
-                        var5 = _closure1_slot2;
-                        var3 = 7;
-                        var3 = var5[var3];
-                        var4 = var4.bind(var2)(var3);
-                        var3 = var4.getRootNavigationRef;
-                        var5 = var3.bind(var4)();
-                        var3 = null;
-                        if(!(var3 != var5)) { _fun0002_ip = 2; continue _fun0002 }
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 6;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.getRootNavigationRef;
+                        var4 = var2.bind(var3)();
+                        var2 = null;
+                        if(!(var2 != var4)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                        var3 = var5.isReady;
-                        var3 = var3.bind(var5)();
-                        if(!var3) { _fun0002_ip = 2; continue _fun0002 }
+                        var2 = var4.isReady;
+                        var2 = var2.bind(var4)();
+                        if(!var2) { _fun0002_ip = 2; continue _fun0002 }
 case 4:
-                        var4 = var5.setParams;
-                        var3 = {};
-                        var3['showOrbsBadgeCoachmark'] = var2;
-                        var3 = var4.bind(var5)(var3);
-                        return var2;
+                        var3 = var4.setParams;
+                        var2 = {};
+                        var2['showOrbsBadgeCoachmark'] = var1;
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
 case 2:
+                        var1 = false;
                         return var1;
                     }
                 };
@@ -204,7 +192,7 @@ case 2:
             var3 = var4.bind(var5)(var1, var3);
             var1 = null;
             if(var2) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+case 2:
             var2 = {};
             var2['props'] = var3;
             var1 = var2;

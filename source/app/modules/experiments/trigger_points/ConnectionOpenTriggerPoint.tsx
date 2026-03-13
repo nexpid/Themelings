@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.GameProfileRolloutExperiment;
-    var9 = new Array(14);
+    var9 = new Array(13);
     var9[0] = var4;
     var4 = 2;
     var4 = var6[var4];
@@ -77,14 +77,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 12;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.GamePresenceNegativeTestExperiment;
+    var4 = var4.VoiceChannelBadgeExperiment;
     var9[12] = var4;
     var4 = 13;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.VoiceChannelBadgeExperiment;
-    var9[13] = var4;
-    var4 = 14;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.CommonTriggerPointConfiguration;
@@ -99,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2;
     var2 = new var13[var8](var12, var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

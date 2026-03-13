@@ -620,7 +620,7 @@ case 46:
         return var1;
     };
     var3['getFileContentLength'] = var4;
-    var4 = function getFile(arg1) {
+    var2 = function getFile(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -808,41 +808,6 @@ case 32:
             return var1;
         }
     };
-    var3['getFile'] = var4;
-    var2 = function getOptimalChunkSize(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var4 = arguments[1];
-            var7 = arguments[2];
-            var6 = arguments[3];
-            var1 = undefined;
-            if(!(var4 === var1)) { _fun0005_ip = 85; continue _fun0005 }
-case 3:
-            var4 = 4096;
-case 85:
-            if(!(var7 === var1)) { _fun0005_ip = 86; continue _fun0005 }
-case 87:
-            var7 = 8388608;
-case 86:
-            if(!(var6 === var1)) { _fun0005_ip = 88; continue _fun0005 }
-case 89:
-            var6 = 0.01;
-case 88:
-            var1 = global;
-            var5 = var1.Math;
-            var3 = var5.ceil;
-            var2 = arg1;
-            var2 = var2 * var6;
-            var6 = var3.bind(var5)(var2);
-            var3 = var1.Math;
-            var2 = var3.max;
-            var5 = var1.Math;
-            var1 = var5.min;
-            var1 = var1.bind(var5)(var6, var7);
-            var1 = var2.bind(var3)(var4, var1);
-            return var1;
-        }
-    };
-    var3['getOptimalChunkSize'] = var2;
+    var3['getFile'] = var2;
     return var1;
 })();

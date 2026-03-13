@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOD_MUTED;
+    var14 = var14.ICON_MUTED;
     var10['backgroundColor'] = var14;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);

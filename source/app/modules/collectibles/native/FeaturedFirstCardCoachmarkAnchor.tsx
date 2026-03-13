@@ -306,7 +306,7 @@ case 17:
         return var1;
     };
     var8['description'] = var10;
-    var10 = 'bottom';
+    var10 = 'top';
     var8['position'] = var10;
     var5[var9] = var8;
     var _closure1_slot9 = var5;

@@ -835,14 +835,15 @@ case 102:
             var7 = var7.CHECKBOX;
             var6 = true;
             if(!(var7 !== var11)) { _fun0008_ip = 84; continue _fun0008 }
-case 63:
+case 103:
             var12 = _closure1_slot0;
             var7 = _closure1_slot2;
             var7 = var7[var8];
             var7 = var12.bind(var4)(var7);
             var7 = var7.ComponentType;
             var7 = var7.CONTENT_INVENTORY_ENTRY;
-            if(!(var7 !== var11)) { _fun0008_ip = 103; continue _fun0008 }
+            var6 = true;
+            if(!(var7 !== var11)) { _fun0008_ip = 84; continue _fun0008 }
 case 104:
             var11 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -851,16 +852,6 @@ case 104:
             var7 = var7.ComponentType;
             var7 = var7.UNKNOWN;
             var6 = false;
-            _fun0008_ip = 84; continue _fun0008;
-case 103:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var7 = 6;
-            var7 = var12[var7];
-            var12 = var11.bind(var4)(var7);
-            var11 = var12.isContentInventoryEmbedEnabled;
-            var7 = 'canShowComponent';
-            var6 = var11.bind(var12)(var7);
 case 84:
             if(var6) { _fun0008_ip = 105; continue _fun0008 }
 case 106:
@@ -1164,7 +1155,7 @@ case 160:
             var15 = {};
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var16 = 12;
+            var16 = 11;
             var16 = var18[var16];
             var18 = var17.bind(var4)(var16);
             var17 = var18.isProbablyAValidSnowflake;
@@ -1277,7 +1268,7 @@ case 137:
             var7 = var13.filter;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 8;
+            var6 = 7;
             var6 = var11[var6];
             var6 = var12.bind(var4)(var6);
             var6 = var6.isNotNullish;
@@ -1299,7 +1290,7 @@ case 137:
 case 172:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var12 = 11;
+            var12 = 10;
             var12 = var14[var12];
             var15 = var13.bind(var4)(var12);
             var14 = var15.int2hsl;
@@ -1378,7 +1369,7 @@ case 131:
             var7 = _closure1_slot13;
             var7 = var7.bind(var4)(var5);
             var6['id'] = var7;
-            var7 = 10;
+            var7 = 9;
             var7 = var12[var7];
             var12 = var11.bind(var4)(var7);
             var11 = var12.toUnfurledMediaItem;
@@ -1411,7 +1402,7 @@ case 129:
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 10;
+                var3 = 9;
                 var4 = var4[var3];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
@@ -1440,7 +1431,7 @@ case 127:
             var7 = _closure1_slot13;
             var7 = var7.bind(var4)(var5);
             var6['id'] = var7;
-            var7 = 10;
+            var7 = 9;
             var7 = var12[var7];
             var12 = var11.bind(var4)(var7);
             var11 = var12.toUnfurledMediaItem;
@@ -1482,7 +1473,7 @@ case 123:
             var7 = var11.filter;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 8;
+            var6 = 7;
             var6 = var13[var6];
             var6 = var12.bind(var4)(var6);
             var6 = var6.isNotNullish;
@@ -1715,7 +1706,7 @@ case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 8;
                     var2 = var6[var2];
                     var6 = undefined;
                     var2 = var5.bind(var6)(var2);
@@ -1805,7 +1796,7 @@ case 107:
             var2 = var9.filter;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var6[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.isNotNullish;
@@ -1828,7 +1819,7 @@ case 107:
         var5 = arg1;
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 9;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -1910,7 +1901,7 @@ case 198:
         }
     };
     var _closure1_slot5 = var6;
-    var6 = 13;
+    var6 = 12;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -2196,7 +2187,7 @@ case 227:
 case 30:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 7;
+            var4 = 6;
             var4 = var7[var4];
             var5 = var5.bind(var6)(var4);
             var4 = var5.v4;

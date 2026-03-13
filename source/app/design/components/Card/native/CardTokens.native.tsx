@@ -51,7 +51,7 @@ case 4:
     var1 = undefined;
     var5 = var12.bind(var1)(var5);
     var5 = var5.colors;
-    var6 = var5.CARD_BACKGROUND_DEFAULT;
+    var6 = var5.TABLEROW_BACKGROUND_DEFAULT;
     var5 = var10[var4];
     var5 = var12.bind(var1)(var5);
     var5 = var5.colors;
@@ -69,7 +69,7 @@ case 4:
     var5 = var10[var4];
     var5 = var12.bind(var1)(var5);
     var5 = var5.colors;
-    var8 = var5.CARD_PRIMARY_PRESSED_BG;
+    var8 = var5.TABLEROW_BACKGROUND_PRESSED;
     var5 = var10[var4];
     var5 = var12.bind(var1)(var5);
     var5 = var5.colors;

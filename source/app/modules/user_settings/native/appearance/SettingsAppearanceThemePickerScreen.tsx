@@ -473,17 +473,17 @@ case 0:
                 var9 = var2.bind(var4)();
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var2 = 26;
+                var2 = 27;
                 var2 = var10[var2];
                 var3 = var8.bind(var4)(var2);
                 var2 = var3.useNavigation;
                 var31 = var2.bind(var3)();
                 var _closure2_slot7 = var31;
                 var5 = _closure1_slot1;
-                var2 = 27;
+                var2 = 28;
                 var2 = var10[var2];
                 var3 = var5.bind(var4)(var2);
-                var2 = 28;
+                var2 = 29;
                 var2 = var10[var2];
                 var2 = var5.bind(var4)(var2);
                 var2 = var2.CLIENT_THEMES_THEME_SELECTOR;
@@ -503,7 +503,7 @@ case 0:
                 var2 = var2[var11];
                 var _closure2_slot10 = var2;
                 var3 = var5.useState;
-                var2 = 29;
+                var2 = 30;
                 var2 = var10[var2];
                 var10 = var8.bind(var4)(var2);
                 var8 = var10.isThemeDark;
@@ -523,7 +523,7 @@ case 8:
                 _closure2_slot11 = var2;
                 var8 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var3 = 30;
+                var3 = 31;
                 var3 = var2[var3];
                 var10 = var8.bind(var4)(var3);
                 var3 = var10.useHeaderHeight;
@@ -600,7 +600,7 @@ case 12:
 case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 29;
+                        var1 = 30;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -627,7 +627,7 @@ case 14:
                 var3 = var5[var18];
                 var35 = var5[var11];
                 _closure2_slot15 = var35;
-                var5 = 31;
+                var5 = 32;
                 var5 = var2[var5];
                 var25 = var8.bind(var4)(var5);
                 var21 = var25.useSegmentedControlState;
@@ -638,7 +638,7 @@ case 14:
                 var29 = var21.bind(var25)(var5);
                 var34 = var29.activeIndex;
                 _closure2_slot16 = var34;
-                var5 = 32;
+                var5 = 33;
                 var21 = var2[var5];
                 var27 = var8.bind(var4)(var21);
                 var26 = var27.useAnimatedReaction;
@@ -658,7 +658,7 @@ case 14:
                 var21 = function W(arg1) {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 32;
+                    var1 = 33;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -707,12 +707,12 @@ case 17:
                 var11 = function() {
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 33;
+                    var1 = 34;
                     var1 = var7[var1];
                     var5 = undefined;
                     var4 = var6.bind(var5)(var1);
                     var3 = var4.hexWithOpacity;
-                    var1 = 34;
+                    var1 = 35;
                     var2 = var7[var1];
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.OverlayColors;
@@ -764,12 +764,12 @@ case 22:
                         var1 = {};
                         var10 = _closure1_slot0;
                         var11 = _closure1_slot2;
-                        var5 = 35;
+                        var5 = 36;
                         var5 = var11[var5];
                         var9 = undefined;
                         var7 = var10.bind(var9)(var5);
                         var6 = var7.withTiming;
-                        var5 = 32;
+                        var5 = 33;
                         var5 = var11[var5];
                         var14 = var10.bind(var9)(var5);
                         var13 = var14.interpolateColor;
@@ -779,7 +779,7 @@ case 22:
                         var5 = _closure1_slot16;
                         var2 = [0, 1, 2];
                         var5 = var13.bind(var14)(var12, var2, var5);
-                        var2 = 36;
+                        var2 = 37;
                         var2 = var11[var2];
                         var2 = var10.bind(var9)(var2);
                         var2 = var2.timingStandard;
@@ -790,11 +790,11 @@ case 23:
                         var2 = {};
                         var7 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var4 = 35;
+                        var4 = 36;
                         var4 = var9[var4];
                         var6 = var7.bind(var8)(var4);
                         var5 = var6.withTiming;
-                        var4 = 32;
+                        var4 = 33;
                         var4 = var9[var4];
                         var12 = var7.bind(var8)(var4);
                         var11 = var12.interpolateColor;
@@ -810,7 +810,7 @@ case 23:
                         var4[2] = var3;
                         var3 = [0, 1, 2];
                         var4 = var11.bind(var12)(var10, var3, var4);
-                        var3 = 36;
+                        var3 = 37;
                         var3 = var9[var3];
                         var3 = var7.bind(var8)(var3);
                         var3 = var3.timingStandard;
@@ -831,7 +831,7 @@ case 24:
                 var36 = var8.bind(var4)(var36);
                 var36 = var36.ClientThemeType;
                 var34['ClientThemeType'] = var36;
-                var36 = 35;
+                var36 = 36;
                 var36 = var11[var36];
                 var36 = var8.bind(var4)(var36);
                 var36 = var36.withTiming;
@@ -842,7 +842,7 @@ case 24:
                 var34['interpolateColor'] = var36;
                 var36 = _closure1_slot16;
                 var34['cardSecondaryStyles'] = var36;
-                var36 = 36;
+                var36 = 37;
                 var36 = var11[var36];
                 var36 = var8.bind(var4)(var36);
                 var36 = var36.timingStandard;
@@ -927,7 +927,7 @@ case 21:
 case 25:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 25;
+                        var1 = 26;
                         var3 = var3[var1];
                         var1 = undefined;
                         var6 = var4.bind(var1)(var3);
@@ -985,7 +985,7 @@ case 19:
 case 31:
                         var5 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var3 = 25;
+                        var3 = 26;
                         var4 = var4[var3];
                         var3 = undefined;
                         var5 = var5.bind(var3)(var4);
@@ -1108,14 +1108,14 @@ case 20:
                                 var3 = _closure1_slot13;
                                 var2 = _closure1_slot0;
                                 var8 = _closure1_slot2;
-                                var1 = 37;
+                                var1 = 38;
                                 var1 = var8[var1];
                                 var1 = var2.bind(var4)(var1);
                                 var2 = var1.ThemeContextProvider;
                                 var1 = {};
                                 var1['theme'] = var6;
                                 var6 = _closure1_slot1;
-                                var5 = 38;
+                                var5 = 39;
                                 var5 = var8[var5];
                                 var6 = var6.bind(var4)(var5);
                                 var5 = {};
@@ -1134,7 +1134,7 @@ case 0:
                                 var4 = _closure1_slot13;
                                 var2 = _closure1_slot0;
                                 var3 = _closure1_slot2;
-                                var1 = 39;
+                                var1 = 40;
                                 var1 = var3[var1];
                                 var3 = undefined;
                                 var1 = var2.bind(var3)(var1);
@@ -1179,7 +1179,7 @@ case 0:
                                 var4 = _closure1_slot13;
                                 var6 = _closure1_slot0;
                                 var10 = _closure1_slot2;
-                                var1 = 40;
+                                var1 = 41;
                                 var1 = var10[var1];
                                 var3 = undefined;
                                 var1 = var6.bind(var3)(var1);
@@ -1191,7 +1191,7 @@ case 0:
                                 var1['disabled'] = var5;
                                 var5 = _closure2_slot20;
                                 var1['onPress'] = var5;
-                                var5 = 39;
+                                var5 = 40;
                                 var5 = var10[var5];
                                 var5 = var6.bind(var3)(var5);
                                 var6 = var5.Text;
@@ -1236,7 +1236,7 @@ case 41:
                     }
                 };
                 var7 = var27.bind(var25)(var7, var26);
-                var7 = 41;
+                var7 = 42;
                 var7 = var11[var7];
                 var11 = var8.bind(var4)(var7);
                 var8 = var11.useNavigatorBackPressHandler;
@@ -1261,7 +1261,7 @@ case 20:
                         var1 = var1.bind(var4)(var3);
                         var2 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var1 = 42;
+                        var1 = 43;
                         var1 = var5[var1];
                         var2 = var2.bind(var4)(var1);
                         var1 = var2.updateMobilePendingThemeIndex;
@@ -1286,13 +1286,13 @@ case 46:
                 var27 = _closure1_slot13;
                 var31 = _closure1_slot0;
                 var32 = _closure1_slot2;
-                var10 = 37;
+                var10 = 38;
                 var10 = var32[var10];
                 var10 = var31.bind(var4)(var10);
                 var25 = var10.ThemeContextProvider;
                 var10 = {};
                 var10['theme'] = var26;
-                var26 = 44;
+                var26 = 45;
                 var26 = var32[var26];
                 var26 = var31.bind(var4)(var26);
                 var28 = var26.SegmentedControl;
@@ -1305,7 +1305,7 @@ case 46:
                 var25 = var27.bind(var4)(var25, var10);
                 var10 = new Array(2);
                 var10[0] = var25;
-                var25 = 39;
+                var25 = 40;
                 var25 = var32[var25];
                 var25 = var31.bind(var4)(var25);
                 var26 = var25.Text;
@@ -1336,7 +1336,7 @@ case 45:
                 var8 = _closure1_slot13;
                 var3 = _closure1_slot1;
                 var25 = _closure1_slot2;
-                var2 = 43;
+                var2 = 44;
                 var2 = var25[var2];
                 var3 = var3.bind(var4)(var2);
                 var2 = {};
@@ -1413,7 +1413,7 @@ case 54:
                 var7 = var8.useMemo;
                 var2 = _closure1_slot1;
                 var1 = _closure1_slot2;
-                var3 = 45;
+                var3 = 46;
                 var3 = var1[var3];
                 var6 = var2.bind(var4)(var3);
                 var3 = new Array(0);
@@ -1439,7 +1439,7 @@ case 59:
                 var8 = _closure1_slot13;
                 var7 = _closure1_slot1;
                 var11 = _closure1_slot2;
-                var5 = 46;
+                var5 = 47;
                 var5 = var11[var5];
                 var7 = var7.bind(var4)(var5);
                 var5 = {};
@@ -1454,7 +1454,7 @@ case 58:
                 var8 = _closure1_slot14;
                 var7 = _closure1_slot0;
                 var22 = _closure1_slot2;
-                var6 = 47;
+                var6 = 48;
                 var6 = var22[var6];
                 var6 = var7.bind(var4)(var6);
                 var7 = var6.SafeAreaPaddingView;
@@ -1470,7 +1470,7 @@ case 58:
                 var6['style'] = var9;
                 var13 = _closure1_slot13;
                 var12 = _closure1_slot1;
-                var9 = 48;
+                var9 = 49;
                 var9 = var22[var9];
                 var11 = var12.bind(var4)(var9);
                 var9 = {};
@@ -1479,7 +1479,7 @@ case 58:
                 var11 = var13.bind(var4)(var11, var9);
                 var9 = new Array(3);
                 var9[0] = var11;
-                var11 = 49;
+                var11 = 50;
                 var11 = var22[var11];
                 var12 = var12.bind(var4)(var11);
                 var11 = {};
@@ -1517,7 +1517,7 @@ case 62:
             }
         };
         var _closure1_slot36 = var4;
-        var4 = 50;
+        var4 = 51;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -1557,6 +1557,7 @@ case 65:
                 var _closure2_slot4 = var4;
                 var _closure2_slot5 = var4;
                 var _closure2_slot6 = var4;
+                var _closure2_slot7 = var4;
                 var16 = _closure1_slot1;
                 var17 = _closure1_slot2;
                 var3 = 19;
@@ -1691,46 +1692,63 @@ case 68:
                         return var1;
                     }
                 };
-                var3 = var18.bind(var19)(var3, var13);
-                _closure2_slot5 = var3;
+                var20 = var18.bind(var19)(var3, var13);
+                _closure2_slot5 = var20;
+                var3 = 24;
+                var3 = var17[var3];
+                var13 = var16.bind(var4)(var3);
+                var3 = 'SettingsAppearanceThemePickerScreen';
+                var3 = var13.bind(var4)(var3);
+                _closure2_slot6 = var3;
                 var18 = var19.useMemo;
-                var13 = new Array(1);
-                var13[0] = var3;
+                var13 = new Array(2);
+                var13[0] = var20;
+                var13[1] = var3;
                 var3 = function() {
-                    var3 = _closure2_slot5;
-                    var1 = 1;
-                    var3 = var3[var1];
-                    var1 = new Array(2);
-                    var1[0] = var3;
-                    var4 = _closure2_slot5;
-                    var3 = 0;
-                    var3 = var4[var3];
-                    var1[1] = var3;
-                    var4 = _closure2_slot5;
-                    var2 = var4.slice;
-                    var3 = 2;
-                    var6 = var2.bind(var4)(var3);
-                    var7 = var1;
-                    var5 = var3;
-                    var2 = arraySpread(var7, var6, var5);
-                    return var1;
+                    _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                        var1 = _closure2_slot6;
+                        var2 = _closure2_slot5;
+                        if(var1) { _fun0018_ip = 69; continue _fun0018 }
+case 20:
+                        var1 = 1;
+                        var4 = var2[var1];
+                        var1 = new Array(2);
+                        var1[0] = var4;
+                        var5 = _closure2_slot5;
+                        var4 = 0;
+                        var4 = var5[var4];
+                        var1[1] = var4;
+                        var5 = _closure2_slot5;
+                        var3 = var5.slice;
+                        var4 = 2;
+                        var7 = var3.bind(var5)(var4);
+                        var8 = var1;
+                        var6 = var4;
+                        var3 = arraySpread(var8, var7, var6);
+                        _fun0018_ip = 31; continue _fun0018;
+case 69:
+                        var1 = var2;
+case 31:
+                        return var1;
+                    }
                 };
                 var13 = var18.bind(var19)(var3, var13);
-                _closure2_slot6 = var13;
-                var3 = 24;
+                _closure2_slot7 = var13;
+                var3 = 25;
                 var3 = var17[var3];
                 var3 = var16.bind(var4)(var3);
                 var2 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 25;
+                    var1 = 26;
                     var2 = var2[var1];
                     var1 = undefined;
                     var7 = var3.bind(var1)(var2);
                     var6 = var7.getUserThemeIndex;
                     var12 = _closure2_slot1;
                     var11 = _closure2_slot0;
-                    var10 = _closure2_slot6;
+                    var10 = _closure2_slot7;
                     var9 = _closure2_slot2;
                     var8 = _closure2_slot3;
                     var13 = var7;

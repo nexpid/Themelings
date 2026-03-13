@@ -462,31 +462,36 @@ case 9:
             var6 = _closure1_slot1;
             var8 = _closure1_slot3;
             var3 = 17;
-            var3 = var8[var3];
+            var7 = var8[var3];
             var4 = undefined;
-            var3 = var6.bind(var4)(var3);
-            var10 = var3.Emitter;
-            var9 = var10.injectBatchEmitChanges;
-            var7 = _closure1_slot0;
-            var3 = 18;
-            var3 = var8[var3];
-            var3 = var7.bind(var4)(var3);
-            var3 = var3.batchUpdates;
-            var3 = var9.bind(var10)(var3);
-            var3 = 19;
-            var3 = var8[var3];
-            var3 = var7.bind(var4)(var3);
-            var9 = var3.TelemetryRingLifecycle;
-            var3 = var9.initialize;
-            var3 = var3.bind(var9)();
-            var3 = 20;
-            var3 = var8[var3];
-            var9 = var7.bind(var4)(var3);
-            var7 = var9.installWebsocketTelemetryHook;
-            var3 = function(arg1) {
+            var9 = var6.bind(var4)(var7);
+            var7 = var9.setupOTAAssetFallback;
+            var7 = var7.bind(var9)();
+            var7 = 18;
+            var7 = var8[var7];
+            var7 = var6.bind(var4)(var7);
+            var11 = var7.Emitter;
+            var10 = var11.injectBatchEmitChanges;
+            var9 = _closure1_slot0;
+            var7 = 19;
+            var7 = var8[var7];
+            var7 = var9.bind(var4)(var7);
+            var7 = var7.batchUpdates;
+            var7 = var10.bind(var11)(var7);
+            var7 = 20;
+            var7 = var8[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.TelemetryRingLifecycle;
+            var7 = var10.initialize;
+            var7 = var7.bind(var10)();
+            var7 = 21;
+            var7 = var8[var7];
+            var10 = var9.bind(var4)(var7);
+            var9 = var10.installWebsocketTelemetryHook;
+            var7 = function(arg1) {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot3;
-                var1 = 21;
+                var1 = 22;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -497,11 +502,11 @@ case 9:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var3 = var7.bind(var9)(var3);
-            var10 = _closure1_slot8;
-            var9 = var10.addEventListener;
-            var7 = 'url';
-            var3 = function(arg1) {
+            var7 = var9.bind(var10)(var7);
+            var11 = _closure1_slot8;
+            var10 = var11.addEventListener;
+            var9 = 'url';
+            var7 = function(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var1 = arg1;
@@ -509,7 +514,7 @@ case 0:
                     var _closure3_slot0 = var4;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    var1 = 22;
+                    var1 = 23;
                     var5 = var5[var1];
                     var1 = undefined;
                     var6 = var6.bind(var1)(var5);
@@ -539,7 +544,7 @@ case 0:
                             var1 = var3.bind(var4)(var1);
                             var4 = _closure1_slot1;
                             var3 = _closure1_slot3;
-                            var1 = 23;
+                            var1 = 24;
                             var3 = var3[var1];
                             var1 = undefined;
                             var7 = var4.bind(var1)(var3);
@@ -579,12 +584,11 @@ case 58:
                     return var1;
                 }
             };
-            var3 = var9.bind(var10)(var7, var3);
-            var9 = _closure1_slot9;
-            var7 = var9.ignoreLogs;
-            var3 = ['Non-serializable values were found in the navigation state', 'Overriding previous layout animation with new one before the first began', 'Check the render method of `SceneView`', 'Open debugger to view warnings.'];
-            var3 = var7.bind(var9)(var3);
-            var3 = 24;
+            var7 = var10.bind(var11)(var9, var7);
+            var10 = _closure1_slot9;
+            var9 = var10.ignoreLogs;
+            var7 = ['Non-serializable values were found in the navigation state', 'Overriding previous layout animation with new one before the first began', 'Check the render method of `SceneView`', 'Open debugger to view warnings.'];
+            var7 = var9.bind(var10)(var7);
             var7 = var8[var3];
             var9 = var6.bind(var4)(var7);
             var7 = var9.getInitialBundleDownloaded;
@@ -672,7 +676,7 @@ case 0:
                     var5 = var2.bind(var1)(var3);
                     var3 = var5.bind(var1)();
                     var2 = var3.done;
-                    var4 = 24;
+                    var4 = 17;
                     if(var2) { _fun0012_ip = 67; continue _fun0012 }
 case 57:
                     var8 = var3.value;
@@ -709,7 +713,7 @@ case 0:
                     var5 = var2.bind(var1)(var3);
                     var3 = var5.bind(var1)();
                     var2 = var3.done;
-                    var4 = 24;
+                    var4 = 17;
                     if(var2) { _fun0013_ip = 67; continue _fun0013 }
 case 57:
                     var8 = var3.value;
@@ -797,7 +801,7 @@ case 68:
                 var7 = var5.appStateChangeStart;
                 var5 = var7.record;
                 var5 = var5.bind(var7)();
-                var5 = 23;
+                var5 = 24;
                 var5 = var4[var5];
                 var7 = var3.bind(var1)(var5);
                 var5 = var7.resumeTracing;
@@ -977,7 +981,7 @@ case 35:
                     var6 = var2.APP_FIRST_LAUNCHED;
                     var5 = {};
                     var10 = _closure1_slot0;
-                    var2 = 22;
+                    var2 = 23;
                     var2 = var11[var2];
                     var10 = var10.bind(var3)(var2);
                     var2 = var10.isAndroid;
@@ -1246,7 +1250,7 @@ case 102:
 case 104:
                     var6 = _closure1_slot1;
                     var10 = _closure1_slot3;
-                    var5 = 23;
+                    var5 = 24;
                     var5 = var10[var5];
                     var12 = var6.bind(var7)(var5);
                     var11 = var12.markAndLog;
@@ -1365,7 +1369,7 @@ case 116:
 case 115:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var14 = 22;
+                    var14 = 23;
                     var2 = var2[var14];
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.isAndroid;
@@ -1515,7 +1519,7 @@ case 129:
 case 131:
                     var17 = _closure1_slot1;
                     var13 = _closure1_slot3;
-                    var21 = 23;
+                    var21 = 24;
                     var13 = var13[var21];
                     var22 = var17.bind(var5)(var13);
                     var19 = var22.markAndLog;
@@ -1613,7 +1617,7 @@ case 144:
                     var15 = function() {
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot3;
-                        var1 = 17;
+                        var1 = 18;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -1775,9 +1779,7 @@ case 148:
                                 var3 = var5[var3];
                                 var7 = var4.bind(var1)(var3);
                                 var6 = var7.updateVisualRefresh;
-                                var3 = {};
-                                var9 = 'NativeAppStartup';
-                                var3['location'] = var9;
+                                var3 = 'NativeAppStartup';
                                 var3 = var8.bind(var1)(var3);
                                 var3 = var6.bind(var7)(var3);
                                 var3 = 58;
@@ -2021,7 +2023,7 @@ case 166:
                     var7 = var3[var7];
                     var7 = var9.bind(var5)(var7);
                     var8 = _closure1_slot1;
-                    var7 = 17;
+                    var7 = 18;
                     var7 = var3[var7];
                     var8 = var8.bind(var5)(var7);
                     var7 = var8.initialize;
@@ -2131,7 +2133,7 @@ case 170:
 case 169:
             var4 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var3 = 22;
+            var3 = 23;
             var3 = var6[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;

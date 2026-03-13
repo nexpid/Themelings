@@ -1089,7 +1089,7 @@ case 71:
             return var1;
         };
         var6['value'] = var2;
-        var2 = new Array(79);
+        var2 = new Array(80);
         var2[0] = var6;
         var6 = {};
         var7 = 'interact';
@@ -5207,6 +5207,46 @@ case 30:
         var6['value'] = var8;
         var2[76] = var6;
         var6 = {};
+        var8 = 'getDeviceAudioEffects';
+        var6['key'] = var8;
+        var8 = function value(arg1) {
+            _fun0078: for(var _fun0078_ip = 0; ; ) switch(_fun0078_ip) {
+case 0:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 15;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = var2.getVoiceEngine;
+                var4 = var1.bind(var2)();
+                var2 = var4.getDeviceAudioEffects;
+                var1 = null;
+                if(!(var1 == var2)) { _fun0078_ip = 208; continue _fun0078 }
+case 39:
+                var1 = global;
+                var3 = var1.Promise;
+                var2 = var3.reject;
+                var6 = var1.Error;
+                var1 = var6.prototype;
+                var5 = Object.create(var1, {constructor: {value: var6}});
+                var7 = 'Device audio effect querying not supported';
+                var8 = var5;
+                var1 = new var8[var6](var7, var6);
+                var1 = var1 instanceof Object ? var1 : var5;
+                var1 = var2.bind(var3)(var1);
+                _fun0078_ip = 281; continue _fun0078;
+case 208:
+                var3 = var4.getDeviceAudioEffects;
+                var2 = arg1;
+                var1 = var3.bind(var4)(var2);
+case 281:
+                return var1;
+            }
+        };
+        var6['value'] = var8;
+        var2[77] = var6;
+        var6 = {};
         var8 = 'watchdogTick';
         var6['key'] = var8;
         var8 = function value() {
@@ -5237,17 +5277,17 @@ case 30:
             var4 = var4.setTimeout;
             var3 = _closure1_slot25;
             var2 = function() {
-                _fun0078: for(var _fun0078_ip = 0; ; ) switch(_fun0078_ip) {
+                _fun0079: for(var _fun0079_ip = 0; ; ) switch(_fun0079_ip) {
 case 0:
                     var2 = _closure3_slot1;
-                    if(var2) { _fun0078_ip = 33; continue _fun0078 }
+                    if(var2) { _fun0079_ip = 33; continue _fun0079 }
 case 240:
                     var2 = _closure3_slot0;
                     var3 = var2.consecutiveWatchdogFailures;
                     var3 = var3 + 1;
                     var2['consecutiveWatchdogFailures'] = var3;
                     var2 = 1;
-                    if(!(var3 > var2)) { _fun0078_ip = 33; continue _fun0078 }
+                    if(!(var3 > var2)) { _fun0079_ip = 33; continue _fun0079 }
 case 189:
                     var4 = _closure3_slot0;
                     var3 = var4.emit;
@@ -5260,7 +5300,7 @@ case 189:
                     var2 = var2.MediaEngineEvent;
                     var2 = var2.WatchdogTimeout;
                     var2 = var3.bind(var4)(var2);
-                    _fun0078_ip = 20; continue _fun0078;
+                    _fun0079_ip = 20; continue _fun0079;
 case 33:
                     var2 = _closure3_slot0;
                     var1 = var2.watchdogTick;
@@ -5274,7 +5314,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[77] = var6;
+        var2[78] = var6;
         var6 = {};
         var8 = 'connectionsEmpty';
         var6['key'] = var8;
@@ -5287,7 +5327,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[78] = var6;
+        var2[79] = var6;
         var6 = {};
         var6['key'] = var7;
         var1 = function value() {

@@ -24,17 +24,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.CRUNCHYROLL_LINK_DEST_ORIGIN;
+    var4 = var4.CrunchyrollLinkModalScenes;
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.CrunchyrollLinkModalScenes;
+    var4 = var4.PlatformTypes;
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.PlatformTypes;
+    var4 = var4.CRUNCHYROLL_LINK_DEST_ORIGIN;
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function(arg1) {
             var4 = _closure2_slot0;
             var3 = var4.push;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot4;
             var2 = var1.DISCORD_CONSENT;
             var1 = arg1;
             var1 = var3.bind(var4)(var2, var1);
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var3 = _closure2_slot0;
             var2 = var3.push;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot4;
             var1 = var1.ERROR;
             var1 = var2.bind(var3)(var1);
             var1 = undefined;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var9.bind(var4)(var1);
         var2 = var1.TwoWayLinkPreConnect;
         var1 = {};
-        var11 = _closure1_slot6;
+        var11 = _closure1_slot5;
         var11 = var11.CRUNCHYROLL;
         var1['platformType'] = var11;
         var1['onError'] = var8;
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var6.oS4NEH;
         var6 = var7.bind(var8)(var6);
         var1['body'] = var6;
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot6;
         var1['redirectDestination'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;

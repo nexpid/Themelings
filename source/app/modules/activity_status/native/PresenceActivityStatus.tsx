@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var7;
     var4 = var4.jsxs;
     var _closure1_slot6 = var4;
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -59,27 +59,17 @@ case 2:
 case 5:
             var6 = false;
 case 4:
-            var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 8;
-            var2 = var8[var2];
-            var8 = var3.bind(var4)(var2);
-            var3 = var8.useActivityStatusDescriptiveTextExperiment;
-            var2 = {};
-            var9 = 'PresenceActivityStatus';
-            var2['location'] = var9;
-            var2 = var3.bind(var8)(var2);
-            var9 = var2.descriptiveTextEnabled;
             if(!var5) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             if(var6) { _fun0001_ip = 8; continue _fun0001 }
 case 6:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 9;
+            var2 = 8;
             var2 = var8[var2];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.bind(var4)(var1, var9);
+            var9 = var3.bind(var4)(var2);
+            var2 = true;
+            var2 = var9.bind(var4)(var1, var2);
             var10 = var2.text;
             var2 = 3;
             var2 = var8[var2];
@@ -171,7 +161,7 @@ case 27:
             var13 = _closure1_slot4;
             var9 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var5 = 10;
+            var5 = 9;
             var5 = var16[var5];
             var9 = var9.bind(var4)(var5);
             var5 = {};
@@ -187,7 +177,7 @@ case 29:
             var9 = _closure1_slot4;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var7 = 11;
+            var7 = 10;
             var7 = var13[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};

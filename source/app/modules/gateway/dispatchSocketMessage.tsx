@@ -6011,8 +6011,10 @@ case 198:
         var2['skuId'] = var4;
         var4 = var1.recipient_id;
         var2['recipientId'] = var4;
-        var1 = var1.eligible;
-        var2['eligible'] = var1;
+        var4 = var1.eligible;
+        var2['eligible'] = var4;
+        var1 = var1.ineligible_reason;
+        var2['ineligibleReason'] = var1;
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
         return var1;

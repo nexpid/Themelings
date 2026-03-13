@@ -41,7 +41,7 @@ case 3:
             var4 = undefined;
             var3 = var6.bind(var4)(var3);
             var2 = _closure1_slot2;
-            var2 = var2.SUPPORTS_GATEWAY_ACTIVITY_ACTION_JOIN;
+            var2 = var2.SUPPORTS_REMOTE_ACTIVITY_ACTION_JOIN;
             var1 = var3.bind(var4)(var5, var2);
 case 2:
             return var1;

@@ -408,7 +408,7 @@ case 35:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
-            var17 = var4.description;
+            var21 = var4.description;
             var12 = var4.imageUploadSize;
             var _closure2_slot0 = var12;
             var11 = var4.image;
@@ -426,7 +426,7 @@ case 0:
             var9 = copyDataProperties(var25, var24, var23);
             var2 = _closure1_slot8;
             var4 = undefined;
-            var18 = var2.bind(var4)();
+            var22 = var2.bind(var4)();
             if(!(var1 != var11)) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
             var5 = _closure1_slot0;
@@ -440,7 +440,7 @@ case 40:
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
             var1 = var1.0KOido;
-            var22 = var2.bind(var3)(var1);
+            var19 = var2.bind(var3)(var1);
             _fun0004_ip = 41; continue _fun0004;
 case 39:
             var5 = _closure1_slot0;
@@ -454,50 +454,42 @@ case 39:
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
             var1 = var1.bGPfSp;
-            var22 = var2.bind(var3)(var1);
+            var19 = var2.bind(var3)(var1);
 case 41:
             var3 = _closure1_slot7;
             var2 = _closure1_slot5;
             var1 = {};
-            var5 = var18.imageSelectionRow;
+            var5 = var22.imageSelectionRow;
             var1['style'] = var5;
             var8 = _closure1_slot7;
             var7 = _closure1_slot5;
             var5 = {};
-            var14 = var18.buttonColumn;
+            var14 = var22.buttonColumn;
             var5['style'] = var14;
-            var16 = _closure1_slot6;
-            var15 = _closure1_slot0;
+            var17 = _closure1_slot6;
+            var16 = _closure1_slot0;
             var20 = _closure1_slot2;
             var14 = 13;
             var14 = var20[var14];
-            var14 = var15.bind(var4)(var14);
+            var14 = var16.bind(var4)(var14);
             var15 = var14.Text;
             var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
-            var18 = var18.imageDescription;
-            var14['style'] = var18;
-            var14['children'] = var17;
-            var15 = var16.bind(var4)(var15, var14);
+            var22 = var22.imageDescription;
+            var14['style'] = var22;
+            var14['children'] = var21;
+            var15 = var17.bind(var4)(var15, var14);
             var14 = new Array(2);
             var14[0] = var15;
             var17 = _closure1_slot6;
-            var19 = _closure1_slot1;
-            var18 = 14;
-            var15 = var20[var18];
-            var16 = var19.bind(var4)(var15);
+            var15 = 14;
+            var15 = var20[var15];
+            var15 = var16.bind(var4)(var15);
+            var16 = var15.Button;
             var15 = {};
-            var15['text'] = var22;
-            var22 = var20[var18];
-            var22 = var19.bind(var4)(var22);
-            var22 = var22.Colors;
-            var22 = var22.GREY;
-            var15['color'] = var22;
-            var22 = var20[var18];
-            var22 = var19.bind(var4)(var22);
-            var22 = var22.Looks;
-            var22 = var22.FILLED;
-            var15['look'] = var22;
-            var21 = function onPress() {
+            var15['text'] = var19;
+            var19 = 'secondary';
+            var15['variant'] = var19;
+            var18 = function onPress() {
                 var4 = _closure1_slot10;
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot1;
@@ -505,11 +497,8 @@ case 41:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var15['onPress'] = var21;
-            var18 = var20[var18];
-            var18 = var19.bind(var4)(var18);
-            var18 = var18.Sizes;
-            var18 = var18.MEDIUM;
+            var15['onPress'] = var18;
+            var18 = 'md';
             var15['size'] = var18;
             var15['disabled'] = var13;
             var15 = var17.bind(var4)(var16, var15);

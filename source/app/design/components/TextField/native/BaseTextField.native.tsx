@@ -4,7 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -22,32 +24,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot2 = var8;
+    var _closure1_slot3 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var2 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var1 = 3;
-            var2 = var6[var1];
+            var1 = var6[var1];
             var4 = undefined;
+            var2 = var2.bind(var4)(var1);
+            var1 = 'InputFieldContainer';
+            var10 = var2.bind(var4)(var1);
+            var3 = _closure1_slot0;
+            var1 = 4;
+            var2 = var6[var1];
             var9 = var3.bind(var4)(var2);
             var8 = var9.useInputStyles;
             var2 = {};
-            var10 = var5.size;
-            var2['size'] = var10;
-            var10 = var5.isRound;
-            var2['isRound'] = var10;
-            var10 = var5.leadingIcon;
+            var11 = var5.size;
+            var2['size'] = var11;
+            var11 = var5.isRound;
+            var2['isRound'] = var11;
+            var12 = var5.leadingIcon;
             var11 = null;
-            var10 = var11 != var10;
-            var2['hasLeadingIcon'] = var10;
+            var12 = var11 != var12;
+            var2['hasLeadingIcon'] = var12;
+            var2['isRefreshEnabled'] = var10;
             var10 = var8.bind(var9)(var2);
-            var2 = 4;
+            var2 = 5;
             var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useFocus;
@@ -70,7 +79,7 @@ case 7:
 case 6:
             var2 = {};
             var15 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot2;
             var12 = 2;
             var3 = var3[var12];
             var15 = var15.bind(var4)(var3);
@@ -83,7 +92,7 @@ case 9:
 case 8:
             var2['autoComplete'] = var3;
             var14 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot2;
             var3 = var3[var12];
             var14 = var14.bind(var4)(var3);
             var3 = var14.isAndroid;
@@ -96,7 +105,7 @@ case 11:
 case 10:
             var2['secureTextEntry'] = var3;
             var9 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot2;
             var3 = var3[var12];
             var9 = var9.bind(var4)(var3);
             var3 = var9.isAndroid;
@@ -109,9 +118,9 @@ case 12:
             var2['keyboardType'] = var3;
             var11 = var2;
 case 2:
-            var3 = _closure1_slot3;
+            var3 = _closure1_slot4;
             var12 = _closure1_slot0;
-            var14 = _closure1_slot1;
+            var14 = _closure1_slot2;
             var1 = var14[var1];
             var1 = var12.bind(var4)(var1);
             var2 = var1.InputFieldContainer;
@@ -124,8 +133,8 @@ case 2:
             var8 = var5.leading;
             var6 = new Array(3);
             var6[0] = var8;
-            var9 = _closure1_slot2;
-            var7 = 5;
+            var9 = _closure1_slot3;
+            var7 = 6;
             var7 = var14[var7];
             var7 = var12.bind(var4)(var7);
             var8 = var7.NativeTextInput;
@@ -133,7 +142,7 @@ case 2:
             var17 = var7;
             var16 = var11;
             var11 = copyDataProperties(var17, var16);
-            var11 = 6;
+            var11 = 7;
             var11 = var14[var11];
             var12 = var12.bind(var4)(var11);
             var11 = var12.mergeProps;
@@ -167,7 +176,7 @@ case 2:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

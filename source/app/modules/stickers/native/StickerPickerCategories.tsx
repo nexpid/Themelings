@@ -252,10 +252,13 @@ case 10:
             var1 = {};
             var5 = _closure1_slot10;
             var1['androidRippleConfig'] = var5;
-            var5 = 'button';
+            var5 = 'tab';
             var1['accessibilityRole'] = var5;
             var5 = var12.name;
             var1['accessibilityLabel'] = var5;
+            var5 = {};
+            var5['selected'] = var15;
+            var1['accessibilityState'] = var5;
             var5 = var12.stickers;
             var5 = var5.length;
             var19 = 0;
@@ -748,7 +751,7 @@ case 47:
             var6 = var7;
 case 46:
             if(!var6) { _fun0003_ip = 48; continue _fun0003 }
-case 49:
+case 17:
             var9 = _closure1_slot14;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;

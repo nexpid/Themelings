@@ -1,10 +1,12 @@
 // app/design/components/Input/native/useInputAttachments.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
+    var10 = metroImportDefault;
     var3 = exports;
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
-    var _closure1_slot1 = var9;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var9;
     var6 = function estimateAttachmentWidth(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -15,7 +17,7 @@ case 0:
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot2;
             var2 = 4;
             var3 = var3[var2];
             var2 = undefined;
@@ -28,7 +30,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot7 = var6;
+    var _closure1_slot8 = var6;
     var5 = function renderInputAttachment(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -41,9 +43,9 @@ case 5:
             var1 = null;
             if(!var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var6 = _closure1_slot6;
+            var6 = _closure1_slot7;
             var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
+            var4 = _closure1_slot2;
             var2 = 5;
             var2 = var4[var2];
             var4 = undefined;
@@ -59,15 +61,15 @@ case 7:
 case 6:
             _fun0002_ip = 8; continue _fun0002;
 case 4:
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot7;
             var3 = undefined;
-            var2 = {'size': 'xs', 'color': 'text-default'};
+            var2 = {'size': 'xs', 'color': 'input-icon-default'};
             var1 = var4.bind(var3)(var5, var2);
 case 8:
             return var1;
         }
     };
-    var _closure1_slot8 = var5;
+    var _closure1_slot9 = var5;
     var4 = function InputAttachmentContainer(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -85,8 +87,8 @@ case 0:
 case 10:
             if(!(var4 == var8)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var6 = _closure1_slot6;
-            var5 = _closure1_slot5;
+            var6 = _closure1_slot7;
+            var5 = _closure1_slot6;
             var4 = {};
             var4['style'] = var2;
             var2 = function onLayout(arg1) {
@@ -105,8 +107,8 @@ case 12:
             var2 = var6.bind(var2)(var5, var4);
             _fun0003_ip = 13; continue _fun0003;
 case 11:
-            var6 = _closure1_slot6;
-            var5 = _closure1_slot4;
+            var6 = _closure1_slot7;
+            var5 = _closure1_slot5;
             var4 = {};
             var9 = 'button';
             var4['role'] = var9;
@@ -161,40 +163,39 @@ case 9:
             return var1;
         }
     };
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var1 = global;
-    var11 = var1.Object;
-    var10 = var11.defineProperty;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
     var7 = {};
     var1 = true;
     var7['value'] = var1;
     var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var7);
+    var1 = var11.bind(var12)(var3, var1, var7);
     var1 = 0;
-    var10 = var9[var1];
-    var7 = metroImportDefault;
+    var7 = var9[var1];
     var1 = undefined;
-    var7 = var7.bind(var1)(var10);
-    var _closure1_slot2 = var7;
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot3 = var7;
     var7 = 1;
     var10 = var9[var7];
     var7 = metroImportAll;
     var7 = var7.bind(var1)(var10);
-    var _closure1_slot3 = var7;
+    var _closure1_slot4 = var7;
     var7 = 2;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
     var10 = var7.Platform;
     var10 = var7.Pressable;
-    var _closure1_slot4 = var10;
+    var _closure1_slot5 = var10;
     var7 = var7.View;
-    var _closure1_slot5 = var7;
+    var _closure1_slot6 = var7;
     var7 = 3;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
     var7 = var7.jsx;
-    var _closure1_slot6 = var7;
-    var7 = 7;
+    var _closure1_slot7 = var7;
+    var7 = 8;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -208,20 +209,27 @@ case 9:
 case 0:
             var7 = arg1;
             var14 = arg2;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot1;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var3 = 6;
-            var4 = var4[var3];
+            var4 = var6[var3];
             var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = 'useInputAttachments';
+            var8 = var5.bind(var3)(var4);
+            var5 = _closure1_slot0;
+            var4 = 7;
+            var4 = var6[var4];
             var6 = var5.bind(var3)(var4);
             var5 = var6.useInputStyles;
             var4 = {};
-            var8 = var7.size;
-            var4['size'] = var8;
-            var8 = var7.leadingIcon;
+            var9 = var7.size;
+            var4['size'] = var9;
+            var9 = var7.leadingIcon;
             var13 = null;
-            var8 = var13 != var8;
-            var4['hasLeadingIcon'] = var8;
+            var9 = var13 != var9;
+            var4['hasLeadingIcon'] = var9;
+            var4['isRefreshEnabled'] = var8;
             var4 = var5.bind(var6)(var4);
             var _closure2_slot0 = var4;
             var6 = var7.leadingIcon;
@@ -240,7 +248,7 @@ case 17:
 case 16:
             if(!(var13 == var20)) { _fun0005_ip = 18; continue _fun0005 }
 case 19:
-            var8 = _closure1_slot8;
+            var8 = _closure1_slot9;
             var7 = var4.text;
             var20 = var8.bind(var3)(var6, var10, var7);
 case 18:
@@ -251,45 +259,45 @@ case 21:
             var15 = var14.trailing;
 case 20:
             if(!(var13 == var15)) { _fun0005_ip = 22; continue _fun0005 }
-case 9:
-            var8 = _closure1_slot8;
+case 23:
+            var8 = _closure1_slot9;
             var7 = var4.text;
             var15 = var8.bind(var3)(var5, var9, var7);
 case 22:
-            if(!(var13 == var6)) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+            if(!(var13 == var6)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var7 = var13 == var14;
             var6 = undefined;
-            if(var7) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
-            var6 = var14.leading;
-case 25:
-            if(!(var13 != var6)) { _fun0005_ip = 27; continue _fun0005 }
-case 23:
-            var17 = var4.leadingIcon;
-            _fun0005_ip = 28; continue _fun0005;
+            if(var7) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
-            var17 = var4.leadingText;
+            var6 = var14.leading;
+case 26:
+            if(!(var13 != var6)) { _fun0005_ip = 28; continue _fun0005 }
+case 24:
+            var17 = var4.leadingIcon;
+            _fun0005_ip = 29; continue _fun0005;
 case 28:
-            if(!(var13 == var5)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+            var17 = var4.leadingText;
+case 29:
+            if(!(var13 == var5)) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
             var6 = var13 == var14;
             var5 = undefined;
-            if(var6) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
-            var5 = var14.trailing;
-case 31:
-            if(!(var13 != var5)) { _fun0005_ip = 33; continue _fun0005 }
-case 29:
-            var10 = var4.trailingIcon;
-            _fun0005_ip = 34; continue _fun0005;
+            if(var6) { _fun0005_ip = 32; continue _fun0005 }
 case 33:
-            var10 = var4.trailingText;
+            var5 = var14.trailing;
+case 32:
+            if(!(var13 != var5)) { _fun0005_ip = 34; continue _fun0005 }
+case 30:
+            var10 = var4.trailingIcon;
+            _fun0005_ip = 35; continue _fun0005;
 case 34:
-            var16 = _closure1_slot3;
+            var10 = var4.trailingText;
+case 35:
+            var16 = _closure1_slot4;
             var6 = var16.useState;
             var5 = function() {
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot8;
                 var3 = _closure2_slot1;
                 var1 = _closure2_slot0;
                 var2 = var1.leadingIcon;
@@ -302,7 +310,7 @@ case 34:
                 return var1;
             };
             var6 = var6.bind(var16)(var5);
-            var8 = _closure1_slot2;
+            var8 = _closure1_slot3;
             var5 = 2;
             var12 = var8.bind(var3)(var6, var5);
             var6 = 0;
@@ -311,7 +319,7 @@ case 34:
             var19 = var12[var7];
             var12 = var16.useState;
             var1 = function() {
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot8;
                 var3 = _closure2_slot2;
                 var1 = _closure2_slot0;
                 var2 = var1.trailingIcon;
@@ -328,60 +336,60 @@ case 34:
             var5 = var1[var6];
             var12 = var1[var7];
             var1 = {};
-            var16 = _closure1_slot6;
-            var8 = _closure1_slot9;
+            var16 = _closure1_slot7;
+            var8 = _closure1_slot10;
             var7 = {};
             var7['content'] = var20;
             var7['setWidth'] = var19;
             var20 = var13 == var14;
             var19 = undefined;
-            if(var20) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
-            var19 = var14.leadingPressableProps;
-case 35:
-            if(!(var13 != var19)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
-            var18 = var19;
+            if(var20) { _fun0005_ip = 36; continue _fun0005 }
 case 37:
+            var19 = var14.leadingPressableProps;
+case 36:
+            if(!(var13 != var19)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
+            var18 = var19;
+case 38:
             var7['pressableProps'] = var18;
             var7['style'] = var17;
             var7 = var16.bind(var3)(var8, var7);
             var1['leading'] = var7;
-            var8 = _closure1_slot6;
-            var7 = _closure1_slot9;
+            var8 = _closure1_slot7;
+            var7 = _closure1_slot10;
             var2 = {};
             var2['content'] = var15;
             var2['setWidth'] = var12;
             var15 = var13 == var14;
             var12 = undefined;
-            if(var15) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
-            var12 = var14.trailingPressableProps;
-case 39:
-            if(!(var13 != var12)) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
-            var11 = var12;
+            if(var15) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
+            var12 = var14.trailingPressableProps;
+case 40:
+            if(!(var13 != var12)) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
+            var11 = var12;
+case 42:
             var2['pressableProps'] = var11;
             var2['style'] = var10;
             var2 = var8.bind(var3)(var7, var2);
             var1['trailing'] = var2;
             var2 = {};
             var7 = undefined;
-            if(!(var6 !== var9)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+            if(!(var6 !== var9)) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
             var8 = var4.padding;
             var8 = var8.paddingHorizontal;
             var7 = var9 - var8;
-case 43:
+case 44:
             var2['marginStart'] = var7;
             var3 = undefined;
-            if(!(var6 !== var5)) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+            if(!(var6 !== var5)) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
             var4 = var4.padding;
             var4 = var4.paddingHorizontal;
             var3 = var5 - var4;
-case 45:
+case 46:
             var2['marginEnd'] = var3;
             var1['inputStyle'] = var2;
             return var1;

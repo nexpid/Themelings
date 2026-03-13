@@ -336,8 +336,8 @@ case 0:
             var2 = var1.statusCode;
             var4 = var1.retryAfter;
             var1 = 429;
-            if(!(var1 !== var2)) { _fun0006_ip = 5; continue _fun0006 }
-case 21:
+            if(!(var1 !== var2)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
             var1 = _closure1_slot8;
             var3 = var1.validations;
             var2 = var3.set;
@@ -346,8 +346,8 @@ case 21:
             var1['taken'] = var5;
             var1['error'] = var8;
             var1 = var2.bind(var3)(var6, var1);
-            _fun0006_ip = 22; continue _fun0006;
-case 5:
+            _fun0006_ip = 23; continue _fun0006;
+case 21:
             var2 = _closure1_slot8;
             var5 = var2.validations;
             var3 = var5.set;
@@ -356,10 +356,10 @@ case 5:
             var2['error'] = var8;
             var8 = var7 != var4;
             var7 = 7;
-            if(!var8) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+            if(!var8) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
             var7 = var4;
-case 23:
+case 24:
             var9 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 6;
@@ -370,10 +370,10 @@ case 23:
             var1 = var1.SECOND;
             var1 = var7 * var1;
             var1 = var3.bind(var5)(var6, var2, var1);
-case 22:
+case 23:
             var1 = null;
-            if(!(var1 != var4)) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+            if(!(var1 != var4)) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
             var2 = _closure1_slot8;
             var3 = global;
             var5 = var3.Date;
@@ -390,7 +390,7 @@ case 26:
             var1 = var4 * var1;
             var1 = var3 + var1;
             var2['retryAfterTime'] = var1;
-case 25:
+case 26:
             var1 = undefined;
             return var1;
         }
@@ -432,15 +432,15 @@ case 0:
             var6 = var1 == var5;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+            if(var6) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
             var4 = var5.invalid_current_username;
-case 27:
-            if(!(var3 === var4)) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+case 28:
+            if(!(var3 === var4)) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
             var2 = _closure1_slot8;
             var2['currentUsernameInvalid'] = var3;
-case 29:
+case 30:
             return var1;
         }
     };
@@ -463,12 +463,12 @@ case 0:
             var6 = var5 == var2;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0008_ip = 6; continue _fun0008 }
-case 31:
+            if(var6) { _fun0008_ip = 16; continue _fun0008 }
+case 32:
             var4 = var2.username;
-case 6:
-            if(!(var5 != var4)) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
+case 16:
+            if(!(var5 != var4)) { _fun0008_ip = 33; continue _fun0008 }
+case 5:
             var3 = _closure1_slot8;
             var5 = var3.validations;
             var4 = var5.set;
@@ -477,7 +477,7 @@ case 33:
             var6 = false;
             var2['taken'] = var6;
             var2 = var4.bind(var5)(var3, var2);
-case 32:
+case 33:
             return var1;
         }
     };

@@ -1732,7 +1732,7 @@ case 106:
             var2 = var2[var4];
             var2 = var3.bind(var1)(var2);
             var4 = var2.socket;
-            var3 = var4.resetSocketOnError;
+            var3 = var4.resetSocketAndClearCacheOnError;
             var2 = arg1;
             var2 = var2.args;
             var2 = var3.bind(var4)(var2);

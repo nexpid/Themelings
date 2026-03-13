@@ -704,8 +704,6 @@ case 80:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openEditCustomStatusModal;
                 var2 = {};
-                var6 = 'UserProfileCustomStatusBubble';
-                var2['location'] = var6;
                 var6 = 17;
                 var6 = var8[var6];
                 var6 = var7.bind(var1)(var6);

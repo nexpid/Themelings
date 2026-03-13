@@ -544,8 +544,7 @@ case 64:
                         var6 = function(arg1) {
                             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                                var2 = _closure5_slot2;
-                                var5 = var2.users;
+                                var5 = _closure5_slot1;
                                 var4 = var5.filter;
                                 var2 = function(arg1) {
                                     var3 = _closure2_slot1;
@@ -556,24 +555,52 @@ case 0:
                                     var1 = !var1;
                                     return var1;
                                 };
-                                var4 = var4.bind(var5)(var2);
-                                var5 = _closure5_slot1;
-                                var2 = var5.filter;
-                                var1 = function(arg1) {
-                                    var3 = _closure2_slot1;
-                                    var2 = var3.has;
+                                var2 = var4.bind(var5)(var2);
+                                _closure5_slot1 = var2;
+                                var2 = global;
+                                var5 = var2.Set;
+                                var6 = _closure5_slot1;
+                                var4 = var6.map;
+                                var2 = function(arg1) {
                                     var1 = arg1;
                                     var1 = var1.id;
-                                    var1 = var2.bind(var3)(var1);
-                                    var1 = !var1;
                                     return var1;
                                 };
-                                var1 = var2.bind(var5)(var1);
-                                _closure5_slot1 = var1;
+                                var9 = var4.bind(var6)(var2);
+                                var4 = var5.prototype;
+                                var4 = Object.create(var4, {constructor: {value: var5}});
+                                var10 = var4;
+                                var2 = new var10[var5](var9, var8);
+                                var2 = var2 instanceof Object ? var2 : var4;
+                                var _closure6_slot0 = var2;
+                                var2 = _closure5_slot2;
+                                var4 = var2.users;
+                                var2 = var4.filter;
+                                var1 = function(arg1) {
+                                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                                        var2 = arg1;
+                                        var4 = _closure2_slot1;
+                                        var3 = var4.has;
+                                        var1 = var2.id;
+                                        var1 = var3.bind(var4)(var1);
+                                        var1 = !var1;
+                                        if(!var1) { _fun0007_ip = 28; continue _fun0007 }
+case 65:
+                                        var4 = _closure6_slot0;
+                                        var3 = var4.has;
+                                        var2 = var2.id;
+                                        var2 = var3.bind(var4)(var2);
+                                        var1 = !var2;
+case 28:
+                                        return var1;
+                                    }
+                                };
+                                var4 = var2.bind(var4)(var1);
                                 var1 = _closure5_slot0;
                                 var6 = 0;
-                                if(!(var6 !== var1)) { _fun0006_ip = 65; continue _fun0006 }
-case 30:
+                                if(!(var6 !== var1)) { _fun0006_ip = 66; continue _fun0006 }
+case 67:
                                 var1 = new Array(0);
                                 var8 = arg1;
                                 var9 = var1;
@@ -582,8 +609,8 @@ case 30:
                                 var9 = var1;
                                 var8 = var4;
                                 var2 = arraySpread(var9, var8, var7);
-                                _fun0006_ip = 66; continue _fun0006;
-case 65:
+                                _fun0006_ip = 68; continue _fun0006;
+case 66:
                                 var5 = _closure2_slot1;
                                 var2 = var5.values;
                                 var8 = var2.bind(var5)();
@@ -600,14 +627,14 @@ case 65:
                                 var8 = var4;
                                 var3 = arraySpread(var9, var8, var7);
                                 var1 = var2;
-case 66:
+case 68:
                                 return var1;
                             }
                         };
                         var6 = var7.bind(var2)(var6);
                         var6 = _closure2_slot13;
                         var5 = function(arg1) {
-                            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                                 var1 = global;
                                 var3 = var1.Map;
@@ -623,7 +650,7 @@ case 0:
                                 var4 = var3.bind(var5)(var2);
                                 var3 = var4.bind(var5)();
                                 var2 = var3.done;
-                                if(var2) { _fun0007_ip = 67; continue _fun0007 }
+                                if(var2) { _fun0008_ip = 69; continue _fun0008 }
 case 51:
                                 var7 = var3.value;
                                 var6 = var1.set;
@@ -632,8 +659,8 @@ case 51:
                                 var6 = var4.bind(var5)();
                                 var2 = var6.done;
                                 var3 = var6;
-                                if(!var2) { _fun0007_ip = 51; continue _fun0007 }
-case 67:
+                                if(!var2) { _fun0008_ip = 51; continue _fun0008 }
+case 69:
                                 return var1;
                             }
                         };
@@ -641,24 +668,24 @@ case 67:
                         var6 = _closure2_slot6;
                         var5 = var3.nextIndex;
                         var5 = var6.bind(var2)(var5);
-case 68: // try_end1
-                        _fun0005_ip = 69; continue _fun0005;
+case 70: // try_end1
+                        _fun0005_ip = 71; continue _fun0005;
 case 63: // try_end3
                         var6 = _closure2_slot9;
                         var5 = false;
                         var5 = var6.bind(var2)(var5);
                         return var3;
-case 70: // try_start_4 // catch_target0 // catch_target1
+case 72: // try_start_4 // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=2);
                         var5 = _closure2_slot11;
                         var3 = true;
                         var3 = var5.bind(var2)(var3);
-case 69: // try_end4
+case 71: // try_end4
                         var5 = _closure2_slot9;
                         var3 = false;
                         var3 = var5.bind(var2)(var3);
                         _fun0005_ip = 49; continue _fun0005;
-case 71: // catch_target2 // catch_target3 // catch_target4
+case 73: // catch_target2 // catch_target3 // catch_target4
                         CatchBlockStart(arg_register=2);
                         var5 = _closure2_slot9;
                         var4 = false;
@@ -710,7 +737,7 @@ case 47:
         var7[0] = var10;
         var7[1] = var1;
         var1 = function() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = _closure2_slot16;
                 var2 = var2.current;
@@ -719,12 +746,12 @@ case 0:
                 var5 = var2.getLocalReferrals;
                 var1 = _closure2_slot4;
                 var2 = 0;
-                if(!(!(var1 > var2))) { _fun0008_ip = 72; continue _fun0008 }
-case 73:
+                if(!(!(var1 > var2))) { _fun0009_ip = 74; continue _fun0009 }
+case 75:
                 var1 = undefined;
                 var1 = var5.bind(var1)();
-                _fun0008_ip = 4; continue _fun0008;
-case 72:
+                _fun0009_ip = 4; continue _fun0009;
+case 74:
                 var1 = undefined;
                 var1 = var4.bind(var1)(var2, var3);
 case 4:

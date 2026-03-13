@@ -87,9 +87,7 @@ case 0:
             var3 = 7;
             var3 = var9[var3];
             var6 = var6.bind(var4)(var3);
-            var3 = {};
-            var9 = 'RootThemeContextProvider';
-            var3['location'] = var9;
+            var3 = 'RootThemeContextProvider';
             var3 = var6.bind(var4)(var3);
             var6 = undefined;
             if(!var3) { _fun0001_ip = 2; continue _fun0001 }

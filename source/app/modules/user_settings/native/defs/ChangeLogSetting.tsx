@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
-        var1 = var1.default;
+        var1 = var1.ChangeLogScreen;
         return var1;
     };
     var8['getComponent'] = var9;

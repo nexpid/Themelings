@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -98,19 +98,30 @@ case 0:
                 var1 = var4;
                 if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var3 = _closure2_slot2;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var3 = 5;
+                var5 = var5[var3];
+                var3 = undefined;
+                var5 = var6.bind(var3)(var5);
+                var3 = var5.isMetaQuest;
+                var3 = var3.bind(var5)();
                 var1 = var4;
                 if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
+                var3 = _closure2_slot2;
+                var1 = var4;
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
                 var2 = _closure2_slot1;
                 var1 = var4;
                 if(var2) { _fun0001_ip = 2; continue _fun0001 }
-case 5:
+case 6:
                 var3 = var4.filter;
                 var2 = function(arg1) {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 5;
+                    var1 = 6;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);

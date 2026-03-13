@@ -481,7 +481,7 @@ case 19:
             var6 = function(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var13 = arg2;
+                    var18 = arg2;
                     var6 = arg1;
                     var2 = var6[Symbol.iterator];
                     var6 = var2().next;
@@ -489,10 +489,10 @@ case 0:
                     var3 = undefined;
                     var5 = undefined;
                     var7 = var6().value;
-                    var11 = var2;
-                    var11 = var11 === var8;
-                    var3 = var11;
-                    if(var11) { _fun0005_ip = 21; continue _fun0005 }
+                    var10 = var2;
+                    var10 = var10 === var8;
+                    var3 = var10;
+                    if(var10) { _fun0005_ip = 21; continue _fun0005 }
 case 22:
                     var5 = var7;
 case 21:
@@ -511,30 +511,34 @@ case 23:
 case 24:
                     var5 = var6;
 case 8: // try_start_0
-                    var12 = var5.headerTitle;
-                    var10 = var5.Icon;
+                    var13 = var5.headerTitle;
+                    var16 = var5.Icon;
 case 25: // try_end0
                     var5 = var3;
                     if(var5) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
                     var2.return();
 case 26:
-                    var15 = var13;
+                    var15 = var18;
                     var7 = _closure1_slot10;
-                    var6 = _closure1_slot0;
-                    var14 = _closure1_slot2;
-                    var5 = 20;
-                    var5 = var14[var5];
-                    var5 = var6.bind(var8)(var5);
+                    var12 = _closure1_slot0;
+                    var17 = _closure1_slot2;
+                    var10 = 20;
+                    var5 = var17[var10];
+                    var5 = var12.bind(var8)(var5);
                     var6 = var5.TableRow;
                     var5 = {};
-                    var5['label'] = var12;
-                    var12 = _closure2_slot1;
-                    var12 = var12[var13];
-                    var5['subLabel'] = var12;
+                    var5['label'] = var13;
+                    var13 = _closure2_slot1;
+                    var13 = var13[var18];
+                    var5['subLabel'] = var13;
                     var13 = _closure1_slot10;
-                    var12 = var10;
+                    var10 = var17[var10];
+                    var10 = var12.bind(var8)(var10);
+                    var10 = var10.TableRow;
+                    var12 = var10.Icon;
                     var10 = {};
+                    var10['IconComponent'] = var16;
                     var10 = var13.bind(var8)(var12, var10);
                     var5['icon'] = var10;
                     var12 = _closure2_slot2;

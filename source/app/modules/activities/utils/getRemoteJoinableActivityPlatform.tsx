@@ -61,7 +61,7 @@ case 7:
             var4 = var2;
 case 6:
             var2 = _closure1_slot4;
-            var2 = var2.SUPPORTS_GATEWAY_ACTIVITY_ACTION_JOIN;
+            var2 = var2.SUPPORTS_REMOTE_ACTIVITY_ACTION_JOIN;
             var2 = var6.bind(var10)(var4, var2);
             if(!var2) { _fun0001_ip = 4; continue _fun0001 }
 case 8:
@@ -138,7 +138,7 @@ case 21:
             var7 = var8;
 case 20:
             var3 = _closure1_slot4;
-            var3 = var3.SUPPORTS_GATEWAY_ACTIVITY_ACTION_JOIN;
+            var3 = var3.SUPPORTS_REMOTE_ACTIVITY_ACTION_JOIN;
             var5 = var5.bind(var6)(var7, var3);
             var3 = null;
             if(!var5) { _fun0001_ip = 22; continue _fun0001 }

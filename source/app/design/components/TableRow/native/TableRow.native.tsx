@@ -4,48 +4,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
     var4 = function TableRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
-            var22 = var3.label;
-            var21 = var3.subLabel;
+            var24 = var3.label;
+            var23 = var3.subLabel;
             var11 = var3.icon;
-            var20 = var3.trailing;
-            var19 = var3.arrow;
+            var22 = var3.trailing;
+            var21 = var3.arrow;
             var9 = var3.onPress;
-            var18 = var3.disabled;
+            var20 = var3.disabled;
             var5 = undefined;
-            if(!(var18 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var20 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var18 = false;
+            var20 = false;
 case 2:
-            var24 = var3.start;
+            var26 = var3.start;
             var4 = var3.end;
-            var17 = var3.labelLineClamp;
-            var16 = var3.subLabelLineClamp;
-            var15 = var3.variant;
-            if(!(var15 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+            var19 = var3.labelLineClamp;
+            var18 = var3.subLabelLineClamp;
+            var17 = var3.variant;
+            if(!(var17 === var5)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = 'default';
+            var17 = 'default';
 case 4:
-            var14 = var3.draggable;
-            var13 = var3.dragHandlePressableProps;
+            var16 = var3.draggable;
+            var15 = var3.dragHandlePressableProps;
             var2 = {'label': 0, 'subLabel': 0, 'icon': 0, 'trailing': 0, 'arrow': 0, 'onPress': 0, 'disabled': 0, 'start': 0, 'end': 0, 'labelLineClamp': 0, 'subLabelLineClamp': 0, 'variant': 0, 'draggable': 0, 'dragHandlePressableProps': 0};
             var10 = null;
+            var29 = var2;
+            var28 = null;
+            var1 = silentSetPrototypeOf(var29, var28);
+            var29 = {};
+            var28 = var3;
             var27 = var2;
-            var26 = null;
-            var1 = silentSetPrototypeOf(var27, var26);
-            var27 = {};
-            var26 = var3;
-            var25 = var2;
-            var8 = copyDataProperties(var27, var26, var25);
-            var3 = _closure1_slot2;
-            var2 = var3.useContext;
+            var8 = copyDataProperties(var29, var28, var27);
             var6 = _closure1_slot0;
-            var12 = _closure1_slot1;
+            var12 = _closure1_slot2;
             var1 = 5;
+            var1 = var12[var1];
+            var1 = var6.bind(var5)(var1);
+            var3 = var1.MobileVisualRefreshExperiment;
+            var2 = var3.useConfig;
+            var1 = {};
+            var13 = 'TableRow';
+            var1['location'] = var13;
+            var1 = var2.bind(var3)(var1);
+            var14 = var1.enabled;
+            var3 = _closure1_slot3;
+            var2 = var3.useContext;
+            var1 = 6;
             var1 = var12[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.TableRowGroupContext;
@@ -56,63 +68,76 @@ case 7:
             var1 = true;
             var2 = var1 === var4;
 case 6:
-            var6 = _closure1_slot7;
+            var6 = _closure1_slot6;
             var4 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var1 = 6;
+            var12 = _closure1_slot2;
+            var1 = 7;
             var1 = var12[var1];
             var1 = var4.bind(var5)(var1);
-            var4 = var1.Card;
-            var1 = {'shadow': 'none', 'border': 'none'};
-            var12 = !var3;
-            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
+            var4 = var1.InternalCard;
+            var1 = {'radius': null, 'shadow': 'none', 'border': 'none'};
+            var12 = 8;
+            var13 = var12;
+            if(!var14) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var23 = true;
-            var12 = var23 === var24;
+            var13 = 16;
 case 8:
-            var1['start'] = var12;
+            var1['radius'] = var13;
+            var13 = undefined;
+            if(!var14) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var13 = 'muted';
+case 10:
+            var1['variant'] = var13;
+            var13 = !var3;
+            if(!var13) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var25 = true;
+            var13 = var25 === var26;
+case 12:
+            var1['start'] = var13;
             var1['end'] = var2;
             var1['onPress'] = var9;
-            var1['disabled'] = var18;
-            var9 = _closure1_slot10;
+            var1['disabled'] = var20;
+            var9 = _closure1_slot9;
             var1['style'] = var9;
-            var27 = var1;
-            var26 = var8;
-            var8 = copyDataProperties(var27, var26);
-            var12 = _closure1_slot7;
-            var9 = _closure1_slot12;
+            var29 = var1;
+            var28 = var8;
+            var8 = copyDataProperties(var29, var28);
+            var13 = _closure1_slot6;
+            var9 = _closure1_slot11;
             var8 = {};
-            var8['label'] = var22;
-            var8['subLabel'] = var21;
+            var8['label'] = var24;
+            var8['subLabel'] = var23;
             var8['icon'] = var11;
-            var8['trailing'] = var20;
-            var8['arrow'] = var19;
-            var8['disabled'] = var18;
-            var8['labelLineClamp'] = var17;
-            var8['subLabelLineClamp'] = var16;
-            var8['variant'] = var15;
-            var8['draggable'] = var14;
-            var8['dragHandlePressableProps'] = var13;
-            var9 = var12.bind(var5)(var9, var8);
+            var8['trailing'] = var22;
+            var8['arrow'] = var21;
+            var8['disabled'] = var20;
+            var8['labelLineClamp'] = var19;
+            var8['subLabelLineClamp'] = var18;
+            var8['variant'] = var17;
+            var8['draggable'] = var16;
+            var8['dragHandlePressableProps'] = var15;
+            var8['isRefreshEnabled'] = var14;
+            var9 = var13.bind(var5)(var9, var8);
             var8 = 'children';
             var1[var8] = var9;
             var8 = var6.bind(var5)(var4, var1);
             var1 = var8;
-            if(var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var3) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = var8;
-            if(var2) { _fun0001_ip = 10; continue _fun0001 }
-case 12:
-            var4 = _closure1_slot9;
-            var3 = _closure1_slot8;
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var2 = {};
             var6 = new Array(2);
             var6[0] = var8;
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot6;
             var8 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var7 = 7;
-            var7 = var12[var7];
+            var7 = _closure1_slot2;
+            var7 = var7[var12];
             var7 = var8.bind(var5)(var7);
             var8 = var7.TableRowDivider;
             var7 = {};
@@ -122,7 +147,7 @@ case 12:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 10:
+case 14:
             return var1;
         }
     };
@@ -140,78 +165,100 @@ case 0:
             var11 = var1.disabled;
             var28 = var1.variant;
             var4 = undefined;
-            if(!(var28 === var4)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!(var28 === var4)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var28 = 'default';
-case 13:
+case 17:
             var8 = var1.draggable;
-            if(!(var8 === var4)) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+            if(!(var8 === var4)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var8 = false;
-case 15:
+case 19:
             var15 = var1.dragHandlePressableProps;
-            var2 = _closure1_slot2;
+            var17 = var1.borderRadius;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 5;
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = 'TableRowInner';
+            var29 = var2.bind(var4)(var1);
+            var2 = _closure1_slot3;
             var1 = var2.isValidElement;
             var1 = var1.bind(var2)(var12);
             var10 = undefined;
-            if(!var1) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(!var1) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var2 = var12.type;
             var3 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var1 = 10;
+            var5 = _closure1_slot2;
+            var1 = 11;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.TableRowTrailingText;
             var10 = undefined;
-            if(!(var2 === var1)) { _fun0002_ip = 17; continue _fun0002 }
-case 19:
+            if(!(var2 === var1)) { _fun0002_ip = 21; continue _fun0002 }
+case 23:
             var10 = var12;
-case 17:
+case 21:
             var3 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var1 = 11;
+            var5 = _closure1_slot2;
+            var1 = 12;
             var1 = var5[var1];
             var2 = var3.bind(var4)(var1);
             var1 = var2.useFontScale;
             var2 = var1.bind(var2)();
-            var1 = 12;
+            var1 = 13;
             var1 = var5[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.isAndroid;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(var1) { _fun0002_ip = 24; continue _fun0002 }
+case 6:
             var1 = 1.5;
             var5 = var2 > var1;
-            _fun0002_ip = 22; continue _fun0002;
-case 20:
+            _fun0002_ip = 25; continue _fun0002;
+case 24:
             var1 = 1.2;
             var5 = var2 > var1;
-case 22:
-            var3 = _closure1_slot11;
+case 25:
+            var3 = _closure1_slot10;
             var9 = null;
-            var2 = var9 != var10;
+            var32 = var9 != var10;
             var1 = true;
-            var1 = var1 === var11;
-            var13 = var3.bind(var4)(var1, var2, var5);
-            var3 = _closure1_slot9;
-            var2 = _closure1_slot4;
-            var1 = {};
-            var5 = var13.row;
-            var1['style'] = var5;
-            if(!var8) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
-            var14 = _closure1_slot7;
-            var11 = _closure1_slot3;
-            var5 = {};
+            var33 = var1 === var11;
+            var34 = undefined;
             var31 = var5;
-            var30 = var15;
-            var15 = copyDataProperties(var31, var30);
-            var18 = _closure1_slot7;
+            var30 = var29;
+            var13 = var34[var3](var33, var32, var31, var30, var29);
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var11 = var13.row;
+            var5 = new Array(2);
+            var5[0] = var11;
+            var14 = var9 != var17;
+            var11 = undefined;
+            if(!var14) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+            var14 = {};
+            var14['borderRadius'] = var17;
+            var11 = var14;
+case 26:
+            var5[1] = var11;
+            var1['style'] = var5;
+            if(!var8) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
+            var14 = _closure1_slot6;
+            var11 = _closure1_slot4;
+            var5 = {};
+            var33 = var5;
+            var32 = var15;
+            var15 = copyDataProperties(var33, var32);
+            var18 = _closure1_slot6;
             var17 = _closure1_slot0;
-            var19 = _closure1_slot1;
-            var15 = 13;
+            var19 = _closure1_slot2;
+            var15 = 14;
             var15 = var19[var15];
             var15 = var17.bind(var4)(var15);
             var17 = var15.DragIcon;
@@ -224,73 +271,82 @@ case 24:
             var15 = 'children';
             var5[var15] = var17;
             var8 = var14.bind(var4)(var11, var5);
-case 23:
+case 28:
             var5 = new Array(5);
             var5[0] = var8;
             var8 = var9 != var16;
-            if(!var8) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
-            var15 = _closure1_slot7;
-            var14 = _closure1_slot4;
+            if(!var8) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
+            var15 = _closure1_slot6;
+            var14 = _closure1_slot5;
             var11 = {};
             var17 = var13.iconContainer;
             var11['style'] = var17;
             var11['children'] = var16;
             var8 = var15.bind(var4)(var14, var11);
-case 25:
+case 30:
             var5[1] = var8;
-            var14 = _closure1_slot9;
-            var11 = _closure1_slot4;
+            var14 = _closure1_slot8;
+            var11 = _closure1_slot5;
             var8 = {};
             var15 = var13.content;
             var8['style'] = var15;
-            var17 = _closure1_slot9;
-            var16 = _closure1_slot4;
+            var17 = _closure1_slot8;
+            var16 = _closure1_slot5;
             var15 = {};
             var18 = var13.labels;
             var15['style'] = var18;
-            var19 = _closure1_slot2;
+            var19 = _closure1_slot3;
             var18 = var19.isValidElement;
             var18 = var18.bind(var19)(var22);
             var19 = var22;
-            if(var18) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
-            var21 = _closure1_slot7;
+            if(var18) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
+            var21 = _closure1_slot6;
             var20 = _closure1_slot0;
-            var26 = _closure1_slot1;
-            var18 = 14;
+            var26 = _closure1_slot2;
+            var18 = 15;
             var18 = var26[var18];
             var18 = var20.bind(var4)(var18);
             var20 = var18.Text;
             var18 = {};
             var26 = 'text-md/semibold';
+            if(!var29) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
+            var26 = 'text-md/medium';
+case 34:
             var18['variant'] = var26;
-            var26 = 'mobile-text-heading-primary';
-            var27 = 'danger';
-            if(!(var27 === var28)) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
             var26 = 'text-feedback-critical';
-case 29:
+            var27 = 'danger';
+            if(!(var27 !== var28)) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
+            var27 = 'mobile-text-heading-primary';
+            if(!var29) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
+            var27 = 'text-strong';
+case 38:
+            var26 = var27;
+case 36:
             var18['color'] = var26;
             var18['lineClamp'] = var23;
             var18['children'] = var22;
             var19 = var21.bind(var4)(var20, var18);
-case 27:
+case 32:
             var18 = new Array(2);
             var18[0] = var19;
             var19 = var9 != var24;
-            if(!var19) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
-            var21 = _closure1_slot2;
+            if(!var19) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
+            var21 = _closure1_slot3;
             var20 = var21.isValidElement;
             var21 = var20.bind(var21)(var24);
             var20 = var24;
-            if(var21) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
-            var23 = _closure1_slot7;
+            if(var21) { _fun0002_ip = 42; continue _fun0002 }
+case 43:
+            var23 = _closure1_slot6;
             var22 = _closure1_slot0;
-            var26 = _closure1_slot1;
-            var21 = 14;
+            var26 = _closure1_slot2;
+            var21 = 15;
             var21 = var26[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
@@ -299,27 +355,27 @@ case 34:
             var21['variant'] = var26;
             var26 = 'text-subtle';
             var27 = 'danger';
-            if(!(var27 === var28)) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+            if(!(var27 === var28)) { _fun0002_ip = 44; continue _fun0002 }
+case 45:
             var26 = 'text-feedback-critical';
-case 35:
+case 44:
             var21['color'] = var26;
             var21['lineClamp'] = var25;
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);
-case 33:
+case 42:
             var19 = var20;
-case 31:
+case 40:
             var18[1] = var19;
             var15['children'] = var18;
             var16 = var17.bind(var4)(var16, var15);
             var15 = new Array(2);
             var15[0] = var16;
             var16 = var9 != var10;
-            if(!var16) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
-            var19 = _closure1_slot7;
-            var18 = _closure1_slot4;
+            if(!var16) { _fun0002_ip = 46; continue _fun0002 }
+case 47:
+            var19 = _closure1_slot6;
+            var18 = _closure1_slot5;
             var17 = {};
             var21 = var13.trailing;
             var20 = new Array(2);
@@ -329,46 +385,46 @@ case 38:
             var17['style'] = var20;
             var17['children'] = var10;
             var16 = var19.bind(var4)(var18, var17);
-case 37:
+case 46:
             var15[1] = var16;
             var8['children'] = var15;
             var8 = var14.bind(var4)(var11, var8);
             var5[2] = var8;
             var8 = var9 != var12;
-            if(!var8) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
+            if(!var8) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
             var8 = var9 == var10;
-case 39:
-            if(!var8) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
-            var11 = _closure1_slot7;
-            var10 = _closure1_slot4;
+case 48:
+            if(!var8) { _fun0002_ip = 50; continue _fun0002 }
+case 51:
+            var11 = _closure1_slot6;
+            var10 = _closure1_slot5;
             var9 = {};
             var13 = var13.trailing;
             var9['style'] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
-case 41:
+case 50:
             var5[3] = var8;
-            if(!var6) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
-            var9 = _closure1_slot7;
+            if(!var6) { _fun0002_ip = 52; continue _fun0002 }
+case 53:
+            var9 = _closure1_slot6;
             var8 = _closure1_slot0;
-            var10 = _closure1_slot1;
-            var7 = 9;
+            var10 = _closure1_slot2;
+            var7 = 10;
             var7 = var10[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.TableRowArrow;
             var7 = {};
             var6 = var9.bind(var4)(var8, var7);
-case 43:
+case 52:
             var5[4] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot12 = var2;
+    var _closure1_slot11 = var2;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -382,34 +438,27 @@ case 43:
     var5 = metroImportAll;
     var1 = undefined;
     var5 = var5.bind(var1)(var10);
-    var _closure1_slot2 = var5;
+    var _closure1_slot3 = var5;
     var5 = 1;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var10 = var5.Pressable;
-    var _closure1_slot3 = var10;
+    var _closure1_slot4 = var10;
     var5 = var5.View;
-    var _closure1_slot4 = var5;
+    var _closure1_slot5 = var5;
     var5 = 2;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var10 = var5.TABLE_ROW_HEIGHT;
-    var _closure1_slot5 = var10;
-    var5 = var5.TABLE_ROW_PADDING;
-    var _closure1_slot6 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
     var10 = var5.jsx;
-    var _closure1_slot7 = var10;
+    var _closure1_slot6 = var10;
     var10 = var5.Fragment;
-    var _closure1_slot8 = var10;
+    var _closure1_slot7 = var10;
     var5 = var5.jsxs;
-    var _closure1_slot9 = var5;
+    var _closure1_slot8 = var5;
     var5 = {};
     var5['padding'] = var9;
-    var _closure1_slot10 = var5;
-    var5 = 4;
+    var _closure1_slot9 = var5;
+    var5 = 3;
     var5 = var7[var5];
     var10 = var6.bind(var1)(var5);
     var9 = var10.createStyles;
@@ -418,27 +467,61 @@ case 43:
 case 0:
             var8 = arg2;
             var4 = arg3;
+            var12 = arguments[3];
+            var7 = undefined;
+            if(!(var12 === var7)) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
+            var12 = false;
+case 54:
             var1 = {};
             var2 = {};
-            var5 = _closure1_slot6;
-            var2['padding'] = var5;
-            var5 = _closure1_slot5;
+            var6 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var11 = 4;
+            var9 = var5[var11];
+            var9 = var6.bind(var7)(var9);
+            var9 = var9.modules;
+            var9 = var9.mobile;
+            var9 = var9.TABLE_ROW_PADDING;
+            var2['padding'] = var9;
+            var5 = var5[var11];
+            var5 = var6.bind(var7)(var5);
+            var5 = var5.modules;
+            var5 = var5.mobile;
+            var5 = var5.TABLE_ROW_HEIGHT;
             var2['minHeight'] = var5;
-            var7 = 'row';
-            var2['flexDirection'] = var7;
+            var9 = 'row';
+            var2['flexDirection'] = var9;
             var6 = 'center';
             var2['alignItems'] = var6;
             var5 = 1;
-            var10 = arg1;
-            var9 = var5;
-            if(!var10) { _fun0003_ip = 45; continue _fun0003 }
-case 46:
-            var9 = 0.5;
-case 45:
-            var2['opacity'] = var9;
+            var13 = arg1;
+            var10 = var5;
+            if(!var13) { _fun0003_ip = 56; continue _fun0003 }
+case 57:
+            var10 = 0.5;
+case 56:
+            var2['opacity'] = var10;
+            var10 = undefined;
+            if(!var12) { _fun0003_ip = 58; continue _fun0003 }
+case 59:
+            var13 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var12 = var12[var11];
+            var12 = var13.bind(var7)(var12);
+            var12 = var12.radii;
+            var10 = var12.md;
+case 58:
+            var2['borderRadius'] = var10;
             var1['row'] = var2;
             var2 = {};
-            var3 = _closure1_slot6;
+            var10 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var3 = var3[var11];
+            var3 = var10.bind(var7)(var3);
+            var3 = var3.modules;
+            var3 = var3.mobile;
+            var3 = var3.TABLE_ROW_PADDING;
             var2['marginEnd'] = var3;
             var1['iconContainer'] = var2;
             var2 = {};
@@ -446,44 +529,44 @@ case 45:
             var2['marginStart'] = var3;
             var1['trailing'] = var2;
             var2 = {'flexShrink': 1, 'flexGrow': 1, 'flexDirection': null, 'alignItems': null, 'justifyContent': 'space-between'};
-            if(!var4) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
-            var7 = 'column';
-case 47:
-            var2['flexDirection'] = var7;
-            if(!var4) { _fun0003_ip = 49; continue _fun0003 }
-case 50:
+            if(!var4) { _fun0003_ip = 60; continue _fun0003 }
+case 61:
+            var9 = 'column';
+case 60:
+            var2['flexDirection'] = var9;
+            if(!var4) { _fun0003_ip = 62; continue _fun0003 }
+case 63:
             var6 = 'stretch';
-case 49:
+case 62:
             var2['alignItems'] = var6;
             var1['content'] = var2;
             var2 = {};
             var2['flexGrow'] = var5;
             var6 = var5;
-            if(!var8) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+            if(!var8) { _fun0003_ip = 64; continue _fun0003 }
+case 65:
             var6 = var5;
-            if(var4) { _fun0003_ip = 51; continue _fun0003 }
-case 53:
+            if(var4) { _fun0003_ip = 64; continue _fun0003 }
+case 66:
             var6 = undefined;
-case 51:
+case 64:
             var2['flexShrink'] = var6;
             var6 = undefined;
-            if(!var8) { _fun0003_ip = 54; continue _fun0003 }
-case 7:
+            if(!var8) { _fun0003_ip = 67; continue _fun0003 }
+case 68:
             var6 = undefined;
-            if(var4) { _fun0003_ip = 54; continue _fun0003 }
-case 55:
+            if(var4) { _fun0003_ip = 67; continue _fun0003 }
+case 27:
             var6 = '70%';
-case 54:
+case 67:
             var2['maxWidth'] = var6;
             var1['labels'] = var2;
             var2 = {};
             var2['flexShrink'] = var5;
-            if(!var4) { _fun0003_ip = 56; continue _fun0003 }
-case 57:
+            if(!var4) { _fun0003_ip = 69; continue _fun0003 }
+case 70:
             var3 = 0;
-case 56:
+case 69:
             var2['marginStart'] = var3;
             var1['trailingText'] = var2;
             var2 = {};
@@ -494,23 +577,23 @@ case 56:
         }
     };
     var5 = var9.bind(var10)(var5);
-    var _closure1_slot11 = var5;
-    var5 = 8;
+    var _closure1_slot10 = var5;
+    var5 = 9;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.TableRowIcon;
     var4['Icon'] = var5;
-    var5 = 9;
+    var5 = 10;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.TableRowArrow;
     var4['Arrow'] = var5;
-    var5 = 10;
+    var5 = 11;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.TableRowTrailingText;
     var4['TrailingText'] = var5;
-    var5 = 15;
+    var5 = 16;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

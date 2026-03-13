@@ -348,7 +348,7 @@ case 0:
                 var6 = var2 != var5;
                 var5 = null;
                 if(!var6) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+case 11:
                 var6 = var4.user;
                 var5 = var6.id;
 case 15:
@@ -366,17 +366,17 @@ case 15:
                 var5 = var4.store_listing;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+                if(!var6) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                 var6 = var4.store_listing;
                 var5 = var6.id;
-case 17:
+case 16:
                 var1['storeListingId'] = var5;
                 var5 = var4.expires_at;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                if(!var6) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                 var7 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var6 = 9;
@@ -385,56 +385,56 @@ case 20:
                 var7 = var7.bind(var8)(var6);
                 var6 = var4.expires_at;
                 var5 = var7.bind(var8)(var6);
-case 19:
+case 18:
                 var1['expiresAt'] = var5;
                 var5 = var4.redeemed;
                 var1['redeemed'] = var5;
                 var5 = var4.subscription_plan;
-                if(!(var2 == var5)) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
-                var5 = var4.subscription_plan_id;
-                _fun0005_ip = 23; continue _fun0005;
+                if(!(var2 == var5)) { _fun0005_ip = 20; continue _fun0005 }
 case 21:
+                var5 = var4.subscription_plan_id;
+                _fun0005_ip = 22; continue _fun0005;
+case 20:
                 var6 = var4.subscription_plan;
                 var5 = var6.id;
-case 23:
+case 22:
                 var1['subscriptionPlanId'] = var5;
                 var5 = var4.subscription_plan;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+                if(!var6) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                 var8 = _closure1_slot9;
                 var7 = var8.createFromServer;
                 var6 = var4.subscription_plan;
                 var5 = var7.bind(var8)(var6);
-case 24:
+case 23:
                 var1['subscriptionPlan'] = var5;
                 var5 = false;
                 var1['revoked'] = var5;
                 var5 = var4.entitlement_branches;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
-                var5 = var4.entitlement_branches;
+                if(!var6) { _fun0005_ip = 25; continue _fun0005 }
 case 26:
+                var5 = var4.entitlement_branches;
+case 25:
                 var1['entitlementBranches'] = var5;
                 var5 = var4.flags;
                 var6 = var2 != var5;
                 var5 = 0;
-                if(!var6) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
-                var5 = var4.flags;
+                if(!var6) { _fun0005_ip = 27; continue _fun0005 }
 case 28:
+                var5 = var4.flags;
+case 27:
                 var1['flags'] = var5;
                 var5 = var4.gift_style;
                 var1['giftStyle'] = var5;
                 var5 = var4.subscription_trial;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+                if(!var6) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                 var6 = {};
                 var7 = var4.subscription_trial;
                 var7 = var7.id;
@@ -449,18 +449,18 @@ case 31:
                 var7 = var7.sku_id;
                 var6['skuId'] = var7;
                 var5 = var6;
-case 30:
+case 29:
                 var1['subscriptionTrial'] = var5;
                 var5 = var4.promotion;
                 var5 = var2 != var5;
                 var2 = null;
-                if(!var5) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                if(!var5) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                 var6 = _closure1_slot8;
                 var5 = var6.createFromServer;
                 var4 = var4.promotion;
                 var2 = var5.bind(var6)(var4);
-case 32:
+case 31:
                 var1['promotion'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

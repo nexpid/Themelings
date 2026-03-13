@@ -382,7 +382,7 @@ case 43:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(10);
+        var1 = new Array(11);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -546,7 +546,7 @@ case 43:
         var5 = {};
         var7 = 'DEV_clearDismissedGuilds';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var2 = this;
             var3 = {};
             var6 = _closure1_slot7;
@@ -567,8 +567,43 @@ case 43:
             var1 = undefined;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[9] = var5;
+        var5 = {};
+        var7 = 'DEV_clearState';
+        var5['key'] = var7;
+        var6 = function value() {
+            var2 = this;
+            var3 = {};
+            var1 = new Array(0);
+            var3['guilds'] = var1;
+            var1 = 0;
+            var3['lastFetchedAt'] = var1;
+            var1 = global;
+            var4 = var1.Set;
+            var5 = var4.prototype;
+            var5 = Object.create(var5, {constructor: {value: var4}});
+            var6 = var5;
+            var4 = new var6[var4](var5);
+            var4 = var4 instanceof Object ? var4 : var5;
+            var3['lastFetchedGameIds'] = var4;
+            var1 = var1.Set;
+            var4 = var1.prototype;
+            var4 = Object.create(var4, {constructor: {value: var1}});
+            var6 = var4;
+            var1 = new var6[var1](var5);
+            var1 = var1 instanceof Object ? var1 : var4;
+            var3['dismissedGuildIds'] = var1;
+            var1 = {};
+            var3['guildGameIds'] = var1;
+            _closure1_slot7 = var3;
+            var1 = var2.emitChange;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[10] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

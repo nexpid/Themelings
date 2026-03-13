@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
-    var1 = function MediaItem(arg1) {
+    var1 = function ImageItem(arg1) {
         var2 = arg1;
         var10 = var2.url;
         var9 = var2.index;
@@ -70,6 +70,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot11 = var1;
+    var1 = function TrailerItem(arg1) {
+        var2 = arg1;
+        var11 = var2.url;
+        var9 = var2.posterUrl;
+        var8 = var2.active;
+        var12 = var2.index;
+        var _closure2_slot0 = var12;
+        var13 = var2.sources;
+        var _closure2_slot1 = var13;
+        var2 = _closure1_slot10;
+        var4 = undefined;
+        var10 = var2.bind(var4)();
+        var6 = _closure1_slot4;
+        var3 = var6.useRef;
+        var2 = null;
+        var7 = var3.bind(var6)(var2);
+        var _closure2_slot2 = var7;
+        var6 = _closure1_slot4;
+        var3 = var6.useCallback;
+        var2 = new Array(2);
+        var2[0] = var13;
+        var2[1] = var12;
+        var1 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 6;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.openMediaModal;
+            var2 = {};
+            var6 = _closure2_slot1;
+            var2['initialSources'] = var6;
+            var6 = _closure2_slot0;
+            var2['initialIndex'] = var6;
+            var5 = _closure2_slot2;
+            var5 = var5.current;
+            var2['originViewOrOriginLayout'] = var5;
+            var5 = 'game_profile';
+            var2['analyticsSource'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var6 = var3.bind(var6)(var1, var2);
+        var3 = _closure1_slot9;
+        var2 = _closure1_slot8;
+        var1 = {};
+        var1['ref'] = var7;
+        var7 = var10.mediaItem;
+        var1['style'] = var7;
+        var1['onPress'] = var6;
+        var7 = _closure1_slot9;
+        var6 = _closure1_slot0;
+        var12 = _closure1_slot2;
+        var5 = 7;
+        var5 = var12[var5];
+        var5 = var6.bind(var4)(var5);
+        var6 = var5.VideoComponent;
+        var5 = {};
+        var10 = var10.mediaVideo;
+        var5['style'] = var10;
+        var10 = {};
+        var10['uri'] = var11;
+        var5['source'] = var10;
+        var5['poster'] = var9;
+        var8 = !var8;
+        var5['paused'] = var8;
+        var8 = true;
+        var5['muted'] = var8;
+        var9 = 'cover';
+        var5['resizeMode'] = var9;
+        var5['pauseWhileAppInactive'] = var8;
+        var5 = var7.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot12 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -152,9 +230,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['mediaItem'] = var9;
     var9 = {'width': '100%', 'height': '100%', 'resizeMode': 'cover'};
     var4['mediaImage'] = var9;
+    var9 = {'width': '100%', 'height': '100%'};
+    var4['mediaVideo'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 7;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -168,19 +248,27 @@ case 0:
             var _closure2_slot0 = var2;
             var1 = _closure1_slot10;
             var5 = undefined;
-            var12 = var1.bind(var5)();
+            var13 = var1.bind(var5)();
             var4 = _closure1_slot4;
             var1 = var4.useState;
             var3 = 0;
-            var7 = var1.bind(var4)(var3);
-            var4 = _closure1_slot3;
-            var1 = 2;
-            var7 = var4.bind(var5)(var7, var1);
-            var1 = var7[var3];
+            var1 = var1.bind(var4)(var3);
+            var10 = _closure1_slot3;
+            var8 = 2;
+            var4 = var10.bind(var5)(var1, var8);
+            var1 = var4[var3];
             var _closure2_slot1 = var1;
-            var4 = 1;
-            var4 = var7[var4];
+            var7 = 1;
+            var4 = var4[var7];
             var _closure2_slot2 = var4;
+            var11 = _closure1_slot4;
+            var4 = var11.useState;
+            var4 = var4.bind(var11)(var3);
+            var4 = var10.bind(var5)(var4, var8);
+            var8 = var4[var3];
+            var _closure2_slot3 = var8;
+            var4 = var4[var7];
+            var _closure2_slot4 = var4;
             var10 = _closure1_slot4;
             var8 = var10.useCallback;
             var7 = function(arg1) {
@@ -203,47 +291,132 @@ case 0:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure2_slot0;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+                    var1 = null;
+                    if(!(var1 != var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var2 = _closure2_slot0;
-                    var6 = var2.screenshots;
+                    var3 = _closure2_slot0;
+                    var5 = var3.trailers;
+                    if(!(var1 == var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var5 = new Array(0);
+case 4:
+                    var3 = var5.map;
+                    var1 = function(arg1) {
+                        var2 = arg1;
+                        var1 = {};
+                        var3 = 'trailer';
+                        var1['type'] = var3;
+                        var5 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var3 = 8;
+                        var7 = var6[var3];
+                        var4 = undefined;
+                        var12 = var5.bind(var4)(var7);
+                        var11 = var12.getAssetURL;
+                        var16 = var2.application_id;
+                        var15 = var2.id;
+                        var7 = 1920;
+                        var13 = 'mp4';
+                        var17 = var12;
+                        var14 = var7;
+                        var8 = var17[var11](var16, var15, var14, var13, var12);
+                        var1['url'] = var8;
+                        var3 = var6[var3];
+                        var6 = var5.bind(var4)(var3);
+                        var5 = var6.getAssetURL;
+                        var16 = var2.application_id;
+                        var15 = var2.id;
+                        var13 = 'webp';
+                        var17 = var6;
+                        var2 = var17[var5](var16, var15, var14, var13, var12);
+                        var1['posterUrl'] = var2;
+                        return var1;
+                    };
+                    var9 = var3.bind(var5)(var1);
                     var1 = new Array(0);
-                    var5 = 0;
-                    var7 = var1;
-                    var5 = arraySpread(var7, var6, var5);
-                    var6 = var2.artwork;
-                    var7 = var1;
-                    var2 = arraySpread(var7, var6, var5);
-                    _fun0002_ip = 4; continue _fun0002;
+                    var10 = var1;
+                    var8 = 0;
+                    var3 = arraySpread(var10, var9, var8);
+                    var4 = _closure2_slot0;
+                    var9 = var4.screenshots;
+                    var5 = new Array(0);
+                    var10 = var5;
+                    var8 = arraySpread(var10, var9, var8);
+                    var9 = var4.artwork;
+                    var10 = var5;
+                    var4 = arraySpread(var10, var9, var8);
+                    var4 = var5.map;
+                    var2 = function(arg1) {
+                        var1 = {};
+                        var2 = 'image';
+                        var1['type'] = var2;
+                        var2 = arg1;
+                        var1['url'] = var2;
+                        return var1;
+                    };
+                    var9 = var4.bind(var5)(var2);
+                    var10 = var1;
+                    var8 = var3;
+                    var2 = arraySpread(var10, var9, var8);
+                    _fun0002_ip = 6; continue _fun0002;
 case 2:
                     var1 = new Array(0);
-case 4:
+case 6:
                     return var1;
                 }
             };
             var11 = var8.bind(var10)(var2, var4);
-            var _closure2_slot3 = var11;
+            var _closure2_slot5 = var11;
             var10 = _closure1_slot4;
             var8 = var10.useMemo;
             var4 = new Array(1);
             var4[0] = var11;
             var2 = function() {
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot5;
                 var2 = var3.map;
                 var1 = function(arg1, arg2) {
-                    var1 = {'uri': null, 'mediaIndex': null, 'width': 1920, 'height': 1080, 'accessoryType': 'embed', 'disableDownload': false};
-                    var2 = arg1;
-                    var1['uri'] = var2;
-                    var2 = arg2;
-                    var1['mediaIndex'] = var2;
-                    return var1;
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var4 = arg1;
+                        var3 = arg2;
+                        var2 = var4.type;
+                        var1 = 'trailer';
+                        if(!(var1 !== var2)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+                        var1 = {'uri': null, 'mediaIndex': null, 'width': 1920, 'height': 1080, 'accessoryType': 'embed', 'disableDownload': true};
+                        var2 = var4.url;
+                        var1['uri'] = var2;
+                        var1['mediaIndex'] = var3;
+                        _fun0003_ip = 9; continue _fun0003;
+case 7:
+                        var2 = {};
+                        var5 = var4.url;
+                        var2['uri'] = var5;
+                        var2['mediaIndex'] = var3;
+                        var3 = 1920;
+                        var2['width'] = var3;
+                        var3 = 1080;
+                        var2['height'] = var3;
+                        var3 = var4.url;
+                        var2['videoURI'] = var3;
+                        var3 = {'width': 1920, 'height': 1080};
+                        var4 = var4.posterUrl;
+                        var3['uri'] = var4;
+                        var2['thumbnail'] = var3;
+                        var3 = 'embed';
+                        var2['accessoryType'] = var3;
+                        var3 = true;
+                        var2['disableDownload'] = var3;
+                        var1 = var2;
+case 9:
+                        return var1;
+                    }
                 };
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
             var2 = var8.bind(var10)(var2, var4);
-            var _closure2_slot4 = var2;
+            var _closure2_slot6 = var2;
             var8 = _closure1_slot4;
             var4 = var8.useMemo;
             var2 = new Array(2);
@@ -276,7 +449,7 @@ case 4:
                 var3 = var3.PX_12;
                 var3 = var4 + var3;
                 var _closure3_slot1 = var3;
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot5;
                 var2 = var3.map;
                 var1 = function(arg1, arg2) {
                     var1 = global;
@@ -294,46 +467,144 @@ case 4:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
+            var12 = var4.bind(var8)(var1, var2);
+            var _closure2_slot7 = var12;
+            var8 = _closure1_slot4;
+            var4 = var8.useCallback;
+            var2 = new Array(1);
+            var2[0] = var12;
+            var1 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var2 = _closure2_slot7;
+                    var2 = var2.length;
+                    var3 = 0;
+                    if(!(var3 !== var2)) { _fun0004_ip = 10; continue _fun0004 }
+case 8:
+                    var2 = arg1;
+                    var2 = var2.nativeEvent;
+                    var2 = var2.contentOffset;
+                    var8 = var2.x;
+                    var7 = global;
+                    var6 = var7.Math;
+                    var5 = var6.abs;
+                    var2 = _closure2_slot7;
+                    var4 = var2[var3];
+                    var4 = var4 - var8;
+                    var4 = var5.bind(var6)(var4);
+                    var2 = var2.length;
+                    var6 = 1;
+                    var2 = var6 < var2;
+                    var5 = 0;
+                    var3 = 0;
+                    if(!var2) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
+                    var10 = var7.Math;
+                    var9 = var10.abs;
+                    var2 = _closure2_slot7;
+                    var2 = var2[var6];
+                    var2 = var2 - var8;
+                    var2 = var9.bind(var10)(var2);
+                    if(!(var2 < var4)) { _fun0004_ip = 6; continue _fun0004 }
+case 13:
+                    var5 = var6;
+                    var4 = var2;
+case 6:
+                    var6 = var6 + 1;
+                    var2 = _closure2_slot7;
+                    var2 = var2.length;
+                    var3 = var5;
+                    if(var6 < var2) { _fun0004_ip = 12; continue _fun0004 }
+case 11:
+                    var2 = _closure2_slot4;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)(var3);
+case 10:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
             var10 = var4.bind(var8)(var1, var2);
             var2 = var11.length;
             var1 = null;
-            if(!(var3 !== var2)) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+            if(!(var3 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var4 = _closure1_slot9;
             var3 = _closure1_slot5;
             var2 = {};
-            var8 = var12.container;
+            var8 = var13.container;
             var2['style'] = var8;
             var2['onLayout'] = var7;
             var8 = _closure1_slot9;
             var7 = _closure1_slot6;
             var6 = {'horizontal': true, 'showsHorizontalScrollIndicator': false, 'style': null, 'contentContainerStyle': null, 'decelerationRate': 'fast', 'snapToOffsets': null, 'snapToStart': false, 'snapToEnd': false};
-            var13 = var12.scrollView;
-            var6['style'] = var13;
-            var12 = var12.scrollViewContent;
-            var6['contentContainerStyle'] = var12;
-            var6['snapToOffsets'] = var10;
+            var14 = var13.scrollView;
+            var6['style'] = var14;
+            var13 = var13.scrollViewContent;
+            var6['contentContainerStyle'] = var13;
+            var6['snapToOffsets'] = var12;
+            var6['onMomentumScrollEnd'] = var10;
             var10 = var11.map;
             var9 = function(arg1, arg2) {
-                var5 = arg2;
-                var4 = _closure1_slot9;
-                var3 = _closure1_slot11;
-                var2 = {};
-                var1 = arg1;
-                var2['url'] = var1;
-                var2['index'] = var5;
-                var1 = _closure2_slot4;
-                var2['sources'] = var1;
-                var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2, var5);
-                return var1;
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var2 = arg1;
+                    var9 = arg2;
+                    var3 = var2.type;
+                    var1 = 'trailer';
+                    if(!(var1 !== var3)) { _fun0005_ip = 16; continue _fun0005 }
+case 8:
+                    var6 = _closure1_slot9;
+                    var5 = _closure1_slot11;
+                    var4 = {};
+                    var1 = var2.url;
+                    var4['url'] = var1;
+                    var4['index'] = var9;
+                    var1 = _closure2_slot6;
+                    var4['sources'] = var1;
+                    var8 = var2.url;
+                    var1 = global;
+                    var1 = var1.HermesInternal;
+                    var7 = var1.concat;
+                    var3 = '';
+                    var1 = '-';
+                    var3 = var7.bind(var3)(var8, var1, var9);
+                    var1 = undefined;
+                    var1 = var6.bind(var1)(var5, var4, var3);
+                    _fun0005_ip = 17; continue _fun0005;
+case 16:
+                    var6 = _closure1_slot9;
+                    var5 = _closure1_slot12;
+                    var4 = {};
+                    var3 = var2.url;
+                    var4['url'] = var3;
+                    var3 = var2.posterUrl;
+                    var4['posterUrl'] = var3;
+                    var7 = _closure2_slot3;
+                    var7 = var7 === var9;
+                    var4['active'] = var7;
+                    var4['index'] = var9;
+                    var3 = _closure2_slot6;
+                    var4['sources'] = var3;
+                    var8 = var2.url;
+                    var2 = global;
+                    var2 = var2.HermesInternal;
+                    var7 = var2.concat;
+                    var3 = '';
+                    var2 = '-';
+                    var3 = var7.bind(var3)(var8, var2, var9);
+                    var2 = undefined;
+                    var1 = var6.bind(var2)(var5, var4, var3);
+case 17:
+                    return var1;
+                }
             };
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 5:
+case 14:
             return var1;
         }
     };

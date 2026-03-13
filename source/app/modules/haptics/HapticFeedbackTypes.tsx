@@ -42,6 +42,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SOFT'] = var5;
     var1 = 'SOFT';
     var2[var5] = var1;
+    var5 = 8;
+    var2['SELECTION'] = var5;
+    var1 = 'SELECTION';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

@@ -391,7 +391,7 @@ case 22:
     var4['connectorHighlighted'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -400,47 +400,42 @@ case 22:
     var2 = function ReferralProgramPerkCard() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 12;
-            var1 = var6[var1];
-            var5 = undefined;
-            var2 = var4.bind(var5)(var1);
-            var1 = var2.useIsEligibleSenderForReferralProgram;
-            var2 = var1.bind(var2)();
-            var1 = 13;
-            var1 = var6[var1];
-            var4 = var4.bind(var5)(var1);
-            var1 = var4.useReferralProgramBannerDetails;
-            var1 = var1.bind(var4)();
-            var7 = var1.hasSentAllReferrals;
-            var14 = var1.referralSentUsers;
-            var13 = var1.refreshAt;
-            var1 = null;
-            if(!(var1 != var14)) { _fun0005_ip = 26; continue _fun0005 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 12;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useReferralProgramBannerDetails;
+            var2 = var2.bind(var3)();
+            var6 = var2.hasSentAllReferrals;
+            var13 = var2.referralSentUsers;
+            var12 = var2.refreshAt;
+            var2 = null;
+            if(!(var2 != var13)) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
-            var4 = var14.length;
+            var2 = var13.length;
 case 26:
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var4 = 14;
-            var4 = var10[var4];
-            var6 = var9.bind(var5)(var4);
-            var4 = 15;
-            var4 = var10[var4];
-            var4 = var9.bind(var5)(var4);
-            var4 = var4.PREMIUM_MARKETING_REFERALL_PROGRAM_PROGRESS_BAR;
-            var4 = var6.bind(var5)(var4);
-            var10 = var4.analyticsLocations;
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 13;
+            var3 = var8[var3];
+            var5 = var2.bind(var4)(var3);
+            var3 = 14;
+            var3 = var8[var3];
+            var3 = var2.bind(var4)(var3);
+            var3 = var3.PREMIUM_MARKETING_REFERALL_PROGRAM_PROGRESS_BAR;
+            var3 = var5.bind(var4)(var3);
+            var10 = var3.analyticsLocations;
             var _closure2_slot0 = var10;
             var9 = _closure1_slot3;
-            var6 = var9.useCallback;
-            var4 = new Array(1);
-            var4[0] = var10;
-            var3 = function() {
+            var5 = var9.useCallback;
+            var3 = new Array(1);
+            var3[0] = var10;
+            var1 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 16;
+                var1 = 15;
                 var4 = var2[var1];
                 var1 = undefined;
                 var8 = var5.bind(var1)(var4);
@@ -451,15 +446,15 @@ case 26:
                 var9 = _closure2_slot0;
                 var4['location_stack'] = var9;
                 var4 = var7.bind(var8)(var6, var4);
-                var4 = 17;
+                var4 = 16;
                 var4 = var2[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.openLazy;
                 var6 = _closure1_slot0;
-                var3 = 19;
+                var3 = 18;
                 var3 = var2[var3];
                 var6 = var6.bind(var1)(var3);
-                var3 = 18;
+                var3 = 17;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var3 = var6.bind(var1)(var3, var2);
@@ -467,61 +462,55 @@ case 26:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var6 = var6.bind(var9)(var3, var4);
-            var1 = null;
-            if(!var2) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var2 = 20;
-            var2 = var9[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = {};
-            var15 = _closure1_slot0;
-            var12 = 4;
-            var10 = var9[var12];
-            var10 = var15.bind(var5)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var9[var12];
-            var9 = var15.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.USo4s7;
-            var9 = var10.bind(var11)(var9);
-            var2['title'] = var9;
-            var9 = _closure1_slot10;
-            var9 = var9.bind(var5)(var5, var7);
-            var2['description'] = var9;
-            var11 = _closure1_slot7;
-            var10 = _closure1_slot13;
-            var9 = {};
-            var9['referralSentUsers'] = var14;
-            var9['refreshAt'] = var13;
-            var9 = var11.bind(var5)(var10, var9);
-            var2['headerComponent'] = var9;
-            var11 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var9 = var8[var12];
-            var9 = var11.bind(var5)(var9);
+            var5 = var5.bind(var9)(var1, var3);
+            var3 = _closure1_slot7;
+            var1 = 19;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var14 = _closure1_slot0;
+            var11 = 4;
+            var9 = var8[var11];
+            var9 = var14.bind(var4)(var9);
             var10 = var9.intl;
             var9 = var10.string;
-            var8 = var8[var12];
-            var8 = var11.bind(var5)(var8);
+            var8 = var8[var11];
+            var8 = var14.bind(var4)(var8);
             var8 = var8.t;
-            if(var7) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
-            var7 = var8.Lm2nFc;
-            var7 = var9.bind(var10)(var7);
-            _fun0005_ip = 32; continue _fun0005;
-case 30:
-            var8 = var8.SY9tyI;
-            var7 = var9.bind(var10)(var8);
-case 32:
-            var2['cta'] = var7;
-            var2['buttonOnPress'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
+            var8 = var8.USo4s7;
+            var8 = var9.bind(var10)(var8);
+            var1['title'] = var8;
+            var8 = _closure1_slot10;
+            var8 = var8.bind(var4)(var4, var6);
+            var1['description'] = var8;
+            var10 = _closure1_slot7;
+            var9 = _closure1_slot13;
+            var8 = {};
+            var8['referralSentUsers'] = var13;
+            var8['refreshAt'] = var12;
+            var8 = var10.bind(var4)(var9, var8);
+            var1['headerComponent'] = var8;
+            var10 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var8 = var7[var11];
+            var8 = var10.bind(var4)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var7 = var7[var11];
+            var7 = var10.bind(var4)(var7);
+            var7 = var7.t;
+            if(var6) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
+            var6 = var7.Lm2nFc;
+            var6 = var8.bind(var9)(var6);
+            _fun0005_ip = 30; continue _fun0005;
 case 28:
+            var7 = var7.SY9tyI;
+            var6 = var8.bind(var9)(var7);
+case 30:
+            var1['cta'] = var6;
+            var1['buttonOnPress'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };

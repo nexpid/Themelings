@@ -92,7 +92,7 @@ case 0:
 case 11:
             var3 = var3.extra;
             var3 = var3.application_id;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot4;
             var1 = var3 === var2;
 case 10:
             return var1;
@@ -156,7 +156,7 @@ case 0:
             var1 = !var1;
             if(!var3) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot5;
             var2 = arg2;
             var5 = var2.party;
             var2 = null;
@@ -220,12 +220,12 @@ case 27:
     var9 = 1;
     var9 = var11[var9];
     var9 = var10.bind(var1)(var9);
-    var9 = var9.isSpotifyParty;
+    var9 = var9.CRUNCHYROLL_CLIENT_ID;
     var _closure1_slot4 = var9;
     var9 = 2;
     var9 = var11[var9];
     var9 = var10.bind(var1)(var9);
-    var9 = var9.CRUNCHYROLL_CLIENT_ID;
+    var9 = var9.isSpotifyParty;
     var _closure1_slot5 = var9;
     var9 = 7;
     var9 = var11[var9];

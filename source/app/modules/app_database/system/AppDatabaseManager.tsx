@@ -549,8 +549,6 @@ case 44:
             var6 = ')';
             var6 = var8.bind(var7)(var9, var6);
             var5['action'] = var6;
-            var6 = true;
-            var5['clearCache'] = var6;
             var2['args'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;

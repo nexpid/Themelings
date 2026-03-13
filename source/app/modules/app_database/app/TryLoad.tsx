@@ -128,8 +128,6 @@ case 18:
                     var7 = var7.concat;
                     var7 = var7.bind(var10)(var8, var9);
                     var6['metricAction'] = var7;
-                    var7 = true;
-                    var6['clearCache'] = var7;
                     var3['args'] = var6;
                     var3 = var4.bind(var5)(var3);
                     return var2;
@@ -266,8 +264,6 @@ case 27:
             var6 = var6.concat;
             var6 = var6.bind(var9)(var7, var8);
             var5['metricAction'] = var6;
-            var6 = true;
-            var5['clearCache'] = var6;
             var2['args'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;

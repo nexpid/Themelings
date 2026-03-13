@@ -682,7 +682,7 @@ case 47:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOWEST;
+    var10 = var10.BORDER_SUBTLE;
     var9['borderBottomColor'] = var10;
     var10 = 'transparent';
     var9['shadowColor'] = var10;

@@ -38,9 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var3[var1];
         var1 = undefined;
         var5 = var5.bind(var1)(var3);
-        var3 = {};
-        var6 = 'useNativeThemeUpdater';
-        var3['location'] = var6;
+        var3 = 'useNativeThemeUpdater';
         var3 = var5.bind(var1)(var3);
         var _closure2_slot0 = var3;
         var5 = _closure1_slot3;

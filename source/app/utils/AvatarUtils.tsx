@@ -866,7 +866,7 @@ case 134: // try_end0
             var3 = var3.asset;
             var10 = var3;
             if(!(var1 != var3)) { _fun0010_ip = 135; continue _fun0010 }
-case 136:
+case 122:
             var3 = global;
             var9 = var3.window;
             var11 = var9.GLOBAL_ENV;
@@ -876,8 +876,8 @@ case 136:
             var13 = _closure1_slot3;
             var11 = var13.AVATAR_DECORATION_PRESETS;
             var7 = var11.bind(var13)(var10);
-            if(!(var1 == var9)) { _fun0010_ip = 137; continue _fun0010 }
-case 138:
+            if(!(var1 == var9)) { _fun0010_ip = 136; continue _fun0010 }
+case 137:
             var10 = var3.URL;
             var9 = var3.location;
             var15 = var9.protocol;
@@ -892,8 +892,8 @@ case 138:
             var20 = var9;
             var4 = new var20[var10](var19, var18);
             var4 = var4 instanceof Object ? var4 : var9;
-            _fun0010_ip = 114; continue _fun0010;
-case 137:
+            _fun0010_ip = 138; continue _fun0010;
+case 136:
             var9 = var3.URL;
             var11 = var8;
             var10 = var7;
@@ -906,7 +906,7 @@ case 137:
             var20 = var8;
             var7 = new var20[var9](var19, var18);
             var4 = var7 instanceof Object ? var7 : var8;
-case 114:
+case 138:
             var10 = var4.searchParams;
             var9 = var10.set;
             var13 = _closure1_slot0;
@@ -1738,7 +1738,7 @@ case 146:
             var1['canWebP'] = var3;
             var10 = undefined;
             var1 = var2.bind(var10)(var1);
-            if(!(var4 == var1)) { _fun0023_ip = 187; continue _fun0023 }
+            if(!(var4 == var1)) { _fun0023_ip = 134; continue _fun0023 }
 case 12:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -1760,7 +1760,7 @@ case 12:
             var2 = var2.length;
             var2 = var6 % var2;
             var1 = var3[var2];
-case 187:
+case 134:
             _fun0023_ip = 57; continue _fun0023;
 case 186:
             var6 = _closure1_slot23;
@@ -1770,7 +1770,7 @@ case 186:
             var2['size'] = var5;
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
-            if(!(var4 == var2)) { _fun0023_ip = 138; continue _fun0023 }
+            if(!(var4 == var2)) { _fun0023_ip = 187; continue _fun0023 }
 case 188:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -1779,7 +1779,7 @@ case 188:
             var3 = var4.bind(var5)(var3);
             var3 = var3.default;
             var2 = var3.DEFAULT_CHANNEL_ICON;
-case 138:
+case 187:
             var1 = var2;
 case 57:
             return var1;

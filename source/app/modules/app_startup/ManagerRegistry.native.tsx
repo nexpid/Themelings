@@ -1383,7 +1383,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['hasStoreChangeListeners'] = var4;
     var2['GameCommunityUpsellManager'] = var1;
     var1 = {};
-    var8 = ['LOCAL_APP_DETECTION_COMPLETE'];
+    var8 = ['POST_CONNECTION_OPEN', 'LOCAL_APP_DETECTION_COMPLETE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

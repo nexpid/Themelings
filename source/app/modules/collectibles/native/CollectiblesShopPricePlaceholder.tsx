@@ -31,9 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {};
-    var10 = 16;
-    var9['height'] = var10;
+    var9 = {'height': 16, 'flex': 1};
     var10 = 3;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);

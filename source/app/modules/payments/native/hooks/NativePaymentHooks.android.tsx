@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         throw var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = function notSupportedReturnVoid() {
         var1 = global;
         var3 = var1.Error;
@@ -30,12 +30,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         throw var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var7 = function useNativeIAPPayments() {
         var1 = _closure1_slot8;
         return var1;
     };
-    var _closure1_slot12 = var7;
+    var _closure1_slot11 = var7;
     var6 = function useGoogleSkuIds(arg1, arg2) {
         var7 = arg1;
         var8 = arg2;
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var8;
         var3 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var2 = 6;
+        var2 = 5;
         var2 = var5[var2];
         var9 = undefined;
         var6 = var3.bind(var9)(var2);
@@ -97,19 +97,16 @@ case 0:
 case 3:
                             var2 = undefined;
                             var6 = undefined;
-                            var4 = _closure1_slot9;
-                            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+                            var3 = _closure2_slot1;
+                            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                            var5 = _closure2_slot1;
-                            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-                            var7 = _closure2_slot3;
-                            var5 = new Array(0);
-                            var7['current'] = var5;
-case 6:
+                            var5 = _closure2_slot3;
+                            var3 = new Array(0);
+                            var5['current'] = var3;
+case 4:
                             var7 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var10 = 7;
+                            var10 = 6;
                             var5 = var5[var10];
                             var9 = var7.bind(var2)(var5);
                             var8 = var9.difference;
@@ -118,35 +115,35 @@ case 6:
                             var5 = var5.current;
                             var6 = var8.bind(var9)(var7, var5);
                             var5 = _closure2_slot2;
-                            if(var5) { _fun0001_ip = 4; continue _fun0001 }
-case 8:
+                            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                             var5 = _closure2_slot1;
-                            if(var5) { _fun0001_ip = 4; continue _fun0001 }
-case 9:
+                            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
                             var5 = _closure2_slot0;
                             var5 = var5.length;
                             var7 = 0;
-                            if(!(var7 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
-case 10:
+                            if(!(var7 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
                             var5 = var6;
                             var5 = var5.length;
-                            if(!(var7 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
-case 11: // try_start_0
+                            if(!(var7 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 10: // try_start_0
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var5 = 8;
+                            var5 = 7;
                             var5 = var8[var5];
                             var8 = var7.bind(var2)(var5);
                             var7 = var8.loadInAppSkus;
                             var5 = var6;
                             var5 = var7.bind(var8)(var5);
-                            SaveGenerator(address=187);
-case 12:
+                            SaveGenerator(address=177);
+case 11:
                             return var5;
-case 13:
+case 12:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(var7) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+                            if(var7) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
                             var7 = _closure2_slot3;
                             var9 = _closure1_slot1;
                             var8 = _closure1_slot2;
@@ -159,11 +156,11 @@ case 15:
                             var7 = _closure2_slot4;
                             var6 = null;
                             var6 = var7.bind(var2)(var6);
-case 16: // try_end0
-                            _fun0001_ip = 4; continue _fun0001;
-case 14:
+case 15: // try_end0
+                            _fun0001_ip = 6; continue _fun0001;
+case 13:
                             return var5;
-case 17: // catch_target0
+case 16: // catch_target0
                             CatchBlockStart(arg_register=4);
                             var8 = _closure1_slot7;
                             var7 = var8.error;
@@ -174,12 +171,12 @@ case 17: // catch_target0
                             var4 = var6.bind(var2)(var4);
                             var4 = _closure1_slot0;
                             var6 = _closure1_slot2;
-                            var3 = 9;
+                            var3 = 8;
                             var3 = var6[var3];
                             var4 = var4.bind(var2)(var3);
                             var3 = var4.captureBillingException;
                             var3 = var3.bind(var4)(var5);
-case 4:
+case 6:
                             return var2;
 case 2:
                             return var1;
@@ -220,9 +217,9 @@ case 2:
     };
     var5 = function useResubscribeSubscription(arg1) {
         var1 = {};
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot9;
         var1['resubscribeSubscription'] = var3;
-        var3 = _closure1_slot12;
+        var3 = _closure1_slot11;
         var2 = undefined;
         var2 = var3.bind(var2)();
         var2 = var2.nativePaymentsConnected;
@@ -231,9 +228,9 @@ case 2:
     };
     var4 = function useCancelSubscription(arg1, arg2) {
         var1 = {};
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot9;
         var1['cancelSubscription'] = var3;
-        var3 = _closure1_slot12;
+        var3 = _closure1_slot11;
         var2 = undefined;
         var2 = var3.bind(var2)();
         var2 = var2.nativePaymentsConnected;
@@ -245,18 +242,18 @@ case 2:
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!(var2 != var1)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var1 = {};
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot10;
             var1['createSubscription'] = var4;
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot11;
             var3 = undefined;
             var3 = var4.bind(var3)();
             var3 = var3.nativePaymentsConnected;
             var1['nativePaymentsConnected'] = var3;
             return var1;
-case 18:
+case 17:
             var5 = "Cannot destructure 'undefined' or 'null'.";
             var6 = var2;
             var1 = throwTypeError(var6, var5);
@@ -302,19 +299,13 @@ case 18:
     var _closure1_slot7 = var8;
     var8 = {'nativePaymentsConnected': true, 'storeFront': null};
     var _closure1_slot8 = var8;
-    var8 = 5;
-    var8 = var11[var8];
-    var12 = var10.bind(var1)(var8);
-    var8 = var12.isQuestRelease;
-    var8 = var8.bind(var12)();
-    var _closure1_slot9 = var8;
     var8 = {};
     var8['useNativeIAPPayments'] = var7;
     var8['useGoogleSkuIds'] = var6;
     var8['useCreateSubscription'] = var2;
     var8['useCancelSubscription'] = var4;
     var8['useResubscribeSubscription'] = var5;
-    var9 = 10;
+    var9 = 9;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.fileFinishedImporting;

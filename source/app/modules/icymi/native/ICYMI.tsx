@@ -1427,25 +1427,24 @@ case 40:
             var19 = var19.goBack;
             var14['onPress'] = var19;
             var21 = _closure1_slot14;
+            var20 = _closure1_slot0;
+            var23 = _closure1_slot2;
             if(var18) { _fun0010_ip = 43; continue _fun0010 }
 case 44:
-            var19 = _closure1_slot0;
-            var20 = _closure1_slot2;
             var18 = 31;
-            var18 = var20[var18];
-            var18 = var19.bind(var4)(var18);
+            var18 = var23[var18];
+            var18 = var20.bind(var4)(var18);
             var19 = var18.XSmallIcon;
             var18 = {};
-            var20 = 'interactive-text-default';
-            var18['color'] = var20;
+            var24 = 'interactive-text-default';
+            var18['color'] = var24;
             var18 = var21.bind(var4)(var19, var18);
             _fun0010_ip = 45; continue _fun0010;
 case 43:
-            var20 = _closure1_slot1;
-            var23 = _closure1_slot2;
             var19 = 30;
             var19 = var23[var19];
-            var20 = var20.bind(var4)(var19);
+            var19 = var20.bind(var4)(var19);
+            var20 = var19.LeftBackIconWithBadge;
             var19 = {};
             var19['includeNotificationsCount'] = var22;
             var18 = var21.bind(var4)(var20, var19);

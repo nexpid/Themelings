@@ -34,10 +34,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Permissions;
-    var _closure1_slot7 = var4;
-    var4 = 7;
+    var _closure1_slot8 = var4;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -48,24 +52,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var2;
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 5;
+        var2 = 6;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
         var3 = var4.useStateFromStoresObject;
         var6 = _closure1_slot3;
-        var2 = new Array(4);
+        var2 = new Array(5);
         var2[0] = var6;
-        var6 = _closure1_slot5;
+        var6 = _closure1_slot4;
         var2[1] = var6;
         var6 = _closure1_slot6;
         var2[2] = var6;
-        var5 = _closure1_slot4;
-        var2[3] = var5;
+        var6 = _closure1_slot7;
+        var2[3] = var6;
+        var5 = _closure1_slot5;
+        var2[4] = var5;
         var1 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -77,59 +83,103 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     var1 = arg1;
-                    var7 = arg2;
-                    var3 = _closure1_slot3;
+                    var6 = arg2;
+                    var3 = _closure1_slot4;
                     var2 = var3.getChannel;
-                    var9 = var2.bind(var3)(var7);
-                    var8 = null;
-                    var2 = var8 == var9;
-                    var3 = undefined;
-                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+                    var12 = var2.bind(var3)(var6);
+                    var2 = null;
+                    var3 = var2 == var12;
+                    var13 = undefined;
+                    var5 = undefined;
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var2 = var9.isGuildVocal;
-                    var3 = var2.bind(var9)();
+                    var3 = var12.getGuildId;
+                    var5 = var3.bind(var12)();
 case 2:
-                    var5 = var1.badge;
-                    var10 = _closure1_slot5;
-                    var2 = var10.getMentionCount;
-                    var2 = var2.bind(var10)(var7);
-                    var2 = var5 + var2;
-                    var1['badge'] = var2;
-                    var2 = var1.unread;
-                    if(var2) { _fun0001_ip = 4; continue _fun0001 }
+                    var3 = var2 == var12;
+                    var4 = undefined;
+                    if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                    var3 = !var3;
-                    if(!var3) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-                    var11 = _closure1_slot4;
-                    var10 = var11.can;
-                    var5 = _closure1_slot7;
-                    var5 = var5.VIEW_CHANNEL;
-                    var3 = var10.bind(var11)(var5, var9);
-case 6:
-                    if(!var3) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-                    var10 = _closure1_slot5;
-                    var5 = var10.hasUnread;
-                    var3 = var5.bind(var10)(var7);
-case 8:
-                    if(!var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-                    var5 = _closure1_slot6;
-                    var4 = var5.isChannelMuted;
-                    var8 = var8 == var9;
-                    var6 = undefined;
-                    if(var8) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-                    var8 = var9.getGuildId;
-                    var6 = var8.bind(var9)();
-case 12:
-                    var4 = var4.bind(var5)(var6, var7);
-                    var3 = !var4;
-case 10:
-                    var2 = var3;
+                    var3 = var12.isGuildVocal;
+                    var4 = var3.bind(var12)();
 case 4:
-                    var1['unread'] = var2;
+                    var8 = var1.badge;
+                    var10 = _closure1_slot6;
+                    var3 = var10.getMentionCount;
+                    var3 = var3.bind(var10)(var6);
+                    var3 = var8 + var3;
+                    var1['badge'] = var3;
+                    var3 = var1.unread;
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                    var4 = !var4;
+                    if(!var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+                    var11 = _closure1_slot5;
+                    var10 = var11.can;
+                    var8 = _closure1_slot8;
+                    var8 = var8.VIEW_CHANNEL;
+                    var4 = var10.bind(var11)(var8, var12);
+case 8:
+                    if(!var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+                    var10 = _closure1_slot6;
+                    var8 = var10.hasUnread;
+                    var4 = var8.bind(var10)(var6);
+case 10:
+                    if(!var4) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+                    var10 = _closure1_slot7;
+                    var8 = var10.isChannelMuted;
+                    var8 = var8.bind(var10)(var5, var6);
+                    var4 = !var8;
+case 12:
+                    var3 = var4;
+case 6:
+                    var1['unread'] = var3;
+                    if(!(var2 != var5)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+                    var4 = _closure1_slot3;
+                    var2 = var4.getActiveJoinedRelevantThreadsForParent;
+                    var2 = var2.bind(var4)(var5, var6);
+                    var _closure4_slot0 = var2;
+                    var3 = var4.getActiveJoinedUnreadThreadsForParent;
+                    var12 = var3.bind(var4)(var5, var6);
+                    var8 = var1.unread;
+                    if(var8) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+                    var11 = _closure1_slot1;
+                    var14 = _closure1_slot2;
+                    var10 = 7;
+                    var10 = var14[var10];
+                    var11 = var11.bind(var13)(var10);
+                    var10 = var11.keys;
+                    var11 = var10.bind(var11)(var12);
+                    var10 = var11.some;
+                    var9 = function(arg1) {
+                        var2 = _closure4_slot0;
+                        var1 = arg1;
+                        var1 = var1 in var2;
+                        return var1;
+                    };
+                    var8 = var10.bind(var11)(var9);
+case 16:
+                    var1['unread'] = var8;
+                    var5 = var2;
+                    for(var2 in var5)
+case 18:
+                    {
+case 19:
+                        var11 = var2;
+                        var9 = var1.badge;
+                        var10 = _closure1_slot6;
+                        var8 = var10.getMentionCount;
+                        var8 = var8.bind(var10)(var11);
+                        var8 = var9 + var8;
+                        var1['badge'] = var8;
+                        _fun0001_ip = 18; continue _fun0001;
+                    }
+case 14:
                     return var1;
                 }
             };

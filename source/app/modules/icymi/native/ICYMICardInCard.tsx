@@ -771,7 +771,7 @@ case 57:
                     var10 = var10 != var9;
                     var9 = undefined;
                     if(!var10) { _fun0007_ip = 59; continue _fun0007 }
-case 46:
+case 60:
                     var10 = {};
                     var11 = _closure2_slot13;
                     var10['fontFamily'] = var11;
@@ -855,12 +855,12 @@ case 0:
                     var1 = _closure2_slot11;
                     var3 = null;
                     var1 = var3 != var1;
-                    if(!var1) { _fun0008_ip = 60; continue _fun0008 }
+                    if(!var1) { _fun0008_ip = 61; continue _fun0008 }
 case 13:
                     var2 = _closure2_slot9;
                     var1 = var3 != var2;
-case 60:
-                    if(!var1) { _fun0008_ip = 61; continue _fun0008 }
+case 61:
+                    if(!var1) { _fun0008_ip = 62; continue _fun0008 }
 case 16:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -881,7 +881,7 @@ case 16:
                     var4 = _closure2_slot3;
                     var1['type'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 61:
+case 62:
                     var1 = undefined;
                     return var1;
                 }
@@ -899,12 +899,12 @@ case 61:
 case 0:
                     var3 = _closure2_slot8;
                     var1 = 1.8;
-                    if(!(!(var3 > var1))) { _fun0009_ip = 62; continue _fun0009 }
+                    if(!(!(var3 > var1))) { _fun0009_ip = 63; continue _fun0009 }
 case 37:
                     var1 = _closure2_slot7;
                     var1 = var1.channelNameAndAccessory;
                     _fun0009_ip = 41; continue _fun0009;
-case 62:
+case 63:
                     var2 = _closure2_slot7;
                     var1 = var2.channelNameAndAccessoryLarge;
 case 41:
@@ -958,8 +958,8 @@ case 41:
             var30 = new Array(2);
             var30[0] = var32;
             var31 = !var31;
-            if(!var31) { _fun0002_ip = 63; continue _fun0002 }
-case 64:
+            if(!var31) { _fun0002_ip = 64; continue _fun0002 }
+case 65:
             var34 = _closure1_slot9;
             var36 = _closure1_slot0;
             var38 = _closure1_slot2;
@@ -975,7 +975,7 @@ case 64:
             var35 = var35.bind(var36)(var37);
             var32['children'] = var35;
             var31 = var34.bind(var4)(var33, var32);
-case 63:
+case 64:
             var30[1] = var31;
             var24['children'] = var30;
             var26 = var27.bind(var4)(var26, var24);

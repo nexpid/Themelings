@@ -296,8 +296,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_BOOSTING_UPSELL_BANNER'] = var1;
     var1 = 'guild boosting sidebar display';
     var2['GUILD_BOOSTING_SIDEBAR_DISPLAY'] = var1;
-    var1 = 'guild boosting enhanced role color coachmark';
-    var2['GUILD_BOOSTING_ENHANCED_ROLE_COLOR_COACHMARK'] = var1;
     var1 = 'guilds list';
     var2['GUILDS_LIST'] = var1;
     var1 = 'activity channel selector';

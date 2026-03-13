@@ -664,7 +664,6 @@ case 6:
                     var1 = _closure3_slot0;
                     var1 = var1.handleOverlayUIStoreUpdate;
                     var1 = var2.bind(var3)(var1);
-                    var1 = undefined;
                     return var1;
                 };
                 var2 = var2.bind(var3)(var1);

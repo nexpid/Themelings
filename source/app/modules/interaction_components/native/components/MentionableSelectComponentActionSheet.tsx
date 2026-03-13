@@ -560,12 +560,12 @@ case 41:
                     var11 = var8 == var7;
                     var10 = undefined;
                     if(var11) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+case 13:
                     var10 = var7.discriminator;
 case 44:
                     var1['discriminator'] = var10;
                     var1 = var4.bind(var5)(var3, var1);
-                    _fun0005_ip = 46; continue _fun0005;
+                    _fun0005_ip = 45; continue _fun0005;
 case 43:
                     var3 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -583,13 +583,13 @@ case 43:
                     var2['username'] = var9;
                     var8 = var8 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
-                    var6 = var7.discriminator;
+                    if(var8) { _fun0005_ip = 46; continue _fun0005 }
 case 47:
+                    var6 = var7.discriminator;
+case 46:
                     var2['discriminator'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 46:
+case 45:
                     return var1;
                 }
             };

@@ -34,5 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 56;
     var3['TABLE_ROW_DIVIDER_PADDING'] = var4;
     var3['TABLE_DIVIDER_WIDTH'] = var2;
+    var2 = function getTableDividerWidth(arg1) {
+        var1 = 1;
+        return var1;
+    };
+    var3['getTableDividerWidth'] = var2;
     return var1;
 })();

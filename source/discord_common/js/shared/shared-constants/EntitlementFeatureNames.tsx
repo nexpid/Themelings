@@ -56,6 +56,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APP_ICONS'] = var1;
     var1 = 'chatWallpapers';
     var2['CHAT_WALLPAPERS'] = var1;
+    var1 = 'premiumOrbBonus';
+    var2['PREMIUM_ORB_BONUS'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

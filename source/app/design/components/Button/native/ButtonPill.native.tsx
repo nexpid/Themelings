@@ -788,8 +788,9 @@ case 49:
             var4 = 6;
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
-            var4 = var4.radii;
-            var4 = var4.round;
+            var4 = var4.modules;
+            var4 = var4.button;
+            var4 = var4.BORDER_RADIUS;
             var2['borderRadius'] = var4;
             var10 = var2;
             var9 = var3;

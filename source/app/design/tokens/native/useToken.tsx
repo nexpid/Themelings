@@ -60,128 +60,168 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useToken(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var13 = arg1;
-            var12 = arg2;
+            var14 = arg1;
+            var13 = arg2;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 3;
             var1 = var3[var1];
-            var7 = undefined;
-            var2 = var2.bind(var7)(var1);
+            var8 = undefined;
+            var2 = var2.bind(var8)(var1);
             var1 = var2.useThemeContext;
-            var14 = var1.bind(var2)();
-            var5 = null;
-            if(!(var5 == var12)) { _fun0001_ip = 2; continue _fun0001 }
+            var15 = var1.bind(var2)();
+            var6 = null;
+            if(!(var6 == var13)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var12 = var14.theme;
+            var13 = var15.theme;
 case 2:
-            var1 = var13;
-            if(!(var5 != var1)) { _fun0001_ip = 4; continue _fun0001 }
+            var1 = var14;
+            if(!(var6 != var1)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var10 = typeof var14;
+            var2 = 'object';
+            if(!(var2 === var10)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(!(var6 !== var14)) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
+            var2 = 'resolve';
+            var2 = var2 in var14;
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
             var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var8 = 0;
-            var2 = var2[var8];
-            var2 = var3.bind(var7)(var2);
+            var4 = _closure1_slot2;
+            var2 = 0;
+            var2 = var4[var2];
+            var2 = var3.bind(var8)(var2);
             var3 = var2.internal;
             var2 = var3.isSemanticColor;
-            var2 = var2.bind(var3)(var13);
-            var10 = var13;
-            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var2 = var2[var8];
-            var2 = var3.bind(var7)(var2);
-            var3 = var2.internal;
-            var2 = var3.getSemanticColorName;
-            var10 = var2.bind(var3)(var13);
-case 6:
-            var19 = var14.key;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var6 = var2.concat;
-            var22 = '';
-            var2 = '-';
-            var21 = var10;
-            var20 = var2;
-            var18 = var2;
-            var17 = var12;
-            var6 = var22[var6](var21, var20, var19, var18, var17, var16);
-            var3 = _closure1_slot3;
-            var2 = var3.get;
-            var10 = var2.bind(var3)(var6);
-            var3 = var10;
-            if(!(var5 == var10)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var9 = 'string';
-            var2 = typeof var13;
-            if(!(var9 !== var2)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var9 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var2 = var2[var8];
-            var2 = var9.bind(var7)(var2);
-            var9 = var2.internal;
-            var2 = var9.isSemanticColor;
-            var2 = var2.bind(var9)(var13);
-            var3 = var10;
-            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
-case 12:
-            var9 = _closure1_slot1;
-            var16 = _closure1_slot2;
-            var2 = var16[var8];
-            var2 = var9.bind(var7)(var2);
-            var11 = var2.internal;
-            var9 = var11.resolveSemanticColor;
-            var15 = _closure1_slot0;
-            var2 = 1;
-            var2 = var16[var2];
-            var15 = var15.bind(var7)(var2);
-            var2 = var15.getSemanticColorContextFromThemeContext;
-            var2 = var2.bind(var15)(var14);
-            var3 = var9.bind(var11)(var12, var13, var2);
-            _fun0001_ip = 8; continue _fun0001;
+            var2 = var2.bind(var3)(var14);
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 10:
-            var11 = var13[var8];
-            var9 = '#';
-            var2 = var13;
-            if(!(var9 !== var11)) { _fun0001_ip = 13; continue _fun0001 }
+            var3 = var14.resolve;
+            var2 = {};
+            var4 = var15.enabledExperiments;
+            if(!(var6 == var4)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var4 = new Array(0);
+case 11:
+            var2['enabledExperiments'] = var4;
+            var7 = var15.density;
+            var9 = var6 != var7;
+            var4 = 'compact';
+            if(!var9) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var9 = _closure1_slot4;
-            var9 = var13 in var9;
-            var3 = var10;
-            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
-case 15:
-            var9 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var10 = var15[var8];
-            var10 = var9.bind(var7)(var10);
-            var11 = var10.internal;
-            var10 = var11.resolveSemanticColor;
-            var8 = var15[var8];
-            var8 = var9.bind(var7)(var8);
-            var9 = var8.colors;
-            var8 = _closure1_slot4;
-            var8 = var8[var13];
-            var9 = var9[var8];
-            var13 = _closure1_slot0;
-            var8 = 1;
-            var8 = var15[var8];
-            var13 = var13.bind(var7)(var8);
-            var8 = var13.getSemanticColorContextFromThemeContext;
-            var8 = var8.bind(var13)(var14);
-            var3 = var10.bind(var11)(var12, var9, var8);
-case 8:
-            var5 = var5 != var3;
-            var2 = undefined;
-            if(!var5) { _fun0001_ip = 13; continue _fun0001 }
-case 16:
-            var5 = _closure1_slot3;
-            var4 = var5.set;
-            var4 = var4.bind(var5)(var6, var3);
-            var2 = var3;
+            var4 = var7;
 case 13:
+            var2['density'] = var4;
+            var2 = var3.bind(var14)(var2);
+            _fun0001_ip = 15; continue _fun0001;
+case 6:
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var9 = 0;
+            var3 = var3[var9];
+            var3 = var4.bind(var8)(var3);
+            var4 = var3.internal;
+            var3 = var4.isSemanticColor;
+            var3 = var3.bind(var4)(var14);
+            var12 = var14;
+            if(!var3) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var3 = var3[var9];
+            var3 = var4.bind(var8)(var3);
+            var4 = var3.internal;
+            var3 = var4.getSemanticColorName;
+            var12 = var3.bind(var4)(var14);
+case 16:
+            var20 = var15.key;
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var7 = var3.concat;
+            var23 = '';
+            var3 = '-';
+            var22 = var12;
+            var21 = var3;
+            var19 = var3;
+            var18 = var13;
+            var7 = var23[var7](var22, var21, var20, var19, var18, var17);
+            var4 = _closure1_slot3;
+            var3 = var4.get;
+            var11 = var3.bind(var4)(var7);
+            var4 = var11;
+            if(!(var6 == var11)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var3 = 'string';
+            if(!(var3 !== var10)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            var10 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var3 = var3[var9];
+            var3 = var10.bind(var8)(var3);
+            var10 = var3.internal;
+            var3 = var10.isSemanticColor;
+            var3 = var3.bind(var10)(var14);
+            var4 = var11;
+            if(!var3) { _fun0001_ip = 18; continue _fun0001 }
+case 22:
+            var10 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var3 = var17[var9];
+            var3 = var10.bind(var8)(var3);
+            var12 = var3.internal;
+            var10 = var12.resolveSemanticColor;
+            var16 = _closure1_slot0;
+            var3 = 1;
+            var3 = var17[var3];
+            var16 = var16.bind(var8)(var3);
+            var3 = var16.getSemanticColorContextFromThemeContext;
+            var3 = var3.bind(var16)(var15);
+            var4 = var10.bind(var12)(var13, var14, var3);
+            _fun0001_ip = 18; continue _fun0001;
+case 20:
+            var12 = var14[var9];
+            var10 = '#';
+            var3 = var14;
+            if(!(var10 !== var12)) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
+            var10 = _closure1_slot4;
+            var10 = var14 in var10;
+            var4 = var11;
+            if(!var10) { _fun0001_ip = 18; continue _fun0001 }
+case 25:
+            var10 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var11 = var16[var9];
+            var11 = var10.bind(var8)(var11);
+            var12 = var11.internal;
+            var11 = var12.resolveSemanticColor;
+            var9 = var16[var9];
+            var9 = var10.bind(var8)(var9);
+            var10 = var9.colors;
+            var9 = _closure1_slot4;
+            var9 = var9[var14];
+            var10 = var10[var9];
+            var14 = _closure1_slot0;
+            var9 = 1;
+            var9 = var16[var9];
+            var14 = var14.bind(var8)(var9);
+            var9 = var14.getSemanticColorContextFromThemeContext;
+            var9 = var9.bind(var14)(var15);
+            var4 = var11.bind(var12)(var13, var10, var9);
+case 18:
+            var6 = var6 != var4;
+            var3 = undefined;
+            if(!var6) { _fun0001_ip = 23; continue _fun0001 }
+case 26:
+            var6 = _closure1_slot3;
+            var5 = var6.set;
+            var5 = var5.bind(var6)(var7, var4);
+            var3 = var4;
+case 23:
+            var2 = var3;
+case 15:
             var1 = var2;
 case 4:
             return var1;

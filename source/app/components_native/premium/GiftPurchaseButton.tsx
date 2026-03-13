@@ -27,7 +27,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -35,10 +36,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot7 = var4;
-    var4 = 16;
+    var _closure1_slot8 = var4;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -48,105 +53,121 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var13 = var1.style;
-            var11 = var1.color;
-            var18 = var1.planId;
-            var _closure2_slot0 = var18;
-            var16 = var1.analyticsLocation;
+            var5 = var1.style;
+            var11 = var1.variant;
             var4 = undefined;
-            if(!(var16 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var16 = {};
+            var11 = 'primary';
 case 2:
-            var _closure2_slot1 = var16;
-            var17 = var1.recipientUserId;
-            var _closure2_slot2 = var17;
+            var15 = var1.planId;
+            var _closure2_slot0 = var15;
+            var20 = var1.analyticsLocation;
+            if(!(var20 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var20 = {};
+case 4:
+            var _closure2_slot1 = var20;
+            var21 = var1.recipientUserId;
+            var _closure2_slot2 = var21;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
-            var _closure2_slot6 = var4;
-            var _closure2_slot7 = var4;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 5;
-            var2 = var9[var7];
-            var6 = var8.bind(var4)(var2);
-            var5 = var6.useStateFromStores;
-            var2 = _closure1_slot5;
-            var3 = new Array(1);
-            var3[0] = var2;
-            var2 = function() {
-                var2 = _closure1_slot5;
+            var10 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 6;
+            var3 = var12[var3];
+            var6 = var10.bind(var4)(var3);
+            var3 = var6.useButtonTextColorStyles;
+            var3 = var3.bind(var6)(var11);
+            var16 = {};
+            var6 = 7;
+            var6 = var12[var6];
+            var6 = var10.bind(var4)(var6);
+            var6 = var6.TextStyleSheet;
+            var23 = var6.text-sm/semibold;
+            var24 = var16;
+            var6 = copyDataProperties(var24, var23);
+            var24 = var16;
+            var23 = var3;
+            var3 = copyDataProperties(var24, var23);
+            var7 = 8;
+            var3 = var12[var7];
+            var9 = var10.bind(var4)(var3);
+            var8 = var9.useStateFromStores;
+            var3 = _closure1_slot6;
+            var6 = new Array(1);
+            var6[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot6;
                 var1 = var2.getPremiumSubscription;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var3 = var5.bind(var6)(var3, var2);
-            var2 = 6;
-            var2 = var9[var2];
-            var5 = var8.bind(var4)(var2);
-            var2 = var5.getProductIdForGift;
-            var6 = var2.bind(var5)(var18);
-            _closure2_slot3 = var6;
-            var2 = 7;
-            var2 = var9[var2];
-            var5 = var8.bind(var4)(var2);
-            var2 = var5.useCanPurchaseIAP;
-            var5 = var2.bind(var5)(var6);
-            var2 = var9[var7];
-            var15 = var8.bind(var4)(var2);
-            var14 = var15.useStateFromStores;
-            var2 = _closure1_slot6;
-            var10 = new Array(1);
-            var10[0] = var2;
-            var6 = function() {
-                var3 = _closure1_slot6;
+            var3 = var8.bind(var9)(var6, var3);
+            var6 = 9;
+            var6 = var12[var6];
+            var8 = var10.bind(var4)(var6);
+            var6 = var8.getProductIdForGift;
+            var9 = var6.bind(var8)(var15);
+            _closure2_slot3 = var9;
+            var6 = 10;
+            var6 = var12[var6];
+            var8 = var10.bind(var4)(var6);
+            var6 = var8.useCanPurchaseIAP;
+            var8 = var6.bind(var8)(var9);
+            var6 = var12[var7];
+            var17 = var10.bind(var4)(var6);
+            var14 = var17.useStateFromStores;
+            var6 = _closure1_slot7;
+            var13 = new Array(1);
+            var13[0] = var6;
+            var9 = function() {
+                var3 = _closure1_slot7;
                 var2 = var3.isPurchasingProduct;
                 var1 = _closure2_slot3;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var6 = var14.bind(var15)(var10, var6);
-            var7 = var9[var7];
-            var9 = var8.bind(var4)(var7);
-            var8 = var9.useStateFromStores;
+            var9 = var14.bind(var17)(var13, var9);
+            var7 = var12[var7];
+            var12 = var10.bind(var4)(var7);
+            var10 = var12.useStateFromStores;
             var7 = new Array(1);
-            var7[0] = var2;
-            var2 = function() {
-                var3 = _closure1_slot6;
+            var7[0] = var6;
+            var6 = function() {
+                var3 = _closure1_slot7;
                 var2 = var3.getProduct;
                 var1 = _closure2_slot3;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var2 = var8.bind(var9)(var7, var2);
-            _closure2_slot4 = var2;
-            var2 = null;
-            var2 = var2 != var3;
-            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            var14 = var10.bind(var12)(var7, var6);
+            var6 = null;
+            var7 = var6 != var3;
+            if(!var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var3.planId;
-            var2 = var3 === var18;
-case 4:
-            _closure2_slot5 = var2;
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var2 = 8;
-            var2 = var10[var2];
-            var2 = var9.bind(var4)(var2);
-            var2 = var2.bind(var4)();
-            var15 = var2.analyticsLocations;
-            _closure2_slot6 = var15;
-            var3 = _closure1_slot0;
-            var2 = 9;
-            var2 = var10[var2];
-            var7 = var3.bind(var4)(var2);
-            var3 = var7.useCreateOrReuseGiftOrder;
-            var2 = 'GiftPurchaseButton';
-            var14 = var3.bind(var7)(var2);
-            _closure2_slot7 = var14;
-            var8 = _closure1_slot4;
-            var7 = var8.useCallback;
+            var7 = var3 === var15;
+case 6:
+            var13 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var3 = 11;
+            var3 = var17[var3];
+            var3 = var13.bind(var4)(var3);
+            var3 = var3.bind(var4)();
+            var19 = var3.analyticsLocations;
+            _closure2_slot4 = var19;
+            var6 = _closure1_slot0;
+            var3 = 12;
+            var3 = var17[var3];
+            var12 = var6.bind(var4)(var3);
+            var10 = var12.useCreateOrReuseGiftOrder;
+            var3 = 'GiftPurchaseButton';
+            var18 = var10.bind(var12)(var3);
+            _closure2_slot5 = var18;
+            var12 = _closure1_slot4;
+            var10 = var12.useCallback;
             var3 = _closure1_slot3;
             var2 = function* () {
                 var1 = function* anon_0_() {
@@ -154,12 +175,12 @@ case 4:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                        if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                         var9 = undefined;
                         var6 = undefined;
-case 8: // try_start_0
-                        var3 = _closure2_slot7;
+case 10: // try_start_0
+                        var3 = _closure2_slot5;
                         var2 = {};
                         var4 = _closure2_slot0;
                         var2['planId'] = var4;
@@ -167,17 +188,17 @@ case 8: // try_start_0
                         var2['recipientUserId'] = var4;
                         var2 = var3.bind(var9)(var2);
                         SaveGenerator(address=50);
-case 9:
+case 11:
                         return var2;
-case 10:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                        if(var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                         var6 = var2;
-case 13: // try_end0
+case 15: // try_end0
                         var4 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var3 = 12;
+                        var3 = 15;
                         var3 = var5[var3];
                         var10 = var4.bind(var9)(var3);
                         var8 = var10.getPremiumTypeFromPlanId;
@@ -185,7 +206,7 @@ case 13: // try_end0
                         var3 = var8.bind(var10)(var3);
                         var10 = var3.premiumType;
                         var8 = var3.planInterval;
-                        var3 = 13;
+                        var3 = 16;
                         var3 = var5[var3];
                         var5 = var4.bind(var9)(var3);
                         var4 = var5.openGiftModal;
@@ -196,24 +217,24 @@ case 13: // try_end0
                         var3['planInterval'] = var8;
                         var8 = _closure2_slot1;
                         var3['analyticsLocation'] = var8;
-                        var7 = _closure2_slot6;
+                        var7 = _closure2_slot4;
                         var3['analyticsLocations'] = var7;
                         var3['order'] = var6;
                         var3 = var4.bind(var5)(var3);
                         return var9;
-case 11:
+case 13:
                         return var2;
-case 14: // catch_target0
+case 16: // catch_target0
                         CatchBlockStart(arg_register=1);
                         var3 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var2 = 10;
+                        var2 = 13;
                         var2 = var10[var2];
                         var4 = var3.bind(var9)(var2);
                         var3 = var4.show;
                         var2 = {};
                         var8 = _closure1_slot0;
-                        var5 = 11;
+                        var5 = 14;
                         var6 = var10[var5];
                         var6 = var8.bind(var9)(var6);
                         var11 = var6.intl;
@@ -237,7 +258,7 @@ case 14: // catch_target0
                         var2 = var3.bind(var4)(var2);
                         var2 = undefined;
                         return var2;
-case 6:
+case 8:
                         return var1;
                     }
                 };
@@ -245,51 +266,43 @@ case 6:
             };
             var3 = var3.bind(var4)(var2);
             var2 = new Array(5);
-            var2[0] = var18;
-            var2[1] = var17;
-            var2[2] = var16;
-            var2[3] = var15;
-            var2[4] = var14;
-            var7 = var7.bind(var8)(var3, var2);
-            var3 = _closure1_slot7;
-            var8 = 14;
-            var1 = var10[var8];
-            var2 = var9.bind(var4)(var1);
+            var2[0] = var15;
+            var2[1] = var21;
+            var2[2] = var20;
+            var2[3] = var19;
+            var2[4] = var18;
+            var10 = var10.bind(var12)(var3, var2);
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot5;
             var1 = {};
-            var1['style'] = var13;
-            var12 = function text(arg1) {
-                var1 = arg1;
-                var4 = var1.style;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 15;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var1['style'] = var4;
-                var5 = _closure2_slot0;
-                var1['basePlanId'] = var5;
-                var5 = _closure2_slot5;
-                var1['isCurrentPlan'] = var5;
-                var5 = true;
-                var1['isGift'] = var5;
-                var4 = _closure2_slot4;
-                var1['product'] = var4;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var1['text'] = var12;
-            var1['color'] = var11;
-            var8 = var10[var8];
-            var8 = var9.bind(var4)(var8);
-            var8 = var8.Sizes;
-            var8 = var8.XSMALL;
-            var1['size'] = var8;
-            var1['onPress'] = var7;
-            var1['loading'] = var6;
-            var5 = !var5;
-            var1['disabled'] = var5;
+            var1['style'] = var5;
+            var5 = 17;
+            var5 = var17[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.BaseTextButton;
+            var5 = {};
+            var12 = 18;
+            var12 = var17[var12];
+            var13 = var13.bind(var4)(var12);
+            var12 = {};
+            var12['style'] = var16;
+            var12['basePlanId'] = var15;
+            var12['isCurrentPlan'] = var7;
+            var7 = true;
+            var12['isGift'] = var7;
+            var12['product'] = var14;
+            var12 = var13.bind(var4)(var12);
+            var5['textElement'] = var12;
+            var5['variant'] = var11;
+            var11 = 'sm';
+            var5['size'] = var11;
+            var5['onPress'] = var10;
+            var5['loading'] = var9;
+            var8 = !var8;
+            var5['disabled'] = var8;
+            var5['grow'] = var7;
+            var5 = var3.bind(var4)(var6, var5);
+            var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
