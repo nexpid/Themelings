@@ -800,6 +800,16 @@
         "width": 223,
         "height": 126
     },
+    "BlueskyNeutralIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/BlueskyNeutralIcon.png",
+        "hash": "5f4b1b30ebf00dbe6638292908056c77",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "BlurpleTwilightIcon": {
         "file": "app/images/native/custom_app_icons/BlurpleTwilightIcon/BlurpleTwilightIcon.png",
         "hash": "f385b38a044809a0b451d707fc7cd058",
@@ -3396,6 +3406,15 @@
         "width": 24,
         "height": 24
     },
+    "Glow": {
+        "file": "app/modules/premium/referral_program/native/images/Glow.png",
+        "hash": "7d7d766e7ebb30cec66584e69b89634d",
+        "scales": [
+            1
+        ],
+        "width": 180,
+        "height": 180
+    },
     "gmail": {
         "file": "app/modules/instant_invite/native/images/gmail.png",
         "hash": "9a94e0c492e9818d47f2c1c2afbb652d",
@@ -4463,7 +4482,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "app/modules/media_viewer/native/images/ic_eye.png",
+        "file": "app/modules/parent_tools/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -6755,14 +6774,13 @@
         "height": 255
     },
     "img_account_sync_facebook_white": {
-        "file": "app/images/native/platforms/img_account_sync_facebook_white.png",
-        "hash": "590d20800570038725d351ad11393d0c",
+        "file": "app/images/platforms/img_account_sync_facebook_white.png",
+        "hash": "58031e8cd71ba255d9d80c351eb0d4d4",
         "scales": [
-            2,
-            3
+            1
         ],
-        "width": 85,
-        "height": 85
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_github_light": {
         "file": "app/images/platforms/img_account_sync_github_light.png",
@@ -7026,14 +7044,13 @@
         "height": 255
     },
     "img_account_sync_twitter_white": {
-        "file": "app/images/native/platforms/img_account_sync_twitter_white.png",
-        "hash": "ef8cd222e10fadfa5ead772d27156961",
+        "file": "app/images/platforms/img_account_sync_twitter_white.png",
+        "hash": "8db07373f3f919fb237f49a66c873b13",
         "scales": [
-            2,
-            3
+            1
         ],
-        "width": 85,
-        "height": 85
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_x_dark": {
         "file": "app/images/platforms/img_account_sync_x_dark.png",
@@ -7628,16 +7645,6 @@
         ],
         "width": 192,
         "height": 193
-    },
-    "img_instagram_white": {
-        "file": "app/images/native/platforms/img_instagram_white.png",
-        "hash": "bc8a44b6571d8b2428e79b75539c0910",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
     },
     "img_invalid_link_dark": {
         "file": "app/images/native/img_invalid_link_dark.png",
@@ -10194,16 +10201,6 @@
         "width": 301,
         "height": 128
     },
-    "notification_nudge": {
-        "file": "app/modules/nuf/native/components/notification/notification_nudge.png",
-        "hash": "5c22e366542d98ef13d7a04fa7ca2713",
-        "scales": [
-            1,
-            2
-        ],
-        "width": 335,
-        "height": 144
-    },
     "notification_upsell": {
         "file": "app/modules/nuf/native/components/notification/notification_upsell.png",
         "hash": "21f19c3533062eebc26337b4e7ba590a",
@@ -10749,6 +10746,16 @@
         "width": 24,
         "height": 24
     },
+    "RedditNeutralIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/RedditNeutralIcon.png",
+        "hash": "dcbe42365a8b20d6901c09630afdd540",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "redesign_email_header": {
         "file": "app/modules/hub/native/images/redesign_email_header.png",
         "hash": "0b100afac52015c470ea1ec3ef8acf50",
@@ -11129,7 +11136,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
+        "file": "app/modules/hub/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
@@ -11753,6 +11760,16 @@
         "width": 16,
         "height": 16
     },
+    "SteamNeutralIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/SteamNeutralIcon.png",
+        "hash": "d6b6d301228ff846f051730b4a535337",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "sticker": {
         "file": "app/modules/premium/native/images/perks/sticker.png",
         "hash": "fac2e3b3b87c5c331642c571eab831c9",
@@ -12354,6 +12371,16 @@
     "TvIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TvIcon.png",
         "hash": "425fd1d103664a046b21c52b0c94bd45",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "TwitchNeutralIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/TwitchNeutralIcon.png",
+        "hash": "f707107902b0c142d4942c459b0a28b3",
         "scales": [
             2,
             3
