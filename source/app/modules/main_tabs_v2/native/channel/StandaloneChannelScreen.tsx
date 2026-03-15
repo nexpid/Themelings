@@ -418,7 +418,7 @@ case 20:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_BASE_LOW;
+    var18 = var18.STANDALONE_CHANNEL_CONTENT_BACKGROUND;
     var10['backgroundColor'] = var18;
     var4['contentContainer'] = var10;
     var10 = {};
@@ -433,14 +433,14 @@ case 20:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_BASE_LOW;
+    var18 = var18.STANDALONE_CHANNEL_CONTENT_BACKGROUND;
     var10['backgroundColor'] = var18;
     var4['containerEmpty'] = var10;
     var10 = {'zIndex': 1, 'backgroundColor': null, 'flexDirection': 'row', 'alignItems': 'center', 'flexShrink': 0};
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_BASE_LOW;
+    var18 = var18.STANDALONE_CHANNEL_CONTENT_BACKGROUND;
     var10['backgroundColor'] = var18;
     var4['headerWrapper'] = var10;
     var10 = {};
@@ -454,7 +454,7 @@ case 20:
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var17 = var16.BORDER_STRONG;
+    var17 = var16.STANDALONE_CHANNEL_HEADER_BORDER;
     var16 = 'backgroundColor';
     var10[var16] = var17;
     var4['headerBottomBorder'] = var10;

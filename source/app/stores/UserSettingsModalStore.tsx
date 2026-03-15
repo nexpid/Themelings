@@ -347,6 +347,7 @@ case 28:
             var3 = new Array(0);
 case 27:
             _closure1_slot10 = var3;
+            _closure1_slot11 = var4;
             var3 = var1.subsection;
             if(!(var4 != var3)) { _fun0006_ip = 29; continue _fun0006 }
 case 30:

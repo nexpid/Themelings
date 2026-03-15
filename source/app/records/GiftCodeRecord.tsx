@@ -253,17 +253,20 @@ case 9:
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var2 = this;
-                var1 = var2.isSubscription;
-                if(!var1) { _fun0004_ip = 11; continue _fun0004 }
+                var3 = var2.isSubscription;
+                var4 = null;
+                var1 = null;
+                if(!var3) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
                 var3 = _closure1_slot10;
                 var2 = var2.skuId;
-                var1 = var3[var2];
-case 11:
-                if(var1) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                var2 = var3[var2];
+                var3 = var4 != var2;
                 var1 = null;
+                if(!var3) { _fun0004_ip = 11; continue _fun0004 }
 case 13:
+                var1 = var2;
+case 11:
                 return var1;
             }
         };
@@ -347,11 +350,11 @@ case 0:
                 var2 = null;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 15; continue _fun0005 }
-case 11:
+                if(!var6) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                 var6 = var4.user;
                 var5 = var6.id;
-case 15:
+case 14:
                 var1['userId'] = var5;
                 var5 = var4.code;
                 var1['code'] = var5;

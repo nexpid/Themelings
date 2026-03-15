@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.CREATOR_MONETIZABLE_PROVISIONAL;
     var4[2] = var7;
     var _closure1_slot3 = var4;
-    var4 = 3;
+    var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -95,55 +95,8 @@ case 4:
         }
     };
     var3['hasEnabledMonetization'] = var4;
-    var4 = function useGuildEligibleForRoleSubscriptionsMobileTeamSetup(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var4 = arg1;
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var1 = 1;
-            var1 = var5[var1];
-            var5 = undefined;
-            var1 = var3.bind(var5)(var1);
-            var7 = var1.GuildRoleSubscriptionsMobileTeamSetupExperiment;
-            var6 = var7.useExperiment;
-            var3 = {};
-            var8 = null;
-            var9 = var8 == var4;
-            var1 = undefined;
-            if(var9) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
-            var1 = var4.id;
-case 6:
-            if(!(var8 == var1)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
-            var1 = _closure1_slot2;
-case 8:
-            var3['guildId'] = var1;
-            var1 = '504714_8';
-            var3['location'] = var1;
-            var1 = {};
-            var8 = true;
-            var1['autoTrackExposure'] = var8;
-            var1 = var6.bind(var7)(var3, var1);
-            var1 = var1.enabled;
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 2;
-            var2 = var6[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = var3.useIsExpeditedOnboardingGuild;
-            var2 = var2.bind(var3)(var4);
-            if(!var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-            var1 = var2;
-case 10:
-            return var1;
-        }
-    };
-    var3['useGuildEligibleForRoleSubscriptionsMobileTeamSetup'] = var4;
     var4 = function isGuildEligibleForTierTemplates(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
@@ -156,7 +109,7 @@ case 0:
             var3 = var4.getCurrentConfig;
             var2 = {};
             var6 = null;
-            if(!(var6 == var1)) { _fun0004_ip = 2; continue _fun0004 }
+            if(!(var6 == var1)) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
             var1 = _closure1_slot2;
 case 2:
@@ -173,7 +126,7 @@ case 2:
     };
     var3['isGuildEligibleForTierTemplates'] = var4;
     var4 = function useGuildEligibleForTierTemplates(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
@@ -186,7 +139,7 @@ case 0:
             var3 = var4.useExperiment;
             var2 = {};
             var6 = null;
-            if(!(var6 == var1)) { _fun0005_ip = 2; continue _fun0005 }
+            if(!(var6 == var1)) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
             var1 = _closure1_slot2;
 case 2:
@@ -203,7 +156,7 @@ case 2:
     };
     var3['useGuildEligibleForTierTemplates'] = var4;
     var4 = function useShowCreatorPortalLinkForTierTemplates(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
@@ -216,7 +169,7 @@ case 0:
             var3 = var4.useExperiment;
             var2 = {};
             var6 = null;
-            if(!(var6 == var1)) { _fun0006_ip = 2; continue _fun0006 }
+            if(!(var6 == var1)) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
             var1 = _closure1_slot2;
 case 2:

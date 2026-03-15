@@ -30,102 +30,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = function showUserProfileActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var1 = global;
-            var3 = var1.Date;
-            var1 = var3.now;
-            var8 = var1.bind(var3)();
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var7 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 5;
-            var4 = var4[var1];
+            var3 = var3[var1];
             var1 = undefined;
-            var4 = var5.bind(var1)(var4);
-            var5 = var4.IgnoreProfileSpeedbumpDisabled;
-            var4 = var5.getSetting;
-            var4 = var4.bind(var5)();
-            var5 = var2.ignoreBlockedSpeedBump;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var7 = _closure1_slot5;
-            var6 = var7.isBlocked;
-            var5 = var2.userId;
-            var10 = var6.bind(var7)(var5);
-            var7 = _closure1_slot5;
-            var6 = var7.isIgnored;
-            var5 = var2.userId;
-            var5 = var6.bind(var7)(var5);
-            if(var5) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
-            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            var3 = var4.bind(var1)(var3);
+            var4 = var3.IgnoreProfileSpeedbumpDisabled;
+            var3 = var4.getSetting;
+            var3 = var3.bind(var4)();
+            var4 = var7.ignoreBlockedSpeedBump;
             if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var6 = _closure1_slot5;
+            var5 = var6.isBlocked;
+            var4 = var7.userId;
+            var9 = var5.bind(var6)(var4);
+            var6 = _closure1_slot5;
+            var5 = var6.isIgnored;
+            var4 = var7.userId;
+            var4 = var5.bind(var6)(var4);
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 6:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var4 = 4;
-            var4 = var6[var4];
-            var7 = var5.bind(var1)(var4);
-            var4 = 6;
-            var5 = var6[var4];
-            var4 = var6.paths;
-            var9 = var7.bind(var1)(var5, var4);
-            var5 = _closure1_slot1;
-            var4 = 7;
-            var4 = var6[var4];
-            var7 = var5.bind(var1)(var4);
-            var6 = var7.openLazy;
-            var5 = _closure1_slot7;
-            var4 = var2.userId;
-            var5 = var5.bind(var1)(var4);
-            var4 = {};
-            var15 = var4;
-            var14 = var2;
-            var11 = copyDataProperties(var15, var14);
-            var11 = 'ignore';
-            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var11 = 'block';
-case 8:
-            var10 = 'speedBumpType';
-            var4[var10] = var11;
-            var10 = 'openedAt';
-            var4[var10] = var8;
-            var4 = var6.bind(var7)(var9, var5, var4);
-            var4 = undefined;
-            return var4;
-case 2:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var4 = 4;
-            var4 = var6[var4];
-            var7 = var5.bind(var1)(var4);
-            var4 = 8;
-            var5 = var6[var4];
-            var4 = var6.paths;
-            var7 = var7.bind(var1)(var5, var4);
-            var5 = _closure1_slot1;
-            var4 = 7;
-            var4 = var6[var4];
-            var6 = var5.bind(var1)(var4);
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 4;
+            var3 = var5[var3];
+            var6 = var4.bind(var1)(var3);
+            var3 = 6;
+            var4 = var5[var3];
+            var3 = var5.paths;
+            var8 = var6.bind(var1)(var4, var3);
+            var4 = _closure1_slot1;
+            var3 = 7;
+            var3 = var5[var3];
+            var6 = var4.bind(var1)(var3);
             var5 = var6.openLazy;
-            var4 = _closure1_slot6;
-            var3 = var2.userId;
+            var4 = _closure1_slot7;
+            var3 = var7.userId;
             var4 = var4.bind(var1)(var3);
             var3 = {};
-            var15 = var3;
-            var14 = var2;
-            var2 = copyDataProperties(var15, var14);
-            var2 = 'openedAt';
-            var3[var2] = var8;
-            var12 = 'replaceAll';
-            var16 = var6;
-            var15 = var7;
-            var14 = var4;
-            var13 = var3;
-            var2 = var16[var5](var15, var14, var13, var12, var11);
+            var14 = var3;
+            var13 = var7;
+            var10 = copyDataProperties(var14, var13);
+            var10 = 'ignore';
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var10 = 'block';
+case 8:
+            var9 = 'speedBumpType';
+            var3[var9] = var10;
+            var3 = var5.bind(var6)(var8, var4, var3);
+            var3 = undefined;
+            return var3;
+case 2:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 4;
+            var3 = var5[var3];
+            var6 = var4.bind(var1)(var3);
+            var3 = 8;
+            var4 = var5[var3];
+            var3 = var5.paths;
+            var6 = var6.bind(var1)(var4, var3);
+            var4 = _closure1_slot1;
+            var3 = 7;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.openLazy;
+            var3 = _closure1_slot6;
+            var2 = var7.userId;
+            var13 = var3.bind(var1)(var2);
+            var11 = 'replaceAll';
+            var15 = var5;
+            var14 = var6;
+            var12 = var7;
+            var2 = var15[var4](var14, var13, var12, var11, var10);
             return var1;
         }
     };

@@ -1,11 +1,11 @@
 // app/modules/soundboard/native/SoundboardSoundPickerList.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var8 = metroImportDefault;
+    var14 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var8;
+    var _closure1_slot1 = var14;
     var _closure1_slot2 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -266,13 +266,13 @@ case 36:
     };
     var _closure1_slot14 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var7 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
     var4 = metroImportAll;
@@ -286,7 +286,7 @@ case 36:
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -299,27 +299,28 @@ case 36:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var13 = var4.ACTION_SHEET_BACKGROUND_COLOR;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var9 = var4.jsx;
     var _closure1_slot7 = var9;
     var4 = var4.jsxs;
     var _closure1_slot8 = var4;
     var4 = 8;
-    var14 = var8 + var4;
-    var _closure1_slot9 = var14;
-    var4 = 6;
+    var13 = var8 + var4;
+    var _closure1_slot9 = var13;
+    var4 = 5;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
     var10 = {'height': null, 'display': 'flex', 'flexDirection': 'row'};
-    var10['height'] = var14;
+    var10['height'] = var13;
     var10['paddingHorizontal'] = var12;
     var4['row'] = var10;
     var10 = {'flex': 1, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'paddingTop': 16, 'paddingBottom': 8};
+    var13 = 6;
+    var13 = var6[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.MOBILE_ACTIONSHEET_BACKGROUND;
     var10['backgroundColor'] = var13;
     var10['paddingHorizontal'] = var12;
     var4['sectionHeader'] = var10;

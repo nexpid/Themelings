@@ -851,8 +851,41 @@ case 47:
         }
     };
     var4['CHANNEL_TOGGLE_CONVERSATIONS_SECTION'] = var5;
-    var5 = function handleSidebarViewChannel(arg1) {
+    var5 = function handleChannelOpenConversationsSection() {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+            var1 = _closure1_slot23;
+            var1 = !var1;
+            if(!var1) { _fun0017_ip = 78; continue _fun0017 }
+case 44:
+            var2 = _closure1_slot27;
+            if(!var2) { _fun0017_ip = 17; continue _fun0017 }
+case 79:
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 17;
+            var4 = var4[var2];
+            var2 = undefined;
+            var2 = var5.bind(var2)(var4);
+            var5 = var2.ComponentDispatch;
+            var4 = var5.dispatch;
+            var2 = _closure1_slot17;
+            var2 = var2.SEARCH_RESULTS_CLOSE;
+            var2 = var4.bind(var5)(var2);
+case 17:
+            var2 = false;
+            _closure1_slot21 = var2;
+            _closure1_slot22 = var2;
+            var2 = true;
+            _closure1_slot23 = var2;
+            var1 = true;
+case 78:
+            return var1;
+        }
+    };
+    var4['CHANNEL_OPEN_CONVERSATIONS_SECTION'] = var5;
+    var5 = function handleSidebarViewChannel(arg1) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
             var8 = var1.sidebarType;
@@ -865,8 +898,8 @@ case 0:
             var9 = undefined;
             var4 = var4.bind(var9)(var7);
             var6 = null;
-            if(!(var6 != var4)) { _fun0017_ip = 78; continue _fun0017 }
-case 79:
+            if(!(var6 != var4)) { _fun0018_ip = 80; continue _fun0018 }
+case 81:
             var6 = {};
             var6['type'] = var8;
             var6['channelId'] = var5;
@@ -879,8 +912,8 @@ case 79:
             var3 = var3.SidebarType;
             var5 = var3.VIEW_MOD_REPORT;
             var3 = var6;
-            if(!(var8 === var5)) { _fun0017_ip = 80; continue _fun0017 }
-case 81:
+            if(!(var8 === var5)) { _fun0018_ip = 82; continue _fun0018 }
+case 83:
             var5 = {};
             var12 = var5;
             var11 = var6;
@@ -888,18 +921,18 @@ case 81:
             var6 = 'baseChannelId';
             var5[var6] = var7;
             var3 = var5;
-case 80:
+case 82:
             var2 = _closure1_slot25;
             var2[var4] = var3;
             var2 = true;
             return var2;
-case 78:
+case 80:
             return var1;
         }
     };
     var4['SIDEBAR_VIEW_CHANNEL'] = var5;
     var5 = function handleSidebarViewGuild(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
             var7 = var1.sidebarType;
@@ -913,7 +946,7 @@ case 0:
             var6 = var3.bind(var1)(var6);
             var1 = null;
             var1 = var1 != var6;
-            if(!var1) { _fun0018_ip = 40; continue _fun0018 }
+            if(!var1) { _fun0019_ip = 40; continue _fun0019 }
 case 77:
             var3 = _closure1_slot26;
             var2 = {};
@@ -929,7 +962,7 @@ case 40:
     };
     var4['SIDEBAR_VIEW_GUILD'] = var5;
     var5 = function handleCreateThread(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var1 = arg1;
             var7 = var1.parentChannelId;
@@ -941,8 +974,8 @@ case 0:
             var1 = undefined;
             var4 = var2.bind(var1)(var7);
             var2 = null;
-            if(!(var2 != var4)) { _fun0019_ip = 81; continue _fun0019 }
-case 82:
+            if(!(var2 != var4)) { _fun0020_ip = 83; continue _fun0020 }
+case 84:
             var3 = _closure1_slot25;
             var2 = {};
             var9 = _closure1_slot0;
@@ -957,13 +990,13 @@ case 82:
             var2['parentMessageId'] = var6;
             var2['location'] = var5;
             var3[var4] = var2;
-case 81:
+case 83:
             return var1;
         }
     };
     var4['SIDEBAR_CREATE_THREAD'] = var5;
     var5 = function handleCloseSidebar(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.baseChannelId;
@@ -971,7 +1004,7 @@ case 0:
             var1 = undefined;
             var3 = var3.bind(var1)(var4);
             var4 = null;
-            if(!(var4 != var3)) { _fun0020_ip = 29; continue _fun0020 }
+            if(!(var4 != var3)) { _fun0021_ip = 29; continue _fun0021 }
 case 76:
             var2 = _closure1_slot25;
             var2 = delete var2[var3];
@@ -981,7 +1014,7 @@ case 29:
     };
     var4['SIDEBAR_CLOSE'] = var5;
     var5 = function handleGuildCloseSidebar(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.guildId;
@@ -989,18 +1022,18 @@ case 0:
             var4 = var1[var3];
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0021_ip = 83; continue _fun0021 }
+            if(!var1) { _fun0022_ip = 85; continue _fun0022 }
 case 8:
             var2 = _closure1_slot26;
             var2 = delete var2[var3];
             var1 = true;
-case 83:
+case 85:
             return var1;
         }
     };
     var4['SIDEBAR_CLOSE_GUILD'] = var5;
     var5 = function handleChannelDelete(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.channel;
@@ -1008,7 +1041,7 @@ case 0:
             var2 = _closure1_slot25;
             var3 = var3 in var2;
             var2 = _closure1_slot25;
-            if(var3) { _fun0022_ip = 84; continue _fun0022 }
+            if(var3) { _fun0023_ip = 86; continue _fun0023 }
 case 58:
             var12 = var2;
             var4 = false;
@@ -1025,8 +1058,8 @@ case 17:
                 var15 = _closure1_slot25;
                 var17 = var15[var16];
                 var15 = var5 != var17;
-                if(!var15) { _fun0022_ip = 85; continue _fun0022 }
-case 86:
+                if(!var15) { _fun0023_ip = 87; continue _fun0023 }
+case 78:
                 var19 = var17.type;
                 var20 = _closure1_slot0;
                 var18 = _closure1_slot2;
@@ -1035,23 +1068,23 @@ case 86:
                 var18 = var18.SidebarType;
                 var18 = var18.VIEW_CHANNEL;
                 var15 = var19 === var18;
-case 85:
-                if(!var15) { _fun0022_ip = 87; continue _fun0022 }
-case 88:
+case 87:
+                if(!var15) { _fun0023_ip = 88; continue _fun0023 }
+case 89:
                 var18 = var17.channelId;
                 var17 = var1.id;
                 var15 = var18 === var17;
-case 87:
-                if(!var15) { _fun0022_ip = 64; continue _fun0022 }
-case 89:
+case 88:
+                if(!var15) { _fun0023_ip = 64; continue _fun0023 }
+case 90:
                 var15 = _closure1_slot25;
                 var15 = delete var15[var16];
                 var4 = true;
-                _fun0022_ip = 64; continue _fun0022;
+                _fun0023_ip = 64; continue _fun0023;
             }
-case 90:
+case 91:
             return var3;
-case 84:
+case 86:
             var1 = var1.id;
             var1 = delete var2[var1];
             var1 = true;
@@ -1060,7 +1093,7 @@ case 84:
     };
     var4['CHANNEL_DELETE'] = var5;
     var5 = function handleChannelSelect() {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -1069,12 +1102,12 @@ case 0:
             var1 = undefined;
             var2 = var4.bind(var1)(var2);
             var2 = var2.isMobile;
-            if(!var2) { _fun0023_ip = 83; continue _fun0023 }
+            if(!var2) { _fun0024_ip = 85; continue _fun0024 }
 case 58:
             var2 = _closure1_slot21;
-case 83:
-            if(!var2) { _fun0023_ip = 77; continue _fun0023 }
-case 91:
+case 85:
+            if(!var2) { _fun0024_ip = 77; continue _fun0024 }
+case 92:
             var2 = false;
             _closure1_slot21 = var2;
             _closure1_slot22 = var2;
@@ -1085,7 +1118,7 @@ case 77:
     };
     var4['CHANNEL_SELECT'] = var5;
     var5 = function handleThreadCreate(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.channel;
@@ -1097,18 +1130,18 @@ case 0:
             var8 = var2 == var7;
             var1 = undefined;
             var3 = undefined;
-            if(var8) { _fun0024_ip = 38; continue _fun0024 }
-case 92:
+            if(var8) { _fun0025_ip = 38; continue _fun0025 }
+case 93:
             var3 = var7.id;
 case 38:
-            if(!(var4 !== var3)) { _fun0024_ip = 93; continue _fun0024 }
+            if(!(var4 !== var3)) { _fun0025_ip = 94; continue _fun0025 }
 case 77:
             var4 = _closure1_slot25;
             var3 = var5.parent_id;
             var3 = var4[var3];
             var2 = var2 != var3;
-            if(!var2) { _fun0024_ip = 94; continue _fun0024 }
-case 95:
+            if(!var2) { _fun0025_ip = 95; continue _fun0025 }
+case 96:
             var7 = var3.type;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1118,9 +1151,9 @@ case 95:
             var4 = var4.SidebarType;
             var4 = var4.CREATE_THREAD;
             var2 = var7 === var4;
-case 94:
-            if(!var2) { _fun0024_ip = 96; continue _fun0024 }
-case 97:
+case 95:
+            if(!var2) { _fun0025_ip = 97; continue _fun0025 }
+case 98:
             var4 = var3.parentMessageId;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -1131,9 +1164,9 @@ case 97:
             var3 = var5.id;
             var3 = var7.bind(var8)(var3);
             var2 = var4 === var3;
-case 96:
-            if(!var2) { _fun0024_ip = 98; continue _fun0024 }
-case 99:
+case 97:
+            if(!var2) { _fun0025_ip = 99; continue _fun0025 }
+case 100:
             var4 = _closure1_slot25;
             var3 = var5.parent_id;
             var2 = {};
@@ -1148,16 +1181,16 @@ case 99:
             var5 = var5.id;
             var2['channelId'] = var5;
             var4[var3] = var2;
-case 98:
+case 99:
             return var1;
-case 93:
+case 94:
             var1 = false;
             return var1;
         }
     };
     var4['THREAD_CREATE'] = var5;
     var5 = function handleThreadDelete(arg1) {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.channel;
@@ -1165,7 +1198,7 @@ case 0:
             var1 = var2.parent_id;
             var4 = var4[var1];
             var1 = null;
-            if(!(var1 != var4)) { _fun0025_ip = 100; continue _fun0025 }
+            if(!(var1 != var4)) { _fun0026_ip = 101; continue _fun0026 }
 case 21:
             var6 = var4.type;
             var7 = _closure1_slot0;
@@ -1176,17 +1209,17 @@ case 21:
             var5 = var7.bind(var1)(var5);
             var5 = var5.SidebarType;
             var5 = var5.VIEW_THREAD;
-            if(!(var6 === var5)) { _fun0025_ip = 100; continue _fun0025 }
+            if(!(var6 === var5)) { _fun0026_ip = 101; continue _fun0026 }
 case 4:
             var5 = var4.channelId;
             var4 = var2.id;
-            if(!(var5 === var4)) { _fun0025_ip = 100; continue _fun0025 }
-case 101:
+            if(!(var5 === var4)) { _fun0026_ip = 101; continue _fun0026 }
+case 102:
             var3 = _closure1_slot25;
             var2 = var2.parent_id;
             var2 = delete var3[var2];
             return var1;
-case 100:
+case 101:
             var1 = false;
             return var1;
         }

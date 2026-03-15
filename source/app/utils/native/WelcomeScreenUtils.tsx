@@ -117,55 +117,51 @@ case 2:
                 var4 = !var2;
                 if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var4 = _closure2_slot3;
-case 4:
-                if(!var4) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
                 var2 = _closure2_slot2;
                 var1 = _closure2_slot1;
                 var4 = var2 === var1;
-case 6:
+case 4:
                 var1 = {};
                 var2 = var4;
-                if(!var2) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+                if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var10 = null;
                 var2 = var10 != var6;
+case 6:
+                if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+                var9 = _closure1_slot6;
+                var2 = var6 !== var9;
 case 8:
                 if(!var2) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-                var9 = _closure1_slot6;
-                var2 = var6 !== var9;
+                var2 = !var8;
 case 10:
                 if(!var2) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                var2 = !var8;
+                var2 = !var7;
 case 12:
                 if(!var2) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                var2 = !var7;
-case 14:
-                if(!var2) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
                 var7 = var5.length;
                 var5 = 0;
                 var2 = var7 > var5;
-case 16:
+case 14:
                 var1['welcomeScreenModalVisible'] = var2;
                 var2 = undefined;
-                if(!var4) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+                if(!var4) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                 var4 = null;
                 var6 = var4 == var6;
                 var2 = undefined;
-                if(!var6) { _fun0001_ip = 18; continue _fun0001 }
-case 20:
+                if(!var6) { _fun0001_ip = 16; continue _fun0001 }
+case 18:
                 var4 = var4 != var3;
                 var2 = undefined;
-                if(!var4) { _fun0001_ip = 18; continue _fun0001 }
-case 21:
+                if(!var4) { _fun0001_ip = 16; continue _fun0001 }
+case 19:
                 var2 = var3.id;
-case 18:
+case 16:
                 var1['shouldFetchGuildId'] = var2;
                 return var1;
             }
@@ -183,7 +179,7 @@ case 18:
 case 0:
                 var3 = _closure2_slot4;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0002_ip = 22; continue _fun0002 }
+                if(!(var2 != var3)) { _fun0002_ip = 20; continue _fun0002 }
 case 3:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -194,7 +190,7 @@ case 3:
                 var2 = var3.fetchWelcomeScreen;
                 var1 = _closure2_slot4;
                 var1 = var2.bind(var3)(var1);
-case 22:
+case 20:
                 var1 = undefined;
                 return var1;
             }
@@ -247,22 +243,22 @@ case 0:
             var6 = var1 == var5;
             var1 = undefined;
             var3 = undefined;
-            if(var6) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+            if(var6) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var3 = var5.type;
-case 23:
+case 21:
             var2 = _closure1_slot9;
             var2 = var2.MOBILE_GUILD_DISCOVERY;
-            if(!(var3 !== var2)) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+            if(!(var3 !== var2)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var2 = var4.bind(var1)();
-            _fun0003_ip = 27; continue _fun0003;
-case 25:
+            _fun0003_ip = 25; continue _fun0003;
+case 23:
             var2 = global;
             var3 = var2.setTimeout;
             var2 = 600;
             var2 = var3.bind(var1)(var4, var2);
-case 27:
+case 25:
             return var1;
         }
     };

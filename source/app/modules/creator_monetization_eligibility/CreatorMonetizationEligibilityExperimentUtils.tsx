@@ -11,14 +11,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2 != var1;
         return var1;
     };
-    var _closure1_slot4 = var7;
+    var _closure1_slot3 = var7;
     var6 = function isRavenOnboardingGuild(arg1) {
         var2 = null;
         var1 = arg1;
         var1 = var2 != var1;
         return var1;
     };
-    var _closure1_slot5 = var6;
+    var _closure1_slot4 = var6;
     var5 = function useIsWhitegloveOnboardingGuild(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -29,14 +29,14 @@ case 0:
 case 3:
             var4 = var2.features;
             var3 = var4.has;
-            var2 = _closure1_slot3;
+            var2 = _closure1_slot2;
             var2 = var2.CREATOR_MONETIZABLE_WHITEGLOVE;
             var1 = var3.bind(var4)(var2);
 case 2:
             return var1;
         }
     };
-    var _closure1_slot6 = var5;
+    var _closure1_slot5 = var5;
     var4 = function isWhitegloveOnboardingGuild(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -47,14 +47,14 @@ case 0:
 case 3:
             var4 = var2.features;
             var3 = var4.has;
-            var2 = _closure1_slot3;
+            var2 = _closure1_slot2;
             var2 = var2.CREATOR_MONETIZABLE_WHITEGLOVE;
             var1 = var3.bind(var4)(var2);
 case 2:
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var1 = global;
     var12 = var1.Object;
     var11 = var12.defineProperty;
@@ -67,10 +67,8 @@ case 2:
     var8 = var10[var1];
     var1 = undefined;
     var8 = var9.bind(var1)(var8);
-    var11 = var8.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot2 = var11;
     var8 = var8.GuildFeatures;
-    var _closure1_slot3 = var8;
+    var _closure1_slot2 = var8;
     var8 = 2;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
@@ -125,7 +123,7 @@ case 2:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;
-            var5 = _closure1_slot4;
+            var5 = _closure1_slot3;
             var1 = null;
             var6 = var1 == var4;
             var3 = undefined;
@@ -135,7 +133,7 @@ case 5:
             var1 = var4.id;
 case 4:
             var1 = var5.bind(var3)(var1);
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var2 = var2.bind(var3)(var4);
             if(var1) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
@@ -149,7 +147,7 @@ case 6:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot4;
             var1 = null;
             var6 = var1 == var4;
             var3 = undefined;
@@ -161,70 +159,13 @@ case 4:
             var1 = var5.bind(var3)(var1);
             if(var1) { _fun0004_ip = 7; continue _fun0004 }
 case 8:
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot6;
             var1 = var2.bind(var3)(var4);
 case 7:
             return var1;
         }
     };
     var3['isExpeditedMonetizationOnboardingGuild'] = var4;
-    var4 = function useIsMonetizationWaitlistEnabledForGuild(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var1 = arg1;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var2 = 1;
-            var3 = var3[var2];
-            var2 = undefined;
-            var2 = var4.bind(var2)(var3);
-            var4 = var2.CreatorMonetizationOnboardingWaitlistExperiment;
-            var3 = var4.useExperiment;
-            var2 = {};
-            var6 = null;
-            if(!(var6 == var1)) { _fun0005_ip = 9; continue _fun0005 }
-case 6:
-            var1 = _closure1_slot2;
-case 9:
-            var2['guildId'] = var1;
-            var1 = 'e3bb71_9';
-            var2['location'] = var1;
-            var1 = {};
-            var5 = false;
-            var1['autoTrackExposure'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            var1 = var1.enableWaitlist;
-            return var1;
-        }
-    };
-    var3['useIsMonetizationWaitlistEnabledForGuild'] = var4;
-    var4 = function isMonetizationWaitlistEnabledForGuild(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-            var4 = arg1;
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 1;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var3 = var1.CreatorMonetizationOnboardingWaitlistExperiment;
-            var2 = var3.getCurrentConfig;
-            var1 = {};
-            var6 = null;
-            if(!(var6 == var4)) { _fun0006_ip = 9; continue _fun0006 }
-case 6:
-            var4 = _closure1_slot2;
-case 9:
-            var1['guildId'] = var4;
-            var4 = 'e3bb71_10';
-            var1['location'] = var4;
-            var1 = var2.bind(var3)(var1);
-            var1 = var1.enableWaitlist;
-            return var1;
-        }
-    };
-    var3['isMonetizationWaitlistEnabledForGuild'] = var4;
     var2 = function isCreatorMonetizationNagActivateEnabled() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

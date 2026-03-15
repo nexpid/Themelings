@@ -78,7 +78,7 @@ case 0:
             var2 = var19[var6];
             var5 = var21.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function R() {
+            var2 = function V() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -204,7 +204,7 @@ case 6:
             var2 = var19[var6];
             var3 = var21.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function V() {
+            var1 = function b() {
                 var1 = {};
                 var3 = _closure2_slot2;
                 var2 = var3.get;
@@ -412,8 +412,9 @@ case 8:
     var15 = 6;
     var17 = var8[var15];
     var17 = var16.bind(var1)(var17);
-    var17 = var17.radii;
-    var17 = var17.xxl;
+    var17 = var17.modules;
+    var17 = var17.mobile;
+    var17 = var17.VOICE_PANEL_CONTROLS_BORDER_RADIUS;
     var4['borderRadius'] = var17;
     var4['overflow'] = var13;
     var6['consoleContainer'] = var4;
@@ -425,8 +426,9 @@ case 8:
     var13 = {'position': 'absolute', 'bottom': 0, 'borderRadius': null, 'flex': 1, 'height': null, 'overflow': 'hidden'};
     var15 = var8[var15];
     var15 = var16.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.xxl;
+    var15 = var15.modules;
+    var15 = var15.mobile;
+    var15 = var15.VOICE_PANEL_CONTROLS_BORDER_RADIUS;
     var13['borderRadius'] = var15;
     var13['height'] = var14;
     var6['blockingControlCover'] = var13;

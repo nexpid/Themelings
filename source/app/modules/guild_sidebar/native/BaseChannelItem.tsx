@@ -171,8 +171,9 @@ case 0:
             var3 = var6[var7];
             var8 = undefined;
             var3 = var10.bind(var8)(var3);
-            var3 = var3.radii;
-            var3 = var3.md;
+            var3 = var3.modules;
+            var3 = var3.mobile;
+            var3 = var3.CHANNEL_ITEM_RADIUS;
             var2['borderRadius'] = var3;
             var3 = var6[var7];
             var3 = var10.bind(var8)(var3);
@@ -189,8 +190,9 @@ case 0:
             var2['borderColor'] = var11;
             var11 = var6[var7];
             var11 = var10.bind(var8)(var11);
-            var11 = var11.radii;
-            var11 = var11.md;
+            var11 = var11.modules;
+            var11 = var11.mobile;
+            var11 = var11.CHANNEL_ITEM_RADIUS;
             var2['borderRadius'] = var11;
             var1['selectedBorder'] = var2;
             var2 = {};
@@ -538,14 +540,14 @@ case 55:
 case 59:
             var7 = 'icon-muted';
             if(var10) { _fun0007_ip = 60; continue _fun0007 }
-case 61:
-            if(var8) { _fun0007_ip = 62; continue _fun0007 }
-case 63:
-            var8 = 'channel-icon';
-            if(!var9) { _fun0007_ip = 64; continue _fun0007 }
+case 22:
+            if(var8) { _fun0007_ip = 61; continue _fun0007 }
 case 62:
+            var8 = 'channel-icon';
+            if(!var9) { _fun0007_ip = 63; continue _fun0007 }
+case 61:
             var8 = 'interactive-text-active';
-case 64:
+case 63:
             var7 = var8;
 case 60:
             var6 = var7;

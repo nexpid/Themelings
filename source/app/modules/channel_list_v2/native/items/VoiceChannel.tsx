@@ -194,6 +194,7 @@ case 0:
             var13 = var1.collapsed;
             var14 = var1.voiceStates;
             var3 = var1.subtitle;
+            var20 = var1.embeddedActivitiesCount;
             var4 = undefined;
             var _closure2_slot1 = var4;
             var2 = _closure1_slot0;
@@ -258,7 +259,7 @@ case 0:
             };
             var1 = var15.bind(var16)(var12, var1, var6);
             var16 = var1.hasUnread;
-            var20 = var1.mentionCount;
+            var21 = var1.mentionCount;
             var15 = var1.resolvedUnreadSetting;
             var1 = 22;
             var1 = var5[var1];
@@ -291,29 +292,30 @@ case 17:
             if(!var3) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
             var6 = _closure1_slot1;
-            var21 = _closure1_slot2;
+            var23 = _closure1_slot2;
             var3 = 23;
-            var3 = var21[var3];
-            var23 = var6.bind(var4)(var3);
-            var21 = var23.parseVoiceChannelStatus;
+            var3 = var23[var3];
+            var24 = var6.bind(var4)(var3);
+            var23 = var24.parseVoiceChannelStatus;
             var6 = {};
             var3 = var11.id;
             var6['channelId'] = var3;
             var3 = 'text-xs/medium';
             var6['linkVariant'] = var3;
             var3 = true;
-            var12 = var21.bind(var23)(var1, var3, var6);
+            var12 = var23.bind(var24)(var1, var3, var6);
 case 20:
             var6 = _closure1_slot1;
-            var21 = _closure1_slot2;
+            var23 = _closure1_slot2;
             var3 = 24;
-            var3 = var21[var3];
+            var3 = var23[var3];
             var6 = var6.bind(var4)(var3);
             var3 = {};
             var3['channel'] = var11;
             var3['unread'] = var16;
-            var3['mentionCount'] = var20;
+            var3['mentionCount'] = var21;
             var3['voiceStates'] = var14;
+            var3['embeddedActivitiesCount'] = var20;
             var20 = var6.bind(var4)(var3);
             var21 = _closure1_slot4;
             var6 = var21.useEffect;
@@ -525,9 +527,13 @@ case 0:
             var2 = 32;
             var2 = var6[var2];
             var4 = undefined;
-            var3 = var3.bind(var4)(var2);
+            var7 = var3.bind(var4)(var2);
             var2 = var9.guild_id;
-            var11 = var3.bind(var4)(var2);
+            var12 = var7.bind(var4)(var2);
+            var2 = 33;
+            var2 = var6[var2];
+            var2 = var3.bind(var4)(var2);
+            var14 = var2.bind(var4)(var9);
             var3 = _closure1_slot0;
             var2 = 21;
             var2 = var6[var2];
@@ -562,19 +568,32 @@ case 0:
             var1 = var3.bind(var6)(var2, var1);
             var7 = var1.locked;
             var6 = var1.bypassLimit;
-            var12 = var1.collapsed;
+            var13 = var1.collapsed;
             var3 = _closure1_slot13;
             var2 = _closure1_slot15;
             var1 = {};
             var1['channel'] = var9;
-            var1['collapsed'] = var12;
-            var9 = var9.id;
-            var9 = var11[var9];
             var11 = null;
-            if(!(var11 == var9)) { _fun0004_ip = 37; continue _fun0004 }
+            var16 = var11 == var14;
+            var15 = undefined;
+            if(var16) { _fun0004_ip = 37; continue _fun0004 }
 case 38:
-            var9 = _closure1_slot10;
+            var15 = var14.length;
 case 37:
+            var16 = var11 != var15;
+            var14 = 0;
+            if(!var16) { _fun0004_ip = 14; continue _fun0004 }
+case 39:
+            var14 = var15;
+case 14:
+            var1['embeddedActivitiesCount'] = var14;
+            var1['collapsed'] = var13;
+            var9 = var9.id;
+            var9 = var12[var9];
+            if(!(var11 == var9)) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
+            var9 = _closure1_slot10;
+case 40:
             var1['voiceStates'] = var9;
             var1['selected'] = var8;
             var1['locked'] = var7;
@@ -585,7 +604,7 @@ case 37:
         }
     };
     var5 = var6.bind(var9)(var5);
-    var6 = 33;
+    var6 = 34;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

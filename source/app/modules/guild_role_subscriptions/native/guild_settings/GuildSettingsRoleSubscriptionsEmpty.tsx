@@ -122,7 +122,7 @@ case 10:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot7 = var4;
-    var4 = 12;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -134,16 +134,16 @@ case 0:
             var2 = arg1;
             var2 = var2.guildId;
             var _closure2_slot0 = var2;
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
             var3 = 9;
-            var3 = var4[var3];
+            var3 = var5[var3];
             var5 = undefined;
-            var7 = var6.bind(var5)(var3);
-            var6 = var7.useStateFromStores;
-            var8 = _closure1_slot3;
+            var6 = var4.bind(var5)(var3);
+            var4 = var6.useStateFromStores;
+            var7 = _closure1_slot3;
             var3 = new Array(1);
-            var3[0] = var8;
+            var3[0] = var7;
             var1 = function() {
                 var3 = _closure1_slot3;
                 var2 = var3.getGuild;
@@ -151,37 +151,17 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var8 = var6.bind(var7)(var3, var1);
-            var3 = _closure1_slot1;
-            var1 = 10;
-            var1 = var4[var1];
-            var1 = var3.bind(var5)(var1);
-            var7 = var1.bind(var5)(var8);
+            var6 = var4.bind(var6)(var3, var1);
             var1 = null;
-            if(!(var1 != var8)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-            if(!(var1 == var7)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!(var1 != var6)) { _fun0002_ip = 3; continue _fun0002 }
+case 11:
             var4 = _closure1_slot7;
             var3 = _closure1_slot8;
             var1 = {};
-            var1['guild'] = var8;
+            var1['guild'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 15; continue _fun0002;
-case 13:
-            var6 = _closure1_slot7;
-            var4 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var3 = 11;
-            var3 = var9[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = {};
-            var3['guild'] = var8;
-            var3['config'] = var7;
-            var1 = var6.bind(var5)(var4, var3);
-case 15:
-            _fun0002_ip = 16; continue _fun0002;
-case 11:
+            _fun0002_ip = 12; continue _fun0002;
+case 3:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -190,7 +170,7 @@ case 11:
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
-case 16:
+case 12:
             return var1;
         }
     };

@@ -659,7 +659,7 @@ case 60:
         return var1;
     };
     var _closure1_slot22 = var4;
-    var7 = 16;
+    var7 = 15;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -670,114 +670,6 @@ case 60:
     var3['trackUserProfileAction'] = var4;
     var4 = function(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-            var14 = arg1;
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 15;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.isUserProfilePerformanceAnalyticsEnabled;
-            var2 = {};
-            var5 = 'UserProfileAnalyticsUtils';
-            var2['location'] = var5;
-            var2 = var3.bind(var4)(var2);
-            if(!var2) { _fun0007_ip = 95; continue _fun0007 }
-case 96:
-            var21 = var14.guildId;
-            var17 = var14.channelId;
-            var13 = var14.analyticsLocations;
-            var12 = var14.profileUi;
-            var11 = var14.viewStartedAt;
-            var10 = var14.fetchStartedAt;
-            var9 = var14.timeToInteractiveMs;
-            var8 = var14.timeToLoadMs;
-            var7 = var14.timeToFetchMs;
-            var3 = null;
-            var5 = var3 != var9;
-            var4 = 0;
-            var2 = 0;
-            if(!var5) { _fun0007_ip = 97; continue _fun0007 }
-case 63:
-            var2 = var9;
-case 97:
-            var2 = var2 <= var4;
-            if(var2) { _fun0007_ip = 98; continue _fun0007 }
-case 99:
-            var15 = var3 != var8;
-            var5 = 0;
-            if(!var15) { _fun0007_ip = 100; continue _fun0007 }
-case 101:
-            var5 = var8;
-case 100:
-            var2 = var5 <= var4;
-case 98:
-            if(var2) { _fun0007_ip = 102; continue _fun0007 }
-case 89:
-            var5 = var3 != var7;
-            var3 = 0;
-            if(!var5) { _fun0007_ip = 103; continue _fun0007 }
-case 104:
-            var3 = var7;
-case 103:
-            var2 = var3 <= var4;
-case 102:
-            if(var2) { _fun0007_ip = 95; continue _fun0007 }
-case 105:
-            var3 = _closure1_slot1;
-            var18 = _closure1_slot2;
-            var2 = 13;
-            var2 = var18[var2];
-            var5 = var3.bind(var1)(var2);
-            var4 = var5.track;
-            var2 = _closure1_slot14;
-            var3 = var2.USER_PROFILE_UI_VIEWED;
-            var2 = {};
-            var16 = _closure1_slot0;
-            var15 = 14;
-            var19 = var18[var15];
-            var20 = var16.bind(var1)(var19);
-            var19 = var20.collectGuildAnalyticsMetadata;
-            var22 = var19.bind(var20)(var21);
-            var23 = var2;
-            var19 = copyDataProperties(var23, var22);
-            var15 = var18[var15];
-            var16 = var16.bind(var1)(var15);
-            var15 = var16.collectChannelAnalyticsMetadataFromId;
-            var22 = var15.bind(var16)(var17);
-            var23 = var2;
-            var15 = copyDataProperties(var23, var22);
-            var15 = _closure1_slot19;
-            var22 = var15.bind(var1)(var14);
-            var23 = var2;
-            var15 = copyDataProperties(var23, var22);
-            var6 = _closure1_slot20;
-            var22 = var6.bind(var1)(var14);
-            var23 = var2;
-            var6 = copyDataProperties(var23, var22);
-            var6 = 'location_stack';
-            var2[var6] = var13;
-            var6 = 'profile_ui';
-            var2[var6] = var12;
-            var6 = 'view_started_at';
-            var2[var6] = var11;
-            var6 = 'fetch_started_at';
-            var2[var6] = var10;
-            var6 = 'time_to_interactive_ms';
-            var2[var6] = var9;
-            var6 = 'time_to_load_ms';
-            var2[var6] = var8;
-            var6 = 'time_to_fetch_ms';
-            var2[var6] = var7;
-            var2 = var4.bind(var5)(var3, var2);
-case 95:
-            return var1;
-        }
-    };
-    var3['maybeTrackUserProfileUiViewed'] = var4;
-    var4 = function(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var15 = arg1;
             var21 = var15.guildId;
@@ -826,11 +718,11 @@ case 0:
             var12 = null;
             var14 = var12 != var7;
             var12 = 'VOICE';
-            if(var14) { _fun0008_ip = 106; continue _fun0008 }
-case 107:
+            if(var14) { _fun0007_ip = 95; continue _fun0007 }
+case 96:
             var6 = _closure1_slot18;
             var12 = var6.bind(var1)(var13);
-case 106:
+case 95:
             var6 = 'activity_type';
             var2[var6] = var12;
             var6 = 'activity_name';
@@ -849,7 +741,7 @@ case 106:
     };
     var3['trackUserProfileActivityJoined'] = var4;
     var4 = function(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var17 = arg1;
             var23 = var17.guildId;
@@ -902,74 +794,74 @@ case 0:
             var2[var8] = var13;
             var13 = _closure1_slot18;
             var8 = null;
-            if(!(var8 == var12)) { _fun0009_ip = 108; continue _fun0009 }
-case 19:
+            if(!(var8 == var12)) { _fun0008_ip = 97; continue _fun0008 }
+case 98:
             var15 = var8 == var11;
             var12 = undefined;
-            if(var15) { _fun0009_ip = 20; continue _fun0009 }
-case 109:
+            if(var15) { _fun0008_ip = 99; continue _fun0008 }
+case 100:
             var12 = var11.type;
-case 20:
-            _fun0009_ip = 70; continue _fun0009;
-case 108:
+case 99:
+            _fun0008_ip = 101; continue _fun0008;
+case 97:
             var14 = _closure1_slot13;
             var12 = var14.STREAMING;
-case 70:
+case 101:
             var13 = var13.bind(var1)(var12);
             var12 = 'activity_type';
             var2[var12] = var13;
             var12 = var8 == var11;
             var13 = undefined;
-            if(var12) { _fun0009_ip = 110; continue _fun0009 }
-case 111:
+            if(var12) { _fun0008_ip = 102; continue _fun0008 }
+case 103:
             var13 = var11.name;
-case 110:
+case 102:
             var12 = 'activity_name';
             var2[var12] = var13;
             var12 = var8 == var11;
             var13 = undefined;
-            if(var12) { _fun0009_ip = 112; continue _fun0009 }
-case 113:
+            if(var12) { _fun0008_ip = 104; continue _fun0008 }
+case 105:
             var13 = var11.platform;
-case 112:
+case 104:
             var12 = 'activity_platform';
             var2[var12] = var13;
             var12 = var8 == var11;
             var13 = undefined;
-            if(var12) { _fun0009_ip = 114; continue _fun0009 }
-case 115:
+            if(var12) { _fun0008_ip = 106; continue _fun0008 }
+case 107:
             var13 = var11.session_id;
-case 114:
+case 106:
             var12 = 'activity_session_id';
             var2[var12] = var13;
             var13 = var8 == var11;
             var12 = undefined;
-            if(var13) { _fun0009_ip = 116; continue _fun0009 }
-case 117:
+            if(var13) { _fun0008_ip = 108; continue _fun0008 }
+case 109:
             var12 = var11.application_id;
-case 116:
+case 108:
             var11 = 'activity_application_id';
             var2[var11] = var12;
             var11 = var8 == var10;
             var12 = undefined;
-            if(var11) { _fun0009_ip = 118; continue _fun0009 }
-case 119:
+            if(var11) { _fun0008_ip = 110; continue _fun0008 }
+case 111:
             var12 = var10.id;
-case 118:
+case 110:
             var11 = 'item_id';
             var2[var11] = var12;
             var12 = var8 == var10;
             var11 = undefined;
-            if(var12) { _fun0009_ip = 120; continue _fun0009 }
-case 121:
+            if(var12) { _fun0008_ip = 32; continue _fun0008 }
+case 112:
             var11 = var10.author_id;
-case 120:
+case 32:
             var10 = 'author_id_v2';
             var2[var10] = var11;
             var10 = var8 == var9;
             var11 = undefined;
-            if(var10) { _fun0009_ip = 122; continue _fun0009 }
-case 123:
+            if(var10) { _fun0008_ip = 113; continue _fun0008 }
+case 114:
             var13 = var9.entries;
             var12 = var13.map;
             var10 = function(arg1) {
@@ -978,13 +870,13 @@ case 123:
                 return var1;
             };
             var11 = var12.bind(var13)(var10);
-case 122:
+case 113:
             var10 = 'item_ids';
             var2[var10] = var11;
             var10 = var8 == var9;
             var8 = undefined;
-            if(var10) { _fun0009_ip = 124; continue _fun0009 }
-case 125:
+            if(var10) { _fun0008_ip = 81; continue _fun0008 }
+case 115:
             var10 = var9.entries;
             var9 = var10.map;
             var6 = function(arg1) {
@@ -993,7 +885,7 @@ case 125:
                 return var1;
             };
             var8 = var9.bind(var10)(var6);
-case 124:
+case 81:
             var6 = 'author_ids_v2';
             var2[var6] = var8;
             var6 = 'voice_channel_id';
@@ -1096,7 +988,7 @@ case 124:
     };
     var3['trackUserProfileBadgeHovered'] = var4;
     var4 = function(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
             var8 = var1.displayProfile;
@@ -1106,19 +998,19 @@ case 0:
             var7 = null;
             var3 = var7 == var8;
             var6 = undefined;
-            if(var3) { _fun0010_ip = 126; continue _fun0010 }
-case 127:
+            if(var3) { _fun0009_ip = 116; continue _fun0009 }
+case 117:
             var6 = var8.userId;
-case 126:
+case 116:
             _closure2_slot0 = var6;
             var3 = var7 != var6;
             var13 = null;
-            if(!var3) { _fun0010_ip = 55; continue _fun0010 }
-case 128:
+            if(!var3) { _fun0009_ip = 55; continue _fun0009 }
+case 118:
             var4 = _closure1_slot8;
             var3 = var4.findActivity;
             var2 = function(arg1) {
-                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var1 = arg1;
                     var3 = var1.type;
@@ -1127,17 +1019,17 @@ case 0:
                     var1 = _closure2_slot0;
                     var4 = var4.bind(var5)(var1);
                     var1 = null;
-                    if(!(var1 == var4)) { _fun0011_ip = 96; continue _fun0011 }
-case 129:
+                    if(!(var1 == var4)) { _fun0010_ip = 119; continue _fun0010 }
+case 120:
                     var1 = _closure1_slot13;
                     var1 = var1.CUSTOM_STATUS;
                     var1 = var3 !== var1;
-                    _fun0011_ip = 130; continue _fun0011;
-case 96:
+                    _fun0010_ip = 121; continue _fun0010;
+case 119:
                     var2 = _closure1_slot13;
                     var2 = var2.PLAYING;
                     var1 = var3 === var2;
-case 130:
+case 121:
                     return var1;
                 }
             };
@@ -1157,30 +1049,30 @@ case 55:
             var11 = var10.Boolean;
             var12 = var7 == var13;
             var10 = undefined;
-            if(var12) { _fun0010_ip = 69; continue _fun0010 }
-case 131:
+            if(var12) { _fun0009_ip = 69; continue _fun0009 }
+case 122:
             var12 = var13.assets;
             var14 = var7 == var12;
             var10 = undefined;
-            if(var14) { _fun0010_ip = 69; continue _fun0010 }
-case 132:
+            if(var14) { _fun0009_ip = 69; continue _fun0009 }
+case 123:
             var10 = var12.large_image;
 case 69:
-            if(!(var7 == var10)) { _fun0010_ip = 133; continue _fun0010 }
+            if(!(var7 == var10)) { _fun0009_ip = 124; continue _fun0009 }
 case 92:
             var14 = var7 == var13;
             var12 = undefined;
-            if(var14) { _fun0010_ip = 134; continue _fun0010 }
-case 135:
+            if(var14) { _fun0009_ip = 125; continue _fun0009 }
+case 126:
             var13 = var13.assets;
             var14 = var7 == var13;
             var12 = undefined;
-            if(var14) { _fun0010_ip = 134; continue _fun0010 }
-case 136:
+            if(var14) { _fun0009_ip = 125; continue _fun0009 }
+case 127:
             var12 = var13.small_image;
-case 134:
+case 125:
             var10 = var12;
-case 133:
+case 124:
             var10 = var11.bind(var1)(var10);
             var2['has_images'] = var10;
             var10 = _closure1_slot9;
@@ -1190,26 +1082,26 @@ case 133:
             var2['viewed_profile_user_id'] = var6;
             var9 = var7 == var8;
             var6 = undefined;
-            if(var9) { _fun0010_ip = 137; continue _fun0010 }
-case 138:
+            if(var9) { _fun0009_ip = 97; continue _fun0009 }
+case 128:
             var9 = var8.hasPremiumCustomization;
             var6 = var9.bind(var8)();
-case 137:
+case 97:
             var2['profile_has_nitro_customization'] = var6;
             var9 = var7 == var8;
             var6 = undefined;
-            if(var9) { _fun0010_ip = 139; continue _fun0010 }
-case 140:
+            if(var9) { _fun0009_ip = 129; continue _fun0009 }
+case 130:
             var9 = var8.hasThemeColors;
             var6 = var9.bind(var8)();
-case 139:
+case 129:
             var2['profile_has_theme_color_customized'] = var6;
             var9 = var7 == var8;
             var6 = undefined;
-            if(var9) { _fun0010_ip = 141; continue _fun0010 }
-case 142:
+            if(var9) { _fun0009_ip = 131; continue _fun0009 }
+case 132:
             var6 = var8.popoutAnimationParticleType;
-case 141:
+case 131:
             var6 = var7 != var6;
             var2['profile_has_theme_animation'] = var6;
             var2 = var4.bind(var5)(var3, var2);
@@ -1350,7 +1242,7 @@ case 141:
     };
     var3['trackUserProfileEditSaved'] = var4;
     var2 = function(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var12 = arg1;
             var19 = var12.guildId;
@@ -1405,11 +1297,11 @@ case 0:
             var6 = 'sku_id';
             var2[var6] = var7;
             var6 = null;
-            if(!(var6 == var9)) { _fun0012_ip = 143; continue _fun0012 }
-case 144:
+            if(!(var6 == var9)) { _fun0011_ip = 98; continue _fun0011 }
+case 133:
             var7 = new Array(0);
-            _fun0012_ip = 14; continue _fun0012;
-case 143:
+            _fun0011_ip = 14; continue _fun0011;
+case 98:
             var6 = global;
             var8 = var6.Array;
             var6 = var8.from;

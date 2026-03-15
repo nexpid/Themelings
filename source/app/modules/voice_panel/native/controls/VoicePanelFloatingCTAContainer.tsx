@@ -1,12 +1,12 @@
 // app/modules/voice_panel/native/controls/VoicePanelFloatingCTAContainer.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
-    var15 = metroImportDefault;
+    var6 = require;
+    var14 = metroImportDefault;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var15;
-    var _closure1_slot2 = var8;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var14;
+    var _closure1_slot2 = var7;
     var1 = function FloatingCTA(arg1) {
         var3 = arg1;
         var9 = var3.trailing;
@@ -21,14 +21,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot9;
         var6 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var1 = var11[var1];
         var3 = undefined;
         var1 = var6.bind(var3)(var1);
         var2 = var1.Stack;
         var1 = {};
         var7 = _closure1_slot9;
-        var5 = 11;
+        var5 = 10;
         var5 = var11[var5];
         var5 = var6.bind(var3)(var5);
         var6 = var5.RowButton;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot14 = var1;
-    var5 = function VoicePanelFloatingCTAContainer(arg1) {
+    var4 = function VoicePanelFloatingCTAContainer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -69,7 +69,7 @@ case 0:
             var3 = var7.useContext;
             var2 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var3.bind(var7)(var1);
@@ -79,12 +79,12 @@ case 0:
             var _closure2_slot7 = var11;
             var23 = var1.safeArea;
             var _closure2_slot8 = var23;
-            var1 = 14;
+            var1 = 13;
             var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var10 = var1.bind(var4)(var11);
             var20 = _closure1_slot0;
-            var1 = 15;
+            var1 = 14;
             var1 = var13[var1];
             var3 = var20.bind(var4)(var1);
             var1 = var3.useGetDismissibleContent;
@@ -95,7 +95,7 @@ case 0:
             var1 = 0;
             var1 = var3[var1];
             var _closure2_slot9 = var1;
-            var3 = 16;
+            var3 = 15;
             var3 = var13[var3];
             var12 = var20.bind(var4)(var3);
             var8 = var12.useStateFromStores;
@@ -119,7 +119,7 @@ case 0:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 17;
+                var1 = 16;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -134,12 +134,12 @@ case 0:
             };
             var7 = var7.bind(var12)(var1, var3);
             var _closure2_slot11 = var7;
-            var1 = 17;
+            var1 = 16;
             var1 = var13[var1];
             var3 = var20.bind(var4)(var1);
             var1 = var3.useFloatingCTAProps;
             var12 = var1.bind(var3)(var8);
-            var19 = 18;
+            var19 = 17;
             var1 = var13[var19];
             var8 = var20.bind(var4)(var1);
             var3 = var8.useAnimatedStyle;
@@ -148,7 +148,7 @@ case 0:
 case 0:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var1[var2];
                     var7 = undefined;
                     var10 = var3.bind(var7)(var2);
@@ -166,7 +166,7 @@ case 0:
                     var2 = var2.right;
                     var5 = var9.bind(var10)(var6, var5, var2);
                     var2 = _closure2_slot3;
-                    var14 = 20;
+                    var14 = 19;
                     var1 = var1[var14];
                     var1 = var3.bind(var7)(var1);
                     var1 = var1.TransitionStates;
@@ -187,7 +187,7 @@ case 2:
                     var1['width'] = var5;
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var2 = 21;
+                    var2 = 20;
                     var2 = var10[var2];
                     var3 = var3.bind(var7)(var2);
                     var2 = 2;
@@ -197,7 +197,7 @@ case 2:
                     var2 = var2 * var3;
                     var1['marginLeft'] = var2;
                     var6 = _closure1_slot0;
-                    var5 = 22;
+                    var5 = 21;
                     var2 = var10[var5];
                     var12 = var6.bind(var7)(var2);
                     var11 = var12.withSpring;
@@ -211,7 +211,7 @@ case 5:
                             var3 = _closure2_slot3;
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var2 = 20;
+                            var2 = 19;
                             var4 = var4[var2];
                             var2 = undefined;
                             var2 = var5.bind(var2)(var4);
@@ -223,7 +223,7 @@ case 4:
 case 7:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 18;
+                            var1 = 17;
                             var1 = var2[var1];
                             var2 = undefined;
                             var4 = var3.bind(var2)(var1);
@@ -243,7 +243,7 @@ case 6:
                     var14 = var6.bind(var7)(var14);
                     var14 = var14.TransitionStates;
                     var2['TransitionStates'] = var14;
-                    var14 = 18;
+                    var14 = 17;
                     var14 = var10[var14];
                     var14 = var6.bind(var7)(var14);
                     var14 = var14.runOnJS;
@@ -321,7 +321,7 @@ case 12:
                 }
             };
             var14 = {};
-            var25 = 19;
+            var25 = 18;
             var25 = var13[var25];
             var25 = var20.bind(var4)(var25);
             var25 = var25.getControlsDefaultWidth;
@@ -329,17 +329,17 @@ case 12:
             var14['windowDimensions'] = var24;
             var14['safeArea'] = var23;
             var14['state'] = var22;
-            var22 = 20;
+            var22 = 19;
             var22 = var13[var22];
             var22 = var20.bind(var4)(var22);
             var22 = var22.TransitionStates;
             var14['TransitionStates'] = var22;
             var14['controlsSpecs'] = var21;
-            var21 = 21;
+            var21 = 20;
             var21 = var13[var21];
             var21 = var2.bind(var4)(var21);
             var14['roundToNearestPixel'] = var21;
-            var21 = 22;
+            var21 = 21;
             var21 = var13[var21];
             var21 = var20.bind(var4)(var21);
             var21 = var21.withSpring;
@@ -365,7 +365,7 @@ case 12:
             var1['__initData'] = var14;
             var8 = var3.bind(var8)(var1);
             var3 = _closure1_slot9;
-            var1 = 23;
+            var1 = 22;
             var1 = var13[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -382,7 +382,7 @@ case 16:
             var8 = _closure1_slot9;
             var7 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var5 = 25;
+            var5 = 24;
             var5 = var13[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
@@ -403,7 +403,7 @@ case 13:
             var8 = _closure1_slot9;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var6 = 24;
+            var6 = 23;
             var6 = var11[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -427,98 +427,121 @@ case 18:
             return var1;
         }
     };
-    var _closure1_slot15 = var5;
+    var _closure1_slot15 = var4;
     var1 = global;
-    var9 = var1.Object;
-    var6 = var9.defineProperty;
-    var4 = {};
-    var10 = true;
-    var4['value'] = var10;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var5 = {};
+    var9 = true;
+    var5['value'] = var9;
     var1 = '__esModule';
-    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = var8.bind(var10)(var3, var1, var5);
     var1 = 0;
-    var4 = var8[var1];
+    var5 = var7[var1];
     var1 = undefined;
-    var4 = var15.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var6 = var8[var4];
-    var4 = metroImportAll;
-    var4 = var4.bind(var1)(var6);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var6 = var4.TABLE_ROW_HEIGHT;
-    var4 = 3;
-    var4 = var8[var4];
-    var4 = var15.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 4;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var17 = var4.MODE_CHANGE_PHYSICS;
-    var4 = var4.UI_SHOW_HIDE_PHYSICS;
-    var _closure1_slot6 = var4;
-    var4 = 5;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.CALL_TILE_GUTTER;
-    var _closure1_slot7 = var4;
-    var4 = 6;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.ThemeTypes;
-    var _closure1_slot8 = var4;
-    var4 = 7;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot9 = var4;
-    var4 = 16;
-    var4 = var6 + var4;
-    var6 = 8;
-    var6 = var8[var6];
-    var12 = var7.bind(var1)(var6);
-    var11 = var12.createStyles;
-    var6 = {};
-    var13 = {'zIndex': 1, 'position': 'absolute', 'bottom': 0, 'left': '50%', 'overflow': 'hidden', 'alignItems': 'center'};
-    var14 = 9;
-    var14 = var8[var14];
-    var14 = var15.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.lg;
-    var13['borderRadius'] = var14;
-    var6['container'] = var13;
-    var6 = var11.bind(var12)(var6);
-    var _closure1_slot10 = var6;
-    var6 = {};
-    var18 = var6;
-    var9 = copyDataProperties(var18, var17);
-    var9 = 'overshootClamping';
-    var6[var9] = var10;
-    var _closure1_slot11 = var6;
-    var6 = {};
-    var9 = "function VoicePanelFloatingCTAContainerTsx1(){const{getControlsDefaultWidth,windowDimensions,safeArea,state,TransitionStates,controlsSpecs,roundToNearestPixel,withSpring,OPACITY_CHANGE_PHYSICS,runOnJS,cleanUp,wrapperSpecs,UI_SHOW_HIDE_PHYSICS,gestureState,CALL_TILE_GUTTER,accessoryHeights}=this.__closure;const width=getControlsDefaultWidth(windowDimensions.get().width,safeArea.get().left,safeArea.get().right);const opacity=state===TransitionStates.YEETED?0:1;return{bottom:controlsSpecs.get().height+16,width:width,marginLeft:roundToNearestPixel(width/2)*-1,opacity:withSpring(opacity,OPACITY_CHANGE_PHYSICS,'respect-motion-settings',function(finished){if(finished&&state===TransitionStates.YEETED){runOnJS(cleanUp)();}}),transform:[{translateX:withSpring(wrapperSpecs.get().x,UI_SHOW_HIDE_PHYSICS)},{translateY:withSpring(wrapperSpecs.get().hidden||gestureState.get().active&&!gestureState.get().requiresPop?wrapperSpecs.get().height+CALL_TILE_GUTTER+accessoryHeights.get():wrapperSpecs.get().y,UI_SHOW_HIDE_PHYSICS)}]};}";
-    var6['code'] = var9;
-    var _closure1_slot12 = var6;
-    var6 = {};
-    var9 = 'function VoicePanelFloatingCTAContainerTsx2(finished){const{state,TransitionStates,runOnJS,cleanUp}=this.__closure;if(finished&&state===TransitionStates.YEETED){runOnJS(cleanUp)();}}';
-    var6['code'] = var9;
-    var _closure1_slot13 = var6;
-    var6 = 26;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/voice_panel/native/controls/VoicePanelFloatingCTAContainer.tsx';
-    var6 = var7.bind(var8)(var6);
-    var3['default'] = var5;
-    var3['FLOATING_CTA_TOTAL_VIEW_HEIGHT'] = var4;
+    var5 = var14.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var8 = var7[var5];
+    var5 = metroImportAll;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var14.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var16 = var5.MODE_CHANGE_PHYSICS;
+    var5 = var5.UI_SHOW_HIDE_PHYSICS;
+    var _closure1_slot6 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.CALL_TILE_GUTTER;
+    var _closure1_slot7 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.ThemeTypes;
+    var _closure1_slot8 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.jsx;
+    var _closure1_slot9 = var5;
+    var5 = 8;
+    var5 = var7[var5];
+    var11 = var6.bind(var1)(var5);
+    var10 = var11.createStyles;
+    var5 = {};
+    var12 = {'zIndex': 1, 'position': 'absolute', 'bottom': 0, 'left': '50%', 'overflow': 'hidden', 'alignItems': 'center'};
+    var13 = 7;
+    var13 = var7[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.lg;
+    var12['borderRadius'] = var13;
+    var5['container'] = var12;
+    var5 = var10.bind(var11)(var5);
+    var _closure1_slot10 = var5;
+    var5 = {};
+    var17 = var5;
+    var8 = copyDataProperties(var17, var16);
+    var8 = 'overshootClamping';
+    var5[var8] = var9;
+    var _closure1_slot11 = var5;
+    var5 = {};
+    var8 = "function VoicePanelFloatingCTAContainerTsx1(){const{getControlsDefaultWidth,windowDimensions,safeArea,state,TransitionStates,controlsSpecs,roundToNearestPixel,withSpring,OPACITY_CHANGE_PHYSICS,runOnJS,cleanUp,wrapperSpecs,UI_SHOW_HIDE_PHYSICS,gestureState,CALL_TILE_GUTTER,accessoryHeights}=this.__closure;const width=getControlsDefaultWidth(windowDimensions.get().width,safeArea.get().left,safeArea.get().right);const opacity=state===TransitionStates.YEETED?0:1;return{bottom:controlsSpecs.get().height+16,width:width,marginLeft:roundToNearestPixel(width/2)*-1,opacity:withSpring(opacity,OPACITY_CHANGE_PHYSICS,'respect-motion-settings',function(finished){if(finished&&state===TransitionStates.YEETED){runOnJS(cleanUp)();}}),transform:[{translateX:withSpring(wrapperSpecs.get().x,UI_SHOW_HIDE_PHYSICS)},{translateY:withSpring(wrapperSpecs.get().hidden||gestureState.get().active&&!gestureState.get().requiresPop?wrapperSpecs.get().height+CALL_TILE_GUTTER+accessoryHeights.get():wrapperSpecs.get().y,UI_SHOW_HIDE_PHYSICS)}]};}";
+    var5['code'] = var8;
+    var _closure1_slot12 = var5;
+    var5 = {};
+    var8 = 'function VoicePanelFloatingCTAContainerTsx2(finished){const{state,TransitionStates,runOnJS,cleanUp}=this.__closure;if(finished&&state===TransitionStates.YEETED){runOnJS(cleanUp)();}}';
+    var5['code'] = var8;
+    var _closure1_slot13 = var5;
+    var5 = 25;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/voice_panel/native/controls/VoicePanelFloatingCTAContainer.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var4 = function getFloatingCTATotalViewHeight(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var1 = arg1;
+            if(var1) { _fun0004_ip = 19; continue _fun0004 }
+case 5:
+            var4 = new Array(0);
+            _fun0004_ip = 20; continue _fun0004;
+case 19:
+            var4 = ['mobile-visual-refresh'];
+case 20:
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var3 = var1.TABLE_ROW_HEIGHT;
+            var2 = var3.resolve;
+            var1 = {};
+            var1['enabledExperiments'] = var4;
+            var2 = var2.bind(var3)(var1);
+            var1 = 16;
+            var1 = var2 + var1;
+            return var1;
+        }
+    };
+    var3['getFloatingCTATotalViewHeight'] = var4;
     var2 = function renderVoicePanelFloatingCTA(arg1, arg2, arg3, arg4) {
         var5 = _closure1_slot9;
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var2 = 12;
+        var2 = 11;
         var2 = var4[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);

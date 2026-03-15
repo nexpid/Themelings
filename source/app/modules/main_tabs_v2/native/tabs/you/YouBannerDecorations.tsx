@@ -110,8 +110,9 @@ case 4:
     var12 = 6;
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.lg;
+    var14 = var14.modules;
+    var14 = var14.button;
+    var14 = var14.BORDER_RADIUS;
     var11['borderRadius'] = var14;
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
@@ -119,7 +120,8 @@ case 4:
     var14 = var14.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
     var11['backgroundColor'] = var14;
     var5['button'] = var11;
-    var11 = {'minHeight': 32, 'minWidth': 72, 'paddingHorizontal': 8, 'overflow': 'hidden'};
+    var11 = {'minHeight': 32, 'minWidth': 72, 'width': null, 'paddingHorizontal': 8, 'overflow': 'hidden'};
+    var11['width'] = var1;
     var5['nitroButton'] = var11;
     var11 = {'height': '100%', 'alignItems': 'center', 'justifyContent': 'center'};
     var5['loading'] = var11;

@@ -124,8 +124,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['backgroundColor'] = var12;
     var12 = var6[var14];
     var12 = var15.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.round;
+    var12 = var12.modules;
+    var12 = var12.button;
+    var12 = var12.BORDER_RADIUS;
     var10['borderRadius'] = var12;
     var12 = var6[var14];
     var12 = var15.bind(var1)(var12);

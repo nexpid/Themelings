@@ -470,7 +470,6 @@ case 30:
     var5 = var6.bind(var1)(var5);
     var8 = var5.NativeModules;
     var _closure1_slot4 = var8;
-    var8 = var5.Platform;
     var5 = var5.AppState;
     var _closure1_slot5 = var5;
     var8 = 2;

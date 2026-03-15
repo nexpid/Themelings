@@ -25,22 +25,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_profile/useProfileThemeValues.native.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useProfileThemeValues(arg1) {
-        var6 = arg1;
-        var _closure2_slot0 = var6;
+        var7 = arg1;
+        var _closure2_slot0 = var7;
         var5 = _closure1_slot0;
-        var4 = _closure1_slot2;
+        var8 = _closure1_slot2;
         var3 = 2;
-        var3 = var4[var3];
+        var3 = var8[var3];
         var4 = undefined;
-        var8 = var5.bind(var4)(var3);
-        var7 = var8.useStateFromStores;
+        var9 = var5.bind(var4)(var3);
+        var6 = var9.useStateFromStores;
         var3 = _closure1_slot4;
         var5 = new Array(1);
         var5[0] = var3;
@@ -49,12 +49,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.saturation;
             return var1;
         };
-        var5 = var7.bind(var8)(var5, var3);
-        var _closure2_slot1 = var5;
+        var6 = var6.bind(var9)(var5, var3);
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot1;
+        var3 = 3;
+        var3 = var8[var3];
+        var5 = var5.bind(var4)(var3);
+        var3 = 'useProfileThemeValues';
+        var5 = var5.bind(var4)(var3);
+        var _closure2_slot2 = var5;
         var3 = _closure1_slot3;
-        var2 = new Array(2);
-        var2[0] = var6;
-        var2[1] = var5;
+        var2 = new Array(3);
+        var2[0] = var7;
+        var2[1] = var6;
+        var2[2] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -70,7 +78,7 @@ case 3:
                 var2 = {};
                 var13 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var10 = 3;
+                var10 = 4;
                 var8 = var5[var10];
                 var9 = undefined;
                 var8 = var13.bind(var9)(var8);
@@ -93,7 +101,7 @@ case 3:
                 var8 = var11.bind(var12)(var6, var8, var7);
                 var2['overlay'] = var8;
                 var8 = _closure1_slot0;
-                var11 = 4;
+                var11 = 5;
                 var5 = var5[var11];
                 var8 = var8.bind(var9)(var5);
                 var5 = var8.getThemes;
@@ -101,19 +109,28 @@ case 3:
                 var5 = var5.LIGHT;
                 if(!(var6 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var13 = _closure1_slot1;
+                var6 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var6 = var5[var10];
-                var6 = var13.bind(var9)(var6);
-                var12 = var6.internal;
+                var5 = var5[var10];
+                var5 = var6.bind(var9)(var5);
+                var12 = var5.internal;
                 var8 = var12.resolveSemanticColor;
                 var6 = _closure2_slot0;
-                var5 = var5[var10];
-                var5 = var13.bind(var9)(var5);
-                var5 = var5.colors;
-                var5 = var5.BACKGROUND_MOD_NORMAL;
+                var5 = _closure2_slot2;
+                var14 = _closure1_slot1;
+                var13 = _closure1_slot2;
+                var13 = var13[var10];
+                var13 = var14.bind(var9)(var13);
+                var13 = var13.colors;
+                if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                var5 = var13.BACKGROUND_MOD_NORMAL;
+                _fun0001_ip = 8; continue _fun0001;
+case 6:
+                var5 = var13.BACKGROUND_MOD_SUBTLE;
+case 8:
                 var5 = var8.bind(var12)(var6, var5, var7);
-                _fun0001_ip = 6; continue _fun0001;
+                _fun0001_ip = 9; continue _fun0001;
 case 4:
                 var8 = _closure1_slot1;
                 var6 = _closure1_slot2;
@@ -121,7 +138,7 @@ case 4:
                 var6 = var8.bind(var9)(var6);
                 var6 = var6.unsafe_rawColors;
                 var5 = var6.OPACITY_WHITE_24;
-case 6:
+case 9:
                 var2['sectionBox'] = var5;
                 var8 = _closure2_slot0;
                 var6 = _closure1_slot0;
@@ -132,10 +149,10 @@ case 6:
                 var5 = var5.bind(var6)();
                 var6 = var5.DARK;
                 var5 = 0.12;
-                if(!(var8 === var6)) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+                if(!(var8 === var6)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var5 = 0.24;
-case 7:
+case 10:
                 var2['dividerOpacity'] = var5;
                 var8 = _closure1_slot1;
                 var3 = _closure1_slot2;

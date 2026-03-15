@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOW;
+    var11 = var11.BORDER_SUBTLE;
     var8['borderBottomColor'] = var11;
     var11 = 'transparent';
     var8['shadowColor'] = var11;

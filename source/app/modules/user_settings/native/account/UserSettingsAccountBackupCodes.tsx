@@ -21,7 +21,7 @@ case 0:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 7;
+                var1 = 6;
                 var2 = var4[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -32,7 +32,7 @@ case 0:
                 var2 = '';
                 var2 = var8.bind(var9)(var7, var2);
                 var2 = var5.bind(var6)(var2);
-                var2 = 8;
+                var2 = 7;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.presentCopiedToClipboard;
@@ -40,10 +40,10 @@ case 0:
                 return var1;
             };
             var8 = var3.bind(var4)(var1, var2);
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot6;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -59,16 +59,16 @@ case 2:
             var5 = null;
             if(!var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 10;
+            var6 = 9;
             var6 = var11[var6];
             var6 = var7.bind(var3)(var6);
             var7 = var6.CheckmarkSmallIcon;
             var6 = {};
             var10 = _closure1_slot1;
-            var9 = 6;
+            var9 = 5;
             var9 = var11[var9];
             var9 = var10.bind(var3)(var9);
             var9 = var9.colors;
@@ -81,7 +81,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -108,22 +108,17 @@ case 4:
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.TABLE_ROW_PADDING;
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
-    var4 = 5;
+    var _closure1_slot7 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 6;
+    var10 = 5;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
@@ -131,7 +126,7 @@ case 4:
     var9['color'] = var10;
     var4['generateCode'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -149,7 +144,7 @@ case 0:
 case 7:
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var3 = var6[var1];
             var3 = var2.bind(var4)(var3);
             var5 = var3.intl;
@@ -162,10 +157,22 @@ case 7:
             var11 = var3.bind(var5)(var2, var1);
 case 6:
             var _closure2_slot0 = var4;
-            var1 = _closure1_slot9;
-            var20 = var1.bind(var4)();
             var6 = _closure1_slot0;
             var13 = _closure1_slot2;
+            var1 = 11;
+            var1 = var13[var1];
+            var3 = var6.bind(var4)(var1);
+            var2 = var3.useToken;
+            var12 = _closure1_slot1;
+            var9 = 5;
+            var1 = var13[var9];
+            var1 = var12.bind(var4)(var1);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var1 = var1.TABLE_ROW_PADDING;
+            var14 = var2.bind(var3)(var1);
+            var1 = _closure1_slot8;
+            var20 = var1.bind(var4)();
             var1 = 12;
             var1 = var13[var1];
             var5 = var6.bind(var4)(var1);
@@ -238,24 +245,21 @@ case 10:
             };
             var1 = new Array(0);
             var1 = var3.bind(var5)(var2, var1);
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot7;
             var5 = 14;
             var5 = var13[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.Stack;
             var5 = {};
-            var12 = _closure1_slot1;
-            var9 = 6;
             var8 = var13[var9];
             var8 = var12.bind(var4)(var8);
             var8 = var8.spacing;
             var8 = var8.PX_24;
             var5['spacing'] = var8;
             var8 = {};
-            var14 = _closure1_slot6;
             var8['paddingHorizontal'] = var14;
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
@@ -265,7 +269,7 @@ case 10:
             var5['style'] = var8;
             var9 = var11.map;
             var8 = function(arg1, arg2) {
-                var5 = _closure1_slot7;
+                var5 = _closure1_slot6;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 15;
@@ -290,7 +294,7 @@ case 10:
             var9 = var9 > var11;
             if(!var9) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var14 = _closure1_slot7;
+            var14 = _closure1_slot6;
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
             var12 = 16;
@@ -298,7 +302,7 @@ case 12:
             var12 = var23.bind(var4)(var12);
             var13 = var12.TableRowGroup;
             var12 = {};
-            var15 = 11;
+            var15 = 10;
             var19 = var24[var15];
             var19 = var23.bind(var4)(var19);
             var22 = var19.intl;
@@ -311,8 +315,8 @@ case 12:
             var12['title'] = var15;
             var19 = var21.map;
             var15 = function(arg1, arg2) {
-                var5 = _closure1_slot7;
-                var4 = _closure1_slot10;
+                var5 = _closure1_slot6;
+                var4 = _closure1_slot9;
                 var3 = {};
                 var1 = arg1;
                 var1 = var1.code;
@@ -333,7 +337,7 @@ case 11:
             var9 = var9 > var11;
             if(!var9) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var13 = _closure1_slot7;
+            var13 = _closure1_slot6;
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
             var11 = 16;
@@ -341,7 +345,7 @@ case 14:
             var11 = var21.bind(var4)(var11);
             var12 = var11.TableRowGroup;
             var11 = {};
-            var14 = 11;
+            var14 = 10;
             var15 = var22[var14];
             var15 = var21.bind(var4)(var15);
             var19 = var15.intl;
@@ -354,8 +358,8 @@ case 14:
             var11['title'] = var14;
             var15 = var18.map;
             var14 = function(arg1, arg2) {
-                var5 = _closure1_slot7;
-                var4 = _closure1_slot10;
+                var5 = _closure1_slot6;
+                var4 = _closure1_slot9;
                 var3 = {};
                 var1 = arg1;
                 var1 = var1.code;
@@ -376,7 +380,7 @@ case 13:
             var9 = var9 !== var10;
             if(!var9) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var12 = _closure1_slot7;
+            var12 = _closure1_slot6;
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
             var10 = 16;
@@ -384,13 +388,13 @@ case 16:
             var10 = var23.bind(var4)(var10);
             var11 = var10.TableRowGroup;
             var10 = {};
-            var15 = _closure1_slot7;
-            var13 = 9;
+            var15 = _closure1_slot6;
+            var13 = 8;
             var13 = var24[var13];
             var13 = var23.bind(var4)(var13);
             var14 = var13.TableRow;
             var13 = {};
-            var19 = _closure1_slot7;
+            var19 = _closure1_slot6;
             var17 = 15;
             var17 = var24[var17];
             var17 = var23.bind(var4)(var17);
@@ -400,7 +404,7 @@ case 16:
             var17['variant'] = var21;
             var20 = var20.generateCode;
             var17['style'] = var20;
-            var20 = 11;
+            var20 = 10;
             var21 = var24[var20];
             var21 = var23.bind(var4)(var21);
             var22 = var21.intl;

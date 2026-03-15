@@ -1,10 +1,10 @@
 // app/modules/main_tabs_v2/native/tabs/messages/items/MessagesItemHappeningNow.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var11 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
-    var _closure1_slot0 = var11;
+    var _closure1_slot0 = var13;
     var _closure1_slot1 = var7;
     var5 = global;
     var9 = var5.Object;
@@ -34,9 +34,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6.bind(var1)(var2);
     var2 = var2.jsx;
     var _closure1_slot3 = var2;
-    var2 = 4;
-    var2 = var7[var2];
-    var2 = var11.bind(var1)(var2);
+    var12 = 4;
+    var2 = var7[var12];
+    var2 = var13.bind(var1)(var2);
     var2 = var2.spacing;
     var2 = var2.PX_8;
     var2 = var10 + var2;
@@ -58,9 +58,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5[6] = var9;
     var9 = var10.prototype;
     var9 = Object.create(var9, {constructor: {value: var10}});
-    var16 = var9;
-    var15 = var5;
-    var5 = new var16[var10](var15, var14);
+    var18 = var9;
+    var17 = var5;
+    var5 = new var18[var10](var17, var16);
     var5 = var5 instanceof Object ? var5 : var9;
     var _closure1_slot4 = var5;
     var5 = 5;
@@ -70,6 +70,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = {};
     var11 = {};
     var11['height'] = var2;
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_8;
+    var11['paddingStart'] = var12;
     var12 = 'hidden';
     var11['overflow'] = var12;
     var5['container'] = var11;

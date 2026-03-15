@@ -417,7 +417,7 @@ case 20:
             var3['names'] = var8;
             var29 = var6.bind(var4)(var3);
             var18 = !var2;
-            if(!var18) { _fun0003_ip = 22; continue _fun0003 }
+            if(!var18) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -435,7 +435,7 @@ case 14:
             var2 = var3.includes;
             var2 = var2.bind(var3)(var12);
             var18 = !var2;
-case 22:
+case 13:
             _closure2_slot1 = var18;
             var32 = _closure1_slot0;
             var31 = _closure1_slot2;
@@ -457,25 +457,25 @@ case 22:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = _closure2_slot1;
-                    if(!var1) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+                    if(!var1) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                     var6 = _closure1_slot4;
                     var5 = var6.inDevModeForApplication;
                     var2 = _closure2_slot0;
                     var2 = var2.application;
                     var2 = var2.id;
                     var2 = var5.bind(var6)(var2);
-                    if(var2) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+                    if(var2) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                     var5 = _closure1_slot5;
                     var4 = var5.inTestModeForApplication;
                     var3 = _closure2_slot0;
                     var3 = var3.application;
                     var3 = var3.id;
                     var2 = var4.bind(var5)(var3);
-case 25:
+case 24:
                     var1 = var2;
-case 23:
+case 22:
                     return var1;
                 }
             };
@@ -533,10 +533,10 @@ case 23:
             var31 = var32.bind(var4)(var31);
             var31 = var31.ActivityAction;
             var31 = var31.START;
-            if(!(var12 === var31)) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var29 = var30;
+            if(!(var12 === var31)) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
+            var29 = var30;
+case 26:
             var20['imageBackground'] = var29;
             var25 = var28 / var25;
             var20['aspectRatio'] = var25;
@@ -560,8 +560,8 @@ case 27:
             var13 = new Array(3);
             var13[0] = var15;
             var15 = null;
-            if(!var18) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
+            if(!var18) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var20 = _closure1_slot7;
             var19 = _closure1_slot1;
             var23 = _closure1_slot2;
@@ -571,11 +571,11 @@ case 30:
             var18 = {};
             var18['labelType'] = var21;
             var15 = var20.bind(var4)(var19, var18);
-case 29:
+case 28:
             var13[1] = var15;
             var15 = null;
-            if(!var17) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+            if(!var17) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var18 = _closure1_slot7;
             var24 = _closure1_slot1;
             var25 = _closure1_slot2;
@@ -604,7 +604,7 @@ case 32:
             var19 = var21.bind(var4)(var20, var19);
             var16['children'] = var19;
             var15 = var18.bind(var4)(var17, var16);
-case 31:
+case 30:
             var13[2] = var15;
             var5['children'] = var13;
             var6 = var8.bind(var4)(var6, var5);
@@ -617,36 +617,36 @@ case 31:
             var6 = var6.ActivityAction;
             var6 = var6.START;
             var6 = var12 === var6;
-            if(!var6) { _fun0003_ip = 33; continue _fun0003 }
-case 34:
+            if(!var6) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var9 = _closure1_slot7;
             var8 = _closure1_slot12;
             var7 = {};
             var7['action'] = var12;
             var13 = var11 == var14;
             var12 = undefined;
-            if(var13) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
-            var12 = var14.id;
+            if(var13) { _fun0003_ip = 34; continue _fun0003 }
 case 35:
+            var12 = var14.id;
+case 34:
             var7['channelId'] = var12;
             var13 = var11 == var14;
             var12 = undefined;
-            if(var13) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
+            if(var13) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
             var13 = var14.getGuildId;
             var12 = var13.bind(var14)();
-case 37:
+case 36:
             var13 = var11 != var12;
             var11 = undefined;
-            if(!var13) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
-            var11 = var12;
+            if(!var13) { _fun0003_ip = 38; continue _fun0003 }
 case 39:
+            var11 = var12;
+case 38:
             var7['guildId'] = var11;
             var7['activityItem'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 33:
+case 32:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

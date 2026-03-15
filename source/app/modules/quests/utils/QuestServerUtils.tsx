@@ -1,11 +1,11 @@
 // app/modules/quests/utils/QuestServerUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
+    var9 = require;
     var3 = exports;
-    var9 = dependencyMap;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var9;
-    var6 = function questConfigFromServer(arg1) {
+    var10 = dependencyMap;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var10;
+    var7 = function questConfigFromServer(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 1;
@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.bind(var2)();
         return var1;
     };
-    var _closure1_slot3 = var6;
+    var _closure1_slot3 = var7;
     var1 = function progressFromServer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -92,7 +92,7 @@ case 2:
         }
     };
     var _closure1_slot4 = var1;
-    var5 = function questUserStatusFromServer(arg1) {
+    var6 = function questUserStatusFromServer(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -129,7 +129,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot5 = var5;
+    var _closure1_slot5 = var6;
     var1 = function getSimpleRewardFromServer(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -261,7 +261,7 @@ case 10:
         return var1;
     };
     var _closure1_slot7 = var1;
-    var4 = function questsRewardCodeFromServer(arg1) {
+    var5 = function questsRewardCodeFromServer(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -287,7 +287,7 @@ case 11:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot8 = var5;
     var1 = function _questsTenantMetadataFromServer(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -392,31 +392,112 @@ case 15:
         return var1;
     };
     var _closure1_slot12 = var1;
-    var1 = global;
-    var11 = var1.Object;
-    var10 = var11.defineProperty;
-    var7 = {};
-    var1 = true;
-    var7['value'] = var1;
-    var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var7);
-    var1 = 0;
-    var10 = var9[var1];
-    var7 = metroImportDefault;
-    var1 = undefined;
-    var7 = var7.bind(var1)(var10);
-    var _closure1_slot2 = var7;
-    var7 = 5;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'modules/quests/utils/QuestServerUtils.tsx';
-    var7 = var8.bind(var9)(var7);
-    var7 = function isQuestWithKnownConfigVersion(arg1) {
+    var4 = function questHomeHeroConfigFromServer(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
+            var2 = arg1;
+            var1 = {};
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var4 = 4;
+            var4 = var6[var4];
+            var6 = undefined;
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.QuestPlacementType;
+            var4 = var4.QUEST_HOME_BANNER;
+            var1['placementType'] = var4;
+            var4 = var2.campaign_id;
+            var1['campaignId'] = var4;
+            var4 = var2.label_title;
+            var1['labelTitle'] = var4;
+            var4 = var2.label_subtitle;
+            var1['labelSubtitle'] = var4;
+            var5 = _closure1_slot11;
+            var4 = var2.asset_hero_image;
+            var4 = var5.bind(var6)(var4);
+            var1['assetHeroImage'] = var4;
+            var4 = var2.asset_sponsor_image;
+            var4 = var5.bind(var6)(var4);
+            var1['assetSponsorImage'] = var4;
+            var5 = var2.cta_sponsor_url;
+            var4 = {};
+            var7 = var5.cta_type;
+            var4['ctaType'] = var7;
+            var7 = var5.title;
+            var4['title'] = var7;
+            var5 = var5.url;
+            var4['url'] = var5;
+            var1['ctaSponsorUrl'] = var4;
+            var7 = var2.cta_quests;
+            var5 = var7.map;
+            var4 = _closure1_slot12;
+            var4 = var5.bind(var7)(var4);
+            var1['ctaQuests'] = var4;
+            var4 = var2.starts_at;
+            var1['startsAt'] = var4;
+            var4 = var2.expires_at;
+            var1['expiresAt'] = var4;
+            var5 = var2.asset_hero_video;
+            var4 = null;
+            if(!(var4 != var5)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
+            var5 = _closure1_slot11;
+            var3 = var2.asset_hero_video;
+            var3 = var5.bind(var6)(var3);
+            var1['assetHeroVideo'] = var3;
+case 21:
+            var3 = var2.quest_home_entrypoint;
+            if(!(var4 != var3)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
+            var3 = var2.quest_home_entrypoint;
+            var2 = {};
+            var4 = var3.linear_gradient_start;
+            var2['linearGradientStart'] = var4;
+            var4 = var3.linear_gradient_end;
+            var2['linearGradientEnd'] = var4;
+            var4 = var3.radial_gradient_start;
+            var2['radialGradientStart'] = var4;
+            var4 = var3.radial_gradient_end;
+            var2['radialGradientEnd'] = var4;
+            var4 = var3.entrypoint_asset_image_url;
+            var2['entrypointAssetImageUrl'] = var4;
+            var4 = var3.tooltip_asset_image_url;
+            var2['tooltipAssetImageUrl'] = var4;
+            var4 = var3.tooltip_title;
+            var2['tooltipTitle'] = var4;
+            var3 = var3.tooltip_subtitle;
+            var2['tooltipSubtitle'] = var3;
+            var1['questHomeEntrypoint'] = var2;
+case 23:
+            return var1;
+        }
+    };
+    var _closure1_slot13 = var4;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var8 = {};
+    var1 = true;
+    var8['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var8);
+    var1 = 0;
+    var11 = var10[var1];
+    var8 = metroImportDefault;
+    var1 = undefined;
+    var8 = var8.bind(var1)(var11);
+    var _closure1_slot2 = var8;
+    var8 = 5;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/quests/utils/QuestServerUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var8 = function isQuestWithKnownConfigVersion(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
             var1 = arg1;
-case 21: // try_start_0
+case 25: // try_start_0
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 1;
@@ -437,7 +518,7 @@ case 21: // try_start_0
             var2 = var3.bind(var4)(var2, var1);
             var1 = var2.exhaustive;
             var1 = var1.bind(var2)();
-case 22: // try_end0
+case 26: // try_end0
             return var1;
 case 18: // catch_target0
             CatchBlockStart(arg_register=0);
@@ -445,11 +526,11 @@ case 18: // catch_target0
             return var1;
         }
     };
-    var3['isQuestWithKnownConfigVersion'] = var7;
-    var3['questConfigFromServer'] = var6;
-    var3['questUserStatusFromServer'] = var5;
-    var5 = function questWithUserStatusFromServer(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+    var3['isQuestWithKnownConfigVersion'] = var8;
+    var3['questConfigFromServer'] = var7;
+    var3['questUserStatusFromServer'] = var6;
+    var6 = function questWithUserStatusFromServer(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = arg1;
             var1 = {};
@@ -465,12 +546,12 @@ case 0:
             var5 = var2.user_status;
             var3 = null;
             var5 = var3 == var5;
-            if(var5) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
+            if(var5) { _fun0008_ip = 27; continue _fun0008 }
+case 28:
             var5 = _closure1_slot5;
             var4 = var2.user_status;
             var3 = var5.bind(var6)(var4);
-case 23:
+case 27:
             var1['userStatus'] = var3;
             var3 = var2.targeted_content;
             var1['targetedContent'] = var3;
@@ -481,8 +562,8 @@ case 23:
             return var1;
         }
     };
-    var3['questWithUserStatusFromServer'] = var5;
-    var5 = function excludedQuestFromServer(arg1) {
+    var3['questWithUserStatusFromServer'] = var6;
+    var6 = function excludedQuestFromServer(arg1) {
         var2 = arg1;
         var1 = {};
         var3 = var2.id;
@@ -491,9 +572,9 @@ case 23:
         var1['replacementId'] = var2;
         return var1;
     };
-    var3['excludedQuestFromServer'] = var5;
-    var5 = function getClaimedQuestWithUserStatusFromServer(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+    var3['excludedQuestFromServer'] = var6;
+    var6 = function getClaimedQuestWithUserStatusFromServer(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var3 = arg1;
             var1 = {};
@@ -507,19 +588,19 @@ case 0:
             var6 = var3.user_status;
             var2 = null;
             var6 = var2 == var6;
-            if(var6) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
+            if(var6) { _fun0009_ip = 29; continue _fun0009 }
+case 30:
             var4 = _closure1_slot5;
             var3 = var3.user_status;
             var2 = var4.bind(var5)(var3);
-case 25:
+case 29:
             var1['userStatus'] = var2;
             return var1;
         }
     };
-    var3['getClaimedQuestWithUserStatusFromServer'] = var5;
-    var3['questsRewardCodeFromServer'] = var4;
-    var4 = function questsEntitlementsFromServer(arg1) {
+    var3['getClaimedQuestWithUserStatusFromServer'] = var6;
+    var3['questsRewardCodeFromServer'] = var5;
+    var5 = function questsEntitlementsFromServer(arg1) {
         var2 = arg1;
         var1 = {};
         var3 = var2.claimed_at;
@@ -533,119 +614,52 @@ case 25:
         var1['errors'] = var2;
         return var1;
     };
-    var3['questsEntitlementsFromServer'] = var4;
-    var2 = function questHomeHeroConfigFromServer(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+    var3['questsEntitlementsFromServer'] = var5;
+    var3['questHomeHeroConfigFromServer'] = var4;
+    var2 = function questHomeHeroConfigFromServerWrapper(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.version;
             var2 = 1;
-            if(!(var2 === var3)) { _fun0009_ip = 27; continue _fun0009 }
-case 28:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var8 = 4;
-            var2 = var2[var8];
-            var6 = undefined;
-            var2 = var3.bind(var6)(var2);
-            var2 = var2.QuestPlacementType;
-            var3 = var2.QUEST_HOME_BANNER;
-            var2 = var1.placements;
-            var2 = var3 in var2;
-            if(var2) { _fun0009_ip = 29; continue _fun0009 }
-case 30:
-            var2 = null;
-            return var2;
-case 29:
-            var2 = var1.placements;
-            var3 = _closure1_slot0;
+            if(!(var2 === var3)) { _fun0010_ip = 31; continue _fun0010 }
+case 14:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var6 = 4;
+            var3 = var3[var6];
+            var4 = undefined;
+            var3 = var5.bind(var4)(var3);
+            var3 = var3.QuestPlacementType;
+            var5 = var3.QUEST_HOME_BANNER;
+            var3 = var1.placements;
+            var3 = var5 in var3;
+            if(var3) { _fun0010_ip = 32; continue _fun0010 }
+case 33:
+            var3 = null;
+            return var3;
+case 32:
+            var3 = var1.placements;
+            var5 = _closure1_slot0;
             var1 = _closure1_slot1;
-            var1 = var1[var8];
-            var1 = var3.bind(var6)(var1);
+            var1 = var1[var6];
+            var1 = var5.bind(var4)(var1);
             var1 = var1.QuestPlacementType;
             var1 = var1.QUEST_HOME_BANNER;
-            var3 = var2[var1];
+            var3 = var3[var1];
             var1 = null;
-            if(!(var1 != var3)) { _fun0009_ip = 31; continue _fun0009 }
-case 32:
-            var2 = {};
-            var7 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var5 = var5[var8];
-            var5 = var7.bind(var6)(var5);
-            var5 = var5.QuestPlacementType;
-            var5 = var5.QUEST_HOME_BANNER;
-            var2['placementType'] = var5;
-            var5 = var3.campaign_id;
-            var2['campaignId'] = var5;
-            var5 = var3.label_title;
-            var2['labelTitle'] = var5;
-            var5 = var3.label_subtitle;
-            var2['labelSubtitle'] = var5;
-            var7 = _closure1_slot11;
-            var5 = var3.asset_hero_image;
-            var5 = var7.bind(var6)(var5);
-            var2['assetHeroImage'] = var5;
-            var5 = var3.asset_sponsor_image;
-            var5 = var7.bind(var6)(var5);
-            var2['assetSponsorImage'] = var5;
-            var7 = var3.cta_sponsor_url;
-            var5 = {};
-            var8 = var7.cta_type;
-            var5['ctaType'] = var8;
-            var8 = var7.title;
-            var5['title'] = var8;
-            var7 = var7.url;
-            var5['url'] = var7;
-            var2['ctaSponsorUrl'] = var5;
-            var8 = var3.cta_quests;
-            var7 = var8.map;
-            var5 = _closure1_slot12;
-            var5 = var7.bind(var8)(var5);
-            var2['ctaQuests'] = var5;
-            var5 = var3.starts_at;
-            var2['startsAt'] = var5;
-            var5 = var3.expires_at;
-            var2['expiresAt'] = var5;
-            var5 = var3.asset_hero_video;
-            if(!(var1 != var5)) { _fun0009_ip = 33; continue _fun0009 }
+            var5 = var1 == var3;
+            if(var5) { _fun0010_ip = 34; continue _fun0010 }
+case 20:
+            var2 = _closure1_slot13;
+            var1 = var2.bind(var4)(var3);
 case 34:
-            var5 = _closure1_slot11;
-            var4 = var3.asset_hero_video;
-            var4 = var5.bind(var6)(var4);
-            var2['assetHeroVideo'] = var4;
-case 33:
-            var4 = var3.quest_home_entrypoint;
-            if(!(var1 != var4)) { _fun0009_ip = 35; continue _fun0009 }
-case 36:
-            var4 = var3.quest_home_entrypoint;
-            var3 = {};
-            var5 = var4.linear_gradient_start;
-            var3['linearGradientStart'] = var5;
-            var5 = var4.linear_gradient_end;
-            var3['linearGradientEnd'] = var5;
-            var5 = var4.radial_gradient_start;
-            var3['radialGradientStart'] = var5;
-            var5 = var4.radial_gradient_end;
-            var3['radialGradientEnd'] = var5;
-            var5 = var4.entrypoint_asset_image_url;
-            var3['entrypointAssetImageUrl'] = var5;
-            var5 = var4.tooltip_asset_image_url;
-            var3['tooltipAssetImageUrl'] = var5;
-            var5 = var4.tooltip_title;
-            var3['tooltipTitle'] = var5;
-            var4 = var4.tooltip_subtitle;
-            var3['tooltipSubtitle'] = var4;
-            var2['questHomeEntrypoint'] = var3;
-case 35:
-            return var2;
-case 31:
             return var1;
-case 27:
+case 31:
             var1 = null;
             return var1;
         }
     };
-    var3['questHomeHeroConfigFromServer'] = var2;
+    var3['questHomeHeroConfigFromServerWrapper'] = var2;
     return var1;
 })();

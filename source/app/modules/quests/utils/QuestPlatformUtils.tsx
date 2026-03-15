@@ -106,7 +106,7 @@ case 10:
     var _closure1_slot6 = var9;
     var6 = var6.UserSettingsSections;
     var _closure1_slot7 = var6;
-    var6 = 15;
+    var6 = 16;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -498,7 +498,7 @@ case 45:
 case 42:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var5 = 12;
+            var5 = 13;
             var5 = var9[var5];
             var5 = var8.bind(var6)(var5);
             var5 = var5.bind(var6)(var7);
@@ -522,10 +522,15 @@ case 59:
             var _closure2_slot2 = var2;
             var2 = function(arg1) {
                 var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 4;
-                var3 = var3[var1];
+                var5 = _closure1_slot2;
+                var1 = 12;
+                var3 = var5[var1];
                 var1 = undefined;
+                var6 = var4.bind(var1)(var3);
+                var3 = var6.clearAppStoreOverlayOpen;
+                var3 = var3.bind(var6)();
+                var3 = 4;
+                var3 = var5[var3];
                 var8 = var4.bind(var1)(var3);
                 var7 = var8.trackAppStoreOverlayEvent;
                 var13 = _closure2_slot0;
@@ -543,28 +548,51 @@ case 59:
             var2 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var2 = _closure1_slot4;
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var1 = 12;
+                    var3 = var8[var1];
+                    var1 = undefined;
+                    var10 = var5.bind(var1)(var3);
                     var3 = arg1;
                     if(var3) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
-                    var7 = var2.QUEST_APP_STORE_OVERLAY_OPEN_FAILED;
-                    _fun0007_ip = 63; continue _fun0007;
+case 20:
+                    var3 = var10.clearAppStoreOverlayOpen;
+                    var3 = var3.bind(var10)();
+                    var3 = 4;
+                    var3 = var8[var3];
+                    var11 = var5.bind(var1)(var3);
+                    var9 = var11.trackAppStoreOverlayEvent;
+                    var15 = _closure2_slot0;
+                    var14 = _closure2_slot1;
+                    var13 = _closure2_slot2;
+                    var3 = _closure1_slot4;
+                    var12 = var3.QUEST_APP_STORE_OVERLAY_OPEN_FAILED;
+                    var16 = var11;
+                    var3 = var16[var9](var15, var14, var13, var12, var11);
+                    _fun0007_ip = 62; continue _fun0007;
 case 61:
-                    var7 = var2.QUEST_APP_STORE_OVERLAY_OPEN_SUCCEEDED;
-case 63:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 4;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var6 = var3.bind(var1)(var2);
-                    var5 = var6.trackAppStoreOverlayEvent;
-                    var11 = _closure2_slot0;
-                    var10 = _closure2_slot1;
-                    var9 = _closure2_slot2;
-                    var12 = var6;
-                    var8 = var7;
-                    var2 = var12[var5](var11, var10, var9, var8, var7);
+                    var9 = var10.setAppStoreOverlayOpen;
+                    var4 = {};
+                    var7 = _closure2_slot0;
+                    var4['quest'] = var7;
+                    var6 = _closure2_slot1;
+                    var4['trackingCtx'] = var6;
+                    var11 = _closure2_slot2;
+                    var4['inlineStoreAppId'] = var11;
+                    var4 = var9.bind(var10)(var4);
+                    var4 = 4;
+                    var4 = var8[var4];
+                    var5 = var5.bind(var1)(var4);
+                    var4 = var5.trackAppStoreOverlayEvent;
+                    var13 = _closure2_slot2;
+                    var2 = _closure1_slot4;
+                    var12 = var2.QUEST_APP_STORE_OVERLAY_OPEN_SUCCEEDED;
+                    var16 = var5;
+                    var15 = var7;
+                    var14 = var6;
+                    var2 = var16[var4](var15, var14, var13, var12, var11);
+case 62:
                     return var1;
                 }
             };
@@ -618,7 +646,7 @@ case 63:
         var8 = var8.sourceQuestContent;
         var2['sourceQuestContent'] = var8;
         var2 = var6.bind(var7)(var2);
-        var2 = 13;
+        var2 = 14;
         var2 = var5[var2];
         var2 = var3.bind(var1)(var2);
         var3 = var2.openUserSettings;
@@ -663,11 +691,11 @@ case 0:
             var6 = var2.bind(var3)(var4);
             var4 = var6.length;
             var2 = 1;
-            if(!(var2 !== var4)) { _fun0008_ip = 64; continue _fun0008 }
-case 65:
+            if(!(var2 !== var4)) { _fun0008_ip = 63; continue _fun0008 }
+case 64:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var2 = var5[var2];
             var5 = var4.bind(var3)(var2);
             var4 = var5.dispatch;
@@ -699,7 +727,7 @@ case 65:
             var2['includedPlatformTypes'] = var7;
             var2 = var4.bind(var5)(var2);
             return var3;
-case 64:
+case 63:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 5;

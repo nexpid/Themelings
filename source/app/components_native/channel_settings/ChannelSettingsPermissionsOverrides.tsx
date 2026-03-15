@@ -981,8 +981,8 @@ case 76:
                             var6 = new Array(2);
                             var6[0] = var11;
                             var8 = var8 != var16;
-                            if(!var8) { _fun0007_ip = 78; continue _fun0007 }
-case 79:
+                            if(!var8) { _fun0007_ip = 10; continue _fun0007 }
+case 78:
                             var15 = _closure1_slot19;
                             var14 = _closure1_slot0;
                             var11 = _closure1_slot3;
@@ -992,7 +992,7 @@ case 79:
                             var11 = {'variant': 'text-xs/medium', 'color': 'text-feedback-warning'};
                             var11['children'] = var16;
                             var8 = var15.bind(var5)(var14, var11);
-case 78:
+case 10:
                             var6[1] = var8;
                             var2['children'] = var6;
                             var6 = var4.bind(var5)(var3, var2);

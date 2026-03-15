@@ -704,7 +704,7 @@ case 51:
             if(var11) { _fun0002_ip = 52; continue _fun0002 }
 case 53:
             var6 = var15.colors;
-            var6 = var6.TEXT_BRAND;
+            var6 = var6.MOBILE_UNREADBAR_TEXT_DEFAULT;
             _fun0002_ip = 54; continue _fun0002;
 case 52:
             var15 = var15.unsafe_rawColors;
@@ -749,7 +749,7 @@ case 55:
             var12 = var12.text;
             var6['style'] = var12;
             var6['variant'] = var10;
-            var10 = 'text-brand';
+            var10 = 'mobile-unreadbar-text-default';
             if(!var11) { _fun0002_ip = 57; continue _fun0002 }
 case 58:
             var10 = 'always-white';

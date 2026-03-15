@@ -753,7 +753,7 @@ case 4:
                         var2 = var1.type;
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var1 = 23;
+                        var1 = 24;
                         var1 = var6[var1];
                         var8 = undefined;
                         var1 = var5.bind(var8)(var1);
@@ -826,7 +826,7 @@ case 24:
                 var34['isClientThemesSelector'] = var14;
                 var34['currentThemeIndex'] = var16;
                 var34['themeTypeIndex'] = var2;
-                var18 = 23;
+                var18 = 24;
                 var36 = var11[var18];
                 var36 = var8.bind(var4)(var36);
                 var36 = var36.ClientThemeType;
@@ -975,7 +975,7 @@ case 19:
                         var4 = var6.type;
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 23;
+                        var1 = 24;
                         var3 = var3[var1];
                         var1 = undefined;
                         var3 = var5.bind(var1)(var3);
@@ -1057,7 +1057,7 @@ case 35:
                         var3 = var2.type;
                         var7 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var2 = 23;
+                        var2 = 24;
                         var4 = var4[var2];
                         var2 = undefined;
                         var2 = var7.bind(var2)(var4);
@@ -1613,8 +1613,8 @@ case 65:
                 var14 = var3.isSynced;
                 var15 = var3.usingSystemTheme;
                 _closure2_slot0 = var15;
-                var20 = var3.userPreset;
-                _closure2_slot1 = var20;
+                var21 = var3.userPreset;
+                _closure2_slot1 = var21;
                 var15 = var3.isPreview;
                 var18 = var3.userTheme;
                 _closure2_slot2 = var18;
@@ -1624,14 +1624,20 @@ case 65:
                 var3 = var17[var3];
                 var13 = var13.bind(var4)(var3);
                 var3 = var13.useAllMobileThemes;
-                var3 = var3.bind(var13)();
-                _closure2_slot4 = var3;
+                var13 = var3.bind(var13)();
+                _closure2_slot4 = var13;
+                var3 = 22;
+                var3 = var17[var3];
+                var18 = var16.bind(var4)(var3);
+                var3 = 'SettingsAppearanceThemePickerScreen';
+                var3 = var18.bind(var4)(var3);
+                _closure2_slot5 = var3;
                 var19 = _closure1_slot4;
-                var18 = var19.useMemo;
-                var13 = new Array(2);
-                var13[0] = var20;
-                var13[1] = var3;
-                var3 = function() {
+                var20 = var19.useMemo;
+                var18 = new Array(2);
+                var18[0] = var21;
+                var18[1] = var13;
+                var13 = function() {
                     _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                         var4 = _closure2_slot1;
@@ -1646,7 +1652,7 @@ case 30:
 case 35:
                         var5 = _closure1_slot0;
                         var7 = _closure1_slot2;
-                        var3 = 22;
+                        var3 = 23;
                         var3 = var7[var3];
                         var3 = var5.bind(var6)(var3);
                         var3 = var3.BackgroundGradientPresetId;
@@ -1662,7 +1668,7 @@ case 0:
                                 var4 = var3.type;
                                 var6 = _closure1_slot0;
                                 var5 = _closure1_slot2;
-                                var1 = 23;
+                                var1 = 24;
                                 var1 = var5[var1];
                                 var5 = undefined;
                                 var1 = var6.bind(var5)(var1);
@@ -1674,7 +1680,7 @@ case 67:
                                 var3 = var3.id;
                                 var4 = _closure1_slot0;
                                 var6 = _closure1_slot2;
-                                var2 = 22;
+                                var2 = 23;
                                 var2 = var6[var2];
                                 var2 = var4.bind(var5)(var2);
                                 var2 = var2.BackgroundGradientPresetId;
@@ -1692,14 +1698,8 @@ case 68:
                         return var1;
                     }
                 };
-                var20 = var18.bind(var19)(var3, var13);
-                _closure2_slot5 = var20;
-                var3 = 24;
-                var3 = var17[var3];
-                var13 = var16.bind(var4)(var3);
-                var3 = 'SettingsAppearanceThemePickerScreen';
-                var3 = var13.bind(var4)(var3);
-                _closure2_slot6 = var3;
+                var20 = var20.bind(var19)(var13, var18);
+                _closure2_slot6 = var20;
                 var18 = var19.useMemo;
                 var13 = new Array(2);
                 var13[0] = var20;
@@ -1707,19 +1707,19 @@ case 68:
                 var3 = function() {
                     _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
-                        var1 = _closure2_slot6;
-                        var2 = _closure2_slot5;
+                        var1 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         if(var1) { _fun0018_ip = 69; continue _fun0018 }
 case 20:
                         var1 = 1;
                         var4 = var2[var1];
                         var1 = new Array(2);
                         var1[0] = var4;
-                        var5 = _closure2_slot5;
+                        var5 = _closure2_slot6;
                         var4 = 0;
                         var4 = var5[var4];
                         var1[1] = var4;
-                        var5 = _closure2_slot5;
+                        var5 = _closure2_slot6;
                         var3 = var5.slice;
                         var4 = 2;
                         var7 = var3.bind(var5)(var4);

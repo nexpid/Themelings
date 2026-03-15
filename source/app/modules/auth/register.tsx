@@ -240,7 +240,7 @@ case 28:
             var2 = var3.bind(var4)(var2);
             var9 = null;
             if(!(var9 != var17)) { _fun0003_ip = 30; continue _fun0003 }
-case 19:
+case 31:
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
             var2 = 11;
@@ -272,29 +272,29 @@ case 19:
             var22 = var3.bind(var5)(var17, var2);
             var2 = 13;
             if(!(!(var22 < var2))) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
-            if(!(var22 >= var2)) { _fun0003_ip = 32; continue _fun0003 }
-case 33:
+case 32:
+            if(!(var22 >= var2)) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
             var2 = 17;
             var2 = var22 <= var2;
             var21 = '13-17';
-            if(var2) { _fun0003_ip = 34; continue _fun0003 }
-case 32:
+            if(var2) { _fun0003_ip = 35; continue _fun0003 }
+case 33:
             var2 = 18;
             var3 = var22 >= var2;
             var5 = '23+';
             var2 = var5;
-            if(!var3) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+            if(!var3) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
             var3 = 22;
             var3 = var22 <= var3;
             var2 = var5;
-            if(!var3) { _fun0003_ip = 35; continue _fun0003 }
-case 37:
+            if(!var3) { _fun0003_ip = 36; continue _fun0003 }
+case 38:
             var2 = '18-22';
-case 35:
+case 36:
             var21 = var2;
-case 34:
+case 35:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
             var2 = var2[var4];
@@ -330,21 +330,21 @@ case 30:
             var5['phone_token'] = var14;
             var15 = var9 == var17;
             var14 = undefined;
-            if(var15) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
+            if(var15) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
             var16 = var17.format;
             var15 = 'YYYY-MM-DD';
             var14 = var16.bind(var17)(var15);
-case 38:
+case 39:
             var5['date_of_birth'] = var14;
             var5['gift_code_sku_id'] = var13;
             var5['guild_template_code'] = var12;
             var13 = var9 == var8;
             var12 = undefined;
-            if(var13) { _fun0003_ip = 40; continue _fun0003 }
-case 41:
+            if(var13) { _fun0003_ip = 41; continue _fun0003 }
+case 42:
             var12 = var8.checked;
-case 40:
+case 41:
             var5['promotional_email_opt_in'] = var12;
             var2['body'] = var5;
             var5 = {};
@@ -361,17 +361,17 @@ case 40:
             var6['used_username_suggestion'] = var10;
             var11 = var9 == var8;
             var10 = undefined;
-            if(var11) { _fun0003_ip = 42; continue _fun0003 }
-case 43:
+            if(var11) { _fun0003_ip = 43; continue _fun0003 }
+case 44:
             var10 = var8.checked;
-case 42:
+case 43:
             var6['promotional_email_opt_in'] = var10;
             var9 = var9 == var8;
             var7 = undefined;
-            if(var9) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
+            if(var9) { _fun0003_ip = 45; continue _fun0003 }
+case 46:
             var7 = var8.preChecked;
-case 44:
+case 45:
             var6['promotional_email_pre_checked'] = var7;
             var7 = true;
             var6['was_unique_username'] = var7;
@@ -425,8 +425,8 @@ case 0:
                     var2 = var4.bind(var6)(var2);
                     var2 = var2.CaptchaCancelError;
                     var2 = var1 instanceof var2;
-                    if(var2) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+                    if(var2) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot3;
                     var2 = 8;
@@ -442,8 +442,8 @@ case 47:
                     var8 = 'date_of_birth';
                     var5 = var4.bind(var2)(var8);
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
+                    if(!(var4 != var5)) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
                     var5 = _closure1_slot2;
                     var7 = _closure1_slot3;
                     var4 = 12;
@@ -453,7 +453,7 @@ case 49:
                     var4 = _closure1_slot10;
                     var4 = var4.REGISTER;
                     var4 = var5.bind(var7)(var4);
-case 48:
+case 49:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot3;
                     var4 = 5;
@@ -517,7 +517,7 @@ case 48:
                     var3['generic_error_reason'] = var7;
                     var3 = var5.bind(var6)(var4, var3);
                     throw var2;
-case 46:
+case 47:
                     throw var1;
                 }
             };
@@ -571,15 +571,15 @@ case 0:
             var4 = arg1;
             var6 = var4.invite;
             var3 = undefined;
-            if(!(var6 === var3)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
-            var6 = null;
-case 50:
-            var5 = var4.giftCodeSKUId;
-            if(!(var5 === var3)) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
-            var5 = null;
+            if(!(var6 === var3)) { _fun0005_ip = 51; continue _fun0005 }
 case 52:
+            var6 = null;
+case 51:
+            var5 = var4.giftCodeSKUId;
+            if(!(var5 === var3)) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
+            var5 = null;
+case 53:
             var1 = null;
             var2 = Object.create(var1);
             var1 = 0;

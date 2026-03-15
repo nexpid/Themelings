@@ -49,11 +49,12 @@ case 0:
             var1 = 4;
             var2 = var16[var1];
             var4 = undefined;
-            var6 = var15.bind(var4)(var2);
-            var2 = var6.useGuildsBarAnimatedWrapperStyles;
+            var9 = var15.bind(var4)(var2);
+            var6 = var9.useGuildsBarAnimatedWrapperStyles;
             var8 = true;
             var13 = false;
-            var12 = var2.bind(var6)(var8, var13);
+            var2 = {'disableSelectedColor': true, 'disableBGColor': false};
+            var12 = var6.bind(var9)(var2);
             var2 = _closure1_slot1;
             var6 = 5;
             var6 = var16[var6];

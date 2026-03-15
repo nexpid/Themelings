@@ -88,64 +88,27 @@ case 0:
             var1 = var4.guild;
             var5 = var1.features;
             var3 = var5.has;
-            var2 = _closure1_slot5;
-            var2 = var2.CREATOR_MONETIZABLE_DISABLED;
-            var2 = var3.bind(var5)(var2);
-            if(var2) { _fun0002_ip = 20; continue _fun0002 }
+            var1 = _closure1_slot5;
+            var1 = var1.CREATOR_MONETIZABLE_DISABLED;
+            var1 = var3.bind(var5)(var1);
+            if(var1) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
             var3 = _closure1_slot8;
-            var2 = undefined;
-            var2 = var3.bind(var2)(var4);
-            if(var2) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-            var3 = var4.guild;
-            var7 = var4.isOwner;
-            var2 = var4.isUserInCreatorMonetizationEligibleCountry;
-            var6 = var4.isMonetizationWaitlistEnabledForGuild;
-            var5 = var4.isGuildEligibleForRoleSubscriptions;
-            var4 = var4.isExpeditedMonetizationOnboardingGuild;
-            if(!var7) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
-            if(var2) { _fun0002_ip = 24; continue _fun0002 }
-case 26:
-            if(!var6) { _fun0002_ip = 24; continue _fun0002 }
-case 27:
-            var2 = _closure1_slot7;
-            var2 = var2.WAITLIST_ONLY;
-            _fun0002_ip = 15; continue _fun0002;
-case 24:
-            if(!var7) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
-            if(!var6) { _fun0002_ip = 28; continue _fun0002 }
-case 30:
-            if(var5) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
-            if(!var4) { _fun0002_ip = 28; continue _fun0002 }
-case 31:
-            var5 = var3.features;
-            var4 = var5.has;
-            var3 = _closure1_slot5;
-            var3 = var3.COMMUNITY;
-            var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0002_ip = 28; continue _fun0002 }
-case 33:
+            var1 = undefined;
+            var1 = var3.bind(var1)(var4);
             var3 = _closure1_slot7;
-            var3 = var3.NEEDS_COMMUNITY;
-            _fun0002_ip = 34; continue _fun0002;
-case 28:
-            var4 = _closure1_slot7;
-            var3 = var4.NONE;
-case 34:
-            var2 = var3;
-case 15:
-            return var2;
+            if(var1) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+            var1 = var3.NONE;
+            _fun0002_ip = 24; continue _fun0002;
 case 22:
-            var2 = _closure1_slot7;
-            var2 = var2.VISIBLE;
-            return var2;
+            var1 = var3.VISIBLE;
+case 24:
+            _fun0002_ip = 25; continue _fun0002;
 case 20:
-            var1 = _closure1_slot7;
-            var1 = var1.NONE;
+            var2 = _closure1_slot7;
+            var1 = var2.NONE;
+case 25:
             return var1;
         }
     };
@@ -153,8 +116,8 @@ case 20:
     var6 = function useGuildRoleSubscriptionSettingsVisibility(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var12 = arg1;
-            var _closure2_slot0 = var12;
+            var11 = arg1;
+            var _closure2_slot0 = var11;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 4;
@@ -163,41 +126,29 @@ case 0:
             var7 = var3.bind(var4)(var1);
             var5 = var7.useGuildEligibleForRoleSubscriptions;
             var1 = null;
-            var8 = var1 == var12;
+            var8 = var1 == var11;
             var3 = undefined;
             if(var8) { _fun0003_ip = 3; continue _fun0003 }
-case 35:
-            var3 = var12.id;
+case 26:
+            var3 = var11.id;
 case 3:
-            var9 = var5.bind(var7)(var3);
-            var8 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var3 = 5;
-            var7 = var5[var3];
-            var10 = var8.bind(var4)(var7);
-            var7 = var10.useIsExpeditedOnboardingGuild;
-            var7 = var7.bind(var10)(var12);
-            var5 = var5[var3];
-            var10 = var8.bind(var4)(var5);
-            var8 = var10.useIsMonetizationWaitlistEnabledForGuild;
-            var11 = var1 == var12;
-            var5 = undefined;
-            if(var11) { _fun0003_ip = 36; continue _fun0003 }
-case 24:
-            var5 = var12.id;
-case 36:
-            var8 = var8.bind(var10)(var5);
-            var5 = _closure1_slot11;
-            var10 = var5.bind(var4)(var12);
+            var8 = var5.bind(var7)(var3);
             var5 = _closure1_slot0;
-            var13 = _closure1_slot1;
-            var11 = 6;
-            var11 = var13[var11];
-            var15 = var5.bind(var4)(var11);
-            var14 = var15.useStateFromStores;
-            var16 = _closure1_slot4;
-            var11 = new Array(1);
-            var11[0] = var16;
+            var12 = _closure1_slot1;
+            var3 = 5;
+            var7 = var12[var3];
+            var9 = var5.bind(var4)(var7);
+            var7 = var9.useIsExpeditedOnboardingGuild;
+            var7 = var7.bind(var9)(var11);
+            var9 = _closure1_slot11;
+            var9 = var9.bind(var4)(var11);
+            var10 = 6;
+            var10 = var12[var10];
+            var14 = var5.bind(var4)(var10);
+            var13 = var14.useStateFromStores;
+            var15 = _closure1_slot4;
+            var10 = new Array(1);
+            var10[0] = var15;
             var6 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -207,51 +158,50 @@ case 0:
                     var4 = _closure2_slot0;
                     var1 = null;
                     var1 = var1 != var4;
-                    if(!var1) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+                    if(!var1) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                     var4 = _closure1_slot2;
                     var3 = _closure2_slot0;
                     var2 = undefined;
                     var1 = var4.bind(var2)(var3, var5);
-case 37:
+case 27:
                     return var1;
                 }
             };
-            var11 = var14.bind(var15)(var11, var6);
-            var3 = var13[var3];
+            var10 = var13.bind(var14)(var10, var6);
+            var3 = var12[var3];
             var6 = var5.bind(var4)(var3);
             var3 = var6.useIsUserInCreatorMonetizationEligibleCountry;
             var6 = var3.bind(var6)();
             var3 = 7;
-            var3 = var13[var3];
-            var13 = var5.bind(var4)(var3);
-            var5 = var13.useShouldRestrictUpdatingCreatorMonetizationSettings;
-            var14 = var1 == var12;
+            var3 = var12[var3];
+            var12 = var5.bind(var4)(var3);
+            var5 = var12.useShouldRestrictUpdatingCreatorMonetizationSettings;
+            var13 = var1 == var11;
             var3 = undefined;
-            if(var14) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
-            var3 = var12.id;
-case 39:
-            var3 = var5.bind(var13)(var3);
+            if(var13) { _fun0003_ip = 19; continue _fun0003 }
+case 29:
+            var3 = var11.id;
+case 19:
+            var3 = var5.bind(var12)(var3);
             var5 = var3.shouldRestrictUpdatingCreatorMonetizationSettings;
-            if(!(var1 != var12)) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
+            if(!(var1 != var11)) { _fun0003_ip = 30; continue _fun0003 }
+case 6:
             var3 = _closure1_slot9;
             var1 = {};
-            var1['guild'] = var12;
-            var1['isOwner'] = var11;
-            var1['canManageGuildRoleSubscriptions'] = var10;
-            var1['isGuildEligibleForRoleSubscriptions'] = var9;
-            var1['isMonetizationWaitlistEnabledForGuild'] = var8;
+            var1['guild'] = var11;
+            var1['isOwner'] = var10;
+            var1['canManageGuildRoleSubscriptions'] = var9;
+            var1['isGuildEligibleForRoleSubscriptions'] = var8;
             var1['isExpeditedMonetizationOnboardingGuild'] = var7;
             var1['isUserInCreatorMonetizationEligibleCountry'] = var6;
             var1['shouldRestrictUpdatingRoleSubscriptionSettings'] = var5;
             var1 = var3.bind(var4)(var1);
-            _fun0003_ip = 43; continue _fun0003;
-case 41:
+            _fun0003_ip = 31; continue _fun0003;
+case 30:
             var2 = _closure1_slot7;
             var1 = var2.NONE;
-case 43:
+case 31:
             return var1;
         }
     };
@@ -288,14 +238,14 @@ case 0:
             var5 = arg1;
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+            if(!var1) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
             var4 = _closure1_slot3;
             var3 = var4.can;
             var2 = _closure1_slot6;
             var2 = var2.ADMINISTRATOR;
             var1 = var3.bind(var4)(var2, var5);
-case 44:
+case 32:
             return var1;
         }
     };
@@ -308,36 +258,30 @@ case 44:
     var9['value'] = var1;
     var1 = '__esModule';
     var1 = var13.bind(var14)(var3, var1, var9);
-    var16 = 0;
-    var9 = var12[var16];
+    var14 = 0;
+    var9 = var12[var14];
     var1 = undefined;
     var9 = var11.bind(var1)(var9);
     var9 = var9.isGuildOwner;
     var _closure1_slot2 = var9;
-    var15 = 1;
-    var9 = var12[var15];
+    var13 = 1;
+    var9 = var12[var13];
     var9 = var10.bind(var1)(var9);
     var _closure1_slot3 = var9;
-    var14 = 2;
-    var9 = var12[var14];
+    var9 = 2;
+    var9 = var12[var9];
     var9 = var10.bind(var1)(var9);
     var _closure1_slot4 = var9;
-    var13 = 3;
-    var9 = var12[var13];
+    var9 = 3;
+    var9 = var12[var9];
     var9 = var11.bind(var1)(var9);
     var10 = var9.GuildFeatures;
     var _closure1_slot5 = var10;
     var9 = var9.Permissions;
     var _closure1_slot6 = var9;
     var9 = {};
-    var9['NONE'] = var16;
+    var9['NONE'] = var14;
     var10 = 'NONE';
-    var9[var16] = var10;
-    var9['WAITLIST_ONLY'] = var15;
-    var10 = 'WAITLIST_ONLY';
-    var9[var15] = var10;
-    var9['NEEDS_COMMUNITY'] = var14;
-    var10 = 'NEEDS_COMMUNITY';
     var9[var14] = var10;
     var9['VISIBLE'] = var13;
     var10 = 'VISIBLE';
@@ -369,8 +313,8 @@ case 44:
 case 0:
             var5 = arg1;
             var1 = null;
-            if(!(var1 != var5)) { _fun0006_ip = 46; continue _fun0006 }
-case 45:
+            if(!(var1 != var5)) { _fun0006_ip = 16; continue _fun0006 }
+case 33:
             var2 = _closure1_slot4;
             var1 = var2.getCurrentUser;
             var7 = var1.bind(var2)();
@@ -395,12 +339,6 @@ case 45:
             var2['isGuildEligibleForRoleSubscriptions'] = var6;
             var6 = 5;
             var9 = var8[var6];
-            var11 = var7.bind(var1)(var9);
-            var10 = var11.isMonetizationWaitlistEnabledForGuild;
-            var9 = var5.id;
-            var9 = var10.bind(var11)(var9);
-            var2['isMonetizationWaitlistEnabledForGuild'] = var9;
-            var9 = var8[var6];
             var10 = var7.bind(var1)(var9);
             var9 = var10.isExpeditedMonetizationOnboardingGuild;
             var9 = var9.bind(var10)(var5);
@@ -418,7 +356,7 @@ case 45:
             var2['shouldRestrictUpdatingRoleSubscriptionSettings'] = var4;
             var1 = var3.bind(var1)(var2);
             return var1;
-case 46:
+case 16:
             var1 = _closure1_slot7;
             var1 = var1.NONE;
             return var1;

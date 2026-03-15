@@ -20,7 +20,7 @@ case 0:
             var9 = var4;
             var8 = var3;
             var6 = copyDataProperties(var10, var9, var8);
-            var5 = _closure1_slot9;
+            var5 = _closure1_slot7;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 9;
@@ -51,7 +51,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -76,27 +76,18 @@ case 4:
     var4 = var4.View;
     var _closure1_slot5 = var4;
     var4 = 3;
-    var7 = var6[var4];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.TABLE_ROW_CONTENT_HEIGHT;
-    var _closure1_slot6 = var7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.TABLE_ROW_HEIGHT;
-    var _closure1_slot7 = var4;
-    var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.DEFAULT_CONTENT_PADDING;
-    var _closure1_slot8 = var4;
-    var4 = 5;
+    var _closure1_slot6 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot9 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot10 = var4;
-    var4 = 6;
+    var _closure1_slot8 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -106,7 +97,7 @@ case 4:
     var9['overflow'] = var10;
     var4['listItemContainer'] = var9;
     var9 = {};
-    var10 = 7;
+    var10 = 6;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
@@ -147,7 +138,7 @@ case 4:
     var9['marginLeft'] = var10;
     var4['divider'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot9 = var4;
     var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -169,7 +160,7 @@ case 0:
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot9;
             var1 = var1.bind(var4)();
             var _closure2_slot2 = var1;
             var6 = _closure1_slot1;
@@ -188,7 +179,7 @@ case 0:
             var17 = var6;
             if(var2) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot6;
             var17 = var6 + var2;
 case 5:
             var2 = _closure1_slot1;
@@ -305,7 +296,7 @@ case 12:
 case 11:
                     var10 = _closure2_slot5;
                     var9 = var11.originalIndex;
-                    var4 = _closure1_slot9;
+                    var4 = _closure1_slot7;
                     var3 = _closure1_slot5;
                     var2 = {};
                     var5 = _closure2_slot2;
@@ -327,7 +318,7 @@ case 16:
 case 15:
                     var5[2] = var6;
                     var2['style'] = var5;
-                    var7 = _closure1_slot9;
+                    var7 = _closure1_slot7;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var1 = 14;
@@ -380,7 +371,7 @@ case 15:
             var10 = new Array(1);
             var10[0] = var1;
             var1 = function() {
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 14;
@@ -421,22 +412,41 @@ case 21:
 case 17:
             var2 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var18[var1];
             var3 = var2.bind(var4)(var1);
             var1 = var3.useFontScale;
             var1 = var1.bind(var3)();
-            var3 = _closure1_slot7;
+            var13 = 8;
+            var3 = var18[var13];
+            var22 = var2.bind(var4)(var3);
+            var19 = var22.useToken;
+            var21 = _closure1_slot1;
+            var6 = 6;
+            var3 = var18[var6];
+            var3 = var21.bind(var4)(var3);
+            var3 = var3.modules;
+            var3 = var3.mobile;
+            var3 = var3.TABLE_ROW_HEIGHT;
+            var3 = var19.bind(var22)(var3);
+            var13 = var18[var13];
+            var19 = var2.bind(var4)(var13);
+            var13 = var19.useToken;
+            var6 = var18[var6];
+            var6 = var21.bind(var4)(var6);
+            var6 = var6.modules;
+            var6 = var6.mobile;
+            var6 = var6.TABLE_ROW_CONTENT_HEIGHT;
+            var19 = var13.bind(var19)(var6);
             var6 = global;
             var13 = var6.Math;
             var6 = var13.max;
-            var19 = _closure1_slot6;
             var1 = var1 * var19;
             var1 = var1 - var19;
             var1 = var6.bind(var13)(var1, var8);
             var13 = var3 + var1;
             var6 = var12.length;
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot8;
             var1 = 17;
             var1 = var18[var1];
             var1 = var2.bind(var4)(var1);
@@ -449,7 +459,7 @@ case 17:
             var9 = var16;
             if(!var9) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            var19 = _closure1_slot9;
+            var19 = _closure1_slot7;
             var18 = _closure1_slot0;
             var21 = _closure1_slot2;
             var5 = 18;
@@ -464,8 +474,8 @@ case 23:
             var5[0] = var9;
             if(!(var8 !== var6)) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
-            var9 = _closure1_slot9;
-            var8 = _closure1_slot12;
+            var9 = _closure1_slot7;
+            var8 = _closure1_slot10;
             var6 = {};
             var6['scrollable'] = var16;
             var16 = {};
@@ -503,7 +513,7 @@ case 26:
             var6 = var9.bind(var4)(var8, var6);
             _fun0002_ip = 27; continue _fun0002;
 case 25:
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot7;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var7 = 18;

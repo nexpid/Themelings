@@ -76,8 +76,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.lg;
+    var12 = var12.modules;
+    var12 = var12.button;
+    var12 = var12.BORDER_RADIUS;
     var9['borderRadius'] = var12;
     var4['iconContainer'] = var9;
     var9 = {'position': 'absolute', 'height': 6.5, 'width': 6.5, 'backgroundColor': null, 'borderRadius': null, 'top': 7.5, 'right': 7.5};

@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var17 = var15.BACKGROUND_BASE_LOWER;
+    var17 = var15.MOBILE_ACTIONSHEET_BACKGROUND;
     var15 = 'backgroundColor';
     var10[var15] = var17;
     var15 = 'flex';

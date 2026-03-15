@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function trackSettingsUpdated(arg1, arg2, arg3, arg4, arg5) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -31,14 +31,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var5 = function setDataSavingMode(arg1) {
         var1 = arg1;
         var12 = var1.videoUploadQuality;
         var11 = var1.viewImageDescriptions;
         var10 = var1.lowQualityImageMode;
         var5 = var1.dataSavingMode;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var1 = undefined;
         var13 = 'data_saving_mode';
         var14 = undefined;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var14[var4](var13, var12, var11, var10, var9, var8);
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var2 = 13;
+        var2 = 12;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.updatedUnsyncedSettings;
@@ -55,14 +55,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot18 = var5;
+    var _closure1_slot17 = var5;
     var4 = function setVideoUploadQuality(arg1) {
         var1 = arg1;
         var5 = var1.videoUploadQuality;
         var11 = var1.viewImageDescriptions;
         var10 = var1.lowQualityImageMode;
         var9 = var1.dataSavingMode;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var1 = undefined;
         var13 = 'video_upload_quality';
         var14 = undefined;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var14[var4](var13, var12, var11, var10, var9, var8);
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var2 = 13;
+        var2 = 12;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.updatedUnsyncedSettings;
@@ -79,14 +79,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot19 = var4;
+    var _closure1_slot18 = var4;
     var2 = function setImageDescriptions(arg1) {
         var1 = arg1;
         var12 = var1.videoUploadQuality;
         var4 = var1.viewImageDescriptions;
         var10 = var1.lowQualityImageMode;
         var9 = var1.dataSavingMode;
-        var5 = _closure1_slot17;
+        var5 = _closure1_slot16;
         var1 = undefined;
         var13 = 'image_descriptions';
         var14 = undefined;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var14[var5](var13, var12, var11, var10, var9, var8);
         var3 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var2 = 12;
+        var2 = 11;
         var2 = var5[var2];
         var2 = var3.bind(var1)(var2);
         var3 = var2.ViewImageDescriptions;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.bind(var3)(var4);
         return var1;
     };
-    var _closure1_slot20 = var2;
+    var _closure1_slot19 = var2;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -153,18 +153,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 7;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
-    var7 = var7.TABLE_ROW_PADDING;
-    var _closure1_slot12 = var7;
-    var7 = 8;
-    var7 = var9[var7];
-    var7 = var8.bind(var1)(var7);
     var10 = var7.jsx;
-    var _closure1_slot13 = var10;
+    var _closure1_slot12 = var10;
     var10 = var7.jsxs;
-    var _closure1_slot14 = var10;
+    var _closure1_slot13 = var10;
     var7 = var7.Fragment;
-    var _closure1_slot15 = var7;
-    var7 = 9;
+    var _closure1_slot14 = var7;
+    var7 = 8;
     var7 = var9[var7];
     var11 = var8.bind(var1)(var7);
     var10 = var11.createStyles;
@@ -175,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = {'flexDirection': 'row', 'alignItems': 'center'};
     var7['nitroUpsell'] = var12;
     var12 = {'width': 16, 'height': 16};
-    var13 = 10;
+    var13 = 9;
     var13 = var9[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
@@ -183,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['tintColor'] = var13;
     var7['nitroIcon'] = var12;
     var7 = var10.bind(var11)(var7);
-    var _closure1_slot16 = var7;
+    var _closure1_slot15 = var7;
     var7 = 28;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -193,13 +188,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function UserSettingsText() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = _closure1_slot16;
-            var4 = undefined;
-            var5 = var1.bind(var4)();
-            var _closure2_slot0 = var5;
             var32 = _closure1_slot0;
             var29 = _closure1_slot2;
-            var23 = 12;
+            var1 = 13;
+            var1 = var29[var1];
+            var4 = undefined;
+            var3 = var32.bind(var4)(var1);
+            var2 = var3.useToken;
+            var13 = _closure1_slot1;
+            var10 = 9;
+            var1 = var29[var10];
+            var1 = var13.bind(var4)(var1);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var1 = var1.TABLE_ROW_PADDING;
+            var11 = var2.bind(var3)(var1);
+            var1 = _closure1_slot15;
+            var5 = var1.bind(var4)();
+            var _closure2_slot0 = var5;
+            var23 = 11;
             var1 = var29[var23];
             var1 = var32.bind(var4)(var1);
             var2 = var1.InlineAttachmentMedia;
@@ -302,7 +309,7 @@ case 0:
             var1 = var2.useNavigation;
             var1 = var1.bind(var2)();
             var _closure2_slot5 = var1;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var2 = _closure1_slot3;
             var1 = {};
             var5 = var5.flex;
@@ -312,24 +319,21 @@ case 0:
             var5 = var32.bind(var4)(var5);
             var6 = var5.Form;
             var5 = {};
-            var9 = _closure1_slot14;
+            var9 = _closure1_slot13;
             var7 = 23;
             var7 = var29[var7];
             var7 = var32.bind(var4)(var7);
             var8 = var7.Stack;
             var7 = {};
-            var11 = _closure1_slot1;
-            var10 = 10;
             var10 = var29[var10];
-            var10 = var11.bind(var4)(var10);
+            var10 = var13.bind(var4)(var10);
             var10 = var10.spacing;
             var10 = var10.PX_24;
             var7['spacing'] = var10;
             var10 = {};
-            var11 = _closure1_slot12;
             var10['paddingHorizontal'] = var11;
             var7['style'] = var10;
-            var13 = _closure1_slot15;
+            var13 = _closure1_slot14;
             var10 = {};
             var11 = 24;
             var14 = var29[var11];
@@ -440,7 +444,7 @@ case 0:
             var27['label'] = var31;
             var27['value'] = var30;
             var30 = function updateImageDescriptions(arg1) {
-                var3 = _closure1_slot20;
+                var3 = _closure1_slot19;
                 var2 = {};
                 var4 = _closure2_slot2;
                 var2['videoUploadQuality'] = var4;
@@ -483,7 +487,7 @@ case 0:
             var15['title'] = var21;
             var15['value'] = var20;
             var20 = function updateVideoUploadQuality(arg1) {
-                var3 = _closure1_slot19;
+                var3 = _closure1_slot18;
                 var2 = {};
                 var1 = arg1;
                 var2['videoUploadQuality'] = var1;
@@ -576,13 +580,13 @@ case 0:
             if(!var17) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var19 = function renderNitroUpsellText() {
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot13;
                 var3 = _closure1_slot3;
                 var2 = {};
                 var9 = _closure2_slot0;
                 var1 = var9.nitroUpsell;
                 var2['style'] = var1;
-                var8 = _closure1_slot13;
+                var8 = _closure1_slot12;
                 var11 = _closure1_slot1;
                 var13 = _closure1_slot2;
                 var10 = 18;
@@ -660,7 +664,7 @@ case 2:
             var13['children'] = var15;
             var13 = var9.bind(var4)(var2, var13);
             var10[1] = var13;
-            var13 = _closure1_slot13;
+            var13 = _closure1_slot12;
             var21 = _closure1_slot0;
             var17 = _closure1_slot2;
             var12 = var17[var11];
@@ -703,7 +707,7 @@ case 2:
             var19['label'] = var27;
             var19['value'] = var26;
             var26 = function toggleDataSavingMode(arg1) {
-                var3 = _closure1_slot18;
+                var3 = _closure1_slot17;
                 var2 = {};
                 var4 = _closure2_slot2;
                 var2['videoUploadQuality'] = var4;
@@ -842,7 +846,7 @@ case 2:
             var16 = function handleSync(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 13;
+                var1 = 12;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -870,7 +874,7 @@ case 2:
         var4 = arg1;
         var6 = _closure1_slot1;
         var5 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var3 = var5[var1];
         var1 = undefined;
         var8 = var6.bind(var1)(var3);
@@ -886,7 +890,7 @@ case 2:
         var3['location'] = var9;
         var3 = var7.bind(var8)(var6, var3);
         var3 = _closure1_slot0;
-        var2 = 12;
+        var2 = 11;
         var2 = var5[var2];
         var2 = var3.bind(var1)(var2);
         var3 = var2.IncludeStickersInAutocomplete;
@@ -901,7 +905,7 @@ case 2:
         var11 = var1.viewImageDescriptions;
         var5 = var1.lowQualityImageMode;
         var9 = var1.dataSavingMode;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot16;
         var1 = undefined;
         var13 = 'low_quality_image_mode';
         var14 = undefined;
@@ -909,7 +913,7 @@ case 2:
         var3 = var14[var4](var13, var12, var11, var10, var9, var8);
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var2 = 13;
+        var2 = 12;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.updatedUnsyncedSettings;

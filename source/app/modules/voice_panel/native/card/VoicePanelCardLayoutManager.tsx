@@ -966,7 +966,7 @@ case 88:
                 var _closure3_slot3 = var18;
                 var24 = var2.safeAreaLeft;
                 var25 = var2.safeAreaRight;
-                var21 = var2.safeAreaTop;
+                var20 = var2.safeAreaTop;
                 var13 = var2.safeAreaBottom;
                 var7 = var2.gutter;
                 var19 = var2.controlBarSize;
@@ -1147,9 +1147,9 @@ case 113:
                 var5 = var10.bind(var1)(var5);
                 if(var5) { _fun0017_ip = 112; continue _fun0017 }
 case 114:
-                var20 = var9.bind(var1)();
-                var5 = var20.done;
-                var8 = var20;
+                var21 = var9.bind(var1)();
+                var5 = var21.done;
+                var8 = var21;
                 if(!var5) { _fun0017_ip = 113; continue _fun0017 }
 case 112:
                 var5 = var17.size;
@@ -1172,21 +1172,21 @@ case 115:
                 var _closure3_slot11 = var23;
                 var9 = var6.Math;
                 var8 = var9.max;
-                var20 = _closure1_slot1;
+                var21 = _closure1_slot1;
                 var22 = _closure1_slot2;
                 var5 = 13;
                 var5 = var22[var5];
-                var20 = var20.bind(var1)(var5);
+                var21 = var21.bind(var1)(var5);
                 var5 = {};
-                var5['top'] = var21;
+                var5['top'] = var20;
                 var5['left'] = var24;
                 var5['right'] = var25;
                 var5['bottom'] = var13;
-                var5 = var20.bind(var1)(var5);
+                var20 = _closure1_slot14;
+                var5 = var21.bind(var1)(var5, var20);
                 var5 = var5.height;
-                var20 = var18 - var5;
-                var5 = _closure1_slot14;
-                var5 = var20 - var5;
+                var5 = var18 - var5;
+                var5 = var5 - var20;
                 var5 = var5 - var19;
                 var5 = var5 - var13;
                 var13 = 120;

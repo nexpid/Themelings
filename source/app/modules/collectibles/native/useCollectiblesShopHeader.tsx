@@ -427,12 +427,8 @@ case 13:
             var8 = 24;
             var8 = var19[var8];
             var8 = var9.bind(var4)(var8);
-            var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-strong', 'accessibilityRole': 'header'};
-            var19 = {};
-            var20 = 2;
-            var19['paddingTop'] = var20;
-            var8['style'] = var19;
+            var9 = var8.Heading;
+            var8 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary', 'maxFontSizeMultiplier': 2};
             var19 = _closure1_slot6;
             var19 = var19.ORBS;
             if(!(var15 !== var19)) { _fun0001_ip = 15; continue _fun0001 }
@@ -461,7 +457,7 @@ case 15:
             var20 = var25[var20];
             var20 = var24.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.EBYkzk;
+            var20 = var20.ElYQFS;
             var19 = var22.bind(var23)(var20);
 case 17:
             var8['children'] = var19;

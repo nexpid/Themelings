@@ -304,11 +304,9 @@ case 0:
 case 11:
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
-            var2 = {};
+            var2 = {'style': null, 'pointerEvents': 'box-none', 'accessibilityLabel': null, 'accessibilityRole': 'image', 'accessible': true};
             var6 = var11.container;
             var2['style'] = var6;
-            var6 = 'box-none';
-            var2['pointerEvents'] = var6;
             var20 = _closure1_slot0;
             var12 = _closure1_slot2;
             var17 = 8;
@@ -325,8 +323,7 @@ case 11:
             var6['a11y_text'] = var13;
             var6 = var9.bind(var10)(var8, var6);
             var2['accessibilityLabel'] = var6;
-            var6 = 'image';
-            var2['accessibilityRole'] = var6;
+            var14 = true;
             var6 = {};
             var8 = var11.memberListContainer;
             var6['style'] = var8;
@@ -335,7 +332,6 @@ case 11:
             var8 = {};
             var10 = var15.mallow;
             var8['user'] = var10;
-            var14 = true;
             var8['end'] = var14;
             var10 = var9.bind(var5)(var13, var8);
             var8 = new Array(7);

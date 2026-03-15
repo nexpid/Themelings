@@ -1792,6 +1792,10 @@ case 4:
     var17['EXPERIMENT_INSTALLATION_EVALUATION_EXPOSED'] = var2;
     var2 = 'experiment_installation_exposure_suppressed';
     var17['EXPERIMENT_INSTALLATION_EXPOSURE_SUPPRESSED'] = var2;
+    var2 = 'experiment_guild_evaluation_exposed';
+    var17['EXPERIMENT_GUILD_EVALUATION_EXPOSED'] = var2;
+    var2 = 'experiment_guild_exposure_suppressed';
+    var17['EXPERIMENT_GUILD_EXPOSURE_SUPPRESSED'] = var2;
     var2 = 'mktg_page_viewed';
     var17['MKTG_PAGE_VIEWED'] = var2;
     var2 = 'click_landing_cta';

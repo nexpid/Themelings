@@ -61,40 +61,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.BADGE_PADDING;
     var _closure1_slot14 = var4;
     var4 = 10;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot15 = var4;
+    var4 = 11;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'position': 'absolute', 'top': 1, 'right': 9, 'backgroundColor': 'transparent', 'borderColor': 'transparent'};
+    var9 = {'position': 'absolute', 'right': 9, 'backgroundColor': 'transparent', 'borderColor': 'transparent'};
     var4['topRightBadge'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot15 = var4;
-    var4 = 17;
+    var _closure1_slot16 = var4;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guilds_bar/native/hooks/useGuildsBarBadges.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useGuildsBarBadges(arg1, arg2, arg3) {
-        var6 = arg1;
-        var _closure2_slot0 = var6;
-        var1 = _closure1_slot15;
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var1 = _closure1_slot16;
         var7 = undefined;
-        var1 = var1.bind(var7)();
-        var _closure2_slot1 = var1;
-        var8 = _closure1_slot0;
+        var8 = var1.bind(var7)();
+        var _closure2_slot1 = var8;
+        var13 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var4 = 11;
-        var2 = var11[var4];
-        var13 = var8.bind(var7)(var2);
-        var12 = var13.useStateFromStores;
-        var2 = _closure1_slot9;
-        var10 = new Array(1);
-        var10[0] = var2;
-        var9 = function() {
+        var4 = 12;
+        var1 = var11[var4];
+        var12 = var13.bind(var7)(var1);
+        var10 = var12.useStateFromStores;
+        var1 = _closure1_slot9;
+        var9 = new Array(1);
+        var9[0] = var1;
+        var5 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var4 = _closure1_slot9;
@@ -120,22 +125,22 @@ case 4:
                 return var1;
             }
         };
-        var9 = var12.bind(var13)(var10, var9);
-        var _closure2_slot2 = var9;
-        var10 = var11[var4];
-        var14 = var8.bind(var7)(var10);
-        var13 = var14.useStateFromStores;
-        var10 = _closure1_slot7;
-        var12 = new Array(3);
-        var12[0] = var10;
-        var10 = _closure1_slot11;
-        var12[1] = var10;
-        var10 = _closure1_slot8;
-        var12[2] = var10;
-        var10 = new Array(2);
-        var10[0] = var6;
+        var5 = var10.bind(var12)(var9, var5);
+        var _closure2_slot2 = var5;
+        var9 = var11[var4];
+        var14 = var13.bind(var7)(var9);
+        var12 = var14.useStateFromStores;
+        var9 = _closure1_slot7;
+        var10 = new Array(3);
+        var10[0] = var9;
+        var9 = _closure1_slot11;
         var10[1] = var9;
-        var9 = function() {
+        var9 = _closure1_slot8;
+        var10[2] = var9;
+        var9 = new Array(2);
+        var9[0] = var2;
+        var9[1] = var5;
+        var5 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var1 = _closure2_slot2;
@@ -169,7 +174,7 @@ case 12:
 case 13:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 12;
+                var2 = 13;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -184,19 +189,19 @@ case 11:
                 return var1;
             }
         };
-        var10 = var13.bind(var14)(var12, var9, var10);
+        var10 = var12.bind(var14)(var10, var5, var9);
         var4 = var11[var4];
-        var12 = var8.bind(var7)(var4);
+        var12 = var13.bind(var7)(var4);
         var9 = var12.useStateFromStores;
         var4 = _closure1_slot10;
-        var8 = new Array(3);
-        var8[0] = var4;
-        var8[1] = var2;
-        var2 = _closure1_slot6;
-        var8[2] = var2;
+        var5 = new Array(3);
+        var5[0] = var4;
+        var5[1] = var1;
+        var1 = _closure1_slot6;
+        var5[2] = var1;
         var4 = new Array(1);
-        var4[0] = var6;
-        var2 = function() {
+        var4[0] = var2;
+        var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var4 = _closure1_slot9;
@@ -268,94 +273,137 @@ case 20:
                 return var1;
             }
         };
-        var9 = var9.bind(var12)(var8, var2, var4);
+        var9 = var9.bind(var12)(var5, var1, var4);
         var4 = _closure1_slot1;
-        var2 = 13;
-        var2 = var11[var2];
-        var2 = var4.bind(var7)(var2);
-        var2 = var2.bind(var7)(var6);
+        var1 = 14;
+        var1 = var11[var1];
+        var1 = var4.bind(var7)(var1);
+        var2 = var1.bind(var7)(var2);
         var _closure2_slot3 = var2;
+        var12 = 15;
+        var1 = var11[var12];
+        var15 = var13.bind(var7)(var1);
+        var14 = var15.useToken;
+        var5 = 16;
+        var1 = var11[var5];
+        var1 = var4.bind(var7)(var1);
+        var1 = var1.modules;
+        var1 = var1.mobile;
+        var1 = var1.GUILD_BAR_ITEM_SIZE;
+        var1 = var14.bind(var15)(var1);
+        var _closure2_slot4 = var1;
+        var12 = var11[var12];
+        var13 = var13.bind(var7)(var12);
+        var12 = var13.useToken;
+        var5 = var11[var5];
+        var5 = var4.bind(var7)(var5);
+        var5 = var5.modules;
+        var5 = var5.mobile;
+        var5 = var5.GUILD_BAR_ITEM_MARGIN;
+        var5 = var12.bind(var13)(var5);
+        var _closure2_slot5 = var5;
         var6 = _closure1_slot5;
+        var12 = var6.useMemo;
+        var13 = var8.topRightBadge;
+        var8 = new Array(2);
+        var8[0] = var13;
+        var8[1] = var5;
+        var5 = function() {
+            var1 = _closure2_slot1;
+            var2 = var1.topRightBadge;
+            var1 = new Array(2);
+            var1[0] = var2;
+            var2 = {};
+            var4 = _closure2_slot5;
+            var3 = _closure1_slot14;
+            var3 = var4 - var3;
+            var2['top'] = var3;
+            var1[1] = var2;
+            return var1;
+        };
+        var12 = var12.bind(var6)(var5, var8);
+        var _closure2_slot6 = var12;
         var8 = var6.useMemo;
-        var5 = new Array(2);
+        var5 = new Array(3);
         var5[0] = var2;
-        var1 = var1.topRightBadge;
-        var5[1] = var1;
+        var5[1] = var12;
+        var5[2] = var1;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var12 = 14;
+                var12 = 17;
                 var1 = var1[var12];
                 var5 = undefined;
                 var4 = var2.bind(var5)(var1);
                 var2 = var4.getMediaIcon;
                 var1 = _closure2_slot3;
                 var2 = var2.bind(var4)(var1);
-                var7 = {};
+                var8 = {};
                 var4 = null;
                 var1 = var4 == var2;
-                var6 = undefined;
+                var7 = undefined;
                 if(var1) { _fun0004_ip = 2; continue _fun0004 }
 case 26:
-                var6 = var2.source;
+                var7 = var2.source;
 case 2:
-                var8 = var4 != var6;
+                var9 = var4 != var7;
                 var1 = null;
-                if(!var8) { _fun0004_ip = 27; continue _fun0004 }
+                if(!var9) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
-                var1 = var6;
+                var1 = var7;
 case 27:
-                var7['guildActivityIndicatorSource'] = var1;
-                var6 = var4 == var2;
+                var8['guildActivityIndicatorSource'] = var1;
+                var7 = var4 == var2;
                 var1 = undefined;
-                if(var6) { _fun0004_ip = 29; continue _fun0004 }
+                if(var7) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
                 var1 = var2.icon;
 case 29:
-                var7['IconComponent'] = var1;
+                var8['IconComponent'] = var1;
                 var1 = _closure2_slot3;
                 var1 = var1.isCurrentUserConnected;
-                var7['isCurrentUserConnected'] = var1;
-                var2 = var7.guildActivityIndicatorSource;
-                var6 = _closure1_slot4;
+                var8['isCurrentUserConnected'] = var1;
+                var2 = var8.guildActivityIndicatorSource;
+                var7 = _closure1_slot4;
                 var1 = _closure1_slot3;
-                var10 = var6.bind(var5)(var7, var1);
+                var11 = var7.bind(var5)(var8, var1);
                 var1 = {};
-                var7 = var4 != var2;
-                var6 = null;
-                if(!var7) { _fun0004_ip = 31; continue _fun0004 }
+                var8 = var4 != var2;
+                var7 = null;
+                if(!var8) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                var9 = _closure1_slot14;
-                var8 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var7 = var7[var12];
-                var7 = var8.bind(var5)(var7);
-                var8 = var7.GuildsBarActivityIndicatorBase;
-                var7 = {};
-                var11 = _closure2_slot1;
-                var11 = var11.topRightBadge;
-                var7['style'] = var11;
-                var7['source'] = var2;
-                var14 = var7;
-                var13 = var10;
-                var10 = copyDataProperties(var14, var13);
-                var6 = var9.bind(var5)(var8, var7);
+                var10 = _closure1_slot15;
+                var9 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var8 = var8[var12];
+                var8 = var9.bind(var5)(var8);
+                var9 = var8.GuildsBarActivityIndicatorBase;
+                var8 = {};
+                var12 = _closure2_slot6;
+                var8['style'] = var12;
+                var8['source'] = var2;
+                var14 = var8;
+                var13 = var11;
+                var11 = copyDataProperties(var14, var13);
+                var7 = var10.bind(var5)(var9, var8);
 case 31:
-                var1['badgeTopRight'] = var6;
+                var1['badgeTopRight'] = var7;
                 var4 = var4 != var2;
                 var2 = undefined;
                 if(!var4) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
                 var4 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                var3 = 15;
-                var3 = var6[var3];
+                var7 = _closure1_slot2;
+                var3 = 18;
+                var3 = var7[var3];
                 var4 = var4.bind(var5)(var3);
                 var3 = {};
-                var6 = 'top-right';
-                var3['position'] = var6;
+                var7 = 'top-right';
+                var3['position'] = var7;
+                var6 = _closure2_slot4;
+                var3['containerSize'] = var6;
                 var2 = var4.bind(var5)(var3);
 case 33:
                 var1['cutoutTopRight'] = var2;
@@ -365,8 +413,8 @@ case 33:
         var1 = var8.bind(var6)(var1, var5);
         var5 = var1.badgeTopRight;
         var8 = var1.cutoutTopRight;
-        var _closure2_slot4 = var8;
-        var1 = 16;
+        var _closure2_slot7 = var8;
+        var1 = 19;
         var1 = var11[var1];
         var4 = var4.bind(var7)(var1);
         var1 = {};
@@ -379,7 +427,7 @@ case 33:
         var1 = var4.bind(var7)(var1);
         var4 = var1.badge;
         var7 = var1.cutout;
-        var _closure2_slot5 = var7;
+        var _closure2_slot8 = var7;
         var1 = {};
         var1['badgeTopRight'] = var5;
         var1['badgeBottomRight'] = var4;
@@ -391,19 +439,19 @@ case 33:
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = new Array(0);
-                var3 = _closure2_slot4;
+                var3 = _closure2_slot7;
                 var4 = null;
                 if(!(var4 != var3)) { _fun0005_ip = 35; continue _fun0005 }
 case 36:
                 var5 = var1.push;
-                var3 = _closure2_slot4;
+                var3 = _closure2_slot7;
                 var3 = var5.bind(var1)(var3);
 case 35:
-                var3 = _closure2_slot5;
+                var3 = _closure2_slot8;
                 if(!(var4 != var3)) { _fun0005_ip = 37; continue _fun0005 }
 case 38:
                 var3 = var1.push;
-                var2 = _closure2_slot5;
+                var2 = _closure2_slot8;
                 var2 = var3.bind(var1)(var2);
 case 37:
                 return var1;

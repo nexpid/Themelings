@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_SURFACE_HIGH;
+    var12 = var12.BACKGROUND_SECONDARY_ALT;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 'hidden';
     var9['overflow'] = var12;
     var4['card'] = var9;
-    var9 = {'width': '100%', 'maxWidth': 317, 'height': 144, 'borderRadius': null, 'marginBottom': null, 'alignSelf': 'center'};
+    var9 = {'width': '100%', 'maxWidth': 317, 'height': 144};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.radii;
@@ -83,6 +83,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.spacing;
     var12 = var12.PX_16;
     var9['marginBottom'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_8;
+    var9['padding'] = var12;
+    var12 = 'center';
+    var9['alignSelf'] = var12;
     var4['image'] = var9;
     var9 = {};
     var12 = var6[var10];

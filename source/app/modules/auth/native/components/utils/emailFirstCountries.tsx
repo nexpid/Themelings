@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var1.Set;
     var1 = var4.prototype;
     var2 = Object.create(var1, {constructor: {value: var4}});
-    var9 = ['FI', 'ID', 'NG', 'BJ', 'BI', 'MH', 'LS', 'IR', 'AS', 'CU', 'GI', 'SC', 'AX', 'BL', 'FK', 'GG', 'IO', 'NU', 'PM', 'TK', 'TM', 'TV', 'WF'];
+    var9 = ['FI', 'ID', 'NG', 'BJ', 'BI', 'MH', 'LS', 'IR', 'AS', 'CU', 'GI', 'SC', 'AX', 'BL', 'FK', 'GG', 'IO', 'NU', 'PM', 'TK', 'TM', 'TV', 'WF', 'BD', 'PK', 'PH', 'MM', 'UA', 'UZ', 'KZ', 'KG', 'SA', 'MA', 'PE', 'NL', 'KH', 'VE', 'NP', 'DZ', 'IL', 'MN', 'AZ', 'SV', 'RO', 'BY', 'EC', 'GE', 'ZA', 'RS', 'GR', 'LB', 'YE', 'GT', 'BG', 'JO', 'NO', 'LK', 'BE', 'KW', 'PA', 'HR', 'SE', 'ET', 'KE', 'NZ', 'AO', 'HN', 'TN', 'IE', 'DO', 'GH', 'SG', 'MG', 'DK', 'PS', 'SI', 'NI', 'HU', 'OM', 'BA', 'TJ', 'UG', 'ZM', 'CL', 'RE', 'LY', 'AM', 'JM', 'ZW', 'QA', 'PY', 'BT', 'XK', 'PT', 'CR', 'SN', 'CM', 'TZ', 'HT', 'GN', 'CN', 'UY', 'SY', 'SK', 'CD', 'GA', 'LT', 'ME', 'SO', 'CZ', 'TT', 'MD', 'CI', 'AL', 'MK', 'BF', 'PF', 'LU', 'RU', 'LV', 'BH', 'EE', 'SL', 'MU', 'TR', 'GM', 'CV', 'TG', 'SD', 'BW', 'SS', 'LA', 'BZ', 'PG', 'NE', 'BS', 'SZ', 'MO', 'PR', 'GD', 'AW', 'GY', 'CG', 'SR', 'TC', 'IS', 'TD', 'GQ', 'TO', 'GU', 'GP', 'WS', 'MQ', 'NC', 'KN', 'MW', 'BN', 'MR', 'ST', 'RW', 'VU', 'FO', 'LR', 'GL', 'BM', 'CF', 'MC', 'VI', 'MP', 'YT', 'FM', 'IM', 'GW', 'AD', 'MV', 'SB', 'BB', 'DM', 'MT', 'AG', 'CW', 'JE', 'KI', 'DJ', 'MF', 'CK', 'LC', 'CY', 'KY', 'VC', 'ML', 'VG', 'GF', 'FJ', 'MZ', 'EG', 'AF', 'KM', 'AI', 'BQ', 'ER', 'LI', 'MS', 'NR', 'PW', 'SM', 'SX', 'TL'];
     var10 = var2;
     var1 = new var10[var4](var9, var8);
     var2 = var1 instanceof Object ? var1 : var2;

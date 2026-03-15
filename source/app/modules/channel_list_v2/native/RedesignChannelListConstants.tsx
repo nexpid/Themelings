@@ -45,6 +45,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 'text-sm/semibold';
     var3['SEARCH_BAR_TEXT_VARIANT'] = var8;
     var3['CATEGORY_NAME_TEXT_VARIANT'] = var8;
+    var8 = function getCategoryNameTextVariant(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = 'text-sm/semibold';
+            var2 = arg1;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = 'text-sm/medium';
+case 2:
+            return var1;
+        }
+    };
+    var3['getCategoryNameTextVariant'] = var8;
     var3['PANEL_MARGIN'] = var6;
     var3['CHANNEL_MARGIN_VERTICAL'] = var7;
     var7 = 375;

@@ -28,6 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['PREMIUM_UPSELL'] = var1;
     var1 = 'SOUNDMOJI';
     var6['SOUNDMOJI'] = var1;
+    var1 = 'KAOMOJI';
+    var6['KAOMOJI'] = var1;
     var5 = {};
     var1 = 'recent';
     var5['RECENT'] = var1;
@@ -57,6 +59,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['PREMIUM_UPSELL'] = var1;
     var1 = 'soundmoji';
     var5['SOUNDMOJI'] = var1;
+    var1 = 'kaomoji';
+    var5['KAOMOJI'] = var1;
     var4 = {};
     var1 = '';
     var4['NONE'] = var1;
@@ -100,6 +104,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SOUNDBOARD_PICKER_TAB_PANEL_ID'] = var2;
     var2 = 'soundboard-picker-tab';
     var3['SOUNDBOARD_PICKER_TAB_ID'] = var2;
+    var2 = 'kaomoji-picker-tab-panel';
+    var3['KAOMOJI_PICKER_TAB_PANEL_ID'] = var2;
+    var2 = 'kaomoji-picker-tab';
+    var3['KAOMOJI_PICKER_TAB_ID'] = var2;
     var2 = 'gif-picker-tab-panel';
     var3['GIF_PICKER_TAB_PANEL_ID'] = var2;
     var2 = 'gif-picker-tab';

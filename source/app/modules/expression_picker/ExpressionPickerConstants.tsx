@@ -18,6 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['STICKER'] = var1;
     var1 = 'soundboard';
     var5['SOUNDBOARD'] = var1;
+    var1 = 'kaomoji';
+    var5['KAOMOJI'] = var1;
     var4 = {};
     var1 = 'min';
     var4['MIN'] = var1;

@@ -43,8 +43,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 5;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_16;
+    var10 = var10.modules;
+    var10 = var10.mobile;
+    var10 = var10.SETTINGS_PADDING_TOP;
     var9['marginTop'] = var10;
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);

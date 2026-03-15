@@ -24,13 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.TABLE_ROW_PADDING;
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -115,7 +110,7 @@ case 2:
             }
         };
         var5 = var3.bind(var5)(var1, var2);
-        var3 = _closure1_slot5;
+        var3 = _closure1_slot4;
         var10 = 6;
         var1 = var8[var10];
         var1 = var13.bind(var4)(var1);
@@ -159,29 +154,49 @@ case 2:
         return var1;
     };
     var3['default'] = var4;
-    var2 = function getScaledGuildProgressButtonHeight(arg1) {
-        var6 = arg1;
-        var2 = _closure1_slot4;
-        var5 = _closure1_slot0;
-        var7 = _closure1_slot2;
-        var1 = 3;
-        var3 = var7[var1];
-        var4 = undefined;
-        var9 = var5.bind(var4)(var3);
-        var8 = var9.scaleTextLineHeight;
-        var3 = 'text-md/semibold';
-        var3 = var8.bind(var9)(var3, var6);
-        var3 = var2 + var3;
-        var1 = var7[var1];
-        var5 = var5.bind(var4)(var1);
-        var4 = var5.scaleTextLineHeight;
-        var1 = 'text-xs/medium';
-        var4 = var4.bind(var5)(var1, var6);
-        var1 = 2;
-        var1 = var1 * var4;
-        var1 = var3 + var1;
-        var1 = var1 + var2;
-        return var1;
+    var2 = function getScaledGuildProgressButtonHeight(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var7 = arg1;
+            var1 = arg2;
+            if(var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
+            var9 = new Array(0);
+            _fun0003_ip = 6; continue _fun0003;
+case 4:
+            var9 = ['mobile-visual-refresh'];
+case 6:
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var4 = 2;
+            var2 = var8[var4];
+            var6 = undefined;
+            var2 = var3.bind(var6)(var2);
+            var2 = var2.modules;
+            var2 = var2.mobile;
+            var5 = var2.TABLE_ROW_PADDING;
+            var3 = var5.resolve;
+            var2 = {};
+            var2['enabledExperiments'] = var9;
+            var2 = var3.bind(var5)(var2);
+            var5 = _closure1_slot0;
+            var1 = 3;
+            var3 = var8[var1];
+            var10 = var5.bind(var6)(var3);
+            var9 = var10.scaleTextLineHeight;
+            var3 = 'text-md/semibold';
+            var3 = var9.bind(var10)(var3, var7);
+            var3 = var2 + var3;
+            var1 = var8[var1];
+            var6 = var5.bind(var6)(var1);
+            var5 = var6.scaleTextLineHeight;
+            var1 = 'text-xs/medium';
+            var1 = var5.bind(var6)(var1, var7);
+            var1 = var4 * var1;
+            var1 = var3 + var1;
+            var1 = var1 + var2;
+            return var1;
+        }
     };
     var3['getScaledGuildProgressButtonHeight'] = var2;
     return var1;

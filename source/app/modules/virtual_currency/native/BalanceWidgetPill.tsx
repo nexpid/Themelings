@@ -544,12 +544,18 @@ case 46:
             var4 = var1.CONTROL_PRIMARY_TEXT_DEFAULT;
 case 48:
             var1 = {};
-            var2 = {'height': 36, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row'};
-            var7 = _closure1_slot1;
+            var2 = {'height': null, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row'};
+            var9 = _closure1_slot0;
             var8 = _closure1_slot2;
+            var3 = 13;
+            var7 = var8[var3];
+            var3 = undefined;
+            var7 = var9.bind(var3)(var7);
+            var7 = var7.SMALL_BUTTON_HEIGHT;
+            var2['height'] = var7;
+            var7 = _closure1_slot1;
             var6 = 12;
             var9 = var8[var6];
-            var3 = undefined;
             var9 = var7.bind(var3)(var9);
             var9 = var9.radii;
             var9 = var9.round;
@@ -596,7 +602,7 @@ case 51:
     };
     var4 = var8.bind(var9)(var4);
     var _closure1_slot12 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

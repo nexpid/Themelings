@@ -408,7 +408,7 @@ case 25:
             var8 = var3.bind(var7)(var2);
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
-            var1 = {};
+            var1 = {'style': null, 'importantForAccessibility': 'no-hide-descendants', 'accessibilityElementsHidden': true};
             var7 = var6.assetContainer;
             var6 = new Array(2);
             var6[0] = var7;

@@ -28,6 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUILD_TAGS_BADGE_PACK_PLANT_POWERUP_SKU_ID'] = var2;
     var2 = '1466209416931055898';
     var3['GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES_POWERUP_SKU_ID'] = var2;
+    var2 = '1479204648718958665';
+    var3['GUILD_POWERUP_MAX_FILE_SIZE_250_MB_SKU_ID'] = var2;
     var2 = '1341586379779604621';
     var3['GUILD_POWERUP_LEVEL_1_SKU_ID'] = var2;
     var2 = '1341586379779604622';

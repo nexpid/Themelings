@@ -851,35 +851,34 @@ case 128:
             var2 = var4.bind(var3)(var2);
 case 127:
             var2 = var6.parent_id;
-            if(!(var2 !== var5)) { _fun0008_ip = 130; continue _fun0008 }
+            var2 = var2 !== var5;
+            if(!var2) { _fun0008_ip = 130; continue _fun0008 }
 case 131:
-            var2 = false;
-            var _closure2_slot5 = var2;
-            var4 = _closure2_slot4;
-            var3 = var4.find;
-            var2 = function(arg1) {
+            var7 = _closure2_slot4;
+            var4 = var7.find;
+            var3 = function(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                    var4 = arg1;
-                    var2 = var4.id;
+                    var3 = arg1;
+                    var4 = var3.id;
                     var1 = _closure2_slot0;
                     var1 = var1.id;
-                    var1 = var2 === var1;
-                    if(!var1) { _fun0010_ip = 30; continue _fun0010 }
+                    var1 = var4 === var1;
+                    if(!var1) { _fun0010_ip = 132; continue _fun0010 }
 case 15:
                     var2 = _closure2_slot1;
-                    var4['parent_id'] = var2;
-                    var2 = true;
-                    _closure2_slot5 = var2;
+                    var3['parent_id'] = var2;
                     var1 = true;
-case 30:
+case 132:
                     return var1;
                 }
             };
-            var2 = var3.bind(var4)(var2);
-            var2 = _closure2_slot5;
-            if(var2) { _fun0008_ip = 130; continue _fun0008 }
-case 132:
+            var4 = var4.bind(var7)(var3);
+            var3 = null;
+            var2 = var3 == var4;
+case 130:
+            if(!var2) { _fun0008_ip = 133; continue _fun0008 }
+case 57:
             var4 = _closure2_slot4;
             var3 = var4.push;
             var2 = {};
@@ -887,7 +886,7 @@ case 132:
             var2['id'] = var6;
             var2['parent_id'] = var5;
             var2 = var3.bind(var4)(var2);
-case 130:
+case 133:
             var1 = _closure2_slot4;
             return var1;
         }

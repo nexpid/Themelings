@@ -311,18 +311,36 @@ case 15:
                             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0: // try_start_0
                                 var3 = _closure1_slot0;
-                                var2 = _closure1_slot2;
-                                var1 = 10;
-                                var2 = var2[var1];
-                                var1 = undefined;
-                                var2 = var3.bind(var1)(var2);
+                                var4 = _closure1_slot2;
+                                var1 = 8;
+                                var1 = var4[var1];
+                                var4 = undefined;
+                                var1 = var3.bind(var4)(var1);
+                                var5 = var1.AdGetDecisionHeroAdsExperiment;
+                                var3 = var5.getConfig;
+                                var1 = {};
+                                var6 = 'QuestFetchManager';
+                                var1['location'] = var6;
+                                var1 = var3.bind(var5)(var1);
+                                var1 = var1.enabled;
+                                var3 = _closure1_slot0;
+                                var5 = _closure1_slot2;
+                                var2 = 10;
+                                var2 = var5[var2];
+                                var2 = var3.bind(var4)(var2);
+                                if(var1) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
                                 var1 = var2.fetchQuestHomeHero;
                                 var1 = var1.bind(var2)();
-case 16: // try_end0
-                                _fun0006_ip = 17; continue _fun0006;
-case 18: // catch_target0
+                                _fun0006_ip = 18; continue _fun0006;
+case 16:
+                                var1 = var2.fetchQuestHomeHeroDecision;
+                                var1 = var1.bind(var2)();
+case 18: // try_end0
+                                _fun0006_ip = 19; continue _fun0006;
+case 20: // catch_target0
                                 CatchBlockStart(arg_register=0);
-case 17:
+case 19:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -350,16 +368,16 @@ case 0:
                         var1 = 'localization';
                         var4 = var1 in var4;
                         var1 = !var4;
-                        if(!var4) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
-                        var1 = !var3;
-case 19:
-                        if(var1) { _fun0007_ip = 21; continue _fun0007 }
+                        if(!var4) { _fun0007_ip = 21; continue _fun0007 }
 case 22:
-                        var1 = var2;
+                        var1 = !var3;
 case 21:
                         if(var1) { _fun0007_ip = 23; continue _fun0007 }
 case 24:
+                        var1 = var2;
+case 23:
+                        if(var1) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
                         var2 = global;
                         var3 = var2.Date;
                         var2 = var3.now;
@@ -369,9 +387,9 @@ case 24:
                         var3 = var3 - var2;
                         var2 = _closure1_slot13;
                         var1 = var3 <= var2;
-case 23:
-                        if(var1) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+case 25:
+                        if(var1) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                         var3 = _closure3_slot0;
                         var1 = global;
                         var2 = var1.Date;
@@ -381,7 +399,7 @@ case 26:
                         var2 = var3._fetch;
                         var1 = 'user_settings';
                         var1 = var2.bind(var3)(var1);
-case 25:
+case 27:
                         var1 = undefined;
                         return var1;
                     }
@@ -450,13 +468,13 @@ case 0:
                 var6 = var6.QUESTS_MANAGER;
                 var2['location'] = var6;
                 var2 = var3.bind(var5)(var2);
-                if(!var2) { _fun0008_ip = 27; continue _fun0008 }
-case 28:
+                if(!var2) { _fun0008_ip = 29; continue _fun0008 }
+case 30:
                 var3 = _closure1_slot8;
                 var3 = var3.isFetchingCurrentQuests;
                 var2 = !var3;
-case 27:
-                if(!var2) { _fun0008_ip = 29; continue _fun0008 }
+case 29:
+                if(!var2) { _fun0008_ip = 31; continue _fun0008 }
 case 5:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -470,8 +488,8 @@ case 5:
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isMac;
                 var3 = var3.bind(var5)();
-                if(!var3) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
+                if(!var3) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 12;
@@ -481,9 +499,9 @@ case 31:
                 var6 = var5.bind(var6)();
                 var5 = 'focused';
                 var3 = var5 !== var6;
-case 30:
-                if(var3) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
+case 32:
+                if(var3) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 13;
@@ -495,9 +513,9 @@ case 33:
                 var5['location'] = var8;
                 var5 = var6.bind(var7)(var5);
                 var3 = var5.enableNewRequestBehavior;
-case 32:
-                if(var3) { _fun0008_ip = 29; continue _fun0008 }
 case 34:
+                if(var3) { _fun0008_ip = 31; continue _fun0008 }
+case 36:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = var6[var2];
@@ -510,7 +528,7 @@ case 34:
                 var3 = var2.MOBILE_HOME_DOCK_AREA;
                 var2 = arg1;
                 var2 = var4.bind(var5)(var3, var2);
-case 29:
+case 31:
                 return var1;
             }
         };

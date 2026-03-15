@@ -176,14 +176,113 @@ case 16:
     var6 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
+            var6 = arg1;
+            var1 = var6.percentComplete;
+            var3 = 0;
+            var1 = var1 > var3;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var4 = 6;
+            var4 = var7[var4];
+            var7 = undefined;
+            var5 = var5.bind(var7)(var4);
+            var4 = var5.getRemainingTaskTime;
+            var4 = var4.bind(var5)(var6);
+            var10 = var4.minutes;
+            var9 = var4.seconds;
+            if(!(var10 > var3)) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
+            if(!(!(var9 > var3))) { _fun0004_ip = 24; continue _fun0004 }
+case 22:
+            if(!(!(var10 > var3))) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 7;
+            var5 = var8[var3];
+            var5 = var4.bind(var7)(var5);
+            var6 = var5.intl;
+            var5 = var6.formatToPlainString;
+            var3 = var8[var3];
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.t;
+            var4 = var3.0BZpdi;
+            var3 = {};
+            var3['count'] = var9;
+            var6 = var5.bind(var6)(var4, var3);
+            _fun0004_ip = 27; continue _fun0004;
+case 25:
+            var4 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var3 = 7;
+            var5 = var11[var3];
+            var5 = var4.bind(var7)(var5);
+            var8 = var5.intl;
+            var5 = var8.formatToPlainString;
+            var3 = var11[var3];
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.t;
+            var4 = var3.SxnF/O;
+            var3 = {};
+            var3['count'] = var10;
+            var6 = var5.bind(var8)(var4, var3);
+case 27:
+            _fun0004_ip = 28; continue _fun0004;
+case 24:
+            var4 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var3 = 7;
+            var5 = var11[var3];
+            var5 = var4.bind(var7)(var5);
+            var8 = var5.intl;
+            var5 = var8.formatToPlainString;
+            var3 = var11[var3];
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.t;
+            var4 = var3.lW/66D;
+            var3 = {};
+            var3['minutes'] = var10;
+            var3['seconds'] = var9;
+            var6 = var5.bind(var8)(var4, var3);
+case 28:
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 7;
+            var4 = var8[var2];
+            var4 = var3.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var8[var2];
+            var2 = var3.bind(var7)(var2);
+            var2 = var2.t;
+            if(var1) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+            var3 = var2.GNsKiW;
+            var1 = {};
+            var1['remainTime'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0004_ip = 31; continue _fun0004;
+case 29:
+            var3 = var2.c59/Tp;
+            var2 = {};
+            var2['remainTime'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 31:
+            return var1;
+        }
+    };
+    var3['getVideoQuestWatchCtaAccessibilityLabel'] = var6;
+    var6 = function(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
             var8 = arg1;
             var2 = var8.percentComplete;
             var1 = 0;
-            if(!(!(var2 > var1))) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+            if(!(!(var2 > var1))) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var1 = 6;
+            var1 = 7;
             var2 = var9[var1];
             var6 = undefined;
             var2 = var7.bind(var6)(var2);
@@ -194,18 +293,18 @@ case 23:
             var1 = var1.t;
             var2 = var1.GNsKiW;
             var1 = {};
-            var5 = 7;
+            var5 = 6;
             var5 = var9[var5];
             var6 = var7.bind(var6)(var5);
             var5 = var6.formatWatchTaskRemainingTime;
             var5 = var5.bind(var6)(var8);
             var1['remainTime'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0004_ip = 24; continue _fun0004;
-case 22:
+            _fun0005_ip = 34; continue _fun0005;
+case 32:
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
-            var2 = 6;
+            var2 = 7;
             var3 = var10[var2];
             var7 = undefined;
             var3 = var9.bind(var7)(var3);
@@ -216,31 +315,31 @@ case 22:
             var2 = var2.t;
             var3 = var2.c59/Tp;
             var2 = {};
-            var6 = 7;
+            var6 = 6;
             var6 = var10[var6];
             var7 = var9.bind(var7)(var6);
             var6 = var7.formatWatchTaskRemainingTime;
             var6 = var6.bind(var7)(var8);
             var2['remainTime'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 24:
+case 34:
             return var1;
         }
     };
     var3['getVideoQuestWatchCtaText'] = var6;
     var3['formatVideoProgressRatio'] = var5;
     var5 = function getVideoQuestEndCardCtaText(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.ctaConfig;
             var1 = var1.buttonLabel;
             var2 = null;
-            if(!(var2 == var1)) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+            if(!(var2 == var1)) { _fun0006_ip = 35; continue _fun0006 }
+case 36:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var2 = 6;
+            var2 = 7;
             var3 = var7[var2];
             var5 = undefined;
             var3 = var6.bind(var5)(var3);
@@ -251,13 +350,13 @@ case 26:
             var2 = var2.t;
             var2 = var2.iiTtpJ;
             var1 = var3.bind(var4)(var2);
-case 25:
+case 35:
             return var1;
         }
     };
     var3['getVideoQuestEndCardCtaText'] = var5;
     var5 = function handleVideoQuestModalClose(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var9 = var1.questId;
@@ -269,41 +368,41 @@ case 0:
             var1 = var2.getVideoProgress;
             var15 = var1.bind(var2)(var9);
             var3 = null;
-            if(!(var3 != var15)) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(!(var3 != var15)) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
             var2 = _closure1_slot3;
             var1 = var2.getQuest;
             var5 = var1.bind(var2)(var9);
             var1 = var3 != var5;
-            if(!var1) { _fun0006_ip = 29; continue _fun0006 }
+            if(!var1) { _fun0007_ip = 39; continue _fun0007 }
 case 21:
             var8 = var5.userStatus;
             var10 = var3 == var8;
             var2 = undefined;
-            if(var10) { _fun0006_ip = 30; continue _fun0006 }
+            if(var10) { _fun0007_ip = 40; continue _fun0007 }
 case 8:
             var2 = var8.enrolledAt;
-case 30:
+case 40:
             var1 = var3 != var2;
-case 29:
-            if(!var1) { _fun0006_ip = 31; continue _fun0006 }
-case 22:
+case 39:
+            if(!var1) { _fun0007_ip = 41; continue _fun0007 }
+case 32:
             var8 = var5.userStatus;
             var10 = var3 == var8;
             var2 = undefined;
-            if(var10) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+            if(var10) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
             var2 = var8.completedAt;
-case 32:
+case 42:
             var1 = var3 == var2;
-case 31:
-            if(!var1) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
+case 41:
+            if(!var1) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
             var3 = _closure1_slot6;
             var2 = var15.maxTimestampSec;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var2);
-case 34:
+case 44:
             var5 = _closure1_slot7;
             var2 = var15.maxTimestampSec;
             var1 = var15.duration;
@@ -345,7 +444,7 @@ case 34:
             var1['properties'] = var5;
             var1['sourceQuestContent'] = var4;
             var1 = var2.bind(var3)(var1);
-case 27:
+case 37:
             var1 = undefined;
             return var1;
         }
@@ -353,12 +452,12 @@ case 27:
     var3['handleVideoQuestModalClose'] = var5;
     var3['getVideoQuestModalKey'] = var4;
     var2 = function isVideoQuestProgressing(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = arg1;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 7;
+            var1 = 6;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -366,7 +465,7 @@ case 0:
             var1 = var1.bind(var3)(var2);
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0007_ip = 36; continue _fun0007 }
+            if(var3) { _fun0008_ip = 46; continue _fun0008 }
 case 18:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -378,7 +477,7 @@ case 18:
             var2 = var2.id;
             var2 = var5.bind(var4)(var2);
             var1 = var3.bind(var4)(var2);
-case 36:
+case 46:
             return var1;
         }
     };

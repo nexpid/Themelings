@@ -839,77 +839,73 @@ case 67:
     var5 = function trackAppStoreOverlayEvent(arg1, arg2, arg3, arg4, arg5) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-            var8 = arg1;
+            var9 = arg1;
             var4 = arg2;
             var5 = arg4;
-            var7 = arg5;
-            var6 = {};
-            var9 = _closure1_slot0;
+            var8 = arg5;
+            var7 = {};
+            var6 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 16;
             var11 = var10[var3];
             var1 = undefined;
-            var13 = var9.bind(var1)(var11);
+            var13 = var6.bind(var1)(var11);
             var12 = var13.getQuestContentName;
             var11 = var4.content;
             var11 = var12.bind(var13)(var11);
-            var6['content_name'] = var11;
+            var7['content_name'] = var11;
             var11 = var4.ctaContent;
-            var6['cta_name'] = var11;
+            var7['cta_name'] = var11;
             var11 = var4.impressionId;
-            var6['impression_id'] = var11;
+            var7['impression_id'] = var11;
             var11 = var10[var3];
-            var13 = var9.bind(var1)(var11);
+            var13 = var6.bind(var1)(var11);
             var12 = var13.getQuestContentName;
             var11 = var4.sourceQuestContent;
             var11 = var12.bind(var13)(var11);
-            var6['source_content_name'] = var11;
+            var7['source_content_name'] = var11;
             var11 = arg3;
-            var6['app_id'] = var11;
+            var7['app_id'] = var11;
             var11 = var4.position;
-            var6['content_position'] = var11;
+            var7['content_position'] = var11;
             var3 = var10[var3];
-            var9 = var9.bind(var1)(var3);
-            var3 = var9.getQuestStatus;
-            var3 = var3.bind(var9)(var8);
-            var6['quest_status'] = var3;
+            var6 = var6.bind(var1)(var3);
+            var3 = var6.getQuestStatus;
+            var3 = var3.bind(var6)(var9);
+            var7['quest_status'] = var3;
             var3 = _closure1_slot8;
             var3 = var3.QUEST_APP_STORE_OVERLAY_CLOSED;
-            if(!(var5 === var3)) { _fun0010_ip = 74; continue _fun0010 }
-case 75:
-            if(!(var1 === var7)) { _fun0010_ip = 76; continue _fun0010 }
+            var6 = var5 === var3;
+            if(var6) { _fun0010_ip = 14; continue _fun0010 }
 case 74:
-            var9 = _closure1_slot15;
-            var3 = {};
-            var10 = var8.id;
-            var3['questId'] = var10;
-            var3['event'] = var5;
-            var10 = {};
-            var15 = var10;
-            var14 = var6;
-            var11 = copyDataProperties(var15, var14);
-            var3['properties'] = var10;
-            var10 = var4.sourceQuestContent;
-            var3['sourceQuestContent'] = var10;
-            var3 = var9.bind(var1)(var3);
-            _fun0010_ip = 63; continue _fun0010;
-case 76:
+            var3 = _closure1_slot8;
+            var3 = var3.QUEST_APP_STORE_OVERLAY_RETURNED;
+            var6 = var5 === var3;
+case 14:
+            if(!var6) { _fun0010_ip = 75; continue _fun0010 }
+case 13:
+            var6 = var1 !== var8;
+case 75:
             var3 = _closure1_slot15;
             var2 = {};
-            var8 = var8.id;
-            var2['questId'] = var8;
+            var9 = var9.id;
+            var2['questId'] = var9;
             var2['event'] = var5;
-            var5 = {};
-            var15 = var5;
-            var14 = var6;
-            var6 = copyDataProperties(var15, var14);
-            var6 = 'time_spent_ms';
-            var5[var6] = var7;
+            var5 = var7;
+            if(!var6) { _fun0010_ip = 76; continue _fun0010 }
+case 77:
+            var6 = {};
+            var15 = var6;
+            var14 = var7;
+            var7 = copyDataProperties(var15, var14);
+            var7 = 'time_spent_ms';
+            var6[var7] = var8;
+            var5 = var6;
+case 76:
             var2['properties'] = var5;
             var4 = var4.sourceQuestContent;
             var2['sourceQuestContent'] = var4;
             var2 = var3.bind(var1)(var2);
-case 63:
             return var1;
         }
     };
