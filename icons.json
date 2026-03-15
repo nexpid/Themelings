@@ -1684,6 +1684,16 @@
         "width": 24,
         "height": 24
     },
+    "CirclePlusIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/CirclePlusIcon.png",
+        "hash": "7131349dc6aed39b3795b21aedce0e1c",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "CirclePlusIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CirclePlusIcon-primary.png",
         "hash": "72b3328f534a47da0a7a5900209c0b7e",
