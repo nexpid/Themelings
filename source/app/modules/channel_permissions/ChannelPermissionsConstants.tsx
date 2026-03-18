@@ -25,9 +25,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var5;
     var5 = var4.HelpdeskArticles;
     var _closure1_slot5 = var5;
-    var5 = var4.Permissions;
-    var _closure1_slot6 = var5;
-    var4 = var4.UserSettingsSections;
+    var4 = var4.Permissions;
+    var _closure1_slot6 = var4;
     var7 = {};
     var7['EMPTY_STATE'] = var13;
     var4 = 'EMPTY_STATE';

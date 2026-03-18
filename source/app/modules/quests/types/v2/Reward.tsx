@@ -186,6 +186,8 @@ case 10:
             var1['messages'] = var3;
             var3 = var2.orb_quantity;
             var1['orbQuantity'] = var3;
+            var3 = var2.premium_orb_quantity;
+            var1['premiumOrbQuantity'] = var3;
             return var1;
 case 8:
             var1 = {};

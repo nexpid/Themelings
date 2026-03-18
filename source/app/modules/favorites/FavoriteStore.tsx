@@ -278,7 +278,7 @@ case 32:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(9);
+        var1 = new Array(10);
         var1[0] = var5;
         var5 = {};
         var7 = 'getFavoriteChannels';
@@ -431,6 +431,22 @@ case 44:
         var5['value'] = var7;
         var1[7] = var5;
         var5 = {};
+        var7 = 'getFavoritesCount';
+        var5['key'] = var7;
+        var7 = function value() {
+            var4 = this;
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.keys;
+            var1 = var4.getFavoriteChannels;
+            var1 = var1.bind(var4)();
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.length;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[8] = var5;
+        var5 = {};
         var7 = 'hasStoredFavorites';
         var5['key'] = var7;
         var6 = function value() {
@@ -449,7 +465,7 @@ case 44:
             return var1;
         };
         var5['value'] = var6;
-        var1[8] = var5;
+        var1[9] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

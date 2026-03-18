@@ -633,10 +633,10 @@ case 0:
             var1 = null;
             var4 = var1 == var2;
             var8 = undefined;
-            if(var4) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
-            var8 = var2.config;
+            if(var4) { _fun0008_ip = 16; continue _fun0008 }
 case 30:
+            var8 = var2.config;
+case 16:
             var5 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 11;
@@ -659,13 +659,13 @@ case 30:
             var8 = var4.bind(var5)(var8);
             var4 = var1 == var8;
             var1 = null;
-            if(var4) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
-            if(var2) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+            if(var4) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
+            if(var2) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
             var2 = var7.useThumbnail;
-            if(var2) { _fun0008_ip = 34; continue _fun0008 }
-case 36:
+            if(var2) { _fun0008_ip = 33; continue _fun0008 }
+case 35:
             var5 = _closure1_slot9;
             var4 = _closure1_slot13;
             var2 = {};
@@ -674,8 +674,8 @@ case 36:
             var12 = var7;
             var9 = copyDataProperties(var13, var12);
             var2 = var5.bind(var6)(var4, var2);
-            _fun0008_ip = 37; continue _fun0008;
-case 34:
+            _fun0008_ip = 36; continue _fun0008;
+case 33:
             var5 = _closure1_slot9;
             var4 = _closure1_slot14;
             var3 = {};
@@ -687,9 +687,9 @@ case 34:
             var7 = var7.thumbnailUrlOverride;
             var3['thumbnailUrlOverride'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 37:
+case 36:
             var1 = var2;
-case 32:
+case 31:
             return var1;
         }
     };

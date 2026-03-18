@@ -195,19 +195,24 @@ case 0:
 case 11:
             var11 = true;
 case 10:
+            var18 = var2.canOpenGuildActionSheet;
+            if(!(var18 === var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var18 = true;
+case 12:
             var2 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var3 = 6;
-            var3 = var12[var3];
-            var5 = var2.bind(var4)(var3);
-            var3 = 'ChannelListStickyHeader';
-            var8 = var5.bind(var4)(var3);
-            var3 = _closure1_slot8;
-            var10 = var3.bind(var4)(var8);
-            var6 = _closure1_slot3;
-            var5 = var6.useCallback;
-            var3 = new Array(1);
-            var3[0] = var14;
+            var3 = _closure1_slot2;
+            var5 = 6;
+            var5 = var3[var5];
+            var6 = var2.bind(var4)(var5);
+            var5 = 'ChannelListStickyHeader';
+            var8 = var6.bind(var4)(var5);
+            var5 = _closure1_slot8;
+            var10 = var5.bind(var4)(var8);
+            var9 = _closure1_slot3;
+            var6 = var9.useCallback;
+            var5 = new Array(1);
+            var5[0] = var14;
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -219,26 +224,26 @@ case 10:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var17 = var5.bind(var6)(var1, var3);
+            var15 = var6.bind(var9)(var1, var5);
             var1 = 8;
-            var1 = var12[var1];
+            var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var30 = var1.bind(var4)(var14);
-            var13 = _closure1_slot0;
+            var2 = _closure1_slot0;
             var1 = 9;
-            var1 = var12[var1];
-            var3 = var13.bind(var4)(var1);
-            var2 = var3.useIOSPressEffects;
+            var1 = var3[var1];
+            var6 = var2.bind(var4)(var1);
+            var5 = var6.useIOSPressEffects;
             var1 = 4;
-            var1 = var2.bind(var3)(var1);
-            var15 = var1.onPressIn;
-            var6 = var1.onPressOut;
-            var18 = var1.pressableStyles;
+            var1 = var5.bind(var6)(var1);
+            var13 = var1.onPressIn;
+            var12 = var1.onPressOut;
+            var6 = var1.pressableStyles;
             var1 = 10;
-            var1 = var12[var1];
-            var2 = var13.bind(var4)(var1);
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
             var1 = var2.getFavoritesAwareGuildName;
-            var16 = var1.bind(var2)(var14);
+            var19 = var1.bind(var2)(var14);
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
@@ -246,113 +251,152 @@ case 10:
             var1['style'] = var5;
             var9 = _closure1_slot7;
             var5 = {};
-            var5['style'] = var18;
-            var5['onPress'] = var17;
-            var5['onPressIn'] = var15;
-            var5['onPressOut'] = var6;
-            var17 = true;
-            var5['accessible'] = var17;
-            var6 = 'button';
-            var5['accessibilityRole'] = var6;
-            var26 = 11;
-            var6 = var12[var26];
-            var6 = var13.bind(var4)(var6);
-            var18 = var6.intl;
-            var15 = var18.string;
-            var6 = var12[var26];
-            var6 = var13.bind(var4)(var6);
-            var6 = var6.t;
-            var6 = var6.Gpyp/e;
-            var6 = var15.bind(var18)(var6);
-            var5['accessibilityHint'] = var6;
-            var6 = {};
-            var15 = var10.header;
-            var6['style'] = var15;
-            var15 = _closure1_slot5;
-            var23 = 12;
-            var12 = var12[var23];
-            var12 = var13.bind(var4)(var12);
-            var13 = var12.Text;
-            var12 = {};
-            var12['experimental_useNativeText'] = var17;
-            var17 = var10.flex;
-            var12['style'] = var17;
-            var17 = 'mobile-text-heading-primary';
-            if(!var8) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            var17 = 'text-strong';
-case 12:
-            var12['color'] = var17;
-            var17 = 'redesign/heading-18/bold';
-            if(!var8) { _fun0002_ip = 14; continue _fun0002 }
+            var5['style'] = var6;
+            var6 = undefined;
+            if(!var18) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var17 = 'heading-lg/semibold';
+            var6 = var15;
 case 14:
-            var12['variant'] = var17;
-            var17 = 1;
-            var12['lineClamp'] = var17;
+            var5['onPress'] = var6;
+            var6 = undefined;
+            if(!var18) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            var6 = var13;
+case 16:
+            var5['onPressIn'] = var6;
+            var6 = undefined;
+            if(!var18) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+            var6 = var12;
+case 18:
+            var5['onPressOut'] = var6;
+            var20 = true;
+            var5['accessible'] = var20;
+            var6 = 'header';
+            if(!var18) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+            var6 = 'button';
+case 20:
+            var5['accessibilityRole'] = var6;
+            var6 = undefined;
+            if(!var18) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var12 = 11;
+            var13 = var17[var12];
+            var13 = var16.bind(var4)(var13);
+            var15 = var13.intl;
+            var13 = var15.string;
+            var12 = var17[var12];
+            var12 = var16.bind(var4)(var12);
+            var12 = var12.t;
+            var12 = var12.Gpyp/e;
+            var6 = var13.bind(var15)(var12);
+case 22:
+            var5['accessibilityHint'] = var6;
+            var15 = _closure1_slot6;
+            var13 = _closure1_slot4;
+            var12 = {};
+            var6 = var10.header;
+            var12['style'] = var6;
+            var17 = _closure1_slot5;
+            var16 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var23 = 12;
+            var6 = var6[var23];
+            var6 = var16.bind(var4)(var6);
+            var16 = var6.Text;
+            var6 = {};
+            var6['experimental_useNativeText'] = var20;
+            var20 = var10.flex;
+            var6['style'] = var20;
+            var20 = 'mobile-text-heading-primary';
+            if(!var8) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+            var20 = 'text-strong';
+case 24:
+            var6['color'] = var20;
+            var20 = 'redesign/heading-18/bold';
+            if(!var8) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+            var20 = 'redesign/heading-18/semibold';
+case 26:
+            var6['variant'] = var20;
+            var20 = 1;
+            var6['lineClamp'] = var20;
+            var6['children'] = var19;
+            var6 = var17.bind(var4)(var16, var6);
+            var16 = new Array(4);
+            var16[0] = var6;
+            var19 = _closure1_slot5;
+            var21 = _closure1_slot1;
+            var22 = _closure1_slot2;
+            var6 = 13;
+            var6 = var22[var6];
+            var17 = var21.bind(var4)(var6);
+            var6 = {};
+            var6['guild'] = var14;
+            var20 = 14;
+            var20 = var22[var20];
+            var20 = var21.bind(var4)(var20);
+            var20 = var20.Sizes;
+            var20 = var20.REFRESH_SMALL_16;
+            var6['size'] = var20;
+            var20 = var10.guildBadge;
+            var6['style'] = var20;
+            var6 = var19.bind(var4)(var17, var6);
+            var16[1] = var6;
+            var6 = null;
+            var17 = null;
+            if(!var18) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
+            var20 = _closure1_slot5;
+            var19 = _closure1_slot0;
+            var24 = _closure1_slot2;
+            var18 = 15;
+            var18 = var24[var18];
+            var18 = var19.bind(var4)(var18);
+            var19 = var18.ChevronSmallRightIcon;
+            var18 = {};
+            var21 = 'xxs';
+            var18['size'] = var21;
+            var22 = _closure1_slot1;
+            var21 = 5;
+            var21 = var24[var21];
+            var21 = var22.bind(var4)(var21);
+            var21 = var21.colors;
+            var21 = var21.TEXT_SUBTLE;
+            var18['color'] = var21;
+            var21 = var10.chevron;
+            var18['style'] = var21;
+            var17 = var20.bind(var4)(var19, var18);
+case 28:
+            var16[2] = var17;
+            var19 = _closure1_slot5;
+            var18 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var17 = 16;
+            var17 = var20[var17];
+            var18 = var18.bind(var4)(var17);
+            var17 = {};
+            var20 = var10.connectionIndicator;
+            var17['style'] = var20;
+            var17 = var19.bind(var4)(var18, var17);
+            var16[3] = var17;
             var12['children'] = var16;
             var13 = var15.bind(var4)(var13, var12);
-            var12 = new Array(4);
-            var12[0] = var13;
-            var16 = _closure1_slot5;
-            var15 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var13 = 13;
-            var13 = var17[var13];
-            var18 = var15.bind(var4)(var13);
-            var13 = {};
-            var13['guild'] = var14;
-            var19 = 14;
-            var19 = var17[var19];
-            var19 = var15.bind(var4)(var19);
-            var19 = var19.Sizes;
-            var19 = var19.REFRESH_SMALL_16;
-            var13['size'] = var19;
-            var19 = var10.guildBadge;
-            var13['style'] = var19;
-            var13 = var16.bind(var4)(var18, var13);
-            var12[1] = var13;
-            var18 = _closure1_slot0;
-            var13 = 15;
-            var13 = var17[var13];
-            var13 = var18.bind(var4)(var13);
-            var18 = var13.ChevronSmallRightIcon;
-            var13 = {};
-            var19 = 'xxs';
-            var13['size'] = var19;
-            var19 = 5;
-            var19 = var17[var19];
-            var19 = var15.bind(var4)(var19);
-            var19 = var19.colors;
-            var19 = var19.TEXT_SUBTLE;
-            var13['color'] = var19;
-            var19 = var10.chevron;
-            var13['style'] = var19;
-            var13 = var16.bind(var4)(var18, var13);
-            var12[2] = var13;
-            var13 = 16;
-            var13 = var17[var13];
-            var15 = var15.bind(var4)(var13);
-            var13 = {};
-            var17 = var10.connectionIndicator;
-            var13['style'] = var17;
-            var13 = var16.bind(var4)(var15, var13);
-            var12[3] = var13;
-            var6['children'] = var12;
-            var6 = var3.bind(var4)(var2, var6);
             var12 = new Array(2);
-            var12[0] = var6;
-            var6 = null;
+            var12[0] = var13;
             var15 = var6 != var30;
             var13 = null;
-            if(!var15) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(!var15) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var15 = 0;
             var15 = var30 > var15;
             var13 = null;
-            if(!var15) { _fun0002_ip = 16; continue _fun0002 }
-case 18:
+            if(!var15) { _fun0002_ip = 30; continue _fun0002 }
+case 32:
             var17 = _closure1_slot6;
             var16 = _closure1_slot4;
             var15 = {};
@@ -367,13 +411,14 @@ case 18:
             var18 = {'experimental_useNativeText': true, 'color': 'text-muted', 'variant': null, 'lineClamp': 1};
             var22 = 'text-xs/medium';
             var19 = var22;
-            if(!var8) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+            if(!var8) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var19 = 'text-sm/normal';
-case 19:
+case 33:
             var18['variant'] = var19;
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
+            var26 = 11;
             var25 = var19[var26];
             var25 = var20.bind(var4)(var25);
             var29 = var25.intl;
@@ -400,10 +445,10 @@ case 19:
             var19 = var20.bind(var4)(var19);
             var20 = var19.Text;
             var19 = {'experimental_useNativeText': true, 'color': 'text-muted', 'variant': null, 'lineClamp': 1};
-            if(!var8) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+            if(!var8) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var22 = 'text-sm/normal';
-case 21:
+case 35:
             var19['variant'] = var22;
             var25 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -421,15 +466,15 @@ case 21:
             var18[2] = var19;
             var15['children'] = var18;
             var13 = var17.bind(var4)(var16, var15);
-case 16:
+case 30:
             var12[1] = var13;
             var5['children'] = var12;
             var9 = var3.bind(var4)(var9, var5);
             var5 = new Array(3);
             var5[0] = var9;
             var9 = null;
-            if(!var11) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(!var11) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
             var13 = _closure1_slot5;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -439,18 +484,18 @@ case 24:
             var11 = {'guild': null, 'useButtonComponent': true, 'useEventsButton': true};
             var11['guild'] = var14;
             var9 = var13.bind(var4)(var12, var11);
-case 23:
+case 37:
             var5[1] = var9;
             var6 = null;
-            if(!var8) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+            if(!var8) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
             var9 = _closure1_slot5;
             var8 = _closure1_slot4;
             var7 = {};
             var10 = var10.divider;
             var7['style'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 25:
+case 39:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

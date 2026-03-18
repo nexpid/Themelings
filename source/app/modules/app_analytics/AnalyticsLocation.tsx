@@ -442,8 +442,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_MARKETING_NITRO_HOME_ORBS_SECTION'] = var1;
     var1 = 'premium marketing tenure rewards section';
     var2['PREMIUM_MARKETING_TENURE_REWARDS_SECTION'] = var1;
-    var1 = 'premium marketing reverse trial banner';
-    var2['PREMIUM_MARKETING_REVERSE_TRIAL_BANNER'] = var1;
     var1 = 'premium marketing reward selection modal';
     var2['PREMIUM_MARKETING_REWARD_SELECTION_MODAL'] = var1;
     var1 = 'tiered tenure badges modal';
@@ -866,8 +864,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DEV_TOOLS'] = var1;
     var1 = 'ICYMI Tab';
     var2['IN_CASE_YOU_MISSED_IT_TAB'] = var1;
-    var1 = 'reverse trial upsell modal';
-    var2['REVERSE_TRIAL_UPSELL_MODAL'] = var1;
     var1 = 'seasonal gifting coachmark';
     var2['SEASONAL_GIFTING_COACHMARK'] = var1;
     var1 = 'valentines gifting coachmark';
@@ -1075,6 +1071,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFT_CODE_EMBED'] = var1;
     var1 = 'slayer storefront product details embed';
     var2['SLAYER_STOREFRONT_PRODUCT_DETAILS_EMBED'] = var1;
+    var1 = 'slayer storefront shop tab';
+    var2['SLAYER_STOREFRONT_SHOP_TAB'] = var1;
     var1 = 'age group';
     var2['AGE_GROUP'] = var1;
     var1 = 'gift card redemption success modal';

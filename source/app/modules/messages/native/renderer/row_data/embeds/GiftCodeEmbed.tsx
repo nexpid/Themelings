@@ -382,16 +382,16 @@ case 42:
                     var5 = var2.redeemed;
 case 41:
                     if(var5) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+case 18:
                     var5 = var2.isClaimed;
 case 43:
                     var12 = !var5;
                     var5 = var12;
-                    if(!var5) { _fun0004_ip = 16; continue _fun0004 }
+                    if(!var5) { _fun0004_ip = 44; continue _fun0004 }
 case 45:
                     var7 = var2.expiresAt;
                     var5 = var6 != var7;
-case 16:
+case 44:
                     var8 = undefined;
                     var17 = undefined;
                     if(!var5) { _fun0004_ip = 46; continue _fun0004 }

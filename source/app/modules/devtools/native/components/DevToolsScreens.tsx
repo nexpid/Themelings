@@ -442,9 +442,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['render'] = var8;
     var2['components'] = var4;
     var4 = {};
-    var8 = 'Collectibles Tool';
+    var8 = 'Shop';
     var4['headerTitle'] = var8;
     var8 = 36;
+    var9 = var6[var8];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.ShopIcon;
+    var4['Icon'] = var9;
+    var9 = function render() {
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var2 = 37;
+        var2 = var4[var2];
+        var4 = undefined;
+        var2 = var3.bind(var4)(var2);
+        var3 = var2.default;
+        var2 = _closure1_slot2;
+        var1 = {};
+        var1 = var2.bind(var4)(var3, var1);
+        return var1;
+    };
+    var4['render'] = var9;
+    var2['shop'] = var4;
+    var4 = {};
+    var9 = 'Collectibles Tool';
+    var4['headerTitle'] = var9;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ShopIcon;
@@ -452,7 +474,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function render() {
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var2 = 37;
+        var2 = 38;
         var2 = var4[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
@@ -467,7 +489,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var8 = 'Action Sheets';
     var4['headerTitle'] = var8;
-    var8 = 38;
+    var8 = 39;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.CompassIcon;
@@ -475,7 +497,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function render() {
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var2 = 39;
+        var2 = 40;
         var2 = var4[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
@@ -487,7 +509,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4['render'] = var7;
     var2['actionSheets'] = var4;
-    var4 = 40;
+    var4 = 41;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

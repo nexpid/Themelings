@@ -48,7 +48,7 @@ case 3:
             var8 = var9.round;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var8 = var9.md;
+            var8 = var9.sm;
 case 4:
             var2['borderRadius'] = var8;
             var2['height'] = var4;
@@ -83,6 +83,13 @@ case 5:
             var7 = var7.REDESIGN_BUTTON_TERTIARY_TEXT;
             var2['tintColor'] = var7;
             var1['actionButtonIcon'] = var2;
+            var2 = {'tintColor': null, 'width': 20, 'height': 20};
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.colors;
+            var7 = var7.INTERACTIVE_ICON_DEFAULT;
+            var2['tintColor'] = var7;
+            var1['actionButtonIconSubtle'] = var2;
             var2 = {};
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
@@ -113,107 +120,112 @@ case 0:
 case 8:
             var11 = false;
 case 7:
-            var19 = var1.style;
-            var20 = var1.activeStyle;
+            var20 = var1.style;
+            var21 = var1.activeStyle;
             var12 = var1.activeIconStyle;
             var9 = var1.disabled;
             var6 = var1.onPress;
-            var16 = var1.accessible;
-            var15 = var1.accessibilityLabel;
-            var14 = var1.accessibilityHint;
-            var17 = var1.accessibilityState;
-            var13 = var1.accessibilityActions;
+            var17 = var1.accessible;
+            var16 = var1.accessibilityLabel;
+            var15 = var1.accessibilityHint;
+            var18 = var1.accessibilityState;
+            var14 = var1.accessibilityActions;
             var8 = var1.onAccessibilityAction;
             var7 = var1.IconComponent;
             var23 = _closure1_slot1;
-            var18 = _closure1_slot2;
+            var19 = _closure1_slot2;
             var1 = 4;
-            var1 = var18[var1];
+            var1 = var19[var1];
             var2 = var23.bind(var4)(var1);
             var1 = 'ChatInputActionButton';
-            var21 = var2.bind(var4)(var1);
+            var13 = var2.bind(var4)(var1);
             var2 = _closure1_slot0;
             var3 = 5;
-            var1 = var18[var3];
+            var1 = var19[var3];
             var24 = var2.bind(var4)(var1);
             var22 = var24.useToken;
             var1 = 3;
-            var10 = var18[var1];
+            var10 = var19[var1];
             var10 = var23.bind(var4)(var10);
             var10 = var10.modules;
             var10 = var10.mobile;
             var10 = var10.CHAT_INPUT_ACTION_BUTTON_SIZE;
             var10 = var22.bind(var24)(var10);
-            var3 = var18[var3];
+            var3 = var19[var3];
             var22 = var2.bind(var4)(var3);
             var3 = var22.useToken;
-            var1 = var18[var1];
+            var1 = var19[var1];
             var1 = var23.bind(var4)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.CHAT_INPUT_ACTION_BUTTON_MARGIN;
             var3 = var3.bind(var22)(var1);
             var1 = _closure1_slot4;
-            var10 = var1.bind(var4)(var21, var10, var3);
+            var10 = var1.bind(var4)(var13, var10, var3);
             var3 = _closure1_slot3;
             var1 = 6;
-            var1 = var18[var1];
+            var1 = var19[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
-            var18 = arg2;
-            var1['ref'] = var18;
-            var21 = var10.actionButton;
-            var18 = new Array(3);
-            var18[0] = var21;
-            var18[1] = var19;
-            var19 = var11;
+            var19 = arg2;
+            var1['ref'] = var19;
+            var22 = var10.actionButton;
+            var19 = new Array(3);
+            var19[0] = var22;
+            var19[1] = var20;
+            var20 = var11;
             if(!var11) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-            var19 = !var9;
+            var20 = !var9;
 case 9:
-            if(!var19) { _fun0002_ip = 11; continue _fun0002 }
+            if(!var20) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var19 = var20;
+            var20 = var21;
 case 11:
-            var18[2] = var19;
-            var1['style'] = var18;
+            var19[2] = var20;
+            var1['style'] = var19;
             var1['disabled'] = var9;
-            var1['accessible'] = var16;
-            var16 = 'button';
-            var1['accessibilityRole'] = var16;
-            var16 = {};
-            var16['disabled'] = var9;
-            var27 = var16;
-            var26 = var17;
-            var17 = copyDataProperties(var27, var26);
-            var1['accessibilityState'] = var16;
-            var1['accessibilityLabel'] = var15;
-            var1['accessibilityHint'] = var14;
-            var1['accessibilityActions'] = var13;
+            var1['accessible'] = var17;
+            var17 = 'button';
+            var1['accessibilityRole'] = var17;
+            var17 = {};
+            var17['disabled'] = var9;
+            var27 = var17;
+            var26 = var18;
+            var18 = copyDataProperties(var27, var26);
+            var1['accessibilityState'] = var17;
+            var1['accessibilityLabel'] = var16;
+            var1['accessibilityHint'] = var15;
+            var1['accessibilityActions'] = var14;
             var1['onAccessibilityAction'] = var8;
             var1['onPress'] = var6;
             var6 = _closure1_slot3;
             var5 = {};
-            var13 = var10.actionButtonIcon;
-            var8 = new Array(4);
-            var8[0] = var13;
-            var13 = var11;
-            if(!var11) { _fun0002_ip = 13; continue _fun0002 }
+            var14 = var10.actionButtonIcon;
+            var8 = new Array(5);
+            var8[0] = var14;
+            if(!var13) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var13 = var10.actionButtonIconActive;
+            var13 = var10.actionButtonIconSubtle;
 case 13:
             var8[1] = var13;
+            var13 = var11;
             if(!var11) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var11 = var12;
+            var13 = var10.actionButtonIconActive;
 case 15:
-            var8[2] = var11;
-            if(!var9) { _fun0002_ip = 17; continue _fun0002 }
+            var8[2] = var13;
+            if(!var11) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var9 = var10.actionButtonIconDisabled;
+            var11 = var12;
 case 17:
-            var8[3] = var9;
+            var8[3] = var11;
+            if(!var9) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var9 = var10.actionButtonIconDisabled;
+case 19:
+            var8[4] = var9;
             var5['style'] = var8;
             var5 = var6.bind(var4)(var7, var5);
             var1['children'] = var5;

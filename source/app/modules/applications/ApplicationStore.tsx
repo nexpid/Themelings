@@ -1553,15 +1553,6 @@ case 79:
         }
     };
     var2['SOCIAL_LAYER_STOREFRONT_LOAD_SUCCESS'] = var8;
-    var8 = function handleSocialLayerStorefrontRecommendationsFetchSuccess(arg1) {
-        var1 = arg1;
-        var3 = var1.application;
-        var2 = _closure1_slot17;
-        var1 = undefined;
-        var2 = var2.bind(var1)(var3);
-        return var1;
-    };
-    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_SUCCESS'] = var8;
     var4 = function handleWishlistRecommendationsFetchSuccess(arg1) {
         _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:

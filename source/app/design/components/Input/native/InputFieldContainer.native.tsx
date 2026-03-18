@@ -481,7 +481,7 @@ case 41:
     var5 = var8.bind(var9)(var5);
     var _closure1_slot9 = var5;
     var5 = {};
-    var8 = "function InputFieldContainerNativeTsx1(){const{status,ringColors,isFocused,withSpring,RING_SPRING_CONFIG}=this.__closure;let borderWidth=0;let borderColor='transparent';if(status!=='default'){borderWidth=2;borderColor=ringColors.error;}else if(isFocused){borderWidth=1;borderColor=ringColors.focused;}return{borderWidth:withSpring(borderWidth,RING_SPRING_CONFIG),borderColor:withSpring(borderColor,RING_SPRING_CONFIG)};}";
+    var8 = "function InputFieldContainerNativeTsx1(){const{status,ringColors,isFocused,withSpring,RING_SPRING_CONFIG}=this.__closure;let borderWidth=0;let borderColor='transparent';if(status!=='default'){borderWidth=2;borderColor=ringColors.error;}else if(isFocused){borderWidth=1;borderColor=ringColors.focused;}return{borderWidth:withSpring(borderWidth,RING_SPRING_CONFIG),borderColor:withSpring(borderColor,RING_SPRING_CONFIG),left:-borderWidth,right:-borderWidth,top:-borderWidth,bottom:-borderWidth};}";
     var5['code'] = var8;
     var _closure1_slot10 = var5;
     var5 = 10;
@@ -542,36 +542,41 @@ case 0:
                     var2 = 'default';
                     if(!(var2 === var3)) { _fun0004_ip = 45; continue _fun0004 }
 case 46:
-                    var2 = _closure2_slot1;
-                    var5 = 'transparent';
-                    var10 = 0;
-                    if(!var2) { _fun0004_ip = 44; continue _fun0004 }
+                    var3 = _closure2_slot1;
+                    var6 = 'transparent';
+                    var2 = 0;
+                    if(!var3) { _fun0004_ip = 44; continue _fun0004 }
 case 5:
-                    var2 = _closure2_slot0;
-                    var5 = var2.focused;
-                    var10 = 1;
+                    var3 = _closure2_slot0;
+                    var6 = var3.focused;
+                    var2 = 1;
                     _fun0004_ip = 44; continue _fun0004;
 case 45:
                     var1 = _closure2_slot0;
-                    var5 = var1.error;
-                    var10 = 2;
+                    var6 = var1.error;
+                    var2 = 2;
 case 44:
                     var1 = {};
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 9;
-                    var8 = var7[var2];
-                    var3 = undefined;
-                    var9 = var6.bind(var3)(var8);
-                    var8 = var9.withSpring;
-                    var4 = _closure1_slot7;
-                    var8 = var8.bind(var9)(var10, var4);
-                    var1['borderWidth'] = var8;
-                    var2 = var7[var2];
-                    var3 = var6.bind(var3)(var2);
-                    var2 = var3.withSpring;
-                    var2 = var2.bind(var3)(var5, var4);
-                    var1['borderColor'] = var2;
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 9;
+                    var9 = var8[var3];
+                    var4 = undefined;
+                    var10 = var7.bind(var4)(var9);
+                    var9 = var10.withSpring;
+                    var5 = _closure1_slot7;
+                    var9 = var9.bind(var10)(var2, var5);
+                    var1['borderWidth'] = var9;
+                    var3 = var8[var3];
+                    var4 = var7.bind(var4)(var3);
+                    var3 = var4.withSpring;
+                    var3 = var3.bind(var4)(var6, var5);
+                    var1['borderColor'] = var3;
+                    var2 = -var2;
+                    var1['left'] = var2;
+                    var1['right'] = var2;
+                    var1['top'] = var2;
+                    var1['bottom'] = var2;
                     return var1;
                 }
             };
@@ -587,7 +592,7 @@ case 44:
             var8 = _closure1_slot7;
             var7['RING_SPRING_CONFIG'] = var8;
             var1['__closure'] = var7;
-            var7 = 16944298057521.0;
+            var7 = 1037178877006.0;
             var1['__workletHash'] = var7;
             var7 = _closure1_slot10;
             var1['__initData'] = var7;

@@ -83,21 +83,21 @@ case 4:
     var2 = 6;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
-    var4 = var2.DEFAULT_CHAT_SIDEBAR_WIDTH;
-    var _closure1_slot9 = var4;
-    var11 = var2.CHANNEL_SIDEBAR_WIDTH;
-    var _closure1_slot10 = var11;
-    var2 = var2.DEFAULT_MESSAGE_REQUEST_SIDEBAR_WIDTH;
-    var _closure1_slot11 = var2;
+    var2 = var2.ListDensityMode;
+    var _closure1_slot9 = var2;
     var2 = 7;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
-    var2 = var2.ExpressionPickerWidths;
+    var4 = var2.DEFAULT_CHAT_SIDEBAR_WIDTH;
+    var _closure1_slot10 = var4;
+    var11 = var2.CHANNEL_SIDEBAR_WIDTH;
+    var _closure1_slot11 = var11;
+    var2 = var2.DEFAULT_MESSAGE_REQUEST_SIDEBAR_WIDTH;
     var _closure1_slot12 = var2;
     var2 = 8;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
-    var2 = var2.ListDensityMode;
+    var2 = var2.ExpressionPickerWidths;
     var _closure1_slot13 = var2;
     var4 = {};
     var2 = 'data_saver';
@@ -373,7 +373,7 @@ case 0:
                 var3 = null;
                 if(!(var3 == var1)) { _fun0008_ip = 38; continue _fun0008 }
 case 39:
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot13;
                 var1 = var2.MIN;
 case 38:
                 return var1;
@@ -392,7 +392,7 @@ case 0:
                 var3 = null;
                 if(!(var3 == var1)) { _fun0009_ip = 31; continue _fun0009 }
 case 39:
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
 case 31:
                 return var1;
             }
@@ -410,7 +410,7 @@ case 0:
                 var3 = null;
                 if(!(var3 == var1)) { _fun0010_ip = 31; continue _fun0010 }
 case 39:
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
 case 31:
                 return var1;
             }
@@ -446,7 +446,7 @@ case 0:
                 var3 = null;
                 if(!(var3 == var1)) { _fun0012_ip = 31; continue _fun0012 }
 case 39:
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
 case 31:
                 return var1;
             }
@@ -472,11 +472,11 @@ case 35:
                 var5 = var6.max;
                 var3 = var3.window;
                 var4 = var3.innerWidth;
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot11;
                 var4 = var4 - var3;
                 var3 = 0.4;
                 var4 = var3 * var4;
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 var3 = var5.bind(var6)(var4, var3);
                 _closure1_slot16 = var3;
 case 41:
@@ -784,7 +784,7 @@ case 0:
                 var3 = null;
                 if(!(var3 == var1)) { _fun0028_ip = 38; continue _fun0028 }
 case 39:
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot9;
                 var1 = var2.COZY;
 case 38:
                 return var1;

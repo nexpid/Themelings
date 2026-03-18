@@ -21,7 +21,7 @@ case 0:
             var2 = var6.bind(var3)(var2);
             var2 = var4.bind(var8)(var2);
             var4 = var2.showFloatingCTA;
-            var2 = 33;
+            var2 = 32;
             var2 = var7[var2];
             var2 = var6.bind(var3)(var2);
             var4 = var2.bind(var3)(var4);
@@ -536,13 +536,13 @@ case 36:
         var2 = var2.RowButton;
         var3 = var2.Icon;
         var2 = {};
-        var9 = 35;
+        var9 = 34;
         var9 = var11[var9];
         var9 = var13.bind(var5)(var9);
         var9 = var9.CircleErrorIcon;
         var2['IconComponent'] = var9;
         var10 = _closure1_slot1;
-        var9 = 36;
+        var9 = 35;
         var9 = var11[var9];
         var9 = var10.bind(var5)(var9);
         var2['source'] = var9;
@@ -585,13 +585,13 @@ case 38:
 case 0:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 37;
+                var1 = 36;
                 var2 = var5[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.DismissibleContent;
                 var4 = var2.VOICE_PANEL_BAD_CONNECTION_CTA;
-                var2 = 34;
+                var2 = 33;
                 var2 = var5[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.UNSAFE_markDismissibleContentAsDismissed;
@@ -626,12 +626,12 @@ case 40:
     var1 = function handleSoundboardMobileFloatingCtaClose() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 34;
+        var1 = 33;
         var2 = var6[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var2);
         var3 = var4.UNSAFE_markDismissibleContentAsDismissed;
-        var2 = 37;
+        var2 = 36;
         var2 = var6[var2];
         var2 = var5.bind(var1)(var2);
         var2 = var2.DismissibleContent;
@@ -649,7 +649,7 @@ case 0:
             var _closure2_slot0 = var1;
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var6 = 37;
+            var6 = 36;
             var3 = var2[var6];
             var2 = undefined;
             var3 = var7.bind(var2)(var3);
@@ -682,7 +682,7 @@ case 43:
             var5 = var9[var5];
             var6 = var10.bind(var2)(var5);
             var5 = {};
-            var8 = 39;
+            var8 = 38;
             var8 = var9[var8];
             var8 = var10.bind(var2)(var8);
             var5['source'] = var8;
@@ -697,7 +697,7 @@ case 0:
 case 17:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 38;
+                    var1 = 37;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -716,7 +716,7 @@ case 42:
             };
             var3['onPress'] = var4;
             var8 = _closure1_slot0;
-            var4 = 40;
+            var4 = 39;
             var4 = var9[var4];
             var7 = var8.bind(var2)(var4);
             var6 = var7.getDeviceSpecificString;
@@ -838,7 +838,7 @@ case 41:
         return var1;
     };
     var _closure1_slot13 = var8;
-    var8 = 41;
+    var8 = 40;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -850,34 +850,34 @@ case 41:
     var6 = function useShouldShowFloatingCTA(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-            var6 = arg1;
-            var _closure2_slot0 = var6;
-            var9 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var5 = arg1;
+            var _closure2_slot0 = var5;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var3 = 30;
-            var3 = var8[var3];
-            var5 = undefined;
-            var3 = var9.bind(var5)(var3);
-            var10 = var3.bind(var5)(var6);
-            var7 = _closure1_slot0;
+            var3 = var6[var3];
+            var4 = undefined;
+            var3 = var7.bind(var4)(var3);
+            var8 = var3.bind(var4)(var5);
+            var5 = _closure1_slot0;
             var3 = 31;
-            var3 = var8[var3];
-            var4 = var7.bind(var5)(var3);
-            var3 = var4.useGetDismissibleContent;
-            var10 = var3.bind(var4)(var10);
-            var4 = _closure1_slot3;
+            var3 = var6[var3];
+            var7 = var5.bind(var4)(var3);
+            var3 = var7.useGetDismissibleContent;
+            var8 = var3.bind(var7)(var8);
+            var7 = _closure1_slot3;
             var3 = 1;
-            var4 = var4.bind(var5)(var10, var3);
+            var7 = var7.bind(var4)(var8, var3);
             var3 = 0;
-            var12 = var4[var3];
-            var _closure2_slot1 = var12;
+            var8 = var7[var3];
+            var _closure2_slot1 = var8;
             var3 = 13;
-            var3 = var8[var3];
-            var11 = var7.bind(var5)(var3);
-            var10 = var11.useStateFromStores;
+            var3 = var6[var3];
+            var7 = var5.bind(var4)(var3);
+            var6 = var7.useStateFromStores;
             var3 = _closure1_slot9;
-            var4 = new Array(1);
-            var4[0] = var3;
+            var5 = new Array(1);
+            var5[0] = var3;
             var3 = function() {
                 var3 = _closure1_slot9;
                 var2 = var3.getChannel;
@@ -885,13 +885,13 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var3 = var10.bind(var11)(var4, var3);
+            var3 = var6.bind(var7)(var5, var3);
             var _closure2_slot2 = var3;
-            var11 = _closure1_slot4;
-            var10 = var11.useMemo;
-            var4 = new Array(2);
-            var4[0] = var12;
-            var4[1] = var3;
+            var7 = _closure1_slot4;
+            var6 = var7.useMemo;
+            var5 = new Array(2);
+            var5[0] = var8;
+            var5[1] = var3;
             var1 = function() {
                 var3 = _closure1_slot17;
                 var2 = {};
@@ -903,28 +903,15 @@ case 0:
                 var1 = var3.bind(var1)(var2);
                 return var1;
             };
-            var1 = var10.bind(var11)(var1, var4);
+            var1 = var6.bind(var7)(var1, var5);
             var2 = _closure1_slot14;
-            var4 = var2.bind(var5)(var3);
-            var2 = 32;
-            var3 = var8[var2];
-            var3 = var9.bind(var5)(var3);
-            var2 = var8[var2];
-            var2 = var7.bind(var5)(var2);
-            var2 = var2.SoundboardButtonLocation;
-            var2 = var2.FLOATING_BUTTON;
-            var2 = var3.bind(var5)(var6, var2);
-            var2 = var2.visible;
-            var3 = null;
-            var1 = var3 != var1;
+            var3 = var2.bind(var4)(var3);
+            var2 = null;
+            var1 = var2 != var1;
             if(var1) { _fun0013_ip = 45; continue _fun0013 }
 case 46:
-            var1 = var3 != var4;
+            var1 = var2 != var3;
 case 45:
-            if(var1) { _fun0013_ip = 47; continue _fun0013 }
-case 48:
-            var1 = var2;
-case 47:
             return var1;
         }
     };

@@ -168,7 +168,7 @@ case 12:
 case 13:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                         if(var4) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+case 2:
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
                         var4 = 10;

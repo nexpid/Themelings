@@ -27,12 +27,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SettingsOverrideReasonKeys;
+    var4 = var4.StickerAnimationSettings;
     var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.StickerAnimationSettings;
+    var4 = var4.SettingsOverrideReasonKeys;
     var _closure1_slot5 = var4;
     var4 = 7;
     var4 = var6[var4];
@@ -339,7 +339,7 @@ case 6:
             var8 = {};
             var10 = false;
             var8['value'] = var10;
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot5;
             var11 = var9.REDUCED_MOTION;
             var8['reasonKey'] = var11;
             var5['gifAutoPlay'] = var8;
@@ -349,7 +349,7 @@ case 6:
             var8['reasonKey'] = var10;
             var5['animateEmoji'] = var8;
             var8 = {};
-            var10 = _closure1_slot5;
+            var10 = _closure1_slot4;
             var10 = var10.ANIMATE_ON_INTERACTION;
             var8['value'] = var10;
             var9 = var9.REDUCED_MOTION_STICKERS;

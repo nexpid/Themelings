@@ -193,6 +193,8 @@ case 25:
                 var1['themes'] = var3;
                 var3 = var2.linkedApplications;
                 var1['linkedApplications'] = var3;
+                var3 = var2.content_classification;
+                var1['content_classification'] = var3;
                 var3 = var2.genres;
                 var1['genres'] = var3;
                 var3 = var2.platforms;

@@ -278,7 +278,7 @@ case 8:
     var11 = copyDataProperties(var16, var15);
     var11 = 'top';
     var10[var11] = var1;
-    var13 = 'rgba(0, 0, 0, .8)';
+    var13 = 'transparent';
     var11 = 'backgroundColor';
     var10[var11] = var13;
     var4['portraitFooterButtons'] = var10;
@@ -305,11 +305,11 @@ case 0:
             var15 = var1.onClose;
             var13 = var1.overlayEnabled;
             var17 = var1.syncer;
-            var29 = var1.disableDownload;
-            var26 = var1.disableMediaOverlayButton;
-            var25 = var1.shareable;
-            var21 = var1.contextName;
-            var20 = var1.contextIcon;
+            var31 = var1.disableDownload;
+            var29 = var1.disableMediaOverlayButton;
+            var26 = var1.shareable;
+            var25 = var1.contextName;
+            var21 = var1.contextIcon;
             var16 = var1.source;
             var24 = var1.obscure;
             var28 = var1.spoilerActive;
@@ -317,48 +317,38 @@ case 0:
             var1 = _closure1_slot10;
             var4 = undefined;
             var22 = var1.bind(var4)();
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 13;
-            var2 = var5[var1];
-            var6 = var3.bind(var4)(var2);
-            var2 = var6.useOverlayLayoutDriver;
-            var31 = var2.bind(var6)();
-            var1 = var5[var1];
-            var2 = var3.bind(var4)(var1);
-            var1 = var2.useFooterLayoutAnimation;
-            var19 = var1.bind(var2)(var31);
+            var5 = var3[var1];
+            var6 = var2.bind(var4)(var5);
+            var5 = var6.useOverlayLayoutDriver;
+            var32 = var5.bind(var6)();
+            var1 = var3[var1];
+            var5 = var2.bind(var4)(var1);
+            var1 = var5.useFooterLayoutAnimation;
+            var19 = var1.bind(var5)(var32);
             var6 = _closure1_slot4;
-            var2 = var6.useState;
+            var5 = var6.useState;
             var1 = false;
-            var6 = var2.bind(var6)(var1);
-            var2 = _closure1_slot3;
+            var6 = var5.bind(var6)(var1);
+            var5 = _closure1_slot3;
             var1 = 2;
-            var1 = var2.bind(var4)(var6, var1);
-            var2 = 0;
-            var8 = var1[var2];
+            var1 = var5.bind(var4)(var6, var1);
+            var5 = 0;
+            var8 = var1[var5];
             var7 = 1;
             var14 = var1[var7];
             var1 = 14;
-            var1 = var5[var1];
-            var6 = var3.bind(var4)(var1);
-            var2 = var6.useMediaPlayerMutedStore;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useMediaPlayerMutedStore;
             var1 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.isMuted;
                 return var1;
             };
-            var30 = var2.bind(var6)(var1);
-            var1 = 15;
-            var2 = var5[var1];
-            var6 = var3.bind(var4)(var2);
-            var2 = var6.useOrientation;
-            var2 = var2.bind(var6)();
-            var1 = var5[var1];
-            var1 = var3.bind(var4)(var1);
-            var1 = var1.OrientationType;
-            var1 = var1.LANDSCAPE;
-            var11 = var2 === var1;
+            var30 = var2.bind(var3)(var1);
             var23 = null;
             if(!(var23 == var18)) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
@@ -370,36 +360,36 @@ case 11:
 case 10:
             var3 = _closure1_slot8;
             var6 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var1 = 6;
-            var1 = var12[var1];
+            var1 = var11[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.SafeAreaPaddingView;
             var1 = {'bottom': true, 'left': true, 'right': true};
             var5 = {};
-            var32 = 8;
-            var5['paddingTop'] = var32;
+            var12 = 8;
+            var5['paddingTop'] = var12;
             var1['style'] = var5;
-            var5 = 16;
-            var5 = var12[var5];
+            var5 = 15;
+            var5 = var11[var5];
             var6 = var6.bind(var4)(var5);
             var5 = var6.isIOS;
             var6 = var5.bind(var6)();
             if(!var6) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-            var32 = _closure1_slot7;
-            var12 = _closure1_slot1;
-            var33 = _closure1_slot2;
-            var5 = 17;
-            var5 = var33[var5];
-            var12 = var12.bind(var4)(var5);
+            var12 = _closure1_slot7;
+            var11 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var5 = 16;
+            var5 = var20[var5];
+            var11 = var11.bind(var4)(var5);
             var5 = {};
-            var33 = 'dark';
-            var5['blurTheme'] = var33;
-            var33 = _closure1_slot5;
-            var33 = var33.absoluteFill;
-            var5['style'] = var33;
-            var6 = var32.bind(var4)(var12, var5);
+            var20 = 'dark';
+            var5['blurTheme'] = var20;
+            var20 = _closure1_slot5;
+            var20 = var20.absoluteFill;
+            var5['style'] = var20;
+            var6 = var12.bind(var4)(var11, var5);
 case 13:
             var5 = new Array(3);
             var5[0] = var6;
@@ -410,67 +400,63 @@ case 13:
             var6 = null;
             if(!var7) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
-            var32 = _closure1_slot7;
-            var12 = _closure1_slot1;
-            var33 = _closure1_slot2;
-            var7 = 18;
-            var7 = var33[var7];
-            var12 = var12.bind(var4)(var7);
+            var12 = _closure1_slot7;
+            var11 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var7 = 17;
+            var7 = var20[var7];
+            var11 = var11.bind(var4)(var7);
             var7 = {};
             var7['syncer'] = var17;
-            var6 = var32.bind(var4)(var12, var7);
+            var6 = var12.bind(var4)(var11, var7);
 case 15:
             var5[2] = var6;
             var1['children'] = var5;
             var9 = var3.bind(var4)(var2, var1);
 case 12:
+            var7 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var1 = 18;
+            var1 = var11[var1];
+            var1 = var7.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var12 = var1.height;
             var3 = _closure1_slot8;
             var2 = _closure1_slot9;
             var1 = {};
-            var7 = _closure1_slot7;
+            var20 = _closure1_slot7;
             var6 = _closure1_slot0;
-            var12 = _closure1_slot2;
             var5 = 19;
-            var5 = var12[var5];
+            var5 = var11[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.MediaModalOverlayHeader;
             var5 = {};
-            var5['animationDriver'] = var31;
-            var5['disableDownload'] = var29;
-            var5['disableMediaOverlayButton'] = var26;
+            var5['animationDriver'] = var32;
+            var5['disableDownload'] = var31;
+            var5['disableMediaOverlayButton'] = var29;
             var5['source'] = var16;
-            var5['shareable'] = var25;
-            var5['contextName'] = var21;
-            var5['contextIcon'] = var20;
+            var5['shareable'] = var26;
+            var5['contextName'] = var25;
+            var5['contextIcon'] = var21;
             var5['onClose'] = var15;
-            var20 = var16.channelId;
-            var5['channelId'] = var20;
-            var6 = var7.bind(var4)(var6, var5);
+            var21 = var16.channelId;
+            var5['channelId'] = var21;
+            var6 = var20.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
-            var7 = _closure1_slot1;
             var6 = 20;
-            var6 = var12[var6];
+            var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.View;
             var6 = {};
             var20 = var22.portraitFooterButtons;
-            var12 = new Array(3);
-            var12[0] = var20;
-            var12[1] = var19;
-            var19 = {};
-            var20 = 'transparent';
+            var11 = new Array(2);
+            var11[0] = var20;
+            var11[1] = var19;
+            var6['style'] = var11;
+            var11 = !var8;
             if(!var11) { _fun0004_ip = 17; continue _fun0004 }
 case 18:
-            var21 = var22.portraitFooterButtons;
-            var20 = var21.backgroundColor;
-case 17:
-            var19['backgroundColor'] = var20;
-            var12[2] = var19;
-            var6['style'] = var12;
-            var12 = !var8;
-            if(!var12) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
             var20 = _closure1_slot7;
             var19 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -480,23 +466,23 @@ case 20:
             var8 = {};
             var21 = var16.description;
             var8['description'] = var21;
-            var12 = var20.bind(var4)(var19, var8);
-case 19:
+            var11 = var20.bind(var4)(var19, var8);
+case 17:
             var8 = new Array(3);
-            var8[0] = var12;
-            if(!(var23 == var18)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-            var12 = null;
-            if(!var24) { _fun0004_ip = 23; continue _fun0004 }
-case 21:
+            var8[0] = var11;
+            if(!(var23 == var18)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+            var11 = null;
+            if(!var24) { _fun0004_ip = 21; continue _fun0004 }
+case 19:
             var21 = _closure1_slot8;
             var20 = _closure1_slot6;
             var19 = {};
             var22 = var22.overlayIcons;
             var19['style'] = var22;
             var25 = var23 != var18;
-            if(!var25) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+            if(!var25) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var29 = _closure1_slot7;
             var26 = _closure1_slot12;
             var22 = {};
@@ -509,26 +495,27 @@ case 25:
             var30 = var30.toggleMuted;
             var22['onToggleMute'] = var30;
             var25 = var29.bind(var4)(var26, var22);
-case 24:
+case 22:
             var22 = new Array(2);
             var22[0] = var25;
             var23 = null;
-            if(!var24) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+            if(!var24) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var26 = _closure1_slot7;
             var25 = _closure1_slot13;
             var24 = {};
             var24['spoilerActive'] = var28;
             var24['onToggleObscure'] = var27;
             var23 = var26.bind(var4)(var25, var24);
-case 26:
+case 24:
             var22[1] = var23;
             var19['children'] = var22;
-            var12 = var21.bind(var4)(var20, var19);
-case 23:
-            var8[1] = var12;
-            if(var11) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+            var11 = var21.bind(var4)(var20, var19);
+case 21:
+            var8[1] = var11;
+            var11 = 600;
+            if(!(!(var12 < var11))) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
             var12 = _closure1_slot7;
             var11 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -549,7 +536,7 @@ case 29:
             var10['onFullViewToggled'] = var14;
             var10['overlayEnabled'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 28:
+case 26:
             var8[2] = var9;
             var6['children'] = var8;
             var6 = var3.bind(var4)(var7, var6);
@@ -589,8 +576,8 @@ case 0:
             var8 = var3[var1];
             var1 = null;
             var3 = var1 == var8;
-            if(var3) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+            if(var3) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
             var4 = _closure1_slot7;
             var3 = _closure1_slot14;
             var2 = {};
@@ -602,7 +589,7 @@ case 31:
             var6 = 'index';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
-case 30:
+case 28:
             return var1;
         }
     };

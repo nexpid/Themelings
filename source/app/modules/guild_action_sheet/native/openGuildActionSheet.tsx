@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var7;
     var4 = var4.GuildFeatures;
     var _closure1_slot4 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -39,9 +39,19 @@ case 0:
 case 3:
             var9 = true;
 case 2:
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 1;
+            var3 = var6[var3];
+            var6 = var5.bind(var1)(var3);
+            var5 = var6.isFavoritesGuildId;
+            var3 = var2.id;
+            var3 = var5.bind(var6)(var3);
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 2;
             var3 = var6[var3];
             var8 = var5.bind(var1)(var3);
             var7 = var8.track;
@@ -54,14 +64,14 @@ case 2:
             var3['guild_id'] = var10;
             var3 = var7.bind(var8)(var5, var3);
             var5 = _closure1_slot0;
-            var3 = 2;
+            var3 = 3;
             var3 = var6[var3];
             var6 = var5.bind(var1)(var3);
             var5 = var6.shouldNSFWGateGuild;
             var3 = var2.id;
             var3 = var5.bind(var6)(var3);
-            if(var3) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var2.features;
             var5 = var6.has;
             var3 = _closure1_slot4;
@@ -69,17 +79,17 @@ case 5:
             var5 = var5.bind(var6)(var3);
             var7 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var6 = 3;
+            var6 = 4;
             var6 = var3[var6];
             var8 = var7.bind(var1)(var6);
             var7 = var8.openLazy;
             var10 = _closure1_slot0;
-            var6 = 5;
+            var6 = 6;
             var6 = var3[var6];
             var6 = var10.bind(var1)(var6);
-            if(var5) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var5 = 7;
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var5 = 8;
             var10 = var3[var5];
             var5 = var3.paths;
             var11 = var6.bind(var1)(var10, var5);
@@ -93,9 +103,9 @@ case 7:
             var5['guild'] = var2;
             var5['expanded'] = var9;
             var5 = var7.bind(var8)(var11, var10, var5);
-            _fun0001_ip = 8; continue _fun0001;
-case 6:
-            var5 = 6;
+            _fun0001_ip = 4; continue _fun0001;
+case 8:
+            var5 = 7;
             var5 = var3[var5];
             var3 = var3.paths;
             var6 = var6.bind(var1)(var5, var3);
@@ -109,19 +119,19 @@ case 6:
             var3['guild'] = var2;
             var3['expanded'] = var9;
             var3 = var7.bind(var8)(var6, var5, var3);
-            _fun0001_ip = 8; continue _fun0001;
-case 4:
+            _fun0001_ip = 4; continue _fun0001;
+case 6:
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var5 = 3;
+            var5 = 4;
             var5 = var3[var5];
             var6 = var6.bind(var1)(var5);
             var5 = var6.openLazy;
             var7 = _closure1_slot0;
-            var4 = 5;
+            var4 = 6;
             var4 = var3[var4];
             var7 = var7.bind(var1)(var4);
-            var4 = 4;
+            var4 = 5;
             var4 = var3[var4];
             var3 = var3.paths;
             var4 = var7.bind(var1)(var4, var3);
@@ -129,7 +139,7 @@ case 4:
             var3['guild'] = var2;
             var2 = 'NsfwGateGuildSettingsActionSheet';
             var2 = var5.bind(var6)(var4, var2, var3);
-case 8:
+case 4:
             return var1;
         }
     };

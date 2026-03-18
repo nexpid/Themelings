@@ -728,7 +728,7 @@ case 81:
         }
     };
     var _closure1_slot51 = var1;
-    var1 = function setGuildChannelRaw(arg1) {
+    var1 = function setGuildChannel(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var3 = arg1;

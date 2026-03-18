@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot5 = var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -123,31 +123,18 @@ case 16:
 case 17:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                             if(var4) { _fun0002_ip = 18; continue _fun0002 }
-case 4:
+case 19:
                             var4 = var8;
                             var4 = var4.onConfirm;
-                            if(!(var5 != var4)) { _fun0002_ip = 19; continue _fun0002 }
-case 9:
+                            if(!(var5 != var4)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
                             var5 = var8;
                             var4 = var5.onConfirm;
                             var4 = var4.bind(var5)();
-case 19:
+case 20:
                             var5 = _closure1_slot1;
                             var9 = _closure1_slot2;
                             var4 = 6;
-                            var4 = var9[var4];
-                            var9 = var5.bind(var6)(var4);
-                            var5 = var9.getConfig;
-                            var4 = {};
-                            var10 = 'useStartAuthorize';
-                            var4['location'] = var10;
-                            var4 = var5.bind(var9)(var4);
-                            var4 = var4.enabled;
-                            if(!var4) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
-                            var5 = _closure1_slot1;
-                            var9 = _closure1_slot2;
-                            var4 = 7;
                             var4 = var9[var4];
                             var6 = var5.bind(var6)(var4);
                             var5 = var6.track;
@@ -162,12 +149,12 @@ case 21:
                             var7 = 'web';
                             var3['flow_type'] = var7;
                             var3 = var5.bind(var6)(var4, var3);
-case 20: // try_end0
+case 22: // try_end0
                             var3 = true;
                             return var3;
 case 18:
                             return var2;
-case 22: // catch_target0
+case 23: // catch_target0
                             CatchBlockStart(arg_register=1);
                             var2 = false;
                             return var2;
@@ -200,10 +187,10 @@ case 10:
             var3 = var8.bind(var9)(var3, var1);
             var1 = {};
             var1['fetched'] = var5;
-            if(!var5) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
+            if(!var5) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var5 = var7 != var6;
-case 23:
+case 24:
             var1['hasAlreadyLinked'] = var5;
             var1['canStartAuthorization'] = var4;
             var1['startAuthorization'] = var3;

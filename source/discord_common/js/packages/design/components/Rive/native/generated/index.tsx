@@ -125,6 +125,21 @@ case 21:
             _fun0001_ip = 20; continue _fun0001;
         }
 case 22:
+        var3 = 8;
+        var2 = var8[var3];
+        var6 = var10.bind(var1)(var2);
+        for(var2 in var6)
+case 23:
+        {
+case 24:
+            var12 = var2;
+            var11 = var8[var3];
+            var11 = var10.bind(var1)(var11);
+            var11 = var11[var12];
+            var9[var12] = var11;
+            _fun0001_ip = 23; continue _fun0001;
+        }
+case 25:
         return var1;
     }
 })();

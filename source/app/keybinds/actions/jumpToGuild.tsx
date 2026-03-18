@@ -101,8 +101,7 @@ case 10:
                 var10 = 'jumpToGuild';
                 var2['location'] = var10;
                 var2 = var8.bind(var9)(var2);
-                var14 = var2.enabled;
-                var13 = var2.hasHigherPrivileges;
+                var13 = var2.enabled;
                 var9 = _closure1_slot2;
                 var2 = 7;
                 var8 = var6[var2];
@@ -123,17 +122,16 @@ case 10:
                 var2 = var6[var2];
                 var10 = var4.bind(var1)(var2);
                 var9 = var10.isFavoritesGuildVisible;
-                var18 = _closure1_slot3;
-                var17 = _closure1_slot6;
-                var16 = _closure1_slot4;
+                var17 = _closure1_slot3;
+                var16 = _closure1_slot6;
+                var15 = _closure1_slot4;
                 var2 = {};
-                var2['favoritesGuildXPEnabled'] = var14;
-                var2['hasHigherPrivileges'] = var13;
+                var2['favoritesGuildXPEnabled'] = var13;
                 var2['isMenuItemDCSelected'] = var12;
                 var2['isIntroDCDismissed'] = var11;
-                var19 = var10;
-                var15 = var2;
-                var4 = var19[var9](var18, var17, var16, var15, var14);
+                var18 = var10;
+                var14 = var2;
+                var4 = var18[var9](var17, var16, var15, var14, var13);
                 var2 = 2;
                 if(var4) { _fun0002_ip = 11; continue _fun0002 }
 case 12:

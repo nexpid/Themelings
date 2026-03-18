@@ -203,10 +203,10 @@ case 5:
                 var2 = var5.bind(var6)(var3, var4);
 case 14:
                 var1['categoryIndex'] = var2;
-                _fun0002_ip = 15; continue _fun0002;
+                _fun0002_ip = 2; continue _fun0002;
 case 10:
                 var1 = _closure1_slot5;
-case 15:
+case 2:
                 return var1;
             }
         };

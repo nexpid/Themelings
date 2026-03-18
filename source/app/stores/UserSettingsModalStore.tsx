@@ -385,6 +385,16 @@ case 24:
         }
     };
     var2['USER_SETTINGS_MODAL_CLEAR_SUBSECTION'] = var8;
+    var8 = function handleClearLocation() {
+        var1 = null;
+        _closure1_slot9 = var1;
+        var3 = new Array(0);
+        _closure1_slot10 = var3;
+        _closure1_slot11 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['USER_SETTINGS_MODAL_CLEAR_LOCATION'] = var8;
     var4 = function handleClearScrollPosition(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:

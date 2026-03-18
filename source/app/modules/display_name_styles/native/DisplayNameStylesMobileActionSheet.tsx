@@ -516,7 +516,7 @@ case 23:
             var26 = _closure1_slot1;
             var18 = var21[var18];
             var18 = var26.bind(var4)(var18);
-            var18 = var18.jhmU5E;
+            var18 = var18.tNYdiM;
             var18 = var19.bind(var23)(var18);
             var13['children'] = var18;
             var13 = var15.bind(var4)(var14, var13);

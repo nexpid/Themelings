@@ -27,12 +27,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var9 = var2.MobileSetting;
+    var2 = var2.FontScales;
+    var _closure1_slot4 = var2;
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.FontScales;
-    var _closure1_slot4 = var2;
+    var9 = var2.MobileSetting;
     var2 = 4;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);

@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot14 = var2;
+            _closure1_slot15 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -75,8 +75,8 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot7 = var4;
-    var9 = 5;
-    var4 = var6[var9];
+    var8 = 5;
+    var4 = var6[var8];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 6;
@@ -85,34 +85,40 @@ case 4:
     var4 = var4.QuestsExperimentLocations;
     var _closure1_slot9 = var4;
     var4 = 7;
-    var8 = var6[var4];
-    var8 = var7.bind(var1)(var8);
-    var8 = var8.Millis;
-    var8 = var8.DAY;
-    var _closure1_slot10 = var8;
-    var8 = var6[var4];
-    var8 = var7.bind(var1)(var8);
-    var8 = var8.Millis;
-    var10 = var8.MINUTE;
-    var8 = 30;
-    var8 = var8 * var10;
-    var _closure1_slot11 = var8;
-    var8 = var6[var4];
-    var8 = var7.bind(var1)(var8);
-    var8 = var8.Millis;
-    var8 = var8.SECOND;
-    var8 = var9 * var8;
-    var _closure1_slot12 = var8;
-    var8 = var6[var4];
-    var8 = var7.bind(var1)(var8);
-    var8 = var8.Millis;
-    var8 = var8.MINUTE;
-    var8 = var9 * var8;
-    var _closure1_slot13 = var8;
+    var9 = var6[var4];
+    var9 = var7.bind(var1)(var9);
+    var9 = var9.Millis;
+    var9 = var9.DAY;
+    var _closure1_slot10 = var9;
+    var9 = var6[var4];
+    var9 = var7.bind(var1)(var9);
+    var9 = var9.Millis;
+    var10 = var9.MINUTE;
+    var9 = 30;
+    var9 = var9 * var10;
+    var _closure1_slot11 = var9;
+    var9 = var6[var4];
+    var9 = var7.bind(var1)(var9);
+    var9 = var9.Millis;
+    var9 = var9.SECOND;
+    var9 = var8 * var9;
+    var _closure1_slot12 = var9;
+    var9 = var6[var4];
+    var9 = var7.bind(var1)(var9);
+    var9 = var9.Millis;
+    var9 = var9.MINUTE;
+    var9 = var8 * var9;
+    var _closure1_slot13 = var9;
+    var9 = var6[var4];
+    var9 = var7.bind(var1)(var9);
+    var9 = var9.Millis;
+    var9 = var9.HOUR;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.Millis;
-    var4 = var4.HOUR;
+    var4 = var4.MINUTE;
+    var4 = var8 * var4;
+    var _closure1_slot14 = var4;
     var4 = 15;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -136,7 +142,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var10 = var1.bind(var5)(var4);
                 var4 = _closure1_slot5;
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot15;
                 var1 = var1.bind(var5)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -228,7 +234,6 @@ case 9:
                         var1 = _closure1_slot12;
                         var1 = var9 * var1;
                         var6 = var6.bind(var8)(var1);
-                        var _closure4_slot0 = var6;
                         var9 = var4.window;
                         var8 = var9.setTimeout;
                         var1 = function() {
@@ -237,18 +242,18 @@ case 0:
                                 var1 = global;
                                 var2 = var1.Date;
                                 var1 = var2.now;
-                                var2 = var1.bind(var2)();
-                                var1 = _closure4_slot0;
-                                var2 = var2 - var1;
-                                var1 = _closure1_slot8;
-                                var1 = var1.lastFetchedCurrentQuests;
-                                if(!(!(var2 < var1))) { _fun0005_ip = 11; continue _fun0005 }
-case 10:
+                                var3 = var1.bind(var2)();
+                                var2 = _closure1_slot8;
+                                var2 = var2.lastFetchedCurrentQuests;
+                                var2 = var3 - var2;
+                                var1 = _closure1_slot14;
+                                if(!(!(var2 <= var1))) { _fun0005_ip = 9; continue _fun0005 }
+case 11:
                                 var3 = _closure3_slot0;
                                 var2 = var3._fetch;
                                 var1 = 'post_connect_initial';
                                 var1 = var2.bind(var3)(var1);
-case 11:
+case 9:
                                 var1 = undefined;
                                 return var1;
                             }

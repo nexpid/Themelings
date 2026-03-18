@@ -888,10 +888,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var46['CUSTOM_NOTIFICATION_SOUNDS_SETTINGS_UPSELL'] = var5;
     var5 = 'hd_streaming_viewer_upsell';
     var46['HD_STREAMING_VIEWER_UPSELL'] = var5;
-    var5 = 'reverse_trial_ended_upsell';
-    var46['REVERSE_TRIAL_ENDED_UPSELL'] = var5;
-    var5 = 'reverse_trial_followup_upsell';
-    var46['REVERSE_TRIAL_FOLLOWUP_UPSELL'] = var5;
     var5 = 'for_later_modal_upsell';
     var46['FOR_LATER_MODAL_UPSELL'] = var5;
     var5 = 'try_it_out_modal_upsell';

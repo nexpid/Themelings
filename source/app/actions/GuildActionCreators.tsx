@@ -300,7 +300,7 @@ case 46:
                     var18 = var17[var18];
                     var17 = var17.paths;
                     var17 = var19.bind(var5)(var18, var17);
-                    SaveGenerator(address=884);
+                    SaveGenerator(address=886);
 case 47:
                     return var17;
 case 48:
@@ -313,7 +313,7 @@ case 50:
                     var18['guildId'] = var21;
                     var18['returnChannelId'] = var20;
                     var18 = var19.bind(var5)(var18);
-                    SaveGenerator(address=920);
+                    SaveGenerator(address=922);
 case 51:
                     return var18;
 case 52:

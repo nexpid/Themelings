@@ -530,6 +530,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CHANNEL_CREATE'] = var5;
     var5 = 'network_action_detectable_applications_fetch';
     var2['DETECTABLE_APPLICATIONS_FETCH'] = var5;
+    var5 = 'network_action_detectable_non_games_fetch';
+    var2['DETECTABLE_NON_GAMES_FETCH'] = var5;
     var5 = 'network_action_directory_guild_entry_create';
     var2['DIRECTORY_GUILD_ENTRY_CREATE'] = var5;
     var5 = 'network_action_directory_guild_entry_delete';

@@ -1760,10 +1760,10 @@ case 0:
                 var6 = this;
                 var _closure3_slot0 = var8;
                 var5 = undefined;
-                if(!(var4 === var5)) { _fun0032_ip = 53; continue _fun0032 }
+                if(!(var4 === var5)) { _fun0032_ip = 39; continue _fun0032 }
 case 43:
                 var4 = 'typescript';
-case 53:
+case 39:
                 var _closure3_slot1 = var5;
                 var _closure3_slot2 = var5;
                 var _closure3_slot3 = var5;
@@ -1773,11 +1773,11 @@ case 53:
                 var1 = {};
                 _closure3_slot2 = var1;
                 var9 = 'typescript';
-                if(!(var9 !== var4)) { _fun0032_ip = 101; continue _fun0032 }
-case 102:
-                var9 = 'typescript-libdiscore-dual-read';
-                if(!(var9 === var4)) { _fun0032_ip = 103; continue _fun0032 }
+                if(!(var9 !== var4)) { _fun0032_ip = 65; continue _fun0032 }
 case 101:
+                var9 = 'typescript-libdiscore-dual-read';
+                if(!(var9 === var4)) { _fun0032_ip = 102; continue _fun0032 }
+case 65:
                 var13 = function _loop() {
                     var4 = _closure3_slot0;
                     var3 = _closure3_slot3;
@@ -1791,13 +1791,13 @@ case 0:
                             var3 = _closure3_slot1;
                             var4 = var3.wrappedState;
                             var1 = null;
-                            if(!(var4 == var1)) { _fun0033_ip = 104; continue _fun0033 }
-case 105:
+                            if(!(var4 == var1)) { _fun0033_ip = 67; continue _fun0033 }
+case 103:
                             var4 = _closure3_slot1;
                             var1 = var4.stateWrapper;
                             var1 = var1.bind(var4)();
                             var3['wrappedState'] = var1;
-case 104:
+case 67:
                             var1 = _closure3_slot1;
                             var3 = var1._nextVersion;
                             var6 = _closure4_slot0;
@@ -1808,10 +1808,10 @@ case 104:
                             var4 = var6.bind(var1)(var4, var5);
                             var2 = _closure3_slot1;
                             var2 = var2._nextVersion;
-                            if(!(var2 !== var3)) { _fun0033_ip = 50; continue _fun0033 }
-case 106:
-                            return var1;
+                            if(!(var2 !== var3)) { _fun0033_ip = 104; continue _fun0033 }
 case 50:
+                            return var1;
+case 104:
                             var1 = false;
                             return var1;
                         }
@@ -1822,15 +1822,15 @@ case 50:
                 };
                 var11 = var8;
                 for(var8 in var11)
-case 70:
+case 105:
                 {
-case 57:
+case 17:
                     var14 = var8;
                     _closure3_slot3 = var14;
                     var14 = var13.bind(var5)();
-                    _fun0032_ip = 70; continue _fun0032;
+                    _fun0032_ip = 105; continue _fun0032;
                 }
-case 103:
+case 102:
                 var3 = _closure2_slot0;
                 var9 = _closure1_slot1;
                 var10 = _closure1_slot2;
@@ -1845,12 +1845,12 @@ case 103:
                 var3 = _closure1_slot3;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0032_ip = 107; continue _fun0032 }
-case 20:
+                if(var1) { _fun0032_ip = 106; continue _fun0032 }
+case 107:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var6, var11);
                 _fun0032_ip = 108; continue _fun0032;
-case 107:
+case 106:
                 var8 = global;
                 var9 = var8.Reflect;
                 var8 = var9.construct;
@@ -2046,7 +2046,7 @@ case 0:
                             var5 = var5[var2];
                             var2 = null;
                             if(!(var2 != var5)) { _fun0037_ip = 118; continue _fun0037 }
-case 54:
+case 119:
                             var2 = var6.getAllPartitions;
                             var2 = var2.bind(var6)();
                             var _closure5_slot0 = var2;
@@ -2093,7 +2093,7 @@ case 0:
                                     var11 = undefined;
                                     var10 = undefined;
                                     var9 = undefined;
-                                    if(!var2) { _fun0038_ip = 119; continue _fun0038 }
+                                    if(!var2) { _fun0038_ip = 120; continue _fun0038 }
 case 49:
                                     var15 = var14[var12];
                                     var2 = _closure5_slot0;
@@ -2104,12 +2104,12 @@ case 49:
                                     var16 = var18.call;
                                     var2 = _closure5_slot1;
                                     var2 = var16.bind(var18)(var2, var15);
-                                    if(var2) { _fun0038_ip = 115; continue _fun0038 }
-case 120:
+                                    if(var2) { _fun0038_ip = 121; continue _fun0038 }
+case 122:
                                     var2 = _closure3_slot3;
                                     var2 = var8.bind(var1)(var17, var2);
-                                    _fun0038_ip = 121; continue _fun0038;
-case 115:
+                                    _fun0038_ip = 123; continue _fun0038;
+case 121:
                                     var2 = _closure5_slot1;
                                     var16 = var2[var15];
                                     var2 = var17.derived;
@@ -2119,13 +2119,13 @@ case 115:
                                     var2 = var16.derived;
                                     var2 = var2.memoized;
                                     var2 = var2[var18];
-                                    if(!(var13 != var15)) { _fun0038_ip = 122; continue _fun0038 }
+                                    if(!(var13 != var15)) { _fun0038_ip = 124; continue _fun0038 }
 case 23:
                                     var11 = var16;
                                     var10 = var15;
                                     var9 = var2;
-                                    if(!(var10 !== var9)) { _fun0038_ip = 121; continue _fun0038 }
-case 122:
+                                    if(!(var10 !== var9)) { _fun0038_ip = 123; continue _fun0038 }
+case 124:
                                     var18 = var8.bind(var1)(var17, var16);
                                     var19 = {};
                                     var17 = var17.derived;
@@ -2138,16 +2138,16 @@ case 122:
                                     var11 = var16;
                                     var10 = var15;
                                     var9 = var2;
-case 121:
+case 123:
                                     var12 = var12 + 1;
                                     var2 = var14.length;
                                     if(var12 < var2) { _fun0038_ip = 49; continue _fun0038 }
-case 119:
+case 120:
                                     var2 = var5.length;
                                     var2 = var4 < var2;
                                     var4 = 0;
-                                    if(!var2) { _fun0038_ip = 123; continue _fun0038 }
-case 124:
+                                    if(!var2) { _fun0038_ip = 125; continue _fun0038 }
+case 126:
                                     var9 = var5[var4];
                                     var2 = var7.Object;
                                     var2 = var2.prototype;
@@ -2155,17 +2155,17 @@ case 124:
                                     var10 = var11.call;
                                     var2 = _closure5_slot0;
                                     var2 = var10.bind(var11)(var2, var9);
-                                    if(var2) { _fun0038_ip = 125; continue _fun0038 }
-case 126:
+                                    if(var2) { _fun0038_ip = 127; continue _fun0038 }
+case 128:
                                     var2 = _closure5_slot1;
                                     var9 = var2[var9];
                                     var2 = _closure3_slot3;
                                     var2 = var8.bind(var1)(var2, var9);
-case 125:
+case 127:
                                     var4 = var4 + 1;
                                     var2 = var5.length;
-                                    if(var4 < var2) { _fun0038_ip = 124; continue _fun0038 }
-case 123:
+                                    if(var4 < var2) { _fun0038_ip = 126; continue _fun0038 }
+case 125:
                                     return var1;
                                 }
                             };
@@ -2191,13 +2191,13 @@ case 118:
                     var5 = var1.databases;
                     var1 = undefined;
                     for(var2 in var5)
-case 127:
+case 129:
                     {
-case 128:
+case 130:
                         var9 = var2;
                         var _closure4_slot1 = var9;
                         var9 = var7.bind(var1)();
-                        _fun0036_ip = 127; continue _fun0036;
+                        _fun0036_ip = 129; continue _fun0036;
                     }
 case 116:
                     var1 = undefined;
@@ -2234,14 +2234,14 @@ case 0:
                 var8 = var9.set;
                 var7 = null;
                 var3 = var4;
-                if(!(var7 == var4)) { _fun0039_ip = 106; continue _fun0039 }
+                if(!(var7 == var4)) { _fun0039_ip = 131; continue _fun0039 }
 case 71:
                 var3 = _closure1_slot11;
-case 106:
+case 131:
                 var3 = var8.bind(var9)(var5, var3);
                 var3 = var2.shadowDatabases;
-                if(!(var7 != var3)) { _fun0039_ip = 129; continue _fun0039 }
-case 130:
+                if(!(var7 != var3)) { _fun0039_ip = 132; continue _fun0039 }
+case 133:
                 var9 = _closure1_slot14;
                 var8 = var2.nextVersion;
                 var3 = var8.bind;
@@ -2255,12 +2255,12 @@ case 130:
                 var3[var5] = var8;
                 var3 = var2.shadowRecordCreators;
                 var2 = var3.set;
-                if(!(var7 == var4)) { _fun0039_ip = 131; continue _fun0039 }
-case 132:
+                if(!(var7 == var4)) { _fun0039_ip = 134; continue _fun0039 }
+case 135:
                 var4 = _closure1_slot11;
-case 131:
+case 134:
                 var2 = var2.bind(var3)(var5, var4);
-case 129:
+case 132:
                 return var1;
             }
         };
@@ -2293,14 +2293,14 @@ case 0:
                 var8 = var9.set;
                 var7 = null;
                 var3 = var4;
-                if(!(var7 == var4)) { _fun0040_ip = 133; continue _fun0040 }
+                if(!(var7 == var4)) { _fun0040_ip = 105; continue _fun0040 }
 case 70:
                 var3 = _closure1_slot11;
-case 133:
+case 105:
                 var3 = var8.bind(var9)(var5, var3);
                 var3 = var2.shadowDatabases;
-                if(!(var7 != var3)) { _fun0040_ip = 107; continue _fun0040 }
-case 134:
+                if(!(var7 != var3)) { _fun0040_ip = 136; continue _fun0040 }
+case 137:
                 var9 = _closure1_slot14;
                 var8 = var2.nextVersion;
                 var3 = var8.bind;
@@ -2314,12 +2314,12 @@ case 134:
                 var3[var5] = var8;
                 var3 = var2.shadowRecordCreators;
                 var2 = var3.set;
-                if(!(var7 == var4)) { _fun0040_ip = 135; continue _fun0040 }
-case 129:
+                if(!(var7 == var4)) { _fun0040_ip = 138; continue _fun0040 }
+case 132:
                 var4 = _closure1_slot11;
-case 135:
+case 138:
                 var2 = var2.bind(var3)(var5, var4);
-case 107:
+case 136:
                 return var1;
             }
         };
@@ -2341,7 +2341,7 @@ case 0:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0041_ip = 60; continue _fun0041 }
+                if(var2) { _fun0041_ip = 139; continue _fun0041 }
 case 45:
                 var7 = var3.value;
                 var2 = var6.executeDatabaseChange;
@@ -2350,7 +2350,7 @@ case 45:
                 var2 = var7.done;
                 var3 = var7;
                 if(!var2) { _fun0041_ip = 45; continue _fun0041 }
-case 60:
+case 139:
                 return var1;
             }
         };
@@ -2366,7 +2366,7 @@ case 0:
                 var1 = var6.state;
                 var4 = var1.databases;
                 for(var1 in var4)
-case 113:
+case 140:
                 {
 case 68:
                     var8 = var1;
@@ -2375,7 +2375,7 @@ case 68:
                     var8 = var7[var8];
                     var7 = var8.clear;
                     var7 = var7.bind(var8)();
-                    _fun0042_ip = 113; continue _fun0042;
+                    _fun0042_ip = 140; continue _fun0042;
                 }
 case 11:
                 var1 = undefined;
@@ -2407,33 +2407,33 @@ case 0:
                 var4 = arguments[1];
                 var6 = this;
                 var1 = undefined;
-                if(!(var4 === var1)) { _fun0043_ip = 136; continue _fun0043 }
+                if(!(var4 === var1)) { _fun0043_ip = 141; continue _fun0043 }
 case 73:
                 var4 = false;
-case 136:
+case 141:
                 var5 = var2.databaseName;
                 var3 = var2.opcodes;
                 var2 = var6.nextVersion;
                 var15 = var2.bind(var6)();
-                if(var4) { _fun0043_ip = 8; continue _fun0043 }
-case 62:
+                if(var4) { _fun0043_ip = 40; continue _fun0043 }
+case 41:
                 var2 = var6.state;
                 var2 = var2.databases;
-                _fun0043_ip = 11; continue _fun0043;
-case 8:
+                _fun0043_ip = 142; continue _fun0043;
+case 40:
                 var2 = var6.shadowDatabases;
-case 11:
-                if(var4) { _fun0043_ip = 5; continue _fun0043 }
-case 137:
+case 142:
+                if(var4) { _fun0043_ip = 4; continue _fun0043 }
+case 143:
                 var4 = var6.recordCreators;
-                _fun0043_ip = 138; continue _fun0043;
-case 5:
+                _fun0043_ip = 49; continue _fun0043;
+case 4:
                 var4 = var6.shadowRecordCreators;
-case 138:
+case 49:
                 var14 = var2[var5];
                 var2 = null;
-                if(!(var2 != var14)) { _fun0043_ip = 139; continue _fun0043 }
-case 106:
+                if(!(var2 != var14)) { _fun0043_ip = 144; continue _fun0043 }
+case 50:
                 var2 = var4.get;
                 var13 = var2.bind(var4)(var5);
                 var2 = _closure1_slot16;
@@ -2448,35 +2448,35 @@ case 106:
                 var6 = 'removePartition';
                 var4 = var3;
                 var3 = undefined;
-                if(var2) { _fun0043_ip = 140; continue _fun0043 }
-case 141:
+                if(var2) { _fun0043_ip = 145; continue _fun0043 }
+case 18:
                 var2 = var4.value;
                 var17 = var2.opcode;
-                if(!(var6 !== var17)) { _fun0043_ip = 142; continue _fun0043 }
-case 118:
-                if(!(var7 !== var17)) { _fun0043_ip = 143; continue _fun0043 }
-case 92:
-                if(!(var8 !== var17)) { _fun0043_ip = 144; continue _fun0043 }
-case 145:
-                if(!(var9 !== var17)) { _fun0043_ip = 146; continue _fun0043 }
+                if(!(var6 !== var17)) { _fun0043_ip = 146; continue _fun0043 }
 case 107:
-                if(!(var10 !== var17)) { _fun0043_ip = 147; continue _fun0043 }
+                if(!(var7 !== var17)) { _fun0043_ip = 147; continue _fun0043 }
 case 148:
-                var16 = var3;
-                if(!(var11 === var17)) { _fun0043_ip = 149; continue _fun0043 }
+                if(!(var8 !== var17)) { _fun0043_ip = 149; continue _fun0043 }
 case 150:
+                if(!(var9 !== var17)) { _fun0043_ip = 151; continue _fun0043 }
+case 152:
+                if(!(var10 !== var17)) { _fun0043_ip = 108; continue _fun0043 }
+case 153:
+                var16 = var3;
+                if(!(var11 === var17)) { _fun0043_ip = 154; continue _fun0043 }
+case 155:
                 var17 = var14.clear;
                 var17 = var17.bind(var14)();
                 var16 = var3;
-                _fun0043_ip = 149; continue _fun0043;
-case 147:
+                _fun0043_ip = 154; continue _fun0043;
+case 108:
                 var19 = var14.removeRecord;
                 var18 = var2.partitionKey;
                 var17 = var2.clusteringKey;
                 var17 = var19.bind(var14)(var18, var17, var15);
                 var16 = var3;
-                _fun0043_ip = 149; continue _fun0043;
-case 146:
+                _fun0043_ip = 154; continue _fun0043;
+case 151:
                 var20 = var14.setRecord;
                 var19 = var2.partitionKey;
                 var28 = var2.clusteringKey;
@@ -2487,8 +2487,8 @@ case 146:
                 var26 = var15;
                 var17 = var30[var20](var29, var28, var27, var26, var25);
                 var16 = var3;
-                _fun0043_ip = 149; continue _fun0043;
-case 144:
+                _fun0043_ip = 154; continue _fun0043;
+case 149:
                 var20 = var14.updateRecord;
                 var29 = var2.partitionKey;
                 var28 = var2.clusteringKey;
@@ -2498,40 +2498,40 @@ case 144:
                 var25 = var15;
                 var17 = var30[var20](var29, var28, var27, var26, var25, var24);
                 var16 = var3;
-                _fun0043_ip = 149; continue _fun0043;
-case 143:
+                _fun0043_ip = 154; continue _fun0043;
+case 147:
                 var17 = var2.partition;
                 var21 = var17;
                 for(var18 in var21)
-case 151:
+case 156:
                 {
-case 152:
+case 109:
                     var24 = var18;
                     var23 = var17[var24];
                     var23 = var13.bind(var1)(var23);
                     var17[var24] = var23;
-                    _fun0043_ip = 151; continue _fun0043;
+                    _fun0043_ip = 156; continue _fun0043;
                 }
-case 153:
+case 157:
                 var19 = var14.setPartition;
                 var18 = var2.partitionKey;
                 var18 = var19.bind(var14)(var18, var17, var15);
                 var16 = var17;
-                _fun0043_ip = 149; continue _fun0043;
-case 142:
+                _fun0043_ip = 154; continue _fun0043;
+case 146:
                 var17 = var14.removePartition;
                 var2 = var2.partitionKey;
                 var2 = var17.bind(var14)(var2, var15);
                 var16 = var3;
-case 149:
+case 154:
                 var17 = var12.bind(var1)();
                 var2 = var17.done;
                 var3 = var16;
                 var4 = var17;
-                if(!var2) { _fun0043_ip = 141; continue _fun0043 }
-case 140:
+                if(!var2) { _fun0043_ip = 18; continue _fun0043 }
+case 145:
                 return var1;
-case 139:
+case 144:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var1.HermesInternal;

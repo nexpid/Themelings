@@ -353,6 +353,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['COPY_AVATAR_IMAGE_LINK'] = var5;
     var5 = 'COPY_BANNER_IMAGE_LINK';
     var10['COPY_BANNER_IMAGE_LINK'] = var5;
+    var5 = 'GIFT';
+    var10['GIFT'] = var5;
     var9 = {};
     var5 = 'VIEW_ACTIVITY_CARD';
     var9['VIEW_ACTIVITY_CARD'] = var5;

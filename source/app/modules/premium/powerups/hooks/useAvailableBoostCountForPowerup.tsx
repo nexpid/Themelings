@@ -220,7 +220,7 @@ case 2:
             var4 = var1 == var9;
             var6 = undefined;
             if(var4) { _fun0001_ip = 22; continue _fun0001 }
-case 2:
+case 23:
             var5 = var9.reduce;
             var4 = function(arg1, arg2) {
                 var1 = arg2;
@@ -237,24 +237,24 @@ case 22:
             var3 = var4.max;
             var5 = var1 == var2;
             var8 = undefined;
-            if(var5) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
+            if(var5) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var8 = var2.premiumSubscriberCount;
-case 23:
+case 24:
             var9 = var1 != var8;
             var2 = 0;
             var5 = 0;
-            if(!var9) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+            if(!var9) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var5 = var8;
-case 25:
+case 26:
             var5 = var5 - var7;
             var7 = var1 != var6;
             var1 = 0;
-            if(!var7) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+            if(!var7) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var1 = var6;
-case 27:
+case 28:
             var1 = var5 + var1;
             var1 = var3.bind(var4)(var1, var2);
             return var1;

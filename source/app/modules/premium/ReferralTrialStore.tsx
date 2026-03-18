@@ -524,11 +524,28 @@ case 55:
         var7 = 'getReferralsRemaining';
         var5['key'] = var7;
         var7 = function value() {
-            var2 = this;
-            var1 = var2.checkAndFetchReferralsRemaining;
-            var1 = var1.bind(var2)();
-            var1 = _closure1_slot10;
-            return var1;
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var1 = arguments[0];
+                var2 = this;
+                var3 = undefined;
+                if(!(var1 === var3)) { _fun0008_ip = 36; continue _fun0008 }
+case 57:
+                var1 = {};
+case 36:
+                var1 = var1.bypassFetch;
+                if(!(var1 === var3)) { _fun0008_ip = 51; continue _fun0008 }
+case 58:
+                var1 = false;
+case 51:
+                if(var1) { _fun0008_ip = 59; continue _fun0008 }
+case 60:
+                var1 = var2.checkAndFetchReferralsRemaining;
+                var1 = var1.bind(var2)();
+case 59:
+                var1 = _closure1_slot10;
+                return var1;
+            }
         };
         var5['value'] = var7;
         var1[2] = var5;
@@ -681,14 +698,14 @@ case 55:
     var16 = var7.bind(var1)(var2);
     var2 = {};
     var10 = function handleReferralTrialOfferUpdate(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var2 = arg1;
             var5 = var2.userTrialOfferId;
             var _closure2_slot0 = var5;
             var3 = _closure1_slot13;
-            if(var3) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
+            if(var3) { _fun0009_ip = 61; continue _fun0009 }
+case 62:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var3 = 7;
@@ -697,11 +714,11 @@ case 58:
             var4 = var6.bind(var3)(var4);
             var3 = var4.fetchReferralsRemaining;
             var3 = var3.bind(var4)();
-case 57:
+case 61:
             var4 = _closure1_slot14;
             var3 = var4.has;
             var3 = var3.bind(var4)(var5);
-            if(var3) { _fun0008_ip = 59; continue _fun0008 }
+            if(var3) { _fun0009_ip = 63; continue _fun0009 }
 case 4:
             var3 = _closure1_slot30;
             var4 = undefined;
@@ -728,19 +745,19 @@ case 4:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-case 59:
+case 63:
             var1 = undefined;
             return var1;
         }
     };
     var2['BILLING_REFERRAL_TRIAL_OFFER_UPDATE'] = var10;
     var10 = function handleReferralsRemainingFetchStart(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0009_ip = 51; continue _fun0009 }
-case 60:
+            if(!(var2 != var1)) { _fun0010_ip = 51; continue _fun0010 }
+case 64:
             _closure1_slot24 = var1;
             var1 = true;
             _closure1_slot13 = var1;
@@ -785,12 +802,12 @@ case 51:
     };
     var2['BILLING_REFERRALS_REMAINING_FETCH_SUCCESS'] = var10;
     var10 = function handleReferralsRemainingFetchFail(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = arg1;
             var4 = null;
-            if(!(var2 != var4)) { _fun0010_ip = 61; continue _fun0010 }
-case 60:
+            if(!(var2 != var4)) { _fun0011_ip = 65; continue _fun0011 }
+case 64:
             var1 = false;
             _closure1_slot22 = var1;
             _closure1_slot23 = var1;
@@ -815,7 +832,7 @@ case 60:
             _closure1_slot18 = var1;
             var1 = undefined;
             return var1;
-case 61:
+case 65:
             var8 = "Cannot destructure 'undefined' or 'null'.";
             var9 = var2;
             var1 = throwTypeError(var9, var8);
@@ -847,7 +864,7 @@ case 61:
     };
     var2['BILLING_CREATE_REFERRAL_SUCCESS'] = var10;
     var10 = function handleCreateReferralsSuccess(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.userTrialOffers;
@@ -863,8 +880,8 @@ case 0:
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0011_ip = 62; continue _fun0011 }
-case 63:
+            if(var2) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
             var2 = var3.value;
             var8 = _closure1_slot16;
             var7 = var8.set;
@@ -877,20 +894,20 @@ case 63:
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0011_ip = 63; continue _fun0011 }
-case 62:
+            if(!var2) { _fun0012_ip = 67; continue _fun0012 }
+case 66:
             return var1;
         }
     };
     var2['CREATE_REFERRALS_SUCCESS'] = var10;
     var10 = function handleReferralTrialResolveSuccess(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.userTrialOffer;
             var1 = null;
-            if(!(var1 != var4)) { _fun0012_ip = 54; continue _fun0012 }
-case 64:
+            if(!(var1 != var4)) { _fun0013_ip = 54; continue _fun0013 }
+case 68:
             var5 = _closure1_slot14;
             var3 = var5.delete;
             var2 = var4.id;

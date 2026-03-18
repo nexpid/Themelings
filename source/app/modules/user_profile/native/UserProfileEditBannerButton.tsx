@@ -104,7 +104,7 @@ case 5:
             var6 = var13[var6];
             var6 = var12.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
+            var6 = {'variant': 'text-sm/semibold', 'color': 'always-white'};
             var10 = var13[var9];
             var10 = var12.bind(var5)(var10);
             var11 = var10.intl;
@@ -127,39 +127,46 @@ case 4:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var10 = var1.onPress;
+            var9 = var1.onPress;
             var11 = var1.accessibilityLabel;
-            var9 = var1.disabled;
+            var7 = var1.disabled;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0003_ip = 6; continue _fun0003 }
+            if(!(var7 === var4)) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-            var9 = false;
+            var7 = false;
 case 6:
             var1 = _closure1_slot7;
-            var7 = var1.bind(var4)();
+            var5 = var1.bind(var4)();
             var3 = _closure1_slot5;
             var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var1 = 8;
-            var1 = var8[var1];
+            var1 = var10[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
             var12 = 'button';
             var1['accessibilityRole'] = var12;
             var1['accessibilityLabel'] = var11;
-            var1['onPress'] = var10;
-            var1['disabled'] = var9;
-            var7 = var7.editButton;
-            var1['style'] = var7;
+            var1['onPress'] = var9;
+            var1['disabled'] = var7;
+            var5 = var5.editButton;
+            var1['style'] = var5;
             var7 = _closure1_slot5;
             var5 = 11;
-            var5 = var8[var5];
+            var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.PencilIcon;
             var5 = {};
-            var8 = 'xs';
-            var5['size'] = var8;
+            var9 = 'xs';
+            var5['size'] = var9;
+            var9 = _closure1_slot1;
+            var8 = 4;
+            var8 = var10[var8];
+            var8 = var9.bind(var4)(var8);
+            var8 = var8.colors;
+            var8 = var8.WHITE;
+            var5['color'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -207,7 +214,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_SURFACE_HIGH;
+    var12 = var12.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -224,7 +231,7 @@ case 6:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_SURFACE_HIGH;
+    var10 = var10.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var10;
     var4['previewButton'] = var9;
     var4 = var7.bind(var8)(var4);

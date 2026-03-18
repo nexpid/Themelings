@@ -80,7 +80,7 @@ case 4:
         return var1;
     };
     var2['clearSubsection'] = var5;
-    var1 = function clearScrollPosition(arg1) {
+    var5 = function clearScrollPosition(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -96,7 +96,22 @@ case 4:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['clearScrollPosition'] = var1;
+    var2['clearScrollPosition'] = var5;
+    var1 = function clearLocation() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'USER_SETTINGS_MODAL_CLEAR_LOCATION';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['clearLocation'] = var1;
     var1 = 1;
     var5 = var4[var1];
     var4 = require;

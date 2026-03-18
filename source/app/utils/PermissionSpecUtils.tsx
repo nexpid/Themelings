@@ -142,7 +142,6 @@ case 6:
     var2 = var5.bind(var1)(var2);
     var7 = var2.HelpdeskArticles;
     var _closure1_slot6 = var7;
-    var7 = var2.UserSettingsSections;
     var7 = var2.ChannelTypes;
     var _closure1_slot7 = var7;
     var7 = var2.GuildFeatures;

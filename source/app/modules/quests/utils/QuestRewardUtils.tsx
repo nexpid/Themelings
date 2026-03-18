@@ -377,6 +377,45 @@ case 17:
         return var1;
     };
     var3['hasVirtualCurrencyReward'] = var5;
+    var5 = function hasPremiumOrbQuantity(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var1 = arg1;
+            var1 = var1.rewardsConfig;
+            var3 = var1.rewards;
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 2;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = var1.QuestRewardTypes;
+                var1 = var1.VIRTUAL_CURRENCY;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var2 = var2.bind(var3)(var1);
+            var1 = null;
+            var4 = var1 == var2;
+            var3 = undefined;
+            if(var4) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+            var3 = var2.premiumOrbQuantity;
+case 27:
+            var1 = var1 != var3;
+            if(!var1) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
+            var2 = 0;
+            var1 = var3 > var2;
+case 29:
+            return var1;
+        }
+    };
+    var3['hasPremiumOrbQuantity'] = var5;
     var5 = function hasCollectiblesQuestReward(arg1) {
         var3 = _closure1_slot4;
         var2 = undefined;
@@ -434,7 +473,7 @@ case 17:
     };
     var3['hasQuestRewardCode'] = var5;
     var5 = function getInGameQuestReward(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.rewardsConfig;
@@ -457,16 +496,16 @@ case 0:
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(!var3) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
             var1 = var2;
-case 27:
+case 31:
             return var1;
         }
     };
     var3['getInGameQuestReward'] = var5;
     var5 = function getCollectiblesQuestRewardItem(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = _closure1_slot4;
             var5 = undefined;
@@ -475,37 +514,37 @@ case 0:
             var1 = null;
             var6 = var1 == var3;
             var4 = undefined;
-            if(var6) { _fun0007_ip = 29; continue _fun0007 }
+            if(var6) { _fun0008_ip = 33; continue _fun0008 }
 case 11:
             var4 = var3.skuId;
-case 29:
+case 33:
             var3 = _closure1_slot2;
             var2 = var3.getProduct;
             var3 = var2.bind(var3)(var4);
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0007_ip = 10; continue _fun0007 }
+            if(var4) { _fun0008_ip = 34; continue _fun0008 }
 case 30:
             var4 = var3.items;
             var3 = var1 == var4;
             var2 = undefined;
-            if(var3) { _fun0007_ip = 10; continue _fun0007 }
-case 31:
+            if(var3) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
             var3 = 0;
             var2 = var4[var3];
-case 10:
+case 34:
             var3 = var1 != var2;
             var1 = null;
-            if(!var3) { _fun0007_ip = 32; continue _fun0007 }
-case 33:
+            if(!var3) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
             var1 = var2;
-case 32:
+case 36:
             return var1;
         }
     };
     var3['getCollectiblesQuestRewardItem'] = var5;
     var5 = function getVirtualCurrencyRewardOrbQuantity(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.rewardsConfig;
@@ -529,33 +568,79 @@ case 0:
             var1 = null;
             var3 = var1 == var2;
             var1 = undefined;
-            if(var3) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+            if(var3) { _fun0009_ip = 27; continue _fun0009 }
+case 28:
             var1 = var2.orbQuantity;
-case 34:
+case 27:
             return var1;
         }
     };
     var3['getVirtualCurrencyRewardOrbQuantity'] = var5;
+    var5 = function getVirtualCurrencyRewardPremiumOrbQuantity(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var1 = arg1;
+            var1 = var1.rewardsConfig;
+            var3 = var1.rewards;
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 2;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = var1.QuestRewardTypes;
+                var1 = var1.VIRTUAL_CURRENCY;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            var2 = null;
+            var3 = var2 == var1;
+            var2 = undefined;
+            var4 = undefined;
+            if(var3) { _fun0010_ip = 2; continue _fun0010 }
+case 3:
+            var4 = var1.type;
+case 2:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 2;
+            var3 = var6[var3];
+            var3 = var5.bind(var2)(var3);
+            var3 = var3.QuestRewardTypes;
+            var3 = var3.VIRTUAL_CURRENCY;
+            if(!(var4 !== var3)) { _fun0010_ip = 5; continue _fun0010 }
+case 36:
+            return var2;
+case 5:
+            var1 = var1.premiumOrbQuantity;
+            return var1;
+        }
+    };
+    var3['getVirtualCurrencyRewardPremiumOrbQuantity'] = var5;
     var3['isCollectibleQuestRewardPremiumExtendable'] = var4;
     var4 = function isCollectibleQuestRewardPermanentWithPremiumSubscription(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg1;
             var1 = _closure1_slot6;
             var5 = undefined;
             var1 = var1.bind(var5)(var4);
-            if(!var1) { _fun0009_ip = 36; continue _fun0009 }
-case 37:
+            if(!var1) { _fun0011_ip = 38; continue _fun0011 }
+case 39:
             var3 = _closure1_slot4;
             var4 = var3.bind(var5)(var4);
             var3 = null;
             var6 = var3 == var4;
             var3 = undefined;
-            if(var6) { _fun0009_ip = 27; continue _fun0009 }
+            if(var6) { _fun0011_ip = 31; continue _fun0011 }
 case 18:
             var3 = var4.expirationMode;
-case 27:
+case 31:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 1;
@@ -564,43 +649,43 @@ case 27:
             var2 = var2.QuestRewardExpirationMode;
             var2 = var2.PREMIUM_PERMANENT;
             var1 = var3 === var2;
-case 36:
+case 38:
             return var1;
         }
     };
     var3['isCollectibleQuestRewardPermanentWithPremiumSubscription'] = var4;
     var4 = function getQuestPrimaryReward(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var2 = arg1;
             var4 = var2.userStatus;
             var3 = null;
             var5 = var3 == var4;
             var1 = undefined;
-            if(var5) { _fun0010_ip = 7; continue _fun0010 }
-case 37:
+            if(var5) { _fun0012_ip = 7; continue _fun0012 }
+case 39:
             var1 = var4.claimedTier;
 case 7:
             var4 = var3 != var1;
             var3 = 0;
-            if(!var4) { _fun0010_ip = 38; continue _fun0010 }
-case 39:
+            if(!var4) { _fun0012_ip = 40; continue _fun0012 }
+case 41:
             var3 = var1;
-case 38:
+case 40:
             var4 = var2.config;
             var1 = 'rewardsConfig';
             var1 = var1 in var4;
             var2 = var2.config;
-            if(var1) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
+            if(var1) { _fun0012_ip = 42; continue _fun0012 }
+case 43:
             var1 = var2.rewards;
             var1 = var1[var3];
-            _fun0010_ip = 33; continue _fun0010;
-case 40:
+            _fun0012_ip = 44; continue _fun0012;
+case 42:
             var2 = var2.rewardsConfig;
             var2 = var2.rewards;
             var1 = var2[var3];
-case 33:
+case 44:
             return var1;
         }
     };
@@ -624,14 +709,14 @@ case 33:
     };
     var3['getDefaultRewardNameWithArticle'] = var4;
     var4 = function getRewardCodeQuestReward(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.quest;
             var3 = var1.idx;
             var1 = null;
-            if(!(var1 != var3)) { _fun0011_ip = 42; continue _fun0011 }
-case 43:
+            if(!(var1 != var3)) { _fun0013_ip = 45; continue _fun0013 }
+case 46:
             var2 = var2.config;
             var2 = var2.rewardsConfig;
             var2 = var2.rewards;
@@ -646,18 +731,18 @@ case 43:
             var2 = var2.QuestRewardTypes;
             var4 = var2.REWARD_CODE;
             var2 = null;
-            if(!(var5 === var4)) { _fun0011_ip = 5; continue _fun0011 }
-case 32:
+            if(!(var5 === var4)) { _fun0013_ip = 5; continue _fun0013 }
+case 47:
             var2 = var3;
 case 5:
             return var2;
-case 42:
+case 45:
             return var1;
         }
     };
     var3['getRewardCodeQuestReward'] = var4;
     var4 = function isTieredRewardCodeQuest(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.quest;
@@ -673,15 +758,15 @@ case 0:
             var1 = var1.QuestRewardAssignmentMethods;
             var1 = var1.TIERED;
             var1 = var3 === var1;
-            if(!var1) { _fun0012_ip = 33; continue _fun0012 }
+            if(!var1) { _fun0014_ip = 44; continue _fun0014 }
 case 12:
             var3 = var2.rewards;
             var4 = var3.length;
             var3 = 0;
             var1 = var4 > var3;
-case 33:
-            if(!var1) { _fun0012_ip = 44; continue _fun0012 }
-case 32:
+case 44:
+            if(!var1) { _fun0014_ip = 48; continue _fun0014 }
+case 47:
             var4 = var2.rewards;
             var3 = var4.every;
             var2 = function(arg1) {
@@ -699,20 +784,20 @@ case 32:
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
-case 44:
+case 48:
             return var1;
         }
     };
     var3['isTieredRewardCodeQuest'] = var4;
     var4 = function getDefaultPlatform(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.rewardsConfig;
             var3 = var1.platforms;
             var1 = var3.length;
             var2 = 0;
-            if(!(!(var1 > var2))) { _fun0013_ip = 45; continue _fun0013 }
+            if(!(!(var1 > var2))) { _fun0015_ip = 49; continue _fun0015 }
 case 7:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -722,16 +807,16 @@ case 7:
             var1 = var5.bind(var1)(var4);
             var1 = var1.QuestRewardCodePlatforms;
             var1 = var1.CROSS_PLATFORM;
-            _fun0013_ip = 46; continue _fun0013;
-case 45:
+            _fun0015_ip = 50; continue _fun0015;
+case 49:
             var1 = var3[var2];
-case 46:
+case 50:
             return var1;
         }
     };
     var3['getDefaultPlatform'] = var4;
     var2 = function(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var3 = arg1;
             var4 = _closure1_slot0;
@@ -742,7 +827,7 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var2 = var2.QuestRewardCodePlatforms;
             var2 = var2.XBOX;
-            if(!(var2 !== var3)) { _fun0014_ip = 47; continue _fun0014 }
+            if(!(var2 !== var3)) { _fun0016_ip = 51; continue _fun0016 }
 case 3:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -750,34 +835,34 @@ case 3:
             var2 = var4.bind(var5)(var2);
             var2 = var2.QuestRewardCodePlatforms;
             var2 = var2.PLAYSTATION;
-            if(!(var2 !== var3)) { _fun0014_ip = 48; continue _fun0014 }
-case 49:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.QuestRewardCodePlatforms;
-            var2 = var2.SWITCH;
-            if(!(var2 !== var3)) { _fun0014_ip = 50; continue _fun0014 }
-case 51:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.QuestRewardCodePlatforms;
-            var2 = var2.PC;
-            if(!(var2 !== var3)) { _fun0014_ip = 52; continue _fun0014 }
+            if(!(var2 !== var3)) { _fun0016_ip = 52; continue _fun0016 }
 case 53:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.QuestRewardCodePlatforms;
-            var2 = var2.CROSS_PLATFORM;
-            if(!(var2 !== var3)) { _fun0014_ip = 54; continue _fun0014 }
+            var2 = var2.SWITCH;
+            if(!(var2 !== var3)) { _fun0016_ip = 54; continue _fun0016 }
 case 55:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.QuestRewardCodePlatforms;
+            var2 = var2.PC;
+            if(!(var2 !== var3)) { _fun0016_ip = 56; continue _fun0016 }
+case 57:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.QuestRewardCodePlatforms;
+            var2 = var2.CROSS_PLATFORM;
+            if(!(var2 !== var3)) { _fun0016_ip = 58; continue _fun0016 }
+case 59:
             return var5;
-case 54:
+case 58:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 5;
@@ -791,7 +876,7 @@ case 54:
             var2 = var2.UWVbzV;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 52:
+case 56:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 5;
@@ -805,7 +890,7 @@ case 52:
             var2 = var2.YK+wUg;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 50:
+case 54:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 5;
@@ -819,7 +904,7 @@ case 50:
             var2 = var2.1pp0su;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 48:
+case 52:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 5;
@@ -833,7 +918,7 @@ case 48:
             var2 = var2.6IeKx2;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 47:
+case 51:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 5;

@@ -64,19 +64,6 @@ case 12:
                     var5 = 4;
                     var5 = var7[var5];
                     var7 = var6.bind(var2)(var5);
-                    var6 = var7.getConfig;
-                    var5 = {};
-                    var10 = 'useStartAuthorize';
-                    var5['location'] = var10;
-                    var5 = var6.bind(var7)(var5);
-                    var5 = var5.enabled;
-                    if(!var5) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var5 = 5;
-                    var5 = var7[var5];
-                    var7 = var6.bind(var2)(var5);
                     var6 = var7.track;
                     var4 = _closure1_slot4;
                     var5 = var4.ON_PLATFORM_ACCOUNT_LINK_FLOW_STARTED;
@@ -91,7 +78,7 @@ case 13: // try_end0
                     _fun0001_ip = 4; continue _fun0001;
 case 11:
                     return var3;
-case 15: // catch_target0
+case 14: // catch_target0
                     CatchBlockStart(arg_register=2);
 case 4:
                     return var2;
@@ -129,7 +116,7 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot4 = var4;
-    var4 = 6;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

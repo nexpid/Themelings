@@ -7,19 +7,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var10;
     var _closure1_slot2 = var9;
+    var11 = function resetCache() {
+        var1 = global;
+        var3 = var1.Object;
+        var2 = var3.create;
+        var1 = null;
+        var2 = var2.bind(var3)(var1);
+        _closure1_slot5 = var2;
+        var1 = undefined;
+        return var1;
+    };
     var12 = function syncHourCycleToIntlConfig() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 2;
+            var1 = 3;
             var4 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var4);
             var5 = var4.TimestampHourCycle;
             var4 = var5.getSetting;
             var11 = var4.bind(var5)();
-            var10 = 3;
+            var10 = 4;
             var2 = var2[var10];
             var2 = var3.bind(var1)(var2);
             var2 = var2.TimestampHourCycle;
@@ -29,7 +39,7 @@ case 0:
 case 3:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 4;
+            var2 = 5;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.getCurrentConfig;
@@ -44,7 +54,7 @@ case 2:
             var3 = var4.values;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var2 = var6[var2];
             var2 = var5.bind(var1)(var2);
             var2 = var2.intl;
@@ -208,7 +218,7 @@ case 0:
 case 21:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 2;
+            var2 = 3;
             var2 = var7[var2];
             var2 = var6.bind(var3)(var2);
             var6 = var2.TimestampHourCycle;
@@ -233,7 +243,7 @@ case 28:
             var6 = _closure1_slot5;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var5 = 7;
+            var5 = 8;
             var5 = var10[var5];
             var5 = var9.bind(var3)(var5);
             var5 = var5.bind(var3)(var8);
@@ -257,7 +267,7 @@ case 0:
 case 30:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var1 = var2[var1];
             var2 = undefined;
             var1 = var4.bind(var2)(var1);
@@ -282,7 +292,7 @@ case 0:
             var4 = arg1;
             var5 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var6 = 8;
+            var6 = 9;
             var1 = var1[var6];
             var3 = undefined;
             var5 = var5.bind(var3)(var1);
@@ -307,7 +317,7 @@ case 0:
             var3 = arg1;
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var4.bind(var1)(var2);
@@ -324,47 +334,41 @@ case 33:
     };
     var _closure1_slot12 = var1;
     var7 = global;
-    var14 = var7.Object;
-    var13 = var14.defineProperty;
-    var11 = {};
+    var15 = var7.Object;
+    var14 = var15.defineProperty;
+    var13 = {};
     var1 = true;
-    var11['value'] = var1;
+    var13['value'] = var1;
     var1 = '__esModule';
-    var1 = var13.bind(var14)(var3, var1, var11);
+    var1 = var14.bind(var15)(var3, var1, var13);
     var1 = 0;
-    var11 = var9[var1];
+    var13 = var9[var1];
     var1 = undefined;
-    var13 = var10.bind(var1)(var11);
-    var11 = 1;
-    var11 = var9[var11];
-    var15 = var10.bind(var1)(var11);
-    var11 = var15.prototype;
-    var14 = Object.create(var11, {constructor: {value: var15}});
-    var18 = 'DateUtils';
-    var19 = var14;
-    var11 = new var19[var15](var18, var17);
-    var11 = var11 instanceof Object ? var11 : var14;
-    var _closure1_slot3 = var11;
-    var11 = 86400000;
-    var _closure1_slot4 = var11;
-    var14 = var7.Object;
-    var11 = var14.create;
+    var13 = var10.bind(var1)(var13);
+    var14 = 1;
+    var14 = var9[var14];
+    var16 = var10.bind(var1)(var14);
+    var14 = var16.prototype;
+    var15 = Object.create(var14, {constructor: {value: var16}});
+    var19 = 'DateUtils';
+    var20 = var15;
+    var14 = new var20[var16](var19, var18);
+    var14 = var14 instanceof Object ? var14 : var15;
+    var _closure1_slot3 = var14;
+    var14 = 86400000;
+    var _closure1_slot4 = var14;
+    var15 = var7.Object;
+    var14 = var15.create;
     var7 = null;
-    var7 = var11.bind(var14)(var7);
+    var7 = var14.bind(var15)(var7);
     var _closure1_slot5 = var7;
-    var11 = var13.addChangeListener;
-    var7 = function() {
-        var1 = global;
-        var3 = var1.Object;
-        var2 = var3.create;
-        var1 = null;
-        var2 = var2.bind(var3)(var1);
-        _closure1_slot5 = var2;
-        var1 = undefined;
-        return var1;
-    };
-    var7 = var11.bind(var13)(var7);
-    var7 = 6;
+    var7 = var13.addChangeListener;
+    var7 = var7.bind(var13)(var11);
+    var7 = 2;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var7 = var7.bind(var1)(var11);
+    var7 = 7;
     var11 = var9[var7];
     var14 = var10.bind(var1)(var11);
     var13 = var14.subscribe;
@@ -385,7 +389,7 @@ case 33:
     var10 = {'key': 'seconds', 'millisecondsInUnit': 1000};
     var7[3] = var10;
     var _closure1_slot6 = var7;
-    var7 = 9;
+    var7 = 10;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -492,7 +496,7 @@ case 30:
 case 38:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var6 = 8;
+            var6 = 9;
             var9 = var8[var6];
             var10 = var7.bind(var3)(var9);
             var9 = var10.localeData;
@@ -556,7 +560,7 @@ case 0:
             var5 = arg1;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var7 = var3[var1];
             var4 = undefined;
             var8 = var2.bind(var4)(var7);
@@ -609,7 +613,7 @@ case 0:
             var4 = arg1;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var12 = 8;
+            var12 = 9;
             var1 = var1[var12];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -760,7 +764,7 @@ case 67:
 case 68:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var3 = var3[var1];
             var1 = undefined;
             var1 = var4.bind(var1)(var3);
@@ -780,7 +784,7 @@ case 68:
 case 22:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 5;
+            var3 = 6;
             var4 = var4[var3];
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
@@ -798,7 +802,7 @@ case 24:
 case 66:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 5;
+            var3 = 6;
             var4 = var4[var3];
             var3 = undefined;
             var3 = var5.bind(var3)(var4);

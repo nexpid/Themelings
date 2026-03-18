@@ -134,13 +134,8 @@ case 4:
     };
     var4['useValue'] = var9;
     var4['onValueChange'] = var2;
-    var9 = 8;
-    var9 = var7[var9];
-    var9 = var6.bind(var1)(var9);
-    var9 = var9.useCustomStatusPushExperiment;
-    var4['usePredicate'] = var9;
     var4 = var5.bind(var8)(var4);
-    var5 = 9;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

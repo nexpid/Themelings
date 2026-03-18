@@ -1097,8 +1097,8 @@ case 0:
             var7 = var7.bind(var5)(var4);
             var4 = var7.isWishlistableCollectiblesProduct;
             var7 = var4.bind(var7)(var8);
-            if(var3) { _fun0013_ip = 35; continue _fun0013 }
-case 58:
+            if(var3) { _fun0013_ip = 58; continue _fun0013 }
+case 59:
             var4 = _closure1_slot10;
             var3 = _closure1_slot21;
             var2 = {};
@@ -1110,7 +1110,7 @@ case 58:
             var12 = var6;
             var6 = copyDataProperties(var13, var12);
             var1 = var4.bind(var5)(var3, var2);
-case 35:
+case 58:
             return var1;
         }
     };

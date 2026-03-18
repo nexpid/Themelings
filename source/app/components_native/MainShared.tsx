@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 22;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var3['MainViewTooltipActionSheets'] = var4;
+    var3['MainViewTooltipActionSheetsV2'] = var4;
     var4 = 23;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);

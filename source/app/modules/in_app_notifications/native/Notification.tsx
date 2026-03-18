@@ -391,8 +391,8 @@ case 9:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.children;
             var11 = var1.onLongPress;
+            var9 = var1.children;
             var13 = var1.percent;
             var1 = _closure1_slot10;
             var4 = undefined;

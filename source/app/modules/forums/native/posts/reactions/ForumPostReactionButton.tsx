@@ -24,7 +24,7 @@ case 0:
             var5 = var1.accessible;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 14;
+            var2 = 13;
             var2 = var4[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
@@ -39,7 +39,7 @@ case 0:
 case 3:
             var18 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var17 = 15;
+            var17 = 14;
             var17 = var20[var17];
             var21 = var18.bind(var4)(var17);
             var20 = var21.hex2rgb;
@@ -79,7 +79,7 @@ case 11:
             var13 = 0;
             if(!var14) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var13 = 1.5;
+            var13 = 1;
 case 13:
             var15['borderWidth'] = var13;
             var13 = {};
@@ -144,7 +144,7 @@ case 17:
 case 20:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 16;
+            var1 = 15;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.getEmojiURL;
@@ -167,7 +167,7 @@ case 23:
             var3 = _closure1_slot5;
             var18 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var1 = var16[var1];
             var1 = var18.bind(var4)(var1);
             var2 = var1.PressableOpacity;
@@ -179,7 +179,7 @@ case 23:
             var19[2] = var21;
             var1['style'] = var19;
             var1['accessible'] = var17;
-            var17 = 17;
+            var17 = 16;
             var17 = var16[var17];
             var19 = var18.bind(var4)(var17);
             var18 = var19.getAccessibleEmojiDisplayName;
@@ -195,7 +195,7 @@ case 23:
             var1['disabled'] = var5;
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
-            var5 = 18;
+            var5 = 17;
             var5 = var16[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
@@ -225,7 +225,7 @@ case 28:
             var12 = _closure1_slot6;
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var10 = 19;
+            var10 = 18;
             var10 = var16[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
@@ -274,42 +274,34 @@ case 27:
     var10 = var7.bind(var1)(var6);
     var9 = var10.createStyles;
     var6 = {};
-    var11 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'paddingHorizontal': 8, 'borderRadius': null, 'borderWidth': 1.5, 'borderColor': null, 'backgroundColor': null, 'minWidth': 32, 'minHeight': 26, 'maxHeight': 26};
+    var11 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'paddingHorizontal': 8, 'borderRadius': null, 'borderWidth': 1, 'borderColor': null, 'backgroundColor': null, 'minWidth': 32, 'minHeight': 26, 'maxHeight': 26};
     var12 = 4;
     var13 = var8[var12];
     var13 = var14.bind(var1)(var13);
     var13 = var13.radii;
     var13 = var13.sm;
     var11['borderRadius'] = var13;
-    var13 = 1.5;
-    var15 = var8[var12];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOD_SUBTLE;
-    var11['borderColor'] = var15;
-    var15 = var8[var12];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOD_SUBTLE;
-    var11['backgroundColor'] = var15;
-    var6['container'] = var11;
-    var11 = {};
-    var15 = var8[var12];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.unsafe_rawColors;
-    var15 = var15.BRAND_560;
-    var11['borderColor'] = var15;
-    var11['borderWidth'] = var13;
-    var13 = 5;
-    var13 = var8[var13];
-    var16 = var7.bind(var1)(var13);
-    var15 = var16.hexWithOpacity;
     var13 = var8[var12];
     var13 = var14.bind(var1)(var13);
-    var13 = var13.unsafe_rawColors;
-    var14 = var13.BRAND_500;
-    var13 = 0.3;
-    var13 = var15.bind(var16)(var14, var13);
+    var13 = var13.colors;
+    var13 = var13.REACTION_BORDER_DEFAULT;
+    var11['borderColor'] = var13;
+    var13 = var8[var12];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.REACTION_BACKGROUND_DEFAULT;
+    var11['backgroundColor'] = var13;
+    var6['container'] = var11;
+    var11 = {};
+    var13 = var8[var12];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.REACTION_BORDER_REACTED_DEFAULT;
+    var11['borderColor'] = var13;
+    var13 = var8[var12];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.REACTION_BACKGROUND_REACTED_DEFAULT;
     var11['backgroundColor'] = var13;
     var6['selected'] = var11;
     var11 = {};
@@ -323,7 +315,7 @@ case 27:
     var6['countContainer'] = var11;
     var6 = var9.bind(var10)(var6);
     var _closure1_slot7 = var6;
-    var6 = 20;
+    var6 = 19;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -341,7 +333,7 @@ case 27:
         var10 = var1.bind(var4)();
         var2 = _closure1_slot1;
         var8 = _closure1_slot2;
-        var1 = 6;
+        var1 = 5;
         var1 = var8[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
@@ -350,14 +342,14 @@ case 27:
         var7 = var1.onTapReactionCount;
         var3 = _closure1_slot6;
         var6 = _closure1_slot0;
-        var1 = 7;
+        var1 = 6;
         var1 = var8[var1];
         var1 = var6.bind(var4)(var1);
         var2 = var1.PressableOpacity;
         var1 = {};
         var12 = true;
         var1['accessible'] = var12;
-        var12 = 8;
+        var12 = 7;
         var13 = var8[var12];
         var13 = var6.bind(var4)(var13);
         var14 = var13.intl;
@@ -375,7 +367,7 @@ case 27:
         var1['style'] = var10;
         var1['onPress'] = var7;
         var7 = _closure1_slot5;
-        var5 = 9;
+        var5 = 8;
         var5 = var8[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
@@ -401,7 +393,7 @@ case 0:
 case 30:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.ReactionTypes;
@@ -411,7 +403,7 @@ case 29:
             var8 = var1.bind(var4)();
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var12[var1];
             var3 = var3.bind(var4)(var1);
             var1 = {};
@@ -420,13 +412,13 @@ case 29:
             var1 = var3.bind(var4)(var1);
             var6 = var1.onTapAddReaction;
             var11 = _closure1_slot0;
-            var1 = 11;
+            var1 = 10;
             var1 = var12[var1];
             var1 = var11.bind(var4)(var1);
             var1 = var1.ADD_REACTION_ICON_COMPONENTS;
             var7 = var1[var2];
             var3 = _closure1_slot6;
-            var1 = 7;
+            var1 = 6;
             var1 = var12[var1];
             var1 = var11.bind(var4)(var1);
             var2 = var1.PressableOpacity;
@@ -438,7 +430,7 @@ case 29:
             var1['style'] = var8;
             var8 = true;
             var1['accessible'] = var8;
-            var8 = 8;
+            var8 = 7;
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
             var10 = var9.intl;
@@ -485,7 +477,7 @@ case 31:
             var _closure2_slot5 = var5;
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var1 = 12;
+            var1 = 11;
             var1 = var14[var1];
             var1 = var11.bind(var5)(var1);
             var1 = var1.bind(var5)(var12);
@@ -493,7 +485,7 @@ case 31:
             _closure2_slot2 = var3;
             var1 = var1.disableReactionUpdates;
             _closure2_slot3 = var1;
-            var7 = 6;
+            var7 = 5;
             var7 = var14[var7];
             var11 = var11.bind(var5)(var7);
             var7 = {};
@@ -505,7 +497,7 @@ case 31:
             var16 = var7.onLongTapReaction;
             _closure2_slot5 = var16;
             var12 = _closure1_slot0;
-            var7 = 13;
+            var7 = 12;
             var7 = var14[var7];
             var7 = var12.bind(var5)(var7);
             var12 = var7.AnimateEmoji;

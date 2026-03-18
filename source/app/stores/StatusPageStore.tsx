@@ -159,20 +159,57 @@ case 8:
         var6 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var1 = _closure1_slot8;
-                var5 = null;
-                var3 = var5 != var1;
-                var1 = null;
-                if(!var3) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
                 var3 = _closure1_slot8;
-                var4 = var3.id;
-                var3 = _closure1_slot9;
-                var1 = null;
-                if(!(var4 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
+                var4 = null;
+                var5 = var4 == var3;
+                var7 = undefined;
+                if(var5) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                var7 = var3.scheduled_until;
+case 9:
+                if(!(var4 == var7)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+                var3 = _closure1_slot8;
+                var5 = var4 == var3;
+                var1 = undefined;
+                if(var5) { _fun0003_ip = 7; continue _fun0003 }
+case 13:
+                var1 = var3.scheduled_for;
+case 7:
+                var7 = var1;
 case 11:
                 var1 = _closure1_slot8;
-case 9:
+                var3 = var4 != var1;
+                var1 = null;
+                if(!var3) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+                var3 = _closure1_slot8;
+                var5 = var3.id;
+                var3 = _closure1_slot9;
+                var1 = null;
+                if(!(var5 !== var3)) { _fun0003_ip = 14; continue _fun0003 }
+case 16:
+                if(!(var4 != var7)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+                var3 = global;
+                var6 = var3.Date;
+                var5 = var6.now;
+                var5 = var5.bind(var6)();
+                var3 = var3.Date;
+                var6 = var3.prototype;
+                var6 = Object.create(var6, {constructor: {value: var3}});
+                var9 = var6;
+                var8 = var7;
+                var3 = new var9[var3](var8, var7);
+                var6 = var3 instanceof Object ? var3 : var6;
+                var3 = var6.getTime;
+                var3 = var3.bind(var6)();
+                var3 = var5 < var3;
+                var1 = null;
+                if(!var3) { _fun0003_ip = 14; continue _fun0003 }
+case 17:
+                var1 = _closure1_slot8;
+case 14:
                 return var1;
             }
         };
@@ -216,8 +253,8 @@ case 9:
 case 0:
             var3 = _closure1_slot8;
             var1 = null;
-            if(!(var1 != var3)) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+            if(!(var1 != var3)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var1 = _closure1_slot8;
             var1 = var1.id;
             _closure1_slot9 = var1;
@@ -233,7 +270,7 @@ case 13:
             var2 = 'MaintenanceStore';
             var2 = var4.bind(var5)(var2, var3);
             return var1;
-case 12:
+case 19:
             var1 = false;
             return var1;
         }

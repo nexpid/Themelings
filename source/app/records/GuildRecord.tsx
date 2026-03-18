@@ -123,6 +123,7 @@ case 2:
     var5['profile'] = var11;
     var5['premiumFeatures'] = var11;
     var5['moderatorReporting'] = var11;
+    var5['gameApplicationIds'] = var11;
     var5 = var7.bind(var10)(var5);
     var7 = 6;
     var7 = var9[var7];
@@ -303,6 +304,16 @@ case 15:
         }
     };
     var3['updateJoinedAt'] = var4;
+    var4 = function updateGameApplications(arg1, arg2) {
+        var5 = _closure1_slot3;
+        var4 = undefined;
+        var3 = arg1;
+        var2 = 'gameApplicationIds';
+        var1 = arg2;
+        var1 = var5.bind(var4)(var3, var2, var1);
+        return var1;
+    };
+    var3['updateGameApplications'] = var4;
     var2 = function isGuildNSFW(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:

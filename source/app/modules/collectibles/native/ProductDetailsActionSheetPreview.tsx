@@ -379,30 +379,30 @@ case 11:
             var2 = var6.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.AVATAR_DECORATION;
-            if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
-case 12:
+            if(!(var2 !== var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var9];
             var2 = var6.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.EXTERNAL_SKU;
-            if(!(var2 !== var3)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!(var2 !== var3)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var2 = null;
             return var2;
-case 13:
+case 14:
             var3 = var5.skuId;
             var2 = _closure1_slot6;
             var2 = var2.FRACTIONAL_PREMIUM;
-            if(!(var3 !== var2)) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+            if(!(var3 !== var2)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var6 = var5.skuId;
             var2 = _closure1_slot6;
             var3 = var2.ORB_PROFILE_BADGE;
             var2 = null;
-            if(!(var6 === var3)) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(!(var6 === var3)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var9 = _closure1_slot7;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -412,9 +412,9 @@ case 18:
             var6 = var3.OrbBadgePreview;
             var3 = {};
             var2 = var9.bind(var4)(var6, var3);
-case 17:
-            _fun0002_ip = 19; continue _fun0002;
-case 15:
+case 18:
+            _fun0002_ip = 4; continue _fun0002;
+case 16:
             var9 = _closure1_slot7;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -424,9 +424,9 @@ case 15:
             var6 = var3.FractionalNitroPreview;
             var3 = {};
             var2 = var9.bind(var4)(var6, var3);
-case 19:
-            return var2;
 case 4:
+            return var2;
+case 12:
             var6 = _closure1_slot7;
             var3 = _closure1_slot11;
             var2 = {};

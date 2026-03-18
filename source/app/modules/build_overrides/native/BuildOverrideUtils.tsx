@@ -466,10 +466,10 @@ case 38:
         var7 = var8.isAndroid;
         var8 = var7.bind(var8)();
         var7 = 'discord_ios';
-        if(!var8) { _fun0001_ip = 48; continue _fun0001 }
-case 43:
+        if(!var8) { _fun0001_ip = 45; continue _fun0001 }
+case 29:
         var7 = 'discord_android';
-case 48:
+case 45:
         var _closure1_slot5 = var7;
         var8 = 7;
         var8 = var10[var8];

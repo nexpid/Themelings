@@ -33,6 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var8 = 'context-not-initialized';
     var2['channelId'] = var8;
+    var2['channelType'] = var1;
     var8 = 4;
     var11 = var6[var8];
     var16 = var5.bind(var1)(var11);

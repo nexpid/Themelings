@@ -35,59 +35,21 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot16 = var2;
+            _closure1_slot15 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
-    var1 = function getUserKey(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var3 = arg1;
-            var1 = var3.length;
-            var2 = 0;
-            if(!(var2 !== var1)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var4 = var3.length;
-            var1 = 1;
-            if(!(!(var4 > var1))) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-            var1 = var3[var2];
-            _fun0002_ip = 10; continue _fun0002;
-case 8:
-            var4 = new Array(0);
-            var7 = var4;
-            var6 = var3;
-            var5 = 0;
-            var2 = arraySpread(var7, var6, var5);
-            var3 = var4.join;
-            var2 = ',';
-            var1 = var3.bind(var4)(var2);
-case 10:
-            return var1;
-case 6:
-            var1 = global;
-            var3 = var1.Error;
-            var1 = var3.prototype;
-            var2 = Object.create(var1, {constructor: {value: var3}});
-            var7 = 'No user IDs provided';
-            var8 = var2;
-            var1 = new var8[var3](var7, var6);
-            var1 = var1 instanceof Object ? var1 : var2;
-            throw var1;
-        }
-    };
-    var _closure1_slot17 = var1;
+    var _closure1_slot15 = var1;
     var1 = function handleUserSettingsStoreUpdate() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot0;
             var1 = _closure1_slot6;
             var1 = var1.locale;
-            if(!(var3 !== var1)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(!(var3 !== var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = _closure1_slot6;
             var1 = var1.locale;
             var _closure1_slot0 = var1;
@@ -95,16 +57,14 @@ case 12:
             _closure1_slot8 = var1;
             var1 = {};
             _closure1_slot9 = var1;
-            var1 = {};
-            _closure1_slot10 = var1;
             var1 = undefined;
             return var1;
-case 11:
+case 6:
             var1 = false;
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot16 = var1;
     var2 = global;
     var9 = var2.Object;
     var8 = var9.defineProperty;
@@ -152,26 +112,24 @@ case 11:
     var _closure1_slot11 = var7;
     var7 = {};
     var _closure1_slot12 = var7;
-    var7 = {};
-    var _closure1_slot13 = var7;
     var2 = var2.Set;
     var7 = var2.prototype;
     var7 = Object.create(var7, {constructor: {value: var2}});
     var13 = var7;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot14 = var2;
+    var _closure1_slot13 = var2;
     var2 = {};
     var7 = 'idle';
     var2['state'] = var7;
-    var _closure1_slot15 = var2;
+    var _closure1_slot14 = var2;
     var2 = 7;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
     var7 = var2.Store;
     var2 = function(arg1) {
         var4 = function SocialLayerStorefrontStore() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var4 = this;
                 var3 = undefined;
@@ -182,16 +140,16 @@ case 0:
                 var1 = _closure1_slot4;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot3;
-                var1 = _closure1_slot16;
+                var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 6:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0004_ip = 15; continue _fun0004;
-case 13:
+                _fun0003_ip = 9; continue _fun0003;
+case 8:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -200,7 +158,7 @@ case 13:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 15:
+case 9:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -224,7 +182,7 @@ case 15:
             var1 = _closure1_slot6;
             var3 = new Array(1);
             var3[0] = var1;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot16;
             var1 = var4.bind(var5)(var3, var1);
             var1 = _closure1_slot6;
             var1 = var1.locale;
@@ -233,7 +191,7 @@ case 15:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(10);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getStorefrontData';
@@ -258,41 +216,68 @@ case 15:
         var5['value'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'recommendationsByApplicationsAndUsers';
+        var7 = 'getAnnouncement';
         var5['key'] = var7;
-        var7 = function value(arg1, arg2) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        var7 = function value(arg1) {
+            var2 = _closure1_slot10;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'getConfig';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var5 = arg2;
+                var1 = _closure1_slot14;
+                var4 = var1.state;
+                var3 = 'success';
                 var1 = null;
-                if(!(var1 != var5)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
-                var3 = var5.length;
-                var2 = 0;
-                if(!(var2 === var3)) { _fun0005_ip = 18; continue _fun0005 }
-case 16:
-                var2 = undefined;
-                return var2;
-case 18:
-                var4 = _closure1_slot10;
-                var3 = arg1;
-                var3 = var4[var3];
-                var6 = var1 == var3;
-                var4 = undefined;
-                var1 = undefined;
-                if(var6) { _fun0005_ip = 10; continue _fun0005 }
-case 19:
-                var2 = _closure1_slot17;
-                var2 = var2.bind(var4)(var5);
-                var1 = var3[var2];
+                if(!(var3 === var4)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
+                var2 = _closure1_slot14;
+                var1 = var2.config;
 case 10:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
-        var7 = 'getAnnouncement';
+        var7 = 'getConfigFetchState';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot14;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
+        var7 = 'getSKUEligibility';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var2 = _closure1_slot11;
+                var1 = arg1;
+                var2 = var2[var1];
+                var1 = null;
+                var3 = var1 == var2;
+                var1 = undefined;
+                if(var3) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
+                var1 = var2.state;
+case 12:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[6] = var5;
+        var5 = {};
+        var7 = 'getSKUEligibilityEntry';
         var5['key'] = var7;
         var7 = function value(arg1) {
             var2 = _closure1_slot11;
@@ -301,91 +286,30 @@ case 10:
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
-        var5 = {};
-        var7 = 'getConfig';
-        var5['key'] = var7;
-        var7 = function value() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                var1 = _closure1_slot15;
-                var4 = var1.state;
-                var3 = 'success';
-                var1 = null;
-                if(!(var3 === var4)) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
-                var2 = _closure1_slot15;
-                var1 = var2.config;
-case 20:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[5] = var5;
-        var5 = {};
-        var7 = 'getConfigFetchState';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot15;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[6] = var5;
-        var5 = {};
-        var7 = 'getSKUEligibility';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                var2 = _closure1_slot12;
-                var1 = arg1;
-                var2 = var2[var1];
-                var1 = null;
-                var3 = var1 == var2;
-                var1 = undefined;
-                if(var3) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
-                var1 = var2.state;
-case 22:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
         var1[7] = var5;
-        var5 = {};
-        var7 = 'getSKUEligibilityEntry';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var2 = _closure1_slot12;
-            var1 = arg1;
-            var1 = var2[var1];
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[8] = var5;
         var5 = {};
         var7 = 'getNormalizedSKUEligibility';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot11;
                 var1 = arg1;
                 var1 = var2[var1];
                 var2 = null;
                 var3 = var2 == var1;
                 var2 = undefined;
-                if(var3) { _fun0008_ip = 22; continue _fun0008 }
-case 23:
+                if(var3) { _fun0006_ip = 12; continue _fun0006 }
+case 13:
                 var2 = var1.state;
-case 22:
+case 12:
                 var1 = 'ineligible';
                 var1 = var1 !== var2;
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[9] = var5;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -398,11 +322,9 @@ case 22:
     var2 = {};
     var8 = function handleLogout() {
         var1 = {};
-        _closure1_slot10 = var1;
+        _closure1_slot11 = var1;
         var1 = {};
         _closure1_slot12 = var1;
-        var1 = {};
-        _closure1_slot13 = var1;
         var1 = global;
         var1 = var1.Set;
         var3 = var1.prototype;
@@ -410,20 +332,20 @@ case 22:
         var4 = var3;
         var1 = new var4[var1](var3);
         var1 = var1 instanceof Object ? var1 : var3;
-        _closure1_slot14 = var1;
+        _closure1_slot13 = var1;
         var1 = {};
         var3 = 'idle';
         var1['state'] = var3;
-        _closure1_slot15 = var1;
+        _closure1_slot14 = var1;
         var1 = undefined;
         return var1;
     };
     var2['LOGOUT'] = var8;
     var8 = function handlePostConnectionOpen() {
         var1 = {};
-        _closure1_slot12 = var1;
+        _closure1_slot11 = var1;
         var1 = {};
-        _closure1_slot13 = var1;
+        _closure1_slot12 = var1;
         var1 = global;
         var1 = var1.Set;
         var3 = var1.prototype;
@@ -431,65 +353,65 @@ case 22:
         var4 = var3;
         var1 = new var4[var1](var3);
         var1 = var1 instanceof Object ? var1 : var3;
-        _closure1_slot14 = var1;
+        _closure1_slot13 = var1;
         var1 = undefined;
         return var1;
     };
     var2['POST_CONNECTION_OPEN'] = var8;
     var8 = function handleEntitlementCreate(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.entitlement;
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot11;
             var2 = var1.sku_id;
             var4 = var4[var2];
             var2 = null;
-            if(!(var2 != var4)) { _fun0009_ip = 24; continue _fun0009 }
-case 8:
+            if(!(var2 != var4)) { _fun0007_ip = 14; continue _fun0007 }
+case 15:
             var2 = {};
-            var5 = _closure1_slot12;
+            var5 = _closure1_slot11;
             var6 = var2;
             var4 = copyDataProperties(var6, var5);
-            _closure1_slot12 = var2;
+            _closure1_slot11 = var2;
             var1 = var1.sku_id;
             var1 = delete var2[var1];
             var1 = undefined;
             return var1;
-case 24:
+case 14:
             var1 = false;
             return var1;
         }
     };
     var2['ENTITLEMENT_CREATE'] = var8;
     var8 = function handleInteractionFailure(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.interactionId;
             var2 = null;
-            if(!(var2 != var3)) { _fun0010_ip = 25; continue _fun0010 }
-case 26:
-            var4 = _closure1_slot13;
+            if(!(var2 != var3)) { _fun0008_ip = 16; continue _fun0008 }
+case 17:
+            var4 = _closure1_slot12;
             var5 = var4[var3];
-            if(!(var2 != var5)) { _fun0010_ip = 27; continue _fun0010 }
-case 28:
+            if(!(var2 != var5)) { _fun0008_ip = 18; continue _fun0008 }
+case 19:
             var2 = {};
-            var6 = _closure1_slot12;
+            var6 = _closure1_slot11;
             var7 = var2;
             var4 = copyDataProperties(var7, var6);
             var4 = {'state': 'error', 'reason': 'interaction_failure'};
             var2[var5] = var4;
-            _closure1_slot12 = var2;
-            var2 = _closure1_slot13;
+            _closure1_slot11 = var2;
+            var2 = _closure1_slot12;
             var2 = delete var2[var3];
             var2 = undefined;
             return var2;
-case 27:
+case 18:
             var2 = global;
             var5 = var2.Object;
             var4 = var5.values;
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot11;
             var5 = var4.bind(var5)(var2);
             var4 = var5.some;
             var2 = function(arg1) {
@@ -500,50 +422,50 @@ case 27:
                 return var1;
             };
             var2 = var4.bind(var5)(var2);
-            if(!var2) { _fun0010_ip = 29; continue _fun0010 }
-case 30:
-            var2 = _closure1_slot14;
+            if(!var2) { _fun0008_ip = 20; continue _fun0008 }
+case 21:
+            var2 = _closure1_slot13;
             var4 = var2.size;
             var2 = 25;
-            if(!(var4 >= var2)) { _fun0010_ip = 31; continue _fun0010 }
-case 32:
-            var4 = _closure1_slot14;
+            if(!(var4 >= var2)) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
+            var4 = _closure1_slot13;
             var2 = var4.values;
             var4 = var2.bind(var4)();
             var2 = var4.next;
             var2 = var2.bind(var4)();
             var5 = var2.value;
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot13;
             var2 = var4.delete;
             var2 = var2.bind(var4)(var5);
-case 31:
-            var2 = _closure1_slot14;
+case 22:
+            var2 = _closure1_slot13;
             var1 = var2.add;
             var1 = var1.bind(var2)(var3);
-case 29:
+case 20:
             var1 = false;
             return var1;
-case 25:
+case 16:
             var1 = false;
             return var1;
         }
     };
     var2['INTERACTION_FAILURE'] = var8;
     var8 = function handleInteractionSuccess(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.interactionId;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var4 = var3[var2];
             var3 = null;
-            if(!(var3 != var4)) { _fun0011_ip = 33; continue _fun0011 }
-case 9:
-            var1 = _closure1_slot13;
+            if(!(var3 != var4)) { _fun0009_ip = 24; continue _fun0009 }
+case 25:
+            var1 = _closure1_slot12;
             var1 = delete var1[var2];
             var1 = undefined;
             return var1;
-case 33:
+case 24:
             var1 = false;
             return var1;
         }
@@ -596,7 +518,7 @@ case 33:
     };
     var2['SOCIAL_LAYER_STOREFRONT_LOAD_SUCCESS'] = var8;
     var8 = function handleSocialLayerStorefrontPartialLoadSuccess(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.guildId;
@@ -607,18 +529,18 @@ case 0:
             var7 = var4 == var9;
             var1 = undefined;
             var2 = undefined;
-            if(var7) { _fun0012_ip = 34; continue _fun0012 }
-case 33:
+            if(var7) { _fun0010_ip = 26; continue _fun0010 }
+case 24:
             var2 = var9.storefront;
-case 34:
-            if(!(var4 == var2)) { _fun0012_ip = 35; continue _fun0012 }
-case 36:
+case 26:
+            if(!(var4 == var2)) { _fun0010_ip = 27; continue _fun0010 }
+case 28:
             var4 = _closure1_slot9;
             var2 = {'storefront': null, 'state': 'partially-fetched', 'fetchedAt': null};
             var2['storefront'] = var6;
             var4[var5] = var2;
-            _fun0012_ip = 37; continue _fun0012;
-case 35:
+            _fun0010_ip = 29; continue _fun0010;
+case 27:
             var4 = _closure1_slot9;
             var2 = {};
             var11 = var2;
@@ -641,7 +563,7 @@ case 35:
             var6 = 'storefront';
             var2[var6] = var7;
             var4[var5] = var2;
-case 37:
+case 29:
             var2 = {};
             var10 = _closure1_slot9;
             var11 = var2;
@@ -652,14 +574,14 @@ case 37:
     };
     var2['SOCIAL_LAYER_STOREFRONT_PARTIAL_LOAD_SUCCESS'] = var8;
     var8 = function handleSocialLayerStorefrontLoadFailure(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.guildId;
             var3 = var1.eager;
             var1 = _closure1_slot9;
-            if(var3) { _fun0013_ip = 38; continue _fun0013 }
-case 18:
+            if(var3) { _fun0011_ip = 30; continue _fun0011 }
+case 31:
             var3 = {'storefront': null, 'state': 'error'};
             var5 = global;
             var6 = var5.Date;
@@ -667,31 +589,31 @@ case 18:
             var5 = var5.bind(var6)();
             var3['fetchedAt'] = var5;
             var1[var4] = var3;
-            _fun0013_ip = 39; continue _fun0013;
-case 38:
+            _fun0011_ip = 32; continue _fun0011;
+case 30:
             var5 = var1[var4];
             var3 = null;
             var6 = var3 == var5;
             var7 = undefined;
-            if(var6) { _fun0013_ip = 40; continue _fun0013 }
-case 27:
+            if(var6) { _fun0011_ip = 33; continue _fun0011 }
+case 18:
             var7 = var5.state;
-case 40:
+case 33:
             var6 = 'loading';
-            if(!(var6 === var7)) { _fun0013_ip = 41; continue _fun0013 }
-case 42:
+            if(!(var6 === var7)) { _fun0011_ip = 34; continue _fun0011 }
+case 35:
             var6 = var3 == var5;
             var1 = undefined;
-            if(var6) { _fun0013_ip = 43; continue _fun0013 }
-case 44:
+            if(var6) { _fun0011_ip = 36; continue _fun0011 }
+case 37:
             var1 = var5.storefront;
-case 43:
-            if(!(var3 == var1)) { _fun0013_ip = 45; continue _fun0013 }
-case 41:
+case 36:
+            if(!(var3 == var1)) { _fun0011_ip = 38; continue _fun0011 }
+case 34:
             var1 = _closure1_slot9;
             var1 = delete var1[var4];
-            _fun0013_ip = 39; continue _fun0013;
-case 45:
+            _fun0011_ip = 32; continue _fun0011;
+case 38:
             var3 = _closure1_slot9;
             var1 = {};
             var9 = var1;
@@ -701,7 +623,7 @@ case 45:
             var5 = 'state';
             var1[var5] = var6;
             var3[var4] = var1;
-case 39:
+case 32:
             var1 = {};
             var8 = _closure1_slot9;
             var9 = var1;
@@ -731,155 +653,14 @@ case 39:
         return var1;
     };
     var2['SET_SOCIAL_LAYER_STOREFRONT_STATE'] = var8;
-    var8 = function handleSocialLayerStorefrontRecommendationsFetchSuccess(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
-case 0:
-            var2 = arg1;
-            var11 = var2.skus;
-            var10 = var2.skusToRecommendationReasons;
-            var7 = var2.userIds;
-            var1 = var2.application;
-            var9 = var2.numItemsRequested;
-            var3 = {};
-            var12 = _closure1_slot10;
-            var13 = var3;
-            var4 = copyDataProperties(var13, var12);
-            var5 = var1.id;
-            var4 = {};
-            var6 = _closure1_slot10;
-            var1 = var1.id;
-            var1 = var6[var1];
-            var6 = null;
-            if(!(var6 == var1)) { _fun0014_ip = 4; continue _fun0014 }
-case 5:
-            var1 = {};
-case 4:
-            var13 = var4;
-            var12 = var1;
-            var1 = copyDataProperties(var13, var12);
-            var6 = _closure1_slot17;
-            var1 = undefined;
-            var7 = var6.bind(var1)(var7);
-            var6 = {};
-            var8 = 'success';
-            var6['state'] = var8;
-            var8 = {};
-            var8['skus'] = var11;
-            var8['skusToRecommendationReasons'] = var10;
-            var8['numItemsRequested'] = var9;
-            var6['data'] = var8;
-            var8 = global;
-            var9 = var8.Date;
-            var8 = var9.now;
-            var8 = var8.bind(var9)();
-            var6['fetchedAt'] = var8;
-            var4[var7] = var6;
-            var3[var5] = var4;
-            _closure1_slot10 = var3;
-            return var1;
-        }
-    };
-    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_SUCCESS'] = var8;
-    var8 = function handleSocialLayerStorefrontRecommendationsFetchFailure(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-            var1 = arg1;
-            var5 = var1.applicationId;
-            var4 = var1.userIds;
-            var2 = _closure1_slot17;
-            var1 = undefined;
-            var7 = var2.bind(var1)(var4);
-            var2 = _closure1_slot10;
-            var2 = var2[var5];
-            var8 = null;
-            if(!(var8 != var2)) { _fun0015_ip = 46; continue _fun0015 }
-case 47:
-            var2 = _closure1_slot10;
-            var2 = var2[var5];
-            var2 = var2[var7];
-            if(!(var8 != var2)) { _fun0015_ip = 46; continue _fun0015 }
-case 48:
-            var2 = _closure1_slot10;
-            var2 = var2[var5];
-            var2 = var2[var7];
-            var4 = var2.state;
-            var2 = 'success';
-            if(!(var2 !== var4)) { _fun0015_ip = 49; continue _fun0015 }
-case 46:
-            var2 = {};
-            var10 = _closure1_slot10;
-            var11 = var2;
-            var4 = copyDataProperties(var11, var10);
-            var4 = {};
-            var6 = _closure1_slot10;
-            var6 = var6[var5];
-            if(!(var8 == var6)) { _fun0015_ip = 50; continue _fun0015 }
-case 51:
-            var6 = {};
-case 50:
-            var11 = var4;
-            var10 = var6;
-            var6 = copyDataProperties(var11, var10);
-            var6 = {};
-            var8 = 'error';
-            var6['state'] = var8;
-            var8 = global;
-            var9 = var8.Date;
-            var8 = var9.now;
-            var8 = var8.bind(var9)();
-            var6['fetchedAt'] = var8;
-            var4[var7] = var6;
-            var2[var5] = var4;
-            _closure1_slot10 = var2;
-            return var1;
-case 49:
-            var1 = false;
-            return var1;
-        }
-    };
-    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_FAILURE'] = var8;
-    var8 = function handleSocialLayerStorefrontRecommendationsFetchStart(arg1) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
-case 0:
-            var1 = arg1;
-            var5 = var1.applicationId;
-            var7 = var1.userIds;
-            var3 = {};
-            var9 = _closure1_slot10;
-            var10 = var3;
-            var1 = copyDataProperties(var10, var9);
-            var4 = {};
-            var1 = _closure1_slot10;
-            var1 = var1[var5];
-            var6 = null;
-            if(!(var6 == var1)) { _fun0016_ip = 36; continue _fun0016 }
-case 52:
-            var1 = {};
-case 36:
-            var10 = var4;
-            var9 = var1;
-            var1 = copyDataProperties(var10, var9);
-            var6 = _closure1_slot17;
-            var1 = undefined;
-            var7 = var6.bind(var1)(var7);
-            var6 = {};
-            var8 = 'loading';
-            var6['state'] = var8;
-            var4[var7] = var6;
-            var3[var5] = var4;
-            _closure1_slot10 = var3;
-            return var1;
-        }
-    };
-    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_START'] = var8;
     var8 = function handleSocialLayerStorefrontAnnouncementFetchStart(arg1) {
         var1 = arg1;
         var3 = var1.guildId;
         var2 = {};
-        var5 = _closure1_slot11;
+        var5 = _closure1_slot10;
         var6 = var2;
         var4 = copyDataProperties(var6, var5);
-        _closure1_slot11 = var2;
+        _closure1_slot10 = var2;
         var1 = {};
         var4 = 'loading';
         var1['state'] = var4;
@@ -893,10 +674,10 @@ case 36:
         var3 = var1.guildId;
         var4 = var1.announcement;
         var2 = {};
-        var6 = _closure1_slot11;
+        var6 = _closure1_slot10;
         var7 = var2;
         var5 = copyDataProperties(var7, var6);
-        _closure1_slot11 = var2;
+        _closure1_slot10 = var2;
         var1 = {};
         var5 = 'success';
         var1['state'] = var5;
@@ -910,10 +691,10 @@ case 36:
         var1 = arg1;
         var3 = var1.guildId;
         var2 = {};
-        var5 = _closure1_slot11;
+        var5 = _closure1_slot10;
         var6 = var2;
         var4 = copyDataProperties(var6, var5);
-        _closure1_slot11 = var2;
+        _closure1_slot10 = var2;
         var1 = {};
         var4 = 'error';
         var1['state'] = var4;
@@ -926,7 +707,7 @@ case 36:
         var2 = {};
         var1 = 'loading';
         var2['state'] = var1;
-        _closure1_slot15 = var2;
+        _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
     };
@@ -943,7 +724,7 @@ case 36:
         var1 = var3.now;
         var1 = var1.bind(var3)();
         var2['fetchedAt'] = var1;
-        _closure1_slot15 = var2;
+        _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
     };
@@ -957,7 +738,7 @@ case 36:
         var1 = var3.now;
         var1 = var1.bind(var3)();
         var2['fetchedAt'] = var1;
-        _closure1_slot15 = var2;
+        _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
     };
@@ -966,94 +747,94 @@ case 36:
         var1 = arg1;
         var4 = var1.skuId;
         var2 = {};
-        var6 = _closure1_slot12;
+        var6 = _closure1_slot11;
         var7 = var2;
         var3 = copyDataProperties(var7, var6);
         var3 = {};
         var5 = 'checking';
         var3['state'] = var5;
         var2[var4] = var3;
-        _closure1_slot12 = var2;
+        _closure1_slot11 = var2;
         var1 = undefined;
         return var1;
     };
     var2['SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START'] = var8;
     var8 = function handleSKUPurchaseEligibilityCheckCreate(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.skuId;
             var7 = var1.interactionId;
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot11;
             var1 = var1[var6];
             var2 = null;
             var3 = var2 == var1;
             var2 = undefined;
-            if(var3) { _fun0017_ip = 53; continue _fun0017 }
-case 54:
+            if(var3) { _fun0012_ip = 39; continue _fun0012 }
+case 40:
             var2 = var1.state;
-case 53:
+case 39:
             var1 = 'checking';
             var1 = var1 === var2;
-            if(!var1) { _fun0017_ip = 55; continue _fun0017 }
-case 56:
-            var3 = _closure1_slot14;
+            if(!var1) { _fun0012_ip = 41; continue _fun0012 }
+case 42:
+            var3 = _closure1_slot13;
             var2 = var3.has;
             var2 = var2.bind(var3)(var7);
-            if(var2) { _fun0017_ip = 27; continue _fun0017 }
-case 13:
-            var2 = _closure1_slot13;
+            if(var2) { _fun0012_ip = 43; continue _fun0012 }
+case 44:
+            var2 = _closure1_slot12;
             var2[var7] = var6;
             var2 = undefined;
-            _fun0017_ip = 57; continue _fun0017;
-case 27:
-            var5 = _closure1_slot14;
+            _fun0012_ip = 45; continue _fun0012;
+case 43:
+            var5 = _closure1_slot13;
             var3 = var5.delete;
             var3 = var3.bind(var5)(var7);
             var3 = {};
-            var8 = _closure1_slot12;
+            var8 = _closure1_slot11;
             var9 = var3;
             var5 = copyDataProperties(var9, var8);
             var5 = {'state': 'error', 'reason': 'interaction_failure'};
             var3[var6] = var5;
-            _closure1_slot12 = var3;
+            _closure1_slot11 = var3;
             var2 = undefined;
-case 57:
+case 45:
             var1 = var2;
-case 55:
+case 41:
             return var1;
         }
     };
     var2['SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_CREATE'] = var8;
     var8 = function handleSKUPurchaseEligibilityCheckFailure(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var2 = arg1;
             var5 = var2.skuId;
             var7 = var2.reason;
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0018_ip = 9; continue _fun0018 }
-case 16:
+            if(!(var7 === var1)) { _fun0013_ip = 46; continue _fun0013 }
+case 7:
             var7 = 'http_error';
-case 9:
+case 46:
             var6 = var2.httpStatus;
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot11;
             var2 = var2[var5];
             var4 = null;
             var8 = var4 == var2;
             var4 = undefined;
-            if(var8) { _fun0018_ip = 58; continue _fun0018 }
-case 59:
+            if(var8) { _fun0013_ip = 47; continue _fun0013 }
+case 48:
             var4 = var2.state;
-case 58:
+case 47:
             var2 = 'checking';
-            if(!(var2 !== var4)) { _fun0018_ip = 60; continue _fun0018 }
-case 61:
+            if(!(var2 !== var4)) { _fun0013_ip = 27; continue _fun0013 }
+case 49:
             var2 = 'interaction_deadline';
-            if(!(var2 !== var7)) { _fun0018_ip = 62; continue _fun0018 }
-case 60:
+            if(!(var2 !== var7)) { _fun0013_ip = 50; continue _fun0013 }
+case 27:
             var2 = {};
-            var9 = _closure1_slot12;
+            var9 = _closure1_slot11;
             var10 = var2;
             var4 = copyDataProperties(var10, var9);
             var4 = {};
@@ -1062,16 +843,16 @@ case 60:
             var4['reason'] = var7;
             var4['httpStatus'] = var6;
             var2[var5] = var4;
-            _closure1_slot12 = var2;
+            _closure1_slot11 = var2;
             return var1;
-case 62:
+case 50:
             var1 = false;
             return var1;
         }
     };
     var2['SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE'] = var8;
     var4 = function handleSKUPurchaseEligibilityResponse(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.skuId;
@@ -1081,30 +862,30 @@ case 0:
             var7 = _closure1_slot7;
             var1 = var7.getId;
             var1 = var1.bind(var7)();
-            if(!(var1 === var6)) { _fun0019_ip = 63; continue _fun0019 }
-case 64:
+            if(!(var1 === var6)) { _fun0014_ip = 51; continue _fun0014 }
+case 28:
             var1 = {};
-            var8 = _closure1_slot12;
+            var8 = _closure1_slot11;
             var9 = var1;
             var6 = copyDataProperties(var9, var8);
-            if(var3) { _fun0019_ip = 65; continue _fun0019 }
-case 24:
+            if(var3) { _fun0014_ip = 18; continue _fun0014 }
+case 52:
             var3 = {};
             var6 = 'ineligible';
             var3['state'] = var6;
             var3['ineligibleReason'] = var5;
-            _fun0019_ip = 66; continue _fun0019;
-case 65:
+            _fun0014_ip = 35; continue _fun0014;
+case 18:
             var5 = {};
             var6 = 'eligible';
             var5['state'] = var6;
             var3 = var5;
-case 66:
+case 35:
             var1[var4] = var3;
-            _closure1_slot12 = var1;
+            _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
-case 63:
+case 51:
             var1 = false;
             return var1;
         }

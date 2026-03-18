@@ -30,16 +30,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.MuteUntilSeconds;
-    var _closure1_slot6 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
+    var7 = var4.MuteUntilSeconds;
+    var _closure1_slot6 = var7;
     var4 = var4.ChannelNotificationSettingsFlags;
     var _closure1_slot7 = var4;
     var4 = {'ignoreMute': false, 'ignoreUnreadSetting': true, 'ignoreNotificationSetting': false};
     var _closure1_slot8 = var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -51,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['id'] = var1;
         var8 = _closure1_slot0;
         var9 = _closure1_slot3;
-        var4 = 4;
+        var4 = 3;
         var3 = var9[var4];
         var7 = undefined;
         var3 = var8.bind(var7)(var3);
@@ -165,7 +162,7 @@ case 2:
             var _closure2_slot1 = var2;
             var3 = _closure1_slot1;
             var6 = _closure1_slot3;
-            var2 = 5;
+            var2 = 4;
             var2 = var6[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.keys;
@@ -183,7 +180,7 @@ case 0:
                     var5 = var5 !== var2;
                     var8 = _closure1_slot2;
                     var2 = _closure1_slot3;
-                    var9 = 6;
+                    var9 = 5;
                     var2 = var2[var9];
                     var7 = undefined;
                     var12 = var8.bind(var7)(var2);
@@ -247,7 +244,7 @@ case 17:
 case 19:
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot3;
-                    var4 = 7;
+                    var4 = 6;
                     var4 = var8[var4];
                     var5 = var5.bind(var7)(var4);
                     var4 = var5.computeIsMuted;
@@ -268,7 +265,7 @@ case 16:
     var4 = function useShouldUseNewNotificationSystem() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var2 = 8;
+        var2 = 7;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);

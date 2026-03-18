@@ -1,24 +1,24 @@
 // app/modules/media_viewer/native/components/MediaViewerThumbnails.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var10 = metroImportDefault;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var10;
+    var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var10.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -131,15 +131,6 @@ case 2:
     var _closure1_slot10 = var4;
     var4 = 11;
     var4 = var6[var4];
-    var9 = var10.bind(var1)(var4);
-    var7 = var9.createAnimatedComponent;
-    var4 = 12;
-    var4 = var6[var4];
-    var4 = var10.bind(var1)(var4);
-    var4 = var7.bind(var9)(var4);
-    var _closure1_slot11 = var4;
-    var4 = 13;
-    var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var7 = var9.createStyles;
     var4 = {};
@@ -156,7 +147,7 @@ case 2:
     var10['width'] = var11;
     var4['thumbnailImagePortrait'] = var10;
     var4 = var7.bind(var9)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var7 = var8.memo;
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -170,7 +161,7 @@ case 0:
             var7 = var2.onSelect;
             var _closure2_slot1 = var7;
             var2 = var2.useThumbnailStyle;
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot11;
             var4 = undefined;
             var13 = var3.bind(var4)();
             var15 = global;
@@ -225,7 +216,7 @@ case 8:
             var15['selected'] = var16;
             var5['accessibilityState'] = var15;
             var5['onPress'] = var8;
-            var8 = 14;
+            var8 = 12;
             var8 = var14[var8];
             var10 = var10.bind(var4)(var8);
             var8 = {};
@@ -260,11 +251,11 @@ case 10:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot13 = var4;
+    var _closure1_slot12 = var4;
     var4 = {};
     var7 = 'function MediaViewerThumbnailsTsx1(){const{scrollEnabled}=this.__closure;return{scrollEnabled:scrollEnabled.get()};}';
     var4['code'] = var7;
-    var _closure1_slot14 = var4;
+    var _closure1_slot13 = var4;
     var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -274,47 +265,47 @@ case 10:
     var2 = function MediaViewerThumbnails(arg1) {
         var1 = arg1;
         var27 = var1.syncer;
-        var3 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var4 = undefined;
-        var19 = var3.bind(var4)();
+        var19 = var2.bind(var4)();
         var5 = var27.sources;
         var _closure2_slot0 = var5;
         var10 = var27.useThumbnailsProps;
-        var22 = var27.index;
-        var _closure2_slot1 = var22;
+        var24 = var27.index;
+        var _closure2_slot1 = var24;
         var9 = var27.onEndReached;
         var8 = var27.onEndReachedThreshold;
-        var6 = var27.variableWidthThumbnailsEnabled;
-        var _closure2_slot2 = var6;
+        var2 = var27.variableWidthThumbnailsEnabled;
+        var _closure2_slot2 = var2;
         var18 = var27.thumbnailScrollPositions;
         var _closure2_slot3 = var18;
         var7 = _closure1_slot7;
-        var3 = var5.length;
-        var26 = 1;
-        var3 = var3 - var26;
-        var11 = var10.bind(var4)(var7, var3);
-        var20 = var11.ref;
-        var13 = var11.headerBufferSize;
-        var10 = var11.headerBufferStyle;
-        var _closure2_slot4 = var10;
-        var12 = var11.footerBufferSize;
-        var3 = var11.footerBufferStyle;
-        var _closure2_slot5 = var3;
-        var24 = var11.scrollEnabled;
-        var _closure2_slot6 = var24;
-        var15 = var11.onScroll;
-        var25 = var11.onSelect;
-        var _closure2_slot7 = var25;
-        var14 = var11.useThumbnailStyle;
+        var6 = var5.length;
+        var25 = 1;
+        var6 = var6 - var25;
+        var6 = var10.bind(var4)(var7, var6);
+        var20 = var6.ref;
+        var13 = var6.headerBufferSize;
+        var11 = var6.headerBufferStyle;
+        var _closure2_slot4 = var11;
+        var12 = var6.footerBufferSize;
+        var10 = var6.footerBufferStyle;
+        var _closure2_slot5 = var10;
+        var26 = var6.scrollEnabled;
+        var _closure2_slot6 = var26;
+        var15 = var6.onScroll;
+        var22 = var6.onSelect;
+        var _closure2_slot7 = var22;
+        var14 = var6.useThumbnailStyle;
         var _closure2_slot8 = var14;
-        var7 = var11.screenWidth;
-        var17 = var11.itemSize;
-        var21 = _closure1_slot4;
-        var16 = var21.useMemo;
-        var11 = new Array(2);
-        var11[0] = var18;
-        var11[1] = var6;
-        var6 = function() {
+        var7 = var6.screenWidth;
+        var17 = var6.itemSize;
+        var23 = _closure1_slot4;
+        var16 = var23.useMemo;
+        var6 = new Array(2);
+        var6[0] = var18;
+        var6[1] = var2;
+        var2 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var1 = new Array(0);
@@ -346,29 +337,29 @@ case 8:
                 return var1;
             }
         };
-        var6 = var16.bind(var21)(var6, var11);
-        var11 = _closure1_slot0;
-        var18 = _closure1_slot2;
-        var16 = 15;
-        var16 = var18[var16];
-        var23 = var11.bind(var4)(var16);
-        var16 = var23.useSelectedMediaSource;
-        var23 = var16.bind(var23)(var27);
+        var6 = var16.bind(var23)(var2, var6);
+        var2 = _closure1_slot0;
+        var21 = _closure1_slot2;
+        var16 = 13;
+        var16 = var21[var16];
+        var18 = var2.bind(var4)(var16);
+        var16 = var18.useSelectedMediaSource;
+        var18 = var16.bind(var18)(var27);
         var16 = _closure1_slot3;
-        var23 = var16.bind(var4)(var23, var26);
+        var18 = var16.bind(var4)(var18, var25);
         var16 = 0;
-        var26 = var23[var16];
-        var _closure2_slot9 = var26;
-        var23 = var21.useCallback;
+        var25 = var18[var16];
+        var _closure2_slot9 = var25;
+        var18 = var23.useCallback;
         var16 = new Array(4);
         var16[0] = var5;
-        var16[1] = var26;
-        var16[2] = var25;
+        var16[1] = var25;
+        var16[2] = var22;
         var16[3] = var14;
         var14 = function(arg1, arg2) {
             var6 = arg2;
             var4 = _closure1_slot8;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var2 = {};
             var2['index'] = var6;
             var5 = _closure2_slot0;
@@ -386,8 +377,8 @@ case 8:
             var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
-        var16 = var23.bind(var21)(var14, var16);
-        var23 = var21.useMemo;
+        var16 = var18.bind(var23)(var14, var16);
+        var18 = var23.useMemo;
         var5 = var5.length;
         var14 = new Array(1);
         var14[0] = var5;
@@ -398,12 +389,12 @@ case 8:
             var1[0] = var2;
             return var1;
         };
-        var14 = var23.bind(var21)(var5, var14);
-        var5 = 11;
-        var5 = var18[var5];
-        var18 = var11.bind(var4)(var5);
-        var11 = var18.useAnimatedProps;
-        var5 = function i() {
+        var14 = var18.bind(var23)(var5, var14);
+        var5 = 14;
+        var5 = var21[var5];
+        var22 = var2.bind(var4)(var5);
+        var18 = var22.useAnimatedProps;
+        var5 = function n() {
             var1 = {};
             var3 = _closure2_slot6;
             var2 = var3.get;
@@ -411,18 +402,18 @@ case 8:
             var1['scrollEnabled'] = var2;
             return var1;
         };
-        var23 = {};
-        var23['scrollEnabled'] = var24;
-        var5['__closure'] = var23;
-        var23 = 13439565264141.0;
-        var5['__workletHash'] = var23;
-        var23 = _closure1_slot14;
-        var5['__initData'] = var23;
-        var5 = var11.bind(var18)(var5);
-        var18 = var21.useCallback;
-        var11 = new Array(1);
-        var11[0] = var10;
-        var10 = function() {
+        var25 = {};
+        var25['scrollEnabled'] = var26;
+        var5['__closure'] = var25;
+        var25 = 13439565264141.0;
+        var5['__workletHash'] = var25;
+        var25 = _closure1_slot13;
+        var5['__initData'] = var25;
+        var5 = var18.bind(var22)(var5);
+        var22 = var23.useCallback;
+        var18 = new Array(1);
+        var18[0] = var11;
+        var11 = function() {
             var4 = _closure1_slot8;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -436,11 +427,11 @@ case 8:
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
-        var11 = var18.bind(var21)(var10, var11);
-        var18 = var21.useCallback;
-        var10 = new Array(1);
-        var10[0] = var3;
-        var3 = function() {
+        var11 = var22.bind(var23)(var11, var18);
+        var22 = var23.useCallback;
+        var18 = new Array(1);
+        var18[0] = var10;
+        var10 = function() {
             var4 = _closure1_slot8;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -454,19 +445,22 @@ case 8:
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
-        var10 = var18.bind(var21)(var3, var10);
-        var18 = var21.useMemo;
-        var3 = new Array(1);
-        var3[0] = var22;
-        var2 = function() {
+        var10 = var22.bind(var23)(var10, var18);
+        var22 = var23.useMemo;
+        var18 = new Array(1);
+        var18[0] = var24;
+        var3 = function() {
             var2 = _closure2_slot1;
             var1 = var2.get;
             var1 = var1.bind(var2)();
             return var1;
         };
-        var18 = var18.bind(var21)(var2, var3);
+        var18 = var22.bind(var23)(var3, var18);
         var3 = _closure1_slot8;
-        var2 = _closure1_slot11;
+        var1 = 15;
+        var1 = var21[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.AnimatedFastList;
         var1 = {'ref': null, 'style': null, 'sections': null, 'stickyHeaderFooter': true, 'disableContentWrappers': true, 'automaticallyAdjustContentInsets': false, 'showsVerticalScrollIndicator': false, 'showsHorizontalScrollIndicator': false, 'initialScrollOrientation': 'center'};
         var1['ref'] = var20;
         var19 = var19.containerPortrait;
