@@ -1529,6 +1529,36 @@
       }
     ]
   },
+  "CHANNEL_BACKGROUND_DEFAULT": {
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#ffffff",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1c1d23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
+  },
   "CHANNEL_ICON": {
     "dark": [
       "#80848e",

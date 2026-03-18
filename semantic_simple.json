@@ -305,6 +305,12 @@
     "midnight": "#08080b",
     "darker": "#18191f"
   },
+  "CHANNEL_BACKGROUND_DEFAULT": {
+    "dark": "#313338",
+    "light": "#ffffff",
+    "midnight": "#000000",
+    "darker": "#1c1d23"
+  },
   "CHANNEL_ICON": {
     "dark": "#80848e",
     "light": "#6d6f78",
