@@ -1118,17 +1118,17 @@ case 0:
             var3 = _closure1_slot5;
             var2 = var3.useContext;
             var4 = _closure1_slot1;
-            var14 = _closure1_slot2;
+            var15 = _closure1_slot2;
             var1 = 14;
-            var1 = var14[var1];
+            var1 = var15[var1];
             var5 = undefined;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-            var19 = var1.isVisible;
-            var _closure2_slot0 = var19;
+            var20 = var1.isVisible;
+            var _closure2_slot0 = var20;
             var10 = var1.isVisibleToUser;
-            var13 = var1.quest;
-            var _closure2_slot1 = var13;
+            var14 = var1.quest;
+            var _closure2_slot1 = var14;
             var3 = _closure1_slot5;
             var2 = var3.useState;
             var1 = function() {
@@ -1140,8 +1140,8 @@ case 0:
             };
             var2 = var2.bind(var3)(var1);
             var1 = _closure1_slot4;
-            var15 = 1;
-            var1 = var1.bind(var5)(var2, var15);
+            var16 = 1;
+            var1 = var1.bind(var5)(var2, var16);
             var4 = 0;
             var1 = var1[var4];
             var _closure2_slot2 = var1;
@@ -1157,15 +1157,15 @@ case 0:
             var1 = {'width': 0, 'height': 0};
             var2 = var2.bind(var3)(var1);
             var1 = _closure1_slot4;
-            var17 = 2;
-            var1 = var1.bind(var5)(var2, var17);
-            var18 = var1[var4];
-            var _closure2_slot4 = var18;
-            var1 = var1[var15];
+            var18 = 2;
+            var1 = var1.bind(var5)(var2, var18);
+            var19 = var1[var4];
+            var _closure2_slot4 = var19;
+            var1 = var1[var16];
             var _closure2_slot5 = var1;
             var12 = _closure1_slot0;
             var1 = 38;
-            var1 = var14[var1];
+            var1 = var15[var1];
             var8 = var12.bind(var5)(var1);
             var3 = var8.useStateFromStores;
             var1 = _closure1_slot9;
@@ -1179,7 +1179,7 @@ case 0:
             var1 = var3.bind(var8)(var2, var1);
             var _closure2_slot6 = var1;
             var1 = 39;
-            var1 = var14[var1];
+            var1 = var15[var1];
             var3 = var12.bind(var5)(var1);
             var2 = var3.useIsEligibleForQuests;
             var1 = {};
@@ -1187,8 +1187,14 @@ case 0:
             var8 = var8.QUESTS_BAR;
             var1['location'] = var8;
             var11 = var2.bind(var3)(var1);
+            var1 = 35;
+            var1 = var15[var1];
+            var3 = var12.bind(var5)(var1);
+            var2 = var3.useQuestBarImpressionSurvey;
+            var1 = var14.id;
+            var13 = var2.bind(var3)(var1);
             var2 = 19;
-            var1 = var14[var2];
+            var1 = var15[var2];
             var8 = var12.bind(var5)(var1);
             var3 = var8.useAnimatedStyle;
             var1 = function D() {
@@ -1234,88 +1240,88 @@ case 28:
                     return var1;
                 }
             };
-            var16 = {};
-            var20 = 13;
-            var20 = var14[var20];
-            var20 = var12.bind(var5)(var20);
-            var20 = var20.withSpring;
-            var16['withSpring'] = var20;
-            var16['isVisible'] = var19;
-            var19 = _closure1_slot36;
-            var16['ENTRANCE_ANIMATION_SPING_CONFIG'] = var19;
-            var16['componentDimensions'] = var18;
-            var1['__closure'] = var16;
-            var16 = 4948945021130.0;
-            var1['__workletHash'] = var16;
-            var16 = _closure1_slot37;
-            var1['__initData'] = var16;
+            var17 = {};
+            var21 = 13;
+            var21 = var15[var21];
+            var21 = var12.bind(var5)(var21);
+            var21 = var21.withSpring;
+            var17['withSpring'] = var21;
+            var17['isVisible'] = var20;
+            var20 = _closure1_slot36;
+            var17['ENTRANCE_ANIMATION_SPING_CONFIG'] = var20;
+            var17['componentDimensions'] = var19;
+            var1['__closure'] = var17;
+            var17 = 4948945021130.0;
+            var1['__workletHash'] = var17;
+            var17 = _closure1_slot37;
+            var1['__initData'] = var17;
             var8 = var3.bind(var8)(var1);
-            var16 = _closure1_slot5;
-            var3 = var16.useState;
+            var17 = _closure1_slot5;
+            var3 = var17.useState;
             var1 = null;
-            var16 = var3.bind(var16)(var1);
+            var17 = var3.bind(var17)(var1);
             var3 = _closure1_slot4;
-            var3 = var3.bind(var5)(var16, var17);
+            var3 = var3.bind(var5)(var17, var18);
             var4 = var3[var4];
             var _closure2_slot7 = var4;
-            var3 = var3[var15];
+            var3 = var3[var16];
             var _closure2_slot8 = var3;
             var3 = 40;
-            var15 = var14[var3];
-            var16 = var12.bind(var5)(var15);
-            var15 = var16.useQuestDockHeroAsset;
-            var15 = var15.bind(var16)(var13);
-            var16 = var15.staticUrl;
-            var _closure2_slot9 = var16;
-            var3 = var14[var3];
+            var16 = var15[var3];
+            var17 = var12.bind(var5)(var16);
+            var16 = var17.useQuestDockHeroAsset;
+            var16 = var16.bind(var17)(var14);
+            var17 = var16.staticUrl;
+            var _closure2_slot9 = var17;
+            var3 = var15[var3];
             var12 = var12.bind(var5)(var3);
             var3 = var12.useQuestGameLogotypeAssetUrl;
-            var3 = var3.bind(var12)(var13);
+            var3 = var3.bind(var12)(var14);
             var _closure2_slot10 = var3;
-            var14 = var13.userStatus;
-            var15 = var1 == var14;
+            var15 = var14.userStatus;
+            var16 = var1 == var15;
             var12 = undefined;
-            if(var15) { _fun0008_ip = 76; continue _fun0008 }
+            if(var16) { _fun0008_ip = 76; continue _fun0008 }
 case 77:
-            var12 = var14.enrolledAt;
+            var12 = var15.enrolledAt;
 case 76:
             var12 = var1 != var12;
             var _closure2_slot11 = var12;
-            var14 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var15 = _closure1_slot0;
+            var20 = _closure1_slot2;
             var12 = 41;
-            var12 = var19[var12];
-            var15 = var14.bind(var5)(var12);
-            var12 = var15.useGradientBottom;
-            var15 = var12.bind(var15)();
+            var12 = var20[var12];
+            var16 = var15.bind(var5)(var12);
+            var12 = var16.useGradientBottom;
+            var16 = var12.bind(var16)();
             var12 = 42;
-            var12 = var19[var12];
-            var17 = var14.bind(var5)(var12);
-            var14 = var17.useToken;
-            var18 = _closure1_slot1;
+            var12 = var20[var12];
+            var18 = var15.bind(var5)(var12);
+            var15 = var18.useToken;
+            var19 = _closure1_slot1;
             var12 = 12;
-            var12 = var19[var12];
-            var12 = var18.bind(var5)(var12);
+            var12 = var20[var12];
+            var12 = var19.bind(var5)(var12);
             var12 = var12.colors;
             var12 = var12.BACKGROUND_SURFACE_HIGH;
-            var12 = var14.bind(var17)(var12);
-            var17 = var1 == var15;
-            var14 = undefined;
-            if(var17) { _fun0008_ip = 78; continue _fun0008 }
+            var12 = var15.bind(var18)(var12);
+            var18 = var1 == var16;
+            var15 = undefined;
+            if(var18) { _fun0008_ip = 78; continue _fun0008 }
 case 79:
-            var14 = var15.backgroundColor;
+            var15 = var16.backgroundColor;
 case 78:
-            if(!(var1 != var14)) { _fun0008_ip = 80; continue _fun0008 }
+            if(!(var1 != var15)) { _fun0008_ip = 80; continue _fun0008 }
 case 81:
-            var12 = var14;
+            var12 = var15;
 case 80:
             var _closure2_slot12 = var12;
-            var15 = _closure1_slot5;
-            var14 = var15.useEffect;
+            var16 = _closure1_slot5;
+            var15 = var16.useEffect;
             var12 = new Array(3);
-            var12[0] = var16;
+            var12[0] = var17;
             var12[1] = var3;
-            var3 = var13.id;
+            var3 = var14.id;
             var12[2] = var3;
             var3 = function() {
                 var2 = function prefetchWithErrorReporting(arg1) {
@@ -1486,12 +1492,12 @@ case 89:
                 var2 = !var2;
                 return var1;
             };
-            var3 = var14.bind(var15)(var3, var12);
-            var15 = _closure1_slot5;
-            var14 = var15.useEffect;
+            var3 = var15.bind(var16)(var3, var12);
+            var16 = _closure1_slot5;
+            var15 = var16.useEffect;
             var12 = new Array(2);
             var12[0] = var4;
-            var3 = var13.id;
+            var3 = var14.id;
             var12[1] = var3;
             var3 = function() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
@@ -1548,8 +1554,8 @@ case 96:
                     return var1;
                 }
             };
-            var3 = var14.bind(var15)(var3, var12);
-            var3 = var1 == var13;
+            var3 = var15.bind(var16)(var3, var12);
+            var3 = var1 == var14;
             if(var3) { _fun0008_ip = 98; continue _fun0008 }
 case 99:
             var3 = !var11;
@@ -1559,8 +1565,8 @@ case 101:
             var3 = !var4;
 case 100:
             var _closure2_slot13 = var3;
-            var14 = _closure1_slot5;
-            var12 = var14.useEffect;
+            var15 = _closure1_slot5;
+            var12 = var15.useEffect;
             var11 = new Array(1);
             var11[0] = var3;
             var4 = function() {
@@ -1592,7 +1598,7 @@ case 100:
                 };
                 return var1;
             };
-            var4 = var12.bind(var14)(var4, var11);
+            var4 = var12.bind(var15)(var4, var11);
             var1 = null;
             if(var3) { _fun0008_ip = 102; continue _fun0008 }
 case 103:
@@ -1686,12 +1692,13 @@ case 104:
             var6 = {};
             var6['overrideVisibility'] = var10;
             var10 = 36;
-            var14 = var12[var10];
-            var14 = var11.bind(var5)(var14);
-            var14 = var14.QuestContent;
-            var14 = var14.QUEST_BAR_MOBILE;
-            var6['questContent'] = var14;
-            var6['questOrQuests'] = var13;
+            var15 = var12[var10];
+            var15 = var11.bind(var5)(var15);
+            var15 = var15.QuestContent;
+            var15 = var15.QUEST_BAR_MOBILE;
+            var6['questContent'] = var15;
+            var6['questOrQuests'] = var14;
+            var6['onImpression'] = var13;
             var10 = var12[var10];
             var10 = var11.bind(var5)(var10);
             var10 = var10.QuestContent;

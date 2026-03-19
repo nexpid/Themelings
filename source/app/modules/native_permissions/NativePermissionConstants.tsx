@@ -37,6 +37,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['AUDIO'] = var1;
     var1 = 'camera';
     var4['CAMERA'] = var1;
+    var1 = 'headset_camera';
+    var4['HEADSET_CAMERA'] = var1;
     var1 = 'storage';
     var4['STORAGE'] = var1;
     var1 = 'notifications';

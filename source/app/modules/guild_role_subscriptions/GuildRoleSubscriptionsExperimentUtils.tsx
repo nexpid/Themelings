@@ -44,41 +44,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['isGuildEligibleForRoleSubscriptions'] = var4;
-    var4 = function useRoleSubscriptionMaxTiersExperiment(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var4 = arg1;
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 1;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var3 = var1.GuildRoleSubscriptionMaxTiersExperiment;
-            var2 = var3.useExperiment;
-            var1 = {};
-            var6 = null;
-            if(!(var6 == var4)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = _closure1_slot2;
-case 2:
-            var1['guildId'] = var4;
-            var4 = '504714_7';
-            var1['location'] = var4;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        }
-    };
-    var3['useRoleSubscriptionMaxTiersExperiment'] = var4;
     var4 = function(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
             var _closure2_slot0 = var3;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
             var3 = var4.some;
             var2 = function(arg1) {
@@ -90,13 +64,13 @@ case 5:
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
-case 4:
+case 2:
             return var1;
         }
     };
     var3['hasEnabledMonetization'] = var4;
     var4 = function isGuildEligibleForTierTemplates(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
@@ -109,10 +83,10 @@ case 0:
             var3 = var4.getCurrentConfig;
             var2 = {};
             var6 = null;
-            if(!(var6 == var1)) { _fun0003_ip = 2; continue _fun0003 }
-case 3:
+            if(!(var6 == var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var1 = _closure1_slot2;
-case 2:
+case 4:
             var2['guildId'] = var1;
             var1 = '504714_9';
             var2['location'] = var1;
@@ -126,7 +100,7 @@ case 2:
     };
     var3['isGuildEligibleForTierTemplates'] = var4;
     var4 = function useGuildEligibleForTierTemplates(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
@@ -139,10 +113,10 @@ case 0:
             var3 = var4.useExperiment;
             var2 = {};
             var6 = null;
-            if(!(var6 == var1)) { _fun0004_ip = 2; continue _fun0004 }
-case 3:
+            if(!(var6 == var1)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
             var1 = _closure1_slot2;
-case 2:
+case 4:
             var2['guildId'] = var1;
             var1 = '504714_10';
             var2['location'] = var1;
@@ -156,7 +130,7 @@ case 2:
     };
     var3['useGuildEligibleForTierTemplates'] = var4;
     var4 = function useShowCreatorPortalLinkForTierTemplates(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
@@ -169,10 +143,10 @@ case 0:
             var3 = var4.useExperiment;
             var2 = {};
             var6 = null;
-            if(!(var6 == var1)) { _fun0005_ip = 2; continue _fun0005 }
-case 3:
+            if(!(var6 == var1)) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
             var1 = _closure1_slot2;
-case 2:
+case 4:
             var2['guildId'] = var1;
             var1 = '504714_11';
             var2['location'] = var1;

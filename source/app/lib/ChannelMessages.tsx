@@ -3298,16 +3298,26 @@ case 270:
                 var6 = var6.hasFetched;
                 var1['hasFetched'] = var6;
                 var1['error'] = var5;
-                var6 = var3.initialScrollSequenceId;
+                var7 = var3.initialScrollSequenceId;
                 if(var4) { _fun0037_ip = 273; continue _fun0037 }
 case 274:
-                var4 = var6;
+                var5 = var7;
                 _fun0037_ip = 275; continue _fun0037;
 case 273:
+                var6 = 1;
+                var5 = var7 + var6;
+case 275:
+                var1['initialScrollSequenceId'] = var5;
+                var6 = var3.suppressRowAnimationSequenceId;
+                if(var4) { _fun0037_ip = 276; continue _fun0037 }
+case 277:
+                var4 = var6;
+                _fun0037_ip = 278; continue _fun0037;
+case 276:
                 var5 = 1;
                 var4 = var6 + var5;
-case 275:
-                var1['initialScrollSequenceId'] = var4;
+case 278:
+                var1['suppressRowAnimationSequenceId'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }
@@ -3409,11 +3419,11 @@ case 31:
                 if(var4) { _fun0038_ip = 201; continue _fun0038 }
 case 144:
                 var4 = var6;
-                _fun0038_ip = 276; continue _fun0038;
+                _fun0038_ip = 279; continue _fun0038;
 case 201:
                 var5 = 1;
                 var4 = var6 + var5;
-case 276:
+case 279:
                 var1['initialScrollSequenceId'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -3483,7 +3493,7 @@ case 0:
                 var1 = var1._channelMessages;
                 var1 = var1[var4];
                 var3 = null;
-                if(!(var3 == var1)) { _fun0040_ip = 277; continue _fun0040 }
+                if(!(var3 == var1)) { _fun0040_ip = 280; continue _fun0040 }
 case 178:
                 var3 = _closure2_slot0;
                 var2 = var3.prototype;
@@ -3495,7 +3505,7 @@ case 178:
                 var3 = var3._channelMessages;
                 var3[var4] = var2;
                 var1 = var2;
-case 277:
+case 280:
                 return var1;
             }
         };

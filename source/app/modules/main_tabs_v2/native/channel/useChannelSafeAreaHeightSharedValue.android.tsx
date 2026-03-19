@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
     var1 = {};
-    var6 = 'function useChannelSafeAreaHeightSharedValueAndroidTsx1(){const{keyboardOpenOrOpening,keyboardWillOpenSharedValue,keyboardOpenedHeight,keyboardTypeSharedValue,KeyboardTypes,insets,customKeyboardHeight}=this.__closure;const height=keyboardOpenOrOpening.get()||keyboardWillOpenSharedValue.get()?keyboardOpenedHeight.get():keyboardTypeSharedValue.get()===KeyboardTypes.SYSTEM?insets.get().bottom:customKeyboardHeight;return height;}';
+    var6 = 'function useChannelSafeAreaHeightSharedValueAndroidTsx1(){const{keyboardOpenOrOpening,keyboardWillOpenSharedValue,keyboardOpenedHeight,insets,keyboardTypeSharedValue,KeyboardTypes,customKeyboardHeight}=this.__closure;if(keyboardOpenOrOpening.get()||keyboardWillOpenSharedValue.get()){const systemKeyboardHeight=keyboardOpenedHeight.get();if(systemKeyboardHeight<=0){return insets.get().bottom;}return systemKeyboardHeight;}if(keyboardTypeSharedValue.get()===KeyboardTypes.SYSTEM){return insets.get().bottom;}return customKeyboardHeight;}';
     var1['code'] = var6;
     var _closure1_slot3 = var1;
     var1 = 6;
@@ -28,41 +28,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useChannelSafeAreaHeightSharedValue() {
         var3 = _closure1_slot1;
-        var11 = _closure1_slot2;
+        var10 = _closure1_slot2;
         var2 = 0;
-        var2 = var11[var2];
-        var10 = undefined;
-        var2 = var3.bind(var10)(var2);
-        var7 = var2.bind(var10)();
-        var _closure2_slot0 = var7;
+        var2 = var10[var2];
+        var9 = undefined;
+        var2 = var3.bind(var9)(var2);
+        var11 = var2.bind(var9)();
+        var _closure2_slot0 = var11;
         var2 = 1;
-        var2 = var11[var2];
-        var2 = var3.bind(var10)(var2);
-        var2 = var2.bind(var10)();
+        var2 = var10[var2];
+        var2 = var3.bind(var9)(var2);
+        var2 = var2.bind(var9)();
         var14 = var2.keyboardOpenOrOpening;
         var _closure2_slot1 = var14;
         var12 = var2.keyboardOpenedHeight;
         var _closure2_slot2 = var12;
-        var9 = _closure1_slot0;
+        var8 = _closure1_slot0;
         var2 = 2;
-        var5 = var11[var2];
-        var6 = var9.bind(var10)(var5);
+        var5 = var10[var2];
+        var6 = var8.bind(var9)(var5);
         var5 = var6.useKeyboardTypeSharedValue;
-        var8 = var5.bind(var6)();
-        var _closure2_slot3 = var8;
-        var2 = var11[var2];
-        var5 = var9.bind(var10)(var2);
+        var7 = var5.bind(var6)();
+        var _closure2_slot3 = var7;
+        var2 = var10[var2];
+        var5 = var8.bind(var9)(var2);
         var2 = var5.useKeyboardWillOpenSharedValue;
         var13 = var2.bind(var5)();
         var _closure2_slot4 = var13;
         var2 = 3;
-        var2 = var11[var2];
-        var2 = var3.bind(var10)(var2);
-        var6 = var2.bind(var10)();
+        var2 = var10[var2];
+        var2 = var3.bind(var9)(var2);
+        var6 = var2.bind(var9)();
         var _closure2_slot5 = var6;
         var2 = 4;
-        var2 = var11[var2];
-        var3 = var9.bind(var10)(var2);
+        var2 = var10[var2];
+        var3 = var8.bind(var9)(var2);
         var2 = var3.useDerivedValue;
         var1 = function n() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -98,11 +98,18 @@ case 5:
                 var3 = var3.bind(var4)();
                 var1 = var3.bottom;
 case 7:
-                _fun0001_ip = 8; continue _fun0001;
+                return var1;
 case 2:
                 var3 = _closure2_slot2;
+                var1 = var3.get;
+                var1 = var1.bind(var3)();
+                var3 = 0;
+                if(!(var1 <= var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+                var3 = _closure2_slot0;
                 var2 = var3.get;
-                var1 = var2.bind(var3)();
+                var2 = var2.bind(var3)();
+                var1 = var2.bottom;
 case 8:
                 return var1;
             }
@@ -111,16 +118,16 @@ case 8:
         var5['keyboardOpenOrOpening'] = var14;
         var5['keyboardWillOpenSharedValue'] = var13;
         var5['keyboardOpenedHeight'] = var12;
-        var5['keyboardTypeSharedValue'] = var8;
-        var8 = 5;
-        var8 = var11[var8];
-        var8 = var9.bind(var10)(var8);
-        var8 = var8.KeyboardTypes;
-        var5['KeyboardTypes'] = var8;
-        var5['insets'] = var7;
+        var5['insets'] = var11;
+        var5['keyboardTypeSharedValue'] = var7;
+        var7 = 5;
+        var7 = var10[var7];
+        var7 = var8.bind(var9)(var7);
+        var7 = var7.KeyboardTypes;
+        var5['KeyboardTypes'] = var7;
         var5['customKeyboardHeight'] = var6;
         var1['__closure'] = var5;
-        var5 = 8921359167404.0;
+        var5 = 16297653675645.0;
         var1['__workletHash'] = var5;
         var4 = _closure1_slot3;
         var1['__initData'] = var4;

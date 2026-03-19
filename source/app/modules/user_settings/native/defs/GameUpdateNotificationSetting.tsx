@@ -82,9 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
         var2 = var3.useGameUpdateExperiment;
-        var1 = {};
-        var4 = 'tabsV2Settings';
-        var1['location'] = var4;
+        var1 = 'tabsV2Settings';
         var1 = var2.bind(var3)(var1);
         var1 = var1.showToggle;
         return var1;

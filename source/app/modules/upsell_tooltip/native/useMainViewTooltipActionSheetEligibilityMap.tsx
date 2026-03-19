@@ -157,36 +157,39 @@ case 5:
             var4 = var4.properties;
             var19 = var4.mobileBottomSheet;
 case 4:
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var4 = 13;
-            var4 = var14[var4];
-            var5 = var13.bind(var8)(var4);
-            var4 = var5.useIsEligibleSenderForReferralProgram;
-            var4 = var4.bind(var5)();
-            var5 = 14;
-            var12 = var14[var5];
-            var16 = var13.bind(var8)(var12);
-            var15 = var16.useMobileReferralEntryPointsExperimentTreatment;
-            var12 = {};
-            var12['location'] = var10;
-            var12 = var15.bind(var16)(var12);
-            var5 = var14[var5];
-            var5 = var13.bind(var8)(var5);
-            var5 = var5.MobileReferralEntryPointsExperimentTreatment;
-            var5 = var5.BOTTOM_SHEET;
-            var12 = var12 === var5;
-            var5 = 15;
-            var5 = var14[var5];
-            var14 = var13.bind(var8)(var5);
-            var13 = var14.useMobileReferralEntrypointBottomSheetGateEnabled;
+            var5 = var13[var4];
+            var15 = var12.bind(var8)(var5);
+            var14 = var15.useMobileReferralEntryPointsExperimentTreatment;
             var5 = {};
             var5['location'] = var10;
-            var5 = var13.bind(var14)(var5);
-            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+            var5 = var14.bind(var15)(var5);
+            var4 = var13[var4];
+            var4 = var12.bind(var8)(var4);
+            var4 = var4.MobileReferralEntryPointsExperimentTreatment;
+            var4 = var4.BOTTOM_SHEET;
+            var5 = var5 === var4;
+            var4 = 14;
+            var4 = var13[var4];
+            var13 = var12.bind(var8)(var4);
+            var12 = var13.useMobileReferralEntrypointBottomSheetGateEnabled;
+            var4 = {};
+            var4['location'] = var10;
+            var4 = var12.bind(var13)(var4);
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var4 = var12;
+            var5 = var4;
 case 6:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var4 = 15;
+            var4 = var13[var4];
+            var13 = var12.bind(var8)(var4);
+            var12 = var13.useIsEligibleSenderForReferralProgram;
+            var4 = !var5;
+            var4 = var12.bind(var13)(var4);
             if(!var4) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var4 = var5;

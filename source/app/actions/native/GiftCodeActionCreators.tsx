@@ -39,8 +39,8 @@ case 5:
 case 4:
                     var10 = var2.onRedeemed;
                     var6 = var2.onError;
+                    var16 = undefined;
                     var17 = undefined;
-                    var18 = undefined;
                     var11 = undefined;
                     var5 = undefined;
                     SaveGenerator(address=60);
@@ -50,20 +50,13 @@ case 7:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var9 = _closure1_slot1;
+                    var9 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var8 = 2;
                     var8 = var12[var8];
-                    var13 = var9.bind(var3)(var8);
-                    var12 = var13.getCurrentConfig;
-                    var9 = {};
-                    var8 = 'redeemGiftCode';
-                    var9['location'] = var8;
-                    var8 = {};
-                    var15 = false;
-                    var8['autoTrackExposure'] = var15;
-                    var8 = var12.bind(var13)(var9, var8);
-                    var8 = var8.paymentsBlocked;
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.getIsPaymentsBlocked;
+                    var8 = var8.bind(var9)();
                     if(var8) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
                     var12 = var7.channelId;
@@ -73,14 +66,14 @@ case 11:
 case 13:
                     var9 = var12;
 case 12:
-                    var17 = var9;
+                    var16 = var9;
                     var9 = var7.paymentSource;
                     var7 = null;
                     if(!(var3 !== var9)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
                     var7 = var9;
 case 14:
-                    var18 = var7;
+                    var17 = var7;
                     var12 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var7 = 4;
@@ -88,10 +81,10 @@ case 14:
                     var13 = var12.bind(var3)(var9);
                     var12 = var13.dispatch;
                     var9 = {};
-                    var16 = 'GIFT_CODE_REDEEM';
-                    var9['type'] = var16;
-                    var16 = var14;
-                    var9['code'] = var16;
+                    var15 = 'GIFT_CODE_REDEEM';
+                    var9['type'] = var15;
+                    var15 = var14;
+                    var9['code'] = var15;
                     var9 = var12.bind(var13)(var9);
 case 16: // try_start_0
                     var12 = _closure1_slot0;
@@ -102,27 +95,28 @@ case 16: // try_start_0
                     var13 = var9.HTTP;
                     var12 = var13.post;
                     var9 = {};
-                    var20 = _closure1_slot4;
-                    var19 = var20.GIFT_CODE_REDEEM;
-                    var16 = var14;
-                    var16 = var19.bind(var20)(var16);
-                    var9['url'] = var16;
-                    var16 = {};
-                    var16['channel_id'] = var17;
-                    var17 = var18;
-                    var19 = var8 == var17;
-                    var17 = undefined;
-                    if(var19) { _fun0001_ip = 17; continue _fun0001 }
+                    var19 = _closure1_slot4;
+                    var18 = var19.GIFT_CODE_REDEEM;
+                    var15 = var14;
+                    var15 = var18.bind(var19)(var15);
+                    var9['url'] = var15;
+                    var15 = {};
+                    var15['channel_id'] = var16;
+                    var16 = var17;
+                    var18 = var8 == var16;
+                    var16 = undefined;
+                    if(var18) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-                    var17 = var18.id;
+                    var16 = var17.id;
 case 17:
-                    var16['payment_source_id'] = var17;
-                    var9['body'] = var16;
-                    var16 = true;
-                    var9['oldFormErrors'] = var16;
+                    var15['payment_source_id'] = var16;
+                    var9['body'] = var15;
+                    var15 = true;
+                    var9['oldFormErrors'] = var15;
+                    var15 = false;
                     var9['rejectWithError'] = var15;
                     var9 = var12.bind(var13)(var9);
-                    SaveGenerator(address=326);
+                    SaveGenerator(address=301);
 case 19:
                     return var9;
 case 20:
@@ -174,9 +168,9 @@ case 26: // catch_target0
                     var9 = var9.BillingError;
                     var11 = var9.prototype;
                     var11 = Object.create(var11, {constructor: {value: var9}});
-                    var23 = var11;
-                    var22 = var12;
-                    var9 = new var23[var9](var22, var21);
+                    var22 = var11;
+                    var21 = var12;
+                    var9 = new var22[var9](var21, var20);
                     var13 = var9 instanceof Object ? var9 : var11;
                     var5 = var13;
                     var9 = _closure1_slot1;

@@ -223,11 +223,11 @@ case 7:
             var1 = var4;
 case 9:
             _closure2_slot5 = var1;
-            var9 = _closure1_slot1;
+            var4 = _closure1_slot1;
             var12 = _closure1_slot2;
             var1 = 19;
             var1 = var12[var1];
-            var4 = var9.bind(var6)(var1);
+            var4 = var4.bind(var6)(var1);
             var1 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -258,8 +258,8 @@ case 9:
             var1 = var4.bind(var6)(var1);
             var11 = _closure1_slot0;
             var1 = var12[var2];
-            var17 = var11.bind(var6)(var1);
-            var5 = var17.useStateFromStoresArray;
+            var9 = var11.bind(var6)(var1);
+            var5 = var9.useStateFromStoresArray;
             var1 = _closure1_slot11;
             var4 = new Array(1);
             var4[0] = var1;
@@ -274,7 +274,7 @@ case 9:
                 var1[1] = var2;
                 return var1;
             };
-            var5 = var5.bind(var17)(var4, var1);
+            var5 = var5.bind(var9)(var4, var1);
             var4 = _closure1_slot3;
             var1 = 2;
             var1 = var4.bind(var6)(var5, var1);
@@ -287,8 +287,8 @@ case 9:
             var1 = var1.bind(var4)();
             _closure2_slot6 = var1;
             var1 = var12[var2];
-            var17 = var11.bind(var6)(var1);
-            var5 = var17.useStateFromStores;
+            var9 = var11.bind(var6)(var1);
+            var5 = var9.useStateFromStores;
             var1 = _closure1_slot13;
             var4 = new Array(1);
             var4[0] = var1;
@@ -298,18 +298,18 @@ case 9:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var5 = var5.bind(var17)(var4, var1);
+            var5 = var5.bind(var9)(var4, var1);
             _closure2_slot7 = var5;
             var19 = _closure1_slot4;
             var1 = var19.useRef;
             var1 = var1.bind(var19)(var5);
             _closure2_slot8 = var1;
             var1 = var12[var2];
-            var21 = var11.bind(var6)(var1);
-            var20 = var21.useStateFromStores;
+            var20 = var11.bind(var6)(var1);
+            var17 = var20.useStateFromStores;
             var4 = _closure1_slot12;
-            var17 = new Array(1);
-            var17[0] = var4;
+            var9 = new Array(1);
+            var9[0] = var4;
             var1 = function() {
                 var3 = _closure1_slot12;
                 var2 = var3.hasFetchedForApplicationIds;
@@ -319,12 +319,12 @@ case 9:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var1 = var20.bind(var21)(var17, var1);
-            var17 = var12[var2];
-            var27 = var11.bind(var6)(var17);
-            var24 = var27.useStateFromStores;
-            var21 = new Array(1);
-            var21[0] = var4;
+            var1 = var17.bind(var20)(var9, var1);
+            var9 = var12[var2];
+            var24 = var11.bind(var6)(var9);
+            var21 = var24.useStateFromStores;
+            var20 = new Array(1);
+            var20[0] = var4;
             var4 = 22;
             var4 = var12[var4];
             var4 = var11.bind(var6)(var4);
@@ -351,28 +351,28 @@ case 10:
                 }
             };
             var32 = new Array(0);
-            var35 = var27;
-            var34 = var21;
-            var17 = var35[var24](var34, var33, var32, var31, var30);
+            var35 = var24;
+            var34 = var20;
+            var17 = var35[var21](var34, var33, var32, var31, var30);
             var4 = var12[var2];
-            var24 = var11.bind(var6)(var4);
-            var21 = var24.useStateFromStores;
+            var21 = var11.bind(var6)(var4);
+            var20 = var21.useStateFromStores;
             var4 = _closure1_slot10;
-            var20 = new Array(1);
-            var20[0] = var4;
+            var9 = new Array(1);
+            var9[0] = var4;
             var4 = function() {
                 var2 = _closure1_slot10;
                 var1 = var2.isLoadedForPremiumSKUs;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var20 = var21.bind(var24)(var20, var4);
+            var20 = var20.bind(var21)(var9, var4);
             var4 = var12[var2];
-            var27 = var11.bind(var6)(var4);
-            var24 = var27.useStateFromStores;
+            var24 = var11.bind(var6)(var4);
+            var21 = var24.useStateFromStores;
             var4 = _closure1_slot14;
-            var21 = new Array(1);
-            var21[0] = var4;
+            var9 = new Array(1);
+            var9[0] = var4;
             var4 = function() {
                 var3 = _closure1_slot14;
                 var2 = var3.getProduct;
@@ -387,13 +387,13 @@ case 10:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var4 = var24.bind(var27)(var21, var4);
+            var4 = var21.bind(var24)(var9, var4);
             var2 = var12[var2];
-            var27 = var11.bind(var6)(var2);
-            var24 = var27.useStateFromStores;
+            var24 = var11.bind(var6)(var2);
+            var21 = var24.useStateFromStores;
             var2 = _closure1_slot9;
-            var21 = new Array(1);
-            var21[0] = var2;
+            var9 = new Array(1);
+            var9[0] = var2;
             var2 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -416,19 +416,12 @@ case 14:
                     return var1;
                 }
             };
-            var24 = var24.bind(var27)(var21, var2);
+            var24 = var21.bind(var24)(var9, var2);
             var2 = 24;
             var2 = var12[var2];
-            var27 = var9.bind(var6)(var2);
-            var21 = var27.useExperiment;
-            var9 = {};
-            var2 = 'b539b8_1';
-            var9['location'] = var2;
-            var2 = {};
-            var29 = false;
-            var2['autoTrackExposure'] = var29;
-            var2 = var21.bind(var27)(var9, var2);
-            var2 = var2.paymentsBlocked;
+            var9 = var11.bind(var6)(var2);
+            var2 = var9.useIsPaymentsBlocked;
+            var2 = var2.bind(var9)();
             var27 = var19.useEffect;
             var21 = function() {
                 var4 = _closure1_slot1;

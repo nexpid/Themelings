@@ -1332,7 +1332,7 @@ case 95:
             var46 = 51;
             var46 = var54[var46];
             var46 = var49.bind(var4)(var46);
-            var49 = var46.DownArrowIconWithBadgeOnSide;
+            var49 = var46.CloseIconWithBadgeOnSide;
             var46 = {};
             var46 = var51.bind(var4)(var49, var46);
             var25['children'] = var46;
@@ -1603,7 +1603,7 @@ case 95:
             var37 = 51;
             var37 = var40[var37];
             var37 = var38.bind(var4)(var37);
-            var38 = var37.DownArrowIconWithBadgeOnSide;
+            var38 = var37.CloseIconWithBadgeOnSide;
             var37 = {};
             var37 = var39.bind(var4)(var38, var37);
             var27['children'] = var37;

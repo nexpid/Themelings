@@ -428,7 +428,7 @@ case 13:
             var8 = var19[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Heading;
-            var8 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary', 'maxFontSizeMultiplier': 2};
+            var8 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'maxFontSizeMultiplier': 2};
             var19 = _closure1_slot6;
             var19 = var19.ORBS;
             if(!(var15 !== var19)) { _fun0001_ip = 15; continue _fun0001 }

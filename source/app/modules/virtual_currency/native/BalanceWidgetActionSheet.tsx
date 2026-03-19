@@ -516,7 +516,7 @@ case 28:
             var17 = _closure1_slot5;
             var16 = {};
             var16['onPress'] = var19;
-            var19 = 'button';
+            var19 = 'link';
             var16['accessibilityRole'] = var19;
             var26 = 8;
             var19 = var29[var26];

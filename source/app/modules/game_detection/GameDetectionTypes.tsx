@@ -193,24 +193,8 @@ case 25:
                 var1['themes'] = var3;
                 var3 = var2.linkedApplications;
                 var1['linkedApplications'] = var3;
-                var3 = var2.content_classification;
-                var1['content_classification'] = var3;
-                var3 = var2.genres;
-                var1['genres'] = var3;
-                var3 = var2.platforms;
-                var1['platforms'] = var3;
-                var3 = var2.bannerHash;
-                var1['bannerHash'] = var3;
-                var3 = var2.screenshotHashes;
-                var1['screenshotHashes'] = var3;
-                var3 = var2.screenshotUrls;
-                var1['screenshotUrls'] = var3;
-                var3 = var2.websites;
-                var1['websites'] = var3;
-                var3 = var2.companies;
-                var1['companies'] = var3;
-                var2 = var2.supplementalGameData;
-                var1['supplementalGameData'] = var2;
+                var2 = var2.content_classification;
+                var1['content_classification'] = var2;
                 return var1;
             }
         };

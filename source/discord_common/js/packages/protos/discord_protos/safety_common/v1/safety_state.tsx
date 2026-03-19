@@ -164,6 +164,10 @@ case 9:
     var10['GENERIC_MANUAL_SAFETY_ACTION'] = var9;
     var4 = 'GENERIC_MANUAL_SAFETY_ACTION';
     var10[var9] = var4;
+    var9 = 14;
+    var10['BANNED_USER_BACKFILL'] = var9;
+    var4 = 'BANNED_USER_BACKFILL';
+    var10[var9] = var4;
     var _closure1_slot8 = var10;
     var9 = {};
     var9['ANNOTATION_UNSPECIFIED'] = var17;

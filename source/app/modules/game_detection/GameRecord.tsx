@@ -346,8 +346,10 @@ case 63:
                 var4 = var3.reviews;
                 var4 = var5.bind(var6)(var4);
                 var2['reviews'] = var4;
-                var3 = var3.steam_id;
-                var2['steam_id'] = var3;
+                var4 = var3.steam_id;
+                var2['steam_id'] = var4;
+                var3 = var3.announcements_channel_id;
+                var2['announcementsChannelId'] = var3;
                 var1['supplementalData'] = var2;
 case 59:
                 return var1;

@@ -80,52 +80,27 @@ case 2:
     };
     var _closure1_slot9 = var1;
     var1 = function applyBackgroundMediaFilterSettings(arg1, arg2, arg3, arg4, arg5) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 6;
-            var3 = var3[var1];
-            var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.isWindows;
-            var5 = var3.bind(var4)();
-            if(!var5) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var3 = 7;
-            var3 = var6[var3];
-            var6 = var4.bind(var1)(var3);
-            var4 = var6.getH264MFVoiceExperimentConfig;
-            var3 = {};
-            var7 = 'applyBackgroundMediaFilterSettings';
-            var3['location'] = var7;
-            var3 = var4.bind(var6)(var3);
-            var5 = var3.enabled;
-case 16:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 8;
-            var2 = var4[var2];
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.applyMediaFilterSettings;
-            var2 = {};
-            var6 = {};
-            var7 = arg3;
-            var6['graph'] = var7;
-            var7 = arg2;
-            var6['target'] = var7;
-            var7 = arg4;
-            var6['image'] = var7;
-            var7 = arg5;
-            var6['blob'] = var7;
-            var6['useH264MFDecoder'] = var5;
-            var5 = arg1;
-            var2[var5] = var6;
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        }
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.applyMediaFilterSettings;
+        var2 = {};
+        var6 = {};
+        var5 = arg3;
+        var6['graph'] = var5;
+        var5 = arg2;
+        var6['target'] = var5;
+        var5 = arg4;
+        var6['image'] = var5;
+        var5 = arg5;
+        var6['blob'] = var5;
+        var5 = arg1;
+        var2[var5] = var6;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
     var _closure1_slot10 = var1;
     var1 = function applyBackgroundOption() {
@@ -145,13 +120,13 @@ case 16:
         var4 = _closure1_slot3;
         var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     StartGenerator();
                     var12 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                    if(var2) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                     var5 = arg1;
                     var4 = arg2;
                     var2 = undefined;
@@ -159,35 +134,35 @@ case 19:
                     var7 = undefined;
                     var9 = false;
                     var11 = null;
-                    if(!(var11 != var12)) { _fun0003_ip = 20; continue _fun0003 }
-case 17:
+                    if(!(var11 != var12)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var10 = _closure1_slot7;
-                    if(!(var12 !== var10)) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                    if(!(var12 !== var10)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
                     var13 = typeof var12;
                     var10 = 'string';
-                    if(!(var10 !== var13)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+                    if(!(var10 !== var13)) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
                     var10 = 'number';
-                    if(!(var10 !== var13)) { _fun0003_ip = 23; continue _fun0003 }
-case 25:
+                    if(!(var10 !== var13)) { _fun0002_ip = 22; continue _fun0002 }
+case 24:
                     var15 = var12.asset;
                     var13 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var14 = 11;
+                    var14 = 9;
                     var10 = var10[var14];
                     var13 = var13.bind(var2)(var10);
                     var10 = var13.isAnimatedIconHash;
                     var10 = var10.bind(var13)(var15);
-                    if(var10) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+                    if(var10) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
                     var16 = _closure1_slot0;
                     var13 = _closure1_slot2;
                     var13 = var13[var14];
                     var16 = var16.bind(var2)(var13);
                     var13 = var16.isVideoAssetHash;
                     var10 = var13.bind(var16)(var15);
-case 26:
+case 25:
                     var9 = var10;
                     var13 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -204,31 +179,31 @@ case 26:
                     var15 = var15.width;
                     var10['size'] = var15;
                     var8 = var13.bind(var14)(var10);
-                    _fun0003_ip = 28; continue _fun0003;
-case 23:
+                    _fun0002_ip = 27; continue _fun0002;
+case 22:
                     var13 = _closure1_slot1;
                     var14 = _closure1_slot2;
-                    var10 = 10;
+                    var10 = 8;
                     var10 = var14[var10];
                     var10 = var13.bind(var2)(var10);
                     var10 = var10.bind(var2)();
                     var10 = var10[var12];
                     var13 = var10.isVideo;
                     var12 = var11 != var13;
-                    if(!var12) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
-                    var12 = var13;
+                    if(!var12) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
+                    var12 = var13;
+case 28:
                     var9 = var12;
                     var8 = var10.source;
-case 28:
+case 27:
                     var10 = var8;
-                    if(!(var11 != var10)) { _fun0003_ip = 31; continue _fun0003 }
-case 32: // try_start_0
+                    if(!(var11 != var10)) { _fun0002_ip = 30; continue _fun0002 }
+case 31: // try_start_0
                     var11 = var9;
                     var10 = undefined;
-                    if(var11) { _fun0003_ip = 33; continue _fun0003 }
-case 34:
+                    if(var11) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
                     var12 = var8;
                     var11 = function getFilterImage(arg1) {
                         var2 = arg1;
@@ -340,19 +315,19 @@ case 34:
                     };
                     var11 = var11.bind(var2)(var12);
                     SaveGenerator(address=307);
-case 35:
+case 34:
                     return var11;
-case 36:
+case 35:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
                     var10 = var11;
-                    if(!var12) { _fun0003_ip = 33; continue _fun0003 }
-case 37: // try_end0
+                    if(!var12) { _fun0002_ip = 32; continue _fun0002 }
+case 36: // try_end0
                     return var11;
-case 33: // try_start_1
+case 32: // try_start_1
                     var7 = var10;
                     var12 = undefined;
-                    if(!var9) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
+                    if(!var9) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
                     var6 = function getFilterBlob() {
                         var1 = undefined;
                         var4 = _closure1_slot9;
@@ -365,19 +340,19 @@ case 39:
                     };
                     var6 = var6.bind(var2)(var8);
                     SaveGenerator(address=343);
-case 40:
+case 39:
                     return var6;
-case 41:
+case 40:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
                     var12 = var6;
-                    if(var8) { _fun0003_ip = 42; continue _fun0003 }
-case 38:
+                    if(var8) { _fun0002_ip = 41; continue _fun0002 }
+case 37:
                     var11 = _closure1_slot10;
                     var10 = var5;
                     var20 = var4;
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var8 = 9;
+                    var8 = 7;
                     var8 = var14[var8];
                     var8 = var13.bind(var2)(var8);
                     var8 = var8.FilterSettingsGraph;
@@ -387,46 +362,46 @@ case 38:
                     var21 = var10;
                     var17 = var12;
                     var7 = var22[var11](var21, var20, var19, var18, var17, var16);
-case 43: // try_end1
-                    _fun0003_ip = 31; continue _fun0003;
-case 42:
+case 42: // try_end1
+                    _fun0002_ip = 30; continue _fun0002;
+case 41:
                     return var6;
-case 44: // catch_target0 // catch_target1
+case 43: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=5);
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var6 = 8;
+                    var6 = 6;
                     var6 = var8[var6];
                     var7 = var7.bind(var2)(var6);
                     var6 = var7.errorApplyingMediaFilterSettings;
                     var6 = var6.bind(var7)();
-case 31:
+case 30:
                     return var2;
-case 21:
+case 20:
                     var8 = _closure1_slot10;
                     var7 = var5;
                     var6 = var4;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 7;
                     var3 = var10[var3];
                     var3 = var9.bind(var2)(var3);
                     var3 = var3.FilterSettingsGraph;
                     var3 = var3.BACKGROUND_BLUR;
                     var3 = var8.bind(var2)(var7, var6, var3);
                     return var2;
-case 20:
+case 18:
                     var6 = _closure1_slot10;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 7;
                     var3 = var8[var3];
                     var3 = var7.bind(var2)(var3);
                     var3 = var3.FilterSettingsGraph;
                     var3 = var3.NONE;
                     var3 = var6.bind(var2)(var5, var4, var3);
                     return var2;
-case 18:
+case 16:
                     return var1;
                 }
             };
@@ -459,32 +434,32 @@ case 18:
         var4 = _closure1_slot3;
         var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     StartGenerator();
                     var9 = arg1;
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
+                    if(var3) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
                     var6 = var2.track;
                     var4 = undefined;
-                    if(!(var6 === var4)) { _fun0004_ip = 5; continue _fun0004 }
+                    if(!(var6 === var4)) { _fun0003_ip = 5; continue _fun0003 }
 case 4:
                     var6 = true;
 case 5:
                     var8 = var2.location;
                     SaveGenerator(address=38);
-case 47:
+case 46:
                     return var4;
-case 17:
+case 19:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 48; continue _fun0004 }
+                    if(var3) { _fun0003_ip = 47; continue _fun0003 }
 case 8:
                     var10 = _closure1_slot11;
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var11 = 9;
+                    var11 = 7;
                     var3 = var13[var11];
                     var3 = var12.bind(var4)(var3);
                     var3 = var3.FilterSettingsKey;
@@ -497,29 +472,29 @@ case 8:
                     var3['type'] = var11;
                     var3 = var10.bind(var4)(var7, var3, var9);
                     SaveGenerator(address=124);
-case 49:
+case 48:
                     return var3;
-case 50:
+case 49:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-                    if(!var6) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
+                    if(var7) { _fun0003_ip = 50; continue _fun0003 }
+case 51:
+                    if(!var6) { _fun0003_ip = 52; continue _fun0003 }
+case 53:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var5 = 12;
+                    var5 = 10;
                     var5 = var7[var5];
                     var7 = var6.bind(var4)(var5);
                     var6 = var7.trackBackgroundOptionUpdated;
                     var5 = 'Enabled';
                     var5 = var6.bind(var7)(var9, var8, var5);
-case 53:
+case 52:
                     return var4;
-case 51:
+case 50:
                     return var3;
-case 48:
+case 47:
                     return var2;
-case 45:
+case 44:
                     return var1;
                 }
             };
@@ -543,37 +518,37 @@ case 45:
         var4 = _closure1_slot3;
         var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     StartGenerator();
                     var9 = arg1;
                     var2 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 55; continue _fun0005 }
-case 46:
+                    if(var3) { _fun0004_ip = 54; continue _fun0004 }
+case 45:
                     var6 = var2.track;
                     var4 = undefined;
-                    if(!(var6 === var4)) { _fun0005_ip = 5; continue _fun0005 }
+                    if(!(var6 === var4)) { _fun0004_ip = 5; continue _fun0004 }
 case 4:
                     var6 = true;
 case 5:
                     var8 = var2.location;
                     SaveGenerator(address=38);
-case 47:
+case 46:
                     return var4;
-case 17:
+case 19:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 56; continue _fun0005 }
+                    if(var3) { _fun0004_ip = 55; continue _fun0004 }
 case 8:
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var3 = 8;
+                    var3 = 6;
                     var3 = var13[var3];
                     var7 = var12.bind(var4)(var3);
                     var3 = var7.startApplyMediaFilterSettings;
                     var3 = var3.bind(var7)();
                     var10 = _closure1_slot11;
-                    var11 = 9;
+                    var11 = 7;
                     var3 = var13[var11];
                     var3 = var12.bind(var4)(var3);
                     var3 = var3.FilterSettingsKey;
@@ -588,29 +563,29 @@ case 8:
                     var3['streamId'] = var11;
                     var3 = var10.bind(var4)(var7, var3, var9);
                     SaveGenerator(address=154);
-case 57:
+case 56:
                     return var3;
-case 58:
+case 57:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0005_ip = 59; continue _fun0005 }
-case 60:
-                    if(!var6) { _fun0005_ip = 61; continue _fun0005 }
-case 62:
+                    if(var7) { _fun0004_ip = 58; continue _fun0004 }
+case 59:
+                    if(!var6) { _fun0004_ip = 60; continue _fun0004 }
+case 61:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var5 = 12;
+                    var5 = 10;
                     var5 = var7[var5];
                     var7 = var6.bind(var4)(var5);
                     var6 = var7.trackBackgroundOptionUpdated;
                     var5 = 'Preview';
                     var5 = var6.bind(var7)(var9, var8, var5);
-case 61:
+case 60:
                     return var4;
-case 59:
+case 58:
                     return var3;
-case 56:
-                    return var2;
 case 55:
+                    return var2;
+case 54:
                     return var1;
                 }
             };
@@ -661,7 +636,7 @@ case 55:
     var5 = var6.bind(var1)(var5);
     var5 = var5.NOOP;
     var _closure1_slot8 = var5;
-    var5 = 15;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -680,39 +655,39 @@ case 55:
     };
     var3['applyBackgroundOptionPreview'] = var4;
     var2 = function applyInitialVideoBackgroundOption() {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = _closure1_slot4;
             var2 = var3.getCurrentUser;
             var6 = var2.bind(var3)();
             var3 = null;
-            if(!(var3 != var6)) { _fun0006_ip = 63; continue _fun0006 }
-case 64:
+            if(!(var3 != var6)) { _fun0005_ip = 62; continue _fun0005 }
+case 63:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 13;
+            var2 = 11;
             var2 = var7[var2];
             var5 = undefined;
             var4 = var4.bind(var5)(var2);
             var2 = var4.getLastUsedVideoBackgroundOption;
             var4 = var2.bind(var4)(var6);
             var6 = _closure1_slot1;
-            var2 = 14;
+            var2 = 12;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.bind(var5)();
-            if(!var2) { _fun0006_ip = 65; continue _fun0006 }
-case 66:
+            if(!var2) { _fun0005_ip = 64; continue _fun0005 }
+case 65:
             var6 = _closure1_slot5;
             var6 = var6.hasBeenApplied;
             var2 = !var6;
-case 65:
-            if(!var2) { _fun0006_ip = 67; continue _fun0006 }
-case 68:
-            var2 = var3 != var4;
+case 64:
+            if(!var2) { _fun0005_ip = 66; continue _fun0005 }
 case 67:
-            if(!var2) { _fun0006_ip = 63; continue _fun0006 }
-case 69:
+            var2 = var3 != var4;
+case 66:
+            if(!var2) { _fun0005_ip = 62; continue _fun0005 }
+case 68:
             var3 = _closure1_slot13;
             var2 = {};
             var6 = false;
@@ -721,7 +696,7 @@ case 69:
             var2 = var3.catch;
             var1 = _closure1_slot8;
             var1 = var2.bind(var3)(var1);
-case 63:
+case 62:
             var1 = undefined;
             return var1;
         }

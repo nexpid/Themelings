@@ -194,7 +194,7 @@ case 4:
             var9 = var17[var9];
             var9 = var13.bind(var4)(var9);
             var10 = var9.Heading;
-            var9 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary', 'maxFontSizeMultiplier': 2};
+            var9 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'maxFontSizeMultiplier': 2};
             var18 = 11;
             var19 = var17[var18];
             var19 = var13.bind(var4)(var19);

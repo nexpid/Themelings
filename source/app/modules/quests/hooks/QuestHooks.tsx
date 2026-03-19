@@ -2391,7 +2391,7 @@ case 169:
         }
     };
     var _closure1_slot35 = var22;
-    var22 = 52;
+    var22 = 55;
     var22 = var24[var22];
     var24 = var23.bind(var1)(var22);
     var23 = var24.fileFinishedImporting;
@@ -4973,7 +4973,7 @@ case 152:
         }
     };
     var3['useShouldShowQuestBarOverride'] = var4;
-    var2 = function useFetchQuestHomeHeroConfig() {
+    var4 = function useFetchQuestHomeHeroConfig() {
         _fun0058: for(var _fun0058_ip = 0; ; ) switch(_fun0058_ip) {
 case 0:
             var10 = _closure1_slot0;
@@ -5368,6 +5368,59 @@ case 285:
             return var1;
         }
     };
-    var3['useFetchQuestHomeHeroConfig'] = var2;
+    var3['useFetchQuestHomeHeroConfig'] = var4;
+    var2 = function useQuestBarImpressionSurvey(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var6 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 52;
+        var4 = var4[var3];
+        var3 = undefined;
+        var3 = var6.bind(var3)(var4);
+        var4 = var3.DropsOptedOut;
+        var3 = var4.useSetting;
+        var6 = var3.bind(var4)();
+        var _closure2_slot1 = var6;
+        var4 = _closure1_slot5;
+        var3 = var4.useCallback;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0063: for(var _fun0063_ip = 0; ; ) switch(_fun0063_ip) {
+case 0:
+                var4 = _closure2_slot1;
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 53;
+                var3 = var3[var1];
+                var1 = undefined;
+                var3 = var5.bind(var1)(var3);
+                var3 = var3.SurveyActionTypes;
+                if(var4) { _fun0063_ip = 5; continue _fun0063 }
+case 154:
+                var5 = var3.AD_IMPRESSION_QUEST_BAR_OPT_IN;
+                _fun0063_ip = 4; continue _fun0063;
+case 5:
+                var5 = var3.AD_IMPRESSION_QUEST_BAR_OPT_OUT;
+case 4:
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 54;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.fireSurveyAction;
+                var2 = {};
+                var6 = _closure2_slot0;
+                var2['quest_id'] = var6;
+                var2 = var3.bind(var4)(var5, var2);
+                return var1;
+            }
+        };
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['useQuestBarImpressionSurvey'] = var2;
     return var1;
 })();

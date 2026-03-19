@@ -80,7 +80,7 @@ case 22:
                 var7 = undefined;
                 if(!var9) { _fun0002_ip = 23; continue _fun0002 }
 case 21:
-                var9 = _closure1_slot14;
+                var9 = _closure1_slot16;
                 var7 = var9.bind(var8)(var3, var8);
 case 23:
                 _fun0002_ip = 24; continue _fun0002;
@@ -92,7 +92,7 @@ case 24:
                 var6 = var7;
                 _fun0002_ip = 10; continue _fun0002;
 case 12:
-                var7 = _closure1_slot14;
+                var7 = _closure1_slot16;
                 var6 = var7.bind(var8)(var3, var8);
 case 10:
                 var4 = var6;
@@ -151,7 +151,7 @@ case 6:
                 return var1;
             }
         };
-        var _closure1_slot13 = var1;
+        var _closure1_slot15 = var1;
         var1 = function _arrayLikeToArray(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -184,7 +184,7 @@ case 35:
                 return var1;
             }
         };
-        var _closure1_slot14 = var1;
+        var _closure1_slot16 = var1;
         var1 = function _isNativeReflectConstruct() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -217,16 +217,16 @@ case 37:
                     var1 = !var1;
                     return var1;
                 };
-                _closure1_slot15 = var2;
+                _closure1_slot17 = var2;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
                 return var1;
             }
         };
-        var _closure1_slot15 = var1;
+        var _closure1_slot17 = var1;
         var1 = function combineStatuses() {
             var1 = undefined;
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot19;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -234,7 +234,7 @@ case 37:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot16 = var1;
+        var _closure1_slot18 = var1;
         var1 = function _combineStatuses() {
             var5 = undefined;
             var1 = undefined;
@@ -247,7 +247,7 @@ case 0:
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0006_ip = 39; continue _fun0006 }
 case 40:
-                        var4 = _closure1_slot13;
+                        var4 = _closure1_slot15;
                         var7 = undefined;
                         var3 = arg1;
                         var6 = var4.bind(var7)(var3);
@@ -290,7 +290,7 @@ case 39:
                 return var1;
             };
             var4 = var4.bind(var5)(var3);
-            _closure1_slot17 = var4;
+            _closure1_slot19 = var4;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -298,7 +298,7 @@ case 39:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot17 = var1;
+        var _closure1_slot19 = var1;
         var1 = global;
         var9 = var1.Object;
         var8 = var9.defineProperty;
@@ -307,8 +307,8 @@ case 39:
         var2['value'] = var1;
         var1 = '__esModule';
         var1 = var8.bind(var9)(var3, var1, var2);
-        var1 = 0;
-        var2 = var6[var1];
+        var12 = 0;
+        var2 = var6[var12];
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
         var _closure1_slot3 = var2;
@@ -342,31 +342,104 @@ case 39:
         var2 = var5.bind(var1)(var2);
         var9 = var2.NativeModules;
         var _closure1_slot10 = var9;
-        var2 = var2.Platform;
-        var4 = 8;
-        var4 = var6[var4];
-        var4 = var5.bind(var1)(var4);
-        var8 = var4.NativePermissionTypes;
-        var4 = var4.NativePermissionStatus;
-        var _closure1_slot11 = var4;
-        var4 = 9;
-        var4 = var6[var4];
-        var4 = var5.bind(var1)(var4);
-        var4 = var4.jsx;
-        var _closure1_slot12 = var4;
+        var4 = var2.Platform;
+        var2 = 8;
+        var2 = var6[var2];
+        var2 = var5.bind(var1)(var2);
+        var8 = var2.NativePermissionTypes;
+        var2 = var2.NativePermissionStatus;
+        var _closure1_slot11 = var2;
+        var2 = 9;
+        var2 = var6[var2];
+        var2 = var5.bind(var1)(var2);
+        var2 = var2.jsx;
+        var _closure1_slot12 = var2;
         var11 = 10;
-        var4 = var6[var11];
-        var10 = var5.bind(var1)(var4);
-        var4 = var10.isAndroid;
-        var10 = var4.bind(var10)();
-        if(!var10) { _fun0001_ip = 49; continue _fun0001 }
+        var2 = var6[var11];
+        var10 = var5.bind(var1)(var2);
+        var2 = var10.isAndroid;
+        var2 = var2.bind(var10)();
+        if(!var2) { _fun0001_ip = 49; continue _fun0001 }
 case 50:
-        var2 = var2.constants;
-        var4 = var2.Version;
-        var2 = 28;
-        var10 = var4 <= var2;
+        var4 = var4.constants;
+        var10 = var4.Version;
+        var4 = 28;
+        var2 = var10 <= var4;
 case 49:
-        var2 = 17;
+        var4 = 11;
+        var4 = var6[var4];
+        var10 = var5.bind(var1)(var4);
+        var4 = var10.isMetaQuest;
+        var4 = var4.bind(var10)();
+        if(var2) { _fun0001_ip = 51; continue _fun0001 }
+case 52:
+        var13 = new Array(0);
+        _fun0001_ip = 53; continue _fun0001;
+case 51:
+        var10 = var9.NativePermissionManager;
+        var14 = var10.requestExternalStorageAuthorization;
+        var10 = new Array(1);
+        var10[0] = var14;
+        var13 = var10;
+case 53:
+        var10 = new Array(0);
+        var19 = var10;
+        var18 = var13;
+        var17 = 0;
+        var14 = arraySpread(var19, var18, var17);
+        var15 = var9.NativePermissionManager;
+        if(var4) { _fun0001_ip = 54; continue _fun0001 }
+case 55:
+        var16 = var15.requestCameraAuthorization;
+        var13 = new Array(1);
+        var13[0] = var16;
+        _fun0001_ip = 56; continue _fun0001;
+case 54:
+        var16 = var15.requestAvatarCameraAuthorization;
+        var15 = new Array(1);
+        var15[0] = var16;
+        var13 = var15;
+case 56:
+        var19 = var10;
+        var18 = var13;
+        var17 = var14;
+        var13 = arraySpread(var19, var18, var17);
+        var _closure1_slot13 = var10;
+        if(var2) { _fun0001_ip = 57; continue _fun0001 }
+case 58:
+        var10 = new Array(0);
+        _fun0001_ip = 59; continue _fun0001;
+case 57:
+        var2 = var9.NativePermissionManager;
+        var13 = var2.hasExternalStorageAuthorization;
+        var2 = new Array(1);
+        var2[0] = var13;
+        var10 = var2;
+case 59:
+        var2 = new Array(0);
+        var19 = var2;
+        var18 = var10;
+        var17 = 0;
+        var10 = arraySpread(var19, var18, var17);
+        var12 = var9.NativePermissionManager;
+        if(var4) { _fun0001_ip = 60; continue _fun0001 }
+case 61:
+        var13 = var12.hasCameraAuthorization;
+        var4 = new Array(1);
+        var4[0] = var13;
+        _fun0001_ip = 62; continue _fun0001;
+case 60:
+        var13 = var12.hasAvatarCameraAuthorization;
+        var12 = new Array(1);
+        var12[0] = var13;
+        var4 = var12;
+case 62:
+        var19 = var2;
+        var18 = var4;
+        var17 = var10;
+        var4 = arraySpread(var19, var18, var17);
+        var _closure1_slot14 = var2;
+        var2 = 18;
         var2 = var6[var2];
         var2 = var5.bind(var1)(var2);
         var4 = var2.NativePermissionBaseUtils;
@@ -383,16 +456,16 @@ case 0:
                     var1 = _closure1_slot6;
                     var9 = var1.bind(var3)(var2);
                     var2 = _closure1_slot5;
-                    var1 = _closure1_slot15;
+                    var1 = _closure1_slot17;
                     var1 = var1.bind(var3)();
-                    if(var1) { _fun0007_ip = 51; continue _fun0007 }
-case 52:
+                    if(var1) { _fun0007_ip = 63; continue _fun0007 }
+case 64:
                     var7 = var9.apply;
                     var5 = arguments;
                     var1 = var5;
                     var1 = var7.bind(var9)(var4, var1);
-                    _fun0007_ip = 53; continue _fun0007;
-case 51:
+                    _fun0007_ip = 65; continue _fun0007;
+case 63:
                     var7 = global;
                     var8 = var7.Reflect;
                     var7 = var8.construct;
@@ -401,7 +474,7 @@ case 51:
                     var6 = var6.constructor;
                     var5 = arguments;
                     var1 = var7.bind(var8)(var9, var5, var6);
-case 53:
+case 65:
                     var1 = var2.bind(var3)(var4, var1);
                     return var1;
                 }
@@ -455,15 +528,15 @@ case 0:
                     var3 = var1[var7];
                     var1 = null;
                     if(!(var1 != var3)) { _fun0008_ip = 42; continue _fun0008 }
-case 54:
+case 66:
                     var2 = var4.requestAuthorization;
                     var1 = arg3;
                     var1 = var2.bind(var4)(var7, var3, var1);
-                    _fun0008_ip = 55; continue _fun0008;
+                    _fun0008_ip = 67; continue _fun0008;
 case 42:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 11;
+                    var2 = 12;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -484,7 +557,7 @@ case 42:
                     var3 = var4.resolve;
                     var2 = false;
                     var1 = var3.bind(var4)(var2);
-case 55:
+case 67:
                     return var1;
                 }
             };
@@ -509,7 +582,7 @@ case 55:
             var7 = function value() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -530,11 +603,11 @@ case 55:
                 var1 = function() {
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 15;
                     var2 = var1[var2];
                     var4 = undefined;
                     var3 = var3.bind(var4)(var2);
-                    var2 = 13;
+                    var2 = 14;
                     var2 = var1[var2];
                     var1 = var1.paths;
                     var1 = var3.bind(var4)(var2, var1);
@@ -543,14 +616,14 @@ case 55:
                 var6 = var3.bind(var4)(var1);
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot2;
-                var1 = 15;
+                var1 = 16;
                 var3 = var13[var1];
                 var1 = undefined;
                 var5 = var12.bind(var1)(var3);
                 var4 = var5.openAlert;
                 var3 = _closure1_slot12;
                 var2 = {};
-                var9 = 16;
+                var9 = 17;
                 var10 = var13[var9];
                 var10 = var12.bind(var1)(var10);
                 var11 = var10.intl;
@@ -575,42 +648,32 @@ case 55:
         };
         var2 = var2.bind(var1)(var4);
         var4 = {};
-        var13 = var8.CAMERA;
-        if(var10) { _fun0001_ip = 56; continue _fun0001 }
-case 57:
-        var12 = var9.NativePermissionManager;
-        var12 = var12.requestCameraAuthorization;
-        _fun0001_ip = 58; continue _fun0001;
-case 56:
-        var12 = function() {
-            var3 = _closure1_slot16;
-            var1 = _closure1_slot10;
-            var2 = var1.NativePermissionManager;
-            var4 = var2.requestExternalStorageAuthorization;
-            var2 = new Array(2);
-            var2[0] = var4;
-            var1 = var1.NativePermissionManager;
-            var1 = var1.requestCameraAuthorization;
-            var2[1] = var1;
+        var12 = var8.CAMERA;
+        var10 = function() {
+            var3 = _closure1_slot18;
+            var2 = _closure1_slot13;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             return var1;
         };
-case 58:
-        var4[var13] = var12;
-        var13 = var8.AUDIO;
-        var12 = var6[var11];
-        var14 = var5.bind(var1)(var12);
-        var12 = var14.isAndroid;
-        var12 = var12.bind(var14)();
-        if(var12) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
-        var12 = var9.NativePermissionManager;
-        var12 = var12.requestMicrophoneAuthorization;
-        _fun0001_ip = 61; continue _fun0001;
-case 59:
-        var12 = function() {
-            var3 = _closure1_slot16;
+        var4[var12] = var10;
+        var12 = var8.HEADSET_CAMERA;
+        var10 = var9.NativePermissionManager;
+        var10 = var10.requestHeadsetCameraAuthorization;
+        var4[var12] = var10;
+        var12 = var8.AUDIO;
+        var10 = var6[var11];
+        var13 = var5.bind(var1)(var10);
+        var10 = var13.isAndroid;
+        var10 = var10.bind(var13)();
+        if(var10) { _fun0001_ip = 68; continue _fun0001 }
+case 69:
+        var10 = var9.NativePermissionManager;
+        var10 = var10.requestMicrophoneAuthorization;
+        _fun0001_ip = 70; continue _fun0001;
+case 68:
+        var10 = function() {
+            var3 = _closure1_slot18;
             var1 = _closure1_slot10;
             var2 = var1.NativePermissionManager;
             var4 = var2.requestMicrophoneAuthorization;
@@ -623,18 +686,18 @@ case 59:
             var1 = var3.bind(var1)(var2);
             return var1;
         };
-case 61:
-        var4[var13] = var12;
-        var13 = var8.PHOTOS;
-        var12 = var9.NativePermissionManager;
-        var12 = var12.requestPhotoAuthorization;
-        var4[var13] = var12;
-        var13 = var8.CONTACTS;
-        var12 = var9.NativePermissionManager;
-        var12 = var12.requestContactsAuthorization;
-        var4[var13] = var12;
-        var13 = var8.INPUT_MONITORING;
-        var12 = function() {
+case 70:
+        var4[var12] = var10;
+        var12 = var8.PHOTOS;
+        var10 = var9.NativePermissionManager;
+        var10 = var10.requestPhotoAuthorization;
+        var4[var12] = var10;
+        var12 = var8.CONTACTS;
+        var10 = var9.NativePermissionManager;
+        var10 = var10.requestContactsAuthorization;
+        var4[var12] = var10;
+        var12 = var8.INPUT_MONITORING;
+        var10 = function() {
             var1 = global;
             var3 = var1.Promise;
             var2 = var3.resolve;
@@ -643,45 +706,35 @@ case 61:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var4[var13] = var12;
+        var4[var12] = var10;
         var2['requestPermissionLookup'] = var4;
         var4 = {};
         var12 = var8.CAMERA;
-        if(var10) { _fun0001_ip = 62; continue _fun0001 }
-case 63:
-        var10 = var9.NativePermissionManager;
-        var10 = var10.hasCameraAuthorization;
-        _fun0001_ip = 64; continue _fun0001;
-case 62:
         var10 = function() {
-            var3 = _closure1_slot16;
-            var1 = _closure1_slot10;
-            var2 = var1.NativePermissionManager;
-            var4 = var2.hasExternalStorageAuthorization;
-            var2 = new Array(2);
-            var2[0] = var4;
-            var1 = var1.NativePermissionManager;
-            var1 = var1.hasCameraAuthorization;
-            var2[1] = var1;
+            var3 = _closure1_slot18;
+            var2 = _closure1_slot14;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             return var1;
         };
-case 64:
+        var4[var12] = var10;
+        var12 = var8.HEADSET_CAMERA;
+        var10 = var9.NativePermissionManager;
+        var10 = var10.hasHeadsetCameraAuthorization;
         var4[var12] = var10;
         var10 = var8.AUDIO;
         var11 = var6[var11];
         var12 = var5.bind(var1)(var11);
         var11 = var12.isAndroid;
         var11 = var11.bind(var12)();
-        if(var11) { _fun0001_ip = 65; continue _fun0001 }
-case 66:
+        if(var11) { _fun0001_ip = 71; continue _fun0001 }
+case 72:
         var9 = var9.NativePermissionManager;
         var9 = var9.hasMicrophoneAuthorization;
-        _fun0001_ip = 67; continue _fun0001;
-case 65:
+        _fun0001_ip = 73; continue _fun0001;
+case 71:
         var9 = function() {
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot18;
             var1 = _closure1_slot10;
             var2 = var1.NativePermissionManager;
             var4 = var2.hasMicrophoneAuthorization;
@@ -694,7 +747,7 @@ case 65:
             var1 = var3.bind(var1)(var2);
             return var1;
         };
-case 67:
+case 73:
         var4[var10] = var9;
         var8 = var8.INPUT_MONITORING;
         var7 = function() {
@@ -710,10 +763,10 @@ case 67:
         var2['hasPermissionLookup'] = var4;
         var4 = var2.prototype;
         var4 = Object.create(var4, {constructor: {value: var2}});
-        var18 = var4;
-        var2 = new var18[var2](var17);
+        var20 = var4;
+        var2 = new var20[var2](var19);
         var2 = var2 instanceof Object ? var2 : var4;
-        var4 = 18;
+        var4 = 19;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

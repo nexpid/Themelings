@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOW;
+    var13 = var13.PANEL_BG;
     var9['backgroundColor'] = var13;
     var4['container'] = var9;
     var9 = {'height': 56, 'flexDirection': 'row', 'alignItems': 'center'};
@@ -102,6 +102,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginBottom'] = var12;
     var4['subheaderWrapper'] = var9;
     var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_SURFACE_RAISED;
+    var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;

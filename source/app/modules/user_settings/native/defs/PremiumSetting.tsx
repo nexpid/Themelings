@@ -96,30 +96,23 @@ case 4:
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var2 = _closure1_slot1;
-                var4 = _closure1_slot2;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
                 var1 = 7;
-                var1 = var4[var1];
-                var4 = undefined;
-                var7 = var2.bind(var4)(var1);
-                var6 = var7.getCurrentConfig;
-                var5 = {};
-                var1 = 'ddafe5_1';
-                var5['location'] = var1;
-                var1 = {};
-                var2 = false;
-                var1['autoTrackExposure'] = var2;
-                var1 = var6.bind(var7)(var5, var1);
-                var1 = var1.paymentsBlocked;
+                var1 = var3[var1];
+                var3 = undefined;
+                var4 = var4.bind(var3)(var1);
+                var1 = var4.getIsPaymentsBlocked;
+                var1 = var1.bind(var4)();
                 var1 = !var1;
                 if(var1) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                var5 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                var3 = 8;
-                var3 = var6[var3];
-                var3 = var5.bind(var4)(var3);
-                var3 = var3.bind(var4)();
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var2 = 8;
+                var2 = var5[var2];
+                var2 = var4.bind(var3)(var2);
+                var2 = var2.bind(var3)();
                 var1 = false;
 case 5:
                 return var1;

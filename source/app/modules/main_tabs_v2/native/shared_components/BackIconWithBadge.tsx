@@ -283,7 +283,7 @@ case 17:
     var4['downIconWithBadge'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -371,7 +371,7 @@ case 3:
         }
     };
     var3['LeftBackIconWithBadge'] = var4;
-    var2 = function DownArrowIconWithBadgeOnSide() {
+    var2 = function CloseIconWithBadgeOnSide() {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = _closure1_slot10;
@@ -420,10 +420,10 @@ case 25:
             var1['style'] = var5;
             var11 = _closure1_slot8;
             var9 = _closure1_slot0;
-            var5 = 14;
+            var5 = 13;
             var5 = var12[var5];
             var5 = var9.bind(var4)(var5);
-            var9 = var5.ChevronLargeDownIcon;
+            var9 = var5.XSmallIcon;
             var5 = {'size': 'sm', 'color': 'white'};
             var9 = var11.bind(var4)(var9, var5);
             var5 = new Array(2);
@@ -447,6 +447,6 @@ case 27:
             return var1;
         }
     };
-    var3['DownArrowIconWithBadgeOnSide'] = var2;
+    var3['CloseIconWithBadgeOnSide'] = var2;
     return var1;
 })();

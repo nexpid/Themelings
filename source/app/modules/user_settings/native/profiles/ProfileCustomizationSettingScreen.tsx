@@ -445,28 +445,19 @@ case 13:
             var3 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var4 = _closure2_slot1;
-                    var3 = var4.setOptions;
-                    var2 = {};
-                    var1 = false;
-                    var2['headerShadowVisible'] = var1;
-                    var8 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var1 = 26;
-                    var7 = var7[var1];
-                    var1 = undefined;
-                    var8 = var8.bind(var1)(var7);
-                    var7 = var8.getRenderModalCloseImage;
-                    var7 = var7.bind(var8)(var4);
-                    var2['headerLeft'] = var7;
-                    var5 = _closure2_slot8;
-                    if(var5) { _fun0004_ip = 15; continue _fun0004 }
+                    var3 = _closure2_slot1;
+                    var2 = var3.setOptions;
+                    var1 = {};
+                    var5 = false;
+                    var1['headerShadowVisible'] = var5;
+                    var4 = _closure2_slot8;
+                    if(var4) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
-                    var5 = function(arg1) {
+                    var4 = function(arg1) {
                         var4 = _closure1_slot16;
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
-                        var1 = 26;
+                        var1 = 27;
                         var1 = var10[var1];
                         var3 = undefined;
                         var1 = var9.bind(var3)(var1);
@@ -553,14 +544,16 @@ case 17:
                     _fun0004_ip = 25; continue _fun0004;
 case 15:
                     var7 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var6 = 27;
-                    var6 = var8[var6];
-                    var6 = var7.bind(var1)(var6);
-                    var5 = var6.HeaderSubmittingIndicator;
+                    var6 = _closure1_slot2;
+                    var5 = 26;
+                    var6 = var6[var5];
+                    var5 = undefined;
+                    var5 = var7.bind(var5)(var6);
+                    var4 = var5.HeaderSubmittingIndicator;
 case 25:
-                    var2['headerRight'] = var5;
-                    var2 = var3.bind(var4)(var2);
+                    var1['headerRight'] = var4;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
                     return var1;
                 }
             };
