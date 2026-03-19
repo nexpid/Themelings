@@ -413,6 +413,12 @@
     "midnight": "#248045",
     "darker": "#248045"
   },
+  "CONTROL_CONNECTED_BORDER_ACTIVE": {
+    "dark": "#1f703c",
+    "light": "#1f703c",
+    "midnight": "#1f703c",
+    "darker": "#1f703c"
+  },
   "CONTROL_CONNECTED_BORDER_DEFAULT": {
     "dark": "#23a55a",
     "light": "#24934e",
@@ -437,6 +443,12 @@
     "midnight": "#da373c",
     "darker": "#da373c"
   },
+  "CONTROL_CRITICAL_PRIMARY_BORDER_ACTIVE": {
+    "dark": "#bb3033",
+    "light": "#bb3033",
+    "midnight": "#bb3033",
+    "darker": "#bb3033"
+  },
   "CONTROL_CRITICAL_PRIMARY_BORDER_DEFAULT": {
     "dark": "#da373c",
     "light": "#da373c",
@@ -460,6 +472,18 @@
     "light": "#80848e29",
     "midnight": "#6c6f7c1f",
     "darker": "#6c6f7c29"
+  },
+  "CONTROL_CRITICAL_SECONDARY_BORDER_ACTIVE": {
+    "dark": "#ffffff08",
+    "light": "#0000000a",
+    "midnight": "#6c6f7c14",
+    "darker": "#6c6f7c0f"
+  },
+  "CONTROL_CRITICAL_SECONDARY_BORDER_DEFAULT": {
+    "dark": "#ffffff08",
+    "light": "#0000000a",
+    "midnight": "#6c6f7c14",
+    "darker": "#6c6f7c0f"
   },
   "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": {
     "dark": "#fa777b",
@@ -545,11 +569,17 @@
     "midnight": "#5865f2",
     "darker": "#5865f2"
   },
+  "CONTROL_PRIMARY_BORDER_ACTIVE": {
+    "dark": "#4752c4",
+    "light": "#4752c4",
+    "midnight": "#4752c4",
+    "darker": "#4752c4"
+  },
   "CONTROL_PRIMARY_BORDER_DEFAULT": {
-    "dark": "#949cf7",
+    "dark": "#5865f2",
     "light": "#5865f2",
-    "midnight": "#7984f5",
-    "darker": "#949cf7"
+    "midnight": "#5865f2",
+    "darker": "#5865f2"
   },
   "CONTROL_PRIMARY_TEXT_DEFAULT": {
     "dark": "#ffffff",
