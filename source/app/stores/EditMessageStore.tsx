@@ -391,7 +391,7 @@ case 18:
         }
     };
     var2['MESSAGE_END_EDIT'] = var9;
-    var4 = function handleMessageDelete(arg1) {
+    var9 = function handleMessageDelete(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
@@ -417,7 +417,16 @@ case 22:
             return var1;
         }
     };
-    var2['MESSAGE_DELETE'] = var4;
+    var2['MESSAGE_DELETE'] = var9;
+    var4 = function handleLogout() {
+        var1 = {};
+        _closure1_slot9 = var1;
+        var1 = {};
+        _closure1_slot10 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['LOGOUT'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var13 = var4;

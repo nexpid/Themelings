@@ -1192,7 +1192,7 @@ case 19:
                     var1 = var2.bind(var3)(var1);
                     var2 = var1.ShopCategory;
                     var1 = {};
-                    var1['item'] = var6;
+                    var1['category'] = var6;
                     var6 = _closure2_slot12;
                     var1['isDarkTheme'] = var6;
                     var1['index'] = var5;

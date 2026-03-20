@@ -26,9 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
-    var2 = {};
-    var11 = '';
-    var2['title'] = var11;
+    var2 = {'title': '', 'parent': null, 'unsearchable': true};
     var8 = var8.AUTHORIZED_APPS;
     var2['parent'] = var8;
     var8 = {};

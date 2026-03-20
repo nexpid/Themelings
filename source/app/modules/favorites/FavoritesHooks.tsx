@@ -1,12 +1,12 @@
 // app/modules/favorites/FavoritesHooks.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var8 = metroImportDefault;
+    var8 = require;
+    var10 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var7;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var9;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -183,78 +183,7 @@ case 35:
         }
     };
     var _closure1_slot12 = var1;
-    var4 = function useFavorites() {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot2;
-        var2 = 9;
-        var3 = var3[var2];
-        var2 = undefined;
-        var4 = var4.bind(var2)(var3);
-        var3 = var4.useStateFromStoresObject;
-        var1 = _closure1_slot7;
-        var2 = new Array(1);
-        var2[0] = var1;
-        var1 = function() {
-            var2 = _closure1_slot7;
-            var1 = var2.getFavoriteChannels;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot13 = var4;
-    var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
-    var1 = true;
-    var5['value'] = var1;
-    var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
-    var1 = 0;
-    var5 = var7[var1];
-    var1 = undefined;
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot6 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot7 = var5;
-    var5 = 5;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.useFavoritesNotificationStore;
-    var _closure1_slot8 = var5;
-    var5 = 6;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.FAVORITES;
-    var _closure1_slot9 = var5;
-    var5 = 7;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.PremiumTypes;
-    var _closure1_slot10 = var5;
-    var5 = 14;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/favorites/FavoritesHooks.tsx';
-    var5 = var6.bind(var7)(var5);
-    var5 = function useFavoritesAccess(arg1) {
+    var6 = function useFavoritesAccess(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var5 = _closure1_slot0;
@@ -304,9 +233,107 @@ case 36:
             return var1;
         }
     };
-    var3['useFavoritesAccess'] = var5;
-    var3['useFavorites'] = var4;
-    var4 = function useFavorite(arg1) {
+    var _closure1_slot13 = var6;
+    var5 = function useFavorites() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var2 = 9;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStoresObject;
+        var1 = _closure1_slot7;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            var2 = _closure1_slot7;
+            var1 = var2.getFavoriteChannels;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot14 = var5;
+    var4 = function useIsFavoritesGuildSelected() {
+        var4 = _closure1_slot0;
+        var5 = _closure1_slot2;
+        var2 = 9;
+        var3 = var5[var2];
+        var2 = undefined;
+        var7 = var4.bind(var2)(var3);
+        var6 = var7.useStateFromStores;
+        var1 = _closure1_slot5;
+        var3 = new Array(1);
+        var3[0] = var1;
+        var1 = function() {
+            var2 = _closure1_slot5;
+            var1 = var2.getGuildId;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var3 = var6.bind(var7)(var3, var1);
+        var1 = 13;
+        var1 = var5[var1];
+        var2 = var4.bind(var2)(var1);
+        var1 = var2.isFavoritesGuildId;
+        var1 = var1.bind(var2)(var3);
+        return var1;
+    };
+    var _closure1_slot15 = var4;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var7);
+    var1 = 0;
+    var7 = var9[var1];
+    var1 = undefined;
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot6 = var7;
+    var7 = 4;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot7 = var7;
+    var7 = 5;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.useFavoritesNotificationStore;
+    var _closure1_slot8 = var7;
+    var7 = 6;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.FAVORITES;
+    var _closure1_slot9 = var7;
+    var7 = 7;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.PremiumTypes;
+    var _closure1_slot10 = var7;
+    var7 = 14;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/favorites/FavoritesHooks.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['useFavoritesAccess'] = var6;
+    var3['useFavorites'] = var5;
+    var5 = function useFavorite(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -329,8 +356,8 @@ case 36:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['useFavorite'] = var4;
-    var4 = function useFavoritedChannels() {
+    var3['useFavorite'] = var5;
+    var5 = function useFavoritedChannels() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
         var2 = 9;
@@ -385,9 +412,9 @@ case 38:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['useFavoritedChannels'] = var4;
-    var4 = function useFavoritedChannelIds() {
-        var2 = _closure1_slot13;
+    var3['useFavoritedChannels'] = var5;
+    var5 = function useFavoritedChannelIds() {
+        var2 = _closure1_slot14;
         var4 = undefined;
         var3 = var2.bind(var4)();
         var2 = _closure1_slot1;
@@ -399,8 +426,8 @@ case 38:
         var1 = var1.bind(var2)(var3);
         return var1;
     };
-    var3['useFavoritedChannelIds'] = var4;
-    var4 = function useFavoritesCategories() {
+    var3['useFavoritedChannelIds'] = var5;
+    var5 = function useFavoritesCategories() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var3 = 9;
@@ -450,33 +477,84 @@ case 42:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['useFavoritesCategories'] = var4;
-    var4 = function useIsFavoritesGuildSelected() {
-        var4 = _closure1_slot0;
-        var5 = _closure1_slot2;
-        var2 = 9;
-        var3 = var5[var2];
-        var2 = undefined;
-        var7 = var4.bind(var2)(var3);
-        var6 = var7.useStateFromStores;
-        var1 = _closure1_slot5;
-        var3 = new Array(1);
-        var3[0] = var1;
-        var1 = function() {
-            var2 = _closure1_slot5;
-            var1 = var2.getGuildId;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var3 = var6.bind(var7)(var3, var1);
-        var1 = 13;
-        var1 = var5[var1];
-        var2 = var4.bind(var2)(var1);
-        var1 = var2.isFavoritesGuildId;
-        var1 = var1.bind(var2)(var3);
-        return var1;
-    };
+    var3['useFavoritesCategories'] = var5;
     var3['useIsFavoritesGuildSelected'] = var4;
+    var4 = function useFavoritesAwareChannel(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var1 = _closure1_slot15;
+            var8 = undefined;
+            var1 = var1.bind(var8)();
+            var6 = _closure1_slot13;
+            var5 = arg2;
+            var5 = var6.bind(var8)(var5);
+            var5 = var5.hasAccess;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 9;
+            var6 = var9[var6];
+            var8 = var7.bind(var8)(var6);
+            var7 = var8.useStateFromStores;
+            var4 = _closure1_slot7;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = new Array(1);
+            var4[0] = var2;
+            var3 = function() {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                    var2 = _closure2_slot0;
+                    var1 = null;
+                    var1 = var1 != var2;
+                    if(!var1) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
+                    var6 = _closure1_slot7;
+                    var3 = var6.isFavorite;
+                    var2 = _closure2_slot0;
+                    var2 = var2.id;
+                    var2 = var3.bind(var6)(var2);
+                    if(var2) { _fun0008_ip = 46; continue _fun0008 }
+case 2:
+                    var6 = _closure2_slot0;
+                    var3 = var6.isThread;
+                    var3 = var3.bind(var6)();
+                    if(!var3) { _fun0008_ip = 47; continue _fun0008 }
+case 48:
+                    var6 = _closure1_slot7;
+                    var5 = var6.isFavorite;
+                    var4 = _closure2_slot0;
+                    var4 = var4.parent_id;
+                    var3 = var5.bind(var6)(var4);
+case 47:
+                    var2 = var3;
+case 46:
+                    var1 = var2;
+case 44:
+                    return var1;
+                }
+            };
+            var3 = var7.bind(var8)(var6, var3, var4);
+            if(!var1) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
+            var1 = null;
+            if(!var5) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
+            var1 = null;
+            if(!var3) { _fun0007_ip = 51; continue _fun0007 }
+case 49:
+            var4 = null;
+            var3 = var4 != var2;
+            var1 = null;
+            if(!var3) { _fun0007_ip = 51; continue _fun0007 }
+case 53:
+            var1 = var2;
+case 51:
+            return var1;
+        }
+    };
+    var3['useFavoritesAwareChannel'] = var4;
     var2 = function useFavoriteAdded() {
         var1 = {};
         var4 = _closure1_slot8;

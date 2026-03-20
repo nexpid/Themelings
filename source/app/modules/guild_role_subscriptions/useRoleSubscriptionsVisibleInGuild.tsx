@@ -208,7 +208,7 @@ case 0:
             var2 = 7;
             var2 = var6[var2];
             var4 = var3.bind(var4)(var2);
-            var3 = var4.useIsEligibleForSubscriptionsInGuildShop;
+            var3 = var4.useGuildEligibleForGuildProducts;
             var2 = 'useShowRoleSubscriptionsInChannelList';
             var2 = var3.bind(var4)(var5, var2);
             if(!var1) { _fun0004_ip = 23; continue _fun0004 }

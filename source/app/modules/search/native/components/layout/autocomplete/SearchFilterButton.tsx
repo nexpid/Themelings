@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var10[var2];
         var4 = undefined;
         var3 = var9.bind(var4)(var2);
-        var2 = var3.useSupportedFilterTokens;
+        var2 = var3.useValidOrderedFilterTokens;
         var2 = var2.bind(var3)(var8);
         var _closure2_slot1 = var2;
         var7 = _closure1_slot2;

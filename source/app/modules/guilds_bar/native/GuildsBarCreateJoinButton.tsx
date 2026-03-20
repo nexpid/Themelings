@@ -389,8 +389,10 @@ case 0:
             var7[0] = var2;
             var2 = function() {
                 var2 = _closure1_slot8;
-                var1 = var2.isConnected;
-                var1 = var1.bind(var2)();
+                var1 = var2.getSessionId;
+                var2 = var1.bind(var2)();
+                var1 = null;
+                var1 = var1 != var2;
                 return var1;
             };
             var2 = var13.bind(var14)(var7, var2);

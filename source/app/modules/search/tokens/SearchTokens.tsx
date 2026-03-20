@@ -1,12 +1,12 @@
 // app/modules/search/tokens/SearchTokens.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var11 = require;
-    var10 = metroImportDefault;
+    var10 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var12 = dependencyMap;
-    var _closure1_slot0 = var11;
-    var _closure1_slot1 = var10;
-    var _closure1_slot2 = var12;
+    var11 = dependencyMap;
+    var _closure1_slot0 = var10;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var11;
     var1 = function getMonths() {
         var1 = global;
         var3 = var1.Set;
@@ -279,7 +279,7 @@ case 2:
         return var1;
     };
     var _closure1_slot35 = var1;
-    var8 = function isValidUserAutocomplete(arg1) {
+    var7 = function isValidUserAutocomplete(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
@@ -364,7 +364,7 @@ case 15:
             return var1;
         }
     };
-    var _closure1_slot36 = var8;
+    var _closure1_slot36 = var7;
     var1 = function dateValidator(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -499,7 +499,7 @@ case 28:
         }
     };
     var _closure1_slot37 = var1;
-    var7 = function isValidChannelAutocomplete(arg1, arg2) {
+    var6 = function isValidChannelAutocomplete(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var5 = arg1;
@@ -774,7 +774,7 @@ case 63:
             return var1;
         }
     };
-    var _closure1_slot38 = var7;
+    var _closure1_slot38 = var6;
     var1 = function isValidHasAutocomplete(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -1085,7 +1085,7 @@ case 69:
         return var1;
     };
     var _closure1_slot43 = var1;
-    var6 = function getUserAutocompletions(arg1) {
+    var5 = function getUserAutocompletions(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var2 = arg1;
@@ -1583,7 +1583,7 @@ case 106:
             return var1;
         }
     };
-    var _closure1_slot44 = var6;
+    var _closure1_slot44 = var5;
     var1 = function getChannelAutocompletions(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
@@ -3011,125 +3011,117 @@ case 102:
         return var1;
     };
     var _closure1_slot46 = var1;
-    var4 = function isSearchFilterTokenType(arg1) {
-        var3 = _closure1_slot20;
-        var2 = var3.test;
-        var1 = arg1;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var _closure1_slot47 = var4;
-    var5 = global;
-    var14 = var5.Object;
-    var13 = var14.defineProperty;
-    var9 = {};
+    var4 = global;
+    var13 = var4.Object;
+    var12 = var13.defineProperty;
+    var8 = {};
     var1 = true;
-    var9['value'] = var1;
+    var8['value'] = var1;
     var1 = '__esModule';
-    var1 = var13.bind(var14)(var3, var1, var9);
+    var1 = var12.bind(var13)(var3, var1, var8);
     var1 = 0;
-    var9 = var12[var1];
+    var8 = var11[var1];
     var1 = undefined;
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot3 = var9;
-    var9 = 1;
-    var9 = var12[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot4 = var9;
-    var9 = 2;
-    var13 = var12[var9];
-    var13 = var11.bind(var1)(var13);
-    var14 = var13.GUILD_SELECTABLE_CHANNELS_KEY;
-    var _closure1_slot5 = var14;
-    var13 = var13.GUILD_VOCAL_CHANNELS_KEY;
-    var _closure1_slot6 = var13;
-    var9 = var12[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot7 = var9;
-    var9 = 3;
-    var9 = var12[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot8 = var9;
-    var9 = 4;
-    var9 = var12[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot9 = var9;
-    var9 = 5;
-    var9 = var12[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot10 = var9;
-    var9 = 6;
-    var9 = var12[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot11 = var9;
-    var9 = 7;
-    var9 = var12[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot12 = var9;
-    var9 = 8;
-    var9 = var12[var9];
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot13 = var9;
-    var9 = 9;
-    var9 = var12[var9];
-    var9 = var11.bind(var1)(var9);
-    var10 = var9.ANSWER_IN_REGEX;
-    var _closure1_slot14 = var10;
-    var9 = var9.GENERIC_REGEX;
-    var _closure1_slot15 = var9;
-    var9 = 10;
-    var9 = var12[var9];
-    var9 = var11.bind(var1)(var9);
-    var10 = var9.ME;
-    var _closure1_slot16 = var10;
-    var10 = var9.SearchTokenTypes;
-    var _closure1_slot17 = var10;
-    var10 = var9.SEARCH_DATE_FORMAT;
-    var _closure1_slot18 = var10;
-    var10 = var9.SearchTypes;
-    var _closure1_slot19 = var10;
-    var10 = var9.IS_SEARCH_FILTER_TOKEN;
-    var _closure1_slot20 = var10;
-    var9 = var9.ID_REGEX;
-    var _closure1_slot21 = var9;
-    var14 = var5.RegExp;
-    var9 = var14.prototype;
-    var10 = Object.create(var9, {constructor: {value: var14}});
-    var17 = '(?:\\s*(([0-9]{4})-([0-9]{1,2})-([0-9]{1,2})|([0-9]{4})-([0-9]{1,2})|\\d{4}|([^\\d\\s]+)))';
-    var13 = 'i';
-    var18 = var10;
-    var16 = var13;
-    var9 = new var18[var14](var17, var16, var15);
-    var9 = var9 instanceof Object ? var9 : var10;
-    var _closure1_slot22 = var9;
-    var10 = var5.RegExp;
-    var5 = var10.prototype;
-    var9 = Object.create(var5, {constructor: {value: var10}});
-    var17 = '\\s*(true|false)';
-    var18 = var9;
-    var5 = new var18[var10](var17, var16, var15);
-    var5 = var5 instanceof Object ? var5 : var9;
-    var _closure1_slot23 = var5;
-    var5 = /^(?:\s*(\d{17,20}|@me|([^@#:]+)#([0-9]{4})|([a-z0-9_.]{2,32})))/i;
-    var _closure1_slot24 = var5;
-    var5 = {};
-    var9 = 'FILTER';
-    var5['FILTER'] = var9;
-    var9 = 'ANSWER';
-    var5['ANSWER'] = var9;
-    var _closure1_slot25 = var5;
-    var9 = {};
-    var _closure1_slot26 = var9;
-    var10 = 22;
-    var10 = var12[var10];
-    var12 = var11.bind(var1)(var10);
-    var11 = var12.fileFinishedImporting;
-    var10 = 'modules/search/tokens/SearchTokens.tsx';
-    var10 = var11.bind(var12)(var10);
-    var3['default'] = var9;
-    var3['isValidUserAutocomplete'] = var8;
-    var3['isValidChannelAutocomplete'] = var7;
-    var7 = function getRandomDateShortcut() {
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var8 = 1;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 2;
+    var12 = var11[var8];
+    var12 = var10.bind(var1)(var12);
+    var13 = var12.GUILD_SELECTABLE_CHANNELS_KEY;
+    var _closure1_slot5 = var13;
+    var12 = var12.GUILD_VOCAL_CHANNELS_KEY;
+    var _closure1_slot6 = var12;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot7 = var8;
+    var8 = 3;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot8 = var8;
+    var8 = 4;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot9 = var8;
+    var8 = 5;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot10 = var8;
+    var8 = 6;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot11 = var8;
+    var8 = 7;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot12 = var8;
+    var8 = 8;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot13 = var8;
+    var8 = 9;
+    var8 = var11[var8];
+    var8 = var10.bind(var1)(var8);
+    var9 = var8.ANSWER_IN_REGEX;
+    var _closure1_slot14 = var9;
+    var8 = var8.GENERIC_REGEX;
+    var _closure1_slot15 = var8;
+    var8 = 10;
+    var8 = var11[var8];
+    var8 = var10.bind(var1)(var8);
+    var9 = var8.ME;
+    var _closure1_slot16 = var9;
+    var9 = var8.SearchTokenTypes;
+    var _closure1_slot17 = var9;
+    var9 = var8.SEARCH_DATE_FORMAT;
+    var _closure1_slot18 = var9;
+    var9 = var8.SearchTypes;
+    var _closure1_slot19 = var9;
+    var9 = var8.IS_SEARCH_FILTER_TOKEN;
+    var _closure1_slot20 = var9;
+    var8 = var8.ID_REGEX;
+    var _closure1_slot21 = var8;
+    var13 = var4.RegExp;
+    var8 = var13.prototype;
+    var9 = Object.create(var8, {constructor: {value: var13}});
+    var16 = '(?:\\s*(([0-9]{4})-([0-9]{1,2})-([0-9]{1,2})|([0-9]{4})-([0-9]{1,2})|\\d{4}|([^\\d\\s]+)))';
+    var12 = 'i';
+    var17 = var9;
+    var15 = var12;
+    var8 = new var17[var13](var16, var15, var14);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot22 = var8;
+    var9 = var4.RegExp;
+    var4 = var9.prototype;
+    var8 = Object.create(var4, {constructor: {value: var9}});
+    var16 = '\\s*(true|false)';
+    var17 = var8;
+    var4 = new var17[var9](var16, var15, var14);
+    var4 = var4 instanceof Object ? var4 : var8;
+    var _closure1_slot23 = var4;
+    var4 = /^(?:\s*(\d{17,20}|@me|([^@#:]+)#([0-9]{4})|([a-z0-9_.]{2,32})))/i;
+    var _closure1_slot24 = var4;
+    var4 = {};
+    var8 = 'FILTER';
+    var4['FILTER'] = var8;
+    var8 = 'ANSWER';
+    var4['ANSWER'] = var8;
+    var _closure1_slot25 = var4;
+    var8 = {};
+    var _closure1_slot26 = var8;
+    var9 = 22;
+    var9 = var11[var9];
+    var11 = var10.bind(var1)(var9);
+    var10 = var11.fileFinishedImporting;
+    var9 = 'modules/search/tokens/SearchTokens.tsx';
+    var9 = var10.bind(var11)(var9);
+    var3['default'] = var8;
+    var3['isValidUserAutocomplete'] = var7;
+    var3['isValidChannelAutocomplete'] = var6;
+    var6 = function getRandomDateShortcut() {
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
         var2 = 12;
@@ -3142,10 +3134,10 @@ case 102:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['getRandomDateShortcut'] = var7;
-    var3['getUserAutocompletions'] = var6;
-    var3['ComponentTypes'] = var5;
-    var5 = function buildCrossDMSearchTokensConfig() {
+    var3['getRandomDateShortcut'] = var6;
+    var3['getUserAutocompletions'] = var5;
+    var3['ComponentTypes'] = var4;
+    var4 = function buildCrossDMSearchTokensConfig() {
         var3 = _closure1_slot46;
         var2 = {};
         var1 = _closure1_slot19;
@@ -3155,8 +3147,8 @@ case 102:
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var3['buildCrossDMSearchTokensConfig'] = var5;
-    var5 = function rebuildSearchTokenConfigs() {
+    var3['buildCrossDMSearchTokensConfig'] = var4;
+    var4 = function rebuildSearchTokenConfigs() {
         var1 = global;
         var5 = var1.Object;
         var4 = var5.assign;
@@ -3167,82 +3159,22 @@ case 102:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var3['rebuildSearchTokenConfigs'] = var5;
-    var3['isSearchFilterTokenType'] = var4;
-    var4 = function getSearchTokenFilterAutocompletions(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
-case 0:
-            var10 = arg1;
-            var9 = arguments[1];
-            var8 = undefined;
-            if(!(var9 === var8)) { _fun0027_ip = 131; continue _fun0027 }
-case 3:
-            var1 = global;
-            var3 = var1.Object;
-            var2 = var3.keys;
-            var1 = _closure1_slot26;
-            var1 = var2.bind(var3)(var1);
-            var9 = var1.length;
-case 131:
-            var1 = new Array(0);
-            var2 = global;
-            var4 = var2.Object;
-            var3 = var4.keys;
-            var2 = _closure1_slot26;
-            var6 = var3.bind(var4)(var2);
-            var2 = var6.length;
-            var5 = 0;
-            var2 = var5 < var2;
-            var4 = 17;
-            var3 = null;
-            if(!var2) { _fun0027_ip = 132; continue _fun0027 }
-case 47:
-            var13 = var6[var5];
-            var2 = var1.length;
-            if(!(!(var2 >= var9))) { _fun0027_ip = 132; continue _fun0027 }
-case 133:
-            var2 = _closure1_slot26;
-            var2 = var2[var13];
-            var12 = var2.key;
-            var2 = _closure1_slot47;
-            var2 = var2.bind(var8)(var13);
-            if(!var2) { _fun0027_ip = 24; continue _fun0027 }
-case 134:
-            var2 = var3 != var12;
-case 24:
-            if(!var2) { _fun0027_ip = 9; continue _fun0027 }
-case 135:
-            var14 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var11 = var11[var4];
-            var14 = var14.bind(var8)(var11);
-            var11 = var10.toLowerCase;
-            var11 = var11.bind(var10)();
-            var2 = var14.bind(var8)(var11, var12);
-case 9:
-            if(!var2) { _fun0027_ip = 41; continue _fun0027 }
-case 136:
-            var11 = var1.push;
-            var2 = {};
-            var2['token'] = var13;
-            var2['text'] = var12;
-            var2 = var11.bind(var1)(var2);
-case 41:
-            var5 = var5 + 1;
-            var2 = var6.length;
-            if(var5 < var2) { _fun0027_ip = 47; continue _fun0027 }
-case 132:
-            return var1;
-        }
+    var3['rebuildSearchTokenConfigs'] = var4;
+    var4 = function isSearchFilterTokenType(arg1) {
+        var3 = _closure1_slot20;
+        var2 = var3.test;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var3['getSearchTokenFilterAutocompletions'] = var4;
+    var3['isSearchFilterTokenType'] = var4;
     var2 = function isMeAutcompleteAnswer(arg1) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0028_ip = 137; continue _fun0028 }
+            if(!(var1 !== var3)) { _fun0027_ip = 131; continue _fun0027 }
 case 118:
             var1 = var2.toLowerCase;
             var4 = var1.bind(var2)();
@@ -3265,17 +3197,17 @@ case 118:
             var3 = var3.bind(var5)(var1);
             var1 = var3.startsWith;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0028_ip = 138; continue _fun0028 }
-case 139:
+            if(var1) { _fun0027_ip = 132; continue _fun0027 }
+case 133:
             var5 = _closure1_slot16;
             var3 = var5.substring;
             var2 = 1;
             var3 = var3.bind(var5)(var2);
             var2 = var3.startsWith;
             var1 = var2.bind(var3)(var4);
-case 138:
+case 132:
             return var1;
-case 137:
+case 131:
             var1 = false;
             return var1;
         }

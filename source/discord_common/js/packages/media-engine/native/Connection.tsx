@@ -5582,25 +5582,13 @@ case 314:
                 var34 = var1.name;
                 var34 = var1.params;
                 var34['hardware-h264'] = var20;
-                var34 = var1.params;
-                var34['h264-mf'] = var20;
-                var36 = var26.experimentFlags;
-                var35 = var36.has;
-                var34 = _closure1_slot11;
-                var34 = var34.H264_MF_ZERO_COPY;
-                var34 = var35.bind(var36)(var34);
-                if(!var34) { _fun0069_ip = 315; continue _fun0069 }
-case 316:
-                var34 = var1.params;
-                var34['h264-mf-zero-copy'] = var20;
-case 315:
                 var36 = var26.experimentFlags;
                 var35 = var36.has;
                 var34 = _closure1_slot11;
                 var34 = var34.USE_LIBOPENH264_DECODER;
                 var34 = var35.bind(var36)(var34);
-                if(!var34) { _fun0069_ip = 317; continue _fun0069 }
-case 118:
+                if(!var34) { _fun0069_ip = 315; continue _fun0069 }
+case 316:
                 var35 = _closure1_slot0;
                 var34 = _closure1_slot2;
                 var34 = var34[var17];
@@ -5608,14 +5596,14 @@ case 118:
                 var34 = var35.getOpenH264LibraryPath;
                 var34 = var34.bind(var35)();
                 var6 = var34;
-                if(!(var25 != var6)) { _fun0069_ip = 317; continue _fun0069 }
-case 318:
+                if(!(var25 != var6)) { _fun0069_ip = 315; continue _fun0069 }
+case 317:
                 var35 = var1.params;
                 var35['libopenh264'] = var20;
                 var35 = var1.params;
                 var35['libopenh264-path'] = var34;
                 var6 = var34;
-case 317:
+case 315:
                 var34 = var4.push;
                 var34 = var34.bind(var4)(var1);
                 var34 = var31.name;
@@ -5627,7 +5615,7 @@ case 317:
                 var7 = var1;
                 var30 = var6;
                 if(!(var34 === var27)) { _fun0069_ip = 302; continue _fun0069 }
-case 319:
+case 318:
                 var34 = {};
                 var39 = var34;
                 var38 = var1;
@@ -5641,11 +5629,11 @@ case 319:
                 var35 = _closure1_slot11;
                 var35 = var35.VIDEOTOOLBOX_RATE_CONTROL;
                 var35 = var36.bind(var37)(var35);
-                if(!var35) { _fun0069_ip = 123; continue _fun0069 }
+                if(!var35) { _fun0069_ip = 319; continue _fun0069 }
 case 320:
                 var35 = var34.params;
                 var35['fixed-rate-presentation-timestamps'] = var20;
-case 123:
+case 319:
                 var37 = var26.experimentFlags;
                 var36 = var37.has;
                 var35 = _closure1_slot11;

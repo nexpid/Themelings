@@ -33,26 +33,26 @@ case 0:
             var1 = 1;
             var3 = var3[var1];
             var1 = undefined;
-            var7 = var5.bind(var1)(var3);
-            var6 = var7.useIsEligibleForSubscriptionsInGuildShop;
+            var8 = var5.bind(var1)(var3);
+            var7 = var8.useGuildEligibleForGuildProducts;
             var5 = null;
-            var8 = var5 == var4;
-            var3 = undefined;
-            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+            var3 = var5 == var4;
+            var6 = undefined;
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = var4.id;
+            var6 = var4.id;
 case 2:
-            var8 = 'channel_list';
-            var3 = var6.bind(var7)(var3, var8);
+            var3 = 'channel_list';
+            var3 = var7.bind(var8)(var6, var3);
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 2;
             var3 = var7[var3];
             var7 = var6.bind(var1)(var3);
             var6 = var7.useRoleSubscriptionsVisibleInGuild;
-            var9 = var5 == var4;
+            var8 = var5 == var4;
             var3 = undefined;
-            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var3 = var4.id;
 case 4:
@@ -63,7 +63,7 @@ case 4:
             var2 = var6[var2];
             var7 = var3.bind(var1)(var2);
             var2 = var7.useGuildShopPreviewVisible;
-            var2 = var2.bind(var7)(var4, var8);
+            var2 = var2.bind(var7)(var4);
             var2 = 4;
             var2 = var6[var2];
             var3 = var3.bind(var1)(var2);
@@ -91,7 +91,7 @@ case 0:
             var4 = var4[var2];
             var2 = undefined;
             var8 = var5.bind(var2)(var4);
-            var7 = var8.isEligibleForSubscriptionsInGuildShop;
+            var7 = var8.isGuildEligibleForGuildProducts;
             var5 = null;
             var4 = var5 == var1;
             var6 = undefined;

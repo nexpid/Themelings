@@ -26,6 +26,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COACHMARK'] = var5;
     var1 = 'COACHMARK';
     var2[var5] = var1;
+    var5 = 4;
+    var2['TAB_TOOLTIP'] = var5;
+    var1 = 'TAB_TOOLTIP';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

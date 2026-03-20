@@ -8,13 +8,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var10 = var1.Object;
+    var7 = var10.defineProperty;
     var2 = {};
-    var1 = true;
-    var2['value'] = var1;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var7.bind(var10)(var3, var1, var2);
     var1 = 0;
     var7 = var6[var1];
     var2 = metroImportAll;
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.MobileSetting;
+    var11 = var2.MobileSetting;
     var2 = 4;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
-    var11 = function title() {
+    var12 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var11;
-    var8 = var8.ACCOUNT;
-    var2['parent'] = var8;
-    var8 = function useAccountCanUseWebAuthnView() {
+    var2['title'] = var12;
+    var11 = var11.ACCOUNT;
+    var2['parent'] = var11;
+    var11 = function useAccountCanUseWebAuthnView() {
         var4 = _closure1_slot3;
         var3 = var4.useCallback;
         var2 = function() {
@@ -123,8 +123,8 @@ case 6:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['usePreNavigationAction'] = var8;
-    var8 = function useAccountSecurityKeysSettingTrailing() {
+    var2['usePreNavigationAction'] = var11;
+    var11 = function useAccountSecurityKeysSettingTrailing() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot4;
@@ -177,7 +177,8 @@ case 8:
             return var1;
         }
     };
-    var2['useTrailing'] = var8;
+    var2['useTrailing'] = var11;
+    var2['unsearchable'] = var8;
     var8 = {};
     var10 = var10.WEBAUTHN_VIEW;
     var8['route'] = var10;

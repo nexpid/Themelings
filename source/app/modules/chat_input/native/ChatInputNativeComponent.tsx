@@ -65,13 +65,13 @@ case 0:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var1 = arg1;
-                var23 = var1.accessibilityLabel;
-                var21 = var1.customKeyboard;
-                var11 = var1.placeholder;
-                var25 = var1.editable;
-                var22 = var1.markAsSpoilerTitle;
+                var24 = var1.accessibilityLabel;
+                var22 = var1.customKeyboard;
+                var12 = var1.placeholder;
+                var26 = var1.editable;
+                var23 = var1.markAsSpoilerTitle;
                 var4 = undefined;
-                if(!(var22 === var4)) { _fun0002_ip = 2; continue _fun0002 }
+                if(!(var23 === var4)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
@@ -84,139 +84,141 @@ case 3:
                 var2 = var6.bind(var4)(var2);
                 var2 = var2.t;
                 var2 = var2.gsI+xC;
-                var22 = var3.bind(var5)(var2);
+                var23 = var3.bind(var5)(var2);
 case 2:
-                var8 = var1.setNoExtractUI;
-                var7 = var1.shouldShowCursor;
-                var20 = var1.onBeginFocus;
-                var19 = var1.onEndBlur;
-                var18 = var1.onChangeContentSize;
+                var9 = var1.setNoExtractUI;
+                var8 = var1.shouldShowCursor;
+                var21 = var1.onBeginFocus;
+                var20 = var1.onEndBlur;
+                var19 = var1.onChangeContentSize;
                 var3 = var1.onMaxHeightChanged;
-                var17 = var1.onSelectionOrTextChange;
-                var16 = var1.onTextFlushed;
-                var15 = var1.onPasteImage;
-                var14 = var1.onPasteCommand;
-                var13 = var1.onTapAction;
-                var12 = var1.onRequestSend;
+                var18 = var1.onSelectionOrTextChange;
+                var17 = var1.onTextFlushed;
+                var16 = var1.onPasteImage;
+                var15 = var1.onPasteCommand;
+                var14 = var1.onTapAction;
+                var13 = var1.onRequestSend;
+                var5 = var1.verticalInset;
                 var2 = _closure1_slot5;
                 var2 = var2.bind(var4)();
-                var6 = var2.style;
-                var5 = var2.textColor;
-                var5 = var5.color;
+                var7 = var2.style;
+                var6 = var2.textColor;
+                var6 = var6.color;
                 var2 = var2.placeholderColor;
-                var10 = var2.color;
-                var24 = _closure1_slot0;
-                var26 = _closure1_slot2;
+                var11 = var2.color;
+                var25 = _closure1_slot0;
+                var27 = _closure1_slot2;
                 var2 = 7;
-                var2 = var26[var2];
-                var9 = var24.bind(var4)(var2);
-                var2 = var9.useTheme;
-                var27 = var2.bind(var9)();
+                var2 = var27[var2];
+                var10 = var25.bind(var4)(var2);
+                var2 = var10.useTheme;
+                var28 = var2.bind(var10)();
                 var2 = 8;
-                var2 = var26[var2];
-                var9 = var24.bind(var4)(var2);
-                var2 = var9.isThemeDark;
-                var2 = var2.bind(var9)(var27);
-                var9 = 9;
-                var9 = var26[var9];
-                var27 = var24.bind(var4)(var9);
-                var26 = var27.hexWithOpacity;
-                var24 = _closure1_slot1;
-                var28 = _closure1_slot2;
-                var9 = 5;
-                var9 = var28[var9];
-                var9 = var24.bind(var4)(var9);
-                var9 = var9.unsafe_rawColors;
+                var2 = var27[var2];
+                var10 = var25.bind(var4)(var2);
+                var2 = var10.isThemeDark;
+                var2 = var2.bind(var10)(var28);
+                var10 = 9;
+                var10 = var27[var10];
+                var28 = var25.bind(var4)(var10);
+                var27 = var28.hexWithOpacity;
+                var25 = _closure1_slot1;
+                var29 = _closure1_slot2;
+                var10 = 5;
+                var10 = var29[var10];
+                var10 = var25.bind(var4)(var10);
+                var10 = var10.unsafe_rawColors;
                 if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var24 = var9.PRIMARY_500;
+                var25 = var10.PRIMARY_500;
                 _fun0002_ip = 6; continue _fun0002;
 case 4:
-                var24 = var9.WHITE;
+                var25 = var10.WHITE;
 case 6:
-                var9 = _closure1_slot3;
-                var28 = var9.gradientPreset;
-                var9 = null;
-                var28 = var9 != var28;
-                var9 = 0.6;
-                if(!var28) { _fun0002_ip = 7; continue _fun0002 }
+                var10 = _closure1_slot3;
+                var29 = var10.gradientPreset;
+                var10 = null;
+                var29 = var10 != var29;
+                var10 = 0.6;
+                if(!var29) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-                var9 = 0.8;
+                var10 = 0.8;
 case 7:
-                var9 = var26.bind(var27)(var24, var9);
-                var27 = _closure1_slot0;
-                var26 = _closure1_slot2;
-                var24 = 10;
-                var26 = var26[var24];
-                var27 = var27.bind(var4)(var26);
-                var26 = var27.isAndroid;
-                var26 = var26.bind(var27)();
-                var27 = undefined;
-                if(var26) { _fun0002_ip = 9; continue _fun0002 }
+                var10 = var27.bind(var28)(var25, var10);
+                var28 = _closure1_slot0;
+                var27 = _closure1_slot2;
+                var25 = 10;
+                var27 = var27[var25];
+                var28 = var28.bind(var4)(var27);
+                var27 = var28.isAndroid;
+                var27 = var27.bind(var28)();
+                var28 = undefined;
+                if(var27) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                var27 = var23;
+                var28 = var24;
 case 9:
-                var26 = _closure1_slot0;
-                var23 = _closure1_slot2;
-                var23 = var23[var24];
-                var26 = var26.bind(var4)(var23);
-                var23 = var26.isAndroid;
-                var23 = var23.bind(var26)();
-                var26 = undefined;
-                if(var23) { _fun0002_ip = 11; continue _fun0002 }
+                var27 = _closure1_slot0;
+                var24 = _closure1_slot2;
+                var24 = var24[var25];
+                var27 = var27.bind(var4)(var24);
+                var24 = var27.isAndroid;
+                var24 = var24.bind(var27)();
+                var27 = undefined;
+                if(var24) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                var26 = var21;
+                var27 = var22;
 case 11:
-                var23 = _closure1_slot0;
-                var21 = _closure1_slot2;
-                var21 = var21[var24];
-                var23 = var23.bind(var4)(var21);
-                var21 = var23.isAndroid;
-                var21 = var21.bind(var23)();
-                var23 = 'default';
-                if(!var21) { _fun0002_ip = 13; continue _fun0002 }
+                var24 = _closure1_slot0;
+                var22 = _closure1_slot2;
+                var22 = var22[var25];
+                var24 = var24.bind(var4)(var22);
+                var22 = var24.isAndroid;
+                var22 = var22.bind(var24)();
+                var24 = 'default';
+                if(!var22) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-                var23 = undefined;
+                var24 = undefined;
 case 13:
-                var24 = 2;
+                var25 = 2;
                 if(!var2) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-                var24 = 1;
+                var25 = 1;
 case 15:
-                var21 = _closure1_slot1;
-                var28 = _closure1_slot2;
+                var22 = _closure1_slot1;
+                var29 = _closure1_slot2;
                 var2 = 11;
-                var2 = var28[var2];
-                var2 = var21.bind(var4)(var2);
-                var21 = var2.bind(var4)(var3);
+                var2 = var29[var2];
+                var2 = var22.bind(var4)(var2);
+                var22 = var2.bind(var4)(var3);
                 var3 = _closure1_slot4;
                 var2 = _closure1_slot6;
                 var1 = {};
-                var1['accessibilityLabel'] = var27;
-                var1['children'] = var26;
-                var1['editable'] = var25;
-                var1['keyboardAppearance'] = var24;
-                var1['keyboardType'] = var23;
-                var1['markAsSpoilerTitle'] = var22;
-                var1['maxHeight'] = var21;
-                var1['onBeginFocus'] = var20;
-                var1['onEndBlur'] = var19;
-                var1['onChangeContentSize'] = var18;
-                var1['onSelectionOrTextChange'] = var17;
-                var1['onTextFlushed'] = var16;
-                var1['onPasteImage'] = var15;
-                var1['onPasteCommand'] = var14;
-                var1['onTapAction'] = var13;
-                var1['onRequestSend'] = var12;
-                var1['placeholder'] = var11;
-                var1['placeholderColor'] = var10;
-                var10 = arg2;
-                var1['ref'] = var10;
-                var1['selectionColor'] = var9;
-                var1['setNoExtractUI'] = var8;
-                var1['shouldShowCursor'] = var7;
-                var1['style'] = var6;
-                var1['textColor'] = var5;
+                var1['accessibilityLabel'] = var28;
+                var1['children'] = var27;
+                var1['editable'] = var26;
+                var1['keyboardAppearance'] = var25;
+                var1['keyboardType'] = var24;
+                var1['markAsSpoilerTitle'] = var23;
+                var1['maxHeight'] = var22;
+                var1['onBeginFocus'] = var21;
+                var1['onEndBlur'] = var20;
+                var1['onChangeContentSize'] = var19;
+                var1['onSelectionOrTextChange'] = var18;
+                var1['onTextFlushed'] = var17;
+                var1['onPasteImage'] = var16;
+                var1['onPasteCommand'] = var15;
+                var1['onTapAction'] = var14;
+                var1['onRequestSend'] = var13;
+                var1['placeholder'] = var12;
+                var1['placeholderColor'] = var11;
+                var11 = arg2;
+                var1['ref'] = var11;
+                var1['selectionColor'] = var10;
+                var1['setNoExtractUI'] = var9;
+                var1['shouldShowCursor'] = var8;
+                var1['style'] = var7;
+                var1['textColor'] = var6;
+                var1['verticalInset'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             }
@@ -231,13 +233,13 @@ case 15:
 case 18:
         var4 = 'DCDChatInput';
         var4 = var8.bind(var1)(var4);
-        _fun0001_ip = 5; continue _fun0001;
+        _fun0001_ip = 19; continue _fun0001;
 case 17:
         var8 = 12;
         var8 = var6[var8];
         var8 = var5.bind(var1)(var8);
         var4 = var8.default;
-case 5:
+case 19:
         var _closure1_slot6 = var4;
         var4 = 'ChatInputNativeComponent';
         var2['displayName'] = var4;

@@ -125,64 +125,64 @@ case 11:
         }
     };
     var _closure1_slot7 = var5;
-    var4 = function getSupportedFilterTokens(arg1, arg2) {
+    var4 = function getValidOrderedFilterTokens(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg2;
             var1 = var2[Symbol.iterator];
             var2 = var1().next;
-            var4 = var2().value;
+            var3 = var2().value;
             var2 = var1;
+            var5 = undefined;
+            var2 = var2 === var5;
             var6 = undefined;
-            var2 = var2 === var6;
-            var3 = undefined;
             if(var2) { _fun0004_ip = 2; continue _fun0004 }
 case 15:
-            var3 = var4;
+            var6 = var3;
 case 2:
             if(var2) { _fun0004_ip = 16; continue _fun0004 }
 case 8:
             var1.return();
 case 16:
             var1 = new Array(0);
-            var5 = _closure1_slot5;
-            var4 = new Array(1);
-            var4[0] = var3;
-            var4 = var5.bind(var6)(var4);
-            if(!var4) { _fun0004_ip = 17; continue _fun0004 }
+            var4 = _closure1_slot5;
+            var3 = new Array(1);
+            var3[0] = var6;
+            var3 = var4.bind(var5)(var3);
+            if(!var3) { _fun0004_ip = 17; continue _fun0004 }
 case 18:
-            var5 = var1.push;
-            var4 = _closure1_slot3;
-            var4 = var4.FILTER_FROM;
-            var4 = var5.bind(var1)(var4);
+            var4 = var1.push;
+            var3 = _closure1_slot3;
+            var3 = var3.FILTER_FROM;
+            var3 = var4.bind(var1)(var3);
 case 17:
-            var5 = _closure1_slot6;
+            var7 = _closure1_slot7;
             var4 = new Array(1);
-            var4[0] = var3;
-            var4 = var5.bind(var6)(var4);
-            if(!var4) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-            var5 = var1.push;
-            var4 = _closure1_slot3;
-            var4 = var4.FILTER_MENTIONS;
-            var4 = var5.bind(var1)(var4);
-case 19:
-            var5 = var1.push;
-            var4 = _closure1_slot3;
-            var4 = var4.FILTER_HAS;
-            var4 = var5.bind(var1)(var4);
-            var5 = _closure1_slot7;
-            var4 = new Array(1);
-            var4[0] = var3;
+            var4[0] = var6;
             var3 = arg1;
-            var3 = var5.bind(var6)(var3, var4);
-            if(!var3) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+            var3 = var7.bind(var5)(var3, var4);
+            if(!var3) { _fun0004_ip = 19; continue _fun0004 }
+case 12:
             var4 = var1.push;
             var3 = _closure1_slot3;
             var3 = var3.FILTER_IN;
             var3 = var4.bind(var1)(var3);
+case 19:
+            var4 = var1.push;
+            var3 = _closure1_slot3;
+            var3 = var3.FILTER_HAS;
+            var3 = var4.bind(var1)(var3);
+            var4 = _closure1_slot6;
+            var3 = new Array(1);
+            var3[0] = var6;
+            var3 = var4.bind(var5)(var3);
+            if(!var3) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
+            var4 = var1.push;
+            var3 = _closure1_slot3;
+            var3 = var3.FILTER_MENTIONS;
+            var3 = var4.bind(var1)(var3);
+case 20:
             var4 = var1.push;
             var3 = _closure1_slot3;
             var3 = var3.FILTER_ON;
@@ -233,8 +233,8 @@ case 21:
     var3['isFromUserFilterSupported'] = var7;
     var3['isMentionsUserFilterSupported'] = var6;
     var3['isInChannelFilterSupported'] = var5;
-    var3['getSupportedFilterTokens'] = var4;
-    var2 = function getSupportedFilterTokensSet(arg1, arg2) {
+    var3['getValidOrderedFilterTokens'] = var4;
+    var2 = function getValidFilterTokens(arg1, arg2) {
         var4 = _closure1_slot8;
         var3 = undefined;
         var2 = arg1;
@@ -249,6 +249,6 @@ case 21:
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var3['getSupportedFilterTokensSet'] = var2;
+    var3['getValidFilterTokens'] = var2;
     return var1;
 })();

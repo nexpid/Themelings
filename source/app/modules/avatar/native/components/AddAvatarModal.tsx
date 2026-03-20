@@ -79,8 +79,15 @@ case 11:
                             var8 = _closure1_slot2;
                             var5 = 17;
                             var5 = var8[var5];
+                            var10 = var6.bind(var3)(var5);
+                            var9 = var10.setPendingChanges;
+                            var5 = {};
+                            var5['avatar'] = var7;
+                            var5 = var9.bind(var10)(var5);
+                            var5 = 18;
+                            var5 = var8[var5];
                             var6 = var6.bind(var3)(var5);
-                            var5 = var6.setPendingAvatar;
+                            var5 = var6.announcePendingAvatarChange;
                             var5 = var5.bind(var6)(var7);
                             var5 = _closure2_slot2;
                             var5 = var5.bind(var3)(var3);
@@ -227,14 +234,14 @@ case 20:
             var26 = _closure1_slot9;
             var21 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var22 = 18;
+            var22 = 19;
             var16 = var24[var22];
             var16 = var21.bind(var4)(var16);
             var25 = var16.Text;
             var19 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var16 = var17.title;
             var19['style'] = var16;
-            var16 = 19;
+            var16 = 20;
             var27 = var24[var16];
             var27 = var21.bind(var4)(var27);
             var29 = var27.intl;
@@ -273,7 +280,7 @@ case 20:
             var8[0] = var12;
             var19 = _closure1_slot9;
             var15 = _closure1_slot1;
-            var12 = 20;
+            var12 = 21;
             var12 = var24[var12];
             var15 = var15.bind(var4)(var12);
             var12 = {};
@@ -299,7 +306,7 @@ case 20:
             var20 = var17.errorContainer;
             var12['style'] = var20;
             var22 = _closure1_slot9;
-            var20 = 21;
+            var20 = 22;
             var20 = var24[var20];
             var20 = var21.bind(var4)(var20);
             var21 = var20.LegacyText;
@@ -341,7 +348,7 @@ case 22:
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var8 = _closure1_slot9;
-            var14 = 22;
+            var14 = 23;
             var6 = var12[var14];
             var7 = var15.bind(var4)(var6);
             var6 = {};
@@ -366,7 +373,7 @@ case 22:
             var11 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 23;
+                var1 = 24;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -396,7 +403,7 @@ case 22:
                 var2 = {};
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var4 = 24;
+                var4 = 25;
                 var4 = var7[var4];
                 var5 = undefined;
                 var4 = var6.bind(var5)(var4);
@@ -407,13 +414,13 @@ case 22:
                     var4 = _closure1_slot9;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 25;
+                    var1 = 26;
                     var1 = var9[var1];
                     var3 = undefined;
                     var1 = var8.bind(var3)(var1);
                     var2 = var1.HeaderActionButton;
                     var1 = {};
-                    var5 = 19;
+                    var5 = 20;
                     var6 = var9[var5];
                     var6 = var8.bind(var3)(var6);
                     var7 = var6.intl;
@@ -427,7 +434,7 @@ case 22:
                     var5 = function onPress() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 23;
+                        var1 = 24;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
@@ -445,7 +452,7 @@ case 22:
                     return var1;
                 };
                 var2['headerLeft'] = var4;
-                var4 = 26;
+                var4 = 27;
                 var4 = var7[var4];
                 var5 = var6.bind(var5)(var4);
                 var4 = var5.getHeaderNoTitle;
@@ -475,7 +482,7 @@ case 22:
         var4 = _closure1_slot9;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 27;
+        var1 = 28;
         var1 = var3[var1];
         var3 = undefined;
         var1 = var2.bind(var3)(var1);
@@ -584,7 +591,7 @@ case 22:
     var7 = var7.SLIDE_IN_OUT;
     var4['animation'] = var7;
     var2['modalConfig'] = var4;
-    var4 = 28;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

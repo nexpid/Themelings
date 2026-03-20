@@ -205,15 +205,15 @@ case 15:
                     var4 = var5.catch;
                     var2 = var2.warn;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=208);
+                    SaveGenerator(address=210);
 case 17:
                     return var2;
-case 18:
+case 2:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 19; continue _fun0002 }
+                    if(var4) { _fun0002_ip = 18; continue _fun0002 }
 case 11:
                     return var3;
-case 19:
+case 18:
                     return var2;
 case 9:
                     return var1;
@@ -245,27 +245,27 @@ case 0:
                     StartGenerator();
                     var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 20; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 19; continue _fun0003 }
 case 10:
                     var2 = _closure1_slot5;
                     var2 = var2.DCDSecurityKeyManager;
                     var2 = var2.signalUnknownCredential;
                     var3 = undefined;
-                    if(!(var3 !== var2)) { _fun0003_ip = 21; continue _fun0003 }
+                    if(!(var3 !== var2)) { _fun0003_ip = 20; continue _fun0003 }
 case 12:
                     var5 = 'string';
                     var2 = typeof var6;
-                    if(!(var5 !== var2)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                    var7 = var6.cred_id;
-                    _fun0003_ip = 24; continue _fun0003;
+                    if(!(var5 !== var2)) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
+                    var7 = var6.cred_id;
+                    _fun0003_ip = 23; continue _fun0003;
+case 21:
                     var2 = global;
                     var5 = var2.JSON;
                     var2 = var5.parse;
                     var2 = var2.bind(var5)(var6);
                     var7 = var2.id;
-case 24:
+case 23:
                     var2 = _closure1_slot6;
                     var9 = var2.info;
                     var8 = {};
@@ -282,16 +282,16 @@ case 24:
                     var2 = var2.warn;
                     var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=164);
+case 24:
+                    return var2;
 case 25:
-                    return var2;
-case 26:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 27; continue _fun0003 }
-case 21:
-                    return var3;
-case 27:
-                    return var2;
+                    if(var4) { _fun0003_ip = 26; continue _fun0003 }
 case 20:
+                    return var3;
+case 26:
+                    return var2;
+case 19:
                     return var1;
                 }
             };

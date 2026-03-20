@@ -11,64 +11,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var1 = var1.navigation;
         var _closure2_slot0 = var1;
-        var1 = _closure1_slot11;
+        var1 = _closure1_slot12;
         var4 = undefined;
-        var10 = var1.bind(var4)();
-        var3 = _closure1_slot10;
-        var6 = _closure1_slot1;
-        var13 = _closure1_slot2;
-        var1 = 8;
-        var1 = var13[var1];
-        var2 = var6.bind(var4)(var1);
+        var9 = var1.bind(var4)();
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot1;
+        var16 = _closure1_slot2;
+        var1 = 9;
+        var1 = var16[var1];
+        var2 = var2.bind(var4)(var1);
         var1 = {};
-        var12 = _closure1_slot0;
-        var7 = 9;
-        var7 = var13[var7];
-        var7 = var12.bind(var4)(var7);
-        var7 = var7.VerifyPhone;
-        var1['Illustration'] = var7;
-        var9 = 10;
-        var7 = var13[var9];
-        var7 = var12.bind(var4)(var7);
-        var14 = var7.intl;
-        var11 = var14.string;
-        var7 = var13[var9];
-        var7 = var12.bind(var4)(var7);
-        var7 = var7.t;
-        var7 = var7.KLnLIP;
-        var7 = var11.bind(var14)(var7);
-        var1['title'] = var7;
-        var7 = var13[var9];
-        var7 = var12.bind(var4)(var7);
-        var14 = var7.intl;
-        var11 = var14.string;
-        var7 = var13[var9];
-        var7 = var12.bind(var4)(var7);
-        var7 = var7.t;
-        var7 = var7.XGbCq3;
-        var7 = var11.bind(var14)(var7);
-        var1['body'] = var7;
-        var7 = _closure1_slot10;
-        var5 = 11;
-        var5 = var13[var5];
-        var6 = var6.bind(var4)(var5);
+        var15 = _closure1_slot0;
+        var5 = 10;
+        var5 = var16[var5];
+        var5 = var15.bind(var4)(var5);
+        var5 = var5.VerifyPhone;
+        var1['Illustration'] = var5;
+        var12 = 11;
+        var5 = var16[var12];
+        var5 = var15.bind(var4)(var5);
+        var7 = var5.intl;
+        var6 = var7.string;
+        var5 = var16[var12];
+        var5 = var15.bind(var4)(var5);
+        var5 = var5.t;
+        var5 = var5.KLnLIP;
+        var5 = var6.bind(var7)(var5);
+        var1['title'] = var5;
+        var5 = var16[var12];
+        var5 = var15.bind(var4)(var5);
+        var7 = var5.intl;
+        var6 = var7.string;
+        var5 = var16[var12];
+        var5 = var15.bind(var4)(var5);
+        var5 = var5.t;
+        var5 = var5.XGbCq3;
+        var5 = var6.bind(var7)(var5);
+        var1['body'] = var5;
+        var7 = _closure1_slot11;
+        var6 = _closure1_slot5;
         var5 = {};
-        var10 = var10.button;
-        var5['style'] = var10;
-        var10 = var13[var9];
-        var10 = var12.bind(var4)(var10);
-        var11 = var10.intl;
-        var10 = var11.string;
-        var9 = var13[var9];
-        var9 = var12.bind(var4)(var9);
-        var9 = var9.t;
-        var9 = var9.3oK4qw;
-        var9 = var10.bind(var11)(var9);
-        var5['text'] = var9;
-        var8 = function onPress() {
+        var9 = var9.button;
+        var5['style'] = var9;
+        var10 = _closure1_slot11;
+        var8 = 12;
+        var8 = var16[var8];
+        var8 = var15.bind(var4)(var8);
+        var9 = var8.Button;
+        var8 = {};
+        var13 = var16[var12];
+        var13 = var15.bind(var4)(var13);
+        var14 = var13.intl;
+        var13 = var14.string;
+        var12 = var16[var12];
+        var12 = var15.bind(var4)(var12);
+        var12 = var12.t;
+        var12 = var12.3oK4qw;
+        var12 = var13.bind(var14)(var12);
+        var8['text'] = var12;
+        var11 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot8;
                 var1 = var3.getCurrentUser;
                 var5 = var1.bind(var3)();
                 var4 = null;
@@ -81,11 +85,11 @@ case 3:
 case 2:
                 if(!(var4 == var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 var4 = var3.ENTER_EMAIL;
                 _fun0001_ip = 6; continue _fun0001;
 case 4:
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var4 = var2.RESEND_EMAIL;
 case 6:
                 var3 = _closure2_slot0;
@@ -94,13 +98,15 @@ case 6:
                 return var1;
             }
         };
-        var5['onPress'] = var8;
+        var8['onPress'] = var11;
+        var8 = var10.bind(var4)(var9, var8);
+        var5['children'] = var8;
         var5 = var7.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -121,7 +127,8 @@ case 6:
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -133,26 +140,30 @@ case 6:
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.UserRequiredActions;
-    var _closure1_slot8 = var7;
-    var4 = var4.VerificationModalScenes;
-    var _closure1_slot9 = var4;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var7 = var4.UserRequiredActions;
+    var _closure1_slot9 = var7;
+    var4 = var4.VerificationModalScenes;
     var _closure1_slot10 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var7 = {};
-    var4 = 32;
-    var10 = {'position': 'absolute', 'right': 32, 'bottom': 32, 'left': 32};
-    var7['button'] = var10;
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot11 = var7;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot11 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'position': 'absolute', 'right': 32, 'bottom': 32, 'left': 32};
+    var4['button'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot12 = var4;
+    var4 = 33;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -161,16 +172,16 @@ case 6:
     var2 = function VerificationModal() {
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var2 = 29;
+        var2 = 30;
         var2 = var9[var2];
         var4 = undefined;
         var7 = var8.bind(var4)(var2);
         var5 = var7.useStateFromStores;
-        var2 = _closure1_slot5;
+        var2 = _closure1_slot6;
         var3 = new Array(1);
         var3[0] = var2;
         var2 = function() {
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot6;
             var1 = var2.getCountrySelectorOpened;
             var1 = var1.bind(var2)();
             return var1;
@@ -185,7 +196,7 @@ case 6:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = {};
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
                 var1 = var1.OVERVIEW;
                 var2['name'] = var1;
                 var1 = new Array(1);
@@ -195,7 +206,7 @@ case 0:
 case 8:
                 var3 = var1.push;
                 var2 = {};
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var4 = var4.ADD_PHONE;
                 var2['name'] = var4;
                 var2 = var3.bind(var1)(var2);
@@ -208,7 +219,7 @@ case 7:
         var3 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 30;
+            var1 = 31;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -218,8 +229,8 @@ case 7:
         };
         var2 = new Array(0);
         var2 = var7.bind(var11)(var3, var2);
-        var3 = _closure1_slot10;
-        var1 = 31;
+        var3 = _closure1_slot11;
+        var1 = 32;
         var1 = var9[var1];
         var1 = var8.bind(var4)(var1);
         var2 = var1.Navigator;
@@ -231,7 +242,7 @@ case 7:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 12;
+                    var2 = 13;
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
@@ -243,23 +254,23 @@ case 7:
                     return var1;
                 };
                 var1 = {};
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.CHANGE_EMAIL_COLLECT_REASONS;
                 var2 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var11 = 12;
+                var11 = 13;
                 var5 = var8[var11];
                 var6 = undefined;
                 var5 = var7.bind(var6)(var5);
                 var5 = var5.ImpressionNames;
                 var5 = var5.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var5;
-                var5 = _closure1_slot9;
+                var5 = _closure1_slot10;
                 var5 = var5.CHANGE_EMAIL_COLLECT_REASONS;
                 var5 = var10.bind(var6)(var5);
                 var2['impressionProperties'] = var5;
-                var5 = 13;
+                var5 = 14;
                 var12 = var8[var5];
                 var13 = var7.bind(var6)(var12);
                 var12 = var13.getHeaderNoTitle;
@@ -271,7 +282,7 @@ case 7:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.CHANGE_EMAIL_WARNING;
                 var2 = {};
                 var12 = var8[var11];
@@ -279,7 +290,7 @@ case 7:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.CHANGE_EMAIL_WARNING;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -294,7 +305,7 @@ case 7:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.OVERVIEW;
                 var2 = {};
                 var12 = var8[var11];
@@ -302,7 +313,7 @@ case 7:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.OVERVIEW;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -319,21 +330,21 @@ case 7:
                 var12 = var12.bind(var13)();
                 var2['headerTitle'] = var12;
                 var12 = function headerRight() {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 15;
                     var1 = var9[var1];
                     var3 = undefined;
                     var1 = var8.bind(var3)(var1);
                     var2 = var1.HeaderActionButton;
                     var1 = {};
                     var6 = _closure1_slot1;
-                    var5 = 15;
+                    var5 = 16;
                     var5 = var9[var5];
                     var5 = var6.bind(var3)(var5);
                     var1['source'] = var5;
-                    var5 = 10;
+                    var5 = 11;
                     var6 = var9[var5];
                     var6 = var8.bind(var3)(var6);
                     var7 = var6.intl;
@@ -347,7 +358,7 @@ case 7:
                     var5 = function onPress() {
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
-                        var1 = 16;
+                        var1 = 17;
                         var2 = var10[var1];
                         var1 = undefined;
                         var4 = var9.bind(var1)(var2);
@@ -356,7 +367,7 @@ case 7:
                         var5 = 'VerificationOverviewMore';
                         var2['key'] = var5;
                         var6 = {};
-                        var5 = 10;
+                        var5 = 11;
                         var7 = var10[var5];
                         var7 = var9.bind(var1)(var7);
                         var8 = var7.intl;
@@ -372,7 +383,7 @@ case 7:
                         var5 = function onPress() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 17;
+                            var1 = 18;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -394,10 +405,10 @@ case 7:
                 };
                 var2['headerRight'] = var12;
                 var12 = function render() {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 18;
+                    var1 = 19;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -407,7 +418,7 @@ case 7:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.RESEND_EMAIL;
                 var2 = {};
                 var12 = var8[var11];
@@ -415,7 +426,7 @@ case 7:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.RESEND_EMAIL;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -425,10 +436,10 @@ case 7:
                 var12 = var12.bind(var13)();
                 var2['headerTitle'] = var12;
                 var12 = function render() {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 19;
+                    var1 = 20;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -438,7 +449,7 @@ case 7:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.CHANGE_EMAIL_COMPLETE;
                 var2 = {};
                 var12 = var8[var11];
@@ -446,7 +457,7 @@ case 7:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.RESEND_EMAIL;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -456,10 +467,10 @@ case 7:
                 var12 = var12.bind(var13)();
                 var2['headerTitle'] = var12;
                 var12 = function render() {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 19;
+                    var1 = 20;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -469,7 +480,7 @@ case 7:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.CONFIRM_EMAIL_CHANGE_CODE;
                 var2 = {};
                 var12 = var8[var11];
@@ -477,7 +488,7 @@ case 7:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.CONFIRM_EMAIL_CHANGE_CODE;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -487,10 +498,10 @@ case 7:
                 var12 = var12.bind(var13)();
                 var2['headerTitle'] = var12;
                 var12 = function render() {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 21;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -502,7 +513,7 @@ case 7:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.CONFIRM_EMAIL_CHANGE_START;
                 var2 = {};
                 var12 = var8[var11];
@@ -510,7 +521,7 @@ case 7:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.CONFIRM_EMAIL_CHANGE_START;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -520,10 +531,10 @@ case 7:
                 var12 = var12.bind(var13)();
                 var2['headerTitle'] = var12;
                 var12 = function render() {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 22;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -533,7 +544,7 @@ case 7:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.ENTER_EMAIL;
                 var2 = {};
                 var12 = var8[var11];
@@ -541,7 +552,7 @@ case 7:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.ENTER_EMAIL;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -551,10 +562,10 @@ case 7:
                 var12 = var12.bind(var13)();
                 var2['headerTitle'] = var12;
                 var12 = function render() {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 23;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -566,7 +577,7 @@ case 7:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.ADD_PHONE;
                 var2 = {};
                 var12 = var8[var11];
@@ -574,7 +585,7 @@ case 7:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.ADD_PHONE;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -586,10 +597,10 @@ case 7:
                 var12 = function render(arg1, arg2) {
                     var1 = arg2;
                     var _closure5_slot0 = var1;
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var1 = 23;
+                    var1 = 24;
                     var1 = var8[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -598,7 +609,7 @@ case 7:
                     var10 = var1;
                     var7 = copyDataProperties(var10, var9);
                     var7 = _closure1_slot0;
-                    var6 = 24;
+                    var6 = 25;
                     var6 = var8[var6];
                     var6 = var7.bind(var3)(var6);
                     var6 = var6.ChangePhoneReason;
@@ -608,7 +619,7 @@ case 7:
                     var6 = function onComplete(arg1) {
                         var4 = _closure5_slot0;
                         var3 = var4.push;
-                        var1 = _closure1_slot9;
+                        var1 = _closure1_slot10;
                         var2 = var1.VERIFY_PHONE;
                         var1 = {};
                         var5 = arg1;
@@ -618,7 +629,7 @@ case 7:
                             var _closure7_slot0 = var1;
                             var5 = _closure5_slot0;
                             var4 = var5.push;
-                            var2 = _closure1_slot9;
+                            var2 = _closure1_slot10;
                             var3 = var2.VERIFY_PASSWORD;
                             var2 = {};
                             var7 = true;
@@ -637,21 +648,21 @@ case 10:
 case 11: // try_start_0
                                         var3 = _closure1_slot1;
                                         var5 = _closure1_slot2;
-                                        var2 = 25;
+                                        var2 = 26;
                                         var2 = var5[var2];
                                         var9 = undefined;
                                         var6 = var3.bind(var9)(var2);
                                         var5 = var6.isPhoneReverification;
-                                        var3 = _closure1_slot7;
+                                        var3 = _closure1_slot8;
                                         var2 = var3.getCurrentUser;
                                         var3 = var2.bind(var3)();
-                                        var7 = _closure1_slot6;
+                                        var7 = _closure1_slot7;
                                         var2 = var7.getAction;
                                         var2 = var2.bind(var7)();
                                         var3 = var5.bind(var6)(var3, var2);
                                         var6 = _closure1_slot1;
                                         var10 = _closure1_slot2;
-                                        var2 = 24;
+                                        var2 = 25;
                                         var5 = var10[var2];
                                         var7 = var6.bind(var9)(var5);
                                         if(var3) { _fun0003_ip = 12; continue _fun0003 }
@@ -727,16 +738,16 @@ case 0:
 case 10:
                                         var5 = _closure1_slot0;
                                         var3 = _closure1_slot2;
-                                        var2 = 26;
+                                        var2 = 27;
                                         var2 = var3[var2];
                                         var3 = undefined;
                                         var6 = var5.bind(var3)(var2);
                                         var5 = var6.waitUntil;
                                         var2 = function() {
-                                            var3 = _closure1_slot6;
+                                            var3 = _closure1_slot7;
                                             var2 = var3.getAction;
                                             var2 = var2.bind(var3)();
-                                            var1 = _closure1_slot8;
+                                            var1 = _closure1_slot9;
                                             var1 = var1.REQUIRE_VERIFIED_PHONE;
                                             var1 = var2 !== var1;
                                             return var1;
@@ -749,23 +760,23 @@ case 24:
                                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                                         if(var5) { _fun0004_ip = 15; continue _fun0004 }
 case 25:
-                                        var6 = _closure1_slot6;
+                                        var6 = _closure1_slot7;
                                         var5 = var6.getAction;
                                         var6 = var5.bind(var6)();
-                                        var5 = _closure1_slot8;
+                                        var5 = _closure1_slot9;
                                         var5 = var5.REQUIRE_VERIFIED_EMAIL;
                                         if(!(var6 !== var5)) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
                                         var7 = _closure5_slot0;
                                         var6 = var7.push;
-                                        var5 = _closure1_slot9;
+                                        var5 = _closure1_slot10;
                                         var5 = var5.OVERVIEW;
                                         var5 = var6.bind(var7)(var5);
                                         _fun0004_ip = 28; continue _fun0004;
 case 26:
                                         var6 = _closure5_slot0;
                                         var5 = var6.push;
-                                        var4 = _closure1_slot9;
+                                        var4 = _closure1_slot10;
                                         var4 = var4.PHONE_THEN_EMAIL_INTERSTITIAL;
                                         var4 = var5.bind(var6)(var4);
 case 28:
@@ -805,7 +816,7 @@ case 22:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.VERIFY_PHONE;
                 var2 = {};
                 var12 = var8[var11];
@@ -813,7 +824,7 @@ case 22:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.VERIFY_PHONE;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -823,10 +834,10 @@ case 22:
                 var12 = var12.bind(var13)();
                 var2['headerTitle'] = var12;
                 var12 = function render(arg1) {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 27;
+                    var1 = 28;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -841,7 +852,7 @@ case 22:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.VERIFY_PASSWORD;
                 var2 = {};
                 var12 = var8[var11];
@@ -849,7 +860,7 @@ case 22:
                 var12 = var12.ImpressionNames;
                 var12 = var12.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var12 = var12.VERIFY_PASSWORD;
                 var12 = var10.bind(var6)(var12);
                 var2['impressionProperties'] = var12;
@@ -859,10 +870,10 @@ case 22:
                 var12 = var12.bind(var13)();
                 var2['headerTitle'] = var12;
                 var12 = function render(arg1) {
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 28;
+                    var1 = 29;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -875,7 +886,7 @@ case 22:
                 };
                 var2['render'] = var12;
                 var1[var3] = var2;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot10;
                 var3 = var2.PHONE_THEN_EMAIL_INTERSTITIAL;
                 var2 = {};
                 var11 = var8[var11];
@@ -883,7 +894,7 @@ case 22:
                 var11 = var11.ImpressionNames;
                 var11 = var11.USER_VERIFICATION_MODAL;
                 var2['impressionName'] = var11;
-                var9 = _closure1_slot9;
+                var9 = _closure1_slot10;
                 var9 = var9.PHONE_THEN_EMAIL_INTERSTITIAL;
                 var9 = var10.bind(var6)(var9);
                 var2['impressionProperties'] = var9;
@@ -893,8 +904,8 @@ case 22:
                 var5 = var5.bind(var6)();
                 var2['headerTitle'] = var5;
                 var4 = function render(arg1, arg2) {
-                    var4 = _closure1_slot10;
-                    var3 = _closure1_slot12;
+                    var4 = _closure1_slot11;
+                    var3 = _closure1_slot13;
                     var2 = {};
                     var1 = arg2;
                     var2['navigation'] = var1;
@@ -914,7 +925,7 @@ case 22:
         var6 = var10.bind(var11)(var7, var6);
         var1['screens'] = var6;
         var1['initialRouteStack'] = var5;
-        var5 = 10;
+        var5 = 11;
         var6 = var9[var5];
         var6 = var8.bind(var4)(var6);
         var7 = var6.intl;

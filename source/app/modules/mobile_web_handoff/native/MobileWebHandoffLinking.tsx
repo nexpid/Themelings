@@ -215,11 +215,12 @@ case 22:
                     var14 = _closure1_slot2;
                     var5 = 9;
                     var5 = var14[var5];
-                    var14 = var12.bind(var4)(var5);
-                    var12 = var14.makeUrl;
+                    var15 = var12.bind(var4)(var5);
+                    var14 = var15.makeUrl;
                     var5 = _closure1_slot7;
-                    var5 = var5.LOGIN_HANDOFF;
-                    var20 = var12.bind(var14)(var5);
+                    var12 = var5.LOGIN_HANDOFF;
+                    var5 = false;
+                    var20 = var14.bind(var15)(var12, var5);
                     var12 = var13.prototype;
                     var12 = Object.create(var12, {constructor: {value: var13}});
                     var21 = var12;

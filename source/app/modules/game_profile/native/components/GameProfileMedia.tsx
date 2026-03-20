@@ -497,25 +497,25 @@ case 8:
                     var2 = var6 < var2;
                     var5 = 0;
                     var3 = 0;
-                    if(!var2) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                    if(!var2) { _fun0004_ip = 9; continue _fun0004 }
+case 11:
                     var10 = var7.Math;
                     var9 = var10.abs;
                     var2 = _closure2_slot7;
                     var2 = var2[var6];
                     var2 = var2 - var8;
                     var2 = var9.bind(var10)(var2);
-                    if(!(var2 < var4)) { _fun0004_ip = 6; continue _fun0004 }
+                    if(!(var2 < var4)) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
                     var5 = var6;
                     var4 = var2;
-case 6:
+case 12:
                     var6 = var6 + 1;
                     var2 = _closure2_slot7;
                     var2 = var2.length;
                     var3 = var5;
-                    if(var6 < var2) { _fun0004_ip = 12; continue _fun0004 }
-case 11:
+                    if(var6 < var2) { _fun0004_ip = 11; continue _fun0004 }
+case 9:
                     var2 = _closure2_slot4;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);

@@ -551,7 +551,7 @@ case 0:
                     var5 = 10;
                     var3 = var5;
                     if(!var10) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
+case 18:
                     var3 = 20;
 case 32:
                     var8 = var4.bind(var8)(var3);
@@ -580,10 +580,10 @@ case 32:
                     var3 = var12.isAndroid;
                     var12 = var3.bind(var12)();
                     var3 = var5;
-                    if(!var12) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
-                    var3 = 20;
+                    if(!var12) { _fun0008_ip = 33; continue _fun0008 }
 case 34:
+                    var3 = 20;
+case 33:
                     var10 = var4.bind(var10)(var3);
                     var4 = var10.onStart;
                     var3 = _closure2_slot21;
@@ -599,11 +599,11 @@ case 34:
                     var12 = var3.bind(var4)(var9);
                     var4 = var12.enabled;
                     var3 = _closure2_slot18;
-                    if(!var3) { _fun0008_ip = 36; continue _fun0008 }
-case 37:
+                    if(!var3) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
                     var14 = _closure2_slot16;
                     var3 = !var14;
-case 36:
+case 35:
                     var4 = var4.bind(var12)(var3);
                     var3 = var4.numberOfTaps;
                     var4 = var3.bind(var4)(var8);
@@ -614,10 +614,10 @@ case 36:
                     var12 = var12.bind(var6)(var8);
                     var8 = var12.isAndroid;
                     var8 = var8.bind(var12)();
-                    if(!var8) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
-                    var5 = 20;
+                    if(!var8) { _fun0008_ip = 37; continue _fun0008 }
 case 38:
+                    var5 = 20;
+case 37:
                     var5 = var3.bind(var4)(var5);
                     var4 = var5.onStart;
                     var3 = _closure2_slot23;
@@ -667,7 +667,7 @@ case 0:
                     var2 = _closure2_slot24;
                     var2 = var2.current;
                     if(var2) { _fun0009_ip = 10; continue _fun0009 }
-case 40:
+case 39:
                     var3 = _closure2_slot24;
                     var2 = true;
                     var3['current'] = var2;
@@ -708,8 +708,8 @@ case 12:
             var6 = var4.bind(var5)(var3, var1);
             var1 = _closure1_slot7;
             var4 = _closure1_slot6;
-            if(var1) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+            if(var1) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var3 = _closure1_slot5;
             var1 = {'ref': null, 'style': null, 'automaticallyAdjustContentInsets': false, 'showsHorizontalScrollIndicator': false, 'showsVerticalScrollIndicator': false, 'minimumZoomScale': 1, 'maximumZoomScale': null, 'centerContent': true, 'scrollEventThrottle': 16};
             var1['ref'] = var13;
@@ -720,15 +720,15 @@ case 42:
             var1['maximumZoomScale'] = var8;
             var1['onScroll'] = var7;
             var13 = 'auto';
-            if(!var14) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
-            var13 = 'none';
+            if(!var14) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
+            var13 = 'none';
+case 42:
             var1['pointerEvents'] = var13;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 45; continue _fun0001;
-case 41:
+            _fun0001_ip = 44; continue _fun0001;
+case 40:
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
             var2 = 13;
@@ -745,7 +745,7 @@ case 41:
             var2['onZoomChanged'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 45:
+case 44:
             return var1;
         }
     };

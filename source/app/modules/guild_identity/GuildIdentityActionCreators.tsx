@@ -45,7 +45,7 @@ case 7:
 case 9:
                     var19 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var8 = 3;
+                    var8 = 2;
                     var9 = var9[var8];
                     var21 = var19.bind(var6)(var9);
                     var19 = var21.dispatch;
@@ -134,13 +134,13 @@ case 28:
 case 32: // try_start_0
                     var12 = _closure1_slot0;
                     var15 = _closure1_slot2;
-                    var9 = 4;
+                    var9 = 3;
                     var9 = var15[var9];
                     var9 = var12.bind(var6)(var9);
                     var15 = var9.HTTP;
                     var12 = var15.patch;
                     var9 = {};
-                    var19 = _closure1_slot5;
+                    var19 = _closure1_slot4;
                     var18 = var19.SET_GUILD_MEMBER;
                     var17 = var7;
                     var17 = var18.bind(var19)(var17);
@@ -253,7 +253,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot6 = var4;
+        _closure1_slot5 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -261,7 +261,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot5 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -277,14 +277,10 @@ case 2:
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Endpoints;
-    var _closure1_slot5 = var4;
-    var4 = 5;
+    var _closure1_slot4 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -292,7 +288,7 @@ case 2:
     var4 = var5.bind(var6)(var4);
     var4 = function saveGuildIdentityChanges() {
         var1 = undefined;
-        var4 = _closure1_slot6;
+        var4 = _closure1_slot5;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -304,7 +300,7 @@ case 2:
     var4 = function setCurrentGuild(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -321,7 +317,7 @@ case 2:
     var4 = function initGuildIdentitySettings(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -335,178 +331,10 @@ case 2:
         return var1;
     };
     var3['initGuildIdentitySettings'] = var4;
-    var4 = function setPendingAvatar(arg1) {
-        var2 = _closure1_slot4;
-        var5 = var2.selectedGuildId;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_AVATAR';
-        var2['type'] = var6;
-        var2['guildId'] = var5;
-        var5 = arg1;
-        var2['avatar'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setPendingAvatar'] = var4;
-    var4 = function setPendingCollectiblesItem(arg1) {
-        var2 = _closure1_slot4;
-        var5 = var2.selectedGuildId;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_COLLECTIBLES_ITEM';
-        var2['type'] = var6;
-        var2['guildId'] = var5;
-        var5 = arg1;
-        var2['item'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setPendingCollectiblesItem'] = var4;
-    var4 = function setPendingBanner(arg1) {
-        var2 = _closure1_slot4;
-        var5 = var2.selectedGuildId;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_BANNER';
-        var2['type'] = var6;
-        var2['guildId'] = var5;
-        var5 = arg1;
-        var2['banner'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setPendingBanner'] = var4;
-    var4 = function setPendingBio(arg1) {
-        var2 = _closure1_slot4;
-        var5 = var2.selectedGuildId;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_BIO';
-        var2['type'] = var6;
-        var2['guildId'] = var5;
-        var5 = arg1;
-        var2['bio'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setPendingBio'] = var4;
-    var4 = function setPendingPronouns(arg1) {
-        var2 = _closure1_slot4;
-        var5 = var2.selectedGuildId;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_PRONOUNS';
-        var2['type'] = var6;
-        var2['guildId'] = var5;
-        var5 = arg1;
-        var2['pronouns'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setPendingPronouns'] = var4;
-    var4 = function setPendingNickname(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var2 = _closure1_slot4;
-            var4 = var2.selectedGuildId;
-            var2 = null;
-            if(!(var2 != var4)) { _fun0002_ip = 46; continue _fun0002 }
-case 47:
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.dispatch;
-            var1 = {};
-            var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_NICKNAME';
-            var1['type'] = var5;
-            var1['guildId'] = var4;
-            var4 = arg1;
-            var1['nickname'] = var4;
-            var1 = var2.bind(var3)(var1);
-case 46:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var3['setPendingNickname'] = var4;
-    var4 = function setPendingThemeColors(arg1) {
-        var2 = _closure1_slot4;
-        var5 = var2.selectedGuildId;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_THEME_COLORS';
-        var2['type'] = var6;
-        var2['guildId'] = var5;
-        var5 = arg1;
-        var2['themeColors'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setPendingThemeColors'] = var4;
-    var4 = function setGuildMemberPendingDisplayNameStyles(arg1) {
-        var2 = _closure1_slot4;
-        var5 = var2.selectedGuildId;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_DISPLAY_NAME_STYLES';
-        var2['type'] = var6;
-        var2['guildId'] = var5;
-        var5 = arg1;
-        var2['displayNameStyles'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setGuildMemberPendingDisplayNameStyles'] = var4;
     var4 = function resetPendingMemberChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -521,7 +349,7 @@ case 46:
     var4 = function resetPendingProfileChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -536,7 +364,7 @@ case 46:
     var4 = function resetAllPending() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -551,7 +379,7 @@ case 46:
     var2 = function clearErrors() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);

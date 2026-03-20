@@ -1927,39 +1927,15 @@ case 9:
         return var1;
     };
     var3['getFlattenedAutocompleteResults'] = var5;
-    var5 = function getTotalResults(arg1) {
-        var4 = arg1;
-        var3 = var4.reduce;
-        var2 = function(arg1, arg2) {
-            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
-case 0:
-                var3 = arg1;
-                var2 = arg2;
-                var4 = null;
-                var1 = var3;
-                if(!(var4 != var2)) { _fun0025_ip = 3; continue _fun0025 }
-case 96:
-                var2 = var2.results;
-                var2 = var2.length;
-                var1 = var2 + var3;
-case 3:
-                return var1;
-            }
-        };
-        var1 = 0;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var3['getTotalResults'] = var5;
     var5 = function getQueryFromTokens(arg1) {
-        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var5 = arg1;
             var1 = null;
             var2 = var1 == var5;
             var4 = '';
             var1 = var4;
-            if(var2) { _fun0026_ip = 121; continue _fun0026 }
+            if(var2) { _fun0025_ip = 121; continue _fun0025 }
 case 181:
             var3 = var5.map;
             var2 = function(arg1) {
@@ -2008,12 +1984,12 @@ case 121:
     };
     var3['clearTokenCache'] = var4;
     var4 = function showDatePicker(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var3 = arg1;
             var1 = null;
             var2 = var1 != var3;
-            if(!var2) { _fun0027_ip = 31; continue _fun0027 }
+            if(!var2) { _fun0026_ip = 31; continue _fun0026 }
 case 182:
             var2 = _closure1_slot17;
             var1 = var2[var3];
@@ -2023,7 +1999,7 @@ case 31:
     };
     var3['showDatePicker'] = var4;
     var4 = function filterHasAnswer(arg1, arg2) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var3 = arg2;
             var5 = _closure1_slot14;
@@ -2033,18 +2009,18 @@ case 0:
             var5 = var2.bind(var5)(var1);
             var2 = null;
             var1 = var2 == var3;
-            if(!var1) { _fun0028_ip = 77; continue _fun0028 }
+            if(!var1) { _fun0027_ip = 77; continue _fun0027 }
 case 45:
             var1 = var5;
 case 77:
-            if(var1) { _fun0028_ip = 42; continue _fun0028 }
+            if(var1) { _fun0027_ip = 42; continue _fun0027 }
 case 116:
             var2 = var2 != var3;
-            if(!var2) { _fun0028_ip = 40; continue _fun0028 }
+            if(!var2) { _fun0027_ip = 40; continue _fun0027 }
 case 73:
             var2 = var5;
 case 40:
-            if(!var2) { _fun0028_ip = 183; continue _fun0028 }
+            if(!var2) { _fun0027_ip = 183; continue _fun0027 }
 case 28:
             var5 = _closure1_slot13;
             var4 = var5.test;
@@ -2125,17 +2101,17 @@ case 42:
     };
     var3['refreshSearchTokens'] = var4;
     var4 = function getChannelDisplayName(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var7 = arg1;
             var4 = var7.name;
             var1 = var7.isGroupDM;
             var1 = var1.bind(var7)();
-            if(var1) { _fun0029_ip = 184; continue _fun0029 }
+            if(var1) { _fun0028_ip = 184; continue _fun0028 }
 case 115:
             var1 = var7.isDM;
             var1 = var1.bind(var7)();
-            if(var1) { _fun0029_ip = 67; continue _fun0029 }
+            if(var1) { _fun0028_ip = 67; continue _fun0028 }
 case 45:
             var1 = var7.isThread;
             var1 = var1.bind(var7)();
@@ -2150,16 +2126,16 @@ case 45:
             var6 = null;
             var2 = var6 == var3;
             var5 = undefined;
-            if(var2) { _fun0029_ip = 185; continue _fun0029 }
+            if(var2) { _fun0028_ip = 185; continue _fun0028 }
 case 186:
             var5 = var3.name;
 case 185:
             var2 = var1;
-            if(!(var6 != var5)) { _fun0029_ip = 187; continue _fun0029 }
+            if(!(var6 != var5)) { _fun0028_ip = 187; continue _fun0028 }
 case 159:
             var4 = var3.name;
             var2 = var1;
-            _fun0029_ip = 187; continue _fun0029;
+            _fun0028_ip = 187; continue _fun0028;
 case 67:
             var1 = var7.getRecipientId;
             var6 = var1.bind(var7)();
@@ -2178,7 +2154,7 @@ case 67:
             var3 = var1 == var6;
             var2 = false;
             var4 = var6;
-            if(!var3) { _fun0029_ip = 187; continue _fun0029 }
+            if(!var3) { _fun0028_ip = 187; continue _fun0028 }
 case 188:
             return var1;
 case 184:
@@ -2198,7 +2174,7 @@ case 187:
             var1 = undefined;
             var4 = var3.bind(var1)(var4);
             var1 = var4;
-            if(!var2) { _fun0029_ip = 189; continue _fun0029 }
+            if(!var2) { _fun0028_ip = 189; continue _fun0028 }
 case 190:
             var2 = global;
             var2 = var2.HermesInternal;
@@ -2211,16 +2187,16 @@ case 189:
     };
     var3['getChannelDisplayName'] = var4;
     var4 = function getChannelPlaceholderName(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var5 = arg1;
             var1 = var5.isGroupDM;
             var2 = var1.bind(var5)();
-            if(var2) { _fun0030_ip = 89; continue _fun0030 }
+            if(var2) { _fun0029_ip = 89; continue _fun0029 }
 case 157:
             var2 = var5.isDM;
             var2 = var2.bind(var5)();
-            if(var2) { _fun0030_ip = 11; continue _fun0030 }
+            if(var2) { _fun0029_ip = 11; continue _fun0029 }
 case 158:
             var4 = _closure1_slot5;
             var3 = var4.getTextChannelNameDisambiguations;
@@ -2232,11 +2208,11 @@ case 158:
             var3 = null;
             var6 = var3 == var4;
             var2 = undefined;
-            if(var6) { _fun0030_ip = 66; continue _fun0030 }
+            if(var6) { _fun0029_ip = 66; continue _fun0029 }
 case 191:
             var2 = var4.name;
 case 66:
-            if(!(var3 == var2)) { _fun0030_ip = 192; continue _fun0030 }
+            if(!(var3 == var2)) { _fun0029_ip = 192; continue _fun0029 }
 case 160:
             var2 = var5.name;
 case 192:
@@ -2272,7 +2248,7 @@ case 89:
     };
     var3['getChannelPlaceholderName'] = var4;
     var4 = function isFavoriteSearchEnabled() {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var2 = _closure1_slot8;
             var1 = var2.getCurrentUser;
@@ -2280,13 +2256,13 @@ case 0:
             var1 = null;
             var3 = var1 == var4;
             var2 = undefined;
-            if(var3) { _fun0031_ip = 45; continue _fun0031 }
+            if(var3) { _fun0030_ip = 45; continue _fun0030 }
 case 193:
             var3 = var4.isStaff;
             var2 = var3.bind(var4)();
 case 45:
             var1 = var1 != var2;
-            if(!var1) { _fun0031_ip = 71; continue _fun0031 }
+            if(!var1) { _fun0030_ip = 71; continue _fun0030 }
 case 194:
             var1 = var2;
 case 71:
@@ -2303,21 +2279,21 @@ case 71:
         var _closure2_slot0 = var4;
         var3 = var5.forEach;
         var2 = function(arg1) {
-            _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+            _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
                 var3 = arg1;
                 var4 = var3.type;
                 var1 = _closure1_slot11;
                 var1 = var1.FILTER_IN;
                 var1 = var4 === var1;
-                if(var1) { _fun0032_ip = 71; continue _fun0032 }
+                if(var1) { _fun0031_ip = 71; continue _fun0031 }
 case 34:
                 var4 = var3.type;
                 var2 = _closure1_slot11;
                 var2 = var2.ANSWER_IN;
                 var1 = var4 === var2;
 case 71:
-                if(var1) { _fun0032_ip = 30; continue _fun0032 }
+                if(var1) { _fun0031_ip = 30; continue _fun0031 }
 case 73:
                 var2 = _closure2_slot0;
                 var1 = var2.push;

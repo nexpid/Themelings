@@ -18,6 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CHARGE'] = var1;
     var1 = 'ac_cancel';
     var2['CANCEL'] = var1;
+    var1 = 'ac_modify';
+    var2['MODIFY'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

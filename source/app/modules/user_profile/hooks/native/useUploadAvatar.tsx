@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.PremiumUpsellTypes;
     var _closure1_slot11 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -152,57 +152,57 @@ case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                         if(var4) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                        var13 = var2.base64;
-                        var11 = null;
-                        if(!(var11 != var13)) { _fun0002_ip = 10; continue _fun0002 }
+                        var12 = var2.base64;
+                        var8 = null;
+                        if(!(var8 != var12)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-                        var4 = _closure2_slot0;
-                        if(var4) { _fun0002_ip = 12; continue _fun0002 }
+                        var5 = _closure2_slot0;
+                        if(var5) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                        var6 = _closure1_slot1;
-                        var8 = _closure1_slot2;
-                        var5 = 9;
-                        var5 = var8[var5];
-                        var8 = var6.bind(var3)(var5);
-                        var6 = var8.canUseAnimatedAvatar;
-                        var5 = _closure2_slot2;
-                        var4 = var6.bind(var8)(var5);
+                        var9 = _closure1_slot1;
+                        var10 = _closure1_slot2;
+                        var6 = 9;
+                        var6 = var10[var6];
+                        var10 = var9.bind(var3)(var6);
+                        var9 = var10.canUseAnimatedAvatar;
+                        var6 = _closure2_slot2;
+                        var5 = var9.bind(var10)(var6);
 case 12:
-                        var6 = var13.match;
-                        var5 = global;
-                        var12 = var5.RegExp;
-                        var8 = _closure1_slot8;
-                        var5 = '^';
-                        var15 = var5 + var8;
-                        var5 = var12.prototype;
-                        var8 = Object.create(var5, {constructor: {value: var12}});
+                        var9 = var12.match;
+                        var6 = global;
+                        var13 = var6.RegExp;
+                        var10 = _closure1_slot8;
+                        var6 = '^';
+                        var15 = var6 + var10;
+                        var6 = var13.prototype;
+                        var10 = Object.create(var6, {constructor: {value: var13}});
                         var14 = 'i';
-                        var16 = var8;
-                        var5 = new var16[var12](var15, var14, var13);
-                        var5 = var5 instanceof Object ? var5 : var8;
-                        var5 = var6.bind(var13)(var5);
-                        if(!(var11 != var5)) { _fun0002_ip = 14; continue _fun0002 }
+                        var16 = var10;
+                        var6 = new var16[var13](var15, var14, var13);
+                        var6 = var6 instanceof Object ? var6 : var10;
+                        var6 = var9.bind(var12)(var6);
+                        if(!(var8 != var6)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-                        if(var4) { _fun0002_ip = 14; continue _fun0002 }
+                        if(var5) { _fun0002_ip = 14; continue _fun0002 }
 case 16:
-                        var4 = _closure2_slot3;
-                        var4 = var4.bind(var3)();
+                        var5 = _closure2_slot3;
+                        var5 = var5.bind(var3)();
                         _fun0002_ip = 10; continue _fun0002;
 case 14:
-                        var9 = _closure1_slot0;
-                        var12 = _closure1_slot2;
-                        var8 = 10;
-                        var4 = var12[var8];
-                        var6 = var9.bind(var3)(var4);
-                        var5 = var6.createPendingImage;
-                        var4 = {};
-                        var4['imageUri'] = var13;
-                        var8 = var12[var8];
-                        var9 = var9.bind(var3)(var8);
-                        var8 = var9.generateAvatarDescription;
-                        var8 = var8.bind(var9)();
-                        var4['description'] = var8;
-                        var6 = var5.bind(var6)(var4);
+                        var10 = _closure1_slot0;
+                        var11 = _closure1_slot2;
+                        var9 = 10;
+                        var5 = var11[var9];
+                        var8 = var10.bind(var3)(var5);
+                        var6 = var8.createPendingImage;
+                        var5 = {};
+                        var5['imageUri'] = var12;
+                        var9 = var11[var9];
+                        var10 = var10.bind(var3)(var9);
+                        var9 = var10.generateAvatarDescription;
+                        var9 = var9.bind(var10)();
+                        var5['description'] = var9;
+                        var6 = var6.bind(var8)(var5);
                         var4 = _closure2_slot0;
                         var5 = _closure1_slot0;
                         var7 = _closure1_slot2;
@@ -211,16 +211,15 @@ case 18:
                         var4 = 12;
                         var4 = var7[var4];
                         var9 = var5.bind(var3)(var4);
-                        var8 = var9.setNewPendingAvatar;
-                        var4 = _closure2_slot2;
-                        var11 = var11 == var4;
-                        var4 = undefined;
-                        if(var11) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
-                        var10 = _closure2_slot2;
-                        var4 = var10.avatar;
-case 19:
-                        var4 = var8.bind(var9)(var6, var4);
+                        var8 = var9.setPendingChanges;
+                        var4 = {};
+                        var4['avatar'] = var6;
+                        var4 = var8.bind(var9)(var4);
+                        var4 = 13;
+                        var4 = var7[var4];
+                        var8 = var5.bind(var3)(var4);
+                        var4 = var8.announcePendingAvatarChange;
+                        var4 = var4.bind(var8)(var6);
                         _fun0002_ip = 10; continue _fun0002;
 case 17:
                         var4 = 11;

@@ -2650,7 +2650,7 @@ case 237:
             var14 = var10 == var11;
             var10 = undefined;
             if(var14) { _fun0029_ip = 239; continue _fun0029 }
-case 60:
+case 240:
             var10 = var11.guildScheduledEventId;
 case 239:
             var6['event'] = var10;
@@ -2708,20 +2708,20 @@ case 137:
                     var2 = _closure2_slot0;
                     var5['code'] = var2;
                     var2 = var5;
-                    _fun0030_ip = 240; continue _fun0030;
+                    _fun0030_ip = 241; continue _fun0030;
 case 204:
                     var6 = 'INVITE_APP_OPENED';
                     var5['type'] = var6;
                     var6 = _closure2_slot0;
                     var5['code'] = var6;
                     var2 = var5;
-case 240:
+case 241:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
             };
             var3 = var6.bind(var7)(var8, var3);
-            _fun0029_ip = 241; continue _fun0029;
+            _fun0029_ip = 242; continue _fun0029;
 case 226:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
@@ -2733,7 +2733,7 @@ case 226:
             var2['type'] = var6;
             var2['code'] = var5;
             var2 = var3.bind(var4)(var2);
-case 241:
+case 242:
             return var1;
         }
     };
@@ -2774,25 +2774,25 @@ case 0:
             var6 = null;
             var11 = var6 == var12;
             var8 = undefined;
-            if(var11) { _fun0031_ip = 242; continue _fun0031 }
+            if(var11) { _fun0031_ip = 243; continue _fun0031 }
 case 95:
             var11 = var12.toString;
             var8 = var11.bind(var12)();
-case 242:
+case 243:
             var2['invite_type'] = var8;
             var11 = var6 != var10;
             var8 = null;
             if(!var11) { _fun0031_ip = 117; continue _fun0031 }
-case 243:
+case 244:
             var8 = var10;
 case 117:
             var2['inviter_id'] = var8;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0031_ip = 244; continue _fun0031 }
+            if(!var10) { _fun0031_ip = 245; continue _fun0031 }
 case 11:
             var8 = var9;
-case 244:
+case 245:
             var2['invite_message_id'] = var8;
             var8 = var6 != var7;
             var6 = null;

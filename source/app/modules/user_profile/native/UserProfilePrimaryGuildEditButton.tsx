@@ -130,8 +130,10 @@ case 2:
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
-                var3 = var4.setPendingPrimaryGuildId;
-                var2 = arg1;
+                var3 = var4.setPendingChanges;
+                var2 = {};
+                var5 = arg1;
+                var2['primaryGuildId'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };

@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['errorContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -191,8 +191,15 @@ case 11:
                             var8 = _closure1_slot2;
                             var5 = 15;
                             var5 = var8[var5];
+                            var10 = var6.bind(var3)(var5);
+                            var9 = var10.setPendingChanges;
+                            var5 = {};
+                            var5['avatar'] = var7;
+                            var5 = var9.bind(var10)(var5);
+                            var5 = 16;
+                            var5 = var8[var5];
                             var6 = var6.bind(var3)(var5);
-                            var5 = var6.setPendingAvatar;
+                            var5 = var6.announcePendingAvatarChange;
                             var5 = var5.bind(var6)(var7);
                             var5 = _closure2_slot3;
                             var5 = var5.bind(var3)(var3);
@@ -342,14 +349,14 @@ case 18:
             var7 = {};
             var14 = _closure1_slot10;
             var28 = _closure1_slot0;
-            var19 = 16;
+            var19 = 17;
             var8 = var22[var19];
             var8 = var28.bind(var4)(var8);
             var23 = var8.Text;
             var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var18 = var10.title;
             var8['style'] = var18;
-            var18 = 17;
+            var18 = 18;
             var24 = var22[var18];
             var24 = var28.bind(var4)(var24);
             var26 = var24.intl;
@@ -385,7 +392,7 @@ case 18:
             var8 = var3.bind(var4)(var6, var7);
             var7 = new Array(3);
             var7[0] = var8;
-            var8 = 18;
+            var8 = 19;
             var8 = var22[var8];
             var20 = var20.bind(var4)(var8);
             var8 = {};
@@ -457,7 +464,7 @@ case 20:
             var10 = var10.buttonContainer;
             var6['style'] = var10;
             var17 = _closure1_slot0;
-            var9 = 19;
+            var9 = 20;
             var9 = var14[var9];
             var9 = var17.bind(var4)(var9);
             var10 = var9.Button;
@@ -477,7 +484,7 @@ case 20:
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 21;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);

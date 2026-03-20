@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function closeAddAvatarModal(arg1) {
         var5 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var1 = 6;
+        var1 = 8;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = _closure1_slot3;
         var3 = var5.bind(var6)(var3);
         var3 = _closure1_slot0;
-        var2 = 9;
+        var2 = 11;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.nextOnboardingStep;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot4 = var4;
-    var4 = 10;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -174,13 +174,20 @@ case 6:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 3;
-                var2 = var2[var1];
+                var6 = _closure1_slot2;
+                var1 = 6;
+                var2 = var6[var1];
                 var1 = undefined;
-                var4 = var4.bind(var1)(var2);
-                var2 = var4.setPendingAvatar;
+                var8 = var4.bind(var1)(var2);
+                var7 = var8.setPendingChanges;
+                var2 = {};
                 var5 = null;
+                var2['avatar'] = var5;
+                var2 = var7.bind(var8)(var2);
+                var2 = 7;
+                var2 = var6[var2];
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.announcePendingAvatarChange;
                 var2 = var2.bind(var4)(var5);
                 var4 = _closure2_slot0;
                 if(!(var5 == var4)) { _fun0002_ip = 7; continue _fun0002 }
@@ -207,16 +214,16 @@ case 9:
     var2 = function openAddAvatarModal() {
         var5 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 6;
+        var1 = 8;
         var4 = var3[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
         var5 = var6.pushLazy;
         var7 = _closure1_slot0;
-        var4 = 8;
+        var4 = 10;
         var4 = var3[var4];
         var7 = var7.bind(var1)(var4);
-        var4 = 7;
+        var4 = 9;
         var4 = var3[var4];
         var3 = var3.paths;
         var4 = var7.bind(var1)(var4, var3);

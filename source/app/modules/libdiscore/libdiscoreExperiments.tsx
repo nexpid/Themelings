@@ -424,17 +424,17 @@ case 29:
                 var4 = var1;
 case 28:
                 var1 = 1;
-                if(!(var1 !== var4)) { _fun0008_ip = 30; continue _fun0008 }
+                if(!(var1 !== var4)) { _fun0008_ip = 9; continue _fun0008 }
 case 16:
                 var2 = 'libdiscore';
                 var1 = 2;
-                if(!(var1 !== var4)) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
-                var2 = 'typescript';
-                _fun0008_ip = 31; continue _fun0008;
-case 30:
-                var2 = 'typescript-libdiscore-dual-read';
+                if(!(var1 !== var4)) { _fun0008_ip = 30; continue _fun0008 }
 case 31:
+                var2 = 'typescript';
+                _fun0008_ip = 30; continue _fun0008;
+case 9:
+                var2 = 'typescript-libdiscore-dual-read';
+case 30:
                 var1 = _closure1_slot8;
                 var1 = var1.bind(var3)(var2);
                 return var1;
@@ -454,8 +454,8 @@ case 0:
                 var7 = var1.bind(var2)();
                 var3 = 'typescript';
                 var1 = null;
-                if(!(var3 !== var7)) { _fun0009_ip = 33; continue _fun0009 }
-case 34:
+                if(!(var3 !== var7)) { _fun0009_ip = 15; continue _fun0009 }
+case 32:
                 var11 = var2.storeName;
                 var2 = global;
                 var2 = var2.HermesInternal;
@@ -465,7 +465,7 @@ case 34:
                 var8 = ']';
                 var9 = var7;
                 var1 = var12[var5](var11, var10, var9, var8, var7);
-case 33:
+case 15:
                 return var1;
             }
         };
@@ -587,16 +587,16 @@ case 0:
                 var2 = null;
                 var2 = var2 == var1;
                 var3 = undefined;
-                if(var2) { _fun0010_ip = 35; continue _fun0010 }
-case 36:
+                if(var2) { _fun0010_ip = 33; continue _fun0010 }
+case 34:
                 var3 = var1.treatmentId;
-case 35:
+case 33:
                 var1 = 1;
-                if(!(var1 !== var3)) { _fun0010_ip = 37; continue _fun0010 }
-case 38:
+                if(!(var1 !== var3)) { _fun0010_ip = 35; continue _fun0010 }
+case 36:
                 var2 = 2;
-                if(!(var2 !== var3)) { _fun0010_ip = 39; continue _fun0010 }
-case 40:
+                if(!(var2 !== var3)) { _fun0010_ip = 37; continue _fun0010 }
+case 38:
                 var2 = 3;
                 if(!(var2 !== var3)) { _fun0010_ip = 16; continue _fun0010 }
 case 2:
@@ -604,10 +604,10 @@ case 2:
                 return var2;
 case 16:
                 return var1;
-case 39:
+case 37:
                 var1 = 0.05;
                 return var1;
-case 37:
+case 35:
                 var1 = 0.01;
                 return var1;
             }
@@ -638,28 +638,28 @@ case 0:
                 var5 = var1.bind(var3)();
                 var1 = 0;
                 var1 = var1 !== var5;
-                if(!var1) { _fun0011_ip = 41; continue _fun0011 }
-case 36:
+                if(!var1) { _fun0011_ip = 39; continue _fun0011 }
+case 34:
                 var2 = 1;
                 var2 = var2 === var5;
-                if(var2) { _fun0011_ip = 42; continue _fun0011 }
-case 43:
+                if(var2) { _fun0011_ip = 40; continue _fun0011 }
+case 41:
                 var4 = var3.emissionsCount;
                 var3 = var3.MAX_EMISSIONS_PER_APP_LAUNCH;
                 var4 = var4 >= var3;
                 var3 = !var4;
-                if(var4) { _fun0011_ip = 44; continue _fun0011 }
+                if(var4) { _fun0011_ip = 42; continue _fun0011 }
 case 25:
                 var4 = global;
                 var6 = var4.Math;
                 var4 = var6.random;
                 var4 = var4.bind(var6)();
                 var3 = var4 < var5;
-case 44:
-                var2 = var3;
 case 42:
+                var2 = var3;
+case 40:
                 var1 = var2;
-case 41:
+case 39:
                 return var1;
             }
         };
@@ -814,7 +814,7 @@ case 0:
             var5 = var5.bind(var1)(var3);
             var3 = var5.isLibdiscoreInitialized;
             var3 = var3.bind(var5)();
-            if(!var3) { _fun0012_ip = 45; continue _fun0012 }
+            if(!var3) { _fun0012_ip = 43; continue _fun0012 }
 case 3:
             var6 = _closure1_slot9;
             var5 = var6.info;
@@ -830,7 +830,7 @@ case 3:
             var3 = var2.bind(var3)();
             var2 = var3.clearCache;
             var2 = var2.bind(var3)();
-case 45:
+case 43:
             return var1;
         }
     };

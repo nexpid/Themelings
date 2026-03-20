@@ -1,4 +1,4 @@
-// app/modules/search/tokens/hooks/useSupportedFilterTokens.tsx
+// app/modules/search/tokens/hooks/useValidFilterTokens.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -23,9 +23,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/search/tokens/hooks/useSupportedFilterTokens.tsx';
+    var4 = 'modules/search/tokens/hooks/useValidFilterTokens.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function useSupportedFilterTokens(arg1) {
+    var4 = function useValidOrderedFilterTokens(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
-            var3 = var4.getSupportedFilterTokens;
+            var3 = var4.getValidOrderedFilterTokens;
             var2 = _closure2_slot0;
             var5 = _closure1_slot2;
             var1 = new Array(1);
@@ -56,8 +56,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['useSupportedFilterTokens'] = var4;
-    var2 = function useSupportedFilterTokensSet(arg1) {
+    var3['useValidOrderedFilterTokens'] = var4;
+    var2 = function useValidFilterTokens(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var8 = _closure1_slot0;
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
-            var3 = var4.getSupportedFilterTokensSet;
+            var3 = var4.getValidFilterTokens;
             var2 = _closure2_slot0;
             var5 = _closure1_slot2;
             var1 = new Array(1);
@@ -97,6 +97,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var14[var5](var13, var12, var11, var10, var9);
         return var1;
     };
-    var3['useSupportedFilterTokensSet'] = var2;
+    var3['useValidFilterTokens'] = var2;
     return var1;
 })();

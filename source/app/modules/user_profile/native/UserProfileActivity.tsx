@@ -1507,6 +1507,8 @@ case 138:
                         var1 = {};
                         var7 = _closure2_slot0;
                         var1['user'] = var7;
+                        var7 = _closure2_slot1;
+                        var1['currentUser'] = var7;
                         var7 = _closure2_slot2;
                         var1['activity'] = var7;
                         var7 = _closure2_slot9;

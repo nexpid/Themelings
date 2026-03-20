@@ -11,8 +11,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Object;
     var4 = var7.defineProperty;
     var2 = {};
-    var1 = true;
-    var2['value'] = var1;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
-    var8 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -51,15 +51,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var8 = null;
-    var2['parent'] = var8;
-    var8 = 9;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.GiftIcon;
-    var2['IconComponent'] = var8;
-    var8 = function useCanNavigateToPaymentSetting() {
+    var2['title'] = var11;
+    var11 = null;
+    var2['parent'] = var11;
+    var11 = 9;
+    var11 = var6[var11];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.GiftIcon;
+    var2['IconComponent'] = var11;
+    var11 = function useCanNavigateToPaymentSetting() {
         var4 = _closure1_slot3;
         var3 = var4.useCallback;
         var2 = function() {
@@ -91,8 +91,8 @@ case 2:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['usePreNavigationAction'] = var8;
-    var8 = function usePremiumGiftingSettingTrailing() {
+    var2['usePreNavigationAction'] = var11;
+    var11 = function usePremiumGiftingSettingTrailing() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 5;
@@ -112,7 +112,8 @@ case 2:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['useTrailing'] = var8;
+    var2['useTrailing'] = var11;
+    var2['unsearchable'] = var8;
     var8 = {};
     var10 = var10.PREMIUM_GIFTING;
     var8['route'] = var10;

@@ -110,15 +110,26 @@ case 0:
             var1 = arg1;
             var1 = var1.supplementalGameData;
             var5 = undefined;
-            var _closure2_slot0 = var5;
+            var _closure2_slot1 = var5;
             var3 = _closure1_slot8;
             var13 = var3.bind(var5)();
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var3 = 5;
+            var3 = var7[var3];
+            var4 = var6.bind(var5)(var3);
+            var3 = 6;
+            var3 = var7[var3];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.openURL;
+            var7 = var4.bind(var5)(var3);
+            var _closure2_slot0 = var7;
             var17 = null;
             var3 = var17 == var1;
-            var7 = undefined;
+            var8 = undefined;
             if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = var1.applicationId;
+            var8 = var1.applicationId;
 case 2:
             var3 = var17 == var1;
             var22 = undefined;
@@ -140,50 +151,40 @@ case 8:
 case 7:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 5;
+            var1 = 7;
             var1 = var3[var1];
             var6 = var4.bind(var5)(var1);
             var1 = var6.useSteamWebsiteUrl;
-            var1 = var1.bind(var6)(var7);
-            _closure2_slot0 = var1;
-            var6 = 6;
+            var1 = var1.bind(var6)(var8);
+            _closure2_slot1 = var1;
+            var6 = 8;
             var6 = var3[var6];
-            var9 = var4.bind(var5)(var6);
-            var8 = var9.calculateSteamReviewScoreDescription;
-            var7 = var22.rating;
+            var10 = var4.bind(var5)(var6);
+            var9 = var10.calculateSteamReviewScoreDescription;
+            var8 = var22.rating;
             var6 = var22.ratingCount;
-            var18 = var8.bind(var9)(var7, var6);
-            var21 = 7;
+            var18 = var9.bind(var10)(var8, var6);
+            var21 = 9;
             var3 = var3[var21];
             var4 = var4.bind(var5)(var3);
             var3 = var4.getSteamReviewScoreDescriptionColor;
             var24 = var3.bind(var4)(var18);
             var6 = _closure1_slot3;
             var4 = var6.useCallback;
-            var3 = new Array(1);
+            var3 = new Array(2);
             var3[0] = var1;
+            var3[1] = var7;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = _closure2_slot0;
+                    var3 = _closure2_slot1;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                    var3 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var2 = 8;
-                    var2 = var7[var2];
-                    var6 = undefined;
-                    var3 = var3.bind(var6)(var2);
-                    var2 = var3.openURL;
-                    var5 = _closure1_slot0;
-                    var4 = 9;
-                    var4 = var7[var4];
-                    var5 = var5.bind(var6)(var4);
-                    var4 = var5.addDiscordUtmSourceToUrl;
-                    var1 = _closure2_slot0;
-                    var1 = var4.bind(var5)(var1);
-                    var1 = var2.bind(var3)(var1);
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
 case 9:
                     var1 = undefined;
                     return var1;

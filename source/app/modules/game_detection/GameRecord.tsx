@@ -338,8 +338,10 @@ case 64:
                 var7 = new Array(0);
 case 63:
                 var2['developers'] = var7;
-                var5 = var5.trailers;
-                var2['trailers'] = var5;
+                var7 = var5.trailers;
+                var2['trailers'] = var7;
+                var5 = var5.shop_collection_ids;
+                var2['shopCollectionIds'] = var5;
                 var5 = var3.steam_release_status;
                 var2['steamReleaseStatus'] = var5;
                 var5 = _closure1_slot8;

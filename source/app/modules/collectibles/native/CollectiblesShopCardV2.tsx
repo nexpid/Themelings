@@ -295,7 +295,7 @@ case 0:
                         var2 = var1.actionName;
                         var1 = 'toggleWishlist';
                         if(!(var1 === var2)) { _fun0005_ip = 22; continue _fun0005 }
-case 9:
+case 23:
                         var2 = _closure2_slot5;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
@@ -332,23 +332,23 @@ case 22:
                 var18 = var5.bind(var7)(var25);
                 var5 = 'nitroClaim';
                 var15 = var5 === var11;
-                if(var18) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
-                if(var15) { _fun0002_ip = 23; continue _fun0002 }
+                if(var18) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
+                if(var15) { _fun0002_ip = 24; continue _fun0002 }
+case 26:
                 var7 = null;
-                if(!var16) { _fun0002_ip = 26; continue _fun0002 }
-case 23:
+                if(!var16) { _fun0002_ip = 27; continue _fun0002 }
+case 24:
                 var13 = _closure1_slot6;
                 var8 = _closure1_slot4;
                 var5 = {};
                 var19 = var24.topRowOverlay;
                 var5['style'] = var19;
-                if(var18) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+                if(var18) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
                 var17 = null;
-                if(!var15) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+                if(!var15) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
                 var19 = _closure1_slot5;
                 var18 = _closure1_slot0;
                 var26 = _closure1_slot2;
@@ -360,9 +360,9 @@ case 30:
                 var26 = 'mobile-text-heading-primary';
                 var15['color'] = var26;
                 var17 = var19.bind(var4)(var18, var15);
-case 29:
-                _fun0002_ip = 31; continue _fun0002;
-case 27:
+case 30:
+                _fun0002_ip = 32; continue _fun0002;
+case 28:
                 var19 = _closure1_slot5;
                 var18 = _closure1_slot1;
                 var26 = _closure1_slot2;
@@ -374,11 +374,11 @@ case 27:
                 var25 = var24.badge;
                 var15['style'] = var25;
                 var17 = var19.bind(var4)(var18, var15);
-case 31:
+case 32:
                 var15 = new Array(2);
                 var15[0] = var17;
-                if(!var16) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
+                if(!var16) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
                 var19 = _closure1_slot5;
                 var18 = _closure1_slot0;
                 var25 = _closure1_slot2;
@@ -396,11 +396,11 @@ case 33:
                 var20 = true;
                 var17['accessibilityHidden'] = var20;
                 var16 = var19.bind(var4)(var18, var17);
-case 32:
+case 33:
                 var15[1] = var16;
                 var5['children'] = var15;
                 var7 = var13.bind(var4)(var8, var5);
-case 26:
+case 27:
                 var5 = new Array(3);
                 var5[0] = var7;
                 var13 = _closure1_slot5;
@@ -414,11 +414,11 @@ case 26:
                 var7['product'] = var12;
                 var14 = 'purchased';
                 var14 = var14 === var11;
-                if(var14) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
+                if(var14) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
                 var15 = 'partiallyOwnedBundle';
                 var14 = var15 === var11;
-case 34:
+case 35:
                 var7['isPurchased'] = var14;
                 var7['isDisabled'] = var9;
                 var7 = var13.bind(var4)(var8, var7);
@@ -550,24 +550,24 @@ case 0:
                 var12 = var15.isFreeCollectiblesProduct;
                 var12 = var12.bind(var15)(var18);
                 var15 = var2;
-                if(!var2) { _fun0006_ip = 36; continue _fun0006 }
-case 37:
-                var15 = !var3;
-case 36:
-                if(!var15) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
-                var15 = !var12;
+                if(!var2) { _fun0006_ip = 37; continue _fun0006 }
 case 38:
+                var15 = !var3;
+case 37:
+                if(!var15) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
+                var15 = !var12;
+case 39:
                 _closure2_slot5 = var15;
                 var18 = var12;
-                if(var18) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
-                if(!var2) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
-                var2 = var3;
+                if(var18) { _fun0006_ip = 41; continue _fun0006 }
 case 42:
+                if(!var2) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
+                var2 = var3;
+case 43:
                 var18 = var2;
-case 40:
+case 41:
                 _closure2_slot6 = var18;
                 var12 = _closure1_slot3;
                 var3 = var12.useMemo;
@@ -581,29 +581,29 @@ case 40:
 case 0:
                         var3 = _closure2_slot3;
                         var2 = true;
-                        if(!(var3 !== var2)) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+                        if(!(var3 !== var2)) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
                         var3 = _closure2_slot4;
-                        if(!(var3 !== var2)) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
+                        if(!(var3 !== var2)) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
                         var3 = _closure2_slot5;
-                        if(!(var3 !== var2)) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+                        if(!(var3 !== var2)) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
                         var1 = _closure2_slot6;
-                        if(!(var1 !== var2)) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+                        if(!(var1 !== var2)) { _fun0007_ip = 51; continue _fun0007 }
+case 22:
                         var1 = null;
                         return var1;
-case 50:
+case 51:
                         var1 = 'nitroClaim';
                         return var1;
-case 48:
+case 49:
                         var1 = 'nitroUpsell';
                         return var1;
-case 46:
+case 47:
                         var1 = 'partiallyOwnedBundle';
                         return var1;
-case 44:
+case 45:
                         var1 = 'purchased';
                         return var1;
                     }

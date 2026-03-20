@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var2 = _closure2_slot0;
-                var5 = var2.type;
+                var1 = _closure2_slot0;
+                var5 = var1.type;
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var3 = 6;
@@ -85,108 +85,107 @@ case 0:
                 var3 = var6.bind(var4)(var3);
                 var3 = var3.CollectiblesItemType;
                 var3 = var3.BUNDLE;
-                if(!(var5 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+                if(!(var5 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var3 = _closure2_slot2;
-                var6 = null;
-                if(!(var6 != var3)) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
-                var3 = _closure2_slot3;
-                if(!(var6 == var3)) { _fun0001_ip = 5; continue _fun0001 }
-case 2:
-                var7 = _closure1_slot2;
+                var6 = _closure1_slot2;
                 var3 = _closure2_slot0;
                 var5 = var3.items;
                 var3 = 1;
-                var5 = var7.bind(var4)(var5, var3);
+                var5 = var6.bind(var4)(var5, var3);
                 var3 = 0;
                 var7 = var5[var3];
                 var3 = _closure1_slot4;
                 var3 = var3.bind(var4)(var7);
-                if(var3) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+                if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = _closure1_slot6;
                 var3 = var3.bind(var4)(var7);
-                if(var3) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+                if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var3 = _closure1_slot5;
                 var3 = var3.bind(var4)(var7);
-                if(!var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+                if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var5 = _closure1_slot0;
-                var8 = _closure1_slot1;
+                var6 = _closure1_slot1;
                 var3 = 7;
-                var3 = var8[var3];
-                var5 = var5.bind(var4)(var3);
-                var3 = var5.setNewPendingNameplate;
-                var3 = var3.bind(var5)(var7);
-                _fun0001_ip = 10; continue _fun0001;
-case 8:
-                var5 = _closure1_slot0;
-                var8 = _closure1_slot1;
-                var3 = 7;
-                var3 = var8[var3];
-                var5 = var5.bind(var4)(var3);
-                var3 = var5.setNewPendingProfileEffect;
-                var3 = var3.bind(var5)(var7);
-                _fun0001_ip = 10; continue _fun0001;
+                var3 = var6[var3];
+                var6 = var5.bind(var4)(var3);
+                var5 = var6.setPendingChanges;
+                var3 = {};
+                var3['nameplate'] = var7;
+                var3 = var5.bind(var6)(var3);
+                _fun0001_ip = 8; continue _fun0001;
 case 6:
                 var5 = _closure1_slot0;
-                var8 = _closure1_slot1;
+                var6 = _closure1_slot1;
                 var3 = 7;
-                var3 = var8[var3];
-                var5 = var5.bind(var4)(var3);
-                var3 = var5.setNewPendingAvatarDecoration;
-                var3 = var3.bind(var5)(var7);
-                _fun0001_ip = 10; continue _fun0001;
-case 5:
-                var7 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var5 = 7;
-                var8 = var3[var5];
-                var10 = var7.bind(var4)(var8);
-                var9 = var10.setNewPendingAvatarDecoration;
-                var8 = _closure2_slot3;
-                var8 = var9.bind(var10)(var8);
-                var3 = var3[var5];
-                var8 = var7.bind(var4)(var3);
-                var7 = var8.setNewPendingProfileEffect;
-                var3 = _closure2_slot2;
-                var3 = var7.bind(var8)(var3);
-                var3 = _closure2_slot4;
-                if(!(var6 != var3)) { _fun0001_ip = 10; continue _fun0001 }
-case 12:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var2 = var2[var5];
-                var3 = var3.bind(var4)(var2);
-                var2 = var3.setNewPendingNameplate;
-                var1 = _closure2_slot4;
-                var1 = var2.bind(var3)(var1);
+                var3 = var6[var3];
+                var6 = var5.bind(var4)(var3);
+                var5 = var6.setPendingChanges;
+                var3 = {};
+                var3['profileEffect'] = var7;
+                var3 = var5.bind(var6)(var3);
+                _fun0001_ip = 8; continue _fun0001;
+case 4:
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var3 = 7;
+                var3 = var6[var3];
+                var6 = var5.bind(var4)(var3);
+                var5 = var6.setPendingChanges;
+                var3 = {};
+                var3['avatarDecoration'] = var7;
+                var3 = var5.bind(var6)(var3);
+                _fun0001_ip = 8; continue _fun0001;
+case 2:
+                var3 = {};
+                var5 = _closure2_slot3;
+                var6 = null;
+                if(!(var6 != var5)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+                var5 = _closure2_slot3;
+                var3['avatarDecoration'] = var5;
 case 10:
+                var5 = _closure2_slot2;
+                if(!(var6 != var5)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+                var5 = _closure2_slot2;
+                var3['profileEffect'] = var5;
+case 12:
+                var5 = _closure2_slot4;
+                if(!(var6 != var5)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+                var2 = _closure2_slot4;
+                var3['nameplate'] = var2;
+case 14:
+                var2 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var1 = 7;
+                var1 = var5[var1];
+                var2 = var2.bind(var4)(var1);
+                var1 = var2.setPendingChanges;
+                var1 = var1.bind(var2)(var3);
+case 8:
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var1 = _closure2_slot1;
-                        if(!var1) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                        if(!var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                         var2 = _closure1_slot0;
-                        var4 = _closure1_slot1;
+                        var3 = _closure1_slot1;
                         var1 = 7;
-                        var5 = var4[var1];
-                        var3 = undefined;
-                        var6 = var2.bind(var3)(var5);
-                        var5 = var6.setNewPendingAvatarDecoration;
-                        var5 = var5.bind(var6)(var3);
-                        var5 = var4[var1];
-                        var6 = var2.bind(var3)(var5);
-                        var5 = var6.setNewPendingProfileEffect;
-                        var5 = var5.bind(var6)(var3);
-                        var1 = var4[var1];
-                        var2 = var2.bind(var3)(var1);
-                        var1 = var2.setNewPendingNameplate;
-                        var1 = var1.bind(var2)(var3);
-case 13:
+                        var1 = var3[var1];
+                        var4 = undefined;
+                        var3 = var2.bind(var4)(var1);
+                        var2 = var3.setPendingChanges;
+                        var1 = {};
+                        var1['avatarDecoration'] = var4;
+                        var1['profileEffect'] = var4;
+                        var1['nameplate'] = var4;
+                        var1 = var2.bind(var3)(var1);
+case 16:
                         var1 = undefined;
                         return var1;
                     }

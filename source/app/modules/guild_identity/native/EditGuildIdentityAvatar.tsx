@@ -69,7 +69,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['editAvatarIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = function handleChangeAvatar(arg1) {
+    var4 = function handleChangeAvatar(arg1, arg2) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
         var5 = _closure1_slot1;
         var3 = _closure1_slot2;
         var1 = 9;
@@ -130,12 +132,16 @@ case 9:
                     var10 = var11.generateAvatarDescription;
                     var10 = var10.bind(var11)();
                     var5['description'] = var10;
-                    var8 = var8.bind(var9)(var5);
+                    var9 = var8.bind(var9)(var5);
                     var5 = 14;
                     var5 = var6[var5];
-                    var7 = var7.bind(var3)(var5);
-                    var5 = var7.setPendingAvatar;
-                    var5 = var5.bind(var7)(var8);
+                    var8 = var7.bind(var3)(var5);
+                    var7 = var8.setPendingChanges;
+                    var5 = {};
+                    var10 = _closure2_slot0;
+                    var5['guildId'] = var10;
+                    var5['avatar'] = var9;
+                    var5 = var7.bind(var8)(var5);
                     var5 = _closure1_slot1;
                     var4 = 9;
                     var4 = var6[var4];
@@ -153,10 +159,10 @@ case 2:
             return var1;
         };
         var7 = var8.bind(var1)(var7);
-        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var7;
         var7 = function() {
             var1 = undefined;
-            var4 = _closure2_slot0;
+            var4 = _closure2_slot1;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -172,8 +178,12 @@ case 2:
             var3 = var4[var1];
             var1 = undefined;
             var6 = var5.bind(var1)(var3);
-            var5 = var6.setPendingAvatar;
-            var3 = null;
+            var5 = var6.setPendingChanges;
+            var3 = {};
+            var7 = _closure2_slot0;
+            var3['guildId'] = var7;
+            var7 = null;
+            var3['avatar'] = var7;
             var3 = var5.bind(var6)(var3);
             var3 = _closure1_slot1;
             var2 = 9;
@@ -186,7 +196,7 @@ case 2:
         var3['handleRemoveAvatarSelect'] = var2;
         var2 = false;
         var3['showAnimatedAvatarUpsell'] = var2;
-        var2 = arg1;
+        var2 = arg2;
         var3['showRemoveAvatar'] = var2;
         var2 = 'Change Avatar';
         var2 = var5.bind(var6)(var4, var2, var3);
@@ -331,12 +341,13 @@ case 16:
             _closure2_slot5 = var6;
             var4 = _closure1_slot4;
             var3 = var4.useCallback;
-            var2 = new Array(5);
-            var2[0] = var22;
-            var2[1] = var20;
-            var2[2] = var21;
-            var2[3] = var10;
-            var2[4] = var6;
+            var2 = new Array(6);
+            var2[0] = var19;
+            var2[1] = var22;
+            var2[2] = var20;
+            var2[3] = var21;
+            var2[4] = var10;
+            var2[5] = var6;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -382,10 +393,11 @@ case 23:
                     var3 = var4.bind(var5)(var3);
                     _fun0004_ip = 20; continue _fun0004;
 case 22:
-                    var3 = _closure1_slot16;
+                    var4 = _closure1_slot16;
+                    var3 = _closure2_slot0;
                     var2 = _closure2_slot4;
                     var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
+                    var1 = var4.bind(var1)(var3, var2);
 case 20:
                     var1 = undefined;
                     return var1;

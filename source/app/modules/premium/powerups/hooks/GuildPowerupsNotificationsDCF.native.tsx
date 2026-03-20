@@ -129,6 +129,16 @@ case 8:
         return var1;
     };
     var3['useNewGamesCoachmarkDCF'] = var4;
+    var4 = function useGameServerPricingCoachmarkDCF() {
+        var1 = [null];
+        var2 = function() {
+            var1 = undefined;
+            return var1;
+        };
+        var1[1] = var2;
+        return var1;
+    };
+    var3['useGameServerPricingCoachmarkDCF'] = var4;
     var4 = function useBoostToUnlockCoachmarkDCF() {
         var1 = [null];
         var2 = function() {

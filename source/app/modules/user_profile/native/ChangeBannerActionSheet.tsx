@@ -104,20 +104,22 @@ case 10:
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var4 = arg1;
+                    var5 = arg1;
                     var1 = _closure2_slot0;
-                    if(!(var4 === var1)) { _fun0002_ip = 12; continue _fun0002 }
+                    if(!(var5 === var1)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                    var4 = null;
+                    var5 = null;
 case 12:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 25;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.setPendingAccentColor;
-                    var2 = var2.bind(var3)(var4);
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.setPendingChanges;
+                    var2 = {};
+                    var2['accentColor'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     return var1;
                 }
             };

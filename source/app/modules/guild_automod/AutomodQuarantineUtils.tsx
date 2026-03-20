@@ -23,41 +23,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = 6;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.Permissions;
     var _closure1_slot8 = var7;
     var4 = var4.UserSettingsSections;
     var _closure1_slot9 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.GuildMemberFlags;
     var _closure1_slot10 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ProfileCustomizationSubsection;
     var _closure1_slot11 = var4;
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -68,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var6;
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var3 = 9;
+        var3 = 10;
         var4 = var4[var3];
         var3 = undefined;
         var5 = var5.bind(var3)(var4);
@@ -92,7 +95,7 @@ case 3:
                 var6 = var2.bind(var3)();
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var2 = 10;
+                var2 = 11;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -117,7 +120,7 @@ case 2:
         var _closure2_slot0 = var6;
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var3 = 9;
+        var3 = 10;
         var4 = var4[var3];
         var3 = undefined;
         var5 = var5.bind(var3)(var4);
@@ -165,7 +168,7 @@ case 8:
                 var8 = var4.bind(var5)(var8, var7);
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot1;
-                var4 = 10;
+                var4 = 11;
                 var4 = var7[var4];
                 var7 = var5.bind(var6)(var4);
                 var5 = var7.getAutomodQuarantinedProfileFlags;
@@ -191,7 +194,7 @@ case 14:
 case 16:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot1;
-                var3 = 11;
+                var3 = 12;
                 var4 = var9[var3];
                 var4 = var8.bind(var6)(var4);
                 var7 = var4.intl;
@@ -207,7 +210,7 @@ case 16:
 case 15:
                 var7 = _closure1_slot0;
                 var12 = _closure1_slot1;
-                var4 = 11;
+                var4 = 12;
                 var8 = var12[var4];
                 var8 = var7.bind(var6)(var8);
                 var9 = var8.intl;
@@ -240,7 +243,7 @@ case 13:
 case 21:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot1;
-                var2 = 11;
+                var2 = 12;
                 var3 = var7[var2];
                 var3 = var5.bind(var6)(var3);
                 var4 = var3.intl;
@@ -273,7 +276,7 @@ case 6:
         var7 = var2.analyticsLocations;
         var5 = _closure1_slot0;
         var9 = _closure1_slot1;
-        var2 = 9;
+        var2 = 10;
         var10 = var9[var2];
         var4 = undefined;
         var13 = var5.bind(var4)(var10);
@@ -347,7 +350,7 @@ case 26:
 case 25:
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot1;
-                var6 = 12;
+                var6 = 13;
                 var7 = var7[var6];
                 var6 = undefined;
                 var7 = var8.bind(var6)(var7);
@@ -359,7 +362,7 @@ case 25:
 case 27:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var1 = 13;
+                var1 = 14;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);

@@ -646,12 +646,12 @@ case 0:
                                 var2 = var1.key;
                                 var1 = 'Backspace';
                                 if(!(var1 === var2)) { _fun0008_ip = 33; continue _fun0008 }
-case 11:
+case 27:
                                 var1 = _closure2_slot5;
                                 var1 = var1[var3];
                                 var7 = '';
                                 if(!(var7 === var1)) { _fun0008_ip = 34; continue _fun0008 }
-case 7:
+case 35:
                                 var6 = _closure2_slot6;
                                 var11 = _closure2_slot5;
                                 var1 = 1;
@@ -669,7 +669,7 @@ case 7:
                                 var2 = var2[var1];
                                 var1 = null;
                                 if(!(var1 != var2)) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+case 36:
                                 var1 = var2.focus;
                                 var1 = var1.bind(var2)();
                                 _fun0008_ip = 34; continue _fun0008;
@@ -681,7 +681,7 @@ case 33:
                                 var2 = var2[var1];
                                 var1 = null;
                                 if(!(var1 != var2)) { _fun0008_ip = 34; continue _fun0008 }
-case 36:
+case 37:
                                 var1 = var2.focus;
                                 var1 = var1.bind(var2)();
 case 34:
@@ -706,7 +706,7 @@ case 0:
                             var2 = var2[var6];
                             var7 = var4;
                             if(!(var3 === var2)) { _fun0009_ip = 17; continue _fun0009 }
-case 37:
+case 38:
                             var3 = var4.slice;
                             var2 = 1;
                             var7 = var3.bind(var4)(var2);
@@ -721,10 +721,10 @@ case 17:
                             var2 = var2.bind(var4)();
                             var4 = var2.split;
                             var7 = var4.bind(var2)(var3);
-                            if(!(var3 === var2)) { _fun0009_ip = 38; continue _fun0009 }
-case 39:
+                            if(!(var3 === var2)) { _fun0009_ip = 39; continue _fun0009 }
+case 40:
                             var7 = [''];
-case 38:
+case 39:
                             var9 = _closure2_slot5;
                             var4 = new Array(0);
                             var10 = var4;
@@ -775,12 +775,12 @@ case 38:
                 }
             };
             var8 = var3 < var7;
-            if(!var8) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(!var8) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var8 = var2.bind(var4)(var3);
             var3 = var3 + 1;
-            if(var3 < var7) { _fun0005_ip = 41; continue _fun0005 }
-case 40:
+            if(var3 < var7) { _fun0005_ip = 42; continue _fun0005 }
+case 41:
             var3 = _closure1_slot7;
             var2 = _closure1_slot5;
             var1 = {};

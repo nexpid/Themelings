@@ -39,28 +39,28 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot17 = var2;
+            _closure1_slot18 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
     var4 = {};
-    var11 = true;
-    var4['value'] = var11;
+    var12 = true;
+    var4['value'] = var12;
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
-    var10 = 0;
-    var4 = var6[var10];
+    var11 = 0;
+    var4 = var6[var11];
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var9 = 1;
-    var4 = var6[var9];
+    var10 = 1;
+    var4 = var6[var10];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -82,8 +82,9 @@ case 4:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.DeviceEventEmitter;
-    var _closure1_slot9 = var4;
+    var8 = var4.DeviceEventEmitter;
+    var _closure1_slot9 = var8;
+    var9 = var4.NativeEventEmitter;
     var4 = 7;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -107,25 +108,34 @@ case 4:
     var _closure1_slot14 = var4;
     var4 = 12;
     var4 = var6[var4];
-    var12 = var7.bind(var1)(var4);
-    var4 = var12.prototype;
-    var8 = Object.create(var4, {constructor: {value: var12}});
-    var15 = 'TelecomManager';
-    var16 = var8;
-    var4 = new var16[var12](var15, var14);
+    var13 = var7.bind(var1)(var4);
+    var4 = var13.prototype;
+    var8 = Object.create(var4, {constructor: {value: var13}});
+    var16 = 'TelecomManager';
+    var17 = var8;
+    var4 = new var17[var13](var16, var15);
     var8 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot15 = var8;
     var4 = var8.enableNativeLogger;
-    var4 = var4.bind(var8)(var11);
+    var4 = var4.bind(var8)(var12);
     var4 = {};
-    var4['Connecting'] = var10;
+    var4['Connecting'] = var11;
     var8 = 'Connecting';
-    var4[var10] = var8;
-    var4['Connected'] = var9;
+    var4[var11] = var8;
+    var4['Connected'] = var10;
     var8 = 'Connected';
-    var4[var9] = var8;
+    var4[var10] = var8;
     var _closure1_slot16 = var4;
-    var4 = 20;
+    var4 = 13;
+    var4 = var6[var4];
+    var16 = var7.bind(var1)(var4);
+    var8 = var9.prototype;
+    var8 = Object.create(var8, {constructor: {value: var9}});
+    var17 = var8;
+    var4 = new var17[var9](var16, var15);
+    var4 = var4 instanceof Object ? var4 : var8;
+    var _closure1_slot17 = var4;
+    var4 = 21;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -147,7 +157,7 @@ case 0:
                 var1 = _closure1_slot7;
                 var10 = var1.bind(var5)(var4);
                 var4 = _closure1_slot6;
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot18;
                 var1 = var1.bind(var5)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -200,17 +210,51 @@ case 8:
                 };
                 var3 = var5.bind(var6)(var4, var3);
                 var1['stores'] = var3;
-                var4 = null;
-                var1['currentCall'] = var4;
-                var3 = false;
-                var1['isInitialized'] = var3;
-                var1['lastMuteState'] = var4;
-                var1['lastScreenShareActive'] = var4;
-                var1['pendingScreenShareOffSyncTimeout'] = var4;
-                var1['reconcilePromise'] = var4;
-                var1['needsReconcile'] = var3;
-                var3 = function(arg1) {
+                var3 = null;
+                var1['currentCall'] = var3;
+                var4 = false;
+                var1['isInitialized'] = var4;
+                var1['lastMuteState'] = var3;
+                var1['lastScreenShareActive'] = var3;
+                var1['pendingScreenShareOffSyncTimeout'] = var3;
+                var1['reconcilePromise'] = var3;
+                var1['needsReconcile'] = var4;
+                var1['hostDestroySubscription'] = var3;
+                var3 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var3 = _closure3_slot0;
+                        var1 = var3.isEnabled;
+                        var1 = var1.bind(var3)();
+                        if(!var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                        var2 = _closure3_slot0;
+                        var3 = var2.currentCall;
+                        var2 = null;
+                        var1 = var2 != var3;
+case 9:
+                        if(!var1) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+                        var4 = _closure1_slot15;
+                        var3 = var4.info;
+                        var2 = 'Activity destroyed with active call, disconnecting from voice channel';
+                        var2 = var3.bind(var4)(var2);
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 14;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var2 = var3.bind(var1)(var2);
+                        var1 = var2.disconnect;
+                        var1 = var1.bind(var2)();
+case 11:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var1['handleHostDestroy'] = var3;
+                var3 = function(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var4 = arg1;
                         var6 = _closure1_slot15;
@@ -222,32 +266,32 @@ case 0:
                         var5 = var2.currentCall;
                         var2 = null;
                         var2 = var2 != var5;
-                        if(!var2) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                        if(!var2) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                         var4 = var4.callId;
                         var3 = _closure3_slot0;
                         var3 = var3.currentCall;
                         var3 = var3.channelId;
                         var2 = var4 === var3;
-case 9:
-                        if(!var2) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+case 13:
+                        if(!var2) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 13;
+                        var1 = 14;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
                         var1 = var2.disconnect;
                         var1 = var1.bind(var2)();
-case 11:
+case 15:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1['handleEndCallRequested'] = var3;
                 var3 = function(arg1) {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var4 = _closure1_slot15;
                         var3 = var4.info;
@@ -256,40 +300,40 @@ case 0:
                         var2 = _closure3_slot0;
                         var4 = var2.currentCall;
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                        if(!(var2 != var4)) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
                         var4 = arg1;
                         var5 = var4.callId;
                         var4 = _closure3_slot0;
                         var4 = var4.currentCall;
                         var4 = var4.channelId;
-                        if(!(var5 === var4)) { _fun0004_ip = 13; continue _fun0004 }
-case 15:
+                        if(!(var5 === var4)) { _fun0005_ip = 17; continue _fun0005 }
+case 19:
                         var5 = _closure1_slot11;
                         var4 = var5.getChannel;
                         var3 = _closure3_slot0;
                         var3 = var3.currentCall;
                         var3 = var3.channelId;
                         var4 = var4.bind(var5)(var3);
-                        if(!(var2 != var4)) { _fun0004_ip = 13; continue _fun0004 }
-case 16:
+                        if(!(var2 != var4)) { _fun0005_ip = 17; continue _fun0005 }
+case 20:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 14;
+                        var1 = 15;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.navigateToVoiceChannel;
                         var1 = 'Call Bar';
                         var1 = var2.bind(var3)(var4, var1);
-case 13:
+case 17:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1['handleSetForegroundRequested'] = var3;
                 var3 = function(arg1) {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                         var2 = arg1;
                         var8 = _closure1_slot15;
@@ -304,24 +348,24 @@ case 0:
                         var5 = var3.currentCall;
                         var3 = null;
                         var3 = var3 != var5;
-                        if(!var3) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+                        if(!var3) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
                         var5 = var2.callId;
                         var4 = _closure3_slot0;
                         var4 = var4.currentCall;
                         var4 = var4.channelId;
                         var3 = var5 === var4;
-case 17:
-                        if(!var3) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+case 21:
+                        if(!var3) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
                         var5 = _closure1_slot12;
                         var4 = var5.isSelfMute;
                         var5 = var4.bind(var5)();
                         var4 = var2.isMuted;
                         var3 = var5 !== var4;
-case 19:
-                        if(!var3) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+case 23:
+                        if(!var3) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
                         var5 = _closure1_slot15;
                         var4 = var5.info;
                         var3 = var2.isMuted;
@@ -329,20 +373,20 @@ case 22:
                         var2 = var4.bind(var5)(var2, var3);
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 15;
+                        var1 = 16;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
                         var1 = var2.toggleSelfMute;
                         var1 = var1.bind(var2)();
-case 21:
+case 25:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1['handleMicMuteRequested'] = var3;
                 var2 = function(arg1) {
-                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                         var2 = arg1;
                         var8 = _closure1_slot15;
@@ -356,68 +400,68 @@ case 0:
                         var3 = _closure3_slot0;
                         var5 = var3.currentCall;
                         var3 = null;
-                        if(!(var3 != var5)) { _fun0006_ip = 23; continue _fun0006 }
-case 18:
+                        if(!(var3 != var5)) { _fun0007_ip = 27; continue _fun0007 }
+case 22:
                         var6 = var2.callId;
                         var5 = _closure3_slot0;
                         var5 = var5.currentCall;
                         var5 = var5.channelId;
-                        if(!(var6 === var5)) { _fun0006_ip = 23; continue _fun0006 }
-case 20:
+                        if(!(var6 === var5)) { _fun0007_ip = 27; continue _fun0007 }
+case 24:
                         var6 = _closure1_slot11;
                         var5 = var6.getChannel;
                         var4 = _closure3_slot0;
                         var4 = var4.currentCall;
                         var4 = var4.channelId;
                         var9 = var5.bind(var6)(var4);
-                        if(!(var3 != var9)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+                        if(!(var3 != var9)) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                         var5 = _closure1_slot10;
                         var4 = var5.getCurrentUserActiveStream;
                         var4 = var4.bind(var5)();
                         var3 = var3 != var4;
-                        if(!var3) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+                        if(!var3) { _fun0007_ip = 29; continue _fun0007 }
+case 30:
                         var5 = var4.state;
                         var4 = _closure1_slot14;
                         var4 = var4.ACTIVE;
                         var3 = var5 === var4;
-case 25:
-                        var4 = var2.isEnabled;
-                        if(!var4) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
-                        if(var3) { _fun0006_ip = 27; continue _fun0006 }
 case 29:
+                        var4 = var2.isEnabled;
+                        if(!var4) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
+                        if(var3) { _fun0007_ip = 31; continue _fun0007 }
+case 33:
                         var8 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var4 = 16;
+                        var4 = 17;
                         var4 = var5[var4];
                         var6 = undefined;
                         var7 = var8.bind(var6)(var4);
                         var4 = var7.getVideoPermission;
                         var4 = var4.bind(var7)(var9);
-                        var7 = 17;
+                        var7 = 18;
                         var5 = var5[var7];
                         var8 = var8.bind(var6)(var5);
                         var5 = var8.getOSRequirement;
                         var5 = var5.bind(var8)();
                         var8 = _closure1_slot15;
-                        if(var5) { _fun0006_ip = 30; continue _fun0006 }
-case 31:
+                        if(var5) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
                         var9 = var8.warn;
                         var5 = 'Cannot start screen share from Call Bar: OS version does not meet requirements';
                         var5 = var9.bind(var8)(var5);
                         var5 = undefined;
                         return var5;
-case 30:
-                        if(var4) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+case 34:
+                        if(var4) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
                         var5 = var8.warn;
                         var4 = 'Cannot start screen share from Call Bar: user lacks streaming permission in this channel';
                         var4 = var5.bind(var8)(var4);
                         var4 = undefined;
                         return var4;
-case 32:
+case 36:
                         var5 = var8.info;
                         var4 = 'Starting screen share from Call Bar';
                         var4 = var5.bind(var8)(var4);
@@ -427,29 +471,29 @@ case 32:
                         var5 = var5.bind(var6)(var4);
                         var4 = var5.startStream;
                         var4 = var4.bind(var5)();
-                        _fun0006_ip = 23; continue _fun0006;
-case 27:
+                        _fun0007_ip = 27; continue _fun0007;
+case 31:
                         var2 = var2.isEnabled;
                         var2 = !var2;
-                        if(!var2) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
+                        if(!var2) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
                         var2 = var3;
-case 34:
-                        if(!var2) { _fun0006_ip = 23; continue _fun0006 }
-case 36:
+case 38:
+                        if(!var2) { _fun0007_ip = 27; continue _fun0007 }
+case 40:
                         var4 = _closure1_slot15;
                         var3 = var4.info;
                         var2 = 'Stopping screen share from Call Bar';
                         var2 = var3.bind(var4)(var2);
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
                         var1 = var2.stopScreenshare;
                         var1 = var1.bind(var2)();
-case 23:
+case 27:
                         var1 = undefined;
                         return var1;
                     }
@@ -468,22 +512,35 @@ case 23:
         var1 = '_initialize';
         var5['key'] = var1;
         var1 = function value() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.isInitialized;
                 var1 = !var1;
-                if(!var1) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+                if(!var1) { _fun0008_ip = 41; continue _fun0008 }
+case 42:
                 var3 = var2.isSupported;
                 var1 = var3.bind(var2)();
-case 37:
-                if(!var1) { _fun0007_ip = 39; continue _fun0007 }
-case 40:
+case 41:
+                if(!var1) { _fun0008_ip = 43; continue _fun0008 }
+case 44:
                 var5 = _closure1_slot15;
                 var4 = var5.info;
                 var3 = 'Initializing CallKitManager using Telecom framework';
                 var3 = var4.bind(var5)(var3);
+                var4 = var2.hostDestroySubscription;
+                var3 = null;
+                if(!(var3 != var4)) { _fun0008_ip = 45; continue _fun0008 }
+case 46:
+                var3 = var4.remove;
+                var3 = var3.bind(var4)();
+case 45:
+                var6 = _closure1_slot17;
+                var5 = var6.addListener;
+                var4 = var2.handleHostDestroy;
+                var3 = 'onHostDestroy';
+                var3 = var5.bind(var6)(var3, var4);
+                var2['hostDestroySubscription'] = var3;
                 var5 = _closure1_slot9;
                 var4 = var5.addListener;
                 var3 = var2.handleEndCallRequested;
@@ -503,7 +560,7 @@ case 40:
                 var1 = var4.bind(var5)(var1, var3);
                 var1 = true;
                 var2['isInitialized'] = var1;
-case 39:
+case 43:
                 var1 = undefined;
                 return var1;
             }
@@ -515,35 +572,42 @@ case 39:
         var8 = '_terminate';
         var5['key'] = var8;
         var8 = function value() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.isInitialized;
-                if(!var1) { _fun0008_ip = 41; continue _fun0008 }
+                if(!var1) { _fun0009_ip = 47; continue _fun0009 }
 case 42:
-                var4 = _closure1_slot9;
-                var3 = var4.removeAllListeners;
-                var1 = 'telecom-end-call-requested';
-                var1 = var3.bind(var4)(var1);
-                var3 = var4.removeAllListeners;
-                var1 = 'telecom-set-foreground-requested';
-                var1 = var3.bind(var4)(var1);
-                var3 = var4.removeAllListeners;
-                var1 = 'telecom-mic-mute-requested';
-                var1 = var3.bind(var4)(var1);
-                var3 = var4.removeAllListeners;
-                var1 = 'telecom-screen-share-requested';
-                var1 = var3.bind(var4)(var1);
-                var1 = var2.clearPendingScreenShareOffSync;
-                var1 = var1.bind(var2)();
-                var1 = var2.reportCallEnded;
-                var1 = var1.bind(var2)();
+                var4 = var2.hostDestroySubscription;
                 var1 = null;
+                if(!(var1 != var4)) { _fun0009_ip = 48; continue _fun0009 }
+case 49:
+                var3 = var4.remove;
+                var3 = var3.bind(var4)();
+case 48:
+                var2['hostDestroySubscription'] = var1;
+                var5 = _closure1_slot9;
+                var4 = var5.removeAllListeners;
+                var3 = 'telecom-end-call-requested';
+                var3 = var4.bind(var5)(var3);
+                var4 = var5.removeAllListeners;
+                var3 = 'telecom-set-foreground-requested';
+                var3 = var4.bind(var5)(var3);
+                var4 = var5.removeAllListeners;
+                var3 = 'telecom-mic-mute-requested';
+                var3 = var4.bind(var5)(var3);
+                var4 = var5.removeAllListeners;
+                var3 = 'telecom-screen-share-requested';
+                var3 = var4.bind(var5)(var3);
+                var3 = var2.clearPendingScreenShareOffSync;
+                var3 = var3.bind(var2)();
+                var3 = var2.reportCallEnded;
+                var3 = var3.bind(var2)();
                 var2['reconcilePromise'] = var1;
                 var1 = false;
                 var2['needsReconcile'] = var1;
                 var2['isInitialized'] = var1;
-case 41:
+case 47:
                 var1 = undefined;
                 return var1;
             }
@@ -554,26 +618,26 @@ case 41:
         var8 = 'isSupported';
         var5['key'] = var8;
         var8 = function value() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 18;
+                var1 = 19;
                 var1 = var4[var1];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var1);
                 var1 = var3.isMetaQuest;
                 var1 = var1.bind(var3)();
-                if(!var1) { _fun0009_ip = 43; continue _fun0009 }
-case 44:
+                if(!var1) { _fun0010_ip = 50; continue _fun0010 }
+case 51:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var2 = 19;
+                var2 = 20;
                 var2 = var5[var2];
                 var3 = var3.bind(var4)(var2);
                 var2 = null;
                 var1 = var2 != var3;
-case 43:
+case 50:
                 return var1;
             }
         };
@@ -583,15 +647,15 @@ case 43:
         var8 = 'isEnabled';
         var5['key'] = var8;
         var8 = function value() {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.isSupported;
                 var1 = var1.bind(var2)();
-                if(!var1) { _fun0010_ip = 45; continue _fun0010 }
-case 46:
+                if(!var1) { _fun0011_ip = 52; continue _fun0011 }
+case 53:
                 var1 = var2.isInitialized;
-case 45:
+case 52:
                 return var1;
             }
         };
@@ -601,47 +665,47 @@ case 45:
         var8 = 'reconcileTelecomState';
         var5['key'] = var8;
         var8 = function value() {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var2 = this;
                 var _closure3_slot0 = var2;
                 var3 = var2.isEnabled;
                 var3 = var3.bind(var2)();
-                if(!var3) { _fun0011_ip = 47; continue _fun0011 }
-case 45:
+                if(!var3) { _fun0012_ip = 54; continue _fun0012 }
+case 52:
                 var4 = var2.reconcilePromise;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0011_ip = 48; continue _fun0011 }
-case 49:
+                if(!(var3 != var4)) { _fun0012_ip = 55; continue _fun0012 }
+case 56:
                 var3 = true;
                 var2['needsReconcile'] = var3;
-                _fun0011_ip = 47; continue _fun0011;
-case 48:
+                _fun0012_ip = 54; continue _fun0012;
+case 55:
                 var3 = var2.doReconcile;
                 var4 = var3.bind(var2)();
                 var3 = var4.finally;
                 var1 = function() {
-                    _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                         var2 = _closure3_slot0;
                         var3 = null;
                         var2['reconcilePromise'] = var3;
                         var2 = var2.needsReconcile;
-                        if(!var2) { _fun0012_ip = 50; continue _fun0012 }
-case 51:
+                        if(!var2) { _fun0013_ip = 57; continue _fun0013 }
+case 58:
                         var2 = _closure3_slot0;
                         var1 = false;
                         var2['needsReconcile'] = var1;
                         var1 = var2.reconcileTelecomState;
                         var1 = var1.bind(var2)();
-case 50:
+case 57:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1 = var3.bind(var4)(var1);
                 var2['reconcilePromise'] = var1;
-case 47:
+case 54:
                 var1 = undefined;
                 return var1;
             }
@@ -654,13 +718,13 @@ case 47:
         var8 = _closure1_slot3;
         var7 = function* () {
             var1 = function* anon_0_() {
-                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                     StartGenerator();
                     var8 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0013_ip = 52; continue _fun0013 }
-case 53:
+                    if(var2) { _fun0014_ip = 59; continue _fun0014 }
+case 60:
                     var3 = _closure1_slot13;
                     var2 = var3.getChannelId;
                     var15 = var2.bind(var3)();
@@ -668,24 +732,24 @@ case 53:
                     var14 = var2.bind(var3)();
                     var6 = null;
                     var9 = null;
-                    if(!var14) { _fun0013_ip = 54; continue _fun0013 }
-case 55:
+                    if(!var14) { _fun0014_ip = 61; continue _fun0014 }
+case 62:
                     var2 = var6 != var15;
                     var9 = null;
-                    if(!var2) { _fun0013_ip = 54; continue _fun0013 }
-case 10:
+                    if(!var2) { _fun0014_ip = 61; continue _fun0014 }
+case 14:
                     var9 = var15;
-case 54:
+case 61:
                     var13 = _closure1_slot15;
                     var12 = var13.info;
                     var2 = var8.currentCall;
                     var4 = var6 == var2;
                     var3 = undefined;
                     var11 = undefined;
-                    if(var4) { _fun0013_ip = 56; continue _fun0013 }
+                    if(var4) { _fun0014_ip = 63; continue _fun0014 }
 case 6:
                     var11 = var2.channelId;
-case 56:
+case 63:
                     var23 = 'Reconcile: rtc=';
                     var21 = 'connected=';
                     var19 = 'target=';
@@ -696,71 +760,71 @@ case 56:
                     var18 = var9;
                     var16 = var11;
                     var2 = var24[var12](var23, var22, var21, var20, var19, var18, var17, var16, var15);
-                    if(!(var6 == var9)) { _fun0013_ip = 57; continue _fun0013 }
-case 58:
+                    if(!(var6 == var9)) { _fun0014_ip = 64; continue _fun0014 }
+case 65:
                     var2 = var8.currentCall;
-                    if(!(var6 != var2)) { _fun0013_ip = 59; continue _fun0013 }
-case 60:
+                    if(!(var6 != var2)) { _fun0014_ip = 66; continue _fun0014 }
+case 67:
                     var2 = var8.reportCallEnded;
                     var2 = var2.bind(var8)();
                     SaveGenerator(address=165);
-case 39:
+case 68:
                     return var2;
-case 61:
+case 69:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(!var4) { _fun0013_ip = 59; continue _fun0013 }
-case 62:
+                    if(!var4) { _fun0014_ip = 66; continue _fun0014 }
+case 70:
                     return var2;
-case 57:
+case 64:
                     var4 = var8.currentCall;
                     var7 = var6 == var4;
                     var2 = undefined;
-                    if(var7) { _fun0013_ip = 63; continue _fun0013 }
-case 64:
+                    if(var7) { _fun0014_ip = 71; continue _fun0014 }
+case 72:
                     var2 = var4.channelId;
-case 63:
-                    if(!(var2 === var9)) { _fun0013_ip = 65; continue _fun0013 }
-case 66:
+case 71:
+                    if(!(var2 === var9)) { _fun0014_ip = 73; continue _fun0014 }
+case 74:
                     var2 = var8.currentCall;
                     var4 = var2.state;
                     var2 = _closure1_slot16;
                     var2 = var2.Connected;
-                    if(!(var4 !== var2)) { _fun0013_ip = 59; continue _fun0013 }
-case 65:
+                    if(!(var4 !== var2)) { _fun0014_ip = 66; continue _fun0014 }
+case 73:
                     var2 = var8.currentCall;
                     var2 = var6 != var2;
-                    if(!var2) { _fun0013_ip = 67; continue _fun0013 }
-case 68:
+                    if(!var2) { _fun0014_ip = 75; continue _fun0014 }
+case 76:
                     var4 = var8.currentCall;
                     var4 = var4.channelId;
                     var2 = var4 !== var9;
-case 67:
-                    if(!var2) { _fun0013_ip = 69; continue _fun0013 }
-case 70:
+case 75:
+                    if(!var2) { _fun0014_ip = 77; continue _fun0014 }
+case 78:
                     var4 = var8.endCall;
                     var2 = var8.currentCall;
                     var2 = var4.bind(var8)(var2);
                     SaveGenerator(address=281);
-case 71:
+case 79:
                     return var2;
-case 72:
+case 80:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0013_ip = 73; continue _fun0013 }
-case 69:
+                    if(var4) { _fun0014_ip = 81; continue _fun0014 }
+case 77:
                     var7 = var8.currentCall;
                     var10 = var6 == var7;
                     var4 = undefined;
-                    if(var10) { _fun0013_ip = 74; continue _fun0013 }
-case 75:
+                    if(var10) { _fun0014_ip = 82; continue _fun0014 }
+case 83:
                     var4 = var7.channelId;
-case 74:
-                    if(!(var4 !== var9)) { _fun0013_ip = 23; continue _fun0013 }
-case 76:
+case 82:
+                    if(!(var4 !== var9)) { _fun0014_ip = 27; continue _fun0014 }
+case 84:
                     var7 = _closure1_slot11;
                     var4 = var7.getChannel;
                     var7 = var4.bind(var7)(var9);
-                    if(!(var6 != var7)) { _fun0013_ip = 77; continue _fun0013 }
-case 78:
+                    if(!(var6 != var7)) { _fun0014_ip = 85; continue _fun0014 }
+case 86:
                     var4 = {};
                     var4['channelId'] = var9;
                     var10 = _closure1_slot13;
@@ -768,30 +832,30 @@ case 78:
                     var10 = var9.bind(var10)();
                     var11 = var6 != var10;
                     var9 = null;
-                    if(!var11) { _fun0013_ip = 79; continue _fun0013 }
-case 80:
+                    if(!var11) { _fun0014_ip = 87; continue _fun0014 }
+case 88:
                     var9 = var10;
-case 79:
+case 87:
                     var4['guildId'] = var9;
                     var9 = var7.name;
                     var10 = var6 != var9;
                     var7 = null;
-                    if(!var10) { _fun0013_ip = 81; continue _fun0013 }
-case 82:
+                    if(!var10) { _fun0014_ip = 89; continue _fun0014 }
+case 90:
                     var7 = var9;
-case 81:
+case 89:
                     var4['channelName'] = var7;
                     var7 = _closure1_slot16;
                     var7 = var7.Connecting;
                     var4['state'] = var7;
                     var8['currentCall'] = var4;
-case 23:
+case 27:
                     var4 = var8.currentCall;
                     var7 = var4.state;
                     var4 = _closure1_slot16;
                     var4 = var4.Connecting;
-                    if(!(var7 === var4)) { _fun0013_ip = 59; continue _fun0013 }
-case 83:
+                    if(!(var7 === var4)) { _fun0014_ip = 66; continue _fun0014 }
+case 91:
                     var4 = var8.currentCall;
                     var7 = var4.channelId;
                     var9 = var8.startCall;
@@ -804,42 +868,42 @@ case 83:
                     var4['guildId'] = var10;
                     var4 = var9.bind(var8)(var4);
                     SaveGenerator(address=499);
-case 84:
+case 92:
                     return var4;
-case 85:
+case 93:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                    if(var9) { _fun0013_ip = 86; continue _fun0013 }
-case 87:
-                    if(!var4) { _fun0013_ip = 59; continue _fun0013 }
-case 88:
+                    if(var9) { _fun0014_ip = 94; continue _fun0014 }
+case 95:
+                    if(!var4) { _fun0014_ip = 66; continue _fun0014 }
+case 96:
                     var9 = var8.currentCall;
                     var10 = var6 == var9;
                     var6 = undefined;
-                    if(var10) { _fun0013_ip = 89; continue _fun0013 }
-case 90:
+                    if(var10) { _fun0014_ip = 97; continue _fun0014 }
+case 98:
                     var6 = var9.channelId;
-case 89:
-                    if(!(var6 === var7)) { _fun0013_ip = 91; continue _fun0013 }
-case 92:
+case 97:
+                    if(!(var6 === var7)) { _fun0014_ip = 99; continue _fun0014 }
+case 100:
                     var9 = _closure1_slot13;
                     var6 = var9.isConnected;
                     var6 = var6.bind(var9)();
-                    if(!var6) { _fun0013_ip = 93; continue _fun0013 }
-case 94:
+                    if(!var6) { _fun0014_ip = 101; continue _fun0014 }
+case 102:
                     var9 = _closure1_slot13;
                     var6 = var9.getChannelId;
                     var6 = var6.bind(var9)();
-                    if(!(var6 === var7)) { _fun0013_ip = 93; continue _fun0013 }
-case 95:
+                    if(!(var6 === var7)) { _fun0014_ip = 101; continue _fun0014 }
+case 103:
                     var9 = var8.currentCall;
                     var6 = _closure1_slot16;
                     var6 = var6.Connected;
                     var9['state'] = var6;
                     var6 = var8.setCallActive;
                     var6 = var6.bind(var8)(var7);
-case 59:
+case 66:
                     return var3;
-case 93:
+case 101:
                     var10 = _closure1_slot15;
                     var9 = var10.info;
                     var6 = 'RTCConnectionStore indicates disconnect after startCall, ending call:';
@@ -847,24 +911,24 @@ case 93:
                     var6 = var8.reportCallEnded;
                     var6 = var6.bind(var8)();
                     SaveGenerator(address=645);
-case 96:
+case 104:
                     return var6;
-case 97:
+case 105:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(var8) { _fun0013_ip = 98; continue _fun0013 }
-case 99:
+                    if(var8) { _fun0014_ip = 106; continue _fun0014 }
+case 107:
                     var8 = undefined;
                     return var8;
-case 98:
+case 106:
                     return var6;
-case 91:
+case 99:
                     var9 = _closure1_slot15;
                     var8 = var9.info;
                     var6 = 'Call state changed during startCall, ending orphaned native call:';
                     var6 = var8.bind(var9)(var6, var7);
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var5 = 19;
+                    var5 = 20;
                     var5 = var8[var5];
                     var6 = var6.bind(var3)(var5);
                     var5 = var6.endCall;
@@ -882,13 +946,13 @@ case 91:
                     var5 = var6.bind(var7)(var5);
                     var5 = undefined;
                     return var5;
-case 86:
+case 94:
                     return var4;
-case 77:
+case 85:
                     return var3;
-case 73:
+case 81:
                     return var2;
-case 52:
+case 59:
                     return var1;
                 }
             };
@@ -913,14 +977,14 @@ case 52:
         var5['key'] = var7;
         var7 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     StartGenerator();
                     var3 = arg1;
                     var6 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0014_ip = 100; continue _fun0014 }
-case 46:
+                    if(var4) { _fun0015_ip = 108; continue _fun0015 }
+case 53:
                     var9 = undefined;
                     var2 = undefined;
                     var12 = undefined;
@@ -931,28 +995,28 @@ case 46:
                     var10 = null;
                     var5 = var10 == var3;
                     var4 = undefined;
-                    if(var5) { _fun0014_ip = 10; continue _fun0014 }
-case 101:
+                    if(var5) { _fun0015_ip = 14; continue _fun0015 }
+case 109:
                     var4 = var3.channelId;
-case 10:
+case 14:
                     var3 = var2;
-                    if(!(var4 === var3)) { _fun0014_ip = 17; continue _fun0014 }
-case 102:
+                    if(!(var4 === var3)) { _fun0015_ip = 21; continue _fun0015 }
+case 110:
                     var3 = var6.currentCall;
                     var5 = var3.state;
                     var4 = _closure1_slot16;
                     var4 = var4.Connected;
-                    if(!(var5 !== var4)) { _fun0014_ip = 33; continue _fun0014 }
-case 17:
+                    if(!(var5 !== var4)) { _fun0015_ip = 37; continue _fun0015 }
+case 21:
                     var13 = _closure1_slot15;
                     var11 = var13.info;
                     var8 = var2;
                     var5 = 'Starting Telecom call:';
                     var5 = var11.bind(var13)(var5, var8);
-case 103: // try_start_0
+case 111: // try_start_0
                     var8 = _closure1_slot1;
                     var11 = _closure1_slot2;
-                    var5 = 19;
+                    var5 = 20;
                     var5 = var11[var5];
                     var9 = var8.bind(var9)(var5);
                     var8 = var9.startCall;
@@ -960,23 +1024,23 @@ case 103: // try_start_0
                     var11 = var12;
                     var11 = var10 != var11;
                     var10 = null;
-                    if(!var11) { _fun0014_ip = 104; continue _fun0014 }
-case 39:
+                    if(!var11) { _fun0015_ip = 112; continue _fun0015 }
+case 68:
                     var11 = {};
                     var11['guildId'] = var12;
                     var10 = var11;
-case 104:
+case 112:
                     var5 = var8.bind(var9)(var5, var10);
                     SaveGenerator(address=182);
-case 105:
+case 113:
                     return var5;
-case 106:
+case 114:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                    if(var8) { _fun0014_ip = 107; continue _fun0014 }
-case 108:
+                    if(var8) { _fun0015_ip = 115; continue _fun0015 }
+case 116:
                     var7 = var5;
-                    if(var5) { _fun0014_ip = 109; continue _fun0014 }
-case 110:
+                    if(var5) { _fun0015_ip = 117; continue _fun0015 }
+case 118:
                     var10 = _closure1_slot15;
                     var9 = var10.warn;
                     var8 = 'Native startCall returned false, clearing call state';
@@ -984,11 +1048,11 @@ case 110:
                     var9 = var6.clearCall;
                     var8 = var2;
                     var8 = var9.bind(var6)(var8);
-case 109: // try_end0
+case 117: // try_end0
                     return var7;
-case 107:
+case 115:
                     return var5;
-case 111: // catch_target0
+case 119: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var7 = _closure1_slot15;
                     var5 = var7.warn;
@@ -999,7 +1063,7 @@ case 111: // catch_target0
                     var4 = var5.bind(var6)(var4);
                     var4 = false;
                     return var4;
-case 33:
+case 37:
                     var5 = _closure1_slot15;
                     var4 = var5.info;
                     var3 = var2;
@@ -1007,7 +1071,7 @@ case 33:
                     var2 = var4.bind(var5)(var2, var3);
                     var2 = true;
                     return var2;
-case 100:
+case 108:
                     return var1;
                 }
             };
@@ -1042,7 +1106,7 @@ case 100:
             var4 = var6.bind(var7)(var4, var5);
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var3 = 19;
+            var3 = 20;
             var4 = var4[var3];
             var3 = undefined;
             var4 = var5.bind(var3)(var4);
@@ -1084,7 +1148,7 @@ case 100:
         var7 = 'reportCallEnded';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var3 = this;
                 var4 = _closure1_slot15;
@@ -1093,19 +1157,19 @@ case 0:
                 var1 = var2.bind(var4)(var1);
                 var2 = var3.currentCall;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0015_ip = 112; continue _fun0015 }
-case 113:
+                if(!(var1 != var2)) { _fun0016_ip = 120; continue _fun0016 }
+case 12:
                 var2 = var3.endCall;
                 var1 = var3.currentCall;
                 var1 = var2.bind(var3)(var1);
-                _fun0015_ip = 114; continue _fun0015;
-case 112:
+                _fun0016_ip = 121; continue _fun0016;
+case 120:
                 var2 = global;
                 var4 = var2.Promise;
                 var3 = var4.resolve;
                 var2 = true;
                 var1 = var3.bind(var4)(var2);
-case 114:
+case 121:
                 return var1;
             }
         };
@@ -1115,7 +1179,7 @@ case 114:
         var7 = 'setCallActive';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var6 = arg1;
                 var3 = this;
@@ -1124,18 +1188,18 @@ case 0:
                 var5 = var1 == var4;
                 var1 = undefined;
                 var2 = undefined;
-                if(var5) { _fun0016_ip = 115; continue _fun0016 }
-case 37:
+                if(var5) { _fun0017_ip = 122; continue _fun0017 }
+case 41:
                 var2 = var4.channelId;
-case 115:
-                if(!(var2 !== var6)) { _fun0016_ip = 116; continue _fun0016 }
-case 49:
+case 122:
+                if(!(var2 !== var6)) { _fun0017_ip = 123; continue _fun0017 }
+case 56:
                 var5 = _closure1_slot15;
                 var4 = var5.warn;
                 var2 = 'setCallActive called for unknown channel:';
                 var2 = var4.bind(var5)(var2, var6);
-                _fun0016_ip = 117; continue _fun0016;
-case 116:
+                _fun0017_ip = 124; continue _fun0017;
+case 123:
                 var7 = _closure1_slot15;
                 var5 = var7.info;
                 var2 = 'Setting call active:';
@@ -1145,7 +1209,7 @@ case 116:
                 var2 = var2.bind(var5)();
                 var5 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var4 = 19;
+                var4 = 20;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.setCallActive;
@@ -1153,7 +1217,7 @@ case 116:
                 var3['lastMuteState'] = var2;
                 var2 = false;
                 var3['lastScreenShareActive'] = var2;
-case 117:
+case 124:
                 return var1;
             }
         };
@@ -1175,20 +1239,20 @@ case 117:
         var7 = 'clearPendingScreenShareOffSync';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                 var2 = this;
                 var3 = var2.pendingScreenShareOffSyncTimeout;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0017_ip = 118; continue _fun0017 }
-case 38:
+                if(!(var1 != var3)) { _fun0018_ip = 125; continue _fun0018 }
+case 42:
                 var3 = global;
                 var5 = var3.clearTimeout;
                 var4 = var2.pendingScreenShareOffSyncTimeout;
                 var3 = undefined;
                 var3 = var5.bind(var3)(var4);
                 var2['pendingScreenShareOffSyncTimeout'] = var1;
-case 118:
+case 125:
                 var1 = undefined;
                 return var1;
             }
@@ -1199,7 +1263,7 @@ case 118:
         var7 = 'clearCall';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var3 = this;
                 var4 = var3.currentCall;
@@ -1207,20 +1271,20 @@ case 0:
                 var6 = var2 == var4;
                 var1 = undefined;
                 var5 = undefined;
-                if(var6) { _fun0018_ip = 119; continue _fun0018 }
-case 45:
+                if(var6) { _fun0019_ip = 49; continue _fun0019 }
+case 52:
                 var5 = var4.channelId;
-case 119:
-                var4 = arg1;
-                if(!(var5 === var4)) { _fun0018_ip = 120; continue _fun0018 }
 case 49:
+                var4 = arg1;
+                if(!(var5 === var4)) { _fun0019_ip = 126; continue _fun0019 }
+case 56:
                 var3['currentCall'] = var2;
                 var3['lastMuteState'] = var2;
                 var2 = var3.clearScreenShareState;
                 var2 = var2.bind(var3)();
                 var2 = var3.clearPendingScreenShareOffSync;
                 var2 = var2.bind(var3)();
-case 120:
+case 126:
                 return var1;
             }
         };
@@ -1230,28 +1294,28 @@ case 120:
         var7 = 'handleMuteStoreChange';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var1 = this;
                 var2 = var1.isEnabled;
                 var2 = var2.bind(var1)();
-                if(!var2) { _fun0019_ip = 121; continue _fun0019 }
-case 122:
+                if(!var2) { _fun0020_ip = 127; continue _fun0020 }
+case 128:
                 var3 = var1.currentCall;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0019_ip = 121; continue _fun0019 }
-case 49:
+                if(!(var2 != var3)) { _fun0020_ip = 127; continue _fun0020 }
+case 56:
                 var2 = var1.currentCall;
                 var4 = var2.state;
                 var3 = _closure1_slot16;
                 var3 = var3.Connected;
-                if(!(var4 === var3)) { _fun0019_ip = 121; continue _fun0019 }
-case 123:
+                if(!(var4 === var3)) { _fun0020_ip = 127; continue _fun0020 }
+case 129:
                 var4 = _closure1_slot12;
                 var3 = var4.isSelfMute;
                 var4 = var3.bind(var4)();
                 var3 = var1.lastMuteState;
-                if(!(var3 !== var4)) { _fun0019_ip = 121; continue _fun0019 }
+                if(!(var3 !== var4)) { _fun0020_ip = 127; continue _fun0020 }
 case 6:
                 var1['lastMuteState'] = var4;
                 var6 = _closure1_slot15;
@@ -1260,7 +1324,7 @@ case 6:
                 var3 = var5.bind(var6)(var3, var4);
                 var5 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 19;
+                var2 = 20;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -1268,7 +1332,7 @@ case 6:
                 var1 = var1.currentCall;
                 var1 = var1.channelId;
                 var1 = var2.bind(var3)(var1, var4);
-case 121:
+case 127:
                 var1 = undefined;
                 return var1;
             }
@@ -1279,43 +1343,43 @@ case 121:
         var7 = 'handleScreenShareStoreChange';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var1 = this;
                 var _closure3_slot0 = var1;
                 var2 = var1.isEnabled;
                 var2 = var2.bind(var1)();
-                if(!var2) { _fun0020_ip = 124; continue _fun0020 }
-case 37:
+                if(!var2) { _fun0021_ip = 130; continue _fun0021 }
+case 41:
                 var2 = var1.currentCall;
                 var4 = null;
-                if(!(var4 != var2)) { _fun0020_ip = 124; continue _fun0020 }
-case 125:
+                if(!(var4 != var2)) { _fun0021_ip = 130; continue _fun0021 }
+case 131:
                 var2 = var1.currentCall;
                 var6 = var2.state;
                 var5 = _closure1_slot16;
                 var5 = var5.Connected;
-                if(!(var6 === var5)) { _fun0020_ip = 124; continue _fun0020 }
-case 15:
+                if(!(var6 === var5)) { _fun0021_ip = 130; continue _fun0021 }
+case 19:
                 var6 = _closure1_slot10;
                 var5 = var6.getCurrentUserActiveStream;
                 var5 = var5.bind(var6)();
                 var4 = var4 != var5;
-                if(!var4) { _fun0020_ip = 126; continue _fun0020 }
-case 127:
+                if(!var4) { _fun0021_ip = 132; continue _fun0021 }
+case 133:
                 var6 = var5.state;
                 var5 = _closure1_slot14;
                 var5 = var5.ACTIVE;
                 var4 = var6 === var5;
-case 126:
+case 132:
                 var5 = var1.lastScreenShareActive;
-                if(!(var5 !== var4)) { _fun0020_ip = 124; continue _fun0020 }
-case 22:
+                if(!(var5 !== var4)) { _fun0021_ip = 130; continue _fun0021 }
+case 26:
                 var1['lastScreenShareActive'] = var4;
                 var5 = var1.clearPendingScreenShareOffSync;
                 var5 = var5.bind(var1)();
-                if(var4) { _fun0020_ip = 128; continue _fun0020 }
-case 129:
+                if(var4) { _fun0021_ip = 134; continue _fun0021 }
+case 135:
                 var4 = var1.currentCall;
                 var4 = var4.channelId;
                 var _closure3_slot1 = var4;
@@ -1323,35 +1387,35 @@ case 129:
                 var6 = var4.setTimeout;
                 var5 = undefined;
                 var4 = function() {
-                    _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+                    _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                         var3 = _closure3_slot0;
                         var4 = null;
                         var3['pendingScreenShareOffSyncTimeout'] = var4;
                         var2 = var3.isEnabled;
                         var2 = var2.bind(var3)();
-                        if(!var2) { _fun0021_ip = 116; continue _fun0021 }
-case 130:
+                        if(!var2) { _fun0022_ip = 123; continue _fun0022 }
+case 136:
                         var3 = _closure3_slot0;
                         var3 = var3.currentCall;
                         var5 = var4 == var3;
                         var4 = undefined;
-                        if(var5) { _fun0021_ip = 131; continue _fun0021 }
-case 55:
+                        if(var5) { _fun0022_ip = 137; continue _fun0022 }
+case 62:
                         var4 = var3.channelId;
-case 131:
+case 137:
                         var3 = _closure3_slot1;
                         var2 = var4 === var3;
-case 116:
-                        if(!var2) { _fun0021_ip = 132; continue _fun0021 }
-case 102:
+case 123:
+                        if(!var2) { _fun0022_ip = 138; continue _fun0022 }
+case 110:
                         var5 = _closure1_slot15;
                         var4 = var5.info;
                         var3 = 'Syncing Discord -> Call Bar screen share state: false (delayed)';
                         var3 = var4.bind(var5)(var3);
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var2 = 19;
+                        var2 = 20;
                         var3 = var3[var2];
                         var2 = undefined;
                         var5 = var4.bind(var2)(var3);
@@ -1360,7 +1424,7 @@ case 102:
                         var2 = true;
                         var1 = false;
                         var1 = var4.bind(var5)(var3, var2, var1);
-case 132:
+case 138:
                         var1 = undefined;
                         return var1;
                     }
@@ -1368,15 +1432,15 @@ case 132:
                 var3 = 400;
                 var3 = var6.bind(var5)(var4, var3);
                 var1['pendingScreenShareOffSyncTimeout'] = var3;
-                _fun0020_ip = 124; continue _fun0020;
-case 128:
+                _fun0021_ip = 130; continue _fun0021;
+case 134:
                 var5 = _closure1_slot15;
                 var4 = var5.info;
                 var3 = 'Syncing Discord -> Call Bar screen share state: true';
                 var3 = var4.bind(var5)(var3);
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 19;
+                var2 = 20;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -1385,7 +1449,7 @@ case 128:
                 var2 = var1.channelId;
                 var1 = true;
                 var1 = var3.bind(var4)(var2, var1, var1);
-case 124:
+case 130:
                 var1 = undefined;
                 return var1;
             }
@@ -1398,10 +1462,10 @@ case 124:
     var2 = var2.bind(var1)(var4);
     var4 = var2.prototype;
     var4 = Object.create(var4, {constructor: {value: var2}});
-    var16 = var4;
-    var2 = new var16[var2](var15);
+    var17 = var4;
+    var2 = new var17[var2](var16);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

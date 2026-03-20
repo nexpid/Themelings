@@ -426,7 +426,7 @@ case 10:
         var3 = 15;
         var3 = var8[var3];
         var10 = var2.bind(var4)(var3);
-        var3 = var10.useSupportedFilterTokensSet;
+        var3 = var10.useValidFilterTokens;
         var16 = var3.bind(var10)(var9);
         var _closure2_slot5 = var16;
         var11 = _closure1_slot4;

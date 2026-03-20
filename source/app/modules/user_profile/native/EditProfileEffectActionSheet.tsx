@@ -128,7 +128,7 @@ case 4:
             var9 = var9.bind(var5)(var2);
             var2 = var15.id;
             var9 = var9.bind(var5)(var2, var16);
-            var2 = 16;
+            var2 = 24;
             var2 = var4[var2];
             var4 = var3.bind(var5)(var2);
             var3 = var4.getProfilePreviewValue;
@@ -176,7 +176,7 @@ case 11:
 case 14:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 24;
+                    var2 = 25;
                     var2 = var4[var2];
                     var5 = undefined;
                     var4 = var3.bind(var5)(var2);
@@ -205,14 +205,14 @@ case 18:
             var9 = _closure1_slot10;
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var4 = 25;
+            var4 = 26;
             var4 = var21[var4];
             var4 = var20.bind(var5)(var4);
             var8 = var4.Text;
             var4 = {'variant': 'redesign/heading-18/bold', 'style': null, 'accessibilityRole': 'header'};
             var17 = var11.title;
             var4['style'] = var17;
-            var17 = 26;
+            var17 = 27;
             var18 = var21[var17];
             var18 = var20.bind(var5)(var18);
             var19 = var18.intl;
@@ -244,7 +244,7 @@ case 19:
             var9 = _closure1_slot10;
             var8 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var7 = 27;
+            var7 = 28;
             var7 = var16[var7];
             var8 = var8.bind(var5)(var7);
             var7 = {};
@@ -258,7 +258,7 @@ case 21:
             var7['previewSkuId'] = var13;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var13 = 26;
+            var13 = 27;
             var14 = var17[var13];
             var14 = var16.bind(var5)(var14);
             var18 = var14.intl;
@@ -300,7 +300,7 @@ case 24:
                     var6 = _closure1_slot10;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 28;
+                    var2 = 29;
                     var2 = var4[var2];
                     var5 = undefined;
                     var4 = var3.bind(var5)(var2);
@@ -354,7 +354,7 @@ case 0:
             var10 = var2.guildId;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 29;
+            var2 = 30;
             var2 = var4[var2];
             var4 = undefined;
             var2 = var5.bind(var4)(var2);
@@ -416,7 +416,7 @@ case 32:
 case 35:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var7 = 26;
+            var7 = 27;
             var8 = var14[var7];
             var8 = var13.bind(var4)(var8);
             var12 = var8.intl;
@@ -430,7 +430,7 @@ case 35:
 case 34:
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var8 = 26;
+            var8 = 27;
             var13 = var15[var8];
             var13 = var12.bind(var4)(var13);
             var14 = var13.intl;
@@ -448,7 +448,7 @@ case 36:
             var8 = _closure1_slot10;
             var7 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var6 = 30;
+            var6 = 31;
             var6 = var12[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -468,7 +468,7 @@ case 37:
         }
     };
     var _closure1_slot14 = var5;
-    var5 = 31;
+    var5 = 32;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -695,17 +695,20 @@ case 59:
                     var1 = 16;
                     var5 = var2[var1];
                     var1 = undefined;
-                    var7 = var3.bind(var1)(var5);
-                    var6 = var7.setNewPendingProfileEffect;
-                    var1 = _closure2_slot4;
-                    var5 = null;
-                    var1 = var5 != var1;
-                    if(!var1) { _fun0008_ip = 60; continue _fun0008 }
+                    var6 = var3.bind(var1)(var5);
+                    var5 = var6.setPendingChanges;
+                    var1 = {};
+                    var7 = _closure2_slot1;
+                    var1['guildId'] = var7;
+                    var8 = _closure2_slot4;
+                    var7 = null;
+                    var8 = var7 != var8;
+                    if(!var8) { _fun0008_ip = 60; continue _fun0008 }
 case 61:
-                    var5 = _closure2_slot4;
+                    var7 = _closure2_slot4;
 case 60:
-                    var1 = _closure2_slot1;
-                    var1 = var6.bind(var7)(var5, var1);
+                    var1['profileEffect'] = var7;
+                    var1 = var5.bind(var6)(var1);
                     _fun0008_ip = 62; continue _fun0008;
 case 58:
                     var1 = 15;
@@ -716,10 +719,10 @@ case 58:
                     var5 = _closure2_slot4;
                     var1 = null;
                     var5 = var1 != var5;
-                    if(!var5) { _fun0008_ip = 63; continue _fun0008 }
-case 13:
-                    var1 = _closure2_slot4;
+                    if(!var5) { _fun0008_ip = 55; continue _fun0008 }
 case 63:
+                    var1 = _closure2_slot4;
+case 55:
                     var1 = var2.bind(var3)(var1);
 case 62:
                     var1 = undefined;
