@@ -1715,6 +1715,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MAX_PREMIUM_TIER_2_ATTACHMENT_SIZE'] = var43;
     var3['MAX_BOOSTED_GUILD_TIER_2_ATTACHMENT_SIZE'] = var42;
     var3['MAX_BOOSTED_GUILD_TIER_3_ATTACHMENT_SIZE'] = var41;
+    var3['MAX_GUILD_FILE_SIZE_50_MB'] = var42;
+    var3['MAX_GUILD_FILE_SIZE_100_MB'] = var41;
+    var41 = 262144000;
+    var3['MAX_GUILD_FILE_SIZE_250_MB'] = var41;
     var3['DEFAULT_STICKER_SLOTS'] = var40;
     var3['IncrementalStickerCountsByTier'] = var39;
     var3['TotalStickerCountsByTier'] = var38;

@@ -27,7 +27,7 @@ case 0:
         var4 = 1;
         var4 = var8[var4];
         var9 = var7.bind(var1)(var4);
-        var4 = var9.isAndroid;
+        var4 = var9.isFabric;
         var4 = var4.bind(var9)();
         if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:

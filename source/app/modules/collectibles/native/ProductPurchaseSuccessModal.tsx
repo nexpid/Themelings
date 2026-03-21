@@ -503,7 +503,7 @@ case 26:
         }
     };
     var _closure1_slot22 = var4;
-    var4 = 40;
+    var4 = 41;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -513,7 +513,7 @@ case 26:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var36 = var1.product;
+            var37 = var1.product;
             var15 = var1.useCategoryImage;
             var4 = undefined;
             if(!(var15 === var4)) { _fun0004_ip = 27; continue _fun0004 }
@@ -545,7 +545,7 @@ case 31:
             var1 = 19;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
-            var1 = var36.styles;
+            var1 = var37.styles;
             var1 = var2.bind(var4)(var1);
             var43 = var1.backgroundColors;
             var24 = null;
@@ -557,7 +557,7 @@ case 34:
 case 33:
             var3 = var24 != var1;
             var2 = _closure1_slot15;
-            var1 = var36.type;
+            var1 = var37.type;
             var9 = var2.bind(var4)(var1, var3);
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -694,7 +694,7 @@ case 41:
                 return var1;
             };
             var30 = var8.bind(var10)(var7, var1);
-            var8 = var36.type;
+            var8 = var37.type;
             var29 = 9;
             var1 = var3[var29];
             var1 = var2.bind(var4)(var1);
@@ -935,7 +935,7 @@ case 46:
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.useFetchCollectiblesProductCategory;
-            var1 = var36.skuId;
+            var1 = var37.skuId;
             var1 = var2.bind(var3)(var1);
             var1 = var1.category;
             var2 = var24 == var1;
@@ -945,11 +945,11 @@ case 49:
             var13 = var1.mobileBgUrl;
 case 48:
             var2 = _closure1_slot3;
-            var1 = var36.items;
+            var1 = var37.items;
             var34 = 1;
             var1 = var2.bind(var4)(var1, var34);
-            var37 = 0;
-            var33 = var1[var37];
+            var36 = 0;
+            var33 = var1[var36];
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 26;
@@ -957,7 +957,7 @@ case 48:
             var8 = var2.bind(var4)(var1);
             var7 = var8.useHandleUseNow;
             var1 = {};
-            var1['product'] = var36;
+            var1['product'] = var37;
             var1['onSuccess'] = var11;
             var1 = var7.bind(var8)(var1);
             var21 = var1.handleUseNow;
@@ -1013,18 +1013,18 @@ case 48:
             var5 = var2.bind(var4)(var1);
             var1 = var5.usePreviewCollectibleProduct;
             var38 = true;
-            var1 = var1.bind(var5)(var36, var38);
+            var1 = var1.bind(var5)(var37, var38);
             var1 = 31;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useShopProductItems;
-            var41 = var1.bind(var2)(var36);
+            var41 = var1.bind(var2)(var37);
             var3 = _closure1_slot12;
             var2 = _closure1_slot7;
             var1 = {};
             var5 = var9.root;
             var1['style'] = var5;
-            var5 = var36.skuId;
+            var5 = var37.skuId;
             var1['id'] = var5;
             if(!var15) { _fun0004_ip = 50; continue _fun0004 }
 case 51:
@@ -1033,7 +1033,7 @@ case 50:
             var8 = _closure1_slot11;
             var7 = _closure1_slot22;
             var5 = {};
-            var5['product'] = var36;
+            var5['product'] = var37;
             var7 = var8.bind(var4)(var7, var5);
             _fun0004_ip = 53; continue _fun0004;
 case 52:
@@ -1139,7 +1139,7 @@ case 62:
             var26[0] = var39;
             var26[1] = var28;
             var17['style'] = var26;
-            var26 = var36.type;
+            var26 = var37.type;
             var28 = _closure1_slot0;
             var23 = var23[var29];
             var23 = var28.bind(var4)(var23);
@@ -1147,7 +1147,7 @@ case 62:
             var23 = var23.AVATAR_DECORATION;
             if(!(var26 !== var23)) { _fun0004_ip = 64; continue _fun0004 }
 case 65:
-            var26 = var36.type;
+            var26 = var37.type;
             var28 = _closure1_slot0;
             var23 = _closure1_slot2;
             var23 = var23[var29];
@@ -1156,7 +1156,7 @@ case 65:
             var23 = var23.PROFILE_EFFECT;
             if(!(var26 !== var23)) { _fun0004_ip = 66; continue _fun0004 }
 case 67:
-            var26 = var36.type;
+            var26 = var37.type;
             var28 = _closure1_slot0;
             var23 = _closure1_slot2;
             var23 = var23[var29];
@@ -1165,7 +1165,7 @@ case 67:
             var23 = var23.NAMEPLATE;
             if(!(var26 !== var23)) { _fun0004_ip = 68; continue _fun0004 }
 case 69:
-            var28 = var36.type;
+            var28 = var37.type;
             var26 = _closure1_slot0;
             var23 = _closure1_slot2;
             var23 = var23[var29];
@@ -1210,8 +1210,8 @@ case 68:
             var28 = var26.NameplatePreview;
             var26 = {};
             var26['user'] = var35;
-            var39 = var36.items;
-            var39 = var39[var37];
+            var39 = var37.items;
+            var39 = var39[var36];
             var26['nameplate'] = var39;
             var26['animate'] = var38;
             var23 = var29.bind(var4)(var28, var26);
@@ -1228,8 +1228,8 @@ case 66:
             var26['user'] = var35;
             var35 = var9.profilePreview;
             var26['style'] = var35;
-            var35 = var36.items;
-            var35 = var35[var37];
+            var35 = var37.items;
+            var35 = var35[var36];
             var26['pendingProfileEffectRecord'] = var35;
             var26['bioLineClamp'] = var34;
             var23 = var29.bind(var4)(var28, var26);
@@ -1273,58 +1273,75 @@ case 76:
             var24 = {};
             var31 = _closure1_slot11;
             var33 = _closure1_slot0;
-            var37 = _closure1_slot2;
+            var34 = _closure1_slot2;
             var29 = 38;
-            var28 = var37[var29];
+            var28 = var34[var29];
             var28 = var33.bind(var4)(var28);
             var30 = var28.Text;
             var28 = {'variant': 'heading-xl/bold', 'color': 'white'};
             var32 = var9.title;
             var28['style'] = var32;
-            var32 = 13;
-            var34 = var37[var32];
-            var34 = var33.bind(var4)(var34);
-            var39 = var34.intl;
-            var38 = var39.format;
-            var34 = var37[var32];
-            var34 = var33.bind(var4)(var34);
-            var34 = var34.t;
-            var35 = var34.YNaxMp;
-            var34 = {};
-            var40 = var36.name;
-            var34['itemName'] = var40;
-            var34 = var38.bind(var39)(var35, var34);
-            var28['children'] = var34;
+            var38 = 13;
+            var32 = var34[var38];
+            var32 = var33.bind(var4)(var32);
+            var39 = var32.intl;
+            var36 = var39.format;
+            var32 = var34[var38];
+            var32 = var33.bind(var4)(var32);
+            var32 = var32.t;
+            var35 = var32.YNaxMp;
+            var32 = {};
+            var40 = var37.name;
+            var32['itemName'] = var40;
+            var32 = var36.bind(var39)(var35, var32);
+            var28['children'] = var32;
             var30 = var31.bind(var4)(var30, var28);
             var28 = new Array(2);
             var28[0] = var30;
-            var29 = var37[var29];
+            var29 = var34[var29];
             var29 = var33.bind(var4)(var29);
             var30 = var29.Text;
             var29 = {'variant': 'text-md/medium', 'color': 'white'};
-            var34 = var9.title;
-            var29['style'] = var34;
-            var34 = var37[var32];
-            var34 = var33.bind(var4)(var34);
-            var35 = var34.intl;
-            var34 = var35.format;
-            var32 = var37[var32];
-            var32 = var33.bind(var4)(var32);
-            var32 = var32.t;
-            var33 = var32.4kp0AB;
+            var32 = var9.title;
+            var29['style'] = var32;
+            var32 = 39;
+            var32 = var34[var32];
+            var33 = var33.bind(var4)(var32);
+            var32 = var33.isPremiumCollectiblesProduct;
+            var32 = var32.bind(var33)(var37);
+            var34 = _closure1_slot0;
+            var33 = _closure1_slot2;
+            var35 = var33[var38];
+            var35 = var34.bind(var4)(var35);
+            var36 = var35.intl;
+            var35 = var36.format;
+            var33 = var33[var38];
+            var33 = var34.bind(var4)(var33);
+            var33 = var33.t;
+            if(var32) { _fun0004_ip = 77; continue _fun0004 }
+case 78:
+            var34 = var33.4kp0AB;
             var32 = {};
-            var36 = var36.name;
-            var32['itemName'] = var36;
-            var32 = var34.bind(var35)(var33, var32);
+            var38 = var37.name;
+            var32['itemName'] = var38;
+            var32 = var35.bind(var36)(var34, var32);
+            _fun0004_ip = 79; continue _fun0004;
+case 77:
+            var34 = var33.nW6E3m;
+            var33 = {};
+            var37 = var37.name;
+            var33['itemName'] = var37;
+            var32 = var35.bind(var36)(var34, var33);
+case 79:
             var29['children'] = var32;
             var29 = var31.bind(var4)(var30, var29);
             var28[1] = var29;
             var24['children'] = var28;
             var24 = var27.bind(var4)(var26, var24);
-            _fun0004_ip = 77; continue _fun0004;
+            _fun0004_ip = 80; continue _fun0004;
 case 75:
             var24 = var25.bind(var4)();
-case 77:
+case 80:
             var18['children'] = var24;
             var18 = var23.bind(var4)(var19, var18);
             var17[1] = var18;
@@ -1338,7 +1355,7 @@ case 77:
             var16['style'] = var7;
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var18 = 39;
+            var18 = 40;
             var18 = var6[var18];
             var19 = var7.bind(var4)(var18);
             var18 = {};

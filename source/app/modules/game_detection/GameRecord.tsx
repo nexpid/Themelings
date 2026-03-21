@@ -297,6 +297,8 @@ case 57:
                 var1['screenshotUrls'] = var2;
                 var2 = var5.trailers;
                 var1['trailers'] = var2;
+                var2 = var5.l30_rank;
+                var1['l30Rank'] = var2;
                 if(!(var8 != var3)) { _fun0003_ip = 59; continue _fun0003 }
 case 60:
                 var2 = {};
@@ -350,8 +352,10 @@ case 63:
                 var2['reviews'] = var4;
                 var4 = var3.steam_id;
                 var2['steam_id'] = var4;
-                var3 = var3.announcements_channel_id;
-                var2['announcementsChannelId'] = var3;
+                var4 = var3.announcements_channel_id;
+                var2['announcementsChannelId'] = var4;
+                var3 = var3.l30_rank;
+                var2['l30Rank'] = var3;
                 var1['supplementalData'] = var2;
 case 59:
                 return var1;

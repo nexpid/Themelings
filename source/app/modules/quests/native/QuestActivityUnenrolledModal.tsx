@@ -632,13 +632,13 @@ case 0:
             var4 = var10.isIOS;
             var4 = var4.bind(var10)();
             if(var4) { _fun0004_ip = 12; continue _fun0004 }
-case 8:
-            var4 = {};
-            if(var8) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
-            var10 = new Array(0);
-            _fun0004_ip = 15; continue _fun0004;
 case 13:
+            var4 = {};
+            if(var8) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+            var10 = new Array(0);
+            _fun0004_ip = 16; continue _fun0004;
+case 14:
             var12 = {};
             var11 = {'standardDeviation': '85px', 'color': 'rgba(144, 144, 251, 0.65)', 'offsetX': 0, 'offsetY': 0};
             var12['dropShadow'] = var11;
@@ -649,22 +649,22 @@ case 13:
             var12['dropShadow'] = var13;
             var11[1] = var12;
             var10 = var11;
-case 15:
+case 16:
             var4['filter'] = var10;
-            _fun0004_ip = 16; continue _fun0004;
+            _fun0004_ip = 17; continue _fun0004;
 case 12:
-            if(var8) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+            if(var8) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var10 = {};
-            _fun0004_ip = 19; continue _fun0004;
-case 17:
+            _fun0004_ip = 20; continue _fun0004;
+case 18:
             var11 = {'shadowColor': 'rgb(144, 144, 251)', 'shadowOffset': null, 'shadowOpacity': 0.6, 'shadowRadius': 85};
             var12 = {'width': 0, 'height': 0};
             var11['shadowOffset'] = var12;
             var10 = var11;
-case 19:
+case 20:
             var4 = var10;
-case 16:
+case 17:
             var15 = var2;
             var14 = var4;
             var4 = copyDataProperties(var15, var14);
@@ -676,26 +676,26 @@ case 16:
             var2 = var4.isIOS;
             var2 = var2.bind(var4)();
             var4 = {};
-            if(var2) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+            if(var2) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var2 = var4;
-            _fun0004_ip = 22; continue _fun0004;
-case 20:
-            if(var8) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+            _fun0004_ip = 23; continue _fun0004;
+case 21:
+            if(var8) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var8 = {};
-            _fun0004_ip = 25; continue _fun0004;
-case 23:
+            _fun0004_ip = 26; continue _fun0004;
+case 24:
             var9 = {'shadowColor': 'rgb(144, 144, 250)', 'shadowOffset': null, 'shadowOpacity': 0.4, 'shadowRadius': 85};
             var10 = {'width': 0, 'height': 16};
             var9['shadowOffset'] = var10;
             var8 = var9;
-case 25:
+case 26:
             var15 = var4;
             var14 = var8;
             var8 = copyDataProperties(var15, var14);
             var2 = var4;
-case 22:
+case 23:
             var1['baseShadow'] = var2;
             var2 = {'borderRadius': null, 'borderWidth': 2.18, 'borderColor': 'rgba(151, 151, 159, 0.24)', 'borderStyle': 'solid', 'transform': null, 'overflow': 'hidden'};
             var4 = _closure1_slot1;
@@ -800,8 +800,8 @@ case 0:
             var3 = var4.bind(var6)(var3, var1);
             var _closure2_slot1 = var3;
             var1 = null;
-            if(!(var1 != var3)) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
+            if(!(var1 != var3)) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var7 = {};
             var6 = _closure1_slot13;
             var4 = var6.MAIN;
@@ -890,7 +890,7 @@ case 27:
             var2['initialRouteName'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 26:
+case 27:
             return var1;
         }
     };

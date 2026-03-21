@@ -189,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot15 = var4;
-    var4 = 35;
+    var4 = 37;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -472,7 +472,7 @@ case 24:
             var20 = _closure1_slot11;
             var28 = _closure1_slot0;
             var22 = _closure1_slot2;
-            var14 = 29;
+            var14 = 31;
             var14 = var22[var14];
             var14 = var28.bind(var5)(var14);
             var18 = var14.PressableOpacity;
@@ -618,7 +618,7 @@ case 33:
             var28['style'] = var35;
             var36 = _closure1_slot0;
             var37 = _closure1_slot2;
-            var35 = 30;
+            var35 = 32;
             var35 = var37[var35];
             var35 = var36.bind(var5)(var35);
             var36 = var35.ChevronSmallRightIcon;
@@ -704,12 +704,23 @@ case 40:
             var30 = var31.bind(var32)(var30);
             var24['text'] = var30;
             var30 = function onPress() {
-                var3 = _closure2_slot2;
-                var2 = var3.push;
-                var1 = _closure1_slot9;
-                var1 = var1.QUESTS;
-                var1 = var2.bind(var3)(var1);
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var1 = 29;
+                var2 = var7[var1];
                 var1 = undefined;
+                var4 = var6.bind(var1)(var2);
+                var3 = var4.openQuestHome;
+                var2 = {};
+                var5 = true;
+                var2['mergeExistingRoutes'] = var5;
+                var5 = 30;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var5 = var5.QuestContent;
+                var5 = var5.ORBS_SHOP_HERO_CTA;
+                var2['fromContent'] = var5;
+                var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var24['onPress'] = var30;
@@ -728,7 +739,7 @@ case 35:
             var10['style'] = var13;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var13 = 31;
+            var13 = 33;
             var13 = var17[var13];
             var13 = var14.bind(var5)(var13);
             var14 = var13.LayerScope;
@@ -744,7 +755,7 @@ case 45:
             var24 = _closure1_slot11;
             var30 = _closure1_slot0;
             var26 = _closure1_slot2;
-            var20 = 33;
+            var20 = 35;
             var20 = var26[var20];
             var20 = var30.bind(var5)(var20);
             var22 = var20.FlashList;
@@ -808,7 +819,7 @@ case 48:
                     var9 = _closure1_slot11;
                     var8 = _closure1_slot1;
                     var11 = _closure1_slot2;
-                    var7 = 34;
+                    var7 = 36;
                     var7 = var11[var7];
                     var8 = var8.bind(var4)(var7);
                     var7 = {};
@@ -917,7 +928,7 @@ case 49:
 case 42:
             var17 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var16 = 32;
+            var16 = 34;
             var16 = var20[var16];
             var17 = var17.bind(var5)(var16);
             var16 = {};

@@ -683,7 +683,7 @@ case 36:
     var4['animatedOrb'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot23 = var4;
-    var4 = 38;
+    var4 = 39;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -851,23 +851,29 @@ case 0:
             var5 = var7.useCallback;
             var3 = function() {
                 var3 = _closure1_slot1;
-                var4 = _closure1_slot2;
+                var7 = _closure1_slot2;
                 var1 = 10;
-                var2 = var4[var1];
+                var2 = var7[var1];
                 var1 = undefined;
-                var6 = var3.bind(var1)(var2);
-                var3 = var6.popWithKey;
-                var2 = 'QuestOrbsRewardModal';
-                var2 = var3.bind(var6)(var2);
-                var3 = _closure1_slot0;
-                var2 = 31;
-                var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
+                var3 = var4.popWithKey;
+                var2 = 'QuestOrbsRewardModal';
+                var2 = var3.bind(var4)(var2);
+                var6 = _closure1_slot0;
+                var2 = 31;
+                var2 = var7[var2];
+                var4 = var6.bind(var1)(var2);
                 var3 = var4.openQuestHome;
                 var2 = {};
                 var5 = _closure1_slot11;
                 var5 = var5.VIRTUAL_CURRENCY;
                 var2['filter'] = var5;
+                var5 = 32;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var5 = var5.QuestContent;
+                var5 = var5.REWARD_MODAL;
+                var2['fromContent'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
@@ -923,7 +929,7 @@ case 40:
 case 42:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 32;
+            var1 = 33;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.isAndroid;
@@ -995,7 +1001,7 @@ case 57:
             var9 = _closure1_slot15;
             var32 = _closure1_slot0;
             var33 = _closure1_slot2;
-            var7 = 33;
+            var7 = 34;
             var7 = var33[var7];
             var7 = var32.bind(var4)(var7);
             var8 = var7.SafeAreaPaddingView;
@@ -1037,7 +1043,7 @@ case 57:
             var15 = var14.body;
             var11['style'] = var15;
             var19 = _closure1_slot14;
-            var23 = 34;
+            var23 = 35;
             var15 = var33[var23];
             var15 = var32.bind(var4)(var15);
             var17 = var15.Text;
@@ -1053,7 +1059,7 @@ case 57:
             var20 = var20.t;
             var24 = var20.FIilK5;
             var20 = {};
-            var31 = 35;
+            var31 = 36;
             var31 = var33[var31];
             var32 = var32.bind(var4)(var31);
             var31 = var32.getVirtualCurrencyRewardOrbQuantity;
@@ -1102,7 +1108,7 @@ case 0:
                     var9 = _closure1_slot14;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 36;
+                    var1 = 37;
                     var5 = var5[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
@@ -1148,7 +1154,7 @@ case 0:
                     var9 = _closure1_slot14;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 36;
+                    var1 = 37;
                     var5 = var5[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
@@ -1184,7 +1190,7 @@ case 62:
                 var4 = _closure1_slot14;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 34;
+                var1 = 35;
                 var1 = var9[var1];
                 var3 = undefined;
                 var1 = var8.bind(var3)(var1);
@@ -1221,7 +1227,7 @@ case 64:
             var22 = _closure1_slot14;
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var15 = 37;
+            var15 = 38;
             var14 = var19[var15];
             var14 = var20.bind(var4)(var14);
             var17 = var14.Button;

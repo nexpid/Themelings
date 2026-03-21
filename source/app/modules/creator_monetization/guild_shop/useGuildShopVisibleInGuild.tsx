@@ -33,17 +33,16 @@ case 0:
             var1 = 1;
             var3 = var3[var1];
             var1 = undefined;
-            var8 = var5.bind(var1)(var3);
-            var7 = var8.useGuildEligibleForGuildProducts;
+            var7 = var5.bind(var1)(var3);
+            var6 = var7.useGuildEligibleForGuildProducts;
             var5 = null;
-            var3 = var5 == var4;
-            var6 = undefined;
-            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+            var8 = var5 == var4;
+            var3 = undefined;
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = var4.id;
+            var3 = var4.id;
 case 2:
-            var3 = 'channel_list';
-            var3 = var7.bind(var8)(var6, var3);
+            var3 = var6.bind(var7)(var3);
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 2;
@@ -90,17 +89,16 @@ case 0:
             var2 = 1;
             var4 = var4[var2];
             var2 = undefined;
-            var8 = var5.bind(var2)(var4);
-            var7 = var8.isGuildEligibleForGuildProducts;
+            var7 = var5.bind(var2)(var4);
+            var6 = var7.isGuildEligibleForGuildProducts;
             var5 = null;
-            var4 = var5 == var1;
-            var6 = undefined;
-            if(var4) { _fun0002_ip = 2; continue _fun0002 }
+            var8 = var5 == var1;
+            var4 = undefined;
+            if(var8) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-            var6 = var1.id;
+            var4 = var1.id;
 case 2:
-            var4 = 'channel_list';
-            var4 = var7.bind(var8)(var6, var4);
+            var4 = var6.bind(var7)(var4);
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var3 = 2;

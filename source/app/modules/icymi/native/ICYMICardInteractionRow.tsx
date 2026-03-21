@@ -1210,10 +1210,10 @@ case 78:
 case 77:
             var _closure2_slot2 = var24;
             var1 = var2.isKeyMessage;
-            if(!(var1 === var5)) { _fun0015_ip = 79; continue _fun0015 }
-case 17:
-            var1 = false;
+            if(!(var1 === var5)) { _fun0015_ip = 16; continue _fun0015 }
 case 79:
+            var1 = false;
+case 16:
             var _closure2_slot3 = var1;
             var4 = var2.inForum;
             if(!(var4 === var5)) { _fun0015_ip = 80; continue _fun0015 }
@@ -1386,11 +1386,11 @@ case 5:
                     var1 = var1.messageCount;
                     var4 = 0;
                     var2 = var3;
-                    if(!(var1 > var4)) { _fun0018_ip = 77; continue _fun0018 }
+                    if(!(var1 > var4)) { _fun0018_ip = 78; continue _fun0018 }
 case 90:
                     var1 = 1;
                     var2 = var3 - var1;
-case 77:
+case 78:
                     var1 = _closure2_slot8;
                     var1 = var1.length;
                     var1 = var1 > var2;
@@ -1707,24 +1707,24 @@ case 104:
             var20 = false;
             var13['showsHorizontalScrollIndicator'] = var20;
             var21 = !var24;
-            if(!var21) { _fun0015_ip = 107; continue _fun0015 }
-case 108:
-            var20 = var34;
-            if(var34) { _fun0015_ip = 109; continue _fun0015 }
-case 110:
-            var20 = var35;
-case 109:
-            var21 = var20;
+            if(!var21) { _fun0015_ip = 62; continue _fun0015 }
 case 107:
-            if(!var21) { _fun0015_ip = 111; continue _fun0015 }
-case 112:
+            var20 = var34;
+            if(var34) { _fun0015_ip = 108; continue _fun0015 }
+case 63:
+            var20 = var35;
+case 108:
+            var21 = var20;
+case 62:
+            if(!var21) { _fun0015_ip = 109; continue _fun0015 }
+case 110:
             var32 = _closure1_slot17;
             var31 = _closure1_slot5;
             var20 = {};
             var33 = var22.replyForwardButtonContainer;
             var20['style'] = var33;
-            if(!var35) { _fun0015_ip = 113; continue _fun0015 }
-case 114:
+            if(!var35) { _fun0015_ip = 111; continue _fun0015 }
+case 112:
             var37 = _closure1_slot16;
             var36 = _closure1_slot27;
             var33 = {};
@@ -1732,11 +1732,11 @@ case 114:
             var33['parentMessage'] = var38;
             var33['handleItemInteracted'] = var28;
             var35 = var37.bind(var5)(var36, var33);
-case 113:
+case 111:
             var33 = new Array(2);
             var33[0] = var35;
-            if(!var34) { _fun0015_ip = 115; continue _fun0015 }
-case 116:
+            if(!var34) { _fun0015_ip = 113; continue _fun0015 }
+case 114:
             var37 = _closure1_slot17;
             var36 = _closure1_slot18;
             var35 = {};
@@ -1759,11 +1759,11 @@ case 116:
             var38[1] = var39;
             var35['children'] = var38;
             var34 = var37.bind(var5)(var36, var35);
-case 115:
+case 113:
             var33[1] = var34;
             var20['children'] = var33;
             var21 = var32.bind(var5)(var31, var20);
-case 111:
+case 109:
             var20 = new Array(3);
             var20[0] = var21;
             var21 = var26.map;
@@ -1791,13 +1791,13 @@ case 0:
                     var10 = var13.bind(var2)(var10);
                     var10 = var10.ReactionTypes;
                     var10 = var10.BURST;
-                    if(!(var12 !== var10)) { _fun0020_ip = 117; continue _fun0020 }
-case 118:
+                    if(!(var12 !== var10)) { _fun0020_ip = 115; continue _fun0020 }
+case 116:
                     var10 = var9.count;
-                    _fun0020_ip = 119; continue _fun0020;
-case 117:
+                    _fun0020_ip = 117; continue _fun0020;
+case 115:
                     var10 = var9.burst_count;
-case 119:
+case 117:
                     var1['count'] = var10;
                     var9 = var9.type;
                     var10 = _closure1_slot0;
@@ -1825,11 +1825,11 @@ case 119:
             var16 = var21.bind(var26)(var16);
             var20[1] = var16;
             var21 = null;
-            if(var24) { _fun0015_ip = 120; continue _fun0015 }
-case 121:
+            if(var24) { _fun0015_ip = 118; continue _fun0015 }
+case 119:
             var21 = null;
-            if(!var23) { _fun0015_ip = 120; continue _fun0015 }
-case 122:
+            if(!var23) { _fun0015_ip = 118; continue _fun0015 }
+case 120:
             var26 = _closure1_slot16;
             var24 = _closure1_slot23;
             var23 = {};
@@ -1837,18 +1837,18 @@ case 122:
             var23['onPressEmoji'] = var29;
             var23['handleItemInteracted'] = var28;
             var21 = var26.bind(var5)(var24, var23);
-case 120:
+case 118:
             var20[2] = var21;
             var13['children'] = var20;
             var14 = var18.bind(var5)(var14, var13);
             var13 = new Array(2);
             var13[0] = var14;
             var14 = null;
-            if(!var17) { _fun0015_ip = 123; continue _fun0015 }
-case 124:
+            if(!var17) { _fun0015_ip = 121; continue _fun0015 }
+case 122:
             var14 = null;
-            if(!var15) { _fun0015_ip = 123; continue _fun0015 }
-case 125:
+            if(!var15) { _fun0015_ip = 121; continue _fun0015 }
+case 123:
             var17 = _closure1_slot17;
             var16 = _closure1_slot18;
             var15 = {};
@@ -1899,7 +1899,7 @@ case 125:
             var18[1] = var19;
             var15['children'] = var18;
             var14 = var17.bind(var5)(var16, var15);
-case 123:
+case 121:
             var13[1] = var14;
             var10['children'] = var13;
             var9 = var12.bind(var5)(var11, var10);

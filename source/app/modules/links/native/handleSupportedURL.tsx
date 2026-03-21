@@ -592,51 +592,51 @@ case 78:
 case 0:
                             var1 = _closure3_slot0;
                             var1 = var1.questId;
-                            var8 = null;
-                            if(!(var8 != var1)) { _fun0004_ip = 104; continue _fun0004 }
+                            var9 = null;
+                            if(!(var9 != var1)) { _fun0004_ip = 104; continue _fun0004 }
 case 105:
-                            var9 = _closure1_slot0;
+                            var8 = _closure1_slot0;
                             var10 = _closure1_slot3;
                             var1 = 69;
                             var1 = var10[var1];
                             var7 = undefined;
-                            var3 = var9.bind(var7)(var1);
+                            var3 = var8.bind(var7)(var1);
                             var2 = var3.trackQuestEvent;
                             var1 = {};
-                            var6 = _closure3_slot0;
-                            var11 = var6.questId;
+                            var5 = _closure3_slot0;
+                            var11 = var5.questId;
                             var1['questId'] = var11;
                             var4 = _closure1_slot11;
                             var4 = var4.QUEST_SHARE_LINK_DEEP_LINKED_INTO_MOBILE_CLIENT;
                             var1['event'] = var4;
                             var4 = 70;
                             var4 = var10[var4];
-                            var4 = var9.bind(var7)(var4);
+                            var4 = var8.bind(var7)(var4);
                             var4 = var4.QuestContent;
                             var4 = var4.QUEST_EMBED_MOBILE;
                             var1['sourceQuestContent'] = var4;
                             var4 = {};
-                            var6 = var6.referrerId;
-                            var4['referrer_id'] = var6;
+                            var5 = var5.referrerId;
+                            var4['referrer_id'] = var5;
                             var1['properties'] = var4;
                             var1 = var2.bind(var3)(var1);
 case 104:
                             var1 = _closure3_slot0;
-                            var2 = var8 == var1;
+                            var2 = var9 == var1;
                             var1 = undefined;
-                            var7 = undefined;
+                            var8 = undefined;
                             if(var2) { _fun0004_ip = 106; continue _fun0004 }
 case 107:
                             var2 = _closure3_slot0;
-                            var7 = var2.sort;
+                            var8 = var2.sort;
 case 106:
                             var2 = _closure3_slot0;
-                            var2 = var8 == var2;
-                            var6 = undefined;
+                            var2 = var9 == var2;
+                            var7 = undefined;
                             if(var2) { _fun0004_ip = 108; continue _fun0004 }
 case 109:
                             var2 = _closure3_slot0;
-                            var6 = var2.filter;
+                            var7 = var2.filter;
 case 108:
                             var3 = _closure1_slot0;
                             var4 = _closure1_slot3;
@@ -645,31 +645,39 @@ case 108:
                             var4 = var3.bind(var1)(var2);
                             var3 = var4.openQuestHome;
                             var2 = {};
-                            var5 = _closure3_slot0;
-                            var5 = var5.questId;
-                            var2['scrollToQuestId'] = var5;
-                            var9 = var8 != var7;
-                            var5 = null;
-                            if(!var9) { _fun0004_ip = 110; continue _fun0004 }
+                            var6 = _closure3_slot0;
+                            var6 = var6.questId;
+                            var2['scrollToQuestId'] = var6;
+                            var10 = var9 != var8;
+                            var6 = null;
+                            if(!var10) { _fun0004_ip = 110; continue _fun0004 }
 case 111:
-                            var9 = '';
-                            var5 = null;
-                            if(!(var9 !== var7)) { _fun0004_ip = 110; continue _fun0004 }
+                            var10 = '';
+                            var6 = null;
+                            if(!(var10 !== var8)) { _fun0004_ip = 110; continue _fun0004 }
 case 112:
-                            var5 = var7;
+                            var6 = var8;
 case 110:
-                            var2['sort'] = var5;
-                            var7 = var8 != var6;
-                            var5 = null;
-                            if(!var7) { _fun0004_ip = 22; continue _fun0004 }
+                            var2['sort'] = var6;
+                            var8 = var9 != var7;
+                            var6 = null;
+                            if(!var8) { _fun0004_ip = 22; continue _fun0004 }
 case 113:
-                            var7 = '';
-                            var5 = null;
-                            if(!(var7 !== var6)) { _fun0004_ip = 22; continue _fun0004 }
+                            var8 = '';
+                            var6 = null;
+                            if(!(var8 !== var7)) { _fun0004_ip = 22; continue _fun0004 }
 case 114:
-                            var5 = var6;
+                            var6 = var7;
 case 22:
-                            var2['filter'] = var5;
+                            var2['filter'] = var6;
+                            var6 = _closure1_slot0;
+                            var7 = _closure1_slot3;
+                            var5 = 70;
+                            var5 = var7[var5];
+                            var5 = var6.bind(var1)(var5);
+                            var5 = var5.QuestContent;
+                            var5 = var5.QUEST_SHARE_LINK;
+                            var2['fromContent'] = var5;
                             var2 = var3.bind(var4)(var2);
                             return var1;
                         }

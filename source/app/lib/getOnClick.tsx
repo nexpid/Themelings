@@ -331,7 +331,7 @@ case 8:
     var7 = new Array(0);
     var4['analyticsLocations'] = var7;
     var _closure1_slot17 = var4;
-    var4 = 39;
+    var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -563,7 +563,7 @@ case 82:
 case 81:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 36;
+            var2 = 37;
             var2 = var12[var2];
             var10 = var10.bind(var7)(var2);
             var2 = var10.tryParseEventDetailsPath;
@@ -573,7 +573,7 @@ case 81:
 case 85:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 37;
+            var6 = 38;
             var6 = var10[var6];
             var8 = var8.bind(var7)(var6);
             var6 = var8.isSuspiciousDownload;
@@ -594,7 +594,7 @@ case 88:
 case 87:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 38;
+                    var1 = 39;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -620,7 +620,7 @@ case 88:
 case 87:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var2 = 35;
+                    var2 = 36;
                     var2 = var5[var2];
                     var3 = undefined;
                     var8 = var4.bind(var3)(var2);
@@ -666,7 +666,7 @@ case 88:
 case 87:
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 34;
+                    var1 = 35;
                     var1 = var3[var1];
                     var4 = undefined;
                     var3 = var2.bind(var4)(var1);
@@ -691,7 +691,7 @@ case 95:
 case 94:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var3 = 32;
+                    var3 = 33;
                     var3 = var2[var3];
                     var5 = undefined;
                     var7 = var4.bind(var5)(var3);
@@ -705,7 +705,7 @@ case 94:
                     var3 = 27;
                     var3 = var2[var3];
                     var4 = var4.bind(var5)(var3);
-                    var3 = 33;
+                    var3 = 34;
                     var3 = var2[var3];
                     var2 = var2.paths;
                     var3 = var4.bind(var5)(var3, var2);
@@ -779,85 +779,93 @@ case 63:
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var2 = arg1;
-                    var4 = null;
-                    if(!(var4 != var2)) { _fun0009_ip = 87; continue _fun0009 }
+                    var5 = null;
+                    if(!(var5 != var2)) { _fun0009_ip = 87; continue _fun0009 }
 case 88:
                     var1 = var2.preventDefault;
                     var1 = var1.bind(var2)();
 case 87:
-                    var5 = _closure1_slot1;
+                    var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 30;
-                    var2 = var3[var2];
+                    var1 = 30;
+                    var1 = var3[var1];
                     var3 = undefined;
-                    var7 = var5.bind(var3)(var2);
-                    var5 = var7.toURLSafe;
-                    var2 = _closure2_slot2;
-                    var2 = var2.url;
-                    var2 = var5.bind(var7)(var2);
-                    if(!(var4 == var2)) { _fun0009_ip = 5; continue _fun0009 }
+                    var6 = var2.bind(var3)(var1);
+                    var2 = var6.toURLSafe;
+                    var1 = _closure2_slot2;
+                    var1 = var1.url;
+                    var1 = var2.bind(var6)(var1);
+                    if(!(var5 == var1)) { _fun0009_ip = 5; continue _fun0009 }
 case 4:
-                    var2 = {};
+                    var1 = {};
 case 5:
-                    var9 = var2.search;
-                    var2 = var4 != var9;
-                    var7 = undefined;
-                    var5 = undefined;
-                    if(!var2) { _fun0009_ip = 104; continue _fun0009 }
-case 105:
-                    var2 = global;
-                    var2 = var2.URLSearchParams;
-                    var8 = var2.prototype;
-                    var8 = Object.create(var8, {constructor: {value: var2}});
-                    var12 = var8;
-                    var11 = var9;
-                    var2 = new var12[var2](var11, var10);
-                    var10 = var2 instanceof Object ? var2 : var8;
-                    var8 = var10.get;
-                    var2 = 'sort';
-                    var2 = var8.bind(var10)(var2);
-                    var9 = var4 != var2;
+                    var9 = var1.search;
+                    var1 = var5 != var9;
                     var8 = undefined;
+                    var6 = undefined;
+                    if(!var1) { _fun0009_ip = 104; continue _fun0009 }
+case 105:
+                    var1 = global;
+                    var1 = var1.URLSearchParams;
+                    var2 = var1.prototype;
+                    var2 = Object.create(var2, {constructor: {value: var1}});
+                    var12 = var2;
+                    var11 = var9;
+                    var1 = new var12[var1](var11, var10);
+                    var10 = var1 instanceof Object ? var1 : var2;
+                    var2 = var10.get;
+                    var1 = 'sort';
+                    var1 = var2.bind(var10)(var1);
+                    var9 = var5 != var1;
+                    var2 = undefined;
                     if(!var9) { _fun0009_ip = 106; continue _fun0009 }
 case 107:
-                    var8 = var2;
+                    var2 = var1;
 case 106:
                     var9 = var10.get;
-                    var2 = 'filter';
-                    var9 = var9.bind(var10)(var2);
-                    var10 = var4 != var9;
-                    var2 = undefined;
+                    var1 = 'filter';
+                    var9 = var9.bind(var10)(var1);
+                    var10 = var5 != var9;
+                    var1 = undefined;
                     if(!var10) { _fun0009_ip = 102; continue _fun0009 }
 case 103:
-                    var2 = var9;
+                    var1 = var9;
 case 102:
-                    var5 = var2;
-                    var7 = var8;
+                    var6 = var1;
+                    var8 = var2;
 case 104:
                     var2 = _closure1_slot0;
-                    var8 = _closure1_slot2;
+                    var9 = _closure1_slot2;
                     var1 = 31;
-                    var1 = var8[var1];
+                    var1 = var9[var1];
                     var1 = var2.bind(var3)(var1);
                     var2 = var1.openQuestHome;
                     var1 = {};
-                    var6 = _closure2_slot2;
-                    var6 = var6.code;
-                    var1['scrollToQuestId'] = var6;
-                    var8 = var4 != var7;
-                    var6 = null;
-                    if(!var8) { _fun0009_ip = 52; continue _fun0009 }
+                    var7 = _closure2_slot2;
+                    var7 = var7.code;
+                    var1['scrollToQuestId'] = var7;
+                    var9 = var5 != var8;
+                    var7 = null;
+                    if(!var9) { _fun0009_ip = 52; continue _fun0009 }
 case 26:
-                    var6 = var7;
+                    var7 = var8;
 case 52:
-                    var1['sort'] = var6;
-                    var6 = var4 != var5;
-                    var4 = null;
-                    if(!var6) { _fun0009_ip = 108; continue _fun0009 }
+                    var1['sort'] = var7;
+                    var7 = var5 != var6;
+                    var5 = null;
+                    if(!var7) { _fun0009_ip = 108; continue _fun0009 }
 case 109:
-                    var4 = var5;
+                    var5 = var6;
 case 108:
-                    var1['filter'] = var4;
+                    var1['filter'] = var5;
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var4 = 32;
+                    var4 = var6[var4];
+                    var4 = var5.bind(var3)(var4);
+                    var4 = var4.QuestContent;
+                    var4 = var4.QUEST_SHARE_LINK;
+                    var1['fromContent'] = var4;
                     var1 = var2.bind(var3)(var1);
                     var1 = true;
                     return var1;

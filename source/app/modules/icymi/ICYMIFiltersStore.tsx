@@ -76,7 +76,7 @@ case 4:
     var _closure1_slot6 = var2;
     var2 = {};
     var _closure1_slot7 = var2;
-    var2 = 7;
+    var2 = 6;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.DeviceSettingsStore;
@@ -140,7 +140,7 @@ case 9:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(6);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'filterStaffContent';
@@ -155,61 +155,30 @@ case 9:
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'onlyShowRecentGeneratedCandidates';
+        var7 = 'getDoubleTapBehavior';
         var5['key'] = var7;
         var7 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var1 = 5;
-                var3 = var3[var1];
-                var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.getICYMINewConversationSummaryExperiment;
-                var3 = 'processRawItems';
-                var1 = false;
-                var1 = var4.bind(var5)(var3, var1);
-                var1 = var1.contentGenerationEnabled;
-                var3 = !var1;
-                var1 = !var3;
-                if(var3) { _fun0004_ip = 4; continue _fun0004 }
-case 11:
-                var2 = _closure1_slot7;
-                var3 = var2.onlyShowRecentGeneratedCandidates;
-                var2 = true;
-                var1 = var2 === var3;
-case 4:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[2] = var5;
-        var5 = {};
-        var7 = 'getDoubleTapBehavior';
-        var5['key'] = var7;
-        var7 = function value() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
                 var1 = _closure1_slot7;
                 var1 = var1.doubleTapBehavior;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0005_ip = 12; continue _fun0005 }
-case 13:
+                if(!(var3 == var1)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var2 = 6;
+                var2 = 5;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
                 var2 = var2.GravityICYMIDoubleTapBehavior;
                 var1 = var2.DEFAULT;
-case 12:
+case 11:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
@@ -218,7 +187,7 @@ case 12:
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
         var5['key'] = var7;
@@ -227,7 +196,7 @@ case 12:
             return var1;
         };
         var5['value'] = var6;
-        var1[5] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -235,7 +204,7 @@ case 12:
     var2 = 'ICYMIFiltersStore';
     var8['displayName'] = var2;
     var8['persistKey'] = var2;
-    var2 = 8;
+    var2 = 7;
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
@@ -253,7 +222,7 @@ case 12:
     var11 = var2;
     var2 = new var13[var8](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

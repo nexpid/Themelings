@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot11;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot11;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var8 = function makeFile(arg1, arg2, arg3) {
         var1 = global;
         var5 = var1.File;
@@ -202,7 +202,7 @@ case 35:
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var _closure1_slot11 = var8;
+    var _closure1_slot12 = var8;
     var7 = function classifyFileName(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -279,38 +279,115 @@ case 47:
             return var1;
         }
     };
-    var _closure1_slot12 = var7;
+    var _closure1_slot13 = var7;
     var6 = function maxFileSize(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var6 = arg1;
-            var2 = _closure1_slot4;
-            var1 = var2.getCurrentUser;
-            var4 = var1.bind(var2)();
-            var5 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 6;
-            var2 = var2[var1];
-            var1 = undefined;
-            var2 = var5.bind(var1)(var2);
-            var1 = var2.getUserMaxFileSize;
-            var1 = var1.bind(var2)(var4);
+            var7 = arg1;
+            var3 = _closure1_slot4;
+            var1 = var3.getCurrentUser;
+            var4 = var1.bind(var3)();
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 7;
+            var1 = var5[var1];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.getUserMaxFileSize;
+            var1 = var1.bind(var3)(var4);
             var4 = null;
-            if(!(var4 != var6)) { _fun0006_ip = 49; continue _fun0006 }
+            if(!(var4 != var7)) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
-            var5 = _closure1_slot3;
-            var2 = var5.getGuild;
-            var2 = var2.bind(var5)(var6);
-            if(!(var4 == var2)) { _fun0006_ip = 42; continue _fun0006 }
+            var6 = _closure1_slot3;
+            var3 = var6.getGuild;
+            var3 = var3.bind(var6)(var7);
+            if(!(var4 == var3)) { _fun0006_ip = 42; continue _fun0006 }
 case 51:
-            var4 = _closure1_slot5;
+            var4 = _closure1_slot6;
             _fun0006_ip = 52; continue _fun0006;
 case 42:
-            var3 = _closure1_slot6;
-            var2 = var2.premiumTier;
-            var2 = var3[var2];
-            var2 = var2.limits;
-            var4 = var2.fileSize;
+            var2 = function getGuildMaxFileSize(arg1) {
+                var2 = arg1;
+                var _closure3_slot0 = var2;
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var3 = 6;
+                var4 = var4[var3];
+                var3 = undefined;
+                var3 = var5.bind(var3)(var4);
+                var5 = var3.FileUploadPowerupHoldoutExperiment;
+                var4 = var5.getConfig;
+                var3 = {};
+                var6 = 'getGuildMaxFileSize';
+                var3['location'] = var6;
+                var3 = var4.bind(var5)(var3);
+                var3 = var3.enabled;
+                var _closure3_slot1 = var3;
+                var4 = _closure1_slot9;
+                var3 = var4.reduce;
+                var2 = _closure1_slot6;
+                var1 = function(arg1, arg2) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                        var4 = arg1;
+                        var5 = arg2;
+                        var1 = var5[Symbol.iterator];
+                        var5 = var1().next;
+                        var3 = var5().value;
+                        var2 = var1;
+                        var8 = undefined;
+                        var2 = var2 === var8;
+                        var6 = undefined;
+                        if(var2) { _fun0007_ip = 3; continue _fun0007 }
+case 53:
+                        var6 = var3;
+case 3:
+                        var3 = undefined;
+                        if(var2) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
+                        var7 = var5().value;
+                        var5 = var1;
+                        var5 = var5 === var8;
+                        var3 = undefined;
+                        var2 = var5;
+                        if(var5) { _fun0007_ip = 54; continue _fun0007 }
+case 43:
+                        var3 = var7;
+                        var2 = var5;
+case 54:
+                        if(var2) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
+                        var1.return();
+case 56:
+                        var1 = _closure3_slot1;
+                        if(!var1) { _fun0007_ip = 11; continue _fun0007 }
+case 51:
+                        var1 = _closure1_slot5;
+                        var5 = var1.MAX_FILE_SIZE_250_MB;
+                        var1 = var4;
+                        if(!(var6 !== var5)) { _fun0007_ip = 58; continue _fun0007 }
+case 11:
+                        var2 = _closure3_slot0;
+                        var5 = var2.features;
+                        var2 = var5.has;
+                        var5 = var2.bind(var5)(var6);
+                        var2 = var4;
+                        if(!var5) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
+                        var2 = var4;
+                        if(!(var3 > var4)) { _fun0007_ip = 59; continue _fun0007 }
+case 61:
+                        var2 = var3;
+case 59:
+                        var1 = var2;
+case 58:
+                        return var1;
+                    }
+                };
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
+            var4 = var2.bind(var5)(var3);
 case 52:
             var2 = global;
             var3 = var2.Math;
@@ -321,11 +398,11 @@ case 49:
             return var1;
         }
     };
-    var _closure1_slot13 = var6;
+    var _closure1_slot14 = var6;
     var5 = function getUploadFileSizeSum(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var6 = undefined;
             var1 = arg1;
             var5 = var2.bind(var6)(var1);
@@ -334,8 +411,8 @@ case 0:
             var4 = var3;
             var3 = 0;
             var1 = 0;
-            if(var2) { _fun0007_ip = 53; continue _fun0007 }
-case 54:
+            if(var2) { _fun0008_ip = 62; continue _fun0008 }
+case 63:
             var2 = var4.value;
             var2 = var2.size;
             var3 = var3 + var2;
@@ -343,29 +420,29 @@ case 54:
             var2 = var8.done;
             var4 = var8;
             var1 = var3;
-            if(!var2) { _fun0007_ip = 54; continue _fun0007 }
-case 53:
+            if(!var2) { _fun0008_ip = 63; continue _fun0008 }
+case 62:
             return var1;
         }
     };
-    var _closure1_slot14 = var5;
+    var _closure1_slot15 = var5;
     var4 = function getMaxRequestSize() {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var2 = _closure1_slot4;
             var1 = var2.getCurrentUser;
             var2 = var1.bind(var2)();
             var1 = null;
-            if(!(var1 != var2)) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
+            if(!(var1 != var2)) { _fun0009_ip = 64; continue _fun0009 }
+case 65:
             var1 = var2.isStaff;
             var1 = var1.bind(var2)();
-case 55:
+case 64:
             var1 = 524288000;
             return var1;
         }
     };
-    var _closure1_slot15 = var4;
+    var _closure1_slot16 = var4;
     var1 = global;
     var14 = var1.Object;
     var13 = var14.defineProperty;
@@ -386,108 +463,128 @@ case 55:
     var9 = 2;
     var9 = var11[var9];
     var9 = var10.bind(var1)(var9);
+    var12 = var9.GuildFeatures;
+    var _closure1_slot5 = var12;
     var9 = var9.MAX_ATTACHMENT_SIZE;
-    var _closure1_slot5 = var9;
+    var _closure1_slot6 = var9;
     var9 = 3;
     var9 = var11[var9];
-    var9 = var10.bind(var1)(var9);
-    var12 = var9.BoostedGuildFeatures;
-    var _closure1_slot6 = var12;
-    var9 = var9.MAX_PREMIUM_TIER_2_ATTACHMENT_SIZE;
-    var _closure1_slot7 = var9;
-    var12 = {};
-    var9 = /^image\\/vnd.adobe.photoshop/;
-    var12['reType'] = var9;
-    var9 = 'photoshop';
-    var12['klass'] = var9;
-    var9 = new Array(14);
-    var9[0] = var12;
-    var12 = {};
-    var13 = /^image\\/svg\+xml/;
-    var12['reType'] = var13;
-    var13 = 'webcode';
-    var12['klass'] = var13;
-    var9[1] = var12;
-    var12 = {};
-    var14 = /^image\\//;
-    var12['reType'] = var14;
-    var14 = 'image';
-    var12['klass'] = var14;
+    var14 = var10.bind(var1)(var9);
+    var13 = var14.MAX_GUILD_FILE_SIZE_50_MB;
+    var15 = var14.MAX_GUILD_FILE_SIZE_100_MB;
+    var9 = var14.MAX_GUILD_FILE_SIZE_250_MB;
+    var14 = var14.MAX_PREMIUM_TIER_2_ATTACHMENT_SIZE;
+    var _closure1_slot7 = var14;
+    var16 = {};
+    var14 = /^image\\/vnd.adobe.photoshop/;
+    var16['reType'] = var14;
+    var14 = 'photoshop';
+    var16['klass'] = var14;
+    var14 = new Array(14);
+    var14[0] = var16;
+    var16 = {};
+    var17 = /^image\\/svg\+xml/;
+    var16['reType'] = var17;
+    var17 = 'webcode';
+    var16['klass'] = var17;
+    var14[1] = var16;
+    var16 = {};
+    var18 = /^image\\//;
+    var16['reType'] = var18;
+    var18 = 'image';
+    var16['klass'] = var18;
+    var14[2] = var16;
+    var16 = {};
+    var18 = /^video\\//;
+    var16['reType'] = var18;
+    var18 = 'video';
+    var16['klass'] = var18;
+    var14[3] = var16;
+    var16 = {};
+    var18 = /\.pdf$/;
+    var16['reName'] = var18;
+    var18 = 'acrobat';
+    var16['klass'] = var18;
+    var14[4] = var16;
+    var16 = {};
+    var18 = /\.ae/;
+    var16['reName'] = var18;
+    var18 = 'ae';
+    var16['klass'] = var18;
+    var14[5] = var16;
+    var16 = {};
+    var18 = /\.sketch$/;
+    var16['reName'] = var18;
+    var18 = 'sketch';
+    var16['klass'] = var18;
+    var14[6] = var16;
+    var16 = {};
+    var18 = /\.ai$/;
+    var16['reName'] = var18;
+    var18 = 'ai';
+    var16['klass'] = var18;
+    var14[7] = var16;
+    var16 = {};
+    var18 = /\.(?:rar|zip|7z|tar|tar\.gz)$/;
+    var16['reName'] = var18;
+    var18 = 'archive';
+    var16['klass'] = var18;
+    var14[8] = var16;
+    var16 = {};
+    var18 = /\.(?:c\+\+|cpp|cc|c|h|hpp|mm|m|json|js|ts|rb|rake|py|asm|fs|pyc|dtd|cgi|bat|rss|java|graphml|idb|lua|o|gml|prl|sls|conf|cmake|make|sln|vbe|cxx|wbf|vbs|r|wml|php|bash|applescript|fcgi|yaml|ex|exs|sh|ml|actionscript)$/;
+    var16['reName'] = var18;
+    var18 = 'code';
+    var16['klass'] = var18;
+    var14[9] = var16;
+    var16 = {};
+    var18 = /\.(?:txt|rtf|doc|docx|md|pages|ppt|pptx|pptm|key|log)$/;
+    var16['reName'] = var18;
+    var18 = 'document';
+    var16['klass'] = var18;
+    var14[10] = var16;
+    var16 = {};
+    var18 = /\.(?:xls|xlsx|numbers|csv)$/;
+    var16['reName'] = var18;
+    var18 = 'spreadsheet';
+    var16['klass'] = var18;
+    var14[11] = var16;
+    var16 = {};
+    var18 = /\.(?:html|xhtml|htm|xml|xsd|css|styl)$/;
+    var16['reName'] = var18;
+    var16['klass'] = var17;
+    var14[12] = var16;
+    var16 = {};
+    var17 = /\.(?:mp3|ogg|opus|wav|aiff|flac)$/;
+    var16['reName'] = var17;
+    var17 = 'audio';
+    var16['klass'] = var17;
+    var14[13] = var16;
+    var _closure1_slot8 = var14;
+    var16 = var12.MAX_FILE_SIZE_250_MB;
+    var14 = new Array(2);
+    var14[0] = var16;
+    var14[1] = var9;
+    var9 = new Array(3);
+    var9[0] = var14;
+    var16 = var12.MAX_FILE_SIZE_100_MB;
+    var14 = new Array(2);
+    var14[0] = var16;
+    var14[1] = var15;
+    var9[1] = var14;
+    var14 = var12.MAX_FILE_SIZE_50_MB;
+    var12 = new Array(2);
+    var12[0] = var14;
+    var12[1] = var13;
     var9[2] = var12;
-    var12 = {};
-    var14 = /^video\\//;
-    var12['reType'] = var14;
-    var14 = 'video';
-    var12['klass'] = var14;
-    var9[3] = var12;
-    var12 = {};
-    var14 = /\.pdf$/;
-    var12['reName'] = var14;
-    var14 = 'acrobat';
-    var12['klass'] = var14;
-    var9[4] = var12;
-    var12 = {};
-    var14 = /\.ae/;
-    var12['reName'] = var14;
-    var14 = 'ae';
-    var12['klass'] = var14;
-    var9[5] = var12;
-    var12 = {};
-    var14 = /\.sketch$/;
-    var12['reName'] = var14;
-    var14 = 'sketch';
-    var12['klass'] = var14;
-    var9[6] = var12;
-    var12 = {};
-    var14 = /\.ai$/;
-    var12['reName'] = var14;
-    var14 = 'ai';
-    var12['klass'] = var14;
-    var9[7] = var12;
-    var12 = {};
-    var14 = /\.(?:rar|zip|7z|tar|tar\.gz)$/;
-    var12['reName'] = var14;
-    var14 = 'archive';
-    var12['klass'] = var14;
-    var9[8] = var12;
-    var12 = {};
-    var14 = /\.(?:c\+\+|cpp|cc|c|h|hpp|mm|m|json|js|ts|rb|rake|py|asm|fs|pyc|dtd|cgi|bat|rss|java|graphml|idb|lua|o|gml|prl|sls|conf|cmake|make|sln|vbe|cxx|wbf|vbs|r|wml|php|bash|applescript|fcgi|yaml|ex|exs|sh|ml|actionscript)$/;
-    var12['reName'] = var14;
-    var14 = 'code';
-    var12['klass'] = var14;
-    var9[9] = var12;
-    var12 = {};
-    var14 = /\.(?:txt|rtf|doc|docx|md|pages|ppt|pptx|pptm|key|log)$/;
-    var12['reName'] = var14;
-    var14 = 'document';
-    var12['klass'] = var14;
-    var9[10] = var12;
-    var12 = {};
-    var14 = /\.(?:xls|xlsx|numbers|csv)$/;
-    var12['reName'] = var14;
-    var14 = 'spreadsheet';
-    var12['klass'] = var14;
-    var9[11] = var12;
-    var12 = {};
-    var14 = /\.(?:html|xhtml|htm|xml|xsd|css|styl)$/;
-    var12['reName'] = var14;
-    var12['klass'] = var13;
-    var9[12] = var12;
-    var12 = {};
-    var13 = /\.(?:mp3|ogg|opus|wav|aiff|flac)$/;
-    var12['reName'] = var13;
-    var13 = 'audio';
-    var12['klass'] = var13;
-    var9[13] = var12;
-    var _closure1_slot8 = var9;
-    var9 = 9;
+    var _closure1_slot9 = var9;
+    var9 = 10;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.fileFinishedImporting;
     var9 = 'utils/FileUtils.tsx';
     var9 = var10.bind(var11)(var9);
     var9 = function transformNativeFile(arg1, arg2) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var3 = arg1;
             var2 = arg2;
@@ -495,22 +592,22 @@ case 0:
             var1 = var1.File;
             var4 = var3 instanceof var1;
             var1 = var3;
-            if(var4) { _fun0009_ip = 57; continue _fun0009 }
-case 58:
-            var6 = _closure1_slot11;
+            if(var4) { _fun0010_ip = 66; continue _fun0010 }
+case 67:
+            var6 = _closure1_slot12;
             var4 = var3.data;
             var5 = var4.buffer;
             var4 = var3.filename;
             var3 = null;
             var7 = var3 != var2;
             var3 = 'text/plain';
-            if(!var7) { _fun0009_ip = 59; continue _fun0009 }
-case 60:
+            if(!var7) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
             var3 = var2;
-case 59:
+case 56:
             var2 = undefined;
             var1 = var6.bind(var2)(var5, var4, var3);
-case 57:
+case 66:
             return var1;
         }
     };
@@ -518,7 +615,7 @@ case 57:
     var3['makeFile'] = var8;
     var8 = function classifyFile(arg1) {
         var1 = arg1;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = var1.name;
         var2 = var1.type;
         var1 = undefined;
@@ -542,7 +639,7 @@ case 57:
     var3['sizeString'] = var7;
     var3['maxFileSize'] = var6;
     var6 = function anyFileTooLarge(arg1, arg2) {
-        var4 = _closure1_slot13;
+        var4 = _closure1_slot14;
         var3 = undefined;
         var2 = arg2;
         var2 = var4.bind(var3)(var2);
@@ -566,11 +663,11 @@ case 57:
     var3['anyFileTooLarge'] = var6;
     var3['getUploadFileSizeSum'] = var5;
     var5 = function uploadSumTooLarge(arg1) {
-        var4 = _closure1_slot14;
+        var4 = _closure1_slot15;
         var3 = undefined;
         var2 = arg1;
         var2 = var4.bind(var3)(var2);
-        var1 = _closure1_slot15;
+        var1 = _closure1_slot16;
         var1 = var1.bind(var3)();
         var1 = 524288000;
         var1 = var2 > var1;
@@ -584,12 +681,12 @@ case 57:
         var5 = var1.onClick;
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var4 = 7;
+        var4 = 8;
         var3 = var9[var4];
         var2 = undefined;
         var12 = var8.bind(var2)(var3);
         var11 = var12.formatSize;
-        var3 = _closure1_slot13;
+        var3 = _closure1_slot14;
         var6 = var3.bind(var2)(var6);
         var3 = 1024;
         var7 = var6 / var3;
@@ -605,7 +702,7 @@ case 57:
         var1 = {};
         var1['useKibibytes'] = var10;
         var6 = var4.bind(var6)(var3, var1);
-        var1 = 8;
+        var1 = 9;
         var3 = var9[var1];
         var3 = var8.bind(var2)(var3);
         var4 = var3.intl;

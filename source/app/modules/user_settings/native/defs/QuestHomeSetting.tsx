@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
-    var8 = function title() {
+    var9 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 5;
@@ -44,8 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var8 = function useQuestHomeSettingPredicate() {
+    var2['title'] = var9;
+    var9 = function useQuestHomeSettingPredicate() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -74,18 +74,18 @@ case 2:
             return var1;
         }
     };
-    var2['usePredicate'] = var8;
-    var8 = null;
-    var2['parent'] = var8;
-    var8 = 6;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.QuestsIcon;
-    var2['IconComponent'] = var8;
-    var8 = {};
+    var2['usePredicate'] = var9;
+    var9 = null;
+    var2['parent'] = var9;
+    var9 = 6;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.QuestsIcon;
+    var2['IconComponent'] = var9;
+    var9 = {};
     var10 = var10.QUESTS;
-    var8['route'] = var10;
-    var9 = function getComponent() {
+    var9['route'] = var10;
+    var10 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 7;
@@ -95,10 +95,33 @@ case 2:
         var1 = var1.default;
         return var1;
     };
-    var8['getComponent'] = var9;
-    var2['screen'] = var8;
+    var9['getComponent'] = var10;
+    var2['screen'] = var9;
+    var8 = function usePreNavigationAction() {
+        var1 = function() {
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 8;
+            var1 = var7[var1];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var1);
+            var2 = var3.setQuestHomeUtmContext;
+            var1 = {};
+            var4 = 9;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.QuestContent;
+            var4 = var4.USER_SETTINGS;
+            var1['fromContent'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = true;
+            return var1;
+        };
+        return var1;
+    };
+    var2['usePreNavigationAction'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 8;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
