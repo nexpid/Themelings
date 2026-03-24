@@ -1,4 +1,4 @@
-// app/modules/search/tokens/SearchTokenUtils.tsx
+// app/modules/search/tokens/SearchTokenStreamerModeUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var9 = require;
     var3 = exports;
@@ -228,7 +228,7 @@ case 20:
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
-    var8 = 'modules/search/tokens/SearchTokenUtils.tsx';
+    var8 = 'modules/search/tokens/SearchTokenStreamerModeUtils.tsx';
     var8 = var9.bind(var10)(var8);
     var3['isFromUserFilterSupported'] = var7;
     var3['isMentionsUserFilterSupported'] = var6;

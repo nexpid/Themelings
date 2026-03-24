@@ -549,7 +549,7 @@ case 39:
             }
         };
         var1['value'] = var2;
-        var2 = new Array(19);
+        var2 = new Array(20);
         var2[0] = var1;
         var1 = {};
         var6 = 'handleLayoutEffect';
@@ -2120,7 +2120,7 @@ case 214:
         var1 = {};
         var6 = 'deferredLayoutChange';
         var1['key'] = var6;
-        var5 = function deferredLayoutChange() {
+        var6 = function deferredLayoutChange() {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var2 = this;
@@ -2156,8 +2156,60 @@ case 40:
                 return var1;
             }
         };
-        var1['value'] = var5;
+        var1['value'] = var6;
         var2[18] = var1;
+        var1 = {};
+        var6 = 'checkDimensionsMismatch';
+        var1['key'] = var6;
+        var5 = function checkDimensionsMismatch(arg1, arg2) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+case 0:
+                var8 = arg1;
+                var7 = arg2;
+                var5 = this;
+                var1 = var5.props;
+                var1 = var1.windowWidth;
+                if(!(var1 === var8)) { _fun0023_ip = 218; continue _fun0023 }
+case 213:
+                var1 = var5.props;
+                var1 = var1.windowHeight;
+                if(!(var1 !== var7)) { _fun0023_ip = 219; continue _fun0023 }
+case 218:
+                var1 = var5.props;
+                var4 = var1.windowWidth;
+                var1 = var5.props;
+                var3 = var1.windowHeight;
+                var2 = var5.dirty;
+                var1 = {};
+                var9 = var5.props;
+                var10 = var1;
+                var6 = copyDataProperties(var10, var9);
+                var6 = 'windowWidth';
+                var1[var6] = var8;
+                var6 = 'windowHeight';
+                var1[var6] = var7;
+                var6 = _closure1_slot13;
+                var7 = var7 / var6;
+                var6 = 'chunkSize';
+                var1[var6] = var7;
+                var5['props'] = var1;
+                var6 = var5.setDirty;
+                var1 = true;
+                var1 = var6.bind(var5)(var1);
+                var1 = var5.deferredLayoutChange;
+                var1 = var1.bind(var5)();
+                var1 = {};
+                var1['staleWidth'] = var4;
+                var1['staleHeight'] = var3;
+                var1['wasDirty'] = var2;
+                return var1;
+case 219:
+                var1 = null;
+                return var1;
+            }
+        };
+        var1['value'] = var5;
+        var2[19] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -2171,7 +2223,7 @@ case 40:
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var4 = function useCardLayoutCoordsSubscription(arg1, arg2) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var7 = arg1;
             var6 = arg2;
@@ -2188,7 +2240,7 @@ case 0:
             var8 = var6.getCardCoords;
             var8 = var8.bind(var6)(var7);
             var9 = null;
-            if(!(var9 == var8)) { _fun0023_ip = 35; continue _fun0023 }
+            if(!(var9 == var8)) { _fun0024_ip = 35; continue _fun0024 }
 case 47:
             var8 = _closure1_slot17;
 case 35:
@@ -2205,14 +2257,14 @@ case 35:
             var3[2] = var1;
             var2 = function() {
                 var3 = function updateSharedValues() {
-                    _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+                    _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                         var4 = _closure2_slot1;
                         var3 = var4.getCardCoords;
                         var2 = _closure2_slot0;
                         var4 = var3.bind(var4)(var2);
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0024_ip = 215; continue _fun0024 }
+                        if(!(var2 != var4)) { _fun0025_ip = 215; continue _fun0025 }
 case 34:
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;

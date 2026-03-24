@@ -238,7 +238,7 @@ case 40:
             var5 = var8.bind(var12)(var5);
             var4 = var10[var4];
             var8 = var9.bind(var1)(var4);
-            var4 = var8.useAreUsersInSocialLayerStorefrontMutualGuilds;
+            var4 = var8.useAreUsersInSocialLayerStorefrontMutualGuildsApplicationIds;
             var4 = var4.bind(var8)(var11);
             var8 = 3;
             var8 = var10[var8];
@@ -393,14 +393,16 @@ case 57:
 case 59:
             var2 = var5;
 case 58:
-            if(var2) { _fun0004_ip = 24; continue _fun0004 }
-case 60:
-            var2 = var4;
-case 24:
-            if(var2) { _fun0004_ip = 61; continue _fun0004 }
-case 62:
-            var2 = var3;
+            if(var2) { _fun0004_ip = 60; continue _fun0004 }
 case 61:
+            var5 = var4.length;
+            var4 = 0;
+            var2 = var5 > var4;
+case 60:
+            if(var2) { _fun0004_ip = 62; continue _fun0004 }
+case 63:
+            var2 = var3;
+case 62:
             var1 = var2;
 case 56:
             return var1;

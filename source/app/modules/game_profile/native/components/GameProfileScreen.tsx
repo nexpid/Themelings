@@ -1,11 +1,11 @@
 // app/modules/game_profile/native/components/GameProfileScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function GetButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -853,10 +853,10 @@ case 45:
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var10 = 1;
-    var7 = var6[var10];
+    var12 = 1;
+    var7 = var6[var12];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
@@ -878,15 +878,20 @@ case 45:
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center'};
-    var11 = 5;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var11;
+    var10 = 5;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_BASE_LOWEST;
+    var9['backgroundColor'] = var13;
     var4['loadingContainer'] = var9;
     var9 = {};
-    var9['flex'] = var10;
+    var9['flex'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BACKGROUND_BASE_LOWEST;
+    var9['backgroundColor'] = var10;
     var4['scrollView'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;

@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var13;
     var4['card'] = var9;
     var9 = {'height': 112, 'width': '100%', 'resizeMode': 'cover'};
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var9['borderColor'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);

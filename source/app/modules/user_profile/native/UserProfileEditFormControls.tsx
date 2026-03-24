@@ -122,14 +122,14 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var7 = var1.label;
+            var19 = var1.label;
             var5 = var1.labelTrailing;
             var17 = var1.buttonText;
             var18 = var1.buttonSubtext;
-            var16 = var1.onPress;
+            var20 = var1.onPress;
             var12 = var1.leading;
             var11 = var1.trailing;
-            var15 = var1.accessibilityLabel;
+            var16 = var1.accessibilityValue;
             var13 = var1.accessibilityHint;
             var8 = var1.disabled;
             var4 = undefined;
@@ -137,38 +137,45 @@ case 0:
 case 5:
             var8 = false;
 case 4:
-            var9 = var1.hideArrow;
-            if(!(var9 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+            var15 = var1.loading;
+            if(!(var15 === var4)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var9 = false;
+            var15 = false;
 case 6:
+            var9 = var1.hideArrow;
+            if(!(var9 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var9 = false;
+case 8:
             var1 = _closure1_slot8;
             var14 = var1.bind(var4)();
             var3 = _closure1_slot6;
             var6 = _closure1_slot0;
-            var19 = _closure1_slot1;
+            var21 = _closure1_slot1;
             var1 = 7;
-            var1 = var19[var1];
+            var1 = var21[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.Input;
             var1 = {};
-            var1['label'] = var7;
+            var1['label'] = var19;
             var1['labelTrailing'] = var5;
             var7 = _closure1_slot7;
             var5 = 8;
-            var5 = var19[var5];
+            var5 = var21[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.PressableHighlight;
             var5 = {};
-            var5['onPress'] = var16;
-            var16 = var14.button;
-            var5['style'] = var16;
-            var16 = 'button';
-            var5['accessibilityRole'] = var16;
-            var5['accessibilityLabel'] = var15;
+            var5['onPress'] = var20;
+            var20 = var14.button;
+            var5['style'] = var20;
+            var20 = 'button';
+            var5['accessibilityRole'] = var20;
+            var5['accessibilityLabel'] = var19;
+            var5['accessibilityValue'] = var16;
             var5['accessibilityHint'] = var13;
             var13 = {};
             var13['disabled'] = var8;
+            var13['busy'] = var15;
             var5['accessibilityState'] = var13;
             var5['disabled'] = var8;
             var8 = new Array(4);
@@ -195,8 +202,8 @@ case 6:
             var8[1] = var12;
             var8[2] = var11;
             var9 = !var9;
-            if(!var9) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(!var9) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var12 = _closure1_slot6;
             var11 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -206,7 +213,7 @@ case 9:
             var11 = var10.TableRowArrow;
             var10 = {};
             var9 = var12.bind(var4)(var11, var10);
-case 8:
+case 10:
             var8[3] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -230,10 +237,10 @@ case 0:
             var8 = var1.accessibilityHint;
             var12 = var1.disabled;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(!(var12 === var4)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var12 = false;
-case 10:
+case 12:
             var _closure2_slot2 = var4;
             var1 = _closure1_slot8;
             var11 = var1.bind(var4)();
@@ -263,13 +270,13 @@ case 0:
                     var3 = var1 == var3;
                     var4 = undefined;
                     var1 = undefined;
-                    if(var3) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                    if(var3) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot0;
                     var2 = !var2;
                     var1 = var3.bind(var4)(var2);
-case 12:
+case 14:
                     return var1;
                 }
             };
@@ -284,18 +291,18 @@ case 12:
                 return var1;
             };
             var1 = var3.bind(var6)(var1, var2);
-            if(var19) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+            if(var19) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var7 = _closure1_slot4;
-            _fun0003_ip = 16; continue _fun0003;
-case 14:
+            _fun0003_ip = 18; continue _fun0003;
+case 16:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 8;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var7 = var1.PressableHighlight;
-case 16:
+case 18:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -308,10 +315,10 @@ case 16:
             var6 = _closure1_slot7;
             var5 = {};
             var18 = undefined;
-            if(!var19) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(!var19) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var18 = var13;
-case 17:
+case 19:
             var5['onPress'] = var18;
             var17 = function onAccessibilityTap() {
                 var3 = _closure2_slot2;
@@ -326,14 +333,14 @@ case 17:
 case 0:
                         var3 = _closure2_slot1;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                        if(!(var2 != var3)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
                         var3 = _closure2_slot1;
                         var1 = _closure2_slot0;
                         var2 = !var1;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
-case 19:
+case 21:
                         var1 = undefined;
                         return var1;
                     }
@@ -348,10 +355,10 @@ case 19:
             var5['accessibilityRole'] = var11;
             var17 = null;
             var11 = var15;
-            if(!(var17 != var16)) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+            if(!(var17 != var16)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var11 = var16;
-case 21:
+case 23:
             var5['accessibilityLabel'] = var11;
             var5['accessibilityHint'] = var8;
             var8 = {};

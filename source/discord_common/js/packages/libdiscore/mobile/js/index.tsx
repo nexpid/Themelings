@@ -145,6 +145,15 @@ case 4:
             return var1;
         };
         var3['crash'] = var4;
+        var4 = function registerDevLogListener(arg1) {
+            var3 = _closure1_slot2;
+            var2 = var3.registerDevLogListener;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var3['registerDevLogListener'] = var4;
         var4 = function generateLaunchSignature(arg1) {
             var3 = _closure1_slot2;
             var2 = var3.generateLaunchSignature;

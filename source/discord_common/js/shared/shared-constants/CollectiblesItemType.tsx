@@ -26,6 +26,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NAMEPLATE'] = var5;
     var1 = 'NAMEPLATE';
     var2[var5] = var1;
+    var5 = 3;
+    var2['PROFILE_FRAME'] = var5;
+    var1 = 'PROFILE_FRAME';
+    var2[var5] = var1;
     var5 = 1000;
     var2['BUNDLE'] = var5;
     var1 = 'BUNDLE';

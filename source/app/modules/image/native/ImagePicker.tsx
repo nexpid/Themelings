@@ -54,8 +54,9 @@ case 7:
             var3 = 3;
             var3 = var5[var3];
             var6 = var4.bind(var1)(var3);
-            var3 = var6.isMetaQuest;
-            var6 = var3.bind(var6)();
+            var3 = var6.isActionPickSupported;
+            var3 = var3.bind(var6)();
+            var6 = !var3;
             var3 = 4;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);

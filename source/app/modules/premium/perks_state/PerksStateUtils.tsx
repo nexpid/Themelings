@@ -7,14 +7,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportAll;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var8;
-    var5 = function hasPerk(arg1, arg2) {
+    var1 = function parseServerPerkConfigKind(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var2 = arg1;
+            var3 = var2.kind;
+            var1 = null;
+            if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = undefined;
+            return var1;
+case 2:
+            var1 = var2.kind;
+            var4 = var1.type;
+            var7 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var6 = 1;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var7.bind(var5)(var1);
+            var1 = var1.PerkConfigType;
+            var1 = var1.INCREASED_FILE_UPLOAD_SIZE;
+            if(!(var1 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var7 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var6];
+            var1 = var7.bind(var5)(var1);
+            var1 = var1.PerkConfigType;
+            var1 = var1.INCREASED_GUILD_LIMIT;
+            if(!(var1 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            return var5;
+case 6:
+            var1 = {};
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var6];
+            var4 = var7.bind(var5)(var4);
+            var4 = var4.PerkConfigType;
+            var4 = var4.INCREASED_GUILD_LIMIT;
+            var1['type'] = var4;
+            var4 = var2.kind;
+            var4 = var4.max_guilds;
+            var1['maxGuilds'] = var4;
+            return var1;
+case 4:
+            var1 = {};
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.PerkConfigType;
+            var3 = var3.INCREASED_FILE_UPLOAD_SIZE;
+            var1['type'] = var3;
+            var2 = var2.kind;
+            var2 = var2.max_size;
+            var1['maxSize'] = var2;
+            return var1;
+        }
+    };
+    var _closure1_slot4 = var1;
+    var5 = function hasPerk(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var8 = arg2;
             var2 = null;
-            if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!(var2 != var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var13 = var1.activePerksBitmask;
             var1 = global;
             var4 = var1.Math;
@@ -25,11 +86,11 @@ case 3:
             var1 = var13.length;
             var4 = var3 >= var1;
             var1 = !var4;
-            if(var4) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(var4) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var6 = 1;
+            var6 = 2;
             var4 = var10[var6];
             var7 = undefined;
             var5 = var9.bind(var7)(var4);
@@ -45,25 +106,25 @@ case 5:
             var2 = var8 % var2;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
-case 4:
+case 10:
             return var1;
-case 2:
+case 8:
             var1 = false;
             return var1;
         }
     };
-    var _closure1_slot4 = var5;
+    var _closure1_slot5 = var5;
     var4 = function getPerkSource(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var6 = arg1;
             var4 = arg2;
             var3 = null;
-            if(!(var3 == var6)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!(var3 == var6)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var1 = undefined;
             return var1;
-case 6:
+case 12:
             var2 = var6.configByPerk;
             var1 = global;
             var1 = var1.String;
@@ -72,20 +133,20 @@ case 6:
             var2 = var2[var1];
             var7 = var3 == var2;
             var1 = undefined;
-            if(var7) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(var7) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var1 = var2.source;
-case 8:
-            if(!(var3 == var1)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var1 = _closure1_slot4;
+case 14:
+            if(!(var3 == var1)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var1 = _closure1_slot5;
             var4 = var1.bind(var5)(var6, var4);
             var1 = undefined;
-            if(!var4) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(!var4) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 2;
+            var3 = 3;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.PerkSource;
@@ -93,15 +154,15 @@ case 13:
             var3 = new Array(1);
             var3[0] = var4;
             var1 = var3;
-case 12:
-            _fun0002_ip = 14; continue _fun0002;
-case 10:
+case 18:
+            _fun0003_ip = 20; continue _fun0003;
+case 16:
             var1 = var2.source;
-case 14:
+case 20:
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -116,19 +177,19 @@ case 14:
     var1 = undefined;
     var6 = var6.bind(var1)(var9);
     var _closure1_slot3 = var6;
-    var6 = 3;
+    var6 = 4;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/premium/perks_state/PerksStateUtils.tsx';
     var6 = var7.bind(var8)(var6);
     var6 = function parseServerPerks(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0003_ip = 15; continue _fun0003 }
-case 7:
+            if(!(var1 != var3)) { _fun0004_ip = 21; continue _fun0004 }
+case 13:
             var4 = {};
             var2 = global;
             var6 = var2.Object;
@@ -138,49 +199,28 @@ case 7:
             var2 = var11.length;
             var10 = 0;
             var2 = var10 < var2;
-            var9 = undefined;
+            var8 = undefined;
             var7 = 2;
             var6 = 1;
             var5 = 0;
-            if(!var2) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(!var2) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var12 = var11[var5];
             var2 = _closure1_slot3;
-            var2 = var2.bind(var9)(var12, var7);
+            var2 = var2.bind(var8)(var12, var7);
             var12 = var2[var10];
-            var15 = var2[var6];
+            var14 = var2[var6];
             var2 = {};
-            var13 = var15.source;
+            var13 = var14.source;
             var2['source'] = var13;
-            var13 = var15.increased_file_upload_size;
-            var14 = var1 != var13;
-            var13 = undefined;
-            if(!var14) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-            var14 = {};
-            var16 = var15.increased_file_upload_size;
-            var16 = var16.max_size;
-            var14['maxSize'] = var16;
-            var13 = var14;
-case 18:
-            var2['increasedFileUploadSize'] = var13;
-            var13 = var15.increased_guild_limit;
-            var14 = var1 != var13;
-            var13 = undefined;
-            if(!var14) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-            var14 = {};
-            var15 = var15.increased_guild_limit;
-            var15 = var15.max_guilds;
-            var14['maxGuilds'] = var15;
-            var13 = var14;
-case 20:
-            var2['increasedGuildLimit'] = var13;
+            var13 = _closure1_slot4;
+            var13 = var13.bind(var8)(var14);
+            var2['kind'] = var13;
             var4[var12] = var2;
             var5 = var5 + 1;
             var2 = var11.length;
-            if(var5 < var2) { _fun0003_ip = 17; continue _fun0003 }
-case 16:
+            if(var5 < var2) { _fun0004_ip = 23; continue _fun0004 }
+case 22:
             var2 = {};
             var5 = var3.active_perks_bitmask;
             var2['activePerksBitmask'] = var5;
@@ -188,7 +228,7 @@ case 16:
             var3 = var3.rules_version;
             var2['rulesVersion'] = var3;
             return var2;
-case 15:
+case 21:
             return var1;
         }
     };
@@ -196,32 +236,30 @@ case 15:
     var3['hasPerk'] = var5;
     var3['getPerkSource'] = var4;
     var2 = function getPerkConfig(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = arg1;
             var5 = arg2;
             var1 = null;
-            if(!(var1 != var6)) { _fun0004_ip = 22; continue _fun0004 }
-case 7:
+            if(!(var1 != var6)) { _fun0005_ip = 24; continue _fun0005 }
+case 13:
             var3 = var6.configByPerk;
             var2 = global;
             var2 = var2.String;
             var4 = undefined;
             var2 = var2.bind(var4)(var5);
             var2 = var3[var2];
-            if(!(var1 == var2)) { _fun0004_ip = 23; continue _fun0004 }
-case 22:
+            if(!(var1 == var2)) { _fun0005_ip = 25; continue _fun0005 }
+case 24:
             var1 = undefined;
             return var1;
-case 23:
+case 25:
             var1 = {};
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot6;
             var3 = var3.bind(var4)(var6, var5);
             var1['source'] = var3;
-            var3 = var2.increasedFileUploadSize;
-            var1['increasedFileUploadSize'] = var3;
-            var2 = var2.increasedGuildLimit;
-            var1['increasedGuildLimit'] = var2;
+            var2 = var2.kind;
+            var1['kind'] = var2;
             return var1;
         }
     };

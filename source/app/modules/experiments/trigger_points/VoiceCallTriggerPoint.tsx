@@ -1,16 +1,17 @@
 // app/modules/experiments/trigger_points/VoiceCallTriggerPoint.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var1 = global;
-    var7 = var1.Object;
-    var4 = var7.defineProperty;
+    var8 = var1.Object;
+    var4 = var8.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var7)(var3, var1, var2);
+    var1 = var4.bind(var8)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
@@ -24,12 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ExpandVoiceInviteSuggestionsExperiment;
-    var8 = new Array(6);
+    var8 = new Array(7);
     var8[0] = var4;
     var4 = 3;
-    var7 = var6[var4];
-    var4 = metroImportDefault;
-    var4 = var4.bind(var1)(var7);
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var8[1] = var4;
     var4 = 4;
     var4 = var6[var4];
@@ -51,6 +51,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.HangoutWindowExperiment;
     var8[5] = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var8[6] = var4;
     var11 = var2.VOICE_CALL;
     var2 = {};
     var4 = 'voice call initiated';
@@ -62,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2;
     var2 = new var13[var9](var12, var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

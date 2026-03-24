@@ -291,13 +291,9 @@ case 14:
                         var9 = _closure1_slot2;
                         var7 = 9;
                         var7 = var9[var7];
-                        var9 = var8.bind(var1)(var7);
-                        var8 = var9.getIsEligibleForQuests;
-                        var7 = {};
-                        var10 = _closure1_slot9;
-                        var10 = var10.QUESTS_MANAGER;
-                        var7['location'] = var10;
-                        var7 = var8.bind(var9)(var7);
+                        var8 = var8.bind(var1)(var7);
+                        var7 = var8.getIsEligibleForQuests;
+                        var7 = var7.bind(var8)();
                         if(!var7) { _fun0003_ip = 12; continue _fun0003 }
 case 15:
                         var8 = var4.Math;
@@ -466,13 +462,9 @@ case 0:
                 var1 = 9;
                 var2 = var2[var1];
                 var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var3 = var5.getIsEligibleForQuests;
-                var2 = {};
-                var6 = _closure1_slot9;
-                var6 = var6.QUESTS_MANAGER;
-                var2['location'] = var6;
-                var2 = var3.bind(var5)(var2);
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.getIsEligibleForQuests;
+                var2 = var2.bind(var3)();
                 if(!var2) { _fun0008_ip = 29; continue _fun0008 }
 case 30:
                 var3 = _closure1_slot8;
@@ -480,7 +472,7 @@ case 30:
                 var2 = !var3;
 case 29:
                 if(!var2) { _fun0008_ip = 31; continue _fun0008 }
-case 5:
+case 32:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 10;
@@ -493,8 +485,8 @@ case 5:
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isMac;
                 var3 = var3.bind(var5)();
-                if(!var3) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
+                if(!var3) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 12;
@@ -504,9 +496,9 @@ case 33:
                 var6 = var5.bind(var6)();
                 var5 = 'focused';
                 var3 = var5 !== var6;
-case 32:
-                if(var3) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+case 33:
+                if(var3) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 13;
@@ -518,9 +510,9 @@ case 35:
                 var5['location'] = var8;
                 var5 = var6.bind(var7)(var5);
                 var3 = var5.enableNewRequestBehavior;
-case 34:
+case 35:
                 if(var3) { _fun0008_ip = 31; continue _fun0008 }
-case 36:
+case 37:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = var6[var2];

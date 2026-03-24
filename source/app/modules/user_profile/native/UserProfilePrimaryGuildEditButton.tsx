@@ -189,12 +189,12 @@ case 21:
             var2 = var9.bind(var5)(var2);
             var2 = var2.t;
             var2 = var2.ECv270;
-            var18 = var3.bind(var4)(var2);
+            var10 = var3.bind(var4)(var2);
             _fun0001_ip = 22; continue _fun0001;
 case 20:
-            var18 = var17.name;
+            var10 = var17.name;
 case 22:
-            var10 = var18;
+            var18 = var10;
             if(!(var1 != var13)) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
             var9 = var13.tag;
@@ -203,7 +203,7 @@ case 24:
             var4 = var2.concat;
             var3 = '';
             var2 = ', ';
-            var10 = var4.bind(var3)(var18, var2, var9);
+            var18 = var4.bind(var3)(var10, var2, var9);
 case 23:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -243,8 +243,10 @@ case 25:
             var21 = var21.DUD+5n;
             var21 = var22.bind(var23)(var21);
             var2['label'] = var21;
-            var2['buttonText'] = var18;
-            var2['accessibilityLabel'] = var10;
+            var2['buttonText'] = var10;
+            var10 = {};
+            var10['text'] = var18;
+            var2['accessibilityValue'] = var10;
             var10 = var20[var9];
             var10 = var19.bind(var5)(var10);
             var18 = var10.intl;

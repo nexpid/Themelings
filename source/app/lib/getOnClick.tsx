@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function openInviteModal() {
         var1 = undefined;
-        var4 = _closure1_slot19;
+        var4 = _closure1_slot18;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot17 = var1;
     var1 = function _openInviteModal() {
         var5 = undefined;
         var1 = undefined;
@@ -62,7 +62,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot19 = var4;
+        _closure1_slot18 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -70,7 +70,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot18 = var1;
     var1 = function _handleInviteCodedLink() {
         var5 = undefined;
         var1 = undefined;
@@ -128,7 +128,7 @@ case 20:
                     var7 = var7.ERROR;
                     if(!(var8 === var7)) { _fun0002_ip = 21; continue _fun0002 }
 case 18:
-                    var8 = _closure1_slot18;
+                    var8 = _closure1_slot17;
                     var7 = var3.code;
                     var7 = var8.bind(var4)(var6, var7);
                     SaveGenerator(address=195);
@@ -226,7 +226,7 @@ case 40:
                     var7 = var7.bind(var8)(var6);
                     _fun0002_ip = 16; continue _fun0002;
 case 38:
-                    var5 = _closure1_slot18;
+                    var5 = _closure1_slot17;
                     var3 = var3.code;
                     var3 = var5.bind(var4)(var6, var3);
                     SaveGenerator(address=482);
@@ -248,7 +248,7 @@ case 8:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot20 = var4;
+        _closure1_slot19 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -256,7 +256,7 @@ case 8:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -325,12 +325,11 @@ case 8:
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.QuestsExperimentLocations;
-    var _closure1_slot16 = var4;
     var4 = {};
     var4['skipExtensionCheck'] = var1;
     var7 = new Array(0);
     var4['analyticsLocations'] = var7;
-    var _closure1_slot17 = var4;
+    var _closure1_slot16 = var4;
     var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -346,7 +345,7 @@ case 0:
             var7 = undefined;
             if(!(var2 === var7)) { _fun0003_ip = 44; continue _fun0003 }
 case 45:
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot16;
 case 44:
             var8 = var2.skipExtensionCheck;
             var2 = var2.analyticsLocations;
@@ -466,13 +465,9 @@ case 62:
             var10 = _closure1_slot2;
             var3 = 29;
             var3 = var10[var3];
-            var10 = var5.bind(var7)(var3);
-            var5 = var10.getIsEligibleForQuests;
-            var3 = {};
-            var11 = _closure1_slot16;
-            var11 = var11.EMBED_MOBILE;
-            var3['location'] = var11;
-            var3 = var5.bind(var10)(var3);
+            var5 = var5.bind(var7)(var3);
+            var3 = var5.getIsEligibleForQuests;
+            var3 = var3.bind(var5)();
             if(var3) { _fun0003_ip = 63; continue _fun0003 }
 case 61:
             if(!(var4 != var2)) { _fun0003_ip = 64; continue _fun0003 }
@@ -1380,7 +1375,7 @@ case 87:
                     var3 = _closure2_slot2;
                     var2 = function handleInviteCodedLink() {
                         var1 = undefined;
-                        var4 = _closure1_slot20;
+                        var4 = _closure1_slot19;
                         var3 = var4.apply;
                         var1 = arguments;
                         var2 = var1;

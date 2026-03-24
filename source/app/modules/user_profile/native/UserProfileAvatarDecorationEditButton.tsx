@@ -75,8 +75,8 @@ case 0:
             var15 = var1.guildId;
             var _closure2_slot1 = var15;
             var10 = var1.pendingAvatarDecoration;
-            var13 = var1.isTryItOut;
-            var _closure2_slot2 = var13;
+            var12 = var1.isTryItOut;
+            var _closure2_slot2 = var12;
             var4 = undefined;
             var _closure2_slot4 = var4;
             var1 = _closure1_slot9;
@@ -89,7 +89,7 @@ case 0:
             var1 = 8;
             var1 = var8[var1];
             var14 = var5.bind(var4)(var1);
-            var12 = var14.useStateFromStores;
+            var13 = var14.useStateFromStores;
             var1 = _closure1_slot5;
             var3 = new Array(1);
             var3[0] = var1;
@@ -110,7 +110,7 @@ case 2:
                     return var1;
                 }
             };
-            var12 = var12.bind(var14)(var3, var1);
+            var13 = var13.bind(var14)(var3, var1);
             var3 = _closure1_slot1;
             var1 = 9;
             var1 = var8[var1];
@@ -123,11 +123,11 @@ case 2:
             var1['pendingValue'] = var10;
             var10 = var16.avatarDecoration;
             var1['userValue'] = var10;
-            var14 = var7 == var12;
+            var14 = var7 == var13;
             var10 = undefined;
             if(var14) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var10 = var12.avatarDecoration;
+            var10 = var13.avatarDecoration;
 case 4:
             var1['guildValue'] = var10;
             var1['guildId'] = var15;
@@ -151,15 +151,15 @@ case 6:
             if(!var11) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var3 = var16.avatarDecoration;
-            var12 = var7 == var3;
+            var13 = var7 == var3;
             var8 = undefined;
-            if(var12) { _fun0001_ip = 10; continue _fun0001 }
+            if(var13) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var8 = var3.skuId;
 case 10:
-            var12 = var7 == var10;
+            var13 = var7 == var10;
             var3 = undefined;
-            if(var12) { _fun0001_ip = 12; continue _fun0001 }
+            if(var13) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var3 = var10.skuId;
 case 12:
@@ -178,24 +178,24 @@ case 15:
             var8 = var11;
             if(!var8) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var12 = var7 == var5;
+            var13 = var7 == var5;
             var17 = undefined;
-            if(var12) { _fun0001_ip = 19; continue _fun0001 }
+            if(var13) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var17 = var5.skuId;
 case 19:
             var18 = var16.avatarDecoration;
             var19 = var7 == var18;
-            var12 = undefined;
+            var13 = undefined;
             if(var19) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-            var12 = var18.skuId;
+            var13 = var18.skuId;
 case 21:
-            var8 = var17 === var12;
+            var8 = var17 === var13;
 case 17:
             if(var11) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var12 = var3;
+            var13 = var3;
             if(!(var7 == var3)) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
             var19 = _closure1_slot0;
@@ -209,7 +209,7 @@ case 26:
             var11 = var19.bind(var4)(var11);
             var11 = var11.t;
             var11 = var11.PoWNfe;
-            var12 = var17.bind(var18)(var11);
+            var13 = var17.bind(var18)(var11);
 case 25:
             _fun0001_ip = 27; continue _fun0001;
 case 23:
@@ -230,7 +230,7 @@ case 28:
             var8 = var8.CHf9iJ;
             var3 = var11.bind(var17)(var8);
 case 30:
-            var12 = var3;
+            var13 = var3;
 case 27:
             var11 = _closure1_slot3;
             var8 = var11.useCallback;
@@ -238,7 +238,7 @@ case 27:
             var3[0] = var16;
             var3[1] = var15;
             var3[2] = var14;
-            var3[3] = var13;
+            var3[3] = var12;
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -262,9 +262,9 @@ case 27:
             var8 = var8.bind(var11)(var2, var3);
             var3 = _closure1_slot8;
             var11 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var2 = 14;
-            var2 = var13[var2];
+            var2 = var12[var2];
             var2 = var11.bind(var4)(var2);
             var2 = var2.UserProfileEditFormButton;
             if(var1) { _fun0001_ip = 31; continue _fun0001 }
@@ -273,18 +273,20 @@ case 32:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var11 = 12;
-            var13 = var15[var11];
-            var13 = var14.bind(var4)(var13);
-            var17 = var13.intl;
+            var12 = var15[var11];
+            var12 = var14.bind(var4)(var12);
+            var17 = var12.intl;
             var16 = var17.string;
-            var13 = var15[var11];
-            var13 = var14.bind(var4)(var13);
-            var13 = var13.t;
-            var13 = var13.7v0T9P;
-            var13 = var16.bind(var17)(var13);
-            var1['label'] = var13;
-            var1['buttonText'] = var12;
-            var1['accessibilityLabel'] = var12;
+            var12 = var15[var11];
+            var12 = var14.bind(var4)(var12);
+            var12 = var12.t;
+            var12 = var12.7v0T9P;
+            var12 = var16.bind(var17)(var12);
+            var1['label'] = var12;
+            var1['buttonText'] = var13;
+            var12 = {};
+            var12['text'] = var13;
+            var1['accessibilityValue'] = var12;
             var12 = var15[var11];
             var12 = var14.bind(var4)(var12);
             var13 = var12.intl;
@@ -357,16 +359,6 @@ case 31:
             var5['buttonText'] = var8;
             var8 = var11[var7];
             var8 = var10.bind(var4)(var8);
-            var12 = var8.intl;
-            var9 = var12.string;
-            var8 = var11[var7];
-            var8 = var10.bind(var4)(var8);
-            var8 = var8.t;
-            var8 = var8.ZTNur7;
-            var8 = var9.bind(var12)(var8);
-            var5['accessibilityLabel'] = var8;
-            var8 = var11[var7];
-            var8 = var10.bind(var4)(var8);
             var9 = var8.intl;
             var8 = var9.string;
             var7 = var11[var7];
@@ -383,7 +375,9 @@ case 31:
             var7 = {'animating': true, 'size': 'large'};
             var7 = var9.bind(var4)(var8, var7);
             var5['leading'] = var7;
+            var5['loading'] = var6;
             var5['disabled'] = var6;
+            var5['hideArrow'] = var6;
             var1 = var5;
 case 36:
             var1 = var3.bind(var4)(var2, var1);

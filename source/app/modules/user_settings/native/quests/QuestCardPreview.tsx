@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -56,12 +56,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['trackGuildAndChannelMetadata'] = var6;
         var5 = function children() {
             var4 = _closure1_slot3;
-            var2 = _closure1_slot1;
+            var10 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 3;
             var1 = var9[var1];
             var3 = undefined;
-            var2 = var2.bind(var3)(var1);
+            var2 = var10.bind(var3)(var1);
             var1 = {};
             var8 = _closure1_slot0;
             var5 = 4;
@@ -82,7 +82,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var7 = _closure2_slot0;
             var5['quest'] = var7;
-            var7 = 0;
+            var7 = 6;
+            var7 = var9[var7];
+            var7 = var10.bind(var3)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_16;
             var5['containerPadding'] = var7;
             var7 = 2;
             var7 = var9[var7];

@@ -2,13 +2,13 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-        var12 = require;
+        var11 = require;
         var9 = metroImportDefault;
         var3 = exports;
-        var13 = dependencyMap;
-        var _closure1_slot0 = var12;
+        var12 = dependencyMap;
+        var _closure1_slot0 = var11;
         var _closure1_slot1 = var9;
-        var _closure1_slot2 = var13;
+        var _closure1_slot2 = var12;
         var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -185,7 +185,7 @@ case 35:
             }
         };
         var _closure1_slot25 = var1;
-        var8 = function sanitizeFilename(arg1) {
+        var7 = function sanitizeFilename(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = arg1;
@@ -227,8 +227,8 @@ case 38: // catch_target0
                 return var1;
             }
         };
-        var _closure1_slot26 = var8;
-        var7 = function getFileData() {
+        var _closure1_slot26 = var7;
+        var6 = function getFileData() {
             var1 = undefined;
             var4 = _closure1_slot28;
             var3 = var4.apply;
@@ -238,7 +238,7 @@ case 38: // catch_target0
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var _closure1_slot27 = var7;
+        var _closure1_slot27 = var6;
         var1 = function _getFileData() {
             var5 = undefined;
             var1 = undefined;
@@ -318,14 +318,14 @@ case 39:
             return var1;
         };
         var _closure1_slot28 = var1;
-        var6 = function getImageData(arg1) {
+        var5 = function getImageData(arg1) {
             var3 = _closure1_slot27;
             var2 = undefined;
             var1 = arg1;
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var _closure1_slot29 = var6;
+        var _closure1_slot29 = var5;
         var1 = function normalizeRunningGame(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -550,32 +550,32 @@ case 84:
             }
         };
         var _closure1_slot32 = var1;
-        var5 = global;
-        var14 = var5.Object;
-        var10 = var14.defineProperty;
+        var8 = global;
+        var14 = var8.Object;
+        var13 = var14.defineProperty;
         var4 = {};
         var1 = true;
         var4['value'] = var1;
         var1 = '__esModule';
-        var1 = var10.bind(var14)(var3, var1, var4);
+        var1 = var13.bind(var14)(var3, var1, var4);
         var15 = 0;
-        var4 = var13[var15];
+        var4 = var12[var15];
         var1 = undefined;
         var4 = var9.bind(var1)(var4);
         var _closure1_slot3 = var4;
         var14 = 1;
-        var4 = var13[var14];
+        var4 = var12[var14];
         var4 = var9.bind(var1)(var4);
         var _closure1_slot4 = var4;
-        var10 = 2;
-        var4 = var13[var10];
-        var4 = var12.bind(var1)(var4);
+        var13 = 2;
+        var4 = var12[var13];
+        var4 = var11.bind(var1)(var4);
         var4 = var4.NativeFeatures;
         var _closure1_slot5 = var4;
-        var4 = var5.window;
+        var4 = var8.window;
         var9 = var4.DiscordNative;
         var _closure1_slot6 = var9;
-        var17 = var5.Set;
+        var17 = var8.Set;
         var4 = var17.prototype;
         var16 = Object.create(var4, {constructor: {value: var17}});
         var21 = ['jpg', 'jpeg', 'jfif', 'png'];
@@ -583,7 +583,7 @@ case 84:
         var4 = new var22[var17](var21, var20);
         var4 = var4 instanceof Object ? var4 : var16;
         var _closure1_slot7 = var4;
-        var17 = var5.Set;
+        var17 = var8.Set;
         var4 = var17.prototype;
         var16 = Object.create(var4, {constructor: {value: var17}});
         var21 = ['jpg', 'jpeg', 'jfif', 'png', 'webp', 'gif', 'tiff', 'bmp', 'avif'];
@@ -627,13 +627,13 @@ case 88:
         var9 = var9.bind(var16)();
         _closure1_slot10 = var9;
 case 87:
-        var16 = var5.Set;
-        var5 = var16.prototype;
-        var22 = Object.create(var5, {constructor: {value: var16}});
+        var16 = var8.Set;
+        var8 = var16.prototype;
+        var22 = Object.create(var8, {constructor: {value: var16}});
         var21 = ['discord_erlpack', 'discord_game_utils', 'discord_rpc', 'discord_spellcheck', 'discord_utils', 'discord_voice'];
-        var5 = new var22[var16](var21, var20);
-        var5 = false;
-        var _closure1_slot14 = var5;
+        var8 = new var22[var16](var21, var20);
+        var8 = false;
+        var _closure1_slot14 = var8;
         var _closure1_slot15 = var4;
         var4 = 'lastImageSaveDirectory';
         var _closure1_slot16 = var4;
@@ -647,43 +647,34 @@ case 87:
         var _closure1_slot20 = var4;
         var4 = /\.[^.]*$/;
         var _closure1_slot21 = var4;
-        var9 = {};
+        var8 = {};
         var4 = 'saved';
-        var9['SAVED'] = var4;
+        var8['SAVED'] = var4;
         var4 = 'canceled';
-        var9['CANCELED'] = var4;
+        var8['CANCELED'] = var4;
         var4 = 'errored';
-        var9['ERRORED'] = var4;
-        var _closure1_slot22 = var9;
-        var5 = {};
-        var5['Camera'] = var15;
-        var4 = 'Camera';
-        var5[var15] = var4;
-        var5['Microphone'] = var14;
-        var4 = 'Microphone';
-        var5[var14] = var4;
-        var5['Photo'] = var10;
-        var4 = 'Photo';
-        var5[var10] = var4;
-        var10 = 3;
-        var5['InputMonitoring'] = var10;
-        var4 = 'InputMonitoring';
-        var5[var10] = var4;
-        var10 = 4;
-        var5['ScreenRecording'] = var10;
-        var4 = 'ScreenRecording';
-        var5[var10] = var4;
+        var8['ERRORED'] = var4;
+        var _closure1_slot22 = var8;
         var4 = {};
-        var10 = 'VIDEO';
-        var4['VIDEO'] = var10;
-        var10 = 'MUTE';
-        var4['MUTE'] = var10;
-        var10 = 'DEAFEN';
-        var4['DEAFEN'] = var10;
-        var10 = 'DISCONNECT';
-        var4['DISCONNECT'] = var10;
-        var10 = {};
-        var14 = function requireModule(arg1) {
+        var4['Camera'] = var15;
+        var9 = 'Camera';
+        var4[var15] = var9;
+        var4['Microphone'] = var14;
+        var9 = 'Microphone';
+        var4[var14] = var9;
+        var4['Photo'] = var13;
+        var9 = 'Photo';
+        var4[var13] = var9;
+        var13 = 3;
+        var4['InputMonitoring'] = var13;
+        var9 = 'InputMonitoring';
+        var4[var13] = var9;
+        var13 = 4;
+        var4['ScreenRecording'] = var13;
+        var9 = 'ScreenRecording';
+        var4[var13] = var9;
+        var9 = {};
+        var13 = function requireModule(arg1) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var2 = arg1;
@@ -728,8 +719,8 @@ case 91:
                 return var1;
             }
         };
-        var10['requireModule'] = var14;
-        var14 = function ensureModule(arg1) {
+        var9['requireModule'] = var13;
+        var13 = function ensureModule(arg1) {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -763,8 +754,8 @@ case 96:
                 return var1;
             }
         };
-        var10['ensureModule'] = var14;
-        var15 = function get canBootstrapNewUpdater() {
+        var9['ensureModule'] = var13;
+        var14 = function get canBootstrapNewUpdater() {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var1 = _closure1_slot6;
@@ -777,17 +768,17 @@ case 97:
                 return var1;
             }
         };
-        var14 = 'canBootstrapNewUpdater';
-        Object.defineProperty(var10, var14, {get: var15, set: var1, enumerable: true});
-        var14 = function getCrashReporterMetadata() {
+        var13 = 'canBootstrapNewUpdater';
+        Object.defineProperty(var9, var13, {get: var14, set: var1, enumerable: true});
+        var13 = function getCrashReporterMetadata() {
             var1 = _closure1_slot6;
             var2 = var1.crashReporter;
             var1 = var2.getMetadata;
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['getCrashReporterMetadata'] = var14;
-        var14 = function getSetting(arg1, arg2) {
+        var9['getCrashReporterMetadata'] = var13;
+        var13 = function getSetting(arg1, arg2) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -828,8 +819,8 @@ case 86:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['getSetting'] = var14;
-        var14 = function beforeUnload() {
+        var9['getSetting'] = var13;
+        var13 = function beforeUnload() {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var6 = this;
@@ -934,8 +925,8 @@ case 111:
                 return var1;
             }
         };
-        var10['beforeUnload'] = var14;
-        var14 = function inputEventRegister(arg1, arg2, arg3, arg4) {
+        var9['beforeUnload'] = var13;
+        var13 = function inputEventRegister(arg1, arg2, arg3, arg4) {
             var4 = arg2;
             var2 = this;
             var1 = var2.getDiscordUtils;
@@ -1022,8 +1013,8 @@ case 44:
             var2 = var12[var6](var11, var10, var9, var8, var7);
             return var1;
         };
-        var10['inputEventRegister'] = var14;
-        var14 = function inputEventUnregister(arg1) {
+        var9['inputEventRegister'] = var13;
+        var13 = function inputEventUnregister(arg1) {
             var2 = this;
             var1 = var2.getDiscordUtils;
             var4 = var1.bind(var2)();
@@ -1036,8 +1027,8 @@ case 44:
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var10['inputEventUnregister'] = var14;
-        var14 = function setOnInputEventCallback(arg1) {
+        var9['inputEventUnregister'] = var13;
+        var13 = function setOnInputEventCallback(arg1) {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var3 = this;
@@ -1059,8 +1050,8 @@ case 89:
                 return var1;
             }
         };
-        var10['setOnInputEventCallback'] = var14;
-        var14 = function setFocused(arg1) {
+        var9['setOnInputEventCallback'] = var13;
+        var13 = function setFocused(arg1) {
             var2 = this;
             var1 = var2.getDiscordUtils;
             var3 = var1.bind(var2)();
@@ -1070,8 +1061,8 @@ case 89:
             var1 = undefined;
             return var1;
         };
-        var10['setFocused'] = var14;
-        var14 = function setObservedGamesCallback(arg1, arg2, arg3, arg4) {
+        var9['setFocused'] = var13;
+        var13 = function setObservedGamesCallback(arg1, arg2, arg3, arg4) {
             _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var11 = this;
@@ -1180,8 +1171,8 @@ case 128:
                 return var1;
             }
         };
-        var10['setObservedGamesCallback'] = var14;
-        var14 = function setProcessObserverCollectExecutableFingerprint(arg1) {
+        var9['setObservedGamesCallback'] = var13;
+        var13 = function setProcessObserverCollectExecutableFingerprint(arg1) {
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var2 = this;
@@ -1199,8 +1190,8 @@ case 129:
                 return var1;
             }
         };
-        var10['setProcessObserverCollectExecutableFingerprint'] = var14;
-        var14 = function setGameDetectionCallback(arg1) {
+        var9['setProcessObserverCollectExecutableFingerprint'] = var13;
+        var13 = function setGameDetectionCallback(arg1) {
             _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var3 = this;
@@ -1245,8 +1236,8 @@ case 131:
                 return var1;
             }
         };
-        var10['setGameDetectionCallback'] = var14;
-        var14 = function setGameDetectionErrorCallback(arg1) {
+        var9['setGameDetectionCallback'] = var13;
+        var13 = function setGameDetectionErrorCallback(arg1) {
             _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var2 = this;
@@ -1264,8 +1255,8 @@ case 129:
                 return var1;
             }
         };
-        var10['setGameDetectionErrorCallback'] = var14;
-        var14 = function setRobloxSubgameDetectionConfig(arg1, arg2) {
+        var9['setGameDetectionErrorCallback'] = var13;
+        var13 = function setRobloxSubgameDetectionConfig(arg1, arg2) {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var2 = this;
@@ -1284,8 +1275,8 @@ case 132:
                 return var1;
             }
         };
-        var10['setRobloxSubgameDetectionConfig'] = var14;
-        var14 = function checkForRobloxSubgameUpdate() {
+        var9['setRobloxSubgameDetectionConfig'] = var13;
+        var13 = function checkForRobloxSubgameUpdate() {
             _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var2 = this;
@@ -1302,8 +1293,8 @@ case 133:
                 return var1;
             }
         };
-        var10['checkForRobloxSubgameUpdate'] = var14;
-        var14 = function setCandidateGamesCallback(arg1) {
+        var9['checkForRobloxSubgameUpdate'] = var13;
+        var13 = function setCandidateGamesCallback(arg1) {
             var3 = this;
             var2 = arg1;
             var _closure2_slot0 = var2;
@@ -1330,8 +1321,8 @@ case 133:
             var1 = undefined;
             return var1;
         };
-        var10['setCandidateGamesCallback'] = var14;
-        var14 = function clearCandidateGamesCallback() {
+        var9['setCandidateGamesCallback'] = var13;
+        var13 = function clearCandidateGamesCallback() {
             var2 = this;
             var1 = var2.getDiscordUtils;
             var2 = var1.bind(var2)();
@@ -1340,8 +1331,8 @@ case 133:
             var1 = undefined;
             return var1;
         };
-        var10['clearCandidateGamesCallback'] = var14;
-        var14 = function setGameCandidateOverrides(arg1) {
+        var9['clearCandidateGamesCallback'] = var13;
+        var13 = function setGameCandidateOverrides(arg1) {
             var5 = arg1;
             var2 = this;
             var1 = var2.getDiscordUtils;
@@ -1367,8 +1358,8 @@ case 133:
             var1 = undefined;
             return var1;
         };
-        var10['setGameCandidateOverrides'] = var14;
-        var14 = function setObserverDebugCallback(arg1, arg2, arg3) {
+        var9['setGameCandidateOverrides'] = var13;
+        var13 = function setObserverDebugCallback(arg1, arg2, arg3) {
             var3 = this;
             var2 = arg1;
             var _closure2_slot0 = var2;
@@ -1388,8 +1379,8 @@ case 133:
             var1 = undefined;
             return var1;
         };
-        var10['setObserverDebugCallback'] = var14;
-        var14 = function clearObserverDebugCallback() {
+        var9['setObserverDebugCallback'] = var13;
+        var13 = function clearObserverDebugCallback() {
             var2 = this;
             var1 = var2.getDiscordUtils;
             var6 = var1.bind(var2)();
@@ -1407,8 +1398,8 @@ case 133:
             var2 = var5.bind(var6)(var3, var4, var2);
             return var1;
         };
-        var10['clearObserverDebugCallback'] = var14;
-        var14 = function shouldDisplayNotifications() {
+        var9['clearObserverDebugCallback'] = var13;
+        var13 = function shouldDisplayNotifications() {
             var2 = this;
             var1 = var2.getDiscordUtils;
             var2 = var1.bind(var2)();
@@ -1416,8 +1407,8 @@ case 133:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['shouldDisplayNotifications'] = var14;
-        var14 = function getVoiceEngine() {
+        var9['shouldDisplayNotifications'] = var13;
+        var13 = function getVoiceEngine() {
             _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                 var4 = this;
@@ -1458,8 +1449,8 @@ case 134:
                 return var1;
             }
         };
-        var10['getVoiceEngine'] = var14;
-        var14 = function getDiscordUtils() {
+        var9['getVoiceEngine'] = var13;
+        var13 = function getDiscordUtils() {
             _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                 var3 = this;
@@ -1479,8 +1470,8 @@ case 113:
                 return var1;
             }
         };
-        var10['getDiscordUtils'] = var14;
-        var14 = function isSystemDarkMode() {
+        var9['getDiscordUtils'] = var13;
+        var13 = function isSystemDarkMode() {
             _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
                 var4 = this;
@@ -1517,8 +1508,8 @@ case 38:
                 return var1;
             }
         };
-        var10['isSystemDarkMode'] = var14;
-        var14 = function getDiscordIsElevated() {
+        var9['isSystemDarkMode'] = var13;
+        var13 = function getDiscordIsElevated() {
             _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
                 var4 = this;
@@ -1555,40 +1546,40 @@ case 141:
                 return var1;
             }
         };
-        var10['getDiscordIsElevated'] = var14;
-        var14 = function getVoiceFilters() {
+        var9['getDiscordIsElevated'] = var13;
+        var13 = function getVoiceFilters() {
             var3 = this;
             var2 = var3.requireModule;
             var1 = 'discord_voice_filters';
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10['getVoiceFilters'] = var14;
-        var14 = function getGameUtils() {
+        var9['getVoiceFilters'] = var13;
+        var13 = function getGameUtils() {
             var3 = this;
             var2 = var3.requireModule;
             var1 = 'discord_game_utils';
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10['getGameUtils'] = var14;
-        var14 = function getCloudSync() {
+        var9['getGameUtils'] = var13;
+        var13 = function getCloudSync() {
             var3 = this;
             var2 = var3.requireModule;
             var1 = 'discord_cloudsync';
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10['getCloudSync'] = var14;
-        var14 = function getDispatch() {
+        var9['getCloudSync'] = var13;
+        var13 = function getDispatch() {
             var3 = this;
             var2 = var3.requireModule;
             var1 = 'discord_dispatch';
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10['getDispatch'] = var14;
-        var14 = function setBadge(arg1) {
+        var9['getDispatch'] = var13;
+        var13 = function setBadge(arg1) {
             _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var6 = arg1;
@@ -1669,8 +1660,8 @@ case 146:
                 return var1;
             }
         };
-        var10['setBadge'] = var14;
-        var14 = function setSystemTrayIcon(arg1) {
+        var9['setBadge'] = var13;
+        var13 = function setSystemTrayIcon(arg1) {
             _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
                 var5 = this;
@@ -1697,8 +1688,8 @@ case 138:
                 return var1;
             }
         };
-        var10['setSystemTrayIcon'] = var14;
-        var14 = function setThumbarButtons(arg1) {
+        var9['setSystemTrayIcon'] = var13;
+        var13 = function setThumbarButtons(arg1) {
             _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
                 var3 = this;
@@ -1731,8 +1722,8 @@ case 11:
                 return var1;
             }
         };
-        var10['setThumbarButtons'] = var14;
-        var14 = function bounceDock(arg1) {
+        var9['setThumbarButtons'] = var13;
+        var13 = function bounceDock(arg1) {
             _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
                 var5 = _closure1_slot0;
@@ -1793,8 +1784,8 @@ case 4:
                 return var1;
             }
         };
-        var10['bounceDock'] = var14;
-        var14 = function setSystemTrayApplications(arg1) {
+        var9['bounceDock'] = var13;
+        var13 = function setSystemTrayApplications(arg1) {
             _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
                 var5 = this;
@@ -1821,8 +1812,8 @@ case 138:
                 return var1;
             }
         };
-        var10['setSystemTrayApplications'] = var14;
-        var15 = function get architecture() {
+        var9['setSystemTrayApplications'] = var13;
+        var14 = function get architecture() {
             _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -1842,9 +1833,9 @@ case 144:
                 return var1;
             }
         };
-        var14 = 'architecture';
-        Object.defineProperty(var10, var14, {get: var15, set: var1, enumerable: true});
-        var15 = function get releaseChannel() {
+        var13 = 'architecture';
+        Object.defineProperty(var9, var13, {get: var14, set: var1, enumerable: true});
+        var14 = function get releaseChannel() {
             _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -1865,27 +1856,27 @@ case 86:
                 return var1;
             }
         };
-        var14 = 'releaseChannel';
-        Object.defineProperty(var10, var14, {get: var15, set: var1, enumerable: true});
-        var15 = function get version() {
+        var13 = 'releaseChannel';
+        Object.defineProperty(var9, var13, {get: var14, set: var1, enumerable: true});
+        var14 = function get version() {
             var1 = _closure1_slot9;
             return var1;
         };
-        var14 = 'version';
-        Object.defineProperty(var10, var14, {get: var15, set: var1, enumerable: true});
-        var15 = function get buildNumber() {
+        var13 = 'version';
+        Object.defineProperty(var9, var13, {get: var14, set: var1, enumerable: true});
+        var14 = function get buildNumber() {
             var1 = _closure1_slot10;
             return var1;
         };
-        var14 = 'buildNumber';
-        Object.defineProperty(var10, var14, {get: var15, set: var1, enumerable: true});
-        var15 = function get moduleVersions() {
+        var13 = 'buildNumber';
+        Object.defineProperty(var9, var13, {get: var14, set: var1, enumerable: true});
+        var14 = function get moduleVersions() {
             var1 = _closure1_slot11;
             return var1;
         };
-        var14 = 'moduleVersions';
-        Object.defineProperty(var10, var14, {get: var15, set: var1, enumerable: true});
-        var15 = function get parsedOSRelease() {
+        var13 = 'moduleVersions';
+        Object.defineProperty(var9, var13, {get: var14, set: var1, enumerable: true});
+        var14 = function get parsedOSRelease() {
             _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -1921,9 +1912,9 @@ case 94:
                 return var1;
             }
         };
-        var14 = 'parsedOSRelease';
-        Object.defineProperty(var10, var14, {get: var15, set: var1, enumerable: true});
-        var14 = function copy(arg1) {
+        var13 = 'parsedOSRelease';
+        Object.defineProperty(var9, var13, {get: var14, set: var1, enumerable: true});
+        var13 = function copy(arg1) {
             _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -1944,8 +1935,8 @@ case 86:
                 return var1;
             }
         };
-        var10['copy'] = var14;
-        var14 = function copyImage(arg1, arg2) {
+        var9['copy'] = var13;
+        var13 = function copyImage(arg1, arg2) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -2035,8 +2026,8 @@ case 149:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['copyImage'] = var14;
-        var14 = function copyImageBlob(arg1, arg2) {
+        var9['copyImage'] = var13;
+        var13 = function copyImageBlob(arg1, arg2) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -2084,8 +2075,8 @@ case 67:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['copyImageBlob'] = var14;
-        var14 = function canSaveImage(arg1, arg2) {
+        var9['copyImageBlob'] = var13;
+        var13 = function canSaveImage(arg1, arg2) {
             _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
 case 0:
                 var6 = arg1;
@@ -2117,8 +2108,8 @@ case 52:
                 return var1;
             }
         };
-        var10['canSaveImage'] = var14;
-        var14 = function saveImage(arg1, arg2, arg3) {
+        var9['canSaveImage'] = var13;
+        var13 = function saveImage(arg1, arg2, arg3) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -2374,8 +2365,8 @@ case 163:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['saveImage'] = var14;
-        var14 = function saveFile(arg1, arg2) {
+        var9['saveImage'] = var13;
+        var13 = function saveFile(arg1, arg2) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -2486,8 +2477,8 @@ case 206:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['saveFile'] = var14;
-        var14 = function downloadVoiceFilterFile(arg1, arg2, arg3) {
+        var9['saveFile'] = var13;
+        var13 = function downloadVoiceFilterFile(arg1, arg2, arg3) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -2553,8 +2544,8 @@ case 17:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['downloadVoiceFilterFile'] = var14;
-        var14 = function stopVoiceFilterDownloads() {
+        var9['downloadVoiceFilterFile'] = var13;
+        var13 = function stopVoiceFilterDownloads() {
             var1 = _closure1_slot6;
             var2 = var1.fileManager;
             var1 = var2.stopVoiceFilterDownloads;
@@ -2562,8 +2553,8 @@ case 17:
             var1 = undefined;
             return var1;
         };
-        var10['stopVoiceFilterDownloads'] = var14;
-        var14 = function canCheckVoiceFilterFilesExist() {
+        var9['stopVoiceFilterDownloads'] = var13;
+        var13 = function canCheckVoiceFilterFilesExist() {
             var1 = _closure1_slot6;
             var1 = var1.fileManager;
             var1 = var1.checkVoiceFilterFilesExist;
@@ -2572,8 +2563,8 @@ case 17:
             var1 = var2 === var1;
             return var1;
         };
-        var10['canCheckVoiceFilterFilesExist'] = var14;
-        var14 = function checkVoiceFilterFilesExist(arg1) {
+        var9['canCheckVoiceFilterFilesExist'] = var13;
+        var13 = function checkVoiceFilterFilesExist(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -2611,8 +2602,8 @@ case 144:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['checkVoiceFilterFilesExist'] = var14;
-        var14 = function cleanupUnusedVoiceFilterFiles(arg1) {
+        var9['checkVoiceFilterFilesExist'] = var13;
+        var13 = function cleanupUnusedVoiceFilterFiles(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -2650,8 +2641,8 @@ case 144:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['cleanupUnusedVoiceFilterFiles'] = var14;
-        var14 = function downloadMLModelFile(arg1, arg2, arg3) {
+        var9['cleanupUnusedVoiceFilterFiles'] = var13;
+        var13 = function downloadMLModelFile(arg1, arg2, arg3) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -2717,8 +2708,8 @@ case 17:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['downloadMLModelFile'] = var14;
-        var14 = function stopMLModelDownloads() {
+        var9['downloadMLModelFile'] = var13;
+        var13 = function stopMLModelDownloads() {
             var1 = _closure1_slot6;
             var2 = var1.fileManager;
             var1 = var2.stopMLModelDownloads;
@@ -2726,8 +2717,8 @@ case 17:
             var1 = undefined;
             return var1;
         };
-        var10['stopMLModelDownloads'] = var14;
-        var14 = function canCheckMLModelFilesExist() {
+        var9['stopMLModelDownloads'] = var13;
+        var13 = function canCheckMLModelFilesExist() {
             var1 = _closure1_slot6;
             var1 = var1.fileManager;
             var1 = var1.checkMLModelFilesExist;
@@ -2736,8 +2727,8 @@ case 17:
             var1 = var2 === var1;
             return var1;
         };
-        var10['canCheckMLModelFilesExist'] = var14;
-        var14 = function checkMLModelFilesExist(arg1) {
+        var9['canCheckMLModelFilesExist'] = var13;
+        var13 = function checkMLModelFilesExist(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -2775,8 +2766,8 @@ case 144:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['checkMLModelFilesExist'] = var14;
-        var14 = function cleanupUnusedMLModelFiles(arg1) {
+        var9['checkMLModelFilesExist'] = var13;
+        var13 = function cleanupUnusedMLModelFiles(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -2814,8 +2805,8 @@ case 144:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['cleanupUnusedMLModelFiles'] = var14;
-        var14 = function downloadOpenH264(arg1, arg2, arg3, arg4) {
+        var9['cleanupUnusedMLModelFiles'] = var13;
+        var13 = function downloadOpenH264(arg1, arg2, arg3, arg4) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
@@ -2886,8 +2877,8 @@ case 218:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['downloadOpenH264'] = var14;
-        var14 = function cleanupUnusedOpenH264Files(arg1) {
+        var9['downloadOpenH264'] = var13;
+        var13 = function cleanupUnusedOpenH264Files(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -2925,8 +2916,8 @@ case 144:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['cleanupUnusedOpenH264Files'] = var14;
-        var14 = function getOpenH264LibraryPath() {
+        var9['cleanupUnusedOpenH264Files'] = var13;
+        var13 = function getOpenH264LibraryPath() {
             _fun0051: for(var _fun0051_ip = 0; ; ) switch(_fun0051_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -2956,8 +2947,8 @@ case 223:
                 return var1;
             }
         };
-        var10['getOpenH264LibraryPath'] = var14;
-        var14 = function canCopyImage() {
+        var9['getOpenH264LibraryPath'] = var13;
+        var13 = function canCopyImage() {
             _fun0052: for(var _fun0052_ip = 0; ; ) switch(_fun0052_ip) {
 case 0:
                 var5 = arguments[0];
@@ -3006,8 +2997,8 @@ case 93:
                 return var1;
             }
         };
-        var10['canCopyImage'] = var14;
-        var14 = function cut() {
+        var9['canCopyImage'] = var13;
+        var13 = function cut() {
             _fun0053: for(var _fun0053_ip = 0; ; ) switch(_fun0053_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -3027,8 +3018,8 @@ case 144:
                 return var1;
             }
         };
-        var10['cut'] = var14;
-        var14 = function paste() {
+        var9['cut'] = var13;
+        var13 = function paste() {
             _fun0054: for(var _fun0054_ip = 0; ; ) switch(_fun0054_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -3048,8 +3039,8 @@ case 144:
                 return var1;
             }
         };
-        var10['paste'] = var14;
-        var14 = function readClipboard() {
+        var9['paste'] = var13;
+        var13 = function readClipboard() {
             _fun0055: for(var _fun0055_ip = 0; ; ) switch(_fun0055_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -3070,8 +3061,8 @@ case 86:
                 return var1;
             }
         };
-        var10['readClipboard'] = var14;
-        var14 = function clipboardHasMixedContent() {
+        var9['readClipboard'] = var13;
+        var13 = function clipboardHasMixedContent() {
             _fun0056: for(var _fun0056_ip = 0; ; ) switch(_fun0056_ip) {
 case 0:
                 var2 = _closure1_slot0;
@@ -3108,8 +3099,8 @@ case 122:
                 return var1;
             }
         };
-        var10['clipboardHasMixedContent'] = var14;
-        var14 = function on(arg1, arg2) {
+        var9['clipboardHasMixedContent'] = var13;
+        var13 = function on(arg1, arg2) {
             var1 = _closure1_slot6;
             var4 = var1.ipc;
             var3 = var4.on;
@@ -3119,8 +3110,8 @@ case 122:
             var1 = undefined;
             return var1;
         };
-        var10['on'] = var14;
-        var14 = function onIPC(arg1, arg2) {
+        var9['on'] = var13;
+        var13 = function onIPC(arg1, arg2) {
             var1 = _closure1_slot6;
             var4 = var1.ipc;
             var3 = var4.on;
@@ -3130,8 +3121,8 @@ case 122:
             var1 = undefined;
             return var1;
         };
-        var10['onIPC'] = var14;
-        var14 = function invoke(arg1, arg2) {
+        var9['onIPC'] = var13;
+        var13 = function invoke(arg1, arg2) {
             var5 = 1;
             var9 = var5;
             var8 = copyRestArgs(var9);
@@ -3150,8 +3141,8 @@ case 122:
             var1 = apply(var9, var8, var7);
             return var1;
         };
-        var10['invoke'] = var14;
-        var14 = function invokeIPC(arg1, arg2) {
+        var9['invoke'] = var13;
+        var13 = function invokeIPC(arg1, arg2) {
             var5 = 1;
             var9 = var5;
             var8 = copyRestArgs(var9);
@@ -3170,8 +3161,8 @@ case 122:
             var1 = apply(var9, var8, var7);
             return var1;
         };
-        var10['invokeIPC'] = var14;
-        var14 = function send(arg1, arg2) {
+        var9['invokeIPC'] = var13;
+        var13 = function send(arg1, arg2) {
             var5 = 1;
             var9 = var5;
             var8 = copyRestArgs(var9);
@@ -3191,8 +3182,8 @@ case 122:
             var1 = undefined;
             return var1;
         };
-        var10['send'] = var14;
-        var14 = function sendIPC(arg1, arg2) {
+        var9['send'] = var13;
+        var13 = function sendIPC(arg1, arg2) {
             var5 = 1;
             var9 = var5;
             var8 = copyRestArgs(var9);
@@ -3212,8 +3203,8 @@ case 122:
             var1 = undefined;
             return var1;
         };
-        var10['sendIPC'] = var14;
-        var14 = function isIPCReady() {
+        var9['sendIPC'] = var13;
+        var13 = function isIPCReady() {
             _fun0057: for(var _fun0057_ip = 0; ; ) switch(_fun0057_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -3255,8 +3246,8 @@ case 142: // catch_target0
                 return var1;
             }
         };
-        var10['isIPCReady'] = var14;
-        var14 = function waitForIPCReady() {
+        var9['isIPCReady'] = var13;
+        var13 = function waitForIPCReady() {
             _fun0058: for(var _fun0058_ip = 0; ; ) switch(_fun0058_ip) {
 case 0:
                 var4 = arguments[0];
@@ -3345,8 +3336,8 @@ case 166:
                 return var1;
             }
         };
-        var10['waitForIPCReady'] = var14;
-        var14 = function flashFrame(arg1) {
+        var9['waitForIPCReady'] = var13;
+        var13 = function flashFrame(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.window;
             var2 = var3.flashFrame;
@@ -3355,8 +3346,8 @@ case 166:
             var1 = undefined;
             return var1;
         };
-        var10['flashFrame'] = var14;
-        var14 = function webAuthnRegister(arg1) {
+        var9['flashFrame'] = var13;
+        var13 = function webAuthnRegister(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -3408,8 +3399,8 @@ case 139:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['webAuthnRegister'] = var14;
-        var14 = function webAuthnAuthenticate(arg1) {
+        var9['webAuthnRegister'] = var13;
+        var13 = function webAuthnAuthenticate(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -3461,8 +3452,8 @@ case 139:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['webAuthnAuthenticate'] = var14;
-        var14 = function minimize(arg1) {
+        var9['webAuthnAuthenticate'] = var13;
+        var13 = function minimize(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.window;
             var2 = var3.minimize;
@@ -3471,8 +3462,8 @@ case 139:
             var1 = undefined;
             return var1;
         };
-        var10['minimize'] = var14;
-        var14 = function restore(arg1) {
+        var9['minimize'] = var13;
+        var13 = function restore(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.window;
             var2 = var3.restore;
@@ -3481,8 +3472,8 @@ case 139:
             var1 = undefined;
             return var1;
         };
-        var10['restore'] = var14;
-        var14 = function maximize(arg1) {
+        var9['restore'] = var13;
+        var13 = function maximize(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.window;
             var2 = var3.maximize;
@@ -3491,8 +3482,8 @@ case 139:
             var1 = undefined;
             return var1;
         };
-        var10['maximize'] = var14;
-        var14 = function focus(arg1) {
+        var9['maximize'] = var13;
+        var13 = function focus(arg1) {
             _fun0062: for(var _fun0062_ip = 0; ; ) switch(_fun0062_ip) {
 case 0:
                 var5 = arguments[1];
@@ -3527,8 +3518,8 @@ case 70:
                 return var1;
             }
         };
-        var10['focus'] = var14;
-        var14 = function blur() {
+        var9['focus'] = var13;
+        var13 = function blur() {
             _fun0063: for(var _fun0063_ip = 0; ; ) switch(_fun0063_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -3560,8 +3551,8 @@ case 139:
                 return var1;
             }
         };
-        var10['blur'] = var14;
-        var14 = function fullscreen(arg1) {
+        var9['blur'] = var13;
+        var13 = function fullscreen(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.window;
             var2 = var3.fullscreen;
@@ -3570,8 +3561,8 @@ case 139:
             var1 = undefined;
             return var1;
         };
-        var10['fullscreen'] = var14;
-        var14 = function close(arg1) {
+        var9['fullscreen'] = var13;
+        var13 = function close(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.window;
             var2 = var3.close;
@@ -3580,8 +3571,8 @@ case 139:
             var1 = undefined;
             return var1;
         };
-        var10['close'] = var14;
-        var14 = function clearNavigationHistory() {
+        var9['close'] = var13;
+        var13 = function clearNavigationHistory() {
             var3 = _closure1_slot32;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -3594,8 +3585,8 @@ case 139:
             var2 = var3.bind(var1)(var2);
             return var1;
         };
-        var10['clearNavigationHistory'] = var14;
-        var14 = function setAlwaysOnTop(arg1, arg2) {
+        var9['clearNavigationHistory'] = var13;
+        var13 = function setAlwaysOnTop(arg1, arg2) {
             _fun0064: for(var _fun0064_ip = 0; ; ) switch(_fun0064_ip) {
 case 0:
                 var2 = _closure1_slot6;
@@ -3616,8 +3607,8 @@ case 28:
                 return var1;
             }
         };
-        var10['setAlwaysOnTop'] = var14;
-        var14 = function isAlwaysOnTop(arg1) {
+        var9['setAlwaysOnTop'] = var13;
+        var13 = function isAlwaysOnTop(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -3664,8 +3655,8 @@ case 138:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['isAlwaysOnTop'] = var14;
-        var14 = function showInactive(arg1) {
+        var9['isAlwaysOnTop'] = var13;
+        var13 = function showInactive(arg1) {
             _fun0066: for(var _fun0066_ip = 0; ; ) switch(_fun0066_ip) {
 case 0:
                 var1 = _closure1_slot6;
@@ -3696,8 +3687,8 @@ case 43:
                 return var1;
             }
         };
-        var10['showInactive'] = var14;
-        var14 = function setMinimumSize(arg1, arg2) {
+        var9['showInactive'] = var13;
+        var13 = function setMinimumSize(arg1, arg2) {
             _fun0067: for(var _fun0067_ip = 0; ; ) switch(_fun0067_ip) {
 case 0:
                 var1 = _closure1_slot6;
@@ -3727,8 +3718,8 @@ case 35:
                 return var1;
             }
         };
-        var10['setMinimumSize'] = var14;
-        var14 = function setTrafficLightPosition(arg1) {
+        var9['setMinimumSize'] = var13;
+        var13 = function setTrafficLightPosition(arg1) {
             _fun0068: for(var _fun0068_ip = 0; ; ) switch(_fun0068_ip) {
 case 0:
                 var5 = this;
@@ -3768,8 +3759,8 @@ case 234:
                 return var1;
             }
         };
-        var10['setTrafficLightPosition'] = var14;
-        var14 = function purgeMemory() {
+        var9['setTrafficLightPosition'] = var13;
+        var13 = function purgeMemory() {
             _fun0069: for(var _fun0069_ip = 0; ; ) switch(_fun0069_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -3789,8 +3780,8 @@ case 144:
                 return var1;
             }
         };
-        var10['purgeMemory'] = var14;
-        var14 = function updateCrashReporter(arg1) {
+        var9['purgeMemory'] = var13;
+        var13 = function updateCrashReporter(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.crashReporter;
             var2 = var3.updateCrashReporter;
@@ -3799,8 +3790,8 @@ case 144:
             var1 = undefined;
             return var1;
         };
-        var10['updateCrashReporter'] = var14;
-        var14 = function triggerJSException(arg1) {
+        var9['updateCrashReporter'] = var13;
+        var13 = function triggerJSException(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.crashReporter;
             var2 = var3.triggerJSException;
@@ -3809,8 +3800,8 @@ case 144:
             var1 = undefined;
             return var1;
         };
-        var10['triggerJSException'] = var14;
-        var14 = function flushDNSCache() {
+        var9['triggerJSException'] = var13;
+        var13 = function flushDNSCache() {
             _fun0070: for(var _fun0070_ip = 0; ; ) switch(_fun0070_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -3830,8 +3821,8 @@ case 144:
                 return var1;
             }
         };
-        var10['flushDNSCache'] = var14;
-        var14 = function supportsFeature(arg1) {
+        var9['flushDNSCache'] = var13;
+        var13 = function supportsFeature(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.features;
             var2 = var3.supports;
@@ -3839,8 +3830,8 @@ case 144:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10['supportsFeature'] = var14;
-        var14 = function getEnableHardwareAcceleration() {
+        var9['supportsFeature'] = var13;
+        var13 = function getEnableHardwareAcceleration() {
             _fun0071: for(var _fun0071_ip = 0; ; ) switch(_fun0071_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -3861,8 +3852,8 @@ case 114:
                 return var1;
             }
         };
-        var10['getEnableHardwareAcceleration'] = var14;
-        var14 = function setEnableHardwareAcceleration(arg1) {
+        var9['getEnableHardwareAcceleration'] = var13;
+        var13 = function setEnableHardwareAcceleration(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.gpuSettings;
             var2 = var3.setEnableHardwareAcceleration;
@@ -3871,8 +3862,8 @@ case 114:
             var1 = undefined;
             return var1;
         };
-        var10['setEnableHardwareAcceleration'] = var14;
-        var14 = function setOpenH264Enabled(arg1) {
+        var9['setEnableHardwareAcceleration'] = var13;
+        var13 = function setOpenH264Enabled(arg1) {
             _fun0072: for(var _fun0072_ip = 0; ; ) switch(_fun0072_ip) {
 case 0:
                 var1 = _closure1_slot6;
@@ -3902,8 +3893,8 @@ case 35:
                 return var1;
             }
         };
-        var10['setOpenH264Enabled'] = var14;
-        var14 = function setChromiumSwitches(arg1) {
+        var9['setOpenH264Enabled'] = var13;
+        var13 = function setChromiumSwitches(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.gpuSettings;
             var2 = var3.setChromiumSwitches;
@@ -3912,8 +3903,8 @@ case 35:
             var1 = undefined;
             return var1;
         };
-        var10['setChromiumSwitches'] = var14;
-        var14 = function setSetting(arg1, arg2) {
+        var9['setChromiumSwitches'] = var13;
+        var13 = function setSetting(arg1, arg2) {
             _fun0073: for(var _fun0073_ip = 0; ; ) switch(_fun0073_ip) {
 case 0:
                 var2 = _closure1_slot6;
@@ -3933,8 +3924,8 @@ case 226:
                 return var1;
             }
         };
-        var10['setSetting'] = var14;
-        var14 = function getOpenOnStart() {
+        var9['setSetting'] = var13;
+        var13 = function getOpenOnStart() {
             var3 = _closure1_slot4;
             var2 = undefined;
             var1 = function* () {
@@ -3997,8 +3988,8 @@ case 234:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['getOpenOnStart'] = var14;
-        var14 = function getGPUDriverVersions() {
+        var9['getOpenOnStart'] = var13;
+        var13 = function getGPUDriverVersions() {
             _fun0075: for(var _fun0075_ip = 0; ; ) switch(_fun0075_ip) {
 case 0:
                 var3 = this;
@@ -4036,8 +4027,8 @@ case 235:
                 return var1;
             }
         };
-        var10['getGPUDriverVersions'] = var14;
-        var14 = function setZoomFactor(arg1) {
+        var9['getGPUDriverVersions'] = var13;
+        var13 = function setZoomFactor(arg1) {
             _fun0076: for(var _fun0076_ip = 0; ; ) switch(_fun0076_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -4061,8 +4052,8 @@ case 239:
                 return var1;
             }
         };
-        var10['setZoomFactor'] = var14;
-        var14 = function setBackgroundThrottling(arg1) {
+        var9['setZoomFactor'] = var13;
+        var13 = function setBackgroundThrottling(arg1) {
             _fun0077: for(var _fun0077_ip = 0; ; ) switch(_fun0077_ip) {
 case 0:
                 var3 = arg1;
@@ -4088,8 +4079,8 @@ case 162:
                 return var1;
             }
         };
-        var10['setBackgroundThrottling'] = var14;
-        var14 = function setFocusable(arg1, arg2) {
+        var9['setBackgroundThrottling'] = var13;
+        var13 = function setFocusable(arg1, arg2) {
             _fun0078: for(var _fun0078_ip = 0; ; ) switch(_fun0078_ip) {
 case 0:
                 var2 = _closure1_slot6;
@@ -4110,8 +4101,8 @@ case 28:
                 return var1;
             }
         };
-        var10['setFocusable'] = var14;
-        var14 = function pauseFrameEvictor() {
+        var9['setFocusable'] = var13;
+        var13 = function pauseFrameEvictor() {
             _fun0079: for(var _fun0079_ip = 0; ; ) switch(_fun0079_ip) {
 case 0:
                 var2 = _closure1_slot6;
@@ -4129,8 +4120,8 @@ case 50:
                 return var1;
             }
         };
-        var10['pauseFrameEvictor'] = var14;
-        var14 = function unpauseFrameEvictor() {
+        var9['pauseFrameEvictor'] = var13;
+        var13 = function unpauseFrameEvictor() {
             _fun0080: for(var _fun0080_ip = 0; ; ) switch(_fun0080_ip) {
 case 0:
                 var2 = _closure1_slot6;
@@ -4148,8 +4139,8 @@ case 50:
                 return var1;
             }
         };
-        var10['unpauseFrameEvictor'] = var14;
-        var14 = function getPreferredSystemLanguages() {
+        var9['unpauseFrameEvictor'] = var13;
+        var13 = function getPreferredSystemLanguages() {
             _fun0081: for(var _fun0081_ip = 0; ; ) switch(_fun0081_ip) {
 case 0:
                 var1 = _closure1_slot6;
@@ -4168,8 +4159,8 @@ case 131:
                 return var1;
             }
         };
-        var10['getPreferredSystemLanguages'] = var14;
-        var14 = function getPidFromDesktopSource(arg1) {
+        var9['getPreferredSystemLanguages'] = var13;
+        var13 = function getPidFromDesktopSource(arg1) {
             _fun0082: for(var _fun0082_ip = 0; ; ) switch(_fun0082_ip) {
 case 0:
                 var7 = arg1;
@@ -4254,8 +4245,8 @@ case 150:
                 return var1;
             }
         };
-        var10['getPidFromDesktopSource'] = var14;
-        var14 = function getDesktopSourceFromPid(arg1) {
+        var9['getPidFromDesktopSource'] = var13;
+        var13 = function getDesktopSourceFromPid(arg1) {
             _fun0083: for(var _fun0083_ip = 0; ; ) switch(_fun0083_ip) {
 case 0:
                 var3 = arg1;
@@ -4305,8 +4296,8 @@ case 240:
                 return var1;
             }
         };
-        var10['getDesktopSourceFromPid'] = var14;
-        var14 = function generateSessionFromPid(arg1) {
+        var9['getDesktopSourceFromPid'] = var13;
+        var13 = function generateSessionFromPid(arg1) {
             var2 = this;
             var1 = var2.getDiscordUtils;
             var3 = var1.bind(var2)();
@@ -4315,8 +4306,8 @@ case 240:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10['generateSessionFromPid'] = var14;
-        var14 = function getAudioPid(arg1) {
+        var9['generateSessionFromPid'] = var13;
+        var13 = function getAudioPid(arg1) {
             _fun0084: for(var _fun0084_ip = 0; ; ) switch(_fun0084_ip) {
 case 0:
                 var4 = arg1;
@@ -4339,8 +4330,8 @@ case 71:
                 return var1;
             }
         };
-        var10['getAudioPid'] = var14;
-        var14 = function setForegroundProcess(arg1) {
+        var9['getAudioPid'] = var13;
+        var13 = function setForegroundProcess(arg1) {
             _fun0085: for(var _fun0085_ip = 0; ; ) switch(_fun0085_ip) {
 case 0:
                 var5 = this;
@@ -4366,8 +4357,8 @@ case 217: // catch_target0
                 return var1;
             }
         };
-        var10['setForegroundProcess'] = var14;
-        var14 = function getDiscordMemoryUsage() {
+        var9['setForegroundProcess'] = var13;
+        var13 = function getDiscordMemoryUsage() {
             _fun0086: for(var _fun0086_ip = 0; ; ) switch(_fun0086_ip) {
 case 0:
                 var2 = this;
@@ -4384,8 +4375,8 @@ case 95:
                 return var1;
             }
         };
-        var10['getDiscordMemoryUsage'] = var14;
-        var14 = function getDiscordMemoryUsageElectronRenderer() {
+        var9['getDiscordMemoryUsage'] = var13;
+        var13 = function getDiscordMemoryUsageElectronRenderer() {
             _fun0087: for(var _fun0087_ip = 0; ; ) switch(_fun0087_ip) {
 case 0:
                 var2 = this;
@@ -4403,8 +4394,8 @@ case 135:
                 return var1;
             }
         };
-        var10['getDiscordMemoryUsageElectronRenderer'] = var14;
-        var14 = function getDiscordMemoryPrivateUsageElectronRenderer() {
+        var9['getDiscordMemoryUsageElectronRenderer'] = var13;
+        var13 = function getDiscordMemoryPrivateUsageElectronRenderer() {
             _fun0088: for(var _fun0088_ip = 0; ; ) switch(_fun0088_ip) {
 case 0:
                 var2 = this;
@@ -4422,8 +4413,8 @@ case 156:
                 return var1;
             }
         };
-        var10['getDiscordMemoryPrivateUsageElectronRenderer'] = var14;
-        var14 = function getDiscordMemoryUsageElectronProcessTypeDetails() {
+        var9['getDiscordMemoryPrivateUsageElectronRenderer'] = var13;
+        var13 = function getDiscordMemoryUsageElectronProcessTypeDetails() {
             _fun0089: for(var _fun0089_ip = 0; ; ) switch(_fun0089_ip) {
 case 0:
                 var2 = this;
@@ -4441,8 +4432,8 @@ case 135:
                 return var1;
             }
         };
-        var10['getDiscordMemoryUsageElectronProcessTypeDetails'] = var14;
-        var14 = function enablePerfMemoryHooks(arg1) {
+        var9['getDiscordMemoryUsageElectronProcessTypeDetails'] = var13;
+        var13 = function enablePerfMemoryHooks(arg1) {
             _fun0090: for(var _fun0090_ip = 0; ; ) switch(_fun0090_ip) {
 case 0:
                 var2 = this;
@@ -4461,8 +4452,8 @@ case 157:
                 return var1;
             }
         };
-        var10['enablePerfMemoryHooks'] = var14;
-        var14 = function disablePerfMemoryHooks() {
+        var9['enablePerfMemoryHooks'] = var13;
+        var13 = function disablePerfMemoryHooks() {
             _fun0091: for(var _fun0091_ip = 0; ; ) switch(_fun0091_ip) {
 case 0:
                 var2 = this;
@@ -4480,8 +4471,8 @@ case 135:
                 return var1;
             }
         };
-        var10['disablePerfMemoryHooks'] = var14;
-        var14 = function getPerfAttributedMemory() {
+        var9['disablePerfMemoryHooks'] = var13;
+        var13 = function getPerfAttributedMemory() {
             _fun0092: for(var _fun0092_ip = 0; ; ) switch(_fun0092_ip) {
 case 0:
                 var2 = this;
@@ -4499,8 +4490,8 @@ case 135:
                 return var1;
             }
         };
-        var10['getPerfAttributedMemory'] = var14;
-        var14 = function getPerfAttributedMemoryCallstacks(arg1) {
+        var9['getPerfAttributedMemory'] = var13;
+        var13 = function getPerfAttributedMemoryCallstacks(arg1) {
             _fun0093: for(var _fun0093_ip = 0; ; ) switch(_fun0093_ip) {
 case 0:
                 var2 = this;
@@ -4519,8 +4510,8 @@ case 157:
                 return var1;
             }
         };
-        var10['getPerfAttributedMemoryCallstacks'] = var14;
-        var14 = function getPerfAttributedMemoryStats() {
+        var9['getPerfAttributedMemoryCallstacks'] = var13;
+        var13 = function getPerfAttributedMemoryStats() {
             _fun0094: for(var _fun0094_ip = 0; ; ) switch(_fun0094_ip) {
 case 0:
                 var2 = this;
@@ -4538,8 +4529,8 @@ case 135:
                 return var1;
             }
         };
-        var10['getPerfAttributedMemoryStats'] = var14;
-        var14 = function startCPUProfiling(arg1) {
+        var9['getPerfAttributedMemoryStats'] = var13;
+        var13 = function startCPUProfiling(arg1) {
             _fun0095: for(var _fun0095_ip = 0; ; ) switch(_fun0095_ip) {
 case 0:
                 var2 = this;
@@ -4558,8 +4549,8 @@ case 157:
                 return var1;
             }
         };
-        var10['startCPUProfiling'] = var14;
-        var14 = function stopCPUProfiling() {
+        var9['startCPUProfiling'] = var13;
+        var13 = function stopCPUProfiling() {
             var2 = this;
             var _closure2_slot0 = var2;
             var3 = _closure1_slot4;
@@ -4624,8 +4615,8 @@ case 247:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var10['stopCPUProfiling'] = var14;
-        var14 = function gzipAndBase64Encode(arg1) {
+        var9['stopCPUProfiling'] = var13;
+        var13 = function gzipAndBase64Encode(arg1) {
             _fun0097: for(var _fun0097_ip = 0; ; ) switch(_fun0097_ip) {
 case 0:
                 var2 = this;
@@ -4651,8 +4642,8 @@ case 89:
                 return var1;
             }
         };
-        var10['gzipAndBase64Encode'] = var14;
-        var14 = function showOpenDialog(arg1) {
+        var9['gzipAndBase64Encode'] = var13;
+        var13 = function showOpenDialog(arg1) {
             var1 = _closure1_slot6;
             var3 = var1.fileManager;
             var2 = var3.showOpenDialog;
@@ -4662,8 +4653,8 @@ case 89:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10['showOpenDialog'] = var14;
-        var14 = function flushStorageData() {
+        var9['showOpenDialog'] = var13;
+        var13 = function flushStorageData() {
             _fun0098: for(var _fun0098_ip = 0; ; ) switch(_fun0098_ip) {
 case 0:
                 var3 = _closure1_slot0;
@@ -4743,8 +4734,8 @@ case 90:
                 return var1;
             }
         };
-        var10['flushStorageData'] = var14;
-        var14 = function flushCookies() {
+        var9['flushStorageData'] = var13;
+        var13 = function flushCookies() {
             _fun0101: for(var _fun0101_ip = 0; ; ) switch(_fun0101_ip) {
 case 0:
                 var3 = _closure1_slot0;
@@ -4824,8 +4815,8 @@ case 90:
                 return var1;
             }
         };
-        var10['flushCookies'] = var14;
-        var14 = function setCrashInformation(arg1, arg2) {
+        var9['flushCookies'] = var13;
+        var13 = function setCrashInformation(arg1, arg2) {
             _fun0104: for(var _fun0104_ip = 0; ; ) switch(_fun0104_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -4865,8 +4856,8 @@ case 229:
                 return var1;
             }
         };
-        var10['setCrashInformation'] = var14;
-        var14 = function blockDisplaySleep() {
+        var9['setCrashInformation'] = var13;
+        var13 = function blockDisplaySleep() {
             _fun0105: for(var _fun0105_ip = 0; ; ) switch(_fun0105_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -4894,8 +4885,8 @@ case 162:
                 return var1;
             }
         };
-        var10['blockDisplaySleep'] = var14;
-        var14 = function unblockDisplaySleep(arg1) {
+        var9['blockDisplaySleep'] = var13;
+        var13 = function unblockDisplaySleep(arg1) {
             _fun0106: for(var _fun0106_ip = 0; ; ) switch(_fun0106_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -4923,8 +4914,8 @@ case 162:
                 return var1;
             }
         };
-        var10['unblockDisplaySleep'] = var14;
-        var14 = function cleanupDisplaySleep() {
+        var9['unblockDisplaySleep'] = var13;
+        var13 = function cleanupDisplaySleep() {
             _fun0107: for(var _fun0107_ip = 0; ; ) switch(_fun0107_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -4951,8 +4942,8 @@ case 227:
                 return var1;
             }
         };
-        var10['cleanupDisplaySleep'] = var14;
-        var14 = function relaunch() {
+        var9['cleanupDisplaySleep'] = var13;
+        var13 = function relaunch() {
             _fun0108: for(var _fun0108_ip = 0; ; ) switch(_fun0108_ip) {
 case 0:
                 var4 = _closure1_slot0;
@@ -4972,8 +4963,8 @@ case 144:
                 return var1;
             }
         };
-        var10['relaunch'] = var14;
-        var14 = function makeChunkedRequest(arg1, arg2, arg3) {
+        var9['relaunch'] = var13;
+        var13 = function makeChunkedRequest(arg1, arg2, arg3) {
             _fun0109: for(var _fun0109_ip = 0; ; ) switch(_fun0109_ip) {
 case 0:
                 var8 = arg2;
@@ -5158,8 +5149,8 @@ case 248:
                 return var1;
             }
         };
-        var10['makeChunkedRequest'] = var14;
-        var14 = function submitLiveCrashReport(arg1) {
+        var9['makeChunkedRequest'] = var13;
+        var13 = function submitLiveCrashReport(arg1) {
             _fun0112: for(var _fun0112_ip = 0; ; ) switch(_fun0112_ip) {
 case 0:
                 var2 = this;
@@ -5211,8 +5202,8 @@ case 253:
                 return var1;
             }
         };
-        var10['submitLiveCrashReport'] = var14;
-        var14 = function crash(arg1) {
+        var9['submitLiveCrashReport'] = var13;
+        var13 = function crash(arg1) {
             _fun0113: for(var _fun0113_ip = 0; ; ) switch(_fun0113_ip) {
 case 0:
                 var2 = this;
@@ -5231,8 +5222,8 @@ case 157:
                 return var1;
             }
         };
-        var10['crash'] = var14;
-        var14 = function setApplicationBackgroundColor(arg1) {
+        var9['crash'] = var13;
+        var13 = function setApplicationBackgroundColor(arg1) {
             var5 = this;
             var4 = var5.sendIPC;
             var3 = _closure1_slot0;
@@ -5247,8 +5238,8 @@ case 157:
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         };
-        var10['setApplicationBackgroundColor'] = var14;
-        var14 = function initializeExitHook() {
+        var9['setApplicationBackgroundColor'] = var13;
+        var13 = function initializeExitHook() {
             _fun0114: for(var _fun0114_ip = 0; ; ) switch(_fun0114_ip) {
 case 0:
                 var2 = this;
@@ -5265,8 +5256,8 @@ case 246:
                 return var1;
             }
         };
-        var10['initializeExitHook'] = var14;
-        var14 = function initializeWERHandler() {
+        var9['initializeExitHook'] = var13;
+        var13 = function initializeWERHandler() {
             _fun0115: for(var _fun0115_ip = 0; ; ) switch(_fun0115_ip) {
 case 0:
                 var2 = this;
@@ -5283,8 +5274,8 @@ case 246:
                 return var1;
             }
         };
-        var10['initializeWERHandler'] = var14;
-        var14 = function pollQueueMetrics(arg1) {
+        var9['initializeWERHandler'] = var13;
+        var13 = function pollQueueMetrics(arg1) {
             _fun0116: for(var _fun0116_ip = 0; ; ) switch(_fun0116_ip) {
 case 0:
                 var2 = this;
@@ -5302,8 +5293,8 @@ case 133:
                 return var1;
             }
         };
-        var10['pollQueueMetrics'] = var14;
-        var14 = function asyncify(arg1) {
+        var9['pollQueueMetrics'] = var13;
+        var13 = function asyncify(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = global;
@@ -5322,8 +5313,8 @@ case 133:
             var1 = var1 instanceof Object ? var1 : var2;
             return var1;
         };
-        var10['asyncify'] = var14;
-        var14 = function IsGameDisplayModeUpdateSupported() {
+        var9['asyncify'] = var13;
+        var13 = function IsGameDisplayModeUpdateSupported() {
             var2 = this;
             var1 = var2.getDiscordUtils;
             var1 = var1.bind(var2)();
@@ -5332,8 +5323,8 @@ case 133:
             var1 = var1 != var2;
             return var1;
         };
-        var10['IsGameDisplayModeUpdateSupported'] = var14;
-        var14 = function GameDisplayModeUpdate(arg1) {
+        var9['IsGameDisplayModeUpdateSupported'] = var13;
+        var13 = function GameDisplayModeUpdate(arg1) {
             _fun0117: for(var _fun0117_ip = 0; ; ) switch(_fun0117_ip) {
 case 0:
                 var4 = arg1;
@@ -5355,8 +5346,8 @@ case 50:
                 return var1;
             }
         };
-        var10['GameDisplayModeUpdate'] = var14;
-        var14 = function GameDisplayModeIsGameSupported(arg1) {
+        var9['GameDisplayModeUpdate'] = var13;
+        var13 = function GameDisplayModeIsGameSupported(arg1) {
             _fun0118: for(var _fun0118_ip = 0; ; ) switch(_fun0118_ip) {
 case 0:
                 var4 = arg1;
@@ -5378,8 +5369,8 @@ case 137:
                 return var1;
             }
         };
-        var10['GameDisplayModeIsGameSupported'] = var14;
-        var14 = function GetWindowFullscreenTypeByPid(arg1, arg2, arg3) {
+        var9['GameDisplayModeIsGameSupported'] = var13;
+        var13 = function GetWindowFullscreenTypeByPid(arg1, arg2, arg3) {
             _fun0119: for(var _fun0119_ip = 0; ; ) switch(_fun0119_ip) {
 case 0:
                 var7 = arg1;
@@ -5428,8 +5419,8 @@ case 254:
                 return var1;
             }
         };
-        var10['GetWindowFullscreenTypeByPid'] = var14;
-        var14 = function GetWindowFullscreenTypeExtraByPid(arg1, arg2) {
+        var9['GetWindowFullscreenTypeByPid'] = var13;
+        var13 = function GetWindowFullscreenTypeExtraByPid(arg1, arg2) {
             _fun0120: for(var _fun0120_ip = 0; ; ) switch(_fun0120_ip) {
 case 0:
                 var4 = arg2;
@@ -5462,8 +5453,8 @@ case 11:
                 return var1;
             }
         };
-        var10['GetWindowFullscreenTypeExtraByPid'] = var14;
-        var14 = function SetGPUBoostEnabledByPid(arg1, arg2) {
+        var9['GetWindowFullscreenTypeExtraByPid'] = var13;
+        var13 = function SetGPUBoostEnabledByPid(arg1, arg2) {
             _fun0121: for(var _fun0121_ip = 0; ; ) switch(_fun0121_ip) {
 case 0:
                 var2 = this;
@@ -5482,8 +5473,8 @@ case 100:
                 return var1;
             }
         };
-        var10['SetGPUBoostEnabledByPid'] = var14;
-        var14 = function SetSystemServicePerformanceMonitorEnabled(arg1, arg2) {
+        var9['SetGPUBoostEnabledByPid'] = var13;
+        var13 = function SetSystemServicePerformanceMonitorEnabled(arg1, arg2) {
             _fun0122: for(var _fun0122_ip = 0; ; ) switch(_fun0122_ip) {
 case 0:
                 var2 = this;
@@ -5502,8 +5493,8 @@ case 100:
                 return var1;
             }
         };
-        var10['SetSystemServicePerformanceMonitorEnabled'] = var14;
-        var14 = function GetSystemServicePerformanceMonitorSnapshot(arg1) {
+        var9['SetSystemServicePerformanceMonitorEnabled'] = var13;
+        var13 = function GetSystemServicePerformanceMonitorSnapshot(arg1) {
             _fun0123: for(var _fun0123_ip = 0; ; ) switch(_fun0123_ip) {
 case 0:
                 var3 = this;
@@ -5666,8 +5657,8 @@ case 242:
                 return var1;
             }
         };
-        var10['GetSystemServicePerformanceMonitorSnapshot'] = var14;
-        var14 = function IsHardwareAcceleratedGPUSchedulingEnabled() {
+        var9['GetSystemServicePerformanceMonitorSnapshot'] = var13;
+        var13 = function IsHardwareAcceleratedGPUSchedulingEnabled() {
             _fun0125: for(var _fun0125_ip = 0; ; ) switch(_fun0125_ip) {
 case 0:
                 var2 = this;
@@ -5684,8 +5675,8 @@ case 135:
                 return var1;
             }
         };
-        var10['IsHardwareAcceleratedGPUSchedulingEnabled'] = var14;
-        var14 = function AcquireGlobalLock(arg1) {
+        var9['IsHardwareAcceleratedGPUSchedulingEnabled'] = var13;
+        var13 = function AcquireGlobalLock(arg1) {
             _fun0126: for(var _fun0126_ip = 0; ; ) switch(_fun0126_ip) {
 case 0:
                 var2 = this;
@@ -5704,8 +5695,8 @@ case 246:
                 return var1;
             }
         };
-        var10['AcquireGlobalLock'] = var14;
-        var14 = function SetServiceChannel(arg1) {
+        var9['AcquireGlobalLock'] = var13;
+        var13 = function SetServiceChannel(arg1) {
             _fun0127: for(var _fun0127_ip = 0; ; ) switch(_fun0127_ip) {
 case 0:
                 var2 = this;
@@ -5723,8 +5714,8 @@ case 102:
                 return var1;
             }
         };
-        var10['SetServiceChannel'] = var14;
-        var14 = function IsSystemServiceInstalled() {
+        var9['SetServiceChannel'] = var13;
+        var13 = function IsSystemServiceInstalled() {
             _fun0128: for(var _fun0128_ip = 0; ; ) switch(_fun0128_ip) {
 case 0:
                 var2 = this;
@@ -5742,8 +5733,8 @@ case 246:
                 return var1;
             }
         };
-        var10['IsSystemServiceInstalled'] = var14;
-        var14 = function CanSystemServiceBeInstalled() {
+        var9['IsSystemServiceInstalled'] = var13;
+        var13 = function CanSystemServiceBeInstalled() {
             _fun0129: for(var _fun0129_ip = 0; ; ) switch(_fun0129_ip) {
 case 0:
                 var2 = this;
@@ -5761,8 +5752,8 @@ case 246:
                 return var1;
             }
         };
-        var10['CanSystemServiceBeInstalled'] = var14;
-        var14 = function InstallSystemService() {
+        var9['CanSystemServiceBeInstalled'] = var13;
+        var13 = function InstallSystemService() {
             _fun0130: for(var _fun0130_ip = 0; ; ) switch(_fun0130_ip) {
 case 0:
                 var2 = this;
@@ -5791,8 +5782,8 @@ case 9:
                 return var1;
             }
         };
-        var10['InstallSystemService'] = var14;
-        var14 = function DoesSystemServiceHaveUpdate() {
+        var9['InstallSystemService'] = var13;
+        var13 = function DoesSystemServiceHaveUpdate() {
             _fun0131: for(var _fun0131_ip = 0; ; ) switch(_fun0131_ip) {
 case 0:
                 var2 = this;
@@ -5821,8 +5812,8 @@ case 9:
                 return var1;
             }
         };
-        var10['DoesSystemServiceHaveUpdate'] = var14;
-        var14 = function UpdateSystemService() {
+        var9['DoesSystemServiceHaveUpdate'] = var13;
+        var13 = function UpdateSystemService() {
             _fun0132: for(var _fun0132_ip = 0; ; ) switch(_fun0132_ip) {
 case 0:
                 var2 = this;
@@ -5851,8 +5842,8 @@ case 9:
                 return var1;
             }
         };
-        var10['UpdateSystemService'] = var14;
-        var14 = function UninstallSystemService() {
+        var9['UpdateSystemService'] = var13;
+        var13 = function UninstallSystemService() {
             _fun0133: for(var _fun0133_ip = 0; ; ) switch(_fun0133_ip) {
 case 0:
                 var2 = this;
@@ -5881,8 +5872,8 @@ case 9:
                 return var1;
             }
         };
-        var10['UninstallSystemService'] = var14;
-        var14 = function InputEventServiceSetStatusCallback(arg1) {
+        var9['UninstallSystemService'] = var13;
+        var13 = function InputEventServiceSetStatusCallback(arg1) {
             _fun0134: for(var _fun0134_ip = 0; ; ) switch(_fun0134_ip) {
 case 0:
                 var2 = this;
@@ -5900,8 +5891,8 @@ case 102:
                 return var1;
             }
         };
-        var10['InputEventServiceSetStatusCallback'] = var14;
-        var14 = function InputEventServiceSetAllowed(arg1) {
+        var9['InputEventServiceSetStatusCallback'] = var13;
+        var13 = function InputEventServiceSetAllowed(arg1) {
             _fun0135: for(var _fun0135_ip = 0; ; ) switch(_fun0135_ip) {
 case 0:
                 var2 = this;
@@ -5920,8 +5911,8 @@ case 246:
                 return var1;
             }
         };
-        var10['InputEventServiceSetAllowed'] = var14;
-        var14 = function ToolServiceSetStatusCallback(arg1) {
+        var9['InputEventServiceSetAllowed'] = var13;
+        var13 = function ToolServiceSetStatusCallback(arg1) {
             _fun0136: for(var _fun0136_ip = 0; ; ) switch(_fun0136_ip) {
 case 0:
                 var2 = this;
@@ -5939,8 +5930,8 @@ case 102:
                 return var1;
             }
         };
-        var10['ToolServiceSetStatusCallback'] = var14;
-        var14 = function ToolServiceSetAllowed(arg1) {
+        var9['ToolServiceSetStatusCallback'] = var13;
+        var13 = function ToolServiceSetAllowed(arg1) {
             _fun0137: for(var _fun0137_ip = 0; ; ) switch(_fun0137_ip) {
 case 0:
                 var2 = this;
@@ -5959,8 +5950,8 @@ case 246:
                 return var1;
             }
         };
-        var10['ToolServiceSetAllowed'] = var14;
-        var14 = function isModuleVersionAtLeast(arg1, arg2) {
+        var9['ToolServiceSetAllowed'] = var13;
+        var13 = function isModuleVersionAtLeast(arg1, arg2) {
             _fun0138: for(var _fun0138_ip = 0; ; ) switch(_fun0138_ip) {
 case 0:
                 var1 = arg2;
@@ -6041,8 +6032,8 @@ case 256:
                 return var1;
             }
         };
-        var10['isModuleVersionAtLeast'] = var14;
-        var14 = function fetchRiotGamesLiveClientData(arg1) {
+        var9['isModuleVersionAtLeast'] = var13;
+        var13 = function fetchRiotGamesLiveClientData(arg1) {
             _fun0139: for(var _fun0139_ip = 0; ; ) switch(_fun0139_ip) {
 case 0:
                 var5 = arguments[1];
@@ -6101,8 +6092,8 @@ case 20:
                 return var1;
             }
         };
-        var10['fetchRiotGamesLiveClientData'] = var14;
-        var14 = function appViewed() {
+        var9['fetchRiotGamesLiveClientData'] = var13;
+        var13 = function appViewed() {
             _fun0140: for(var _fun0140_ip = 0; ; ) switch(_fun0140_ip) {
 case 0:
                 var4 = this;
@@ -6129,8 +6120,8 @@ case 138:
                 return var1;
             }
         };
-        var10['appViewed'] = var14;
-        var14 = function appFirstRenderAfterReadyPayload() {
+        var9['appViewed'] = var13;
+        var13 = function appFirstRenderAfterReadyPayload() {
             _fun0141: for(var _fun0141_ip = 0; ; ) switch(_fun0141_ip) {
 case 0:
                 var4 = this;
@@ -6157,8 +6148,8 @@ case 138:
                 return var1;
             }
         };
-        var10['appFirstRenderAfterReadyPayload'] = var14;
-        var14 = function appLoaded() {
+        var9['appFirstRenderAfterReadyPayload'] = var13;
+        var13 = function appLoaded() {
             var3 = _closure1_slot32;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -6171,8 +6162,8 @@ case 138:
             var2 = var3.bind(var1)(var2);
             return var1;
         };
-        var10['appLoaded'] = var14;
-        var14 = function indexLoadedAsync() {
+        var9['appLoaded'] = var13;
+        var13 = function indexLoadedAsync() {
             var3 = _closure1_slot32;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -6185,21 +6176,20 @@ case 138:
             var2 = var3.bind(var1)(var2);
             return var1;
         };
-        var10['indexLoadedAsync'] = var14;
-        var _closure1_slot23 = var10;
-        var11 = 15;
-        var11 = var13[var11];
-        var13 = var12.bind(var1)(var11);
-        var12 = var13.fileFinishedImporting;
-        var11 = 'utils/web/DesktopNativeUtils.tsx';
-        var11 = var12.bind(var13)(var11);
-        var3['default'] = var10;
-        var3['SaveImageResult'] = var9;
-        var3['sanitizeFilename'] = var8;
-        var3['getFileData'] = var7;
-        var3['getImageData'] = var6;
-        var3['NativePermissionRequestType'] = var5;
-        var3['ThumbarButtonName'] = var4;
+        var9['indexLoadedAsync'] = var13;
+        var _closure1_slot23 = var9;
+        var10 = 15;
+        var10 = var12[var10];
+        var12 = var11.bind(var1)(var10);
+        var11 = var12.fileFinishedImporting;
+        var10 = 'utils/web/DesktopNativeUtils.tsx';
+        var10 = var11.bind(var12)(var10);
+        var3['default'] = var9;
+        var3['SaveImageResult'] = var8;
+        var3['sanitizeFilename'] = var7;
+        var3['getFileData'] = var6;
+        var3['getImageData'] = var5;
+        var3['NativePermissionRequestType'] = var4;
         var3['decideFileExtension'] = var2;
         return var1;
     }

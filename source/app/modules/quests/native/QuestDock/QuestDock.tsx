@@ -1180,13 +1180,9 @@ case 0:
             var _closure2_slot6 = var1;
             var1 = 39;
             var1 = var15[var1];
-            var3 = var12.bind(var5)(var1);
-            var2 = var3.useIsEligibleForQuests;
-            var1 = {};
-            var8 = _closure1_slot11;
-            var8 = var8.QUESTS_BAR;
-            var1['location'] = var8;
-            var11 = var2.bind(var3)(var1);
+            var2 = var12.bind(var5)(var1);
+            var1 = var2.getIsEligibleForQuests;
+            var11 = var1.bind(var2)();
             var1 = 35;
             var1 = var15[var1];
             var3 = var12.bind(var5)(var1);

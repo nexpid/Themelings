@@ -18,17 +18,12 @@ case 0:
             var1 = 3;
             var1 = var4[var1];
             var4 = undefined;
-            var1 = var2.bind(var4)(var1);
-            var6 = var1.SoundmojiRenderingExperiment;
-            var5 = var6.getCurrentConfig;
-            var2 = {};
-            var1 = 'getSoundmojiASTFromString';
-            var2['location'] = var1;
+            var5 = var2.bind(var4)(var1);
+            var2 = var5.getSoundmojiRenderingExperiment;
             var1 = {};
-            var7 = false;
-            var1['autoTrackExposure'] = var7;
-            var1 = var5.bind(var6)(var2, var1);
-            var1 = var1.enabled;
+            var6 = 'getSoundmojiASTFromString';
+            var1['location'] = var6;
+            var1 = var2.bind(var5)(var1);
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = _closure1_slot3;
@@ -196,7 +191,7 @@ case 29:
             var12 = var10 == var11;
             var10 = undefined;
             if(var12) { _fun0002_ip = 30; continue _fun0002 }
-case 10:
+case 31:
             var10 = var11.emojiId;
 case 30:
             var7['id'] = var10;

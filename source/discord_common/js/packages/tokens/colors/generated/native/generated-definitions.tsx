@@ -3420,7 +3420,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = {'raw': 'BRAND_360', 'opacity': 1};
     var8[var15] = var14;
     var15 = var9.LIGHT;
-    var14 = {'raw': 'BRAND_500', 'opacity': 1};
+    var14 = {'raw': 'BRAND_530', 'opacity': 1};
     var8[var15] = var14;
     var15 = var9.MIDNIGHT;
     var14 = {'raw': 'BRAND_400', 'opacity': 1};
@@ -4509,7 +4509,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = {'raw': 'BRAND_360', 'opacity': 1};
     var8[var13] = var12;
     var13 = var9.LIGHT;
-    var12 = {'raw': 'BRAND_500', 'opacity': 1};
+    var12 = {'raw': 'BRAND_530', 'opacity': 1};
     var8[var13] = var12;
     var13 = var9.MIDNIGHT;
     var12 = {'raw': 'BRAND_400', 'opacity': 1};

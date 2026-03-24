@@ -430,7 +430,7 @@ case 51:
                 var2 = var8.hasNoData;
                 var2 = var2.bind(var8)(var9);
                 if(var2) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+case 7:
                 var8 = var7._pending;
                 var2 = var8.add;
                 var2 = var2.bind(var8)(var9);
@@ -499,12 +499,12 @@ case 38:
                     var2 = var6.clear;
                     var2 = var2.bind(var6)();
                     var2 = var10.length;
-                    if(!(var3 === var2)) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+                    if(!(var3 === var2)) { _fun0007_ip = 53; continue _fun0007 }
+case 50:
                     var2 = var5.resolvePromises;
                     var2 = var2.bind(var5)(var4);
-                    _fun0007_ip = 56; continue _fun0007;
-case 54:
+                    _fun0007_ip = 54; continue _fun0007;
+case 53:
                     var9 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var3 = 6;
@@ -531,18 +531,18 @@ case 54:
                     var2 = var7.bind(var8)(var2);
                     var2 = var3.bind(var6)(var2);
                     SaveGenerator(address=224);
-case 57:
+case 55:
                     return var2;
-case 58:
+case 56:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
+                    if(var3) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
                     var3 = var5.resolvePromises;
                     var3 = var3.bind(var5)(var4);
-case 56:
+case 54:
                     var3 = undefined;
                     return var3;
-case 59:
+case 57:
                     return var2;
 case 18:
                     return var1;

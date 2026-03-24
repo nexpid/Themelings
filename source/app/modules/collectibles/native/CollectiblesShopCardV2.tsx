@@ -211,7 +211,8 @@ case 9:
                 var7 = var5.bind(var4)(var3);
                 var5 = var7.useWishlistButtonState;
                 var3 = {};
-                var3['currentUser'] = var20;
+                var20 = var20.id;
+                var3['userId'] = var20;
                 var18 = var18.skuId;
                 var3['skuId'] = var18;
                 var3['onAddSuccess'] = var13;

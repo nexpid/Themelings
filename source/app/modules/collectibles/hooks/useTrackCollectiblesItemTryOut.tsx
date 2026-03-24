@@ -53,6 +53,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6[var7];
     var8 = var5.bind(var1)(var8);
     var8 = var8.CollectiblesItemType;
+    var8 = var8.PROFILE_FRAME;
+    var4[var8] = var1;
+    var8 = var6[var7];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.CollectiblesItemType;
     var8 = var8.NAMEPLATE;
     var4[var8] = var1;
     var8 = var6[var7];

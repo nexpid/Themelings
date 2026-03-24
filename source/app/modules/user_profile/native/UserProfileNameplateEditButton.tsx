@@ -220,7 +220,7 @@ case 14:
             var2 = var2.UserProfileEditFormButton;
             if(var8) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var11 = function renderSectionLabel() {
+            var13 = function getSelectionLabel() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot3;
@@ -303,20 +303,22 @@ case 27:
             };
             var1 = {};
             var8 = 14;
-            var13 = var10[var8];
-            var13 = var9.bind(var4)(var13);
-            var16 = var13.intl;
+            var11 = var10[var8];
+            var11 = var9.bind(var4)(var11);
+            var16 = var11.intl;
             var15 = var16.string;
-            var13 = var10[var8];
-            var13 = var9.bind(var4)(var13);
-            var13 = var13.t;
-            var13 = var13.x5CoXR;
-            var13 = var15.bind(var16)(var13);
-            var1['label'] = var13;
-            var13 = var11.bind(var4)();
-            var1['buttonText'] = var13;
-            var11 = var11.bind(var4)();
-            var1['accessibilityLabel'] = var11;
+            var11 = var10[var8];
+            var11 = var9.bind(var4)(var11);
+            var11 = var11.t;
+            var11 = var11.x5CoXR;
+            var11 = var15.bind(var16)(var11);
+            var1['label'] = var11;
+            var11 = var13.bind(var4)();
+            var1['buttonText'] = var11;
+            var11 = {};
+            var13 = var13.bind(var4)();
+            var11['text'] = var13;
+            var1['accessibilityValue'] = var11;
             var11 = var10[var8];
             var11 = var9.bind(var4)(var11);
             var13 = var11.intl;
@@ -394,10 +396,9 @@ case 16:
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.ZTNur7;
+            var6 = var6.RJxLnS;
             var6 = var7.bind(var8)(var6);
-            var1['accessibilityLabel'] = var6;
-            var1['accessibilityHint'] = var4;
+            var1['accessibilityHint'] = var6;
             var6 = _closure1_slot7;
             var1['onPress'] = var6;
             var7 = _closure1_slot4;
@@ -405,6 +406,7 @@ case 16:
             var6 = {'animating': true, 'size': 'large'};
             var6 = var3.bind(var4)(var7, var6);
             var1['leading'] = var6;
+            var1['loading'] = var5;
             var1['disabled'] = var5;
             var1['hideArrow'] = var5;
             var1 = var3.bind(var4)(var2, var1);

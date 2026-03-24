@@ -197,26 +197,26 @@ case 0:
                 var1 = var3.bind(var5)(var1);
                 var3 = !var1;
                 var1 = !var3;
-                if(!var3) { _fun0005_ip = 11; continue _fun0005 }
-case 2:
+                if(!var3) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var6 = var2.features;
                 var2 = null;
                 var5 = var2 == var6;
                 var3 = undefined;
-                if(var5) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                if(var5) { _fun0005_ip = 38; continue _fun0005 }
+case 7:
                 var5 = var6.has;
                 var4 = _closure1_slot9;
                 var4 = var4.SOCIAL_LAYER_STOREFRONT;
                 var3 = var5.bind(var6)(var4);
-case 36:
-                var2 = var2 != var3;
-                if(!var2) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
-                var2 = var3;
 case 38:
+                var2 = var2 != var3;
+                if(!var2) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+                var2 = var3;
+case 39:
                 var1 = var2;
-case 11:
+case 36:
                 return var1;
             }
         };
@@ -289,10 +289,10 @@ case 11:
         var6 = var8.bind(var1)(var6);
         var7 = var6.SUPPORTS_WEBP;
         var6 = 'jpg';
-        if(!var7) { _fun0001_ip = 40; continue _fun0001 }
-case 41:
+        if(!var7) { _fun0001_ip = 41; continue _fun0001 }
+case 42:
         var6 = 'webp';
-case 40:
+case 41:
         var _closure1_slot12 = var6;
         var7 = 9;
         var7 = var9[var7];
@@ -325,46 +325,46 @@ case 0:
                 var5 = undefined;
                 var4 = undefined;
                 var3 = undefined;
-                if(var2) { _fun0006_ip = 42; continue _fun0006 }
-case 36:
+                if(var2) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                 var2 = var7.value;
                 var14 = _closure1_slot13;
                 var13 = var2.skuIds;
                 var15 = var14.bind(var10)(var13);
                 var14 = var15.bind(var10)();
                 var13 = var14.done;
-                if(var13) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+                if(var13) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
                 var16 = var14.value;
                 var13 = var12.has;
                 var13 = var13.bind(var12)(var16);
-                if(var13) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+                if(var13) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
                 var13 = var12.add;
                 var13 = var13.bind(var12)(var16);
                 var13 = var1.push;
                 var13 = var13.bind(var1)(var16);
-case 45:
+case 47:
                 var17 = var15.bind(var10)();
                 var13 = var17.done;
                 var14 = var17;
                 var6 = var16;
-                if(!var13) { _fun0006_ip = 44; continue _fun0006 }
-case 43:
+                if(!var13) { _fun0006_ip = 46; continue _fun0006 }
+case 45:
                 var13 = _closure1_slot13;
                 var2 = var2.sections;
-                if(!(var8 == var2)) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+                if(!(var8 == var2)) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
                 var2 = new Array(0);
-case 47:
+case 49:
                 var15 = var13.bind(var10)(var2);
                 var13 = var15.bind(var10)();
                 var2 = var13.done;
                 var14 = var13;
                 var13 = var3;
                 var3 = var13;
-                if(var2) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+                if(var2) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
                 var16 = _closure1_slot13;
                 var2 = var14.value;
                 var2 = var2.skuIds;
@@ -373,38 +373,38 @@ case 50:
                 var2 = var18.done;
                 var16 = var18;
                 var18 = var16;
-                if(var2) { _fun0006_ip = 51; continue _fun0006 }
-case 52:
+                if(var2) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
                 var19 = var16.value;
                 var2 = var12.has;
                 var2 = var2.bind(var12)(var19);
-                if(var2) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
+                if(var2) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
                 var2 = var12.add;
                 var2 = var2.bind(var12)(var19);
                 var2 = var1.push;
                 var2 = var2.bind(var1)(var19);
-case 53:
+case 55:
                 var20 = var17.bind(var10)();
                 var2 = var20.done;
                 var16 = var20;
                 var18 = var16;
                 var13 = var19;
-                if(!var2) { _fun0006_ip = 52; continue _fun0006 }
-case 51:
+                if(!var2) { _fun0006_ip = 54; continue _fun0006 }
+case 53:
                 var19 = var15.bind(var10)();
                 var2 = var19.done;
                 var5 = var18;
                 var14 = var19;
                 var4 = var17;
                 var3 = var13;
-                if(!var2) { _fun0006_ip = 50; continue _fun0006 }
-case 49:
+                if(!var2) { _fun0006_ip = 52; continue _fun0006 }
+case 51:
                 var13 = var9.bind(var10)();
                 var2 = var13.done;
                 var7 = var13;
-                if(!var2) { _fun0006_ip = 36; continue _fun0006 }
-case 42:
+                if(!var2) { _fun0006_ip = 44; continue _fun0006 }
+case 43:
                 return var1;
             }
         };
@@ -415,13 +415,13 @@ case 0:
                 var2 = arg1;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0007_ip = 55; continue _fun0007 }
-case 56:
+                if(!var1) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
                 var3 = var2.productLine;
                 var2 = _closure1_slot11;
                 var2 = var2.SOCIAL_LAYER_GAME_ITEM;
                 var1 = var3 === var2;
-case 55:
+case 57:
                 return var1;
             }
         };
@@ -435,17 +435,17 @@ case 0:
                 var2 = var3.bind(var4)(var2);
                 var3 = null;
                 if(!(var3 != var2)) { _fun0008_ip = 28; continue _fun0008 }
-case 57:
+case 59:
                 var5 = var2.features;
                 var4 = var5.has;
                 var3 = _closure1_slot9;
                 var3 = var3.SOCIAL_LAYER_STOREFRONT;
                 var3 = var4.bind(var5)(var3);
-                if(var3) { _fun0008_ip = 58; continue _fun0008 }
+                if(var3) { _fun0008_ip = 60; continue _fun0008 }
 case 28:
                 var1 = _closure1_slot7;
                 _fun0008_ip = 30; continue _fun0008;
-case 58:
+case 60:
                 var1 = var2.id;
 case 30:
                 return var1;
@@ -479,8 +479,8 @@ case 0:
                         var5 = null;
                         var6 = var5 != var2;
                         var4 = undefined;
-                        if(!var6) { _fun0010_ip = 36; continue _fun0010 }
-case 59:
+                        if(!var6) { _fun0010_ip = 44; continue _fun0010 }
+case 61:
                         var6 = {};
                         var7 = var3.leaderboard;
                         var7 = var7.title;
@@ -492,15 +492,15 @@ case 59:
                         var7 = var7.background_image_asset_id;
                         var6['backgroundImageAssetId'] = var7;
                         var4 = var6;
-case 36:
+case 44:
                         var1['leaderboard'] = var4;
                         var4 = var3.sku_ids;
                         var1['skuIds'] = var4;
                         var4 = var3.sections;
                         var4 = var5 != var4;
                         var2 = undefined;
-                        if(!var4) { _fun0010_ip = 60; continue _fun0010 }
-case 61:
+                        if(!var4) { _fun0010_ip = 62; continue _fun0010 }
+case 63:
                         var5 = var3.sections;
                         var4 = var5.map;
                         var3 = function(arg1) {
@@ -513,7 +513,7 @@ case 61:
                             return var1;
                         };
                         var2 = var4.bind(var5)(var3);
-case 60:
+case 62:
                         var1['sections'] = var2;
                         return var1;
                     }
@@ -534,13 +534,13 @@ case 60:
                 var6 = var3.application;
                 var5 = null;
                 var5 = var5 != var6;
-                if(!var5) { _fun0009_ip = 62; continue _fun0009 }
-case 63:
+                if(!var5) { _fun0009_ip = 64; continue _fun0009 }
+case 65:
                 var5 = _closure1_slot4;
                 var4 = var5.createFromServer;
                 var3 = var3.application;
                 var2 = var4.bind(var5)(var3);
-case 62:
+case 64:
                 var1['application'] = var2;
                 return var1;
             }
@@ -553,40 +553,40 @@ case 0:
                 var12 = arg2;
                 var4 = null;
                 if(!(var4 != var12)) { _fun0011_ip = 24; continue _fun0011 }
-case 64:
+case 66:
                 var5 = var4 == var1;
                 var3 = undefined;
                 var2 = undefined;
-                if(var5) { _fun0011_ip = 58; continue _fun0011 }
-case 65:
+                if(var5) { _fun0011_ip = 60; continue _fun0011 }
+case 67:
                 var5 = var1.tenantMetadata;
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0011_ip = 58; continue _fun0011 }
-case 66:
+                if(var6) { _fun0011_ip = 60; continue _fun0011 }
+case 68:
                 var5 = var5.socialLayer;
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0011_ip = 58; continue _fun0011 }
+                if(var6) { _fun0011_ip = 60; continue _fun0011 }
 case 28:
                 var2 = var5.carouselItems;
-case 58:
+case 60:
                 if(!(var4 != var2)) { _fun0011_ip = 24; continue _fun0011 }
-case 67:
+case 69:
                 var2 = var1.tenantMetadata;
                 var2 = var2.socialLayer;
                 var2 = var2.carouselItems;
                 var5 = var2.length;
                 var2 = 0;
                 if(!(var2 !== var5)) { _fun0011_ip = 24; continue _fun0011 }
-case 68:
+case 70:
                 var1 = var1.tenantMetadata;
                 var1 = var1.socialLayer;
                 var1 = var1.carouselItems;
                 var2 = var1[var2];
                 var1 = var2.labelIconAssetId;
-                if(!(var4 != var1)) { _fun0011_ip = 69; continue _fun0011 }
-case 46:
+                if(!(var4 != var1)) { _fun0011_ip = 71; continue _fun0011 }
+case 48:
                 var1 = {};
                 var7 = _closure1_slot1;
                 var9 = _closure1_slot2;
@@ -608,20 +608,20 @@ case 46:
                 var5 = var6.bind(var7)(var5);
                 var6 = var4 != var5;
                 var4 = undefined;
-                if(!var6) { _fun0011_ip = 70; continue _fun0011 }
-case 71:
+                if(!var6) { _fun0011_ip = 72; continue _fun0011 }
+case 73:
                 var4 = var5;
-case 70:
+case 72:
                 var1['primaryIconAsset'] = var4;
                 var2 = var2.label;
                 var1['primaryIconLabel'] = var2;
-                _fun0011_ip = 72; continue _fun0011;
-case 69:
+                _fun0011_ip = 74; continue _fun0011;
+case 71:
                 var2 = {};
                 var2['primaryIconAsset'] = var3;
                 var2['primaryIconLabel'] = var3;
                 var1 = var2;
-case 72:
+case 74:
                 return var1;
 case 24:
                 var1 = {};
@@ -637,11 +637,11 @@ case 24:
 case 0:
                 var1 = arg1;
                 var3 = null;
-                if(!(var3 != var1)) { _fun0012_ip = 73; continue _fun0012 }
-case 74:
+                if(!(var3 != var1)) { _fun0012_ip = 75; continue _fun0012 }
+case 76:
                 var2 = var1.thumbnailAssetId;
                 if(!(var3 == var2)) { _fun0012_ip = 31; continue _fun0012 }
-case 73:
+case 75:
                 var2 = undefined;
                 return var2;
 case 31:
@@ -676,42 +676,42 @@ case 0:
                 var2 = var1 == var3;
                 var5 = undefined;
                 var8 = undefined;
-                if(var2) { _fun0013_ip = 75; continue _fun0013 }
-case 76:
+                if(var2) { _fun0013_ip = 77; continue _fun0013 }
+case 78:
                 var8 = var3.applicationId;
-case 75:
+case 77:
                 var2 = var1 == var3;
                 var7 = undefined;
-                if(var2) { _fun0013_ip = 77; continue _fun0013 }
+                if(var2) { _fun0013_ip = 79; continue _fun0013 }
 case 3:
                 var2 = var3.tenantMetadata;
                 var4 = var1 == var2;
                 var7 = undefined;
-                if(var4) { _fun0013_ip = 77; continue _fun0013 }
-case 78:
+                if(var4) { _fun0013_ip = 79; continue _fun0013 }
+case 80:
                 var2 = var2.socialLayer;
                 var4 = var1 == var2;
                 var7 = undefined;
-                if(var4) { _fun0013_ip = 77; continue _fun0013 }
-case 79:
+                if(var4) { _fun0013_ip = 79; continue _fun0013 }
+case 81:
                 var7 = var2.cardImageAssetId;
-case 77:
-                if(!(var1 == var7)) { _fun0013_ip = 80; continue _fun0013 }
+case 79:
+                if(!(var1 == var7)) { _fun0013_ip = 40; continue _fun0013 }
 case 35:
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0013_ip = 81; continue _fun0013 }
-case 82:
-                var2 = var3.thumbnailAssetId;
-case 81:
-                var7 = var2;
-case 80:
-                if(!(var1 != var7)) { _fun0013_ip = 11; continue _fun0013 }
+                if(var4) { _fun0013_ip = 82; continue _fun0013 }
 case 83:
-                if(!(var1 == var8)) { _fun0013_ip = 84; continue _fun0013 }
+                var2 = var3.thumbnailAssetId;
+case 82:
+                var7 = var2;
+case 40:
+                if(!(var1 != var7)) { _fun0013_ip = 11; continue _fun0013 }
+case 84:
+                if(!(var1 == var8)) { _fun0013_ip = 85; continue _fun0013 }
 case 11:
                 return var5;
-case 84:
+case 85:
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var2 = 8;
@@ -742,32 +742,32 @@ case 0:
                 var3 = var2 == var4;
                 var7 = undefined;
                 var1 = undefined;
-                if(var3) { _fun0014_ip = 85; continue _fun0014 }
-case 76:
+                if(var3) { _fun0014_ip = 86; continue _fun0014 }
+case 78:
                 var3 = var4.tenantMetadata;
                 var5 = var2 == var3;
                 var1 = undefined;
-                if(var5) { _fun0014_ip = 85; continue _fun0014 }
-case 59:
+                if(var5) { _fun0014_ip = 86; continue _fun0014 }
+case 61:
                 var3 = var3.socialLayer;
                 var5 = var2 == var3;
                 var1 = undefined;
-                if(var5) { _fun0014_ip = 85; continue _fun0014 }
+                if(var5) { _fun0014_ip = 86; continue _fun0014 }
 case 2:
                 var1 = var3.cardBackgroundImageAssetId;
-case 85:
-                if(!(var2 != var1)) { _fun0014_ip = 86; continue _fun0014 }
+case 86:
+                if(!(var2 != var1)) { _fun0014_ip = 87; continue _fun0014 }
 case 28:
                 var3 = var2 == var4;
                 var1 = undefined;
                 if(var3) { _fun0014_ip = 35; continue _fun0014 }
-case 87:
+case 88:
                 var1 = var4.applicationId;
 case 35:
-                if(!(var2 == var1)) { _fun0014_ip = 88; continue _fun0014 }
-case 86:
+                if(!(var2 == var1)) { _fun0014_ip = 89; continue _fun0014 }
+case 87:
                 return var7;
-case 88:
+case 89:
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var2 = 8;
@@ -817,12 +817,12 @@ case 0:
                 var4 = var3.bind(var4)(var1);
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0015_ip = 89; continue _fun0015 }
-case 90:
+                if(!var1) { _fun0015_ip = 90; continue _fun0015 }
+case 91:
                 var3 = _closure1_slot15;
                 var2 = undefined;
                 var1 = var3.bind(var2)(var4);
-case 89:
+case 90:
                 return var1;
             }
         };
@@ -837,7 +837,7 @@ case 0:
                 var _closure2_slot1 = var1;
                 var3 = var4.length;
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0016_ip = 88; continue _fun0016 }
+                if(!(var1 !== var3)) { _fun0016_ip = 89; continue _fun0016 }
 case 3:
                 var1 = {};
                 var5 = var4.some;
@@ -849,10 +849,10 @@ case 0:
                         var1 = var1.id;
                         var3 = var2[var1];
                         var1 = null;
-                        if(!(var1 == var3)) { _fun0017_ip = 57; continue _fun0017 }
-case 91:
+                        if(!(var1 == var3)) { _fun0017_ip = 59; continue _fun0017 }
+case 92:
                         var3 = {};
-case 57:
+case 59:
                         var1 = global;
                         var2 = var1.Object;
                         var1 = var2.entries;
@@ -869,36 +869,36 @@ case 0:
                                 var7 = undefined;
                                 var3 = var3 === var7;
                                 var4 = undefined;
-                                if(var3) { _fun0018_ip = 57; continue _fun0018 }
-case 92:
+                                if(var3) { _fun0018_ip = 59; continue _fun0018 }
+case 93:
                                 var4 = var2;
-case 57:
+case 59:
                                 var2 = undefined;
-                                if(var3) { _fun0018_ip = 93; continue _fun0018 }
-case 94:
+                                if(var3) { _fun0018_ip = 94; continue _fun0018 }
+case 95:
                                 var6 = var5().value;
                                 var5 = var1;
                                 var5 = var5 === var7;
                                 var2 = undefined;
                                 var3 = var5;
-                                if(var5) { _fun0018_ip = 93; continue _fun0018 }
-case 95:
+                                if(var5) { _fun0018_ip = 94; continue _fun0018 }
+case 96:
                                 var2 = var6;
                                 var3 = var5;
-case 93:
-                                if(var3) { _fun0018_ip = 37; continue _fun0018 }
-case 79:
+case 94:
+                                if(var3) { _fun0018_ip = 97; continue _fun0018 }
+case 81:
                                 var1.return();
-case 37:
+case 97:
                                 var1 = _closure1_slot3;
                                 var1 = var1.WISHLIST;
                                 var1 = var2 === var1;
-                                if(!var1) { _fun0018_ip = 96; continue _fun0018 }
-case 36:
+                                if(!var1) { _fun0018_ip = 98; continue _fun0018 }
+case 44:
                                 var3 = _closure2_slot1;
                                 var2 = var3.has;
                                 var1 = var2.bind(var3)(var4);
-case 96:
+case 98:
                                 return var1;
                             }
                         };
@@ -918,7 +918,7 @@ case 0:
                         var4 = var2[var1];
                         var1 = null;
                         var1 = var1 == var4;
-                        if(var1) { _fun0019_ip = 87; continue _fun0019 }
+                        if(var1) { _fun0019_ip = 88; continue _fun0019 }
 case 34:
                         var2 = global;
                         var3 = var2.Object;
@@ -936,57 +936,57 @@ case 0:
                                 var7 = undefined;
                                 var3 = var3 === var7;
                                 var4 = undefined;
-                                if(var3) { _fun0020_ip = 57; continue _fun0020 }
-case 92:
+                                if(var3) { _fun0020_ip = 59; continue _fun0020 }
+case 93:
                                 var4 = var2;
-case 57:
+case 59:
                                 var2 = undefined;
-                                if(var3) { _fun0020_ip = 93; continue _fun0020 }
-case 94:
+                                if(var3) { _fun0020_ip = 94; continue _fun0020 }
+case 95:
                                 var6 = var5().value;
                                 var5 = var1;
                                 var5 = var5 === var7;
                                 var2 = undefined;
                                 var3 = var5;
-                                if(var5) { _fun0020_ip = 93; continue _fun0020 }
-case 95:
+                                if(var5) { _fun0020_ip = 94; continue _fun0020 }
+case 96:
                                 var2 = var6;
                                 var3 = var5;
-case 93:
-                                if(var3) { _fun0020_ip = 37; continue _fun0020 }
-case 79:
+case 94:
+                                if(var3) { _fun0020_ip = 97; continue _fun0020 }
+case 81:
                                 var1.return();
-case 37:
+case 97:
                                 var1 = _closure1_slot3;
                                 var1 = var1.RECOMMENDATION;
                                 var1 = var2 === var1;
-                                if(!var1) { _fun0020_ip = 96; continue _fun0020 }
-case 36:
+                                if(!var1) { _fun0020_ip = 98; continue _fun0020 }
+case 44:
                                 var3 = _closure2_slot1;
                                 var2 = var3.has;
                                 var1 = var2.bind(var3)(var4);
-case 96:
-                                if(var1) { _fun0020_ip = 97; continue _fun0020 }
 case 98:
+                                if(var1) { _fun0020_ip = 99; continue _fun0020 }
+case 100:
                                 var3 = _closure2_slot1;
                                 var2 = var3.has;
                                 var2 = var2.bind(var3)(var4);
                                 var1 = !var2;
-case 97:
+case 99:
                                 return var1;
                             }
                         };
                         var1 = var3.bind(var4)(var2);
-case 87:
+case 88:
                         return var1;
                     }
                 };
                 var2 = var3.bind(var4)(var2);
                 var1['hasPopular'] = var2;
-                _fun0016_ip = 39; continue _fun0016;
-case 88:
+                _fun0016_ip = 101; continue _fun0016;
+case 89:
                 var1 = {'hasWishlist': false, 'hasPopular': false};
-case 39:
+case 101:
                 return var1;
             }
         };

@@ -1298,12 +1298,12 @@ case 84:
             var11['onPress'] = var21;
             var21 = 'primary';
             if(!var19) { _fun0007_ip = 87; continue _fun0007 }
-case 15:
+case 88:
             var21 = 'secondary';
 case 87:
             var11['variant'] = var21;
             var11['disabled'] = var19;
-            _fun0007_ip = 88; continue _fun0007;
+            _fun0007_ip = 89; continue _fun0007;
 case 86:
             var19 = {};
             var21 = 'sm';
@@ -1335,7 +1335,7 @@ case 86:
             var20 = 'secondary';
             var19['variant'] = var20;
             var11 = var19;
-case 88:
+case 89:
             var11 = var18.bind(var5)(var17, var11);
             var6['trailing'] = var11;
             var6 = var8.bind(var5)(var7, var6);

@@ -41,19 +41,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = function get(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var5 = arg1;
-            var4 = null;
-            var2 = var4 != var5;
+            var6 = arg1;
+            var2 = null;
+            var3 = var2 == var6;
             var1 = null;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = _closure1_slot4;
-            var2 = var3.getGame;
-            var2 = var2.bind(var3)(var5);
-            var3 = var4 != var2;
-            var1 = null;
-            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = _closure1_slot4;
+            var4 = var5.hasNoData;
+            var4 = var4.bind(var5)(var6);
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var5 = _closure1_slot4;
+            var4 = var5.getGame;
+            var4 = var4.bind(var5)(var6);
+            var5 = var2 != var4;
+            var2 = null;
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var2 = var4;
+case 6:
+            _fun0001_ip = 8; continue _fun0001;
 case 4:
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 4;
+            var4 = var4[var3];
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var2 = var3.NO_DATA;
+case 8:
             var1 = var2;
 case 2:
             return var1;
@@ -67,11 +84,11 @@ case 0:
                 StartGenerator();
                 var5 = arg1;
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                if(var2) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+                if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var2 = null;
-                if(!(var2 != var5)) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+                if(!(var2 != var5)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 5;
@@ -83,17 +100,17 @@ case 8:
                 var2[0] = var5;
                 var2 = var3.bind(var4)(var2);
                 SaveGenerator(address=64);
-case 9:
+case 6:
                 return var2;
-case 10:
+case 4:
                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                if(var3) { _fun0002_ip = 11; continue _fun0002 }
-case 7:
+                if(var3) { _fun0002_ip = 13; continue _fun0002 }
+case 11:
                 var3 = undefined;
                 return var3;
-case 11:
+case 13:
                 return var2;
-case 5:
+case 9:
                 return var1;
             }
         };
@@ -118,12 +135,12 @@ case 0:
             var4 = arg1;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+            if(!var1) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var3 = _closure1_slot4;
             var2 = var3.isFetching;
             var1 = var2.bind(var3)(var4);
-case 12:
+case 14:
             return var1;
         }
     };
@@ -135,14 +152,14 @@ case 0:
             var3 = null;
             var2 = var3 != var5;
             var1 = null;
-            if(!var2) { _fun0004_ip = 14; continue _fun0004 }
+            if(!var2) { _fun0004_ip = 16; continue _fun0004 }
 case 3:
             var4 = _closure1_slot4;
             var2 = var4.didFetchingFail;
             var2 = var2.bind(var4)(var5);
             var1 = null;
-            if(!var2) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+            if(!var2) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var2 = global;
             var4 = var2.Error;
             var2 = var4.prototype;
@@ -151,7 +168,7 @@ case 15:
             var7 = var3;
             var2 = new var7[var4](var6, var5);
             var1 = var2 instanceof Object ? var2 : var3;
-case 14:
+case 16:
             return var1;
         }
     };

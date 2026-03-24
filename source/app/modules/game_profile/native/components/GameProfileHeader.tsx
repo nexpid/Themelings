@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOW;
+    var12 = var12.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {'width': '100%', 'position': 'absolute', 'top': 0, 'bottom': null, 'left': 0, 'right': 0};
@@ -83,6 +83,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = 'row';
     var12 = 'center';
     var4['headerContent'] = var9;
+    var9 = {};
+    var15 = var6[var10];
+    var15 = var11.bind(var1)(var15);
+    var15 = var15.radii;
+    var15 = var15.sm;
+    var9['borderRadius'] = var15;
+    var15 = var6[var10];
+    var15 = var11.bind(var1)(var15);
+    var15 = var15.shadows;
+    var17 = var15.SHADOW_LOW;
+    var18 = var9;
+    var15 = copyDataProperties(var18, var17);
+    var4['shadowContainer'] = var9;
     var9 = {'width': 85, 'height': 114, 'borderRadius': null, 'backgroundColor': null, 'overflow': 'hidden'};
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
@@ -127,13 +140,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.PX_8;
     var9['paddingHorizontal'] = var13;
     var9['alignItems'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_4;
+    var9['gap'] = var12;
+    var12 = 'flex-start';
+    var9['alignSelf'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_4;
-    var9['gap'] = var10;
-    var10 = 'flex-start';
-    var9['alignSelf'] = var10;
+    var10 = var10.shadows;
+    var17 = var10.SHADOW_LOW;
+    var18 = var9;
+    var10 = copyDataProperties(var18, var17);
     var4['gameRankPill'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
@@ -306,12 +325,12 @@ case 14:
             };
             var12 = var3.bind(var5)(var1, var2);
             var1 = var17 == var9;
-            var20 = undefined;
+            var21 = undefined;
             if(var1) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-            var20 = var9.coverImageUrl;
+            var21 = var9.coverImageUrl;
 case 21:
-            if(!(var17 == var20)) { _fun0001_ip = 23; continue _fun0001 }
+            if(!(var17 == var21)) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
             var2 = var17 == var9;
             var1 = undefined;
@@ -371,7 +390,7 @@ case 35:
             var2['format'] = var6;
             var1 = var3.bind(var5)(var2);
 case 34:
-            var20 = var1;
+            var21 = var1;
 case 23:
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
@@ -413,7 +432,7 @@ case 37:
             var8 = {};
             var11 = var19.container;
             var12 = var11.backgroundColor;
-            var11 = ['rgba(0,0,0,0.1)'];
+            var11 = ['rgba(0,0,0,0.3)'];
             var11[1] = var12;
             var8['colors'] = var11;
             var11 = var19.artHeroGradient;
@@ -430,21 +449,26 @@ case 37:
             var9 = var19.headerContent;
             var6['style'] = var9;
             var9 = {};
-            var11 = var19.iconContainer;
+            var11 = var19.shadowContainer;
             var9['style'] = var11;
-            var11 = var17 != var20;
-            if(!var11) { _fun0001_ip = 39; continue _fun0001 }
+            var11 = {};
+            var12 = var19.iconContainer;
+            var11['style'] = var12;
+            var12 = var17 != var21;
+            if(!var12) { _fun0001_ip = 39; continue _fun0001 }
 case 40:
-            var14 = _closure1_slot7;
-            var13 = _closure1_slot6;
-            var12 = {};
-            var16 = {};
-            var16['uri'] = var20;
-            var12['source'] = var16;
-            var16 = var19.icon;
-            var12['style'] = var16;
-            var11 = var14.bind(var4)(var13, var12);
+            var16 = _closure1_slot7;
+            var14 = _closure1_slot6;
+            var13 = {};
+            var20 = {};
+            var20['uri'] = var21;
+            var13['source'] = var20;
+            var20 = var19.icon;
+            var13['style'] = var20;
+            var12 = var16.bind(var4)(var14, var13);
 case 39:
+            var11['children'] = var12;
+            var11 = var10.bind(var4)(var7, var11);
             var9['children'] = var11;
             var10 = var10.bind(var4)(var7, var9);
             var9 = new Array(2);

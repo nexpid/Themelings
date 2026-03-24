@@ -97,11 +97,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7.radii;
         var7 = var7.lg;
         var2['borderRadius'] = var7;
+        var7 = var6[var3];
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.spacing;
+        var7 = var7.PX_24;
+        var2['paddingVertical'] = var7;
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.spacing;
-        var3 = var3.PX_24;
-        var2['paddingVertical'] = var3;
+        var3 = var3.PX_16;
+        var2['marginHorizontal'] = var3;
         var1['emptyState'] = var2;
         return var1;
     };

@@ -65,6 +65,8 @@ case 2:
     var10[1] = var11;
     var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': true, 'enableVoiceOnlyClips': true, 'enableAdvancedSignals': true};
     var10[2] = var11;
+    var11 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
+    var10[3] = var11;
     var5['variations'] = var10;
     var5 = var6.bind(var9)(var5);
     var _closure1_slot6 = var5;

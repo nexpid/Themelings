@@ -4,9 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -20,20 +18,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot3 = var4;
-    var4 = 13;
+    var _closure1_slot2 = var4;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/game_profile/native/utils/getGameProfileWebsiteData.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function getGameProfileWebsiteData(arg1) {
+    var2 = function getGameProfileWebsiteData(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
+            var9 = arg2;
             var4 = var2.category;
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot1;
             var6 = 1;
             var1 = var1[var6];
             var7 = undefined;
@@ -43,7 +42,7 @@ case 0:
             if(!(var1 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot1;
             var1 = var1[var6];
             var1 = var5.bind(var7)(var1);
             var1 = var1.ThirdPartyGameApplicationWebsiteCategory;
@@ -51,7 +50,7 @@ case 3:
             if(!(var1 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot1;
             var1 = var1[var6];
             var1 = var5.bind(var7)(var1);
             var1 = var1.ThirdPartyGameApplicationWebsiteCategory;
@@ -59,7 +58,7 @@ case 5:
             if(!(var1 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot1;
             var1 = var1[var6];
             var1 = var5.bind(var7)(var1);
             var1 = var1.ThirdPartyGameApplicationWebsiteCategory;
@@ -67,7 +66,7 @@ case 7:
             if(!(var1 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot1;
             var1 = var1[var6];
             var1 = var5.bind(var7)(var1);
             var1 = var1.ThirdPartyGameApplicationWebsiteCategory;
@@ -75,7 +74,7 @@ case 9:
             if(!(var1 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot1;
             var1 = var1[var6];
             var1 = var5.bind(var7)(var1);
             var1 = var1.ThirdPartyGameApplicationWebsiteCategory;
@@ -83,7 +82,7 @@ case 11:
             if(!(var1 !== var4)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot1;
             var1 = var1[var6];
             var1 = var5.bind(var7)(var1);
             var1 = var1.ThirdPartyGameApplicationWebsiteCategory;
@@ -91,7 +90,7 @@ case 13:
             if(!(var1 !== var4)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot1;
             var1 = var1[var6];
             var1 = var5.bind(var7)(var1);
             var1 = var1.ThirdPartyGameApplicationWebsiteCategory;
@@ -102,30 +101,31 @@ case 17:
             return var1;
 case 16:
             var1 = {};
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 12;
-            var4 = var9[var4];
+            var10 = _closure1_slot1;
+            var4 = 11;
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var5 = var4.TwitchNeutralIcon;
             var4 = {};
-            var10 = 'md';
-            var4['size'] = var10;
+            var11 = 'md';
+            var4['size'] = var11;
+            var4['color'] = var9;
             var4 = var6.bind(var7)(var5, var4);
             var1['icon'] = var4;
             var4 = 3;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.GameProfileTrackActionActions;
             var4 = var4.TwitchLink;
             var1['action'] = var4;
             var4 = 4;
-            var5 = var9[var4];
+            var5 = var10[var4];
             var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
             var4 = var4.7xtz4G;
@@ -136,30 +136,31 @@ case 16:
             return var1;
 case 14:
             var1 = {};
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 11;
-            var4 = var9[var4];
+            var10 = _closure1_slot1;
+            var4 = 10;
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var5 = var4.RedditNeutralIcon;
             var4 = {};
-            var10 = 'md';
-            var4['size'] = var10;
+            var11 = 'md';
+            var4['size'] = var11;
+            var4['color'] = var9;
             var4 = var6.bind(var7)(var5, var4);
             var1['icon'] = var4;
             var4 = 3;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.GameProfileTrackActionActions;
             var4 = var4.RedditLink;
             var1['action'] = var4;
             var4 = 4;
-            var5 = var9[var4];
+            var5 = var10[var4];
             var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
             var4 = var4.Hgb+fc;
@@ -170,30 +171,31 @@ case 14:
             return var1;
 case 12:
             var1 = {};
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 10;
-            var4 = var9[var4];
+            var10 = _closure1_slot1;
+            var4 = 9;
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var5 = var4.BlueskyNeutralIcon;
             var4 = {};
-            var10 = 'md';
-            var4['size'] = var10;
+            var11 = 'md';
+            var4['size'] = var11;
+            var4['color'] = var9;
             var4 = var6.bind(var7)(var5, var4);
             var1['icon'] = var4;
             var4 = 3;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.GameProfileTrackActionActions;
             var4 = var4.BlueskyLink;
             var1['action'] = var4;
             var4 = 4;
-            var5 = var9[var4];
+            var5 = var10[var4];
             var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
             var4 = var4.D/PHq5;
@@ -204,30 +206,31 @@ case 12:
             return var1;
 case 10:
             var1 = {};
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 9;
-            var4 = var9[var4];
+            var10 = _closure1_slot1;
+            var4 = 8;
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var5 = var4.InstagramNeutralIcon;
             var4 = {};
-            var10 = 'md';
-            var4['size'] = var10;
+            var11 = 'md';
+            var4['size'] = var11;
+            var4['color'] = var9;
             var4 = var6.bind(var7)(var5, var4);
             var1['icon'] = var4;
             var4 = 3;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.GameProfileTrackActionActions;
             var4 = var4.InstagramLink;
             var1['action'] = var4;
             var4 = 4;
-            var5 = var9[var4];
+            var5 = var10[var4];
             var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
             var4 = var4.cgR+IK;
@@ -238,30 +241,31 @@ case 10:
             return var1;
 case 8:
             var1 = {};
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 8;
-            var4 = var9[var4];
+            var10 = _closure1_slot1;
+            var4 = 7;
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var5 = var4.FacebookNeutralIcon;
             var4 = {};
-            var10 = 'md';
-            var4['size'] = var10;
+            var11 = 'md';
+            var4['size'] = var11;
+            var4['color'] = var9;
             var4 = var6.bind(var7)(var5, var4);
             var1['icon'] = var4;
             var4 = 3;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.GameProfileTrackActionActions;
             var4 = var4.FacebookLink;
             var1['action'] = var4;
             var4 = 4;
-            var5 = var9[var4];
+            var5 = var10[var4];
             var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
             var4 = var4.FjyREK;
@@ -272,30 +276,31 @@ case 8:
             return var1;
 case 6:
             var1 = {};
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 7;
-            var4 = var9[var4];
+            var10 = _closure1_slot1;
+            var4 = 6;
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var5 = var4.YoutubeNeutralIcon;
             var4 = {};
-            var10 = 'md';
-            var4['size'] = var10;
+            var11 = 'md';
+            var4['size'] = var11;
+            var4['color'] = var9;
             var4 = var6.bind(var7)(var5, var4);
             var1['icon'] = var4;
             var4 = 3;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.GameProfileTrackActionActions;
             var4 = var4.YouTubeLink;
             var1['action'] = var4;
             var4 = 4;
-            var5 = var9[var4];
+            var5 = var10[var4];
             var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
             var4 = var4.lNmxbE;
@@ -306,37 +311,31 @@ case 6:
             return var1;
 case 4:
             var1 = {};
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot1;
             var4 = 5;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var5 = var4.XNeutralIcon;
             var4 = {};
-            var10 = 'md';
-            var4['size'] = var10;
-            var11 = _closure1_slot1;
-            var10 = 6;
-            var10 = var9[var10];
-            var10 = var11.bind(var7)(var10);
-            var10 = var10.colors;
-            var10 = var10.INTERACTIVE_ICON_DEFAULT;
-            var4['color'] = var10;
+            var11 = 'md';
+            var4['size'] = var11;
+            var4['color'] = var9;
             var4 = var6.bind(var7)(var5, var4);
             var1['icon'] = var4;
             var4 = 3;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.GameProfileTrackActionActions;
             var4 = var4.XLink;
             var1['action'] = var4;
             var4 = 4;
-            var5 = var9[var4];
+            var5 = var10[var4];
             var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var4 = var9[var4];
+            var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
             var4 = var4.INic4y;
@@ -347,16 +346,17 @@ case 4:
             return var1;
 case 2:
             var1 = {};
-            var5 = _closure1_slot3;
+            var5 = _closure1_slot2;
             var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var8 = _closure1_slot1;
             var3 = 2;
             var3 = var8[var3];
             var3 = var6.bind(var7)(var3);
             var4 = var3.GlobeEarthIcon;
             var3 = {};
-            var9 = 'md';
-            var3['size'] = var9;
+            var10 = 'md';
+            var3['size'] = var10;
+            var3['color'] = var9;
             var3 = var5.bind(var7)(var4, var3);
             var1['icon'] = var3;
             var3 = 3;
