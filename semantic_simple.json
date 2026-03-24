@@ -1279,7 +1279,7 @@
   },
   "MOBILE_UNREADBAR_TEXT_DEFAULT": {
     "dark": "#949cf7",
-    "light": "#5865f2",
+    "light": "#505cdc",
     "midnight": "#7984f5",
     "darker": "#949cf7"
   },
@@ -1705,7 +1705,7 @@
   },
   "TEXT_BRAND": {
     "dark": "#949cf7",
-    "light": "#5865f2",
+    "light": "#505cdc",
     "midnight": "#7984f5",
     "darker": "#949cf7"
   },
