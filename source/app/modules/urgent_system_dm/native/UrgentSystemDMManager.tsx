@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7[var4];
         var4 = var10.bind(var5)(var4);
         var4 = var4.t;
-        var4 = var4.7KjxW3;
+        var4 = var4["7KjxW3"];
         var4 = var8.bind(var9)(var4);
         var1['body'] = var4;
         var4 = false;

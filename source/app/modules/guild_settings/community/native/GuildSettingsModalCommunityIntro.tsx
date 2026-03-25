@@ -343,7 +343,7 @@ case 4:
         var19 = var9[var16];
         var19 = var7.bind(var4)(var19);
         var19 = var19.t;
-        var20 = var19.52EgsM;
+        var20 = var19["52EgsM"];
         var19 = {};
         var24 = _closure1_slot1;
         var23 = 19;
@@ -520,7 +520,7 @@ case 8:
         var17 = var9[var16];
         var17 = var7.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.0rJl9y;
+        var17 = var17["0rJl9y"];
         var17 = var18.bind(var19)(var17);
         var14['header'] = var17;
         var17 = var9[var16];

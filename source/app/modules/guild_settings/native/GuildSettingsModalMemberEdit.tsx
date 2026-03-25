@@ -663,7 +663,7 @@ case 32:
                 var13 = var17[var13];
                 var13 = var16.bind(var12)(var13);
                 var13 = var13.t;
-                var13 = var13.+riKdA;
+                var13 = var13["+riKdA"];
                 var13 = var14.bind(var15)(var13);
                 var7['label'] = var13;
                 var7['onPress'] = var4;
@@ -1635,7 +1635,7 @@ case 80:
                 var33 = var33[var37];
                 var33 = var38.bind(var5)(var33);
                 var33 = var33.t;
-                var33 = var33.621LJD;
+                var33 = var33["621LJD"];
                 var33 = var35.bind(var36)(var33);
                 var20['label'] = var33;
                 var35 = var1 != var34;

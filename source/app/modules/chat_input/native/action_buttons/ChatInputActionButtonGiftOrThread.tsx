@@ -62,7 +62,7 @@ case 2:
             var14 = var13[var14];
             var14 = var12.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.4WNcpu;
+            var14 = var14["4WNcpu"];
             var14 = var15.bind(var16)(var14);
             var6['accessibilityLabel'] = var14;
             var11 = !var11;

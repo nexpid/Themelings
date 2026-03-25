@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var7[var9];
         var10 = var12.bind(var1)(var10);
         var10 = var10.t;
-        var10 = var10.66tnno;
+        var10 = var10["66tnno"];
         var10 = var11.bind(var13)(var10);
         var2['title'] = var10;
         var10 = var7[var9];

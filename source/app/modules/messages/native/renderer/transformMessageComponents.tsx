@@ -818,7 +818,7 @@ case 39:
                     var7 = var14[var7];
                     var7 = var13.bind(var8)(var7);
                     var7 = var7.t;
-                    var7 = var7./SCpvi;
+                    var7 = var7["/SCpvi"];
                     var10 = var11.bind(var12)(var7);
 case 89:
                     var7 = 'accessibilityRole';
@@ -1283,7 +1283,7 @@ case 109:
             var2 = var9[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.t;
-            var5 = var2.3aednA;
+            var5 = var2["3aednA"];
             var2 = {};
             var2['placeholder'] = var8;
             var2 = var6.bind(var7)(var5, var2);

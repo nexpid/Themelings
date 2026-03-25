@@ -243,7 +243,7 @@ case 8:
             var5 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var4)(var1);
-            var1 = var1.+SuGKb;
+            var1 = var1["+SuGKb"];
             var14 = var2.bind(var3)(var1);
 case 10:
             var3 = _closure1_slot10;
@@ -361,7 +361,7 @@ case 14:
             var17 = var17[var21];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.63PyJQ;
+            var17 = var17["63PyJQ"];
             var17 = var18.bind(var19)(var17);
             var14['text'] = var17;
             var14['onPress'] = var16;

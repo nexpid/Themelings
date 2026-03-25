@@ -704,7 +704,7 @@ case 43:
             var16 = var18.bind(var19)(var16);
             _fun0006_ip = 44; continue _fun0006;
 case 42:
-            var17 = var17.7M5gaN;
+            var17 = var17["7M5gaN"];
             var16 = var18.bind(var19)(var17);
 case 44:
             var15['label'] = var16;
@@ -1080,7 +1080,7 @@ case 86:
             var10 = var10[var11];
             var10 = var14.bind(var1)(var10);
             var10 = var10.t;
-            var10 = var10.9o+VKx;
+            var10 = var10["9o+VKx"];
             var10 = var12.bind(var13)(var10);
             _fun0006_ip = 87; continue _fun0006;
 case 85:
@@ -1288,7 +1288,7 @@ case 96:
             var7 = var7[var11];
             var7 = var10.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.8xHmxo;
+            var7 = var7["8xHmxo"];
             var7 = var8.bind(var9)(var7);
             var3['label'] = var7;
             var6 = function onPress() {

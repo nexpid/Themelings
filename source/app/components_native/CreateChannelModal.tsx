@@ -67,7 +67,7 @@ case 16:
             var3 = var23[var16];
             var3 = var17.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.6x6fVg;
+            var3 = var3["6x6fVg"];
             var3 = var5.bind(var7)(var3);
             var2['label'] = var3;
             var7 = _closure1_slot23;
@@ -107,7 +107,7 @@ case 16:
             var16 = var23[var16];
             var16 = var17.bind(var4)(var16);
             var16 = var16.t;
-            var17 = var16.2Sapx1;
+            var17 = var16["2Sapx1"];
             var16 = {};
             var22 = _closure1_slot1;
             var21 = 29;
@@ -1012,7 +1012,7 @@ case 66:
             var21 = var36[var21];
             var21 = var35.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.5z1Xat;
+            var21 = var21["5z1Xat"];
             var19 = var25.bind(var28)(var21);
 case 68:
             _fun0003_ip = 69; continue _fun0003;
@@ -1064,7 +1064,7 @@ case 73:
             var25 = var38[var25];
             var25 = var36.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.7ZcXG2;
+            var25 = var25["7ZcXG2"];
             var25 = var28.bind(var35)(var25);
             var15['title'] = var25;
             var28 = _closure1_slot21;
@@ -1671,7 +1671,7 @@ case 0:
                     var2 = var2[var9];
                     var2 = var10.bind(var1)(var2);
                     var2 = var2.t;
-                    var2 = var2.5Wxrcd;
+                    var2 = var2["5Wxrcd"];
                     var2 = var7.bind(var8)(var2);
                     var _closure3_slot0 = var2;
                     var2 = global;

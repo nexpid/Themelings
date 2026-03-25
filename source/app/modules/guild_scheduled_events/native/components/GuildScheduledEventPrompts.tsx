@@ -137,7 +137,7 @@ case 3:
             var7 = var10[var6];
             var7 = var9.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.60lJ0C;
+            var7 = var7["60lJ0C"];
             var7 = var8.bind(var11)(var7);
             var2['title'] = var7;
             var7 = var10[var6];
@@ -229,7 +229,7 @@ case 5:
             var7 = var15[var6];
             var7 = var11.bind(var5)(var7);
             var7 = var7.t;
-            var8 = var7.1vGXqM;
+            var8 = var7["1vGXqM"];
             var7 = {};
             var7['eventName'] = var12;
             var7 = var9.bind(var10)(var8, var7);

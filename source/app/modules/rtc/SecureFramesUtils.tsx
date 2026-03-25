@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -992,7 +992,7 @@ case 92:
         var6 = var10[var6];
         var6 = var9.bind(var1)(var6);
         var6 = var6.t;
-        var6 = var6.8VGYKg;
+        var6 = var6["8VGYKg"];
         var6 = var7.bind(var8)(var6);
         var2['subtitle'] = var6;
         var5 = function onConfirm() {
@@ -1163,7 +1163,7 @@ case 103:
             var3 = var11[var3];
             var3 = var4.bind(var6)(var3);
             var3 = var3.t;
-            var4 = var3./w0Qpw;
+            var4 = var3["/w0Qpw"];
             var3 = {};
             var3['count'] = var5;
             var3 = var7.bind(var10)(var4, var3);
@@ -1461,7 +1461,7 @@ case 111:
             var2 = var9[var3];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.9lw+J+;
+            var2 = var2["9lw+J+"];
             var5 = var5.bind(var7)(var2);
             var2 = new Array(2);
             var2[0] = var5;
@@ -1519,7 +1519,7 @@ case 107:
             var2 = var9[var3];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.+no/arg8;
+            var2 = var2["+no/a7"];
             var5 = var5.bind(var7)(var2);
             var2 = new Array(2);
             var2[0] = var5;
@@ -1548,7 +1548,7 @@ case 106:
             var2 = var9[var3];
             var2 = var8.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.5ICxE6;
+            var2 = var2["5ICxE6"];
             var4 = var4.bind(var5)(var2);
             var2 = new Array(2);
             var2[0] = var4;
@@ -1586,7 +1586,7 @@ case 104:
             var2 = var8[var2];
             var2 = var7.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.+rIdOd;
+            var3 = var2["+rIdOd"];
             var2 = {};
             var2['username'] = var6;
             var2 = var4.bind(var5)(var3, var2);
@@ -1621,7 +1621,7 @@ case 3:
 case 70:
             if(var1) { _fun0014_ip = 45; continue _fun0014 }
 case 38:
-            var3 = var2.6JLy+i;
+            var3 = var2["6JLy+i"];
             var1 = {};
             var9 = _closure1_slot19;
             var9 = var9.bind(var7)();

@@ -320,7 +320,7 @@ case 2:
         var14 = var15.string;
         var13 = var9[var5];
         var13 = var8.bind(var2)(var13);
-        var13 = var13.1DnNRO;
+        var13 = var13["1DnNRO"];
         var13 = var14.bind(var15)(var13);
         var4['label'] = var13;
         var1[2] = var4;
@@ -365,7 +365,7 @@ case 2:
         var14 = var15.string;
         var13 = var9[var5];
         var13 = var8.bind(var2)(var13);
-        var13 = var13.1o77I3;
+        var13 = var13["1o77I3"];
         var13 = var14.bind(var15)(var13);
         var4['label'] = var13;
         var1[5] = var4;
@@ -425,7 +425,7 @@ case 2:
         var14 = var15.string;
         var13 = var9[var5];
         var13 = var8.bind(var2)(var13);
-        var13 = var13.05VSjm;
+        var13 = var13["05VSjm"];
         var13 = var14.bind(var15)(var13);
         var4['label'] = var13;
         var1[9] = var4;
@@ -455,7 +455,7 @@ case 2:
         var14 = var15.string;
         var13 = var9[var5];
         var13 = var8.bind(var2)(var13);
-        var13 = var13.4qlGrO;
+        var13 = var13["4qlGrO"];
         var13 = var14.bind(var15)(var13);
         var4['label'] = var13;
         var12 = !var12;
@@ -472,7 +472,7 @@ case 2:
         var6 = var7.string;
         var5 = var9[var5];
         var5 = var8.bind(var2)(var5);
-        var5 = var5.2IG95D;
+        var5 = var5["2IG95D"];
         var5 = var6.bind(var7)(var5);
         var4['label'] = var5;
         var1[12] = var4;
@@ -532,7 +532,7 @@ case 2:
         var13 = var14.string;
         var12 = var9[var5];
         var12 = var8.bind(var2)(var12);
-        var12 = var12.8I/GUL;
+        var12 = var12["8I/GUL"];
         var12 = var13.bind(var14)(var12);
         var4['label'] = var12;
         var1[2] = var4;
@@ -718,7 +718,7 @@ case 2:
         var14 = var15.string;
         var13 = var10[var6];
         var13 = var9.bind(var2)(var13);
-        var13 = var13.3PKSkd;
+        var13 = var13["3PKSkd"];
         var13 = var14.bind(var15)(var13);
         var4['label'] = var13;
         var13 = !var5;
@@ -752,7 +752,7 @@ case 2:
         var14 = var15.string;
         var13 = var10[var6];
         var13 = var9.bind(var2)(var13);
-        var13 = var13.8ceyQy;
+        var13 = var13["8ceyQy"];
         var13 = var14.bind(var15)(var13);
         var4['label'] = var13;
         var13 = !var5;
@@ -803,7 +803,7 @@ case 2:
         var14 = var15.string;
         var13 = var10[var6];
         var13 = var9.bind(var2)(var13);
-        var13 = var13./nlKuG;
+        var13 = var13["/nlKuG"];
         var13 = var14.bind(var15)(var13);
         var4['label'] = var13;
         var13 = !var5;

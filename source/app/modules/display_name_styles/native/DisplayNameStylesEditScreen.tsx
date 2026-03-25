@@ -219,7 +219,7 @@ case 14:
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.1Qm822;
+        var11 = var11["1Qm822"];
         var11 = var12.bind(var13)(var11);
         var8['text'] = var11;
         var8 = var10.bind(var4)(var9, var8);
@@ -1103,7 +1103,7 @@ case 68:
             var28 = 38;
             var44 = var37[var28];
             var44 = var40.bind(var5)(var44);
-            var44 = var44.0JCuGm;
+            var44 = var44["0JCuGm"];
             var44 = var48.bind(var50)(var44);
             var41['children'] = var44;
             var42 = var43.bind(var5)(var42, var41);
@@ -1205,7 +1205,7 @@ case 68:
             var48 = var49.string;
             var47 = var37[var28];
             var47 = var40.bind(var5)(var47);
-            var47 = var47.6OxgN7;
+            var47 = var47["6OxgN7"];
             var47 = var48.bind(var49)(var47);
             var38['children'] = var47;
             var42 = var43.bind(var5)(var42, var38);

@@ -679,7 +679,7 @@ case 36:
             var21 = var21[var22];
             var21 = var25.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.5h0QOP;
+            var21 = var21["5h0QOP"];
             var21 = var23.bind(var24)(var21);
             var19['placeholder'] = var21;
             var19['onChange'] = var12;
@@ -769,7 +769,7 @@ case 50:
             var17 = var17[var22];
             var17 = var21.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.7gBhmO;
+            var17 = var17["7gBhmO"];
             var9 = var19.bind(var20)(var17);
 case 52:
             var6['body'] = var9;

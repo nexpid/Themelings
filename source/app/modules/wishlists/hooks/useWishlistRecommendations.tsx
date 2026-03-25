@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -834,30 +834,6 @@ case 80:
         }
     };
     var _closure1_slot13 = var1;
-    var1 = function useWishlistApplicationIdsForUser(arg1) {
-        var3 = _closure1_slot1;
-        var5 = _closure1_slot2;
-        var2 = 11;
-        var2 = var5[var2];
-        var4 = undefined;
-        var6 = var3.bind(var4)(var2);
-        var2 = arg1;
-        var6 = var6.bind(var4)(var2);
-        var2 = 12;
-        var2 = var5[var2];
-        var3 = var3.bind(var4)(var2);
-        var2 = {};
-        var2['displayProfile'] = var6;
-        var3 = var3.bind(var4)(var2);
-        var2 = _closure1_slot0;
-        var1 = 13;
-        var1 = var5[var1];
-        var2 = var2.bind(var4)(var1);
-        var1 = var2.useWishlistApplicationIds;
-        var1 = var1.bind(var2)(var3);
-        return var1;
-    };
-    var _closure1_slot14 = var1;
     var1 = function useMemoizedUserIdAndWishlistId(arg1) {
         var7 = arg1;
         var _closure2_slot0 = var7;
@@ -904,7 +880,7 @@ case 80:
         var1['defaultWishlistId'] = var2;
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -966,7 +942,7 @@ case 80:
     var7 = var7 instanceof Object ? var7 : var8;
     var4['data'] = var7;
     var _closure1_slot10 = var4;
-    var4 = 16;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -990,25 +966,28 @@ case 70:
             var1 = var1.WishlistFetchSource;
             var5 = var1.USER_PROFILE;
 case 82:
-            var2 = _closure1_slot15;
-            var2 = var2.bind(var6)(var8);
-            var9 = var2.userIdsAndWishlistIds;
-            var3 = var2.defaultWishlistId;
+            var1 = _closure1_slot14;
+            var1 = var1.bind(var6)(var8);
+            var2 = var1.userIdsAndWishlistIds;
+            var3 = var1.defaultWishlistId;
             var4 = _closure1_slot13;
-            var2 = {};
-            var2['userIdsAndWishlistIds'] = var9;
-            var9 = _closure1_slot14;
-            var9 = var9.bind(var6)(var8);
-            var2['applicationIds'] = var9;
-            var2['numItems'] = var7;
-            var2['source'] = var5;
-            var2 = var4.bind(var6)(var2);
-            var9 = var2.wishlistAndRecommendations;
-            var5 = var2.skusToUserAndReason;
-            var4 = var2.status;
+            var1 = {};
+            var1['userIdsAndWishlistIds'] = var2;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 15;
+            var9 = 12;
+            var9 = var10[var9];
+            var11 = var2.bind(var6)(var9);
+            var9 = var11.useWishlistApplicationIds;
+            var9 = var9.bind(var11)(var8);
+            var1['applicationIds'] = var9;
+            var1['numItems'] = var7;
+            var1['source'] = var5;
+            var1 = var4.bind(var6)(var1);
+            var9 = var1.wishlistAndRecommendations;
+            var5 = var1.skusToUserAndReason;
+            var4 = var1.status;
+            var1 = 13;
             var1 = var10[var1];
             var6 = var2.bind(var6)(var1);
             var2 = var6.useWishlistSkuFilter;
@@ -1090,7 +1069,7 @@ case 37:
                     var1 = function(arg1) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 14;
+                        var1 = 11;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -1199,7 +1178,7 @@ case 33:
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.userId;
+            var10 = var1.userId;
             var8 = var1.numItems;
             var _closure2_slot0 = var8;
             var6 = var1.source;
@@ -1217,12 +1196,17 @@ case 79:
             var _closure2_slot1 = var3;
             var2 = _closure1_slot13;
             var1 = {};
-            var7 = _closure1_slot15;
-            var7 = var7.bind(var3)(var9);
+            var7 = _closure1_slot14;
+            var7 = var7.bind(var3)(var10);
             var7 = var7.userIdsAndWishlistIds;
             var1['userIdsAndWishlistIds'] = var7;
-            var7 = _closure1_slot14;
-            var7 = var7.bind(var3)(var9);
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var7 = 12;
+            var7 = var11[var7];
+            var9 = var9.bind(var3)(var7);
+            var7 = var9.useWishlistApplicationIds;
+            var7 = var7.bind(var9)(var10);
             var1['applicationIds'] = var7;
             var1['numItems'] = var8;
             var1['source'] = var6;

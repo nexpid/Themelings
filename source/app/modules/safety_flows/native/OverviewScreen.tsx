@@ -246,7 +246,7 @@ case 8:
             var17 = _closure1_slot1;
             var24 = var14[var18];
             var24 = var17.bind(var4)(var24);
-            var24 = var24.0TnUrG;
+            var24 = var24["0TnUrG"];
             var24 = var25.bind(var26)(var24);
             var22['children'] = var24;
             var22 = var12.bind(var4)(var23, var22);

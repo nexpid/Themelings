@@ -228,7 +228,7 @@ case 32:
                 var3 = var9[var3];
                 var3 = var8.bind(var4)(var3);
                 var3 = var3.t;
-                var4 = var3.08L2TG;
+                var4 = var3["08L2TG"];
                 var3 = {};
                 var3['path'] = var7;
                 var3 = var5.bind(var6)(var4, var3);
@@ -307,7 +307,7 @@ case 21:
                 var3 = var8[var3];
                 var3 = var7.bind(var6)(var3);
                 var3 = var3.t;
-                var3 = var3.9CNxFJ;
+                var3 = var3["9CNxFJ"];
                 var3 = var4.bind(var5)(var3);
                 return var3;
 case 19:
@@ -373,7 +373,7 @@ case 15:
                 var1 = var8[var1];
                 var1 = var7.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1.2DR5dl;
+                var2 = var1["2DR5dl"];
                 var1 = {};
                 var1['required'] = var6;
                 var1['available'] = var5;
@@ -391,7 +391,7 @@ case 13:
                 var1 = var6[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var1 = var1.5NMPSS;
+                var1 = var1["5NMPSS"];
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }

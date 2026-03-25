@@ -772,7 +772,7 @@ case 0:
             var7 = var10[var8];
             var7 = var9.bind(var5)(var7);
             var7 = var7.t;
-            var12 = var7.7kFjeK;
+            var12 = var7["7kFjeK"];
             var7 = {};
             var20 = var11.name;
             var7['productName'] = var20;

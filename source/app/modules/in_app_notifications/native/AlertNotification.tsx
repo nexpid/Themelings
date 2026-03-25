@@ -122,7 +122,7 @@ case 8:
             var9 = var10[var9];
             var9 = var13.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.2IY4YN;
+            var9 = var9["2IY4YN"];
             var9 = var11.bind(var12)(var9);
             var2['alertLabel'] = var9;
             var9 = _closure1_slot1;

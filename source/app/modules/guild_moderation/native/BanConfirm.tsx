@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.4obaMS;
+        var1 = var1["4obaMS"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.8WfJZ8;
+        var1 = var1["8WfJZ8"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -569,7 +569,7 @@ case 8:
             var29 = var23[var14];
             var29 = var26.bind(var5)(var29);
             var29 = var29.t;
-            var30 = var29.8jV9fx;
+            var30 = var29["8jV9fx"];
             var29 = {};
             var33 = var23[var21];
             var34 = var24.bind(var5)(var33);
@@ -592,7 +592,7 @@ case 8:
             var29 = var23[var14];
             var29 = var26.bind(var5)(var29);
             var29 = var29.t;
-            var29 = var29.8l3W0y;
+            var29 = var29["8l3W0y"];
             var29 = var30.bind(var31)(var29);
             var13['title'] = var29;
             var30 = _closure1_slot13;
@@ -688,7 +688,7 @@ case 8:
             var23 = var23[var14];
             var23 = var26.bind(var5)(var23);
             var23 = var23.t;
-            var23 = var23.5MBJ5M;
+            var23 = var23["5MBJ5M"];
             var23 = var24.bind(var25)(var23);
             var17['text'] = var23;
             var17['onPress'] = var22;
@@ -718,7 +718,7 @@ case 10:
             var14 = var18[var14];
             var14 = var15.bind(var5)(var14);
             var14 = var14.t;
-            var15 = var14./K6eer;
+            var15 = var14["/K6eer"];
             var14 = {};
             var19 = _closure1_slot1;
             var18 = var18[var21];

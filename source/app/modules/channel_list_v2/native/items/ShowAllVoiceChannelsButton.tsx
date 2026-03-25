@@ -159,7 +159,7 @@ case 9:
             var7 = var9.bind(var10)(var7);
             _fun0001_ip = 10; continue _fun0001;
 case 8:
-            var8 = var8./eB9Bg;
+            var8 = var8["/eB9Bg"];
             var7 = var9.bind(var10)(var8);
 case 10:
             var1['text'] = var7;

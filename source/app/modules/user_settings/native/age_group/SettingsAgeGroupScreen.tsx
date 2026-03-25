@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var12.format;
         var9 = var14[var9];
         var9 = var10.bind(var4)(var9);
-        var10 = var9.1DN29p;
+        var10 = var9["1DN29p"];
         var9 = {};
         var9['handleOnHelpUrlHook'] = var13;
         var9 = var11.bind(var12)(var10, var9);
@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 11;
             var5 = var11[var5];
             var5 = var9.bind(var10)(var5);
-            var5 = var5.5Mi5TE;
+            var5 = var5["5Mi5TE"];
             var5 = var7.bind(var8)(var5);
             var6['label'] = var5;
             var7 = _closure1_slot5;

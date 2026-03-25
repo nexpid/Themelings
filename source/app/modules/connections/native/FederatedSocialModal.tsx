@@ -286,7 +286,7 @@ case 23: // catch_target0 // catch_target1
                                         var4 = var9[var4];
                                         var4 = var8.bind(var2)(var4);
                                         var4 = var4.t;
-                                        var4 = var4.7wbPNl;
+                                        var4 = var4["7wbPNl"];
                                         var4 = var6.bind(var7)(var4);
                                         var4 = var5.bind(var2)(var4);
                                         var4 = _closure4_slot6;
@@ -352,7 +352,7 @@ case 10:
                         var21 = var14[var10];
                         var21 = var13.bind(var4)(var21);
                         var21 = var21.t;
-                        var22 = var21.7TByKh;
+                        var22 = var21["7TByKh"];
                         var21 = {};
                         var21['serviceName'] = var25;
                         var21 = var23.bind(var24)(var22, var21);

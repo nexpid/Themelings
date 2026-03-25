@@ -593,7 +593,7 @@ case 27:
                 var21 = var24.bind(var25)(var23, var21);
                 _fun0004_ip = 28; continue _fun0004;
 case 26:
-                var23 = var22.6plpZi;
+                var23 = var22["6plpZi"];
                 var22 = {};
                 var27 = var27.name;
                 var22['applicationName'] = var27;

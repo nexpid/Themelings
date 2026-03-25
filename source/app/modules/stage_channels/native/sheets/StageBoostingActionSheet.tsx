@@ -208,11 +208,11 @@ case 15:
             var2 = var2.t;
             if(var7) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var8 = var2.7FHbPG;
+            var8 = var2["7FHbPG"];
             var11 = var3.bind(var5)(var8);
             _fun0001_ip = 22; continue _fun0001;
 case 20:
-            var2 = var2.8/uDSF;
+            var2 = var2["8/uDSF"];
             var11 = var3.bind(var5)(var2);
 case 22:
             _fun0001_ip = 23; continue _fun0001;
@@ -229,7 +229,7 @@ case 19:
             var3 = var2.t;
             if(var7) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var2 = var3.7FHbPG;
+            var2 = var3["7FHbPG"];
             var2 = var5.bind(var8)(var2);
             _fun0001_ip = 26; continue _fun0001;
 case 24:

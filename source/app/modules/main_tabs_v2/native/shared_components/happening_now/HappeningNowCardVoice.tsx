@@ -183,7 +183,7 @@ case 17:
             var3 = var13[var3];
             var3 = var4.bind(var12)(var3);
             var3 = var3.t;
-            var4 = var3.4SM/RX;
+            var4 = var3["4SM/RX"];
             var3 = {};
             var10 = _closure1_slot1;
             var9 = 21;

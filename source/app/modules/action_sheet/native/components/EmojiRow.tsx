@@ -339,7 +339,7 @@ case 0:
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
             var8 = var8.t;
-            var9 = var8./iYSo6;
+            var9 = var8["/iYSo6"];
             var8 = {};
             var12 = null;
             var17 = var12 == var16;

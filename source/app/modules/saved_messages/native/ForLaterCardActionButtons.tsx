@@ -188,7 +188,7 @@ case 5:
             var9 = var8[var2];
             var9 = var3.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.+TSRGD;
+            var9 = var9["+TSRGD"];
             var9 = var13.bind(var14)(var9);
             var1['label'] = var9;
             var9 = 10;
@@ -276,7 +276,7 @@ case 4:
             var13 = var9[var3];
             var13 = var8.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.+TSRGD;
+            var13 = var13["+TSRGD"];
             var13 = var14.bind(var15)(var13);
             var2['label'] = var13;
             var13 = 10;

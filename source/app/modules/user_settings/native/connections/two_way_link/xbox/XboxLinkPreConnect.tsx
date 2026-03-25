@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var9[var5];
         var5 = var8.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.7tXu0i;
+        var5 = var5["7tXu0i"];
         var5 = var6.bind(var7)(var5);
         var1['body'] = var5;
         var1 = var3.bind(var4)(var2, var1);

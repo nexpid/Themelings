@@ -469,7 +469,7 @@ case 53:
             var18 = var22[var18];
             var18 = var19.bind(var4)(var18);
             var18 = var18.t;
-            var19 = var18.2JA2GH;
+            var19 = var18["2JA2GH"];
             var18 = {};
             var22 = _closure1_slot13;
             var22 = var22.ACCOUNT_AGE;
@@ -591,7 +591,7 @@ case 47:
             var17 = var20[var16];
             var17 = var19.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.2dThMM;
+            var17 = var17["2dThMM"];
             var17 = var18.bind(var21)(var17);
             var2['message'] = var17;
             var17 = var20[var16];
@@ -601,7 +601,7 @@ case 47:
             var16 = var20[var16];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.50gfOv;
+            var16 = var16["50gfOv"];
             var16 = var17.bind(var18)(var16);
             var2['buttonPrimaryText'] = var16;
             var16 = function buttonPrimaryOnPress() {
@@ -740,7 +740,7 @@ case 34:
             var13 = var16[var12];
             var13 = var15.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.9T6N5/;
+            var13 = var13["9T6N5/"];
             var13 = var14.bind(var17)(var13);
             var2['message'] = var13;
             var13 = var16[var12];

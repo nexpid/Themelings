@@ -44,7 +44,7 @@ case 0:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.3+LO1w;
+            var8 = var8["3+LO1w"];
             var8 = var9.bind(var10)(var8);
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -469,7 +469,7 @@ case 11:
                 var15 = var12[var15];
                 var15 = var10.bind(var4)(var15);
                 var15 = var15.t;
-                var15 = var15.112vVE;
+                var15 = var15["112vVE"];
                 var15 = var16.bind(var17)(var15);
                 var11['children'] = var15;
                 var11 = var14.bind(var4)(var13, var11);

@@ -485,7 +485,7 @@ case 38:
                 var3 = var14[var3];
                 var3 = var12.bind(var13)(var3);
                 var3 = var3.t;
-                var3 = var3.3s/vDN;
+                var3 = var3["3s/vDN"];
                 var3 = var10.bind(var11)(var3);
                 var1['message'] = var3;
                 _fun0002_ip = 37; continue _fun0002;
@@ -500,7 +500,7 @@ case 33:
                 var3 = var14[var3];
                 var3 = var12.bind(var13)(var3);
                 var3 = var3.t;
-                var3 = var3.5mlOCW;
+                var3 = var3["5mlOCW"];
                 var3 = var10.bind(var11)(var3);
                 var1['message'] = var3;
                 _fun0002_ip = 37; continue _fun0002;
@@ -635,7 +635,7 @@ case 15:
                 var3 = var14[var3];
                 var3 = var12.bind(var13)(var3);
                 var3 = var3.t;
-                var3 = var3.3jprCb;
+                var3 = var3["3jprCb"];
                 var3 = var10.bind(var11)(var3);
                 var1['message'] = var3;
                 _fun0002_ip = 37; continue _fun0002;
@@ -680,7 +680,7 @@ case 9:
                 var3 = var14[var3];
                 var3 = var12.bind(var13)(var3);
                 var3 = var3.t;
-                var3 = var3.+4Empk;
+                var3 = var3["+4Empk"];
                 var3 = var10.bind(var11)(var3);
                 var1['message'] = var3;
 case 37:

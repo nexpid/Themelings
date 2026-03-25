@@ -81,7 +81,7 @@ case 8:
             var1 = var1[var7];
             var1 = var4.bind(var6)(var1);
             var1 = var1.t;
-            var9 = var1.47E5Rz;
+            var9 = var1["47E5Rz"];
             var1 = var3.isForumPost;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 10; continue _fun0001 }
@@ -95,7 +95,7 @@ case 13:
             var1 = var1[var7];
             var1 = var3.bind(var6)(var1);
             var1 = var1.t;
-            var9 = var1.2YaiQ1;
+            var9 = var1["2YaiQ1"];
             _fun0001_ip = 12; continue _fun0001;
 case 10:
             var3 = _closure1_slot0;

@@ -59,7 +59,7 @@ case 7:
             var1 = var13[var1];
             var1 = var2.bind(var9)(var1);
             var1 = var1.t;
-            var2 = var1.+6V2sd;
+            var2 = var1["+6V2sd"];
             var1 = {};
             var1['username'] = var12;
             var1['usernameHook'] = var8;
@@ -238,7 +238,7 @@ case 9:
             var2 = var11[var2];
             var2 = var3.bind(var10)(var2);
             var2 = var2.t;
-            var3 = var2.8r+Z+I;
+            var3 = var2["8r+Z+I"];
             var2 = {};
             var2['username'] = var13;
             var12 = var12.name;

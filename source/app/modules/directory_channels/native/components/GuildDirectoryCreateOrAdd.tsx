@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var11[var13];
         var14 = var9.bind(var4)(var14);
         var14 = var14.t;
-        var15 = var14.9SKJdF;
+        var15 = var14["9SKJdF"];
         var14 = {};
         var14['guildName'] = var18;
         var14 = var16.bind(var17)(var15, var14);

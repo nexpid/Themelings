@@ -939,7 +939,7 @@ case 84:
                     var8 = var10.bind(var12)(var8);
                     _fun0008_ip = 68; continue _fun0008;
 case 83:
-                    var9 = var9.0yAqqN;
+                    var9 = var9["0yAqqN"];
                     var8 = var10.bind(var12)(var9);
 case 68:
                     var3['title'] = var8;

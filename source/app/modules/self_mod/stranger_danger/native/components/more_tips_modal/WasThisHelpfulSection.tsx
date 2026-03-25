@@ -379,7 +379,7 @@ case 11:
             var10 = var22[var12];
             var10 = var18.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.2GrOCN;
+            var10 = var10["2GrOCN"];
             var10 = var16.bind(var17)(var10);
             var7['accessibilityLabel'] = var10;
             var18 = _closure1_slot11;

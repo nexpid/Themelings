@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var14[var12];
         var3 = var11.bind(var4)(var3);
         var3 = var3.t;
-        var3 = var3.3SUJLd;
+        var3 = var3["3SUJLd"];
         var3 = var5.bind(var7)(var3);
         var2['description'] = var3;
         var15[1] = var2;

@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -1525,7 +1525,7 @@ case 234:
             var9 = var18[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            var10 = var9.9WrecI;
+            var10 = var9["9WrecI"];
             var9 = {};
             var9['question'] = var17;
             var6 = var12.bind(var13)(var10, var9);
@@ -1647,15 +1647,15 @@ case 242:
             var12 = var19[var10];
             var12 = var18.bind(var4)(var12);
             var12 = var12.t;
-            var23 = var12./TD0la;
+            var23 = var12["/TD0la"];
             var12 = var19[var10];
             var12 = var18.bind(var4)(var12);
             var12 = var12.t;
-            var22 = var12./TD0la;
+            var22 = var12["/TD0la"];
             var10 = var19[var10];
             var10 = var18.bind(var4)(var10);
             var10 = var10.t;
-            var21 = var10./TD0la;
+            var21 = var10["/TD0la"];
             var25 = undefined;
             var24 = var8;
             var12 = var25[var17](var24, var23, var22, var21, var20);
@@ -1712,7 +1712,7 @@ case 200:
             var9 = var14[var9];
             var9 = var13.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.9ddYKt;
+            var9 = var9["9ddYKt"];
             var6 = var10.bind(var12)(var9);
             var5 = var3;
 case 221:
@@ -1807,7 +1807,7 @@ case 266:
             var13 = var20[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var16 = var13.51OkwL;
+            var16 = var13["51OkwL"];
             var13 = {};
             var13['filename'] = var19;
             var3 = var17.bind(var18)(var16, var13);

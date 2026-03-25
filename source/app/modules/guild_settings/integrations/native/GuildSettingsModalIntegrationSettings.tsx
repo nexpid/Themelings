@@ -110,7 +110,7 @@ case 7:
             var8 = var11[var8];
             var8 = var7.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.+Josox;
+            var8 = var8["+Josox"];
             var8 = var9.bind(var10)(var8);
             var1['accessibilityLabel'] = var8;
             var1['onPress'] = var6;
@@ -161,7 +161,7 @@ case 8:
         var6 = var14[var10];
         var6 = var13.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.7r4OKg;
+        var6 = var6["7r4OKg"];
         var6 = var7.bind(var11)(var6);
         var1['helperText'] = var6;
         var7 = _closure1_slot12;
@@ -530,7 +530,7 @@ case 17:
                 var1 = var8[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var31 = var1.7lNtce;
+                var31 = var1["7lNtce"];
                 var27 = var3;
                 var14 = undefined;
 case 16:
@@ -735,7 +735,7 @@ case 26:
                 var27 = var34[var19];
                 var27 = var28.bind(var4)(var27);
                 var27 = var27.t;
-                var28 = var27.+42M+u;
+                var28 = var27["+42M+u"];
                 var27 = {};
                 var33 = _closure1_slot1;
                 var32 = 27;
@@ -801,7 +801,7 @@ case 28:
                 var27 = var9[var19];
                 var27 = var7.bind(var4)(var27);
                 var27 = var27.t;
-                var27 = var27.6kpw4i;
+                var27 = var27["6kpw4i"];
                 var27 = var28.bind(var29)(var27);
                 var22['label'] = var27;
                 var24 = var25.bind(var4)(var24, var22);

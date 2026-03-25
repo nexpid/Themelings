@@ -310,7 +310,7 @@ case 10:
                     var5 = var7.bind(var8)(var5);
                     _fun0003_ip = 11; continue _fun0003;
 case 9:
-                    var6 = var6.5/NS74;
+                    var6 = var6["5/NS74"];
                     var5 = var7.bind(var8)(var6);
 case 11:
                     var1['text'] = var5;

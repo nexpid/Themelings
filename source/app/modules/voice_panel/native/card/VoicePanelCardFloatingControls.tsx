@@ -392,7 +392,7 @@ case 26:
             var1 = var7[var1];
             var1 = var2.bind(var6)(var1);
             var1 = var1.t;
-            var2 = var1.9hDjai;
+            var2 = var1["9hDjai"];
             var1 = {};
             var1['username'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -1324,7 +1324,7 @@ case 6:
             var2 = var10[var2];
             var2 = var9.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.77cRN4;
+            var2 = var2["77cRN4"];
             var5 = var3.bind(var5)(var2);
             _fun0012_ip = 85; continue _fun0012;
 case 84:
@@ -1355,7 +1355,7 @@ case 82:
             var2 = var11[var2];
             var2 = var10.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.3ejJer;
+            var2 = var2["3ejJer"];
             var5 = var3.bind(var9)(var2);
 case 86:
             var3 = _closure1_slot17;

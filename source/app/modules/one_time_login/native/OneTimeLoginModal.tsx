@@ -322,7 +322,7 @@ case 2:
             var7 = var15[var9];
             var7 = var14.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.4fnE/J;
+            var7 = var7["4fnE/J"];
             var7 = var8.bind(var11)(var7);
             var2['content'] = var7;
             var7 = 21;
@@ -343,7 +343,7 @@ case 2:
             var9 = var15[var9];
             var9 = var14.bind(var1)(var9);
             var9 = var9.t;
-            var9 = var9.9vN0pz;
+            var9 = var9["9vN0pz"];
             var9 = var12.bind(var13)(var9);
             var10['text'] = var9;
             var9 = 'confirm';
@@ -457,7 +457,7 @@ case 6:
                 var10 = var10[var16];
                 var10 = var15.bind(var1)(var10);
                 var10 = var10.t;
-                var10 = var10.3PatSz;
+                var10 = var10["3PatSz"];
                 var10 = var13.bind(var14)(var10);
                 var11['text'] = var10;
                 var10 = 'confirm';

@@ -317,7 +317,7 @@ case 17:
                 var1 = var9[var1];
                 var1 = var7.bind(var8)(var1);
                 var1 = var1.t;
-                var1 = var1.46Ra1b;
+                var1 = var1["46Ra1b"];
                 var1 = var5.bind(var6)(var1);
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
@@ -354,7 +354,7 @@ case 20:
             var1 = var1.t;
             if(var2) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-            var21 = var1.1MTnqY;
+            var21 = var1["1MTnqY"];
             _fun0003_ip = 23; continue _fun0003;
 case 21:
             var21 = var1.YjJTtH;
@@ -478,7 +478,7 @@ case 24:
                 var1 = var9[var1];
                 var1 = var7.bind(var8)(var1);
                 var1 = var1.t;
-                var1 = var1.46Ra1b;
+                var1 = var1["46Ra1b"];
                 var1 = var5.bind(var6)(var1);
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
@@ -536,7 +536,7 @@ case 13:
             var5 = var2[var15];
             var5 = var17.bind(var10)(var5);
             var5 = var5.t;
-            var5 = var5.46Ra1b;
+            var5 = var5["46Ra1b"];
             var5 = var19.bind(var20)(var5);
             var5 = var12.bind(var13)(var6, var5, var18);
             var1[2] = var5;
@@ -593,7 +593,7 @@ case 29:
             var17 = var17[var15];
             var17 = var18.bind(var10)(var17);
             var17 = var17.t;
-            var18 = var17.4Z9Fbb;
+            var18 = var17["4Z9Fbb"];
             var17 = {};
             var21 = function setUpAutomod() {
                 var4 = _closure1_slot1;
@@ -684,7 +684,7 @@ case 11:
             var5 = var2[var13];
             var5 = var15.bind(var10)(var5);
             var5 = var5.t;
-            var5 = var5.46Ra1b;
+            var5 = var5["46Ra1b"];
             var5 = var17.bind(var18)(var5);
             var5 = var11.bind(var12)(var6, var5);
             var1[2] = var5;
@@ -713,7 +713,7 @@ case 31:
             var14 = var14[var13];
             var14 = var15.bind(var10)(var14);
             var14 = var14.t;
-            var15 = var14.4Z9Fbb;
+            var15 = var14["4Z9Fbb"];
             var14 = {};
             var19 = function setUpAutomod() {
                 var4 = _closure1_slot1;
@@ -829,7 +829,7 @@ case 9:
             var12 = var11[var2];
             var12 = var9.bind(var10)(var12);
             var12 = var12.t;
-            var12 = var12.46Ra1b;
+            var12 = var12["46Ra1b"];
             var12 = var15.bind(var16)(var12);
             var12 = var13.bind(var14)(var6, var12);
             var1[3] = var12;

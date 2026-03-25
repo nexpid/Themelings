@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 5;
     var14 = var10[var12];
     var14 = var13.bind(var1)(var14);
-    var14 = var14.2yLvkS;
+    var14 = var14["2yLvkS"];
     var8['title'] = var14;
     var14 = var10[var12];
     var14 = var13.bind(var1)(var14);

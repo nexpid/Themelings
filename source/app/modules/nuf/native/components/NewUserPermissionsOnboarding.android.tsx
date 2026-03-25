@@ -207,7 +207,7 @@ case 4:
             var26 = var26[var29];
             var26 = var30.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.2nYlT2;
+            var26 = var26["2nYlT2"];
             var26 = var27.bind(var28)(var26);
             var19['text'] = var26;
             var19['onPress'] = var25;
@@ -240,7 +240,7 @@ case 7:
             var25 = var25[var29];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.5Wxrcd;
+            var25 = var25["5Wxrcd"];
             var25 = var26.bind(var27)(var25);
             var21['text'] = var25;
             var21['onPress'] = var24;

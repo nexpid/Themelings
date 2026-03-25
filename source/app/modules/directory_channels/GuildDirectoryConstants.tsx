@@ -171,7 +171,7 @@ case 3:
             var3 = var8[var3];
             var3 = var7.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.0Bg9La;
+            var3 = var3["0Bg9La"];
             var3 = var4.bind(var5)(var3);
             var2['label'] = var3;
             var1[3] = var2;
@@ -542,7 +542,7 @@ case 4:
         var14 = var13[var8];
         var14 = var12.bind(var11)(var14);
         var14 = var14.t;
-        var14 = var14.3eM+Lh;
+        var14 = var14["3eM+Lh"];
         var14 = var15.bind(var16)(var14);
         var10['name'] = var14;
         var14 = var7.GUILD_TEXT;
@@ -720,7 +720,7 @@ case 4:
         var14 = var13[var8];
         var14 = var12.bind(var11)(var14);
         var14 = var14.t;
-        var14 = var14.710tNh;
+        var14 = var14["710tNh"];
         var14 = var15.bind(var16)(var14);
         var10['name'] = var14;
         var14 = var7.GUILD_TEXT;
@@ -1018,7 +1018,7 @@ case 4:
         var6 = var13[var8];
         var6 = var12.bind(var11)(var6);
         var6 = var6.t;
-        var6 = var6.9kly4U;
+        var6 = var6["9kly4U"];
         var6 = var9.bind(var10)(var6);
         var2['label'] = var6;
         var9 = {'id': '00', 'parent_id': null};

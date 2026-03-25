@@ -628,7 +628,7 @@ case 44:
             var25 = var25[var29];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.+1H47t;
+            var25 = var25["+1H47t"];
             var25 = var26.bind(var27)(var25);
             var19['accessibilityLabel'] = var25;
             if(var23) { _fun0001_ip = 45; continue _fun0001 }

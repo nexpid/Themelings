@@ -70,7 +70,7 @@ case 3:
             var5 = var13.ZPm8jN;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var5 = var13.8sKSjm;
+            var5 = var13["8sKSjm"];
 case 4:
             var5 = var7.bind(var9)(var5);
             var1['title'] = var5;
@@ -90,7 +90,7 @@ case 6:
             var6 = var5.hL+Znb;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var6 = var5.6UGfnx;
+            var6 = var5["6UGfnx"];
 case 7:
             var5 = {};
             var5['user'] = var12;

@@ -101,7 +101,7 @@ case 2:
             var1 = var10[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.4cAsqe;
+            var1 = var1["4cAsqe"];
             var9 = var2.bind(var3)(var1);
 case 4:
             var11 = _closure1_slot1;

@@ -157,7 +157,7 @@ case 6:
             var3 = var16[var3];
             var3 = var15.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.5iLvSx;
+            var3 = var3["5iLvSx"];
             var8 = var10.bind(var12)(var3);
             var5 = function A() {
                 var4 = _closure1_slot1;
@@ -190,7 +190,7 @@ case 6:
                 var5 = var9[var5];
                 var5 = var8.bind(var1)(var5);
                 var5 = var5.t;
-                var5 = var5.13tjTU;
+                var5 = var5["13tjTU"];
                 var5 = var6.bind(var7)(var5);
                 var2['subtitleText'] = var5;
                 var2 = var3.bind(var4)(var2);

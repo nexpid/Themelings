@@ -1245,7 +1245,7 @@ case 91:
             var15 = var20[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15.28Ql27;
+            var16 = var15["28Ql27"];
             var15 = {};
             var19 = var19.config;
             var19 = var19.messages;

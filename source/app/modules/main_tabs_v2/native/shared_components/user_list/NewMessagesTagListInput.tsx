@@ -194,7 +194,7 @@ case 11:
                 var20 = var22.bind(var23)(var20);
                 _fun0002_ip = 12; continue _fun0002;
 case 10:
-                var21 = var21.4wv+DE;
+                var21 = var21["4wv+DE"];
                 var20 = var22.bind(var23)(var21);
 case 12:
                 var15['accessibilityLabel'] = var20;

@@ -53,7 +53,7 @@ case 3:
             var1 = var6.bind(var9)(var1);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var5 = var5.0X5Zbq;
+            var5 = var5["0X5Zbq"];
             var1 = var6.bind(var9)(var5);
 case 4:
             var2['label'] = var1;
@@ -128,7 +128,7 @@ case 10:
             var6 = var5.t;
             if(var4) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var5 = var6.+NluQm;
+            var5 = var6["+NluQm"];
             var5 = var9.bind(var10)(var5);
             _fun0001_ip = 13; continue _fun0001;
 case 11:
@@ -220,7 +220,7 @@ case 19:
             var5 = var3[var8];
             var5 = var6.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.++JLL0;
+            var5 = var5["++JLL0"];
             var5 = var9.bind(var10)(var5);
             var2['label'] = var5;
             var1[7] = var2;

@@ -94,7 +94,7 @@ case 2:
                 var7 = var12[var5];
                 var7 = var11.bind(var10)(var7);
                 var7 = var7.t;
-                var7 = var7.6gUTsS;
+                var7 = var7["6gUTsS"];
                 var7 = var9.bind(var13)(var7);
                 var1['label'] = var7;
                 var7 = var3.GIF;

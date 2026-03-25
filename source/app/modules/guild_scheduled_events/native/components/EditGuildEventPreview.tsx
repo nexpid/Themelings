@@ -415,7 +415,7 @@ case 0:
                 var2 = var2.t;
                 if(var7) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
-                var7 = var2.60lJ0C;
+                var7 = var2["60lJ0C"];
                 var18 = var3.bind(var5)(var7);
                 _fun0004_ip = 4; continue _fun0004;
 case 19:

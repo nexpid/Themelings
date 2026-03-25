@@ -1069,7 +1069,7 @@ case 66:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.9GpDYK;
+        var1 = var1["9GpDYK"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1188,7 +1188,7 @@ case 66:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1./po5rJ;
+        var1 = var1["/po5rJ"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1388,7 +1388,7 @@ case 36:
             var3 = var9[var3];
             var3 = var8.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3.7BFCRR;
+            var4 = var3["7BFCRR"];
             var3 = {};
             var3['color'] = var7;
             var2 = var5.bind(var6)(var4, var3);

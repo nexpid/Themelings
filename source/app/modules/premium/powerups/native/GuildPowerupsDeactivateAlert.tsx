@@ -148,7 +148,7 @@ case 0:
             var9 = var11.formatToPlainString;
             var7 = var5[var19];
             var7 = var8.bind(var4)(var7);
-            var8 = var7.7o0K+2;
+            var8 = var7["7o0K+2"];
             var7 = {};
             var12 = var12.title;
             var7['perk'] = var12;

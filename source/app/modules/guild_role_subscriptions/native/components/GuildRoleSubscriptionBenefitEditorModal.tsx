@@ -454,7 +454,7 @@ case 47:
             var1 = var15[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.0rVUnI;
+            var1 = var1["0rVUnI"];
             var22 = var2.bind(var3)(var1);
             _fun0001_ip = 48; continue _fun0001;
 case 46:
@@ -705,7 +705,7 @@ case 57:
             var23 = var21[var23];
             var23 = var15.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.74JctW;
+            var23 = var23["74JctW"];
             var23 = var24.bind(var25)(var23);
             var13['children'] = var23;
             var13 = var22.bind(var4)(var16, var13);

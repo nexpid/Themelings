@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var2];
         var1 = var6.bind(var5)(var1);
         var1 = var1.t;
-        var1 = var1.9XlQ9W;
+        var1 = var1["9XlQ9W"];
         var3 = var3.bind(var4)(var1);
         var1 = new Array(4);
         var1[0] = var3;

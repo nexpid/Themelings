@@ -93,7 +93,7 @@ case 5:
             var5 = var10[var5];
             var5 = var9.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.5Wxrcd;
+            var5 = var5["5Wxrcd"];
             var6 = var7.bind(var8)(var5);
 case 4:
             var5 = 'label';

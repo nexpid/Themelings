@@ -291,7 +291,7 @@ case 26:
             var12 = var2.bind(var3)(var5);
             _fun0002_ip = 27; continue _fun0002;
 case 25:
-            var1 = var1.6eNTWe;
+            var1 = var1["6eNTWe"];
             var12 = var2.bind(var3)(var1);
 case 27:
             var3 = _closure1_slot7;

@@ -680,7 +680,7 @@ case 51:
             var23 = var23[var21];
             var23 = var26.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.0cCDKP;
+            var23 = var23["0cCDKP"];
             var23 = var24.bind(var25)(var23);
             var14['text'] = var23;
             var14['onPress'] = var22;

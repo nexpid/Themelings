@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var15[var11];
         var18 = var14.bind(var4)(var18);
         var18 = var18.t;
-        var18 = var18.3S8gA7;
+        var18 = var18["3S8gA7"];
         var18 = var20.bind(var21)(var18);
         var5['children'] = var18;
         var8 = var17.bind(var4)(var8, var5);
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var24 = var15[var11];
         var24 = var14.bind(var4)(var24);
         var24 = var24.t;
-        var24 = var24.0ng4rB;
+        var24 = var24["0ng4rB"];
         var24 = var25.bind(var26)(var24);
         var21['children'] = var24;
         var21 = var23.bind(var4)(var22, var21);
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = var15[var11];
         var17 = var14.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.74JctW;
+        var17 = var17["74JctW"];
         var17 = var18.bind(var19)(var17);
         var6['children'] = var17;
         var6 = var8.bind(var4)(var7, var6);
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.3YHwoG;
+        var11 = var11["3YHwoG"];
         var11 = var12.bind(var13)(var11);
         var6['placeholder'] = var11;
         var6['onChange'] = var10;

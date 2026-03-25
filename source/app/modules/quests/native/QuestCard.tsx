@@ -1348,7 +1348,7 @@ case 51:
                     var6 = var11[var6];
                     var6 = var10.bind(var7)(var6);
                     var6 = var6.t;
-                    var7 = var6.14o6QY;
+                    var7 = var6["14o6QY"];
                     var6 = {};
                     var10 = _closure2_slot33;
                     var6['expiryDate'] = var10;
@@ -1589,7 +1589,7 @@ case 110:
                     var4 = var4.t;
                     if(var1) { _fun0013_ip = 76; continue _fun0013 }
 case 111:
-                    var5 = var4.0IUT4Y;
+                    var5 = var4["0IUT4Y"];
                     var1 = {};
                     var10 = function rewardWithArticleHook() {
                         var1 = _closure2_slot12;
@@ -1660,7 +1660,7 @@ case 82:
                     var2 = var8[var2];
                     var2 = var3.bind(var7)(var2);
                     var2 = var2.t;
-                    var3 = var2.8Op4c4;
+                    var3 = var2["8Op4c4"];
                     var2 = {};
                     var6 = function balanceHook() {
                         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
@@ -2018,7 +2018,7 @@ case 130:
             var43 = var43[var22];
             var43 = var44.bind(var5)(var43);
             var43 = var43.t;
-            var44 = var43.7D8r4F;
+            var44 = var43["7D8r4F"];
             var43 = {};
             var43['expiryDate'] = var50;
             var43 = var48.bind(var49)(var44, var43);

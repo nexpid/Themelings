@@ -613,7 +613,7 @@ case 25:
                     var5 = var12[var5];
                     var5 = var10.bind(var6)(var5);
                     var5 = var5.t;
-                    var6 = var5.+lFj35;
+                    var6 = var5["+lFj35"];
                     var5 = {};
                     var9 = _closure2_slot6;
                     var5['guildName'] = var9;
@@ -655,13 +655,13 @@ case 23:
                     var11 = var11.t;
                     if(var6) { _fun0005_ip = 29; continue _fun0005 }
 case 30:
-                    var6 = var11./XSoJ+;
+                    var6 = var11["/XSoJ+"];
                     var6 = var12.bind(var13)(var6);
                     var10['children'] = var6;
                     var6 = var10;
                     _fun0005_ip = 31; continue _fun0005;
 case 29:
-                    var11 = var11.3BdvgI;
+                    var11 = var11["3BdvgI"];
                     var11 = var12.bind(var13)(var11);
                     var10['children'] = var11;
                     var6 = var10;

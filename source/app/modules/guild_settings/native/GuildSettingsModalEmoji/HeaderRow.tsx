@@ -271,7 +271,7 @@ case 23:
                                     var6 = var10[var6];
                                     var6 = var9.bind(var1)(var6);
                                     var6 = var6.t;
-                                    var6 = var6.6v5dP/;
+                                    var6 = var6["6v5dP/"];
                                     var4 = var7.bind(var8)(var6);
 case 27:
                                     _fun0003_ip = 28; continue _fun0003;
@@ -401,7 +401,7 @@ case 4:
             var1 = var1[var24];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.8Vr5Qd;
+            var1 = var1["8Vr5Qd"];
             var2 = var2.bind(var5)(var1);
             var1 = 4;
             var1 = var3.bind(var4)(var2, var1);

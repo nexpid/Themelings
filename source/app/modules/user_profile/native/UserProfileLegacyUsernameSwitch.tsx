@@ -68,7 +68,7 @@ case 2:
             var8 = var11[var6];
             var8 = var7.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.3cWDuO;
+            var8 = var8["3cWDuO"];
             var8 = var9.bind(var12)(var8);
             var1['label'] = var8;
             var8 = var11[var6];

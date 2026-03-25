@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.2jxGer;
+        var1 = var1["2jxGer"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var17[var13];
         var7 = var16.bind(var1)(var7);
         var7 = var7.t;
-        var7 = var7.2jxGer;
+        var7 = var7["2jxGer"];
         var7 = var8.bind(var9)(var7);
         var2['title'] = var7;
         var7 = var17[var13];
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var17[var13];
         var15 = var16.bind(var1)(var15);
         var15 = var15.t;
-        var15 = var15.2jxGer;
+        var15 = var15["2jxGer"];
         var15 = var18.bind(var19)(var15);
         var10['text'] = var15;
         var14 = _closure1_slot6;
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var17[var13];
         var13 = var16.bind(var1)(var13);
         var13 = var13.t;
-        var13 = var13.13/7kX;
+        var13 = var13["13/7kX"];
         var13 = var14.bind(var15)(var13);
         var11['text'] = var13;
         var11 = var6.bind(var1)(var12, var11);

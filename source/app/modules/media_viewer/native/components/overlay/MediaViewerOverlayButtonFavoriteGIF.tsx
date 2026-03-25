@@ -231,7 +231,7 @@ case 17:
             var8 = var11.bind(var12)(var8);
             _fun0001_ip = 18; continue _fun0001;
 case 16:
-            var9 = var9.5/NS74;
+            var9 = var9["5/NS74"];
             var8 = var11.bind(var12)(var9);
 case 18:
             var2['accessibilityLabel'] = var8;

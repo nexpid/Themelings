@@ -675,7 +675,7 @@ case 18:
             var12 = var24[var18];
             var12 = var29.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12./WPGnF;
+            var12 = var12["/WPGnF"];
             var12 = var30.bind(var31)(var12);
             var10['children'] = var12;
             var11 = var21.bind(var4)(var11, var10);
@@ -731,7 +731,7 @@ case 18:
             var24 = var24[var18];
             var24 = var29.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24./WPGnF;
+            var24 = var24["/WPGnF"];
             var24 = var25.bind(var26)(var24);
             var11['title'] = var24;
             var11['chunks'] = var17;
@@ -810,7 +810,7 @@ case 25:
             var14 = var14.t;
             if(var13) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
-            var13 = var14.0tvNAn;
+            var13 = var14["0tvNAn"];
             var13 = var15.bind(var16)(var13);
             _fun0001_ip = 29; continue _fun0001;
 case 27:

@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var16[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.3oK4qw;
+        var12 = var12["3oK4qw"];
         var12 = var13.bind(var14)(var12);
         var8['text'] = var12;
         var11 = function onPress() {
@@ -375,7 +375,7 @@ case 7:
                         var5 = var10[var5];
                         var5 = var9.bind(var1)(var5);
                         var5 = var5.t;
-                        var5 = var5.2jxGer;
+                        var5 = var5["2jxGer"];
                         var5 = var7.bind(var8)(var5);
                         var6['label'] = var5;
                         var5 = true;
@@ -933,7 +933,7 @@ case 22:
         var5 = var9[var5];
         var5 = var8.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.13/7kX;
+        var5 = var5["13/7kX"];
         var5 = var6.bind(var7)(var5);
         var1['headerBackTitle'] = var5;
         var1 = var3.bind(var4)(var2, var1);

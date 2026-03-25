@@ -736,7 +736,7 @@ case 45:
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.044+8i;
+        var6 = var5["044+8i"];
         var5 = {};
         var9 = function onClick() {
             var4 = _closure1_slot1;

@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var8;
     var4 = var4.ME;
     var _closure1_slot8 = var4;
-    var4 = /\\([*?+\/])/g;
+    var4 = /\\([*?+/])/g;
     var _closure1_slot9 = var4;
     var4 = {};
     var8 = {};
@@ -257,7 +257,7 @@ case 4:
     var9 = var7[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.anyScopeRegex;
-    var9 = /^s\\/([^\\/\\]*(?:\\.[^\\/\\]*)*)\\/([^\\/\\]*(?:\\.[^\\/\\]*)*)(?:\\/([g]*))?$/;
+    var9 = /^s\/([^\/\\]*(?:\\.[^\/\\]*)*)\/([^\/\\]*(?:\\.[^\/\\]*)*)(?:\/([g]*))?$/;
     var9 = var10.bind(var11)(var9);
     var8['match'] = var9;
     var9 = function action(arg1, arg2) {

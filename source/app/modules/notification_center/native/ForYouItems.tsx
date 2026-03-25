@@ -334,7 +334,7 @@ case 40:
             var8 = var5[var20];
             var8 = var18.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.6bhHrc;
+            var8 = var8["6bhHrc"];
             var6 = var16.bind(var21)(var8);
             var16 = _closure1_slot29;
             var3 = var16.VOICE_MESSAGE;
@@ -347,7 +347,7 @@ case 38:
             var5 = var5[var20];
             var5 = var18.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.2v7kfl;
+            var5 = var5["2v7kfl"];
             var6 = var8.bind(var16)(var5);
             var3 = undefined;
             _fun0004_ip = 50; continue _fun0004;
@@ -361,7 +361,7 @@ case 36:
             var5 = var5[var20];
             var5 = var18.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.7K5Lma;
+            var5 = var5["7K5Lma"];
             var6 = var8.bind(var16)(var5);
             var8 = _closure1_slot29;
             var3 = var8.STICKER;
@@ -1197,7 +1197,7 @@ case 91:
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.t;
-                    var8 = var8.08rqg5;
+                    var8 = var8["08rqg5"];
                     var8 = var11.bind(var12)(var8);
                     var4['label'] = var8;
                     var11 = _closure1_slot1;
@@ -1316,7 +1316,7 @@ case 98:
                             var7 = var2;
 case 97:
                             var6 = var7.match;
-                            var2 = /channels\\/(\d*)\\/(\d*)\\/(\d*)\?summaryId=(\d*)/;
+                            var2 = /channels\/(\d*)\/(\d*)\/(\d*)\?summaryId=(\d*)/;
                             var2 = var6.bind(var7)(var2);
                             var4 = var2;
                             if(!(var5 != var2)) { _fun0012_ip = 13; continue _fun0012 }

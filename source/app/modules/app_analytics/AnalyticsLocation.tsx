@@ -1077,6 +1077,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SLAYER_STOREFRONT_SHOP_TAB'] = var1;
     var1 = 'age group';
     var2['AGE_GROUP'] = var1;
+    var1 = 'mobile account link large banner';
+    var2['MOBILE_ACCOUNT_LINK_LARGE_BANNER'] = var1;
+    var1 = 'mobile account link medium banner';
+    var2['MOBILE_ACCOUNT_LINK_MEDIUM_BANNER'] = var1;
     var1 = 'gift card redemption success modal';
     var2['GIFT_CARD_REDEMPTION_SUCCESS_MODAL'] = var1;
     var1 = 'game community multi guild upsell guilds bar entrypoint';

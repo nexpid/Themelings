@@ -695,7 +695,7 @@ case 0:
             var1 = var11[var9];
             var1 = var12.bind(var8)(var1);
             var1 = var1.t;
-            var1 = var1.0bK0B1;
+            var1 = var1["0bK0B1"];
             var1 = var5.bind(var7)(var1);
             var2['label'] = var1;
             var1 = new Array(5);
@@ -767,7 +767,7 @@ case 0:
             var3 = var11[var9];
             var3 = var12.bind(var8)(var3);
             var3 = var3.t;
-            var5 = var3.5DFcVl;
+            var5 = var3["5DFcVl"];
             var3 = {};
             var13 = var6.toLocaleString;
             var11 = var11[var9];

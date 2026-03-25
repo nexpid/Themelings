@@ -114,7 +114,7 @@ case 4:
     var4 = new var13[var4](var12);
     var4 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot13 = var4;
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -154,8 +154,6 @@ case 6:
 case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
-                var3 = null;
-                var1['previousStatus'] = var3;
                 var3 = {};
                 var4 = function POST_CONNECTION_OPEN() {
                     var2 = _closure3_slot0;
@@ -174,10 +172,6 @@ case 8:
                 var1['actions'] = var3;
                 var3 = function() {
                     var2 = _closure3_slot0;
-                    var3 = _closure1_slot8;
-                    var1 = var3.getStatus;
-                    var1 = var1.bind(var3)();
-                    var2['previousStatus'] = var1;
                     var1 = var2.handleCommonUpdates;
                     var1 = var1.bind(var2)();
                     var1 = undefined;
@@ -187,8 +181,6 @@ case 8:
                 var3 = function() {
                     var2 = _closure3_slot0;
                     var1 = var2.handleCommonUpdates;
-                    var1 = var1.bind(var2)();
-                    var1 = var2.manageDoNotDisturbReminderPopover;
                     var1 = var1.bind(var2)();
                     var1 = undefined;
                     return var1;
@@ -477,7 +469,7 @@ case 27:
                     }
                 };
                 var1['lazilyMigrateStatusCreatedAt'] = var3;
-                var3 = function() {
+                var2 = function() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                         var4 = _closure1_slot0;
@@ -559,60 +551,7 @@ case 29:
                         return var1;
                     }
                 };
-                var1['manageExpiringFocusMode'] = var3;
-                var2 = function() {
-                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                        var2 = _closure3_slot0;
-                        var3 = var2.previousStatus;
-                        var2 = null;
-                        if(!(var2 == var3)) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
-                        var3 = _closure3_slot0;
-                        var4 = _closure1_slot8;
-                        var2 = var4.getStatus;
-                        var2 = var2.bind(var4)();
-                        var3['previousStatus'] = var2;
-                        _fun0007_ip = 35; continue _fun0007;
-case 33:
-                        var4 = _closure1_slot8;
-                        var2 = var4.getStatus;
-                        var2 = var2.bind(var4)();
-                        var4 = _closure3_slot0;
-                        var5 = var4.previousStatus;
-                        var4 = _closure1_slot10;
-                        var4 = var4.DND;
-                        var4 = var5 !== var4;
-                        if(!var4) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
-                        var5 = _closure1_slot10;
-                        var5 = var5.DND;
-                        var4 = var2 === var5;
-case 36:
-                        if(!var4) { _fun0007_ip = 38; continue _fun0007 }
-case 39:
-                        var7 = _closure1_slot0;
-                        var8 = _closure1_slot2;
-                        var3 = 10;
-                        var3 = var8[var3];
-                        var6 = undefined;
-                        var5 = var7.bind(var6)(var3);
-                        var4 = var5.removeDismissedRecurringContent;
-                        var3 = 13;
-                        var3 = var8[var3];
-                        var3 = var7.bind(var6)(var3);
-                        var3 = var3.DismissibleContent;
-                        var3 = var3.DO_NOT_DISTURB_REMINDER_POPOVER;
-                        var3 = var4.bind(var5)(var3);
-case 38:
-                        var1 = _closure3_slot0;
-                        var1['previousStatus'] = var2;
-case 35:
-                        var1 = undefined;
-                        return var1;
-                    }
-                };
-                var1['manageDoNotDisturbReminderPopover'] = var2;
+                var1['manageExpiringFocusMode'] = var2;
                 return var1;
             }
         };
@@ -631,7 +570,7 @@ case 35:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

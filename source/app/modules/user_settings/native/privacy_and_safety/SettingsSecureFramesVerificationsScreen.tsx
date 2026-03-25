@@ -237,7 +237,7 @@ case 6:
         var14 = var13[var9];
         var14 = var12.bind(var3)(var14);
         var14 = var14.t;
-        var14 = var14.2xL5lu;
+        var14 = var14["2xL5lu"];
         var14 = var15.bind(var16)(var14);
         var8['children'] = var14;
         var8 = var11.bind(var3)(var10, var8);
@@ -398,7 +398,7 @@ case 6:
             var6 = var10[var6];
             var6 = var9.bind(var1)(var6);
             var6 = var6.t;
-            var6 = var6.5b3FNI;
+            var6 = var6["5b3FNI"];
             var14 = var7.bind(var8)(var6);
             var12 = _closure2_slot2;
             var5 = global;
@@ -427,7 +427,7 @@ case 6:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.5b3FNI;
+                var5 = var5["5b3FNI"];
                 var5 = var6.bind(var7)(var5);
                 var1['title'] = var5;
                 var5 = _closure2_slot2;
@@ -470,7 +470,7 @@ case 6:
             var4 = var10[var4];
             var4 = var7.bind(var6)(var4);
             var4 = var4.t;
-            var7 = var4./MBjYF;
+            var7 = var4["/MBjYF"];
             var6 = {};
             var4 = _closure2_slot3;
             var10 = var4.length;

@@ -208,7 +208,7 @@ case 10:
             var3 = arg3;
             if(var3) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var5 = var4.+u3AOO;
+            var5 = var4["+u3AOO"];
             var3 = {};
             var10 = _closure1_slot1;
             var9 = 11;
@@ -222,7 +222,7 @@ case 14:
             var3 = var6.bind(var7)(var5, var3);
             _fun0002_ip = 15; continue _fun0002;
 case 13:
-            var5 = var4.1aEjsH;
+            var5 = var4["1aEjsH"];
             var4 = {};
             var10 = _closure1_slot1;
             var9 = 11;

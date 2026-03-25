@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = 8;
         var10 = var9[var12];
         var10 = var15.bind(var4)(var10);
-        var10 = var10.7xxAni;
+        var10 = var10["7xxAni"];
         var10 = var14.bind(var16)(var10);
         var5['header'] = var10;
         var10 = var9[var13];
@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16.string;
         var10 = var9[var12];
         var10 = var15.bind(var4)(var10);
-        var10 = var10.1M9So2;
+        var10 = var10["1M9So2"];
         var10 = var14.bind(var16)(var10);
         var5['description'] = var10;
         var8 = var8.bind(var4)(var11, var5);
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var14.string;
         var12 = var9[var12];
         var12 = var15.bind(var4)(var12);
-        var12 = var12.8rLBxD;
+        var12 = var12["8rLBxD"];
         var12 = var13.bind(var14)(var12);
         var8['description'] = var12;
         var12 = true;

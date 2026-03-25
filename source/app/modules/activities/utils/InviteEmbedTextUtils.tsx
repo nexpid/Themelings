@@ -55,7 +55,7 @@ case 2:
             var2 = 3;
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
-            var2 = var2.8B3U5O;
+            var2 = var2["8B3U5O"];
             var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
@@ -137,7 +137,7 @@ case 14:
             var3 = var8.bind(var9)(var5, var3);
             _fun0002_ip = 15; continue _fun0002;
 case 13:
-            var5 = var4.2N1kNS;
+            var5 = var4["2N1kNS"];
             var4 = {};
             var4['appName'] = var6;
             var3 = var8.bind(var9)(var5, var4);
@@ -302,7 +302,7 @@ case 19:
             var1 = var7[var1];
             var1 = var6.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1./8czH4;
+            var2 = var1["/8czH4"];
             var1 = {};
             var1['name'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -414,7 +414,7 @@ case 44:
             var2 = var10[var2];
             var2 = var7.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.65JnWC;
+            var3 = var2["65JnWC"];
             var2 = {};
             var2['partySize'] = var9;
             var2 = var5.bind(var6)(var3, var2);

@@ -270,7 +270,7 @@ case 4:
             var18 = var20[var30];
             var18 = var24.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.23BfZh;
+            var18 = var18["23BfZh"];
             var18 = var21.bind(var22)(var18);
             var13['children'] = var18;
             var13 = var17.bind(var4)(var14, var13);
@@ -503,7 +503,7 @@ case 14:
             var12 = var12[var15];
             var12 = var16.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.+zx47d;
+            var12 = var12["+zx47d"];
             var12 = var13.bind(var14)(var12);
             _fun0001_ip = 15; continue _fun0001;
 case 13:

@@ -205,7 +205,7 @@ case 20:
             var12 = var17[var12];
             var12 = var16.bind(var6)(var12);
             var12 = var12.t;
-            var12 = var12.+3V9Tp;
+            var12 = var12["+3V9Tp"];
             var12 = var14.bind(var15)(var12);
             _fun0001_ip = 21; continue _fun0001;
 case 19:
@@ -213,7 +213,7 @@ case 19:
             var13 = 9;
             var13 = var17[var13];
             var13 = var16.bind(var6)(var13);
-            var13 = var13.6mx/DP;
+            var13 = var13["6mx/DP"];
             var12 = var14.bind(var15)(var13);
 case 21:
             var7['children'] = var12;

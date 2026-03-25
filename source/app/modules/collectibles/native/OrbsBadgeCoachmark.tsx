@@ -133,7 +133,7 @@ case 0:
                 var4 = var9[var4];
                 var4 = var8.bind(var7)(var4);
                 var4 = var4.t;
-                var4 = var4.4ivm+P;
+                var4 = var4["4ivm+P"];
                 var4 = var5.bind(var6)(var4);
                 var1['title'] = var4;
                 var6 = _closure1_slot6;

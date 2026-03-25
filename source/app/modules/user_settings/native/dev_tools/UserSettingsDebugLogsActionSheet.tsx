@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var9[var15];
         var10 = var18.bind(var3)(var10);
         var10 = var10.t;
-        var10 = var10.+B9e11;
+        var10 = var10["+B9e11"];
         var10 = var13.bind(var14)(var10);
         var5['title'] = var10;
         var5 = var8.bind(var3)(var7, var5);

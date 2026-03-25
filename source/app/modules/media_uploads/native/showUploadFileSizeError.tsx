@@ -324,7 +324,7 @@ case 35:
             var3 = var3[var4];
             var3 = var8.bind(var1)(var3);
             var3 = var3.t;
-            var3 = var3./tGlcj;
+            var3 = var3["/tGlcj"];
             var3 = var6.bind(var7)(var3);
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;

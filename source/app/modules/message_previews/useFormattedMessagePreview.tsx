@@ -172,7 +172,7 @@ case 33:
                     var6 = var13[var6];
                     var6 = var11.bind(var12)(var6);
                     var6 = var6.t;
-                    var6 = var6.9ddYKt;
+                    var6 = var6["9ddYKt"];
                     var6 = var9.bind(var10)(var6);
                     var1['text'] = var6;
                     return var1;
@@ -335,7 +335,7 @@ case 54:
                     var5 = var12[var5];
                     var5 = var11.bind(var6)(var5);
                     var5 = var5.t;
-                    var6 = var5.9XuYjs;
+                    var6 = var5["9XuYjs"];
                     var5 = {};
                     var11 = var2.embeds;
                     var11 = var11.length;
@@ -513,7 +513,7 @@ case 73:
                     var5 = var10[var5];
                     var5 = var9.bind(var6)(var5);
                     var5 = var5.t;
-                    var6 = var5.89ihS8;
+                    var6 = var5["89ihS8"];
                     var5 = {};
                     var9 = var2.attachments;
                     var9 = var9.length;
@@ -911,7 +911,7 @@ case 100:
             var10 = var17[var10];
             var10 = var16.bind(var1)(var10);
             var10 = var10.t;
-            var10 = var10.2CnhoI;
+            var10 = var10["2CnhoI"];
             var10 = var13.bind(var15)(var10);
             _fun0002_ip = 101; continue _fun0002;
 case 98:
@@ -1008,7 +1008,7 @@ case 108:
             var8 = var16[var8];
             var8 = var15.bind(var1)(var8);
             var8 = var8.t;
-            var9 = var8.5v2xa8;
+            var9 = var8["5v2xa8"];
             var8 = {};
             var8['username'] = var11;
             var13 = 11;

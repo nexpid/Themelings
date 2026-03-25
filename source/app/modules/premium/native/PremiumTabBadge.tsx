@@ -667,7 +667,7 @@ case 53:
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18./DTtr6;
+            var18 = var18["/DTtr6"];
             var18 = var19.bind(var20)(var18);
             var14['children'] = var18;
             var14 = var17.bind(var4)(var16, var14);
@@ -715,7 +715,7 @@ case 52:
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18./DTtr6;
+            var18 = var18["/DTtr6"];
             var18 = var19.bind(var20)(var18);
             var14['children'] = var18;
             var14 = var17.bind(var4)(var16, var14);

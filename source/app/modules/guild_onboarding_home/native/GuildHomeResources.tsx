@@ -607,7 +607,7 @@ case 45:
             var10 = var14[var10];
             var10 = var13.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.3iCBUn;
+            var10 = var10["3iCBUn"];
             var10 = var11.bind(var12)(var10);
             var7['text'] = var10;
             var7 = var9.bind(var5)(var8, var7);

@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var14[var10];
         var11 = var13.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11./G+nci;
+        var11 = var11["/G+nci"];
         var11 = var12.bind(var15)(var11);
         var6['children'] = var11;
         var6 = var7.bind(var4)(var9, var6);

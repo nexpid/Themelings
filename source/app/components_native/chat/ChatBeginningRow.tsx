@@ -424,7 +424,7 @@ case 41:
             var11 = var15[var11];
             var11 = var16.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.5S3sQF;
+            var11 = var11["5S3sQF"];
             var11 = var13.bind(var14)(var11);
             var6['text'] = var11;
             var10 = function onPress() {
@@ -669,7 +669,7 @@ case 50:
                     var4 = var9[var4];
                     var4 = var7.bind(var8)(var4);
                     var4 = var4.t;
-                    var4 = var4./6kulz;
+                    var4 = var4["/6kulz"];
                     var4 = var5.bind(var6)(var4);
                     var1['content'] = var4;
                     var4 = function icon() {
@@ -1094,7 +1094,7 @@ case 6:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.7Xm5QI;
+            var10 = var10["7Xm5QI"];
             var10 = var11.bind(var12)(var10);
             var7['accessibilityLabel'] = var10;
             var7 = var9.bind(var4)(var8, var7);
@@ -2172,7 +2172,7 @@ case 112:
             var9 = var3.bind(var5)(var9);
             _fun0014_ip = 113; continue _fun0014;
 case 111:
-            var14 = var2.1ach9C;
+            var14 = var2["1ach9C"];
             var9 = var3.bind(var5)(var14);
 case 113:
             _fun0014_ip = 114; continue _fun0014;
@@ -3125,7 +3125,7 @@ case 163:
                     var14 = var17[var13];
                     var14 = var16.bind(var4)(var14);
                     var14 = var14.t;
-                    var14 = var14.+WbSn5;
+                    var14 = var14["+WbSn5"];
                     var14 = var15.bind(var18)(var14);
                     var7['text'] = var14;
                     var7['onPress'] = var9;
@@ -3578,7 +3578,7 @@ case 184:
             var10 = var13[var22];
             var10 = var14.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.0Q7uk0;
+            var10 = var10["0Q7uk0"];
             var10 = var16.bind(var20)(var10);
             _fun0026_ip = 185; continue _fun0026;
 case 81:
@@ -3660,7 +3660,7 @@ case 190:
             var19 = var17[var22];
             var19 = var21.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.3XVNyt;
+            var19 = var19["3XVNyt"];
             var19 = var20.bind(var23)(var19);
             var13['title'] = var19;
             var19 = var17[var22];

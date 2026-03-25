@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var6);
     var _closure1_slot3 = var4;
-    var4 = /^\\/app\\/(\d+)(?:\\/)?/;
+    var4 = /^\/app\/(\d+)(?:\/)?/;
     var _closure1_slot4 = var4;
     var4 = 3;
     var5 = var5[var4];

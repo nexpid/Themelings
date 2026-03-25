@@ -99,7 +99,7 @@ case 4:
                 var2 = var10[var2];
                 var2 = var9.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2./JD9oe;
+                var2 = var2["/JD9oe"];
                 var2 = var7.bind(var8)(var2);
                 var3['title'] = var2;
                 var7 = _closure2_slot2;

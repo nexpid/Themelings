@@ -436,7 +436,7 @@ case 41:
             var7 = var13[var7];
             var7 = var12.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.6vrfgt;
+            var7 = var7["6vrfgt"];
             var7 = var8.bind(var11)(var7);
             _fun0001_ip = 42; continue _fun0001;
 case 40:

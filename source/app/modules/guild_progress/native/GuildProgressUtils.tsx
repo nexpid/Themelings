@@ -388,7 +388,7 @@ case 30:
             var1 = var1[var12];
             var1 = var6.bind(var10)(var1);
             var1 = var1.t;
-            var1 = var1.+Gyklt;
+            var1 = var1["+Gyklt"];
             var8 = var3.bind(var5)(var1);
 case 29:
             var1 = {};
@@ -412,7 +412,7 @@ case 32:
             var3 = var3[var12];
             var3 = var7.bind(var10)(var3);
             var3 = var3.t;
-            var3 = var3.+Gyklt;
+            var3 = var3["+Gyklt"];
             var3 = var5.bind(var6)(var3);
             _fun0004_ip = 33; continue _fun0004;
 case 31:

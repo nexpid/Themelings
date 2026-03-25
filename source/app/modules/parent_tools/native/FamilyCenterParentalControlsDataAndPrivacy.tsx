@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.format;
             var3 = var11[var3];
             var3 = var9.bind(var10)(var3);
-            var4 = var3.6mK5Pz;
+            var4 = var3["6mK5Pz"];
             var3 = {};
             var8 = var11[var8];
             var9 = var9.bind(var10)(var8);

@@ -408,7 +408,7 @@ case 9:
             var23 = var20[var18];
             var23 = var19.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.3NlTYU;
+            var23 = var23["3NlTYU"];
             var23 = var24.bind(var25)(var23);
             var11['title'] = var23;
             var24 = var17.has;
@@ -517,7 +517,7 @@ case 14:
             var15 = var15[var18];
             var15 = var19.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.9E36wf;
+            var15 = var15["9E36wf"];
             var15 = var16.bind(var17)(var15);
             var11['children'] = var15;
             var11 = var12.bind(var4)(var14, var11);
@@ -539,7 +539,7 @@ case 13:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.0/5zhg;
+            var14 = var14["0/5zhg"];
             var14 = var15.bind(var16)(var14);
             var10['text'] = var14;
             var10['onPress'] = var13;

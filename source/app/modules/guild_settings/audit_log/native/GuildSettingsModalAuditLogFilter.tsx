@@ -495,7 +495,7 @@ case 28:
             var16 = var21[var16];
             var16 = var20.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.5h0QOP;
+            var16 = var16["5h0QOP"];
             var16 = var18.bind(var19)(var16);
             _fun0001_ip = 29; continue _fun0001;
 case 27:

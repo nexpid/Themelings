@@ -214,7 +214,7 @@ case 10:
             var20 = var24[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.1Ww0Hi;
+            var21 = var20["1Ww0Hi"];
             var20 = {};
             var20 = var22.bind(var23)(var21, var20);
             var17['children'] = var20;
@@ -380,7 +380,7 @@ case 23:
             var11 = var15[var11];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.4EGMWL;
+            var11 = var11["4EGMWL"];
             var11 = var12.bind(var13)(var11);
             var7['text'] = var11;
             var10 = function onPress() {

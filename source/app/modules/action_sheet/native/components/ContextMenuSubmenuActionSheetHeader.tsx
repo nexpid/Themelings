@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var13[var9];
         var9 = var12.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.13/7kX;
+        var9 = var9["13/7kX"];
         var9 = var10.bind(var11)(var9);
         var5['text'] = var9;
         var8 = var8.backTitle;

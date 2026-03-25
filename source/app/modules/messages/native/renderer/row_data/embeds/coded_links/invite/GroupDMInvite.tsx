@@ -82,7 +82,7 @@ case 4:
             var13 = arg2;
             if(var13) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var13 = var7.3p3/BK;
+            var13 = var7["3p3/BK"];
             var17 = var9.bind(var10)(var13);
             _fun0001_ip = 8; continue _fun0001;
 case 6:

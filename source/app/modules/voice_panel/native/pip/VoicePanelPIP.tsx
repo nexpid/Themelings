@@ -1165,7 +1165,7 @@ case 29:
                 var2 = var7[var2];
                 var2 = var6.bind(var5)(var2);
                 var2 = var2.t;
-                var2 = var2.3ejJer;
+                var2 = var2["3ejJer"];
                 var2 = var3.bind(var4)(var2);
                 var1['accessibilityLabel'] = var2;
                 var3 = {};

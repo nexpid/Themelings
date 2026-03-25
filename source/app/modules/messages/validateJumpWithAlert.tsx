@@ -103,7 +103,7 @@ case 12:
             var6 = var10[var5];
             var6 = var8.bind(var9)(var6);
             var6 = var6.t;
-            var6 = var6.6vJKFk;
+            var6 = var6["6vJKFk"];
             var6 = var7.bind(var11)(var6);
             var1['title'] = var6;
             var6 = var10[var5];
@@ -159,7 +159,7 @@ case 10:
             var6 = var10[var5];
             var6 = var8.bind(var9)(var6);
             var6 = var6.t;
-            var7 = var6.1YTWty;
+            var7 = var6["1YTWty"];
             var6 = {};
             var14 = var12.author;
             var14 = var14.username;
@@ -173,7 +173,7 @@ case 10:
             var6 = var10[var5];
             var6 = var8.bind(var9)(var6);
             var6 = var6.t;
-            var6 = var6.+TSRGD;
+            var6 = var6["+TSRGD"];
             var6 = var7.bind(var11)(var6);
             var1['confirmText'] = var6;
             var6 = var10[var5];
@@ -220,7 +220,7 @@ case 4:
             var6 = var10[var5];
             var6 = var8.bind(var9)(var6);
             var6 = var6.t;
-            var7 = var6.8t8doK;
+            var7 = var6["8t8doK"];
             var6 = {};
             var14 = var12.author;
             var14 = var14.username;

@@ -72,11 +72,11 @@ case 0:
             var2 = var2.t;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var2.8x0jKT;
+            var1 = var2["8x0jKT"];
             var1 = var3.bind(var4)(var1);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var2 = var2.8jmdON;
+            var2 = var2["8jmdON"];
             var1 = var3.bind(var4)(var2);
 case 4:
             return var1;

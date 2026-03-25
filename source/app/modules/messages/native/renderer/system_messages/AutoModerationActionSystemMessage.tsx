@@ -172,7 +172,7 @@ case 7:
             var4 = var2[var10];
             var4 = var3.bind(var9)(var4);
             var4 = var4.t;
-            var4 = var4.94JbM3;
+            var4 = var4["94JbM3"];
             var8 = var8.bind(var11)(var4);
             var2 = var2[var17];
             var3 = var3.bind(var9)(var2);
@@ -633,14 +633,14 @@ case 43:
             var1 = var1.t;
             if(var12) { _fun0002_ip = 45; continue _fun0002 }
 case 46:
-            var30 = var1.4ylIiu;
+            var30 = var1["4ylIiu"];
             var20 = {};
             var37 = var3.joinAttempts;
             var20['joinCount'] = var37;
             var20 = var32.bind(var35)(var30, var20);
             _fun0002_ip = 47; continue _fun0002;
 case 45:
-            var30 = var1.5C8Mh3;
+            var30 = var1["5C8Mh3"];
             var1 = {};
             var37 = var3.dmsSent;
             var1['dmsSent'] = var37;
@@ -666,7 +666,7 @@ case 49:
             var8 = var30.bind(var32)(var8);
             _fun0002_ip = 50; continue _fun0002;
 case 48:
-            var20 = var20.8+lHUb;
+            var20 = var20["8+lHUb"];
             var8 = var30.bind(var32)(var20);
 case 50:
             var1['header'] = var8;
@@ -734,7 +734,7 @@ case 53:
             var8 = var12[var10];
             var8 = var20.bind(var9)(var8);
             var8 = var8.t;
-            var30 = var8.4QIIZl;
+            var30 = var8["4QIIZl"];
             var8 = {};
             var8['dateTime'] = var36;
             var8 = var32.bind(var35)(var30, var8);
@@ -885,7 +885,7 @@ case 65:
             var13 = var13[var10];
             var13 = var32.bind(var9)(var13);
             var13 = var13.t;
-            var13 = var13.70CJbT;
+            var13 = var13["70CJbT"];
             var13 = var30.bind(var31)(var13);
             var3['headerBadgeText'] = var13;
             var30 = var6 != var34;
@@ -1037,7 +1037,7 @@ case 94:
             var7 = var14[var10];
             var7 = var15.bind(var9)(var7);
             var7 = var7.t;
-            var8 = var7.26bB2M;
+            var8 = var7["26bB2M"];
             var7 = {};
             var14 = var14[var17];
             var15 = var15.bind(var9)(var14);

@@ -675,7 +675,7 @@ case 39:
         var5 = var9[var5];
         var5 = var8.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.5KxXrK;
+        var5 = var5["5KxXrK"];
         var5 = var6.bind(var7)(var5);
         var1['label'] = var5;
         var1 = var3.bind(var4)(var2, var1);
@@ -1692,7 +1692,7 @@ case 65:
         var7 = var8[var7];
         var7 = var6.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.16SG+O;
+        var7 = var7["16SG+O"];
         var7 = var9.bind(var10)(var7);
         var1['subLabel'] = var7;
         var7 = _closure1_slot17;

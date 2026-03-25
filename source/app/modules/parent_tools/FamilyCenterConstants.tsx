@@ -258,7 +258,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.4T3zWT;
+        var2 = var1["4T3zWT"];
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -373,7 +373,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
-            var1 = var2.4ufgdz;
+            var1 = var2["4ufgdz"];
             var1 = var3.bind(var4)(var1);
             _fun0003_ip = 4; continue _fun0003;
 case 2:
@@ -397,7 +397,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.0GE4Ni;
+        var2 = var1["0GE4Ni"];
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -423,7 +423,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
-            var1 = var2.4ufgdz;
+            var1 = var2["4ufgdz"];
             var1 = var3.bind(var4)(var1);
             _fun0004_ip = 4; continue _fun0004;
 case 2:
@@ -673,7 +673,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.7feG7T;
+        var2 = var1["7feG7T"];
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -942,7 +942,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0011_ip = 2; continue _fun0011 }
 case 3:
-            var1 = var2.85PtWu;
+            var1 = var2["85PtWu"];
             var1 = var3.bind(var4)(var1);
             _fun0011_ip = 4; continue _fun0011;
 case 2:
@@ -992,7 +992,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0012_ip = 2; continue _fun0012 }
 case 3:
-            var1 = var2.85PtWu;
+            var1 = var2["85PtWu"];
             var1 = var3.bind(var4)(var1);
             _fun0012_ip = 4; continue _fun0012;
 case 2:
@@ -1199,7 +1199,7 @@ case 0:
             var2 = var3.bind(var6)(var2);
             if(var1) { _fun0015_ip = 10; continue _fun0015 }
 case 8:
-            var3 = var2.69F+eS;
+            var3 = var2["69F+eS"];
             var1 = {};
             var6 = 'https://support.discord.com/hc/articles/14155060633623';
             var1['link'] = var6;
@@ -1275,7 +1275,7 @@ case 11:
     var3['FAMILY_CENTER_REQUEST_SECTION_HEIGHT'] = var21;
     var21 = 64;
     var3['FAMILY_CENTER_REQUEST_ROW_HEIGHT'] = var21;
-    var21 = /\\/feature\\/family-center\\/my-family\\/(\w+)\\/(\w+)/;
+    var21 = /\/feature\/family-center\/my-family\/(\w+)\/(\w+)/;
     var3['FAMILY_CENTER_LINK_REQUEST_REGEX'] = var21;
     var21 = function(arg1, arg2) {
         var1 = global;

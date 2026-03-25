@@ -534,7 +534,7 @@ case 24:
             var24 = var14[var9];
             var24 = var10.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.9AG3wI;
+            var24 = var24["9AG3wI"];
             var24 = var25.bind(var26)(var24);
             var20['label'] = var24;
             var20['value'] = var23;

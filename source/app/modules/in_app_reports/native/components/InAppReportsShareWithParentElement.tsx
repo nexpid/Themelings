@@ -237,7 +237,7 @@ case 14:
             var7 = var7[var11];
             var7 = var10.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.5l/hlt;
+            var7 = var7["5l/hlt"];
             var7 = var8.bind(var9)(var7);
             var1['description'] = var7;
             var1['disabled'] = var6;

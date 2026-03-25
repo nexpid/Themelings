@@ -64,7 +64,7 @@ case 7:
 case 6:
             if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 8:
             if(var2) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
@@ -436,7 +436,7 @@ case 64:
             var3 = var20[var3];
             var3 = var19.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.4B63jZ;
+            var3 = var3["4B63jZ"];
             var3 = var16.bind(var18)(var3);
             var3 = var14.bind(var15)(var3);
             var3 = var10.bind(var11)(var3);
@@ -522,7 +522,7 @@ case 69:
             var3 = var20[var3];
             var3 = var19.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.61Df13;
+            var3 = var3["61Df13"];
             var3 = var16.bind(var18)(var3);
             var3 = var14.bind(var15)(var3);
             var3 = var10.bind(var11)(var3);
@@ -784,7 +784,7 @@ case 98:
             var7 = var16[var7];
             var7 = var15.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.80lOZ1;
+            var7 = var7["80lOZ1"];
             var7 = var13.bind(var14)(var7);
             var11 = var11.bind(var12)(var7);
             var7 = new Array(1);

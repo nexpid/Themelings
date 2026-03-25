@@ -340,7 +340,7 @@ case 26:
                 var4 = var10[var2];
                 var4 = var8.bind(var9)(var4);
                 var4 = var4.t;
-                var4 = var4.1LyF1h;
+                var4 = var4["1LyF1h"];
                 var4 = var7.bind(var11)(var4);
                 var3[1] = var4;
                 var4 = var10[var2];
@@ -360,7 +360,7 @@ case 26:
                 var2 = var10[var2];
                 var2 = var8.bind(var9)(var2);
                 var2 = var2.t;
-                var2 = var2.6m/6nM;
+                var2 = var2["6m/6nM"];
                 var2 = var4.bind(var7)(var2);
                 var3[3] = var2;
                 var2 = var15.indexOf;

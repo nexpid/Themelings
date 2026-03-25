@@ -453,7 +453,7 @@ case 24:
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.3PatSz;
+            var15 = var15["3PatSz"];
             var15 = var16.bind(var17)(var15);
             var11['text'] = var15;
             var11['onPress'] = var14;

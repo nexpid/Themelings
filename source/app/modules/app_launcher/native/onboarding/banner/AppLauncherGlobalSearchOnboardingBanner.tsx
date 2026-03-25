@@ -178,7 +178,7 @@ case 5:
             var9 = var13[var9];
             var9 = var12.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.0TBExc;
+            var9 = var9["0TBExc"];
             var9 = var10.bind(var11)(var9);
             var2['description'] = var9;
             var6 = function onDismiss() {

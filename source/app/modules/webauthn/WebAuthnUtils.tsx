@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = '-';
         var4 = var3.bind(var4)(var2, var1);
         var3 = var4.replace;
-        var2 = /\\//g;
+        var2 = /\//g;
         var1 = '_';
         var4 = var3.bind(var4)(var2, var1);
         var3 = var4.replace;

@@ -378,7 +378,7 @@ case 20: // try_start_1
                     var2 = var8[var2];
                     var2 = var7.bind(var1)(var2);
                     var2 = var2.t;
-                    var2 = var2.4LQwnw;
+                    var2 = var2["4LQwnw"];
                     var11 = var4.bind(var6)(var2);
                     var4 = var5.prototype;
                     var4 = Object.create(var4, {constructor: {value: var5}});

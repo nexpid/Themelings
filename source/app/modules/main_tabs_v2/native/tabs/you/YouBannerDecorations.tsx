@@ -396,7 +396,7 @@ case 16:
             var14 = var19[var14];
             var14 = var21.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.3D5yo/;
+            var14 = var14["3D5yo/"];
             var14 = var16.bind(var20)(var14);
             var10['accessibilityLabel'] = var14;
             var10['onPress'] = var13;

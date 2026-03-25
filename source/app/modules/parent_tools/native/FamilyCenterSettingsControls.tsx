@@ -168,7 +168,7 @@ case 5:
             var22 = var27[var23];
             var22 = var26.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.+o1pDZ;
+            var22 = var22["+o1pDZ"];
             var22 = var24.bind(var25)(var22);
             var17['label'] = var22;
             var22 = function onPress() {

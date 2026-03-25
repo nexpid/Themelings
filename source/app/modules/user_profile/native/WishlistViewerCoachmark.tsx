@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var8[var3];
             var2 = var7.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.+b6iUl;
+            var2 = var2["+b6iUl"];
             var2 = var5.bind(var9)(var2);
             var1['title'] = var2;
             var2 = var8[var3];

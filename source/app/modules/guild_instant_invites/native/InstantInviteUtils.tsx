@@ -130,7 +130,7 @@ case 7:
                         var7 = var11[var7];
                         var7 = var8.bind(var13)(var7);
                         var7 = var7.t;
-                        var8 = var7.+zWvOQ;
+                        var8 = var7["+zWvOQ"];
                         var7 = {};
                         var12 = _closure1_slot5;
                         var11 = var12.getCurrentUser;

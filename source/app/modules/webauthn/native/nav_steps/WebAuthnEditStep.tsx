@@ -289,7 +289,7 @@ case 2:
             var10 = var10[var14];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.7asiR3;
+            var10 = var10["7asiR3"];
             var10 = var11.bind(var12)(var10);
             var6['text'] = var10;
             var6['grow'] = var9;

@@ -129,7 +129,7 @@ case 4:
             var1 = 7;
             var1 = var12[var1];
             var1 = var2.bind(var11)(var1);
-            var2 = var1.9VTnfI;
+            var2 = var1["9VTnfI"];
             var1 = {};
             var17 = {};
             var20 = 'bindOpenUrl';

@@ -1,14 +1,14 @@
 // app/stores/RTCDebugStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var9 = require;
-    var8 = metroImportDefault;
+    var10 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var10 = dependencyMap;
-    var _closure1_slot0 = var9;
-    var _closure1_slot1 = var8;
+    var11 = dependencyMap;
+    var _closure1_slot0 = var10;
+    var _closure1_slot1 = var9;
     var1 = metroImportAll;
     var _closure1_slot2 = var1;
-    var _closure1_slot3 = var10;
+    var _closure1_slot3 = var11;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -89,7 +89,7 @@ case 4:
         var1 = var12[var6](var11, var10, var9, var8, var7, var6);
         return var1;
     };
-    var7 = function setDefaultStats() {
+    var8 = function setDefaultStats() {
         var1 = global;
         var3 = var1.Object;
         var2 = var3.values;
@@ -108,7 +108,7 @@ case 4:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot27 = var7;
+    var _closure1_slot27 = var8;
     var1 = function destroyReplayConnection() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -525,54 +525,54 @@ case 59:
         }
     };
     var _closure1_slot30 = var1;
-    var11 = global;
-    var12 = var11.Object;
-    var6 = var12.defineProperty;
+    var12 = global;
+    var7 = var12.Object;
+    var6 = var7.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var6.bind(var12)(var3, var1, var5);
-    var12 = 0;
-    var5 = var10[var12];
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var7 = 0;
+    var5 = var11[var7];
     var1 = undefined;
-    var5 = var8.bind(var1)(var5);
+    var5 = var9.bind(var1)(var5);
     var _closure1_slot4 = var5;
     var5 = 1;
-    var5 = var10[var5];
-    var5 = var8.bind(var1)(var5);
+    var5 = var11[var5];
+    var5 = var9.bind(var1)(var5);
     var _closure1_slot5 = var5;
     var5 = 2;
-    var5 = var10[var5];
-    var5 = var8.bind(var1)(var5);
+    var5 = var11[var5];
+    var5 = var9.bind(var1)(var5);
     var _closure1_slot6 = var5;
     var5 = 3;
-    var5 = var10[var5];
-    var5 = var8.bind(var1)(var5);
+    var5 = var11[var5];
+    var5 = var9.bind(var1)(var5);
     var _closure1_slot7 = var5;
     var5 = 4;
-    var5 = var10[var5];
-    var5 = var8.bind(var1)(var5);
+    var5 = var11[var5];
+    var5 = var9.bind(var1)(var5);
     var _closure1_slot8 = var5;
     var5 = 5;
-    var5 = var10[var5];
-    var5 = var8.bind(var1)(var5);
+    var5 = var11[var5];
+    var5 = var9.bind(var1)(var5);
     var _closure1_slot9 = var5;
     var5 = 6;
-    var5 = var10[var5];
-    var5 = var8.bind(var1)(var5);
+    var5 = var11[var5];
+    var5 = var9.bind(var1)(var5);
     var _closure1_slot10 = var5;
     var5 = 7;
-    var5 = var10[var5];
-    var5 = var8.bind(var1)(var5);
+    var5 = var11[var5];
+    var5 = var9.bind(var1)(var5);
     var _closure1_slot11 = var5;
     var5 = 8;
-    var5 = var10[var5];
-    var5 = var9.bind(var1)(var5);
+    var5 = var11[var5];
+    var5 = var10.bind(var1)(var5);
     var5 = var5.RTCDebugSections;
     var6 = 9;
-    var6 = var10[var6];
-    var13 = var9.bind(var1)(var6);
+    var6 = var11[var6];
+    var13 = var10.bind(var1)(var6);
     var6 = var13.MediaEngineContextTypes;
     var _closure1_slot12 = var6;
     var14 = var13.Features;
@@ -581,12 +581,12 @@ case 59:
     var _closure1_slot14 = var13;
     var6 = var6.DEFAULT;
     var5 = var5.TRANSPORT;
-    var5 = var4.bind(var1)(var6, var5, var12);
-    var _closure1_slot15 = var5;
-    var _closure1_slot16 = var5;
+    var7 = var4.bind(var1)(var6, var5, var7);
+    var _closure1_slot15 = var7;
+    var _closure1_slot16 = var7;
     var5 = {};
     var _closure1_slot17 = var5;
-    var5 = var11.Map;
+    var5 = var12.Map;
     var6 = var5.prototype;
     var6 = Object.create(var6, {constructor: {value: var5}});
     var18 = var6;
@@ -707,26 +707,26 @@ case 9:
         return var1;
     };
     var5 = var5.bind(var1)();
-    var12 = var5.empty;
-    var12 = var12.bind(var5)();
-    var _closure1_slot20 = var12;
-    var12 = false;
-    var _closure1_slot21 = var12;
-    var12 = null;
-    var _closure1_slot22 = var12;
-    var11 = var11.Map;
-    var12 = var11.prototype;
-    var12 = Object.create(var12, {constructor: {value: var11}});
-    var18 = var12;
-    var11 = new var18[var11](var17);
-    var11 = var11 instanceof Object ? var11 : var12;
-    var _closure1_slot23 = var11;
-    var7 = var7.bind(var1)();
-    var7 = 13;
-    var7 = var10[var7];
-    var7 = var8.bind(var1)(var7);
-    var11 = var7.Store;
-    var7 = function(arg1) {
+    var13 = var5.empty;
+    var13 = var13.bind(var5)();
+    var _closure1_slot20 = var13;
+    var13 = false;
+    var _closure1_slot21 = var13;
+    var13 = null;
+    var _closure1_slot22 = var13;
+    var12 = var12.Map;
+    var13 = var12.prototype;
+    var13 = Object.create(var13, {constructor: {value: var12}});
+    var18 = var13;
+    var12 = new var18[var12](var17);
+    var12 = var12 instanceof Object ? var12 : var13;
+    var _closure1_slot23 = var12;
+    var8 = var8.bind(var1)();
+    var8 = 13;
+    var8 = var11[var8];
+    var8 = var9.bind(var1)(var8);
+    var12 = var8.Store;
+    var8 = function(arg1) {
         var4 = function RTCDebugStore() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -1023,14 +1023,14 @@ case 85:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var12 = var7.bind(var1)(var11);
-    var7 = 'RTCDebugStore';
-    var12['displayName'] = var7;
-    var7 = 12;
-    var7 = var10[var7];
-    var17 = var8.bind(var1)(var7);
-    var7 = {};
-    var8 = function handleOpen(arg1) {
+    var13 = var8.bind(var1)(var12);
+    var8 = 'RTCDebugStore';
+    var13['displayName'] = var8;
+    var8 = 12;
+    var8 = var11[var8];
+    var17 = var9.bind(var1)(var8);
+    var8 = {};
+    var9 = function handleOpen(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
@@ -1045,23 +1045,23 @@ case 111:
             return var1;
         }
     };
-    var7['RTC_DEBUG_MODAL_OPEN'] = var8;
-    var8 = function handleFormClose() {
+    var8['RTC_DEBUG_MODAL_OPEN'] = var9;
+    var9 = function handleFormClose() {
         var2 = _closure1_slot28;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
     };
-    var7['RTC_DEBUG_MODAL_CLOSE'] = var8;
-    var8 = function handleSetSection(arg1) {
+    var8['RTC_DEBUG_MODAL_CLOSE'] = var9;
+    var9 = function handleSetSection(arg1) {
         var1 = arg1;
         var2 = var1.section;
         _closure1_slot16 = var2;
         var1 = undefined;
         return var1;
     };
-    var7['RTC_DEBUG_MODAL_SET_SECTION'] = var8;
-    var8 = function handleOpenReplay() {
+    var8['RTC_DEBUG_MODAL_SET_SECTION'] = var9;
+    var9 = function handleOpenReplay() {
         var3 = _closure1_slot2;
         var2 = _closure1_slot3;
         var1 = 10;
@@ -1072,8 +1072,8 @@ case 111:
         var2 = var2.bind(var3)();
         return var1;
     };
-    var7['RTC_DEBUG_MODAL_OPEN_REPLAY'] = var8;
-    var8 = function handleOpenReplayAtPath(arg1) {
+    var8['RTC_DEBUG_MODAL_OPEN_REPLAY'] = var9;
+    var9 = function handleOpenReplayAtPath(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
@@ -1173,8 +1173,8 @@ case 112:
             return var1;
         }
     };
-    var7['RTC_DEBUG_MODAL_OPEN_REPLAY_AT_PATH'] = var8;
-    var8 = function handleUpdateVideoOutput(arg1) {
+    var8['RTC_DEBUG_MODAL_OPEN_REPLAY_AT_PATH'] = var9;
+    var9 = function handleUpdateVideoOutput(arg1) {
         var1 = arg1;
         var7 = _closure1_slot20;
         var6 = var7.put;
@@ -1188,16 +1188,16 @@ case 112:
         var1 = undefined;
         return var1;
     };
-    var7['RTC_DEBUG_MODAL_UPDATE_VIDEO_OUTPUT'] = var8;
-    var8 = function handleSetRecordingFlag(arg1) {
+    var8['RTC_DEBUG_MODAL_UPDATE_VIDEO_OUTPUT'] = var9;
+    var9 = function handleSetRecordingFlag(arg1) {
         var1 = arg1;
         var2 = var1.value;
         _closure1_slot21 = var2;
         var1 = undefined;
         return var1;
     };
-    var7['RTC_DEBUG_SET_RECORDING_FLAG'] = var8;
-    var8 = function handleSetSimulcastDebugOverride(arg1) {
+    var8['RTC_DEBUG_SET_RECORDING_FLAG'] = var9;
+    var9 = function handleSetSimulcastDebugOverride(arg1) {
         var1 = arg1;
         var7 = var1.userId;
         var6 = var1.context;
@@ -1210,8 +1210,8 @@ case 112:
         var2 = var3.bind(var4)(var2, var5);
         return var1;
     };
-    var7['RTC_DEBUG_SET_SIMULCAST_OVERRIDE'] = var8;
-    var8 = function handleVoiceChannelSelect(arg1) {
+    var8['RTC_DEBUG_SET_SIMULCAST_OVERRIDE'] = var9;
+    var9 = function handleVoiceChannelSelect(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
@@ -1233,8 +1233,8 @@ case 116:
             return var1;
         }
     };
-    var7['VOICE_CHANNEL_SELECT'] = var8;
-    var8 = function handleVideo(arg1) {
+    var8['VOICE_CHANNEL_SELECT'] = var9;
+    var9 = function handleVideo(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var2 = arg1;
@@ -1257,8 +1257,8 @@ case 117:
             return var1;
         }
     };
-    var7['RTC_CONNECTION_VIDEO'] = var8;
-    var8 = function handleMediaEngineConnectionStats(arg1) {
+    var8['RTC_CONNECTION_VIDEO'] = var9;
+    var9 = function handleMediaEngineConnectionStats(arg1) {
         var2 = arg1;
         var2 = var2.connectionStats;
         var _closure2_slot0 = var2;
@@ -1413,20 +1413,21 @@ case 120:
         var1 = undefined;
         return var1;
     };
-    var7['MEDIA_ENGINE_CONNECTION_STATS'] = var8;
-    var8 = var12.prototype;
-    var8 = Object.create(var8, {constructor: {value: var12}});
-    var18 = var8;
-    var16 = var7;
-    var7 = new var18[var12](var17, var16, var15);
-    var7 = var7 instanceof Object ? var7 : var8;
-    var8 = 14;
-    var8 = var10[var8];
-    var10 = var9.bind(var1)(var8);
-    var9 = var10.fileFinishedImporting;
-    var8 = 'stores/RTCDebugStore.tsx';
-    var8 = var9.bind(var10)(var8);
-    var3['default'] = var7;
+    var8['MEDIA_ENGINE_CONNECTION_STATS'] = var9;
+    var9 = var13.prototype;
+    var9 = Object.create(var9, {constructor: {value: var13}});
+    var18 = var9;
+    var16 = var8;
+    var8 = new var18[var13](var17, var16, var15);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var9 = 14;
+    var9 = var11[var9];
+    var11 = var10.bind(var1)(var9);
+    var10 = var11.fileFinishedImporting;
+    var9 = 'stores/RTCDebugStore.tsx';
+    var9 = var10.bind(var11)(var9);
+    var3['default'] = var8;
+    var3['DEFAULT_SECTION'] = var7;
     var3['graphs'] = var6;
     var3['RTCDebugVideoOutputMap'] = var5;
     var3['keySection'] = var4;

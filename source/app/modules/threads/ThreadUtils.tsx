@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var3 = var6.bind(var5)(var3);
         var3 = var3.t;
-        var3 = var3.1Rcf/h;
+        var3 = var3["1Rcf/h"];
         var1['minutes'] = var3;
         var3 = var7[var2];
         var3 = var6.bind(var5)(var3);

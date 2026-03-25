@@ -316,19 +316,19 @@ case 49:
             var5 = var8.getGuildId;
             var5 = var5.bind(var8)();
             var13 = var9;
-            if(!(var3 != var5)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
-            var13 = var5;
+            if(!(var3 != var5)) { _fun0005_ip = 8; continue _fun0005 }
 case 50:
+            var13 = var5;
+case 8:
             var14 = var3 != var13;
             var5 = null;
-            if(!var14) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
-            var5 = var13;
+            if(!var14) { _fun0005_ip = 51; continue _fun0005 }
 case 52:
+            var5 = var13;
+case 51:
             var12 = var5;
 case 48:
-            _fun0005_ip = 11; continue _fun0005;
+            _fun0005_ip = 53; continue _fun0005;
 case 46:
             var13 = var3 != var9;
             var5 = null;
@@ -337,7 +337,7 @@ case 54:
             var5 = var9;
 case 12:
             var12 = var5;
-case 11:
+case 53:
             var5 = {};
             var17 = var5;
             var16 = var11;

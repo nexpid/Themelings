@@ -74,7 +74,7 @@ case 5:
             var10 = var14[var10];
             var10 = var11.bind(var4)(var10);
             var10 = var10.t;
-            var11 = var10.1Ww0Hi;
+            var11 = var10["1Ww0Hi"];
             var10 = {};
             var9 = var12.bind(var13)(var11, var10);
 case 7:

@@ -584,7 +584,7 @@ case 38:
                 var26 = var30[var26];
                 var26 = var29.bind(var4)(var26);
                 var26 = var26.t;
-                var26 = var26.37iHbZ;
+                var26 = var26["37iHbZ"];
                 var26 = var27.bind(var28)(var26);
                 var21['children'] = var26;
                 var21 = var24.bind(var4)(var23, var21);
@@ -913,7 +913,7 @@ case 62:
                     var5 = var10[var5];
                     var5 = var8.bind(var9)(var5);
                     var5 = var5.t;
-                    var5 = var5.8dM4FO;
+                    var5 = var5["8dM4FO"];
                     var5 = var6.bind(var7)(var5);
                     var1['newPasswordLabel'] = var5;
                     if(!var3) { _fun0011_ip = 64; continue _fun0011 }

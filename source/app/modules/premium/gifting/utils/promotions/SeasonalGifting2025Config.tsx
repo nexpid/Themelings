@@ -478,7 +478,7 @@ case 5:
             var1 = var7[var1];
             var1 = var2.bind(var6)(var1);
             var1 = var1.t;
-            var2 = var1.2h5M+X;
+            var2 = var1["2h5M+X"];
             var1 = {};
             var1['availableCount'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -498,7 +498,7 @@ case 5:
         var1 = var6[var1];
         var1 = var5.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.2h5M+X;
+        var2 = var1["2h5M+X"];
         var1 = {};
         var5 = arg1;
         var1['availableCount'] = var5;
@@ -683,7 +683,7 @@ case 4:
     var11 = var8[var10];
     var11 = var7.bind(var1)(var11);
     var11 = var11.t;
-    var11 = var11.0Z0G7m;
+    var11 = var11["0Z0G7m"];
     var6['yearGiftText'] = var11;
     var10 = var8[var10];
     var10 = var7.bind(var1)(var10);
@@ -738,7 +738,7 @@ case 4:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.3JCuX1;
+        var1 = var1["3JCuX1"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };

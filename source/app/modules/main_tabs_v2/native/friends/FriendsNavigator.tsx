@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var12[var8];
         var8 = var11.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.3D5yo/;
+        var8 = var8["3D5yo/"];
         var8 = var9.bind(var10)(var8);
         var5['accessibilityLabel'] = var8;
         var5 = var7.bind(var3)(var6, var5);
@@ -351,7 +351,7 @@ case 17:
         var13 = var15[var11];
         var13 = var14.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.3hF1W4;
+        var13 = var13["3hF1W4"];
         var13 = var16.bind(var17)(var13);
         var12['title'] = var13;
         var7['options'] = var12;
@@ -475,7 +475,7 @@ case 17:
         var13 = var15[var11];
         var13 = var14.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.1uAmCw;
+        var13 = var13["1uAmCw"];
         var13 = var16.bind(var17)(var13);
         var12['title'] = var13;
         var7['options'] = var12;

@@ -901,7 +901,7 @@ case 54:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.1pp0su;
+            var2 = var2["1pp0su"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 52:
@@ -915,7 +915,7 @@ case 52:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.6IeKx2;
+            var2 = var2["6IeKx2"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 51:

@@ -440,7 +440,7 @@ case 37:
                 var21 = var25[var21];
                 var21 = var24.bind(var4)(var21);
                 var21 = var21.t;
-                var21 = var21.74vS/x;
+                var21 = var21["74vS/x"];
                 var21 = var22.bind(var23)(var21);
                 var18['children'] = var21;
                 var18 = var20.bind(var4)(var19, var18);
@@ -1127,7 +1127,7 @@ case 106:
                 var9 = var12[var9];
                 var9 = var10.bind(var5)(var9);
                 var9 = var9.t;
-                var10 = var9.9sZWVp;
+                var10 = var9["9sZWVp"];
                 var9 = {};
                 var25 = var16.name;
                 var9['gameName'] = var25;
@@ -1903,7 +1903,7 @@ case 162:
                 var17 = var31[var17];
                 var17 = var23.bind(var4)(var17);
                 var17 = var17.t;
-                var23 = var17.4CQq9Q;
+                var23 = var17["4CQq9Q"];
                 var17 = {};
                 var27 = var27.name;
                 var17['name'] = var27;
@@ -2232,7 +2232,7 @@ case 181:
                 var7 = var14[var7];
                 var7 = var13.bind(var4)(var7);
                 var7 = var7.t;
-                var7 = var7.9FaEzi;
+                var7 = var7["9FaEzi"];
                 var5 = var8.bind(var12)(var7);
 case 186:
                 var1['title'] = var5;
@@ -2325,7 +2325,7 @@ case 189:
                 var22 = var33[var22];
                 var22 = var23.bind(var4)(var22);
                 var22 = var22.t;
-                var22 = var22.9C444m;
+                var22 = var22["9C444m"];
                 var22 = var24.bind(var25)(var22);
                 var16['accessibilityHint'] = var22;
                 var22 = function onPress() {

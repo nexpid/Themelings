@@ -158,7 +158,7 @@ case 0:
             var3 = var12[var19];
             var3 = var13.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.9KiIz6;
+            var3 = var3["9KiIz6"];
             var17 = var5.bind(var9)(var3);
             var3 = var12[var19];
             var3 = var13.bind(var4)(var3);
@@ -167,7 +167,7 @@ case 0:
             var3 = var12[var19];
             var3 = var13.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.5e0geG;
+            var3 = var3["5e0geG"];
             var24 = var5.bind(var9)(var3);
             var5 = _closure1_slot3;
             var9 = var5.useMemo;
@@ -497,7 +497,7 @@ case 17:
             var10 = var13;
             _fun0001_ip = 18; continue _fun0001;
 case 16:
-            var20 = var20.9D+zGX;
+            var20 = var20["9D+zGX"];
             var20 = var21.bind(var22)(var20);
             var13['text'] = var20;
             var20 = function handleNavigateToSettingsButtonPress() {

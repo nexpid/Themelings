@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var13[var9];
         var9 = var12.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.0DPAZH;
+        var9 = var9["0DPAZH"];
         var9 = var10.bind(var11)(var9);
         var1['title'] = var9;
         var1['onChange'] = var8;
@@ -1051,11 +1051,11 @@ case 38:
             var20 = var19.t;
             if(var23) { _fun0007_ip = 40; continue _fun0007 }
 case 41:
-            var19 = var20./UonHN;
+            var19 = var20["/UonHN"];
             var19 = var21.bind(var22)(var19);
             _fun0007_ip = 42; continue _fun0007;
 case 40:
-            var20 = var20.2p9FMw;
+            var20 = var20["2p9FMw"];
             var19 = var21.bind(var22)(var20);
 case 42:
             var8['accessibilityLabel'] = var19;
@@ -1174,7 +1174,7 @@ case 55:
             var23 = var23[var13];
             var23 = var26.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23./UonHN;
+            var23 = var23["/UonHN"];
             var23 = var24.bind(var25)(var23);
             _fun0007_ip = 56; continue _fun0007;
 case 54:
@@ -1463,7 +1463,7 @@ case 63:
 case 65:
             _fun0008_ip = 66; continue _fun0008;
 case 61:
-            var15 = var15.3Uj+2p;
+            var15 = var15["3Uj+2p"];
             var14 = var16.bind(var17)(var15);
 case 66:
             var5['title'] = var14;

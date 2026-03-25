@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -959,7 +959,7 @@ case 96:
             var15 = var65[var78];
             var15 = var64.bind(var3)(var15);
             var15 = var15.t;
-            var15 = var15.5IEsGx;
+            var15 = var15["5IEsGx"];
             var15 = var20.bind(var23)(var15);
             var14['label'] = var15;
             var15 = 43;
@@ -1021,7 +1021,7 @@ case 96:
             var23 = var65[var78];
             var23 = var64.bind(var3)(var23);
             var23 = var23.t;
-            var23 = var23.39d0Wj;
+            var23 = var23["39d0Wj"];
             var23 = var24.bind(var30)(var23);
             var14['label'] = var23;
             var20 = var65[var20];
@@ -1408,7 +1408,7 @@ case 96:
             var70 = var65[var78];
             var70 = var64.bind(var3)(var70);
             var70 = var70.t;
-            var70 = var70.92CPQ+;
+            var70 = var70["92CPQ+"];
             var70 = var74.bind(var75)(var70);
             var14['label'] = var70;
             var70 = 41;
@@ -1491,7 +1491,7 @@ case 98:
             var19 = var19[var78];
             var19 = var52.bind(var3)(var19);
             var19 = var19.t;
-            var19 = var19.4sxKOb;
+            var19 = var19["4sxKOb"];
             var19 = var24.bind(var51)(var19);
             _fun0004_ip = 99; continue _fun0004;
 case 97:
@@ -1574,7 +1574,7 @@ case 99:
             var64 = var77[var78];
             var64 = var76.bind(var3)(var64);
             var64 = var64.t;
-            var64 = var64.+78Pfm;
+            var64 = var64["+78Pfm"];
             var64 = var65.bind(var66)(var64);
             var15['label'] = var64;
             var64 = 61;
@@ -1618,7 +1618,7 @@ case 99:
             var79 = 63;
             var79 = var77[var79];
             var79 = var82.bind(var3)(var79);
-            var79 = var79.1D+vqy;
+            var79 = var79["1D+vqy"];
             var79 = var80.bind(var81)(var79);
             var15['label'] = var79;
             var64 = var77[var64];
@@ -2223,7 +2223,7 @@ case 208:
             var12 = var14[var12];
             var12 = var13.bind(var3)(var12);
             var12 = var12.t;
-            var12 = var12.5911Lb;
+            var12 = var12["5911Lb"];
             var12 = var15.bind(var16)(var12);
             var10['label'] = var12;
             var12 = 38;

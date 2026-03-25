@@ -244,7 +244,7 @@ case 9:
             var8 = var15[var16];
             var8 = var19.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.1EUr/W;
+            var8 = var8["1EUr/W"];
             var8 = var17.bind(var18)(var8);
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);

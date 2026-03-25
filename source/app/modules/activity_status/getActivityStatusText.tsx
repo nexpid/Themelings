@@ -281,7 +281,7 @@ case 78:
             var8 = var14[var8];
             var8 = var10.bind(var3)(var8);
             var8 = var8.t;
-            var10 = var8.0wJXSh;
+            var10 = var8["0wJXSh"];
             var8 = {};
             var8['name'] = var9;
             var8 = var11.bind(var12)(var10, var8);

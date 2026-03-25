@@ -265,7 +265,7 @@ case 4:
             var24 = var28[var24];
             var24 = var27.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.6gF4aS;
+            var24 = var24["6gF4aS"];
             var24 = var25.bind(var26)(var24);
             var21['text'] = var24;
             var21 = var23.bind(var4)(var22, var21);

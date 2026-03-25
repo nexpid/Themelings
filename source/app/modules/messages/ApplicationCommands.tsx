@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var6);
     var _closure1_slot0 = var4;
-    var4 = /<\\/([^\s]+):(\d+)>(?:\s?(.*))?/;
+    var4 = /<\/([^\s]+):(\d+)>(?:\s?(.*))?/;
     var _closure1_slot1 = var4;
     var4 = 1;
     var5 = var5[var4];

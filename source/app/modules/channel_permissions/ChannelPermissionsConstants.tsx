@@ -186,7 +186,7 @@ case 15:
             var7 = undefined;
             var7 = var9.bind(var7)(var8);
             var7 = var7.t;
-            var2 = var7.3jG0Bo;
+            var2 = var7["3jG0Bo"];
             _fun0001_ip = 10; continue _fun0001;
 case 13:
             var9 = _closure1_slot0;
@@ -247,7 +247,7 @@ case 16:
             var7 = var15[var7];
             var7 = var14.bind(var12)(var7);
             var7 = var7.t;
-            var7 = var7.9qLtWs;
+            var7 = var7["9qLtWs"];
             var3 = var8.bind(var9)(var7);
 case 18:
             var2['title'] = var3;
@@ -290,7 +290,7 @@ case 21:
             var7 = undefined;
             var7 = var9.bind(var7)(var8);
             var7 = var7.t;
-            var3 = var7.+gl2ne;
+            var3 = var7["+gl2ne"];
             _fun0001_ip = 25; continue _fun0001;
 case 19:
             var9 = _closure1_slot0;
@@ -371,7 +371,7 @@ case 30:
             var2 = var2[var8];
             var2 = var14.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2./ADKmM;
+            var2 = var2["/ADKmM"];
             var2 = var9.bind(var12)(var2);
             var3['title'] = var2;
             var2 = _closure1_slot3;
@@ -447,7 +447,7 @@ case 34:
             var12 = var12[var8];
             var12 = var14.bind(var7)(var12);
             var12 = var12.t;
-            var9 = var12.3YFAAX;
+            var9 = var12["3YFAAX"];
 case 39:
             var3['description'] = var9;
             var9 = var2.CREATE_INSTANT_INVITE;
@@ -636,7 +636,7 @@ case 56:
             var2 = var2[var8];
             var2 = var12.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.969dEL;
+            var2 = var2["969dEL"];
             var2 = var9.bind(var11)(var2);
             var3['title'] = var2;
             var2 = _closure1_slot3;
@@ -656,7 +656,7 @@ case 64:
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
-            var2 = var9.7zlUay;
+            var2 = var9["7zlUay"];
 case 66:
             var3['description'] = var2;
             var2 = _closure1_slot6;
@@ -676,7 +676,7 @@ case 66:
             var3 = var3[var8];
             var3 = var12.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.3AS4UM;
+            var3 = var3["3AS4UM"];
             var3 = var9.bind(var11)(var3);
             var2['title'] = var3;
             var3 = _closure1_slot3;
@@ -765,7 +765,7 @@ case 74:
             var2 = var2[var8];
             var2 = var12.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.+bxf3H;
+            var2 = var2["+bxf3H"];
             var2 = var9.bind(var11)(var2);
             var3['title'] = var2;
             var2 = _closure1_slot3;
@@ -825,7 +825,7 @@ case 78:
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
-            var2 = var9.39whJ4;
+            var2 = var9["39whJ4"];
 case 80:
             var3['description'] = var2;
             var2 = _closure1_slot6;
@@ -879,7 +879,7 @@ case 87:
             var3 = var3[var8];
             var3 = var9.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.6IUSdt;
+            var3 = var3["6IUSdt"];
             _fun0001_ip = 88; continue _fun0001;
 case 86:
             var11 = _closure1_slot0;
@@ -916,7 +916,7 @@ case 89:
             var11 = var2[var8];
             var11 = var12.bind(var7)(var11);
             var11 = var11.t;
-            var11 = var11.6lU9xM;
+            var11 = var11["6lU9xM"];
             var11 = var14.bind(var15)(var11);
             var4['title'] = var11;
             var11 = _closure1_slot3;
@@ -963,7 +963,7 @@ case 90:
             var14 = var14[var8];
             var14 = var15.bind(var7)(var14);
             var14 = var14.t;
-            var11 = var14.5R9nYh;
+            var11 = var14["5R9nYh"];
 case 94:
             var4['description'] = var11;
             var11 = var3.MANAGE_MESSAGES;
@@ -992,7 +992,7 @@ case 96:
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.0l2EjL;
+            var2 = var2["0l2EjL"];
             _fun0001_ip = 97; continue _fun0001;
 case 95:
             var11 = _closure1_slot0;
@@ -1070,7 +1070,7 @@ case 102:
             var2 = var11.bind(var12)(var2);
             _fun0001_ip = 103; continue _fun0001;
 case 101:
-            var9 = var9.0RQwtn;
+            var9 = var9["0RQwtn"];
             var2 = var11.bind(var12)(var9);
 case 103:
             var3['title'] = var2;
@@ -1287,7 +1287,7 @@ case 123:
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
-            var3 = var9.18Ya7L;
+            var3 = var9["18Ya7L"];
 case 125:
             var2['description'] = var3;
             var3 = _closure1_slot6;
@@ -1428,7 +1428,7 @@ case 136:
             var10 = var2[var8];
             var10 = var11.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.8w1tIR;
+            var10 = var10["8w1tIR"];
             var10 = var12.bind(var13)(var10);
             var4['title'] = var10;
             var10 = _closure1_slot3;
@@ -1456,7 +1456,7 @@ case 152:
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.568E6d;
+            var10 = var10["568E6d"];
             _fun0001_ip = 153; continue _fun0001;
 case 149:
             var13 = _closure1_slot0;
@@ -1464,7 +1464,7 @@ case 149:
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
-            var10 = var12.+VXsJI;
+            var10 = var12["+VXsJI"];
             _fun0001_ip = 153; continue _fun0001;
 case 147:
             var13 = _closure1_slot0;
@@ -1619,7 +1619,7 @@ case 168:
             var10 = var2[var8];
             var10 = var11.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.3TzAk0;
+            var10 = var10["3TzAk0"];
             var10 = var12.bind(var13)(var10);
             var4['title'] = var10;
             var10 = _closure1_slot3;
@@ -1723,7 +1723,7 @@ case 177:
             var12 = var18[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
-            var13 = var12.6eYqU1;
+            var13 = var12["6eYqU1"];
             var12 = {};
             var17 = _closure1_slot1;
             var16 = 3;
@@ -1746,7 +1746,7 @@ case 175:
             var12 = var18[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
-            var13 = var12.0kBp/0;
+            var13 = var12["0kBp/0"];
             var12 = {};
             var17 = _closure1_slot1;
             var16 = 3;
@@ -1796,7 +1796,7 @@ case 181:
             var10 = var2[var8];
             var10 = var11.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.08zAV7;
+            var10 = var10["08zAV7"];
             var10 = var12.bind(var13)(var10);
             var4['title'] = var10;
             var10 = _closure1_slot3;
@@ -1832,7 +1832,7 @@ case 186:
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
-            var10 = var12.3GJwsc;
+            var10 = var12["3GJwsc"];
             _fun0001_ip = 190; continue _fun0001;
 case 184:
             var13 = _closure1_slot0;
@@ -1917,7 +1917,7 @@ case 193:
             var12 = var16[var8];
             var12 = var19.bind(var7)(var12);
             var12 = var12.t;
-            var13 = var12.4nbjL0;
+            var13 = var12["4nbjL0"];
             var12 = {};
             var17 = var16[var8];
             var17 = var19.bind(var7)(var17);
@@ -1970,7 +1970,7 @@ case 197:
             var10 = var2[var8];
             var10 = var11.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.8EI30/;
+            var10 = var10["8EI30/"];
             var10 = var12.bind(var13)(var10);
             var4['title'] = var10;
             var10 = _closure1_slot3;
@@ -2039,7 +2039,7 @@ case 206:
             var10 = var2[var8];
             var10 = var11.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.9L47Fr;
+            var10 = var10["9L47Fr"];
             var10 = var12.bind(var13)(var10);
             var4['title'] = var10;
             var10 = _closure1_slot3;
@@ -2165,7 +2165,7 @@ case 222:
             var2 = var2[var8];
             var2 = var11.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.5kicT2;
+            var2 = var2["5kicT2"];
             var2 = var9.bind(var10)(var2);
             var3['title'] = var2;
             var2 = _closure1_slot3;
@@ -2299,7 +2299,7 @@ case 237:
             var2 = var2[var8];
             var2 = var11.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.25rKnX;
+            var2 = var2["25rKnX"];
             var2 = var9.bind(var10)(var2);
             var3['title'] = var2;
             var2 = _closure1_slot3;
@@ -2311,7 +2311,7 @@ case 239:
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.5SDtGB;
+            var2 = var2["5SDtGB"];
             _fun0001_ip = 240; continue _fun0001;
 case 238:
             var10 = _closure1_slot0;
@@ -2319,7 +2319,7 @@ case 238:
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
-            var2 = var9.+M1yLj;
+            var2 = var9["+M1yLj"];
 case 240:
             var3['description'] = var2;
             var2 = _closure1_slot6;
@@ -2402,7 +2402,7 @@ case 246:
             var9 = var9[var8];
             var9 = var12.bind(var7)(var9);
             var9 = var9.t;
-            var9 = var9.5QlVGy;
+            var9 = var9["5QlVGy"];
             var2 = var10.bind(var11)(var9);
 case 248:
             _fun0001_ip = 249; continue _fun0001;
@@ -2485,7 +2485,7 @@ case 257:
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.4pO/TY;
+            var2 = var2["4pO/TY"];
             _fun0001_ip = 258; continue _fun0001;
 case 256:
             var10 = _closure1_slot0;

@@ -1129,7 +1129,7 @@ case 44:
             var31 = var30[var26];
             var31 = var27.bind(var4)(var31);
             var31 = var31.t;
-            var31 = var31.+9etcM;
+            var31 = var31["+9etcM"];
             var31 = var32.bind(var33)(var31);
             var24['children'] = var31;
             var24 = var25.bind(var4)(var29, var24);

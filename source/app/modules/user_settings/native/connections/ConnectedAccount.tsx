@@ -1510,7 +1510,7 @@ case 74:
                 var3 = var17[var3];
                 var3 = var12.bind(var5)(var3);
                 var3 = var3.t;
-                var12 = var3.9rfonh;
+                var12 = var3["9rfonh"];
                 var3 = {};
                 var3['date'] = var16;
                 var3 = var14.bind(var15)(var12, var3);
@@ -1770,7 +1770,7 @@ case 80:
                 var15 = var14[var15];
                 var15 = var13.bind(var5)(var15);
                 var15 = var15.t;
-                var15 = var15.8O0mlf;
+                var15 = var15["8O0mlf"];
                 var15 = var16.bind(var17)(var15);
                 var7['text'] = var15;
                 var15 = var14[var12];
@@ -1859,7 +1859,7 @@ case 82:
                 var8 = var12[var8];
                 var8 = var11.bind(var5)(var8);
                 var8 = var8.t;
-                var8 = var8.+KCMSi;
+                var8 = var8["+KCMSi"];
                 var8 = var9.bind(var10)(var8);
                 var2['label'] = var8;
                 var2['value'] = var7;
@@ -1912,7 +1912,7 @@ case 82:
                 var8 = var13[var8];
                 var8 = var9.bind(var5)(var8);
                 var8 = var8.t;
-                var9 = var8.6u6J0q;
+                var9 = var8["6u6J0q"];
                 var8 = {};
                 var12 = var12.name;
                 var8['platform'] = var12;

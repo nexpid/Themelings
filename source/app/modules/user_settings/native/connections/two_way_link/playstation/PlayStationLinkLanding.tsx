@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6[var3];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.+eJP7o;
+            var1 = var1["+eJP7o"];
             var1 = var7.bind(var8)(var1);
             var2['label'] = var1;
             var1 = var6[var3];
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6[var3];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.+0VIUh;
+            var1 = var1["+0VIUh"];
             var1 = var7.bind(var8)(var1);
             var2['subLabel'] = var1;
             var1 = 6;

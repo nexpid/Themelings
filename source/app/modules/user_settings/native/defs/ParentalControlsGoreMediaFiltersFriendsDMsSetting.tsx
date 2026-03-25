@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.+uI23H;
+        var1 = var1["+uI23H"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -115,7 +115,7 @@ case 7:
             var10 = var7[var10];
             var10 = var6.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.16/3Bi;
+            var10 = var10["16/3Bi"];
             var10 = var11.bind(var12)(var10);
             var1['title'] = var10;
             var9 = _closure1_slot3;

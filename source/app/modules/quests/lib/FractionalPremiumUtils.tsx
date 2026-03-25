@@ -167,7 +167,7 @@ case 4:
         var1 = var10[var1];
         var1 = var6.bind(var9)(var1);
         var1 = var1.t;
-        var2 = var1.4SqnVD;
+        var2 = var1["4SqnVD"];
         var1 = {};
         var5 = var10[var5];
         var6 = var6.bind(var9)(var5);

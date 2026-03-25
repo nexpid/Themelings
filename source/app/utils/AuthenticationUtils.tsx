@@ -53,7 +53,7 @@ case 0:
             var1 = null;
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = /^\\/developers/;
+            var4 = /^\/developers/;
             var2 = var4.test;
             var2 = var2.bind(var4)(var5);
             var1 = null;

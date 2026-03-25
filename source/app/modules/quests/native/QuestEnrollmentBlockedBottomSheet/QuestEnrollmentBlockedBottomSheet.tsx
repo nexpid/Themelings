@@ -110,7 +110,7 @@ case 5:
             var12 = var17[var12];
             var12 = var13.bind(var5)(var12);
             var12 = var12.t;
-            var13 = var12.+5XVH+;
+            var13 = var12["+5XVH+"];
             var12 = {};
             var16 = var16.HermesInternal;
             var18 = var16.concat;

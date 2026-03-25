@@ -242,7 +242,7 @@ case 0:
             var4 = arg1;
             var3 = var4;
             var2 = var4.replace;
-            var1 = /^file:\\/\\//;
+            var1 = /^file:\/\//;
             var5 = '';
             var3 = var2.bind(var4)(var1, var5);
 case 27: // try_start_0

@@ -249,7 +249,7 @@ case 0:
             var19 = var10[var17];
             var19 = var11.bind(var3)(var19);
             var19 = var19.t;
-            var19 = var19.4bhpIV;
+            var19 = var19["4bhpIV"];
             var19 = var20.bind(var21)(var19);
             var13['label'] = var19;
             var19 = var18.bind(var3)();
@@ -410,7 +410,7 @@ case 11:
             var13 = var13[var17];
             var13 = var16.bind(var3)(var13);
             var13 = var13.t;
-            var13 = var13.7dqZ6H;
+            var13 = var13["7dqZ6H"];
             var13 = var14.bind(var15)(var13);
             var9['label'] = var13;
             var12 = function onPress() {

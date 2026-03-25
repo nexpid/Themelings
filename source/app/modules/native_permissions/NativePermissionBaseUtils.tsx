@@ -230,7 +230,7 @@ case 0:
                 var2 = var10[var9];
                 var2 = var16.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.68G7fD;
+                var2 = var2["68G7fD"];
                 var11 = var7.bind(var8)(var2);
                 var2 = var10[var9];
                 var2 = var16.bind(var1)(var2);
@@ -239,7 +239,7 @@ case 0:
                 var2 = var10[var9];
                 var2 = var16.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.5Jvu1R;
+                var2 = var2["5Jvu1R"];
                 var8 = var7.bind(var8)(var2);
                 var7 = global;
                 var2 = var7.HermesInternal;
@@ -270,7 +270,7 @@ case 0:
                 var11 = var10[var9];
                 var11 = var16.bind(var1)(var11);
                 var11 = var11.t;
-                var11 = var11.5Jvu1R;
+                var11 = var11["5Jvu1R"];
                 var15 = var15.bind(var18)(var11);
                 var11 = var7.HermesInternal;
                 var11 = var11.concat;
@@ -293,7 +293,7 @@ case 0:
                 var11 = var10[var9];
                 var11 = var16.bind(var1)(var11);
                 var11 = var11.t;
-                var11 = var11.5Jvu1R;
+                var11 = var11["5Jvu1R"];
                 var15 = var15.bind(var18)(var11);
                 var11 = var7.HermesInternal;
                 var11 = var11.concat;
@@ -316,7 +316,7 @@ case 0:
                 var11 = var10[var9];
                 var11 = var16.bind(var1)(var11);
                 var11 = var11.t;
-                var11 = var11.5Jvu1R;
+                var11 = var11["5Jvu1R"];
                 var15 = var15.bind(var18)(var11);
                 var11 = var7.HermesInternal;
                 var11 = var11.concat;
@@ -339,7 +339,7 @@ case 0:
                 var10 = var10[var9];
                 var10 = var16.bind(var1)(var10);
                 var10 = var10.t;
-                var10 = var10.5Jvu1R;
+                var10 = var10["5Jvu1R"];
                 var10 = var14.bind(var15)(var10);
                 var7 = var7.HermesInternal;
                 var7 = var7.concat;

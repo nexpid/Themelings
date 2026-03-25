@@ -480,11 +480,11 @@ case 7:
             var12 = var12.t;
             if(var11) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var11 = var12.7D3C5p;
+            var11 = var12["7D3C5p"];
             var11 = var13.bind(var14)(var11);
             _fun0001_ip = 10; continue _fun0001;
 case 8:
-            var12 = var12.3smSPP;
+            var12 = var12["3smSPP"];
             var11 = var13.bind(var14)(var12);
 case 10:
             var8['children'] = var11;

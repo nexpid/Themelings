@@ -487,7 +487,7 @@ case 0:
             var9 = var19[var20];
             var9 = var18.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.6I6GUv;
+            var9 = var9["6I6GUv"];
             var9 = var11.bind(var13)(var9);
             var5['title'] = var9;
             var16 = _closure1_slot5;
@@ -549,7 +549,7 @@ case 0:
             var22 = var19[var20];
             var22 = var18.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.6EjbvA;
+            var22 = var22["6EjbvA"];
             var22 = var23.bind(var24)(var22);
             var9['subLabel'] = var22;
             var9['value'] = var21;

@@ -610,13 +610,19 @@ case 43:
 case 44:
             var4 = _closure1_slot19;
             var3 = _closure1_slot1;
-            var9 = _closure1_slot3;
+            var10 = _closure1_slot3;
             var1 = 27;
-            var1 = var9[var1];
+            var1 = var10[var1];
             var3 = var3.bind(var5)(var1);
             var1 = {};
             var1['channelId'] = var8;
             var1['guildId'] = var6;
+            var9 = _closure1_slot0;
+            var8 = 19;
+            var8 = var10[var8];
+            var8 = var9.bind(var5)(var8);
+            var8 = var8.dismissGlobalKeyboard;
+            var1['onUserPress'] = var8;
             var8 = true;
             var1['disableStickySections'] = var8;
             var1 = var4.bind(var5)(var3, var1);
@@ -724,7 +730,7 @@ case 45:
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
-            var12 = var1.searchContext;
+            var14 = var1.searchContext;
             var1 = _closure1_slot20;
             var4 = undefined;
             var11 = var1.bind(var4)();
@@ -739,7 +745,7 @@ case 0:
             var2 = var2.SEARCH_MEMBERS;
             var2 = var3.bind(var4)(var2);
             var5 = var2.analyticsLocations;
-            var3 = var12.type;
+            var3 = var14.type;
             var2 = _closure1_slot18;
             var2 = var2.CHANNEL;
             if(!(var2 !== var3)) { _fun0011_ip = 46; continue _fun0011 }
@@ -758,15 +764,15 @@ case 51:
 case 52:
             var2 = global;
             var6 = var2.Error;
-            var7 = var12.type;
+            var7 = var14.type;
             var2 = var2.HermesInternal;
             var3 = var2.concat;
             var2 = '[MembersScreen] Unsupported search context type: ';
-            var15 = var3.bind(var2)(var7);
+            var16 = var3.bind(var2)(var7);
             var3 = var6.prototype;
             var3 = Object.create(var3, {constructor: {value: var6}});
-            var16 = var3;
-            var2 = new var16[var6](var15, var14);
+            var17 = var3;
+            var2 = new var17[var6](var16, var15);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
 case 50:
@@ -781,9 +787,9 @@ case 50:
             var10 = _closure1_slot19;
             var9 = _closure1_slot21;
             var7 = {};
-            var7['searchContext'] = var12;
-            var13 = var12.guildId;
-            var7['guildId'] = var13;
+            var7['searchContext'] = var14;
+            var12 = var14.guildId;
+            var7['guildId'] = var12;
             var7 = var10.bind(var4)(var9, var7);
             var2['children'] = var7;
             var2 = var6.bind(var4)(var3, var2);
@@ -792,19 +798,19 @@ case 48:
             var6 = _closure1_slot19;
             var3 = _closure1_slot22;
             var2 = {};
-            var2['searchContext'] = var12;
-            var7 = var12.channelId;
+            var2['searchContext'] = var14;
+            var7 = var14.channelId;
             var2['channelId'] = var7;
-            var7 = var12.guildId;
+            var7 = var14.guildId;
             var2['guildId'] = var7;
             var2 = var6.bind(var4)(var3, var2);
             return var2;
 case 46:
             var3 = _closure1_slot19;
-            var2 = _closure1_slot0;
+            var12 = _closure1_slot0;
             var13 = _closure1_slot3;
             var1 = var13[var1];
-            var1 = var2.bind(var4)(var1);
+            var1 = var12.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
             var1['value'] = var5;
@@ -819,12 +825,17 @@ case 46:
             var8 = var13[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
-            var12 = var12.channelId;
-            var8['channelId'] = var12;
-            var12 = true;
-            var8['disableStickySections'] = var12;
+            var14 = var14.channelId;
+            var8['channelId'] = var14;
+            var14 = true;
+            var8['disableStickySections'] = var14;
             var11 = var11.userList;
             var8['listStyleOverride'] = var11;
+            var11 = 19;
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var11 = var11.dismissGlobalKeyboard;
+            var8['onUserPress'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

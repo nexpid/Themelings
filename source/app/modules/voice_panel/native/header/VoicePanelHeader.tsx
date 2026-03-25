@@ -1402,7 +1402,7 @@ case 65:
             var1 = var27[var1];
             var1 = var26.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.9M6OdC;
+            var1 = var1["9M6OdC"];
             var40 = var2.bind(var5)(var1);
 case 70:
             var5 = _closure1_slot1;
@@ -1533,7 +1533,7 @@ case 90:
                     var3 = var8[var3];
                     var3 = var7.bind(var6)(var3);
                     var3 = var3.t;
-                    var3 = var3.7YZ/Si;
+                    var3 = var3["7YZ/Si"];
                     var1 = var4.bind(var5)(var3);
 case 91:
                     _fun0017_ip = 92; continue _fun0017;
@@ -1548,7 +1548,7 @@ case 87:
                     var3 = var8[var3];
                     var3 = var7.bind(var6)(var3);
                     var3 = var3.t;
-                    var3 = var3./R1SBx;
+                    var3 = var3["/R1SBx"];
                     var1 = var4.bind(var5)(var3);
 case 92:
                     _fun0017_ip = 93; continue _fun0017;

@@ -629,7 +629,7 @@ case 44:
             var27 = var32[var27];
             var27 = var30.bind(var4)(var27);
             var27 = var27.t;
-            var27 = var27.13/7kX;
+            var27 = var27["13/7kX"];
             var27 = var28.bind(var29)(var27);
             var19['text'] = var27;
             var27 = function onPress() {
@@ -725,7 +725,7 @@ case 40:
             var26 = var30[var26];
             var26 = var29.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.13/7kX;
+            var26 = var26["13/7kX"];
             var26 = var27.bind(var28)(var26);
             var18['text'] = var26;
             var26 = function onPress() {
@@ -797,7 +797,7 @@ case 50:
             var22 = var26[var22];
             var22 = var25.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.5E9SB9;
+            var22 = var22["5E9SB9"];
             var22 = var23.bind(var24)(var22);
             var18['label'] = var22;
             var21 = function onPress() {

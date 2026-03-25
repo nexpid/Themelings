@@ -163,7 +163,7 @@ case 8:
         var3 = var9[var4];
         var3 = var8.bind(var7)(var3);
         var3 = var3.t;
-        var3 = var3./gdTGA;
+        var3 = var3["/gdTGA"];
         var3 = var5.bind(var6)(var3);
         var2['subLabel'] = var3;
         var3 = _closure1_slot2;

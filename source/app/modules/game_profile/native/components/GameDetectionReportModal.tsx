@@ -239,7 +239,7 @@ case 2:
                 var5 = var10[var5];
                 var5 = var9.bind(var8)(var5);
                 var5 = var5.t;
-                var5 = var5.6tnjbD;
+                var5 = var5["6tnjbD"];
                 var5 = var6.bind(var7)(var5);
                 var1['title'] = var5;
                 var5 = function headerLeft() {
@@ -545,7 +545,7 @@ case 18:
                 var13 = var14[var18];
                 var13 = var17.bind(var2)(var13);
                 var13 = var13.t;
-                var13 = var13.79o/iq;
+                var13 = var13["79o/iq"];
                 var13 = var15.bind(var16)(var13);
                 var8['children'] = var13;
                 var10 = var12.bind(var2)(var10, var8);
@@ -591,7 +591,7 @@ case 24:
                 var14 = var14[var18];
                 var14 = var17.bind(var2)(var14);
                 var14 = var14.t;
-                var14 = var14./SGi7v;
+                var14 = var14["/SGi7v"];
                 var14 = var15.bind(var16)(var14);
                 var10['placeholder'] = var14;
                 var10 = var13.bind(var2)(var12, var10);

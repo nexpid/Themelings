@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -476,26 +476,26 @@ case 64:
     var14 = var14.MAX_PREMIUM_TIER_2_ATTACHMENT_SIZE;
     var _closure1_slot7 = var14;
     var16 = {};
-    var14 = /^image\\/vnd.adobe.photoshop/;
+    var14 = /^image\/vnd.adobe.photoshop/;
     var16['reType'] = var14;
     var14 = 'photoshop';
     var16['klass'] = var14;
     var14 = new Array(14);
     var14[0] = var16;
     var16 = {};
-    var17 = /^image\\/svg\+xml/;
+    var17 = /^image\/svg\+xml/;
     var16['reType'] = var17;
     var17 = 'webcode';
     var16['klass'] = var17;
     var14[1] = var16;
     var16 = {};
-    var18 = /^image\\//;
+    var18 = /^image\//;
     var16['reType'] = var18;
     var18 = 'image';
     var16['klass'] = var18;
     var14[2] = var16;
     var16 = {};
-    var18 = /^video\\//;
+    var18 = /^video\//;
     var16['reType'] = var18;
     var18 = 'video';
     var16['klass'] = var18;

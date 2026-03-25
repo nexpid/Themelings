@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.GIFPickerResultTypes;
     var _closure1_slot4 = var4;
-    var4 = /(https?:\\/\\/)(?!media(?:\d+)?\.)(?:[^.]+\.)*giphy\.com/;
+    var4 = /(https?:\/\/)(?!media(?:\d+)?\.)(?:[^.]+\.)*giphy\.com/;
     var _closure1_slot5 = var4;
     var4 = /(tenor\.com)/;
     var _closure1_slot6 = var4;

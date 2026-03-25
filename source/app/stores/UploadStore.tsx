@@ -276,9 +276,9 @@ case 23:
     var7 = var5[var7];
     var7 = var6.bind(var1)(var7);
     var _closure1_slot5 = var7;
-    var7 = /^(assets-library|ph|file):\\/\\//;
+    var7 = /^(assets-library|ph|file):\/\//;
     var _closure1_slot6 = var7;
-    var7 = /^content:\\/\\//;
+    var7 = /^content:\/\//;
     var _closure1_slot7 = var7;
     var8 = var2.Object;
     var7 = var8.freeze;

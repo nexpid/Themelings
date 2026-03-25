@@ -546,7 +546,7 @@ case 44:
             var2 = var2[var11];
             var2 = var10.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.4WNcpu;
+            var2 = var2["4WNcpu"];
             var15 = var3.bind(var9)(var2);
             _fun0001_ip = 47; continue _fun0001;
 case 46:
@@ -674,7 +674,7 @@ case 22:
             var13 = var13[var11];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.9Oq93m;
+            var13 = var13["9Oq93m"];
             var13 = var14.bind(var15)(var13);
             var9['title'] = var13;
             var9['icon'] = var12;

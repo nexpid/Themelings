@@ -242,7 +242,7 @@ case 8:
             var6 = var13[var6];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
-            var7 = var6.4EsQA1;
+            var7 = var6["4EsQA1"];
             var6 = {};
             var18 = 1;
             var18 = var19 + var18;

@@ -451,7 +451,7 @@ case 22:
             var18 = var10[var17];
             var18 = var2.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.3fe7U5;
+            var18 = var18["3fe7U5"];
             var19 = var19.bind(var20)(var18);
             var18 = new Array(2);
             var18[0] = var19;

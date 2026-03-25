@@ -198,7 +198,7 @@ case 2:
             var19 = var10[var14];
             var19 = var13.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.3D5yo/;
+            var19 = var19["3D5yo/"];
             var19 = var20.bind(var21)(var19);
             var15['accessibilityLabel'] = var19;
             var15['accessibilityRole'] = var18;
@@ -295,7 +295,7 @@ case 12:
                     var3 = var9[var3];
                     var3 = var8.bind(var4)(var3);
                     var3 = var3.t;
-                    var5 = var3.99ISmn;
+                    var5 = var3["99ISmn"];
 case 14:
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot2;

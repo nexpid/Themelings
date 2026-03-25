@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var4 = var4.t;
-        var4 = var4.5SPKSy;
+        var4 = var4["5SPKSy"];
         var4 = var5.bind(var9)(var4);
         var2['title'] = var4;
         var4 = var8[var3];

@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var8[var3];
         var5 = var7.bind(var6)(var5);
         var5 = var5.t;
-        var5 = var5.3kmAMM;
+        var5 = var5["3kmAMM"];
         var5 = var9.bind(var10)(var5);
         var2['label'] = var5;
         var1[2] = var2;
@@ -181,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var8[var3];
         var3 = var7.bind(var6)(var3);
         var3 = var3.t;
-        var3 = var3.7ZIIJ9;
+        var3 = var3["7ZIIJ9"];
         var3 = var4.bind(var5)(var3);
         var2['label'] = var3;
         var1[5] = var2;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var8[var3];
         var1 = var7.bind(var6)(var1);
         var1 = var1.t;
-        var1 = var1.64Oph/;
+        var1 = var1["64Oph/"];
         var1 = var5.bind(var9)(var1);
         var2['label'] = var1;
         var1 = new Array(4);
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var8[var3];
         var5 = var7.bind(var6)(var5);
         var5 = var5.t;
-        var5 = var5.4uZBRp;
+        var5 = var5["4uZBRp"];
         var5 = var9.bind(var10)(var5);
         var2['label'] = var5;
         var1[2] = var2;
@@ -465,7 +465,7 @@ case 2:
             var6 = var7.string;
             var5 = var5[var10];
             var5 = var8.bind(var9)(var5);
-            var5 = var5.8JFGXc;
+            var5 = var5["8JFGXc"];
             var5 = var6.bind(var7)(var5);
             var3['label'] = var5;
             var2[var4] = var3;

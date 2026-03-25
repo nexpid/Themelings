@@ -250,7 +250,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16[var18];
         var14 = var13.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.6Jjfk8;
+        var14 = var14["6Jjfk8"];
         var14 = var19.bind(var20)(var14);
         var9['children'] = var14;
         var9 = var3.bind(var4)(var10, var9);

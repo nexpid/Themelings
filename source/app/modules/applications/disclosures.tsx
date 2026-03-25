@@ -214,7 +214,7 @@ case 16:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2./uOMKZ;
+            var2 = var2["/uOMKZ"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 14:
@@ -228,7 +228,7 @@ case 14:
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.6wPmjo;
+            var1 = var1["6wPmjo"];
             var1 = var2.bind(var3)(var1);
             return var1;
         }

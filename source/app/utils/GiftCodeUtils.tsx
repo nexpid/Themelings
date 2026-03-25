@@ -314,7 +314,7 @@ case 2:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.5ayf7w;
+            var1 = var1["5ayf7w"];
             var1 = var2.bind(var3)(var1);
             return var1;
         };
@@ -348,7 +348,7 @@ case 4:
             var1 = var9[var1];
             var1 = var2.bind(var5)(var1);
             var1 = var1.t;
-            var2 = var1.5zyz9y;
+            var2 = var1["5zyz9y"];
             var1 = {};
             var9 = arg5;
             var1['onGoToLibrary'] = var9;
@@ -484,7 +484,7 @@ case 33:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.9i1J30;
+            var2 = var2["9i1J30"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 31:
@@ -499,7 +499,7 @@ case 31:
             var2 = var8[var12];
             var2 = var7.bind(var11)(var2);
             var2 = var2.t;
-            var3 = var2.4YTHKw;
+            var3 = var2["4YTHKw"];
             var2 = {};
             var6 = 16;
             var6 = var8[var6];
@@ -1195,7 +1195,7 @@ case 86:
             var4 = var10[var4];
             var4 = var9.bind(var5)(var4);
             var4 = var4.t;
-            var5 = var4.2VN4N9;
+            var5 = var4["2VN4N9"];
             var4 = {};
             var9 = var7.name;
             var4['skuName'] = var9;
@@ -1217,7 +1217,7 @@ case 90:
             var2 = var9[var3];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.+BNMcF;
+            var2 = var2["+BNMcF"];
             var2 = var5.bind(var6)(var2);
             _fun0011_ip = 91; continue _fun0011;
 case 89:
@@ -1225,7 +1225,7 @@ case 89:
             var3 = var9[var3];
             var3 = var8.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3.1C2BG/;
+            var4 = var3["1C2BG/"];
             var3 = {};
             var7 = var7.name;
             var3['skuName'] = var7;
@@ -1317,7 +1317,7 @@ case 98:
             var4 = var4.t;
             if(var3) { _fun0012_ip = 104; continue _fun0012 }
 case 105:
-            var3 = var4.2BWscv;
+            var3 = var4["2BWscv"];
             var3 = var5.bind(var6)(var3);
             _fun0012_ip = 106; continue _fun0012;
 case 104:
@@ -1452,7 +1452,7 @@ case 67:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1.408Xt7;
+                var2 = var1["408Xt7"];
                 var1 = {};
                 var5 = _closure2_slot1;
                 var1['timeInterval'] = var5;
@@ -1480,7 +1480,7 @@ case 67:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1.408Xt7;
+                var2 = var1["408Xt7"];
                 var1 = {};
                 var5 = _closure2_slot2;
                 var1['timeInterval'] = var5;
@@ -1591,7 +1591,7 @@ case 108:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1.0UR0u4;
+                var2 = var1["0UR0u4"];
                 var1 = {};
                 var6 = _closure2_slot0;
                 var1['sender'] = var6;
@@ -1621,7 +1621,7 @@ case 108:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1.0UR0u4;
+                var2 = var1["0UR0u4"];
                 var1 = {};
                 var6 = _closure2_slot0;
                 var1['sender'] = var6;
@@ -1814,7 +1814,7 @@ case 120:
             var8 = var14[var8];
             var8 = var9.bind(var2)(var8);
             var8 = var8.t;
-            var9 = var8.3CPsbo;
+            var9 = var8["3CPsbo"];
             var8 = {};
             var13 = var13.name;
             var8['skuName'] = var13;

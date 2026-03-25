@@ -339,7 +339,7 @@ case 2:
     var5 = {};
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
-    var11 = var11.2XH8tr;
+    var11 = var11["2XH8tr"];
     var5['name'] = var11;
     var5 = var8.bind(var1)(var7, var5);
     var4['chords-dev'] = var5;
@@ -363,7 +363,7 @@ case 2:
     var5 = {};
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
-    var11 = var11.6PDpse;
+    var11 = var11["6PDpse"];
     var5['name'] = var11;
     var5 = var8.bind(var1)(var7, var5);
     var4['wobble-dev'] = var5;
@@ -371,7 +371,7 @@ case 2:
     var5 = {};
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
-    var11 = var11.87aX+2;
+    var11 = var11["87aX+2"];
     var5['name'] = var11;
     var5 = var8.bind(var1)(var7, var5);
     var4['fan-dev'] = var5;

@@ -551,7 +551,7 @@ case 23:
             var12 = var20[var13];
             var12 = var19.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.5911Lb;
+            var12 = var12["5911Lb"];
             var12 = var21.bind(var22)(var12);
             var16['text'] = var12;
             var12 = 'confirm';

@@ -66,7 +66,7 @@ case 4: // catch_target0
     var5 = new var11[var5](var10);
     var5 = var5 instanceof Object ? var5 : var6;
     var _closure1_slot7 = var5;
-    var5 = /\\/api(\\/v\d+)?\\/science/;
+    var5 = /\/api(\/v\d+)?\/science/;
     var _closure1_slot8 = var5;
     var5 = 5;
     var6 = var4[var5];

@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var12[var7];
             var4 = var11.bind(var10)(var4);
             var4 = var4.t;
-            var4 = var4.+U02+i;
+            var4 = var4["+U02+i"];
             var4 = var6.bind(var8)(var4);
             var5['label'] = var4;
             var6 = _closure1_slot4;

@@ -410,7 +410,7 @@ case 19:
                     var1 = var7[var1];
                     var1 = var5.bind(var2)(var1);
                     var1 = var1.t;
-                    var2 = var1./uzRss;
+                    var2 = var1["/uzRss"];
                     var1 = {};
                     var5 = _closure2_slot6;
                     var1['guildName'] = var5;
@@ -449,7 +449,7 @@ case 17:
                     var2 = var8[var2];
                     var2 = var7.bind(var3)(var2);
                     var2 = var2.t;
-                    var3 = var2./uzRss;
+                    var3 = var2["/uzRss"];
                     var2 = {};
                     var7 = _closure2_slot6;
                     var2['guildName'] = var7;

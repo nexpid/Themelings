@@ -833,7 +833,7 @@ case 36:
             var10 = var15[var10];
             var10 = var14.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.9Oq93m;
+            var10 = var10["9Oq93m"];
             var10 = var12.bind(var13)(var10);
             var6['title'] = var10;
             var10 = var11.map;

@@ -236,7 +236,7 @@ case 2:
             var22 = var19[var24];
             var22 = var15.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.8eKkaf;
+            var22 = var22["8eKkaf"];
             var22 = var23.bind(var25)(var22);
             var13['text'] = var22;
             var22 = function onPress() {

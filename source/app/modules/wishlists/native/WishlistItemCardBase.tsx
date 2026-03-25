@@ -270,7 +270,7 @@ case 12:
             var4 = var4[var15];
             var4 = var12.bind(var5)(var4);
             var4 = var4.t;
-            var4 = var4.6cfuDj;
+            var4 = var4["6cfuDj"];
             var3 = var8.bind(var11)(var4);
 case 11:
             var6[1] = var3;

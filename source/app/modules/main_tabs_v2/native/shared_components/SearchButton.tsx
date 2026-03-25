@@ -133,7 +133,7 @@ case 4:
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.5h0QOP;
+            var9 = var9["5h0QOP"];
             var9 = var10.bind(var11)(var9);
             var5['children'] = var9;
             var5 = var8.bind(var4)(var7, var5);

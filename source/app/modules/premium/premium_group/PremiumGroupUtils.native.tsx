@@ -62,7 +62,7 @@ case 3:
             var5 = 4;
             var12 = var11[var5];
             var12 = var6.bind(var8)(var12);
-            var13 = var12.51Kv/4;
+            var13 = var12["51Kv/4"];
             var12 = {};
             var12['senderName'] = var10;
             var12['premiumGroupProductName'] = var14;
@@ -167,7 +167,7 @@ case 11:
             var12 = var13.formatToPlainString;
             var10 = var9[var3];
             var10 = var4.bind(var8)(var10);
-            var11 = var10.5uwv8J;
+            var11 = var10["5uwv8J"];
             var10 = {};
             var10['premiumGroupProductName'] = var14;
             var10 = var12.bind(var13)(var11, var10);

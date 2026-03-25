@@ -274,7 +274,7 @@ case 10:
             var22 = var16[var19];
             var22 = var23.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22./zbXqm;
+            var22 = var22["/zbXqm"];
             var22 = var24.bind(var25)(var22);
             var5['description'] = var22;
             var5['value'] = var12;

@@ -222,7 +222,7 @@ case 2:
             var6 = var6[var15];
             var6 = var18.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.7Xq/nV;
+            var6 = var6["7Xq/nV"];
             var6 = var16.bind(var17)(var6);
             if(var10) { _fun0001_ip = 4; continue _fun0001 }
 case 5:

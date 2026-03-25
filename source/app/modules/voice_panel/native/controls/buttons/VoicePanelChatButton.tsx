@@ -172,7 +172,7 @@ case 7:
         var6 = var17[var6];
         var6 = var16.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.5KxXrK;
+        var6 = var6["5KxXrK"];
         var6 = var7.bind(var15)(var6);
         var1['accessibilityLabel'] = var6;
         var7 = var8.useMemo;

@@ -152,7 +152,7 @@ case 4:
             var3 = var17[var13];
             var3 = var15.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.+o1pDZ;
+            var3 = var3["+o1pDZ"];
             var3 = var6.bind(var7)(var3);
             var2['label'] = var3;
             var6 = _closure1_slot7;

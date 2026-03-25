@@ -90,7 +90,7 @@ case 2:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.9BGJ1m;
+        var1 = var1["9BGJ1m"];
         var2 = var2.bind(var3)(var1);
         var1 = new Array(1);
         var1[0] = var2;
@@ -157,7 +157,7 @@ case 2:
         var1 = var8[var3];
         var1 = var7.bind(var6)(var1);
         var1 = var1.t;
-        var1 = var1.6eXLcJ;
+        var1 = var1["6eXLcJ"];
         var1 = var5.bind(var9)(var1);
         var2['label'] = var1;
         var1 = var8[var3];
@@ -185,7 +185,7 @@ case 2:
         var3 = var8[var3];
         var3 = var7.bind(var6)(var3);
         var3 = var3.t;
-        var3 = var3.3tYNDS;
+        var3 = var3["3tYNDS"];
         var3 = var4.bind(var5)(var3);
         var2['label'] = var3;
         var1[1] = var2;

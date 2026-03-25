@@ -289,7 +289,7 @@ case 6:
         var20 = var22[var18];
         var20 = var21.bind(var4)(var20);
         var20 = var20.t;
-        var23 = var20.5WZ9Ct;
+        var23 = var20["5WZ9Ct"];
         var20 = {};
         var27 = var29.listings;
         var27 = var27[var30];
@@ -320,7 +320,7 @@ case 6:
         var25 = var22[var18];
         var25 = var21.bind(var4)(var25);
         var25 = var25.t;
-        var26 = var25.5i7Uhb;
+        var26 = var25["5i7Uhb"];
         var25 = {};
         var31 = 14;
         var31 = var22[var31];

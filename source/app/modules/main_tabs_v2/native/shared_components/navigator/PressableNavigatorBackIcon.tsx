@@ -259,7 +259,7 @@ case 20:
             var7 = var14[var7];
             var7 = var13.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.13/7kX;
+            var7 = var7["13/7kX"];
             var9 = var9.bind(var10)(var7);
             _fun0002_ip = 21; continue _fun0002;
 case 19:

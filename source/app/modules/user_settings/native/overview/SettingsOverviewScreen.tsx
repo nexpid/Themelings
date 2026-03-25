@@ -253,7 +253,7 @@ case 4:
             var3 = var3[var9];
             var3 = var7.bind(var8)(var3);
             var3 = var3.t;
-            var3 = var3./tZh0A;
+            var3 = var3["/tZh0A"];
             var3 = var5.bind(var6)(var3);
             var2['label'] = var3;
             var3 = _closure1_slot3;

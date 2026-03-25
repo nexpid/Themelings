@@ -101,7 +101,7 @@ case 4:
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.t;
-            var7 = var6.4ZwD5G;
+            var7 = var6["4ZwD5G"];
             var6 = {};
             var10 = _closure1_slot3;
             var6['link'] = var10;

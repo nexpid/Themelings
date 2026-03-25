@@ -225,7 +225,7 @@ case 2:
             var10 = var10[var13];
             var10 = var18.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.1DXFFd;
+            var10 = var10["1DXFFd"];
             var10 = var12.bind(var16)(var10);
             var5['children'] = var10;
             var6 = var7.bind(var4)(var6, var5);

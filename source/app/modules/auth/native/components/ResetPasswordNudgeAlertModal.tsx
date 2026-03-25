@@ -92,7 +92,7 @@ case 3:
             var1 = var7[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.4LVWSD;
+            var1 = var1["4LVWSD"];
             var6 = var2.bind(var3)(var1);
             _fun0001_ip = 4; continue _fun0001;
 case 2:

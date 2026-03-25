@@ -504,7 +504,7 @@ case 16:
             var25 = var25[var14];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.825cFy;
+            var25 = var25["825cFy"];
             var25 = var26.bind(var27)(var25);
             var22['text'] = var25;
             var22 = var21.bind(var4)(var24, var22);

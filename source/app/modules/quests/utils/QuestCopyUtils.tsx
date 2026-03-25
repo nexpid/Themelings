@@ -118,7 +118,7 @@ case 18:
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.7e5k7L;
+            var1 = var1["7e5k7L"];
             var1 = var2.bind(var3)(var1);
             _fun0001_ip = 19; continue _fun0001;
 case 17:
@@ -208,7 +208,7 @@ case 23:
             var2 = var2.t;
             if(var1) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
-            var3 = var2.5bQWNG;
+            var3 = var2["5bQWNG"];
             var1 = {};
             var1['gamePublisher'] = var8;
             var1['gameTitle'] = var9;
@@ -421,7 +421,7 @@ case 45:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.1nJR4p;
+            var2 = var2["1nJR4p"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 43:

@@ -105,7 +105,7 @@ case 11: // catch_target0
                     var5 = var10[var5];
                     var5 = var8.bind(var9)(var5);
                     var5 = var5.t;
-                    var5 = var5.6D5WVg;
+                    var5 = var5["6D5WVg"];
                     var5 = var6.bind(var7)(var5);
                     var2['body'] = var5;
                     var2 = var3.bind(var4)(var2);
@@ -156,7 +156,7 @@ case 2:
             var5 = var7[var8];
             var5 = var11.bind(var1)(var5);
             var5 = var5.t;
-            var10 = var5.6l2osp;
+            var10 = var5["6l2osp"];
             var9 = {};
             var14 = _closure2_slot1;
             var9['applicationName'] = var14;

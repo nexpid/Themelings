@@ -320,7 +320,7 @@ case 10:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.7VBEue;
+            var1 = var1["7VBEue"];
             var17 = var2.bind(var3)(var1);
 case 12:
             var19 = _closure1_slot1;

@@ -61,7 +61,7 @@ case 3:
                 var1 = var6[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var1 = var1.39jfOz;
+                var1 = var1["39jfOz"];
                 var1 = var2.bind(var3)(var1, var9);
                 _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -407,7 +407,7 @@ case 16:
         var12 = var19[var13];
         var12 = var14.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.977iei;
+        var12 = var12["977iei"];
         var12 = var15.bind(var16)(var12);
         var5['children'] = var12;
         var8 = var9.bind(var4)(var8, var5);
@@ -428,7 +428,7 @@ case 16:
         var13 = var19[var13];
         var13 = var14.bind(var4)(var13);
         var13 = var13.t;
-        var14 = var13.1Z/+aA;
+        var14 = var13["1Z/+aA"];
         var13 = {};
         var13['tosLink'] = var18;
         var13['communityGuidelinesLink'] = var17;

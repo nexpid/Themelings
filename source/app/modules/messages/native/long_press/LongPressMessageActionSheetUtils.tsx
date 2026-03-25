@@ -811,7 +811,7 @@ case 62:
             var8 = var8[var20];
             var8 = var19.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.+78Pfm;
+            var8 = var8["+78Pfm"];
             var8 = var15.bind(var17)(var8);
             if(!(var8 !== var3)) { _fun0009_ip = 64; continue _fun0009 }
 case 65:
@@ -838,7 +838,7 @@ case 66:
             var8 = 44;
             var8 = var21[var8];
             var8 = var19.bind(var1)(var8);
-            var8 = var8.1D+vqy;
+            var8 = var8["1D+vqy"];
             var8 = var15.bind(var17)(var8);
             if(!(var8 !== var3)) { _fun0009_ip = 67; continue _fun0009 }
 case 68:
@@ -968,7 +968,7 @@ case 85:
             var8 = var8[var20];
             var8 = var19.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.5911Lb;
+            var8 = var8["5911Lb"];
             var8 = var15.bind(var17)(var8);
             if(!(var8 !== var3)) { _fun0009_ip = 86; continue _fun0009 }
 case 87:
@@ -1111,7 +1111,7 @@ case 107:
             var8 = var8[var20];
             var8 = var19.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.92CPQ+;
+            var8 = var8["92CPQ+"];
             var8 = var15.bind(var17)(var8);
             if(!(var8 !== var3)) { _fun0009_ip = 108; continue _fun0009 }
 case 109:
@@ -1124,7 +1124,7 @@ case 109:
             var8 = var8[var20];
             var8 = var19.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.5IEsGx;
+            var8 = var8["5IEsGx"];
             var8 = var15.bind(var17)(var8);
             if(!(var8 !== var3)) { _fun0009_ip = 110; continue _fun0009 }
 case 111:
@@ -1163,7 +1163,7 @@ case 115:
             var8 = var8[var20];
             var8 = var19.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.39d0Wj;
+            var8 = var8["39d0Wj"];
             var8 = var15.bind(var17)(var8);
             if(!(var8 !== var3)) { _fun0009_ip = 116; continue _fun0009 }
 case 117:
@@ -1280,7 +1280,7 @@ case 133:
             var8 = var8[var20];
             var8 = var19.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.4sxKOb;
+            var8 = var8["4sxKOb"];
             var8 = var15.bind(var17)(var8);
             if(!(var8 !== var3)) { _fun0009_ip = 134; continue _fun0009 }
 case 135:

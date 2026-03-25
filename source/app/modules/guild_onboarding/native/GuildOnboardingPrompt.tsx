@@ -182,12 +182,12 @@ case 12:
             var14 = var5.bind(var6)(var11);
             _fun0002_ip = 13; continue _fun0002;
 case 11:
-            var11 = var3.5Wxrcd;
+            var11 = var3["5Wxrcd"];
             var14 = var5.bind(var6)(var11);
 case 13:
             _fun0002_ip = 14; continue _fun0002;
 case 9:
-            var3 = var3.8SuVoE;
+            var3 = var3["8SuVoE"];
             var11 = var5.bind(var6)(var3);
             var3 = global;
             var3 = var3.HermesInternal;
@@ -1109,7 +1109,7 @@ case 57:
             var25 = var13[var25];
             var25 = var12.bind(var5)(var25);
             var25 = var25.t;
-            var25 = var25.0KL0ot;
+            var25 = var25["0KL0ot"];
             var25 = var26.bind(var27)(var25);
             var21['text'] = var25;
             var24 = function onPress() {

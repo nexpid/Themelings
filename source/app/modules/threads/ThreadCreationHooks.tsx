@@ -153,7 +153,7 @@ case 27:
             var10 = new Array(0);
 case 29:
             var9 = var6.match;
-            var7 = /(?:\s|[!@#$%^&*()_\-+={}[\]:";'<>?,.\/])+/;
+            var7 = /(?:\s|[!@#$%^&*()_\-+={}[\]:";'<>?,./])+/;
             var9 = var9.bind(var6)(var7);
             var7 = var6;
             if(!(var8 != var9)) { _fun0003_ip = 30; continue _fun0003 }
@@ -692,7 +692,7 @@ case 59:
                     var16 = var16.t;
                     if(var15) { _fun0004_ip = 100; continue _fun0004 }
 case 101:
-                    var15 = var16.1KEdvB;
+                    var15 = var16["1KEdvB"];
                     var15 = var17.bind(var18)(var15);
                     _fun0004_ip = 102; continue _fun0004;
 case 100:
@@ -769,7 +769,7 @@ case 54:
                     var11 = var14[var10];
                     var11 = var13.bind(var6)(var11);
                     var11 = var11.t;
-                    var11 = var11.1KEdvB;
+                    var11 = var11["1KEdvB"];
                     var11 = var12.bind(var15)(var11);
                     var4['title'] = var11;
                     var11 = var14[var10];
@@ -805,7 +805,7 @@ case 50:
                     var11 = var11.t;
                     if(var10) { _fun0004_ip = 106; continue _fun0004 }
 case 107:
-                    var10 = var11.1KEdvB;
+                    var10 = var11["1KEdvB"];
                     var10 = var12.bind(var14)(var10);
                     _fun0004_ip = 108; continue _fun0004;
 case 106:
@@ -1149,7 +1149,7 @@ case 138:
                         var11 = var15[var11];
                         var11 = var14.bind(var3)(var11);
                         var11 = var11.t;
-                        var11 = var11.7Xm5QI;
+                        var11 = var11["7Xm5QI"];
                         var6 = var12.bind(var13)(var11);
 case 137:
                         _closure5_slot1 = var6;

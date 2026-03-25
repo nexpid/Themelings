@@ -405,7 +405,7 @@ case 40:
             var3 = var8[var3];
             var3 = var7.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.7u/rlU;
+            var3 = var3["7u/rlU"];
             var1 = var4.bind(var5)(var3);
             _fun0008_ip = 39; continue _fun0008;
 case 37:
@@ -444,7 +444,7 @@ case 42:
             var1 = var7[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1./YzI63;
+            var1 = var1["/YzI63"];
             var1 = var2.bind(var3)(var1);
             _fun0009_ip = 43; continue _fun0009;
 case 41:
@@ -779,7 +779,7 @@ case 56:
             var3 = var13[var3];
             var3 = var12.bind(var11)(var3);
             var3 = var3.t;
-            var3 = var3.2kuGkD;
+            var3 = var3["2kuGkD"];
             var3 = var7.bind(var9)(var3);
             _fun0012_ip = 57; continue _fun0012;
 case 55:
@@ -850,7 +850,7 @@ case 61:
             var3 = var13[var3];
             var3 = var6.bind(var11)(var3);
             var3 = var3.t;
-            var6 = var3.0Kmtr7;
+            var6 = var3["0Kmtr7"];
             var3 = {};
             var3['applicationName'] = var10;
             var13 = var8.username;
@@ -1162,7 +1162,7 @@ case 92:
             var6 = var14[var6];
             var6 = var7.bind(var13)(var6);
             var6 = var6.t;
-            var7 = var6.4xL9Sk;
+            var7 = var6["4xL9Sk"];
             var6 = {};
             var6['applicationName'] = var12;
             var6['interactionUserHook'] = var11;

@@ -274,7 +274,7 @@ case 10:
             var18 = var23[var18];
             var18 = var22.bind(var5)(var18);
             var18 = var18.t;
-            var18 = var18.5BKP4y;
+            var18 = var18["5BKP4y"];
             var17 = var20.bind(var21)(var18);
 case 12:
             var9['label'] = var17;
@@ -488,7 +488,7 @@ case 13:
             var20 = var18[var20];
             var20 = var23.bind(var5)(var20);
             var20 = var20.t;
-            var20 = var20.+78Pfm;
+            var20 = var20["+78Pfm"];
             var20 = var21.bind(var22)(var20);
             var16['text'] = var20;
             var19 = var19.warning;

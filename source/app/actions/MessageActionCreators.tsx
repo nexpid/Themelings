@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -836,7 +836,7 @@ case 84:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.5EMPA7;
+            var1 = var1["5EMPA7"];
             var1 = var2.bind(var3)(var1);
             _fun0006_ip = 85; continue _fun0006;
 case 82:
@@ -851,7 +851,7 @@ case 82:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2./jUd2+;
+            var2 = var2["/jUd2+"];
             var1 = var3.bind(var4)(var2);
 case 85:
             return var1;
@@ -1033,7 +1033,7 @@ case 85:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1./meGhR;
+        var1 = var1["/meGhR"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -6035,7 +6035,7 @@ case 466:
 case 52:
                             if(var9) { _fun0039_ip = 468; continue _fun0039 }
 case 161:
-                            var9 = var3.0x1HBD;
+                            var9 = var3["0x1HBD"];
                             var9 = var6.bind(var7)(var9);
                             var9 = var4.bind(var5)(var9);
                             _fun0039_ip = 469; continue _fun0039;
@@ -6482,7 +6482,7 @@ case 486:
                     var2 = var9[var2];
                     var2 = var8.bind(var3)(var2);
                     var2 = var2.t;
-                    var3 = var2.77cuqz;
+                    var3 = var2["77cuqz"];
                     var2 = {};
                     var8 = global;
                     var9 = var8.Math;

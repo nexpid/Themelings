@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = '';
         var3 = var2.bind(var3)(var1, var4);
         var2 = var3.replace;
-        var1 = /[\\'!"#$%&()*+,.\/:;<=>?@[\]^`{|}~]/g;
+        var1 = /[\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]/g;
         var2 = var2.bind(var3)(var1, var4);
         var1 = var2.toLowerCase;
         var1 = var1.bind(var2)();

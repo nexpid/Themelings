@@ -198,7 +198,7 @@ case 6:
             var18 = var23[var18];
             var18 = var19.bind(var4)(var18);
             var18 = var18.t;
-            var19 = var18.2h5M+X;
+            var19 = var18["2h5M+X"];
             var18 = {};
             var22 = var22.length;
             var18['availableCount'] = var22;

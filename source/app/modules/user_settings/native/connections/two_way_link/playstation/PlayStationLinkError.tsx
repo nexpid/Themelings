@@ -88,7 +88,7 @@ case 2:
             var2 = var10[var2];
             var2 = var9.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.3dIn2A;
+            var2 = var2["3dIn2A"];
             var7 = var3.bind(var8)(var2);
 case 4:
             var3 = _closure1_slot4;

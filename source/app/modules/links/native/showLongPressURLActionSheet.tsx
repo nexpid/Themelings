@@ -81,7 +81,7 @@ case 9:
             var11 = var11[var13];
             var11 = var15.bind(var1)(var11);
             var11 = var11.t;
-            var11 = var11.3zozoR;
+            var11 = var11["3zozoR"];
             _fun0001_ip = 10; continue _fun0001;
 case 8:
             var16 = _closure1_slot0;
@@ -128,7 +128,7 @@ case 11:
             var8 = var8[var13];
             var8 = var12.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.+wbjMW;
+            var8 = var8["+wbjMW"];
             var8 = var10.bind(var11)(var8);
             var2['label'] = var8;
             var8 = function onPress() {
@@ -297,7 +297,7 @@ case 12:
             var8 = var8[var12];
             var8 = var11.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.5oIOLX;
+            var8 = var8["5oIOLX"];
             var8 = var9.bind(var10)(var8);
             var6['title'] = var8;
             var6['subtitle'] = var7;

@@ -180,7 +180,7 @@ case 3:
                     var3 = var10[var3];
                     var3 = var9.bind(var8)(var3);
                     var3 = var3.t;
-                    var3 = var3.1u5B+G;
+                    var3 = var3["1u5B+G"];
                     var3 = var6.bind(var7)(var3);
                     _fun0001_ip = 4; continue _fun0001;
 case 2:

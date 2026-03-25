@@ -11,13 +11,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var6)(var3, var2, var4);
     var2 = /^([\w-+]+(?:\.[\w-+]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,63}(?:\.[a-z]{2})?)$/i;
     var _closure1_slot0 = var2;
-    var2 = /^((https:\\/\\/)?(discord\.gg\\/)|(discord\.com\\/)(invite\\/)?)?[A-Za-z0-9]{8,8}$/;
+    var2 = /^((https:\/\/)?(discord\.gg\/)|(discord\.com\/)(invite\/)?)?[A-Za-z0-9]{8,8}$/;
     var _closure1_slot1 = var2;
     var2 = /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
     var _closure1_slot2 = var2;
     var2 = /^(.*)#[0-9]{1,5}$/;
     var _closure1_slot3 = var2;
-    var2 = /^(https:\\/\\/)?(discord\.com\\/discovery\\/game\\/)([0-9-]+)\\/?/;
+    var2 = /^(https:\/\/)?(discord\.com\/discovery\/game\/)([0-9-]+)\/?/;
     var _closure1_slot4 = var2;
     var2 = ['@', '#', ':', '```', 'discord', 'hypesquad', 'system message', 'system mesage', 'sustem message', 'sustem mesage'];
     var _closure1_slot5 = var2;

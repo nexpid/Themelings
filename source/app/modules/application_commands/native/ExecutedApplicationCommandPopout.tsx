@@ -27,7 +27,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -1755,7 +1755,7 @@ case 160:
             var9 = var15[var9];
             var9 = var14.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.42H+Nb;
+            var9 = var9["42H+Nb"];
             var9 = var11.bind(var13)(var9);
             var3['label'] = var9;
             var9 = function onPress() {
@@ -2011,7 +2011,7 @@ case 180:
             var13 = var11[var13];
             var13 = var8.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.3eF5/L;
+            var13 = var13["3eF5/L"];
             var13 = var14.bind(var15)(var13);
             var6['children'] = var13;
             var7 = var9.bind(var5)(var7, var6);

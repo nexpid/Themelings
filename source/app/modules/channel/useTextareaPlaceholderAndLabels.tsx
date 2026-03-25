@@ -92,7 +92,7 @@ case 18:
             var5 = var8[var2];
             var5 = var4.bind(var7)(var5);
             var5 = var5.t;
-            var6 = var5.8lzR/R;
+            var6 = var5["8lzR/R"];
             var5 = {};
             var5['channel'] = var13;
             var5 = var10.bind(var11)(var6, var5);
@@ -122,7 +122,7 @@ case 17:
             var6 = var10[var4];
             var6 = var5.bind(var7)(var6);
             var6 = var6.t;
-            var8 = var6.4c+CAx;
+            var8 = var6["4c+CAx"];
             var6 = {};
             var6['channel'] = var13;
             var6 = var11.bind(var12)(var8, var6);
@@ -154,7 +154,7 @@ case 15:
             var6 = var10[var4];
             var6 = var5.bind(var7)(var6);
             var6 = var6.t;
-            var8 = var6.8lzR/R;
+            var8 = var6["8lzR/R"];
             var6 = {};
             var6['channel'] = var13;
             var6 = var11.bind(var12)(var8, var6);

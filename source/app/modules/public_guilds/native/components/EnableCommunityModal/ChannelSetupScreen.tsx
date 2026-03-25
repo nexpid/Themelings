@@ -545,7 +545,7 @@ case 18:
             var12 = var19[var20];
             var12 = var17.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.+Af+Vw;
+            var12 = var12["+Af+Vw"];
             var12 = var13.bind(var16)(var12);
             var8['helperText'] = var12;
             var16 = 25;

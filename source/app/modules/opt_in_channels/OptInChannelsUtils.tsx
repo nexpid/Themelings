@@ -628,7 +628,7 @@ case 0:
             var1 = var11[var1];
             var1 = var2.bind(var7)(var1);
             var1 = var1.t;
-            var2 = var1.8N0BHR;
+            var2 = var1["8N0BHR"];
             var1 = {};
             var9 = _closure1_slot1;
             var6 = 19;

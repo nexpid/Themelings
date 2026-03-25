@@ -175,7 +175,7 @@ case 7:
                     var1 = var4.ABD2CN;
                     _fun0002_ip = 8; continue _fun0002;
 case 6:
-                    var1 = var4.66YyBJ;
+                    var1 = var4["66YyBJ"];
 case 8:
                     var1 = var2.bind(var3)(var1);
                     return var1;

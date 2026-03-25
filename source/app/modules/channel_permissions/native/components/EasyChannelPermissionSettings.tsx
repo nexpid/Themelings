@@ -337,7 +337,7 @@ case 29:
                             var3 = var3.t;
                             if(var7) { _fun0005_ip = 37; continue _fun0005 }
 case 38:
-                            var7 = var3.47gQYL;
+                            var7 = var3["47gQYL"];
                             var10 = var4.bind(var5)(var7);
                             _fun0005_ip = 23; continue _fun0005;
 case 37:
@@ -600,7 +600,7 @@ case 50:
             var24 = var24[var16];
             var24 = var27.bind(var5)(var24);
             var24 = var24.t;
-            var24 = var24.5f3HIC;
+            var24 = var24["5f3HIC"];
             var24 = var25.bind(var26)(var24);
             var21['children'] = var24;
             var21 = var23.bind(var5)(var22, var21);
@@ -1100,7 +1100,7 @@ case 69:
             var3 = var3[var18];
             var3 = var13.bind(var5)(var3);
             var3 = var3.t;
-            var3 = var3.0a6awf;
+            var3 = var3["0a6awf"];
             var3 = var4.bind(var6)(var3);
             var9[1] = var3;
             var3 = var1 == var16;

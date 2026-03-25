@@ -1050,7 +1050,7 @@ case 58:
         var11 = var10[var11];
         var11 = var9.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.8Hvr3+;
+        var11 = var11["8Hvr3+"];
         var7['text'] = var11;
         var7['onPress'] = var8;
         var8 = 25;

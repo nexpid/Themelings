@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['value'] = var1;
     var1 = '__esModule';
     var1 = var6.bind(var7)(var3, var1, var5);
-    var1 = /^\\/ra\\/([\w-]+)$/;
+    var1 = /^\/ra\/([\w-]+)$/;
     var _closure1_slot2 = var1;
     var1 = 1;
     var5 = var4[var1];

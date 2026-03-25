@@ -194,7 +194,7 @@ case 8:
             var21 = var24.bind(var25)(var21);
             _fun0001_ip = 9; continue _fun0001;
 case 7:
-            var23 = var23./OywGQ;
+            var23 = var23["/OywGQ"];
             var21 = var24.bind(var25)(var23);
 case 9:
             var11['children'] = var21;
@@ -245,7 +245,7 @@ case 12:
             var23 = var25[var20];
             var23 = var24.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.42/D2U;
+            var23 = var23["42/D2U"];
             var23 = var27.bind(var28)(var23);
             var12['children'] = var23;
             var12 = var21.bind(var4)(var19, var12);
@@ -351,7 +351,7 @@ case 18:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.91RssO;
+            var16 = var16["91RssO"];
             var16 = var17.bind(var18)(var16);
             var13['text'] = var16;
             var15 = function onPress() {

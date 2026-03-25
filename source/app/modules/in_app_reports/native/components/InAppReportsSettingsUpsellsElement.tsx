@@ -252,7 +252,7 @@ case 5:
             var17 = var15[var10];
             var17 = var11.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.1yxTIJ;
+            var17 = var17["1yxTIJ"];
             var17 = var18.bind(var20)(var17);
             var9['title'] = var17;
             var18 = var19.map;

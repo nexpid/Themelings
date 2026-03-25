@@ -416,7 +416,7 @@ case 2:
             var21 = var18[var14];
             var21 = var17.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.+H/coT;
+            var21 = var21["+H/coT"];
             var21 = var22.bind(var23)(var21);
             var12['text'] = var21;
             var21 = var18[var14];
@@ -426,7 +426,7 @@ case 2:
             var21 = var18[var14];
             var21 = var17.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.+H/coT;
+            var21 = var21["+H/coT"];
             var21 = var22.bind(var23)(var21);
             var12['accessibilityLabel'] = var21;
             var12['loading'] = var20;

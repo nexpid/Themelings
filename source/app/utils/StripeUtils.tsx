@@ -348,7 +348,7 @@ case 52:
                     };
                     var _closure3_slot1 = var5;
                     var3 = var4.split;
-                    var2 = /[.\-\/\s]+/g;
+                    var2 = /[.\-/\s]+/g;
                     var3 = var3.bind(var4)(var2);
                     var _closure3_slot2 = var3;
                     var2 = var3.length;

@@ -315,7 +315,7 @@ case 4:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.5dyZ1S;
+            var13 = var13["5dyZ1S"];
             var13 = var14.bind(var15)(var13);
             var9['text'] = var13;
             var11 = var12 === var11;

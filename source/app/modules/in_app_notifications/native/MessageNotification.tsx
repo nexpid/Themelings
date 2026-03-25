@@ -175,7 +175,7 @@ case 24:
             var1 = var13[var1];
             var1 = var14.bind(var4)(var1);
             var1 = var1.t;
-            var3 = var1.7eikg1;
+            var3 = var1["7eikg1"];
             var1 = {};
             var13 = var13[var15];
             var16 = var14.bind(var4)(var13);

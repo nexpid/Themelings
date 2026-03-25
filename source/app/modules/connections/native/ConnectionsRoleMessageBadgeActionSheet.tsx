@@ -55,7 +55,7 @@ case 7:
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.2p7dA3;
+            var3 = var2["2p7dA3"];
             var2 = {};
             var2['description'] = var8;
             var11 = global;
@@ -81,7 +81,7 @@ case 5:
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.2p7dA3;
+            var3 = var2["2p7dA3"];
             var2 = {};
             var2['description'] = var8;
             var8 = global;
@@ -932,7 +932,7 @@ case 54:
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.0eBj3x;
+            var3 = var2["0eBj3x"];
             var2 = {};
             var30 = var6.bind(var7)(var3, var2);
 case 56:

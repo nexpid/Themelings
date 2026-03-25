@@ -347,7 +347,7 @@ case 2:
             var28 = 17;
             var9 = var14[var28];
             var9 = var20.bind(var4)(var9);
-            var9 = var9.6OxgN7;
+            var9 = var9["6OxgN7"];
             var9 = var11.bind(var15)(var9);
             var7['title'] = var9;
             var9 = {};

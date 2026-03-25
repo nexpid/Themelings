@@ -637,7 +637,7 @@ case 27:
             var11 = var8[var12];
             var11 = var13.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11./50eHi;
+            var11 = var11["/50eHi"];
             var14 = var14.bind(var16)(var11);
             var11 = new Array(3);
             var11[0] = var14;

@@ -207,7 +207,7 @@ case 0:
                 var6 = var10[var6];
                 var6 = var9.bind(var1)(var6);
                 var6 = var6.t;
-                var6 = var6.8H5RmH;
+                var6 = var6["8H5RmH"];
                 var7 = var7.bind(var8)(var6);
                 var6 = 'name';
                 var2[var6] = var7;
@@ -339,7 +339,7 @@ case 3:
             var14 = var23.bind(var24)(var14);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var15 = var15.7yxR9t;
+            var15 = var15["7yxR9t"];
             var14 = var23.bind(var24)(var15);
 case 4:
             var11['children'] = var14;
@@ -537,7 +537,7 @@ case 10:
             var18 = var18.t;
             if(var17) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var17 = var18.7J6/nG;
+            var17 = var18["7J6/nG"];
             var17 = var19.bind(var20)(var17);
             _fun0001_ip = 13; continue _fun0001;
 case 11:

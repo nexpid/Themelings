@@ -256,7 +256,7 @@ case 10:
             var15 = var19[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15.0S3JpO;
+            var16 = var15["0S3JpO"];
             var15 = {};
             var19 = var14.stickers;
             var19 = var19.length;

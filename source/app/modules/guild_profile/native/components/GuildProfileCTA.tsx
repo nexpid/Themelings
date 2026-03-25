@@ -453,7 +453,7 @@ case 24:
             var9 = var14[var9];
             var9 = var13.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.7XdMW2;
+            var9 = var9["7XdMW2"];
             var11 = var11.bind(var12)(var9);
             var9 = 'text';
             var2[var9] = var11;
@@ -481,7 +481,7 @@ case 22:
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.4yfIDk;
+            var9 = var9["4yfIDk"];
             var10 = var10.bind(var11)(var9);
             var9 = 'text';
             var2[var9] = var10;

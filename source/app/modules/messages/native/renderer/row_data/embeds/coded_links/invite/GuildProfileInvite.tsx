@@ -393,7 +393,7 @@ case 52:
             var4 = var24[var4];
             var4 = var23.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.7XdMW2;
+            var4 = var4["7XdMW2"];
             var21 = var8.bind(var12)(var4);
             _fun0001_ip = 58; continue _fun0001;
 case 50:
@@ -407,7 +407,7 @@ case 50:
             var4 = var24[var4];
             var4 = var23.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.4yfIDk;
+            var4 = var4["4yfIDk"];
             var21 = var8.bind(var12)(var4);
             _fun0001_ip = 58; continue _fun0001;
 case 48:
@@ -600,7 +600,7 @@ case 79:
                     var7 = var11[var7];
                     var7 = var8.bind(var6)(var7);
                     var7 = var7.t;
-                    var8 = var7.9+YWrE;
+                    var8 = var7["9+YWrE"];
                     var7 = {};
                     var11 = var4.name;
                     var7['name'] = var11;

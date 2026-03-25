@@ -336,7 +336,7 @@ case 16:
                             var4 = var10[var4];
                             var4 = var5.bind(var8)(var4);
                             var4 = var4.t;
-                            var5 = var4.2GJLK2;
+                            var5 = var4["2GJLK2"];
                             var4 = {};
                             var10 = _closure3_slot7;
                             var4['targetMinutes'] = var10;

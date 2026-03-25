@@ -101,7 +101,7 @@ case 11:
             var2 = var14[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.5CNRRA;
+            var3 = var2["5CNRRA"];
             var2 = {};
             var14 = var10 != var12;
             var10 = 0;
@@ -124,7 +124,7 @@ case 2:
             var2 = 9;
             var2 = var10[var2];
             var2 = var6.bind(var4)(var2);
-            var2 = var2.5asczk;
+            var2 = var2["5asczk"];
             var19 = var3.bind(var5)(var2);
 case 7:
             var6 = null;

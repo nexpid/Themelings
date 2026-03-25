@@ -392,7 +392,7 @@ case 8:
             var19 = var24[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.13/7kX;
+            var19 = var19["13/7kX"];
             var19 = var22.bind(var25)(var19);
             var7['accessibilityLabel'] = var19;
             var19 = {'marginRight': 4, 'marginBottom': 4};
@@ -559,7 +559,7 @@ case 19:
                 var9 = var8[var9];
                 var9 = var12.bind(var1)(var9);
                 var9 = var9.t;
-                var9 = var9./g10LC;
+                var9 = var9["/g10LC"];
                 var9 = var10.bind(var11)(var9);
                 var3['buttonText'] = var9;
                 var9 = function onButtonPress() {
@@ -649,7 +649,7 @@ case 23:
             var20 = var23[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.7lZ31J;
+            var20 = var20["7lZ31J"];
             var20 = var22.bind(var24)(var20);
             var14['accessibilityLabel'] = var20;
             var22 = 'sm';

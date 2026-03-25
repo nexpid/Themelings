@@ -676,7 +676,7 @@ case 26:
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
                 var1 = var1.t;
-                var1 = var1.4n388K;
+                var1 = var1["4n388K"];
                 var1 = var6.bind(var7)(var1);
                 var3['stageLive'] = var1;
                 var1 = var9[var5];
@@ -686,7 +686,7 @@ case 26:
                 var1 = var9[var5];
                 var1 = var8.bind(var2)(var1);
                 var1 = var1.t;
-                var1 = var1.40TIqW;
+                var1 = var1["40TIqW"];
                 var1 = var6.bind(var7)(var1);
                 var3['guildEventLive'] = var1;
                 var1 = var9[var5];
@@ -777,7 +777,7 @@ case 26:
                 var6 = var9[var5];
                 var6 = var8.bind(var2)(var6);
                 var6 = var6.t;
-                var6 = var6.5qyruI;
+                var6 = var6["5qyruI"];
                 var6 = var7.bind(var10)(var6);
                 var1['server'] = var6;
                 var6 = var9[var5];

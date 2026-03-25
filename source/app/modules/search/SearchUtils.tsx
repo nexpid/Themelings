@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -432,7 +432,7 @@ case 57:
             var8 = var12[var8];
             var8 = var11.bind(var6)(var8);
             var8 = var8.t;
-            var8 = var8.5Ldpkc;
+            var8 = var8["5Ldpkc"];
             var8 = var9.bind(var10)(var8);
             return var8;
 case 56:
@@ -550,7 +550,7 @@ case 46:
             var1 = var7[var1];
             var1 = var2.bind(var6)(var1);
             var1 = var1.t;
-            var2 = var1.7th+Mf;
+            var2 = var1["7th+Mf"];
             var1 = {};
             var1['count'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -816,7 +816,7 @@ case 88:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.9Oq93m;
+            var2 = var2["9Oq93m"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 86:
@@ -876,7 +876,7 @@ case 81:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2./MoGoB;
+            var2 = var2["/MoGoB"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 79:

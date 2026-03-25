@@ -820,7 +820,7 @@ case 13:
                     var10 = var9[var6];
                     var10 = var8.bind(var7)(var10);
                     var10 = var10.t;
-                    var10 = var10.8Hvr3+;
+                    var10 = var10["8Hvr3+"];
                     var10 = var11.bind(var12)(var10);
                     var5['text'] = var10;
                     var10 = 26;

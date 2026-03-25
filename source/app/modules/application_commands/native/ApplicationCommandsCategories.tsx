@@ -219,7 +219,7 @@ case 7:
             var8 = var7.t;
             if(var11) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var10 = var8.9uqD4O;
+            var10 = var8["9uqD4O"];
             var7 = {};
             var15 = var1.name;
             var7['applicationName'] = var15;

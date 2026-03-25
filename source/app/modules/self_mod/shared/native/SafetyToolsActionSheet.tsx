@@ -427,7 +427,7 @@ case 3:
                 var1 = var14.bind(var15)(var1);
                 _fun0001_ip = 4; continue _fun0001;
 case 2:
-                var13 = var13.9e0wLn;
+                var13 = var13["9e0wLn"];
                 var1 = var14.bind(var15)(var13);
 case 4:
                 var4['label'] = var1;
@@ -702,7 +702,7 @@ case 21:
                 var13 = var16[var10];
                 var13 = var15.bind(var8)(var13);
                 var13 = var13.t;
-                var13 = var13.0tydOa;
+                var13 = var13["0tydOa"];
                 var13 = var14.bind(var18)(var13);
                 var4['subLabel'] = var13;
                 var13 = 30;
@@ -823,7 +823,7 @@ case 21:
                 var14 = var16[var10];
                 var14 = var15.bind(var8)(var14);
                 var14 = var14.t;
-                var14 = var14.7LgVmt;
+                var14 = var14["7LgVmt"];
                 var14 = var18.bind(var19)(var14);
                 var13['label'] = var14;
                 var14 = var16[var10];

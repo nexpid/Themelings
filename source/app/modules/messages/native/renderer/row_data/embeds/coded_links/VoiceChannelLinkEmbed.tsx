@@ -196,7 +196,7 @@ case 22:
             var12 = var13.bind(var14)(var12);
             _fun0001_ip = 23; continue _fun0001;
 case 21:
-            var11 = var11.7vb2cc;
+            var11 = var11["7vb2cc"];
             var12 = var13.bind(var14)(var11);
 case 23:
             var11 = 'acceptLabelText';
@@ -264,7 +264,7 @@ case 26:
             var5 = var5[var10];
             var5 = var6.bind(var4)(var5);
             var5 = var5.t;
-            var6 = var5.2wimj5;
+            var6 = var5["2wimj5"];
             var5 = {};
             var9 = var9.name;
             var5['guildName'] = var9;

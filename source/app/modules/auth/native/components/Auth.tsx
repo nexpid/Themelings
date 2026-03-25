@@ -115,7 +115,7 @@ case 8:
                 var8 = var13[var8];
                 var8 = var12.bind(var4)(var8);
                 var8 = var8.t;
-                var8 = var8.13/7kX;
+                var8 = var8["13/7kX"];
                 var8 = var10.bind(var11)(var8);
                 var6['headerBackTitle'] = var8;
                 var8 = _closure1_slot7;

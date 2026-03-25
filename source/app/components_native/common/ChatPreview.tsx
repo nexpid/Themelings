@@ -568,7 +568,7 @@ case 42:
                                 var2 = var11[var2];
                                 var2 = var7.bind(var10)(var2);
                                 var2 = var2.t;
-                                var7 = var2.+FcYM/;
+                                var7 = var2["+FcYM/"];
                                 var2 = {};
                                 var10 = var3.content;
                                 var10 = var10.length;
@@ -1351,7 +1351,7 @@ case 55:
                 var13 = var17[var13];
                 var13 = var16.bind(var4)(var13);
                 var13 = var13.t;
-                var13 = var13.+TSRGD;
+                var13 = var13["+TSRGD"];
                 var13 = var14.bind(var15)(var13);
                 var11['children'] = var13;
                 var11 = var7.bind(var4)(var12, var11);

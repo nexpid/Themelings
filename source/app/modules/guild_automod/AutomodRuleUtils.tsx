@@ -682,7 +682,7 @@ case 32:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.6WPxY2;
+            var2 = var2["6WPxY2"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 15:

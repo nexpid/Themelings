@@ -390,7 +390,7 @@ case 40:
             var2 = var14[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.7Uuia2;
+            var3 = var2["7Uuia2"];
             var2 = {};
             var2['username'] = var12;
             var27 = var4.bind(var11)(var3, var2);
@@ -584,7 +584,7 @@ case 49:
             var22 = var21[var22];
             var22 = var25.bind(var5)(var22);
             var22 = var22.t;
-            var22 = var22.4i2vj+;
+            var22 = var22["4i2vj+"];
             var22 = var23.bind(var24)(var22);
             var16['text'] = var22;
             var19 = var21[var19];

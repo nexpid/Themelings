@@ -92,7 +92,7 @@ case 0:
             var2 = var15[var16];
             var2 = var14.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.//3pvi;
+            var2 = var2["//3pvi"];
             var2 = var3.bind(var5)(var2);
             var1['text'] = var2;
             var10 = 6;

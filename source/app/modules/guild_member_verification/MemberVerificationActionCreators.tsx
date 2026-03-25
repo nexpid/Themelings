@@ -656,7 +656,7 @@ case 56:
                     var7 = var12[var7];
                     var7 = var11.bind(var3)(var7);
                     var7 = var7.t;
-                    var7 = var7.8T1rxN;
+                    var7 = var7["8T1rxN"];
                     var9 = var9.bind(var10)(var7);
                     var7 = 'message';
                     var6[var7] = var9;

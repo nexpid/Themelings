@@ -186,7 +186,7 @@ case 7:
             var9 = var9[var16];
             var9 = var15.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9./g10LC;
+            var9 = var9["/g10LC"];
             var9 = var13.bind(var14)(var9);
             var10['text'] = var9;
             var9 = 'add-profile-picture';

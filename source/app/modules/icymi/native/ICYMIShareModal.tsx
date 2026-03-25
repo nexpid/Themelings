@@ -998,7 +998,7 @@ case 0:
             var6 = var11[var6];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.7TVSLK;
+            var6 = var6["7TVSLK"];
             var6 = var7.bind(var9)(var6);
             var1['title'] = var6;
             var7 = var8.channel_id;
@@ -1039,7 +1039,7 @@ case 44:
         var6 = var10[var6];
         var6 = var9.bind(var1)(var6);
         var6 = var6.t;
-        var6 = var6.59CWHK;
+        var6 = var6["59CWHK"];
         var6 = var7.bind(var8)(var6);
         var2['title'] = var6;
         var6 = '';

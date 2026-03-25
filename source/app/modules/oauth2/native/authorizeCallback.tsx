@@ -23,9 +23,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var7;
     var4 = var4.OAUTH2_ERROR_RESULT_MODAL_KEY;
     var _closure1_slot4 = var4;
-    var4 = /oauth2\\/authorized/;
+    var4 = /oauth2\/authorized/;
     var _closure1_slot5 = var4;
-    var4 = /oauth2\\/error/;
+    var4 = /oauth2\/error/;
     var _closure1_slot6 = var4;
     var4 = 9;
     var4 = var6[var4];

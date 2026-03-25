@@ -280,7 +280,7 @@ case 9:
             var8 = var10[var8];
             var8 = var9.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.4i2vj+;
+            var8 = var8["4i2vj+"];
             var8 = var11.bind(var12)(var8);
             var2['text'] = var8;
             var8 = 26;
@@ -768,11 +768,11 @@ case 33:
             var12 = var6.t;
             if(var8) { _fun0006_ip = 34; continue _fun0006 }
 case 35:
-            var6 = var12.96ANUN;
+            var6 = var12["96ANUN"];
             var6 = var13.bind(var14)(var6);
             _fun0006_ip = 36; continue _fun0006;
 case 34:
-            var12 = var12.7vb2cc;
+            var12 = var12["7vb2cc"];
             var6 = var13.bind(var14)(var12);
 case 36:
             _fun0006_ip = 37; continue _fun0006;
@@ -829,7 +829,7 @@ case 39:
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.7hwn2A;
+            var9 = var9["7hwn2A"];
             var8 = var10.bind(var11)(var9);
 case 45:
             var6 = var8;

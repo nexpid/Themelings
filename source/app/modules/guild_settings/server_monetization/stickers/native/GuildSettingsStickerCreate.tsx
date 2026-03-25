@@ -922,7 +922,7 @@ case 102:
             var26 = var32[var25];
             var26 = var31.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.9N2OWD;
+            var26 = var26["9N2OWD"];
             var26 = var30.bind(var33)(var26);
             var9['children'] = var26;
             var12 = var15.bind(var4)(var12, var9);
@@ -1141,7 +1141,7 @@ case 111:
             var31 = var11[var19];
             var31 = var12.bind(var4)(var31);
             var31 = var31.t;
-            var31 = var31.3BQmiC;
+            var31 = var31["3BQmiC"];
             var31 = var32.bind(var33)(var31);
             var15['children'] = var31;
             var15 = var27.bind(var4)(var26, var15);
@@ -1280,7 +1280,7 @@ case 122:
             var24 = var15[var19];
             var24 = var18.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.0VRh6n;
+            var24 = var24["0VRh6n"];
             var24 = var25.bind(var26)(var24);
             var10['label'] = var24;
             var24 = var15[var19];
@@ -1290,7 +1290,7 @@ case 122:
             var24 = var15[var19];
             var24 = var18.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.3fGttT;
+            var24 = var24["3fGttT"];
             var24 = var25.bind(var26)(var24);
             var10['placeholder'] = var24;
             var10['onChange'] = var23;

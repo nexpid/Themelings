@@ -2488,6 +2488,10 @@ case 220:
         var3 = new Array(1);
         var3[0] = var4;
         var6['experiments'] = var3;
+        var4 = _closure1_slot13;
+        var3 = var4.getInstallationForTracking;
+        var3 = var3.bind(var4)();
+        var6['installationId'] = var3;
         var4 = _closure1_slot1;
         var3 = 55;
         var3 = var5[var3];
@@ -2609,10 +2613,10 @@ case 232:
             var7 = var6.concat;
             var6 = 'discord://';
             var8 = var7.bind(var6)(var8);
-            _fun0029_ip = 68; continue _fun0029;
+            _fun0029_ip = 234; continue _fun0029;
 case 228:
             if(!(var10 == var12)) { _fun0029_ip = 49; continue _fun0029 }
-case 234:
+case 235:
             var7 = _closure1_slot0;
             var9 = _closure1_slot3;
             var6 = 57;
@@ -2620,7 +2624,7 @@ case 234:
             var7 = var7.bind(var1)(var6);
             var6 = var7.getDefaultDynamicLinkTemplate;
             var9 = var6.bind(var7)();
-            _fun0029_ip = 235; continue _fun0029;
+            _fun0029_ip = 236; continue _fun0029;
 case 49:
             var7 = _closure1_slot0;
             var13 = _closure1_slot3;
@@ -2629,7 +2633,7 @@ case 49:
             var7 = var7.bind(var1)(var6);
             var6 = var7.getInviteDynamicLinkTemplate;
             var9 = var6.bind(var7)(var12);
-case 235:
+case 236:
             var13 = _closure1_slot0;
             var14 = _closure1_slot3;
             var6 = 58;
@@ -2644,21 +2648,25 @@ case 235:
             var14 = 'friend_invite';
             var17 = 2;
             var15 = arg5;
-            if(!(var17 !== var15)) { _fun0029_ip = 236; continue _fun0029 }
-case 237:
+            if(!(var17 !== var15)) { _fun0029_ip = 237; continue _fun0029 }
+case 238:
             var14 = 'invite';
-case 236:
+case 237:
             var6['utmSource'] = var14;
             var6['fingerprint'] = var16;
+            var15 = _closure1_slot13;
+            var14 = var15.getInstallationForTracking;
+            var14 = var14.bind(var15)();
+            var6['installationId'] = var14;
             var14 = arg4;
             var6['username'] = var14;
             var6['attemptId'] = var13;
             var14 = var10 == var11;
             var10 = undefined;
-            if(var14) { _fun0029_ip = 238; continue _fun0029 }
-case 239:
+            if(var14) { _fun0029_ip = 239; continue _fun0029 }
+case 240:
             var10 = var11.guildScheduledEventId;
-case 238:
+case 239:
             var6['event'] = var10;
             var10 = global;
             var10 = var10.HermesInternal;
@@ -2688,7 +2696,7 @@ case 238:
             var7['source'] = var13;
             var7['invite_code'] = var12;
             var7 = var10.bind(var11)(var9, var7);
-case 68:
+case 234:
             var7 = _closure1_slot1;
             var9 = _closure1_slot3;
             var6 = 60;
@@ -2714,20 +2722,20 @@ case 137:
                     var2 = _closure2_slot0;
                     var5['code'] = var2;
                     var2 = var5;
-                    _fun0030_ip = 240; continue _fun0030;
+                    _fun0030_ip = 241; continue _fun0030;
 case 204:
                     var6 = 'INVITE_APP_OPENED';
                     var5['type'] = var6;
                     var6 = _closure2_slot0;
                     var5['code'] = var6;
                     var2 = var5;
-case 240:
+case 241:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
             };
             var3 = var6.bind(var7)(var8, var3);
-            _fun0029_ip = 241; continue _fun0029;
+            _fun0029_ip = 242; continue _fun0029;
 case 226:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
@@ -2739,7 +2747,7 @@ case 226:
             var2['type'] = var6;
             var2['code'] = var5;
             var2 = var3.bind(var4)(var2);
-case 241:
+case 242:
             return var1;
         }
     };
@@ -2780,25 +2788,25 @@ case 0:
             var6 = null;
             var11 = var6 == var12;
             var8 = undefined;
-            if(var11) { _fun0031_ip = 242; continue _fun0031 }
+            if(var11) { _fun0031_ip = 243; continue _fun0031 }
 case 95:
             var11 = var12.toString;
             var8 = var11.bind(var12)();
-case 242:
+case 243:
             var2['invite_type'] = var8;
             var11 = var6 != var10;
             var8 = null;
             if(!var11) { _fun0031_ip = 117; continue _fun0031 }
-case 243:
+case 244:
             var8 = var10;
 case 117:
             var2['inviter_id'] = var8;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0031_ip = 244; continue _fun0031 }
+            if(!var10) { _fun0031_ip = 245; continue _fun0031 }
 case 11:
             var8 = var9;
-case 244:
+case 245:
             var2['invite_message_id'] = var8;
             var8 = var6 != var7;
             var6 = null;

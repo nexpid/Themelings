@@ -135,7 +135,7 @@ case 5:
             var2 = var2.t;
             if(var1) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var6 = var2.8Joh+p;
+            var6 = var2["8Joh+p"];
             var6 = var3.bind(var8)(var6);
             _fun0002_ip = 9; continue _fun0002;
 case 7:
@@ -533,7 +533,7 @@ case 19:
             var20 = var25[var20];
             var20 = var32.bind(var5)(var20);
             var20 = var20.t;
-            var33 = var20.5z7q5a;
+            var33 = var20["5z7q5a"];
             var32 = {};
             var20 = global;
             var36 = var20.HermesInternal;

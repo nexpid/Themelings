@@ -549,10 +549,10 @@ case 54:
             var9 = var9.t;
             if(var5) { _fun0011_ip = 55; continue _fun0011 }
 case 56:
-            var10 = var9.2kHZes;
+            var10 = var9["2kHZes"];
             _fun0011_ip = 57; continue _fun0011;
 case 55:
-            var10 = var9.6++3cX;
+            var10 = var9["6++3cX"];
 case 57:
             var9 = {};
             var15 = _closure1_slot1;
@@ -594,7 +594,7 @@ case 60:
             var10 = var2.t;
             if(var5) { _fun0011_ip = 61; continue _fun0011 }
 case 62:
-            var2 = var10.5rygLk;
+            var2 = var10["5rygLk"];
             var2 = var12.bind(var11)(var2);
             _fun0011_ip = 63; continue _fun0011;
 case 61:
@@ -634,7 +634,7 @@ case 66:
             var5 = var10.bind(var11)(var9, var5);
             _fun0011_ip = 67; continue _fun0011;
 case 65:
-            var9 = var8.8tk6bB;
+            var9 = var8["8tk6bB"];
             var8 = {};
             var5 = var10.bind(var11)(var9, var8);
 case 67:
@@ -763,7 +763,7 @@ case 81:
             var5 = var13[var5];
             var5 = var8.bind(var6)(var5);
             var5 = var5.t;
-            var8 = var5.6++3cX;
+            var8 = var5["6++3cX"];
             var5 = {};
             var12 = _closure1_slot1;
             var11 = 14;
@@ -805,7 +805,7 @@ case 78:
             var9 = var8.t;
             if(var7) { _fun0013_ip = 83; continue _fun0013 }
 case 84:
-            var8 = var9.5rygLk;
+            var8 = var9["5rygLk"];
             var8 = var10.bind(var11)(var8);
             _fun0013_ip = 85; continue _fun0013;
 case 83:
@@ -847,7 +847,7 @@ case 76:
             var9 = var12[var8];
             var9 = var11.bind(var6)(var9);
             var9 = var9.t;
-            var9 = var9.7ymzsL;
+            var9 = var9["7ymzsL"];
             var9 = var10.bind(var13)(var9);
             var5['verifyTitle'] = var9;
             var9 = var12[var8];
@@ -904,7 +904,7 @@ case 92:
             var8 = var11.bind(var13)(var10, var8);
             _fun0013_ip = 93; continue _fun0013;
 case 91:
-            var10 = var9.8tk6bB;
+            var10 = var9["8tk6bB"];
             var9 = {};
             var8 = var11.bind(var13)(var10, var9);
 case 93:

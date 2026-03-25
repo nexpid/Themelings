@@ -1369,7 +1369,7 @@ case 77:
                     var7 = var11[var7];
                     var7 = var10.bind(var1)(var7);
                     var7 = var7.t;
-                    var7 = var7.0dOFq+;
+                    var7 = var7["0dOFq+"];
                     var7 = var8.bind(var9)(var7);
                     var6['title'] = var7;
                     var2['header'] = var6;
@@ -1825,7 +1825,7 @@ case 94:
                     var6 = var10[var6];
                     var6 = var9.bind(var3)(var6);
                     var6 = var6.t;
-                    var6 = var6.0dOFq+;
+                    var6 = var6["0dOFq+"];
                     var6 = var7.bind(var8)(var6);
                     var1['text'] = var6;
                     var5 = _closure3_slot0;

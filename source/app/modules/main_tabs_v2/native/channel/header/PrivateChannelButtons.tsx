@@ -716,7 +716,7 @@ case 32:
                     var5 = var8[var5];
                     var5 = var6.bind(var3)(var5);
                     var5 = var5.t;
-                    var5 = var5.5h0QOP;
+                    var5 = var5["5h0QOP"];
                     var5 = var9.bind(var10)(var5);
                     var1['accessibilityLabel'] = var5;
                     var5 = 'button';
@@ -804,12 +804,12 @@ case 59:
             var17 = var24.bind(var26)(var17);
             _fun0001_ip = 60; continue _fun0001;
 case 58:
-            var27 = var23.4ry6yi;
+            var27 = var23["4ry6yi"];
             var17 = var24.bind(var26)(var27);
 case 60:
             _fun0001_ip = 61; continue _fun0001;
 case 56:
-            var23 = var23.0D/6Rz;
+            var23 = var23["0D/6Rz"];
             var17 = var24.bind(var26)(var23);
 case 61:
             var10['accessibilityLabel'] = var17;
@@ -1146,7 +1146,7 @@ case 101:
             var14 = var17[var18];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.5h0QOP;
+            var14 = var14["5h0QOP"];
             var14 = var16.bind(var20)(var14);
             var10['accessibilityLabel'] = var14;
             var14 = 'button';
@@ -1240,7 +1240,7 @@ case 52:
             var5 = var7[var5];
             var5 = var6.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.+KSnWX;
+            var5 = var5["+KSnWX"];
             var5 = var8.bind(var9)(var5);
             var1['accessibilityLabel'] = var5;
             var5 = 37;

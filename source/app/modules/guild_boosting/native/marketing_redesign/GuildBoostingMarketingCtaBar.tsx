@@ -820,7 +820,7 @@ case 14:
             var14 = var11[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.8MYSQw;
+            var14 = var14["8MYSQw"];
             var14 = var15.bind(var16)(var14);
             var9['text'] = var14;
             var12 = _closure1_slot1;

@@ -328,7 +328,7 @@ case 15:
         var4 = var9[var3];
         var4 = var8.bind(var1)(var4);
         var4 = var4.t;
-        var4 = var4.0ZkNDU;
+        var4 = var4["0ZkNDU"];
         var4 = var6.bind(var7)(var4);
         var6 = var9[var3];
         var6 = var8.bind(var1)(var6);

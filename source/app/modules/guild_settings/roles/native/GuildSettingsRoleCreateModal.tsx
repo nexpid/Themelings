@@ -494,7 +494,7 @@ case 6:
             var5 = var18[var17];
             var5 = var21.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.8pxAPp;
+            var5 = var5["8pxAPp"];
             var5 = var6.bind(var7)(var5);
             var1['title'] = var5;
             var5 = var18[var17];
@@ -599,7 +599,7 @@ case 6:
             var27 = var18[var17];
             var27 = var21.bind(var4)(var27);
             var27 = var27.t;
-            var27 = var27.5NC5YW;
+            var27 = var27["5NC5YW"];
             var27 = var28.bind(var31)(var27);
             var24['children'] = var27;
             var25 = var26.bind(var4)(var25, var24);
@@ -662,7 +662,7 @@ case 6:
             var18 = var18[var17];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.9TMIgc;
+            var18 = var18["9TMIgc"];
             var18 = var19.bind(var20)(var18);
             var10['children'] = var18;
             var10 = var16.bind(var4)(var15, var10);
@@ -1122,7 +1122,7 @@ case 27:
             var5 = var22[var20];
             var5 = var6.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.+gWHtA;
+            var5 = var5["+gWHtA"];
             var5 = var7.bind(var23)(var5);
             var1['title'] = var5;
             var5 = var22[var20];
@@ -1667,7 +1667,7 @@ case 42:
         var8 = var14[var8];
         var8 = var9.bind(var1)(var8);
         var8 = var8.t;
-        var9 = var8.8v/u0i;
+        var9 = var8["8v/u0i"];
         var8 = {};
         var8['number'] = var13;
         var8['total'] = var12;

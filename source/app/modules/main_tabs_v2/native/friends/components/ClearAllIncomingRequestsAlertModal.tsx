@@ -124,7 +124,7 @@ case 2:
         var5 = var15[var9];
         var5 = var14.bind(var3)(var5);
         var5 = var5.t;
-        var6 = var5.0nTvEw;
+        var6 = var5["0nTvEw"];
         var5 = {};
         var5['incomingRequestCount'] = var12;
         var5 = var7.bind(var11)(var6, var5);

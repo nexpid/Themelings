@@ -284,7 +284,7 @@ case 9:
                     var19 = var16.t;
                     if(var8) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-                    var16 = var19.10kukS;
+                    var16 = var19["10kukS"];
                     var16 = var20.bind(var21)(var16);
                     _fun0002_ip = 12; continue _fun0002;
 case 10:
@@ -332,7 +332,7 @@ case 15:
                     var16 = var20.bind(var21)(var16);
                     _fun0002_ip = 16; continue _fun0002;
 case 14:
-                    var19 = var19.2LsZdT;
+                    var19 = var19["2LsZdT"];
                     var16 = var20.bind(var21)(var19);
 case 16:
                     var12['label'] = var16;
@@ -382,7 +382,7 @@ case 20:
                     var18 = var20.bind(var21)(var18);
                     _fun0002_ip = 21; continue _fun0002;
 case 19:
-                    var19 = var19.0D/6Rz;
+                    var19 = var19["0D/6Rz"];
                     var18 = var20.bind(var21)(var19);
 case 21:
                     var12['label'] = var18;
@@ -554,7 +554,7 @@ case 42:
                     var12 = var15.bind(var16)(var12);
                     _fun0002_ip = 43; continue _fun0002;
 case 41:
-                    var13 = var13./OKSxp;
+                    var13 = var13["/OKSxp"];
                     var12 = var15.bind(var16)(var13);
 case 43:
                     var4['label'] = var12;
@@ -596,7 +596,7 @@ case 45:
                     var12 = var11.t;
                     if(var8) { _fun0002_ip = 46; continue _fun0002 }
 case 47:
-                    var11 = var12.2Mk1TP;
+                    var11 = var12["2Mk1TP"];
                     var11 = var13.bind(var15)(var11);
                     _fun0002_ip = 48; continue _fun0002;
 case 46:
@@ -751,7 +751,7 @@ case 56:
                     var8 = var12.bind(var13)(var8);
                     _fun0002_ip = 57; continue _fun0002;
 case 55:
-                    var11 = var11.0JQfsP;
+                    var11 = var11["0JQfsP"];
                     var8 = var12.bind(var13)(var11);
 case 57:
                     var2['label'] = var8;

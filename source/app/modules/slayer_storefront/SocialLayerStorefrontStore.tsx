@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot20 = var2;
+            _closure1_slot19 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = function handleUserSettingsStoreUpdate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -64,7 +64,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot20 = var1;
     var2 = global;
     var9 = var2.Object;
     var8 = var9.defineProperty;
@@ -134,20 +134,13 @@ case 6:
     var _closure1_slot16 = var7;
     var7 = {};
     var _closure1_slot17 = var7;
-    var7 = var2.Set;
-    var8 = var7.prototype;
-    var8 = Object.create(var8, {constructor: {value: var7}});
-    var13 = var8;
-    var7 = new var13[var7](var12);
-    var7 = var7 instanceof Object ? var7 : var8;
-    var _closure1_slot18 = var7;
     var2 = var2.Set;
     var7 = var2.prototype;
     var7 = Object.create(var7, {constructor: {value: var2}});
     var13 = var7;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot19 = var2;
+    var _closure1_slot18 = var2;
     var2 = 7;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -165,7 +158,7 @@ case 0:
                 var1 = _closure1_slot4;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot3;
-                var1 = _closure1_slot20;
+                var1 = _closure1_slot19;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 6:
@@ -207,7 +200,7 @@ case 9:
             var1 = _closure1_slot6;
             var3 = new Array(1);
             var3[0] = var1;
-            var1 = _closure1_slot21;
+            var1 = _closure1_slot20;
             var1 = var4.bind(var5)(var3, var1);
             var1 = _closure1_slot6;
             var1 = var1.locale;
@@ -283,6 +276,15 @@ case 10:
         var5['value'] = var7;
         var1[5] = var5;
         var5 = {};
+        var7 = 'getDetectableIdsToApplicationIds';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot17;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[6] = var5;
+        var5 = {};
         var7 = 'getGuildIdFromApplicationId';
         var5['key'] = var7;
         var7 = function value(arg1) {
@@ -330,7 +332,7 @@ case 12:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getApplicationIdFromGuildId';
         var5['key'] = var7;
@@ -341,7 +343,7 @@ case 12:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getConfigFetchState';
         var5['key'] = var7;
@@ -350,7 +352,7 @@ case 12:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getStorefrontApplicationIds';
         var5['key'] = var7;
@@ -359,21 +361,12 @@ case 12:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getStorefrontGuildIds';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot18;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[10] = var5;
-        var5 = {};
-        var7 = 'getStorefrontDetectableGameAndApplicationIds';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot19;
             return var1;
         };
         var5['value'] = var7;
@@ -471,20 +464,13 @@ case 15:
         _closure1_slot16 = var3;
         var3 = {};
         _closure1_slot17 = var3;
-        var3 = var1.Set;
-        var4 = var3.prototype;
-        var4 = Object.create(var4, {constructor: {value: var3}});
-        var5 = var4;
-        var3 = new var5[var3](var4);
-        var3 = var3 instanceof Object ? var3 : var4;
-        _closure1_slot18 = var3;
         var1 = var1.Set;
         var3 = var1.prototype;
         var3 = Object.create(var3, {constructor: {value: var1}});
         var5 = var3;
         var1 = new var5[var1](var4);
         var1 = var1 instanceof Object ? var1 : var3;
-        _closure1_slot19 = var1;
+        _closure1_slot18 = var1;
         var1 = undefined;
         return var1;
     };
@@ -861,50 +847,50 @@ case 35:
     };
     var2['SOCIAL_LAYER_STOREFRONT_CONFIG_FETCH_START'] = var8;
     var8 = function handleStorefrontConfigFetchSuccess(arg1) {
-        var1 = arg1;
-        var6 = var1.config;
-        var4 = {};
-        var1 = 'success';
-        var4['state'] = var1;
-        var4['config'] = var6;
-        var1 = global;
-        var5 = var1.Date;
-        var2 = var5.now;
-        var2 = var2.bind(var5)();
-        var4['fetchedAt'] = var2;
-        _closure1_slot14 = var4;
-        var7 = var1.Set;
-        var8 = var6.storefronts;
-        var5 = var8.map;
-        var4 = function(arg1) {
+        var2 = arg1;
+        var3 = var2.config;
+        var5 = {};
+        var2 = 'success';
+        var5['state'] = var2;
+        var5['config'] = var3;
+        var4 = global;
+        var6 = var4.Date;
+        var2 = var6.now;
+        var2 = var2.bind(var6)();
+        var5['fetchedAt'] = var2;
+        _closure1_slot14 = var5;
+        var7 = var4.Set;
+        var8 = var3.storefronts;
+        var6 = var8.map;
+        var5 = function(arg1) {
             var1 = arg1;
             var1 = var1.applicationId;
             return var1;
         };
-        var11 = var5.bind(var8)(var4);
-        var5 = var7.prototype;
-        var5 = Object.create(var5, {constructor: {value: var7}});
-        var12 = var5;
-        var4 = new var12[var7](var11, var10);
-        var4 = var4 instanceof Object ? var4 : var5;
-        _closure1_slot15 = var4;
-        var7 = var1.Set;
-        var8 = var6.storefronts;
-        var5 = var8.map;
+        var10 = var6.bind(var8)(var5);
+        var6 = var7.prototype;
+        var6 = Object.create(var6, {constructor: {value: var7}});
+        var11 = var6;
+        var5 = new var11[var7](var10, var9);
+        var5 = var5 instanceof Object ? var5 : var6;
+        _closure1_slot15 = var5;
+        var6 = var4.Set;
+        var7 = var3.storefronts;
+        var5 = var7.map;
         var4 = function(arg1) {
             var1 = arg1;
             var1 = var1.guildId;
             return var1;
         };
-        var11 = var5.bind(var8)(var4);
-        var5 = var7.prototype;
-        var5 = Object.create(var5, {constructor: {value: var7}});
-        var12 = var5;
-        var4 = new var12[var7](var11, var10);
+        var10 = var5.bind(var7)(var4);
+        var5 = var6.prototype;
+        var5 = Object.create(var5, {constructor: {value: var6}});
+        var11 = var5;
+        var4 = new var11[var6](var10, var9);
         var4 = var4 instanceof Object ? var4 : var5;
         _closure1_slot18 = var4;
-        var8 = var6.storefronts;
-        var7 = var8.reduce;
+        var7 = var3.storefronts;
+        var6 = var7.reduce;
         var5 = function(arg1, arg2) {
             var1 = arg1;
             var2 = arg2;
@@ -914,11 +900,11 @@ case 35:
             return var1;
         };
         var4 = {};
-        var4 = var7.bind(var8)(var5, var4);
+        var4 = var6.bind(var7)(var5, var4);
         _closure1_slot16 = var4;
-        var8 = var6.storefronts;
-        var7 = var8.reduce;
-        var5 = function(arg1, arg2) {
+        var5 = var3.storefronts;
+        var4 = var5.reduce;
+        var3 = function(arg1, arg2) {
             var1 = arg1;
             var2 = arg2;
             var4 = var2.gameId;
@@ -929,39 +915,9 @@ case 35:
             var1[var3] = var2;
             return var1;
         };
-        var4 = {};
-        var4 = var7.bind(var8)(var5, var4);
-        _closure1_slot17 = var4;
-        var4 = var1.Set;
-        var7 = var6.storefronts;
-        var5 = var7.map;
-        var1 = function(arg1) {
-            var1 = arg1;
-            var1 = var1.gameId;
-            return var1;
-        };
-        var10 = var5.bind(var7)(var1);
-        var1 = new Array(0);
-        var9 = 0;
-        var11 = var1;
-        var9 = arraySpread(var11, var10, var9);
-        var7 = var6.storefronts;
-        var6 = var7.map;
-        var3 = function(arg1) {
-            var1 = arg1;
-            var1 = var1.applicationId;
-            return var1;
-        };
-        var10 = var6.bind(var7)(var3);
-        var11 = var1;
-        var3 = arraySpread(var11, var10, var9);
-        var3 = var4.prototype;
-        var3 = Object.create(var3, {constructor: {value: var4}});
-        var12 = var3;
-        var11 = var1;
-        var1 = new var12[var4](var11, var10);
-        var1 = var1 instanceof Object ? var1 : var3;
-        _closure1_slot19 = var1;
+        var1 = {};
+        var1 = var4.bind(var5)(var3, var1);
+        _closure1_slot17 = var1;
         var1 = undefined;
         return var1;
     };

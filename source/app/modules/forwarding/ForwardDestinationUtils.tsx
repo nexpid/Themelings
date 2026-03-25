@@ -489,7 +489,7 @@ case 49:
             var8 = var12[var8];
             var8 = var11.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.0Yyrua;
+            var8 = var8["0Yyrua"];
             var8 = var9.bind(var10)(var8);
             var5['label'] = var8;
             return var5;

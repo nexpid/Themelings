@@ -82,7 +82,7 @@ case 5:
             var1 = var10[var1];
             var1 = var3.bind(var8)(var1);
             var1 = var1.t;
-            var3 = var1./d0GmT;
+            var3 = var1["/d0GmT"];
             var1 = {};
             var12 = var7.Math;
             var11 = var12.floor;

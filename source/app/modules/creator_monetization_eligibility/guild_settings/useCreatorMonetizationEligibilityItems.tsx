@@ -202,7 +202,7 @@ case 3:
                     var8 = var18[var14];
                     var8 = var9.bind(var7)(var8);
                     var8 = var8.t;
-                    var8 = var8.1lGNPZ;
+                    var8 = var8["1lGNPZ"];
                     var8 = var11.bind(var12)(var8);
                     var5['checkedLabel'] = var8;
                     var8 = var18[var14];
@@ -297,7 +297,7 @@ case 31:
                     var11 = var8[var14];
                     var11 = var9.bind(var7)(var11);
                     var11 = var11.t;
-                    var11 = var11.+F8haD;
+                    var11 = var11["+F8haD"];
                     var11 = var12.bind(var16)(var11);
                     var5['checkedLabel'] = var11;
                     var11 = var8[var14];
@@ -307,7 +307,7 @@ case 31:
                     var11 = var8[var14];
                     var11 = var9.bind(var7)(var11);
                     var11 = var11.t;
-                    var11 = var11.5BwC/O;
+                    var11 = var11["5BwC/O"];
                     var11 = var12.bind(var16)(var11);
                     var5['uncheckedLabel'] = var11;
                     var11 = var8[var14];
@@ -413,7 +413,7 @@ case 39:
                     var8 = var16[var14];
                     var8 = var9.bind(var7)(var8);
                     var8 = var8.t;
-                    var8 = var8.9BV6L6;
+                    var8 = var8["9BV6L6"];
                     var8 = var11.bind(var12)(var8);
                     var5['uncheckedLabel'] = var8;
                     var8 = var16[var14];
@@ -552,7 +552,7 @@ case 42:
                     var9 = var5[var14];
                     var9 = var12.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.718pRA;
+                    var9 = var9["718pRA"];
                     var9 = var11.bind(var13)(var9);
                     var6['uncheckedLabel'] = var9;
                     var9 = var5[var14];
@@ -562,7 +562,7 @@ case 42:
                     var5 = var5[var14];
                     var5 = var12.bind(var7)(var5);
                     var5 = var5.t;
-                    var5 = var5.5ZqX+j;
+                    var5 = var5["5ZqX+j"];
                     var5 = var9.bind(var11)(var5);
                     var6['description'] = var5;
                     var5 = _closure2_slot0;
@@ -649,7 +649,7 @@ case 58:
                     var9 = var9[var14];
                     var9 = var11.bind(var7)(var9);
                     var9 = var9.t;
-                    var11 = var9.7NzkfV;
+                    var11 = var9["7NzkfV"];
                     var9 = {};
                     var15 = _closure2_slot7;
                     var9['enableMFAHook'] = var15;

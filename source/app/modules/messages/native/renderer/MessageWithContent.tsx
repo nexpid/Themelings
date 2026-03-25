@@ -171,7 +171,7 @@ case 12:
             var3 = var2[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.5IEsGx;
+            var3 = var3["5IEsGx"];
             var3 = var4.bind(var8)(var3);
             var1['replyAccessibilityLabel'] = var3;
             var3 = var2[var7];

@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.95HTb5;
+        var1 = var1["95HTb5"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.+XFelz;
+        var1 = var1["+XFelz"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -334,7 +334,7 @@ case 4:
             var6 = var13[var9];
             var6 = var12.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.+IrDzN;
+            var6 = var6["+IrDzN"];
             var8 = var8.bind(var11)(var6);
             var6 = 'confirmText';
             var1[var6] = var8;
@@ -371,7 +371,7 @@ case 4:
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.2QbSea;
+            var9 = var9["2QbSea"];
             var9 = var10.bind(var11)(var9);
             var5['children'] = var9;
             var5 = var8.bind(var4)(var7, var5);

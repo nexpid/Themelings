@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8[var3];
             var5 = var7.bind(var6)(var5);
             var5 = var5.t;
-            var5 = var5.1hvuGH;
+            var5 = var5["1hvuGH"];
             var5 = var9.bind(var10)(var5);
             var2['label'] = var5;
             var5 = var8[var3];

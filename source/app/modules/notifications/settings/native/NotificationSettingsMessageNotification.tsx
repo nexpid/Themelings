@@ -58,7 +58,7 @@ case 0:
             var13 = var9[var23];
             var13 = var10.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.1m22ZB;
+            var13 = var13["1m22ZB"];
             var13 = var14.bind(var15)(var13);
             var8['children'] = var13;
             var11 = var12.bind(var4)(var11, var8);
@@ -95,7 +95,7 @@ case 2:
             var13 = var13[var23];
             var13 = var19.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.4bP2ZZ;
+            var13 = var13["4bP2ZZ"];
             var12 = var14.bind(var15)(var13);
 case 4:
             var9['children'] = var12;

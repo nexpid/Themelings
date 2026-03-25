@@ -393,7 +393,7 @@ case 5:
             var8 = var12[var7];
             var8 = var11.bind(var10)(var8);
             var8 = var8.t;
-            var8 = var8.6I6GUv;
+            var8 = var8["6I6GUv"];
             var8 = var9.bind(var13)(var8);
             var5['label'] = var8;
             var9 = var6.ECHO_CANCELLATION;

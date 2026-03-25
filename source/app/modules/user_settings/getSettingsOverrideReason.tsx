@@ -31,7 +31,7 @@ case 4:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.2ExvRu;
+            var2 = var2["2ExvRu"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 2:
@@ -46,7 +46,7 @@ case 2:
             var1 = var6[var1];
             var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.1dT9V4;
+            var2 = var1["1dT9V4"];
             var1 = {};
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -133,7 +133,7 @@ case 7:
                 var1 = var9[var1];
                 var1 = var7.bind(var8)(var1);
                 var1 = var1.t;
-                var1 = var1.5LO/Ss;
+                var1 = var1["5LO/Ss"];
                 var1 = var5.bind(var6)(var1);
                 var1 = var3.bind(var4)(var2, var1);
                 _fun0002_ip = 8; continue _fun0002;

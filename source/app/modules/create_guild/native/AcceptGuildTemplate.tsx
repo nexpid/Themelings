@@ -189,7 +189,7 @@ case 2:
             var21 = var13[var20];
             var21 = var18.bind(var4)(var21);
             var21 = var21.t;
-            var22 = var21.2bprXx;
+            var22 = var21["2bprXx"];
             var21 = {};
             var25 = _closure1_slot8;
             var25 = var25.GUIDELINES;
@@ -314,7 +314,7 @@ case 2:
             var19 = var13[var20];
             var19 = var18.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.8tvIiN;
+            var19 = var19["8tvIiN"];
             var21 = var21.bind(var22)(var19);
             var19 = new Array(2);
             var19[0] = var21;

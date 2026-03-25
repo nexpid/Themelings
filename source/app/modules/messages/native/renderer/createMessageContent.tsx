@@ -995,7 +995,7 @@ case 118:
             var23 = var35[var23];
             var23 = var34.bind(var5)(var23);
             var23 = var23.t;
-            var23 = var23.1i+hMi;
+            var23 = var23["1i+hMi"];
             var23 = var30.bind(var31)(var23);
             var22['content'] = var23;
             var95 = var22;
@@ -1224,7 +1224,7 @@ case 155:
             var30 = var35[var30];
             var30 = var34.bind(var5)(var30);
             var30 = var30.t;
-            var30 = var30.6bhHrc;
+            var30 = var30["6bhHrc"];
             var22 = var31.bind(var32)(var30);
 case 167:
             _fun0003_ip = 168; continue _fun0003;
@@ -1239,7 +1239,7 @@ case 154:
             var30 = var35[var30];
             var30 = var34.bind(var5)(var30);
             var30 = var30.t;
-            var30 = var30.2v7kfl;
+            var30 = var30["2v7kfl"];
             var22 = var31.bind(var32)(var30);
 case 168:
             _fun0003_ip = 169; continue _fun0003;
@@ -1254,7 +1254,7 @@ case 149:
             var30 = var35[var30];
             var30 = var34.bind(var5)(var30);
             var30 = var30.t;
-            var30 = var30.7K5Lma;
+            var30 = var30["7K5Lma"];
             var22 = var31.bind(var32)(var30);
 case 169:
             var30 = var20.type;
@@ -1290,7 +1290,7 @@ case 126:
             var22 = var32[var22];
             var22 = var31.bind(var5)(var22);
             var22 = var22.t;
-            var22 = var22.1i+hMi;
+            var22 = var22["1i+hMi"];
             var22 = var23.bind(var30)(var22);
             var20['content'] = var22;
             var95 = var20;
@@ -2247,7 +2247,7 @@ case 337:
             var31 = var29[var31];
             var31 = var28.bind(var5)(var31);
             var31 = var31.t;
-            var31 = var31.2aXnfa;
+            var31 = var31["2aXnfa"];
             var31 = var32.bind(var33)(var31);
             var1['obscureLearnMoreLabel'] = var31;
             var31 = 76;

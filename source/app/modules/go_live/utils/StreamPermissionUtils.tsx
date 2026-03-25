@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -482,7 +482,7 @@ case 82:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.7Xq/nV;
+            var2 = var2["7Xq/nV"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 81:
@@ -542,7 +542,7 @@ case 75:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.1i3tSY;
+            var1 = var1["1i3tSY"];
             var1 = var2.bind(var3)(var1);
             return var1;
         }
@@ -579,7 +579,7 @@ case 86:
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
             var3 = var3.t;
-            var3 = var3.7Xq/nV;
+            var3 = var3["7Xq/nV"];
             var6 = var4.bind(var6)(var3);
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
@@ -588,7 +588,7 @@ case 86:
             var2 = var8[var2];
             var2 = var7.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.9C444m;
+            var2 = var2["9C444m"];
             var5 = var3.bind(var4)(var2);
             var2 = global;
             var2 = var2.HermesInternal;
@@ -609,7 +609,7 @@ case 51:
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
             var3 = var3.t;
-            var3 = var3.7Xq/nV;
+            var3 = var3["7Xq/nV"];
             var6 = var4.bind(var6)(var3);
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
@@ -639,7 +639,7 @@ case 85:
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
             var3 = var3.t;
-            var3 = var3.7Xq/nV;
+            var3 = var3["7Xq/nV"];
             var6 = var4.bind(var6)(var3);
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
@@ -669,7 +669,7 @@ case 84:
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
             var3 = var3.t;
-            var3 = var3.7Xq/nV;
+            var3 = var3["7Xq/nV"];
             var6 = var4.bind(var6)(var3);
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
@@ -699,7 +699,7 @@ case 83:
             var2 = var7[var1];
             var2 = var6.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.7Xq/nV;
+            var2 = var2["7Xq/nV"];
             var5 = var3.bind(var5)(var2);
             var2 = var7[var1];
             var2 = var6.bind(var4)(var2);
@@ -708,7 +708,7 @@ case 83:
             var1 = var7[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.1i3tSY;
+            var1 = var1["1i3tSY"];
             var4 = var2.bind(var3)(var1);
             var1 = global;
             var1 = var1.HermesInternal;

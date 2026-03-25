@@ -266,7 +266,7 @@ case 8:
                     var8 = var14[var8];
                     var8 = var13.bind(var2)(var8);
                     var8 = var8.t;
-                    var8 = var8.6639O5;
+                    var8 = var8["6639O5"];
                     var6 = var9.bind(var12)(var8);
 case 15:
                     var3['accessibilityLabel'] = var6;

@@ -207,7 +207,7 @@ case 10:
             var7 = var2.bind(var3)(var7);
             _fun0002_ip = 11; continue _fun0002;
 case 9:
-            var1 = var1./PGQf0;
+            var1 = var1["/PGQf0"];
             var7 = var2.bind(var3)(var1);
 case 11:
             var3 = _closure1_slot16;

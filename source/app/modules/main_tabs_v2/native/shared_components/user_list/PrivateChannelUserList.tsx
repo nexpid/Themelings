@@ -244,7 +244,7 @@ case 0:
                     var1 = var7[var1];
                     var1 = var6.bind(var4)(var1);
                     var1 = var1.t;
-                    var1 = var1.9Oq93m;
+                    var1 = var1["9Oq93m"];
                     var8 = var2.bind(var3)(var1);
                     var1 = _closure2_slot6;
                     var7 = var1.length;

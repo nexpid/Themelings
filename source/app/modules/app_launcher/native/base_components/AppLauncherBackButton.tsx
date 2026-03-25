@@ -83,7 +83,7 @@ case 6:
             var5 = var8.cpT0Cq;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var5 = var8.13/7kX;
+            var5 = var8["13/7kX"];
 case 7:
             var5 = var6.bind(var7)(var5);
             var1['accessibilityLabel'] = var5;

@@ -62,7 +62,7 @@ case 7:
 case 6:
             if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 8:
             if(var2) { _fun0002_ip = 10; continue _fun0002 }
 case 11:

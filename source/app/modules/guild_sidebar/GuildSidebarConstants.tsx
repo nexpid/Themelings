@@ -55,6 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LIVE_CHANNEL_NOTICE'] = var1;
     var1 = 'game-claim';
     var2['GAME_CLAIM'] = var1;
+    var1 = 'application-account-link';
+    var2['APPLICATION_ACCOUNT_LINK'] = var1;
     var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];

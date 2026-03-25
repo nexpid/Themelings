@@ -194,7 +194,7 @@ case 6:
         var6 = var15[var9];
         var6 = var14.bind(var4)(var6);
         var6 = var6.t;
-        var7 = var6.3u/Je4;
+        var7 = var6["3u/Je4"];
         var6 = {};
         var6['emojiName'] = var16;
         var6['onRenewNitro'] = var13;

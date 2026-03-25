@@ -140,7 +140,7 @@ case 33:
             var2 = var8[var2];
             var2 = var7.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.+c5xtT;
+            var2 = var2["+c5xtT"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 32:
@@ -211,7 +211,7 @@ case 24:
             var2 = var8[var2];
             var2 = var7.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.7nKAXx;
+            var2 = var2["7nKAXx"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 22:
@@ -335,7 +335,7 @@ case 8:
             var1 = var7[var1];
             var1 = var2.bind(var6)(var1);
             var1 = var1.t;
-            var2 = var1.+joqrP;
+            var2 = var1["+joqrP"];
             var1 = {};
             var1['username'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5[var1];
             var1 = var4.bind(var3)(var1);
             var1 = var1.t;
-            var1 = var1.2TXHQd;
+            var1 = var1["2TXHQd"];
             var1 = var6.bind(var7)(var1);
             var2['label'] = var1;
             var1 = 6;

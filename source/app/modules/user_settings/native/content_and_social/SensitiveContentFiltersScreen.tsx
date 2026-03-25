@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var11[var6];
             var7 = var10.bind(var9)(var7);
             var7 = var7.t;
-            var7 = var7.16/3Bi;
+            var7 = var7["16/3Bi"];
             var7 = var12.bind(var13)(var7);
             var5['label'] = var7;
             var12 = var8.GORE_MEDIA_FILTERS_FRIENDS_DMS;

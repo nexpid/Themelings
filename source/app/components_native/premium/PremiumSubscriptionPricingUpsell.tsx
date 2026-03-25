@@ -736,7 +736,7 @@ case 0:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.3x1PFE;
+            var10 = var10["3x1PFE"];
             var10 = var11.bind(var12)(var10);
             var5['children'] = var10;
             var6 = var9.bind(var4)(var6, var5);

@@ -91,7 +91,7 @@ case 5:
             var2 = var9[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.436ZFw;
+            var2 = var2["436ZFw"];
             var10 = var5.bind(var6)(var2);
 case 4:
             var8 = var1.tags;
@@ -224,7 +224,7 @@ case 15:
             var10 = var16[var12];
             var10 = var15.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.+HS9+m;
+            var10 = var10["+HS9+m"];
             var10 = var14.bind(var17)(var10);
             var6['subtitle'] = var10;
             var10 = var9.subtitle;

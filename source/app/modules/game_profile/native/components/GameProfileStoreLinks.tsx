@@ -103,7 +103,7 @@ case 12:
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11./hMurx;
+            var11 = var11["/hMurx"];
             var11 = var12.bind(var13)(var11);
             var3['text'] = var11;
             var11 = function onPress() {

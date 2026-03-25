@@ -42,7 +42,7 @@ case 3:
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var1 = var1.t;
-            var6 = var1.46+Iqc;
+            var6 = var1["46+Iqc"];
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var3 = _closure1_slot0;

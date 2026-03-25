@@ -531,7 +531,7 @@ case 33:
                 var12 = var14.bind(var15)(var12);
                 _fun0004_ip = 34; continue _fun0004;
 case 32:
-                var16 = var13.8zH0LJ;
+                var16 = var13["8zH0LJ"];
                 var12 = var14.bind(var15)(var16);
 case 34:
                 _fun0004_ip = 35; continue _fun0004;

@@ -127,7 +127,7 @@ case 0:
             var1 = 8;
             var1 = var8[var1];
             var1 = var7.bind(var5)(var1);
-            var1 = var1.8SLtqb;
+            var1 = var1["8SLtqb"];
             var6 = var4.bind(var6)(var1);
             var1 = null;
             if(var3) { _fun0001_ip = 2; continue _fun0001 }

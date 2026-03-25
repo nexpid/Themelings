@@ -192,7 +192,7 @@ case 7:
                             var7 = var9[var7];
                             var7 = var12.bind(var3)(var7);
                             var7 = var7.t;
-                            var7 = var7./Mmbfv;
+                            var7 = var7["/Mmbfv"];
                             var7 = var10.bind(var11)(var7);
                             var4['content'] = var7;
                             var7 = 15;
@@ -241,7 +241,7 @@ case 2:
             var9 = var8[var17];
             var9 = var11.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.+ZD3ou;
+            var9 = var9["+ZD3ou"];
             var10 = var10.bind(var12)(var9);
             var9 = 'title';
             var1[var9] = var10;

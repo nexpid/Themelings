@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.8SIMPz;
+        var1 = var1["8SIMPz"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -328,7 +328,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.8j3qaC;
+        var1 = var1["8j3qaC"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -684,7 +684,7 @@ case 11:
             var21 = var29[var25];
             var21 = var32.bind(var5)(var21);
             var21 = var21.t;
-            var21 = var21.+BJTcB;
+            var21 = var21["+BJTcB"];
             var21 = var26.bind(var27)(var21);
             var18['title'] = var21;
             var27 = _closure1_slot14;
@@ -736,7 +736,7 @@ case 11:
             var29 = var29[var25];
             var29 = var32.bind(var5)(var29);
             var29 = var29.t;
-            var29 = var29.8qGQsM;
+            var29 = var29["8qGQsM"];
             var29 = var30.bind(var31)(var29);
             var21['accessibilityLabel'] = var29;
             var29 = function onPress() {

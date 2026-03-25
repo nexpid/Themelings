@@ -307,7 +307,7 @@ case 12:
             var6 = var6[var28];
             var6 = var31.bind(var4)(var6);
             var6 = var6.t;
-            var32 = var6.6p0yBo;
+            var32 = var6["6p0yBo"];
             var31 = {};
             var6 = null;
             var36 = var6 == var30;

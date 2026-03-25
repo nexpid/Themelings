@@ -1320,7 +1320,7 @@ case 76:
             var33 = var33.t;
             if(var32) { _fun0004_ip = 77; continue _fun0004 }
 case 78:
-            var34 = var33.4kp0AB;
+            var34 = var33["4kp0AB"];
             var32 = {};
             var38 = var37.name;
             var32['itemName'] = var38;

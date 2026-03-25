@@ -65,7 +65,7 @@ case 5:
             var1 = var10[var1];
             var1 = var2.bind(var8)(var1);
             var1 = var1.t;
-            var2 = var1.9Uk8PF;
+            var2 = var1["9Uk8PF"];
             var1 = {};
             var7 = _closure1_slot1;
             var6 = 6;
@@ -308,7 +308,7 @@ case 13:
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1./YzI63;
+            var1 = var1["/YzI63"];
             var1 = var2.bind(var3)(var1);
             return var1;
         }

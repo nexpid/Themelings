@@ -255,7 +255,7 @@ case 30:
                     var2 = var7[var2];
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.t;
-                    var2 = var2.9CM5v9;
+                    var2 = var2["9CM5v9"];
                     var2 = var3.bind(var4)(var2);
                     return var2;
 case 27:
@@ -818,7 +818,7 @@ case 69:
         var9 = var8[var3];
         var9 = var6.bind(var7)(var9);
         var9 = var9.t;
-        var9 = var9.1EOZqw;
+        var9 = var9["1EOZqw"];
         var9 = var10.bind(var11)(var9);
         var2['activeTitle'] = var9;
         var9 = var8[var3];
@@ -878,7 +878,7 @@ case 69:
         var9 = var8[var3];
         var9 = var6.bind(var7)(var9);
         var9 = var9.t;
-        var9 = var9.602BK4;
+        var9 = var9["602BK4"];
         var9 = var10.bind(var11)(var9);
         var2['activeTitle'] = var9;
         var9 = var8[var3];
@@ -918,7 +918,7 @@ case 69:
         var4 = var8[var3];
         var4 = var6.bind(var7)(var4);
         var4 = var4.t;
-        var4 = var4.1B1Cyn;
+        var4 = var4["1B1Cyn"];
         var4 = var5.bind(var9)(var4);
         var2['activeTitle'] = var4;
         var4 = var8[var3];
@@ -928,7 +928,7 @@ case 69:
         var4 = var8[var3];
         var4 = var6.bind(var7)(var4);
         var4 = var4.t;
-        var4 = var4.1B1Cyn;
+        var4 = var4["1B1Cyn"];
         var4 = var5.bind(var9)(var4);
         var2['passiveTitle'] = var4;
         var4 = var8[var3];

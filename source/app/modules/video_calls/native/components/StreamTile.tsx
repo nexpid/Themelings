@@ -258,7 +258,7 @@ case 13:
             var15 = var23[var12];
             var15 = var13.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.5q17w5;
+            var15 = var15["5q17w5"];
             var15 = var16.bind(var21)(var15);
             var2['title'] = var15;
             var15 = var23[var12];

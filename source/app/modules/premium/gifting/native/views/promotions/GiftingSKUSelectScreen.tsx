@@ -311,7 +311,7 @@ case 10:
             var24 = var17[var13];
             var24 = var16.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.+ByEeM;
+            var24 = var24["+ByEeM"];
             var24 = var25.bind(var26)(var24);
             var15['children'] = var24;
             var23 = var7.bind(var4)(var23, var15);
@@ -373,7 +373,7 @@ case 10:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.3d0Nmb;
+            var13 = var13["3d0Nmb"];
             var13 = var14.bind(var15)(var13);
             var8['text'] = var13;
             var8['onPress'] = var10;

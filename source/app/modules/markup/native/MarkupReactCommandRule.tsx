@@ -93,7 +93,7 @@ case 6:
             var13 = var17[var13];
             var13 = var16.bind(var9)(var13);
             var13 = var13.t;
-            var13 = var13.+awCIy;
+            var13 = var13["+awCIy"];
             var13 = var14.bind(var15)(var13);
             var7['body'] = var13;
             var7 = var10.bind(var12)(var7);
@@ -268,7 +268,7 @@ case 0:
             var5 = var8[var7];
             var5 = var4.bind(var1)(var5);
             var5 = var5.t;
-            var5 = var5.42H+Nb;
+            var5 = var5["42H+Nb"];
             var5 = var9.bind(var10)(var5);
             var3['label'] = var5;
             var5 = 13;

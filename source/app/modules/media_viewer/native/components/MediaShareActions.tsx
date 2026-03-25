@@ -668,7 +668,7 @@ case 53:
                     var6 = var6[var10];
                     var6 = var11.bind(var9)(var6);
                     var6 = var6.t;
-                    var6 = var6.+TSRGD;
+                    var6 = var6["+TSRGD"];
                     var6 = var7.bind(var8)(var6);
                     var2['label'] = var6;
                     var6 = _closure2_slot11;

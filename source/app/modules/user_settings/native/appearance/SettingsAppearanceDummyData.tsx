@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var7[var8];
         var14 = var11.bind(var6)(var14);
         var14 = var14.t;
-        var14 = var14.9YJgal;
+        var14 = var14["9YJgal"];
         var14 = var15.bind(var16)(var14);
         var12['subtitle'] = var14;
         var14 = 'voice-chat';
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var7[var8];
         var10 = var11.bind(var6)(var10);
         var10 = var10.t;
-        var10 = var10.0HGnUV;
+        var10 = var10["0HGnUV"];
         var10 = var14.bind(var15)(var10);
         var2['title'] = var10;
         var10 = var7[var8];
@@ -382,7 +382,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var7[var8];
         var10 = var11.bind(var6)(var10);
         var10 = var10.t;
-        var10 = var10.86rWJp;
+        var10 = var10["86rWJp"];
         var10 = var12.bind(var13)(var10);
         var2['title'] = var10;
         var10 = var7[var8];
@@ -461,7 +461,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var7[var8];
         var9 = var11.bind(var6)(var9);
         var9 = var9.t;
-        var9 = var9.8SENG2;
+        var9 = var9["8SENG2"];
         var9 = var10.bind(var12)(var9);
         var2['title'] = var9;
         var9 = var7[var8];
@@ -471,7 +471,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var7[var8];
         var8 = var11.bind(var6)(var8);
         var8 = var8.t;
-        var8 = var8.2ziAWp;
+        var8 = var8["2ziAWp"];
         var8 = var9.bind(var10)(var8);
         var2['preview'] = var8;
         var4 = var7[var4];

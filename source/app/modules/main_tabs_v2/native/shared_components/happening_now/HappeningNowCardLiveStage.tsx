@@ -398,7 +398,7 @@ case 53:
             var2 = var12[var2];
             var2 = var3.bind(var11)(var2);
             var2 = var2.t;
-            var3 = var2.5oa7dX;
+            var3 = var2["5oa7dX"];
             var2 = {};
             var8 = _closure1_slot1;
             var7 = 18;
@@ -422,7 +422,7 @@ case 50:
             var2 = var12[var2];
             var2 = var3.bind(var11)(var2);
             var2 = var2.t;
-            var3 = var2.5uJ3+u;
+            var3 = var2["5uJ3+u"];
             var2 = {};
             var8 = _closure1_slot1;
             var7 = 18;

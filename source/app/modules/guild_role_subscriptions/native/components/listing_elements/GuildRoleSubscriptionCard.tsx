@@ -340,7 +340,7 @@ case 7:
             var20 = var11[var20];
             var20 = var12.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.4V/Mfi;
+            var21 = var20["4V/Mfi"];
             var20 = {};
             var20['numIntangibles'] = var24;
             var20 = var22.bind(var23)(var21, var20);

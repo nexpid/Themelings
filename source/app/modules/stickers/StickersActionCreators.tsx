@@ -882,7 +882,7 @@ case 62:
                 var7 = var11[var5];
                 var7 = var6.bind(var10)(var7);
                 var7 = var7.t;
-                var7 = var7.+XYXtZ;
+                var7 = var7["+XYXtZ"];
                 var7 = var8.bind(var12)(var7);
                 var2['title'] = var7;
                 var7 = var11[var5];

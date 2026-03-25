@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function escape(arg1) {
         var4 = arg1;
         var3 = var4.replace;
-        var2 = /[-[\]\/{}()*+?.\\^$|]/g;
+        var2 = /[-[\]/{}()*+?.\\^$|]/g;
         var1 = '\\$&';
         var1 = var3.bind(var4)(var2, var1);
         return var1;

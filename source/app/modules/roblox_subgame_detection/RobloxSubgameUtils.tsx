@@ -51,47 +51,16 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot8 = var5;
-    var1 = function isActivityRobloxSubgame(arg1) {
+    var _closure1_slot7 = var5;
+    var4 = function isRobloxSubgame(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
-            var1 = var3.metadata;
-            var2 = null;
-            var2 = var2 == var1;
-            var5 = undefined;
-            var4 = undefined;
-            if(var2) { _fun0002_ip = 14; continue _fun0002 }
-case 5:
-            var4 = var1.distributor;
-case 14:
-            var1 = _closure1_slot7;
-            var1 = var1.ROBLOX;
-            var1 = var4 === var1;
-            if(!var1) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-            var3 = var3.application_id;
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 3;
-            var2 = var6[var2];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.ROBLOX_APPLICATION_ID;
-            var1 = var3 !== var2;
-case 15:
-            return var1;
-        }
-    };
-    var _closure1_slot9 = var1;
-    var4 = function isRobloxSubgame(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var3 = arg1;
             var4 = var3.distributor;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot6;
             var1 = var1.ROBLOX;
             var1 = var4 === var1;
-            if(!var1) { _fun0003_ip = 17; continue _fun0003 }
+            if(!var1) { _fun0002_ip = 14; continue _fun0002 }
 case 7:
             var3 = var3.id;
             var5 = _closure1_slot0;
@@ -102,26 +71,26 @@ case 7:
             var2 = var5.bind(var2)(var4);
             var2 = var2.ROBLOX_APPLICATION_ID;
             var1 = var3 !== var2;
-case 17:
+case 14:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot8 = var4;
     var1 = function _openRobloxURLWithRootPlaceId() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                    if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 5;
                     var2 = var4[var2];
                     var4 = undefined;
                     var6 = var5.bind(var4)(var2);
@@ -129,38 +98,38 @@ case 19:
                     var2 = arg1;
                     var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=50);
-case 16:
+case 17:
                     return var2;
 case 13:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                    if(var5) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 8;
+                    var3 = 6;
                     var3 = var6[var3];
                     var3 = var5.bind(var4)(var3);
                     var3 = var3.bind(var4)(var2);
                     SaveGenerator(address=85);
+case 20:
+                    return var3;
+case 21:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+                    return var3;
 case 22:
                     return var3;
-case 23:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
-                    return var3;
-case 24:
-                    return var3;
-case 20:
-                    return var2;
 case 18:
+                    return var2;
+case 15:
                     return var1;
                 }
             };
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
+        _closure1_slot9 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -168,7 +137,7 @@ case 18:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -190,41 +159,39 @@ case 18:
     var6 = 2;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
-    var9 = var6.ActivityTypes;
-    var _closure1_slot5 = var9;
     var9 = var6.DistributorNames;
-    var _closure1_slot6 = var9;
+    var _closure1_slot5 = var9;
     var6 = var6.Distributors;
-    var _closure1_slot7 = var6;
-    var6 = 9;
+    var _closure1_slot6 = var6;
+    var6 = 7;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/roblox_subgame_detection/RobloxSubgameUtils.tsx';
     var6 = var7.bind(var8)(var6);
     var6 = function keyForRobloxGame(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
             var6 = var2.distributor;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot6;
             var5 = var1.ROBLOX;
             var3 = null;
             var1 = null;
-            if(!(var6 === var5)) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
+            if(!(var6 === var5)) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var5 = var2.sku;
             var5 = var3 != var5;
             var1 = null;
-            if(!var5) { _fun0005_ip = 26; continue _fun0005 }
-case 28:
+            if(!var5) { _fun0004_ip = 24; continue _fun0004 }
+case 26:
             var6 = var2.sku;
             var5 = var2.gameMetadata;
             var7 = var3 == var5;
             var8 = undefined;
             var2 = undefined;
-            if(var7) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+            if(var7) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var4 = 3;
@@ -233,62 +200,62 @@ case 30:
             var4 = var4.RobloxMetadataKeys;
             var4 = var4.PLACE_ID;
             var2 = var5[var4];
-case 29:
+case 27:
             var3 = var3 != var2;
             var5 = '';
             var4 = var5;
-            if(!var3) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+            if(!var3) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var4 = var2;
-case 31:
+case 29:
             var2 = global;
             var2 = var2.HermesInternal;
             var3 = var2.concat;
             var2 = ':';
             var1 = var3.bind(var5)(var6, var2, var4);
-case 26:
+case 24:
             return var1;
         }
     };
     var3['keyForRobloxGame'] = var6;
     var6 = function hasRunningGameChanged(arg1, arg2, arg3) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var4 = arg1;
             var3 = arg3;
             var2 = var4.distributor;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot6;
             var1 = var1.ROBLOX;
             var1 = var2 === var1;
-            if(!var1) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
+            if(!var1) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var7 = null;
             var2 = var7 != var3;
-            if(!var2) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+            if(!var2) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
             var5 = var4.id;
             var3 = var3.id;
             var2 = var5 !== var3;
-case 35:
-            if(var2) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
-            var6 = _closure1_slot8;
+case 33:
+            if(var2) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+            var6 = _closure1_slot7;
             var9 = var4.distributor;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var3 = var3.ROBLOX;
             var5 = null;
-            if(!(var9 === var3)) { _fun0006_ip = 39; continue _fun0006 }
+            if(!(var9 === var3)) { _fun0005_ip = 37; continue _fun0005 }
 case 12:
             var3 = var4.gameMetadata;
             var3 = var7 == var3;
             var5 = null;
-            if(var3) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
+            if(var3) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var3 = var4.sku;
             var3 = var7 == var3;
             var5 = null;
-            if(var3) { _fun0006_ip = 39; continue _fun0006 }
-case 41:
+            if(var3) { _fun0005_ip = 37; continue _fun0005 }
+case 39:
             var3 = {};
             var9 = var4.gameMetadata;
             var11 = _closure1_slot0;
@@ -302,28 +269,28 @@ case 41:
             var8 = var9[var8];
             var9 = var7 != var8;
             var7 = null;
-            if(!var9) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
+            if(!var9) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var7 = var8;
-case 42:
+case 40:
             var3['placeId'] = var7;
             var4 = var4.sku;
             var3['universeId'] = var4;
             var5 = var3;
-case 39:
+case 37:
             var4 = undefined;
             var3 = arg2;
             var2 = var6.bind(var4)(var5, var3);
-case 37:
+case 35:
             var1 = var2;
-case 33:
+case 31:
             return var1;
         }
     };
     var3['hasRunningGameChanged'] = var6;
     var3['hasSubgameInfoChanged'] = var5;
     var5 = function updateRunningGameWithRobloxSubgameInfo(arg1, arg2) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var7 = arg1;
             var2 = arg2;
@@ -340,8 +307,8 @@ case 0:
             var9 = var11 == var10;
             var3 = undefined;
             var5 = undefined;
-            if(var9) { _fun0007_ip = 20; continue _fun0007 }
-case 35:
+            if(var9) { _fun0006_ip = 18; continue _fun0006 }
+case 33:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var9 = 3;
@@ -350,31 +317,31 @@ case 35:
             var9 = var9.RobloxMetadataKeys;
             var9 = var9.ROBLOX_TIME_STARTED;
             var5 = var10[var9];
-case 20:
+case 18:
             var5 = var6.bind(var3)(var5);
             var6 = var2.isNaN;
             var6 = var6.bind(var3)(var5);
-            if(var6) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+            if(var6) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
             var9 = 0;
             var6 = var9 === var5;
-case 44:
-            if(!var6) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
+case 42:
+            if(!var6) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
             var6 = var7.start;
-            if(!(var11 == var6)) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+            if(!(var11 == var6)) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
             var10 = var2.Date;
             var9 = var10.now;
             var6 = var9.bind(var10)();
-case 48:
-            var5 = var6;
 case 46:
-            if(!(var11 != var4)) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+            var5 = var6;
+case 44:
+            if(!(var11 != var4)) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
             var6 = {};
-            if(!(var11 != var8)) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
+            if(!(var11 != var8)) { _fun0006_ip = 50; continue _fun0006 }
+case 51:
             var10 = _closure1_slot4;
             var9 = {};
             var13 = var7.exePath;
@@ -383,18 +350,18 @@ case 53:
             var9['name'] = var13;
             var13 = var8.id;
             var9['id'] = var13;
-            var13 = _closure1_slot7;
+            var13 = _closure1_slot6;
             var13 = var13.ROBLOX;
             var9['distributor'] = var13;
             var9 = var10.bind(var3)(var9);
-            if(!var9) { _fun0007_ip = 52; continue _fun0007 }
-case 54:
+            if(!var9) { _fun0006_ip = 50; continue _fun0006 }
+case 52:
             var10 = _closure1_slot4;
             var9 = {};
             var13 = var7.exePath;
             var9['exePath'] = var13;
-            var14 = _closure1_slot6;
-            var13 = _closure1_slot7;
+            var14 = _closure1_slot5;
+            var13 = _closure1_slot6;
             var13 = var13.ROBLOX;
             var13 = var14[var13];
             var9['name'] = var13;
@@ -405,12 +372,12 @@ case 54:
             var13 = var14.bind(var3)(var13);
             var13 = var13.ROBLOX_APPLICATION_ID;
             var9['id'] = var13;
-            var12 = _closure1_slot7;
+            var12 = _closure1_slot6;
             var12 = var12.ROBLOX;
             var9['distributor'] = var12;
             var9 = var10.bind(var3)(var9);
-            if(var9) { _fun0007_ip = 55; continue _fun0007 }
-case 52:
+            if(var9) { _fun0006_ip = 53; continue _fun0006 }
+case 50:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var10 = 3;
@@ -418,14 +385,14 @@ case 52:
             var10 = var12.bind(var3)(var10);
             var10 = var10.ROBLOX_APPLICATION_ID;
             var1['id'] = var10;
-            var10 = _closure1_slot6;
-            var9 = _closure1_slot7;
+            var10 = _closure1_slot5;
+            var9 = _closure1_slot6;
             var9 = var9.ROBLOX;
             var9 = var10[var9];
             var1['name'] = var9;
             var1['start'] = var5;
-            _fun0007_ip = 56; continue _fun0007;
-case 55:
+            _fun0006_ip = 54; continue _fun0006;
+case 53:
             var9 = var8.id;
             var1['id'] = var9;
             var9 = var8.name;
@@ -445,7 +412,7 @@ case 55:
             var8 = var12 / var8;
             var8 = var9.bind(var10)(var8);
             var1['lastFocused'] = var8;
-case 56:
+case 54:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = 3;
@@ -459,14 +426,14 @@ case 56:
             var12 = var4.universeId;
             var13 = var11 != var12;
             var9 = undefined;
-            if(!var13) { _fun0007_ip = 57; continue _fun0007 }
-case 58:
+            if(!var13) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
             var9 = var12;
-case 57:
+case 55:
             var1['sku'] = var9;
             var9 = var4.placeId;
-            if(!(var11 != var9)) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
+            if(!(var11 != var9)) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var8 = var8[var10];
@@ -475,7 +442,7 @@ case 60:
             var8 = var8.PLACE_ID;
             var4 = var4.placeId;
             var6[var8] = var4;
-case 59:
+case 57:
             var8 = var2.Object;
             var4 = var8.keys;
             var4 = var4.bind(var8)(var6);
@@ -483,17 +450,17 @@ case 59:
             var4 = 0;
             var8 = var8 > var4;
             var4 = undefined;
-            if(!var8) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
+            if(!var8) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
             var4 = var6;
-case 61:
+case 59:
             var1['gameMetadata'] = var4;
-            _fun0007_ip = 63; continue _fun0007;
-case 50:
-            var6 = _closure1_slot10;
+            _fun0006_ip = 61; continue _fun0006;
+case 48:
+            var6 = _closure1_slot8;
             var6 = var6.bind(var3)(var7);
-            if(!var6) { _fun0007_ip = 64; continue _fun0007 }
-case 65:
+            if(!var6) { _fun0006_ip = 62; continue _fun0006 }
+case 63:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 3;
@@ -501,12 +468,12 @@ case 65:
             var6 = var7.bind(var3)(var6);
             var6 = var6.ROBLOX_APPLICATION_ID;
             var1['id'] = var6;
-            var6 = _closure1_slot6;
-            var4 = _closure1_slot7;
+            var6 = _closure1_slot5;
+            var4 = _closure1_slot6;
             var4 = var4.ROBLOX;
             var4 = var6[var4];
             var1['name'] = var4;
-case 64:
+case 62:
             var1['gameMetadata'] = var3;
             var1['sku'] = var3;
             var1['start'] = var5;
@@ -516,13 +483,13 @@ case 64:
             var2 = var5 / var2;
             var2 = var3.bind(var4)(var2);
             var1['lastFocused'] = var2;
-case 63:
+case 61:
             return var1;
         }
     };
     var3['updateRunningGameWithRobloxSubgameInfo'] = var5;
     var5 = function convertMapToRobloxSubgameInfo(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = arg1;
             var2 = _closure1_slot0;
@@ -537,8 +504,8 @@ case 0:
             var5 = null;
             var2 = var5 == var1;
             var1 = null;
-            if(var2) { _fun0008_ip = 66; continue _fun0008 }
-case 67:
+            if(var2) { _fun0007_ip = 64; continue _fun0007 }
+case 65:
             var8 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var7];
@@ -548,8 +515,8 @@ case 67:
             var2 = var4[var2];
             var2 = var5 == var2;
             var1 = null;
-            if(var2) { _fun0008_ip = 66; continue _fun0008 }
-case 20:
+            if(var2) { _fun0007_ip = 64; continue _fun0007 }
+case 18:
             var2 = {};
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -566,27 +533,27 @@ case 20:
             var3 = var4[var3];
             var2['placeId'] = var3;
             var1 = var2;
-case 66:
+case 64:
             return var1;
         }
     };
     var3['convertMapToRobloxSubgameInfo'] = var5;
     var5 = function getSubgameMetadata(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var6 = arg1;
             var4 = var6.distributor;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot6;
             var2 = var1.ROBLOX;
             var3 = null;
             var1 = null;
-            if(!(var4 === var2)) { _fun0009_ip = 68; continue _fun0009 }
+            if(!(var4 === var2)) { _fun0008_ip = 66; continue _fun0008 }
 case 6:
             var2 = var6.gameMetadata;
             var2 = var3 != var2;
             var1 = null;
-            if(!var2) { _fun0009_ip = 68; continue _fun0009 }
-case 16:
+            if(!var2) { _fun0008_ip = 66; continue _fun0008 }
+case 17:
             var4 = var6.gameMetadata;
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -599,8 +566,8 @@ case 16:
             var2 = var4[var2];
             var2 = var3 != var2;
             var1 = null;
-            if(!var2) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
+            if(!var2) { _fun0008_ip = 66; continue _fun0008 }
+case 67:
             var2 = global;
             var4 = var2.JSON;
             var3 = var4.stringify;
@@ -615,24 +582,24 @@ case 69:
             var5 = var6[var5];
             var2['placeId'] = var5;
             var1 = var3.bind(var4)(var2);
-case 68:
+case 66:
             return var1;
         }
     };
     var3['getSubgameMetadata'] = var5;
     var5 = function maybeAddAdditionalGameMetadata(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var3 = arg1;
             var4 = var3.distributor;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot6;
             var1 = var1.ROBLOX;
-            if(!(var4 === var1)) { _fun0010_ip = 70; continue _fun0010 }
+            if(!(var4 === var1)) { _fun0009_ip = 68; continue _fun0009 }
 case 7:
             var1 = var3.gameMetadata;
             var4 = null;
-            if(!(var4 != var1)) { _fun0010_ip = 70; continue _fun0010 }
-case 36:
+            if(!(var4 != var1)) { _fun0009_ip = 68; continue _fun0009 }
+case 34:
             var7 = var3.gameMetadata;
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -643,19 +610,19 @@ case 36:
             var1 = var1.RobloxMetadataKeys;
             var1 = var1.ROBLOX_TIME_STARTED;
             var1 = var7[var1];
-            if(!(var4 != var1)) { _fun0010_ip = 70; continue _fun0010 }
-case 71:
+            if(!(var4 != var1)) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
             var7 = var3.id;
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var6];
             var1 = var8.bind(var5)(var1);
             var1 = var1.ROBLOX_APPLICATION_ID;
-            if(!(var7 !== var1)) { _fun0010_ip = 70; continue _fun0010 }
-case 72:
+            if(!(var7 !== var1)) { _fun0009_ip = 68; continue _fun0009 }
+case 70:
             var1 = var3.gameName;
-            if(!(var4 != var1)) { _fun0010_ip = 70; continue _fun0010 }
-case 49:
+            if(!(var4 != var1)) { _fun0009_ip = 68; continue _fun0009 }
+case 47:
             var1 = {};
             var4 = var3.gameName;
             var1['name'] = var4;
@@ -668,120 +635,14 @@ case 49:
             var2 = var2.ROBLOX_TIME_STARTED;
             var2 = var3[var2];
             var1['sync_id'] = var2;
-            _fun0010_ip = 73; continue _fun0010;
-case 70:
+            _fun0009_ip = 71; continue _fun0009;
+case 68:
             var1 = {};
-case 73:
+case 71:
             return var1;
         }
     };
     var3['maybeAddAdditionalGameMetadata'] = var5;
-    var5 = function transformRobloxSubgameNames(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-            var6 = arg1;
-            var1 = _closure1_slot9;
-            var4 = undefined;
-            var1 = var1.bind(var4)(var6);
-            if(var1) { _fun0011_ip = 5; continue _fun0011 }
-case 74:
-            return var6;
-case 5:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 5;
-            var1 = var5[var1];
-            var1 = var3.bind(var4)(var1);
-            var5 = var1.ViewRobloxSubgamesInRichPresenceExperiment;
-            var3 = var5.getConfig;
-            var1 = {};
-            var7 = 'transformRobloxSubgameNames';
-            var1['location'] = var7;
-            var1 = var3.bind(var5)(var1);
-            var3 = var1.alternativeTitle;
-            var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var7 = 6;
-            var1 = var1[var7];
-            var1 = var5.bind(var4)(var1);
-            var1 = var1.t;
-            if(var3) { _fun0011_ip = 75; continue _fun0011 }
-case 76:
-            var5 = var1.G6BGdx;
-            _fun0011_ip = 31; continue _fun0011;
-case 75:
-            var5 = var1.HjVwG3;
-case 31:
-            var1 = {};
-            var9 = var1;
-            var8 = var6;
-            var3 = copyDataProperties(var9, var8);
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var7];
-            var2 = var3.bind(var4)(var2);
-            var4 = var2.intl;
-            var3 = var4.formatToPlainString;
-            var2 = {};
-            var6 = var6.name;
-            var2['subgameName'] = var6;
-            var3 = var3.bind(var4)(var5, var2);
-            var2 = 'name';
-            var1[var2] = var3;
-            return var1;
-        }
-    };
-    var3['transformRobloxSubgameNames'] = var5;
-    var5 = function maybeTransformRobloxSubgameIntoRobloxActivity(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.type;
-            var2 = _closure1_slot5;
-            var2 = var2.PLAYING;
-            if(!(var3 === var2)) { _fun0012_ip = 51; continue _fun0012 }
-case 14:
-            var2 = _closure1_slot9;
-            var5 = undefined;
-            var2 = var2.bind(var5)(var1);
-            if(var2) { _fun0012_ip = 36; continue _fun0012 }
-case 77:
-            return var1;
-case 36:
-            var3 = global;
-            var4 = var3.Number;
-            var2 = var1.sync_id;
-            var4 = var4.bind(var5)(var2);
-            var2 = {};
-            var11 = var2;
-            var10 = var1;
-            var7 = copyDataProperties(var11, var10);
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 3;
-            var7 = var9[var7];
-            var7 = var8.bind(var5)(var7);
-            var7 = var7.ROBLOX_APPLICATION_ID;
-            var2['application_id'] = var7;
-            var7 = _closure1_slot6;
-            var6 = _closure1_slot7;
-            var6 = var6.ROBLOX;
-            var6 = var7[var6];
-            var2['name'] = var6;
-            var3 = var3.isNaN;
-            var3 = var3.bind(var5)(var4);
-            if(var3) { _fun0012_ip = 78; continue _fun0012 }
-case 26:
-            var3 = {};
-            var3['start'] = var4;
-            var2['timestamps'] = var3;
-case 78:
-            return var2;
-case 51:
-            return var1;
-        }
-    };
-    var3['maybeTransformRobloxSubgameIntoRobloxActivity'] = var5;
     var3['isRobloxSubgame'] = var4;
     var4 = function isRobloxSubgameApplication(arg1) {
         var1 = arg1;
@@ -790,7 +651,7 @@ case 51:
         var1 = function(arg1) {
             var1 = arg1;
             var2 = var1.distributor;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot6;
             var1 = var1.ROBLOX;
             var1 = var2 === var1;
             return var1;
@@ -801,7 +662,7 @@ case 51:
     var3['isRobloxSubgameApplication'] = var4;
     var4 = function openRobloxURLWithRootPlaceId() {
         var1 = undefined;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot9;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -811,14 +672,14 @@ case 51:
     };
     var3['openRobloxURLWithRootPlaceId'] = var4;
     var2 = function maybeTransformRobloxSubgameToRoblox(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var4 = arg1;
             var5 = var4.distributor;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot6;
             var2 = var1.ROBLOX;
             var1 = var4;
-            if(!(var5 === var2)) { _fun0013_ip = 79; continue _fun0013 }
+            if(!(var5 === var2)) { _fun0010_ip = 72; continue _fun0010 }
 case 7:
             var5 = var4.id;
             var8 = _closure1_slot0;
@@ -829,8 +690,8 @@ case 7:
             var2 = var8.bind(var6)(var2);
             var2 = var2.ROBLOX_APPLICATION_ID;
             var1 = var4;
-            if(!(var5 !== var2)) { _fun0013_ip = 79; continue _fun0013 }
-case 80:
+            if(!(var5 !== var2)) { _fun0010_ip = 72; continue _fun0010 }
+case 73:
             var2 = {};
             var10 = var2;
             var9 = var4;
@@ -842,14 +703,14 @@ case 80:
             var5 = var4.ROBLOX_APPLICATION_ID;
             var4 = 'id';
             var2[var4] = var5;
-            var4 = _closure1_slot6;
-            var3 = _closure1_slot7;
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot6;
             var3 = var3.ROBLOX;
             var4 = var4[var3];
             var3 = 'name';
             var2[var3] = var4;
             var1 = var2;
-case 79:
+case 72:
             return var1;
         }
     };

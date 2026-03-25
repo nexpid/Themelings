@@ -168,7 +168,7 @@ case 7:
             var1 = var9[var1];
             var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.4WHCtq;
+            var2 = var1["4WHCtq"];
             var1 = {};
             var5 = function usernameHook() {
                 var3 = _closure2_slot3;
@@ -231,7 +231,7 @@ case 4:
             var2 = var10[var2];
             var2 = var9.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.67ZE+9;
+            var3 = var2["67ZE+9"];
             var2 = {};
             var9 = function usernameHook1() {
                 var3 = _closure2_slot3;
@@ -437,7 +437,7 @@ case 23:
             var6 = var11[var7];
             var6 = var10.bind(var2)(var6);
             var6 = var6.t;
-            var8 = var6.6IRwua;
+            var8 = var6["6IRwua"];
             var6 = {};
             var6['n'] = var14;
             var8 = var9.bind(var12)(var8, var6);
@@ -452,7 +452,7 @@ case 23:
             var7 = var11[var7];
             var7 = var10.bind(var2)(var7);
             var7 = var7.t;
-            var7 = var7.6AKLRt;
+            var7 = var7["6AKLRt"];
             var7 = var8.bind(var9)(var7);
             var6[2] = var7;
             var3['children'] = var6;

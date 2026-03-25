@@ -261,7 +261,7 @@ case 2:
             var6 = var7[var17];
             var6 = var2.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.0t2wRW;
+            var6 = var6["0t2wRW"];
             var6 = var15.bind(var16)(var6);
             var10['title'] = var6;
             var6 = true;

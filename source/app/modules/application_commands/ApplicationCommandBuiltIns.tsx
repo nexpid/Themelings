@@ -137,7 +137,7 @@ case 2:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.+cGVV6;
+        var1 = var1["+cGVV6"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1378,7 +1378,7 @@ case 24:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.03N0UL;
+        var1 = var1["03N0UL"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1395,7 +1395,7 @@ case 24:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.03N0UL;
+        var1 = var1["03N0UL"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1548,7 +1548,7 @@ case 44:
             var3 = var10[var3];
             var3 = var9.bind(var1)(var3);
             var3 = var3.t;
-            var3 = var3.6RIwPI;
+            var3 = var3["6RIwPI"];
             var3 = var7.bind(var8)(var3);
             var3 = var5.bind(var6)(var4, var3);
             _fun0013_ip = 38; continue _fun0013;
@@ -1616,7 +1616,7 @@ case 53:
                             var4 = var14[var4];
                             var4 = var8.bind(var3)(var4);
                             var4 = var4.t;
-                            var8 = var4.9wzHDV;
+                            var8 = var4["9wzHDV"];
                             var4 = {};
                             var11 = 21;
                             var11 = var14[var11];
@@ -1837,7 +1837,7 @@ case 38:
         var1 = var6[var7];
         var1 = var10.bind(var5)(var1);
         var1 = var1.t;
-        var1 = var1.4obaMS;
+        var1 = var1["4obaMS"];
         var1 = var4.bind(var8)(var1);
         var2['name'] = var1;
         var1 = var6[var7];
@@ -1847,7 +1847,7 @@ case 38:
         var1 = var6[var7];
         var1 = var10.bind(var5)(var1);
         var1 = var1.t;
-        var1 = var1.4obaMS;
+        var1 = var1["4obaMS"];
         var1 = var4.bind(var8)(var1);
         var2['displayName'] = var1;
         var1 = 0;
@@ -1891,7 +1891,7 @@ case 38:
         var8 = var6[var7];
         var8 = var10.bind(var5)(var8);
         var8 = var8.t;
-        var8 = var8.8WfJZ8;
+        var8 = var8["8WfJZ8"];
         var8 = var9.bind(var11)(var8);
         var2['name'] = var8;
         var8 = var6[var7];
@@ -1901,7 +1901,7 @@ case 38:
         var8 = var6[var7];
         var8 = var10.bind(var5)(var8);
         var8 = var8.t;
-        var8 = var8.8WfJZ8;
+        var8 = var8["8WfJZ8"];
         var8 = var9.bind(var11)(var8);
         var2['displayName'] = var8;
         var8 = var6[var3];
@@ -2716,7 +2716,7 @@ case 70:
                 var2 = var9[var2];
                 var2 = var8.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.+mWyVq;
+                var2 = var2["+mWyVq"];
                 var2 = var6.bind(var7)(var2);
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
@@ -3022,7 +3022,7 @@ case 84:
                 var2 = var9[var2];
                 var2 = var8.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.3XaE95;
+                var2 = var2["3XaE95"];
                 var2 = var6.bind(var7)(var2);
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;

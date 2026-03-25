@@ -255,7 +255,7 @@ case 10:
             var7 = var12[var7];
             var7 = var11.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.96ANUN;
+            var7 = var7["96ANUN"];
             var7 = var9.bind(var10)(var7);
             var1['accessibilityLabel'] = var7;
             var7 = var6.connectButton;
@@ -285,7 +285,7 @@ case 10:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.96ANUN;
+                var5 = var5["96ANUN"];
                 var5 = var6.bind(var7)(var5);
                 var1['children'] = var5;
                 var1 = var4.bind(var3)(var2, var1);

@@ -845,7 +845,7 @@ case 65:
                     var1 = var9[var1];
                     var1 = var8.bind(var7)(var1);
                     var1 = var1.t;
-                    var1 = var1.3hF1W4;
+                    var1 = var1["3hF1W4"];
                     var11 = var4.bind(var6)(var1);
                     _fun0008_ip = 86; continue _fun0008;
 case 85:
@@ -1285,7 +1285,7 @@ case 122:
                             var7 = var13[var7];
                             var7 = var8.bind(var5)(var7);
                             var7 = var7.t;
-                            var8 = var7.+zWvOQ;
+                            var8 = var7["+zWvOQ"];
                             var7 = {};
                             var11 = _closure2_slot5;
                             var11 = var11.username;

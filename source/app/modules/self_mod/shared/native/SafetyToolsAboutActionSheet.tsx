@@ -354,7 +354,7 @@ case 2:
         var9 = var14[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.t;
-        var10 = var9.2uYViD;
+        var10 = var9["2uYViD"];
         var9 = {};
         var13 = function reportFalsePositiveHook(arg1, arg2) {
             var5 = _closure1_slot8;

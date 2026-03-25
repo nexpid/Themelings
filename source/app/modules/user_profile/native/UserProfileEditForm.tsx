@@ -583,7 +583,7 @@ case 54:
             var1 = var7[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.84MExs;
+            var1 = var1["84MExs"];
             var65 = var2.bind(var3)(var1);
 case 52:
             var3 = _closure1_slot6;
@@ -794,7 +794,7 @@ case 59:
             var63 = var63[var56];
             var63 = var66.bind(var4)(var63);
             var63 = var63.t;
-            var63 = var63.9AjdkD;
+            var63 = var63["9AjdkD"];
             var63 = var64.bind(var65)(var63);
             var30['label'] = var63;
             var30['errorMessage'] = var62;
@@ -865,7 +865,7 @@ case 68:
             var58 = var58[var56];
             var58 = var61.bind(var4)(var58);
             var58 = var58.t;
-            var58 = var58.+T3RI/;
+            var58 = var58["+T3RI/"];
             var58 = var59.bind(var60)(var58);
             var29['label'] = var58;
             var29['errorMessage'] = var57;

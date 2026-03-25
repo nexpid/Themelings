@@ -110,12 +110,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var16[var12];
         var1 = var15.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.5TpPli;
+        var1 = var1["5TpPli"];
         var2['quest'] = var1;
         var1 = var16[var12];
         var1 = var15.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.2Yp7dF;
+        var1 = var1["2Yp7dF"];
         var14 = var3.bind(var6)(var2, var1);
         var3 = _closure1_slot4;
         var1 = 8;
@@ -221,7 +221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var16[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.+IrDzN;
+        var12 = var12["+IrDzN"];
         var12 = var13.bind(var14)(var12);
         var9['text'] = var12;
         var9['onPress'] = var11;

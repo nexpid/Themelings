@@ -327,7 +327,7 @@ case 12:
             var14 = var14[var24];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var15 = var14.9t7w53;
+            var15 = var14["9t7w53"];
             var14 = {};
             var14['date'] = var13;
             var14 = var16.bind(var19)(var15, var14);
@@ -679,7 +679,7 @@ case 35:
             var13 = var13[var16];
             var13 = var20.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.0hKkS+;
+            var13 = var13["0hKkS+"];
             var13 = var18.bind(var19)(var13);
             var6['children'] = var13;
             var7 = var12.bind(var5)(var7, var6);

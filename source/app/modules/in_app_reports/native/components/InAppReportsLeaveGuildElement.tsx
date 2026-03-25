@@ -168,7 +168,7 @@ case 2:
             var8 = var14[var8];
             var8 = var9.bind(var4)(var8);
             var8 = var8.t;
-            var9 = var8.26mR6/;
+            var9 = var8["26mR6/"];
             var8 = {};
             var14 = var12 == var13;
             var12 = undefined;

@@ -469,7 +469,7 @@ case 47:
             var1 = var5[var1];
             var1 = var2.bind(var11)(var1);
             var1 = var1.t;
-            var2 = var1.3AqFaG;
+            var2 = var1["3AqFaG"];
             var1 = {};
             var5 = var9[var6];
             var5 = var8.bind(var11)(var5);

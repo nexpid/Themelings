@@ -249,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7[var15];
             var2 = var6.bind(var1)(var2);
             var2 = var2.t;
-            var2 = var2./uid3p;
+            var2 = var2["/uid3p"];
             var2 = var14.bind(var17)(var2);
             var3['description'] = var2;
             var2 = _closure1_slot5;

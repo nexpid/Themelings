@@ -374,7 +374,7 @@ case 11:
             var21 = var20[var18];
             var21 = var16.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.5h0QOP;
+            var21 = var21["5h0QOP"];
             var21 = var24.bind(var25)(var21);
             var14['accessibilityLabel'] = var21;
             var15 = var17.bind(var4)(var15, var14);

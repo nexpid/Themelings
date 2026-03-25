@@ -170,7 +170,7 @@ case 8:
             var2 = var2[var17];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.3Mau0y;
+            var3 = var2["3Mau0y"];
             var2 = {};
             var11 = var8.name;
             var2['applicationName'] = var11;
@@ -233,7 +233,7 @@ case 15:
             var2 = var13.bind(var15)(var2);
             _fun0002_ip = 16; continue _fun0002;
 case 14:
-            var11 = var11./bdaNN;
+            var11 = var11["/bdaNN"];
             var2 = var13.bind(var15)(var11);
 case 16:
             var3['text'] = var2;
@@ -288,7 +288,7 @@ case 20:
             var2 = var2[var17];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.3Mau0y;
+            var3 = var2["3Mau0y"];
             var2 = {};
             var8 = var8.name;
             var2['applicationName'] = var8;
@@ -378,7 +378,7 @@ case 30:
             var2 = var13.bind(var15)(var2);
             _fun0002_ip = 31; continue _fun0002;
 case 29:
-            var11 = var11./bdaNN;
+            var11 = var11["/bdaNN"];
             var2 = var13.bind(var15)(var11);
 case 31:
             var3['text'] = var2;

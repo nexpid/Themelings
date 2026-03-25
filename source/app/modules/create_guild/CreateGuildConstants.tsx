@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var11[var12];
         var14 = var15.bind(var10)(var14);
         var14 = var14.t;
-        var14 = var14.2COskX;
+        var14 = var14["2COskX"];
         var14 = var16.bind(var17)(var14);
         var13['name'] = var14;
         var14 = var9.GUILD_VOICE;
@@ -292,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var11[var12];
         var14 = var15.bind(var10)(var14);
         var14 = var14.t;
-        var14 = var14.5aYFRm;
+        var14 = var14["5aYFRm"];
         var14 = var16.bind(var17)(var14);
         var13['name'] = var14;
         var14 = var9.GUILD_VOICE;
@@ -354,7 +354,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var11[var12];
         var13 = var15.bind(var10)(var13);
         var13 = var13.t;
-        var13 = var13.3eM+Lh;
+        var13 = var13["3eM+Lh"];
         var13 = var14.bind(var16)(var13);
         var8['name'] = var13;
         var13 = var9.GUILD_TEXT;
@@ -631,7 +631,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var11[var12];
         var14 = var15.bind(var10)(var14);
         var14 = var14.t;
-        var14 = var14.3xFaKk;
+        var14 = var14["3xFaKk"];
         var14 = var16.bind(var17)(var14);
         var13['name'] = var14;
         var14 = var9.GUILD_VOICE;
@@ -653,7 +653,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var11[var12];
         var6 = var15.bind(var10)(var6);
         var6 = var6.t;
-        var6 = var6.+HJio+;
+        var6 = var6["+HJio+"];
         var6 = var13.bind(var14)(var6);
         var2['label'] = var6;
         var13 = {'id': '00', 'parent_id': null};
@@ -805,7 +805,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var11[var12];
         var14 = var15.bind(var10)(var14);
         var14 = var14.t;
-        var14 = var14.5aYFRm;
+        var14 = var14["5aYFRm"];
         var14 = var16.bind(var17)(var14);
         var13['name'] = var14;
         var14 = var9.GUILD_VOICE;
@@ -827,7 +827,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var11[var12];
         var6 = var15.bind(var10)(var6);
         var6 = var6.t;
-        var6 = var6.8EUbzl;
+        var6 = var6["8EUbzl"];
         var6 = var13.bind(var14)(var6);
         var2['label'] = var6;
         var13 = {'id': '00', 'parent_id': null};
@@ -979,7 +979,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var11[var12];
         var14 = var15.bind(var10)(var14);
         var14 = var14.t;
-        var14 = var14.3xFaKk;
+        var14 = var14["3xFaKk"];
         var14 = var16.bind(var17)(var14);
         var13['name'] = var14;
         var14 = var9.GUILD_VOICE;

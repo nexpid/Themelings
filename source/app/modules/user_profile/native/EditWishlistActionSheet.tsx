@@ -721,7 +721,7 @@ case 33:
                     var13 = var18[var13];
                     var13 = var16.bind(var4)(var13);
                     var13 = var13.t;
-                    var13 = var13.6cfuDj;
+                    var13 = var13["6cfuDj"];
                     var16 = var14.bind(var15)(var13);
                     var13 = global;
                     var13 = var13.HermesInternal;

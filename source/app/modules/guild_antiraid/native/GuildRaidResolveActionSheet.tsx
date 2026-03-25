@@ -250,7 +250,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var13[var14];
         var19 = var17.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.1zmw/H;
+        var19 = var19["1zmw/H"];
         var19 = var20.bind(var21)(var19);
         var8['children'] = var19;
         var10 = var3.bind(var4)(var10, var8);

@@ -95,7 +95,7 @@ case 9:
             var12 = var16[var12];
             var12 = var15.bind(var1)(var12);
             var12 = var12.t;
-            var12 = var12.5k5OFp;
+            var12 = var12["5k5OFp"];
             var12 = var13.bind(var14)(var12);
             var4['label'] = var12;
             var12 = function onPress() {

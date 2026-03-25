@@ -160,10 +160,10 @@ case 20:
             var5 = var3.t;
             if(var1) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
-            var3 = var5.0hwcvM;
+            var3 = var5["0hwcvM"];
             _fun0004_ip = 27; continue _fun0004;
 case 25:
-            var3 = var5./4XT0b;
+            var3 = var5["/4XT0b"];
 case 27:
             return var3;
 case 18:
@@ -220,7 +220,7 @@ case 33:
         var7 = var6[var1];
         var7 = var2.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.8MeiQN;
+        var7 = var7["8MeiQN"];
         var4['generic'] = var7;
         var1 = var6[var1];
         var1 = var2.bind(var3)(var1);
@@ -248,7 +248,7 @@ case 33:
         var7 = var6[var1];
         var7 = var2.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.4JS2QJ;
+        var7 = var7["4JS2QJ"];
         var4['clickable'] = var7;
         var7 = var6[var1];
         var7 = var2.bind(var3)(var7);
@@ -258,7 +258,7 @@ case 33:
         var1 = var6[var1];
         var1 = var2.bind(var3)(var1);
         var1 = var1.t;
-        var1 = var1.1JyLzi;
+        var1 = var1["1JyLzi"];
         var4['clickableGeneric'] = var1;
         var2 = arg1;
         var1 = arg2;
@@ -385,7 +385,7 @@ case 40:
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var3 = var14.03VJqu;
+            var3 = var14["03VJqu"];
 case 42:
             _fun0005_ip = 43; continue _fun0005;
 case 37:
@@ -421,7 +421,7 @@ case 50:
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var2 = var14.1AcTqm;
+            var2 = var14["1AcTqm"];
 case 52:
             _fun0005_ip = 53; continue _fun0005;
 case 48:
@@ -524,7 +524,7 @@ case 0:
                     var11 = var9[var8];
                     var11 = var12.bind(var3)(var11);
                     var11 = var11.t;
-                    var11 = var11.3XS8Ni;
+                    var11 = var11["3XS8Ni"];
                     var10[var13] = var11;
                     var11 = _closure1_slot9;
                     var13 = var11.PACKAGE_RACING_SPORTS;
@@ -538,7 +538,7 @@ case 0:
                     var11 = var9[var8];
                     var11 = var12.bind(var3)(var11);
                     var11 = var11.t;
-                    var11 = var11.6o4n1Q;
+                    var11 = var11["6o4n1Q"];
                     var10[var13] = var11;
                     var11 = _closure1_slot9;
                     var13 = var11.PACKAGE_FAMILY_FRIENDLY;
@@ -559,7 +559,7 @@ case 0:
                     var9 = var9[var8];
                     var9 = var12.bind(var3)(var9);
                     var9 = var9.t;
-                    var9 = var9.8+sIJz;
+                    var9 = var9["8+sIJz"];
                     var10[var11] = var9;
                     var _closure3_slot0 = var10;
                     var4 = var4.config;
@@ -615,7 +615,7 @@ case 57:
             var2 = var9[var2];
             var2 = var3.bind(var8)(var2);
             var2 = var2.t;
-            var3 = var2.1votF6;
+            var3 = var2["1votF6"];
             var2 = {};
             var2['rewardNameWithArticle'] = var7;
             var2['targetMinutes'] = var6;
@@ -857,7 +857,7 @@ case 112:
             var29 = var30.TmKqHw;
             _fun0008_ip = 113; continue _fun0008;
 case 111:
-            var29 = var30.3RwRv8;
+            var29 = var30["3RwRv8"];
 case 113:
             var28 = var29;
 case 110:
@@ -943,7 +943,7 @@ case 122:
             var16 = var27[var16];
             var16 = var18.bind(var4)(var16);
             var16 = var16.t;
-            var18 = var16.0NNM3l;
+            var18 = var16["0NNM3l"];
             var16 = {};
             var24 = var25.config;
             var24 = var24.messages;
@@ -1372,7 +1372,7 @@ case 182:
             var23 = var25[var23];
             var23 = var24.bind(var4)(var23);
             var23 = var23.t;
-            var3 = var23.1AcTqm;
+            var3 = var23["1AcTqm"];
 case 184:
             _fun0008_ip = 185; continue _fun0008;
 case 180:
@@ -1858,7 +1858,7 @@ case 224:
             var14 = var5[var16];
             var14 = var12.bind(var9)(var14);
             var14 = var14.t;
-            var17 = var14.6zWtV8;
+            var17 = var14["6zWtV8"];
             var14 = var5[var11];
             var18 = var12.bind(var9)(var14);
             var15 = var18.hasPlayOnDesktopTask;
@@ -1928,7 +1928,7 @@ case 231:
             var5 = var14.bind(var15)(var13, var5);
             _fun0013_ip = 232; continue _fun0013;
 case 230:
-            var13 = var12.1NaRSs;
+            var13 = var12["1NaRSs"];
             var12 = {};
             var12['minutes'] = var6;
             var5 = var14.bind(var15)(var13, var12);
@@ -1965,7 +1965,7 @@ case 236:
             var2 = var14[var2];
             var2 = var5.bind(var9)(var2);
             var2 = var2.t;
-            var5 = var2.9m9Mna;
+            var5 = var2["9m9Mna"];
             var2 = {};
             var2['videoTitle'] = var13;
             var2 = var11.bind(var12)(var5, var2);
@@ -2354,7 +2354,7 @@ case 271:
             var4 = var13[var4];
             var4 = var8.bind(var6)(var4);
             var4 = var4.t;
-            var8 = var4.1votF6;
+            var8 = var4["1votF6"];
             var4 = {};
             var4['rewardNameWithArticle'] = var12;
             var11 = var11.targetMinutes;
@@ -2489,7 +2489,7 @@ case 279:
             var3 = var3.t;
             if(var2) { _fun0016_ip = 61; continue _fun0016 }
 case 218:
-            var2 = var3.7e5k7L;
+            var2 = var3["7e5k7L"];
             var2 = var4.bind(var6)(var2);
             _fun0016_ip = 280; continue _fun0016;
 case 61:
@@ -2758,7 +2758,7 @@ case 299:
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.+qoymD;
+            var1 = var1["+qoymD"];
             var1 = var2.bind(var3)(var1);
             return var1;
         }

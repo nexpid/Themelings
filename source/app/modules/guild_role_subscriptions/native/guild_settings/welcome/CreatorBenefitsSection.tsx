@@ -191,7 +191,7 @@ case 0:
             var8 = var16[var8];
             var8 = var14.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.9CdmS8;
+            var8 = var8["9CdmS8"];
             var8 = var9.bind(var12)(var8);
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);

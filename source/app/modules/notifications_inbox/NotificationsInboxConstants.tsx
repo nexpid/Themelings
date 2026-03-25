@@ -172,7 +172,7 @@ case 2:
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.2pAkDA;
+            var6 = var6["2pAkDA"];
             var5 = var7.bind(var8)(var6);
 case 4:
             var1['name'] = var5;
@@ -217,7 +217,7 @@ case 4:
         var2 = var8[var2];
         var2 = var7.bind(var6)(var2);
         var2 = var2.t;
-        var2 = var2.+rlGYW;
+        var2 = var2["+rlGYW"];
         var2 = var4.bind(var5)(var2);
         var1[var3] = var2;
         return var1;

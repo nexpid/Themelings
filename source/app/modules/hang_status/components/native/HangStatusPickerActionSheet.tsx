@@ -1429,7 +1429,7 @@ case 128:
                 var24 = var13[var20];
                 var24 = var7.bind(var4)(var24);
                 var24 = var24.t;
-                var24 = var24.5UAi59;
+                var24 = var24["5UAi59"];
                 var24 = var25.bind(var26)(var24);
                 var17['accessibilityLabel'] = var24;
                 var17['accessibilityRole'] = var23;
@@ -1488,7 +1488,7 @@ case 131:
                 var17 = var17[var20];
                 var17 = var22.bind(var4)(var17);
                 var17 = var17.t;
-                var17 = var17.3XKWcA;
+                var17 = var17["3XKWcA"];
                 var17 = var18.bind(var21)(var17);
                 var9['title'] = var17;
                 var18 = var19.map;
@@ -1526,7 +1526,7 @@ case 133:
                 var15 = var15[var20];
                 var15 = var19.bind(var4)(var15);
                 var15 = var15.t;
-                var15 = var15.+9QSnj;
+                var15 = var15["+9QSnj"];
                 var15 = var17.bind(var18)(var15);
                 var11['title'] = var15;
                 var15 = var16.map;

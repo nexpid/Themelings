@@ -526,7 +526,7 @@ case 23:
             var12 = var12[var13];
             var12 = var14.bind(var4)(var12);
             var12 = var12.t;
-            var14 = var12.0DhU2P;
+            var14 = var12["0DhU2P"];
             var12 = {};
             var21 = var21.name;
             var12['guildName'] = var21;
@@ -823,7 +823,7 @@ case 36:
             var11 = var12[var13];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.0jRosn;
+            var11 = var11["0jRosn"];
             var11 = var15.bind(var16)(var11);
             var5['children'] = var11;
             var8 = var9.bind(var4)(var8, var5);
@@ -918,7 +918,7 @@ case 39:
             var9 = var9[var13];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.5lP6Ax;
+            var9 = var9["5lP6Ax"];
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

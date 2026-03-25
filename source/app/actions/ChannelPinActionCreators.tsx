@@ -271,7 +271,7 @@ case 14:
                             var2 = var2[var9];
                             var2 = var10.bind(var1)(var2);
                             var2 = var2.t;
-                            var2 = var2.5hgPfC;
+                            var2 = var2["5hgPfC"];
                             var7 = var4.bind(var5)(var2);
                             _fun0002_ip = 8; continue _fun0002;
 case 12:
@@ -284,7 +284,7 @@ case 12:
                             var3 = var2[var9];
                             var3 = var10.bind(var1)(var3);
                             var3 = var3.t;
-                            var3 = var3.25gfQX;
+                            var3 = var3["25gfQX"];
                             var8 = var4.bind(var5)(var3);
                             var4 = var2[var9];
                             var4 = var10.bind(var1)(var4);
@@ -456,7 +456,7 @@ case 32:
                         var6 = var10[var5];
                         var6 = var8.bind(var9)(var6);
                         var6 = var6.t;
-                        var6 = var6.0R/Toc;
+                        var6 = var6["0R/Toc"];
                         var6 = var7.bind(var11)(var6);
                         var1['body'] = var6;
                         var6 = var10[var5];
@@ -466,7 +466,7 @@ case 32:
                         var6 = var10[var5];
                         var6 = var8.bind(var9)(var6);
                         var6 = var6.t;
-                        var6 = var6.7NqTJn;
+                        var6 = var6["7NqTJn"];
                         var6 = var7.bind(var11)(var6);
                         var1['confirmText'] = var6;
                         var6 = var10[var5];

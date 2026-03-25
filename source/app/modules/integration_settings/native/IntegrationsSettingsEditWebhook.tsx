@@ -483,7 +483,7 @@ case 19:
                         var5 = var9[var5];
                         var5 = var8.bind(var1)(var5);
                         var5 = var5.t;
-                        var5 = var5./4TwKf;
+                        var5 = var5["/4TwKf"];
                         var5 = var6.bind(var7)(var5);
                         var2['body'] = var5;
                         var2 = var3.bind(var4)(var2);
@@ -851,7 +851,7 @@ case 32:
                 var17 = var17[var18];
                 var17 = var22.bind(var4)(var17);
                 var17 = var17.t;
-                var17 = var17.7+5GQa;
+                var17 = var17["7+5GQa"];
                 var17 = var19.bind(var21)(var17);
                 var8['label'] = var17;
                 var9 = var13.bind(var4)(var12, var8);

@@ -162,7 +162,7 @@ case 14:
             var6 = var6.t;
             if(var5) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var5 = var6.7/Xl0S;
+            var5 = var6["7/Xl0S"];
             var5 = var7.bind(var8)(var5, var9);
             _fun0001_ip = 18; continue _fun0001;
 case 16:

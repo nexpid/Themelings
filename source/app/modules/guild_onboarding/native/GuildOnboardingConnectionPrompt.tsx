@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -925,7 +925,7 @@ case 58:
 case 61:
             if(var16) { _fun0004_ip = 62; continue _fun0004 }
 case 63:
-            var16 = var17.5Wxrcd;
+            var16 = var17["5Wxrcd"];
             var16 = var18.bind(var19)(var16);
             _fun0004_ip = 64; continue _fun0004;
 case 62:
@@ -934,7 +934,7 @@ case 62:
 case 64:
             _fun0004_ip = 65; continue _fun0004;
 case 60:
-            var17 = var17.8SuVoE;
+            var17 = var17["8SuVoE"];
             var20 = var18.bind(var19)(var17);
             var17 = global;
             var17 = var17.HermesInternal;

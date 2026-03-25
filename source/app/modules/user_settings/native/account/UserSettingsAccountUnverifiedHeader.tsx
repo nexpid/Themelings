@@ -47,7 +47,7 @@ case 7:
             var5 = var9[var4];
             var5 = var8.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.3sWbf3;
+            var5 = var5["3sWbf3"];
             var5 = var6.bind(var10)(var5);
             var3['title'] = var5;
             var5 = var9[var4];
@@ -57,7 +57,7 @@ case 7:
             var4 = var9[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.13ofGu;
+            var4 = var4["13ofGu"];
             var4 = var5.bind(var6)(var4);
             var3['button'] = var4;
             var2 = var3;
@@ -76,7 +76,7 @@ case 4:
             var5 = var9[var4];
             var5 = var8.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5./yqgqs;
+            var5 = var5["/yqgqs"];
             var5 = var6.bind(var10)(var5);
             var3['title'] = var5;
             var5 = var9[var4];

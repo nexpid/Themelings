@@ -203,7 +203,7 @@ case 14:
             var13 = var15.bind(var16)(var13);
             _fun0001_ip = 15; continue _fun0001;
 case 13:
-            var14 = var14.4ry6yi;
+            var14 = var14["4ry6yi"];
             var13 = var15.bind(var16)(var14);
 case 15:
             var11['accessibilityLabel'] = var13;
@@ -356,7 +356,7 @@ case 29:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.5h0QOP;
+            var13 = var13["5h0QOP"];
             var13 = var14.bind(var15)(var13);
             var11['accessibilityLabel'] = var13;
             var11 = var12.bind(var7)(var11);
@@ -401,7 +401,7 @@ case 31:
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.5h0QOP;
+            var12 = var12["5h0QOP"];
             var12 = var13.bind(var14)(var12);
             var3['accessibilityLabel'] = var12;
             var3 = var11.bind(var7)(var3);
@@ -444,7 +444,7 @@ case 16:
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.5h0QOP;
+            var12 = var12["5h0QOP"];
             var12 = var13.bind(var14)(var12);
             var3['accessibilityLabel'] = var12;
             var3 = var11.bind(var7)(var3);

@@ -219,7 +219,7 @@ case 31:
                     var14 = var15.bind(var16)(var14);
                     _fun0002_ip = 32; continue _fun0002;
 case 30:
-                    var9 = var9./SCpvi;
+                    var9 = var9["/SCpvi"];
                     var14 = var15.bind(var16)(var9);
 case 32:
                     var9 = 'role';

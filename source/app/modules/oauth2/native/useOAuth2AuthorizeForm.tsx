@@ -2898,7 +2898,7 @@ case 269:
             var27 = var24.t;
             if(var23) { _fun0001_ip = 280; continue _fun0001 }
 case 281:
-            var24 = var27.3PatSz;
+            var24 = var27["3PatSz"];
             var24 = var30.bind(var31)(var24);
             _fun0001_ip = 282; continue _fun0001;
 case 280:

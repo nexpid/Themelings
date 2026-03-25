@@ -48,7 +48,7 @@ case 4:
             var5 = var9[var4];
             var5 = var7.bind(var8)(var5);
             var5 = var5.t;
-            var5 = var5.3qLlTS;
+            var5 = var5["3qLlTS"];
             var5 = var6.bind(var10)(var5);
             var1['connectLabel'] = var5;
             var5 = var9[var4];
@@ -58,7 +58,7 @@ case 4:
             var4 = var9[var4];
             var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4./uR9x1;
+            var4 = var4["/uR9x1"];
             var4 = var5.bind(var6)(var4);
             var1['connectSublabel'] = var4;
             return var1;

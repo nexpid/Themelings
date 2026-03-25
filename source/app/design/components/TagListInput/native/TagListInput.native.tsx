@@ -706,7 +706,7 @@ case 42:
             var1 = var21[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.5h0QOP;
+            var1 = var1["5h0QOP"];
             var28 = var2.bind(var3)(var1);
 case 41:
             var3 = _closure1_slot7;

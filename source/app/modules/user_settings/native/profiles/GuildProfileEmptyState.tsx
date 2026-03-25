@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = var15[var11];
         var17 = var14.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.6dIB4R;
+        var17 = var17["6dIB4R"];
         var17 = var18.bind(var19)(var17);
         var13['text'] = var17;
         var10 = _closure1_slot3;

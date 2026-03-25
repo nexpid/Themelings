@@ -24,7 +24,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -393,7 +393,7 @@ case 48:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.3NlTYU;
+            var2 = var2["3NlTYU"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 46:

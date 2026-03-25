@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var22 = var31[var27];
         var22 = var30.bind(var4)(var22);
         var22 = var22.t;
-        var22 = var22.+Svv46;
+        var22 = var22["+Svv46"];
         var22 = var25.bind(var28)(var22);
         var18['children'] = var22;
         var20 = var21.bind(var4)(var20, var18);
@@ -397,7 +397,7 @@ case 7:
             var8 = var7[var8];
             var8 = var12.bind(var6)(var8);
             var8 = var8.t;
-            var8 = var8.5V0AkP;
+            var8 = var8["5V0AkP"];
             var8 = var10.bind(var11)(var8);
             var5['label'] = var8;
             var8 = _closure1_slot8;
@@ -641,7 +641,7 @@ case 0:
             var16 = var20[var16];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.00Sfl/;
+            var16 = var16["00Sfl/"];
             var16 = var17.bind(var18)(var16);
             var15['label'] = var16;
             var16 = var10.STANDING;

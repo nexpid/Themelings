@@ -1165,7 +1165,7 @@ case 65:
             var15 = var16[var15];
             var15 = var14.bind(var5)(var15);
             var15 = var15.t;
-            var15 = var15.13/7kX;
+            var15 = var15["13/7kX"];
             var15 = var17.bind(var18)(var15);
             var9['accessibilityLabel'] = var15;
             var15 = 'secondary';

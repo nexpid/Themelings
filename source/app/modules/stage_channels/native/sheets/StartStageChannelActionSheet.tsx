@@ -400,7 +400,7 @@ case 25:
             var9 = var20[var9];
             var9 = var17.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.5BKP4y;
+            var9 = var9["5BKP4y"];
             var9 = var15.bind(var16)(var9);
             _fun0001_ip = 26; continue _fun0001;
 case 24:
@@ -515,7 +515,7 @@ case 30:
             var30 = var20[var17];
             var30 = var31.bind(var4)(var30);
             var30 = var30.t;
-            var30 = var30.5FPBOB;
+            var30 = var30["5FPBOB"];
             var30 = var32.bind(var33)(var30);
             var15['children'] = var30;
             var15 = var3.bind(var4)(var27, var15);
@@ -557,7 +557,7 @@ case 30:
             var28 = var20[var17];
             var28 = var31.bind(var4)(var28);
             var28 = var28.t;
-            var28 = var28.5FPBOB;
+            var28 = var28["5FPBOB"];
             var28 = var29.bind(var30)(var28);
             var15['accessibilityLabel'] = var28;
             var15['onNext'] = var24;

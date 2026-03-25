@@ -626,7 +626,7 @@ case 30:
             var19 = var19[var20];
             var19 = var24.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.0tvNAn;
+            var19 = var19["0tvNAn"];
             var19 = var22.bind(var23)(var19);
             var12['text'] = var19;
             if(var18) { _fun0001_ip = 31; continue _fun0001 }

@@ -275,7 +275,7 @@ case 26:
             var5 = var5[var13];
             var5 = var14.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.8ZsNv5;
+            var5 = var5["8ZsNv5"];
             var5 = var11.bind(var12)(var5);
             _fun0001_ip = 27; continue _fun0001;
 case 24:

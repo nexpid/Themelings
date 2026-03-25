@@ -86,7 +86,7 @@ case 3:
             var9 = var15[var9];
             var9 = var12.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.5IEsGx;
+            var9 = var9["5IEsGx"];
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);
@@ -117,7 +117,7 @@ case 2:
             var9 = var19[var15];
             var9 = var20.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.5IEsGx;
+            var9 = var9["5IEsGx"];
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var7 = var8.bind(var5)(var7, var6);
@@ -332,7 +332,7 @@ case 10:
             var8 = var9[var22];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.0CfCVW;
+            var8 = var8["0CfCVW"];
             var8 = var15.bind(var17)(var8);
             var2['accessibilityHint'] = var8;
             var8 = 0.5;
@@ -369,7 +369,7 @@ case 13:
             var20 = var11[var22];
             var20 = var19.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.8E4GxS;
+            var21 = var20["8E4GxS"];
             var20 = {};
             var25 = function userHook(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -602,7 +602,7 @@ case 38:
             var10 = var10.t;
             if(var9) { _fun0002_ip = 39; continue _fun0002 }
 case 40:
-            var9 = var10.+LXBxU;
+            var9 = var10["+LXBxU"];
             var9 = var19.bind(var21)(var9);
             _fun0002_ip = 41; continue _fun0002;
 case 39:

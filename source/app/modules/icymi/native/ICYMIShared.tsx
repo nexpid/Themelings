@@ -1214,7 +1214,7 @@ case 50:
             var17 = var19 + var17;
             _fun0007_ip = 51; continue _fun0007;
 case 49:
-            var18 = var18.42OrO4;
+            var18 = var18["42OrO4"];
             var18 = var20.bind(var21)(var18);
             var17 = var19 + var18;
 case 51:
@@ -1950,7 +1950,7 @@ case 91:
             var12 = var20[var12];
             var12 = var18.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.6kp9H2;
+            var12 = var12["6kp9H2"];
             var12 = var16.bind(var17)(var12);
             _fun0013_ip = 92; continue _fun0013;
 case 90:

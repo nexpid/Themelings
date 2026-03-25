@@ -1124,7 +1124,7 @@ case 98:
             var39 = var32[var36];
             var39 = var35.bind(var4)(var39);
             var39 = var39.t;
-            var39 = var39.4Byy/G;
+            var39 = var39["4Byy/G"];
             var39 = var43.bind(var44)(var39);
             var25['children'] = var39;
             var27 = var31.bind(var4)(var27, var25);

@@ -107,7 +107,7 @@ case 13:
     var8 = var10[var12];
     var8 = var9.bind(var1)(var8);
     var8 = var8.t;
-    var8 = var8.7lZ31J;
+    var8 = var8["7lZ31J"];
     var8 = var11.bind(var14)(var8);
     var5['title'] = var8;
     var8 = function getSubtitle(arg1) {
@@ -242,7 +242,7 @@ case 13:
     var14 = var10[var12];
     var14 = var9.bind(var1)(var14);
     var14 = var14.t;
-    var14 = var14.7lZ31J;
+    var14 = var14["7lZ31J"];
     var14 = var15.bind(var16)(var14);
     var8['title'] = var14;
     var14 = function getSubtitle(arg1) {

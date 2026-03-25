@@ -556,7 +556,7 @@ case 0:
             var1 = var12[var1];
             var1 = var14.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.1QHJaW;
+            var1 = var1["1QHJaW"];
             var1 = var11.bind(var13)(var1);
             var3['title'] = var1;
             var11 = _closure1_slot11;
@@ -1124,7 +1124,7 @@ case 55:
             var32 = var37[var32];
             var32 = var36.bind(var5)(var32);
             var32 = var32.t;
-            var32 = var32.41wkMc;
+            var32 = var32["41wkMc"];
             var32 = var34.bind(var35)(var32);
             var27['children'] = var32;
             var27 = var29.bind(var5)(var28, var27);

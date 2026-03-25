@@ -166,7 +166,7 @@ case 9:
         var9 = var17[var13];
         var9 = var16.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.0Niu/F;
+        var9 = var9["0Niu/F"];
         var9 = var15.bind(var18)(var9);
         var7['children'] = var9;
         var8 = var11.bind(var4)(var8, var7);
@@ -212,7 +212,7 @@ case 9:
         var15 = var17[var13];
         var15 = var16.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15.2ixEBi;
+        var15 = var15["2ixEBi"];
         var15 = var18.bind(var19)(var15);
         var8['text'] = var15;
         var8['onPress'] = var14;

@@ -336,7 +336,7 @@ case 0:
             var20 = var16[var19];
             var20 = var14.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.5PoYts;
+            var20 = var20["5PoYts"];
             var20 = var21.bind(var22)(var20);
             var13['children'] = var20;
             var13 = var17.bind(var4)(var15, var13);

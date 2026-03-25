@@ -252,7 +252,7 @@ case 10:
             var15 = var20[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15./l3n+1;
+            var16 = var15["/l3n+1"];
             var15 = {};
             var15['helpCenterLink'] = var19;
             var15 = var17.bind(var18)(var16, var15);

@@ -117,7 +117,7 @@ case 6:
             var10 = var15[var10];
             var10 = var13.bind(var14)(var10);
             var10 = var10.t;
-            var10 = var10.9ZpT2C;
+            var10 = var10["9ZpT2C"];
             var10 = var11.bind(var12)(var10);
             var2['body'] = var10;
             var2 = var3.bind(var4)(var2);

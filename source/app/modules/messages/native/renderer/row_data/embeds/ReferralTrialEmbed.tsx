@@ -423,7 +423,7 @@ case 42:
             var21 = var21[var8];
             var21 = var25.bind(var7)(var21);
             var21 = var21.t;
-            var21 = var21.9SNdf4;
+            var21 = var21["9SNdf4"];
             var18 = var22.bind(var23)(var21);
             var17 = undefined;
             _fun0001_ip = 37; continue _fun0001;
@@ -452,7 +452,7 @@ case 46:
             var20 = var20.t;
             if(var21) { _fun0001_ip = 47; continue _fun0001 }
 case 48:
-            var21 = var20.7O7Zg3;
+            var21 = var20["7O7Zg3"];
             _fun0001_ip = 49; continue _fun0001;
 case 47:
             var21 = var20.yqX4Dr;

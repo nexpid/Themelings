@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var12[var19];
         var19 = var8.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.9SgXmT;
+        var19 = var19["9SgXmT"];
         var19 = var20.bind(var21)(var19);
         var13['children'] = var19;
         var13 = var16.bind(var4)(var15, var13);
@@ -333,7 +333,7 @@ case 3:
                         var11 = var13[var14];
                         var11 = var17.bind(var3)(var11);
                         var11 = var11.t;
-                        var11 = var11.3KZjFH;
+                        var11 = var11["3KZjFH"];
                         var11 = var15.bind(var16)(var11);
                         var2['confirmText'] = var11;
                         var11 = 21;

@@ -230,7 +230,7 @@ case 13:
             var25 = var30[var25];
             var25 = var29.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25./k/L/j;
+            var25 = var25["/k/L/j"];
             var23 = var27.bind(var28)(var25);
 case 12:
             var13['children'] = var23;
@@ -336,7 +336,7 @@ case 18:
             var14 = var19[var23];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var20 = var14.2bprXx;
+            var20 = var14["2bprXx"];
             var14 = {};
             var24 = _closure1_slot7;
             var24 = var24.GUIDELINES;

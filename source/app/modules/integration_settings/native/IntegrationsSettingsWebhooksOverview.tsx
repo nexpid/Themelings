@@ -169,7 +169,7 @@ case 7:
             var6 = var14[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.t;
-            var7 = var6.7mv59O;
+            var7 = var6["7mv59O"];
             var6 = {};
             var12 = _closure1_slot1;
             var10 = 20;
@@ -191,7 +191,7 @@ case 6:
             var7 = var14[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.t;
-            var8 = var7.7EcUbr;
+            var8 = var7["7EcUbr"];
             var7 = {};
             var12 = _closure1_slot1;
             var11 = 20;
@@ -455,7 +455,7 @@ case 10:
                 var1 = var9[var1];
                 var1 = var2.bind(var8)(var1);
                 var1 = var1.t;
-                var2 = var1.3hX7G+;
+                var2 = var1["3hX7G+"];
                 var1 = {};
                 var7 = _closure1_slot1;
                 var5 = 23;
@@ -480,7 +480,7 @@ case 14:
                 var2 = var10[var2];
                 var2 = var3.bind(var9)(var2);
                 var2 = var2.t;
-                var3 = var2.5u+aV1;
+                var3 = var2["5u+aV1"];
                 var2 = {};
                 var8 = _closure1_slot1;
                 var7 = 23;
@@ -622,7 +622,7 @@ case 24:
                 var10 = var16[var10];
                 var10 = var15.bind(var2)(var10);
                 var10 = var10.t;
-                var10 = var10.4JAVI+;
+                var10 = var10["4JAVI+"];
                 var10 = var12.bind(var14)(var10);
                 _fun0006_ip = 25; continue _fun0006;
 case 23:

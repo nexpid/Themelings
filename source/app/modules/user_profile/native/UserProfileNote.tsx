@@ -113,7 +113,7 @@ case 6:
             var11 = var7.t;
             if(var8) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var7 = var11.1ZZtts;
+            var7 = var11["1ZZtts"];
             var7 = var15.bind(var16)(var7);
             _fun0001_ip = 9; continue _fun0001;
 case 7:

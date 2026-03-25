@@ -219,7 +219,7 @@ case 5:
             var10 = var11[var10];
             var10 = var8.bind(var1)(var10);
             var10 = var10.t;
-            var10 = var10.13/7kX;
+            var10 = var10["13/7kX"];
             var10 = var12.bind(var13)(var10);
             var5['accessibilityLabel'] = var10;
             var10 = 'button';

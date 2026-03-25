@@ -147,7 +147,7 @@ case 10:
             var7 = var11[var7];
             var7 = var10.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.4WuFRE;
+            var7 = var7["4WuFRE"];
             var7 = var8.bind(var9)(var7);
             var4['body'] = var7;
             var7 = false;

@@ -203,7 +203,7 @@ case 9:
             var5 = var15[var4];
             var5 = var7.bind(var9)(var5);
             var5 = var5.t;
-            var7 = var5.9Akp1s;
+            var7 = var5["9Akp1s"];
             var5 = {};
             var14 = _closure1_slot1;
             var13 = 14;
@@ -429,7 +429,7 @@ case 27:
             var6 = var10[var6];
             var6 = var12.bind(var8)(var6);
             var6 = var6.t;
-            var6 = var6.4FlZqw;
+            var6 = var6["4FlZqw"];
             var9 = var9.bind(var11)(var6);
             var6 = 'helpCenterArticleLabel';
             var1[var6] = var9;
@@ -1135,7 +1135,7 @@ case 118:
             var23 = var28.bind(var29)(var23);
             _fun0004_ip = 119; continue _fun0004;
 case 117:
-            var27 = var27.7vb2cc;
+            var27 = var27["7vb2cc"];
             var23 = var28.bind(var29)(var27);
 case 119:
             var22 = var23;

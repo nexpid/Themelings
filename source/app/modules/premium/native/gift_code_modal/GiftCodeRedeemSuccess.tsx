@@ -547,7 +547,7 @@ case 39:
             var21 = var28[var21];
             var21 = var23.bind(var4)(var21);
             var21 = var21.t;
-            var23 = var21.1C2BG/;
+            var23 = var21["1C2BG/"];
             var21 = {};
             var28 = var25.name;
             var21['skuName'] = var28;
@@ -577,7 +577,7 @@ case 35:
             var21 = var28[var21];
             var21 = var27.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.5glWta;
+            var21 = var21["5glWta"];
             var21 = var23.bind(var26)(var21);
             var18['children'] = var21;
             var17 = var20.bind(var4)(var19, var18);
@@ -604,7 +604,7 @@ case 33:
             var21 = var28[var21];
             var21 = var27.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.+BNMcF;
+            var21 = var21["+BNMcF"];
             var21 = var23.bind(var26)(var21);
             var18['children'] = var21;
             var17 = var20.bind(var4)(var19, var18);
@@ -658,7 +658,7 @@ case 51:
             var19 = var26[var19];
             var19 = var23.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.5ayf7w;
+            var19 = var19["5ayf7w"];
             var19 = var20.bind(var21)(var19);
             _fun0001_ip = 56; continue _fun0001;
 case 55:
@@ -672,7 +672,7 @@ case 55:
             var20 = var27[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.4kp0AB;
+            var21 = var20["4kp0AB"];
             var20 = {};
             var27 = var25.name;
             var20['itemName'] = var27;

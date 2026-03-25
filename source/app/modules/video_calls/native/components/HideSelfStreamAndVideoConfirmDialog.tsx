@@ -110,7 +110,7 @@ case 2:
             var1 = var12[var1];
             var1 = var10.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1./lFMWr;
+            var1 = var1["/lFMWr"];
             var11 = var3.bind(var9)(var1);
 case 4:
             var1 = _closure1_slot4;

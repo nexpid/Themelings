@@ -55,7 +55,7 @@ case 2:
             var1 = var1[var9];
             var1 = var8.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.2LLbj9;
+            var1 = var1["2LLbj9"];
             var10 = var2.bind(var3)(var1);
 case 4:
             var3 = _closure1_slot12;
@@ -599,7 +599,7 @@ case 41:
             var12 = var15[var11];
             var12 = var14.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.+nLJkZ;
+            var12 = var12["+nLJkZ"];
             var12 = var13.bind(var16)(var12);
             var8['title'] = var12;
             var12 = var15[var11];

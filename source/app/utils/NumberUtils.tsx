@@ -127,7 +127,7 @@ case 6:
             var1 = var8[var1];
             var1 = var6.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.84R4Tc;
+            var2 = var1["84R4Tc"];
             var1 = {};
             var6 = global;
             var8 = var6.Math;

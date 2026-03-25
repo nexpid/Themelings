@@ -291,7 +291,7 @@ case 9:
             var21 = var15[var19];
             var21 = var20.bind(var5)(var21);
             var21 = var21.t;
-            var22 = var21.7chOVL;
+            var22 = var21["7chOVL"];
             var21 = {};
             var21['discountPercentage'] = var26;
             var21 = var23.bind(var25)(var22, var21);

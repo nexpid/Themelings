@@ -240,7 +240,7 @@ case 9:
             var10 = var10[var16];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var13 = var10./FzHJK;
+            var13 = var10["/FzHJK"];
             var10 = {};
             var17 = var17.size;
             var10['count'] = var17;

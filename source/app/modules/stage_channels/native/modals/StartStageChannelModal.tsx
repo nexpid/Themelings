@@ -920,7 +920,7 @@ case 53:
             var26 = var32[var26];
             var26 = var31.bind(var5)(var26);
             var26 = var26.t;
-            var26 = var26.5BKP4y;
+            var26 = var26["5BKP4y"];
             var26 = var29.bind(var30)(var26);
             _fun0004_ip = 54; continue _fun0004;
 case 52:
@@ -1017,7 +1017,7 @@ case 58:
             var31 = var30[var26];
             var31 = var29.bind(var5)(var31);
             var31 = var31.t;
-            var31 = var31.5FPBOB;
+            var31 = var31["5FPBOB"];
             var31 = var32.bind(var33)(var31);
             var7['children'] = var31;
             var7 = var22.bind(var5)(var10, var7);

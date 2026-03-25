@@ -323,7 +323,7 @@ case 20:
                     var4 = var10[var4];
                     var4 = var6.bind(var8)(var4);
                     var4 = var4.t;
-                    var6 = var4.+8JB6Y;
+                    var6 = var4["+8JB6Y"];
                     var4 = {};
                     var10 = _closure2_slot6;
                     var4['gameTitle'] = var10;
@@ -341,7 +341,7 @@ case 17:
                     var4 = var10[var4];
                     var4 = var6.bind(var8)(var4);
                     var4 = var4.t;
-                    var6 = var4.9Peldf;
+                    var6 = var4["9Peldf"];
                     var4 = {};
                     var10 = _closure2_slot6;
                     var4['gameName'] = var10;
@@ -397,7 +397,7 @@ case 11:
                     var3 = var9[var3];
                     var3 = var8.bind(var7)(var3);
                     var3 = var3.t;
-                    var3 = var3.04ateG;
+                    var3 = var3["04ateG"];
                     var2 = var4.bind(var6)(var3);
 case 24:
                     return var2;
@@ -643,7 +643,7 @@ case 36:
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var10 = var1.74KqrR;
+            var10 = var1["74KqrR"];
             _fun0003_ip = 37; continue _fun0003;
 case 35:
             var2 = _closure1_slot0;

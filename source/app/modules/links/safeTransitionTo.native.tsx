@@ -72,7 +72,7 @@ case 10:
                     var12 = var15[var11];
                     var12 = var14.bind(var9)(var12);
                     var12 = var12.t;
-                    var12 = var12.6Y0JlN;
+                    var12 = var12["6Y0JlN"];
                     var12 = var13.bind(var16)(var12);
                     var4['body'] = var12;
                     var12 = var15[var11];

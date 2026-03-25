@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var9[var2];
         var2 = var3.bind(var8)(var2);
         var2 = var2.t;
-        var3 = var2.+l04BN;
+        var3 = var2["+l04BN"];
         var2 = {};
         var7 = var7.name;
         var2['origin'] = var7;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var9[var2];
         var2 = var8.bind(var3)(var2);
         var2 = var2.t;
-        var3 = var2.+l04BN;
+        var3 = var2["+l04BN"];
         var2 = {};
         var2['origin'] = var7;
         var2['timestamp'] = var6;

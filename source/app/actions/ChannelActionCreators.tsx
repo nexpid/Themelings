@@ -978,7 +978,7 @@ case 88:
             var1 = var8[var1];
             var1 = var7.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.8GEdej;
+            var1 = var1["8GEdej"];
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
             var1 = _closure2_slot1;

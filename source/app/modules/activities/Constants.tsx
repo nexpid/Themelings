@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var35 = var36.bind(var37)(var35);
     var35 = 160;
     var3['ACTIVITY_INVITE_COVER_IMAGE_SIZE'] = var35;
-    var35 = /^https?:\\/\\/(?:www\.)?(twitch\.tv\\/(.+)|youtube.com\\/watch\?v=)/;
+    var35 = /^https?:\/\/(?:www\.)?(twitch\.tv\/(.+)|youtube.com\/watch\?v=)/;
     var3['validStreamURL'] = var35;
     var35 = '438122941302046720';
     var3['XBOX_ACTIVITY_APPLICATION_ID'] = var35;

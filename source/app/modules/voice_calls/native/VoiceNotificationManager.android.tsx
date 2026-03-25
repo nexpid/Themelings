@@ -407,7 +407,7 @@ case 45:
                     var8 = var8[var18];
                     var8 = var17.bind(var5)(var8);
                     var8 = var8.t;
-                    var8 = var8.6vrfgt;
+                    var8 = var8["6vrfgt"];
                     var9 = var9.bind(var16)(var8);
                     var8 = 'Disconnect';
                     var9 = var13.bind(var15)(var14, var8, var9);
@@ -452,7 +452,7 @@ case 50:
                     var11 = var15.bind(var16)(var11);
                     _fun0004_ip = 51; continue _fun0004;
 case 49:
-                    var9 = var9.2US872;
+                    var9 = var9["2US872"];
                     var11 = var15.bind(var16)(var9);
 case 51:
                     var9 = 'ToggleDeafen';

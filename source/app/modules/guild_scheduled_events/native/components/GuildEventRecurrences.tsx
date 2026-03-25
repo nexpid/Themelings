@@ -183,7 +183,7 @@ case 5:
             var11 = var11[var15];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.8O7Hpy;
+            var11 = var11["8O7Hpy"];
             var11 = var12.bind(var13)(var11);
             var7['text'] = var11;
             var10 = function onPress(arg1) {

@@ -166,7 +166,7 @@ case 0:
                     var2 = var7[var2];
                     var2 = var4.bind(var1)(var2);
                     var2 = var2.t;
-                    var4 = var2.8r6h7+;
+                    var4 = var2["8r6h7+"];
                     var2 = {};
                     var7 = arg1;
                     var7 = var7.body;
@@ -380,7 +380,7 @@ case 29:
                             var9 = var9[var15];
                             var9 = var12.bind(var5)(var9);
                             var9 = var9.t;
-                            var12 = var9.8r6h7+;
+                            var12 = var9["8r6h7+"];
                             var9 = {};
                             var15 = var4.body;
                             var15 = var15.phone;
@@ -487,7 +487,7 @@ case 23:
             var24 = var19[var15];
             var24 = var18.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24./sHnXc;
+            var24 = var24["/sHnXc"];
             var24 = var25.bind(var26)(var24);
             var20['label'] = var24;
             var24 = var19[var15];

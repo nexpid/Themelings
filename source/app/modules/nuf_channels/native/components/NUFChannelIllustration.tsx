@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var8[var6];
                     var2 = var11.bind(var7)(var2);
                     var2 = var2.t;
-                    var2 = var2.5alrl0;
+                    var2 = var2["5alrl0"];
                     var4 = var4.bind(var9)(var2);
                     var2 = {};
                     var9 = var8[var6];
@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var8[var6];
                     var6 = var11.bind(var7)(var6);
                     var6 = var6.t;
-                    var6 = var6.9m/HsX;
+                    var6 = var6["9m/HsX"];
                     var6 = var9.bind(var10)(var6);
                     var2['name'] = var6;
                     var6 = _closure1_slot1;
@@ -212,7 +212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var8[var6];
                     var2 = var11.bind(var7)(var2);
                     var2 = var2.t;
-                    var2 = var2.5Oo+vS;
+                    var2 = var2["5Oo+vS"];
                     var4 = var4.bind(var9)(var2);
                     var2 = {};
                     var9 = var8[var6];

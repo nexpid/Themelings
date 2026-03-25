@@ -141,7 +141,7 @@ case 2:
             var13 = var8[var13];
             var13 = var6.bind(var4)(var13);
             var13 = var13.t;
-            var14 = var13./MBjYF;
+            var14 = var13["/MBjYF"];
             var13 = {};
             var17 = var17.length;
             var13['count'] = var17;
@@ -322,7 +322,7 @@ case 9:
             var11 = var16[var10];
             var11 = var15.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.5b3FNI;
+            var11 = var11["5b3FNI"];
             var11 = var12.bind(var14)(var11);
             var6['children'] = var11;
             var8 = var9.bind(var5)(var8, var6);
@@ -367,7 +367,7 @@ case 9:
             var10 = var16[var10];
             var10 = var15.bind(var5)(var10);
             var10 = var10.t;
-            var11 = var10.7w9ymD;
+            var11 = var10["7w9ymD"];
             var10 = {};
             var14 = 23;
             var14 = var16[var14];
@@ -502,7 +502,7 @@ case 8:
         var12 = var19[var13];
         var12 = var18.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.9Q/PQv;
+        var12 = var12["9Q/PQv"];
         var12 = var14.bind(var15)(var12);
         var9['children'] = var12;
         var10 = var11.bind(var4)(var10, var9);
@@ -521,7 +521,7 @@ case 8:
         var13 = var19[var13];
         var13 = var18.bind(var4)(var13);
         var13 = var13.t;
-        var14 = var13.8IwQfG;
+        var14 = var13["8IwQfG"];
         var13 = {};
         var17 = 23;
         var17 = var19[var17];

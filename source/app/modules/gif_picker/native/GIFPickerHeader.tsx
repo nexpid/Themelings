@@ -184,7 +184,7 @@ case 7:
             var17 = var17[var22];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.5h0QOP;
+            var17 = var17["5h0QOP"];
             var17 = var18.bind(var19)(var17);
             _fun0001_ip = 8; continue _fun0001;
 case 6:

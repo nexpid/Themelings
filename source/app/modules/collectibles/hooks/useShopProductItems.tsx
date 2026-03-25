@@ -228,7 +228,7 @@ case 0:
             var3 = var9[var2];
             var3 = var8.bind(var1)(var3);
             var3 = var3.t;
-            var3 = var3.7v0T9P;
+            var3 = var3["7v0T9P"];
             var6 = var4.bind(var5)(var3);
             var3 = var9[var2];
             var3 = var8.bind(var1)(var3);

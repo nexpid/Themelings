@@ -554,7 +554,7 @@ case 13:
             var17 = var17[var21];
             var17 = var24.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.6dGmCD;
+            var17 = var17["6dGmCD"];
             var17 = var20.bind(var23)(var17);
             var7['timeLabel'] = var17;
             var7 = var14.bind(var4)(var13, var7);

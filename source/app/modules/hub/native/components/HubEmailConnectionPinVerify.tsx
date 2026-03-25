@@ -193,7 +193,7 @@ case 8:
                         var4 = var11[var4];
                         var4 = var10.bind(var2)(var4);
                         var4 = var4.t;
-                        var4 = var4.2bO4dz;
+                        var4 = var4["2bO4dz"];
                         var4 = var7.bind(var9)(var4);
                         var4 = var6.bind(var2)(var4);
 case 9: // try_end0

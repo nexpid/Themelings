@@ -107,7 +107,7 @@ case 6:
                 var4 = var6.bind(var9)(var4);
                 _fun0001_ip = 7; continue _fun0001;
 case 5:
-                var5 = var5.7AWk50;
+                var5 = var5["7AWk50"];
                 var4 = var6.bind(var9)(var5);
 case 7:
                 var1['text'] = var4;

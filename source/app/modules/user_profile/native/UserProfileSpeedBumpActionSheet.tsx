@@ -730,10 +730,10 @@ case 32:
             var21 = var21.t;
             if(var27) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
-            var30 = var21./cZp5s;
+            var30 = var21["/cZp5s"];
             _fun0002_ip = 35; continue _fun0002;
 case 33:
-            var30 = var21.8F+WNz;
+            var30 = var21["8F+WNz"];
 case 35:
             var21 = {};
             var35 = _closure1_slot1;

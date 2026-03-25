@@ -196,7 +196,7 @@ case 7:
             var2 = var2.t;
             if(var6) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var6 = var2.0Dx29f;
+            var6 = var2["0Dx29f"];
             var11 = var3.bind(var4)(var6);
             _fun0001_ip = 10; continue _fun0001;
 case 8:
@@ -302,7 +302,7 @@ case 10:
             var14 = var16[var14];
             var14 = var15.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.2u6ZlY;
+            var14 = var14["2u6ZlY"];
             var14 = var17.bind(var18)(var14);
             var10['text'] = var14;
             var14 = 20;

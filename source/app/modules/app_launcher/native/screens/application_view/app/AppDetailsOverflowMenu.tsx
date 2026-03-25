@@ -115,7 +115,7 @@ case 7:
             var4 = var9[var4];
             var4 = var8.bind(var5)(var4);
             var4 = var4.t;
-            var4 = var4.+NP/b2;
+            var4 = var4["+NP/b2"];
             var4 = var10.bind(var11)(var4);
             var1['label'] = var4;
             var4 = function action() {

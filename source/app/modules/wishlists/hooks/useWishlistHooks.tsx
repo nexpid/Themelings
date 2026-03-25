@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -1031,22 +1031,21 @@ case 69:
             var _closure2_slot2 = var5;
             var _closure2_slot3 = var10;
             var _closure2_slot4 = var10;
-            var4 = _closure1_slot0;
+            var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 10;
             var3 = var6[var3];
-            var6 = var4.bind(var10)(var3);
-            var4 = var6.useIsUserSocialLayerStorefrontEligibleInProfile;
+            var4 = var4.bind(var10)(var3);
             var3 = {};
             var7 = null;
-            var12 = var7 == var8;
-            var11 = undefined;
-            if(var12) { _fun0020_ip = 93; continue _fun0020 }
+            var11 = var7 == var8;
+            var6 = undefined;
+            if(var11) { _fun0020_ip = 93; continue _fun0020 }
 case 94:
-            var11 = var8.id;
+            var6 = var8.id;
 case 93:
-            var3['userId'] = var11;
-            var6 = var4.bind(var6)(var3);
+            var3['userId'] = var6;
+            var6 = var4.bind(var10)(var3);
             _closure2_slot3 = var6;
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -1087,24 +1086,24 @@ case 95:
             var3 = {};
             var13 = var7 != var12;
             var11 = null;
-            if(!var13) { _fun0020_ip = 96; continue _fun0020 }
-case 97:
+            if(!var13) { _fun0020_ip = 19; continue _fun0020 }
+case 96:
             var11 = null;
-            if(!var9) { _fun0020_ip = 96; continue _fun0020 }
-case 98:
+            if(!var9) { _fun0020_ip = 19; continue _fun0020 }
+case 97:
             var13 = var7 != var8;
             var11 = null;
-            if(!var13) { _fun0020_ip = 96; continue _fun0020 }
-case 99:
+            if(!var13) { _fun0020_ip = 19; continue _fun0020 }
+case 98:
             var11 = var12;
-case 96:
+case 19:
             var3['wishlistId'] = var11;
             var11 = var7 == var8;
             var7 = undefined;
-            if(var11) { _fun0020_ip = 100; continue _fun0020 }
-case 101:
-            var7 = var8.id;
+            if(var11) { _fun0020_ip = 99; continue _fun0020 }
 case 100:
+            var7 = var8.id;
+case 99:
             var3['userId'] = var7;
             var3 = var4.bind(var10)(var3);
             var7 = var3.wishlist;
@@ -1136,23 +1135,25 @@ case 47:
                     var2 = null;
                     var1 = var2 != var3;
 case 70:
-                    if(!var1) { _fun0022_ip = 102; continue _fun0022 }
-case 103:
-                    var2 = _closure2_slot4;
-                    var3 = var2.length;
-                    var2 = 0;
-                    var2 = var3 > var2;
-                    if(var2) { _fun0022_ip = 7; continue _fun0022 }
-case 104:
-                    var3 = _closure2_slot2;
-                    if(!var3) { _fun0022_ip = 105; continue _fun0022 }
-case 106:
-                    var3 = _closure2_slot3;
-case 105:
-                    var2 = var3;
-case 7:
-                    var1 = var2;
+                    if(!var1) { _fun0022_ip = 101; continue _fun0022 }
 case 102:
+                    var2 = _closure2_slot4;
+                    var2 = var2.length;
+                    var5 = 0;
+                    var2 = var2 > var5;
+                    if(var2) { _fun0022_ip = 35; continue _fun0022 }
+case 103:
+                    var3 = _closure2_slot2;
+                    if(!var3) { _fun0022_ip = 30; continue _fun0022 }
+case 104:
+                    var4 = _closure2_slot3;
+                    var4 = var4.length;
+                    var3 = var4 > var5;
+case 30:
+                    var2 = var3;
+case 35:
+                    var1 = var2;
+case 101:
                     return var1;
                 }
             };

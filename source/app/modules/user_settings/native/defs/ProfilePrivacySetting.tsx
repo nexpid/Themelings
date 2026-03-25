@@ -205,7 +205,7 @@ case 2:
         var7 = var6[var7];
         var7 = var5.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.4jnKHu;
+        var7 = var7["4jnKHu"];
         var7 = var8.bind(var9)(var7);
         var2['subLabel'] = var7;
         var3 = var6[var3];

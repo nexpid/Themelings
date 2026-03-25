@@ -582,7 +582,7 @@ case 58:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.1hvuGH;
+            var2 = var2["1hvuGH"];
             var3 = var3.bind(var4)(var2);
             var2 = var3.toLowerCase;
             var2 = var2.bind(var3)();
@@ -627,7 +627,7 @@ case 0:
             var9 = var3.t;
             if(var2) { _fun0008_ip = 61; continue _fun0008 }
 case 62:
-            var3 = var9.9jYwjo;
+            var3 = var9["9jYwjo"];
             _fun0008_ip = 63; continue _fun0008;
 case 61:
             var3 = var9.eYDA7D;
@@ -673,7 +673,7 @@ case 68:
             var3 = var9.a9PIyD;
             _fun0008_ip = 56; continue _fun0008;
 case 67:
-            var3 = var9.6uPZV1;
+            var3 = var9["6uPZV1"];
 case 56:
             var3 = var4.bind(var6)(var3);
             var1['confirmText'] = var3;
@@ -767,7 +767,7 @@ case 68:
             var3 = var9.WRrDtI;
             _fun0009_ip = 56; continue _fun0009;
 case 67:
-            var3 = var9.4DM5HJ;
+            var3 = var9["4DM5HJ"];
 case 56:
             var3 = var4.bind(var6)(var3);
             var1['confirmText'] = var3;

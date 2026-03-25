@@ -236,7 +236,7 @@ case 26:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.5spYuX;
+            var2 = var2["5spYuX"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 24:
@@ -334,7 +334,7 @@ case 17:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.75sx1S;
+            var2 = var2["75sx1S"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 16:

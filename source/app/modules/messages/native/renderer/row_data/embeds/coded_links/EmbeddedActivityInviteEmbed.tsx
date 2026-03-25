@@ -179,7 +179,7 @@ case 21:
             var3 = var3[var9];
             var3 = var10.bind(var8)(var3);
             var3 = var3.t;
-            var3 = var3.1qHIZ4;
+            var3 = var3["1qHIZ4"];
             var12 = var6.bind(var7)(var3);
             var3 = var1 != var19;
             var11 = null;

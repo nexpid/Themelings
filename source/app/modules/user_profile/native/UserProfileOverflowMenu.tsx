@@ -634,7 +634,7 @@ case 63:
             var21 = var23.bind(var24)(var21);
             _fun0001_ip = 64; continue _fun0001;
 case 62:
-            var22 = var22.8pOYUE;
+            var22 = var22["8pOYUE"];
             var21 = var23.bind(var24)(var22);
 case 64:
             var19['label'] = var21;
@@ -693,7 +693,7 @@ case 67:
             var20 = var24[var20];
             var20 = var23.bind(var5)(var20);
             var20 = var20.t;
-            var20 = var20.8wXU9B;
+            var20 = var20["8wXU9B"];
             var20 = var21.bind(var22)(var20);
             var15['label'] = var20;
             var20 = function action() {
@@ -1300,7 +1300,7 @@ case 108:
             var14 = var14.t;
             if(var17) { _fun0001_ip = 109; continue _fun0001 }
 case 110:
-            var17 = var14./AXYnE;
+            var17 = var14["/AXYnE"];
             var17 = var15.bind(var16)(var17);
             var12['label'] = var17;
             var17 = function action() {
@@ -1400,7 +1400,7 @@ case 0:
                     var7 = var7[var10];
                     var7 = var11.bind(var1)(var7);
                     var7 = var7.t;
-                    var7 = var7./AXYnE;
+                    var7 = var7["/AXYnE"];
                     var7 = var8.bind(var9)(var7);
                     var3['label'] = var7;
                     var7 = function onPress() {
@@ -1688,7 +1688,7 @@ case 121:
                 var5 = var9[var5];
                 var5 = var6.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.+zofAD;
+                var5 = var5["+zofAD"];
                 var10 = var10.bind(var11)(var5);
                 var5 = 'accessibilityLabel';
                 var1[var5] = var10;

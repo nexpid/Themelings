@@ -278,7 +278,7 @@ case 11:
                     var1 = var8[var1];
                     var1 = var7.bind(var6)(var1);
                     var1 = var1.t;
-                    var1 = var1.+5kSoW;
+                    var1 = var1["+5kSoW"];
                     var1 = var4.bind(var5)(var1);
                     var1 = var2.bind(var3)(var1);
 case 10:

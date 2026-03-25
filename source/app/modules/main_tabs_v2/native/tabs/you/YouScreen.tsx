@@ -1295,7 +1295,7 @@ case 94:
             var46 = var54[var39];
             var46 = var49.bind(var4)(var46);
             var46 = var46.t;
-            var46 = var46.13/7kX;
+            var46 = var46["13/7kX"];
             var46 = var51.bind(var55)(var46);
             var25['accessibilityLabel'] = var46;
             var46 = function onPress() {
@@ -1426,7 +1426,7 @@ case 103:
             var52 = var60[var39];
             var52 = var61.bind(var4)(var52);
             var52 = var52.t;
-            var52 = var52.3fzj/l;
+            var52 = var52["3fzj/l"];
             var52 = var54.bind(var55)(var52);
             var48['accessibilityLabel'] = var52;
             var55 = _closure1_slot23;
@@ -1566,7 +1566,7 @@ case 115:
             var39 = var40[var39];
             var39 = var38.bind(var4)(var39);
             var39 = var39.t;
-            var39 = var39.13/7kX;
+            var39 = var39["13/7kX"];
             var39 = var41.bind(var42)(var39);
             var27['accessibilityLabel'] = var39;
             var37 = function onPress() {

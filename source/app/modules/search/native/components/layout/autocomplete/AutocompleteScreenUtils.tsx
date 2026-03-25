@@ -149,7 +149,7 @@ case 7:
             var2 = var2[var8];
             var2 = var7.bind(var3)(var2);
             var2 = var2.t;
-            var2 = var2.20uQR3;
+            var2 = var2["20uQR3"];
             var2 = var5.bind(var6)(var2);
             if(!(var2 !== var4)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:

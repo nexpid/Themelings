@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -304,7 +304,7 @@ case 43:
             var15 = var22[var15];
             var15 = var19.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.2aFeef;
+            var15 = var15["2aFeef"];
             var15 = var17.bind(var18)(var15);
             var10['children'] = var15;
             var10 = var14.bind(var4)(var12, var10);

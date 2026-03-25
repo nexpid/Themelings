@@ -165,7 +165,7 @@ case 4:
     var9 = var6.bind(var1)(var5);
     var8 = var9.createLegacyClassComponentStyles;
     var5 = {};
-    var10 = {'height': 16, 'width': 16, 'opacity': 0.6};
+    var10 = {'height': 16, 'width': 16};
     var5['channelIcon'] = var10;
     var10 = {'fontSize': 12, 'color': null, 'marginTop': 4};
     var11 = 20;
@@ -1022,7 +1022,7 @@ case 37:
                 var1 = var12[var1];
                 var1 = var7.bind(var10)(var1);
                 var1 = var1.t;
-                var1 = var1.8wbTQ6;
+                var1 = var1["8wbTQ6"];
                 var1 = var13.bind(var14)(var1);
                 var3['helperText'] = var1;
                 var1 = 40;
@@ -1275,7 +1275,7 @@ case 52:
                 var3 = var12[var3];
                 var3 = var11.bind(var5)(var3);
                 var3 = var3.t;
-                var3 = var3.6fQPhu;
+                var3 = var3["6fQPhu"];
                 var10 = var4.bind(var9)(var3);
                 _fun0008_ip = 53; continue _fun0008;
 case 50:

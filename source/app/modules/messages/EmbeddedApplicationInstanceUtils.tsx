@@ -227,7 +227,7 @@ case 16:
             var1 = var1[var7];
             var1 = var10.bind(var3)(var1);
             var1 = var1.t;
-            var1 = var1.4WuFRE;
+            var1 = var1["4WuFRE"];
             var8 = var6.bind(var9)(var1);
             _fun0001_ip = 30; continue _fun0001;
 case 14:

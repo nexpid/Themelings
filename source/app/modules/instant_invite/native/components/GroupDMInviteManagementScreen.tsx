@@ -316,7 +316,7 @@ case 15:
             var8 = var11[var7];
             var8 = var10.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.+nLJkZ;
+            var8 = var8["+nLJkZ"];
             var8 = var9.bind(var12)(var8);
             var3['title'] = var8;
             var8 = var11[var7];

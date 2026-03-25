@@ -808,7 +808,7 @@ case 65:
             var13 = var17[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.t;
-            var14 = var13.8zbGNR;
+            var14 = var13["8zbGNR"];
             var13 = {};
             var17 = global;
             var17 = var17.Date;

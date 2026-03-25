@@ -223,7 +223,7 @@ case 7:
             var1 = var1.t;
             if(var5) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var5 = var1.7RYWCP;
+            var5 = var1["7RYWCP"];
             var18 = var2.bind(var3)(var5);
             _fun0001_ip = 10; continue _fun0001;
 case 8:
@@ -403,7 +403,7 @@ case 13:
                     var12 = var12.t;
                     if(var11) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-                    var11 = var12.7RYWCP;
+                    var11 = var12["7RYWCP"];
                     var11 = var13.bind(var14)(var11);
                     _fun0002_ip = 20; continue _fun0002;
 case 18:

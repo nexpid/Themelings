@@ -188,7 +188,7 @@ case 17:
             var4 = 10;
             var4 = var9[var4];
             var4 = var8.bind(var7)(var4);
-            var4 = var4./fHz9S;
+            var4 = var4["/fHz9S"];
             var4 = var5.bind(var6)(var4);
             var1['content'] = var4;
             var1 = var2.bind(var3)(var1);

@@ -87,7 +87,7 @@ case 9:
                 var4 = 4;
                 var4 = var7[var4];
                 var4 = var10.bind(var6)(var4);
-                var4 = var4./iXnwU;
+                var4 = var4["/iXnwU"];
                 var4 = var8.bind(var9)(var4);
                 var1['content'] = var4;
                 var4 = 5;

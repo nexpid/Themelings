@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var8[var7];
         var7 = var11.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.5MstTl;
+        var7 = var7["5MstTl"];
         var7 = var9.bind(var10)(var7);
         var1['accessibilityLabel'] = var7;
         var7 = _closure1_slot1;
@@ -358,7 +358,7 @@ case 7:
             var19 = var16[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19./VQax8;
+            var19 = var19["/VQax8"];
             var19 = var20.bind(var21)(var19);
             var9['title'] = var19;
             var19 = true;

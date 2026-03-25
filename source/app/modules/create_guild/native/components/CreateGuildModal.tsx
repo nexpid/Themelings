@@ -200,7 +200,7 @@ case 2:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.5HZu07;
+                var5 = var5["5HZu07"];
                 var6 = var6.bind(var7)(var5);
                 var5 = 'customTitle';
                 var1[var5] = var6;
@@ -593,7 +593,7 @@ case 14:
         var6 = var10[var6];
         var6 = var9.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.13/7kX;
+        var6 = var6["13/7kX"];
         var6 = var7.bind(var8)(var6);
         var1['headerBackTitle'] = var6;
         var5 = _closure1_slot4;

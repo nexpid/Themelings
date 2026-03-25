@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var13[var9];
         var15 = var12.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15.06YebE;
+        var15 = var15["06YebE"];
         var15 = var16.bind(var17)(var15);
         var8['children'] = var15;
         var8 = var14.bind(var4)(var11, var8);
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var12[var7];
         var10 = var11.bind(var9)(var10);
         var10 = var10.t;
-        var10 = var10.3PatSz;
+        var10 = var10["3PatSz"];
         var10 = var13.bind(var14)(var10);
         var1['confirmText'] = var10;
         var1['onCancel'] = var8;

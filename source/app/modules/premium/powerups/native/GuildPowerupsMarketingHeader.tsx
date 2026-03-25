@@ -197,7 +197,7 @@ case 10:
             var20 = 12;
             var8 = var8[var20];
             var8 = var9.bind(var4)(var8);
-            var9 = var8.7lwpzR;
+            var9 = var8["7lwpzR"];
             var8 = {};
             var12 = '';
             if(!(var4 !== var17)) { _fun0001_ip = 11; continue _fun0001 }

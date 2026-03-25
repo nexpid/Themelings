@@ -546,7 +546,7 @@ case 14:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.1a5rjl;
+        var1 = var1["1a5rjl"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -570,7 +570,7 @@ case 14:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.6PV6Qc;
+        var1 = var1["6PV6Qc"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -890,7 +890,7 @@ case 14:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.1a5rjl;
+        var1 = var1["1a5rjl"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -913,7 +913,7 @@ case 14:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.6PV6Qc;
+        var1 = var1["6PV6Qc"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1230,7 +1230,7 @@ case 14:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.1a5rjl;
+        var1 = var1["1a5rjl"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1254,7 +1254,7 @@ case 14:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.6PV6Qc;
+        var1 = var1["6PV6Qc"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1773,11 +1773,11 @@ case 36:
             var18 = var18.t;
             if(var17) { _fun0004_ip = 37; continue _fun0004 }
 case 38:
-            var17 = var18.9JbE3J;
+            var17 = var18["9JbE3J"];
             var17 = var19.bind(var20)(var17);
             _fun0004_ip = 39; continue _fun0004;
 case 37:
-            var18 = var18.9NBo7c;
+            var18 = var18["9NBo7c"];
             var17 = var19.bind(var20)(var18);
 case 39:
             var13['children'] = var17;

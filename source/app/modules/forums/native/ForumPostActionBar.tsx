@@ -343,7 +343,7 @@ case 9:
             var27 = var25[var21];
             var27 = var24.bind(var4)(var27);
             var27 = var27.t;
-            var27 = var27.0rQinA;
+            var27 = var27["0rQinA"];
             var27 = var28.bind(var29)(var27);
             var22['children'] = var27;
             var22 = var26.bind(var4)(var23, var22);

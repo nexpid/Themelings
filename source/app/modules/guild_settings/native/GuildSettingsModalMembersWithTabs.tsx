@@ -143,7 +143,7 @@ case 0:
                     var5 = var3[var12];
                     var5 = var4.bind(var6)(var5);
                     var5 = var5.t;
-                    var5 = var5.4eQVBO;
+                    var5 = var5["4eQVBO"];
                     var5 = var9.bind(var10)(var5);
                     var2['label'] = var5;
                     var3 = var3[var11];

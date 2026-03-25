@@ -294,7 +294,7 @@ case 29:
             var11 = var10[var8];
             var11 = var9.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11./wnvqA;
+            var11 = var11["/wnvqA"];
             var7['days'] = var11;
             var11 = var10[var8];
             var11 = var9.bind(var4)(var11);

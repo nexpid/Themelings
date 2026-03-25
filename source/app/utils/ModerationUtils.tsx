@@ -240,7 +240,7 @@ case 18:
             var7 = var7[var10];
             var7 = var11.bind(var6)(var7);
             var7 = var7.t;
-            var7 = var7.8GCOX6;
+            var7 = var7["8GCOX6"];
             var7 = var8.bind(var9)(var7);
             var2['desc'] = var7;
             var3 = var3.LOW;
@@ -458,7 +458,7 @@ case 27:
             var8 = var7.t;
             if(var4) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
-            var7 = var8.3fRIN4;
+            var7 = var8["3fRIN4"];
             var7 = var9.bind(var10)(var7);
             _fun0003_ip = 31; continue _fun0003;
 case 29:
@@ -586,7 +586,7 @@ case 27:
             var6 = var5.t;
             if(var3) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
-            var5 = var6.3fRIN4;
+            var5 = var6["3fRIN4"];
             var5 = var7.bind(var8)(var5);
             _fun0004_ip = 37; continue _fun0004;
 case 35:
@@ -653,7 +653,7 @@ case 40:
         var1 = var6[var7];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.4IaoCI;
+        var1 = var1["4IaoCI"];
         var1 = var3.bind(var8)(var1);
         var2['name'] = var1;
         var1 = var6[var7];
@@ -682,7 +682,7 @@ case 40:
         var8 = var6[var7];
         var8 = var5.bind(var4)(var8);
         var8 = var8.t;
-        var8 = var8.6NnX6F;
+        var8 = var8["6NnX6F"];
         var8 = var9.bind(var10)(var8);
         var2['name'] = var8;
         var8 = var6[var7];
@@ -692,7 +692,7 @@ case 40:
         var8 = var6[var7];
         var8 = var5.bind(var4)(var8);
         var8 = var8.t;
-        var8 = var8.+dw1qu;
+        var8 = var8["+dw1qu"];
         var8 = var9.bind(var10)(var8);
         var2['desc'] = var8;
         var8 = var6[var3];
@@ -709,7 +709,7 @@ case 40:
         var8 = var6[var7];
         var8 = var5.bind(var4)(var8);
         var8 = var8.t;
-        var8 = var8.1tiAFz;
+        var8 = var8["1tiAFz"];
         var8 = var9.bind(var10)(var8);
         var2['name'] = var8;
         var8 = var6[var7];
@@ -777,7 +777,7 @@ case 40:
         var9 = var6[var8];
         var9 = var5.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.8ioJ4S;
+        var9 = var9["8ioJ4S"];
         var9 = var10.bind(var11)(var9);
         var2['name'] = var9;
         var9 = var6[var8];

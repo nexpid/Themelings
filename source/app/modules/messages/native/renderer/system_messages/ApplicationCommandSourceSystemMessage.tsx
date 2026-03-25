@@ -86,7 +86,7 @@ case 6:
             var6 = var14[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.t;
-            var7 = var6.1Zm+zw;
+            var7 = var6["1Zm+zw"];
             var6 = {};
             var6['username'] = var13;
             var13 = {};

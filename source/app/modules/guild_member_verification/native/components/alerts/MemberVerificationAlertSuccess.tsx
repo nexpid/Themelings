@@ -203,7 +203,7 @@ case 4:
             var15 = var14[var10];
             var15 = var13.bind(var5)(var15);
             var15 = var15.t;
-            var16 = var15.7hhNEn;
+            var16 = var15["7hhNEn"];
             var15 = {};
             var19 = var19.name;
             var15['guildName'] = var19;

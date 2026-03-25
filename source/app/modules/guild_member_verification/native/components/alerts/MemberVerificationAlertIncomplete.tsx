@@ -175,7 +175,7 @@ case 7:
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.0sTyEb;
+            var1 = var1["0sTyEb"];
             var7 = var2.bind(var3)(var1);
             _fun0001_ip = 8; continue _fun0001;
 case 6:

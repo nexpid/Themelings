@@ -128,7 +128,7 @@ case 16:
             var4 = var10[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.7xtz4G;
+            var4 = var4["7xtz4G"];
             var4 = var5.bind(var6)(var4);
             var1['title'] = var4;
             var4 = var2.url;

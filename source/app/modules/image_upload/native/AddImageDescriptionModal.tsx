@@ -434,7 +434,7 @@ case 9:
         var6 = var10[var6];
         var6 = var9.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.5S2AK+;
+        var6 = var6["5S2AK+"];
         var6 = var7.bind(var8)(var6);
         var1['title'] = var6;
         var5 = function render() {

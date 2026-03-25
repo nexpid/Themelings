@@ -250,7 +250,7 @@ case 28:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.24PAJ+;
+            var2 = var2["24PAJ+"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 26:
@@ -390,7 +390,7 @@ case 8:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.9UAXh4;
+            var2 = var2["9UAXh4"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 6:
@@ -418,7 +418,7 @@ case 4:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.0QUDYf;
+            var2 = var2["0QUDYf"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 2:

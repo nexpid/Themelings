@@ -1116,7 +1116,7 @@ case 46:
                         var7 = var18[var11];
                         var7 = var12.bind(var6)(var7);
                         var7 = var7.t;
-                        var8 = var7.6p0yBo;
+                        var8 = var7["6p0yBo"];
                         var7 = {};
                         var20 = var18[var15];
                         var21 = var16.bind(var6)(var20);
@@ -1207,7 +1207,7 @@ case 46:
                         var11 = var18[var11];
                         var11 = var12.bind(var6)(var11);
                         var11 = var11.t;
-                        var12 = var11.6p0yBo;
+                        var12 = var11["6p0yBo"];
                         var11 = {};
                         var15 = var18[var15];
                         var16 = var16.bind(var6)(var15);

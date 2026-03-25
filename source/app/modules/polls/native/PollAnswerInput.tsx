@@ -580,7 +580,7 @@ case 15:
             var20 = var20[var15];
             var20 = var23.bind(var4)(var20);
             var20 = var20.t;
-            var24 = var20.3+V8G9;
+            var24 = var20["3+V8G9"];
             var23 = {};
             var20 = 1;
             var27 = var22 + var20;
@@ -645,7 +645,7 @@ case 36:
             var15 = var21[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15.22fjEc;
+            var16 = var15["22fjEc"];
             var15 = {};
             var20 = var22 + var20;
             var15['answerNumber'] = var20;

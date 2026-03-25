@@ -1271,7 +1271,7 @@ case 52:
                         var4 = var8.fetchDehydrated;
                         var3 = {'isReloading': true, 'forceRefresh': true};
                         var3 = var4.bind(var8)(var3);
-                        SaveGenerator(address=343);
+                        SaveGenerator(address=347);
 case 54:
                         return var3;
 case 55:
@@ -1284,7 +1284,7 @@ case 57:
                         var8 = var8.bind(var5)(var4);
                         var4 = var8.reloadICYMITab;
                         var4 = var4.bind(var8)();
-                        SaveGenerator(address=383);
+                        SaveGenerator(address=387);
 case 58:
                         return var4;
 case 59:
@@ -1419,7 +1419,7 @@ case 22:
             var19 = var27[var18];
             var19 = var17.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.19ldCF;
+            var19 = var19["19ldCF"];
             var19 = var25.bind(var28)(var19);
             var5['children'] = var19;
             var9 = var14.bind(var4)(var9, var5);

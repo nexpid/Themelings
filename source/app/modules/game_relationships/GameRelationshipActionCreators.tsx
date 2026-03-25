@@ -39,7 +39,7 @@ case 0:
             var7 = var7[var10];
             var7 = var11.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.328j/I;
+            var7 = var7["328j/I"];
             var7 = var8.bind(var9)(var7);
             var2['title'] = var7;
             var7 = null;

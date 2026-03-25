@@ -342,7 +342,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var9[var2];
                 var2 = var8.bind(var7)(var2);
                 var2 = var2.t;
-                var2 = var2.3D5yo/;
+                var2 = var2["3D5yo/"];
                 var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
                 var1['tabBarLabel'] = var2;
@@ -520,7 +520,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var9[var2];
                 var2 = var8.bind(var7)(var2);
                 var2 = var2.t;
-                var2 = var2.4nEZLk;
+                var2 = var2["4nEZLk"];
                 var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
                 var1['tabBarLabel'] = var2;

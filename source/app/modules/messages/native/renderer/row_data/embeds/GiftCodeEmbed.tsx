@@ -472,7 +472,7 @@ case 48:
                     var5 = var13[var5];
                     var5 = var10.bind(var8)(var5);
                     var5 = var5.t;
-                    var5 = var5./cg57l;
+                    var5 = var5["/cg57l"];
                     var16 = var7.bind(var9)(var5);
 case 54:
                     var5 = var2.giftStyle;

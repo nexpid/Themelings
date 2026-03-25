@@ -420,7 +420,7 @@ case 0:
                     var9 = var11[var6];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.20dvuQ;
+                    var9 = var9["20dvuQ"];
                     var9 = var12.bind(var13)(var9);
                     var5['subLabel'] = var9;
                     var4[5] = var5;
@@ -432,7 +432,7 @@ case 0:
                     var9 = var11[var6];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.29xPVZ;
+                    var9 = var9["29xPVZ"];
                     var9 = var12.bind(var13)(var9);
                     var5['label'] = var9;
                     var12 = var8.STICKER_AUTOCOMPLETE;
@@ -446,7 +446,7 @@ case 0:
                     var9 = var11[var6];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9./eVrj8;
+                    var9 = var9["/eVrj8"];
                     var9 = var12.bind(var13)(var9);
                     var5['subLabel'] = var9;
                     var4[6] = var5;
@@ -458,7 +458,7 @@ case 0:
                     var9 = var11[var6];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.4NDJgM;
+                    var9 = var9["4NDJgM"];
                     var9 = var12.bind(var13)(var9);
                     var5['label'] = var9;
                     var12 = var8.SWIPE_RIGHT_TO_LEFT;

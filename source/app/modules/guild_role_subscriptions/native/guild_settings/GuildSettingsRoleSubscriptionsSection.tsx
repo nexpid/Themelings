@@ -66,7 +66,7 @@ case 0:
             var5 = var20[var14];
             var5 = var16.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5./CfKoD;
+            var5 = var5["/CfKoD"];
             var5 = var12.bind(var15)(var5);
             var8['label'] = var5;
             var12 = true;

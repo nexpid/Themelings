@@ -54,7 +54,7 @@ case 4:
             var1 = var10[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.6anton;
+            var1 = var1["6anton"];
             var9 = var2.bind(var3)(var1);
             var8 = var7.headerStatusTrial;
             var11 = true;
@@ -70,7 +70,7 @@ case 2:
             var1 = var10[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.7uFZGt;
+            var1 = var1["7uFZGt"];
             var9 = var2.bind(var3)(var1);
             var8 = var7.headerStatusCancel;
             var11 = true;
@@ -694,7 +694,7 @@ case 39:
             var9 = var28[var30];
             var9 = var32.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.4neDM+;
+            var9 = var9["4neDM+"];
             var9 = var10.bind(var11)(var9);
             var6['title'] = var9;
             var11 = _closure1_slot11;
@@ -732,7 +732,7 @@ case 39:
             var29 = var28[var30];
             var29 = var32.bind(var4)(var29);
             var29 = var29.t;
-            var29 = var29.7spYft;
+            var29 = var29["7spYft"];
             var29 = var31.bind(var33)(var29);
             var15['text'] = var29;
             var29 = function onPress() {

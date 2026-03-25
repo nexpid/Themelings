@@ -161,7 +161,7 @@ case 8:
                 var3 = var8[var3];
                 var3 = var7.bind(var6)(var3);
                 var3 = var3.t;
-                var3 = var3.8lQ2rR;
+                var3 = var3["8lQ2rR"];
                 var4 = var4.bind(var5)(var3);
                 var3 = var4.toUpperCase;
                 var3 = var3.bind(var4)();

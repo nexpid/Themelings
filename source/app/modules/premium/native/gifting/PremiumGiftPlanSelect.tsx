@@ -1128,7 +1128,7 @@ case 40:
             var34 = var34[var40];
             var34 = var37.bind(var5)(var34);
             var34 = var34.t;
-            var34 = var34.30qzrd;
+            var34 = var34["30qzrd"];
             var34 = var35.bind(var36)(var34);
             var31['children'] = var34;
             var31 = var33.bind(var5)(var32, var31);

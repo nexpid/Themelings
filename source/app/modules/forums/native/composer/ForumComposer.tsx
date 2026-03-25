@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -562,7 +562,7 @@ case 64:
             var23 = var25[var23];
             var23 = var24.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.112vVE;
+            var23 = var23["112vVE"];
             var23 = var26.bind(var27)(var23);
             var12['accessibilityLabel'] = var23;
             var26 = var13.actionButton;
@@ -3020,7 +3020,7 @@ case 225:
             var56 = var56[var50];
             var56 = var57.bind(var5)(var56);
             var56 = var56.t;
-            var57 = var56.6Y1Kev;
+            var57 = var56["6Y1Kev"];
             var56 = {};
             var60 = var32.name;
             var56['channelName'] = var60;
@@ -3071,7 +3071,7 @@ case 231:
             var50 = var46[var50];
             var50 = var45.bind(var5)(var50);
             var50 = var50.t;
-            var50 = var50.8IPnv1;
+            var50 = var50["8IPnv1"];
             var50 = var51.bind(var52)(var50);
             var40['placeholder'] = var50;
             var40['placeholderTextColor'] = var49;

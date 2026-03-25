@@ -301,7 +301,7 @@ case 2:
             var21 = var20.t;
             if(var14) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var20 = var21.12Kx2v;
+            var20 = var21["12Kx2v"];
             var20 = var22.bind(var23)(var20);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
@@ -384,7 +384,7 @@ case 11:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.3PatSz;
+            var14 = var14["3PatSz"];
             var14 = var15.bind(var16)(var14);
             var11['text'] = var14;
             var11['onPress'] = var13;

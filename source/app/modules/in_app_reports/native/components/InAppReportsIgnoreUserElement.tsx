@@ -204,7 +204,7 @@ case 7:
             var11 = var14[var10];
             var11 = var13.bind(var5)(var11);
             var11 = var11.t;
-            var12 = var11.264qVM;
+            var12 = var11["264qVM"];
             var11 = {};
             var11['username'] = var17;
             var11 = var15.bind(var16)(var12, var11);

@@ -616,7 +616,7 @@ case 26:
             var23 = var22[var23];
             var23 = var26.bind(var5)(var23);
             var23 = var23.t;
-            var23 = var23.4i2vj+;
+            var23 = var23["4i2vj+"];
             var23 = var24.bind(var25)(var23);
             var17['text'] = var23;
             var20 = var22[var20];

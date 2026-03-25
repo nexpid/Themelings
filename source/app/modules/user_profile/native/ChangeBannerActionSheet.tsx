@@ -551,7 +551,7 @@ case 28:
             var34 = var33.t;
             if(var13) { _fun0003_ip = 30; continue _fun0003 }
 case 31:
-            var33 = var34.70CYsY;
+            var33 = var34["70CYsY"];
             var33 = var35.bind(var36)(var33);
             _fun0003_ip = 32; continue _fun0003;
 case 30:

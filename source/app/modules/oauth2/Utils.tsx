@@ -53,10 +53,10 @@ case 8:
             var2 = var2.t;
             if(var4) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var8 = var2.3Ywek3;
+            var8 = var2["3Ywek3"];
             _fun0001_ip = 11; continue _fun0001;
 case 9:
-            var8 = var2.8LemYv;
+            var8 = var2["8LemYv"];
 case 11:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;

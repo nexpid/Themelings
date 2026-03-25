@@ -98,7 +98,7 @@ case 2:
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
             var5 = var5.t;
-            var5 = var5.3wRort;
+            var5 = var5["3wRort"];
             var5 = var6.bind(var10)(var5);
             var2['label'] = var5;
             var5 = _closure1_slot7;
@@ -116,7 +116,7 @@ case 2:
             var5 = var4[var9];
             var5 = var7.bind(var8)(var5);
             var5 = var5.t;
-            var6 = var5.0aNQo9;
+            var6 = var5["0aNQo9"];
             var5 = {};
             var13 = _closure1_slot1;
             var12 = 9;
@@ -197,7 +197,7 @@ case 2:
             var4 = var4[var9];
             var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.+KNdnt;
+            var4 = var4["+KNdnt"];
             var4 = var5.bind(var6)(var4);
             var2['label'] = var4;
             var3 = _closure1_slot7;
@@ -653,7 +653,7 @@ case 0:
                 var6 = var11[var6];
                 var6 = var10.bind(var9)(var6);
                 var6 = var6.t;
-                var6 = var6.4NN4+/;
+                var6 = var6["4NN4+/"];
                 var6 = var7.bind(var8)(var6);
                 var5['subLabel'] = var6;
                 var4[1] = var5;
@@ -701,7 +701,7 @@ case 11:
             var14 = var18[var12];
             var14 = var13.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.+0U77d;
+            var14 = var14["+0U77d"];
             var14 = var15.bind(var16)(var14);
             var8['children'] = var14;
             var10 = var11.bind(var5)(var10, var8);

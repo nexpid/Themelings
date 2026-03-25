@@ -565,7 +565,7 @@ case 48:
                 var8 = var12[var8];
                 var8 = var11.bind(var4)(var8);
                 var8 = var8.t;
-                var8 = var8.3foUu5;
+                var8 = var8["3foUu5"];
                 var8 = var9.bind(var10)(var8);
                 var2['label'] = var8;
                 var8 = _closure2_slot11;

@@ -105,7 +105,7 @@ case 13:
             var3 = var10[var3];
             var3 = var4.bind(var6)(var3);
             var3 = var3.t;
-            var4 = var3.3PJw6c;
+            var4 = var3["3PJw6c"];
             var3 = {};
             var3['numReferrals'] = var8;
             var3 = var5.bind(var7)(var4, var3);

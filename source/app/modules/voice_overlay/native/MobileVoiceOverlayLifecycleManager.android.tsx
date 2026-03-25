@@ -64,7 +64,7 @@ case 7:
 case 6:
             if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 8:
             if(var2) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
@@ -378,7 +378,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9./lEZpt;
+    var9 = var9["/lEZpt"];
     var9 = var10.bind(var11)(var9);
     var4['disconnectFromVoice'] = var9;
     var9 = var6[var8];

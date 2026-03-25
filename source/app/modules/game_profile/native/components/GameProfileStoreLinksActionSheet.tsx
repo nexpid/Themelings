@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var21[var16];
         var18 = var17.bind(var4)(var18);
         var18 = var18.t;
-        var18 = var18./4gj6r;
+        var18 = var18["/4gj6r"];
         var18 = var19.bind(var22)(var18);
         var9['children'] = var18;
         var15 = var3.bind(var4)(var15, var9);
@@ -164,7 +164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var21[var16];
         var16 = var17.bind(var4)(var16);
         var16 = var16.t;
-        var17 = var16.0acM2Y;
+        var17 = var16["0acM2Y"];
         var16 = {};
         var16['gameName'] = var20;
         var16 = var18.bind(var19)(var17, var16);

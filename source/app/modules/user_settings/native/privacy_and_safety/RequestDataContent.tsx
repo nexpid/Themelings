@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var15[var11];
         var19 = var14.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.0dO1t+;
+        var19 = var19["0dO1t+"];
         var19 = var20.bind(var21)(var19);
         var13['label'] = var19;
         var13['checked'] = var17;
@@ -496,7 +496,7 @@ case 5:
                         var4 = var9[var4];
                         var4 = var7.bind(var8)(var4);
                         var4 = var4.t;
-                        var4 = var4.0F5Jyt;
+                        var4 = var4["0F5Jyt"];
                         var4 = var5.bind(var6)(var4);
                         var1['body'] = var4;
                         var1 = var2.bind(var3)(var1);
@@ -529,7 +529,7 @@ case 7:
                         var4 = var9[var4];
                         var4 = var7.bind(var8)(var4);
                         var4 = var4.t;
-                        var4 = var4.6Nmv4i;
+                        var4 = var4["6Nmv4i"];
                         var4 = var5.bind(var6)(var4);
                         var1['body'] = var4;
                         var1 = var2.bind(var3)(var1);
@@ -580,7 +580,7 @@ case 16:
                         var2 = var7[var2];
                         var2 = var6.bind(var1)(var2);
                         var2 = var2.t;
-                        var2 = var2.0F5Jyt;
+                        var2 = var2["0F5Jyt"];
                         var5 = var3.bind(var4)(var2);
 case 15:
                         var3 = _closure1_slot1;

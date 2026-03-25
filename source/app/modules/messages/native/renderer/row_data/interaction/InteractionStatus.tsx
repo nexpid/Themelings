@@ -149,7 +149,7 @@ case 4:
             var3 = var9[var3];
             var3 = var4.bind(var7)(var3);
             var3 = var3.t;
-            var4 = var3.7ePV4t;
+            var4 = var3["7ePV4t"];
             var3 = {};
             var8 = var8.author;
             var8 = var8.username;

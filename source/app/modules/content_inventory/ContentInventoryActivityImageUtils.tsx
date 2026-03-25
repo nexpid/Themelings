@@ -62,7 +62,7 @@ case 8:
             var3 = var8[var3];
             var3 = var6.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.2B/phM;
+            var3 = var3["2B/phM"];
             var2 = var4.bind(var5)(var3);
 case 10:
             var1['alt'] = var2;

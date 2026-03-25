@@ -584,7 +584,7 @@ case 53:
             var40 = var44[var40];
             var40 = var43.bind(var6)(var40);
             var40 = var40.t;
-            var40 = var40.6C6PJx;
+            var40 = var40["6C6PJx"];
             var34 = var41.bind(var42)(var40);
 case 55:
             var36['label'] = var34;
@@ -681,7 +681,7 @@ case 64:
             var35 = var35[var40];
             var35 = var39.bind(var6)(var35);
             var35 = var35.t;
-            var35 = var35.8Joh+p;
+            var35 = var35["8Joh+p"];
             var34 = var36.bind(var38)(var35);
 case 63:
             var31['label'] = var34;
@@ -1110,7 +1110,7 @@ case 105:
             var25 = var32[var25];
             var25 = var31.bind(var6)(var25);
             var25 = var25.t;
-            var25 = var25.6QlTeK;
+            var25 = var25["6QlTeK"];
             var25 = var33.bind(var34)(var25);
             var28['label'] = var25;
             var25 = 36;
@@ -1464,7 +1464,7 @@ case 143:
             var16 = var24[var16];
             var16 = var23.bind(var6)(var16);
             var16 = var16.t;
-            var16 = var16./jERiG;
+            var16 = var16["/jERiG"];
             var16 = var21.bind(var22)(var16);
             _fun0001_ip = 144; continue _fun0001;
 case 142:
@@ -1478,7 +1478,7 @@ case 142:
             var21 = var25[var21];
             var21 = var24.bind(var6)(var21);
             var21 = var21.t;
-            var21 = var21.6vrfgt;
+            var21 = var21["6vrfgt"];
             var16 = var22.bind(var23)(var21);
 case 144:
             var18['label'] = var16;
@@ -1536,7 +1536,7 @@ case 146:
             var15 = var21[var15];
             var15 = var20.bind(var6)(var15);
             var15 = var15.t;
-            var15 = var15.3glT6Z;
+            var15 = var15["3glT6Z"];
             var15 = var22.bind(var23)(var15);
             var17['label'] = var15;
             var15 = 45;
@@ -1596,7 +1596,7 @@ case 148:
             var14 = var20[var14];
             var14 = var19.bind(var6)(var14);
             var14 = var14.t;
-            var14 = var14.5MBJ5M;
+            var14 = var14["5MBJ5M"];
             var14 = var21.bind(var22)(var14);
             var16['label'] = var14;
             var14 = 47;
@@ -1661,7 +1661,7 @@ case 156:
             var12 = var5.bind(var7)(var10);
             _fun0001_ip = 157; continue _fun0001;
 case 155:
-            var3 = var3.6+b8ae;
+            var3 = var3["6+b8ae"];
             var12 = var5.bind(var7)(var3);
 case 157:
             var3 = var9.push;

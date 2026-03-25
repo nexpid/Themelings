@@ -696,7 +696,7 @@ case 30:
             var37 = var37[var40];
             var37 = var41.bind(var4)(var37);
             var37 = var37.t;
-            var37 = var37.2MhjUV;
+            var37 = var37["2MhjUV"];
             var37 = var38.bind(var39)(var37);
             var31['text'] = var37;
             var34 = var36.bind(var4)(var35, var31);
@@ -723,7 +723,7 @@ case 32:
             var36 = var36[var40];
             var36 = var39.bind(var4)(var36);
             var36 = var36.t;
-            var36 = var36.4PGeGA;
+            var36 = var36["4PGeGA"];
             var36 = var37.bind(var38)(var36);
             var33['text'] = var36;
             var36 = function onPress() {

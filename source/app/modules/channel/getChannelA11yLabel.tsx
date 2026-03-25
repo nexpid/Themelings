@@ -162,7 +162,7 @@ case 15:
             var4 = var12[var4];
             var4 = var11.bind(var10)(var4);
             var4 = var4.t;
-            var4 = var4.4qvAtn;
+            var4 = var4["4qvAtn"];
             var2 = var8.bind(var9)(var4);
 case 14:
             var8 = var3.type;
@@ -238,7 +238,7 @@ case 40:
             var8 = var4.t;
             if(var1) { _fun0002_ip = 41; continue _fun0002 }
 case 42:
-            var4 = var8.0nZpiF;
+            var4 = var8["0nZpiF"];
             _fun0002_ip = 43; continue _fun0002;
 case 41:
             var4 = var8.YlVvmc;
@@ -297,7 +297,7 @@ case 47:
             var11 = var11[var20];
             var11 = var17.bind(var10)(var11);
             var11 = var11.t;
-            var17 = var11.3l1GOx;
+            var17 = var11["3l1GOx"];
             var11 = {};
             var11['mentionCount'] = var14;
             var11 = var18.bind(var21)(var17, var11);
@@ -394,7 +394,7 @@ case 58:
             var3 = var3[var20];
             var3 = var11.bind(var10)(var3);
             var3 = var3.t;
-            var11 = var3.6qgTOF;
+            var11 = var3["6qgTOF"];
             var3 = {};
             var19 = var19.length;
             var3['userCount'] = var19;
@@ -444,7 +444,7 @@ case 22:
             var3 = var9[var3];
             var3 = var4.bind(var10)(var3);
             var3 = var3.t;
-            var12 = var3.92EAF2;
+            var12 = var3["92EAF2"];
             var8 = undefined;
             _fun0002_ip = 45; continue _fun0002;
 case 20:

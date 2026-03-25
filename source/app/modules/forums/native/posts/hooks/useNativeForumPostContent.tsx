@@ -212,7 +212,7 @@ case 39:
             var8 = var14[var8];
             var8 = var13.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.6bhHrc;
+            var8 = var8["6bhHrc"];
             var1 = var11.bind(var12)(var8);
 case 48:
             _fun0001_ip = 49; continue _fun0001;
@@ -227,7 +227,7 @@ case 38:
             var8 = var14[var8];
             var8 = var13.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.2v7kfl;
+            var8 = var8["2v7kfl"];
             var1 = var11.bind(var12)(var8);
 case 49:
             _fun0001_ip = 50; continue _fun0001;
@@ -242,7 +242,7 @@ case 34:
             var8 = var14[var8];
             var8 = var13.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.7K5Lma;
+            var8 = var8["7K5Lma"];
             var1 = var11.bind(var12)(var8);
 case 50:
             _fun0001_ip = 51; continue _fun0001;

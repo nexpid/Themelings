@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var11[var12];
         var13 = var15.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13./HABZo;
+        var13 = var13["/HABZo"];
         var13 = var14.bind(var16)(var13);
         var5['title'] = var13;
         var13 = var11[var12];
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var11[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.5Jy2FY;
+        var12 = var12["5Jy2FY"];
         var12 = var13.bind(var14)(var12);
         var5['body'] = var12;
         var12 = 10;

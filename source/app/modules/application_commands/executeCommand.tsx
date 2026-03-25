@@ -27,7 +27,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -2813,7 +2813,7 @@ case 297: // catch_target0
                     var7 = var19[var7];
                     var7 = var16.bind(var6)(var7);
                     var7 = var7.t;
-                    var16 = var7.9h1/1p;
+                    var16 = var7["9h1/1p"];
                     var7 = {};
                     var19 = var14;
                     var19 = var19.length;

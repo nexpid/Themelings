@@ -47,7 +47,7 @@ case 4:
             var6 = var13[var6];
             var6 = var12.bind(var5)(var6);
             var6 = var6.t;
-            var7 = var6.9NPc+O;
+            var7 = var6["9NPc+O"];
             var6 = {};
             var11 = 10;
             var11 = var13[var11];

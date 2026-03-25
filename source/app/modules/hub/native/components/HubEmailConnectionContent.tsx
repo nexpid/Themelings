@@ -461,7 +461,7 @@ case 45:
             var1 = var1[var20];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.4T4+p1;
+            var2 = var1["4T4+p1"];
             var1 = {};
             var1['guildName'] = var7;
             var6 = var6.approximate_member_count;
@@ -534,7 +534,7 @@ case 40:
             var26 = var23[var20];
             var26 = var22.bind(var4)(var26);
             var26 = var26.t;
-            var27 = var26.6kzaqs;
+            var27 = var26["6kzaqs"];
             var26 = {};
             var30 = function onClick() {
                 var5 = _closure1_slot1;
@@ -701,7 +701,7 @@ case 48:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.8vmKO0;
+            var16 = var16["8vmKO0"];
             var16 = var17.bind(var18)(var16);
             var12['text'] = var16;
             var12['onPress'] = var15;

@@ -312,7 +312,7 @@ case 6:
                 var22 = var16[var25];
                 var22 = var18.bind(var5)(var22);
                 var22 = var22.t;
-                var22 = var22.6Xcq+Y;
+                var22 = var22["6Xcq+Y"];
                 var22 = var23.bind(var24)(var22);
                 var13['accessibilityLabel'] = var22;
                 var20 = function onPress() {
@@ -366,7 +366,7 @@ case 8:
                 var16 = var20.bind(var22)(var16);
                 _fun0001_ip = 9; continue _fun0001;
 case 7:
-                var19 = var19.0Q61kF;
+                var19 = var19["0Q61kF"];
                 var16 = var20.bind(var22)(var19);
 case 9:
                 var18['text'] = var16;

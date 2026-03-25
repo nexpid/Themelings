@@ -187,10 +187,17 @@ case 51:
 case 50:
         if(var3) { _fun0001_ip = 52; continue _fun0001 }
 case 53:
+        var4 = var2.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.WEBAUTHN_ORIGIN;
+        var3 = var5 != var4;
+case 52:
+        if(var3) { _fun0001_ip = 54; continue _fun0001 }
+case 55:
         var3 = var2.window;
         var3 = var3.GLOBAL_ENV;
-        var3 = var3.WEBAUTHN_ORIGIN;
-case 52:
+        var3 = var3.NATIVE_WEBSOCKET_ORIGIN;
+case 54:
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
         var3 = '//discord.com/api';
@@ -281,13 +288,16 @@ case 52:
         var3 = 'https://discordapp.com';
         var4['MIGRATION_SOURCE_ORIGIN'] = var3;
         var3 = var1.window;
-        var4 = var3.GLOBAL_ENV;
-        var3 = 'https://discord.com';
-        var4['MIGRATION_DESTINATION_ORIGIN'] = var3;
+        var3 = var3.GLOBAL_ENV;
+        var4 = 'https://discord.com';
+        var3['MIGRATION_DESTINATION_ORIGIN'] = var4;
         var3 = var1.window;
-        var4 = var3.GLOBAL_ENV;
+        var5 = var3.GLOBAL_ENV;
         var3 = 'discord.com';
-        var4['WEBAUTHN_ORIGIN'] = var3;
+        var5['WEBAUTHN_ORIGIN'] = var3;
+        var3 = var1.window;
+        var3 = var3.GLOBAL_ENV;
+        var3['NATIVE_WEBSOCKET_ORIGIN'] = var4;
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
         var3 = '//latency.discord.media/rtc';

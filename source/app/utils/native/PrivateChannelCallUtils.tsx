@@ -289,7 +289,7 @@ case 10:
         var8 = var11[var7];
         var8 = var10.bind(var1)(var8);
         var8 = var8.t;
-        var8 = var8.91WuJ9;
+        var8 = var8["91WuJ9"];
         var8 = var9.bind(var12)(var8);
         var2['title'] = var8;
         var8 = var11[var7];

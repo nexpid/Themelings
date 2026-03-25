@@ -323,7 +323,7 @@ case 7:
             var7 = var12[var7];
             var7 = var11.bind(var10)(var7);
             var7 = var7.t;
-            var7 = var7.5h0QOP;
+            var7 = var7["5h0QOP"];
             var7 = var8.bind(var9)(var7);
             var5['label'] = var7;
             var8 = var6.EXACT_SEARCH_RESULT_COUNTS;

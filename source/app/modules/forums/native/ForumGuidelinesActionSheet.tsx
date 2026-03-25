@@ -543,7 +543,7 @@ case 23:
             var29 = var25[var15];
             var29 = var22.bind(var4)(var29);
             var29 = var29.t;
-            var29 = var29.4d4T4l;
+            var29 = var29["4d4T4l"];
             var29 = var30.bind(var31)(var29);
             var23['children'] = var29;
             var23 = var20.bind(var4)(var26, var23);

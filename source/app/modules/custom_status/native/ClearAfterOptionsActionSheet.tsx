@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var14[var10];
         var11 = var13.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.5XnRQ+;
+        var11 = var11["5XnRQ+"];
         var11 = var12.bind(var15)(var11);
         var5['title'] = var11;
         var5 = var3.bind(var4)(var6, var5);

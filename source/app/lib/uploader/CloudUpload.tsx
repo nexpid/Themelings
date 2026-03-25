@@ -645,7 +645,7 @@ case 57:
 case 0:
                 var3 = arg1;
                 var2 = var3.match;
-                var1 = /^bytes=(\d+)-(\d+)(?:\\/\d+)?$/;
+                var1 = /^bytes=(\d+)-(\d+)(?:\/\d+)?$/;
                 var7 = var2.bind(var3)(var1);
                 var1 = null;
                 var2 = var1 == var7;

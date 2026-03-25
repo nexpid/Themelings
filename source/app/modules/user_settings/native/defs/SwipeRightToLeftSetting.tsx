@@ -84,7 +84,7 @@ case 5:
             var3 = var8[var3];
             var3 = var7.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.6eXLcJ;
+            var3 = var3["6eXLcJ"];
             var1 = var4.bind(var5)(var3);
 case 4:
             _fun0001_ip = 6; continue _fun0001;
@@ -99,7 +99,7 @@ case 2:
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.3tYNDS;
+            var2 = var2["3tYNDS"];
             var1 = var3.bind(var4)(var2);
 case 6:
             return var1;

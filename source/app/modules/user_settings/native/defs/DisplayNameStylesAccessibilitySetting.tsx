@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 7;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.2gFUEw;
+        var1 = var1["2gFUEw"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };

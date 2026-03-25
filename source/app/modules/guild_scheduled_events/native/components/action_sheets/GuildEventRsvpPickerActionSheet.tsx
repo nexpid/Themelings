@@ -142,7 +142,7 @@ case 8:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.8MPCVr;
+            var1 = var1["8MPCVr"];
             var7 = var2.bind(var3)(var1);
             _fun0001_ip = 9; continue _fun0001;
 case 7:

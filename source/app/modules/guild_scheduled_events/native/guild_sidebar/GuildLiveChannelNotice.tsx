@@ -809,7 +809,7 @@ case 46:
                 var9 = var9[var13];
                 var9 = var12.bind(var4)(var9);
                 var9 = var9.t;
-                var9 = var9.7vb2cc;
+                var9 = var9["7vb2cc"];
                 var9 = var10.bind(var11)(var9);
                 var6['label'] = var9;
                 var5 = var8.bind(var4)(var7, var6);

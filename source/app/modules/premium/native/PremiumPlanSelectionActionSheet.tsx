@@ -97,7 +97,7 @@ case 6:
                 var11 = var15[var11];
                 var11 = var14.bind(var7)(var11);
                 var11 = var11.t;
-                var11 = var11.4wKQD9;
+                var11 = var11["4wKQD9"];
                 var11 = var12.bind(var13)(var11);
                 var8['text'] = var11;
                 var11 = 'white';
@@ -1020,7 +1020,7 @@ case 95:
             var26 = var31[var26];
             var26 = var27.bind(var4)(var26);
             var26 = var26.t;
-            var27 = var26.02Gmgm;
+            var27 = var26["02Gmgm"];
             var26 = {};
             var26['discountedPrice'] = var30;
             var30 = var23.discount;
@@ -2292,7 +2292,7 @@ case 196:
                     var1 = var6[var1];
                     var1 = var4.bind(var5)(var1);
                     var1 = var1.t;
-                    var1 = var1.6WWrVM;
+                    var1 = var1["6WWrVM"];
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -2352,7 +2352,7 @@ case 202:
                     var2 = var7[var2];
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.t;
-                    var2 = var2.0nfg1x;
+                    var2 = var2["0nfg1x"];
                     var2 = var3.bind(var4)(var2);
                     return var2;
 case 201:
@@ -2517,7 +2517,7 @@ case 213:
                     var2 = var2.t;
                     if(var3) { _fun0017_ip = 163; continue _fun0017 }
 case 214:
-                    var10 = var2.7wpqfj;
+                    var10 = var2["7wpqfj"];
                     _fun0017_ip = 215; continue _fun0017;
 case 163:
                     var10 = var2.COObWR;
@@ -2578,7 +2578,7 @@ case 212:
                     var7 = var14[var7];
                     var7 = var8.bind(var5)(var7);
                     var7 = var7.t;
-                    var8 = var7.3uC7vj;
+                    var8 = var7["3uC7vj"];
                     var7 = {};
                     var12 = _closure2_slot33;
                     var7['buttonText'] = var12;
@@ -2932,7 +2932,7 @@ case 241:
                     var16 = var23[var16];
                     var16 = var22.bind(var4)(var16);
                     var16 = var16.t;
-                    var18 = var16.9hnZoK;
+                    var18 = var16["9hnZoK"];
                     var16 = {};
                     var21 = 23;
                     var21 = var23[var21];

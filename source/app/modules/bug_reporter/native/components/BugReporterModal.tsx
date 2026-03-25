@@ -448,7 +448,7 @@ case 29:
                                                 var10 = var15[var10];
                                                 var10 = var14.bind(var13)(var10);
                                                 var10 = var10.t;
-                                                var10 = var10.4t1o0u;
+                                                var10 = var10["4t1o0u"];
                                                 var10 = var11.bind(var12)(var10);
                                                 var5['content'] = var10;
                                                 var5 = var7.bind(var9)(var5);
@@ -637,7 +637,7 @@ case 33:
                                 var7 = var11[var7];
                                 var7 = var10.bind(var2)(var7);
                                 var7 = var7.t;
-                                var7 = var7.4t1o0u;
+                                var7 = var7["4t1o0u"];
                                 var7 = var8.bind(var9)(var7);
                                 var3['content'] = var7;
                                 var3 = var5.bind(var6)(var3);
@@ -1218,7 +1218,7 @@ case 74:
             var28 = var28[var21];
             var28 = var33.bind(var4)(var28);
             var28 = var28.t;
-            var28 = var28.6mpW05;
+            var28 = var28["6mpW05"];
             var28 = var29.bind(var30)(var28);
             var17['placeholder'] = var28;
             var17['onChange'] = var25;
@@ -1244,7 +1244,7 @@ case 81:
             var28 = var33[var21];
             var28 = var29.bind(var4)(var28);
             var28 = var28.t;
-            var28 = var28.77VVd8;
+            var28 = var28["77VVd8"];
             var28 = var30.bind(var34)(var28);
             var17['title'] = var28;
             var30 = _closure1_slot10;
@@ -1306,7 +1306,7 @@ case 85:
             var31 = var31[var21];
             var31 = var35.bind(var4)(var31);
             var31 = var31.t;
-            var31 = var31.77VVd8;
+            var31 = var31["77VVd8"];
             var31 = var33.bind(var34)(var31);
             _fun0001_ip = 86; continue _fun0001;
 case 84:
@@ -1414,7 +1414,7 @@ case 87:
             var27 = var20[var21];
             var27 = var24.bind(var4)(var27);
             var27 = var27.t;
-            var27 = var27.1SplH2;
+            var27 = var27["1SplH2"];
             var27 = var28.bind(var29)(var27);
             var16['label'] = var27;
             var27 = var20[var21];
@@ -1444,7 +1444,7 @@ case 87:
             var23 = var20[var21];
             var23 = var24.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.7p5pqh;
+            var23 = var23["7p5pqh"];
             var23 = var25.bind(var26)(var23);
             var15['label'] = var23;
             var23 = var20[var21];
@@ -1476,7 +1476,7 @@ case 87:
             var21 = var20[var21];
             var21 = var24.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.636e+U;
+            var21 = var21["636e+U"];
             var21 = var22.bind(var23)(var21);
             var15['text'] = var21;
             var21 = var20[var18];

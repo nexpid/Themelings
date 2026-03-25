@@ -385,7 +385,7 @@ case 14:
                     var11 = var15[var11];
                     var11 = var14.bind(var7)(var11);
                     var11 = var11.t;
-                    var11 = var11.3NnH6V;
+                    var11 = var11["3NnH6V"];
                     var11 = var12.bind(var13)(var11);
                     var3['cancelText'] = var11;
                     var3['onConfirm'] = var10;

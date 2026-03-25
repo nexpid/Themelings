@@ -173,7 +173,7 @@ case 15:
                 var3 = var11.bind(var7)(var3);
                 if(var4) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-                var4 = var3.1B8AZr;
+                var4 = var3["1B8AZr"];
                 _fun0001_ip = 18; continue _fun0001;
 case 16:
                 var4 = var3.vCEBiS;

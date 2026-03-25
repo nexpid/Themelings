@@ -1287,7 +1287,7 @@ case 43:
             var44 = var42[var50];
             var44 = var41.bind(var5)(var44);
             var44 = var44.t;
-            var44 = var44.0hKkS+;
+            var44 = var44["0hKkS+"];
             var44 = var45.bind(var47)(var44);
             var33['children'] = var44;
             var34 = var40.bind(var5)(var34, var33);

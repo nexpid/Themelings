@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var16.string;
         var3 = var12[var7];
         var3 = var11.bind(var4)(var3);
-        var3 = var3.68zfxD;
+        var3 = var3["68zfxD"];
         var3 = var15.bind(var16)(var3);
         var6 = var13.bind(var14)(var6, var3);
         var2 = var12[var2];
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var15.string;
         var2 = var12[var7];
         var2 = var11.bind(var4)(var2);
-        var2 = var2.+pi4Yt;
+        var2 = var2["+pi4Yt"];
         var3 = var3.bind(var15)(var2);
         var2 = var12[var8];
         var2 = var10.bind(var4)(var2);
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var16.string;
         var2 = var12[var7];
         var2 = var11.bind(var4)(var2);
-        var2 = var2.1xPTwE;
+        var2 = var2["1xPTwE"];
         var2 = var15.bind(var16)(var2);
         var3 = var13.bind(var14)(var3, var2);
         var2 = {};
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var15.string;
         var13 = var12[var7];
         var13 = var11.bind(var4)(var13);
-        var13 = var13.001l3m;
+        var13 = var13["001l3m"];
         var13 = var14.bind(var15)(var13);
         var2['header'] = var13;
         var2['description'] = var9;
@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var10.string;
         var7 = var12[var7];
         var7 = var11.bind(var4)(var7);
-        var7 = var7.6JkHSg;
+        var7 = var7["6JkHSg"];
         var7 = var8.bind(var10)(var7);
         var5['title'] = var7;
         var8 = var9.map;

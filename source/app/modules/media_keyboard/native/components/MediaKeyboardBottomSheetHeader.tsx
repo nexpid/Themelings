@@ -436,7 +436,7 @@ case 37:
             var2 = var12[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.+9QSnj;
+            var2 = var2["+9QSnj"];
             var2 = var3.bind(var5)(var2);
             _fun0001_ip = 38; continue _fun0001;
 case 36:
@@ -469,7 +469,7 @@ case 40:
             var2 = var12[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.1BlNHb;
+            var3 = var2["1BlNHb"];
             var2 = {};
             var2['max'] = var10;
             var31 = var5.bind(var8)(var3, var2);
@@ -511,7 +511,7 @@ case 39:
             var33 = var25[var26];
             var33 = var21.bind(var4)(var33);
             var33 = var33.t;
-            var33 = var33.13/7kX;
+            var33 = var33["13/7kX"];
             var33 = var34.bind(var35)(var33);
             var28['children'] = var33;
             var28 = var32.bind(var4)(var29, var28);

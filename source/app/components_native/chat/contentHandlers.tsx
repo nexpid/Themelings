@@ -252,7 +252,7 @@ case 28:
             var6 = var12[var6];
             var6 = var11.bind(var1)(var6);
             var6 = var6.t;
-            var6 = var6./AXYnE;
+            var6 = var6["/AXYnE"];
             var6 = var9.bind(var10)(var6);
             var3['secondaryConfirmText'] = var6;
             var5 = function onConfirmSecondary() {

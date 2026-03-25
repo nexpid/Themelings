@@ -123,7 +123,7 @@ case 8:
             var6 = var13[var9];
             var6 = var12.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.8wXU9B;
+            var6 = var6["8wXU9B"];
             var6 = var10.bind(var11)(var6);
             var7['label'] = var6;
             var6 = new Array(1);
@@ -180,7 +180,7 @@ case 12:
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.3GZE6a;
+            var9 = var9["3GZE6a"];
             var9 = var10.bind(var11)(var9);
             var5['text'] = var9;
             var8 = function onPress() {

@@ -488,7 +488,7 @@ case 21:
             var18 = 28;
             var27 = var13[var18];
             var27 = var30.bind(var4)(var27);
-            var27 = var27.1AE464;
+            var27 = var27["1AE464"];
             var27 = var28.bind(var29)(var27);
             var15['children'] = var27;
             var15 = var26.bind(var4)(var24, var15);

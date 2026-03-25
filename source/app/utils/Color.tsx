@@ -593,7 +593,7 @@ case 59:
                 return var3;
 case 61:
                 var8 = var10.split;
-                var4 = /\s*[,\/\s]\s*/;
+                var4 = /\s*[,/\s]\s*/;
                 var10 = var8.bind(var10)(var4);
                 var8 = var10.map;
                 var4 = function(arg1) {

@@ -379,7 +379,7 @@ case 26:
             var5 = var13[var5];
             var5 = var8.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.7hRBmC;
+            var5 = var5["7hRBmC"];
             var5 = var6.bind(var7)(var5);
             _fun0004_ip = 27; continue _fun0004;
 case 25:

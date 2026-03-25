@@ -172,7 +172,7 @@ case 2:
                     var2 = var4[var2];
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.t;
-                    var6 = var2.6E9a1J;
+                    var6 = var2["6E9a1J"];
                     var2 = {};
                     var10 = global;
                     var11 = var10.location;

@@ -341,7 +341,7 @@ case 5:
                             var2 = var8[var2];
                             var2 = var7.bind(var1)(var2);
                             var2 = var2.t;
-                            var2 = var2.0YV04/;
+                            var2 = var2["0YV04/"];
                             var2 = var5.bind(var6)(var2);
                             var2 = var3.bind(var4)(var2);
                             return var1;
@@ -466,7 +466,7 @@ case 13:
             var17 = var17.t;
             if(var16) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var16 = var17.7fHyE6;
+            var16 = var17["7fHyE6"];
             var16 = var18.bind(var20)(var16);
             _fun0001_ip = 17; continue _fun0001;
 case 15:
@@ -512,7 +512,7 @@ case 19:
             var16 = var16.t;
             if(var6) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var6 = var16.65XQar;
+            var6 = var16["65XQar"];
             var6 = var20.bind(var22)(var6);
             var13['text'] = var6;
             var6 = function onPress() {

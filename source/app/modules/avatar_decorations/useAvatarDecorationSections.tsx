@@ -237,7 +237,7 @@ case 9:
             var4 = var9[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.1vbbee;
+            var4 = var4["1vbbee"];
             var4 = var5.bind(var6)(var4);
             var2['header'] = var4;
             var3[2] = var2;

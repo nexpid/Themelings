@@ -23,7 +23,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -262,7 +262,7 @@ case 47:
             var3 = var3[var9];
             var3 = var15.bind(var5)(var3);
             var3 = var3.t;
-            var15 = var3.2keXky;
+            var15 = var3["2keXky"];
             var3 = {};
             var19 = var18.name;
             var3['itemName'] = var19;
@@ -281,7 +281,7 @@ case 44:
             var3 = var3[var9];
             var3 = var15.bind(var5)(var3);
             var3 = var3.t;
-            var15 = var3.3Y8q7a;
+            var15 = var3["3Y8q7a"];
             var3 = {};
             var19 = var18.name;
             var3['itemName'] = var19;
@@ -366,7 +366,7 @@ case 37:
             var1 = var7[var1];
             var1 = var2.bind(var5)(var1);
             var1 = var1.t;
-            var2 = var1./0Yndu;
+            var2 = var1["/0Yndu"];
             var1 = {};
             var6 = var6.bundledProducts;
             var7 = null;
@@ -509,7 +509,7 @@ case 59:
                     var1 = var7[var1];
                     var1 = var5.bind(var6)(var1);
                     var1 = var1.t;
-                    var1 = var1.3lv7q2;
+                    var1 = var1["3lv7q2"];
                     var1 = var3.bind(var4)(var1);
                     return var1;
 case 56:

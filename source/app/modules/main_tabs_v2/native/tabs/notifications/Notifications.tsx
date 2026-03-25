@@ -489,7 +489,7 @@ case 18:
             var24 = var28[var24];
             var24 = var27.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.13/7kX;
+            var24 = var24["13/7kX"];
             var24 = var25.bind(var26)(var24);
             var14['accessibilityLabel'] = var24;
             var24 = _closure1_slot11;

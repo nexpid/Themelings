@@ -520,7 +520,7 @@ case 61:
                     var12 = var14[var12];
                     var12 = var17.bind(var2)(var12);
                     var12 = var12.t;
-                    var12 = var12.+hjBfW;
+                    var12 = var12["+hjBfW"];
                     var12 = var15.bind(var16)(var12);
                     var4['content'] = var12;
                     var12 = 15;
@@ -569,7 +569,7 @@ case 60:
                     var13 = var16[var12];
                     var13 = var15.bind(var2)(var13);
                     var13 = var13.t;
-                    var13 = var13.6moJ8s;
+                    var13 = var13["6moJ8s"];
                     var13 = var14.bind(var17)(var13);
                     var4['title'] = var13;
                     var13 = var16[var12];
@@ -579,7 +579,7 @@ case 60:
                     var13 = var16[var12];
                     var13 = var15.bind(var2)(var13);
                     var13 = var13.t;
-                    var14 = var13.045SiE;
+                    var14 = var13["045SiE"];
                     var13 = {};
                     var20 = var21.join;
                     var19 = ', ';
@@ -651,7 +651,7 @@ case 64: // catch_target0
                     var8 = var11[var7];
                     var8 = var10.bind(var2)(var8);
                     var8 = var8.t;
-                    var8 = var8.6moJ8s;
+                    var8 = var8["6moJ8s"];
                     var8 = var9.bind(var12)(var8);
                     var3['title'] = var8;
                     var8 = var11[var7];

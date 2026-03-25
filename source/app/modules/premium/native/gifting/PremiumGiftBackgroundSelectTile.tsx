@@ -191,7 +191,7 @@ case 5:
             var9 = 17;
             var9 = var17[var9];
             var9 = var12.bind(var5)(var9);
-            var12 = var9.+utqaz;
+            var12 = var9["+utqaz"];
             var9 = {};
             var15 = var17[var15];
             var15 = var16.bind(var5)(var15);

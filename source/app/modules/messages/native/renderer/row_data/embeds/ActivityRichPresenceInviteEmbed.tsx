@@ -1164,7 +1164,7 @@ case 133:
             var3 = var3[var33];
             var3 = var32.bind(var12)(var3);
             var3 = var3.t;
-            var3 = var3.84qx9r;
+            var3 = var3["84qx9r"];
             var8 = var10.bind(var30)(var3);
             var7 = var2.name;
             var26 = false;

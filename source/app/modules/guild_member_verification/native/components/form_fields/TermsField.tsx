@@ -97,7 +97,7 @@ case 2:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.2EXfGJ;
+            var10 = var10["2EXfGJ"];
             var10 = var11.bind(var12)(var10);
             var6['label'] = var10;
             var6['onPress'] = var9;

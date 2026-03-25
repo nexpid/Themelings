@@ -376,7 +376,7 @@ case 18:
             var8 = var19[var5];
             var8 = var18.bind(var6)(var8);
             var8 = var8.t;
-            var8 = var8.+nLJkZ;
+            var8 = var8["+nLJkZ"];
             var8 = var17.bind(var20)(var8);
             var1['title'] = var8;
             var8 = var19[var5];

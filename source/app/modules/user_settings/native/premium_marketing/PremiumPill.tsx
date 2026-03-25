@@ -238,7 +238,7 @@ case 31:
                     var2 = var9[var2];
                     var2 = var8.bind(var3)(var2);
                     var2 = var2.t;
-                    var3 = var2.+FgdjP;
+                    var3 = var2["+FgdjP"];
                     var2 = {};
                     var10 = var7.Math;
                     var9 = var10.max;

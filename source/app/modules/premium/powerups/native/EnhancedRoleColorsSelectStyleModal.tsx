@@ -272,7 +272,7 @@ case 0:
             var7 = var7[var18];
             var7 = var12.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.9wVJRB;
+            var7 = var7["9wVJRB"];
             var7 = var8.bind(var11)(var7);
             var5['title'] = var7;
             var5 = var3.bind(var4)(var6, var5);
@@ -481,7 +481,7 @@ case 15:
             var30 = var31.string;
             var29 = var21[var17];
             var29 = var20.bind(var4)(var29);
-            var29 = var29.+/IHLl;
+            var29 = var29["+/IHLl"];
             var29 = var30.bind(var31)(var29);
             var27['children'] = var29;
             var27 = var16.bind(var4)(var28, var27);

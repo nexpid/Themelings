@@ -109,7 +109,7 @@ case 0:
             var8 = var9.string;
             var3 = var12[var22];
             var3 = var19.bind(var4)(var3);
-            var3 = var3./MYCee;
+            var3 = var3["/MYCee"];
             var3 = var8.bind(var9)(var3);
             var24 = var6.bind(var7)(var5, var3);
             var2 = var12[var2];
@@ -533,7 +533,7 @@ case 2:
         var5 = var9[var5];
         var5 = var8.bind(var3)(var5);
         var5 = var5.t;
-        var5 = var5.13/7kX;
+        var5 = var5["13/7kX"];
         var5 = var6.bind(var7)(var5);
         var1['headerBackTitle'] = var5;
         var1 = var4.bind(var3)(var2, var1);

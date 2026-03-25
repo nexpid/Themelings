@@ -482,7 +482,7 @@ case 39:
         var3 = var9[var4];
         var3 = var8.bind(var7)(var3);
         var3 = var3.t;
-        var3 = var3.8ot6gv;
+        var3 = var3["8ot6gv"];
         var3 = var5.bind(var6)(var3);
         var2['label'] = var3;
         var3 = _closure1_slot12;
@@ -540,7 +540,7 @@ case 39:
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var5 = var5.t;
-        var5 = var5.755t4q;
+        var5 = var5["755t4q"];
         var5 = var6.bind(var10)(var5);
         var2['label'] = var5;
         var5 = var3.HOURS_24;

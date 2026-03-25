@@ -453,7 +453,7 @@ case 22:
             var25 = var5.bind(var6)(var8);
             _fun0002_ip = 23; continue _fun0002;
 case 21:
-            var3 = var3.825cFy;
+            var3 = var3["825cFy"];
             var25 = var5.bind(var6)(var3);
 case 23:
             var13 = _closure1_slot1;

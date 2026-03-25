@@ -170,7 +170,7 @@ case 6:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1.1w42T2;
+                var2 = var1["1w42T2"];
                 var1 = {};
                 var5 = _closure2_slot0;
                 var1['sender'] = var5;
@@ -239,7 +239,7 @@ case 6:
                 var1 = var6[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var1 = var1.2ZO6CC;
+                var1 = var1["2ZO6CC"];
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
@@ -268,7 +268,7 @@ case 6:
                 var1 = var6[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var1 = var1.2NxdjX;
+                var1 = var1["2NxdjX"];
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
@@ -315,7 +315,7 @@ case 6:
                 var1 = var6[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var1 = var1.2BWscv;
+                var1 = var1["2BWscv"];
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
@@ -1078,7 +1078,7 @@ case 51:
             var29 = var23[var29];
             var29 = var24.bind(var4)(var29);
             var29 = var29.t;
-            var30 = var29.6yrIzU;
+            var30 = var29["6yrIzU"];
             var29 = {};
             var29['sender'] = var33;
             var29 = var31.bind(var32)(var30, var29);
@@ -1243,7 +1243,7 @@ case 58:
             var16 = var16.t;
             if(var15) { _fun0002_ip = 65; continue _fun0002 }
 case 66:
-            var15 = var16.3nWhcJ;
+            var15 = var16["3nWhcJ"];
             var15 = var17.bind(var18)(var15);
             _fun0002_ip = 67; continue _fun0002;
 case 65:
@@ -1363,7 +1363,7 @@ case 56:
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.3nWhcJ;
+            var15 = var15["3nWhcJ"];
             var15 = var16.bind(var17)(var15);
             var11['text'] = var15;
             var15 = 'md';

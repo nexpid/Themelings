@@ -434,7 +434,7 @@ case 27:
             var11 = var15[var11];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.5h0QOP;
+            var11 = var11["5h0QOP"];
             var11 = var12.bind(var13)(var11);
             var6['text'] = var11;
             var11 = 2;

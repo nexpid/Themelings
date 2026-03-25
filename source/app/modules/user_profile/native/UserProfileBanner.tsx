@@ -315,7 +315,7 @@ case 36:
             var9 = var9[var19];
             var9 = var15.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.3fzj/l;
+            var9 = var9["3fzj/l"];
             var9 = var12.bind(var13)(var9);
             var5['accessibilityLabel'] = var9;
             var12 = var6.bind(var4)();

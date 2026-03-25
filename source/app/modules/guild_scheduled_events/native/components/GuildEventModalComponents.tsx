@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var14[var10];
         var11 = var13.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.0HbEQ6;
+        var11 = var11["0HbEQ6"];
         var11 = var12.bind(var15)(var11);
         var5['label'] = var11;
         var11 = var14[var10];
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var14[var10];
         var11 = var13.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.0HbEQ6;
+        var11 = var11["0HbEQ6"];
         var11 = var12.bind(var15)(var11);
         var5['accessibilityLabel'] = var11;
         var11 = var14[var10];
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var14[var10];
         var10 = var13.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.6/yars;
+        var10 = var10["6/yars"];
         var10 = var11.bind(var12)(var10);
         var5['placeholder'] = var10;
         var5['onChange'] = var9;
@@ -279,7 +279,7 @@ case 2:
             var15 = var14[var10];
             var15 = var13.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.59TVxL;
+            var15 = var15["59TVxL"];
             var15 = var16.bind(var17)(var15);
             var6['children'] = var15;
             var6 = var8.bind(var4)(var7, var6);
@@ -323,7 +323,7 @@ case 2:
                 var2 = var10[var2];
                 var2 = var9.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.59TVxL;
+                var2 = var2["59TVxL"];
                 var2 = var7.bind(var8)(var2);
                 var3['title'] = var2;
                 var7 = _closure2_slot4;
@@ -357,7 +357,7 @@ case 2:
             var12 = var14[var10];
             var12 = var13.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.59TVxL;
+            var12 = var12["59TVxL"];
             var12 = var15.bind(var16)(var12);
             var6['text'] = var12;
             var6['value'] = var9;
@@ -375,7 +375,7 @@ case 2:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.59TVxL;
+            var10 = var10["59TVxL"];
             var10 = var11.bind(var12)(var10);
             var6['accessibilityLabel'] = var10;
             var6['accessibilityHint'] = var9;
@@ -610,7 +610,7 @@ case 4:
         var12 = var14[var10];
         var12 = var13.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.+gRCC7;
+        var12 = var12["+gRCC7"];
         var12 = var15.bind(var16)(var12);
         var5['label'] = var12;
         var11 = _closure1_slot7;

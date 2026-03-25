@@ -810,7 +810,7 @@ case 35:
             var27 = var12[var23];
             var27 = var11.bind(var4)(var27);
             var27 = var27.t;
-            var27 = var27.3aOv+h;
+            var27 = var27["3aOv+h"];
             var27 = var28.bind(var29)(var27);
             var19['text'] = var27;
             var26 = !var26;
@@ -881,7 +881,7 @@ case 39:
                             var2 = var7[var2];
                             var2 = var6.bind(var1)(var2);
                             var2 = var2.t;
-                            var2 = var2.1eZ4aB;
+                            var2 = var2["1eZ4aB"];
                             var2 = var4.bind(var5)(var2);
                             var2 = var3.bind(var1)(var2);
 case 40:

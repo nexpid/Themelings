@@ -533,7 +533,7 @@ case 46:
             var25 = var29[var25];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.64bX0M;
+            var25 = var25["64bX0M"];
             var24 = var26.bind(var27)(var25);
 case 49:
             var11['label'] = var24;

@@ -811,7 +811,7 @@ case 10:
                     var1 = var3.bind(var4)(var1);
                     _fun0009_ip = 38; continue _fun0009;
 case 37:
-                    var2 = var2.2dVCLl;
+                    var2 = var2["2dVCLl"];
                     var1 = var3.bind(var4)(var2);
 case 38:
                     _fun0009_ip = 39; continue _fun0009;

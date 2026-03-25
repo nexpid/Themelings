@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var9[var5];
         var6 = var8.bind(var1)(var6);
         var6 = var6.t;
-        var6 = var6.9x0iKe;
+        var6 = var6["9x0iKe"];
         var6 = var7.bind(var10)(var6);
         var2['confirmText'] = var6;
         var6 = var9[var5];
@@ -300,7 +300,7 @@ case 6:
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.1q02lR;
+        var11 = var11["1q02lR"];
         var11 = var12.bind(var13)(var11);
         var8['text'] = var11;
         var8 = var10.bind(var4)(var9, var8);
@@ -611,7 +611,7 @@ case 29:
                         var11 = var15[var11];
                         var11 = var12.bind(var6)(var11);
                         var11 = var11.t;
-                        var12 = var11.6u5hQ9;
+                        var12 = var11["6u5hQ9"];
                         var11 = {};
                         var15 = _closure2_slot7;
                         var11['email'] = var15;
@@ -1120,7 +1120,7 @@ case 75:
             var13 = var13[var25];
             var13 = var31.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.7fNJgA;
+            var13 = var13["7fNJgA"];
             var13 = var14.bind(var16)(var13);
             var1['headerText'] = var13;
             var13 = null;
@@ -1542,7 +1542,7 @@ case 111:
             var24 = var24[var25];
             var24 = var28.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.+/6Nv9;
+            var24 = var24["+/6Nv9"];
             var24 = var26.bind(var27)(var24);
             var19['text'] = var24;
             var24 = 'text-md/medium';

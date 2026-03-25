@@ -325,7 +325,7 @@ case 30:
 case 33:
             var5 = var2.format;
             var4 = var5.match;
-            var2 = /(avc1|hvc1|video\\/(avc|hevc))/i;
+            var2 = /(avc1|hvc1|video\/(avc|hevc))/i;
             var2 = var4.bind(var5)(var2);
             var1 = var3 === var2;
 case 32:

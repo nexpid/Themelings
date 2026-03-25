@@ -530,7 +530,7 @@ case 9:
             var10 = var8[var3];
             var10 = var6.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.6LxbQM;
+            var10 = var10["6LxbQM"];
             var10 = var11.bind(var12)(var10);
             var4['titleText'] = var10;
             var10 = var8[var3];

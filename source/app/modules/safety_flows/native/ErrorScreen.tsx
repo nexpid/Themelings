@@ -255,7 +255,7 @@ case 2:
         var13 = var18[var14];
         var13 = var17.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.2jxGer;
+        var13 = var13["2jxGer"];
         var13 = var16.bind(var19)(var13);
         var8['text'] = var13;
         var13 = 'secondary';
@@ -277,7 +277,7 @@ case 2:
         var14 = var18[var14];
         var14 = var17.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.7NqTJn;
+        var14 = var14["7NqTJn"];
         var14 = var15.bind(var16)(var14);
         var9['text'] = var14;
         var14 = 'primary';

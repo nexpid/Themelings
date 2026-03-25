@@ -213,7 +213,7 @@ case 2:
         var21 = var13[var20];
         var21 = var23.bind(var4)(var21);
         var21 = var21.t;
-        var21 = var21./G+nci;
+        var21 = var21["/G+nci"];
         var21 = var22.bind(var24)(var21);
         var15['children'] = var21;
         var15 = var7.bind(var4)(var17, var15);

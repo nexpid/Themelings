@@ -27,7 +27,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -888,7 +888,7 @@ case 0:
             var4 = var9[var14];
             var4 = var13.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4./Guvxs;
+            var4 = var4["/Guvxs"];
             var4 = var5.bind(var8)(var4);
             var1['description'] = var4;
             var5 = _closure1_slot27;
@@ -904,7 +904,7 @@ case 0:
             var4 = var9[var14];
             var4 = var13.bind(var7)(var4);
             var4 = var4.t;
-            var8 = var4./9p2/g;
+            var8 = var4["/9p2/g"];
             var4 = {};
             var23 = _closure1_slot31;
             var15 = _closure1_slot10;
@@ -993,7 +993,7 @@ case 0:
             var4 = var9[var14];
             var4 = var13.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.8a03jk;
+            var4 = var4["8a03jk"];
             var4 = var8.bind(var11)(var4);
             var1['description'] = var4;
             var4 = var5.AUDIO;
@@ -1092,7 +1092,7 @@ case 0:
             var4 = var9[var14];
             var4 = var13.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.34GpBc;
+            var4 = var4["34GpBc"];
             var4 = var10.bind(var11)(var4);
             var2['title'] = var4;
             var4 = {};
@@ -1147,7 +1147,7 @@ case 0:
             var11 = var9[var14];
             var11 = var13.bind(var7)(var11);
             var11 = var11.t;
-            var12 = var11./9p2/g;
+            var12 = var11["/9p2/g"];
             var11 = {};
             var17 = _closure1_slot10;
             var17 = var17.TIER_2;
@@ -1245,7 +1245,7 @@ case 0:
             var11 = var9[var14];
             var11 = var13.bind(var7)(var11);
             var11 = var11.t;
-            var11 = var11.+KhQKM;
+            var11 = var11["+KhQKM"];
             var11 = var12.bind(var15)(var11);
             var4['title'] = var11;
             var11 = var9[var14];
@@ -1465,7 +1465,7 @@ case 73:
             var12 = var11[var14];
             var12 = var15.bind(var7)(var12);
             var12 = var12.t;
-            var13 = var12./9p2/g;
+            var13 = var12["/9p2/g"];
             var12 = {};
             var24 = _closure1_slot31;
             var20 = _closure1_slot10;
@@ -1486,7 +1486,7 @@ case 73:
             var12 = var11[var14];
             var12 = var15.bind(var7)(var12);
             var12 = var12.t;
-            var12 = var12.+ZI4QZ;
+            var12 = var12["+ZI4QZ"];
             var12 = var13.bind(var16)(var12);
             var9['description'] = var12;
             var12 = var10.STICKER;
@@ -1521,7 +1521,7 @@ case 73:
             var12 = var11[var14];
             var12 = var15.bind(var7)(var12);
             var12 = var12.t;
-            var12 = var12.8omJSY;
+            var12 = var12["8omJSY"];
             var12 = var13.bind(var16)(var12);
             var9['description'] = var12;
             var12 = var10.SOUNDBOARD;
@@ -1577,7 +1577,7 @@ case 73:
             var12 = var11[var14];
             var12 = var15.bind(var7)(var12);
             var12 = var12.t;
-            var13 = var12.3Reosx;
+            var13 = var12["3Reosx"];
             var12 = {};
             var21 = _closure1_slot1;
             var20 = 12;
@@ -2296,7 +2296,7 @@ case 113:
             var1 = 16;
             var1 = var7[var1];
             var1 = var2.bind(var6)(var1);
-            var2 = var1.5xN/C1;
+            var2 = var1["5xN/C1"];
             var1 = {};
             var5 = _closure1_slot25;
             var5 = var5.bind(var6)();

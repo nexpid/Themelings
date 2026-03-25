@@ -245,7 +245,7 @@ case 8:
             var19 = 10;
             var1 = var9[var19];
             var1 = var13.bind(var4)(var1);
-            var1 = var1.+tnO34;
+            var1 = var1["+tnO34"];
             var2 = var2.bind(var7)(var1, var11);
             var1 = var9[var16];
             var1 = var6.bind(var4)(var1);

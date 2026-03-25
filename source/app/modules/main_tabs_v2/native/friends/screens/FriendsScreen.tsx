@@ -298,7 +298,7 @@ case 5:
                 var4 = var11[var4];
                 var4 = var5.bind(var10)(var4);
                 var4 = var4.t;
-                var5 = var4.1IEawz;
+                var5 = var4["1IEawz"];
                 var4 = {};
                 var4['incoming'] = var9;
                 var8 = _closure2_slot5;
@@ -422,7 +422,7 @@ case 8:
                 var13 = var13[var19];
                 var13 = var15.bind(var5)(var13);
                 var13 = var13.t;
-                var15 = var13.1IEawz;
+                var15 = var13["1IEawz"];
                 var13 = {};
                 var19 = _closure2_slot4;
                 var13['incoming'] = var19;

@@ -482,7 +482,7 @@ case 30:
                         var2 = var8[var2];
                         var2 = var7.bind(var6)(var2);
                         var2 = var2.t;
-                        var2 = var2.30mdIx;
+                        var2 = var2["30mdIx"];
                         var2 = var3.bind(var5)(var2);
                         return var2;
 case 29:

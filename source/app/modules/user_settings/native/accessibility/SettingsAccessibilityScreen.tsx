@@ -150,7 +150,7 @@ case 4:
             var9 = var15[var4];
             var9 = var8.bind(var6)(var9);
             var9 = var9.t;
-            var9 = var9.0PbE/H;
+            var9 = var9["0PbE/H"];
             var9 = var12.bind(var16)(var9);
             var2['subLabel'] = var9;
             var3[3] = var2;
@@ -167,7 +167,7 @@ case 4:
             var9 = var15[var4];
             var9 = var8.bind(var6)(var9);
             var9 = var9.t;
-            var9 = var9.72i5GI;
+            var9 = var9["72i5GI"];
             var9 = var12.bind(var16)(var9);
             var2['subLabel'] = var9;
             var3[4] = var2;
@@ -235,7 +235,7 @@ case 4:
             var4 = var15[var4];
             var4 = var8.bind(var6)(var4);
             var4 = var4.t;
-            var8 = var4.2l9U2j;
+            var8 = var4["2l9U2j"];
             var4 = {};
             var13 = var15[var13];
             var15 = var14.bind(var6)(var13);

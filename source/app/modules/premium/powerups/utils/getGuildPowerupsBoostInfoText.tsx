@@ -59,7 +59,7 @@ case 6:
             var2 = 2;
             var2 = var8[var2];
             var2 = var6.bind(var7)(var2);
-            var2 = var2./F7Z2y;
+            var2 = var2["/F7Z2y"];
             var2 = var3.bind(var4)(var2);
             return var2;
 case 4:

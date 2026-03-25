@@ -881,7 +881,7 @@ case 94:
 case 0:
             var3 = arg1;
             var2 = var3.match;
-            var1 = /^ph:\\/\\//i;
+            var1 = /^ph:\/\//i;
             var1 = var2.bind(var3)(var1);
             var3 = null;
             var1 = var3 != var1;
@@ -917,7 +917,7 @@ case 101:
             if(var2) { _fun0011_ip = 102; continue _fun0011 }
 case 49:
             var5 = var6.match;
-            var2 = /^(assets-library|file):\\/\\/.+(&ext=|\.)(HEI[CF])$/i;
+            var2 = /^(assets-library|file):\/\/.+(&ext=|\.)(HEI[CF])$/i;
             var2 = var5.bind(var6)(var2);
             var2 = var4 != var2;
             _fun0011_ip = 103; continue _fun0011;
@@ -964,13 +964,13 @@ case 106:
             if(var5) { _fun0012_ip = 107; continue _fun0012 }
 case 108:
             var6 = var10.match;
-            var5 = /^(assets-library|file):\\/\\/.+(&ext=|\.)(hei[cf]|jpe?g|dng)$/i;
+            var5 = /^(assets-library|file):\/\/.+(&ext=|\.)(hei[cf]|jpe?g|dng)$/i;
             var5 = var6.bind(var10)(var5);
             var5 = var3 != var5;
             if(var5) { _fun0012_ip = 109; continue _fun0012 }
 case 67:
             var9 = var10.match;
-            var6 = /^(assets-library|file):\\/\\/.+(&ext=|\.)png$/i;
+            var6 = /^(assets-library|file):\/\/.+(&ext=|\.)png$/i;
             var6 = var9.bind(var10)(var6);
             var6 = var3 == var6;
             if(var6) { _fun0012_ip = 110; continue _fun0012 }
@@ -1086,7 +1086,7 @@ case 127:
 case 53:
                     var9 = var3;
                     var7 = var9.match;
-                    var6 = /^(assets-library|file):\\/\\/.+(&ext=|\.)png$/i;
+                    var6 = /^(assets-library|file):\/\/.+(&ext=|\.)png$/i;
                     var6 = var7.bind(var9)(var6);
                     if(!(var5 != var6)) { _fun0013_ip = 129; continue _fun0013 }
 case 130:
@@ -1165,7 +1165,7 @@ case 0:
             if(!var1) { _fun0014_ip = 85; continue _fun0014 }
 case 138:
             var3 = var4.match;
-            var2 = /^content:\\/\\/.+$/i;
+            var2 = /^content:\/\/.+$/i;
             var3 = var3.bind(var4)(var2);
             var2 = null;
             var1 = var2 != var3;
@@ -2046,7 +2046,7 @@ case 230:
                         if(var5) { _fun0020_ip = 231; continue _fun0020 }
 case 137:
                         var8 = var10.match;
-                        var5 = /^assets-library:\\/\\/.+&ext=(mov|qt)$/i;
+                        var5 = /^assets-library:\/\/.+&ext=(mov|qt)$/i;
                         var5 = var8.bind(var10)(var5);
                         var5 = var9 != var5;
                         if(!var5) { _fun0020_ip = 232; continue _fun0020 }
@@ -2088,7 +2088,7 @@ case 239:
                         if(var5) { _fun0020_ip = 240; continue _fun0020 }
 case 202:
                         var8 = var10.match;
-                        var5 = /^assets-library:\\/\\/.+&ext=mp4$/i;
+                        var5 = /^assets-library:\/\/.+&ext=mp4$/i;
                         var5 = var8.bind(var10)(var5);
                         var5 = var9 != var5;
                         if(!var5) { _fun0020_ip = 241; continue _fun0020 }
@@ -3139,7 +3139,7 @@ case 60:
                     if(var11) { _fun0024_ip = 329; continue _fun0024 }
 case 143:
                     var15 = var17.match;
-                    var11 = /^assets-library:\\/\\/.+&ext=gif$/i;
+                    var11 = /^assets-library:\/\/.+&ext=gif$/i;
                     var11 = var15.bind(var17)(var11);
                     var11 = var16 != var11;
                     _fun0024_ip = 330; continue _fun0024;
@@ -4139,7 +4139,7 @@ case 0:
             if(!var1) { _fun0033_ip = 5; continue _fun0033 }
 case 78:
             var7 = var8.replace;
-            var3 = /file:\\/\\//;
+            var3 = /file:\/\//;
             var1 = '';
             var4 = var7.bind(var8)(var3, var1);
 case 5:

@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var9[var10];
         var12 = var8.bind(var6)(var12);
         var12 = var12.t;
-        var12 = var12.8jmdON;
+        var12 = var12["8jmdON"];
         var12 = var15.bind(var16)(var12);
         var3['title'] = var12;
         var12 = function render() {
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var9[var10];
         var12 = var8.bind(var6)(var12);
         var12 = var12.t;
-        var12 = var12.+CbP2v;
+        var12 = var12["+CbP2v"];
         var12 = var15.bind(var16)(var12);
         var3['title'] = var12;
         var12 = var9[var5];

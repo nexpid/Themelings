@@ -246,7 +246,7 @@ case 10:
             var16 = var20[var16];
             var16 = var19.bind(var5)(var16);
             var16 = var16.t;
-            var16 = var16.8wXU9B;
+            var16 = var16["8wXU9B"];
             var16 = var17.bind(var18)(var16);
             var13['label'] = var16;
             var16 = function action() {
@@ -809,7 +809,7 @@ case 38:
             var13 = var13[var15];
             var13 = var17.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13./AXYnE;
+            var13 = var13["/AXYnE"];
             var13 = var14.bind(var16)(var13);
             var9['label'] = var13;
             var13 = function action() {
@@ -946,7 +946,7 @@ case 43:
                 var5 = var9[var5];
                 var5 = var6.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.+zofAD;
+                var5 = var5["+zofAD"];
                 var10 = var10.bind(var11)(var5);
                 var5 = 'accessibilityLabel';
                 var1[var5] = var10;

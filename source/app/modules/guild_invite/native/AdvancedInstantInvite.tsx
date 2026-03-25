@@ -346,7 +346,7 @@ case 18:
             var17 = var30[var21];
             var17 = var33.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.4QuV7G;
+            var17 = var17["4QuV7G"];
             var17 = var18.bind(var34)(var17);
             var12['title'] = var17;
             var17 = var30[var14];
@@ -386,7 +386,7 @@ case 18:
             var30 = var30[var21];
             var30 = var33.bind(var4)(var30);
             var30 = var30.t;
-            var30 = var30.+3vH1h;
+            var30 = var30["+3vH1h"];
             var30 = var31.bind(var32)(var30);
             var18['label'] = var30;
             var18['options'] = var29;
@@ -519,7 +519,7 @@ case 27:
             var23 = var17[var21];
             var23 = var20.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.1i1bUl;
+            var23 = var23["1i1bUl"];
             var23 = var24.bind(var25)(var23);
             var18['label'] = var23;
             var23 = 19;

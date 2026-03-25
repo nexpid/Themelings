@@ -489,7 +489,7 @@ case 2:
     var17 = var11[var13];
     var17 = var10.bind(var1)(var17);
     var17 = var17.t;
-    var17 = var17.2Tf+c4;
+    var17 = var17["2Tf+c4"];
     var17 = var18.bind(var19)(var17);
     var12['name'] = var17;
     var9[16] = var12;
@@ -533,7 +533,7 @@ case 2:
     var17 = var11[var13];
     var17 = var10.bind(var1)(var17);
     var17 = var17.t;
-    var17 = var17.9mg7g1;
+    var17 = var17["9mg7g1"];
     var17 = var18.bind(var19)(var17);
     var12['name'] = var17;
     var9[18] = var12;
@@ -577,7 +577,7 @@ case 2:
     var17 = var11[var13];
     var17 = var10.bind(var1)(var17);
     var17 = var17.t;
-    var17 = var17.9PUXpM;
+    var17 = var17["9PUXpM"];
     var17 = var18.bind(var19)(var17);
     var12['name'] = var17;
     var9[20] = var12;
@@ -621,7 +621,7 @@ case 2:
     var17 = var11[var13];
     var17 = var10.bind(var1)(var17);
     var17 = var17.t;
-    var17 = var17.4QM2U1;
+    var17 = var17["4QM2U1"];
     var17 = var18.bind(var19)(var17);
     var12['name'] = var17;
     var9[22] = var12;

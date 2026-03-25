@@ -524,7 +524,7 @@ case 48:
             var9 = var8[var9];
             var9 = var7.bind(var4)(var9);
             var9 = var9.t;
-            var10 = var9.+DLsD8;
+            var10 = var9["+DLsD8"];
             var9 = {};
             var9['count'] = var6;
             var12 = var11.bind(var12)(var10, var9);
@@ -2156,7 +2156,7 @@ case 128:
             var17 = var14[var17];
             var17 = var13.bind(var4)(var17);
             var17 = var17.t;
-            var18 = var17.+3iypQ;
+            var18 = var17["+3iypQ"];
             var17 = {};
             var21 = var16.username;
             var17['username'] = var21;

@@ -107,7 +107,7 @@ case 2:
         var7 = var8.string;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.2a8xHY;
+        var6 = var6["2a8xHY"];
         var6 = var7.bind(var8)(var6);
         var1['yesterday'] = var6;
         var2 = var5[var2];
@@ -155,7 +155,7 @@ case 5:
             var1 = var2;
             _fun0002_ip = 6; continue _fun0002;
 case 4:
-            var9 = var9.2AtcIs;
+            var9 = var9["2AtcIs"];
             var9 = var10.bind(var11)(var9);
             var2['today'] = var9;
             var7 = var6[var7];
@@ -618,7 +618,7 @@ case 49:
             var2 = 3;
             var2 = var9[var2];
             var2 = var3.bind(var8)(var2);
-            var3 = var2.6X1F0i;
+            var3 = var2["6X1F0i"];
             var2 = {};
             var2['messageCount'] = var7;
             var1 = var4.bind(var5)(var3, var2);

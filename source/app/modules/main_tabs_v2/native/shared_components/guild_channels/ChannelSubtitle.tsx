@@ -18,7 +18,7 @@ case 0:
             var6 = var1.textProps;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var1 = 5;
+            var1 = 4;
             var1 = var5[var1];
             var5 = undefined;
             var4 = var4.bind(var5)(var1);
@@ -34,10 +34,10 @@ case 3:
 case 5:
             var9 = var3;
 case 4:
-            var4 = _closure1_slot3;
+            var4 = _closure1_slot2;
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
-            var2 = 4;
+            var2 = 3;
             var2 = var8[var2];
             var2 = var7.bind(var5)(var2);
             var3 = var2.Text;
@@ -45,7 +45,7 @@ case 4:
             var17 = var2;
             var16 = var6;
             var6 = copyDataProperties(var17, var16);
-            var6 = 6;
+            var6 = 5;
             var6 = var8[var6];
             var8 = var7.bind(var5)(var6);
             var7 = var8.renderMessagePreviewMarkup;
@@ -74,7 +74,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot4 = var1;
+    var _closure1_slot3 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -91,14 +91,9 @@ case 2:
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SUBTITLE_OPACITY_NORMAL;
-    var _closure1_slot2 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot3 = var4;
-    var4 = 7;
+    var _closure1_slot2 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -120,7 +115,7 @@ case 9:
             var7 = {'variant': null, 'color': 'text-muted', 'lineClamp': 1, 'maxFontSizeMultiplier': 1.75};
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 3;
+            var2 = 2;
             var2 = var5[var2];
             var6 = undefined;
             var4 = var4.bind(var6)(var2);
@@ -130,20 +125,12 @@ case 9:
             var2 = var2.text;
             var2 = var2.variant;
             var7['variant'] = var2;
-            var4 = 1;
-            var2 = {};
-            if(var10) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            var4 = _closure1_slot2;
-case 10:
-            var2['opacity'] = var4;
-            var7['style'] = var2;
             var4 = 'string';
             var2 = typeof var8;
-            if(!(var4 !== var2)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            var5 = _closure1_slot3;
-            var4 = _closure1_slot4;
+            if(!(var4 !== var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var5 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var2 = {};
             var2['channelId'] = var13;
             var2['guildId'] = var12;
@@ -153,12 +140,12 @@ case 13:
             var2['connected'] = var9;
             var2['textProps'] = var7;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0002_ip = 14; continue _fun0002;
-case 12:
-            var5 = _closure1_slot3;
+            _fun0002_ip = 12; continue _fun0002;
+case 10:
+            var5 = _closure1_slot2;
             var4 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var3 = 4;
+            var3 = 3;
             var3 = var9[var3];
             var3 = var4.bind(var6)(var3);
             var4 = var3.Text;
@@ -169,7 +156,7 @@ case 12:
             var7 = 'children';
             var3[var7] = var8;
             var2 = var5.bind(var6)(var4, var3);
-case 14:
+case 12:
             return var2;
 case 8:
             return var1;

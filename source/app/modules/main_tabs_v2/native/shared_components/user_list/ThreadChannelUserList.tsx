@@ -50,14 +50,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ThreadChannelUserList(arg1) {
         var1 = arg1;
-        var18 = var1.channelId;
-        var _closure2_slot0 = var18;
-        var19 = var1.guildId;
-        var _closure2_slot1 = var19;
+        var3 = var1.channelId;
+        var _closure2_slot0 = var3;
+        var20 = var1.guildId;
+        var _closure2_slot1 = var20;
         var8 = var1.disableStickySections;
         var7 = var1.listStyleOverride;
         var6 = var1.disableBottomSafeZone;
         var5 = var1.insetEnd;
+        var19 = var1.onUserPress;
+        var _closure2_slot2 = var19;
         var10 = _closure1_slot1;
         var14 = _closure1_slot2;
         var2 = 7;
@@ -65,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var2 = var10.bind(var4)(var2);
         var2 = var2.bind(var4)();
-        var3 = var2.analyticsLocations;
-        var _closure2_slot2 = var3;
+        var18 = var2.analyticsLocations;
+        var _closure2_slot3 = var18;
         var2 = _closure1_slot0;
         var9 = 8;
         var11 = var14[var9];
@@ -87,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var14[var11];
         var12 = var2.bind(var4)(var11);
         var11 = var12.useThreadMemberListSections;
-        var15 = var11.bind(var12)(var18, var15);
-        var _closure2_slot3 = var15;
+        var15 = var11.bind(var12)(var3, var15);
+        var _closure2_slot4 = var15;
         var9 = var14[var9];
         var16 = var2.bind(var4)(var9);
         var12 = var16.useStateFromStores;
@@ -102,25 +104,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var20 = var12.bind(var16)(var11, var9);
-        var _closure2_slot4 = var20;
+        var21 = var12.bind(var16)(var11, var9);
+        var _closure2_slot5 = var21;
         var9 = 10;
         var9 = var14[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.bind(var4)();
-        var _closure2_slot5 = var9;
+        var _closure2_slot6 = var9;
         var17 = _closure1_slot3;
         var10 = var17.useRef;
         var11 = 0;
         var10 = var10.bind(var17)(var11);
-        var _closure2_slot6 = var10;
+        var _closure2_slot7 = var10;
         var10 = var17.useRef;
         var10 = var10.bind(var17)(var11);
-        var _closure2_slot7 = var10;
+        var _closure2_slot8 = var10;
         var11 = var17.useMemo;
         var10 = new Array(3);
-        var10[0] = var18;
-        var10[1] = var19;
+        var10[0] = var3;
+        var10[1] = var20;
         var10[2] = var9;
         var9 = function() {
             var2 = _closure1_slot1;
@@ -151,13 +153,13 @@ case 3:
                     var1['guildId'] = var5;
                     var5 = _closure2_slot0;
                     var1['channelId'] = var5;
-                    var5 = _closure2_slot7;
+                    var5 = _closure2_slot8;
                     var5 = var5.current;
                     var1['y'] = var5;
-                    var5 = _closure2_slot6;
+                    var5 = _closure2_slot7;
                     var5 = var5.current;
                     var1['height'] = var5;
-                    var4 = _closure2_slot5;
+                    var4 = _closure2_slot6;
                     var1['rowHeight'] = var4;
                     var1 = var2.bind(var3)(var1);
 case 2:
@@ -170,18 +172,18 @@ case 2:
             return var1;
         };
         var11 = var11.bind(var17)(var9, var10);
-        var _closure2_slot8 = var11;
+        var _closure2_slot9 = var11;
         var12 = var17.useCallback;
         var10 = new Array(1);
         var10[0] = var11;
         var9 = function(arg1) {
-            var3 = _closure2_slot6;
+            var3 = _closure2_slot7;
             var2 = arg1;
             var2 = var2.nativeEvent;
             var2 = var2.layout;
             var2 = var2.height;
             var3['current'] = var2;
-            var2 = _closure2_slot8;
+            var2 = _closure2_slot9;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
@@ -191,13 +193,13 @@ case 2:
         var12 = new Array(1);
         var12[0] = var11;
         var9 = function(arg1) {
-            var3 = _closure2_slot7;
+            var3 = _closure2_slot8;
             var2 = arg1;
             var2 = var2.nativeEvent;
             var2 = var2.contentOffset;
             var2 = var2.y;
             var3['current'] = var2;
-            var2 = _closure2_slot8;
+            var2 = _closure2_slot9;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
@@ -205,16 +207,16 @@ case 2:
         var9 = var16.bind(var17)(var9, var12);
         var16 = var17.useEffect;
         var12 = new Array(2);
-        var12[0] = var20;
+        var12[0] = var21;
         var12[1] = var11;
         var11 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var3 = _closure2_slot4;
+                var3 = _closure2_slot5;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var2 = _closure2_slot8;
+                var2 = _closure2_slot9;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
 case 4:
@@ -229,7 +231,7 @@ case 4:
         var11 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var2 = _closure2_slot3;
+                var2 = _closure2_slot4;
                 var1 = arg1;
                 var2 = var2[var1];
                 var1 = null;
@@ -263,16 +265,17 @@ case 9:
         };
         var11 = var16.bind(var17)(var11, var12);
         var16 = var17.useCallback;
-        var12 = new Array(4);
+        var12 = new Array(5);
         var12[0] = var15;
-        var12[1] = var19;
-        var12[2] = var18;
-        var12[3] = var3;
+        var12[1] = var20;
+        var12[2] = var19;
+        var12[3] = var18;
+        var12[4] = var3;
         var3 = function(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var2 = arg2;
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot4;
                 var1 = arg1;
                 var1 = var3[var1];
                 var1 = var1.userIds;
@@ -354,22 +357,33 @@ case 21:
                 var3['isNameplatedRow'] = var6;
                 var3['canShowDisplayNameStylesFont'] = var6;
                 var6 = function onPress(arg1) {
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 14;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = {};
-                    var4 = arg1;
-                    var4 = var4.id;
-                    var2['userId'] = var4;
-                    var5 = _closure2_slot2;
-                    var2['sourceAnalyticsLocations'] = var5;
-                    var4 = _closure2_slot0;
-                    var2['channelId'] = var4;
-                    var2 = var3.bind(var1)(var2);
-                    return var1;
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                        var2 = _closure2_slot2;
+                        var1 = null;
+                        if(!(var1 != var2)) { _fun0005_ip = 4; continue _fun0005 }
+case 5:
+                        var2 = _closure2_slot2;
+                        var1 = undefined;
+                        var1 = var2.bind(var1)();
+case 4:
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 14;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = {};
+                        var5 = arg1;
+                        var5 = var5.id;
+                        var2['userId'] = var5;
+                        var5 = _closure2_slot3;
+                        var2['sourceAnalyticsLocations'] = var5;
+                        var4 = _closure2_slot0;
+                        var2['channelId'] = var4;
+                        var2 = var3.bind(var1)(var2);
+                        return var1;
+                    }
                 };
                 var3['onPress'] = var6;
                 var3['start'] = var5;

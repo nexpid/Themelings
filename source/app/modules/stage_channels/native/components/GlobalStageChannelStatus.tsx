@@ -49,7 +49,7 @@ case 5:
             var2 = var9[var2];
             var2 = var8.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.0bU4FO;
+            var3 = var2["0bU4FO"];
             var2 = {};
             var2['number'] = var6;
             var1 = var4.bind(var5)(var3, var2);
@@ -108,7 +108,7 @@ case 10:
             var2 = var9[var2];
             var2 = var8.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2./YzI63;
+            var2 = var2["/YzI63"];
             var1 = var3.bind(var4)(var2);
 case 9:
             _closure2_slot1 = var1;
@@ -479,7 +479,7 @@ case 37:
             var22 = var15[var19];
             var22 = var18.bind(var5)(var22);
             var22 = var22.t;
-            var22 = var22.1YDv7a;
+            var22 = var22["1YDv7a"];
             var22 = var23.bind(var24)(var22);
             var10['text'] = var22;
             var12 = var13.bind(var5)(var12, var10);
@@ -756,7 +756,7 @@ case 41:
             var2 = var11[var2];
             var2 = var10.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2./YzI63;
+            var2 = var2["/YzI63"];
             var9 = var5.bind(var8)(var2);
 case 29:
             var8 = _closure1_slot1;

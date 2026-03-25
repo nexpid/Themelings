@@ -337,7 +337,7 @@ case 12:
 case 32:
             if(var2) { _fun0005_ip = 33; continue _fun0005 }
 case 34:
-            var4 = var11.6Z1E+7;
+            var4 = var11["6Z1E+7"];
             _fun0005_ip = 35; continue _fun0005;
 case 33:
             var4 = var11.OxP1NC;
@@ -346,7 +346,7 @@ case 35:
 case 18:
             if(var2) { _fun0005_ip = 37; continue _fun0005 }
 case 38:
-            var2 = var11.+N9bxq;
+            var2 = var11["+N9bxq"];
             _fun0005_ip = 39; continue _fun0005;
 case 37:
             var2 = var11.OQ0OUy;

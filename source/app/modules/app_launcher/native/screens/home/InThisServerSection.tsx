@@ -368,7 +368,7 @@ case 18:
             var18 = var18[var22];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18./qG8v7;
+            var18 = var18["/qG8v7"];
             var18 = var19.bind(var20)(var18);
             var15['children'] = var18;
             var15 = var17.bind(var4)(var16, var15);

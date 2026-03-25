@@ -100,7 +100,7 @@ case 15:
             var4 = var5.bind(var8)(var4);
             _fun0001_ip = 16; continue _fun0001;
 case 14:
-            var2 = var2.7AWk50;
+            var2 = var2["7AWk50"];
             var4 = var5.bind(var8)(var2);
 case 16:
             var5 = _closure1_slot0;
@@ -199,7 +199,7 @@ case 28:
             var9 = var13[var9];
             var9 = var12.bind(var6)(var9);
             var9 = var9.t;
-            var9 = var9.4ry6yi;
+            var9 = var9["4ry6yi"];
             var8 = var10.bind(var11)(var9);
 case 27:
             var2 = function C() {

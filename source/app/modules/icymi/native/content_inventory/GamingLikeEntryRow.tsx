@@ -691,7 +691,7 @@ case 30:
             var13 = var24[var16];
             var13 = var25.bind(var5)(var13);
             var13 = var13.t;
-            var17 = var13.9sZWVp;
+            var17 = var13["9sZWVp"];
             var13 = {};
             var36 = var28.name;
             var13['gameName'] = var36;
@@ -732,7 +732,7 @@ case 30:
             var31 = var24[var16];
             var31 = var25.bind(var5)(var31);
             var31 = var31.t;
-            var32 = var31.9sZWVp;
+            var32 = var31["9sZWVp"];
             var31 = {};
             var35 = var28.name;
             var31['gameName'] = var35;

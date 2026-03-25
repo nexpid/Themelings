@@ -137,7 +137,7 @@ case 3:
             var5 = var7.bind(var8)(var5);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var6 = var6.7yxR9t;
+            var6 = var6["7yxR9t"];
             var5 = var7.bind(var8)(var6);
 case 4:
             var1['description'] = var5;
@@ -258,7 +258,7 @@ case 7:
             var14 = var13.t;
             if(var12) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var13 = var14.7J6/nG;
+            var13 = var14["7J6/nG"];
             var13 = var15.bind(var16)(var13);
             _fun0001_ip = 10; continue _fun0001;
 case 8:

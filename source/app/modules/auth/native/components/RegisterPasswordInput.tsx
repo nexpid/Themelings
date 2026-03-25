@@ -81,7 +81,7 @@ case 9:
             var2 = var11[var2];
             var2 = var10.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.2fmTpT;
+            var2 = var2["2fmTpT"];
             var6 = var3.bind(var4)(var2);
             var7 = var8.medium;
             _fun0001_ip = 11; continue _fun0001;
@@ -134,7 +134,7 @@ case 11:
             var7 = var11[var7];
             var7 = var10.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.5gbdUX;
+            var7 = var7["5gbdUX"];
             var8 = var8.bind(var9)(var7);
             var7 = new Array(3);
             var7[0] = var8;

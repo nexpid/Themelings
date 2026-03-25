@@ -121,7 +121,7 @@ case 2:
         var12 = var11[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.4z5PU1;
+        var12 = var12["4z5PU1"];
         var12 = var13.bind(var14)(var12);
         var6['text'] = var12;
         var12 = var11[var9];

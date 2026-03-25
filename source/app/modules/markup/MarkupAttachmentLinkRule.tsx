@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['value'] = var1;
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
-    var1 = /^https:\\/\\/(?:(?:media|images)\.discordapp\.net|(?:cdn\.discordapp\.com))\\/(?:attachments|ephemeral-attachments)\\/\d+\\/\d+\\/([A-Za-z0-9._-]*[A-Za-z0-9_-])(?:[?][a-zA-Z0-9?&=_-]*)?/;
+    var1 = /^https:\/\/(?:(?:media|images)\.discordapp\.net|(?:cdn\.discordapp\.com))\/(?:attachments|ephemeral-attachments)\/\d+\/\d+\/([A-Za-z0-9._-]*[A-Za-z0-9_-])(?:[?][a-zA-Z0-9?&=_-]*)?/;
     var _closure1_slot0 = var1;
     var2 = {};
     var4 = {};

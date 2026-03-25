@@ -114,7 +114,7 @@ case 17:
             var6 = 3;
             var6 = var11[var6];
             var6 = var7.bind(var8)(var6);
-            var7 = var6.4Wc+CC;
+            var7 = var6["4Wc+CC"];
             var6 = {};
             var11 = global;
             var12 = var11.Math;

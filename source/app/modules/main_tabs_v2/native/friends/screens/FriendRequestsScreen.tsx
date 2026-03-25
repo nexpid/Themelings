@@ -1299,7 +1299,7 @@ case 45:
             var17 = var17[var21];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.7uvAKe;
+            var17 = var17["7uvAKe"];
             var16 = var18.bind(var19)(var17);
 case 47:
             var13['title'] = var16;

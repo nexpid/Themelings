@@ -787,7 +787,7 @@ case 42:
                     var16 = var15[var16];
                     var16 = var18.bind(var4)(var16);
                     var16 = var16.t;
-                    var18 = var16./beONw;
+                    var18 = var16["/beONw"];
                     var16 = {};
                     var21 = _closure2_slot4;
                     var21 = var21.title;

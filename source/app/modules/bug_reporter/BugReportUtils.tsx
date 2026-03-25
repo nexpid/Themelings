@@ -492,7 +492,7 @@ case 43:
         var5 = var8[var3];
         var5 = var7.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.+LEfDL;
+        var6 = var5["+LEfDL"];
         var5 = {};
         var5 = var9.bind(var10)(var6, var5);
         var2['description'] = var5;
@@ -509,7 +509,7 @@ case 43:
         var5 = var8[var3];
         var5 = var7.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.9LSuy3;
+        var5 = var5["9LSuy3"];
         var5 = var6.bind(var9)(var5);
         var2['title'] = var5;
         var5 = var8[var3];

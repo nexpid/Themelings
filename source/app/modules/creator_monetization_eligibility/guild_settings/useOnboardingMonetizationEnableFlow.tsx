@@ -291,7 +291,7 @@ case 33:
             var22 = var22[var27];
             var22 = var23.bind(var26)(var22);
             var22 = var22.t;
-            var23 = var22.0o1Q+t;
+            var23 = var22["0o1Q+t"];
             var22 = {};
             var28 = _closure1_slot8;
             var28 = var28.GUIDELINES;

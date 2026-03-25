@@ -62,12 +62,12 @@ case 6:
         var6 = var5[var2];
         var6 = var4.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.4d1mgT;
+        var6 = var6["4d1mgT"];
         var1['minutes'] = var6;
         var6 = var5[var2];
         var6 = var4.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.2wkczD;
+        var6 = var6["2wkczD"];
         var1['hours'] = var6;
         var6 = var5[var2];
         var6 = var4.bind(var3)(var6);
@@ -82,7 +82,7 @@ case 6:
         var2 = var5[var2];
         var2 = var4.bind(var3)(var2);
         var2 = var2.t;
-        var2 = var2.5Gk1ns;
+        var2 = var2["5Gk1ns"];
         var1['years'] = var2;
         return var1;
     };
@@ -101,12 +101,12 @@ case 6:
         var6 = var5[var2];
         var6 = var4.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.3moSHc;
+        var6 = var6["3moSHc"];
         var1['days'] = var6;
         var6 = var5[var2];
         var6 = var4.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.0Ddwr1;
+        var6 = var6["0Ddwr1"];
         var1['months'] = var6;
         var2 = var5[var2];
         var2 = var4.bind(var3)(var2);

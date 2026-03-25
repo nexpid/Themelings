@@ -236,7 +236,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var17[var13];
         var18 = var16.bind(var4)(var18);
         var18 = var18.t;
-        var18 = var18.2RUcaM;
+        var18 = var18["2RUcaM"];
         var18 = var19.bind(var20)(var18);
         var11['children'] = var18;
         var11 = var14.bind(var4)(var12, var11);

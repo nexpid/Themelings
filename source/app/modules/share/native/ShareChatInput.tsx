@@ -181,7 +181,7 @@ case 4:
                 var20 = var11[var14];
                 var20 = var10.bind(var4)(var20);
                 var20 = var20.t;
-                var20 = var20./+MXmw;
+                var20 = var20["/+MXmw"];
                 var20 = var21.bind(var22)(var20);
                 var5['accessibilityLabel'] = var20;
                 var5['onSubmitEditing'] = var19;

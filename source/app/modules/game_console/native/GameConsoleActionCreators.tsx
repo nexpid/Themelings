@@ -73,7 +73,7 @@ case 10: // catch_target0
                     var5 = var11[var5];
                     var5 = var6.bind(var10)(var5);
                     var5 = var5.t;
-                    var6 = var5.6ZyNH/;
+                    var6 = var5["6ZyNH/"];
                     var5 = {};
                     var9 = var9.name;
                     var5['deviceName'] = var9;

@@ -838,7 +838,7 @@ case 38:
                             var2 = var8[var2];
                             var2 = var7.bind(var1)(var2);
                             var2 = var2.t;
-                            var2 = var2.8Qqkc+;
+                            var2 = var2["8Qqkc+"];
                             var2 = var5.bind(var6)(var2);
                             var4[var3] = var2;
 case 41:

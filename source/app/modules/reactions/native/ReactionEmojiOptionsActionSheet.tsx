@@ -733,7 +733,7 @@ case 53:
             var19 = var23[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.8xHmxo;
+            var19 = var19["8xHmxo"];
             var19 = var20.bind(var21)(var19);
             var13['label'] = var19;
             var13['onPress'] = var18;

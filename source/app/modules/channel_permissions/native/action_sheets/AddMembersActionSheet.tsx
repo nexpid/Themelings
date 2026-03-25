@@ -337,7 +337,7 @@ case 25:
             var18 = var25[var18];
             var18 = var24.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.9Oq93m;
+            var18 = var18["9Oq93m"];
             var22 = var22.bind(var23)(var18);
             var18 = new Array(1);
             var18[0] = var22;
@@ -399,7 +399,7 @@ case 30:
             var8 = var8[var18];
             var8 = var23.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.9Oq93m;
+            var8 = var8["9Oq93m"];
             var8 = var9.bind(var22)(var8);
             var1['title'] = var8;
             var1['data'] = var6;
@@ -563,7 +563,7 @@ case 39:
             var28 = var28[var18];
             var28 = var31.bind(var4)(var28);
             var28 = var28.t;
-            var28 = var28.5f3HIC;
+            var28 = var28["5f3HIC"];
             var28 = var29.bind(var30)(var28);
             var25['children'] = var28;
             var25 = var27.bind(var4)(var26, var25);
@@ -1317,7 +1317,7 @@ case 86:
             var21 = var21[var25];
             var21 = var24.bind(var5)(var21);
             var21 = var21.t;
-            var21 = var21.5Wxrcd;
+            var21 = var21["5Wxrcd"];
             var21 = var22.bind(var23)(var21);
             var19['text'] = var21;
             var20 = function onPress() {

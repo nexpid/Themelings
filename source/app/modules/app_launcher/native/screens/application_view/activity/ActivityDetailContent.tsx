@@ -791,7 +791,7 @@ case 42:
             var21 = var20[var21];
             var21 = var32.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.3TSGuD;
+            var21 = var21["3TSGuD"];
             var21 = var24.bind(var29)(var21);
             var11['label'] = var21;
             var11['value'] = var12;

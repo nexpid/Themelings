@@ -27,7 +27,7 @@ case 3:
 case 2:
                 if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var2 = var3.@@iterator;
+                var2 = var3["@@iterator"];
 case 4:
                 if(var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -1695,7 +1695,7 @@ case 116:
                         var5 = var10[var5];
                         var5 = var8.bind(var9)(var5);
                         var5 = var5.t;
-                        var5 = var5.3hF1W4;
+                        var5 = var5["3hF1W4"];
                         var5 = var6.bind(var7)(var5);
                         var2['label'] = var5;
                         var5 = 'blurple';
@@ -1739,7 +1739,7 @@ case 115:
                         var5 = var10[var5];
                         var5 = var8.bind(var9)(var5);
                         var5 = var5.t;
-                        var5 = var5.9nbDJx;
+                        var5 = var5["9nbDJx"];
                         var5 = var6.bind(var7)(var5);
                         var2['label'] = var5;
                         var5 = 'boosting-pink';
@@ -1789,7 +1789,7 @@ case 113:
                     var1 = var7[var1];
                     var1 = var5.bind(var6)(var1);
                     var1 = var1.t;
-                    var1 = var1.9nbDJx;
+                    var1 = var1["9nbDJx"];
                     var1 = var3.bind(var4)(var1);
                     var2['label'] = var1;
                     var1 = 'boosting-pink';
@@ -1849,7 +1849,7 @@ case 113:
                     var8 = var19[var15];
                     var8 = var18.bind(var1)(var8);
                     var8 = var8.t;
-                    var8 = var8.1ESycm;
+                    var8 = var8["1ESycm"];
                     var8 = var9.bind(var10)(var8);
                     var5['title'] = var8;
                     var8 = var19[var15];
@@ -1859,7 +1859,7 @@ case 113:
                     var8 = var19[var15];
                     var8 = var18.bind(var1)(var8);
                     var8 = var8.t;
-                    var8 = var8.5IlFpu;
+                    var8 = var8["5IlFpu"];
                     var8 = var9.bind(var10)(var8);
                     var5['subtitle'] = var8;
                     var8 = var12.emptyContainer;

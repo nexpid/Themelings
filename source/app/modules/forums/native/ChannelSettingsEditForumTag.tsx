@@ -298,7 +298,7 @@ case 15:
                         var5 = var7.bind(var8)(var5);
                         _fun0003_ip = 16; continue _fun0003;
 case 14:
-                        var6 = var6./jubeD;
+                        var6 = var6["/jubeD"];
                         var5 = var7.bind(var8)(var6);
 case 16:
                         var1['children'] = var5;
@@ -744,7 +744,7 @@ case 57:
             var24 = var21[var20];
             var24 = var25.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.3v8kZH;
+            var24 = var24["3v8kZH"];
             var24 = var26.bind(var27)(var24);
             var19['children'] = var24;
             var19 = var17.bind(var4)(var23, var19);

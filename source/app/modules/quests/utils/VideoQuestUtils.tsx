@@ -206,7 +206,7 @@ case 26:
             var3 = var8[var3];
             var3 = var4.bind(var7)(var3);
             var3 = var3.t;
-            var4 = var3.0BZpdi;
+            var4 = var3["0BZpdi"];
             var3 = {};
             var3['count'] = var9;
             var6 = var5.bind(var6)(var4, var3);

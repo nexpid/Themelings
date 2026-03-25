@@ -262,7 +262,7 @@ case 8:
             var5 = var6[var5];
             var5 = var7.bind(var3)(var5);
             var5 = var5.t;
-            var7 = var5.7NBgIX;
+            var7 = var5["7NBgIX"];
             var5 = {};
             var5['username'] = var11;
             var5['usernameOnClick'] = var10;

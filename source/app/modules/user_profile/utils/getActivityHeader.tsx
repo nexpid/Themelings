@@ -439,7 +439,7 @@ case 37:
             var6 = var16[var10];
             var6 = var15.bind(var13)(var6);
             var6 = var6.t;
-            var7 = var6.4CQq9Q;
+            var7 = var6["4CQq9Q"];
             var6 = {};
             var12 = var16[var10];
             var12 = var15.bind(var13)(var12);
@@ -470,7 +470,7 @@ case 32:
             var6 = var16[var10];
             var6 = var15.bind(var13)(var6);
             var6 = var6.t;
-            var7 = var6.4CQq9Q;
+            var7 = var6["4CQq9Q"];
             var6 = {};
             var12 = var16[var10];
             var12 = var15.bind(var13)(var12);

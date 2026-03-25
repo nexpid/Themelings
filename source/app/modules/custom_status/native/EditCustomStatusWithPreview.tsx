@@ -848,7 +848,7 @@ case 37:
             var28 = var29[var22];
             var28 = var23.bind(var5)(var28);
             var28 = var28.t;
-            var28 = var28.+14vvU;
+            var28 = var28["+14vvU"];
             var28 = var30.bind(var31)(var28);
             var18['label'] = var28;
             var18['arrow'] = var26;

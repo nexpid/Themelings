@@ -260,7 +260,7 @@ case 4:
             var19 = var13[var20];
             var19 = var15.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.1/gpFh;
+            var19 = var19["1/gpFh"];
             var19 = var21.bind(var22)(var19);
             var11['children'] = var19;
             var16 = var3.bind(var4)(var16, var11);
@@ -372,7 +372,7 @@ case 10:
             var21 = var16[var20];
             var21 = var19.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.+4O9nX;
+            var21 = var21["+4O9nX"];
             var21 = var22.bind(var23)(var21);
             var14['label'] = var21;
             var14 = var15.bind(var4)(var18, var14);

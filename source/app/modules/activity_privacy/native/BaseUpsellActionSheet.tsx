@@ -232,7 +232,7 @@ case 19:
             var19 = var26[var30];
             var19 = var27.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.0fkj8J;
+            var20 = var19["0fkj8J"];
             var19 = {};
             var32 = var32.length;
             var19['count'] = var32;
@@ -287,10 +287,10 @@ case 20:
             var24 = var24.t;
             if(var25) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-            var25 = var24.+NoTYm;
+            var25 = var24["+NoTYm"];
             _fun0001_ip = 24; continue _fun0001;
 case 22:
-            var25 = var24.8ZLbvR;
+            var25 = var24["8ZLbvR"];
 case 24:
             var24 = {};
             var24['guildName'] = var28;

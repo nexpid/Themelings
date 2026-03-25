@@ -778,7 +778,7 @@ case 67:
                     var2 = var9[var2];
                     var2 = var7.bind(var8)(var2);
                     var2 = var2.t;
-                    var2 = var2.41014u;
+                    var2 = var2["41014u"];
                     var2 = var4.bind(var6)(var2);
                     var3['label'] = var2;
                     var2 = new Array(1);

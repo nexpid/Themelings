@@ -547,7 +547,7 @@ case 0:
             var31 = var29[var22];
             var31 = var32.bind(var4)(var31);
             var31 = var31.t;
-            var31 = var31.5hKnyC;
+            var31 = var31["5hKnyC"];
             var31 = var33.bind(var34)(var31);
             var27['label'] = var31;
             var31 = var28.STANDARD;
@@ -837,7 +837,7 @@ case 2:
             var17 = var17[var22];
             var17 = var21.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.3340dY;
+            var17 = var17["3340dY"];
             var17 = var19.bind(var20)(var17);
             var14['label'] = var17;
             var17 = false;

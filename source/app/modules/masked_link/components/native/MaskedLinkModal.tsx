@@ -107,7 +107,7 @@ case 0:
             var5 = var5[var20];
             var5 = var11.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.3w1QGl;
+            var5 = var5["3w1QGl"];
             var5 = var6.bind(var7)(var5);
             var1['title'] = var5;
             var7 = _closure1_slot0;
@@ -190,7 +190,7 @@ case 7:
             var9 = var11[var20];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9./g10LC;
+            var9 = var9["/g10LC"];
             var9 = var23.bind(var24)(var9);
             var10['text'] = var9;
             var9 = 'cancel';

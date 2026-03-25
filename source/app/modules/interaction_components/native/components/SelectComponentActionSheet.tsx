@@ -618,7 +618,7 @@ case 0:
                 var2 = var8[var2];
                 var2 = var7.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.7gxe9o;
+                var2 = var2["7gxe9o"];
                 var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
                 return var1;

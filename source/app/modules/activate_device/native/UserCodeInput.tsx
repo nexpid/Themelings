@@ -183,7 +183,7 @@ case 2:
             var16 = var18[var14];
             var16 = var17.bind(var4)(var16);
             var16 = var16.t;
-            var19 = var16.0tbz6x;
+            var19 = var16["0tbz6x"];
             var16 = {};
             var22 = var10.USER_CODE_LENGTH;
             var16['number'] = var22;
@@ -206,7 +206,7 @@ case 2:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.3PatSz;
+            var14 = var14["3PatSz"];
             var14 = var15.bind(var16)(var14);
             var6['text'] = var14;
             var6['onPress'] = var13;

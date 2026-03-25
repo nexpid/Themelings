@@ -669,7 +669,7 @@ case 42:
                 var22 = var21[var26];
                 var22 = var24.bind(var4)(var22);
                 var22 = var22.t;
-                var22 = var22.1mRkFr;
+                var22 = var22["1mRkFr"];
                 var22 = var23.bind(var25)(var22);
                 var19['children'] = var22;
                 var19 = var7.bind(var4)(var20, var19);

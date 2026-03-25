@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var16[var12];
         var10 = var15.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.+/Pv0h;
+        var10 = var10["+/Pv0h"];
         var10 = var13.bind(var14)(var10);
         var8['children'] = var10;
         var9 = var3.bind(var4)(var9, var8);

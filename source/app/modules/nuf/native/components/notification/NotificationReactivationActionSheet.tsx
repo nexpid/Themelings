@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var19[var15];
         var15 = var18.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15./L3kom;
+        var15 = var15["/L3kom"];
         var15 = var16.bind(var17)(var15);
         var12['text'] = var15;
         var12['onPress'] = var14;

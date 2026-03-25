@@ -569,7 +569,7 @@ case 20:
             var18 = var22[var18];
             var18 = var21.bind(var5)(var18);
             var18 = var18.t;
-            var18 = var18.7hB4kg;
+            var18 = var18["7hB4kg"];
             var18 = var19.bind(var20)(var18);
             var15['children'] = var18;
             var15 = var17.bind(var5)(var16, var15);

@@ -224,7 +224,7 @@ case 17:
         var19 = var14[var10];
         var19 = var13.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.4jIAa+;
+        var19 = var19["4jIAa+"];
         var19 = var20.bind(var21)(var19);
         var7['label'] = var19;
         var19 = 13;
@@ -474,7 +474,7 @@ case 18:
             var19 = var13[var17];
             var19 = var16.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.13ofGu;
+            var19 = var19["13ofGu"];
             var19 = var20.bind(var21)(var19);
             var14['text'] = var19;
             var19 = function onPress() {
@@ -812,7 +812,7 @@ case 32:
             var19 = var13[var17];
             var19 = var16.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.13ofGu;
+            var19 = var19["13ofGu"];
             var19 = var20.bind(var21)(var19);
             var14['text'] = var19;
             var19 = function onPress() {
@@ -1089,7 +1089,7 @@ case 3:
             var11 = var10[var6];
             var11 = var9.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.7lo8+e;
+            var11 = var11["7lo8+e"];
             var11 = var12.bind(var14)(var11);
             var1['headerTitle'] = var11;
             var11 = 16;
@@ -1120,7 +1120,7 @@ case 3:
             var12 = var10[var6];
             var12 = var9.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.7lo8+e;
+            var12 = var12["7lo8+e"];
             var12 = var14.bind(var15)(var12);
             var1['headerTitle'] = var12;
             var12 = var10[var11];
@@ -1155,7 +1155,7 @@ case 3:
             var12 = var10[var6];
             var12 = var9.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.7lo8+e;
+            var12 = var12["7lo8+e"];
             var12 = var14.bind(var15)(var12);
             var1['headerTitle'] = var12;
             var11 = var10[var11];
@@ -1197,7 +1197,7 @@ case 3:
             var6 = var10[var6];
             var6 = var9.bind(var5)(var6);
             var6 = var6.t;
-            var6 = var6.13/7kX;
+            var6 = var6["13/7kX"];
             var6 = var7.bind(var8)(var6);
             var1['headerBackTitle'] = var6;
             var1 = var4.bind(var5)(var3, var1);

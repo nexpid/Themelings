@@ -1,0 +1,267 @@
+// app/modules/game_profile/GameProfileHttpUtils.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot5 = var4;
+    var4 = function() {
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var2 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                    StartGenerator();
+                    var9 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                    var6 = var9;
+                    var7 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var5 = 3;
+                    var4 = var2[var5];
+                    var2 = undefined;
+                    var8 = var7.bind(var2)(var4);
+                    var7 = var8.dispatch;
+                    var4 = {};
+                    var10 = 'GAME_PROFILE_GET_SHOP_COLLECTION_START';
+                    var4['type'] = var10;
+                    var4['collectionId'] = var9;
+                    var4 = var7.bind(var8)(var4);
+case 4: // try_start_0
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var8[var4];
+                    var8 = var7.bind(var2)(var4);
+                    var7 = var8.httpGetWithCountryCodeQuery;
+                    var4 = {};
+                    var11 = _closure1_slot5;
+                    var10 = var11.STOREFRONT_COLLECTION_WITH_PRODUCTS;
+                    var9 = var6;
+                    var9 = var10.bind(var11)(var9);
+                    var4['url'] = var9;
+                    var9 = {};
+                    var10 = _closure1_slot4;
+                    var10 = var10.locale;
+                    var9['locale'] = var10;
+                    var4['query'] = var9;
+                    var9 = false;
+                    var4['rejectWithError'] = var9;
+                    var9 = 2;
+                    var4['retries'] = var9;
+                    var4 = var7.bind(var8)(var4);
+                    SaveGenerator(address=163);
+case 5:
+                    return var4;
+case 6:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                    if(var7) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+                    var7 = var4.body;
+                    var9 = var7.products;
+                    var8 = var9.flatMap;
+                    var7 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.sku_ids;
+                        return var1;
+                    };
+                    var10 = var8.bind(var9)(var7);
+                    var8 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var5];
+                    var9 = var8.bind(var2)(var7);
+                    var8 = var9.dispatch;
+                    var7 = {};
+                    var11 = 'GAME_PROFILE_GET_SHOP_COLLECTION_SUCCESS';
+                    var7['type'] = var11;
+                    var11 = var6;
+                    var7['collectionId'] = var11;
+                    var7['skuIds'] = var10;
+                    var7 = var8.bind(var9)(var7);
+case 9: // try_end0
+                    _fun0001_ip = 10; continue _fun0001;
+case 7:
+                    return var4;
+case 11: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var5];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'GAME_PROFILE_GET_SHOP_COLLECTION_ERROR';
+                    var3['type'] = var7;
+                    var3['collectionId'] = var6;
+                    var3 = var4.bind(var5)(var3);
+case 10:
+                    return var2;
+case 2:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
+        return var1;
+    };
+    var4 = var4.bind(var1)();
+    var2 = function() {
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var2 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    StartGenerator();
+                    var2 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+                    var8 = var2;
+                    var _closure4_slot0 = var2;
+                    var5 = undefined;
+                    var6 = undefined;
+case 14: // try_start_0
+                    var7 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var9[var2];
+                    var2 = var7.bind(var5)(var2);
+                    var9 = var2.HTTP;
+                    var7 = var9.get;
+                    var2 = {};
+                    var12 = _closure1_slot5;
+                    var11 = var12.SIMILAR_GAMES;
+                    var10 = var8;
+                    var10 = var11.bind(var12)(var10);
+                    var2['url'] = var10;
+                    var10 = false;
+                    var2['rejectWithError'] = var10;
+                    var2 = var7.bind(var9)(var2);
+                    SaveGenerator(address=98);
+case 15:
+                    return var2;
+case 16:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
+                    if(var7) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                    var7 = var2.body;
+                    var9 = var7.similar_games;
+                    var6 = var9;
+                    var7 = null;
+                    if(!(var7 == var9)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+                    var7 = new Array(0);
+                    _fun0002_ip = 21; continue _fun0002;
+case 19:
+                    var7 = var6;
+case 21:
+                    var6 = var7.filter;
+                    var4 = function(arg1) {
+                        var2 = _closure4_slot0;
+                        var1 = arg1;
+                        var1 = var1 !== var2;
+                        return var1;
+                    };
+                    var7 = var6.bind(var7)(var4);
+                    var4 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var6[var3];
+                    var6 = var4.bind(var5)(var3);
+                    var4 = var6.dispatch;
+                    var3 = {};
+                    var9 = 'GAME_PROFILE_GET_SIMILAR_GAMES_SUCCESS';
+                    var3['type'] = var9;
+                    var3['applicationId'] = var8;
+                    var3['games'] = var7;
+                    var3 = var4.bind(var6)(var3);
+case 22: // try_end0
+                    return var5;
+case 17:
+                    return var2;
+case 23: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    var3 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var6[var2];
+                    var2 = var3.bind(var5)(var2);
+                    var2 = var2.APIError;
+                    var3 = var2.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var2}});
+                    var14 = var3;
+                    var13 = var4;
+                    var2 = new var14[var2](var13, var12);
+                    var2 = var2 instanceof Object ? var2 : var3;
+                    throw var2;
+case 12:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
+        return var1;
+    };
+    var2 = var2.bind(var1)();
+    var5 = 7;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/game_profile/GameProfileHttpUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['getShopCollection'] = var4;
+    var3['getSimilarGames'] = var2;
+    return var1;
+})();

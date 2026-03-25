@@ -11,7 +11,7 @@ case 0:
             var5 = arg1;
             var2 = arg2;
             var3 = var5.split;
-            var1 = /[\/\\]/;
+            var1 = /[/\\]/;
             var3 = var3.bind(var5)(var1);
             var1 = var3.length;
             var4 = 1;

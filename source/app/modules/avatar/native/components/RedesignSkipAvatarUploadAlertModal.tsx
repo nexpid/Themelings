@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var15[var9];
         var6 = var14.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.1EPySE;
+        var6 = var6["1EPySE"];
         var6 = var7.bind(var11)(var6);
         var1['content'] = var6;
         var7 = _closure1_slot3;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var15[var9];
         var9 = var14.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.7eZ3ji;
+        var9 = var9["7eZ3ji"];
         var9 = var12.bind(var13)(var9);
         var10['text'] = var9;
         var9 = 'add-profile-picture';

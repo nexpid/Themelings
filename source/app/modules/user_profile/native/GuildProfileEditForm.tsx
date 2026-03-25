@@ -185,7 +185,7 @@ case 6:
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.95hPAe;
+            var9 = var9["95hPAe"];
             var9 = var10.bind(var11)(var9);
             var5['editButtonAccessibilityLabel'] = var9;
             var5['editDisabled'] = var8;
@@ -960,7 +960,7 @@ case 68:
             var55 = var53[var21];
             var55 = var56.bind(var5)(var55);
             var55 = var55.t;
-            var55 = var55.+T3RI/;
+            var55 = var55["+T3RI/"];
             var55 = var57.bind(var58)(var55);
             var31['label'] = var55;
             var31['errorMessage'] = var54;

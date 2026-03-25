@@ -29,7 +29,7 @@ case 0:
             var1 = var1.t;
             if(var18) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = var1.0lpCFG;
+            var5 = var1["0lpCFG"];
             var12 = var2.bind(var3)(var5);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -280,7 +280,7 @@ case 17:
             var1 = var1.t;
             if(var5) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-            var17 = var1.1Hz+Sl;
+            var17 = var1["1Hz+Sl"];
             _fun0002_ip = 20; continue _fun0002;
 case 18:
             var17 = var1.PZpY9c;

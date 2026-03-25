@@ -884,7 +884,7 @@ case 37:
                             var2 = var10[var2];
                             var2 = var5.bind(var3)(var2);
                             var2 = var2.t;
-                            var5 = var2.5Uzkdp;
+                            var5 = var2["5Uzkdp"];
                             var2 = {};
                             var10 = var8.globalName;
                             if(!(var9 == var10)) { _fun0010_ip = 38; continue _fun0010 }
@@ -1064,7 +1064,7 @@ case 39:
                 var5 = var9[var5];
                 var5 = var8.bind(var1)(var5);
                 var5 = var5.t;
-                var5 = var5.7MAxkR;
+                var5 = var5["7MAxkR"];
                 var5 = var6.bind(var7)(var5);
                 var2['content'] = var5;
                 var2 = var3.bind(var4)(var2);

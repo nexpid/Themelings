@@ -91,7 +91,7 @@ case 0:
             var2 = var1[var8];
             var2 = var6.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.5smP3R;
+            var2 = var2["5smP3R"];
             var13 = var3.bind(var7)(var2);
             var2 = var1[var8];
             var2 = var6.bind(var4)(var2);
@@ -100,7 +100,7 @@ case 0:
             var2 = var1[var8];
             var2 = var6.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.0uxA2V;
+            var2 = var2["0uxA2V"];
             var9 = var3.bind(var7)(var2);
             var2 = var1[var8];
             var2 = var6.bind(var4)(var2);
@@ -137,7 +137,7 @@ case 6:
             var1 = var14.TVTIT1;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var1 = var14.0ZBLiZ;
+            var1 = var14["0ZBLiZ"];
 case 7:
             var1 = var2.bind(var3)(var1);
             var7['label'] = var1;
@@ -150,7 +150,7 @@ case 7:
             var1 = var14[var8];
             var1 = var16.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.6Y1t5P;
+            var1 = var1["6Y1t5P"];
             var1 = var2.bind(var3)(var1);
             var7['problemsHeader'] = var1;
             var1 = 9;

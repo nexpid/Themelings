@@ -25,7 +25,7 @@ case 3:
 case 2:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = var3.@@iterator;
+            var2 = var3["@@iterator"];
 case 4:
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -571,7 +571,7 @@ case 46:
             var5 = var15[var5];
             var5 = var14.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.06rDHU;
+            var5 = var5["06rDHU"];
             var5 = var12.bind(var13)(var5);
             var9['label'] = var5;
             var5 = _closure1_slot4;

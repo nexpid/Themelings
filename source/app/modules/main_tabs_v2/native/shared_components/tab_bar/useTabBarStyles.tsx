@@ -317,7 +317,7 @@ case 11:
             var8 = var13[var3];
             var8 = var5.bind(var4)(var8);
             var8 = var8.colors;
-            var8 = var8.TAB_LABEL_TEXT_DEFAULT;
+            var8 = var8.ICON_MUTED;
             var11 = var10.bind(var11)(var8);
             var _closure2_slot5 = var11;
             var8 = var13[var7];
@@ -326,7 +326,7 @@ case 11:
             var8 = var13[var3];
             var8 = var5.bind(var4)(var8);
             var8 = var8.colors;
-            var8 = var8.TAB_LABEL_TEXT_FOCUSED;
+            var8 = var8.ICON_STRONG;
             var10 = var10.bind(var17)(var8);
             var _closure2_slot6 = var10;
             var8 = var13[var7];

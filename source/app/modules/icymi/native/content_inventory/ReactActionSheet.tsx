@@ -141,7 +141,7 @@ case 0:
             var2 = var1[var25];
             var2 = var9.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.5IEsGx;
+            var2 = var2["5IEsGx"];
             var5 = var5.bind(var10)(var2);
             var2 = var45.content_type;
             var10 = 14;

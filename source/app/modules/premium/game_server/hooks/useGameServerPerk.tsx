@@ -123,7 +123,7 @@ case 4:
                 var10 = var11.format;
                 var8 = var6[var8];
                 var8 = var4.bind(var5)(var8);
-                var9 = var8.+UqyGU;
+                var9 = var8["+UqyGU"];
                 var8 = {};
                 var12 = _closure2_slot3;
                 var8['gameName'] = var12;

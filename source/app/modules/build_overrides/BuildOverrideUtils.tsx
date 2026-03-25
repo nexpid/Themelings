@@ -392,7 +392,7 @@ case 27:
                 var1 = var8.bind(var9)(var1);
                 var1 = var6.bind(var7)(var1);
                 var1 = var4.bind(var5)(var1);
-                var1 = var1.$meta;
+                var1 = var1["$meta"];
                 var1 = var1.experiments;
                 var2 = var1;
                 if(!(var3 == var1)) { _fun0008_ip = 28; continue _fun0008 }

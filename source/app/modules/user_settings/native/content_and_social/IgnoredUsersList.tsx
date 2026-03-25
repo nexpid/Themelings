@@ -165,7 +165,7 @@ case 3:
             var12 = var18[var12];
             var12 = var17.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.93ZDWE;
+            var12 = var12["93ZDWE"];
             var12 = var15.bind(var16)(var12);
             var12 = var3.bind(var5)(var14, var13, var12);
             var11[1] = var12;

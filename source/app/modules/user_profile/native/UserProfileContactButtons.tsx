@@ -270,7 +270,7 @@ case 24:
             var3 = var3.t;
             if(var6) { _fun0003_ip = 25; continue _fun0003 }
 case 26:
-            var10 = var3.7815ae;
+            var10 = var3["7815ae"];
             var10 = var9.bind(var12)(var10);
             _fun0003_ip = 27; continue _fun0003;
 case 25:
@@ -786,7 +786,7 @@ case 51:
             var31 = var31[var34];
             var31 = var36.bind(var4)(var31);
             var31 = var31.t;
-            var31 = var31.7AWk50;
+            var31 = var31["7AWk50"];
             var30 = var32.bind(var33)(var31);
 case 50:
             var9['label'] = var30;

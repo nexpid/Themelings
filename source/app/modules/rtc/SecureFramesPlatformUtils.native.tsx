@@ -220,7 +220,7 @@ case 12:
             var11 = var14[var6];
             var11 = var13.bind(var1)(var11);
             var11 = var11.t;
-            var11 = var11.5ICxE6;
+            var11 = var11["5ICxE6"];
             var11 = var12.bind(var15)(var11);
             var3['title'] = var11;
             var11 = var14[var6];

@@ -391,7 +391,7 @@ case 9:
             var19 = var21[var16];
             var19 = var17.bind(var5)(var19);
             var19 = var19.t;
-            var22 = var19.5zQYEz;
+            var22 = var19["5zQYEz"];
             var19 = {};
             var19['guildCount'] = var27;
             var19 = var23.bind(var26)(var22, var19);

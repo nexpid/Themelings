@@ -185,7 +185,7 @@ case 11:
             var7 = var11[var7];
             var7 = var10.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7./Nz9rY;
+            var7 = var7["/Nz9rY"];
             var7 = var8.bind(var9)(var7);
             var2['text'] = var7;
             var2['onPress'] = var6;
@@ -559,7 +559,7 @@ case 33:
                 var16 = var16[var20];
                 var16 = var19.bind(var5)(var16);
                 var16 = var16.t;
-                var16 = var16.4n8OJn;
+                var16 = var16["4n8OJn"];
                 var16 = var17.bind(var18)(var16);
                 var12['text'] = var16;
                 var15 = var15.handleReload;

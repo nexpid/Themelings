@@ -359,7 +359,7 @@ case 23:
             var19 = var19[var23];
             var19 = var22.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.5Wxrcd;
+            var19 = var19["5Wxrcd"];
             var19 = var20.bind(var21)(var19);
             var15['text'] = var19;
             var18 = function handleSkip() {

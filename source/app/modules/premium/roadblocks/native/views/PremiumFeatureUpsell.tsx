@@ -332,7 +332,7 @@ case 27:
             var13 = var13.t;
             if(var11) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
-            var11 = var13.8x0jKT;
+            var11 = var13["8x0jKT"];
             var11 = var14.bind(var15)(var11);
             _fun0002_ip = 30; continue _fun0002;
 case 28:

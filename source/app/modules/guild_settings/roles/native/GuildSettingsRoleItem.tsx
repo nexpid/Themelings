@@ -158,7 +158,7 @@ case 2:
             var10 = var10[var12];
             var10 = var23.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.0dOFq+;
+            var10 = var10["0dOFq+"];
             var10 = var13.bind(var18)(var10);
             var11['label'] = var10;
             var10 = new Array(1);
@@ -669,7 +669,7 @@ case 49:
             var8 = var8[var12];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.72gF3G;
+            var8 = var8["72gF3G"];
             var7 = var9.bind(var10)(var8);
 case 51:
             var1['subLabel'] = var7;

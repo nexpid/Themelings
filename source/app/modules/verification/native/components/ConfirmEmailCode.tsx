@@ -310,7 +310,7 @@ case 16:
             var25 = var15[var22];
             var25 = var8.bind(var5)(var25);
             var25 = var25.t;
-            var25 = var25.8mZX6M;
+            var25 = var25["8mZX6M"];
             var25 = var26.bind(var27)(var25);
             var17['label'] = var25;
             var25 = 'emailAddress';
@@ -384,7 +384,7 @@ case 21:
                         var8 = var12[var8];
                         var8 = var11.bind(var2)(var8);
                         var8 = var8.t;
-                        var8 = var8.84yeoz;
+                        var8 = var8["84yeoz"];
                         var8 = var9.bind(var10)(var8);
                         var4['content'] = var8;
                         var4 = var5.bind(var7)(var4);

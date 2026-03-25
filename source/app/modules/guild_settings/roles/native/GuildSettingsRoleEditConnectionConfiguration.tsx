@@ -769,7 +769,7 @@ case 83:
         var17 = var16[var13];
         var17 = var15.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17./w/EYk;
+        var17 = var17["/w/EYk"];
         var6['fieldTextHook'] = var17;
         var17 = _closure1_slot7;
         var17 = var17.BLUESKY_FOLLOWERS_COUNT;
@@ -789,7 +789,7 @@ case 83:
         var13 = var16[var13];
         var13 = var15.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.5I4mVS;
+        var13 = var13["5I4mVS"];
         var6['fieldTextHook'] = var13;
         var13 = _closure1_slot7;
         var13 = var13.BLUESKY_STATUSES_COUNT;
@@ -963,7 +963,7 @@ case 83:
         var15 = var18[var13];
         var15 = var17.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15./w/EYk;
+        var15 = var15["/w/EYk"];
         var6['fieldTextHook'] = var15;
         var15 = _closure1_slot7;
         var15 = var15.TWITTER_FOLLOWERS_COUNT;
@@ -983,7 +983,7 @@ case 83:
         var15 = var18[var13];
         var15 = var17.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15.+NFH7k;
+        var15 = var15["+NFH7k"];
         var6['fieldTextHook'] = var15;
         var15 = _closure1_slot7;
         var15 = var15.TWITTER_STATUSES_COUNT;
@@ -1101,7 +1101,7 @@ case 83:
         var15 = var18[var13];
         var15 = var17.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15.0cKdka;
+        var15 = var15["0cKdka"];
         var15 = var16.bind(var19)(var15);
         var6['fieldText'] = var15;
         var15 = _closure1_slot7;
@@ -1199,7 +1199,7 @@ case 83:
         var13 = var18[var13];
         var13 = var17.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.0JyE8I;
+        var13 = var13["0JyE8I"];
         var13 = var15.bind(var16)(var13);
         var6['fieldText'] = var13;
         var13 = _closure1_slot7;
@@ -1335,7 +1335,7 @@ case 83:
         var13 = var18[var13];
         var13 = var17.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.39wASN;
+        var13 = var13["39wASN"];
         var13 = var15.bind(var16)(var13);
         var6['fieldText'] = var13;
         var13 = _closure1_slot7;
@@ -1409,7 +1409,7 @@ case 83:
         var17 = var16[var13];
         var17 = var15.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17./w/EYk;
+        var17 = var17["/w/EYk"];
         var6['fieldTextHook'] = var17;
         var17 = _closure1_slot7;
         var17 = var17.TIKTOK_FOLLOWER_COUNT;

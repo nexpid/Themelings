@@ -320,7 +320,7 @@ case 55:
             var1 = var11[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.2TbM/G;
+            var1 = var1["2TbM/G"];
             var6 = var2.bind(var3)(var1);
 case 54:
             _fun0001_ip = 56; continue _fun0001;
@@ -430,7 +430,7 @@ case 43:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.7Xq/nV;
+            var8 = var8["7Xq/nV"];
             var8 = var9.bind(var10)(var8);
             var5['ctaText'] = var8;
             var8 = true;

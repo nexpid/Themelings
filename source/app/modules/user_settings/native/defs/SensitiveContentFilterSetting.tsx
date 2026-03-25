@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var7[var2];
         var3 = var6.bind(var5)(var3);
         var3 = var3.t;
-        var3 = var3.5mnTa7;
+        var3 = var3["5mnTa7"];
         var3 = var4.bind(var8)(var3);
         var1[4] = var3;
         var3 = var7[var2];

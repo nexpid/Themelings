@@ -816,7 +816,7 @@ case 38:
             var13 = var13[var20];
             var13 = var19.bind(var4)(var13);
             var13 = var13.t;
-            var20 = var13.3OxP4q;
+            var20 = var13["3OxP4q"];
             var19 = {};
             var13 = _closure1_slot7;
             var19['numMembers'] = var13;

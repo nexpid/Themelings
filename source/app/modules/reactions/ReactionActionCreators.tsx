@@ -1262,7 +1262,7 @@ case 83:
                             var1 = var9[var1];
                             var1 = var8.bind(var4)(var1);
                             var1 = var1.t;
-                            var4 = var1.3l9f6u;
+                            var4 = var1["3l9f6u"];
                             var1 = {};
                             var7 = _closure4_slot2;
                             var7 = var7.name;

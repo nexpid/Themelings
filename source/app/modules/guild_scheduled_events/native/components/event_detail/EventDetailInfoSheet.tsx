@@ -428,7 +428,7 @@ case 6:
             var21 = var21[var29];
             var21 = var23.bind(var4)(var21);
             var21 = var21.t;
-            var23 = var21.+DLsD8;
+            var23 = var21["+DLsD8"];
             var21 = {};
             var21['count'] = var27;
             var21 = var24.bind(var25)(var23, var21);
@@ -483,7 +483,7 @@ case 10:
             var25 = var25[var29];
             var25 = var26.bind(var4)(var25);
             var25 = var25.t;
-            var26 = var25.66DLFs;
+            var26 = var25["66DLFs"];
             var25 = {};
             var29 = function usernameHook() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {

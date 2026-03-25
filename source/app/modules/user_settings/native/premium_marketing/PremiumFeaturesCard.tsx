@@ -381,7 +381,7 @@ case 9:
             var8 = var16[var8];
             var8 = var9.bind(var5)(var8);
             var8 = var8.t;
-            var9 = var8.3ZiutU;
+            var9 = var8["3ZiutU"];
             var8 = {};
             var18 = var11 == var17;
             var16 = undefined;
@@ -929,7 +929,7 @@ case 99:
             var29 = var29[var22];
             var29 = var32.bind(var4)(var29);
             var29 = var29.t;
-            var29 = var29.8x0jKT;
+            var29 = var29["8x0jKT"];
             var29 = var30.bind(var31)(var29);
             _fun0002_ip = 100; continue _fun0002;
 case 98:

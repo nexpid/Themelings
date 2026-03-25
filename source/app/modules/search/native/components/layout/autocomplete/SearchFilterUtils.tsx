@@ -223,7 +223,7 @@ case 23:
             var3 = var8[var3];
             var3 = var7.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.8Fmo42;
+            var3 = var3["8Fmo42"];
             var2 = var4.bind(var5)(var3);
 case 25:
             return var2;
@@ -269,7 +269,7 @@ case 8:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.6iuVMn;
+            var1 = var1["6iuVMn"];
             var1 = var2.bind(var3)(var1);
             return var1;
         }

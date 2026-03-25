@@ -145,7 +145,7 @@ case 6:
                     var1 = var5[var8];
                     var1 = var9.bind(var7)(var1);
                     var1 = var1.t;
-                    var1 = var1.1zFMqU;
+                    var1 = var1["1zFMqU"];
                     var1 = var10.bind(var11)(var1);
                     var10 = 7;
                     var5 = var5[var10];

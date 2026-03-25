@@ -1418,7 +1418,7 @@ case 40:
             var19 = var21[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.13/7kX;
+            var19 = var19["13/7kX"];
             var19 = var23.bind(var24)(var19);
             var14['accessibilityLabel'] = var19;
             var19 = 29;

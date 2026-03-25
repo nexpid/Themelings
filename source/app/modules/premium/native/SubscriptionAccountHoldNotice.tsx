@@ -131,7 +131,7 @@ case 3:
             var16 = var15[var11];
             var16 = var14.bind(var5)(var16);
             var16 = var16.t;
-            var17 = var16.7I21Iz;
+            var17 = var16["7I21Iz"];
             var16 = {};
             var21 = var20.currentPeriodEnd;
             var16['endDate'] = var21;

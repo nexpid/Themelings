@@ -209,7 +209,7 @@ case 0:
             var2 = var2.t;
             if(var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var11 = var2./XWgfG;
+            var11 = var2["/XWgfG"];
             var3 = {};
             var3['endDate'] = var10;
             var22 = var5.bind(var9)(var11, var3);
@@ -235,7 +235,7 @@ case 6:
             var19 = var3.bind(var5)(var8);
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var2 = var2.2cHUti;
+            var2 = var2["2cHUti"];
             var19 = var3.bind(var5)(var2);
 case 7:
             var5 = _closure1_slot4;

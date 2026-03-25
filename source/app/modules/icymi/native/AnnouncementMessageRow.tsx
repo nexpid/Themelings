@@ -356,7 +356,7 @@ case 10:
             var8 = var15[var8];
             var8 = var17.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.8P08G9;
+            var8 = var8["8P08G9"];
             var8 = var11.bind(var20)(var8);
             var1['actionLabel'] = var8;
             var8 = var12.id;

@@ -493,7 +493,7 @@ case 11:
             var25 = var25[var18];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.9GPbsV;
+            var25 = var25["9GPbsV"];
             var25 = var26.bind(var27)(var25);
             var14['label'] = var25;
             var13 = var24.bind(var4)(var23, var14);

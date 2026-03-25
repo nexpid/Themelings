@@ -491,7 +491,7 @@ case 45:
             var2 = var12[var2];
             var2 = var11.bind(var10)(var2);
             var2 = var2.t;
-            var2 = var2./YzI63;
+            var2 = var2["/YzI63"];
             var4 = var4.bind(var9)(var2);
             _fun0006_ip = 46; continue _fun0006;
 case 2:

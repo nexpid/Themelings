@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7[var6];
                 var6 = var10.bind(var3)(var6);
                 var6 = var6.t;
-                var6 = var6.5Wxrcd;
+                var6 = var6["5Wxrcd"];
                 var6 = var8.bind(var9)(var6);
                 var1['text'] = var6;
                 var6 = _closure1_slot1;

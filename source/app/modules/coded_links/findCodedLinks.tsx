@@ -27,7 +27,7 @@ case 3:
 case 2:
                 if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var2 = var3.@@iterator;
+                var2 = var3["@@iterator"];
 case 4:
                 if(var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -1158,11 +1158,11 @@ case 169: // catch_target0
         var7 = var12[var17];
         var7 = var11.bind(var1)(var7);
         var20 = var7.PRIMARY_DOMAIN;
-        var7 = /^\\/([a-zA-Z0-9-]+)$/;
+        var7 = /^\/([a-zA-Z0-9-]+)$/;
         var _closure1_slot4 = var7;
-        var7 = /^\\/channels\\/([0-9]+|@me)\\/([0-9]+)$/;
+        var7 = /^\/channels\/([0-9]+|@me)\/([0-9]+)$/;
         var _closure1_slot5 = var7;
-        var7 = /^\\/(invite|template)\\/([a-zA-Z0-9-]+)\\/?\.?$/;
+        var7 = /^\/(invite|template)\/([a-zA-Z0-9-]+)\/?\.?$/;
         var _closure1_slot6 = var7;
         var14 = var10.RegExp;
         var7 = var14.prototype;
@@ -1172,25 +1172,25 @@ case 169: // catch_target0
         var7 = new var30[var14](var29, var28);
         var7 = var7 instanceof Object ? var7 : var8;
         var _closure1_slot7 = var7;
-        var7 = /^\\/(application-directory|discovery\\/applications)\\/([0-9-]+)\\/?((about|images|privacy)\\/?)?$/;
+        var7 = /^\/(application-directory|discovery\/applications)\/([0-9-]+)\/?((about|images|privacy)\/?)?$/;
         var _closure1_slot8 = var7;
-        var7 = /^\\/(application-directory|discovery\\/applications)\\/([0-9-]+)\\/store\\/?([0-9-]+)?\\/?$/;
+        var7 = /^\/(application-directory|discovery\/applications)\/([0-9-]+)\/store\/?([0-9-]+)?\/?$/;
         var _closure1_slot9 = var7;
-        var7 = /^\\/activities\\/([0-9-]+)\\/?$/;
+        var7 = /^\/activities\/([0-9-]+)\/?$/;
         var _closure1_slot10 = var7;
-        var7 = /^\\/channels\\/([0-9]+)\\/shop\\/([0-9]+)$/;
+        var7 = /^\/channels\/([0-9]+)\/shop\/([0-9]+)$/;
         var _closure1_slot11 = var7;
-        var7 = /^(?:\\/game-shop\\/([0-9]+)|\\/channels\\/([0-9]+)\\/game-shop\\/(?:[0-9]+))\\/([0-9]+)(?:\\/([^\\/]+))?$/;
+        var7 = /^(?:\/game-shop\/([0-9]+)|\/channels\/([0-9]+)\/game-shop\/(?:[0-9]+))\/([0-9]+)(?:\/([^\/]+))?$/;
         var _closure1_slot12 = var7;
-        var7 = /^\\/channels\\/([0-9]+)\\/shop$/;
+        var7 = /^\/channels\/([0-9]+)\/shop$/;
         var _closure1_slot13 = var7;
-        var7 = /^\\/quests\\/([0-9-]+)\\/?$/;
+        var7 = /^\/quests\/([0-9-]+)\/?$/;
         var _closure1_slot14 = var7;
-        var7 = /^\\/oauth2\\/authorize/;
+        var7 = /^\/oauth2\/authorize/;
         var _closure1_slot15 = var7;
         var7 = /^#itemSkuId=([0-9]+)$/;
         var _closure1_slot16 = var7;
-        var8 = /dev:\\/\\/[\w-.~:\\/?#\[\]@!$&'()*+,;=%]+/i;
+        var8 = /dev:\/\/[\w-.~:\/?#\[\]@!$&'()*+,;=%]+/i;
         var _closure1_slot17 = var8;
         var7 = var10.window;
         var7 = var7.GLOBAL_ENV;

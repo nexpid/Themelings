@@ -141,7 +141,7 @@ case 2:
             var15 = var20[var18];
             var15 = var23.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15./X1ny6;
+            var15 = var15["/X1ny6"];
             var15 = var16.bind(var17)(var15);
             var9['children'] = var15;
             var9 = var14.bind(var4)(var10, var9);

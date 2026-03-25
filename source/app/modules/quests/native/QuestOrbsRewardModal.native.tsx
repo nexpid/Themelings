@@ -1143,7 +1143,7 @@ case 62:
             var22 = var25.bind(var26)(var24, var22);
             _fun0008_ip = 64; continue _fun0008;
 case 60:
-            var24 = var23.2dz2AL;
+            var24 = var23["2dz2AL"];
             var23 = {};
             var28 = function balanceHook() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {

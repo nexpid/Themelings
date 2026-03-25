@@ -51,7 +51,7 @@ case 6:
             var3 = var3[var10];
             var3 = var4.bind(var9)(var3);
             var3 = var3.t;
-            var4 = var3.7yr3Qc;
+            var4 = var3["7yr3Qc"];
             var3 = {};
             var3['channelName'] = var8;
             var3['userCount'] = var7;

@@ -1130,7 +1130,7 @@ case 60:
                 var4 = var13[var4];
                 var4 = var12.bind(var6)(var4);
                 var4 = var4.t;
-                var4 = var4.7lZ31J;
+                var4 = var4["7lZ31J"];
                 var4 = var10.bind(var11)(var4);
                 var2['label'] = var4;
                 var4 = _closure1_slot12;

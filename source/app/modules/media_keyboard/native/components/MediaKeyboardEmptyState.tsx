@@ -241,7 +241,7 @@ case 9:
             var5 = var11[var5];
             var5 = var10.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.5g7NcN;
+            var5 = var5["5g7NcN"];
             var5 = var8.bind(var9)(var5);
             var1['label'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -267,7 +267,7 @@ case 4:
             var10 = var9[var5];
             var10 = var8.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.457oeG;
+            var10 = var10["457oeG"];
             var10 = var11.bind(var12)(var10);
             var1['actionLabel'] = var10;
             var1['actionPress'] = var7;
@@ -283,7 +283,7 @@ case 4:
             var5 = var9[var5];
             var5 = var8.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.8p9jGu;
+            var5 = var5["8p9jGu"];
             var5 = var6.bind(var7)(var5);
             var1['label'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -428,7 +428,7 @@ case 22:
                     var5 = var9[var5];
                     var5 = var8.bind(var3)(var5);
                     var5 = var5.t;
-                    var5 = var5.5Wxrcd;
+                    var5 = var5["5Wxrcd"];
                     var5 = var6.bind(var7)(var5);
                     var1['text'] = var5;
                     var5 = function onPress() {

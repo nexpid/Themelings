@@ -250,7 +250,7 @@ case 18:
                         var5 = var11[var5];
                         var5 = var10.bind(var3)(var5);
                         var5 = var5.t;
-                        var5 = var5.5HzXO5;
+                        var5 = var5["5HzXO5"];
                         var5 = var8.bind(var9)(var5);
                         var5 = var6.bind(var7)(var5);
                         _fun0003_ip = 23; continue _fun0003;

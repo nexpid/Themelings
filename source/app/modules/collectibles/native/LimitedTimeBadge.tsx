@@ -154,7 +154,7 @@ case 3:
             var1 = var1[var14];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.1LyF1h;
+            var1 = var1["1LyF1h"];
             var1 = var2.bind(var3)(var1);
             var1 = var12 + var1;
             var2 = 1;
@@ -174,7 +174,7 @@ case 6:
             var2 = var2[var14];
             var2 = var7.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.1LyF1h;
+            var2 = var2["1LyF1h"];
             var3 = var3.bind(var5)(var2);
             var2 = '0';
             var1 = var2 + var3;

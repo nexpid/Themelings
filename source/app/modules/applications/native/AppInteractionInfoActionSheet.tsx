@@ -492,7 +492,7 @@ case 21:
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.04gxNg;
+            var18 = var18["04gxNg"];
             var18 = var19.bind(var20)(var18);
             var16['children'] = var18;
             var16 = var9.bind(var4)(var17, var16);

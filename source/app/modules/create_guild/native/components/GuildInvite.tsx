@@ -540,7 +540,7 @@ case 0:
                     var6 = var6.t;
                     if(var7) { _fun0005_ip = 17; continue _fun0005 }
 case 18:
-                    var7 = var6.5Wxrcd;
+                    var7 = var6["5Wxrcd"];
                     var7 = var10.bind(var11)(var7);
                     _fun0005_ip = 19; continue _fun0005;
 case 17:
@@ -861,7 +861,7 @@ case 39:
             var14 = var19[var23];
             var14 = var22.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.3XVNyt;
+            var14 = var14["3XVNyt"];
             var14 = var17.bind(var21)(var14);
             var11['accessibilityLabel'] = var14;
             var14 = function onPress() {

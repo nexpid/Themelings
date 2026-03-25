@@ -225,7 +225,7 @@ case 11:
                             var6 = var9[var5];
                             var6 = var8.bind(var3)(var6);
                             var6 = var6.t;
-                            var6 = var6.3D5yo/;
+                            var6 = var6["3D5yo/"];
                             var6 = var7.bind(var10)(var6);
                             var1['accessibilityLabel'] = var6;
                             var6 = var9[var5];
@@ -235,7 +235,7 @@ case 11:
                             var5 = var9[var5];
                             var5 = var8.bind(var3)(var5);
                             var5 = var5.t;
-                            var5 = var5.+CbP2v;
+                            var5 = var5["+CbP2v"];
                             var5 = var6.bind(var7)(var5);
                             var1['accessibilityHint'] = var5;
                             var5 = function onPress() {
@@ -447,7 +447,7 @@ case 14:
         var6 = var10[var6];
         var6 = var9.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.13/7kX;
+        var6 = var6["13/7kX"];
         var6 = var7.bind(var8)(var6);
         var1['headerBackTitle'] = var6;
         var5 = function onStateChange(arg1) {

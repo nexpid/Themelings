@@ -283,7 +283,7 @@ case 26:
             var4 = var15[var4];
             var4 = var5.bind(var8)(var4);
             var4 = var4.t;
-            var5 = var4.7cqOLI;
+            var5 = var4["7cqOLI"];
             var4 = {};
             var4['username'] = var11;
             var15 = function applicationName() {
@@ -370,7 +370,7 @@ case 20:
             var12 = var14[var12];
             var12 = var13.bind(var8)(var12);
             var12 = var12.t;
-            var12 = var12.5Uzkdp;
+            var12 = var12["5Uzkdp"];
             var4['withDefault'] = var12;
             var4 = var5.bind(var8)(var4);
             return var4;
@@ -386,7 +386,7 @@ case 18:
             var13 = var12[var9];
             var13 = var10.bind(var8)(var13);
             var13 = var13.t;
-            var13 = var13.9Dgf1L;
+            var13 = var13["9Dgf1L"];
             var4['withApplication'] = var13;
             var9 = var12[var9];
             var9 = var10.bind(var8)(var9);

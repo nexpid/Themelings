@@ -302,7 +302,7 @@ case 0:
                 var4 = var7[var9];
                 var4 = var8.bind(var6)(var4);
                 var4 = var4.t;
-                var4 = var4./Idfao;
+                var4 = var4["/Idfao"];
                 var3['status'] = var4;
                 var4 = _closure2_slot3;
                 var11 = var4.good;
@@ -330,7 +330,7 @@ case 0:
                 var11 = var7[var9];
                 var11 = var8.bind(var6)(var11);
                 var11 = var11.t;
-                var11 = var11.774juc;
+                var11 = var11["774juc"];
                 var11 = var12.bind(var13)(var11);
                 var3['description'] = var11;
                 var11 = var7[var9];
@@ -409,7 +409,7 @@ case 0:
                 var13 = var7[var9];
                 var13 = var8.bind(var6)(var13);
                 var13 = var13.t;
-                var13 = var13.7f+4Lg;
+                var13 = var13["7f+4Lg"];
                 var3['status'] = var13;
                 var13 = var4.atRisk;
                 var3['style'] = var13;
@@ -438,13 +438,13 @@ case 0:
                 var10 = var7[var9];
                 var10 = var8.bind(var6)(var10);
                 var10 = var10.t;
-                var10 = var10.2liUvt;
+                var10 = var10["2liUvt"];
                 var10 = var11.bind(var12)(var10);
                 var2['description'] = var10;
                 var9 = var7[var9];
                 var9 = var8.bind(var6)(var9);
                 var9 = var9.t;
-                var9 = var9.0OONGB;
+                var9 = var9["0OONGB"];
                 var2['status'] = var9;
                 var4 = var4.suspended;
                 var2['style'] = var4;

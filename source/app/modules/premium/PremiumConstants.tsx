@@ -1476,7 +1476,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var100 = var98[var71];
     var100 = var97.bind(var1)(var100);
     var100 = var100.t;
-    var100 = var100.4scBFY;
+    var100 = var100["4scBFY"];
     var4['nameUnformattedNitro'] = var100;
     var6[var5] = var4;
     var5 = var8.PREMIUM_TENURE_12_MONTH;
@@ -1491,7 +1491,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var100 = var98[var71];
     var100 = var97.bind(var1)(var100);
     var100 = var100.t;
-    var100 = var100.83Jw2B;
+    var100 = var100["83Jw2B"];
     var4['nameUnformattedNitro'] = var100;
     var6[var5] = var4;
     var5 = var8.PREMIUM_TENURE_24_MONTH;
@@ -1546,7 +1546,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var100 = var98[var71];
     var100 = var97.bind(var1)(var100);
     var100 = var100.t;
-    var100 = var100./menIw;
+    var100 = var100["/menIw"];
     var4['nameUnformatted'] = var100;
     var100 = var98[var71];
     var100 = var97.bind(var1)(var100);

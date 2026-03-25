@@ -225,7 +225,7 @@ case 2:
             var1 = var10[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.2bL0wT;
+            var1 = var1["2bL0wT"];
             var1 = var3.bind(var5)(var1);
             var2['text'] = var1;
             var1 = new Array(1);

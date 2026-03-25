@@ -479,7 +479,7 @@ case 11:
                     var5 = var9[var5];
                     var5 = var8.bind(var1)(var5);
                     var5 = var5.t;
-                    var5 = var5.7qbp3B;
+                    var5 = var5["7qbp3B"];
                     var8 = var6.bind(var7)(var5);
                     var5 = global;
                     var6 = var5.HermesInternal;

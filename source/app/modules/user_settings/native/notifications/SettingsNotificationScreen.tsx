@@ -52,7 +52,7 @@ case 6:
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11./TZX1J;
+            var11 = var11["/TZX1J"];
             var11 = var12.bind(var13)(var11);
             var6['children'] = var11;
             var8 = var10.bind(var5)(var9, var6);
@@ -363,7 +363,7 @@ case 11:
             var4 = var4[var9];
             var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.6DXkz6;
+            var4 = var4["6DXkz6"];
             var4 = var5.bind(var6)(var4);
             var2['label'] = var4;
             var3 = _closure1_slot6;

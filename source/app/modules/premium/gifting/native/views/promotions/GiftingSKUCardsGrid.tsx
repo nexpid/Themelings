@@ -288,7 +288,7 @@ case 16:
             var14 = var16.bind(var17)(var14);
             _fun0001_ip = 17; continue _fun0001;
 case 15:
-            var15 = var15.6cfuDj;
+            var15 = var15["6cfuDj"];
             var14 = var16.bind(var17)(var15);
 case 17:
             var11['children'] = var14;

@@ -357,7 +357,7 @@ case 7:
         var3 = var9[var4];
         var3 = var8.bind(var7)(var3);
         var3 = var3.t;
-        var3 = var3./yLMRQ;
+        var3 = var3["/yLMRQ"];
         var3 = var5.bind(var6)(var3);
         var2['name'] = var3;
         var3 = var9[var4];
@@ -367,7 +367,7 @@ case 7:
         var3 = var9[var4];
         var3 = var8.bind(var7)(var3);
         var3 = var3.t;
-        var3 = var3.3fzkPq;
+        var3 = var3["3fzkPq"];
         var3 = var5.bind(var6)(var3);
         var2['desc'] = var3;
         var3 = _closure1_slot10;
@@ -383,7 +383,7 @@ case 7:
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var5 = var5.t;
-        var5 = var5.21fP2b;
+        var5 = var5["21fP2b"];
         var5 = var6.bind(var10)(var5);
         var2['name'] = var5;
         var5 = var9[var4];

@@ -606,7 +606,7 @@ case 55:
                     var1 = var9[var1];
                     var1 = var4.bind(var8)(var1);
                     var1 = var1.t;
-                    var4 = var1.9rfonh;
+                    var4 = var1["9rfonh"];
                     var1 = {};
                     var7 = _closure2_slot3;
                     var1['date'] = var7;
@@ -784,7 +784,7 @@ case 71:
             var20 = var25[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.9rfonh;
+            var21 = var20["9rfonh"];
             var20 = {};
             var20['date'] = var24;
             var20 = var22.bind(var23)(var21, var20);
@@ -1075,7 +1075,7 @@ case 84:
             var13 = var10[var13];
             var13 = var7.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.3fe7U5;
+            var13 = var13["3fe7U5"];
             var13 = var14.bind(var15)(var13);
             var2['title'] = var13;
             var12 = var12.cardTitle;

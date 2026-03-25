@@ -129,7 +129,7 @@ case 11:
             var7 = var15[var10];
             var7 = var11.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.8FpqOs;
+            var7 = var7["8FpqOs"];
             var7 = var12.bind(var13)(var7);
             var9['children'] = var7;
             var7 = var9;

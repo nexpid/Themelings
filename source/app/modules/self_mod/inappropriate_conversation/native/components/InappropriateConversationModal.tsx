@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var18[var14];
         var16 = var17.bind(var4)(var16);
         var16 = var16.t;
-        var16 = var16.+o4Q7e;
+        var16 = var16["+o4Q7e"];
         var16 = var19.bind(var20)(var16);
         var9['text'] = var16;
         var16 = function onPress() {

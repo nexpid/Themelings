@@ -129,7 +129,7 @@ case 9:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.+Gyklt;
+            var2 = var2["+Gyklt"];
             var8 = var3.bind(var4)(var2);
             _fun0001_ip = 10; continue _fun0001;
 case 8:
@@ -143,7 +143,7 @@ case 8:
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.9j7xDu;
+            var3 = var2["9j7xDu"];
             var2 = {};
             var7 = global;
             var7 = var7.HermesInternal;

@@ -222,7 +222,7 @@ case 2:
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var4 = var4.t;
-        var4 = var4.20uWCw;
+        var4 = var4["20uWCw"];
         var5 = var5.bind(var9)(var4);
         var4 = function() {
             var3 = _closure1_slot29;
@@ -799,7 +799,7 @@ case 63:
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var6 = var6.t;
-        var6 = var6.20uQR3;
+        var6 = var6["20uQR3"];
         var7 = var7.bind(var8)(var6);
         var6 = 'embed';
         var5[var7] = var6;
@@ -1974,7 +1974,7 @@ case 115:
         var1 = var9[var11];
         var1 = var8.bind(var6)(var1);
         var1 = var1.t;
-        var1 = var1.20uQR3;
+        var1 = var1["20uQR3"];
         var1 = var2.bind(var3)(var1);
         var17[4] = var1;
         var1 = var9[var11];
@@ -2030,7 +2030,7 @@ case 115:
         var5 = var9[var11];
         var5 = var8.bind(var6)(var5);
         var5 = var5.t;
-        var5 = var5.1TUdFo;
+        var5 = var5["1TUdFo"];
         var5 = var12.bind(var13)(var5);
         var5 = var14.bind(var6)(var5);
         var2['regex'] = var5;
@@ -2045,7 +2045,7 @@ case 115:
         var5 = var9[var11];
         var5 = var8.bind(var6)(var5);
         var5 = var5.t;
-        var5 = var5.1TUdFo;
+        var5 = var5["1TUdFo"];
         var5 = var12.bind(var15)(var5);
         var5 = var13.bind(var6)(var5);
         var2['key'] = var5;
@@ -2056,7 +2056,7 @@ case 115:
         var5 = var9[var11];
         var5 = var8.bind(var6)(var5);
         var5 = var5.t;
-        var5 = var5.1TUdFo;
+        var5 = var5["1TUdFo"];
         var5 = var12.bind(var15)(var5);
         var2['plainText'] = var5;
         var5 = function validator() {
@@ -2362,7 +2362,7 @@ case 115:
         var15 = var9[var11];
         var15 = var8.bind(var6)(var15);
         var15 = var15.t;
-        var15 = var15.5xtLRC;
+        var15 = var15["5xtLRC"];
         var15 = var16.bind(var17)(var15);
         var15 = var14.bind(var6)(var15);
         var2['regex'] = var15;
@@ -2373,7 +2373,7 @@ case 115:
         var15 = var9[var11];
         var15 = var8.bind(var6)(var15);
         var15 = var15.t;
-        var15 = var15.5xtLRC;
+        var15 = var15["5xtLRC"];
         var15 = var16.bind(var17)(var15);
         var15 = var13.bind(var6)(var15);
         var2['key'] = var15;
@@ -2384,7 +2384,7 @@ case 115:
         var15 = var9[var11];
         var15 = var8.bind(var6)(var15);
         var15 = var15.t;
-        var15 = var15.5xtLRC;
+        var15 = var15["5xtLRC"];
         var15 = var16.bind(var17)(var15);
         var2['plainText'] = var15;
         var15 = _closure1_slot23;
@@ -2778,7 +2778,7 @@ case 121:
         var12 = var9[var11];
         var12 = var8.bind(var6)(var12);
         var12 = var12.t;
-        var12 = var12.0B74eY;
+        var12 = var12["0B74eY"];
         var12 = var15.bind(var16)(var12);
         var12 = var14.bind(var6)(var12);
         var2['regex'] = var12;
@@ -2792,7 +2792,7 @@ case 121:
         var12 = var9[var11];
         var12 = var8.bind(var6)(var12);
         var12 = var12.t;
-        var12 = var12.0B74eY;
+        var12 = var12["0B74eY"];
         var12 = var15.bind(var16)(var12);
         var12 = var13.bind(var6)(var12);
         var2['key'] = var12;
@@ -2803,7 +2803,7 @@ case 121:
         var12 = var9[var11];
         var12 = var8.bind(var6)(var12);
         var12 = var12.t;
-        var12 = var12.0B74eY;
+        var12 = var12["0B74eY"];
         var12 = var15.bind(var16)(var12);
         var2['plainText'] = var12;
         var12 = function getAutocompletions() {

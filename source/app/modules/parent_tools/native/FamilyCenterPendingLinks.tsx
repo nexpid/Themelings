@@ -142,7 +142,7 @@ case 6:
             var13 = 9;
             var13 = var18[var13];
             var13 = var14.bind(var4)(var13);
-            var14 = var13.4GtllP;
+            var14 = var13["4GtllP"];
             var13 = {};
             var18 = var17 == var6;
             var17 = undefined;

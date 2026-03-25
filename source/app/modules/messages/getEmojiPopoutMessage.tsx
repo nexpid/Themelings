@@ -176,7 +176,7 @@ case 28:
             var11 = var11.t;
             if(var1) { _fun0001_ip = 29; continue _fun0001 }
 case 30:
-            var1 = var11.0LMpW+;
+            var1 = var11["0LMpW+"];
             var1 = var12.bind(var13)(var1);
             _fun0001_ip = 31; continue _fun0001;
 case 29:

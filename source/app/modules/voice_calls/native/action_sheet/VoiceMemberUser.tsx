@@ -790,7 +790,7 @@ case 63:
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.0wJXSh;
+            var2 = var1["0wJXSh"];
             var1 = {};
             var6 = var7.details;
             if(!(var14 != var6)) { _fun0004_ip = 66; continue _fun0004 }

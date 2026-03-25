@@ -60,7 +60,7 @@ case 3:
             var2 = var12[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2./YzI63;
+            var2 = var2["/YzI63"];
             var14 = var3.bind(var6)(var2);
 case 2:
             var3 = _closure1_slot1;
@@ -80,7 +80,7 @@ case 5:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1./YzI63;
+            var1 = var1["/YzI63"];
             var8 = var2.bind(var3)(var1);
 case 4:
             var12 = _closure1_slot0;
@@ -93,7 +93,7 @@ case 4:
             var2 = var13[var1];
             var2 = var12.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.2IGVl5;
+            var3 = var2["2IGVl5"];
             var2 = {};
             var2['channelName'] = var14;
             var11 = var11.name;

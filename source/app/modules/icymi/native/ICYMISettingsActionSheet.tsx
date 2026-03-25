@@ -132,7 +132,7 @@ case 0:
             var8 = var8[var18];
             var8 = var14.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.7Si8Ul;
+            var8 = var8["7Si8Ul"];
             var8 = var10.bind(var12)(var8);
             var5['title'] = var8;
             var8 = null;
@@ -154,7 +154,7 @@ case 3:
             var17 = var17[var18];
             var17 = var21.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.3wDyfQ;
+            var17 = var17["3wDyfQ"];
             var17 = var19.bind(var20)(var17);
             var10['label'] = var17;
             var17 = var16.filterStaffContent;

@@ -76,7 +76,7 @@ case 3:
             var6 = var9.PKQB/H;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var6 = var9.+MWrWt;
+            var6 = var9["+MWrWt"];
 case 4:
             var6 = var7.bind(var8)(var6);
             var1['label'] = var6;
@@ -536,7 +536,7 @@ case 18:
             var7 = var9.bind(var10)(var7);
             _fun0003_ip = 9; continue _fun0003;
 case 17:
-            var8 = var8.2YwzGs;
+            var8 = var8["2YwzGs"];
             var7 = var9.bind(var10)(var8);
 case 9:
             var1['subLabel'] = var7;
@@ -1067,7 +1067,7 @@ case 35:
             var10 = var14[var10];
             var10 = var13.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.60lJ0C;
+            var10 = var10["60lJ0C"];
             var10 = var11.bind(var12)(var10);
             var3['label'] = var10;
             var10 = function onPress() {
@@ -1554,7 +1554,7 @@ case 57:
             var13 = var15.bind(var17)(var13);
             _fun0009_ip = 58; continue _fun0009;
 case 56:
-            var14 = var14.+tSVi3;
+            var14 = var14["+tSVi3"];
             var13 = var15.bind(var17)(var14);
 case 58:
             var4['label'] = var13;
@@ -1733,7 +1733,7 @@ case 66:
             var14 = var14[var11];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.94lLD7;
+            var14 = var14["94lLD7"];
             var14 = var15.bind(var16)(var14);
             var9['label'] = var14;
             var14 = function onPress() {
@@ -1778,7 +1778,7 @@ case 70:
             var14 = var14[var11];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.7H30wR;
+            var14 = var14["7H30wR"];
             var14 = var15.bind(var16)(var14);
             var9['label'] = var14;
             var14 = function onPress() {
@@ -1831,7 +1831,7 @@ case 73:
             var12 = var12[var11];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.2FoUnk;
+            var12 = var12["2FoUnk"];
             var12 = var13.bind(var14)(var12);
             var3['label'] = var12;
             var12 = function onPress() {

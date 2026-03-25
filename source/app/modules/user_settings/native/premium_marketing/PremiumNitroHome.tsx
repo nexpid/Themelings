@@ -506,7 +506,7 @@ case 16:
             var19 = var14[var18];
             var19 = var17.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.+vt7w9;
+            var19 = var19["+vt7w9"];
             var19 = var20.bind(var21)(var19);
             var8['title'] = var19;
             var20 = var12.customAppIcons;

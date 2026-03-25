@@ -1218,7 +1218,7 @@ case 18:
             var13 = var15[var11];
             var13 = var14.bind(var3)(var13);
             var13 = var13.t;
-            var13 = var13.5//Muu;
+            var13 = var13["5//Muu"];
             var13 = var16.bind(var17)(var13);
             var7['label'] = var13;
             var13 = function onPress() {

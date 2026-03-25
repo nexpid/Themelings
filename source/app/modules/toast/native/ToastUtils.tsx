@@ -57,38 +57,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['presentAddedFriendToast'] = var4;
-    var4 = function() {
-        var3 = _closure1_slot1;
-        var7 = _closure1_slot2;
-        var1 = 1;
-        var2 = var7[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.open;
-        var2 = {};
-        var6 = 'TOAST_FRIEND_REQUEST_ACCEPTED';
-        var2['key'] = var6;
-        var6 = _closure1_slot0;
-        var5 = 2;
-        var8 = var7[var5];
-        var8 = var6.bind(var1)(var8);
-        var9 = var8.intl;
-        var8 = var9.string;
-        var5 = var7[var5];
-        var5 = var6.bind(var1)(var5);
-        var5 = var5.t;
-        var5 = var5.UhJna5;
-        var5 = var8.bind(var9)(var5);
-        var2['content'] = var5;
-        var5 = 4;
-        var5 = var7[var5];
-        var5 = var6.bind(var1)(var5);
-        var5 = var5.UserPlusIcon;
-        var2['IconComponent'] = var5;
-        var5 = 'status-positive';
-        var2['iconColor'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var10 = arg1;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.open;
+            var2 = {};
+            var6 = 'TOAST_FRIEND_REQUEST_ACCEPTED';
+            var2['key'] = var6;
+            var6 = null;
+            if(!(var6 != var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var6 = 2;
+            var8 = var11[var6];
+            var8 = var7.bind(var1)(var8);
+            var9 = var8.intl;
+            var8 = var9.formatToPlainString;
+            var6 = var11[var6];
+            var6 = var7.bind(var1)(var6);
+            var6 = var6.t;
+            var7 = var6.b3eoD4;
+            var6 = {};
+            var10 = var10.username;
+            var6['username'] = var10;
+            var6 = var8.bind(var9)(var7, var6);
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var7 = 2;
+            var8 = var11[var7];
+            var8 = var10.bind(var1)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var7 = var11[var7];
+            var7 = var10.bind(var1)(var7);
+            var7 = var7.t;
+            var7 = var7.UhJna5;
+            var6 = var8.bind(var9)(var7);
+case 4:
+            var2['content'] = var6;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 4;
+            var5 = var7[var5];
+            var5 = var6.bind(var1)(var5);
+            var5 = var5.UserPlusIcon;
+            var2['IconComponent'] = var5;
+            var5 = 'status-positive';
+            var2['iconColor'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        }
     };
     var3['presentFriendRequestAcceptedToast'] = var4;
     var4 = function() {
@@ -213,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5.+5kSoW;
+        var5 = var5["+5kSoW"];
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
         var5 = 7;
@@ -590,7 +618,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['presentEmoji'] = var4;
     var4 = function(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = arg1;
             var3 = _closure1_slot1;
@@ -613,37 +641,37 @@ case 0:
             var7 = var11[var7];
             var7 = var8.bind(var1)(var7);
             var8 = var7.t;
-            if(var6) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var6) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var7 = var8.hEMHnF;
             var7 = var9.bind(var10)(var7);
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
+            _fun0002_ip = 7; continue _fun0002;
+case 5:
             var8 = var8.Q+fhfv;
             var7 = var9.bind(var10)(var8);
-case 4:
+case 7:
             var2['content'] = var7;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            if(var6) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+            if(var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = 13;
             var5 = var9[var5];
             var5 = var8.bind(var1)(var5);
             var5 = var5.XLargeIcon;
-            _fun0001_ip = 7; continue _fun0001;
-case 5:
+            _fun0002_ip = 10; continue _fun0002;
+case 8:
             var7 = 11;
             var7 = var9[var7];
             var7 = var8.bind(var1)(var7);
             var5 = var7.CheckmarkLargeIcon;
-case 7:
+case 10:
             var2['IconComponent'] = var5;
             var5 = 'icon-feedback-critical';
-            if(!var6) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var6) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var5 = 'status-positive';
-case 8:
+case 11:
             var2['iconColor'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
@@ -849,7 +877,7 @@ case 8:
     };
     var3['communityAdminOnly'] = var4;
     var4 = function(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
             var5 = var2.notClaimed;
@@ -857,17 +885,17 @@ case 0:
             var4 = var2.notPhoneVerified;
             var1 = var2.newAccount;
             var2 = var2.newMember;
-            if(var5) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-            if(var4) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            if(var3) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-            if(var2) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(var5) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            if(var4) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+            if(var3) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+            if(var2) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var5 = null;
-            if(!var1) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!var1) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 2;
@@ -885,8 +913,8 @@ case 19:
             var6 = var6.ACCOUNT_AGE;
             var1['min'] = var6;
             var5 = var3.bind(var4)(var2, var1);
-            _fun0002_ip = 18; continue _fun0002;
-case 16:
+            _fun0003_ip = 21; continue _fun0003;
+case 19:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 2;
@@ -904,8 +932,8 @@ case 16:
             var6 = var6.MEMBER_AGE;
             var1['min'] = var6;
             var5 = var3.bind(var4)(var2, var1);
-            _fun0002_ip = 18; continue _fun0002;
-case 14:
+            _fun0003_ip = 21; continue _fun0003;
+case 17:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 2;
@@ -919,8 +947,8 @@ case 14:
             var1 = var1.t;
             var1 = var1.vdSOpz;
             var5 = var2.bind(var3)(var1);
-            _fun0002_ip = 18; continue _fun0002;
-case 12:
+            _fun0003_ip = 21; continue _fun0003;
+case 15:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 2;
@@ -934,8 +962,8 @@ case 12:
             var1 = var1.t;
             var1 = var1.vW8iUF;
             var5 = var2.bind(var3)(var1);
-            _fun0002_ip = 18; continue _fun0002;
-case 10:
+            _fun0003_ip = 21; continue _fun0003;
+case 13:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 2;
@@ -949,10 +977,10 @@ case 10:
             var1 = var1.t;
             var1 = var1.IRxUlG;
             var5 = var2.bind(var3)(var1);
-case 18:
-            var1 = null;
-            if(!(var1 != var5)) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
+            var1 = null;
+            if(!(var1 != var5)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 1;
@@ -971,7 +999,7 @@ case 21:
             var4 = var4.CircleInformationIcon;
             var1['IconComponent'] = var4;
             var1 = var2.bind(var3)(var1);
-case 20:
+case 23:
             var1 = undefined;
             return var1;
         }
@@ -1045,22 +1073,22 @@ case 20:
     };
     var3['memberOrRoleRemovedToast'] = var4;
     var4 = function(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var6 = arg1;
             var7 = arg2;
             var1 = 0;
-            if(!(var6 > var1)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-            if(!(!(var7 > var1))) { _fun0003_ip = 24; continue _fun0003 }
-case 22:
-            if(!(!(var6 > var1))) { _fun0003_ip = 25; continue _fun0003 }
+            if(!(var6 > var1)) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
+            if(!(!(var7 > var1))) { _fun0004_ip = 27; continue _fun0004 }
+case 25:
+            if(!(!(var6 > var1))) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
             var1 = var7 > var1;
             var8 = undefined;
             var5 = undefined;
-            if(!var1) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+            if(!var1) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 2;
@@ -1075,8 +1103,8 @@ case 28:
             var1 = {};
             var1['count'] = var7;
             var5 = var3.bind(var4)(var2, var1);
-            _fun0003_ip = 27; continue _fun0003;
-case 25:
+            _fun0004_ip = 30; continue _fun0004;
+case 28:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 2;
@@ -1092,8 +1120,8 @@ case 25:
             var1 = {};
             var1['count'] = var6;
             var5 = var3.bind(var4)(var2, var1);
-            _fun0003_ip = 27; continue _fun0003;
-case 24:
+            _fun0004_ip = 30; continue _fun0004;
+case 27:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 2;
@@ -1107,10 +1135,10 @@ case 24:
             var1 = var1.t;
             var1 = var1.fRD8wW;
             var5 = var2.bind(var3)(var1);
-case 27:
-            var1 = null;
-            if(!(var1 != var5)) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
+            var1 = null;
+            if(!(var1 != var5)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 1;
@@ -1131,7 +1159,7 @@ case 30:
             var4 = 'status-positive';
             var1['iconColor'] = var4;
             var1 = var2.bind(var3)(var1);
-case 29:
+case 32:
             var1 = undefined;
             return var1;
         }
@@ -1390,7 +1418,7 @@ case 29:
         var5 = var9[var5];
         var5 = var8.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5.1w6drw;
+        var5 = var5["1w6drw"];
         var5 = var6.bind(var7)(var5);
         var2['content'] = var5;
         var2 = var3.bind(var4)(var2);
@@ -1458,7 +1486,7 @@ case 29:
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5./q6fpa;
+        var5 = var5["/q6fpa"];
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
         var5 = 14;
@@ -1558,7 +1586,7 @@ case 29:
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5.2Eyydu;
+        var5 = var5["2Eyydu"];
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
         var5 = 11;

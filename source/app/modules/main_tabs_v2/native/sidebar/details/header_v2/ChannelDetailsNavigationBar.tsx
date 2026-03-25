@@ -380,7 +380,7 @@ case 10:
         var10 = var8[var10];
         var10 = var13.bind(var5)(var10);
         var10 = var10.t;
-        var10 = var10.5h0QOP;
+        var10 = var10["5h0QOP"];
         var10 = var11.bind(var12)(var10);
         var2['accessibilityLabel'] = var10;
         var2['onPress'] = var9;
@@ -484,7 +484,7 @@ case 15:
         var10 = var8[var10];
         var10 = var13.bind(var5)(var10);
         var10 = var10.t;
-        var10 = var10.3D5yo/;
+        var10 = var10["3D5yo/"];
         var10 = var11.bind(var12)(var10);
         var2['accessibilityLabel'] = var10;
         var2['onPress'] = var9;
@@ -952,7 +952,7 @@ case 30:
         var13 = var15[var13];
         var13 = var12.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.13/7kX;
+        var13 = var13["13/7kX"];
         var13 = var16.bind(var17)(var13);
         var5['accessibilityLabel'] = var13;
         var5['onPress'] = var11;

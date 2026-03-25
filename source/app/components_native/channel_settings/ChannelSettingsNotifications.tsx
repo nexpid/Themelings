@@ -665,7 +665,7 @@ case 0:
                 var9 = var16[var18];
                 var9 = var13.bind(var4)(var9);
                 var9 = var9.t;
-                var9 = var9.6yI+JS;
+                var9 = var9["6yI+JS"];
                 var9 = var14.bind(var17)(var9);
                 var5['description'] = var9;
                 var14 = _closure1_slot21;
@@ -898,7 +898,7 @@ case 49:
                 var16 = var19.bind(var22)(var16);
                 _fun0011_ip = 50; continue _fun0011;
 case 48:
-                var18 = var18.9sGJkt;
+                var18 = var18["9sGJkt"];
                 var16 = var19.bind(var22)(var18);
 case 50:
                 var2['label'] = var16;
@@ -1310,7 +1310,7 @@ case 83:
                 var18 = var22[var18];
                 var18 = var21.bind(var5)(var18);
                 var18 = var18.t;
-                var18 = var18.3PBFN6;
+                var18 = var18["3PBFN6"];
                 var18 = var19.bind(var20)(var18);
                 var14['label'] = var18;
                 var17 = var17.handleResetNotification;

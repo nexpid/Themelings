@@ -166,7 +166,7 @@ case 15:
                             var6 = var10[var5];
                             var6 = var8.bind(var9)(var6);
                             var6 = var6.t;
-                            var7 = var6.1zVbEG;
+                            var7 = var6["1zVbEG"];
                             var6 = {};
                             var13 = _closure1_slot6;
                             var6['max'] = var13;
@@ -428,7 +428,7 @@ case 49:
                     var8 = var12[var8];
                     var8 = var11.bind(var4)(var8);
                     var8 = var8.t;
-                    var8 = var8.5KOMiV;
+                    var8 = var8["5KOMiV"];
                     var8 = var9.bind(var10)(var8);
                     _fun0003_ip = 50; continue _fun0003;
 case 48:

@@ -389,7 +389,7 @@ case 13:
             var12 = 23;
             var17 = var8[var12];
             var17 = var21.bind(var4)(var17);
-            var17 = var17.86GtGH;
+            var17 = var17["86GtGH"];
             var17 = var19.bind(var20)(var17);
             var1['label'] = var17;
             var8 = var8[var15];

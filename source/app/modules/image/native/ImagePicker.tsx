@@ -276,7 +276,7 @@ case 7:
         var11 = var9[var4];
         var11 = var7.bind(var8)(var11);
         var11 = var11.t;
-        var11 = var11.1Qm822;
+        var11 = var11["1Qm822"];
         var11 = var12.bind(var13)(var11);
         var1['cropperChooseText'] = var11;
         var1['cropperCancelColor'] = var10;

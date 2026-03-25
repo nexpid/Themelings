@@ -525,6 +525,11 @@ case 33:
                 var12 = var26[var12];
                 var13 = var17.bind(var4)(var12);
                 var12 = {};
+                var16 = function onLongPress() {
+                    var1 = undefined;
+                    return var1;
+                };
+                var12['onLongPress'] = var16;
                 var18 = _closure1_slot16;
                 var22 = 27;
                 var16 = var26[var22];

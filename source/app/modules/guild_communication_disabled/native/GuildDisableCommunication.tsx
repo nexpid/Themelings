@@ -486,7 +486,7 @@ case 2:
         var20 = var18[var14];
         var20 = var17.bind(var4)(var20);
         var20 = var20.t;
-        var20 = var20.9XsExm;
+        var20 = var20["9XsExm"];
         var20 = var21.bind(var22)(var20);
         var10['title'] = var20;
         var10['defaultValue'] = var19;

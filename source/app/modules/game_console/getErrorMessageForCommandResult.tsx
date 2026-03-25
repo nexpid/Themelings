@@ -72,7 +72,7 @@ case 7:
             var5 = var12[var5];
             var5 = var11.bind(var7)(var5);
             var5 = var5.t;
-            var7 = var5.21ndz7;
+            var7 = var5["21ndz7"];
             var5 = {};
             var5['deviceName'] = var10;
             var5 = var8.bind(var9)(var7, var5);
@@ -123,7 +123,7 @@ case 15:
             var3 = var12[var3];
             var3 = var10.bind(var5)(var3);
             var3 = var3.t;
-            var5 = var3.6ZyNH/;
+            var5 = var3["6ZyNH/"];
             var3 = {};
             var3['deviceName'] = var11;
             var3 = var7.bind(var8)(var5, var3);
@@ -271,7 +271,7 @@ case 18:
             var2 = var10[var2];
             var2 = var3.bind(var9)(var2);
             var2 = var2.t;
-            var3 = var2.1Bi9Cf;
+            var3 = var2["1Bi9Cf"];
             var2 = {};
             var8 = _closure1_slot1;
             var7 = 2;

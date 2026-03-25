@@ -103,7 +103,7 @@ case 15:
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.0wJXSh;
+            var2 = var1["0wJXSh"];
             var1 = {};
             var1['name'] = var8;
             var10 = var3.bind(var7)(var2, var1);

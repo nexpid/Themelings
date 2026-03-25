@@ -391,7 +391,7 @@ case 14:
                     var7 = var11[var7];
                     var7 = var8.bind(var5)(var7);
                     var7 = var7.t;
-                    var8 = var7.0wJXSh;
+                    var8 = var7["0wJXSh"];
                     var7 = {};
                     var11 = _closure2_slot5;
                     var11 = var11.details;

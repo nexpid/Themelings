@@ -405,7 +405,7 @@ case 12:
             var20 = var23.bind(var4)(var20);
             if(var19) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var19 = var20.10dX6U;
+            var19 = var20["10dX6U"];
             var19 = var21.bind(var22)(var19);
             _fun0001_ip = 15; continue _fun0001;
 case 13:
@@ -625,7 +625,7 @@ case 15:
         var5 = var9[var5];
         var5 = var8.bind(var3)(var5);
         var5 = var5.t;
-        var5 = var5.13/7kX;
+        var5 = var5["13/7kX"];
         var5 = var6.bind(var7)(var5);
         var1['headerBackTitle'] = var5;
         var1 = var4.bind(var3)(var2, var1);

@@ -134,7 +134,7 @@ case 4:
         var9 = var12[var8];
         var9 = var11.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.3nx0b5;
+        var9 = var9["3nx0b5"];
         var9 = var10.bind(var13)(var9);
         var5['title'] = var9;
         var9 = var12[var8];

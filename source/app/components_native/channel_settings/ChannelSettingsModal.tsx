@@ -405,7 +405,7 @@ case 2:
         var7 = var10[var5];
         var7 = var9.bind(var8)(var7);
         var7 = var7.t;
-        var7 = var7.6SE3L3;
+        var7 = var7["6SE3L3"];
         var7 = var11.bind(var12)(var7);
         var3['title'] = var7;
         var7 = function render(arg1) {
@@ -494,7 +494,7 @@ case 2:
         var7 = var10[var5];
         var7 = var9.bind(var8)(var7);
         var7 = var7.t;
-        var7 = var7.+caQHK;
+        var7 = var7["+caQHK"];
         var7 = var11.bind(var12)(var7);
         var3['title'] = var7;
         var7 = function render() {

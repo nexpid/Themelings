@@ -127,7 +127,7 @@ case 18:
             var4 = var9[var4];
             var4 = var8.bind(var5)(var4);
             var4 = var4.t;
-            var4 = var4.97/NdO;
+            var4 = var4["97/NdO"];
             var3 = var6.bind(var7)(var4);
 case 17:
             var2 = var3;

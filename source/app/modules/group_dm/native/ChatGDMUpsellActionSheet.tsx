@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var20[var16];
         var14 = var19.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.3PatSz;
+        var14 = var14["3PatSz"];
         var14 = var15.bind(var18)(var14);
         var6['text'] = var14;
         var6['onPress'] = var11;

@@ -394,7 +394,7 @@ case 9:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.39O+8F;
+            var14 = var14["39O+8F"];
             var14 = var15.bind(var16)(var14);
             var11['text'] = var14;
             var14 = 'secondary';

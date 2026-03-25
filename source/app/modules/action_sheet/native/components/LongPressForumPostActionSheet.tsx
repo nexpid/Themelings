@@ -424,7 +424,7 @@ case 18:
                     var28 = var18.bind(var21)(var17);
                     _fun0004_ip = 15; continue _fun0004;
 case 17:
-                    var22 = var22.2LsZdT;
+                    var22 = var22["2LsZdT"];
                     var22 = var26.bind(var27)(var22);
                     var17['label'] = var22;
                     var22 = 12;
@@ -567,7 +567,7 @@ case 27:
                     var25 = var15.bind(var17)(var14);
                     _fun0004_ip = 24; continue _fun0004;
 case 26:
-                    var18 = var18./OKSxp;
+                    var18 = var18["/OKSxp"];
                     var18 = var23.bind(var24)(var18);
                     var14['label'] = var18;
                     var18 = 17;
@@ -735,7 +735,7 @@ case 36:
                     var15 = var17[var6];
                     var15 = var16.bind(var8)(var15);
                     var15 = var15.t;
-                    var15 = var15.436ZFw;
+                    var15 = var15["436ZFw"];
                     var15 = var18.bind(var21)(var15);
                     var10['label'] = var15;
                     var15 = 25;
@@ -880,7 +880,7 @@ case 40:
                     var20 = var12.bind(var13)(var5);
                     _fun0004_ip = 41; continue _fun0004;
 case 39:
-                    var14 = var14.0JQfsP;
+                    var14 = var14["0JQfsP"];
                     var14 = var17.bind(var18)(var14);
                     var5['label'] = var14;
                     var14 = 14;
@@ -1189,7 +1189,7 @@ case 64:
                             var2 = var2[var5];
                             var2 = var4.bind(var1)(var2);
                             var2 = var2.t;
-                            var4 = var2.6/pY2+;
+                            var4 = var2["6/pY2+"];
                             var2 = {};
                             var12 = _closure3_slot0;
                             var12 = var12.name;

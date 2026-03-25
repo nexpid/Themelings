@@ -79,7 +79,7 @@ case 0:
             var9 = var16[var9];
             var9 = var15.bind(var3)(var9);
             var9 = var9.t;
-            var9 = var9.2BR5R2;
+            var9 = var9["2BR5R2"];
             var9 = var13.bind(var14)(var9);
             var10['text'] = var9;
             var9 = 'back';
@@ -460,7 +460,7 @@ case 6:
                 var9 = var9[var14];
                 var9 = var13.bind(var3)(var9);
                 var9 = var9.t;
-                var9 = var9./uQqJW;
+                var9 = var9["/uQqJW"];
                 var9 = var11.bind(var12)(var9);
                 var1['placeholder'] = var9;
                 var1['onChange'] = var5;
@@ -709,7 +709,7 @@ case 12:
                     var2 = var8[var2];
                     var2 = var7.bind(var1)(var2);
                     var2 = var2.t;
-                    var2 = var2.+G3oRq;
+                    var2 = var2["+G3oRq"];
                     var2 = var5.bind(var6)(var2);
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -768,7 +768,7 @@ case 14:
                         var2 = var9[var2];
                         var2 = var7.bind(var8)(var2);
                         var2 = var2.t;
-                        var2 = var2.+G3oRq;
+                        var2 = var2["+G3oRq"];
                         var2 = var5.bind(var6)(var2);
                         var2 = var3.bind(var4)(var2);
                         var1 = false;

@@ -180,7 +180,7 @@ case 15: // try_start_2 // catch_target0
                         var7 = 9;
                         var7 = var9[var7];
                         var7 = var10.bind(var5)(var7);
-                        var7 = var7.3AXMYu;
+                        var7 = var7["3AXMYu"];
                         var7 = var11.bind(var12)(var7);
                         var2['content'] = var7;
                         var7 = 10;
@@ -281,7 +281,7 @@ case 17:
             var9 = _closure1_slot1;
             var8 = var8[var13];
             var8 = var9.bind(var4)(var8);
-            var9 = var8.2+Lyn0;
+            var9 = var8["2+Lyn0"];
             var8 = {};
             var8['countdown'] = var12;
             var7 = var10.bind(var11)(var9, var8);

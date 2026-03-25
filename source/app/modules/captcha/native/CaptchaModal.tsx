@@ -244,7 +244,7 @@ case 12:
             var19 = var23[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19./CidxO;
+            var19 = var19["/CidxO"];
             var18 = var20.bind(var21)(var19);
 case 11:
             var15['children'] = var18;

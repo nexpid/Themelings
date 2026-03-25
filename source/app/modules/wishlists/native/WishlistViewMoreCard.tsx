@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var16[var11];
         var5 = var12.bind(var4)(var5);
         var5 = var5.t;
-        var7 = var5.8uYD+I;
+        var7 = var5["8uYD+I"];
         var5 = {};
         var5['username'] = var10;
         var5 = var8.bind(var17)(var7, var5);

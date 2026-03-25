@@ -558,7 +558,7 @@ case 50:
             var15 = var15[var20];
             var15 = var19.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.23SS+z;
+            var15 = var15["23SS+z"];
             var15 = var17.bind(var18)(var15);
             _fun0001_ip = 53; continue _fun0001;
 case 52:
@@ -571,7 +571,7 @@ case 52:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.+zx47d;
+            var16 = var16["+zx47d"];
             var15 = var17.bind(var18)(var16);
 case 53:
             var12['text'] = var15;

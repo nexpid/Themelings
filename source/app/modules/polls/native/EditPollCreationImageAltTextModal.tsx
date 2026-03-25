@@ -314,7 +314,7 @@ case 6:
             var26 = var16[var19];
             var26 = var22.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26./2Gnoa;
+            var26 = var26["/2Gnoa"];
             var26 = var27.bind(var28)(var26);
             var17['children'] = var26;
             var17 = var14.bind(var4)(var18, var17);
@@ -347,7 +347,7 @@ case 6:
             var19 = var16[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19./2Gnoa;
+            var19 = var19["/2Gnoa"];
             var19 = var20.bind(var21)(var19);
             var17['accessibilityLabel'] = var19;
             var17 = var14.bind(var4)(var18, var17);

@@ -1277,30 +1277,6 @@ case 96:
             }
         };
         var4['STREAM_DELETE'] = var10;
-        var10 = function handleMediaEngineConnectionStats(arg1) {
-            var1 = arg1;
-            var1 = var1.connectionStats;
-            var _closure2_slot0 = var1;
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var1 = 14;
-            var4 = var4[var1];
-            var1 = undefined;
-            var5 = var5.bind(var1)(var4);
-            var4 = var5.forEach;
-            var3 = _closure1_slot23;
-            var2 = function(arg1) {
-                var3 = arg1;
-                var2 = var3.updateStats;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
-                var1 = undefined;
-                return var1;
-            };
-            var2 = var4.bind(var5)(var3, var2);
-            return var1;
-        };
-        var4['MEDIA_ENGINE_CONNECTION_STATS'] = var10;
         var10 = function handleLayoutUpdate(arg1) {
             var2 = arg1;
             var3 = var2.layout;
@@ -1324,36 +1300,6 @@ case 96:
             return var1;
         };
         var4['STREAM_LAYOUT_UPDATE'] = var10;
-        var10 = function handleSimulcastDebugOverrideChanged(arg1) {
-            var1 = arg1;
-            var3 = var1.userId;
-            var _closure2_slot0 = var3;
-            var3 = var1.context;
-            var _closure2_slot1 = var3;
-            var1 = var1.quality;
-            var _closure2_slot2 = var1;
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var1 = 14;
-            var4 = var4[var1];
-            var1 = undefined;
-            var5 = var5.bind(var1)(var4);
-            var4 = var5.forEach;
-            var3 = _closure1_slot23;
-            var2 = function(arg1) {
-                var5 = arg1;
-                var4 = var5.setSimulcastDebugOverride;
-                var3 = _closure2_slot0;
-                var2 = _closure2_slot1;
-                var1 = _closure2_slot2;
-                var1 = var4.bind(var5)(var3, var2, var1);
-                var1 = undefined;
-                return var1;
-            };
-            var2 = var4.bind(var5)(var3, var2);
-            return var1;
-        };
-        var4['RTC_DEBUG_SET_SIMULCAST_OVERRIDE'] = var10;
         var9 = function handleVideoSizeUpdate(arg1) {
             var1 = arg1;
             var3 = var1.streamId;

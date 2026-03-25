@@ -133,6 +133,14 @@ case 10:
                 };
                 var2 = var3.bind(var4)(var2);
                 var1['discounts'] = var2;
+                var3 = var1.tax;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 11:
+                var3 = var1.tax;
+                var2 = var1.quantity;
+                var2 = var3 * var2;
+                var1['tax'] = var2;
 case 9:
                 return var1;
             }
@@ -154,8 +162,14 @@ case 9:
         var1['amount'] = var3;
         var3 = var2.quantity;
         var1['quantity'] = var3;
-        var2 = var2.discounts;
-        var1['discounts'] = var2;
+        var3 = var2.discounts;
+        var1['discounts'] = var3;
+        var3 = var2.tax;
+        var1['tax'] = var3;
+        var3 = var2.tax_code;
+        var1['taxCode'] = var3;
+        var2 = var2.nominal_tax_rate;
+        var1['nominalTaxRate'] = var2;
         return var1;
     };
     var3['createInvoiceItemFromServer'] = var2;

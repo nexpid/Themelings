@@ -1318,7 +1318,7 @@ case 44:
             var4 = var13[var4];
             var4 = var12.bind(var5)(var4);
             var4 = var4.t;
-            var4 = var4.3qvtks;
+            var4 = var4["3qvtks"];
             var4 = var10.bind(var11)(var4);
             _closure2_slot4 = var4;
             var6 = var4;
@@ -2420,7 +2420,7 @@ case 55:
             var22 = var30[var22];
             var22 = var29.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.+8GStU;
+            var22 = var22["+8GStU"];
             var22 = var23.bind(var28)(var22);
             var18['accessibilityLabel'] = var22;
             var21 = function onPress() {

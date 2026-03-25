@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var20 = var15[var11];
         var20 = var14.bind(var4)(var20);
         var20 = var20.t;
-        var20 = var20.2B3wj8;
+        var20 = var20["2B3wj8"];
         var20 = var21.bind(var22)(var20);
         var17['children'] = var20;
         var17 = var3.bind(var4)(var19, var17);
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11./g10LC;
+        var11 = var11["/g10LC"];
         var11 = var12.bind(var13)(var11);
         var9['text'] = var11;
         var11 = function onPress() {

@@ -160,7 +160,7 @@ case 4:
             var9 = var2[var9];
             var9 = var3.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9./g10LC;
+            var9 = var9["/g10LC"];
             var11 = var11.bind(var12)(var9);
             var9 = 'disagreement';
             var5[var9] = var11;

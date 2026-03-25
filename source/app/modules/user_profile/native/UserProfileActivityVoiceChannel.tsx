@@ -340,7 +340,7 @@ case 12:
                 var12 = var19[var12];
                 var12 = var14.bind(var4)(var12);
                 var12 = var12.t;
-                var12 = var12.9C444m;
+                var12 = var12["9C444m"];
                 var12 = var15.bind(var20)(var12);
                 var8['accessibilityHint'] = var12;
                 var12 = function onPress() {

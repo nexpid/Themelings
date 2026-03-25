@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var6)(var3, var2, var4);
     var4 = {};
     var2 = {};
-    var5 = /(?:^https?:\\/\\/)(?:www\.)?bestbuy\.com(?:\\/(.*))?$/i;
+    var5 = /(?:^https?:\/\/)(?:www\.)?bestbuy\.com(?:\/(.*))?$/i;
     var2['regex'] = var5;
     var5 = 'bestbuy://';
     var2['protocol'] = var5;

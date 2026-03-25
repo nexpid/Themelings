@@ -695,7 +695,7 @@ case 41:
                             var18 = 'withMessage';
                             var5[var18] = var15;
                             var5 = var8.bind(var14)(var7, var11, var5);
-                            SaveGenerator(address=613);
+                            SaveGenerator(address=617);
 case 47:
                             return var5;
 case 48:
@@ -1012,7 +1012,7 @@ case 63:
             var25 = var13[var28];
             var25 = var12.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.+SkRRj;
+            var25 = var25["+SkRRj"];
             var25 = var34.bind(var36)(var25);
             var7['title'] = var25;
             var25 = function headerTitle(arg1) {
@@ -1046,7 +1046,7 @@ case 65:
                     var6 = var11[var6];
                     var6 = var7.bind(var3)(var6);
                     var6 = var6.t;
-                    var7 = var6.3Fbkir;
+                    var7 = var6["3Fbkir"];
                     var6 = {};
                     var10 = _closure1_slot11;
                     var6['count'] = var10;

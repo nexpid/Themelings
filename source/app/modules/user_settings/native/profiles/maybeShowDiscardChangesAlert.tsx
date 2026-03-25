@@ -81,7 +81,7 @@ case 5:
             var7 = var11[var6];
             var7 = var9.bind(var10)(var7);
             var7 = var7.t;
-            var7 = var7.6GQDFu;
+            var7 = var7["6GQDFu"];
             var7 = var8.bind(var12)(var7);
             var2['confirmText'] = var7;
             var7 = var11[var6];
@@ -162,7 +162,7 @@ case 4:
         var7 = var11[var6];
         var7 = var9.bind(var10)(var7);
         var7 = var7.t;
-        var7 = var7.6GQDFu;
+        var7 = var7["6GQDFu"];
         var7 = var8.bind(var12)(var7);
         var1['confirmText'] = var7;
         var7 = var11[var6];

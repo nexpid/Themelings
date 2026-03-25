@@ -68,7 +68,7 @@ case 6:
             var10 = var17[var10];
             var10 = var12.bind(var4)(var10);
             var10 = var10.t;
-            var12 = var10.28qZMU;
+            var12 = var10["28qZMU"];
             var10 = {};
             var10['number'] = var15;
             var10 = var13.bind(var14)(var12, var10);
@@ -532,7 +532,7 @@ case 21:
             var19 = var21.bind(var22)(var19);
             _fun0002_ip = 22; continue _fun0002;
 case 20:
-            var20 = var20.4bDptI;
+            var20 = var20["4bDptI"];
             var19 = var21.bind(var22)(var20);
 case 22:
             var13['children'] = var19;
@@ -739,7 +739,7 @@ case 22:
         var12 = var16[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.3VoRLH;
+        var12 = var12["3VoRLH"];
         var12 = var13.bind(var14)(var12);
         var5['accessibilityLabel'] = var12;
         var12 = var11.length;

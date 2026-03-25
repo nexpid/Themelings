@@ -383,7 +383,7 @@ case 62:
             var1 = var3.bind(var4)(var1);
             _fun0007_ip = 63; continue _fun0007;
 case 61:
-            var5 = var2.9hghLD;
+            var5 = var2["9hghLD"];
             var1 = var3.bind(var4)(var5);
 case 63:
             _fun0007_ip = 64; continue _fun0007;

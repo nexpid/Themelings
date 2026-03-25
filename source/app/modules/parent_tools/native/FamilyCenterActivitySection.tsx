@@ -297,7 +297,7 @@ case 18:
             var1 = 13;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
-            var2 = var1.7dMmJY;
+            var2 = var1["7dMmJY"];
             var1 = {};
             var9 = global;
             var16 = var9.Math;

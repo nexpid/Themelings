@@ -164,7 +164,7 @@ case 6:
                                 var6 = var10[var6];
                                 var6 = var9.bind(var4)(var6);
                                 var6 = var6.t;
-                                var6 = var6.5Wxrcd;
+                                var6 = var6["5Wxrcd"];
                                 var6 = var7.bind(var8)(var6);
                                 var2['text'] = var6;
                                 var6 = function onPress() {
@@ -244,7 +244,7 @@ case 5:
                             var5 = var9[var5];
                             var5 = var8.bind(var3)(var5);
                             var5 = var5.t;
-                            var5 = var5.5Wxrcd;
+                            var5 = var5["5Wxrcd"];
                             var5 = var6.bind(var7)(var5);
                             var1['text'] = var5;
                             var5 = function onPress() {

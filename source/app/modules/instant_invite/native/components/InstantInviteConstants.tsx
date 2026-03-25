@@ -432,7 +432,7 @@ case 17:
                         var4 = var9[var4];
                         var4 = var7.bind(var8)(var4);
                         var4 = var4.t;
-                        var4 = var4.1ieAR5;
+                        var4 = var4["1ieAR5"];
                         var4 = var5.bind(var6)(var4);
                         var1['body'] = var4;
                         var4 = true;
@@ -607,7 +607,7 @@ case 17:
                         var4 = var9[var4];
                         var4 = var7.bind(var8)(var4);
                         var4 = var4.t;
-                        var4 = var4.1ieAR5;
+                        var4 = var4["1ieAR5"];
                         var4 = var5.bind(var6)(var4);
                         var1['body'] = var4;
                         var4 = true;
@@ -713,7 +713,7 @@ case 16:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.14o9ZT;
+            var1 = var1["14o9ZT"];
             var1 = var2.bind(var3)(var1);
             return var1;
         };
@@ -774,7 +774,7 @@ case 16:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.148qIV;
+            var1 = var1["148qIV"];
             var1 = var2.bind(var3)(var1);
             return var1;
         };

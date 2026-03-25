@@ -796,7 +796,7 @@ case 28:
         var16 = var13[var16];
         var16 = var19.bind(var4)(var16);
         var16 = var16.t;
-        var16 = var16.13/7kX;
+        var16 = var16["13/7kX"];
         var16 = var17.bind(var18)(var16);
         var5['headerBackTitle'] = var16;
         var8 = var15.bind(var4)(var8, var5);

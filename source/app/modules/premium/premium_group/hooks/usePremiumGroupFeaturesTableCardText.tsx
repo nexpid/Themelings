@@ -219,7 +219,7 @@ case 15:
             var1 = 6;
             var1 = var9[var1];
             var1 = var4.bind(var8)(var1);
-            var4 = var1.+R/K74;
+            var4 = var1["+R/K74"];
             var1 = {};
             var9 = _closure1_slot6;
             var1['helpCenterLink'] = var9;

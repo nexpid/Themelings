@@ -262,7 +262,7 @@ case 8:
             var19 = var15[var11];
             var19 = var14.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.6Qgrev;
+            var19 = var19["6Qgrev"];
             var19 = var20.bind(var21)(var19);
             var12['accessibilityLabel'] = var19;
             var19 = true;
@@ -287,7 +287,7 @@ case 8:
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.6Qgrev;
+            var11 = var11["6Qgrev"];
             var11 = var12.bind(var13)(var11);
             var7['label'] = var11;
             var10 = function onPress() {

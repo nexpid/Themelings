@@ -169,7 +169,7 @@ case 15:
             var3 = var8[var3];
             var3 = var6.bind(var5)(var3);
             var3 = var3.t;
-            var10 = var3.8W9OXU;
+            var10 = var3["8W9OXU"];
             _fun0003_ip = 19; continue _fun0003;
 case 13:
             var6 = _closure1_slot0;
@@ -196,7 +196,7 @@ case 9:
             var3 = var3[var8];
             var3 = var6.bind(var5)(var3);
             var3 = var3.t;
-            var6 = var3.0BlpbA;
+            var6 = var3["0BlpbA"];
             var3 = _closure1_slot19;
             var3 = var3.PAYPAL;
             var3 = var14 === var3;
@@ -250,7 +250,7 @@ case 26:
             var3 = var13[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.t;
-            var4 = var3.2p7dA3;
+            var4 = var3["2p7dA3"];
             var3 = {};
             var3['description'] = var11;
             var13 = global;
@@ -276,7 +276,7 @@ case 24:
             var3 = var13[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.t;
-            var4 = var3.2p7dA3;
+            var4 = var3["2p7dA3"];
             var3 = {};
             var3['description'] = var11;
             var11 = global;
@@ -799,7 +799,7 @@ case 67:
                     var11 = var19[var11];
                     var11 = var18.bind(var4)(var11);
                     var11 = var11.t;
-                    var11 = var11.5911Lb;
+                    var11 = var11["5911Lb"];
                     var11 = var13.bind(var16)(var11);
                     var2['text'] = var11;
                     var11 = true;
@@ -1303,7 +1303,7 @@ case 110:
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.+KCMSi;
+            var15 = var15["+KCMSi"];
             var15 = var16.bind(var17)(var15);
             var3['label'] = var15;
             var3['value'] = var14;
@@ -1350,7 +1350,7 @@ case 112:
             var14 = var18[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var15 = var14.6u6J0q;
+            var15 = var14["6u6J0q"];
             var14 = {};
             var18 = var1.name;
             var14['platform'] = var18;
@@ -3321,7 +3321,7 @@ case 191:
                     var5 = var9[var5];
                     var5 = var8.bind(var3)(var5);
                     var5 = var5.t;
-                    var5 = var5.8SuVoE;
+                    var5 = var5["8SuVoE"];
                     var5 = var6.bind(var7)(var5);
                     var1['text'] = var5;
                     var1 = var4.bind(var3)(var2, var1);

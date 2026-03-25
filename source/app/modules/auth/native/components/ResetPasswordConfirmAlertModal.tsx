@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var13[var7];
         var5 = var12.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.6u5hQ9;
+        var6 = var5["6u5hQ9"];
         var5 = {};
         var5['email'] = var11;
         var5 = var9.bind(var10)(var6, var5);

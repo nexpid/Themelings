@@ -154,7 +154,7 @@ case 2:
             var10 = 8;
             var10 = var17[var10];
             var10 = var16.bind(var5)(var10);
-            var10 = var10.3FRirU;
+            var10 = var10["3FRirU"];
             var10 = var13.bind(var15)(var10);
             var6['children'] = var10;
             var7 = var9.bind(var5)(var7, var6);

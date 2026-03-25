@@ -307,7 +307,7 @@ case 3:
             var8 = var8[var12];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.7q0bNY;
+            var8 = var8["7q0bNY"];
             var8 = var9.bind(var10)(var8);
             var6['text'] = var8;
             var8 = 'secondary';

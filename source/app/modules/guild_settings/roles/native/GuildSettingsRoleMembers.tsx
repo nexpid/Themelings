@@ -306,7 +306,7 @@ case 7:
                     var9 = var7[var8];
                     var9 = var5.bind(var6)(var9);
                     var9 = var9.t;
-                    var9 = var9.7sFNfW;
+                    var9 = var9["7sFNfW"];
                     var9 = var10.bind(var11)(var9);
                     var1['title'] = var9;
                     var9 = var7[var8];
@@ -523,7 +523,7 @@ case 11:
                     var13 = var12[var13];
                     var13 = var11.bind(var4)(var13);
                     var13 = var13.t;
-                    var13 = var13.7sFNfW;
+                    var13 = var13["7sFNfW"];
                     var13 = var14.bind(var15)(var13);
                     var7['accessibilityLabel'] = var13;
                     var13 = 'button';

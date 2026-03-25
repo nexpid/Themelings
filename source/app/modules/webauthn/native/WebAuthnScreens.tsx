@@ -70,7 +70,7 @@ case 0:
             var6 = var6[var9];
             var6 = var12.bind(var8)(var6);
             var6 = var6.t;
-            var6 = var6.0N1s81;
+            var6 = var6["0N1s81"];
             var6 = var10.bind(var11)(var6);
             var2['title'] = var6;
             var6 = function render() {
@@ -233,7 +233,7 @@ case 4:
             var4 = var4[var9];
             var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.7wPZln;
+            var4 = var4["7wPZln"];
             var4 = var5.bind(var6)(var4);
             var2['title'] = var4;
             var1[var3] = var2;

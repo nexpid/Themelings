@@ -88,7 +88,7 @@ case 5:
             var2 = var14[var7];
             var2 = var8.bind(var5)(var2);
             var2 = var2.t;
-            var9 = var2.3T0cpx;
+            var9 = var2["3T0cpx"];
             var2 = {};
             var2 = var15.bind(var10)(var9, var2);
             var6['children'] = var2;
@@ -175,7 +175,7 @@ case 10:
             var15 = var21[var15];
             var15 = var16.bind(var5)(var15);
             var15 = var15.t;
-            var16 = var15.2tBYtA;
+            var16 = var15["2tBYtA"];
             var15 = {};
             var15['sender'] = var20;
             var20 = var11.name;

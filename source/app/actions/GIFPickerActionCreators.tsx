@@ -1010,7 +1010,7 @@ case 57:
                 var5 = var9[var4];
                 var5 = var7.bind(var8)(var5);
                 var5 = var5.t;
-                var5 = var5.+XYXtZ;
+                var5 = var5["+XYXtZ"];
                 var5 = var6.bind(var10)(var5);
                 var1['title'] = var5;
                 var5 = var9[var4];

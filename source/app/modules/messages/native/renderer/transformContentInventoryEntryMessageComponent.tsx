@@ -661,7 +661,7 @@ case 57:
             var12 = var16[var10];
             var12 = var11.bind(var1)(var12);
             var12 = var12.t;
-            var12 = var12./50eHi;
+            var12 = var12["/50eHi"];
             var13 = var13.bind(var14)(var12);
             var12 = var16[var10];
             var12 = var11.bind(var1)(var12);

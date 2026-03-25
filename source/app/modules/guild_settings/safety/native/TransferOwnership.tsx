@@ -461,7 +461,7 @@ case 18:
             var10 = var21[var10];
             var10 = var15.bind(var4)(var10);
             var10 = var10.t;
-            var15 = var10.2XLnG0;
+            var15 = var10["2XLnG0"];
             var10 = {};
             var10['GuildHook'] = var19;
             var20 = _closure1_slot1;

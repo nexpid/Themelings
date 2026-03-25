@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.PX_16;
     var10['paddingVertical'] = var11;
     var4['searchContainer'] = var10;
-    var10 = {'height': 16, 'width': 16, 'opacity': 0.6};
+    var10 = {'height': 16, 'width': 16};
     var4['channelIcon'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot14 = var4;
@@ -412,7 +412,7 @@ case 13:
             var19 = var19[var14];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.5h0QOP;
+            var19 = var19["5h0QOP"];
             var19 = var20.bind(var21)(var19);
             var16['placeholder'] = var19;
             var16['onChange'] = var18;

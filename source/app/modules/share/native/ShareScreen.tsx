@@ -825,7 +825,7 @@ case 63:
                         var2 = var9[var2];
                         var2 = var3.bind(var8)(var2);
                         var2 = var2.t;
-                        var3 = var2.3Fbkir;
+                        var3 = var2["3Fbkir"];
                         var2 = {};
                         var8 = _closure1_slot15;
                         var2['count'] = var8;

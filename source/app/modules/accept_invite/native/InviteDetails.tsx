@@ -167,7 +167,7 @@ case 20:
             var1 = var9[var1];
             var1 = var2.bind(var5)(var1);
             var1 = var1.t;
-            var2 = var1.4aF92R;
+            var2 = var1["4aF92R"];
             var1 = {};
             var8 = _closure1_slot1;
             var6 = 16;
@@ -309,7 +309,7 @@ case 29:
             var7 = var2[var1];
             var7 = var5.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.3rE1P8;
+            var7 = var7["3rE1P8"];
             var7 = var9.bind(var11)(var7);
             var13 = 13;
             var2 = var2[var13];
@@ -783,7 +783,7 @@ case 39:
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.9sWQNT;
+        var6 = var5["9sWQNT"];
         var5 = {};
         var9 = function usernameHook(arg1, arg2) {
             var5 = _closure1_slot12;
@@ -1290,7 +1290,7 @@ case 84:
                     var3 = var9[var3];
                     var3 = var8.bind(var4)(var3);
                     var3 = var3.t;
-                    var4 = var3.9sWQNT;
+                    var4 = var3["9sWQNT"];
                     var3 = {};
                     var7 = function usernameHook() {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {

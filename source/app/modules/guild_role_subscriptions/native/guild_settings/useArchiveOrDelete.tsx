@@ -145,7 +145,7 @@ case 8:
             var5 = var15[var9];
             var5 = var14.bind(var10)(var5);
             var5 = var5.t;
-            var5 = var5.5/Jeg2;
+            var5 = var5["5/Jeg2"];
             var5 = var12.bind(var13)(var5);
             var12 = var15[var9];
             var12 = var14.bind(var10)(var12);
@@ -174,7 +174,7 @@ case 8:
             var9 = var15[var9];
             var9 = var14.bind(var10)(var9);
             var9 = var9.t;
-            var9 = var9.170XOL;
+            var9 = var9["170XOL"];
             var9 = var12.bind(var13)(var9);
             var _closure2_slot6 = var9;
             _fun0001_ip = 9; continue _fun0001;
@@ -229,7 +229,7 @@ case 12:
             var14 = var13[var17];
             var14 = var16.bind(var10)(var14);
             var14 = var14.t;
-            var14 = var14.4H6RLl;
+            var14 = var14["4H6RLl"];
             var14 = var15.bind(var18)(var14);
             _closure2_slot4 = var14;
             var14 = var13[var17];

@@ -234,7 +234,7 @@ case 3:
             var17 = var19[var15];
             var17 = var18.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.3LW10C;
+            var17 = var17["3LW10C"];
             var17 = var20.bind(var21)(var17);
             var13[2] = var17;
             var10['children'] = var13;

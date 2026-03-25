@@ -439,7 +439,7 @@ case 40:
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.0KOido;
+            var1 = var1["0KOido"];
             var19 = var2.bind(var3)(var1);
             _fun0004_ip = 41; continue _fun0004;
 case 39:

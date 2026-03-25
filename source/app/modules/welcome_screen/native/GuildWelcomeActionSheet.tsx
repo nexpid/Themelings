@@ -816,7 +816,7 @@ case 31:
             var19 = var18[var14];
             var19 = var17.bind(var5)(var19);
             var19 = var19.t;
-            var20 = var19.0aydCN;
+            var20 = var19["0aydCN"];
             var19 = {};
             var23 = var23.name;
             var19['guildName'] = var23;

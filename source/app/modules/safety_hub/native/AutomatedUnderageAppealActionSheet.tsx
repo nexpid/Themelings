@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var8];
     var4 = var5.bind(var1)(var4);
     var4 = var4.t;
-    var4 = var4.1+E7LP;
+    var4 = var4["1+E7LP"];
     var4 = var9.bind(var10)(var4);
     var7['title'] = var4;
     var4 = var6[var8];
@@ -384,7 +384,7 @@ case 4:
         var21 = var20[var15];
         var21 = var16.bind(var4)(var21);
         var21 = var21.t;
-        var21 = var21.9SDLnj;
+        var21 = var21["9SDLnj"];
         var21 = var22.bind(var23)(var21);
         var11['children'] = var21;
         var13 = var3.bind(var4)(var13, var11);
@@ -552,7 +552,7 @@ case 4:
         var14 = var20[var15];
         var14 = var16.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.54b8V0;
+        var14 = var14["54b8V0"];
         var14 = var18.bind(var21)(var14);
         var12['text'] = var14;
         var13 = var3.bind(var4)(var13, var12);

@@ -847,7 +847,7 @@ case 16:
             var17 = var20[var26];
             var17 = var29.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.8pMev2;
+            var17 = var17["8pMev2"];
             var17 = var22.bind(var23)(var17);
             var16['title'] = var17;
             var25 = _closure1_slot17;
@@ -1108,7 +1108,7 @@ case 38:
                     var6 = var11[var14];
                     var6 = var8.bind(var4)(var6);
                     var6 = var6.t;
-                    var6 = var6.8msQQO;
+                    var6 = var6["8msQQO"];
                     var6 = var7.bind(var12)(var6);
                     var1['title'] = var6;
                     var7 = _closure1_slot17;

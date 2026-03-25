@@ -229,7 +229,7 @@ case 4:
             var13 = var18[var13];
             var13 = var14.bind(var5)(var13);
             var13 = var13.t;
-            var14 = var13.+dia6l;
+            var14 = var13["+dia6l"];
             var13 = {};
             var17 = var17.length;
             var13['count'] = var17;

@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.1bX7Tx;
+        var11 = var11["1bX7Tx"];
         var11 = var12.bind(var13)(var11);
         var7['children'] = var11;
         var7 = var10.bind(var4)(var8, var7);
@@ -1505,7 +1505,7 @@ case 70:
             var26 = var26[var41];
             var26 = var33.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.3G0CTC;
+            var26 = var26["3G0CTC"];
             var26 = var27.bind(var32)(var26);
             var20['children'] = var26;
             var23 = var24.bind(var4)(var23, var20);
@@ -1552,7 +1552,7 @@ case 75:
             var36 = var36[var41];
             var36 = var37.bind(var4)(var36);
             var36 = var36.t;
-            var37 = var36.0Vwb/l;
+            var37 = var36["0Vwb/l"];
             var36 = {};
             var36['activateDate'] = var40;
             var36 = var38.bind(var39)(var37, var36);

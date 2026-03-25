@@ -964,7 +964,7 @@ case 27:
             var20 = var20.t;
             if(var18) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
-            var18 = var20.8x0jKT;
+            var18 = var20["8x0jKT"];
             var18 = var21.bind(var23)(var18);
             _fun0004_ip = 31; continue _fun0004;
 case 29:

@@ -315,7 +315,7 @@ case 10:
                     var1 = var7[var12];
                     var1 = var13.bind(var4)(var1);
                     var1 = var1.t;
-                    var8 = var1.8fyBPf;
+                    var8 = var1["8fyBPf"];
                     var1 = {};
                     var1['duration'] = var11;
                     var1 = var14.bind(var9)(var8, var1);
@@ -341,7 +341,7 @@ case 8:
                     var6 = var6[var12];
                     var6 = var7.bind(var4)(var6);
                     var6 = var6.t;
-                    var7 = var6.93PGOI;
+                    var7 = var6["93PGOI"];
                     var6 = {};
                     var6['duration'] = var11;
                     var10 = _closure2_slot4;

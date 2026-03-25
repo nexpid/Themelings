@@ -123,7 +123,7 @@ case 6:
                 var2 = var7[var2];
                 var2 = var6.bind(var5)(var2);
                 var2 = var2.t;
-                var2 = var2.6b6rwk;
+                var2 = var2["6b6rwk"];
                 var2 = var3.bind(var4)(var2);
                 return var2;
 case 4:

@@ -182,7 +182,7 @@ case 7: // try_start_0
                                 var7 = var13[var7];
                                 var7 = var12.bind(var3)(var7);
                                 var7 = var7.t;
-                                var7 = var7.8H5RmH;
+                                var7 = var7["8H5RmH"];
                                 var7 = var10.bind(var11)(var7);
                                 var4 = var8.bind(var9)(var7, var6, var4);
                                 SaveGenerator(address=127);
@@ -314,7 +314,7 @@ case 2:
             var20 = var19[var23];
             var20 = var14.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.0d1bXM;
+            var20 = var20["0d1bXM"];
             var20 = var21.bind(var22)(var20);
             var10['children'] = var20;
             var10 = var3.bind(var4)(var11, var10);

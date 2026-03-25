@@ -271,7 +271,7 @@ case 17:
             var18 = var20.bind(var21)(var18);
             _fun0001_ip = 18; continue _fun0001;
 case 16:
-            var19 = var19.639hQT;
+            var19 = var19["639hQT"];
             var18 = var20.bind(var21)(var19);
 case 18:
             var14['label'] = var18;
@@ -334,7 +334,7 @@ case 23:
             var17 = var16.t;
             if(var15) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var16 = var17.4MMsWF;
+            var16 = var17["4MMsWF"];
             var16 = var18.bind(var19)(var16);
             _fun0001_ip = 26; continue _fun0001;
 case 24:
@@ -478,7 +478,7 @@ case 39:
             var7 = var15[var12];
             var7 = var14.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.8ErYvY;
+            var7 = var7["8ErYvY"];
             var7 = var16.bind(var17)(var7);
             var3['label'] = var7;
             var7 = 26;

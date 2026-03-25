@@ -43,7 +43,7 @@ case 7:
             var3 = var3[var7];
             var3 = var4.bind(var1)(var3);
             var3 = var3.t;
-            var4 = var3.3SLXAz;
+            var4 = var3["3SLXAz"];
             var3 = {};
             var3['minutes'] = var10;
             var3 = var5.bind(var8)(var4, var3);

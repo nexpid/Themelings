@@ -940,7 +940,7 @@ case 7:
                 var8 = var12[var8];
                 var8 = var11.bind(var4)(var8);
                 var8 = var8.t;
-                var8 = var8./dp6yY;
+                var8 = var8["/dp6yY"];
                 var8 = var9.bind(var10)(var8);
                 var1['title'] = var8;
                 var8 = undefined;
@@ -1499,7 +1499,7 @@ case 50:
                 var15 = var20[var17];
                 var15 = var21.bind(var4)(var15);
                 var15 = var15.t;
-                var15 = var15.+f0bXQ;
+                var15 = var15["+f0bXQ"];
                 var15 = var19.bind(var22)(var15);
                 var13['label'] = var15;
                 var15 = !var16;
@@ -1529,7 +1529,7 @@ case 50:
                 var22 = var20[var17];
                 var22 = var21.bind(var4)(var22);
                 var22 = var22.t;
-                var22 = var22.72k7jf;
+                var22 = var22["72k7jf"];
                 var22 = var23.bind(var24)(var22);
                 var13['label'] = var22;
                 var22 = !var16;
@@ -1557,7 +1557,7 @@ case 50:
                 var22 = var20[var17];
                 var22 = var21.bind(var4)(var22);
                 var22 = var22.t;
-                var22 = var22.2L8NCN;
+                var22 = var22["2L8NCN"];
                 var22 = var23.bind(var24)(var22);
                 var13['label'] = var22;
                 var22 = !var16;
@@ -1618,7 +1618,7 @@ case 53:
                 var21 = var19[var17];
                 var21 = var20.bind(var4)(var21);
                 var21 = var21.t;
-                var21 = var21.54n19R;
+                var21 = var21["54n19R"];
                 var21 = var22.bind(var23)(var21);
                 var13['label'] = var21;
                 var21 = !var16;
@@ -1743,7 +1743,7 @@ case 0:
                 var7 = var10[var14];
                 var7 = var16.bind(var3)(var7);
                 var7 = var7.t;
-                var7 = var7.23TVhl;
+                var7 = var7["23TVhl"];
                 var7 = var8.bind(var11)(var7);
                 var1['title'] = var7;
                 var7 = var10[var14];
@@ -2109,7 +2109,7 @@ case 64:
                 var11 = var13[var10];
                 var11 = var12.bind(var4)(var11);
                 var11 = var11.t;
-                var11 = var11./B6PRw;
+                var11 = var11["/B6PRw"];
                 var11 = var14.bind(var15)(var11);
                 var2['description'] = var11;
                 var11 = 43;
@@ -2186,7 +2186,7 @@ case 68:
                 var11 = var10[var5];
                 var11 = var6.bind(var3)(var11);
                 var11 = var11.t;
-                var11 = var11.0r0AzF;
+                var11 = var11["0r0AzF"];
                 var11 = var12.bind(var13)(var11);
                 var1['title'] = var11;
                 var11 = var10[var5];

@@ -95,7 +95,7 @@ case 0:
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.2pAkDA;
+            var9 = var9["2pAkDA"];
             var9 = var13.bind(var14)(var9);
             var8['title'] = var9;
             var9 = function headerTitle() {
@@ -116,7 +116,7 @@ case 0:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.2pAkDA;
+                var5 = var5["2pAkDA"];
                 var5 = var6.bind(var7)(var5);
                 var1['title'] = var5;
                 var1 = var4.bind(var3)(var2, var1);

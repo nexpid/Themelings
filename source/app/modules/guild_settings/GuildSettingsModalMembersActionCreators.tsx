@@ -220,7 +220,7 @@ case 0:
                     var3 = var3[var8];
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.t;
-                    var3 = var3.5LO/Ss;
+                    var3 = var3["5LO/Ss"];
                     var5 = var4.bind(var5)(var3);
                     var4 = _closure2_slot0;
                     var3 = null;

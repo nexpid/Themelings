@@ -459,7 +459,7 @@ case 35:
             var22 = var22[var26];
             var22 = var25.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.1g9A/f;
+            var22 = var22["1g9A/f"];
             var22 = var23.bind(var24)(var22);
             var19['children'] = var22;
             var19 = var21.bind(var4)(var20, var19);

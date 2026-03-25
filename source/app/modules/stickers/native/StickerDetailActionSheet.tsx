@@ -1075,7 +1075,7 @@ case 59:
 case 55:
                 if(var6) { _fun0007_ip = 61; continue _fun0007 }
 case 62:
-                var6 = var12.1f6D9m;
+                var6 = var12["1f6D9m"];
                 var6 = var14.bind(var20)(var6);
                 _fun0007_ip = 63; continue _fun0007;
 case 61:

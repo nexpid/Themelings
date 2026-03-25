@@ -616,7 +616,7 @@ case 40:
             var9 = var15[var19];
             var9 = var18.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.0t2wRW;
+            var9 = var9["0t2wRW"];
             var9 = var11.bind(var17)(var9);
             var6['title'] = var9;
             var9 = var15[var10];

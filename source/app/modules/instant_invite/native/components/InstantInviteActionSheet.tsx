@@ -728,7 +728,7 @@ case 54:
             var36 = var42[var36];
             var36 = var39.bind(var4)(var36);
             var36 = var36.t;
-            var39 = var36.1UgGdm;
+            var39 = var36["1UgGdm"];
             var36 = {};
             var44 = _closure1_slot9;
             var43 = var44.getGuild;

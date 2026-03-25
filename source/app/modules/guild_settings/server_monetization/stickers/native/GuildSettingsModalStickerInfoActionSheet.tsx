@@ -176,7 +176,7 @@ case 15: // try_start_2 // catch_target0
                             var7 = var11[var7];
                             var7 = var10.bind(var5)(var7);
                             var7 = var7.t;
-                            var7 = var7.5NMPSS;
+                            var7 = var7["5NMPSS"];
                             var7 = var8.bind(var9)(var7);
                             var2['content'] = var7;
                             var2 = var4.bind(var6)(var2);
@@ -353,7 +353,7 @@ case 21:
             var16 = var16[var20];
             var16 = var19.bind(var5)(var16);
             var16 = var16.t;
-            var16 = var16.+ZhGOk;
+            var16 = var16["+ZhGOk"];
             var16 = var17.bind(var18)(var16);
             var12['label'] = var16;
             var16 = 'danger';

@@ -210,7 +210,7 @@ case 7:
             var15 = var18.bind(var19)(var15);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var16 = var16.13/7kX;
+            var16 = var16["13/7kX"];
             var15 = var18.bind(var19)(var16);
 case 8:
             var6['accessibilityLabel'] = var15;

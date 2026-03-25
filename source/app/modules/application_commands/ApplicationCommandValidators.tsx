@@ -552,7 +552,7 @@ case 60:
             var5 = var12[var1];
             var5 = var11.bind(var7)(var5);
             var5 = var5.t;
-            var15 = var5.8Y5zsp;
+            var15 = var5["8Y5zsp"];
             var5 = var12[var1];
             var5 = var11.bind(var7)(var5);
             var5 = var5.t;
@@ -688,7 +688,7 @@ case 66:
             var5 = var12[var1];
             var5 = var11.bind(var7)(var5);
             var5 = var5.t;
-            var15 = var5.8Y5zsp;
+            var15 = var5["8Y5zsp"];
             var5 = var12[var1];
             var5 = var11.bind(var7)(var5);
             var5 = var5.t;

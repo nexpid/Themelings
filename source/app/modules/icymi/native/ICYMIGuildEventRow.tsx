@@ -240,7 +240,7 @@ case 15:
             var6 = var6[var33];
             var6 = var11.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.6pFsLQ;
+            var6 = var6["6pFsLQ"];
             var6 = var9.bind(var10)(var6);
             var1['actionLabel'] = var6;
             var6 = var13.id;
@@ -392,7 +392,7 @@ case 25:
             var27 = var27[var33];
             var27 = var28.bind(var4)(var27);
             var27 = var27.t;
-            var28 = var27.+DLsD8;
+            var28 = var27["+DLsD8"];
             var27 = {};
             var27['count'] = var32;
             var27 = var29.bind(var30)(var28, var27);

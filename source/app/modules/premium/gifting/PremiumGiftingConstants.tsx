@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7.CUP;
     var9 = var6[var4];
     var9 = var8.bind(var1)(var9);
-    var9 = var9.6dCq/u;
+    var9 = var9["6dCq/u"];
     var2[var10] = var9;
     var10 = var7.STANDARD_BOX;
     var9 = var6[var4];
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.NITROWEEN_STANDARD;
     var4 = var6[var4];
     var4 = var8.bind(var1)(var4);
-    var4 = var4.+HMF8k;
+    var4 = var4["+HMF8k"];
     var2[var7] = var4;
     var4 = 2;
     var4 = var6[var4];

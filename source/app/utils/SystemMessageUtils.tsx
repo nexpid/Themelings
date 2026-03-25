@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var5[var3];
         var7 = var6.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.5uCTFN;
+        var7 = var7["5uCTFN"];
         var2[3] = var7;
         var7 = var5[var3];
         var7 = var6.bind(var4)(var7);
@@ -955,7 +955,7 @@ case 28:
             var3 = var16[var3];
             var3 = var7.bind(var1)(var3);
             var3 = var3.t;
-            var7 = var3./M60j0;
+            var7 = var3["/M60j0"];
             var3 = {};
             var3['username'] = var10;
             var16 = _closure1_slot11;
@@ -1143,7 +1143,7 @@ case 120:
             var2 = var9[var2];
             var2 = var5.bind(var1)(var2);
             var2 = var2.t;
-            var5 = var2.7/Xl0S;
+            var5 = var2["7/Xl0S"];
             var2 = {};
             var2['username'] = var10;
             var10 = _closure1_slot11;
@@ -1172,7 +1172,7 @@ case 119:
         var4 = undefined;
         var2 = var6.bind(var4)(var2);
         var2 = var2.t;
-        var7 = var2.0cuj7l;
+        var7 = var2["0cuj7l"];
         var2 = new Array(13);
         var2[0] = var7;
         var7 = var5[var3];
@@ -1188,7 +1188,7 @@ case 119:
         var7 = var5[var3];
         var7 = var6.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.5ToSh2;
+        var7 = var7["5ToSh2"];
         var2[3] = var7;
         var7 = var5[var3];
         var7 = var6.bind(var4)(var7);
@@ -1218,7 +1218,7 @@ case 119:
         var7 = var5[var3];
         var7 = var6.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.5B/ekS;
+        var7 = var7["5B/ekS"];
         var2[9] = var7;
         var7 = var5[var3];
         var7 = var6.bind(var4)(var7);

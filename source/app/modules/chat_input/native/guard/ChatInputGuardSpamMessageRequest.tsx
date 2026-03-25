@@ -167,7 +167,7 @@ case 4:
             var13 = var11[var12];
             var13 = var15.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.8U5OXE;
+            var13 = var13["8U5OXE"];
             var13 = var14.bind(var16)(var13);
             var1['subtext'] = var13;
             var13 = var11[var12];

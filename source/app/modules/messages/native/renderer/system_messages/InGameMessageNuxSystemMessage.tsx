@@ -107,7 +107,7 @@ case 5:
             var3 = var7[var3];
             var3 = var11.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.92erOB;
+            var3 = var3["92erOB"];
             var3 = var8.bind(var9)(var3, var10);
             var2['content'] = var3;
             var3 = 6;

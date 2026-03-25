@@ -580,7 +580,7 @@ case 28:
             var2 = var2.t;
             if(var8) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
-            var9 = var2.13/7kX;
+            var9 = var2["13/7kX"];
             var11 = var3.bind(var5)(var9);
             _fun0004_ip = 32; continue _fun0004;
 case 30:
@@ -602,7 +602,7 @@ case 34:
             var9 = var3.bind(var5)(var8);
             _fun0004_ip = 35; continue _fun0004;
 case 33:
-            var2 = var2.6rhrVG;
+            var2 = var2["6rhrVG"];
             var9 = var3.bind(var5)(var2);
 case 35:
             var3 = _closure1_slot16;
@@ -1336,7 +1336,7 @@ case 94:
             var1 = var1.t;
             if(var11) { _fun0007_ip = 95; continue _fun0007 }
 case 96:
-            var11 = var1.3XohGn;
+            var11 = var1["3XohGn"];
             var14 = var2.bind(var3)(var11);
             _fun0007_ip = 97; continue _fun0007;
 case 95:

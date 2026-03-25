@@ -363,7 +363,7 @@ case 6:
             var16 = var16[var18];
             var16 = var21.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.2pAkDA;
+            var16 = var16["2pAkDA"];
             var16 = var17.bind(var20)(var16);
             var11['label'] = var16;
             var11['onPress'] = var8;

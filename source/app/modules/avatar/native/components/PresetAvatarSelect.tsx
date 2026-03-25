@@ -259,7 +259,7 @@ case 2:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.3h0yoI;
+        var1 = var1["3h0yoI"];
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -421,7 +421,7 @@ case 2:
             var6 = var11[var6];
             var6 = var7.bind(var1)(var6);
             var6 = var6.t;
-            var7 = var6.1K8jaQ;
+            var7 = var6["1K8jaQ"];
             var6 = {};
             var11 = 1;
             var11 = var5 + var11;
@@ -476,7 +476,7 @@ case 2:
             var6 = var11[var6];
             var6 = var7.bind(var1)(var6);
             var6 = var6.t;
-            var7 = var6.1K8jaQ;
+            var7 = var6["1K8jaQ"];
             var6 = {};
             var11 = 1;
             var11 = var5 + var11;

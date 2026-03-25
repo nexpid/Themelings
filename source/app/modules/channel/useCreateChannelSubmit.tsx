@@ -237,7 +237,7 @@ case 25: // try_start_2 // catch_target0
                         var5 = var14[var5];
                         var5 = var13.bind(var6)(var5);
                         var5 = var5.t;
-                        var5 = var5.0SbUzm;
+                        var5 = var5["0SbUzm"];
                         var5 = var11.bind(var12)(var5);
                         var5 = var8.bind(var10)(var5);
                         var5 = _closure2_slot2;

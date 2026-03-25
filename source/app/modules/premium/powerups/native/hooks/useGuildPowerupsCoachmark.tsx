@@ -384,7 +384,7 @@ case 26:
                 var12 = var16.string;
                 var11 = var14[var11];
                 var11 = var18.bind(var9)(var11);
-                var11 = var11.3L/DZq;
+                var11 = var11["3L/DZq"];
                 var12 = var12.bind(var16)(var11);
                 var11 = 'description';
                 var8[var11] = var12;
@@ -708,7 +708,7 @@ case 32:
                 var7 = 15;
                 var7 = var16[var7];
                 var7 = var8.bind(var9)(var7);
-                var8 = var7.6Sv+3M;
+                var8 = var7["6Sv+3M"];
                 var7 = {};
                 var13 = var14[var13];
                 var13 = var13.title;
@@ -885,7 +885,7 @@ case 10:
                 var11 = var14.string;
                 var10 = var13[var10];
                 var10 = var15.bind(var9)(var10);
-                var10 = var10.6hn0xF;
+                var10 = var10["6hn0xF"];
                 var11 = var11.bind(var14)(var10);
                 var10 = 'description';
                 var7[var10] = var11;
@@ -959,7 +959,7 @@ case 8:
                 var11 = var12.formatToPlainString;
                 var6 = var10[var6];
                 var6 = var7.bind(var9)(var6);
-                var7 = var6.1EGXSK;
+                var7 = var6["1EGXSK"];
                 var6 = {};
                 var13 = var13.powerup;
                 var13 = var13.title;

@@ -429,7 +429,7 @@ case 18:
             var13 = var16.bind(var17)(var13);
             _fun0001_ip = 19; continue _fun0001;
 case 17:
-            var15 = var15.3DzNjU;
+            var15 = var15["3DzNjU"];
             var13 = var16.bind(var17)(var15);
 case 19:
             var7['text'] = var13;

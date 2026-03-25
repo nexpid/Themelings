@@ -283,7 +283,7 @@ case 20:
             var4 = var9[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.8/GdRB;
+            var4 = var4["8/GdRB"];
             var4 = var5.bind(var6)(var4);
             var1['text'] = var4;
             var2 = _closure1_slot5;
@@ -478,7 +478,7 @@ case 38:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.0qyXXH;
+            var2 = var2["0qyXXH"];
             var1 = var3.bind(var4)(var2);
 case 40:
             return var1;

@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var6[var7];
         var7 = var10.bind(var5)(var7);
         var7 = var7.t;
-        var7 = var7./7i2el;
+        var7 = var7["/7i2el"];
         var7 = var8.bind(var9)(var7);
         var2['label'] = var7;
         var3 = var6[var3];

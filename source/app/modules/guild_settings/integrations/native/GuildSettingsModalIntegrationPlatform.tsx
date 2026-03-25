@@ -853,7 +853,7 @@ case 56:
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.4OSAQ9;
+            var3 = var2["4OSAQ9"];
             var2 = {};
             var2['connectAction'] = var7;
             var8 = _closure1_slot1;

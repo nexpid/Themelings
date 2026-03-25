@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var1];
         var1 = var6.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.6vrePS;
+        var2 = var1["6vrePS"];
         var1 = {};
         var5 = var5.length;
         var1['count'] = var5;

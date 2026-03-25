@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var17[var13];
         var15 = var16.bind(var3)(var15);
         var15 = var15.t;
-        var15 = var15./GUaXh;
+        var15 = var15["/GUaXh"];
         var15 = var18.bind(var19)(var15);
         var8['label'] = var15;
         var18 = _closure1_slot3;
@@ -201,7 +201,7 @@ case 2:
             var2 = var7[var2];
             var2 = var6.bind(var1)(var2);
             var2 = var2.t;
-            var2 = var2.23xR5w;
+            var2 = var2["23xR5w"];
             var2 = var4.bind(var5)(var2);
             var2 = var3.bind(var1)(var2);
             return var1;

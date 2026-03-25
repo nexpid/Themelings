@@ -211,7 +211,7 @@ case 0:
             var7 = var20[var16];
             var7 = var19.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.9ty6yc;
+            var7 = var7["9ty6yc"];
             var7 = var8.bind(var21)(var7);
             var5['title'] = var7;
             var7 = 15;
