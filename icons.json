@@ -11353,26 +11353,6 @@
         "width": 24,
         "height": 24
     },
-    "SettingsCircleIcon-primary": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/SettingsCircleIcon-primary.png",
-        "hash": "5abeb9798961f9b8b3a02590c34189a7",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "SettingsCircleIcon-secondary": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/SettingsCircleIcon-secondary.png",
-        "hash": "c4a420d19265f4fb68238368ad2452a5",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "SettingsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SettingsIcon.png",
         "hash": "37c0d54449905a6c09826b9fd26f5470",
