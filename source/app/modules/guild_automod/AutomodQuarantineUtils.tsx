@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.ProfileCustomizationSubsection;
     var _closure1_slot11 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -270,39 +270,39 @@ case 6:
     var3['useGuildAutomodProfileQuarantineErrors'] = var4;
     var2 = function useOpenFixQuarantinedProfileModal(arg1) {
         var2 = arg1;
-        var6 = var2.guildId;
-        var _closure2_slot0 = var6;
-        var8 = var2.scrollPosition;
-        var7 = var2.analyticsLocations;
-        var5 = _closure1_slot0;
-        var9 = _closure1_slot1;
+        var4 = var2.guildId;
+        var _closure2_slot0 = var4;
+        var9 = var2.scrollPosition;
+        var8 = var2.analyticsLocations;
+        var6 = _closure1_slot0;
+        var10 = _closure1_slot1;
         var2 = 10;
-        var10 = var9[var2];
-        var4 = undefined;
-        var13 = var5.bind(var4)(var10);
+        var7 = var10[var2];
+        var5 = undefined;
+        var13 = var6.bind(var5)(var7);
         var12 = var13.useStateFromStores;
-        var10 = _closure1_slot5;
+        var7 = _closure1_slot5;
         var11 = new Array(1);
-        var11[0] = var10;
-        var10 = new Array(1);
-        var10[0] = var6;
-        var6 = function() {
+        var11[0] = var7;
+        var7 = new Array(1);
+        var7[0] = var4;
+        var4 = function() {
             var3 = _closure1_slot5;
             var2 = var3.getGuild;
             var1 = _closure2_slot0;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var6 = var12.bind(var13)(var11, var6, var10);
-        var _closure2_slot1 = var6;
-        var2 = var9[var2];
-        var10 = var5.bind(var4)(var2);
-        var9 = var10.useStateFromStores;
+        var7 = var12.bind(var13)(var11, var4, var7);
+        var _closure2_slot1 = var7;
+        var2 = var10[var2];
+        var13 = var6.bind(var5)(var2);
+        var12 = var13.useStateFromStores;
         var2 = _closure1_slot6;
-        var5 = new Array(1);
-        var5[0] = var2;
+        var11 = new Array(1);
+        var11[0] = var2;
         var4 = new Array(1);
-        var4[0] = var6;
+        var4[0] = var7;
         var2 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -321,15 +321,22 @@ case 22:
                 return var1;
             }
         };
-        var2 = var9.bind(var10)(var5, var2, var4);
+        var2 = var12.bind(var13)(var11, var2, var4);
         var _closure2_slot2 = var2;
+        var4 = 13;
+        var4 = var10[var4];
+        var6 = var6.bind(var5)(var4);
+        var5 = var6.useIsEligibleForUserProfileWYSIWYGEditing;
+        var4 = 'AutomodQuarantineUtils';
+        var6 = var5.bind(var6)(var4);
         var5 = _closure1_slot2;
         var4 = var5.useCallback;
-        var3 = new Array(4);
+        var3 = new Array(5);
         var3[0] = var2;
-        var3[1] = var8;
-        var3[2] = var7;
-        var3[3] = var6;
+        var3[1] = var9;
+        var3[2] = var8;
+        var3[3] = var7;
+        var3[4] = var6;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -350,7 +357,7 @@ case 26:
 case 25:
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot1;
-                var6 = 13;
+                var6 = 14;
                 var7 = var7[var6];
                 var6 = undefined;
                 var7 = var8.bind(var6)(var7);
@@ -362,7 +369,7 @@ case 25:
 case 27:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var1 = 14;
+                var1 = 15;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);

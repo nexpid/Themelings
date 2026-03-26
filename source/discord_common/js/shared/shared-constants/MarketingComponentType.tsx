@@ -62,6 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_TAB_TOOLTIP'] = var5;
     var1 = 'PREMIUM_TAB_TOOLTIP';
     var2[var5] = var1;
+    var5 = 13;
+    var2['PREMIUM_TAB_POPOVER'] = var5;
+    var1 = 'PREMIUM_TAB_POPOVER';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

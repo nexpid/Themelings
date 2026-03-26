@@ -74,10 +74,10 @@ case 6:
     var5 = function isInChannelFilterSupported(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var4 = arg1;
+            var5 = arg1;
             var3 = arguments[1];
-            var6 = undefined;
-            if(!(var3 === var6)) { _fun0003_ip = 8; continue _fun0003 }
+            var7 = undefined;
+            if(!(var3 === var7)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
             var2 = _closure1_slot2;
             var1 = new Array(1);
@@ -87,37 +87,45 @@ case 8:
             var2 = var3;
             var1 = var2[Symbol.iterator];
             var2 = var1().next;
-            var5 = var2().value;
+            var3 = var2().value;
             var2 = var1;
-            var2 = var2 === var6;
-            var3 = undefined;
+            var2 = var2 === var7;
+            var4 = undefined;
             if(var2) { _fun0003_ip = 7; continue _fun0003 }
 case 4:
-            var3 = var5;
+            var4 = var3;
 case 7:
             if(var2) { _fun0003_ip = 10; continue _fun0003 }
 case 6:
             var1.return();
 case 10:
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var1 = 2;
-            var1 = var7[var1];
-            var5 = var5.bind(var6)(var1);
-            var1 = var5.isGuildLikeSearchContext;
-            var1 = var1.bind(var5)(var4);
-            var5 = !var1;
-            var1 = !var5;
-            if(!var5) { _fun0003_ip = 11; continue _fun0003 }
+            var2 = var5.type;
+            var1 = _closure1_slot4;
+            var1 = var1.GUILD_CHANNEL;
+            var1 = var2 !== var1;
+            if(!var1) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var4 = var4.type;
-            var2 = _closure1_slot4;
-            var2 = var2.DMS;
-            var2 = var4 === var2;
-            if(!var2) { _fun0003_ip = 13; continue _fun0003 }
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 2;
+            var2 = var8[var2];
+            var6 = var6.bind(var7)(var2);
+            var2 = var6.isGuildLikeSearchContext;
+            var2 = var2.bind(var6)(var5);
+            var6 = !var2;
+            var2 = !var6;
+            if(!var6) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-            var3 = var3.hidePersonalInformation;
-            var2 = !var3;
+            var5 = var5.type;
+            var3 = _closure1_slot4;
+            var3 = var3.DMS;
+            var3 = var5 === var3;
+            if(!var3) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+            var4 = var4.hidePersonalInformation;
+            var3 = !var4;
+case 15:
+            var2 = var3;
 case 13:
             var1 = var2;
 case 11:
@@ -137,37 +145,37 @@ case 0:
             var2 = var2 === var5;
             var6 = undefined;
             if(var2) { _fun0004_ip = 2; continue _fun0004 }
-case 15:
+case 17:
             var6 = var3;
 case 2:
-            if(var2) { _fun0004_ip = 16; continue _fun0004 }
+            if(var2) { _fun0004_ip = 18; continue _fun0004 }
 case 8:
             var1.return();
-case 16:
+case 18:
             var1 = new Array(0);
             var4 = _closure1_slot5;
             var3 = new Array(1);
             var3[0] = var6;
             var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+            if(!var3) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var4 = var1.push;
             var3 = _closure1_slot3;
             var3 = var3.FILTER_FROM;
             var3 = var4.bind(var1)(var3);
-case 17:
+case 19:
             var7 = _closure1_slot7;
             var4 = new Array(1);
             var4[0] = var6;
             var3 = arg1;
             var3 = var7.bind(var5)(var3, var4);
-            if(!var3) { _fun0004_ip = 19; continue _fun0004 }
-case 12:
+            if(!var3) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var4 = var1.push;
             var3 = _closure1_slot3;
             var3 = var3.FILTER_IN;
             var3 = var4.bind(var1)(var3);
-case 19:
+case 21:
             var4 = var1.push;
             var3 = _closure1_slot3;
             var3 = var3.FILTER_HAS;
@@ -176,13 +184,13 @@ case 19:
             var3 = new Array(1);
             var3[0] = var6;
             var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+            if(!var3) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var4 = var1.push;
             var3 = _closure1_slot3;
             var3 = var3.FILTER_MENTIONS;
             var3 = var4.bind(var1)(var3);
-case 20:
+case 23:
             var4 = var1.push;
             var3 = _closure1_slot3;
             var3 = var3.FILTER_ON;

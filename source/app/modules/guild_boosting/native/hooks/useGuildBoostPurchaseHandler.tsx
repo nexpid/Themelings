@@ -63,12 +63,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = 6;
         var3 = var8[var2];
         var2 = undefined;
-        var9 = var7.bind(var2)(var3);
-        var5 = var9.useApplePaymentLinkExperimentConfig;
-        var3 = {};
-        var3['location'] = var6;
-        var3 = var5.bind(var9)(var3);
-        var3 = var3.enabled;
+        var5 = var7.bind(var2)(var3);
+        var3 = var5.isMobileWebRedirectCheckoutEnabled;
+        var3 = var3.bind(var5)();
         var _closure2_slot1 = var3;
         var5 = 7;
         var5 = var8[var5];
@@ -162,7 +159,7 @@ case 5:
                             var8 = arraySpread(var12, var11, var10);
                             var3['location_stack'] = var7;
                             var7 = _closure1_slot7;
-                            var7 = var7.APPLE_PAYMENT_LINK;
+                            var7 = var7.MOBILE_WEB_REDIRECT_CHECKOUT;
                             var3['custom_checkout_flow'] = var7;
                             var3 = var5.bind(var6)(var4, var3);
                             var4 = _closure1_slot8;
@@ -194,7 +191,7 @@ case 5:
                             var6 = var9[var5];
                             var6 = var8.bind(var1)(var6);
                             var6 = var6.t;
-                            var6 = var6.vgvbiP;
+                            var6 = var6.NrBVjw;
                             var6 = var7.bind(var10)(var6);
                             var2['title'] = var6;
                             var6 = var9[var5];
@@ -204,7 +201,7 @@ case 5:
                             var5 = var9[var5];
                             var5 = var8.bind(var1)(var5);
                             var5 = var5.t;
-                            var5 = var5.ycleJf;
+                            var5 = var5.gD+grx;
                             var5 = var6.bind(var7)(var5);
                             var2['body'] = var5;
                             var5 = true;
@@ -258,8 +255,8 @@ case 4:
         var1[0] = var6;
         var2 = var4.bind(var5)(var2, var1);
         var1 = {};
-        var1['shouldUseMwebRedirect'] = var3;
-        var1['handleMwebRedirect'] = var2;
+        var1['shouldUseMobileWebRedirectCheckout'] = var3;
+        var1['handleMobileWebRedirectCheckout'] = var2;
         return var1;
     };
     var3['default'] = var2;

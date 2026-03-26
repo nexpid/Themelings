@@ -138,7 +138,7 @@ case 2:
                 var7 = {'duration': null, 'damping': 15, 'stiffness': 150, 'mass': 1};
                 var5 = arg3;
                 var7['duration'] = var5;
-                var6 = function s() {
+                var6 = function l() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 3;
@@ -302,7 +302,7 @@ case 8:
             var7 = var16[var2];
             var8 = var17.bind(var5)(var7);
             var7 = var8.useAnimatedStyle;
-            var4 = function P() {
+            var4 = function N() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot9;
@@ -376,9 +376,7 @@ case 17:
             var6 = var8[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {};
-            var8 = 'text-md/semibold';
-            var6['variant'] = var8;
+            var6 = {'variant': 'text-md/semibold', 'style': null, 'maxFontSizeMultiplier': 2};
             var8 = new Array(1);
             var8[0] = var11;
             var6['style'] = var8;

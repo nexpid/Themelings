@@ -154,6 +154,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NO_PREMIUM_ORBS_PERK'] = var4;
     var1 = 'NO_PREMIUM_ORBS_PERK';
     var2[var4] = var1;
+    var4 = 39;
+    var2['NITRO_CONTROL_CTA'] = var4;
+    var1 = 'NITRO_CONTROL_CTA';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

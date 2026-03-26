@@ -172,6 +172,10 @@ case 2:
     var2['MOBILE_ORBS_ONBOARDING_DC'] = var6;
     var6 = 'LAUNCH_MOBILE_ACTIVITY';
     var2['LAUNCH_MOBILE_ACTIVITY'] = var6;
+    var6 = 'OPEN_NITRO_CHECKOUT';
+    var2['OPEN_NITRO_CHECKOUT'] = var6;
+    var6 = 'OPEN_NITRO_HOME';
+    var2['OPEN_NITRO_HOME'] = var6;
     var6 = 1;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

@@ -78,7 +78,7 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot7 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageType;
@@ -91,7 +91,7 @@ case 0:
                 var2 = _closure2_slot0;
                 var3 = undefined;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = new Array(15);
+                var1 = new Array(16);
                 var6 = {'no': 1, 'name': 'placeholder', 'kind': 'scalar', 'oneof': 'properties', 'T': 9};
                 var1[0] = var6;
                 var6 = {'no': 2, 'name': 'announcement_modal_variant_1', 'kind': 'message', 'oneof': 'properties'};
@@ -251,7 +251,7 @@ case 0:
                 var6['T'] = var8;
                 var1[12] = var6;
                 var6 = {'no': 15, 'name': 'premium_tab_tooltip', 'kind': 'message', 'oneof': 'properties'};
-                var7 = function T() {
+                var8 = function T() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 18;
@@ -261,10 +261,23 @@ case 0:
                     var1 = var1.PremiumTabTooltip;
                     return var1;
                 };
-                var6['T'] = var7;
+                var6['T'] = var8;
                 var1[13] = var6;
-                var6 = {'no': 3, 'name': 'content_identifier', 'kind': 'scalar', 'T': 9};
+                var6 = {'no': 16, 'name': 'premium_tab_popover', 'kind': 'message', 'oneof': 'properties'};
+                var7 = function T() {
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 19;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    var1 = var1.PremiumTabPopover;
+                    return var1;
+                };
+                var6['T'] = var7;
                 var1[14] = var6;
+                var6 = {'no': 3, 'name': 'content_identifier', 'kind': 'scalar', 'T': 9};
+                var1[15] = var6;
                 var9 = ['discord_protos.premium_marketing.v1.PremiumMarketingComponentProperties'];
                 var9[1] = var1;
                 var1 = _closure1_slot6;
@@ -317,7 +330,7 @@ case 0:
                 var9 = var10.defineProperty;
                 var8 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var7 = 19;
+                var7 = 20;
                 var3 = var3[var7];
                 var3 = var8.bind(var6)(var3);
                 var8 = var3.MESSAGE_TYPE;
@@ -347,8 +360,8 @@ case 9:
         var7 = function value(arg1, arg2, arg3, arg4) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var46 = arg1;
-                var45 = arg3;
+                var48 = arg1;
+                var47 = arg3;
                 var1 = arg4;
                 var2 = this;
                 var3 = null;
@@ -357,43 +370,45 @@ case 12:
                 var3 = var2.create;
                 var1 = var3.bind(var2)();
 case 11:
-                var4 = var46.pos;
+                var4 = var48.pos;
                 var3 = arg2;
-                var44 = var4 + var3;
-                var3 = var46.pos;
-                var3 = var3 < var44;
-                var43 = undefined;
-                var41 = 19;
-                var40 = true;
-                var39 = false;
-                var38 = 'throw';
-                var37 = 'placeholder';
-                var36 = 'announcementModalVariant1';
-                var35 = 6;
-                var34 = 'premiumTab';
-                var33 = 7;
-                var32 = 'marketingPageBanner';
-                var31 = 8;
-                var30 = 'paymentModalBanner';
-                var29 = 9;
-                var28 = 'mobileBottomSheet';
-                var27 = 10;
-                var26 = 'giftIcon';
-                var25 = 11;
-                var24 = 'giftIconCoachmark';
-                var23 = 12;
-                var22 = 'giftPlanSelectionCardBanner';
-                var21 = 13;
-                var20 = 'giftCustomizationBanner';
-                var19 = 14;
-                var18 = 'billingSettingsNitroGiftBanner';
-                var17 = 15;
-                var16 = 'giftReminderNagbar';
-                var15 = 16;
-                var14 = 'giftReminderCoachmark';
-                var13 = 17;
-                var12 = 'premiumTabTooltip';
-                var11 = 18;
+                var46 = var4 + var3;
+                var3 = var48.pos;
+                var3 = var3 < var46;
+                var45 = undefined;
+                var43 = 20;
+                var42 = true;
+                var41 = false;
+                var40 = 'throw';
+                var39 = 'placeholder';
+                var38 = 'announcementModalVariant1';
+                var37 = 6;
+                var36 = 'premiumTab';
+                var35 = 7;
+                var34 = 'marketingPageBanner';
+                var33 = 8;
+                var32 = 'paymentModalBanner';
+                var31 = 9;
+                var30 = 'mobileBottomSheet';
+                var29 = 10;
+                var28 = 'giftIcon';
+                var27 = 11;
+                var26 = 'giftIconCoachmark';
+                var25 = 12;
+                var24 = 'giftPlanSelectionCardBanner';
+                var23 = 13;
+                var22 = 'giftCustomizationBanner';
+                var21 = 14;
+                var20 = 'billingSettingsNitroGiftBanner';
+                var19 = 15;
+                var18 = 'giftReminderNagbar';
+                var17 = 16;
+                var16 = 'giftReminderCoachmark';
+                var15 = 17;
+                var14 = 'premiumTabTooltip';
+                var13 = 18;
+                var12 = 'premiumTabPopover';
+                var11 = 19;
                 var10 = 2;
                 var9 = 0;
                 var6 = 1;
@@ -401,369 +416,391 @@ case 11:
                 var4 = undefined;
                 if(!var3) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-                var3 = var46.tag;
-                var7 = var3.bind(var46)();
+                var3 = var48.tag;
+                var7 = var3.bind(var48)();
                 var3 = _closure1_slot2;
-                var3 = var3.bind(var43)(var7, var10);
+                var3 = var3.bind(var45)(var7, var10);
                 var8 = var3[var9];
                 var7 = var3[var6];
-                SwitchImm(value_reg=7, jump_table_address=1689, default_jump_address=1492, unsigned_min_value=1, unsigned_max_value=15) // Switch table: [1457, 1364, 222, 1271, 1178, 1085, 992, 899, 806, 713, 620, 527, 434, 341, 248];
+                SwitchImm(value_reg=7, jump_table_address=1789, default_jump_address=1592, unsigned_min_value=1, unsigned_max_value=16) // Switch table: [1557, 1464, 229, 1371, 1278, 1185, 1092, 999, 906, 813, 720, 627, 534, 441, 348, 255];
 case 15:
-                var3 = var46.string;
-                var3 = var3.bind(var46)();
+                var3 = var48.string;
+                var3 = var3.bind(var48)();
                 var1['contentIdentifier'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 17:
                 var3 = {};
                 var3['oneofKind'] = var12;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var11];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.PremiumTabTooltip;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.premiumTabTooltip;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['premiumTabTooltip'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var11];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.PremiumTabPopover;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.premiumTabPopover;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['premiumTabPopover'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 18:
                 var3 = {};
                 var3['oneofKind'] = var14;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var13];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.GiftReminderCoachmark;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.giftReminderCoachmark;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['giftReminderCoachmark'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var13];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.PremiumTabTooltip;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.premiumTabTooltip;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['premiumTabTooltip'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 19:
                 var3 = {};
                 var3['oneofKind'] = var16;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var15];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.GiftReminderNagbar;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.giftReminderNagbar;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['giftReminderNagbar'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var15];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.GiftReminderCoachmark;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.giftReminderCoachmark;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['giftReminderCoachmark'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 20:
                 var3 = {};
                 var3['oneofKind'] = var18;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var17];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.BillingSettingsNitroGiftBanner;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.billingSettingsNitroGiftBanner;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['billingSettingsNitroGiftBanner'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var17];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.GiftReminderNagbar;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.giftReminderNagbar;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['giftReminderNagbar'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 21:
                 var3 = {};
                 var3['oneofKind'] = var20;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var19];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.GiftCustomizationBanner;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.giftCustomizationBanner;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['giftCustomizationBanner'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var19];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.BillingSettingsNitroGiftBanner;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.billingSettingsNitroGiftBanner;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['billingSettingsNitroGiftBanner'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 22:
                 var3 = {};
                 var3['oneofKind'] = var22;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var21];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.GiftPlanSelectionCardBanner;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.giftPlanSelectionCardBanner;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['giftPlanSelectionCardBanner'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var21];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.GiftCustomizationBanner;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.giftCustomizationBanner;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['giftCustomizationBanner'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 23:
                 var3 = {};
                 var3['oneofKind'] = var24;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var23];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.GiftIconCoachmark;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.giftIconCoachmark;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['giftIconCoachmark'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var23];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.GiftPlanSelectionCardBanner;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.giftPlanSelectionCardBanner;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['giftPlanSelectionCardBanner'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 24:
                 var3 = {};
                 var3['oneofKind'] = var26;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var25];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.GiftIcon;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.giftIcon;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['giftIcon'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var25];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.GiftIconCoachmark;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.giftIconCoachmark;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['giftIconCoachmark'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 25:
                 var3 = {};
                 var3['oneofKind'] = var28;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var27];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.MobileBottomSheet;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.mobileBottomSheet;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['mobileBottomSheet'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var27];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.GiftIcon;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.giftIcon;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['giftIcon'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 26:
                 var3 = {};
                 var3['oneofKind'] = var30;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var29];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.PaymentModalBanner;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.paymentModalBanner;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['paymentModalBanner'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var29];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.MobileBottomSheet;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.mobileBottomSheet;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['mobileBottomSheet'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 27:
                 var3 = {};
                 var3['oneofKind'] = var32;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var31];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.MarketingPageBanner;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.marketingPageBanner;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['marketingPageBanner'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var31];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.PaymentModalBanner;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.paymentModalBanner;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['paymentModalBanner'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 28:
                 var3 = {};
                 var3['oneofKind'] = var34;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var33];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.PremiumTab;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.premiumTab;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['premiumTab'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var33];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.MarketingPageBanner;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.marketingPageBanner;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['marketingPageBanner'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 29:
                 var3 = {};
                 var3['oneofKind'] = var36;
-                var50 = _closure1_slot0;
-                var49 = _closure1_slot1;
-                var49 = var49[var35];
-                var49 = var50.bind(var43)(var49);
-                var52 = var49.AnnouncementModalVariant1Properties;
-                var51 = var52.internalBinaryRead;
-                var49 = var46.uint32;
-                var56 = var49.bind(var46)();
-                var49 = var1.properties;
-                var54 = var49.announcementModalVariant1;
-                var58 = var52;
-                var57 = var46;
-                var55 = var45;
-                var49 = var58[var51](var57, var56, var55, var54, var53);
-                var3['announcementModalVariant1'] = var49;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var35];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.PremiumTab;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.premiumTab;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['premiumTab'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 30:
                 var3 = {};
-                var3['oneofKind'] = var37;
-                var49 = var46.string;
-                var49 = var49.bind(var46)();
-                var3['placeholder'] = var49;
+                var3['oneofKind'] = var38;
+                var52 = _closure1_slot0;
+                var51 = _closure1_slot1;
+                var51 = var51[var37];
+                var51 = var52.bind(var45)(var51);
+                var54 = var51.AnnouncementModalVariant1Properties;
+                var53 = var54.internalBinaryRead;
+                var51 = var48.uint32;
+                var58 = var51.bind(var48)();
+                var51 = var1.properties;
+                var56 = var51.announcementModalVariant1;
+                var60 = var54;
+                var59 = var48;
+                var57 = var47;
+                var51 = var60[var53](var59, var58, var57, var56, var55);
+                var3['announcementModalVariant1'] = var51;
                 var1['properties'] = var3;
-                var48 = var5;
-                var47 = var4;
+                var50 = var5;
+                var49 = var4;
                 _fun0004_ip = 16; continue _fun0004;
 case 31:
-                var49 = var45.readUnknownField;
-                if(!(var38 !== var49)) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
-                var3 = var46.skip;
-                var3 = var3.bind(var46)(var7);
-                var48 = var49;
-                var47 = var3;
-                if(!(var39 !== var49)) { _fun0004_ip = 16; continue _fun0004 }
+                var3 = {};
+                var3['oneofKind'] = var39;
+                var51 = var48.string;
+                var51 = var51.bind(var48)();
+                var3['placeholder'] = var51;
+                var1['properties'] = var3;
+                var50 = var5;
+                var49 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 32:
+                var51 = var47.readUnknownField;
+                if(!(var40 !== var51)) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
-                var51 = var49;
-                if(!(var40 === var49)) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
-                var52 = _closure1_slot0;
-                var50 = _closure1_slot1;
-                var50 = var50[var41];
-                var50 = var52.bind(var43)(var50);
-                var50 = var50.UnknownFieldHandler;
-                var51 = var50.onRead;
+                var3 = var48.skip;
+                var3 = var3.bind(var48)(var7);
+                var50 = var51;
+                var49 = var3;
+                if(!(var41 !== var51)) { _fun0004_ip = 16; continue _fun0004 }
 case 35:
-                var57 = var2.typeName;
-                var58 = undefined;
-                var56 = var1;
-                var55 = var8;
-                var54 = var7;
-                var53 = var3;
-                var50 = var58[var51](var57, var56, var55, var54, var53, var52);
-                var48 = var49;
-                var47 = var3;
+                var53 = var51;
+                if(!(var42 === var51)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+                var54 = _closure1_slot0;
+                var52 = _closure1_slot1;
+                var52 = var52[var43];
+                var52 = var54.bind(var45)(var52);
+                var52 = var52.UnknownFieldHandler;
+                var53 = var52.onRead;
+case 36:
+                var59 = var2.typeName;
+                var60 = undefined;
+                var58 = var1;
+                var57 = var8;
+                var56 = var7;
+                var55 = var3;
+                var52 = var60[var53](var59, var58, var57, var56, var55, var54);
+                var50 = var51;
+                var49 = var3;
 case 16:
-                var3 = var46.pos;
-                var5 = var48;
-                var4 = var47;
-                if(var3 < var44) { _fun0004_ip = 14; continue _fun0004 }
+                var3 = var48.pos;
+                var5 = var50;
+                var4 = var49;
+                if(var3 < var46) { _fun0004_ip = 14; continue _fun0004 }
 case 13:
                 return var1;
-case 32:
+case 33:
                 var1 = global;
                 var3 = var1.globalThis;
                 var3 = var3.Error;
-                var53 = var2.typeName;
+                var55 = var2.typeName;
                 var1 = var1.HermesInternal;
                 var5 = var1.concat;
-                var58 = 'Unknown field ';
-                var56 = ' (wire type ';
-                var54 = ') for ';
-                var57 = var8;
-                var55 = var7;
-                var57 = var58[var5](var57, var56, var55, var54, var53, var52);
+                var60 = 'Unknown field ';
+                var58 = ' (wire type ';
+                var56 = ') for ';
+                var59 = var8;
+                var57 = var7;
+                var59 = var60[var5](var59, var58, var57, var56, var55, var54);
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var58 = var2;
-                var1 = new var58[var3](var57, var56);
+                var60 = var2;
+                var1 = new var60[var3](var59, var58);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
             }
@@ -783,11 +820,11 @@ case 0:
                 var4 = var3.oneofKind;
                 var3 = 'placeholder';
                 if(!(var3 === var4)) { _fun0005_ip = 10; continue _fun0005 }
-case 37:
+case 38:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
-                var3 = 19;
+                var3 = 20;
                 var4 = var4[var3];
                 var3 = undefined;
                 var3 = var7.bind(var3)(var4);
@@ -803,8 +840,8 @@ case 10:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'announcementModalVariant1';
-                if(!(var3 === var4)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                if(!(var3 === var4)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -816,7 +853,7 @@ case 39:
                 var3 = var5.properties;
                 var4 = var3.announcementModalVariant1;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -828,12 +865,12 @@ case 39:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 38:
+case 39:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'premiumTab';
-                if(!(var3 === var4)) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+                if(!(var3 === var4)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 7;
@@ -845,7 +882,7 @@ case 41:
                 var3 = var5.properties;
                 var4 = var3.premiumTab;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -857,12 +894,12 @@ case 41:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 40:
+case 41:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'marketingPageBanner';
-                if(!(var3 === var4)) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                if(!(var3 === var4)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 8;
@@ -874,7 +911,7 @@ case 43:
                 var3 = var5.properties;
                 var4 = var3.marketingPageBanner;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -886,12 +923,12 @@ case 43:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 42:
+case 43:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'paymentModalBanner';
-                if(!(var3 === var4)) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+                if(!(var3 === var4)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 9;
@@ -903,7 +940,7 @@ case 45:
                 var3 = var5.properties;
                 var4 = var3.paymentModalBanner;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -915,12 +952,12 @@ case 45:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 44:
+case 45:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'mobileBottomSheet';
-                if(!(var3 === var4)) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+                if(!(var3 === var4)) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 10;
@@ -932,7 +969,7 @@ case 47:
                 var3 = var5.properties;
                 var4 = var3.mobileBottomSheet;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -944,12 +981,12 @@ case 47:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 46:
+case 47:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'giftIcon';
-                if(!(var3 === var4)) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+                if(!(var3 === var4)) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 11;
@@ -961,7 +998,7 @@ case 49:
                 var3 = var5.properties;
                 var4 = var3.giftIcon;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -973,12 +1010,12 @@ case 49:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 48:
+case 49:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'giftIconCoachmark';
-                if(!(var3 === var4)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                if(!(var3 === var4)) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 12;
@@ -990,7 +1027,7 @@ case 51:
                 var3 = var5.properties;
                 var4 = var3.giftIconCoachmark;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -1002,12 +1039,12 @@ case 51:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 50:
+case 51:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'giftPlanSelectionCardBanner';
-                if(!(var3 === var4)) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+                if(!(var3 === var4)) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 13;
@@ -1019,7 +1056,7 @@ case 53:
                 var3 = var5.properties;
                 var4 = var3.giftPlanSelectionCardBanner;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -1031,12 +1068,12 @@ case 53:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 52:
+case 53:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'giftCustomizationBanner';
-                if(!(var3 === var4)) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
+                if(!(var3 === var4)) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 14;
@@ -1048,7 +1085,7 @@ case 55:
                 var3 = var5.properties;
                 var4 = var3.giftCustomizationBanner;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -1060,12 +1097,12 @@ case 55:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 54:
+case 55:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'billingSettingsNitroGiftBanner';
-                if(!(var3 === var4)) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
+                if(!(var3 === var4)) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 15;
@@ -1077,7 +1114,7 @@ case 57:
                 var3 = var5.properties;
                 var4 = var3.billingSettingsNitroGiftBanner;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -1089,12 +1126,12 @@ case 57:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 56:
+case 57:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'giftReminderNagbar';
-                if(!(var3 === var4)) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
+                if(!(var3 === var4)) { _fun0005_ip = 59; continue _fun0005 }
+case 60:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 16;
@@ -1106,7 +1143,7 @@ case 59:
                 var3 = var5.properties;
                 var4 = var3.giftReminderNagbar;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -1118,12 +1155,12 @@ case 59:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 58:
+case 59:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'giftReminderCoachmark';
-                if(!(var3 === var4)) { _fun0005_ip = 60; continue _fun0005 }
-case 61:
+                if(!(var3 === var4)) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 17;
@@ -1135,7 +1172,7 @@ case 61:
                 var3 = var5.properties;
                 var4 = var3.giftReminderCoachmark;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -1147,12 +1184,12 @@ case 61:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 60:
+case 61:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'premiumTabTooltip';
-                if(!(var3 === var4)) { _fun0005_ip = 62; continue _fun0005 }
-case 63:
+                if(!(var3 === var4)) { _fun0005_ip = 63; continue _fun0005 }
+case 64:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 18;
@@ -1164,7 +1201,7 @@ case 63:
                 var3 = var5.properties;
                 var4 = var3.premiumTabTooltip;
                 var9 = var1.tag;
-                var3 = 19;
+                var3 = 20;
                 var3 = var11[var3];
                 var3 = var10.bind(var8)(var3);
                 var3 = var3.WireType;
@@ -1176,15 +1213,44 @@ case 63:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 62:
+case 63:
+                var3 = var5.properties;
+                var4 = var3.oneofKind;
+                var3 = 'premiumTabPopover';
+                if(!(var3 === var4)) { _fun0005_ip = 65; continue _fun0005 }
+case 66:
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot1;
+                var3 = 19;
+                var3 = var11[var3];
+                var8 = undefined;
+                var3 = var10.bind(var8)(var3);
+                var7 = var3.PremiumTabPopover;
+                var6 = var7.internalBinaryWrite;
+                var3 = var5.properties;
+                var4 = var3.premiumTabPopover;
+                var9 = var1.tag;
+                var3 = 20;
+                var3 = var11[var3];
+                var3 = var10.bind(var8)(var3);
+                var3 = var3.WireType;
+                var8 = var3.LengthDelimited;
+                var3 = 16;
+                var8 = var9.bind(var1)(var3, var8);
+                var3 = var8.fork;
+                var3 = var3.bind(var8)();
+                var4 = var6.bind(var7)(var4, var3, var2);
+                var3 = var4.join;
+                var3 = var3.bind(var4)();
+case 65:
                 var4 = var5.contentIdentifier;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0005_ip = 64; continue _fun0005 }
-case 65:
+                if(!(var3 !== var4)) { _fun0005_ip = 67; continue _fun0005 }
+case 68:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
-                var3 = 19;
+                var3 = 20;
                 var4 = var4[var3];
                 var3 = undefined;
                 var3 = var7.bind(var3)(var4);
@@ -1195,28 +1261,28 @@ case 65:
                 var4 = var6.string;
                 var3 = var5.contentIdentifier;
                 var3 = var4.bind(var6)(var3);
-case 64:
+case 67:
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 66; continue _fun0005 }
-case 67:
+                if(!(var2 !== var4)) { _fun0005_ip = 69; continue _fun0005 }
+case 70:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 68; continue _fun0005 }
-case 69:
+                if(!(var2 == var4)) { _fun0005_ip = 71; continue _fun0005 }
+case 72:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var2 = 19;
+                var2 = 20;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 68:
+case 71:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 66:
+case 69:
                 return var1;
             }
         };
@@ -1231,7 +1297,7 @@ case 66:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

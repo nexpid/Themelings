@@ -1,39 +1,53 @@
 // app/modules/game_profile/hooks/useSteamWebsiteUrl.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var7 = metroImportDefault;
+    var6 = require;
+    var8 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function buildSteamStoreUrl(arg1) {
+        var1 = global;
+        var4 = var1.encodeURIComponent;
+        var3 = undefined;
+        var2 = arg1;
+        var3 = var4.bind(var3)(var2);
+        var1 = var1.HermesInternal;
+        var2 = var1.concat;
+        var1 = 'https://store.steampowered.com/app/';
+        var1 = var2.bind(var1)(var3);
+        return var1;
+    };
+    var _closure1_slot5 = var4;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var4 = {};
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
     var1 = true;
-    var4['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var9.bind(var10)(var3, var1, var5);
     var1 = 0;
-    var4 = var6[var1];
+    var5 = var7[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot2 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.Distributors;
-    var _closure1_slot4 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/game_profile/hooks/useSteamWebsiteUrl.tsx';
-    var4 = var5.bind(var6)(var4);
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Distributors;
+    var _closure1_slot4 = var5;
+    var5 = 8;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/game_profile/hooks/useSteamWebsiteUrl.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['buildSteamStoreUrl'] = var4;
     var2 = function useSteamWebsiteUrl(arg1) {
         var6 = arg1;
         var _closure2_slot0 = var6;
@@ -61,13 +75,13 @@ case 3:
                 var6 = _closure1_slot3;
                 var5 = var6.getGame;
                 var4 = _closure2_slot0;
-                var5 = var5.bind(var6)(var4);
-                var8 = var1 == var5;
-                var6 = undefined;
+                var6 = var5.bind(var6)(var4);
+                var8 = var1 == var6;
+                var5 = undefined;
                 var4 = undefined;
                 if(var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var4 = var5.supplementalData;
+                var4 = var6.supplementalData;
 case 4:
                 var9 = _closure1_slot2;
                 var8 = var9.getApplication;
@@ -83,7 +97,7 @@ case 6:
                 var11 = _closure1_slot1;
                 var7 = 4;
                 var7 = var11[var7];
-                var7 = var10.bind(var6)(var7);
+                var7 = var10.bind(var5)(var7);
                 var7 = var7.SteamReleaseStatus;
                 var7 = var7.RETIRED_ABANDONED;
                 if(!(var9 !== var7)) { _fun0001_ip = 8; continue _fun0001 }
@@ -157,16 +171,16 @@ case 21:
 case 17:
                 return var1;
 case 13:
-                var7 = var1 == var5;
+                var7 = var1 == var6;
                 var4 = undefined;
                 if(var7) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-                var7 = var5.thirdPartySkus;
-                var5 = var1 == var7;
+                var7 = var6.thirdPartySkus;
+                var6 = var1 == var7;
                 var4 = undefined;
-                if(var5) { _fun0001_ip = 23; continue _fun0001 }
+                if(var6) { _fun0001_ip = 23; continue _fun0001 }
 case 25:
-                var5 = var7.find;
+                var6 = var7.find;
                 var2 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.distributor;
@@ -175,32 +189,27 @@ case 25:
                     var1 = var2 === var1;
                     return var1;
                 };
-                var4 = var5.bind(var7)(var2);
+                var4 = var6.bind(var7)(var2);
 case 23:
-                var5 = var1 == var4;
+                var6 = var1 == var4;
                 var2 = undefined;
-                if(var5) { _fun0001_ip = 26; continue _fun0001 }
+                if(var6) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
                 var2 = var4.id;
 case 26:
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot1;
-                var3 = 6;
-                var3 = var5[var3];
-                var4 = var4.bind(var6)(var3);
-                var3 = var4.isNullOrEmpty;
-                var3 = var3.bind(var4)(var2);
-                var5 = var2;
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot1;
+                var4 = 6;
+                var4 = var7[var4];
+                var6 = var6.bind(var5)(var4);
+                var4 = var6.isNullOrEmpty;
+                var6 = var4.bind(var6)(var2);
+                var4 = var2;
                 var2 = null;
-                if(var3) { _fun0001_ip = 28; continue _fun0001 }
+                if(var6) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
-                var3 = global;
-                var4 = var3.encodeURIComponent;
-                var5 = var4.bind(var6)(var5);
-                var3 = var3.HermesInternal;
-                var4 = var3.concat;
-                var3 = 'https://store.steampowered.com/app/';
-                var2 = var4.bind(var3)(var5);
+                var3 = _closure1_slot5;
+                var2 = var3.bind(var5)(var4);
 case 28:
                 return var2;
 case 8:

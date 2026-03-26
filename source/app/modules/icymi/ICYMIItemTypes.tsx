@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var1.Set;
     var1 = var4.prototype;
     var2 = Object.create(var1, {constructor: {value: var4}});
-    var9 = ['end', 'loading', 'bottomLoading', 'icymiHeader', 'recommendedGuilds'];
+    var9 = ['end', 'loading', 'bottomLoading', 'icymiHeader', 'recommendedGuilds', 'sunsetBanner'];
     var10 = var2;
     var1 = new var10[var4](var9, var8);
     var2 = var1 instanceof Object ? var1 : var2;

@@ -95,8 +95,8 @@ case 12:
     var6['REVIEW'] = var4;
     var4 = 'confirm';
     var6['CONFIRM'] = var4;
-    var4 = 'apple_payment_link_nitro_standard_checkout';
-    var6['APPLE_PAYMENT_LINK_NITRO_STANDARD_CHECKOUT'] = var4;
+    var4 = 'mobile_web_redirect_checkout';
+    var6['MOBILE_WEB_REDIRECT_CHECKOUT'] = var4;
     var4 = 'yearly_upsell';
     var6['YEARLY_UPSELL'] = var4;
     var4 = 'premium_upsell';

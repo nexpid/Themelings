@@ -315,9 +315,9 @@ case 14:
             var3 = var3.bind(var4)(var2);
             var2 = 'guild_boost_subscribe_button';
             var2 = var3.bind(var4)(var2);
-            var19 = var2.shouldUseMwebRedirect;
+            var19 = var2.shouldUseMobileWebRedirectCheckout;
             var _closure2_slot11 = var19;
-            var18 = var2.handleMwebRedirect;
+            var18 = var2.handleMobileWebRedirectCheckout;
             var _closure2_slot12 = var18;
             var6 = _closure1_slot4;
             var3 = var6.useCallback;

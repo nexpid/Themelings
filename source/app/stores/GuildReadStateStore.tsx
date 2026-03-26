@@ -2514,7 +2514,7 @@ case 223:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(16);
+        var1 = new Array(17);
         var1[0] = var5;
         var5 = {};
         var7 = 'loadCache';
@@ -2610,6 +2610,27 @@ case 60:
         var5['value'] = var7;
         var1[6] = var5;
         var5 = {};
+        var7 = 'shouldCountChannelUnread';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
+case 0:
+                var5 = arguments[1];
+                var4 = undefined;
+                if(!(var5 === var4)) { _fun0043_ip = 224; continue _fun0043 }
+case 135:
+                var5 = 0;
+case 224:
+                var3 = _closure1_slot38;
+                var2 = arg1;
+                var1 = true;
+                var1 = var3.bind(var4)(var2, var5, var1);
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[7] = var5;
+        var5 = {};
         var7 = 'hasUnread';
         var5['key'] = var7;
         var7 = function value(arg1) {
@@ -2620,7 +2641,7 @@ case 60:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getMentionCount';
         var5['key'] = var7;
@@ -2635,7 +2656,7 @@ case 60:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getIsMentionLowImportance';
         var5['key'] = var7;
@@ -2650,12 +2671,12 @@ case 60:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getGuildHasUnreadIgnoreMuted';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
+            _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
 case 0:
                 var4 = arg1;
                 var3 = _closure1_slot16;
@@ -2670,27 +2691,27 @@ case 218:
 case 49:
                     var12 = var5;
                     var14 = var10[var12];
-                    if(var15 == var14) { _fun0043_ip = 218; continue _fun0043 }
+                    if(var15 == var14) { _fun0044_ip = 218; continue _fun0044 }
 case 32:
                     var2 = var14.isGuildVocal;
                     var2 = var2.bind(var14)();
-                    if(!var2) { _fun0043_ip = 224; continue _fun0043 }
+                    if(!var2) { _fun0044_ip = 225; continue _fun0044 }
 case 40:
                     var11 = _closure1_slot19;
                     var2 = var11.getMentionCount;
                     var2 = var2.bind(var11)(var12);
-                    if(var3 === var2) { _fun0043_ip = 218; continue _fun0043 }
-case 224:
+                    if(var3 === var2) { _fun0044_ip = 218; continue _fun0044 }
+case 225:
                     var13 = _closure1_slot18;
                     var11 = var13.can;
                     var2 = var14.accessPermissions;
                     var2 = var11.bind(var13)(var2, var14);
-                    if(!var2) { _fun0043_ip = 218; continue _fun0043 }
-case 225:
+                    if(!var2) { _fun0044_ip = 218; continue _fun0044 }
+case 226:
                     var11 = _closure1_slot19;
                     var2 = var11.hasUnreadOrMentions;
                     var2 = var2.bind(var11)(var12);
-                    if(!var2) { _fun0043_ip = 218; continue _fun0043 }
+                    if(!var2) { _fun0044_ip = 218; continue _fun0044 }
 case 121:
                     var2 = true;
                     return var2;
@@ -2708,25 +2729,25 @@ case 122:
                     var5 = _closure1_slot16;
                     var3 = var5.getChannel;
                     var3 = var3.bind(var5)(var2);
-                    if(var15 == var3) { _fun0043_ip = 141; continue _fun0043 }
+                    if(var15 == var3) { _fun0044_ip = 141; continue _fun0044 }
 case 124:
                     var7 = var14[var2];
                     ForInLoopInit(obj_props_register=7, obj_register=6, iter_index_register=5, iter_size_register=4);
-                    if(var8 === undefined) { _fun0043_ip = 141; continue _fun0043 }
-case 226:
+                    if(var8 === undefined) { _fun0044_ip = 141; continue _fun0044 }
+case 227:
                     ForInLoopNextIter(next_value_register=2, obj_props_register=7, obj_register=6, iter_index_register=5, iter_size_register=4);
-                    if(var3 === undefined) { _fun0043_ip = 141; continue _fun0043 }
+                    if(var3 === undefined) { _fun0044_ip = 141; continue _fun0044 }
 case 126:
                     var17 = var3;
                     var16 = _closure1_slot19;
                     var2 = var16.hasUnreadOrMentions;
                     var2 = var2.bind(var16)(var17);
-                    if(!var2) { _fun0043_ip = 226; continue _fun0043 }
-case 227:
+                    if(!var2) { _fun0044_ip = 227; continue _fun0044 }
+case 228:
                     var2 = true;
                     return var2;
                 }
-case 228:
+case 229:
                 var3 = _closure1_slot19;
                 var2 = var3.hasUnreadOrMentions;
                 var1 = _closure1_slot25;
@@ -2738,49 +2759,9 @@ case 228:
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
-        var5 = {};
-        var7 = 'getTotalMentionCount';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
-case 0:
-                var8 = _closure1_slot28;
-                var3 = true;
-                var2 = arg1;
-                var3 = var3 === var2;
-                var2 = 0;
-                var1 = 0;
-                for(var4 in var8)
-case 38:
-                {
-                    var11 = var2;
-                    var1 = var11;
-case 77:
-                    var14 = var4;
-                    var10 = _closure1_slot28;
-                    var10 = var10[var14];
-                    var12 = var3;
-                    if(!var12) { _fun0044_ip = 229; continue _fun0044 }
-case 48:
-                    var13 = _closure1_slot27;
-                    var12 = var14 === var13;
-case 229:
-                    var2 = var11;
-                    if(var12) { _fun0044_ip = 38; continue _fun0044 }
-case 4:
-                    var10 = var10.highImportanceMentionCount;
-                    var2 = var11 + var10;
-                    _fun0044_ip = 38; continue _fun0044;
-                }
-case 13:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
         var1[11] = var5;
         var5 = {};
-        var7 = 'getTotalNotificationsMentionCount';
+        var7 = 'getTotalMentionCount';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
@@ -2801,15 +2782,15 @@ case 77:
                     var10 = _closure1_slot28;
                     var10 = var10[var14];
                     var12 = var3;
-                    if(!var12) { _fun0045_ip = 229; continue _fun0045 }
+                    if(!var12) { _fun0045_ip = 230; continue _fun0045 }
 case 48:
                     var13 = _closure1_slot27;
                     var12 = var14 === var13;
-case 229:
+case 230:
                     var2 = var11;
                     if(var12) { _fun0045_ip = 38; continue _fun0045 }
 case 4:
-                    var10 = var10.ncMentionCount;
+                    var10 = var10.highImportanceMentionCount;
                     var2 = var11 + var10;
                     _fun0045_ip = 38; continue _fun0045;
                 }
@@ -2820,36 +2801,49 @@ case 13:
         var5['value'] = var7;
         var1[12] = var5;
         var5 = {};
-        var7 = 'getPrivateChannelMentionCount';
+        var7 = 'getTotalNotificationsMentionCount';
         var5['key'] = var7;
-        var7 = function value() {
+        var7 = function value(arg1) {
             _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
 case 0:
-                var2 = _closure1_slot28;
-                var1 = _closure1_slot27;
-                var3 = var2[var1];
-                var1 = null;
-                var4 = var1 == var3;
-                var2 = undefined;
-                if(var4) { _fun0046_ip = 56; continue _fun0046 }
-case 86:
-                var2 = var3.highImportanceMentionCount;
-case 56:
-                var3 = var1 != var2;
+                var8 = _closure1_slot28;
+                var3 = true;
+                var2 = arg1;
+                var3 = var3 === var2;
+                var2 = 0;
                 var1 = 0;
-                if(!var3) { _fun0046_ip = 97; continue _fun0046 }
-case 220:
-                var1 = var2;
-case 97:
+                for(var4 in var8)
+case 38:
+                {
+                    var11 = var2;
+                    var1 = var11;
+case 77:
+                    var14 = var4;
+                    var10 = _closure1_slot28;
+                    var10 = var10[var14];
+                    var12 = var3;
+                    if(!var12) { _fun0046_ip = 230; continue _fun0046 }
+case 48:
+                    var13 = _closure1_slot27;
+                    var12 = var14 === var13;
+case 230:
+                    var2 = var11;
+                    if(var12) { _fun0046_ip = 38; continue _fun0046 }
+case 4:
+                    var10 = var10.ncMentionCount;
+                    var2 = var11 + var10;
+                    _fun0046_ip = 38; continue _fun0046;
+                }
+case 13:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[13] = var5;
         var5 = {};
-        var7 = 'getMentionCountForPrivateChannel';
+        var7 = 'getPrivateChannelMentionCount';
         var5['key'] = var7;
-        var7 = function value(arg1) {
+        var7 = function value() {
             _fun0047: for(var _fun0047_ip = 0; ; ) switch(_fun0047_ip) {
 case 0:
                 var2 = _closure1_slot28;
@@ -2858,15 +2852,42 @@ case 0:
                 var1 = null;
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0047_ip = 230; continue _fun0047 }
+                if(var4) { _fun0047_ip = 56; continue _fun0047 }
+case 86:
+                var2 = var3.highImportanceMentionCount;
+case 56:
+                var3 = var1 != var2;
+                var1 = 0;
+                if(!var3) { _fun0047_ip = 97; continue _fun0047 }
+case 220:
+                var1 = var2;
+case 97:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[14] = var5;
+        var5 = {};
+        var7 = 'getMentionCountForPrivateChannel';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0048: for(var _fun0048_ip = 0; ; ) switch(_fun0048_ip) {
+case 0:
+                var2 = _closure1_slot28;
+                var1 = _closure1_slot27;
+                var3 = var2[var1];
+                var1 = null;
+                var4 = var1 == var3;
+                var2 = undefined;
+                if(var4) { _fun0048_ip = 231; continue _fun0048 }
 case 86:
                 var4 = var3.mentionCounts;
                 var3 = arg1;
                 var2 = var4[var3];
-case 230:
+case 231:
                 var3 = var1 != var2;
                 var1 = 0;
-                if(!var3) { _fun0047_ip = 91; continue _fun0047 }
+                if(!var3) { _fun0048_ip = 91; continue _fun0048 }
 case 115:
                 var1 = var2;
 case 91:
@@ -2874,7 +2895,7 @@ case 91:
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'getGuildChangeSentinel';
         var5['key'] = var7;
@@ -2887,7 +2908,7 @@ case 91:
             return var1;
         };
         var5['value'] = var6;
-        var1[15] = var5;
+        var1[16] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

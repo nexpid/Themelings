@@ -448,6 +448,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['PRESS_ADD_TO_CURRENT_GAMES_WIDGET'] = var5;
     var5 = 'PRESS_APPLICATION_WIDGET_PREVIEW_VIEW_MORE';
     var9['PRESS_APPLICATION_WIDGET_PREVIEW_VIEW_MORE'] = var5;
+    var5 = 'PRESS_PLAY_WITH_XBOX_GAME_PASS_BUTTON';
+    var9['PRESS_PLAY_WITH_XBOX_GAME_PASS_BUTTON'] = var5;
+    var5 = 'PRESS_PLAY_ON_STEAM_BUTTON';
+    var9['PRESS_PLAY_ON_STEAM_BUTTON'] = var5;
     var8 = {};
     var5 = 'PRESS_ADD_GAME';
     var8['PRESS_ADD_GAME'] = var5;

@@ -40,9 +40,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['title'] = var8;
+    var8 = function usePredicate() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.useWebBrowserSettingOptions;
+        var1 = var1.bind(var2)();
+        var2 = var1.length;
+        var1 = 1;
+        var1 = var2 > var1;
+        return var1;
+    };
+    var2['usePredicate'] = var8;
     var8 = null;
     var2['parent'] = var8;
-    var8 = 3;
+    var8 = 4;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.GlobeEarthIcon;
@@ -53,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 4;
+        var1 = 5;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -63,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['getComponent'] = var9;
     var2['screen'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

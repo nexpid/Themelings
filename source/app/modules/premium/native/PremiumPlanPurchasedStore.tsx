@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6.bind(var1)(var4);
     var5 = var8.create;
     var4 = function() {
-        var1 = {'productId': '', 'initiatedPurchaseFromNewFlow': false, 'isPaymentSuccess': false, 'applePaymentLinkStatus': null};
+        var1 = {'productId': '', 'initiatedPurchaseFromNewFlow': false, 'isPaymentSuccess': false, 'mobileWebRedirectCheckoutStatus': null};
         return var1;
     };
     var4 = var5.bind(var8)(var4);
@@ -118,7 +118,7 @@ case 2:
         }
     };
     var3['setPaymentSuccess'] = var4;
-    var4 = function setApplePaymentLinkStatus(arg1) {
+    var4 = function setMobileWebRedirectCheckoutStatus(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;
@@ -133,15 +133,15 @@ case 2:
             var2 = var3.setState;
             var1 = {};
             var4 = _closure2_slot0;
-            var1['applePaymentLinkStatus'] = var4;
+            var1['mobileWebRedirectCheckoutStatus'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setApplePaymentLinkStatus'] = var4;
-    var4 = function handleApplePaymentLinkStatus(arg1) {
+    var3['setMobileWebRedirectCheckoutStatus'] = var4;
+    var4 = function handleMobileWebCheckoutStatus(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -154,7 +154,7 @@ case 6:
             var1 = var1.bind(var2)();
             var3 = var1.productId;
             var2 = var1.onPaymentSuccess;
-            var6 = var1.applePaymentLinkStatus;
+            var6 = var1.mobileWebRedirectCheckoutStatus;
             var1 = 'dismissed';
             if(!(var1 !== var6)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
@@ -202,7 +202,7 @@ case 9:
                 var4 = true;
                 var1['isPaymentSuccess'] = var4;
                 var4 = _closure2_slot0;
-                var1['applePaymentLinkStatus'] = var4;
+                var1['mobileWebRedirectCheckoutStatus'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
@@ -219,7 +219,7 @@ case 7:
             return var1;
         }
     };
-    var3['handleApplePaymentLinkStatus'] = var4;
+    var3['handleMobileWebCheckoutStatus'] = var4;
     var4 = function showOldPaymentFlowSuccess(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -266,7 +266,7 @@ case 0:
             var6 = var4.productId;
             var3 = var4.isPaymentSuccess;
             var5 = var4.onPaymentDismiss;
-            var4 = var4.applePaymentLinkStatus;
+            var4 = var4.mobileWebRedirectCheckoutStatus;
             var _closure2_slot0 = var4;
             var4 = null;
             if(!(var4 != var5)) { _fun0004_ip = 14; continue _fun0004 }
@@ -303,7 +303,7 @@ case 17:
 case 18:
                     var1 = 'dismissed';
 case 16:
-                    var2['applePaymentLinkStatus'] = var1;
+                    var2['mobileWebRedirectCheckoutStatus'] = var1;
                     var1 = undefined;
                     var2['onPaymentSuccess'] = var1;
                     var2['onPaymentDismiss'] = var1;

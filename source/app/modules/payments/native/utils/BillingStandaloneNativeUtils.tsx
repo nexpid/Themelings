@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot4 = var4;
-    var4 = function emitAPLSentryErrorOnFailure(arg1, arg2, arg3) {
+    var4 = function emitMWRCSentryErrorOnFailure(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var9 = arg1;
@@ -67,7 +67,7 @@ case 8:
 case 7:
             var2 = arg2;
             var7 = undefined;
-            var3 = 'Apple Payment Link mobile app to web popout failed';
+            var3 = 'Mobile web redirect checkout mobile app to web popout failed';
             var5 = {};
             var6 = var4;
             var5['destination_url'] = var6;
@@ -91,7 +91,7 @@ case 9: // try_start_0
             var5 = 2;
             var5 = var8[var5];
             var9 = var6.bind(var1)(var5);
-            var8 = var9.captureApplePaymentLinkSentryError;
+            var8 = var9.captureMobileWebRedirectCheckoutSentryError;
             var6 = var4.Error;
             var16 = var3;
             var5 = var6.prototype;
@@ -117,7 +117,7 @@ case 12: // catch_target0
             var4 = 2;
             var4 = var6[var4];
             var6 = var5.bind(var1)(var4);
-            var5 = var6.captureApplePaymentLinkSentryError;
+            var5 = var6.captureMobileWebRedirectCheckoutSentryError;
             var4 = global;
             var8 = var4.Error;
             var16 = var3;
@@ -227,7 +227,7 @@ case 11:
         var2 = var10[var2];
         var2 = var9.bind(var8)(var2);
         var2 = var2.LinkingTypes;
-        var2 = var2.APPLE_PAYMENT_LINK;
+        var2 = var2.MOBILE_WEB_REDIRECT_CHECKOUT;
         var3 = var3.bind(var6)(var2, var7);
         var2 = function(arg1, arg2) {
             var4 = arg1;
@@ -297,7 +297,7 @@ case 11:
         var2 = var10[var2];
         var2 = var9.bind(var3)(var2);
         var2 = var2.LinkingTypes;
-        var3 = var2.APPLE_PAYMENT_LINK;
+        var3 = var2.MOBILE_WEB_REDIRECT_CHECKOUT;
         var2 = arg2;
         var3 = var6.bind(var7)(var2, var3, var8);
         var2 = function(arg1, arg2) {

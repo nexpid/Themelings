@@ -415,6 +415,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['ROLE_SUBSCRIPTION_LISTING_UPSELL_ERROR_PAGE'] = var2;
     var2 = 'impression_shelf_activity_details';
     var4['SHELF_ACTIVITY_DETAILS'] = var2;
+    var2 = 'impression_shop_product_detail';
+    var4['SHOP_PRODUCT_DETAIL'] = var2;
     var2 = 'impression_snowsgiving';
     var4['SNOWSGIVING'] = var2;
     var2 = 'impression_soundboard_popout';

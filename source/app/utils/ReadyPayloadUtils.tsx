@@ -1146,14 +1146,14 @@ case 0:
             var5 = var5.bind(var8)();
             var5 = var2 != var5;
             if(!var5) { _fun0014_ip = 128; continue _fun0014 }
-case 129:
+case 50:
             var8 = arg3;
             var11 = var8.databaseOk;
             var8 = false;
             var5 = var8 === var11;
 case 128:
-            if(!var5) { _fun0014_ip = 130; continue _fun0014 }
-case 131:
+            if(!var5) { _fun0014_ip = 14; continue _fun0014 }
+case 129:
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
             var5 = 6;
@@ -1162,7 +1162,7 @@ case 131:
             var8 = var11.replaceDisableAllDatabases;
             var5 = 'ReadyPayloadUtils: database was not ok';
             var5 = var8.bind(var11)(var5);
-case 130:
+case 14:
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
             var5 = 7;
@@ -1176,8 +1176,8 @@ case 130:
             };
             var5 = var8.bind(var11)(var6, var5);
             _closure1_slot5 = var5;
-            if(!(var2 != var3)) { _fun0014_ip = 132; continue _fun0014 }
-case 133:
+            if(!(var2 != var3)) { _fun0014_ip = 130; continue _fun0014 }
+case 131:
             var8 = var3.forEach;
             var5 = function(arg1) {
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
@@ -1186,7 +1186,7 @@ case 0:
                     var4 = var1.recipient_ids;
                     var2 = null;
                     if(!(var2 != var4)) { _fun0015_ip = 38; continue _fun0015 }
-case 134:
+case 132:
                     var3 = var4.map;
                     var2 = function(arg1) {
                         var2 = arg1;
@@ -1215,11 +1215,11 @@ case 38:
                 }
             };
             var5 = var8.bind(var3)(var5);
-case 132:
+case 130:
             var8 = var2 == var10;
             var5 = undefined;
-            if(var8) { _fun0014_ip = 135; continue _fun0014 }
-case 136:
+            if(var8) { _fun0014_ip = 119; continue _fun0014 }
+case 133:
             var11 = var10.map;
             var8 = function(arg1, arg2) {
                 _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
@@ -1229,7 +1229,7 @@ case 0:
                     var2 = true;
                     var1 = var4;
                     if(!(var2 !== var3)) { _fun0016_ip = 127; continue _fun0016 }
-case 137:
+case 134:
                     var7 = _closure1_slot9;
                     var6 = _closure1_slot5;
                     var5 = _closure2_slot0;
@@ -1237,12 +1237,12 @@ case 137:
                     var9 = var3 == var5;
                     var3 = undefined;
                     var5 = undefined;
-                    if(var9) { _fun0016_ip = 138; continue _fun0016 }
+                    if(var9) { _fun0016_ip = 135; continue _fun0016 }
 case 5:
                     var9 = _closure2_slot0;
                     var8 = arg2;
                     var5 = var9[var8];
-case 138:
+case 135:
                     var5 = var7.bind(var3)(var6, var5);
                     var4['members'] = var5;
                     var2 = _closure1_slot10;
@@ -1252,11 +1252,11 @@ case 127:
                 }
             };
             var5 = var11.bind(var10)(var8);
-case 135:
-            if(!(var2 == var5)) { _fun0014_ip = 24; continue _fun0014 }
-case 139:
+case 119:
+            if(!(var2 == var5)) { _fun0014_ip = 136; continue _fun0014 }
+case 137:
             var5 = new Array(0);
-case 24:
+case 136:
             var8 = _closure1_slot8;
             var7 = arg2;
             var1 = function(arg1) {
@@ -1267,11 +1267,11 @@ case 24:
                 return var1;
             };
             var7 = var8.bind(var9)(var7, var10, var1);
-            if(!(var2 != var7)) { _fun0014_ip = 140; continue _fun0014 }
-case 141:
+            if(!(var2 != var7)) { _fun0014_ip = 58; continue _fun0014 }
+case 138:
             var1 = var5.push;
             var1 = var1.bind(var5)(var7);
-case 140:
+case 58:
             var1 = {};
             var14 = var1;
             var13 = var4;
@@ -1283,10 +1283,10 @@ case 140:
             var1[var4] = var6;
             var4 = 'guilds';
             var1[var4] = var5;
-            if(!(var2 == var3)) { _fun0014_ip = 60; continue _fun0014 }
-case 142:
+            if(!(var2 == var3)) { _fun0014_ip = 139; continue _fun0014 }
+case 140:
             var3 = new Array(0);
-case 60:
+case 139:
             var2 = 'private_channels';
             var1[var2] = var3;
             return var1;

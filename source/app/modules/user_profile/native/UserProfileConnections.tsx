@@ -910,7 +910,7 @@ case 76:
             var11 = var12 != var10;
             var10 = null;
             if(!var11) { _fun0006_ip = 78; continue _fun0006 }
-case 25:
+case 79:
             var17 = _closure1_slot12;
             var15 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -926,14 +926,14 @@ case 78:
             var9[1] = var10;
             var11 = var12 != var16;
             var10 = null;
-            if(!var11) { _fun0006_ip = 79; continue _fun0006 }
-case 80:
+            if(!var11) { _fun0006_ip = 80; continue _fun0006 }
+case 81:
             var15 = var16.length;
             var11 = 0;
             var11 = var15 > var11;
             var10 = null;
-            if(!var11) { _fun0006_ip = 79; continue _fun0006 }
-case 81:
+            if(!var11) { _fun0006_ip = 80; continue _fun0006 }
+case 28:
             var15 = _closure1_slot12;
             var12 = _closure1_slot5;
             var11 = {};
@@ -941,7 +941,7 @@ case 81:
             var11['style'] = var17;
             var11['children'] = var16;
             var10 = var15.bind(var4)(var12, var11);
-case 79:
+case 80:
             var9[2] = var10;
             var12 = _closure1_slot12;
             var11 = _closure1_slot5;

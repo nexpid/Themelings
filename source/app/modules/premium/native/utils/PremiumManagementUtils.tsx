@@ -119,7 +119,7 @@ case 2:
         var6 = var9[var5];
         var6 = var8.bind(var1)(var6);
         var6 = var6.t;
-        var6 = var6.vgvbiP;
+        var6 = var6.NrBVjw;
         var6 = var7.bind(var10)(var6);
         var2['title'] = var6;
         var6 = var9[var5];
@@ -129,7 +129,7 @@ case 2:
         var5 = var9[var5];
         var5 = var8.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5.ycleJf;
+        var5 = var5.gD+grx;
         var5 = var6.bind(var7)(var5);
         var2['body'] = var5;
         var5 = true;

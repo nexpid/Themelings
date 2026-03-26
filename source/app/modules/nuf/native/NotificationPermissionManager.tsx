@@ -461,7 +461,7 @@ case 24:
     var _closure1_slot22 = var4;
     var4 = null;
     var _closure1_slot23 = var4;
-    var4 = 26;
+    var4 = 25;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -926,7 +926,7 @@ case 91:
                                 var11 = var3.previousAppState;
                                 var9 = _closure1_slot0;
                                 var8 = _closure1_slot2;
-                                var10 = 25;
+                                var10 = 24;
                                 var3 = var8[var10];
                                 var3 = var9.bind(var5)(var3);
                                 var3 = var3.AppStates;
@@ -1057,85 +1057,60 @@ case 99:
         var1 = function value(arg1) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                var2 = arg1;
-                var6 = var2.channelId;
-                var1 = var2.message;
-                var4 = var2.optimistic;
-                var3 = var2.isPushNotification;
-                var2 = var2.sendMessageOptions;
+                var3 = arg1;
+                var6 = var3.channelId;
+                var1 = var3.message;
+                var4 = var3.optimistic;
+                var2 = var3.isPushNotification;
+                var3 = var3.sendMessageOptions;
                 if(var4) { _fun0014_ip = 100; continue _fun0014 }
 case 27:
-                if(var3) { _fun0014_ip = 100; continue _fun0014 }
+                if(var2) { _fun0014_ip = 100; continue _fun0014 }
 case 101:
-                var5 = null;
-                if(!(var5 == var2)) { _fun0014_ip = 100; continue _fun0014 }
+                var2 = null;
+                if(!(var2 == var3)) { _fun0014_ip = 100; continue _fun0014 }
 case 102:
-                var2 = var5 == var1;
+                var3 = var2 == var1;
                 var4 = undefined;
-                var3 = undefined;
-                if(var2) { _fun0014_ip = 49; continue _fun0014 }
+                var5 = undefined;
+                if(var3) { _fun0014_ip = 49; continue _fun0014 }
 case 38:
                 var1 = var1.author;
-                var2 = var5 == var1;
-                var3 = undefined;
-                if(var2) { _fun0014_ip = 49; continue _fun0014 }
+                var3 = var2 == var1;
+                var5 = undefined;
+                if(var3) { _fun0014_ip = 49; continue _fun0014 }
 case 20:
-                var3 = var1.id;
+                var5 = var1.id;
 case 49:
                 var7 = _closure1_slot11;
-                var2 = var7.getId;
-                var2 = var2.bind(var7)();
-                if(!(var3 === var2)) { _fun0014_ip = 100; continue _fun0014 }
+                var3 = var7.getId;
+                var3 = var3.bind(var7)();
+                if(!(var5 === var3)) { _fun0014_ip = 100; continue _fun0014 }
 case 8:
-                var3 = _closure1_slot12;
-                var2 = var3.getChannel;
-                var3 = var2.bind(var3)(var6);
-                if(!(var5 != var3)) { _fun0014_ip = 100; continue _fun0014 }
-case 103:
+                var5 = _closure1_slot12;
+                var3 = var5.getChannel;
+                var3 = var3.bind(var5)(var6);
+                if(!(var2 != var3)) { _fun0014_ip = 100; continue _fun0014 }
+case 70:
                 var2 = var3.getGuildId;
-                var8 = var2.bind(var3)();
+                var7 = var2.bind(var3)();
                 var2 = var3.isThread;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0014_ip = 104; continue _fun0014 }
-case 105:
-                var7 = _closure1_slot13;
-                var6 = var7.isChannelMuted;
+                if(var2) { _fun0014_ip = 103; continue _fun0014 }
+case 52:
+                var6 = _closure1_slot13;
+                var5 = var6.isChannelMuted;
                 var2 = var3.id;
-                var2 = var6.bind(var7)(var8, var2);
-                _fun0014_ip = 95; continue _fun0014;
-case 104:
-                var7 = _closure1_slot10;
-                var6 = var7.isMuted;
+                var2 = var5.bind(var6)(var7, var2);
+                _fun0014_ip = 104; continue _fun0014;
+case 103:
+                var6 = _closure1_slot10;
+                var5 = var6.isMuted;
                 var3 = var3.id;
-                var2 = var6.bind(var7)(var3);
-case 95:
+                var2 = var5.bind(var6)(var3);
+case 104:
                 if(var2) { _fun0014_ip = 100; continue _fun0014 }
-case 106:
-                var2 = _closure1_slot15;
-                var3 = var2.CHANNEL_BANNER;
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var2 = 24;
-                var2 = var7[var2];
-                var2 = var6.bind(var4)(var2);
-                var2 = var2.PERMISSION_PROMPT_EXPERIMENTS;
-                var7 = var2[var3];
-                var2 = var5 == var7;
-                var3 = undefined;
-                if(var2) { _fun0014_ip = 107; continue _fun0014 }
-case 108:
-                var6 = var7.getExperiment;
-                var2 = {'location': 'shouldTriggerContextualPrompt', 'autoTrackExposure': false};
-                var2 = var6.bind(var7)(var2);
-                var5 = var5 == var2;
-                var3 = undefined;
-                if(var5) { _fun0014_ip = 107; continue _fun0014 }
-case 109:
-                var3 = var2.isContextual;
-case 107:
-                var2 = true;
-                if(!(var2 === var3)) { _fun0014_ip = 100; continue _fun0014 }
-case 110:
+case 95:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var2 = 20;
@@ -1162,7 +1137,7 @@ case 100:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 27;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

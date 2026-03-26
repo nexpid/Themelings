@@ -91,9 +91,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var6.bind(var7)(var1);
         var1 = 'guild_powerup_activation';
         var1 = var6.bind(var7)(var1);
-        var9 = var1.shouldUseMwebRedirect;
+        var9 = var1.shouldUseMobileWebRedirectCheckout;
         var _closure2_slot6 = var9;
-        var8 = var1.handleMwebRedirect;
+        var8 = var1.handleMobileWebRedirectCheckout;
         var _closure2_slot7 = var8;
         var1 = {};
         var7 = _closure1_slot3;

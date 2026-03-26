@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.SCROLL_EVENT_THROTTLE_MS;
     var _closure1_slot6 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -42,17 +42,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useSharedICYMILogic(arg1) {
         var2 = arg1;
-        var10 = var2.showDot;
-        var16 = var2.notificationItem;
-        var _closure2_slot0 = var16;
+        var19 = var2.showDot;
+        var17 = var2.notificationItem;
+        var _closure2_slot0 = var17;
         var11 = _closure1_slot4;
         var4 = var11.useState;
         var2 = false;
         var2 = var4.bind(var11)(var2);
         var24 = _closure1_slot3;
-        var17 = undefined;
+        var12 = undefined;
         var23 = 2;
-        var2 = var24.bind(var17)(var2, var23);
+        var2 = var24.bind(var12)(var2, var23);
         var7 = 0;
         var6 = var2[var7];
         var22 = 1;
@@ -62,19 +62,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = _closure1_slot2;
         var4 = 4;
         var4 = var18[var4];
-        var4 = var20.bind(var17)(var4);
-        var4 = var4.bind(var17)();
-        var15 = var4.unreadItems;
-        var _closure2_slot2 = var15;
-        var13 = var4.readItems;
-        var _closure2_slot3 = var13;
-        var14 = var4.allUnreadItemsHydrated;
-        var _closure2_slot4 = var14;
-        var4 = _closure1_slot0;
-        var19 = 5;
-        var5 = var18[var19];
-        var21 = var4.bind(var17)(var5);
-        var12 = var21.useStateFromStores;
+        var4 = var20.bind(var12)(var4);
+        var4 = var4.bind(var12)();
+        var16 = var4.unreadItems;
+        var _closure2_slot2 = var16;
+        var14 = var4.readItems;
+        var _closure2_slot3 = var14;
+        var15 = var4.allUnreadItemsHydrated;
+        var _closure2_slot4 = var15;
+        var10 = _closure1_slot0;
+        var4 = 5;
+        var5 = var18[var4];
+        var21 = var10.bind(var12)(var5);
+        var13 = var21.useStateFromStores;
         var3 = _closure1_slot5;
         var9 = new Array(1);
         var9[0] = var3;
@@ -85,11 +85,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5 = new Array(0);
-        var8 = var12.bind(var21)(var9, var8, var5);
+        var8 = var13.bind(var21)(var9, var8, var5);
         var _closure2_slot5 = var8;
-        var5 = var18[var19];
-        var21 = var4.bind(var17)(var5);
-        var12 = var21.useStateFromStores;
+        var5 = var18[var4];
+        var21 = var10.bind(var12)(var5);
+        var13 = var21.useStateFromStores;
         var9 = new Array(1);
         var9[0] = var3;
         var5 = function() {
@@ -108,11 +108,11 @@ case 2:
                 return var1;
             }
         };
-        var9 = var12.bind(var21)(var9, var5);
+        var9 = var13.bind(var21)(var9, var5);
         var _closure2_slot6 = var9;
         var21 = var11.useEffect;
-        var12 = new Array(1);
-        var12[0] = var8;
+        var13 = new Array(1);
+        var13[0] = var8;
         var5 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -139,23 +139,23 @@ case 4:
                 return var1;
             }
         };
-        var5 = var21.bind(var11)(var5, var12);
-        var5 = var18[var19];
-        var26 = var4.bind(var17)(var5);
+        var5 = var21.bind(var11)(var5, var13);
+        var5 = var18[var4];
+        var26 = var10.bind(var12)(var5);
         var25 = var26.useStateFromStores;
         var21 = new Array(1);
         var21[0] = var3;
-        var12 = function() {
+        var13 = function() {
             var2 = _closure1_slot5;
             var1 = var2.isRefreshing;
             var1 = var1.bind(var2)();
             return var1;
         };
         var5 = new Array(0);
-        var5 = var25.bind(var26)(var21, var12, var5);
+        var5 = var25.bind(var26)(var21, var13, var5);
         var _closure2_slot7 = var5;
-        var12 = var18[var19];
-        var27 = var4.bind(var17)(var12);
+        var13 = var18[var4];
+        var27 = var10.bind(var12)(var13);
         var26 = var27.useStateFromStores;
         var25 = new Array(1);
         var25[0] = var3;
@@ -165,21 +165,21 @@ case 4:
             var1 = var1.bind(var2)();
             return var1;
         };
-        var12 = new Array(0);
-        var12 = var26.bind(var27)(var25, var21, var12);
-        var _closure2_slot8 = var12;
+        var13 = new Array(0);
+        var13 = var26.bind(var27)(var25, var21, var13);
+        var _closure2_slot8 = var13;
         var25 = var11.useState;
         var21 = new Array(0);
         var21 = var25.bind(var11)(var21);
-        var21 = var24.bind(var17)(var21, var23);
+        var21 = var24.bind(var12)(var21, var23);
         var7 = var21[var7];
         var21 = var21[var22];
         var _closure2_slot9 = var21;
-        var19 = var18[var19];
-        var22 = var4.bind(var17)(var19);
+        var4 = var18[var4];
+        var22 = var10.bind(var12)(var4);
         var21 = var22.useStateFromStoresObject;
-        var19 = new Array(1);
-        var19[0] = var3;
+        var4 = new Array(1);
+        var4[0] = var3;
         var3 = function() {
             var1 = {};
             var3 = _closure1_slot5;
@@ -191,12 +191,12 @@ case 4:
             var1['lastScrollEventTimestamp'] = var2;
             return var1;
         };
-        var19 = var21.bind(var22)(var19, var3);
-        var3 = var19.loadId;
-        var23 = var19.lastScrollEventTimestamp;
+        var4 = var21.bind(var22)(var4, var3);
+        var3 = var4.loadId;
+        var23 = var4.lastScrollEventTimestamp;
         var _closure2_slot10 = var23;
         var21 = var7.filter;
-        var19 = function(arg1) {
+        var4 = function(arg1) {
             var1 = arg1;
             var1 = var1.item;
             var4 = _closure1_slot0;
@@ -213,31 +213,31 @@ case 4:
             var1 = !var1;
             return var1;
         };
-        var22 = var21.bind(var7)(var19);
+        var22 = var21.bind(var7)(var4);
         var21 = var22.map;
-        var19 = function(arg1) {
+        var4 = function(arg1) {
             var1 = arg1;
             var1 = var1.item;
             var1 = var1.id;
             return var1;
         };
-        var21 = var21.bind(var22)(var19);
-        var19 = var21.pop;
-        var21 = var19.bind(var21)();
+        var21 = var21.bind(var22)(var4);
+        var4 = var21.pop;
+        var21 = var4.bind(var21)();
         var _closure2_slot11 = var21;
-        var19 = 8;
-        var19 = var18[var19];
-        var19 = var20.bind(var17)(var19);
-        var22 = var19.bind(var17)(var21);
+        var4 = 8;
+        var4 = var18[var4];
+        var4 = var20.bind(var12)(var4);
+        var22 = var4.bind(var12)(var21);
         var _closure2_slot12 = var22;
         var20 = var11.useEffect;
-        var19 = new Array(6);
-        var19[0] = var5;
-        var19[1] = var23;
-        var19[2] = var22;
-        var19[3] = var21;
-        var19[4] = var3;
-        var19[5] = var9;
+        var4 = new Array(6);
+        var4[0] = var5;
+        var4[1] = var23;
+        var4[2] = var22;
+        var4[3] = var21;
+        var4[4] = var3;
+        var4[5] = var9;
         var3 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -287,8 +287,8 @@ case 6:
                 return var1;
             }
         };
-        var3 = var20.bind(var11)(var3, var19);
-        var19 = var11.useCallback;
+        var3 = var20.bind(var11)(var3, var4);
+        var4 = var11.useCallback;
         var3 = new Array(2);
         var3[0] = var8;
         var3[1] = var2;
@@ -409,9 +409,9 @@ case 14:
                 return var1;
             }
         };
-        var21 = var19.bind(var11)(var2, var3);
+        var21 = var4.bind(var11)(var2, var3);
         var _closure2_slot13 = var21;
-        var19 = var11.useCallback;
+        var4 = var11.useCallback;
         var3 = new Array(1);
         var3[0] = var8;
         var2 = function(arg1) {
@@ -531,9 +531,9 @@ case 22:
                 return var1;
             }
         };
-        var20 = var19.bind(var11)(var2, var3);
+        var20 = var4.bind(var11)(var2, var3);
         var _closure2_slot14 = var20;
-        var19 = var11.useCallback;
+        var4 = var11.useCallback;
         var3 = function(arg1) {
             var1 = arg1;
             var7 = var1.viewableItems;
@@ -612,9 +612,9 @@ case 26:
             return var1;
         };
         var2 = new Array(0);
-        var2 = var19.bind(var11)(var3, var2);
+        var2 = var4.bind(var11)(var3, var2);
         var _closure2_slot15 = var2;
-        var19 = var11.useMemo;
+        var4 = var11.useMemo;
         var3 = new Array(3);
         var3[0] = var21;
         var3[1] = var20;
@@ -641,9 +641,9 @@ case 26:
             var1[2] = var2;
             return var1;
         };
-        var2 = var19.bind(var11)(var2, var3);
+        var2 = var4.bind(var11)(var2, var3);
         var20 = var11.useEffect;
-        var19 = function() {
+        var4 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 9;
@@ -655,20 +655,27 @@ case 26:
             return var1;
         };
         var3 = new Array(0);
-        var3 = var20.bind(var11)(var19, var3);
+        var3 = var20.bind(var11)(var4, var3);
         var3 = 12;
         var3 = var18[var3];
-        var4 = var4.bind(var17)(var3);
+        var4 = var10.bind(var12)(var3);
         var3 = var4.useICYMIReloadHandler;
-        var4 = var3.bind(var4)(var10);
+        var4 = var3.bind(var4)(var19);
+        var3 = 13;
+        var3 = var18[var3];
+        var10 = var10.bind(var12)(var3);
+        var3 = var10.useICYMISunsetBanner;
+        var12 = var3.bind(var10)();
+        var _closure2_slot16 = var12;
         var10 = var11.useMemo;
-        var3 = new Array(6);
+        var3 = new Array(7);
         var3[0] = var9;
-        var3[1] = var16;
-        var3[2] = var15;
-        var3[3] = var14;
-        var3[4] = var13;
-        var3[5] = var12;
+        var3[1] = var17;
+        var3[2] = var16;
+        var3[3] = var15;
+        var3[4] = var14;
+        var3[5] = var13;
+        var3[6] = var12;
         var1 = function() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -730,6 +737,17 @@ case 32:
                 var4 = _closure2_slot6;
                 if(var4) { _fun0008_ip = 34; continue _fun0008 }
 case 35:
+                var4 = _closure2_slot16;
+                if(!var4) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
+                var5 = var2.push;
+                var4 = {'id': 'sunsetBanner', 'timestamp': 0, 'unread': false};
+                var7 = 'sunsetBanner';
+                var6 = {};
+                var6['kind'] = var7;
+                var4['data'] = var6;
+                var4 = var5.bind(var2)(var4);
+case 36:
                 var6 = _closure2_slot2;
                 var5 = var6.forEach;
                 var4 = function(arg1) {
@@ -744,19 +762,19 @@ case 0:
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.isItemNSFW;
                         var2 = var2.bind(var3)(var4);
-                        if(var2) { _fun0009_ip = 36; continue _fun0009 }
-case 37:
+                        if(var2) { _fun0009_ip = 38; continue _fun0009 }
+case 39:
                         var3 = _closure3_slot0;
                         var2 = var3.push;
                         var2 = var2.bind(var3)(var4);
-case 36:
+case 38:
                         return var1;
                     }
                 };
                 var4 = var5.bind(var6)(var4);
                 var4 = _closure2_slot4;
-                if(!var4) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
+                if(!var4) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
                 var5 = var2.push;
                 var4 = {'id': 'end', 'timestamp': 0, 'unread': false};
                 var7 = 'end';
@@ -764,12 +782,12 @@ case 39:
                 var6['kind'] = var7;
                 var4['data'] = var6;
                 var4 = var5.bind(var2)(var4);
-case 38:
+case 40:
                 var4 = _closure2_slot3;
                 var5 = var4.length;
                 var4 = 0;
-                if(!(var5 > var4)) { _fun0008_ip = 40; continue _fun0008 }
-case 41:
+                if(!(var5 > var4)) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
                 var5 = _closure2_slot3;
                 var4 = var5.forEach;
                 var3 = function(arg1) {
@@ -784,20 +802,20 @@ case 0:
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.isItemNSFW;
                         var2 = var2.bind(var3)(var4);
-                        if(var2) { _fun0010_ip = 36; continue _fun0010 }
-case 37:
+                        if(var2) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
                         var3 = _closure3_slot0;
                         var2 = var3.push;
                         var2 = var2.bind(var3)(var4);
-case 36:
+case 38:
                         return var1;
                     }
                 };
                 var3 = var4.bind(var5)(var3);
-case 40:
+case 42:
                 var1 = _closure2_slot8;
-                if(!var1) { _fun0008_ip = 42; continue _fun0008 }
-case 43:
+                if(!var1) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
                 var3 = var2.push;
                 var1 = {'id': 'bottomLoading', 'timestamp': 0, 'unread': false};
                 var5 = 'bottomLoading';
@@ -805,7 +823,7 @@ case 43:
                 var4['kind'] = var5;
                 var1['data'] = var4;
                 var1 = var3.bind(var2)(var1);
-                _fun0008_ip = 42; continue _fun0008;
+                _fun0008_ip = 44; continue _fun0008;
 case 34:
                 var3 = var2.push;
                 var1 = {'id': 'loading', 'timestamp': 0, 'unread': false};
@@ -814,7 +832,7 @@ case 34:
                 var4['kind'] = var5;
                 var1['data'] = var4;
                 var1 = var3.bind(var2)(var1);
-case 42:
+case 44:
                 var1 = {};
                 var1['data'] = var2;
                 var2 = new Array(0);

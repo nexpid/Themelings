@@ -497,7 +497,7 @@ case 50:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(19);
+        var1 = new Array(18);
         var1[0] = var5;
         var5 = {};
         var7 = 'get';
@@ -865,98 +865,29 @@ case 67:
         var5['value'] = var7;
         var1[14] = var5;
         var5 = {};
-        var7 = 'getReverseTrialEntitlement';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
-case 0:
-                var9 = arg1;
-                var3 = this;
-                var1 = global;
-                var1 = var1.Date;
-                var2 = var1.prototype;
-                var2 = Object.create(var2, {constructor: {value: var1}});
-                var14 = var2;
-                var1 = new var14[var1](var13);
-                var8 = var1 instanceof Object ? var1 : var2;
-                var2 = var3.getForApplication;
-                var1 = _closure1_slot13;
-                var3 = var2.bind(var3)(var1);
-                var1 = null;
-                if(!(var1 != var3)) { _fun0014_ip = 72; continue _fun0014 }
-case 11:
-                var2 = _closure1_slot25;
-                var6 = undefined;
-                var5 = var2.bind(var6)(var3);
-                var3 = var5.bind(var6)();
-                var2 = var3.done;
-                var4 = var3;
-                if(var2) { _fun0014_ip = 72; continue _fun0014 }
-case 77:
-                var2 = var4.value;
-                var3 = var2.endsAt;
-                var10 = var1 != var3;
-                if(!var10) { _fun0014_ip = 78; continue _fun0014 }
-case 50:
-                var3 = var2.endsAt;
-                var10 = var3 < var8;
-case 78:
-                var3 = var2.startsAt;
-                var3 = var1 != var3;
-                var12 = var2.type;
-                var11 = _closure1_slot12;
-                var11 = var11.FRACTIONAL_REDEMPTION;
-                if(!(var12 === var11)) { _fun0014_ip = 79; continue _fun0014 }
-case 80:
-                var12 = var2.sourceType;
-                var11 = _closure1_slot11;
-                var11 = var11.REVERSE_TRIAL;
-                if(!(var12 === var11)) { _fun0014_ip = 79; continue _fun0014 }
-case 81:
-                if(!var10) { _fun0014_ip = 71; continue _fun0014 }
-case 82:
-                if(!var9) { _fun0014_ip = 79; continue _fun0014 }
-case 71:
-                if(var3) { _fun0014_ip = 83; continue _fun0014 }
-case 79:
-                var10 = var5.bind(var6)();
-                var3 = var10.done;
-                var4 = var10;
-                if(var3) { _fun0014_ip = 72; continue _fun0014 }
-case 84:
-                _fun0014_ip = 77; continue _fun0014;
-case 83:
-                return var2;
-case 72:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[15] = var5;
-        var5 = {};
         var7 = 'getFractionalPremium';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var3 = arguments[0];
                 var5 = this;
                 var1 = undefined;
-                if(!(var3 === var1)) { _fun0015_ip = 85; continue _fun0015 }
+                if(!(var3 === var1)) { _fun0014_ip = 77; continue _fun0014 }
 case 36:
                 var3 = {};
-case 85:
+case 77:
                 var4 = var3.includeEnded;
-                if(!(var4 === var1)) { _fun0015_ip = 38; continue _fun0015 }
-case 86:
+                if(!(var4 === var1)) { _fun0014_ip = 38; continue _fun0014 }
+case 78:
                 var4 = false;
 case 38:
                 var _closure3_slot0 = var4;
                 var3 = var3.excludeReverseTrial;
-                if(!(var3 === var1)) { _fun0015_ip = 87; continue _fun0015 }
+                if(!(var3 === var1)) { _fun0014_ip = 79; continue _fun0014 }
 case 56:
                 var3 = false;
-case 87:
+case 79:
                 var _closure3_slot1 = var3;
                 var _closure3_slot3 = var1;
                 var1 = new Array(0);
@@ -973,17 +904,17 @@ case 87:
                 var3 = _closure1_slot13;
                 var4 = var4.bind(var5)(var3);
                 var3 = null;
-                if(!(var3 != var4)) { _fun0015_ip = 88; continue _fun0015 }
+                if(!(var3 != var4)) { _fun0014_ip = 80; continue _fun0014 }
 case 61:
                 var3 = var4.forEach;
                 var2 = function(arg1) {
-                    _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                    _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                         var3 = arg1;
                         var2 = var3.endsAt;
                         var1 = null;
                         var4 = var1 != var2;
-                        if(!var4) { _fun0016_ip = 47; continue _fun0016 }
+                        if(!var4) { _fun0015_ip = 47; continue _fun0015 }
 case 60:
                         var2 = var3.endsAt;
                         var1 = _closure3_slot3;
@@ -993,62 +924,62 @@ case 47:
                         var2 = _closure1_slot11;
                         var2 = var2.REVERSE_TRIAL;
                         var2 = var5 === var2;
-                        if(!var2) { _fun0016_ip = 89; continue _fun0016 }
+                        if(!var2) { _fun0015_ip = 81; continue _fun0015 }
 case 11:
                         var2 = _closure3_slot1;
-case 89:
+case 81:
                         var5 = var3.type;
                         var1 = _closure1_slot12;
                         var1 = var1.FRACTIONAL_REDEMPTION;
                         var1 = var5 !== var1;
-                        if(var1) { _fun0016_ip = 90; continue _fun0016 }
-case 91:
-                        if(!var4) { _fun0016_ip = 92; continue _fun0016 }
-case 93:
+                        if(var1) { _fun0015_ip = 82; continue _fun0015 }
+case 83:
+                        if(!var4) { _fun0015_ip = 84; continue _fun0015 }
+case 85:
                         var5 = _closure3_slot0;
                         var4 = !var5;
-case 92:
+case 84:
                         var1 = var4;
-case 90:
-                        if(var1) { _fun0016_ip = 66; continue _fun0016 }
+case 82:
+                        if(var1) { _fun0015_ip = 66; continue _fun0015 }
 case 52:
                         var1 = var2;
 case 66:
-                        if(var1) { _fun0016_ip = 94; continue _fun0016 }
-case 78:
+                        if(var1) { _fun0015_ip = 86; continue _fun0015 }
+case 87:
                         var2 = _closure3_slot2;
                         var1 = var2.push;
                         var1 = var1.bind(var2)(var3);
-case 94:
+case 86:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var2 = var3.bind(var4)(var2);
-case 88:
+case 80:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'isFractionalPremiumActive';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var2 = arguments[0];
                 var3 = this;
                 var1 = undefined;
-                if(!(var2 === var1)) { _fun0017_ip = 36; continue _fun0017 }
-case 95:
+                if(!(var2 === var1)) { _fun0016_ip = 36; continue _fun0016 }
+case 88:
                 var2 = {};
 case 36:
                 var4 = var2.excludeReverseTrial;
-                if(!(var4 === var1)) { _fun0017_ip = 86; continue _fun0017 }
+                if(!(var4 === var1)) { _fun0016_ip = 78; continue _fun0016 }
 case 57:
                 var4 = false;
-case 86:
+case 78:
                 var2 = var3.getFractionalPremium;
                 var1 = {};
                 var5 = false;
@@ -1062,12 +993,12 @@ case 86:
             }
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getUnactivatedFractionalPremiumUnits';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var5 = this;
                 var1 = new Array(0);
@@ -1076,11 +1007,11 @@ case 0:
                 var3 = _closure1_slot13;
                 var4 = var4.bind(var5)(var3);
                 var3 = null;
-                if(!(var3 != var4)) { _fun0018_ip = 96; continue _fun0018 }
+                if(!(var3 != var4)) { _fun0017_ip = 89; continue _fun0017 }
 case 62:
                 var3 = var4.forEach;
                 var2 = function(arg1) {
-                    _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+                    _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                         var4 = arg1;
                         var3 = _closure1_slot0;
@@ -1094,27 +1025,27 @@ case 0:
                         var3 = var5.has;
                         var2 = var4.skuId;
                         var2 = var3.bind(var5)(var2);
-                        if(!var2) { _fun0019_ip = 89; continue _fun0019 }
-case 97:
+                        if(!var2) { _fun0018_ip = 81; continue _fun0018 }
+case 90:
                         var3 = var4.consumed;
                         var2 = !var3;
-case 89:
-                        if(!var2) { _fun0019_ip = 98; continue _fun0019 }
+case 81:
+                        if(!var2) { _fun0018_ip = 91; continue _fun0018 }
 case 53:
                         var3 = _closure3_slot0;
                         var2 = var3.push;
                         var2 = var2.bind(var3)(var4);
-case 98:
+case 91:
                         return var1;
                     }
                 };
                 var2 = var3.bind(var4)(var2);
-case 96:
+case 89:
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[18] = var5;
+        var1[17] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1136,7 +1067,7 @@ case 96:
     };
     var2['ENTITLEMENT_FETCH_APPLICATION_START'] = var11;
     var11 = function handleEntitlementApplicationFetch(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.applicationId;
@@ -1153,19 +1084,19 @@ case 0:
             var3 = var5.bind(var1)();
             var2 = var3.done;
             var4 = true;
-            if(var2) { _fun0020_ip = 52; continue _fun0020 }
+            if(var2) { _fun0019_ip = 52; continue _fun0019 }
 case 3:
             var7 = var3.value;
             var2 = var7.consumed;
-            if(!(var4 !== var2)) { _fun0020_ip = 99; continue _fun0020 }
-case 100:
+            if(!(var4 !== var2)) { _fun0019_ip = 92; continue _fun0019 }
+case 93:
             var2 = _closure1_slot27;
             var2 = var2.bind(var1)(var7);
-case 99:
+case 92:
             var7 = var5.bind(var1)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0020_ip = 3; continue _fun0020 }
+            if(!var2) { _fun0019_ip = 3; continue _fun0019 }
 case 52:
             return var1;
         }
@@ -1191,7 +1122,7 @@ case 52:
     var2['SKU_PURCHASE_SUCCESS'] = var10;
     var2['VIRTUAL_CURRENCY_REDEEM_SUCCESS'] = var10;
     var10 = function handleLibraryFetchSuccess(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.libraryApplications;
@@ -1204,12 +1135,12 @@ case 0:
             var5 = var3;
             var4 = undefined;
             var3 = undefined;
-            if(var2) { _fun0021_ip = 101; continue _fun0021 }
-case 87:
+            if(var2) { _fun0020_ip = 94; continue _fun0020 }
+case 79:
             var2 = var5.value;
             var9 = var2.entitlements;
-            if(!(var6 != var9)) { _fun0021_ip = 102; continue _fun0021 }
-case 97:
+            if(!(var6 != var9)) { _fun0020_ip = 95; continue _fun0020 }
+case 90:
             var9 = _closure1_slot25;
             var2 = var2.entitlements;
             var10 = var9.bind(var1)(var2);
@@ -1218,7 +1149,7 @@ case 97:
             var9 = var11;
             var4 = var9;
             var3 = var10;
-            if(var2) { _fun0021_ip = 102; continue _fun0021 }
+            if(var2) { _fun0020_ip = 95; continue _fun0020 }
 case 64:
             var11 = _closure1_slot27;
             var2 = var9.value;
@@ -1228,13 +1159,13 @@ case 64:
             var9 = var11;
             var4 = var9;
             var3 = var10;
-            if(!var2) { _fun0021_ip = 64; continue _fun0021 }
-case 102:
+            if(!var2) { _fun0020_ip = 64; continue _fun0020 }
+case 95:
             var9 = var7.bind(var1)();
             var2 = var9.done;
             var5 = var9;
-            if(!var2) { _fun0021_ip = 87; continue _fun0021 }
-case 101:
+            if(!var2) { _fun0020_ip = 79; continue _fun0020 }
+case 94:
             return var1;
         }
     };
@@ -1242,7 +1173,7 @@ case 101:
     var2['ENTITLEMENT_CREATE'] = var9;
     var2['ENTITLEMENT_UPDATE'] = var9;
     var9 = function handleEntitlementDelete(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.entitlement;
@@ -1253,33 +1184,33 @@ case 0:
             var2 = var1.application_id;
             var6 = var4[var2];
             var2 = null;
-            if(!(var2 != var6)) { _fun0022_ip = 103; continue _fun0022 }
+            if(!(var2 != var6)) { _fun0021_ip = 96; continue _fun0021 }
 case 54:
             var5 = var6.delete;
             var4 = var1.id;
             var4 = var5.bind(var6)(var4);
-case 103:
+case 96:
             var5 = _closure1_slot16;
             var4 = var1.sku_id;
             var6 = var5[var4];
-            if(!(var2 != var6)) { _fun0022_ip = 93; continue _fun0022 }
-case 104:
+            if(!(var2 != var6)) { _fun0021_ip = 85; continue _fun0021 }
+case 97:
             var5 = var6.delete;
             var4 = var1.id;
             var4 = var5.bind(var6)(var4);
-case 93:
+case 85:
             var4 = var1.subscription_id;
-            if(!(var2 != var4)) { _fun0022_ip = 105; continue _fun0022 }
-case 92:
+            if(!(var2 != var4)) { _fun0021_ip = 98; continue _fun0021 }
+case 84:
             var4 = _closure1_slot23;
             var3 = var1.subscription_id;
             var3 = var4[var3];
-            if(!(var2 != var3)) { _fun0022_ip = 105; continue _fun0022 }
-case 106:
+            if(!(var2 != var3)) { _fun0021_ip = 98; continue _fun0021 }
+case 99:
             var2 = var3.delete;
             var1 = var1.id;
             var1 = var2.bind(var3)(var1);
-case 105:
+case 98:
             var1 = undefined;
             return var1;
         }
@@ -1323,7 +1254,7 @@ case 105:
     };
     var2['ENTITLEMENTS_FETCH_FOR_USER_START'] = var9;
     var9 = function handleUserEntitlementsSuccess(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.entitlements;
@@ -1339,16 +1270,16 @@ case 0:
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0023_ip = 107; continue _fun0023 }
-case 103:
+            if(var2) { _fun0022_ip = 100; continue _fun0022 }
+case 96:
             var6 = _closure1_slot27;
             var2 = var3.value;
             var2 = var6.bind(var1)(var2);
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0023_ip = 103; continue _fun0023 }
-case 107:
+            if(!var2) { _fun0022_ip = 96; continue _fun0022 }
+case 100:
             return var1;
         }
     };

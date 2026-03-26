@@ -227,7 +227,7 @@ case 28:
             var9 = var7.nick;
             var2['username'] = var9;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0002_ip = 29; continue _fun0002;
+            _fun0002_ip = 9; continue _fun0002;
 case 27:
             var4 = var3.MJPwfg;
             var3 = {};
@@ -235,7 +235,7 @@ case 27:
             var7 = var7.nick;
             var3['username'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 29:
+case 9:
             var1 = var2;
 case 26:
             return var1;
@@ -247,12 +247,12 @@ case 26:
 case 0:
             var3 = arg2;
             var1 = null;
-            if(!(var1 != var3)) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+            if(!(var1 != var3)) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
             var2 = _closure1_slot5;
             var2 = var2.GUILD_ANNOUNCEMENT;
-            if(!(var3 !== var2)) { _fun0003_ip = 30; continue _fun0003 }
-case 32:
+            if(!(var3 !== var2)) { _fun0003_ip = 29; continue _fun0003 }
+case 31:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 6;
@@ -269,28 +269,28 @@ case 0:
                     var4 = null;
                     var1 = var4 == var5;
                     var6 = undefined;
-                    if(var1) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
-                    var6 = var5.burst;
+                    if(var1) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
+                    var6 = var5.burst;
+case 31:
                     var7 = var4 != var6;
                     var1 = 0;
-                    if(!var7) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
-                    var1 = var6;
+                    if(!var7) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
+                    var1 = var6;
+case 33:
                     var6 = var4 == var5;
                     var3 = undefined;
-                    if(var6) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-                    var3 = var5.normal;
+                    if(var6) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
+                    var3 = var5.normal;
+case 35:
                     var4 = var4 != var3;
                     var2 = 0;
-                    if(!var4) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
-                    var2 = var3;
+                    if(!var4) { _fun0004_ip = 37; continue _fun0004 }
 case 38:
+                    var2 = var3;
+case 37:
                     var1 = var1 + var2;
                     return var1;
                 }
@@ -300,7 +300,7 @@ case 38:
             var1 = var2.has;
             var1 = var1.bind(var2)(var3);
             return var1;
-case 30:
+case 29:
             var1 = false;
             return var1;
         }

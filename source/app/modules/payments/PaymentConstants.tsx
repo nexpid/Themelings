@@ -10,8 +10,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var4.bind(var5)(var3, var1, var2);
     var5 = {};
-    var1 = 'apple_payment_link';
-    var5['APPLE_PAYMENT_LINK'] = var1;
+    var1 = 'mobile_web_redirect_checkout';
+    var5['MOBILE_WEB_REDIRECT_CHECKOUT'] = var1;
     var4 = {};
     var1 = 'premium_checkout_success';
     var4['PREMIUM_CHECKOUT_SUCCESS'] = var1;
@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = 'modules/payments/PaymentConstants.tsx';
     var6 = var7.bind(var8)(var6);
     var3['CustomCheckoutFlow'] = var5;
-    var3['ApplePaymentLinkDeepLinkActions'] = var4;
-    var3['ApplePaymentLinkDeepLinkQueryKeys'] = var2;
+    var3['MobileWebRedirectCheckoutDeepLinkActions'] = var4;
+    var3['MobileWebRedirectCheckoutDeepLinkQueryKeys'] = var2;
     return var1;
 })();

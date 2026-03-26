@@ -1361,7 +1361,7 @@ case 14:
     var10['marginTop'] = var11;
     var4['cardsScroller'] = var10;
     var11 = 20;
-    var10 = {'alignItems': 'flex-start', 'display': 'flex', 'flexDirection': 'row', 'paddingHorizontal': 8, 'paddingTop': 16, 'paddingBottom': 20};
+    var10 = {'alignItems': 'flex-start', 'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'center', 'minWidth': '100%', 'paddingHorizontal': 8, 'paddingTop': 16, 'paddingBottom': 20};
     var4['cardsScrollerContent'] = var10;
     var10 = {'height': 24, 'marginRight': 6, 'width': 24};
     var4['cardFeatureIcon'] = var10;

@@ -294,6 +294,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_BOOSTING_TIER_2'] = var1;
     var1 = 'guild boosting tier 3';
     var2['GUILD_BOOSTING_TIER_3'] = var1;
+    var1 = 'guild boosting system message';
+    var2['GUILD_BOOSTING_SYSTEM_MESSAGE'] = var1;
     var1 = 'guild boosting upsell banner';
     var2['GUILD_BOOSTING_UPSELL_BANNER'] = var1;
     var1 = 'guild boosting sidebar display';

@@ -657,8 +657,8 @@ case 11:
             var4 = 6;
             var4 = var9[var4];
             var4 = var8.bind(var7)(var4);
-            var4 = var4.VideoPauseReason;
-            var4 = var4.LOST_FOCUS;
+            var4 = var4.VideoPlayerStateChangeReason;
+            var4 = var4.FOCUS;
             var2 = null;
             if(!(var5 === var4)) { _fun0007_ip = 58; continue _fun0007 }
 case 41:
@@ -680,6 +680,6 @@ case 57:
             return var1;
         }
     };
-    var3['getVideoStatusMessage'] = var2;
+    var3['getQuestPlaybackBlockedMessage'] = var2;
     return var1;
 })();

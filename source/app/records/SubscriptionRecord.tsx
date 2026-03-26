@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot20 = var2;
+            _closure1_slot19 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = function createSubscriptionItemFromServer(arg1) {
         var2 = arg1;
         var1 = {};
@@ -57,7 +57,7 @@ case 4:
         var1['quantity'] = var2;
         return var1;
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot20 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -121,12 +121,10 @@ case 4:
     var7 = var5.bind(var1)(var7);
     var8 = var7.PREMIUM_PLANS;
     var _closure1_slot16 = var8;
-    var8 = var7.REVERSE_TRIAL_IDS;
-    var _closure1_slot17 = var8;
     var8 = var7.SubscriptionPlanInfo;
-    var _closure1_slot18 = var8;
+    var _closure1_slot17 = var8;
     var7 = var7.SubscriptionPlans;
-    var _closure1_slot19 = var7;
+    var _closure1_slot18 = var7;
     var2 = function(arg1) {
         var5 = function SubscriptionRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -140,7 +138,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var12 = var1.bind(var11)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot20;
+                var1 = _closure1_slot19;
                 var1 = var1.bind(var11)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -242,7 +240,7 @@ case 14:
                 var4 = var9;
                 _fun0002_ip = 13; continue _fun0002;
 case 9:
-                var10 = _closure1_slot18;
+                var10 = _closure1_slot17;
                 var9 = var5.items;
                 var9 = var9[var12];
                 var9 = var9.planId;
@@ -346,7 +344,7 @@ case 20:
             }
         };
         var6['value'] = var2;
-        var2 = new Array(29);
+        var2 = new Array(28);
         var2[0] = var6;
         var6 = {};
         var7 = 'isPremium';
@@ -412,7 +410,7 @@ case 24:
             var1 = global;
             var5 = var1.Object;
             var4 = var5.values;
-            var1 = _closure1_slot19;
+            var1 = _closure1_slot18;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -586,7 +584,7 @@ case 33:
             var1 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.planId;
-                var1 = _closure1_slot19;
+                var1 = _closure1_slot18;
                 var1 = var1.PREMIUM_MONTH_TIER_2;
                 var1 = var2 === var1;
                 return var1;
@@ -606,7 +604,7 @@ case 33:
             var3 = var1.items;
             var2 = var3.every;
             var1 = function(arg1) {
-                var1 = _closure1_slot19;
+                var1 = _closure1_slot18;
                 var2 = var1.PREMIUM_MONTH_GUILD;
                 var3 = new Array(2);
                 var3[0] = var2;
@@ -831,50 +829,23 @@ case 24:
         var6['get'] = var7;
         var2[23] = var6;
         var6 = {};
-        var7 = 'inReverseTrial';
+        var7 = 'premiumSince';
         var6['key'] = var7;
         var7 = function get() {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var2 = this;
-                var1 = var2.trialId;
+                var1 = var2.streakStartedAt;
                 var3 = null;
-                var1 = var3 != var1;
-                if(!var1) { _fun0014_ip = 42; continue _fun0014 }
-case 27:
-                var6 = _closure1_slot17;
-                var5 = var6.includes;
-                var4 = var2.trialId;
-                var1 = var5.bind(var6)(var4);
+                if(!(var3 == var1)) { _fun0014_ip = 42; continue _fun0014 }
+case 43:
+                var1 = var2.createdAt;
 case 42:
-                if(!var1) { _fun0014_ip = 7; continue _fun0014 }
-case 21:
-                var2 = var2.paymentSourceId;
-                var1 = var3 == var2;
-case 7:
                 return var1;
             }
         };
         var6['get'] = var7;
         var2[24] = var6;
-        var6 = {};
-        var7 = 'premiumSince';
-        var6['key'] = var7;
-        var7 = function get() {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-                var2 = this;
-                var1 = var2.streakStartedAt;
-                var3 = null;
-                if(!(var3 == var1)) { _fun0015_ip = 43; continue _fun0015 }
-case 44:
-                var1 = var2.createdAt;
-case 43:
-                return var1;
-            }
-        };
-        var6['get'] = var7;
-        var2[25] = var6;
         var6 = {};
         var7 = 'hasAnyPremiumNitro';
         var6['key'] = var7;
@@ -894,7 +865,7 @@ case 43:
             return var1;
         };
         var6['get'] = var7;
-        var2[26] = var6;
+        var2[25] = var6;
         var6 = {};
         var7 = 'hasAnyPremiumGroup';
         var6['key'] = var7;
@@ -905,7 +876,7 @@ case 43:
             var1 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.planId;
-                var1 = _closure1_slot19;
+                var1 = _closure1_slot18;
                 var1 = var1.PREMIUM_GROUP_MONTH;
                 var1 = var2 === var1;
                 return var1;
@@ -914,12 +885,12 @@ case 43:
             return var1;
         };
         var6['get'] = var7;
-        var2[27] = var6;
+        var2[26] = var6;
         var6 = {};
         var7 = 'hasPremiumAtLeast';
         var6['key'] = var7;
         var7 = function value(arg1) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var3 = this;
                 var1 = arg1;
@@ -927,12 +898,12 @@ case 0:
                 var1 = var3.isPremium;
                 var4 = !var1;
                 var1 = !var4;
-                if(var4) { _fun0016_ip = 33; continue _fun0016 }
+                if(var4) { _fun0015_ip = 33; continue _fun0015 }
 case 34:
                 var4 = var3.items;
                 var3 = var4.some;
                 var2 = function(arg1) {
-                    var3 = _closure1_slot18;
+                    var3 = _closure1_slot17;
                     var1 = arg1;
                     var1 = var1.planId;
                     var1 = var3[var1];
@@ -954,12 +925,12 @@ case 33:
             }
         };
         var6['value'] = var7;
-        var2[28] = var6;
+        var2[27] = var6;
         var6 = {};
         var7 = 'createFromServer';
         var6['key'] = var7;
         var1 = function value(arg1) {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var2 = arg1;
                 var3 = _closure2_slot0;
@@ -981,8 +952,8 @@ case 0:
                 var4 = null;
                 var6 = var4 != var5;
                 var5 = null;
-                if(!var6) { _fun0017_ip = 45; continue _fun0017 }
-case 46:
+                if(!var6) { _fun0016_ip = 44; continue _fun0016 }
+case 45:
                 var9 = var7.Date;
                 var13 = var2.canceled_at;
                 var8 = var9.prototype;
@@ -990,7 +961,7 @@ case 46:
                 var14 = var8;
                 var6 = new var14[var9](var13, var12);
                 var5 = var6 instanceof Object ? var6 : var8;
-case 45:
+case 44:
                 var1['canceledAt'] = var5;
                 var8 = var7.Date;
                 var13 = var2.current_period_start;
@@ -1023,8 +994,8 @@ case 45:
                 var5 = var2.trial_ends_at;
                 var6 = var4 != var5;
                 var5 = null;
-                if(!var6) { _fun0017_ip = 47; continue _fun0017 }
-case 48:
+                if(!var6) { _fun0016_ip = 46; continue _fun0016 }
+case 47:
                 var9 = var7.Date;
                 var13 = var2.trial_ends_at;
                 var8 = var9.prototype;
@@ -1032,36 +1003,36 @@ case 48:
                 var14 = var8;
                 var6 = new var14[var9](var13, var12);
                 var5 = var6 instanceof Object ? var6 : var8;
-case 47:
+case 46:
                 var1['trialEndsAt'] = var5;
                 var9 = var2.items;
                 var8 = var9.map;
-                var6 = _closure1_slot21;
+                var6 = _closure1_slot20;
                 var6 = var8.bind(var9)(var6);
                 var1['items'] = var6;
                 var6 = var2.renewal_mutations;
                 var8 = var4 != var6;
                 var6 = null;
-                if(!var8) { _fun0017_ip = 49; continue _fun0017 }
-case 50:
+                if(!var8) { _fun0016_ip = 48; continue _fun0016 }
+case 49:
                 var8 = {};
                 var9 = var2.renewal_mutations;
                 var11 = var9.items;
                 var10 = var11.map;
-                var9 = _closure1_slot21;
+                var9 = _closure1_slot20;
                 var9 = var10.bind(var11)(var9);
                 var8['items'] = var9;
                 var9 = var2.renewal_mutations;
                 var9 = var9.payment_gateway_plan_id;
                 var8['paymentGatewayPlanId'] = var9;
                 var6 = var8;
-case 49:
+case 48:
                 var1['renewalMutations'] = var6;
                 var6 = var2.streak_started_at;
                 var8 = var4 != var6;
                 var6 = null;
-                if(!var8) { _fun0017_ip = 51; continue _fun0017 }
-case 52:
+                if(!var8) { _fun0016_ip = 50; continue _fun0016 }
+case 51:
                 var10 = var7.Date;
                 var13 = var2.streak_started_at;
                 var9 = var10.prototype;
@@ -1069,15 +1040,15 @@ case 52:
                 var14 = var9;
                 var8 = new var14[var10](var13, var12);
                 var6 = var8 instanceof Object ? var8 : var9;
-case 51:
+case 50:
                 var1['streakStartedAt'] = var6;
                 var6 = var2.currency;
                 var1['currency'] = var6;
                 var6 = var2.pause_ends_at;
                 var8 = var4 != var6;
                 var6 = null;
-                if(!var8) { _fun0017_ip = 53; continue _fun0017 }
-case 54:
+                if(!var8) { _fun0016_ip = 52; continue _fun0016 }
+case 53:
                 var9 = var7.Date;
                 var13 = var2.pause_ends_at;
                 var8 = var9.prototype;
@@ -1085,7 +1056,7 @@ case 54:
                 var14 = var8;
                 var7 = new var14[var9](var13, var12);
                 var6 = var7 instanceof Object ? var7 : var8;
-case 53:
+case 52:
                 var1['pauseEndsAt'] = var6;
                 var6 = var2.pause_reason;
                 var1['pauseReason'] = var6;
@@ -1098,11 +1069,11 @@ case 53:
                 var6 = var2.user_id;
                 var1['userId'] = var6;
                 var6 = var2.latest_invoice;
-                if(!(var4 == var6)) { _fun0017_ip = 55; continue _fun0017 }
-case 56:
-                var6 = {};
-                _fun0017_ip = 57; continue _fun0017;
+                if(!(var4 == var6)) { _fun0016_ip = 54; continue _fun0016 }
 case 55:
+                var6 = {};
+                _fun0016_ip = 56; continue _fun0016;
+case 54:
                 var7 = {};
                 var10 = _closure1_slot9;
                 var9 = var10.createInvoiceFromServer;
@@ -1110,29 +1081,29 @@ case 55:
                 var8 = var9.bind(var10)(var8);
                 var7['latestInvoice'] = var8;
                 var6 = var7;
-case 57:
+case 56:
                 var13 = var1;
                 var12 = var6;
                 var6 = copyDataProperties(var13, var12);
                 var6 = var2.eligible_payment_gateways;
                 var8 = var4 != var6;
                 var7 = null;
-                if(!var8) { _fun0017_ip = 58; continue _fun0017 }
-case 59:
-                var7 = var6;
+                if(!var8) { _fun0016_ip = 57; continue _fun0016 }
 case 58:
+                var7 = var6;
+case 57:
                 var6 = 'eligiblePaymentGateways';
                 var1[var6] = var7;
                 var6 = var2.price_change;
                 var6 = var4 != var6;
                 var4 = null;
-                if(!var6) { _fun0017_ip = 60; continue _fun0017 }
-case 61:
+                if(!var6) { _fun0016_ip = 59; continue _fun0016 }
+case 60:
                 var6 = _closure1_slot8;
                 var5 = var6.createFromServer;
                 var2 = var2.price_change;
                 var4 = var5.bind(var6)(var2);
-case 60:
+case 59:
                 var2 = 'priceChange';
                 var1[var2] = var4;
                 var2 = var3.prototype;

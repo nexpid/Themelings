@@ -497,9 +497,9 @@ case 12:
             var1 = 'secondary';
             if(!(var1 !== var2)) { _fun0007_ip = 20; continue _fun0007 }
 case 47:
-            var6 = undefined;
-            var1 = 'tertiary';
             var5 = undefined;
+            var1 = 'tertiary';
+            var6 = undefined;
             var4 = undefined;
             if(!(var1 === var2)) { _fun0007_ip = 48; continue _fun0007 }
 case 28:
@@ -507,44 +507,44 @@ case 28:
             var7 = _closure1_slot2;
             var1 = 12;
             var2 = var7[var1];
-            var2 = var3.bind(var6)(var2);
+            var2 = var3.bind(var5)(var2);
             var2 = var2.colors;
-            var5 = var2.BACKGROUND_MOD_SUBTLE;
+            var6 = var2.BACKGROUND_MOD_SUBTLE;
             var1 = var7[var1];
-            var1 = var3.bind(var6)(var1);
+            var1 = var3.bind(var5)(var1);
             var1 = var1.colors;
             var4 = var1.REDESIGN_BUTTON_TERTIARY_TEXT;
             _fun0007_ip = 48; continue _fun0007;
 case 20:
-            var6 = _closure1_slot1;
+            var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 12;
             var2 = var7[var1];
             var3 = undefined;
-            var2 = var6.bind(var3)(var2);
+            var2 = var5.bind(var3)(var2);
             var2 = var2.colors;
-            var5 = var2.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
+            var6 = var2.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
             var1 = var7[var1];
-            var1 = var6.bind(var3)(var1);
+            var1 = var5.bind(var3)(var1);
             var1 = var1.colors;
             var4 = var1.CONTROL_SECONDARY_TEXT_DEFAULT;
             _fun0007_ip = 48; continue _fun0007;
 case 46:
-            var6 = _closure1_slot1;
+            var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 12;
             var2 = var7[var1];
             var3 = undefined;
-            var2 = var6.bind(var3)(var2);
+            var2 = var5.bind(var3)(var2);
             var2 = var2.colors;
-            var5 = var2.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
+            var6 = var2.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
             var1 = var7[var1];
-            var1 = var6.bind(var3)(var1);
+            var1 = var5.bind(var3)(var1);
             var1 = var1.colors;
             var4 = var1.CONTROL_PRIMARY_TEXT_DEFAULT;
 case 48:
             var1 = {};
-            var2 = {'height': null, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row'};
+            var2 = {'minHeight': null, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row'};
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 13;
@@ -552,32 +552,33 @@ case 48:
             var3 = undefined;
             var7 = var9.bind(var3)(var7);
             var7 = var7.SMALL_BUTTON_HEIGHT;
-            var2['height'] = var7;
+            var2['minHeight'] = var7;
             var7 = _closure1_slot1;
-            var6 = 12;
-            var9 = var8[var6];
+            var5 = 12;
+            var9 = var8[var5];
             var9 = var7.bind(var3)(var9);
             var9 = var9.radii;
             var9 = var9.round;
             var2['borderRadius'] = var9;
-            var9 = var8[var6];
+            var9 = var8[var5];
             var9 = var7.bind(var3)(var9);
             var9 = var9.spacing;
             var9 = var9.PX_12;
             var2['paddingHorizontal'] = var9;
-            var6 = var8[var6];
-            var6 = var7.bind(var3)(var6);
-            var6 = var6.spacing;
-            var6 = var6.PX_4;
-            var2['paddingVertical'] = var6;
-            var6 = arg3;
-            if(var6) { _fun0007_ip = 49; continue _fun0007 }
+            var5 = var8[var5];
+            var5 = var7.bind(var3)(var5);
+            var5 = var5.spacing;
+            var5 = var5.PX_4;
+            var2['paddingVertical'] = var5;
+            var7 = arg3;
+            var5 = undefined;
+            if(var7) { _fun0007_ip = 49; continue _fun0007 }
 case 50:
-            var3 = var5;
+            var5 = var6;
 case 49:
-            var2['backgroundColor'] = var3;
-            var3 = 0;
-            var2['borderWidth'] = var3;
+            var2['backgroundColor'] = var5;
+            var5 = 0;
+            var2['borderWidth'] = var5;
             var1['clickable'] = var2;
             var2 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'flexShrink': 0, 'position': 'relative', 'gap': 4};
             var1['container'] = var2;
@@ -591,6 +592,7 @@ case 49:
             var2['textAlign'] = var4;
             var5 = 'android';
             var4 = arg1;
+            var3 = undefined;
             if(!(var5 === var4)) { _fun0007_ip = 51; continue _fun0007 }
 case 52:
             var3 = 16;

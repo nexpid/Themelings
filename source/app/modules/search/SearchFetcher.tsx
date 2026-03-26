@@ -17,7 +17,7 @@ case 0:
             var1 = arg2;
             var9 = var2.bind(var3)(var1);
             var2 = _closure1_slot3;
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot13;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -41,7 +41,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -74,13 +74,13 @@ case 9:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var6 = var9.defineProperty;
@@ -116,11 +116,15 @@ case 9:
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
     var5 = var4.SearchTypes;
-    var _closure1_slot9 = var5;
+    var _closure1_slot10 = var5;
     var4 = var4.Endpoints;
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = function() {
         var4 = _closure1_slot8;
         var3 = function SearchFetcher(arg1, arg2, arg3) {
@@ -232,7 +236,7 @@ case 31:
                     var10 = var9;
                     var12 = _closure1_slot1;
                     var13 = _closure1_slot2;
-                    var9 = 7;
+                    var9 = 8;
                     var9 = var13[var9];
                     var9 = var12.bind(var2)(var9);
                     var9 = var9.Millis;
@@ -264,7 +268,7 @@ case 32: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var5 = 8;
+                    var5 = 9;
                     var5 = var7[var5];
                     var7 = var6.bind(var2)(var5);
                     var5 = var7.prototype;
@@ -372,7 +376,7 @@ case 35:
             var6 = _closure1_slot7;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -389,70 +393,98 @@ case 35:
         var1 = function value() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var2 = this;
-                var4 = var2.searchType;
-                var3 = _closure1_slot9;
-                var3 = var3.FAVORITES;
+                var1 = this;
+                var4 = var1.searchType;
+                var3 = _closure1_slot10;
+                var3 = var3.GUILD;
                 if(!(var3 !== var4)) { _fun0006_ip = 37; continue _fun0006 }
 case 38:
-                var3 = _closure1_slot9;
-                var3 = var3.GUILD;
+                var3 = _closure1_slot10;
+                var3 = var3.GUILD_CHANNEL;
                 if(!(var3 !== var4)) { _fun0006_ip = 25; continue _fun0006 }
 case 39:
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 var3 = var3.CHANNEL;
                 if(!(var3 !== var4)) { _fun0006_ip = 22; continue _fun0006 }
 case 40:
                 var3 = global;
                 var5 = var3.Error;
-                var6 = var2.searchType;
+                var6 = var1.searchType;
                 var3 = var3.HermesInternal;
                 var4 = var3.concat;
                 var3 = '[SearchFetcher] Unhandled search type: ';
-                var7 = var4.bind(var3)(var6);
+                var8 = var4.bind(var3)(var6);
                 var4 = var5.prototype;
                 var4 = Object.create(var4, {constructor: {value: var5}});
-                var8 = var4;
-                var3 = new var8[var5](var7, var6);
+                var9 = var4;
+                var3 = new var9[var5](var8, var7);
                 var3 = var3 instanceof Object ? var3 : var4;
                 throw var3;
 case 22:
-                var4 = var2.searchId;
+                var4 = var1.searchId;
                 var3 = null;
                 if(!(var3 != var4)) { _fun0006_ip = 41; continue _fun0006 }
 case 42:
-                var4 = var2.searchId;
+                var4 = var1.searchId;
                 var3 = '';
                 if(!(var3 !== var4)) { _fun0006_ip = 41; continue _fun0006 }
 case 43:
-                var5 = _closure1_slot10;
+                var5 = _closure1_slot11;
                 var4 = var5.SEARCH_CHANNEL;
-                var3 = var2.searchId;
+                var3 = var1.searchId;
                 var3 = var4.bind(var5)(var3);
                 return var3;
 case 41:
                 var3 = undefined;
                 return var3;
 case 25:
-                var4 = var2.searchId;
-                var3 = null;
-                if(!(var3 != var4)) { _fun0006_ip = 44; continue _fun0006 }
+                var3 = var1.searchId;
+                var4 = null;
+                if(!(var4 != var3)) { _fun0006_ip = 44; continue _fun0006 }
 case 45:
-                var4 = var2.searchId;
+                var5 = var1.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0006_ip = 44; continue _fun0006 }
+                if(!(var3 !== var5)) { _fun0006_ip = 44; continue _fun0006 }
 case 46:
-                var4 = _closure1_slot10;
-                var3 = var4.SEARCH_GUILD;
-                var2 = var2.searchId;
-                var2 = var3.bind(var4)(var2);
-                return var2;
+                var6 = _closure1_slot9;
+                var5 = var6.getChannel;
+                var3 = var1.searchId;
+                var7 = var5.bind(var6)(var3);
+                var5 = var4 == var7;
+                var3 = undefined;
+                var6 = undefined;
+                if(var5) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
+                var5 = var7.getGuildId;
+                var6 = var5.bind(var7)();
+case 47:
+                if(!(var4 != var6)) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
+                var5 = _closure1_slot11;
+                var4 = var5.SEARCH_GUILD;
+                var4 = var4.bind(var5)(var6);
+                return var4;
+case 49:
+                return var3;
 case 44:
-                var2 = undefined;
-                return var2;
+                var3 = undefined;
+                return var3;
 case 37:
-                var1 = _closure1_slot10;
-                var1 = var1.SEARCH_FAVORITES;
+                var4 = var1.searchId;
+                var3 = null;
+                if(!(var3 != var4)) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
+                var4 = var1.searchId;
+                var3 = '';
+                if(!(var3 !== var4)) { _fun0006_ip = 51; continue _fun0006 }
+case 53:
+                var3 = _closure1_slot11;
+                var2 = var3.SEARCH_GUILD;
+                var1 = var1.searchId;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+case 51:
+                var1 = undefined;
                 return var1;
             }
         };
@@ -472,11 +504,11 @@ case 0:
                 var8 = var1.bind(var6)();
                 var1 = null;
                 var2 = var1 == var8;
-                if(var2) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
+                if(var2) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
                 var3 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var2 = 9;
+                var2 = 10;
                 var2 = var10[var2];
                 var9 = undefined;
                 var2 = var3.bind(var9)(var2);
@@ -485,7 +517,7 @@ case 48:
                 var2 = {};
                 var2['url'] = var8;
                 var8 = _closure1_slot1;
-                var7 = 10;
+                var7 = 11;
                 var7 = var10[var7];
                 var8 = var8.bind(var9)(var7);
                 var7 = var8.stringify;
@@ -496,7 +528,7 @@ case 48:
                 var2['oldFormErrors'] = var6;
                 var2['rejectWithError'] = var5;
                 var1 = var3.bind(var4)(var2);
-case 47:
+case 54:
                 return var1;
             }
         };
@@ -513,7 +545,7 @@ case 47:
             var4 = _closure2_slot0;
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = new Array(3);
             var6 = arg1;
             var1[0] = var6;
@@ -540,26 +572,26 @@ case 47:
 case 0:
                 var2 = this;
                 var4 = var2.searchType;
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 var3 = var3.DMS;
-                if(!(var3 !== var4)) { _fun0008_ip = 49; continue _fun0008 }
+                if(!(var3 !== var4)) { _fun0008_ip = 56; continue _fun0008 }
 case 38:
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 var3 = var3.GUILD_CHANNEL;
-                if(!(var3 !== var4)) { _fun0008_ip = 50; continue _fun0008 }
+                if(!(var3 !== var4)) { _fun0008_ip = 57; continue _fun0008 }
 case 39:
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 var3 = var3.GUILD;
-                if(!(var3 !== var4)) { _fun0008_ip = 50; continue _fun0008 }
-case 51:
-                var3 = _closure1_slot9;
+                if(!(var3 !== var4)) { _fun0008_ip = 57; continue _fun0008 }
+case 58:
+                var3 = _closure1_slot10;
                 var3 = var3.THREAD;
-                if(!(var3 !== var4)) { _fun0008_ip = 50; continue _fun0008 }
-case 52:
-                var3 = _closure1_slot9;
+                if(!(var3 !== var4)) { _fun0008_ip = 57; continue _fun0008 }
+case 59:
+                var3 = _closure1_slot10;
                 var3 = var3.CHANNEL;
-                if(!(var3 !== var4)) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
+                if(!(var3 !== var4)) { _fun0008_ip = 60; continue _fun0008 }
+case 61:
                 var3 = global;
                 var5 = var3.Error;
                 var6 = var2.searchType;
@@ -573,42 +605,42 @@ case 54:
                 var3 = new var8[var5](var7, var6);
                 var3 = var3 instanceof Object ? var3 : var4;
                 throw var3;
-case 53:
+case 60:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
+                if(!(var3 != var4)) { _fun0008_ip = 62; continue _fun0008 }
+case 63:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0008_ip = 55; continue _fun0008 }
-case 57:
-                var5 = _closure1_slot10;
+                if(!(var3 !== var4)) { _fun0008_ip = 62; continue _fun0008 }
+case 64:
+                var5 = _closure1_slot11;
                 var4 = var5.SEARCH_TABS_CHANNEL;
                 var3 = var2.searchId;
                 var3 = var4.bind(var5)(var3);
                 return var3;
-case 55:
+case 62:
                 var3 = undefined;
                 return var3;
-case 50:
+case 57:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
+                if(!(var3 != var4)) { _fun0008_ip = 65; continue _fun0008 }
+case 66:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0008_ip = 58; continue _fun0008 }
-case 60:
-                var4 = _closure1_slot10;
+                if(!(var3 !== var4)) { _fun0008_ip = 65; continue _fun0008 }
+case 67:
+                var4 = _closure1_slot11;
                 var3 = var4.SEARCH_TABS_GUILD;
                 var2 = var2.searchId;
                 var2 = var3.bind(var4)(var2);
                 return var2;
-case 58:
+case 65:
                 var2 = undefined;
                 return var2;
-case 49:
-                var1 = _closure1_slot10;
+case 56:
+                var1 = _closure1_slot11;
                 var1 = var1.SEARCH_TABS_DMS;
                 return var1;
             }
@@ -629,11 +661,11 @@ case 0:
                 var7 = var1.bind(var6)();
                 var1 = null;
                 var2 = var1 == var7;
-                if(var2) { _fun0009_ip = 61; continue _fun0009 }
-case 48:
+                if(var2) { _fun0009_ip = 68; continue _fun0009 }
+case 55:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 9;
+                var2 = 10;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
@@ -647,7 +679,7 @@ case 48:
                 var2['oldFormErrors'] = var6;
                 var2['rejectWithError'] = var5;
                 var1 = var3.bind(var4)(var2);
-case 61:
+case 68:
                 return var1;
             }
         };
@@ -657,7 +689,7 @@ case 61:
         return var1;
     };
     var2 = var2.bind(var1)(var5);
-    var6 = 11;
+    var6 = 12;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

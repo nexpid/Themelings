@@ -1123,8 +1123,8 @@ case 102:
                 var4 = _closure2_slot7;
                 var3 = _closure1_slot13;
                 var3 = var3.ERRORED;
-                if(!(var4 === var3)) { _fun0010_ip = 14; continue _fun0010 }
-case 104:
+                if(!(var4 === var3)) { _fun0010_ip = 104; continue _fun0010 }
+case 105:
                 var3 = _closure2_slot4;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
@@ -1140,7 +1140,7 @@ case 104:
                 var1 = var1.uJgdEu;
                 var1 = var4.bind(var5)(var1);
                 var1 = var3.bind(var2)(var1);
-case 14:
+case 104:
                 var1 = undefined;
                 return var1;
             }
@@ -1207,22 +1207,22 @@ case 0:
             var2['channel_id'] = var10;
             var10 = var9.guild_id;
             var10 = var7 != var10;
-            if(!var10) { _fun0011_ip = 105; continue _fun0011 }
-case 106:
+            if(!var10) { _fun0011_ip = 106; continue _fun0011 }
+case 107:
             var11 = var9.guild_id;
             var10 = var3 !== var11;
-case 105:
-            if(!var10) { _fun0011_ip = 107; continue _fun0011 }
-case 108:
+case 106:
+            if(!var10) { _fun0011_ip = 108; continue _fun0011 }
+case 109:
             var9 = var9.guild_id;
             var2['guild_id'] = var9;
-case 107:
+case 108:
             var8 = var8.URL;
             var7 = var7 != var4;
-            if(!var7) { _fun0011_ip = 109; continue _fun0011 }
-case 110:
+            if(!var7) { _fun0011_ip = 110; continue _fun0011 }
+case 111:
             var3 = var4;
-case 109:
+case 110:
             var7 = var8.prototype;
             var7 = Object.create(var7, {constructor: {value: var8}});
             var20 = var7;

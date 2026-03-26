@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['container'] = var9;
     var9 = {'width': '100%', 'aspectRatio': 2.237580993520518, 'resizeMode': 'contain'};
     var4['bannerImage'] = var9;
-    var9 = {'position': 'absolute', 'top': '16%', 'left': '3%', 'zIndex': 1};
+    var9 = {'position': 'absolute', 'bottom': '68%', 'left': '3%', 'zIndex': 1};
     var4['limitedTimeBadge'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;

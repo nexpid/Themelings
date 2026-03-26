@@ -116,7 +116,7 @@ case 11:
                     var12 = var9.registrationOptions;
                     var11 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var9 = 23;
+                    var9 = 24;
                     var9 = var13[var9];
                     var11 = var11.bind(var2)(var9);
                     var9 = var11.isNullOrEmpty;
@@ -153,13 +153,13 @@ case 14:
 case 16: // try_start_0
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var11 = 24;
+                    var11 = 25;
                     var11 = var13[var11];
                     var13 = var12.bind(var2)(var11);
                     var12 = var13.registerFull;
                     var11 = var14;
                     var11 = var12.bind(var13)(var11);
-                    SaveGenerator(address=230);
+                    SaveGenerator(address=229);
 case 17:
                     return var11;
 case 18:
@@ -198,7 +198,7 @@ case 23: // catch_target0
                     var11 = var13.bind(var2)(var11);
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var11 = 25;
+                    var11 = 26;
                     var11 = var14[var11];
                     var11 = var13.bind(var2)(var11);
                     var11 = var11.APIError;
@@ -209,7 +209,7 @@ case 25:
 case 24:
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var11 = 26;
+                    var11 = 27;
                     var11 = var13[var11];
                     var12 = var12.bind(var2)(var11);
                     var11 = var12.getAuthenticationErrorsFromAPIError;
@@ -224,7 +224,7 @@ case 24:
 case 26:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var7 = 27;
+                    var7 = 28;
                     var7 = var9[var7];
                     var7 = var8.bind(var2)(var7);
                     var20 = var6;
@@ -393,7 +393,7 @@ case 32:
         }
     };
     var _closure1_slot20 = var5;
-    var9 = 28;
+    var9 = 29;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.fileFinishedImporting;
@@ -403,15 +403,15 @@ case 32:
     var8 = function getAllAuthScreens() {
         var1 = {};
         var2 = _closure1_slot14;
-        var10 = var2.WELCOME;
+        var6 = var2.WELCOME;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true, 'impressionName': null, 'headerTitle': null, 'headerShown': false};
         var11 = true;
-        var8 = _closure1_slot0;
-        var9 = _closure1_slot2;
-        var6 = 8;
-        var5 = var9[var6];
-        var7 = undefined;
-        var5 = var8.bind(var7)(var5);
+        var9 = _closure1_slot0;
+        var10 = _closure1_slot2;
+        var7 = 8;
+        var5 = var10[var7];
+        var8 = undefined;
+        var5 = var9.bind(var8)(var5);
         var5 = var5.ImpressionNames;
         var5 = var5.USER_WELCOME;
         var3['impressionName'] = var5;
@@ -430,17 +430,17 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.REGISTER_IDENTITY;
+        var1[var6] = var3;
+        var6 = var2.REGISTER_IDENTITY;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
-        var12 = var9[var6];
-        var12 = var8.bind(var7)(var12);
+        var12 = var10[var7];
+        var12 = var9.bind(var8)(var12);
         var12 = var12.ImpressionNames;
         var12 = var12.USER_REGISTRATION;
         var3['impressionName'] = var12;
         var12 = {};
-        var14 = var9[var6];
-        var14 = var8.bind(var7)(var14);
+        var14 = var10[var7];
+        var14 = var9.bind(var8)(var14);
         var14 = var14.ImpressionGroups;
         var14 = var14.USER_REGISTRATION_FLOW;
         var12['impression_group'] = var14;
@@ -486,17 +486,17 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.REGISTER_DISPLAY_NAME;
+        var1[var6] = var3;
+        var6 = var2.REGISTER_DISPLAY_NAME;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
-        var12 = var9[var6];
-        var12 = var8.bind(var7)(var12);
+        var12 = var10[var7];
+        var12 = var9.bind(var8)(var12);
         var12 = var12.ImpressionNames;
         var12 = var12.USER_REGISTRATION;
         var3['impressionName'] = var12;
         var12 = {};
-        var14 = var9[var6];
-        var14 = var8.bind(var7)(var14);
+        var14 = var10[var7];
+        var14 = var9.bind(var8)(var14);
         var14 = var14.ImpressionGroups;
         var14 = var14.USER_REGISTRATION_FLOW;
         var12['impression_group'] = var14;
@@ -540,17 +540,17 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.REGISTER_ACCOUNT_INFORMATION;
+        var1[var6] = var3;
+        var6 = var2.REGISTER_ACCOUNT_INFORMATION;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
-        var12 = var9[var6];
-        var12 = var8.bind(var7)(var12);
+        var12 = var10[var7];
+        var12 = var9.bind(var8)(var12);
         var12 = var12.ImpressionNames;
         var12 = var12.USER_REGISTRATION;
         var3['impressionName'] = var12;
         var12 = {};
-        var14 = var9[var6];
-        var14 = var8.bind(var7)(var14);
+        var14 = var10[var7];
+        var14 = var9.bind(var8)(var14);
         var14 = var14.ImpressionGroups;
         var14 = var14.USER_REGISTRATION_FLOW;
         var12['impression_group'] = var14;
@@ -594,18 +594,18 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.VERIFY_PHONE;
+        var1[var6] = var3;
+        var6 = var2.VERIFY_PHONE;
         var3 = {};
         var3['ignoreKeyboard'] = var11;
-        var12 = var9[var6];
-        var12 = var8.bind(var7)(var12);
+        var12 = var10[var7];
+        var12 = var9.bind(var8)(var12);
         var12 = var12.ImpressionNames;
         var12 = var12.USER_VERIFY_PHONE;
         var3['impressionName'] = var12;
         var12 = {};
-        var13 = var9[var6];
-        var13 = var8.bind(var7)(var13);
+        var13 = var10[var7];
+        var13 = var9.bind(var8)(var13);
         var13 = var13.ImpressionGroups;
         var13 = var13.USER_REGISTRATION_FLOW;
         var12['impression_group'] = var13;
@@ -648,17 +648,17 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.LOGIN;
+        var1[var6] = var3;
+        var6 = var2.LOGIN;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
-        var12 = var9[var6];
-        var12 = var8.bind(var7)(var12);
+        var12 = var10[var7];
+        var12 = var9.bind(var8)(var12);
         var12 = var12.ImpressionNames;
         var12 = var12.USER_LOGIN;
         var3['impressionName'] = var12;
         var12 = {};
-        var13 = var9[var6];
-        var13 = var8.bind(var7)(var13);
+        var13 = var10[var7];
+        var13 = var9.bind(var8)(var13);
         var13 = var13.ImpressionGroups;
         var13 = var13.USER_LOGIN_FLOW;
         var12['impression_group'] = var13;
@@ -677,8 +677,8 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.MFA;
+        var1[var6] = var3;
+        var6 = var2.MFA;
         var3 = {'fullscreen': true, 'ignoreKeyboard': true, 'headerTitle': null, 'headerShown': false};
         var3['headerTitle'] = var5;
         var12 = function render() {
@@ -696,8 +696,8 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.ACCOUNT_DISABLED_OR_DELETION_SCHEDULED;
+        var1[var6] = var3;
+        var6 = var2.ACCOUNT_DISABLED_OR_DELETION_SCHEDULED;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
         var3['headerTitle'] = var5;
         var12 = function render(arg1) {
@@ -716,8 +716,8 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.COUNTRY_SELECT;
+        var1[var6] = var3;
+        var6 = var2.COUNTRY_SELECT;
         var3 = {};
         var3['ignoreKeyboard'] = var11;
         var3['headerTitle'] = var5;
@@ -756,8 +756,8 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var10] = var3;
-        var10 = var2.EXTERNAL_LINK;
+        var1[var6] = var3;
+        var6 = var2.EXTERNAL_LINK;
         var3 = {};
         var3['ignoreKeyboard'] = var11;
         var3['headerTitle'] = var5;
@@ -777,11 +777,11 @@ case 32:
             return var1;
         };
         var3['render'] = var11;
-        var1[var10] = var3;
-        var10 = var2.AGE_GATE;
+        var1[var6] = var3;
+        var6 = var2.AGE_GATE;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
-        var11 = var9[var6];
-        var11 = var8.bind(var7)(var11);
+        var11 = var10[var7];
+        var11 = var9.bind(var8)(var11);
         var11 = var11.ImpressionNames;
         var11 = var11.USER_AGE_GATE;
         var3['impressionName'] = var11;
@@ -822,15 +822,15 @@ case 32:
             return var1;
         };
         var3['render'] = var11;
-        var1[var10] = var3;
-        var3 = var2.AGE_GATE_UNDERAGE;
-        var2 = {'ignoreKeyboard': true, 'fullscreen': true};
-        var6 = var9[var6];
-        var6 = var8.bind(var7)(var6);
-        var6 = var6.ImpressionNames;
-        var6 = var6.USER_AGE_GATE_UNDERAGE;
-        var2['impressionName'] = var6;
-        var6 = function impressionProperties(arg1) {
+        var1[var6] = var3;
+        var6 = var2.AGE_GATE_UNDERAGE;
+        var3 = {'ignoreKeyboard': true, 'fullscreen': true};
+        var7 = var10[var7];
+        var7 = var9.bind(var8)(var7);
+        var7 = var7.ImpressionNames;
+        var7 = var7.USER_AGE_GATE_UNDERAGE;
+        var3['impressionName'] = var7;
+        var7 = function impressionProperties(arg1) {
             var1 = arg1;
             var2 = var1.existingUser;
             var1 = {};
@@ -846,9 +846,9 @@ case 32:
             var1['existing_user'] = var2;
             return var1;
         };
-        var2['impressionProperties'] = var6;
-        var2['headerTitle'] = var5;
-        var4 = function render(arg1, arg2) {
+        var3['impressionProperties'] = var7;
+        var3['headerTitle'] = var5;
+        var7 = function render(arg1, arg2) {
             var1 = arg2;
             var _closure3_slot0 = var1;
             var4 = _closure1_slot15;
@@ -869,6 +869,24 @@ case 32:
             var6 = arg1;
             var7 = var1;
             var5 = copyDataProperties(var7, var6);
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var3['render'] = var7;
+        var1[var6] = var3;
+        var3 = var2.COMPANION_REMOTE_AUTH;
+        var2 = {'ignoreKeyboard': true, 'fullscreen': true};
+        var2['headerTitle'] = var5;
+        var4 = function render() {
+            var4 = _closure1_slot15;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 23;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.CompanionRemoteAuth;
+            var1 = {};
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };

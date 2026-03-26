@@ -1078,14 +1078,14 @@ case 0:
                             var4 = 0;
                             var3 = var4 < var1;
                             var1 = undefined;
-                            if(!var3) { _fun0009_ip = 35; continue _fun0009 }
-case 5:
+                            if(!var3) { _fun0009_ip = 146; continue _fun0009 }
+case 147:
                             var3 = var5[var4];
                             var3 = var6.bind(var1)(var3);
                             var4 = var4 + 1;
                             var3 = var5.length;
-                            if(var4 < var3) { _fun0009_ip = 5; continue _fun0009 }
-case 35:
+                            if(var4 < var3) { _fun0009_ip = 147; continue _fun0009 }
+case 146:
                             var7 = _closure1_slot23;
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
@@ -1121,10 +1121,10 @@ case 35:
                     SaveGenerator(address=384);
 case 65:
                     return var8;
-case 146:
-                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=11);
-                    if(var12) { _fun0008_ip = 147; continue _fun0008 }
 case 148:
+                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=11);
+                    if(var12) { _fun0008_ip = 149; continue _fun0008 }
+case 150:
                     var13 = var10.Promise;
                     var12 = var13.prototype;
                     var12 = Object.create(var12, {constructor: {value: var13}});
@@ -1139,19 +1139,19 @@ case 148:
                     var9 = new var23[var13](var22, var21);
                     var9 = var9 instanceof Object ? var9 : var12;
                     SaveGenerator(address=430);
-case 149:
+case 151:
                     return var9;
-case 150:
-                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
-                    if(var12) { _fun0008_ip = 151; continue _fun0008 }
 case 152:
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
+                    if(var12) { _fun0008_ip = 153; continue _fun0008 }
+case 154:
                     var12 = _closure1_slot8;
                     var11 = var12.getId;
                     var15 = var11.bind(var12)();
-                    if(!(var15 === var16)) { _fun0008_ip = 153; continue _fun0008 }
-case 154:
+                    if(!(var15 === var16)) { _fun0008_ip = 155; continue _fun0008 }
+case 156:
                     return var8;
-case 153:
+case 155:
                     var12 = var10.Error;
                     var10 = var10.HermesInternal;
                     var14 = var10.concat;
@@ -1168,9 +1168,9 @@ case 153:
                     var10 = new var23[var12](var22, var21);
                     var10 = var10 instanceof Object ? var10 : var11;
                     throw var10;
-case 151:
+case 153:
                     return var9;
-case 147:
+case 149:
                     return var8;
 case 145:
                     return var2;
@@ -1370,7 +1370,7 @@ case 0:
             var2 = null;
             var6 = var2 == var6;
             var2 = undefined;
-            if(var6) { _fun0010_ip = 155; continue _fun0010 }
+            if(var6) { _fun0010_ip = 157; continue _fun0010 }
 case 93:
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -1378,7 +1378,7 @@ case 93:
             var6 = var6.bind(var1)(var3);
             var3 = var6.requestReport;
             var2 = var3.bind(var6)();
-case 155:
+case 157:
             var4['report'] = var2;
             var3 = 'success';
             var2 = 'dump-jank-stats';
@@ -1505,8 +1505,8 @@ case 0:
                 StartGenerator();
                 var6 = arg1;
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                if(var7) { _fun0013_ip = 156; continue _fun0013 }
-case 157:
+                if(var7) { _fun0013_ip = 158; continue _fun0013 }
+case 159:
                 var7 = undefined;
                 var2 = undefined;
                 var16 = undefined;
@@ -1599,7 +1599,7 @@ case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0014_ip = 37; continue _fun0014 }
-case 158:
+case 160:
                             var2 = undefined;
                             return var2;
 case 37:
@@ -1612,10 +1612,10 @@ case 37:
                 var8 = var10.constructor;
                 var9 = {};
                 var10 = null;
-                if(!(var10 == var15)) { _fun0013_ip = 159; continue _fun0013 }
-case 160:
+                if(!(var10 == var15)) { _fun0013_ip = 161; continue _fun0013 }
+case 162:
                 var15 = {};
-case 159:
+case 161:
                 var10 = global;
                 var14 = var10.Object;
                 var13 = var14.keys;
@@ -1629,7 +1629,7 @@ case 159:
                 var14 = var10.Object;
                 var13 = var14.values;
                 var11 = var13.bind(var14)(var15);
-case 161: // try_start_0 // try_start_1
+case 163: // try_start_0 // try_start_1
                 var14 = var3;
                 var3 = new Array(2);
                 var23 = var3;
@@ -1667,21 +1667,21 @@ case 161: // try_start_0 // try_start_1
                 var21 = undefined;
                 var5 = apply(var23, var22, var21);
                 SaveGenerator(address=611);
-case 162:
+case 164:
                 return var5;
-case 163:
-                ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                if(var8) { _fun0013_ip = 164; continue _fun0013 }
 case 165:
+                ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
+                if(var8) { _fun0013_ip = 166; continue _fun0013 }
+case 167:
                 var3['result'] = var5;
-case 166: // try_end0
-                _fun0013_ip = 167; continue _fun0013;
-case 164: // try_end1
+case 168: // try_end0
+                _fun0013_ip = 169; continue _fun0013;
+case 166: // try_end1
                 var3 = var2;
                 var8 = 'string';
                 var3 = typeof var3;
-                if(!(var8 === var3)) { _fun0013_ip = 168; continue _fun0013 }
-case 169:
+                if(!(var8 === var3)) { _fun0013_ip = 170; continue _fun0013 }
+case 171:
                 var11 = var10.fetch;
                 var8 = var2;
                 var3 = {};
@@ -1698,17 +1698,17 @@ case 169:
                 var3['headers'] = var12;
                 var3 = var11.bind(var7)(var8, var3);
                 SaveGenerator(address=717);
-case 170:
+case 172:
                 return var3;
-case 171:
-                ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                if(var8) { _fun0013_ip = 172; continue _fun0013 }
 case 173:
+                ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
+                if(var8) { _fun0013_ip = 174; continue _fun0013 }
+case 175:
                 var4 = var3;
                 var8 = var3.ok;
                 var12 = _closure1_slot16;
-                if(var8) { _fun0013_ip = 174; continue _fun0013 }
-case 175:
+                if(var8) { _fun0013_ip = 176; continue _fun0013 }
+case 177:
                 var13 = {};
                 var8 = var4;
                 var8 = var8.status;
@@ -1716,16 +1716,16 @@ case 175:
                 var11 = 'error';
                 var8 = 'Failed to send backchannel reply';
                 var8 = var12.bind(var7)(var11, var8, var13);
-                _fun0013_ip = 168; continue _fun0013;
-case 174:
+                _fun0013_ip = 170; continue _fun0013;
+case 176:
                 var11 = 'success';
                 var8 = 'Backchannel reply sent';
                 var8 = var12.bind(var7)(var11, var8);
-case 168:
+case 170:
                 return var5;
-case 172:
+case 174:
                 return var3;
-case 176: // try_start_2 // catch_target0
+case 178: // try_start_2 // catch_target0
                 CatchBlockStart(arg_register=10);
                 var5 = var9;
                 var3 = {};
@@ -1736,12 +1736,12 @@ case 176: // try_start_2 // catch_target0
                 var8 = var8.bind(var7)(var11);
                 var3['string'] = var8;
                 var5['error'] = var3;
-case 167: // try_end2
+case 169: // try_end2
                 var3 = var2;
                 var5 = 'string';
                 var3 = typeof var3;
-                if(!(var5 === var3)) { _fun0013_ip = 177; continue _fun0013 }
-case 178:
+                if(!(var5 === var3)) { _fun0013_ip = 179; continue _fun0013 }
+case 180:
                 var8 = var10.fetch;
                 var5 = var2;
                 var3 = {};
@@ -1758,17 +1758,17 @@ case 178:
                 var3['headers'] = var11;
                 var3 = var8.bind(var7)(var5, var3);
                 SaveGenerator(address=925);
-case 179:
+case 181:
                 return var3;
-case 180:
-                ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                if(var5) { _fun0013_ip = 181; continue _fun0013 }
 case 182:
+                ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                if(var5) { _fun0013_ip = 183; continue _fun0013 }
+case 184:
                 var4 = var3;
                 var5 = var3.ok;
                 var11 = _closure1_slot16;
-                if(var5) { _fun0013_ip = 183; continue _fun0013 }
-case 184:
+                if(var5) { _fun0013_ip = 185; continue _fun0013 }
+case 186:
                 var12 = {};
                 var5 = var4;
                 var5 = var5.status;
@@ -1776,22 +1776,22 @@ case 184:
                 var8 = 'error';
                 var5 = 'Failed to send backchannel reply';
                 var5 = var11.bind(var7)(var8, var5, var12);
-                _fun0013_ip = 177; continue _fun0013;
-case 183:
+                _fun0013_ip = 179; continue _fun0013;
+case 185:
                 var8 = 'success';
                 var5 = 'Backchannel reply sent';
                 var5 = var11.bind(var7)(var8, var5);
-case 177:
+case 179:
                 return var7;
-case 181:
+case 183:
                 return var3;
-case 185: // catch_target1 // catch_target2
+case 187: // catch_target1 // catch_target2
                 CatchBlockStart(arg_register=2);
                 var5 = var2;
                 var8 = 'string';
                 var5 = typeof var5;
-                if(!(var8 === var5)) { _fun0013_ip = 186; continue _fun0013 }
-case 187:
+                if(!(var8 === var5)) { _fun0013_ip = 188; continue _fun0013 }
+case 189:
                 var8 = var10.fetch;
                 var5 = var2;
                 var2 = {};
@@ -1807,33 +1807,33 @@ case 187:
                 var2['headers'] = var9;
                 var2 = var8.bind(var7)(var5, var2);
                 SaveGenerator(address=1090);
-case 188:
+case 190:
                 return var2;
-case 189:
-                ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                if(var5) { _fun0013_ip = 190; continue _fun0013 }
 case 191:
+                ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                if(var5) { _fun0013_ip = 192; continue _fun0013 }
+case 193:
                 var4 = var2;
                 var5 = var2.ok;
                 var6 = _closure1_slot16;
-                if(var5) { _fun0013_ip = 192; continue _fun0013 }
-case 193:
+                if(var5) { _fun0013_ip = 194; continue _fun0013 }
+case 195:
                 var8 = {};
                 var4 = var4.status;
                 var8['status'] = var4;
                 var5 = 'error';
                 var4 = 'Failed to send backchannel reply';
                 var4 = var6.bind(var7)(var5, var4, var8);
-                _fun0013_ip = 186; continue _fun0013;
-case 192:
+                _fun0013_ip = 188; continue _fun0013;
+case 194:
                 var5 = 'success';
                 var4 = 'Backchannel reply sent';
                 var4 = var6.bind(var7)(var5, var4);
-case 186:
+case 188:
                 throw var3;
-case 190:
+case 192:
                 return var2;
-case 156:
+case 158:
                 return var1;
             }
         };
@@ -1862,8 +1862,8 @@ case 156:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0015_ip = 194; continue _fun0015 }
-case 195:
+                    if(var2) { _fun0015_ip = 196; continue _fun0015 }
+case 197:
                     var3 = global;
                     var5 = var3.TextDecoder;
                     var2 = var5.prototype;
@@ -1897,10 +1897,10 @@ case 195:
                     var9 = null;
                     var10 = var9 == var10;
                     var9 = 'redacted';
-                    if(!var10) { _fun0015_ip = 196; continue _fun0015 }
+                    if(!var10) { _fun0015_ip = 198; continue _fun0015 }
 case 15:
                     var9 = undefined;
-case 196:
+case 198:
                     var2 = 'user';
                     var5[var2] = var9;
                     var2 = 'Received TTI Test Action';
@@ -1908,12 +1908,12 @@ case 196:
                     var2 = _closure1_slot5;
                     var2 = var2.promise;
                     SaveGenerator(address=195);
-case 197:
+case 199:
                     return var2;
 case 20:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0015_ip = 198; continue _fun0015 }
-case 199:
+                    if(var5) { _fun0015_ip = 200; continue _fun0015 }
+case 201:
                     var5 = _closure1_slot13;
                     var4 = var6.type;
                     var4 = var5[var4];
@@ -1922,9 +1922,9 @@ case 199:
                     var3 = var4.resolve;
                     var3 = var3.bind(var4)();
                     return var3;
-case 198:
+case 200:
                     return var2;
-case 194:
+case 196:
                     return var1;
                 }
             };

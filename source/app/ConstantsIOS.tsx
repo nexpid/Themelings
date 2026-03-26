@@ -58,6 +58,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var24['COUNTRY_SELECT'] = var2;
     var2 = 'EXTERNAL_LINK';
     var24['EXTERNAL_LINK'] = var2;
+    var2 = 'COMPANION_REMOTE_AUTH';
+    var24['COMPANION_REMOTE_AUTH'] = var2;
     var23 = {};
     var2 = 'default';
     var23['DEFAULT'] = var2;
@@ -201,8 +203,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15['MOBILE_NATIVE_UPDATE'] = var4;
     var4 = 'shop';
     var15['SHOP'] = var4;
-    var4 = 'apple-payment-link';
-    var15['APPLE_PAYMENT_LINK'] = var4;
+    var4 = 'mobile-web-redirect-checkout';
+    var15['MOBILE_WEB_REDIRECT_CHECKOUT'] = var4;
     var4 = 'authorized-apps';
     var15['AUTHORIZED_APPS'] = var4;
     var4 = 'dave-protocol-verification';

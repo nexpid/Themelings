@@ -222,38 +222,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var9.GUILD_TAGS_BADGE_PACK_PLANT;
     var10 = {};
     var10['boostPrice'] = var8;
-    var12 = function isEnabled(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 6;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.getGuildTagBadgePacksWaveTwoExperimentEnabled;
-        var2 = arg1;
-        var1 = 'GuildPowerupsConstants';
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var10['isEnabled'] = var12;
     var14[var11] = var10;
     var11 = var9.GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES;
     var10 = {};
     var10['boostPrice'] = var5;
-    var12 = function isEnabled(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 6;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.getGuildTagBadgePacksWaveTwoExperimentEnabled;
-        var2 = arg1;
-        var1 = 'GuildPowerupsConstants';
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var10['isEnabled'] = var12;
     var14[var11] = var10;
     var13 = {};
     var10 = var9.GAME_SERVERS;
@@ -262,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = function isEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 7;
+        var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -410,7 +382,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['HALF'] = var24;
     var24 = 'none';
     var2['NONE'] = var24;
-    var24 = 8;
+    var24 = 7;
     var24 = var26[var24];
     var26 = var25.bind(var1)(var24);
     var25 = var26.fileFinishedImporting;

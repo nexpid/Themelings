@@ -439,13 +439,15 @@ case 13:
                 var6 = var6.bind(var7)();
                 if(!var6) { _fun0009_ip = 28; continue _fun0009 }
 case 27:
-                var6 = _closure1_slot0;
+                var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 8;
                 var5 = var7[var5];
                 var7 = var6.bind(var3)(var5);
-                var6 = var7.getMobileGLTRExperimentConfig;
-                var5 = 'GoLiveQualityManager';
+                var6 = var7.getConfig;
+                var5 = {};
+                var8 = 'GoLiveQualityManager';
+                var5['location'] = var8;
                 var5 = var6.bind(var7)(var5);
                 var5 = var5.enabled;
                 if(var5) { _fun0009_ip = 28; continue _fun0009 }

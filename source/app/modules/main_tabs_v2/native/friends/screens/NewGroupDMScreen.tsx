@@ -1245,7 +1245,7 @@ case 0:
                             if(var2) { _fun0014_ip = 116; continue _fun0014 }
 case 3:
                             var2 = _closure2_slot15;
-                            if(var2) { _fun0014_ip = 117; continue _fun0014 }
+                            if(var2) { _fun0014_ip = 37; continue _fun0014 }
 case 72:
                             var4 = _closure2_slot16;
                             var5 = undefined;
@@ -1264,13 +1264,13 @@ case 72:
                             SaveGenerator(address=89);
 case 73:
                             return var2;
-case 118:
+case 117:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0014_ip = 119; continue _fun0014 }
-case 120:
+                            if(var6) { _fun0014_ip = 45; continue _fun0014 }
+case 118:
                             var6 = null;
-                            if(!(var6 != var2)) { _fun0014_ip = 121; continue _fun0014 }
-case 122:
+                            if(!(var6 != var2)) { _fun0014_ip = 119; continue _fun0014 }
+case 120:
                             var6 = {};
                             var7 = _closure2_slot4;
                             var6['channel'] = var7;
@@ -1303,14 +1303,14 @@ case 122:
                             var6['location'] = var4;
                             var4 = arg1;
                             var4 = var4.bind(var5)(var6);
-case 121:
+case 119:
                             var4 = _closure2_slot16;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
-                            _fun0014_ip = 117; continue _fun0014;
-case 119:
+                            _fun0014_ip = 37; continue _fun0014;
+case 45:
                             return var2;
-case 117:
+case 37:
                             var2 = undefined;
                             return var2;
 case 116:
@@ -1341,8 +1341,8 @@ case 116:
 case 114:
             var5[1] = var6;
             var6 = null;
-            if(!var7) { _fun0004_ip = 123; continue _fun0004 }
-case 124:
+            if(!var7) { _fun0004_ip = 121; continue _fun0004 }
+case 122:
             var17 = _closure1_slot17;
             var8 = _closure1_slot7;
             var7 = {};
@@ -1373,7 +1373,7 @@ case 124:
             var18 = var17.bind(var4)(var19, var18);
             var7['children'] = var18;
             var6 = var17.bind(var4)(var8, var7);
-case 123:
+case 121:
             var5[2] = var6;
             var8 = _closure1_slot17;
             var7 = _closure1_slot1;

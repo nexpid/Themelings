@@ -2028,70 +2028,38 @@ case 98:
             var9 = _closure1_slot4;
             var8 = var9.useCallback;
             var7 = function() {
-                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
-case 0:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 50;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.getRootNavigationRef;
-                    var4 = var3.bind(var4)();
-                    var3 = null;
-                    if(!(var3 != var4)) { _fun0018_ip = 122; continue _fun0018 }
-case 96:
-                    var3 = var4.isReady;
-                    var3 = var3.bind(var4)();
-                    if(!var3) { _fun0018_ip = 122; continue _fun0018 }
-case 98:
-                    var5 = _closure1_slot10;
-                    var3 = var5.setState;
-                    var2 = {'query': '', 'isActive': false};
-                    var2 = var3.bind(var5)(var2);
-                    var3 = var4.navigate;
-                    var2 = 'settings';
-                    var2 = var3.bind(var4)(var2);
-                    return var1;
-case 122:
-                    var1 = false;
-                    return var1;
-                }
+                var4 = _closure1_slot10;
+                var3 = var4.setState;
+                var2 = {'query': '', 'isActive': false};
+                var2 = var3.bind(var4)(var2);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 61;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.openUserSettings;
+                var2 = var2.bind(var3)();
+                return var1;
             };
             var4 = new Array(0);
             var12 = var8.bind(var9)(var7, var4);
             var9 = _closure1_slot4;
             var8 = var9.useCallback;
             var7 = function() {
-                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
-case 0:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 50;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.getRootNavigationRef;
-                    var5 = var3.bind(var4)();
-                    var3 = null;
-                    if(!(var3 != var5)) { _fun0019_ip = 123; continue _fun0019 }
-case 96:
-                    var3 = var5.isReady;
-                    var3 = var3.bind(var5)();
-                    if(!var3) { _fun0019_ip = 123; continue _fun0019 }
-case 98:
-                    var4 = var5.navigate;
-                    var3 = {};
-                    var2 = _closure1_slot20;
-                    var2 = var2.PREMIUM;
-                    var3['screen'] = var2;
-                    var2 = 'settings';
-                    var2 = var4.bind(var5)(var2, var3);
-                    return var1;
-case 123:
-                    var1 = false;
-                    return var1;
-                }
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 61;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openUserSettings;
+                var2 = {};
+                var5 = _closure1_slot20;
+                var5 = var5.PREMIUM;
+                var2['screen'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
             var4 = new Array(0);
             var11 = var8.bind(var9)(var7, var4);
@@ -2100,14 +2068,14 @@ case 123:
             var7 = function() {
                 var3 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 61;
+                var1 = 62;
                 var2 = var8[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openCollectiblesShopMobile;
                 var2 = {};
                 var7 = _closure1_slot1;
-                var6 = 62;
+                var6 = 63;
                 var9 = var8[var6];
                 var9 = var7.bind(var1)(var9);
                 var9 = var9.YOU_SCREEN;
@@ -2129,39 +2097,23 @@ case 123:
             var10 = _closure1_slot4;
             var9 = var10.useCallback;
             var8 = function(arg1) {
-                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
-case 0:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 50;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.getRootNavigationRef;
-                    var5 = var3.bind(var4)();
-                    var3 = null;
-                    if(!(var3 != var5)) { _fun0020_ip = 124; continue _fun0020 }
-case 96:
-                    var3 = var5.isReady;
-                    var3 = var3.bind(var5)();
-                    if(!var3) { _fun0020_ip = 124; continue _fun0020 }
-case 98:
-                    var4 = var5.navigate;
-                    var3 = {};
-                    var2 = _closure1_slot20;
-                    var2 = var2.PROFILE_CUSTOMIZATION;
-                    var3['screen'] = var2;
-                    var2 = {};
-                    var6 = arg1;
-                    var2['autoFocusElement'] = var6;
-                    var3['params'] = var2;
-                    var2 = 'settings';
-                    var2 = var4.bind(var5)(var2, var3);
-                    return var1;
-case 124:
-                    var1 = false;
-                    return var1;
-                }
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 61;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openUserSettings;
+                var2 = {};
+                var5 = _closure1_slot20;
+                var5 = var5.PROFILE_CUSTOMIZATION;
+                var2['screen'] = var5;
+                var5 = {};
+                var6 = arg1;
+                var5['autoFocusElement'] = var6;
+                var2['params'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
             var4 = new Array(0);
             var10 = var9.bind(var10)(var8, var4);
@@ -2170,14 +2122,14 @@ case 124:
             var8 = function() {
                 var3 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 63;
+                var1 = 64;
                 var2 = var7[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openEditCustomStatusModal;
                 var2 = {};
                 var6 = _closure1_slot1;
-                var5 = 62;
+                var5 = 63;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var6 = var5.YOU_SCREEN;
@@ -2192,7 +2144,7 @@ case 124:
             var14 = _closure1_slot4;
             var8 = var14.useCallback;
             var4 = function() {
-                _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -2203,11 +2155,11 @@ case 0:
                     var2 = var3.getRootNavigationRef;
                     var4 = var2.bind(var3)();
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0021_ip = 97; continue _fun0021 }
+                    if(!(var2 != var4)) { _fun0018_ip = 97; continue _fun0018 }
 case 96:
                     var2 = var4.isReady;
                     var2 = var2.bind(var4)();
-                    if(!var2) { _fun0021_ip = 97; continue _fun0021 }
+                    if(!var2) { _fun0018_ip = 97; continue _fun0018 }
 case 98:
                     var3 = var4.navigate;
                     var2 = 'friends';
@@ -2222,8 +2174,8 @@ case 97:
             var8 = var8.bind(var14)(var4, var3);
             var3 = var1 == var13;
             var1 = null;
-            if(var3) { _fun0014_ip = 125; continue _fun0014 }
-case 126:
+            if(var3) { _fun0014_ip = 122; continue _fun0014 }
+case 123:
             var4 = _closure1_slot23;
             var3 = _closure1_slot37;
             var2 = {};
@@ -2236,13 +2188,13 @@ case 126:
             var2['navigateToShop'] = var7;
             var2['initialTab'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 125:
+case 122:
             return var1;
         }
     };
     var5 = var8.bind(var9)(var5);
     var _closure1_slot36 = var5;
-    var5 = 66;
+    var5 = 67;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -2254,35 +2206,19 @@ case 125:
         var6 = _closure1_slot4;
         var4 = var6.useCallback;
         var3 = function() {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
-case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 50;
-                var3 = var3[var1];
-                var1 = undefined;
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.getRootNavigationRef;
-                var4 = var3.bind(var4)();
-                var3 = null;
-                if(!(var3 != var4)) { _fun0022_ip = 122; continue _fun0022 }
-case 96:
-                var3 = var4.isReady;
-                var3 = var3.bind(var4)();
-                if(!var3) { _fun0022_ip = 122; continue _fun0022 }
-case 98:
-                var5 = _closure1_slot10;
-                var3 = var5.setState;
-                var2 = {'query': '', 'isActive': false};
-                var2 = var3.bind(var5)(var2);
-                var3 = var4.navigate;
-                var2 = 'settings';
-                var2 = var3.bind(var4)(var2);
-                return var1;
-case 122:
-                var1 = false;
-                return var1;
-            }
+            var4 = _closure1_slot10;
+            var3 = var4.setState;
+            var2 = {'query': '', 'isActive': false};
+            var2 = var3.bind(var4)(var2);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 61;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.openUserSettings;
+            var2 = var2.bind(var3)();
+            return var1;
         };
         var2 = new Array(0);
         var2 = var4.bind(var6)(var3, var2);
@@ -2292,7 +2228,7 @@ case 122:
         var3 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 64;
+            var1 = 65;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
@@ -2304,7 +2240,7 @@ case 122:
         var2 = var4.bind(var6)(var3, var2);
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var2 = 65;
+        var2 = 66;
         var2 = var4[var2];
         var4 = undefined;
         var6 = var3.bind(var4)(var2);

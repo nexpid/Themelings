@@ -441,7 +441,7 @@ case 25:
                         var9 = var10 + var9;
                         var3['location_stack'] = var8;
                         var7 = _closure1_slot23;
-                        var7 = var7.APPLE_PAYMENT_LINK;
+                        var7 = var7.MOBILE_WEB_REDIRECT_CHECKOUT;
                         var3['custom_checkout_flow'] = var7;
                         var3 = var5.bind(var6)(var4, var3);
                         var3 = _closure2_slot5;

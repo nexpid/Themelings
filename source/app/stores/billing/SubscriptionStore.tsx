@@ -36,13 +36,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot23 = var2;
+            _closure1_slot22 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot22 = var1;
     var1 = function getUpdatedActiveSubscriptions(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -68,7 +68,7 @@ case 7:
             var10 = var1;
             var9 = var3;
             var5 = arraySpread(var10, var9, var8);
-            var7 = _closure1_slot25;
+            var7 = _closure1_slot24;
             var6 = undefined;
             var6 = var7.bind(var6)(var2);
             if(!var6) { _fun0002_ip = 8; continue _fun0002 }
@@ -96,21 +96,21 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot23 = var1;
     var5 = function reset() {
         var1 = null;
+        _closure1_slot10 = var1;
         _closure1_slot11 = var1;
         _closure1_slot12 = var1;
         _closure1_slot13 = var1;
         _closure1_slot14 = var1;
-        _closure1_slot15 = var1;
         var3 = false;
-        _closure1_slot16 = var3;
-        _closure1_slot17 = var1;
+        _closure1_slot15 = var3;
+        _closure1_slot16 = var1;
+        _closure1_slot17 = var3;
         _closure1_slot18 = var3;
-        _closure1_slot19 = var3;
-        _closure1_slot21 = var3;
-        _closure1_slot22 = var1;
+        _closure1_slot20 = var3;
+        _closure1_slot21 = var1;
         var1 = undefined;
         return var1;
     };
@@ -122,7 +122,7 @@ case 6:
         var1 = var2 !== var1;
         return var1;
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot24 = var1;
     var2 = function getSubscriptionOfType(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -136,10 +136,10 @@ case 13:
 case 12:
             if(var1) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot10;
             _fun0003_ip = 16; continue _fun0003;
 case 14:
-            var9 = _closure1_slot12;
+            var9 = _closure1_slot11;
 case 16:
             var1 = null;
             if(!(var1 != var9)) { _fun0003_ip = 10; continue _fun0003 }
@@ -175,7 +175,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot26 = var2;
+    var _closure1_slot25 = var2;
     var1 = global;
     var11 = var1.Object;
     var9 = var11.defineProperty;
@@ -226,26 +226,21 @@ case 10:
     var _closure1_slot8 = var9;
     var4 = var4.SubscriptionTypes;
     var _closure1_slot9 = var4;
-    var4 = 9;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.REVERSE_TRIAL_IDS;
-    var _closure1_slot10 = var4;
     var4 = null;
+    var _closure1_slot10 = var4;
     var _closure1_slot11 = var4;
     var _closure1_slot12 = var4;
     var _closure1_slot13 = var4;
     var _closure1_slot14 = var4;
-    var _closure1_slot15 = var4;
     var9 = false;
-    var _closure1_slot16 = var9;
-    var _closure1_slot17 = var4;
+    var _closure1_slot15 = var9;
+    var _closure1_slot16 = var4;
+    var _closure1_slot17 = var9;
     var _closure1_slot18 = var9;
-    var _closure1_slot19 = var9;
-    var _closure1_slot20 = var4;
-    var _closure1_slot21 = var9;
-    var _closure1_slot22 = var4;
-    var4 = 10;
+    var _closure1_slot19 = var4;
+    var _closure1_slot20 = var9;
+    var _closure1_slot21 = var4;
+    var4 = 9;
     var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
     var9 = var4.Store;
@@ -262,7 +257,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot23;
+                var1 = _closure1_slot22;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
@@ -303,13 +298,13 @@ case 28:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(19);
+        var1 = new Array(18);
         var1[0] = var5;
         var5 = {};
         var7 = 'hasFetchedSubscriptions';
         var5['key'] = var7;
         var7 = function value() {
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot10;
             var1 = null;
             var1 = var1 != var2;
             return var1;
@@ -320,7 +315,7 @@ case 28:
         var7 = 'hasFetchedMostRecentPremiumTypeSubscription';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot15;
             return var1;
         };
         var5['value'] = var7;
@@ -329,7 +324,7 @@ case 28:
         var7 = 'hasFetchedPreviousPremiumTypeSubscription';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot17;
             return var1;
         };
         var5['value'] = var7;
@@ -346,7 +341,7 @@ case 0:
 case 30:
                 var5 = true;
 case 29:
-                var3 = _closure1_slot26;
+                var3 = _closure1_slot25;
                 var1 = _closure1_slot9;
                 var2 = var1.PREMIUM;
                 var1 = function(arg1) {
@@ -376,7 +371,7 @@ case 0:
 case 30:
                 var4 = true;
 case 29:
-                var2 = _closure1_slot26;
+                var2 = _closure1_slot25;
                 var1 = _closure1_slot9;
                 var1 = var1.PREMIUM;
                 var1 = var2.bind(var3)(var1, var3, var4);
@@ -386,39 +381,23 @@ case 29:
         var5['value'] = var7;
         var1[5] = var5;
         var5 = {};
-        var7 = 'inReverseTrial';
+        var7 = 'getSubscriptions';
         var5['key'] = var7;
         var7 = function value() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                var5 = _closure1_slot26;
-                var1 = _closure1_slot9;
-                var4 = var1.PREMIUM;
+                var1 = arguments[0];
                 var2 = undefined;
+                if(!(var1 === var2)) { _fun0007_ip = 29; continue _fun0007 }
+case 30:
                 var1 = true;
-                var4 = var5.bind(var2)(var4, var2, var1);
-                var5 = null;
-                var1 = var5 != var4;
-                if(!var1) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
-                var2 = var4.trialId;
-                var2 = var5 != var2;
-                if(!var2) { _fun0007_ip = 33; continue _fun0007 }
-case 18:
-                var7 = _closure1_slot10;
-                var6 = var7.includes;
-                var3 = var4.trialId;
-                var3 = var6.bind(var7)(var3);
-                var6 = !var3;
-                var3 = !var6;
-                if(var6) { _fun0007_ip = 21; continue _fun0007 }
-case 34:
-                var4 = var4.paymentSourceId;
-                var3 = var5 == var4;
-case 21:
-                var2 = var3;
-case 33:
-                var1 = var2;
+case 29:
+                if(var1) { _fun0007_ip = 15; continue _fun0007 }
+case 12:
+                var1 = _closure1_slot10;
+                _fun0007_ip = 31; continue _fun0007;
+case 15:
+                var1 = _closure1_slot11;
 case 31:
                 return var1;
             }
@@ -426,57 +405,42 @@ case 31:
         var5['value'] = var7;
         var1[6] = var5;
         var5 = {};
-        var7 = 'getSubscriptions';
+        var7 = 'getSubscriptionById';
         var5['key'] = var7;
-        var7 = function value() {
+        var7 = function value(arg1) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                var1 = arguments[0];
+                var5 = _closure1_slot10;
+                var3 = null;
+                var4 = var3 == var5;
                 var2 = undefined;
-                if(!(var1 === var2)) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
-                var1 = true;
-case 29:
-                if(var1) { _fun0008_ip = 15; continue _fun0008 }
-case 12:
-                var1 = _closure1_slot11;
-                _fun0008_ip = 35; continue _fun0008;
-case 15:
-                var1 = _closure1_slot12;
+                if(var4) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
+                var4 = arg1;
+                var2 = var5[var4];
+case 32:
+                var3 = var3 != var2;
+                var1 = undefined;
+                if(!var3) { _fun0008_ip = 34; continue _fun0008 }
 case 35:
+                var1 = var2;
+case 34:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[7] = var5;
         var5 = {};
-        var7 = 'getSubscriptionById';
+        var7 = 'getActiveGuildSubscriptions';
         var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                var5 = _closure1_slot11;
-                var3 = null;
-                var4 = var3 == var5;
-                var2 = undefined;
-                if(var4) { _fun0009_ip = 36; continue _fun0009 }
-case 37:
-                var4 = arg1;
-                var2 = var5[var4];
-case 36:
-                var3 = var3 != var2;
-                var1 = undefined;
-                if(!var3) { _fun0009_ip = 32; continue _fun0009 }
-case 38:
-                var1 = var2;
-case 32:
-                return var1;
-            }
+        var7 = function value() {
+            var1 = _closure1_slot13;
+            return var1;
         };
         var5['value'] = var7;
         var1[8] = var5;
         var5 = {};
-        var7 = 'getActiveGuildSubscriptions';
+        var7 = 'getActiveApplicationSubscriptions';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot14;
@@ -485,26 +449,17 @@ case 32:
         var5['value'] = var7;
         var1[9] = var5;
         var5 = {};
-        var7 = 'getActiveApplicationSubscriptions';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot15;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[10] = var5;
-        var5 = {};
         var7 = 'getSubscriptionForPlanIds';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = arguments[1];
                 var1 = undefined;
-                if(!(var2 === var1)) { _fun0010_ip = 39; continue _fun0010 }
+                if(!(var2 === var1)) { _fun0009_ip = 36; continue _fun0009 }
 case 29:
                 var2 = true;
-case 39:
+case 36:
                 var _closure3_slot0 = var1;
                 var4 = global;
                 var6 = var4.Set;
@@ -515,18 +470,18 @@ case 39:
                 var1 = new var8[var6](var7, var6);
                 var1 = var1 instanceof Object ? var1 : var5;
                 _closure3_slot0 = var1;
-                if(var2) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
+                if(var2) { _fun0009_ip = 37; continue _fun0009 }
+case 38:
+                var6 = _closure1_slot10;
+                _fun0009_ip = 39; continue _fun0009;
+case 37:
                 var6 = _closure1_slot11;
-                _fun0010_ip = 42; continue _fun0010;
-case 40:
-                var6 = _closure1_slot12;
-case 42:
+case 39:
                 var2 = null;
                 var5 = var2 == var6;
                 var1 = null;
-                if(var5) { _fun0010_ip = 43; continue _fun0010 }
-case 34:
+                if(var5) { _fun0009_ip = 40; continue _fun0009 }
+case 41:
                 var5 = var4.Object;
                 var4 = var5.values;
                 var5 = var4.bind(var5)(var6);
@@ -549,55 +504,64 @@ case 34:
                 var3 = var4.bind(var5)(var3);
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0010_ip = 6; continue _fun0010 }
-case 44:
+                if(!var4) { _fun0009_ip = 6; continue _fun0009 }
+case 42:
                 var2 = var3;
 case 6:
                 var1 = var2;
-case 43:
+case 40:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getMostRecentPremiumTypeSubscription';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot12;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[11] = var5;
+        var5 = {};
+        var7 = 'getPreviousPremiumTypeSubscription';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot16;
             return var1;
         };
         var5['value'] = var7;
         var1[12] = var5;
         var5 = {};
-        var7 = 'getPreviousPremiumTypeSubscription';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot17;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[13] = var5;
-        var5 = {};
         var7 = 'getIsSubscriptionEligibleForReward';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot20;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[14] = var5;
-        var5 = {};
-        var7 = 'getIsFetchingSubscriptionRewardEligibility';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot19;
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[13] = var5;
+        var5 = {};
+        var7 = 'getIsFetchingSubscriptionRewardEligibility';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot18;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getIsFetchingMostRecentSubscription';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot20;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[15] = var5;
+        var5 = {};
+        var7 = 'getLastLazyPerkSync';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot21;
@@ -606,19 +570,10 @@ case 43:
         var5['value'] = var7;
         var1[16] = var5;
         var5 = {};
-        var7 = 'getLastLazyPerkSync';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot22;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[17] = var5;
-        var5 = {};
         var7 = 'getPremiumGroupSubscription';
         var5['key'] = var7;
         var6 = function value() {
-            var5 = _closure1_slot26;
+            var5 = _closure1_slot25;
             var1 = _closure1_slot9;
             var4 = var1.PREMIUM;
             var3 = undefined;
@@ -632,14 +587,14 @@ case 43:
             return var1;
         };
         var5['value'] = var6;
-        var1[18] = var5;
+        var1[17] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
     var9 = var4.bind(var1)(var9);
     var4 = 'SubscriptionStore';
     var9['displayName'] = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var7[var4];
     var14 = var8.bind(var1)(var4);
     var4 = {};
@@ -661,12 +616,12 @@ case 43:
         var _closure2_slot4 = var8;
         var8 = var9.forEach;
         var7 = function(arg1) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var5 = arg1;
                 var3 = var5.user_id;
                 var2 = _closure2_slot4;
-                if(!(var3 === var2)) { _fun0011_ip = 45; continue _fun0011 }
+                if(!(var3 === var2)) { _fun0010_ip = 43; continue _fun0010 }
 case 15:
                 var3 = _closure1_slot6;
                 var2 = var3.createFromServer;
@@ -674,11 +629,11 @@ case 15:
                 var5 = _closure2_slot0;
                 var2 = var3.id;
                 var5[var2] = var3;
-                var5 = _closure1_slot25;
+                var5 = _closure1_slot24;
                 var2 = undefined;
                 var2 = var5.bind(var2)(var3);
-                if(!var2) { _fun0011_ip = 45; continue _fun0011 }
-case 46:
+                if(!var2) { _fun0010_ip = 43; continue _fun0010 }
+case 44:
                 var5 = _closure2_slot1;
                 var2 = var3.id;
                 var5[var2] = var3;
@@ -686,52 +641,52 @@ case 46:
                 var2 = _closure1_slot9;
                 var2 = var2.GUILD;
                 var2 = var5 === var2;
-                if(!var2) { _fun0011_ip = 43; continue _fun0011 }
-case 47:
+                if(!var2) { _fun0010_ip = 40; continue _fun0010 }
+case 45:
                 var6 = var3.status;
                 var5 = _closure1_slot8;
                 var5 = var5.ENDED;
                 var2 = var6 !== var5;
-case 43:
-                if(!var2) { _fun0011_ip = 48; continue _fun0011 }
-case 49:
+case 40:
+                if(!var2) { _fun0010_ip = 46; continue _fun0010 }
+case 47:
                 var5 = _closure2_slot2;
                 var2 = var5.push;
                 var2 = var2.bind(var5)(var3);
-case 48:
+case 46:
                 var5 = var3.type;
                 var2 = _closure1_slot9;
                 var2 = var2.APPLICATION;
                 var2 = var5 === var2;
-                if(!var2) { _fun0011_ip = 50; continue _fun0011 }
-case 51:
+                if(!var2) { _fun0010_ip = 48; continue _fun0010 }
+case 49:
                 var5 = var3.status;
                 var4 = _closure1_slot8;
                 var4 = var4.ENDED;
                 var2 = var5 !== var4;
+case 48:
+                if(!var2) { _fun0010_ip = 43; continue _fun0010 }
 case 50:
-                if(!var2) { _fun0011_ip = 45; continue _fun0011 }
-case 52:
                 var2 = _closure2_slot3;
                 var1 = var2.push;
                 var1 = var1.bind(var2)(var3);
-case 45:
+case 43:
                 var1 = undefined;
                 return var1;
             }
         };
         var7 = var8.bind(var9)(var7);
-        _closure1_slot11 = var6;
-        _closure1_slot12 = var5;
-        _closure1_slot14 = var4;
-        _closure1_slot15 = var3;
-        _closure1_slot22 = var2;
+        _closure1_slot10 = var6;
+        _closure1_slot11 = var5;
+        _closure1_slot13 = var4;
+        _closure1_slot14 = var3;
+        _closure1_slot21 = var2;
         var1 = undefined;
         return var1;
     };
     var4['BILLING_SUBSCRIPTION_FETCH_SUCCESS'] = var11;
     var11 = function handleSubscriptionUpdate(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.subscription;
@@ -739,11 +694,23 @@ case 0:
             var5 = _closure1_slot7;
             var1 = var5.getId;
             var1 = var1.bind(var5)();
-            if(!(var3 === var1)) { _fun0012_ip = 53; continue _fun0012 }
+            if(!(var3 === var1)) { _fun0011_ip = 51; continue _fun0011 }
 case 17:
             var3 = _closure1_slot6;
             var1 = var3.createFromServer;
             var5 = var1.bind(var3)(var4);
+            var1 = {};
+            var8 = _closure1_slot10;
+            var9 = var1;
+            var3 = copyDataProperties(var9, var8);
+            var3 = var5.id;
+            var1[var3] = var5;
+            _closure1_slot10 = var1;
+            var1 = _closure1_slot24;
+            var4 = undefined;
+            var1 = var1.bind(var4)(var5);
+            if(!var1) { _fun0011_ip = 6; continue _fun0011 }
+case 52:
             var1 = {};
             var8 = _closure1_slot11;
             var9 = var1;
@@ -751,58 +718,46 @@ case 17:
             var3 = var5.id;
             var1[var3] = var5;
             _closure1_slot11 = var1;
-            var1 = _closure1_slot25;
-            var4 = undefined;
-            var1 = var1.bind(var4)(var5);
-            if(!var1) { _fun0012_ip = 6; continue _fun0012 }
-case 31:
-            var1 = {};
-            var8 = _closure1_slot12;
-            var9 = var1;
-            var3 = copyDataProperties(var9, var8);
-            var3 = var5.id;
-            var1[var3] = var5;
-            _closure1_slot12 = var1;
 case 6:
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot13;
             var3 = null;
             var1 = var3 != var1;
-            if(!var1) { _fun0012_ip = 54; continue _fun0012 }
-case 55:
+            if(!var1) { _fun0011_ip = 53; continue _fun0011 }
+case 54:
             var7 = var5.type;
             var6 = _closure1_slot9;
             var6 = var6.GUILD;
             var1 = var7 === var6;
-case 54:
-            if(!var1) { _fun0012_ip = 52; continue _fun0012 }
-case 56:
-            var6 = _closure1_slot24;
+case 53:
+            if(!var1) { _fun0011_ip = 50; continue _fun0011 }
+case 55:
+            var6 = _closure1_slot23;
             var1 = {};
-            var7 = _closure1_slot14;
+            var7 = _closure1_slot13;
             var1['activeSubscriptions'] = var7;
             var1['record'] = var5;
             var1 = var6.bind(var4)(var1);
-            _closure1_slot14 = var1;
-case 52:
-            var1 = _closure1_slot15;
+            _closure1_slot13 = var1;
+case 50:
+            var1 = _closure1_slot14;
             var1 = var3 != var1;
-            if(!var1) { _fun0012_ip = 57; continue _fun0012 }
-case 58:
+            if(!var1) { _fun0011_ip = 56; continue _fun0011 }
+case 57:
             var6 = var5.type;
             var3 = _closure1_slot9;
             var3 = var3.APPLICATION;
             var1 = var6 === var3;
-case 57:
-            if(!var1) { _fun0012_ip = 53; continue _fun0012 }
-case 59:
-            var3 = _closure1_slot24;
+case 56:
+            if(!var1) { _fun0011_ip = 51; continue _fun0011 }
+case 58:
+            var3 = _closure1_slot23;
             var1 = {};
-            var6 = _closure1_slot15;
+            var6 = _closure1_slot14;
             var1['activeSubscriptions'] = var6;
             var1['record'] = var5;
             var1 = var3.bind(var4)(var1);
-            _closure1_slot14 = var1;
-case 53:
+            _closure1_slot13 = var1;
+case 51:
             var1 = undefined;
             return var1;
         }
@@ -810,38 +765,38 @@ case 53:
     var4['BILLING_SUBSCRIPTION_UPDATE_SUCCESS'] = var11;
     var11 = function handleMostRecentSubscriptionFetchStart() {
         var1 = true;
-        _closure1_slot21 = var1;
+        _closure1_slot20 = var1;
         var1 = undefined;
         return var1;
     };
     var4['BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_START'] = var11;
     var11 = function handleMostRecentSubscriptionFetch(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.subscription;
             var1 = true;
-            _closure1_slot16 = var1;
+            _closure1_slot15 = var1;
             var1 = false;
-            _closure1_slot21 = var1;
+            _closure1_slot20 = var1;
             var3 = null;
-            if(!(var3 != var5)) { _fun0013_ip = 60; continue _fun0013 }
-case 61:
+            if(!(var3 != var5)) { _fun0012_ip = 59; continue _fun0012 }
+case 60:
             var4 = var5.user_id;
             var6 = _closure1_slot7;
             var3 = var6.getId;
             var3 = var3.bind(var6)();
-            if(!(var4 === var3)) { _fun0013_ip = 62; continue _fun0013 }
-case 63:
+            if(!(var4 === var3)) { _fun0012_ip = 61; continue _fun0012 }
+case 62:
             var4 = _closure1_slot6;
             var3 = var4.createFromServer;
             var3 = var3.bind(var4)(var5);
-            _closure1_slot13 = var3;
-case 60:
+            _closure1_slot12 = var3;
+case 59:
             var3 = undefined;
             return var3;
-case 62:
-            _closure1_slot16 = var1;
+case 61:
+            _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
         }
@@ -849,37 +804,37 @@ case 62:
     var4['BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_SUCCESS'] = var11;
     var11 = function handleMostRecentSubscriptionFetchFail() {
         var1 = false;
-        _closure1_slot21 = var1;
+        _closure1_slot20 = var1;
         var1 = undefined;
         return var1;
     };
     var4['BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_FAIL'] = var11;
     var11 = function handlePreviousSubscriptionFetch(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.subscription;
             var1 = true;
-            _closure1_slot18 = var1;
+            _closure1_slot17 = var1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0014_ip = 64; continue _fun0014 }
-case 65:
+            if(!(var1 != var4)) { _fun0013_ip = 63; continue _fun0013 }
+case 64:
             var3 = var4.user_id;
             var5 = _closure1_slot7;
             var1 = var5.getId;
             var1 = var1.bind(var5)();
-            if(!(var3 === var1)) { _fun0014_ip = 46; continue _fun0014 }
-case 66:
+            if(!(var3 === var1)) { _fun0013_ip = 44; continue _fun0013 }
+case 65:
             var3 = _closure1_slot6;
             var1 = var3.createFromServer;
             var1 = var1.bind(var3)(var4);
-            _closure1_slot17 = var1;
-case 64:
+            _closure1_slot16 = var1;
+case 63:
             var1 = undefined;
             return var1;
-case 46:
+case 44:
             var1 = false;
-            _closure1_slot18 = var1;
+            _closure1_slot17 = var1;
             var1 = undefined;
             return var1;
         }
@@ -888,7 +843,7 @@ case 46:
     var4['BILLING_SUBSCRIPTION_RESET'] = var5;
     var11 = function handleSubscriptionRewardEligibilityFetchStart() {
         var1 = true;
-        _closure1_slot19 = var1;
+        _closure1_slot18 = var1;
         var1 = undefined;
         return var1;
     };
@@ -896,26 +851,26 @@ case 46:
     var11 = function handleSubscriptionRewardEligibilityFetch(arg1) {
         var1 = arg1;
         var1 = var1.eligible;
-        _closure1_slot20 = var1;
-        var1 = false;
         _closure1_slot19 = var1;
+        var1 = false;
+        _closure1_slot18 = var1;
         var1 = undefined;
         return var1;
     };
     var4['BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_SUCCESS'] = var11;
     var10 = function handleSubscriptionRewardEligibilityFetchFailed(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0015_ip = 67; continue _fun0015 }
+            if(!(var2 != var1)) { _fun0014_ip = 66; continue _fun0014 }
 case 30:
             var1 = false;
-            _closure1_slot20 = var1;
             _closure1_slot19 = var1;
+            _closure1_slot18 = var1;
             var1 = undefined;
             return var1;
-case 67:
+case 66:
             var5 = "Cannot destructure 'undefined' or 'null'.";
             var6 = var2;
             var1 = throwTypeError(var6, var5);
@@ -931,7 +886,7 @@ case 67:
     var13 = var4;
     var4 = new var15[var9](var14, var13, var12);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 12;
+    var5 = 11;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

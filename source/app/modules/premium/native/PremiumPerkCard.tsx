@@ -481,112 +481,63 @@ case 24:
         var9 = _closure1_slot3;
         var10 = var9.useCallback;
         var4 = function() {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 7;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.getRootNavigationRef;
-                var5 = var2.bind(var3)();
-                var2 = null;
-                var2 = var2 != var5;
-                if(!var2) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
-                var3 = var5.isReady;
-                var2 = var3.bind(var5)();
-case 26:
-                if(!var2) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
-                var4 = var5.navigate;
-                var3 = {};
-                var2 = _closure1_slot7;
-                var2 = var2.COLLECTIBLES_SHOP;
-                var3['screen'] = var2;
-                var2 = {};
-                var7 = _closure1_slot1;
-                var8 = _closure1_slot2;
-                var6 = 8;
-                var6 = var8[var6];
-                var6 = var7.bind(var1)(var6);
-                var6 = var6.PREMIUM_MARKETING_PERK_CARD;
-                var2['analyticsSource'] = var6;
-                var3['params'] = var2;
-                var2 = 'settings';
-                var2 = var4.bind(var5)(var2, var3);
-case 28:
-                return var1;
-            }
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 7;
+            var2 = var8[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.openUserSettings;
+            var2 = {};
+            var5 = _closure1_slot7;
+            var5 = var5.COLLECTIBLES_SHOP;
+            var2['screen'] = var5;
+            var5 = {};
+            var7 = _closure1_slot1;
+            var6 = 8;
+            var6 = var8[var6];
+            var6 = var7.bind(var1)(var6);
+            var6 = var6.PREMIUM_MARKETING_PERK_CARD;
+            var5['analyticsSource'] = var6;
+            var2['params'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
         var3 = new Array(0);
         var4 = var10.bind(var9)(var4, var3);
         var11 = var9.useCallback;
         var10 = function() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 7;
-                var3 = var3[var1];
-                var1 = undefined;
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.getRootNavigationRef;
-                var5 = var3.bind(var4)();
-                var3 = null;
-                if(!(var3 != var5)) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
-                var3 = var5.isReady;
-                var3 = var3.bind(var5)();
-                if(!var3) { _fun0004_ip = 30; continue _fun0004 }
-case 26:
-                var4 = var5.navigate;
-                var3 = {};
-                var2 = _closure1_slot7;
-                var2 = var2.PROFILE_CUSTOMIZATION;
-                var3['screen'] = var2;
-                var2 = 'settings';
-                var2 = var4.bind(var5)(var2, var3);
-                return var1;
-case 30:
-                var1 = false;
-                return var1;
-            }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.openUserSettings;
+            var2 = {};
+            var5 = _closure1_slot7;
+            var5 = var5.PROFILE_CUSTOMIZATION;
+            var2['screen'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
         var3 = new Array(0);
         var13 = var11.bind(var9)(var10, var3);
         var11 = var9.useCallback;
         var10 = function() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 7;
-                var3 = var3[var1];
-                var1 = undefined;
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.getRootNavigationRef;
-                var5 = var3.bind(var4)();
-                var3 = null;
-                if(!(var3 != var5)) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
-                var3 = var5.isReady;
-                var3 = var3.bind(var5)();
-                if(!var3) { _fun0005_ip = 30; continue _fun0005 }
-case 26:
-                var4 = var5.navigate;
-                var3 = {};
-                var2 = _closure1_slot7;
-                var2 = var2.APPEARANCE_THEME_PICKER;
-                var3['screen'] = var2;
-                var2 = 'settings';
-                var2 = var4.bind(var5)(var2, var3);
-                return var1;
-case 30:
-                var1 = false;
-                return var1;
-            }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.openUserSettings;
+            var2 = {};
+            var5 = _closure1_slot7;
+            var5 = var5.APPEARANCE_THEME_PICKER;
+            var2['screen'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
         var3 = new Array(0);
         var11 = var11.bind(var9)(var10, var3);
@@ -594,73 +545,41 @@ case 30:
         var3 = new Array(1);
         var3[0] = var2;
         var2 = function() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 7;
-                var3 = var3[var1];
-                var1 = undefined;
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.getRootNavigationRef;
-                var5 = var3.bind(var4)();
-                var3 = null;
-                if(!(var3 != var5)) { _fun0006_ip = 32; continue _fun0006 }
-case 31:
-                var3 = var5.isReady;
-                var3 = var3.bind(var5)();
-                if(!var3) { _fun0006_ip = 32; continue _fun0006 }
-case 26:
-                var4 = var5.navigate;
-                var3 = {};
-                var2 = _closure1_slot7;
-                var2 = var2.GUILD_BOOSTING;
-                var3['screen'] = var2;
-                var2 = {};
-                var6 = _closure2_slot0;
-                var6 = !var6;
-                var2['shouldFetchSubscriptionPlans'] = var6;
-                var3['params'] = var2;
-                var2 = 'settings';
-                var2 = var4.bind(var5)(var2, var3);
-                return var1;
-case 32:
-                var1 = false;
-                return var1;
-            }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.openUserSettings;
+            var2 = {};
+            var5 = _closure1_slot7;
+            var5 = var5.GUILD_BOOSTING;
+            var2['screen'] = var5;
+            var5 = {};
+            var6 = _closure2_slot0;
+            var6 = !var6;
+            var5['shouldFetchSubscriptionPlans'] = var6;
+            var2['params'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
         var10 = var10.bind(var9)(var2, var3);
         var3 = var9.useCallback;
         var2 = function() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 7;
-                var3 = var3[var1];
-                var1 = undefined;
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.getRootNavigationRef;
-                var5 = var3.bind(var4)();
-                var3 = null;
-                if(!(var3 != var5)) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
-                var3 = var5.isReady;
-                var3 = var3.bind(var5)();
-                if(!var3) { _fun0007_ip = 30; continue _fun0007 }
-case 26:
-                var4 = var5.navigate;
-                var3 = {};
-                var2 = _closure1_slot7;
-                var2 = var2.APP_ICONS;
-                var3['screen'] = var2;
-                var2 = 'settings';
-                var2 = var4.bind(var5)(var2, var3);
-                return var1;
-case 30:
-                var1 = false;
-                return var1;
-            }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.openUserSettings;
+            var2 = {};
+            var5 = _closure1_slot7;
+            var5 = var5.APP_ICONS;
+            var2['screen'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
         var1 = new Array(0);
         var9 = var3.bind(var9)(var2, var1);
