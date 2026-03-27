@@ -59,6 +59,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var5.bind(var1)(var11);
     var11 = var11.GiftIcon;
     var2['IconComponent'] = var11;
+    var11 = function usePredicate() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.isPremiumGiftingSupported;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var2['usePredicate'] = var11;
     var11 = function useCanNavigateToPaymentSetting() {
         var4 = _closure1_slot3;
         var3 = var4.useCallback;
@@ -120,7 +132,7 @@ case 2:
     var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -130,7 +142,7 @@ case 2:
     var8['getComponent'] = var9;
     var2['screen'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

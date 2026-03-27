@@ -210,16 +210,45 @@ case 55:
 case 54:
             _fun0001_ip = 56; continue _fun0001;
 case 52:
-            var22 = var12 == var21;
-            var19 = undefined;
-            if(var22) { _fun0001_ip = 57; continue _fun0001 }
+            var23 = var12 == var21;
+            var22 = undefined;
+            if(var23) { _fun0001_ip = 57; continue _fun0001 }
 case 58:
-            var19 = var21.profileEffect;
+            var22 = var21.profileEffect;
 case 57:
-            var10 = var19;
+            var10 = var22;
 case 56:
             if(!(var12 != var10)) { _fun0001_ip = 59; continue _fun0001 }
 case 60:
+            var23 = _closure1_slot0;
+            var24 = _closure1_slot2;
+            var22 = 3;
+            var22 = var24[var22];
+            var23 = var23.bind(var5)(var22);
+            var22 = var23.maybeFetchCollectiblesProduct;
+            var10 = var10.skuId;
+            var10 = var22.bind(var23)(var10);
+case 59:
+            if(!(var12 == var18)) { _fun0001_ip = 61; continue _fun0001 }
+case 62:
+            var22 = var12 == var19;
+            var10 = undefined;
+            if(var22) { _fun0001_ip = 63; continue _fun0001 }
+case 64:
+            var10 = var19.profileFrame;
+case 63:
+            _fun0001_ip = 65; continue _fun0001;
+case 61:
+            var22 = var12 == var21;
+            var19 = undefined;
+            if(var22) { _fun0001_ip = 66; continue _fun0001 }
+case 67:
+            var19 = var21.profileFrame;
+case 66:
+            var10 = var19;
+case 65:
+            if(!(var12 != var10)) { _fun0001_ip = 68; continue _fun0001 }
+case 69:
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
             var19 = 3;
@@ -228,9 +257,9 @@ case 60:
             var19 = var21.maybeFetchCollectiblesProduct;
             var10 = var10.skuId;
             var10 = var19.bind(var21)(var10);
-case 59:
-            if(!(var12 != var20)) { _fun0001_ip = 61; continue _fun0001 }
-case 62:
+case 68:
+            if(!(var12 != var20)) { _fun0001_ip = 70; continue _fun0001 }
+case 71:
             var19 = _closure1_slot0;
             var21 = _closure1_slot2;
             var10 = 4;
@@ -238,7 +267,7 @@ case 62:
             var19 = var19.bind(var5)(var10);
             var10 = var19.maybeFetchColors;
             var10 = var10.bind(var19)(var20);
-case 61:
+case 70:
             var10 = {};
             var10['type'] = var16;
             var10['withMutualGuilds'] = var15;
@@ -249,8 +278,8 @@ case 61:
             var10['abortSignal'] = var7;
             var9 = var12 == var18;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 63; continue _fun0001 }
-case 64:
+            if(var9) { _fun0001_ip = 72; continue _fun0001 }
+case 73:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var9 = 5;
@@ -269,14 +298,14 @@ case 64:
             var9 = var13.bind(var14)(var9);
             var12 = var12 == var9;
             var7 = undefined;
-            if(var12) { _fun0001_ip = 63; continue _fun0001 }
-case 65:
+            if(var12) { _fun0001_ip = 72; continue _fun0001 }
+case 74:
             var7 = var9.id;
-case 63:
+case 72:
             var10['connectionsRoleId'] = var7;
             _closure2_slot1 = var10;
-            if(var4) { _fun0001_ip = 66; continue _fun0001 }
-case 67:
+            if(var4) { _fun0001_ip = 75; continue _fun0001 }
+case 76:
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
             var4 = 7;
@@ -289,17 +318,17 @@ case 67:
             var4 = var12.bind(var5)(var4);
             var7 = var7.bind(var9)(var11, var10, var4);
             var4 = var7;
-            if(!var8) { _fun0001_ip = 68; continue _fun0001 }
-case 69:
+            if(!var8) { _fun0001_ip = 77; continue _fun0001 }
+case 78:
             var4 = var7;
-            if(var6) { _fun0001_ip = 68; continue _fun0001 }
-case 70:
+            if(var6) { _fun0001_ip = 77; continue _fun0001 }
+case 79:
             var7 = var1.Promise;
             var6 = var7.resolve;
             var4 = var6.bind(var7)();
-case 68:
+case 77:
             return var4;
-case 66:
+case 75:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 6;

@@ -237,12 +237,12 @@ case 0:
                     var3 = var1.height;
                     var1 = _closure1_slot7;
                     var1 = var3 - var1;
-                    if(!(var2 >= var1)) { _fun0004_ip = 3; continue _fun0004 }
-case 14:
+                    if(!(var2 >= var1)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var2 = _closure2_slot5;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 3:
+case 14:
                     var1 = undefined;
                     return var1;
                 }

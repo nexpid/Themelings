@@ -12,6 +12,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = {};
     var1 = 'mobile_web_redirect_checkout';
     var5['MOBILE_WEB_REDIRECT_CHECKOUT'] = var1;
+    var1 = 'meta_quest_web_redirect_checkout';
+    var5['META_QUEST_WEB_REDIRECT_CHECKOUT'] = var1;
     var4 = {};
     var1 = 'premium_checkout_success';
     var4['PREMIUM_CHECKOUT_SUCCESS'] = var1;
@@ -22,6 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 'default';
     var4['DEFAULT'] = var1;
     var2 = {};
+    var1 = 'flow_type';
+    var2['FLOW_TYPE'] = var1;
     var1 = 'deep_link_action';
     var2['DEEP_LINK_ACTION'] = var1;
     var1 = 'guild_id';

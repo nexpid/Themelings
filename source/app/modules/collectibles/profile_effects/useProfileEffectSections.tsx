@@ -1,4 +1,4 @@
-// app/modules/profile_effects/useProfileEffectSections.tsx
+// app/modules/collectibles/profile_effects/useProfileEffectSections.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
     var4 = metroImportDefault;
@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
-    var7 = 'modules/profile_effects/useProfileEffectSections.tsx';
+    var7 = 'modules/collectibles/profile_effects/useProfileEffectSections.tsx';
     var7 = var8.bind(var9)(var7);
     var6 = function _default() {
         var6 = _closure1_slot0;

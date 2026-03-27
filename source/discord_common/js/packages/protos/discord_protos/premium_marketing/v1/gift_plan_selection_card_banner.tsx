@@ -674,8 +674,8 @@ case 49:
                 var3 = var3.bind(var4)();
 case 48:
                 var3 = var5.bannerAsset;
-                if(!var3) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                if(!var3) { _fun0005_ip = 32; continue _fun0005 }
+case 50:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -698,10 +698,10 @@ case 51:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 50:
+case 32:
                 var3 = var5.backgroundAsset;
-                if(!var3) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+                if(!var3) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -724,10 +724,10 @@ case 53:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 52:
+case 51:
                 var3 = var5.cardAsset;
-                if(!var3) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
+                if(!var3) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -750,10 +750,10 @@ case 55:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 54:
+case 53:
                 var3 = var5.mobileBannerAsset;
-                if(!var3) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
+                if(!var3) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -776,14 +776,14 @@ case 57:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 56:
+case 55:
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
+                if(!(var2 !== var4)) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 60; continue _fun0005 }
-case 61:
+                if(!(var2 == var4)) { _fun0005_ip = 59; continue _fun0005 }
+case 60:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 8;
@@ -792,12 +792,12 @@ case 61:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 60:
+case 59:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 58:
+case 57:
                 return var1;
             }
         };

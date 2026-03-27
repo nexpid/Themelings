@@ -1,12 +1,12 @@
 // app/modules/guild_role_subscriptions/native/guild_settings/GuildSettingsRoleSubscriptionTiers.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var15 = metroImportDefault;
+    var14 = metroImportDefault;
     var7 = metroImportAll;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var15;
+    var _closure1_slot1 = var14;
     var _closure1_slot2 = var7;
     var _closure1_slot3 = var6;
     var1 = function DraftBadge() {
@@ -472,9 +472,9 @@ case 0:
             var6 = var2.guildId;
             var _closure2_slot0 = var6;
             var4 = undefined;
+            var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
             var _closure2_slot10 = var4;
-            var _closure2_slot11 = var4;
             var2 = _closure1_slot19;
             var17 = var2.bind(var4)();
             var3 = _closure1_slot1;
@@ -506,44 +506,39 @@ case 0:
             var3 = var8.useRoleSubscriptionSettingsDisabled;
             var12 = var3.bind(var8)();
             var3 = 29;
-            var8 = var9[var3];
-            var11 = var7.bind(var4)(var8);
-            var8 = var11.useGuildEligibleForTierTemplates;
-            var15 = var8.bind(var11)(var6);
-            var _closure2_slot2 = var15;
             var3 = var9[var3];
             var8 = var7.bind(var4)(var3);
-            var3 = var8.useUserEligibleForTierTemplates;
-            var16 = var3.bind(var8)();
-            var _closure2_slot3 = var16;
+            var3 = var8.useGuildEligibleForTierTemplates;
+            var15 = var3.bind(var8)(var6);
+            var _closure2_slot2 = var15;
             var3 = 30;
             var3 = var9[var3];
             var7 = var7.bind(var4)(var3);
             var3 = var7.useGroupListingsForGuild;
-            var18 = var3.bind(var7)(var6);
+            var16 = var3.bind(var7)(var6);
             var3 = 0;
-            var11 = var18[var3];
-            var _closure2_slot4 = var11;
-            var8 = var18.map;
+            var11 = var16[var3];
+            var _closure2_slot3 = var11;
+            var8 = var16.map;
             var7 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.id;
                 return var1;
             };
-            var7 = var8.bind(var18)(var7);
-            var18 = var7[var3];
-            var _closure2_slot5 = var18;
+            var7 = var8.bind(var16)(var7);
+            var16 = var7[var3];
+            var _closure2_slot4 = var16;
             var8 = _closure1_slot2;
             var7 = 21;
             var7 = var9[var7];
             var9 = var8.bind(var4)(var7);
             var8 = var9.useEditStateIds;
             var7 = {};
-            var19 = true;
-            var7['includeSoftDeleted'] = var19;
-            var7 = var8.bind(var9)(var18, var6, var7);
-            var18 = var7.editStateIds;
-            var _closure2_slot6 = var18;
+            var18 = true;
+            var7['includeSoftDeleted'] = var18;
+            var7 = var8.bind(var9)(var16, var6, var7);
+            var16 = var7.editStateIds;
+            var _closure2_slot5 = var16;
             var9 = _closure1_slot5;
             var8 = var9.useState;
             var7 = {};
@@ -552,23 +547,23 @@ case 0:
             var7 = 2;
             var8 = var8.bind(var4)(var9, var7);
             var3 = var8[var3];
-            var _closure2_slot7 = var3;
+            var _closure2_slot6 = var3;
             var7 = 1;
             var7 = var8[var7];
-            var _closure2_slot8 = var7;
+            var _closure2_slot7 = var7;
             var9 = _closure1_slot5;
             var8 = var9.useMemo;
             var7 = new Array(2);
-            var7[0] = var18;
+            var7[0] = var16;
             var7[1] = var3;
             var3 = function() {
-                var3 = _closure2_slot6;
+                var3 = _closure2_slot5;
                 var2 = var3.map;
                 var1 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var1 = arg1;
-                        var2 = _closure2_slot7;
+                        var2 = _closure2_slot6;
                         var2 = var2[var1];
                         var3 = null;
                         if(!(var3 != var2)) { _fun0004_ip = 33; continue _fun0004 }
@@ -638,11 +633,10 @@ case 33:
             var7 = var8.bind(var9)(var7);
             var9 = _closure1_slot5;
             var8 = var9.useCallback;
-            var7 = new Array(5);
-            var7[0] = var16;
-            var7[1] = var15;
-            var7[2] = var6;
-            var7[3] = var2;
+            var7 = new Array(4);
+            var7[0] = var15;
+            var7[1] = var6;
+            var7[2] = var2;
             var2 = null;
             var15 = var2 == var11;
             var6 = undefined;
@@ -650,54 +644,33 @@ case 33:
 case 36:
             var6 = var11.id;
 case 35:
-            var7[4] = var6;
+            var7[3] = var6;
             var6 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var1 = _closure2_slot3;
-                    if(!var1) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot3;
-                    var1 = 33;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-                    var3 = var1.GuildRoleSubscriptionsTierTemplatesExperiment;
-                    var2 = var3.trackExposure;
-                    var1 = {};
-                    var4 = _closure2_slot0;
-                    var1['guildId'] = var4;
-                    var4 = '57f505_1';
-                    var1['location'] = var4;
-                    var1 = var2.bind(var3)(var1);
-case 37:
-                    var1 = _closure2_slot3;
-                    if(!var1) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
                     var1 = _closure2_slot2;
-                    if(var1) { _fun0005_ip = 41; continue _fun0005 }
-case 39:
                     var2 = _closure1_slot2;
                     var3 = _closure1_slot3;
-                    var1 = 35;
+                    if(var1) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
+                    var1 = 34;
                     var1 = var3[var1];
-                    var4 = undefined;
-                    var3 = var2.bind(var4)(var1);
-                    var2 = var3.openTierCreationModal;
+                    var7 = undefined;
+                    var5 = var2.bind(var7)(var1);
+                    var4 = var5.openTierCreationModal;
                     var1 = {};
-                    var5 = _closure2_slot0;
-                    var1['guildId'] = var5;
-                    var7 = _closure2_slot4;
-                    var5 = null;
-                    var5 = var5 == var7;
-                    if(var5) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
-                    var5 = _closure2_slot4;
-                    var4 = var5.id;
-case 42:
-                    var1['groupListingId'] = var4;
-                    var4 = function onAfterTierCreation() {
+                    var8 = _closure2_slot0;
+                    var1['guildId'] = var8;
+                    var9 = _closure2_slot3;
+                    var8 = null;
+                    var8 = var8 == var9;
+                    if(var8) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+                    var8 = _closure2_slot3;
+                    var7 = var8.id;
+case 39:
+                    var1['groupListingId'] = var7;
+                    var7 = function onAfterTierCreation() {
                         var3 = _closure2_slot1;
                         var2 = var3.navigate;
                         var1 = _closure1_slot14;
@@ -706,13 +679,11 @@ case 42:
                         var1 = undefined;
                         return var1;
                     };
-                    var1['onAfterTierCreation'] = var4;
-                    var1 = var2.bind(var3)(var1);
-                    _fun0005_ip = 44; continue _fun0005;
-case 41:
-                    var2 = _closure1_slot2;
-                    var3 = _closure1_slot3;
-                    var1 = 34;
+                    var1['onAfterTierCreation'] = var7;
+                    var1 = var4.bind(var5)(var1);
+                    _fun0005_ip = 17; continue _fun0005;
+case 37:
+                    var1 = 33;
                     var1 = var3[var1];
                     var5 = undefined;
                     var4 = var2.bind(var5)(var1);
@@ -721,23 +692,23 @@ case 41:
                     var1 = {};
                     var7 = _closure2_slot0;
                     var1['guildId'] = var7;
-                    var8 = _closure2_slot4;
+                    var8 = _closure2_slot3;
                     var7 = null;
                     var7 = var7 == var8;
-                    if(var7) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
-                    var6 = _closure2_slot4;
+                    if(var7) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
+                    var6 = _closure2_slot3;
                     var5 = var6.id;
-case 45:
+case 41:
                     var1['groupListingId'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 44:
+case 17:
                     var1 = undefined;
                     return var1;
                 }
             };
             var15 = var8.bind(var9)(var6, var7);
-            _closure2_slot9 = var15;
+            _closure2_slot8 = var15;
             var7 = _closure1_slot0;
             var8 = _closure1_slot3;
             var6 = 20;
@@ -755,7 +726,7 @@ case 44:
                 return var1;
             };
             var6 = var8.bind(var9)(var7, var6);
-            _closure2_slot10 = var6;
+            _closure2_slot9 = var6;
             var9 = _closure1_slot5;
             var8 = var9.useEffect;
             var7 = new Array(2);
@@ -764,22 +735,22 @@ case 44:
             var6 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var3 = _closure2_slot10;
+                    var3 = _closure2_slot9;
                     var2 = _closure1_slot15;
                     var2 = var2.ROLE_SUBSCRIPTION_TIER_TEMPLATE;
-                    if(!(var3 === var2)) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
-                    var2 = _closure2_slot9;
+                    if(!(var3 === var2)) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
+                    var2 = _closure2_slot8;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 47:
+case 43:
                     var1 = undefined;
                     return var1;
                 }
             };
             var6 = var8.bind(var9)(var6, var7);
-            if(var5) { _fun0003_ip = 49; continue _fun0003 }
-case 50:
+            if(var5) { _fun0003_ip = 45; continue _fun0003 }
+case 46:
             var7 = _closure1_slot17;
             var6 = _closure1_slot7;
             var5 = {};
@@ -792,7 +763,7 @@ case 50:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             return var5;
-case 49:
+case 45:
             var5 = function handleEditListing(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -804,7 +775,7 @@ case 0:
                     var3 = var3.bind(var4)(var1);
                     var8 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var1 = 36;
+                    var1 = 35;
                     var5 = var4[var1];
                     var1 = undefined;
                     var8 = var8.bind(var1)(var5);
@@ -813,20 +784,20 @@ case 0:
                     var3 = 'guild must not be null';
                     var3 = var8.bind(var1)(var5, var3);
                     var3 = _closure1_slot2;
-                    var2 = 34;
+                    var2 = 33;
                     var2 = var4[var2];
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.pushTierEditScene;
                     var3 = _closure2_slot1;
                     var2 = {};
-                    var8 = _closure2_slot4;
+                    var8 = _closure2_slot3;
                     var10 = var10 == var8;
                     var8 = undefined;
-                    if(var10) { _fun0007_ip = 51; continue _fun0007 }
-case 52:
-                    var9 = _closure2_slot4;
+                    if(var10) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
+                    var9 = _closure2_slot3;
                     var8 = var9.id;
-case 51:
+case 47:
                     var2['groupListingId'] = var8;
                     var2['initialEditStateId'] = var7;
                     var6 = function onBeforeDispatchNewListing(arg1) {
@@ -838,7 +809,7 @@ case 51:
                             var _closure5_slot0 = var1;
                             var1 = arg2;
                             var _closure5_slot1 = var1;
-                            var3 = _closure2_slot8;
+                            var3 = _closure2_slot7;
                             var1 = undefined;
                             var2 = function(arg1) {
                                 var1 = {};
@@ -862,11 +833,11 @@ case 51:
                     return var1;
                 }
             };
-            _closure2_slot11 = var5;
+            _closure2_slot10 = var5;
             var2 = var2 == var3;
             var9 = undefined;
-            if(var2) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
+            if(var2) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
             var2 = var3.map;
             var1 = function(arg1) {
                 var5 = arg1;
@@ -877,10 +848,10 @@ case 54:
                 var2['editStateId'] = var5;
                 var7 = _closure2_slot0;
                 var2['guildId'] = var7;
-                var6 = _closure2_slot5;
+                var6 = _closure2_slot4;
                 var2['groupListingId'] = var6;
                 var1 = function onPress() {
-                    var3 = _closure2_slot11;
+                    var3 = _closure2_slot10;
                     var2 = _closure3_slot0;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
@@ -892,7 +863,7 @@ case 54:
                 return var1;
             };
             var9 = var2.bind(var3)(var1);
-case 53:
+case 49:
             var3 = _closure1_slot17;
             var2 = _closure1_slot8;
             var1 = {};
@@ -907,7 +878,7 @@ case 53:
             var11 = _closure1_slot17;
             var22 = _closure1_slot1;
             var20 = _closure1_slot3;
-            var8 = 37;
+            var8 = 36;
             var8 = var20[var8];
             var10 = var22.bind(var4)(var8);
             var8 = {};
@@ -962,7 +933,7 @@ case 53:
             var12 = var20[var12];
             var15 = var22.bind(var4)(var12);
             var12 = {};
-            var21 = 38;
+            var21 = 37;
             var21 = var20[var21];
             var21 = var22.bind(var4)(var21);
             var12['source'] = var21;
@@ -1010,7 +981,7 @@ case 53:
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var15.bind(var1)(var4);
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 1;
     var4 = var6[var4];
@@ -1027,18 +998,18 @@ case 53:
     var _closure1_slot8 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var15.bind(var1)(var4);
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot9 = var4;
-    var13 = 4;
-    var4 = var6[var13];
-    var4 = var15.bind(var1)(var4);
+    var12 = 4;
+    var4 = var6[var12];
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot10 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var15.bind(var1)(var4);
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot11 = var4;
-    var12 = 6;
-    var4 = var6[var12];
+    var11 = 6;
+    var4 = var6[var11];
     var4 = var5.bind(var1)(var4);
     var4 = var4.MAX_SUBSCRIPTION_TIERS;
     var _closure1_slot12 = var4;
@@ -1065,110 +1036,110 @@ case 53:
     var _closure1_slot18 = var4;
     var4 = 10;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var7 = {};
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
+    var9 = {};
     var10 = '100%';
-    var4['height'] = var10;
-    var7['container'] = var4;
-    var4 = {'marginBottom': 16, 'paddingHorizontal': 16};
-    var7['tierManagementDescription'] = var4;
-    var4 = {'backgroundColor': null, 'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center', 'alignSelf': 'stretch', 'justifyContent': 'flex-start', 'height': 72, 'padding': 16, 'marginHorizontal': 16, 'marginBottom': 8};
-    var14 = 11;
-    var10 = var6[var14];
-    var10 = var15.bind(var1)(var10);
+    var9['height'] = var10;
+    var4['container'] = var9;
+    var9 = {'marginBottom': 16, 'paddingHorizontal': 16};
+    var4['tierManagementDescription'] = var9;
+    var9 = {'backgroundColor': null, 'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center', 'alignSelf': 'stretch', 'justifyContent': 'flex-start', 'height': 72, 'padding': 16, 'marginHorizontal': 16, 'marginBottom': 8};
+    var13 = 11;
+    var10 = var6[var13];
+    var10 = var14.bind(var1)(var10);
     var10 = var10.colors;
     var10 = var10.BACKGROUND_SURFACE_HIGH;
-    var4['backgroundColor'] = var10;
-    var10 = var6[var14];
-    var10 = var15.bind(var1)(var10);
+    var9['backgroundColor'] = var10;
+    var10 = var6[var13];
+    var10 = var14.bind(var1)(var10);
     var10 = var10.radii;
     var10 = var10.sm;
-    var4['borderRadius'] = var10;
-    var7['tierManagementButton'] = var4;
-    var4 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'flex-start', 'flex': 1};
-    var7['tierColumn'] = var4;
-    var10 = {'backgroundColor': null, 'borderRadius': 20, 'marginEnd': 12, 'height': 40, 'width': 40};
-    var4 = var6[var14];
-    var4 = var15.bind(var1)(var4);
-    var4 = var4.colors;
-    var4 = var4.BACKGROUND_SURFACE_HIGH;
-    var10['backgroundColor'] = var4;
-    var11 = 12;
-    var4 = 40;
-    var7['tierIcon'] = var10;
-    var10 = {};
-    var10['marginStart'] = var12;
-    var7['tierPrice'] = var10;
-    var10 = {};
-    var12 = var6[var14];
-    var12 = var15.bind(var1)(var12);
-    var12 = var12.unsafe_rawColors;
-    var12 = var12.YELLOW_300;
-    var10['backgroundColor'] = var12;
-    var12 = var6[var14];
-    var12 = var15.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.sm;
-    var10['borderRadius'] = var12;
-    var10['paddingHorizontal'] = var13;
-    var7['draftBadge'] = var10;
-    var10 = {};
-    var12 = var6[var14];
-    var12 = var15.bind(var1)(var12);
-    var12 = var12.unsafe_rawColors;
-    var12 = var12.PRIMARY_860;
-    var10['color'] = var12;
-    var12 = 'uppercase';
-    var10['textTransform'] = var12;
-    var7['draftBadgeLabel'] = var10;
-    var10 = {};
-    var16 = var6[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.unsafe_rawColors;
-    var16 = var16.PRIMARY_500;
-    var10['backgroundColor'] = var16;
-    var16 = var6[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.sm;
-    var10['borderRadius'] = var16;
-    var10['paddingHorizontal'] = var13;
-    var7['archiveBadge'] = var10;
-    var10 = {};
-    var10['textTransform'] = var12;
-    var7['archiveBadgeLabel'] = var10;
-    var10 = {};
-    var16 = var6[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.BACKGROUND_MOD_MUTED;
-    var10['backgroundColor'] = var16;
-    var14 = var6[var14];
-    var14 = var15.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.sm;
-    var10['borderRadius'] = var14;
-    var10['paddingHorizontal'] = var13;
-    var7['unsavedBadge'] = var10;
-    var10 = {};
-    var10['textTransform'] = var12;
-    var7['unsavedBadgeLabel'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'marginTop': 3};
-    var7['detailsRow'] = var10;
-    var10 = {};
-    var10['marginStart'] = var11;
-    var7['createTierLabel'] = var10;
-    var10 = {};
-    var10['marginTop'] = var11;
-    var7['spinner'] = var10;
-    var10 = {};
-    var11 = 0.5;
-    var10['opacity'] = var11;
-    var7['disabled'] = var10;
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot19 = var7;
+    var9['borderRadius'] = var10;
+    var4['tierManagementButton'] = var9;
+    var9 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'flex-start', 'flex': 1};
+    var4['tierColumn'] = var9;
+    var9 = {'backgroundColor': null, 'borderRadius': 20, 'marginEnd': 12, 'height': 40, 'width': 40};
+    var10 = var6[var13];
+    var10 = var14.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
+    var9['backgroundColor'] = var10;
+    var10 = 12;
+    var4['tierIcon'] = var9;
+    var9 = {};
+    var9['marginStart'] = var11;
+    var4['tierPrice'] = var9;
+    var9 = {};
+    var11 = var6[var13];
+    var11 = var14.bind(var1)(var11);
+    var11 = var11.unsafe_rawColors;
+    var11 = var11.YELLOW_300;
+    var9['backgroundColor'] = var11;
+    var11 = var6[var13];
+    var11 = var14.bind(var1)(var11);
+    var11 = var11.radii;
+    var11 = var11.sm;
+    var9['borderRadius'] = var11;
+    var9['paddingHorizontal'] = var12;
+    var4['draftBadge'] = var9;
+    var9 = {};
+    var11 = var6[var13];
+    var11 = var14.bind(var1)(var11);
+    var11 = var11.unsafe_rawColors;
+    var11 = var11.PRIMARY_860;
+    var9['color'] = var11;
+    var11 = 'uppercase';
+    var9['textTransform'] = var11;
+    var4['draftBadgeLabel'] = var9;
+    var9 = {};
+    var15 = var6[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.unsafe_rawColors;
+    var15 = var15.PRIMARY_500;
+    var9['backgroundColor'] = var15;
+    var15 = var6[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.radii;
+    var15 = var15.sm;
+    var9['borderRadius'] = var15;
+    var9['paddingHorizontal'] = var12;
+    var4['archiveBadge'] = var9;
+    var9 = {};
+    var9['textTransform'] = var11;
+    var4['archiveBadgeLabel'] = var9;
+    var9 = {};
+    var15 = var6[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BACKGROUND_MOD_MUTED;
+    var9['backgroundColor'] = var15;
+    var13 = var6[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.sm;
+    var9['borderRadius'] = var13;
+    var9['paddingHorizontal'] = var12;
+    var4['unsavedBadge'] = var9;
+    var9 = {};
+    var9['textTransform'] = var11;
+    var4['unsavedBadgeLabel'] = var9;
+    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'marginTop': 3};
+    var4['detailsRow'] = var9;
+    var9 = {};
+    var9['marginStart'] = var10;
+    var4['createTierLabel'] = var9;
+    var9 = {};
+    var9['marginTop'] = var10;
+    var4['spinner'] = var9;
+    var9 = {};
+    var10 = 0.5;
+    var9['opacity'] = var10;
+    var4['disabled'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot19 = var4;
+    var4 = 39;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1180,7 +1151,7 @@ case 53:
         var4 = _closure1_slot17;
         var2 = _closure1_slot1;
         var3 = _closure1_slot3;
-        var1 = 39;
+        var1 = 38;
         var1 = var3[var1];
         var3 = undefined;
         var2 = var2.bind(var3)(var1);

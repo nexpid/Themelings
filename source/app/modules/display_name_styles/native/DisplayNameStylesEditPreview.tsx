@@ -171,15 +171,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {};
+    var9 = {'marginBottom': null, 'alignItems': 'center', 'alignSelf': 'center', 'width': '100%', 'maxWidth': 360};
     var11 = 4;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.spacing;
     var13 = var13.PX_24;
     var9['marginBottom'] = var13;
-    var13 = 'center';
-    var9['alignItems'] = var13;
     var4['previewSection'] = var9;
     var9 = {'marginTop': 4294967278, 'alignSelf': 'flex-end', 'width': 260, 'borderRadius': null, 'borderWidth': 1};
     var13 = var6[var11];

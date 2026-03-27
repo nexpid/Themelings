@@ -1,4 +1,4 @@
-// app/modules/profile_effects/native/getAssetWHRatio.tsx
+// app/modules/collectibles/profile_effects/native/getAssetWHRatio.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -33,7 +33,7 @@ case 4:
     var1 = undefined;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/profile_effects/native/getAssetWHRatio.tsx';
+    var4 = 'modules/collectibles/profile_effects/native/getAssetWHRatio.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = 0.5113636363636364;
     var3['DEFAULT_PROFILE_EFFECT_WH_RATIO'] = var4;

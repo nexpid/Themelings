@@ -96,19 +96,12 @@ case 15:
             var9 = var7.analyticsLocation;
 case 14:
             var4['analyticsLocation'] = var9;
-            var10 = var3 == var7;
-            var9 = undefined;
-            if(var10) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var9 = var7.searchParams;
-case 16:
-            var4['searchParams'] = var9;
             var4 = var5.bind(var8)(var4);
             var5 = var6.navigate;
             var4 = 'settings';
             var4 = var5.bind(var6)(var4, var7);
             if(!(var3 != var2)) { _fun0001_ip = 4; continue _fun0001 }
-case 18:
+case 16:
             var2 = var2.bind(var1)();
 case 4:
             return var1;

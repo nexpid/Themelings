@@ -1,4 +1,4 @@
-// app/modules/profile_effects/useClock.tsx
+// app/modules/collectibles/profile_effects/useClock.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var5 = dependencyMap;
@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/profile_effects/useClock.tsx';
+    var4 = 'modules/collectibles/profile_effects/useClock.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

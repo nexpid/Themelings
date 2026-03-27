@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'center', 'paddingBottom': 12};
+    var9 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'center', 'paddingBottom': 12, 'paddingLeft': 8};
     var4['headerContainer'] = var9;
     var9 = {};
     var9['flex'] = var10;

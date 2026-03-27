@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 'center';
     var9 = {'marginBottom': 20, 'textAlign': 'center'};
     var4['heading'] = var9;
-    var9 = {'alignItems': 'stretch', 'flexDirection': 'row', 'paddingHorizontal': 16, 'paddingBottom': 16};
+    var9 = {'alignItems': 'stretch', 'flexDirection': 'row', 'justifyContent': 'center', 'minWidth': '100%', 'paddingHorizontal': 16, 'paddingBottom': 16};
     var4['scrollerContent'] = var9;
     var9 = {'backgroundColor': null, 'borderColor': null, 'borderWidth': 1, 'borderRadius': null, 'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center', 'marginRight': 16, 'padding': 24, 'width': 324};
     var12 = 5;

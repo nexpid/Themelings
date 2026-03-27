@@ -1,4 +1,4 @@
-// app/modules/profile_effects/ProfileEffectStore.tsx
+// app/modules/collectibles/profile_effects/ProfileEffectStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -598,7 +598,7 @@ case 54:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/profile_effects/ProfileEffectStore.tsx';
+    var4 = 'modules/collectibles/profile_effects/ProfileEffectStore.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

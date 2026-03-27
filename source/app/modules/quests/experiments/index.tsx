@@ -81,13 +81,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var18.bind(var1)(var5);
     var6 = var7.createApexExperiment;
     var5 = {'name': '2026-03-desktop-activity-quest-header', 'kind': 'user'};
-    var8 = {};
-    var8['enabled'] = var23;
+    var8 = {'enabled': false, 'showSkipButton': false};
     var5['defaultConfig'] = var8;
     var8 = {};
-    var9 = {};
-    var9['enabled'] = var24;
+    var9 = {'enabled': true, 'showSkipButton': true};
     var8[1] = var9;
+    var9 = {'enabled': true, 'showSkipButton': false};
+    var8[2] = var9;
     var5['variations'] = var8;
     var12 = var6.bind(var7)(var5);
     var5 = var19[var4];

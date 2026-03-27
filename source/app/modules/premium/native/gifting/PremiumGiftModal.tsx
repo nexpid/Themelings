@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['header'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot9 = var5;
-    var5 = 23;
+    var5 = 25;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -97,29 +97,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function PremiumGiftModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var19 = var1.recipientUserId;
-            var16 = var1.premiumType;
-            var15 = var1.planInterval;
-            var10 = var1.analyticsLocation;
-            var _closure2_slot0 = var10;
-            var2 = var1.analyticsLocations;
-            var _closure2_slot1 = var2;
-            var13 = var1.initialRoute;
-            var8 = var1.order;
-            var4 = undefined;
-            var _closure2_slot3 = var4;
-            var6 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var1 = 16;
-            var3 = var9[var1];
-            var3 = var6.bind(var4)(var3);
-            var3 = var3.bind(var4)(var2);
-            var5 = var3.analyticsLocations;
-            var3 = 17;
-            var3 = var9[var3];
-            var6 = var6.bind(var4)(var3);
-            var3 = function() {
+            var2 = arg1;
+            var20 = var2.recipientUserId;
+            var17 = var2.premiumType;
+            var16 = var2.planInterval;
+            var11 = var2.analyticsLocation;
+            var _closure2_slot0 = var11;
+            var1 = var2.analyticsLocations;
+            var _closure2_slot1 = var1;
+            var3 = var2.initialRoute;
+            var9 = var2.order;
+            var5 = undefined;
+            var _closure2_slot3 = var5;
+            var7 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var2 = 16;
+            var4 = var10[var2];
+            var4 = var7.bind(var5)(var4);
+            var4 = var4.bind(var5)(var1);
+            var6 = var4.analyticsLocations;
+            var4 = 17;
+            var4 = var10[var4];
+            var7 = var7.bind(var5)(var4);
+            var4 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 18;
@@ -130,15 +130,15 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var12 = var6.bind(var4)(var3);
-            var _closure2_slot2 = var12;
-            var9 = _closure1_slot4;
-            var6 = var9.useMemo;
-            var3 = new Array(3);
-            var3[0] = var12;
-            var3[1] = var10;
-            var3[2] = var2;
-            var2 = function() {
+            var13 = var7.bind(var5)(var4);
+            var _closure2_slot2 = var13;
+            var10 = _closure1_slot4;
+            var7 = var10.useMemo;
+            var4 = new Array(3);
+            var4[0] = var13;
+            var4[1] = var11;
+            var4[2] = var1;
+            var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 4;
@@ -158,24 +158,24 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var20 = var6.bind(var9)(var2, var3);
-            var2 = null;
-            if(!(var2 == var13)) { _fun0001_ip = 2; continue _fun0001 }
+            var21 = var7.bind(var10)(var1, var4);
+            var1 = null;
+            if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            if(!(var2 == var16)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var1 == var17)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = _closure1_slot7;
-            var2 = var2.PLAN_SELECT;
+            var1 = _closure1_slot7;
+            var1 = var1.PLAN_SELECT;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var3 = _closure1_slot7;
-            var2 = var3.CUSTOMIZATION;
+            var4 = _closure1_slot7;
+            var1 = var4.CUSTOMIZATION;
 case 6:
-            var13 = var2;
+            var3 = var1;
 case 2:
-            var6 = _closure1_slot4;
-            var9 = var6.useCallback;
-            var3 = function() {
+            var7 = _closure1_slot4;
+            var10 = var7.useCallback;
+            var4 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 19;
@@ -186,9 +186,9 @@ case 2:
                 var2 = var2.bind(var3)();
                 return var1;
             };
-            var2 = new Array(0);
-            var18 = var9.bind(var6)(var3, var2);
-            var2 = function useGetScreens(arg1, arg2, arg3) {
+            var1 = new Array(0);
+            var19 = var10.bind(var7)(var4, var1);
+            var1 = function useGetScreens(arg1, arg2, arg3) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var11 = arg1;
@@ -491,59 +491,90 @@ case 33:
                     return var1;
                 }
             };
-            var12 = var2.bind(var4)(var13, var18, var19);
-            var3 = var6.useState;
-            var2 = _closure1_slot8;
-            var2 = var2[var13];
-            var6 = var3.bind(var6)(var2);
-            var3 = _closure1_slot3;
-            var2 = 2;
-            var3 = var3.bind(var4)(var6, var2);
-            var2 = 0;
-            var9 = var3[var2];
-            var2 = 1;
-            var17 = var3[var2];
-            _closure2_slot3 = var17;
-            var3 = _closure1_slot6;
-            var10 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var1 = var14[var1];
-            var1 = var10.bind(var4)(var1);
-            var2 = var1.AnalyticsLocationProvider;
+            var13 = var1.bind(var5)(var3, var19, var20);
+            var4 = var7.useState;
+            var1 = _closure1_slot8;
+            var1 = var1[var3];
+            var7 = var4.bind(var7)(var1);
+            var4 = _closure1_slot3;
+            var1 = 2;
+            var4 = var4.bind(var5)(var7, var1);
+            var1 = 0;
+            var10 = var4[var1];
+            var1 = 1;
+            var18 = var4[var1];
+            _closure2_slot3 = var18;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 20;
+            var1 = var7[var1];
+            var4 = var4.bind(var5)(var1);
+            var1 = var4.isPremiumGiftingSupported;
+            var1 = var1.bind(var4)();
+            var4 = _closure1_slot6;
+            var14 = var3;
+            if(var1) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
+            var3 = _closure1_slot1;
+            var23 = _closure1_slot2;
+            var1 = 21;
+            var1 = var23[var1];
+            var3 = var3.bind(var5)(var1);
             var1 = {};
-            var1['value'] = var5;
-            var5 = 20;
-            var5 = var14[var5];
-            var5 = var10.bind(var4)(var5);
-            var6 = var5.NativeGiftContextProvider;
-            var5 = {};
-            var5['basePurchaseAnalytics'] = var20;
-            var5['recipientUserId'] = var19;
-            var5['onClose'] = var18;
-            var5['setCurrentAnalyticsStep'] = var17;
-            var5['premiumType'] = var16;
-            var5['planInterval'] = var15;
-            var5['initialOrder'] = var8;
-            var8 = _closure1_slot1;
-            var7 = 21;
-            var7 = var14[var7];
-            var8 = var8.bind(var4)(var7);
-            var7 = {};
-            var7['currentStep'] = var9;
-            var9 = 22;
-            var9 = var14[var9];
-            var9 = var10.bind(var4)(var9);
-            var10 = var9.Navigator;
-            var9 = {};
-            var9['initialRouteName'] = var13;
-            var9['screens'] = var12;
-            var11 = function onStateChange(arg1) {
+            var22 = _closure1_slot0;
+            var7 = 10;
+            var11 = var23[var7];
+            var11 = var22.bind(var5)(var11);
+            var15 = var11.intl;
+            var11 = var15.string;
+            var7 = var23[var7];
+            var7 = var22.bind(var5)(var7);
+            var7 = var7.t;
+            var7 = var7.JCFN/y;
+            var7 = var11.bind(var15)(var7);
+            var1['title'] = var7;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0001_ip = 36; continue _fun0001;
+case 34:
+            var11 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var2 = var15[var2];
+            var2 = var11.bind(var5)(var2);
+            var3 = var2.AnalyticsLocationProvider;
+            var2 = {};
+            var2['value'] = var6;
+            var6 = 22;
+            var6 = var15[var6];
+            var6 = var11.bind(var5)(var6);
+            var7 = var6.NativeGiftContextProvider;
+            var6 = {};
+            var6['basePurchaseAnalytics'] = var21;
+            var6['recipientUserId'] = var20;
+            var6['onClose'] = var19;
+            var6['setCurrentAnalyticsStep'] = var18;
+            var6['premiumType'] = var17;
+            var6['planInterval'] = var16;
+            var6['initialOrder'] = var9;
+            var9 = _closure1_slot1;
+            var8 = 23;
+            var8 = var15[var8];
+            var9 = var9.bind(var5)(var8);
+            var8 = {};
+            var8['currentStep'] = var10;
+            var10 = 24;
+            var10 = var15[var10];
+            var10 = var11.bind(var5)(var10);
+            var11 = var10.Navigator;
+            var10 = {};
+            var10['initialRouteName'] = var14;
+            var10['screens'] = var13;
+            var12 = function onStateChange(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = arg1;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+                    if(!(var2 != var1)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                     var2 = var1.routes;
                     var1 = var1.index;
                     var1 = var2[var1];
@@ -553,19 +584,20 @@ case 35:
                     var2 = var1[var2];
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 34:
+case 37:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var9['onStateChange'] = var11;
-            var9 = var3.bind(var4)(var10, var9);
-            var7['children'] = var9;
-            var7 = var3.bind(var4)(var8, var7);
-            var5['children'] = var7;
-            var5 = var3.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var10['onStateChange'] = var12;
+            var10 = var4.bind(var5)(var11, var10);
+            var8['children'] = var10;
+            var8 = var4.bind(var5)(var9, var8);
+            var6['children'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 36:
             return var1;
         }
     };

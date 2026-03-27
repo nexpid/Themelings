@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['feedFooterOrbImage'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 32;
+    var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -475,60 +475,81 @@ case 19:
             var13['size'] = var18;
             var13 = var16.bind(var4)(var14, var13);
             var9[1] = var13;
-            var14 = _closure1_slot11;
             if(var12) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
+            var13 = _closure1_slot11;
             var12 = _closure1_slot4;
-            var13 = {};
+            var14 = {};
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             if(var10) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var10 = 31;
+            var10 = 33;
             var10 = var19[var10];
             var10 = var18.bind(var4)(var10);
-            var13['source'] = var10;
+            var14['source'] = var10;
             var10 = var15.feedFooterImage;
-            var13['style'] = var10;
-            var10 = var13;
+            var14['style'] = var10;
+            var10 = var14;
             _fun0001_ip = 25; continue _fun0001;
 case 23:
-            var16 = 30;
+            var16 = 32;
             var16 = var19[var16];
             var16 = var18.bind(var4)(var16);
-            var13['source'] = var16;
+            var14['source'] = var16;
             var16 = var15.feedFooterImage;
-            var13['style'] = var16;
-            var10 = var13;
+            var14['style'] = var16;
+            var10 = var14;
 case 25:
-            var10 = var14.bind(var4)(var12, var10);
+            var10 = var13.bind(var4)(var12, var10);
             _fun0001_ip = 26; continue _fun0001;
 case 21:
             if(var11) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
             var12 = _closure1_slot0;
-            var18 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var11 = 28;
-            var11 = var18[var11];
-            var11 = var12.bind(var4)(var11);
-            var12 = var11.VideoComponent;
-            var11 = {'source': null, 'style': null, 'resizeMode': 'contain', 'muted': true, 'pauseWhileAppInactive': true, 'paused': false, 'poster': null, 'preventsDisplaySleepDuringVideoPlayback': false};
+            var11 = var13[var11];
+            var12 = var12.bind(var4)(var11);
+            var11 = var12.isAndroid;
+            var11 = var11.bind(var12)();
+            var14 = _closure1_slot11;
+            var18 = _closure1_slot1;
+            var19 = _closure1_slot2;
+            if(var11) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
+            var11 = 31;
+            var11 = var19[var11];
+            var12 = var18.bind(var4)(var11);
+            var11 = {'source': null, 'enableAnimation': true, 'resizeMode': 'contain'};
             var13 = {};
-            var16 = _closure1_slot1;
-            var19 = 29;
-            var19 = var18[var19];
-            var19 = var16.bind(var4)(var19);
-            var13['uri'] = var19;
+            var16 = 30;
+            var16 = var19[var16];
+            var16 = var18.bind(var4)(var16);
+            var13['uri'] = var16;
             var11['source'] = var13;
             var13 = var15.feedFooterOrbImage;
             var11['style'] = var13;
-            var13 = 27;
-            var13 = var18[var13];
-            var13 = var16.bind(var4)(var13);
-            var11['poster'] = var13;
             var11 = var14.bind(var4)(var12, var11);
-            _fun0001_ip = 29; continue _fun0001;
+            _fun0001_ip = 31; continue _fun0001;
+case 29:
+            var12 = 29;
+            var12 = var19[var12];
+            var13 = var18.bind(var4)(var12);
+            var12 = {};
+            var16 = 30;
+            var16 = var19[var16];
+            var16 = var18.bind(var4)(var16);
+            var12['url'] = var16;
+            var16 = true;
+            var12['autoplay'] = var16;
+            var16 = var15.feedFooterOrbImage;
+            var12['style'] = var16;
+            var11 = var14.bind(var4)(var13, var12);
+case 31:
+            _fun0001_ip = 32; continue _fun0001;
 case 27:
+            var14 = _closure1_slot11;
             var13 = _closure1_slot4;
             var12 = {};
             var16 = {};
@@ -542,7 +563,7 @@ case 27:
             var15 = var15.feedFooterOrbImage;
             var12['style'] = var15;
             var11 = var14.bind(var4)(var13, var12);
-case 29:
+case 32:
             var10 = var11;
 case 26:
             var9[2] = var10;

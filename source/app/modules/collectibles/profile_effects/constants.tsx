@@ -1,4 +1,4 @@
-// app/modules/profile_effects/constants.tsx
+// app/modules/collectibles/profile_effects/constants.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = 'modules/profile_effects/constants.tsx';
+    var2 = 'modules/collectibles/profile_effects/constants.tsx';
     var2 = var4.bind(var5)(var2);
     var2 = 0.1;
     var3['PROFILE_EFFECT_INTRO_MINIMUM_DELAY'] = var2;

@@ -2476,25 +2476,15 @@ case 220:
     var6['transitionToInviteSync'] = var10;
     var10 = function openNativeAppModal(arg1) {
         var6 = {};
-        var4 = _closure1_slot0;
-        var5 = _closure1_slot3;
-        var1 = 54;
-        var3 = var5[var1];
-        var1 = undefined;
-        var3 = var4.bind(var1)(var3);
-        var3 = var3.InviteAppLaunchedContextExperiment;
-        var3 = var3.definition;
-        var4 = var3.id;
-        var3 = new Array(1);
-        var3[0] = var4;
-        var6['experiments'] = var3;
-        var4 = _closure1_slot13;
-        var3 = var4.getInstallationForTracking;
-        var3 = var3.bind(var4)();
-        var6['installationId'] = var3;
+        var3 = _closure1_slot13;
+        var1 = var3.getInstallationForTracking;
+        var1 = var1.bind(var3)();
+        var6['installationId'] = var1;
         var4 = _closure1_slot1;
-        var3 = 55;
-        var3 = var5[var3];
+        var3 = _closure1_slot3;
+        var1 = 54;
+        var3 = var3[var1];
+        var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.openNativeAppModal;
         var2 = _closure1_slot26;
@@ -2543,7 +2533,7 @@ case 223:
             var9['type'] = var15;
             var9['code'] = var5;
             var9 = var13.bind(var14)(var9);
-            var9 = 56;
+            var9 = 55;
             var6 = var6[var9];
             var6 = var7.bind(var1)(var6);
             var6 = var6.ua;
@@ -2619,7 +2609,7 @@ case 228:
 case 235:
             var7 = _closure1_slot0;
             var9 = _closure1_slot3;
-            var6 = 57;
+            var6 = 56;
             var6 = var9[var6];
             var7 = var7.bind(var1)(var6);
             var6 = var7.getDefaultDynamicLinkTemplate;
@@ -2628,7 +2618,7 @@ case 235:
 case 49:
             var7 = _closure1_slot0;
             var13 = _closure1_slot3;
-            var6 = 57;
+            var6 = 56;
             var6 = var13[var6];
             var7 = var7.bind(var1)(var6);
             var6 = var7.getInviteDynamicLinkTemplate;
@@ -2636,7 +2626,7 @@ case 49:
 case 236:
             var13 = _closure1_slot0;
             var14 = _closure1_slot3;
-            var6 = 58;
+            var6 = 57;
             var7 = var14[var6];
             var13 = var13.bind(var1)(var7);
             var7 = var13.generateAttemptId;
@@ -2685,7 +2675,7 @@ case 239:
             var9 = var7.DEEP_LINK_CLICKED;
             var7 = {};
             var15 = _closure1_slot0;
-            var14 = 59;
+            var14 = 58;
             var14 = var17[var14];
             var15 = var15.bind(var1)(var14);
             var14 = var15.maybeExtractId;
@@ -2699,7 +2689,7 @@ case 239:
 case 234:
             var7 = _closure1_slot1;
             var9 = _closure1_slot3;
-            var6 = 60;
+            var6 = 59;
             var6 = var9[var6];
             var7 = var7.bind(var1)(var6);
             var6 = var7.launch;
@@ -2754,7 +2744,7 @@ case 242:
     var6['openApp'] = var10;
     var6['transitionToInviteChannelSync'] = var7;
     var6['trackInviteServerClicked'] = var2;
-    var7 = 61;
+    var7 = 60;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

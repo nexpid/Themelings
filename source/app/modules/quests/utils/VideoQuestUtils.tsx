@@ -58,25 +58,99 @@ case 10:
         }
     };
     var _closure1_slot6 = var6;
-    var5 = function formatVideoProgressRatio(arg1, arg2) {
+    var1 = function formatWatchTaskRemainingTimeReadable(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 6;
+            var1 = var4[var1];
+            var8 = undefined;
+            var4 = var3.bind(var8)(var1);
+            var3 = var4.getRemainingTaskTime;
+            var1 = arg1;
+            var1 = var3.bind(var4)(var1);
+            var7 = var1.minutes;
+            var6 = var1.seconds;
+            var1 = 0;
+            if(!(var7 > var1)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            if(!(!(var6 > var1))) { _fun0002_ip = 14; continue _fun0002 }
+case 12:
+            if(!(!(var7 > var1))) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+            var3 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var1 = 7;
+            var4 = var9[var1];
+            var4 = var3.bind(var8)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var1 = var9[var1];
+            var1 = var3.bind(var8)(var1);
+            var1 = var1.t;
+            var3 = var1["0BZpdi"];
+            var1 = {};
+            var1['count'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0002_ip = 17; continue _fun0002;
+case 15:
+            var4 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 7;
+            var5 = var10[var3];
+            var5 = var4.bind(var8)(var5);
+            var9 = var5.intl;
+            var5 = var9.formatToPlainString;
+            var3 = var10[var3];
+            var3 = var4.bind(var8)(var3);
+            var3 = var3.t;
+            var4 = var3.SxnF/O;
+            var3 = {};
+            var3['count'] = var7;
+            var1 = var5.bind(var9)(var4, var3);
+case 17:
+            _fun0002_ip = 18; continue _fun0002;
+case 14:
+            var3 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var2 = 7;
+            var4 = var9[var2];
+            var4 = var3.bind(var8)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var9[var2];
+            var2 = var3.bind(var8)(var2);
+            var2 = var2.t;
+            var3 = var2.lW/66D;
+            var2 = {};
+            var2['minutes'] = var7;
+            var2['seconds'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 18:
+            return var1;
+        }
+    };
+    var _closure1_slot7 = var1;
+    var5 = function formatVideoProgressRatio(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var7 = arg1;
             var3 = arg2;
             var4 = 0;
             var2 = var7 <= var4;
             var1 = 0;
-            if(var2) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(var2) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var2 = var3 <= var4;
             var1 = 0;
-            if(var2) { _fun0002_ip = 12; continue _fun0002 }
-case 14:
+            if(var2) { _fun0003_ip = 19; continue _fun0003 }
+case 21:
             var4 = var7 >= var3;
             var6 = 1;
             var2 = var6;
-            if(var4) { _fun0002_ip = 9; continue _fun0002 }
-case 15:
+            if(var4) { _fun0003_ip = 9; continue _fun0003 }
+case 22:
             var8 = global;
             var5 = var8.Math;
             var4 = var5.min;
@@ -90,11 +164,11 @@ case 15:
             var2 = var4.bind(var5)(var6, var3);
 case 9:
             var1 = var2;
-case 12:
+case 19:
             return var1;
         }
     };
-    var _closure1_slot7 = var5;
+    var _closure1_slot8 = var5;
     var4 = function getVideoQuestModalKey(arg1) {
         var1 = global;
         var1 = var1.HermesInternal;
@@ -104,7 +178,7 @@ case 12:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var1 = global;
     var12 = var1.Object;
     var11 = var12.defineProperty;
@@ -139,7 +213,7 @@ case 12:
     var7 = var8.bind(var9)(var7);
     var3['sendVideoProgress'] = var6;
     var6 = function getVideoOrientation(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.assets;
@@ -148,103 +222,41 @@ case 0:
             var4 = var5 == var3;
             var2 = 'portrait';
             var1 = var2;
-            if(var4) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(var4) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var4 = var3.width;
             var4 = var5 == var4;
             var1 = var2;
-            if(var4) { _fun0003_ip = 16; continue _fun0003 }
-case 18:
+            if(var4) { _fun0004_ip = 23; continue _fun0004 }
+case 25:
             var4 = var3.height;
             var4 = var5 == var4;
             var1 = var2;
-            if(var4) { _fun0003_ip = 16; continue _fun0003 }
-case 19:
+            if(var4) { _fun0004_ip = 23; continue _fun0004 }
+case 26:
             var4 = var3.width;
             var3 = var3.height;
             var3 = var4 > var3;
-            if(!var3) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+            if(!var3) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var2 = 'landscape';
-case 20:
+case 27:
             var1 = var2;
-case 16:
+case 23:
             return var1;
         }
     };
     var3['getVideoOrientation'] = var6;
-    var6 = function(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+    var6 = function getVideoQuestProgressRemainingAccessibilityLabel(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var6 = arg1;
-            var1 = var6.percentComplete;
-            var3 = 0;
-            var1 = var1 > var3;
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var4 = 6;
-            var4 = var7[var4];
+            var2 = arg2;
+            if(var2) { _fun0005_ip = 19; continue _fun0005 }
+case 29:
+            var3 = _closure1_slot7;
             var7 = undefined;
-            var5 = var5.bind(var7)(var4);
-            var4 = var5.getRemainingTaskTime;
-            var4 = var4.bind(var5)(var6);
-            var10 = var4.minutes;
-            var9 = var4.seconds;
-            if(!(var10 > var3)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-            if(!(!(var9 > var3))) { _fun0004_ip = 24; continue _fun0004 }
-case 22:
-            if(!(!(var10 > var3))) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
-            var4 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var3 = 7;
-            var5 = var8[var3];
-            var5 = var4.bind(var7)(var5);
-            var6 = var5.intl;
-            var5 = var6.formatToPlainString;
-            var3 = var8[var3];
-            var3 = var4.bind(var7)(var3);
-            var3 = var3.t;
-            var4 = var3["0BZpdi"];
-            var3 = {};
-            var3['count'] = var9;
-            var6 = var5.bind(var6)(var4, var3);
-            _fun0004_ip = 27; continue _fun0004;
-case 25:
-            var4 = _closure1_slot0;
-            var11 = _closure1_slot1;
-            var3 = 7;
-            var5 = var11[var3];
-            var5 = var4.bind(var7)(var5);
-            var8 = var5.intl;
-            var5 = var8.formatToPlainString;
-            var3 = var11[var3];
-            var3 = var4.bind(var7)(var3);
-            var3 = var3.t;
-            var4 = var3.SxnF/O;
-            var3 = {};
-            var3['count'] = var10;
-            var6 = var5.bind(var8)(var4, var3);
-case 27:
-            _fun0004_ip = 28; continue _fun0004;
-case 24:
-            var4 = _closure1_slot0;
-            var11 = _closure1_slot1;
-            var3 = 7;
-            var5 = var11[var3];
-            var5 = var4.bind(var7)(var5);
-            var8 = var5.intl;
-            var5 = var8.formatToPlainString;
-            var3 = var11[var3];
-            var3 = var4.bind(var7)(var3);
-            var3 = var3.t;
-            var4 = var3.lW/66D;
-            var3 = {};
-            var3['minutes'] = var10;
-            var3['seconds'] = var9;
-            var6 = var5.bind(var8)(var4, var3);
-case 28:
+            var2 = arg1;
+            var6 = var3.bind(var7)(var2);
             var3 = _closure1_slot0;
             var8 = _closure1_slot1;
             var2 = 7;
@@ -255,31 +267,74 @@ case 28:
             var2 = var8[var2];
             var2 = var3.bind(var7)(var2);
             var2 = var2.t;
-            if(var1) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+            var3 = var2.nzYZrt;
+            var2 = {};
+            var2['remainingTime'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
+case 19:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 7;
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.ij5E/5;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        }
+    };
+    var3['getVideoQuestProgressRemainingAccessibilityLabel'] = var6;
+    var6 = function(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var4 = arg1;
+            var2 = var4.percentComplete;
+            var1 = 0;
+            var1 = var2 > var1;
+            var3 = _closure1_slot7;
+            var7 = undefined;
+            var6 = var3.bind(var7)(var4);
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 7;
+            var4 = var8[var2];
+            var4 = var3.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var8[var2];
+            var2 = var3.bind(var7)(var2);
+            var2 = var2.t;
+            if(var1) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
             var3 = var2.GNsKiW;
             var1 = {};
             var1['remainTime'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0004_ip = 31; continue _fun0004;
-case 29:
+            _fun0006_ip = 32; continue _fun0006;
+case 30:
             var3 = var2.c59/Tp;
             var2 = {};
             var2['remainTime'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 31:
+case 32:
             return var1;
         }
     };
     var3['getVideoQuestWatchCtaAccessibilityLabel'] = var6;
     var6 = function(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var8 = arg1;
             var2 = var8.percentComplete;
             var1 = 0;
-            if(!(!(var2 > var1))) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+            if(!(!(var2 > var1))) { _fun0007_ip = 33; continue _fun0007 }
+case 34:
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
             var1 = 7;
@@ -300,8 +355,8 @@ case 33:
             var5 = var5.bind(var6)(var8);
             var1['remainTime'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0005_ip = 34; continue _fun0005;
-case 32:
+            _fun0007_ip = 35; continue _fun0007;
+case 33:
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
             var2 = 7;
@@ -322,21 +377,21 @@ case 32:
             var6 = var6.bind(var7)(var8);
             var2['remainTime'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 34:
+case 35:
             return var1;
         }
     };
     var3['getVideoQuestWatchCtaText'] = var6;
     var3['formatVideoProgressRatio'] = var5;
     var5 = function getVideoQuestEndCardCtaText(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.ctaConfig;
             var1 = var1.buttonLabel;
             var2 = null;
-            if(!(var2 == var1)) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+            if(!(var2 == var1)) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 7;
@@ -350,13 +405,13 @@ case 36:
             var2 = var2.t;
             var2 = var2.iiTtpJ;
             var1 = var3.bind(var4)(var2);
-case 35:
+case 36:
             return var1;
         }
     };
     var3['getVideoQuestEndCardCtaText'] = var5;
     var5 = function handleVideoQuestModalClose(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
             var9 = var1.questId;
@@ -368,42 +423,42 @@ case 0:
             var1 = var2.getVideoProgress;
             var15 = var1.bind(var2)(var9);
             var3 = null;
-            if(!(var3 != var15)) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+            if(!(var3 != var15)) { _fun0009_ip = 38; continue _fun0009 }
+case 39:
             var2 = _closure1_slot3;
             var1 = var2.getQuest;
             var5 = var1.bind(var2)(var9);
             var1 = var3 != var5;
-            if(!var1) { _fun0007_ip = 39; continue _fun0007 }
-case 21:
+            if(!var1) { _fun0009_ip = 40; continue _fun0009 }
+case 28:
             var8 = var5.userStatus;
             var10 = var3 == var8;
             var2 = undefined;
-            if(var10) { _fun0007_ip = 40; continue _fun0007 }
+            if(var10) { _fun0009_ip = 41; continue _fun0009 }
 case 8:
             var2 = var8.enrolledAt;
-case 40:
+case 41:
             var1 = var3 != var2;
-case 39:
-            if(!var1) { _fun0007_ip = 41; continue _fun0007 }
-case 32:
+case 40:
+            if(!var1) { _fun0009_ip = 42; continue _fun0009 }
+case 33:
             var8 = var5.userStatus;
             var10 = var3 == var8;
             var2 = undefined;
-            if(var10) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
+            if(var10) { _fun0009_ip = 43; continue _fun0009 }
+case 44:
             var2 = var8.completedAt;
-case 42:
+case 43:
             var1 = var3 == var2;
-case 41:
-            if(!var1) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+case 42:
+            if(!var1) { _fun0009_ip = 45; continue _fun0009 }
+case 46:
             var3 = _closure1_slot6;
             var2 = var15.maxTimestampSec;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var2);
-case 44:
-            var5 = _closure1_slot7;
+case 45:
+            var5 = _closure1_slot8;
             var2 = var15.maxTimestampSec;
             var1 = var15.duration;
             var3 = undefined;
@@ -444,7 +499,7 @@ case 44:
             var1['properties'] = var5;
             var1['sourceQuestContent'] = var4;
             var1 = var2.bind(var3)(var1);
-case 37:
+case 38:
             var1 = undefined;
             return var1;
         }
@@ -452,7 +507,7 @@ case 37:
     var3['handleVideoQuestModalClose'] = var5;
     var3['getVideoQuestModalKey'] = var4;
     var2 = function isVideoQuestProgressing(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var2 = arg1;
             var3 = _closure1_slot0;
@@ -465,19 +520,19 @@ case 0:
             var1 = var1.bind(var3)(var2);
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0008_ip = 46; continue _fun0008 }
-case 18:
+            if(var3) { _fun0010_ip = 47; continue _fun0010 }
+case 25:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 9;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.isModalOpen;
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot9;
             var2 = var2.id;
             var2 = var5.bind(var4)(var2);
             var1 = var3.bind(var4)(var2);
-case 46:
+case 47:
             return var1;
         }
     };

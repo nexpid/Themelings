@@ -1117,16 +1117,6 @@ case 120:
 case 119:
             if(!var1) { _fun0019_ip = 121; continue _fun0019 }
 case 122:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot3;
-            var4 = 14;
-            var4 = var7[var4];
-            var6 = var6.bind(var5)(var4);
-            var4 = var6.isUserEligibleForTierTemplates;
-            var1 = var4.bind(var6)();
-case 121:
-            if(!var1) { _fun0019_ip = 123; continue _fun0019 }
-case 124:
             var4 = _closure1_slot0;
             var6 = _closure1_slot3;
             var3 = 14;
@@ -1135,7 +1125,7 @@ case 124:
             var3 = var4.isGuildEligibleForTierTemplates;
             var2 = var2.id;
             var1 = var3.bind(var4)(var2);
-case 123:
+case 121:
             return var1;
         }
     };

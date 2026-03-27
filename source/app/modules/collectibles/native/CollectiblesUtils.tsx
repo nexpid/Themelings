@@ -200,79 +200,70 @@ case 35:
     var5 = function extractPriceByPurchaseTypes(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var4 = arg1;
-            var3 = arg2;
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 2;
-            var2 = var5[var2];
-            var5 = undefined;
-            var6 = var6.bind(var5)(var2);
-            var2 = var6.isAndroid;
-            var2 = var2.bind(var6)();
-            if(!var2) { _fun0004_ip = 36; continue _fun0004 }
+            var2 = arg1;
+            var7 = arg2;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 2;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.isGooglePlayBillingSupported;
+            var4 = var4.bind(var5)();
+            if(var4) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 3;
-            var2 = var7[var2];
-            var6 = var6.bind(var5)(var2);
-            var2 = var6.isMetaQuest;
-            var2 = var2.bind(var6)();
-            if(var2) { _fun0004_ip = 36; continue _fun0004 }
-case 38:
-            var2 = _closure1_slot3;
-            var2 = var2.MOBILE;
-            if(!(var3 !== var2)) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-            var2 = _closure1_slot3;
-            var2 = var2.MOBILE_PREMIUM_TIER_2;
-            if(!(var3 === var2)) { _fun0004_ip = 41; continue _fun0004 }
-case 39:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var2 = 4;
-            var2 = var7[var2];
-            var8 = var6.bind(var5)(var2);
-            var7 = var8.getProduct;
-            var9 = var4.googleSkuIds;
-            var2 = null;
-            var10 = var2 == var9;
-            var6 = undefined;
-            if(var10) { _fun0004_ip = 15; continue _fun0004 }
-case 42:
-            var6 = var9[var3];
-case 15:
-            var7 = var7.bind(var8)(var6);
-            var6 = var2 != var7;
-            var2 = undefined;
-            if(!var6) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
-            var6 = {};
-            var8 = var7.price;
-            var6['amount'] = var8;
-            var8 = var7.currencyCode;
-            var6['currency'] = var8;
-            var7 = var7.priceString;
-            var6['priceString'] = var7;
-            var7 = 0;
-            var6['tax'] = var7;
-            var7 = false;
-            var6['taxInclusive'] = var7;
-            var2 = var6;
-case 43:
-            return var2;
-case 41:
-            var2 = null;
-            return var2;
-case 36:
-            var2 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 5;
-            var1 = var6[var1];
-            var2 = var2.bind(var5)(var1);
-            var1 = var2.extractPriceByPurchaseTypes;
-            var1 = var1.bind(var2)(var4, var3);
+            var4 = 4;
+            var4 = var6[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.extractPriceByPurchaseTypes;
+            var4 = var4.bind(var5)(var2, var7);
+            return var4;
+case 36:
+            var4 = _closure1_slot3;
+            var4 = var4.MOBILE;
+            if(!(var7 !== var4)) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+            var4 = _closure1_slot3;
+            var4 = var4.MOBILE_PREMIUM_TIER_2;
+            if(!(var7 === var4)) { _fun0004_ip = 40; continue _fun0004 }
+case 38:
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 3;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.getProduct;
+            var6 = var2.googleSkuIds;
+            var2 = null;
+            var8 = var2 == var6;
+            var3 = undefined;
+            if(var8) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
+            var3 = var6[var7];
+case 41:
+            var3 = var4.bind(var5)(var3);
+            var2 = var2 != var3;
+            var1 = undefined;
+            if(!var2) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+            var2 = {};
+            var4 = var3.price;
+            var2['amount'] = var4;
+            var4 = var3.currencyCode;
+            var2['currency'] = var4;
+            var3 = var3.priceString;
+            var2['priceString'] = var3;
+            var3 = 0;
+            var2['tax'] = var3;
+            var3 = false;
+            var2['taxInclusive'] = var3;
+            var1 = var2;
+case 43:
+            return var1;
+case 40:
+            var1 = null;
             return var1;
         }
     };
@@ -283,7 +274,7 @@ case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 6;
+            var2 = 5;
             var2 = var3[var2];
             var3 = undefined;
             var4 = var4.bind(var3)(var2);
@@ -293,7 +284,7 @@ case 0:
 case 46:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var8 = 4;
+            var8 = 3;
             var2 = var2[var8];
             var6 = var4.bind(var3)(var2);
             var5 = var6.getProduct;
@@ -362,7 +353,7 @@ case 45:
         return var1;
     };
     var _closure1_slot6 = var6;
-    var6 = 9;
+    var6 = 8;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -432,8 +423,8 @@ case 59:
 case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0007_ip = 64; continue _fun0007 }
-case 65:
+            if(!(var1 != var4)) { _fun0007_ip = 39; continue _fun0007 }
+case 64:
             var1 = new Array(0);
             var3 = _closure1_slot7;
             var2 = var4.values;
@@ -442,23 +433,23 @@ case 65:
             var4 = var3.bind(var5)(var2);
             var3 = var4.bind(var5)();
             var2 = var3.done;
-            if(var2) { _fun0007_ip = 66; continue _fun0007 }
-case 67:
+            if(var2) { _fun0007_ip = 65; continue _fun0007 }
+case 66:
             var7 = var3.value;
             var2 = _closure1_slot6;
             var2 = var2.bind(var5)(var7);
-            if(!var2) { _fun0007_ip = 68; continue _fun0007 }
-case 69:
+            if(!var2) { _fun0007_ip = 67; continue _fun0007 }
+case 68:
             var2 = var1.push;
             var2 = var2.bind(var1)(var7);
-case 68:
+case 67:
             var7 = var4.bind(var5)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0007_ip = 67; continue _fun0007 }
-case 66:
+            if(!var2) { _fun0007_ip = 66; continue _fun0007 }
+case 65:
             return var1;
-case 64:
+case 39:
             var1 = new Array(0);
             return var1;
         }
@@ -475,7 +466,7 @@ case 0:
                 var1 = null;
                 var1 = var1 == var3;
                 if(var1) { _fun0008_ip = 28; continue _fun0008 }
-case 70:
+case 69:
                 var4 = var2.unpublishedAt;
                 var3 = global;
                 var3 = var3.Date;
@@ -490,10 +481,10 @@ case 28:
                 var3 = var2.length;
                 var2 = 0;
                 var2 = var3 > var2;
-                if(!var1) { _fun0008_ip = 71; continue _fun0008 }
-case 72:
-                var1 = var2;
+                if(!var1) { _fun0008_ip = 70; continue _fun0008 }
 case 71:
+                var1 = var2;
+case 70:
                 return var1;
             }
         };
@@ -505,7 +496,7 @@ case 71:
         var1 = {};
         var6 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var3 = 7;
+        var3 = 6;
         var7 = var5[var3];
         var4 = undefined;
         var7 = var6.bind(var4)(var7);
@@ -518,7 +509,7 @@ case 71:
         var3 = var3.ORB_PROFILE_BADGE;
         var1['icon'] = var3;
         var3 = _closure1_slot1;
-        var2 = 8;
+        var2 = 7;
         var2 = var5[var2];
         var2 = var3.bind(var4)(var2);
         var1['iconSrc'] = var2;

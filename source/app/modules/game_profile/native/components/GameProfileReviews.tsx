@@ -380,8 +380,8 @@ case 23:
             var6['style'] = var9;
             var9 = var14 != var13;
             var10 = null;
-            if(!var9) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+            if(!var9) { _fun0002_ip = 9; continue _fun0002 }
+case 24:
             var19 = _closure1_slot7;
             var17 = _closure1_slot4;
             var9 = {};
@@ -411,22 +411,22 @@ case 25:
             var20 = var22.bind(var4)(var21, var20);
             var9['children'] = var20;
             var10 = var19.bind(var4)(var17, var9);
-case 24:
+case 9:
             var9 = new Array(3);
             var9[0] = var10;
             var17 = var14 != var13;
             var10 = null;
-            if(!var17) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            if(!var17) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var17 = 0;
             var19 = var16 > var17;
             var10 = null;
-            if(!var19) { _fun0002_ip = 26; continue _fun0002 }
-case 28:
+            if(!var19) { _fun0002_ip = 25; continue _fun0002 }
+case 27:
             var17 = var15 > var17;
             var10 = null;
-            if(!var17) { _fun0002_ip = 26; continue _fun0002 }
-case 11:
+            if(!var17) { _fun0002_ip = 25; continue _fun0002 }
+case 28:
             var20 = _closure1_slot8;
             var19 = _closure1_slot4;
             var17 = {};
@@ -485,7 +485,7 @@ case 11:
             var21[1] = var22;
             var17['children'] = var21;
             var10 = var20.bind(var4)(var19, var17);
-case 26:
+case 25:
             var9[1] = var10;
             var10 = 0;
             if(!(!(var16 <= var10))) { _fun0002_ip = 29; continue _fun0002 }

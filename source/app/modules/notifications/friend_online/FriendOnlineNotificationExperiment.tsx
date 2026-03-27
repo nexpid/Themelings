@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var6.bind(var1)(var4);
     var5 = var8.createApexExperiment;
-    var4 = {'kind': 'user', 'name': '2026-01-friend-is-online-notif-rate-limits'};
+    var4 = {'kind': 'user', 'name': '2026-03-friend-is-online-v3'};
     var9 = {};
     var10 = false;
     var9['showSettingsToggle'] = var10;
@@ -28,9 +28,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['showSettingsToggle'] = var11;
     var9[2] = var10;
-    var10 = {};
-    var10['showSettingsToggle'] = var11;
-    var9[3] = var10;
     var4['variations'] = var9;
     var4 = var5.bind(var8)(var4);
     var _closure1_slot0 = var4;

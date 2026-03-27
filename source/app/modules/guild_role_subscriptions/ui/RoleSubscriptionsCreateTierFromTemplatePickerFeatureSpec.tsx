@@ -109,17 +109,6 @@ case 5:
 case 4:
                     if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot1;
-                    var4 = 5;
-                    var5 = var5[var4];
-                    var4 = undefined;
-                    var5 = var6.bind(var4)(var5);
-                    var4 = var5.isUserEligibleForTierTemplates;
-                    var1 = var4.bind(var5)();
-case 6:
-                    if(!var1) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
                     var3 = 5;
@@ -129,7 +118,7 @@ case 9:
                     var3 = var4.isGuildEligibleForTierTemplates;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
-case 8:
+case 6:
                     return var1;
                 }
             };

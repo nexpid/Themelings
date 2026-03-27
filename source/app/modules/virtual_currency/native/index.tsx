@@ -26,9 +26,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 2;
     var2 = var4[var2];
     var2 = var5.bind(var1)(var2);
+    var2 = var2.BalanceWidgetPillButton;
+    var3['BalanceWidgetPillButton'] = var2;
+    var2 = 3;
+    var2 = var4[var2];
+    var2 = var5.bind(var1)(var2);
     var2 = var2.BalanceCounter;
     var3['BalanceCounter'] = var2;
-    var2 = 3;
+    var2 = 4;
     var4 = var4[var2];
     var2 = metroImportDefault;
     var2 = var2.bind(var1)(var4);

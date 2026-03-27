@@ -20,9 +20,9 @@ case 0:
             var4 = undefined;
             var16 = var1.bind(var4)();
             var39 = _closure1_slot0;
-            var37 = _closure1_slot2;
+            var36 = _closure1_slot2;
             var42 = 10;
-            var1 = var37[var42];
+            var1 = var36[var42];
             var2 = var39.bind(var4)(var1);
             var1 = var2.usePrivateThreadMode;
             var41 = var1.bind(var2)(var13);
@@ -65,7 +65,7 @@ case 0:
             var1 = 2;
             var2 = var2.bind(var4)(var3, var1);
             var14 = 0;
-            var34 = var2[var14];
+            var37 = var2[var14];
             var1 = 1;
             var1 = var2[var1];
             var2 = {};
@@ -451,20 +451,20 @@ case 14:
             var17 = var1.bind(var4)(var2);
             var6 = _closure1_slot1;
             var1 = 12;
-            var2 = var37[var1];
+            var2 = var36[var1];
             var3 = var6.bind(var4)(var2);
             var2 = 13;
-            var2 = var37[var2];
+            var2 = var36[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.CREATE_THREAD;
             var2 = var3.bind(var4)(var2);
             var5 = var2.analyticsLocations;
             var2 = 14;
-            var2 = var37[var2];
+            var2 = var36[var2];
             var2 = var6.bind(var4)(var2);
             var15 = var2.bind(var4)();
             var2 = 15;
-            var2 = var37[var2];
+            var2 = var36[var2];
             var3 = var6.bind(var4)(var2);
             var23 = false;
             var8 = true;
@@ -480,16 +480,16 @@ case 14:
             var2 = var3.useRef;
             var18 = var2.bind(var3)(var11);
             var2 = var35.parentMessageId;
-            var36 = var11 != var2;
+            var34 = var11 != var2;
             var3 = _closure1_slot14;
-            var1 = var37[var1];
+            var1 = var36[var1];
             var1 = var39.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
             var1['value'] = var5;
             var7 = _closure1_slot13;
             var5 = 16;
-            var5 = var37[var5];
+            var5 = var36[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var5['absolute'] = var8;
@@ -539,7 +539,7 @@ case 14:
             var29['style'] = var33;
             var43 = _closure1_slot13;
             var33 = 17;
-            var33 = var37[var33];
+            var33 = var36[var33];
             var33 = var39.bind(var4)(var33);
             var40 = var33.ThreadIcon;
             var33 = {'color': 'white', 'size': 'lg'};
@@ -550,32 +550,32 @@ case 14:
             var29[0] = var30;
             var33 = _closure1_slot13;
             var30 = 18;
-            var30 = var37[var30];
+            var30 = var36[var30];
             var30 = var39.bind(var4)(var30);
             var32 = var30.Text;
             var30 = {'style': null, 'variant': 'text-xs/bold', 'color': 'interactive-text-default'};
             var40 = var16.title;
             var30['style'] = var40;
             var43 = 19;
-            var37 = var37[var43];
-            var37 = var39.bind(var4)(var37);
-            var39 = var37.intl;
-            var37 = var39.string;
+            var36 = var36[var43];
+            var36 = var39.bind(var4)(var36);
+            var40 = var36.intl;
+            var39 = var40.string;
             var44 = _closure1_slot0;
-            var40 = _closure1_slot2;
-            var40 = var40[var43];
-            var40 = var44.bind(var4)(var40);
-            var40 = var40.t;
-            if(var36) { _fun0001_ip = 43; continue _fun0001 }
+            var36 = _closure1_slot2;
+            var36 = var36[var43];
+            var36 = var44.bind(var4)(var36);
+            var44 = var36.t;
+            if(var34) { _fun0001_ip = 43; continue _fun0001 }
 case 44:
-            var36 = var40.j3XWjD;
+            var36 = var44.j3XWjD;
             _fun0001_ip = 45; continue _fun0001;
 case 43:
-            var36 = var40.JPvIiL;
+            var36 = var44.JPvIiL;
 case 45:
-            var37 = var37.bind(var39)(var36);
-            var36 = var37.toUpperCase;
-            var36 = var36.bind(var37)();
+            var39 = var39.bind(var40)(var36);
+            var36 = var39.toUpperCase;
+            var36 = var36.bind(var39)();
             var30['children'] = var36;
             var30 = var33.bind(var4)(var32, var30);
             var29[1] = var30;
@@ -589,17 +589,36 @@ case 45:
             var30['ref'] = var18;
             var30['chatInputRef'] = var20;
             var30['threadSettingsDraft'] = var35;
-            var30['threadNameError'] = var34;
+            var30['threadNameError'] = var37;
+            var37 = _closure1_slot0;
+            var36 = var36[var43];
+            var36 = var37.bind(var4)(var36);
+            var37 = var36.intl;
+            var36 = var37.string;
+            var40 = _closure1_slot0;
+            var39 = _closure1_slot2;
+            var39 = var39[var43];
+            var39 = var40.bind(var4)(var39);
+            var39 = var39.t;
+            if(var34) { _fun0001_ip = 46; continue _fun0001 }
+case 47:
+            var34 = var39.j3XWjD;
+            _fun0001_ip = 48; continue _fun0001;
+case 46:
+            var34 = var39.JPvIiL;
+case 48:
+            var34 = var36.bind(var37)(var34);
+            var30['accessibilityLabel'] = var34;
             var30 = var33.bind(var4)(var32, var30);
             var29[2] = var30;
             var30 = null;
-            if(var31) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
+            if(var31) { _fun0001_ip = 49; continue _fun0001 }
+case 50:
             var31 = var35.parentMessageId;
             var31 = var11 != var31;
             var30 = null;
-            if(var31) { _fun0001_ip = 46; continue _fun0001 }
-case 48:
+            if(var31) { _fun0001_ip = 49; continue _fun0001 }
+case 51:
             var32 = _closure1_slot0;
             var31 = _closure1_slot2;
             var31 = var31[var42];
@@ -607,8 +626,8 @@ case 48:
             var31 = var31.PrivateThreadMode;
             var31 = var31.Disabled;
             var30 = null;
-            if(!(var41 !== var31)) { _fun0001_ip = 46; continue _fun0001 }
-case 49:
+            if(!(var41 !== var31)) { _fun0001_ip = 49; continue _fun0001 }
+case 52:
             var33 = _closure1_slot13;
             var32 = _closure1_slot6;
             var31 = {};
@@ -622,16 +641,6 @@ case 49:
             var34 = var40.bind(var4)(var34);
             var36 = var34.TableSwitchRow;
             var34 = {'start': true, 'end': true};
-            var44 = var39[var43];
-            var44 = var40.bind(var4)(var44);
-            var46 = var44.intl;
-            var45 = var46.string;
-            var44 = var39[var43];
-            var44 = var40.bind(var4)(var44);
-            var44 = var44.t;
-            var44 = var44.Wy5RIQ;
-            var44 = var45.bind(var46)(var44);
-            var34['accessibilityHint'] = var44;
             var44 = var39[var42];
             var44 = var40.bind(var4)(var44);
             var44 = var44.PrivateThreadMode;
@@ -669,8 +678,8 @@ case 0:
                     var1 = _closure2_slot0;
                     var4 = var1.parentChannelId;
                     var1 = null;
-                    if(!(var1 != var4)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                    if(!(var1 != var4)) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 11;
@@ -682,7 +691,7 @@ case 51:
                     var5 = arg1;
                     var1['isPrivate'] = var5;
                     var1 = var2.bind(var3)(var4, var1);
-case 50:
+case 53:
                     var1 = undefined;
                     return var1;
                 }
@@ -691,7 +700,7 @@ case 50:
             var34 = var37.bind(var4)(var36, var34);
             var31['children'] = var34;
             var30 = var33.bind(var4)(var32, var31);
-case 46:
+case 49:
             var29[3] = var30;
             var26['children'] = var29;
             var27 = var28.bind(var4)(var27, var26);
@@ -700,8 +709,8 @@ case 46:
             var27 = var35.parentMessageId;
             var28 = var11 != var27;
             var27 = null;
-            if(!var28) { _fun0001_ip = 52; continue _fun0001 }
-case 53:
+            if(!var28) { _fun0001_ip = 55; continue _fun0001 }
+case 56:
             var30 = _closure1_slot14;
             var29 = _closure1_slot6;
             var28 = {};
@@ -731,7 +740,7 @@ case 53:
             var31[1] = var32;
             var28['children'] = var31;
             var27 = var30.bind(var4)(var29, var28);
-case 52:
+case 55:
             var26[1] = var27;
             var22['children'] = var26;
             var22 = var25.bind(var4)(var24, var22);
@@ -741,8 +750,8 @@ case 52:
             var12 = var13.rateLimitPerUser;
             var12 = var12 > var14;
             var11 = null;
-            if(!var12) { _fun0001_ip = 54; continue _fun0001 }
-case 55:
+            if(!var12) { _fun0001_ip = 57; continue _fun0001 }
+case 58:
             var15 = _closure1_slot13;
             var14 = _closure1_slot6;
             var12 = {};
@@ -764,7 +773,7 @@ case 55:
             var16 = var22.bind(var4)(var21, var16);
             var12['children'] = var16;
             var11 = var15.bind(var4)(var14, var12);
-case 54:
+case 57:
             var9[2] = var11;
             var16 = _closure1_slot13;
             var11 = _closure1_slot1;
@@ -988,8 +997,8 @@ case 0:
             var6 = var1.bind(var5)(var3);
             var1 = null;
             var3 = var1 == var6;
-            if(var3) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+            if(var3) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
             var4 = _closure1_slot13;
             var3 = _closure1_slot16;
             var2 = {};
@@ -999,7 +1008,7 @@ case 57:
             var6 = var6.threadSettingsDraft;
             var2['threadSettingsDraft'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 56:
+case 59:
             return var1;
         }
     };

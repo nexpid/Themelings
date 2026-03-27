@@ -940,14 +940,14 @@ case 75:
                     var2 = var2[var13];
                     var2 = var35.bind(var22)(var2);
                     var2 = var2.SECTION_INDEX_FAVORITES;
-                    if(!(var34 !== var2)) { _fun0011_ip = 51; continue _fun0011 }
-case 76:
+                    if(!(var34 !== var2)) { _fun0011_ip = 76; continue _fun0011 }
+case 77:
                     var35 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var13];
                     var2 = var35.bind(var22)(var2);
                     var2 = var2.SECTION_INDEX_RECENTS;
-                    if(!(var34 !== var2)) { _fun0011_ip = 77; continue _fun0011 }
+                    if(!(var34 !== var2)) { _fun0011_ip = 55; continue _fun0011 }
 case 78:
                     var35 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -979,7 +979,7 @@ case 83:
                     var36 = var33;
                     var35 = var2;
                     _fun0011_ip = 79; continue _fun0011;
-case 77:
+case 55:
                     var41 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var33 = var2[var16];
@@ -994,7 +994,7 @@ case 77:
                     var36 = var8;
                     var35 = var7;
                     _fun0011_ip = 79; continue _fun0011;
-case 51:
+case 76:
                     var41 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var33 = var2[var16];

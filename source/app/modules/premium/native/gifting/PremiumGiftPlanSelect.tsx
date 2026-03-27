@@ -621,8 +621,8 @@ case 0:
                                 var1 = var1.layout;
                                 var7 = var1.height;
                                 var6 = 0;
-                                if(!(var7 > var6)) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+                                if(!(var7 > var6)) { _fun0005_ip = 4; continue _fun0005 }
+case 17:
                                 var8 = _closure2_slot14;
                                 var4 = var8.current;
                                 var3 = _closure4_slot1;
@@ -634,16 +634,16 @@ case 18:
                                 var9 = null;
                                 var9 = var9 != var8;
                                 var6 = 0;
-                                if(!var9) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
-                                var6 = var8;
+                                if(!var9) { _fun0005_ip = 18; continue _fun0005 }
 case 19:
+                                var6 = var8;
+case 18:
                                 var2 = var2.bind(var5)(var7, var6);
                                 var4[var3] = var2;
                                 var2 = _closure2_slot15;
                                 var1 = undefined;
                                 var1 = var2.bind(var1)();
-case 17:
+case 4:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -670,18 +670,18 @@ case 17:
             var9 = var10.useIsWindowSmall;
             var9 = var9.bind(var10)();
             var10 = var12 != var14;
-            if(!var10) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+            if(!var10) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var11 = var14.length;
             var10 = var11 > var15;
-case 21:
-            if(var9) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
-            var9 = 'compact';
-            if(!var10) { _fun0001_ip = 25; continue _fun0001 }
+case 20:
+            if(var9) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
+            var9 = 'compact';
+            if(!var10) { _fun0001_ip = 24; continue _fun0001 }
+case 22:
             var9 = 'smallCompact';
-case 25:
+case 24:
             _closure2_slot18 = var9;
             var10 = _closure1_slot5;
             var19 = var10.useMemo;
@@ -756,10 +756,10 @@ case 0:
                     var3 = var7.get;
                     var11 = var3.bind(var7)();
                     var3 = 0;
-                    if(!var11) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
-                    var3 = 1;
+                    if(!var11) { _fun0006_ip = 25; continue _fun0006 }
 case 26:
+                    var3 = 1;
+case 25:
                     var3 = var5.bind(var10)(var3, var6);
                     var1['opacity'] = var3;
                     var3 = {};
@@ -772,10 +772,10 @@ case 26:
                     var2 = var8.get;
                     var8 = var2.bind(var8)();
                     var2 = 100;
-                    if(!var8) { _fun0006_ip = 28; continue _fun0006 }
-case 29:
-                    var2 = 0;
+                    if(!var8) { _fun0006_ip = 27; continue _fun0006 }
 case 28:
+                    var2 = 0;
+case 27:
                     var2 = var4.bind(var5)(var2, var6);
                     var3['translateY'] = var2;
                     var2 = new Array(1);
@@ -911,15 +911,15 @@ case 28:
             var3[3] = var29;
             var3[4] = var19;
             var19 = var9.bind(var10)(var4, var3);
-            if(var2) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
-            if(var1) { _fun0001_ip = 32; continue _fun0001 }
-case 33:
+            if(var2) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
+            if(var1) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var3 = _closure1_slot13;
             var2 = _closure1_slot14;
             var1 = {};
-            if(!var7) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(!var7) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var10 = _closure1_slot12;
             var9 = _closure1_slot1;
             var29 = _closure1_slot2;
@@ -928,7 +928,7 @@ case 35:
             var9 = var9.bind(var5)(var4);
             var4 = {'animated': true, 'barStyle': 'light-content'};
             var7 = var10.bind(var5)(var9, var4);
-case 34:
+case 33:
             var4 = new Array(6);
             var4[0] = var7;
             var10 = _closure1_slot12;
@@ -1042,8 +1042,8 @@ case 34:
             var30[0] = var31;
             var11['style'] = var30;
             var31 = var12 != var16;
-            if(!var31) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+            if(!var31) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
             var33 = _closure1_slot12;
             var32 = _closure1_slot1;
             var36 = _closure1_slot2;
@@ -1062,7 +1062,7 @@ case 37:
             var30['size'] = var34;
             var30['user'] = var16;
             var31 = var33.bind(var5)(var32, var30);
-case 36:
+case 35:
             var30 = new Array(4);
             var30[0] = var31;
             var34 = _closure1_slot12;
@@ -1075,8 +1075,8 @@ case 36:
             var32 = {'style': null, 'variant': 'heading-xxl/extrabold', 'color': 'always-white'};
             var35 = var8.title;
             var32['style'] = var35;
-            if(!(var12 == var16)) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
+            if(!(var12 == var16)) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var41 = _closure1_slot0;
             var35 = _closure1_slot2;
             var36 = var35[var40];
@@ -1088,8 +1088,8 @@ case 39:
             var35 = var35.t;
             var35 = var35.dqQgZv;
             var35 = var36.bind(var37)(var35);
-            _fun0001_ip = 40; continue _fun0001;
-case 38:
+            _fun0001_ip = 39; continue _fun0001;
+case 37:
             var37 = _closure1_slot0;
             var36 = _closure1_slot2;
             var41 = var36[var40];
@@ -1102,13 +1102,13 @@ case 38:
             var37 = var36.m5ggvH;
             var36 = {};
             var44 = var16.globalName;
-            if(!(var12 == var44)) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
-            var44 = var16.username;
+            if(!(var12 == var44)) { _fun0001_ip = 40; continue _fun0001 }
 case 41:
+            var44 = var16.username;
+case 40:
             var36['username'] = var44;
             var35 = var41.bind(var43)(var37, var36);
-case 40:
+case 39:
             var32['children'] = var35;
             var32 = var34.bind(var5)(var33, var32);
             var30[1] = var32;
@@ -1134,11 +1134,11 @@ case 40:
             var31 = var33.bind(var5)(var32, var31);
             var30[2] = var31;
             var31 = var13.length;
-            if(!(var15 !== var31)) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
-            var31 = null;
-            if(!(var5 !== var14)) { _fun0001_ip = 45; continue _fun0001 }
+            if(!(var15 !== var31)) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
+            var31 = null;
+            if(!(var5 !== var14)) { _fun0001_ip = 44; continue _fun0001 }
+case 42:
             var34 = _closure1_slot13;
             var33 = _closure1_slot14;
             var32 = {};
@@ -1160,8 +1160,8 @@ case 43:
             var35['width'] = var26;
             var40 = var12 != var22;
             var38 = undefined;
-            if(!var40) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
+            if(!var40) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
             var41 = _closure1_slot1;
             var40 = _closure1_slot2;
             var40 = var40[var42];
@@ -1170,7 +1170,7 @@ case 47:
             var40 = var40.PX_8;
             var40 = var24 * var40;
             var38 = var22 + var40;
-case 46:
+case 45:
             var35['height'] = var38;
             var38 = function onConfigurePanGesture(arg1) {
                 var3 = arg1;
@@ -1213,7 +1213,7 @@ case 46:
             var35[1] = var36;
             var32['children'] = var35;
             var31 = var34.bind(var5)(var33, var32);
-case 45:
+case 44:
             var30[3] = var31;
             var11['children'] = var30;
             var11 = var28.bind(var5)(var29, var11);
@@ -1222,8 +1222,8 @@ case 45:
             var4[5] = var7;
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0001_ip = 48; continue _fun0001;
-case 32:
+            _fun0001_ip = 47; continue _fun0001;
+case 31:
             var4 = _closure1_slot12;
             var3 = _closure1_slot8;
             var2 = {};
@@ -1239,11 +1239,11 @@ case 32:
             var17 = var8.dmGiftingContent;
             var11['style'] = var17;
             var13 = var13.length;
-            if(!(var15 !== var13)) { _fun0001_ip = 49; continue _fun0001 }
-case 50:
-            var13 = null;
-            if(!(var5 !== var14)) { _fun0001_ip = 51; continue _fun0001 }
+            if(!(var15 !== var13)) { _fun0001_ip = 48; continue _fun0001 }
 case 49:
+            var13 = null;
+            if(!(var5 !== var14)) { _fun0001_ip = 50; continue _fun0001 }
+case 48:
             var17 = _closure1_slot12;
             var15 = _closure1_slot1;
             var28 = _closure1_slot2;
@@ -1259,10 +1259,10 @@ case 49:
             var25 = var25.length;
             var14['windowSize'] = var25;
             var25 = var12 != var22;
-            if(!var25) { _fun0001_ip = 52; continue _fun0001 }
-case 53:
-            var23 = var22;
+            if(!var25) { _fun0001_ip = 51; continue _fun0001 }
 case 52:
+            var23 = var22;
+case 51:
             var25 = _closure1_slot1;
             var26 = _closure1_slot2;
             var22 = 9;
@@ -1292,14 +1292,14 @@ case 52:
             var14['customAnimation'] = var19;
             var14['onSnapToItem'] = var18;
             var13 = var17.bind(var5)(var15, var14);
-case 51:
+case 50:
             var11['children'] = var13;
             var13 = var4.bind(var5)(var3, var11);
             var11 = new Array(2);
             var11[0] = var13;
             var12 = var12 != var16;
-            if(!var12) { _fun0001_ip = 54; continue _fun0001 }
-case 55:
+            if(!var12) { _fun0001_ip = 53; continue _fun0001 }
+case 54:
             var15 = _closure1_slot12;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -1310,15 +1310,15 @@ case 55:
             var13 = {};
             var13['giftRecipient'] = var16;
             var12 = var15.bind(var5)(var14, var13);
-case 54:
+case 53:
             var11[1] = var12;
             var7['children'] = var11;
             var7 = var10.bind(var5)(var9, var7);
             var2['children'] = var7;
             var1 = var4.bind(var5)(var3, var2);
-case 48:
-            _fun0001_ip = 56; continue _fun0001;
-case 30:
+case 47:
+            _fun0001_ip = 55; continue _fun0001;
+case 29:
             var4 = _closure1_slot12;
             var3 = _closure1_slot8;
             var2 = {};
@@ -1335,7 +1335,7 @@ case 30:
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 56:
+case 55:
             return var1;
         }
     };

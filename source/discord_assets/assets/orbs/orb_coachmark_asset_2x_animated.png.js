@@ -1,4 +1,4 @@
-// discord_assets/assets/orbs/orb_coachmark_asset_2x.webm.js
+// discord_assets/assets/orbs/orb_coachmark_asset_2x_animated.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/orbs/orb_coachmark_asset_2x.webm.js';
+    var2 = '../discord_assets/assets/orbs/orb_coachmark_asset_2x_animated.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/7846ed9988a35ad1652efd6d874dca6a1acc257ae4715195a70de5a2ee3a7fa3.webm';
+    var2 = 'https://cdn.discordapp.com/assets/content/6db549e820779a560ccb0f4a499695c1cccb9bfae2c61fbc883be4f6960851c5.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 132933;
+    var4 = 526029;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

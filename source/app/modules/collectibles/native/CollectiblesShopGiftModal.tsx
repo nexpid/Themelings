@@ -238,99 +238,6 @@ case 2:
         return var1;
     };
     var _closure1_slot11 = var1;
-    var1 = function GiftingNotSupportedModal(arg1) {
-        var1 = arg1;
-        var1 = var1.onDismiss;
-        var _closure2_slot0 = var1;
-        var4 = _closure1_slot8;
-        var9 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var1 = 7;
-        var1 = var10[var1];
-        var3 = undefined;
-        var1 = var9.bind(var3)(var1);
-        var2 = var1.Navigator;
-        var1 = {};
-        var5 = 'Unsupported';
-        var1['initialRouteName'] = var5;
-        var5 = {};
-        var6 = {};
-        var8 = 8;
-        var11 = var10[var8];
-        var11 = var9.bind(var3)(var11);
-        var12 = var11.intl;
-        var11 = var12.string;
-        var8 = var10[var8];
-        var8 = var9.bind(var3)(var8);
-        var8 = var8.t;
-        var8 = var8.JCFN/y;
-        var8 = var11.bind(var12)(var8);
-        var6['title'] = var8;
-        var8 = 9;
-        var8 = var10[var8];
-        var10 = var9.bind(var3)(var8);
-        var9 = var10.getHeaderCloseButton;
-        var8 = function() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 6;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.pop;
-                var2 = var2.bind(var3)();
-                var4 = _closure2_slot0;
-                var3 = null;
-                if(!(var3 != var4)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                var2 = _closure2_slot0;
-                var2 = var2.bind(var1)();
-case 2:
-                return var1;
-            }
-        };
-        var8 = var9.bind(var10)(var8);
-        var6['headerLeft'] = var8;
-        var7 = function render() {
-            var4 = _closure1_slot8;
-            var3 = _closure1_slot5;
-            var2 = {};
-            var5 = {'flex': 1, 'alignItems': 'center', 'justifyContent': 'center', 'padding': 24};
-            var2['style'] = var5;
-            var7 = _closure1_slot8;
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 14;
-            var5 = var12[var1];
-            var1 = undefined;
-            var5 = var11.bind(var1)(var5);
-            var6 = var5.Text;
-            var5 = {'variant': 'text-lg/normal', 'color': 'text-default'};
-            var8 = 8;
-            var9 = var12[var8];
-            var9 = var11.bind(var1)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var12[var8];
-            var8 = var11.bind(var1)(var8);
-            var8 = var8.t;
-            var8 = var8.I22zuX;
-            var8 = var9.bind(var10)(var8);
-            var5['children'] = var8;
-            var5 = var7.bind(var1)(var6, var5);
-            var2['children'] = var5;
-            var1 = var4.bind(var1)(var3, var2);
-            return var1;
-        };
-        var6['render'] = var7;
-        var5['Unsupported'] = var6;
-        var1['screens'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot12 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -381,18 +288,18 @@ case 2:
     var5 = 'modules/collectibles/native/CollectiblesShopGiftModal.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function CollectiblesShopGiftModal(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
             var13 = var2.skuId;
             var _closure2_slot0 = var13;
             var5 = var2.analyticsLocations;
             var9 = var2.lockedRecipientUser;
-            var7 = var2.onGiftModalDismiss;
-            var8 = var2.giftingOrigin;
+            var8 = var2.onGiftModalDismiss;
+            var7 = var2.giftingOrigin;
             var4 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 15;
+            var2 = 14;
             var2 = var12[var2];
             var6 = undefined;
             var11 = var4.bind(var6)(var2);
@@ -415,11 +322,11 @@ case 0:
             var1 = var12[var1];
             var2 = var10.bind(var6)(var1);
             var1 = new Array(1);
-            var14 = 0;
-            var16 = var1;
-            var15 = var5;
-            var5 = arraySpread(var16, var15, var14);
-            var4 = 16;
+            var17 = 0;
+            var19 = var1;
+            var18 = var5;
+            var5 = arraySpread(var19, var18, var17);
+            var4 = 15;
             var4 = var12[var4];
             var4 = var10.bind(var6)(var4);
             var4 = var4.COLLECTIBLES_MOBILE_GIFT_MODAL;
@@ -430,31 +337,47 @@ case 0:
             var10 = var1.analyticsLocations;
             var1 = null;
             var2 = var1 == var11;
-            if(var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 17;
+            var2 = 16;
             var2 = var5[var2];
             var4 = var4.bind(var6)(var2);
-            var2 = var4.isMetaQuest;
+            var2 = var4.isCollectibleGiftingSupported;
             var2 = var2.bind(var4)();
             var5 = _closure1_slot8;
-            if(var2) { _fun0003_ip = 6; continue _fun0003 }
+            if(var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var4 = _closure1_slot10;
+            var4 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var2 = 17;
+            var2 = var16[var2];
+            var4 = var4.bind(var6)(var2);
             var2 = {};
-            var2['product'] = var11;
-            var2['analyticsLocations'] = var10;
-            var2['lockedRecipientUser'] = var9;
-            var2['onGiftModalDismiss'] = var7;
-            var2['giftingOrigin'] = var8;
+            var2['onDismiss'] = var8;
+            var15 = _closure1_slot0;
+            var12 = 8;
+            var13 = var16[var12];
+            var13 = var15.bind(var6)(var13);
+            var14 = var13.intl;
+            var13 = var14.string;
+            var12 = var16[var12];
+            var12 = var15.bind(var6)(var12);
+            var12 = var12.t;
+            var12 = var12.JCFN/y;
+            var12 = var13.bind(var14)(var12);
+            var2['title'] = var12;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0003_ip = 8; continue _fun0003;
+            _fun0002_ip = 8; continue _fun0002;
 case 6:
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot10;
             var3 = {};
-            var3['onDismiss'] = var7;
+            var3['product'] = var11;
+            var3['analyticsLocations'] = var10;
+            var3['lockedRecipientUser'] = var9;
+            var3['onGiftModalDismiss'] = var8;
+            var3['giftingOrigin'] = var7;
             var2 = var5.bind(var6)(var4, var3);
 case 8:
             var1 = var2;

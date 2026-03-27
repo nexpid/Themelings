@@ -83,53 +83,57 @@ case 4:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
-            var12 = var2.isFetching;
+            var9 = var2.isFetching;
             var6 = undefined;
-            if(!(var12 === var6)) { _fun0002_ip = 8; continue _fun0002 }
+            if(!(var9 === var6)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var12 = false;
+            var9 = false;
 case 8:
             var10 = var2.entitlements;
             var8 = var2.unactivatedFractionalPremiumUnits;
             var11 = var2.currentUser;
             var1 = var2.premiumSubscription;
             var7 = var2.fetchedAllEntitlements;
-            var18 = var2.excludeReverseTrialFromCountdown;
+            var20 = var2.excludeReverseTrialFromCountdown;
             var2 = {};
             var3 = false;
             var2['isFractionalPremiumActive'] = var3;
-            var9 = _closure1_slot11;
-            var9 = var9.NONE;
-            var2['fractionalState'] = var9;
-            var13 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var12 = _closure1_slot11;
+            var12 = var12.NONE;
+            var2['fractionalState'] = var12;
+            var16 = _closure1_slot1;
+            var15 = _closure1_slot2;
             var14 = 7;
-            var15 = var9[var14];
-            var16 = var13.bind(var6)(var15);
-            var15 = 0;
-            var16 = var16.bind(var6)(var15);
-            var2['startsAt'] = var16;
-            var9 = var9[var14];
-            var9 = var13.bind(var6)(var9);
-            var9 = var9.bind(var6)(var15);
-            var2['endsAt'] = var9;
-            var9 = '';
-            var2['currentEntitlementId'] = var9;
-            var13 = new Array(0);
-            var2['unactivatedUnits'] = var13;
+            var12 = var15[var14];
+            var13 = var16.bind(var6)(var12);
+            var12 = 0;
+            var13 = var13.bind(var6)(var12);
+            var2['startsAt'] = var13;
+            var13 = var15[var14];
+            var13 = var16.bind(var6)(var13);
+            var13 = var13.bind(var6)(var12);
+            var2['endsAt'] = var13;
+            var13 = '';
+            var2['currentEntitlementId'] = var13;
+            var15 = var15[var14];
+            var15 = var16.bind(var6)(var15);
+            var15 = var15.bind(var6)(var12);
+            var2['currentEntitlementEndsAt'] = var15;
+            var15 = new Array(0);
+            var2['unactivatedUnits'] = var15;
             var2['fetched'] = var7;
-            if(var12) { _fun0002_ip = 10; continue _fun0002 }
+            if(var9) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var12 = null;
-            if(!(var12 != var11)) { _fun0002_ip = 12; continue _fun0002 }
+            var9 = null;
+            if(!(var9 != var11)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
             var11 = var10.length;
-            if(!(var15 === var11)) { _fun0002_ip = 14; continue _fun0002 }
+            if(!(var12 === var11)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
             var11 = var8.length;
-            if(!(var15 !== var11)) { _fun0002_ip = 12; continue _fun0002 }
+            if(!(var12 !== var11)) { _fun0002_ip = 12; continue _fun0002 }
 case 14:
-            var13 = var10.filter;
+            var15 = var10.filter;
             var11 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -145,8 +149,8 @@ case 16:
                     return var1;
                 }
             };
-            var16 = var13.bind(var10)(var11);
-            var13 = var16.sort;
+            var16 = var15.bind(var10)(var11);
+            var15 = var16.sort;
             var11 = function(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -187,36 +191,36 @@ case 19:
                     return var1;
                 }
             };
-            var11 = var13.bind(var16)(var11);
-            var13 = var11.reverse;
-            var13 = var13.bind(var11)();
-            var13 = var11.length;
-            if(!(var13 > var15)) { _fun0002_ip = 23; continue _fun0002 }
+            var11 = var15.bind(var16)(var11);
+            var15 = var11.reverse;
+            var15 = var15.bind(var11)();
+            var15 = var11.length;
+            if(!(var15 > var12)) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
             var16 = var11.length;
-            var13 = var10.length;
-            if(!(var16 === var13)) { _fun0002_ip = 25; continue _fun0002 }
+            var15 = var10.length;
+            if(!(var16 === var15)) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
-            var13 = var11[var15];
-            var13 = var13.startsAt;
-            if(!(var12 != var13)) { _fun0002_ip = 25; continue _fun0002 }
+            var15 = var11[var12];
+            var15 = var15.startsAt;
+            if(!(var9 != var15)) { _fun0002_ip = 25; continue _fun0002 }
 case 27:
-            var13 = var11[var15];
-            var13 = var13.endsAt;
-            if(!(var12 != var13)) { _fun0002_ip = 25; continue _fun0002 }
+            var15 = var11[var12];
+            var15 = var15.endsAt;
+            if(!(var9 != var15)) { _fun0002_ip = 25; continue _fun0002 }
 case 23:
-            var13 = var11[var15];
-            var16 = var12 != var13;
+            var15 = var11[var12];
+            var16 = var9 != var15;
             var11 = null;
             if(!var16) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
-            var11 = var13;
+            var11 = var15;
 case 28:
-            var13 = _closure1_slot11;
-            var13 = var13.NONE;
-            if(!(var12 != var11)) { _fun0002_ip = 30; continue _fun0002 }
+            var15 = _closure1_slot11;
+            var15 = var15.NONE;
+            if(!(var9 != var11)) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
-            if(!(var12 != var1)) { _fun0002_ip = 32; continue _fun0002 }
+            if(!(var9 != var1)) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
             var16 = var1.status;
             var1 = _closure1_slot10;
@@ -230,11 +234,11 @@ case 34:
             var16 = _closure1_slot11;
             var1 = var16.FP_SUB_PAUSED;
 case 35:
-            var13 = var1;
+            var15 = var1;
 case 30:
-            if(!var18) { _fun0002_ip = 36; continue _fun0002 }
+            if(!var20) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
-            var1 = var12 == var11;
+            var1 = var9 == var11;
             var16 = undefined;
             if(var1) { _fun0002_ip = 38; continue _fun0002 }
 case 39:
@@ -242,19 +246,19 @@ case 39:
 case 38:
             var1 = _closure1_slot8;
             var1 = var1.REVERSE_TRIAL;
-            var18 = var16 === var1;
+            var20 = var16 === var1;
 case 36:
             var1 = {};
-            var16 = var12 != var11;
+            var16 = var9 != var11;
             var1['isFractionalPremiumActive'] = var16;
-            var1['fractionalState'] = var13;
-            if(!(var12 == var11)) { _fun0002_ip = 40; continue _fun0002 }
+            var1['fractionalState'] = var15;
+            if(!(var9 == var11)) { _fun0002_ip = 40; continue _fun0002 }
 case 41:
             var16 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var13 = var13[var14];
-            var13 = var16.bind(var6)(var13);
-            var13 = var13.bind(var6)(var15);
+            var15 = _closure1_slot2;
+            var15 = var15[var14];
+            var15 = var16.bind(var6)(var15);
+            var15 = var15.bind(var6)(var12);
             _fun0002_ip = 42; continue _fun0002;
 case 40:
             var17 = _closure1_slot1;
@@ -262,42 +266,59 @@ case 40:
             var16 = var16[var14];
             var17 = var17.bind(var6)(var16);
             var16 = var11.startsAt;
-            var13 = var17.bind(var6)(var16);
+            var15 = var17.bind(var6)(var16);
 case 42:
-            var1['startsAt'] = var13;
-            if(!(var12 == var11)) { _fun0002_ip = 43; continue _fun0002 }
+            var1['startsAt'] = var15;
+            if(!(var9 == var11)) { _fun0002_ip = 43; continue _fun0002 }
 case 44:
             var16 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var13 = var13[var14];
-            var13 = var16.bind(var6)(var13);
-            var13 = var13.bind(var6)(var15);
+            var15 = _closure1_slot2;
+            var15 = var15[var14];
+            var15 = var16.bind(var6)(var15);
+            var15 = var15.bind(var6)(var12);
             _fun0002_ip = 45; continue _fun0002;
 case 43:
-            var15 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var14 = var17[var14];
-            var15 = var15.bind(var6)(var14);
-            var16 = _closure1_slot0;
-            var14 = 10;
-            var14 = var17[var14];
-            var17 = var16.bind(var6)(var14);
-            var16 = var17.extendDateWithUnconsumedFractionalPremium;
-            var22 = var11.endsAt;
-            var23 = var17;
-            var21 = var8;
-            var20 = undefined;
-            var19 = var18;
-            var14 = var23[var16](var22, var21, var20, var19, var18);
-            var13 = var15.bind(var6)(var14);
+            var17 = _closure1_slot1;
+            var19 = _closure1_slot2;
+            var16 = var19[var14];
+            var17 = var17.bind(var6)(var16);
+            var18 = _closure1_slot0;
+            var16 = 10;
+            var16 = var19[var16];
+            var19 = var18.bind(var6)(var16);
+            var18 = var19.extendDateWithUnconsumedFractionalPremium;
+            var24 = var11.endsAt;
+            var25 = var19;
+            var23 = var8;
+            var22 = undefined;
+            var21 = var20;
+            var16 = var25[var18](var24, var23, var22, var21, var20);
+            var15 = var17.bind(var6)(var16);
 case 45:
-            var1['endsAt'] = var13;
-            var12 = var12 != var11;
-            if(!var12) { _fun0002_ip = 46; continue _fun0002 }
+            var1['endsAt'] = var15;
+            var15 = var9 != var11;
+            if(!var15) { _fun0002_ip = 46; continue _fun0002 }
 case 47:
-            var9 = var11.id;
+            var13 = var11.id;
 case 46:
-            var1['currentEntitlementId'] = var9;
+            var1['currentEntitlementId'] = var13;
+            if(!(var9 == var11)) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
+            var13 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var9 = var9[var14];
+            var9 = var13.bind(var6)(var9);
+            var9 = var9.bind(var6)(var12);
+            _fun0002_ip = 50; continue _fun0002;
+case 48:
+            var13 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var12 = var12[var14];
+            var12 = var13.bind(var6)(var12);
+            var11 = var11.endsAt;
+            var9 = var12.bind(var6)(var11);
+case 50:
+            var1['currentEntitlementEndsAt'] = var9;
             var1['unactivatedUnits'] = var8;
             var1['fetched'] = var7;
             return var1;
@@ -330,18 +351,18 @@ case 25:
             var1 = var1.Error;
             var4 = var1.prototype;
             var4 = Object.create(var4, {constructor: {value: var1}});
-            var23 = var4;
-            var22 = var5;
-            var1 = new var23[var1](var22, var21);
+            var25 = var4;
+            var24 = var5;
+            var1 = new var25[var1](var24, var23);
             var1 = var1 instanceof Object ? var1 : var4;
             throw var1;
 case 12:
             return var2;
 case 10:
             var1 = {};
-            var22 = var1;
-            var21 = var2;
-            var2 = copyDataProperties(var22, var21);
+            var24 = var1;
+            var23 = var2;
+            var2 = copyDataProperties(var24, var23);
             var2 = 'fetched';
             var1[var2] = var3;
             return var1;
@@ -359,10 +380,10 @@ case 10:
 case 0:
             var1 = arguments[0];
             var12 = undefined;
-            if(!(var1 === var12)) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+            if(!(var1 === var12)) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
             var1 = {'forceFetch': false, 'excludeReverseTrial': false, 'excludeReverseTrialFromCountdown': false};
-case 48:
+case 51:
             var15 = var1.forceFetch;
             var _closure2_slot0 = var15;
             var3 = var1.excludeReverseTrial;
@@ -456,11 +477,11 @@ case 48:
             var1 = {};
             var14 = _closure1_slot13;
             var14 = var14.bind(var12)(var15, var11);
-            if(var14) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(var14) { _fun0005_ip = 53; continue _fun0005 }
+case 28:
             var15 = _closure1_slot7;
             var14 = var15.fetchingAllEntitlements;
-case 50:
+case 53:
             var1['isFetching'] = var14;
             var1['entitlements'] = var10;
             var1['unactivatedFractionalPremiumUnits'] = var8;
@@ -491,8 +512,8 @@ case 0:
                     var2 = _closure2_slot3;
                     var1 = undefined;
                     var2 = var4.bind(var1)(var3, var2);
-                    if(!var2) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+                    if(!var2) { _fun0006_ip = 54; continue _fun0006 }
+case 55:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 13;
@@ -504,7 +525,7 @@ case 53:
                     var5 = var5.FRACTIONAL_REDEMPTION;
                     var2['entitlementType'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 52:
+case 54:
                     return var1;
                 }
             };
@@ -550,10 +571,10 @@ case 0:
                         var4 = var5.isEqual;
                         var3 = _closure3_slot0;
                         var3 = var4.bind(var5)(var1, var3);
-                        if(var3) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+                        if(var3) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
                         var1 = _closure3_slot0;
-case 54:
+case 56:
                         return var1;
                     }
                 };

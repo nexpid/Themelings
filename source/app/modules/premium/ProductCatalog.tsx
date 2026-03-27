@@ -591,7 +591,7 @@ case 21:
     var34 = var34.Perk;
     var34 = var34.ANIMATED_EMOJIS;
     var37[1] = var34;
-    var34 = new Array(18);
+    var34 = new Array(24);
     var34[0] = var37;
     var37 = new Array(2);
     var37[0] = var32;
@@ -723,12 +723,60 @@ case 21:
     var34[16] = var37;
     var37 = new Array(2);
     var37[0] = var6;
+    var40 = var36[var39];
+    var40 = var35.bind(var1)(var40);
+    var40 = var40.Perk;
+    var40 = var40.INCREASED_FILE_UPLOAD_SIZE;
+    var37[1] = var40;
+    var34[17] = var37;
+    var37 = new Array(2);
+    var37[0] = var24;
+    var40 = var36[var39];
+    var40 = var35.bind(var1)(var40);
+    var40 = var40.Perk;
+    var40 = var40.PROFILE_BADGES;
+    var37[1] = var40;
+    var34[18] = var37;
+    var37 = new Array(2);
+    var37[0] = var21;
+    var40 = var36[var39];
+    var40 = var35.bind(var1)(var40);
+    var40 = var40.Perk;
+    var40 = var40.APP_ICONS;
+    var37[1] = var40;
+    var34[19] = var37;
+    var37 = new Array(2);
+    var37[0] = var19;
+    var40 = var36[var39];
+    var40 = var35.bind(var1)(var40);
+    var40 = var40.Perk;
+    var40 = var40.BOOST_DISCOUNT;
+    var37[1] = var40;
+    var34[20] = var37;
+    var37 = new Array(2);
+    var37[0] = var18;
+    var40 = var36[var39];
+    var40 = var35.bind(var1)(var40);
+    var40 = var40.Perk;
+    var40 = var40.FREE_BOOSTS;
+    var37[1] = var40;
+    var34[21] = var37;
+    var37 = new Array(2);
+    var37[0] = var13;
+    var40 = var36[var39];
+    var40 = var35.bind(var1)(var40);
+    var40 = var40.Perk;
+    var40 = var40.INSTALL_PREMIUM_APPLICATIONS;
+    var37[1] = var40;
+    var34[22] = var37;
+    var37 = new Array(2);
+    var37[0] = var7;
     var39 = var36[var39];
     var39 = var35.bind(var1)(var39);
     var39 = var39.Perk;
-    var39 = var39.INCREASED_FILE_UPLOAD_SIZE;
+    var39 = var39.INCREASED_VIDEO_UPLOAD_QUALITY;
     var37[1] = var39;
-    var34[17] = var37;
+    var34[23] = var37;
     var37 = var38.prototype;
     var37 = Object.create(var37, {constructor: {value: var38}});
     var50 = var37;
@@ -802,11 +850,19 @@ case 25:
             var9 = var1.bind(var4)(var5);
             if(!(var2 != var9)) { _fun0004_ip = 28; continue _fun0004 }
 case 29:
+            var4 = var2 == var10;
+            var6 = undefined;
+            var1 = undefined;
+            if(var4) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
+            var1 = var10.perks;
+case 30:
+            if(!(var2 != var1)) { _fun0004_ip = 28; continue _fun0004 }
+case 32:
             var8 = _closure1_slot1;
             var1 = _closure1_slot2;
             var7 = 13;
             var4 = var1[var7];
-            var6 = undefined;
             var11 = var8.bind(var6)(var4);
             var8 = var11.getConfig;
             var4 = {};
@@ -818,12 +874,12 @@ case 29:
             var1 = var8.bind(var6)(var1);
             var1 = var1.DenormalizedPerksReadConfig;
             var1 = var1.CONTROL;
-            if(!(var4 === var1)) { _fun0004_ip = 30; continue _fun0004 }
+            if(!(var4 === var1)) { _fun0004_ip = 33; continue _fun0004 }
 case 28:
             var1 = var5.getFeatureValue;
             var1 = var1.bind(var5)(var10);
             return var1;
-case 30:
+case 33:
             var1 = var5.getFeatureValue;
             var1 = var1.bind(var5)(var10);
             var8 = _closure1_slot0;
@@ -834,10 +890,10 @@ case 30:
             var5 = var8.hasPerk;
             var11 = var2 == var10;
             var2 = undefined;
-            if(var11) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+            if(var11) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var2 = var10.perks;
-case 31:
+case 34:
             var2 = var5.bind(var8)(var2, var9);
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -845,10 +901,10 @@ case 31:
             var3 = var5.bind(var6)(var3);
             var3 = var3.DenormalizedPerksReadConfig;
             var3 = var3.DUAL_READ_RETURN_NEW;
-            if(!(var4 === var3)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+            if(!(var4 === var3)) { _fun0004_ip = 36; continue _fun0004 }
+case 18:
             var1 = var2;
-case 33:
+case 36:
             return var1;
 case 27:
             var1 = false;

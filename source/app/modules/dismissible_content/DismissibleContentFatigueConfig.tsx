@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var2 = var2.DismissibleContent;
     var8 = var2.APPLICATION_COMMAND_TOOLTIP;
-    var2 = new Array(130);
+    var2 = new Array(131);
     var2[0] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
@@ -660,11 +660,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.DismissibleContent;
     var8 = var8.FIRST_BOOSTER_UPSELL_OVERSEER;
     var2[128] = var8;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.DismissibleContent;
+    var8 = var8.MOBILE_MULTI_GUILD_CREATE_UPSELL_ANIMATION;
+    var2[129] = var8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.DismissibleContent;
-    var4 = var4.MOBILE_MULTI_GUILD_CREATE_UPSELL_ANIMATION;
-    var2[129] = var4;
+    var4 = var4.APRIL_FOOLS_2026_COACHMARK;
+    var2[130] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;

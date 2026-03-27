@@ -240,15 +240,11 @@ case 5:
             var18 = var19.bind(var20)(var18);
             var10['text'] = var18;
             var15 = function onPress() {
-                var3 = _closure2_slot0;
-                var1 = _closure1_slot6;
-                var2 = var1.TAKE_ACTION;
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
                 var3 = _closure2_slot1;
                 var2 = {};
-                var4 = _closure2_slot2;
-                var2['analyticsLocations'] = var4;
+                var1 = _closure2_slot2;
+                var2['analyticsLocations'] = var1;
+                var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
@@ -430,15 +426,11 @@ case 12:
             var17 = var18.bind(var19)(var17);
             var10['text'] = var17;
             var15 = function onPress() {
-                var3 = _closure2_slot0;
-                var1 = _closure1_slot6;
-                var2 = var1.TAKE_ACTION;
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
                 var3 = _closure2_slot1;
                 var2 = {};
-                var4 = _closure2_slot2;
-                var2['analyticsLocations'] = var4;
+                var1 = _closure2_slot2;
+                var2['analyticsLocations'] = var1;
+                var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };

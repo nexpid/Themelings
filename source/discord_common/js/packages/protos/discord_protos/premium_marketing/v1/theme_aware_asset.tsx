@@ -371,7 +371,7 @@ case 33:
 case 32:
                 var2 = var5.darkStaticUrl;
                 if(!(var3 !== var2)) { _fun0005_ip = 34; continue _fun0005 }
-case 22:
+case 35:
                 var4 = var1.tag;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -390,11 +390,11 @@ case 34:
                 var2 = arg3;
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                if(!(var2 !== var4)) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                if(!(var2 == var4)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 6;
@@ -403,12 +403,12 @@ case 38:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 37:
+case 38:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 35:
+case 36:
                 return var1;
             }
         };

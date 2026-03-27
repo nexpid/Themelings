@@ -73,14 +73,14 @@ case 0:
                 return var1;
             };
             var3 = var5.bind(var6)(var3, var1);
-            var10 = null;
-            var5 = var10 == var13;
+            var6 = null;
+            var5 = var6 == var13;
             var1 = undefined;
             if(var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = var13.colorString;
 case 2:
-            var5 = var10 != var1;
+            var5 = var6 != var1;
             var12 = undefined;
             if(!var5) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -92,13 +92,13 @@ case 4:
 case 7:
             var5 = var12;
 case 6:
-            var1 = var10 != var5;
-            var6 = undefined;
+            var1 = var6 != var5;
+            var7 = undefined;
             if(!var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var1 = {};
             var1['color'] = var5;
-            var6 = var1;
+            var7 = var1;
 case 8:
             var1 = 'dot';
             var5 = undefined;
@@ -107,7 +107,7 @@ case 11:
             var5 = undefined;
             if(!(var4 !== var12)) { _fun0001_ip = 10; continue _fun0001 }
 case 12:
-            var7 = _closure1_slot5;
+            var10 = _closure1_slot5;
             var3 = _closure1_slot0;
             var14 = _closure1_slot2;
             var1 = 7;
@@ -116,7 +116,7 @@ case 12:
             var3 = var1.RoleDot;
             var1 = {};
             var1['color'] = var12;
-            var14 = var10 == var13;
+            var14 = var6 == var13;
             var12 = undefined;
             if(var14) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
@@ -125,12 +125,12 @@ case 13:
             var1['colors'] = var12;
             var11 = var11.newContainerRoleDot;
             var1['containerStyles'] = var11;
-            var5 = var7.bind(var4)(var3, var1);
+            var5 = var10.bind(var4)(var3, var1);
 case 10:
             var3 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var1 = 8;
-            var1 = var7[var1];
+            var1 = var10[var1];
             var12 = var3.bind(var4)(var1);
             var11 = var12.getNotificationTitle;
             var21 = var9.channel;
@@ -138,7 +138,7 @@ case 10:
             var18 = var9.guild;
             var22 = var12;
             var20 = var13;
-            var7 = var22[var11](var21, var20, var19, var18, var17);
+            var11 = var22[var11](var21, var20, var19, var18, var17);
             var1 = var2.content;
             var3 = var1.length;
             var1 = 0;
@@ -146,7 +146,7 @@ case 10:
             if(!var1) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
             var3 = var2.interaction;
-            var1 = var10 !== var3;
+            var1 = var6 !== var3;
 case 15:
             if(!var1) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
@@ -156,7 +156,7 @@ case 17:
             if(!var1) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var3 = var2.activityInstance;
-            var1 = var10 !== var3;
+            var1 = var6 !== var3;
 case 19:
             if(!var1) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
@@ -171,7 +171,7 @@ case 24:
             var3 = var13[var1];
             var3 = var14.bind(var4)(var3);
             var12 = var3.intl;
-            var11 = var12.formatToPlainString;
+            var10 = var12.formatToPlainString;
             var1 = var13[var1];
             var1 = var14.bind(var4)(var1);
             var1 = var1.t;
@@ -181,7 +181,7 @@ case 24:
             var16 = var14.bind(var4)(var13);
             var15 = var16.getUserAuthor;
             var13 = var2.interaction;
-            var17 = var10 == var13;
+            var17 = var6 == var13;
             var14 = undefined;
             if(var17) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
@@ -191,61 +191,55 @@ case 25:
             var13 = var15.bind(var16)(var14, var13);
             var13 = var13.nick;
             var1['username'] = var13;
-            var1 = var11.bind(var12)(var3, var1);
+            var1 = var10.bind(var12)(var3, var1);
             var2['content'] = var1;
 case 23:
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var1 = 10;
-            var1 = var11[var1];
+            var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Notification;
             var1 = {};
             var12 = _closure1_slot1;
             var14 = 11;
-            var11 = var11[var14];
-            var13 = var12.bind(var4)(var11);
+            var10 = var10[var14];
+            var13 = var12.bind(var4)(var10);
             var12 = {};
-            var11 = var9.message;
-            var11 = var11.author;
-            var12['user'] = var11;
-            var11 = var9.guild;
-            var15 = var10 == var11;
-            var10 = undefined;
+            var10 = var9.message;
+            var10 = var10.author;
+            var12['user'] = var10;
+            var10 = var9.guild;
+            var15 = var6 == var10;
+            var6 = undefined;
             if(var15) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
-            var10 = var11.id;
+            var6 = var10.id;
 case 27:
-            var12['guildId'] = var10;
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var14 = var11[var14];
-            var14 = var10.bind(var4)(var14);
+            var12['guildId'] = var6;
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var14 = var10[var14];
+            var14 = var6.bind(var4)(var14);
             var14 = var14.AvatarSizes;
             var14 = var14.NORMAL;
             var12['size'] = var14;
             var12 = var3.bind(var4)(var13, var12);
             var1['icon'] = var12;
-            var1['label'] = var7;
-            var1['labelStyle'] = var6;
+            var1['label'] = var11;
+            var1['labelStyle'] = var7;
             var1['accessoryLabelNode'] = var5;
             var7 = _closure1_slot5;
             var5 = 12;
-            var5 = var11[var5];
-            var5 = var10.bind(var4)(var5);
-            var6 = var5.NativeMessageChannelRowPreview;
-            var5 = {'channel': null, 'message': null, 'color': 'text-subtle', 'layout': null, 'muted': false, 'lineClamp': 2};
-            var12 = var9.channel;
-            var5['channel'] = var12;
+            var5 = var10[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.NativeChannelRowPreview;
+            var5 = {};
             var9 = var9.message;
             var5['message'] = var9;
-            var9 = 13;
-            var9 = var11[var9];
-            var9 = var10.bind(var4)(var9);
-            var9 = var9.ChannelListLayoutTypes;
-            var9 = var9.COZY;
-            var5['layout'] = var9;
+            var9 = 2;
+            var5['lineClamp'] = var9;
             var8 = _closure1_slot4;
             var5['maxHeight'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -255,7 +249,7 @@ case 27:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

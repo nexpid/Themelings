@@ -314,7 +314,7 @@ case 9:
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var1 = arg1;
-                        var10 = var1.entitlements;
+                        var11 = var1.entitlements;
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 23;
@@ -351,8 +351,8 @@ case 14:
                         var2 = {'product': null, 'useCategoryImage': true, 'showOrbBalancePill': true};
                         var9 = _closure2_slot1;
                         var2['product'] = var9;
-                        var8 = _closure2_slot0;
-                        var2['orbBalancePriorToPurchase'] = var8;
+                        var9 = _closure2_slot0;
+                        var2['orbBalancePriorToPurchase'] = var9;
                         var2 = var5.bind(var6)(var2);
                         _fun0003_ip = 15; continue _fun0003;
 case 13:
@@ -360,8 +360,8 @@ case 13:
                         var2 = _closure1_slot2;
                         var5 = 12;
                         var5 = var2[var5];
-                        var9 = var6.bind(var1)(var5);
-                        var8 = var9.openLazy;
+                        var10 = var6.bind(var1)(var5);
+                        var9 = var10.openLazy;
                         var6 = _closure1_slot0;
                         var5 = 22;
                         var5 = var2[var5];
@@ -372,18 +372,18 @@ case 13:
                         var6 = var6.bind(var1)(var5, var2);
                         var5 = {};
                         var2 = 0;
-                        var11 = var10[var2];
+                        var12 = var11[var2];
                         var2 = null;
-                        var12 = var2 == var11;
-                        var10 = undefined;
-                        if(var12) { _fun0003_ip = 16; continue _fun0003 }
+                        var13 = var2 == var12;
+                        var11 = undefined;
+                        if(var13) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-                        var10 = var11.consumed;
+                        var11 = var12.consumed;
 case 16:
-                        var2 = var2 != var10;
+                        var2 = var2 != var11;
                         if(!var2) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-                        var2 = var10;
+                        var2 = var11;
 case 18:
                         var5['consumed'] = var2;
                         var2 = function onPressExplorePerks() {
@@ -421,7 +421,7 @@ case 18:
                         };
                         var5['onPressViewCredits'] = var2;
                         var2 = 'FractionalNitroCollectedActionSheet';
-                        var2 = var8.bind(var9)(var6, var2, var5);
+                        var2 = var9.bind(var10)(var6, var2, var5);
                         _fun0003_ip = 15; continue _fun0003;
 case 11:
                         var5 = _closure1_slot1;
@@ -440,7 +440,7 @@ case 11:
                         var3 = {};
                         var2 = 'ORB_BADGE_COLLECTED_MODAL';
                         var3['modalKey'] = var2;
-                        var7 = function onPressViewBadge() {
+                        var8 = function onPressViewBadge() {
                             var4 = _closure2_slot4;
                             var3 = var4.navigate;
                             var1 = _closure1_slot10;
@@ -451,7 +451,9 @@ case 11:
                             var1 = var3.bind(var4)(var2, var1);
                             return var1;
                         };
-                        var3['onPressViewBadge'] = var7;
+                        var3['onPressViewBadge'] = var8;
+                        var7 = _closure2_slot0;
+                        var3['orbBalancePriorToPurchase'] = var7;
                         var2 = var5.bind(var6)(var4, var3, var2);
 case 15:
                         return var1;
@@ -702,123 +704,123 @@ case 0:
             var6 = var9.bind(var4)(var3);
             var3 = var6.canUseCollectibles;
             var27 = var3.bind(var6)(var7);
-            var8 = 36;
-            var3 = var1[var8];
-            var6 = var2.bind(var4)(var3);
-            var3 = var6.isPremiumCollectiblesProduct;
-            var6 = var3.bind(var6)(var16);
-            var3 = var1[var8];
-            var7 = var2.bind(var4)(var3);
-            var3 = var7.isFreeCollectiblesProduct;
-            var7 = var3.bind(var7)(var16);
-            var3 = 37;
-            var3 = var1[var3];
-            var14 = var2.bind(var4)(var3);
-            var3 = var14.isOrbsExclusiveProduct;
-            var22 = var3.bind(var14)(var16);
-            var3 = 38;
-            var3 = var1[var3];
-            var14 = var2.bind(var4)(var3);
-            var3 = var14.useFetchVirtualCurrencyBalance;
-            var3 = var3.bind(var14)();
-            var26 = var3.balance;
-            var3 = 39;
-            var3 = var1[var3];
-            var17 = var9.bind(var4)(var3);
+            var3 = 36;
+            var6 = var1[var3];
+            var7 = var2.bind(var4)(var6);
+            var6 = var7.isPremiumCollectiblesProduct;
+            var6 = var6.bind(var7)(var16);
+            var7 = var1[var3];
+            var8 = var2.bind(var4)(var7);
+            var7 = var8.isFreeCollectiblesProduct;
+            var7 = var7.bind(var8)(var16);
+            var8 = 37;
+            var8 = var1[var8];
+            var14 = var2.bind(var4)(var8);
+            var8 = var14.isOrbsExclusiveProduct;
+            var22 = var8.bind(var14)(var16);
+            var8 = 38;
+            var8 = var1[var8];
+            var14 = var2.bind(var4)(var8);
+            var8 = var14.useFetchVirtualCurrencyBalance;
+            var8 = var8.bind(var14)();
+            var26 = var8.balance;
+            var8 = 39;
+            var8 = var1[var8];
+            var17 = var9.bind(var4)(var8);
             var14 = var17.useConfig;
-            var3 = {};
+            var8 = {};
             var18 = 'ProductDetailsActionSheetPurchaseSection';
-            var3['location'] = var18;
-            var20 = var14.bind(var17)(var3);
-            var3 = 16;
-            var3 = var1[var3];
-            var14 = var2.bind(var4)(var3);
-            var3 = var14.useVirtualCurrencyData;
-            var3 = var3.bind(var14)(var16, var27);
-            var21 = var3.canAfford;
-            var3 = 40;
-            var3 = var1[var3];
-            var17 = var2.bind(var4)(var3);
+            var8['location'] = var18;
+            var20 = var14.bind(var17)(var8);
+            var8 = 16;
+            var8 = var1[var8];
+            var14 = var2.bind(var4)(var8);
+            var8 = var14.useVirtualCurrencyData;
+            var8 = var8.bind(var14)(var16, var27);
+            var21 = var8.canAfford;
+            var8 = 40;
+            var8 = var1[var8];
+            var17 = var2.bind(var4)(var8);
             var14 = var17.useHandleUseNow;
-            var3 = {};
-            var3['product'] = var16;
-            var3 = var14.bind(var17)(var3);
-            var17 = var3.handleUseNow;
-            var18 = var3.isApplying;
-            var3 = 41;
-            var3 = var1[var3];
-            var9 = var9.bind(var4)(var3);
-            var3 = {};
-            var3['product'] = var16;
-            var3['analyticsLocations'] = var15;
-            var3['onBuy'] = var11;
-            var3 = var9.bind(var4)(var3);
-            var33 = var3.handleBuyNow;
-            var34 = var3.isBuying;
-            var3 = 42;
-            var3 = var1[var3];
-            var11 = var2.bind(var4)(var3);
+            var8 = {};
+            var8['product'] = var16;
+            var8 = var14.bind(var17)(var8);
+            var17 = var8.handleUseNow;
+            var18 = var8.isApplying;
+            var8 = 41;
+            var8 = var1[var8];
+            var9 = var9.bind(var4)(var8);
+            var8 = {};
+            var8['product'] = var16;
+            var8['analyticsLocations'] = var15;
+            var8['onBuy'] = var11;
+            var8 = var9.bind(var4)(var8);
+            var33 = var8.handleBuyNow;
+            var34 = var8.isBuying;
+            var8 = 42;
+            var8 = var1[var8];
+            var11 = var2.bind(var4)(var8);
             var9 = var11.useHandleClaim;
-            var3 = {};
-            var3['product'] = var16;
-            var3 = var9.bind(var11)(var3);
-            var9 = var3.handleClaim;
-            var3 = var1[var8];
-            var11 = var2.bind(var4)(var3);
-            var3 = var11.getDefaultPriceSetAssignmentPurchaseType;
-            var3 = var3.bind(var11)(var27);
-            var1 = var1[var8];
+            var8 = {};
+            var8['product'] = var16;
+            var8 = var9.bind(var11)(var8);
+            var9 = var8.handleClaim;
+            var8 = var1[var3];
+            var11 = var2.bind(var4)(var8);
+            var8 = var11.getDefaultPriceSetAssignmentPurchaseType;
+            var8 = var8.bind(var11)(var27);
+            var1 = var1[var3];
             var2 = var2.bind(var4)(var1);
             var1 = var2.extractPriceByPurchaseTypes;
-            var11 = var1.bind(var2)(var16, var3);
-            var1 = var6;
-            if(var1) { _fun0006_ip = 32; continue _fun0006 }
+            var8 = var1.bind(var2)(var16, var8);
+            var11 = !var6;
+            if(!var11) { _fun0006_ip = 32; continue _fun0006 }
 case 33:
-            var1 = var7;
+            var11 = !var7;
 case 32:
-            if(var1) { _fun0006_ip = 34; continue _fun0006 }
+            if(!var11) { _fun0006_ip = 34; continue _fun0006 }
 case 35:
-            var1 = var22;
+            var11 = !var22;
 case 34:
-            if(var1) { _fun0006_ip = 36; continue _fun0006 }
+            if(!var11) { _fun0006_ip = 36; continue _fun0006 }
 case 37:
-            var3 = var16.type;
+            var2 = var16.type;
             var14 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var2 = 31;
-            var2 = var19[var2];
-            var2 = var14.bind(var4)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.EXTERNAL_SKU;
-            var1 = var3 === var2;
+            var1 = 31;
+            var1 = var19[var1];
+            var1 = var14.bind(var4)(var1);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.EXTERNAL_SKU;
+            var11 = var2 !== var1;
 case 36:
-            if(var1) { _fun0006_ip = 38; continue _fun0006 }
+            if(!var11) { _fun0006_ip = 38; continue _fun0006 }
 case 28:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var8];
-            var8 = var3.bind(var4)(var2);
-            var3 = var8.shouldHideGiftingForCurrency;
-            var2 = null;
-            var14 = var2 == var11;
-            var2 = undefined;
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var3];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.shouldHideGiftingForCurrency;
+            var1 = null;
+            var14 = var1 == var8;
+            var1 = undefined;
             if(var14) { _fun0006_ip = 39; continue _fun0006 }
 case 40:
-            var2 = var11.currency;
+            var1 = var8.currency;
 case 39:
-            var1 = var3.bind(var8)(var2);
-case 38:
-            if(var1) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
-            var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 43;
-            var2 = var8[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.isMetaQuest;
-            var1 = var2.bind(var3)();
-case 41:
+            var1 = var2.bind(var3)(var1);
             var11 = !var1;
+case 38:
+            if(!var11) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 43;
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.isCollectibleGiftingSupported;
+            var11 = var1.bind(var2)();
+case 41:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 44;

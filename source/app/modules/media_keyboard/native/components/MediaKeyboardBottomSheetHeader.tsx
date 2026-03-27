@@ -650,7 +650,7 @@ case 43:
             var6['animatedProps'] = var11;
             var12 = _closure1_slot12;
             var11 = _closure1_slot4;
-            var9 = {};
+            var9 = {'importantForAccessibility': 'no', 'accessible': false};
             var9['onPress'] = var14;
             var13 = var13.pressableHeaderBar;
             var9['style'] = var13;

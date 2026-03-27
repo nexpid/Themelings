@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var6)(var3, var1, var4);
-    var1 = /(?:^|\/{2}|\.)(tenor\.com|tenor\.co|giphy\.com|cdn\.discordapp\.com|klipy\.com)(?:\/|$)/;
+    var1 = /(?:^|\/{2}|\.)(tenor\.com|tenor\.co|giphy\.com|cdn\.discordapp\.com|media\.discordapp\.net|klipy\.com)(?:\/|$)/;
     var _closure1_slot0 = var1;
     var1 = /\.(webm|mp4)(\?|$)/i;
     var _closure1_slot1 = var1;

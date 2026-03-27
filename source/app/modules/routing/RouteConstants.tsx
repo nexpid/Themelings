@@ -783,92 +783,143 @@ case 28:
             }
         };
         var2['BILLING_MANAGE_SUBSCRIPTION_WITH_DEEP_LINK'] = var16;
-        var16 = function BILLING_STANDALONE_CHECKOUT_PAGE(arg1, arg2, arg3, arg4, arg5, arg6) {
+        var16 = function BILLING_MANAGE_SUBSCRIPTION_WITH_FLOW_TYPE(arg1, arg2) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                var6 = arg4;
-                var5 = arg5;
-                var3 = arg6;
+                var3 = arg2;
                 var1 = null;
-                var2 = var1 != var6;
-                var10 = '';
-                var9 = var10;
-                if(!var2) { _fun0014_ip = 29; continue _fun0014 }
-case 22:
-                var2 = global;
-                var2 = var2.HermesInternal;
-                var4 = var2.concat;
-                var2 = '&payment_method_type=';
-                var9 = var4.bind(var2)(var6);
-case 29:
-                var2 = var1 != var5;
-                var8 = var10;
-                if(!var2) { _fun0014_ip = 30; continue _fun0014 }
-case 4:
-                var2 = global;
-                var2 = var2.HermesInternal;
-                var4 = var2.concat;
-                var2 = '&deep_link_type=';
-                var8 = var4.bind(var2)(var5);
-case 30:
                 var1 = var1 != var3;
-                if(!var1) { _fun0014_ip = 31; continue _fun0014 }
-case 32:
-                var1 = global;
-                var1 = var1.HermesInternal;
-                var2 = var1.concat;
-                var1 = '&use_preset_offer=';
-                var10 = var2.bind(var1)(var3);
-case 31:
-                var1 = global;
-                var1 = var1.HermesInternal;
-                var7 = var1.concat;
-                var19 = '/billing/premium/subscribe?plan_id=';
-                var18 = arg1;
-                var17 = '&gift=';
-                var16 = arg2;
-                var15 = '&load_id=';
-                var14 = arg3;
-                var13 = var9;
-                var12 = var8;
-                var11 = var10;
-                var1 = var19[var7](var18, var17, var16, var15, var14, var13, var12, var11, var10);
-                return var1;
-            }
-        };
-        var2['BILLING_STANDALONE_CHECKOUT_PAGE'] = var16;
-        var16 = function BILLING_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE(arg1, arg2, arg3) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-                var7 = arg2;
-                var3 = arg3;
-                var1 = null;
-                var2 = var1 != var7;
-                var5 = '';
-                var4 = var5;
-                if(!var2) { _fun0015_ip = 33; continue _fun0015 }
-case 34:
-                var2 = global;
-                var2 = var2.HermesInternal;
-                var6 = var2.concat;
-                var2 = '&deep_link_type=';
-                var4 = var6.bind(var2)(var7);
-case 33:
-                var1 = var1 != var3;
-                if(!var1) { _fun0015_ip = 27; continue _fun0015 }
-case 35:
+                var4 = '';
+                if(!var1) { _fun0014_ip = 28; continue _fun0014 }
+case 3:
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var2 = var1.concat;
                 var1 = '&load_id=';
-                var5 = var2.bind(var1)(var3);
-case 27:
+                var4 = var2.bind(var1)(var3);
+case 28:
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var3 = var1.concat;
-                var2 = '/billing/guild-subscriptions/purchase?guild_id=';
+                var2 = '/billing/premium/manage?flow_type=';
                 var1 = arg1;
-                var1 = var3.bind(var2)(var1, var4, var5);
+                var1 = var3.bind(var2)(var1, var4);
+                return var1;
+            }
+        };
+        var2['BILLING_MANAGE_SUBSCRIPTION_WITH_FLOW_TYPE'] = var16;
+        var16 = function BILLING_STANDALONE_CHECKOUT_PAGE(arg1, arg2, arg3, arg4, arg5, arg6, arg7) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+                var7 = arg4;
+                var6 = arg5;
+                var5 = arg6;
+                var3 = arg7;
+                var1 = null;
+                var2 = var1 != var7;
+                var11 = '';
+                var10 = var11;
+                if(!var2) { _fun0015_ip = 29; continue _fun0015 }
+case 21:
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var4 = var2.concat;
+                var2 = '&payment_method_type=';
+                var10 = var4.bind(var2)(var7);
+case 29:
+                var2 = var1 != var6;
+                var9 = var11;
+                if(!var2) { _fun0015_ip = 30; continue _fun0015 }
+case 10:
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var4 = var2.concat;
+                var2 = '&deep_link_type=';
+                var9 = var4.bind(var2)(var6);
+case 30:
+                var2 = var1 != var5;
+                var8 = var11;
+                if(!var2) { _fun0015_ip = 31; continue _fun0015 }
+case 32:
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var4 = var2.concat;
+                var2 = '&use_preset_offer=';
+                var8 = var4.bind(var2)(var5);
+case 31:
+                var1 = var1 != var3;
+                if(!var1) { _fun0015_ip = 33; continue _fun0015 }
+case 11:
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var2 = var1.concat;
+                var1 = '&flow_type=';
+                var11 = var2.bind(var1)(var3);
+case 33:
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var7 = var1.concat;
+                var21 = '/billing/premium/subscribe?plan_id=';
+                var20 = arg1;
+                var19 = '&gift=';
+                var18 = arg2;
+                var17 = '&load_id=';
+                var16 = arg3;
+                var15 = var10;
+                var14 = var9;
+                var13 = var8;
+                var12 = var11;
+                var1 = var21[var7](var20, var19, var18, var17, var16, var15, var14, var13, var12, var11);
+                return var1;
+            }
+        };
+        var2['BILLING_STANDALONE_CHECKOUT_PAGE'] = var16;
+        var16 = function BILLING_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE(arg1, arg2, arg3, arg4) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+                var7 = arg2;
+                var8 = arg3;
+                var3 = arg4;
+                var1 = null;
+                var2 = var1 != var7;
+                var6 = '';
+                var5 = var6;
+                if(!var2) { _fun0016_ip = 34; continue _fun0016 }
+case 22:
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var4 = var2.concat;
+                var2 = '&deep_link_type=';
+                var5 = var4.bind(var2)(var7);
+case 34:
+                var2 = var1 != var8;
+                var4 = var6;
+                if(!var2) { _fun0016_ip = 35; continue _fun0016 }
+case 4:
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var7 = var2.concat;
+                var2 = '&load_id=';
+                var4 = var7.bind(var2)(var8);
+case 35:
+                var1 = var1 != var3;
+                if(!var1) { _fun0016_ip = 36; continue _fun0016 }
+case 37:
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var2 = var1.concat;
+                var1 = '&flow_type=';
+                var6 = var2.bind(var1)(var3);
+case 36:
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var3 = var1.concat;
+                var13 = '/billing/guild-subscriptions/purchase?guild_id=';
+                var12 = arg1;
+                var11 = var5;
+                var10 = var4;
+                var9 = var6;
+                var1 = var13[var3](var12, var11, var10, var9, var8);
                 return var1;
             }
         };
@@ -885,7 +936,7 @@ case 27:
         };
         var2['GUILD_BOOSTING_MARKETING'] = var16;
         var16 = function GUILD_SETTINGS(arg1, arg2, arg3) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var4 = arg2;
                 var6 = arg3;
@@ -893,14 +944,14 @@ case 0:
                 var1 = var3 != var4;
                 var5 = '';
                 var9 = var5;
-                if(!var1) { _fun0016_ip = 36; continue _fun0016 }
-case 34:
+                if(!var1) { _fun0017_ip = 38; continue _fun0017 }
+case 39:
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var2 = var1.concat;
                 var1 = '/';
                 var9 = var2.bind(var1)(var4);
-case 36:
+case 38:
                 var2 = global;
                 var1 = var2.HermesInternal;
                 var8 = var1.concat;
@@ -909,19 +960,19 @@ case 36:
                 var1 = '/settings';
                 var4 = var8.bind(var7)(var4, var1, var9);
                 var1 = var4;
-                if(!(var3 != var6)) { _fun0016_ip = 37; continue _fun0016 }
-case 38:
+                if(!(var3 != var6)) { _fun0017_ip = 40; continue _fun0017 }
+case 30:
                 var2 = var2.HermesInternal;
                 var3 = var2.concat;
                 var2 = '/';
                 var1 = var3.bind(var5)(var4, var2, var6);
-case 37:
+case 40:
                 return var1;
             }
         };
         var2['GUILD_SETTINGS'] = var16;
         var16 = function PICK_GUILD_SETTINGS(arg1, arg2, arg3) {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                 var7 = arg1;
                 var8 = arg2;
@@ -930,35 +981,35 @@ case 0:
                 var2 = var1 != var7;
                 var4 = '';
                 var3 = var4;
-                if(!var2) { _fun0017_ip = 39; continue _fun0017 }
+                if(!var2) { _fun0018_ip = 41; continue _fun0018 }
 case 22:
                 var2 = global;
                 var2 = var2.HermesInternal;
                 var5 = var2.concat;
                 var2 = '/';
                 var3 = var5.bind(var2)(var7);
-case 39:
+case 41:
                 var2 = '/guilds/settings';
                 var7 = var2 + var3;
                 var3 = var7;
-                if(!(var1 != var8)) { _fun0017_ip = 40; continue _fun0017 }
-case 41:
+                if(!(var1 != var8)) { _fun0018_ip = 42; continue _fun0018 }
+case 43:
                 var2 = global;
                 var2 = var2.HermesInternal;
                 var5 = var2.concat;
                 var2 = '/';
                 var3 = var5.bind(var4)(var7, var2, var8);
-case 40:
+case 42:
                 var1 = var1 != var6;
                 var2 = var4;
-                if(!var1) { _fun0017_ip = 42; continue _fun0017 }
-case 43:
+                if(!var1) { _fun0018_ip = 44; continue _fun0018 }
+case 45:
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var5 = var1.concat;
                 var1 = '?feature=';
                 var2 = var5.bind(var1)(var6);
-case 42:
+case 44:
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var1 = var1.concat;
@@ -968,7 +1019,7 @@ case 42:
         };
         var2['PICK_GUILD_SETTINGS'] = var16;
         var16 = function GUILD_EVENT_DETAILS(arg1, arg2, arg3) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var5 = arg3;
                 var3 = global;
@@ -982,8 +1033,8 @@ case 0:
                 var1 = null;
                 var6 = var1 != var5;
                 var1 = '';
-                if(!var6) { _fun0018_ip = 9; continue _fun0018 }
-case 44:
+                if(!var6) { _fun0019_ip = 9; continue _fun0019 }
+case 29:
                 var3 = var3.HermesInternal;
                 var3 = var3.concat;
                 var1 = var3.bind(var4)(var5);
@@ -1085,7 +1136,7 @@ case 9:
         };
         var2['SERVER_SHOP'] = var16;
         var16 = function CHANNELS_GAME_SHOP(arg1, arg2, arg3, arg4) {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var1 = arg2;
                 var8 = arg3;
@@ -1100,7 +1151,7 @@ case 0:
                 var7 = null;
                 var5 = var7 != var1;
                 var4 = 0;
-                if(!var5) { _fun0019_ip = 14; continue _fun0019 }
+                if(!var5) { _fun0020_ip = 14; continue _fun0020 }
 case 19:
                 var4 = var1;
 case 14:
@@ -1110,28 +1161,28 @@ case 14:
                 var1 = var1.bind(var5)(var4);
                 var4 = var2 + var1;
                 var1 = var4;
-                if(!(var7 != var8)) { _fun0019_ip = 45; continue _fun0019 }
-case 40:
+                if(!(var7 != var8)) { _fun0020_ip = 46; continue _fun0020 }
+case 42:
                 var2 = var3.HermesInternal;
                 var2 = var2.concat;
                 var2 = var2.bind(var5)(var8);
                 var4 = var4 + var2;
                 var2 = var4;
-                if(!(var7 != var6)) { _fun0019_ip = 46; continue _fun0019 }
-case 47:
+                if(!(var7 != var6)) { _fun0020_ip = 47; continue _fun0020 }
+case 48:
                 var3 = var3.HermesInternal;
                 var3 = var3.concat;
                 var3 = var3.bind(var5)(var6);
                 var2 = var4 + var3;
-case 46:
+case 47:
                 var1 = var2;
-case 45:
+case 46:
                 return var1;
             }
         };
         var2['CHANNELS_GAME_SHOP'] = var16;
         var16 = function GAME_SHOP(arg1, arg2, arg3) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var8 = arg2;
                 var6 = arg3;
@@ -1143,7 +1194,7 @@ case 0:
                 var4 = var4.bind(var2)(var1);
                 var7 = null;
                 var1 = var4;
-                if(!(var7 != var8)) { _fun0020_ip = 48; continue _fun0020 }
+                if(!(var7 != var8)) { _fun0021_ip = 32; continue _fun0021 }
 case 49:
                 var2 = var3.HermesInternal;
                 var2 = var2.concat;
@@ -1151,7 +1202,7 @@ case 49:
                 var2 = var2.bind(var5)(var8);
                 var4 = var4 + var2;
                 var2 = var4;
-                if(!(var7 != var6)) { _fun0020_ip = 50; continue _fun0020 }
+                if(!(var7 != var6)) { _fun0021_ip = 50; continue _fun0021 }
 case 51:
                 var3 = var3.HermesInternal;
                 var3 = var3.concat;
@@ -1159,7 +1210,7 @@ case 51:
                 var2 = var4 + var3;
 case 50:
                 var1 = var2;
-case 48:
+case 32:
                 return var1;
             }
         };

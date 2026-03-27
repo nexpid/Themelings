@@ -1,4 +1,4 @@
-// app/modules/profile_effects/native/ProfileEffectUtils.tsx
+// app/modules/collectibles/profile_effects/native/ProfileEffectUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/profile_effects/native/ProfileEffectUtils.tsx';
+    var4 = 'modules/collectibles/profile_effects/native/ProfileEffectUtils.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

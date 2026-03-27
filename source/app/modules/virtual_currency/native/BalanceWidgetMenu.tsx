@@ -9,19 +9,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function BalanceWidgetMenu(arg1) {
         var2 = arg1;
-        var7 = var2.style;
-        var6 = _closure1_slot0;
+        var6 = var2.style;
+        var3 = _closure1_slot0;
         var10 = _closure1_slot2;
         var2 = 17;
         var2 = var10[var2];
         var4 = undefined;
-        var3 = var6.bind(var4)(var2);
+        var3 = var3.bind(var4)(var2);
         var2 = var3.useFetchVirtualCurrencyBalance;
         var2 = var2.bind(var3)();
         var9 = var2.balance;
         var _closure2_slot0 = var9;
-        var8 = _closure1_slot3;
-        var3 = var8.useCallback;
+        var7 = _closure1_slot3;
+        var3 = var7.useCallback;
         var2 = new Array(1);
         var2[0] = var9;
         var1 = function() {
@@ -196,17 +196,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var6)(var3, var2, var4);
             return var1;
         };
-        var8 = var3.bind(var8)(var1, var2);
+        var8 = var3.bind(var7)(var1, var2);
         var3 = _closure1_slot10;
         var2 = _closure1_slot12;
         var1 = {};
         var1['onPress'] = var8;
-        var1['style'] = var7;
+        var1['style'] = var6;
         var7 = _closure1_slot10;
+        var6 = _closure1_slot1;
         var5 = 23;
         var5 = var10[var5];
-        var5 = var6.bind(var4)(var5);
-        var6 = var5.BalanceWidgetPill;
+        var6 = var6.bind(var4)(var5);
         var5 = {};
         var5['balance'] = var9;
         var5['onPress'] = var8;

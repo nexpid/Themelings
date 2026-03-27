@@ -365,7 +365,7 @@ case 29:
 case 28:
                 var3 = var5.asset;
                 if(!var3) { _fun0005_ip = 30; continue _fun0005 }
-case 23:
+case 31:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -391,11 +391,11 @@ case 23:
 case 30:
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                if(!(var2 !== var4)) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+                if(!(var2 == var4)) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 7;
@@ -404,12 +404,12 @@ case 34:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 33:
+case 34:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 31:
+case 32:
                 return var1;
             }
         };

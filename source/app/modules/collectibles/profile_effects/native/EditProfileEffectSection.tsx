@@ -1,4 +1,4 @@
-// app/modules/profile_effects/native/EditProfileEffectSection.tsx
+// app/modules/collectibles/profile_effects/native/EditProfileEffectSection.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -32,12 +32,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.isProfileEffectRecord;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.isProfileEffectRecord;
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -231,7 +231,7 @@ case 13:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/profile_effects/native/EditProfileEffectSection.tsx';
+    var4 = 'modules/collectibles/profile_effects/native/EditProfileEffectSection.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -265,11 +265,11 @@ case 0:
             var8 = var2[var3];
             var19 = var17.bind(var4)(var8);
             var15 = var19.useStateFromStores;
-            var8 = _closure1_slot5;
+            var8 = _closure1_slot6;
             var11 = new Array(1);
             var11[0] = var8;
             var8 = function() {
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var1 = var1.purchases;
                 return var1;
             };
@@ -278,11 +278,11 @@ case 0:
             var3 = var2[var3];
             var15 = var17.bind(var4)(var3);
             var11 = var15.useStateFromStores;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot5;
             var8 = new Array(1);
             var8[0] = var3;
             var3 = function() {
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot5;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -336,7 +336,7 @@ case 18:
 case 17:
                             if(var1) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
-                            var2 = _closure1_slot6;
+                            var2 = _closure1_slot7;
                             var2 = var2.bind(var6)(var3);
                             var2 = !var2;
                             if(var2) { _fun0005_ip = 21; continue _fun0005 }
@@ -444,7 +444,7 @@ case 26:
                         var3 = var3.SHOP_ITEM;
                         if(!(var2 !== var3)) { _fun0006_ip = 13; continue _fun0006 }
 case 15:
-                        var3 = _closure1_slot6;
+                        var3 = _closure1_slot7;
                         var3 = var3.bind(var5)(var2);
                         if(var3) { _fun0006_ip = 27; continue _fun0006 }
 case 28:

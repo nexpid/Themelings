@@ -1106,14 +1106,9 @@ case 63:
             var17 = var39[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.BalanceWidgetPill;
-            var17 = {'initialRenderedBalance': null, 'balance': null, 'animateBalanceChanges': true, 'onPress': null, 'disabled': true, 'variant': 'secondary'};
+            var17 = {};
             var17['initialRenderedBalance'] = var26;
             var17['balance'] = var23;
-            var23 = function onPress() {
-                var1 = undefined;
-                return var1;
-            };
-            var17['onPress'] = var23;
             var16 = var19.bind(var4)(var18, var17);
 case 62:
             var15[1] = var16;

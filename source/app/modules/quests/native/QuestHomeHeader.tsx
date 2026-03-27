@@ -216,7 +216,7 @@ case 4:
             var11 = 16;
             var11 = var17[var11];
             var11 = var13.bind(var4)(var11);
-            var13 = var11.BalanceWidgetPill;
+            var13 = var11.BalanceWidgetPillButton;
             var11 = {};
             var11['balance'] = var16;
             var15 = function onPress() {

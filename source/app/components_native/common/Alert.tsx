@@ -946,7 +946,7 @@ case 67:
         var6 = var9.bind(var10)(var6, var3);
         var3 = 0.9;
         var6 = var3 * var6;
-        var3 = 500;
+        var3 = 400;
         var7 = var7.bind(var8)(var6, var3);
         var3 = var2.height;
         var2 = 0.7;

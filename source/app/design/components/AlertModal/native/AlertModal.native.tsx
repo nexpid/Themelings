@@ -952,7 +952,7 @@ case 33:
     var16 = 'center';
     var15 = {'flex': 1, 'position': 'relative', 'justifyContent': 'center', 'alignItems': 'center', 'paddingHorizontal': 16};
     var7['root'] = var15;
-    var15 = {'backgroundColor': null, 'margin': 16, 'width': '100%', 'height': '100%'};
+    var15 = {'backgroundColor': null, 'margin': 16, 'width': '100%', 'maxWidth': 400, 'height': '100%'};
     var17 = 8;
     var19 = var10[var17];
     var19 = var18.bind(var1)(var19);

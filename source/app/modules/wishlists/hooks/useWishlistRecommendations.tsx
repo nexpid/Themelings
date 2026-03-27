@@ -837,6 +837,22 @@ case 80:
     var1 = function useMemoizedUserIdAndWishlistId(arg1) {
         var7 = arg1;
         var _closure2_slot0 = var7;
+        var6 = _closure1_slot4;
+        var5 = var6.useEffect;
+        var2 = new Array(1);
+        var2[0] = var7;
+        var1 = function() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 11;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = _closure2_slot0;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        };
+        var1 = var5.bind(var6)(var1, var2);
         var5 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 7;
