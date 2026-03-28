@@ -369,66 +369,75 @@ case 0:
             var5 = var3.children;
             var2 = {'isSelected': 0, 'isTryItOut': 0, 'skuId': 0, 'children': 0};
             var10 = null;
-            var21 = var2;
-            var20 = null;
-            var1 = silentSetPrototypeOf(var21, var20);
-            var21 = {};
-            var20 = var3;
-            var19 = var2;
-            var6 = copyDataProperties(var21, var20, var19);
+            var20 = var2;
+            var19 = null;
+            var1 = silentSetPrototypeOf(var20, var19);
+            var20 = {};
+            var19 = var3;
+            var18 = var2;
+            var6 = copyDataProperties(var20, var19, var18);
             var1 = _closure1_slot9;
             var4 = undefined;
             var12 = var1.bind(var4)();
             var2 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var1 = 19;
-            var1 = var15[var1];
-            var11 = var2.bind(var4)(var1);
-            var9 = var11.useStateFromStores;
-            var1 = _closure1_slot5;
-            var3 = new Array(1);
-            var3[0] = var1;
-            var1 = function() {
+            var1 = _closure1_slot2;
+            var3 = 19;
+            var3 = var1[var3];
+            var13 = var2.bind(var4)(var3);
+            var11 = var13.useStateFromStores;
+            var3 = _closure1_slot5;
+            var9 = new Array(1);
+            var9[0] = var3;
+            var3 = function() {
                 var2 = _closure1_slot5;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var11 = var9.bind(var11)(var3, var1);
-            var3 = _closure1_slot1;
-            var1 = 20;
-            var1 = var15[var1];
-            var9 = var3.bind(var4)(var1);
-            var1 = var9.canUseCollectibles;
-            var9 = var1.bind(var9)(var11);
-            var1 = 21;
-            var1 = var15[var1];
-            var1 = var3.bind(var4)(var1);
-            var1 = var1.bind(var4)(var17);
-            var3 = var1.product;
-            var13 = var1.purchase;
-            var1 = 22;
-            var11 = var15[var1];
+            var13 = var11.bind(var13)(var9, var3);
+            var11 = _closure1_slot1;
+            var3 = 20;
+            var3 = var1[var3];
+            var9 = var11.bind(var4)(var3);
+            var3 = var9.canUseCollectibles;
+            var9 = var3.bind(var9)(var13);
+            var3 = 21;
+            var3 = var1[var3];
+            var3 = var11.bind(var4)(var3);
+            var3 = var3.bind(var4)(var17);
+            var15 = var3.product;
+            var13 = var3.purchase;
+            var3 = 22;
+            var11 = var1[var3];
             var16 = var2.bind(var4)(var11);
             var11 = var16.isProductNew;
             var11 = var11.bind(var16)(var17);
-            var1 = var15[var1];
+            var1 = var1[var3];
             var2 = var2.bind(var4)(var1);
             var1 = var2.isPremiumCollectiblesProduct;
-            var15 = var1.bind(var2)(var3);
+            var15 = var1.bind(var2)(var15);
+            if(var15) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var3];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.isPremiumCollectiblesPurchase;
+            var15 = var1.bind(var2)(var13);
+case 9:
             var3 = _closure1_slot8;
             var2 = _closure1_slot10;
             var1 = {};
             var1['isSelected'] = var7;
-            var21 = var1;
-            var20 = var6;
-            var6 = copyDataProperties(var21, var20);
+            var20 = var1;
+            var19 = var6;
+            var6 = copyDataProperties(var20, var19);
             var6 = new Array(2);
             var6[0] = var5;
-            if(!(var10 == var13)) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
-            if(var15) { _fun0003_ip = 9; continue _fun0003 }
-case 11:
+            if(!(var10 == var13)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            if(var15) { _fun0003_ip = 11; continue _fun0003 }
+case 13:
             var16 = _closure1_slot7;
             var7 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -437,25 +446,23 @@ case 11:
             var5 = var7.bind(var4)(var5);
             var7 = var5.LockBadge;
             var5 = {};
-            var18 = var12.lockIcon;
-            var17 = new Array(1);
-            var17[0] = var18;
+            var17 = var12.lockIcon;
             var5['style'] = var17;
             var5['isNew'] = var11;
             var5 = var16.bind(var4)(var7, var5);
-            _fun0003_ip = 12; continue _fun0003;
-case 9:
+            _fun0003_ip = 14; continue _fun0003;
+case 11:
             var7 = null;
-            if(!var15) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-            var7 = null;
-            if(var14) { _fun0003_ip = 13; continue _fun0003 }
-case 15:
-            if(!(var10 != var13)) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-            var7 = null;
-            if(var9) { _fun0003_ip = 13; continue _fun0003 }
+            if(!var15) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
+            var7 = null;
+            if(var14) { _fun0003_ip = 15; continue _fun0003 }
+case 17:
+            if(!(var10 != var13)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+            var7 = null;
+            if(var9) { _fun0003_ip = 15; continue _fun0003 }
+case 18:
             var10 = _closure1_slot7;
             var9 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -464,15 +471,13 @@ case 16:
             var8 = var9.bind(var4)(var8);
             var9 = var8.PremiumBadge;
             var8 = {};
-            var13 = var12.lockIcon;
-            var12 = new Array(1);
-            var12[0] = var13;
+            var12 = var12.lockIcon;
             var8['style'] = var12;
             var8['isNew'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 13:
+case 15:
             var5 = var7;
-case 12:
+case 14:
             var6[1] = var5;
             var5 = 'children';
             var1[var5] = var6;

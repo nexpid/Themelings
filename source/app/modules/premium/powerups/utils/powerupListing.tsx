@@ -77,7 +77,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot11;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -89,7 +89,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot11;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -148,7 +148,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,7 +181,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var4 = function buildPowerupListings(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -200,7 +200,7 @@ case 0:
                     var3 = var3.PERK;
                     if(!(var5 === var3)) { _fun0005_ip = 36; continue _fun0005 }
 case 34:
-                    var3 = _closure1_slot7;
+                    var3 = _closure1_slot8;
                     var2 = var4.skuId;
                     var2 = var3[var2];
                     var5 = null;
@@ -233,7 +233,7 @@ case 0:
                     var2 = var2.LEVEL;
                     if(!(var3 !== var2)) { _fun0006_ip = 40; continue _fun0006 }
 case 41:
-                    var3 = _closure1_slot7;
+                    var3 = _closure1_slot8;
                     var2 = _closure2_slot2;
                     var2 = var2.skuId;
                     var3 = var3[var2];
@@ -247,6 +247,11 @@ case 43:
                     var2['type'] = var8;
                     var8 = _closure2_slot2;
                     var2['powerup'] = var8;
+                    var9 = _closure1_slot6;
+                    var8 = _closure2_slot2;
+                    var8 = var8.skuId;
+                    var8 = var9[var8];
+                    var2['badge'] = var8;
                     var2 = var6.bind(var7)(var2);
                     var2 = undefined;
                     return var2;
@@ -256,7 +261,7 @@ case 42:
                     var2 = undefined;
                     if(!(var2 !== var7)) { _fun0006_ip = 44; continue _fun0006 }
 case 45:
-                    var5 = _closure1_slot6;
+                    var5 = _closure1_slot7;
                     var5 = var5[var3];
                     var _closure3_slot0 = var5;
                     var5 = var7.sort;
@@ -301,7 +306,7 @@ case 40:
                     return var1;
                 }
             };
-            var6 = _closure1_slot9;
+            var6 = _closure1_slot10;
             var2 = undefined;
             var8 = var6.bind(var2)(var7);
             var7 = var8.bind(var2)();
@@ -436,7 +441,7 @@ case 52:
             return var1;
         }
     };
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var6 = global;
     var11 = var6.Object;
     var10 = var11.defineProperty;
@@ -464,6 +469,8 @@ case 52:
     var5 = var7.bind(var1)(var5);
     var9 = var5.GuildPowerupType;
     var _closure1_slot5 = var9;
+    var5 = var5.PERK_SKU_BADGES;
+    var _closure1_slot6 = var5;
     var5 = {};
     var11 = 4;
     var10 = var8[var11];
@@ -484,7 +491,7 @@ case 52:
     var11 = var11.GUILD_TAGS_BADGE_PACK_FLEX_POWERUP_SKU_ID;
     var10[3] = var11;
     var5['guildTagsBadgePacks'] = var10;
-    var _closure1_slot6 = var5;
+    var _closure1_slot7 = var5;
     var10 = var6.Object;
     var6 = var10.entries;
     var12 = var6.bind(var10)(var5);
@@ -522,7 +529,7 @@ case 58:
 case 61:
             var2.return();
 case 55:
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var4 = var2.bind(var6)(var3);
             var3 = var4.bind(var6)();
             var2 = var3.done;
@@ -540,13 +547,13 @@ case 62:
     };
     var6 = {};
     var6 = var11.bind(var12)(var10, var6);
-    var _closure1_slot7 = var6;
+    var _closure1_slot8 = var6;
     var10 = var9.LEVEL;
     var6 = new Array(2);
     var6[0] = var10;
     var9 = var9.PERK;
     var6[1] = var9;
-    var _closure1_slot8 = var6;
+    var _closure1_slot9 = var6;
     var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -593,7 +600,7 @@ case 64:
             var2[0] = var6;
             var2[1] = var5;
             var1 = function() {
-                var4 = _closure1_slot8;
+                var4 = _closure1_slot9;
                 var3 = var4.reduce;
                 var2 = function(arg1, arg2) {
                     _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
@@ -613,7 +620,7 @@ case 67:
 case 66:
                         if(!(var3 != var4)) { _fun0013_ip = 68; continue _fun0013 }
 case 69:
-                        var3 = _closure1_slot11;
+                        var3 = _closure1_slot12;
                         var2 = _closure2_slot1;
                         var4 = var3.bind(var6)(var5, var4, var2);
                         var3 = var1.push;

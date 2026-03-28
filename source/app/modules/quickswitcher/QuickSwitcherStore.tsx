@@ -353,8 +353,8 @@ case 55:
             var3 = var6.Set;
             var8 = var3.prototype;
             var8 = Object.create(var8, {constructor: {value: var3}});
-            var24 = var8;
-            var3 = new var24[var3](var23);
+            var25 = var8;
+            var3 = new var25[var3](var24);
             var12 = var3 instanceof Object ? var3 : var8;
             var _closure2_slot2 = var12;
             var8 = function getDrafts(arg1) {
@@ -497,9 +497,9 @@ case 66:
             var10 = var8.bind(var10)(var3);
             var8 = var10.filter;
             var14 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var3 = 24;
-            var3 = var15[var3];
+            var3 = _closure1_slot2;
+            var16 = 24;
+            var3 = var3[var16];
             var3 = var14.bind(var4)(var3);
             var3 = var3.isNotNullish;
             var8 = var8.bind(var10)(var3);
@@ -509,21 +509,21 @@ case 66:
             if(!(var3 > var9)) { _fun0007_ip = 68; continue _fun0007 }
 case 69:
             var10 = var11.push;
-            var19 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var3 = var20[var7];
-            var15 = var19.bind(var4)(var3);
+            var20 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var3 = var21[var7];
+            var15 = var20.bind(var4)(var3);
             var14 = var15.createHeaderResult;
             var3 = 23;
-            var16 = var20[var3];
-            var16 = var19.bind(var4)(var16);
-            var18 = var16.intl;
-            var16 = var18.string;
-            var3 = var20[var3];
-            var3 = var19.bind(var4)(var3);
+            var18 = var21[var3];
+            var18 = var20.bind(var4)(var18);
+            var19 = var18.intl;
+            var18 = var19.string;
+            var3 = var21[var3];
+            var3 = var20.bind(var4)(var3);
             var3 = var3.t;
             var3 = var3["61Df13"];
-            var3 = var16.bind(var18)(var3);
+            var3 = var18.bind(var19)(var3);
             var3 = var14.bind(var15)(var3);
             var3 = var10.bind(var11)(var3);
             var3 = _closure1_slot39;
@@ -624,10 +624,11 @@ case 80:
             };
             var14 = var10.bind(var14)(var3);
             var10 = var14.filter;
-            var3 = function(arg1) {
-                var1 = arg1;
-                return var1;
-            };
+            var15 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var16];
+            var3 = var15.bind(var4)(var3);
+            var3 = var3.isNotNullish;
             var10 = var10.bind(var14)(var3);
             var _closure2_slot3 = var10;
             var15 = var6.Object;
@@ -789,18 +790,18 @@ case 98:
             var11 = var11.bind(var12)(var7);
             var7 = new Array(1);
             var7[0] = var11;
-            var23 = var7;
-            var22 = var6;
-            var21 = var10;
-            var6 = arraySpread(var23, var22, var21);
+            var24 = var7;
+            var23 = var6;
+            var22 = var10;
+            var6 = arraySpread(var24, var23, var22);
             var6 = new Array(0);
-            var23 = var6;
-            var22 = var7;
-            var21 = 0;
-            var21 = arraySpread(var23, var22, var21);
-            var23 = var6;
-            var22 = var8;
-            var7 = arraySpread(var23, var22, var21);
+            var24 = var6;
+            var23 = var7;
+            var22 = 0;
+            var22 = arraySpread(var24, var23, var22);
+            var24 = var6;
+            var23 = var8;
+            var7 = arraySpread(var24, var23, var22);
             var3 = var6;
 case 97:
             return var3;

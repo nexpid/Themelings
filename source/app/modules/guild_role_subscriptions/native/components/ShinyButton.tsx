@@ -4,8 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
-    var _closure1_slot0 = var11;
-    var _closure1_slot1 = var6;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -23,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -56,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['opacity'] = var10;
     var4['disabled'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -64,84 +65,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/guild_role_subscriptions/native/components/ShinyButton.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ShinyButton(arg1) {
-        var3 = arg1;
-        var10 = var3.style;
-        var8 = var3.loading;
-        var _closure2_slot0 = var8;
-        var7 = var3.disabled;
-        var _closure2_slot1 = var7;
-        var2 = {'style': 0, 'loading': 0, 'disabled': 0};
-        var13 = null;
-        var14 = var2;
-        var1 = silentSetPrototypeOf(var14, var13);
-        var14 = {};
-        var13 = var3;
-        var12 = var2;
-        var13 = copyDataProperties(var14, var13, var12);
-        var2 = _closure1_slot3;
-        var4 = undefined;
-        var9 = var2.bind(var4)();
-        var _closure2_slot2 = var9;
-        var3 = _closure1_slot2;
-        var2 = _closure1_slot0;
-        var11 = _closure1_slot1;
-        var1 = 4;
-        var1 = var11[var1];
-        var2 = var2.bind(var4)(var1);
-        var1 = {};
-        var11 = var9.container;
-        var9 = new Array(2);
-        var9[0] = var11;
-        var9[1] = var10;
-        var1['style'] = var9;
-        var1['loading'] = var8;
-        var1['disabled'] = var7;
-        var6 = function renderIcon() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var2 = _closure2_slot0;
-                var1 = null;
-                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+            var3 = arg1;
+            var9 = var3.style;
+            var8 = var3.loading;
+            var11 = var3.disabled;
+            var6 = var3.onPress;
+            var4 = undefined;
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var5 = _closure1_slot2;
-                var7 = _closure1_slot0;
-                var9 = _closure1_slot1;
-                var6 = 5;
-                var2 = var9[var6];
-                var4 = undefined;
-                var3 = var7.bind(var4)(var2);
-                var2 = {};
-                var6 = var9[var6];
-                var6 = var7.bind(var4)(var6);
-                var6 = var6.Sizes;
-                var6 = var6.REFRESH_SMALL_16;
-                var2['size'] = var6;
-                var6 = 6;
-                var6 = var9[var6];
-                var6 = var7.bind(var4)(var6);
-                var2['source'] = var6;
-                var6 = _closure2_slot2;
-                var7 = var6.sparkleIcon;
-                var6 = new Array(2);
-                var6[0] = var7;
-                var7 = _closure2_slot1;
-                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-                var8 = _closure2_slot2;
-                var7 = var8.disabled;
-case 4:
-                var6[1] = var7;
-                var2['style'] = var6;
-                var1 = var5.bind(var4)(var3, var2);
-case 2:
+            var6 = function c() {
+                var1 = undefined;
                 return var1;
-            }
-        };
-        var1['renderIcon'] = var6;
-        var14 = var1;
-        var5 = copyDataProperties(var14, var13);
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+            };
+case 2:
+            var2 = {'style': 0, 'loading': 0, 'disabled': 0, 'onPress': 0};
+            var16 = null;
+            var17 = var2;
+            var1 = silentSetPrototypeOf(var17, var16);
+            var17 = {};
+            var16 = var3;
+            var15 = var2;
+            var5 = copyDataProperties(var17, var16, var15);
+            var1 = _closure1_slot4;
+            var12 = var1.bind(var4)();
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 4;
+            var1 = var10[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.BaseTextButton;
+            var1 = {};
+            var1['onPress'] = var6;
+            var10 = var12.container;
+            var6 = new Array(2);
+            var6[0] = var10;
+            var6[1] = var9;
+            var1['pillStyle'] = var6;
+            var1['loading'] = var8;
+            var1['disabled'] = var11;
+            var6 = undefined;
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var9 = _closure1_slot3;
+            var13 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var10 = 5;
+            var7 = var14[var10];
+            var8 = var13.bind(var4)(var7);
+            var7 = {};
+            var10 = var14[var10];
+            var10 = var13.bind(var4)(var10);
+            var10 = var10.Sizes;
+            var10 = var10.REFRESH_SMALL_16;
+            var7['size'] = var10;
+            var10 = 6;
+            var10 = var14[var10];
+            var10 = var13.bind(var4)(var10);
+            var7['source'] = var10;
+            var13 = var12.sparkleIcon;
+            var10 = new Array(2);
+            var10[0] = var13;
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var11 = var12.disabled;
+case 6:
+            var10[1] = var11;
+            var7['style'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
+case 4:
+            var1['icon'] = var6;
+            var17 = var1;
+            var16 = var5;
+            var5 = copyDataProperties(var17, var16);
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var3['default'] = var2;
     return var1;

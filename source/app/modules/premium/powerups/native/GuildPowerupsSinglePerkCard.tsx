@@ -35,52 +35,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var5 = var1.guildId;
-            var7 = var1.powerup;
+            var6 = var1.guildId;
+            var8 = var1.powerup;
+            var5 = var1.badge;
             var2 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var3 = 2;
-            var3 = var9[var3];
+            var3 = var10[var3];
             var4 = undefined;
-            var6 = var2.bind(var4)(var3);
+            var7 = var2.bind(var4)(var3);
             var3 = true;
-            var8 = var6.bind(var4)(var7, var3);
+            var9 = var7.bind(var4)(var8, var3);
             var3 = 3;
-            var3 = var9[var3];
+            var3 = var10[var3];
             var3 = var2.bind(var4)(var3);
-            var11 = var3.bind(var4)(var5, var7);
-            var6 = _closure1_slot0;
+            var12 = var3.bind(var4)(var6, var8);
+            var7 = _closure1_slot0;
             var3 = 4;
-            var3 = var9[var3];
-            var10 = var6.bind(var4)(var3);
-            var6 = var10.useCalculatePowerupCardStatus;
+            var3 = var10[var3];
+            var11 = var7.bind(var4)(var3);
+            var7 = var11.useCalculatePowerupCardStatus;
             var3 = false;
-            var6 = var6.bind(var10)(var7, var11, var3);
+            var7 = var7.bind(var11)(var8, var12, var3);
             var3 = 5;
-            var3 = var9[var3];
+            var3 = var10[var3];
             var3 = var2.bind(var4)(var3);
-            var5 = var3.bind(var4)(var5, var7);
+            var6 = var3.bind(var4)(var6, var8);
             var3 = _closure1_slot3;
             var1 = 6;
-            var1 = var9[var1];
+            var1 = var10[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var9 = var7.title;
-            var1['title'] = var9;
-            var9 = var7.description;
-            var1['description'] = var9;
-            var7 = var7.cost;
-            var1['cost'] = var7;
-            var7 = null;
-            var9 = var7 != var8;
-            var7 = '';
-            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+            var10 = var8.title;
+            var1['title'] = var10;
+            var10 = var8.description;
+            var1['description'] = var10;
+            var8 = var8.cost;
+            var1['cost'] = var8;
+            var8 = null;
+            var10 = var8 != var9;
+            var8 = '';
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = var8;
+            var8 = var9;
 case 2:
-            var1['imageUrl'] = var7;
-            var1['status'] = var6;
-            var1['onPress'] = var5;
+            var1['imageUrl'] = var8;
+            var1['status'] = var7;
+            var1['onPress'] = var6;
+            var1['badge'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

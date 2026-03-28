@@ -2010,13 +2010,13 @@ case 53:
             var2 = var3 === var23;
 case 52:
             var3 = _closure1_slot9;
-            if(var2) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
-            var2 = _closure1_slot22;
-            _fun0006_ip = 56; continue _fun0006;
+            if(var2) { _fun0006_ip = 38; continue _fun0006 }
 case 54:
+            var2 = _closure1_slot22;
+            _fun0006_ip = 55; continue _fun0006;
+case 38:
             var2 = _closure1_slot23;
-case 56:
+case 55:
             var1 = {};
             var1['quest'] = var22;
             var1['captionsEnabled'] = var21;

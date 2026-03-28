@@ -602,14 +602,14 @@ case 26:
 case 36:
                 var3['muxIntegration'] = var2;
 case 37: // try_end0
-                _fun0021_ip = 5; continue _fun0021;
-case 38: // catch_target0
+                _fun0021_ip = 38; continue _fun0021;
+case 39: // catch_target0
                 CatchBlockStart(arg_register=4);
                 var4 = _closure1_slot4;
                 var3 = var4.error;
                 var2 = 'Error destroying MobileMuxWrapper';
                 var2 = var3.bind(var4)(var2, var5);
-case 5:
+case 38:
                 return var1;
             }
         };
@@ -627,16 +627,16 @@ case 0:
                 var3 = var1 == var4;
                 var2 = undefined;
                 if(var3) { _fun0022_ip = 16; continue _fun0022 }
-case 39:
+case 40:
                 var3 = var4.getSessionId;
                 var2 = var3.bind(var4)();
 case 16:
                 var3 = var1 != var2;
                 var1 = null;
-                if(!var3) { _fun0022_ip = 40; continue _fun0022 }
-case 41:
+                if(!var3) { _fun0022_ip = 41; continue _fun0022 }
+case 42:
                 var1 = var2;
-case 40:
+case 41:
                 return var1;
             }
         };

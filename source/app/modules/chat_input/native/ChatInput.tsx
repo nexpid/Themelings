@@ -313,7 +313,7 @@ case 13:
             var8 = var4[var7];
             var8 = var5.bind(var6)(var8);
             var8 = var8.shadows;
-            var15 = var8.SHADOW_MOBILE_CHATINPUT;
+            var15 = var8.SHADOW_HIGH;
             var16 = var2;
             var8 = copyDataProperties(var16, var15);
             var8 = 'overflow';
@@ -330,7 +330,7 @@ case 13:
             var1['floatingInputBoxTyping'] = var2;
             var2 = {'flexDirection': 'row', 'alignItems': 'flex-end', 'paddingHorizontal': 8, 'paddingVertical': 12, 'gap': 8};
             var1['floatingMainContents'] = var2;
-            var2 = {'flex': 1, 'justifyContent': 'center'};
+            var2 = {'flex': 1, 'justifyContent': 'center', 'paddingLeft': 8};
             var1['inputFlat'] = var2;
             var2 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
             var1['floatingScrimFill'] = var2;

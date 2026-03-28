@@ -129,22 +129,22 @@ case 0:
                     var6 = _closure2_slot0;
                     var5 = var6.get;
                     var3 = var4.skuId;
-                    var6 = var5.bind(var6)(var3);
-                    var5 = _closure2_slot2;
-                    var3 = var5.get;
+                    var5 = var5.bind(var6)(var3);
+                    var6 = _closure2_slot2;
+                    var3 = var6.get;
                     var2 = var4.skuId;
-                    var3 = var3.bind(var5)(var2);
-                    var5 = null;
-                    if(!(var5 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+                    var2 = var3.bind(var6)(var2);
+                    var3 = null;
+                    if(!(var3 == var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot1;
-                    var2 = 5;
-                    var7 = var7[var2];
-                    var2 = undefined;
-                    var7 = var8.bind(var2)(var7);
-                    var2 = var7.isPremiumCollectiblesProduct;
-                    var2 = var2.bind(var7)(var3);
+                    var6 = 5;
+                    var7 = var7[var6];
+                    var6 = undefined;
+                    var7 = var8.bind(var6)(var7);
+                    var6 = var7.isPremiumCollectiblesProduct;
+                    var6 = var6.bind(var7)(var2);
                     _fun0001_ip = 4; continue _fun0001;
 case 2:
                     var9 = _closure1_slot0;
@@ -154,43 +154,39 @@ case 2:
                     var7 = undefined;
                     var8 = var9.bind(var7)(var8);
                     var7 = var8.isPremiumCollectiblesPurchase;
-                    var2 = var7.bind(var8)(var6);
+                    var6 = var7.bind(var8)(var5);
 case 4:
-                    var8 = var5 == var3;
+                    var8 = var3 == var2;
                     var7 = undefined;
                     if(var8) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-                    var7 = var3.isCategoryReward;
+                    var7 = var2.isCategoryReward;
 case 5:
-                    var3 = var5 != var7;
-                    if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+                    var2 = var3 != var7;
+                    if(!var2) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-                    var3 = var7;
+                    var2 = var7;
 case 7:
-                    if(var2) { _fun0001_ip = 9; continue _fun0001 }
+                    if(var6) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-                    if(!(var5 == var6)) { _fun0001_ip = 11; continue _fun0001 }
+                    if(!(var3 == var5)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
                     if(var2) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-                    var2 = var3;
-case 13:
-                    if(var2) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
                     var3 = var1.preview;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 15; continue _fun0001;
+                    _fun0001_ip = 13; continue _fun0001;
 case 11:
                     var3 = var1.purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 15; continue _fun0001;
+                    _fun0001_ip = 13; continue _fun0001;
 case 9:
                     var3 = var1.premium_purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-case 15:
+case 13:
                     return var1;
                 }
             };

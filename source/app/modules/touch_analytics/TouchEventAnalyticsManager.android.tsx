@@ -98,10 +98,7 @@ case 10:
 case 16:
             var2 = _closure1_slot9;
             if(!var2) { _fun0002_ip = 14; continue _fun0002 }
-case 17:
-            var2 = _closure1_slot9;
-            if(!var2) { _fun0002_ip = 14; continue _fun0002 }
-case 18: // try_start_1
+case 17: // try_start_1
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 7;
@@ -109,11 +106,11 @@ case 18: // try_start_1
             var4 = var4.bind(var1)(var2);
             var2 = var4.disableTouchLogging;
             var2 = var2.bind(var4)();
-case 19: // try_end1
-            _fun0002_ip = 20; continue _fun0002;
-case 21: // catch_target1
+case 18: // try_end1
+            _fun0002_ip = 19; continue _fun0002;
+case 20: // catch_target1
             CatchBlockStart(arg_register=1);
-case 20:
+case 19:
             var2 = false;
             _closure1_slot9 = var2;
 case 14:
@@ -174,14 +171,14 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                if(var1) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0003_ip = 24; continue _fun0003;
-case 22:
+                _fun0003_ip = 23; continue _fun0003;
+case 21:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -190,7 +187,7 @@ case 22:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 24:
+case 23:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -227,7 +224,7 @@ case 0:
                 var1 = _closure1_slot11;
                 var1 = var3.bind(var4)(var1);
                 var1 = _closure1_slot9;
-                if(!var1) { _fun0004_ip = 25; continue _fun0004 }
+                if(!var1) { _fun0004_ip = 24; continue _fun0004 }
 case 7: // try_start_0
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -237,14 +234,14 @@ case 7: // try_start_0
                 var3 = var4.bind(var1)(var3);
                 var1 = var3.disableTouchLogging;
                 var1 = var1.bind(var3)();
-case 26: // try_end0
-                _fun0004_ip = 27; continue _fun0004;
-case 28: // catch_target0
+case 25: // try_end0
+                _fun0004_ip = 26; continue _fun0004;
+case 27: // catch_target0
                 CatchBlockStart(arg_register=0);
-case 27:
+case 26:
                 var1 = false;
                 _closure1_slot9 = var1;
-case 25:
+case 24:
                 var1 = undefined;
                 return var1;
             }

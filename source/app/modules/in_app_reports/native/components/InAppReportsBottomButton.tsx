@@ -118,22 +118,18 @@ case 7:
             var17 = var6;
             if(!(var3 === var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = var7[var2];
-            var3 = var6.bind(var5)(var3);
-            var9 = var3.intl;
-            var4 = var9.string;
-            var3 = var7[var2];
-            var3 = var6.bind(var5)(var3);
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var4 = var3[var2];
+            var4 = var7.bind(var5)(var4);
+            var6 = var4.intl;
+            var4 = var6.string;
+            var3 = var3[var2];
+            var3 = var7.bind(var5)(var3);
             var3 = var3.t;
             var3 = var3.ETE/oC;
-            var17 = var4.bind(var9)(var3);
-            var4 = 8;
-            var4 = var7[var4];
-            var4 = var6.bind(var5)(var4);
-            var4 = var4.ButtonColors;
-            var16 = var4.TRANSPARENT;
+            var17 = var4.bind(var6)(var3);
+            var16 = 'secondary';
             var20 = undefined;
             _fun0001_ip = 8; continue _fun0001;
 case 6:
@@ -185,13 +181,7 @@ case 10:
             var3 = var7.bind(var9)(var4);
             var6 = undefined;
 case 12:
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 8;
-            var4 = var9[var4];
-            var4 = var7.bind(var5)(var4);
-            var4 = var4.ButtonColors;
-            var16 = var4.RED;
+            var16 = 'destructive';
             var20 = var6;
             var17 = var3;
 case 8:
@@ -239,7 +229,7 @@ case 17:
             var15 = _closure1_slot4;
             var12 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var8 = 9;
+            var8 = 8;
             var8 = var21[var8];
             var8 = var12.bind(var5)(var8);
             var12 = var8.Text;
@@ -252,11 +242,12 @@ case 16:
             var8 = new Array(3);
             var8[0] = var9;
             var15 = _closure1_slot4;
-            var12 = _closure1_slot1;
+            var12 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var9 = 8;
+            var9 = 9;
             var9 = var20[var9];
-            var12 = var12.bind(var5)(var9);
+            var9 = var12.bind(var5)(var9);
+            var12 = var9.Button;
             var9 = {};
             var9['disabled'] = var19;
             var18 = function onPress() {
@@ -268,7 +259,7 @@ case 16:
             };
             var9['onPress'] = var18;
             var9['text'] = var17;
-            var9['color'] = var16;
+            var9['variant'] = var16;
             var9 = var15.bind(var5)(var12, var9);
             var8[1] = var9;
             var9 = null;

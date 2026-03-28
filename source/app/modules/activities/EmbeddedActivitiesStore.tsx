@@ -2538,8 +2538,8 @@ case 0:
             var2 = var3.get;
             var5 = var2.bind(var3)(var4);
             var2 = null;
-            if(!(var2 != var5)) { _fun0040_ip = 176; continue _fun0040 }
-case 177:
+            if(!(var2 != var5)) { _fun0040_ip = 136; continue _fun0040 }
+case 142:
             var4 = _closure1_slot20;
             var3 = var4.set;
             var2 = var5.applicationId;
@@ -2550,7 +2550,7 @@ case 177:
             var5 = 'config';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
-case 176:
+case 136:
             var1 = undefined;
             return var1;
         }

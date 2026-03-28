@@ -267,12 +267,12 @@ case 0:
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-                            var9 = _closure1_slot1;
+                            var4 = _closure1_slot1;
                             var10 = _closure1_slot3;
                             var2 = 6;
                             var2 = var10[var2];
                             var3 = undefined;
-                            var7 = var9.bind(var3)(var2);
+                            var7 = var4.bind(var3)(var2);
                             var5 = var7.confirm;
                             var2 = {};
                             var8 = _closure2_slot4;
@@ -281,14 +281,15 @@ case 14:
                             var2['body'] = var8;
                             var8 = _closure2_slot6;
                             var2['confirmText'] = var8;
+                            var9 = _closure1_slot0;
                             var8 = 7;
                             var8 = var10[var8];
                             var8 = var9.bind(var3)(var8);
-                            var8 = var8.Colors;
+                            var8 = var8.ButtonColors;
                             var8 = var8.RED;
                             var2['confirmColor'] = var8;
                             var2 = var5.bind(var7)(var2);
-                            SaveGenerator(address=109);
+                            SaveGenerator(address=113);
 case 15:
                             return var2;
 case 16:
@@ -298,8 +299,8 @@ case 18:
                             if(!var2) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
                             var5 = _closure2_slot12;
-                            if(var5) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+                            if(var5) { _fun0002_ip = 5; continue _fun0002 }
+case 21:
                             var5 = _closure2_slot11;
                             var7 = _closure1_slot1;
                             var8 = _closure1_slot3;
@@ -311,49 +312,49 @@ case 22:
                             var8 = var7 != var9;
                             var6 = 'group listing id cannot be null';
                             var6 = var10.bind(var3)(var8, var6);
-                            if(var5) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+                            if(var5) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
                             var8 = _closure2_slot9;
                             var6 = _closure2_slot0;
                             var5 = _closure2_slot2;
                             var5 = var8.bind(var3)(var6, var9, var5);
-                            SaveGenerator(address=206);
-case 25:
+                            SaveGenerator(address=210);
+case 24:
                             return var5;
-case 26:
+case 25:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
                             if(!var6) { _fun0002_ip = 19; continue _fun0002 }
-case 27:
+case 26:
                             return var5;
-case 23:
+case 22:
                             var8 = _closure2_slot8;
                             var6 = _closure2_slot0;
                             var5 = _closure2_slot2;
                             var5 = var8.bind(var3)(var6, var9, var5);
-                            SaveGenerator(address=238);
-case 28:
+                            SaveGenerator(address=242);
+case 27:
                             return var5;
-case 29:
+case 28:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                            if(var6) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+                            if(var6) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
                             var6 = _closure2_slot3;
                             if(!(var7 != var6)) { _fun0002_ip = 19; continue _fun0002 }
-case 32:
+case 31:
                             var7 = _closure2_slot3;
                             var6 = var7.goBack;
                             var6 = var6.bind(var7)();
                             _fun0002_ip = 19; continue _fun0002;
-case 30:
+case 29:
                             return var5;
-case 21:
+case 5:
                             var6 = _closure2_slot7;
                             var5 = _closure2_slot2;
                             var5 = var6.bind(var3)(var5);
                             var6 = _closure2_slot3;
                             var5 = null;
                             if(!(var5 != var6)) { _fun0002_ip = 19; continue _fun0002 }
-case 8:
+case 32:
                             var5 = _closure2_slot3;
                             var4 = var5.goBack;
                             var4 = var4.bind(var5)();

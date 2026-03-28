@@ -192,6 +192,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['AUTOMATIC_GAIN_CONTROL'] = var1;
     var1 = 'CLIPS';
     var14['CLIPS'] = var1;
+    var1 = 'CLIPS_V3';
+    var14['CLIPS_V3'] = var1;
     var1 = 'SPEED_TEST';
     var14['SPEED_TEST'] = var1;
     var1 = 'IMAGE_QUALITY_MEASUREMENT';
@@ -299,12 +301,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['SIGNAL_AV1_HARDWARE_DECODE'] = var2;
     var2 = 'viewer_clip';
     var5['VIEWER_CLIP'] = var2;
-    var2 = 'mute_before_processing';
-    var5['MUTE_BEFORE_PROCESSING'] = var2;
-    var2 = 'ptt_before_processing';
-    var5['PTT_BEFORE_PROCESSING'] = var2;
-    var2 = 'skip_encode';
-    var5['SKIP_ENCODE'] = var2;
     var2 = 'reset_decoder_on_errors';
     var5['RESET_DECODER_ON_ERRORS'] = var2;
     var2 = 'software_fallback_on_errors';

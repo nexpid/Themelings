@@ -1850,8 +1850,6 @@ case 124:
                         var11 = var7.bind(var3)(var11);
                         var11 = var11.FriendsIcon;
                         var9['IconComponent'] = var11;
-                        var11 = 'blurple';
-                        var9['variant'] = var11;
                         var9 = var4.bind(var3)(var10, var9);
                         var1['icon'] = var9;
                         var6 = var8[var6];

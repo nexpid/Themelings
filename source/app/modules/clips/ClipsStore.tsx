@@ -1497,7 +1497,19 @@ case 110:
             var9 = var9 + var5;
             var6[var8] = var7;
             _closure1_slot31 = var6;
-            var7 = _closure1_slot20;
+            var8 = _closure1_slot20;
+            var7 = var8.filter;
+            var6 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 !== var1;
+                return var1;
+            };
+            var6 = var7.bind(var8)(var6);
+            _closure1_slot20 = var6;
+            var7 = _closure1_slot19;
             var6 = var7.filter;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -1508,7 +1520,7 @@ case 110:
                 return var1;
             };
             var3 = var6.bind(var7)(var3);
-            _closure1_slot20 = var3;
+            _closure1_slot19 = var3;
             var3 = new Array(1);
             var3[0] = var4;
             var13 = _closure1_slot19;

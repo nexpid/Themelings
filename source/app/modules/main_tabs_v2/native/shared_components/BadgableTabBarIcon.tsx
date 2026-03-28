@@ -444,7 +444,7 @@ case 30:
     var7 = 'function BadgableTabBarIconTsx1(){const{scaleDownAnimation,rotationAnimation,wobbleAnimationX,wobbleAnimationY}=this.__closure;return{transform:[{scale:scaleDownAnimation.get()},{rotate:rotationAnimation.get()+"deg"},{scaleX:wobbleAnimationX.get()},{scaleY:wobbleAnimationY.get()}]};}';
     var4['code'] = var7;
     var _closure1_slot18 = var4;
-    var4 = 33;
+    var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -830,8 +830,13 @@ case 62:
             var3 = var14;
 case 45:
             var3 = var5.bind(var15)(var12, var3);
-            var5 = _closure1_slot0;
+            var15 = _closure1_slot1;
             var3 = _closure1_slot2;
+            var5 = 26;
+            var5 = var3[var5];
+            var5 = var15.bind(var4)(var5);
+            var5 = var5.bind(var4)(var12);
+            var5 = _closure1_slot0;
             var3 = var3[var9];
             var15 = var5.bind(var4)(var3);
             var9 = var15.useStateFromStores;
@@ -884,7 +889,7 @@ case 68:
             var2 = var3.bind(var4)(var2);
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var27 = 26;
+            var27 = 27;
             var9 = var3[var27];
             var15 = var5.bind(var4)(var9);
             var9 = var15.useSharedValue;
@@ -918,12 +923,12 @@ case 68:
                 var3 = var4.set;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 26;
+                var1 = 27;
                 var2 = var9[var1];
                 var1 = undefined;
                 var7 = var8.bind(var1)(var2);
                 var6 = var7.withSequence;
-                var2 = 27;
+                var2 = 28;
                 var5 = var9[var2];
                 var12 = var8.bind(var1)(var5);
                 var11 = var12.withSpring;
@@ -949,7 +954,7 @@ case 68:
                 var3 = var4.set;
                 var12 = _closure1_slot0;
                 var15 = _closure1_slot2;
-                var2 = 26;
+                var2 = 27;
                 var5 = var15[var2];
                 var1 = undefined;
                 var7 = var12.bind(var1)(var5);
@@ -957,11 +962,11 @@ case 68:
                 var2 = var15[var2];
                 var11 = var12.bind(var1)(var2);
                 var10 = var11.withSequence;
-                var13 = 27;
+                var13 = 28;
                 var2 = var15[var13];
                 var14 = var12.bind(var1)(var2);
                 var9 = var14.withSpring;
-                var2 = 28;
+                var2 = 29;
                 var5 = var15[var2];
                 var5 = var12.bind(var1)(var5);
                 var8 = var5.springStandard;
@@ -1012,7 +1017,7 @@ case 68:
                 var5 = var6.set;
                 var19 = _closure1_slot0;
                 var20 = _closure1_slot2;
-                var8 = 26;
+                var8 = 27;
                 var2 = var20[var8];
                 var1 = undefined;
                 var10 = var19.bind(var1)(var2);
@@ -1020,11 +1025,11 @@ case 68:
                 var2 = var20[var8];
                 var22 = var19.bind(var1)(var2);
                 var21 = var22.withSequence;
-                var16 = 27;
+                var16 = 28;
                 var2 = var20[var16];
                 var12 = var19.bind(var1)(var2);
                 var11 = var12.withSpring;
-                var2 = 28;
+                var2 = 29;
                 var4 = var20[var2];
                 var4 = var19.bind(var1)(var4);
                 var7 = var4.springStandard;
@@ -1362,7 +1367,7 @@ case 80:
 case 74:
             var29 = _closure1_slot0;
             var33 = _closure1_slot2;
-            var28 = 29;
+            var28 = 30;
             var28 = var33[var28];
             var28 = var29.bind(var4)(var28);
             var29 = var28.YouTabLottie;
@@ -1402,7 +1407,7 @@ case 86:
             var21 = _closure1_slot12;
             var20 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var19 = 30;
+            var19 = 31;
             var19 = var24[var19];
             var20 = var20.bind(var4)(var19);
             var19 = {};
@@ -1429,7 +1434,7 @@ case 85:
             var12 = _closure1_slot12;
             var9 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var8 = 31;
+            var8 = 32;
             var8 = var15[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.MobileTrialUserSettingsAvatarBadge;
@@ -1454,7 +1459,7 @@ case 94:
             var12 = _closure1_slot12;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var10 = 32;
+            var10 = 33;
             var10 = var15[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {'userId': null, 'userName': null, 'defaultColor': 'interactive-text-active', 'variant': 'text-md/semibold', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};

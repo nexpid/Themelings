@@ -169,6 +169,8 @@ case 2:
                 var2['guildId'] = var6;
                 var6 = var1.powerup;
                 var2['powerup'] = var6;
+                var6 = var1.badge;
+                var2['badge'] = var6;
                 var1 = var1.powerup;
                 var1 = var1.skuId;
                 var1 = var5.bind(var4)(var3, var2, var1);

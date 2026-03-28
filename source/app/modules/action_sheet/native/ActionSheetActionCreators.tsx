@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var4;
     var _closure1_slot2 = var7;
-    var1 = ['impressionName', 'impressionProperties', 'backdropKind', 'disableHapticOnOpen'];
+    var1 = ['impressionName', 'impressionProperties', 'backdropKind', 'disableHapticOnOpen', 'appEntryKey'];
     var _closure1_slot3 = var1;
     var1 = global;
     var9 = var1.Object;
@@ -45,8 +45,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot4 = var3;
         var3 = var1.stackingBehavior;
         var _closure2_slot5 = var3;
-        var1 = var1.disableHapticOnOpen;
-        var _closure2_slot6 = var1;
+        var3 = var1.disableHapticOnOpen;
+        var _closure2_slot6 = var3;
+        var1 = var1.appEntryKey;
+        var _closure2_slot7 = var1;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
         var1 = 3;
@@ -94,8 +96,10 @@ case 2:
                 var2['impressionProperties'] = var6;
                 var6 = _closure2_slot4;
                 var2['backdropKind'] = var6;
-                var5 = _closure2_slot5;
-                var2['stackingBehavior'] = var5;
+                var6 = _closure2_slot5;
+                var2['stackingBehavior'] = var6;
+                var5 = _closure2_slot7;
+                var2['appEntryKey'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             }
@@ -140,36 +144,38 @@ case 0:
                     var1 = null;
                     if(!(var1 == var2)) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
-                    var10 = {};
+                    var11 = {};
                     _fun0003_ip = 9; continue _fun0003;
 case 7:
-                    var10 = _closure2_slot1;
+                    var11 = _closure2_slot1;
 case 9:
-                    var8 = var10.impressionName;
-                    var7 = var10.impressionProperties;
-                    var6 = var10.backdropKind;
-                    var4 = var10.disableHapticOnOpen;
-                    var9 = _closure1_slot4;
+                    var9 = var11.impressionName;
+                    var8 = var11.impressionProperties;
+                    var7 = var11.backdropKind;
+                    var5 = var11.disableHapticOnOpen;
+                    var4 = var11.appEntryKey;
+                    var10 = _closure1_slot4;
                     var3 = _closure1_slot3;
                     var1 = undefined;
-                    var11 = var9.bind(var1)(var10, var3);
-                    var10 = _closure1_slot5;
-                    var9 = {};
-                    var12 = var9;
-                    var3 = copyDataProperties(var12, var11);
+                    var12 = var10.bind(var1)(var11, var3);
+                    var11 = _closure1_slot5;
+                    var10 = {};
+                    var13 = var10;
+                    var3 = copyDataProperties(var13, var12);
                     var3 = arg1;
-                    var9 = var10.bind(var1)(var3, var9);
+                    var10 = var11.bind(var1)(var3, var10);
                     var3 = _closure1_slot6;
                     var2 = {};
-                    var2['content'] = var9;
-                    var9 = _closure2_slot0;
-                    var2['key'] = var9;
-                    var2['impressionName'] = var8;
-                    var2['impressionProperties'] = var7;
-                    var2['backdropKind'] = var6;
-                    var5 = _closure2_slot2;
-                    var2['stackingBehavior'] = var5;
-                    var2['disableHapticOnOpen'] = var4;
+                    var2['content'] = var10;
+                    var10 = _closure2_slot0;
+                    var2['key'] = var10;
+                    var2['impressionName'] = var9;
+                    var2['impressionProperties'] = var8;
+                    var2['backdropKind'] = var7;
+                    var6 = _closure2_slot2;
+                    var2['stackingBehavior'] = var6;
+                    var2['disableHapticOnOpen'] = var5;
+                    var2['appEntryKey'] = var4;
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }

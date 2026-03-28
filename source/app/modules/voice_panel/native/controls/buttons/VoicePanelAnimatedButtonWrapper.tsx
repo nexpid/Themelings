@@ -42,35 +42,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var5 = arg1;
             var1 = {};
             var2 = {'justifyContent': 'center', 'alignItems': 'center'};
-            var8 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var7 = 5;
-            var3 = var3[var7];
-            var6 = undefined;
-            var3 = var8.bind(var6)(var3);
-            var8 = var3.radii;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = var8.round;
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
-            var3 = var8.md;
-case 4:
-            var2['borderRadius'] = var3;
-            var3 = undefined;
-            if(!var5) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var4 = var4[var7];
-            var4 = var5.bind(var6)(var4);
-            var4 = var4.colors;
-            var3 = var4.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
-case 5:
-            var2['backgroundColor'] = var3;
+            var3 = 5;
+            var4 = var4[var3];
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var4 = var3.radii;
+            var3 = arg1;
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var4.round;
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var3 = var4.md;
+case 4:
+            var2['borderRadius'] = var3;
             var1['pressableWrapper'] = var2;
             return var1;
         }
@@ -130,10 +119,10 @@ case 0:
             var13 = false;
             var20 = var14.bind(var15)(var13);
             var13 = null;
-            if(!(var13 != var3)) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+            if(!(var13 != var3)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var20 = var3;
-case 7:
+case 5:
             _closure2_slot3 = var20;
             var14 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -163,8 +152,8 @@ case 0:
                     var1 = {};
                     var4 = _closure2_slot0;
                     var5 = null;
-                    if(!(var5 == var4)) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                    if(!(var5 == var4)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var4 = function() {
                         var3 = _closure2_slot4;
                         var2 = var3.lock;
@@ -176,14 +165,14 @@ case 10:
                         var1 = undefined;
                         return var1;
                     };
-                    _fun0003_ip = 11; continue _fun0003;
-case 9:
+                    _fun0003_ip = 9; continue _fun0003;
+case 7:
                     var4 = _closure2_slot0;
-case 11:
+case 9:
                     var1['onPressIn'] = var4;
                     var4 = _closure2_slot1;
-                    if(!(var5 == var4)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                    if(!(var5 == var4)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var2 = function() {
                         var3 = _closure2_slot4;
                         var2 = var3.unlock;
@@ -195,10 +184,10 @@ case 13:
                         var1 = undefined;
                         return var1;
                     };
-                    _fun0003_ip = 14; continue _fun0003;
-case 12:
+                    _fun0003_ip = 12; continue _fun0003;
+case 10:
                     var2 = _closure2_slot1;
-case 14:
+case 12:
                     var1['onPressOut'] = var2;
                     return var1;
                 }
@@ -229,8 +218,8 @@ case 0:
                     var4 = var4.bind(var1)(var2);
                     var2 = var4.isAndroid;
                     var2 = var2.bind(var4)();
-                    if(var2) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+                    if(var2) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var2 = function t(arg1) {
                         var4 = arg1;
                         var5 = _closure2_slot8;
@@ -318,7 +307,7 @@ case 16:
                     var3 = _closure1_slot8;
                     var2['__initData'] = var3;
                     return var2;
-case 15:
+case 13:
                     return var1;
                 }
             };
@@ -337,8 +326,8 @@ case 0:
                     var4 = var4.bind(var1)(var2);
                     var2 = var4.isAndroid;
                     var2 = var2.bind(var4)();
-                    if(var2) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                    if(var2) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
                     var2 = function t(arg1) {
                         var4 = arg1;
                         var1 = {};
@@ -415,7 +404,7 @@ case 16:
                     var3 = _closure1_slot9;
                     var2['__initData'] = var3;
                     return var2;
-case 15:
+case 13:
                     return var1;
                 }
             };

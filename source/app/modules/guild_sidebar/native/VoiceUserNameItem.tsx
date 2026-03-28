@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var9 = {'marginLeft': 8, 'flex': 1, 'flexDirection': 'row'};
     var4['container'] = var9;
-    var9 = {'marginLeft': 4, 'alignSelf': 'center'};
+    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'paddingLeft': 8};
     var4['tag'] = var9;
     var9 = {};
     var9['opacity'] = var10;
@@ -62,21 +62,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var21 = var2.member;
-            var13 = var2.user;
+            var12 = var2.user;
             var6 = var2.guildId;
             var18 = var2.isGuest;
             var22 = var2.color;
             var24 = var2.variant;
             var2 = _closure1_slot8;
             var4 = undefined;
-            var12 = var2.bind(var4)();
+            var11 = var2.bind(var4)();
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 5;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
-            var7 = var13.id;
+            var7 = var12.id;
             var2['userId'] = var7;
             var2['guildId'] = var6;
             var6 = var3.bind(var4)(var2);
@@ -131,7 +131,7 @@ case 0:
             };
             var2 = new Array(0);
             var5 = var5.bind(var7)(var3, var2);
-            var11 = var7.useCallback;
+            var13 = var7.useCallback;
             var3 = function(arg1) {
                 var3 = _closure2_slot1;
                 var1 = arg1;
@@ -143,7 +143,7 @@ case 0:
                 return var1;
             };
             var2 = new Array(0);
-            var17 = var11.bind(var7)(var3, var2);
+            var17 = var13.bind(var7)(var3, var2);
             var3 = var7.useCallback;
             var2 = function(arg1) {
                 var4 = _closure2_slot3;
@@ -159,18 +159,18 @@ case 0:
                 return var1;
             };
             var1 = new Array(0);
-            var11 = var3.bind(var7)(var2, var1);
+            var13 = var3.bind(var7)(var2, var1);
             var3 = _closure1_slot6;
             var2 = _closure1_slot5;
             var1 = {};
             var1['onLayout'] = var5;
-            var7 = var12.container;
+            var7 = var11.container;
             var5 = new Array(2);
             var5[0] = var7;
             var7 = var6;
             if(!var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = var12.measuringTag;
+            var7 = var11.measuringTag;
 case 2:
             var5[1] = var7;
             var1['style'] = var5;
@@ -209,7 +209,7 @@ case 9:
             var17 = var22[var17];
             var21 = var21.bind(var4)(var17);
             var17 = var21.getName;
-            var20 = var17.bind(var21)(var13);
+            var20 = var17.bind(var21)(var12);
 case 8:
             var17 = new Array(2);
             var17[0] = var20;
@@ -265,19 +265,17 @@ case 21:
             var9 = _closure1_slot7;
             var8 = _closure1_slot5;
             var7 = {};
-            var7['onLayout'] = var11;
-            var11 = var12.tag;
+            var7['onLayout'] = var13;
+            var11 = var11.tag;
             var7['style'] = var11;
             var11 = _closure1_slot1;
-            var14 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var10 = 10;
-            var10 = var14[var10];
+            var10 = var13[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
-            var13 = var13.id;
-            var10['userId'] = var13;
-            var12 = var12.tag;
-            var10['containerStyles'] = var12;
+            var12 = var12.id;
+            var10['userId'] = var12;
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);

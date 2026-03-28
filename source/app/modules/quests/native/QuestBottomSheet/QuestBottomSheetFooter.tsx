@@ -1054,10 +1054,10 @@ case 54:
             var11 = var26.bind(var5)(var11);
             var11 = var11.TaskPlatformScreen;
             var11 = var11.CONSOLE;
-            if(!(var14 === var11)) { _fun0008_ip = 21; continue _fun0008 }
-case 55:
-            if(var10) { _fun0008_ip = 21; continue _fun0008 }
+            if(!(var14 === var11)) { _fun0008_ip = 55; continue _fun0008 }
 case 56:
+            if(var10) { _fun0008_ip = 55; continue _fun0008 }
+case 57:
             var14 = _closure1_slot10;
             var11 = _closure1_slot19;
             var10 = {};
@@ -1068,8 +1068,8 @@ case 56:
             var10['onPress'] = var18;
             var10['sourceQuestContent'] = var19;
             var10 = var14.bind(var5)(var11, var10);
-            _fun0008_ip = 57; continue _fun0008;
-case 21:
+            _fun0008_ip = 58; continue _fun0008;
+case 55:
             var18 = _closure1_slot10;
             var14 = _closure1_slot20;
             var11 = {};
@@ -1081,8 +1081,8 @@ case 21:
             var11['disabled'] = var25;
             var11['sourceQuestContent'] = var19;
             var10 = var18.bind(var5)(var14, var11);
-case 57:
-            _fun0008_ip = 58; continue _fun0008;
+case 58:
+            _fun0008_ip = 59; continue _fun0008;
 case 53:
             var18 = _closure1_slot10;
             var25 = _closure1_slot0;
@@ -1101,8 +1101,8 @@ case 53:
             var24 = var24.bind(var25)(var22);
             var11['icon'] = var24;
             var10 = var18.bind(var5)(var14, var11);
-case 58:
-            _fun0008_ip = 59; continue _fun0008;
+case 59:
+            _fun0008_ip = 60; continue _fun0008;
 case 51:
             var18 = _closure1_slot10;
             var14 = _closure1_slot17;
@@ -1112,8 +1112,8 @@ case 51:
             var11['taskDetails'] = var23;
             var11['sourceQuestContent'] = var19;
             var10 = var18.bind(var5)(var14, var11);
-case 59:
-            _fun0008_ip = 60; continue _fun0008;
+case 60:
+            _fun0008_ip = 61; continue _fun0008;
 case 49:
             var18 = _closure1_slot10;
             var14 = _closure1_slot20;
@@ -1124,17 +1124,17 @@ case 49:
             var11['onPress'] = var22;
             var11['disabled'] = var20;
             var20 = var21.isLoading;
-            if(var20) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+            if(var20) { _fun0008_ip = 62; continue _fun0008 }
+case 63:
             var20 = var21.isClaiming;
-case 61:
+case 62:
             var11['loading'] = var20;
             var11['sourceQuestContent'] = var19;
             var10 = var18.bind(var5)(var14, var11);
-case 60:
+case 61:
             var9 = var10;
 case 47:
-            _fun0008_ip = 63; continue _fun0008;
+            _fun0008_ip = 64; continue _fun0008;
 case 45:
             var14 = _closure1_slot10;
             var11 = _closure1_slot18;
@@ -1144,11 +1144,11 @@ case 45:
             var15 = var16 === var15;
             var10['disabled'] = var15;
             var9 = var14.bind(var5)(var11, var10);
-case 63:
+case 64:
             var2['ctaButton'] = var9;
             var8 = var8 != var12;
-            if(!var8) { _fun0008_ip = 64; continue _fun0008 }
-case 65:
+            if(!var8) { _fun0008_ip = 65; continue _fun0008 }
+case 66:
             var11 = _closure1_slot10;
             var14 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -1182,7 +1182,7 @@ case 65:
             var12 = 'lg';
             var9['size'] = var12;
             var8 = var11.bind(var5)(var10, var9);
-case 64:
+case 65:
             var2['backButton'] = var8;
             var2['style'] = var7;
             var2['withSafeArea'] = var6;

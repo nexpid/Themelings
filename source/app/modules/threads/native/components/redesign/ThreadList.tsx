@@ -692,8 +692,6 @@ case 34:
                 var7 = var7.RowButton;
                 var8 = var7.Icon;
                 var7 = {};
-                var12 = 'blurple';
-                var7['variant'] = var12;
                 var12 = 16;
                 var12 = var10[var12];
                 var12 = var9.bind(var4)(var12);

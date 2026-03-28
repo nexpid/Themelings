@@ -169,6 +169,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['REMOTE_USER_MULTI_STREAM'] = var2;
     var2 = 'clips';
     var5['CLIPS'] = var2;
+    var2 = 'clips_v3';
+    var5['CLIPS_V3'] = var2;
     var2 = 'go_live_hardware';
     var5['GO_LIVE_HARDWARE'] = var2;
     var2 = 'image_quality_measurement';

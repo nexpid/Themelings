@@ -28,48 +28,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var8 = var2.product;
+            var9 = var2.product;
             var6 = var2.initialVariantIndex;
             var1 = undefined;
             if(!(var6 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = 0;
 case 2:
-            var2 = var2.analyticsLocations;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var9 = 0;
-            var3 = var3[var9];
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.getIsVariantProduct;
-            var4 = var3.bind(var4)(var8);
-            var3 = 0;
+            var3 = var2.analyticsLocations;
+            var2 = var2.shopAnalyticsContext;
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var10 = 0;
+            var4 = var4[var10];
+            var7 = var7.bind(var1)(var4);
+            var4 = var7.getIsVariantProduct;
+            var4 = var4.bind(var7)(var9);
+            var8 = 0;
             if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = var8.variants;
+            var7 = var9.variants;
             var7 = var7.length;
             var7 = var6 < var7;
-            var3 = 0;
+            var8 = 0;
             if(!var7) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
-            var3 = var6;
+            var8 = var6;
 case 4:
             if(var4) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var10 = var8.skuId;
+            var11 = var9.skuId;
             _fun0001_ip = 9; continue _fun0001;
 case 7:
-            var4 = var8.variants;
-            var4 = var4[var3];
-            var10 = var4.skuId;
+            var4 = var9.variants;
+            var4 = var4[var8];
+            var11 = var4.skuId;
 case 9:
-            var9 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = 1;
             var6 = var4[var6];
-            var7 = var9.bind(var1)(var6);
+            var7 = var10.bind(var1)(var6);
             var6 = var7.productDetailsOpened;
-            var6 = var6.bind(var7)(var10);
+            var6 = var6.bind(var7)(var11);
             var6 = _closure1_slot1;
             var5 = 2;
             var5 = var4[var5];
@@ -77,20 +78,21 @@ case 9:
             var6 = var7.openLazy;
             var5 = 4;
             var5 = var4[var5];
-            var9 = var9.bind(var1)(var5);
+            var10 = var10.bind(var1)(var5);
             var5 = 3;
             var5 = var4[var5];
             var4 = var4.paths;
-            var14 = var9.bind(var1)(var5, var4);
+            var15 = var10.bind(var1)(var5, var4);
             var4 = {};
-            var4['product'] = var8;
-            var4['initialVariantIndex'] = var3;
-            var4['analyticsLocations'] = var2;
-            var13 = 'Shop Product Preview';
-            var11 = arg2;
-            var15 = var7;
-            var12 = var4;
-            var2 = var15[var6](var14, var13, var12, var11, var10);
+            var4['product'] = var9;
+            var4['initialVariantIndex'] = var8;
+            var4['analyticsLocations'] = var3;
+            var4['shopAnalyticsContext'] = var2;
+            var14 = 'Shop Product Preview';
+            var12 = arg2;
+            var16 = var7;
+            var13 = var4;
+            var2 = var16[var6](var15, var14, var13, var12, var11);
             return var1;
         }
     };

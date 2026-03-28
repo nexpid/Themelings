@@ -669,11 +669,10 @@ case 44:
                             var4 = _closure4_slot0;
                             var2 = function(arg1) {
                                 var4 = arg1;
+                                var1 = var4.restoreDraftTextInputValue;
+                                var1 = var1.bind(var4)();
                                 var1 = var4.removePrefixTags;
                                 var1 = var1.bind(var4)();
-                                var3 = var4.setTextInputValue;
-                                var2 = _closure1_slot4;
-                                var2 = var3.bind(var4)(var2);
                                 var3 = var4.addTag;
                                 var2 = {};
                                 var5 = _closure1_slot5;
@@ -747,6 +746,8 @@ case 39:
                     var3 = var5.setState;
                     var2 = function(arg1) {
                         var4 = arg1;
+                        var1 = var4.saveDraftTextInputValue;
+                        var1 = var1.bind(var4)();
                         var3 = var4.setTextInputValue;
                         var2 = _closure1_slot4;
                         var2 = var3.bind(var4)(var2);

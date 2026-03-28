@@ -2,27 +2,21 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
-    var6 = dependencyMap;
+    var4 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
-    var1 = global;
-    var8 = var1.Object;
+    var2 = metroImportDefault;
+    var _closure1_slot1 = var2;
+    var _closure1_slot2 = var4;
+    var2 = global;
+    var8 = var2.Object;
     var7 = var8.defineProperty;
+    var6 = {};
+    var2 = true;
+    var6['value'] = var2;
+    var2 = '__esModule';
+    var2 = var7.bind(var8)(var3, var2, var6);
     var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
-    var1 = 0;
-    var2 = var6[var1];
-    var1 = undefined;
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.SearchTypes;
-    var _closure1_slot3 = var2;
-    var2 = {};
-    var7 = function fetchTabMessages(arg1) {
+    var6 = function fetchTabMessages(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -43,7 +37,7 @@ case 0:
             var _closure2_slot4 = var4;
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var18 = 1;
+            var18 = 0;
             var8 = var3[var18];
             var11 = var5.bind(var4)(var8);
             var8 = var11.tokenizeQuery;
@@ -107,7 +101,7 @@ case 5:
 case 4:
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var5 = 2;
+            var5 = 1;
             var5 = var16[var5];
             var12 = var11.bind(var4)(var5);
             var11 = var12.create;
@@ -145,7 +139,7 @@ case 6:
             _closure2_slot4 = var6;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 3;
+            var2 = 2;
             var2 = var7[var2];
             var4 = var3.bind(var4)(var2);
             var3 = var4.dispatch;
@@ -168,7 +162,7 @@ case 0:
                     var4 = var2.bind(var3)(var1);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 3;
+                    var1 = 2;
                     var2 = var2[var1];
                     var1 = undefined;
                     var6 = var3.bind(var1)(var2);
@@ -226,7 +220,7 @@ case 13:
 case 16:
                             var7 = _closure1_slot1;
                             var9 = _closure1_slot2;
-                            var5 = 4;
+                            var5 = 3;
                             var5 = var9[var5];
                             var7 = var7.bind(var8)(var5);
                             var5 = var7.isEmpty;
@@ -260,7 +254,7 @@ case 22:
                             var3 = function(arg1) {
                                 var2 = _closure1_slot1;
                                 var3 = _closure1_slot2;
-                                var1 = 5;
+                                var1 = 4;
                                 var1 = var3[var1];
                                 var3 = undefined;
                                 var2 = var2.bind(var3)(var1);
@@ -298,7 +292,7 @@ case 24:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 3;
+                var1 = 2;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -314,7 +308,7 @@ case 24:
             var1 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 3;
+                var1 = 2;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -334,8 +328,8 @@ case 24:
             return var1;
         }
     };
-    var2['fetchTabMessages'] = var7;
-    var7 = function fetchMessages(arg1) {
+    var2['fetchTabMessages'] = var6;
+    var6 = function fetchMessages(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
@@ -349,7 +343,7 @@ case 0:
             var _closure2_slot1 = var1;
             var11 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var6 = 1;
+            var6 = 0;
             var7 = var4[var6];
             var13 = var11.bind(var1)(var7);
             var7 = var13.tokenizeQuery;
@@ -385,31 +379,11 @@ case 27:
             var11 = var12.setIncludeNSFW;
             var11 = var11.bind(var12)(var7, var13);
 case 26:
-            var12 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var11 = var11[var6];
-            var12 = var12.bind(var1)(var11);
-            var11 = var12.getChannelIdFromSearchContext;
-            var12 = var11.bind(var12)(var10);
-            var11 = var4 != var12;
-            if(!var11) { _fun0005_ip = 28; continue _fun0005 }
+            if(!var8) { _fun0005_ip = 28; continue _fun0005 }
 case 29:
-            var14 = var10.type;
-            var13 = _closure1_slot3;
-            var13 = var13.GUILD_CHANNEL;
-            var11 = var14 === var13;
-case 28:
-            if(!var11) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
-            var11 = new Array(1);
-            var11[0] = var12;
-            var7['channel_id'] = var11;
-case 30:
-            if(!var8) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
             var8 = true;
             var7['search_everywhere'] = var8;
-case 32:
+case 28:
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
             var6 = var12[var6];
@@ -418,7 +392,7 @@ case 32:
             var8 = var6.bind(var8)(var10);
             _closure2_slot1 = var8;
             var11 = _closure1_slot1;
-            var6 = 6;
+            var6 = 5;
             var6 = var12[var6];
             var12 = var11.bind(var1)(var6);
             var11 = var12.create;
@@ -428,17 +402,17 @@ case 32:
             var6['searchType'] = var13;
             var6['searchQuery'] = var7;
             var6 = var11.bind(var12)(var6);
-            if(!(var4 != var5)) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+            if(!(var4 != var5)) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
             var4 = {};
             var4['searchContext'] = var10;
             var4['searchQueryString'] = var9;
             var4['searchQuery'] = var7;
             var4 = var5.bind(var1)(var4);
-case 34:
+case 30:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 3;
+            var3 = 2;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.dispatch;
@@ -456,7 +430,7 @@ case 0:
                     var7 = arg1;
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 3;
+                    var1 = 2;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -481,22 +455,22 @@ case 0:
                     var5 = var7.body;
                     var8 = var5.threads;
                     var5 = null;
-                    if(!(var5 == var8)) { _fun0006_ip = 36; continue _fun0006 }
-case 37:
+                    if(!(var5 == var8)) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
                     var8 = new Array(0);
-case 36:
+case 32:
                     var6['threads'] = var8;
                     var8 = var7.body;
                     var10 = var8.members;
-                    if(!(var5 == var10)) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+                    if(!(var5 == var10)) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
                     var10 = new Array(0);
-case 38:
+case 34:
                     var9 = var10.map;
                     var8 = function(arg1) {
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 5;
+                        var1 = 4;
                         var1 = var3[var1];
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
@@ -514,10 +488,10 @@ case 38:
                     var6['documentsIndexed'] = var8;
                     var7 = var7.body;
                     var7 = var7.channels;
-                    if(!(var5 == var7)) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
+                    if(!(var5 == var7)) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
                     var7 = new Array(0);
-case 40:
+case 36:
                     var6['channels'] = var7;
                     var6['cursor'] = var5;
                     var5 = new Array(1);
@@ -530,7 +504,7 @@ case 40:
             var3 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 3;
+                var1 = 2;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -548,7 +522,7 @@ case 40:
             var2 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 3;
+                var1 = 2;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -569,11 +543,11 @@ case 40:
             return var1;
         }
     };
-    var2['fetchMessages'] = var7;
-    var7 = function clearSearchRecentMessages() {
+    var2['fetchMessages'] = var6;
+    var6 = function clearSearchRecentMessages() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -584,11 +558,11 @@ case 40:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['clearSearchRecentMessages'] = var7;
-    var7 = function clearAllSearchMesssages() {
+    var2['clearSearchRecentMessages'] = var6;
+    var6 = function clearAllSearchMesssages() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -599,11 +573,11 @@ case 40:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['clearAllSearchMesssages'] = var7;
-    var7 = function clearSearchMessages(arg1) {
+    var2['clearAllSearchMesssages'] = var6;
+    var6 = function clearSearchMessages(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -616,11 +590,11 @@ case 40:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['clearSearchMessages'] = var7;
-    var7 = function initializeAutocomplete(arg1) {
+    var2['clearSearchMessages'] = var6;
+    var6 = function initializeAutocomplete(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -633,8 +607,8 @@ case 40:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['initializeAutocomplete'] = var7;
-    var7 = function updateAutocompleteQuery(arg1) {
+    var2['initializeAutocomplete'] = var6;
+    var6 = function updateAutocompleteQuery(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
@@ -646,21 +620,21 @@ case 0:
             var1 = var1.bind(var2)();
             var2 = var1.length;
             var1 = 0;
-            if(!(var2 > var1)) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
+            if(!(var2 > var1)) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var2 = var1.FrecencyUserSettingsActionCreators;
             var1 = var2.loadIfNecessary;
             var1 = var1.bind(var2)();
-case 42:
+case 38:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 3;
+            var1 = 2;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -675,11 +649,11 @@ case 42:
             return var1;
         }
     };
-    var2['updateAutocompleteQuery'] = var7;
-    var4 = function markSearchTokensRefreshed() {
+    var2['updateAutocompleteQuery'] = var6;
+    var1 = function markSearchTokensRefreshed() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -690,9 +664,10 @@ case 42:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['markSearchTokensRefreshed'] = var4;
-    var4 = 8;
-    var4 = var6[var4];
+    var2['markSearchTokensRefreshed'] = var1;
+    var1 = 7;
+    var4 = var4[var1];
+    var1 = undefined;
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/search/SearchActionCreators.tsx';

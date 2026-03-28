@@ -169,11 +169,12 @@ case 4:
             var6[0] = var11;
             var6[1] = var10;
             var1['style'] = var6;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot0;
             var10 = _closure1_slot3;
             var5 = 11;
             var5 = var10[var5];
-            var6 = var6.bind(var4)(var5);
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.Button;
             var5 = {};
             var5['disabled'] = var9;
             var5['text'] = var8;

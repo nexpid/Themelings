@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var3 = arg1;
             var1 = {};
-            var2 = {'height': 1, 'backgroundColor': null, 'marginTop': 12, 'marginBottom': 12};
+            var2 = {'height': 1, 'backgroundColor': null, 'marginTop': 8, 'marginBottom': 8};
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var4 = 4;
@@ -99,10 +99,10 @@ case 7:
         return var1;
     };
     var3['default'] = var2;
-    var2 = 12;
+    var2 = 8;
     var3['DIVIDER_MARGIN_TOP'] = var2;
     var3['DIVIDER_MARGIN_BOTTOM'] = var2;
-    var2 = 25;
+    var2 = 17;
     var3['DIVIDER_HEIGHT'] = var2;
     var2 = 16;
     var3['DIVIDER_MARGIN_HORIZONTAL'] = var2;

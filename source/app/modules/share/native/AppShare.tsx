@@ -348,8 +348,8 @@ case 16:
             var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var7 = 'share';
-            var1['appEntryKey'] = var7;
+            var12 = 'share';
+            var1['appEntryKey'] = var12;
             var9 = _closure1_slot9;
             if(var5) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
@@ -369,6 +369,7 @@ case 18:
             var5 = var11[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
+            var5['appEntryKey'] = var12;
             var5['sharedContent'] = var10;
             var10 = _closure1_slot5;
             var10 = var10.exitApp;
@@ -385,6 +386,7 @@ case 20:
             var10 = var7.bind(var4)(var10);
             var11 = var10.ActionSheetContainer;
             var10 = {};
+            var10['appEntryKey'] = var12;
             var10 = var8.bind(var4)(var11, var10);
             var5[1] = var10;
             var10 = _closure1_slot1;

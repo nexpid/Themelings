@@ -389,13 +389,13 @@ case 4:
             var12 = var12.startButton;
             var9['style'] = var12;
             var14 = _closure1_slot7;
-            var13 = _closure1_slot1;
+            var19 = _closure1_slot0;
             var16 = _closure1_slot2;
             var12 = 21;
             var12 = var16[var12];
-            var13 = var13.bind(var4)(var12);
+            var12 = var19.bind(var4)(var12);
+            var13 = var12.Button;
             var12 = {};
-            var19 = _closure1_slot0;
             var17 = var16[var20];
             var17 = var19.bind(var4)(var17);
             var18 = var17.intl;

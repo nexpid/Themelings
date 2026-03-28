@@ -1669,8 +1669,6 @@ case 85:
             var29 = var23[var29];
             var29 = var30.bind(var4)(var29);
             var25['source'] = var29;
-            var29 = 'blurple';
-            var25['variant'] = var29;
             var25 = var28.bind(var4)(var27, var25);
             var15['icon'] = var25;
             var25 = var23[var17];

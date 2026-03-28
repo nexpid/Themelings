@@ -167,8 +167,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var21 = var2.outboundPromotion;
-            var _closure2_slot0 = var21;
+            var20 = var2.outboundPromotion;
+            var _closure2_slot0 = var20;
             var1 = var2.code;
             var _closure2_slot1 = var1;
             var7 = var2.addClaimedOutboundPromotionCode;
@@ -189,14 +189,14 @@ case 0:
             var2 = var5[var2];
             var9 = var8.bind(var4)(var2);
             var8 = var9.getPromotionImageURL;
-            var2 = var21.id;
+            var2 = var20.id;
             var16 = var8.bind(var9)(var2, var10);
             var2 = null;
             var8 = var2 != var1;
             var2 = 15;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            var10 = var2.bind(var4)(var21, var8);
+            var10 = var2.bind(var4)(var20, var8);
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var15 = 10;
@@ -232,11 +232,11 @@ case 4:
             if(var8) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var8 = var2.O13yhz;
-            var19 = var3.bind(var5)(var8);
+            var21 = var3.bind(var5)(var8);
             _fun0001_ip = 7; continue _fun0001;
 case 5:
             var2 = var2["2cHUti"];
-            var19 = var3.bind(var5)(var2);
+            var21 = var3.bind(var5)(var2);
 case 7:
             var5 = _closure1_slot4;
             var3 = var5.useState;
@@ -256,7 +256,7 @@ case 7:
             var2[0] = var8;
             var2[1] = var7;
             var2[2] = var1;
-            var2[3] = var21;
+            var2[3] = var20;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -366,7 +366,7 @@ case 8:
             var10 = var13.textContainer;
             var8['style'] = var10;
             var16 = {};
-            var20 = _closure1_slot7;
+            var19 = _closure1_slot7;
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
             var12 = 11;
@@ -376,21 +376,21 @@ case 8:
             var17 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var23 = var13.title;
             var17['style'] = var23;
-            var21 = var21.outboundTitle;
-            var17['children'] = var21;
-            var18 = var20.bind(var4)(var18, var17);
+            var20 = var20.outboundTitle;
+            var17['children'] = var20;
+            var18 = var19.bind(var4)(var18, var17);
             var17 = new Array(2);
             var17[0] = var18;
-            var21 = _closure1_slot7;
+            var20 = _closure1_slot7;
             var12 = var10[var12];
             var12 = var11.bind(var4)(var12);
-            var20 = var12.Text;
+            var19 = var12.Text;
             var18 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var12 = var13.subText;
             var18['style'] = var12;
             var12 = 'text-sm/medium';
             var18['children'] = var22;
-            var18 = var21.bind(var4)(var20, var18);
+            var18 = var20.bind(var4)(var19, var18);
             var17[1] = var18;
             var16['children'] = var17;
             var16 = var3.bind(var4)(var2, var16);
@@ -401,31 +401,28 @@ case 8:
             var8 = {};
             var16 = var13.buttonContainer;
             var8['style'] = var16;
-            var18 = _closure1_slot7;
-            var21 = _closure1_slot1;
-            var20 = 19;
-            var16 = var10[var20];
-            var17 = var21.bind(var4)(var16);
+            var17 = _closure1_slot7;
             var16 = {};
-            var20 = var10[var20];
-            var20 = var21.bind(var4)(var20);
-            var20 = var20.Sizes;
-            var20 = var20.XSMALL;
-            var16['size'] = var20;
-            var16['text'] = var19;
-            var19 = true;
-            var16['shrink'] = var19;
-            var19 = var13.claimButton;
-            var16['style'] = var19;
-            var19 = function onPress() {
+            var18 = var13.claimButton;
+            var16['style'] = var18;
+            var20 = _closure1_slot7;
+            var18 = 19;
+            var18 = var10[var18];
+            var18 = var11.bind(var4)(var18);
+            var19 = var18.Button;
+            var18 = {'size': 'sm', 'shrink': true};
+            var18['text'] = var21;
+            var21 = function onPress() {
                 var3 = _closure2_slot4;
                 var2 = undefined;
                 var1 = true;
                 var1 = var3.bind(var2)(var1);
                 return var1;
             };
-            var16['onPress'] = var19;
-            var16 = var18.bind(var4)(var17, var16);
+            var18['onPress'] = var21;
+            var18 = var20.bind(var4)(var19, var18);
+            var16['children'] = var18;
+            var16 = var17.bind(var4)(var2, var16);
             var8['children'] = var16;
             var8 = var9.bind(var4)(var2, var8);
             var7[2] = var8;

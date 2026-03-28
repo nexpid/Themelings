@@ -697,6 +697,7 @@ case 0:
                 };
                 var4 = var7.bind(var8)(var6, var4);
                 var8 = var4[var5];
+                var _closure3_slot1 = var8;
                 var4 = null;
                 if(!(var4 != var8)) { _fun0013_ip = 40; continue _fun0013 }
 case 41:
@@ -749,11 +750,24 @@ case 42:
                 var6 = var7.setState;
                 var8 = _closure2_slot0;
                 var4 = function(arg1) {
-                    var3 = arg1;
-                    var2 = var3.removeTag;
-                    var1 = _closure3_slot0;
-                    var1 = var2.bind(var3)(var1);
-                    return var1;
+                    _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+                        var2 = arg1;
+                        var4 = var2.removeTag;
+                        var3 = _closure3_slot0;
+                        var3 = var4.bind(var2)(var3);
+                        var1 = _closure3_slot1;
+                        var3 = var1.type;
+                        var1 = _closure1_slot12;
+                        var1 = var1.PREFIX;
+                        if(!(var3 === var1)) { _fun0014_ip = 33; continue _fun0014 }
+case 26:
+                        var1 = var2.restoreDraftTextInputValue;
+                        var1 = var1.bind(var2)();
+case 33:
+                        var1 = undefined;
+                        return var1;
+                    }
                 };
                 var4 = var6.bind(var7)(var8, var4);
                 var7 = _closure1_slot1;
@@ -811,13 +825,13 @@ case 40:
         var3[2] = var2;
         var2 = function() {
             var1 = function() {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     var2 = _closure2_slot4;
-                    if(!var2) { _fun0014_ip = 47; continue _fun0014 }
+                    if(!var2) { _fun0015_ip = 47; continue _fun0015 }
 case 48:
                     var8 = _closure1_slot9;
                     var7 = var8.getState;
@@ -838,24 +852,26 @@ case 48:
                     var5 = var5.textInputValue;
                     var _closure4_slot0 = var5;
                     var5 = null;
-                    if(!(var5 != var8)) { _fun0014_ip = 49; continue _fun0014 }
+                    if(!(var5 != var8)) { _fun0015_ip = 49; continue _fun0015 }
 case 50:
                     var6 = _closure1_slot9;
                     var5 = var6.setState;
                     var4 = _closure2_slot0;
                     var3 = function(arg1) {
-                        var3 = arg1;
-                        var2 = var3.setTextInputValue;
+                        var2 = arg1;
+                        var3 = var2.setTextInputValue;
                         var1 = _closure1_slot10;
-                        var1 = var2.bind(var3)(var1);
-                        var2 = var3.addTag;
+                        var1 = var3.bind(var2)(var1);
+                        var3 = var2.addTag;
                         var1 = {};
                         var4 = _closure1_slot12;
                         var4 = var4.ANSWER;
                         var1['type'] = var4;
                         var4 = _closure4_slot0;
                         var1['text'] = var4;
-                        var1 = var2.bind(var3)(var1);
+                        var1 = var3.bind(var2)(var1);
+                        var1 = var2.restoreDraftTextInputValue;
+                        var1 = var1.bind(var2)();
                         var1 = undefined;
                         return var1;
                     };
@@ -899,7 +915,7 @@ case 49:
         var19 = var3.bind(var4)(var6);
         var12 = var19.useAnimatedStyle;
         var6 = function D() {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var1 = {};
                 var4 = _closure1_slot0;
@@ -913,7 +929,7 @@ case 0:
                 var3 = var6.get;
                 var6 = var3.bind(var6)();
                 var3 = 0;
-                if(!var6) { _fun0015_ip = 51; continue _fun0015 }
+                if(!var6) { _fun0016_ip = 51; continue _fun0016 }
 case 52:
                 var3 = 1;
 case 51:

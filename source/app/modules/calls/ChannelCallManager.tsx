@@ -414,16 +414,13 @@ case 0:
                         var4 = var4[var5];
                         var4 = var4.size;
                         var5 = 0;
-                        var6 = var4 > var5;
-                        if(!var6) { _fun0006_ip = 25; continue _fun0006 }
+                        if(!(var4 > var5)) { _fun0006_ip = 25; continue _fun0006 }
 case 26:
                         var4 = null;
-                        if(!(var4 == var9)) { _fun0006_ip = 27; continue _fun0006 }
+                        if(!(var4 != var9)) { _fun0006_ip = 27; continue _fun0006 }
 case 28:
-                        if(var6) { _fun0006_ip = 29; continue _fun0006 }
-case 27:
                         if(!(var4 != var9)) { _fun0006_ip = 25; continue _fun0006 }
-case 30:
+case 4:
                         var8 = _closure1_slot16;
                         var6 = var8.getGuildRingingUsers;
                         var6 = var6.bind(var8)(var9);
@@ -456,7 +453,7 @@ case 30:
                         var8 = var6 instanceof Object ? var6 : var8;
                         var6 = var8.size;
                         if(!(var6 > var5)) { _fun0006_ip = 25; continue _fun0006 }
-case 31:
+case 29:
                         var6 = var8.forEach;
                         var1 = function(arg1) {
                             var4 = _closure1_slot7;
@@ -482,7 +479,7 @@ case 31:
                         var1 = var6.bind(var8)(var1, var4);
 case 25:
                         return var7;
-case 29:
+case 27:
                         var1 = _closure1_slot7;
                         var3 = _closure3_slot0;
                         var6 = _closure1_slot18;

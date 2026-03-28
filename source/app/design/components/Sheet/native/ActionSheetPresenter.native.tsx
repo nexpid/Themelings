@@ -53,30 +53,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var13 = var2.sheetKey;
-            var _closure2_slot0 = var13;
-            var12 = var2.content;
-            var16 = var2.impressionName;
-            var14 = var2.impressionProperties;
-            var10 = _closure1_slot4;
-            var3 = var10.useState;
+            var14 = var2.sheetKey;
+            var _closure2_slot0 = var14;
+            var13 = var2.content;
+            var17 = var2.impressionName;
+            var15 = var2.impressionProperties;
+            var8 = var2.appEntryKey;
+            var11 = _closure1_slot4;
+            var3 = var11.useState;
             var2 = 'visible';
-            var5 = var3.bind(var10)(var2);
+            var5 = var3.bind(var11)(var2);
             var3 = _closure1_slot3;
             var4 = undefined;
             var2 = 2;
             var3 = var3.bind(var4)(var5, var2);
             var2 = 0;
-            var15 = var3[var2];
-            var _closure2_slot1 = var15;
+            var16 = var3[var2];
+            var _closure2_slot1 = var16;
             var2 = 1;
             var2 = var3[var2];
             var _closure2_slot2 = var2;
-            var2 = var10.useRef;
+            var2 = var11.useRef;
             var5 = _closure1_slot8;
-            var2 = var2.bind(var10)(var5);
+            var2 = var2.bind(var11)(var5);
             var _closure2_slot3 = var2;
-            var6 = var10.useCallback;
+            var6 = var11.useCallback;
             var3 = function(arg1) {
                 var2 = _closure2_slot3;
                 var1 = arg1;
@@ -85,12 +86,12 @@ case 0:
                 return var1;
             };
             var2 = new Array(0);
-            var3 = var6.bind(var10)(var3, var2);
+            var3 = var6.bind(var11)(var3, var2);
             var _closure2_slot4 = var3;
-            var2 = var10.useRef;
-            var2 = var2.bind(var10)(var5);
+            var2 = var11.useRef;
+            var2 = var2.bind(var11)(var5);
             var _closure2_slot5 = var2;
-            var6 = var10.useCallback;
+            var6 = var11.useCallback;
             var5 = function() {
                 var2 = _closure2_slot5;
                 var1 = var2.current;
@@ -99,27 +100,27 @@ case 0:
                 return var1;
             };
             var2 = new Array(0);
-            var9 = var6.bind(var10)(var5, var2);
-            var _closure2_slot6 = var9;
+            var10 = var6.bind(var11)(var5, var2);
+            var _closure2_slot6 = var10;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var5 = 6;
             var5 = var7[var5];
-            var8 = var2.bind(var4)(var5);
+            var9 = var2.bind(var4)(var5);
             var5 = {};
             var6 = _closure1_slot0;
-            var17 = 7;
-            var17 = var7[var17];
-            var17 = var6.bind(var4)(var17);
-            var17 = var17.ImpressionTypes;
-            var17 = var17.HALFSHEET;
-            var5['type'] = var17;
-            var5['name'] = var16;
-            var5['properties'] = var14;
-            var5 = var8.bind(var4)(var5);
-            var16 = var10.useImperativeHandle;
-            var14 = arg2;
-            var8 = function() {
+            var18 = 7;
+            var18 = var7[var18];
+            var18 = var6.bind(var4)(var18);
+            var18 = var18.ImpressionTypes;
+            var18 = var18.HALFSHEET;
+            var5['type'] = var18;
+            var5['name'] = var17;
+            var5['properties'] = var15;
+            var5 = var9.bind(var4)(var5);
+            var17 = var11.useImperativeHandle;
+            var15 = arg2;
+            var9 = function() {
                 var1 = {};
                 var3 = function componentDidEnter() {
                     var3 = _closure2_slot2;
@@ -154,10 +155,10 @@ case 0:
                 return var1;
             };
             var5 = new Array(0);
-            var5 = var16.bind(var10)(var14, var8, var5);
-            var14 = var10.useCallback;
-            var8 = new Array(1);
-            var8[0] = var13;
+            var5 = var17.bind(var11)(var15, var9, var5);
+            var15 = var11.useCallback;
+            var9 = new Array(1);
+            var9[0] = var14;
             var5 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -170,13 +171,13 @@ case 0:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var14 = var14.bind(var10)(var5, var8);
-            var _closure2_slot7 = var14;
-            var8 = var10.useMemo;
+            var15 = var15.bind(var11)(var5, var9);
+            var _closure2_slot7 = var15;
+            var9 = var11.useMemo;
             var5 = new Array(4);
-            var5[0] = var15;
-            var5[1] = var14;
-            var5[2] = var9;
+            var5[0] = var16;
+            var5[1] = var15;
+            var5[2] = var10;
             var5[3] = var3;
             var3 = function() {
                 var1 = {};
@@ -190,20 +191,20 @@ case 0:
                 var1['registerDismissHandler'] = var2;
                 return var1;
             };
-            var5 = var8.bind(var10)(var3, var5);
+            var5 = var9.bind(var11)(var3, var5);
             var3 = _closure1_slot9;
-            var8 = 9;
-            var8 = var7[var8];
-            var8 = var6.bind(var4)(var8);
-            var9 = var8.Dialog;
-            var8 = {};
-            var8['dialogKey'] = var13;
-            var8['onDismiss'] = var14;
-            var8['children'] = var12;
-            var15 = var3.bind(var4)(var9, var8);
-            var9 = var10.useCallback;
-            var8 = new Array(1);
-            var8[0] = var14;
+            var9 = 9;
+            var9 = var7[var9];
+            var9 = var6.bind(var4)(var9);
+            var10 = var9.Dialog;
+            var9 = {};
+            var9['dialogKey'] = var14;
+            var9['onDismiss'] = var15;
+            var9['children'] = var13;
+            var16 = var3.bind(var4)(var10, var9);
+            var10 = var11.useCallback;
+            var9 = new Array(1);
+            var9[0] = var15;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -222,7 +223,7 @@ case 2:
                     return var1;
                 }
             };
-            var12 = var9.bind(var10)(var1, var8);
+            var13 = var10.bind(var11)(var1, var9);
             var1 = 10;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
@@ -234,47 +235,53 @@ case 2:
             var6 = var6.bind(var4)(var5);
             var5 = var6.isAndroid;
             var6 = var5.bind(var6)();
-            var5 = var15;
+            var5 = var16;
             if(!var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = _closure1_slot9;
-            var16 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var6 = 12;
-            var6 = var17[var6];
-            var6 = var16.bind(var4)(var6);
-            var7 = var6.SafeAreaProvider;
-            var6 = {};
-            var18 = _closure1_slot6;
-            var9 = var18.absoluteFill;
-            var6['style'] = var9;
-            var10 = _closure1_slot5;
-            var9 = {'transparent': true, 'statusBarTranslucent': true, 'navigationBarTranslucent': true, 'animationType': 'none'};
-            var13 = var18.absoluteFill;
-            var9['style'] = var13;
-            var9['onRequestClose'] = var12;
-            var13 = _closure1_slot10;
-            var11 = 13;
-            var11 = var17[var11];
-            var11 = var16.bind(var4)(var11);
-            var12 = var11.GestureHandlerRootView;
-            var11 = {};
-            var18 = var18.absoluteFill;
-            var11['style'] = var18;
-            var11['onAccessibilityEscape'] = var14;
-            var14 = new Array(2);
-            var14[0] = var15;
-            var15 = 14;
-            var15 = var17[var15];
-            var15 = var16.bind(var4)(var15);
-            var15 = var15.MOVED_TO_ACTION_SHEET_ON_ANDROID_COMPONENTS;
-            var14[1] = var15;
-            var11['children'] = var14;
-            var11 = var13.bind(var4)(var12, var11);
-            var9['children'] = var11;
-            var9 = var8.bind(var4)(var10, var9);
-            var6['children'] = var9;
-            var5 = var8.bind(var4)(var7, var6);
+            var7 = 'share';
+            var6 = var16;
+            if(!(var7 !== var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var9 = _closure1_slot9;
+            var17 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var7 = 12;
+            var7 = var18[var7];
+            var7 = var17.bind(var4)(var7);
+            var8 = var7.SafeAreaProvider;
+            var7 = {};
+            var19 = _closure1_slot6;
+            var10 = var19.absoluteFill;
+            var7['style'] = var10;
+            var11 = _closure1_slot5;
+            var10 = {'transparent': true, 'statusBarTranslucent': true, 'navigationBarTranslucent': true, 'animationType': 'none'};
+            var14 = var19.absoluteFill;
+            var10['style'] = var14;
+            var10['onRequestClose'] = var13;
+            var14 = _closure1_slot10;
+            var12 = 13;
+            var12 = var18[var12];
+            var12 = var17.bind(var4)(var12);
+            var13 = var12.GestureHandlerRootView;
+            var12 = {};
+            var19 = var19.absoluteFill;
+            var12['style'] = var19;
+            var12['onAccessibilityEscape'] = var15;
+            var15 = new Array(2);
+            var15[0] = var16;
+            var16 = 14;
+            var16 = var18[var16];
+            var16 = var17.bind(var4)(var16);
+            var16 = var16.MOVED_TO_ACTION_SHEET_ON_ANDROID_COMPONENTS;
+            var15[1] = var16;
+            var12['children'] = var15;
+            var12 = var14.bind(var4)(var13, var12);
+            var10['children'] = var12;
+            var10 = var9.bind(var4)(var11, var10);
+            var7['children'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
+case 6:
+            var5 = var6;
 case 4:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -289,17 +296,20 @@ case 4:
     var5 = var6.fileFinishedImporting;
     var4 = 'design/components/Sheet/native/ActionSheetPresenter.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function ActionSheetPresenter() {
+    var2 = function ActionSheetPresenter(arg1) {
+        var2 = arg1;
+        var5 = var2.appEntryKey;
+        var _closure2_slot0 = var5;
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
         var2 = 15;
         var2 = var8[var2];
         var4 = undefined;
-        var10 = var7.bind(var4)(var2);
-        var9 = var10.useStateFromStoresArray;
+        var11 = var7.bind(var4)(var2);
+        var10 = var11.useStateFromStoresArray;
         var2 = _closure1_slot7;
-        var5 = new Array(1);
-        var5[0] = var2;
+        var9 = new Array(1);
+        var9[0] = var2;
         var3 = function() {
             var2 = _closure1_slot7;
             var1 = var2.getStack;
@@ -307,7 +317,40 @@ case 4:
             return var1;
         };
         var2 = new Array(0);
-        var3 = var9.bind(var10)(var5, var3, var2);
+        var3 = var10.bind(var11)(var9, var3, var2);
+        var2 = function filterStackForAppEntryKey(arg1, arg2) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                var4 = arg1;
+                var3 = 'share';
+                var1 = arg2;
+                if(!(var3 !== var1)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
+                var3 = var4.filter;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.appEntryKey;
+                    var1 = 'share';
+                    var1 = var1 !== var2;
+                    return var1;
+                };
+                var1 = var3.bind(var4)(var1);
+                _fun0003_ip = 10; continue _fun0003;
+case 8:
+                var3 = var4.filter;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.appEntryKey;
+                    var1 = 'share';
+                    var1 = var1 === var2;
+                    return var1;
+                };
+                var1 = var3.bind(var4)(var2);
+case 10:
+                return var1;
+            }
+        };
+        var3 = var2.bind(var4)(var3, var5);
         var2 = var3.map;
         var1 = function(arg1) {
             var1 = arg1;
@@ -322,6 +365,8 @@ case 4:
             var2['content'] = var7;
             var2['impressionName'] = var6;
             var2['impressionProperties'] = var1;
+            var1 = _closure2_slot0;
+            var2['appEntryKey'] = var1;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2, var5);
             return var1;

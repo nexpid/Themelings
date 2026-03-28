@@ -520,7 +520,7 @@ case 25: // try_start_0
             var1 = var1.bind(var2)();
 case 26: // try_end0
             return var1;
-case 18: // catch_target0
+case 27: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = false;
             return var1;
@@ -546,12 +546,12 @@ case 0:
             var5 = var2.user_status;
             var3 = null;
             var5 = var3 == var5;
-            if(var5) { _fun0008_ip = 27; continue _fun0008 }
-case 28:
+            if(var5) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
             var5 = _closure1_slot5;
             var4 = var2.user_status;
             var3 = var5.bind(var6)(var4);
-case 27:
+case 28:
             var1['userStatus'] = var3;
             var3 = var2.targeted_content;
             var1['targetedContent'] = var3;
@@ -588,12 +588,12 @@ case 0:
             var6 = var3.user_status;
             var2 = null;
             var6 = var2 == var6;
-            if(var6) { _fun0009_ip = 29; continue _fun0009 }
-case 30:
+            if(var6) { _fun0009_ip = 30; continue _fun0009 }
+case 31:
             var4 = _closure1_slot5;
             var3 = var3.user_status;
             var2 = var4.bind(var5)(var3);
-case 29:
+case 30:
             var1['userStatus'] = var2;
             return var1;
         }
@@ -622,7 +622,7 @@ case 0:
             var1 = arg1;
             var3 = var1.version;
             var2 = 1;
-            if(!(var2 === var3)) { _fun0010_ip = 31; continue _fun0010 }
+            if(!(var2 === var3)) { _fun0010_ip = 32; continue _fun0010 }
 case 14:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -634,11 +634,11 @@ case 14:
             var5 = var3.QUEST_HOME_BANNER;
             var3 = var1.placements;
             var3 = var5 in var3;
-            if(var3) { _fun0010_ip = 32; continue _fun0010 }
-case 33:
+            if(var3) { _fun0010_ip = 33; continue _fun0010 }
+case 34:
             var3 = null;
             return var3;
-case 32:
+case 33:
             var3 = var1.placements;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -649,13 +649,13 @@ case 32:
             var3 = var3[var1];
             var1 = null;
             var5 = var1 == var3;
-            if(var5) { _fun0010_ip = 34; continue _fun0010 }
+            if(var5) { _fun0010_ip = 35; continue _fun0010 }
 case 20:
             var2 = _closure1_slot13;
             var1 = var2.bind(var4)(var3);
-case 34:
+case 35:
             return var1;
-case 31:
+case 32:
             var1 = null;
             return var1;
         }

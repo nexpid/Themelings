@@ -601,17 +601,17 @@ case 0:
                 var2 = var1.props;
                 var3 = var2.navigation;
                 var1 = var1.state;
-                var5 = var1.submitting;
-                var1 = var1.hasChanges;
-                var2 = true;
-                if(!(var2 === var5)) { _fun0008_ip = 21; continue _fun0008 }
+                var2 = var1.submitting;
+                var5 = var1.hasChanges;
+                var1 = true;
+                if(!(var1 === var2)) { _fun0008_ip = 21; continue _fun0008 }
 case 22:
-                var2 = arg2;
-                var2 = var2.submitting;
-                if(var2) { _fun0008_ip = 21; continue _fun0008 }
+                var1 = arg2;
+                var1 = var1.submitting;
+                if(var1) { _fun0008_ip = 21; continue _fun0008 }
 case 23:
-                var5 = var3.setOptions;
-                var2 = {};
+                var2 = var3.setOptions;
+                var1 = {};
                 var6 = function headerRight() {
                     var4 = _closure1_slot16;
                     var2 = _closure1_slot0;
@@ -625,29 +625,25 @@ case 23:
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
-                var2['headerRight'] = var6;
+                var1['headerRight'] = var6;
                 var6 = function headerLeft() {
                     var1 = null;
                     return var1;
                 };
-                var2['headerLeft'] = var6;
-                var2 = var5.bind(var3)(var2);
+                var1['headerLeft'] = var6;
+                var1 = var2.bind(var3)(var1);
                 _fun0008_ip = 24; continue _fun0008;
 case 21:
-                if(!var1) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
-                if(var1) { _fun0008_ip = 27; continue _fun0008 }
-case 25:
                 var2 = var3.setOptions;
                 var1 = {};
+                if(var5) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
                 var5 = undefined;
                 var1['headerRight'] = var5;
                 var1['headerLeft'] = var5;
-                var1 = var2.bind(var3)(var1);
+                var5 = var2.bind(var3)(var1);
                 _fun0008_ip = 24; continue _fun0008;
-case 27:
-                var2 = var3.setOptions;
-                var1 = {};
+case 25:
                 var5 = function headerRight() {
                     var4 = _closure1_slot16;
                     var8 = _closure1_slot0;
@@ -753,15 +749,15 @@ case 0:
                 var6 = var6[var18];
                 var6 = var9.bind(var4)(var6);
                 var6 = var6.t;
-                if(var5) { _fun0009_ip = 28; continue _fun0009 }
-case 29:
+                if(var5) { _fun0009_ip = 27; continue _fun0009 }
+case 28:
                 var5 = var6.OpuAlK;
                 var5 = var7.bind(var8)(var5);
-                _fun0009_ip = 30; continue _fun0009;
-case 28:
+                _fun0009_ip = 29; continue _fun0009;
+case 27:
                 var6 = var6.t5VZ88;
                 var5 = var7.bind(var8)(var6);
-case 30:
+case 29:
                 var1['children'] = var5;
                 var20 = var3.bind(var4)(var2, var1);
                 var3 = _closure1_slot16;
@@ -805,8 +801,8 @@ case 30:
                 var8 = var8.CHANNEL_FOLLOWER;
                 var11 = null;
                 var9 = null;
-                if(!(var12 !== var8)) { _fun0009_ip = 31; continue _fun0009 }
-case 32:
+                if(!(var12 !== var8)) { _fun0009_ip = 30; continue _fun0009 }
+case 31:
                 var13 = _closure1_slot16;
                 var12 = _closure1_slot1;
                 var17 = _closure1_slot2;
@@ -855,7 +851,7 @@ case 32:
                 var17 = var19.bind(var21)(var17);
                 var8['label'] = var17;
                 var9 = var13.bind(var4)(var12, var8);
-case 31:
+case 30:
                 var8 = new Array(5);
                 var8[0] = var9;
                 var13 = _closure1_slot16;
@@ -880,16 +876,16 @@ case 31:
                 var14 = var15.handleNameChange;
                 var9['onChange'] = var14;
                 var14 = undefined;
-                if(!(var4 !== var16)) { _fun0009_ip = 33; continue _fun0009 }
-case 34:
+                if(!(var4 !== var16)) { _fun0009_ip = 32; continue _fun0009 }
+case 33:
                 var17 = var16.name;
                 var14 = undefined;
-                if(!(var14 !== var17)) { _fun0009_ip = 33; continue _fun0009 }
-case 35:
+                if(!(var14 !== var17)) { _fun0009_ip = 32; continue _fun0009 }
+case 34:
                 var17 = var16.name;
                 var16 = 0;
                 var14 = var17[var16];
-case 33:
+case 32:
                 var9['errorMessage'] = var14;
                 var9 = var13.bind(var4)(var12, var9);
                 var8[1] = var9;
@@ -954,8 +950,8 @@ case 33:
                 var8[2] = var13;
                 var13 = var11 != var23;
                 var11 = null;
-                if(!var13) { _fun0009_ip = 36; continue _fun0009 }
-case 37:
+                if(!var13) { _fun0009_ip = 35; continue _fun0009 }
+case 36:
                 var16 = _closure1_slot16;
                 var22 = _closure1_slot0;
                 var21 = _closure1_slot2;
@@ -997,7 +993,7 @@ case 37:
                 var17 = var16.bind(var4)(var19, var17);
                 var13['children'] = var17;
                 var11 = var16.bind(var4)(var14, var13);
-case 36:
+case 35:
                 var8[3] = var11;
                 var11 = _closure1_slot16;
                 var17 = _closure1_slot0;

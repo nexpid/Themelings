@@ -248,7 +248,7 @@ case 0:
             var5 = var9[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'lineClamp': 2, 'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
+            var5 = {'lineClamp': 4, 'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var9 = var11.threadBannerTitle;
             var5['style'] = var9;
             var9 = var12.isForumPost;
@@ -421,7 +421,7 @@ case 0:
             var5 = var9[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'lineClamp': 2, 'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
+            var5 = {'lineClamp': 4, 'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var9 = var11.threadBannerTitle;
             var5['style'] = var9;
             var9 = var12.isForumPost;
@@ -740,7 +740,7 @@ case 9:
     var9 = var6.bind(var1)(var5);
     var8 = var9.createStyles;
     var5 = {};
-    var10 = {'alignSelf': 'stretch', 'height': 60, 'flexDirection': 'row', 'paddingHorizontal': 16, 'paddingVertical': 12, 'alignItems': 'center', 'flexGrow': 0, 'zIndex': 100};
+    var10 = {'alignSelf': 'stretch', 'minHeight': 60, 'flexDirection': 'row', 'paddingHorizontal': 16, 'paddingVertical': 12, 'alignItems': 'center', 'flexGrow': 0, 'zIndex': 100};
     var15 = 12;
     var12 = 8;
     var17 = var7[var12];
@@ -751,7 +751,7 @@ case 9:
     var5['threadBannerContainer'] = var10;
     var10 = {'flex': 1, 'lineHeight': 18};
     var5['threadBannerTitle'] = var10;
-    var10 = {'flexGrow': 0, 'height': 32, 'paddingVertical': 7, 'paddingHorizontal': 16, 'marginLeft': 16};
+    var10 = {'flexGrow': 0, 'paddingVertical': 7, 'paddingHorizontal': 16, 'marginLeft': 16};
     var5['threadBannerButton'] = var10;
     var10 = {'backgroundColor': null, 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden', 'zIndex': 100};
     var17 = var7[var12];

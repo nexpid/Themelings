@@ -42,6 +42,7 @@ case 0:
             var19 = var1.canSend;
             var18 = var1.isSending;
             var10 = var1.onSend;
+            var3 = var1.appEntryKey;
             var9 = var1.disabled;
             var4 = undefined;
             if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -54,7 +55,7 @@ case 2:
             var1 = var21[var1];
             var2 = var8.bind(var4)(var1);
             var1 = var2.useShareChatInputActions;
-            var1 = var1.bind(var2)(var15);
+            var1 = var1.bind(var2)(var15, var4, var3);
             var17 = var1.textInputRef;
             var5 = var1.isInputFocused;
             var14 = var1.handleSelectionChange;

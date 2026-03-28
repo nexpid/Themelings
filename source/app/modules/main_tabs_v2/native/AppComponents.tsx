@@ -102,6 +102,8 @@ case 4:
         var12 = var8.bind(var1)(var12);
         var15 = var12.ActionSheetContainer;
         var12 = {};
+        var16 = 'main';
+        var12['appEntryKey'] = var16;
         var12 = var14.bind(var1)(var15, var12);
         var7[5] = var12;
         var12 = var9[var11];

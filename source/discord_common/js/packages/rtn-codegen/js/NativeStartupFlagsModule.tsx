@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
     var7 = var2.TurboModuleRegistry;
-    var4 = var7.getEnforcing;
+    var4 = var7.get;
     var2 = 'NativeStartupFlagsModule';
     var2 = var4.bind(var7)(var2);
     var4 = 1;

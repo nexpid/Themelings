@@ -126,8 +126,6 @@ case 2:
         var12 = var8[var12];
         var12 = var6.bind(var4)(var12);
         var10['source'] = var12;
-        var12 = 'blurple';
-        var10['variant'] = var12;
         var10 = var3.bind(var4)(var11, var10);
         var1['icon'] = var10;
         var10 = 9;

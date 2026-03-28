@@ -1074,10 +1074,10 @@ case 0:
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = 'unknown';
-                if(!var3) { _fun0022_ip = 5; continue _fun0022 }
-case 15:
+                if(!var3) { _fun0022_ip = 29; continue _fun0022 }
+case 62:
                 var1 = var2;
-case 5:
+case 29:
                 return var1;
             }
         };
@@ -1104,10 +1104,10 @@ case 0:
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = 'stable';
-                if(!var3) { _fun0023_ip = 5; continue _fun0023 }
-case 15:
+                if(!var3) { _fun0023_ip = 29; continue _fun0023 }
+case 62:
                 var1 = var2;
-case 5:
+case 29:
                 return var1;
             }
         };

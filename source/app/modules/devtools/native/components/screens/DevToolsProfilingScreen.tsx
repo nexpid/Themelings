@@ -8,63 +8,93 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = function TableRowGroupReactProfiling() {
-        var6 = _closure1_slot4;
-        var3 = var6.useState;
-        var7 = _closure1_slot1;
-        var10 = _closure1_slot2;
-        var2 = 7;
-        var2 = var10[var2];
-        var4 = undefined;
-        var7 = var7.bind(var4)(var2);
-        var2 = var7.reactProfilingEnabled;
-        var2 = var2.bind(var7)();
-        var6 = var3.bind(var6)(var2);
-        var3 = _closure1_slot3;
-        var2 = 2;
-        var3 = var3.bind(var4)(var6, var2);
-        var2 = 0;
-        var8 = var3[var2];
-        var _closure2_slot0 = var8;
-        var2 = 1;
-        var9 = var3[var2];
-        var6 = _closure1_slot4;
-        var3 = var6.useEffect;
-        var2 = new Array(1);
-        var2[0] = var8;
-        var1 = function() {
-            var3 = _closure1_slot1;
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var6 = _closure1_slot4;
+            var3 = var6.useState;
+            var7 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.setReactProfilingEnabled;
-            var2 = _closure2_slot0;
-            var2 = var3.bind(var4)(var2);
+            var10 = 7;
+            var2 = var2[var10];
+            var4 = undefined;
+            var7 = var7.bind(var4)(var2);
+            var2 = null;
+            var8 = var2 == var7;
+            var7 = undefined;
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var9 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var10];
+            var9 = var9.bind(var4)(var8);
+            var8 = var9.reactProfilingEnabled;
+            var7 = var8.bind(var9)();
+case 2:
+            var2 = var2 != var7;
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var2 = var7;
+case 4:
+            var6 = var3.bind(var6)(var2);
+            var3 = _closure1_slot3;
+            var2 = 2;
+            var3 = var3.bind(var4)(var6, var2);
+            var2 = 0;
+            var8 = var3[var2];
+            var _closure2_slot0 = var8;
+            var2 = 1;
+            var9 = var3[var2];
+            var6 = _closure1_slot4;
+            var3 = var6.useEffect;
+            var2 = new Array(1);
+            var2[0] = var8;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var5 = _closure1_slot1;
+                    var1 = _closure1_slot2;
+                    var4 = 7;
+                    var3 = var1[var4];
+                    var1 = undefined;
+                    var5 = var5.bind(var1)(var3);
+                    var3 = null;
+                    if(!(var3 != var5)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var4];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.setReactProfilingEnabled;
+                    var2 = _closure2_slot0;
+                    var2 = var3.bind(var4)(var2);
+case 6:
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var6)(var1, var2);
+            var3 = _closure1_slot6;
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 8;
+            var1 = var10[var1];
+            var1 = var6.bind(var4)(var1);
+            var2 = var1.TableRowGroup;
+            var1 = {};
+            var7 = 'React Profiling Renderer';
+            var1['title'] = var7;
+            var7 = _closure1_slot6;
+            var5 = 9;
+            var5 = var10[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.TableSwitchRow;
+            var5 = {'label': 'Enable React Profiling Renderer', 'subLabel': 'Enables React.Profiler, app restart required after change.'};
+            var5['onValueChange'] = var9;
+            var5['value'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
-        };
-        var1 = var3.bind(var6)(var1, var2);
-        var3 = _closure1_slot6;
-        var6 = _closure1_slot0;
-        var1 = 8;
-        var1 = var10[var1];
-        var1 = var6.bind(var4)(var1);
-        var2 = var1.TableRowGroup;
-        var1 = {};
-        var7 = 'React Profiling Renderer';
-        var1['title'] = var7;
-        var7 = _closure1_slot6;
-        var5 = 9;
-        var5 = var10[var5];
-        var5 = var6.bind(var4)(var5);
-        var6 = var5.TableSwitchRow;
-        var5 = {'label': 'Enable React Profiling Renderer', 'subLabel': 'Enables React.Profiler, app restart required after change.'};
-        var5['onValueChange'] = var9;
-        var5['value'] = var8;
-        var5 = var7.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        }
     };
     var _closure1_slot10 = var1;
     var1 = global;
@@ -136,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/devtools/native/components/screens/DevToolsProfilingScreen.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function DevToolsProfilingScreen() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot4;
             var2 = var3.useState;
@@ -199,8 +229,8 @@ case 0:
             var5 = {};
             var9 = 16;
             var5['spacing'] = var9;
-            if(var8) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var8) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var11 = _closure1_slot6;
             var23 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -243,8 +273,8 @@ case 3:
             var12 = var16.bind(var4)(var13, var12);
             var8['children'] = var12;
             var9 = var11.bind(var4)(var9, var8);
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
+            _fun0003_ip = 10; continue _fun0003;
+case 8:
             var12 = _closure1_slot8;
             var11 = _closure1_slot7;
             var8 = {};
@@ -381,7 +411,7 @@ case 2:
             var13[1] = var14;
             var8['children'] = var13;
             var9 = var12.bind(var4)(var11, var8);
-case 4:
+case 10:
             var8 = new Array(3);
             var8[0] = var9;
             var14 = _closure1_slot6;
@@ -400,13 +430,13 @@ case 4:
             var9 = var11.isAndroid;
             var11 = var9.bind(var11)();
             var9 = null;
-            if(!var11) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+            if(!var11) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var12 = _closure1_slot6;
             var11 = _closure1_slot10;
             var10 = {};
             var9 = var12.bind(var4)(var11, var10);
-case 5:
+case 11:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

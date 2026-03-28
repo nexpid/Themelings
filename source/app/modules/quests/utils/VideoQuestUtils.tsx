@@ -419,6 +419,11 @@ case 0:
             var7 = var1.videoSessionId;
             var2 = _closure1_slot4;
             var1 = var2.getState;
+            var5 = var1.bind(var2)();
+            var3 = var5.setTranscriptEnabled;
+            var1 = false;
+            var1 = var3.bind(var5)(var1);
+            var1 = var2.getState;
             var2 = var1.bind(var2)();
             var1 = var2.getVideoProgress;
             var15 = var1.bind(var2)(var9);
@@ -430,34 +435,34 @@ case 39:
             var5 = var1.bind(var2)(var9);
             var1 = var3 != var5;
             if(!var1) { _fun0009_ip = 40; continue _fun0009 }
-case 28:
+case 41:
             var8 = var5.userStatus;
             var10 = var3 == var8;
             var2 = undefined;
-            if(var10) { _fun0009_ip = 41; continue _fun0009 }
-case 8:
+            if(var10) { _fun0009_ip = 42; continue _fun0009 }
+case 43:
             var2 = var8.enrolledAt;
-case 41:
+case 42:
             var1 = var3 != var2;
 case 40:
-            if(!var1) { _fun0009_ip = 42; continue _fun0009 }
-case 33:
+            if(!var1) { _fun0009_ip = 44; continue _fun0009 }
+case 45:
             var8 = var5.userStatus;
             var10 = var3 == var8;
             var2 = undefined;
-            if(var10) { _fun0009_ip = 43; continue _fun0009 }
-case 44:
+            if(var10) { _fun0009_ip = 46; continue _fun0009 }
+case 47:
             var2 = var8.completedAt;
-case 43:
-            var1 = var3 == var2;
-case 42:
-            if(!var1) { _fun0009_ip = 45; continue _fun0009 }
 case 46:
+            var1 = var3 == var2;
+case 44:
+            if(!var1) { _fun0009_ip = 48; continue _fun0009 }
+case 49:
             var3 = _closure1_slot6;
             var2 = var15.maxTimestampSec;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var2);
-case 45:
+case 48:
             var5 = _closure1_slot8;
             var2 = var15.maxTimestampSec;
             var1 = var15.duration;
@@ -520,7 +525,7 @@ case 0:
             var1 = var1.bind(var3)(var2);
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0010_ip = 47; continue _fun0010 }
+            if(var3) { _fun0010_ip = 50; continue _fun0010 }
 case 25:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -532,7 +537,7 @@ case 25:
             var2 = var2.id;
             var2 = var5.bind(var4)(var2);
             var1 = var3.bind(var4)(var2);
-case 47:
+case 50:
             return var1;
         }
     };

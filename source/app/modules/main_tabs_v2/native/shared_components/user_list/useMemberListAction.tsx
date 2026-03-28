@@ -576,8 +576,6 @@ case 53:
                     var14 = var9.Icon;
                     var9 = {};
                     var9['source'] = var17;
-                    var19 = 'blurple';
-                    var9['variant'] = var19;
                     var9['IconComponent'] = var16;
                     var9 = var10.bind(var8)(var14, var9);
                     var1['icon'] = var9;

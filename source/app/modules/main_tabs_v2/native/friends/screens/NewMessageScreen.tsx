@@ -1698,7 +1698,7 @@ case 116:
                         var5 = var5["3hF1W4"];
                         var5 = var6.bind(var7)(var5);
                         var2['label'] = var5;
-                        var5 = 'blurple';
+                        var5 = 'default';
                         var2['iconVariant'] = var5;
                         var5 = function onPress() {
                             var4 = _closure2_slot0;

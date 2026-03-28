@@ -356,7 +356,7 @@ case 31:
     var5 = var6.bind(var1)(var5);
     var5 = var5.jsx;
     var _closure1_slot17 = var5;
-    var5 = 67;
+    var5 = 66;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1150,8 +1150,6 @@ case 55:
             var12 = var9[var12];
             var12 = var13.bind(var5)(var12);
             var8['source'] = var12;
-            var12 = 'blurple';
-            var8['variant'] = var12;
             var8 = var11.bind(var5)(var10, var8);
             var2['icon'] = var8;
             var8 = 17;
@@ -1711,54 +1709,44 @@ case 65:
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.channel;
-            var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var1 = 66;
-            var1 = var4[var1];
-            var5 = undefined;
-            var1 = var3.bind(var5)(var1);
-            var6 = var1.bind(var5)(var2);
-            var1 = null;
-            if(!(var1 != var6)) { _fun0013_ip = 67; continue _fun0013 }
+            var5 = var1.stream;
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 60;
+            var1 = var7[var1];
+            var4 = undefined;
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.reportStreamIssue;
+            var1 = var1.bind(var3)(var5);
+            var6 = var1.label;
+            var11 = var1.icon;
+            var5 = var1.onPress;
+            var3 = _closure1_slot17;
+            var1 = 25;
+            var1 = var7[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.TableRow;
+            var1 = {};
+            var7 = null;
+            var9 = var7 != var11;
+            var7 = undefined;
+            if(!var9) { _fun0013_ip = 67; continue _fun0013 }
 case 68:
-            var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 60;
-            var2 = var8[var2];
-            var4 = var3.bind(var5)(var2);
-            var2 = var4.reportStreamIssue;
-            var2 = var2.bind(var4)(var6);
-            var7 = var2.label;
-            var12 = var2.icon;
-            var6 = var2.onPress;
-            var4 = _closure1_slot17;
-            var2 = 25;
-            var2 = var8[var2];
-            var2 = var3.bind(var5)(var2);
-            var3 = var2.TableRow;
-            var2 = {};
-            var10 = var1 != var12;
-            var8 = undefined;
-            if(!var10) { _fun0013_ip = 69; continue _fun0013 }
-case 70:
-            var11 = _closure1_slot17;
-            var10 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var9 = 26;
-            var9 = var13[var9];
-            var9 = var10.bind(var5)(var9);
-            var10 = var9.TableRowIcon;
-            var9 = {};
-            var9['source'] = var12;
-            var8 = var11.bind(var5)(var10, var9);
-case 69:
-            var2['icon'] = var8;
-            var2['label'] = var7;
-            var2['onPress'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-            return var2;
+            var10 = _closure1_slot17;
+            var9 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var8 = 26;
+            var8 = var12[var8];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.TableRowIcon;
+            var8 = {};
+            var8['source'] = var11;
+            var7 = var10.bind(var4)(var9, var8);
 case 67:
+            var1['icon'] = var7;
+            var1['label'] = var6;
+            var1['onPress'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
@@ -1790,8 +1778,8 @@ case 0:
             var7 = null;
             var9 = var7 != var11;
             var7 = undefined;
-            if(!var9) { _fun0014_ip = 71; continue _fun0014 }
-case 72:
+            if(!var9) { _fun0014_ip = 67; continue _fun0014 }
+case 68:
             var10 = _closure1_slot17;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1802,7 +1790,7 @@ case 72:
             var8 = {};
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 71:
+case 67:
             var1['icon'] = var7;
             var1['label'] = var6;
             var1['onPress'] = var5;

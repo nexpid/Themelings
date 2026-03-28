@@ -163,16 +163,6 @@ case 2:
     var11 = var7[var9];
     var11 = var6.bind(var1)(var11);
     var11 = var11.DismissibleContent;
-    var11 = var11.Q1_2025_REVERSE_TRIAL;
-    var5[var11] = var10;
-    var11 = var7[var9];
-    var11 = var6.bind(var1)(var11);
-    var11 = var11.DismissibleContent;
-    var11 = var11.Q1_2025_FOLLOW_UP_REVERSE_TRIAL_OFFER;
-    var5[var11] = var10;
-    var11 = var7[var9];
-    var11 = var6.bind(var1)(var11);
-    var11 = var11.DismissibleContent;
     var11 = var11.REVERSE_TRIAL_NITRO_TAB_BADGE_V2;
     var5[var11] = var10;
     var11 = var7[var9];

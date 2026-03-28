@@ -93,10 +93,10 @@ case 8:
 case 11:
             var14 = false;
 case 10:
-            var22 = var10.multiline;
-            if(!(var22 === var6)) { _fun0001_ip = 12; continue _fun0001 }
+            var2 = var10.multiline;
+            if(!(var2 === var6)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var22 = false;
+            var2 = false;
 case 12:
             var13 = var10.autoFocus;
             if(!(var13 === var6)) { _fun0001_ip = 14; continue _fun0001 }
@@ -108,19 +108,19 @@ case 14:
 case 17:
             var29 = 1;
 case 16:
-            var4 = var10.clearButtonVisibility;
+            var22 = var10.clearButtonVisibility;
             var12 = var10.autoCapitalize;
             var11 = var10.autoCorrect;
             var28 = var10.showBorder;
             if(!(var28 === var6)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var2 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 5;
             var1 = var8[var1];
-            var2 = var2.bind(var6)(var1);
-            var1 = var2.isAndroid;
-            var28 = var1.bind(var2)();
+            var3 = var3.bind(var6)(var1);
+            var1 = var3.isAndroid;
+            var28 = var1.bind(var3)();
 case 18:
             var26 = var10.showCharactersRemaining;
             if(!(var26 === var6)) { _fun0001_ip = 20; continue _fun0001 }
@@ -137,14 +137,14 @@ case 22:
 case 25:
             var15 = true;
 case 24:
-            var2 = {'onChange': 0, 'keyboardAppearance': 0, 'keyboardType': 0, 'style': 0, 'inputTextStyle': 0, 'value': 0, 'title': 0, 'helpText': 0, 'error': 0, 'placeholder': 0, 'secureTextEntry': 0, 'disabled': 0, 'multiline': 0, 'autoFocus': 0, 'numberOfLines': 0, 'clearButtonVisibility': 0, 'autoCapitalize': 0, 'autoCorrect': 0, 'showBorder': 0, 'showCharactersRemaining': 0, 'enableAndroidSanitizedInputWorkaround': 0, 'allowRedesignTextInput': 0};
+            var3 = {'onChange': 0, 'keyboardAppearance': 0, 'keyboardType': 0, 'style': 0, 'inputTextStyle': 0, 'value': 0, 'title': 0, 'helpText': 0, 'error': 0, 'placeholder': 0, 'secureTextEntry': 0, 'disabled': 0, 'multiline': 0, 'autoFocus': 0, 'numberOfLines': 0, 'clearButtonVisibility': 0, 'autoCapitalize': 0, 'autoCorrect': 0, 'showBorder': 0, 'showCharactersRemaining': 0, 'enableAndroidSanitizedInputWorkaround': 0, 'allowRedesignTextInput': 0};
             var8 = null;
-            var36 = var2;
+            var36 = var3;
             var35 = null;
             var1 = silentSetPrototypeOf(var36, var35);
             var36 = {};
             var35 = var10;
-            var34 = var2;
+            var34 = var3;
             var10 = copyDataProperties(var36, var35, var34);
             var _closure2_slot0 = var6;
             var _closure2_slot1 = var6;
@@ -232,7 +232,7 @@ case 39:
             _closure2_slot2 = var31;
             var25 = var32.useImperativeHandle;
             var5 = arg2;
-            var3 = function() {
+            var4 = function() {
                 var1 = {};
                 var3 = function isFocused() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -436,26 +436,26 @@ case 50:
                 var1['measureLayout'] = var2;
                 return var1;
             };
-            var3 = var25.bind(var32)(var5, var3);
+            var4 = var25.bind(var32)(var5, var4);
             var5 = _closure1_slot5;
             if(var1) { _fun0001_ip = 51; continue _fun0001 }
 case 52:
-            var3 = _closure1_slot1;
+            var4 = _closure1_slot1;
             var1 = _closure1_slot2;
             var25 = 11;
             var1 = var1[var25];
-            var3 = var3.bind(var6)(var1);
+            var4 = var4.bind(var6)(var1);
             var1 = {};
             var1['ref'] = var31;
             var31 = var17.inputText;
             var31 = var31.color;
             var1['inputTextColor'] = var31;
-            var1['multiline'] = var22;
+            var1['multiline'] = var2;
             var31 = var10.returnKeyType;
             if(!(var8 == var31)) { _fun0001_ip = 53; continue _fun0001 }
 case 54:
             var31 = 'done';
-            if(!var22) { _fun0001_ip = 55; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 55; continue _fun0001 }
 case 56:
             var31 = 'default';
 case 55:
@@ -501,70 +501,66 @@ case 61:
             var23 = var9;
 case 60:
             var1['value'] = var23;
-            if(!var22) { _fun0001_ip = 62; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 62; continue _fun0001 }
 case 63:
             var24 = _closure1_slot0;
             var23 = _closure1_slot2;
             var23 = var23[var25];
             var23 = var24.bind(var6)(var23);
             var23 = var23.ClearButtonVisibility;
-            var4 = var23.NEVER;
+            var22 = var23.NEVER;
 case 62:
-            var1['clearButtonVisibility'] = var4;
+            var1['clearButtonVisibility'] = var22;
             var36 = var1;
             var35 = var10;
-            var4 = copyDataProperties(var36, var35);
-            var1 = var5.bind(var6)(var3, var1);
+            var22 = copyDataProperties(var36, var35);
+            var1 = var5.bind(var6)(var4, var1);
             _fun0001_ip = 64; continue _fun0001;
 case 51:
             var4 = _closure1_slot0;
-            var23 = _closure1_slot2;
-            if(var22) { _fun0001_ip = 65; continue _fun0001 }
+            var22 = _closure1_slot2;
+            if(var2) { _fun0001_ip = 65; continue _fun0001 }
 case 66:
             var2 = 10;
-            var2 = var23[var2];
+            var2 = var22[var2];
             var2 = var4.bind(var6)(var2);
             var3 = var2.TextInput;
             var2 = {};
             var2['ref'] = var21;
-            var24 = 'done';
-            var2['returnKeyType'] = var24;
+            var23 = 'done';
+            var2['returnKeyType'] = var23;
             var2['onChange'] = var20;
             var2['keyboardAppearance'] = var19;
             var2['keyboardType'] = var18;
-            var24 = var17.placeholderText;
-            var24 = var24.color;
-            var2['placeholderTextColor'] = var24;
+            var23 = var17.placeholderText;
+            var23 = var23.color;
+            var2['placeholderTextColor'] = var23;
             var2['placeholder'] = var16;
             var2['secureTextEntry'] = var15;
             var2['isDisabled'] = var14;
             var2['autoFocus'] = var13;
             var2['autoCapitalize'] = var12;
             var2['autoCorrect'] = var11;
-            var24 = var10.onEndEditing;
-            var2['onEndEditing'] = var24;
-            var25 = var8 != var9;
-            var24 = undefined;
-            if(!var25) { _fun0001_ip = 67; continue _fun0001 }
+            var23 = var10.onEndEditing;
+            var2['onEndEditing'] = var23;
+            var24 = var8 != var9;
+            var23 = undefined;
+            if(!var24) { _fun0001_ip = 67; continue _fun0001 }
 case 68:
-            var24 = var9;
+            var23 = var9;
 case 67:
-            var2['value'] = var24;
+            var2['value'] = var23;
             var2['errorMessage'] = var7;
             var2 = var5.bind(var6)(var3, var2);
             _fun0001_ip = 69; continue _fun0001;
 case 65:
             var3 = 9;
-            var3 = var23[var3];
+            var3 = var22[var3];
             var3 = var4.bind(var6)(var3);
             var4 = var3.TextArea;
             var3 = {};
             var3['ref'] = var21;
-            var21 = 'done';
-            if(!var22) { _fun0001_ip = 70; continue _fun0001 }
-case 71:
             var21 = 'default';
-case 70:
             var3['returnKeyType'] = var21;
             var3['onChange'] = var20;
             var3['keyboardAppearance'] = var19;
@@ -584,10 +580,10 @@ case 70:
             var3['onEndEditing'] = var10;
             var10 = var8 != var9;
             var8 = undefined;
-            if(!var10) { _fun0001_ip = 72; continue _fun0001 }
-case 73:
+            if(!var10) { _fun0001_ip = 70; continue _fun0001 }
+case 71:
             var8 = var9;
-case 72:
+case 70:
             var3['value'] = var8;
             var3['errorMessage'] = var7;
             var2 = var5.bind(var6)(var4, var3);

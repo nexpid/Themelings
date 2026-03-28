@@ -202,17 +202,29 @@ case 34:
 case 0:
                 var3 = arg1;
                 var2 = arg2;
-                var4 = arg3;
-                var1 = arg4;
-                if(!(var3 <= var4)) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
-                if(!(!(var2 <= var1))) { _fun0003_ip = 31; continue _fun0003 }
-case 35:
+                var10 = arg3;
+                var6 = arg4;
                 var8 = global;
+                var4 = var8.Math;
+                var1 = var4.max;
+                var9 = var1.bind(var4)(var3, var2);
+                var4 = var8.Math;
+                var1 = var4.min;
+                var7 = var1.bind(var4)(var3, var2);
+                var4 = var8.Math;
+                var1 = var4.max;
+                var4 = var1.bind(var4)(var10, var6);
+                var5 = var8.Math;
+                var1 = var5.min;
+                var1 = var1.bind(var5)(var10, var6);
+                if(!(var9 <= var4)) { _fun0003_ip = 8; continue _fun0003 }
+case 35:
+                if(!(!(var7 <= var1))) { _fun0003_ip = 36; continue _fun0003 }
+case 8:
                 var6 = var8.Math;
                 var5 = var6.min;
-                var4 = var4 / var3;
-                var1 = var1 / var2;
+                var4 = var4 / var9;
+                var1 = var1 / var7;
                 var4 = var5.bind(var6)(var4, var1);
                 var1 = {};
                 var9 = var8.Math;
@@ -233,7 +245,7 @@ case 35:
                 var4 = var5.bind(var6)(var7, var4);
                 var1['targetHeight'] = var4;
                 return var1;
-case 31:
+case 36:
                 var1 = {};
                 var1['targetWidth'] = var3;
                 var1['targetHeight'] = var2;

@@ -1982,10 +1982,10 @@ case 29:
                     };
                     var8 = 'onPress';
                     var1[var8] = var9;
-                    if(!(var7 != var6)) { _fun0016_ip = 108; continue _fun0016 }
-case 109:
-                    var5 = var6;
+                    if(!(var7 != var6)) { _fun0016_ip = 10; continue _fun0016 }
 case 108:
+                    var5 = var6;
+case 10:
                     var1 = var4.bind(var3)(var2, var1, var5);
                     return var1;
                 }
@@ -1995,10 +1995,10 @@ case 106:
             var7 = new Array(2);
             var7[0] = var10;
             var6 = null;
-            if(!var9) { _fun0015_ip = 110; continue _fun0015 }
-case 111:
-            var6 = var8;
+            if(!var9) { _fun0015_ip = 109; continue _fun0015 }
 case 110:
+            var6 = var8;
+case 109:
             var7[1] = var6;
             var6 = 'children';
             var2[var6] = var7;

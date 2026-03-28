@@ -106,8 +106,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var11.bind(var3)(var10);
         var10 = var10.ChannelListMagnifyingGlassIcon;
         var8['IconComponent'] = var10;
-        var10 = 'blurple';
-        var8['variant'] = var10;
         var8 = var4.bind(var3)(var9, var8);
         var5['icon'] = var8;
         var5['onPress'] = var7;

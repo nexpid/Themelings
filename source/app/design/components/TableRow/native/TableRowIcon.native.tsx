@@ -74,18 +74,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BRAND;
-    var9['backgroundColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.WHITE;
-    var9['color'] = var12;
-    var4['blurple'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
     var12 = var12.unsafe_rawColors;
     var12 = var12.GUILD_BOOSTING_PINK;
     var9['backgroundColor'] = var12;
@@ -208,75 +196,69 @@ case 2:
             var1 = 'default';
             if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = 'blurple';
+            var3 = 'boosting-pink';
             if(!(var3 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var3 = 'boosting-pink';
+            var3 = 'text-status-online';
             if(!(var3 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var3 = 'text-status-online';
+            var3 = 'text-status-idle';
             if(!(var3 !== var2)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var3 = 'text-status-idle';
+            var3 = 'text-status-dnd';
             if(!(var3 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var3 = 'text-status-dnd';
+            var3 = 'text-status-offline';
             if(!(var3 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var3 = 'text-status-offline';
+            var3 = 'xbox';
             if(!(var3 !== var2)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var3 = 'xbox';
+            var3 = 'playstation';
             if(!(var3 !== var2)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var3 = 'playstation';
+            var3 = 'danger';
             if(!(var3 !== var2)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var3 = 'danger';
+            var3 = 'secondary';
             if(!(var3 !== var2)) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-            var3 = 'secondary';
-            if(!(var3 !== var2)) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
             var3 = 'translucent';
             var6 = undefined;
-            if(!(var3 === var2)) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+            if(!(var3 === var2)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var6 = var8.translucent;
-            _fun0001_ip = 26; continue _fun0001;
-case 24:
-            var6 = var8.secondary;
-            _fun0001_ip = 26; continue _fun0001;
+            _fun0001_ip = 24; continue _fun0001;
 case 22:
-            var6 = var8.danger;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.secondary;
+            _fun0001_ip = 24; continue _fun0001;
 case 20:
-            var6 = var8.playstation;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.danger;
+            _fun0001_ip = 24; continue _fun0001;
 case 18:
-            var6 = var8.xbox;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.playstation;
+            _fun0001_ip = 24; continue _fun0001;
 case 16:
-            var6 = var8.statusOffline;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.xbox;
+            _fun0001_ip = 24; continue _fun0001;
 case 14:
-            var6 = var8.statusDND;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.statusOffline;
+            _fun0001_ip = 24; continue _fun0001;
 case 12:
-            var6 = var8.statusIdle;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.statusDND;
+            _fun0001_ip = 24; continue _fun0001;
 case 10:
-            var6 = var8.statusOnline;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.statusIdle;
+            _fun0001_ip = 24; continue _fun0001;
 case 8:
-            var6 = var8.boostingPink;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.statusOnline;
+            _fun0001_ip = 24; continue _fun0001;
 case 6:
-            var6 = var8.blurple;
-            _fun0001_ip = 26; continue _fun0001;
+            var6 = var8.boostingPink;
+            _fun0001_ip = 24; continue _fun0001;
 case 4:
             var6 = var8.default;
-case 26:
+case 24:
             var10 = var6.color;
             var4 = _closure1_slot4;
             var3 = _closure1_slot3;
@@ -288,25 +270,25 @@ case 26:
             var2 = var2[var15];
             var2 = var3.bind(var5)(var2);
             var2 = var2.IconSizes;
-            if(var1) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(var1) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var13 = var2.REFRESH_SMALL_16;
-            _fun0001_ip = 30; continue _fun0001;
-case 28:
+            _fun0001_ip = 28; continue _fun0001;
+case 26:
             var13 = var2.MEDIUM;
-case 30:
+case 28:
             var11 = 'sm';
-            if(!var1) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(!var1) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var11 = 'md';
-case 31:
+case 29:
             var6 = null;
-            if(!(var6 == var14)) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+            if(!(var6 == var14)) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var2 = var6 == var9;
             var1 = null;
-            if(var2) { _fun0001_ip = 35; continue _fun0001 }
-case 33:
+            if(var2) { _fun0001_ip = 33; continue _fun0001 }
+case 31:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
@@ -315,8 +297,8 @@ case 33:
             var8[0] = var16;
             var8[1] = var12;
             var2['style'] = var8;
-            if(!(var6 == var9)) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+            if(!(var6 == var9)) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var12 = _closure1_slot6;
             var8 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -327,17 +309,17 @@ case 37:
             var6['source'] = var14;
             var6['size'] = var13;
             var6 = var12.bind(var5)(var8, var6);
-            _fun0001_ip = 38; continue _fun0001;
-case 36:
+            _fun0001_ip = 36; continue _fun0001;
+case 34:
             var8 = _closure1_slot6;
             var7 = {};
             var7['size'] = var11;
             var7['color'] = var10;
             var6 = var8.bind(var5)(var9, var7);
-case 38:
+case 36:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 35:
+case 33:
             return var1;
         }
     };

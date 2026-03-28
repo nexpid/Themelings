@@ -81,24 +81,26 @@ case 4:
     var2 = function setContent(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var1 = arg1;
-            var8 = var1.content;
-            var7 = var1.key;
-            var4 = var1.impressionName;
-            var3 = var1.impressionProperties;
-            var2 = var1.backdropKind;
-            var6 = var1.stackingBehavior;
+            var2 = arg1;
+            var9 = var2.content;
+            var8 = var2.key;
+            var7 = var2.impressionName;
+            var4 = var2.impressionProperties;
+            var3 = var2.backdropKind;
+            var6 = var2.stackingBehavior;
             var1 = undefined;
             if(!(var6 === var1)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var6 = 'replaceTopSheet';
 case 6:
+            var2 = var2.appEntryKey;
             var5 = {};
-            var5['content'] = var8;
-            var5['key'] = var7;
-            var5['impressionName'] = var4;
-            var5['impressionProperties'] = var3;
-            var5['backdropKind'] = var2;
+            var5['content'] = var9;
+            var5['key'] = var8;
+            var5['impressionName'] = var7;
+            var5['impressionProperties'] = var4;
+            var5['backdropKind'] = var3;
+            var5['appEntryKey'] = var2;
             var2 = _closure1_slot5;
             var4 = var2.length;
             var2 = 3;
@@ -120,11 +122,11 @@ case 10:
             var2 = var2.bind(var4)(var5);
             _fun0002_ip = 13; continue _fun0002;
 case 12:
-            var10 = _closure1_slot5;
+            var11 = _closure1_slot5;
             var4 = new Array(1);
-            var9 = 0;
-            var11 = var4;
-            var7 = arraySpread(var11, var10, var9);
+            var10 = 0;
+            var12 = var4;
+            var7 = arraySpread(var12, var11, var10);
             var4[var7] = var5;
             var6 = 1;
             var6 = var7 + var6;
@@ -201,7 +203,7 @@ case 0:
 case 18:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0004_ip = 19; continue _fun0004;
+                _fun0004_ip = 11; continue _fun0004;
 case 17:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -210,7 +212,7 @@ case 17:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 19:
+case 11:
                 var1 = var3.bind(var4)(var5, var1);
                 var3 = function() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -222,10 +224,10 @@ case 0:
                         var1 = null;
                         var3 = var1 == var2;
                         var1 = undefined;
-                        if(var3) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
-                        var1 = var2.content;
+                        if(var3) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
+                        var1 = var2.content;
+case 19:
                         return var1;
                     }
                 };
@@ -253,10 +255,10 @@ case 0:
                         var1 = null;
                         var3 = var1 == var2;
                         var1 = undefined;
-                        if(var3) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
-                        var1 = var2.key;
+                        if(var3) { _fun0006_ip = 19; continue _fun0006 }
 case 20:
+                        var1 = var2.key;
+case 19:
                         return var1;
                     }
                 };
@@ -293,10 +295,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0007_ip = 22; continue _fun0007 }
-case 21:
+                if(var3) { _fun0007_ip = 21; continue _fun0007 }
+case 20:
                 var1 = var2.impressionName;
-case 22:
+case 21:
                 return var1;
             }
         };
@@ -315,10 +317,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0008_ip = 22; continue _fun0008 }
-case 21:
+                if(var3) { _fun0008_ip = 21; continue _fun0008 }
+case 20:
                 var1 = var2.impressionProperties;
-case 22:
+case 21:
                 return var1;
             }
         };
@@ -337,10 +339,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0009_ip = 22; continue _fun0009 }
-case 21:
+                if(var3) { _fun0009_ip = 21; continue _fun0009 }
+case 20:
                 var1 = var2.backdropKind;
-case 22:
+case 21:
                 return var1;
             }
         };

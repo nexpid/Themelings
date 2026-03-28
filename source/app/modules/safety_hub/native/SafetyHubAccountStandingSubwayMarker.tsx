@@ -94,33 +94,34 @@ case 0:
             var2 = var1.style;
             var _closure2_slot0 = var2;
             var9 = var1.status;
-            var19 = var1.isSelected;
-            var _closure2_slot1 = var19;
+            var5 = var1.isSelected;
+            var _closure2_slot1 = var5;
             var16 = var1.index;
-            var5 = var1.onLayout;
+            var8 = var1.onLayout;
             var20 = var1.size;
-            var18 = var1.numOptions;
+            var17 = var1.numOptions;
             var1 = _closure1_slot6;
             var4 = undefined;
             var15 = var1.bind(var4)();
             var _closure2_slot2 = var15;
-            var8 = {};
-            var23 = var15.container;
-            var24 = var8;
-            var1 = copyDataProperties(var24, var23);
-            var17 = 0;
-            if(!(var17 !== var16)) { _fun0001_ip = 2; continue _fun0001 }
+            var11 = {};
+            var22 = var15.container;
+            var23 = var11;
+            var1 = copyDataProperties(var23, var22);
+            var14 = 0;
+            var18 = var14 === var16;
+            if(var18) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = {};
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var1 = var15.firstOption;
 case 4:
-            var24 = var8;
-            var23 = var1;
-            var1 = copyDataProperties(var24, var23);
+            var23 = var11;
+            var22 = var1;
+            var1 = copyDataProperties(var23, var22);
             var13 = 1;
-            var1 = var18 - var13;
+            var1 = var17 - var13;
             if(!(var16 !== var1)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var1 = {};
@@ -128,51 +129,45 @@ case 6:
 case 5:
             var1 = var15.lastOption;
 case 7:
-            var24 = var8;
-            var23 = var1;
-            var1 = copyDataProperties(var24, var23);
+            var23 = var11;
+            var22 = var1;
+            var1 = copyDataProperties(var23, var22);
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
-            var1['style'] = var8;
-            var1['onLayout'] = var5;
-            if(var19) { _fun0001_ip = 8; continue _fun0001 }
+            var1['style'] = var11;
+            var1['onLayout'] = var8;
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var11 = _closure1_slot4;
             var8 = _closure1_slot3;
             var5 = {};
             var12 = {};
-            var23 = var15.marker;
-            var24 = var12;
-            var14 = copyDataProperties(var24, var23);
-            var14 = 'width';
-            var12[var14] = var20;
-            var14 = 'height';
-            var12[var14] = var20;
-            var20 = 0;
-            if(var19) { _fun0001_ip = 10; continue _fun0001 }
+            var22 = var15.marker;
+            var23 = var12;
+            var19 = copyDataProperties(var23, var22);
+            var19 = 'width';
+            var12[var19] = var20;
+            var19 = 'height';
+            var12[var19] = var20;
+            var19 = 0;
+            if(!var18) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var20 = 0;
-            if(!(var17 === var16)) { _fun0001_ip = 10; continue _fun0001 }
-case 12:
-            var21 = _closure1_slot1;
-            var22 = _closure1_slot2;
-            var14 = 4;
-            var14 = var22[var14];
-            var14 = var21.bind(var4)(var14);
-            var14 = var14.spacing;
-            var14 = var14.PX_4;
-            var20 = -var14;
+            var20 = _closure1_slot1;
+            var21 = _closure1_slot2;
+            var18 = 4;
+            var18 = var21[var18];
+            var18 = var20.bind(var4)(var18);
+            var18 = var18.spacing;
+            var18 = var18.PX_4;
+            var19 = -var18;
 case 10:
-            var14 = 'marginLeft';
-            var12[var14] = var20;
+            var18 = 'marginLeft';
+            var12[var18] = var19;
+            var13 = var17 - var13;
             var14 = 0;
-            if(var19) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-            var13 = var18 - var13;
-            var14 = 0;
-            if(!(var16 === var13)) { _fun0001_ip = 13; continue _fun0001 }
-case 15:
+            if(!(var16 === var13)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
             var13 = 4;
@@ -181,7 +176,7 @@ case 15:
             var13 = var13.spacing;
             var13 = var13.PX_4;
             var14 = -var13;
-case 13:
+case 12:
             var13 = 'marginRight';
             var12[var13] = var14;
             var5['style'] = var12;
@@ -217,15 +212,15 @@ case 0:
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.Text;
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+                    if(var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var2 = {'color': 'interactive-text-default', 'variant': 'text-xxs/normal'};
                     var1 = _closure2_slot2;
                     var1 = var1.label;
                     var2['style'] = var1;
                     var2['children'] = var6;
-                    _fun0002_ip = 18; continue _fun0002;
-case 16:
+                    _fun0002_ip = 16; continue _fun0002;
+case 14:
                     var1 = {};
                     var7 = {};
                     var8 = _closure2_slot0;
@@ -236,7 +231,7 @@ case 16:
                     var1['variant'] = var7;
                     var1['children'] = var6;
                     var2 = var1;
-case 18:
+case 16:
                     var1 = arg2;
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;

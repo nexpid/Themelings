@@ -62,7 +62,7 @@ case 12:
             var2 = 'primary';
             if(!(var2 === var3)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var1 = 'blurple';
+            var1 = 'default';
 case 13:
             var7 = var1;
 case 11:

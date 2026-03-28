@@ -462,10 +462,10 @@ case 0:
             var3 = var2.config;
             var13 = var2.bannerAdjustment;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0006_ip = 8; continue _fun0006 }
-case 18:
+            if(!(var13 === var4)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
             var13 = 0;
-case 8:
+case 18:
             var18 = var2.useThumbnail;
             var _closure2_slot0 = var18;
             var2 = var2.thumbnailUrlOverride;
@@ -496,10 +496,10 @@ case 8:
             var3 = var8[var3];
             _closure2_slot3 = var3;
             var3 = null;
-            if(!(var3 != var2)) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+            if(!(var3 != var2)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
             var17 = var2;
-case 19:
+case 20:
             _closure2_slot4 = var17;
             var8 = _closure1_slot4;
             var3 = var8.useEffect;
@@ -513,18 +513,18 @@ case 19:
 case 0:
                     var4 = _closure2_slot2;
                     var3 = 0;
-                    if(!(var3 !== var4)) { _fun0007_ip = 21; continue _fun0007 }
+                    if(!(var3 !== var4)) { _fun0007_ip = 22; continue _fun0007 }
 case 3:
                     var5 = _closure1_slot6;
                     var4 = var5.getSize;
                     var3 = _closure2_slot0;
-                    if(var3) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
-                    var3 = _closure2_slot1;
-                    _fun0007_ip = 24; continue _fun0007;
-case 22:
-                    var3 = _closure2_slot4;
+                    if(var3) { _fun0007_ip = 23; continue _fun0007 }
 case 24:
+                    var3 = _closure2_slot1;
+                    _fun0007_ip = 25; continue _fun0007;
+case 23:
+                    var3 = _closure2_slot4;
+case 25:
                     var2 = function(arg1, arg2) {
                         var3 = _closure2_slot3;
                         var2 = _closure2_slot2;
@@ -551,7 +551,7 @@ case 24:
                         return var1;
                     };
                     var1 = var4.bind(var5)(var3, var2, var1);
-case 21:
+case 22:
                     var1 = undefined;
                     return var1;
                 }
@@ -559,8 +559,8 @@ case 21:
             var1 = var3.bind(var8)(var1, var2);
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
-            if(!(var12 !== var14)) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+            if(!(var12 !== var14)) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
             var1 = {};
             var8 = var7.profileEffects;
             var1['style'] = var8;
@@ -575,10 +575,10 @@ case 26:
             var8 = var8.bind(var4)(var5);
             var5 = {'resizeMode': 'cover', 'resizeMethod': 'resize', 'enableAnimation': true};
             var11 = {};
-            if(!var18) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(!var18) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
             var16 = var17;
-case 27:
+case 28:
             var11['uri'] = var16;
             var5['source'] = var11;
             var5['alt'] = var10;
@@ -596,8 +596,8 @@ case 27:
             var5['style'] = var10;
             var5 = var9.bind(var4)(var8, var5);
             var1['children'] = var5;
-            _fun0006_ip = 29; continue _fun0006;
-case 25:
+            _fun0006_ip = 30; continue _fun0006;
+case 26:
             var5 = {};
             var7 = var7.profileEffects;
             var5['style'] = var7;
@@ -605,7 +605,7 @@ case 25:
             var5['pointerEvents'] = var7;
             var5['onLayout'] = var6;
             var1 = var5;
-case 29:
+case 30:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -633,10 +633,10 @@ case 0:
             var1 = null;
             var4 = var1 == var2;
             var8 = undefined;
-            if(var4) { _fun0008_ip = 16; continue _fun0008 }
-case 30:
+            if(var4) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
             var8 = var2.config;
-case 16:
+case 31:
             var5 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 11;
@@ -659,13 +659,13 @@ case 16:
             var8 = var4.bind(var5)(var8);
             var4 = var1 == var8;
             var1 = null;
-            if(var4) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
-            if(var2) { _fun0008_ip = 33; continue _fun0008 }
+            if(var4) { _fun0008_ip = 33; continue _fun0008 }
 case 34:
+            if(var2) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
             var2 = var7.useThumbnail;
-            if(var2) { _fun0008_ip = 33; continue _fun0008 }
-case 35:
+            if(var2) { _fun0008_ip = 35; continue _fun0008 }
+case 37:
             var5 = _closure1_slot9;
             var4 = _closure1_slot13;
             var2 = {};
@@ -674,8 +674,8 @@ case 35:
             var12 = var7;
             var9 = copyDataProperties(var13, var12);
             var2 = var5.bind(var6)(var4, var2);
-            _fun0008_ip = 36; continue _fun0008;
-case 33:
+            _fun0008_ip = 38; continue _fun0008;
+case 35:
             var5 = _closure1_slot9;
             var4 = _closure1_slot14;
             var3 = {};
@@ -687,9 +687,9 @@ case 33:
             var7 = var7.thumbnailUrlOverride;
             var3['thumbnailUrlOverride'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 36:
+case 38:
             var1 = var2;
-case 31:
+case 33:
             return var1;
         }
     };

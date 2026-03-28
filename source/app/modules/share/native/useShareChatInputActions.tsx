@@ -35,21 +35,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/share/native/useShareChatInputActions.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useShareChatInputActions(arg1, arg2) {
+    var2 = function useShareChatInputActions(arg1, arg2, arg3) {
         var2 = arg1;
-        var10 = arg2;
+        var11 = arg2;
+        var10 = arg3;
         var _closure2_slot0 = var2;
-        var _closure2_slot1 = var10;
+        var _closure2_slot1 = var11;
+        var _closure2_slot2 = var10;
         var9 = _closure1_slot3;
         var5 = var9.useRef;
         var3 = null;
         var7 = var5.bind(var9)(var3);
-        var _closure2_slot2 = var7;
+        var _closure2_slot3 = var7;
         var6 = var9.useRef;
         var3 = 0;
         var5 = {'start': 0, 'end': 0};
         var5 = var6.bind(var9)(var5);
-        var _closure2_slot3 = var5;
+        var _closure2_slot4 = var5;
         var6 = var9.useState;
         var5 = false;
         var8 = var6.bind(var9)(var5);
@@ -60,10 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var4[var3];
         var3 = 1;
         var3 = var4[var3];
-        var _closure2_slot4 = var3;
+        var _closure2_slot5 = var3;
         var5 = var9.useCallback;
         var4 = function(arg1) {
-            var2 = _closure2_slot3;
+            var2 = _closure2_slot4;
             var1 = {};
             var3 = arg1;
             var3 = var3.nativeEvent;
@@ -78,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.bind(var9)(var4, var3);
         var8 = var9.useCallback;
         var4 = function() {
-            var3 = _closure2_slot4;
+            var3 = _closure2_slot5;
             var1 = undefined;
             var2 = true;
             var2 = var3.bind(var1)(var2);
@@ -86,17 +88,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var3 = new Array(0);
         var4 = var8.bind(var9)(var4, var3);
-        var11 = var9.useCallback;
+        var12 = var9.useCallback;
         var8 = function() {
-            var3 = _closure2_slot4;
+            var3 = _closure2_slot5;
             var1 = undefined;
             var2 = false;
             var2 = var3.bind(var1)(var2);
             return var1;
         };
         var3 = new Array(0);
-        var3 = var11.bind(var9)(var8, var3);
-        var11 = var9.useCallback;
+        var3 = var12.bind(var9)(var8, var3);
+        var12 = var9.useCallback;
         var8 = new Array(1);
         var8[0] = var2;
         var2 = function(arg1) {
@@ -140,7 +142,7 @@ case 9:
                 var4 = function(arg1) {
                     var4 = arg1;
                     var5 = var4.slice;
-                    var1 = _closure2_slot3;
+                    var1 = _closure2_slot4;
                     var2 = var1.current;
                     var3 = var2.start;
                     var2 = 0;
@@ -155,7 +157,7 @@ case 9:
                     return var1;
                 };
                 var4 = var5.bind(var1)(var4);
-                var3 = _closure2_slot2;
+                var3 = _closure2_slot3;
                 var3 = var3.current;
                 if(!(var2 != var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
@@ -165,13 +167,13 @@ case 10:
                 return var1;
             }
         };
-        var11 = var11.bind(var9)(var2, var8);
-        var _closure2_slot5 = var11;
-        var12 = var9.useCallback;
+        var12 = var12.bind(var9)(var2, var8);
+        var _closure2_slot6 = var12;
+        var13 = var9.useCallback;
         var8 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var1 = _closure2_slot2;
+                var1 = _closure2_slot3;
                 var2 = var1.current;
                 var1 = null;
                 if(!(var1 != var2)) { _fun0002_ip = 12; continue _fun0002 }
@@ -184,17 +186,18 @@ case 12:
             }
         };
         var2 = new Array(0);
-        var12 = var12.bind(var9)(var8, var2);
-        var _closure2_slot6 = var12;
+        var13 = var13.bind(var9)(var8, var2);
+        var _closure2_slot7 = var13;
         var8 = var9.useCallback;
-        var2 = new Array(3);
-        var2[0] = var12;
-        var2[1] = var11;
-        var2[2] = var10;
+        var2 = new Array(4);
+        var2[0] = var13;
+        var2[1] = var12;
+        var2[2] = var11;
+        var2[3] = var10;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var1 = _closure2_slot2;
+                var1 = _closure2_slot3;
                 var2 = var1.current;
                 var5 = null;
                 if(!(var5 != var2)) { _fun0003_ip = 12; continue _fun0003 }
@@ -210,9 +213,9 @@ case 12:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openEmojiPickerActionSheet;
                 var2 = {};
-                var8 = _closure2_slot5;
-                var2['onPressEmoji'] = var8;
                 var8 = _closure2_slot6;
+                var2['onPressEmoji'] = var8;
+                var8 = _closure2_slot7;
                 var2['onClose'] = var8;
                 var6 = _closure1_slot4;
                 var6 = var6.CHAT;
@@ -222,6 +225,8 @@ case 12:
                 var2['startExpanded'] = var6;
                 var6 = _closure2_slot1;
                 var2['channel'] = var6;
+                var8 = _closure2_slot2;
+                var2['appEntryKey'] = var8;
                 var8 = var5 == var6;
                 var6 = undefined;
                 if(var8) { _fun0003_ip = 14; continue _fun0003 }

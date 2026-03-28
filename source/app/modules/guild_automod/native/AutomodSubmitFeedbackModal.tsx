@@ -78,14 +78,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var17[var1];
         var2 = var16.bind(var4)(var1);
         var1 = var2.generateFeedbackOptions;
-        var19 = var1.bind(var2)();
-        var _closure2_slot3 = var19;
-        var15 = _closure1_slot1;
+        var18 = var1.bind(var2)();
+        var _closure2_slot3 = var18;
+        var2 = _closure1_slot1;
         var1 = 12;
         var1 = var17[var1];
-        var1 = var15.bind(var4)(var1);
+        var1 = var2.bind(var4)(var1);
         var1 = var1.bind(var4)();
-        var18 = var1.bottom;
+        var15 = var1.bottom;
         var1 = function label(arg1) {
             var4 = _closure1_slot7;
             var2 = _closure1_slot0;
@@ -121,13 +121,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = 9;
         var8 = var17[var13];
         var8 = var16.bind(var4)(var8);
-        var20 = var8.intl;
-        var14 = var20.string;
+        var19 = var8.intl;
+        var14 = var19.string;
         var8 = var17[var13];
         var8 = var16.bind(var4)(var8);
         var8 = var8.t;
         var8 = var8["7bdzNo"];
-        var8 = var14.bind(var20)(var8);
+        var8 = var14.bind(var19)(var8);
         var5['children'] = var8;
         var6 = var7.bind(var4)(var6, var5);
         var5 = new Array(4);
@@ -142,13 +142,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['style'] = var14;
         var14 = var17[var13];
         var14 = var16.bind(var4)(var14);
-        var21 = var14.intl;
-        var20 = var21.string;
+        var20 = var14.intl;
+        var19 = var20.string;
         var14 = var17[var13];
         var14 = var16.bind(var4)(var14);
         var14 = var14.t;
         var14 = var14.Lbpk6m;
-        var14 = var20.bind(var21)(var14);
+        var14 = var19.bind(var20)(var14);
         var6['children'] = var14;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = {};
         var14 = var10.formBody;
         var6['style'] = var14;
-        var14 = var19.map;
+        var14 = var18.map;
         var11 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -229,7 +229,7 @@ case 2:
                 return var1;
             }
         };
-        var11 = var14.bind(var19)(var11);
+        var11 = var14.bind(var18)(var11);
         var6['children'] = var11;
         var6 = var8.bind(var4)(var7, var6);
         var5[2] = var6;
@@ -241,19 +241,17 @@ case 2:
         var10[0] = var11;
         var11 = {};
         var14 = 16;
-        var14 = var18 + var14;
+        var14 = var15 + var14;
         var11['paddingBottom'] = var14;
         var10[1] = var11;
         var6['style'] = var10;
         var11 = _closure1_slot7;
-        var14 = 17;
-        var9 = var17[var14];
-        var10 = var15.bind(var4)(var9);
+        var9 = 17;
+        var9 = var17[var9];
+        var9 = var16.bind(var4)(var9);
+        var10 = var9.Button;
         var9 = {};
-        var14 = var17[var14];
-        var14 = var15.bind(var4)(var14);
-        var14 = var14.Sizes;
-        var14 = var14.MEDIUM;
+        var14 = 'md';
         var9['size'] = var14;
         var14 = var17[var13];
         var14 = var16.bind(var4)(var14);

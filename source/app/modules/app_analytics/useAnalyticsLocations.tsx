@@ -164,7 +164,7 @@ case 4:
     };
     var3['default'] = var5;
     var3['LocationContext'] = var4;
-    var2 = function AnalyticsLocationProvider(arg1) {
+    var4 = function AnalyticsLocationProvider(arg1) {
         var2 = arg1;
         var1 = var2.children;
         var5 = var2.value;
@@ -178,6 +178,22 @@ case 4:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var3['AnalyticsLocationProvider'] = var2;
+    var3['AnalyticsLocationProvider'] = var4;
+    var2 = function() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var3 = _closure1_slot3;
+            var2 = var3.useContext;
+            var1 = _closure1_slot5;
+            var1 = var2.bind(var3)(var1);
+            var2 = null;
+            if(!(var2 == var1)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
+            var1 = new Array(0);
+case 6:
+            return var1;
+        }
+    };
+    var3['useLocationStackFromLocationContext'] = var2;
     return var1;
 })();

@@ -2495,8 +2495,8 @@ case 58:
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var2 = arg1;
-            var10 = var2.channelId;
-            var _closure2_slot0 = var10;
+            var9 = var2.channelId;
+            var _closure2_slot0 = var9;
             var5 = _closure1_slot10;
             var6 = undefined;
             var2 = function(arg1) {
@@ -2504,14 +2504,14 @@ case 0:
                 var1 = var1.showRecordingOverlay;
                 return var1;
             };
-            var8 = var5.bind(var6)(var2);
-            var _closure2_slot1 = var8;
+            var7 = var5.bind(var6)(var2);
+            var _closure2_slot1 = var7;
             var4 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var2 = 20;
-            var2 = var7[var2];
-            var9 = var4.bind(var6)(var2);
-            var7 = var9.useStateFromStores;
+            var2 = var8[var2];
+            var10 = var4.bind(var6)(var2);
+            var8 = var10.useStateFromStores;
             var2 = _closure1_slot9;
             var4 = new Array(1);
             var4[0] = var2;
@@ -2522,28 +2522,28 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var2 = var7.bind(var9)(var4, var2);
+            var2 = var8.bind(var10)(var4, var2);
             var4 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.voiceMessageAnimationState;
                 return var1;
             };
-            var9 = var5.bind(var6)(var4);
+            var8 = var5.bind(var6)(var4);
             var5 = _closure1_slot4;
             var4 = var5.useState;
-            var7 = var4.bind(var5)(var8);
+            var10 = var4.bind(var5)(var7);
             var5 = _closure1_slot3;
             var4 = 2;
-            var5 = var5.bind(var6)(var7, var4);
+            var10 = var5.bind(var6)(var10, var4);
             var4 = 0;
-            var7 = var5[var4];
-            var4 = 1;
-            var4 = var5[var4];
-            var _closure2_slot2 = var4;
+            var4 = var10[var4];
+            var5 = 1;
+            var5 = var10[var5];
+            var _closure2_slot2 = var5;
             var11 = _closure1_slot4;
-            var5 = var11.useEffect;
-            var4 = new Array(1);
-            var4[0] = var8;
+            var10 = var11.useEffect;
+            var5 = new Array(1);
+            var5[0] = var7;
             var1 = function() {
                 _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
@@ -2580,31 +2580,28 @@ case 59:
                     return var1;
                 }
             };
-            var1 = var5.bind(var11)(var1, var4);
-            var4 = null;
-            if(!(var4 != var2)) { _fun0015_ip = 61; continue _fun0015 }
+            var1 = var10.bind(var11)(var1, var5);
+            var5 = null;
+            if(!(var5 != var2)) { _fun0015_ip = 61; continue _fun0015 }
 case 62:
             var1 = var2.isForumLikeChannel;
             var2 = var1.bind(var2)();
             var1 = null;
             if(var2) { _fun0015_ip = 63; continue _fun0015 }
 case 61:
-            var5 = var4 != var9;
+            var10 = var5 != var8;
             var2 = null;
-            if(!var5) { _fun0015_ip = 64; continue _fun0015 }
+            if(!var10) { _fun0015_ip = 64; continue _fun0015 }
 case 65:
             var2 = null;
-            if(!var7) { _fun0015_ip = 64; continue _fun0015 }
+            if(!var4) { _fun0015_ip = 64; continue _fun0015 }
 case 66:
             var5 = _closure1_slot16;
             var4 = _closure1_slot54;
             var3 = {};
-            var3['channelId'] = var10;
-            var3['voiceMessageAnimationState'] = var9;
-            if(!var7) { _fun0015_ip = 67; continue _fun0015 }
-case 68:
-            var7 = !var8;
-case 67:
+            var3['channelId'] = var9;
+            var3['voiceMessageAnimationState'] = var8;
+            var7 = !var7;
             var3['exiting'] = var7;
             var2 = var5.bind(var6)(var4, var3);
 case 64:

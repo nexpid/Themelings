@@ -448,9 +448,6 @@ case 16:
                     var2 = _closure2_slot9;
                     if(!var2) { _fun0004_ip = 15; continue _fun0004 }
 case 17:
-                    var2 = _closure2_slot9;
-                    if(!var2) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
                     var4 = _closure2_slot10;
                     var3 = var4.set;
                     var6 = _closure1_slot0;
@@ -470,7 +467,7 @@ case 19:
                     var3 = var2.current;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0004_ip = 18; continue _fun0004 }
-case 20:
+case 19:
                     var2 = var3.play;
                     var2 = var2.bind(var3)();
                     _fun0004_ip = 18; continue _fun0004;
@@ -483,7 +480,7 @@ case 15:
                     var2 = var1.current;
                     var1 = null;
                     if(!(var1 != var2)) { _fun0004_ip = 18; continue _fun0004 }
-case 21:
+case 20:
                     var1 = var2.reset;
                     var1 = var1.bind(var2)();
 case 18:
@@ -492,29 +489,29 @@ case 18:
                 }
             };
             var1 = var3.bind(var4)(var1, var2);
-            if(!(var12 != var6)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!(var12 != var6)) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 10;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.PressableOpacity;
-            _fun0001_ip = 24; continue _fun0001;
-case 22:
+            _fun0001_ip = 23; continue _fun0001;
+case 21:
             var1 = _closure1_slot6;
             var3 = var1.Fragment;
-case 24:
+case 23:
             var2 = _closure1_slot9;
             var1 = {};
-            if(!(var12 != var6)) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
-            var5 = {};
-            var5['onPress'] = var6;
-            _fun0001_ip = 27; continue _fun0001;
+            if(!(var12 != var6)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
             var5 = {};
-case 27:
+            var5['onPress'] = var6;
+            _fun0001_ip = 26; continue _fun0001;
+case 24:
+            var5 = {};
+case 26:
             var43 = var1;
             var42 = var5;
             var5 = copyDataProperties(var43, var42);
@@ -628,8 +625,8 @@ case 27:
             var11 = new Array(3);
             var11[0] = var14;
             var12 = null;
-            if(!var13) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(!var13) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var21 = _closure1_slot9;
             var14 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -648,7 +645,7 @@ case 29:
             var13['autoPlay'] = var22;
             var13['loop'] = var22;
             var12 = var21.bind(var4)(var14, var13);
-case 28:
+case 27:
             var11[1] = var12;
             var14 = _closure1_slot9;
             var13 = _closure1_slot7;

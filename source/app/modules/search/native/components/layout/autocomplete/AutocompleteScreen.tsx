@@ -181,18 +181,20 @@ case 3:
                     var4 = var5.setState;
                     var7 = _closure2_slot0;
                     var3 = function(arg1) {
-                        var3 = arg1;
-                        var2 = var3.setTextInputValue;
+                        var2 = arg1;
+                        var3 = var2.setTextInputValue;
                         var1 = '';
-                        var1 = var2.bind(var3)(var1);
-                        var2 = var3.addTag;
+                        var1 = var3.bind(var2)(var1);
+                        var3 = var2.addTag;
                         var1 = {};
                         var4 = _closure1_slot11;
                         var4 = var4.ANSWER;
                         var1['type'] = var4;
                         var4 = _closure3_slot0;
                         var1['text'] = var4;
-                        var1 = var2.bind(var3)(var1);
+                        var1 = var3.bind(var2)(var1);
+                        var1 = var2.restoreDraftTextInputValue;
+                        var1 = var1.bind(var2)();
                         var1 = undefined;
                         return var1;
                     };
@@ -251,11 +253,11 @@ case 6:
                     var4 = var5.setState;
                     var7 = _closure2_slot0;
                     var3 = function(arg1) {
-                        var4 = arg1;
-                        var2 = var4.setTextInputValue;
+                        var3 = arg1;
+                        var2 = var3.setTextInputValue;
                         var1 = '';
-                        var1 = var2.bind(var4)(var1);
-                        var3 = var4.addTag;
+                        var1 = var2.bind(var3)(var1);
+                        var4 = var3.addTag;
                         var2 = {};
                         var5 = _closure1_slot11;
                         var5 = var5.ANSWER;
@@ -272,7 +274,9 @@ case 6:
                         var2['text'] = var6;
                         var5 = var5.id;
                         var2['userId'] = var5;
-                        var2 = var3.bind(var4)(var2);
+                        var2 = var4.bind(var3)(var2);
+                        var2 = var3.restoreDraftTextInputValue;
+                        var2 = var2.bind(var3)();
                         return var1;
                     };
                     var3 = var4.bind(var5)(var7, var3);
@@ -373,11 +377,11 @@ case 12:
                     var4 = var5.setState;
                     var7 = _closure2_slot0;
                     var3 = function(arg1) {
-                        var4 = arg1;
-                        var2 = var4.setTextInputValue;
+                        var3 = arg1;
+                        var2 = var3.setTextInputValue;
                         var1 = '';
-                        var1 = var2.bind(var4)(var1);
-                        var3 = var4.addTag;
+                        var1 = var2.bind(var3)(var1);
+                        var4 = var3.addTag;
                         var2 = {};
                         var5 = _closure1_slot11;
                         var5 = var5.ANSWER;
@@ -394,7 +398,9 @@ case 12:
                         var2['text'] = var6;
                         var5 = _closure3_slot0;
                         var2['channelId'] = var5;
-                        var2 = var3.bind(var4)(var2);
+                        var2 = var4.bind(var3)(var2);
+                        var2 = var3.restoreDraftTextInputValue;
+                        var2 = var2.bind(var3)();
                         return var1;
                     };
                     var3 = var4.bind(var5)(var7, var3);
