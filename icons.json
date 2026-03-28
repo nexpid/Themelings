@@ -4097,16 +4097,6 @@
         "width": 16,
         "height": 16
     },
-    "ic_back_chevron": {
-        "file": "app/images/native/ic_back_chevron.png",
-        "hash": "0341838cafbded7a9990c29e378d37f1",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 13,
-        "height": 22
-    },
     "ic_badge_nitro": {
         "file": "app/images/native/badge/ic_badge_nitro.png",
         "hash": "581374036ac67fb316291b50b3effd2f",
