@@ -526,8 +526,8 @@ case 0:
             var12 = null;
             var2 = var12 == var21;
             var1 = null;
-            if(var2) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+            if(var2) { _fun0004_ip = 9; continue _fun0004 }
+case 33:
             var4 = _closure1_slot4;
             var7 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -560,8 +560,8 @@ case 34:
             var9[0] = var11;
             var11 = var21.disabledReason;
             var11 = var12 != var11;
-            if(!var11) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+            if(!var11) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var17 = _closure1_slot4;
             var16 = _closure1_slot3;
             var12 = {};
@@ -579,7 +579,7 @@ case 36:
             var18 = var20.bind(var5)(var19, var18);
             var12['children'] = var18;
             var11 = var17.bind(var5)(var16, var12);
-case 35:
+case 34:
             var9[1] = var11;
             var12 = _closure1_slot4;
             var11 = _closure1_slot3;
@@ -604,12 +604,12 @@ case 0:
                     var8 = var2 == var10;
                     var2 = undefined;
                     var7 = undefined;
-                    if(var8) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                    if(var8) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                     var9 = var10.has;
                     var8 = var1.skuId;
                     var7 = var9.bind(var10)(var8);
-case 37:
+case 36:
                     var3['isNewPerk'] = var7;
                     var6 = _closure2_slot1;
                     var6 = var6.forceStaticImages;
@@ -627,7 +627,7 @@ case 37:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 33:
+case 9:
             return var1;
         }
     };
