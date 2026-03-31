@@ -1535,6 +1535,12 @@
     "midnight": "#5865f2",
     "darker": "#5865f2"
   },
+  "SLIDER_TRACK_BACKGROUND": {
+    "dark": "#34343a",
+    "light": "#c2c2c7",
+    "midnight": "#3f4048",
+    "darker": "#474851"
+  },
   "SPINE_DEFAULT": {
     "dark": "#41434a",
     "light": "#6d6f78",
@@ -1667,6 +1673,12 @@
     "midnight": "#6c6f7c33",
     "darker": "#6c6f7c29"
   },
+  "SWITCH_THUMB_BACKGROUND_DEFAULT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
   "TAB_BAR_BACKGROUND": {
     "dark": "#111214",
     "light": "#ffffff",
@@ -1740,10 +1752,10 @@
     "darker": "#f0b232"
   },
   "TEXT_LINK": {
-    "dark": "#00aafc",
-    "light": "#006be7",
-    "midnight": "#00aafc",
-    "darker": "#00aafc"
+    "dark": "#5a9ef1",
+    "light": "#0268ca",
+    "midnight": "#3c8ceb",
+    "darker": "#4d96ee"
   },
   "TEXT_MUTED": {
     "dark": "#949ba4",
