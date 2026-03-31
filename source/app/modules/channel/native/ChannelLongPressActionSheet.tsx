@@ -2571,6 +2571,8 @@ case 238:
                 var2 = var2.ActionSheetRow;
                 var3 = var2.Group;
                 var2 = {};
+                var6 = true;
+                var2['hasIcons'] = var6;
                 var8 = var1.buttons;
                 var7 = var8.map;
                 var6 = function(arg1, arg2) {

@@ -1958,12 +1958,13 @@ case 171:
         _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
-            var7 = var1.inviteKey;
-            var12 = var1.context;
+            var10 = var1.inviteKey;
+            var _closure2_slot0 = var10;
+            var13 = var1.context;
             var3 = var1.callback;
-            var _closure2_slot0 = var3;
+            var _closure2_slot1 = var3;
             var1 = var1.skipOnboarding;
-            var _closure2_slot1 = var1;
+            var _closure2_slot2 = var1;
             var6 = _closure1_slot0;
             var4 = _closure1_slot3;
             var1 = 47;
@@ -1971,31 +1972,30 @@ case 0:
             var4 = undefined;
             var6 = var6.bind(var4)(var1);
             var1 = var6.parseExtraDataFromInviteKey;
-            var1 = var1.bind(var6)(var7);
-            var _closure2_slot2 = var1;
+            var1 = var1.bind(var6)(var10);
+            var _closure2_slot3 = var1;
             var11 = var1.baseCode;
-            var _closure2_slot3 = var11;
             var7 = _closure1_slot13;
             var6 = var7.getSessionId;
             var8 = var6.bind(var7)();
             var7 = {};
-            var13 = var7;
-            var5 = copyDataProperties(var13, var12);
+            var14 = var7;
+            var5 = copyDataProperties(var14, var13);
             var5 = var1.guildScheduledEventId;
             var1 = 'invite_guild_scheduled_event_id';
             var7[var1] = var5;
             var5 = _closure1_slot21;
             var1 = var5.getCurrentUser;
-            var10 = var1.bind(var5)();
+            var12 = var1.bind(var5)();
             var5 = null;
-            var6 = var5 == var10;
+            var6 = var5 == var12;
             var1 = undefined;
             if(var6) { _fun0023_ip = 136; continue _fun0023 }
 case 180:
-            var9 = var10.hasFlag;
+            var9 = var12.hasFlag;
             var6 = _closure1_slot29;
             var6 = var6.QUARANTINED;
-            var1 = var9.bind(var10)(var6);
+            var1 = var9.bind(var12)(var6);
 case 136:
             if(!(var5 != var1)) { _fun0023_ip = 181; continue _fun0023 }
 case 157:
@@ -2008,9 +2008,9 @@ case 181:
             var9 = var5.bind(var4)(var1);
             var5 = var9.dispatch;
             var1 = {};
-            var10 = 'INVITE_ACCEPT';
-            var1['type'] = var10;
-            var1['code'] = var11;
+            var12 = 'INVITE_ACCEPT';
+            var1['type'] = var12;
+            var1['code'] = var10;
             var1 = var5.bind(var9)(var1);
             var5 = _closure1_slot0;
             var1 = 41;
@@ -2057,12 +2057,12 @@ case 73:
                             var4['type'] = var3;
                             var3 = var2.body;
                             var4['invite'] = var3;
-                            var9 = _closure2_slot3;
+                            var9 = _closure2_slot0;
                             var4['code'] = var9;
                             var4 = var7.bind(var8)(var4);
                             var8 = _closure1_slot6;
                             var7 = var8.getGuildScheduledEvent;
-                            var4 = _closure2_slot2;
+                            var4 = _closure2_slot3;
                             var4 = var4.guildScheduledEventId;
                             var8 = var7.bind(var8)(var4);
                             var4 = {};
@@ -2093,7 +2093,7 @@ case 187:
 case 157:
                             var10 = var8;
 case 184:
-                            var8 = _closure2_slot1;
+                            var8 = _closure2_slot2;
                             if(var8) { _fun0024_ip = 188; continue _fun0024 }
 case 125:
                             if(!(var7 != var10)) { _fun0024_ip = 188; continue _fun0024 }
@@ -2135,10 +2135,10 @@ case 194:
 case 192:
                             return var6;
 case 188:
-                            var6 = _closure2_slot0;
+                            var6 = _closure2_slot1;
                             if(!(var7 != var6)) { _fun0024_ip = 195; continue _fun0024 }
 case 196:
-                            var3 = _closure2_slot0;
+                            var3 = _closure2_slot1;
                             var3 = var3.bind(var5)(var4);
 case 195:
                             var2 = var2.body;
@@ -2200,7 +2200,7 @@ case 134:
                     var2 = {};
                     var7 = 'INVITE_ACCEPT_FAILURE';
                     var2['type'] = var7;
-                    var7 = _closure2_slot3;
+                    var7 = _closure2_slot0;
                     var2['code'] = var7;
                     var7 = {};
                     var10 = var3.body;
@@ -2248,7 +2248,7 @@ case 182:
             var4 = var3.Promise;
             var3 = var4.prototype;
             var3 = Object.create(var3, {constructor: {value: var4}});
-            var13 = function(arg1, arg2) {
+            var14 = function(arg1, arg2) {
                 var1 = global;
                 var1 = var1.Error;
                 var2 = var1.prototype;
@@ -2261,8 +2261,8 @@ case 182:
                 var1 = var2.bind(var1)(var3);
                 return var1;
             };
-            var14 = var3;
-            var2 = new var14[var4](var13, var12);
+            var15 = var3;
+            var2 = new var15[var4](var14, var13);
             var1 = var2 instanceof Object ? var2 : var3;
 case 48:
             return var1;

@@ -1469,11 +1469,11 @@ case 121:
                 var10 = var1 == var9;
                 var1 = undefined;
                 var13 = undefined;
-                if(var10) { _fun0021_ip = 123; continue _fun0021 }
-case 124:
+                if(var10) { _fun0021_ip = 87; continue _fun0021 }
+case 123:
                 var9 = var9.rowData;
                 var13 = var9.index;
-case 123:
+case 87:
                 var9 = var7.state;
                 var18 = var9.hoverIndex;
                 var9 = global;

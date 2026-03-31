@@ -1086,13 +1086,13 @@ case 64:
             var6 = false;
             var13['request'] = var6;
             var14 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var15 = _closure1_slot2;
             var11 = 18;
-            var8 = var7[var11];
-            var12 = var14.bind(var10)(var8);
+            var7 = var15[var11];
+            var12 = var14.bind(var10)(var7);
             var8 = var12.getBoosterMap;
-            var18 = 19;
-            var7 = var7[var18];
+            var7 = 19;
+            var7 = var15[var7];
             var7 = var14.bind(var10)(var7);
             var7 = var7.AutocompleterResultTypes;
             var7 = var7.USER;
@@ -1254,32 +1254,21 @@ case 73:
                     return var1;
                 }
             };
-            var16 = var8.bind(var10)(var9);
-            if(!(var7 != var16)) { _fun0010_ip = 80; continue _fun0010 }
+            var15 = var8.bind(var10)(var9);
+            if(!(var7 != var15)) { _fun0010_ip = 80; continue _fun0010 }
 case 81:
-            var8 = var16.length;
+            var8 = var15.length;
             if(!(!(var8 > var3))) { _fun0010_ip = 82; continue _fun0010 }
 case 80:
             var9 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var8 = var14[var11];
+            var8 = _closure1_slot2;
+            var8 = var8[var11];
             var12 = var9.bind(var10)(var8);
             var9 = var12.queryAllUsers;
             var8 = {};
-            var21 = var8;
-            var20 = var13;
-            var15 = copyDataProperties(var21, var20);
-            var19 = _closure1_slot0;
-            var15 = var14[var11];
-            var17 = var19.bind(var10)(var15);
-            var15 = var17.getBoosterMap;
-            var14 = var14[var18];
-            var14 = var19.bind(var10)(var14);
-            var14 = var14.AutocompleterResultTypes;
-            var14 = var14.USER;
-            var15 = var15.bind(var17)(var14);
-            var14 = 'boosters';
-            var8[var14] = var15;
+            var18 = var8;
+            var17 = var13;
+            var14 = copyDataProperties(var18, var17);
             var12 = var9.bind(var12)(var8);
             _fun0010_ip = 83; continue _fun0010;
 case 82:
@@ -1288,30 +1277,19 @@ case 82:
             var8 = var8.bind(var9)();
             if(!(var7 != var8)) { _fun0010_ip = 84; continue _fun0010 }
 case 85:
-            var7 = var16.push;
-            var7 = var7.bind(var16)(var8);
+            var7 = var15.push;
+            var7 = var7.bind(var15)(var8);
 case 84:
             var8 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var7 = var14[var11];
+            var7 = _closure1_slot2;
+            var7 = var7[var11];
             var9 = var8.bind(var10)(var7);
             var8 = var9.queryUsers;
             var7 = {};
-            var21 = var7;
-            var20 = var13;
-            var15 = copyDataProperties(var21, var20);
-            var15 = 'users';
-            var7[var15] = var16;
-            var17 = _closure1_slot0;
-            var15 = var14[var11];
-            var16 = var17.bind(var10)(var15);
-            var15 = var16.getBoosterMap;
-            var14 = var14[var18];
-            var14 = var17.bind(var10)(var14);
-            var14 = var14.AutocompleterResultTypes;
-            var14 = var14.USER;
-            var15 = var15.bind(var16)(var14);
-            var14 = 'boosters';
+            var18 = var7;
+            var17 = var13;
+            var14 = copyDataProperties(var18, var17);
+            var14 = 'users';
             var7[var14] = var15;
             var12 = var8.bind(var9)(var7);
             _fun0010_ip = 83; continue _fun0010;
@@ -1322,9 +1300,9 @@ case 68:
             var9 = var8.bind(var10)(var7);
             var8 = var9.queryChannelUsers;
             var7 = {};
-            var21 = var7;
-            var20 = var13;
-            var14 = copyDataProperties(var21, var20);
+            var18 = var7;
+            var17 = var13;
+            var14 = copyDataProperties(var18, var17);
             var15 = var5.channelId;
             var14 = 'channelId';
             var7[var14] = var15;
@@ -1340,9 +1318,9 @@ case 87:
             var9 = var8.bind(var10)(var7);
             var8 = var9.queryGuildUsers;
             var7 = {};
-            var21 = var7;
-            var20 = var13;
-            var13 = copyDataProperties(var21, var20);
+            var18 = var7;
+            var17 = var13;
+            var13 = copyDataProperties(var18, var17);
             var14 = var5.guildId;
             var13 = 'guildId';
             var7[var13] = var14;
@@ -1462,8 +1440,8 @@ case 86:
             var7 = var7.Set;
             var8 = var7.prototype;
             var8 = Object.create(var8, {constructor: {value: var7}});
-            var22 = var8;
-            var7 = new var22[var7](var21);
+            var19 = var8;
+            var7 = new var19[var7](var18);
             var7 = var7 instanceof Object ? var7 : var8;
             _closure2_slot1 = var7;
             var7 = function maybeAddUser(arg1) {

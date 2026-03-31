@@ -374,8 +374,8 @@ case 17:
             var6 = 19;
             var12 = var32[var6];
             var12 = var33.bind(var4)(var12);
-            var16 = var12.LegacyText;
-            var12 = {};
+            var16 = var12.Heading;
+            var12 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var17 = var11.header;
             var12['style'] = var17;
             var17 = var32[var9];
@@ -392,8 +392,8 @@ case 17:
             var8[1] = var12;
             var12 = var32[var6];
             var12 = var33.bind(var4)(var12);
-            var16 = var12.LegacyText;
-            var12 = {};
+            var16 = var12.Text;
+            var12 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-subtle'};
             var17 = var11.description;
             var12['style'] = var17;
             var17 = var32[var9];
@@ -548,8 +548,8 @@ case 24:
             var5[1] = var7;
             var6 = var14[var6];
             var6 = var10.bind(var4)(var6);
-            var7 = var6.LegacyText;
-            var6 = {};
+            var7 = var6.Text;
+            var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-subtle'};
             var11 = var11.formHint;
             var6['style'] = var11;
             var11 = var14[var9];

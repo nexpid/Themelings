@@ -124,54 +124,33 @@ case 11:
             var9 = var10.getGuildId;
             var4 = var9.bind(var10)();
 case 10:
-            if(!(var3 != var8)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            if(!(var3 == var4)) { _fun0002_ip = 14; continue _fun0002 }
-case 12:
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot3;
-            var9 = 6;
-            var9 = var11[var9];
-            var10 = var10.bind(var1)(var9);
-            var9 = var10.endHangout;
-            var9 = var9.bind(var10)();
-            _fun0002_ip = 15; continue _fun0002;
-case 14:
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot3;
-            var9 = 6;
-            var9 = var11[var9];
-            var10 = var10.bind(var1)(var9);
-            var9 = var10.startHangout;
-            var9 = var9.bind(var10)(var4, var8);
-case 15:
             var10 = _closure1_slot6;
             var9 = var10.isSupported;
             var9 = var9.bind(var10)();
-            if(!var9) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-            if(!(var3 != var8)) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!var9) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            if(!(var3 != var8)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var9 = _closure1_slot6;
             var3 = var9.getMediaEngine;
             var9 = var3.bind(var9)();
             var3 = var9.interact;
             var3 = var3.bind(var9)();
-case 18:
+case 14:
             var3 = _closure1_slot0;
             var9 = _closure1_slot3;
-            var2 = 7;
+            var2 = 6;
             var2 = var9[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.selectVoiceChannelAdditional;
-            var17 = var3;
-            var16 = var8;
-            var15 = var4;
-            var14 = var7;
-            var13 = var6;
-            var12 = var5;
-            var2 = var17[var2](var16, var15, var14, var13, var12, var11);
-case 16:
+            var16 = var3;
+            var15 = var8;
+            var14 = var4;
+            var13 = var7;
+            var12 = var6;
+            var11 = var5;
+            var2 = var16[var2](var15, var14, var13, var12, var11, var10);
+case 12:
             return var1;
         }
     };
@@ -184,17 +163,17 @@ case 0:
             var2 = var4.getRemoteSessionId;
             var5 = var2.bind(var4)();
             var2 = null;
-            if(!(var2 != var5)) { _fun0003_ip = 20; continue _fun0003 }
+            if(!(var2 != var5)) { _fun0003_ip = 16; continue _fun0003 }
 case 6:
             var6 = _closure1_slot2;
             var4 = _closure1_slot3;
-            var1 = 8;
+            var1 = 7;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var6.bind(var1)(var4);
             var1 = var4.remoteDisconnect;
             var1 = var1.bind(var4)(var5);
-case 20:
+case 16:
             var1 = var3.selectVoiceChannel;
             var1 = var1.bind(var3)(var2);
             var1 = undefined;
@@ -202,7 +181,7 @@ case 20:
         }
     };
     var2['disconnect'] = var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

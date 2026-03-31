@@ -124,6 +124,8 @@ case 16:
                 var3['numFrequentlyItems'] = var2;
                 var2 = false;
                 var3['dirty'] = var2;
+                var2 = 0;
+                var3['version'] = var2;
                 return var1;
             }
         };
@@ -190,9 +192,12 @@ case 20:
         var6 = 'markDirty';
         var1['key'] = var6;
         var6 = function value() {
-            var2 = true;
-            var1 = this;
-            var1['dirty'] = var2;
+            var2 = this;
+            var1 = true;
+            var2['dirty'] = var1;
+            var1 = var2.version;
+            var1 = var1 + 1;
+            var2['version'] = var1;
             var1 = undefined;
             return var1;
         };

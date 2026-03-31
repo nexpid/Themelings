@@ -555,7 +555,7 @@ case 69:
         var13 = var5.bind(var1)(var13);
         var13 = var13.JUMP_TO_GUILD;
         var18 = var13.binds;
-        var15 = new Array(14);
+        var15 = new Array(15);
         var19 = var15;
         var17 = 0;
         var13 = arraySpread(var19, var18, var17);
@@ -597,7 +597,10 @@ case 69:
         var13 = var13 + var16;
         var14 = 'mod+minus';
         var15[var13] = var14;
+        var13 = var13 + var16;
         var14 = 'mod+0';
+        var15[var13] = var14;
+        var14 = 'cmd+shift+/';
         var13 = var13 + var16;
         var15[var13] = var14;
         var14 = var15.map;

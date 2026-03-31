@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = 64;
     var3['RELATIONSHIP_COUNT_ANIMATION_THRESHOLD'] = var2;
-    var2 = 62;
+    var2 = 61;
     var3['PEOPLE_LIST_ITEM_HEIGHT'] = var2;
     var2 = 72;
     var3['PEOPLE_LIST_ITEM_HEIGHT_TALL'] = var2;

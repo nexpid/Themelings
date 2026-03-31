@@ -66,6 +66,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_TAB_POPOVER'] = var5;
     var1 = 'PREMIUM_TAB_POPOVER';
     var2[var5] = var1;
+    var5 = 14;
+    var2['NAGBAR'] = var5;
+    var1 = 'NAGBAR';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

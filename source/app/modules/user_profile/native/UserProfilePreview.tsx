@@ -136,6 +136,7 @@ case 0:
             var28 = var2.user;
             var35 = var2.displayName;
             var29 = var2.guildId;
+            var _closure2_slot0 = var29;
             var14 = var2.pendingProfileEffectRecord;
             var30 = var2.pendingDisplayNameStyles;
             var17 = var2.style;
@@ -161,7 +162,7 @@ case 15:
 case 18:
             var6 = new Array(0);
 case 17:
-            var _closure2_slot0 = var4;
+            var _closure2_slot1 = var4;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 7;
@@ -172,9 +173,10 @@ case 17:
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
-                var2 = _closure1_slot4;
-                var1 = var2.getPendingChanges;
-                var1 = var1.bind(var2)();
+                var3 = _closure1_slot4;
+                var2 = var3.getPendingChanges;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
                 return var1;
             };
             var2 = var5.bind(var9)(var3, var2);
@@ -292,7 +294,7 @@ case 23:
             var49 = var7;
             var2 = new var49[var8](var48, var47);
             var2 = var2 instanceof Object ? var2 : var7;
-            _closure2_slot0 = var2;
+            _closure2_slot1 = var2;
             var32 = new Array(0);
             var46 = 0;
             var48 = var32;
@@ -300,7 +302,7 @@ case 23:
             var46 = arraySpread(var48, var47, var46);
             var3 = var6.filter;
             var1 = function(arg1) {
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot1;
                 var2 = var3.has;
                 var1 = arg1;
                 var1 = var1.id;

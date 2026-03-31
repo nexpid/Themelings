@@ -42,7 +42,7 @@ case 3:
             var1 = 1;
             var1 = var6[var1];
             var3 = var3.bind(var5)(var1);
-            var1 = var3.getCurrentConfig;
+            var1 = var3.getConfig;
             var1 = var1.bind(var3)(var4);
             var1 = var1.enabled;
             var2['enabled'] = var1;
@@ -67,7 +67,7 @@ case 0:
             var1 = var6[var1];
             var5 = undefined;
             var3 = var3.bind(var5)(var1);
-            var1 = var3.useExperiment;
+            var1 = var3.useConfig;
             var1 = var1.bind(var3)(var4);
             var3 = _closure1_slot0;
             var2 = 0;

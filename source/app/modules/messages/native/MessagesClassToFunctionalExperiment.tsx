@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var6.bind(var1)(var4);
     var5 = var8.createApexExperiment;
-    var4 = {'kind': 'user', 'name': '2026-03-messages-class-to-functional'};
+    var4 = {'kind': 'user', 'name': '2026-03-messages-functional-component-2'};
     var9 = {};
     var12 = false;
     var9['enabled'] = var12;

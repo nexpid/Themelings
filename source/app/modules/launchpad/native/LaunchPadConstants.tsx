@@ -85,6 +85,10 @@ case 2:
         var5 = 16;
         var3['LAUNCH_PAD_MARGIN'] = var5;
         var3['LAUNCH_PAD_PULL_TAB_HIT_SLOP'] = var5;
+        var5 = 14;
+        var3['LAUNCH_PAD_END_TRANSLATION_THRESHOLD'] = var5;
+        var5 = 100;
+        var3['LAUNCH_PAD_END_VELOCITY_THRESHOLD'] = var5;
         var3['LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE'] = var4;
         var3['LaunchPadTypes'] = var2;
         return var1;

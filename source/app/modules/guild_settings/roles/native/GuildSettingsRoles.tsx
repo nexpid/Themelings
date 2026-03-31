@@ -1134,7 +1134,7 @@ case 54:
                     var10 = var22.bind(var1)(var10);
                     var12 = var10.PressableOpacity;
                     var10 = {};
-                    var15 = 'text';
+                    var15 = 'button';
                     var10['accessibilityRole'] = var15;
                     var15 = var19[var14];
                     var15 = var22.bind(var1)(var15);
@@ -1330,7 +1330,7 @@ case 65:
                     var14 = 34;
                     var13 = var21[var14];
                     var13 = var20.bind(var5)(var13);
-                    var15 = var13.Text;
+                    var15 = var13.Heading;
                     var13 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
                     var16 = var11.subheader;
                     var13['style'] = var16;

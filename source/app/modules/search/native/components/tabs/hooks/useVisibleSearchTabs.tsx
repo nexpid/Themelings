@@ -73,44 +73,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = this;
         var _closure2_slot0 = var3;
         var2 = var1.searchContext;
-        var7 = var1.isInitialSearchQuery;
+        var8 = var1.isInitialSearchQuery;
+        var7 = var1.isTextInputValueEmpty;
         var6 = var1.hasUserAddedTags;
         var5 = var1.isTagsEmpty;
-        var10 = _closure1_slot3;
-        var9 = _closure1_slot15;
+        var11 = _closure1_slot3;
+        var10 = _closure1_slot15;
         var1 = undefined;
-        var9 = var10.bind(var1)(var3, var9);
-        var9 = null;
-        var3['visibleTabCounts'] = var9;
-        var9 = false;
-        var3['isInitialSearchQuery'] = var9;
-        var9 = function() {
+        var10 = var11.bind(var1)(var3, var10);
+        var10 = null;
+        var3['visibleTabCounts'] = var10;
+        var10 = false;
+        var3['isInitialSearchQuery'] = var10;
+        var10 = function() {
             var1 = _closure2_slot0;
             var1 = var1.candidateTabs;
             return var1;
         };
-        var3['getCandidateTabs'] = var9;
-        var9 = function() {
+        var3['getCandidateTabs'] = var10;
+        var10 = function() {
             var1 = _closure2_slot0;
             var1 = var1.visibleTabs;
             return var1;
         };
-        var3['getVisibleTabs'] = var9;
-        var9 = function() {
+        var3['getVisibleTabs'] = var10;
+        var10 = function() {
             var1 = _closure2_slot0;
             var1 = var1.visibleTabCounts;
             return var1;
         };
-        var3['getVisibleTabCounts'] = var9;
-        var9 = function(arg1) {
+        var3['getVisibleTabCounts'] = var10;
+        var10 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = arg1;
                 var3 = var1.isInitialSearchQuery;
+                var _closure3_slot0 = var3;
+                var4 = var1.isTextInputValueEmpty;
+                var _closure3_slot1 = var4;
                 var4 = var1.hasUserAddedTags;
-                var _closure3_slot0 = var4;
+                var _closure3_slot2 = var4;
                 var1 = var1.isTagsEmpty;
-                var _closure3_slot1 = var1;
+                var _closure3_slot3 = var1;
                 if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 var4 = _closure1_slot12;
@@ -150,11 +154,21 @@ case 10:
                         var1 = true;
                         return var1;
 case 7:
-                        var1 = _closure3_slot1;
+                        var1 = _closure3_slot3;
                         return var1;
 case 5:
                         var1 = _closure3_slot0;
-                        var1 = !var1;
+                        if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 11:
+                        var2 = _closure3_slot2;
+                        var2 = !var2;
+                        if(!var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+                        var3 = _closure3_slot1;
+                        var2 = !var3;
+case 12:
+                        var1 = var2;
+case 4:
                         return var1;
                     }
                 };
@@ -166,17 +180,17 @@ case 5:
                 var1 = var1.candidateTabs;
                 var1 = var6.bind(var5)(var1);
                 var1 = var4 !== var1;
-                if(!var1) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+                if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var2 = _closure2_slot0;
                 var2['candidateTabs'] = var3;
                 var1 = true;
-case 11:
+case 14:
                 return var1;
             }
         };
-        var3['computeCandidateTabs'] = var9;
-        var9 = function(arg1) {
+        var3['computeCandidateTabs'] = var10;
+        var10 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var1 = arg1;
@@ -189,25 +203,25 @@ case 0:
                 var1 = var1.visibleTabs;
                 var4 = var7.bind(var4)(var1);
                 var1 = false;
-                if(!(var6 !== var4)) { _fun0003_ip = 2; continue _fun0003 }
-case 13:
+                if(!(var6 !== var4)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                 var4 = _closure2_slot0;
                 var4['visibleTabs'] = var5;
                 var1 = true;
-case 2:
+case 16:
                 var4 = _closure2_slot0;
                 var4 = var4.visibleTabCounts;
-                if(!(var3 !== var4)) { _fun0003_ip = 4; continue _fun0003 }
-case 14:
+                if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+case 2:
                 var2 = _closure2_slot0;
                 var2['visibleTabCounts'] = var3;
                 var1 = true;
-case 4:
+case 18:
                 return var1;
             }
         };
-        var3['updateVisibleTabs'] = var9;
-        var8 = function(arg1) {
+        var3['updateVisibleTabs'] = var10;
+        var9 = function(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var2 = arg1;
@@ -218,10 +232,10 @@ case 0:
                 var2 = undefined;
                 var _closure3_slot1 = var2;
                 var3 = _closure2_slot0;
-                if(var5) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-                if(var1) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+                if(var5) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+                if(var1) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                 var6 = var3.candidateTabs;
                 var5 = var6.every;
                 var1 = function(arg1) {
@@ -235,8 +249,8 @@ case 18:
                 var1 = var5.bind(var6)(var1);
                 var5 = !var1;
                 var1 = !var5;
-                if(var5) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                if(var5) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                 var6 = _closure2_slot0;
                 var2 = false;
                 var6['isInitialSearchQuery'] = var2;
@@ -256,9 +270,9 @@ case 20:
                 var2['nextTabs'] = var8;
                 var2['nextTabCounts'] = var7;
                 var1 = var5.bind(var6)(var2);
-case 19:
+case 23:
                 return var1;
-case 17:
+case 21:
                 var1 = var3.isInitialSearchQuery;
                 _closure3_slot1 = var1;
                 var1 = false;
@@ -271,14 +285,14 @@ case 17:
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var1 = _closure3_slot1;
-                        if(var1) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+                        if(var1) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
                         var2 = _closure2_slot0;
                         var4 = var2.visibleTabs;
                         var3 = var4.includes;
                         var2 = arg1;
                         var1 = var3.bind(var4)(var2);
-case 21:
+case 25:
                         return var1;
                     }
                 };
@@ -288,7 +302,7 @@ case 21:
                 var1['nextTabCounts'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
-case 15:
+case 19:
                 var1 = true;
                 var3['isInitialSearchQuery'] = var1;
                 var2 = var3.updateVisibleTabs;
@@ -301,7 +315,7 @@ case 15:
                 return var1;
             }
         };
-        var3['computeVisibleTabs'] = var8;
+        var3['computeVisibleTabs'] = var9;
         var3['searchContext'] = var2;
         var4 = _closure1_slot11;
         var2 = var2.type;
@@ -309,15 +323,16 @@ case 15:
         var3['candidateTabs'] = var2;
         var4 = var3.computeCandidateTabs;
         var2 = {};
-        var2['isInitialSearchQuery'] = var7;
+        var2['isInitialSearchQuery'] = var8;
+        var2['isTextInputValueEmpty'] = var7;
         var2['hasUserAddedTags'] = var6;
         var2['isTagsEmpty'] = var5;
         var2 = var4.bind(var3)(var2);
-        var12 = var3.candidateTabs;
+        var13 = var3.candidateTabs;
         var2 = new Array(0);
-        var11 = 0;
-        var13 = var2;
-        var4 = arraySpread(var13, var12, var11);
+        var12 = 0;
+        var14 = var2;
+        var4 = arraySpread(var14, var13, var12);
         var3['visibleTabs'] = var2;
         return var1;
     };
@@ -352,6 +367,15 @@ case 15:
             };
             var4 = var7.bind(var5)(var6, var4);
             var1['isInitialSearchQuery'] = var4;
+            var7 = var5.getState;
+            var4 = function(arg1) {
+                var2 = arg1;
+                var1 = var2.isTextInputValueEmpty;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var4 = var7.bind(var5)(var6, var4);
+            var1['isTextInputValueEmpty'] = var4;
             var7 = var5.getState;
             var4 = function(arg1) {
                 var2 = arg1;
@@ -455,6 +479,9 @@ case 15:
                 var2 = var3.isInitialSearchQuery;
                 var2 = var2.bind(var3)();
                 var1['isInitialSearchQuery'] = var2;
+                var2 = var3.isTextInputValueEmpty;
+                var2 = var2.bind(var3)();
+                var1['isTextInputValueEmpty'] = var2;
                 var2 = var3.isAutocompleteVisible;
                 var2 = var2.bind(var3)();
                 var1['isAutocompleteVisible'] = var2;
@@ -469,32 +496,36 @@ case 15:
             var10 = function(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var2 = arg1;
+                    var5 = arg1;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
-                    var7 = var2.isInitialSearchQuery;
-                    var1 = var2.isAutocompleteVisible;
-                    var6 = var2.hasUserAddedTags;
-                    var5 = var2.isTagsEmpty;
-                    if(var1) { _fun0006_ip = 23; continue _fun0006 }
-case 21:
+                    var1 = var1 == var5;
+                    if(var1) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+                    var1 = var5.isAutocompleteVisible;
+case 27:
+                    if(var1) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
                     var4 = _closure2_slot1;
                     var3 = var4.computeCandidateTabs;
                     var2 = {};
-                    var2['isInitialSearchQuery'] = var7;
+                    var6 = var5.isInitialSearchQuery;
+                    var2['isInitialSearchQuery'] = var6;
+                    var6 = var5.isTextInputValueEmpty;
+                    var2['isTextInputValueEmpty'] = var6;
+                    var6 = var5.hasUserAddedTags;
                     var2['hasUserAddedTags'] = var6;
+                    var5 = var5.isTagsEmpty;
                     var2['isTagsEmpty'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    if(!var2) { _fun0006_ip = 23; continue _fun0006 }
-case 25:
+                    if(!var2) { _fun0006_ip = 29; continue _fun0006 }
+case 31:
                     var3 = _closure2_slot3;
                     var2 = _closure2_slot1;
                     var1 = var2.getCandidateTabs;
                     var2 = var1.bind(var2)();
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 23:
+case 29:
                     var1 = undefined;
                     return var1;
                 }
@@ -613,36 +644,36 @@ case 0:
                     var3 = arg1;
                     var1 = _closure1_slot10;
                     var1 = var1.MEMBERS;
-                    if(!(var1 !== var3)) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
-                    var1 = _closure1_slot10;
-                    var1 = var1.GUILD_CHANNELS;
-                    if(!(var1 !== var3)) { _fun0007_ip = 28; continue _fun0007 }
-case 29:
-                    var1 = _closure1_slot10;
-                    var1 = var1.PEOPLE;
-                    if(!(var1 !== var3)) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
-                    var1 = _closure1_slot10;
-                    var1 = var1.MESSAGES;
                     if(!(var1 !== var3)) { _fun0007_ip = 32; continue _fun0007 }
 case 33:
                     var1 = _closure1_slot10;
-                    var1 = var1.PINS;
-                    if(!(var1 !== var3)) { _fun0007_ip = 32; continue _fun0007 }
-case 34:
-                    var1 = _closure1_slot10;
-                    var1 = var1.MEDIA;
-                    if(!(var1 !== var3)) { _fun0007_ip = 32; continue _fun0007 }
-case 23:
-                    var1 = _closure1_slot10;
-                    var1 = var1.LINKS;
-                    if(!(var1 !== var3)) { _fun0007_ip = 32; continue _fun0007 }
+                    var1 = var1.GUILD_CHANNELS;
+                    if(!(var1 !== var3)) { _fun0007_ip = 34; continue _fun0007 }
 case 35:
                     var1 = _closure1_slot10;
+                    var1 = var1.PEOPLE;
+                    if(!(var1 !== var3)) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
+                    var1 = _closure1_slot10;
+                    var1 = var1.MESSAGES;
+                    if(!(var1 !== var3)) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
+                    var1 = _closure1_slot10;
+                    var1 = var1.PINS;
+                    if(!(var1 !== var3)) { _fun0007_ip = 38; continue _fun0007 }
+case 11:
+                    var1 = _closure1_slot10;
+                    var1 = var1.MEDIA;
+                    if(!(var1 !== var3)) { _fun0007_ip = 38; continue _fun0007 }
+case 40:
+                    var1 = _closure1_slot10;
+                    var1 = var1.LINKS;
+                    if(!(var1 !== var3)) { _fun0007_ip = 38; continue _fun0007 }
+case 29:
+                    var1 = _closure1_slot10;
                     var1 = var1.FILES;
-                    if(!(var1 === var3)) { _fun0007_ip = 36; continue _fun0007 }
-case 32:
+                    if(!(var1 === var3)) { _fun0007_ip = 41; continue _fun0007 }
+case 38:
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 15;
@@ -658,31 +689,31 @@ case 32:
                     var1 = var5.getTotalCount;
                     var1 = var1.bind(var5)(var6);
                     var2[var3] = var1;
-                    _fun0007_ip = 36; continue _fun0007;
-case 30:
+                    _fun0007_ip = 41; continue _fun0007;
+case 36:
                     var2 = _closure3_slot1;
                     var6 = _closure1_slot8;
                     var5 = var6.getCount;
                     var1 = _closure3_slot0;
                     var1 = var5.bind(var6)(var1);
                     var2[var3] = var1;
-                    _fun0007_ip = 36; continue _fun0007;
-case 28:
+                    _fun0007_ip = 41; continue _fun0007;
+case 34:
                     var2 = _closure3_slot1;
                     var6 = _closure1_slot6;
                     var5 = var6.getCount;
                     var1 = _closure3_slot0;
                     var1 = var5.bind(var6)(var1);
                     var2[var3] = var1;
-                    _fun0007_ip = 36; continue _fun0007;
-case 26:
+                    _fun0007_ip = 41; continue _fun0007;
+case 32:
                     var2 = _closure3_slot1;
                     var5 = _closure1_slot7;
                     var4 = var5.getCount;
                     var1 = _closure3_slot0;
                     var1 = var4.bind(var5)(var1);
                     var2[var3] = var1;
-case 36:
+case 41:
                     var1 = undefined;
                     return var1;
                 }
@@ -737,14 +768,14 @@ case 36:
 case 0:
                     var1 = arg1;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0008_ip = 37; continue _fun0008 }
-case 38:
+                    if(!(var2 != var1)) { _fun0008_ip = 42; continue _fun0008 }
+case 28:
                     var6 = var1.isInitialSearchQuery;
                     var5 = var1.isPendingSearchResults;
                     var7 = var1.searchResultsQuery;
                     var1 = var1.isAutocompleteVisible;
-                    if(var1) { _fun0008_ip = 37; continue _fun0008 }
-case 39:
+                    if(var1) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
                     var4 = _closure2_slot1;
                     var3 = var4.computeVisibleTabs;
                     var2 = {};
@@ -759,8 +790,8 @@ case 5:
                     var5 = _closure2_slot8;
                     var2['searchTabCounts'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    if(!var2) { _fun0008_ip = 37; continue _fun0008 }
-case 40:
+                    if(!var2) { _fun0008_ip = 42; continue _fun0008 }
+case 44:
                     var5 = _closure2_slot4;
                     var4 = _closure2_slot1;
                     var2 = var4.getVisibleTabs;
@@ -771,7 +802,7 @@ case 40:
                     var1 = var4.getVisibleTabCounts;
                     var1 = var1.bind(var4)();
                     var1 = var2.bind(var3)(var1);
-case 37:
+case 42:
                     var1 = undefined;
                     return var1;
                 }

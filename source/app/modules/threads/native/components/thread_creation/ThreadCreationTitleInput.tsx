@@ -45,8 +45,8 @@ case 0:
             var _closure2_slot0 = var3;
             var1 = var4.threadSettingsDraft;
             var _closure2_slot1 = var1;
-            var13 = var4.threadNameError;
-            var12 = var4.accessibilityLabel;
+            var12 = var4.threadNameError;
+            var13 = var4.optional;
             var _closure2_slot2 = var5;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -58,13 +58,13 @@ case 0:
             var9 = {};
             var14 = var1.name;
             var9['content'] = var14;
-            var13 = var10.bind(var11)(var13, var9);
-            var17 = _closure1_slot3;
-            var10 = var17.useRef;
+            var15 = var10.bind(var11)(var12, var9);
+            var16 = _closure1_slot3;
+            var10 = var16.useRef;
             var9 = var1.name;
-            var15 = var10.bind(var17)(var9);
-            var _closure2_slot3 = var15;
-            var11 = var17.useCallback;
+            var17 = var10.bind(var16)(var9);
+            var _closure2_slot3 = var17;
+            var11 = var16.useCallback;
             var9 = var1.parentChannelId;
             var10 = new Array(1);
             var10[0] = var9;
@@ -101,8 +101,8 @@ case 2:
                     return var1;
                 }
             };
-            var9 = var11.bind(var17)(var9, var10);
-            var14 = var17.useCallback;
+            var9 = var11.bind(var16)(var9, var10);
+            var12 = var16.useCallback;
             var11 = new Array(1);
             var11[0] = var1;
             var10 = function() {
@@ -146,8 +146,8 @@ case 4:
                     return var1;
                 }
             };
-            var10 = var14.bind(var17)(var10, var11);
-            var14 = var17.useCallback;
+            var10 = var12.bind(var16)(var10, var11);
+            var12 = var16.useCallback;
             var11 = new Array(1);
             var11[0] = var3;
             var3 = function() {
@@ -165,12 +165,12 @@ case 8:
                     return var1;
                 }
             };
-            var11 = var14.bind(var17)(var3, var11);
-            var16 = var17.useEffect;
+            var12 = var12.bind(var16)(var3, var11);
+            var14 = var16.useEffect;
             var3 = var1.name;
-            var14 = new Array(2);
-            var14[0] = var3;
-            var14[1] = var5;
+            var11 = new Array(2);
+            var11[0] = var3;
+            var11[1] = var5;
             var3 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -210,14 +210,14 @@ case 10:
                     return var1;
                 }
             };
-            var3 = var16.bind(var17)(var3, var14);
+            var3 = var14.bind(var16)(var3, var11);
             var3 = 7;
             var3 = var8[var3];
             var8 = var6.bind(var4)(var3);
             var6 = var8.useStateFromStores;
-            var14 = _closure1_slot4;
+            var11 = _closure1_slot4;
             var3 = new Array(1);
-            var3[0] = var14;
+            var3[0] = var11;
             var2 = function() {
                 var3 = _closure1_slot4;
                 var2 = var3.getChannel;
@@ -226,61 +226,98 @@ case 10:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var14 = var6.bind(var8)(var3, var2);
+            var11 = var6.bind(var8)(var3, var2);
             var2 = null;
-            var2 = var2 != var14;
+            var2 = var2 != var11;
             var8 = '';
             var6 = var8;
             if(!var2) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
             var3 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var2 = 8;
-            var2 = var16[var2];
+            var2 = var14[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.getDefaultThreadName;
             var1 = var1.parentMessageId;
-            var6 = var2.bind(var3)(var14, var1);
+            var6 = var2.bind(var3)(var11, var1);
 case 15:
+            var14 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var11 = 9;
+            var2 = var1[var11];
+            var2 = var14.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var1[var11];
+            var1 = var14.bind(var4)(var1);
+            var1 = var1.t;
+            if(var13) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
+            var14 = var1.j3XWjD;
+            var14 = var2.bind(var3)(var14);
+            _fun0001_ip = 19; continue _fun0001;
+case 17:
+            var1 = var1.JPvIiL;
+            var14 = var2.bind(var3)(var1);
+case 19:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var1 = 9;
-            var1 = var17[var1];
+            var19 = _closure1_slot2;
+            var1 = 10;
+            var1 = var19[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.TextInput;
             var1 = {};
-            var16 = _closure1_slot1;
-            var14 = 10;
-            var14 = var17[var14];
-            var14 = var16.bind(var4)(var14);
-            var14 = var14.bind(var4)(var15);
-            var1['defaultValue'] = var14;
-            var1['errorMessage'] = var13;
+            var18 = _closure1_slot1;
+            var16 = 11;
+            var16 = var19[var16];
+            var16 = var18.bind(var4)(var16);
+            var16 = var16.bind(var4)(var17);
+            var1['defaultValue'] = var16;
+            var1['errorMessage'] = var15;
+            var1['label'] = var14;
+            var1['accessibilityLabel'] = var14;
+            var14 = undefined;
+            if(var13) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            var18 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var16 = var15[var11];
+            var16 = var18.bind(var4)(var16);
+            var17 = var16.intl;
+            var16 = var17.string;
+            var15 = var15[var11];
+            var15 = var18.bind(var4)(var15);
+            var15 = var15.t;
+            var15 = var15["/+VEZN"];
+            var14 = var16.bind(var17)(var15);
+case 20:
+            var1['accessibilityHint'] = var14;
+            var13 = !var13;
+            var1['required'] = var13;
             var13 = true;
             var1['isClearable'] = var13;
             var1['autoFocus'] = var13;
-            var1['accessibilityLabel'] = var12;
-            var12 = _closure1_slot5;
-            var1['maxLength'] = var12;
-            var1['onSubmitEditing'] = var11;
+            var13 = _closure1_slot5;
+            var1['maxLength'] = var13;
+            var1['onSubmitEditing'] = var12;
             var1['onBlur'] = var10;
             var1['onChange'] = var9;
-            if(!(var8 === var6)) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!(var8 === var6)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var7 = 11;
-            var8 = var11[var7];
+            var7 = _closure1_slot2;
+            var8 = var7[var11];
             var8 = var10.bind(var4)(var8);
             var9 = var8.intl;
             var8 = var9.string;
-            var7 = var11[var7];
+            var7 = var7[var11];
             var7 = var10.bind(var4)(var7);
             var7 = var7.t;
             var7 = var7.Nb2/RE;
             var6 = var8.bind(var9)(var7);
-case 17:
+case 22:
             var1['placeholder'] = var6;
             var1['ref'] = var5;
             var5 = 'next';

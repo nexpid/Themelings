@@ -175,7 +175,7 @@ case 13:
             var17 = 'heading-lg/bold';
             if(!var20) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var17 = 'heading-md/semibold';
+            var17 = 'redesign/heading-18/semibold';
 case 14:
             var14['variant'] = var17;
             var17 = var11.channelName;
@@ -198,7 +198,7 @@ case 12:
             var19 = 'heading-lg/bold';
             if(!var20) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var19 = 'heading-md/semibold';
+            var19 = 'redesign/heading-18/semibold';
 case 17:
             var15['variant'] = var19;
             var19 = 'mobile-text-heading-primary';

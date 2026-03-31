@@ -397,7 +397,7 @@ case 7:
                     return var1;
                 }
             };
-            var35 = var23.bind(var5)(var3, var19);
+            var29 = var23.bind(var5)(var3, var19);
             var3 = var5.useCallback;
             var19 = var2.id;
             var2 = new Array(5);
@@ -455,24 +455,24 @@ case 7:
             var2 = _closure1_slot14;
             var1 = {};
             var23 = _closure1_slot12;
-            var32 = _closure1_slot0;
+            var34 = _closure1_slot0;
             var28 = _closure1_slot2;
             var5 = 22;
             var5 = var28[var5];
-            var5 = var32.bind(var4)(var5);
+            var5 = var34.bind(var4)(var5);
             var6 = var5.TextInput;
             var5 = {};
             var19 = 23;
-            var29 = var28[var19];
-            var29 = var32.bind(var4)(var29);
-            var34 = var29.intl;
-            var31 = var34.string;
-            var29 = var28[var19];
-            var29 = var32.bind(var4)(var29);
-            var29 = var29.t;
-            var29 = var29.dLbkBk;
-            var29 = var31.bind(var34)(var29);
-            var5['label'] = var29;
+            var31 = var28[var19];
+            var31 = var34.bind(var4)(var31);
+            var35 = var31.intl;
+            var32 = var35.string;
+            var31 = var28[var19];
+            var31 = var34.bind(var4)(var31);
+            var31 = var31.t;
+            var31 = var31.dLbkBk;
+            var31 = var32.bind(var35)(var31);
+            var5['label'] = var31;
             var5['value'] = var20;
             var5['isDisabled'] = var16;
             var5['onChange'] = var18;
@@ -492,44 +492,44 @@ case 7:
             var5[1] = var6;
             var6 = 25;
             var9 = var28[var6];
-            var9 = var32.bind(var4)(var9);
+            var9 = var34.bind(var4)(var9);
             var12 = var9.TableRowGroup;
             var9 = {};
             var18 = var28[var11];
-            var18 = var32.bind(var4)(var18);
+            var18 = var34.bind(var4)(var18);
             var20 = var18.TableRow;
             var18 = {};
-            var29 = var28[var19];
-            var29 = var32.bind(var4)(var29);
-            var31 = var29.intl;
-            var29 = var31.string;
+            var31 = var28[var19];
+            var31 = var34.bind(var4)(var31);
+            var32 = var31.intl;
+            var31 = var32.string;
             var28 = var28[var19];
-            var28 = var32.bind(var4)(var28);
+            var28 = var34.bind(var4)(var28);
             var28 = var28.t;
             var28 = var28["9wVJRB"];
-            var28 = var29.bind(var31)(var28);
+            var28 = var31.bind(var32)(var28);
             var18['label'] = var28;
             var18['onPress'] = var24;
             var28 = true;
             var18['arrow'] = var28;
-            var29 = var7 == var27;
+            var31 = var7 == var27;
             var24 = undefined;
-            if(var29) { _fun0001_ip = 26; continue _fun0001 }
+            if(var31) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
             var24 = var27.labelString;
 case 26:
-            var29 = var7 != var24;
+            var31 = var7 != var24;
             var24 = '';
-            if(!var29) { _fun0001_ip = 28; continue _fun0001 }
+            if(!var31) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
-            var31 = _closure1_slot0;
-            var29 = _closure1_slot2;
-            var29 = var29[var19];
-            var29 = var31.bind(var4)(var29);
-            var31 = var29.intl;
-            var29 = var31.string;
+            var32 = _closure1_slot0;
+            var31 = _closure1_slot2;
+            var31 = var31[var19];
+            var31 = var32.bind(var4)(var31);
+            var32 = var31.intl;
+            var31 = var32.string;
             var27 = var27.labelString;
-            var24 = var29.bind(var31)(var27);
+            var24 = var31.bind(var32)(var27);
 case 28:
             var18['subLabel'] = var24;
             var18['disabled'] = var16;
@@ -542,23 +542,23 @@ case 28:
             if(!var20) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
             var27 = _closure1_slot12;
-            var34 = _closure1_slot0;
-            var29 = _closure1_slot2;
-            var23 = var29[var11];
-            var23 = var34.bind(var4)(var23);
+            var35 = _closure1_slot0;
+            var31 = _closure1_slot2;
+            var23 = var31[var11];
+            var23 = var35.bind(var4)(var23);
             var24 = var23.TableRow;
             var23 = {};
-            var31 = var29[var19];
-            var31 = var34.bind(var4)(var31);
-            var32 = var31.intl;
-            var31 = var32.string;
-            var29 = var29[var19];
-            var29 = var34.bind(var4)(var29);
-            var29 = var29.t;
-            var29 = var29["5NC5YW"];
-            var29 = var31.bind(var32)(var29);
-            var23['label'] = var29;
-            var23['onPress'] = var35;
+            var32 = var31[var19];
+            var32 = var35.bind(var4)(var32);
+            var34 = var32.intl;
+            var32 = var34.string;
+            var31 = var31[var19];
+            var31 = var35.bind(var4)(var31);
+            var31 = var31.t;
+            var31 = var31["5NC5YW"];
+            var31 = var32.bind(var34)(var31);
+            var23['label'] = var31;
+            var23['onPress'] = var29;
             var23['arrow'] = var28;
             var29 = _closure1_slot4;
             var28 = {};
@@ -570,15 +570,14 @@ case 31:
 case 33:
             var34 = _closure1_slot12;
             var32 = _closure1_slot1;
-            var37 = _closure1_slot2;
+            var35 = _closure1_slot2;
             var31 = 30;
-            var31 = var37[var31];
+            var31 = var35[var31];
             var32 = var32.bind(var4)(var31);
             var31 = {};
             var31['color'] = var30;
-            var37 = var26.colorBlock;
-            var31['style'] = var37;
-            var31['onSelect'] = var35;
+            var35 = var26.colorBlock;
+            var31['style'] = var35;
             var31 = var34.bind(var4)(var32, var31);
             _fun0001_ip = 34; continue _fun0001;
 case 32:

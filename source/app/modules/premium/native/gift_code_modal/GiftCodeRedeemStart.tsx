@@ -757,7 +757,7 @@ case 25:
             var7 = var7[var27];
             var7 = var20.bind(var4)(var7);
             var20 = var7.Text;
-            var7 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
+            var7 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
             var23 = var19.text;
             var7['style'] = var23;
             var25 = _closure1_slot14;

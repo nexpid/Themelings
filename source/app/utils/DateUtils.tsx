@@ -1,13 +1,13 @@
 // app/utils/DateUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
-    var10 = metroImportDefault;
+    var9 = require;
+    var11 = metroImportDefault;
     var3 = exports;
-    var9 = dependencyMap;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var10;
-    var _closure1_slot2 = var9;
-    var11 = function resetCache() {
+    var10 = dependencyMap;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var10;
+    var12 = function resetCache() {
         var1 = global;
         var3 = var1.Object;
         var2 = var3.create;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var12 = function syncHourCycleToIntlConfig() {
+    var13 = function syncHourCycleToIntlConfig() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -184,7 +184,7 @@ case 24:
         }
     };
     var _closure1_slot7 = var1;
-    var6 = function differenceInCalendarDays(arg1, arg2) {
+    var7 = function differenceInCalendarDays(arg1, arg2) {
         var1 = global;
         var3 = var1.Math;
         var2 = var3.floor;
@@ -201,8 +201,8 @@ case 24:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot8 = var6;
-    var5 = function dateFormat(arg1, arg2, arg3) {
+    var _closure1_slot8 = var7;
+    var6 = function dateFormat(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;
@@ -256,8 +256,8 @@ case 27:
             return var1;
         }
     };
-    var _closure1_slot9 = var5;
-    var4 = function dateStringToMoment(arg1) {
+    var _closure1_slot9 = var6;
+    var5 = function dateStringToMoment(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arg1;
@@ -285,7 +285,7 @@ case 29:
             throw var1;
         }
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot10 = var5;
     var1 = function toMoment(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -333,70 +333,93 @@ case 33:
         }
     };
     var _closure1_slot12 = var1;
-    var7 = global;
-    var15 = var7.Object;
-    var14 = var15.defineProperty;
-    var13 = {};
+    var4 = function getESTDate() {
+        var1 = global;
+        var2 = var1.Date;
+        var3 = var2.prototype;
+        var3 = Object.create(var3, {constructor: {value: var2}});
+        var8 = var3;
+        var2 = new var8[var2](var7);
+        var5 = var2 instanceof Object ? var2 : var3;
+        var4 = var5.toLocaleString;
+        var3 = {};
+        var2 = 'America/New_York';
+        var3['timeZone'] = var2;
+        var2 = 'en-US';
+        var7 = var4.bind(var5)(var2, var3);
+        var1 = var1.Date;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var8 = var2;
+        var1 = new var8[var1](var7, var6);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
+    };
+    var _closure1_slot13 = var4;
+    var8 = global;
+    var16 = var8.Object;
+    var15 = var16.defineProperty;
+    var14 = {};
     var1 = true;
-    var13['value'] = var1;
+    var14['value'] = var1;
     var1 = '__esModule';
-    var1 = var14.bind(var15)(var3, var1, var13);
+    var1 = var15.bind(var16)(var3, var1, var14);
     var1 = 0;
-    var13 = var9[var1];
+    var14 = var10[var1];
     var1 = undefined;
-    var13 = var10.bind(var1)(var13);
-    var14 = 1;
-    var14 = var9[var14];
-    var16 = var10.bind(var1)(var14);
-    var14 = var16.prototype;
-    var15 = Object.create(var14, {constructor: {value: var16}});
-    var19 = 'DateUtils';
-    var20 = var15;
-    var14 = new var20[var16](var19, var18);
-    var14 = var14 instanceof Object ? var14 : var15;
-    var _closure1_slot3 = var14;
-    var14 = 86400000;
-    var _closure1_slot4 = var14;
-    var15 = var7.Object;
-    var14 = var15.create;
-    var7 = null;
-    var7 = var14.bind(var15)(var7);
-    var _closure1_slot5 = var7;
-    var7 = var13.addChangeListener;
-    var7 = var7.bind(var13)(var11);
-    var7 = 2;
-    var7 = var9[var7];
-    var7 = var10.bind(var1)(var7);
-    var7 = var7.bind(var1)(var11);
-    var7 = 7;
-    var11 = var9[var7];
-    var14 = var10.bind(var1)(var11);
-    var13 = var14.subscribe;
-    var11 = 'USER_SETTINGS_PROTO_UPDATE';
-    var11 = var13.bind(var14)(var11, var12);
-    var7 = var9[var7];
-    var11 = var10.bind(var1)(var7);
-    var10 = var11.subscribe;
-    var7 = 'CONNECTION_OPEN';
-    var7 = var10.bind(var11)(var7, var12);
-    var7 = new Array(4);
-    var10 = {'key': 'days', 'millisecondsInUnit': 86400000};
-    var7[0] = var10;
-    var10 = {'key': 'hours', 'millisecondsInUnit': 3600000};
-    var7[1] = var10;
-    var10 = {'key': 'minutes', 'millisecondsInUnit': 60000};
-    var7[2] = var10;
-    var10 = {'key': 'seconds', 'millisecondsInUnit': 1000};
-    var7[3] = var10;
-    var _closure1_slot6 = var7;
-    var7 = 10;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'utils/DateUtils.tsx';
-    var7 = var8.bind(var9)(var7);
-    var3['differenceInCalendarDays'] = var6;
-    var6 = function differenceInDays(arg1, arg2) {
+    var14 = var11.bind(var1)(var14);
+    var15 = 1;
+    var15 = var10[var15];
+    var17 = var11.bind(var1)(var15);
+    var15 = var17.prototype;
+    var16 = Object.create(var15, {constructor: {value: var17}});
+    var20 = 'DateUtils';
+    var21 = var16;
+    var15 = new var21[var17](var20, var19);
+    var15 = var15 instanceof Object ? var15 : var16;
+    var _closure1_slot3 = var15;
+    var15 = 86400000;
+    var _closure1_slot4 = var15;
+    var16 = var8.Object;
+    var15 = var16.create;
+    var8 = null;
+    var8 = var15.bind(var16)(var8);
+    var _closure1_slot5 = var8;
+    var8 = var14.addChangeListener;
+    var8 = var8.bind(var14)(var12);
+    var8 = 2;
+    var8 = var10[var8];
+    var8 = var11.bind(var1)(var8);
+    var8 = var8.bind(var1)(var12);
+    var8 = 7;
+    var12 = var10[var8];
+    var15 = var11.bind(var1)(var12);
+    var14 = var15.subscribe;
+    var12 = 'USER_SETTINGS_PROTO_UPDATE';
+    var12 = var14.bind(var15)(var12, var13);
+    var8 = var10[var8];
+    var12 = var11.bind(var1)(var8);
+    var11 = var12.subscribe;
+    var8 = 'CONNECTION_OPEN';
+    var8 = var11.bind(var12)(var8, var13);
+    var8 = new Array(4);
+    var11 = {'key': 'days', 'millisecondsInUnit': 86400000};
+    var8[0] = var11;
+    var11 = {'key': 'hours', 'millisecondsInUnit': 3600000};
+    var8[1] = var11;
+    var11 = {'key': 'minutes', 'millisecondsInUnit': 60000};
+    var8[2] = var11;
+    var11 = {'key': 'seconds', 'millisecondsInUnit': 1000};
+    var8[3] = var11;
+    var _closure1_slot6 = var8;
+    var8 = 10;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'utils/DateUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['differenceInCalendarDays'] = var7;
+    var7 = function differenceInDays(arg1, arg2) {
         var2 = arg1;
         var3 = arg2;
         var1 = var2.getTime;
@@ -408,8 +431,8 @@ case 33:
         var1 = var2 / var1;
         return var1;
     };
-    var3['differenceInDays'] = var6;
-    var6 = function isSameHourMoment(arg1, arg2) {
+    var3['differenceInDays'] = var7;
+    var7 = function isSameHourMoment(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var3 = arg1;
@@ -438,8 +461,8 @@ case 34:
             return var1;
         }
     };
-    var3['isSameHourMoment'] = var6;
-    var6 = function isSameDay(arg1, arg2) {
+    var3['isSameHourMoment'] = var7;
+    var7 = function isSameDay(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = arg1;
@@ -464,8 +487,8 @@ case 36:
             return var1;
         }
     };
-    var3['isSameDay'] = var6;
-    var6 = function isWithinInterval(arg1, arg2, arg3) {
+    var3['isSameDay'] = var7;
+    var7 = function isWithinInterval(arg1, arg2, arg3) {
         var4 = arg1;
         var5 = arg2;
         var1 = global;
@@ -481,9 +504,9 @@ case 36:
         var1 = var2 < var1;
         return var1;
     };
-    var3['isWithinInterval'] = var6;
-    var3['dateFormat'] = var5;
-    var5 = function calendarFormat(arg1) {
+    var3['isWithinInterval'] = var7;
+    var3['dateFormat'] = var6;
+    var6 = function calendarFormat(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var5 = arg1;
@@ -553,8 +576,8 @@ case 39:
             return var1;
         }
     };
-    var3['calendarFormat'] = var5;
-    var5 = function calendarFormatCompact(arg1, arg2) {
+    var3['calendarFormat'] = var6;
+    var6 = function calendarFormatCompact(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var5 = arg1;
@@ -605,9 +628,9 @@ case 47:
             return var1;
         }
     };
-    var3['calendarFormatCompact'] = var5;
-    var3['dateStringToMoment'] = var4;
-    var4 = function accessibilityLabelCalendarFormat(arg1) {
+    var3['calendarFormatCompact'] = var6;
+    var3['dateStringToMoment'] = var5;
+    var5 = function accessibilityLabelCalendarFormat(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg1;
@@ -676,8 +699,8 @@ case 58:
             return var1;
         }
     };
-    var3['accessibilityLabelCalendarFormat'] = var4;
-    var4 = function diffAsUnits(arg1, arg2) {
+    var3['accessibilityLabelCalendarFormat'] = var5;
+    var5 = function diffAsUnits(arg1, arg2) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var6 = arg1;
@@ -749,8 +772,8 @@ case 59:
             return var1;
         }
     };
-    var3['diffAsUnits'] = var4;
-    var4 = function unitsAsStrings(arg1, arg2) {
+    var3['diffAsUnits'] = var5;
+    var5 = function unitsAsStrings(arg1, arg2) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var6 = arg1;
@@ -819,7 +842,62 @@ case 69:
             return var1;
         }
     };
-    var3['unitsAsStrings'] = var4;
+    var3['unitsAsStrings'] = var5;
+    var3['getESTDate'] = var4;
+    var4 = function getMonthlyProgressPercentage() {
+        var2 = _closure1_slot13;
+        var1 = undefined;
+        var3 = var2.bind(var1)();
+        var1 = global;
+        var6 = var1.Date;
+        var1 = var3.getFullYear;
+        var9 = var1.bind(var3)();
+        var1 = var3.getMonth;
+        var2 = var1.bind(var3)();
+        var1 = 1;
+        var8 = var2 + var1;
+        var1 = var6.prototype;
+        var2 = Object.create(var1, {constructor: {value: var6}});
+        var7 = 0;
+        var10 = var2;
+        var1 = new var10[var6](var9, var8, var7, var6);
+        var2 = var1 instanceof Object ? var1 : var2;
+        var1 = var2.getDate;
+        var2 = var1.bind(var2)();
+        var1 = var3.getDate;
+        var1 = var1.bind(var3)();
+        var2 = var1 / var2;
+        var1 = 100;
+        var1 = var2 * var1;
+        return var1;
+    };
+    var3['getMonthlyProgressPercentage'] = var4;
+    var4 = function getDaysRemainingInMonth() {
+        var2 = _closure1_slot13;
+        var1 = undefined;
+        var3 = var2.bind(var1)();
+        var1 = global;
+        var6 = var1.Date;
+        var1 = var3.getFullYear;
+        var9 = var1.bind(var3)();
+        var1 = var3.getMonth;
+        var2 = var1.bind(var3)();
+        var1 = 1;
+        var8 = var2 + var1;
+        var1 = var6.prototype;
+        var2 = Object.create(var1, {constructor: {value: var6}});
+        var7 = 0;
+        var10 = var2;
+        var1 = new var10[var6](var9, var8, var7, var6);
+        var2 = var1 instanceof Object ? var1 : var2;
+        var1 = var2.getDate;
+        var2 = var1.bind(var2)();
+        var1 = var3.getDate;
+        var1 = var1.bind(var3)();
+        var1 = var2 - var1;
+        return var1;
+    };
+    var3['getDaysRemainingInMonth'] = var4;
     var2 = function formatDateForDatetimeLocal(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:

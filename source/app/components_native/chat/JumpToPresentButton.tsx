@@ -253,7 +253,7 @@ case 20:
                 var9 = var11[var9];
                 var9 = var10.bind(var4)(var9);
                 var6['icon'] = var9;
-                var9 = 'secondary';
+                var9 = 'primary-overlay';
                 var6['variant'] = var9;
                 var5 = var8.bind(var4)(var7, var6);
 case 17:

@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'width': null, 'height': 24, 'marginStart': 14};
+    var9 = {};
     var10 = 3;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -38,6 +38,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.mobile;
     var12 = var12.TABLE_ROW_ARROW_WIDTH;
     var9['width'] = var12;
+    var12 = 24;
+    var9['height'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.modules;
+    var12 = var12.mobile;
+    var12 = var12.TABLE_ROW_ARROW_MARGIN_START;
+    var9['marginStart'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.modules;

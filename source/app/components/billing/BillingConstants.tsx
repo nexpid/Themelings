@@ -129,7 +129,5 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SubscriptionPauseReason'] = var5;
     var3['SubscriptionPauseReasonSets'] = var4;
     var3['UserLazyPerkSyncLevels'] = var2;
-    var2 = 7.5345;
-    var3['EUR_TO_HRK_CONVERSION_RATE'] = var2;
     return var1;
 })();

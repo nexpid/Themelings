@@ -509,7 +509,7 @@ case 41:
             var18 = var28[var18];
             var18 = var27.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
+            var18 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
             var21 = var10.header;
             var18['style'] = var21;
             var21 = 27;
@@ -534,9 +534,7 @@ case 39:
             var18 = var28[var18];
             var18 = var23.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {};
-            var21 = 'heading-xl/bold';
-            var18['variant'] = var21;
+            var18 = {'variant': 'heading-xl/bold', 'style': null, 'accessibilityRole': 'header'};
             var21 = var10.header;
             var18['style'] = var21;
             var21 = 27;
@@ -564,9 +562,7 @@ case 35:
             var18 = var28[var18];
             var18 = var27.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {};
-            var21 = 'heading-xl/bold';
-            var18['variant'] = var21;
+            var18 = {'variant': 'heading-xl/bold', 'style': null, 'accessibilityRole': 'header'};
             var21 = var10.header;
             var18['style'] = var21;
             var21 = 27;
@@ -591,9 +587,7 @@ case 33:
             var18 = var28[var18];
             var18 = var27.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {};
-            var21 = 'heading-xl/bold';
-            var18['variant'] = var21;
+            var18 = {'variant': 'heading-xl/bold', 'style': null, 'accessibilityRole': 'header'};
             var21 = var10.header;
             var18['style'] = var21;
             var21 = 27;

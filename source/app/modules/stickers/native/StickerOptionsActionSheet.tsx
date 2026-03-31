@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var14[var10];
         var10 = var13.bind(var3)(var10);
         var10 = var10.t;
-        var10 = var10["8xHmxo"];
+        var10 = var10.B1ubHx;
         var10 = var11.bind(var12)(var10);
         var7['label'] = var10;
         var7['onPress'] = var9;

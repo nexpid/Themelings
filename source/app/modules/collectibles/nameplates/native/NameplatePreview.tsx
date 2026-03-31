@@ -172,12 +172,13 @@ case 10:
             var2 = var13[var2];
             var3 = var8.bind(var4)(var2);
             var2 = var3.useAvatarDecoration;
-            var3 = var2.bind(var3)(var17);
+            var3 = var2.bind(var3)(var17, var16);
             var6 = _closure1_slot1;
             var2 = 9;
             var2 = var13[var2];
             var5 = var6.bind(var4)(var2);
             var2 = {};
+            var2['guildId'] = var16;
             var2 = var5.bind(var4)(var2);
             var2 = var2.pendingAvatarDecoration;
             var5 = 10;

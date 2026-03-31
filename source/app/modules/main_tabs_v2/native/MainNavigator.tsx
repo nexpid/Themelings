@@ -20,18 +20,6 @@ case 0:
             return var1;
         };
         var _closure1_slot20 = var1;
-        var1 = function getOldMainComponent() {
-            var1 = global;
-            var3 = var1.Error;
-            var1 = var3.prototype;
-            var2 = Object.create(var1, {constructor: {value: var3}});
-            var4 = 'Deprecated mobile UI, slated for deletion.';
-            var5 = var2;
-            var1 = new var5[var3](var4, var3);
-            var1 = var1 instanceof Object ? var1 : var2;
-            throw var1;
-        };
-        var _closure1_slot21 = var1;
         var1 = function getTabsComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -42,12 +30,12 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot22 = var1;
+        var _closure1_slot21 = var1;
         var1 = function getChannelComponent() {
             var1 = _closure1_slot5;
             return var1;
         };
-        var _closure1_slot23 = var1;
+        var _closure1_slot22 = var1;
         var1 = function WrappedAutoAnalytics() {
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -61,7 +49,7 @@ case 0:
             var1 = var2.bind(var4)(var3, var1);
             return var1;
         };
-        var _closure1_slot24 = var1;
+        var _closure1_slot23 = var1;
         var1 = function getMemberVerificationComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -72,7 +60,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot25 = var1;
+        var _closure1_slot24 = var1;
         var1 = function getFriendsNavigatorComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -83,7 +71,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot26 = var1;
+        var _closure1_slot25 = var1;
         var1 = function getYouComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -94,7 +82,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot27 = var1;
+        var _closure1_slot26 = var1;
         var1 = function getChannelDetailsComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -105,7 +93,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot28 = var1;
+        var _closure1_slot27 = var1;
         var1 = function getSearchComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -116,7 +104,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot29 = var1;
+        var _closure1_slot28 = var1;
         var1 = function getContextMenuCommandNavigatorComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -127,7 +115,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot30 = var1;
+        var _closure1_slot29 = var1;
         var1 = function getModalComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -138,7 +126,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot31 = var1;
+        var _closure1_slot30 = var1;
         var1 = function getMessageRequestsComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -149,7 +137,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot32 = var1;
+        var _closure1_slot31 = var1;
         var1 = function getSettingsComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -160,7 +148,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot33 = var1;
+        var _closure1_slot32 = var1;
         var1 = function getAccountStanding() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -171,7 +159,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot34 = var1;
+        var _closure1_slot33 = var1;
         var2 = function getChannelScreen() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -288,13 +276,13 @@ case 11:
                     return var1;
                 };
                 var1['options'] = var6;
-                var5 = _closure1_slot23;
+                var5 = _closure1_slot22;
                 var1['getComponent'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             }
         };
-        var _closure1_slot35 = var2;
+        var _closure1_slot34 = var2;
         var9 = global;
         var10 = var9.Object;
         var8 = var10.defineProperty;
@@ -540,7 +528,7 @@ case 0:
                     if(!var17) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
                     var19 = _closure1_slot11;
-                    var18 = _closure1_slot24;
+                    var18 = _closure1_slot23;
                     var17 = {};
                     var13 = var19.bind(var3)(var18, var17);
 case 14:
@@ -635,7 +623,7 @@ case 16:
                             var9 = var8.Screen;
                             var8 = {};
                             var8['name'] = var1;
-                            var1 = _closure1_slot22;
+                            var1 = _closure1_slot21;
                             var8['getComponent'] = var1;
                             var1 = _closure1_slot18;
                             var8['options'] = var1;
@@ -649,7 +637,7 @@ case 16:
                             var9 = {};
                             var10 = 'member-verification';
                             var9['name'] = var10;
-                            var10 = _closure1_slot25;
+                            var10 = _closure1_slot24;
                             var9['getComponent'] = var10;
                             var15 = {'presentation': 'transparentModal', 'animation': 'slide_from_bottom'};
                             var11 = _closure2_slot6;
@@ -659,7 +647,7 @@ case 16:
                             var9['options'] = var15;
                             var9 = var14.bind(var1)(var12, var9);
                             var8[1] = var9;
-                            var12 = _closure1_slot35;
+                            var12 = _closure1_slot34;
                             var9 = null;
                             var14 = var9 == var11;
                             var11 = undefined;
@@ -713,7 +701,7 @@ case 24:
                                 }
                             };
                             var10['options'] = var13;
-                            var13 = _closure1_slot33;
+                            var13 = _closure1_slot32;
                             var10['getComponent'] = var13;
                             var9 = var12.bind(var1)(var11, var10);
 case 22:
@@ -736,7 +724,7 @@ case 22:
                     };
                     var13['children'] = var26;
                     var13 = var25.bind(var3)(var24, var13);
-                    var24 = new Array(12);
+                    var24 = new Array(11);
                     var24[0] = var13;
                     var26 = _closure1_slot11;
                     var13 = _closure1_slot16;
@@ -744,7 +732,7 @@ case 22:
                     var13 = {};
                     var27 = 'search';
                     var13['name'] = var27;
-                    var27 = _closure1_slot29;
+                    var27 = _closure1_slot28;
                     var13['getComponent'] = var27;
                     var13 = var26.bind(var3)(var25, var13);
                     var24[1] = var13;
@@ -766,7 +754,7 @@ case 22:
                     var13 = {};
                     var27 = 'account-standing';
                     var13['name'] = var27;
-                    var27 = _closure1_slot34;
+                    var27 = _closure1_slot33;
                     var13['getComponent'] = var27;
                     var27 = {'presentation': 'fullScreenModal', 'gestureEnabled': false};
                     var32 = _closure1_slot18;
@@ -775,18 +763,6 @@ case 22:
                     var13['options'] = var27;
                     var13 = var26.bind(var3)(var25, var13);
                     var24[3] = var13;
-                    var26 = _closure1_slot11;
-                    var13 = _closure1_slot16;
-                    var25 = var13.Screen;
-                    var13 = {};
-                    var27 = 'panels';
-                    var13['name'] = var27;
-                    var27 = _closure1_slot21;
-                    var13['getComponent'] = var27;
-                    var27 = _closure1_slot18;
-                    var13['options'] = var27;
-                    var13 = var26.bind(var3)(var25, var13);
-                    var24[4] = var13;
                     var25 = _closure2_slot4;
                     var13 = null;
                     if(!var25) { _fun0004_ip = 27; continue _fun0004 }
@@ -814,11 +790,11 @@ case 28:
                         return var1;
                     };
                     var25['options'] = var29;
-                    var29 = _closure1_slot27;
+                    var29 = _closure1_slot26;
                     var25['getComponent'] = var29;
                     var13 = var27.bind(var3)(var26, var25);
 case 27:
-                    var24[5] = var13;
+                    var24[4] = var13;
                     var26 = _closure1_slot11;
                     var13 = _closure1_slot16;
                     var25 = var13.Screen;
@@ -915,10 +891,10 @@ case 38:
 case 37:
                     var27['beforeRemove'] = var29;
                     var13['listeners'] = var27;
-                    var27 = _closure1_slot26;
+                    var27 = _closure1_slot25;
                     var13['getComponent'] = var27;
                     var13 = var26.bind(var3)(var25, var13);
-                    var24[6] = var13;
+                    var24[5] = var13;
                     var25 = _closure2_slot4;
                     var13 = null;
                     if(!var25) { _fun0004_ip = 39; continue _fun0004 }
@@ -952,18 +928,18 @@ case 40:
                         return var1;
                     };
                     var25['options'] = var29;
-                    var29 = _closure1_slot33;
+                    var29 = _closure1_slot32;
                     var25['getComponent'] = var29;
                     var13 = var27.bind(var3)(var26, var25);
 case 39:
-                    var24[7] = var13;
+                    var24[6] = var13;
                     var26 = _closure1_slot11;
                     var13 = _closure1_slot16;
                     var25 = var13.Screen;
                     var13 = {};
                     var27 = 'sidebar';
                     var13['name'] = var27;
-                    var27 = _closure1_slot28;
+                    var27 = _closure1_slot27;
                     var13['getComponent'] = var27;
                     var27 = function options() {
                         var1 = {};
@@ -983,7 +959,7 @@ case 39:
                     };
                     var13['options'] = var27;
                     var13 = var26.bind(var3)(var25, var13);
-                    var24[8] = var13;
+                    var24[7] = var13;
                     var27 = _closure1_slot11;
                     var13 = _closure1_slot16;
                     var26 = var13.Screen;
@@ -997,10 +973,10 @@ case 39:
                     var31 = var30.bind(var3)(var31);
                     var31 = var31.bind(var3)();
                     var25['options'] = var31;
-                    var31 = _closure1_slot32;
+                    var31 = _closure1_slot31;
                     var25['getComponent'] = var31;
                     var25 = var27.bind(var3)(var26, var25);
-                    var24[9] = var25;
+                    var24[8] = var25;
                     var27 = _closure1_slot11;
                     var25 = _closure1_slot16;
                     var26 = var25.Screen;
@@ -1011,10 +987,10 @@ case 39:
                     var29 = var30.bind(var3)(var29);
                     var29 = var29.bind(var3)();
                     var25['options'] = var29;
-                    var29 = _closure1_slot30;
+                    var29 = _closure1_slot29;
                     var25['getComponent'] = var29;
                     var25 = var27.bind(var3)(var26, var25);
-                    var24[10] = var25;
+                    var24[9] = var25;
                     var27 = _closure1_slot11;
                     var25 = _closure1_slot16;
                     var26 = var25.Screen;
@@ -1070,10 +1046,10 @@ case 42:
                         }
                     };
                     var25['options'] = var28;
-                    var28 = _closure1_slot31;
+                    var28 = _closure1_slot30;
                     var25['getComponent'] = var28;
                     var25 = var27.bind(var3)(var26, var25);
-                    var24[11] = var25;
+                    var24[10] = var25;
                     var21['children'] = var24;
                     var21 = var23.bind(var3)(var22, var21);
                     var18['children'] = var21;

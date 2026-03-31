@@ -26,40 +26,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE;
     var _closure1_slot4 = var7;
-    var7 = var4.LAUNCH_PAD_PULL_TAB_HEIGHT;
+    var7 = var4.LAUNCH_PAD_END_TRANSLATION_THRESHOLD;
     var _closure1_slot5 = var7;
-    var7 = var4.LAUNCH_PAD_PULL_TAB_HIT_SLOP;
+    var7 = var4.LAUNCH_PAD_END_VELOCITY_THRESHOLD;
     var _closure1_slot6 = var7;
-    var7 = var4.LAUNCH_PAD_PULL_TAB_SCALE_FACTOR;
+    var7 = var4.LAUNCH_PAD_PULL_TAB_HEIGHT;
     var _closure1_slot7 = var7;
-    var7 = var4.LAUNCH_PAD_PULL_TAB_WIDTH;
+    var7 = var4.LAUNCH_PAD_PULL_TAB_HIT_SLOP;
     var _closure1_slot8 = var7;
+    var7 = var4.LAUNCH_PAD_PULL_TAB_SCALE_FACTOR;
+    var _closure1_slot9 = var7;
+    var7 = var4.LAUNCH_PAD_PULL_TAB_WIDTH;
+    var _closure1_slot10 = var7;
     var4 = var4.LaunchPadTypes;
-    var _closure1_slot9 = var4;
+    var _closure1_slot11 = var4;
     var4 = {};
     var7 = 'function useLaunchPadGestureTsx1(){const{updateSharedValueIfChanged,gestureState,updaters}=this.__closure;updateSharedValueIfChanged(gestureState,{active:false,initialLaunchPadPosition:0,initialPullTabPosition:0,initialTouchX:0,initialTouchY:0,positionOffsetX:0,positionOffsetY:0,startTime:-1});updaters.setLaunchPadPullTabScale(1.0);}';
     var4['code'] = var7;
-    var _closure1_slot10 = var4;
+    var _closure1_slot12 = var4;
     var4 = {};
     var7 = 'function useLaunchPadGestureTsx2(){const{gestureState,updaters,updateSharedValueIfChanged}=this.__closure;const{initialLaunchPadPosition:initialLaunchPadPosition,active:active}=gestureState.get();if(active){if(initialLaunchPadPosition===1){updaters.setLaunchPadPosition(1);}else{updaters.setLaunchPadPosition(0);}}updateSharedValueIfChanged(gestureState,{active:false,initialLaunchPadPosition:0,initialPullTabPosition:0,initialTouchX:0,initialTouchY:0,positionOffsetX:0,positionOffsetY:0,startTime:-1});}';
     var4['code'] = var7;
-    var _closure1_slot11 = var4;
-    var4 = {};
-    var7 = 'function useLaunchPadGestureTsx3({velocityX:velocityX}){const{gestureState,updaters,launchPadSharedState}=this.__closure;const{requiresPop:requiresPop,startShown:startShown}=gestureState.get();if(requiresPop){if(!startShown){updaters.setLaunchPadPosition(0);}else{updaters.setLaunchPadPosition(1);}}else if(Math.abs(velocityX)<100){if(launchPadSharedState.get()>=0.5){updaters.setLaunchPadPosition(1);}else{updaters.setLaunchPadPosition(0);}}else if(velocityX>0){updaters.setLaunchPadPosition(0);}else{updaters.setLaunchPadPosition(1);}}';
-    var4['code'] = var7;
-    var _closure1_slot12 = var4;
-    var4 = {};
-    var7 = 'function useLaunchPadGestureTsx4({translationX:translationX,translationY:translationY,absoluteX:absoluteX}){const{gestureState,getWindowDimensionsWorklet,POP_RESISTANCE,launchPadType,LaunchPadTypes,PIP_POP_DISTANCE,updaters,updateSharedValueIfChanged,runOnJS,triggerHapticFeedback,HapticFeedbackTypes}=this.__closure;if(!gestureState.get().active)return;const{initialTouchX:initialTouchX,requiresPop:requiresPop}=gestureState.get();const{width:windowWidth}=getWindowDimensionsWorklet();const newXOffset=absoluteX-initialTouchX;const distance=Math.max(newXOffset*-1,0);const resistance=distance*POP_RESISTANCE;const positionOffsetX=absoluteX-gestureState.get().initialTouchX;const launchPadPosition=1-(gestureState.get().initialTouchX+translationX-(launchPadType!==LaunchPadTypes.PULL_TAB?40:0))/windowWidth;if(requiresPop&&distance<=PIP_POP_DISTANCE){if(launchPadType!==LaunchPadTypes.PULL_TAB){const a=(distance-resistance)/windowWidth;updaters.setLaunchPadPosition(a);}else{updaters.setLaunchPadPullTabTranslation(translationY);}updateSharedValueIfChanged(gestureState,{positionOffsetX:positionOffsetX});}else{if(requiresPop){updateSharedValueIfChanged(gestureState,{requiresPop:false,positionOffsetX:positionOffsetX});runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}else{updateSharedValueIfChanged(gestureState,{positionOffsetX:positionOffsetX});}updaters.setLaunchPadPosition(launchPadPosition);}}';
-    var4['code'] = var7;
     var _closure1_slot13 = var4;
     var4 = {};
-    var7 = 'function useLaunchPadGestureTsx5(event,manager){const{gestureState,State,getWindowDimensionsWorklet,launchPadType,LaunchPadTypes,LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE,LAUNCH_PAD_PULL_TAB_WIDTH,LAUNCH_PAD_PULL_TAB_HIT_SLOP,launchPadPullTabState,LAUNCH_PAD_PULL_TAB_HEIGHT,updaters,LAUNCH_PAD_PULL_TAB_SCALE_FACTOR,launchPadSharedState,MANUAL_ACTIVATION_THRESHOLD}=this.__closure;const{active:active,initialLaunchPadPosition:initialLaunchPadPosition,initialTouchX:initialTouchX,initialTouchY:initialTouchY}=gestureState.get();if(event.state!==State.BEGAN||active)return;const currentTouch=event.changedTouches[0];const{x:x,y:y}=currentTouch;const{width:windowWidth}=getWindowDimensionsWorklet();if(currentTouch==null||launchPadType===LaunchPadTypes.GESTURE_EDGE&&initialLaunchPadPosition===0&&initialTouchX<windowWidth-LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE||launchPadType===LaunchPadTypes.DISABLED){manager.fail();return;}if(launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition===0){const inPullTabX=x>windowWidth-LAUNCH_PAD_PULL_TAB_WIDTH-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&x<windowWidth;const inPullTabY=y>launchPadPullTabState.get().position-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&y<launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_HIT_SLOP;if(inPullTabX&&inPullTabY){gestureState.set({...gestureState.get(),initialPullTabPosition:launchPadPullTabState.get().position,active:true});updaters.setLaunchPadPullTabScale(LAUNCH_PAD_PULL_TAB_SCALE_FACTOR);updaters.setLaunchPadShown(true);manager.activate();return;}}if(launchPadType!==LaunchPadTypes.PULL_TAB||launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition>0){const horizontalDistance=x-initialTouchX;const verticalDistance=Math.abs(y-initialTouchY);const hasMovedCorrectDirection=launchPadSharedState.get()>0&&horizontalDistance>0||launchPadSharedState.get()<=0&&horizontalDistance<0;if(hasMovedCorrectDirection&&Math.abs(horizontalDistance)>verticalDistance){if(Math.abs(horizontalDistance)<MANUAL_ACTIVATION_THRESHOLD){return;}gestureState.set({...gestureState.get(),active:true});updaters.setLaunchPadShown(true);manager.activate();return;}}manager.fail();}';
+    var7 = 'function useLaunchPadGestureTsx3({velocityX:velocityX,velocityY:velocityY,translationX:translationX,translationY:translationY}){const{gestureState,launchPadType,LaunchPadTypes,LAUNCH_PAD_END_TRANSLATION_THRESHOLD,LAUNCH_PAD_END_VELOCITY_THRESHOLD,updaters,launchPadSharedState}=this.__closure;const{requiresPop:requiresPop,startShown:startShown}=gestureState.get();if(requiresPop){if(!startShown){const isPullTabTapComplete=launchPadType===LaunchPadTypes.PULL_TAB&&Math.abs(translationX)<=LAUNCH_PAD_END_TRANSLATION_THRESHOLD&&Math.abs(translationY)<=LAUNCH_PAD_END_TRANSLATION_THRESHOLD&&Math.abs(velocityX)<=LAUNCH_PAD_END_VELOCITY_THRESHOLD&&Math.abs(velocityY)<=LAUNCH_PAD_END_VELOCITY_THRESHOLD;if(isPullTabTapComplete){updaters.setLaunchPadPosition(1);}else{updaters.setLaunchPadPosition(0);}}else{updaters.setLaunchPadPosition(1);}}else if(Math.abs(velocityX)<LAUNCH_PAD_END_VELOCITY_THRESHOLD){if(launchPadSharedState.get()>=0.5){updaters.setLaunchPadPosition(1);}else{updaters.setLaunchPadPosition(0);}}else if(velocityX>0){updaters.setLaunchPadPosition(0);}else{updaters.setLaunchPadPosition(1);}}';
     var4['code'] = var7;
     var _closure1_slot14 = var4;
     var4 = {};
-    var7 = 'function useLaunchPadGestureTsx6(event){const{gestureState,launchPadSharedState}=this.__closure;const{x:x,y:y}=event.changedTouches[0];gestureState.set({active:false,initialLaunchPadPosition:launchPadSharedState.get(),initialPullTabPosition:0,initialTouchX:x,initialTouchY:y,positionOffsetX:0,positionOffsetY:0,startTime:Date.now(),requiresPop:launchPadSharedState.get()===0,startShown:!(launchPadSharedState.get()===0)});}';
+    var7 = 'function useLaunchPadGestureTsx4({translationX:translationX,translationY:translationY,absoluteX:absoluteX}){const{gestureState,getWindowDimensionsWorklet,POP_RESISTANCE,launchPadType,LaunchPadTypes,PIP_POP_DISTANCE,updaters,updateSharedValueIfChanged,runOnJS,triggerHapticFeedback,HapticFeedbackTypes}=this.__closure;if(!gestureState.get().active)return;const{initialTouchX:initialTouchX,requiresPop:requiresPop}=gestureState.get();const{width:windowWidth}=getWindowDimensionsWorklet();const newXOffset=absoluteX-initialTouchX;const distance=Math.max(newXOffset*-1,0);const resistance=distance*POP_RESISTANCE;const positionOffsetX=absoluteX-gestureState.get().initialTouchX;const launchPadPosition=1-(gestureState.get().initialTouchX+translationX-(launchPadType!==LaunchPadTypes.PULL_TAB?40:0))/windowWidth;if(requiresPop&&distance<=PIP_POP_DISTANCE){if(launchPadType!==LaunchPadTypes.PULL_TAB){const a=(distance-resistance)/windowWidth;updaters.setLaunchPadPosition(a);}else{updaters.setLaunchPadPullTabTranslation(translationY);}updateSharedValueIfChanged(gestureState,{positionOffsetX:positionOffsetX});}else{if(requiresPop){updateSharedValueIfChanged(gestureState,{requiresPop:false,positionOffsetX:positionOffsetX});runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}else{updateSharedValueIfChanged(gestureState,{positionOffsetX:positionOffsetX});}updaters.setLaunchPadPosition(launchPadPosition);}}';
     var4['code'] = var7;
     var _closure1_slot15 = var4;
+    var4 = {};
+    var7 = 'function useLaunchPadGestureTsx5(event,manager){const{gestureState,State,getWindowDimensionsWorklet,launchPadType,LaunchPadTypes,LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE,LAUNCH_PAD_PULL_TAB_WIDTH,LAUNCH_PAD_PULL_TAB_HIT_SLOP,launchPadPullTabState,LAUNCH_PAD_PULL_TAB_HEIGHT,updaters,LAUNCH_PAD_PULL_TAB_SCALE_FACTOR,launchPadSharedState,MANUAL_ACTIVATION_THRESHOLD}=this.__closure;const{active:active,initialLaunchPadPosition:initialLaunchPadPosition,initialTouchX:initialTouchX,initialTouchY:initialTouchY}=gestureState.get();if(event.state!==State.BEGAN||active)return;const currentTouch=event.changedTouches[0];const{x:x,y:y}=currentTouch;const{width:windowWidth}=getWindowDimensionsWorklet();if(currentTouch==null||launchPadType===LaunchPadTypes.GESTURE_EDGE&&initialLaunchPadPosition===0&&initialTouchX<windowWidth-LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE||launchPadType===LaunchPadTypes.DISABLED){manager.fail();return;}if(launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition===0){const inPullTabX=x>windowWidth-LAUNCH_PAD_PULL_TAB_WIDTH-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&x<windowWidth;const inPullTabY=y>launchPadPullTabState.get().position-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&y<launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_HIT_SLOP;if(inPullTabX&&inPullTabY){gestureState.set({...gestureState.get(),initialPullTabPosition:launchPadPullTabState.get().position,active:true});updaters.setLaunchPadPullTabScale(LAUNCH_PAD_PULL_TAB_SCALE_FACTOR);updaters.setLaunchPadShown(true);manager.activate();return;}}if(launchPadType!==LaunchPadTypes.PULL_TAB||launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition>0){const horizontalDistance=x-initialTouchX;const verticalDistance=Math.abs(y-initialTouchY);const hasMovedCorrectDirection=launchPadSharedState.get()>0&&horizontalDistance>0||launchPadSharedState.get()<=0&&horizontalDistance<0;if(hasMovedCorrectDirection&&Math.abs(horizontalDistance)>verticalDistance){if(Math.abs(horizontalDistance)<MANUAL_ACTIVATION_THRESHOLD){return;}gestureState.set({...gestureState.get(),active:true});updaters.setLaunchPadShown(true);manager.activate();return;}}manager.fail();}';
+    var4['code'] = var7;
+    var _closure1_slot16 = var4;
+    var4 = {};
+    var7 = 'function useLaunchPadGestureTsx6(event){const{gestureState,launchPadSharedState}=this.__closure;const{x:x,y:y}=event.changedTouches[0];gestureState.set({active:false,initialLaunchPadPosition:launchPadSharedState.get(),initialPullTabPosition:0,initialTouchX:x,initialTouchY:y,positionOffsetX:0,positionOffsetY:0,startTime:Date.now(),requiresPop:launchPadSharedState.get()===0,startShown:!(launchPadSharedState.get()===0)});}';
+    var4['code'] = var7;
+    var _closure1_slot17 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -111,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = _closure2_slot0;
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot11;
                 var2 = var2.GESTURE_FULL;
                 var13 = 0;
                 var7 = 0;
@@ -136,7 +140,7 @@ case 2:
                 if(!var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
                 var11 = _closure2_slot0;
-                var9 = _closure1_slot9;
+                var9 = _closure1_slot11;
                 var9 = var9.DISABLED;
                 var2 = var11 !== var9;
 case 4:
@@ -150,11 +154,11 @@ case 4:
                 var2 = 1;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.manualActivation;
-                var15 = _closure1_slot0;
+                var17 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var2 = 5;
                 var2 = var11[var2];
-                var9 = var15.bind(var10)(var2);
+                var9 = var17.bind(var10)(var2);
                 var2 = var9.isAndroid;
                 var2 = var2.bind(var9)();
                 var5 = var3.bind(var5)(var2);
@@ -172,7 +176,7 @@ case 4:
                 var2['right'] = var7;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onTouchesDown;
-                var2 = function w(arg1) {
+                var2 = function y(arg1) {
                     var1 = arg1;
                     var1 = var1.changedTouches;
                     var5 = 0;
@@ -214,11 +218,11 @@ case 4:
                 var2['__closure'] = var9;
                 var9 = 14359599806316.0;
                 var2['__workletHash'] = var9;
-                var9 = _closure1_slot15;
+                var9 = _closure1_slot17;
                 var2['__initData'] = var9;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onTouchesMove;
-                var2 = function b(arg1, arg2) {
+                var2 = function X(arg1, arg2) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var5 = arg1;
@@ -260,7 +264,7 @@ case 8:
                         if(!(var10 != var13)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
                         var13 = _closure2_slot0;
-                        var10 = _closure1_slot9;
+                        var10 = _closure1_slot11;
                         var10 = var10.GESTURE_EDGE;
                         if(!(var13 === var10)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
@@ -271,12 +275,12 @@ case 13:
                         if(!(!(var7 < var10))) { _fun0002_ip = 9; continue _fun0002 }
 case 11:
                         var13 = _closure2_slot0;
-                        var10 = _closure1_slot9;
+                        var10 = _closure1_slot11;
                         var10 = var10.DISABLED;
                         if(!(var13 !== var10)) { _fun0002_ip = 9; continue _fun0002 }
 case 14:
                         var13 = _closure2_slot0;
-                        var10 = _closure1_slot9;
+                        var10 = _closure1_slot11;
                         var10 = var10.PULL_TAB;
                         if(!(var13 === var10)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
@@ -286,7 +290,7 @@ case 17:
                         var10 = var13.get;
                         var10 = var10.bind(var13)();
                         var13 = var10.position;
-                        var10 = _closure1_slot6;
+                        var10 = _closure1_slot8;
                         var10 = var13 - var10;
                         var10 = var8 > var10;
                         if(!var10) { _fun0002_ip = 18; continue _fun0002 }
@@ -295,15 +299,15 @@ case 19:
                         var13 = var14.get;
                         var13 = var13.bind(var14)();
                         var14 = var13.position;
-                        var13 = _closure1_slot5;
+                        var13 = _closure1_slot7;
                         var14 = var14 + var13;
-                        var13 = _closure1_slot6;
+                        var13 = _closure1_slot8;
                         var13 = var14 + var13;
                         var10 = var8 < var13;
 case 18:
-                        var13 = _closure1_slot8;
+                        var13 = _closure1_slot10;
                         var14 = var12 - var13;
-                        var13 = _closure1_slot6;
+                        var13 = _closure1_slot8;
                         var13 = var14 - var13;
                         if(!(var5 > var13)) { _fun0002_ip = 15; continue _fun0002 }
 case 20:
@@ -312,12 +316,12 @@ case 21:
                         if(var10) { _fun0002_ip = 22; continue _fun0002 }
 case 15:
                         var12 = _closure2_slot0;
-                        var10 = _closure1_slot9;
+                        var10 = _closure1_slot11;
                         var10 = var10.PULL_TAB;
                         if(!(var12 === var10)) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
                         var12 = _closure2_slot0;
-                        var10 = _closure1_slot9;
+                        var10 = _closure1_slot11;
                         var10 = var10.PULL_TAB;
                         if(!(var12 === var10)) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
@@ -398,7 +402,7 @@ case 22:
                         var6 = var7.bind(var8)(var6);
                         var4 = _closure2_slot4;
                         var6 = var4.setLaunchPadPullTabScale;
-                        var2 = _closure1_slot7;
+                        var2 = _closure1_slot9;
                         var2 = var6.bind(var4)(var2);
                         var2 = var4.setLaunchPadShown;
                         var2 = var2.bind(var4)(var5);
@@ -413,46 +417,46 @@ case 6:
                         return var1;
                     }
                 };
-                var12 = {};
-                var12['gestureState'] = var7;
+                var9 = {};
+                var9['gestureState'] = var7;
                 var8 = var11[var8];
-                var8 = var15.bind(var10)(var8);
+                var8 = var17.bind(var10)(var8);
                 var8 = var8.State;
-                var12['State'] = var8;
-                var14 = 6;
-                var8 = var11[var14];
-                var8 = var15.bind(var10)(var8);
-                var8 = var8.getWindowDimensionsWorklet;
-                var12['getWindowDimensionsWorklet'] = var8;
-                var9 = _closure2_slot0;
-                var12['launchPadType'] = var9;
-                var8 = _closure1_slot9;
-                var12['LaunchPadTypes'] = var8;
-                var16 = _closure1_slot4;
-                var12['LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE'] = var16;
-                var16 = _closure1_slot8;
-                var12['LAUNCH_PAD_PULL_TAB_WIDTH'] = var16;
-                var16 = _closure1_slot6;
-                var12['LAUNCH_PAD_PULL_TAB_HIT_SLOP'] = var16;
-                var16 = _closure2_slot2;
-                var12['launchPadPullTabState'] = var16;
-                var16 = _closure1_slot5;
-                var12['LAUNCH_PAD_PULL_TAB_HEIGHT'] = var16;
+                var9['State'] = var8;
+                var8 = 6;
+                var12 = var11[var8];
+                var12 = var17.bind(var10)(var12);
+                var12 = var12.getWindowDimensionsWorklet;
+                var9['getWindowDimensionsWorklet'] = var12;
+                var15 = _closure2_slot0;
+                var9['launchPadType'] = var15;
+                var14 = _closure1_slot11;
+                var9['LaunchPadTypes'] = var14;
+                var12 = _closure1_slot4;
+                var9['LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE'] = var12;
+                var12 = _closure1_slot10;
+                var9['LAUNCH_PAD_PULL_TAB_WIDTH'] = var12;
+                var12 = _closure1_slot8;
+                var9['LAUNCH_PAD_PULL_TAB_HIT_SLOP'] = var12;
+                var12 = _closure2_slot2;
+                var9['launchPadPullTabState'] = var12;
+                var12 = _closure1_slot7;
+                var9['LAUNCH_PAD_PULL_TAB_HEIGHT'] = var12;
                 var6 = _closure2_slot4;
-                var12['updaters'] = var6;
-                var16 = _closure1_slot7;
-                var12['LAUNCH_PAD_PULL_TAB_SCALE_FACTOR'] = var16;
-                var12['launchPadSharedState'] = var13;
-                var16 = 3;
-                var12['MANUAL_ACTIVATION_THRESHOLD'] = var16;
-                var2['__closure'] = var12;
-                var12 = 5887887666279.0;
-                var2['__workletHash'] = var12;
-                var12 = _closure1_slot14;
-                var2['__initData'] = var12;
+                var9['updaters'] = var6;
+                var12 = _closure1_slot9;
+                var9['LAUNCH_PAD_PULL_TAB_SCALE_FACTOR'] = var12;
+                var9['launchPadSharedState'] = var13;
+                var12 = 3;
+                var9['MANUAL_ACTIVATION_THRESHOLD'] = var12;
+                var2['__closure'] = var9;
+                var9 = 5887887666279.0;
+                var2['__workletHash'] = var9;
+                var9 = _closure1_slot16;
+                var2['__initData'] = var9;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onChange;
-                var2 = function X(arg1) {
+                var2 = function I(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var1 = arg1;
@@ -496,7 +500,7 @@ case 35:
                         var10 = var10.initialTouchX;
                         var10 = var10 + var11;
                         var12 = _closure2_slot0;
-                        var11 = _closure1_slot9;
+                        var11 = _closure1_slot11;
                         var11 = var11.PULL_TAB;
                         if(!(var12 !== var11)) { _fun0003_ip = 36; continue _fun0003 }
 case 37:
@@ -551,7 +555,7 @@ case 43:
                         _fun0003_ip = 34; continue _fun0003;
 case 40:
                         var6 = _closure2_slot0;
-                        var3 = _closure1_slot9;
+                        var3 = _closure1_slot11;
                         var3 = var3.PULL_TAB;
                         if(!(var6 === var3)) { _fun0003_ip = 44; continue _fun0003 }
 case 45:
@@ -584,40 +588,40 @@ case 34:
                 };
                 var12 = {};
                 var12['gestureState'] = var7;
-                var14 = var11[var14];
-                var14 = var15.bind(var10)(var14);
-                var14 = var14.getWindowDimensionsWorklet;
-                var12['getWindowDimensionsWorklet'] = var14;
-                var14 = 0.5;
-                var12['POP_RESISTANCE'] = var14;
-                var12['launchPadType'] = var9;
-                var12['LaunchPadTypes'] = var8;
+                var8 = var11[var8];
+                var8 = var17.bind(var10)(var8);
+                var8 = var8.getWindowDimensionsWorklet;
+                var12['getWindowDimensionsWorklet'] = var8;
+                var8 = 0.5;
+                var12['POP_RESISTANCE'] = var8;
+                var12['launchPadType'] = var15;
+                var12['LaunchPadTypes'] = var14;
                 var8 = 70;
                 var12['PIP_POP_DISTANCE'] = var8;
                 var12['updaters'] = var6;
                 var9 = _closure1_slot1;
                 var8 = 7;
-                var14 = var11[var8];
-                var14 = var9.bind(var10)(var14);
-                var12['updateSharedValueIfChanged'] = var14;
-                var14 = 8;
-                var14 = var11[var14];
-                var14 = var15.bind(var10)(var14);
-                var14 = var14.runOnJS;
-                var12['runOnJS'] = var14;
-                var14 = 9;
-                var16 = var11[var14];
-                var16 = var15.bind(var10)(var16);
-                var16 = var16.triggerHapticFeedback;
-                var12['triggerHapticFeedback'] = var16;
-                var14 = var11[var14];
-                var14 = var15.bind(var10)(var14);
-                var14 = var14.HapticFeedbackTypes;
-                var12['HapticFeedbackTypes'] = var14;
+                var16 = var11[var8];
+                var16 = var9.bind(var10)(var16);
+                var12['updateSharedValueIfChanged'] = var16;
+                var16 = 8;
+                var16 = var11[var16];
+                var16 = var17.bind(var10)(var16);
+                var16 = var16.runOnJS;
+                var12['runOnJS'] = var16;
+                var16 = 9;
+                var18 = var11[var16];
+                var18 = var17.bind(var10)(var18);
+                var18 = var18.triggerHapticFeedback;
+                var12['triggerHapticFeedback'] = var18;
+                var16 = var11[var16];
+                var16 = var17.bind(var10)(var16);
+                var16 = var16.HapticFeedbackTypes;
+                var12['HapticFeedbackTypes'] = var16;
                 var2['__closure'] = var12;
                 var12 = 8073380735713.0;
                 var2['__workletHash'] = var12;
-                var12 = _closure1_slot13;
+                var12 = _closure1_slot15;
                 var2['__initData'] = var12;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onEnd;
@@ -625,80 +629,121 @@ case 34:
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var1 = arg1;
-                        var3 = var1.velocityX;
-                        var4 = _closure2_slot3;
-                        var1 = var4.get;
-                        var1 = var1.bind(var4)();
-                        var4 = var1.requiresPop;
-                        var1 = var1.startShown;
-                        if(var4) { _fun0004_ip = 46; continue _fun0004 }
+                        var7 = var1.velocityX;
+                        var5 = var1.velocityY;
+                        var9 = var1.translationX;
+                        var8 = var1.translationY;
+                        var3 = _closure2_slot3;
+                        var2 = var3.get;
+                        var2 = var2.bind(var3)();
+                        var3 = var2.requiresPop;
+                        var2 = var2.startShown;
+                        if(var3) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
-                        var4 = global;
-                        var5 = var4.Math;
-                        var4 = var5.abs;
-                        var5 = var4.bind(var5)(var3);
-                        var4 = 100;
-                        if(!(!(var5 < var4))) { _fun0004_ip = 48; continue _fun0004 }
+                        var3 = global;
+                        var4 = var3.Math;
+                        var3 = var4.abs;
+                        var4 = var3.bind(var4)(var7);
+                        var3 = _closure1_slot6;
+                        if(!(!(var4 < var3))) { _fun0004_ip = 48; continue _fun0004 }
 case 49:
-                        var5 = 0;
-                        if(!(!(var3 > var5))) { _fun0004_ip = 7; continue _fun0004 }
-case 50:
-                        var6 = _closure2_slot4;
-                        var4 = var6.setLaunchPadPosition;
+                        var6 = 0;
+                        if(!(!(var7 > var6))) { _fun0004_ip = 50; continue _fun0004 }
+case 5:
+                        var10 = _closure2_slot4;
+                        var4 = var10.setLaunchPadPosition;
                         var3 = 1;
-                        var3 = var4.bind(var6)(var3);
-                        _fun0004_ip = 36; continue _fun0004;
-case 7:
+                        var3 = var4.bind(var10)(var3);
+                        _fun0004_ip = 51; continue _fun0004;
+case 50:
                         var4 = _closure2_slot4;
                         var3 = var4.setLaunchPadPosition;
-                        var3 = var3.bind(var4)(var5);
-                        _fun0004_ip = 36; continue _fun0004;
+                        var3 = var3.bind(var4)(var6);
+                        _fun0004_ip = 51; continue _fun0004;
 case 48:
                         var4 = _closure2_slot1;
                         var3 = var4.get;
                         var4 = var3.bind(var4)();
                         var3 = 0.5;
-                        if(!(!(var4 >= var3))) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-                        var5 = _closure2_slot4;
-                        var4 = var5.setLaunchPadPosition;
+                        if(!(!(var4 >= var3))) { _fun0004_ip = 13; continue _fun0004 }
+case 10:
+                        var6 = _closure2_slot4;
+                        var4 = var6.setLaunchPadPosition;
                         var3 = 0;
-                        var3 = var4.bind(var5)(var3);
-                        _fun0004_ip = 36; continue _fun0004;
-case 51:
-                        var5 = _closure2_slot4;
-                        var4 = var5.setLaunchPadPosition;
+                        var3 = var4.bind(var6)(var3);
+                        _fun0004_ip = 51; continue _fun0004;
+case 13:
+                        var6 = _closure2_slot4;
+                        var4 = var6.setLaunchPadPosition;
                         var3 = 1;
-                        var3 = var4.bind(var5)(var3);
-                        _fun0004_ip = 36; continue _fun0004;
+                        var3 = var4.bind(var6)(var3);
+                        _fun0004_ip = 51; continue _fun0004;
 case 46:
+                        if(var2) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
+                        var4 = _closure2_slot0;
+                        var3 = _closure1_slot11;
+                        var3 = var3.PULL_TAB;
+                        if(!(var4 === var3)) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
+                        var3 = global;
+                        var6 = var3.Math;
+                        var4 = var6.abs;
+                        var6 = var4.bind(var6)(var9);
+                        var4 = _closure1_slot5;
+                        if(!(var6 <= var4)) { _fun0004_ip = 54; continue _fun0004 }
+case 56:
+                        var6 = var3.Math;
+                        var4 = var6.abs;
+                        var6 = var4.bind(var6)(var8);
+                        var4 = _closure1_slot5;
+                        if(!(var6 <= var4)) { _fun0004_ip = 54; continue _fun0004 }
+case 57:
+                        var6 = var3.Math;
+                        var4 = var6.abs;
+                        var6 = var4.bind(var6)(var7);
+                        var4 = _closure1_slot6;
+                        if(!(var6 <= var4)) { _fun0004_ip = 54; continue _fun0004 }
+case 58:
+                        var4 = var3.Math;
+                        var3 = var4.abs;
+                        var3 = var3.bind(var4)(var5);
+                        var2 = _closure1_slot6;
+                        if(!(!(var3 <= var2))) { _fun0004_ip = 52; continue _fun0004 }
+case 54:
+                        var4 = _closure2_slot4;
+                        var3 = var4.setLaunchPadPosition;
+                        var2 = 0;
+                        var2 = var3.bind(var4)(var2);
+                        _fun0004_ip = 51; continue _fun0004;
+case 52:
                         var3 = _closure2_slot4;
                         var2 = var3.setLaunchPadPosition;
-                        if(var1) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
-                        var1 = 0;
-                        var1 = var2.bind(var3)(var1);
-                        _fun0004_ip = 36; continue _fun0004;
-case 53:
                         var1 = 1;
                         var1 = var2.bind(var3)(var1);
-case 36:
+case 51:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var12 = {};
                 var12['gestureState'] = var7;
+                var12['launchPadType'] = var15;
+                var12['LaunchPadTypes'] = var14;
+                var14 = _closure1_slot5;
+                var12['LAUNCH_PAD_END_TRANSLATION_THRESHOLD'] = var14;
+                var14 = _closure1_slot6;
+                var12['LAUNCH_PAD_END_VELOCITY_THRESHOLD'] = var14;
                 var12['updaters'] = var6;
                 var12['launchPadSharedState'] = var13;
                 var2['__closure'] = var12;
-                var12 = 14391907446770.0;
+                var12 = 13108163303108.0;
                 var2['__workletHash'] = var12;
-                var12 = _closure1_slot12;
+                var12 = _closure1_slot14;
                 var2['__initData'] = var12;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onTouchesCancelled;
-                var2 = function O() {
+                var2 = function b() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var3 = _closure2_slot3;
@@ -706,21 +751,21 @@ case 0:
                         var3 = var1.bind(var3)();
                         var1 = var3.initialLaunchPadPosition;
                         var3 = var3.active;
-                        if(!var3) { _fun0005_ip = 55; continue _fun0005 }
-case 56:
+                        if(!var3) { _fun0005_ip = 59; continue _fun0005 }
+case 60:
                         var4 = 1;
-                        if(!(var4 !== var1)) { _fun0005_ip = 57; continue _fun0005 }
-case 58:
+                        if(!(var4 !== var1)) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
                         var5 = _closure2_slot4;
                         var3 = var5.setLaunchPadPosition;
                         var1 = 0;
                         var1 = var3.bind(var5)(var1);
-                        _fun0005_ip = 55; continue _fun0005;
-case 57:
+                        _fun0005_ip = 59; continue _fun0005;
+case 61:
                         var3 = _closure2_slot4;
                         var1 = var3.setLaunchPadPosition;
                         var1 = var1.bind(var3)(var4);
-case 55:
+case 59:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var1 = 7;
@@ -742,7 +787,7 @@ case 55:
                 var2['__closure'] = var12;
                 var12 = 11677880944102.0;
                 var2['__workletHash'] = var12;
-                var12 = _closure1_slot11;
+                var12 = _closure1_slot13;
                 var2['__initData'] = var12;
                 var3 = var3.bind(var5)(var2);
                 var2 = var3.onFinalize;
@@ -771,7 +816,7 @@ case 55:
                 var1['__closure'] = var5;
                 var5 = 14463491499289.0;
                 var1['__workletHash'] = var5;
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot12;
                 var1['__initData'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;

@@ -139,11 +139,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOD_SUBTLE;
-    var9['backgroundColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
     var12 = var12.TEXT_FEEDBACK_CRITICAL;
     var9['color'] = var12;
     var4['danger'] = var9;
@@ -151,20 +146,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOD_STRONG;
-    var9['backgroundColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
     var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var12;
     var4['secondary'] = var9;
     var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOD_STRONG;
-    var9['backgroundColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
@@ -263,63 +248,82 @@ case 24:
             var4 = _closure1_slot4;
             var3 = _closure1_slot3;
             var12 = var4.bind(var5)(var6, var3);
-            var1 = var1 === var2;
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var15 = 6;
-            var2 = var2[var15];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.IconSizes;
-            if(var1) { _fun0001_ip = 26; continue _fun0001 }
+            if(!(var1 !== var2)) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var13 = var2.REFRESH_SMALL_16;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 6;
+            var3 = var6[var3];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.IconSizes;
+            var13 = var3.REFRESH_SMALL_16;
             _fun0001_ip = 28; continue _fun0001;
 case 26:
-            var13 = var2.MEDIUM;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 6;
+            var3 = var6[var3];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.IconSizes;
+            var13 = var3.MEDIUM;
 case 28:
-            var11 = 'sm';
-            if(!var1) { _fun0001_ip = 29; continue _fun0001 }
+            var3 = 'md';
+            var11 = var3;
+            if(!(var1 !== var2)) { _fun0001_ip = 29; continue _fun0001 }
 case 30:
-            var11 = 'md';
+            var1 = 'danger';
+            var11 = var3;
+            if(!(var1 !== var2)) { _fun0001_ip = 29; continue _fun0001 }
+case 31:
+            var1 = 'secondary';
+            var11 = var3;
+            if(!(var1 !== var2)) { _fun0001_ip = 29; continue _fun0001 }
+case 32:
+            var1 = 'translucent';
+            var11 = var3;
+            if(!(var1 !== var2)) { _fun0001_ip = 29; continue _fun0001 }
+case 33:
+            var11 = 'sm';
 case 29:
             var6 = null;
-            if(!(var6 == var14)) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(!(var6 == var14)) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var2 = var6 == var9;
             var1 = null;
-            if(var2) { _fun0001_ip = 33; continue _fun0001 }
-case 31:
+            if(var2) { _fun0001_ip = 36; continue _fun0001 }
+case 34:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
-            var16 = var8.container;
+            var15 = var8.container;
             var8 = new Array(2);
-            var8[0] = var16;
+            var8[0] = var15;
             var8[1] = var12;
             var2['style'] = var8;
-            if(!(var6 == var9)) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(!(var6 == var9)) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var12 = _closure1_slot6;
             var8 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var6 = var6[var15];
+            var15 = _closure1_slot2;
+            var6 = 6;
+            var6 = var15[var6];
             var8 = var8.bind(var5)(var6);
             var6 = {};
             var6['color'] = var10;
             var6['source'] = var14;
             var6['size'] = var13;
             var6 = var12.bind(var5)(var8, var6);
-            _fun0001_ip = 36; continue _fun0001;
-case 34:
+            _fun0001_ip = 39; continue _fun0001;
+case 37:
             var8 = _closure1_slot6;
             var7 = {};
             var7['size'] = var11;
             var7['color'] = var10;
             var6 = var8.bind(var5)(var9, var7);
-case 36:
+case 39:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 33:
+case 36:
             return var1;
         }
     };

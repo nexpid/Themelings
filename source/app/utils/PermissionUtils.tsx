@@ -911,8 +911,8 @@ case 101:
     var16 = var19.bind(var20)(var18, var17, var16);
     var _closure1_slot29 = var16;
     var12 = var14[var12];
-    var23 = var15.bind(var1)(var12);
-    var22 = var23.combine;
+    var24 = var15.bind(var1)(var12);
+    var23 = var24.combine;
     var68 = var8.MANAGE_GUILD;
     var67 = var8.MANAGE_ROLES;
     var66 = var8.ADMINISTRATOR;
@@ -922,8 +922,9 @@ case 101:
     var62 = var8.MANAGE_GUILD_EXPRESSIONS;
     var61 = var8.MANAGE_WEBHOOKS;
     var60 = var8.VIEW_AUDIT_LOG;
-    var69 = var23;
-    var8 = var69[var22](var68, var67, var66, var65, var64, var63, var62, var61, var60, var59);
+    var59 = var8.VIEW_GUILD_ANALYTICS;
+    var69 = var24;
+    var8 = var69[var23](var68, var67, var66, var65, var64, var63, var62, var61, var60, var59, var58);
     var12 = 20;
     var12 = var14[var12];
     var14 = var13.bind(var1)(var12);

@@ -199,7 +199,7 @@ case 24:
                     var4 = var6 < var5;
 case 23:
                     var6 = _closure1_slot4;
-                    var5 = var6.hasCurrentUserSentMessage;
+                    var5 = var6.hasCurrentUserSentWaveBlockingMessage;
                     var3 = _closure2_slot0;
                     var3 = var3.id;
                     var3 = var5.bind(var6)(var3);

@@ -19,6 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var8 = 'invite_accept';
     var4['INVITE_ACCEPT'] = var8;
+    var8 = 'channel_list_suggested_section';
+    var4['CHANNEL_LIST_SUGGESTED_SECTION'] = var8;
     var8 = 'user_navigated_back';
     var4['USER_NAVIGATED_BACK'] = var8;
     var8 = 'user_navigated_forward';

@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var9.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.WHITE;
+    var12 = var12.SWITCH_THUMB_BACKGROUND_DEFAULT;
     var11['backgroundColor'] = var12;
     var7['knob'] = var11;
     var7 = var8.bind(var10)(var7);
@@ -318,7 +318,7 @@ case 9:
             var9 = var3[var10];
             var19 = var23.bind(var4)(var9);
             var17 = var19.useAnimatedStyle;
-            var9 = function B() {
+            var9 = function f() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};

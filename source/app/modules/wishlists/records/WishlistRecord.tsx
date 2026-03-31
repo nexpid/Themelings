@@ -36,13 +36,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -93,9 +93,13 @@ case 4:
     var _closure1_slot8 = var7;
     var7 = 10;
     var7 = var6[var7];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot9 = var7;
+    var7 = 11;
+    var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.SKUProductLines;
-    var _closure1_slot9 = var7;
+    var _closure1_slot10 = var7;
     var2 = function(arg1) {
         var5 = function WishlistRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -109,7 +113,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var10 = var1.bind(var2)(var4);
                 var4 = _closure1_slot2;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var2)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -238,24 +242,33 @@ case 0:
 case 0:
                         var3 = arg1;
                         var4 = var3.sku_product_line;
-                        var2 = _closure1_slot9;
+                        var2 = _closure1_slot10;
                         var2 = var2.COLLECTIBLES;
-                        if(!(var2 !== var4)) { _fun0004_ip = 5; continue _fun0004 }
-case 11:
-                        var2 = _closure1_slot9;
+                        if(!(var2 !== var4)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
+                        var2 = _closure1_slot10;
                         var2 = var2.SOCIAL_LAYER_GAME_ITEM;
-                        if(!(var2 !== var4)) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                        if(!(var2 !== var4)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                        var2 = _closure1_slot10;
+                        var2 = var2.PREMIUM;
+                        if(!(var2 !== var4)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                         var4 = _closure1_slot6;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
-case 12:
+case 15:
                         var4 = _closure1_slot8;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
-case 5:
+case 13:
+                        var4 = _closure1_slot9;
+                        var2 = var4.fromServer;
+                        var2 = var2.bind(var4)(var3);
+                        return var2;
+case 11:
                         var2 = _closure1_slot7;
                         var1 = var2.fromServer;
                         var1 = var1.bind(var2)(var3);
@@ -275,8 +288,8 @@ case 5:
                 var8 = var2.applications;
                 var7 = var5 == var8;
                 var2 = undefined;
-                if(var7) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                if(var7) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                 var7 = var8.map;
                 var6 = function(arg1) {
                     var3 = _closure1_slot5;
@@ -286,13 +299,13 @@ case 15:
                     return var1;
                 };
                 var2 = var7.bind(var8)(var6);
-case 14:
+case 17:
                 var5 = var5 != var2;
                 var4 = undefined;
-                if(!var5) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+                if(!var5) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                 var4 = var2;
-case 16:
+case 19:
                 var2 = 'applications';
                 var1[var2] = var4;
                 var2 = var3.prototype;
@@ -311,7 +324,7 @@ case 16:
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
