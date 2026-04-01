@@ -191,7 +191,7 @@ case 17:
                 var1 = copyDataProperties(var7, var6);
                 var5 = arg2;
                 var1 = 'velocity';
-                var2[var1] = var5;
+                var2[0] = var5;
                 var1 = arg1;
                 var1 = var3.bind(var4)(var1, var2);
                 return var1;

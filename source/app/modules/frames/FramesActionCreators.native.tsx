@@ -100,7 +100,7 @@ case 2:
         return var1;
     };
     var4 = 'launchFrame';
-    var2[var4] = var6;
+    var2[3] = var6;
     var4 = 4;
     var5 = var5[var4];
     var4 = require;

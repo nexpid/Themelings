@@ -656,11 +656,11 @@ case 67:
             var1 = var3.bind(var1)(var2);
             return var1;
         };
-        var4[var12] = var10;
+        var4[11] = var10;
         var12 = var8.HEADSET_CAMERA;
         var10 = var9.NativePermissionManager;
         var10 = var10.requestHeadsetCameraAuthorization;
-        var4[var12] = var10;
+        var4[11] = var10;
         var12 = var8.AUDIO;
         var10 = var6[var11];
         var13 = var5.bind(var1)(var10);
@@ -687,15 +687,15 @@ case 68:
             return var1;
         };
 case 70:
-        var4[var12] = var10;
+        var4[11] = var10;
         var12 = var8.PHOTOS;
         var10 = var9.NativePermissionManager;
         var10 = var10.requestPhotoAuthorization;
-        var4[var12] = var10;
+        var4[11] = var10;
         var12 = var8.CONTACTS;
         var10 = var9.NativePermissionManager;
         var10 = var10.requestContactsAuthorization;
-        var4[var12] = var10;
+        var4[11] = var10;
         var12 = var8.INPUT_MONITORING;
         var10 = function() {
             var1 = global;
@@ -706,7 +706,7 @@ case 70:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var4[var12] = var10;
+        var4[11] = var10;
         var2['requestPermissionLookup'] = var4;
         var4 = {};
         var12 = var8.CAMERA;
@@ -717,11 +717,11 @@ case 70:
             var1 = var3.bind(var1)(var2);
             return var1;
         };
-        var4[var12] = var10;
+        var4[11] = var10;
         var12 = var8.HEADSET_CAMERA;
         var10 = var9.NativePermissionManager;
         var10 = var10.hasHeadsetCameraAuthorization;
-        var4[var12] = var10;
+        var4[11] = var10;
         var10 = var8.AUDIO;
         var11 = var6[var11];
         var12 = var5.bind(var1)(var11);
@@ -748,7 +748,7 @@ case 71:
             return var1;
         };
 case 73:
-        var4[var10] = var9;
+        var4[9] = var9;
         var8 = var8.INPUT_MONITORING;
         var7 = function() {
             var1 = global;
@@ -759,7 +759,7 @@ case 73:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var4[var8] = var7;
+        var4[7] = var7;
         var2['hasPermissionLookup'] = var4;
         var4 = var2.prototype;
         var4 = Object.create(var4, {constructor: {value: var2}});

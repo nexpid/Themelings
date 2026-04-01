@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var9;
     var10 = copyDataProperties(var18, var17);
     var10 = 'paddingBottom';
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['formHeader'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;

@@ -25,7 +25,7 @@ case 0:
             var6 = new var12[var8](var11, var10);
             var7 = var6 instanceof Object ? var6 : var7;
             var6 = 'timestamp';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = var2.edited_timestamp;
             var9 = null;
             var7 = var9 != var6;
@@ -41,16 +41,16 @@ case 3:
             var6 = var5 instanceof Object ? var5 : var7;
 case 2:
             var5 = 'editedTimestamp';
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = _closure1_slot18;
             var5 = undefined;
             var7 = var6.bind(var5)(var2);
             var6 = 'attachments';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = _closure1_slot20;
             var7 = var6.bind(var5)(var2);
             var6 = 'embeds';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 8;
@@ -64,7 +64,7 @@ case 5:
 case 4:
             var7 = var7.bind(var8)(var6);
             var6 = 'components';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = _closure1_slot14;
             var8 = var6.NON_PARSED;
             var7 = var8.has;
@@ -84,7 +84,7 @@ case 6:
             var4 = new Array(0);
 case 8:
             var2 = 'codedLinks';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
             var12 = var2;
@@ -279,10 +279,10 @@ case 40:
             var26 = var1;
             var12 = copyDataProperties(var26, var25);
             var12 = 'author';
-            var1[var12] = var21;
+            var1[11] = var21;
             var21 = var2.webhook_id;
             var12 = 'webhookId';
-            var1[var12] = var21;
+            var1[11] = var21;
             var21 = _closure1_slot9;
             var12 = var21.isBlockedForMessage;
             var21 = var12.bind(var21)(var2);
@@ -298,7 +298,7 @@ case 46:
             var21 = var12;
 case 44:
             var12 = 'blocked';
-            var1[var12] = var21;
+            var1[11] = var21;
             var21 = _closure1_slot9;
             var12 = var21.isIgnoredForMessage;
             var21 = var12.bind(var21)(var2);
@@ -314,18 +314,18 @@ case 50:
             var21 = var12;
 case 48:
             var12 = 'ignored';
-            var1[var12] = var21;
+            var1[11] = var21;
             var21 = var2.mention_everyone;
             var12 = 'mentionEveryone';
-            var1[var12] = var21;
+            var1[11] = var21;
             var12 = 'mentions';
-            var1[var12] = var20;
+            var1[11] = var20;
             var12 = 'mentionRoles';
-            var1[var12] = var19;
+            var1[11] = var19;
             var12 = 'mentionChannels';
-            var1[var12] = var18;
+            var1[11] = var18;
             var12 = 'messageReference';
-            var1[var12] = var17;
+            var1[11] = var17;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
             var12 = 12;
@@ -350,7 +350,7 @@ case 52:
             var12['mentionRoles'] = var19;
             var17 = var17.bind(var18)(var12);
             var12 = 'mentioned';
-            var1[var12] = var17;
+            var1[11] = var17;
             var17 = _closure1_slot0;
             var12 = _closure1_slot2;
             var19 = 13;
@@ -381,23 +381,23 @@ case 57:
             var17 = var18.bind(var19)(var12);
 case 56:
             var12 = 'giftCodes';
-            var1[var12] = var17;
+            var1[11] = var17;
             var12 = 'content';
-            var1[var12] = var16;
+            var1[11] = var16;
             var12 = 'referralTrialOfferId';
-            var1[var12] = var15;
+            var1[11] = var15;
             var12 = 'premiumGroupInviteId';
-            var1[var12] = var14;
+            var1[11] = var14;
             var14 = _closure1_slot19;
             var12 = var2.call;
             var9 = var9.timestamp;
             var12 = var14.bind(var6)(var12, var9);
             var9 = 'call';
-            var1[var9] = var12;
+            var1[8] = var12;
             var9 = _closure1_slot22;
             var12 = var9.bind(var6)(var2);
             var9 = 'messageSnapshots';
-            var1[var9] = var12;
+            var1[8] = var12;
             var12 = _closure1_slot21;
             if(!(var7 == var13)) { _fun0002_ip = 59; continue _fun0002 }
 case 60:
@@ -406,24 +406,24 @@ case 59:
             var9 = var2.poll;
             var12 = var12.bind(var6)(var13, var9);
             var9 = 'reactions';
-            var1[var9] = var12;
+            var1[8] = var12;
             var9 = 'interaction';
-            var1[var9] = var11;
+            var1[8] = var11;
             if(!(var7 == var10)) { _fun0002_ip = 61; continue _fun0002 }
 case 62:
             var10 = var2.interaction_data;
 case 61:
             var9 = 'interactionData';
-            var1[var9] = var10;
+            var1[8] = var10;
             var10 = var2.interaction_metadata;
             var9 = 'interactionMetadata';
-            var1[var9] = var10;
+            var1[8] = var10;
             var10 = var2.role_subscription_data;
             var9 = 'roleSubscriptionData';
-            var1[var9] = var10;
+            var1[8] = var10;
             var10 = var2.purchase_notification;
             var9 = 'purchaseNotification';
-            var1[var9] = var10;
+            var1[8] = var10;
             var9 = var2.poll;
             var10 = var7 == var9;
             var9 = undefined;
@@ -438,10 +438,10 @@ case 64:
             var9 = var10.bind(var6)(var8);
 case 63:
             var8 = 'poll';
-            var1[var8] = var9;
+            var1[7] = var9;
             var9 = var2.shared_client_theme;
             var8 = 'sharedClientTheme';
-            var1[var8] = var9;
+            var1[7] = var9;
             var7 = var7 == var4;
             var6 = undefined;
             if(var7) { _fun0002_ip = 65; continue _fun0002 }
@@ -449,12 +449,12 @@ case 66:
             var6 = var4;
 case 65:
             var4 = 'giftInfo';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'giftingPrompt';
-            var1[var4] = var5;
+            var1[3] = var5;
             var4 = var2.boosting_prompt;
             var2 = 'boostingPrompt';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
             var27 = var2;
@@ -486,7 +486,7 @@ case 68:
                 var2 = _closure1_slot11;
                 var3 = var3.bind(var4)(var2);
                 var2 = 'spoiler';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -852,10 +852,10 @@ case 80:
             var4 = copyDataProperties(var7, var6);
             var5 = var3.reactions;
             var4 = 'reactions';
-            var2[var4] = var5;
+            var2[3] = var5;
             var4 = var3.interaction_data;
             var3 = 'interaction_data';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1 = var2;
 case 87:
             return var1;

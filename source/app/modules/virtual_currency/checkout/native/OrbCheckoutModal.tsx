@@ -317,7 +317,7 @@ case 23:
                         var13 = var2;
                         var7 = copyDataProperties(var13, var12);
                         var7 = 'duration_ms';
-                        var2[var7] = var8;
+                        var2[6] = var8;
                         var7 = null;
                         if(!(var7 == var10)) { _fun0004_ip = 4; continue _fun0004 }
 case 24:
@@ -351,7 +351,7 @@ case 20:
                         var13 = var2;
                         var7 = copyDataProperties(var13, var12);
                         var7 = 'duration_ms';
-                        var2[var7] = var8;
+                        var2[6] = var8;
                         var2 = var5.bind(var6)(var3, var2);
                         _fun0004_ip = 22; continue _fun0004;
 case 18:
@@ -369,7 +369,7 @@ case 18:
                         var13 = var2;
                         var7 = copyDataProperties(var13, var12);
                         var7 = 'duration_ms';
-                        var2[var7] = var8;
+                        var2[6] = var8;
                         var2 = var5.bind(var6)(var3, var2);
                         _fun0004_ip = 22; continue _fun0004;
 case 16:
@@ -387,7 +387,7 @@ case 16:
                         var13 = var2;
                         var7 = copyDataProperties(var13, var12);
                         var7 = 'duration_ms';
-                        var2[var7] = var8;
+                        var2[6] = var8;
                         var2 = var5.bind(var6)(var3, var2);
                         _fun0004_ip = 22; continue _fun0004;
 case 14:
@@ -404,10 +404,10 @@ case 14:
                         var4 = copyDataProperties(var13, var12);
                         var5 = false;
                         var4 = 'has_saved_payment_source';
-                        var1[var4] = var5;
+                        var1[3] = var5;
                         var5 = null;
                         var4 = 'continue_session_initial_step';
-                        var1[var4] = var5;
+                        var1[3] = var5;
                         var1 = var2.bind(var3)(var1);
 case 22:
                         var1 = undefined;
@@ -736,7 +736,7 @@ case 29:
             return var1;
         };
         var3['render'] = var9;
-        var6[var8] = var3;
+        var6[7] = var3;
         var3 = _closure1_slot11;
         var1 = 19;
         var1 = var7[var1];

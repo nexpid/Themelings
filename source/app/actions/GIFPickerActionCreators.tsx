@@ -19,7 +19,7 @@ case 3:
 case 2:
             var1 = {};
             var2 = 1;
-            var1[var3] = var2;
+            var1[2] = var2;
             var7 = var1;
 case 4:
             var3 = _closure1_slot1;
@@ -98,7 +98,7 @@ case 5:
             var10 = copyDataProperties(var14, var13);
             var10 = var4.length;
             var4 = 'results';
-            var5[var4] = var10;
+            var5[3] = var10;
             var4 = arg2;
             var9 = var8.bind(var9)(var7, var4, var5);
             if(!(var2 != var3)) { _fun0002_ip = 7; continue _fun0002 }
@@ -136,7 +136,7 @@ case 9:
             var6 = var7.getProviderForAPIRequest;
             var7 = var6.bind(var7)();
             var6 = 'gif_provider';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
@@ -534,12 +534,12 @@ case 0:
             var18 = var2;
             var9 = copyDataProperties(var18, var17);
             var9 = 'index_num';
-            var2[var9] = var10;
+            var2[8] = var10;
             var10 = 'GIF Picker';
             var9 = 'source_object';
-            var2[var9] = var10;
+            var2[8] = var10;
             var9 = 'query';
-            var2[var9] = var7;
+            var2[8] = var7;
             var2 = var4.bind(var6)(var3, var2);
             var2 = null;
             if(!(var2 != var8)) { _fun0007_ip = 26; continue _fun0007 }
@@ -948,13 +948,13 @@ case 56:
                 var17 = var7;
                 var7 = copyDataProperties(var18, var17);
                 var7 = 'src';
-                var1[var7] = var11;
+                var1[6] = var11;
                 var7 = 'format';
-                var1[var7] = var10;
+                var1[6] = var10;
                 var7 = 1;
                 var9 = var9 + var7;
                 var7 = 'order';
-                var1[var7] = var9;
+                var1[6] = var9;
                 var6[var3] = var1;
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;

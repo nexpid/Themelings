@@ -185,7 +185,7 @@ case 12:
                     var2 = var3.get;
                     var3 = var2.bind(var3)();
                     var2 = 'width';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     _fun0003_ip = 13; continue _fun0003;
 case 11:
                     var1 = {};
@@ -725,11 +725,11 @@ case 64:
             var24[1] = var25;
             var24[2] = var5;
             var5 = 'style';
-            var1[var5] = var24;
+            var1[4] = var24;
             var5 = 'pressed';
-            var1[var5] = var10;
+            var1[4] = var10;
             var5 = 'accessibilityRole';
-            var1[var5] = var22;
+            var1[4] = var22;
             if(!(var12 == var7)) { _fun0007_ip = 66; continue _fun0007 }
 case 67:
             var22 = _closure1_slot0;
@@ -741,9 +741,9 @@ case 67:
             var7 = var5.bind(var22)(var23);
 case 66:
             var5 = 'accessibilityLabel';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'hitSlop';
-            var1[var5] = var6;
+            var1[4] = var6;
             var7 = _closure1_slot6;
             var6 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -801,7 +801,7 @@ case 76:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

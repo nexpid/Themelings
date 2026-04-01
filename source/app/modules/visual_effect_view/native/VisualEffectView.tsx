@@ -333,7 +333,7 @@ case 32:
             var28 = var6;
             var6 = copyDataProperties(var29, var28);
             var6 = 'style';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 47:
             return var1;

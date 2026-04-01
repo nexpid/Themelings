@@ -214,9 +214,9 @@ case 5:
                 var6 = var6.PerkCardVariant;
                 var8 = var6.NARROW;
                 var6 = 'variant';
-                var1[var6] = var8;
+                var1[5] = var8;
                 var6 = 'style';
-                var1[var6] = var7;
+                var1[5] = var7;
                 var1 = var4.bind(var3)(var2, var1, var5);
                 return var1;
             }

@@ -129,7 +129,7 @@ case 2:
             var16 = var5;
             var6 = copyDataProperties(var17, var16);
             var6 = 'isFocused';
-            var1[var6] = var8;
+            var1[5] = var8;
             var8 = var5.leading;
             var6 = new Array(3);
             var6[0] = var8;
@@ -151,7 +151,7 @@ case 2:
             var11 = copyDataProperties(var17, var16);
             var12 = arg2;
             var11 = 'ref';
-            var7[var11] = var12;
+            var7[10] = var12;
             var11 = var10.padding;
             var12 = new Array(3);
             var12[0] = var11;
@@ -160,17 +160,17 @@ case 2:
             var11 = var5.inputStyle;
             var12[2] = var11;
             var11 = 'style';
-            var7[var11] = var12;
+            var7[10] = var12;
             var10 = var10.placeholderText;
             var11 = var10.color;
             var10 = 'placeholderTextColor';
-            var7[var10] = var11;
+            var7[9] = var11;
             var7 = var9.bind(var4)(var8, var7);
             var6[1] = var7;
             var5 = var5.trailing;
             var6[2] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -1085,23 +1085,23 @@ case 75:
             var44 = var15;
             var13 = copyDataProperties(var45, var44);
             var13 = 'style';
-            var5[var13] = var30;
+            var5[12] = var30;
             var30 = 'accessibilityLabel';
-            var5[var30] = var31;
+            var5[29] = var31;
             var31 = true;
             var30 = 'accessible';
-            var5[var30] = var31;
+            var5[29] = var31;
             var31 = 'button';
             var30 = 'accessibilityRole';
-            var5[var30] = var31;
+            var5[29] = var31;
             var30 = {};
             var30['selected'] = var28;
             var30['expanded'] = var26;
             var26 = 'accessibilityState';
-            var5[var26] = var30;
+            var5[25] = var30;
             var30 = _closure1_slot5;
             var26 = 'hitSlop';
-            var5[var26] = var30;
+            var5[25] = var30;
             var30 = var18.length;
             var26 = 0;
             var30 = var30 > var26;
@@ -1111,13 +1111,13 @@ case 78:
             var26 = var18;
 case 77:
             var18 = 'accessibilityHint';
-            var5[var18] = var26;
+            var5[17] = var26;
             var18 = 'collapsable';
-            var5[var18] = var24;
+            var5[17] = var24;
             var18 = 'accessibilityActions';
-            var5[var18] = var20;
+            var5[17] = var20;
             var18 = 'onAccessibilityAction';
-            var5[var18] = var19;
+            var5[17] = var19;
             var18 = new Array(3);
             var18[0] = var10;
             var26 = _closure1_slot7;
@@ -1160,7 +1160,7 @@ case 81:
             var10 = var20.bind(var4)(var19, var10);
             var18[2] = var10;
             var10 = 'children';
-            var5[var10] = var18;
+            var5[9] = var18;
             var9 = var17.bind(var4)(var9, var5);
             var5 = new Array(2);
             var5[0] = var9;
@@ -1180,8 +1180,8 @@ case 84:
             var12 = new Array(2);
             var12[0] = var15;
             var12[1] = var14;
-            var7[var13] = var12;
-            var7[var10] = var11;
+            var7[12] = var12;
+            var7[9] = var11;
             var6 = var9.bind(var4)(var8, var7);
 case 83:
             var5[1] = var6;

@@ -127,7 +127,7 @@ case 10:
             var8['isRefreshEnabled'] = var13;
             var9 = var12.bind(var5)(var9, var8);
             var8 = 'children';
-            var1[var8] = var9;
+            var1[7] = var9;
             var8 = var6.bind(var5)(var4, var1);
             var1 = var8;
             if(var3) { _fun0001_ip = 12; continue _fun0001 }
@@ -276,7 +276,7 @@ case 27:
             var15['style'] = var19;
             var17 = var18.bind(var4)(var17, var15);
             var15 = 'children';
-            var5[var15] = var17;
+            var5[14] = var17;
             var8 = var14.bind(var4)(var11, var5);
 case 26:
             var5 = new Array(5);

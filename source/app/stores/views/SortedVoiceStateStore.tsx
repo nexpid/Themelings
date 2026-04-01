@@ -662,15 +662,15 @@ case 65:
                 var14 = var7;
                 var7 = copyDataProperties(var15, var14);
                 var7 = 'member';
-                var4[var7] = var11;
+                var4[6] = var11;
                 var7 = _closure1_slot24;
                 var10 = var7.bind(var10)(var8, var9);
                 var7 = 'comparator';
-                var4[var7] = var10;
+                var4[6] = var10;
                 var7 = 'nick';
-                var4[var7] = var9;
+                var4[6] = var9;
                 var7 = 'voiceState';
-                var4[var7] = var8;
+                var4[6] = var8;
                 var4 = var5.bind(var6)(var3, var4);
                 var4 = true;
                 return var4;
@@ -765,9 +765,9 @@ case 74:
                 var14 = var9;
                 var9 = copyDataProperties(var15, var14);
                 var9 = 'member';
-                var2[var9] = var6;
+                var2[8] = var6;
                 var9 = 'comparator';
-                var2[var9] = var10;
+                var2[8] = var10;
                 var8 = var8 == var6;
                 var7 = undefined;
                 if(var8) { _fun0013_ip = 79; continue _fun0013 }
@@ -775,7 +775,7 @@ case 80:
                 var7 = var6.nick;
 case 79:
                 var6 = 'nick';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
                 var2 = true;
                 return var2;

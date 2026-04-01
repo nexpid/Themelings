@@ -422,10 +422,10 @@ case 24:
             var6 = copyDataProperties(var9, var8);
             var7 = var5.handleScroll;
             var6 = 'onScroll';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = var5.renderRow;
             var5 = 'renderItem';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };

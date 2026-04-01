@@ -746,7 +746,7 @@ case 55:
             var17 = undefined;
             var8 = var18.bind(var17)(var19);
 case 92:
-            var10[var16] = var8;
+            var10[15] = var8;
             var8 = 1;
             var20 = var16 + var8;
             var22 = var10;

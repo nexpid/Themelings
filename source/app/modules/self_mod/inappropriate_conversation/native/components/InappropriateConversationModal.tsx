@@ -663,7 +663,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = 'headerLeft';
-        var2[var4] = var6;
+        var2[3] = var6;
         var6 = function render() {
             var4 = _closure1_slot13;
             var3 = _closure1_slot17;
@@ -679,7 +679,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = 'render';
-        var2[var4] = var6;
+        var2[3] = var6;
         var1['INTRO'] = var2;
         var2 = {};
         var11 = var2;
@@ -703,7 +703,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
-        var2[var4] = var6;
+        var2[3] = var6;
         var1['TAKE_ACTION'] = var2;
         var2 = {};
         var11 = var2;
@@ -717,7 +717,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var2)(var3, var1);
             return var1;
         };
-        var2[var4] = var6;
+        var2[3] = var6;
         var1['SAFETY_TIPS'] = var2;
         var2 = {};
         var11 = var2;
@@ -733,7 +733,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
-        var2[var4] = var3;
+        var2[3] = var3;
         var1['CRISIS_TEXT_LINE'] = var2;
         return var1;
     };
@@ -837,7 +837,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.CtaEventTypes;
             var6 = var5.USER_TAKEOVER_MODAL_DISMISS;
             var5 = 'cta';
-            var2[var5] = var6;
+            var2[4] = var6;
             var2 = var3.bind(var4)(var2);
             return var1;
         };
@@ -862,7 +862,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ViewNameTypes;
             var6 = var5.SAFETY_TAKEOVER_MODAL;
             var5 = 'viewName';
-            var2[var5] = var6;
+            var2[4] = var6;
             var2 = var3.bind(var4)(var2);
             return var1;
         };

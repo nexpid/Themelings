@@ -110,15 +110,15 @@ case 4:
     var11 = {};
     var12 = var2.MESSAGE_SENT;
     var5 = null;
-    var11[var12] = var5;
+    var11[11] = var5;
     var12 = var2.INVITE_ACCEPTED;
-    var11[var12] = var5;
+    var11[11] = var5;
     var12 = var2.FRIEND_REQUEST_SENT;
-    var11[var12] = var5;
+    var11[11] = var5;
     var12 = var2.DM_SPACE;
-    var11[var12] = var5;
+    var11[11] = var5;
     var12 = var2.CHANNEL_BANNER;
-    var11[var12] = var5;
+    var11[11] = var5;
     var9['promptLastSeen'] = var11;
     var12 = var10.Set;
     var10 = var12.prototype;
@@ -214,7 +214,7 @@ case 11:
                 var12 = var4;
                 var4 = copyDataProperties(var13, var12);
                 var4 = 'promptLastSeen';
-                var3[var4] = var5;
+                var3[3] = var5;
                 var4 = global;
                 var6 = var4.Set;
                 var4 = _closure1_slot8;
@@ -244,7 +244,7 @@ case 15:
                 var4 = new var14[var6](var13, var12);
                 var5 = var4 instanceof Object ? var4 : var5;
                 var4 = 'eligiblePromptTypes';
-                var3[var4] = var5;
+                var3[3] = var5;
                 _closure1_slot9 = var3;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -360,7 +360,7 @@ case 0:
             var8 = var4;
             var3 = copyDataProperties(var8, var7);
             var3 = 'promptLastSeen';
-            var1[var3] = var4;
+            var1[2] = var4;
             var4 = var2.eligiblePromptTypes;
             var3 = null;
             if(!(var3 != var4)) { _fun0005_ip = 21; continue _fun0005 }
@@ -410,7 +410,7 @@ case 21:
             var3 = var2 instanceof Object ? var2 : var4;
 case 29:
             var2 = 'eligiblePromptTypes';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

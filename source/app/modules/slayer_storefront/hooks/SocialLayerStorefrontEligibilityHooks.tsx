@@ -276,7 +276,7 @@ case 43:
             var13 = var2;
             var12 = var5;
             var4 = arraySpread(var13, var12, var11);
-            var2[var4] = var3;
+            var2[3] = var3;
             var3 = 1;
             var3 = var4 + var3;
             var1 = var2;

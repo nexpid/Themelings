@@ -332,7 +332,7 @@ case 17:
                     var5 = copyDataProperties(var8, var7);
                     var5 = _closure3_slot0;
                     var4 = 'text';
-                    var2[var4] = var5;
+                    var2[3] = var5;
                     var1[var3] = var2;
                     return var1;
                 };
@@ -362,7 +362,7 @@ case 17:
                     var5 = copyDataProperties(var8, var7);
                     var5 = _closure3_slot0;
                     var4 = 'image';
-                    var2[var4] = var5;
+                    var2[3] = var5;
                     var1[var3] = var2;
                     return var1;
                 };
@@ -608,7 +608,7 @@ case 25:
                     var4 = copyDataProperties(var8, var7);
                     var5 = undefined;
                     var4 = 'image';
-                    var2[var4] = var5;
+                    var2[3] = var5;
                     var1[var3] = var2;
                     return var1;
                 };
@@ -642,7 +642,7 @@ case 34:
                         var4 = var5.bind(var2)(var4);
                         var2 = var4.generateEmptyPollAnswer;
                         var2 = var2.bind(var4)();
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         return var1;

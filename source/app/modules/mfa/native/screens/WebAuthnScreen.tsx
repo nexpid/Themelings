@@ -135,11 +135,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2.AUTHENTICATE;
     var9 = var8.DCDSecurityKeyManager;
     var9 = var9.authenticate;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var2.ANDROID_PASSKEY;
     var8 = var8.DCDSecurityKeyManager;
     var8 = var8.authenticatePasskey;
-    var5[var9] = var8;
+    var5[8] = var8;
     var _closure1_slot8 = var5;
     var5 = 15;
     var5 = var7[var5];

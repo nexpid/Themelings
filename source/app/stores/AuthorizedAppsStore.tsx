@@ -464,7 +464,7 @@ case 19:
             var12 = var1;
             var10 = 0;
             var7 = arraySpread(var12, var11, var10);
-            var1[var7] = var5;
+            var1[6] = var5;
             var4 = 1;
             var7 = var7 + var4;
             _closure1_slot10 = var1;
@@ -477,7 +477,7 @@ case 22:
             var12 = var1;
             var10 = 0;
             var3 = arraySpread(var12, var11, var10);
-            var1[var3] = var5;
+            var1[2] = var5;
             var3 = var3 + var4;
             _closure1_slot11 = var1;
 case 21:

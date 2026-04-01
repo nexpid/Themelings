@@ -311,7 +311,7 @@ case 10:
                 };
                 var3 = var3.bind(var4)(var2);
                 var2 = 'permissions';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var5 = var3.bind(var5)(var1);
@@ -494,8 +494,8 @@ case 25:
                     var13 = _closure2_slot2;
                     var15 = var15.bind(var16)(var13, var12);
                     var13 = 'permissions';
-                    var1[var13] = var15;
-                    var2[var10] = var1;
+                    var1[12] = var15;
+                    var2[9] = var1;
                     var19 = null;
                     var22 = var5;
                     var21 = var12;

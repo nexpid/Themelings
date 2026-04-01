@@ -175,12 +175,12 @@ case 4:
             var2 = copyDataProperties(var5, var4);
             var3 = false;
             var2 = 'headerShown';
-            var1[var2] = var3;
+            var1[1] = var3;
             var3 = true;
             var2 = 'gestureEnabled';
-            var1[var2] = var3;
+            var1[1] = var3;
             var2 = 'fullScreenGestureEnabled';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         };
         var8 = var3.bind(var10)(var1, var2);

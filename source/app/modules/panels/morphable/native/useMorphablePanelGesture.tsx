@@ -508,7 +508,7 @@ case 32:
                         var7 = copyDataProperties(var14, var13);
                         var8 = true;
                         var7 = 'requiresPop';
-                        var4[var7] = var8;
+                        var4[6] = var8;
                         var4 = var5.bind(var6)(var4);
 case 31:
                         var5 = _closure2_slot10;
@@ -536,7 +536,7 @@ case 36:
                         var9 = copyDataProperties(var14, var13);
                         var10 = false;
                         var9 = 'requiresPop';
-                        var6[var9] = var10;
+                        var6[8] = var10;
                         var6 = var7.bind(var8)(var6);
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;

@@ -284,7 +284,7 @@ case 8:
             var8 = copyDataProperties(var27, var26);
             var9 = var17.name;
             var8 = 'pageCategory';
-            var7[var8] = var9;
+            var7[7] = var9;
             var5['newValue'] = var7;
             var9 = _closure1_slot9;
             var8 = _closure1_slot4;

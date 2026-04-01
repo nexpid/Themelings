@@ -370,7 +370,7 @@ case 42:
         var7 = var1;
         var4 = copyDataProperties(var7, var6);
         var4 = var5.scheduledMessageId;
-        var1[var4] = var5;
+        var1[3] = var5;
         _closure1_slot6 = var1;
         var1 = {};
         var6 = _closure1_slot8;
@@ -390,7 +390,7 @@ case 42:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = var4.scheduledMessageId;
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot6 = var2;
         var1 = undefined;
         return var1;
@@ -569,7 +569,7 @@ case 45:
         var3 = {};
         var3['channelId'] = var4;
         var3['scheduledTimestamp'] = var5;
-        var2[var4] = var3;
+        var2[3] = var3;
         _closure1_slot8 = var2;
         var1 = undefined;
         return var1;

@@ -261,7 +261,7 @@ case 14:
                             var5 = var3;
                             var3 = copyDataProperties(var6, var5);
                             var3 = 'uri';
-                            var2[var3] = var4;
+                            var2[2] = var4;
                             var1 = var2;
 case 7:
                             return var1;

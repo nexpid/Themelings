@@ -36,11 +36,11 @@ case 4:
             var3 = copyDataProperties(var7, var6);
             var4 = 'togglebutton';
             var3 = 'accessibilityRole';
-            var1[var3] = var4;
+            var1[2] = var4;
             var3 = {};
             var3['checked'] = var2;
             var2 = 'accessibilityState';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -63,11 +63,11 @@ case 4:
             var3 = copyDataProperties(var7, var6);
             var4 = 'togglebutton';
             var3 = 'accessibilityRole';
-            var1[var3] = var4;
+            var1[2] = var4;
             var3 = {};
             var3['checked'] = var2;
             var2 = 'accessibilityState';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

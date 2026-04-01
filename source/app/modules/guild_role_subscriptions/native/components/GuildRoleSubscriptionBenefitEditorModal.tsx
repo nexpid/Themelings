@@ -167,9 +167,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var20 = var10;
     var11 = copyDataProperties(var20, var19);
     var11 = 'marginStart';
-    var10[var11] = var13;
+    var10[10] = var13;
     var11 = 'lineHeight';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['deleteLabel'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot13 = var4;

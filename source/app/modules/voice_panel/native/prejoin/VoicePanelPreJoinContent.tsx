@@ -1552,7 +1552,7 @@ case 87:
     var18 = copyDataProperties(var22, var21);
     var19 = 0.5;
     var18 = 'opacity';
-    var10[var18] = var19;
+    var10[17] = var19;
     var4['previewImage'] = var10;
     var10 = {};
     var10['paddingHorizontal'] = var14;
@@ -1566,11 +1566,11 @@ case 87:
     var15 = copyDataProperties(var22, var21);
     var17 = 'flex';
     var15 = 'display';
-    var10[var15] = var17;
+    var10[14] = var17;
     var15 = 'alignItems';
-    var10[var15] = var16;
+    var10[14] = var16;
     var15 = 'justifyContent';
-    var10[var15] = var16;
+    var10[14] = var16;
     var4['joinButtonWrapper'] = var10;
     var10 = {};
     var10['marginHorizontal'] = var14;

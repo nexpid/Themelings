@@ -177,7 +177,7 @@ case 11:
             var19 = var1;
             var4 = copyDataProperties(var20, var19);
             var4 = 'containerBackground';
-            var2[var4] = var5;
+            var2[3] = var5;
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
             var4 = 9;
@@ -190,13 +190,13 @@ case 11:
             var5 = var5.bind(var13)(var15, var14);
             var11 = var11.bind(var12)(var5);
             var5 = 'gradientSecondaryBackground';
-            var2[var5] = var11;
+            var2[4] = var11;
             var5 = var3[var4];
             var11 = var6.bind(var9)(var5);
             var5 = var11.int2hex;
             var11 = var5.bind(var11)(var7);
             var5 = 'avatarBackground';
-            var2[var5] = var11;
+            var2[4] = var11;
             var4 = var3[var4];
             var5 = var6.bind(var9)(var4);
             var4 = var5.int2hex;
@@ -206,7 +206,7 @@ case 11:
             var3 = var3.bind(var6)(var7, var8);
             var4 = var4.bind(var5)(var3);
             var3 = 'statusBackground';
-            var2[var3] = var4;
+            var2[2] = var4;
             return var2;
 case 7:
             return var1;

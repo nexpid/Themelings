@@ -185,7 +185,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var11;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.OVERVIEW;
                         var3 = {};
                         var11 = var10[var7];
@@ -219,7 +219,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var11;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.MODERATION;
                         var3 = {};
                         var11 = var10[var7];
@@ -253,7 +253,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var11;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.AUDIT_LOG;
                         var3 = {};
                         var11 = var10[var7];
@@ -291,7 +291,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.AUDIT_LOG_FILTER;
                         var3 = {};
                         var12 = var10[var5];
@@ -325,7 +325,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.INTEGRATIONS;
                         var3 = {};
                         var12 = var10[var7];
@@ -359,7 +359,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.EMOJI;
                         var3 = {};
                         var12 = var10[var7];
@@ -396,7 +396,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.STICKERS;
                         var3 = {};
                         var12 = var10[var7];
@@ -433,7 +433,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.WEBHOOKS;
                         var3 = {};
                         var12 = var10[var7];
@@ -472,7 +472,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.EDIT_WEBHOOK;
                         var3 = {};
                         var12 = var10[var5];
@@ -504,7 +504,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.CHANNELS_FOLLOWED;
                         var3 = {};
                         var12 = var10[var7];
@@ -543,7 +543,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.INTEGRATION_SETTINGS;
                         var3 = {};
                         var12 = var10[var7];
@@ -580,7 +580,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.INTEGRATION_PLATFORM;
                         var3 = {};
                         var12 = var10[var5];
@@ -607,7 +607,7 @@ case 3:
                             var6 = copyDataProperties(var8, var7);
                             var6 = _closure1_slot10;
                             var5 = 'closeGuildSettings';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var7 = _closure4_slot1;
                             var8 = var1;
                             var5 = copyDataProperties(var8, var7);
@@ -615,7 +615,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.LOBBIES_LINKED;
                         var3 = {};
                         var12 = var10[var5];
@@ -646,7 +646,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.EDIT_LINKED_LOBBY;
                         var3 = {};
                         var12 = var10[var5];
@@ -678,7 +678,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.CHANNELS;
                         var3 = {};
                         var12 = var10[var7];
@@ -715,7 +715,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.SECURITY;
                         var3 = {};
                         var12 = var10[var7];
@@ -751,7 +751,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLES;
                         var3 = {};
                         var12 = var10[var7];
@@ -787,7 +787,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLE_EDIT_REFRESH;
                         var3 = {};
                         var12 = var10[var5];
@@ -821,7 +821,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.VANITY_URL;
                         var3 = {};
                         var12 = var10[var5];
@@ -852,7 +852,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.INSTANT_INVITES;
                         var3 = {};
                         var12 = var10[var7];
@@ -889,7 +889,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.MEMBERS;
                         var3 = {};
                         var12 = var10[var7];
@@ -926,7 +926,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.MEMBER_EDIT;
                         var3 = {};
                         var12 = function render(arg1) {
@@ -951,7 +951,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.MEMBER_KICK;
                         var3 = {};
                         var12 = function headerTitle() {
@@ -980,7 +980,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.MEMBER_BAN;
                         var3 = {};
                         var12 = function headerTitle() {
@@ -1009,7 +1009,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.BANS;
                         var3 = {};
                         var12 = var10[var7];
@@ -1046,7 +1046,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.COMMUNITY;
                         var3 = {};
                         var12 = var10[var7];
@@ -1079,12 +1079,12 @@ case 3:
                             var5 = copyDataProperties(var8, var7);
                             var6 = _closure4_slot0;
                             var5 = 'guildId';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var1 = var4.bind(var3)(var2, var1);
                             return var1;
                         };
                         var3['render'] = var11;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.COMMUNITY_INTRO;
                         var3 = {};
                         var7 = var10[var7];
@@ -1123,7 +1123,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLE_SUBSCRIPTIONS;
                         var3 = {};
                         var7 = var10[var5];
@@ -1151,7 +1151,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLE_SUBSCRIPTIONS_ENABLE_MONETIZATION;
                         var3 = {};
                         var7 = var10[var5];
@@ -1179,7 +1179,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLE_SUBSCRIPTIONS_BASIC;
                         var3 = {};
                         var7 = var10[var5];
@@ -1207,7 +1207,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLE_SUBSCRIPTIONS_TIERS;
                         var3 = {};
                         var7 = var10[var5];
@@ -1235,7 +1235,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLE_SUBSCRIPTIONS_TIER_EDIT;
                         var3 = {};
                         var7 = var10[var5];
@@ -1262,12 +1262,12 @@ case 3:
                             var5 = copyDataProperties(var8, var7);
                             var6 = _closure4_slot0;
                             var5 = 'guildId';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var1 = var4.bind(var3)(var2, var1);
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLE_SUBSCRIPTIONS_PAYMENTS;
                         var3 = {};
                         var7 = var10[var5];
@@ -1295,7 +1295,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var6 = var2.ROLE_SUBSCRIPTIONS_EMOJIS;
                         var3 = {};
                         var7 = var10[var5];
@@ -1323,7 +1323,7 @@ case 3:
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var6] = var3;
+                        var1[5] = var3;
                         var3 = var2.ROLE_SUBSCRIPTIONS_TIER_TEMPLATE_SELECTION;
                         var2 = {};
                         var6 = var10[var5];
@@ -1350,12 +1350,12 @@ case 3:
                             var5 = copyDataProperties(var8, var7);
                             var6 = _closure4_slot0;
                             var5 = 'guildId';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var1 = var4.bind(var3)(var2, var1);
                             return var1;
                         };
                         var2['render'] = var4;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         return var1;
                     };
                     var1 = var2.bind(var5)(var4, var3);

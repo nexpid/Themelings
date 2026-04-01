@@ -132,7 +132,7 @@ case 12:
     var9 = {};
     var14 = var8.INSTAGRAM;
     var13 = ['1036753656588017764'];
-    var9[var14] = var13;
+    var9[13] = var13;
     var _closure1_slot10 = var9;
     var14 = var5.Map;
     var9 = var8.INSTAGRAM;

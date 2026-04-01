@@ -818,7 +818,7 @@ case 47:
                                 var2 = copyDataProperties(var5, var4);
                                 var3 = _closure5_slot1;
                                 var2 = _closure5_slot0;
-                                var1[var3] = var2;
+                                var1[2] = var2;
                                 return var1;
                             };
                             var2 = var3.bind(var1)(var2);

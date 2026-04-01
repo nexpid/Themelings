@@ -697,9 +697,9 @@ case 95:
             var26 = var29.bind(var2)(var26, var21);
             var25 = var27.bind(var28)(var26);
 case 94:
-            var24[var19] = var25;
+            var24[18] = var25;
             var25 = var10.bot_id;
-            var24[var17] = var25;
+            var24[16] = var25;
             var23['descriptor'] = var24;
             var24 = {};
             var23['commands'] = var24;
@@ -766,17 +766,17 @@ case 103:
                     var5 = var3;
 case 102:
                     var3 = 'description';
-                    var1[var3] = var5;
+                    var1[2] = var5;
                     var5 = var2.dm_permission;
                     var3 = 'dm_permission';
-                    var1[var3] = var5;
+                    var1[2] = var5;
                     var5 = var2.name_default;
                     if(!(var4 == var5)) { _fun0012_ip = 104; continue _fun0012 }
 case 105:
                     var5 = var2.name;
 case 104:
                     var3 = 'name';
-                    var1[var3] = var5;
+                    var1[2] = var5;
                     var9 = var2.options;
                     var3 = var4 == var9;
                     var6 = undefined;
@@ -792,7 +792,7 @@ case 107:
                     var5 = new Array(0);
 case 53:
                     var3 = 'options';
-                    var1[var3] = var5;
+                    var1[2] = var5;
                     var3 = var2.permissions;
                     var3 = var4 != var3;
                     var4 = undefined;
@@ -803,7 +803,7 @@ case 109:
                     var4 = var5.bind(var6)(var3, var7);
 case 108:
                     var3 = 'permissions';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = var2.description;
                     var3 = var2.description_default;
                     if(!(var4 !== var3)) { _fun0012_ip = 90; continue _fun0012 }
@@ -953,7 +953,7 @@ case 128:
                     var16 = var4;
                     var1 = copyDataProperties(var16, var15);
                     var1 = 'bot';
-                    var4[var1] = var8;
+                    var4[0] = var8;
                     var1 = false;
                     var4 = var5.bind(var6)(var4, var1, var7);
                     var1 = {};
@@ -2052,7 +2052,7 @@ case 221:
                     var2 = _closure3_slot0;
                     var3 = var2.section;
                     var2 = 'section';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
@@ -2478,7 +2478,7 @@ case 285:
             var29 = var7;
             var28 = var21;
             var21 = copyDataProperties(var29, var28);
-            var7[var12] = var20;
+            var7[11] = var20;
             var7 = var19.bind(var17)(var7);
 case 284:
             var19 = var13.bind(var8)();
@@ -2666,21 +2666,21 @@ case 43:
             var6 = var7.bind(var8)(var5);
 case 9:
             var5 = 'choices';
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = var2.description_default;
             if(!(var3 == var6)) { _fun0028_ip = 125; continue _fun0028 }
 case 297:
             var6 = var2.description;
 case 125:
             var5 = 'description';
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = var2.name_default;
             if(!(var3 == var6)) { _fun0028_ip = 71; continue _fun0028 }
 case 104:
             var6 = var2.name;
 case 71:
             var5 = 'name';
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = var2.options;
             var3 = var3 == var6;
             var4 = undefined;
@@ -2691,7 +2691,7 @@ case 54:
             var4 = var5.bind(var6)(var3);
 case 298:
             var3 = 'options';
-            var1[var3] = var4;
+            var1[2] = var4;
             var4 = var2.description;
             var3 = var2.description_default;
             if(!(var4 !== var3)) { _fun0028_ip = 79; continue _fun0028 }
@@ -2725,7 +2725,7 @@ case 300:
             var4 = var2.name;
 case 43:
             var3 = 'name';
-            var1[var3] = var4;
+            var1[2] = var4;
             var4 = var2.name;
             var3 = var2.name_default;
             if(!(var4 !== var3)) { _fun0029_ip = 34; continue _fun0029 }

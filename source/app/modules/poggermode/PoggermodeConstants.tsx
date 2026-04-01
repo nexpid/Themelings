@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4[6] = var11;
     var11 = [9001, 4];
     var4[7] = var11;
-    var10[var9] = var4;
+    var10[8] = var4;
     var9 = var5.LEVEL_2;
     var4 = new Array(8);
     var11 = [1, 0.0001];
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4[6] = var11;
     var11 = [9001, 10];
     var4[7] = var11;
-    var10[var9] = var4;
+    var10[8] = var4;
     var9 = var5.LEVEL_3;
     var4 = new Array(8);
     var11 = [1, 0.001];
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4[6] = var11;
     var11 = [9001, 16];
     var4[7] = var11;
-    var10[var9] = var4;
+    var10[8] = var4;
     var9 = var5.LEVEL_4;
     var4 = new Array(8);
     var11 = [1, 0.25];
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4[6] = var11;
     var11 = [9001, 50];
     var4[7] = var11;
-    var10[var9] = var4;
+    var10[8] = var4;
     var9 = var5.LEVEL_5;
     var4 = new Array(8);
     var11 = [1, 0.001];
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4[6] = var11;
     var11 = [9001, 10000];
     var4[7] = var11;
-    var10[var9] = var4;
+    var10[8] = var4;
     var _closure1_slot0 = var10;
     var9 = var2.Object;
     var4 = var9.keys;
@@ -156,19 +156,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var13 = var5.LEVEL_1;
     var4 = new Array(0);
-    var9[var13] = var4;
+    var9[12] = var4;
     var13 = var5.LEVEL_2;
     var4 = new Array(0);
-    var9[var13] = var4;
+    var9[12] = var4;
     var13 = var5.LEVEL_3;
     var4 = new Array(0);
-    var9[var13] = var4;
+    var9[12] = var4;
     var13 = var5.LEVEL_4;
     var4 = new Array(0);
-    var9[var13] = var4;
+    var9[12] = var4;
     var13 = var5.LEVEL_5;
     var4 = new Array(0);
-    var9[var13] = var4;
+    var9[12] = var4;
     var4 = function(arg1, arg2) {
         var3 = arg2;
         var1 = {};
@@ -200,7 +200,7 @@ case 4:
             }
         };
         var2 = var4.bind(var5)(var2);
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var4 = var11.bind(var12)(var4, var9);
@@ -211,19 +211,19 @@ case 4:
     var2 = {};
     var12 = var5.LEVEL_1;
     var11 = new Array(0);
-    var2[var12] = var11;
+    var2[11] = var11;
     var12 = var5.LEVEL_2;
     var11 = new Array(0);
-    var2[var12] = var11;
+    var2[11] = var11;
     var12 = var5.LEVEL_3;
     var11 = new Array(0);
-    var2[var12] = var11;
+    var2[11] = var11;
     var12 = var5.LEVEL_4;
     var11 = new Array(0);
-    var2[var12] = var11;
+    var2[11] = var11;
     var12 = var5.LEVEL_5;
     var11 = new Array(0);
-    var2[var12] = var11;
+    var2[11] = var11;
     var1 = function(arg1, arg2) {
         var3 = arg2;
         var1 = {};
@@ -264,7 +264,7 @@ case 9:
             }
         };
         var2 = var4.bind(var5)(var2);
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var2 = var9.bind(var10)(var1, var2);

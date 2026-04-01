@@ -169,7 +169,7 @@ case 12:
             var15 = var11;
 case 10:
             var11 = 'lineClamp';
-            var5[var11] = var15;
+            var5[10] = var15;
             var11 = function onTextLayout(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -195,7 +195,7 @@ case 13:
                 }
             };
             var9 = 'onTextLayout';
-            var5[var9] = var11;
+            var5[8] = var11;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;

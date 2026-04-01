@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7 + var5;
         var6['height'] = var5;
         var5 = 'headerStyle';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

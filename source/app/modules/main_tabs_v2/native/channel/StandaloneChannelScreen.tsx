@@ -239,7 +239,7 @@ case 14:
                 var5 = copyDataProperties(var9, var8);
                 var6 = _closure2_slot9;
                 var5 = 'onPress';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
@@ -448,15 +448,15 @@ case 20:
     var21 = var10;
     var16 = copyDataProperties(var21, var20);
     var16 = 'top';
-    var10[var16] = var1;
+    var10[15] = var1;
     var16 = 'height';
-    var10[var16] = var17;
+    var10[15] = var17;
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
     var17 = var16.STANDALONE_CHANNEL_HEADER_BORDER;
     var16 = 'backgroundColor';
-    var10[var16] = var17;
+    var10[15] = var17;
     var4['headerBottomBorder'] = var10;
     var10 = {};
     var10['borderTopLeftRadius'] = var15;

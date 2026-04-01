@@ -251,7 +251,7 @@ case 9:
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
     var9 = var9.SMALL;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
@@ -260,7 +260,7 @@ case 9:
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
     var9 = var9.NORMAL;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
@@ -269,7 +269,7 @@ case 9:
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
     var9 = var9.LARGE;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
@@ -278,7 +278,7 @@ case 9:
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
     var9 = var9.XXLARGE;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
@@ -287,7 +287,7 @@ case 9:
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
     var9 = var9.XSMALL_20;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
@@ -296,7 +296,7 @@ case 9:
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
     var9 = var9.SIZE_16;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
@@ -305,7 +305,7 @@ case 9:
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
     var9 = var9.XXSMALL_10;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
@@ -314,7 +314,7 @@ case 9:
     var8 = var6.bind(var1)(var8);
     var8 = var8.AvatarSizes;
     var8 = var8.XSMALL;
-    var5[var9] = var8;
+    var5[8] = var8;
     var _closure1_slot9 = var5;
     var5 = 6;
     var5 = var7[var5];

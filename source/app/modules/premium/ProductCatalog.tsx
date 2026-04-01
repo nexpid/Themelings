@@ -509,7 +509,7 @@ case 21:
     var48 = var40;
     var40 = new var50[var46](var49, var48, var47);
     var40 = var40 instanceof Object ? var40 : var44;
-    var4[var43] = var40;
+    var4[42] = var40;
     var43 = var39.TIER_1;
     var40 = var36[var41];
     var46 = var42.bind(var1)(var40);
@@ -532,7 +532,7 @@ case 21:
     var48 = var40;
     var40 = new var50[var46](var49, var48, var47);
     var40 = var40 instanceof Object ? var40 : var44;
-    var4[var43] = var40;
+    var4[42] = var40;
     var40 = var39.TIER_2;
     var41 = var36[var41];
     var43 = var42.bind(var1)(var41);
@@ -572,7 +572,7 @@ case 21:
     var48 = var39;
     var39 = new var50[var43](var49, var48, var47);
     var39 = var39 instanceof Object ? var39 : var41;
-    var4[var40] = var39;
+    var4[39] = var39;
     var4 = var37.bind(var38)(var4);
     var _closure1_slot11 = var4;
     var37 = new Array(3);

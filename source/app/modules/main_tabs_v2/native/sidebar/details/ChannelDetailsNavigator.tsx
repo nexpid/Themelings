@@ -473,7 +473,7 @@ case 20:
                     var4 = var5.isAndroid;
                     var5 = var4.bind(var5)();
                     var4 = 'shouldHandleSafeArea';
-                    var1[var4] = var5;
+                    var1[3] = var5;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
@@ -633,7 +633,7 @@ case 20:
             var15 = copyDataProperties(var23, var22);
             var15 = var14.THREADS;
             var14 = 'name';
-            var10[var14] = var15;
+            var10[13] = var15;
             var15 = function options(arg1) {
                 var1 = arg1;
                 var7 = var1.navigation;
@@ -679,7 +679,7 @@ case 20:
                 return var1;
             };
             var14 = 'options';
-            var10[var14] = var15;
+            var10[13] = var15;
             var15 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -691,7 +691,7 @@ case 20:
                 return var1;
             };
             var14 = 'getComponent';
-            var10[var14] = var15;
+            var10[13] = var15;
             var10 = var13.bind(var4)(var11, var10);
             var8[4] = var10;
             var10 = global;

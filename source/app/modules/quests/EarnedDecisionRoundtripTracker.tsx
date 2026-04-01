@@ -52,17 +52,17 @@ case 4:
             var9 = copyDataProperties(var15, var14);
             var12 = var6.endpoint;
             var9 = 'endpoint';
-            var1[var9] = var12;
+            var1[8] = var12;
             var12 = var6.wasSuccessful;
             var9 = 'was_successful';
-            var1[var9] = var12;
+            var1[8] = var12;
             var9 = 'api_latency_ms';
-            var1[var9] = var11;
+            var1[8] = var11;
             var11 = _closure1_slot5;
             var9 = var11.getType;
             var11 = var9.bind(var11)();
             var9 = 'mobile_network_type';
-            var1[var9] = var11;
+            var1[8] = var11;
             var8 = var8 != var10;
             if(!var8) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -75,13 +75,13 @@ case 6:
             var8 = copyDataProperties(var15, var14);
             var9 = var6.callerSource;
             var8 = 'caller_source';
-            var1[var8] = var9;
+            var1[7] = var9;
             var9 = var6.requestId;
             var8 = 'request_id';
-            var1[var8] = var9;
+            var1[7] = var9;
             var8 = var6.fetchedAt;
             var6 = 'fetched_at';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var5 = 7;
@@ -90,7 +90,7 @@ case 6:
             var5 = var6.isForegrounded;
             var6 = var5.bind(var6)();
             var5 = 'is_foregrounded';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
 case 2:
             var1 = undefined;
@@ -232,13 +232,13 @@ case 14:
                 var6 = var10.now;
                 var10 = var6.bind(var10)();
                 var6 = 'apiResponseTimestamp';
-                var3[var6] = var10;
+                var3[5] = var10;
                 var6 = 'wasSuccessful';
-                var3[var6] = var9;
+                var3[5] = var9;
                 var6 = 'requestId';
-                var3[var6] = var8;
+                var3[5] = var8;
                 var6 = 'fetchedAt';
-                var3[var6] = var7;
+                var3[5] = var7;
                 var3 = var5.bind(var1)(var3);
                 var3 = var2.pendingRequests;
                 var2 = var3.delete;

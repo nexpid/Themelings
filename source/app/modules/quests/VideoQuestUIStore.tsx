@@ -249,7 +249,7 @@ case 12:
                     var5['duration'] = var8;
                     var7 = _closure3_slot3;
                     var5['maxTimestampSec'] = var7;
-                    var4[var6] = var5;
+                    var4[5] = var5;
                     var2['videoProgress'] = var4;
                     var1 = var3.bind(var1)(var2);
                     return var1;

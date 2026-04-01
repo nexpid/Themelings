@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = copyDataProperties(var13, var12);
         var10 = true;
         var9 = 'inLink';
-        var6[var9] = var10;
+        var6[8] = var10;
         var6 = var8.bind(var5)(var7, var6);
         var2['children'] = var6;
         var1 = var1.key;
@@ -113,7 +113,7 @@ case 5:
                                 var1 = _closure5_slot1;
                                 var9 = var10.bind(var7)(var9, var1);
                                 var1 = 'children';
-                                var5[var1] = var9;
+                                var5[0] = var9;
                                 var1 = -1;
                                 var1 = var8.bind(var7)(var6, var5, var1);
                                 var1 = var3.bind(var4)(var1);

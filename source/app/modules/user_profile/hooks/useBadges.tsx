@@ -147,7 +147,7 @@ case 18:
                     var3 = var4.bind(var5)(var2);
 case 20:
                     var2 = 'description';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };

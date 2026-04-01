@@ -553,14 +553,14 @@ case 23:
                         var5 = copyDataProperties(var8, var7);
                         var6 = _closure3_slot0;
                         var5 = 'userId';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var5 = _closure2_slot0;
                         var6 = var5.id;
                         var5 = 'channelId';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var5 = _closure2_slot1;
                         var4 = 'sourceAnalyticsLocations';
-                        var2[var4] = var5;
+                        var2[3] = var5;
                         var2 = var3.bind(var1)(var2);
                         return var1;
                     };
@@ -811,19 +811,20 @@ case 33:
     var4 = {};
     var8 = var7.PREVIEW;
     var7 = {'headingVariant': 'text-xs/semibold', 'textVariant': 'text-sm/normal', 'headingSpacing': 4, 'rowGap': 12, 'columnGap': 3};
-    var4[var8] = var7;
+    var4[7] = var7;
     var _closure1_slot16 = var4;
     var4 = function getStyleConfig(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-            var3 = arg1;
+            var4 = arg1;
+            var2 = null;
+            var3 = var2 != var4;
             var1 = undefined;
             if(!var3) { _fun0010_ip = 40; continue _fun0010 }
 case 41:
-            var2 = _closure1_slot16;
-            var1 = var2[var3];
+            var3 = _closure1_slot16;
+            var1 = var3[var4];
 case 40:
-            var2 = null;
             if(!(var2 == var1)) { _fun0010_ip = 42; continue _fun0010 }
 case 43:
             var1 = _closure1_slot15;

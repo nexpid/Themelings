@@ -133,7 +133,7 @@ case 7:
             var13 = var13.text;
             var14 = var15.bind(var16)(var4, var14, var13);
             var13 = 'children';
-            var11[var13] = var14;
+            var11[12] = var14;
             var11 = var10.bind(var4)(var12, var11);
             var2['children'] = var11;
             var8 = var10.bind(var4)(var3, var2);
@@ -150,13 +150,13 @@ case 4:
             var19 = var5;
             var5 = copyDataProperties(var20, var19);
             var5 = 'ref';
-            var1[var5] = var9;
+            var1[4] = var9;
             var5 = 'leading';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'trailing';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'inputStyle';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

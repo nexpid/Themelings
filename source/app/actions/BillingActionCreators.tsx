@@ -160,11 +160,11 @@ case 12: // try_start_0
                     var17 = var10;
                     var11 = copyDataProperties(var17, var16);
                     var11 = 'line_1';
-                    var10[var11] = var14;
+                    var10[10] = var14;
                     var11 = 'line_2';
-                    var10[var11] = var13;
+                    var10[10] = var13;
                     var11 = 'postal_code';
-                    var10[var11] = var12;
+                    var10[10] = var12;
                     var8['billing_address'] = var10;
                     var10 = var9.expiresMonth;
                     var8['expires_month'] = var10;
@@ -865,7 +865,7 @@ case 81:
             var15 = var15 instanceof Object ? var15 : var16;
             var16 = var15.stack;
             var15 = 'stacktrace';
-            var9[var15] = var16;
+            var9[14] = var16;
             var9 = var13.bind(var14)(var11, var9);
             var10 = false;
 case 80:
@@ -929,7 +929,7 @@ case 85:
             var19 = var6;
             var5 = copyDataProperties(var19, var18);
             var5 = 'extra';
-            var2[var5] = var6;
+            var2[4] = var6;
             var2 = var3.bind(var4)(var1, var2);
 case 84:
             return var1;
@@ -5437,7 +5437,7 @@ case 344:
                         var7 = var1;
                         var2 = copyDataProperties(var7, var6);
                         var2 = 'plan_id';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     };
                     var11 = var14.bind(var18)(var11);

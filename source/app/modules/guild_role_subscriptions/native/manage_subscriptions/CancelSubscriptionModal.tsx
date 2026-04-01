@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = copyDataProperties(var10, var9);
                 var8 = _closure2_slot0;
                 var7 = 'onClose';
-                var5[var7] = var8;
+                var5[6] = var8;
                 var5 = var4.bind(var1)(var6, var5);
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure2_slot0;
             var6 = var7.bind(var8)(var6);
             var1['headerLeft'] = var6;
-            var3[var5] = var1;
+            var3[4] = var1;
             var1 = {};
             var1['screens'] = var3;
             var3 = {};

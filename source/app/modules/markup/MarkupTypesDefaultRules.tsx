@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.paragraph;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.s;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.strong;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.u;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.em;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.link;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.url;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.autolink;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.br;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.blockQuote;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.inlineCode;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.codeBlock;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.channelMention;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.mention;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.soundboard;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.staticRouteLink;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.commandMention;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.timestamp;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.list;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.heading;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.attachmentLink;
-    var2[var10] = var9;
+    var2[9] = var9;
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.bind(var1)(var9);
     var9 = var9.RULES;
     var9 = var9.subtext;
-    var2[var10] = var9;
+    var2[9] = var9;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AST_KEY;
@@ -222,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var1)(var4);
     var4 = var4.RULES;
     var4 = var4.silentPrefix;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

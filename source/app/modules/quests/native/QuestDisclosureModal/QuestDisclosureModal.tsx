@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2['render'] = var4;
-        var6[var3] = var2;
+        var6[2] = var2;
         var4 = _closure1_slot3;
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;

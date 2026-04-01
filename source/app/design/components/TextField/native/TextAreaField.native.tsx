@@ -145,7 +145,7 @@ case 9:
             var20 = var6;
             var6 = copyDataProperties(var21, var20);
             var6 = 'isFocused';
-            var1[var6] = var7;
+            var1[5] = var7;
             var8 = _closure1_slot3;
             var6 = 8;
             var6 = var11[var6];
@@ -159,7 +159,7 @@ case 9:
             var21 = var6;
             var11 = copyDataProperties(var21, var20);
             var11 = 'ref';
-            var6[var11] = var15;
+            var6[10] = var15;
             var11 = var9.padding;
             var15 = new Array(3);
             var15[0] = var11;
@@ -168,14 +168,14 @@ case 9:
             var11 = var10.area;
             var15[2] = var11;
             var11 = 'style';
-            var6[var11] = var15;
+            var6[10] = var15;
             var9 = var9.placeholderText;
             var11 = var9.color;
             var9 = 'placeholderTextColor';
-            var6[var9] = var11;
+            var6[8] = var11;
             var11 = true;
             var9 = 'multiline';
-            var6[var9] = var11;
+            var6[8] = var11;
             var7 = var8.bind(var4)(var7, var6);
             var6 = new Array(2);
             var6[0] = var7;
@@ -206,7 +206,7 @@ case 12:
 case 11:
             var6[1] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

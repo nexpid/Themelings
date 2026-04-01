@@ -235,13 +235,13 @@ case 10:
                 var9 = copyDataProperties(var14, var13);
                 var12 = _closure2_slot5;
                 var9 = 'video_asset_id';
-                var5[var9] = var12;
+                var5[8] = var12;
                 var12 = _closure2_slot1;
                 var9 = 'quest_completed';
-                var5[var9] = var12;
+                var5[8] = var12;
                 var12 = _closure2_slot0;
                 var9 = 'video_duration_sec';
-                var5[var9] = var12;
+                var5[8] = var12;
                 var9 = 8;
                 var9 = var11[var9];
                 var11 = var10.bind(var7)(var9);
@@ -251,10 +251,10 @@ case 10:
                 var6 = var6.current;
                 var9 = var10.bind(var11)(var9, var6);
                 var6 = 'video_progress';
-                var5[var6] = var9;
+                var5[5] = var9;
                 var9 = _closure2_slot6;
                 var6 = 'video_session_id';
-                var5[var6] = var9;
+                var5[5] = var9;
                 var6 = _closure2_slot11;
                 var6 = var8 == var6;
                 if(var6) { _fun0002_ip = 11; continue _fun0002 }
@@ -264,7 +264,7 @@ case 12:
                 var7 = var6.bind(var8)();
 case 11:
                 var6 = 'impression_id';
-                var5[var6] = var7;
+                var5[5] = var7;
                 var1['properties'] = var5;
                 var4 = _closure2_slot4;
                 var1['sourceQuestContent'] = var4;

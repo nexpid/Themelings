@@ -185,7 +185,7 @@ case 21:
             var13 = copyDataProperties(var24, var23);
             var16 = 25;
             var13 = 'thumbnailCornerRadius';
-            var1[var13] = var16;
+            var1[12] = var16;
             var13 = var4 != var17;
             var16 = undefined;
             if(!var13) { _fun0001_ip = 22; continue _fun0001 }
@@ -194,19 +194,19 @@ case 23:
             var16 = var13.bind(var17)();
 case 22:
             var13 = 'headerText';
-            var1[var13] = var16;
+            var1[12] = var16;
             var16 = var5.headerColor;
             var13 = 'headerColor';
-            var1[var13] = var16;
+            var1[12] = var16;
             var13 = 'acceptLabelText';
-            var1[var13] = var15;
+            var1[12] = var15;
             var13 = 'channelIcon';
-            var1[var13] = var6;
+            var1[12] = var6;
             var13 = 'titleText';
-            var1[var13] = var14;
+            var1[12] = var14;
             var14 = var5.titleColor;
             var13 = 'titleColor';
-            var1[var13] = var14;
+            var1[12] = var14;
             var14 = var4 != var10;
             var13 = undefined;
             if(!var14) { _fun0001_ip = 24; continue _fun0001 }
@@ -214,27 +214,27 @@ case 25:
             var13 = var10;
 case 24:
             var10 = 'thumbnailUrl';
-            var1[var10] = var13;
+            var1[9] = var13;
             var10 = 'subtitle';
-            var1[var10] = var11;
+            var1[9] = var11;
             var10 = undefined;
             if(!(var12 !== var11)) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
             var10 = var5.subtitleColor;
 case 26:
             var5 = 'subtitleColor';
-            var1[var5] = var10;
+            var1[4] = var10;
             var5 = 'acceptLabelBackgroundColor';
-            var1[var5] = var9;
+            var1[4] = var9;
             var5 = 'acceptLabelBorderColor';
-            var1[var5] = var6;
+            var1[4] = var6;
             var5 = 'acceptLabelColor';
-            var1[var5] = var8;
+            var1[4] = var8;
             var8 = false;
             var5 = 'embedCanBeTapped';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'canBeAccepted';
-            var1[var5] = var7;
+            var1[4] = var7;
             var7 = var3.channel;
             var8 = var4 == var7;
             var5 = undefined;
@@ -249,7 +249,7 @@ case 31:
             var6 = var5;
 case 30:
             var5 = 'channelName';
-            var1[var5] = var6;
+            var1[4] = var6;
             var3 = var3.type;
             if(!(var4 == var3)) { _fun0001_ip = 32; continue _fun0001 }
 case 33:
@@ -257,7 +257,7 @@ case 33:
             var3 = var2.FRIEND;
 case 32:
             var2 = 'type';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

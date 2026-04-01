@@ -664,13 +664,13 @@ case 40:
                     var9 = var6;
                     var6 = copyDataProperties(var10, var9);
                     var6 = 'width';
-                    var7[var6] = var8;
+                    var7[5] = var8;
                     var6 = 9;
                     var8 = var6 * var8;
                     var6 = 16;
                     var8 = var8 / var6;
                     var6 = 'height';
-                    var7[var6] = var8;
+                    var7[5] = var8;
                     var6 = new Array(1);
                     var6[0] = var7;
                     var2['initialSources'] = var6;
@@ -1020,10 +1020,10 @@ case 54:
             var6 = var5.renderVideo;
             var7 = var6.bind(var5)();
             var6 = 'video';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = var5.handleScroll;
             var5 = 'onScroll';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };

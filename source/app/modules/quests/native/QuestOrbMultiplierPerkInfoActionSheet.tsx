@@ -174,7 +174,7 @@ case 0:
                 var6 = var6.bind(var1)(var5);
                 var5 = var6.getArticleURL;
                 var2 = _closure1_slot6;
-                var2 = var2.VIRTUAL_CURRENCY_LEARN_MORE;
+                var2 = var2.VIRTUAL_CURRENCY_ORB_MULTIPLIER_LEARN_MORE;
                 var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
                 return var1;

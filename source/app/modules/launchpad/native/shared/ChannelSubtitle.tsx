@@ -71,7 +71,7 @@ case 8:
             var6['color'] = var9;
             var7 = var7.bind(var8)(var6);
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
 case 2:
@@ -168,7 +168,7 @@ case 6:
             var13 = var7;
             var7 = copyDataProperties(var14, var13);
             var7 = 'children';
-            var3[var7] = var8;
+            var3[6] = var8;
             var2 = var5.bind(var6)(var4, var3);
 case 15:
             return var2;

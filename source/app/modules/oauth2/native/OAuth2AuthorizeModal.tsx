@@ -193,27 +193,38 @@ case 4:
             var6 = {};
             var15 = 'button';
             var6['accessibilityRole'] = var15;
-            var15 = var11.backStep;
-            var21 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var20 = 10;
-            var18 = var16[var20];
-            var18 = var21.bind(var4)(var18);
+            var16 = var11.backStep;
+            var15 = null;
+            if(!(var15 == var16)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var20 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var16 = 10;
+            var18 = var21[var16];
+            var18 = var20.bind(var4)(var18);
             var19 = var18.intl;
             var18 = var19.string;
-            var16 = var16[var20];
-            var16 = var21.bind(var4)(var16);
+            var16 = var21[var16];
+            var16 = var20.bind(var4)(var16);
             var16 = var16.t;
-            if(var15) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var15 = var16.cpT0Cq;
-            var15 = var18.bind(var19)(var15);
+            var16 = var16.cpT0Cq;
+            var16 = var18.bind(var19)(var16);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var16 = var16["13/7kX"];
-            var15 = var18.bind(var19)(var16);
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var18 = 10;
+            var19 = var22[var18];
+            var19 = var21.bind(var4)(var19);
+            var20 = var19.intl;
+            var19 = var20.string;
+            var18 = var22[var18];
+            var18 = var21.bind(var4)(var18);
+            var18 = var18.t;
+            var18 = var18["13/7kX"];
+            var16 = var19.bind(var20)(var18);
 case 8:
-            var6['accessibilityLabel'] = var15;
+            var6['accessibilityLabel'] = var16;
             var14 = function onPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -233,35 +244,38 @@ case 9:
             };
             var6['onPress'] = var14;
             var14 = var11.backStep;
-            var18 = _closure1_slot5;
-            var16 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            if(var14) { _fun0001_ip = 11; continue _fun0001 }
+            if(!(var15 == var14)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
+            var16 = _closure1_slot5;
+            var15 = _closure1_slot0;
+            var20 = _closure1_slot2;
             var14 = 12;
-            var14 = var22[var14];
-            var14 = var16.bind(var4)(var14);
+            var14 = var20[var14];
+            var14 = var15.bind(var4)(var14);
             var15 = var14.XSmallIcon;
             var14 = {};
-            var21 = _closure1_slot1;
-            var19 = 4;
-            var19 = var22[var19];
-            var19 = var21.bind(var4)(var19);
-            var19 = var19.colors;
-            var19 = var19.INTERACTIVE_TEXT_DEFAULT;
-            var14['color'] = var19;
-            var14 = var18.bind(var4)(var15, var14);
+            var19 = _closure1_slot1;
+            var18 = 4;
+            var18 = var20[var18];
+            var18 = var19.bind(var4)(var18);
+            var18 = var18.colors;
+            var18 = var18.INTERACTIVE_TEXT_DEFAULT;
+            var14['color'] = var18;
+            var14 = var16.bind(var4)(var15, var14);
             _fun0001_ip = 13; continue _fun0001;
 case 11:
+            var18 = _closure1_slot5;
+            var16 = _closure1_slot0;
+            var21 = _closure1_slot2;
             var15 = 11;
-            var15 = var22[var15];
+            var15 = var21[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.ArrowSmallLeftIcon;
             var15 = {};
-            var21 = _closure1_slot1;
+            var20 = _closure1_slot1;
             var19 = 4;
-            var19 = var22[var19];
-            var19 = var21.bind(var4)(var19);
+            var19 = var21[var19];
+            var19 = var20.bind(var4)(var19);
             var19 = var19.colors;
             var19 = var19.INTERACTIVE_TEXT_DEFAULT;
             var15['color'] = var19;
@@ -283,6 +297,7 @@ case 13:
             var18 = var7.bind(var4)(var18);
             var19 = var18.Text;
             var18 = {'variant': 'redesign/heading-18/bold', 'accessibilityRole': 'header'};
+            var20 = 10;
             var21 = var14[var20];
             var21 = var7.bind(var4)(var21);
             var22 = var21.intl;
@@ -330,9 +345,9 @@ case 13:
             var23 = var11;
             var11 = copyDataProperties(var24, var23);
             var11 = 'onScroll';
-            var9[var11] = var13;
+            var9[10] = var13;
             var11 = 'centerContent';
-            var9[var11] = var12;
+            var9[10] = var12;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

@@ -307,10 +307,10 @@ case 0:
                 var4 = copyDataProperties(var10, var9);
                 var5 = var2.max_uses;
                 var4 = 'maxUses';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.max_age;
                 var4 = 'maxAge';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var4 = 6;
@@ -327,16 +327,16 @@ case 42:
 case 37:
                 var5 = var5.bind(var6)(var4);
                 var4 = 'createdAt';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.target_type;
                 var4 = 'targetType';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.target_user;
                 var4 = 'targetUser';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var4 = var2.target_application;
                 var2 = 'targetApplication';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var11 = var2;

@@ -99,7 +99,7 @@ case 2:
         return var1;
     };
     var4 = 'awaitOnline';
-    var2[var4] = var7;
+    var2[3] = var7;
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

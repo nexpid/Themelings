@@ -97,7 +97,7 @@ case 4:
     var12 = copyDataProperties(var17, var16);
     var14 = 10;
     var12 = 'zIndex';
-    var11[var12] = var14;
+    var11[11] = var14;
     var5['container'] = var11;
     var11 = {'position': 'absolute', 'flexDirection': 'row', 'alignItems': 'center', 'top': 4294967292, 'right': 8};
     var5['buttons'] = var11;

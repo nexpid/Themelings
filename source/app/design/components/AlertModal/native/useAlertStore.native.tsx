@@ -173,7 +173,7 @@ case 6:
                 var3['node'] = var6;
                 var5 = _closure2_slot2;
                 var3['onDismiss'] = var5;
-                var2[var4] = var3;
+                var2[3] = var3;
                 var3 = 1;
                 var3 = var4 + var3;
                 var1['alerts'] = var2;

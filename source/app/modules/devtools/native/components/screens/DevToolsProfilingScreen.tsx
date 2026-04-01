@@ -149,10 +149,10 @@ case 6:
     var4 = var4.colors;
     var12 = var4.BACKGROUND_BASE_LOW;
     var4 = 'backgroundColor';
-    var10[var4] = var12;
+    var10[3] = var12;
     var4 = 16;
     var12 = 'padding';
-    var10[var12] = var4;
+    var10[11] = var4;
     var7['container'] = var10;
     var10 = {};
     var11 = var11.CODE_BOLD;

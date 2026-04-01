@@ -726,7 +726,7 @@ case 30:
                     var11 = copyDataProperties(var16, var15);
                     var11 = var10.emoji;
                     var10 = 'emoji';
-                    var8[var10] = var11;
+                    var8[9] = var11;
                     var6 = var8;
 case 29:
                     var8 = _closure1_slot0;

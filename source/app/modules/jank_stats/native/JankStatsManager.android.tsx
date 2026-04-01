@@ -338,16 +338,16 @@ case 24:
                 var7 = copyDataProperties(var11, var10);
                 var8 = 1;
                 var7 = 'version';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var8 = var6.totalFrameCount;
                 var7 = 'total_frame_count';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var7 = var6.jankFrameCount;
                 var6 = 'jank_frame_count';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var7 = arg1;
                 var6 = 'trigger';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
 case 23:
                 return var1;

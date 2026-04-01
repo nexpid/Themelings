@@ -122,14 +122,14 @@ case 9:
             var10 = var6;
             var7 = copyDataProperties(var11, var10);
             var7 = 'guildId';
-            var4[var7] = var8;
+            var4[6] = var8;
             var8 = var6.nick;
             if(!(var5 == var8)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var8 = var2.username;
 case 10:
             var7 = 'nick';
-            var4[var7] = var8;
+            var4[6] = var8;
             var7 = var6.avatar;
             var9 = var5 != var7;
             var8 = undefined;
@@ -138,7 +138,7 @@ case 13:
             var8 = var7;
 case 12:
             var7 = 'avatar';
-            var4[var7] = var8;
+            var4[6] = var8;
             var7 = var6.avatarDecoration;
             var7 = var5 != var7;
             var8 = undefined;
@@ -151,7 +151,7 @@ case 15:
             var8 = var7;
 case 14:
             var7 = 'avatarDecoration';
-            var4[var7] = var8;
+            var4[6] = var8;
             var7 = var6.premiumSince;
             var9 = var5 != var7;
             var8 = undefined;
@@ -160,7 +160,7 @@ case 17:
             var8 = var7;
 case 16:
             var7 = 'premiumSince';
-            var4[var7] = var8;
+            var4[6] = var8;
             var6 = var6.isPending;
             var7 = var5 != var6;
             if(!var7) { _fun0002_ip = 18; continue _fun0002 }
@@ -168,7 +168,7 @@ case 19:
             var7 = var6;
 case 18:
             var6 = 'isPending';
-            var4[var6] = var7;
+            var4[5] = var7;
             var6 = {};
             var11 = var6;
             var10 = var2;
@@ -181,7 +181,7 @@ case 21:
             var8 = var7;
 case 20:
             var7 = 'email';
-            var6[var7] = var8;
+            var6[6] = var8;
             var2 = var2.phone;
             var8 = var5 != var2;
             var7 = undefined;
@@ -190,11 +190,11 @@ case 23:
             var7 = var2;
 case 22:
             var2 = 'phone';
-            var6[var2] = var7;
+            var6[1] = var7;
             var2 = 'user';
-            var4[var2] = var6;
+            var4[1] = var6;
             var2 = 'communicationDisabledUntil';
-            var4[var2] = var5;
+            var4[1] = var5;
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 8;

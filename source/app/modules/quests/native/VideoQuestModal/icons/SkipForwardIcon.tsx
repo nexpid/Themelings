@@ -66,18 +66,18 @@ case 6:
             var16 = var1;
             var7 = copyDataProperties(var16, var15);
             var7 = 'width';
-            var1[var7] = var11;
+            var1[6] = var11;
             var7 = 'height';
-            var1[var7] = var8;
+            var1[6] = var8;
             var8 = '0 0 32 32';
             var7 = 'viewBox';
-            var1[var7] = var8;
+            var1[6] = var8;
             var8 = 'none';
             var7 = 'fill';
-            var1[var7] = var8;
+            var1[6] = var8;
             var8 = arg2;
             var7 = 'ref';
-            var1[var7] = var8;
+            var1[6] = var8;
             var8 = _closure1_slot3;
             var7 = _closure1_slot0;
             var6 = var10[var5];
@@ -103,7 +103,7 @@ case 6:
             var5 = var8.bind(var4)(var7, var5);
             var6[2] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

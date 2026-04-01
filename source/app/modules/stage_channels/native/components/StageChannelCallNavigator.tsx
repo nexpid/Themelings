@@ -690,7 +690,7 @@ case 35:
 case 34:
             var15[1] = var12;
             var12 = 'children';
-            var9[var12] = var15;
+            var9[11] = var15;
             var9 = var11.bind(var4)(var10, var9);
             var8[1] = var9;
             var5['children'] = var8;

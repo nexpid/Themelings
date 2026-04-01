@@ -333,7 +333,7 @@ case 3:
                         var6 = var4;
                         var3 = arraySpread(var7, var6, var5);
                         var2 = _closure4_slot0;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         _fun0001_ip = 4; continue _fun0001;
@@ -423,7 +423,7 @@ case 4:
                 };
                 var3['render'] = var2;
                 var2 = 'REPORT_RAID';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = undefined;

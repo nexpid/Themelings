@@ -77,16 +77,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.unsafe_rawColors;
     var14 = var13.BLACK;
     var13 = 'backgroundColor';
-    var9[var13] = var14;
+    var9[12] = var14;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.radii;
     var14 = var13.xs;
     var13 = 'borderRadius';
-    var9[var13] = var14;
+    var9[12] = var14;
     var14 = 0.6;
     var13 = 'opacity';
-    var9[var13] = var14;
+    var9[12] = var14;
     var4['gifOverlay'] = var9;
     var9 = {};
     var16 = var12.absoluteFillObject;
@@ -97,15 +97,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.spacing;
     var13 = var12.PX_8;
     var12 = 'margin';
-    var9[var12] = var13;
+    var9[11] = var13;
     var13 = 'center';
     var12 = 'justifyContent';
-    var9[var12] = var13;
+    var9[11] = var13;
     var14 = 'row';
     var12 = 'flexDirection';
-    var9[var12] = var14;
+    var9[11] = var14;
     var12 = 'alignItems';
-    var9[var12] = var13;
+    var9[11] = var13;
     var4['categoryName'] = var9;
     var9 = {};
     var10 = var6[var10];
@@ -279,7 +279,7 @@ case 6:
             var5 = var3.bind(var4)(var7, var5);
             var6[2] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

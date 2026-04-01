@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = new Array(2);
     var10[0] = var15;
     var10[1] = var14;
-    var9[var12] = var10;
+    var9[11] = var10;
     var7['scope'] = var9;
     var9 = function validation(arg1) {
         var5 = arg1;
@@ -420,7 +420,7 @@ case 2:
         return var1;
     };
     var7['handler'] = var9;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.NAVIGATE_TO_CONNECTIONS;
     var7 = {};
     var9 = function validation(arg1) {
@@ -439,7 +439,7 @@ case 2:
     var12 = var13.ANY;
     var10 = new Array(1);
     var10[0] = var15;
-    var9[var12] = var10;
+    var9[11] = var10;
     var7['scope'] = var9;
     var9 = function handler(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -498,7 +498,7 @@ case 29:
         }
     };
     var7['handler'] = var9;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var4.SHARE_LINK;
     var8 = 19;
     var8 = var6[var8];
@@ -510,7 +510,7 @@ case 29:
     var14 = var13.ANY;
     var13 = new Array(1);
     var13[0] = var15;
-    var12[var14] = var13;
+    var12[13] = var13;
     var4['scope'] = var12;
     var11 = function handler(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -645,7 +645,7 @@ case 31:
     };
     var4['handler'] = var11;
     var4 = var9.bind(var10)(var8, var4);
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -570,7 +570,7 @@ case 55:
                                 var1 = copyDataProperties(var10, var9);
                                 var7 = _closure4_slot1;
                                 var1 = 'productId';
-                                var2[var1] = var7;
+                                var2[0] = var7;
                                 var8 = _closure1_slot3;
                                 var1 = undefined;
                                 var7 = function* () {
@@ -621,7 +621,7 @@ case 56:
                                 };
                                 var8 = var8.bind(var1)(var7);
                                 var7 = 'continueWithDefault';
-                                var2[var7] = var8;
+                                var2[6] = var8;
                                 var6 = _closure1_slot3;
                                 var5 = function* () {
                                     var1 = function* anon_0_() {
@@ -665,7 +665,7 @@ case 61:
                                 };
                                 var6 = var6.bind(var1)(var5);
                                 var5 = 'continueWithUpsell';
-                                var2[var5] = var6;
+                                var2[4] = var6;
                                 var1 = var4.bind(var1)(var3, var2);
                                 return var1;
                             };
@@ -935,7 +935,7 @@ case 83:
                                 var1 = copyDataProperties(var10, var9);
                                 var7 = _closure3_slot1;
                                 var1 = 'productId';
-                                var2[var1] = var7;
+                                var2[0] = var7;
                                 var8 = _closure1_slot3;
                                 var1 = undefined;
                                 var7 = function* () {
@@ -980,7 +980,7 @@ case 61:
                                 };
                                 var8 = var8.bind(var1)(var7);
                                 var7 = 'continueWithUpsell';
-                                var2[var7] = var8;
+                                var2[6] = var8;
                                 var6 = _closure1_slot3;
                                 var5 = function* () {
                                     var1 = function* anon_0_() {
@@ -1030,7 +1030,7 @@ case 56:
                                 };
                                 var6 = var6.bind(var1)(var5);
                                 var5 = 'continueWithDefault';
-                                var2[var5] = var6;
+                                var2[4] = var6;
                                 var1 = var4.bind(var1)(var3, var2);
                                 return var1;
                             };
@@ -1358,13 +1358,13 @@ case 90:
     var12 = copyDataProperties(var21, var20);
     var17 = 16;
     var12 = 'marginTop';
-    var8[var12] = var17;
+    var8[11] = var17;
     var12 = 13;
     var15 = var6[var12];
     var15 = var5.bind(var1)(var15);
     var18 = var15.DARK_WHITE_500_LIGHT_BLACK_500;
     var15 = 'color';
-    var8[var15] = var18;
+    var8[14] = var18;
     var4['header'] = var8;
     var8 = {'marginTop': 7, 'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center', 'paddingVertical': 12, 'paddingHorizontal': 12, 'flexWrap': 'wrap'};
     var15 = 14;
@@ -1437,32 +1437,32 @@ case 90:
     var8 = var6[var8];
     var10 = var9.bind(var1)(var8);
     var8 = 'imgWumpusNitro';
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = 22;
     var8 = var6[var8];
     var10 = var9.bind(var1)(var8);
     var8 = 'imgWumpusNitroBoost';
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = 19;
     var8 = var6[var8];
     var10 = var9.bind(var1)(var8);
     var8 = 'imgWumpusNitroClassic';
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = 21;
     var8 = var6[var8];
     var10 = var9.bind(var1)(var8);
     var8 = 'imgWumpusNitroClassicBoost';
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = 18;
     var8 = var6[var8];
     var10 = var9.bind(var1)(var8);
     var8 = 'imgWumpusNitroTier0';
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = 17;
     var8 = var6[var8];
     var9 = var9.bind(var1)(var8);
     var8 = 'imgBoost';
-    var4[var9] = var8;
+    var4[8] = var8;
     var _closure1_slot28 = var4;
     var8 = {};
     var4 = function getLabel() {
@@ -1752,7 +1752,7 @@ case 98:
                 var6 = copyDataProperties(var8, var7);
                 var6 = _closure2_slot0;
                 var5 = 'application_id';
-                var2[var5] = var6;
+                var2[4] = var6;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
@@ -2000,12 +2000,12 @@ case 109:
                 var10 = var2;
                 var6 = copyDataProperties(var10, var9);
                 var6 = 'subscription_plan_gateway_plan_id';
-                var2[var6] = var8;
+                var2[5] = var8;
                 var6 = 'load_id';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var6 = _closure2_slot0;
                 var5 = 'application_id';
-                var2[var5] = var6;
+                var2[4] = var6;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };

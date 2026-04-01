@@ -349,11 +349,11 @@ case 28:
             var2 = copyDataProperties(var8, var7);
             var5 = 'midnight';
             var2 = 'theme';
-            var4[var2] = var5;
+            var4[1] = var5;
             var2 = 'settings';
-            var3[var2] = var4;
+            var3[1] = var4;
             var2 = 'appearance';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

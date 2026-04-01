@@ -741,7 +741,7 @@ case 38:
             var1 = copyDataProperties(var6, var5);
             var4 = _closure2_slot0;
             var1 = 'applicationStatus';
-            var2[var1] = var4;
+            var2[0] = var4;
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
             return var1;

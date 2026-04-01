@@ -1085,7 +1085,7 @@ case 99:
             var30 = var4;
             var1 = copyDataProperties(var30, var29);
             var1 = 'autoArchiveDuration';
-            var4[var1] = var21;
+            var4[0] = var21;
             var1 = 'threadMetadata';
             var1 = var5.bind(var18)(var1, var4);
             _closure1_slot18 = var1;
@@ -1100,7 +1100,7 @@ case 101:
             var30 = var4;
             var1 = copyDataProperties(var30, var29);
             var1 = 'locked';
-            var4[var1] = var20;
+            var4[0] = var20;
             var1 = 'threadMetadata';
             var1 = var5.bind(var18)(var1, var4);
             _closure1_slot18 = var1;
@@ -1115,7 +1115,7 @@ case 103:
             var30 = var4;
             var1 = copyDataProperties(var30, var29);
             var1 = 'invitable';
-            var4[var1] = var19;
+            var4[0] = var19;
             var1 = 'threadMetadata';
             var1 = var5.bind(var18)(var1, var4);
             _closure1_slot18 = var1;
@@ -1341,7 +1341,7 @@ case 132:
         var4 = var1.invite;
         var1 = undefined;
         var4 = var6.bind(var1)(var4);
-        var3[var5] = var4;
+        var3[4] = var4;
         _closure1_slot23 = var3;
         return var1;
     };

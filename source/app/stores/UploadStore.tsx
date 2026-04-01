@@ -470,7 +470,7 @@ case 3:
             var12 = var3;
             var11 = var9;
             var9 = arraySpread(var12, var11, var10);
-            var3[var9] = var4;
+            var3[8] = var4;
             var8 = 1;
             var8 = var9 + var8;
             var6[var7] = var3;
@@ -489,7 +489,7 @@ case 43:
             var11 = var4;
             var8 = copyDataProperties(var12, var11);
             var8 = 'items';
-            var3[var8] = var9;
+            var3[7] = var9;
             var7[var6] = var3;
 case 42:
             var3 = _closure1_slot15;

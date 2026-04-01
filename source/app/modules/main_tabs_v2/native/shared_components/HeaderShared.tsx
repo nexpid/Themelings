@@ -195,7 +195,7 @@ case 10:
             var5 = copyDataProperties(var8, var7);
             var6 = _closure2_slot0;
             var5 = 'navigation';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
@@ -222,7 +222,7 @@ case 10:
         var10 = var1;
         var5 = copyDataProperties(var10, var9);
         var5 = 'screenIndex';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -309,7 +309,7 @@ case 10:
     var15 = var15.colors;
     var16 = var15.TEXT_BRAND;
     var15 = 'color';
-    var14[var15] = var16;
+    var14[14] = var16;
     var4['backButtonLabel'] = var14;
     var4 = var9.bind(var12)(var4);
     var _closure1_slot8 = var4;
@@ -707,10 +707,10 @@ case 39:
                 var6 = copyDataProperties(var9, var8);
                 var7 = true;
                 var6 = 'isNavigationScreen';
-                var1[var6] = var7;
+                var1[5] = var7;
                 var6 = _closure2_slot1;
                 var5 = 'screenIndex';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

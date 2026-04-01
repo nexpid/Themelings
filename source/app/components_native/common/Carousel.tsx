@@ -405,7 +405,7 @@ case 21:
                 var9['children'] = var10;
                 var10 = var8.bind(var4)(var2, var9);
                 var9 = 'children';
-                var5[var9] = var10;
+                var5[8] = var10;
                 var7 = var8.bind(var4)(var7, var5);
                 var5 = new Array(2);
                 var5[0] = var7;

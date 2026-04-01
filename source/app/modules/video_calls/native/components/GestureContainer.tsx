@@ -393,7 +393,7 @@ case 5:
         var7['children'] = var9;
         var8 = var3.bind(var4)(var8, var7);
         var7 = 'children';
-        var5[var7] = var8;
+        var5[6] = var8;
         var5 = var3.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);
@@ -659,7 +659,7 @@ case 9:
         var7['children'] = var9;
         var8 = var3.bind(var4)(var8, var7);
         var7 = 'children';
-        var5[var7] = var8;
+        var5[6] = var8;
         var5 = var3.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);

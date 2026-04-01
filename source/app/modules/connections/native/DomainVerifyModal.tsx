@@ -1109,7 +1109,7 @@ case 3:
                 return var1;
             };
             var1['render'] = var12;
-            var8[var3] = var1;
+            var8[2] = var1;
             var1 = _closure1_slot11;
             var3 = var1.PROOF_DNS;
             var1 = {};
@@ -1144,7 +1144,7 @@ case 3:
                 return var1;
             };
             var1['render'] = var12;
-            var8[var3] = var1;
+            var8[2] = var1;
             var1 = _closure1_slot11;
             var3 = var1.PROOF_HTTP;
             var1 = {};
@@ -1179,7 +1179,7 @@ case 3:
                 return var1;
             };
             var1['render'] = var4;
-            var8[var3] = var1;
+            var8[2] = var1;
             var4 = _closure1_slot8;
             var1 = 17;
             var1 = var10[var1];

@@ -130,6 +130,8 @@ case 6:
                 var1 = var9.bind(var10)(var11, var7, var8);
 case 8:
                 var1 = var5.bind(var4)(var6, var1);
+                var5 = true;
+                var1['allowOptimization'] = var5;
                 var1['item'] = var3;
                 var6 = var3.platform;
                 var5 = _closure1_slot9;

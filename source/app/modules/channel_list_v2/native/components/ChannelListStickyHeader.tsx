@@ -99,7 +99,7 @@ case 6:
             var7 = copyDataProperties(var13, var12);
             var9 = 1;
             var7 = 'zIndex';
-            var2[var7] = var9;
+            var2[6] = var9;
             var1['container'] = var2;
             var2 = {};
             var2['height'] = var9;

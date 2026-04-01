@@ -597,16 +597,16 @@ case 46:
                     var20 = var8;
                     var13 = copyDataProperties(var21, var20);
                     var13 = 'key';
-                    var2[var13] = var11;
+                    var2[12] = var11;
                     var13 = 'pointerEvents';
-                    var2[var13] = var16;
+                    var2[12] = var16;
                     var17 = var7.portal;
                     var13 = 'portal';
-                    var2[var13] = var17;
+                    var2[12] = var17;
                     var13 = 'paused';
-                    var2[var13] = var15;
+                    var2[12] = var15;
                     var13 = 'muted';
-                    var2[var13] = var14;
+                    var2[12] = var14;
                     var2 = var12.bind(var4)(var9, var2);
                     return var2;
 case 44:
@@ -636,12 +636,12 @@ case 52:
                     var20 = var8;
                     var13 = copyDataProperties(var21, var20);
                     var13 = 'key';
-                    var2[var13] = var11;
+                    var2[12] = var11;
                     var13 = 'visible';
-                    var2[var13] = var10;
+                    var2[12] = var10;
                     var17 = var8.style;
                     var13 = 'style';
-                    var2[var13] = var17;
+                    var2[12] = var17;
                     var17 = {};
                     var13 = var7.embedURI;
                     var17['uri'] = var13;
@@ -650,7 +650,7 @@ case 52:
                     var13 = var7.height;
                     var17['height'] = var13;
                     var13 = 'source';
-                    var2[var13] = var17;
+                    var2[12] = var17;
                     var2 = var12.bind(var4)(var9, var2);
                     return var2;
 case 50:
@@ -665,12 +665,12 @@ case 50:
                     var20 = var8;
                     var13 = copyDataProperties(var21, var20);
                     var13 = 'key';
-                    var2[var13] = var11;
+                    var2[12] = var11;
                     var13 = 'visible';
-                    var2[var13] = var10;
+                    var2[12] = var10;
                     var17 = var8.style;
                     var13 = 'style';
-                    var2[var13] = var17;
+                    var2[12] = var17;
                     var17 = {};
                     var13 = var7.embedURI;
                     var17['uri'] = var13;
@@ -679,11 +679,11 @@ case 50:
                     var13 = var7.height;
                     var17['height'] = var13;
                     var13 = 'source';
-                    var2[var13] = var17;
+                    var2[12] = var17;
                     var13 = _closure2_slot11;
                     var17 = var13.bind(var4)(var6, var7);
                     var13 = 'controls';
-                    var2[var13] = var17;
+                    var2[12] = var17;
                     var2 = var12.bind(var4)(var9, var2);
                     return var2;
 case 47:
@@ -723,13 +723,13 @@ case 59:
                     var20 = var8;
                     var12 = copyDataProperties(var21, var20);
                     var12 = 'key';
-                    var2[var12] = var11;
+                    var2[11] = var11;
                     var12 = 'source';
-                    var2[var12] = var7;
+                    var2[11] = var7;
                     var12 = 'index';
-                    var2[var12] = var6;
+                    var2[11] = var6;
                     var12 = 'pointerEvents';
-                    var2[var12] = var16;
+                    var2[11] = var16;
                     var2 = var9.bind(var4)(var3, var2);
                     _fun0005_ip = 60; continue _fun0005;
 case 56:
@@ -746,13 +746,13 @@ case 56:
                     var20 = var8;
                     var13 = copyDataProperties(var21, var20);
                     var13 = 'key';
-                    var3[var13] = var11;
+                    var3[12] = var11;
                     var13 = 'source';
-                    var3[var13] = var7;
+                    var3[12] = var7;
                     var13 = 'index';
-                    var3[var13] = var6;
+                    var3[12] = var6;
                     var13 = 'pointerEvents';
-                    var3[var13] = var16;
+                    var3[12] = var16;
                     var2 = var12.bind(var4)(var9, var3);
 case 60:
                     _fun0005_ip = 61; continue _fun0005;
@@ -774,19 +774,19 @@ case 54:
                     var20 = var8;
                     var13 = copyDataProperties(var21, var20);
                     var13 = 'key';
-                    var3[var13] = var11;
+                    var3[12] = var11;
                     var13 = 'pointerEvents';
-                    var3[var13] = var16;
+                    var3[12] = var16;
                     var13 = 'paused';
-                    var3[var13] = var15;
+                    var3[12] = var15;
                     var13 = _closure2_slot11;
                     var15 = var13.bind(var4)(var6, var7);
                     var13 = 'controls';
-                    var3[var13] = var15;
+                    var3[12] = var15;
                     var13 = 'muted';
-                    var3[var13] = var14;
+                    var3[12] = var14;
                     var13 = 'index';
-                    var3[var13] = var6;
+                    var3[12] = var6;
                     var14 = {};
                     var13 = var7.videoURI;
                     var14['uri'] = var13;
@@ -811,7 +811,7 @@ case 54:
                     var13 = var7.attachmentId;
                     var14['attachmentId'] = var13;
                     var13 = 'source';
-                    var3[var13] = var14;
+                    var3[12] = var14;
                     var2 = var12.bind(var4)(var9, var3);
 case 61:
                     return var2;
@@ -827,12 +827,12 @@ case 43:
                     var20 = var8;
                     var9 = copyDataProperties(var21, var20);
                     var9 = 'key';
-                    var1[var9] = var11;
+                    var1[8] = var11;
                     var9 = 'visible';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var9 = var8.style;
                     var8 = 'style';
-                    var1[var8] = var9;
+                    var1[7] = var9;
                     var9 = {};
                     var8 = var7.videoURI;
                     var9['uri'] = var8;
@@ -841,11 +841,11 @@ case 43:
                     var8 = var7.height;
                     var9['height'] = var8;
                     var8 = 'source';
-                    var1[var8] = var9;
+                    var1[7] = var9;
                     var5 = _closure2_slot11;
                     var6 = var5.bind(var4)(var6, var7);
                     var5 = 'controls';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 }

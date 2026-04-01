@@ -237,7 +237,7 @@ case 35:
     var15 = var13.RELATIONSHIPS_READ;
     var13 = new Array(1);
     var13[0] = var15;
-    var12[var14] = var13;
+    var12[13] = var13;
     var4['scope'] = var12;
     var11 = function handler(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -355,7 +355,7 @@ case 38:
     };
     var4['handler'] = var11;
     var4 = var9.bind(var10)(var8, var4);
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

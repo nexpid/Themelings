@@ -776,7 +776,7 @@ case 18:
         var3 = copyDataProperties(var14, var13);
         var4 = 'hidden';
         var3 = 'overflow';
-        var2[var3] = var4;
+        var2[2] = var4;
         var1['container'] = var2;
         var2 = {'flexDirection': 'row', 'alignItems': 'flex-end', 'paddingTop': 8, 'paddingHorizontal': null, 'paddingBottom': 9};
         var8 = _closure1_slot14;

@@ -93,7 +93,7 @@ case 0:
             var5 = undefined;
             var12 = var2.bind(var5)(var3);
             if(!(var1 == var10)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+case 3:
             var3 = _closure1_slot3;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -107,13 +107,13 @@ case 5:
             var19 = var14;
             var4 = copyDataProperties(var20, var19);
             var4 = 'accessibilityLabel';
-            var1[var4] = var7;
+            var1[3] = var7;
             var4 = 'accessibilityHint';
-            var1[var4] = var9;
+            var1[3] = var9;
             var4 = 'maxFontSizeMultiplier';
-            var1[var4] = var11;
+            var1[3] = var11;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0002_ip = 6; continue _fun0002;
+            _fun0002_ip = 5; continue _fun0002;
 case 4:
             var4 = _closure1_slot4;
             var8 = _closure1_slot0;
@@ -130,11 +130,11 @@ case 4:
             var15 = copyDataProperties(var20, var19);
             var16 = 'none';
             var15 = 'variant';
-            var2[var15] = var16;
+            var2[14] = var16;
             var15 = 'accessibilityLabel';
-            var2[var15] = var7;
+            var2[14] = var7;
             var7 = 'accessibilityHint';
-            var2[var7] = var9;
+            var2[6] = var9;
             var9 = _closure1_slot3;
             var6 = 5;
             var6 = var13[var6];
@@ -146,14 +146,14 @@ case 4:
             var19 = var14;
             var14 = copyDataProperties(var20, var19);
             var14 = 'accessibilityRole';
-            var6[var14] = var16;
+            var6[13] = var16;
             var14 = '';
-            var6[var15] = var14;
+            var6[14] = var14;
             var15 = 'lg';
             var14 = 'size';
-            var6[var14] = var15;
+            var6[13] = var15;
             var14 = 'maxFontSizeMultiplier';
-            var6[var14] = var11;
+            var6[13] = var11;
             var6 = var9.bind(var5)(var7, var6);
             var7 = new Array(2);
             var7[0] = var6;
@@ -169,9 +169,9 @@ case 4:
             var6 = var9.bind(var5)(var8, var6);
             var7[1] = var6;
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
-case 6:
+case 5:
             return var1;
         }
     };

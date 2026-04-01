@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = copyDataProperties(var16, var15);
         var14 = new Array(0);
         var13 = 'features';
-        var10[var13] = var14;
+        var10[12] = var14;
         var10 = var11.bind(var12)(var10);
         var8['guild'] = var10;
         var8 = var3.bind(var4)(var9, var8);

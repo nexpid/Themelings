@@ -281,7 +281,7 @@ case 7:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.CHANGE_EMAIL_WARNING;
                 var2 = {};
@@ -304,7 +304,7 @@ case 7:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.OVERVIEW;
                 var2 = {};
@@ -417,7 +417,7 @@ case 7:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.RESEND_EMAIL;
                 var2 = {};
@@ -448,7 +448,7 @@ case 7:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.CHANGE_EMAIL_COMPLETE;
                 var2 = {};
@@ -479,7 +479,7 @@ case 7:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.CONFIRM_EMAIL_CHANGE_CODE;
                 var2 = {};
@@ -512,7 +512,7 @@ case 7:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.CONFIRM_EMAIL_CHANGE_START;
                 var2 = {};
@@ -543,7 +543,7 @@ case 7:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.ENTER_EMAIL;
                 var2 = {};
@@ -576,7 +576,7 @@ case 7:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.ADD_PHONE;
                 var2 = {};
@@ -615,7 +615,7 @@ case 7:
                     var6 = var6.ChangePhoneReason;
                     var7 = var6.USER_ACTION_REQUIRED;
                     var6 = 'reason';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var6 = function onComplete(arg1) {
                         var4 = _closure5_slot0;
                         var3 = var4.push;
@@ -810,12 +810,12 @@ case 22:
                         return var1;
                     };
                     var5 = 'onComplete';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.VERIFY_PHONE;
                 var2 = {};
@@ -851,7 +851,7 @@ case 22:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.VERIFY_PASSWORD;
                 var2 = {};
@@ -885,7 +885,7 @@ case 22:
                     return var1;
                 };
                 var2['render'] = var12;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = _closure1_slot10;
                 var3 = var2.PHONE_THEN_EMAIL_INTERSTITIAL;
                 var2 = {};
@@ -914,7 +914,7 @@ case 22:
                     return var1;
                 };
                 var2['render'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var1 = undefined;

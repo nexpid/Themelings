@@ -324,7 +324,7 @@ case 4:
             var6 = var7.bind(var8)(var5);
 case 21:
             var5 = 'results';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3[var4] = var2;
             return var1;
 case 20:
@@ -366,7 +366,7 @@ case 22:
             var8 = var2;
             var5 = copyDataProperties(var8, var7);
             var5 = 'query';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3[var4] = var2;
             return var1;
         }
@@ -393,7 +393,7 @@ case 7:
             var5 = copyDataProperties(var8, var7);
             var6 = true;
             var5 = 'loading';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3[var4] = var2;
             return var1;
         }
@@ -421,9 +421,9 @@ case 22:
             var5 = copyDataProperties(var9, var8);
             var7 = false;
             var5 = 'loading';
-            var2[var5] = var7;
+            var2[4] = var7;
             var5 = 'results';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3[var4] = var2;
             return var1;
         }
@@ -450,10 +450,10 @@ case 7:
             var5 = copyDataProperties(var8, var7);
             var6 = false;
             var5 = 'loading';
-            var2[var5] = var6;
+            var2[4] = var6;
             var6 = new Array(0);
             var5 = 'results';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3[var4] = var2;
             return var1;
         }

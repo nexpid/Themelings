@@ -1211,7 +1211,7 @@ case 23:
                 var3 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot18;
                 var2 = 'paddingBottom';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var16 = var16.bind(var18)(var10, var15);

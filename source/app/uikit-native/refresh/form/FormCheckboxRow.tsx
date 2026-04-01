@@ -65,11 +65,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = copyDataProperties(var13, var12);
         var10 = 'checkbox';
         var6 = 'accessibilityRole';
-        var1[var6] = var10;
+        var1[5] = var10;
         var10 = {};
         var10['checked'] = var8;
         var6 = 'accessibilityState';
-        var1[var6] = var10;
+        var1[5] = var10;
         var6 = 4;
         var6 = var9[var6];
         var7 = var7.bind(var4)(var6);
@@ -77,10 +77,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['selected'] = var8;
         var7 = var3.bind(var4)(var7, var6);
         var6 = 'trailing';
-        var1[var6] = var7;
+        var1[5] = var7;
         var6 = var5.checkboxWrapperStyle;
         var5 = 'trailingWrapperStyle';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

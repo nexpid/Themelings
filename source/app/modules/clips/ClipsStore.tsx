@@ -1046,7 +1046,7 @@ case 86:
         var4 = var2;
         var2 = copyDataProperties(var5, var4);
         var2 = 'clipsSettings';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var2[1] = var8;
@@ -1065,7 +1065,7 @@ case 88:
             var3 = new Array(0);
 case 66:
             var2 = 'newClipIds';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1087,7 +1087,7 @@ case 90:
             var5 = var4;
 case 89:
             var4 = 'hardwareClassification';
-            var1[var4] = var5;
+            var1[3] = var5;
             var2 = var2.hardwareClassificationVersion;
             var4 = var3 != var2;
             var3 = 0;
@@ -1096,7 +1096,7 @@ case 91:
             var3 = var2;
 case 72:
             var2 = 'hardwareClassificationVersion';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1117,7 +1117,7 @@ case 7:
             var3 = var2;
 case 37:
             var2 = 'hasClips';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1135,9 +1135,9 @@ case 37:
         var2 = _closure1_slot30;
         var4 = var2.decoupledClipsEnabled;
         var2 = 'decoupledClipsEnabled';
-        var3[var2] = var4;
+        var3[1] = var4;
         var2 = 'clipsSettings';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var2[5] = var8;
@@ -1157,7 +1157,7 @@ case 7:
             var3 = var2;
 case 37:
             var2 = 'hardwareClassificationForDecoupled';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1196,7 +1196,7 @@ case 95:
             var6 = var5.clipsEnabled;
 case 94:
             var5 = 'clipsEnabled';
-            var3[var5] = var6;
+            var3[4] = var6;
             var5 = !var4;
             var4 = !var5;
             if(var5) { _fun0020_ip = 96; continue _fun0020 }
@@ -1205,9 +1205,9 @@ case 97:
             var4 = var2.decoupledClipsEnabled;
 case 96:
             var2 = 'decoupledClipsEnabled';
-            var3[var2] = var4;
+            var3[1] = var4;
             var2 = 'clipsSettings';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1227,10 +1227,10 @@ case 88:
             var3 = new Array(0);
 case 66:
             var2 = 'newClipIds';
-            var1[var2] = var3;
+            var1[1] = var3;
             var3 = undefined;
             var2 = 'newClipIDs';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1266,9 +1266,9 @@ case 98:
             var4 = var2.clipsQuality;
 case 100:
             var2 = 'clipsQuality';
-            var3[var2] = var4;
+            var3[1] = var4;
             var2 = 'clipsSettings';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1294,9 +1294,9 @@ case 101:
             var4 = var2.remindersEnabled;
 case 11:
             var2 = 'remindersEnabled';
-            var3[var2] = var4;
+            var3[1] = var4;
             var2 = 'clipsSettings';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1308,10 +1308,10 @@ case 11:
         var2 = copyDataProperties(var5, var4);
         var3 = false;
         var2 = 'hasTakenDecoupledClip';
-        var1[var2] = var3;
+        var1[1] = var3;
         var3 = {'dismissedAt': null, 'numberOfGamesLaunchedSinceDismissal': 0, 'numberOfTimesDismissed': 0};
         var2 = 'clipsEducationState';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var2[11] = var8;
@@ -1336,7 +1336,7 @@ case 101:
             var6 = var5.maxAutoClips;
 case 11:
             var5 = 'maxAutoClips';
-            var3[var5] = var6;
+            var3[4] = var6;
             var5 = var4.clipsSettings;
             var6 = var5.clipSignals;
             if(!(var2 == var6)) { _fun0024_ip = 102; continue _fun0024 }
@@ -1345,7 +1345,7 @@ case 13:
             var6 = var5.clipSignals;
 case 102:
             var5 = 'clipSignals';
-            var3[var5] = var6;
+            var3[4] = var6;
             var5 = var4.clipsSettings;
             var6 = var5.mlPipelinesEnabled;
             if(!(var2 == var6)) { _fun0024_ip = 45; continue _fun0024 }
@@ -1354,7 +1354,7 @@ case 103:
             var6 = var5.mlPipelinesEnabled;
 case 45:
             var5 = 'mlPipelinesEnabled';
-            var3[var5] = var6;
+            var3[4] = var6;
             var4 = var4.clipsSettings;
             var4 = var4.autoClipPhrases;
             if(!(var2 == var4)) { _fun0024_ip = 41; continue _fun0024 }
@@ -1363,9 +1363,9 @@ case 104:
             var4 = var2.autoClipPhrases;
 case 41:
             var2 = 'autoClipPhrases';
-            var3[var2] = var4;
+            var3[1] = var4;
             var2 = 'clipsSettings';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1396,9 +1396,9 @@ case 34:
             var4 = var2.autoClipPhrases;
 case 105:
             var2 = 'autoClipPhrases';
-            var3[var2] = var4;
+            var3[1] = var4;
             var2 = 'clipsSettings';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1424,7 +1424,7 @@ case 105:
         var6 = var3;
         var3 = copyDataProperties(var7, var6);
         var3 = 'clipsSettings';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot31 = var2;
         var1 = undefined;
         return var1;
@@ -1472,10 +1472,10 @@ case 108:
             var12 = 0;
             var8 = arraySpread(var14, var13, var12);
             var11 = var4.id;
-            var9[var8] = var11;
+            var9[7] = var11;
             var8 = var8 + var5;
             var8 = 'newClipIds';
-            var6[var8] = var9;
+            var6[7] = var9;
             _closure1_slot23 = var6;
             var6 = {};
             var13 = _closure1_slot31;
@@ -1493,9 +1493,9 @@ case 110:
             var12 = 0;
             var9 = arraySpread(var14, var13, var12);
             var10 = var4.id;
-            var7[var9] = var10;
+            var7[8] = var10;
             var9 = var9 + var5;
-            var6[var8] = var7;
+            var6[7] = var7;
             _closure1_slot31 = var6;
             var8 = _closure1_slot20;
             var7 = var8.filter;
@@ -1618,7 +1618,7 @@ case 114:
             var6 = {};
             var6['timestamp'] = var8;
             var6['thumbnail'] = var7;
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = var4 + var5;
             var2[var3] = var1;
 case 112:
@@ -1774,7 +1774,7 @@ case 103:
             var6 = copyDataProperties(var9, var8);
             var7 = true;
             var6 = 'ended';
-            var5[var6] = var7;
+            var5[5] = var7;
             var3 = var5;
 case 124:
             _closure1_slot23 = var3;

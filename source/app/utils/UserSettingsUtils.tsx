@@ -52,12 +52,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var5;
     var4 = {};
     var6 = var5.UNDECIDED;
-    var4[var6] = var1;
+    var4[5] = var1;
     var6 = var5.OPTIN;
-    var4[var6] = var9;
+    var4[5] = var9;
     var9 = var5.OPTOUT;
     var6 = false;
-    var4[var9] = var6;
+    var4[8] = var6;
     var6 = 8;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

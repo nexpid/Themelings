@@ -358,7 +358,7 @@ case 12:
                 var2 = {};
                 var1 = var1.guild;
                 var1 = var1.id;
-                var2[var1] = var4;
+                var2[0] = var4;
                 var1 = var3.setGuildExperimentAssignments;
                 var1 = var1.bind(var3)(var2);
                 return var1;

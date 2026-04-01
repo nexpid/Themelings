@@ -94,11 +94,11 @@ case 9:
             var5 = copyDataProperties(var11, var10);
             var5 = var2.price;
             var2 = 'price';
-            var1[var2] = var5;
+            var1[1] = var5;
             var2 = 'currencyCode';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'priceString';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

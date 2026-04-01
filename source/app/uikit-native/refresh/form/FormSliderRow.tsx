@@ -145,7 +145,7 @@ case 2:
             var11 = copyDataProperties(var19, var18);
             var11 = var10.slider;
             var10 = 'style';
-            var7[var10] = var11;
+            var7[9] = var11;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
             var2['children'] = var6;

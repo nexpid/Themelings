@@ -224,7 +224,7 @@ case 6:
             var33 = var27;
             var27 = copyDataProperties(var34, var33);
             var27 = 'expandBottomSheet';
-            var25[var27] = var29;
+            var25[26] = var29;
             var22['initialParams'] = var25;
             var22 = var24.bind(var4)(var23, var22);
             var21[1] = var22;
@@ -261,7 +261,7 @@ case 10:
             var34 = var25;
             var33 = var30;
             var30 = copyDataProperties(var34, var33);
-            var25[var27] = var29;
+            var25[26] = var29;
             var22['initialParams'] = var25;
             var22 = var24.bind(var4)(var23, var22);
             var21[2] = var22;

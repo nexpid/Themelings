@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = copyDataProperties(var16, var15);
     var11 = 'center';
     var10 = 'textAlign';
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['header'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot3 = var4;

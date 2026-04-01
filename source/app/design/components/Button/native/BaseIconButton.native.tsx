@@ -211,19 +211,19 @@ case 16:
             var21 = copyDataProperties(var27, var26);
             var22 = arg2;
             var21 = 'ref';
-            var1[var21] = var22;
+            var1[20] = var22;
             var22 = var16.button;
             var21 = new Array(2);
             var21[0] = var22;
             var21[1] = var5;
             var5 = 'style';
-            var1[var5] = var21;
+            var1[4] = var21;
             var5 = 'pressed';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'scaleAmountInPx';
-            var1[var5] = var20;
+            var1[4] = var20;
             var5 = 'hitSlop';
-            var1[var5] = var19;
+            var1[4] = var19;
             var5 = 8;
             var5 = var18[var5];
             var5 = var6.bind(var4)(var5);
@@ -264,7 +264,7 @@ case 20:
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

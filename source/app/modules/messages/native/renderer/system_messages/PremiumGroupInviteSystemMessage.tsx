@@ -88,7 +88,7 @@ case 3:
             var14 = var2;
             var5 = copyDataProperties(var14, var13);
             var5 = 'premiumGroupInviteInfo';
-            var2[var5] = var6;
+            var2[4] = var6;
             var5 = _closure1_slot0;
             var4 = 6;
             var4 = var9[var4];
@@ -99,13 +99,13 @@ case 3:
             var4 = var7.bind(var8)(var4);
             var5 = var5.bind(var6)(var4);
             var4 = 'iconUrl';
-            var2[var4] = var5;
+            var2[3] = var5;
             var5 = var3.iconTintColor;
             var4 = 'iconTintColor';
-            var2[var4] = var5;
+            var2[3] = var5;
             var4 = var3.iconDividerColor;
             var3 = 'iconDividerColor';
-            var2[var3] = var4;
+            var2[2] = var4;
             return var2;
 case 2:
             return var1;

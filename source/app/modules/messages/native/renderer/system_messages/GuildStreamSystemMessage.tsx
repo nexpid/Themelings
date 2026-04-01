@@ -132,7 +132,7 @@ case 11:
             var20 = var10;
             var12 = copyDataProperties(var21, var20);
             var12 = 'onJoinStream';
-            var5[var12] = var13;
+            var5[11] = var13;
             var5 = var8.bind(var9)(var7, var5);
             _fun0001_ip = 12; continue _fun0001;
 case 10:
@@ -142,7 +142,7 @@ case 10:
             var20 = var10;
             var10 = copyDataProperties(var21, var20);
             var10 = 'duration';
-            var6[var10] = var11;
+            var6[9] = var11;
             var5 = var8.bind(var9)(var7, var6);
 case 12:
             var1['content'] = var5;

@@ -387,7 +387,7 @@ case 20:
 case 19:
                 var2 = var6;
 case 18:
-                var4[var5] = var2;
+                var4[4] = var2;
                 if(var1) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
                 var1 = {};
@@ -396,7 +396,7 @@ case 22:
                 var2 = copyDataProperties(var14, var13);
                 var5 = var3.animation;
                 var2 = 'opacity';
-                var1[var2] = var5;
+                var1[1] = var5;
                 var2 = {};
                 var7 = var3.animation;
                 var6 = var7.interpolate;
@@ -422,7 +422,7 @@ case 25:
                 var5 = new Array(1);
                 var5[0] = var2;
                 var2 = 'transform';
-                var1[var2] = var5;
+                var1[1] = var5;
                 _fun0003_ip = 27; continue _fun0003;
 case 21:
                 var2 = {};
@@ -431,7 +431,7 @@ case 21:
                 var4 = copyDataProperties(var14, var13);
                 var4 = var3.animation;
                 var3 = 'opacity';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 27:
                 return var1;

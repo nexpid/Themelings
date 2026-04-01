@@ -1088,7 +1088,7 @@ case 61:
                             return var1;
                         };
                         var3['render'] = var7;
-                        var1[var5] = var3;
+                        var1[4] = var3;
                         var3 = _closure1_slot13;
                         var7 = var3.NAME_INPUT;
                         var3 = {};
@@ -1123,7 +1123,7 @@ case 61:
                             return var1;
                         };
                         var3['render'] = var13;
-                        var1[var7] = var3;
+                        var1[6] = var3;
                         var3 = _closure1_slot13;
                         var7 = var3.SUGGESTIONS;
                         var3 = {};
@@ -1154,7 +1154,7 @@ case 61:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var7] = var3;
+                        var1[6] = var3;
                         var3 = _closure1_slot13;
                         var7 = var3.ADD_PHONE;
                         var3 = {};
@@ -1186,7 +1186,7 @@ case 61:
                             var5 = copyDataProperties(var8, var7);
                             var6 = _closure4_slot4;
                             var5 = 'navigateToLandingPage';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var1 = var4.bind(var3)(var2, var1);
                             return var1;
                         };
@@ -1205,7 +1205,7 @@ case 61:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var7] = var3;
+                        var1[6] = var3;
                         var3 = _closure1_slot13;
                         var7 = var3.VERIFY_PHONE;
                         var3 = {};
@@ -1237,7 +1237,7 @@ case 61:
                             var5 = copyDataProperties(var8, var7);
                             var6 = _closure4_slot4;
                             var5 = 'navigateToLandingPage';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var1 = var4.bind(var3)(var2, var1);
                             return var1;
                         };
@@ -1256,7 +1256,7 @@ case 61:
                             return var1;
                         };
                         var3['render'] = var12;
-                        var1[var7] = var3;
+                        var1[6] = var3;
                         var2 = _closure1_slot13;
                         var3 = var2.VERIFY_PASSWORD;
                         var2 = {};
@@ -1287,7 +1287,7 @@ case 61:
                             var5 = copyDataProperties(var8, var7);
                             var6 = _closure4_slot4;
                             var5 = 'navigateToLandingPage';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var1 = var4.bind(var3)(var2, var1);
                             return var1;
                         };
@@ -1307,7 +1307,7 @@ case 61:
                             return var1;
                         };
                         var2['render'] = var4;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         return var1;
                     }
                 };

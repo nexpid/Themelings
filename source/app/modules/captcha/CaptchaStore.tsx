@@ -88,7 +88,7 @@ case 3:
                     var7 = 1;
                     if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                    var4[var6] = var7;
+                    var4[5] = var7;
                     var3['captchaServeVolume'] = var4;
                     var2 = var3;
                     _fun0001_ip = 6; continue _fun0001;
@@ -96,7 +96,7 @@ case 4:
                     var5 = var5.captchaServeVolume;
                     var5 = var5[var6];
                     var5 = var5 + var7;
-                    var4[var6] = var5;
+                    var4[5] = var5;
                     var3['captchaServeVolume'] = var4;
                     var2 = var3;
 case 6:

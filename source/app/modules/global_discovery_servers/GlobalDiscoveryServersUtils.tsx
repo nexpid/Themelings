@@ -41,7 +41,7 @@ case 7:
                     var15 = var3;
                     var3 = copyDataProperties(var16, var15);
                     var3 = 'loadId';
-                    var7[var3] = var12;
+                    var7[2] = var12;
                     var6 = _closure1_slot2;
                     var8 = _closure1_slot3;
                     var3 = 7;
@@ -924,7 +924,7 @@ case 63:
             var1 = var2.bind(var3)(var1);
             var2 = null;
             if(!(var2 == var1)) { _fun0008_ip = 64; continue _fun0008 }
-case 32:
+case 65:
             var2 = 0;
             var1 = var3[var2];
 case 64:
@@ -955,9 +955,9 @@ case 0:
             var3 = var2.bind(var6)(var5);
             var2 = var6.getIsInitialFetchComplete;
             var2 = var2.bind(var6)(var5);
-            if(var2) { _fun0009_ip = 65; continue _fun0009 }
-case 66:
-            if(var3) { _fun0009_ip = 65; continue _fun0009 }
+            if(var2) { _fun0009_ip = 66; continue _fun0009 }
+case 67:
+            if(var3) { _fun0009_ip = 66; continue _fun0009 }
 case 4:
             var7 = _closure1_slot1;
             var6 = _closure1_slot3;
@@ -967,18 +967,18 @@ case 4:
             var6 = var7.bind(var5)(var6);
             var5 = var6.fetchFeaturedGuilds;
             var5 = var5.bind(var6)();
-            _fun0009_ip = 67; continue _fun0009;
-case 65:
-            if(!var2) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
-            var2 = !var3;
-case 68:
-            if(!var2) { _fun0009_ip = 54; continue _fun0009 }
+            _fun0009_ip = 68; continue _fun0009;
+case 66:
+            if(!var2) { _fun0009_ip = 69; continue _fun0009 }
 case 70:
+            var2 = !var3;
+case 69:
+            if(!var2) { _fun0009_ip = 54; continue _fun0009 }
+case 71:
             var3 = null;
             var2 = var3 != var4;
 case 54:
-            if(!var2) { _fun0009_ip = 67; continue _fun0009 }
+            if(!var2) { _fun0009_ip = 68; continue _fun0009 }
 case 45:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
@@ -991,7 +991,7 @@ case 45:
             var4 = true;
             var1['forceRefresh'] = var4;
             var1 = var2.bind(var3)(var1);
-case 67:
+case 68:
             var1 = undefined;
             return var1;
         }

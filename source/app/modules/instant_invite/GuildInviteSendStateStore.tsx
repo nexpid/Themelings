@@ -60,8 +60,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = copyDataProperties(var7, var6);
                 var5 = _closure2_slot1;
                 var4 = _closure2_slot2;
-                var2[var5] = var4;
-                var1[var3] = var2;
+                var2[4] = var4;
+                var1[2] = var2;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);

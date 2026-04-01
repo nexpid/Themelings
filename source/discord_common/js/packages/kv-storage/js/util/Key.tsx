@@ -36,7 +36,7 @@ case 3:
             var10 = var1;
             var9 = var6;
             var4 = arraySpread(var10, var9, var8);
-            var1[var4] = var5;
+            var1[3] = var5;
             var3 = 1;
             var3 = var4 + var3;
             _fun0001_ip = 4; continue _fun0001;
@@ -102,7 +102,7 @@ case 3:
             var10 = var1;
             var9 = var6;
             var4 = arraySpread(var10, var9, var8);
-            var1[var4] = var5;
+            var1[3] = var5;
             var3 = 1;
             var3 = var4 + var3;
             _fun0002_ip = 4; continue _fun0002;

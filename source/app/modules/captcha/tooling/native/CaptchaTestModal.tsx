@@ -205,7 +205,8 @@ case 0:
                             if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                             var2 = _closure2_slot0;
-                            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+                            var10 = null;
+                            if(!(var10 != var2)) { _fun0002_ip = 6; continue _fun0002 }
 case 7: // try_start_0
                             var4 = _closure1_slot0;
                             var5 = _closure1_slot2;
@@ -216,9 +217,8 @@ case 7: // try_start_0
                             var6 = var7.testCaptcha;
                             var4 = _closure2_slot0;
                             var2 = {};
-                            var10 = _closure2_slot2;
-                            var8 = null;
-                            var10 = var8 != var10;
+                            var8 = _closure2_slot2;
+                            var10 = var10 != var8;
                             var8 = undefined;
                             if(!var10) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
@@ -226,7 +226,7 @@ case 9:
 case 8:
                             var2['difficulty'] = var8;
                             var2 = var6.bind(var7)(var4, var2);
-                            SaveGenerator(address=96);
+                            SaveGenerator(address=97);
 case 10:
                             return var2;
 case 11:
@@ -528,7 +528,7 @@ case 2:
                     return var1;
                 };
                 var2['render'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var1 = undefined;

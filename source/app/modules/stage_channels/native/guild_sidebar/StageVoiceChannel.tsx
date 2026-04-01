@@ -377,31 +377,31 @@ case 12:
             var30 = var1;
             var20 = copyDataProperties(var30, var29);
             var20 = 'onPress';
-            var1[var20] = var23;
+            var1[19] = var23;
             var20 = 'onLongPress';
-            var1[var20] = var22;
+            var1[19] = var22;
             var22 = var10.container;
             var20 = 'style';
-            var1[var20] = var22;
+            var1[19] = var22;
             var20 = 'channel';
-            var1[var20] = var14;
+            var1[19] = var14;
             var20 = 'selected';
-            var1[var20] = var16;
+            var1[19] = var16;
             var20 = 'locked';
-            var1[var20] = var21;
+            var1[19] = var21;
             var19 = var18 != var19;
             var18 = 'isChannelLive';
-            var1[var18] = var19;
+            var1[17] = var19;
             if(!var17) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
             var17 = var5;
 case 14:
             var5 = 'unread';
-            var1[var5] = var17;
+            var1[4] = var17;
             var5 = 'resolvedUnreadSetting';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'subtitle';
-            var1[var5] = var6;
+            var1[4] = var6;
             var7 = _closure1_slot15;
             var6 = _closure1_slot1;
             var17 = _closure1_slot3;
@@ -429,7 +429,7 @@ case 16:
             var5['voiceStates'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'channelInfo';
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = var12.length;
             var5 = 0;
             var6 = var6 > var5;
@@ -455,7 +455,7 @@ case 21:
             var6 = var8.bind(var4)(var7, var5);
 case 20:
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -284,9 +284,9 @@ case 15:
                 var7 = {};
                 var9 = {};
                 var10 = _closure2_slot2;
-                var9[var10] = var4;
+                var9[9] = var4;
                 var7['settings'] = var9;
-                var6[var8] = var7;
+                var6[7] = var7;
                 var1['changes'] = var6;
                 var1 = var3.bind(var5)(var1);
                 var1 = global;

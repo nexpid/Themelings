@@ -105,7 +105,7 @@ case 9:
             var11 = var6;
             var6 = copyDataProperties(var12, var11);
             var6 = 'applicationId';
-            var1[var6] = var5;
+            var1[5] = var5;
             var1 = var3.bind(var4)(var1);
             _closure2_slot5 = var1;
             var3 = var1.shouldOpenGameProfile;
@@ -150,10 +150,10 @@ case 18:
                     var8 = _closure2_slot4;
 case 17:
                     var7 = 'applicationId';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var8 = _closure2_slot5;
                     var7 = 'gameProfileModalChecks';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var3 = var5.bind(var6)(var3);
                     var3 = _closure2_slot1;
                     if(!(var4 != var3)) { _fun0003_ip = 19; continue _fun0003 }

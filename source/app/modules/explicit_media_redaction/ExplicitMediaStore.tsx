@@ -310,7 +310,7 @@ case 21:
             var11 = var4;
             var10 = var8;
             var8 = arraySpread(var11, var10, var9);
-            var4[var8] = var2;
+            var4[7] = var2;
             var7 = 1;
             var7 = var8 + var7;
             var5[var6] = var4;
@@ -350,7 +350,7 @@ case 26:
                     var3 = copyDataProperties(var6, var5);
                     var4 = true;
                     var3 = 'reportSubmit';
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     var1 = var2;
 case 25:
                     return var1;
@@ -365,7 +365,7 @@ case 25:
             var4 = copyDataProperties(var9, var8);
             var5 = true;
             var4 = 'reportSubmit';
-            var1[var4] = var5;
+            var1[3] = var5;
             var2[var3] = var1;
 case 23:
             var1 = undefined;

@@ -166,10 +166,10 @@ case 2:
     var5 = {};
     var11 = var9.BASIC;
     var10 = var4.BASIC;
-    var5[var11] = var10;
+    var5[10] = var10;
     var9 = var9.PREMIUM;
     var4 = var4.PREMIUM;
-    var5[var9] = var4;
+    var5[8] = var4;
     var _closure1_slot6 = var5;
     var4 = 24;
     var4 = var8[var4];

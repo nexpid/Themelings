@@ -88,10 +88,10 @@ case 0:
             var7 = copyDataProperties(var25, var24);
             var8 = true;
             var7 = 'startExpanded';
-            var1[var7] = var8;
+            var1[6] = var8;
             var8 = var19.content;
             var7 = 'contentStyles';
-            var1[var7] = var8;
+            var1[6] = var8;
             var7 = _closure1_slot4;
             var10 = 5;
             var5 = var5[var10];
@@ -159,7 +159,7 @@ case 4:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -132,7 +132,7 @@ case 11:
             var22 = var9;
             var6 = copyDataProperties(var23, var22);
             var6 = 'otherUsername';
-            var11[var6] = var17;
+            var11[5] = var17;
             var6 = {};
             var6['action'] = var16;
             var6['userId'] = var12;
@@ -158,7 +158,7 @@ case 16:
             var1 = var1.channel_id;
             var6['messageChannelId'] = var1;
             var1 = 'otherUsernameOnClick';
-            var11[var1] = var6;
+            var11[0] = var6;
             var1 = {};
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;

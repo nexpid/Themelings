@@ -300,8 +300,8 @@ case 0:
                 var1 = null;
                 var3 = var1 == var4;
                 var1 = undefined;
-                if(var3) { _fun0005_ip = 21; continue _fun0005 }
-case 23:
+                if(var3) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                 var3 = var4.find;
                 var2 = function(arg1) {
                     var1 = arg1;
@@ -311,7 +311,7 @@ case 23:
                     return var1;
                 };
                 var1 = var3.bind(var4)(var2);
-case 21:
+case 23:
                 return var1;
             }
         };
@@ -327,10 +327,10 @@ case 0:
                 var1 = arg1;
                 var1 = var3[var1];
                 var3 = null;
-                if(!(var3 == var1)) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+                if(!(var3 == var1)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
                 var1 = _closure1_slot8;
-case 24:
+case 25:
                 return var1;
             }
         };
@@ -374,12 +374,12 @@ case 0:
             var3 = var1.id;
             var4 = var4[var3];
             var3 = null;
-            if(!(var3 != var4)) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
+            if(!(var3 != var4)) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
             var4 = _closure1_slot9;
             var3 = var1.id;
             var3 = delete var4[var3];
-case 26:
+case 27:
             var3 = _closure1_slot10;
             var2 = var3.delete;
             var1 = var1.id;
@@ -431,14 +431,14 @@ case 0:
                     var2 = _closure2_slot0;
                     var1 = var4;
                     if(!(var5 === var2)) { _fun0009_ip = 11; continue _fun0009 }
-case 28:
+case 29:
                     var2 = {};
                     var7 = var2;
                     var6 = var4;
                     var4 = copyDataProperties(var7, var6);
                     var4 = _closure2_slot1;
                     var3 = 'feedback_type';
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     var1 = var2;
 case 11:
                     return var1;
@@ -463,8 +463,8 @@ case 0:
             var2 = var4.delete;
             var2 = var2.bind(var4)(var3);
             var2 = null;
-            if(!(var2 != var5)) { _fun0010_ip = 29; continue _fun0010 }
-case 30:
+            if(!(var2 != var5)) { _fun0010_ip = 30; continue _fun0010 }
+case 31:
             var2 = _closure1_slot9;
             var4 = var5.map;
             var1 = function(arg1) {
@@ -474,12 +474,12 @@ case 30:
                 var2 = copyDataProperties(var5, var4);
                 var3 = undefined;
                 var2 = 'dismiss_timestamp';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var4.bind(var5)(var1);
             var2[var3] = var1;
-case 29:
+case 30:
             var1 = undefined;
             return var1;
         }
@@ -497,8 +497,8 @@ case 0:
             var5 = _closure1_slot9;
             var6 = var5[var4];
             var5 = null;
-            if(!(var5 != var6)) { _fun0011_ip = 31; continue _fun0011 }
-case 26:
+            if(!(var5 != var6)) { _fun0011_ip = 32; continue _fun0011 }
+case 27:
             var5 = global;
             var5 = var5.Date;
             var7 = var5.prototype;
@@ -520,23 +520,23 @@ case 0:
                     var1 = var4.id;
                     var2 = var2.bind(var5)(var1);
                     var1 = var4;
-                    if(!var2) { _fun0012_ip = 32; continue _fun0012 }
-case 33:
+                    if(!var2) { _fun0012_ip = 33; continue _fun0012 }
+case 34:
                     var2 = {};
                     var7 = var2;
                     var6 = var4;
                     var4 = copyDataProperties(var7, var6);
                     var4 = _closure2_slot1;
                     var3 = 'dismiss_timestamp';
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     var1 = var2;
-case 32:
+case 33:
                     return var1;
                 }
             };
             var2 = var5.bind(var6)(var2);
             var3[var4] = var2;
-case 31:
+case 32:
             return var1;
         }
     };

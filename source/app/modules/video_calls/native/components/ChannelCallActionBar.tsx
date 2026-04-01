@@ -40,11 +40,11 @@ case 0:
 case 3:
             var5 = !var4;
 case 2:
-            var1[var6] = var5;
+            var1[5] = var5;
             var5 = _closure1_slot24;
             var6 = var5.NONE;
             var5 = true;
-            var1[var6] = var5;
+            var1[5] = var5;
             var5 = _closure1_slot24;
             var6 = var5.SCREEN_SHARE_END;
             var5 = var2;
@@ -56,14 +56,14 @@ case 4:
 case 7:
             var5 = var7;
 case 6:
-            var1[var6] = var5;
+            var1[5] = var5;
             var3 = _closure1_slot24;
             var3 = var3.SCREEN_SHARE_START;
             if(!var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var2 = !var4;
 case 8:
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };
@@ -253,10 +253,10 @@ case 27:
             var1 = {};
             var3 = _closure1_slot25;
             var3 = var3.END_ACTIVITY;
-            var1[var3] = var8;
+            var1[2] = var8;
             var3 = _closure1_slot25;
             var3 = var3.END_CALL;
-            var1[var3] = var6;
+            var1[2] = var6;
             var3 = _closure1_slot25;
             var3 = var3.END_REMOTE;
             if(var5) { _fun0003_ip = 29; continue _fun0003 }
@@ -264,12 +264,12 @@ case 30:
             var6 = null;
             var5 = var6 != var7;
 case 29:
-            var1[var3] = var5;
+            var1[2] = var5;
             var2 = _closure1_slot25;
             var3 = var2.END_STREAM;
             var2 = null;
             var2 = var2 != var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };

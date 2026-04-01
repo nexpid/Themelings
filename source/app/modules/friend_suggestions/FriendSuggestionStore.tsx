@@ -377,7 +377,7 @@ case 26:
             var7 = var2;
             var4 = copyDataProperties(var7, var6);
             var4 = var5.key;
-            var2[var4] = var5;
+            var2[3] = var5;
             _closure1_slot9 = var2;
             return var1;
 case 25:

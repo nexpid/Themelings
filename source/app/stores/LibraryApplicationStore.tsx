@@ -263,7 +263,7 @@ case 39:
         var7 = copyDataProperties(var9, var8);
         var7 = _closure1_slot18;
         var6 = 'activeLaunchOptionIds';
-        var2[var6] = var7;
+        var2[5] = var7;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
@@ -285,7 +285,7 @@ case 39:
         var7 = copyDataProperties(var9, var8);
         var7 = _closure1_slot17;
         var6 = 'activeLibraryApplicationBranchIds';
-        var2[var6] = var7;
+        var2[5] = var7;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };

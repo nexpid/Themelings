@@ -211,7 +211,7 @@ case 22:
                     var9 = _closure1_slot6;
                     var10 = var9.BUTTON_CTA;
                     var9 = 'object';
-                    var7[var9] = var10;
+                    var7[8] = var10;
                     var2['analyticsLocation'] = var7;
                     var7 = _closure2_slot1;
                     if(!(var8 == var7)) { _fun0003_ip = 24; continue _fun0003 }
@@ -634,22 +634,22 @@ case 70:
                         var1 = copyDataProperties(var8, var7);
                         var6 = _closure2_slot0;
                         var5 = 'initialUpsellKey';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var6 = _closure2_slot1;
                         var5 = 'analyticsLocation';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var6 = _closure2_slot3;
                         var5 = 'analyticsProperties';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var6 = _closure2_slot2;
                         var5 = 'analyticsLocations';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var6 = _closure2_slot4;
                         var5 = 'largestFileSize';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var5 = _closure2_slot5;
                         var1 = 'imageSource';
-                        var2[var1] = var5;
+                        var2[0] = var5;
                         var1 = undefined;
                         var1 = var4.bind(var1)(var3, var2);
                         return var1;

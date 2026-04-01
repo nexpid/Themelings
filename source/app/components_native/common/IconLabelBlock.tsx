@@ -344,7 +344,7 @@ case 19:
                 var19 = var10;
                 var10 = copyDataProperties(var20, var19);
                 var10 = 'children';
-                var7[var10] = var11;
+                var7[9] = var11;
                 var6 = var9.bind(var4)(var8, var7);
 case 18:
                 var5[1] = var6;

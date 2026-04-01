@@ -1337,9 +1337,9 @@ case 20:
                 var9 = var2;
                 var5 = copyDataProperties(var9, var8);
                 var5 = 'downloadedBytes';
-                var2[var5] = var7;
+                var2[4] = var7;
                 var5 = 'totalBytes';
-                var2[var5] = var6;
+                var2[4] = var6;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
@@ -1412,7 +1412,7 @@ case 151:
                     var6 = copyDataProperties(var11, var10);
                     var6 = _closure2_slot1;
                     var5 = 'analyticsContext';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
@@ -1510,7 +1510,7 @@ case 109:
                     var17 = var2;
                     var5 = copyDataProperties(var17, var16);
                     var5 = 'error';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }

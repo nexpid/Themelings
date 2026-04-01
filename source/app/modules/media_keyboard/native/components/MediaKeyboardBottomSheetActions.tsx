@@ -53,10 +53,10 @@ case 0:
             var5 = copyDataProperties(var13, var12);
             var6 = 'center';
             var5 = 'alignItems';
-            var2[var5] = var6;
+            var2[4] = var6;
             var5 = undefined;
             var6 = 'top';
-            var2[var6] = var5;
+            var2[5] = var5;
             var1['wrap'] = var2;
             var2 = {};
             var10 = _closure1_slot1;
@@ -148,7 +148,7 @@ case 4:
             var3 = var3.colors;
             var4 = var3.BACKGROUND_BASE_LOW;
             var3 = 'color';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1['gradient'] = var2;
             return var1;
         }
@@ -301,7 +301,7 @@ case 6:
             var8 = copyDataProperties(var16, var15);
             var12 = 'none';
             var8 = 'pointerEvents';
-            var5[var8] = var12;
+            var5[7] = var12;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;

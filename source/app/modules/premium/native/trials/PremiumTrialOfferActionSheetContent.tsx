@@ -448,7 +448,7 @@ case 28:
                     var3 = var2.WHITE;
 case 30:
                     var2 = 'color';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };

@@ -143,7 +143,7 @@ case 11:
                 var3 = {};
                 var3['ignoreTimestamps'] = var2;
                 var2 = 'ignoreTimestamps';
-                var3[var2] = var4;
+                var3[1] = var4;
                 _closure1_slot5 = var3;
                 return var1;
             }

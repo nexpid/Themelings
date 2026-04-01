@@ -366,7 +366,7 @@ case 16:
             var6 = var2;
             var5 = var4;
             var4 = copyDataProperties(var6, var5);
-            var1[var3] = var2;
+            var1[2] = var2;
             _fun0009_ip = 17; continue _fun0009;
 case 7:
             var1 = {};

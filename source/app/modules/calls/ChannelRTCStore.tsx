@@ -378,8 +378,8 @@ case 56:
                             };
                             var3 = var6.bind(var10)(var3);
                             var10 = null;
-                            if(!(var10 == var3)) { _fun0008_ip = 30; continue _fun0008 }
-case 57:
+                            if(!(var10 == var3)) { _fun0008_ip = 57; continue _fun0008 }
+case 53:
                             var6 = var8.size;
                             var12 = var6.bind(var8)();
                             var11 = 1;
@@ -448,7 +448,7 @@ case 60:
                             var7 = var7[var5];
                             var6 = var7.id;
                             _fun0008_ip = 58; continue _fun0008;
-case 30:
+case 57:
                             var9 = _closure1_slot1;
                             var11 = _closure1_slot2;
                             var7 = 23;
@@ -2013,7 +2013,7 @@ case 88:
             var6 = _closure1_slot24;
             var4 = var6.NORMAL;
 case 136:
-            var1[var5] = var4;
+            var1[4] = var4;
             var3[var2] = var1;
             var1 = true;
             return var1;
@@ -2256,7 +2256,7 @@ case 136:
         var7 = var2[var3];
         var8 = var1;
         var6 = copyDataProperties(var8, var7);
-        var1[var4] = var5;
+        var1[3] = var5;
         var2[var3] = var1;
         var1 = undefined;
         return var1;

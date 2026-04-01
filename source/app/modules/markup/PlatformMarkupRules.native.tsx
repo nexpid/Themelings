@@ -63,7 +63,7 @@ case 10:
                     var4 = var3.uri;
 case 9:
                     var3 = 'icon';
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     var1 = var2;
 case 7:
                     return var1;
@@ -153,7 +153,7 @@ case 11:
     var13 = var4;
     var8 = copyDataProperties(var13, var12);
     var8 = 'requiredFirstCharacters';
-    var4[var8] = var1;
+    var4[7] = var1;
     var10 = function match(arg1) {
         var3 = _closure1_slot4;
         var2 = var3.exec;
@@ -162,7 +162,7 @@ case 11:
         return var1;
     };
     var8 = 'match';
-    var4[var8] = var10;
+    var4[7] = var10;
     var2['invisibleUnicode'] = var4;
     var4 = {};
     var8 = function parse(arg1, arg2, arg3) {
@@ -192,7 +192,7 @@ case 19:
             var1 = copyDataProperties(var9, var8);
             var7 = true;
             var1 = 'nested';
-            var2[var1] = var7;
+            var2[0] = var7;
             var1 = arg2;
             var1 = var1.bind(var6)(var5, var2);
             _fun0004_ip = 20; continue _fun0004;
@@ -368,11 +368,11 @@ case 33:
         var5 = var2.content;
         var6 = var3.bind(var4)(var5);
         var5 = 'content';
-        var1[var5] = var6;
+        var1[4] = var6;
         var2 = var2.inContent;
         var3 = var3.bind(var4)(var2);
         var2 = 'inContent';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4['parse'] = var10;
@@ -399,11 +399,11 @@ case 33:
         var5 = var2.content;
         var6 = var3.bind(var4)(var5);
         var5 = 'content';
-        var1[var5] = var6;
+        var1[4] = var6;
         var2 = var2.inContent;
         var3 = var3.bind(var4)(var2);
         var2 = 'inContent';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4['parse'] = var10;
@@ -430,11 +430,11 @@ case 33:
         var5 = var2.content;
         var6 = var3.bind(var4)(var5);
         var5 = 'content';
-        var1[var5] = var6;
+        var1[4] = var6;
         var2 = var2.inContent;
         var3 = var3.bind(var4)(var2);
         var2 = 'inContent';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4['parse'] = var10;

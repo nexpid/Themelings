@@ -151,10 +151,10 @@ case 4:
             var31 = var15;
             var15 = copyDataProperties(var32, var31);
             var15 = 'variant';
-            var1[var15] = var29;
+            var1[14] = var29;
             var18 = false;
             var15 = 'arrow';
-            var1[var15] = var18;
+            var1[14] = var18;
             var18 = var26;
             if(!(var14 != var22)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -196,22 +196,22 @@ case 8:
             var18 = var20.bind(var4)(var19, var15);
 case 6:
             var15 = 'label';
-            var1[var15] = var18;
+            var1[14] = var18;
             var15 = 'subLabel';
-            var1[var15] = var16;
+            var1[14] = var16;
             var15 = 'disabled';
-            var1[var15] = var8;
+            var1[14] = var8;
             var15 = {};
             var15['disabled'] = var8;
             var15['checked'] = var11;
             var11 = 'accessibilityState';
-            var1[var11] = var15;
+            var1[10] = var15;
             var11 = true;
             var15 = 'accessible';
-            var1[var15] = var11;
+            var1[14] = var11;
             var16 = 'switch';
             var15 = 'accessibilityRole';
-            var1[var15] = var16;
+            var1[14] = var16;
             var14 = var14 != var12;
             var16 = '';
             var15 = var16;
@@ -225,16 +225,16 @@ case 12:
             var12 = ', ';
             var14 = var14.bind(var16)(var17, var12, var15);
             var12 = 'accessibilityLabel';
-            var1[var12] = var14;
+            var1[11] = var14;
             var12 = 'accessibilityHint';
-            var1[var12] = var13;
+            var1[11] = var13;
             var12 = undefined;
             if(!var7) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var12 = var9;
 case 14:
             var7 = 'onPress';
-            var1[var7] = var12;
+            var1[6] = var12;
             var7 = function onAccessibilityTap() {
                 var3 = _closure2_slot2;
                 var1 = _closure2_slot0;
@@ -264,7 +264,7 @@ case 16:
                 return var1;
             };
             var6 = 'onAccessibilityTap';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = _closure1_slot5;
             var6 = _closure1_slot0;
             var12 = _closure1_slot1;
@@ -279,7 +279,7 @@ case 16:
             var5['disabled'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'trailing';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

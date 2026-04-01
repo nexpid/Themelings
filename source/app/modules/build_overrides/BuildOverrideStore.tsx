@@ -233,7 +233,7 @@ case 14:
                     var9 = _closure1_slot8;
                     var9 = var9.Invalid;
                     var7['state'] = var9;
-                    var4[var8] = var7;
+                    var4[7] = var7;
                     _closure1_slot11 = var4;
                     _fun0004_ip = 11; continue _fun0004;
 case 13:
@@ -253,7 +253,7 @@ case 13:
                     var9 = _closure1_slot8;
                     var9 = var9.Resolving;
                     var7['state'] = var9;
-                    var4[var8] = var7;
+                    var4[7] = var7;
                     _closure1_slot11 = var4;
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -340,10 +340,10 @@ case 17:
             var9 = var3;
             var5 = copyDataProperties(var9, var8);
             var5 = 'state';
-            var3[var5] = var7;
+            var3[4] = var7;
             var5 = 'override';
-            var3[var5] = var6;
-            var2[var4] = var3;
+            var3[4] = var6;
+            var2[3] = var3;
             _closure1_slot11 = var2;
             var1 = undefined;
             return var1;

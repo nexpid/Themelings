@@ -333,7 +333,7 @@ case 33:
                     var6 = 'animate-always';
                     var12 = var13.bind(var14)(var12, var2, var6);
                     var2 = 'opacity';
-                    var1[var2] = var12;
+                    var1[1] = var12;
                     var2 = {};
                     var4 = var4[var11];
                     var5 = var5.bind(var9)(var4);
@@ -353,7 +353,7 @@ case 35:
                     var3 = new Array(1);
                     var3[0] = var2;
                     var2 = 'transform';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };
@@ -412,7 +412,7 @@ case 37:
                     var2 = 'animate-always';
                     var3 = var7.bind(var10)(var6, var3, var2);
                     var2 = 'opacity';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     var2 = {};
                     var3 = 8;
                     var6 = var9[var3];
@@ -431,7 +431,7 @@ case 37:
                     var3 = new Array(1);
                     var3[0] = var2;
                     var2 = 'transform';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };
@@ -497,7 +497,7 @@ case 40:
                     var3 = var14[var6](var13, var12, var11, var10, var9);
 case 39:
                     var2 = 'opacity';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     var2 = {};
                     var5 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -519,7 +519,7 @@ case 39:
                     var3 = new Array(1);
                     var3[0] = var2;
                     var2 = 'transform';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };
@@ -1114,8 +1114,8 @@ case 0:
             var7 = var7.bind(var5)(var4);
             var4 = var7.isWishlistableCollectiblesProduct;
             var7 = var4.bind(var7)(var8);
-            if(var3) { _fun0013_ip = 58; continue _fun0013 }
-case 59:
+            if(var3) { _fun0013_ip = 35; continue _fun0013 }
+case 58:
             var4 = _closure1_slot11;
             var3 = _closure1_slot22;
             var2 = {};
@@ -1127,7 +1127,7 @@ case 59:
             var12 = var6;
             var6 = copyDataProperties(var13, var12);
             var1 = var4.bind(var5)(var3, var2);
-case 58:
+case 35:
             return var1;
         }
     };

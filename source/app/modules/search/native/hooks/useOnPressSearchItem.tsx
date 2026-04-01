@@ -140,7 +140,7 @@ case 7:
                 return var1;
             };
             var5 = 'onBeforeJumpToMessage';
-            var1[var5] = var6;
+            var1[4] = var6;
             var2['params'] = var1;
             var1 = 'sidebar';
             var1 = var3.bind(var4)(var1, var2);

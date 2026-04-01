@@ -105,7 +105,7 @@ case 14:
             var7 = var6.index;
             var7 = var7 - var9;
             var8 = 'index';
-            var5[var8] = var7;
+            var5[7] = var7;
             var7 = var6.routes;
             var10 = var7[var10];
             var7 = new Array(1);
@@ -118,7 +118,7 @@ case 14:
             var17 = var9;
             var10 = arraySpread(var19, var18, var17);
             var10 = 'routes';
-            var5[var10] = var7;
+            var5[9] = var7;
             var3['state'] = var5;
             var7 = new Array(1);
             var7[0] = var3;
@@ -138,10 +138,10 @@ case 14:
             var19 = var2;
             var18 = var11;
             var11 = copyDataProperties(var19, var18);
-            var2[var10] = var7;
+            var2[9] = var7;
             var7 = var7.length;
             var7 = var7 - var9;
-            var2[var8] = var7;
+            var2[7] = var7;
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
 case 2:
@@ -237,7 +237,7 @@ case 25:
             var7 = var6.index;
             var7 = var7 + var9;
             var8 = 'index';
-            var5[var8] = var7;
+            var5[7] = var7;
             var7 = var6.routes;
             var10 = var7[var10];
             var7 = new Array(2);
@@ -295,7 +295,7 @@ case 32:
             var18 = var6;
             var10 = arraySpread(var20, var19, var18);
             var10 = 'routes';
-            var5[var10] = var7;
+            var5[9] = var7;
             var3['state'] = var5;
             var7 = new Array(1);
             var7[0] = var3;
@@ -316,10 +316,10 @@ case 32:
             var20 = var2;
             var19 = var11;
             var11 = copyDataProperties(var20, var19);
-            var2[var10] = var7;
+            var2[9] = var7;
             var7 = var7.length;
             var7 = var7 - var9;
-            var2[var8] = var7;
+            var2[7] = var7;
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
 case 15:

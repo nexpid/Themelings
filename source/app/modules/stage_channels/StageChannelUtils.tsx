@@ -102,7 +102,7 @@ case 5:
                     var10 = var4;
                     var9 = 0;
                     var5 = arraySpread(var11, var10, var9);
-                    var1[var5] = var3;
+                    var1[4] = var3;
                     var3 = 1;
                     var3 = var5 + var3;
                     return var1;
@@ -112,7 +112,7 @@ case 4:
                     var11 = var1;
                     var10 = var4;
                     var3 = arraySpread(var11, var10, var9);
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     var2 = 1;
                     var2 = var3 + var2;
                     return var1;

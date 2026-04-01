@@ -149,12 +149,12 @@ case 10:
             var14 = copyDataProperties(var19, var18);
             var16 = var12 - var13;
             var14 = 'borderRadius';
-            var15[var14] = var16;
+            var15[13] = var16;
             var16 = 'hidden';
             var14 = 'overflow';
-            var15[var14] = var16;
+            var15[13] = var16;
             var14 = 'style';
-            var7[var14] = var15;
+            var7[13] = var15;
             var7 = var8.bind(var9)(var11, var7);
             _fun0001_ip = 11; continue _fun0001;
 case 9:
@@ -169,7 +169,7 @@ case 9:
             var7 = var9.bind(var5)(var8, var6);
 case 11:
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 6:
             return var1;

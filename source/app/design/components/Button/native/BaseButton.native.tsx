@@ -219,10 +219,10 @@ case 20:
                 var3 = copyDataProperties(var6, var5);
                 var4 = _closure2_slot2;
                 var3 = 'disabled';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var3 = _closure2_slot0;
                 var2 = 'busy';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var17 = var17.bind(var28)(var6, var11);
@@ -304,7 +304,7 @@ case 32:
             var38 = var22;
             var27 = copyDataProperties(var39, var38);
             var27 = 'ref';
-            var2[var27] = var24;
+            var2[26] = var24;
             var27 = var23;
             if(!(var21 == var27)) { _fun0002_ip = 34; continue _fun0002 }
 case 35:
@@ -322,22 +322,22 @@ case 37:
             var30 = undefined;
 case 36:
             var27 = 'accessible';
-            var2[var27] = var30;
+            var2[26] = var30;
             var27 = 'accessibilityRole';
-            var2[var27] = var29;
+            var2[26] = var29;
             var27 = 'accessibilityLabel';
-            var2[var27] = var28;
+            var2[26] = var28;
             var27 = 'accessibilityElementsHidden';
-            var2[var27] = var14;
+            var2[26] = var14;
             var28 = 1;
             var27 = 'activeOpacity';
-            var2[var27] = var28;
+            var2[26] = var28;
             var27 = 'importantForAccessibility';
-            var2[var27] = var13;
+            var2[26] = var13;
             var27 = 'style';
-            var2[var27] = var11;
+            var2[26] = var11;
             var27 = 'onPress';
-            var2[var27] = var10;
+            var2[26] = var10;
             var28 = function onPressIn(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -356,7 +356,7 @@ case 38:
                 }
             };
             var27 = 'onPressIn';
-            var2[var27] = var28;
+            var2[26] = var28;
             var27 = function onPressOut(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -375,11 +375,11 @@ case 38:
                 }
             };
             var26 = 'onPressOut';
-            var2[var26] = var27;
+            var2[25] = var27;
             var26 = 'hitSlop';
-            var2[var26] = var7;
+            var2[25] = var7;
             var26 = 'children';
-            var2[var26] = var6;
+            var2[25] = var6;
             var2 = var25.bind(var4)(var3, var2);
             return var2;
 case 30:
@@ -390,9 +390,9 @@ case 30:
             var38 = var22;
             var22 = copyDataProperties(var39, var38);
             var22 = 'ref';
-            var1[var22] = var24;
+            var1[21] = var24;
             var22 = 'accessible';
-            var1[var22] = var23;
+            var1[21] = var23;
             var22 = var21 != var5;
             var21 = 'button';
             if(!var22) { _fun0002_ip = 40; continue _fun0002 }
@@ -400,37 +400,37 @@ case 41:
             var21 = var5;
 case 40:
             var5 = 'accessibilityRole';
-            var1[var5] = var21;
+            var1[4] = var21;
             var5 = 'accessibilityLabel';
-            var1[var5] = var20;
+            var1[4] = var20;
             var5 = 'accessibilityHint';
-            var1[var5] = var19;
+            var1[4] = var19;
             var5 = 'accessibilityValue';
-            var1[var5] = var18;
+            var1[4] = var18;
             var5 = 'accessibilityState';
-            var1[var5] = var17;
+            var1[4] = var17;
             var5 = 'accessibilityActions';
-            var1[var5] = var16;
+            var1[4] = var16;
             var5 = 'onAccessibilityAction';
-            var1[var5] = var15;
+            var1[4] = var15;
             var5 = 'accessibilityElementsHidden';
-            var1[var5] = var14;
+            var1[4] = var14;
             var5 = 'importantForAccessibility';
-            var1[var5] = var13;
+            var1[4] = var13;
             var5 = 'pointerEvents';
-            var1[var5] = var12;
+            var1[4] = var12;
             var5 = 'style';
-            var1[var5] = var11;
+            var1[4] = var11;
             var5 = 'onPress';
-            var1[var5] = var10;
+            var1[4] = var10;
             var5 = 'onLongPress';
-            var1[var5] = var9;
+            var1[4] = var9;
             var5 = 'disabled';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'hitSlop';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

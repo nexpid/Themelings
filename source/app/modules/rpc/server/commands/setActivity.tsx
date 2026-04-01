@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.RPC_ACTIVITIES_WRITE;
     var10[1] = var13;
     var10[2] = var12;
-    var9[var11] = var10;
+    var9[10] = var10;
     var4['scope'] = var9;
     var9 = function validation(arg1) {
         var9 = arg1;
@@ -1020,7 +1020,7 @@ case 6:
         }
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -183,14 +183,14 @@ case 14:
             var3 = var3.LinkingTypes;
             var7 = var3.MOBILE_WEB_REDIRECT_CHECKOUT;
             var3 = 'deepLinkType';
-            var2[var3] = var7;
+            var2[2] = var7;
             var3 = var2;
             _fun0002_ip = 15; continue _fun0002;
 case 13:
             var6 = _closure1_slot3;
             var7 = var6.META_QUEST_WEB_REDIRECT_CHECKOUT;
             var6 = 'flowType';
-            var2[var6] = var7;
+            var2[5] = var7;
             var3 = var2;
 case 15:
             var2 = function(arg1, arg2) {

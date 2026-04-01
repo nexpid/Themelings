@@ -464,7 +464,7 @@ case 32:
                 var3 = copyDataProperties(var5, var4);
                 var3 = var2.id;
                 var2 = 'id';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var27 = var3.bind(var5)(var1);
@@ -632,11 +632,11 @@ case 42:
             var13 = copyDataProperties(var36, var35);
             var20 = _closure1_slot20;
             var13 = 'estimatedItemSize';
-            var6[var13] = var20;
+            var6[12] = var20;
             var13 = 'extraData';
-            var6[var13] = var19;
+            var6[12] = var19;
             var13 = 'data';
-            var6[var13] = var16;
+            var6[12] = var16;
             var13 = {};
             var19 = _closure1_slot1;
             var20 = _closure1_slot3;
@@ -654,7 +654,7 @@ case 42:
             var12 = var16 + var12;
             var13['paddingBottom'] = var12;
             var12 = 'contentContainerStyle';
-            var6[var12] = var13;
+            var6[11] = var13;
             var12 = function renderRow(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -866,10 +866,10 @@ case 64:
                 }
             };
             var11 = 'renderItem';
-            var6[var11] = var12;
+            var6[10] = var12;
             var12 = 'handled';
             var11 = 'keyboardShouldPersistTaps';
-            var6[var11] = var12;
+            var6[10] = var12;
             var6 = var7.bind(var4)(var8, var6);
             _fun0002_ip = 65; continue _fun0002;
 case 45:
@@ -909,7 +909,7 @@ case 45:
             var10['body'] = var13;
             var11 = var12.bind(var4)(var11, var10);
             var10 = 'children';
-            var7[var10] = var11;
+            var7[9] = var11;
             var6 = var8.bind(var4)(var9, var7);
 case 65:
             var5[2] = var6;

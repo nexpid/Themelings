@@ -140,7 +140,7 @@ case 4:
                 var4['getLabel'] = var7;
                 var7 = var6.BAD;
                 var4['rating'] = var7;
-                var2[var5] = var4;
+                var2[4] = var4;
                 var5 = var6.NEUTRAL;
                 var4 = {};
                 var7 = {};
@@ -174,7 +174,7 @@ case 4:
                 var4['getLabel'] = var7;
                 var7 = var6.NEUTRAL;
                 var4['rating'] = var7;
-                var2[var5] = var4;
+                var2[4] = var4;
                 var5 = var6.GOOD;
                 var4 = {};
                 var7 = {};
@@ -208,7 +208,7 @@ case 4:
                 var4['getLabel'] = var7;
                 var6 = var6.GOOD;
                 var4['rating'] = var6;
-                var2[var5] = var4;
+                var2[4] = var4;
                 var _closure3_slot0 = var2;
                 var2 = var3.map;
                 var1 = function(arg1) {

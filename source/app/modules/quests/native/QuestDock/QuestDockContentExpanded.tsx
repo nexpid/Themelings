@@ -54,12 +54,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var10;
     var11 = copyDataProperties(var16, var15);
     var11 = 'bottom';
-    var10[var11] = var1;
+    var10[10] = var1;
     var13 = 'flex';
     var11 = 'display';
-    var10[var11] = var13;
+    var10[10] = var13;
     var11 = 'zIndex';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['wrapper'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot9 = var4;

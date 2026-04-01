@@ -461,12 +461,12 @@ case 50:
     var _closure1_slot7 = var9;
     var11 = {};
     var4 = var9.SMALL;
-    var11[var4] = var13;
+    var11[3] = var13;
     var4 = var9.MEDIUM;
-    var11[var4] = var12;
+    var11[3] = var12;
     var12 = var9.LARGE;
     var4 = 4;
-    var11[var12] = var4;
+    var11[11] = var4;
     var _closure1_slot8 = var11;
     var4 = var8[var4];
     var12 = var7.bind(var1)(var4);

@@ -345,7 +345,7 @@ case 50:
             var20 = var6;
             var7 = copyDataProperties(var21, var20);
             var7 = 'footer';
-            var2[var7] = var5;
+            var2[6] = var5;
             var15 = var6.shouldSpoiler;
             var8 = '';
             var7 = true;
@@ -368,7 +368,7 @@ case 54:
             var14 = var7.bind(var15)();
 case 53:
             var7 = 'spoiler';
-            var2[var7] = var14;
+            var2[6] = var14;
             if(!var10) { _fun0001_ip = 55; continue _fun0001 }
 case 56:
             var16 = _closure1_slot0;
@@ -385,17 +385,17 @@ case 56:
             var8 = var14.bind(var15)(var7);
 case 55:
             var7 = 'obscure';
-            var2[var7] = var8;
+            var2[6] = var8;
             var7 = 'obscureAwaitingScan';
-            var2[var7] = var13;
+            var2[6] = var13;
             var7 = 'verifyAge';
-            var2[var7] = var12;
+            var2[6] = var12;
             var7 = 'obscureHideControls';
-            var2[var7] = var11;
+            var2[6] = var11;
             var7 = 'obscureIsOpaque';
-            var2[var7] = var10;
+            var2[6] = var10;
             var7 = 'ctaButtonColor';
-            var2[var7] = var4;
+            var2[6] = var4;
             _fun0001_ip = 57; continue _fun0001;
 case 52:
             var7 = {};
@@ -403,7 +403,7 @@ case 52:
             var20 = var6;
             var8 = copyDataProperties(var21, var20);
             var8 = 'footer';
-            var7[var8] = var5;
+            var7[7] = var5;
             var16 = var6.shouldSpoiler;
             var14 = '';
             var8 = true;
@@ -426,7 +426,7 @@ case 59:
             var15 = var8.bind(var16)();
 case 58:
             var8 = 'spoiler';
-            var7[var8] = var15;
+            var7[7] = var15;
             if(!var10) { _fun0001_ip = 60; continue _fun0001 }
 case 61:
             var17 = _closure1_slot0;
@@ -443,17 +443,17 @@ case 61:
             var14 = var15.bind(var16)(var8);
 case 60:
             var8 = 'obscure';
-            var7[var8] = var14;
+            var7[7] = var14;
             var8 = 'obscureAwaitingScan';
-            var7[var8] = var13;
+            var7[7] = var13;
             var8 = 'verifyAge';
-            var7[var8] = var12;
+            var7[7] = var12;
             var8 = 'obscureHideControls';
-            var7[var8] = var11;
+            var7[7] = var11;
             var8 = 'obscureIsOpaque';
-            var7[var8] = var10;
+            var7[7] = var10;
             var8 = 'ctaButtonColor';
-            var7[var8] = var4;
+            var7[7] = var4;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 16;
@@ -463,7 +463,7 @@ case 60:
             var8 = var6.coverImage;
             var10 = var10.bind(var11)(var8);
             var8 = 'backgroundImage';
-            var7[var8] = var10;
+            var7[7] = var10;
             var2 = var7;
 case 57:
             return var2;
@@ -482,11 +482,11 @@ case 40:
             var3 = var6.bind(var7)(var3);
             var6 = var3.uri;
             var3 = 'blurredCoverImage';
-            var2[var3] = var6;
+            var2[2] = var6;
             var3 = 'footer';
-            var2[var3] = var5;
+            var2[2] = var5;
             var3 = 'ctaButtonColor';
-            var2[var3] = var4;
+            var2[2] = var4;
             return var2;
 case 14:
             return var1;

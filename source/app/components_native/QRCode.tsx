@@ -175,10 +175,10 @@ case 9:
     var4 = {};
     var12 = var5.SIZE_40;
     var11 = 'size-40';
-    var4[var12] = var11;
+    var4[11] = var11;
     var12 = var5.SIZE_60;
     var11 = 'size-60';
-    var4[var12] = var11;
+    var4[11] = var11;
     var4 = var6.bind(var7)(var4);
     var _closure1_slot17 = var4;
     var7 = var10.PureComponent;
@@ -351,7 +351,7 @@ case 13:
                 var11 = copyDataProperties(var17, var16);
                 var12 = false;
                 var11 = 'blur';
-                var5[var11] = var12;
+                var5[10] = var12;
                 var8 = var9.bind(var4)(var8, var5);
                 var5 = new Array(3);
                 var5[0] = var8;

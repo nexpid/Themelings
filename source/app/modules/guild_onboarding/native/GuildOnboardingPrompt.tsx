@@ -1137,11 +1137,11 @@ case 23:
                     var8 = copyDataProperties(var11, var10);
                     var9 = true;
                     var8 = 'response';
-                    var7[var8] = var9;
+                    var7[7] = var9;
                     var8 = new Array(1);
                     var8[0] = var7;
                     var7 = 'formFields';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var3 = var5.bind(var6)(var4, var3);
                     var3 = _closure2_slot1;
                     var2 = var3.push;
@@ -1481,7 +1481,7 @@ case 0:
                         var2 = null;
                         var2 = var2 != var1;
                         if(!var2) { _fun0015_ip = 66; continue _fun0015 }
-case 67:
+case 49:
                         var2 = var1;
 case 66:
                         var1 = undefined;
@@ -1540,8 +1540,8 @@ case 66:
             var22 = var23.length;
             var20 = 0;
             var22 = var20 === var22;
-            if(!var22) { _fun0013_ip = 68; continue _fun0013 }
-case 69:
+            if(!var22) { _fun0013_ip = 67; continue _fun0013 }
+case 68:
             var25 = _closure1_slot15;
             var24 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -1553,7 +1553,7 @@ case 69:
             var26 = var27.emptyDropdownText;
             var20['style'] = var26;
             var22 = var25.bind(var4)(var24, var20);
-case 68:
+case 67:
             var20 = new Array(3);
             var20[0] = var22;
             var22 = var23.map;

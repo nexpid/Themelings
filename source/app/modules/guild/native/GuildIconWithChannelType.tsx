@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.XSMALL;
     var9['guildIconSize'] = var5;
     var5 = 4;
-    var8[var10] = var9;
+    var8[9] = var9;
     var _closure1_slot7 = var8;
     var5 = var7[var5];
     var9 = var6.bind(var1)(var5);
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var22 = var15;
         var15 = copyDataProperties(var23, var22);
         var15 = 'size';
-        var5[var15] = var16;
+        var5[14] = var16;
         var7 = var8.bind(var4)(var7, var5);
         var5 = new Array(2);
         var5[0] = var7;

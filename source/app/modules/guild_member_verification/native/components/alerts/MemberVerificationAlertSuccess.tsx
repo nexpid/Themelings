@@ -159,14 +159,14 @@ case 4:
             var7 = var7.NuzmOA;
             var9 = var9.bind(var16)(var7);
             var7 = 'confirmText';
-            var2[var7] = var9;
+            var2[6] = var9;
             var9 = var11.alert;
             var7 = 'style';
-            var2[var7] = var9;
+            var2[6] = var9;
             var7 = 'onCancel';
-            var2[var7] = var8;
+            var2[6] = var8;
             var7 = 'onConfirm';
-            var2[var7] = var8;
+            var2[6] = var8;
             var9 = _closure1_slot6;
             var7 = _closure1_slot3;
             var6 = {};
@@ -230,7 +230,7 @@ case 4:
             var6 = var9.bind(var5)(var8, var6);
             var7[2] = var6;
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
 case 2:

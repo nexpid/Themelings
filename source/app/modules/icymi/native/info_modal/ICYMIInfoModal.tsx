@@ -103,7 +103,7 @@ case 0:
                         var14 = _closure3_slot0;
                         var13['extended_onboarding'] = var14;
                         var11['impressionProperties'] = var13;
-                        var1[var12] = var11;
+                        var1[11] = var11;
                         var3 = var3[var2];
                         var3 = var10.bind(var6)(var3);
                         var3 = var3.ICYMIInfoScreens;
@@ -215,7 +215,7 @@ case 5:
                         var11 = var11.ImpressionNames;
                         var11 = var11.ICYMI_ONBOARDING_TOPICS;
                         var3['impressionName'] = var11;
-                        var1[var10] = var3;
+                        var1[9] = var3;
                         var2 = var4[var2];
                         var2 = var5.bind(var6)(var2);
                         var2 = var2.ICYMIInfoScreens;
@@ -291,7 +291,7 @@ case 5:
                         var4 = var4.ImpressionNames;
                         var4 = var4.ICYMI_ONBOARDING_SELECT_GUILDS;
                         var2['impressionName'] = var4;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         return var1;
                     }
                 };

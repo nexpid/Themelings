@@ -570,7 +570,7 @@ case 34:
             var8 = var2;
             var6 = copyDataProperties(var8, var7);
             var6 = 'shouldMention';
-            var2[var6] = var5;
+            var2[5] = var5;
             var4[var3] = var2;
 case 56:
             var2 = _closure1_slot11;
@@ -583,7 +583,7 @@ case 46:
             var8 = var1;
             var4 = copyDataProperties(var8, var7);
             var4 = 'shouldMention';
-            var1[var4] = var5;
+            var1[3] = var5;
             var2[var3] = var1;
 case 57:
             var1 = undefined;

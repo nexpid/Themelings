@@ -71,10 +71,10 @@ case 3:
             var7 = var7.bind(var8)();
             var8 = var7.length;
             var7 = 'num_favorites';
-            var1[var7] = var8;
+            var1[6] = var8;
             var7 = var5.length;
             var5 = 'num_recents';
-            var1[var5] = var7;
+            var1[4] = var7;
             var1 = var3.bind(var4)(var2, var1);
 case 2:
             var5 = _closure1_slot1;

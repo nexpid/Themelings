@@ -481,7 +481,7 @@ case 35:
             var6['channels'] = var10;
             var10 = {};
             var12 = var11.id;
-            var10[var12] = var14;
+            var10[11] = var14;
             var6['voiceStates'] = var10;
             var12 = var7.bind(var8)(var6);
             var8 = _closure1_slot13;

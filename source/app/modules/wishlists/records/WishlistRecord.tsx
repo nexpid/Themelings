@@ -282,9 +282,9 @@ case 11:
                 var10 = var2;
                 var4 = copyDataProperties(var11, var10);
                 var4 = 'userId';
-                var1[var4] = var8;
+                var1[3] = var8;
                 var4 = 'items';
-                var1[var4] = var7;
+                var1[3] = var7;
                 var8 = var2.applications;
                 var7 = var5 == var8;
                 var2 = undefined;
@@ -307,7 +307,7 @@ case 20:
                 var4 = var2;
 case 19:
                 var2 = 'applications';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var12 = var2;

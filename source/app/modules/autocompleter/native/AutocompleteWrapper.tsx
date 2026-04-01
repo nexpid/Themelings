@@ -1977,7 +1977,7 @@ case 160:
                         return var1;
                     };
                     var2 = 'onPress';
-                    var3[var2] = var9;
+                    var3[1] = var9;
                     var9 = function onLongPress() {
                         var3 = _closure2_slot44;
                         var1 = _closure3_slot0;
@@ -1988,9 +1988,9 @@ case 160:
                         return var1;
                     };
                     var2 = 'onLongPress';
-                    var3[var2] = var9;
+                    var3[1] = var9;
                     var2 = 'isInteracting';
-                    var3[var2] = var12;
+                    var3[1] = var12;
                     var2 = var6.sticker;
                     var11 = var2.id;
                     var2 = global;
@@ -2034,7 +2034,7 @@ case 156:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 155:
@@ -2058,7 +2058,7 @@ case 155:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 154:
@@ -2082,7 +2082,7 @@ case 154:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 153:
@@ -2106,7 +2106,7 @@ case 153:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 152:
@@ -2130,7 +2130,7 @@ case 152:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var10 = _closure2_slot26;
                     var9 = _closure1_slot21;
                     var9 = var9.MENTIONS;
@@ -2142,7 +2142,7 @@ case 163:
                     var9 = var8 == var10;
 case 162:
                     var8 = 'showDescription';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 151:
@@ -2166,7 +2166,7 @@ case 151:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 149:
@@ -2185,7 +2185,7 @@ case 149:
                     var6 = _closure2_slot1;
                     var7 = var6.guild_id;
                     var6 = 'guildId';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var6 = function onPress() {
                         var3 = _closure2_slot42;
                         var2 = _closure3_slot0;
@@ -2194,7 +2194,7 @@ case 149:
                         return var1;
                     };
                     var5 = 'onPress';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 }

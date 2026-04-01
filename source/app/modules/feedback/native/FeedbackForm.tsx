@@ -194,7 +194,7 @@ case 4:
                     var6 = copyDataProperties(var8, var7);
                     var6 = !var1;
                     var1 = 'doNotShowAgain';
-                    var4[var1] = var6;
+                    var4[0] = var6;
                     var1 = undefined;
                     var4 = var5.bind(var1)(var4);
                     var2 = _closure2_slot2;
@@ -268,7 +268,7 @@ case 6:
                         var6 = var3;
                         var1 = copyDataProperties(var6, var5);
                         var1 = 'reason';
-                        var3[var1] = var4;
+                        var3[0] = var4;
                         var4 = _closure2_slot8;
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -385,9 +385,9 @@ case 15:
                     var7 = var3;
                     var1 = copyDataProperties(var7, var6);
                     var1 = 'rating';
-                    var3[var1] = var5;
+                    var3[0] = var5;
                     var1 = 'reason';
-                    var3[var1] = var4;
+                    var3[0] = var4;
                     var4 = _closure2_slot8;
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);

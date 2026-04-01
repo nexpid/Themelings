@@ -288,7 +288,7 @@ case 14:
             var5 = copyDataProperties(var18, var17);
             var6 = false;
             var5 = 'rejectWithError';
-            var2[var5] = var6;
+            var2[4] = var6;
             var4 = var3.bind(var4)(var2);
             var3 = var4.then;
             var2 = function(arg1) {
@@ -1296,7 +1296,7 @@ case 98:
             var5 = copyDataProperties(var17, var16);
             var6 = false;
             var5 = 'rejectWithError';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3 = var3.bind(var4)(var2);
             var2 = var3.finally;
             var1 = function() {

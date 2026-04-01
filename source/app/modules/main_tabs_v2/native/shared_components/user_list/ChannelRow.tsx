@@ -538,17 +538,17 @@ case 12:
             var26 = var1;
             var1 = copyDataProperties(var27, var26);
             var1 = 'disabled';
-            var6[var1] = var13;
+            var6[0] = var13;
             var1 = 'icon';
-            var6[var1] = var12;
+            var6[0] = var12;
             var1 = 'onPress';
-            var6[var1] = var11;
+            var6[0] = var11;
             var1 = 'onLongPress';
-            var6[var1] = var10;
+            var6[0] = var10;
             var1 = 'label';
-            var6[var1] = var8;
+            var6[0] = var8;
             var1 = 'subLabel';
-            var6[var1] = var4;
+            var6[0] = var4;
             var1 = _closure1_slot10;
             var1 = var1.TOGGLE;
             if(!(var3 !== var1)) { _fun0001_ip = 33; continue _fun0001 }
@@ -565,7 +565,7 @@ case 34:
             var26 = var6;
             var8 = copyDataProperties(var27, var26);
             var8 = 'trailing';
-            var1[var8] = var9;
+            var1[7] = var9;
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 35; continue _fun0001;
 case 33:
@@ -581,7 +581,7 @@ case 33:
             var26 = var6;
             var6 = copyDataProperties(var27, var26);
             var6 = 'checked';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 35:
             return var1;

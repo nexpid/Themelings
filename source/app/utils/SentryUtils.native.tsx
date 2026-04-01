@@ -308,7 +308,7 @@ case 24:
                             var4 = copyDataProperties(var8, var7);
                             var5 = false;
                             var4 = 'handled';
-                            var2[var4] = var5;
+                            var2[3] = var5;
                             var3['mechanism'] = var2;
 case 23:
                             return var1;

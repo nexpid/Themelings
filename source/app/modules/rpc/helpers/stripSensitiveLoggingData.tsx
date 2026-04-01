@@ -69,9 +69,9 @@ case 6:
             var5 = copyDataProperties(var9, var8);
             var7 = '<removed>';
             var5 = 'access_token';
-            var6[var5] = var7;
+            var6[4] = var7;
             var5 = 'args';
-            var3[var5] = var6;
+            var3[4] = var6;
             var1 = var3;
 case 9:
             var4 = var1;
@@ -114,9 +114,9 @@ case 14:
             var4 = copyDataProperties(var9, var8);
             var6 = '<removed>';
             var4 = 'access_token';
-            var5[var4] = var6;
+            var5[3] = var6;
             var4 = 'data';
-            var3[var4] = var5;
+            var3[3] = var5;
             var2 = var3;
 case 17:
             var1 = var2;

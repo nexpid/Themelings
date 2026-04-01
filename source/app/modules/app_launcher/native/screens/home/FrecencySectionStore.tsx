@@ -197,7 +197,7 @@ case 13:
         var3 = arg1;
         var4 = var3.selection;
         var3 = 'selection';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot6 = var2;
         var1 = undefined;
         return var1;

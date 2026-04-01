@@ -254,7 +254,7 @@ case 35:
         var2 = var3.getId;
         var3 = var2.bind(var3)();
         var2 = 'currentUserId';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var7['GUILD_MEMBER_ADD'] = var9;

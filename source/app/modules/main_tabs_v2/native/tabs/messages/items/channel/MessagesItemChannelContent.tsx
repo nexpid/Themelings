@@ -658,7 +658,7 @@ case 59:
             var43 = var27;
             var26 = copyDataProperties(var44, var43);
             var26 = 'children';
-            var11[var26] = var28;
+            var11[25] = var28;
             var12 = var25.bind(var4)(var12, var11);
             _fun0004_ip = 63; continue _fun0004;
 case 62:

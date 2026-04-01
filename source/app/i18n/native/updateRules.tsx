@@ -190,7 +190,7 @@ case 9:
             return var1;
         };
         var4 = 'react';
-        var2[var4] = var5;
+        var2[3] = var5;
         var1['paragraph'] = var2;
         var2 = {};
         var6 = var1.strong;
@@ -218,7 +218,7 @@ case 9:
             var1 = var5.bind(var4)(var3, var2, var1);
             return var1;
         };
-        var2[var4] = var5;
+        var2[3] = var5;
         var1['strong'] = var2;
         var2 = {};
         var6 = var1.em;
@@ -246,7 +246,7 @@ case 9:
             var1 = var5.bind(var4)(var3, var2, var1);
             return var1;
         };
-        var2[var4] = var5;
+        var2[3] = var5;
         var1['em'] = var2;
         var2 = {};
         var6 = var1.u;
@@ -274,7 +274,7 @@ case 9:
             var1 = var5.bind(var4)(var3, var2, var1);
             return var1;
         };
-        var2[var4] = var5;
+        var2[3] = var5;
         var1['u'] = var2;
         var2 = {};
         var6 = var1.link;
@@ -295,7 +295,7 @@ case 9:
             var1 = var5.bind(var1)(var4, var3, var2);
             return var1;
         };
-        var2[var4] = var3;
+        var2[3] = var3;
         var1['link'] = var2;
         return var1;
     };

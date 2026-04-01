@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = copyDataProperties(var21, var20);
     var12 = 16;
     var11 = 'lineHeight';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['systemContent'] = var10;
     var10 = {};
     var15 = var6[var15];
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var20 = var15.bind(var1)(var14, var13, var16);
     var21 = var10;
     var13 = copyDataProperties(var21, var20);
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['messageContent'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot9 = var4;

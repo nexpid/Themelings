@@ -184,7 +184,7 @@ case 3:
                 var3 = var3.LQLMGP;
                 var4 = var4.bind(var5)(var3);
                 var3 = 'name';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 2:
                 return var1;

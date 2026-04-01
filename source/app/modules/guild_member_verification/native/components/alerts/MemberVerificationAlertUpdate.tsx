@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7.b8siyY;
         var8 = var8.bind(var14)(var7);
         var7 = 'confirmText';
-        var1[var7] = var8;
+        var1[6] = var8;
         var7 = var13[var9];
         var7 = var12.bind(var4)(var7);
         var14 = var7.intl;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7.ETE/oC;
         var8 = var8.bind(var14)(var7);
         var7 = 'cancelText';
-        var1[var7] = var8;
+        var1[6] = var8;
         var8 = function onConfirm() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -109,10 +109,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var7 = 'onConfirm';
-        var1[var7] = var8;
+        var1[6] = var8;
         var7 = var6.onClose;
         var6 = 'onCancel';
-        var1[var6] = var7;
+        var1[5] = var7;
         var8 = _closure1_slot5;
         var6 = _closure1_slot3;
         var5 = {};
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var8.bind(var4)(var7, var5);
         var6[2] = var5;
         var5 = 'children';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

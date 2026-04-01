@@ -188,7 +188,7 @@ case 18:
                         var4 = copyDataProperties(var14, var13);
                         var5 = _closure4_slot0;
                         var4 = 'initialIndex';
-                        var6[var4] = var5;
+                        var6[3] = var5;
                         var10 = {};
                         var4 = arg1;
                         var10['x'] = var4;
@@ -201,7 +201,7 @@ case 18:
                         var4 = arg5;
                         var10['resizeMode'] = var4;
                         var4 = 'originLayout';
-                        var6[var4] = var10;
+                        var6[3] = var10;
                         var12 = _closure1_slot5;
                         var3 = {};
                         var10 = 'none';

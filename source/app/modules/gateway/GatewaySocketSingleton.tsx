@@ -99,10 +99,10 @@ case 3:
                 var12 = var4;
                 var5 = copyDataProperties(var12, var11);
                 var5 = 'client_app_state';
-                var4[var5] = var6;
+                var4[4] = var6;
                 var6 = false;
                 var5 = 'is_fast_connect';
-                var4[var5] = var6;
+                var4[4] = var6;
                 var6 = _closure1_slot1;
                 var5 = 7;
                 var5 = var9[var5];
@@ -110,7 +110,7 @@ case 3:
                 var5 = var6.describeConnectionReasons;
                 var6 = var5.bind(var6)();
                 var5 = 'gateway_connect_reasons';
-                var4[var5] = var6;
+                var4[4] = var6;
                 if(!(var1 == var7)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                 var5 = {};

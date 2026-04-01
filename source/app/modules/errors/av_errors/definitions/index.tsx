@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorNoAudioInputDetectedDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorNoInputDevicesDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorStreamViewLowFPSDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorStreamViewHighPacketLossDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorStreamSendHighPacketLossDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorStreamSendLowFPSDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorStreamBadNetworkQualityDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorStreamSoundshareFailedDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorStreamFailedToStartDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorStreamReconnectingDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorScreenshareOSErrorDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorAudioCaptureSampleRateMismatchDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorVideoStreamSenderReadyTimeoutDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorVideoStreamReceiverReadyTimeoutDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorVideoStreamSenderReadyTimeoutNoStreamDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorVideoStreamReceiverReadyTimeoutNoStreamDefinition;
-    var2[var8] = var7;
+    var2[7] = var7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AVError;
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AVErrorCameraSendLowFPSDefinition;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

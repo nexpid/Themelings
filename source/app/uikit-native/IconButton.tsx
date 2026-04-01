@@ -179,7 +179,7 @@ case 17:
             var13 = var5;
             var5 = copyDataProperties(var14, var13);
             var5 = 'disableColor';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

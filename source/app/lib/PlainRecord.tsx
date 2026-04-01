@@ -193,7 +193,7 @@ case 28:
             var8 = var2;
             var7 = var5;
             var5 = copyDataProperties(var8, var7);
-            var2[var4] = var3;
+            var2[3] = var3;
             var1 = var2;
 case 27:
             return var1;
@@ -237,7 +237,7 @@ case 34:
                 var20 = var14;
                 var19 = var1;
                 var17 = copyDataProperties(var20, var19);
-                var14[var16] = var15;
+                var14[15] = var15;
                 var13 = var14;
 case 36:
                 var4 = var13;
@@ -324,7 +324,7 @@ case 40:
         var2 = copyDataProperties(var5, var4);
         var3 = _closure1_slot3;
         var2 = arg1;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var3['copyConstruct'] = var5;

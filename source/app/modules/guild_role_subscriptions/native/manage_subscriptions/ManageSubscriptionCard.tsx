@@ -1157,9 +1157,9 @@ case 55:
             var18 = var16.id;
 case 54:
             var16 = 'guildId';
-            var12[var16] = var18;
+            var12[15] = var18;
             var16 = 'subscription';
-            var12[var16] = var17;
+            var12[15] = var17;
             var16 = function onCancelSubscription() {
                 var4 = _closure2_slot1;
                 var3 = var4.push;
@@ -1181,7 +1181,7 @@ case 54:
                 return var1;
             };
             var15 = 'onCancelSubscription';
-            var12[var15] = var16;
+            var12[14] = var16;
             var12 = var14.bind(var5)(var13, var12);
             var11[1] = var12;
             var8['children'] = var11;

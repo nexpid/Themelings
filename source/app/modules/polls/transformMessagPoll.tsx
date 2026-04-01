@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.expiry;
         var3 = var3.bind(var4)(var2);
         var2 = 'expiry';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var3['default'] = var2;

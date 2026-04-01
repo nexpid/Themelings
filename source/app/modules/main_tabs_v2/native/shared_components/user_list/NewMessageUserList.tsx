@@ -896,7 +896,7 @@ case 43:
                     var14 = var2;
                     var12 = 0;
                     var6 = arraySpread(var14, var13, var12);
-                    var2[var6] = var4;
+                    var2[5] = var4;
                     var3 = 1;
                     var12 = var6 + var3;
                     var3 = var1.slice;
@@ -910,7 +910,7 @@ case 92:
                     var13 = var1;
                     var12 = 0;
                     var5 = arraySpread(var14, var13, var12);
-                    var3[var5] = var4;
+                    var3[4] = var4;
                     var4 = 1;
                     var4 = var5 + var4;
                     var2 = var3;

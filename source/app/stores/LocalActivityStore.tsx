@@ -888,7 +888,7 @@ case 71:
             var33 = var20;
             var32 = var22;
             var22 = copyDataProperties(var33, var32);
-            var20[var15] = var21;
+            var20[14] = var21;
             var5[1] = var20;
             var5[2] = var19;
             var3[var18] = var5;

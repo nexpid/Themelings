@@ -350,7 +350,7 @@ case 28:
         var4 = var4.t;
         var4 = var4.mZffAi;
         var4 = var9.bind(var10)(var4);
-        var2[var5] = var4;
+        var2[4] = var4;
         var5 = var3.TOO_STRICT_UNFAIR;
         var4 = var8[var1];
         var4 = var7.bind(var6)(var4);
@@ -361,7 +361,7 @@ case 28:
         var4 = var4.t;
         var4 = var4.wgZVAn;
         var4 = var9.bind(var10)(var4);
-        var2[var5] = var4;
+        var2[4] = var4;
         var5 = var3.DONT_AGREE_PENALTY;
         var4 = var8[var1];
         var4 = var7.bind(var6)(var4);
@@ -372,7 +372,7 @@ case 28:
         var4 = var4.t;
         var4 = var4.eu8G4k;
         var4 = var9.bind(var10)(var4);
-        var2[var5] = var4;
+        var2[4] = var4;
         var3 = var3.SOMETHING_ELSE;
         var4 = var8[var1];
         var4 = var7.bind(var6)(var4);
@@ -383,7 +383,7 @@ case 28:
         var1 = var1.t;
         var1 = var1.XU3s6r;
         var1 = var4.bind(var5)(var1);
-        var2[var3] = var1;
+        var2[2] = var1;
         var1 = arg1;
         var1 = var2[var1];
         return var1;

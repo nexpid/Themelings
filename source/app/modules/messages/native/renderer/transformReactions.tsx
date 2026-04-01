@@ -140,15 +140,15 @@ case 16:
                 var15 = var2;
                 var2 = copyDataProperties(var16, var15);
                 var2 = 'id';
-                var5[var2] = var9;
+                var5[1] = var9;
                 var2 = 'src';
-                var5[var2] = var8;
+                var5[1] = var8;
                 var2 = 'displayName';
-                var5[var2] = var7;
+                var5[1] = var7;
                 var2 = 'animated';
-                var5[var2] = var6;
+                var5[1] = var6;
                 var2 = 'emoji';
-                var1[var2] = var5;
+                var1[1] = var5;
                 var2 = global;
                 var6 = var2.Array;
                 var5 = var6.isArray;
@@ -227,7 +227,7 @@ case 21:
                 var10 = var2;
                 var2 = copyDataProperties(var11, var10);
                 var2 = 'burst_count';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             }
         };

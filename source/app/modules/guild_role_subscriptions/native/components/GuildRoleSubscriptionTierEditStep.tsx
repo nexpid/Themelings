@@ -291,7 +291,7 @@ case 10:
             var16 = var10;
             var12 = copyDataProperties(var17, var16);
             var12 = 'onProceed';
-            var6[var12] = var11;
+            var6[11] = var11;
             var6 = var9.bind(var4)(var8, var6);
             var5[2] = var6;
             var1['children'] = var5;
@@ -327,7 +327,7 @@ case 9:
             var16 = var10;
             var10 = copyDataProperties(var17, var16);
             var10 = 'onProceed';
-            var7[var10] = var11;
+            var7[9] = var11;
             var7 = var9.bind(var4)(var8, var7);
             var6[2] = var7;
             var5['children'] = var6;

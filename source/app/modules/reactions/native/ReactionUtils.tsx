@@ -107,7 +107,7 @@ case 4:
     var4 = 21;
     var4 = var9[var4];
     var4 = var11.bind(var1)(var4);
-    var5[var10] = var4;
+    var5[9] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.ReactionTypes;
@@ -115,7 +115,7 @@ case 4:
     var4 = 22;
     var4 = var9[var4];
     var4 = var11.bind(var1)(var4);
-    var5[var10] = var4;
+    var5[9] = var4;
     var4 = {};
     var10 = var9[var7];
     var10 = var8.bind(var1)(var10);
@@ -125,7 +125,7 @@ case 4:
     var10 = var9[var10];
     var10 = var8.bind(var1)(var10);
     var10 = var10.ReactionIcon;
-    var4[var11] = var10;
+    var4[10] = var10;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
     var7 = var7.ReactionTypes;
@@ -134,7 +134,7 @@ case 4:
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
     var7 = var7.SuperReactionIcon;
-    var4[var10] = var7;
+    var4[9] = var7;
     var7 = 28;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);

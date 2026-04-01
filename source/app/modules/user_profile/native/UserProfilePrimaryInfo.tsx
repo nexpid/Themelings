@@ -649,7 +649,7 @@ case 34:
                     var9 = var6.advertisingId;
 case 55:
                     var6 = 'apple_advertising_id';
-                    var1[var6] = var9;
+                    var1[5] = var9;
                     var6 = _closure2_slot4;
                     var9 = var8 != var6;
                     var6 = null;
@@ -669,10 +669,10 @@ case 59:
                     var6 = var5.advertisingId;
 case 57:
                     var5 = 'android_advertising_id';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var6 = false;
                     var5 = 'is_targeted';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var3.bind(var4)(var2, var1);
 case 53:
                     var1 = undefined;
@@ -1137,19 +1137,20 @@ case 72:
     var10 = {'headingVariant': 'heading-lg/bold', 'textVariant': 'text-sm/normal', 'badgeSize': 16, 'badgeRowHorizontalPadding': 6, 'guildTagBadgeSize': null, 'guildTagTextVariant': 'text-xs/medium', 'guildTagHorizontalPadding': 6};
     var12 = var12.SIZE_12;
     var10['guildTagBadgeSize'] = var12;
-    var7[var11] = var10;
+    var7[10] = var10;
     var _closure1_slot16 = var7;
     var7 = function getStyleConfig(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-            var3 = arg1;
+            var4 = arg1;
+            var2 = null;
+            var3 = var2 != var4;
             var1 = undefined;
             if(!var3) { _fun0010_ip = 74; continue _fun0010 }
 case 75:
-            var2 = _closure1_slot16;
-            var1 = var2[var3];
+            var3 = _closure1_slot16;
+            var1 = var3[var4];
 case 74:
-            var2 = null;
             if(!(var2 == var1)) { _fun0010_ip = 76; continue _fun0010 }
 case 77:
             var1 = _closure1_slot15;

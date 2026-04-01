@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var19 = var4;
     var13 = copyDataProperties(var19, var18);
     var13 = 'zIndex';
-    var4[var13] = var15;
+    var4[12] = var15;
     var7['pipControls'] = var4;
     var4 = {'position': 'absolute', 'top': 8, 'padding': 8, 'borderRadius': null, 'borderWidth': 1};
     var13 = 11;
@@ -154,9 +154,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var19 = var10;
     var11 = copyDataProperties(var19, var18);
     var11 = 'justifyContent';
-    var10[var11] = var12;
+    var10[10] = var12;
     var11 = 'alignItems';
-    var10[var11] = var12;
+    var10[10] = var12;
     var7['progressBar'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot17 = var7;

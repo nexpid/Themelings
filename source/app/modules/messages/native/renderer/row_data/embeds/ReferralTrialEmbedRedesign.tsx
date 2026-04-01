@@ -540,17 +540,17 @@ case 53:
             var36 = var6;
             var1 = copyDataProperties(var37, var36);
             var1 = 'bodyText';
-            var14[var1] = var18;
+            var14[0] = var18;
             var1 = 'structuredBodyText';
-            var14[var1] = var17;
+            var14[0] = var17;
             var1 = 'bodyTextColor';
-            var14[var1] = var2;
+            var14[0] = var2;
             var1 = 'subText';
-            var14[var1] = var10;
+            var14[0] = var10;
             var1 = 'subTextColor';
-            var14[var1] = var9;
+            var14[0] = var9;
             var10 = 'canBeAccepted';
-            var14[var10] = var11;
+            var14[9] = var11;
             var1 = var14;
             if(!var11) { _fun0001_ip = 55; continue _fun0001 }
 case 56:
@@ -559,10 +559,10 @@ case 56:
             var36 = var14;
             var14 = copyDataProperties(var37, var36);
             var14 = 'footerText';
-            var9[var14] = var16;
+            var9[13] = var16;
             var14 = 'footerTextColor';
-            var9[var14] = var15;
-            var9[var10] = var11;
+            var9[13] = var15;
+            var9[9] = var11;
             var11 = _closure1_slot0;
             var15 = _closure1_slot2;
             var10 = var15[var12];
@@ -575,9 +575,9 @@ case 56:
             var10 = var10.bXTClc;
             var14 = var14.bind(var16)(var10);
             var10 = 'acceptLabelText';
-            var9[var10] = var14;
+            var9[9] = var14;
             var10 = 'acceptLabelColor';
-            var9[var10] = var13;
+            var9[9] = var13;
             var10 = 18;
             var10 = var15[var10];
             var13 = var11.bind(var7)(var10);
@@ -588,7 +588,7 @@ case 56:
             var10 = var14.bind(var7)(var10);
             var11 = var11.bind(var13)(var10);
             var10 = 'acceptLabelIconUrl';
-            var9[var10] = var11;
+            var9[9] = var11;
             var1 = var9;
 case 55:
             return var1;
@@ -609,12 +609,12 @@ case 13:
             var6 = var6.eEz1N5;
             var9 = var9.bind(var10)(var6);
             var6 = 'bodyText';
-            var1[var6] = var9;
+            var1[5] = var9;
             var6 = 'bodyTextColor';
-            var1[var6] = var2;
+            var1[5] = var2;
             var9 = false;
             var6 = 'canBeAccepted';
-            var1[var6] = var9;
+            var1[5] = var9;
             return var1;
 case 10:
             var1 = {};

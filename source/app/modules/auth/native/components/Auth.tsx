@@ -415,9 +415,9 @@ case 30:
 case 33:
         var10 = 520;
 case 32:
-        var2[var11] = var10;
+        var2[10] = var10;
         var5 = var5.MFA;
-        var2[var5] = var9;
+        var2[4] = var9;
         var _closure1_slot13 = var2;
         var2 = 9;
         var2 = var7[var2];

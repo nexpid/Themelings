@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var8["8H5RmH"];
         var9 = var9.bind(var10)(var8);
         var8 = 'name';
-        var5[var8] = var9;
+        var5[7] = var9;
         var3['params'] = var5;
         var5 = new Array(1);
         var5[0] = var3;

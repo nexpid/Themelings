@@ -115,7 +115,7 @@ case 19:
             var10 = var8;
 case 18:
             var8 = 'value';
-            var4[var8] = var10;
+            var4[7] = var10;
             var8 = global;
             var12 = var8.Math;
             var11 = var12.min;
@@ -139,7 +139,7 @@ case 24:
             var8 = 7;
             var10 = var11.bind(var12)(var10, var8);
             var8 = 'multiplier';
-            var4[var8] = var10;
+            var4[7] = var10;
             var10 = var3 == var7;
             var8 = undefined;
             if(var10) { _fun0003_ip = 26; continue _fun0003 }
@@ -161,7 +161,7 @@ case 29:
             var8 = var7 instanceof Object ? var7 : var10;
 case 28:
             var7 = 'decayInterval';
-            var4[var7] = var8;
+            var4[6] = var8;
             _closure2_slot0 = var4;
             var8 = _closure1_slot14;
             var7 = var8.set;
@@ -214,7 +214,7 @@ case 38:
                     var8 = 1;
                     var9 = var9 - var8;
                     var8 = 'value';
-                    var4[var8] = var9;
+                    var4[7] = var9;
                     var4 = var7.bind(var1)(var4);
                     var7 = _closure1_slot17;
                     var4 = var7.emitChange;
@@ -236,10 +236,10 @@ case 40:
                     var10 = var5;
                     var5 = copyDataProperties(var11, var10);
                     var5 = 'value';
-                    var3[var5] = var6;
+                    var3[4] = var6;
                     var6 = 1;
                     var5 = 'multiplier';
-                    var3[var5] = var6;
+                    var3[4] = var6;
                     var3 = var4.bind(var1)(var3);
                     var3 = _closure1_slot17;
                     var2 = var3.emitChange;
@@ -773,17 +773,17 @@ case 65:
             var8 = var7.bind(var8)(var5);
             var5 = _closure1_slot9;
             var5 = var5.screenshakeEnabled;
-            if(!var5) { _fun0013_ip = 28; continue _fun0013 }
+            if(!var5) { _fun0013_ip = 67; continue _fun0013 }
 case 26:
             var5 = _closure1_slot9;
             var7 = var5.screenshakeEnabledLocations;
             var5 = _closure1_slot11;
             var5 = var5.MENTION;
             var5 = var7[var5];
-            if(!var5) { _fun0013_ip = 28; continue _fun0013 }
-case 67:
-            if(!(var2 != var6)) { _fun0013_ip = 28; continue _fun0013 }
+            if(!var5) { _fun0013_ip = 67; continue _fun0013 }
 case 68:
+            if(!(var2 != var6)) { _fun0013_ip = 67; continue _fun0013 }
+case 69:
             var5 = var6.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -793,21 +793,21 @@ case 68:
                 return var1;
             };
             var3 = var5.bind(var6)(var3);
-            if(!(var2 == var3)) { _fun0013_ip = 69; continue _fun0013 }
-case 28:
+            if(!(var2 == var3)) { _fun0013_ip = 70; continue _fun0013 }
+case 67:
             var3 = false;
             return var3;
-case 69:
-            if(!(var2 == var8)) { _fun0013_ip = 70; continue _fun0013 }
-case 71:
+case 70:
+            if(!(var2 == var8)) { _fun0013_ip = 71; continue _fun0013 }
+case 72:
             var3 = global;
             var5 = var3.Math;
             var3 = var5.random;
             var5 = var3.bind(var5)();
             var3 = 4;
             var5 = var3 * var5;
-            _fun0013_ip = 72; continue _fun0013;
-case 70:
+            _fun0013_ip = 73; continue _fun0013;
+case 71:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 12;
@@ -819,12 +819,12 @@ case 70:
             var3 = var6.bind(var7)(var8, var3);
             var6 = var2 != var3;
             var2 = 0.001;
-            if(!var6) { _fun0013_ip = 73; continue _fun0013 }
-case 74:
+            if(!var6) { _fun0013_ip = 74; continue _fun0013 }
+case 75:
             var2 = var3;
-case 73:
+case 74:
             var5 = var2;
-case 72:
+case 73:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 13;

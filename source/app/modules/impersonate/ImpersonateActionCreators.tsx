@@ -234,7 +234,7 @@ case 38:
             var12 = var12.NEW_MEMBER;
             var13 = var13 === var12;
             var12 = 'is_viewing_as_member';
-            var4[var12] = var13;
+            var4[11] = var13;
             var4 = var10.bind(var11)(var7, var4);
             var4 = 13;
             var4 = var6[var4];
@@ -455,7 +455,7 @@ case 40:
         var11 = var11.NEW_MEMBER;
         var12 = var12 === var11;
         var11 = 'is_viewing_as_member';
-        var4[var11] = var12;
+        var4[10] = var12;
         var4 = var9.bind(var10)(var8, var4);
         var4 = 13;
         var4 = var6[var4];

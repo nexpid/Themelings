@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var10;
     var10 = copyDataProperties(var14, var13);
     var10 = 'probeAudioEffects';
-    var9[var10] = var11;
+    var9[9] = var11;
     var8[1] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);

@@ -277,7 +277,7 @@ case 49:
             var14 = var4;
             var13 = var3;
             var3 = arraySpread(var14, var13, var12);
-            var4[var3] = var6;
+            var4[2] = var6;
             var3 = var3 + var5;
             var3 = var4.sort;
             var2 = _closure1_slot15;

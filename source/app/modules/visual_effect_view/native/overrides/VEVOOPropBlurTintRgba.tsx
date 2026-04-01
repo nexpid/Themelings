@@ -175,11 +175,11 @@ case 8:
                     var11 = var5;
                     var6 = copyDataProperties(var11, var10);
                     var6 = 'blurTintRgbaOverrideOpacity';
-                    var5[var6] = var9;
+                    var5[5] = var9;
                     var6 = 'blurTintRgbaOverrideHex';
-                    var5[var6] = var8;
+                    var5[5] = var8;
                     var6 = 'blurTintRgbaOverride';
-                    var5[var6] = var4;
+                    var5[5] = var4;
                     var _closure3_slot0 = var5;
                     if(!(var7 != var4)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
@@ -193,7 +193,7 @@ case 11:
                     var10 = var5;
                     var5 = copyDataProperties(var11, var10);
                     var5 = 'rgba(0, 0, 0, 0)';
-                    var3[var6] = var5;
+                    var3[5] = var5;
                     var3 = var4.bind(var1)(var3);
                     var3 = global;
                     var3 = var3.setTimeout;

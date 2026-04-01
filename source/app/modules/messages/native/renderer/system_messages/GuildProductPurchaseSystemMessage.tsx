@@ -51,7 +51,7 @@ case 0:
             var1 = new var20[var4](var19, var18);
             var2 = var1 instanceof Object ? var1 : var2;
             var1 = 'message';
-            var5[var1] = var2;
+            var5[0] = var2;
             var2 = var5.message;
             var1 = _closure1_slot5;
             var1 = var1.ROLE_SUBSCRIPTION_PURCHASE;

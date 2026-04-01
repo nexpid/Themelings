@@ -119,7 +119,7 @@ case 11:
 case 15:
                     var6 = _closure1_slot12;
 case 14:
-                    var2[var6] = var5;
+                    var2[5] = var5;
                     var3 = var2;
 case 13:
                     var2 = undefined;
@@ -305,7 +305,7 @@ case 38:
                         var20 = copyDataProperties(var23, var22);
                         var19 = var19.id;
                         var19 = var19 in var4;
-                        var16[var9] = var19;
+                        var16[8] = var19;
                         var18[var17] = var16;
                         var3 = true;
                         _fun0003_ip = 31; continue _fun0003;

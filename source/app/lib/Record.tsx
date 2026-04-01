@@ -78,7 +78,7 @@ case 7:
                 var9 = var3;
                 var8 = var7;
                 var7 = copyDataProperties(var9, var8);
-                var3[var6] = var4;
+                var3[5] = var4;
                 var4 = var5.prototype;
                 var4 = Object.create(var4, {constructor: {value: var5}});
                 var10 = var4;
@@ -281,7 +281,7 @@ case 32:
             var1 = {};
             var5 = arg2;
             var4 = arg1;
-            var1[var4] = var5;
+            var1[3] = var5;
             var1 = var2.bind(var3)(var1);
             return var1;
         };

@@ -584,16 +584,16 @@ case 0:
                 var7 = copyDataProperties(var12, var11);
                 var8 = 1;
                 var7 = 'version';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var8 = var6.stallTime;
                 var7 = 'stall_time';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var8 = arg3;
                 var7 = 'is_previous';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var8 = arg4;
                 var7 = 'reports_remaining';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var10 = var6.sessionId;
                 var7 = null;
                 var9 = arg2;
@@ -603,9 +603,9 @@ case 58:
                 var8 = var6.sessionId;
 case 57:
                 var6 = 'stall_session_id';
-                var2[var6] = var8;
+                var2[5] = var8;
                 var6 = 'trace';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             }

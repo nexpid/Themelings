@@ -66,7 +66,7 @@ case 3:
                 var10 = var1;
                 var8 = 0;
                 var3 = arraySpread(var10, var9, var8);
-                var1[var3] = var5;
+                var1[2] = var5;
                 var8 = var3 + var4;
                 var6 = _closure2_slot0;
                 var5 = var6.slice;
@@ -116,35 +116,34 @@ case 7:
                 var2.return();
 case 6:
                 var1 = var1.application;
-                var1 = var1.embeddedActivityConfig;
-                var2 = null;
-                var3 = var2 == var1;
+                var2 = var1.embeddedActivityConfig;
+                var1 = null;
+                var3 = var1 == var2;
                 var4 = undefined;
                 if(var3) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                var3 = var1.client_platform_config;
+                var3 = var2.client_platform_config;
                 var7 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var5 = 2;
                 var5 = var8[var5];
                 var5 = var7.bind(var6)(var5);
                 var7 = _closure1_slot0;
-                var1 = 3;
-                var1 = var8[var1];
-                var7 = var7.bind(var6)(var1);
-                var1 = var7.getOS;
-                var1 = var1.bind(var7)();
-                var1 = var5.bind(var6)(var1);
-                var1 = var3[var1];
-                var2 = var2 == var1;
+                var2 = 3;
+                var2 = var8[var2];
+                var7 = var7.bind(var6)(var2);
+                var2 = var7.getOS;
+                var2 = var2.bind(var7)();
+                var2 = var5.bind(var6)(var2);
+                var2 = var3[var2];
+                var3 = var1 == var2;
                 var4 = undefined;
-                if(var2) { _fun0002_ip = 8; continue _fun0002 }
+                if(var3) { _fun0002_ip = 8; continue _fun0002 }
 case 10:
-                var4 = var1.label_type;
+                var4 = var2.label_type;
 case 8:
-                var2 = !var4;
-                var1 = !var2;
-                if(var2) { _fun0002_ip = 11; continue _fun0002 }
+                var1 = var1 != var4;
+                if(!var1) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -237,7 +236,7 @@ case 24:
                 var11 = var2;
                 var9 = 0;
                 var4 = arraySpread(var11, var10, var9);
-                var2[var4] = var6;
+                var2[3] = var6;
                 var9 = var4 + var5;
                 var6 = _closure2_slot0;
                 var4 = var6.slice;

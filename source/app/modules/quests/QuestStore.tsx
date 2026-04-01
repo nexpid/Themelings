@@ -592,7 +592,7 @@ case 67:
             var23 = var16;
             var22 = var13;
             var20 = copyDataProperties(var23, var22);
-            var1[var7] = var16;
+            var1[6] = var16;
             var1 = var15.bind(var18)(var14, var1);
             var16 = var12.Map;
             var23 = _closure1_slot35;
@@ -607,7 +607,7 @@ case 67:
             var23 = var1;
             var22 = var19;
             var19 = copyDataProperties(var23, var22);
-            var1[var6] = var18;
+            var1[5] = var18;
             var1 = var15.bind(var16)(var17, var1);
 case 66:
             var15 = var8.bind(var9)();
@@ -716,7 +716,7 @@ case 78:
             var9 = copyDataProperties(var13, var12);
             var9 = var6.claimedAt;
             var6 = 'claimedAt';
-            var5[var6] = var9;
+            var5[5] = var9;
             var9 = var7 == var8;
             var6 = undefined;
             if(var9) { _fun0006_ip = 52; continue _fun0006 }
@@ -730,7 +730,7 @@ case 81:
             var7 = var6;
 case 80:
             var6 = 'claimedTier';
-            var5[var6] = var7;
+            var5[5] = var7;
             var2['userStatus'] = var5;
             var2 = var3.bind(var1)(var4, var2);
 case 59:
@@ -2371,7 +2371,7 @@ case 44:
             var7 = copyDataProperties(var10, var9);
             var7 = var6.claimedAt;
             var6 = 'claimedAt';
-            var5[var6] = var7;
+            var5[5] = var7;
             var2['userStatus'] = var5;
             var2 = var3.bind(var1)(var4, var2);
 case 47:

@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var11;
     var12 = copyDataProperties(var18, var17);
     var12 = 'top';
-    var11[var12] = var1;
+    var11[11] = var1;
     var5['separator'] = var11;
     var5 = var9.bind(var10)(var5);
     var _closure1_slot2 = var5;

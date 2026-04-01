@@ -19,13 +19,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.ProfileFrameLayerOrder;
     var8 = var7.FRONT;
     var7 = 3;
-    var2[var8] = var7;
+    var2[7] = var7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ProfileFrameLayerOrder;
     var7 = var4.BACK;
     var4 = 2;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

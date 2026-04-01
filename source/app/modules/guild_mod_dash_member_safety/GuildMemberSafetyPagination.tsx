@@ -275,7 +275,7 @@ case 7:
                 var7 = var2;
                 var4 = copyDataProperties(var7, var6);
                 var4 = 'continuationToken';
-                var2[var4] = var5;
+                var2[3] = var5;
                 var3['_paginationState'] = var2;
                 var1 = true;
 case 6:

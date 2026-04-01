@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var7 = 'showModal';
-    var2[var7] = var8;
+    var2[6] = var8;
     var7 = function hideModal() {
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = 'hideModal';
-    var2[var4] = var7;
+    var2[3] = var7;
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -189,7 +189,7 @@ case 4:
             var7 = var7.bottom;
             var9 = var9 + var7;
             var7 = 'paddingBottom';
-            var5[var7] = var9;
+            var5[6] = var9;
             var1['contentContainerStyle'] = var5;
             var7 = _closure1_slot8;
             var5 = 12;
@@ -411,7 +411,7 @@ case 10:
                 var1 = copyDataProperties(var6, var5);
                 var4 = arg1;
                 var1 = 'id';
-                var2[var1] = var4;
+                var2[0] = var4;
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;

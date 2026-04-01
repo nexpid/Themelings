@@ -801,7 +801,7 @@ case 76:
                     var14 = var13;
 case 75:
                     var13 = 'metadata_raw';
-                    var9[var13] = var14;
+                    var9[12] = var14;
                     var13 = var12;
                     var14 = var7 != var13;
                     var13 = null;
@@ -810,7 +810,7 @@ case 78:
                     var13 = var12;
 case 77:
                     var12 = 'metadata_sealed';
-                    var9[var12] = var13;
+                    var9[11] = var13;
                     var12 = var11;
                     var13 = var7 != var12;
                     var12 = null;
@@ -819,7 +819,7 @@ case 80:
                     var12 = var11;
 case 79:
                     var11 = 'traffic_metadata_raw';
-                    var9[var11] = var12;
+                    var9[10] = var12;
                     var4['body'] = var9;
                     var9 = true;
                     var4['rejectWithError'] = var9;
@@ -1056,7 +1056,7 @@ case 112:
                     var16 = var15;
 case 111:
                     var15 = 'metadata_raw';
-                    var10[var15] = var16;
+                    var10[14] = var16;
                     var15 = var14;
                     var16 = var12 != var15;
                     var15 = null;
@@ -1065,7 +1065,7 @@ case 114:
                     var15 = var14;
 case 113:
                     var14 = 'metadata_sealed';
-                    var10[var14] = var15;
+                    var10[13] = var15;
                     var14 = var13;
                     var15 = var12 != var14;
                     var14 = null;
@@ -1074,7 +1074,7 @@ case 116:
                     var14 = var13;
 case 115:
                     var13 = 'traffic_metadata_raw';
-                    var10[var13] = var14;
+                    var10[12] = var14;
                     var13 = var11;
                     var13 = var12 != var13;
                     var12 = null;
@@ -1083,7 +1083,7 @@ case 118:
                     var12 = var11;
 case 117:
                     var11 = 'traffic_metadata_sealed';
-                    var10[var11] = var12;
+                    var10[10] = var12;
                     var3['body'] = var10;
                     var10 = false;
                     var3['rejectWithError'] = var10;
@@ -1390,7 +1390,7 @@ case 62:
                     var13 = var12;
 case 139:
                     var12 = 'traffic_metadata_raw';
-                    var9[var12] = var13;
+                    var9[11] = var13;
                     var12 = var10;
                     var12 = var11 != var12;
                     var11 = null;
@@ -1399,7 +1399,7 @@ case 141:
                     var11 = var10;
 case 140:
                     var10 = 'traffic_metadata_sealed';
-                    var9[var10] = var11;
+                    var9[9] = var11;
                     var5['body'] = var9;
                     var9 = false;
                     var5['rejectWithError'] = var9;
@@ -2406,15 +2406,15 @@ case 226:
                     var22 = copyDataProperties(var41, var40);
                     var22 = var21.id;
                     var21 = 'quest_id';
-                    var15[var21] = var22;
+                    var15[20] = var22;
                     var22 = var13;
                     var21 = 'caller_source';
-                    var15[var21] = var22;
+                    var15[20] = var22;
                     var20 = var20.String;
                     var19 = var19.request_id;
                     var20 = var20.bind(var2)(var19);
                     var19 = 'ad_request_id';
-                    var15[var19] = var20;
+                    var15[18] = var20;
                     var15 = var17.bind(var18)(var16, var15);
 case 228: // try_end0
                     _fun0015_ip = 229; continue _fun0015;
@@ -2468,7 +2468,7 @@ case 234:
                     var10 = var8;
 case 233:
                     var8 = 'reason';
-                    var4[var8] = var10;
+                    var4[7] = var10;
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var7 = 10;
@@ -2483,10 +2483,10 @@ case 233:
                     var14 = var15.getAnyErrorMessage;
                     var15 = var14.bind(var15)();
                     var14 = 'api_error';
-                    var4[var14] = var15;
+                    var4[13] = var15;
                     var14 = var13;
                     var13 = 'caller_source';
-                    var4[var13] = var14;
+                    var4[12] = var14;
                     var4 = var11.bind(var12)(var5, var4);
                     var3 = var10[var3];
                     var5 = var8.bind(var2)(var3);

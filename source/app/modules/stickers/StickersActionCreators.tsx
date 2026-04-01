@@ -460,10 +460,10 @@ case 43:
                             var4 = var3.user;
                             var5 = var4.id;
                             var4 = 'user_id';
-                            var2[var4] = var5;
+                            var2[3] = var5;
                             var4 = var3.user;
                             var3 = 'user';
-                            var2[var3] = var4;
+                            var2[2] = var4;
                             var1 = var2;
 case 42:
                             return var1;
@@ -673,7 +673,7 @@ case 58:
                     var8 = var7.id;
 case 57:
                     var7 = 'user_id';
-                    var6[var7] = var8;
+                    var6[6] = var8;
                     var3['sticker'] = var6;
                     var3 = var4.bind(var5)(var3);
                     var3 = var2.body;

@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['contentPreface'] = var22;
-    var4[var7] = var2;
+    var4[6] = var2;
     var7 = var6.MEMBER;
     var2 = {};
     var22 = 'template_member';
@@ -267,7 +267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['contentPreface'] = var19;
-    var4[var7] = var2;
+    var4[6] = var2;
     var7 = var6.MODERATOR;
     var2 = {};
     var19 = 'template_moderator';
@@ -379,7 +379,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['contentPreface'] = var18;
-    var4[var7] = var2;
+    var4[6] = var2;
     var7 = var6.MANAGER;
     var2 = {};
     var18 = 'template_manager';
@@ -492,7 +492,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['contentPreface'] = var14;
-    var4[var7] = var2;
+    var4[6] = var2;
     var7 = {};
     var2 = var12.SOLID;
     var7['id'] = var2;

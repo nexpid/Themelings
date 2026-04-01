@@ -345,7 +345,7 @@ case 44:
                     var2 = new var7[var4](var6, var5);
                     var3 = var2 instanceof Object ? var2 : var3;
                     var2 = 'features';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var4 = var5.bind(var6)(var4);
@@ -404,7 +404,7 @@ case 43:
                 var7 = var3;
                 var2 = arraySpread(var7, var6, var5);
                 var2 = 'features';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var3 = var4.bind(var5)(var3);
@@ -519,10 +519,10 @@ case 43:
             var4 = copyDataProperties(var7, var6);
             var5 = new Array(0);
             var4 = 'guilds';
-            var3[var4] = var5;
+            var3[3] = var5;
             var5 = 0;
             var4 = 'lastFetchedAt';
-            var3[var4] = var5;
+            var3[3] = var5;
             var4 = global;
             var4 = var4.Set;
             var5 = var4.prototype;
@@ -531,10 +531,10 @@ case 43:
             var4 = new var8[var4](var7);
             var5 = var4 instanceof Object ? var4 : var5;
             var4 = 'lastFetchedGameIds';
-            var3[var4] = var5;
+            var3[3] = var5;
             var5 = {};
             var4 = 'guildGameIds';
-            var3[var4] = var5;
+            var3[3] = var5;
             _closure1_slot7 = var3;
             var1 = var2.emitChange;
             var1 = var1.bind(var2)();
@@ -560,7 +560,7 @@ case 43:
             var4 = new var8[var4](var7);
             var5 = var4 instanceof Object ? var4 : var5;
             var4 = 'dismissedGuildIds';
-            var3[var4] = var5;
+            var3[3] = var5;
             _closure1_slot7 = var3;
             var1 = var2.emitChange;
             var1 = var1.bind(var2)();
@@ -666,13 +666,13 @@ case 47:
             };
             var6 = var6.bind(var8)(var4);
             var4 = 'guilds';
-            var2[var4] = var6;
+            var2[3] = var6;
             var4 = global;
             var8 = var4.Date;
             var6 = var8.now;
             var8 = var6.bind(var8)();
             var6 = 'lastFetchedAt';
-            var2[var6] = var8;
+            var2[5] = var8;
             var4 = var4.Set;
             var6 = var4.prototype;
             var6 = Object.create(var6, {constructor: {value: var4}});
@@ -681,9 +681,9 @@ case 47:
             var4 = new var13[var4](var12, var11);
             var6 = var4 instanceof Object ? var4 : var6;
             var4 = 'lastFetchedGameIds';
-            var2[var4] = var6;
+            var2[3] = var6;
             var4 = 'guildGameIds';
-            var2[var4] = var5;
+            var2[3] = var5;
             _closure1_slot7 = var2;
             return var1;
         }
@@ -704,7 +704,7 @@ case 47:
         var8 = 0;
         var10 = var3;
         var6 = arraySpread(var10, var9, var8);
-        var3[var6] = var4;
+        var3[5] = var4;
         var4 = 1;
         var4 = var6 + var4;
         var4 = var5.prototype;
@@ -714,7 +714,7 @@ case 47:
         var3 = new var11[var5](var10, var9);
         var4 = var3 instanceof Object ? var3 : var4;
         var3 = 'dismissedGuildIds';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot7 = var2;
         var1 = undefined;
         return var1;

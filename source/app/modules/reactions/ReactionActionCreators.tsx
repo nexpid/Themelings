@@ -723,7 +723,7 @@ case 86:
                             var6 = copyDataProperties(var15, var14);
                             var7 = false;
                             var6 = 'animated';
-                            var5[var6] = var7;
+                            var5[5] = var7;
                             var2['emoji'] = var5;
                             var2 = var3.bind(var4)(var2);
 case 88:

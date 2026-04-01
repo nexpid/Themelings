@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var3;
         var7 = copyDataProperties(var11, var10);
         var7 = 'editStateId';
-        var3[var7] = var8;
+        var3[6] = var8;
         var2 = _closure1_slot5;
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;

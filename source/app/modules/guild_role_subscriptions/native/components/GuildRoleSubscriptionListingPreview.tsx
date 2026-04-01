@@ -255,7 +255,7 @@ case 4:
         var5['children'] = var8;
         var6 = var7.bind(var4)(var6, var5);
         var5 = 'children';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -283,7 +283,7 @@ case 4:
         var13 = var9;
         var1 = copyDataProperties(var14, var13);
         var1 = 'label';
-        var5[var1] = var11;
+        var5[0] = var11;
         var1 = undefined;
         var7 = var8.bind(var1)(var7, var5);
         var5 = new Array(2);
@@ -295,7 +295,7 @@ case 4:
         var13 = var9;
         var9 = copyDataProperties(var14, var13);
         var9 = 'children';
-        var6[var9] = var10;
+        var6[8] = var10;
         var6 = var8.bind(var1)(var7, var6);
         var5[1] = var6;
         var2['children'] = var5;

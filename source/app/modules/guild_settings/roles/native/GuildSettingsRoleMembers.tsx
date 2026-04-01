@@ -217,7 +217,7 @@ case 0:
                 return var1;
             };
             var6 = var20.bind(var3)(var6);
-            var7[var19] = var6;
+            var7[18] = var6;
             var6 = 'GuildSettingsRoleMembers';
             var6 = var13.bind(var16)(var7, var6);
             var6 = 13;

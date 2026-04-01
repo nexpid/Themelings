@@ -200,9 +200,9 @@ case 11:
                 var10 = var4;
                 var7 = copyDataProperties(var10, var9);
                 var7 = 'endTimeMs';
-                var4[var7] = var3;
+                var4[6] = var3;
                 var7 = 'segmentEndSec';
-                var4[var7] = var6;
+                var4[6] = var6;
                 var4 = var5.bind(var1)(var4);
                 var5 = _closure2_slot8;
                 var4 = {};
@@ -292,9 +292,9 @@ case 22:
                 var11 = var3;
                 var6 = copyDataProperties(var11, var10);
                 var6 = 'endTimeMs';
-                var3[var6] = var9;
+                var3[5] = var9;
                 var6 = 'segmentEndSec';
-                var3[var6] = var8;
+                var3[5] = var8;
                 var3 = var5.bind(var7)(var3);
 case 19:
                 var3 = _closure2_slot8;
@@ -393,9 +393,9 @@ case 33:
                 var10 = var3;
                 var6 = copyDataProperties(var10, var9);
                 var6 = 'endTimeMs';
-                var3[var6] = var8;
+                var3[5] = var8;
                 var6 = 'segmentEndSec';
-                var3[var6] = var7;
+                var3[5] = var7;
                 var3 = var5.bind(var1)(var3);
 case 32:
                 var3 = _closure2_slot8;

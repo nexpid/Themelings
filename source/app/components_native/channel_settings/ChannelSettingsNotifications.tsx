@@ -192,9 +192,9 @@ case 14:
             var15 = var6;
             var6 = copyDataProperties(var16, var15);
             var6 = 'guildMemberCount';
-            var2[var6] = var8;
+            var2[5] = var8;
             var6 = 'showVoiceActivityNotificationOptions';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 13:
             return var1;

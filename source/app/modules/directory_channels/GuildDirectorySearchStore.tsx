@@ -251,7 +251,7 @@ case 15:
         var8 = copyDataProperties(var11, var10);
         var9 = false;
         var8 = 'fetching';
-        var3[var8] = var9;
+        var3[7] = var9;
         var7[var4] = var3;
         var9 = new Array(0);
         var _closure2_slot0 = var9;
@@ -292,7 +292,7 @@ case 15:
         var7 = var8.now;
         var7 = var7.bind(var8)();
         var5['lastSearchedAt'] = var7;
-        var2[var6] = var5;
+        var2[5] = var5;
         var3[var4] = var2;
         return var1;
     };
@@ -307,7 +307,7 @@ case 15:
         var4 = copyDataProperties(var7, var6);
         var5 = false;
         var4 = 'fetching';
-        var1[var4] = var5;
+        var1[3] = var5;
         var2[var3] = var1;
         var1 = undefined;
         return var1;
@@ -384,8 +384,8 @@ case 6:
             var9 = var7;
             var7 = copyDataProperties(var10, var9);
             var7 = 'results';
-            var5[var7] = var8;
-            var2[var6] = var5;
+            var5[6] = var8;
+            var2[5] = var5;
             var3[var4] = var2;
 case 19:
             return var1;

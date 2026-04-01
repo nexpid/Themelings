@@ -152,7 +152,7 @@ case 6:
             var20 = var15;
             var15 = copyDataProperties(var21, var20);
             var15 = 'onWillFocus';
-            var5[var15] = var17;
+            var5[14] = var17;
             var17 = {};
             var15 = 5;
             var15 = var14[var15];
@@ -162,10 +162,10 @@ case 6:
             var15 = var18 + var15;
             var17['height'] = var15;
             var15 = 'headerStyle';
-            var5[var15] = var17;
+            var5[14] = var17;
             var17 = true;
             var15 = 'hideTitle';
-            var5[var15] = var17;
+            var5[14] = var17;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;

@@ -125,7 +125,7 @@ case 0:
                     var1 = copyDataProperties(var8, var7);
                     var6 = true;
                     var1 = 'confirmStrangerRequest';
-                    var4[var1] = var6;
+                    var4[0] = var6;
                     var1 = undefined;
                     var4 = var5.bind(var1)(var4);
                     var4 = var3.onConfirm;

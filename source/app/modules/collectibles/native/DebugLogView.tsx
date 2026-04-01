@@ -183,7 +183,7 @@ case 8:
             var17 = copyDataProperties(var20, var19);
             var18 = '#ffffff';
             var17 = 'color';
-            var12[var17] = var18;
+            var12[16] = var18;
             var7['style'] = var12;
             var12 = var10.length;
             var10 = ['Debug Log ('];

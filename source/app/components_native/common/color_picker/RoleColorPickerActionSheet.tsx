@@ -152,9 +152,9 @@ case 2:
                 var3 = copyDataProperties(var6, var5);
                 var4 = 38;
                 var3 = 'minWidth';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'height';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 4:
                 return var1;

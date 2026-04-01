@@ -318,23 +318,23 @@ case 9:
                 return var1;
             };
             var20 = 'renderLeadingComponent';
-            var8[var20] = var22;
+            var8[19] = var22;
             var22 = var6 != var14;
             var20 = 'error';
-            var8[var20] = var22;
+            var8[19] = var22;
             var22 = arg2;
             var20 = 'ref';
-            var8[var20] = var22;
+            var8[19] = var22;
             var20 = 'value';
-            var8[var20] = var21;
+            var8[19] = var21;
             var21 = var11.input;
             var20 = new Array(2);
             var20[0] = var21;
             var20[1] = var16;
             var16 = 'style';
-            var8[var16] = var20;
+            var8[15] = var20;
             var16 = 'onChangeText';
-            var8[var16] = var19;
+            var8[15] = var19;
             var16 = _closure1_slot0;
             var13 = var13[var18];
             var13 = var16.bind(var4)(var13);
@@ -346,7 +346,7 @@ case 12:
             var16 = 'telephoneNumber';
 case 11:
             var13 = 'textContentType';
-            var8[var13] = var16;
+            var8[12] = var16;
             var16 = _closure1_slot0;
             var13 = _closure1_slot2;
             var13 = var13[var18];
@@ -359,11 +359,11 @@ case 14:
             var16 = 'phone-pad';
 case 13:
             var13 = 'keyboardType';
-            var8[var13] = var16;
+            var8[12] = var16;
             var13 = 'accessibilityLabel';
-            var8[var13] = var15;
+            var8[12] = var15;
             var13 = 'accessibilityHint';
-            var8[var13] = var10;
+            var8[12] = var10;
             var8 = var12.bind(var4)(var9, var8);
             var5[1] = var8;
             var9 = var6 != var14;

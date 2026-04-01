@@ -402,9 +402,9 @@ case 41:
                         var9 = var5;
                         var5 = copyDataProperties(var10, var9);
                         var5 = 'width';
-                        var6[var5] = var8;
+                        var6[4] = var8;
                         var5 = 'height';
-                        var6[var5] = var7;
+                        var6[4] = var7;
                         var5 = new Array(1);
                         var5[0] = var6;
                         var1['initialSources'] = var5;

@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var4;
     var8 = copyDataProperties(var11, var10);
     var8 = 'reduceMotion';
-    var2[var8] = var1;
+    var2[7] = var1;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

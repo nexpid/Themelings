@@ -276,7 +276,7 @@ case 44:
                         var23 = var12;
                         var22 = var15;
                         var15 = copyDataProperties(var23, var22);
-                        var12[var6] = var14;
+                        var12[5] = var14;
                         var11 = var12;
 case 46:
                         _fun0004_ip = 47; continue _fun0004;
@@ -301,8 +301,8 @@ case 43:
                         var23 = var14;
                         var16 = copyDataProperties(var23, var22);
                         var16 = 'keyboardWillOpen';
-                        var14[var16] = var17;
-                        var12[var15] = var14;
+                        var14[15] = var17;
+                        var12[14] = var14;
                         var11 = var12;
 case 47:
                         var12 = _closure1_slot1;
@@ -454,14 +454,14 @@ case 59:
             var11 = var10.SYSTEM;
             var10 = {};
             var10['keyboardWillOpen'] = var6;
-            var9[var11] = var10;
+            var9[10] = var10;
             var10 = var5[var2];
             var10 = var4.bind(var3)(var10);
             var10 = var10.KeyboardTypes;
             var11 = var10.EXPRESSION;
             var10 = _closure1_slot4;
             var10 = var10.EMOJI;
-            var9[var11] = var10;
+            var9[10] = var10;
             var10 = var5[var2];
             var10 = var4.bind(var3)(var10);
             var10 = var10.KeyboardTypes;
@@ -470,7 +470,7 @@ case 59:
             var12 = _closure1_slot5;
             var12 = var12.CHAT;
             var10['target'] = var12;
-            var9[var11] = var10;
+            var9[10] = var10;
             var10 = var5[var2];
             var10 = var4.bind(var3)(var10);
             var10 = var10.KeyboardTypes;
@@ -479,7 +479,7 @@ case 59:
             var12 = _closure1_slot3;
             var12 = var12.HOME;
             var10['initialRouteName'] = var12;
-            var9[var11] = var10;
+            var9[10] = var10;
             var1['keyboardContexts'] = var9;
             var1['keyboardDuration'] = var8;
             var8 = _closure1_slot11;

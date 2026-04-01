@@ -109,7 +109,7 @@ case 4:
             var17 = 0;
             var12 = arraySpread(var19, var18, var17);
             var11 = {'position': 'absolute', 'top': 0};
-            var10[var12] = var11;
+            var10[11] = var11;
             var11 = 1;
             var11 = var12 + var11;
             var6['style'] = var10;

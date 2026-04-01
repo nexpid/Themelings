@@ -110,23 +110,23 @@ case 0:
             var12 = var1;
             var4 = copyDataProperties(var12, var11);
             var4 = 'soundId';
-            var1[var4] = var8;
+            var1[3] = var8;
             var8 = arg2;
             var4 = 'guildId';
-            var1[var4] = var8;
+            var1[3] = var8;
             var4 = 'emojiId';
-            var1[var4] = var7;
+            var1[3] = var7;
             var4 = 'emojiName';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'userId';
-            var1[var4] = var5;
+            var1[3] = var5;
             var3 = var3 == var2;
             if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var2;
 case 2:
             var2 = 'available';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -150,15 +150,15 @@ case 2:
         var11 = var1;
         var2 = copyDataProperties(var11, var10);
         var2 = 'sound_id';
-        var1[var2] = var7;
+        var1[1] = var7;
         var2 = 'guild_id';
-        var1[var2] = var6;
+        var1[1] = var6;
         var2 = 'emoji_id';
-        var1[var2] = var5;
+        var1[1] = var5;
         var2 = 'emoji_name';
-        var1[var2] = var4;
+        var1[1] = var4;
         var2 = 'user_id';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var3['soundboardSoundToAPI'] = var6;

@@ -345,7 +345,7 @@ case 26:
             return var1;
         };
         var15['throttleKeys'] = var17;
-        var9[var16] = var15;
+        var9[15] = var15;
         var16 = var12.APP_BACKGROUND;
         var15 = {};
         var24 = 120000;
@@ -355,7 +355,7 @@ case 26:
             return var1;
         };
         var15['throttleKeys'] = var17;
-        var9[var16] = var15;
+        var9[15] = var15;
         var16 = var12.ACK_MESSAGES;
         var15 = function(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -387,7 +387,7 @@ case 28:
                 return var1;
             }
         };
-        var9[var16] = var15;
+        var9[15] = var15;
         var17 = var12.GUILD_VIEWED;
         var15 = {};
         var16 = 900000;
@@ -402,7 +402,7 @@ case 28:
             return var1;
         };
         var15['throttleKeys'] = var20;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.FRIENDS_LIST_CLICKED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -414,7 +414,7 @@ case 28:
             return var1;
         };
         var15['throttleKeys'] = var20;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.FRIENDS_LIST_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -426,7 +426,7 @@ case 28:
             return var1;
         };
         var15['throttleKeys'] = var20;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.NOW_PLAYING_CARD_HOVERED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -438,7 +438,7 @@ case 28:
             return var1;
         };
         var15['throttleKeys'] = var20;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.START_SPEAKING;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -450,7 +450,7 @@ case 28:
             return var1;
         };
         var15['throttleKeys'] = var20;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.START_LISTENING;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -462,7 +462,7 @@ case 28:
             return var1;
         };
         var15['throttleKeys'] = var20;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.ACTIVITY_UPDATED;
         var15 = {'throttlePeriod': 60000, 'throttleKeys': null, 'deduplicate': true};
         var20 = 60000;
@@ -474,7 +474,7 @@ case 28:
             return var1;
         };
         var15['throttleKeys'] = var21;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.CHANNEL_OPENED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -506,7 +506,7 @@ case 32:
             }
         };
         var15['throttleKeys'] = var21;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.TEXT_IN_VOICE_OPENED;
         var15 = {};
         var21 = 86400000;
@@ -519,7 +519,7 @@ case 32:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.NOTIFICATION_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -531,7 +531,7 @@ case 32:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.MEMBER_LIST_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -543,7 +543,7 @@ case 32:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.DM_LIST_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -555,7 +555,7 @@ case 32:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.NAV_DRAWER_OPENED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -564,7 +564,7 @@ case 32:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.KEYBOARD_SHORTCUT_USED;
         var15 = {};
         var15['throttlePeriod'] = var24;
@@ -591,7 +591,7 @@ case 33:
             }
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.QUICKSWITCHER_OPENED;
         var15 = {};
         var22 = 10000;
@@ -601,7 +601,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var25;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.CHAT_INPUT_COMPONENT_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -613,7 +613,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var25;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.ROLE_PAGE_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var24;
@@ -627,7 +627,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.VIDEO_INPUT_INITIALIZED;
         var15 = {};
         var15['throttlePeriod'] = var23;
@@ -636,7 +636,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.AUDIO_INPUT_INITIALIZED;
         var15 = {};
         var15['throttlePeriod'] = var23;
@@ -645,7 +645,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.HUB_ONBOARDING_CAROUSEL_SCROLLED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -654,7 +654,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.HUB_STUDENT_PROMPT_CLICKED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -663,7 +663,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.RPC_SERVER_ERROR_CAUGHT;
         var15 = {};
         var15['throttlePeriod'] = var21;
@@ -672,7 +672,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.RPC_COMMAND_SENT;
         var15 = {'throttlePeriod': 86400000, 'throttleKeys': null, 'throttlePercent': 0.001};
         var24 = function throttleKeys(arg1) {
@@ -685,7 +685,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.RPC_SUBSCRIPTION_REQUESTED;
         var15 = {'throttlePeriod': 86400000, 'throttleKeys': null, 'throttlePercent': 0.001};
         var24 = function throttleKeys(arg1) {
@@ -698,7 +698,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.ACTIVITY_HANDSHAKE;
         var15 = {};
         var15['throttlePeriod'] = var21;
@@ -710,7 +710,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.CHANNEL_BANNER_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var21;
@@ -724,7 +724,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.PREMIUM_UPSELL_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var20;
@@ -736,7 +736,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.FORUM_CHANNEL_SEARCHED;
         var15 = {};
         var15['throttlePeriod'] = var20;
@@ -750,7 +750,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.FORUM_CHANNEL_SCROLLED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -764,7 +764,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.VOICE_CHANNEL_GAME_ACTIVITY_INDICATOR_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var20;
@@ -776,7 +776,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.MEDIA_VIEWER_SESSION_COMPLETED;
         var15 = {};
         var15['throttlePeriod'] = var20;
@@ -785,7 +785,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.SUMMARIES_UNREAD_BAR_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var23;
@@ -797,7 +797,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.ACTIVITY_CARDS_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -811,7 +811,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.GUILD_TOOLTIP_SHOWN;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -823,7 +823,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.ACK_COMMUNITY_MESSAGES;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -835,7 +835,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.REDESIGN_NAV_BAR_CLICKED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -847,7 +847,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.CHANNEL_LIST_END_REACHED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -859,7 +859,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.EXPLICIT_MEDIA_REDACTABLE_MESSAGES_LOADED;
         var15 = {};
         var15['throttlePeriod'] = var20;
@@ -873,7 +873,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var20;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.LIVE_ACTIVITY_SETTINGS_UPDATED;
         var15 = {};
         var20 = 3600000;
@@ -883,7 +883,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.MEDIA_INPUT_VOLUME_CHANGED;
         var15 = {};
         var15['throttlePeriod'] = var23;
@@ -895,7 +895,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var24;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.MEDIA_OUTPUT_VOLUME_CHANGED;
         var15 = {};
         var15['throttlePeriod'] = var23;
@@ -907,7 +907,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var23;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.APP_DMS_QUICK_LAUNCHER_IMPRESSION;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -919,7 +919,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var23;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.USER_VOICE_ACTIVITY_VIEWED;
         var15 = {'throttlePeriod': 300000, 'throttleKeys': null, 'deduplicate': true};
         var23 = function throttleKeys(arg1) {
@@ -932,7 +932,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var23;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.PARTY_VOICE_ACTIVITY_VIEWED;
         var15 = {'throttlePeriod': 300000, 'throttleKeys': null, 'deduplicate': true};
         var23 = function throttleKeys(arg1) {
@@ -943,7 +943,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var23;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.MEMBER_LIST_SWIPE_PEEK;
         var15 = {};
         var15['throttlePeriod'] = var18;
@@ -955,7 +955,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var23;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.REDACTABLE_MESSAGE_LOADED;
         var15 = {};
         var15['throttlePeriod'] = var16;
@@ -969,7 +969,7 @@ case 33:
             return var1;
         };
         var15['throttleKeys'] = var23;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.OPEN_MODAL;
         var15 = function(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -997,7 +997,7 @@ case 35:
                 return var1;
             }
         };
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.MODERATOR_QUEUE_ACTION;
         var15 = {};
         var15['throttlePeriod'] = var22;
@@ -1009,7 +1009,7 @@ case 35:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.NOTIFICATION_PERMISSION_STATUS;
         var15 = {};
         var22 = 43200000;
@@ -1028,7 +1028,7 @@ case 35:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.SEARCH_BAR_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var20;
@@ -1040,7 +1040,7 @@ case 35:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.AD_IDENTIFIER_FETCHED;
         var15 = {};
         var15['throttlePeriod'] = var21;
@@ -1049,7 +1049,7 @@ case 35:
             return var1;
         };
         var15['throttleKeys'] = var22;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.ACTIVITY_PANEL_SDK_LINK_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var21;
@@ -1061,7 +1061,7 @@ case 35:
             return var1;
         };
         var15['throttleKeys'] = var21;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.LIBDISCORE_SLOW_TIMERS;
         var15 = {};
         var15['throttlePeriod'] = var20;
@@ -1070,7 +1070,7 @@ case 35:
             return var1;
         };
         var15['throttleKeys'] = var20;
-        var9[var17] = var15;
+        var9[16] = var15;
         var17 = var12.VIDEO_STREAM_ZOOM_CHANGED;
         var15 = {};
         var15['throttlePeriod'] = var18;
@@ -1079,7 +1079,7 @@ case 35:
             return var1;
         };
         var15['throttleKeys'] = var18;
-        var9[var17] = var15;
+        var9[16] = var15;
         var15 = var12.CACHE_STATS_RECORDED;
         var12 = {};
         var12['throttlePeriod'] = var16;
@@ -1088,7 +1088,7 @@ case 35:
             return var1;
         };
         var12['throttleKeys'] = var16;
-        var9[var15] = var12;
+        var9[14] = var12;
         var12 = function getAccessibilityFeatures() {
             var1 = _closure1_slot12;
             var1 = var1.NONE;
@@ -1132,7 +1132,7 @@ case 35:
         var13 = var14.bind(var1)(var13);
         var15 = var13.getCampaignParams;
         var13 = 'getCampaignParams';
-        var12[var13] = var15;
+        var12[12] = var15;
         var15 = function setSystemAccessibilityFeatures(arg1) {
             var1 = arg1;
             _closure1_slot19 = var1;
@@ -1140,9 +1140,9 @@ case 35:
             return var1;
         };
         var13 = 'setSystemAccessibilityFeatures';
-        var12[var13] = var15;
+        var12[12] = var15;
         var13 = 'expandEventProperties';
-        var12[var13] = var7;
+        var12[12] = var7;
         var15 = function track(arg1, arg2) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -1237,7 +1237,7 @@ case 46:
             }
         };
         var13 = 'track';
-        var12[var13] = var15;
+        var12[12] = var15;
         var13 = 17;
         var13 = var5[var13];
         var15 = var14.bind(var1)(var13);

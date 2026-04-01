@@ -73,6 +73,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var10.bind(var11)(var9);
     var3['CountryListMode'] = var8;
     var3['PromotionTypes'] = var7;
+    var7 = '2026-04-nitro-control';
+    var3['NITRO_CONTROL_PROMOTION_KEY'] = var7;
     var3['RECURRING_PARTNERS'] = var6;
     var3['STEELSERIES_PARTNER_ID'] = var5;
     var3['KONTROLFREEK_PARTNER_ID'] = var4;

@@ -421,7 +421,7 @@ case 12:
                     var5 = copyDataProperties(var10, var9);
                     var6 = arg1;
                     var5 = 'previewType';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
@@ -480,7 +480,7 @@ case 0:
                         var8 = _closure2_slot7;
                         var9 = var8.draftType;
                         var8 = 'draftType';
-                        var3[var8] = var9;
+                        var3[7] = var9;
                         var3 = var6.bind(var7)(var3);
                         var3 = 19;
                         var3 = var5[var3];
@@ -834,7 +834,7 @@ case 13:
                     var10 = _closure2_slot7;
                     var10 = var10.uploadDisabled;
                     var5['disabled'] = var10;
-                    var4[var1] = var5;
+                    var4[0] = var5;
                     var1 = var1 + var3;
                     var1 = {};
                     var1['header'] = var4;
@@ -913,25 +913,25 @@ case 37:
                     var9 = _closure2_slot7;
                     var10 = var9.title;
                     var9 = 'title';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var9 = _closure2_slot7;
                     var10 = var9.subtitle;
                     var9 = 'subtitle';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var10 = _closure2_slot0;
                     var9 = 'channel';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var10 = _closure2_slot9;
                     var9 = 'overflowButtons';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var9 = _closure2_slot7;
                     var10 = var9.draftType;
                     var9 = 'draftType';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var9 = _closure2_slot8;
                     var10 = var9.onViewAll;
                     var9 = 'onViewAll';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var10 = function onBack() {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -949,23 +949,23 @@ case 38:
                         }
                     };
                     var9 = 'onBack';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var9 = _closure2_slot8;
                     var10 = var9.onPressHeader;
                     var9 = 'onPress';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var9 = _closure2_slot7;
                     var10 = var9.uploadLimit;
                     var9 = 'uploadLimit';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var9 = _closure2_slot7;
                     var10 = var9.disableWhenReachedLimit;
                     var9 = 'disableWhenReachedLimit';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var9 = _closure2_slot7;
                     var10 = var9.includedUploadIds;
                     var9 = 'includedUploadIds';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var1 = var5.bind(var8)(var2, var1);
                     _fun0011_ip = 39; continue _fun0011;
 case 36:

@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.Date;
             var3 = var5.now;
             var3 = var3.bind(var5)();
-            var2[var4] = var3;
+            var2[3] = var3;
             var1['channelDismissTimestamps'] = var2;
             return var1;
         };
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.Date;
             var4 = var6.now;
             var4 = var4.bind(var6)();
-            var3[var5] = var4;
+            var3[4] = var4;
             var1['userDismissTimestamps'] = var3;
             var3 = var2.Date;
             var2 = var3.now;

@@ -288,7 +288,7 @@ case 20:
                 var10[0] = var2;
                 var10[1] = var6;
                 var2 = 'style';
-                var1[var2] = var10;
+                var1[1] = var10;
                 var1 = var4.bind(var5)(var3, var1);
                 _fun0002_ip = 21; continue _fun0002;
 case 19:
@@ -301,9 +301,9 @@ case 19:
                 var8[0] = var9;
                 var8[1] = var6;
                 var6 = 'style';
-                var2[var6] = var8;
+                var2[5] = var8;
                 var6 = 'onPortalViewLoaded';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var1 = var4.bind(var5)(var3, var2);
 case 21:
                 return var1;

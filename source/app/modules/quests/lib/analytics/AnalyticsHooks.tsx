@@ -51,9 +51,9 @@ case 3:
                 var7 = var5.bind(var8)();
 case 2:
                 var5 = 'impression_id';
-                var6[var5] = var7;
+                var6[4] = var7;
                 var5 = 'properties';
-                var2[var5] = var6;
+                var2[4] = var6;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             }
@@ -190,7 +190,7 @@ case 0:
                     var8 = copyDataProperties(var17, var16);
                     var9 = _closure3_slot2;
                     var8 = 'cta_name';
-                    var6[var8] = var9;
+                    var6[7] = var9;
                     var9 = _closure3_slot7;
                     var8 = null;
                     var9 = var8 != var9;
@@ -206,7 +206,7 @@ case 5:
                     var10 = var11.bind(var12)(var9);
 case 4:
                     var9 = 'quest_status';
-                    var6[var9] = var10;
+                    var6[8] = var10;
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var9 = 9;
@@ -215,7 +215,7 @@ case 4:
                     var9 = var10.v4;
                     var10 = var9.bind(var10)();
                     var9 = 'click_id';
-                    var6[var9] = var10;
+                    var6[8] = var10;
                     var9 = var8 != var7;
                     var10 = null;
                     if(!var9) { _fun0002_ip = 6; continue _fun0002 }
@@ -233,7 +233,7 @@ case 8:
                     var10 = var7.advertisingId;
 case 6:
                     var9 = 'apple_advertising_id';
-                    var6[var9] = var10;
+                    var6[8] = var10;
                     var10 = var8 != var7;
                     var9 = null;
                     if(!var10) { _fun0002_ip = 9; continue _fun0002 }
@@ -251,7 +251,7 @@ case 11:
                     var9 = var7.advertisingId;
 case 9:
                     var7 = 'android_advertising_id';
-                    var6[var7] = var9;
+                    var6[6] = var9;
                     var7 = _closure3_slot8;
                     var7 = var8 != var7;
                     var9 = null;
@@ -260,7 +260,7 @@ case 13:
                     var9 = _closure3_slot8;
 case 12:
                     var7 = 'metadata_raw';
-                    var6[var7] = var9;
+                    var6[6] = var9;
                     var7 = _closure3_slot9;
                     var7 = var8 != var7;
                     var9 = null;
@@ -269,7 +269,7 @@ case 15:
                     var9 = _closure3_slot9;
 case 14:
                     var7 = 'metadata_sealed';
-                    var6[var7] = var9;
+                    var6[6] = var9;
                     var7 = _closure3_slot10;
                     var7 = var8 != var7;
                     var9 = null;
@@ -278,7 +278,7 @@ case 17:
                     var9 = _closure3_slot10;
 case 16:
                     var7 = 'traffic_metadata_raw';
-                    var6[var7] = var9;
+                    var6[6] = var9;
                     var7 = _closure3_slot11;
                     var7 = var8 != var7;
                     var8 = null;
@@ -287,7 +287,7 @@ case 19:
                     var8 = _closure3_slot11;
 case 18:
                     var7 = 'traffic_metadata_sealed';
-                    var6[var7] = var8;
+                    var6[6] = var8;
                     var2['properties'] = var6;
                     var6 = _closure3_slot5;
                     var2['trackGuildAndChannelMetadata'] = var6;

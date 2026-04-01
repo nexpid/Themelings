@@ -481,7 +481,7 @@ case 17:
     var17 = var5;
     var8 = copyDataProperties(var17, var16);
     var8 = 'overshootClamping';
-    var5[var8] = var9;
+    var5[7] = var9;
     var _closure1_slot11 = var5;
     var5 = {};
     var8 = "function VoicePanelFloatingCTAContainerTsx1(){const{getControlsDefaultWidth,windowDimensions,safeArea,state,TransitionStates,controlsSpecs,roundToNearestPixel,withSpring,OPACITY_CHANGE_PHYSICS,runOnJS,cleanUp,wrapperSpecs,UI_SHOW_HIDE_PHYSICS,gestureState,CALL_TILE_GUTTER,accessoryHeights}=this.__closure;const width=getControlsDefaultWidth(windowDimensions.get().width,safeArea.get().left,safeArea.get().right);const opacity=state===TransitionStates.YEETED?0:1;return{bottom:controlsSpecs.get().height+16,width:width,marginLeft:roundToNearestPixel(width/2)*-1,opacity:withSpring(opacity,OPACITY_CHANGE_PHYSICS,'respect-motion-settings',function(finished){if(finished&&state===TransitionStates.YEETED){runOnJS(cleanUp)();}}),transform:[{translateX:withSpring(wrapperSpecs.get().x,UI_SHOW_HIDE_PHYSICS)},{translateY:withSpring(wrapperSpecs.get().hidden||gestureState.get().active&&!gestureState.get().requiresPop?wrapperSpecs.get().height+CALL_TILE_GUTTER+accessoryHeights.get():wrapperSpecs.get().y,UI_SHOW_HIDE_PHYSICS)}]};}";
@@ -541,10 +541,10 @@ case 17:
         var8 = copyDataProperties(var12, var11);
         var9 = arg3;
         var8 = 'state';
-        var1[var8] = var9;
+        var1[7] = var9;
         var9 = arg4;
         var8 = 'cleanUp';
-        var1[var8] = var9;
+        var1[7] = var9;
         var1 = var7.bind(var4)(var6, var1);
         var2['children'] = var1;
         var1 = arg1;

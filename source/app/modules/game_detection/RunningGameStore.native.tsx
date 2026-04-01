@@ -494,14 +494,14 @@ case 9:
         var2 = copyDataProperties(var5, var4);
         var3 = '';
         var2 = 'played';
-        var1[var2] = var3;
+        var1[1] = var3;
         var3 = false;
         var2 = 'overlay';
-        var1[var2] = var3;
+        var1[1] = var3;
         var2 = 'verified';
-        var1[var2] = var3;
+        var1[1] = var3;
         var2 = 'detectable';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var3['transformForGameSettings'] = var2;

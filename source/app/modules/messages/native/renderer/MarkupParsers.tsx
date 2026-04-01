@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = copyDataProperties(var15, var14);
     var12 = false;
     var10 = 'updateAgeOnGet';
-    var9[var10] = var12;
+    var9[9] = var12;
     var10 = var11.prototype;
     var10 = Object.create(var10, {constructor: {value: var11}});
     var16 = var10;
@@ -298,7 +298,7 @@ case 29:
             var20 = var2;
             var3 = copyDataProperties(var20, var19);
             var3 = 'isInlineReplyPreview';
-            var2[var3] = var13;
+            var2[2] = var13;
             var7 = _closure1_slot7;
             var3 = var7.set;
             var3 = var3.bind(var7)(var6, var2);

@@ -244,10 +244,10 @@ case 2:
             var9 = var9["+ZD3ou"];
             var10 = var10.bind(var12)(var9);
             var9 = 'title';
-            var1[var9] = var10;
+            var1[8] = var10;
             var10 = var18.wrapper;
             var9 = 'style';
-            var1[var9] = var10;
+            var1[8] = var10;
             var9 = var8[var17];
             var9 = var11.bind(var4)(var9);
             var10 = var9.intl;
@@ -258,7 +258,7 @@ case 2:
             var8 = var8.ETE/oC;
             var9 = var9.bind(var10)(var8);
             var8 = 'cancelText';
-            var1[var8] = var9;
+            var1[7] = var9;
             var9 = var20 == var5;
             var8 = undefined;
             if(var9) { _fun0001_ip = 8; continue _fun0001 }
@@ -266,9 +266,9 @@ case 9:
             var8 = var5.onClose;
 case 8:
             var5 = 'onClose';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'onCancel';
-            var1[var5] = var7;
+            var1[4] = var7;
             var12 = _closure1_slot0;
             var25 = _closure1_slot2;
             var5 = var25[var17];
@@ -281,9 +281,9 @@ case 8:
             var5 = var5.qXtNtS;
             var7 = var7.bind(var8)(var5);
             var5 = 'confirmText';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'onConfirm';
-            var1[var5] = var6;
+            var1[4] = var6;
             var7 = _closure1_slot11;
             var6 = _closure1_slot5;
             var5 = {};
@@ -399,7 +399,7 @@ case 12:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

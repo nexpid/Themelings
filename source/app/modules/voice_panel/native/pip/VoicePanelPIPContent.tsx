@@ -658,7 +658,7 @@ case 50:
                 var4 = var4.height;
                 var5 = var5 > var4;
                 var4 = 'landscape';
-                var2[var4] = var5;
+                var2[3] = var5;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
@@ -2060,7 +2060,7 @@ case 121:
     var11 = var11.colors;
     var12 = var11.BLACK;
     var11 = 'backgroundColor';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['emptyPip'] = var10;
     var10 = {'position': 'absolute', 'top': 4294967295, 'left': 4294967295, 'bottom': 4294967295, 'right': 4294967295, 'borderWidth': 2, 'borderColor': 'white', 'zIndex': 1, 'opacity': 0.3};
     var4['innerStroke'] = var10;

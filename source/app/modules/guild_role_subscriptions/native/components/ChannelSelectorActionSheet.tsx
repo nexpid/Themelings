@@ -361,7 +361,7 @@ case 36:
     var19 = var9;
     var12 = copyDataProperties(var19, var18);
     var12 = 'marginStart';
-    var9[var12] = var13;
+    var9[11] = var13;
     var4['createChannelLabel'] = var9;
     var9 = {};
     var10 = var6[var10];

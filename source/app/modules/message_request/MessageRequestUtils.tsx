@@ -204,7 +204,7 @@ case 26:
                         var4 = var2.Object;
                         var3 = var4.assign;
                         var2 = {};
-                        var2[var5] = var1;
+                        var2[4] = var1;
                         var1 = arg1;
                         var1 = var3.bind(var4)(var1, var2);
                         return var1;

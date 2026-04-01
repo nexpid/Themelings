@@ -237,7 +237,7 @@ case 35:
         var3 = var5.bind(var4)(var3);
         var3 = var3.QuestPlacement;
         var3 = var3.DESKTOP_ACCOUNT_PANEL_AREA;
-        var2[var7] = var3;
+        var2[6] = var3;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
         var3 = var3.QuestContent;
@@ -246,7 +246,7 @@ case 35:
         var3 = var5.bind(var4)(var3);
         var3 = var3.QuestPlacement;
         var3 = var3.DESKTOP_ACCOUNT_PANEL_AREA;
-        var2[var7] = var3;
+        var2[6] = var3;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
         var3 = var3.QuestContent;
@@ -255,7 +255,7 @@ case 35:
         var3 = var5.bind(var4)(var3);
         var3 = var3.QuestPlacement;
         var3 = var3.MOBILE_HOME_DOCK_AREA;
-        var2[var7] = var3;
+        var2[6] = var3;
         var3 = var6[var1];
         var3 = var5.bind(var4)(var3);
         var3 = var3.QuestContent;
@@ -264,7 +264,7 @@ case 35:
         var1 = var5.bind(var4)(var1);
         var1 = var1.QuestPlacement;
         var1 = var1.QUEST_HOME_BANNER_DESKTOP;
-        var2[var3] = var1;
+        var2[2] = var1;
         var1 = arg1;
         var1 = var2[var1];
         return var1;
@@ -918,9 +918,9 @@ case 73:
             var2 = copyDataProperties(var10, var9);
             var7 = 'quests';
             var2 = 'app_context';
-            var6[var2] = var7;
+            var6[1] = var7;
             var2 = 'tags';
-            var3[var2] = var6;
+            var3[1] = var6;
             var2 = arg1;
             var2 = var4.bind(var5)(var2, var3);
             return var1;

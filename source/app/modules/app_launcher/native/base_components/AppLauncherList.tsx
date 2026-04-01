@@ -125,13 +125,13 @@ case 2:
             var6 = copyDataProperties(var15, var14);
             var7 = var5.onScroll;
             var6 = 'animatedOnScroll';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = var5.gestureRef;
             var6 = 'simultaneousHandlers';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = var5.animatedProps;
             var5 = 'animatedProps';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

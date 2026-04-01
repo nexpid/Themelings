@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = copyDataProperties(var9, var8);
         var7 = true;
         var6 = 'displayed';
-        var5[var6] = var7;
+        var5[5] = var7;
         var2['comboMessage'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;

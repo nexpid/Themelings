@@ -1212,7 +1212,7 @@ case 90:
                                 var3 = 100;
                                 var4 = var5.bind(var6)(var4, var3);
                                 var3 = 'data';
-                                var2[var3] = var4;
+                                var2[2] = var4;
                                 var1 = var2;
 case 88:
                                 return var1;
@@ -1235,7 +1235,7 @@ case 92:
                         var24 = var18.length;
 case 91:
                         var18 = 'messages';
-                        var20[var18] = var24;
+                        var20[17] = var24;
                         var18 = '[FAST CONNECT] successfully took over websocket, state:';
                         var18 = var22.bind(var23)(var18, var20);
                         var18 = var21.state;
@@ -3162,7 +3162,7 @@ case 168:
                 var5 = copyDataProperties(var8, var7);
                 var5 = !var4;
                 var4 = 'sentry';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;

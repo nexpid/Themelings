@@ -37,7 +37,7 @@ case 0:
         var14 = var10.SERVER_SETTINGS;
         var7['step'] = var14;
         var5['onNext'] = var7;
-        var4[var6] = var5;
+        var4[5] = var5;
         var6 = var10.SERVER_SETTINGS;
         var5 = {};
         var7 = {};
@@ -49,7 +49,7 @@ case 0:
         var8 = 'save';
         var7['type'] = var8;
         var5['onNext'] = var7;
-        var4[var6] = var5;
+        var4[5] = var5;
         var9['steps'] = var4;
         var4 = var15.window;
         var4 = var4.GLOBAL_ENV;
@@ -116,14 +116,14 @@ case 13:
 case 15:
         var2 = 'https://purple-prod.shockbyte.dev/support';
 case 14:
-        var4[var14] = var2;
+        var4[13] = var2;
         var2 = {};
         var11 = var13[var11];
         var11 = var12.bind(var1)(var11);
         var11 = var11.GameServerProviderType;
         var14 = var11.SHOCKBYTE;
         var11 = 'https://shockbyte.com/legal/acceptable-use-policy';
-        var2[var14] = var11;
+        var2[13] = var11;
         var11 = 2;
         var11 = var13[var11];
         var13 = var12.bind(var1)(var11);

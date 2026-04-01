@@ -320,7 +320,7 @@ case 29:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

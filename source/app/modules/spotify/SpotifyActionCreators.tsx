@@ -36,7 +36,7 @@ case 2:
             var5 = var8.bind(var7)(var5);
             var6['authorization'] = var5;
             var5 = 'headers';
-            var2[var5] = var6;
+            var2[4] = var6;
             _closure2_slot2 = var2;
             var4 = var4.bind(var3)(var2);
             var3 = var4.then;

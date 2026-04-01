@@ -62,7 +62,7 @@ case 5:
             var7 = {};
             var4 = _closure1_slot7;
             var7['react'] = var4;
-            var1[var8] = var7;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -80,8 +80,8 @@ case 5:
             var15 = var7;
             var10 = copyDataProperties(var15, var14);
             var10 = 'react';
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -97,8 +97,8 @@ case 5:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -114,8 +114,8 @@ case 5:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -131,8 +131,8 @@ case 5:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -148,8 +148,8 @@ case 5:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -165,8 +165,8 @@ case 5:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -182,8 +182,8 @@ case 5:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -203,8 +203,8 @@ case 5:
                 var1 = '\n';
                 return var1;
             };
-            var7[var10] = var12;
-            var1[var8] = var7;
+            var7[9] = var12;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -234,7 +234,7 @@ case 5:
                 return var1;
             };
             var7['react'] = var12;
-            var1[var8] = var7;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -250,8 +250,8 @@ case 5:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -269,9 +269,9 @@ case 5:
             var12 = copyDataProperties(var15, var14);
             var13 = 600;
             var12 = 'order';
-            var7[var12] = var13;
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[11] = var13;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -290,7 +290,7 @@ case 7:
                 }
             };
             var7['react'] = var12;
-            var1[var8] = var7;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -348,7 +348,7 @@ case 11:
                 }
             };
             var7['react'] = var12;
-            var1[var8] = var7;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -382,7 +382,7 @@ case 11:
                 return var1;
             };
             var7['react'] = var12;
-            var1[var8] = var7;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -417,7 +417,7 @@ case 13:
                 }
             };
             var7['react'] = var12;
-            var1[var8] = var7;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -433,8 +433,8 @@ case 13:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -488,9 +488,9 @@ case 15:
                 }
             };
             var12 = 'parse';
-            var7[var12] = var13;
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[11] = var13;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -506,8 +506,8 @@ case 15:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -571,8 +571,8 @@ case 19:
                     return var1;
                 }
             };
-            var7[var10] = var12;
-            var1[var8] = var7;
+            var7[9] = var12;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -641,8 +641,8 @@ case 20:
                     return var1;
                 }
             };
-            var7[var10] = var12;
-            var1[var8] = var7;
+            var7[9] = var12;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -658,15 +658,15 @@ case 20:
             var14 = var13[var12];
             var15 = var7;
             var12 = copyDataProperties(var15, var14);
-            var7[var10] = var4;
-            var1[var8] = var7;
+            var7[9] = var4;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
             var8 = var7.GUILD;
             var7 = {};
             var7['react'] = var4;
-            var1[var8] = var7;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -823,7 +823,7 @@ case 29:
                 }
             };
             var7['react'] = var12;
-            var1[var8] = var7;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -864,8 +864,8 @@ case 29:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var7[var10] = var12;
-            var1[var8] = var7;
+            var7[9] = var12;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -899,8 +899,8 @@ case 29:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var7[var10] = var12;
-            var1[var8] = var7;
+            var7[9] = var12;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
@@ -950,22 +950,22 @@ case 44:
                     return var1;
                 }
             };
-            var7[var10] = var9;
-            var1[var8] = var7;
+            var7[9] = var9;
+            var1[7] = var7;
             var7 = var6[var2];
             var7 = var3.bind(var5)(var7);
             var7 = var7.AST_KEY;
             var8 = var7.HEADING;
             var7 = {};
             var7['react'] = var4;
-            var1[var8] = var7;
+            var1[7] = var7;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.AST_KEY;
             var3 = var2.SUBTEXT;
             var2 = {};
             var2['react'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };

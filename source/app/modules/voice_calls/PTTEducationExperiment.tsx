@@ -1,4 +1,4 @@
-// app/modules/voice_calls/web/PTTEducationExperiment.tsx
+// app/modules/voice_calls/PTTEducationExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -25,18 +25,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var10;
     var12 = copyDataProperties(var15, var14);
     var12 = 'showPTTJoinTooltip';
-    var9[var12] = var11;
+    var9[11] = var11;
     var12 = 'showPTTNoKeybindWarning';
-    var9[var12] = var11;
+    var9[11] = var11;
     var12 = 'showPTTSpeakingIndicator';
-    var9[var12] = var11;
+    var9[11] = var11;
     var8[1] = var9;
     var9 = {};
     var15 = var9;
     var14 = var10;
     var10 = copyDataProperties(var15, var14);
     var10 = 'showPTTIconIndicator';
-    var9[var10] = var11;
+    var9[9] = var11;
     var8[2] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/voice_calls/web/PTTEducationExperiment.tsx';
+    var4 = 'modules/voice_calls/PTTEducationExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

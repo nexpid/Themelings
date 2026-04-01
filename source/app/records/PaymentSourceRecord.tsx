@@ -410,7 +410,7 @@ case 57:
                 var5 = copyDataProperties(var9, var8);
                 var7 = var2.username;
                 var5 = 'username';
-                var3[var5] = var7;
+                var3[4] = var7;
                 var5 = var6.prototype;
                 var5 = Object.create(var5, {constructor: {value: var6}});
                 var10 = var5;
@@ -426,7 +426,7 @@ case 55:
                 var5 = copyDataProperties(var9, var8);
                 var7 = var2.bank;
                 var5 = 'bank';
-                var3[var5] = var7;
+                var3[4] = var7;
                 var5 = var6.prototype;
                 var5 = Object.create(var5, {constructor: {value: var6}});
                 var10 = var5;
@@ -533,7 +533,7 @@ case 39:
                 var5 = copyDataProperties(var9, var8);
                 var7 = var2.bank;
                 var5 = 'bank';
-                var3[var5] = var7;
+                var3[4] = var7;
                 var5 = var6.prototype;
                 var5 = Object.create(var5, {constructor: {value: var6}});
                 var10 = var5;
@@ -549,10 +549,10 @@ case 37:
                 var5 = copyDataProperties(var9, var8);
                 var7 = var2.email;
                 var5 = 'email';
-                var3[var5] = var7;
+                var3[4] = var7;
                 var7 = var2.bank;
                 var5 = 'bank';
-                var3[var5] = var7;
+                var3[4] = var7;
                 var5 = var6.prototype;
                 var5 = Object.create(var5, {constructor: {value: var6}});
                 var10 = var5;
@@ -581,7 +581,7 @@ case 32:
                 var5 = copyDataProperties(var9, var8);
                 var7 = var2.email;
                 var5 = 'email';
-                var3[var5] = var7;
+                var3[4] = var7;
                 var5 = var6.prototype;
                 var5 = Object.create(var5, {constructor: {value: var6}});
                 var10 = var5;
@@ -597,7 +597,7 @@ case 30:
                 var5 = copyDataProperties(var9, var8);
                 var7 = var2.username;
                 var5 = 'username';
-                var3[var5] = var7;
+                var3[4] = var7;
                 var5 = var6.prototype;
                 var5 = Object.create(var5, {constructor: {value: var6}});
                 var10 = var5;
@@ -613,7 +613,7 @@ case 28:
                 var5 = copyDataProperties(var9, var8);
                 var7 = var2.email;
                 var5 = 'email';
-                var3[var5] = var7;
+                var3[4] = var7;
                 var5 = var6.prototype;
                 var5 = Object.create(var5, {constructor: {value: var6}});
                 var10 = var5;
@@ -629,16 +629,16 @@ case 26:
                 var4 = copyDataProperties(var9, var8);
                 var5 = var2.brand;
                 var4 = 'brand';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.last_4;
                 var4 = 'last4';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.expires_month;
                 var4 = 'expiresMonth';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var4 = var2.expires_year;
                 var2 = 'expiresYear';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var10 = var2;

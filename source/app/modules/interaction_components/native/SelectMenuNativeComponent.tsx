@@ -105,7 +105,7 @@ case 6:
                 var6 = '100%';
                 var10['width'] = var6;
                 var6 = 'style';
-                var1[var6] = var10;
+                var1[5] = var10;
                 var6 = var8.bind(var5)(var3, var1);
                 _fun0002_ip = 7; continue _fun0002;
 case 5:
@@ -114,7 +114,7 @@ case 5:
                 var10['width'] = var11;
                 var10['height'] = var9;
                 var9 = 'style';
-                var1[var9] = var10;
+                var1[8] = var10;
                 var6 = var8.bind(var5)(var3, var1);
 case 7:
                 var3 = _closure1_slot0;

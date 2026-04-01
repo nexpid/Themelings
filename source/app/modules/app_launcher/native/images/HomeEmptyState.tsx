@@ -472,7 +472,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var4.bind(var3)(var7, var5);
         var6[34] = var5;
         var5 = 'children';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };

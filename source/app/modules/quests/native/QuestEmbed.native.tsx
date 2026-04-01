@@ -22,29 +22,29 @@ case 0:
             var3 = copyDataProperties(var9, var8);
             var7 = var1.headerColor;
             var3 = 'headerColor';
-            var5[var3] = var7;
+            var5[2] = var7;
             var3 = 'titleText';
-            var5[var3] = var6;
+            var5[2] = var6;
             var6 = var1.titleColor;
             var3 = 'titleColor';
-            var5[var3] = var6;
+            var5[2] = var6;
             var6 = var1.bodyTextColor;
             var3 = 'subtitleColor';
-            var5[var3] = var6;
+            var5[2] = var6;
             var3 = var1.bodyTextColor;
             var1 = 'bodyTextColor';
-            var5[var1] = var3;
+            var5[0] = var3;
             var1 = 'thumbnailUrl';
-            var5[var1] = var2;
+            var5[0] = var2;
             var2 = true;
             var1 = 'embedCanBeTapped';
-            var5[var1] = var2;
+            var5[0] = var2;
             var1 = 'canBeAccepted';
-            var5[var1] = var2;
+            var5[0] = var2;
             var2 = _closure1_slot9;
             var3 = var2.GUILD;
             var2 = 'type';
-            var5[var2] = var3;
+            var5[1] = var3;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 6;
@@ -60,17 +60,17 @@ case 0:
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = 'headerText';
-            var2[var1] = var3;
+            var2[0] = var3;
             var1 = 'subtitle';
-            var2[var1] = var4;
+            var2[0] = var4;
             var1 = var2;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var5 = null;
             var3 = 'headerText';
-            var2[var3] = var5;
+            var2[2] = var5;
             var3 = 'subtitle';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1 = var2;
 case 4:
             return var1;
@@ -400,17 +400,17 @@ case 33:
             var12 = var11;
 case 30:
             var11 = 'acceptLabelText';
-            var5[var11] = var12;
+            var5[10] = var12;
             var11 = var10.acceptBlurpleLabelBackgroundColor;
             var10 = 'acceptLabelBackgroundColor';
-            var5[var10] = var11;
+            var5[9] = var11;
             var6 = var6.colors;
             var10 = var6.acceptLabelGreenColor;
             var6 = 'acceptLabelColor';
-            var5[var6] = var10;
+            var5[5] = var10;
             var10 = 8;
             var6 = 'thumbnailCornerRadius';
-            var5[var6] = var10;
+            var5[5] = var10;
             var1 = var5;
 case 18:
             _fun0003_ip = 34; continue _fun0003;
@@ -566,15 +566,15 @@ case 9:
             var3 = var3.hvVgAZ;
             var4 = var4.bind(var5)(var3);
             var3 = 'acceptLabelText';
-            var1[var3] = var4;
+            var1[2] = var4;
             var3 = var2.colors;
             var4 = var3.acceptBlurpleLabelBackgroundColor;
             var3 = 'acceptLabelBackgroundColor';
-            var1[var3] = var4;
+            var1[2] = var4;
             var2 = var2.colors;
             var3 = var2.acceptLabelGreenColor;
             var2 = 'acceptLabelColor';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

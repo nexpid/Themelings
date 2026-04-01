@@ -1813,7 +1813,7 @@ case 106:
                 var48 = var31;
                 var28 = copyDataProperties(var49, var48);
                 var28 = 'children';
-                var23[var28] = var34;
+                var23[27] = var34;
                 var25 = var26.bind(var5)(var25, var23);
                 _fun0006_ip = 108; continue _fun0006;
 case 101:
@@ -1932,29 +1932,29 @@ case 116:
                 var48 = var16;
                 var16 = copyDataProperties(var49, var48);
                 var16 = 'disabled';
-                var6[var16] = var20;
+                var6[15] = var20;
                 var16 = 'icon';
-                var6[var16] = var19;
+                var6[15] = var19;
                 var16 = 'onPress';
-                var6[var16] = var18;
+                var6[15] = var18;
                 var16 = 'onLongPress';
-                var6[var16] = var17;
+                var6[15] = var17;
                 if(!(var3 != var14)) { _fun0006_ip = 122; continue _fun0006 }
 case 123:
                 var15 = var14;
 case 122:
                 var14 = 'accessibilityActions';
-                var6[var14] = var15;
+                var6[13] = var15;
                 if(!(var3 != var4)) { _fun0006_ip = 124; continue _fun0006 }
 case 125:
                 var13 = var4;
 case 124:
                 var4 = 'onAccessibilityAction';
-                var6[var4] = var13;
+                var6[3] = var13;
                 var4 = 'label';
-                var6[var4] = var12;
+                var6[3] = var12;
                 var4 = 'subLabel';
-                var6[var4] = var9;
+                var6[3] = var9;
                 var4 = _closure1_slot11;
                 var4 = var4.TOGGLE;
                 if(!(var8 !== var4)) { _fun0006_ip = 126; continue _fun0006 }
@@ -1975,7 +1975,7 @@ case 128:
                 var48 = var6;
                 var8 = copyDataProperties(var49, var48);
                 var8 = 'trailing';
-                var1[var8] = var11;
+                var1[7] = var11;
                 var1 = var4.bind(var5)(var3, var1);
                 _fun0006_ip = 131; continue _fun0006;
 case 130:
@@ -1991,9 +1991,9 @@ case 130:
                 var48 = var6;
                 var9 = copyDataProperties(var49, var48);
                 var9 = 'trailing';
-                var3[var9] = var11;
+                var3[8] = var11;
                 var9 = 'nameplate';
-                var3[var9] = var10;
+                var3[8] = var10;
                 var1 = var8.bind(var5)(var4, var3);
 case 131:
                 _fun0006_ip = 132; continue _fun0006;
@@ -2010,7 +2010,7 @@ case 126:
                 var48 = var6;
                 var6 = copyDataProperties(var49, var48);
                 var6 = 'checked';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var1 = var4.bind(var5)(var3, var2);
 case 132:
                 return var1;

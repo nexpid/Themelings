@@ -1311,10 +1311,10 @@ case 0:
                 var12 = var2;
                 var9 = copyDataProperties(var12, var11);
                 var9 = 'location';
-                var2[var9] = var10;
+                var2[8] = var10;
                 var9 = _closure2_slot7;
                 var8 = 'location_stack';
-                var2[var8] = var9;
+                var2[7] = var9;
                 var6 = _closure1_slot17;
                 if(var7) { _fun0013_ip = 37; continue _fun0013 }
 case 38:
@@ -1324,7 +1324,7 @@ case 37:
                 var7 = var6.TIER_0;
 case 39:
                 var6 = 'sku_id';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             }

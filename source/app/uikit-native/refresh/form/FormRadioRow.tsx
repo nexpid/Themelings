@@ -77,16 +77,16 @@ case 5:
             var18 = var6;
             var11 = copyDataProperties(var19, var18);
             var11 = 'style';
-            var1[var11] = var14;
+            var1[10] = var14;
             var11 = 'onPress';
-            var1[var11] = var7;
+            var1[10] = var7;
             var14 = 'radio';
             var11 = 'accessibilityRole';
-            var1[var11] = var14;
+            var1[10] = var14;
             var14 = {};
             var14['selected'] = var8;
             var11 = 'accessibilityState';
-            var1[var11] = var14;
+            var1[10] = var14;
             var11 = 'right';
             var12 = null;
             if(!(var11 === var13)) { _fun0001_ip = 6; continue _fun0001 }
@@ -102,7 +102,7 @@ case 7:
             var12 = var15.bind(var5)(var14, var11);
 case 6:
             var11 = 'trailing';
-            var1[var11] = var12;
+            var1[10] = var12;
             var11 = 'left';
             var12 = var10;
             if(!(var11 === var13)) { _fun0001_ip = 8; continue _fun0001 }
@@ -118,7 +118,7 @@ case 9:
             var12 = var14.bind(var5)(var13, var11);
 case 8:
             var11 = 'leading';
-            var1[var11] = var12;
+            var1[10] = var12;
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 10; continue _fun0001;
 case 4:

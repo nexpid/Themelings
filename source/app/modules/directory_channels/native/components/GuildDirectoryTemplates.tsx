@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var29 = var29.WqJbLi;
         var30 = var30.bind(var31)(var29);
         var29 = 'label';
-        var28[var29] = var30;
+        var28[28] = var30;
         var26['guildTemplate'] = var28;
         var26['onGuildTemplatePress'] = var18;
         var26 = var27.bind(var4)(var17, var26);

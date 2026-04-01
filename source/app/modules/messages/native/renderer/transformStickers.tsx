@@ -70,7 +70,7 @@ case 3:
                 var9 = var4;
 case 2:
                 var4 = 'asset';
-                var1[var4] = var9;
+                var1[3] = var9;
                 var9 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var4 = var4[var10];
@@ -86,12 +86,12 @@ case 5:
                 var7 = var4;
 case 4:
                 var4 = 'url';
-                var1[var4] = var7;
+                var1[3] = var7;
                 var7 = 160;
                 var4 = 'width';
-                var1[var4] = var7;
+                var1[3] = var7;
                 var4 = 'height';
-                var1[var4] = var7;
+                var1[3] = var7;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var4 = 2;
@@ -106,7 +106,7 @@ case 6:
                 var5 = var4.LOOP;
 case 8:
                 var4 = 'renderMode';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var4 = _closure2_slot2;
                 var9 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -135,7 +135,7 @@ case 9:
                 var4 = var5.bind(var8)(var3);
 case 11:
                 var3 = 'accessibilityLabel';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var3 = var2[var7];
@@ -148,7 +148,7 @@ case 11:
                 var2 = var2.GCEruV;
                 var3 = var3.bind(var4)(var2);
                 var2 = 'accessibilityHint';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             }
         };

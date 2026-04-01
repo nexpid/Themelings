@@ -83,10 +83,10 @@ case 6:
             var4 = var3.TEXT_FEEDBACK_CRITICAL;
 case 8:
             var3 = 'color';
-            var2[var3] = var4;
+            var2[2] = var4;
             var4 = 48;
             var3 = 'minWidth';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1['input'] = var2;
             var2 = {};
             var3 = 'center';
@@ -162,7 +162,7 @@ case 14:
 case 13:
             var7[1] = var6;
             var6 = 'containerStyle';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = _closure1_slot3;
             var6 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -175,24 +175,24 @@ case 13:
             var14 = var11;
             var11 = copyDataProperties(var15, var14);
             var11 = 'ref';
-            var5[var11] = var12;
+            var5[10] = var12;
             var10 = var10.input;
             var11 = new Array(1);
             var11[0] = var10;
             var10 = 'style';
-            var5[var10] = var11;
+            var5[9] = var11;
             var8 = var8.placeholderText;
             var10 = var8.color;
             var8 = 'placeholderTextColor';
-            var5[var8] = var10;
+            var5[7] = var10;
             var10 = false;
             var8 = 'spellCheck';
-            var5[var8] = var10;
+            var5[7] = var10;
             var8 = 'autoFocus';
-            var5[var8] = var9;
+            var5[7] = var9;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

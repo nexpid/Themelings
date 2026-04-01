@@ -108,7 +108,7 @@ case 0:
                     return var1;
                 };
                 var9 = 'CLEAR_CACHES';
-                var1[var9] = var3;
+                var1[8] = var3;
                 var10 = function WRITE_CACHES() {
                     var2 = _closure3_slot0;
                     var1 = var2.save;
@@ -117,7 +117,7 @@ case 0:
                     return var1;
                 };
                 var3 = 'WRITE_CACHES';
-                var1[var3] = var10;
+                var1[2] = var10;
                 var16[1] = var1;
                 var1 = arg2;
                 var16[2] = var1;

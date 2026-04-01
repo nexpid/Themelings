@@ -237,7 +237,7 @@ case 21:
                     var3 = copyDataProperties(var7, var6);
                     var5 = _closure2_slot4;
                     var3 = 'marginBottom';
-                    var1[var3] = var5;
+                    var1[2] = var5;
                     _fun0005_ip = 22; continue _fun0005;
 case 20:
                     var3 = {};
@@ -248,7 +248,7 @@ case 20:
                     var4 = _closure2_slot4;
                     var5 = var5 + var4;
                     var4 = 'marginBottom';
-                    var3[var4] = var5;
+                    var3[3] = var5;
                     var1 = var3;
 case 22:
                     return var1;

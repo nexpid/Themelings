@@ -487,7 +487,7 @@ case 23:
             var9 = 'youtube_video_id';
 case 22:
             var8 = var2.asset;
-            var3[var9] = var8;
+            var3[8] = var8;
             var7[var6] = var3;
             var3 = _closure1_slot12;
             var3 = var3[var4];

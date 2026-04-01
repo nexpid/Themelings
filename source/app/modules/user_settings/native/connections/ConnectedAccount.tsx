@@ -1165,17 +1165,17 @@ case 43:
                 var5 = 1;
                 var6 = var5 === var4;
                 var4 = 'isVisible';
-                var2[var4] = var6;
+                var2[3] = var6;
                 var4 = var1.metadataVisibility;
                 var6 = var5 === var4;
                 var4 = 'isMetadataVisible';
-                var2[var4] = var6;
+                var2[3] = var6;
                 var6 = var1.showActivity;
                 var4 = 'showActivity';
-                var2[var4] = var6;
+                var2[3] = var6;
                 var6 = var1.friendSync;
                 var4 = 'friendSync';
-                var2[var4] = var6;
+                var2[3] = var6;
                 var4 = var1.verified;
                 if(!var4) { _fun0009_ip = 44; continue _fun0009 }
 case 45:

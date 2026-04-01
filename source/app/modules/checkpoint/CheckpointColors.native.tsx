@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_ZERO_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.ONE;
     var7 = {};
     var11 = var6[var9];
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_ONE_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.TWO;
     var7 = {};
     var11 = var6[var9];
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_TWO_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.THREE;
     var7 = {};
     var11 = var6[var9];
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_THREE_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.FOUR;
     var7 = {};
     var11 = var6[var9];
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_FOUR_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.FIVE;
     var7 = {};
     var11 = var6[var9];
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_FIVE_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.SIX;
     var7 = {};
     var11 = var6[var9];
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_SIX_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.SEVEN;
     var7 = {};
     var11 = var6[var9];
@@ -258,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_SEVEN_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.EIGHT;
     var7 = {};
     var11 = var6[var9];
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.CHECKPOINT_PERSONA_EIGHT_GRADIENT_END;
     var11[1] = var12;
     var7['gradient'] = var11;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var4.NINE;
     var4 = {};
     var8 = var6[var9];
@@ -318,7 +318,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.CHECKPOINT_PERSONA_NINE_GRADIENT_END;
     var8[1] = var9;
     var4['gradient'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

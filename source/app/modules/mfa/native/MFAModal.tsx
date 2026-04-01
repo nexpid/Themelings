@@ -61,7 +61,7 @@ case 2:
                 };
                 var4 = var4.bind(var5)(var3);
                 var3 = 'methods';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 4:
                 return var1;
@@ -337,7 +337,7 @@ case 0:
                     return var1;
                 };
                 var7['render'] = var10;
-                var1[var9] = var7;
+                var1[8] = var7;
                 var2 = var2[var8];
                 var2 = var3.bind(var5)(var2);
                 var2 = var2.MfaScreens;
@@ -405,7 +405,7 @@ case 30:
                     return var1;
                 };
                 var2['render'] = var11;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var8];
@@ -473,7 +473,7 @@ case 39:
                     return var1;
                 };
                 var2['render'] = var11;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var8];
@@ -541,7 +541,7 @@ case 48:
                     return var1;
                 };
                 var2['render'] = var11;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var8];
@@ -609,7 +609,7 @@ case 57:
                     return var1;
                 };
                 var2['render'] = var11;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var8];
@@ -677,7 +677,7 @@ case 66:
                     return var1;
                 };
                 var2['render'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             }
         };

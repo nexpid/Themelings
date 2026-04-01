@@ -552,7 +552,7 @@ case 6:
                     var2 = var2.unsafe_rawColors;
                     var3 = var2.WHITE;
                     var2 = 'color';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);

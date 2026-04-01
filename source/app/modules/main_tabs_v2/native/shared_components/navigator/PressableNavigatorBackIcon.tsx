@@ -246,7 +246,7 @@ case 17:
             var7 = copyDataProperties(var25, var24);
             var9 = 'button';
             var7 = 'accessibilityRole';
-            var5[var7] = var9;
+            var5[6] = var9;
             if(!(!(var19 > var12))) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
             var13 = _closure1_slot0;
@@ -279,12 +279,12 @@ case 19:
             var9 = var13.bind(var14)(var10, var7);
 case 21:
             var7 = 'accessibilityLabel';
-            var5[var7] = var9;
+            var5[6] = var9;
             var7 = 'onPress';
-            var5[var7] = var8;
+            var5[6] = var8;
             var8 = var16.actionButtonPressable;
             var7 = 'style';
-            var5[var7] = var8;
+            var5[6] = var8;
             var9 = _closure1_slot9;
             var8 = _closure1_slot4;
             var7 = {};
@@ -335,7 +335,7 @@ case 22:
             var7['children'] = var10;
             var8 = var9.bind(var4)(var8, var7);
             var7 = 'children';
-            var5[var7] = var8;
+            var5[6] = var8;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

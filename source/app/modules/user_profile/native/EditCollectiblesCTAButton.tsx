@@ -275,7 +275,7 @@ case 14:
                     var7 = copyDataProperties(var10, var9);
                     var8 = true;
                     var7 = 'overshootClamping';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var2 = var4.bind(var5)(var6, var3);
 case 13:
                     var1['opacity'] = var2;

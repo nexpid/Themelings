@@ -192,10 +192,10 @@ case 2:
     var12 = copyDataProperties(var20, var19);
     var15 = 'none';
     var12 = 'textTransform';
-    var10[var12] = var15;
+    var10[11] = var15;
     var15 = 24;
     var12 = 'lineHeight';
-    var10[var12] = var15;
+    var10[11] = var15;
     var7['emptyTitle'] = var10;
     var10 = {};
     var14 = var6[var14];
@@ -210,10 +210,10 @@ case 2:
     var20 = var10;
     var11 = copyDataProperties(var20, var19);
     var11 = 20;
-    var10[var12] = var11;
+    var10[11] = var11;
     var12 = '600';
     var11 = 'fontWeight';
-    var10[var11] = var12;
+    var10[10] = var12;
     var7['emptyBody'] = var10;
     var10 = {};
     var11 = 'center';

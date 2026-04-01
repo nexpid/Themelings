@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3['render'] = var12;
-        var1[var11] = var3;
+        var1[10] = var3;
         var3 = _closure1_slot3;
         var11 = var3.PREMIUM_MANAGE_PLAN;
         var3 = {};
@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3['render'] = var12;
-        var1[var11] = var3;
+        var1[10] = var3;
         var3 = _closure1_slot3;
         var11 = var3.GUILD_BOOSTING;
         var3 = {};
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3['render'] = var12;
-        var1[var11] = var3;
+        var1[10] = var3;
         var3 = _closure1_slot3;
         var11 = var3.PREMIUM_PLAN_SELECT;
         var3 = {};
@@ -217,7 +217,7 @@ case 4:
             return var1;
         };
         var3['render'] = var12;
-        var1[var11] = var3;
+        var1[10] = var3;
         var2 = _closure1_slot3;
         var3 = var2.PREMIUM_GIFTING;
         var2 = {};
@@ -253,7 +253,7 @@ case 4:
             return var1;
         };
         var2['render'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot5 = var1;

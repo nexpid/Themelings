@@ -499,10 +499,10 @@ case 59:
     var2 = {};
     var11 = var8.PREMIUM_TIER_0_TRIAL_ENDING;
     var10 = 'hidePremiumTier0TrialEndingReminder';
-    var2[var11] = var10;
+    var2[10] = var10;
     var10 = var8.PREMIUM_TIER_2_TRIAL_ENDING;
     var8 = 'hidePremiumTier2TrialEndingReminder';
-    var2[var10] = var8;
+    var2[9] = var8;
     var _closure1_slot13 = var2;
     var2 = 10;
     var2 = var6[var2];

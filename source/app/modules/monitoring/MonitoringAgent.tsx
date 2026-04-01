@@ -290,7 +290,7 @@ case 18:
                 var4 = copyDataProperties(var9, var8);
                 var5 = arg2;
                 var4 = 'value';
-                var6[var4] = var5;
+                var6[3] = var5;
                 var5 = var3._metrics;
                 var4 = var5.push;
                 var4 = var4.bind(var5)(var6);
@@ -344,7 +344,7 @@ case 27:
                 var3['url'] = var6;
                 var6 = {};
                 var6['metrics'] = var7;
-                var7 = {'built_at': '1774934379263', 'build_number': '5384'};
+                var7 = {'built_at': '1775020789190', 'build_number': '5390'};
                 var6['client_info'] = var7;
                 var3['body'] = var6;
                 var6 = 1;

@@ -344,7 +344,7 @@ case 38:
                     var13 = copyDataProperties(var18, var17);
                     var15 = _closure2_slot10;
                     var13 = 'disabled';
-                    var9[var13] = var15;
+                    var9[12] = var15;
                     var13 = _closure2_slot0;
                     var15 = undefined;
                     if(!var13) { _fun0005_ip = 40; continue _fun0005 }
@@ -356,11 +356,11 @@ case 42:
                     var15 = 'primary-overlay';
 case 40:
                     var13 = 'overrideVariant';
-                    var9[var13] = var15;
+                    var9[12] = var15;
                     var13 = _closure2_slot9;
                     var15 = var14 != var13;
                     var13 = 'loading';
-                    var9[var13] = var15;
+                    var9[12] = var15;
                     var13 = _closure2_slot12;
                     if(!(var14 == var13)) { _fun0005_ip = 43; continue _fun0005 }
 case 44:
@@ -370,7 +370,7 @@ case 43:
                     var13 = _closure2_slot12;
 case 45:
                     var12 = 'icon';
-                    var9[var12] = var13;
+                    var9[11] = var13;
                     var14 = _closure1_slot0;
                     var15 = _closure1_slot2;
                     var11 = 23;
@@ -384,7 +384,7 @@ case 45:
                     var11 = var11.dnI0AL;
                     var12 = var12.bind(var13)(var11);
                     var11 = 'accessibilityLabel';
-                    var9[var11] = var12;
+                    var9[10] = var12;
                     var9 = var8.bind(var4)(var10, var9);
                     var6['children'] = var9;
                     var6 = var8.bind(var4)(var7, var6);

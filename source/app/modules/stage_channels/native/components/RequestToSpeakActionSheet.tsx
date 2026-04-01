@@ -350,7 +350,7 @@ case 0:
             var3 = var10[var3];
             var3 = var7.bind(var5)(var3);
             var3 = var3.REQUEST_TO_SPEAK;
-            var1[var6] = var3;
+            var1[5] = var3;
             var3 = 1;
             var6 = var6 + var3;
             var1 = var4.bind(var5)(var1);

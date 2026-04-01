@@ -74,7 +74,7 @@ case 7:
                     var3 = var2;
 case 6:
                     var2 = 'nickname';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };
@@ -121,7 +121,7 @@ case 2:
     var9 = var2.ANY;
     var2 = new Array(1);
     var2[0] = var10;
-    var4[var9] = var2;
+    var4[8] = var2;
     var2 = {};
     var2['scope'] = var4;
     var6 = function handler() {

@@ -800,13 +800,13 @@ case 0:
             var9 = copyDataProperties(var13, var12);
             var10 = true;
             var9 = 'grow';
-            var1[var9] = var10;
+            var1[8] = var10;
             if(!(var8 != var6)) { _fun0008_ip = 32; continue _fun0008 }
 case 33:
             var7 = var6;
 case 32:
             var6 = 'loading';
-            var1[var6] = var7;
+            var1[5] = var7;
             var5 = function() {
                 var4 = _closure1_slot3;
                 var3 = undefined;
@@ -890,7 +890,7 @@ case 34:
             };
             var6 = var5.bind(var4)();
             var5 = 'onPress';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

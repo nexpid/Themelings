@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var12;
     var12 = copyDataProperties(var16, var15);
     var12 = 'preferSystemEffects';
-    var11[var12] = var13;
+    var11[11] = var13;
     var10[1] = var11;
     var5['variations'] = var10;
     var5 = var8.bind(var9)(var5);

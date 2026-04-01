@@ -202,8 +202,8 @@ case 22:
             var10 = var3.id;
             var9 = _closure1_slot14;
             var9 = var9.bind(var2)(var3);
-            var7[var10] = var9;
-            var4[var8] = var7;
+            var7[9] = var9;
+            var4[7] = var7;
             var6[var5] = var4;
             return var2;
 case 20:
@@ -253,7 +253,7 @@ case 33:
             var13 = var12[var7];
             var14 = var11;
             var12 = copyDataProperties(var14, var13);
-            var5[var7] = var11;
+            var5[6] = var11;
             var10[var8] = var5;
             var5 = _closure1_slot10;
             var5 = var5[var8];

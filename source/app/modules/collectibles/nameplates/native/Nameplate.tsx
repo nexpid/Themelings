@@ -431,7 +431,7 @@ case 60:
             var2 = copyDataProperties(var9, var8);
             var6 = true;
             var2 = 'aria-hidden';
-            var3[var2] = var6;
+            var3[1] = var6;
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
 case 59:

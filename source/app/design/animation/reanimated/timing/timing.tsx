@@ -76,7 +76,7 @@ case 11:
                 var6 = var6.ReduceMotion;
                 var7 = var6.Never;
                 var6 = 'reduceMotion';
-                var4[var6] = var7;
+                var4[5] = var7;
                 var2 = var4;
 case 9:
                 var5 = var2;

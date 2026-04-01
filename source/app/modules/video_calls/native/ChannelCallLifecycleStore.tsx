@@ -103,7 +103,7 @@ case 4:
     var10['hasUserInteractedSinceOrientationChange'] = var11;
     var10['isInitialized'] = var11;
     var10['isVisible'] = var11;
-    var8[var13] = var10;
+    var8[12] = var10;
     var10 = var9.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
     var9 = {};
     var9['x'] = var1;
@@ -118,7 +118,7 @@ case 4:
     var9['hasUserInteractedSinceOrientationChange'] = var11;
     var9['isInitialized'] = var11;
     var9['isVisible'] = var11;
-    var8[var10] = var9;
+    var8[9] = var9;
     var _closure1_slot13 = var8;
     var _closure1_slot14 = var8;
     var _closure1_slot15 = var2;
@@ -375,7 +375,7 @@ case 0:
             var8 = var2;
             var7 = var5;
             var6 = copyDataProperties(var8, var7);
-            var2[var4] = var1;
+            var2[3] = var1;
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 8;

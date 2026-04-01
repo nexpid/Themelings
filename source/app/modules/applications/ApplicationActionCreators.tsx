@@ -313,7 +313,7 @@ case 18:
                         var9 = copyDataProperties(var12, var11);
                         var9 = _closure2_slot1;
                         var8 = 'include_team';
-                        var7[var8] = var9;
+                        var7[7] = var9;
                         var2['query'] = var7;
                         var7 = false;
                         var2['rejectWithError'] = var7;

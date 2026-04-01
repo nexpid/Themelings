@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var2;
                 var4 = arraySpread(var7, var6, var5);
                 var3 = _closure2_slot0;
-                var2[var4] = var3;
+                var2[3] = var3;
                 var3 = 1;
                 var3 = var4 + var3;
                 var1['impressions'] = var2;

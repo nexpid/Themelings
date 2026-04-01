@@ -480,7 +480,7 @@ case 65:
             var24 = var12;
             var14 = copyDataProperties(var25, var24);
             var14 = 'uri';
-            var13[var14] = var5;
+            var13[13] = var5;
             var15 = var18[var1];
             var15 = var16.bind(var8)(var15);
             var17 = var15.bind(var8)(var2);
@@ -551,7 +551,7 @@ case 72:
             var17 = copyDataProperties(var25, var24);
             var17 = var18.toString;
             var17 = var17.bind(var18)();
-            var16[var14] = var17;
+            var16[13] = var17;
             var15[1] = var16;
             return var15;
 case 70:
@@ -584,7 +584,7 @@ case 76:
             var13 = copyDataProperties(var25, var24);
             var13 = var15.toString;
             var13 = var13.bind(var15)();
-            var12[var14] = var13;
+            var12[13] = var13;
             var1[1] = var12;
             return var1;
 case 64:
@@ -862,7 +862,7 @@ case 100:
             var25 = var9;
             var22 = copyDataProperties(var26, var25);
             var22 = 'rawTitle';
-            var4[var22] = var23;
+            var4[21] = var23;
             var11 = var11.bind(var21)(var4);
             var4 = 11;
             var4 = var20[var4];
@@ -1106,7 +1106,7 @@ case 111:
             var25 = var4;
             var1 = copyDataProperties(var26, var25);
             var1 = 'uri';
-            var3[var1] = var5;
+            var3[0] = var5;
             var1 = var3;
             if(!(var5 !== var2)) { _fun0015_ip = 127; continue _fun0015 }
 case 128:
@@ -1250,7 +1250,7 @@ case 105:
             if(var5) { _fun0016_ip = 139; continue _fun0016 }
 case 140:
             var5 = 'uri';
-            var1[var5] = var3;
+            var1[4] = var3;
             var5 = var2.proxyUrl;
             var2 = var1;
             if(!(var5 !== var6)) { _fun0016_ip = 141; continue _fun0016 }
@@ -1267,7 +1267,7 @@ case 141:
             return var2;
 case 139:
             var2 = 'videoURI';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
 case 129:
             var1 = null;

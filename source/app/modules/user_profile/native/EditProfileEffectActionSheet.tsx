@@ -639,7 +639,7 @@ case 47:
                 var6 = copyDataProperties(var9, var8);
                 var7 = true;
                 var6 = 'is_fullscreen';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };

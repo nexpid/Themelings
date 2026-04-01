@@ -243,7 +243,7 @@ case 14:
                         var3 = 'none';
 case 9:
                         var2 = 'display';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     }
                 };
@@ -342,7 +342,7 @@ case 18:
             var7 = arg2;
             var8 = var8.bind(var9)(var10, var7);
             var7 = 'ref';
-            var2[var7] = var8;
+            var2[6] = var8;
             var2 = var6.bind(var4)(var5, var2);
             var5 = var1.multiline;
             var1 = var2;

@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var19 = var10;
     var14 = copyDataProperties(var19, var18);
     var14 = 'overflow';
-    var10[var14] = var15;
+    var10[13] = var15;
     var5['content'] = var10;
     var10 = {'flex': 1, 'overflow': 'hidden'};
     var14 = var7[var12];
@@ -1084,13 +1084,13 @@ case 52:
                 var3 = copyDataProperties(var6, var5);
                 var4 = _closure2_slot0;
                 var3 = 'channelId';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var4 = _closure2_slot1;
                 var3 = 'screenIndex';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var3 = _closure2_slot12;
                 var2 = 'isPanelActive';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var5 = var5.bind(var9)(var1, var2);

@@ -514,7 +514,7 @@ case 56:
                     var10 = copyDataProperties(var16, var15);
                     var11 = {};
                     var10 = 'installation';
-                    var2[var10] = var11;
+                    var2[9] = var11;
                     _closure1_slot13 = var2;
                     _fun0009_ip = 2; continue _fun0009;
 case 19:
@@ -955,7 +955,7 @@ case 79:
                 var6['isOverride'] = var7;
                 var7 = false;
                 var6['exposureTrackingEnabled'] = var7;
-                var3[var5] = var6;
+                var3[4] = var6;
                 _closure1_slot15 = var3;
                 var3 = var4.trackExposureSuppression;
                 var2 = 'client_override';
@@ -1004,7 +1004,7 @@ case 79:
                 var4['isOverride'] = var6;
                 var6 = false;
                 var4['exposureTrackingEnabled'] = var6;
-                var3[var5] = var4;
+                var3[4] = var4;
                 _closure1_slot16 = var3;
                 return var1;
             };

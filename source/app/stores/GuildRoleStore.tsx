@@ -240,7 +240,7 @@ case 37:
         var5 = var5.permissions;
         var6 = var6.bind(var7)(var5);
         var5 = 'permissions';
-        var2[var5] = var6;
+        var2[4] = var6;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };

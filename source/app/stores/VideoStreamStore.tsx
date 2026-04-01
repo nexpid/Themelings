@@ -401,7 +401,7 @@ case 42:
             var7 = copyDataProperties(var12, var11);
             var7 = {};
             var7['streamId'] = var8;
-            var2[var4] = var7;
+            var2[3] = var7;
             var6[var3] = var2;
             var2 = _closure1_slot10;
             var3 = _closure1_slot12;

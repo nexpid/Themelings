@@ -45,13 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = {};
     var9 = var2.VoicePanelSettingsHeader;
     var8 = [80, 40, 80];
-    var5[var9] = var8;
+    var5[8] = var8;
     var9 = var2.VoicePanelSettingsRowIcon;
     var8 = [32, 16, 24];
-    var5[var9] = var8;
+    var5[8] = var8;
     var9 = var2.VoicePanelPreJoin;
     var8 = [40, 32, 40];
-    var5[var9] = var8;
+    var5[8] = var8;
     var _closure1_slot6 = var5;
     var5 = function stylesFor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

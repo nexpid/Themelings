@@ -181,14 +181,14 @@ case 0:
             var4 = var2 == var3;
             var5 = undefined;
             var6 = undefined;
-            if(var4) { _fun0003_ip = 3; continue _fun0003 }
-case 27:
+            if(var4) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var6 = var3.id;
-case 3:
+case 27:
             var2 = var2 != var6;
             var3 = 0;
-            if(!var2) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+            if(!var2) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 4;
@@ -196,7 +196,7 @@ case 29:
             var4 = var4.bind(var5)(var2);
             var2 = var4.extractTimestamp;
             var3 = var2.bind(var4)(var6);
-case 28:
+case 29:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -218,17 +218,17 @@ case 28:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg2;
-            if(var2) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+            if(var2) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
             var3 = _closure1_slot5;
             var2 = undefined;
             var2 = var3.bind(var2)();
-            _fun0004_ip = 32; continue _fun0004;
-case 30:
+            _fun0004_ip = 33; continue _fun0004;
+case 31:
             var4 = _closure1_slot6;
             var3 = undefined;
             var2 = var4.bind(var3)();
-case 32:
+case 33:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
@@ -334,25 +334,25 @@ case 12:
             var11 = var12.bind(var9)(var11);
             var11 = var11.t;
             if(var4) { _fun0005_ip = 18; continue _fun0005 }
-case 33:
-            if(var2) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
-            var4 = var11["6Z1E+7"];
-            _fun0005_ip = 36; continue _fun0005;
 case 34:
-            var4 = var11.OxP1NC;
+            if(var2) { _fun0005_ip = 35; continue _fun0005 }
 case 36:
+            var4 = var11["6Z1E+7"];
             _fun0005_ip = 37; continue _fun0005;
-case 18:
-            if(var2) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
-            var2 = var11["+N9bxq"];
-            _fun0005_ip = 40; continue _fun0005;
-case 38:
-            var2 = var11.OQ0OUy;
-case 40:
-            var4 = var2;
+case 35:
+            var4 = var11.OxP1NC;
 case 37:
+            _fun0005_ip = 38; continue _fun0005;
+case 18:
+            if(var2) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+            var2 = var11["+N9bxq"];
+            _fun0005_ip = 41; continue _fun0005;
+case 39:
+            var2 = var11.OQ0OUy;
+case 41:
+            var4 = var2;
+case 38:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
@@ -363,17 +363,17 @@ case 37:
             var11 = null;
             var14 = var11 == var13;
             var12 = undefined;
-            if(var14) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+            if(var14) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var12 = var13.name;
-case 41:
+case 42:
             var1['guildName'] = var12;
             var11 = var11 == var10;
             var9 = undefined;
-            if(var11) { _fun0005_ip = 43; continue _fun0005 }
+            if(var11) { _fun0005_ip = 44; continue _fun0005 }
 case 25:
             var9 = var10.tier_name;
-case 43:
+case 44:
             var1['tierName'] = var9;
             var1['username'] = var8;
             var1['usernameOnClick'] = var7;
@@ -418,10 +418,10 @@ case 0:
             var6 = null;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0006_ip = 44; continue _fun0006 }
-case 28:
+            if(var8) { _fun0006_ip = 45; continue _fun0006 }
+case 29:
             var6 = var7.id;
-case 44:
+case 45:
             var2['user_id'] = var6;
             var6 = arg2;
             var2['channel_id'] = var6;
@@ -448,10 +448,10 @@ case 0:
             var4 = null;
             var6 = var4 == var5;
             var4 = undefined;
-            if(var6) { _fun0007_ip = 45; continue _fun0007 }
+            if(var6) { _fun0007_ip = 46; continue _fun0007 }
 case 12:
             var4 = var5.id;
-case 45:
+case 46:
             var1['sender'] = var4;
             var4 = var2.author;
             var4 = var4.id;

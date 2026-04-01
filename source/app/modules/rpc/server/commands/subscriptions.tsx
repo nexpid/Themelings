@@ -274,7 +274,7 @@ case 2:
         return var1;
     };
     var7['handler'] = var10;
-    var2[var9] = var7;
+    var2[8] = var7;
     var7 = var4.UNSUBSCRIBE;
     var4 = {};
     var8 = function handler(arg1) {
@@ -321,7 +321,7 @@ case 20:
         }
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

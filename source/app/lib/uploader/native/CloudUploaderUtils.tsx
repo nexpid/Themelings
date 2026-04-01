@@ -46,7 +46,7 @@ case 2:
             var13 = var2;
             var3 = copyDataProperties(var14, var13);
             var3 = 'attachments';
-            var1[var3] = var10;
+            var1[2] = var10;
             _fun0001_ip = 5; continue _fun0001;
 case 4:
             var5 = {};

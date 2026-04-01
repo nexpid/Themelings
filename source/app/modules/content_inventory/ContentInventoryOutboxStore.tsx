@@ -299,7 +299,7 @@ case 11:
         var6 = var7.now;
         var7 = var6.bind(var7)();
         var6 = 'lastFetched';
-        var2[var6] = var7;
+        var2[5] = var7;
         var2 = var4.bind(var5)(var3, var2);
         var2 = _closure1_slot8;
         var1 = var2.delete;
@@ -359,7 +359,7 @@ case 13:
             var8 = var6;
             var6 = copyDataProperties(var9, var8);
             var6 = 'entries';
-            var1[var6] = var7;
+            var1[5] = var7;
             var1 = var3.bind(var4)(var5, var1);
             var1 = false;
             _closure1_slot10 = var1;

@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var20 = var7;
     var2 = copyDataProperties(var21, var20);
     var2 = 'overshootClamping';
-    var5[var2] = var10;
+    var5[1] = var10;
     var2 = {};
     var10 = "function useHomeDrawerGestureTsx1(){const{safeAreaInsets,withSpring,panelX,gestureState,HOME_GESTURE_DRAG_PHYSICS,HOME_DRAWER_FLING_PHYSICS}=this.__closure;return{flex:1,marginTop:safeAreaInsets.top,transform:[{translateX:withSpring(panelX.get(),gestureState.get().active?HOME_GESTURE_DRAG_PHYSICS:HOME_DRAWER_FLING_PHYSICS,'animate-always')}]};}";
     var2['code'] = var10;
@@ -530,14 +530,14 @@ case 42:
                         var6 = copyDataProperties(var12, var11);
                         var8 = true;
                         var6 = 'active';
-                        var1[var6] = var8;
+                        var1[5] = var8;
                         var6 = 'initialX';
-                        var1[var6] = var7;
+                        var1[5] = var7;
                         var6 = _closure2_slot0;
                         var5 = var6.get;
                         var6 = var5.bind(var6)();
                         var5 = 'panelX';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         var1 = var3.bind(var4)(var1);
                         var1 = var2.activate;
                         var1 = var1.bind(var2)();
@@ -642,7 +642,7 @@ case 49:
                         var6 = copyDataProperties(var11, var10);
                         var7 = false;
                         var6 = 'requiresPop';
-                        var2[var6] = var7;
+                        var2[5] = var7;
                         var2 = var4.bind(var5)(var2);
                         var2 = _closure2_slot0;
                         var1 = var2.set;

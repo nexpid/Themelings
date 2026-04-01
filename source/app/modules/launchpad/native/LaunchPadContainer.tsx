@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = copyDataProperties(var15, var14);
     var12 = 'transparent';
     var11 = 'backgroundColor';
-    var9[var11] = var12;
+    var9[10] = var12;
     var4['wrapper'] = var9;
     var9 = {};
     var14 = var10.absoluteFillObject;
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = copyDataProperties(var15, var14);
     var11 = 'hidden';
     var10 = 'overflow';
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;

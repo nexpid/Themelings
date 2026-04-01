@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3 = 'setEmojiId';
-        var1[var3] = var4;
+        var1[2] = var4;
         var4 = function setEmojiName(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3 = 'setEmojiName';
-        var1[var3] = var4;
+        var1[2] = var4;
         var4 = function setName(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3 = 'setName';
-        var1[var3] = var4;
+        var1[2] = var4;
         var4 = function setDescription(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3 = 'setDescription';
-        var1[var3] = var4;
+        var1[2] = var4;
         var4 = function setRefId(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3 = 'setRefId';
-        var1[var3] = var4;
+        var1[2] = var4;
         var3 = function reset() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2 = 'reset';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4 = var7.bind(var8)(var4);

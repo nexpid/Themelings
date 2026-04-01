@@ -42,12 +42,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var9;
     var10 = copyDataProperties(var15, var14);
     var10 = 'top';
-    var9[var10] = var12;
+    var9[9] = var12;
     var10 = 'bottom';
-    var9[var10] = var12;
+    var9[9] = var12;
     var12 = 'center';
     var10 = 'justifyContent';
-    var9[var10] = var12;
+    var9[9] = var12;
     var4['indicatorContainer'] = var9;
     var9 = {'width': 8, 'height': 8, 'borderRadius': null, 'marginLeft': 4294967292};
     var10 = 4;

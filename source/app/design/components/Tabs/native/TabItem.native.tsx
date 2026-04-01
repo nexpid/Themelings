@@ -447,10 +447,10 @@ case 10:
                 return var1;
             };
             var6 = 'onLayout';
-            var1[var6] = var8;
+            var1[5] = var8;
             var8 = 'tab';
             var6 = 'accessibilityRole';
-            var1[var6] = var8;
+            var1[5] = var8;
             var8 = _closure1_slot0;
             var17 = _closure1_slot2;
             var6 = 8;
@@ -469,9 +469,9 @@ case 10:
             var6['tabCount'] = var21;
             var18 = var19.bind(var20)(var18, var6);
             var6 = 'accessibilityHint';
-            var1[var6] = var18;
+            var1[5] = var18;
             var6 = 'animatedProps';
-            var1[var6] = var9;
+            var1[5] = var9;
             var9 = _closure1_slot4;
             var6 = 7;
             var6 = var17[var6];
@@ -499,7 +499,7 @@ case 13:
 case 12:
             var6[1] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

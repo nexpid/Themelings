@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = copyDataProperties(var9, var8);
         var7 = var5.content;
         var6 = 'contentStyles';
-        var1[var6] = var7;
+        var1[5] = var7;
         var6 = var5.body;
         var5 = 'bodyStyles';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

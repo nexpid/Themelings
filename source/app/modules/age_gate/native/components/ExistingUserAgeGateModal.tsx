@@ -349,7 +349,7 @@ case 21:
                 return var1;
             };
             var3['render'] = var14;
-            var1[var11] = var3;
+            var1[10] = var3;
             var3 = _closure1_slot7;
             var11 = var3.AgeGateConfirm;
             var3 = {};
@@ -369,12 +369,12 @@ case 21:
                 var5 = copyDataProperties(var8, var7);
                 var6 = _closure2_slot0;
                 var5 = 'source';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
             var3['render'] = var14;
-            var1[var11] = var3;
+            var1[10] = var3;
             var3 = _closure1_slot7;
             var11 = var3.Pawtect;
             var3 = {};
@@ -405,7 +405,7 @@ case 21:
                 return var1;
             };
             var3['render'] = var12;
-            var1[var11] = var3;
+            var1[10] = var3;
             var3 = _closure1_slot7;
             var11 = var3.Blocked;
             var3 = {};
@@ -430,7 +430,7 @@ case 21:
                 return var1;
             };
             var3['render'] = var12;
-            var1[var11] = var3;
+            var1[10] = var3;
             var2 = _closure1_slot7;
             var3 = var2.NSFWGateGuild;
             var2 = {};
@@ -455,7 +455,7 @@ case 21:
                 return var1;
             };
             var2['render'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };

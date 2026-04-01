@@ -266,7 +266,7 @@ case 17:
             var4 = {};
             var6 = 'loading';
             var4['state'] = var6;
-            var2[var5] = var4;
+            var2[4] = var4;
             _closure1_slot7 = var2;
             return var1;
 case 16:
@@ -305,7 +305,7 @@ case 20:
             var6 = var7.now;
             var6 = var6.bind(var7)();
             var4['fetchedAt'] = var6;
-            var2[var5] = var4;
+            var2[4] = var4;
             _closure1_slot7 = var2;
             return var1;
 case 18:
@@ -354,7 +354,7 @@ case 23:
             var6 = var7.now;
             var6 = var6.bind(var7)();
             var4['fetchedAt'] = var6;
-            var2[var5] = var4;
+            var2[4] = var4;
             _closure1_slot7 = var2;
             return var1;
 case 22:

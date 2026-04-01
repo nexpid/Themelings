@@ -51,25 +51,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6.bind(var1)(var9);
     var9 = var9.PaymentFlowStep;
     var9 = var9.SKU_SELECT;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var2.REWARD_SELECT;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.PaymentFlowStep;
     var9 = var9.REWARD_SKU_SELECT;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var2.CUSTOMIZATION;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.PaymentFlowStep;
     var9 = var9.PLAN_SELECT;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var2.SUCCESS;
     var8 = var7[var8];
     var8 = var6.bind(var1)(var8);
     var8 = var8.PaymentFlowStep;
     var8 = var8.CONFIRM;
-    var5[var9] = var8;
+    var5[8] = var8;
     var _closure1_slot8 = var5;
     var5 = 5;
     var5 = var7[var5];
@@ -367,7 +367,7 @@ case 13:
                     var7['render'] = var10;
                     var2 = var7;
 case 27:
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     var10 = _closure1_slot7;
                     var3 = var10.REWARD_SELECT;
                     var2 = {};
@@ -418,7 +418,7 @@ case 30:
                         return var1;
                     };
                     var2['render'] = var10;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     var10 = _closure1_slot7;
                     var3 = var10.CUSTOMIZATION;
                     var2 = {};
@@ -459,7 +459,7 @@ case 33:
                         return var1;
                     };
                     var2['render'] = var10;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     var2 = _closure1_slot7;
                     var3 = var2.SUCCESS;
                     var2 = {};
@@ -487,7 +487,7 @@ case 33:
                         return var1;
                     };
                     var2['render'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 }
             };

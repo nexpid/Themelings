@@ -790,9 +790,9 @@ case 73:
             var19 = var2.configuration;
             var20 = var17;
             var2 = copyDataProperties(var20, var19);
-            var17[var11] = var4;
-            var17[var10] = var4;
-            var17[var8] = var4;
+            var17[10] = var4;
+            var17[9] = var4;
+            var17[7] = var4;
             var2 = var14.push;
             var18 = var2.bind(var14)(var17);
             var15 = var16.push;

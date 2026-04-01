@@ -495,7 +495,7 @@ case 49:
                         var6 = var4;
                         var4 = arraySpread(var7, var6, var5);
                         var3 = _closure3_slot0;
-                        var2[var4] = var3;
+                        var2[3] = var3;
                         var3 = 1;
                         var3 = var4 + var3;
                         var1 = var2;

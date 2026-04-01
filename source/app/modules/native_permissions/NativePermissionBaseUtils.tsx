@@ -250,9 +250,9 @@ case 0:
                 var2 = {};
                 var8 = _closure1_slot7;
                 var11 = var8.CAMERA;
-                var2[var11] = var14;
+                var2[10] = var14;
                 var11 = var8.HEADSET_CAMERA;
-                var2[var11] = var14;
+                var2[10] = var14;
                 var14 = var8.AUDIO;
                 var11 = var10[var9];
                 var11 = var16.bind(var1)(var11);
@@ -275,7 +275,7 @@ case 0:
                 var11 = var7.HermesInternal;
                 var11 = var11.concat;
                 var11 = var11.bind(var13)(var17, var12, var15);
-                var2[var14] = var11;
+                var2[13] = var11;
                 var14 = var8.PHOTOS;
                 var11 = var10[var9];
                 var11 = var16.bind(var1)(var11);
@@ -298,7 +298,7 @@ case 0:
                 var11 = var7.HermesInternal;
                 var11 = var11.concat;
                 var11 = var11.bind(var13)(var17, var12, var15);
-                var2[var14] = var11;
+                var2[13] = var11;
                 var14 = var8.INPUT_MONITORING;
                 var11 = var10[var9];
                 var11 = var16.bind(var1)(var11);
@@ -321,7 +321,7 @@ case 0:
                 var11 = var7.HermesInternal;
                 var11 = var11.concat;
                 var11 = var11.bind(var13)(var17, var12, var15);
-                var2[var14] = var11;
+                var2[13] = var11;
                 var8 = var8.CONTACTS;
                 var11 = var10[var9];
                 var11 = var16.bind(var1)(var11);
@@ -344,7 +344,7 @@ case 0:
                 var7 = var7.HermesInternal;
                 var7 = var7.concat;
                 var7 = var7.bind(var13)(var11, var12, var10);
-                var2[var8] = var7;
+                var2[7] = var7;
                 var7 = var2[var3];
                 var2 = null;
                 if(!(var2 != var7)) { _fun0002_ip = 19; continue _fun0002 }

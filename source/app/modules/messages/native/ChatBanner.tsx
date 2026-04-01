@@ -51,7 +51,7 @@ case 0:
                 var6 = copyDataProperties(var14, var13);
                 var7 = 'channel_opt_in';
                 var6 = 'banner_type';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
@@ -90,10 +90,10 @@ case 0:
                 var10 = copyDataProperties(var17, var16);
                 var11 = 'channel_opt_in';
                 var10 = 'banner_type';
-                var4[var10] = var11;
+                var4[9] = var11;
                 var11 = 'add channel';
                 var10 = 'cta_type';
-                var4[var10] = var11;
+                var4[9] = var11;
                 var4 = var8.bind(var9)(var7, var4);
                 var4 = 15;
                 var4 = var6[var4];
@@ -226,7 +226,7 @@ case 0:
                 var6 = copyDataProperties(var14, var13);
                 var7 = 'thread';
                 var6 = 'banner_type';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
@@ -331,10 +331,10 @@ case 8:
                 var9 = copyDataProperties(var15, var14);
                 var10 = 'thread';
                 var9 = 'banner_type';
-                var2[var9] = var10;
+                var2[8] = var10;
                 var10 = 'unarchive';
                 var9 = 'cta_type';
-                var2[var9] = var10;
+                var2[8] = var10;
                 var2 = var7.bind(var8)(var6, var2);
                 var2 = 20;
                 var2 = var4[var2];
@@ -399,7 +399,7 @@ case 0:
                 var6 = copyDataProperties(var14, var13);
                 var7 = 'thread';
                 var6 = 'banner_type';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
@@ -504,10 +504,10 @@ case 8:
                 var9 = copyDataProperties(var15, var14);
                 var10 = 'thread';
                 var9 = 'banner_type';
-                var2[var9] = var10;
+                var2[8] = var10;
                 var10 = 'unlock';
                 var9 = 'cta_type';
-                var2[var9] = var10;
+                var2[8] = var10;
                 var2 = var7.bind(var8)(var6, var2);
                 var2 = 20;
                 var2 = var5[var2];

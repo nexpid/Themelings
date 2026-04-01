@@ -108,11 +108,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.colors;
     var13 = var11.BORDER_SUBTLE;
     var11 = 'backgroundColor';
-    var10[var11] = var13;
+    var10[10] = var13;
     var11 = 'top';
-    var10[var11] = var1;
+    var10[10] = var1;
     var11 = 'height';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['headerBorder'] = var10;
     var4 = var5.bind(var9)(var4);
     var _closure1_slot10 = var4;

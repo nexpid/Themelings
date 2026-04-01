@@ -15,10 +15,10 @@ case 0:
             var5 = copyDataProperties(var7, var6);
             var5 = var1.placeholder;
             var1 = 'defaultSource';
-            var2[var1] = var5;
+            var2[0] = var5;
             var5 = 0;
             var1 = 'fadeDuration';
-            var2[var1] = var5;
+            var2[0] = var5;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
             return var1;
@@ -120,7 +120,7 @@ case 10:
                 var13[0] = var14;
                 var13[1] = var12;
                 var12 = 'style';
-                var2[var12] = var13;
+                var2[11] = var13;
                 var12 = var11 == var7;
                 var11 = undefined;
                 if(var12) { _fun0002_ip = 12; continue _fun0002 }
@@ -128,13 +128,13 @@ case 13:
                 var11 = var7.uri;
 case 12:
                 var7 = 'placeholder';
-                var2[var7] = var11;
+                var2[6] = var11;
                 var7 = 'enableAnimation';
-                var2[var7] = var10;
+                var2[6] = var10;
                 var7 = 'fade';
-                var2[var7] = var9;
+                var2[6] = var9;
                 var7 = 'usesSmallCache';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
 case 8:

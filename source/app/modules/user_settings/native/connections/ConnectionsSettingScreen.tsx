@@ -96,7 +96,7 @@ case 2:
                     var6 = copyDataProperties(var11, var10);
                     var6 = _closure1_slot5;
                     var5 = 'onPress';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var5 = 8;
                     var6 = var9[var5];
                     var6 = var8.bind(var3)(var6);
@@ -108,7 +108,7 @@ case 2:
                     var5 = var5.OYkgVk;
                     var6 = var6.bind(var7)(var5);
                     var5 = 'label';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };

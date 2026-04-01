@@ -193,7 +193,7 @@ case 4:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var11 = var2.CHANGE_EMAIL_WARNING;
                     var3 = {};
                     var13 = var9[var10];
@@ -227,7 +227,7 @@ case 4:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var11 = var2.RESEND_EMAIL;
                     var3 = {};
                     var13 = var9[var10];
@@ -259,7 +259,7 @@ case 4:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var11 = var2.CONFIRM_EMAIL_CHANGE_START;
                     var3 = {};
                     var13 = var9[var10];
@@ -291,7 +291,7 @@ case 4:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var11 = var2.CONFIRM_EMAIL_CHANGE_CODE;
                     var3 = {};
                     var13 = var9[var10];
@@ -325,7 +325,7 @@ case 4:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var11 = var2.ENTER_EMAIL;
                     var3 = {};
                     var13 = var9[var10];
@@ -348,7 +348,7 @@ case 4:
                     var16 = var5;
                     var14 = copyDataProperties(var17, var16);
                     var14 = 'email_verified';
-                    var13[var14] = var15;
+                    var13[13] = var15;
                     var3['impressionProperties'] = var13;
                     var13 = function render() {
                         var4 = _closure1_slot8;
@@ -367,7 +367,7 @@ case 4:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var11 = var2.VERIFY_PASSWORD;
                     var3 = {};
                     var13 = var9[var10];
@@ -402,7 +402,7 @@ case 4:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var3 = var2.CHANGE_EMAIL_COMPLETE;
                     var2 = {};
                     var11 = var9[var10];
@@ -437,7 +437,7 @@ case 4:
                         return var1;
                     };
                     var2['render'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var1 = undefined;

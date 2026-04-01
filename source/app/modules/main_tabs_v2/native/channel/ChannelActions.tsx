@@ -567,7 +567,7 @@ case 46:
                 var6 = copyDataProperties(var9, var8);
                 var6 = var5.accessibilityLabel;
                 var5 = 'key';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

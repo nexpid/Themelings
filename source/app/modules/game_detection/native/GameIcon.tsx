@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var12 = var1.game;
-            var6 = var1.skuId;
+            var8 = var1.skuId;
             var10 = var1.size;
             var4 = undefined;
             if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -26,19 +26,19 @@ case 2:
             var2 = _closure1_slot6;
             var3 = var2.NORMAL;
             var2 = var7.normal;
-            var9[var3] = var2;
+            var9[2] = var2;
             var2 = _closure1_slot6;
             var3 = var2.SMALL;
             var2 = var7.small;
-            var9[var3] = var2;
+            var9[2] = var2;
             var2 = _closure1_slot6;
             var3 = var2.SIZE_24;
             var2 = var7.size24;
-            var9[var3] = var2;
+            var9[2] = var2;
             var2 = _closure1_slot6;
             var3 = var2.LARGE;
             var2 = var7.large;
-            var9[var3] = var2;
+            var9[2] = var2;
             var2 = var7.gameIcon;
             var11 = new Array(3);
             var11[0] = var2;
@@ -46,64 +46,66 @@ case 2:
             var11[1] = var2;
             var11[2] = var1;
             var1 = null;
-            var2 = var1 != var6;
-            var8 = undefined;
-            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+            var3 = var1 != var8;
+            var2 = undefined;
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = _closure1_slot4;
-            var2 = var2.TIER_0;
-            if(!(var2 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
+            var3 = _closure1_slot4;
+            var3 = var3.TIER_0;
+            if(!(var3 !== var8)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var2 = _closure1_slot4;
-            var2 = var2.TIER_1;
-            if(!(var2 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+            var3 = _closure1_slot4;
+            var3 = var3.TIER_1;
+            if(!(var3 !== var8)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var2 = _closure1_slot4;
-            var2 = var2.TIER_2;
-            if(!(var2 !== var6)) { _fun0001_ip = 10; continue _fun0001 }
+            var3 = _closure1_slot4;
+            var3 = var3.TIER_2;
+            if(!(var3 !== var8)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var2 = _closure1_slot4;
-            var3 = var2.LEGACY;
-            var2 = null;
-            if(!(var3 === var6)) { _fun0001_ip = 12; continue _fun0001 }
+            var3 = _closure1_slot4;
+            var6 = var3.LEGACY;
+            var3 = null;
+            if(!(var6 === var8)) { _fun0001_ip = 12; continue _fun0001 }
 case 10:
-            var6 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var13 = _closure1_slot1;
-            var3 = 8;
-            var3 = var13[var3];
-            var2 = var6.bind(var4)(var3);
+            var6 = 8;
+            var6 = var13[var6];
+            var3 = var8.bind(var4)(var6);
             _fun0001_ip = 12; continue _fun0001;
 case 8:
-            var6 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var13 = _closure1_slot1;
-            var3 = 7;
-            var3 = var13[var3];
-            var2 = var6.bind(var4)(var3);
+            var6 = 7;
+            var6 = var13[var6];
+            var3 = var8.bind(var4)(var6);
             _fun0001_ip = 12; continue _fun0001;
 case 6:
-            var6 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var13 = _closure1_slot1;
-            var3 = 6;
-            var3 = var13[var3];
-            var2 = var6.bind(var4)(var3);
+            var6 = 6;
+            var6 = var13[var6];
+            var3 = var8.bind(var4)(var6);
 case 12:
-            var8 = var2;
+            var2 = var3;
 case 4:
-            var2 = var1 != var12;
-            if(!var2) { _fun0001_ip = 13; continue _fun0001 }
+            var8 = var2;
+            if(!(var1 != var12)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var2 = var1 == var8;
-case 13:
-            if(!var2) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-            var2 = {};
+            var8 = var2;
+            if(!(var1 == var2)) { _fun0001_ip = 13; continue _fun0001 }
+case 15:
             var6 = var12.getIconURL;
             var3 = _closure1_slot7;
             var3 = var3[var10];
             var3 = var6.bind(var12)(var3);
+            var8 = var2;
+            if(!(var1 != var3)) { _fun0001_ip = 13; continue _fun0001 }
+case 16:
+            var2 = {};
             var2['uri'] = var3;
             var8 = var2;
-case 15:
+case 13:
             if(!(var1 == var8)) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
             var2 = _closure1_slot0;
@@ -178,16 +180,16 @@ case 17:
     var2 = {};
     var10 = var4.SIZE_24;
     var6 = 24;
-    var2[var10] = var6;
+    var2[9] = var6;
     var10 = var4.SMALL;
     var6 = 32;
-    var2[var10] = var6;
+    var2[9] = var6;
     var10 = var4.NORMAL;
     var6 = 48;
-    var2[var10] = var6;
+    var2[9] = var6;
     var10 = var4.LARGE;
     var6 = 80;
-    var2[var10] = var6;
+    var2[9] = var6;
     var _closure1_slot7 = var2;
     var6 = 4;
     var6 = var8[var6];

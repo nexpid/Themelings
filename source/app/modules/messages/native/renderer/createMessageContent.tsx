@@ -1030,7 +1030,7 @@ case 125:
             r102 = var7;
             var34 = copyDataProperties(r103, r102);
             var34 = 'renderReplies';
-            var31[var34] = var35;
+            var31[33] = var35;
             var22['options'] = var31;
             var23 = var23.bind(var5)(var22);
             if(!(var17 != var23)) { _fun0003_ip = 126; continue _fun0003 }
@@ -2384,18 +2384,18 @@ case 60:
             var7 = copyDataProperties(r103, r102);
             var9 = false;
             var7 = 'renderThreadEmbeds';
-            var6[var7] = var9;
+            var6[6] = var9;
             var7 = 'renderReactions';
-            var6[var7] = var9;
+            var6[6] = var9;
             var7 = 'shouldDisableInteractiveComponents';
-            var6[var7] = var8;
+            var6[6] = var8;
             var3['options'] = var6;
             r102 = var4.bind(var5)(var3);
             r103 = var1;
             var3 = copyDataProperties(r103, r102);
             var3 = var2.id;
             var2 = 'id';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

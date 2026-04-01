@@ -83,7 +83,7 @@ case 2:
             var11 = var7;
             var7 = copyDataProperties(var12, var11);
             var7 = 'status';
-            var1[var7] = var9;
+            var1[6] = var9;
             var7 = 'error';
             var8 = undefined;
             if(!(var7 === var9)) { _fun0001_ip = 5; continue _fun0001 }
@@ -91,10 +91,10 @@ case 6:
             var8 = "Username can't contain spaces";
 case 5:
             var7 = 'errorMessage';
-            var1[var7] = var8;
+            var1[6] = var8;
             var8 = 'Username';
             var7 = 'label';
-            var1[var7] = var8;
+            var1[6] = var8;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 9;
@@ -102,7 +102,7 @@ case 5:
             var6 = var7.bind(var4)(var6);
             var7 = var6.AtIcon;
             var6 = 'leadingIcon';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -122,7 +122,7 @@ case 7:
                 }
             };
             var5 = 'onChange';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -171,7 +171,7 @@ case 2:
             var11 = var6;
             var6 = copyDataProperties(var12, var11);
             var6 = 'status';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = 'error';
             var7 = undefined;
             if(!(var6 === var8)) { _fun0003_ip = 5; continue _fun0003 }
@@ -179,7 +179,7 @@ case 6:
             var7 = "Username can't contain spaces";
 case 5:
             var6 = 'errorMessage';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = function onChange(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -199,7 +199,7 @@ case 7:
                 }
             };
             var5 = 'onChange';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

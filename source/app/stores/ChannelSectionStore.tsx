@@ -919,7 +919,7 @@ case 83:
             var11 = var6;
             var6 = copyDataProperties(var12, var11);
             var6 = 'baseChannelId';
-            var5[var6] = var7;
+            var5[5] = var7;
             var3 = var5;
 case 82:
             var2 = _closure1_slot25;

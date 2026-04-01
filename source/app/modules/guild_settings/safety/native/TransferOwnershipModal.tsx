@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3['render'] = var14;
-                var1[var13] = var3;
+                var1[12] = var3;
                 var3 = var2.CONFIRM_EMAIL_CODE;
                 var2 = {};
                 var13 = var9[var11];
@@ -305,7 +305,7 @@ case 8:
                     return var1;
                 };
                 var2['render'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var1 = undefined;

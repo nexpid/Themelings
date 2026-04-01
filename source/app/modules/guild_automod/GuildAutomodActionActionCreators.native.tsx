@@ -43,11 +43,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = _closure1_slot3;
         var4 = var2.BLOCK_MESSAGE;
         var3 = null;
-        var1[var4] = var3;
+        var1[3] = var3;
         var4 = var2.FLAG_TO_CHANNEL;
-        var1[var4] = var3;
+        var1[3] = var3;
         var2 = var2.USER_COMMUNICATION_DISABLED;
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var3['getPromiseableActionHandlers'] = var4;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = copyDataProperties(var7, var6);
                     var5 = _closure2_slot0;
                     var1 = 'guildId';
-                    var2[var1] = var5;
+                    var2[0] = var5;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;

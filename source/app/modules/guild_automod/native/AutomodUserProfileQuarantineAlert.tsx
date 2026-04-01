@@ -33,7 +33,7 @@ case 0:
             var8 = copyDataProperties(var21, var20);
             var9 = var13.wrapper;
             var8 = 'style';
-            var1[var8] = var9;
+            var1[7] = var9;
             var14 = _closure1_slot0;
             var8 = 14;
             var9 = var15[var8];
@@ -46,7 +46,7 @@ case 0:
             var8 = var8.ETE/oC;
             var9 = var9.bind(var10)(var8);
             var8 = 'cancelText';
-            var1[var8] = var9;
+            var1[7] = var9;
             var8 = null;
             var9 = var8 == var5;
             var8 = undefined;
@@ -55,11 +55,11 @@ case 3:
             var8 = var5.onClose;
 case 2:
             var5 = 'onCancel';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'confirmText';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'onConfirm';
-            var1[var5] = var6;
+            var1[4] = var6;
             var7 = _closure1_slot17;
             var6 = _closure1_slot8;
             var5 = {};
@@ -111,7 +111,7 @@ case 2:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -230,11 +230,11 @@ case 11:
             var6['guildName'] = var12;
             var9 = var10.bind(var11)(var9, var6);
             var6 = 'title';
-            var1[var6] = var9;
+            var1[5] = var9;
             var6 = 'description';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = 'buttonCta';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = function onConfirm() {
                 var2 = _closure2_slot0;
                 var1 = undefined;
@@ -242,7 +242,7 @@ case 11:
                 return var1;
             };
             var5 = 'onConfirm';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -275,7 +275,7 @@ case 11:
         var6['guildName'] = var12;
         var7 = var10.bind(var11)(var7, var6);
         var6 = 'title';
-        var1[var6] = var7;
+        var1[5] = var7;
         var6 = var9[var5];
         var6 = var8.bind(var4)(var6);
         var10 = var6.intl;
@@ -286,7 +286,7 @@ case 11:
         var6 = var6.EJJLHp;
         var7 = var7.bind(var10)(var6);
         var6 = 'description';
-        var1[var6] = var7;
+        var1[5] = var7;
         var6 = var9[var5];
         var6 = var8.bind(var4)(var6);
         var7 = var6.intl;
@@ -297,7 +297,7 @@ case 11:
         var5 = var5.Viksoo;
         var6 = var6.bind(var7)(var5);
         var5 = 'buttonCta';
-        var1[var5] = var6;
+        var1[4] = var6;
         var6 = function onConfirm() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -314,7 +314,7 @@ case 11:
             return var1;
         };
         var5 = 'onConfirm';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

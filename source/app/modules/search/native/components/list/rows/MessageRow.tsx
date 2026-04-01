@@ -805,13 +805,13 @@ case 42:
                     var3 = _closure2_slot2;
                     var1 = var3.guild_id;
 case 41:
-                    if(!(var2 != var1)) { _fun0008_ip = 3; continue _fun0008 }
-case 43:
-                    var1 = _closure1_slot17;
-                    _fun0008_ip = 44; continue _fun0008;
-case 3:
-                    var1 = _closure1_slot16;
+                    if(!(var2 != var1)) { _fun0008_ip = 43; continue _fun0008 }
 case 44:
+                    var1 = _closure1_slot17;
+                    _fun0008_ip = 2; continue _fun0008;
+case 43:
+                    var1 = _closure1_slot16;
+case 2:
                     return var1;
                 }
             };

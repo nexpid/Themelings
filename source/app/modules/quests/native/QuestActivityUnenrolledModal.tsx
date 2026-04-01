@@ -876,7 +876,7 @@ case 28:
                 return var1;
             };
             var3['render'] = var8;
-            var7[var4] = var3;
+            var7[3] = var3;
             var4 = _closure1_slot11;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;

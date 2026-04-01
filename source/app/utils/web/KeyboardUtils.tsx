@@ -846,7 +846,7 @@ case 111:
                         var12 = var4;
                         var4 = copyDataProperties(var13, var12);
                         var4 = 'combo';
-                        var2[var4] = var5;
+                        var2[3] = var5;
                         var2 = var3.bind(var1)(var2);
                         return var1;
                     }

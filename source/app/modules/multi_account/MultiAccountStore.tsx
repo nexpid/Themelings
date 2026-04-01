@@ -619,7 +619,7 @@ case 31:
                 var4 = copyDataProperties(var7, var6);
                 var4 = _closure2_slot1;
                 var3 = 'pushSyncToken';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 30:
                 return var1;
@@ -658,7 +658,7 @@ case 34:
                 var7 = var3;
                 var3 = copyDataProperties(var8, var7);
                 var3 = 'pushSyncToken';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 32:
                 return var1;

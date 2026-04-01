@@ -77,9 +77,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var15.colors;
     var17 = var15.MOBILE_ACTIONSHEET_BACKGROUND;
     var15 = 'backgroundColor';
-    var10[var15] = var17;
+    var10[14] = var17;
     var15 = 'flex';
-    var10[var15] = var16;
+    var10[14] = var16;
     var4['detailsContainer'] = var10;
     var10 = {};
     var15 = var6[var12];
@@ -576,7 +576,7 @@ case 39:
                     var8['min'] = var9;
                     var8['max'] = var7;
                     var7 = 'clamp';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var2 = var5.bind(var6)(var4, var3);
 case 36:
                     var1['height'] = var2;

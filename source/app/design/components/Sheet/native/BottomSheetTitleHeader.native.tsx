@@ -508,7 +508,7 @@ case 21:
                 return var1;
             };
             var8 = 'onTitleTextLayout';
-            var2[var8] = var9;
+            var2[7] = var9;
             var2 = var5.bind(var6)(var4, var2);
             _fun0006_ip = 22; continue _fun0006;
 case 20:

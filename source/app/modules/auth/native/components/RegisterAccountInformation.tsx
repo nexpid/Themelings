@@ -400,9 +400,9 @@ case 17:
             var37 = var6;
             var6 = copyDataProperties(var38, var37);
             var6 = 'username';
-            var7[var6] = var36;
+            var7[5] = var36;
             var6 = 'password';
-            var7[var6] = var29;
+            var7[5] = var29;
             var8 = var22 == var5;
             var6 = undefined;
             if(var8) { _fun0002_ip = 19; continue _fun0002 }
@@ -410,7 +410,7 @@ case 20:
             var6 = var5.code;
 case 19:
             var5 = 'invite';
-            var7[var5] = var6;
+            var7[4] = var6;
             var _closure2_slot7 = var7;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -589,7 +589,7 @@ case 26:
             var14['returnKeyType'] = var16;
             var14 = var3.bind(var4)(var15, var14);
             var15 = 'children';
-            var12[var15] = var14;
+            var12[14] = var14;
             var12 = var3.bind(var4)(var13, var12);
             var10[1] = var12;
             var13 = _closure1_slot18;
@@ -652,7 +652,7 @@ case 34:
             var16 = var19.bind(var4)(var18, var17);
 case 32:
             var14[1] = var16;
-            var11[var15] = var14;
+            var11[14] = var14;
             var11 = var13.bind(var4)(var12, var11);
             var10[2] = var11;
             var7['children'] = var10;

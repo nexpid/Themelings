@@ -146,10 +146,10 @@ case 5:
             var9 = var3.id;
 case 4:
             var3 = 'guildId';
-            var5[var3] = var9;
+            var5[2] = var9;
             var3 = var2.channelId;
             var2 = 'channelId';
-            var5[var2] = var3;
+            var5[1] = var3;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var9 = 11;
@@ -163,7 +163,7 @@ case 4:
             var9 = var9["/g10LC"];
             var11 = var11.bind(var12)(var9);
             var9 = 'disagreement';
-            var5[var9] = var11;
+            var5[8] = var11;
             var9 = 10;
             var2 = var2[var9];
             var2 = var3.bind(var4)(var2);

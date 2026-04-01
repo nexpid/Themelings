@@ -123,7 +123,7 @@ case 8:
             var19 = var8;
             var8 = copyDataProperties(var20, var19);
             var8 = 'disabled';
-            var6[var8] = var11;
+            var6[7] = var11;
             var8 = var4 != var14;
             var11 = undefined;
             if(!var8) { _fun0001_ip = 10; continue _fun0001 }
@@ -140,11 +140,11 @@ case 11:
             var11 = var13.bind(var5)(var12, var8);
 case 10:
             var8 = 'subLabel';
-            var6[var8] = var11;
+            var6[7] = var11;
             var8 = 'icon';
-            var6[var8] = var10;
+            var6[7] = var10;
             var8 = 'onPress';
-            var6[var8] = var9;
+            var6[7] = var9;
             var8 = var4 != var1;
             var4 = '';
             if(!var8) { _fun0001_ip = 12; continue _fun0001 }
@@ -152,10 +152,10 @@ case 13:
             var4 = var1;
 case 12:
             var1 = 'label';
-            var6[var1] = var4;
+            var6[0] = var4;
             var4 = 1;
             var1 = 'labelLineClamp';
-            var6[var1] = var4;
+            var6[0] = var4;
             var1 = _closure1_slot4;
             var1 = var1.TOGGLE;
             if(!(var3 !== var1)) { _fun0001_ip = 14; continue _fun0001 }
@@ -186,7 +186,7 @@ case 14:
             var19 = var6;
             var6 = copyDataProperties(var20, var19);
             var6 = 'checked';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 16:
             return var1;

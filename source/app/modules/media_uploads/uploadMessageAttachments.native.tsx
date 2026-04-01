@@ -71,7 +71,7 @@ case 9:
                     var13 = var10;
                     var10 = copyDataProperties(var14, var13);
                     var10 = 'key';
-                    var5[var10] = var11;
+                    var5[9] = var11;
                     var5 = var8.bind(var9)(var5);
                     _closure4_slot4 = var5;
                     var9 = var6.on;

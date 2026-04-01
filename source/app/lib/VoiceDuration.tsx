@@ -967,7 +967,7 @@ case 29:
                     var4 = var2.timesUntilSpeakingDurationMilestonesMs;
                     var2 = var4.get;
                     var2 = var2.bind(var4)(var5);
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var4 = {};
@@ -1027,7 +1027,7 @@ case 48:
                         var7 = _closure3_slot1;
 case 47:
                         var7 = var9 + var7;
-                        var1[var8] = var7;
+                        var1[7] = var7;
                         var3 = var3.HermesInternal;
                         var8 = var3.concat;
                         var7 = 'speech_event_count_gte_';
@@ -1051,7 +1051,7 @@ case 52:
                         var4 = 1;
 case 51:
                         var2 = var2 + var4;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         return var1;
                     }
                 };

@@ -107,7 +107,7 @@ case 5:
                 var12['alt'] = var6;
                 var13 = var11.bind(var1)(var13, var12);
                 var12 = 'children';
-                var4[var12] = var13;
+                var4[11] = var13;
                 var1 = var11.bind(var1)(var5, var4);
                 _fun0002_ip = 8; continue _fun0002;
 case 7:
@@ -118,15 +118,15 @@ case 7:
                 var17 = var2;
                 var2 = copyDataProperties(var18, var17);
                 var2 = 'style';
-                var3[var2] = var10;
+                var3[1] = var10;
                 var2 = 'uri';
-                var3[var2] = var9;
+                var3[1] = var9;
                 var2 = 'placeholder';
-                var3[var2] = var8;
+                var3[1] = var8;
                 var2 = 'placeholderVersion';
-                var3[var2] = var7;
+                var3[1] = var7;
                 var2 = 'alt';
-                var3[var2] = var6;
+                var3[1] = var6;
                 var2 = undefined;
                 var1 = var5.bind(var2)(var4, var3);
 case 8:

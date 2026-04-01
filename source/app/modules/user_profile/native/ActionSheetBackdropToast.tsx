@@ -53,12 +53,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var9;
     var10 = copyDataProperties(var15, var14);
     var10 = 'flex';
-    var9[var10] = var12;
+    var9[9] = var12;
     var12 = 'center';
     var10 = 'alignItems';
-    var9[var10] = var12;
+    var9[9] = var12;
     var10 = 'justifyContent';
-    var9[var10] = var12;
+    var9[9] = var12;
     var4['container'] = var9;
     var9 = {'position': 'absolute', 'bottom': 16, 'backgroundColor': null, 'borderRadius': null, 'paddingTop': 6, 'paddingBottom': 8, 'paddingHorizontal': 16};
     var10 = 6;

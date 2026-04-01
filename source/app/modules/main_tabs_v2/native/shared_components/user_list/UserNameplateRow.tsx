@@ -249,7 +249,7 @@ case 12:
             var8 = var13.bind(var5)(var12, var8);
             var9[1] = var8;
             var8 = 'children';
-            var1[var8] = var9;
+            var1[7] = var9;
             var8 = var6.bind(var5)(var4, var1);
             var1 = var8;
             if(var3) { _fun0001_ip = 14; continue _fun0001 }

@@ -89,7 +89,7 @@ case 2:
             var5['fill'] = var7;
             var6 = var3.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

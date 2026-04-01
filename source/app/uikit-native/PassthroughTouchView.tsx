@@ -67,10 +67,10 @@ case 4:
             var8 = var2;
             var1 = copyDataProperties(var8, var7);
             var1 = 'onTouchDown';
-            var2[var1] = var5;
+            var2[0] = var5;
             var5 = 'box-none';
             var1 = 'pointerEvents';
-            var2[var1] = var5;
+            var2[0] = var5;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
             return var1;

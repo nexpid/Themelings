@@ -135,10 +135,10 @@ case 7:
             var14 = var2;
             var5 = copyDataProperties(var14, var13);
             var5 = 'height';
-            var2[var5] = var4;
+            var2[4] = var4;
             var4 = var3 - var4;
             var3 = 'marginTop';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1['accessibleDismiss'] = var2;
             return var1;
         }

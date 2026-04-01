@@ -242,10 +242,10 @@ case 2:
                 var10 = 0;
                 var9 = arraySpread(var12, var11, var10);
                 var6 = null;
-                var8[var9] = var6;
+                var8[8] = var6;
                 var5 = 1;
                 var5 = var9 + var5;
-                var8[var5] = var6;
+                var8[4] = var6;
                 var6 = var8.slice;
                 var9 = _closure1_slot0;
                 var5 = _closure1_slot2;

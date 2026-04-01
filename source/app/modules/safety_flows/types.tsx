@@ -54,12 +54,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1[0] = var4;
     var4 = var6.VERIFY_EMAIL;
     var1[1] = var4;
-    var5[var2] = var1;
+    var5[1] = var1;
     var2 = var9.AGE_VERIFICATION;
     var4 = var6.AGE_VERIFICATION;
     var1 = new Array(1);
     var1[0] = var4;
-    var5[var2] = var1;
+    var5[1] = var1;
     var4 = {};
     var14 = var9.EMAIL_VERIFICATION;
     var13 = 0;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var15.bind(var1)(var10);
     var10 = var10.Qm6K/s;
     var10 = var16.bind(var17)(var10);
-    var4[var14] = var10;
+    var4[13] = var10;
     var10 = var9.AGE_VERIFICATION;
     var13 = var12[var13];
     var13 = var11.bind(var1)(var13);
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var15.bind(var1)(var2);
     var2 = var2.dSkE/A;
     var2 = var13.bind(var14)(var2);
-    var4[var10] = var2;
+    var4[9] = var2;
     var2 = {};
     var10 = 'empty';
     var2['Empty'] = var10;

@@ -101,9 +101,10 @@ case 7:
             var2 = var2[var6];
             var2 = var7.bind(var5)(var2);
             var2 = var2.soundpack;
+            var2 = var4 != var2;
             var1 = null;
             if(!var2) { _fun0004_ip = 6; continue _fun0004 }
-case 8:
+case 5:
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -112,7 +113,7 @@ case 8:
             var2 = var4 != var2;
             var1 = null;
             if(!var2) { _fun0004_ip = 6; continue _fun0004 }
-case 9:
+case 8:
             var2 = {};
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -138,15 +139,15 @@ case 0:
             var4 = undefined;
             var3 = var1.bind(var4)();
             var1 = null;
-            if(!var3) { _fun0005_ip = 10; continue _fun0005 }
-case 11:
+            if(!var3) { _fun0005_ip = 9; continue _fun0005 }
+case 10:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 0;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var1 = var2.appSpinnerSources;
-case 10:
+case 9:
             return var1;
         }
     };
@@ -159,7 +160,7 @@ case 0:
             var2 = var1.bind(var5)();
             var4 = null;
             var1 = null;
-            if(!var2) { _fun0006_ip = 12; continue _fun0006 }
+            if(!var2) { _fun0006_ip = 11; continue _fun0006 }
 case 7:
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -179,7 +180,7 @@ case 5:
             var2 = var3.bind(var4)();
 case 4:
             var1 = var2;
-case 12:
+case 11:
             return var1;
         }
     };
@@ -190,24 +191,26 @@ case 0:
             var1 = _closure1_slot2;
             var4 = undefined;
             var3 = var1.bind(var4)();
+            var6 = null;
             var1 = null;
-            if(!var3) { _fun0007_ip = 13; continue _fun0007 }
-case 11:
+            if(!var3) { _fun0007_ip = 12; continue _fun0007 }
+case 7:
             var7 = _closure1_slot0;
             var3 = _closure1_slot1;
             var5 = 0;
             var3 = var3[var5];
             var3 = var7.bind(var4)(var3);
             var3 = var3.soundpack;
+            var3 = var6 != var3;
             var1 = null;
-            if(!var3) { _fun0007_ip = 13; continue _fun0007 }
-case 2:
+            if(!var3) { _fun0007_ip = 12; continue _fun0007 }
+case 5:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var5];
             var2 = var3.bind(var4)(var2);
             var1 = var2.soundpack;
-case 13:
+case 12:
             return var1;
         }
     };

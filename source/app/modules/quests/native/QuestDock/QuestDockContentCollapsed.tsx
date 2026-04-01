@@ -52,9 +52,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var10;
     var11 = copyDataProperties(var15, var14);
     var11 = 'bottom';
-    var10[var11] = var1;
+    var10[10] = var1;
     var11 = 'zIndex';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['questDockContentCollapsed'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot8 = var4;

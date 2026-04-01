@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = copyDataProperties(var12, var11);
             var8 = 'tertiary';
             var5 = 'variant';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 6;
             var8 = var7[var5];
             var8 = var6.bind(var3)(var8);
@@ -141,10 +141,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.kP6oFy;
             var8 = var8.bind(var9)(var5);
             var5 = 'accessibilityLabel';
-            var1[var5] = var8;
+            var1[4] = var8;
             var8 = 'sm';
             var5 = 'size';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 8;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {'size': 'sm', 'color': 'redesign-button-tertiary-text'};
             var6 = var4.bind(var3)(var6, var5);
             var5 = 'icon';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };

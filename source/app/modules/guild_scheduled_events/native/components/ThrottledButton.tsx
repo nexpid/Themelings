@@ -142,13 +142,13 @@ case 8:
             var9 = copyDataProperties(var13, var12);
             var9 = var5.bind(var4)(var8);
             var8 = 'onPress';
-            var1[var8] = var9;
+            var1[7] = var9;
             var8 = var5.bind(var4)(var7);
             var7 = 'onPressIn';
-            var1[var7] = var8;
+            var1[6] = var8;
             var6 = var5.bind(var4)(var6);
             var5 = 'onPressOut';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5['render'] = var13;
-            var3[var12] = var5;
+            var3[11] = var5;
             var12 = var4.DESCRIPTION;
             var5 = {};
             var5['fullscreen'] = var11;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5['render'] = var13;
-            var3[var12] = var5;
+            var3[11] = var5;
             var12 = var4.TEMPLATES;
             var5 = {};
             var5['fullscreen'] = var11;
@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5['render'] = var13;
-            var3[var12] = var5;
+            var3[11] = var5;
             var5 = var4.CREATE;
             var4 = {};
             var12 = function headerTitle() {
@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var4['render'] = var6;
-            var3[var5] = var4;
+            var3[4] = var4;
             var1['screens'] = var3;
             var1['initialStack'] = var2;
             return var1;

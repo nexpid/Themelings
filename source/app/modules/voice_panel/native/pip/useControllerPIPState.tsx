@@ -512,9 +512,9 @@ case 54:
             var13 = var1.id;
 case 53:
             var1 = 'id';
-            var10[var1] = var13;
+            var10[0] = var13;
             var1 = 'showSecondaryPIP';
-            var10[var1] = var8;
+            var10[0] = var8;
             var13 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 17;
@@ -529,7 +529,7 @@ case 53:
             var1['selfHasVideo'] = var15;
             var13 = var13.bind(var14)(var1);
             var1 = 'mode';
-            var10[var1] = var13;
+            var10[0] = var13;
             var1 = function useCachedPipState(arg1, arg2) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:

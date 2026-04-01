@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = undefined;
         var5['customMessage'] = var6;
         var2['metadata'] = var5;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot0;
         var3 = var2.FLAG_TO_CHANNEL;
         var2 = {};
@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var5['channelId'] = var6;
         var2['metadata'] = var5;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot0;
         var3 = var2.USER_COMMUNICATION_DISABLED;
         var2 = {};
@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = 60;
         var5['durationSeconds'] = var6;
         var2['metadata'] = var5;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot0;
         var3 = var2.QUARANTINE_USER;
         var2 = {};
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['type'] = var4;
         var4 = {};
         var2['metadata'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot1 = var2;

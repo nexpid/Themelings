@@ -98,12 +98,12 @@ case 2:
             var12 = var7;
             var7 = copyDataProperties(var13, var12);
             var7 = 'onPress';
-            var1[var7] = var8;
+            var1[6] = var8;
             var7 = 'label';
-            var1[var7] = var6;
+            var1[6] = var6;
             var8 = false;
             var7 = 'labelVisible';
-            var1[var7] = var8;
+            var1[6] = var8;
             var7 = function backImage(arg1) {
                 var1 = arg1;
                 var7 = var1.tintColor;
@@ -130,9 +130,9 @@ case 2:
                 return var1;
             };
             var5 = 'backImage';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'accessibilityLabel';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -182,10 +182,10 @@ case 4:
         var13 = var1;
         var6 = copyDataProperties(var13, var12);
         var6 = 'onPress';
-        var1[var6] = var7;
+        var1[5] = var7;
         var7 = false;
         var6 = 'labelVisible';
-        var1[var6] = var7;
+        var1[5] = var7;
         var6 = function backImage() {
             var4 = _closure1_slot6;
             var3 = _closure1_slot9;
@@ -195,7 +195,7 @@ case 4:
             return var1;
         };
         var5 = 'backImage';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -224,7 +224,7 @@ case 0:
             var7 = copyDataProperties(var13, var12);
             var8 = 16;
             var7 = 'marginHorizontal';
-            var3[var7] = var8;
+            var3[6] = var8;
             var9 = new Array(2);
             var9[0] = var3;
             var9[1] = var2;
@@ -240,18 +240,18 @@ case 0:
             var12 = var6;
             var6 = copyDataProperties(var13, var12);
             var6 = 'label';
-            var1[var6] = var5;
+            var1[5] = var5;
             var10 = true;
             var6 = 'labelVisible';
-            var1[var6] = var10;
+            var1[5] = var10;
             var6 = 'labelStyle';
-            var1[var6] = var9;
+            var1[5] = var9;
             var9 = function backImage() {
                 var1 = null;
                 return var1;
             };
             var6 = 'backImage';
-            var1[var6] = var9;
+            var1[5] = var9;
             var6 = 14;
             var6 = var8[var6];
             var7 = var7.bind(var4)(var6);
@@ -263,7 +263,7 @@ case 7:
             var6 = var5;
 case 6:
             var5 = 'accessibilityLabel';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -332,7 +332,7 @@ case 6:
     var14 = var14.colors;
     var15 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var14 = 'color';
-    var10[var14] = var15;
+    var10[13] = var15;
     var5['headerTitle'] = var10;
     var10 = {'fontFamily': null, 'fontSize': 16, 'letterSpacing': 0, 'lineHeight': 20};
     var13 = var13.PRIMARY_MEDIUM;
@@ -459,7 +459,7 @@ case 10:
             var1 = copyDataProperties(var7, var6);
             var5 = _closure2_slot0;
             var1 = 'onPress';
-            var2[var1] = var5;
+            var2[0] = var5;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
             return var1;
@@ -543,7 +543,7 @@ case 12:
             var9 = var1;
             var5 = copyDataProperties(var9, var8);
             var5 = 'onPress';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
@@ -606,7 +606,7 @@ case 18:
                     }
                 };
                 var1 = 'onPress';
-                var2[var1] = var5;
+                var2[0] = var5;
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
@@ -629,10 +629,10 @@ case 18:
             var1 = copyDataProperties(var8, var7);
             var6 = _closure2_slot0;
             var5 = 'text';
-            var2[var5] = var6;
+            var2[4] = var6;
             var5 = _closure2_slot1;
             var1 = 'onPress';
-            var2[var1] = var5;
+            var2[0] = var5;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
             return var1;

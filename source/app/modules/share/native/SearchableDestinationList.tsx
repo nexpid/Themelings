@@ -695,10 +695,10 @@ case 54:
                     var17 = var3;
                     var16 = var9;
                     var10 = copyDataProperties(var17, var16);
-                    var3[var7] = var5;
+                    var3[6] = var5;
                     var10 = _closure2_slot19;
                     var7 = 'onPress';
-                    var3[var7] = var10;
+                    var3[6] = var10;
                     var2['props'] = var3;
                     var1 = var2;
 case 57:
@@ -712,10 +712,10 @@ case 52:
                     var16 = var9;
                     var7 = copyDataProperties(var17, var16);
                     var7 = 'channel';
-                    var3[var7] = var5;
+                    var3[6] = var5;
                     var10 = _closure2_slot19;
                     var7 = 'onPress';
-                    var3[var7] = var10;
+                    var3[6] = var10;
                     var2['props'] = var3;
                     var1 = var2;
 case 58:
@@ -728,7 +728,7 @@ case 50:
                     var17 = var3;
                     var16 = var9;
                     var9 = copyDataProperties(var17, var16);
-                    var3[var7] = var5;
+                    var3[6] = var5;
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var6 = 11;
@@ -738,10 +738,10 @@ case 50:
                     var5 = var5.id;
                     var6 = var6.bind(var7)(var5);
                     var5 = 'type';
-                    var3[var5] = var6;
+                    var3[4] = var6;
                     var5 = _closure2_slot18;
                     var4 = 'onPress';
-                    var3[var4] = var5;
+                    var3[3] = var5;
                     var2['props'] = var3;
                     var1 = var2;
 case 59:

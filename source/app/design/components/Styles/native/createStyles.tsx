@@ -289,7 +289,7 @@ case 34:
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var3['experimental_createToken'] = var5;
@@ -331,7 +331,7 @@ case 0:
                 var15 = 0;
                 var5 = arraySpread(var17, var16, var15);
                 var3 = var3.key;
-                var1[var5] = var3;
+                var1[4] = var3;
                 var3 = 1;
                 var3 = var5 + var3;
                 var17 = var2;
@@ -565,7 +565,7 @@ case 0:
                 var12 = 0;
                 var5 = arraySpread(var14, var13, var12);
                 var4 = var6.key;
-                var1[var5] = var4;
+                var1[4] = var4;
                 var4 = 1;
                 var4 = var5 + var4;
                 var14 = var3;
@@ -683,14 +683,14 @@ case 51:
                 var18 = var1;
                 var3 = copyDataProperties(var18, var17);
                 var3 = 'flags';
-                var1[var3] = var7;
+                var1[2] = var7;
                 var3 = 'gradient';
-                var1[var3] = var6;
+                var1[2] = var6;
                 var3 = 'saturation';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var4 = arg1;
                 var3 = 'theme';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var3 = global;
                 var4 = var3.JSON;
                 var3 = var4.stringify;
@@ -700,7 +700,7 @@ case 51:
                 var17 = var1;
                 var1 = copyDataProperties(var18, var17);
                 var1 = 'key';
-                var6[var1] = var3;
+                var6[0] = var3;
                 var3 = _closure1_slot8;
                 var1 = new Array(1);
                 var18 = var1;
@@ -708,7 +708,7 @@ case 51:
                 var16 = 0;
                 var4 = arraySpread(var18, var17, var16);
                 var7 = var6.key;
-                var1[var4] = var7;
+                var1[3] = var7;
                 var4 = var4 + var5;
                 var18 = var3;
                 var17 = var1;

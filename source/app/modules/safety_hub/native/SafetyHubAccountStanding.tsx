@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var10 = '0%';
     var8['left'] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var8 = var6[var7];
     var8 = var5.bind(var1)(var8);
     var8 = var8.AccountStandingState;
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = new Array(1);
     var12[0] = var13;
     var8['transform'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = var6[var7];
     var8 = var5.bind(var1)(var8);
     var8 = var8.AccountStandingState;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = new Array(1);
     var12[0] = var13;
     var8['transform'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = var6[var7];
     var8 = var5.bind(var1)(var8);
     var8 = var8.AccountStandingState;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = new Array(1);
     var12[0] = var13;
     var8['transform'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AccountStandingState;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = new Array(1);
     var9[0] = var10;
     var7['transform'] = var9;
-    var4[var8] = var7;
+    var4[7] = var7;
     var _closure1_slot11 = var4;
     var4 = 9;
     var4 = var6[var4];
@@ -312,7 +312,7 @@ case 0:
                 var11 = var8.bind(var6)(var11);
                 var11 = var11.CircleCheckIcon;
                 var3['CustomIcon'] = var11;
-                var1[var10] = var3;
+                var1[9] = var3;
                 var3 = var7[var2];
                 var3 = var8.bind(var6)(var3);
                 var3 = var3.AccountStandingState;
@@ -350,7 +350,7 @@ case 0:
                 var13 = var7[var11];
                 var13 = var5.bind(var6)(var13);
                 var3['iconSource'] = var13;
-                var1[var10] = var3;
+                var1[9] = var3;
                 var3 = var7[var2];
                 var3 = var8.bind(var6)(var3);
                 var3 = var3.AccountStandingState;
@@ -385,7 +385,7 @@ case 0:
                 var13 = var7[var11];
                 var13 = var5.bind(var6)(var13);
                 var3['iconSource'] = var13;
-                var1[var10] = var3;
+                var1[9] = var3;
                 var3 = var7[var2];
                 var3 = var8.bind(var6)(var3);
                 var3 = var3.AccountStandingState;
@@ -420,7 +420,7 @@ case 0:
                 var11 = var7[var11];
                 var11 = var5.bind(var6)(var11);
                 var3['iconSource'] = var11;
-                var1[var10] = var3;
+                var1[9] = var3;
                 var2 = var7[var2];
                 var2 = var8.bind(var6)(var2);
                 var2 = var2.AccountStandingState;
@@ -457,7 +457,7 @@ case 0:
                 var4 = var7[var4];
                 var4 = var5.bind(var6)(var4);
                 var2['iconSource'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var2 = var5.bind(var7)(var2, var3);
@@ -541,9 +541,9 @@ case 7:
                         var9 = copyDataProperties(var19, var18);
                         var9 = 20;
                         var16 = 'width';
-                        var15[var16] = var9;
+                        var15[15] = var9;
                         var16 = 'height';
-                        var15[var16] = var9;
+                        var15[15] = var9;
                         var13['style'] = var15;
                         var15 = var12.style;
                         var15 = var15.color;

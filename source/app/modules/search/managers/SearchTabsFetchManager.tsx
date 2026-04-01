@@ -201,7 +201,7 @@ case 11:
                     var10 = var2;
                     var5 = copyDataProperties(var10, var9);
                     var5 = 'limit';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var3[var4] = var2;
                     return var1;
                 }

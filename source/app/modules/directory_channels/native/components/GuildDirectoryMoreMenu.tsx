@@ -284,10 +284,10 @@ case 9:
                 var5 = copyDataProperties(var14, var13);
                 var8 = 'sm';
                 var5 = 'size';
-                var1[var5] = var8;
+                var1[4] = var8;
                 var10 = 'secondary';
                 var5 = 'variant';
-                var1[var5] = var10;
+                var1[4] = var10;
                 var5 = 5;
                 var10 = var9[var5];
                 var10 = var6.bind(var3)(var10);
@@ -299,7 +299,7 @@ case 9:
                 var5 = var5.PdRCRg;
                 var10 = var10.bind(var11)(var5);
                 var5 = 'accessibilityLabel';
-                var1[var5] = var10;
+                var1[4] = var10;
                 var5 = 14;
                 var5 = var9[var5];
                 var5 = var6.bind(var3)(var5);
@@ -315,7 +315,7 @@ case 9:
                 var5['color'] = var7;
                 var6 = var4.bind(var3)(var6, var5);
                 var5 = 'icon';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

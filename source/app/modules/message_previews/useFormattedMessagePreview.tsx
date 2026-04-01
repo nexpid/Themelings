@@ -1066,7 +1066,7 @@ case 77:
             var22 = var3;
             var3 = copyDataProperties(var23, var22);
             var3 = 'authorLabel';
-            var1[var3] = var4;
+            var1[2] = var4;
             return var1;
 case 12:
             var1 = {};

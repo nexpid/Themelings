@@ -170,19 +170,20 @@ case 8:
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var1 = arg1;
-                        var4 = var1.code;
-                        var3 = var1.deeplinkAttemptId;
+                        var5 = var1.code;
+                        var4 = var1.deeplinkAttemptId;
+                        var3 = var1.invite_instance_id;
                         var2 = _closure1_slot8;
                         var1 = var2.isAuthenticated;
                         var1 = var1.bind(var2)();
                         var2 = _closure3_slot0;
                         if(var1) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                        var2['_deferredCode'] = var4;
+                        var2['_deferredCode'] = var5;
                         _fun0003_ip = 11; continue _fun0003;
 case 9:
                         var1 = var2._handleInvite;
-                        var1 = var1.bind(var2)(var4, var3);
+                        var1 = var1.bind(var2)(var5, var4, var3);
 case 11:
                         var1 = undefined;
                         return var1;
@@ -226,11 +227,13 @@ case 12:
                     }
                 };
                 var1['_handleShowDeferredInvite'] = var3;
-                var3 = function(arg1, arg2) {
+                var3 = function(arg1, arg2, arg3) {
                     var2 = arg1;
                     var _closure4_slot0 = var2;
                     var2 = arg2;
                     var _closure4_slot1 = var2;
+                    var2 = arg3;
+                    var _closure4_slot2 = var2;
                     var3 = _closure1_slot9;
                     var2 = var3.addConditionalChangeListener;
                     var1 = function() {
@@ -282,34 +285,36 @@ case 26:
                             var3 = var7.inviter;
                             if(!(var9 == var3)) { _fun0005_ip = 27; continue _fun0005 }
 case 24:
-                            var12 = _closure4_slot0;
+                            var13 = _closure4_slot0;
                             var3 = _closure3_slot0;
-                            var11 = var3._isRegistration;
-                            var3 = _closure4_slot1;
+                            var12 = var3._isRegistration;
+                            var11 = _closure4_slot1;
+                            var3 = _closure4_slot2;
                             var6 = _closure1_slot1;
                             var4 = _closure1_slot2;
                             var5 = 9;
                             var5 = var4[var5];
-                            var14 = undefined;
-                            var10 = var6.bind(var14)(var5);
+                            var15 = undefined;
+                            var10 = var6.bind(var15)(var5);
                             var5 = var10.hideActionSheet;
                             var5 = var5.bind(var10)();
                             var5 = 10;
                             var5 = var4[var5];
-                            var10 = var6.bind(var14)(var5);
+                            var10 = var6.bind(var15)(var5);
                             var6 = var10.pushLazy;
-                            var13 = _closure1_slot0;
+                            var14 = _closure1_slot0;
                             var5 = 12;
                             var5 = var4[var5];
-                            var13 = var13.bind(var14)(var5);
+                            var14 = var14.bind(var15)(var5);
                             var5 = 11;
                             var5 = var4[var5];
                             var4 = var4.paths;
-                            var5 = var13.bind(var14)(var5, var4);
+                            var5 = var14.bind(var15)(var5, var4);
                             var4 = {};
-                            var4['code'] = var12;
-                            var4['isRegistration'] = var11;
-                            var4['deeplinkAttemptId'] = var3;
+                            var4['code'] = var13;
+                            var4['isRegistration'] = var12;
+                            var4['deeplinkAttemptId'] = var11;
+                            var4['inviteInstanceId'] = var3;
                             var3 = _closure1_slot10;
                             var3 = var6.bind(var10)(var5, var4, var3);
                             var1 = false;

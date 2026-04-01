@@ -235,7 +235,7 @@ case 18:
 case 20:
             var11[1] = var9;
             var9 = 'style';
-            var6[var9] = var11;
+            var6[8] = var11;
             _fun0002_ip = 21; continue _fun0002;
 case 16:
             var9 = {};
@@ -244,7 +244,7 @@ case 16:
             var10 = copyDataProperties(var24, var23);
             var11 = var13.fill;
             var10 = 'style';
-            var9[var10] = var11;
+            var9[9] = var11;
             var12 = _closure1_slot5;
             var11 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -264,7 +264,7 @@ case 16:
             var10['android_fallbackColor'] = var13;
             var11 = var12.bind(var4)(var11, var10);
             var10 = 'children';
-            var9[var10] = var11;
+            var9[9] = var11;
             var6 = var9;
 case 21:
             var6 = var8.bind(var4)(var7, var6);

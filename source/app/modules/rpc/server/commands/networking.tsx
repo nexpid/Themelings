@@ -125,7 +125,7 @@ case 7:
         return var1;
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var10 = var4.NETWORKING_SYSTEM_METRICS;
     var7 = {};
     var7['scope'] = var9;
@@ -149,7 +149,7 @@ case 7:
         return var1;
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var10 = var4.NETWORKING_PEER_METRICS;
     var7 = {};
     var7['scope'] = var9;
@@ -173,7 +173,7 @@ case 7:
         return var1;
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var7 = var4.NETWORKING_CREATE_TOKEN;
     var4 = {};
     var4['scope'] = var9;
@@ -201,7 +201,7 @@ case 7:
         return var1;
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

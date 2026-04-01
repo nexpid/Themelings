@@ -98,7 +98,7 @@ case 2:
         var5 = arg5;
         var6['blob'] = var5;
         var5 = arg1;
-        var2[var5] = var6;
+        var2[4] = var6;
         var2 = var3.bind(var4)(var2);
         return var1;
     };

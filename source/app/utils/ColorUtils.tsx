@@ -1213,7 +1213,7 @@ case 66:
         return var1;
     };
     var16 = '#5865f2';
-    var13[var16] = var17;
+    var13[15] = var17;
     var _closure1_slot6 = var13;
     var13 = 5;
     var13 = var15[var13];

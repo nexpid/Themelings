@@ -383,7 +383,7 @@ case 0:
                     var8 = copyDataProperties(var15, var14);
                     var9 = 'collapse';
                     var8 = 'pressBehavior';
-                    var5[var8] = var9;
+                    var5[7] = var9;
                     var6 = var7.bind(var1)(var6, var5);
                     var5 = new Array(2);
                     var5[0] = var6;

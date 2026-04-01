@@ -428,7 +428,7 @@ case 21:
         var4 = new var8[var4](var7);
         var5 = var4 instanceof Object ? var4 : var5;
         var4 = 'dismissibleContentSeenDuringSession';
-        var2[var4] = var5;
+        var2[3] = var5;
         var4 = var3.Map;
         var5 = var4.prototype;
         var5 = Object.create(var5, {constructor: {value: var4}});
@@ -436,7 +436,7 @@ case 21:
         var4 = new var8[var4](var7);
         var5 = var4 instanceof Object ? var4 : var5;
         var4 = 'renderedAtTimestamps';
-        var2[var4] = var5;
+        var2[3] = var5;
         var3 = var3.Map;
         var4 = var3.prototype;
         var4 = Object.create(var4, {constructor: {value: var3}});
@@ -444,7 +444,7 @@ case 21:
         var3 = new var8[var3](var7);
         var4 = var3 instanceof Object ? var3 : var4;
         var3 = 'seenForGuildId';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot9 = var2;
         var1 = undefined;
         return var1;

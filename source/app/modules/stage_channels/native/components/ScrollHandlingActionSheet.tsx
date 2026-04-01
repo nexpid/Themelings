@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var1;
         var5 = copyDataProperties(var10, var9);
         var5 = 'children';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };

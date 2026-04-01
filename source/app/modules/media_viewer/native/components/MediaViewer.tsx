@@ -417,10 +417,10 @@ case 0:
                 var3 = copyDataProperties(var13, var12);
                 var4 = _closure2_slot1;
                 var3 = 'height';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var4 = 'black';
                 var3 = 'backgroundColor';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var3 = global;
                 var5 = var3.Math;
                 var4 = var5.min;
@@ -448,7 +448,7 @@ case 0:
                 var2 = var8.bind(var9)(var7, var6, var2);
                 var3 = var4.bind(var5)(var3, var2);
                 var2 = 'opacity';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var40 = {};
@@ -474,7 +474,7 @@ case 0:
             var40 = copyDataProperties(var49, var48);
             var45 = 'transparent';
             var40 = 'backgroundColor';
-            var17[var40] = var45;
+            var17[39] = var45;
             var17 = var37.bind(var36)(var17);
             var17 = var35.bind(var4)(var17, var22);
             var18 = var17[var18];
@@ -667,9 +667,9 @@ case 0:
                     var3 = copyDataProperties(var11, var10);
                     var4 = 'center';
                     var3 = 'alignItems';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var3 = 'justifyContent';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var3 = {};
                     var5 = _closure2_slot7;
                     var4 = var5.get;
@@ -678,7 +678,7 @@ case 0:
                     var4 = new Array(1);
                     var4[0] = var3;
                     var3 = 'transform';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var3 = _closure2_slot4;
                     var2 = var3.get;
                     var2 = var2.bind(var3)();
@@ -705,7 +705,7 @@ case 15:
                     var3 = var5.bind(var6)(var2, var4);
 case 14:
                     var2 = 'opacity';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };

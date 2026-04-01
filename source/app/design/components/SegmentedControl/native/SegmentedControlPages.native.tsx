@@ -277,7 +277,7 @@ case 18:
         var21 = var6;
         var6 = copyDataProperties(var22, var21);
         var6 = 'animatedProps';
-        var1[var6] = var8;
+        var1[5] = var8;
         var8 = _closure1_slot5;
         var6 = 8;
         var6 = var14[var6];
@@ -297,7 +297,7 @@ case 18:
         var6['children'] = var9;
         var7 = var8.bind(var4)(var7, var6);
         var6 = 'children';
-        var1[var6] = var7;
+        var1[5] = var7;
         var1 = var3.bind(var4)(var2, var1, var5);
         return var1;
     };

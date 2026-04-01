@@ -228,7 +228,7 @@ case 0:
             var8 = var3;
             var4 = copyDataProperties(var8, var7);
             var4 = var1.id;
-            var3[var4] = var1;
+            var3[3] = var1;
             _closure1_slot6 = var3;
             var3 = var1.isDefault;
             if(var3) { _fun0005_ip = 39; continue _fun0005 }

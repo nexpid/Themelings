@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = copyDataProperties(var11, var10);
     var8 = [' ', '#'];
     var7 = 'requiredFirstCharacters';
-    var2[var7] = var8;
+    var2[6] = var8;
     var7 = function match(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -66,7 +66,7 @@ case 2:
         }
     };
     var4 = 'match';
-    var2[var4] = var7;
+    var2[3] = var7;
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

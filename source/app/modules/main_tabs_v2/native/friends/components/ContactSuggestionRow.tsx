@@ -267,22 +267,22 @@ case 19:
             var7 = copyDataProperties(var22, var21);
             var18 = var11.user;
             var7 = 'user';
-            var1[var7] = var18;
+            var1[6] = var18;
             var7 = _closure1_slot7;
             var18 = var7.SUGGESTION;
             var7 = 'type';
-            var1[var7] = var18;
+            var1[6] = var18;
             var7 = 'accessibilityActions';
-            var1[var7] = var16;
+            var1[6] = var16;
             var7 = 'onAccessibilityAction';
-            var1[var7] = var15;
+            var1[6] = var15;
             var15 = 1;
             var7 = 'labelLineClamp';
-            var1[var7] = var15;
+            var1[6] = var15;
             var7 = 'subLabelLineClamp';
-            var1[var7] = var15;
+            var1[6] = var15;
             var7 = 'label';
-            var1[var7] = var13;
+            var1[6] = var13;
             var13 = _closure1_slot0;
             var7 = 11;
             var7 = var14[var7];
@@ -339,7 +339,7 @@ case 20:
             var7['animate'] = var14;
             var13 = var3.bind(var4)(var13, var7);
             var7 = 'subLabel';
-            var1[var7] = var13;
+            var1[6] = var13;
             var7 = _closure1_slot8;
             var5 = 12;
             var5 = var12[var5];
@@ -388,7 +388,7 @@ case 26:
             var5['animate'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'trailing';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

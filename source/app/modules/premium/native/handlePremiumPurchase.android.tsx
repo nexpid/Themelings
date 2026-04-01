@@ -271,7 +271,7 @@ case 24:
                             var20 = undefined;
                             var21 = undefined;
                             var23 = undefined;
-                            SaveGenerator(address=127);
+                            SaveGenerator(address=126);
 case 26:
                             return var4;
 case 27:
@@ -306,10 +306,10 @@ case 29:
                             var36 = var8;
                             var8 = copyDataProperties(var37, var36);
                             var19 = 'subscription_plan_gateway_plan_id';
-                            var11[var19] = var26;
+                            var11[18] = var26;
                             var8 = var15;
                             var17 = 'sku_id';
-                            var11[var17] = var8;
+                            var11[16] = var8;
                             var8 = null;
                             var14 = var8 == var14;
                             var27 = undefined;
@@ -319,7 +319,7 @@ case 31:
                             var27 = var14.price;
 case 30:
                             var14 = 'price';
-                            var11[var14] = var27;
+                            var11[13] = var27;
                             var14 = var24;
                             var14 = var8 == var14;
                             var27 = undefined;
@@ -329,7 +329,7 @@ case 33:
                             var27 = var14.price;
 case 32:
                             var14 = 'regular_price';
-                            var11[var14] = var27;
+                            var11[13] = var27;
                             var14 = var24;
                             var14 = var8 == var14;
                             var27 = undefined;
@@ -341,10 +341,10 @@ case 35:
                             var27 = var14.bind(var28)();
 case 34:
                             var14 = 'currency';
-                            var11[var14] = var27;
+                            var11[13] = var27;
                             var29 = var13;
                             var14 = 'application_id';
-                            var11[var14] = var29;
+                            var11[13] = var29;
                             var11 = var16.bind(var4)(var26, var11);
                             var16 = var18;
                             var30 = _closure2_slot3;
@@ -428,14 +428,14 @@ case 46:
                             var36 = var20;
                             var37 = var26;
                             var30 = copyDataProperties(var37, var36);
-                            var26[var19] = var16;
+                            var26[18] = var16;
                             var16 = var15;
-                            var26[var17] = var16;
+                            var26[16] = var16;
                             var16 = _closure1_slot11;
                             var30 = var16.GOOGLE;
                             var16 = 'payment_gateway';
-                            var26[var16] = var30;
-                            var26[var14] = var29;
+                            var26[15] = var30;
+                            var26[13] = var29;
                             var26 = var27.bind(var28)(var26);
 case 51: // try_start_0
                             var26 = var7;
@@ -485,7 +485,7 @@ case 63:
                             var22 = _closure2_slot0;
                             var12 = var21;
                             var12 = var27.bind(var4)(var26, var22, var12);
-                            SaveGenerator(address=841);
+                            SaveGenerator(address=840);
 case 65:
                             return var12;
 case 66:
@@ -505,7 +505,7 @@ case 68:
                             var33 = var21;
                             var38 = var30;
                             var21 = var38[var29](var37, var36, var35, var34, var33, var32);
-                            SaveGenerator(address=901);
+                            SaveGenerator(address=900);
 case 69:
                             return var21;
 case 70:
@@ -591,7 +591,7 @@ case 80:
                             var35 = null;
                             var34 = var11;
                             var7 = var38[var22](var37, var36, var35, var34, var33, var32);
-                            SaveGenerator(address=1161);
+                            SaveGenerator(address=1160);
 case 83:
                             return var7;
 case 84:
@@ -606,7 +606,7 @@ case 86:
                             var12 = var21.purchase;
                             var11 = var18;
                             var9 = var12.bind(var21)(var11, var9);
-                            SaveGenerator(address=1206);
+                            SaveGenerator(address=1205);
 case 87:
                             return var9;
 case 88:
@@ -638,15 +638,15 @@ case 93: // catch_target0 // catch_target1
                             var36 = var20;
                             var37 = var7;
                             var20 = copyDataProperties(var37, var36);
-                            var7[var19] = var18;
-                            var7[var17] = var15;
+                            var7[18] = var18;
+                            var7[16] = var15;
                             var15 = _closure1_slot11;
                             var15 = var15.GOOGLE;
-                            var7[var16] = var15;
-                            var7[var14] = var13;
+                            var7[15] = var15;
+                            var7[13] = var13;
                             var13 = var12.message;
                             var12 = 'error_message';
-                            var7[var12] = var13;
+                            var7[11] = var13;
                             var7 = var10.bind(var11)(var9, var7);
                             var7 = var6;
                             if(!(var8 != var7)) { _fun0003_ip = 94; continue _fun0003 }

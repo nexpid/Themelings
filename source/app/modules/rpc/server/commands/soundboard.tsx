@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = new Array(2);
     var13[0] = var16;
     var13[1] = var15;
-    var11[var14] = var13;
+    var11[13] = var13;
     var7['scope'] = var11;
     var11 = function handler() {
         var3 = _closure1_slot3;
@@ -123,7 +123,7 @@ case 2:
         return var1;
     };
     var7['handler'] = var11;
-    var2[var9] = var7;
+    var2[8] = var7;
     var7 = var4.PLAY_SOUNDBOARD_SOUND;
     var4 = {};
     var9 = {};
@@ -139,7 +139,7 @@ case 2:
     var12 = var12.OAuth2Scopes;
     var12 = var12.RPC_VOICE_WRITE;
     var10[1] = var12;
-    var9[var11] = var10;
+    var9[10] = var10;
     var4['scope'] = var9;
     var9 = function validation(arg1) {
         var5 = arg1;
@@ -322,7 +322,7 @@ case 8:
         return var1;
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

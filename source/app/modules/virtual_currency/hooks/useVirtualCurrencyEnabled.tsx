@@ -1,4 +1,4 @@
-// app/modules/virtual_currency/hooks/web/useVirtualCurrencyEnabled.tsx
+// app/modules/virtual_currency/hooks/useVirtualCurrencyEnabled.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/virtual_currency/hooks/web/useVirtualCurrencyEnabled.tsx';
+    var4 = 'modules/virtual_currency/hooks/useVirtualCurrencyEnabled.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

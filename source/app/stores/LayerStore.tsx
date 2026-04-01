@@ -173,7 +173,7 @@ case 10:
             var8 = var1;
             var6 = 0;
             var4 = arraySpread(var8, var7, var6);
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = 1;
             var3 = var4 + var3;
             _closure1_slot5 = var1;

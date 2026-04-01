@@ -161,7 +161,7 @@ case 8:
                         return var1;
                     };
                     var3['render'] = var7;
-                    var1[var6] = var3;
+                    var1[5] = var3;
                     var7 = var2.OVERVIEW;
                     var3 = {};
                     var9 = _closure1_slot0;
@@ -336,7 +336,7 @@ case 12:
                         return var1;
                     };
                     var3['render'] = var11;
-                    var1[var7] = var3;
+                    var1[6] = var3;
                     var3 = var2.CONFIRMATION;
                     var2 = {};
                     var6 = var10[var6];
@@ -374,7 +374,7 @@ case 12:
                         return var1;
                     };
                     var2['render'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var2 = undefined;

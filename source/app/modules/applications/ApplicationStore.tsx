@@ -1445,7 +1445,7 @@ case 51:
             var4 = var5.now;
             var5 = var4.bind(var5)();
             var4 = 'lastUsedMs';
-            var1[var4] = var5;
+            var1[3] = var5;
             var2[var3] = var1;
 case 39:
             var1 = undefined;

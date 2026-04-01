@@ -389,9 +389,9 @@ case 2:
     var11 = copyDataProperties(var16, var15);
     var13 = 'center';
     var11 = 'justifyContent';
-    var10[var11] = var13;
+    var10[10] = var13;
     var11 = 'alignItems';
-    var10[var11] = var13;
+    var10[10] = var13;
     var4['loadingContainer'] = var10;
     var10 = {};
     var11 = 9;
@@ -726,7 +726,7 @@ case 8:
                     var5 = var5.nativeEvent;
                     var6 = var5.layout;
                     var5 = 'layout';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var4[var3] = var2;
                     var2 = _closure3_slot4;
                     var1 = undefined;
@@ -744,8 +744,8 @@ case 0:
                         var1 = _closure3_slot2;
                         var2 = var1.current;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0005_ip = 6; continue _fun0005 }
-case 18:
+                        if(!(var1 != var2)) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                         var1 = _closure3_slot2;
                         var3 = var1.current;
                         var2 = var3.scrollToIndex;
@@ -765,7 +765,7 @@ case 18:
                         var4 = var4.PX_8;
                         var1['viewOffset'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 6:
+case 18:
                         var1 = undefined;
                         return var1;
                     }
@@ -785,17 +785,17 @@ case 0:
                         var3 = _closure3_slot0;
                         var2 = null;
                         var2 = var2 != var3;
-                        if(!var2) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+                        if(!var2) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                         var4 = _closure3_slot0;
                         var3 = -1;
                         var2 = var3 !== var4;
-case 19:
-                        if(!var2) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+case 20:
+                        if(!var2) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                         var2 = _closure3_slot5;
-case 21:
-                        if(!var2) { _fun0006_ip = 23; continue _fun0006 }
+case 22:
+                        if(!var2) { _fun0006_ip = 18; continue _fun0006 }
 case 24:
                         var2 = _closure3_slot7;
                         var1 = _closure3_slot0;
@@ -810,7 +810,7 @@ case 24:
                         var1 = _closure1_slot10;
                         var1 = var1.QUESTS;
                         var1 = var2.bind(var3)(var1);
-case 23:
+case 18:
                         var1 = undefined;
                         return var1;
                     }
@@ -1125,7 +1125,7 @@ case 43:
                     }
                 };
                 var5 = 'onLayout';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

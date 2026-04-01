@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var10;
     var11 = copyDataProperties(var16, var15);
     var11 = 'zIndex';
-    var10[var11] = var13;
+    var10[10] = var13;
     var4['accessibilityWrapper'] = var10;
     var10 = {'position': 'absolute', 'bottom': 0, 'left': '50%', 'overflow': 'hidden', 'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
     var11 = 10;
@@ -1682,7 +1682,7 @@ case 76:
                             var5 = copyDataProperties(var17, var16);
                             var12 = false;
                             var5 = 'isDrawer';
-                            var1[var5] = var12;
+                            var1[4] = var12;
                             var1 = var2.bind(var3)(var1);
 case 75:
                             var2 = _closure3_slot2;
@@ -1725,7 +1725,7 @@ case 63:
                             var17 = var1;
                             var5 = copyDataProperties(var17, var16);
                             var5 = 'x';
-                            var1[var5] = var11;
+                            var1[4] = var11;
                             var12 = _closure3_slot7;
                             var5 = var12.get;
                             var5 = var5.bind(var12)();
@@ -1738,7 +1738,7 @@ case 63:
                             var5 = var9 * var5;
                             var8 = var8 + var5;
                             var5 = 'y';
-                            var1[var5] = var8;
+                            var1[4] = var8;
                             var9 = _closure1_slot0;
                             var8 = _closure1_slot2;
                             var5 = 21;
@@ -1758,12 +1758,12 @@ case 63:
                             var5 = var5.right;
                             var8 = var10.bind(var11)(var9, var8, var5);
                             var5 = 'width';
-                            var1[var5] = var8;
+                            var1[4] = var8;
                             var5 = 'height';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var6 = false;
                             var5 = 'drawerMode';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var1 = var2.bind(var3)(var1);
                             _fun0011_ip = 80; continue _fun0011;
 case 73:
@@ -1782,7 +1782,7 @@ case 82:
                             var5 = copyDataProperties(var17, var16);
                             var6 = true;
                             var5 = 'isDrawer';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var1 = var2.bind(var3)(var1);
 case 81:
                             var2 = _closure1_slot1;
@@ -1806,9 +1806,9 @@ case 81:
                             var6 = copyDataProperties(var17, var16);
                             var11 = 0;
                             var6 = 'x';
-                            var1[var6] = var11;
+                            var1[5] = var11;
                             var6 = 'y';
-                            var1[var6] = var11;
+                            var1[5] = var11;
                             var6 = _closure1_slot0;
                             var5 = 21;
                             var5 = var10[var5];
@@ -1826,7 +1826,7 @@ case 81:
                             var5 = var5.right;
                             var6 = var10.bind(var11)(var9, var6, var5);
                             var5 = 'width';
-                            var1[var5] = var6;
+                            var1[4] = var6;
                             var5 = global;
                             var6 = var5.Math;
                             var5 = var6.min;
@@ -1837,10 +1837,10 @@ case 81:
                             var4 = var4 - var8;
                             var5 = var5.bind(var6)(var7, var4);
                             var4 = 'height';
-                            var1[var4] = var5;
+                            var1[3] = var5;
                             var5 = true;
                             var4 = 'drawerMode';
-                            var1[var4] = var5;
+                            var1[3] = var5;
                             var1 = var2.bind(var3)(var1);
 case 80:
                             var1 = undefined;
@@ -1909,7 +1909,7 @@ case 80:
                         var8 = var1;
                         var5 = copyDataProperties(var8, var7);
                         var5 = 'active';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         var1 = var3.bind(var4)(var1);
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -2024,7 +2024,7 @@ case 84:
                             var7 = var7.height;
                             var8 = var8 - var7;
                             var7 = 'height';
-                            var4[var7] = var8;
+                            var4[6] = var8;
                             var4 = var5.bind(var6)(var4);
                             var4 = _closure3_slot4;
                             var1 = var4.get;
@@ -2462,7 +2462,7 @@ case 115:
                         var9 = copyDataProperties(var18, var17);
                         var10 = true;
                         var9 = 'hidden';
-                        var2[var9] = var10;
+                        var2[8] = var10;
                         var2 = var3.bind(var8)(var2);
                         _fun0014_ip = 99; continue _fun0014;
 case 113:
@@ -2474,7 +2474,7 @@ case 113:
                         var8 = copyDataProperties(var18, var17);
                         var9 = false;
                         var8 = 'hidden';
-                        var2[var8] = var9;
+                        var2[7] = var9;
                         var2 = var3.bind(var4)(var2);
                         _fun0014_ip = 99; continue _fun0014;
 case 102:
@@ -2518,7 +2518,7 @@ case 121:
                         var6 = copyDataProperties(var18, var17);
                         var7 = true;
                         var6 = 'hidden';
-                        var3[var6] = var7;
+                        var3[5] = var7;
                         var2 = var4.bind(var5)(var3);
 case 120:
                         var2 = undefined;

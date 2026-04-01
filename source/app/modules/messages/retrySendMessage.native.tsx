@@ -107,9 +107,9 @@ case 6:
             var20 = var4;
             var15 = copyDataProperties(var21, var20);
             var15 = 'nonce';
-            var3[var15] = var17;
+            var3[14] = var17;
             var15 = 'flags';
-            var3[var15] = var16;
+            var3[14] = var16;
             var15 = var14 != var12;
             var14 = undefined;
             if(!var15) { _fun0001_ip = 10; continue _fun0001 }
@@ -117,13 +117,13 @@ case 11:
             var14 = var12;
 case 10:
             var12 = 'messageReference';
-            var3[var12] = var14;
+            var3[11] = var14;
             var12 = _closure1_slot3;
             var14 = var12.RETRY;
             var12 = 'location';
-            var3[var12] = var14;
+            var3[11] = var14;
             var12 = 'attachmentsToUpload';
-            var3[var12] = var13;
+            var3[11] = var13;
             var12 = function onAttachmentUploadError(arg1, arg2, arg3) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -149,7 +149,7 @@ case 10:
                 return var1;
             };
             var11 = 'onAttachmentUploadError';
-            var3[var11] = var12;
+            var3[10] = var12;
             var22 = var10;
             var21 = var8;
             var20 = var7;

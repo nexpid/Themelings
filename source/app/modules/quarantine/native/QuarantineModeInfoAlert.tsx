@@ -52,10 +52,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = copyDataProperties(var16, var15);
     var11 = 'center';
     var10 = 'textAlign';
-    var9[var10] = var11;
+    var9[9] = var11;
     var11 = 12;
     var10 = 'marginVertical';
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['header'] = var9;
     var9 = {'textAlign': 'center', 'marginVertical': 8};
     var4['text'] = var9;

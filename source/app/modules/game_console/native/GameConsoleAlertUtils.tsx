@@ -82,7 +82,7 @@ case 4:
             var5 = var5.t;
             var5 = var5.bVZ7vy;
             var5 = var10.bind(var11)(var5);
-            var3[var6] = var5;
+            var3[5] = var5;
             var6 = var4.PLAYSTATION;
             var5 = var9[var2];
             var5 = var7.bind(var8)(var5);
@@ -93,7 +93,7 @@ case 4:
             var5 = var5.t;
             var5 = var5["6iqUsf"];
             var5 = var10.bind(var11)(var5);
-            var3[var6] = var5;
+            var3[5] = var5;
             var4 = var4.PLAYSTATION_STAGING;
             var5 = var9[var2];
             var5 = var7.bind(var8)(var5);
@@ -104,7 +104,7 @@ case 4:
             var2 = var2.t;
             var2 = var2["6iqUsf"];
             var2 = var5.bind(var6)(var2);
-            var3[var4] = var2;
+            var3[3] = var2;
             var2 = arg1;
             var3 = var3[var2];
             var _closure2_slot0 = var3;

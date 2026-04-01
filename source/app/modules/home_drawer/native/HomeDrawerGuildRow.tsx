@@ -1093,7 +1093,7 @@ case 82:
                 var23 = var20;
                 var22 = 0;
                 var20 = arraySpread(var24, var23, var22);
-                var3[var20] = var16;
+                var3[19] = var16;
                 var20 = var20 + var4;
                 var3 = var19.bind(var7)(var18, var3);
                 var18 = var14.bind(var11)();

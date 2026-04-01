@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var11.ANY;
     var14 = new Array(1);
     var14[0] = var13;
-    var12[var15] = var14;
+    var12[14] = var14;
     var7['scope'] = var12;
     var12 = function validation(arg1) {
         var5 = arg1;
@@ -527,14 +527,14 @@ case 2:
         }
     };
     var7['handler'] = var12;
-    var2[var9] = var7;
+    var2[8] = var7;
     var7 = var4.MAYBE_GET_PROVIDER_ACCESS_TOKEN;
     var4 = {};
     var9 = {};
     var12 = var11.ANY;
     var11 = new Array(1);
     var11[0] = var13;
-    var9[var12] = var11;
+    var9[11] = var11;
     var4['scope'] = var9;
     var9 = function validation(arg1) {
         var5 = arg1;
@@ -755,7 +755,7 @@ case 27:
         return var1;
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

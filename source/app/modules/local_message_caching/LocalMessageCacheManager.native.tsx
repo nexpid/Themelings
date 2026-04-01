@@ -389,7 +389,7 @@ case 13:
             var7 = var6;
 case 46:
             var6 = 'content';
-            var5[var6] = var7;
+            var5[5] = var7;
             var1[var3] = var5;
             var8 = _closure1_slot17;
             var7 = var8.verbose;

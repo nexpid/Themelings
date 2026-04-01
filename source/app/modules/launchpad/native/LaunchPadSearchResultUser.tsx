@@ -405,17 +405,17 @@ case 26:
         var14 = var5;
         var5 = copyDataProperties(var15, var14);
         var5 = 'channel';
-        var1[var5] = var11;
+        var1[4] = var11;
         var5 = 'lastMessage';
-        var1[var5] = var10;
+        var1[4] = var10;
         var5 = 'unread';
-        var1[var5] = var9;
+        var1[4] = var9;
         var5 = 'mentionCount';
-        var1[var5] = var8;
+        var1[4] = var8;
         var5 = 'muted';
-        var1[var5] = var7;
+        var1[4] = var7;
         var5 = 'isTyping';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -554,7 +554,7 @@ case 29:
             var13 = var6;
             var6 = copyDataProperties(var14, var13);
             var6 = 'channel';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 31:
             return var1;

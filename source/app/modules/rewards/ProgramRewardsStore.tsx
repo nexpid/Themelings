@@ -647,7 +647,7 @@ case 76:
                                     var3 = var2.NITRO;
 case 78:
                                     var2 = 'reward_program';
-                                    var1[var2] = var3;
+                                    var1[1] = var3;
                                     return var1;
                                 }
                             };

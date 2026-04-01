@@ -88,7 +88,7 @@ case 4:
         var6 = copyDataProperties(var9, var8);
         var7 = var4.id;
         var6 = 'guildId';
-        var1[var6] = var7;
+        var1[5] = var7;
         var1 = var2.bind(var5)(var1);
         var2 = var1.enabled;
         var1 = undefined;

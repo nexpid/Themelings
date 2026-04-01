@@ -1207,7 +1207,7 @@ case 77:
                 var9 = _closure1_slot11;
                 var10 = var9.BUTTON_CTA;
                 var9 = 'object';
-                var6[var9] = var10;
+                var6[8] = var10;
                 var2['analyticsLocation'] = var6;
                 var6 = _closure2_slot2;
                 var2['analyticsLocations'] = var6;

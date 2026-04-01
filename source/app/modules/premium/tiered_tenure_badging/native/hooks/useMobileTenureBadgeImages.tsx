@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var11.bind(var1)(var12);
     var9['large'] = var12;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.PREMIUM_TENURE_3_MONTH;
     var9 = {};
     var12 = 4;
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var11.bind(var1)(var12);
     var9['large'] = var12;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.PREMIUM_TENURE_6_MONTH;
     var9 = {};
     var12 = 7;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var11.bind(var1)(var12);
     var9['large'] = var12;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.PREMIUM_TENURE_12_MONTH;
     var9 = {};
     var12 = 10;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var11.bind(var1)(var12);
     var9['large'] = var12;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.PREMIUM_TENURE_24_MONTH;
     var9 = {};
     var12 = 13;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var11.bind(var1)(var12);
     var9['large'] = var12;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.PREMIUM_TENURE_36_MONTH;
     var9 = {};
     var12 = 16;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var11.bind(var1)(var12);
     var9['large'] = var12;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.PREMIUM_TENURE_60_MONTH;
     var9 = {};
     var12 = 19;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var11.bind(var1)(var12);
     var9['large'] = var12;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var8.PREMIUM_TENURE_72_MONTH;
     var8 = {};
     var10 = 22;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var10];
     var10 = var11.bind(var1)(var10);
     var8['large'] = var10;
-    var5[var9] = var8;
+    var5[8] = var8;
     var _closure1_slot0 = var5;
     var5 = 25;
     var5 = var7[var5];

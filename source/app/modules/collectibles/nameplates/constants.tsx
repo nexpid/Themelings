@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Crimson;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Berry;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Sky;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Teal;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Forest;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.BubbleGum;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Violet;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Cobalt;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Clover;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PaletteKeys;
     var10 = var10.Lemon;
     var4['name'] = var10;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = var8[var9];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PaletteKeys;
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.PaletteKeys;
     var9 = var9.White;
     var4['name'] = var9;
-    var5[var6] = var4;
+    var5[5] = var4;
     var4 = 'invalid_palette';
     var6 = var2.Object;
     var2 = var6.values;

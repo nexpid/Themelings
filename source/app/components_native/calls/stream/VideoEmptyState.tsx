@@ -326,7 +326,7 @@ case 18:
             var9[0] = var11;
             var9[1] = var6;
             var6 = 'style';
-            var1[var6] = var9;
+            var1[5] = var9;
             var6 = new Array(3);
             var6[0] = var8;
             var7 = var7 != var18;
@@ -410,7 +410,7 @@ case 23:
 case 22:
             var6[2] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

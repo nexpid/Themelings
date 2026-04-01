@@ -126,7 +126,7 @@ case 0:
             var14 = var6;
             var11 = copyDataProperties(var14, var13);
             var11 = 'children';
-            var6[var11] = var3;
+            var6[10] = var3;
             var7 = var10.bind(var4)(var7, var6);
             var6 = 7;
             var6 = var9[var6];

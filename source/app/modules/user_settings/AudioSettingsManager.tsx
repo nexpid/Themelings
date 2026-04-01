@@ -591,7 +591,7 @@ case 84:
                         var45 = var45.bind(var7)(var37);
                         var37 = var45.snapVolumeToDefault;
                         var37 = var37.bind(var45)(var46, var35);
-                        var3[var20] = var37;
+                        var3[19] = var37;
                         var42[var36] = var3;
                         var34 = var34 + 1;
                         var3 = var39.length;

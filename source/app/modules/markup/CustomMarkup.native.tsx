@@ -55,8 +55,8 @@ case 2:
             var8 = var9[var8];
             var14 = var8.react;
             var8 = 'react';
-            var5[var8] = var14;
-            var4[var6] = var5;
+            var5[7] = var14;
+            var4[5] = var5;
             var5 = var11[var7];
             var5 = var10.bind(var3)(var5);
             var5 = var5.AST_KEY;
@@ -74,8 +74,8 @@ case 2:
             var14 = var14.URL;
             var14 = var9[var14];
             var14 = var14.react;
-            var5[var8] = var14;
-            var4[var6] = var5;
+            var5[7] = var14;
+            var4[5] = var5;
             var5 = var11[var7];
             var5 = var10.bind(var3)(var5);
             var5 = var5.AST_KEY;
@@ -93,8 +93,8 @@ case 2:
             var14 = var14.AUTOLINK;
             var14 = var9[var14];
             var14 = var14.react;
-            var5[var8] = var14;
-            var4[var6] = var5;
+            var5[7] = var14;
+            var4[5] = var5;
             var5 = var11[var7];
             var5 = var10.bind(var3)(var5);
             var5 = var5.AST_KEY;
@@ -112,8 +112,8 @@ case 2:
             var7 = var7.BLOCK_QUOTE;
             var7 = var9[var7];
             var7 = var7.react;
-            var5[var8] = var7;
-            var4[var6] = var5;
+            var5[7] = var7;
+            var4[5] = var5;
             var1[2] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -166,8 +166,8 @@ case 2:
         var8 = var9[var8];
         var13 = var8.react;
         var8 = 'react';
-        var5[var8] = var13;
-        var4[var6] = var5;
+        var5[7] = var13;
+        var4[5] = var5;
         var5 = var11[var7];
         var5 = var10.bind(var3)(var5);
         var5 = var5.AST_KEY;
@@ -189,8 +189,8 @@ case 2:
         var13 = var13.CHANNEL_MENTION;
         var13 = var9[var13];
         var13 = var13.react;
-        var5[var8] = var13;
-        var4[var6] = var5;
+        var5[7] = var13;
+        var4[5] = var5;
         var5 = var11[var7];
         var5 = var10.bind(var3)(var5);
         var5 = var5.AST_KEY;
@@ -212,8 +212,8 @@ case 2:
         var7 = var7.ITALICS;
         var7 = var9[var7];
         var7 = var7.react;
-        var5[var8] = var7;
-        var4[var6] = var5;
+        var5[7] = var7;
+        var4[5] = var5;
         var1[1] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
@@ -256,8 +256,8 @@ case 2:
         var8 = var9.bind(var3)(var8);
         var13 = var8.plainMentionRenderer;
         var8 = 'react';
-        var6[var8] = var13;
-        var4[var11] = var6;
+        var6[7] = var13;
+        var4[10] = var6;
         var5 = var10[var5];
         var5 = var9.bind(var3)(var5);
         var5 = var5.AST_KEY;
@@ -273,8 +273,8 @@ case 2:
         var7 = var10[var7];
         var7 = var9.bind(var3)(var7);
         var7 = var7.plainSpoilerRenderer;
-        var5[var8] = var7;
-        var4[var6] = var5;
+        var5[7] = var7;
+        var4[5] = var5;
         var1[1] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;

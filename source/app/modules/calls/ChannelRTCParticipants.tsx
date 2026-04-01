@@ -739,14 +739,14 @@ case 66:
                         var12 = var10;
                         var10 = copyDataProperties(var13, var12);
                         var10 = 'speaking';
-                        var3[var10] = var11;
+                        var3[9] = var11;
                         var9 = var9.lastSpoke;
                         var7 = _closure3_slot1;
                         var9 = var9[var7];
                         var7 = 'lastSpoke';
-                        var3[var7] = var9;
+                        var3[6] = var9;
                         var7 = 'soundsharing';
-                        var3[var7] = var8;
+                        var3[6] = var8;
                         var3 = var5.bind(var6)(var4, var3);
                         var1 = true;
 case 65:
@@ -807,10 +807,10 @@ case 6:
                         var7 = copyDataProperties(var10, var9);
                         var8 = _closure3_slot1;
                         var7 = 'maxResolution';
-                        var2[var7] = var8;
+                        var2[6] = var8;
                         var7 = _closure3_slot2;
                         var6 = 'maxFrameRate';
-                        var2[var6] = var7;
+                        var2[5] = var7;
                         var2 = var4.bind(var5)(var3, var2);
                         var1 = true;
 case 70:
@@ -910,7 +910,7 @@ case 73:
                 var10 = var3;
                 var9 = var7;
                 var6 = arraySpread(var10, var9, var8);
-                var3[var6] = var2;
+                var3[5] = var2;
                 var2 = 1;
                 var2 = var6 + var2;
                 var2 = function(arg1) {
@@ -1076,14 +1076,14 @@ case 92:
                 var21 = var5;
                 var3 = copyDataProperties(var21, var20);
                 var3 = 'user';
-                var5[var3] = var10;
+                var5[2] = var10;
                 var13 = var10.id;
                 var3 = 'id';
-                var5[var3] = var13;
+                var5[2] = var13;
                 var3 = 'voiceState';
-                var5[var3] = var12;
+                var5[2] = var12;
                 var3 = 'voicePlatform';
-                var5[var3] = var7;
+                var5[2] = var7;
                 var7 = _closure1_slot0;
                 var13 = _closure1_slot2;
                 var3 = 17;
@@ -1096,7 +1096,7 @@ case 92:
                 var3['checkIsMuted'] = var14;
                 var7 = var7.bind(var13)(var3);
                 var3 = 'speaking';
-                var5[var3] = var7;
+                var5[2] = var7;
                 var3 = var2.lastSpoke;
                 var3 = var3[var17];
                 var13 = var11 != var3;
@@ -1106,14 +1106,14 @@ case 94:
                 var7 = var3;
 case 93:
                 var3 = 'lastSpoke';
-                var5[var3] = var7;
+                var5[2] = var7;
                 var7 = _closure1_slot11;
                 var3 = var7.isSoundSharing;
                 var7 = var3.bind(var7)(var17);
                 var3 = 'soundsharing';
-                var5[var3] = var7;
+                var5[2] = var7;
                 var3 = 'ringing';
-                var5[var3] = var6;
+                var5[2] = var6;
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var3 = 19;
@@ -1123,7 +1123,7 @@ case 93:
                 var3 = var2.channelId;
                 var6 = var6.bind(var13)(var9, var3, var10);
                 var3 = 'userNick';
-                var5[var3] = var6;
+                var5[2] = var6;
                 var6 = _closure1_slot0;
                 var3 = 20;
                 var3 = var7[var3];
@@ -1131,19 +1131,19 @@ case 93:
                 var3 = var6.getAvatarDecoration;
                 var6 = var3.bind(var6)(var10, var9);
                 var3 = 'userAvatarDecoration';
-                var5[var3] = var6;
+                var5[2] = var6;
                 var7 = _closure1_slot10;
                 var6 = var7.isLocalVideoDisabled;
                 var3 = var10.id;
                 var6 = var6.bind(var7)(var3);
                 var3 = 'localVideoDisabled';
-                var5[var3] = var6;
+                var5[2] = var6;
                 var7 = var2.poppedOutParticipants;
                 var6 = var7.has;
                 var3 = var10.id;
                 var6 = var6.bind(var7)(var3);
                 var3 = 'isPoppedOut';
-                var5[var3] = var6;
+                var5[2] = var6;
                 var3 = var1.push;
                 var3 = var3.bind(var1)(var5);
 case 91:
@@ -1231,9 +1231,9 @@ case 108:
                 var13 = var7.HIDDEN_STREAM;
 case 110:
                 var7 = 'type';
-                var3[var7] = var13;
+                var3[6] = var13;
                 var7 = 'id';
-                var3[var7] = var5;
+                var3[6] = var5;
                 var13 = var11 == var12;
                 var7 = undefined;
                 if(var13) { _fun0015_ip = 111; continue _fun0015 }
@@ -1246,9 +1246,9 @@ case 114:
                 var11 = var7;
 case 113:
                 var7 = 'userVideo';
-                var3[var7] = var11;
+                var3[6] = var11;
                 var7 = 'user';
-                var3[var7] = var10;
+                var3[6] = var10;
                 var7 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var4 = 19;
@@ -1258,14 +1258,14 @@ case 113:
                 var4 = var2.channelId;
                 var7 = var7.bind(var8)(var9, var4, var10);
                 var4 = 'userNick';
-                var3[var4] = var7;
+                var3[3] = var7;
                 var4 = 'stream';
-                var3[var4] = var6;
+                var3[3] = var6;
                 var4 = var2.poppedOutParticipants;
                 var2 = var4.has;
                 var4 = var2.bind(var4)(var5);
                 var2 = 'isPoppedOut';
-                var3[var2] = var4;
+                var3[1] = var4;
                 var2 = var1.push;
                 var2 = var2.bind(var1)(var3);
 case 97:

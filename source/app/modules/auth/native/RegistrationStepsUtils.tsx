@@ -133,7 +133,7 @@ case 12:
                     var19 = var12;
                     var12 = copyDataProperties(var20, var19);
                     var12 = 'usedUsernameSuggestion';
-                    var11[var12] = var13;
+                    var11[11] = var13;
                     var14 = var11;
                     var12 = _closure1_slot5;
                     var11 = var12.getState;
@@ -430,7 +430,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.REGISTER_IDENTITY;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
         var12 = var10[var7];
@@ -467,7 +467,7 @@ case 32:
             var5 = var5.REGISTER_IDENTITY;
             var6 = var6.bind(var3)(var5);
             var5 = 'destinationStep';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
@@ -486,7 +486,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.REGISTER_DISPLAY_NAME;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
         var12 = var10[var7];
@@ -522,7 +522,7 @@ case 32:
             var5 = var5.REGISTER_DISPLAY_NAME;
             var6 = var6.bind(var3)(var5);
             var5 = 'destinationStep';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
@@ -540,7 +540,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.REGISTER_ACCOUNT_INFORMATION;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
         var12 = var10[var7];
@@ -576,7 +576,7 @@ case 32:
             var5 = var5.REGISTER_ACCOUNT_INFORMATION;
             var6 = var6.bind(var3)(var5);
             var5 = 'destinationStep';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
@@ -594,7 +594,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.VERIFY_PHONE;
         var3 = {};
         var3['ignoreKeyboard'] = var11;
@@ -627,7 +627,7 @@ case 32:
             var5 = _closure1_slot11;
             var6 = var5.ACCOUNT_IDENTITY;
             var5 = 'destinationStep';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
@@ -648,7 +648,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.LOGIN;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
         var12 = var10[var7];
@@ -677,7 +677,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.MFA;
         var3 = {'fullscreen': true, 'ignoreKeyboard': true, 'headerTitle': null, 'headerShown': false};
         var3['headerTitle'] = var5;
@@ -696,7 +696,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.ACCOUNT_DISABLED_OR_DELETION_SCHEDULED;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
         var3['headerTitle'] = var5;
@@ -716,7 +716,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.COUNTRY_SELECT;
         var3 = {};
         var3['ignoreKeyboard'] = var11;
@@ -756,7 +756,7 @@ case 32:
             return var1;
         };
         var3['render'] = var12;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.EXTERNAL_LINK;
         var3 = {};
         var3['ignoreKeyboard'] = var11;
@@ -777,7 +777,7 @@ case 32:
             return var1;
         };
         var3['render'] = var11;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.AGE_GATE;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
         var11 = var10[var7];
@@ -804,7 +804,7 @@ case 32:
             var5 = var5.AGE_GATE;
             var6 = var6.bind(var3)(var5);
             var5 = 'destinationStep';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
@@ -822,7 +822,7 @@ case 32:
             return var1;
         };
         var3['render'] = var11;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.AGE_GATE_UNDERAGE;
         var3 = {'ignoreKeyboard': true, 'fullscreen': true};
         var7 = var10[var7];
@@ -873,7 +873,7 @@ case 32:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var3 = var2.COMPANION_REMOTE_AUTH;
         var2 = {'ignoreKeyboard': true, 'fullscreen': true};
         var2['headerTitle'] = var5;
@@ -891,7 +891,7 @@ case 32:
             return var1;
         };
         var2['render'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var3['getAllAuthScreens'] = var8;

@@ -296,7 +296,7 @@ case 38:
                     var6 = var1;
                     var3 = arraySpread(var6, var5, var4);
                     var2 = _closure3_slot0;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     var2 = 1;
                     var2 = var3 + var2;
                     return var1;
@@ -363,9 +363,9 @@ case 38:
             var10[0] = var11;
             var10[1] = var8;
             var8 = 'style';
-            var5[var8] = var10;
+            var5[7] = var10;
             var8 = 'keyCommands';
-            var5[var8] = var9;
+            var5[7] = var9;
             var8 = function onKeyCommand(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -384,17 +384,17 @@ case 0:
                     };
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 28; continue _fun0005 }
-case 39:
+                    if(!(var1 != var2)) { _fun0005_ip = 39; continue _fun0005 }
+case 2:
                     var1 = var2.onKeyCommand;
                     var1 = var1.bind(var2)(var3);
-case 28:
+case 39:
                     var1 = undefined;
                     return var1;
                 }
             };
             var7 = 'onKeyCommand';
-            var5[var7] = var8;
+            var5[6] = var8;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

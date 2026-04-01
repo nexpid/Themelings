@@ -1095,9 +1095,9 @@ case 99:
                         var4 = copyDataProperties(var6, var5);
                         var4 = var2.cmdLine;
                         var2 = 'cmdline';
-                        var1[var2] = var4;
+                        var1[1] = var4;
                         var2 = 'id';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     }
                 };
@@ -1337,10 +1337,10 @@ case 133:
                 var3 = copyDataProperties(var6, var5);
                 var4 = var2.id;
                 var3 = 'gameId';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var3 = var2.name;
                 var2 = 'gameName';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var4.bind(var5)(var1);

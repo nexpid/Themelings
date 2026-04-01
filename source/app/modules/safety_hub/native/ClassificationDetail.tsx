@@ -107,7 +107,7 @@ case 10:
                 var12 = var11.name;
 case 9:
                 var11 = 'guildName';
-                var2[var11] = var12;
+                var2[10] = var12;
                 var2 = var5.bind(var6)(var4, var2);
                 _fun0001_ip = 11; continue _fun0001;
 case 7:
@@ -135,7 +135,7 @@ case 13:
                 var8 = var7.name;
 case 12:
                 var7 = 'guildName';
-                var3[var7] = var8;
+                var3[6] = var8;
                 var2 = var5.bind(var6)(var4, var3);
 case 11:
                 var1 = var2;

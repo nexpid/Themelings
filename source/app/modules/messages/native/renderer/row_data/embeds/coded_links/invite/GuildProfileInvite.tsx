@@ -634,13 +634,13 @@ case 68:
             var17 = _closure1_slot5;
             var22 = var17.GUILD_PROFILE_INVITE;
             var17 = 'extendedType';
-            var1[var17] = var22;
+            var1[16] = var22;
             var17 = 'acceptLabelText';
-            var1[var17] = var21;
+            var1[16] = var21;
             var17 = 'onlineText';
-            var1[var17] = var20;
+            var1[16] = var20;
             var17 = 'memberText';
-            var1[var17] = var19;
+            var1[16] = var19;
             var17 = var3 == var11;
             var19 = undefined;
             if(var17) { _fun0001_ip = 81; continue _fun0001 }
@@ -648,7 +648,7 @@ case 82:
             var19 = var11.name;
 case 81:
             var17 = 'titleText';
-            var1[var17] = var19;
+            var1[16] = var19;
             var19 = var3 != var15;
             var17 = undefined;
             if(!var19) { _fun0001_ip = 83; continue _fun0001 }
@@ -656,9 +656,9 @@ case 84:
             var17 = var15;
 case 83:
             var15 = 'thumbnailUrl';
-            var1[var15] = var17;
+            var1[14] = var17;
             var15 = 'thumbnailText';
-            var1[var15] = var16;
+            var1[14] = var16;
             var16 = var3 == var11;
             var15 = undefined;
             if(var16) { _fun0001_ip = 85; continue _fun0001 }
@@ -672,12 +672,12 @@ case 88:
             var16 = var15;
 case 87:
             var15 = 'bodyText';
-            var1[var15] = var16;
+            var1[14] = var16;
             var16 = true;
             var15 = 'embedCanBeTapped';
-            var1[var15] = var16;
+            var1[14] = var16;
             var15 = 'canBeAccepted';
-            var1[var15] = var16;
+            var1[14] = var16;
             var15 = var10.type;
             if(!(var3 == var15)) { _fun0001_ip = 89; continue _fun0001 }
 case 90:
@@ -685,9 +685,9 @@ case 90:
             var15 = var10.GUILD;
 case 89:
             var10 = 'type';
-            var1[var10] = var15;
+            var1[9] = var15;
             var10 = 'inviteSplash';
-            var1[var10] = var13;
+            var1[9] = var13;
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
             var10 = 23;
@@ -696,13 +696,13 @@ case 89:
             var16 = var17.processColorOrThrow;
             var17 = var16.bind(var17)(var18);
             var16 = 'bannerColor';
-            var1[var16] = var17;
+            var1[15] = var17;
             var10 = var15[var10];
             var13 = var13.bind(var7)(var10);
             var10 = var13.processColorOrThrow;
             var13 = var10.bind(var13)(var14);
             var10 = 'bannerColorSecondary';
-            var1[var10] = var13;
+            var1[9] = var13;
             if(!(var3 == var9)) { _fun0001_ip = 91; continue _fun0001 }
 case 92:
             var9 = new Array(0);
@@ -725,7 +725,7 @@ case 97:
             var10 = var9 > var5;
 case 93:
             var9 = 'hasProfileOverflow';
-            var1[var9] = var10;
+            var1[8] = var10;
             var9 = var3 != var12;
             var10 = undefined;
             if(!var9) { _fun0001_ip = 99; continue _fun0001 }
@@ -739,16 +739,16 @@ case 100:
             var10 = var9.bind(var11)(var12);
 case 99:
             var9 = 'badgeIconUrl';
-            var1[var9] = var10;
+            var1[8] = var10;
             var9 = var6.acceptLabelGreenBackgroundColor;
             var6 = 'acceptLabelBackgroundColor';
-            var1[var6] = var9;
+            var1[5] = var9;
             var6 = 'establishedText';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = 'headerText';
-            var1[var6] = var3;
+            var1[5] = var3;
             var6 = 'roles';
-            var1[var6] = var4;
+            var1[5] = var4;
             var6 = var3 != var4;
             var3 = undefined;
             if(!var6) { _fun0001_ip = 101; continue _fun0001 }
@@ -772,7 +772,7 @@ case 103:
             var3 = var4.bind(var5)(var2);
 case 101:
             var2 = 'rolesHeadingText';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

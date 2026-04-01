@@ -355,9 +355,9 @@ case 17:
             var7 = var4;
             var4 = copyDataProperties(var8, var7);
             var4 = 'textValue';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'richValue';
-            var1[var4] = var5;
+            var1[3] = var5;
             var2[var3] = var1;
             var1 = undefined;
             return var1;

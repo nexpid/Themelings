@@ -94,15 +94,15 @@ case 2:
             var6 = copyDataProperties(var18, var17);
             var8 = arg2;
             var6 = 'ref';
-            var1[var6] = var8;
+            var1[5] = var8;
             var8 = 'button';
             var6 = 'accessibilityRole';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = new Array(2);
             var6[0] = var7;
             var6[1] = var5;
             var5 = 'style';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var2;
         var6 = copyDataProperties(var18, var17);
         var6 = 'sticker_id';
-        var2[var6] = var7;
+        var2[5] = var7;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };

@@ -262,12 +262,12 @@ case 39:
             var15 = var8;
             var8 = copyDataProperties(var16, var15);
             var8 = 'routes';
-            var2[var8] = var7;
+            var2[7] = var7;
             var8 = var7.length;
             var7 = 1;
             var8 = var8 - var7;
             var7 = 'index';
-            var2[var7] = var8;
+            var2[6] = var8;
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
 case 41:
@@ -734,7 +734,7 @@ case 84:
             var10['guildId'] = var15;
             var10['messageId'] = var5;
             var5 = 'params';
-            var3[var5] = var10;
+            var3[4] = var10;
             var7 = var3;
 case 88:
             var5 = _closure1_slot8;
@@ -779,13 +779,13 @@ case 96:
             var20 = 0;
             var10 = arraySpread(var22, var21, var20);
             var10 = 'routes';
-            var3[var10] = var12;
+            var3[9] = var12;
             var12 = {};
             var22 = var12;
             var21 = var5;
             var5 = copyDataProperties(var22, var21);
             var5 = 'state';
-            var12[var5] = var3;
+            var12[4] = var3;
             var5 = var3.index;
             if(!(var8 !== var5)) { _fun0014_ip = 97; continue _fun0014 }
 case 98:
@@ -831,7 +831,7 @@ case 108:
             var14['channelId'] = var13;
             var14['drawerOpen'] = var1;
             var13 = 'params';
-            var3[var13] = var14;
+            var3[12] = var14;
             var5[var8] = var3;
 case 107:
             var3 = {};
@@ -841,10 +841,10 @@ case 107:
             var5 = new Array(2);
             var5[0] = var12;
             var5[1] = var7;
-            var3[var10] = var5;
+            var3[9] = var5;
             var5 = 1;
             var7 = 'index';
-            var3[var7] = var5;
+            var3[6] = var5;
             var11['state'] = var3;
             var3 = var4.dispatch;
             var5 = _closure1_slot0;
@@ -860,8 +860,8 @@ case 107:
             var9 = copyDataProperties(var22, var21);
             var9 = new Array(1);
             var9[0] = var11;
-            var2[var10] = var9;
-            var2[var7] = var8;
+            var2[9] = var9;
+            var2[6] = var8;
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
             var2 = true;
@@ -1283,13 +1283,13 @@ case 151:
             var20 = var16;
             var13 = copyDataProperties(var20, var19);
             var13 = 'onExited';
-            var16[var13] = var3;
+            var16[12] = var3;
             var13 = 'callbacks';
-            var15[var13] = var16;
+            var15[12] = var16;
             var13 = 'modal';
-            var14[var13] = var15;
+            var14[12] = var15;
             var13 = 'params';
-            var6[var13] = var14;
+            var6[12] = var14;
             var4[var11] = var6;
             var13 = var7.dispatch;
             var14 = _closure1_slot0;
@@ -1304,10 +1304,10 @@ case 151:
             var19 = var10;
             var16 = copyDataProperties(var20, var19);
             var16 = 'routes';
-            var6[var16] = var4;
+            var6[15] = var4;
             var17 = var10.index;
             var16 = 'index';
-            var6[var16] = var17;
+            var6[15] = var17;
             var6 = var14.bind(var15)(var6);
             var6 = var13.bind(var7)(var6);
             var8 = var4;
@@ -1356,7 +1356,7 @@ case 154:
             var19 = var10;
             var11 = copyDataProperties(var20, var19);
             var11 = 'routes';
-            var5[var11] = var12;
+            var5[10] = var12;
             var11 = global;
             var13 = var11.Math;
             var12 = var13.max;
@@ -1366,7 +1366,7 @@ case 154:
             var10 = 0;
             var11 = var12.bind(var13)(var11, var10);
             var10 = 'index';
-            var5[var10] = var11;
+            var5[9] = var11;
             var5 = var8.bind(var9)(var5);
             var5 = var6.bind(var7)(var5);
             var4 = true;
@@ -1488,9 +1488,9 @@ case 60:
             var15 = var6;
             var6 = copyDataProperties(var16, var15);
             var6 = 'routes';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = 'index';
-            var1[var6] = var7;
+            var1[5] = var7;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
             var1 = true;
@@ -1568,12 +1568,12 @@ case 125:
             var13 = var8;
             var8 = copyDataProperties(var14, var13);
             var8 = 'routes';
-            var2[var8] = var7;
+            var2[7] = var7;
             var8 = var7.length;
             var7 = 1;
             var8 = var8 - var7;
             var7 = 'index';
-            var2[var7] = var8;
+            var2[6] = var8;
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
             var1 = true;
@@ -1863,7 +1863,7 @@ case 182:
                     var8 = var4;
                     var4 = copyDataProperties(var9, var8);
                     var4 = 'routes';
-                    var1[var4] = var5;
+                    var1[3] = var5;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }

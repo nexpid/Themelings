@@ -2008,14 +2008,14 @@ case 115:
                 var22 = var21.length;
                 var21 = 0;
                 var21 = var22 > var21;
-                if(!var21) { _fun0014_ip = 117; continue _fun0014 }
-case 118:
+                if(!var21) { _fun0014_ip = 92; continue _fun0014 }
+case 117:
                 var24 = _closure1_slot17;
                 var23 = _closure1_slot30;
                 var22 = {};
                 var22['channel'] = var10;
                 var21 = var24.bind(var4)(var23, var22);
-case 117:
+case 92:
                 var16[1] = var21;
                 var8['children'] = var16;
                 var8 = var11.bind(var4)(var9, var8);
@@ -2084,8 +2084,8 @@ case 117:
                 var12 = _closure1_slot24;
                 var8['onPressDisabled'] = var12;
                 var12 = undefined;
-                if(!var13) { _fun0014_ip = 119; continue _fun0014 }
-case 120:
+                if(!var13) { _fun0014_ip = 118; continue _fun0014 }
+case 119:
                 var16 = _closure1_slot0;
                 var13 = _closure1_slot2;
                 var14 = var13[var17];
@@ -2097,15 +2097,15 @@ case 120:
                 var13 = var13.t;
                 var13 = var13.iyzwnD;
                 var12 = var14.bind(var15)(var13);
-case 119:
+case 118:
                 var8['accessibilityHint'] = var12;
                 var8 = var11.bind(var4)(var9, var8);
                 var5[4] = var8;
                 var8 = var10.guild_id;
                 var8 = var6 != var8;
                 var6 = null;
-                if(!var8) { _fun0014_ip = 121; continue _fun0014 }
-case 122:
+                if(!var8) { _fun0014_ip = 120; continue _fun0014 }
+case 121:
                 var9 = _closure1_slot17;
                 var8 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -2116,7 +2116,7 @@ case 122:
                 var7 = {};
                 var7['channel'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 121:
+case 120:
                 var5[5] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

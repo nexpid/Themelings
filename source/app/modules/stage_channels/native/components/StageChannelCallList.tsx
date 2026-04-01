@@ -1010,7 +1010,7 @@ case 75:
                 var7 = var11.bind(var12)(var7);
                 var3 = var8.bind(var9)(var10, var7);
 case 74:
-                var1[var4] = var3;
+                var1[3] = var3;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var6];
@@ -1018,7 +1018,7 @@ case 74:
                 var3 = var3.StageChannelParticipantNamedIndex;
                 var3 = var3.AUDIENCE;
                 var2 = _closure1_slot7;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             }
         };

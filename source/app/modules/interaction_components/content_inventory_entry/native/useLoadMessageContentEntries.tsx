@@ -1115,7 +1115,7 @@ case 61:
                             var7 = var1;
                             var4 = arraySpread(var7, var6, var5);
                             var2 = _closure5_slot0;
-                            var1[var4] = var2;
+                            var1[3] = var2;
                             var2 = 1;
                             var2 = var4 + var2;
                             var2 = var3.prototype;
@@ -1242,7 +1242,7 @@ case 114: // catch_target0
                             var7 = var1;
                             var4 = arraySpread(var7, var6, var5);
                             var2 = _closure5_slot0;
-                            var1[var4] = var2;
+                            var1[3] = var2;
                             var2 = 1;
                             var2 = var4 + var2;
                             var2 = var3.prototype;

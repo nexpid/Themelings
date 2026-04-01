@@ -22,13 +22,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = copyDataProperties(var8, var7);
         var6 = 'sm';
         var5 = 'size';
-        var1[var5] = var6;
+        var1[4] = var6;
         var6 = 'heading-md/bold';
         var5 = 'textVariant';
-        var1[var5] = var6;
+        var1[4] = var6;
         var6 = 'secondary-overlay';
         var5 = 'variant';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };

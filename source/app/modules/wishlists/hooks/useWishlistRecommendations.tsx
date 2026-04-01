@@ -464,7 +464,7 @@ case 66:
                         var16 = var12.userId;
                         var15 = _closure1_slot8;
                         var15 = var15.WISHLIST;
-                        var2[var16] = var15;
+                        var2[15] = var15;
                         var1[var14] = var2;
 case 62:
                         var14 = var11.bind(var7)();

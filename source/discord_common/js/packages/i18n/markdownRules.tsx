@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var15 = 'parse';
-    var14[var15] = var16;
+    var14[14] = var16;
     var2['link'] = var14;
     var2['strong'] = var13;
     var2['u'] = var12;

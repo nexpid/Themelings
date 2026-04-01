@@ -305,7 +305,7 @@ case 6:
                         var7 = var1;
                         var4 = copyDataProperties(var7, var6);
                         var4 = 'color';
-                        var1[var4] = var5;
+                        var1[3] = var5;
                         var1 = var2.bind(var3)(var1);
                         _fun0002_ip = 7; continue _fun0002;
 case 5:

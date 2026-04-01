@@ -1316,7 +1316,7 @@ case 39:
 case 38:
             var16[1] = var15;
             var15 = 'children';
-            var5[var15] = var16;
+            var5[14] = var16;
             var7 = var9.bind(var4)(var8, var5);
 case 36:
             var5 = new Array(2);
@@ -1372,7 +1372,7 @@ case 41:
             var10['children'] = var13;
             var11 = var12.bind(var4)(var11, var10);
             var10 = 'children';
-            var7[var10] = var11;
+            var7[9] = var11;
             var6 = var9.bind(var4)(var8, var7);
 case 40:
             var5[1] = var6;
@@ -1557,7 +1557,7 @@ case 40:
     var12 = copyDataProperties(var16, var15);
     var13 = 'hidden';
     var12 = 'overflow';
-    var10[var12] = var13;
+    var10[11] = var13;
     var4['pipMask'] = var10;
     var10 = {'position': 'absolute', 'zIndex': 10, 'flexDirection': 'column', 'alignItems': 'center'};
     var10['gap'] = var11;

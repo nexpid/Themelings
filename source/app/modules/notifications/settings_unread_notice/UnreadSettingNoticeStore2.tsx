@@ -624,11 +624,11 @@ case 53:
                 var6 = var5 == var2;
                 var10 = undefined;
                 if(var6) { _fun0011_ip = 54; continue _fun0011 }
-case 55:
+case 43:
                 var10 = var2.joinedAt;
 case 54:
-                if(!(var5 == var10)) { _fun0011_ip = 56; continue _fun0011 }
-case 57:
+                if(!(var5 == var10)) { _fun0011_ip = 55; continue _fun0011 }
+case 56:
                 var2 = global;
                 var2 = var2.Date;
                 var6 = var2.prototype;
@@ -636,7 +636,7 @@ case 57:
                 var19 = var6;
                 var2 = new var19[var2](var18);
                 var10 = var2 instanceof Object ? var2 : var6;
-case 56:
+case 55:
                 var6 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var2 = 14;
@@ -661,8 +661,8 @@ case 56:
                 var12 = var9[var6];
                 var6 = var5 == var12;
                 var5 = false;
-                if(var6) { _fun0011_ip = 58; continue _fun0011 }
-case 59:
+                if(var6) { _fun0011_ip = 57; continue _fun0011 }
+case 58:
                 var6 = var12.lastActionTime;
                 var9 = var2.Date;
                 var2 = var9.now;
@@ -671,41 +671,41 @@ case 59:
                 var2 = var9 - var2;
                 var2 = var6 < var2;
                 var5 = false;
-                if(var2) { _fun0011_ip = 58; continue _fun0011 }
-case 60:
+                if(var2) { _fun0011_ip = 57; continue _fun0011 }
+case 59:
                 var10 = _closure1_slot16;
                 var2 = var10.length;
                 var9 = 0;
                 var2 = var9 < var2;
                 var5 = false;
-                if(!var2) { _fun0011_ip = 58; continue _fun0011 }
-case 61:
+                if(!var2) { _fun0011_ip = 57; continue _fun0011 }
+case 60:
                 var2 = var10[var9];
                 var14 = var2.timeSinceJoin;
-                if(!(var13 < var14)) { _fun0011_ip = 62; continue _fun0011 }
-case 63:
+                if(!(var13 < var14)) { _fun0011_ip = 61; continue _fun0011 }
+case 62:
                 var15 = var12.numSends;
                 var14 = var2.sends;
                 var14 = var15 >= var14;
                 var5 = true;
-                if(var14) { _fun0011_ip = 58; continue _fun0011 }
-case 64:
+                if(var14) { _fun0011_ip = 57; continue _fun0011 }
+case 63:
                 var14 = var12.viewDuration;
                 var2 = var2.viewTime;
                 var2 = var14 >= var2;
                 var5 = true;
-                if(var2) { _fun0011_ip = 58; continue _fun0011 }
-case 62:
+                if(var2) { _fun0011_ip = 57; continue _fun0011 }
+case 61:
                 var9 = var9 + 1;
                 var2 = var10.length;
                 var2 = var9 < var2;
                 var5 = false;
-                if(var2) { _fun0011_ip = 61; continue _fun0011 }
-case 58:
+                if(var2) { _fun0011_ip = 60; continue _fun0011 }
+case 57:
                 var2 = !var5;
                 var2 = !var2;
-                if(!var5) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+                if(!var5) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
                 var5 = _closure1_slot19;
                 var5 = var5.channels;
                 var5 = delete var5[var8];
@@ -724,7 +724,7 @@ case 66:
                 var3 = var3.ALL_MESSAGES;
                 var3 = var6.bind(var7)(var5, var4, var3);
                 var2 = true;
-case 65:
+case 64:
                 var1 = var2;
 case 52:
                 return var1;
@@ -792,13 +792,13 @@ case 0:
                 var1 = arg1;
                 var2 = var1.lastActionTime;
                 var1 = _closure2_slot0;
-                if(!(var2 < var1)) { _fun0012_ip = 67; continue _fun0012 }
+                if(!(var2 < var1)) { _fun0012_ip = 66; continue _fun0012 }
 case 50:
                 var1 = _closure1_slot19;
                 var2 = var1.channels;
                 var1 = arg2;
                 var1 = delete var2[var1];
-case 67:
+case 66:
                 var1 = undefined;
                 return var1;
             }
@@ -812,34 +812,34 @@ case 67:
 case 0:
             var2 = arg1;
             var1 = var2.optimistic;
-            if(var1) { _fun0013_ip = 68; continue _fun0013 }
-case 69:
+            if(var1) { _fun0013_ip = 67; continue _fun0013 }
+case 68:
             var1 = var2.isPushNotification;
-            if(var1) { _fun0013_ip = 68; continue _fun0013 }
-case 70:
+            if(var1) { _fun0013_ip = 67; continue _fun0013 }
+case 69:
             var1 = var2.message;
             var3 = var1.author;
             var1 = null;
             var4 = var1 == var3;
             var1 = undefined;
             var5 = undefined;
-            if(var4) { _fun0013_ip = 71; continue _fun0013 }
+            if(var4) { _fun0013_ip = 70; continue _fun0013 }
 case 18:
             var5 = var3.id;
-case 71:
+case 70:
             var6 = _closure1_slot8;
             var4 = var6.getId;
             var4 = var4.bind(var6)();
-            if(!(var5 === var4)) { _fun0013_ip = 72; continue _fun0013 }
+            if(!(var5 === var4)) { _fun0013_ip = 71; continue _fun0013 }
 case 38:
             var5 = _closure1_slot29;
             var4 = var2.channelId;
             var4 = var5.bind(var1)(var4);
-            if(var4) { _fun0013_ip = 73; continue _fun0013 }
-case 74:
+            if(var4) { _fun0013_ip = 54; continue _fun0013 }
+case 72:
             var4 = false;
             return var4;
-case 73:
+case 54:
             var3 = _closure1_slot28;
             var2 = var2.channelId;
             var3 = var3.bind(var1)(var2);
@@ -852,10 +852,10 @@ case 73:
             var2 = var2 + 1;
             var3['numSends'] = var2;
             return var1;
-case 72:
+case 71:
             var1 = false;
             return var1;
-case 68:
+case 67:
             var1 = false;
             return var1;
         }

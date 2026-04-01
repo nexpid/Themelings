@@ -109,7 +109,7 @@ case 4:
             var12 = var2;
             var7 = copyDataProperties(var12, var11);
             var7 = 'top';
-            var2[var7] = var5;
+            var2[6] = var5;
             var1['underlay'] = var2;
             var2 = {};
             var7 = var3[var6];

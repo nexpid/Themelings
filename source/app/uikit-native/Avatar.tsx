@@ -802,10 +802,10 @@ case 84:
             var39 = var17;
             var17 = copyDataProperties(var40, var39);
             var17 = 'typing';
-            var13[var17] = var18;
+            var13[16] = var18;
             var17 = var16.id;
             var16 = 'userId';
-            var13[var16] = var17;
+            var13[15] = var17;
             var11 = var15.bind(var4)(var14, var13);
 case 85:
             var9 = var11;

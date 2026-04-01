@@ -111,10 +111,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = copyDataProperties(var11, var10);
         var8 = 0;
         var7 = 'paddingVertical';
-        var2[var7] = var8;
+        var2[6] = var8;
         var8 = 2;
         var7 = 'marginVertical';
-        var2[var7] = var8;
+        var2[6] = var8;
         var1['searchInput'] = var2;
         var2 = {};
         var3 = var6[var3];

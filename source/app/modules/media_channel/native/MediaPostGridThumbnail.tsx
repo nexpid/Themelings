@@ -252,9 +252,9 @@ case 11:
             var8 = var1;
             var1 = copyDataProperties(var9, var8);
             var1 = 'backgroundImagesource';
-            var6[var1] = var3;
+            var6[0] = var3;
             var1 = 'resizeMode';
-            var6[var1] = var2;
+            var6[0] = var2;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 5;

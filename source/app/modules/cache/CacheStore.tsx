@@ -669,7 +669,7 @@ case 47:
                                     var8 = var7.channelId;
                                     var7 = _closure4_slot5;
                                     var7 = var7.messages;
-                                    var5[var8] = var7;
+                                    var5[7] = var7;
                                     _fun0005_ip = 48; continue _fun0005;
 case 46:
                                     var5 = {};
@@ -683,7 +683,7 @@ case 50:
                                     var6 = _closure4_slot5;
                                     var7 = var6.guildId;
                                     var6 = _closure4_slot12;
-                                    var5[var7] = var6;
+                                    var5[6] = var6;
                                     _fun0005_ip = 51; continue _fun0005;
 case 49:
                                     var5 = {};

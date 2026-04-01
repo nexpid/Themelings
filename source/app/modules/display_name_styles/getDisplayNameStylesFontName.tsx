@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var5];
     var10 = var9.bind(var1)(var10);
     var10 = var10.ZEL6mz;
-    var2[var11] = var10;
+    var2[10] = var10;
     var10 = var7[var8];
     var10 = var6.bind(var1)(var10);
     var10 = var10.DisplayNameFont;
@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var5];
     var10 = var9.bind(var1)(var10);
     var10 = var10.rN7cuX;
-    var2[var11] = var10;
+    var2[10] = var10;
     var10 = var7[var8];
     var10 = var6.bind(var1)(var10);
     var10 = var10.DisplayNameFont;
@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var5];
     var10 = var9.bind(var1)(var10);
     var10 = var10.CbHHnL;
-    var2[var11] = var10;
+    var2[10] = var10;
     var10 = var7[var8];
     var10 = var6.bind(var1)(var10);
     var10 = var10.DisplayNameFont;
@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var5];
     var10 = var9.bind(var1)(var10);
     var10 = var10.iEcEKO;
-    var2[var11] = var10;
+    var2[10] = var10;
     var10 = var7[var8];
     var10 = var6.bind(var1)(var10);
     var10 = var10.DisplayNameFont;
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var5];
     var10 = var9.bind(var1)(var10);
     var10 = var10.DL7jLZ;
-    var2[var11] = var10;
+    var2[10] = var10;
     var10 = var7[var8];
     var10 = var6.bind(var1)(var10);
     var10 = var10.DisplayNameFont;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var5];
     var10 = var9.bind(var1)(var10);
     var10 = var10.jq4aRp;
-    var2[var11] = var10;
+    var2[10] = var10;
     var10 = var7[var8];
     var10 = var6.bind(var1)(var10);
     var10 = var10.DisplayNameFont;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var5];
     var10 = var9.bind(var1)(var10);
     var10 = var10.jV9DN4;
-    var2[var11] = var10;
+    var2[10] = var10;
     var8 = var7[var8];
     var8 = var6.bind(var1)(var8);
     var8 = var8.DisplayNameFont;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var5 = var9.bind(var1)(var5);
     var5 = var5.KMR8rT;
-    var2[var8] = var5;
+    var2[7] = var5;
     var _closure1_slot2 = var2;
     var5 = 2;
     var5 = var7[var5];

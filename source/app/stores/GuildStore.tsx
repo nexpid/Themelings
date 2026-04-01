@@ -244,7 +244,7 @@ case 0:
             var6 = var5.features;
             var7 = var7.bind(var8)(var6);
             var6 = 'features';
-            var2[var6] = var7;
+            var2[5] = var7;
             var7 = var5.joinedAt;
             var6 = null;
             var7 = var6 != var7;
@@ -261,7 +261,7 @@ case 40:
             var8 = var7 instanceof Object ? var7 : var9;
 case 39:
             var7 = 'joinedAt';
-            var2[var7] = var8;
+            var2[6] = var8;
             var7 = var5.premiumProgressBarEnabledUserUpdatedAt;
             var7 = var6 != var7;
             var6 = null;
@@ -277,7 +277,7 @@ case 42:
             var6 = var5 instanceof Object ? var5 : var7;
 case 41:
             var5 = 'premiumProgressBarEnabledUserUpdatedAt';
-            var2[var5] = var6;
+            var2[4] = var6;
             var1 = var4.bind(var1)(var3, var2);
             return var1;
         }

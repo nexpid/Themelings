@@ -740,9 +740,9 @@ case 41:
                 var12 = copyDataProperties(var18, var17);
                 var12 = var10.signal;
                 var10 = 'signal';
-                var5[var10] = var12;
+                var5[9] = var12;
                 var10 = 'rejectWithError';
-                var5[var10] = var11;
+                var5[9] = var11;
                 var10 = function onRequestCreated() {
                     _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -764,7 +764,7 @@ case 48:
                     }
                 };
                 var9 = 'onRequestCreated';
-                var5[var9] = var10;
+                var5[8] = var10;
                 var5 = var6.bind(var7)(var5, var8);
                 return var3;
 case 47:
@@ -884,9 +884,9 @@ case 41:
                 var12 = copyDataProperties(var18, var17);
                 var12 = var10.signal;
                 var10 = 'signal';
-                var5[var10] = var12;
+                var5[9] = var12;
                 var10 = 'rejectWithError';
-                var5[var10] = var11;
+                var5[9] = var11;
                 var10 = function onRequestCreated() {
                     _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -908,7 +908,7 @@ case 48:
                     }
                 };
                 var9 = 'onRequestCreated';
-                var5[var9] = var10;
+                var5[8] = var10;
                 var5 = var6.bind(var7)(var5, var8);
                 return var3;
 case 47:

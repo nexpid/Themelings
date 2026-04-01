@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = copyDataProperties(var5, var4);
             var3 = _closure2_slot0;
             var2 = 'zIndex';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         };
         var8 = var3.bind(var8)(var1, var2);

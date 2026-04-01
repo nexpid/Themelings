@@ -174,7 +174,7 @@ case 13:
                     var7 = _closure2_slot3;
                     var8 = !var7;
                     var7 = 'favorited';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var3 = var5.bind(var6)(var4, var3);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;

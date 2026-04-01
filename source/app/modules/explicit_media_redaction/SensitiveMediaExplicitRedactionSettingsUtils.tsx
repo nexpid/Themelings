@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var10.bind(var1)(var7);
     var7 = var7.ExplicitContentRedaction;
     var7 = var7.SHOW;
-    var6[var8] = var7;
+    var6[7] = var7;
     var8 = var5.NON_FRIENDS;
     var7 = var8.valueOf;
     var8 = var7.bind(var8)();
@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var10.bind(var1)(var7);
     var7 = var7.ExplicitContentRedaction;
     var7 = var7.SHOW;
-    var6[var8] = var7;
+    var6[7] = var7;
     var8 = var5.FRIENDS_AND_NON_FRIENDS;
     var7 = var8.valueOf;
     var8 = var7.bind(var8)();
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var10.bind(var1)(var7);
     var7 = var7.ExplicitContentRedaction;
     var7 = var7.BLOCK;
-    var6[var8] = var7;
+    var6[7] = var7;
     var _closure1_slot3 = var6;
     var6 = {};
     var8 = var5.DISABLED;
@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var10.bind(var1)(var7);
     var7 = var7.ExplicitContentRedaction;
     var7 = var7.SHOW;
-    var6[var8] = var7;
+    var6[7] = var7;
     var8 = var5.NON_FRIENDS;
     var7 = var8.valueOf;
     var8 = var7.bind(var8)();
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var10.bind(var1)(var7);
     var7 = var7.ExplicitContentRedaction;
     var7 = var7.BLOCK;
-    var6[var8] = var7;
+    var6[7] = var7;
     var8 = var5.FRIENDS_AND_NON_FRIENDS;
     var7 = var8.valueOf;
     var8 = var7.bind(var8)();
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var10.bind(var1)(var7);
     var7 = var7.ExplicitContentRedaction;
     var7 = var7.BLOCK;
-    var6[var8] = var7;
+    var6[7] = var7;
     var _closure1_slot4 = var6;
     var8 = {};
     var7 = var5.DISABLED;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var10.bind(var1)(var6);
     var6 = var6.ExplicitContentRedaction;
     var6 = var6.BLUR;
-    var8[var7] = var6;
+    var8[6] = var6;
     var7 = var5.NON_FRIENDS;
     var6 = var7.valueOf;
     var7 = var6.bind(var7)();
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var10.bind(var1)(var6);
     var6 = var6.ExplicitContentRedaction;
     var6 = var6.BLUR;
-    var8[var7] = var6;
+    var8[6] = var6;
     var7 = var5.FRIENDS_AND_NON_FRIENDS;
     var6 = var7.valueOf;
     var7 = var6.bind(var7)();
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var10.bind(var1)(var6);
     var6 = var6.ExplicitContentRedaction;
     var6 = var6.BLOCK;
-    var8[var7] = var6;
+    var8[6] = var6;
     var _closure1_slot5 = var8;
     var7 = {};
     var9 = var5.DISABLED;
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var10.bind(var1)(var6);
     var6 = var6.ExplicitContentRedaction;
     var6 = var6.BLUR;
-    var7[var9] = var6;
+    var7[8] = var6;
     var9 = var5.NON_FRIENDS;
     var6 = var9.valueOf;
     var9 = var6.bind(var9)();
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var10.bind(var1)(var6);
     var6 = var6.ExplicitContentRedaction;
     var6 = var6.BLOCK;
-    var7[var9] = var6;
+    var7[8] = var6;
     var6 = var5.FRIENDS_AND_NON_FRIENDS;
     var5 = var6.valueOf;
     var5 = var5.bind(var6)();
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var10.bind(var1)(var4);
     var4 = var4.ExplicitContentRedaction;
     var4 = var4.BLOCK;
-    var7[var5] = var4;
+    var7[4] = var4;
     var _closure1_slot6 = var7;
     var6 = function resolveExplicitContentSettingWithDefaults(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

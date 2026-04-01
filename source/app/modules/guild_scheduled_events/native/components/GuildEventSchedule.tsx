@@ -132,7 +132,7 @@ case 2:
                 var1 = copyDataProperties(var6, var5);
                 var4 = arg1;
                 var1 = 'startDate';
-                var2[var1] = var4;
+                var2[0] = var4;
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;
@@ -185,7 +185,7 @@ case 5:
                 var1 = copyDataProperties(var6, var5);
                 var4 = arg1;
                 var1 = 'endDate';
-                var2[var1] = var4;
+                var2[0] = var4;
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;

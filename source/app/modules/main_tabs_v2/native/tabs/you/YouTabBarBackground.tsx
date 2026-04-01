@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var10;
     var11 = copyDataProperties(var15, var14);
     var11 = 'borderTopWidth';
-    var10[var11] = var12;
+    var10[10] = var12;
     var11 = 4;
     var12 = var6[var11];
     var11 = metroImportDefault;
@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.colors;
     var12 = var11.BORDER_SUBTLE;
     var11 = 'borderColor';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['background'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot2 = var4;

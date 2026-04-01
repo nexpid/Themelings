@@ -577,7 +577,7 @@ case 44:
                             var14 = _closure2_slot4;
                             var15 = var15.bind(var16)(var14);
                             var14 = 'formFields';
-                            var13[var14] = var15;
+                            var13[13] = var15;
                             var5 = var13;
 case 45: // try_start_0
                             var14 = _closure1_slot1;
@@ -769,8 +769,8 @@ case 39:
                 var5 = copyDataProperties(var11, var10);
                 var8 = arg2;
                 var5 = 'response';
-                var1[var5] = var8;
-                var2[var4] = var1;
+                var1[4] = var8;
+                var2[3] = var1;
                 var1 = 1;
                 var9 = var4 + var1;
                 var5 = var6.slice;

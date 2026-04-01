@@ -99,7 +99,7 @@ case 8:
                 var10 = var2;
                 var2 = copyDataProperties(var11, var10);
                 var2 = 'children';
-                var6[var2] = var8;
+                var6[1] = var8;
                 var2 = undefined;
                 var6 = var5.bind(var2)(var7, var6);
                 var3['children'] = var6;

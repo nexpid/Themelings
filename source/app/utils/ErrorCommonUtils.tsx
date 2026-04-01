@@ -74,12 +74,12 @@ case 6:
             var4 = var5.serialize;
             var5 = var4.bind(var5)();
             var4 = 'lastFewActions';
-            var2[var4] = var5;
+            var2[3] = var5;
             var12 = var3;
             var11 = var2;
             var2 = copyDataProperties(var12, var11);
             var2 = 'extra';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

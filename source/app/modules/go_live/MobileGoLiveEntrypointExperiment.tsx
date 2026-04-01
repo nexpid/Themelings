@@ -38,12 +38,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {};
     var13 = var2.SCREENSHARE_REPLACES_CHAT;
     var11['treatment'] = var13;
-    var10[var12] = var11;
+    var10[11] = var11;
     var12 = var2.SCREENSHARE_REPLACES_SOUNDBOARD;
     var11 = {};
     var13 = var2.SCREENSHARE_REPLACES_SOUNDBOARD;
     var11['treatment'] = var13;
-    var10[var12] = var11;
+    var10[11] = var11;
     var4['variations'] = var10;
     var4 = var8.bind(var9)(var4);
     var5 = var7[var5];

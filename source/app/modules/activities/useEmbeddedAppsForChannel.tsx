@@ -659,7 +659,7 @@ case 65:
                     var10 = var6;
                     var6 = copyDataProperties(var11, var10);
                     var6 = 'presenceActivity';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
                 }

@@ -862,7 +862,7 @@ case 41:
             var6 = var2;
             var2 = copyDataProperties(var7, var6);
             var2 = 'fontSize';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -874,7 +874,7 @@ case 41:
         var2 = copyDataProperties(var5, var4);
         var3 = false;
         var2 = 'darkSidebar';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4[2] = var10;
@@ -885,7 +885,7 @@ case 41:
         var2 = copyDataProperties(var5, var4);
         var3 = null;
         var2 = 'messageGroupSpacing';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4[3] = var10;
@@ -896,10 +896,10 @@ case 41:
         var2 = copyDataProperties(var5, var4);
         var3 = 'no-preference';
         var2 = 'systemPrefersReducedMotion';
-        var1[var2] = var3;
+        var1[1] = var3;
         var3 = 'auto';
         var2 = 'prefersReducedMotion';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4[4] = var10;
@@ -919,7 +919,7 @@ case 41:
         var2 = var2.LOW_SATURATION_THRESHOLD;
         var3 = var3 <= var2;
         var2 = 'alwaysShowLinkDecorations';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4[5] = var10;
@@ -930,7 +930,7 @@ case 41:
         var2 = copyDataProperties(var5, var4);
         var3 = false;
         var2 = 'disableVoiceBackgrounds';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4[6] = var10;
@@ -973,7 +973,7 @@ case 49:
         var2 = copyDataProperties(var5, var4);
         var3 = true;
         var2 = 'enableCustomCursor';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4[9] = var10;
@@ -1237,7 +1237,7 @@ case 66:
             var4 = var3;
 case 65:
             var3 = 'systemForcedColors';
-            var2[var3] = var4;
+            var2[2] = var4;
             _closure1_slot17 = var2;
             var1 = true;
             return var1;
@@ -1259,7 +1259,7 @@ case 56:
             var4 = copyDataProperties(var6, var5);
             var4 = var3.systemPrefersContrast;
             var3 = 'systemPrefersContrast';
-            var1[var3] = var4;
+            var1[2] = var4;
             _closure1_slot17 = var1;
             var1 = undefined;
             return var1;
@@ -1284,7 +1284,7 @@ case 56:
             var4 = copyDataProperties(var6, var5);
             var4 = var3.systemPrefersReducedMotion;
             var3 = 'systemPrefersReducedMotion';
-            var1[var3] = var4;
+            var1[2] = var4;
             _closure1_slot17 = var1;
             var1 = undefined;
             return var1;
@@ -1309,7 +1309,7 @@ case 56:
             var4 = copyDataProperties(var6, var5);
             var4 = var3.systemPrefersCrossfades;
             var3 = 'systemPrefersCrossfades';
-            var1[var3] = var4;
+            var1[2] = var4;
             _closure1_slot17 = var1;
             var1 = undefined;
             return var1;
@@ -1334,7 +1334,7 @@ case 56:
             var4 = copyDataProperties(var6, var5);
             var4 = var3.prefersReducedMotion;
             var3 = 'prefersReducedMotion';
-            var1[var3] = var4;
+            var1[2] = var4;
             _closure1_slot17 = var1;
             var1 = undefined;
             return var1;
@@ -1361,7 +1361,7 @@ case 44:
         var3 = arg1;
         var4 = var3.alwaysShowLinkDecorations;
         var3 = 'alwaysShowLinkDecorations';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot17 = var2;
         var1 = undefined;
         return var1;
@@ -1375,7 +1375,7 @@ case 44:
         var3 = arg1;
         var4 = var3.enableCustomCursor;
         var3 = 'enableCustomCursor';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot17 = var2;
         var1 = undefined;
         return var1;
@@ -1414,7 +1414,7 @@ case 44:
         var3 = copyDataProperties(var6, var5);
         var4 = true;
         var3 = 'keyboardNavigationExplainerModalSeen';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot17 = var2;
         var1 = undefined;
         return var1;
@@ -1428,7 +1428,7 @@ case 44:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'messageGroupSpacing';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot17 = var2;
         var1 = undefined;
         return var1;
@@ -1468,7 +1468,7 @@ case 44:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'contrast';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot17 = var2;
         var1 = undefined;
         return var1;
@@ -1482,7 +1482,7 @@ case 44:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'contrastMode';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot17 = var2;
         var1 = undefined;
         return var1;
@@ -1496,7 +1496,7 @@ case 44:
         var3 = arg1;
         var4 = var3.switchIconsEnabled;
         var3 = 'switchIconsEnabled';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot17 = var2;
         var1 = undefined;
         return var1;

@@ -421,7 +421,7 @@ case 27:
             var9 = var2;
             var4 = copyDataProperties(var9, var8);
             var4 = 'layoutMode';
-            var2[var4] = var5;
+            var2[3] = var5;
             _closure1_slot9 = var2;
 case 6:
             return var1;
@@ -442,7 +442,7 @@ case 29:
             var6 = var1;
             var3 = copyDataProperties(var6, var5);
             var3 = 'activityPanelMode';
-            var1[var3] = var4;
+            var1[2] = var4;
             _closure1_slot9 = var1;
 case 28:
             var1 = undefined;
@@ -532,7 +532,7 @@ case 27:
             var9 = var2;
             var4 = copyDataProperties(var9, var8);
             var4 = 'proxyTicket';
-            var2[var4] = var5;
+            var2[3] = var5;
             _closure1_slot9 = var2;
 case 6:
             return var1;
@@ -561,7 +561,7 @@ case 27:
             var5 = _closure1_slot7;
             var6 = var5.PIP;
             var5 = 'layoutMode';
-            var3[var5] = var6;
+            var3[4] = var6;
             _closure1_slot9 = var3;
             var2 = true;
 case 41:

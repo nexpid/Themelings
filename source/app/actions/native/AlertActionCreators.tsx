@@ -163,7 +163,7 @@ case 8:
                         var5 = copyDataProperties(var7, var6);
                         var5 = _closure2_slot0;
                         var1 = 'confirmText';
-                        var2[var1] = var5;
+                        var2[0] = var5;
                         var1 = undefined;
                         var1 = var4.bind(var1)(var3, var2);
                         return var1;

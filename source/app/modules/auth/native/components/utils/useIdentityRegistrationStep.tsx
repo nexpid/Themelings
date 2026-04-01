@@ -418,7 +418,7 @@ case 18:
                             var9 = var10.getCommonErrorDetails;
                             var7 = var7.error_code;
                             var7 = var9.bind(var10)(var7);
-                            var6[var8] = var7;
+                            var6[7] = var7;
                             var7 = 1;
                             var7 = var8 + var7;
                             var4['details'] = var6;

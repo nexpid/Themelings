@@ -525,7 +525,7 @@ case 34:
                 var5 = copyDataProperties(var8, var7);
                 var6 = 'collapse';
                 var5 = 'pressBehavior';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
@@ -671,7 +671,7 @@ case 36:
                 var5['name'] = var8;
                 var6 = var7.bind(var3)(var6, var5);
                 var5 = 'children';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
@@ -887,7 +887,7 @@ case 37:
             var9['children'] = var13;
             var10 = var12.bind(var4)(var10, var9);
             var9 = 'children';
-            var5[var9] = var10;
+            var5[8] = var10;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var7;

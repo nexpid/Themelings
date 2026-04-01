@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = '';
     var7 = var7.bind(var8)(var6);
     var6 = 'requiredFirstCharacters';
-    var2[var6] = var7;
+    var2[5] = var7;
     var7 = function match(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -109,7 +109,7 @@ case 4:
         }
     };
     var6 = 'match';
-    var2[var6] = var7;
+    var2[5] = var7;
     var6 = function parse(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -278,7 +278,7 @@ case 24:
                     var1 = copyDataProperties(var16, var15);
                     var9 = false;
                     var1 = 'allowHeading';
-                    var6[var1] = var9;
+                    var6[0] = var9;
                     var1 = undefined;
                     var7 = var7.bind(var1)(var8, var6);
                     var6 = var7.map;
@@ -320,7 +320,7 @@ case 27:
         }
     };
     var4 = 'parse';
-    var2[var4] = var6;
+    var2[3] = var6;
     var4 = 2;
     var5 = var5[var4];
     var4 = require;

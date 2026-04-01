@@ -55,11 +55,11 @@ case 4:
             var11 = var1;
             var2 = copyDataProperties(var11, var10);
             var2 = 'voiceChannelId';
-            var1[var2] = var5;
+            var1[1] = var5;
             var2 = 'voiceGuildId';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'voiceMessageId';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -176,9 +176,9 @@ case 23:
             var14 = var4;
             var4 = copyDataProperties(var15, var14);
             var4 = 'channelId';
-            var2[var4] = var9;
+            var2[3] = var9;
             var4 = 'guildId';
-            var2[var4] = var6;
+            var2[3] = var6;
             var1 = var2;
 case 18:
             if(!(var8 == var1)) { _fun0003_ip = 27; continue _fun0003 }

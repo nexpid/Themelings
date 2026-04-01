@@ -248,7 +248,7 @@ case 8:
                     var5 = copyDataProperties(var8, var7);
                     var6 = arg1;
                     var5 = 'section';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     var1 = undefined;
                     return var1;
@@ -1675,8 +1675,8 @@ case 0:
                     var4 = var5 != var8;
                     var3 = undefined;
                     var11 = undefined;
-                    if(!var4) { _fun0010_ip = 45; continue _fun0010 }
-case 4:
+                    if(!var4) { _fun0010_ip = 91; continue _fun0010 }
+case 92:
                     var6 = _closure1_slot2;
                     var9 = _closure1_slot3;
                     var4 = 50;
@@ -1684,10 +1684,10 @@ case 4:
                     var6 = var6.bind(var3)(var4);
                     var4 = var6.getHighestRole;
                     var11 = var4.bind(var6)(var8, var12);
-case 45:
+case 91:
                     var6 = var5 != var8;
-                    if(!var6) { _fun0010_ip = 91; continue _fun0010 }
-case 62:
+                    if(!var6) { _fun0010_ip = 11; continue _fun0010 }
+case 93:
                     var9 = _closure1_slot2;
                     var10 = _closure1_slot3;
                     var4 = 50;
@@ -1701,27 +1701,27 @@ case 62:
                     var14 = var11;
                     var4 = var17[var9](var16, var15, var14, var13, var12);
                     var6 = !var4;
-case 91:
+case 11:
                     var4 = _closure1_slot19;
                     var1 = var4.getProps;
                     var1 = var1.bind(var4)();
                     var4 = var1.integrations;
                     var1 = {};
                     var1['guild'] = var8;
-                    if(!(var5 == var7)) { _fun0010_ip = 92; continue _fun0010 }
-case 71:
+                    if(!(var5 == var7)) { _fun0010_ip = 94; continue _fun0010 }
+case 95:
                     var7 = _closure2_slot1;
-case 92:
+case 94:
                     var1['role'] = var7;
                     var7 = _closure2_slot2;
                     var1['newRole'] = var7;
                     var1['locked'] = var6;
                     var5 = var5 != var4;
                     var3 = undefined;
-                    if(!var5) { _fun0010_ip = 20; continue _fun0010 }
-case 93:
+                    if(!var5) { _fun0010_ip = 96; continue _fun0010 }
+case 97:
                     var3 = var4;
-case 20:
+case 96:
                     var1['integrations'] = var3;
                     var2 = _closure2_slot3;
                     var1['section'] = var2;
@@ -1754,10 +1754,10 @@ case 20:
             var1 = null;
             var14 = var1 == var9;
             var8 = undefined;
-            if(var14) { _fun0009_ip = 94; continue _fun0009 }
-case 93:
+            if(var14) { _fun0009_ip = 98; continue _fun0009 }
+case 99:
             var8 = var9.id;
-case 94:
+case 98:
             var3[1] = var8;
             var2 = function() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -1767,13 +1767,13 @@ case 0:
                     var5 = var4 == var1;
                     var1 = undefined;
                     var3 = undefined;
-                    if(var5) { _fun0011_ip = 95; continue _fun0011 }
-case 96:
+                    if(var5) { _fun0011_ip = 100; continue _fun0011 }
+case 101:
                     var5 = _closure2_slot1;
                     var3 = var5.id;
-case 95:
+case 100:
                     if(!(var4 != var3)) { _fun0011_ip = 49; continue _fun0011 }
-case 97:
+case 102:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot3;
                     var3 = 32;
@@ -1791,8 +1791,8 @@ case 49:
             var2 = var4.bind(var6)(var2, var3);
             var2 = var1 != var13;
             var1 = null;
-            if(!var2) { _fun0009_ip = 98; continue _fun0009 }
-case 99:
+            if(!var2) { _fun0009_ip = 103; continue _fun0009 }
+case 104:
             var4 = _closure1_slot28;
             var3 = _closure1_slot29;
             var2 = {};
@@ -1803,11 +1803,11 @@ case 99:
             var15 = var10;
             var10 = copyDataProperties(var16, var15);
             var10 = 'guild';
-            var6[var10] = var13;
+            var6[9] = var13;
             var10 = 'navigation';
-            var6[var10] = var12;
+            var6[9] = var12;
             var10 = 'contentContainerStyle';
-            var6[var10] = var11;
+            var6[9] = var11;
             var8 = var9.bind(var5)(var8, var6);
             var6 = new Array(2);
             var6[0] = var8;
@@ -1822,7 +1822,7 @@ case 99:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 98:
+case 103:
             return var1;
         }
     };

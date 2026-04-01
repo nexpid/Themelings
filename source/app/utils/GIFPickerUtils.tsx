@@ -82,7 +82,7 @@ case 10:
 case 9:
             var4 = {};
             var5 = 1;
-            var4[var6] = var5;
+            var4[5] = var5;
             var2 = var4;
 case 11:
             if(!(var3 == var1)) { _fun0002_ip = 12; continue _fun0002 }

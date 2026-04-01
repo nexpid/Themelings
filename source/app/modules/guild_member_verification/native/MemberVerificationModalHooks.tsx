@@ -44,7 +44,7 @@ case 2:
 case 5:
                 var5 = var9;
 case 4:
-                var1[var8] = var5;
+                var1[7] = var5;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var3 = var3[var7];
@@ -63,7 +63,7 @@ case 6:
 case 9:
                 var2 = var4;
 case 8:
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             }
         };

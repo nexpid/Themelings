@@ -1032,7 +1032,7 @@ case 49:
                 var3 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot19;
                 var2 = 'paddingBottom';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var22 = var17.bind(var5)(var3, var14);
@@ -1396,7 +1396,7 @@ case 73:
                     var6 = copyDataProperties(var12, var11);
                     var7 = 'app_launcher_app_details';
                     var6 = 'source';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var6 = function oauth2Callback(arg1) {
                         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -1433,7 +1433,7 @@ case 77:
                         }
                     };
                     var5 = 'oauth2Callback';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }

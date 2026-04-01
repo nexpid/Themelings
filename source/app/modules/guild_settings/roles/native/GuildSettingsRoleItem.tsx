@@ -169,6 +169,14 @@ case 5:
 case 6:
             var23 = {'accessibilityRole': 'button', 'accessibilityActions': null, 'delayLongPress': 100, 'activeOpacity': 0.8};
             var23['accessibilityActions'] = var10;
+            var11 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var10 = 6;
+            var10 = var13[var10];
+            var10 = var11.bind(var4)(var10);
+            var10 = var10.spacing;
+            var10 = var10.PX_4;
+            var23['hitSlop'] = var10;
             var35 = var23;
             var34 = var9;
             var9 = copyDataProperties(var35, var34);

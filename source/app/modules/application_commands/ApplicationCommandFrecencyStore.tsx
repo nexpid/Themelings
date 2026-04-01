@@ -312,7 +312,7 @@ case 48:
                 };
                 var3 = var3.bind(var4)(var2);
                 var2 = 'recentUses';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var3 = var6.bind(var7)(var8, var3);

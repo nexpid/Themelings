@@ -839,16 +839,16 @@ case 63:
                     var8 = copyDataProperties(var14, var13);
                     var10 = var3.id;
                     var8 = 'key';
-                    var4[var8] = var10;
+                    var4[7] = var10;
                     var10 = _closure2_slot6;
                     var8 = 'animateOnMount';
-                    var4[var8] = var10;
+                    var4[7] = var10;
                     var8 = _closure2_slot0;
                     var10 = var8.length;
                     var8 = 2;
                     var10 = var10 >= var8;
                     var8 = 'shadow';
-                    var4[var8] = var10;
+                    var4[7] = var10;
                     var8 = _closure2_slot3;
                     if(!var8) { _fun0007_ip = 10; continue _fun0007 }
 case 64:

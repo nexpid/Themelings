@@ -297,7 +297,7 @@ case 17:
                 var1 = var4.videoStream;
                 var5 = var1.ssrc;
                 var1 = 100;
-                var2[var5] = var1;
+                var2[4] = var1;
                 var1 = var4.videoStream;
                 var5 = var1.ssrc;
                 var1 = new Array(1);
@@ -326,7 +326,7 @@ case 17:
                 var1 = var4.videoStream;
                 var5 = var1.ssrc;
                 var1 = 0;
-                var2[var5] = var1;
+                var2[4] = var1;
                 var1 = new Array(0);
                 var1 = var3.bind(var4)(var2, var1);
 case 18:

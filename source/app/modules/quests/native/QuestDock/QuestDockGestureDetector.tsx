@@ -26,10 +26,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var18;
         var15 = var1.minExpandedContentHeight;
         var _closure2_slot3 = var15;
-        var3 = _closure1_slot1;
+        var7 = _closure1_slot1;
         var1 = 6;
         var1 = var11[var1];
-        var1 = var3.bind(var9)(var1);
+        var1 = var7.bind(var9)(var1);
         var20 = var1.bind(var9)();
         var _closure2_slot4 = var20;
         var4 = _closure1_slot3;
@@ -45,11 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot6 = var16;
         var1 = var1.questDockOffset;
         var _closure2_slot7 = var1;
+        var5 = _closure1_slot3;
+        var4 = var5.useContext;
         var3 = 8;
         var3 = var11[var3];
-        var4 = var10.bind(var9)(var3);
-        var3 = var4.useIsMobileQuestDockVisible;
-        var3 = var3.bind(var4)();
+        var3 = var7.bind(var9)(var3);
+        var3 = var4.bind(var5)(var3);
+        var3 = var3.isVisibleToUser;
         var _closure2_slot8 = var3;
         var8 = 9;
         var4 = var11[var8];
@@ -498,7 +500,7 @@ case 16:
                     var8 = copyDataProperties(var18, var17);
                     var11 = false;
                     var8 = 'isDrawer';
-                    var3[var8] = var11;
+                    var3[7] = var11;
                     var3 = var4.bind(var5)(var3);
 case 20:
                     var4 = _closure1_slot5;
@@ -544,7 +546,7 @@ case 52:
                     var18 = var3;
                     var8 = copyDataProperties(var18, var17);
                     var8 = 'x';
-                    var3[var8] = var6;
+                    var3[7] = var6;
                     var8 = _closure1_slot7;
                     var9 = var9 * var8;
                     var11 = _closure2_slot12;
@@ -558,7 +560,7 @@ case 55:
 case 54:
                     var9 = var9 + var8;
                     var8 = 'y';
-                    var3[var8] = var9;
+                    var3[7] = var9;
                     var11 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var8 = 11;
@@ -594,12 +596,12 @@ case 59:
 case 61:
                     var9 = var12.bind(var13)(var11, var9, var8);
                     var8 = 'width';
-                    var3[var8] = var9;
+                    var3[7] = var9;
                     var9 = _closure1_slot5;
                     var8 = 'height';
-                    var3[var8] = var9;
+                    var3[7] = var9;
                     var8 = 'prevDeltaY';
-                    var3[var8] = var7;
+                    var3[7] = var7;
                     var3 = var4.bind(var5)(var3);
                     var5 = _closure2_slot1;
                     var4 = var5.set;
@@ -635,7 +637,7 @@ case 63:
                     var18 = var3;
                     var9 = copyDataProperties(var18, var17);
                     var9 = 'x';
-                    var3[var9] = var6;
+                    var3[8] = var6;
                     var11 = 0;
                     if(!var8) { _fun0002_ip = 64; continue _fun0002 }
 case 65:
@@ -643,7 +645,7 @@ case 65:
                     var11 = var12 * var9;
 case 64:
                     var9 = 'y';
-                    var3[var9] = var11;
+                    var3[8] = var11;
                     var12 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var9 = 11;
@@ -664,16 +666,16 @@ case 64:
                     var9 = var9.right;
                     var11 = var13.bind(var14)(var12, var11, var9);
                     var9 = 'width';
-                    var3[var9] = var11;
+                    var3[8] = var11;
                     var9 = var10;
                     if(!var8) { _fun0002_ip = 66; continue _fun0002 }
 case 67:
                     var9 = _closure1_slot6;
 case 66:
                     var8 = 'height';
-                    var3[var8] = var9;
+                    var3[7] = var9;
                     var8 = 'prevDeltaY';
-                    var3[var8] = var7;
+                    var3[7] = var7;
                     var3 = var4.bind(var5)(var3);
                     var4 = _closure2_slot1;
                     var3 = var4.set;
@@ -697,7 +699,7 @@ case 69:
                     var5 = copyDataProperties(var18, var17);
                     var8 = true;
                     var5 = 'isDrawer';
-                    var1[var5] = var8;
+                    var1[4] = var8;
                     var1 = var3.bind(var4)(var1);
 case 68:
                     var5 = _closure2_slot0;
@@ -708,7 +710,7 @@ case 68:
                     var18 = var3;
                     var1 = copyDataProperties(var18, var17);
                     var1 = 'x';
-                    var3[var1] = var6;
+                    var3[0] = var6;
                     var1 = _closure2_slot12;
                     var1 = var1 > var6;
                     var6 = 0;
@@ -717,7 +719,7 @@ case 71:
                     var6 = _closure2_slot12;
 case 70:
                     var1 = 'y';
-                    var3[var1] = var6;
+                    var3[0] = var6;
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var6 = 11;
@@ -738,7 +740,7 @@ case 70:
                     var6 = var6.right;
                     var8 = var12.bind(var13)(var9, var8, var6);
                     var6 = 'width';
-                    var3[var6] = var8;
+                    var3[5] = var8;
                     var6 = global;
                     var9 = var6.Math;
                     var8 = var9.min;
@@ -747,9 +749,9 @@ case 70:
                     var6 = var6.height;
                     var8 = var8.bind(var9)(var10, var6);
                     var6 = 'height';
-                    var3[var6] = var8;
+                    var3[5] = var8;
                     var6 = 'prevDeltaY';
-                    var3[var6] = var7;
+                    var3[5] = var7;
                     var3 = var4.bind(var5)(var3);
                     var3 = _closure2_slot1;
                     var2 = var3.set;

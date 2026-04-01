@@ -316,7 +316,7 @@ case 29: // try_start_0
                     var9 = copyDataProperties(var15, var14);
                     var9 = var8;
                     var8 = 'price_tier';
-                    var7[var8] = var9;
+                    var7[7] = var9;
                     var3['body'] = var7;
                     var7 = false;
                     var3['rejectWithError'] = var7;
@@ -423,7 +423,7 @@ case 40: // try_start_0
                     var9 = copyDataProperties(var16, var15);
                     var9 = var8;
                     var8 = 'price_tier';
-                    var7[var8] = var9;
+                    var7[7] = var9;
                     var3['body'] = var7;
                     var7 = false;
                     var3['rejectWithError'] = var7;

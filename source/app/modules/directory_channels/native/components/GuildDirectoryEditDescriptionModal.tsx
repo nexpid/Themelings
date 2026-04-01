@@ -198,7 +198,7 @@ case 2:
             return var1;
         };
         var2['render'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot12 = var1;

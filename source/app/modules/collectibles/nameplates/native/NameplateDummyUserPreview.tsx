@@ -56,13 +56,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['avatarMarginRight'] = var5;
     var5 = 6;
     var9['placeholderBarHeight'] = var5;
-    var4[var12] = var9;
+    var4[11] = var9;
     var9 = var7[var8];
     var9 = var6.bind(var1)(var9);
     var9 = var9.AvatarSizes;
     var12 = var9.XSMALL;
     var9 = {'padding': 6, 'avatarMarginRight': 6, 'placeholderBarHeight': 8};
-    var4[var12] = var9;
+    var4[11] = var9;
     var8 = var7[var8];
     var8 = var6.bind(var1)(var8);
     var8 = var8.AvatarSizes;
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['avatarMarginRight'] = var10;
     var10 = 14;
     var8['placeholderBarHeight'] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var _closure1_slot7 = var4;
     var5 = var7[var5];
     var9 = var6.bind(var1)(var5);

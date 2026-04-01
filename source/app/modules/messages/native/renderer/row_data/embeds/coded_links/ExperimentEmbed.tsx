@@ -470,12 +470,12 @@ case 28:
             var11 = copyDataProperties(var20, var19);
             var14 = 'EXPERIMENT';
             var11 = 'headerText';
-            var7[var11] = var14;
+            var7[10] = var14;
             var11 = 'titleText';
-            var7[var11] = var4;
+            var7[10] = var4;
             var14 = var3.titleColor;
             var11 = 'titleColor';
-            var7[var11] = var14;
+            var7[10] = var14;
             if(!(var5 == var10)) { _fun0006_ip = 29; continue _fun0006 }
 case 30:
             var11 = global;
@@ -493,10 +493,10 @@ case 29:
             var14 = var15.bind(var11)(var16);
 case 31:
             var11 = 'subtitle';
-            var7[var11] = var14;
+            var7[10] = var14;
             var14 = var3.subtitleColor;
             var11 = 'subtitleColor';
-            var7[var11] = var14;
+            var7[10] = var14;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
             var11 = 14;
@@ -509,26 +509,26 @@ case 31:
             var11 = var16.bind(var9)(var11);
             var14 = var14.bind(var15)(var11);
             var11 = 'thumbnailUrl';
-            var7[var11] = var14;
+            var7[10] = var14;
             var14 = var3.backgroundColor;
             var11 = 'thumbnailBackgroundColor';
-            var7[var11] = var14;
+            var7[10] = var14;
             var14 = var3.acceptLabelGreenColor;
             var11 = 'acceptLabelColor';
-            var7[var11] = var14;
+            var7[10] = var14;
             var14 = var3.acceptLabelGreenBackgroundColor;
             var11 = 'acceptLabelBackgroundColor';
-            var7[var11] = var14;
+            var7[10] = var14;
             var14 = 'View Experiment Details';
             var11 = 'acceptLabelText';
-            var7[var11] = var14;
+            var7[10] = var14;
             var14 = true;
             var11 = 'embedCanBeTapped';
-            var7[var11] = var14;
+            var7[10] = var14;
             var11 = _closure1_slot7;
             var14 = var11.GUILD;
             var11 = 'type';
-            var7[var11] = var14;
+            var7[10] = var14;
             return var7;
 case 27:
             if(!(var5 == var1)) { _fun0006_ip = 32; continue _fun0006 }
@@ -559,17 +559,17 @@ case 37:
             var10 = copyDataProperties(var20, var19);
             var13 = 'EXPERIMENT TREATMENT';
             var10 = 'headerText';
-            var1[var10] = var13;
+            var1[9] = var13;
             var10 = 'titleText';
-            var1[var10] = var4;
+            var1[9] = var4;
             var13 = var3.titleColor;
             var10 = 'titleColor';
-            var1[var10] = var13;
+            var1[9] = var13;
             var10 = 'subtitle';
-            var1[var10] = var11;
+            var1[9] = var11;
             var11 = var3.subtitleColor;
             var10 = 'subtitleColor';
-            var1[var10] = var11;
+            var1[9] = var11;
             var11 = _closure1_slot0;
             var15 = _closure1_slot2;
             var10 = 14;
@@ -582,10 +582,10 @@ case 37:
             var10 = var14.bind(var9)(var10);
             var11 = var11.bind(var13)(var10);
             var10 = 'thumbnailUrl';
-            var1[var10] = var11;
+            var1[9] = var11;
             var11 = var3.backgroundColor;
             var10 = 'thumbnailBackgroundColor';
-            var1[var10] = var11;
+            var1[9] = var11;
             if(var7) { _fun0006_ip = 39; continue _fun0006 }
 case 40:
             var11 = var3.acceptLabelGreenColor;
@@ -594,7 +594,7 @@ case 39:
             var11 = var3.clearLabelRedColor;
 case 41:
             var10 = 'acceptLabelColor';
-            var1[var10] = var11;
+            var1[9] = var11;
             if(var7) { _fun0006_ip = 42; continue _fun0006 }
 case 43:
             var11 = var3.acceptLabelGreenBackgroundColor;
@@ -603,7 +603,7 @@ case 42:
             var11 = var3.clearLabelRedBackgroundColor;
 case 44:
             var10 = 'acceptLabelBackgroundColor';
-            var1[var10] = var11;
+            var1[9] = var11;
             var10 = global;
             var10 = var10.HermesInternal;
             var11 = var10.concat;
@@ -617,14 +617,14 @@ case 45:
             var10 = var11.bind(var7)(var12);
 case 47:
             var7 = 'acceptLabelText';
-            var1[var7] = var10;
+            var1[6] = var10;
             var10 = true;
             var7 = 'embedCanBeTapped';
-            var1[var7] = var10;
+            var1[6] = var10;
             var7 = _closure1_slot7;
             var10 = var7.GUILD;
             var7 = 'type';
-            var1[var7] = var10;
+            var1[6] = var10;
             return var1;
 case 18:
             var1 = {};
@@ -633,7 +633,7 @@ case 18:
             var6 = copyDataProperties(var20, var19);
             var7 = 'EXPERIMENT';
             var6 = 'headerText';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = var5 == var4;
             var5 = 'Unknown Experiment';
             var6 = var5;
@@ -642,21 +642,21 @@ case 49:
             var6 = var4;
 case 48:
             var4 = 'titleText';
-            var1[var4] = var6;
+            var1[3] = var6;
             var6 = var3.titleColor;
             var4 = 'titleColor';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'subtitle';
-            var1[var4] = var5;
+            var1[3] = var5;
             var5 = var3.subtitleColor;
             var4 = 'subtitleColor';
-            var1[var4] = var5;
+            var1[3] = var5;
             var5 = 'This client is missing this experiment. You may need to open the surface where the experiment is used first.';
             var4 = 'bodyText';
-            var1[var4] = var5;
+            var1[3] = var5;
             var5 = var3.bodyTextColor;
             var4 = 'bodyTextColor';
-            var1[var4] = var5;
+            var1[3] = var5;
             var6 = _closure1_slot4;
             var5 = var6.resolveAssetSource;
             var7 = _closure1_slot0;
@@ -682,14 +682,14 @@ case 52:
             var4 = var5.bind(var6)(var4);
             var5 = var4.uri;
             var4 = 'thumbnailUrl';
-            var1[var4] = var5;
+            var1[3] = var5;
             var4 = var3.thumbnailBackgroundColor;
             var3 = 'thumbnailBackgroundColor';
-            var1[var3] = var4;
+            var1[2] = var4;
             var2 = _closure1_slot7;
             var3 = var2.GUILD;
             var2 = 'type';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

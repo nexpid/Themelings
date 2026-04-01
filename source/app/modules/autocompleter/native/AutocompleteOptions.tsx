@@ -256,7 +256,7 @@ case 16:
                 return var1;
             };
             var3['matches'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var5 = var2.CHANNELS;
             var3 = {};
             var7 = function queryResults(arg1, arg2) {
@@ -349,7 +349,7 @@ case 24:
                 }
             };
             var3['matches'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var5 = var2.EMOJIS_AND_STICKERS;
             var3 = {};
             var7 = function queryResults(arg1, arg2) {
@@ -570,7 +570,7 @@ case 6:
                 }
             };
             var3['matches'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var5 = var2.SLASHES;
             var3 = {};
             var7 = function queryResults() {
@@ -605,7 +605,7 @@ case 44:
                 }
             };
             var3['matches'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var5 = var2.SLASHES_DISCOVERY;
             var3 = {};
             var7 = function queryResults() {
@@ -640,7 +640,7 @@ case 52:
                 }
             };
             var3['matches'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var3 = var2.CHOICES;
             var2 = {};
             var7 = _closure1_slot4;
@@ -811,7 +811,7 @@ case 70:
                 return var1;
             };
             var2['matches'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };

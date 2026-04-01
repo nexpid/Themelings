@@ -155,7 +155,7 @@ case 9:
             var17 = var1;
             var8 = copyDataProperties(var17, var16);
             var8 = 'type';
-            var1[var8] = var13;
+            var1[7] = var13;
             var8 = var12.map;
             var4 = function(arg1) {
                 var3 = _closure2_slot0;
@@ -166,7 +166,7 @@ case 9:
             };
             var8 = var8.bind(var12)(var4);
             var4 = 'content';
-            var1[var4] = var8;
+            var1[3] = var8;
             var8 = {};
             var4 = {};
             var11 = _closure1_slot3;
@@ -180,14 +180,14 @@ case 11:
             var4['context'] = var9;
             var8['action'] = var4;
             var4 = 'button';
-            var1[var4] = var8;
+            var1[3] = var8;
             var4 = 'changeType';
-            var1[var4] = var7;
+            var1[3] = var7;
             var4 = 'text';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'revealed';
-            var1[var4] = var5;
-            var1[var3] = var2;
+            var1[3] = var5;
+            var1[2] = var2;
             return var1;
         }
     };

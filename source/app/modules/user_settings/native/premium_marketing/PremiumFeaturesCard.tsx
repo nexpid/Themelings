@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = copyDataProperties(var24, var23);
     var19 = -8;
     var16 = 'marginLeft';
-    var12[var16] = var19;
+    var12[15] = var19;
     var4['featureLabel'] = var12;
     var12 = {};
     var12['paddingVertical'] = var14;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var24 = var12;
     var13 = copyDataProperties(var24, var23);
     var13 = 'textAlign';
-    var12[var13] = var14;
+    var12[12] = var14;
     var4['trialSubText'] = var12;
     var12 = {'position': 'absolute', 'top': 4294967286, 'maxWidth': 240, 'alignSelf': 'center', 'zIndex': 2};
     var4['pill'] = var12;

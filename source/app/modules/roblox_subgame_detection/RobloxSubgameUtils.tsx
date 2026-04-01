@@ -702,13 +702,13 @@ case 73:
             var4 = var5.bind(var6)(var4);
             var5 = var4.ROBLOX_APPLICATION_ID;
             var4 = 'id';
-            var2[var4] = var5;
+            var2[3] = var5;
             var4 = _closure1_slot5;
             var3 = _closure1_slot6;
             var3 = var3.ROBLOX;
             var4 = var4[var3];
             var3 = 'name';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1 = var2;
 case 72:
             return var1;

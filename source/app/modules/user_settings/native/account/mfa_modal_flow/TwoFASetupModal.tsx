@@ -85,11 +85,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var4;
     var4 = {};
     var9 = var7.LANDING;
-    var4[var9] = var11;
+    var4[8] = var11;
     var9 = var7.SCAN;
-    var4[var9] = var10;
+    var4[8] = var10;
     var7 = var7.ENTER_CODE;
-    var4[var7] = var8;
+    var4[6] = var8;
     var _closure1_slot9 = var4;
     var4 = 20;
     var4 = var6[var4];
@@ -165,7 +165,7 @@ case 2:
                         return var1;
                     };
                     var3['render'] = var12;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var11 = var2.SCAN;
                     var3 = {};
                     var12 = function headerTitle() {
@@ -192,7 +192,7 @@ case 2:
                         return var1;
                     };
                     var3['render'] = var12;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var11 = var2.ENTER_CODE;
                     var3 = {};
                     var12 = function headerTitle() {
@@ -219,7 +219,7 @@ case 2:
                         return var1;
                     };
                     var3['render'] = var12;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var3 = var2.SUCCESS;
                     var2 = {};
                     var6 = var10[var6];
@@ -248,7 +248,7 @@ case 2:
                         return var1;
                     };
                     var2['render'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var1 = var1.bind(var3)(var2);

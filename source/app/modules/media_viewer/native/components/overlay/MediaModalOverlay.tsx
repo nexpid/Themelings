@@ -212,9 +212,9 @@ case 0:
             var14 = var8;
             var8 = copyDataProperties(var15, var14);
             var8 = 'slider';
-            var1[var8] = var9;
+            var1[7] = var9;
             var8 = 'source';
-            var1[var8] = var5;
+            var1[7] = var5;
             var5 = var5.obscure;
             var8 = null;
             var8 = var8 != var5;
@@ -223,11 +223,11 @@ case 9:
             var8 = var5;
 case 8:
             var5 = 'obscure';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'spoilerActive';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'toggleObscure';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -277,10 +277,10 @@ case 8:
     var16 = var10;
     var11 = copyDataProperties(var16, var15);
     var11 = 'top';
-    var10[var11] = var1;
+    var10[10] = var1;
     var13 = 'transparent';
     var11 = 'backgroundColor';
-    var10[var11] = var13;
+    var10[10] = var13;
     var4['portraitFooterButtons'] = var10;
     var10 = {'position': 'absolute', 'top': 4294967256, 'right': 8, 'display': 'flex', 'flexDirection': 'row'};
     var11 = 5;
@@ -585,9 +585,9 @@ case 29:
             var9 = var6;
             var6 = copyDataProperties(var10, var9);
             var6 = 'source';
-            var2[var6] = var8;
+            var2[5] = var8;
             var6 = 'index';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 28:
             return var1;

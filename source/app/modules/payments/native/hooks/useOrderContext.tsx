@@ -63,7 +63,7 @@ case 3:
                     var3 = copyDataProperties(var6, var5);
                     var4 = _closure3_slot0;
                     var3 = 'revision';
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     var1 = var2;
 case 2:
                     return var1;

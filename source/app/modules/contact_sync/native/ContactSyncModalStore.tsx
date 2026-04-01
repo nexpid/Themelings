@@ -124,13 +124,13 @@ case 4:
                     var2 = copyDataProperties(var6, var5);
                     var4 = _closure2_slot0;
                     var3 = 'mode';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = _closure2_slot2;
                     var3 = 'phone';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var3 = _closure2_slot1;
                     var2 = 'name';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
@@ -161,9 +161,9 @@ case 4:
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot0;
                 var2 = 'allowPhone';
-                var1[var2] = var3;
+                var1[1] = var3;
                 var2 = 'allowEmail';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -194,7 +194,7 @@ case 4:
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot0;
                 var2 = 'allowPhone';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -225,7 +225,7 @@ case 4:
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot0;
                 var2 = 'allowEmail';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -258,10 +258,10 @@ case 4:
                 var2 = copyDataProperties(var6, var5);
                 var4 = _closure2_slot0;
                 var3 = 'suggestions';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var3 = _closure2_slot1;
                 var2 = 'bulkAddToken';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -292,7 +292,7 @@ case 4:
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot0;
                 var2 = 'phone';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -323,7 +323,7 @@ case 4:
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot0;
                 var2 = 'phoneToken';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -362,10 +362,10 @@ case 6:
                     var2 = copyDataProperties(var6, var5);
                     var4 = _closure2_slot0;
                     var3 = 'name';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var3 = _closure2_slot1;
                     var2 = 'isNameFromContactBook';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
@@ -397,7 +397,7 @@ case 6:
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot0;
                 var2 = 'permissionState';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -428,7 +428,7 @@ case 6:
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot0;
                 var2 = 'error';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);

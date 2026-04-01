@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6;
     var2 = copyDataProperties(var16, var15);
     var2 = 'overshootClamping';
-    var5[var2] = var4;
+    var5[1] = var4;
     var2 = var8[var9];
     var2 = var7.bind(var1)(var2);
     var2 = var2.radii;

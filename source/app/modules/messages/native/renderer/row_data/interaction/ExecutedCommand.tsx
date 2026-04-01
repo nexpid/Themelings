@@ -348,7 +348,7 @@ case 40:
             var22 = var13.channel_id;
             var24['messageChannelId'] = var22;
             var22 = 'activityTextOnClick';
-            var1[var22] = var24;
+            var1[21] = var24;
             var3 = var16.bind(var17)(var14, var1);
 case 42:
             _fun0002_ip = 43; continue _fun0002;
@@ -380,7 +380,7 @@ case 44:
             var26 = var12;
             var22 = copyDataProperties(var27, var26);
             var22 = 'commandName';
-            var14[var22] = var24;
+            var14[21] = var24;
             if(!(var10 != var19)) { _fun0002_ip = 46; continue _fun0002 }
 case 47:
             if(var23) { _fun0002_ip = 48; continue _fun0002 }
@@ -407,7 +407,7 @@ case 48:
             var18 = var23;
 case 50:
             var23 = 'commandNameOnClick';
-            var14[var23] = var18;
+            var14[22] = var18;
             var3 = var16.bind(var17)(var15, var14);
             if(!(var10 != var20)) { _fun0002_ip = 43; continue _fun0002 }
 case 51:
@@ -425,16 +425,16 @@ case 51:
             var27 = var1;
             var26 = var12;
             var25 = copyDataProperties(var27, var26);
-            var1[var22] = var24;
+            var1[21] = var24;
             var22 = {};
-            var1[var23] = var22;
+            var1[22] = var22;
             var17 = var17[var21];
             var18 = var18.bind(var5)(var17);
             var17 = var18.getUserAuthor;
             var17 = var17.bind(var18)(var20, var19);
             var18 = var17.nick;
             var17 = 'targetUsername';
-            var1[var17] = var18;
+            var1[16] = var18;
             var18 = {'name': 'targetUsernameOnClick', 'action': 'bindUserMenu'};
             var17 = 'targetUsernameOnClick';
             var21 = var10 == var20;
@@ -447,7 +447,7 @@ case 52:
             var19 = var13.channel_id;
             var18['messageChannelId'] = var19;
             var18['linkColor'] = var6;
-            var1[var17] = var18;
+            var1[16] = var18;
             var3 = var15.bind(var16)(var14, var1);
 case 43:
             var1 = {};

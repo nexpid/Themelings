@@ -212,8 +212,8 @@ case 8:
                             var11 = var5;
                             var6 = copyDataProperties(var11, var10);
                             var6 = var7.userId;
-                            var5[var6] = var7;
-                            var4[var8] = var5;
+                            var5[5] = var7;
+                            var4[7] = var5;
                             _closure1_slot12 = var4;
                             var4 = {};
                             var10 = _closure1_slot13;
@@ -224,7 +224,7 @@ case 8:
                             var5['gameId'] = var8;
                             var7 = var7.startedPlaying;
                             var5['startedPlaying'] = var7;
-                            var4[var6] = var5;
+                            var4[5] = var5;
                             _closure1_slot13 = var4;
                             var4 = true;
                             return var4;

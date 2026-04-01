@@ -188,7 +188,7 @@ case 12:
             var16 = var8;
             var8 = copyDataProperties(var17, var16);
             var8 = 'children';
-            var5[var8] = var9;
+            var5[7] = var9;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

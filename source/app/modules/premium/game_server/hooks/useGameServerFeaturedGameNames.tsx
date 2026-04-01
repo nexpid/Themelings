@@ -1,4 +1,4 @@
-// app/modules/premium/game_server/web/hooks/useGameServerFeaturedGameNames.tsx
+// app/modules/premium/game_server/hooks/useGameServerFeaturedGameNames.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/premium/game_server/web/hooks/useGameServerFeaturedGameNames.tsx';
+    var4 = 'modules/premium/game_server/hooks/useGameServerFeaturedGameNames.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useGameServerFeaturedGameNames() {
         var4 = _closure1_slot0;

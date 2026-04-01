@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.OAuth2Scopes;
     var12 = var12.RPC_VOICE_READ;
     var10[1] = var12;
-    var9[var11] = var10;
+    var9[10] = var10;
     var4['scope'] = var9;
     var8 = function handler() {
         var3 = _closure1_slot0;
@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -185,25 +185,25 @@ case 17:
         var3 = _closure1_slot14;
         var4 = var3.USER_ADD;
         var3 = 0;
-        var1[var4] = var3;
+        var1[3] = var3;
         var4 = _closure1_slot14;
         var4 = var4.GUILD_ADD;
-        var1[var4] = var3;
+        var1[3] = var3;
         var4 = _closure1_slot14;
         var4 = var4.USER_INTERACTION;
-        var1[var4] = var3;
+        var1[3] = var3;
         var4 = _closure1_slot14;
         var4 = var4.GUILD_INTERACTION;
-        var1[var4] = var3;
+        var1[3] = var3;
         var4 = _closure1_slot14;
         var4 = var4.USER_CALLED;
-        var1[var4] = var3;
+        var1[3] = var3;
         var4 = _closure1_slot14;
         var4 = var4.TOTAL_VOICE_MINUTES;
-        var1[var4] = var3;
+        var1[3] = var3;
         var2 = _closure1_slot14;
         var2 = var2.PURCHASES;
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var _closure1_slot37 = var11;
@@ -231,7 +231,7 @@ case 20:
                 var5 = var1;
                 var2 = copyDataProperties(var5, var4);
                 var2 = var3.user_id;
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var2 = {};
@@ -337,8 +337,8 @@ case 30:
                 var5 = var4;
 case 13:
                 var4 = 'approximateMemberCount';
-                var2[var4] = var5;
-                var1[var3] = var2;
+                var2[3] = var5;
+                var1[2] = var2;
                 return var1;
             }
         };
@@ -967,7 +967,7 @@ case 56:
                             var5 = var3.parseInt;
                             var3 = 10;
                             var3 = var5.bind(var7)(var6, var3);
-                            var2[var4] = var3;
+                            var2[3] = var3;
                             var1 = var2;
 case 55:
                             return var1;

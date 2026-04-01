@@ -134,7 +134,7 @@ case 17:
             var14 = var9;
             var13 = 0;
             var9 = arraySpread(var15, var14, var13);
-            var2[var9] = var11;
+            var2[8] = var11;
             var9 = var9 + var10;
             var2 = var3.bind(var4)(var2);
 case 16:

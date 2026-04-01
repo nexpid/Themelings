@@ -378,9 +378,9 @@ case 18:
     var _closure1_slot11 = var12;
     var8 = {};
     var13 = var11.PRELOADED_USER_SETTINGS;
-    var8[var13] = var14;
+    var8[12] = var14;
     var11 = var11.FRECENCY_AND_FAVORITES_SETTINGS;
-    var8[var11] = var12;
+    var8[10] = var12;
     var _closure1_slot12 = var8;
     var _closure1_slot13 = var2;
     var2 = 13;

@@ -442,10 +442,10 @@ case 11:
     var4 = {};
     var11 = var2.SendMessage;
     var9 = {};
-    var4[var11] = var9;
+    var4[10] = var9;
     var11 = var2.CreateThread;
     var9 = {};
-    var4[var11] = var9;
+    var4[10] = var9;
     var _closure1_slot11 = var4;
     var4 = 11;
     var4 = var7[var4];

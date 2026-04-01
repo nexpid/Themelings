@@ -455,7 +455,7 @@ case 45:
                 var14 = _closure1_slot5;
                 var12 = var3.channel_overrides;
                 var12 = var14.bind(var1)(var12);
-                var13[var9] = var12;
+                var13[8] = var12;
                 var12 = var11.put;
                 var14 = var3.guild_id;
                 var15 = var8 != var14;

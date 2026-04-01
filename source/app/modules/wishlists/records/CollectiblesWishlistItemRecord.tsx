@@ -473,7 +473,7 @@ case 63:
                 var4 = var5.bind(var6)(var2);
 case 62:
                 var2 = 'sku';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var9 = var2;

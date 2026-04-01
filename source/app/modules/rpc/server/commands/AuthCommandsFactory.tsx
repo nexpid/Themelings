@@ -723,7 +723,7 @@ case 93:
                     var12 = var9;
                     var9 = arraySpread(var13, var12, var11);
                     var6 = _closure1_slot10;
-                    var2[var9] = var6;
+                    var2[8] = var6;
                     var6 = 1;
                     var6 = var9 + var6;
                     var5['scopes'] = var2;
@@ -760,7 +760,7 @@ case 93:
                     var13 = var2;
                     var3 = copyDataProperties(var13, var12);
                     var3 = 'access_token';
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     return var2;
 case 90:
                     var4 = _closure1_slot1;
@@ -946,7 +946,7 @@ case 85:
     var5 = new var15[var9](var14, var13, var12);
     var8 = var5 instanceof Object ? var5 : var8;
     var5 = '1273616940451102832';
-    var2[var5] = var8;
+    var2[4] = var8;
     var _closure1_slot16 = var2;
     var5 = 24;
     var5 = var7[var5];
@@ -1273,7 +1273,7 @@ case 99:
         };
         var3['handler'] = var9;
         var3 = var7.bind(var8)(var6, var3);
-        var1[var5] = var3;
+        var1[4] = var3;
         var3 = var2.AUTHORIZE;
         var2 = {};
         var4 = function handler(arg1) {
@@ -1368,11 +1368,11 @@ case 126:
                 var13 = var3;
                 var3 = copyDataProperties(var14, var13);
                 var3 = 'scope';
-                var6[var3] = var9;
+                var6[2] = var9;
                 var3 = 'signal';
-                var6[var3] = var8;
+                var6[2] = var8;
                 var3 = 'isSocketRpcPrivateScope';
-                var6[var3] = var5;
+                var6[2] = var5;
                 var5 = _closure2_slot0;
                 var3 = _closure2_slot1;
                 var6 = var7.bind(var4)(var6, var5, var3);
@@ -1567,7 +1567,7 @@ case 118:
             }
         };
         var2['handler'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var3['default'] = var4;

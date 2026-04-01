@@ -77,7 +77,7 @@ case 6:
                 var7 = 'branch';
                 var4['type'] = var7;
                 var4['id'] = var6;
-                var3[var5] = var4;
+                var3[4] = var4;
                 var2['targetBuildOverride'] = var3;
                 var3 = new Array(0);
                 var2['validForUserIds'] = var3;

@@ -70,10 +70,10 @@ case 6:
             var7[0] = var11;
             var7[1] = var6;
             var6 = 'style';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = '0 0 24 24';
             var6 = 'viewBox';
-            var1[var6] = var7;
+            var1[5] = var7;
             var12 = _closure1_slot4;
             var7 = _closure1_slot0;
             var6 = var10[var5];
@@ -109,7 +109,7 @@ case 6:
             var5 = var8.bind(var4)(var7, var5);
             var6[2] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -389,7 +389,7 @@ case 17:
             var8 = var10[var8];
             var9 = var9.bind(var4)(var8);
             var8 = 'source';
-            var2[var8] = var9;
+            var2[7] = var9;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
 case 26:
@@ -416,14 +416,14 @@ case 24:
             var7 = var9[var7];
             var8 = var8.bind(var4)(var7);
             var7 = 'source';
-            var1[var7] = var8;
+            var1[6] = var8;
             var7 = var6.style;
             var6 = new Array(2);
             var6[0] = var7;
             var5 = var5.noTint;
             var6[1] = var5;
             var5 = 'style';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

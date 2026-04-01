@@ -489,7 +489,7 @@ case 39:
             var20['channels'] = var23;
             var23 = {};
             var24 = var19.id;
-            var23[var24] = var18;
+            var23[23] = var18;
             var20['voiceStates'] = var23;
             var20 = var21.bind(var22)(var20);
             var14['users'] = var20;

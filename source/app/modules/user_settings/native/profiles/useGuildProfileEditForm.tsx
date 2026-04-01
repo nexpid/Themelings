@@ -92,16 +92,16 @@ case 0:
                 var4 = var3.getErrors;
                 var6 = var4.bind(var3)(var5);
                 var4 = 'errors';
-                var1[var4] = var6;
+                var1[3] = var6;
                 var4 = _closure1_slot7;
                 var2 = var4.getGuild;
                 var4 = var2.bind(var4)(var5);
                 var2 = 'selectedGuild';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.getFormState;
                 var3 = var2.bind(var3)();
                 var2 = 'formState';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var6 = var5.bind(var6)(var2, var1);
@@ -574,9 +574,9 @@ case 64:
             var4 = var2;
 case 63:
             var2 = 'guild';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'errors';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

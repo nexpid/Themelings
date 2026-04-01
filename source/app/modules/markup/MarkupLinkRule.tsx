@@ -793,13 +793,13 @@ case 98: // try_end1 // catch_target0 // catch_target1
     var14 = var8.bind(var1)(var14);
     var14 = var14.AST_KEY;
     var14 = var14.EMOJI;
-    var6[var12] = var14;
+    var6[11] = var14;
     var13 = var12 + var13;
     var12 = var9[var10];
     var12 = var8.bind(var1)(var12);
     var12 = var12.AST_KEY;
     var12 = var12.CUSTOM_EMOJI;
-    var6[var13] = var12;
+    var6[12] = var12;
     var _closure1_slot7 = var6;
     var6 = var9[var10];
     var6 = var8.bind(var1)(var6);
@@ -935,7 +935,7 @@ case 35:
         }
     };
     var10 = 'match';
-    var6[var10] = var11;
+    var6[9] = var11;
     var10 = function parse(arg1, arg2, arg3) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -1033,10 +1033,10 @@ case 106:
             var15 = copyDataProperties(var24, var23);
             var16 = false;
             var15 = 'allowEscape';
-            var7[var15] = var16;
+            var7[14] = var16;
             var16 = true;
             var15 = 'parseInlineCodeChildContent';
-            var7[var15] = var16;
+            var7[14] = var16;
             var13 = var13.allowEmojiLinks;
             if(var13) { _fun0010_ip = 107; continue _fun0010 }
 case 63:
@@ -1124,7 +1124,7 @@ case 99:
         }
     };
     var7 = 'parse';
-    var6[var7] = var10;
+    var6[6] = var10;
     var7 = 10;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);

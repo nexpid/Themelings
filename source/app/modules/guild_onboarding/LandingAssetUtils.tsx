@@ -107,7 +107,7 @@ case 4:
                 var10 = var1;
                 var8 = 0;
                 var3 = arraySpread(var10, var9, var8);
-                var1[var3] = var4;
+                var1[2] = var4;
                 var3 = var3 + var4;
                 var2['k'] = var1;
 case 2:

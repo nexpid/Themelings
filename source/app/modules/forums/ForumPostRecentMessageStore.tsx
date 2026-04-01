@@ -436,7 +436,7 @@ case 38:
             var7 = var8.updateMessageRecord;
             var8 = var7.bind(var8)(var9, var10);
             var7 = 'message';
-            var4[var7] = var8;
+            var4[6] = var8;
             var5[var6] = var4;
             var3 = true;
 case 37:

@@ -1108,13 +1108,13 @@ case 117:
             var5 = copyDataProperties(var8, var7);
             var6 = _closure2_slot6;
             var5 = 'paddingStart';
-            var1[var5] = var6;
+            var1[4] = var6;
             var5 = _closure2_slot7;
             var4 = 'paddingEnd';
-            var1[var4] = var5;
+            var1[3] = var5;
             var5 = 'visible';
             var4 = 'orientation';
-            var1[var4] = var5;
+            var1[3] = var5;
             var1 = var2.bind(var3)(var1);
             var1 = undefined;
             return var1;

@@ -240,7 +240,7 @@ case 3:
         var1['pack_id'] = var2;
         var3 = _closure1_slot8;
         var2 = 'PackSticker';
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot15 = var1;

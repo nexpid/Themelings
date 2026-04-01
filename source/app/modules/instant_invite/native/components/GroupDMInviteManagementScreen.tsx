@@ -88,13 +88,13 @@ case 7:
                                     var4 = copyDataProperties(var7, var6);
                                     var5 = var2.max_uses;
                                     var4 = 'maxUses';
-                                    var1[var4] = var5;
+                                    var1[3] = var5;
                                     var5 = var2.max_age;
                                     var4 = 'maxAge';
-                                    var1[var4] = var5;
+                                    var1[3] = var5;
                                     var4 = var2.created_at;
                                     var2 = 'createdAt';
-                                    var1[var2] = var4;
+                                    var1[1] = var4;
                                     var2 = var3.prototype;
                                     var2 = Object.create(var2, {constructor: {value: var3}});
                                     var8 = var2;
@@ -466,7 +466,7 @@ case 18:
                 var4 = var4.ImpressionNames;
                 var4 = var4.GDM_SETTINGS_INVITES;
                 var2['impressionName'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var1 = undefined;

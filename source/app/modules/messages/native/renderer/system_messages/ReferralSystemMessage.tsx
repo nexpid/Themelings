@@ -112,7 +112,7 @@ case 10:
             var19 = var2;
             var11 = copyDataProperties(var19, var18);
             var11 = 'referralTrialOfferInfoRedesign';
-            var2[var11] = var12;
+            var2[10] = var12;
             var12 = _closure1_slot0;
             var11 = 7;
             var11 = var15[var11];
@@ -123,15 +123,15 @@ case 10:
             var11 = var14.bind(var8)(var11);
             var12 = var12.bind(var13)(var11);
             var11 = 'iconUrl';
-            var2[var11] = var12;
+            var2[10] = var12;
             var12 = var5.iconTintColor;
             var11 = 'iconTintColor';
-            var2[var11] = var12;
+            var2[10] = var12;
             var11 = var5.iconDividerColor;
             var5 = 'iconDividerColor';
-            var2[var5] = var11;
+            var2[4] = var11;
             var5 = 'timestamp';
-            var2[var5] = var8;
+            var2[4] = var8;
             return var2;
 case 9:
             return var1;
@@ -162,7 +162,7 @@ case 12:
             var19 = var2;
             var5 = copyDataProperties(var19, var18);
             var5 = 'referralTrialOfferInfo';
-            var2[var5] = var6;
+            var2[4] = var6;
             var5 = _closure1_slot0;
             var4 = 7;
             var4 = var9[var4];
@@ -173,13 +173,13 @@ case 12:
             var4 = var7.bind(var8)(var4);
             var5 = var5.bind(var6)(var4);
             var4 = 'iconUrl';
-            var2[var4] = var5;
+            var2[3] = var5;
             var5 = var3.iconTintColor;
             var4 = 'iconTintColor';
-            var2[var4] = var5;
+            var2[3] = var5;
             var4 = var3.iconDividerColor;
             var3 = 'iconDividerColor';
-            var2[var3] = var4;
+            var2[2] = var4;
             return var2;
 case 11:
             return var1;

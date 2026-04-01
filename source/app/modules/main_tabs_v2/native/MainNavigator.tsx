@@ -272,7 +272,7 @@ case 11:
                     var2 = copyDataProperties(var11, var10);
                     var3 = _closure2_slot0;
                     var2 = 'animation';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var1['options'] = var6;
@@ -786,7 +786,7 @@ case 28:
                         var2 = copyDataProperties(var6, var5);
                         var3 = 'slide_from_bottom';
                         var2 = 'animation';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     };
                     var25['options'] = var29;
@@ -852,7 +852,7 @@ case 34:
                             var2 = 'card';
                             var3 = var2 === var3;
                             var2 = 'fullScreenGestureEnabled';
-                            var1[var2] = var3;
+                            var1[1] = var3;
                             return var1;
                         }
                     };
@@ -918,10 +918,10 @@ case 40:
                         var2 = copyDataProperties(var6, var5);
                         var3 = 'slide_from_bottom';
                         var2 = 'animation';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         var3 = true;
                         var2 = 'fullScreenGestureEnabled';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         var5 = _closure2_slot6;
                         var6 = var1;
                         var2 = copyDataProperties(var6, var5);
@@ -954,7 +954,7 @@ case 39:
                         var2 = copyDataProperties(var6, var5);
                         var3 = false;
                         var2 = 'lockOrientation';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     };
                     var13['options'] = var27;

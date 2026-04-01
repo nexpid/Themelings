@@ -493,7 +493,7 @@ case 41:
                     var5 = copyDataProperties(var8, var7);
                     var6 = _closure2_slot10;
                     var5 = 'viewStyle';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
@@ -669,7 +669,7 @@ case 47:
     var13 = var13.colors;
     var14 = var13.BACKGROUND_BASE_LOW;
     var13 = 'backgroundColor';
-    var9[var13] = var14;
+    var9[12] = var14;
     var4['container'] = var9;
     var9 = {};
     var12 = var12.hairlineWidth;

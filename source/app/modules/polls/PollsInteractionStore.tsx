@@ -77,14 +77,14 @@ case 2:
                         var10 = var6;
                         var8 = copyDataProperties(var10, var9);
                         var3 = _closure3_slot1;
-                        var6[var3] = var4;
-                        var2[var7] = var6;
+                        var6[2] = var4;
+                        var2[6] = var6;
                         var1['pollsByChannelId'] = var2;
                         var2 = {};
                         var9 = var5.pollsByMessageId;
                         var10 = var2;
                         var5 = copyDataProperties(var10, var9);
-                        var2[var3] = var4;
+                        var2[2] = var4;
                         var1['pollsByMessageId'] = var2;
                         return var1;
                     }
@@ -290,7 +290,7 @@ case 9:
                     var7 = var6;
                     var6 = copyDataProperties(var8, var7);
                     var4 = _closure2_slot0;
-                    var3[var4] = var5;
+                    var3[3] = var5;
                     var1['pollsByChannelId'] = var3;
                     var1['pollsByMessageId'] = var2;
                     return var1;

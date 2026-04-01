@@ -712,7 +712,7 @@ case 48:
     var13 = var13.colors;
     var14 = var13.BLACK;
     var13 = 'backgroundColor';
-    var12[var13] = var14;
+    var12[12] = var14;
     var6['shade'] = var12;
     var6 = var10.bind(var11)(var6);
     var _closure1_slot19 = var6;

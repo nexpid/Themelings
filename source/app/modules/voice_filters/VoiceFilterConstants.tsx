@@ -301,10 +301,10 @@ case 2:
             var3 = copyDataProperties(var6, var5);
             var4 = new Array(0);
             var3 = 'previewSoundURLs';
-            var1[var3] = var4;
+            var1[2] = var4;
             var4 = true;
             var3 = 'underDevelopment';
-            var1[var3] = var4;
+            var1[2] = var4;
             var6 = var1;
             var5 = var2;
             var2 = copyDataProperties(var6, var5);

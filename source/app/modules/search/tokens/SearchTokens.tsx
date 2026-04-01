@@ -179,7 +179,7 @@ case 2:
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var1[var5] = var4;
+        var1[4] = var4;
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -197,7 +197,7 @@ case 2:
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
-        var1[var5] = var4;
+        var1[4] = var4;
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -214,7 +214,7 @@ case 2:
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var1[var5] = var4;
+        var1[4] = var4;
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -231,7 +231,7 @@ case 2:
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var1[var5] = var4;
+        var1[4] = var4;
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var5 = var4.intl;
@@ -248,7 +248,7 @@ case 2:
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot31 = var1;
@@ -791,7 +791,7 @@ case 63:
         var6 = var6.ZNR2fi;
         var7 = var7.bind(var8)(var6);
         var6 = 'link';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var8 = var6.intl;
@@ -802,7 +802,7 @@ case 63:
         var6 = var6["20uQR3"];
         var7 = var7.bind(var8)(var6);
         var6 = 'embed';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var8 = var6.intl;
@@ -813,7 +813,7 @@ case 63:
         var6 = var6.L4lxyE;
         var7 = var7.bind(var8)(var6);
         var6 = 'poll';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var8 = var6.intl;
@@ -824,7 +824,7 @@ case 63:
         var6 = var6.nrpA5E;
         var7 = var7.bind(var8)(var6);
         var6 = 'snapshot';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var8 = var6.intl;
@@ -835,7 +835,7 @@ case 63:
         var6 = var6.AV/v6i;
         var7 = var7.bind(var8)(var6);
         var6 = 'file';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var8 = var6.intl;
@@ -846,7 +846,7 @@ case 63:
         var6 = var6.XM9XGP;
         var7 = var7.bind(var8)(var6);
         var6 = 'video';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var8 = var6.intl;
@@ -857,7 +857,7 @@ case 63:
         var6 = var6.TNLcpx;
         var7 = var7.bind(var8)(var6);
         var6 = 'image';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var8 = var6.intl;
@@ -868,7 +868,7 @@ case 63:
         var6 = var6.F8Wf0e;
         var7 = var7.bind(var8)(var6);
         var6 = 'sound';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var7 = var6.intl;
@@ -879,7 +879,7 @@ case 63:
         var1 = var1.PJgX2h;
         var6 = var6.bind(var7)(var1);
         var1 = 'sticker';
-        var5[var6] = var1;
+        var5[5] = var1;
         var1 = 16;
         var1 = var4[var1];
         var4 = var3.bind(var2)(var1);
@@ -906,7 +906,7 @@ case 63:
         var6 = var6.tPZo4p;
         var7 = var7.bind(var8)(var6);
         var6 = 'user';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var8 = var6.intl;
@@ -917,7 +917,7 @@ case 63:
         var6 = var6.JL7sRS;
         var7 = var7.bind(var8)(var6);
         var6 = 'bot';
-        var5[var7] = var6;
+        var5[6] = var6;
         var6 = var4[var1];
         var6 = var3.bind(var2)(var6);
         var7 = var6.intl;
@@ -928,7 +928,7 @@ case 63:
         var1 = var1.WjkIKU;
         var6 = var6.bind(var7)(var1);
         var1 = 'webhook';
-        var5[var6] = var1;
+        var5[5] = var1;
         var1 = 16;
         var1 = var4[var1];
         var4 = var3.bind(var2)(var1);
@@ -994,7 +994,7 @@ case 63:
             var3 = copyDataProperties(var9, var8);
             var6 = _closure2_slot0;
             var3 = 'group';
-            var1[var3] = var6;
+            var1[2] = var6;
             var5 = var2.text;
             var2 = global;
             var2 = var2.HermesInternal;
@@ -1003,7 +1003,7 @@ case 63:
             var2 = '-';
             var3 = var4.bind(var3)(var6, var2, var5);
             var2 = 'key';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         };
         var1 = var2.bind(var3)(var1);
@@ -1290,7 +1290,7 @@ case 84:
             var17 = var13;
             var14 = copyDataProperties(var18, var17);
             var14 = 'users';
-            var7[var14] = var15;
+            var7[13] = var15;
             var12 = var8.bind(var9)(var7);
             _fun0010_ip = 83; continue _fun0010;
 case 68:
@@ -1305,7 +1305,7 @@ case 68:
             var14 = copyDataProperties(var18, var17);
             var15 = var5.channelId;
             var14 = 'channelId';
-            var7[var14] = var15;
+            var7[13] = var15;
             var12 = var8.bind(var9)(var7);
             _fun0010_ip = 83; continue _fun0010;
 case 66:
@@ -1323,7 +1323,7 @@ case 87:
             var13 = copyDataProperties(var18, var17);
             var14 = var5.guildId;
             var13 = 'guildId';
-            var7[var13] = var14;
+            var7[12] = var14;
             var12 = var8.bind(var9)(var7);
 case 83:
             var8 = _closure1_slot11;
@@ -2051,7 +2051,7 @@ case 115:
         var2['validator'] = var5;
         var15 = _closure1_slot42;
         var2['getAutocompletions'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_USERNAME_FROM;
         var2 = {};
@@ -2071,7 +2071,7 @@ case 115:
         var2['componentType'] = var16;
         var16 = 'author_id';
         var2['queryKey'] = var16;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_MENTIONS;
         var2 = {};
@@ -2123,7 +2123,7 @@ case 115:
         };
         var2['validator'] = var16;
         var2['getAutocompletions'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_USERNAME_MENTIONS;
         var2 = {};
@@ -2141,7 +2141,7 @@ case 115:
         var2['componentType'] = var5;
         var5 = 'mentions';
         var2['queryKey'] = var5;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_HAS;
         var2 = {};
@@ -2191,7 +2191,7 @@ case 115:
             return var1;
         };
         var2['getAutocompletions'] = var5;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_HAS;
         var2 = {};
@@ -2213,7 +2213,7 @@ case 115:
         var2['componentType'] = var15;
         var15 = 'has';
         var2['queryKey'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_LINK_FROM;
         var2 = {};
@@ -2252,7 +2252,7 @@ case 115:
         var15 = _closure1_slot23;
         var15 = var15.FILTER;
         var2['componentType'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_LINK_FROM;
         var2 = {};
@@ -2271,7 +2271,7 @@ case 115:
         var2['componentType'] = var15;
         var15 = 'link_hostname';
         var2['queryKey'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_FILE_TYPE;
         var2 = {};
@@ -2310,7 +2310,7 @@ case 115:
         var15 = _closure1_slot23;
         var15 = var15.FILTER;
         var2['componentType'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_FILE_TYPE;
         var2 = {};
@@ -2329,7 +2329,7 @@ case 115:
         var2['componentType'] = var15;
         var15 = 'attachment_extension';
         var2['queryKey'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_FILE_NAME;
         var2 = {};
@@ -2368,7 +2368,7 @@ case 115:
         var15 = _closure1_slot23;
         var15 = var15.FILTER;
         var2['componentType'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_FILE_NAME;
         var2 = {};
@@ -2387,7 +2387,7 @@ case 115:
         var2['componentType'] = var15;
         var15 = 'attachment_filename';
         var2['queryKey'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_BEFORE;
         var2 = {};
@@ -2438,7 +2438,7 @@ case 115:
             return var1;
         };
         var2['getAutocompletions'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_ON;
         var2 = {};
@@ -2506,7 +2506,7 @@ case 115:
             return var1;
         };
         var2['getAutocompletions'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_AFTER;
         var2 = {};
@@ -2557,7 +2557,7 @@ case 115:
             return var1;
         };
         var2['getAutocompletions'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_BEFORE;
         var2 = {};
@@ -2581,7 +2581,7 @@ case 115:
             return var1;
         };
         var2['validator'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_ON;
         var2 = {};
@@ -2605,7 +2605,7 @@ case 115:
             return var1;
         };
         var2['validator'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_AFTER;
         var2 = {};
@@ -2629,7 +2629,7 @@ case 115:
             return var1;
         };
         var2['validator'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_IN;
         var2 = {};
@@ -2700,7 +2700,7 @@ case 79:
         var2['validator'] = var15;
         var15 = _closure1_slot43;
         var2['getAutocompletions'] = var15;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_IN;
         var2 = {};
@@ -2745,7 +2745,7 @@ case 121:
         var2['validator'] = var12;
         var12 = 'channel_id';
         var2['queryKey'] = var12;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_PINNED;
         var2 = {};
@@ -2797,7 +2797,7 @@ case 121:
             return var1;
         };
         var2['getAutocompletions'] = var12;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_PINNED;
         var2 = {};
@@ -2845,7 +2845,7 @@ case 96:
             }
         };
         var2['validator'] = var12;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.FILTER_AUTHOR_TYPE;
         var2 = {};
@@ -2895,7 +2895,7 @@ case 96:
             return var1;
         };
         var2['getAutocompletions'] = var10;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot15;
         var3 = var2.ANSWER_AUTHOR_TYPE;
         var2 = {};
@@ -2916,7 +2916,7 @@ case 96:
         var2['componentType'] = var4;
         var4 = 'author_type';
         var2['queryKey'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot44 = var1;

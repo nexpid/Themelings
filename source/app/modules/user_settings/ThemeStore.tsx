@@ -321,7 +321,7 @@ case 15:
             var4 = var2;
             var2 = copyDataProperties(var5, var4);
             var2 = 'theme';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -356,9 +356,9 @@ case 18:
             var5 = var5.DARK;
             var3 = _closure1_slot13;
             var3 = var3.DARKER;
-            var4[var5] = var3;
+            var4[4] = var3;
             var3 = 'preferences';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1 = var2;
 case 16:
             return var1;

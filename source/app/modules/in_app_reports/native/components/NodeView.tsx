@@ -954,7 +954,7 @@ case 62:
                                 var2 = copyDataProperties(var5, var4);
                                 var3 = _closure4_slot0;
                                 var2 = _closure4_slot1;
-                                var1[var3] = var2;
+                                var1[2] = var2;
                                 return var1;
                             };
                             var1 = var3.bind(var2)(var1);
@@ -1160,7 +1160,7 @@ case 77:
                     var14 = 0;
                     var16 = var9;
                     var10 = arraySpread(var16, var15, var14);
-                    var9[var10] = var12;
+                    var9[9] = var12;
                     var10 = var10 + var11;
                     var4['history'] = var9;
                     var4 = var7.bind(var8)(var6, var4);

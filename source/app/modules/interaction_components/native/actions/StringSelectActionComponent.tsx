@@ -208,11 +208,11 @@ case 15:
             var16 = var7;
             var7 = copyDataProperties(var17, var16);
             var7 = 'placeholder';
-            var6[var7] = var10;
+            var6[6] = var10;
             var7 = 'state';
-            var6[var7] = var9;
+            var6[6] = var9;
             var7 = 'selectedOptions';
-            var6[var7] = var8;
+            var6[6] = var8;
             var1['model'] = var6;
             var5 = function onTap() {
                 var5 = _closure1_slot1;

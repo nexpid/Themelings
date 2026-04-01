@@ -91,12 +91,12 @@ case 9:
             var12 = copyDataProperties(var17, var16);
             var14 = 'text-muted';
             var12 = 'color';
-            var8[var12] = var14;
+            var8[11] = var14;
             var12 = var2.discriminator;
             var14 = ['#'];
             var14[1] = var12;
             var12 = 'children';
-            var8[var12] = var14;
+            var8[11] = var14;
             var8 = var6.bind(var4)(var9, var8);
             var7[1] = var8;
             var1['children'] = var7;
@@ -138,20 +138,20 @@ case 12:
             var13 = copyDataProperties(var17, var16);
             var14 = 'text-muted';
             var13 = 'color';
-            var10[var13] = var14;
+            var10[12] = var14;
             var13 = ['('];
             var13[1] = var12;
             var12 = ')';
             var13[2] = var12;
             var12 = 'children';
-            var10[var12] = var13;
+            var10[11] = var13;
             var10 = var8.bind(var4)(var11, var10);
             var9[2] = var10;
             var5['children'] = var9;
             var6 = var8.bind(var4)(var7, var5);
 case 11:
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

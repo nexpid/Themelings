@@ -325,7 +325,7 @@ case 18:
             var6 = var6.name;
             var3['emojiName'] = var6;
             var3['userId'] = var5;
-            var2[var4] = var3;
+            var2[3] = var3;
             var3 = 1;
             var3 = var4 + var3;
             _closure1_slot12 = var2;

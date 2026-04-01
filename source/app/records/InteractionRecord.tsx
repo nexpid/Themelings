@@ -151,7 +151,7 @@ case 9:
             var2 = new var8[var5](var7, var6);
             var4 = var2 instanceof Object ? var2 : var4;
             var2 = 'user';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
             var8 = var2;

@@ -305,7 +305,7 @@ case 17:
                             return var1;
                         };
                         var5 = 'onPress';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
@@ -321,7 +321,7 @@ case 17:
                         return var1;
                     };
                     var3['render'] = var10;
-                    var1[var9] = var3;
+                    var1[8] = var3;
                     var2 = var8[var2];
                     var2 = var7.bind(var6)(var2);
                     var2 = var2.DiscoverabilityScenes;
@@ -348,7 +348,7 @@ case 17:
                         return var1;
                     };
                     var2['render'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var1 = undefined;

@@ -388,7 +388,7 @@ case 28:
             var18 = var5;
             var9 = copyDataProperties(var19, var18);
             var9 = 'onPress';
-            var2[var9] = var13;
+            var2[8] = var13;
             var9 = 16;
             var13 = var16[var9];
             var13 = var15.bind(var4)(var13);
@@ -400,7 +400,7 @@ case 28:
             var9 = var9.XpeFYr;
             var13 = var13.bind(var14)(var9);
             var9 = 'text';
-            var2[var9] = var13;
+            var2[8] = var13;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
 case 26:
@@ -416,7 +416,7 @@ case 26:
             var18 = var5;
             var9 = copyDataProperties(var19, var18);
             var9 = 'onPress';
-            var2[var9] = var12;
+            var2[8] = var12;
             var9 = 16;
             var12 = var15[var9];
             var12 = var14.bind(var4)(var12);
@@ -428,7 +428,7 @@ case 26:
             var9 = var9.XpeFYr;
             var12 = var12.bind(var13)(var9);
             var9 = 'text';
-            var2[var9] = var12;
+            var2[8] = var12;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
 case 24:
@@ -444,7 +444,7 @@ case 24:
             var18 = var5;
             var9 = copyDataProperties(var19, var18);
             var9 = 'onPress';
-            var2[var9] = var11;
+            var2[8] = var11;
             var9 = 16;
             var11 = var14[var9];
             var11 = var13.bind(var4)(var11);
@@ -456,7 +456,7 @@ case 24:
             var9 = var9["7XdMW2"];
             var11 = var11.bind(var12)(var9);
             var9 = 'text';
-            var2[var9] = var11;
+            var2[8] = var11;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
 case 22:
@@ -472,7 +472,7 @@ case 22:
             var18 = var5;
             var9 = copyDataProperties(var19, var18);
             var9 = 'onPress';
-            var2[var9] = var10;
+            var2[8] = var10;
             var9 = 16;
             var10 = var13[var9];
             var10 = var12.bind(var4)(var10);
@@ -484,7 +484,7 @@ case 22:
             var9 = var9["4yfIDk"];
             var10 = var10.bind(var11)(var9);
             var9 = 'text';
-            var2[var9] = var10;
+            var2[8] = var10;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
 case 20:
@@ -519,7 +519,7 @@ case 20:
                 return var1;
             };
             var8 = 'onPress';
-            var2[var8] = var9;
+            var2[7] = var9;
             var8 = 16;
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
@@ -531,7 +531,7 @@ case 20:
             var8 = var8.cQDYRu;
             var9 = var9.bind(var10)(var8);
             var8 = 'text';
-            var2[var8] = var9;
+            var2[7] = var9;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
 case 18:
@@ -547,7 +547,7 @@ case 18:
             var18 = var5;
             var5 = copyDataProperties(var19, var18);
             var5 = 'onPress';
-            var1[var5] = var6;
+            var1[4] = var6;
             var5 = 16;
             var6 = var9[var5];
             var6 = var8.bind(var4)(var6);
@@ -559,7 +559,7 @@ case 18:
             var5 = var5.KLOhbO;
             var6 = var6.bind(var7)(var5);
             var5 = 'text';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

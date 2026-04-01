@@ -1,4 +1,4 @@
-// app/modules/noise_cancellation/web/queryAudioEffects.tsx
+// app/modules/noise_cancellation/queryAudioEffects.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -155,7 +155,7 @@ case 2:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/noise_cancellation/web/queryAudioEffects.tsx';
+    var4 = 'modules/noise_cancellation/queryAudioEffects.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function queryAudioEffects() {
         var1 = undefined;

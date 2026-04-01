@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var15.OAuth2Scopes;
     var15 = var15.GUILDS_CHANNELS_READ;
     var13[2] = var15;
-    var11[var14] = var13;
+    var11[13] = var13;
     var7['scope'] = var11;
     var11 = function handler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -183,7 +183,7 @@ case 2:
         }
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var10 = var4.GET_CHANNELS;
     var7 = {};
     var11 = var6[var9];
@@ -282,7 +282,7 @@ case 10:
         }
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var10 = var4.GET_CHANNEL_PERMISSIONS;
     var7 = {};
     var11 = {};
@@ -298,7 +298,7 @@ case 10:
     var15 = var15.OAuth2Scopes;
     var15 = var15.GUILDS_CHANNELS_READ;
     var13[1] = var15;
-    var11[var14] = var13;
+    var11[13] = var13;
     var7['scope'] = var11;
     var11 = function handler() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -340,7 +340,7 @@ case 12:
         }
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var10 = var4.SELECT_VOICE_CHANNEL;
     var7 = {};
     var11 = var6[var9];
@@ -693,7 +693,7 @@ case 24:
         }
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var10 = var4.GET_SELECTED_VOICE_CHANNEL;
     var7 = {};
     var11 = {};
@@ -709,7 +709,7 @@ case 24:
     var14 = var14.OAuth2Scopes;
     var14 = var14.RPC_VOICE_READ;
     var12[1] = var14;
-    var11[var13] = var12;
+    var11[12] = var12;
     var7['scope'] = var11;
     var11 = function handler(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -753,7 +753,7 @@ case 42:
         }
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var10 = var4.SELECT_TEXT_CHANNEL;
     var7 = {};
     var11 = var6[var9];
@@ -1036,7 +1036,7 @@ case 45:
         }
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var7 = var4.CREATE_CHANNEL_INVITE;
     var4 = {};
     var9 = var6[var9];
@@ -1097,7 +1097,7 @@ case 45:
         return var1;
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

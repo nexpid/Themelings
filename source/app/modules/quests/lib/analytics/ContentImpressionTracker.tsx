@@ -360,17 +360,17 @@ case 8:
                                     var24 = var2;
                                     var9 = copyDataProperties(var24, var23);
                                     var9 = 'shouldExtendSession';
-                                    var2[var9] = var15;
+                                    var2[8] = var15;
                                     var9 = 'adContentId';
-                                    var2[var9] = var11;
+                                    var2[8] = var11;
                                     var9 = var10.entity;
                                     var11 = var9.adCreativeType;
                                     var9 = 'adCreativeType';
-                                    var2[var9] = var11;
+                                    var2[8] = var11;
                                     var9 = _closure1_slot11;
                                     var11 = var9.QUEST_CONTENT_VIEWED;
                                     var9 = 'event';
-                                    var2[var9] = var11;
+                                    var2[8] = var11;
                                     var9 = {};
                                     var23 = _closure5_slot1;
                                     var24 = var9;
@@ -380,7 +380,7 @@ case 8:
                                     var24 = var9;
                                     var7 = copyDataProperties(var24, var23);
                                     var7 = 'properties';
-                                    var2[var7] = var9;
+                                    var2[6] = var9;
                                     var2 = var4.bind(var6)(var2);
                                     _fun0005_ip = 26; continue _fun0005;
 case 25:
@@ -444,13 +444,13 @@ case 29:
                                     var24 = var2;
                                     var6 = copyDataProperties(var24, var23);
                                     var6 = 'shouldExtendSession';
-                                    var2[var6] = var15;
+                                    var2[5] = var15;
                                     var6 = 'questId';
-                                    var2[var6] = var14;
+                                    var2[5] = var14;
                                     var6 = _closure1_slot11;
                                     var14 = var6.QUEST_CONTENT_VIEWED;
                                     var6 = 'event';
-                                    var2[var6] = var14;
+                                    var2[5] = var14;
                                     var6 = {};
                                     var23 = _closure5_slot1;
                                     var24 = var6;
@@ -478,7 +478,7 @@ case 34:
                                     var12 = var9;
 case 33:
                                     var9 = 'traffic_metadata_raw';
-                                    var6[var9] = var12;
+                                    var6[8] = var12;
                                     var9 = _closure1_slot0;
                                     var8 = _closure1_slot2;
                                     var8 = var8[var10];
@@ -500,9 +500,9 @@ case 38:
                                     var7 = var5;
 case 37:
                                     var5 = 'traffic_metadata_sealed';
-                                    var6[var5] = var7;
+                                    var6[4] = var7;
                                     var5 = 'properties';
-                                    var2[var5] = var6;
+                                    var2[4] = var6;
                                     var2 = var3.bind(var4)(var2);
 case 26:
                                     return var1;
@@ -634,15 +634,15 @@ case 47:
                                 var22 = var2;
                                 var9 = copyDataProperties(var22, var21);
                                 var9 = 'adContentId';
-                                var2[var9] = var11;
+                                var2[8] = var11;
                                 var9 = var10.entity;
                                 var11 = var9.adCreativeType;
                                 var9 = 'adCreativeType';
-                                var2[var9] = var11;
+                                var2[8] = var11;
                                 var9 = _closure1_slot11;
                                 var11 = var9.QUEST_CONTENT_VIEW_TIME;
                                 var9 = 'event';
-                                var2[var9] = var11;
+                                var2[8] = var11;
                                 var9 = {};
                                 var21 = _closure4_slot3;
                                 var22 = var9;
@@ -652,7 +652,7 @@ case 47:
                                 var22 = var9;
                                 var8 = copyDataProperties(var22, var21);
                                 var8 = 'properties';
-                                var2[var8] = var9;
+                                var2[7] = var9;
                                 var2 = var4.bind(var5)(var2);
                                 _fun0007_ip = 49; continue _fun0007;
 case 45:
@@ -719,11 +719,11 @@ case 53:
                                 var22 = var2;
                                 var9 = copyDataProperties(var22, var21);
                                 var9 = 'questId';
-                                var2[var9] = var10;
+                                var2[8] = var10;
                                 var6 = _closure1_slot11;
                                 var9 = var6.QUEST_CONTENT_VIEW_TIME;
                                 var6 = 'event';
-                                var2[var6] = var9;
+                                var2[5] = var9;
                                 var6 = {};
                                 var21 = _closure4_slot3;
                                 var22 = var6;
@@ -733,7 +733,7 @@ case 53:
                                 var22 = var6;
                                 var5 = copyDataProperties(var22, var21);
                                 var5 = 'properties';
-                                var2[var5] = var6;
+                                var2[4] = var6;
                                 var2 = var3.bind(var4)(var2);
 case 49:
                                 return var1;
@@ -957,15 +957,15 @@ case 46:
                                 var19 = var2;
                                 var9 = copyDataProperties(var19, var18);
                                 var9 = 'adContentId';
-                                var2[var9] = var11;
+                                var2[8] = var11;
                                 var9 = var10.entity;
                                 var11 = var9.adCreativeType;
                                 var9 = 'adCreativeType';
-                                var2[var9] = var11;
+                                var2[8] = var11;
                                 var9 = _closure1_slot11;
                                 var11 = var9.QUEST_CONTENT_LOADED;
                                 var9 = 'event';
-                                var2[var9] = var11;
+                                var2[8] = var11;
                                 var9 = {};
                                 var18 = _closure4_slot1;
                                 var19 = var9;
@@ -975,7 +975,7 @@ case 46:
                                 var19 = var9;
                                 var7 = copyDataProperties(var19, var18);
                                 var7 = 'properties';
-                                var2[var7] = var9;
+                                var2[6] = var9;
                                 var2 = var4.bind(var6)(var2);
                                 _fun0010_ip = 62; continue _fun0010;
 case 61:
@@ -1036,11 +1036,11 @@ case 65:
                                 var19 = var2;
                                 var6 = copyDataProperties(var19, var18);
                                 var6 = 'questId';
-                                var2[var6] = var14;
+                                var2[5] = var14;
                                 var6 = _closure1_slot11;
                                 var14 = var6.QUEST_CONTENT_LOADED;
                                 var6 = 'event';
-                                var2[var6] = var14;
+                                var2[5] = var14;
                                 var6 = {};
                                 var18 = _closure4_slot1;
                                 var19 = var6;
@@ -1068,7 +1068,7 @@ case 70:
                                 var12 = var9;
 case 69:
                                 var9 = 'traffic_metadata_raw';
-                                var6[var9] = var12;
+                                var6[8] = var12;
                                 var9 = _closure1_slot0;
                                 var8 = _closure1_slot2;
                                 var8 = var8[var10];
@@ -1090,9 +1090,9 @@ case 74:
                                 var7 = var5;
 case 73:
                                 var5 = 'traffic_metadata_sealed';
-                                var6[var5] = var7;
+                                var6[4] = var7;
                                 var5 = 'properties';
-                                var2[var5] = var6;
+                                var2[4] = var6;
                                 var2 = var3.bind(var4)(var2);
 case 62:
                                 return var1;
@@ -1436,10 +1436,10 @@ case 99:
                 var5 = copyDataProperties(var9, var8);
                 var6 = var3.adContentIds;
                 var5 = 'adContentIds';
-                var2[var5] = var6;
+                var2[4] = var6;
                 var5 = var3.adCreativeType;
                 var3 = 'adCreativeType';
-                var2[var3] = var5;
+                var2[2] = var5;
                 var3 = var4.prototype;
                 var3 = Object.create(var3, {constructor: {value: var4}});
                 var10 = var3;

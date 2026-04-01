@@ -830,7 +830,7 @@ case 61:
 case 60:
             var7[1] = var6;
             var6 = 'children';
-            var1[var6] = var7;
+            var1[5] = var7;
             var1 = var5.bind(var3)(var4, var1);
             var1 = var2.bind(var3)(var1);
             return var1;

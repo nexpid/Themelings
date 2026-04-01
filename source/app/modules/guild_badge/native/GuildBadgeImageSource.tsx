@@ -66,7 +66,7 @@ case 9:
     var13 = var8[var11];
     var13 = var12.bind(var1)(var13);
     var9['imageSource'] = var13;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var8[var6];
     var9 = var7.bind(var1)(var9);
     var9 = var9.BadgeCategory;
@@ -76,7 +76,7 @@ case 9:
     var13 = var8[var13];
     var13 = var12.bind(var1)(var13);
     var9['imageSource'] = var13;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var8[var6];
     var9 = var7.bind(var1)(var9);
     var9 = var9.BadgeCategory;
@@ -85,7 +85,7 @@ case 9:
     var13 = var8[var11];
     var13 = var12.bind(var1)(var13);
     var9['imageSource'] = var13;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var8[var6];
     var9 = var7.bind(var1)(var9);
     var9 = var9.BadgeCategory;
@@ -103,7 +103,7 @@ case 9:
     var13 = var8[var13];
     var13 = var12.bind(var1)(var13);
     var9['premiumImageSource'] = var13;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var8[var6];
     var9 = var7.bind(var1)(var9);
     var9 = var9.BadgeCategory;
@@ -121,7 +121,7 @@ case 9:
     var13 = var8[var13];
     var13 = var12.bind(var1)(var13);
     var9['premiumImageSource'] = var13;
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var8[var6];
     var9 = var7.bind(var1)(var9);
     var9 = var9.BadgeCategory;
@@ -130,13 +130,13 @@ case 9:
     var11 = var8[var11];
     var11 = var12.bind(var1)(var11);
     var9['imageSource'] = var11;
-    var5[var10] = var9;
+    var5[9] = var9;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
     var6 = var6.BadgeCategory;
     var9 = var6.NONE;
     var6 = {};
-    var5[var9] = var6;
+    var5[8] = var6;
     var _closure1_slot2 = var5;
     var6 = 11;
     var6 = var8[var6];

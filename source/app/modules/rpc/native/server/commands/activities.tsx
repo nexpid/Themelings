@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15[0] = var17;
     var15[1] = var13;
     var15[2] = var12;
-    var14[var16] = var15;
+    var14[15] = var15;
     var7['scope'] = var14;
     var14 = function handler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -115,7 +115,7 @@ case 2:
         }
     };
     var7['handler'] = var14;
-    var2[var9] = var7;
+    var2[8] = var7;
     var7 = var4.INITIATE_IMAGE_UPLOAD;
     var4 = {};
     var9 = {};
@@ -128,7 +128,7 @@ case 2:
     var10[0] = var14;
     var10[1] = var13;
     var10[2] = var12;
-    var9[var11] = var10;
+    var9[10] = var10;
     var4['scope'] = var9;
     var8 = function handler(arg1) {
         var2 = arg1;
@@ -372,7 +372,7 @@ case 6:
         return var1;
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -249,9 +249,9 @@ case 30:
             var6 = copyDataProperties(var17, var16);
             var9 = true;
             var6 = 'disabled';
-            var1[var6] = var9;
+            var1[5] = var9;
             var6 = 'tooltip';
-            var1[var6] = var8;
+            var1[5] = var8;
             return var1;
 case 9:
             var1 = {};
@@ -260,7 +260,7 @@ case 9:
             var6 = copyDataProperties(var17, var16);
             var8 = !var5;
             var6 = 'disabled';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = undefined;
             if(var5) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
@@ -277,7 +277,7 @@ case 32:
             var6 = var8.bind(var9)(var5);
 case 31:
             var5 = 'tooltip';
-            var1[var5] = var6;
+            var1[4] = var6;
             return var1;
 case 8:
             var1 = {};
@@ -286,7 +286,7 @@ case 8:
             var4 = copyDataProperties(var17, var16);
             var5 = true;
             var4 = 'disabled';
-            var1[var4] = var5;
+            var1[3] = var5;
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var4 = var2[var7];
@@ -299,9 +299,9 @@ case 8:
             var2 = var2.DPfdsq;
             var4 = var4.bind(var5)(var2);
             var2 = 'text';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'tooltip';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

@@ -49,13 +49,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.spacing;
     var12 = var11.PX_24;
     var11 = 'paddingBottom';
-    var10[var11] = var12;
+    var10[10] = var12;
     var12 = 'column-reverse';
     var11 = 'flexDirection';
-    var10[var11] = var12;
+    var10[10] = var12;
     var12 = 'hidden';
     var11 = 'overflow';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['placeholder'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot5 = var4;

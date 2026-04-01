@@ -112,11 +112,11 @@ case 4:
             var6 = copyDataProperties(var21, var20);
             var13 = var9.actionSheetBackground;
             var6 = 'backgroundStyles';
-            var2[var6] = var13;
+            var2[5] = var13;
             var6 = 'scrollable';
-            var2[var6] = var11;
+            var2[5] = var11;
             var6 = 'startExpanded';
-            var2[var6] = var7;
+            var2[5] = var7;
             var6 = 7;
             var6 = var14[var6];
             var6 = var16.bind(var5)(var6);
@@ -182,7 +182,7 @@ case 6:
             var6['trailing'] = var12;
             var11 = var4.bind(var5)(var11, var6);
             var6 = 'header';
-            var2[var6] = var11;
+            var2[5] = var11;
             var6 = {};
             var11 = var9.contentContainer;
             var9 = new Array(2);
@@ -192,7 +192,7 @@ case 6:
             var6['children'] = var8;
             var7 = var4.bind(var5)(var7, var6);
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var1.name;
             var1 = var4.bind(var5)(var3, var2, var1);
             return var1;

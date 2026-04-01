@@ -406,11 +406,11 @@ case 6:
                 var11 = _closure1_slot9;
                 var12 = var11.STICKER_PREMIUM_TIER_2_UPSELL_MODAL;
                 var11 = 'section';
-                var10[var11] = var12;
+                var10[10] = var12;
                 var11 = _closure1_slot10;
                 var12 = var11.BUTTON_CTA;
                 var11 = 'object';
-                var10[var11] = var12;
+                var10[10] = var12;
                 var4['location'] = var10;
                 var4 = var8.bind(var9)(var7, var4);
                 var4 = 23;

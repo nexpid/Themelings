@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3['render'] = var2;
                 var2 = 'GUILD_ROLE_CONNECTIONS_SCREEN';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = undefined;

@@ -183,7 +183,7 @@ case 4:
                 var8 = var8.filterStaffContent;
                 var9 = !var8;
                 var8 = 'filterStaffContent';
-                var5[var8] = var9;
+                var5[7] = var9;
                 var5 = var6.bind(var7)(var5);
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);

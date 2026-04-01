@@ -164,10 +164,10 @@ case 8:
                 var7 = var12.bind(var13)(var7);
                 var11 = var11 !== var7;
                 var7 = 'is_custom_message_edited';
-                var3[var7] = var11;
+                var3[6] = var11;
                 var11 = false;
                 var7 = 'is_custom_emoji_sound_available';
-                var3[var7] = var11;
+                var3[6] = var11;
                 var3 = var5.bind(var6)(var4, var3);
 case 7:
                 var4 = _closure1_slot1;

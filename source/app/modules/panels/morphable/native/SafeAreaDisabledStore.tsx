@@ -90,7 +90,7 @@ case 4:
                         var9 = var4;
                         var5 = copyDataProperties(var10, var9);
                         var5 = 'lockKeys';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         return var1;
 case 2:
                         var1 = var4;
@@ -119,7 +119,7 @@ case 7:
                         var3 = new var11[var5](var10, var9);
                         var4 = var3 instanceof Object ? var3 : var4;
                         var3 = 'lockKeys';
-                        var2[var3] = var4;
+                        var2[2] = var4;
                         var1 = var2;
 case 6:
                         return var1;

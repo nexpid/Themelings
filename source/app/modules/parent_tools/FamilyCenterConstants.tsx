@@ -1079,7 +1079,7 @@ case 4:
     var26['description'] = var28;
     var28 = var7.X;
     var26['icon'] = var28;
-    var4[var27] = var26;
+    var4[26] = var26;
     var27 = var6.PENDING_REQUEST_EXISTS;
     var26 = {};
     var28 = function header() {
@@ -1147,7 +1147,7 @@ case 6:
     var26['description'] = var28;
     var28 = var7.CHECK;
     var26['icon'] = var28;
-    var4[var27] = var26;
+    var4[26] = var26;
     var27 = var6.MAX_CONNECTIONS_REACHED;
     var26 = {};
     var28 = function header(arg1) {
@@ -1218,7 +1218,7 @@ case 11:
     var26['description'] = var28;
     var28 = var7.X;
     var26['icon'] = var28;
-    var4[var27] = var26;
+    var4[26] = var26;
     var27 = var6.INELIGIBLE_FOR_FAMILY_CENTER;
     var26 = {};
     var28 = function header() {
@@ -1262,7 +1262,7 @@ case 11:
     var26['description'] = var28;
     var28 = var7.X;
     var26['icon'] = var28;
-    var4[var27] = var26;
+    var4[26] = var26;
     var24 = var24[var20];
     var26 = var25.bind(var1)(var24);
     var25 = var26.fileFinishedImporting;

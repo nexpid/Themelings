@@ -384,7 +384,7 @@ case 37:
             var19 = var2;
             var8 = copyDataProperties(var19, var18);
             var8 = 'lineHeight';
-            var2[var8] = var5;
+            var2[7] = var5;
             var13 = _closure1_slot1;
             var8 = _closure1_slot2;
             var8 = var8[var6];
@@ -398,30 +398,30 @@ case 39:
             var12 = var8.TEXT_MUTED;
 case 41:
             var8 = 'color';
-            var2[var8] = var12;
+            var2[7] = var12;
             var8 = 'flexGrow';
-            var2[var8] = var7;
+            var2[7] = var7;
             var1['text'] = var2;
             var2 = {'position': 'absolute', 'left': 0};
             var19 = var2;
             var18 = var4;
             var8 = copyDataProperties(var19, var18);
             var8 = 'paddingEnd';
-            var2[var8] = var11;
+            var2[7] = var11;
             var13 = 'zIndex';
-            var2[var13] = var7;
+            var2[12] = var7;
             var8 = 'none';
             var12 = 'pointerEvents';
-            var2[var12] = var8;
+            var2[11] = var8;
             var1['leadingText'] = var2;
             var2 = {'position': 'absolute', 'right': 0};
             var19 = var2;
             var18 = var4;
             var14 = copyDataProperties(var19, var18);
             var14 = 'paddingStart';
-            var2[var14] = var11;
-            var2[var13] = var7;
-            var2[var12] = var8;
+            var2[13] = var11;
+            var2[12] = var7;
+            var2[11] = var8;
             var1['trailingText'] = var2;
             var2 = {'position': 'absolute', 'left': 0, 'top': 0, 'bottom': 0};
             var2['paddingTop'] = var10;
@@ -446,7 +446,7 @@ case 41:
             var18 = var4;
             var4 = copyDataProperties(var19, var18);
             var4 = 'borderRightWidth';
-            var2[var4] = var7;
+            var2[3] = var7;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var3 = var3[var6];
@@ -454,7 +454,7 @@ case 41:
             var3 = var3.colors;
             var4 = var3.BORDER_STRONG;
             var3 = 'borderRightColor';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1['splitBorder'] = var2;
             return var1;
         }

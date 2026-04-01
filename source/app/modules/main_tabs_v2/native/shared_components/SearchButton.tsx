@@ -104,7 +104,7 @@ case 4:
             var6 = var6.style;
             var7[2] = var6;
             var6 = 'style';
-            var1[var6] = var7;
+            var1[5] = var7;
             var8 = _closure1_slot3;
             var12 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -139,7 +139,7 @@ case 4:
             var5 = var8.bind(var4)(var7, var5);
             var6[1] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

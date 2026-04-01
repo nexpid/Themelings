@@ -816,15 +816,15 @@ case 131:
                         var10 = var1;
                         var6 = copyDataProperties(var11, var10);
                         var6 = 'count';
-                        var5[var6] = var8;
+                        var5[5] = var8;
                         var7 = {};
                         var10 = var1.count_details;
                         var11 = var7;
                         var6 = copyDataProperties(var11, var10);
                         var6 = 'normal';
-                        var7[var6] = var8;
+                        var7[5] = var8;
                         var6 = 'count_details';
-                        var5[var6] = var7;
+                        var5[5] = var7;
                         var6 = _closure3_slot1;
                         var6 = !var6;
                         var7 = !var6;
@@ -833,7 +833,7 @@ case 135:
                         var7 = var1.me;
 case 134:
                         var6 = 'me';
-                        var5[var6] = var7;
+                        var5[5] = var7;
                         var2 = var5;
                         _fun0009_ip = 125; continue _fun0009;
 case 133:
@@ -872,9 +872,9 @@ case 141:
                         var11 = var6;
                         var5 = copyDataProperties(var11, var10);
                         var5 = 'vote';
-                        var6[var5] = var7;
+                        var6[4] = var7;
                         var5 = 'count_details';
-                        var3[var5] = var6;
+                        var3[4] = var6;
                         var5 = _closure3_slot1;
                         var5 = !var5;
                         var6 = !var5;
@@ -883,7 +883,7 @@ case 143:
                         var6 = var1.me_vote;
 case 142:
                         var5 = 'me_vote';
-                        var3[var5] = var6;
+                        var3[4] = var6;
                         var2 = var3;
                         _fun0009_ip = 125; continue _fun0009;
 case 127:
@@ -922,19 +922,19 @@ case 152:
                         var6 = var1.me_burst;
 case 151:
                         var4 = 'me_burst';
-                        var3[var4] = var6;
+                        var3[3] = var6;
                         var4 = 'burst_count';
-                        var3[var4] = var7;
+                        var3[3] = var7;
                         var6 = {};
                         var10 = var1.count_details;
                         var11 = var6;
                         var4 = copyDataProperties(var11, var10);
                         var4 = 'burst';
-                        var6[var4] = var7;
+                        var6[3] = var7;
                         var4 = 'count_details';
-                        var3[var4] = var6;
+                        var3[3] = var6;
                         var4 = 'burst_colors';
-                        var3[var4] = var5;
+                        var3[3] = var5;
                         var2 = var3;
 case 125:
                         return var2;
@@ -961,7 +961,7 @@ case 156:
                 var1 = var8.bind(var9)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.VOTE;
-                if(!(var2 !== var1)) { _fun0008_ip = 30; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 29; continue _fun0008 }
 case 157:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
@@ -973,7 +973,7 @@ case 157:
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
                 _fun0008_ip = 153; continue _fun0008;
-case 30:
+case 29:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
                 var1['emoji'] = var7;
@@ -1127,7 +1127,7 @@ case 168:
                         var10 = var5;
                         var6 = copyDataProperties(var11, var10);
                         var6 = 'count';
-                        var2[var6] = var8;
+                        var2[5] = var8;
                         var6 = _closure3_slot1;
                         var7 = !var6;
                         if(!var7) { _fun0011_ip = 169; continue _fun0011 }
@@ -1135,15 +1135,15 @@ case 170:
                         var7 = var5.me;
 case 169:
                         var6 = 'me';
-                        var2[var6] = var7;
+                        var2[5] = var7;
                         var7 = {};
                         var10 = var5.count_details;
                         var11 = var7;
                         var6 = copyDataProperties(var11, var10);
                         var6 = 'normal';
-                        var7[var6] = var8;
+                        var7[5] = var8;
                         var6 = 'count_details';
-                        var2[var6] = var7;
+                        var2[5] = var7;
                         _fun0011_ip = 171; continue _fun0011;
 case 165:
                         var7 = var5.count_details;
@@ -1179,9 +1179,9 @@ case 175:
                         var11 = var7;
                         var6 = copyDataProperties(var11, var10);
                         var6 = 'vote';
-                        var7[var6] = var8;
+                        var7[5] = var8;
                         var6 = 'count_details';
-                        var3[var6] = var7;
+                        var3[5] = var7;
                         var6 = _closure3_slot1;
                         var7 = !var6;
                         if(!var7) { _fun0011_ip = 176; continue _fun0011 }
@@ -1189,7 +1189,7 @@ case 177:
                         var7 = var5.me_vote;
 case 176:
                         var6 = 'me_vote';
-                        var3[var6] = var7;
+                        var3[5] = var7;
                         var2 = var3;
                         _fun0011_ip = 171; continue _fun0011;
 case 163:
@@ -1211,7 +1211,7 @@ case 180:
                         var10 = var5;
                         var6 = copyDataProperties(var11, var10);
                         var6 = 'burst_count';
-                        var3[var6] = var7;
+                        var3[5] = var7;
                         var6 = _closure3_slot1;
                         var8 = !var6;
                         if(!var8) { _fun0011_ip = 181; continue _fun0011 }
@@ -1219,15 +1219,15 @@ case 182:
                         var8 = var5.me_burst;
 case 181:
                         var6 = 'me_burst';
-                        var3[var6] = var8;
+                        var3[5] = var8;
                         var6 = {};
                         var10 = var5.count_details;
                         var11 = var6;
                         var5 = copyDataProperties(var11, var10);
                         var5 = 'burst';
-                        var6[var5] = var7;
+                        var6[4] = var7;
                         var5 = 'count_details';
-                        var3[var5] = var6;
+                        var3[4] = var6;
                         var2 = var3;
 case 171:
                         var3 = arg2;
@@ -1496,13 +1496,13 @@ case 44:
             var3 = copyDataProperties(var6, var5);
             var4 = var2.webhookId;
             var3 = 'webkhook_id';
-            var1[var3] = var4;
+            var1[2] = var4;
             var4 = var2.editedTimestamp;
             var3 = 'edited_timestamp';
-            var1[var3] = var4;
+            var1[2] = var4;
             var3 = var2.mentionEveryone;
             var2 = 'mention_everyone';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         };
         var5['value'] = var7;

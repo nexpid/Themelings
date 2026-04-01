@@ -269,10 +269,10 @@ case 14:
                             var4 = copyDataProperties(var7, var6);
                             var5 = _closure4_slot1;
                             var4 = 'folderName';
-                            var2[var4] = var5;
+                            var2[3] = var5;
                             var4 = _closure4_slot2;
                             var3 = 'folderColor';
-                            var2[var3] = var4;
+                            var2[2] = var4;
                             var1 = var2;
 case 13:
                             return var1;
@@ -410,7 +410,7 @@ case 15:
 case 17:
                         var3['headerRight'] = var2;
                         var2 = 'Folder Settings';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     }
                 };

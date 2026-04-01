@@ -68,12 +68,12 @@ case 6:
             var14 = var1;
             var9 = copyDataProperties(var14, var13);
             var9 = 'width';
-            var1[var9] = var11;
+            var1[8] = var11;
             var9 = 'height';
-            var1[var9] = var10;
+            var1[8] = var10;
             var10 = '0 0 20 20';
             var9 = 'viewBox';
-            var1[var9] = var10;
+            var1[8] = var10;
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.Path;
@@ -81,7 +81,7 @@ case 6:
             var5['fill'] = var7;
             var6 = var3.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

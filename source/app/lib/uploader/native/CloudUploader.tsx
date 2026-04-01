@@ -903,7 +903,7 @@ case 26:
                     var8 = copyDataProperties(var14, var13);
                     var8 = 100;
                     var9 = 'progress';
-                    var7[var9] = var8;
+                    var7[8] = var8;
                     var4['_file'] = var7;
                     var8 = var4.emit;
                     var7 = var4._file;
@@ -1083,7 +1083,7 @@ case 102:
                     var10 = var6._file;
                     var11 = var2;
                     var8 = copyDataProperties(var11, var10);
-                    var2[var5] = var7;
+                    var2[4] = var7;
                     var6['_file'] = var2;
                     _fun0013_ip = 103; continue _fun0013;
 case 101:
@@ -1111,7 +1111,7 @@ case 104:
                     var10 = var3._file;
                     var11 = var2;
                     var6 = copyDataProperties(var11, var10);
-                    var2[var5] = var4;
+                    var2[4] = var4;
                     var3['_file'] = var2;
 case 103:
                     var4 = _closure3_slot0;

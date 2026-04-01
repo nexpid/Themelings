@@ -623,7 +623,7 @@ case 71:
             var6 = var6.message;
             var7 = var8.bind(var9)(var7, var6);
             var6 = 'firstMessage';
-            var3[var6] = var7;
+            var3[5] = var7;
             var5[var4] = var3;
             var2 = undefined;
 case 70:
@@ -732,7 +732,7 @@ case 79:
             var6 = new Array(0);
             var7 = var8.bind(var9)(var7, var6);
             var6 = 'firstMessage';
-            var3[var6] = var7;
+            var3[5] = var7;
             var4[var5] = var3;
             var2 = undefined;
 case 78:
@@ -774,7 +774,7 @@ case 3:
             var6 = var7.removeReactionsForEmoji;
             var7 = var6.bind(var7)(var8);
             var6 = 'firstMessage';
-            var3[var6] = var7;
+            var3[5] = var7;
             var4[var5] = var3;
             var2 = undefined;
 case 44:
@@ -822,7 +822,7 @@ case 84:
             var11 = var5;
             var5 = copyDataProperties(var12, var11);
             var5 = 'firstMessage';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3[var4] = var2;
             return var1;
 case 83:

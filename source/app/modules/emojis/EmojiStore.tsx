@@ -606,7 +606,7 @@ case 68:
                 };
                 var3 = var3.bind(var4)(var2);
                 var2 = 'recentUses';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var10 = var10.bind(var13)(var7, var9);
@@ -638,7 +638,7 @@ case 68:
                 };
                 var3 = var3.bind(var4)(var2);
                 var2 = 'recentUses';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var9 = var9.bind(var12)(var3, var8);
@@ -1585,9 +1585,9 @@ case 3:
                         var5 = '~';
                         var9 = var10.bind(var9)(var7, var5, var11);
                         var5 = 'name';
-                        var1[var5] = var9;
+                        var1[4] = var9;
                         var5 = 'originalName';
-                        var1[var5] = var7;
+                        var1[4] = var7;
                         var4 = var1;
 case 85:
                         var1 = _closure3_slot0;
@@ -2813,10 +2813,10 @@ case 157:
             }
         };
         var2 = 'computeFrecency';
-        var1[var2] = var4;
+        var1[1] = var4;
         var4 = true;
         var2 = 'calculateMaxTotalUse';
-        var1[var2] = var4;
+        var1[1] = var4;
         var2 = var3.prototype;
         var2 = Object.create(var2, {constructor: {value: var3}});
         var8 = var2;
@@ -4262,7 +4262,7 @@ case 152:
             var7 = var1;
             var3 = copyDataProperties(var7, var6);
             var3 = 'expandedSectionsByGuildIds';
-            var1[var3] = var4;
+            var1[2] = var4;
             _closure1_slot28 = var1;
             var1 = undefined;
             return var1;

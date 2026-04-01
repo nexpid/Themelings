@@ -66,11 +66,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['generateSessionFromPid'] = var4;
-    var1 = function getAppHardwareAccelerationEnabled() {
+    var4 = function getAppHardwareAccelerationEnabled() {
         var1 = true;
         return var1;
     };
-    var2['getAppHardwareAccelerationEnabled'] = var1;
+    var2['getAppHardwareAccelerationEnabled'] = var4;
+    var1 = function getDiscordIsElevated() {
+        var1 = null;
+        return var1;
+    };
+    var2['getDiscordIsElevated'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

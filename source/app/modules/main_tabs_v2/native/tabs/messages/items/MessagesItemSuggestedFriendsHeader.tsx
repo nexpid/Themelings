@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var14.colors;
     var15 = var14.PANEL_BG;
     var14 = 'backgroundColor';
-    var11[var14] = var15;
+    var11[13] = var15;
     var5['stickyOverlay'] = var11;
     var11 = {};
     var12 = var7[var12];

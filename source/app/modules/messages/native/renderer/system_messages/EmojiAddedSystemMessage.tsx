@@ -248,7 +248,7 @@ case 18:
             var6 = var4.reactions;
 case 21:
             var5 = 'reactions';
-            var1[var5] = var6;
+            var1[4] = var6;
             return var1;
 case 8:
             var1 = {};

@@ -919,11 +919,11 @@ case 9:
                     var2 = var2.voice_states;
                     var5 = var5 === var2;
                     var2 = 'unavailable';
-                    var1[var2] = var5;
+                    var1[1] = var5;
                     var2 = 'presences';
-                    var1[var2] = var4;
+                    var1[1] = var4;
                     var2 = 'members';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };
@@ -965,9 +965,9 @@ case 111:
             var13 = var2;
             var2 = copyDataProperties(var14, var13);
             var2 = 'presences';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'guilds';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1277,18 +1277,18 @@ case 140:
             var13 = var4;
             var4 = copyDataProperties(var14, var13);
             var4 = 'users';
-            var1[var4] = var6;
+            var1[3] = var6;
             var6 = new Array(0);
             var4 = 'presences';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'guilds';
-            var1[var4] = var5;
+            var1[3] = var5;
             if(!(var2 == var3)) { _fun0014_ip = 60; continue _fun0014 }
 case 142:
             var3 = new Array(0);
 case 60:
             var2 = 'private_channels';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

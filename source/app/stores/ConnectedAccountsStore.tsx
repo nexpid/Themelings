@@ -456,15 +456,15 @@ case 17:
                     var5 = copyDataProperties(var8, var7);
                     var6 = new Array(0);
                     var5 = 'features';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var3 = var3.bind(var4)(var2);
                     var2 = 'guild';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var4 = var4.bind(var5)(var2);
                 var2 = 'integrations';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var8 = var2;
@@ -525,10 +525,10 @@ case 14:
             var3 = null;
             if(!(var3 != var1)) { _fun0008_ip = 20; continue _fun0008 }
 case 21:
-            if(!(var3 != var4)) { _fun0008_ip = 4; continue _fun0008 }
-case 22:
+            if(!(var3 != var4)) { _fun0008_ip = 22; continue _fun0008 }
+case 6:
             var1['revoked'] = var4;
-case 4:
+case 22:
             if(!(var3 != var2)) { _fun0008_ip = 23; continue _fun0008 }
 case 24:
             var1['accessToken'] = var2;

@@ -178,7 +178,7 @@ case 12:
             var12 = var2;
             var2 = copyDataProperties(var13, var12);
             var2 = 'image';
-            var1[var2] = var9;
+            var1[1] = var9;
             var9 = {};
             var12 = _closure1_slot5;
             var13 = var9;
@@ -212,7 +212,7 @@ case 15:
             var12 = var2;
             var2 = copyDataProperties(var13, var12);
             var2 = 'link';
-            var1[var2] = var9;
+            var1[1] = var9;
             var9 = {};
             var12 = _closure1_slot7;
             var13 = var9;
@@ -246,7 +246,7 @@ case 18:
             var12 = var2;
             var2 = copyDataProperties(var13, var12);
             var2 = 'list';
-            var1[var2] = var9;
+            var1[1] = var9;
             var9 = {};
             var11 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -301,7 +301,7 @@ case 21:
             };
             var9['react'] = var3;
             var3 = 'interpolation';
-            var1[var3] = var9;
+            var1[2] = var9;
             var3 = {};
             var12 = _closure1_slot3;
             var13 = var3;
@@ -312,7 +312,7 @@ case 21:
             var9['transformUpperCase'] = var11;
             var10 = var10.bind(var7)(var9);
             var9 = 'parse';
-            var3[var9] = var10;
+            var3[8] = var10;
             var9 = _closure1_slot0;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
@@ -341,7 +341,7 @@ case 24:
             var12 = var2;
             var2 = copyDataProperties(var13, var12);
             var2 = 'lheading';
-            var1[var2] = var3;
+            var1[1] = var3;
             var3 = {};
             var12 = _closure1_slot4;
             var13 = var3;
@@ -375,7 +375,7 @@ case 27:
             var12 = var2;
             var2 = copyDataProperties(var13, var12);
             var2 = 'heading';
-            var1[var2] = var3;
+            var1[1] = var3;
             var3 = {};
             var12 = _closure1_slot8;
             var13 = var3;
@@ -409,7 +409,7 @@ case 30:
             var12 = var2;
             var2 = copyDataProperties(var13, var12);
             var2 = 'blockQuote';
-            var1[var2] = var3;
+            var1[1] = var3;
             var3 = {};
             var12 = _closure1_slot9;
             var13 = var3;
@@ -443,7 +443,7 @@ case 33:
             var12 = var2;
             var2 = copyDataProperties(var13, var12);
             var2 = 'paragraph';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -463,7 +463,7 @@ case 0:
             var6 = undefined;
             var5 = var5.bind(var6)(var3);
             var3 = 'parse';
-            var2[var3] = var5;
+            var2[2] = var5;
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var7 = 1;
@@ -519,22 +519,22 @@ case 34:
         var8 = var6;
         var2 = copyDataProperties(var8, var7);
         var2 = 'newline';
-        var1[var2] = var6;
+        var1[1] = var6;
         var2 = 2;
         var2 = var5[var2];
         var6 = var3.bind(var4)(var2);
         var2 = 'text';
-        var1[var2] = var6;
+        var1[1] = var6;
         var2 = 3;
         var2 = var5[var2];
         var6 = var3.bind(var4)(var2);
         var2 = 'list';
-        var1[var2] = var6;
+        var1[1] = var6;
         var2 = 4;
         var2 = var5[var2];
         var3 = var3.bind(var4)(var2);
         var2 = 'subtext';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var _closure1_slot15 = var4;

@@ -311,7 +311,7 @@ case 47:
             var9 = _closure1_slot11;
             var10 = var9.CHAT_INPUT;
             var9 = 'location';
-            var8[var9] = var10;
+            var8[8] = var10;
             var16 = var2.id;
             if(var4) { _fun0004_ip = 49; continue _fun0004 }
 case 50:
@@ -373,7 +373,7 @@ case 57:
             var20 = var8;
             var8 = copyDataProperties(var21, var20);
             var8 = 'attachmentsToUpload';
-            var2[var8] = var9;
+            var2[7] = var9;
             var8 = function onAttachmentUploadError(arg1, arg2, arg3) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -439,7 +439,7 @@ case 60:
                 }
             };
             var7 = 'onAttachmentUploadError';
-            var2[var7] = var8;
+            var2[6] = var8;
             var22 = var5;
             var21 = var3;
             var20 = var6;

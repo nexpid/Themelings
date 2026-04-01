@@ -71,7 +71,7 @@ case 2:
             }
         };
         var2 = 'onDismissed';
-        var3[var2] = var8;
+        var3[1] = var8;
         var2 = {};
         var8 = 'none';
         var2['animation'] = var8;

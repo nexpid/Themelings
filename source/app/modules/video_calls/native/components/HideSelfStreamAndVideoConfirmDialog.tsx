@@ -155,10 +155,10 @@ case 7:
             var21 = var5;
             var10 = copyDataProperties(var22, var21);
             var10 = 'title';
-            var1[var10] = var11;
+            var1[9] = var11;
             var11 = var18.wrapper;
             var10 = 'style';
-            var1[var10] = var11;
+            var1[9] = var11;
             var12 = _closure1_slot0;
             var16 = 5;
             var10 = var9[var16];
@@ -171,7 +171,7 @@ case 7:
             var9 = var9.ETE/oC;
             var10 = var10.bind(var11)(var9);
             var9 = 'cancelText';
-            var1[var9] = var10;
+            var1[8] = var10;
             var9 = var7 == var5;
             var7 = undefined;
             if(var9) { _fun0001_ip = 8; continue _fun0001 }
@@ -179,7 +179,7 @@ case 9:
             var7 = var5.onClose;
 case 8:
             var5 = 'onCancel';
-            var1[var5] = var7;
+            var1[4] = var7;
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
             var5 = var12[var16];
@@ -192,9 +192,9 @@ case 8:
             var5 = var5.cY+Oob;
             var7 = var7.bind(var9)(var5);
             var5 = 'confirmText';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'onConfirm';
-            var1[var5] = var6;
+            var1[4] = var6;
             var7 = _closure1_slot6;
             var6 = _closure1_slot3;
             var5 = {};
@@ -259,7 +259,7 @@ case 8:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

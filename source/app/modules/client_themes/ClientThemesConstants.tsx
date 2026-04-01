@@ -984,9 +984,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var22 = var9;
     var21 = var10;
     var8 = arraySpread(var22, var21, var20);
-    var9[var8] = var4;
+    var9[7] = var4;
     var8 = var8 + var16;
-    var9[var8] = var7;
+    var9[7] = var7;
     var8 = new Array(2);
     var8[0] = var4;
     var22 = var8;
@@ -996,7 +996,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var22 = var8;
     var21 = var11;
     var4 = arraySpread(var22, var21, var20);
-    var8[var4] = var7;
+    var8[3] = var7;
     var4 = var4 + var16;
     var7 = {};
     var7['DARK'] = var17;

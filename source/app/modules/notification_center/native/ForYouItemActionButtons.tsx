@@ -580,7 +580,7 @@ case 22:
             var9['onPress'] = var12;
             var10 = var11.bind(var4)(var10, var9);
             var9 = 'children';
-            var6[var9] = var10;
+            var6[8] = var10;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;
@@ -1981,7 +1981,7 @@ case 29:
                         }
                     };
                     var8 = 'onPress';
-                    var1[var8] = var9;
+                    var1[7] = var9;
                     if(!(var7 != var6)) { _fun0016_ip = 10; continue _fun0016 }
 case 108:
                     var5 = var6;
@@ -2001,7 +2001,7 @@ case 110:
 case 109:
             var7[1] = var6;
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 105:
             return var1;

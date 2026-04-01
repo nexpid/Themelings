@@ -35,14 +35,14 @@ case 3:
             var3 = 4;
 case 2:
             var1 = 'maxValues';
-            var7[var1] = var3;
+            var7[0] = var3;
             var17 = 'type';
-            var7[var17] = var2;
+            var7[16] = var2;
             var10 = global;
             var1 = var10.String;
             var2 = var1.bind(var4)(var2);
             var1 = 'id';
-            var7[var1] = var2;
+            var7[0] = var2;
             var13 = _closure1_slot0;
             var16 = _closure1_slot2;
             var1 = 9;
@@ -91,7 +91,7 @@ case 5:
             var21 = var7;
             var16 = copyDataProperties(var22, var21);
             var16 = var7.type;
-            var8[var17] = var16;
+            var8[16] = var16;
             var8 = var13.bind(var4)(var12, var8);
             _fun0001_ip = 6; continue _fun0001;
 case 4:

@@ -270,7 +270,7 @@ case 43:
             var7 = var4.userDiscountOffers;
             var5 = _closure1_slot14;
             var5 = var7[var5];
-            var3[var6] = var5;
+            var3[5] = var5;
             var4['userDiscountOffers'] = var3;
             _fun0005_ip = 45; continue _fun0005;
 case 41:
@@ -280,7 +280,7 @@ case 41:
             var7 = var4.userDiscountOffers;
             var5 = _closure1_slot13;
             var5 = var7[var5];
-            var3[var6] = var5;
+            var3[5] = var5;
             var4['userDiscountOffers'] = var3;
 case 45:
             var3 = _closure1_slot19;
@@ -1284,7 +1284,7 @@ case 34:
             var6 = var2;
             var2 = copyDataProperties(var7, var6);
             var2 = 'userDiscountOffers';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1337,7 +1337,7 @@ case 58:
             var3 = copyDataProperties(var6, var5);
             var4 = false;
             var3 = 'isFetching';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1 = var2;
 case 7:
             return var1;

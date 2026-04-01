@@ -297,7 +297,7 @@ case 32:
             var11 = var14[var11];
             var11 = var13.bind(var1)(var11);
             var11 = var11.FILE_UPLOAD_POPOUT;
-            var9[var12] = var11;
+            var9[11] = var11;
             var11 = 1;
             var11 = var12 + var11;
             var3['analyticsLocations'] = var9;

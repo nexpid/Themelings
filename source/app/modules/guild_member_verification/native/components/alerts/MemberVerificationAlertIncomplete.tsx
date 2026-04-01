@@ -211,9 +211,9 @@ case 8:
             var6 = var15.bind(var4)(var6);
             var8 = var6.ListViewIcon;
             var6 = 'icon';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = 'header';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = _closure1_slot7;
             var6 = _closure1_slot6;
             var5 = {};
@@ -261,7 +261,7 @@ case 8:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'buttons';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

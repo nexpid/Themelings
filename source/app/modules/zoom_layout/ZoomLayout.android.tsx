@@ -140,7 +140,7 @@ case 12:
         var8 = var1;
         var5 = copyDataProperties(var8, var7);
         var5 = 'ref';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };

@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = copyDataProperties(var15, var14);
     var12 = 99999;
     var11 = 'zIndex';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['overlayView'] = var10;
     var9 = var9.absoluteFillObject;
     var4['wrapperView'] = var9;

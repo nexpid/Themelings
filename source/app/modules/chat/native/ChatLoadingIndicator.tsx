@@ -138,13 +138,13 @@ case 5:
                         var5 = copyDataProperties(var8, var7);
                         var6 = 'Chat Loading indicator';
                         var5 = 'title';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var6 = _closure1_slot18;
                         var1 = undefined;
                         var5 = {};
                         var6 = var4.bind(var1)(var6, var5);
                         var5 = 'children';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var1 = var4.bind(var1)(var3, var2);
                         return var1;
                     };

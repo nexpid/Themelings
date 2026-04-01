@@ -280,7 +280,7 @@ case 20:
     var18 = var18.radii;
     var19 = var18.xs;
     var18 = 'borderRadius';
-    var16[var18] = var19;
+    var16[17] = var19;
     var17 = var10[var17];
     var20 = var9.bind(var1)(var17);
     var19 = var20.hexWithOpacity;
@@ -291,7 +291,7 @@ case 20:
     var17 = 0.3;
     var18 = var19.bind(var20)(var18, var17);
     var17 = 'backgroundColor';
-    var16[var17] = var18;
+    var16[16] = var18;
     var8['selectedOverlay'] = var16;
     var16 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center', 'gap': 8};
     var8['specialButton'] = var16;

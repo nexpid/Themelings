@@ -589,24 +589,24 @@ case 0:
                 var1 = null;
                 var7 = var1 == var6;
                 var2 = undefined;
-                if(var7) { _fun0009_ip = 51; continue _fun0009 }
-case 52:
+                if(var7) { _fun0009_ip = 37; continue _fun0009 }
+case 43:
                 var2 = var6.guildActionRows;
-case 51:
-                if(!(var1 == var2)) { _fun0009_ip = 53; continue _fun0009 }
-case 54:
+case 37:
+                if(!(var1 == var2)) { _fun0009_ip = 51; continue _fun0009 }
+case 52:
                 var2 = new Array(0);
-case 53:
+case 51:
                 var7 = var1 == var6;
                 var3 = undefined;
-                if(var7) { _fun0009_ip = 8; continue _fun0009 }
-case 9:
+                if(var7) { _fun0009_ip = 32; continue _fun0009 }
+case 39:
                 var3 = var6.channelNoticeRows;
-case 8:
-                if(!(var1 == var3)) { _fun0009_ip = 55; continue _fun0009 }
-case 42:
+case 32:
+                if(!(var1 == var3)) { _fun0009_ip = 53; continue _fun0009 }
+case 54:
                 var3 = new Array(0);
-case 55:
+case 53:
                 var1 = arg1;
                 var2 = var4.bind(var5)(var1, var2, var3);
                 var1 = {};
@@ -702,10 +702,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0011_ip = 56; continue _fun0011 }
-case 54:
+                if(var3) { _fun0011_ip = 51; continue _fun0011 }
+case 55:
                 var1 = var2.guild_id;
-case 56:
+case 51:
                 return var1;
             }
         };
@@ -728,7 +728,7 @@ case 0:
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
                 if(!var1) { _fun0012_ip = 37; continue _fun0012 }
-case 57:
+case 56:
                 var1 = true;
                 _closure2_slot0 = var1;
 case 37:
@@ -815,7 +815,7 @@ case 0:
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
                 if(!var1) { _fun0014_ip = 37; continue _fun0014 }
-case 57:
+case 56:
                 var1 = true;
                 _closure2_slot0 = var1;
 case 37:
@@ -899,12 +899,12 @@ case 0:
             var3 = var3.bind(var5)();
             var1 = var1.id;
             var1 = var3 === var1;
-            if(!var1) { _fun0015_ip = 58; continue _fun0015 }
+            if(!var1) { _fun0015_ip = 57; continue _fun0015 }
 case 40:
             var3 = _closure1_slot26;
             var2 = var3.clearGuildId;
             var1 = var2.bind(var3)(var4);
-case 58:
+case 57:
             return var1;
         }
     };
@@ -1024,21 +1024,21 @@ case 0:
             var6 = var3.type;
             var4 = _closure1_slot23;
             var4 = var4.PRELOADED_USER_SETTINGS;
-            if(!(var6 === var4)) { _fun0016_ip = 59; continue _fun0016 }
-case 60:
+            if(!(var6 === var4)) { _fun0016_ip = 58; continue _fun0016 }
+case 59:
             var3 = var3.proto;
             var6 = var3.guilds;
             var3 = null;
             var7 = var3 == var6;
             var4 = undefined;
             if(var7) { _fun0016_ip = 5; continue _fun0016 }
-case 61:
+case 60:
             var4 = var6.guilds;
 case 5:
             _closure2_slot0 = var4;
             var6 = false;
             _closure2_slot1 = var6;
-            if(!(var3 != var4)) { _fun0016_ip = 62; continue _fun0016 }
+            if(!(var3 != var4)) { _fun0016_ip = 61; continue _fun0016 }
 case 13:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -1057,7 +1057,7 @@ case 0:
                     var3 = var1.guildRecentsDismissedAt;
                     var1 = null;
                     if(!(var1 != var3)) { _fun0017_ip = 8; continue _fun0017 }
-case 52:
+case 62:
                     var3 = _closure1_slot26;
                     var1 = var3.updateRecentsCategory;
                     var1 = var1.bind(var3)(var4);
@@ -1072,10 +1072,10 @@ case 8:
                 }
             };
             var2 = var3.bind(var4)(var2);
-case 62:
+case 61:
             var1 = _closure2_slot1;
             return var1;
-case 59:
+case 58:
             var1 = false;
             return var1;
         }

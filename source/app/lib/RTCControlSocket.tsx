@@ -2760,12 +2760,12 @@ case 204:
                 var8 = var3.codecs;
                 var9 = var9.bind(var10)(var8);
                 var8 = 'codecs';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var8 = 'rtc_connection_id';
-                var1[var8] = var7;
+                var1[7] = var7;
                 var9 = arg4;
                 var8 = 'experiments';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var6 = var2;
                 var5 = var1;
                 _fun0030_ip = 194; continue _fun0030;
@@ -2780,9 +2780,9 @@ case 197:
                 var3 = undefined;
                 var8 = var9.bind(var3)(var8);
                 var3 = 'codecs';
-                var1[var3] = var8;
+                var1[2] = var8;
                 var3 = 'rtc_connection_id';
-                var1[var3] = var7;
+                var1[2] = var7;
                 var5 = var1;
 case 194:
                 var3 = var4.send;

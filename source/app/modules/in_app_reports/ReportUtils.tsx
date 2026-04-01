@@ -811,7 +811,7 @@ case 43:
                     var8 = var9.keys;
                     var4 = var4.state;
                     var4 = var8.bind(var9)(var4);
-                    var3[var5] = var4;
+                    var3[4] = var4;
                     var2 = var3;
 case 42:
                     var11 = var1;
@@ -917,11 +917,11 @@ case 56:
             var5 = copyDataProperties(var12, var11);
             var5 = var2.name;
             var2 = 'name';
-            var1[var2] = var5;
+            var1[1] = var5;
             var2 = 'channel_id';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'message_id';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -989,7 +989,7 @@ case 43:
                     var8 = var9.keys;
                     var4 = var4.state;
                     var4 = var8.bind(var9)(var4);
-                    var3[var5] = var4;
+                    var3[4] = var4;
                     var2 = var3;
 case 42:
                     var11 = var1;
@@ -1208,9 +1208,9 @@ case 84:
             var4 = copyDataProperties(var13, var12);
             var8 = var2.name;
             var4 = 'name';
-            var3[var4] = var8;
+            var3[3] = var8;
             var4 = 'email_token';
-            var3[var4] = var7;
+            var3[3] = var7;
             var1 = var3;
 case 83:
             _fun0013_ip = 85; continue _fun0013;
@@ -1224,13 +1224,13 @@ case 81:
             var4 = copyDataProperties(var13, var12);
             var8 = var2.name;
             var4 = 'name';
-            var3[var4] = var8;
+            var3[3] = var8;
             var8 = var2.user_id;
             var4 = 'user_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var8 = var2.widget_id;
             var4 = 'widget_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var1 = var3;
 case 85:
             _fun0013_ip = 86; continue _fun0013;
@@ -1244,20 +1244,20 @@ case 79:
             var4 = copyDataProperties(var13, var12);
             var8 = var2.name;
             var4 = 'name';
-            var3[var4] = var8;
+            var3[3] = var8;
             var4 = var2.record;
             var8 = var4.id;
             var4 = 'application_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var8 = var2.contextualGuildId;
             var4 = 'guild_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var8 = var2.contextualChannelId;
             var4 = 'channel_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var8 = var2.entrypoint;
             var4 = 'entrypoint';
-            var3[var4] = var8;
+            var3[3] = var8;
             var1 = var3;
 case 86:
             _fun0013_ip = 87; continue _fun0013;
@@ -1271,13 +1271,13 @@ case 77:
             var4 = copyDataProperties(var13, var12);
             var8 = var2.name;
             var4 = 'name';
-            var3[var4] = var8;
+            var3[3] = var8;
             var4 = var2.record;
             var8 = var4.id;
             var4 = 'guild_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var4 = 'email_token';
-            var3[var4] = var7;
+            var3[3] = var7;
             var1 = var3;
 case 87:
             _fun0013_ip = 88; continue _fun0013;
@@ -1291,13 +1291,13 @@ case 75:
             var4 = copyDataProperties(var13, var12);
             var8 = var2.name;
             var4 = 'name';
-            var3[var4] = var8;
+            var3[3] = var8;
             var4 = var2.record;
             var8 = var4.id;
             var4 = 'message_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var4 = 'email_token';
-            var3[var4] = var7;
+            var3[3] = var7;
             var1 = var3;
 case 88:
             _fun0013_ip = 89; continue _fun0013;
@@ -1311,16 +1311,16 @@ case 73:
             var4 = copyDataProperties(var13, var12);
             var8 = var2.name;
             var4 = 'name';
-            var3[var4] = var8;
+            var3[3] = var8;
             var4 = var2.record;
             var8 = var4.id;
             var4 = 'user_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var8 = var2.contextualGuildId;
             var4 = 'guild_id';
-            var3[var4] = var8;
+            var3[3] = var8;
             var4 = 'email_token';
-            var3[var4] = var7;
+            var3[3] = var7;
             var1 = var3;
 case 89:
             _fun0013_ip = 90; continue _fun0013;
@@ -1334,14 +1334,14 @@ case 71:
             var4 = copyDataProperties(var13, var12);
             var7 = var2.name;
             var4 = 'name';
-            var3[var4] = var7;
+            var3[3] = var7;
             var4 = var2.record;
             var7 = var4.id;
             var4 = 'user_id';
-            var3[var4] = var7;
+            var3[3] = var7;
             var7 = var2.contextualGuildId;
             var4 = 'guild_id';
-            var3[var4] = var7;
+            var3[3] = var7;
             var1 = var3;
 case 90:
             return var1;
@@ -1358,11 +1358,11 @@ case 69:
             var3 = copyDataProperties(var13, var12);
             var8 = var2.name;
             var3 = 'name';
-            var1[var3] = var8;
+            var1[2] = var8;
             var3 = 'guild_id';
-            var1[var3] = var7;
+            var1[2] = var7;
             var3 = 'guild_scheduled_event_id';
-            var1[var3] = var4;
+            var1[2] = var4;
             return var1;
 case 67:
             var1 = var2.record;
@@ -1378,13 +1378,13 @@ case 67:
             var3 = copyDataProperties(var13, var12);
             var9 = var2.name;
             var3 = 'name';
-            var1[var3] = var9;
+            var1[2] = var9;
             var3 = 'channel_id';
-            var1[var3] = var8;
+            var1[2] = var8;
             var3 = 'guild_id';
-            var1[var3] = var7;
+            var1[2] = var7;
             var3 = 'stage_instance_id';
-            var1[var3] = var4;
+            var1[2] = var4;
             return var1;
 case 65:
             var1 = var2.record;
@@ -1399,11 +1399,11 @@ case 65:
             var3 = copyDataProperties(var13, var12);
             var8 = var2.name;
             var3 = 'name';
-            var1[var3] = var8;
+            var1[2] = var8;
             var3 = 'channel_id';
-            var1[var3] = var7;
+            var1[2] = var7;
             var3 = 'guild_id';
-            var1[var3] = var4;
+            var1[2] = var4;
             return var1;
 case 62:
             var1 = var2.record;
@@ -1417,9 +1417,9 @@ case 62:
             var3 = copyDataProperties(var13, var12);
             var7 = var2.name;
             var3 = 'name';
-            var1[var3] = var7;
+            var1[2] = var7;
             var3 = 'guild_id';
-            var1[var3] = var4;
+            var1[2] = var4;
             return var1;
 case 59:
             var1 = var2.record;
@@ -1434,11 +1434,11 @@ case 59:
             var5 = copyDataProperties(var13, var12);
             var5 = var2.name;
             var2 = 'name';
-            var1[var2] = var5;
+            var1[1] = var5;
             var2 = 'channel_id';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'message_id';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

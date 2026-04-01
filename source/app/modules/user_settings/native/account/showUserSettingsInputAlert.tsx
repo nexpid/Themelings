@@ -99,7 +99,7 @@ case 0:
                         var9 = var9.ETE/oC;
                         var10 = var10.bind(var13)(var9);
                         var9 = 'cancelText';
-                        var2[var9] = var10;
+                        var2[8] = var10;
                         var9 = var12[var8];
                         var9 = var11.bind(var1)(var9);
                         var10 = var9.intl;
@@ -110,7 +110,7 @@ case 0:
                         var8 = var8.BddRzS;
                         var9 = var9.bind(var10)(var8);
                         var8 = 'confirmText';
-                        var2[var8] = var9;
+                        var2[7] = var9;
                         var8 = var7.confirmColor;
                         var7 = null;
                         if(!(var7 == var8)) { _fun0001_ip = 2; continue _fun0001 }
@@ -128,16 +128,16 @@ case 2:
                         var7 = var6.confirmColor;
 case 4:
                         var6 = 'confirmColor';
-                        var2[var6] = var7;
+                        var2[5] = var7;
                         var7 = _closure2_slot0;
                         var6 = 'onSubmit';
-                        var2[var6] = var7;
+                        var2[5] = var7;
                         var7 = _closure2_slot1;
                         var6 = 'onSuccess';
-                        var2[var6] = var7;
+                        var2[5] = var7;
                         var6 = _closure2_slot2;
                         var5 = 'onError';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var1 = var4.bind(var1)(var3, var2);
                         return var1;
                     }

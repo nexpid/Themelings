@@ -340,10 +340,10 @@ case 20:
         var1 = copyDataProperties(var8, var7);
         var2 = arg3;
         var1 = 'transitionState';
-        var3[var1] = var2;
+        var3[0] = var2;
         var2 = arg4;
         var1 = 'cleanUp';
-        var3[var1] = var2;
+        var3[0] = var2;
         var2 = undefined;
         var1 = arg1;
         var1 = var5.bind(var2)(var4, var3, var1);

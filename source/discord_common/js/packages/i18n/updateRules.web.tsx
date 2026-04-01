@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = 'react';
-        var2[var4] = var5;
+        var2[3] = var5;
         var1['paragraph'] = var2;
         var2 = {};
         var8 = var1.link;
@@ -132,20 +132,20 @@ case 7:
                 var3 = copyDataProperties(var11, var10);
                 var6 = 'noreferrer';
                 var3 = 'rel';
-                var4[var3] = var6;
+                var4[2] = var6;
                 var6 = var2.content;
                 var2 = arg2;
                 var3 = undefined;
                 var6 = var2.bind(var3)(var6, var1);
                 var2 = 'children';
-                var4[var2] = var6;
+                var4[1] = var6;
                 var2 = var1.key;
                 var1 = 'a';
                 var1 = var5.bind(var3)(var1, var4, var2);
                 return var1;
             }
         };
-        var2[var4] = var3;
+        var2[3] = var3;
         var1['link'] = var2;
         return var1;
     };

@@ -732,7 +732,7 @@ case 57:
             var7 = _closure1_slot18;
             var8 = var7.bind(var3)(var6);
             var7 = 'cardKey';
-            var1[var7] = var8;
+            var1[6] = var8;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
 case 55:
@@ -753,7 +753,7 @@ case 55:
             var7 = _closure1_slot18;
             var8 = var7.bind(var3)(var6);
             var7 = 'cardKey';
-            var1[var7] = var8;
+            var1[6] = var8;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
 case 53:

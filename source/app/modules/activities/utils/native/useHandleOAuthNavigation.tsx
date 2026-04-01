@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var7 = 'dismissOAuthModal';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var2 = var4.bind(var5)(var3, var2, var6);
                 return var1;
             };

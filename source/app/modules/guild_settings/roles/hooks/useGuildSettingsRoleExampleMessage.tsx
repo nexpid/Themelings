@@ -70,10 +70,10 @@ case 0:
                 var7 = _closure1_slot6;
                 var8 = var7.SENT;
                 var7 = 'state';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = '31337';
                 var7 = 'id';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var1 = var3.bind(var4)(var1);
                 var7 = _closure1_slot5;
                 var3 = {'id': '313337', 'username': null, 'discriminator': '0000', 'bot': false};

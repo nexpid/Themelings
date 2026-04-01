@@ -56,7 +56,7 @@ case 0:
                 return var1;
             };
             var3['render'] = var8;
-            var1[var6] = var3;
+            var1[5] = var3;
             var3 = var2.INIT;
             var2 = {};
             var12 = _closure1_slot0;
@@ -103,7 +103,7 @@ case 3:
             var6 = var11.bind(var12)(var10);
 case 2:
             var2['headerLeft'] = var6;
-            var1[var3] = var2;
+            var1[2] = var2;
             var2 = _closure1_slot3;
             var10 = var2.EDIT;
             var3 = {};
@@ -135,7 +135,7 @@ case 2:
             var11 = var11.UBBwwF;
             var11 = var13.bind(var14)(var11);
             var3['title'] = var11;
-            var1[var10] = var3;
+            var1[9] = var3;
             var10 = var2.REGISTER;
             var3 = {};
             var11 = function render() {
@@ -161,7 +161,7 @@ case 2:
             var11 = var11.vrOCCk;
             var11 = var13.bind(var14)(var11);
             var3['title'] = var11;
-            var1[var10] = var3;
+            var1[9] = var3;
             var3 = var2.NAME;
             var2 = {};
             var10 = function render(arg1) {
@@ -207,7 +207,7 @@ case 5:
             var6 = var10.bind(var11)(var7);
 case 4:
             var2['headerLeft'] = var6;
-            var1[var3] = var2;
+            var1[2] = var2;
             var2 = _closure1_slot3;
             var3 = var2.SUCCESS;
             var2 = {};
@@ -236,7 +236,7 @@ case 4:
             var4 = var4["7wPZln"];
             var4 = var5.bind(var6)(var4);
             var2['title'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };

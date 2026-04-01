@@ -604,10 +604,10 @@ case 61:
                     var8 = var6;
                     var6 = copyDataProperties(var9, var8);
                     var6 = 'routes';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var7 = 0;
                     var6 = 'index';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var1 = var4.bind(var5)(var1);
                     var1 = var2.bind(var3)(var1);
 case 60:

@@ -183,10 +183,10 @@ case 13:
                 var5 = copyDataProperties(var9, var8);
                 var6 = _closure2_slot0;
                 var5 = 'text';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var6 = 'primary';
                 var5 = 'variant';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

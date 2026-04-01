@@ -1060,7 +1060,7 @@ case 69:
             var19 = 70;
 case 68:
             var18 = 'paddingBottom';
-            var15[var18] = var19;
+            var15[17] = var19;
             var12['contentContainerStyle'] = var15;
             var19 = _closure1_slot12;
             var40 = _closure1_slot1;

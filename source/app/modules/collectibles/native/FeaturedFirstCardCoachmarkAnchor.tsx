@@ -41,7 +41,7 @@ case 2:
                 var5 = var3.bind(var6)();
 case 4:
                 var3 = 'title';
-                var1[var3] = var5;
+                var1[2] = var5;
                 var3 = _closure2_slot0;
                 var3 = var3.description;
                 var3 = typeof var3;
@@ -56,10 +56,10 @@ case 5:
                 var3 = var2.bind(var4)();
 case 7:
                 var2 = 'description';
-                var1[var2] = var3;
+                var1[1] = var3;
                 var3 = true;
                 var2 = 'visible';
-                var1[var2] = var3;
+                var1[1] = var3;
                 var3 = function onDismiss() {
                     var3 = _closure2_slot1;
                     var1 = _closure1_slot6;
@@ -69,7 +69,7 @@ case 7:
                     return var1;
                 };
                 var2 = 'onDismiss';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             }
         };
@@ -308,7 +308,7 @@ case 17:
     var8['description'] = var10;
     var10 = 'top';
     var8['position'] = var10;
-    var5[var9] = var8;
+    var5[8] = var8;
     var _closure1_slot9 = var5;
     var5 = 13;
     var5 = var7[var5];

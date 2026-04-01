@@ -438,7 +438,7 @@ case 8:
     var20 = var6;
     var9 = copyDataProperties(var20, var19);
     var9 = 'overshootClamping';
-    var6[var9] = var10;
+    var6[8] = var10;
     var _closure1_slot9 = var6;
     var6 = {};
     var9 = "function VoicePanelConsoleStatusTsx1(){const{color,windowDimensions,EDGE_GUTTER,CONTROLS_HEIGHT,CONSOLE_STATUS_HEIGHT,withSpring,shouldShow,FADE_IN_MODE_PHYSICS,runOnJS,cleanUp}=this.__closure;return{backgroundColor:color,width:windowDimensions.get().width-EDGE_GUTTER*2,height:CONTROLS_HEIGHT+CONSOLE_STATUS_HEIGHT,borderRadius:32,transform:[{translateY:withSpring(shouldShow.get()?0:100,FADE_IN_MODE_PHYSICS,'respect-motion-settings',function(finished){if(finished&&!shouldShow.get()){runOnJS(cleanUp)();}})}]};}";
@@ -469,10 +469,10 @@ case 8:
         var1 = copyDataProperties(var8, var7);
         var2 = arg3;
         var1 = 'state';
-        var3[var1] = var2;
+        var3[0] = var2;
         var2 = arg4;
         var1 = 'cleanUp';
-        var3[var1] = var2;
+        var3[0] = var2;
         var2 = undefined;
         var1 = arg1;
         var1 = var5.bind(var2)(var4, var3, var1);

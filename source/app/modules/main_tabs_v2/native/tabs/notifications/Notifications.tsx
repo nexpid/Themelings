@@ -260,7 +260,7 @@ case 13:
             var13 = var12.inNestedNavigator;
 case 11:
             var12 = 'inNestedNavigator';
-            var9[var12] = var13;
+            var9[11] = var13;
             var9 = var11.bind(var4)(var10, var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

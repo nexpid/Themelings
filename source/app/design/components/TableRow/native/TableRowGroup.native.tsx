@@ -91,8 +91,9 @@ case 4:
     var12 = 4;
     var11 = var7[var12];
     var11 = var13.bind(var1)(var11);
-    var11 = var11.radii;
-    var11 = var11.lg;
+    var11 = var11.modules;
+    var11 = var11.mobile;
+    var11 = var11.TABLE_ROW_BORDER_RADIUS;
     var10['borderRadius'] = var11;
     var5['content'] = var10;
     var10 = {};

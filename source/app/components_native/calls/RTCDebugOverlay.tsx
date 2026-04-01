@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = copyDataProperties(var8, var7);
         var6 = var5.text;
         var5 = 'style';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -526,7 +526,7 @@ case 22:
     var14 = 0.7;
     var15 = var16.bind(var17)(var15, var14);
     var14 = 'backgroundColor';
-    var11[var14] = var15;
+    var11[13] = var15;
     var4['container'] = var11;
     var11 = {'flex': 1, 'margin': 8};
     var4['scroller'] = var11;
@@ -716,7 +716,7 @@ case 27:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var8 = var7.STREAM;
     var7 = function StreamContextInfo() {
         var3 = _closure1_slot11;
@@ -767,7 +767,7 @@ case 27:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4[var8] = var7;
+    var4[7] = var7;
     var _closure1_slot21 = var4;
     var4 = 22;
     var4 = var6[var4];

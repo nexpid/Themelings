@@ -73,7 +73,7 @@ case 10:
                             var5 = var4.application;
                             var2 = var7.bind(var8)(var5);
 case 8:
-                            var1[var3] = var2;
+                            var1[2] = var2;
                             var3 = 'user';
                             var5 = var3 in var4;
                             var2 = undefined;
@@ -93,7 +93,7 @@ case 13:
                             var4 = new var11[var6](var10, var9);
                             var2 = var4 instanceof Object ? var4 : var5;
 case 11:
-                            var1[var3] = var2;
+                            var1[2] = var2;
                             return var1;
                         }
                     };

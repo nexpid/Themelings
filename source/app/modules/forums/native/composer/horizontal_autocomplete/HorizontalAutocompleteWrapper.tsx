@@ -163,7 +163,7 @@ case 11:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 9:
@@ -188,7 +188,7 @@ case 9:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 7:
@@ -207,7 +207,7 @@ case 7:
                     var8 = _closure2_slot0;
                     var9 = var8.guild_id;
                     var8 = 'guildId';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var9 = function onPress(arg1) {
                         var4 = _closure2_slot4;
                         var3 = _closure3_slot0;
@@ -217,7 +217,7 @@ case 7:
                         return var1;
                     };
                     var8 = 'onPress';
-                    var2[var8] = var9;
+                    var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
 case 6:
@@ -236,7 +236,7 @@ case 6:
                     var6 = _closure2_slot0;
                     var7 = var6.guild_id;
                     var6 = 'guildId';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var6 = function onPress(arg1) {
                         var4 = _closure2_slot4;
                         var3 = _closure3_slot0;
@@ -246,7 +246,7 @@ case 6:
                         return var1;
                     };
                     var5 = 'onPress';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 }

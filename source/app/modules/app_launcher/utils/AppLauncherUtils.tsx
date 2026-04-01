@@ -807,10 +807,10 @@ case 75:
             var7 = copyDataProperties(var13, var12);
             var8 = var3.id;
             var7 = 'id';
-            var4[var7] = var8;
+            var4[6] = var8;
             var8 = var3.icon;
             var7 = 'icon';
-            var4[var7] = var8;
+            var4[6] = var8;
             var4 = var5.bind(var6)(var4);
             var2['iconURL'] = var4;
             var4 = var3.name;
@@ -956,7 +956,7 @@ case 59:
             var13 = var2;
             var12 = var11;
             var11 = copyDataProperties(var13, var12);
-            var2[var5] = var10;
+            var2[4] = var10;
             var2 = var9.bind(var1)(var2);
 case 91:
             var9 = var6.bind(var7)();

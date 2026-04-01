@@ -1252,7 +1252,7 @@ case 67:
                             var3 = var1.bind(var20)(var3);
                             var5 = {};
                             var1 = var3.id;
-                            var5[var1] = var3;
+                            var5[0] = var3;
                             var _closure5_slot0 = var5;
                             var1 = global;
                             var6 = var1.Object;

@@ -753,7 +753,7 @@ case 22:
                     var10 = copyDataProperties(var20, var19);
                     var16 = var9.velocityX;
                     var10 = 'velocity';
-                    var5[var10] = var16;
+                    var5[9] = var16;
                     var5 = var14.bind(var15)(var12, var5);
                     var5 = var6.bind(var13)(var5);
                     var6 = _closure2_slot15;
@@ -769,7 +769,7 @@ case 22:
                     var19 = var11;
                     var11 = copyDataProperties(var20, var19);
                     var9 = var9.velocityY;
-                    var3[var10] = var9;
+                    var3[9] = var9;
                     var3 = var7.bind(var8)(var4, var3);
                     var3 = var5.bind(var6)(var3);
                     var3 = _closure2_slot17;

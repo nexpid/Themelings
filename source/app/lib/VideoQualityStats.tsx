@@ -279,6 +279,8 @@ case 28:
     var11['WMF_HW'] = var9;
     var9 = 'wmf_direct_3d';
     var11['WMF_DIRECT_3D'] = var9;
+    var9 = 'wmf_chrome';
+    var11['WMF_CHROME'] = var9;
     var17 = 'uncategorized';
     var11['UNCATEGORIZED'] = var17;
     var9 = 'unknown';
@@ -299,11 +301,15 @@ case 28:
     var10['QUALCOMM'] = var19;
     var10['MEDIATEK'] = var18;
     var10['UNCATEGORIZED'] = var17;
+    var17 = 'd3d11videodecoder';
+    var10['D3D11VIDEODECODER'] = var17;
     var10['UNKNOWN'] = var9;
     var _closure1_slot15 = var10;
     var18 = var4.Object;
     var17 = var18.freeze;
     var9 = {};
+    var19 = var11.WMF_CHROME;
+    var9['mediafoundationvideoencodeaccelerator'] = var19;
     var19 = var11.NVIDIA_CUDA;
     var9['nvidia: cuda'] = var19;
     var19 = var11.NVIDIA_DIRECT_3D;
@@ -369,6 +375,8 @@ case 28:
     var4['c2.mtk'] = var18;
     var18 = var10.MEDIATEK;
     var4['omx.mtk'] = var18;
+    var18 = var10.D3D11VIDEODECODER;
+    var4['d3d11videodecoder'] = var18;
     var4 = var9.bind(var17)(var4);
     var _closure1_slot17 = var4;
     var9 = {};

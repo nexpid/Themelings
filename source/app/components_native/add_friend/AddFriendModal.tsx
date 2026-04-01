@@ -428,13 +428,13 @@ case 10:
     var13 = copyDataProperties(var19, var18);
     var14 = 32;
     var13 = 'marginTop';
-    var9[var13] = var14;
+    var9[12] = var14;
     var13 = 16;
     var14 = 'marginHorizontal';
-    var9[var14] = var13;
+    var9[13] = var13;
     var15 = 'center';
     var14 = 'textAlign';
-    var9[var14] = var15;
+    var9[13] = var15;
     var4['headerText'] = var9;
     var9 = {'lineHeight': 18, 'marginVertical': 8, 'marginHorizontal': 16, 'textAlign': 'center'};
     var4['subheaderText'] = var9;

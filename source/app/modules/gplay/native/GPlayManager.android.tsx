@@ -242,7 +242,7 @@ case 17:
                     var4['createdAfter'] = var20;
                     var4['skuId'] = var19;
                     var4 = var15.bind(var18)(var4);
-                    SaveGenerator(address=567);
+                    SaveGenerator(address=565);
 case 21:
                     return var4;
 case 22:
@@ -284,7 +284,7 @@ case 25:
                     var14 = var14.bind(var3)(var6);
                     var6 = var14.markOrderAsSigningInProgress;
                     var6 = var6.bind(var14)(var15);
-                    SaveGenerator(address=726);
+                    SaveGenerator(address=722);
 case 28:
                     return var6;
 case 29:
@@ -358,7 +358,7 @@ case 15:
                     var6 = var8;
                     var4 = var10;
                     var4 = var15.bind(var17)(var6, var4);
-                    SaveGenerator(address=1008);
+                    SaveGenerator(address=1004);
 case 32:
                     return var4;
 case 33:
@@ -449,7 +449,7 @@ case 48:
                     var7 = var7.bind(var3)(var6);
                     var6 = var7.fetchSubscriptions;
                     var6 = var6.bind(var7)();
-                    SaveGenerator(address=1351);
+                    SaveGenerator(address=1347);
 case 49:
                     return var6;
 case 50:
@@ -472,7 +472,7 @@ case 51: // try_end2 // try_end6
 case 47: // try_start_3 // try_start_7
                     var6 = _closure1_slot34;
                     var6 = var6.bind(var3)();
-                    SaveGenerator(address=1428);
+                    SaveGenerator(address=1424);
 case 52:
                     return var6;
 case 53:
@@ -510,7 +510,7 @@ case 46: // try_start_4 // try_start_8
                     var7 = var7.bind(var3)(var6);
                     var6 = var7.fetchSubscriptions;
                     var6 = var6.bind(var7)();
-                    SaveGenerator(address=1573);
+                    SaveGenerator(address=1569);
 case 55:
                     return var6;
 case 56:
@@ -595,16 +595,16 @@ case 59: // try_start_9 // catch_target1 // catch_target2 // catch_target3 // ca
                     var12 = copyDataProperties(var27, var26);
                     var13 = 'handlePurchaseUpdated';
                     var12 = 'location';
-                    var4[var12] = var13;
+                    var4[11] = var13;
                     var13 = var11.productId;
                     var12 = 'product_id';
-                    var4[var12] = var13;
+                    var4[11] = var13;
                     var12 = var11.purchaseToken;
                     var11 = 'purchase_token';
-                    var4[var11] = var12;
+                    var4[10] = var12;
                     var11 = var10.message;
                     var10 = 'error';
-                    var4[var10] = var11;
+                    var4[9] = var11;
                     var4 = var7.bind(var9)(var6, var4);
 case 58: // try_end9
                     var6 = _closure1_slot1;
@@ -1033,7 +1033,7 @@ case 95:
                                     var5 = copyDataProperties(var8, var7);
                                     var6 = _closure4_slot0;
                                     var5 = 'subscription';
-                                    var2[var5] = var6;
+                                    var2[4] = var6;
                                     var5 = function onClose() {
                                         var2 = _closure8_slot0;
                                         var1 = var2.onClose;
@@ -1054,7 +1054,7 @@ case 95:
                                         return var1;
                                     };
                                     var1 = 'onClose';
-                                    var2[var1] = var5;
+                                    var2[0] = var5;
                                     var1 = undefined;
                                     var1 = var4.bind(var1)(var3, var2);
                                     return var1;

@@ -251,7 +251,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[9] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.GAMING;
     var8 = new Array(10);
     var10 = function() {
@@ -424,7 +424,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[9] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.MUSIC;
     var8 = new Array(10);
     var10 = function() {
@@ -597,7 +597,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[9] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.ENTERTAINMENT;
     var8 = new Array(9);
     var10 = function() {
@@ -753,7 +753,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[8] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.CREATIVE_ARTS;
     var8 = new Array(10);
     var10 = function() {
@@ -926,7 +926,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[9] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.SCIENCE_AND_TECH;
     var8 = new Array(10);
     var10 = function() {
@@ -1099,7 +1099,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[9] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.EDUCATION;
     var8 = new Array(10);
     var10 = function() {
@@ -1272,7 +1272,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[9] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.SPORTS;
     var8 = new Array(10);
     var10 = function() {
@@ -1445,7 +1445,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[9] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.FASHION_AND_BEAUTY;
     var8 = new Array(9);
     var10 = function() {
@@ -1601,7 +1601,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[8] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.RELATIONSHIPS_AND_IDENTITY;
     var8 = new Array(5);
     var10 = function() {
@@ -1689,7 +1689,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[4] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.TRAVEL_AND_FOOD;
     var8 = new Array(7);
     var10 = function() {
@@ -1811,7 +1811,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[6] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.FITNESS_AND_HEALTH;
     var8 = new Array(10);
     var10 = function() {
@@ -1984,7 +1984,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[9] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.FINANCE;
     var8 = new Array(9);
     var10 = function() {
@@ -2140,7 +2140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[8] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.OTHER;
     var8 = new Array(8);
     var10 = function() {
@@ -2279,7 +2279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[7] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.EMOJI;
     var8 = new Array(9);
     var10 = function() {
@@ -2435,7 +2435,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[8] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var5.BOTS;
     var8 = new Array(7);
     var10 = function() {
@@ -2557,7 +2557,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8[6] = var10;
-    var4[var9] = var8;
+    var4[8] = var8;
     var8 = ['en-GB'];
     var _closure1_slot2 = var8;
     var6 = var6[var1];

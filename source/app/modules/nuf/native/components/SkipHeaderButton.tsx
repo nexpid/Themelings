@@ -78,7 +78,7 @@ case 3:
 case 2:
             var8[1] = var7;
             var7 = 'labelStyle';
-            var1[var7] = var8;
+            var1[6] = var8;
             var6 = var6.label;
             var7 = null;
             if(!(var7 == var6)) { _fun0001_ip = 4; continue _fun0001 }
@@ -97,7 +97,7 @@ case 5:
             var6 = var7.bind(var8)(var5);
 case 4:
             var5 = 'label';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

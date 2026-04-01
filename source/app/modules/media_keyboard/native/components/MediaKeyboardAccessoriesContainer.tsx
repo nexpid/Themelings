@@ -103,7 +103,7 @@ case 4:
                     var2 = copyDataProperties(var6, var5);
                     var3 = 'hidden';
                     var2 = 'overflow';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };

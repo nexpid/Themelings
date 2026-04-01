@@ -593,7 +593,7 @@ case 6:
                         return var1;
                     };
                     var1 = 'handleItemPress';
-                    var3[var1] = var7;
+                    var3[0] = var7;
                     var1 = undefined;
                     var1 = var5.bind(var1)(var4, var3);
                     _fun0003_ip = 7; continue _fun0003;
@@ -608,7 +608,7 @@ case 5:
                     var2 = var2.current;
                     var6 = var2.directoryChannelId;
                     var2 = 'directoryChannelId';
-                    var3[var2] = var6;
+                    var3[1] = var6;
                     var2 = undefined;
                     var1 = var5.bind(var2)(var4, var3);
 case 7:

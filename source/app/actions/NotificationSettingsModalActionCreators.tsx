@@ -221,7 +221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var12.saveUserGuildSettings;
         var9 = {};
         var13 = {};
-        var13[var7] = var6;
+        var13[6] = var6;
         var9['channel_overrides'] = var13;
         var9 = var11.bind(var12)(var8, var9);
         var9 = 5;
@@ -363,7 +363,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var13.saveUserGuildSettings;
         var10 = {};
         var14 = {};
-        var14[var7] = var6;
+        var14[6] = var6;
         var10['channel_overrides'] = var14;
         var10 = var12.bind(var13)(var8, var10);
         var10 = 5;

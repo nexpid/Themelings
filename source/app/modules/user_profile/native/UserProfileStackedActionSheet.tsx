@@ -188,9 +188,9 @@ case 6:
             var10[2] = var11;
             var5['children'] = var10;
             var5 = var9.bind(var4)(var8, var5);
-            var1[var7] = var5;
+            var1[6] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -234,10 +234,10 @@ case 0:
             var17 = var1;
             var8 = copyDataProperties(var17, var16);
             var8 = 'data';
-            var1[var8] = var12;
+            var1[7] = var12;
             var12 = var7.list;
             var8 = 'style';
-            var1[var8] = var12;
+            var1[7] = var12;
             var12 = function ItemSeparatorComponent() {
                 var4 = _closure1_slot4;
                 var2 = _closure1_slot0;
@@ -255,7 +255,7 @@ case 0:
                 return var1;
             };
             var8 = 'ItemSeparatorComponent';
-            var1[var8] = var12;
+            var1[7] = var12;
             var8 = var7.contentContainer;
             var7 = new Array(3);
             var7[0] = var8;
@@ -281,7 +281,7 @@ case 8:
             var7[1] = var8;
             var7[2] = var6;
             var6 = 'contentContainerStyle';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = function renderItem(arg1) {
                 var1 = arg1;
                 var5 = var1.item;
@@ -304,7 +304,7 @@ case 8:
                 return var1;
             };
             var5 = 'renderItem';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -339,7 +339,7 @@ case 8:
         var11 = var1;
         var6 = copyDataProperties(var11, var10);
         var6 = 'contentContainerStyle';
-        var1[var6] = var7;
+        var1[5] = var7;
         var7 = function renderItem(arg1) {
             var2 = arg1;
             var5 = var2.item;
@@ -362,7 +362,7 @@ case 8:
             return var1;
         };
         var6 = 'renderItem';
-        var1[var6] = var7;
+        var1[5] = var7;
         var6 = function ItemSeparatorComponent() {
             var4 = _closure1_slot4;
             var2 = _closure1_slot0;
@@ -380,7 +380,7 @@ case 8:
             return var1;
         };
         var5 = 'ItemSeparatorComponent';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

@@ -195,10 +195,9 @@ case 0:
             var3 = 'QuestDockUnenrolledBody';
             var7 = var7.bind(var8)(var3);
             var3 = var5[var1];
-            var15 = var6.bind(var4)(var3);
-            var8 = var15.useShouldShowBonusOrbsUX;
-            var3 = var18.config;
-            var8 = var8.bind(var15)(var3);
+            var8 = var6.bind(var4)(var3);
+            var3 = var8.useShouldShowBonusOrbsUX;
+            var8 = var3.bind(var8)(var18);
             var1 = var5[var1];
             var3 = var6.bind(var4)(var1);
             var1 = var3.useEligibleForQuestOrbMultiplier;

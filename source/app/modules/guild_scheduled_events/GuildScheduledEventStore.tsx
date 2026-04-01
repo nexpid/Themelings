@@ -631,7 +631,7 @@ case 85:
             var9 = var1;
             var1 = copyDataProperties(var10, var9);
             var1 = 'guild_scheduled_event_exceptions';
-            var2[var1] = var4;
+            var2[0] = var4;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var1 = true;
@@ -1651,7 +1651,7 @@ case 80:
             var6 = var1;
             var1 = copyDataProperties(var7, var6);
             var1 = 'guild_scheduled_event_exceptions';
-            var2[var1] = var4;
+            var2[0] = var4;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var1 = true;
@@ -1681,7 +1681,7 @@ case 121:
             var2 = copyDataProperties(var7, var6);
             var5 = new Array(0);
             var2 = 'guild_scheduled_event_exceptions';
-            var3[var2] = var5;
+            var3[1] = var5;
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var1 = true;

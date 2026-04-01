@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var20.bind(var21)(var19);
         var13['label'] = var19;
         var13['checked'] = var17;
-        var1[var16] = var13;
+        var1[15] = var13;
         var16 = var18.ANALYTICS;
         var13 = {};
         var19 = var18.ANALYTICS;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var20.bind(var21)(var19);
         var13['label'] = var19;
         var13['checked'] = var17;
-        var1[var16] = var13;
+        var1[15] = var13;
         var16 = var18.ACTIVITIES;
         var13 = {};
         var19 = var18.ACTIVITIES;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var20.bind(var21)(var19);
         var13['label'] = var19;
         var13['checked'] = var17;
-        var1[var16] = var13;
+        var1[15] = var13;
         var16 = var18.ADS;
         var13 = {};
         var19 = var18.ADS;
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var20.bind(var21)(var19);
         var13['label'] = var19;
         var13['checked'] = var17;
-        var1[var16] = var13;
+        var1[15] = var13;
         var16 = var18.MESSAGES;
         var13 = {};
         var19 = var18.MESSAGES;
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var20.bind(var21)(var19);
         var13['label'] = var19;
         var13['checked'] = var17;
-        var1[var16] = var13;
+        var1[15] = var13;
         var16 = var18.GUILDS;
         var13 = {};
         var19 = var18.GUILDS;
@@ -208,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var20.bind(var21)(var19);
         var13['label'] = var19;
         var13['checked'] = var17;
-        var1[var16] = var13;
+        var1[15] = var13;
         var16 = var18.ZENDESK;
         var13 = {};
         var18 = var18.ZENDESK;
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var19.bind(var20)(var18);
         var13['label'] = var18;
         var13['checked'] = var17;
-        var1[var16] = var13;
+        var1[15] = var13;
         var1 = var7.bind(var8)(var1);
         var1 = var6.bind(var4)(var1, var5);
         var3 = var1[var3];
@@ -273,8 +273,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = copyDataProperties(var7, var6);
                     var5 = _closure4_slot0;
                     var4 = 'checked';
-                    var2[var4] = var5;
-                    var1[var3] = var2;
+                    var2[3] = var5;
+                    var1[2] = var2;
                     return var1;
                 };
                 var2 = var3.bind(var1)(var2);

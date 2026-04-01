@@ -496,11 +496,11 @@ case 18:
                         var6 = var6.R3BPH+;
                         var7 = var7.bind(var8)(var6);
                         var6 = 'label';
-                        var1[var6] = var7;
+                        var1[5] = var7;
                         var6 = _closure2_slot7;
                         var7 = !var6;
                         var6 = 'disabled';
-                        var1[var6] = var7;
+                        var1[5] = var7;
                         var6 = _closure1_slot5;
                         var5 = function* () {
                             var1 = function* anon_0_() {
@@ -556,7 +556,7 @@ case 19:
                         };
                         var6 = var6.bind(var3)(var5);
                         var5 = 'onPress';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };

@@ -49,7 +49,7 @@ case 2:
 case 5:
                 var1 = var5;
 case 4:
-                var4[var2] = var1;
+                var4[1] = var1;
                 var1 = 1;
                 var1 = var2 + var1;
                 var2 = var4.reduce;

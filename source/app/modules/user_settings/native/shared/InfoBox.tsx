@@ -105,14 +105,14 @@ case 2:
             var7 = var10.infoBox;
             var3 = new Array(1);
             var3[0] = var7;
-            var13[var5] = var3;
+            var13[4] = var3;
             var5 = var2.WARNING;
             var7 = var10.infoBox;
             var3 = new Array(2);
             var3[0] = var7;
             var7 = var10.infoBoxWarning;
             var3[1] = var7;
-            var13[var5] = var3;
+            var13[4] = var3;
             var5 = {};
             var12 = var2.INFO;
             var8 = _closure1_slot4;
@@ -131,7 +131,7 @@ case 2:
             var18 = var18.TEXT_LINK;
             var3['color'] = var18;
             var3 = var8.bind(var4)(var17, var3);
-            var5[var12] = var3;
+            var5[11] = var3;
             var3 = var2.WARNING;
             var2 = 6;
             var2 = var11[var2];
@@ -144,7 +144,7 @@ case 2:
             var15 = var15.ICON_FEEDBACK_WARNING;
             var2['color'] = var15;
             var2 = var8.bind(var4)(var12, var2);
-            var5[var3] = var2;
+            var5[2] = var2;
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};

@@ -249,7 +249,7 @@ case 41:
                         var3 = var4.assign;
                         var2 = {};
                         var1 = _closure2_slot1;
-                        var2[var1] = var6;
+                        var2[0] = var6;
                         var1 = {};
                         var1 = var3.bind(var4)(var1, var5, var2);
                         return var1;
@@ -408,7 +408,7 @@ case 44:
                     var5 = var5.listings;
                     var3 = _closure3_slot0;
                     var3 = var5[var3];
-                    var2[var4] = var3;
+                    var2[3] = var3;
                     var1['listings'] = var2;
                     return var1;
                 };
@@ -623,7 +623,7 @@ case 39:
                             var10 = var4;
                             var6 = arraySpread(var10, var9, var8);
                             var5 = _closure4_slot1;
-                            var4[var6] = var5;
+                            var4[5] = var5;
                             var5 = 1;
                             var5 = var6 + var5;
                             var1['roles'] = var4;
@@ -1963,9 +1963,9 @@ case 153:
                                     var3 = var3.listings;
                                     var4 = _closure6_slot0;
                                     var3 = var3[var4];
-                                    var2[var5] = var3;
+                                    var2[4] = var3;
                                     var3 = undefined;
-                                    var2[var4] = var3;
+                                    var2[3] = var3;
                                     var1['listings'] = var2;
                                     return var1;
                                 };
@@ -2355,7 +2355,7 @@ case 77:
                         var5 = var3;
                         var3 = arraySpread(var6, var5, var4);
                         var2 = _closure3_slot0;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         return var1;
@@ -2401,7 +2401,7 @@ case 77:
                         var5 = var3;
                         var3 = arraySpread(var6, var5, var4);
                         var2 = _closure3_slot1;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         return var1;

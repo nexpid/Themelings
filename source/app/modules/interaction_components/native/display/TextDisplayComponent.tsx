@@ -174,7 +174,7 @@ case 0:
                 var22 = var16;
                 var16 = copyDataProperties(var23, var22);
                 var16 = 'content';
-                var11[var16] = var17;
+                var11[15] = var17;
                 var1['model'] = var11;
                 var11 = {};
                 var11['containerId'] = var15;

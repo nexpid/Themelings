@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var7['handler'] = var15;
     var7 = var13.bind(var14)(var10, var7);
-    var2[var9] = var7;
+    var2[8] = var7;
     var7 = var4.REQUEST_PROXY_TICKET_REFRESH;
     var8 = var6[var8];
     var10 = var5.bind(var1)(var8);
@@ -197,7 +197,7 @@ case 2:
     };
     var4['handler'] = var11;
     var4 = var9.bind(var10)(var8, var4);
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -168,7 +168,7 @@ case 12:
             var11 = var3;
             var6 = copyDataProperties(var12, var11);
             var6 = 'onClear';
-            var4[var6] = var8;
+            var4[5] = var8;
             var6 = undefined;
             var4 = var7.bind(var6)(var4);
             var _closure2_slot2 = var4;
@@ -332,14 +332,14 @@ case 22:
             var11 = var3;
             var5 = copyDataProperties(var12, var11);
             var5 = 'onChange';
-            var2[var5] = var6;
+            var2[4] = var6;
             var5 = var4.setTextValue;
             var4 = 'onChangeText';
-            var2[var4] = var5;
+            var2[3] = var5;
             var4 = var3.isDisabled;
             var5 = !var4;
             var4 = 'editable';
-            var2[var4] = var5;
+            var2[3] = var5;
             var4 = var3.isDisabled;
             var5 = !var4;
             if(!var5) { _fun0004_ip = 23; continue _fun0004 }
@@ -347,10 +347,10 @@ case 24:
             var5 = var3.focusable;
 case 23:
             var4 = 'focusable';
-            var2[var4] = var5;
+            var2[3] = var5;
             var4 = var3.isDisabled;
             var3 = 'aria-disabled';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1['inputProps'] = var2;
             return var1;
         }

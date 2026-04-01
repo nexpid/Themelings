@@ -78,9 +78,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = copyDataProperties(var18, var17);
     var11 = 'center';
     var10 = 'alignItems';
-    var9[var10] = var11;
+    var9[9] = var11;
     var10 = 'justifyContent';
-    var9[var10] = var11;
+    var9[9] = var11;
     var10 = 12;
     var10 = var6[var10];
     var15 = var5.bind(var1)(var10);
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 0.7;
     var13 = var14.bind(var15)(var13, var10);
     var10 = 'backgroundColor';
-    var9[var10] = var13;
+    var9[9] = var13;
     var4['ctaWrapper'] = var9;
     var9 = {'height': 40, 'paddingHorizontal': 16, 'borderRadius': 20, 'backgroundColor': null, 'justifyContent': 'center', 'alignItems': 'center'};
     var10 = 20;
@@ -498,9 +498,9 @@ case 26:
             var12 = var6;
             var6 = copyDataProperties(var13, var12);
             var6 = 'stream';
-            var2[var6] = var8;
+            var2[5] = var8;
             var6 = 'channel';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 24:
             return var1;

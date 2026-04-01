@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7["12Kx2v"];
         var8 = var8.bind(var11)(var7);
         var7 = 'title';
-        var1[var7] = var8;
+        var1[6] = var8;
         var7 = var10[var6];
         var7 = var9.bind(var4)(var7);
         var11 = var7.intl;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7.msZW3j;
         var8 = var8.bind(var11)(var7);
         var7 = 'body';
-        var1[var7] = var8;
+        var1[6] = var8;
         var7 = var10[var6];
         var7 = var9.bind(var4)(var7);
         var11 = var7.intl;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7.n+VrqG;
         var8 = var8.bind(var11)(var7);
         var7 = 'confirmText';
-        var1[var7] = var8;
+        var1[6] = var8;
         var7 = var10[var6];
         var7 = var9.bind(var4)(var7);
         var8 = var7.intl;
@@ -113,10 +113,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var6.kYaBOg;
         var7 = var7.bind(var8)(var6);
         var6 = 'cancelText';
-        var1[var6] = var7;
+        var1[5] = var7;
         var7 = true;
         var6 = 'fillCancelText';
-        var1[var6] = var7;
+        var1[5] = var7;
         var7 = function renderConfirmRightIcon() {
             var4 = _closure1_slot5;
             var6 = _closure1_slot1;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var6 = 'renderConfirmRightIcon';
-        var1[var6] = var7;
+        var1[5] = var7;
         var6 = function onConfirm() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -168,7 +168,7 @@ case 4:
             }
         };
         var5 = 'onConfirm';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

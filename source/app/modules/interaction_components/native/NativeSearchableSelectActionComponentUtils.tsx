@@ -143,7 +143,7 @@ case 12:
                 var6 = var8.bind(var9)(var6);
                 var8 = var6.uri;
                 var6 = 'iconSrc';
-                var2[var6] = var8;
+                var2[5] = var8;
                 var6 = 10;
                 var6 = var10[var6];
                 var8 = var7.bind(var5)(var6);
@@ -158,7 +158,7 @@ case 12:
                 var6 = 4278190080.0;
                 var7 = var6 | var7;
                 var6 = 'iconColor';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var1 = var2;
 case 11:
                 return var1;
@@ -223,7 +223,7 @@ case 20:
                 var9 = var11.bind(var12)(var9);
                 var11 = var9.uri;
                 var9 = 'iconSrc';
-                var2[var9] = var11;
+                var2[8] = var11;
                 var9 = var7.colorString;
                 if(!(var10 == var9)) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
@@ -242,7 +242,7 @@ case 27:
                 var7 = 4278190080.0;
                 var9 = var7 | var9;
                 var7 = 'iconColor';
-                var2[var7] = var9;
+                var2[6] = var9;
                 var1 = var2;
                 _fun0002_ip = 15; continue _fun0002;
 case 24:
@@ -251,7 +251,7 @@ case 24:
                 var15 = var4;
                 var7 = copyDataProperties(var16, var15);
                 var7 = 'iconSrc';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var1 = var2;
                 _fun0002_ip = 15; continue _fun0002;
 case 22:
@@ -271,7 +271,7 @@ case 22:
                 var6 = var6.surrogates;
                 var7['surrogates'] = var6;
                 var6 = 'iconEmoji';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var1 = var2;
 case 15:
                 return var1;
@@ -301,7 +301,7 @@ case 29:
                 var3 = var4.bind(var5)(var3);
                 var4 = var3.uri;
                 var3 = 'iconSrc';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 28:
                 return var1;

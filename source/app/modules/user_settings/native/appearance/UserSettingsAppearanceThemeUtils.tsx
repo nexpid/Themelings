@@ -121,7 +121,7 @@ case 2:
         var4 = _closure1_slot7;
         var2 = arg3;
         var2 = var2 + var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var4 = {};

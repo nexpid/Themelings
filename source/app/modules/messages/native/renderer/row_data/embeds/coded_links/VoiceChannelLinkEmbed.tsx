@@ -174,10 +174,10 @@ case 20:
             var11 = '';
 case 19:
             var10 = 'headerText';
-            var2[var10] = var11;
+            var2[9] = var11;
             var11 = var5.headerColor;
             var10 = 'headerColor';
-            var2[var10] = var11;
+            var2[9] = var11;
             var10 = var8.isGuildStageVoice;
             var12 = var10.bind(var8)();
             var15 = _closure1_slot0;
@@ -200,11 +200,11 @@ case 21:
             var12 = var13.bind(var14)(var11);
 case 23:
             var11 = 'acceptLabelText';
-            var2[var11] = var12;
+            var2[10] = var12;
             var11 = 'onlineText';
-            var2[var11] = var4;
+            var2[10] = var4;
             var11 = 'memberText';
-            var2[var11] = var4;
+            var2[10] = var4;
             var13 = _closure1_slot4;
             var12 = var13.resolveAssetSource;
             var14 = _closure1_slot0;
@@ -222,13 +222,13 @@ case 25:
             var12 = var11.uri;
 case 24:
             var11 = 'channelIcon';
-            var2[var11] = var12;
+            var2[10] = var12;
             var11 = var8.name;
             var8 = 'titleText';
-            var2[var8] = var11;
+            var2[7] = var11;
             var11 = var5.titleColor;
             var8 = 'titleColor';
-            var2[var8] = var11;
+            var2[7] = var11;
             var11 = var1 != var6;
             var8 = undefined;
             if(!var11) { _fun0001_ip = 26; continue _fun0001 }
@@ -236,25 +236,25 @@ case 27:
             var8 = var6;
 case 26:
             var6 = 'thumbnailUrl';
-            var2[var6] = var8;
+            var2[5] = var8;
             var6 = 'thumbnailText';
-            var2[var6] = var7;
+            var2[5] = var7;
             var6 = 'subtitleColor';
-            var2[var6] = var4;
+            var2[5] = var4;
             var7 = var5.acceptLabelGreenBackgroundColor;
             var6 = 'acceptLabelBackgroundColor';
-            var2[var6] = var7;
+            var2[5] = var7;
             var6 = 'acceptLabelBorderColor';
-            var2[var6] = var4;
+            var2[5] = var4;
             var6 = var5.acceptLabelGreenColor;
             var5 = 'acceptLabelColor';
-            var2[var5] = var6;
+            var2[4] = var6;
             var6 = true;
             var5 = 'embedCanBeTapped';
-            var2[var5] = var6;
+            var2[4] = var6;
             var6 = false;
             var5 = 'canBeAccepted';
-            var2[var5] = var6;
+            var2[4] = var6;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var7 = var5[var10];
@@ -270,16 +270,16 @@ case 26:
             var5['guildName'] = var9;
             var6 = var7.bind(var8)(var6, var5);
             var5 = 'channelName';
-            var2[var5] = var6;
+            var2[4] = var6;
             var6 = '';
             var5 = 'subtitle';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3 = _closure1_slot10;
             var5 = var3.GUILD;
             var3 = 'type';
-            var2[var3] = var5;
+            var2[2] = var5;
             var3 = 'inviteSplash';
-            var2[var3] = var4;
+            var2[2] = var4;
             return var2;
 case 2:
             return var1;

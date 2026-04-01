@@ -262,7 +262,7 @@ case 0:
                 var22 = var1;
                 var14 = copyDataProperties(var22, var21);
                 var14 = 'type';
-                var1[var14] = var15;
+                var1[13] = var15;
                 var15 = _closure1_slot11;
                 var14 = null;
                 if(!(var11 !== var15)) { _fun0004_ip = 16; continue _fun0004 }
@@ -270,9 +270,9 @@ case 17:
                 var14 = var11;
 case 16:
                 var11 = 'premiumType';
-                var1[var11] = var14;
+                var1[10] = var14;
                 var11 = 'categorySkuId';
-                var1[var11] = var13;
+                var1[10] = var13;
                 var13 = _closure1_slot10;
                 var11 = var13.some;
                 var8 = function(arg1) {
@@ -285,7 +285,7 @@ case 16:
                 };
                 var11 = var11.bind(var13)(var8);
                 var8 = 'isCategoryReward';
-                var1[var8] = var11;
+                var1[7] = var11;
                 var11 = _closure1_slot0;
                 var13 = _closure1_slot1;
                 var8 = 11;
@@ -293,12 +293,12 @@ case 16:
                 var8 = var11.bind(var5)(var8);
                 var9 = var8.bind(var5)(var9);
                 var8 = 'prices';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var9 = _closure1_slot9;
                 var8 = var2.items;
                 var9 = var9.bind(var5)(var8);
                 var8 = 'items';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var8 = var6 == var12;
                 var9 = undefined;
                 if(var8) { _fun0004_ip = 18; continue _fun0004 }
@@ -309,7 +309,7 @@ case 19:
                 var9 = var11.bind(var12)(var8);
 case 18:
                 var8 = 'bundledProducts';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var8 = var6 != var10;
                 var9 = undefined;
                 if(!var8) { _fun0004_ip = 20; continue _fun0004 }
@@ -326,7 +326,7 @@ case 21:
                 var9 = var8;
 case 20:
                 var8 = 'previewAssets';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var6 = var6 == var7;
                 var5 = undefined;
                 if(var6) { _fun0004_ip = 22; continue _fun0004 }
@@ -337,13 +337,13 @@ case 23:
                 var5 = var6.bind(var7)(var4);
 case 22:
                 var4 = 'variants';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.google_sku_ids;
                 var4 = 'googleSkuIds';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var4 = var2.eligible_offers;
                 var2 = 'eligibleOffers';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var23 = var2;
@@ -422,13 +422,13 @@ case 22:
             var16 = var1;
             var2 = copyDataProperties(var16, var15);
             var2 = 'baseVariantName';
-            var1[var2] = var7;
+            var1[1] = var7;
             var2 = 'baseVariantSkuId';
-            var1[var2] = var6;
+            var1[1] = var6;
             var2 = 'variantLabel';
-            var1[var2] = var5;
+            var1[1] = var5;
             var2 = 'variantValue';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
             var17 = var2;

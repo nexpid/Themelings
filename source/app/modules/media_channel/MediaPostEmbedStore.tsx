@@ -223,7 +223,7 @@ case 11:
         var6 = _closure1_slot6;
         var7 = var2;
         var5 = copyDataProperties(var7, var6);
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot6 = var2;
         var2 = _closure1_slot7;
         var1 = _closure1_slot5;

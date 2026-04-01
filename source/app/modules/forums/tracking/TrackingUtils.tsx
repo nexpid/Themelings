@@ -581,12 +581,12 @@ case 55:
             var7 = var8.getMemberCount;
             var8 = var7.bind(var8)(var12);
             var7 = 'thread_approximate_member_count';
-            var3[var7] = var8;
+            var3[6] = var8;
             var8 = _closure1_slot6;
             var7 = var8.getCount;
             var8 = var7.bind(var8)(var12);
             var7 = 'thread_approximate_message_count';
-            var3[var7] = var8;
+            var3[6] = var8;
             var7 = var4.threadMetadata;
             var9 = var1 == var7;
             var8 = undefined;
@@ -597,7 +597,7 @@ case 56:
             var7 = true;
             var8 = var7 === var8;
             var7 = 'thread_archived';
-            var3[var7] = var8;
+            var3[6] = var8;
             var8 = var4.threadMetadata;
             var9 = var1 == var8;
             var7 = undefined;
@@ -611,7 +611,7 @@ case 61:
             var8 = var7;
 case 60:
             var7 = 'thread_locked';
-            var3[var7] = var8;
+            var3[6] = var8;
             var8 = var4.threadMetadata;
             var9 = var1 == var8;
             var7 = undefined;
@@ -626,7 +626,7 @@ case 65:
             var8 = var7;
 case 64:
             var7 = 'thread_auto_archive_duration_minutes';
-            var3[var7] = var8;
+            var3[6] = var8;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
             var9 = 15;
@@ -635,38 +635,38 @@ case 64:
             var10 = var11.extractTimestamp;
             var11 = var10.bind(var11)(var12);
             var10 = 'thread_approximate_creation_date';
-            var3[var10] = var11;
+            var3[9] = var11;
             var11 = var4.id;
             var10 = 'forum_post_id';
-            var3[var10] = var11;
+            var3[9] = var11;
             var9 = var7[var9];
             var11 = var8.bind(var6)(var9);
             var10 = var11.castChannelIdAsMessageId;
             var9 = var4.id;
             var10 = var10.bind(var11)(var9);
             var9 = 'forum_post_first_message_id';
-            var3[var9] = var10;
+            var3[8] = var10;
             var10 = _closure1_slot19;
             var9 = var4.id;
             var10 = var10.bind(var6)(var9);
             var9 = 'forum_post_num_reactions';
-            var3[var9] = var10;
+            var3[8] = var10;
             var10 = _closure1_slot18;
             var9 = var4.id;
             var10 = var10.bind(var6)(var9);
             var9 = 'forum_post_num_unique_reactions';
-            var3[var9] = var10;
+            var3[8] = var10;
             var10 = _closure1_slot20;
             var9 = var4.id;
             var10 = var10.bind(var6)(var9);
             var9 = 'forum_post_applied_tag_ids';
-            var3[var9] = var10;
+            var3[8] = var10;
             var10 = var4.hasFlag;
             var9 = _closure1_slot14;
             var9 = var9.PINNED;
             var10 = var10.bind(var4)(var9);
             var9 = 'forum_post_is_pinned';
-            var3[var9] = var10;
+            var3[8] = var10;
             var9 = 16;
             var7 = var7[var9];
             var10 = var8.bind(var6)(var7);
@@ -680,7 +680,7 @@ case 67:
             var8 = var7.isNew;
 case 66:
             var7 = 'forum_post_is_new';
-            var3[var7] = var8;
+            var3[6] = var8;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
             var7 = var7[var9];
@@ -695,18 +695,18 @@ case 69:
             var8 = var7.hasUnreads;
 case 68:
             var7 = 'forum_post_is_unread';
-            var3[var7] = var8;
+            var3[6] = var8;
             var9 = _closure1_slot4;
             var8 = var9.hasJoined;
             var7 = var4.id;
             var8 = var8.bind(var9)(var7);
             var7 = 'forum_post_is_following';
-            var3[var7] = var8;
+            var3[6] = var8;
             var5 = _closure1_slot21;
             var4 = var4.id;
             var5 = var5.bind(var6)(var4);
             var4 = 'forum_post_attachment_mimetypes';
-            var3[var4] = var5;
+            var3[3] = var5;
             var2 = var3;
 case 53:
             return var2;

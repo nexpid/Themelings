@@ -901,7 +901,7 @@ case 33:
     var22 = var9;
     var15 = copyDataProperties(var22, var21);
     var15 = 'marginBottom';
-    var9[var15] = var16;
+    var9[14] = var16;
     var4['guildInfoName'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center'};
     var4['guildInfoRowBottom'] = var9;

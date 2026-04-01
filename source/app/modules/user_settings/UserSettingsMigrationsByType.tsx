@@ -19,10 +19,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var8 = var4.PRELOADED_USER_SETTINGS;
     var7 = new Array(0);
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
     var4 = new Array(0);
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

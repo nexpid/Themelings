@@ -132,11 +132,11 @@ case 12:
             var15['children'] = var19;
             var17 = var18.bind(var4)(var17, var15);
             var15 = 'label';
-            var1[var15] = var17;
+            var1[14] = var17;
             var15 = 'subLabel';
-            var1[var15] = var16;
+            var1[14] = var16;
             var15 = 'disabled';
-            var1[var15] = var11;
+            var1[14] = var11;
             var15 = undefined;
             if(!var14) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
@@ -165,10 +165,10 @@ case 18:
             };
 case 14:
             var14 = 'onPress';
-            var1[var14] = var15;
+            var1[13] = var15;
             var15 = true;
             var14 = 'accessible';
-            var1[var14] = var15;
+            var1[13] = var15;
             var14 = function onAccessibilityTap() {
                 var3 = _closure2_slot3;
                 var1 = _closure2_slot2;
@@ -198,19 +198,19 @@ case 20:
                 return var1;
             };
             var12 = 'onAccessibilityTap';
-            var1[var12] = var14;
+            var1[11] = var14;
             var14 = 'switch';
             var12 = 'accessibilityRole';
-            var1[var12] = var14;
+            var1[11] = var14;
             var12 = 'accessibilityLabel';
-            var1[var12] = var13;
+            var1[11] = var13;
             var12 = {};
             var12['disabled'] = var11;
             var12['checked'] = var6;
             var6 = 'accessibilityState';
-            var1[var6] = var12;
+            var1[5] = var12;
             var6 = 'accessibilityHint';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = _closure1_slot6;
             var6 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -226,7 +226,7 @@ case 20:
             var8 = copyDataProperties(var29, var28);
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'trailing';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

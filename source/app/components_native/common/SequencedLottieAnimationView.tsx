@@ -321,10 +321,10 @@ case 23:
                 var8 = copyDataProperties(var14, var13);
                 var9 = var7.handleSetRef;
                 var8 = 'ref';
-                var5[var8] = var9;
+                var5[7] = var9;
                 var8 = var7.handleComplete;
                 var7 = 'onAnimationFinish';
-                var5[var7] = var8;
+                var5[6] = var8;
                 var5 = var3.bind(var4)(var6, var5);
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

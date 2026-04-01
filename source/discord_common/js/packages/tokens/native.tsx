@@ -244,7 +244,7 @@ case 35:
         var1 = {};
         var3 = _closure1_slot7;
         var2 = arg2;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var15 = var16.bind(var1)(var4, var15);

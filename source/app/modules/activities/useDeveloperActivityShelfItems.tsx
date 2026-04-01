@@ -107,7 +107,7 @@ case 2:
                     var4 = copyDataProperties(var6, var5);
                     var4 = var3.id;
                     var3 = 'application_id';
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     var1['activity'] = var2;
                     return var1;
                 };

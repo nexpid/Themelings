@@ -1453,10 +1453,10 @@ case 61:
     var15 = var15.radii;
     var16 = var15.sm;
     var15 = 'borderRadius';
-    var10[var15] = var16;
+    var10[14] = var16;
     var16 = 'hidden';
     var15 = 'overflow';
-    var10[var15] = var16;
+    var10[14] = var16;
     var5['visualEffectView'] = var10;
     var10 = {};
     var15 = 'rgba(0, 0, 0, .15)';

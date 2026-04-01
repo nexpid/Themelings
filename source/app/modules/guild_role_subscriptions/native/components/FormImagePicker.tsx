@@ -514,13 +514,13 @@ case 41:
             var24 = var9;
             var9 = copyDataProperties(var25, var24);
             var9 = 'disabled';
-            var6[var9] = var13;
+            var6[8] = var13;
             var9 = 'imageUploadSize';
-            var6[var9] = var12;
+            var6[8] = var12;
             var9 = 'image';
-            var6[var9] = var11;
+            var6[8] = var11;
             var9 = 'setImage';
-            var6[var9] = var10;
+            var6[8] = var10;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;

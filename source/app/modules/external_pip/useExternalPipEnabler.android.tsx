@@ -118,7 +118,7 @@ case 5:
                 var9 = var2;
                 var3 = copyDataProperties(var9, var8);
                 var3 = 'externalPipEnabled';
-                var2[var3] = var4;
+                var2[2] = var4;
                 return var2;
 case 2:
                 var3 = _closure1_slot0;

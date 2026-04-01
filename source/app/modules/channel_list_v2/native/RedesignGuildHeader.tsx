@@ -620,7 +620,7 @@ case 9:
         var3 = var3.colors;
         var4 = var3.BLACK;
         var3 = 'backgroundColor';
-        var2[var3] = var4;
+        var2[2] = var4;
         var1['bannerOverlay'] = var2;
         return var1;
     };

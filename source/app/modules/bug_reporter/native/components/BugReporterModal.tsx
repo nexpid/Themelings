@@ -252,9 +252,9 @@ case 9:
                     var3 = copyDataProperties(var11, var10);
                     var4 = _closure2_slot0;
                     var3 = 'uri';
-                    var6[var3] = var4;
+                    var6[2] = var4;
                     var3 = 'originalUri';
-                    var6[var3] = var4;
+                    var6[2] = var4;
                     var9 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var4 = 16;
@@ -264,7 +264,7 @@ case 9:
                     var8 = var8.UploadPlatform;
                     var9 = var8.REACT_NATIVE;
                     var8 = 'platform';
-                    var6[var8] = var9;
+                    var6[7] = var9;
                     var5 = _closure1_slot1;
                     var4 = var7[var4];
                     var4 = var5.bind(var3)(var4);
@@ -283,7 +283,7 @@ case 9:
                         var6 = var1;
                         var3 = arraySpread(var6, var5, var4);
                         var2 = _closure3_slot0;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         return var1;
@@ -952,10 +952,10 @@ case 79:
                             var8 = copyDataProperties(var16, var15);
                             var11 = var12.uri;
                             var8 = 'uri';
-                            var10[var8] = var11;
+                            var10[7] = var11;
                             var11 = var12.uri;
                             var8 = 'originalUri';
-                            var10[var8] = var11;
+                            var10[7] = var11;
                             var14 = _closure1_slot0;
                             var11 = _closure1_slot2;
                             var8 = 16;
@@ -964,10 +964,10 @@ case 79:
                             var13 = var13.UploadPlatform;
                             var14 = var13.REACT_NATIVE;
                             var13 = 'platform';
-                            var10[var13] = var14;
+                            var10[12] = var14;
                             var13 = var12.fileName;
                             var12 = 'filename';
-                            var10[var12] = var13;
+                            var10[11] = var13;
                             var9 = _closure1_slot1;
                             var8 = var11[var8];
                             var8 = var9.bind(var3)(var8);
@@ -988,7 +988,7 @@ case 79:
                                 var6 = var1;
                                 var3 = arraySpread(var6, var5, var4);
                                 var2 = _closure5_slot0;
-                                var1[var3] = var2;
+                                var1[2] = var2;
                                 var2 = 1;
                                 var2 = var3 + var2;
                                 return var1;

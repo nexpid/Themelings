@@ -298,7 +298,7 @@ case 2:
             }
         };
         var6 = 'onClick';
-        var5[var6] = var7;
+        var5[5] = var7;
         var2['options'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;

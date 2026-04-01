@@ -182,7 +182,7 @@ case 14:
                     var8 = var4;
                     var7 = copyDataProperties(var9, var8);
                     var7 = 'count';
-                    var2[var7] = var5;
+                    var2[6] = var5;
                     var2 = var3.bind(var6)(var2);
                     var3 = _closure2_slot0;
                     var2 = var3.push;
@@ -191,7 +191,7 @@ case 14:
                     var8 = var4;
                     var4 = copyDataProperties(var9, var8);
                     var4 = 'burst_count';
-                    var1[var4] = var5;
+                    var1[3] = var5;
                     var1 = var2.bind(var3)(var1);
 case 15:
                     var1 = undefined;

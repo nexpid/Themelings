@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.colors;
     var12 = var11.BACKGROUND_BASE_LOWER;
     var11 = 'backgroundColor';
-    var10[var11] = var12;
+    var10[10] = var12;
     var2['tabOverlay'] = var10;
     var2 = var5.bind(var9)(var2);
     var _closure1_slot11 = var2;

@@ -90,7 +90,7 @@ case 2:
         var3 = var3.locale;
         var4 = var4.bind(var5)(var7, var3, var6);
         var3 = 'text';
-        var1[var3] = var4;
+        var1[2] = var4;
         var3 = var11[var8];
         var5 = var10.bind(var9)(var3);
         var4 = var5.formatEntryTimestamp;
@@ -107,7 +107,7 @@ case 2:
         var12 = var2;
         var3 = var16[var4](var15, var14, var13, var12, var11);
         var2 = 'ariaDescription';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var _closure1_slot11 = var1;

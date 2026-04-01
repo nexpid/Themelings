@@ -164,7 +164,7 @@ case 19:
                 var12 = var1;
                 var4 = copyDataProperties(var12, var11);
                 var4 = 'cornerRadius';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }
@@ -180,7 +180,7 @@ case 19:
         var17 = var5;
         var5 = copyDataProperties(var18, var17);
         var5 = 'children';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

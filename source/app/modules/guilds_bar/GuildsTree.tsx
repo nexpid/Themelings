@@ -1,11 +1,11 @@
 // app/modules/guilds_bar/GuildsTree.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var6 = metroImportDefault;
+    var5 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var5;
     var _closure1_slot2 = var8;
     var1 = function randomFolderId() {
         var1 = global;
@@ -19,33 +19,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot6 = var1;
     var1 = global;
     var9 = var1.Object;
-    var5 = var9.defineProperty;
+    var6 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var9)(var3, var1, var4);
-    var4 = 0;
-    var5 = var8[var4];
+    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var8[var1];
     var1 = undefined;
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var8[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot4 = var5;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
     var5 = {};
-    var6 = 'root';
-    var5['ROOT'] = var6;
-    var6 = 'folder';
-    var5['FOLDER'] = var6;
-    var6 = 'guild';
-    var5['GUILD'] = var6;
+    var4 = 'root';
+    var5['ROOT'] = var4;
+    var4 = 'folder';
+    var5['FOLDER'] = var4;
+    var4 = 'guild';
+    var5['GUILD'] = var4;
     var _closure1_slot5 = var5;
-    var _closure1_slot6 = var4;
     var4 = function() {
         var4 = _closure1_slot4;
         var3 = function GuildsTree() {
@@ -91,7 +90,7 @@ case 3:
                     var18 = var12;
                     var17 = var14;
                     var15 = copyDataProperties(var18, var17);
-                    var12[var5] = var6;
+                    var12[4] = var6;
                     var16 = var14.children;
                     var15 = var16.map;
                     var14 = function(arg1) {
@@ -100,7 +99,7 @@ case 3:
                         return var1;
                     };
                     var14 = var15.bind(var16)(var14);
-                    var12[var1] = var14;
+                    var12[0] = var14;
                     var2[var13] = var12;
                     _fun0001_ip = 2; continue _fun0001;
                 }
@@ -129,43 +128,36 @@ case 4:
         var6 = function value(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
+                var4 = arg1;
                 var2 = this;
                 var _closure3_slot0 = var2;
-                var4 = arg1;
-                var3 = _closure1_slot6;
-                var3 = var3 + 1;
-                _closure1_slot6 = var3;
-                var7 = null;
-                var6 = new Array(0);
-case 5: // try_start_0
-                var3 = var4;
-                var3 = var3.nodes;
+                var3 = var4.nodes;
                 var2['nodes'] = var3;
-                var10 = var2.nodes;
-                for(var3 in var10)
-case 6:
+                var8 = var2.nodes;
+                var3 = 'childrenIds';
+                for(var5 in var8)
+case 5:
                 {
+case 6:
+                    var11 = var5;
+                    var10 = var2.nodes;
+                    var10 = var10[var11];
+                    var11 = var3 in var10;
+                    if(!var11) { _fun0002_ip = 5; continue _fun0002 }
 case 7:
-                    var15 = var3;
-                    var12 = var2.nodes;
-                    var12 = var12[var15];
-                    var14 = var6;
-                    var13 = var14.push;
-                    var13 = var13.bind(var14)(var15);
-                    var7 = var12;
-                    var15 = var12.childrenIds;
-                    var14 = var15.map;
-                    var13 = function(arg1) {
+                    var13 = var10.childrenIds;
+                    var12 = var13.map;
+                    var11 = function(arg1) {
                         var1 = _closure3_slot0;
                         var2 = var1.nodes;
                         var1 = arg1;
                         var1 = var2[var1];
                         return var1;
                     };
-                    var13 = var14.bind(var15)(var13);
-                    var12['children'] = var13;
-                    var12 = delete var12.childrenIds;
-                    _fun0002_ip = 6; continue _fun0002;
+                    var11 = var12.bind(var13)(var11);
+                    var10['children'] = var11;
+                    var10 = delete var10.childrenIds;
+                    _fun0002_ip = 5; continue _fun0002;
                 }
 case 8:
                 var3 = var2.root;
@@ -183,29 +175,8 @@ case 8:
                 var1 = var2.version;
                 var1 = var1 + 1;
                 var2['version'] = var1;
-case 9: // try_end0
                 var1 = undefined;
                 return var1;
-case 10: // catch_target0
-                CatchBlockStart(arg_register=0);
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var2 = 2;
-                var3 = var3[var2];
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
-                var3 = var4.addBreadcrumb;
-                var2 = {};
-                var5 = 'GuildTree snapshot load failed';
-                var2['message'] = var5;
-                var5 = {};
-                var8 = _closure1_slot6;
-                var5['numSnapshotsLoaded'] = var8;
-                var5['currentNode'] = var7;
-                var5['nodesIterated'] = var6;
-                var2['data'] = var5;
-                var2 = var3.bind(var4)(var2);
-                throw var1;
             }
         };
         var1['value'] = var6;
@@ -221,42 +192,42 @@ case 0:
                 var5 = arguments[2];
                 var1 = this;
                 var10 = undefined;
-                if(!(var5 === var10)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                if(!(var5 === var10)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var5 = false;
-case 11:
+case 9:
                 var2 = var1._pluckNode;
                 var2 = var2.bind(var1)(var3);
                 var4 = var11.parentId;
                 var2 = null;
-                if(!(var2 == var4)) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+                if(!(var2 == var4)) { _fun0003_ip = 6; continue _fun0003 }
+case 11:
                 var2 = var1.root;
-                _fun0003_ip = 15; continue _fun0003;
-case 13:
+                _fun0003_ip = 12; continue _fun0003;
+case 6:
                 var6 = var1.nodes;
                 var4 = var11.parentId;
                 var2 = var6[var4];
-case 15:
+case 12:
                 var6 = var2.children;
                 var4 = var6.indexOf;
                 var8 = var4.bind(var6)(var11);
                 var7 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var9 = 3;
+                var9 = 2;
                 var4 = var4[var9];
                 var13 = var7.bind(var10)(var4);
                 var7 = var3.type;
                 var4 = _closure1_slot5;
                 var4 = var4.FOLDER;
                 var7 = var7 === var4;
-                if(!var7) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+                if(!var7) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                 var12 = var2.type;
                 var4 = _closure1_slot5;
                 var4 = var4.FOLDER;
                 var7 = var12 === var4;
-case 16:
+case 13:
                 var22 = var3.id;
                 var20 = var2.id;
                 var4 = global;
@@ -284,10 +255,10 @@ case 16:
                 var4 = var23[var12](var22, var21, var20, var19, var18);
                 var4 = var9.bind(var10)(var6, var4);
                 var4 = 0;
-                if(!var5) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                if(!var5) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                 var4 = 1;
-case 18:
+case 15:
                 var21 = var2.children;
                 var5 = new Array(0);
                 var22 = var5;
@@ -319,19 +290,19 @@ case 0:
                 var4 = arguments[2];
                 var1 = this;
                 var5 = undefined;
-                if(!(var4 === var5)) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                if(!(var4 === var5)) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
                 var4 = true;
-case 11:
+case 9:
                 var5 = var1._pluckNode;
                 var5 = var5.bind(var1)(var3);
                 var7 = 0;
                 var6 = 0;
-                if(!var4) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                if(!var4) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                 var4 = var2.children;
                 var6 = var4.length;
-case 20:
+case 17:
                 var9 = var2.children;
                 var4 = new Array(0);
                 var10 = var4;
@@ -362,17 +333,17 @@ case 0:
                 var3 = arguments[2];
                 var2 = this;
                 var8 = undefined;
-                if(!(var4 === var8)) { _fun0005_ip = 22; continue _fun0005 }
-case 12:
+                if(!(var4 === var8)) { _fun0005_ip = 19; continue _fun0005 }
+case 10:
                 var4 = var2.root;
-case 22:
-                if(!(var3 === var8)) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+case 19:
+                if(!(var3 === var8)) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                 var3 = true;
-case 23:
+case 20:
                 var7 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 3;
+                var1 = 2;
                 var10 = var9[var1];
                 var11 = var7.bind(var8)(var10);
                 var10 = var5.type;
@@ -423,7 +394,7 @@ case 23:
             var1 = this;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var4 = 3;
+            var4 = 2;
             var7 = var6[var4];
             var3 = undefined;
             var9 = var5.bind(var3)(var7);
@@ -462,7 +433,7 @@ case 0:
                 var1 = this;
                 var9 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var8 = 3;
+                var8 = 2;
                 var7 = var5[var8];
                 var3 = undefined;
                 var12 = var9.bind(var3)(var7);
@@ -478,15 +449,15 @@ case 0:
                 var5 = '[GUILDS TREE] Tried replacing a node with one that does not have an id';
                 var5 = var10.bind(var3)(var9, var5);
                 var5 = var2.parentId;
-                if(!(var7 == var5)) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+                if(!(var7 == var5)) { _fun0006_ip = 8; continue _fun0006 }
+case 22:
                 var5 = var1.root;
-                _fun0006_ip = 27; continue _fun0006;
-case 25:
+                _fun0006_ip = 23; continue _fun0006;
+case 8:
                 var9 = var1.nodes;
                 var7 = var2.parentId;
                 var5 = var9[var7];
-case 27:
+case 23:
                 var9 = var5.children;
                 var7 = var9.indexOf;
                 var9 = var7.bind(var9)(var2);
@@ -539,7 +510,7 @@ case 27:
         var6 = function value(arg1) {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 4;
+            var1 = 3;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -558,21 +529,21 @@ case 27:
 case 0:
                 var5 = arg1;
                 var3 = this;
-                var1 = _closure1_slot7;
+                var1 = _closure1_slot6;
                 var7 = undefined;
                 var2 = var1.bind(var7)();
                 var1 = var3.getNode;
                 var1 = var1.bind(var3)(var2);
                 var6 = null;
-                if(!(var6 != var1)) { _fun0007_ip = 28; continue _fun0007 }
-case 29:
-                var1 = _closure1_slot7;
+                if(!(var6 != var1)) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
+                var1 = _closure1_slot6;
                 var8 = var1.bind(var7)();
                 var1 = var3.getNode;
                 var1 = var1.bind(var3)(var8);
                 var2 = var8;
-                if(var6 != var1) { _fun0007_ip = 29; continue _fun0007 }
-case 28:
+                if(var6 != var1) { _fun0007_ip = 25; continue _fun0007 }
+case 24:
                 var1 = {};
                 var4 = _closure1_slot5;
                 var4 = var4.FOLDER;
@@ -656,12 +627,12 @@ case 0:
                     var2 = var3.type;
                     var1 = _closure1_slot5;
                     var1 = var1.GUILD;
-                    if(!(var2 !== var1)) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
+                    if(!(var2 !== var1)) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
                     var2 = var3.children;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0008_ip = 7; continue _fun0008 }
-case 29:
+                    if(!(var1 != var2)) { _fun0008_ip = 28; continue _fun0008 }
+case 25:
                     var4 = var3.children;
                     var2 = var4.map;
                     var1 = function(arg1) {
@@ -674,16 +645,16 @@ case 29:
                     var2 = var2.bind(var4)(var1);
                     var1 = var2.flat;
                     var1 = var1.bind(var2)();
-                    _fun0008_ip = 32; continue _fun0008;
-case 7:
+                    _fun0008_ip = 29; continue _fun0008;
+case 28:
                     var1 = new Array(0);
-case 32:
-                    _fun0008_ip = 33; continue _fun0008;
-case 30:
+case 29:
+                    _fun0008_ip = 30; continue _fun0008;
+case 26:
                     var2 = new Array(1);
                     var2[0] = var3;
                     var1 = var2;
-case 33:
+case 30:
                     return var1;
                 }
             };
@@ -707,18 +678,18 @@ case 0:
                 var _closure3_slot0 = var2;
                 var1 = var2.parentId;
                 var8 = null;
-                if(!(var8 == var1)) { _fun0009_ip = 5; continue _fun0009 }
-case 22:
+                if(!(var8 == var1)) { _fun0009_ip = 31; continue _fun0009 }
+case 19:
                 var5 = var3.root;
-                _fun0009_ip = 20; continue _fun0009;
-case 5:
+                _fun0009_ip = 17; continue _fun0009;
+case 31:
                 var6 = var3.nodes;
                 var1 = var2.parentId;
                 var5 = var6[var1];
-case 20:
+case 17:
                 var10 = _closure1_slot1;
                 var11 = _closure1_slot2;
-                var9 = 3;
+                var9 = 2;
                 var6 = var11[var9];
                 var1 = undefined;
                 var15 = var10.bind(var1)(var6);
@@ -771,7 +742,7 @@ case 20:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var6 = 5;
+    var6 = 4;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -812,29 +783,29 @@ case 0:
             var3 = null;
             var8 = var3 != var7;
             var6 = undefined;
-            if(!var8) { _fun0010_ip = 34; continue _fun0010 }
-case 35:
+            if(!var8) { _fun0010_ip = 32; continue _fun0010 }
+case 33:
             var6 = var7;
-case 34:
+case 32:
             var1['name'] = var6;
             var6 = var4.folderColor;
             var7 = var3 != var6;
             var5 = undefined;
-            if(!var7) { _fun0010_ip = 36; continue _fun0010 }
-case 37:
+            if(!var7) { _fun0010_ip = 34; continue _fun0010 }
+case 35:
             var5 = var6;
-case 36:
+case 34:
             var1['color'] = var5;
-            if(!(var3 == var2)) { _fun0010_ip = 38; continue _fun0010 }
-case 39:
+            if(!(var3 == var2)) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
             var4 = var4.expanded;
             var3 = var3 != var4;
-            if(!var3) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
+            if(!var3) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
             var3 = var4;
-case 40:
-            var2 = var3;
 case 38:
+            var2 = var3;
+case 36:
             var1['expanded'] = var2;
             var2 = new Array(0);
             var1['children'] = var2;

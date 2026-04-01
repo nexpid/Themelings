@@ -193,7 +193,7 @@ case 9:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = true;
-        var2[var4] = var3;
+        var2[3] = var3;
         _closure1_slot6 = var2;
         var1 = undefined;
         return var1;

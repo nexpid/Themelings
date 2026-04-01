@@ -629,10 +629,10 @@ case 32:
     var15 = var4;
     var10 = copyDataProperties(var15, var14);
     var10 = 'mass';
-    var4[var10] = var11;
+    var4[9] = var11;
     var11 = 1e-05;
     var10 = 'restSpeedThreshold';
-    var4[var10] = var11;
+    var4[9] = var11;
     var _closure1_slot14 = var4;
     var4 = {};
     var4['start'] = var9;

@@ -212,7 +212,7 @@ case 10:
             var2 = _closure1_slot6;
             var7 = var2.VIEW_CHANNEL;
             var3['flag'] = var7;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.MANAGE_CHANNELS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -306,7 +306,7 @@ case 25:
             var3 = _closure1_slot6;
             var7 = var3.MANAGE_CHANNELS;
             var2['flag'] = var7;
-            var1[var4] = var2;
+            var1[3] = var2;
             var4 = var3.MANAGE_ROLES;
             var2 = var4.toString;
             var9 = var2.bind(var4)();
@@ -359,7 +359,7 @@ case 30:
             var4['description'] = var12;
             var12 = var3.MANAGE_ROLES;
             var4['flag'] = var12;
-            var1[var9] = var4;
+            var1[8] = var4;
             var4 = var3.MANAGE_WEBHOOKS;
             var3 = var4.toString;
             var4 = var3.bind(var4)();
@@ -397,7 +397,7 @@ case 33:
             var2 = _closure1_slot6;
             var9 = var2.MANAGE_WEBHOOKS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var4 = var2.CREATE_INSTANT_INVITE;
             var3 = var4.toString;
             var4 = var3.bind(var4)();
@@ -452,7 +452,7 @@ case 39:
             var3['description'] = var9;
             var9 = var2.CREATE_INSTANT_INVITE;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.SEND_MESSAGES;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -622,7 +622,7 @@ case 56:
             var2 = _closure1_slot6;
             var9 = var2.SEND_MESSAGES;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.EMBED_LINKS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -662,7 +662,7 @@ case 66:
             var2 = _closure1_slot6;
             var9 = var2.EMBED_LINKS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.ATTACH_FILES;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -702,7 +702,7 @@ case 69:
             var3 = _closure1_slot6;
             var9 = var3.ATTACH_FILES;
             var2['flag'] = var9;
-            var1[var4] = var2;
+            var1[3] = var2;
             var4 = var3.ADD_REACTIONS;
             var2 = var4.toString;
             var9 = var2.bind(var4)();
@@ -753,7 +753,7 @@ case 74:
             var4['description'] = var11;
             var11 = var3.ADD_REACTIONS;
             var4['flag'] = var11;
-            var1[var9] = var4;
+            var1[8] = var4;
             var4 = var3.USE_EXTERNAL_EMOJIS;
             var3 = var4.toString;
             var4 = var3.bind(var4)();
@@ -791,7 +791,7 @@ case 77:
             var2 = _closure1_slot6;
             var9 = var2.USE_EXTERNAL_EMOJIS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.USE_EXTERNAL_STICKERS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -831,7 +831,7 @@ case 80:
             var2 = _closure1_slot6;
             var9 = var2.USE_EXTERNAL_STICKERS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.MENTION_EVERYONE;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -902,7 +902,7 @@ case 89:
             var3 = _closure1_slot6;
             var9 = var3.MENTION_EVERYONE;
             var2['flag'] = var9;
-            var1[var4] = var2;
+            var1[3] = var2;
             var4 = var3.MANAGE_MESSAGES;
             var2 = var4.toString;
             var9 = var2.bind(var4)();
@@ -968,7 +968,7 @@ case 94:
             var4['description'] = var11;
             var11 = var3.MANAGE_MESSAGES;
             var4['flag'] = var11;
-            var1[var9] = var4;
+            var1[8] = var4;
             var4 = var3.PIN_MESSAGES;
             var3 = var4.toString;
             var4 = var3.bind(var4)();
@@ -1006,7 +1006,7 @@ case 97:
             var2 = _closure1_slot6;
             var9 = var2.PIN_MESSAGES;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.BYPASS_SLOWMODE;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -1046,7 +1046,7 @@ case 100:
             var2 = _closure1_slot6;
             var9 = var2.BYPASS_SLOWMODE;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.READ_MESSAGE_HISTORY;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -1133,7 +1133,7 @@ case 111:
             var2 = _closure1_slot6;
             var9 = var2.READ_MESSAGE_HISTORY;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.SEND_TTS_MESSAGES;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -1173,7 +1173,7 @@ case 116:
             var2 = _closure1_slot6;
             var9 = var2.SEND_TTS_MESSAGES;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.USE_APPLICATION_COMMANDS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -1213,7 +1213,7 @@ case 119:
             var2 = _closure1_slot6;
             var9 = var2.USE_APPLICATION_COMMANDS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.SEND_VOICE_MESSAGES;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -1253,7 +1253,7 @@ case 122:
             var2 = _closure1_slot6;
             var9 = var2.SEND_VOICE_MESSAGES;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.SEND_POLLS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -1293,7 +1293,7 @@ case 125:
             var3 = _closure1_slot6;
             var9 = var3.SEND_POLLS;
             var2['flag'] = var9;
-            var1[var4] = var2;
+            var1[3] = var2;
             var4 = var3.CONNECT;
             var2 = var4.toString;
             var9 = var2.bind(var4)();
@@ -1416,7 +1416,7 @@ case 136:
             var4['description'] = var10;
             var10 = var3.CONNECT;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.SPEAK;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -1485,7 +1485,7 @@ case 153:
             var4['description'] = var10;
             var10 = var3.SPEAK;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.STREAM;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -1554,7 +1554,7 @@ case 162:
             var4['description'] = var10;
             var10 = var3.STREAM;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.USE_EMBEDDED_ACTIVITIES;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -1607,7 +1607,7 @@ case 168:
             var4['description'] = var10;
             var10 = var3.USE_EMBEDDED_ACTIVITIES;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.USE_EXTERNAL_APPS;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -1660,7 +1660,7 @@ case 174:
             var4['description'] = var10;
             var10 = var3.USE_EXTERNAL_APPS;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.USE_SOUNDBOARD;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -1762,7 +1762,7 @@ case 181:
             var4['description'] = var10;
             var10 = var3.USE_SOUNDBOARD;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.USE_EXTERNAL_SOUNDS;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -1784,7 +1784,7 @@ case 181:
             var4['description'] = var10;
             var10 = var3.USE_EXTERNAL_SOUNDS;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.USE_VAD;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -1853,7 +1853,7 @@ case 190:
             var4['description'] = var10;
             var10 = var3.USE_VAD;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.PRIORITY_SPEAKER;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -1958,7 +1958,7 @@ case 197:
             var4['description'] = var10;
             var10 = var3.PRIORITY_SPEAKER;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.MUTE_MEMBERS;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -2027,7 +2027,7 @@ case 206:
             var4['description'] = var10;
             var10 = var3.MUTE_MEMBERS;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.DEAFEN_MEMBERS;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -2084,7 +2084,7 @@ case 213:
             var4['description'] = var10;
             var10 = var3.DEAFEN_MEMBERS;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var9 = var3.MOVE_MEMBERS;
             var4 = var9.toString;
             var9 = var4.bind(var9)();
@@ -2153,7 +2153,7 @@ case 222:
             var4['description'] = var10;
             var10 = var3.MOVE_MEMBERS;
             var4['flag'] = var10;
-            var1[var9] = var4;
+            var1[8] = var4;
             var4 = var3.REQUEST_TO_SPEAK;
             var3 = var4.toString;
             var4 = var3.bind(var4)();
@@ -2191,7 +2191,7 @@ case 225:
             var2 = _closure1_slot6;
             var9 = var2.REQUEST_TO_SPEAK;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.MANAGE_THREADS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -2285,7 +2285,7 @@ case 237:
             var2 = _closure1_slot6;
             var9 = var2.MANAGE_THREADS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.CREATE_PUBLIC_THREADS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -2325,7 +2325,7 @@ case 240:
             var2 = _closure1_slot6;
             var9 = var2.CREATE_PUBLIC_THREADS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.CREATE_PRIVATE_THREADS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -2365,7 +2365,7 @@ case 243:
             var2 = _closure1_slot6;
             var9 = var2.CREATE_PRIVATE_THREADS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.SEND_MESSAGES_IN_THREADS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -2459,7 +2459,7 @@ case 255:
             var2 = _closure1_slot6;
             var9 = var2.SEND_MESSAGES_IN_THREADS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.MANAGE_EVENTS;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -2499,7 +2499,7 @@ case 258:
             var2 = _closure1_slot6;
             var9 = var2.MANAGE_EVENTS;
             var3['flag'] = var9;
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = var2.CREATE_EVENTS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -2539,7 +2539,7 @@ case 261:
             var4 = _closure1_slot6;
             var6 = var4.CREATE_EVENTS;
             var2['flag'] = var6;
-            var1[var3] = var2;
+            var1[2] = var2;
             var3 = var4.SET_VOICE_CHANNEL_STATUS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -2563,7 +2563,7 @@ case 261:
             var2['description'] = var5;
             var4 = var4.SET_VOICE_CHANNEL_STATUS;
             var2['flag'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };

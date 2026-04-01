@@ -65,7 +65,7 @@ case 2:
             var8 = var8.ImpressionNames;
             var9 = var8.GUILD_INVITE;
             var8 = 'impressionName';
-            var3[var8] = var9;
+            var3[7] = var9;
             var9 = {};
             var8 = var2.channel;
             var8 = var8.id;
@@ -74,7 +74,7 @@ case 2:
             var8 = var8.guild_id;
             var9['invite_guild_id'] = var8;
             var8 = 'impressionProperties';
-            var3[var8] = var9;
+            var3[7] = var9;
             var11 = var2.stackingBehavior;
             var15 = var7;
             var14 = var5;

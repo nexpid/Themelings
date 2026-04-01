@@ -212,7 +212,7 @@ case 4:
                     var5 = copyDataProperties(var9, var8);
                     var5 = _closure2_slot0;
                     var4 = 'guildId';
-                    var2[var4] = var5;
+                    var2[3] = var5;
                     var4 = new Array(0);
                     var7 = 0;
                     var9 = var4;
@@ -229,7 +229,7 @@ case 5:
                     var7 = var5;
                     var1 = arraySpread(var9, var8, var7);
                     var1 = 'overwrites';
-                    var2[var1] = var4;
+                    var2[0] = var4;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
                     return var1;

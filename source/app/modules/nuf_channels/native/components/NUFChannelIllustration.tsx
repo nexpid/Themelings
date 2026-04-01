@@ -180,7 +180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var7)(var5);
                     var2['avatar'] = var5;
                     var2['message'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     var2 = 1;
                     var2 = var3 + var2;
                     return var1;
@@ -231,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var7)(var5);
                     var2['avatar'] = var5;
                     var2['message'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     var2 = 1;
                     var2 = var3 + var2;
                     return var1;

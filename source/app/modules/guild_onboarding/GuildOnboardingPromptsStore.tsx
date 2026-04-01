@@ -84,7 +84,7 @@ case 4:
                 var16 = var1;
                 var15 = var14;
                 var14 = copyDataProperties(var16, var15);
-                var1[var9] = var13;
+                var1[8] = var13;
                 var1 = var12.bind(var7)(var1);
                 var10 = var10 + 1;
                 var1 = var2.options;
@@ -97,14 +97,14 @@ case 6:
                 var15 = var2;
                 var5 = copyDataProperties(var16, var15);
                 var5 = 'options';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var5 = 'hasNewAnswers';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var2 = var2.id;
                 var2 = var4[var2];
                 var3 = var3 == var2;
                 var2 = 'isNew';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             }
         };
@@ -182,7 +182,7 @@ case 24:
             var13 = var5;
             var5 = copyDataProperties(var14, var13);
             var5 = 'prompts';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3[var4] = var2;
             return var1;
         }
@@ -309,7 +309,7 @@ case 35:
             var11 = var1;
             var4 = copyDataProperties(var11, var10);
             var4 = 'responses';
-            var1[var4] = var5;
+            var1[3] = var5;
             var2[var3] = var1;
 case 26:
             var1 = undefined;
@@ -600,7 +600,7 @@ case 50:
                 };
                 var3 = var5.bind(var8)(var3);
                 if(!(var4 != var3)) { _fun0012_ip = 51; continue _fun0012 }
-case 28:
+case 52:
                 var8 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var4 = 10;
@@ -619,10 +619,10 @@ case 28:
                 var2 = var6.getOnboardingResponses;
                 var2 = var2.bind(var6)(var7);
                 var2 = var4.bind(var5)(var3, var2);
-                _fun0012_ip = 52; continue _fun0012;
+                _fun0012_ip = 53; continue _fun0012;
 case 51:
                 var2 = _closure1_slot18;
-case 52:
+case 53:
                 return var2;
 case 49:
                 var1 = _closure1_slot18;
@@ -644,32 +644,32 @@ case 0:
                 var1 = var2.isFullServerPreview;
                 var1 = var1.bind(var2)(var4);
                 var4 = null;
-                if(var1) { _fun0013_ip = 53; continue _fun0013 }
-case 54:
-                if(!(var4 != var5)) { _fun0013_ip = 55; continue _fun0013 }
-case 56:
+                if(var1) { _fun0013_ip = 54; continue _fun0013 }
+case 55:
+                if(!(var4 != var5)) { _fun0013_ip = 56; continue _fun0013 }
+case 57:
                 var1 = var5.enabled;
-                if(!var1) { _fun0013_ip = 55; continue _fun0013 }
+                if(!var1) { _fun0013_ip = 56; continue _fun0013 }
 case 11:
                 var1 = var5.prompts;
-                if(!(var4 == var1)) { _fun0013_ip = 57; continue _fun0013 }
-case 55:
+                if(!(var4 == var1)) { _fun0013_ip = 58; continue _fun0013 }
+case 56:
                 var1 = _closure1_slot17;
-case 57:
-                _fun0013_ip = 58; continue _fun0013;
-case 53:
+case 58:
+                _fun0013_ip = 59; continue _fun0013;
+case 54:
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0013_ip = 59; continue _fun0013 }
+                if(var6) { _fun0013_ip = 60; continue _fun0013 }
 case 15:
                 var2 = var5.prompts;
-case 59:
-                if(!(var4 == var2)) { _fun0013_ip = 60; continue _fun0013 }
-case 61:
-                var2 = _closure1_slot17;
 case 60:
+                if(!(var4 == var2)) { _fun0013_ip = 61; continue _fun0013 }
+case 62:
+                var2 = _closure1_slot17;
+case 61:
                 var1 = var2;
-case 58:
+case 59:
                 return var1;
             }
         };
@@ -713,21 +713,21 @@ case 0:
                 var2 = _closure1_slot13;
                 var3 = var2[var3];
                 var2 = null;
-                if(var1) { _fun0015_ip = 57; continue _fun0015 }
-case 54:
+                if(var1) { _fun0015_ip = 58; continue _fun0015 }
+case 55:
                 var1 = var2 == var3;
                 var4 = undefined;
-                if(var1) { _fun0015_ip = 62; continue _fun0015 }
+                if(var1) { _fun0015_ip = 63; continue _fun0015 }
 case 46:
                 var4 = var3.enabled;
-case 62:
+case 63:
                 var1 = var2 != var4;
-                if(!var1) { _fun0015_ip = 63; continue _fun0015 }
+                if(!var1) { _fun0015_ip = 52; continue _fun0015 }
 case 8:
                 var1 = var4;
-case 63:
+case 52:
                 _fun0015_ip = 64; continue _fun0015;
-case 57:
+case 58:
                 var1 = var2 != var3;
 case 64:
                 return var1;
@@ -864,7 +864,7 @@ case 0:
                             var5 = var6.bind(var7)(var5, var4);
                             var4 = 0;
                             if(!(var5 > var4)) { _fun0018_ip = 68; continue _fun0018 }
-case 63:
+case 52:
                             var2 = var2.id;
                             _closure3_slot0 = var2;
 case 68:
@@ -1111,7 +1111,7 @@ case 0:
             var2 = !var1;
             var1 = !var2;
             if(!var2) { _fun0022_ip = 78; continue _fun0022 }
-case 53:
+case 54:
             var2 = _closure1_slot13;
             var2 = var2[var5];
             var6 = null;
@@ -1224,7 +1224,7 @@ case 35:
             var11 = var5;
             var5 = copyDataProperties(var12, var11);
             var5 = 'prompts';
-            var2[var5] = var9;
+            var2[4] = var9;
             var8 = var9.filter;
             var5 = function(arg1) {
                 var1 = arg1;
@@ -1233,11 +1233,11 @@ case 35:
             };
             var8 = var8.bind(var9)(var5);
             var5 = 'onboardingPrompts';
-            var2[var5] = var8;
+            var2[4] = var8;
             var5 = 'onboardingPromptsSeen';
-            var2[var5] = var7;
+            var2[4] = var7;
             var5 = 'onboardingResponsesSeen';
-            var2[var5] = var6;
+            var2[4] = var6;
             var3[var4] = var2;
             return var1;
 case 22:
@@ -1258,7 +1258,7 @@ case 22:
         var7 = var1;
         var4 = copyDataProperties(var7, var6);
         var4 = 'defaultChannelIds';
-        var1[var4] = var5;
+        var1[3] = var5;
         var2[var3] = var1;
         var1 = undefined;
         return var1;
@@ -1281,7 +1281,7 @@ case 40:
             var7 = var1;
             var4 = copyDataProperties(var7, var6);
             var4 = 'connections';
-            var1[var4] = var5;
+            var1[3] = var5;
             var2[var3] = var1;
             var1 = undefined;
             return var1;

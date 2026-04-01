@@ -137,7 +137,7 @@ case 13:
             var2 = var2._pids;
             var3 = var2.size;
             var2 = 'soundshare_unique_pids';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         };
         var1['value'] = var5;

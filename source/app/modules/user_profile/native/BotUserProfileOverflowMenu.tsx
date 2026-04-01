@@ -187,11 +187,11 @@ case 0:
                     var5 = copyDataProperties(var8, var7);
                     var6 = arg1;
                     var5 = 'showGuildProfile';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var5 = _closure2_slot1;
                     var6 = var5.id;
                     var5 = 'userId';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var6 = _closure2_slot2;
                     var5 = null;
                     var5 = var5 == var6;
@@ -202,13 +202,13 @@ case 5:
                     var6 = var5.id;
 case 4:
                     var5 = 'channelId';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var5 = _closure2_slot6;
                     var4 = 'sourceAnalyticsLocations';
-                    var2[var4] = var5;
+                    var2[3] = var5;
                     var5 = true;
                     var4 = 'ignoreBlockedSpeedBump';
-                    var2[var4] = var5;
+                    var2[3] = var5;
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }
@@ -934,10 +934,10 @@ case 43:
                 var5 = copyDataProperties(var14, var13);
                 var8 = 'sm';
                 var5 = 'size';
-                var1[var5] = var8;
+                var1[4] = var8;
                 var10 = 'secondary-overlay';
                 var5 = 'variant';
-                var1[var5] = var10;
+                var1[4] = var10;
                 var5 = 14;
                 var10 = var9[var5];
                 var10 = var6.bind(var3)(var10);
@@ -949,7 +949,7 @@ case 43:
                 var5 = var5["+zofAD"];
                 var10 = var10.bind(var11)(var5);
                 var5 = 'accessibilityLabel';
-                var1[var5] = var10;
+                var1[4] = var10;
                 var5 = 37;
                 var5 = var9[var5];
                 var5 = var6.bind(var3)(var5);
@@ -965,7 +965,7 @@ case 43:
                 var5['color'] = var7;
                 var6 = var4.bind(var3)(var6, var5);
                 var5 = 'icon';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

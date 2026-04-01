@@ -90,12 +90,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.PX_8;
     var12 = var11 + var12;
     var11 = 'height';
-    var10[var11] = var12;
+    var10[10] = var12;
     var11 = 'bottom';
-    var10[var11] = var1;
+    var10[10] = var1;
     var12 = -1;
     var11 = 'top';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['headerGradient'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot11 = var4;

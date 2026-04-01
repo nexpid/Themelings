@@ -1679,7 +1679,7 @@ case 5:
                         var9 = var5;
                         var5 = copyDataProperties(var10, var9);
                         var5 = 'firstMatch';
-                        var2[var5] = var6;
+                        var2[4] = var6;
                         var2 = var3.bind(var4)(var2);
 case 159:
                         return var1;
@@ -1734,7 +1734,7 @@ case 55:
                     return var1;
                 };
                 var5 = var13.bind(var14)(var12, var9, var5);
-                var1[var8] = var5;
+                var1[7] = var5;
                 var5 = _closure1_slot16;
                 var5 = var5.GuildMembers;
                 var8 = var11[var6];
@@ -1767,7 +1767,7 @@ case 55:
                     return var1;
                 };
                 var4 = var8.bind(var9)(var7, var6, var4);
-                var1[var5] = var4;
+                var1[4] = var4;
                 return var1;
 case 161:
                 var1 = {};
@@ -2040,7 +2040,7 @@ case 106:
                 var16 = var5;
                 var6 = copyDataProperties(var17, var16);
                 var6 = 'type';
-                var2[var6] = var7;
+                var2[5] = var7;
                 return var2;
 case 177:
                 var2 = {};
@@ -2050,7 +2050,7 @@ case 177:
                 var3 = var3[var4];
                 var4 = var3.type;
                 var3 = 'type';
-                var2[var3] = var4;
+                var2[2] = var4;
                 return var2;
 case 173:
                 return var1;

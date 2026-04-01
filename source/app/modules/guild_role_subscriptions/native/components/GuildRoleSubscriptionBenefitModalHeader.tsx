@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var21 = var9;
     var11 = copyDataProperties(var21, var20);
     var11 = 'textAlign';
-    var9[var11] = var10;
+    var9[10] = var10;
     var4['title'] = var9;
     var9 = {};
     var9['textAlign'] = var10;

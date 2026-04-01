@@ -1128,12 +1128,12 @@ case 79:
                 var5['size'] = var6;
                 var7 = var4.bind(var3)(var7, var5);
                 var5 = 'icon';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var5 = 'size';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var6 = 'secondary-overlay';
                 var5 = 'variant';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var5 = 17;
                 var6 = var9[var5];
                 var6 = var8.bind(var3)(var6);
@@ -1145,7 +1145,7 @@ case 79:
                 var5 = var5.ogxXGq;
                 var6 = var6.bind(var7)(var5);
                 var5 = 'accessibilityLabel';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

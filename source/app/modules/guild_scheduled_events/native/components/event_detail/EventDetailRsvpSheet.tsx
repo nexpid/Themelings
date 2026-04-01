@@ -471,7 +471,7 @@ case 17:
     var24 = var12;
     var15 = copyDataProperties(var24, var23);
     var15 = 'textAlign';
-    var12[var15] = var16;
+    var12[14] = var16;
     var2['emptyDisplayTitle'] = var12;
     var12 = {'tintColor': null, 'height': 18, 'width': 18};
     var15 = var7[var13];

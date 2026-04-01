@@ -238,7 +238,7 @@ case 0:
                 var6 = copyDataProperties(var20, var19);
                 var7 = _closure2_slot9;
                 var6 = 'onPress';
-                var1[var6] = var7;
+                var1[5] = var7;
                 var6 = _closure2_slot8;
                 var7 = var12 != var6;
                 if(var7) { _fun0004_ip = 10; continue _fun0004 }
@@ -312,7 +312,7 @@ case 12:
                 var5 = var8.bind(var3)(var7, var5);
                 var6[1] = var5;
                 var5 = 'children';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             }

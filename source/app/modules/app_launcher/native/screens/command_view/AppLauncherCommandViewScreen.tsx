@@ -1032,7 +1032,7 @@ case 37:
                 var10 = var10.APPLICATION_LAUNCHER;
                 var6['commandOrigin'] = var10;
                 var6 = var8.bind(var9)(var6);
-                var4[var7] = var6;
+                var4[6] = var6;
                 var4 = var5.bind(var1)(var4);
                 var5 = _closure2_slot19;
                 var4 = true;
@@ -1946,7 +1946,7 @@ case 91:
                     var5 = copyDataProperties(var10, var9);
                     var6 = arg1;
                     var5 = 'previewType';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
@@ -2004,7 +2004,7 @@ case 91:
                     var6 = copyDataProperties(var11, var10);
                     var6 = _closure3_slot2;
                     var5 = 'draftType';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
@@ -2167,7 +2167,7 @@ case 0:
                     var12 = 0;
                     var14 = var2;
                     var4 = arraySpread(var14, var13, var12);
-                    var2[var4] = var6;
+                    var2[3] = var6;
                     var1 = 1;
                     var1 = var4 + var1;
                     var1 = undefined;

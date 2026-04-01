@@ -833,7 +833,7 @@ case 45:
     var14 = copyDataProperties(var20, var19);
     var15 = '500';
     var14 = 'fontWeight';
-    var9[var14] = var15;
+    var9[13] = var15;
     var4['detailsText'] = var9;
     var14 = 'flex';
     var9 = {'display': 'flex', 'flex': 1};

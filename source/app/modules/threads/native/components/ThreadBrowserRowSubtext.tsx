@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var3.id;
         var3 = new Array(1);
         var3[0] = var14;
-        var6[var11] = var3;
+        var6[10] = var3;
         var3 = 'ThreadBrowserRowSubtext';
         var3 = var7.bind(var10)(var6, var3);
         var3 = 11;

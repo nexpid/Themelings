@@ -247,7 +247,7 @@ case 3:
         var1['user_id'] = var2;
         var3 = _closure1_slot9;
         var2 = 'GuildSticker';
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot14 = var1;
@@ -929,7 +929,7 @@ case 80:
                 var18 = var16;
                 var16 = copyDataProperties(var19, var18);
                 var15 = var15.user_id;
-                var13[var3] = var15;
+                var13[2] = var15;
                 var4[var14] = var13;
                 _fun0014_ip = 75; continue _fun0014;
             }

@@ -268,7 +268,7 @@ case 27:
                     var10 = var5;
                     var5 = copyDataProperties(var11, var10);
                     var5 = 'last_used';
-                    var7[var5] = var6;
+                    var7[4] = var6;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 3;
@@ -548,7 +548,7 @@ case 36:
                         var6 = var2;
                         var2 = copyDataProperties(var7, var6);
                         var2 = 'last_used';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     }
                 };

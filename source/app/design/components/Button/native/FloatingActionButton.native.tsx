@@ -248,13 +248,13 @@ case 13:
             var21 = var8;
             var8 = copyDataProperties(var22, var21);
             var8 = 'accessibilityLabel';
-            var5[var8] = var11;
+            var5[7] = var11;
             var11 = 'lg';
             var8 = 'size';
-            var5[var8] = var11;
+            var5[7] = var11;
             var11 = 'primary';
             var8 = 'variant';
-            var5[var8] = var11;
+            var5[7] = var11;
             var8 = var10.isValidElement;
             var8 = var8.bind(var10)(var13);
             var10 = var13;
@@ -274,12 +274,12 @@ case 16:
             var10 = var11.bind(var12)(var13, var8);
 case 15:
             var8 = 'icon';
-            var5[var8] = var10;
+            var5[7] = var10;
             var8 = 'style';
-            var5[var8] = var9;
+            var5[7] = var9;
             var8 = var7.iconButtonPill;
             var7 = 'pillStyle';
-            var5[var7] = var8;
+            var5[6] = var8;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

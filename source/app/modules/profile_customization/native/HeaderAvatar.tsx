@@ -309,7 +309,7 @@ case 20:
             var10 = copyDataProperties(var28, var27);
             var11 = var6.bind(var5)();
             var10 = 'children';
-            var1[var10] = var11;
+            var1[9] = var11;
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 21; continue _fun0001;
 case 19:
@@ -333,7 +333,7 @@ case 19:
             var7 = copyDataProperties(var28, var27);
             var7 = var6.bind(var5)();
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 21:
             return var1;

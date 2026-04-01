@@ -127,25 +127,25 @@ case 2:
             var22 = var14;
             var14 = copyDataProperties(var23, var22);
             var14 = 'ref';
-            var10[var14] = var19;
+            var10[13] = var19;
             var14 = 'manualRef';
-            var10[var14] = var15;
+            var10[13] = var15;
             var15 = true;
             var14 = 'disableContentWrappers';
-            var10[var14] = var15;
+            var10[13] = var15;
             var14 = 'onScroll';
-            var10[var14] = var18;
+            var10[13] = var18;
             var14 = 'scrollPosValue';
-            var10[var14] = var17;
+            var10[13] = var17;
             var17 = 'sticky-mount';
             var14 = 'stickySectionsVariant';
-            var10[var14] = var17;
+            var10[13] = var17;
             var14 = 'optimizeListItemRender';
-            var10[var14] = var15;
+            var10[13] = var15;
             var14 = 'persistantKeys';
-            var10[var14] = var16;
+            var10[13] = var16;
             var14 = 'disableRecyclingOnFullCompute';
-            var10[var14] = var15;
+            var10[13] = var15;
             var14 = undefined;
             if(!var13) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -155,10 +155,10 @@ case 5:
             var14 = var13;
 case 4:
             var13 = 'style';
-            var10[var13] = var14;
+            var10[12] = var14;
             var14 = 'guilds-bar-fast-list';
             var13 = 'nativeID';
-            var10[var13] = var14;
+            var10[12] = var14;
             var12 = var3.bind(var4)(var12, var10);
             var10 = new Array(2);
             var10[0] = var12;

@@ -41,7 +41,7 @@ case 3:
             var11 = var6;
             var6 = copyDataProperties(var12, var11);
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 2:
             return var1;
@@ -423,7 +423,7 @@ case 42:
             var6[0] = var7;
             var6[1] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -478,13 +478,13 @@ case 50:
             var1 = var3.bind(var13)(var1);
 case 43:
             var1 = null;
-            if(!(var1 != var11)) { _fun0007_ip = 20; continue _fun0007 }
-case 51:
+            if(!(var1 != var11)) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var3 = var13.push;
             var3 = var3.bind(var13)(var11);
-case 20:
-            if(!(var1 == var5)) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
+case 51:
+            if(!(var1 == var5)) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
             var11 = _closure1_slot6;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -501,8 +501,8 @@ case 53:
             var1['style'] = var13;
             var1['source'] = var12;
             var1 = var11.bind(var4)(var3, var1);
-            _fun0007_ip = 54; continue _fun0007;
-case 52:
+            _fun0007_ip = 55; continue _fun0007;
+case 53:
             var3 = _closure1_slot6;
             var2 = {};
             var11 = 'sm';
@@ -510,25 +510,25 @@ case 52:
             var6 = var6.redesignedChannelIcon;
             var2['style'] = var6;
             var6 = 'status-positive';
-            if(var7) { _fun0007_ip = 55; continue _fun0007 }
-case 56:
+            if(var7) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
             var7 = 'icon-muted';
-            if(var10) { _fun0007_ip = 57; continue _fun0007 }
+            if(var10) { _fun0007_ip = 58; continue _fun0007 }
 case 39:
-            if(var8) { _fun0007_ip = 58; continue _fun0007 }
+            if(var8) { _fun0007_ip = 59; continue _fun0007 }
 case 38:
             var8 = 'channel-icon';
-            if(!var9) { _fun0007_ip = 59; continue _fun0007 }
-case 58:
-            var8 = 'interactive-text-active';
+            if(!var9) { _fun0007_ip = 60; continue _fun0007 }
 case 59:
+            var8 = 'interactive-text-active';
+case 60:
             var7 = var8;
-case 57:
+case 58:
             var6 = var7;
-case 55:
+case 56:
             var2['color'] = var6;
             var1 = var3.bind(var4)(var5, var2);
-case 54:
+case 55:
             return var1;
         }
     };
@@ -565,15 +565,15 @@ case 54:
         var14 = copyDataProperties(var17, var16);
         var15 = 1;
         var14 = 'lineClamp';
-        var5[var14] = var15;
+        var5[13] = var15;
         var14 = var13.channelName;
         var13 = new Array(2);
         var13[0] = var14;
         var13[1] = var11;
         var11 = 'style';
-        var5[var11] = var13;
+        var5[10] = var13;
         var11 = 'children';
-        var5[var11] = var12;
+        var5[10] = var12;
         var7 = var8.bind(var4)(var7, var5);
         var5 = new Array(2);
         var5[0] = var7;

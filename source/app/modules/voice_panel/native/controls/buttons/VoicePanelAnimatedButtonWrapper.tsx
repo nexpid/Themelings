@@ -445,13 +445,13 @@ case 13:
             var5 = copyDataProperties(var22, var21);
             var9 = 'button';
             var5 = 'accessibilityRole';
-            var1[var5] = var9;
+            var1[4] = var9;
             var5 = 'accessibilityLabel';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'style';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -240,7 +240,7 @@ case 2:
         var4 = copyDataProperties(var7, var6);
         var5 = true;
         var4 = 'isVoiceContext';
-        var2[var4] = var5;
+        var2[3] = var5;
         var2 = var3.bind(var1)(var2);
         return var1;
     };

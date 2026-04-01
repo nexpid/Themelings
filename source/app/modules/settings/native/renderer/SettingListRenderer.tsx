@@ -426,7 +426,7 @@ case 30:
         var11 = var11.PX_16;
         var12 = var12 + var11;
         var11 = 'paddingBottom';
-        var10[var11] = var12;
+        var10[10] = var12;
         var5['contentContainerStyle'] = var10;
         var10 = {};
         var11 = 0.01;
@@ -635,7 +635,7 @@ case 37:
         var14 = var14.PX_16;
         var15 = var15 + var14;
         var14 = 'paddingBottom';
-        var13[var14] = var15;
+        var13[13] = var15;
         var1['contentContainerStyle'] = var13;
         var1['ListHeaderComponentStyle'] = var10;
         var10 = _closure1_slot8;

@@ -72,9 +72,9 @@ case 6:
             var16 = var1;
             var8 = copyDataProperties(var16, var15);
             var8 = 'width';
-            var1[var8] = var12;
+            var1[7] = var12;
             var8 = 'height';
-            var1[var8] = var11;
+            var1[7] = var11;
             var8 = _closure1_slot2;
             var6 = var10[var5];
             var6 = var7.bind(var4)(var6);
@@ -96,7 +96,7 @@ case 6:
             var5 = var8.bind(var4)(var7, var5);
             var6[1] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

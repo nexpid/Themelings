@@ -387,7 +387,7 @@ case 42:
                             var1 = copyDataProperties(var7, var6);
                             var5 = 0;
                             var1 = 'handle';
-                            var2[var1] = var5;
+                            var2[0] = var5;
                             var1 = arg1;
                             var1 = var3.bind(var4)(var1, var2);
                             var1 = undefined;
@@ -503,7 +503,7 @@ case 13:
                     var1 = copyDataProperties(var8, var7);
                     var2 = 0;
                     var1 = 'handle';
-                    var3[var1] = var2;
+                    var3[0] = var2;
                     var2 = {};
                     var1 = true;
                     var2['synchronous'] = var1;

@@ -504,7 +504,7 @@ case 32:
                     var4 = _closure2_slot10;
                     var12 = var12 + var4;
                     var4 = 'height';
-                    var1[var4] = var12;
+                    var1[3] = var12;
                     var9 = var1;
 case 28:
                     var1 = {};

@@ -48,7 +48,7 @@ case 10:
             var4 = var3.GUILD;
 case 12:
             var3 = 'type';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1 = var2;
 case 8:
             return var1;

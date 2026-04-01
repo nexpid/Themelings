@@ -218,12 +218,12 @@ case 4:
     var12 = var12.colors;
     var13 = var12.BACKGROUND_SCRIM;
     var12 = 'backgroundColor';
-    var11[var12] = var13;
+    var11[11] = var13;
     var13 = 'center';
     var12 = 'justifyContent';
-    var11[var12] = var13;
+    var11[11] = var13;
     var12 = 'alignItems';
-    var11[var12] = var13;
+    var11[11] = var13;
     var8['alertWrapper'] = var11;
     var11 = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center', 'height': '100%'};
     var8['alertContentWrapper'] = var11;

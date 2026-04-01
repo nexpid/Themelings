@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.anyScopeRegex;
     var8 = var5.bind(var8)(var2);
     var5 = 'match';
-    var4[var5] = var8;
+    var4[4] = var8;
     var5 = 1;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

@@ -159,7 +159,7 @@ case 9:
         var1['success'] = var2;
         return var1;
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -170,7 +170,7 @@ case 9:
         var1['success'] = var2;
         return var1;
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -206,7 +206,7 @@ case 13:
             return var1;
         }
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -458,7 +458,7 @@ case 20:
             return var1;
         }
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -598,7 +598,7 @@ case 48:
             return var1;
         }
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -734,7 +734,7 @@ case 62:
             return var1;
         }
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -799,7 +799,7 @@ case 69:
             return var1;
         }
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -859,7 +859,7 @@ case 23:
             return var1;
         }
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -924,7 +924,7 @@ case 76:
             return var1;
         }
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.ApplicationCommandOptionType;
@@ -995,7 +995,7 @@ case 83:
             return var1;
         }
     };
-    var2[var9] = var8;
+    var2[8] = var8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ApplicationCommandOptionType;
@@ -1041,7 +1041,7 @@ case 87:
             return var1;
         }
     };
-    var2[var8] = var4;
+    var2[7] = var4;
     var4 = function isValidRoleMention(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:

@@ -1244,7 +1244,7 @@ case 99:
                     var13 = copyDataProperties(var22, var21);
                     var19 = 'initiated';
                     var13 = 'status';
-                    var4[var13] = var19;
+                    var4[12] = var19;
                     var4 = var15.bind(var17)(var14, var4);
 case 100: // try_start_0
                     var14 = _closure1_slot0;
@@ -1285,7 +1285,7 @@ case 20:
                     var22 = var14;
                     var19 = copyDataProperties(var22, var21);
                     var19 = 'success';
-                    var14[var13] = var19;
+                    var14[12] = var19;
                     var14 = var17.bind(var18)(var15, var14);
                     var14 = var16;
                     var14 = var11 == var14;
@@ -1340,7 +1340,7 @@ case 111: // catch_target0
                     var22 = var3;
                     var12 = copyDataProperties(var22, var21);
                     var12 = 'failed';
-                    var3[var13] = var12;
+                    var3[12] = var12;
                     var12 = var11 == var8;
                     var8 = undefined;
                     if(var12) { _fun0015_ip = 112; continue _fun0015 }
@@ -1356,7 +1356,7 @@ case 114:
 case 112:
                     var9 = var11 != var8;
                     var8 = 'is_rate_limited';
-                    var3[var8] = var9;
+                    var3[7] = var9;
                     var8 = var2;
                     var9 = var11 == var8;
                     var8 = undefined;
@@ -1372,7 +1372,7 @@ case 117:
                     var8 = var7.message;
 case 115:
                     var7 = 'error_message';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var3 = var5.bind(var6)(var4, var3);
                     throw var2;
 case 97:
@@ -1463,7 +1463,7 @@ case 122:
                     var18 = copyDataProperties(var21, var20);
                     var19 = 'initiated';
                     var18 = 'status';
-                    var5[var18] = var19;
+                    var5[17] = var19;
                     var5 = var14.bind(var17)(var13, var5);
 case 121: // try_start_0
                     var13 = _closure1_slot0;
@@ -1549,7 +1549,7 @@ case 134:
                     var16 = copyDataProperties(var21, var20);
                     var17 = 'success';
                     var16 = 'status';
-                    var12[var16] = var17;
+                    var12[15] = var17;
                     var12 = var14.bind(var15)(var13, var12);
 case 133: // try_end0
                     return var6;
@@ -1573,7 +1573,7 @@ case 137:
                     var8 = copyDataProperties(var21, var20);
                     var12 = 'failed';
                     var8 = 'status';
-                    var3[var8] = var12;
+                    var3[7] = var12;
                     var8 = var2;
                     var12 = var11 == var8;
                     var8 = undefined;
@@ -1590,7 +1590,7 @@ case 140:
 case 138:
                     var9 = var11 != var8;
                     var8 = 'is_rate_limited';
-                    var3[var8] = var9;
+                    var3[7] = var9;
                     var8 = var2;
                     var9 = var11 == var8;
                     var8 = undefined;
@@ -1606,7 +1606,7 @@ case 143:
                     var8 = var7.message;
 case 141:
                     var7 = 'error_message';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var3 = var5.bind(var6)(var4, var3);
 case 136:
                     throw var2;

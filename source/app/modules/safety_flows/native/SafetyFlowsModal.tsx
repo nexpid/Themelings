@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var7['render'] = var9;
-                var1[var8] = var7;
+                var1[7] = var7;
                 var7 = var6[var2];
                 var7 = var5.bind(var3)(var7);
                 var7 = var7.SafetyFlowScreens;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var7['render'] = var9;
-                var1[var8] = var7;
+                var1[7] = var7;
                 var7 = var6[var2];
                 var7 = var5.bind(var3)(var7);
                 var7 = var7.SafetyFlowScreens;
@@ -151,7 +151,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var7['render'] = var9;
-                var1[var8] = var7;
+                var1[7] = var7;
                 var7 = var6[var2];
                 var7 = var5.bind(var3)(var7);
                 var7 = var7.SafetyFlowScreens;
@@ -180,7 +180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var7['render'] = var9;
-                var1[var8] = var7;
+                var1[7] = var7;
                 var7 = var6[var2];
                 var7 = var5.bind(var3)(var7);
                 var7 = var7.SafetyFlowScreens;
@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var7['render'] = var9;
-                var1[var8] = var7;
+                var1[7] = var7;
                 var2 = var6[var2];
                 var2 = var5.bind(var3)(var2);
                 var2 = var2.SafetyFlowScreens;
@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2['render'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var1 = new Array(0);

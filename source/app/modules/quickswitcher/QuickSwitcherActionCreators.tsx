@@ -528,7 +528,7 @@ case 47:
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterResultTypes;
     var16 = var16.USER;
-    var13[var17] = var16;
+    var13[16] = var16;
     var16 = var11[var12];
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterQuerySymbols;
@@ -537,7 +537,7 @@ case 47:
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterResultTypes;
     var16 = var16.TEXT_CHANNEL;
-    var13[var17] = var16;
+    var13[16] = var16;
     var16 = var11[var12];
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterQuerySymbols;
@@ -546,7 +546,7 @@ case 47:
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterResultTypes;
     var16 = var16.VOICE_CHANNEL;
-    var13[var17] = var16;
+    var13[16] = var16;
     var16 = var11[var12];
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterQuerySymbols;
@@ -555,7 +555,7 @@ case 47:
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterResultTypes;
     var16 = var16.GUILD;
-    var13[var17] = var16;
+    var13[16] = var16;
     var16 = var11[var12];
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterQuerySymbols;
@@ -564,7 +564,7 @@ case 47:
     var16 = var10.bind(var1)(var16);
     var16 = var16.AutocompleterResultTypes;
     var16 = var16.APPLICATION;
-    var13[var17] = var16;
+    var13[16] = var16;
     var13 = var14.bind(var15)(var13);
     var _closure1_slot17 = var13;
     var13 = var9.RegExp;

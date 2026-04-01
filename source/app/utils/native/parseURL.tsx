@@ -1531,7 +1531,7 @@ case 79:
             var46 = var27;
             var27 = copyDataProperties(var47, var46);
             var27 = 'wasDeepLink';
-            var26[var27] = var28;
+            var26[26] = var28;
             var16['props'] = var26;
             var8['payload'] = var16;
             return var8;

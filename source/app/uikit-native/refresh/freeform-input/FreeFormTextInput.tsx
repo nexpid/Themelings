@@ -440,10 +440,10 @@ case 46:
             var19 = 'yes';
 case 45:
             var18 = 'importantForAccessibility';
-            var12[var18] = var19;
+            var12[17] = var19;
             var18 = !var17;
             var17 = 'accessibilityElementsHidden';
-            var12[var17] = var18;
+            var12[16] = var18;
             var12 = var16.bind(var4)(var15, var12);
             var8[1] = var12;
             var15 = var9 == var14;

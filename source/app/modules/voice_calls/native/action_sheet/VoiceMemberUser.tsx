@@ -646,7 +646,7 @@ case 56:
             var8['style'] = var11;
             var9 = var3.bind(var4)(var9, var8);
             var8 = 'label';
-            var1[var8] = var9;
+            var1[7] = var9;
             if(var7) { _fun0001_ip = 58; continue _fun0001 }
 case 59:
             var6 = null;
@@ -718,7 +718,7 @@ case 58:
             var6 = var8.bind(var4)(var7, var5);
 case 62:
             var5 = 'subLabel';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -832,7 +832,7 @@ case 70:
             var8['style'] = var15;
             var9 = var7.bind(var4)(var9, var8);
             var8 = 'subLabel';
-            var5[var8] = var9;
+            var5[7] = var9;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
@@ -1313,12 +1313,12 @@ case 103:
             var12 = var6;
 case 102:
             var11 = 'name';
-            var1[var11] = var12;
+            var1[10] = var12;
             var11 = 'channel';
-            var1[var11] = var7;
+            var1[10] = var7;
             var12 = false;
             var11 = 'withStream';
-            var1[var11] = var12;
+            var1[10] = var12;
             var1 = var4.bind(var5)(var3, var1);
             _fun0010_ip = 104; continue _fun0010;
 case 101:
@@ -1333,9 +1333,9 @@ case 106:
             var8 = var6;
 case 105:
             var6 = 'name';
-            var2[var6] = var8;
+            var2[5] = var8;
             var6 = 'channel';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 104:
             return var1;

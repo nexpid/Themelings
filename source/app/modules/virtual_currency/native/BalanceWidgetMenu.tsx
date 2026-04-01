@@ -485,7 +485,7 @@ case 7:
             var5 = var4.md;
 case 9:
             var4 = 'borderRadius';
-            var2[var4] = var5;
+            var2[3] = var5;
             var1['pressable'] = var2;
             var2 = {};
             var2['flex'] = var3;
@@ -546,16 +546,16 @@ case 13:
             if(var1) { _fun0003_ip = 12; continue _fun0003 }
 case 14:
             var2 = _closure1_slot13;
-            _fun0003_ip = 7; continue _fun0003;
+            _fun0003_ip = 15; continue _fun0003;
 case 12:
             var2 = _closure1_slot15;
-case 7:
+case 15:
             var1 = {};
             var17 = var1;
             var16 = var6;
             var4 = copyDataProperties(var17, var16);
             var1 = var3.bind(var5)(var2, var1);
-            _fun0003_ip = 15; continue _fun0003;
+            _fun0003_ip = 16; continue _fun0003;
 case 10:
             var4 = _closure1_slot10;
             var3 = _closure1_slot12;
@@ -601,7 +601,7 @@ case 10:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 15:
+case 16:
             return var1;
         }
     };

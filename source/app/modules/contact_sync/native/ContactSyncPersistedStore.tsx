@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot0;
                 var2 = 'storedContacts';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -240,7 +240,7 @@ case 6:
                     var2 = copyDataProperties(var5, var4);
                     var3 = '';
                     var2 = 'storedContacts';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
@@ -279,7 +279,7 @@ case 6:
                 var2 = copyDataProperties(var5, var4);
                 var3 = true;
                 var2 = 'upsellCTADismissed';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -316,7 +316,7 @@ case 6:
                 var2 = copyDataProperties(var5, var4);
                 var3 = true;
                 var2 = 'dmListCTADismissed';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -383,9 +383,9 @@ case 8:
             var2 = copyDataProperties(var5, var4);
             var3 = false;
             var2 = 'upsellCTADismissed';
-            var1[var2] = var3;
+            var1[1] = var3;
             var2 = 'dmListCTADismissed';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         };
         var2 = var3.bind(var4)(var2);

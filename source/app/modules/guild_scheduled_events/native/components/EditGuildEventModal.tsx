@@ -449,7 +449,7 @@ case 8:
                 var6 = var5.id;
 case 7:
                 var5 = 'guildEventId';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             }
@@ -457,7 +457,7 @@ case 7:
         var2['render'] = var11;
         var11 = true;
         var2['fullscreen'] = var11;
-        var10[var3] = var2;
+        var10[2] = var2;
         var2 = var9[var7];
         var2 = var8.bind(var4)(var2);
         var2 = var2.EditGuildEventScreens;
@@ -487,7 +487,7 @@ case 7:
         };
         var2['render'] = var15;
         var2['fullscreen'] = var11;
-        var10[var3] = var2;
+        var10[2] = var2;
         var2 = var9[var7];
         var2 = var8.bind(var4)(var2);
         var2 = var2.EditGuildEventScreens;
@@ -517,7 +517,7 @@ case 7:
         };
         var2['render'] = var12;
         var2['fullscreen'] = var11;
-        var10[var3] = var2;
+        var10[2] = var2;
         var3 = _closure1_slot8;
         var1 = 19;
         var1 = var9[var1];

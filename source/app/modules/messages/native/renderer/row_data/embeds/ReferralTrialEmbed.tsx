@@ -527,21 +527,21 @@ case 53:
             var34 = var4;
             var1 = copyDataProperties(var35, var34);
             var1 = 'titleText';
-            var14[var1] = var9;
+            var14[0] = var9;
             var1 = 'titleColor';
-            var14[var1] = var6;
+            var14[0] = var6;
             var1 = 'bodyText';
-            var14[var1] = var18;
+            var14[0] = var18;
             var1 = 'structuredBodyText';
-            var14[var1] = var17;
+            var14[0] = var17;
             var1 = 'bodyTextColor';
-            var14[var1] = var3;
+            var14[0] = var3;
             var1 = 'subText';
-            var14[var1] = var11;
+            var14[0] = var11;
             var1 = 'subTextColor';
-            var14[var1] = var5;
+            var14[0] = var5;
             var11 = 'canBeAccepted';
-            var14[var11] = var12;
+            var14[10] = var12;
             var1 = var14;
             if(!var12) { _fun0001_ip = 55; continue _fun0001 }
 case 56:
@@ -550,10 +550,10 @@ case 56:
             var34 = var14;
             var14 = copyDataProperties(var35, var34);
             var14 = 'footerText';
-            var5[var14] = var16;
+            var5[13] = var16;
             var14 = 'footerTextColor';
-            var5[var14] = var15;
-            var5[var11] = var12;
+            var5[13] = var15;
+            var5[10] = var12;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
             var12 = var14[var8];
@@ -566,9 +566,9 @@ case 56:
             var12 = var12.bXTClc;
             var15 = var15.bind(var16)(var12);
             var12 = 'acceptLabelText';
-            var5[var12] = var15;
+            var5[11] = var15;
             var12 = 'acceptLabelColor';
-            var5[var12] = var13;
+            var5[11] = var13;
             var10 = var14[var10];
             var12 = var11.bind(var7)(var10);
             var11 = var12.getAssetUriForEmbed;
@@ -578,7 +578,7 @@ case 56:
             var10 = var13.bind(var7)(var10);
             var11 = var11.bind(var12)(var10);
             var10 = 'acceptLabelIconUrl';
-            var5[var10] = var11;
+            var5[9] = var11;
             var1 = var5;
 case 55:
             return var1;
@@ -588,9 +588,9 @@ case 13:
             var34 = var4;
             var5 = copyDataProperties(var35, var34);
             var5 = 'titleText';
-            var1[var5] = var9;
+            var1[4] = var9;
             var5 = 'titleColor';
-            var1[var5] = var6;
+            var1[4] = var6;
             var10 = _closure1_slot0;
             var5 = _closure1_slot2;
             var6 = var5[var8];
@@ -603,12 +603,12 @@ case 13:
             var5 = var5.eEz1N5;
             var6 = var6.bind(var9)(var5);
             var5 = 'bodyText';
-            var1[var5] = var6;
+            var1[4] = var6;
             var5 = 'bodyTextColor';
-            var1[var5] = var3;
+            var1[4] = var3;
             var6 = false;
             var5 = 'canBeAccepted';
-            var1[var5] = var6;
+            var1[4] = var6;
             return var1;
 case 10:
             var1 = {};
@@ -627,12 +627,12 @@ case 10:
             var2 = var2.eEz1N5;
             var4 = var4.bind(var5)(var2);
             var2 = 'bodyText';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'bodyTextColor';
-            var1[var2] = var3;
+            var1[1] = var3;
             var3 = false;
             var2 = 'canBeAccepted';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

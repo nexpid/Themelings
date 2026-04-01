@@ -170,7 +170,7 @@ case 17:
                     var1 = _closure3_slot0;
                     return var1;
                 };
-                var3[var2] = var1;
+                var3[1] = var1;
                 var2 = undefined;
                 var1 = arg2;
                 var1 = var4.bind(var2)(var3, var1);

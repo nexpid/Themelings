@@ -241,9 +241,9 @@ case 0:
                 var11 = var1;
                 var2 = copyDataProperties(var11, var10);
                 var2 = 'storeListingId';
-                var1[var2] = var8;
+                var1[1] = var8;
                 var2 = 'skuId';
-                var1[var2] = var6;
+                var1[1] = var6;
                 var2 = var4 != var7;
                 if(!var2) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
@@ -257,12 +257,12 @@ case 13:
                 var4 = var2 instanceof Object ? var2 : var6;
 case 12:
                 var2 = 'unpublishedAt';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var4 = _closure1_slot8;
                 var2 = undefined;
                 var4 = var4.bind(var2)(var5);
                 var2 = 'styles';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var12 = var2;

@@ -86,7 +86,7 @@ case 9:
             var10 = 'block';
 case 8:
             var9 = 'speedBumpType';
-            var3[var9] = var10;
+            var3[8] = var10;
             var3 = var5.bind(var6)(var8, var4, var3);
             var3 = undefined;
             return var3;

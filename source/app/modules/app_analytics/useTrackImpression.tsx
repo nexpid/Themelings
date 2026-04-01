@@ -282,7 +282,7 @@ case 30:
                     var6 = 'impression_';
                     var7 = var7.bind(var5)(var6);
                     var6 = 'sequenceId';
-                    var4[var6] = var7;
+                    var4[5] = var7;
                     var _closure3_slot0 = var4;
                     var3 = _closure1_slot13;
                     var2 = _closure2_slot1;

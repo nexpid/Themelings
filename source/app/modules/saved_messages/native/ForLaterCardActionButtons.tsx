@@ -97,7 +97,7 @@ case 0:
                         var4 = copyDataProperties(var7, var6);
                         var5 = arg1;
                         var4 = 'dueAt';
-                        var1[var4] = var5;
+                        var1[3] = var5;
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
@@ -120,7 +120,7 @@ case 3:
                         var7 = var1;
                         var4 = copyDataProperties(var7, var6);
                         var4 = 'dueAt';
-                        var1[var4] = var5;
+                        var1[3] = var5;
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
@@ -368,7 +368,7 @@ case 6:
                 var6 = copyDataProperties(var13, var12);
                 var8 = 'secondary';
                 var6 = 'variant';
-                var1[var6] = var8;
+                var1[5] = var8;
                 var6 = 8;
                 var8 = var7[var6];
                 var8 = var10.bind(var3)(var8);
@@ -380,16 +380,16 @@ case 6:
                 var6 = var6.e1heBD;
                 var8 = var8.bind(var9)(var6);
                 var6 = 'accessibilityLabel';
-                var1[var6] = var8;
+                var1[5] = var8;
                 var8 = 'sm';
                 var6 = 'size';
-                var1[var6] = var8;
+                var1[5] = var8;
                 var6 = _closure1_slot1;
                 var5 = 15;
                 var5 = var7[var5];
                 var6 = var6.bind(var3)(var5);
                 var5 = 'icon';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
@@ -441,7 +441,7 @@ case 8:
                 var7 = var1;
                 var4 = copyDataProperties(var7, var6);
                 var4 = 'dueAt';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };

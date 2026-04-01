@@ -144,7 +144,7 @@ case 11:
                 var11 = var9.message;
                 var9 = new Array(1);
                 var9[0] = var11;
-                var4[var10] = var9;
+                var4[9] = var9;
                 var8['body'] = var4;
                 var4 = new Array(1);
                 var4[0] = var8;

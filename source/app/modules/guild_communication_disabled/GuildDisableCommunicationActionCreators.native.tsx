@@ -115,13 +115,13 @@ case 2:
                     var1 = copyDataProperties(var8, var7);
                     var6 = _closure2_slot0;
                     var5 = 'guildId';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var6 = _closure2_slot1;
                     var5 = 'userId';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var5 = _closure2_slot2;
                     var1 = 'onCancel';
-                    var2[var1] = var5;
+                    var2[0] = var5;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;

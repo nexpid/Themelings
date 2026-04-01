@@ -39,7 +39,7 @@ case 6:
                     var2 = {};
                     var9 = {};
                     var9['channel_overrides'] = var6;
-                    var2[var7] = var9;
+                    var2[6] = var9;
                     var2 = var4.bind(var8)(var2);
                     SaveGenerator(address=97);
 case 7:
@@ -153,10 +153,10 @@ case 14:
             var8 = copyDataProperties(var14, var13);
             var9 = 'remove_many';
             var8 = 'action_type';
-            var2[var8] = var9;
+            var2[7] = var9;
             var9 = arg3;
             var8 = 'location';
-            var2[var8] = var9;
+            var2[7] = var9;
             var2 = var6.bind(var7)(var3, var2);
             _fun0002_ip = 11; continue _fun0002;
 case 13:
@@ -380,9 +380,9 @@ case 21:
             var3 = {};
             var16 = {};
             var17 = {};
-            var17[var6] = var15;
+            var17[5] = var15;
             var16['channel_overrides'] = var17;
-            var3[var5] = var16;
+            var3[4] = var16;
             var3 = var7.bind(var8)(var3);
             var3 = 10;
             var3 = var13[var3];
@@ -442,9 +442,9 @@ case 24:
             var11 = 'add';
 case 23:
             var9 = 'action_type';
-            var3[var9] = var11;
+            var3[8] = var11;
             var9 = 'location';
-            var3[var9] = var10;
+            var3[8] = var10;
             var3 = var7.bind(var8)(var4, var3);
             _fun0004_ip = 19; continue _fun0004;
 case 20:
@@ -554,10 +554,10 @@ case 34:
             var3 = {};
             var7 = {};
             var13 = {};
-            var13[var9] = var15;
+            var13[8] = var15;
             var7['channel_overrides'] = var13;
             var7['flags'] = var11;
-            var3[var4] = var7;
+            var3[3] = var7;
             var3 = var5.bind(var6)(var3);
 case 33:
             var5 = _closure1_slot1;
@@ -621,9 +621,9 @@ case 28:
             var11 = 'add';
 case 30:
             var8 = 'action_type';
-            var3[var8] = var11;
+            var3[7] = var11;
             var8 = 'location';
-            var3[var8] = var10;
+            var3[7] = var10;
             var3 = var6.bind(var7)(var5, var3);
 case 31:
             var3 = undefined;
@@ -749,9 +749,9 @@ case 48:
             var12 = copyDataProperties(var17, var16);
             var13 = 'add_many';
             var12 = 'action_type';
-            var6[var12] = var13;
+            var6[11] = var13;
             var12 = 'location';
-            var6[var12] = var11;
+            var6[11] = var11;
             var6 = var8.bind(var10)(var7, var6);
             _fun0006_ip = 43; continue _fun0006;
 case 47:
@@ -798,9 +798,9 @@ case 47:
             var10 = copyDataProperties(var17, var16);
             var12 = 'add_many_and_enable_guild';
             var10 = 'action_type';
-            var3[var10] = var12;
+            var3[9] = var12;
             var10 = 'location';
-            var3[var10] = var11;
+            var3[9] = var11;
             var3 = var7.bind(var8)(var6, var3);
 case 43:
             return var4;
@@ -888,10 +888,10 @@ case 54:
             var9 = 'guild_enabled';
 case 53:
             var8 = 'action_type';
-            var2[var8] = var9;
+            var2[7] = var9;
             var9 = arg3;
             var8 = 'location';
-            var2[var8] = var9;
+            var2[7] = var9;
             var2 = var6.bind(var7)(var3, var2);
             _fun0007_ip = 55; continue _fun0007;
 case 51:
@@ -1002,10 +1002,10 @@ case 63:
             var6 = 'favorited';
 case 62:
             var5 = 'action_type';
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = arg4;
             var5 = 'location';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
 case 56:
             var1 = undefined;

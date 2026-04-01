@@ -626,16 +626,16 @@ case 30:
                     var6 = copyDataProperties(var9, var8);
                     var7 = _closure2_slot2;
                     var6 = 'disableStickySections';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var6 = _closure2_slot3;
                     var5 = 'disableThemedGradient';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var6 = arg3;
                     var5 = 'scrollPosValue';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var6 = arg4;
                     var5 = 'stickyAt';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
 case 40:

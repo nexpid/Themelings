@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['channels'] = var4;
         var4 = null;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.GAMING;
         var2 = {};
         var4 = var5.GAMING;
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8[5] = var13;
         var2['channels'] = var8;
         var2['system_channel_id'] = var6;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.FRIENDS;
         var2 = {};
         var8 = var5.FRIENDS;
@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8[6] = var13;
         var2['channels'] = var8;
         var2['system_channel_id'] = var6;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.STUDY;
         var2 = {};
         var6 = var5.STUDY;
@@ -493,7 +493,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6[11] = var13;
         var2['channels'] = var6;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.CLUBS;
         var2 = {};
         var6 = var5.CLUBS;
@@ -639,7 +639,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6[8] = var13;
         var2['channels'] = var6;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.CREATORS;
         var2 = {};
         var6 = var5.CREATORS;
@@ -813,7 +813,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6[10] = var13;
         var2['channels'] = var6;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.LOCAL_COMMUNITY;
         var2 = {};
         var6 = var5.LOCAL_COMMUNITY;
@@ -987,7 +987,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6[10] = var13;
         var2['channels'] = var6;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.SCHOOL_CLUB;
         var2 = {};
         var5 = var5.SCHOOL_CLUB;
@@ -1205,7 +1205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[1] = var6;
         var2['roles'] = var5;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var3['getGuildTemplatesMap'] = var2;

@@ -151,9 +151,9 @@ case 4:
     var23 = var2;
     var21 = 0;
     var15 = arraySpread(var23, var22, var21);
-    var2[var15] = var19;
+    var2[14] = var19;
     var15 = var15 + var18;
-    var2[var15] = var17;
+    var2[14] = var17;
     var15 = var16.prototype;
     var15 = Object.create(var15, {constructor: {value: var16}});
     var24 = var15;
@@ -589,7 +589,7 @@ case 5:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'tryItOutAvatar';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
@@ -603,7 +603,7 @@ case 5:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'tryItOutAvatarDecoration';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
@@ -617,7 +617,7 @@ case 5:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'tryItOutProfileEffect';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
@@ -631,7 +631,7 @@ case 5:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'tryItOutBanner';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
@@ -645,7 +645,7 @@ case 5:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'tryItOutThemeColors';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
@@ -659,7 +659,7 @@ case 5:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = 'tryItOutDisplayNameStyles';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
@@ -676,13 +676,13 @@ case 5:
         var9 = var2;
         var3 = copyDataProperties(var9, var8);
         var3 = 'tryItOutBanner';
-        var2[var3] = var7;
+        var2[2] = var7;
         var3 = 'tryItOutThemeColors';
-        var2[var3] = var6;
+        var2[2] = var6;
         var3 = 'tryItOutAvatarDecoration';
-        var2[var3] = var5;
+        var2[2] = var5;
         var3 = 'tryItOutDisplayNameStyles';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
@@ -743,17 +743,17 @@ case 30:
                 var9 = var3;
                 var3 = copyDataProperties(var10, var9);
                 var3 = 'pendingGlobalName';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingNickname';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingDisplayNameStyles';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingAvatar';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingAvatarDecoration';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingNameplate';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1[1] = var2;
                 return var1;
             }
@@ -813,17 +813,17 @@ case 30:
                 var9 = var3;
                 var3 = copyDataProperties(var10, var9);
                 var3 = 'pendingPronouns';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingProfileEffect';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingBanner';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingAccentColor';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingThemeColors';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var3 = 'pendingBio';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1[1] = var2;
                 return var1;
             }
@@ -864,7 +864,7 @@ case 43:
             var7 = var2;
             var5 = copyDataProperties(var7, var6);
             var5 = 'pendingLegacyUsernameDisabled';
-            var2[var5] = var1;
+            var2[4] = var1;
             var4[var3] = var2;
             return var1;
 case 42:
@@ -900,7 +900,7 @@ case 43:
             var7 = var2;
             var5 = copyDataProperties(var7, var6);
             var5 = 'pendingPrimaryGuildId';
-            var2[var5] = var1;
+            var2[4] = var1;
             var4[var3] = var2;
             return var1;
 case 42:

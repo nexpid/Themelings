@@ -789,7 +789,7 @@ case 82:
     var19 = var19.colors;
     var20 = var19.MOBILE_TEXT_HEADING_PRIMARY;
     var19 = 'color';
-    var17[var19] = var20;
+    var17[18] = var20;
     var8['strong'] = var17;
     var8 = var9.bind(var10)(var8);
     var _closure1_slot23 = var8;
@@ -808,7 +808,7 @@ case 82:
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
     var18 = var18.TEXT_MUTED;
-    var17[var19] = var18;
+    var17[18] = var18;
     var8['strong'] = var17;
     var8 = var9.bind(var10)(var8);
     var _closure1_slot24 = var8;

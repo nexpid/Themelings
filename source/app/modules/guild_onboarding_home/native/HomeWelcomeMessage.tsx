@@ -332,7 +332,7 @@ case 8:
 case 11:
             var4 = new Array(0);
 case 10:
-            var7[var31] = var4;
+            var7[30] = var4;
             var4 = 'HomeWelcomeMessage';
             var4 = var8.bind(var9)(var7, var4);
             var8 = _closure1_slot3;

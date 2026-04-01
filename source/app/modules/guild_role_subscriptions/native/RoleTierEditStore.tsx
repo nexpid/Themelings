@@ -205,7 +205,7 @@ case 35:
                 var2 = {};
                 var4 = _closure2_slot1;
                 var1 = _closure3_slot0;
-                var2[var4] = var1;
+                var2[3] = var1;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
                 return var1;
@@ -364,28 +364,28 @@ case 38:
             return var1;
         };
         var4 = 'setScene';
-        var1[var4] = var5;
+        var1[3] = var5;
         var6 = _closure1_slot11;
         var5 = undefined;
         var4 = 'groupCover';
         var8 = var6.bind(var5)(var7, var4);
         var4 = 'setGroupCover';
-        var1[var4] = var8;
+        var1[3] = var8;
         var4 = 'groupDescription';
         var8 = var6.bind(var5)(var7, var4);
         var4 = 'setGroupDescription';
-        var1[var4] = var8;
+        var1[3] = var8;
         var4 = 'groupIsFullGate';
         var5 = var6.bind(var5)(var7, var4);
         var4 = 'setGroupIsFullGate';
-        var1[var4] = var5;
+        var1[3] = var5;
         var5 = null;
         var4 = 'priceTiers';
-        var1[var4] = var5;
+        var1[3] = var5;
         var3 = _closure1_slot6;
         var4 = var3.IDLE;
         var3 = 'priceTierState';
-        var1[var3] = var4;
+        var1[2] = var4;
         var4 = function loadPriceTiers(arg1) {
             var2 = arg1;
             var _closure3_slot0 = var2;
@@ -488,7 +488,7 @@ case 40:
             return var1;
         };
         var3 = 'loadPriceTiers';
-        var1[var3] = var4;
+        var1[2] = var4;
         var3 = function reset() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot3;
@@ -508,7 +508,7 @@ case 40:
             return var1;
         };
         var2 = 'reset';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var5 = var7.bind(var10)(var5);

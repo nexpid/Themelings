@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 2;
     var8 = var7[var8];
     var8 = var9.bind(var1)(var8);
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = var7[var5];
     var8 = var6.bind(var1)(var8);
     var8 = var8.SettingsUpsells;
@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 3;
     var8 = var7[var8];
     var8 = var9.bind(var1)(var8);
-    var4[var10] = var8;
+    var4[9] = var8;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.SettingsUpsells;
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 4;
     var5 = var7[var5];
     var5 = var9.bind(var1)(var5);
-    var4[var8] = var5;
+    var4[7] = var5;
     var _closure1_slot3 = var4;
     var5 = 6;
     var5 = var7[var5];

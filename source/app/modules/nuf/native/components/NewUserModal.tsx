@@ -352,7 +352,7 @@ case 10:
                         return var1;
                     };
                     var5 = 'onPress';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };

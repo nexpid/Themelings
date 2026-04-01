@@ -553,9 +553,9 @@ case 67:
         var14 = var1;
         var2 = copyDataProperties(var14, var13);
         var2 = 'wishlistId';
-        var1[var2] = var4;
+        var1[1] = var4;
         var2 = 'userProfile';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var _closure1_slot16 = var2;

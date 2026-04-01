@@ -50,9 +50,9 @@ case 7:
             var11 = var6;
             var6 = copyDataProperties(var12, var11);
             var6 = 'size';
-            var2[var6] = var8;
+            var2[5] = var8;
             var6 = 'source';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 6:
             return var1;
@@ -105,24 +105,24 @@ case 6:
     var12 = var9.VERIFIED;
     var11 = var7[var11];
     var11 = var8.bind(var1)(var11);
-    var2[var12] = var11;
+    var2[11] = var11;
     var11 = var9.PARTNERED;
     var10 = var7[var10];
     var10 = var8.bind(var1)(var10);
-    var2[var11] = var10;
+    var2[10] = var10;
     var11 = var9.VERIFIED_BLACK;
     var10 = 5;
     var10 = var7[var10];
     var10 = var8.bind(var1)(var10);
-    var2[var11] = var10;
+    var2[10] = var10;
     var11 = var9.PARTNERED_BLACK;
     var10 = 6;
     var10 = var7[var10];
     var10 = var8.bind(var1)(var10);
-    var2[var11] = var10;
+    var2[10] = var10;
     var10 = var9.NONE;
     var9 = null;
-    var2[var10] = var9;
+    var2[9] = var9;
     var _closure1_slot6 = var2;
     var2 = function checkGuildForFeature(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

@@ -601,7 +601,7 @@ case 21:
                 var5 = copyDataProperties(var11, var10);
                 var8 = _closure2_slot15;
                 var5 = 'onPress';
-                var1[var5] = var8;
+                var1[4] = var8;
                 var5 = 22;
                 var8 = var7[var5];
                 var8 = var6.bind(var3)(var8);
@@ -613,13 +613,13 @@ case 21:
                 var5 = var5.Xrt5Po;
                 var8 = var8.bind(var9)(var5);
                 var5 = 'accessibilityLabel';
-                var1[var5] = var8;
+                var1[4] = var8;
                 var5 = 31;
                 var5 = var7[var5];
                 var5 = var6.bind(var3)(var5);
                 var6 = var5.LinkIcon;
                 var5 = 'IconComponent';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

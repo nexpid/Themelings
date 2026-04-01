@@ -498,14 +498,14 @@ case 53:
             var42 = var29;
             var29 = copyDataProperties(var43, var42);
             var29 = 'frame_id';
-            var21[var29] = var26;
+            var21[28] = var26;
             var29 = _closure1_slot9;
             var38 = var29.MOBILE;
             var29 = 'platform';
-            var21[var29] = var38;
+            var21[28] = var38;
             var29 = var4.Version;
             var4 = 'mobile_app_version';
-            var21[var4] = var29;
+            var21[3] = var29;
             var4 = 17;
             var4 = var27[var4];
             var19 = var19.bind(var7)(var4);

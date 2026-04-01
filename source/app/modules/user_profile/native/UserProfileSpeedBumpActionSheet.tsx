@@ -425,7 +425,7 @@ case 13:
             var17 = var16[var17];
             var17 = var13.bind(var5)(var17);
             var17 = var17.IGNORED_PROFILE_ACTION_SHEET;
-            var8[var11] = var17;
+            var8[10] = var17;
             var11 = var11 + var12;
             var8 = var9.bind(var5)(var8);
             var8 = var8.analyticsLocations;

@@ -157,10 +157,10 @@ case 2:
         var9 = var5;
         var7 = copyDataProperties(var10, var9);
         var7 = 'roleStyle';
-        var1[var7] = var8;
+        var1[6] = var8;
         var8 = arg2;
         var7 = 'ref';
-        var1[var7] = var8;
+        var1[6] = var8;
         var8 = _closure1_slot6;
         var7 = _closure1_slot9;
         var6 = {};
@@ -170,7 +170,7 @@ case 2:
         var5 = var5.children;
         var6[1] = var5;
         var5 = 'children';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

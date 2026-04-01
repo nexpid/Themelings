@@ -290,7 +290,7 @@ case 11:
         var3 = copyDataProperties(var6, var5);
         var4 = true;
         var3 = 'checking';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot11 = var2;
         var1 = undefined;
         return var1;
@@ -303,7 +303,7 @@ case 11:
         var3 = copyDataProperties(var6, var5);
         var4 = false;
         var3 = 'checking';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot11 = var2;
         var1 = undefined;
         return var1;

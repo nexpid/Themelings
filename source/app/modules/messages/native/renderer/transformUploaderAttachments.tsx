@@ -142,7 +142,7 @@ case 17:
                     var20 = var1;
                     var9 = copyDataProperties(var20, var19);
                     var9 = 'filename';
-                    var1[var9] = var14;
+                    var1[8] = var14;
                     var9 = var5.size;
                     var9 = var8 != var9;
                     var14 = var7;
@@ -153,10 +153,10 @@ case 20:
                     var14 = var9.bind(var16)();
 case 19:
                     var9 = 'size';
-                    var1[var9] = var14;
+                    var1[8] = var14;
                     var14 = false;
                     var9 = 'showDescription';
-                    var1[var9] = var14;
+                    var1[8] = var14;
                     var9 = _closure2_slot2;
                     var14 = 0;
                     if(!var9) { _fun0002_ip = 21; continue _fun0002 }
@@ -169,7 +169,7 @@ case 23:
                     var14 = var5.width;
 case 21:
                     var9 = 'width';
-                    var1[var9] = var14;
+                    var1[8] = var14;
                     var9 = _closure2_slot2;
                     var14 = 0;
                     if(!var9) { _fun0002_ip = 24; continue _fun0002 }
@@ -182,7 +182,7 @@ case 26:
                     var14 = var5.height;
 case 24:
                     var9 = 'height';
-                    var1[var9] = var14;
+                    var1[8] = var14;
                     var14 = _closure1_slot0;
                     var9 = _closure1_slot1;
                     var17 = 3;
@@ -203,7 +203,7 @@ case 27:
                     var14 = var15.bind(var16)(var9);
 case 29:
                     var9 = 'hint';
-                    var1[var9] = var14;
+                    var1[8] = var14;
                     var14 = _closure1_slot0;
                     var9 = _closure1_slot1;
                     var15 = var9[var17];
@@ -223,7 +223,7 @@ case 30:
                     var14 = var15.bind(var16)(var9);
 case 32:
                     var9 = 'role';
-                    var1[var9] = var14;
+                    var1[8] = var14;
                     var9 = _closure1_slot2;
                     if(var13) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
@@ -245,13 +245,13 @@ case 33:
                     var11 = var9.IMAGE;
 case 41:
                     var9 = 'attachmentType';
-                    var1[var9] = var11;
+                    var1[8] = var11;
                     var9 = 'progress';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var6 = _closure2_slot0;
                     var9 = var6.id;
                     var6 = 'uploaderId';
-                    var1[var6] = var9;
+                    var1[5] = var9;
                     var6 = var2.id;
                     var8 = var8 != var6;
                     if(!var8) { _fun0002_ip = 42; continue _fun0002 }
@@ -259,13 +259,13 @@ case 43:
                     var7 = var6;
 case 42:
                     var6 = 'uploaderItemId';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var7 = var5.durationSecs;
                     var6 = 'durationSecs';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var6 = var5.waveform;
                     var5 = 'waveform';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot1;
                     var4 = 4;
@@ -279,7 +279,7 @@ case 45:
                     var3 = var2.uniqueId;
 case 44:
                     var2 = 'id';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };

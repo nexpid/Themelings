@@ -416,7 +416,7 @@ case 3:
             var13 = var13.eSP1F9;
             var13 = var14.bind(var15)(var13);
             var3['label'] = var13;
-            var1[var2] = var3;
+            var1[1] = var3;
             var3 = var2 + var6;
             var2 = {};
             var7 = var7.UNNECESSARY;
@@ -430,7 +430,7 @@ case 3:
             var5 = var5.maxf2S;
             var5 = var7.bind(var11)(var5);
             var2['label'] = var5;
-            var1[var3] = var2;
+            var1[2] = var2;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var2 = new Array(2);
@@ -454,7 +454,7 @@ case 2:
             var12 = var12.Dl4A+U;
             var12 = var13.bind(var14)(var12);
             var4['label'] = var12;
-            var2[var3] = var4;
+            var2[2] = var4;
             var4 = var3 + var6;
             var3 = {};
             var11 = var11.DIDNT_WORK;
@@ -468,7 +468,7 @@ case 2:
             var5 = var5["8JFGXc"];
             var5 = var6.bind(var7)(var5);
             var3['label'] = var5;
-            var2[var4] = var3;
+            var2[3] = var3;
             var1 = var2;
 case 4:
             return var1;

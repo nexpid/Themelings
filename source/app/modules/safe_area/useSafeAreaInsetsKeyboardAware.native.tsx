@@ -292,7 +292,7 @@ case 36:
             var14 = var4;
             var4 = copyDataProperties(var15, var14);
             var4 = 'bottom';
-            var3[var4] = var5;
+            var3[3] = var5;
             var2 = var3;
 case 35:
             var1['insets'] = var2;

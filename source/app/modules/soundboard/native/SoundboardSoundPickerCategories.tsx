@@ -353,7 +353,7 @@ case 14:
         var1 = copyDataProperties(var7, var6);
         var5 = arg2;
         var1 = 'ref';
-        var2[var1] = var5;
+        var2[0] = var5;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

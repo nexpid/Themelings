@@ -190,7 +190,7 @@ case 9:
                         var4 = copyDataProperties(var7, var6);
                         var5 = null;
                         var4 = 'mode';
-                        var1[var4] = var5;
+                        var1[3] = var5;
                         var1 = var2.bind(var3)(var1);
 case 8:
                         var1 = undefined;
@@ -279,7 +279,7 @@ case 13:
                 var12 = var5;
                 var5 = copyDataProperties(var13, var12);
                 var5 = 'mode';
-                var2[var5] = var6;
+                var2[4] = var6;
                 var2 = var3.bind(var4)(var2);
 case 10:
                 return var1;

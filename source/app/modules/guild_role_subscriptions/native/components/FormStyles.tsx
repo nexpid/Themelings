@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.colors;
     var15 = var10.BACKGROUND_BASE_LOWEST;
     var10 = 'backgroundColor';
-    var8[var10] = var15;
+    var8[9] = var15;
     var2['textInput'] = var8;
     var8 = {'padding': 16, 'width': '100%'};
     var15 = var6[var9];
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var11.bind(var1)(var9);
     var9 = var9.colors;
     var9 = var9.BACKGROUND_SURFACE_HIGH;
-    var8[var10] = var9;
+    var8[9] = var9;
     var2['dropdownInput'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 4;

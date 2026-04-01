@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = copyDataProperties(var6, var5);
                     var4 = _closure3_slot0;
                     var3 = _closure3_slot1;
-                    var2[var4] = var3;
+                    var2[3] = var3;
                     var1['channelShowResolvedFlags'] = var2;
                     return var1;
                 };

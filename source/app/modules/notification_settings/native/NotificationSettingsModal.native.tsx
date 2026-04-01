@@ -301,7 +301,7 @@ case 11:
                     var3 = {};
                     var7 = arg2;
                     var2 = arg1;
-                    var3[var2] = var7;
+                    var3[1] = var7;
                     var2 = arg3;
                     var2 = var5.bind(var6)(var4, var3, var2);
                     return var1;
@@ -1803,7 +1803,7 @@ case 0:
                         return var1;
                     };
                     var3['render'] = var11;
-                    var1[var7] = var3;
+                    var1[6] = var3;
                     var7 = var2.ADD_OVERRIDE;
                     var3 = {};
                     var11 = var10[var5];
@@ -1839,7 +1839,7 @@ case 0:
                         return var1;
                     };
                     var3['render'] = var11;
-                    var1[var7] = var3;
+                    var1[6] = var3;
                     var3 = var2.CHANNEL_OVERRIDE;
                     var2 = {};
                     var6 = var10[var6];
@@ -1875,7 +1875,7 @@ case 0:
                         return var1;
                     };
                     var2['render'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var1 = undefined;

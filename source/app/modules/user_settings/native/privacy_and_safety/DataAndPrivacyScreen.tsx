@@ -339,7 +339,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['helpArticle'] = var14;
             var10 = var12.bind(var13)(var11, var10);
             var6['subLabel'] = var10;
-            var4[var9] = var6;
+            var4[8] = var6;
             var6 = 1;
             var17 = var9 + var6;
             var7 = _closure1_slot10;

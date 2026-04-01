@@ -36,14 +36,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = copyDataProperties(var15, var14);
     var4 = 5;
     var11 = 'zIndex';
-    var10[var11] = var4;
+    var10[10] = var4;
     var11 = 3;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
     var12 = var11.BACKGROUND_SCRIM;
     var11 = 'backgroundColor';
-    var10[var11] = var12;
+    var10[10] = var12;
     var7['scrim'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot4 = var7;

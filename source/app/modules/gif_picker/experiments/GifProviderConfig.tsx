@@ -49,7 +49,7 @@ case 3: // catch_target0
             var3 = copyDataProperties(var7, var6);
             var3 = _closure1_slot3;
             var2 = 'userProvider';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

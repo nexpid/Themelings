@@ -187,7 +187,7 @@ case 8:
                     var5 = var8.bind(var1)(var7, var5);
                     var6[1] = var5;
                     var5 = 'children';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;
                 }

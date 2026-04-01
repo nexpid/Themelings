@@ -117,17 +117,17 @@ case 13:
             var15 = var6;
             var6 = copyDataProperties(var16, var15);
             var6 = 'guildChannels';
-            var2[var6] = var12;
+            var2[5] = var12;
             var6 = 'guildChannelsVersion';
-            var2[var6] = var11;
+            var2[5] = var11;
             var6 = 'gameClaimMarkAsDismissed';
-            var2[var6] = var10;
+            var2[5] = var10;
             var6 = 'applicationAccountLinkMarkAsDismissed';
-            var2[var6] = var9;
+            var2[5] = var9;
             var6 = 'startApplicationAccountLinkAuthorization';
-            var2[var6] = var8;
+            var2[5] = var8;
             var6 = 'accountLinkApplication';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 12:
             return var1;
@@ -165,10 +165,10 @@ case 17:
             var10 = var7;
             var8 = copyDataProperties(var11, var10);
             var8 = 'guildChannels';
-            var2[var8] = var9;
+            var2[7] = var9;
             var9 = 0;
             var8 = 'guildChannelsVersion';
-            var2[var8] = var9;
+            var2[7] = var9;
             var2 = var5.bind(var6)(var4, var2);
             _fun0003_ip = 18; continue _fun0003;
 case 16:
@@ -268,11 +268,11 @@ case 27:
             var16 = var6;
             var4 = copyDataProperties(var17, var16);
             var4 = 'guild';
-            var1[var4] = var12;
+            var1[3] = var12;
             var4 = 'selectedChannelId';
-            var1[var4] = var11;
+            var1[3] = var11;
             var4 = 'selectedVoiceChannelId';
-            var1[var4] = var10;
+            var1[3] = var10;
             var1 = var7.bind(var5)(var3, var1);
             _fun0004_ip = 28; continue _fun0004;
 case 26:
@@ -296,11 +296,11 @@ case 24:
             var16 = var6;
             var9 = copyDataProperties(var17, var16);
             var9 = 'guild';
-            var3[var9] = var12;
+            var3[8] = var12;
             var9 = 'selectedChannelId';
-            var3[var9] = var11;
+            var3[8] = var11;
             var9 = 'selectedVoiceChannelId';
-            var3[var9] = var10;
+            var3[8] = var10;
             var1 = var7.bind(var5)(var4, var3);
 case 29:
             _fun0004_ip = 30; continue _fun0004;

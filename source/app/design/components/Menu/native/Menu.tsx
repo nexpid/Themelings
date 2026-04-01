@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var11;
     var12 = copyDataProperties(var17, var16);
     var12 = 'zIndex';
-    var11[var12] = var14;
+    var11[11] = var14;
     var5['backdrop'] = var11;
     var11 = {};
     var12 = 'absolute';
@@ -578,10 +578,10 @@ case 56:
                     var4 = 12;
                     var5 = var5 - var4;
                     var4 = {};
-                    var4[var3] = var6;
-                    var4[var2] = var1;
+                    var4[2] = var6;
+                    var4[1] = var1;
                     var1 = 'maxHeight';
-                    var4[var1] = var5;
+                    var4[0] = var5;
                     var1 = new Array(3);
                     var1[0] = var4;
                     var1[1] = var3;

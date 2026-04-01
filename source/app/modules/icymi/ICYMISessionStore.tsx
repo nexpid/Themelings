@@ -450,10 +450,10 @@ case 47:
                     var2 = copyDataProperties(var5, var4);
                     var3 = _closure3_slot1;
                     var2 = 'triggerType';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     var3 = true;
                     var2 = 'isInitiallyVisible';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var2 = var5.bind(var6)(var2);
@@ -1607,10 +1607,10 @@ case 109:
                 var2 = copyDataProperties(var5, var4);
                 var3 = 'focus';
                 var2 = 'triggerType';
-                var1[var2] = var3;
+                var1[1] = var3;
                 var3 = true;
                 var2 = 'isInitiallyVisible';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var3 = var3.bind(var4)(var2);

@@ -407,11 +407,11 @@ case 6:
             var2 = _closure2_slot3;
             var5 = var5[var2];
             var2 = 'price_tier';
-            var1[var2] = var5;
+            var1[1] = var5;
             var2 = new Array(1);
             var2[0] = var1;
             var1 = 'listings';
-            var3[var1] = var2;
+            var3[0] = var2;
             var1 = undefined;
             var2 = true;
             var2 = var4.bind(var1)(var3, var2);

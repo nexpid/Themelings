@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3 = 'setSelectedGuildId';
-        var1[var3] = var4;
+        var1[2] = var4;
         var3 = function reset() {
             var3 = _closure2_slot0;
             var2 = _closure1_slot0;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2 = 'reset';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var4 = var6.bind(var9)(var4);

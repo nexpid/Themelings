@@ -169,7 +169,7 @@ case 8:
             var11 = _closure1_slot6;
             var12 = var11.locale;
             var11 = 'languageCode';
-            var9[var11] = var12;
+            var9[10] = var12;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

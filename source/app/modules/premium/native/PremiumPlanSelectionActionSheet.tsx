@@ -1074,7 +1074,7 @@ case 111:
             var9 = copyDataProperties(var12, var11);
             var10 = true;
             var9 = 'grow';
-            var1[var9] = var10;
+            var1[8] = var10;
             var9 = function onPress() {
                 var3 = _closure2_slot0;
                 var2 = {};
@@ -1085,11 +1085,11 @@ case 111:
                 return var1;
             };
             var6 = 'onPress';
-            var1[var6] = var9;
+            var1[5] = var9;
             var6 = 'loading';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = 'disabled';
-            var1[var6] = var7;
+            var1[5] = var7;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
 case 108:
@@ -1545,13 +1545,13 @@ case 0:
                     var7 = copyDataProperties(var10, var9);
                     var8 = _closure2_slot0;
                     var7 = 'application_id';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var8 = _closure2_slot24;
                     var7 = 'subscription_plan_id';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var8 = _closure2_slot22;
                     var7 = 'sku_id';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var7 = _closure2_slot25;
                     var6 = undefined;
                     if(!var7) { _fun0011_ip = 139; continue _fun0011 }
@@ -1560,7 +1560,7 @@ case 140:
                     var6 = var5.MOBILE_WEB_REDIRECT_CHECKOUT;
 case 139:
                     var5 = 'custom_checkout_flow';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
@@ -2317,8 +2317,8 @@ case 184:
             var1['onDismiss'] = var7;
             var1['startExpanded'] = var6;
             var8 = _closure1_slot29;
-            if(var5) { _fun0009_ip = 196; continue _fun0009 }
-case 197:
+            if(var5) { _fun0009_ip = 101; continue _fun0009 }
+case 196:
             var6 = _closure1_slot30;
             var5 = {};
             var12 = _closure1_slot28;
@@ -2328,18 +2328,18 @@ case 197:
             var7['isPaymentSuccess'] = var27;
             var28 = var14 == var23;
             var22 = undefined;
-            if(var28) { _fun0009_ip = 198; continue _fun0009 }
-case 199:
-            var22 = var23.premiumTier;
+            if(var28) { _fun0009_ip = 197; continue _fun0009 }
 case 198:
+            var22 = var23.premiumTier;
+case 197:
             var7['selectedPremiumType'] = var22;
             var7['trialOffer'] = var21;
             var19 = var14 != var19;
             var14 = null;
-            if(!var19) { _fun0009_ip = 200; continue _fun0009 }
-case 84:
-            var14 = var15;
+            if(!var19) { _fun0009_ip = 199; continue _fun0009 }
 case 200:
+            var14 = var15;
+case 199:
             var7['discountOffer'] = var14;
             var11 = var12.bind(var4)(var11, var7);
             var7 = new Array(3);
@@ -2765,8 +2765,8 @@ case 224:
             var7[2] = var11;
             var5['children'] = var7;
             var5 = var8.bind(var4)(var6, var5);
-            _fun0009_ip = 226; continue _fun0009;
-case 196:
+            _fun0009_ip = 107; continue _fun0009;
+case 101:
             var7 = _closure1_slot6;
             var6 = {};
             var9 = var9.blockedPaymentContainer;
@@ -2799,7 +2799,7 @@ case 196:
             var9[1] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 226:
+case 107:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

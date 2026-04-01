@@ -249,7 +249,7 @@ case 9:
                         var10 = _closure1_slot10;
                         var11 = var10.SOUNDBOARD_SOUND;
                         var10 = 'object';
-                        var9[var10] = var11;
+                        var9[9] = var11;
                         var5['location'] = var9;
                         var5 = var7.bind(var8)(var5);
                         var5 = 12;
@@ -447,7 +447,7 @@ case 20:
                 var26 = copyDataProperties(var31, var30);
                 var27 = 'secondary';
                 var26 = 'variant';
-                var16[var26] = var27;
+                var16[25] = var27;
                 var27 = _closure1_slot7;
                 var26 = {};
                 var29 = var23.star;
@@ -459,7 +459,7 @@ case 20:
                 var26['source'] = var29;
                 var27 = var19.bind(var4)(var27, var26);
                 var26 = 'icon';
-                var16[var26] = var27;
+                var16[25] = var27;
                 var26 = var20[var24];
                 var26 = var28.bind(var4)(var26);
                 var27 = var26.intl;
@@ -470,9 +470,9 @@ case 20:
                 var24 = var24.Kd4uxG;
                 var26 = var26.bind(var27)(var24);
                 var24 = 'text';
-                var16[var24] = var26;
+                var16[23] = var26;
                 var24 = 'onPress';
-                var16[var24] = var25;
+                var16[23] = var25;
                 var17 = var19.bind(var4)(var17, var16);
                 var16 = new Array(2);
                 var16[0] = var17;

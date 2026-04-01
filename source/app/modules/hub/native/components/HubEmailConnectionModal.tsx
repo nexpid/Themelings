@@ -55,7 +55,7 @@ case 4:
                 return var1;
             };
             var3['render'] = var8;
-            var1[var5] = var3;
+            var1[4] = var3;
             var3 = _closure1_slot3;
             var5 = var3.VERIFY_EMAIL;
             var3 = {};
@@ -100,7 +100,7 @@ case 4:
                 return var1;
             };
             var3['render'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var3 = _closure1_slot3;
             var5 = var3.EMAIL_WAITLIST;
             var3 = {};
@@ -126,7 +126,7 @@ case 4:
                 return var1;
             };
             var3['render'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var3 = _closure1_slot3;
             var5 = var3.SUBMIT_SCHOOL;
             var3 = {};
@@ -152,7 +152,7 @@ case 4:
                 return var1;
             };
             var3['render'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var3 = _closure1_slot3;
             var5 = var3.SELECT_SCHOOL;
             var3 = {};
@@ -178,7 +178,7 @@ case 4:
                 return var1;
             };
             var3['render'] = var7;
-            var1[var5] = var3;
+            var1[4] = var3;
             var3 = _closure1_slot3;
             var5 = var3.VERIFY_PIN;
             var3 = {};
@@ -204,7 +204,7 @@ case 4:
                 return var1;
             };
             var3['render'] = var6;
-            var1[var5] = var3;
+            var1[4] = var3;
             var2 = _closure1_slot3;
             var3 = var2.SELECT_SCHOOL_SEARCH;
             var2 = {'fullscreen': true, 'headerShown': false};
@@ -224,7 +224,7 @@ case 4:
                 return var1;
             };
             var2['render'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };

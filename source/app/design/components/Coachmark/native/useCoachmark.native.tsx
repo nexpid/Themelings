@@ -75,10 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = copyDataProperties(var9, var8);
                 var7 = arg2;
                 var6 = 'targetMeasurements';
-                var3[var6] = var7;
+                var3[5] = var7;
                 var7 = arg3;
                 var6 = 'surfaceMeasurements';
-                var3[var6] = var7;
+                var3[5] = var7;
                 var5 = var5.bind(var1)(var4, var3);
                 var4 = _closure3_slot1;
                 var3 = var4.add;

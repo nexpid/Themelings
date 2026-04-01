@@ -65,10 +65,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = copyDataProperties(var22, var21);
     var17 = 'none';
     var12 = 'textTransform';
-    var10[var12] = var17;
+    var10[11] = var17;
     var17 = 24;
     var12 = 'lineHeight';
-    var10[var12] = var17;
+    var10[11] = var17;
     var7['emptyTitle'] = var10;
     var10 = {};
     var14 = var6[var14];
@@ -82,10 +82,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var22 = var10;
     var11 = copyDataProperties(var22, var21);
     var11 = 20;
-    var10[var12] = var11;
+    var10[11] = var11;
     var12 = '600';
     var11 = 'fontWeight';
-    var10[var11] = var12;
+    var10[10] = var12;
     var7['emptyBody'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot6 = var7;

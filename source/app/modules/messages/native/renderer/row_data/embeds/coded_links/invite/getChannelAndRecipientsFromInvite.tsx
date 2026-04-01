@@ -56,7 +56,7 @@ case 7:
             var8 = var4;
             var3 = copyDataProperties(var8, var7);
             var3 = 'recipients';
-            var4[var3] = var6;
+            var4[2] = var6;
             var3 = undefined;
             var2 = var5.bind(var3)(var4);
 case 6:

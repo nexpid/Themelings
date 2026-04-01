@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = '💨';
         var7['name'] = var10;
         var3['emoji'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.CHILLING;
         var3 = {};
         var7 = var9[var4];
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = '🍨';
         var7['name'] = var10;
         var3['emoji'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.GAMING;
         var3 = {};
         var7 = var9[var4];
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = '⚔️';
         var7['name'] = var10;
         var3['emoji'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.WATCHING;
         var3 = {};
         var7 = var9[var4];
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = '🍿';
         var7['name'] = var10;
         var3['emoji'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var3 = var2.FOCUSING;
         var2 = {};
         var6 = var9[var4];
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = '🧠';
         var4['name'] = var5;
         var2['emoji'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot4 = var4;
@@ -164,7 +164,7 @@ case 6:
             var5 = '💭';
             var4['name'] = var5;
             var2['emoji'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
 case 4:
             var2 = _closure1_slot4;
@@ -195,7 +195,7 @@ case 2:
             var10 = var6.bind(var5)(var10);
             var10 = var10.PlaneIllocon;
             var3['icon'] = var10;
-            var1[var9] = var3;
+            var1[8] = var3;
             var9 = var2.CHILLING;
             var3 = {};
             var10 = var7[var8];
@@ -212,7 +212,7 @@ case 2:
             var10 = var6.bind(var5)(var10);
             var10 = var10.ChairIllocon;
             var3['icon'] = var10;
-            var1[var9] = var3;
+            var1[8] = var3;
             var9 = var2.GAMING;
             var3 = {};
             var10 = var7[var8];
@@ -229,7 +229,7 @@ case 2:
             var10 = var6.bind(var5)(var10);
             var10 = var10.ControllerIllocon;
             var3['icon'] = var10;
-            var1[var9] = var3;
+            var1[8] = var3;
             var9 = var2.WATCHING;
             var3 = {};
             var10 = var7[var8];
@@ -246,7 +246,7 @@ case 2:
             var10 = var6.bind(var5)(var10);
             var10 = var10.MailboxIllocon;
             var3['icon'] = var10;
-            var1[var9] = var3;
+            var1[8] = var3;
             var3 = var2.FOCUSING;
             var2 = {};
             var9 = var7[var8];
@@ -263,7 +263,7 @@ case 2:
             var4 = var6.bind(var5)(var4);
             var4 = var4.BookIllocon;
             var2['icon'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };

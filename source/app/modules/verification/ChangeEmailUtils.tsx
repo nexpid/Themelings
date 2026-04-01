@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.SOMEONE_ASKED_ME_TO;
     var8 = function() {
         var5 = _closure1_slot0;
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.NEW_EMAIL;
     var8 = function() {
         var5 = _closure1_slot0;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var8 = var7.SOMETHING_ELSE;
     var7 = function() {
         var5 = _closure1_slot0;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4[var8] = var7;
+    var4[7] = var7;
     var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];

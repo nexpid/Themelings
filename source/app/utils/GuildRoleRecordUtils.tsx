@@ -581,7 +581,7 @@ case 71:
                 var12 = var11.permissions;
                 var11 = var12.toString;
                 var11 = var11.bind(var12)();
-                var9[var2] = var11;
+                var9[1] = var11;
                 var1[var10] = var9;
                 _fun0009_ip = 29; continue _fun0009;
             }

@@ -91,7 +91,7 @@ case 0:
                     var2 = _closure1_slot3;
                     var2 = var2.settings;
                     var2 = var4.bind(var5)(var2);
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var1 = {};

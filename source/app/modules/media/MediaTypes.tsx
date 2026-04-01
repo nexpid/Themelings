@@ -308,10 +308,10 @@ case 20:
         var2 = _closure1_slot8;
         var3 = var2.bind(var3)(var4);
         var2 = 'type';
-        var1[var2] = var3;
+        var1[1] = var3;
         var3 = var4.description;
         var2 = 'alt';
-        var1[var2] = var3;
+        var1[1] = var3;
         var3 = {};
         var2 = arg2;
         var3['message'] = var2;
@@ -328,7 +328,7 @@ case 20:
         var2['size'] = var4;
         var3['identifier'] = var2;
         var2 = 'sourceMetadata';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var3['messageAttachmentToMediaItem'] = var4;

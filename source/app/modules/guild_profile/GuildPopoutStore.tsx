@@ -244,7 +244,7 @@ case 9:
         var4 = _closure1_slot8;
         var5 = var4.FETCHING;
         var4 = 'fetchState';
-        var1[var4] = var5;
+        var1[3] = var5;
         var2[var3] = var1;
         var1 = undefined;
         return var1;
@@ -270,11 +270,11 @@ case 9:
         var9 = var2;
         var6 = copyDataProperties(var9, var8);
         var6 = 'guild';
-        var2[var6] = var7;
+        var2[5] = var7;
         var5 = _closure1_slot8;
         var6 = var5.SUCCEEDED;
         var5 = 'fetchState';
-        var2[var5] = var6;
+        var2[4] = var6;
         var3[var4] = var2;
         return var1;
     };
@@ -292,7 +292,7 @@ case 9:
         var4 = _closure1_slot8;
         var5 = var4.FAILED;
         var4 = 'fetchState';
-        var1[var4] = var5;
+        var1[3] = var5;
         var2[var3] = var1;
         var1 = undefined;
         return var1;

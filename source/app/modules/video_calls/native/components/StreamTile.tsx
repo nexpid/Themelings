@@ -74,13 +74,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var20 = var10;
     var13 = copyDataProperties(var20, var19);
     var13 = 'flex';
-    var10[var13] = var15;
+    var10[12] = var15;
     var13 = 'padding';
-    var10[var13] = var11;
+    var10[12] = var11;
     var13 = 'alignItems';
-    var10[var13] = var14;
+    var10[12] = var14;
     var13 = 'justifyContent';
-    var10[var13] = var14;
+    var10[12] = var14;
     var13 = 9;
     var14 = var7[var13];
     var17 = var6.bind(var1)(var14);
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = 0.7;
     var15 = var16.bind(var17)(var15, var14);
     var14 = 'backgroundColor';
-    var10[var14] = var15;
+    var10[13] = var15;
     var2['screenMessageContainer'] = var10;
     var10 = {};
     var14 = 18;

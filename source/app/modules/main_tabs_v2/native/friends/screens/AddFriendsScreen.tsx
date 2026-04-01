@@ -594,7 +594,7 @@ case 53:
                         var6 = var1;
                         var3 = arraySpread(var6, var5, var4);
                         var2 = _closure3_slot0;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         return var1;
@@ -615,7 +615,7 @@ case 52:
                         var2['userId'] = var5;
                         var4 = _closure3_slot1;
                         var2['applicationId'] = var4;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         return var1;
@@ -649,7 +649,7 @@ case 53:
                         var6 = var1;
                         var3 = arraySpread(var6, var5, var4);
                         var2 = _closure3_slot0;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         return var1;
@@ -670,7 +670,7 @@ case 52:
                         var2['userId'] = var5;
                         var4 = _closure3_slot1;
                         var2['applicationId'] = var4;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
                         return var1;
@@ -1548,7 +1548,7 @@ case 111:
                                 var6 = var1;
                                 var3 = arraySpread(var6, var5, var4);
                                 var2 = _closure3_slot5;
-                                var1[var3] = var2;
+                                var1[2] = var2;
                                 var2 = 1;
                                 var2 = var3 + var2;
                                 return var1;

@@ -331,11 +331,11 @@ case 29:
             var5 = var12.bind(var4)(var5);
             var12 = var5.XSmallIcon;
             var5 = 'icon';
-            var1[var5] = var12;
+            var1[4] = var12;
             var5 = 'header';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'subtitle';
-            var1[var5] = var6;
+            var1[4] = var6;
             var7 = _closure1_slot10;
             var6 = _closure1_slot9;
             var5 = {};
@@ -376,7 +376,7 @@ case 34:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'buttons';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

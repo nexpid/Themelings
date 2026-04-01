@@ -64,13 +64,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var10;
     var11 = copyDataProperties(var18, var17);
     var11 = 'textAlign';
-    var10[var11] = var12;
+    var10[10] = var12;
     var12 = 32;
     var11 = 'marginTop';
-    var10[var11] = var12;
+    var10[10] = var12;
     var12 = 0.8;
     var11 = 'opacity';
-    var10[var11] = var12;
+    var10[10] = var12;
     var7['emptyLabel'] = var10;
     var10 = {'fontFamily': null, 'fontSize': 13, 'marginTop': 8, 'marginHorizontal': 10, 'opacity': 0.6, 'fontWeight': '400'};
     var4 = var4.PRIMARY_MEDIUM;

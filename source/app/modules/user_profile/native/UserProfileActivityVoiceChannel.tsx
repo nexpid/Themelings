@@ -450,7 +450,7 @@ case 14:
                         var4 = copyDataProperties(var7, var6);
                         var5 = arg1;
                         var4 = 'userId';
-                        var1[var4] = var5;
+                        var1[3] = var5;
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };

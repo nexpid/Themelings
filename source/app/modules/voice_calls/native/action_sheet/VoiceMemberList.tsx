@@ -456,9 +456,9 @@ case 19:
             var12 = var8;
             var10 = copyDataProperties(var13, var12);
             var10 = 'onPress';
-            var3[var10] = var11;
+            var3[9] = var11;
             var10 = 'isActionSheet';
-            var3[var10] = var5;
+            var3[9] = var5;
             var3 = var9.bind(var4)(var6, var3);
             return var3;
 case 18:
@@ -1008,13 +1008,13 @@ case 61:
                     var7 = copyDataProperties(var11, var10);
                     var9 = _closure2_slot9;
                     var8 = 'onPress';
-                    var1[var8] = var9;
+                    var1[7] = var9;
                     var9 = true;
                     var8 = 'isSpectating';
-                    var1[var8] = var9;
+                    var1[7] = var9;
                     var8 = _closure2_slot1;
                     var7 = 'isActionSheet';
-                    var1[var7] = var8;
+                    var1[6] = var8;
                     var1 = var6.bind(var5)(var4, var1);
                     return var1;
 case 59:
@@ -1175,7 +1175,7 @@ case 72:
                 }
             };
             var14 = 'renderItem';
-            var10[var14] = var16;
+            var10[13] = var16;
             var16 = function itemSize(arg1, arg2) {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -1251,7 +1251,7 @@ case 73:
                 }
             };
             var14 = 'itemSize';
-            var10[var14] = var16;
+            var10[13] = var16;
             var14 = var15.map;
             var13 = function(arg1) {
                 var1 = arg1;
@@ -1261,7 +1261,7 @@ case 73:
             };
             var14 = var14.bind(var15)(var13);
             var13 = 'sections';
-            var10[var13] = var14;
+            var10[12] = var14;
             var10 = var12.bind(var5)(var11, var10);
             var9[2] = var10;
             var6['children'] = var9;

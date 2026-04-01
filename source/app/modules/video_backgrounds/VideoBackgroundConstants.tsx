@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = copyDataProperties(var5, var4);
         var3 = arg3;
         var2 = arg2;
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var1 = {};

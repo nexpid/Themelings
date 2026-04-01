@@ -825,7 +825,7 @@ case 40:
                 var1 = copyDataProperties(var8, var7);
                 var2 = _closure2_slot19;
                 var1 = 'onClose';
-                var3[var1] = var2;
+                var3[0] = var2;
                 var2 = undefined;
                 var1 = arg2;
                 var1 = var5.bind(var2)(var4, var3, var1);

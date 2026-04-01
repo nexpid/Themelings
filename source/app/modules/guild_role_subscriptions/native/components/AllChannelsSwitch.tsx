@@ -168,9 +168,9 @@ case 6:
     var21 = var9;
     var14 = copyDataProperties(var21, var20);
     var14 = 'flexShrink';
-    var9[var14] = var16;
+    var9[13] = var16;
     var14 = 'marginHorizontal';
-    var9[var14] = var15;
+    var9[13] = var15;
     var4['rowLabel'] = var9;
     var9 = {};
     var13 = var6[var13];

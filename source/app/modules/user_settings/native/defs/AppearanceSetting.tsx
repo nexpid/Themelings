@@ -44,7 +44,7 @@ case 0:
             var3 = var3.t;
             var3 = var3.K2sFfo;
             var3 = var11.bind(var12)(var3);
-            var4[var10] = var3;
+            var4[9] = var3;
             var3 = _closure1_slot5;
             var10 = var3.DARK;
             var3 = var8[var2];
@@ -56,7 +56,7 @@ case 0:
             var3 = var3.t;
             var3 = var3.b8Cei3;
             var3 = var11.bind(var12)(var3);
-            var4[var10] = var3;
+            var4[9] = var3;
             var3 = _closure1_slot5;
             var10 = var3.MIDNIGHT;
             var3 = var8[var2];
@@ -68,7 +68,7 @@ case 0:
             var3 = var3.t;
             var3 = var3.pQwSpQ;
             var3 = var11.bind(var12)(var3);
-            var4[var10] = var3;
+            var4[9] = var3;
             var3 = _closure1_slot5;
             var10 = var3.DARKER;
             var3 = var8[var2];
@@ -80,7 +80,7 @@ case 0:
             var3 = var3.t;
             var3 = var3.b8Cei3;
             var3 = var11.bind(var12)(var3);
-            var4[var10] = var3;
+            var4[9] = var3;
             var3 = 7;
             var3 = var8[var3];
             var7 = var7.bind(var5)(var3);

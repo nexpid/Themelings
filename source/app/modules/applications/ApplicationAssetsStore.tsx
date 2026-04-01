@@ -325,7 +325,7 @@ case 26:
         var3 = copyDataProperties(var6, var5);
         var3 = _closure1_slot7;
         var3 = var3.FETCHING;
-        var2[var4] = var3;
+        var2[3] = var3;
         _closure1_slot8 = var2;
         var1 = undefined;
         return var1;
@@ -340,7 +340,7 @@ case 26:
         var3 = copyDataProperties(var6, var5);
         var3 = _closure1_slot7;
         var3 = var3.FETCH_SUCCESS;
-        var2[var4] = var3;
+        var2[3] = var3;
         _closure1_slot8 = var2;
         var1 = undefined;
         return var1;

@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var5.bind(var1)(var10);
     var10 = var10.VANITY_URL_POWERUP_SKU_ID;
-    var4[var7] = var10;
+    var4[6] = var10;
     var7 = var7 + var9;
     var7 = var8.prototype;
     var7 = Object.create(var7, {constructor: {value: var8}});

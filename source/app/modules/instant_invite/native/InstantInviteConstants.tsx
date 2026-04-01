@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var2[var6] = var5;
+    var2[5] = var5;
     var6 = var4.WHATSAPP;
     var5 = function(arg1) {
         var1 = global;
@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var2[var6] = var5;
+    var2[5] = var5;
     var6 = var4.GMAIL;
     var5 = function(arg1, arg2) {
         var1 = global;
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var5.bind(var4)(var3, var2, var1);
         return var1;
     };
-    var2[var6] = var5;
+    var2[5] = var5;
     var6 = var4.LINE;
     var5 = function(arg1) {
         var1 = global;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var2[var6] = var5;
+    var2[5] = var5;
     var6 = var4.MESSENGER;
     var5 = function(arg1) {
         var1 = global;
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var2[var6] = var5;
+    var2[5] = var5;
     var5 = var4.TELEGRAM;
     var1 = function(arg1, arg2) {
         var1 = global;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var5.bind(var4)(var3, var2, var1);
         return var1;
     };
-    var2[var5] = var1;
+    var2[4] = var1;
     var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];

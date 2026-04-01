@@ -590,7 +590,7 @@ case 67:
             var21 = var9;
             var9 = copyDataProperties(var22, var21);
             var9 = 'uri';
-            var8[var9] = var10;
+            var8[8] = var10;
             var1['source'] = var8;
             var8 = 'https://www.tiktok.com/player/v1/';
             var1['baseURL'] = var8;

@@ -128,7 +128,7 @@ case 10:
                     var2 = var2.quantity;
                     var3 = var3 * var2;
                     var2 = 'amount';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 };
                 var2 = var3.bind(var4)(var2);

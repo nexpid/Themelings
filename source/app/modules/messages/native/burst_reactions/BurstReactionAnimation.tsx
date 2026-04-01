@@ -140,7 +140,7 @@ case 12:
             var18 = var6;
             var6 = copyDataProperties(var19, var18);
             var6 = 'source';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var3.bind(var5)(var4, var2);
             return var2;
 case 4:

@@ -669,14 +669,14 @@ case 21:
             var9 = var5.memberCount;
 case 5:
             var8 = 'memberCount';
-            var1[var8] = var9;
+            var1[7] = var9;
             var6 = var6.onlineCount;
             if(!(var7 == var6)) { _fun0009_ip = 22; continue _fun0009 }
 case 23:
             var6 = var5.presenceCount;
 case 22:
             var5 = 'presenceCount';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
             var1 = undefined;
             return var1;

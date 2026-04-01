@@ -271,7 +271,7 @@ case 18:
                     var14 = var4;
                     var7 = copyDataProperties(var15, var14);
                     var7 = 'permissions';
-                    var6[var7] = var5;
+                    var6[6] = var5;
                     var8 = _closure1_slot1;
                     var7 = 12;
                     var7 = var9[var7];

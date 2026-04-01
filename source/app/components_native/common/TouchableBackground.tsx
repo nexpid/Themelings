@@ -146,9 +146,9 @@ case 4:
             var19 = var6;
             var6 = copyDataProperties(var20, var19);
             var6 = 'onPressIn';
-            var1[var6] = var14;
+            var1[5] = var14;
             var6 = 'onPressOut';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = _closure1_slot2;
             var5 = {};
             var8 = new Array(2);
@@ -169,7 +169,7 @@ case 6:
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

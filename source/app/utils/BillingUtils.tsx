@@ -158,9 +158,9 @@ case 12:
             var2 = copyDataProperties(var10, var9);
             var7 = 'billing';
             var2 = 'app_context';
-            var6[var2] = var7;
+            var6[1] = var7;
             var2 = 'tags';
-            var3[var2] = var6;
+            var3[1] = var6;
             var2 = arg1;
             var2 = var4.bind(var5)(var2, var3);
             return var1;
@@ -195,9 +195,9 @@ case 12:
             var2 = copyDataProperties(var10, var9);
             var7 = 'billing';
             var2 = 'app_context';
-            var6[var2] = var7;
+            var6[1] = var7;
             var2 = 'tags';
-            var3[var2] = var6;
+            var3[1] = var6;
             var2 = arg1;
             var2 = var4.bind(var5)(var2, var3);
             return var1;

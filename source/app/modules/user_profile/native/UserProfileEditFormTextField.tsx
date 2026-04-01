@@ -85,7 +85,7 @@ case 7:
             var4 = copyDataProperties(var14, var13);
             var8 = true;
             var4 = 'isClearable';
-            var1[var4] = var8;
+            var1[3] = var8;
             var1 = var3.bind(var5)(var2, var1);
             _fun0001_ip = 8; continue _fun0001;
 case 6:

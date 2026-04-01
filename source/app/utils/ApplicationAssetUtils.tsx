@@ -893,7 +893,7 @@ case 75:
         return var1;
     };
     var12['serialize'] = var14;
-    var10[var13] = var12;
+    var10[12] = var12;
     var13 = var11.TWITCH;
     var12 = {};
     var14 = function deserialize(arg1, arg2) {
@@ -935,7 +935,7 @@ case 91:
         }
     };
     var12['serialize'] = var14;
-    var10[var13] = var12;
+    var10[12] = var12;
     var12 = var11.YOUTUBE;
     var11 = {};
     var13 = function deserialize(arg1) {
@@ -970,7 +970,7 @@ case 91:
         }
     };
     var11['serialize'] = var13;
-    var10[var12] = var11;
+    var10[11] = var11;
     var12 = {};
     var11 = function deserialize(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
@@ -1059,7 +1059,7 @@ case 25:
     };
     var12['serialize'] = var11;
     var11 = 'mp';
-    var10[var11] = var12;
+    var10[10] = var12;
     var _closure1_slot10 = var10;
     var7 = var7.Map;
     var10 = var7.prototype;

@@ -1604,8 +1604,8 @@ case 0:
                 var5 = var1.applicationId;
                 var4 = _closure2_slot2;
                 var4 = var5 in var4;
-                if(var4) { _fun0023_ip = 139; continue _fun0023 }
-case 155:
+                if(var4) { _fun0023_ip = 155; continue _fun0023 }
+case 156:
                 var5 = _closure2_slot0;
                 var4 = var5.find;
                 var3 = function(arg1) {
@@ -1625,14 +1625,14 @@ case 155:
                 var5 = var5.bind(var8)(var4);
                 var4 = var5.getSectionName;
                 var7 = null;
-                if(!(var7 == var3)) { _fun0023_ip = 156; continue _fun0023 }
-case 157:
+                if(!(var7 == var3)) { _fun0023_ip = 157; continue _fun0023 }
+case 158:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot3;
                 var6 = var6[var9];
                 var6 = var7.bind(var8)(var6);
                 var3 = var6.FAKE_BUILT_IN_APP;
-case 156:
+case 157:
                 var4 = var4.bind(var5)(var3);
                 var3 = var4.toLocaleLowerCase;
                 var5 = var3.bind(var4)();
@@ -1645,7 +1645,7 @@ case 156:
                 var4 = var1.applicationId;
                 var5[var4] = var3;
                 return var3;
-case 139:
+case 155:
                 var2 = _closure2_slot2;
                 var1 = var1.applicationId;
                 var1 = var2[var1];
@@ -1670,8 +1670,8 @@ case 0:
                 var5 = var1.applicationId;
                 var4 = _closure2_slot2;
                 var4 = var5 in var4;
-                if(var4) { _fun0024_ip = 104; continue _fun0024 }
-case 155:
+                if(var4) { _fun0024_ip = 139; continue _fun0024 }
+case 156:
                 var5 = _closure2_slot0;
                 var4 = var5.find;
                 var3 = function(arg1) {
@@ -1691,14 +1691,14 @@ case 155:
                 var5 = var5.bind(var8)(var4);
                 var4 = var5.getSectionName;
                 var7 = null;
-                if(!(var7 == var3)) { _fun0024_ip = 156; continue _fun0024 }
-case 157:
+                if(!(var7 == var3)) { _fun0024_ip = 157; continue _fun0024 }
+case 158:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot3;
                 var6 = var6[var9];
                 var6 = var7.bind(var8)(var6);
                 var3 = var6.FAKE_BUILT_IN_APP;
-case 156:
+case 157:
                 var4 = var4.bind(var5)(var3);
                 var3 = var4.toLocaleLowerCase;
                 var5 = var3.bind(var4)();
@@ -1711,7 +1711,7 @@ case 156:
                 var4 = var1.applicationId;
                 var5[var4] = var3;
                 return var3;
-case 104:
+case 139:
                 var2 = _closure2_slot2;
                 var1 = var1.applicationId;
                 var1 = var2[var1];
@@ -1738,22 +1738,22 @@ case 0:
             var _closure2_slot3 = var12;
             var3 = var2.searchesCommands;
             var15 = undefined;
-            if(!(var3 === var15)) { _fun0025_ip = 158; continue _fun0025 }
+            if(!(var3 === var15)) { _fun0025_ip = 159; continue _fun0025 }
 case 28:
             var3 = true;
-case 158:
+case 159:
             var _closure2_slot4 = var3;
             var14 = var2.searchesBots;
-            if(!(var14 === var15)) { _fun0025_ip = 159; continue _fun0025 }
-case 160:
+            if(!(var14 === var15)) { _fun0025_ip = 160; continue _fun0025 }
+case 161:
             var14 = true;
-case 159:
+case 160:
             var _closure2_slot5 = var14;
             var13 = var2.searchesActivities;
-            if(!(var13 === var15)) { _fun0025_ip = 161; continue _fun0025 }
+            if(!(var13 === var15)) { _fun0025_ip = 158; continue _fun0025 }
 case 162:
             var13 = true;
-case 161:
+case 158:
             var _closure2_slot6 = var13;
             var _closure2_slot7 = var15;
             var _closure2_slot8 = var15;
@@ -1935,7 +1935,7 @@ case 170:
                             var5 = var3 != var4;
                             var3 = null;
                             if(!var5) { _fun0028_ip = 39; continue _fun0028 }
-case 160:
+case 161:
                             var3 = var4;
 case 39:
                             var2['section'] = var3;
@@ -2296,10 +2296,10 @@ case 184:
                     var6 = _closure2_slot5;
                     var1 = 1;
                     var1 = var6 - var1;
-                    _fun0032_ip = 159; continue _fun0032;
+                    _fun0032_ip = 160; continue _fun0032;
 case 35:
                     var1 = _closure2_slot5;
-case 159:
+case 160:
                     var2['length'] = var1;
                     var1 = function(arg1, arg2) {
                         _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
@@ -2378,18 +2378,18 @@ case 170:
                     var3 = var3.current;
                     var2 = var5 === var3;
 case 5:
-                    if(!var2) { _fun0034_ip = 158; continue _fun0034 }
+                    if(!var2) { _fun0034_ip = 159; continue _fun0034 }
 case 186:
                     var3 = 0;
                     var2 = var5 > var3;
-case 158:
+case 159:
                     if(!var2) { _fun0034_ip = 85; continue _fun0034 }
 case 7:
                     var3 = _closure2_slot9;
                     var2 = var5 < var3;
 case 85:
                     if(!var2) { _fun0034_ip = 38; continue _fun0034 }
-case 160:
+case 161:
                     var3 = _closure2_slot2;
                     var2 = var5 < var3;
 case 38:
@@ -2404,7 +2404,7 @@ case 188:
                     var2 = var4 > var3;
 case 187:
                     if(!var2) { _fun0034_ip = 53; continue _fun0034 }
-case 156:
+case 189:
                     var3 = _closure2_slot7;
                     var2 = var3.current;
                     var2 = var2 + 1;

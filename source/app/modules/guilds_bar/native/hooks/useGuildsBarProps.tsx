@@ -781,15 +781,15 @@ case 63:
                     var6 = copyDataProperties(var9, var8);
                     var7 = 'visible';
                     var6 = 'orientation';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var6 = _closure2_slot19;
                     var7 = var6.insetStart;
                     var6 = 'paddingStart';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var5 = _closure2_slot19;
                     var6 = var5.insetEnd;
                     var5 = 'paddingEnd';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
 case 60:
                     var2 = undefined;
@@ -978,7 +978,7 @@ case 84:
                     var14 = var1;
                     var3 = copyDataProperties(var14, var13);
                     var3 = 'sections';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function sectionSize(arg1) {
                         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -1023,7 +1023,7 @@ case 88:
                         }
                     };
                     var3 = 'sectionSize';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function itemSize(arg1, arg2) {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -1190,7 +1190,7 @@ case 92:
                         }
                     };
                     var3 = 'itemSize';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function footerSize() {
                         var1 = _closure3_slot0;
                         var2 = _closure2_slot1;
@@ -1201,7 +1201,7 @@ case 92:
                         return var1;
                     };
                     var3 = 'footerSize';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function renderSection(arg1) {
                         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -1273,7 +1273,7 @@ case 121:
                         }
                     };
                     var3 = 'renderSection';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function renderItem(arg1, arg2) {
                         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -1520,7 +1520,7 @@ case 146:
                         }
                     };
                     var3 = 'renderItem';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function renderFooter() {
                         var3 = _closure3_slot0;
                         var2 = function renderFooterJSX(arg1) {
@@ -1594,7 +1594,7 @@ case 157:
                         return var1;
                     };
                     var3 = 'renderFooter';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function getRecyclerKey(arg1, arg2, arg3) {
                         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
@@ -1676,7 +1676,7 @@ case 44:
                         }
                     };
                     var3 = 'getRecyclerKey';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function renderAccessory(arg1) {
                         var4 = _closure1_slot20;
                         var2 = _closure1_slot1;
@@ -1692,7 +1692,7 @@ case 44:
                         return var1;
                     };
                     var3 = 'renderAccessory';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var4 = function getAnchorIdFromIndex(arg1, arg2) {
                         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
@@ -1930,7 +1930,7 @@ case 196:
                         }
                     };
                     var3 = 'getAnchorIdFromIndex';
-                    var1[var3] = var4;
+                    var1[2] = var4;
                     var3 = function getAnchorIndexFromId(arg1) {
                         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
@@ -2316,7 +2316,7 @@ case 231:
                         }
                     };
                     var2 = 'getAnchorIndexFromId';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };

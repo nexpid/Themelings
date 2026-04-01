@@ -64,7 +64,7 @@ case 0:
             var10 = copyDataProperties(var16, var15);
             var11 = 'sm';
             var10 = 'size';
-            var5[var10] = var11;
+            var5[9] = var11;
             var10 = var9 != var7;
             var9 = 'secondary-overlay';
             if(!var10) { _fun0001_ip = 2; continue _fun0001 }
@@ -72,9 +72,9 @@ case 3:
             var9 = var7;
 case 2:
             var7 = 'variant';
-            var5[var7] = var9;
+            var5[6] = var9;
             var7 = 'maxFontSizeMultiplier';
-            var5[var7] = var8;
+            var5[6] = var8;
             var5 = var4.bind(var3)(var6, var5);
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);

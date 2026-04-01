@@ -202,7 +202,7 @@ case 15:
             var8 = copyDataProperties(var12, var11);
             var9 = _closure1_slot5;
             var8 = 'renderComponent';
-            var1[var8] = var9;
+            var1[7] = var9;
             var1 = var3.bind(var4)(var2, var1, var5);
             return var1;
 case 13:
@@ -270,7 +270,7 @@ case 2:
             var7 = copyDataProperties(var12, var11);
             var7 = _closure1_slot4;
             var6 = 'renderComponents';
-            var1[var6] = var7;
+            var1[5] = var7;
             var1 = var3.bind(var4)(var2, var1, var5);
             return var1;
         }

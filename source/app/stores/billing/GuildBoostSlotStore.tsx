@@ -50,7 +50,7 @@ case 4:
         var6 = var2;
         var3 = copyDataProperties(var6, var5);
         var3 = var4.id;
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot8 = var2;
         var1 = undefined;
         return var1;

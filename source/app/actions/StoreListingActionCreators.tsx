@@ -174,7 +174,7 @@ case 8:
                 var2 = copyDataProperties(var5, var4);
                 var3 = true;
                 var2 = 'published';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var5 = var6.bind(var7)(var5);

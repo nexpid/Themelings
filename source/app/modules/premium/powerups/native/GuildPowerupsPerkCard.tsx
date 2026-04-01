@@ -239,7 +239,7 @@ case 7:
             var25 = var16;
             var16 = copyDataProperties(var26, var25);
             var16 = 'status';
-            var13[var16] = var17;
+            var13[15] = var17;
             var13 = var15.bind(var4)(var14, var13);
             var12[1] = var13;
             var6['children'] = var12;

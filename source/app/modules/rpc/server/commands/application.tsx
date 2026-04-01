@@ -184,7 +184,7 @@ case 8:
         }
     };
     var7['handler'] = var11;
-    var2[var10] = var7;
+    var2[9] = var7;
     var7 = var4.GET_APPLICATION_TICKET;
     var4 = {};
     var4['scope'] = var9;
@@ -254,7 +254,7 @@ case 10:
         }
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -864,7 +864,7 @@ case 0:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var12] = var3;
+                    var1[11] = var3;
                     var3 = _closure1_slot12;
                     var12 = var3.SENT;
                     var3 = {};
@@ -891,7 +891,7 @@ case 0:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var12] = var3;
+                    var1[11] = var3;
                     var3 = _closure1_slot12;
                     var12 = var3.ERROR;
                     var3 = {};
@@ -921,7 +921,7 @@ case 0:
                         return var1;
                     };
                     var3['render'] = var13;
-                    var1[var12] = var3;
+                    var1[11] = var3;
                     var2 = _closure1_slot12;
                     var3 = var2.TEEN_SCAN;
                     var2 = {};
@@ -946,7 +946,7 @@ case 0:
                         return var1;
                     };
                     var2['render'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var1 = undefined;

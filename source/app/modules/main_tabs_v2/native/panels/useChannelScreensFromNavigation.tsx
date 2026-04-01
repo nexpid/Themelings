@@ -282,7 +282,7 @@ case 49:
                 var2 = var2.length;
                 var3 = var3 + var2;
                 var2 = 'index';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var15 = var4.bind(var5)(var2);
@@ -453,7 +453,7 @@ case 62:
                         var2 = _closure1_slot10;
                         var4 = var2.FALLBACK_RENDERED;
                         var2 = 'type';
-                        var3[var2] = var4;
+                        var3[1] = var4;
                         var2 = new Array(1);
                         var2[0] = var3;
                         var1 = var2;

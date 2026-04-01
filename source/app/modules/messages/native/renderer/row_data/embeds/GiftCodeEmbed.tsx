@@ -382,16 +382,16 @@ case 42:
                     var5 = var2.redeemed;
 case 41:
                     if(var5) { _fun0004_ip = 43; continue _fun0004 }
-case 18:
+case 44:
                     var5 = var2.isClaimed;
 case 43:
                     var12 = !var5;
                     var5 = var12;
-                    if(!var5) { _fun0004_ip = 44; continue _fun0004 }
+                    if(!var5) { _fun0004_ip = 16; continue _fun0004 }
 case 45:
                     var7 = var2.expiresAt;
                     var5 = var6 != var7;
-case 44:
+case 16:
                     var8 = undefined;
                     var17 = undefined;
                     if(!var5) { _fun0004_ip = 46; continue _fun0004 }
@@ -874,7 +874,7 @@ case 113:
                     var18 = var10.bind(var20)();
 case 110:
                     var10 = 'headerText';
-                    var1[var10] = var18;
+                    var1[9] = var18;
                     var10 = _closure2_slot0;
                     var18 = var10.type;
                     var10 = _closure1_slot9;
@@ -912,38 +912,38 @@ case 117:
                     var18 = var10;
 case 116:
                     var10 = 'titleText';
-                    var1[var10] = var18;
+                    var1[9] = var18;
                     var10 = 'subtitle';
-                    var1[var10] = var17;
+                    var1[9] = var17;
                     var10 = 'bodyText';
-                    var1[var10] = var16;
+                    var1[9] = var16;
                     var16 = _closure2_slot2;
                     var10 = 'headerColor';
-                    var1[var10] = var16;
+                    var1[9] = var16;
                     var16 = _closure2_slot3;
                     var10 = 'titleColor';
-                    var1[var10] = var16;
+                    var1[9] = var16;
                     var16 = _closure2_slot4;
                     var10 = 'subtitleColor';
-                    var1[var10] = var16;
+                    var1[9] = var16;
                     var16 = _closure2_slot5;
                     var10 = 'bodyTextColor';
-                    var1[var10] = var16;
+                    var1[9] = var16;
                     var10 = 'acceptLabelBackgroundColor';
-                    var1[var10] = var15;
+                    var1[9] = var15;
                     var10 = 'acceptLabelColor';
-                    var1[var10] = var14;
+                    var1[9] = var14;
                     var10 = 'acceptLabelText';
-                    var1[var10] = var13;
+                    var1[9] = var13;
                     var10 = 'acceptLabelBorderColor';
-                    var1[var10] = var8;
+                    var1[9] = var8;
                     var10 = 'canBeAccepted';
-                    var1[var10] = var12;
+                    var1[9] = var12;
                     var12 = true;
                     var10 = 'embedCanBeTapped';
-                    var1[var10] = var12;
+                    var1[9] = var12;
                     var10 = 'giftCode';
-                    var1[var10] = var11;
+                    var1[9] = var11;
                     var11 = var6 != var9;
                     var10 = undefined;
                     if(!var11) { _fun0004_ip = 119; continue _fun0004 }
@@ -951,7 +951,7 @@ case 120:
                     var10 = var9;
 case 119:
                     var9 = 'thumbnailUrl';
-                    var1[var9] = var10;
+                    var1[8] = var10;
                     var7 = _closure2_slot0;
                     var10 = var7.type;
                     var7 = _closure1_slot9;
@@ -966,7 +966,7 @@ case 123:
                     var7 = var5;
 case 121:
                     var5 = 'splashUrl';
-                    var1[var5] = var7;
+                    var1[4] = var7;
                     var7 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var5 = 35;
@@ -977,7 +977,7 @@ case 121:
                     var10 = var11.bind(var12)(var10);
                     var11 = !var10;
                     var10 = 'splashHasRadialGradient';
-                    var1[var10] = var11;
+                    var1[9] = var11;
                     var5 = var9[var5];
                     var7 = var7.bind(var8)(var5);
                     var5 = var7.isPremiumSku;
@@ -989,7 +989,7 @@ case 125:
                     var5 = 0.8;
 case 124:
                     var2 = 'splashOpacity';
-                    var1[var2] = var5;
+                    var1[1] = var5;
                     return var1;
 case 37:
                     var1 = {};

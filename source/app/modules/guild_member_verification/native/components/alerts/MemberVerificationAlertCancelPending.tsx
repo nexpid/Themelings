@@ -107,7 +107,7 @@ case 2:
             var5 = var5.KYiN1Q;
             var7 = var7.bind(var8)(var5);
             var5 = 'header';
-            var1[var5] = var7;
+            var1[4] = var7;
             if(!(var16 == var6)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var9 = _closure1_slot0;
@@ -123,7 +123,7 @@ case 5:
             var6 = var7.bind(var8)(var5);
 case 4:
             var5 = 'subtitle';
-            var1[var5] = var6;
+            var1[4] = var6;
             var7 = _closure1_slot6;
             var6 = _closure1_slot5;
             var5 = {};
@@ -181,7 +181,7 @@ case 6:
             var5['children'] = var8;
             var6 = var7.bind(var3)(var6, var5);
             var5 = 'buttons';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         }

@@ -405,10 +405,10 @@ case 51:
                             var12 = var3;
                             var2 = copyDataProperties(var12, var11);
                             var2 = 'headers';
-                            var7[var2] = var3;
+                            var7[1] = var3;
                             var3 = arg2;
                             var2 = 'interceptResponse';
-                            var7[var2] = var3;
+                            var7[1] = var3;
                             var2 = true;
                             _closure3_slot0 = var2;
                             var6 = _closure1_slot15;

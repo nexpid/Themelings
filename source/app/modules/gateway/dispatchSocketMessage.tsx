@@ -224,9 +224,9 @@ case 41:
                 var5 = var6 !== var3;
 case 40:
                 var3 = 'isCountDown';
-                var4[var3] = var5;
+                var4[2] = var5;
                 var3 = 'timestamps';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 37:
                 return var1;
@@ -866,14 +866,14 @@ case 104:
             var8 = copyDataProperties(var11, var10);
             var9 = var7.recipients;
             var8 = 'recipients';
-            var3[var8] = var9;
+            var3[7] = var9;
             var9 = var2.bitrate;
             if(!(var6 == var9)) { _fun0013_ip = 105; continue _fun0013 }
 case 106:
             var9 = var7.bitrate;
 case 105:
             var8 = 'bitrate';
-            var3[var8] = var9;
+            var3[7] = var9;
             var5 = var4.bind(var7)(var3);
 case 103:
             var4 = var1.channels;
@@ -4124,7 +4124,7 @@ case 33:
             var2 = '';
             var3['name'] = var2;
             var2 = 'emoji';
-            var1[var2] = var3;
+            var1[1] = var3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot3;
             var2 = 28;
@@ -4134,7 +4134,7 @@ case 33:
             var2 = var2.ReactionTypes;
             var3 = var2.VOTE;
             var2 = 'reactionType';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         };
         var1 = var4.bind(var5)(var1);

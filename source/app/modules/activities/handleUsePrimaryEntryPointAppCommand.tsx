@@ -70,7 +70,7 @@ case 11: // try_end0
                         var2 = copyDataProperties(var5, var4);
                         var2 = _closure4_slot1;
                         var1 = 'targetApplication';
-                        var3[var1] = var2;
+                        var3[0] = var2;
                         var2 = function handleUsePrimaryEntryPointAppCommandInternal() {
                             var1 = undefined;
                             var4 = _closure1_slot8;

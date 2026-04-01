@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 1;
     var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.View;
+    var4 = var4.ScrollView;
     var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];

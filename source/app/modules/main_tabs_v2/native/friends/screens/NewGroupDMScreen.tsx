@@ -932,10 +932,10 @@ case 69:
                             var6 = copyDataProperties(var11, var10);
                             var8 = _closure3_slot0;
                             var7 = 'title';
-                            var1[var7] = var8;
+                            var1[6] = var8;
                             var7 = _closure3_slot1;
                             var6 = 'subtitle';
-                            var1[var6] = var7;
+                            var1[5] = var7;
                             var6 = _closure2_slot13;
                             var7 = 'mobile-text-heading-primary';
                             if(!var6) { _fun0009_ip = 90; continue _fun0009 }
@@ -943,7 +943,7 @@ case 77:
                             var7 = 'text-feedback-critical';
 case 90:
                             var6 = 'color';
-                            var1[var6] = var7;
+                            var1[5] = var7;
                             var1 = var4.bind(var5)(var3, var1);
                             return var1;
 case 89:
@@ -1024,7 +1024,7 @@ case 64:
                             var7 = copyDataProperties(var16, var15);
                             var9 = _closure2_slot13;
                             var7 = 'disabled';
-                            var1[var7] = var9;
+                            var1[6] = var9;
                             var1 = var4.bind(var5)(var1);
                             _fun0010_ip = 98; continue _fun0010;
 case 93:
@@ -1101,7 +1101,7 @@ case 103:
                             var7 = var6;
 case 99:
                             var6 = 'disabled';
-                            var3[var6] = var7;
+                            var3[5] = var7;
                             var1 = var4.bind(var5)(var3);
 case 98:
                             _fun0010_ip = 105; continue _fun0010;

@@ -69,7 +69,7 @@ case 4: // try_start_0
                     var14 = copyDataProperties(var21, var20);
                     var17 = false;
                     var14 = 'animated';
-                    var10[var14] = var17;
+                    var10[13] = var17;
                     var14 = 128;
                     var12 = var12.bind(var15)(var10, var14);
                     var16 = var12;

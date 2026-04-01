@@ -173,7 +173,7 @@ case 8:
             var9 = _closure1_slot4;
             var11 = var9.hairlineWidth;
             var9 = 'borderTopWidth';
-            var2[var9] = var11;
+            var2[8] = var11;
             var11 = _closure1_slot1;
             var9 = _closure1_slot2;
             var12 = 5;
@@ -182,7 +182,7 @@ case 8:
             var9 = var9.colors;
             var11 = var9.BORDER_SUBTLE;
             var9 = 'borderTopColor';
-            var2[var9] = var11;
+            var2[8] = var11;
             var11 = undefined;
             if(!var8) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
@@ -194,7 +194,7 @@ case 11:
             var11 = var9.BORDER_SUBTLE;
 case 10:
             var9 = 'borderRightColor';
-            var2[var9] = var11;
+            var2[8] = var11;
             var11 = undefined;
             if(!var8) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
@@ -202,7 +202,7 @@ case 13:
             var11 = var9.hairlineWidth;
 case 12:
             var9 = 'borderRightWidth';
-            var2[var9] = var11;
+            var2[8] = var11;
             var11 = undefined;
             if(!var8) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
@@ -214,7 +214,7 @@ case 15:
             var11 = var9.BORDER_SUBTLE;
 case 14:
             var9 = 'borderLeftColor';
-            var2[var9] = var11;
+            var2[8] = var11;
             var9 = undefined;
             if(!var8) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
@@ -222,7 +222,7 @@ case 17:
             var9 = var8.hairlineWidth;
 case 16:
             var8 = 'borderLeftWidth';
-            var2[var8] = var9;
+            var2[7] = var9;
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var8 = 6;
@@ -236,7 +236,7 @@ case 16:
             var12 = var12.colors;
             var13 = var12.BACKGROUND_BASE_LOW;
             var12 = 'backgroundColor';
-            var2[var12] = var13;
+            var2[11] = var13;
             var9 = var9[var10];
             var11 = var11.bind(var4)(var9);
             var9 = var11.isIOS;
@@ -255,7 +255,7 @@ case 18:
             var9 = var7;
 case 20:
             var7 = 'width';
-            var2[var7] = var9;
+            var2[6] = var9;
             var9 = _closure1_slot0;
             var7 = _closure1_slot2;
             var7 = var7[var10];
@@ -276,7 +276,7 @@ case 21:
             var4 = var3;
 case 23:
             var3 = 'height';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1['container'] = var2;
             return var1;
         }

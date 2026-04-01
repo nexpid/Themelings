@@ -88,16 +88,16 @@ case 11:
             var6 = var4;
 case 10:
             var4 = 'title';
-            var3[var4] = var6;
+            var3[3] = var6;
             var6 = var5.title;
             var4 = 'header';
-            var3[var4] = var6;
+            var3[3] = var6;
             var6 = var5.description;
             var4 = 'info';
-            var3[var4] = var6;
+            var3[3] = var6;
             var6 = 'bot';
             var4 = 'bannerRatio';
-            var3[var4] = var6;
+            var3[3] = var6;
             var4 = var5.getAssetURL;
             var4 = var4.bind(var5)();
             var6 = var1 != var4;
@@ -107,9 +107,9 @@ case 13:
             var5 = var4;
 case 12:
             var4 = 'staticBannerSrc';
-            var3[var4] = var5;
+            var3[3] = var5;
             var4 = 'tagline';
-            var3[var4] = var1;
+            var3[3] = var1;
             return var3;
 case 6:
             return var1;

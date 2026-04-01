@@ -1,4 +1,4 @@
-// app/modules/content_inventory/memberlist/web/ActiveTimestampStylingExperiment.tsx
+// app/modules/content_inventory/memberlist/ActiveTimestampStylingExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/content_inventory/memberlist/web/ActiveTimestampStylingExperiment.tsx';
+    var4 = 'modules/content_inventory/memberlist/ActiveTimestampStylingExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var3['ActiveTimestampStylingExperiment'] = var2;
     return var1;

@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = copyDataProperties(var14, var13);
     var11 = 'hidden';
     var10 = 'overflow';
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['visualEffectView'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;

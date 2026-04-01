@@ -251,7 +251,7 @@ case 9:
         var4 = copyDataProperties(var8, var7);
         var4 = _closure1_slot5;
         var4 = var4.FETCHING;
-        var2[var5] = var4;
+        var2[4] = var4;
         _closure1_slot7 = var2;
         return var1;
     };
@@ -290,7 +290,7 @@ case 9:
         var4 = copyDataProperties(var14, var13);
         var4 = _closure1_slot5;
         var4 = var4.FETCHED;
-        var2[var5] = var4;
+        var2[4] = var4;
         _closure1_slot7 = var2;
         return var1;
     };
@@ -313,7 +313,7 @@ case 9:
         var4 = copyDataProperties(var8, var7);
         var4 = _closure1_slot5;
         var4 = var4.ERROR;
-        var2[var5] = var4;
+        var2[4] = var4;
         _closure1_slot7 = var2;
         return var1;
     };

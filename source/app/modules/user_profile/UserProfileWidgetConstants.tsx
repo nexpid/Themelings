@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var4;
+    var5[9] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var4;
+    var5[9] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var4;
+    var5[9] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var4;
+    var5[9] = var4;
     var4 = var9[var7];
     var4 = var8.bind(var1)(var4);
     var4 = var4.WidgetType;
@@ -159,7 +159,7 @@ case 4:
             return var1;
         }
     };
-    var5[var4] = var2;
+    var5[3] = var2;
     var2 = var9[var7];
     var2 = var8.bind(var1)(var2);
     var2 = var2.WidgetType;

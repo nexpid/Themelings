@@ -658,7 +658,7 @@ case 103:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.REACT_SOFT_EXCEPTION;
     var8 = function(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
@@ -700,7 +700,7 @@ case 7:
             return var1;
         }
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.NETWORK_CAPABILITIES_CHANGED;
     var8 = function(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
@@ -742,7 +742,7 @@ case 111:
             return var1;
         }
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.FOREGROUND_SERVICE;
     var8 = function(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
@@ -797,7 +797,7 @@ case 112:
             return var1;
         }
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.APP_LIFECYCLE;
     var8 = function(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
@@ -833,7 +833,7 @@ case 8:
             return var1;
         }
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.UI_LIFECYCLE;
     var8 = function(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
@@ -888,7 +888,7 @@ case 118:
             return var1;
         }
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var _closure1_slot4 = var4;
     var4 = {};
     var9 = var7.TOUCH_EVENT;
@@ -974,7 +974,7 @@ case 124:
             return var1;
         }
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.HTTP_REQUEST;
     var8 = function(arg1) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
@@ -1025,7 +1025,7 @@ case 125:
             return var1;
         }
     };
-    var4[var9] = var8;
+    var4[8] = var8;
     var8 = var7.WEBSOCKET_MESSAGE_RECEIVED;
     var7 = function(arg1) {
         var3 = _closure1_slot9;
@@ -1034,7 +1034,7 @@ case 125:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var4[var8] = var7;
+    var4[7] = var7;
     var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];

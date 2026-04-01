@@ -120,7 +120,7 @@ case 5:
                     var11 = var10;
 case 15:
                     var10 = 'num_member_actions';
-                    var3[var10] = var11;
+                    var3[9] = var11;
                     var10 = global;
                     var12 = var10.Object;
                     var11 = var12.keys;
@@ -135,7 +135,7 @@ case 16:
                     var10 = var11.bind(var12)(var10);
                     var11 = var10.length;
                     var10 = 'num_member_actions_completed';
-                    var3[var10] = var11;
+                    var3[9] = var11;
                     var10 = _closure2_slot1;
                     var10 = var10.resourceChannels;
                     var11 = var9 == var10;
@@ -151,7 +151,7 @@ case 21:
                     var8 = var7;
 case 20:
                     var7 = 'num_resource_channels';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var3 = var5.bind(var6)(var4, var3);
                     _fun0002_ip = 11; continue _fun0002;
 case 9:

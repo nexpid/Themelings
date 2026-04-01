@@ -657,7 +657,7 @@ case 52:
                         var8 = var3;
                         var4 = copyDataProperties(var9, var8);
                         var4 = 'height';
-                        var1[var4] = var2;
+                        var1[3] = var2;
                         var4 = var3.type;
                         var3 = -1;
                         if(!(var5 !== var4)) { _fun0005_ip = 54; continue _fun0005 }
@@ -665,12 +665,12 @@ case 55:
                         var3 = var2;
 case 54:
                         var2 = 'width';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         var3 = 0;
                         var2 = 'x';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         var2 = 'y';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     }
                 };

@@ -73,7 +73,7 @@ case 3:
             var12 = var9;
             var9 = copyDataProperties(var13, var12);
             var9 = 'enterExitAnimatedStyles';
-            var6[var9] = var10;
+            var6[8] = var10;
             var5 = var8.bind(var3)(var7, var6);
 case 2:
             var1['children'] = var5;

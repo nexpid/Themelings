@@ -257,7 +257,7 @@ case 14:
     var9 = var10.getHeaderCloseButton;
     var9 = var9.bind(var10)(var11);
     var7['headerLeft'] = var9;
-    var4[var8] = var7;
+    var4[7] = var7;
     var _closure1_slot12 = var4;
     var4 = 18;
     var4 = var6[var4];

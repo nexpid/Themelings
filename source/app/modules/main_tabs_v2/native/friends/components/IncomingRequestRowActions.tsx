@@ -692,7 +692,7 @@ case 31:
             var9['onPress'] = var11;
             var10 = var8.bind(var4)(var10, var9);
             var9 = 'children';
-            var6[var9] = var10;
+            var6[8] = var10;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;

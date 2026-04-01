@@ -312,7 +312,7 @@ case 9:
         var3 = copyDataProperties(var6, var5);
         var3 = _closure1_slot6;
         var3 = var3.FETCHING;
-        var2[var4] = var3;
+        var2[3] = var3;
         _closure1_slot8 = var2;
         var1 = undefined;
         return var1;
@@ -328,7 +328,7 @@ case 0:
             var8 = var1;
             var4 = copyDataProperties(var8, var7);
             var4 = var3.id;
-            var1[var4] = var3;
+            var1[3] = var3;
             _closure1_slot7 = var1;
             var1 = {};
             var7 = _closure1_slot8;
@@ -337,7 +337,7 @@ case 0:
             var5 = var3.id;
             var4 = _closure1_slot6;
             var4 = var4.FETCHED;
-            var1[var5] = var4;
+            var1[4] = var4;
             _closure1_slot8 = var1;
             var1 = global;
             var5 = var1.Date;
@@ -348,7 +348,7 @@ case 0:
             var8 = var4;
             var5 = copyDataProperties(var8, var7);
             var5 = var3.id;
-            var4[var5] = var6;
+            var4[4] = var6;
             _closure1_slot10 = var4;
             var6 = _closure1_slot9;
             var5 = var6.has;
@@ -386,7 +386,7 @@ case 0:
             var5 = copyDataProperties(var7, var6);
             var5 = _closure1_slot6;
             var5 = var5.ERROR;
-            var3[var4] = var5;
+            var3[3] = var5;
             _closure1_slot8 = var3;
             if(!var1) { _fun0009_ip = 17; continue _fun0009 }
 case 18:

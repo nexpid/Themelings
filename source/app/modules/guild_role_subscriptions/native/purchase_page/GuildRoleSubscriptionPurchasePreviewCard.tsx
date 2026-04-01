@@ -135,7 +135,7 @@ case 3:
             var11 = 'andMore';
             var9 = var14.bind(var4)(var13, var12, var11);
 case 2:
-            var8[var10] = var9;
+            var8[9] = var9;
             var9 = 1;
             var9 = var10 + var9;
             var5['children'] = var8;

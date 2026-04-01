@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = copyDataProperties(var16, var15);
     var11 = 12;
     var13 = 'paddingHorizontal';
-    var10[var13] = var11;
+    var10[12] = var11;
     var4['fill'] = var10;
     var10 = {};
     var10['marginTop'] = var11;

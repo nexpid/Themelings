@@ -521,17 +521,17 @@ case 37:
             var11 = var1;
             var4 = copyDataProperties(var11, var10);
             var4 = 'messageId';
-            var1[var4] = var8;
+            var1[3] = var8;
             var4 = 'region';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = global;
             var6 = var4.Object;
             var4 = var6.keys;
             var6 = var4.bind(var6)(var7);
             var4 = 'ringing';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'regionUpdated';
-            var1[var4] = var5;
+            var1[3] = var5;
             var2[var3] = var1;
             var1 = undefined;
             return var1;
@@ -565,7 +565,7 @@ case 41:
             var8 = var6;
             var6 = copyDataProperties(var9, var8);
             var6 = 'unavailable';
-            var5[var6] = var7;
+            var5[5] = var7;
             var3 = var5;
 case 42:
             var4[var2] = var3;

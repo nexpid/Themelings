@@ -119,7 +119,7 @@ case 8:
             var11 = var6;
             var8 = copyDataProperties(var12, var11);
             var8 = 'invite';
-            var2[var8] = var7;
+            var2[7] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 6:
@@ -134,7 +134,7 @@ case 6:
             var11 = var6;
             var6 = copyDataProperties(var12, var11);
             var6 = 'invite';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 4:

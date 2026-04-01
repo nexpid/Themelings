@@ -219,14 +219,14 @@ case 30:
             var6['style'] = var9;
             var7 = var8.bind(var3)(var7, var6);
             var6 = 'icon';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = {};
             var4 = !var4;
             var6['expanded'] = var4;
             var4 = 'accessibilityState';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'isRefreshEnabled';
-            var1[var4] = var5;
+            var1[3] = var5;
             var1 = var2.bind(var3)(var1);
             return var1;
         }
@@ -387,7 +387,7 @@ case 40:
             var5 = -1;
 case 39:
             var4 = 'marginTop';
-            var2[var4] = var5;
+            var2[3] = var5;
             var1['categoryText'] = var2;
             var2 = {};
             var5 = 4;
@@ -425,7 +425,7 @@ case 43:
     var12 = new Array(1);
     var12[0] = var11;
     var11 = 'transform';
-    var7[var11] = var12;
+    var7[10] = var12;
     var _closure1_slot16 = var7;
     var7 = {};
     var15 = var7;

@@ -436,7 +436,7 @@ case 25:
                         var9 = var12[var9];
                         var9 = var11.bind(var1)(var9);
                         var9 = var9.MOBILE_APP_MANAGE_PREMIUM_SUBSCRIPTION_CTA;
-                        var8[var10] = var9;
+                        var8[9] = var9;
                         var9 = 1;
                         var9 = var10 + var9;
                         var3['location_stack'] = var8;

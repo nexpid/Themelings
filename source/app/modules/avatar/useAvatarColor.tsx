@@ -119,7 +119,7 @@ case 12:
                             var3 = copyDataProperties(var6, var5);
                             var4 = _closure4_slot0;
                             var3 = true;
-                            var2[var4] = var3;
+                            var2[3] = var3;
                             var1['fetching'] = var2;
                             return var1;
                         };
@@ -168,7 +168,7 @@ case 17:
                             var4 = copyDataProperties(var11, var10);
                             var4 = _closure4_slot0;
                             var6 = false;
-                            var2[var4] = var6;
+                            var2[3] = var6;
                             var1['fetching'] = var2;
                             var2 = {};
                             var10 = var3.palette;
@@ -186,7 +186,7 @@ case 17:
                             var10 = _closure4_slot2;
                             var11 = var3;
                             var5 = arraySpread(var11, var10, var9);
-                            var2[var4] = var3;
+                            var2[3] = var3;
                             var1['palette'] = var2;
                             return var1;
                         };
@@ -218,7 +218,7 @@ case 19: // catch_target0
                             var3 = copyDataProperties(var6, var5);
                             var4 = _closure4_slot0;
                             var3 = false;
-                            var2[var4] = var3;
+                            var2[3] = var3;
                             var1['fetching'] = var2;
                             return var1;
                         };

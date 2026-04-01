@@ -238,7 +238,7 @@ case 8:
                     var3['impressionName'] = var14;
                     var4 = _closure1_slot9;
                     var3['impressionProperties'] = var4;
-                    var1[var12] = var3;
+                    var1[11] = var3;
                     var12 = var2.COLLECT_SIGNAL;
                     var3 = {};
                     var14 = var8[var11];
@@ -274,7 +274,7 @@ case 8:
                     var14 = var14.APPEAL_INGESTION_COLLECT_SIGNAL;
                     var3['impressionName'] = var14;
                     var3['impressionProperties'] = var4;
-                    var1[var12] = var3;
+                    var1[11] = var3;
                     var12 = var2.CONFIRM_SUBMISSION;
                     var3 = {};
                     var14 = var8[var11];
@@ -310,7 +310,7 @@ case 8:
                     var14 = var14.APPEAL_INGESTION_CONFIRM_SUBMISSION;
                     var3['impressionName'] = var14;
                     var3['impressionProperties'] = var4;
-                    var1[var12] = var3;
+                    var1[11] = var3;
                     var12 = var2.REQUEST_SENT;
                     var3 = {};
                     var14 = var8[var11];
@@ -347,7 +347,7 @@ case 8:
                     var14 = var14.APPEAL_INGESTION_REQUEST_SENT;
                     var3['impressionName'] = var14;
                     var3['impressionProperties'] = var4;
-                    var1[var12] = var3;
+                    var1[11] = var3;
                     var12 = var2.THANKS;
                     var3 = {};
                     var14 = var8[var11];
@@ -384,7 +384,7 @@ case 8:
                     var14 = var14.APPEAL_INGESTION_THANKS;
                     var3['impressionName'] = var14;
                     var3['impressionProperties'] = var4;
-                    var1[var12] = var3;
+                    var1[11] = var3;
                     var3 = var2.SPAM;
                     var2 = {};
                     var11 = var8[var11];
@@ -421,7 +421,7 @@ case 8:
                     var5 = var5.APPEAL_INGESTION_SPAM;
                     var2['impressionName'] = var5;
                     var2['impressionProperties'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var1 = undefined;

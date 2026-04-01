@@ -314,7 +314,7 @@ case 32:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -636,7 +636,7 @@ case 39:
     var19 = copyDataProperties(var26, var25);
     var20 = 'capitalize';
     var19 = 'textTransform';
-    var10[var19] = var20;
+    var10[18] = var20;
     var4['headerRight'] = var10;
     var10 = {};
     var10['flex'] = var17;
@@ -907,7 +907,7 @@ case 56:
                 var5['children'] = var8;
                 var6 = var7.bind(var4)(var6, var5);
                 var5 = 'children';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             }
@@ -1597,7 +1597,7 @@ case 88:
                     var _closure4_slot4 = var5;
                     var2 = _closure4_slot2;
                     if(!(var13 == var2)) { _fun0013_ip = 99; continue _fun0013 }
-case 100:
+case 16:
                     var2 = var5.bind(var1)();
                     _fun0013_ip = 78; continue _fun0013;
 case 99:
@@ -1647,8 +1647,8 @@ case 99:
                     var8['channelName'] = var14;
                     var14 = var13 != var18;
                     var13 = '';
-                    if(!var14) { _fun0013_ip = 101; continue _fun0013 }
-case 56:
+                    if(!var14) { _fun0013_ip = 100; continue _fun0013 }
+case 101:
                     var15 = _closure1_slot0;
                     var14 = _closure1_slot3;
                     var14 = var14[var16];
@@ -1657,7 +1657,7 @@ case 56:
                     var15 = _closure1_slot16;
                     var14 = _closure1_slot15;
                     var13 = var16.bind(var17)(var18, var15, var14);
-case 101:
+case 100:
                     var8['categoryName'] = var13;
                     var8 = var10.bind(var12)(var9, var8);
                     var2['body'] = var8;

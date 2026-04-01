@@ -302,16 +302,16 @@ case 2:
             var18 = var8;
             var8 = copyDataProperties(var19, var18);
             var8 = 'cover';
-            var5[var8] = var12;
+            var5[7] = var12;
             var8 = 'setCover';
-            var5[var8] = var11;
+            var5[7] = var11;
             var8 = 'description';
-            var5[var8] = var10;
+            var5[7] = var10;
             var8 = 'setDescription';
-            var5[var8] = var9;
+            var5[7] = var9;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -34,12 +34,12 @@ case 2:
             var10 = var4;
             var6 = copyDataProperties(var10, var9);
             var6 = 'insecure';
-            var4[var6] = var8;
+            var4[5] = var8;
             var6 = _closure1_slot7;
             var5 = var6.has;
             var6 = var5.bind(var6)(var7);
             var5 = 'friend_sync';
-            var4[var5] = var6;
+            var4[4] = var6;
             var1['body'] = var4;
             var4 = true;
             var1['oldFormErrors'] = var4;

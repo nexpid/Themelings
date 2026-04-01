@@ -366,7 +366,7 @@ case 4:
         var27 = var10;
         var11 = copyDataProperties(var27, var26);
         var11 = 'paddingBottom';
-        var10[var11] = var12;
+        var10[10] = var12;
         var7['style'] = var10;
         var10 = {};
         var11 = var17.header;

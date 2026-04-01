@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var10.OAuth2Scopes;
         var10 = var10.RPC_VOICE_READ;
         var8[1] = var10;
-        var7[var9] = var8;
+        var7[8] = var8;
         var3['scope'] = var7;
         var7 = function handler() {
             var1 = function(arg1) {
@@ -90,7 +90,7 @@ case 2:
             return var1;
         };
         var3['handler'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var3 = var2.VOICE_SETTINGS_UPDATE_2;
         var2 = {};
         var5 = _closure1_slot4;
@@ -136,7 +136,7 @@ case 4:
             return var1;
         };
         var2['handler'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var3['default'] = var2;

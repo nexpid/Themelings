@@ -595,13 +595,13 @@ case 28:
                 var14[0] = var15;
                 var14[1] = var12;
                 var12 = 'style';
-                var2[var12] = var14;
+                var2[11] = var14;
                 var14 = ['('];
                 var14[1] = var16;
                 var12 = ')';
                 var14[2] = var12;
                 var12 = 'children';
-                var2[var12] = var14;
+                var2[11] = var14;
                 var6 = var5.bind(var4)(var3, var2);
 case 27:
                 var2 = var7 != var10;

@@ -1372,7 +1372,7 @@ case 98:
             var8 = var7.id;
             var7 = var5.relationship;
             var7 = var7.nickname;
-            var3[var8] = var7;
+            var3[7] = var7;
             _closure1_slot12 = var3;
 case 97:
             var3 = var5.relationship;
@@ -1387,7 +1387,7 @@ case 100:
             var8 = var7.id;
             var7 = var5.relationship;
             var7 = var7.since;
-            var3[var8] = var7;
+            var3[7] = var7;
             _closure1_slot13 = var3;
 case 99:
             var3 = var5.relationship;
@@ -1402,7 +1402,7 @@ case 26:
             var7 = var4.id;
             var4 = var5.relationship;
             var4 = var4.originApplicationId;
-            var3[var7] = var4;
+            var3[6] = var4;
             _closure1_slot17 = var3;
 case 101:
             var3 = var5.relationship;

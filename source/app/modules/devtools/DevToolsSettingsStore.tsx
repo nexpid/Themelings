@@ -153,7 +153,7 @@ case 11:
                 var6 = var1;
                 var3 = copyDataProperties(var6, var5);
                 var3 = 'sortedScreenKeys';
-                var1[var3] = var4;
+                var1[2] = var4;
                 _closure1_slot8 = var1;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;

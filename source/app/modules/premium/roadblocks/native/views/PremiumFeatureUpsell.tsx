@@ -526,10 +526,10 @@ case 35:
             var5 = var4.PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2;
 case 37:
             var4 = 'shadowColor';
-            var2[var4] = var5;
+            var2[3] = var5;
             var9 = 0.6;
             var4 = 'shadowOpacity';
-            var2[var4] = var9;
+            var2[3] = var9;
             var1['containerShadow'] = var2;
             var2 = {'width': 20, 'height': 20};
             var5 = _closure1_slot1;

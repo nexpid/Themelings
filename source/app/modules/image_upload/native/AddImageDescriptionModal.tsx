@@ -196,7 +196,7 @@ case 9:
                         var10 = _closure2_slot4;
                         var11 = var10.current;
                         var10 = 'description';
-                        var2[var10] = var11;
+                        var2[9] = var11;
                         var16 = var9;
                         var15 = var7;
                         var14 = var6;

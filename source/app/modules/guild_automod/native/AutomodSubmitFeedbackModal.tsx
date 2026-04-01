@@ -501,7 +501,7 @@ case 2:
                 };
                 var3['render'] = var2;
                 var2 = 'SUBMIT_FEEDBACK';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var1 = undefined;

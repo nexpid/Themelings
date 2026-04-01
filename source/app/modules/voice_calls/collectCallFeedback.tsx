@@ -128,7 +128,7 @@ case 12:
             var8 = var6;
 case 11:
             var6 = 'duration_speaking_voice_filter_ids';
-            var2[var6] = var8;
+            var2[5] = var8;
             var8 = var5 == var7;
             var6 = undefined;
             if(var8) { _fun0001_ip = 13; continue _fun0001 }
@@ -142,7 +142,7 @@ case 16:
             var8 = var6;
 case 15:
             var6 = 'duration_speaking_voice_filter_ms';
-            var2[var6] = var8;
+            var2[5] = var8;
             var8 = var5 == var7;
             var6 = undefined;
             if(var8) { _fun0001_ip = 17; continue _fun0001 }
@@ -156,12 +156,12 @@ case 20:
             var7 = var6;
 case 19:
             var6 = 'duration_muted_ms';
-            var2[var6] = var7;
+            var2[5] = var7;
             var7 = _closure1_slot9;
             var6 = var7.getCurrentRouteType;
             var7 = var6.bind(var7)();
             var6 = 'output_audio_route_type';
-            var2[var6] = var7;
+            var2[5] = var7;
             var4 = var4.bind(var3)();
             var4 = _closure1_slot3;
             var4 = var4.hasUsedBackgroundInCall;

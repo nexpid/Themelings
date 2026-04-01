@@ -1164,11 +1164,11 @@ case 0:
                     var1 = null;
                     var5 = var1 == var5;
                     var1 = undefined;
-                    if(var5) { _fun0014_ip = 45; continue _fun0014 }
-case 44:
+                    if(var5) { _fun0014_ip = 43; continue _fun0014 }
+case 45:
                     var4 = _closure2_slot2;
                     var1 = var4.guild_id;
-case 45:
+case 43:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -1292,7 +1292,7 @@ case 0:
                         var6 = copyDataProperties(var12, var11);
                         var8 = _closure2_slot8;
                         var7 = 'onPress';
-                        var1[var7] = var8;
+                        var1[6] = var8;
                         var6 = _closure2_slot6;
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot3;
@@ -1314,7 +1314,7 @@ case 50:
                         var6 = var7.bind(var8)(var5);
 case 52:
                         var5 = 'label';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     }

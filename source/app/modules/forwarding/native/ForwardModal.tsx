@@ -693,7 +693,7 @@ case 41:
                             var21 = var5;
                             var18 = copyDataProperties(var21, var20);
                             var18 = 'withMessage';
-                            var5[var18] = var15;
+                            var5[17] = var15;
                             var5 = var8.bind(var14)(var7, var11, var5);
                             SaveGenerator(address=617);
 case 47:
@@ -1089,7 +1089,7 @@ case 5:
                     var9 = copyDataProperties(var12, var11);
                     var9 = _closure2_slot22;
                     var6 = 'onPress';
-                    var2[var6] = var9;
+                    var2[5] = var9;
                     var6 = 21;
                     var9 = var8[var6];
                     var9 = var7.bind(var4)(var9);
@@ -1101,13 +1101,13 @@ case 5:
                     var6 = var6.Xrt5Po;
                     var9 = var9.bind(var10)(var6);
                     var6 = 'accessibilityLabel';
-                    var2[var6] = var9;
+                    var2[5] = var9;
                     var6 = 40;
                     var6 = var8[var6];
                     var6 = var7.bind(var4)(var6);
                     var7 = var6.LinkIcon;
                     var6 = 'IconComponent';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var1 = var5.bind(var4)(var3, var2);
 case 66:
                     return var1;

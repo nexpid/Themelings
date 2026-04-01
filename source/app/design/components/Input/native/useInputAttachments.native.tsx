@@ -140,7 +140,7 @@ case 14:
                 }
             };
             var8 = 'style';
-            var4[var8] = var9;
+            var4[7] = var9;
             var8 = function onLayout(arg1) {
                 var3 = _closure2_slot1;
                 var1 = arg1;
@@ -152,9 +152,9 @@ case 14:
                 return var1;
             };
             var3 = 'onLayout';
-            var4[var3] = var8;
+            var4[2] = var8;
             var3 = 'children';
-            var4[var3] = var7;
+            var4[2] = var7;
             var3 = undefined;
             var2 = var6.bind(var3)(var5, var4);
 case 13:

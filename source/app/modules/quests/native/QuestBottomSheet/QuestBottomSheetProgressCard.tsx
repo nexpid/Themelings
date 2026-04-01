@@ -98,10 +98,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.radii;
     var14 = var13.lg;
     var13 = 'borderRadius';
-    var9[var13] = var14;
+    var9[12] = var14;
     var14 = 'hidden';
     var13 = 'overflow';
-    var9[var13] = var14;
+    var9[12] = var14;
     var4['videoPreviewWrapper'] = var9;
     var9 = {};
     var17 = var12.absoluteFillObject;

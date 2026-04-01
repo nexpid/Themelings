@@ -165,7 +165,7 @@ case 13:
             var9 = var13.toLocaleUpperCase;
             var13 = var9.bind(var13)();
             var9 = 'headerText';
-            var1[var9] = var13;
+            var1[8] = var13;
             var9 = 8;
             var9 = var16[var9];
             var13 = var10.bind(var11)(var9);
@@ -178,7 +178,7 @@ case 13:
             var9 = var9.RED_400;
             var10 = var10.bind(var13)(var9);
             var9 = 'titleColor';
-            var1[var9] = var10;
+            var1[8] = var10;
             var9 = var6.valid;
             if(var9) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
@@ -198,9 +198,9 @@ case 19:
             var9 = var10.bind(var13)(var6);
 case 21:
             var6 = 'titleText';
-            var1[var6] = var9;
+            var1[5] = var9;
             var6 = 'subtitle';
-            var1[var6] = var8;
+            var1[5] = var8;
             var5 = var5 != var8;
             var6 = undefined;
             if(!var5) { _fun0001_ip = 22; continue _fun0001 }
@@ -208,7 +208,7 @@ case 23:
             var6 = var4.subtitleColor;
 case 22:
             var5 = 'subtitleColor';
-            var1[var5] = var6;
+            var1[4] = var6;
             var9 = _closure1_slot4;
             var6 = var9.resolveAssetSource;
             var10 = _closure1_slot0;
@@ -234,14 +234,14 @@ case 26:
             var5 = var6.bind(var9)(var5);
             var6 = var5.uri;
             var5 = 'thumbnailUrl';
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = var4.thumbnailBackgroundColor;
             var5 = 'thumbnailBackgroundColor';
-            var1[var5] = var6;
+            var1[4] = var6;
             var5 = _closure1_slot7;
             var6 = var5.GUILD;
             var5 = 'type';
-            var1[var5] = var6;
+            var1[4] = var6;
             _fun0001_ip = 27; continue _fun0001;
 case 18:
             var5 = {};
@@ -263,10 +263,10 @@ case 18:
             var6 = var9.toLocaleUpperCase;
             var9 = var6.bind(var9)();
             var6 = 'headerText';
-            var5[var6] = var9;
+            var5[5] = var9;
             var9 = var4.headerColor;
             var6 = 'headerColor';
-            var5[var6] = var9;
+            var5[5] = var9;
             var6 = var13[var12];
             var6 = var14.bind(var11)(var6);
             var10 = var6.intl;
@@ -277,15 +277,15 @@ case 18:
             var6 = var6.RCYGot;
             var9 = var9.bind(var10)(var6);
             var6 = 'titleText';
-            var5[var6] = var9;
+            var5[5] = var9;
             var9 = var4.titleColor;
             var6 = 'titleColor';
-            var5[var6] = var9;
+            var5[5] = var9;
             var6 = 'subtitle';
-            var5[var6] = var8;
+            var5[5] = var8;
             var8 = var4.subtitleColor;
             var6 = 'subtitleColor';
-            var5[var6] = var8;
+            var5[5] = var8;
             var9 = _closure1_slot4;
             var8 = var9.resolveAssetSource;
             var10 = _closure1_slot1;
@@ -295,7 +295,7 @@ case 18:
             var6 = var8.bind(var9)(var6);
             var8 = var6.uri;
             var6 = 'thumbnailUrl';
-            var5[var6] = var8;
+            var5[5] = var8;
             if(var7) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
             var8 = var4.acceptLabelGreenColor;
@@ -304,7 +304,7 @@ case 28:
             var8 = var4.clearLabelRedColor;
 case 30:
             var6 = 'acceptLabelColor';
-            var5[var6] = var8;
+            var5[5] = var8;
             if(var7) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
             var8 = var4.acceptLabelGreenBackgroundColor;
@@ -313,7 +313,7 @@ case 31:
             var8 = var4.clearLabelRedBackgroundColor;
 case 33:
             var6 = 'acceptLabelBackgroundColor';
-            var5[var6] = var8;
+            var5[5] = var8;
             var10 = _closure1_slot0;
             var6 = _closure1_slot3;
             var8 = var6[var12];
@@ -333,14 +333,14 @@ case 34:
             var7 = var8.bind(var9)(var6);
 case 36:
             var6 = 'acceptLabelText';
-            var5[var6] = var7;
+            var5[5] = var7;
             var7 = true;
             var6 = 'embedCanBeTapped';
-            var5[var6] = var7;
+            var5[5] = var7;
             var6 = _closure1_slot7;
             var7 = var6.GUILD;
             var6 = 'type';
-            var5[var6] = var7;
+            var5[5] = var7;
             var1 = var5;
 case 27:
             return var1;

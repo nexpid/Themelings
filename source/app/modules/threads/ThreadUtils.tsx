@@ -293,28 +293,28 @@ case 15:
             var16 = copyDataProperties(var21, var20);
             var17 = var10.id;
             var16 = 'channel_id';
-            var5[var16] = var17;
+            var5[15] = var17;
             var16 = 'guild_id';
-            var5[var16] = var15;
+            var5[15] = var15;
             var16 = 'parent_id';
-            var5[var16] = var14;
+            var5[15] = var14;
             var16 = var10.type;
             var10 = 'channel_type';
-            var5[var10] = var16;
+            var5[9] = var16;
             var10 = _closure1_slot8;
             var10 = var10.HAS_INTERACTED;
             var10 = var13 & var10;
             var10 = !var10;
             var13 = !var10;
             var10 = 'has_interacted_with_thread';
-            var5[var10] = var13;
+            var5[9] = var13;
             var13 = _closure1_slot6;
             var10 = var13.isGuildOrCategoryOrChannelMuted;
             var13 = var10.bind(var13)(var15, var14);
             var10 = 'parent_is_muted';
-            var5[var10] = var13;
+            var5[9] = var13;
             var10 = 'old_thread_notification_setting';
-            var5[var10] = var11;
+            var5[9] = var11;
             var10 = var3.flags;
             if(!(var7 != var10)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
@@ -322,21 +322,21 @@ case 18:
             var11 = var12.bind(var1)(var10);
 case 17:
             var10 = 'new_thread_notification_setting';
-            var5[var10] = var11;
+            var5[9] = var11;
             var10 = var6.channel_message_notification_settings;
             var6 = 'parent_notification_setting';
-            var5[var6] = var10;
+            var5[5] = var10;
             var6 = 'old_thread_is_muted';
-            var5[var6] = var9;
+            var5[5] = var9;
             var6 = var3.muted;
             if(!(var7 != var6)) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
             var9 = var6;
 case 19:
             var6 = 'new_thread_is_muted';
-            var5[var6] = var9;
+            var5[5] = var9;
             var6 = 'old_thread_muted_until';
-            var5[var6] = var4;
+            var5[5] = var4;
             var6 = var3.mute_config;
             if(!(var7 != var6)) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
@@ -349,7 +349,7 @@ case 22:
             var4 = var6.bind(var7)(var3);
 case 21:
             var3 = 'new_thread_muted_until';
-            var5[var3] = var4;
+            var5[2] = var4;
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 9;

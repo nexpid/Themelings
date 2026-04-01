@@ -159,7 +159,7 @@ case 12:
             var8 = var8.MTmH+u;
             var10 = var10.bind(var13)(var8, var14);
             var8 = 'content';
-            var1[var8] = var10;
+            var1[7] = var10;
             var8 = var12[var6];
             var8 = var11.bind(var9)(var8);
             var10 = var8.intl;
@@ -169,7 +169,7 @@ case 12:
             var6 = var6.t;
             var6 = var6.hG1StD;
             var6 = var8.bind(var10)(var6);
-            var1[var7] = var6;
+            var1[6] = var6;
             var6 = var5 != var4;
             var5 = null;
             if(!var6) { _fun0001_ip = 14; continue _fun0001 }
@@ -177,7 +177,7 @@ case 15:
             var5 = var4;
 case 14:
             var4 = 'usernameColor';
-            var1[var4] = var5;
+            var1[3] = var5;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 9;
@@ -196,7 +196,7 @@ case 14:
             var3 = var4.bind(var5)(var3);
             var4 = var3.uri;
             var3 = 'avatarURL';
-            var1[var3] = var4;
+            var1[2] = var4;
             var22 = var1;
             var21 = var2;
             var2 = copyDataProperties(var22, var21);

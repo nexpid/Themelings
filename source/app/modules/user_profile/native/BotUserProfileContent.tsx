@@ -167,7 +167,7 @@ case 12:
                     var5 = var3.id;
                     var3 = new Array(1);
                     var3[0] = var5;
-                    var2[var4] = var3;
+                    var2[3] = var3;
                     var1 = var2;
 case 13:
                     return var1;

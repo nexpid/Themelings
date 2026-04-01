@@ -148,15 +148,16 @@ case 12:
                         var4 = '';
                         if(!(var4 !== var6)) { _fun0001_ip = 11; continue _fun0001 }
 case 13:
-                        var6 = _closure1_slot1;
+                        var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var4 = 10;
                         var4 = var7[var4];
-                        var7 = var6.bind(var2)(var4);
+                        var4 = var6.bind(var2)(var4);
+                        var7 = var4.default;
                         var6 = var7.ensureModule;
                         var4 = 'discord_voice';
                         var4 = var6.bind(var7)(var4);
-                        SaveGenerator(address=275);
+                        SaveGenerator(address=280);
 case 14:
                         return var4;
 case 15:
@@ -177,7 +178,7 @@ case 17:
                         var8 = var8.bind(var9)(var10);
                         var5[1] = var8;
                         var5 = var6.bind(var7)(var5);
-                        SaveGenerator(address=357);
+                        SaveGenerator(address=362);
 case 18:
                         return var5;
 case 19:

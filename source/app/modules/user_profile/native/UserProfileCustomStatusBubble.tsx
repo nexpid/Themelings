@@ -398,7 +398,7 @@ case 36:
             var8 = copyDataProperties(var11, var10);
             var9 = -14;
             var8 = 'top';
-            var2[var8] = var9;
+            var2[7] = var9;
             var1['statusBubble'] = var2;
             var2 = {'position': 'absolute', 'top': 0, 'left': 0, 'opacity': 0};
             var1['statusBubbleMeasureable'] = var2;
@@ -459,7 +459,7 @@ case 36:
     var8 = {};
     var10 = var9.PREVIEW;
     var9 = {'textVariant': 'text-sm/normal', 'emojiOnlyEmojiSize': 26, 'textMinWidth': 53, 'statusBubblePaddingHorizontal': 10, 'statusBubblePaddingVertical': 6};
-    var8[var10] = var9;
+    var8[9] = var9;
     var _closure1_slot12 = var8;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -508,13 +508,14 @@ case 39:
             var1 = _closure1_slot10;
             var22 = var1.bind(var4)(var2);
             var _closure2_slot3 = var22;
+            var29 = null;
+            var2 = var29 != var3;
             var1 = undefined;
-            if(!var3) { _fun0005_ip = 40; continue _fun0005 }
+            if(!var2) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
             var2 = _closure1_slot12;
             var1 = var2[var3];
 case 40:
-            var29 = null;
             if(!(var29 == var1)) { _fun0005_ip = 42; continue _fun0005 }
 case 43:
             var1 = _closure1_slot11;
@@ -549,13 +550,13 @@ case 47:
             var28 = var1;
 case 46:
             var1 = var29 != var28;
-            if(!var1) { _fun0005_ip = 49; continue _fun0005 }
-case 28:
+            if(!var1) { _fun0005_ip = 16; continue _fun0005 }
+case 49:
             var9 = '';
             var1 = var9 !== var28;
-case 49:
-            if(!(var4 === var26)) { _fun0005_ip = 50; continue _fun0005 }
 case 16:
+            if(!(var4 === var26)) { _fun0005_ip = 50; continue _fun0005 }
+case 30:
             var12 = var29 == var10;
             var9 = undefined;
             if(var12) { _fun0005_ip = 51; continue _fun0005 }

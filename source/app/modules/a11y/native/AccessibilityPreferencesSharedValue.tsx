@@ -19,13 +19,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var8 = var6.REDUCED_MOTION;
     var7 = 'reduceMotion';
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var6.REDUCED_MOTION_PREFERS_CROSSFADES;
     var7 = 'prefersCrossfades';
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var6.SCREENREADER;
     var6 = 'screenReaderEnabled';
-    var2[var7] = var6;
+    var2[6] = var6;
     var6 = 1;
     var6 = var5[var6];
     var8 = var4.bind(var1)(var6);

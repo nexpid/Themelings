@@ -254,7 +254,7 @@ case 0:
                         var5 = var5.R3BPH+;
                         var6 = var6.bind(var7)(var5);
                         var5 = 'label';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         var7 = _closure2_slot4;
                         var6 = null;
                         var7 = var6 != var7;
@@ -266,7 +266,7 @@ case 10:
                         var5 = _closure2_slot5;
                         var6 = var6 === var5;
                         var5 = 'disabled';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         var6 = function onPress() {
                             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -297,7 +297,7 @@ case 14:
                             }
                         };
                         var5 = 'onPress';
-                        var1[var5] = var6;
+                        var1[4] = var6;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     }

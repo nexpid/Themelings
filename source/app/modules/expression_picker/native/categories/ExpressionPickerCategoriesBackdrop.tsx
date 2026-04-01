@@ -46,14 +46,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = copyDataProperties(var18, var17);
     var14 = var12.hairlineWidth;
     var12 = 'borderTopWidth';
-    var10[var12] = var14;
+    var10[11] = var14;
     var12 = 5;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
     var15 = var14.BACKGROUND_BASE_LOWEST;
     var14 = 'borderTopColor';
-    var10[var14] = var15;
+    var10[13] = var15;
     var4['backdrop'] = var10;
     var10 = {};
     var12 = var6[var12];

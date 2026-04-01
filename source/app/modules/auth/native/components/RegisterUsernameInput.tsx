@@ -157,16 +157,16 @@ case 12:
             var6 = copyDataProperties(var17, var16);
             var7 = var12.inputHint;
             var6 = 'style';
-            var2[var6] = var7;
+            var2[5] = var7;
             var7 = 'text-xs/medium';
             var6 = 'variant';
-            var2[var6] = var7;
+            var2[5] = var7;
             var7 = 'text-muted';
             var6 = 'color';
-            var2[var6] = var7;
+            var2[5] = var7;
             var7 = true;
             var6 = 'animated';
-            var2[var6] = var7;
+            var2[5] = var7;
             var6 = 12;
             var7 = var13[var6];
             var7 = var9.bind(var5)(var7);
@@ -178,7 +178,7 @@ case 12:
             var6 = var6.y7LSyU;
             var7 = var7.bind(var8)(var6);
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 11:
             _fun0001_ip = 13; continue _fun0001;
@@ -199,13 +199,13 @@ case 10:
             var9 = copyDataProperties(var17, var16);
             var13 = var12.status;
             var9 = 'style';
-            var2[var9] = var13;
+            var2[8] = var13;
             var13 = 'text-xs/medium';
             var9 = 'variant';
-            var2[var9] = var13;
+            var2[8] = var13;
             var13 = true;
             var9 = 'animated';
-            var2[var9] = var13;
+            var2[8] = var13;
             var6 = var8[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.Text;
@@ -214,7 +214,7 @@ case 10:
             var6['children'] = var8;
             var7 = var4.bind(var5)(var7, var6);
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
 case 13:
             _fun0001_ip = 14; continue _fun0001;
@@ -260,10 +260,10 @@ case 4:
             var11 = copyDataProperties(var17, var16);
             var12 = true;
             var11 = 'animated';
-            var7[var11] = var12;
+            var7[10] = var12;
             var11 = var10.message;
             var10 = 'children';
-            var7[var10] = var11;
+            var7[9] = var11;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
             var2['children'] = var6;

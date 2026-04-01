@@ -284,7 +284,7 @@ case 41:
                 var9 = var8;
                 var8 = copyDataProperties(var10, var9);
                 var8 = 'generation';
-                var4[var8] = var3;
+                var4[7] = var3;
                 var4 = var5.bind(var6)(var7, var4);
                 var2 = var3;
 case 42:
@@ -561,7 +561,7 @@ case 71:
                 var10 = var5;
                 var5 = copyDataProperties(var11, var10);
                 var5 = 'message';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var2.bind(var3)(var4, var1);
 case 22:
                 var1 = undefined;

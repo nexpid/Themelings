@@ -116,16 +116,16 @@ case 11:
             var9 = copyDataProperties(var14, var13);
             var12 = 'text-xs/medium';
             var9 = 'variant';
-            var2[var9] = var12;
+            var2[8] = var12;
             var9 = var8.passwordStrength;
             var8 = new Array(2);
             var8[0] = var9;
             var8[1] = var7;
             var7 = 'style';
-            var2[var7] = var8;
+            var2[6] = var8;
             var8 = true;
             var7 = 'animated';
-            var2[var7] = var8;
+            var2[6] = var8;
             var7 = 10;
             var8 = var11[var7];
             var8 = var10.bind(var5)(var8);
@@ -142,7 +142,7 @@ case 11:
             var7[1] = var8;
             var7[2] = var6;
             var6 = 'children';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
 case 2:
@@ -603,18 +603,18 @@ case 32:
             var12 = copyDataProperties(var30, var29);
             var12 = var10.inputHint;
             var10 = 'style';
-            var7[var10] = var12;
+            var7[9] = var12;
             var12 = 'text-xs/medium';
             var10 = 'variant';
-            var7[var10] = var12;
+            var7[9] = var12;
             var12 = 'text-muted';
             var10 = 'color';
-            var7[var10] = var12;
+            var7[9] = var12;
             var12 = true;
             var10 = 'animated';
-            var7[var10] = var12;
+            var7[9] = var12;
             var10 = 'children';
-            var7[var10] = var11;
+            var7[9] = var11;
             var6 = var9.bind(var4)(var8, var7);
 case 30:
             var5[2] = var6;

@@ -885,7 +885,7 @@ case 57:
                         var7 = copyDataProperties(var9, var8);
                         var7 = _closure2_slot16;
                         var6 = 'chatInputRef';
-                        var5[var6] = var7;
+                        var5[5] = var7;
                         var2['params'] = var5;
                         var2 = var3.bind(var4)(var2);
                         return var1;
@@ -933,7 +933,7 @@ case 51:
                             var8 = copyDataProperties(var11, var10);
                             var9 = _closure2_slot16;
                             var8 = 'chatInputRef';
-                            var7[var8] = var9;
+                            var7[7] = var9;
                             var3['params'] = var7;
                             var3 = var5.bind(var6)(var3);
                             _fun0011_ip = 61; continue _fun0011;
@@ -1010,7 +1010,7 @@ case 0:
                             var10 = copyDataProperties(var12, var11);
                             var10 = _closure2_slot16;
                             var9 = 'chatInputRef';
-                            var8[var9] = var10;
+                            var8[8] = var10;
                             var3['params'] = var8;
                             var6 = var6.bind(var7)(var3);
                             var3 = null;
@@ -1089,7 +1089,7 @@ case 30:
                     var6 = _closure1_slot12;
                     var14 = var6.GIF_REPLY;
                     var6 = 'location';
-                    var9[var6] = var14;
+                    var9[5] = var14;
                     var17 = true;
                     var20 = var13;
                     var19 = var11;
@@ -1182,7 +1182,7 @@ case 31:
                     var6 = _closure1_slot12;
                     var14 = var6.STICKER_REPLY;
                     var6 = 'location';
-                    var9[var6] = var14;
+                    var9[5] = var14;
                     var17 = '';
                     var20 = var13;
                     var19 = var11;

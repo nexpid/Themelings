@@ -45,9 +45,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.colors;
     var12 = var11.ANDROID_NAVIGATION_SCRIM_BACKGROUND;
     var11 = 'backgroundColor';
-    var10[var11] = var12;
+    var10[10] = var12;
     var11 = 'top';
-    var10[var11] = var1;
+    var10[10] = var1;
     var4['androidNavScrim'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot4 = var4;

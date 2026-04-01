@@ -102,7 +102,7 @@ case 19:
                     var8 = var2;
                     var5 = copyDataProperties(var8, var7);
                     var5 = 'display';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var4['style'] = var2;
                     _fun0002_ip = 18; continue _fun0002;
 case 12:
@@ -115,7 +115,7 @@ case 12:
                     var8 = var2;
                     var5 = copyDataProperties(var8, var7);
                     var5 = 'display';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var4['style'] = var2;
                     _fun0002_ip = 18; continue _fun0002;
 case 6:
@@ -128,7 +128,7 @@ case 6:
                     var8 = var2;
                     var5 = copyDataProperties(var8, var7);
                     var5 = 'display';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var4['style'] = var2;
 case 18:
                     var2 = _closure2_slot1;

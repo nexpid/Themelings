@@ -61,10 +61,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var21 = var9;
     var10 = copyDataProperties(var21, var20);
     var10 = 'textAlign';
-    var9[var10] = var11;
+    var9[9] = var11;
     var17 = 8;
     var16 = 'marginBottom';
-    var9[var16] = var17;
+    var9[15] = var17;
     var4['title'] = var9;
     var9 = {};
     var15 = var7[var15];
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var20 = var15.bind(var1)(var14, var13, var12);
     var21 = var9;
     var12 = copyDataProperties(var21, var20);
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['body'] = var9;
     var9 = {};
     var10 = 32;

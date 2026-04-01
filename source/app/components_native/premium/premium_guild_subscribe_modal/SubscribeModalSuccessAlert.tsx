@@ -87,10 +87,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var9 = var7.ENTRY;
     var8 = {'BEG': 0, 'END': 180};
-    var4[var9] = var8;
+    var4[8] = var8;
     var9 = var7.IDLE;
     var8 = {'BEG': 180, 'END': 360};
-    var4[var9] = var8;
+    var4[8] = var8;
     var _closure1_slot11 = var4;
     var4 = function PremiumPaymentGuildAnimation(arg1) {
         var1 = arg1;

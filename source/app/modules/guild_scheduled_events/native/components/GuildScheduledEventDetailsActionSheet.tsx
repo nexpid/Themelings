@@ -161,7 +161,7 @@ case 0:
                     var6 = var2 == var1;
                     var1 = undefined;
                     if(var6) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
+case 3:
                     var5 = _closure2_slot2;
                     var1 = var5.guild_id;
 case 4:
@@ -174,10 +174,10 @@ case 4:
             var1 = null;
             var3 = var1 == var19;
             var10 = undefined;
-            if(var3) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var10 = var19.id;
+            if(var3) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
+            var10 = var19.id;
+case 5:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 13;
@@ -185,10 +185,10 @@ case 6:
             var4 = var4.bind(var5)(var3);
             var8 = var1 == var19;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var3 = var19.guild_id;
+            if(var8) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
+            var3 = var19.guild_id;
+case 7:
             var3 = var4.bind(var5)(var3, var10, var15);
             _closure2_slot3 = var3;
             var8 = _closure1_slot1;
@@ -211,11 +211,11 @@ case 0:
                     var1 = var1.length;
                     var3 = _closure1_slot9;
                     var3 = var1 >= var3;
-                    if(!var3) { _fun0004_ip = 10; continue _fun0004 }
-case 5:
+                    if(!var3) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
                     var4 = _closure1_slot9;
                     var3 = var7 > var4;
-case 10:
+case 9:
                     var4 = 0;
                     var5 = 0;
                     if(!var3) { _fun0004_ip = 11; continue _fun0004 }
@@ -242,7 +242,7 @@ case 15:
                     var4 = arraySpread(var10, var9, var8);
                     var3 = {};
                     var3['count'] = var5;
-                    var2[var4] = var3;
+                    var2[3] = var3;
                     var3 = 1;
                     var3 = var4 + var3;
                     var1 = var2;
@@ -388,7 +388,7 @@ case 0:
                     var2 = _closure1_slot8;
                     var2 = var2.EVENT_INFO;
                     if(!(var2 !== var3)) { _fun0007_ip = 26; continue _fun0007 }
-case 5:
+case 10:
                     var2 = _closure1_slot8;
                     var2 = var2.RSVP_LIST;
                     if(!(var2 !== var3)) { _fun0007_ip = 27; continue _fun0007 }

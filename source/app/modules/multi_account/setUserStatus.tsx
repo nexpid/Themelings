@@ -242,7 +242,7 @@ case 33:
                     var11 = var12 / var10;
 case 32:
                     var10 = 'expire_duration_minutes';
-                    var8[var10] = var11;
+                    var8[9] = var11;
                     var9 = var8;
 case 30:
                     var8 = var9;

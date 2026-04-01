@@ -88,7 +88,7 @@ case 0:
                     var9 = var2;
                     var3 = copyDataProperties(var10, var9);
                     var3 = 'url';
-                    var1[var3] = var8;
+                    var1[2] = var8;
                     var3 = _closure2_slot0;
                     var4 = null;
                     var6 = var4 == var3;
@@ -105,7 +105,7 @@ case 9:
                     var3 = var2.src;
 case 8:
                     var2 = 'src';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };

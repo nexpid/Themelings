@@ -112,7 +112,7 @@ case 2:
             }
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.NOTIFICATIONS;
         var3 = {};
         var9 = _closure1_slot0;
@@ -144,7 +144,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.PINNED_MESSAGES;
         var3 = {};
         var7 = var10[var5];
@@ -191,7 +191,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.PINNED_CHAT;
         var3 = {};
         var7 = true;
@@ -211,7 +211,7 @@ case 2:
             return var1;
         };
         var3['render'] = var11;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.INSTANT_INVITES;
         var3 = {};
         var11 = var10[var5];
@@ -238,7 +238,7 @@ case 2:
             return var1;
         };
         var3['render'] = var11;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.PERMISSIONS;
         var3 = {};
         var11 = var10[var5];
@@ -265,12 +265,12 @@ case 2:
             var5 = copyDataProperties(var8, var7);
             var6 = _closure2_slot0;
             var5 = 'channelId';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
         var3['render'] = var11;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.NEW_PERMISSION;
         var3 = {};
         var11 = var10[var5];
@@ -302,7 +302,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.PERMISSION_OVERRIDES;
         var3 = {};
         var7 = var10[var5];
@@ -333,7 +333,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.INTEGRATIONS;
         var3 = {};
         var7 = var10[var5];
@@ -364,7 +364,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.WEBHOOKS;
         var3 = {};
         var7 = var10[var5];
@@ -395,7 +395,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.EDIT_WEBHOOK;
         var3 = {};
         var7 = var10[var5];
@@ -424,7 +424,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.EDIT_LINKED_LOBBY;
         var3 = {};
         var7 = var10[var5];
@@ -453,7 +453,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.CHANNELS_FOLLOWED;
         var3 = {};
         var7 = var10[var5];
@@ -484,7 +484,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.CHANGE_CATEGORY;
         var3 = {};
         var7 = var10[var5];
@@ -512,7 +512,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.CHANGE_RTC_REGION;
         var3 = {};
         var7 = var10[var5];
@@ -540,7 +540,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var6 = var2.EDIT_FORUM_TAG;
         var3 = {};
         var7 = function render(arg1) {
@@ -561,7 +561,7 @@ case 2:
             return var1;
         };
         var3['render'] = var7;
-        var1[var6] = var3;
+        var1[5] = var3;
         var3 = var2.DEFAULT_FORUM_LAYOUT;
         var2 = {};
         var6 = var10[var5];
@@ -589,7 +589,7 @@ case 2:
             return var1;
         };
         var2['render'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var3['getChannelSettingsScreens'] = var2;

@@ -569,7 +569,7 @@ case 44:
             var24 = var12;
             var12 = copyDataProperties(var25, var24);
             var12 = 'mode';
-            var9[var12] = var13;
+            var9[11] = var13;
             var9 = var11.bind(var4)(var10, var9);
             var1['icon'] = var9;
             var1['channelInfo'] = var8;
@@ -621,7 +621,7 @@ case 49:
             var24 = var5;
             var5 = copyDataProperties(var25, var24);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

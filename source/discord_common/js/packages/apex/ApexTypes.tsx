@@ -32,13 +32,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = {};
     var10 = var6.User;
     var4 = 'user';
-    var5[var10] = var4;
+    var5[9] = var4;
     var10 = var6.Installation;
     var4 = 'installation';
-    var5[var10] = var4;
+    var5[9] = var4;
     var10 = var6.Guild;
     var4 = 'guild';
-    var5[var10] = var4;
+    var5[9] = var4;
     var4 = {};
     var4['IsOverride'] = var7;
     var10 = 'IsOverride';

@@ -21,12 +21,9 @@ case 0:
         var4 = 1;
         var4 = var12[var4];
         var4 = var11.bind(var1)(var4);
+        var5 = var4.ApplicationDirectoryProfileSections;
+        var _closure1_slot0 = var5;
         var4 = var4.GlobalDiscoveryAppsSections;
-        var _closure1_slot0 = var4;
-        var4 = 2;
-        var4 = var12[var4];
-        var4 = var11.bind(var1)(var4);
-        var4 = var4.ApplicationDirectoryProfileSections;
         var _closure1_slot1 = var4;
         var4 = new Array(5);
         var9 = '@me';
@@ -673,7 +670,7 @@ case 2:
         };
         var2['GLOBAL_DISCOVERY_APPS_PROFILE_SECTION'] = var16;
         var16 = function GLOBAL_DISCOVERY_APPS_PROFILE_STORE_SKU(arg1, arg2) {
-            var1 = _closure1_slot0;
+            var1 = _closure1_slot1;
             var9 = var1.STORE;
             var1 = global;
             var1 = var1.HermesInternal;
@@ -1105,7 +1102,7 @@ case 9:
         };
         var2['APPLICATION_DIRECTORY_PROFILE_SECTION'] = var16;
         var16 = function APPLICATION_DIRECTORY_PROFILE_STORE_SKU(arg1, arg2) {
-            var1 = _closure1_slot1;
+            var1 = _closure1_slot0;
             var9 = var1.STORE;
             var1 = global;
             var1 = var1.HermesInternal;
@@ -1369,13 +1366,13 @@ case 32:
         var14 = '/icymi';
         var2['ICYMI'] = var14;
         var14 = var10.bind(var13)(var2);
-        var2 = 3;
+        var2 = 2;
         var2 = var12[var2];
         var13 = var11.bind(var1)(var2);
         var10 = var13.wrapPaths;
         var2 = [':', '?', '@'];
         var2 = var10.bind(var13)(var14, var2);
-        var10 = 4;
+        var10 = 3;
         var10 = var12[var10];
         var12 = var11.bind(var1)(var10);
         var11 = var12.fileFinishedImporting;

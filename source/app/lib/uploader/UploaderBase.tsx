@@ -401,11 +401,11 @@ case 43:
                         var15 = var2;
                         var4 = copyDataProperties(var15, var14);
                         var4 = 'currentSize';
-                        var2[var4] = var7;
+                        var2[3] = var7;
                         var4 = 'progress';
-                        var2[var4] = var3;
+                        var2[3] = var3;
                         var3 = 'rate';
-                        var2[var3] = var6;
+                        var2[2] = var6;
                         var5['_file'] = var2;
                         var3 = var5.emit;
                         var2 = var5._file;
@@ -833,20 +833,20 @@ case 47:
             var17 = var1;
             var3 = copyDataProperties(var17, var16);
             var3 = 'totalPostCompressionSize';
-            var1[var3] = var6;
+            var1[2] = var6;
             var3 = 'currentSize';
-            var1[var3] = var6;
+            var1[2] = var6;
             var3 = 'hasVideo';
-            var1[var3] = var5;
+            var1[2] = var5;
             var3 = 'hasImage';
-            var1[var3] = var4;
+            var1[2] = var4;
             var3 = var2.files;
             var4 = var3.length;
             var3 = 'attachmentsCount';
-            var1[var3] = var4;
+            var1[2] = var4;
             var4 = var2.files;
             var3 = 'items';
-            var1[var3] = var4;
+            var1[2] = var4;
             var2['_file'] = var1;
             var1 = undefined;
             return var1;
@@ -1106,7 +1106,7 @@ case 87:
                     var7 = copyDataProperties(var14, var13);
                     var8 = var4.files;
                     var7 = 'items';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var4['_file'] = var3;
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -1116,7 +1116,7 @@ case 87:
                     var3 = var7.bind(var2)(var3);
                     var2 = var3.cancelGetAttachmentFile;
                     var2 = var2.bind(var3)(var6);
-                    SaveGenerator(address=280);
+                    SaveGenerator(address=281);
 case 88:
                     return var2;
 case 89:

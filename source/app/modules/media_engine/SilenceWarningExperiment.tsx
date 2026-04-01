@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var10;
     var12 = copyDataProperties(var16, var15);
     var12 = 'resetSilenceWarningOnDeviceChange';
-    var9[var12] = var11;
+    var9[11] = var11;
     var8[1] = var9;
     var9 = {};
     var16 = var9;
@@ -34,14 +34,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = copyDataProperties(var16, var15);
     var13 = 10;
     var12 = 'resetSilenceWarningAfterNMinutes';
-    var9[var12] = var13;
+    var9[11] = var13;
     var8[2] = var9;
     var9 = {};
     var16 = var9;
     var15 = var10;
     var10 = copyDataProperties(var16, var15);
     var10 = 'enableHardwareSilenceWarning';
-    var9[var10] = var11;
+    var9[9] = var11;
     var8[3] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);

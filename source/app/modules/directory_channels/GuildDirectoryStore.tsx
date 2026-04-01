@@ -331,7 +331,7 @@ case 21:
                 var5 = var4.primaryCategoryId;
                 var3 = {};
                 var7 = var4.guildId;
-                var3[var7] = var4;
+                var3[6] = var4;
                 var6[var5] = var3;
                 _fun0008_ip = 22; continue _fun0008;
 case 20:
@@ -394,7 +394,7 @@ case 26:
             var14 = var3;
             var7 = copyDataProperties(var14, var13);
             var7 = var10.guildId;
-            var3[var7] = var10;
+            var3[6] = var10;
             var6[var4] = var3;
             var6 = var10.primaryCategoryId;
             if(!(var5 == var6)) { _fun0009_ip = 27; continue _fun0009 }
@@ -419,8 +419,8 @@ case 29:
             var13 = var9;
             var9 = copyDataProperties(var14, var13);
             var9 = var10.guildId;
-            var8[var9] = var10;
-            var3[var6] = var8;
+            var8[8] = var10;
+            var3[5] = var8;
             var7[var4] = var3;
             var3 = _closure1_slot13;
             var3 = var3[var4];
@@ -447,7 +447,7 @@ case 34:
             var5 = copyDataProperties(var14, var13);
             var5 = 1;
             var5 = var7 + var5;
-            var2[var6] = var5;
+            var2[5] = var5;
             var3[var4] = var2;
 case 23:
             return var1;
@@ -511,7 +511,7 @@ case 40:
             var13 = var7[var4];
             var14 = var3;
             var9 = copyDataProperties(var14, var13);
-            var3[var6] = var8;
+            var3[5] = var8;
             var7[var4] = var3;
             var3 = _closure1_slot13;
             var3 = var3[var4];
@@ -531,7 +531,7 @@ case 42:
 case 44:
             var5 = var7;
 case 43:
-            var2[var6] = var5;
+            var2[5] = var5;
             var3[var4] = var2;
 case 38:
             return var1;
@@ -575,7 +575,7 @@ case 45:
             var16 = var7;
             var15 = var12;
             var10 = copyDataProperties(var16, var15);
-            var2[var9] = var7;
+            var2[8] = var7;
             var6[var4] = var2;
             var2 = var8 == var3;
             var13 = var3;
@@ -623,7 +623,7 @@ case 55:
             var15 = var3[var4];
             var16 = var2;
             var9 = copyDataProperties(var16, var15);
-            var2[var10] = var7;
+            var2[9] = var7;
             var7 = {};
             var11 = var3[var4];
             var14 = var8 == var11;
@@ -643,8 +643,8 @@ case 57:
             var16 = var9;
             var15 = var12;
             var12 = copyDataProperties(var16, var15);
-            var7[var11] = var9;
-            var2[var6] = var7;
+            var7[10] = var9;
+            var2[5] = var7;
             var3[var4] = var2;
             var2 = var6 !== var10;
             if(!var2) { _fun0011_ip = 59; continue _fun0011 }
@@ -683,7 +683,7 @@ case 67:
             var11 = 1;
             var9 = var12 - var11;
 case 65:
-            var2[var10] = var9;
+            var2[9] = var9;
             var5 = _closure1_slot13;
             var9 = var5[var4];
             var10 = var8 == var9;
@@ -700,7 +700,7 @@ case 72:
 case 71:
             var5 = 1;
             var5 = var7 + var5;
-            var2[var6] = var5;
+            var2[5] = var5;
             var3[var4] = var2;
 case 61:
             return var1;

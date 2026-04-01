@@ -65,7 +65,7 @@ case 9: // try_start_0
                     var6 = {};
                     var6['shouldNavigate'] = var7;
                     var6 = var12.bind(var15)(var11, var9, var6);
-                    SaveGenerator(address=199);
+                    SaveGenerator(address=200);
 case 10:
                     return var6;
 case 11:
@@ -81,7 +81,7 @@ case 13:
                     var11 = var12.waitForGuild;
                     var9 = var4;
                     var9 = var11.bind(var12)(var9);
-                    SaveGenerator(address=245);
+                    SaveGenerator(address=246);
 case 14:
                     return var9;
 case 15:

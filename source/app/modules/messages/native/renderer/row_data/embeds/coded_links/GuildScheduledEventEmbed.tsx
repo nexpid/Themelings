@@ -316,20 +316,20 @@ case 30:
             var42 = var20;
             var20 = copyDataProperties(var43, var42);
             var20 = 'acceptLabelBackgroundColor';
-            var1[var20] = var27;
+            var1[19] = var27;
             var27 = undefined;
             if(!var7) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
             var27 = var3.acceptLabelDisabledBorderColor;
 case 31:
             var20 = 'acceptLabelBorderColor';
-            var1[var20] = var27;
+            var1[19] = var27;
             var20 = 'acceptLabelColor';
-            var1[var20] = var26;
+            var1[19] = var26;
             var20 = 'acceptLabelIcon';
-            var1[var20] = var25;
+            var1[19] = var25;
             var20 = 'acceptLabelText';
-            var1[var20] = var21;
+            var1[19] = var21;
             var20 = var9 == var22;
             var21 = undefined;
             if(var20) { _fun0001_ip = 33; continue _fun0001 }
@@ -338,7 +338,7 @@ case 34:
             var21 = var20.bind(var22)();
 case 33:
             var20 = 'badgeCount';
-            var1[var20] = var21;
+            var1[19] = var21;
             var21 = _closure1_slot0;
             var26 = _closure1_slot2;
             var20 = var26[var17];
@@ -350,7 +350,7 @@ case 33:
             var20 = var25.bind(var11)(var20);
             var21 = var21.bind(var22)(var20);
             var20 = 'badgeIcon';
-            var1[var20] = var21;
+            var1[19] = var21;
             var20 = var9 != var24;
             var21 = undefined;
             if(!var20) { _fun0001_ip = 35; continue _fun0001 }
@@ -363,7 +363,7 @@ case 36:
             var21 = var20.bind(var22)(var24);
 case 35:
             var20 = 'channelIcon';
-            var1[var20] = var21;
+            var1[19] = var21;
             var21 = var9 != var15;
             var20 = undefined;
             if(!var21) { _fun0001_ip = 37; continue _fun0001 }
@@ -371,9 +371,9 @@ case 38:
             var20 = var15;
 case 37:
             var15 = 'channelName';
-            var1[var15] = var20;
+            var1[14] = var20;
             var15 = 'content';
-            var1[var15] = var19;
+            var1[14] = var19;
             var15 = var9 != var23;
             var19 = undefined;
             if(!var15) { _fun0001_ip = 39; continue _fun0001 }
@@ -389,13 +389,13 @@ case 40:
             var19 = var20.bind(var21)(var15);
 case 39:
             var15 = 'creatorAvatar';
-            var1[var15] = var19;
+            var1[14] = var19;
             var15 = _closure1_slot12;
             var19 = var15.GUILD_SCHEDULED_EVENT;
             var15 = 'extendedType';
-            var1[var15] = var19;
+            var1[14] = var19;
             var15 = 'guildIcon';
-            var1[var15] = var18;
+            var1[14] = var18;
             var18 = var9 == var13;
             var15 = undefined;
             if(var18) { _fun0001_ip = 41; continue _fun0001 }
@@ -403,7 +403,7 @@ case 42:
             var15 = var13.name;
 case 41:
             var13 = 'guildName';
-            var1[var13] = var15;
+            var1[12] = var15;
             var13 = _closure1_slot4;
             var15 = var13.bind(var11)(var10);
             if(!(var9 == var15)) { _fun0001_ip = 43; continue _fun0001 }
@@ -411,7 +411,7 @@ case 44:
             var15 = var3.headerColor;
 case 43:
             var13 = 'headerColor';
-            var1[var13] = var15;
+            var1[12] = var15;
             var15 = _closure1_slot0;
             var13 = _closure1_slot2;
             var13 = var13[var17];
@@ -419,9 +419,9 @@ case 43:
             var13 = var15.getAssetUriForEmbed;
             var15 = var13.bind(var15)(var16);
             var13 = 'headerIcon';
-            var1[var13] = var15;
+            var1[12] = var15;
             var13 = 'headerText';
-            var1[var13] = var14;
+            var1[12] = var14;
             if(!var12) { _fun0001_ip = 45; continue _fun0001 }
 case 46:
             var8 = _closure1_slot4;
@@ -431,18 +431,18 @@ case 45:
             var8 = var3.headerColor;
 case 47:
             var3 = 'headerTextColor';
-            var1[var3] = var8;
+            var1[2] = var8;
             var3 = 'isRsvped';
-            var1[var3] = var7;
+            var1[2] = var7;
             var3 = 'secondaryActionIcon';
-            var1[var3] = var6;
+            var1[2] = var6;
             var3 = 'titleText';
-            var1[var3] = var5;
+            var1[2] = var5;
             var3 = 'type';
-            var1[var3] = var4;
+            var1[2] = var4;
             var3 = var2.id;
             var2 = 'guildEventId';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -615,7 +615,7 @@ case 56:
             var4 = var2 != var5;
             var1 = null;
             if(!var4) { _fun0002_ip = 67; continue _fun0002 }
-case 68:
+case 8:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 27;
@@ -651,7 +651,7 @@ case 0:
             var1 = var6.getGuildScheduledEvent;
             var10 = var1.bind(var6)(var8);
             var1 = null;
-            if(!(var1 == var5)) { _fun0003_ip = 69; continue _fun0003 }
+            if(!(var1 == var5)) { _fun0003_ip = 68; continue _fun0003 }
 case 53:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -660,19 +660,19 @@ case 53:
             var8 = var8.bind(var7)(var6);
             var6 = var8.getNextRecurrenceIdInEvent;
             var5 = var6.bind(var8)(var10);
-case 69:
+case 68:
             var6 = var1 != var5;
             var8 = undefined;
-            if(!var6) { _fun0003_ip = 70; continue _fun0003 }
+            if(!var6) { _fun0003_ip = 69; continue _fun0003 }
 case 54:
             var8 = var5;
+case 69:
+            if(!(var1 != var10)) { _fun0003_ip = 8; continue _fun0003 }
 case 70:
-            if(!(var1 != var10)) { _fun0003_ip = 68; continue _fun0003 }
-case 71:
             var5 = _closure1_slot5;
             var5 = var5.bind(var7)(var10);
-            if(var5) { _fun0003_ip = 68; continue _fun0003 }
-case 72:
+            if(var5) { _fun0003_ip = 8; continue _fun0003 }
+case 71:
             var6 = _closure1_slot1;
             var9 = _closure1_slot2;
             var5 = 25;
@@ -680,15 +680,15 @@ case 72:
             var11 = var6.bind(var7)(var5);
             var9 = var11.getGuildEventUserCounts;
             var6 = var10.id;
-            if(!(var1 == var8)) { _fun0003_ip = 73; continue _fun0003 }
-case 74:
-            var5 = new Array(0);
-            _fun0003_ip = 75; continue _fun0003;
+            if(!(var1 == var8)) { _fun0003_ip = 72; continue _fun0003 }
 case 73:
+            var5 = new Array(0);
+            _fun0003_ip = 74; continue _fun0003;
+case 72:
             var12 = new Array(1);
             var12[0] = var8;
             var5 = var12;
-case 75:
+case 74:
             var5 = var9.bind(var11)(var4, var6, var5);
             var9 = _closure1_slot7;
             var6 = var9.getUserCount;
@@ -700,10 +700,10 @@ case 75:
             var12 = var13.getChannel;
             var14 = var1 == var10;
             var11 = undefined;
-            if(var14) { _fun0003_ip = 76; continue _fun0003 }
-case 77:
-            var11 = var10.channel_id;
+            if(var14) { _fun0003_ip = 75; continue _fun0003 }
 case 76:
+            var11 = var10.channel_id;
+case 75:
             var11 = var12.bind(var13)(var11);
             var5['channel'] = var11;
             var5['guildEvent'] = var10;
@@ -720,11 +720,11 @@ case 76:
             var5['recurrenceId'] = var8;
             var5 = var6.bind(var7)(var5);
             return var5;
-case 68:
+case 8:
             var5 = _closure1_slot15;
             var5 = var5[var4];
-            if(var5) { _fun0003_ip = 78; continue _fun0003 }
-case 79:
+            if(var5) { _fun0003_ip = 77; continue _fun0003 }
+case 78:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var5 = 27;
@@ -751,7 +751,7 @@ case 79:
             var3 = _closure1_slot15;
             var2 = true;
             var3[var4] = var2;
-case 78:
+case 77:
             return var1;
         }
     };

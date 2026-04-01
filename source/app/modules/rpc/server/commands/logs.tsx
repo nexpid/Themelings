@@ -135,7 +135,7 @@ case 10:
         }
     };
     var4['handler'] = var8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

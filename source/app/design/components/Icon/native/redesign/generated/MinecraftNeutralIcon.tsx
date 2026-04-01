@@ -114,7 +114,7 @@ case 6:
             var19 = 0;
             var18 = arraySpread(var21, var20, var19);
             var12 = {'position': 'absolute', 'top': 0};
-            var17[var18] = var12;
+            var17[17] = var12;
             var12 = 1;
             var18 = var18 + var12;
             var7['style'] = var17;
@@ -140,7 +140,7 @@ case 6:
             var21 = var10;
             var11 = arraySpread(var21, var20, var19);
             var13 = {'position': 'absolute', 'top': 0};
-            var10[var11] = var13;
+            var10[10] = var13;
             var11 = var11 + var12;
             var6['style'] = var10;
             var21 = var6;

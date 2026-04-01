@@ -444,9 +444,9 @@ case 17:
                             var2 = copyDataProperties(var6, var5);
                             var4 = _closure3_slot0;
                             var2 = 'client_send_timestamp';
-                            var3[var2] = var4;
+                            var3[1] = var4;
                             var2 = 'properties';
-                            var1[var2] = var3;
+                            var1[1] = var3;
                             return var1;
                         };
                         var6 = var3.bind(var5)(var2);

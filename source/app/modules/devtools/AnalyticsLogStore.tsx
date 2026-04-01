@@ -328,7 +328,7 @@ case 8:
             var6 = new var18[var6](var17);
             var6 = var6 instanceof Object ? var6 : var7;
             var4['timestamp'] = var6;
-            var3[var5] = var4;
+            var3[4] = var4;
             var4 = 1;
             var4 = var5 + var4;
             _closure1_slot12 = var3;

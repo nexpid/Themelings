@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = new var21[var15](var20);
     var15 = var15 instanceof Object ? var15 : var16;
     var4['defaultActionTypes'] = var15;
-    var6[var5] = var4;
+    var6[4] = var4;
     var5 = var12.KEYWORD;
     var4 = {};
     var15 = function getDefaultRuleName() {
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = new var21[var17](var20, var19);
     var15 = var15 instanceof Object ? var15 : var16;
     var4['defaultActionTypes'] = var15;
-    var6[var5] = var4;
+    var6[4] = var4;
     var5 = var12.ML_SPAM;
     var4 = {};
     var15 = function getDefaultRuleName() {
@@ -199,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = new var21[var17](var20, var19);
     var15 = var15 instanceof Object ? var15 : var16;
     var4['defaultActionTypes'] = var15;
-    var6[var5] = var4;
+    var6[4] = var4;
     var5 = var12.DEFAULT_KEYWORD_LIST;
     var4 = {};
     var15 = function getDefaultRuleName() {
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = new var21[var17](var20, var19);
     var15 = var15 instanceof Object ? var15 : var16;
     var4['defaultActionTypes'] = var15;
-    var6[var5] = var4;
+    var6[4] = var4;
     var5 = var12.MENTION_SPAM;
     var4 = {};
     var15 = function getDefaultRuleName() {
@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = new var21[var17](var20, var19);
     var15 = var15 instanceof Object ? var15 : var16;
     var4['defaultActionTypes'] = var15;
-    var6[var5] = var4;
+    var6[4] = var4;
     var5 = var12.USER_PROFILE;
     var4 = {};
     var15 = function getDefaultRuleName() {
@@ -372,7 +372,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = new var21[var17](var20, var19);
     var15 = var15 instanceof Object ? var15 : var16;
     var4['defaultActionTypes'] = var15;
-    var6[var5] = var4;
+    var6[4] = var4;
     var5 = var12.SERVER_POLICY;
     var4 = {};
     var15 = function getDefaultRuleName() {
@@ -426,7 +426,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = new var21[var8](var20);
     var8 = var8 instanceof Object ? var8 : var11;
     var4['defaultActionTypes'] = var8;
-    var6[var5] = var4;
+    var6[4] = var4;
     var _closure1_slot5 = var6;
     var5 = {};
     var4 = 'members';
@@ -440,7 +440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var8];
     var8 = new Array(1);
     var8[0] = var13;
-    var4[var11] = var8;
+    var4[10] = var8;
     var11 = var5.CONTENT;
     var8 = var12.SERVER_POLICY;
     var13 = var6[var8];
@@ -458,7 +458,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.KEYWORD;
     var12 = var6[var12];
     var8[4] = var12;
-    var4[var11] = var8;
+    var4[10] = var8;
     var _closure1_slot7 = var4;
     var8 = 5;
     var8 = var10[var8];
@@ -604,10 +604,10 @@ case 4:
             var2 = _closure1_slot6;
             var5 = var2.MEMBERS;
             var3 = new Array(0);
-            var4[var5] = var3;
+            var4[4] = var3;
             var3 = var2.CONTENT;
             var2 = new Array(0);
-            var4[var3] = var2;
+            var4[2] = var2;
             var2 = global;
             var3 = var2.Object;
             var2 = var3.keys;

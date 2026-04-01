@@ -280,7 +280,7 @@ case 4:
         var2['channels'] = var4;
         var4 = null;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.HUB_SCHOOL_CLUB;
         var2 = {};
         var4 = var5.HUB_SCHOOL_CLUB;
@@ -502,7 +502,7 @@ case 4:
         var9[1] = var10;
         var2['roles'] = var9;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.HUB_STUDY;
         var2 = {};
         var9 = var5.HUB_STUDY;
@@ -680,7 +680,7 @@ case 4:
         var9[10] = var10;
         var2['channels'] = var9;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.HUB_CLASS;
         var2 = {};
         var9 = var5.HUB_CLASS;
@@ -858,7 +858,7 @@ case 4:
         var9[10] = var10;
         var2['channels'] = var9;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.HUB_SOCIAL;
         var2 = {};
         var9 = var5.HUB_SOCIAL;
@@ -1004,7 +1004,7 @@ case 4:
         var9[8] = var10;
         var2['channels'] = var9;
         var2['system_channel_id'] = var6;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.HUB_MAJOR;
         var2 = {};
         var6 = var5.HUB_MAJOR;
@@ -1182,7 +1182,7 @@ case 4:
         var6[10] = var9;
         var2['channels'] = var6;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         var3 = var5.HUB_DORM;
         var2 = {};
         var5 = var5.HUB_DORM;
@@ -1342,7 +1342,7 @@ case 4:
         var5[9] = var6;
         var2['channels'] = var5;
         var2['system_channel_id'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var3['getHubGuildTemplatesMap'] = var2;

@@ -197,6 +197,11 @@ case 34:
         var2 = var4.bind(var1)(var2);
         var2 = var2.useManaContext;
         var3['useManaContext'] = var2;
+        var2 = 13;
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var2 = var2.isImage;
+        var3['isImage'] = var2;
         return var1;
     }
 })();

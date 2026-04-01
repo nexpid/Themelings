@@ -131,7 +131,7 @@ case 23:
             var11 = var7;
             var10 = copyDataProperties(var12, var11);
             var10 = 'avatar';
-            var2[var10] = var3;
+            var2[9] = var3;
             var1 = var5.bind(var8)(var2);
 case 22:
             _fun0002_ip = 24; continue _fun0002;
@@ -204,7 +204,7 @@ case 33:
             var13 = var9;
             var10 = copyDataProperties(var14, var13);
             var10 = 'avatar';
-            var6[var10] = var11;
+            var6[9] = var11;
             var4 = var7.bind(var8)(var6);
 case 32:
             var2 = var2.bind(var3)(var4);

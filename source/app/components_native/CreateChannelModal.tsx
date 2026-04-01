@@ -1637,9 +1637,9 @@ case 108:
                     var18 = var6;
                     var6 = copyDataProperties(var19, var18);
                     var6 = 'guildId';
-                    var2[var6] = var8;
+                    var2[5] = var8;
                     var6 = 'onChannelCreated';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var2 = var4.bind(var5)(var3, var2);
 case 109:
                     return var1;
@@ -1773,7 +1773,7 @@ case 118:
             var5 = '';
             var7 = null;
             if(!(var5 !== var8)) { _fun0009_ip = 117; continue _fun0009 }
-case 119:
+case 27:
             var13 = _closure1_slot21;
             var8 = _closure1_slot6;
             var5 = {};
@@ -1826,38 +1826,38 @@ case 0:
             var5 = arg1;
             var1 = null;
             var2 = arg2;
-            if(!(var1 == var2)) { _fun0013_ip = 120; continue _fun0013 }
+            if(!(var1 == var2)) { _fun0013_ip = 119; continue _fun0013 }
 case 38:
-            if(!(var1 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 122:
+            if(!(var1 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 121:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_TEXT;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
 case 101:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_VOICE;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 123:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 122:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_STAGE_VOICE;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 124:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 123:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_ANNOUNCEMENT;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 125:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 124:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_FORUM;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 126:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 125:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_MEDIA;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 127:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 126:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var2 !== var5)) { _fun0013_ip = 128; continue _fun0013 }
-case 129:
+            if(!(var2 !== var5)) { _fun0013_ip = 127; continue _fun0013 }
+case 128:
             var2 = global;
             var4 = var2.Error;
             var2 = var2.HermesInternal;
@@ -1870,7 +1870,7 @@ case 129:
             var2 = new var8[var4](var7, var6);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
-case 128:
+case 127:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 26;
@@ -1885,7 +1885,7 @@ case 128:
             var1 = var1.ISN+NM;
             var1 = var2.bind(var3)(var1);
             return var1;
-case 121:
+case 120:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 26;
@@ -1900,7 +1900,7 @@ case 121:
             var1 = var1.fUYU+j;
             var1 = var2.bind(var3)(var1);
             return var1;
-case 120:
+case 119:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 26;
@@ -2033,7 +2033,7 @@ case 120:
     var11 = var6.bind(var1)(var11);
     var11 = var11.TextIcon;
     var9['IconComponent'] = var11;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.GUILD_FORUM;
     var9 = {};
     var11 = 16;
@@ -2041,7 +2041,7 @@ case 120:
     var11 = var6.bind(var1)(var11);
     var11 = var11.ForumIcon;
     var9['IconComponent'] = var11;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.GUILD_VOICE;
     var9 = {};
     var11 = 17;
@@ -2049,7 +2049,7 @@ case 120:
     var11 = var6.bind(var1)(var11);
     var11 = var11.VoiceNormalIcon;
     var9['IconComponent'] = var11;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.GUILD_STAGE_VOICE;
     var9 = {};
     var11 = 18;
@@ -2057,7 +2057,7 @@ case 120:
     var11 = var6.bind(var1)(var11);
     var11 = var11.StageIcon;
     var9['IconComponent'] = var11;
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.GUILD_ANNOUNCEMENT;
     var9 = {};
     var11 = 19;
@@ -2065,7 +2065,7 @@ case 120:
     var11 = var6.bind(var1)(var11);
     var11 = var11.AnnouncementsIcon;
     var9['IconComponent'] = var11;
-    var5[var10] = var9;
+    var5[9] = var9;
     var11 = var8.GUILD_MEDIA;
     var9 = {};
     var10 = 20;
@@ -2073,7 +2073,7 @@ case 120:
     var12 = var6.bind(var1)(var12);
     var12 = var12.ImageIcon;
     var9['IconComponent'] = var12;
-    var5[var11] = var9;
+    var5[10] = var9;
     var _closure1_slot25 = var5;
     var5 = {};
     var11 = var8.GUILD_TEXT;
@@ -2083,7 +2083,7 @@ case 120:
     var12 = var6.bind(var1)(var12);
     var12 = var12.TextLockIcon;
     var9['IconComponent'] = var12;
-    var5[var11] = var9;
+    var5[10] = var9;
     var11 = var8.GUILD_FORUM;
     var9 = {};
     var12 = 22;
@@ -2091,7 +2091,7 @@ case 120:
     var12 = var6.bind(var1)(var12);
     var12 = var12.ForumLockIcon;
     var9['IconComponent'] = var12;
-    var5[var11] = var9;
+    var5[10] = var9;
     var11 = var8.GUILD_VOICE;
     var9 = {};
     var12 = 23;
@@ -2099,7 +2099,7 @@ case 120:
     var12 = var6.bind(var1)(var12);
     var12 = var12.VoiceLockIcon;
     var9['IconComponent'] = var12;
-    var5[var11] = var9;
+    var5[10] = var9;
     var11 = var8.GUILD_STAGE_VOICE;
     var9 = {};
     var12 = 24;
@@ -2107,7 +2107,7 @@ case 120:
     var12 = var6.bind(var1)(var12);
     var12 = var12.StageLockIcon;
     var9['IconComponent'] = var12;
-    var5[var11] = var9;
+    var5[10] = var9;
     var11 = var8.GUILD_ANNOUNCEMENT;
     var9 = {};
     var12 = 25;
@@ -2115,14 +2115,14 @@ case 120:
     var12 = var6.bind(var1)(var12);
     var12 = var12.AnnouncementsLockIcon;
     var9['IconComponent'] = var12;
-    var5[var11] = var9;
+    var5[10] = var9;
     var9 = var8.GUILD_MEDIA;
     var8 = {};
     var10 = var7[var10];
     var10 = var6.bind(var1)(var10);
     var10 = var10.ImageIcon;
     var8['IconComponent'] = var10;
-    var5[var9] = var8;
+    var5[8] = var8;
     var _closure1_slot26 = var5;
     var5 = {};
     var8 = 'CREATE_CHANNEL';
@@ -2192,7 +2192,7 @@ case 120:
                 return var1;
             };
             var5['render'] = var8;
-            var3[var7] = var5;
+            var3[6] = var5;
             var5 = _closure1_slot27;
             var8 = var5.ADD_MEMBERS;
             var5 = {};
@@ -2231,7 +2231,7 @@ case 120:
                 return var1;
             };
             var5['render'] = var9;
-            var3[var8] = var5;
+            var3[7] = var5;
             var4 = _closure1_slot27;
             var5 = var4.ADD_MODERATORS;
             var4 = {};
@@ -2261,7 +2261,7 @@ case 120:
                 return var1;
             };
             var4['render'] = var6;
-            var3[var5] = var4;
+            var3[4] = var4;
             var1['screens'] = var3;
             var1['initialStack'] = var2;
             return var1;

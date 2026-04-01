@@ -268,7 +268,7 @@ case 42:
                 var6 = _closure1_slot8;
                 var7 = var6.GENTLE_AMBIENT;
                 var6 = 'style';
-                var3[var6] = var7;
+                var3[5] = var7;
                 var5[var4] = var3;
                 var4 = _closure1_slot12;
                 var3 = var4.emitChange;
@@ -368,7 +368,7 @@ case 17:
             var11 = var8;
             var8 = copyDataProperties(var12, var11);
             var8 = 'userCount';
-            var5[var8] = var7;
+            var5[7] = var7;
             var6[var4] = var5;
             var1 = true;
 case 56:

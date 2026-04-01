@@ -68,15 +68,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = copyDataProperties(var12, var11);
         var9 = 12;
         var8 = 'spacing';
-        var1[var8] = var9;
+        var1[7] = var9;
         var8 = var7.container;
         var7 = new Array(2);
         var7[0] = var8;
         var7[1] = var5;
         var5 = 'style';
-        var1[var5] = var7;
+        var1[4] = var7;
         var5 = 'children';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };

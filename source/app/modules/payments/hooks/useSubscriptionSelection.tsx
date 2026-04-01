@@ -35,40 +35,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/payments/hooks/useSubscriptionSelection.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useSubscriptionSelection() {
-        var12 = _closure1_slot3;
-        var1 = var12.useState;
-        var10 = undefined;
-        var1 = var1.bind(var12)(var10);
-        var11 = _closure1_slot2;
+        var11 = _closure1_slot3;
+        var1 = var11.useState;
+        var8 = undefined;
+        var1 = var1.bind(var11)(var8);
+        var10 = _closure1_slot2;
         var9 = 2;
-        var1 = var11.bind(var10)(var1, var9);
-        var3 = 0;
-        var8 = var1[var3];
+        var1 = var10.bind(var8)(var1, var9);
+        var7 = 0;
+        var6 = var1[var7];
         var2 = 1;
-        var5 = var1[var2];
-        var1 = var12.useState;
-        var1 = var1.bind(var12)(var10);
-        var1 = var11.bind(var10)(var1, var9);
-        var4 = var1[var3];
-        var _closure2_slot0 = var4;
-        var4 = var1[var2];
-        var1 = var12.useState;
-        var1 = var1.bind(var12)(var10);
-        var1 = var11.bind(var10)(var1, var9);
-        var3 = var1[var3];
+        var3 = var1[var2];
+        var1 = var11.useState;
+        var1 = var1.bind(var11)(var8);
+        var1 = var10.bind(var8)(var1, var9);
+        var7 = var1[var7];
+        var _closure2_slot0 = var7;
         var2 = var1[var2];
         var1 = {};
-        var1['selectedSkuId'] = var8;
-        var9 = _closure1_slot0;
-        var11 = _closure1_slot1;
-        var8 = 3;
-        var8 = var11[var8];
-        var9 = var9.bind(var10)(var8);
-        var8 = var9.useStateFromStores;
-        var10 = _closure1_slot4;
-        var7 = new Array(1);
-        var7[0] = var10;
-        var6 = function() {
+        var1['selectedSkuId'] = var6;
+        var7 = _closure1_slot0;
+        var9 = _closure1_slot1;
+        var6 = 3;
+        var6 = var9[var6];
+        var7 = var7.bind(var8)(var6);
+        var6 = var7.useStateFromStores;
+        var8 = _closure1_slot4;
+        var5 = new Array(1);
+        var5[0] = var8;
+        var4 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = _closure2_slot0;
@@ -84,12 +79,10 @@ case 2:
                 return var1;
             }
         };
-        var6 = var8.bind(var9)(var7, var6);
-        var1['selectedPlan'] = var6;
-        var1['setSelectedSkuId'] = var5;
-        var1['setSelectedPlanId'] = var4;
-        var1['selectedPlanNotification'] = var3;
-        var1['setSelectedPlanNotification'] = var2;
+        var4 = var6.bind(var7)(var5, var4);
+        var1['selectedPlan'] = var4;
+        var1['setSelectedSkuId'] = var3;
+        var1['setSelectedPlanId'] = var2;
         return var1;
     };
     var3['default'] = var2;

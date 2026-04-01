@@ -95,7 +95,7 @@ case 0:
             var6 = copyDataProperties(var20, var19);
             var8 = true;
             var6 = 'noDefaultButtons';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = var7 != var16;
             var8 = null;
             if(!var6) { _fun0001_ip = 2; continue _fun0001 }
@@ -153,7 +153,7 @@ case 4:
             var5 = var8.bind(var4)(var7, var5);
             var6[3] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

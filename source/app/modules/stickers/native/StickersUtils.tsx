@@ -202,7 +202,7 @@ case 16:
                     var8 = var2;
                     var2 = copyDataProperties(var9, var8);
                     var2 = 'icon';
-                    var1[var2] = var3;
+                    var1[1] = var3;
                     return var1;
                 }
             };

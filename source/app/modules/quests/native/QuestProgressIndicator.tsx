@@ -259,7 +259,7 @@ case 10:
                 var2 = var3.get;
                 var3 = var2.bind(var3)();
                 var2 = 'shadowOpacity';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var26 = {};
@@ -421,17 +421,17 @@ case 13:
                 var2 = copyDataProperties(var6, var5);
                 var4 = _closure2_slot3;
                 var2 = 'width';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var4 = _closure2_slot3;
                 var2 = 'height';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = {};
                 var3 = _closure2_slot4;
                 var2['scale'] = var3;
                 var3 = new Array(1);
                 var3[0] = var2;
                 var2 = 'transform';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var22 = var21.bind(var4)(var2, var11);
@@ -676,7 +676,7 @@ case 27:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var2.bind(var4)(var3, var1);
             return var1;
         }

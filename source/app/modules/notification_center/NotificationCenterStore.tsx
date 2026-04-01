@@ -380,7 +380,7 @@ case 21:
         var3 = arg1;
         var4 = var3.tab;
         var3 = 'tab';
-        var2[var3] = var4;
+        var2[2] = var4;
         _closure1_slot11 = var2;
         var1 = undefined;
         return var1;
@@ -405,9 +405,9 @@ case 21:
             var3 = var5.now;
             var5 = var3.bind(var5)();
             var3 = arg1;
-            var4[var3] = var5;
+            var4[2] = var5;
             var3 = 'localItemAcks';
-            var2[var3] = var4;
+            var2[2] = var4;
             _closure1_slot11 = var2;
             var1 = undefined;
             return var1;

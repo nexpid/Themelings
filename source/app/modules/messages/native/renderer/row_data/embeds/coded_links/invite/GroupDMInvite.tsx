@@ -229,23 +229,23 @@ case 28:
             var16 = var12.bind(var17)();
 case 27:
             var12 = 'headerText';
-            var1[var12] = var16;
+            var1[11] = var16;
             var16 = var11.headerColor;
             var12 = 'headerColor';
-            var1[var12] = var16;
+            var1[11] = var16;
             var12 = 'acceptLabelText';
-            var1[var12] = var15;
+            var1[11] = var15;
             var12 = 'onlineText';
-            var1[var12] = var6;
+            var1[11] = var6;
             var12 = 'memberText';
-            var1[var12] = var14;
+            var1[11] = var14;
             var12 = 'channelIcon';
-            var1[var12] = var6;
+            var1[11] = var6;
             var12 = 'titleText';
-            var1[var12] = var13;
+            var1[11] = var13;
             var12 = var11.titleColor;
             var11 = 'titleColor';
-            var1[var11] = var12;
+            var1[10] = var12;
             var12 = var4 != var7;
             var11 = undefined;
             if(!var12) { _fun0001_ip = 29; continue _fun0001 }
@@ -253,25 +253,25 @@ case 30:
             var11 = var7;
 case 29:
             var7 = 'thumbnailUrl';
-            var1[var7] = var11;
+            var1[6] = var11;
             var7 = 'thumbnailText';
-            var1[var7] = var6;
+            var1[6] = var6;
             var11 = '';
             var7 = 'subtitle';
-            var1[var7] = var11;
+            var1[6] = var11;
             var7 = 'subtitleColor';
-            var1[var7] = var6;
+            var1[6] = var6;
             var7 = 'acceptLabelBackgroundColor';
-            var1[var7] = var10;
+            var1[6] = var10;
             var7 = 'acceptLabelBorderColor';
-            var1[var7] = var6;
+            var1[6] = var6;
             var7 = 'acceptLabelColor';
-            var1[var7] = var9;
+            var1[6] = var9;
             var9 = true;
             var7 = 'embedCanBeTapped';
-            var1[var7] = var9;
+            var1[6] = var9;
             var7 = 'canBeAccepted';
-            var1[var7] = var8;
+            var1[6] = var8;
             var7 = var4 != var5;
             var6 = undefined;
             if(!var7) { _fun0001_ip = 31; continue _fun0001 }
@@ -279,7 +279,7 @@ case 32:
             var6 = var5.name;
 case 31:
             var5 = 'channelName';
-            var1[var5] = var6;
+            var1[4] = var6;
             var3 = var3.type;
             if(!(var4 == var3)) { _fun0001_ip = 33; continue _fun0001 }
 case 34:
@@ -287,7 +287,7 @@ case 34:
             var3 = var2.GROUP_DM;
 case 33:
             var2 = 'type';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

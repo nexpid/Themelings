@@ -388,7 +388,7 @@ case 21:
         var1['render'] = var10;
         var10 = true;
         var1['fullscreen'] = var10;
-        var7[var9] = var1;
+        var7[8] = var1;
         var1 = 18;
         var1 = var8[var1];
         var1 = var2.bind(var4)(var1);

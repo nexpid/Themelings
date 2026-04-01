@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = '__esModule';
     var2 = var7.bind(var8)(var3, var2, var6);
     var2 = {};
-    var6 = function openGameProfileModal(arg1) {
+    var1 = function openGameProfileModal(arg1) {
         var1 = arg1;
         var8 = var1.applicationId;
         var6 = var1.gameProfileModalChecks;
@@ -68,12 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var17[var6](var16, var15, var14, var13, var12);
         return var1;
     };
-    var2['openGameProfileModal'] = var6;
-    var1 = function openGameProfileStoreLinksModal() {
-        var1 = undefined;
-        return var1;
-    };
-    var2['openGameProfileStoreLinksModal'] = var1;
+    var2['openGameProfileModal'] = var1;
     var1 = 4;
     var4 = var4[var1];
     var1 = undefined;

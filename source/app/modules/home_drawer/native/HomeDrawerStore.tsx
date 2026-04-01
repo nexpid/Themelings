@@ -79,7 +79,7 @@ case 4:
                 var5 = copyDataProperties(var8, var7);
                 var6 = false;
                 var5 = 'active';
-                var2[var5] = var6;
+                var2[4] = var6;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             }

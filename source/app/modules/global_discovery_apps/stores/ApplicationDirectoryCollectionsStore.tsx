@@ -241,7 +241,7 @@ case 9:
         var5 = var5.bind(var1)(var4);
         var4 = _closure1_slot7;
         var4 = var4.FETCHING;
-        var3[var5] = var4;
+        var3[4] = var4;
         _closure1_slot10 = var3;
         return var1;
     };
@@ -286,7 +286,7 @@ case 9:
         var8 = _closure1_slot9;
         var9 = var2;
         var6 = copyDataProperties(var9, var8);
-        var2[var5] = var4;
+        var2[4] = var4;
         _closure1_slot9 = var2;
         var2 = {};
         var8 = _closure1_slot10;
@@ -294,7 +294,7 @@ case 9:
         var4 = copyDataProperties(var9, var8);
         var4 = _closure1_slot7;
         var4 = var4.FETCHED;
-        var2[var5] = var4;
+        var2[4] = var4;
         _closure1_slot10 = var2;
         var2 = global;
         var4 = var2.Date;
@@ -304,7 +304,7 @@ case 9:
         var8 = _closure1_slot11;
         var9 = var2;
         var6 = copyDataProperties(var9, var8);
-        var2[var5] = var4;
+        var2[4] = var4;
         _closure1_slot11 = var2;
         return var1;
     };
@@ -325,7 +325,7 @@ case 9:
         var5 = var5.bind(var1)(var4);
         var4 = _closure1_slot7;
         var4 = var4.ERROR;
-        var3[var5] = var4;
+        var3[4] = var4;
         _closure1_slot10 = var3;
         return var1;
     };

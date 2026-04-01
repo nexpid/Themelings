@@ -52,10 +52,10 @@ case 2:
             var1['previous_setting_value'] = var5;
             var6 = arg2;
             var5 = arg1;
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = arg4;
             var5 = 'location_stack';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -57,13 +57,13 @@ case 3:
                     var5 = copyDataProperties(var8, var7);
                     var6 = _closure2_slot0;
                     var5 = 'userId';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var6 = true;
                     var5 = 'isPreviewingChanges';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var5 = _closure2_slot1;
                     var4 = 'sourceAnalyticsLocations';
-                    var1[var4] = var5;
+                    var1[3] = var5;
                     var1 = var2.bind(var3)(var1);
 case 2:
                     var1 = undefined;

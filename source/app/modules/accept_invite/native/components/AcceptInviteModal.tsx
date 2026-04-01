@@ -110,12 +110,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var3)(var5);
                     var6 = var5.clearDisplayedInvite;
                     var5 = 'onPressClose';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var2['render'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var1 = undefined;

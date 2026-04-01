@@ -338,7 +338,7 @@ case 12:
                     var6 = var1;
                     var3 = arraySpread(var6, var5, var4);
                     var2 = _closure2_slot2;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     var2 = 1;
                     var2 = var3 + var2;
                     return var1;

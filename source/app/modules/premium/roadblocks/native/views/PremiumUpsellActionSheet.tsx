@@ -500,7 +500,7 @@ case 16:
                     var14 = '.png';
                     var13 = var16.bind(var13)(var15, var14);
                     var3['image'] = var13;
-                    var1[var10] = var3;
+                    var1[9] = var3;
                     var3 = var7[var2];
                     var3 = var12.bind(var6)(var3);
                     var3 = var3.EntitlementFeatureNames;
@@ -537,7 +537,7 @@ case 16:
                     var13 = 'https://cdn.discordapp.com/assets/premium/roadblocks/emoji_';
                     var16 = var16.bind(var13)(var15, var14);
                     var3['image'] = var16;
-                    var1[var10] = var3;
+                    var1[9] = var3;
                     var3 = var7[var2];
                     var3 = var12.bind(var6)(var3);
                     var3 = var3.EntitlementFeatureNames;
@@ -596,7 +596,7 @@ case 16:
                     var16 = '_v2.png';
                     var16 = var18.bind(var17)(var15, var16);
                     var3['image'] = var16;
-                    var1[var10] = var3;
+                    var1[9] = var3;
                     var3 = var7[var2];
                     var3 = var12.bind(var6)(var3);
                     var3 = var3.EntitlementFeatureNames;
@@ -632,7 +632,7 @@ case 16:
                     var11 = var11.concat;
                     var11 = var11.bind(var13)(var15, var14);
                     var3['image'] = var11;
-                    var1[var10] = var3;
+                    var1[9] = var3;
                     var3 = var7[var2];
                     var3 = var12.bind(var6)(var3);
                     var3 = var3.EntitlementFeatureNames;
@@ -667,7 +667,7 @@ case 16:
                     var11 = var7[var11];
                     var11 = var5.bind(var6)(var11);
                     var3['image'] = var11;
-                    var1[var10] = var3;
+                    var1[9] = var3;
                     var3 = var7[var2];
                     var3 = var12.bind(var6)(var3);
                     var3 = var3.EntitlementFeatureNames;
@@ -701,7 +701,7 @@ case 16:
                     var11 = var7[var11];
                     var11 = var5.bind(var6)(var11);
                     var3['image'] = var11;
-                    var1[var10] = var3;
+                    var1[9] = var3;
                     var2 = var7[var2];
                     var2 = var12.bind(var6)(var2);
                     var2 = var2.EntitlementFeatureNames;
@@ -735,7 +735,7 @@ case 16:
                     var4 = var7[var4];
                     var4 = var5.bind(var6)(var4);
                     var2['image'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 }
             };
@@ -796,14 +796,14 @@ case 21:
                     var8 = var7.upsellType;
 case 20:
                     var7 = 'type';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var7 = global;
                     var8 = var7.location;
                     var7 = 'location';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var8 = _closure2_slot5;
                     var7 = 'location_stack';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var7 = 12;
@@ -821,7 +821,7 @@ case 22:
 case 24:
                     var7 = var7.bind(var8)(var6);
                     var6 = 'sku_id';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
                 }

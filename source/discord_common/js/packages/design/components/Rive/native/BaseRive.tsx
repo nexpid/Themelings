@@ -858,19 +858,19 @@ case 84:
             var22 = var9;
             var9 = copyDataProperties(var23, var22);
             var9 = 'style';
-            var5[var9] = var17;
+            var5[8] = var17;
             var9 = 'ref';
-            var5[var9] = var16;
+            var5[8] = var16;
             var9 = 'onStateChanged';
-            var5[var9] = var15;
+            var5[8] = var15;
             var9 = 'artboardName';
-            var5[var9] = var14;
+            var5[8] = var14;
             if(!(var11 == var13)) { _fun0001_ip = 85; continue _fun0001 }
 case 86:
             var13 = {};
 case 85:
             var9 = 'referencedAssets';
-            var5[var9] = var13;
+            var5[8] = var13;
             var9 = var8.current;
             if(!(var11 == var9)) { _fun0001_ip = 87; continue _fun0001 }
 case 88:
@@ -892,7 +892,7 @@ case 87:
             var9 = var10.bind(var11)(var8);
 case 89:
             var8 = 'dataBinding';
-            var5[var8] = var9;
+            var5[7] = var9;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

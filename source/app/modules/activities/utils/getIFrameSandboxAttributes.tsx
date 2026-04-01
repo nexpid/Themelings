@@ -34,11 +34,11 @@ case 3:
             var7 = var1;
             var4 = arraySpread(var7, var6, var5);
             var2 = 'allow-popups';
-            var1[var4] = var2;
+            var1[3] = var2;
             var2 = 1;
             var4 = var4 + var2;
             var2 = 'allow-popups-to-escape-sandbox';
-            var1[var4] = var2;
+            var1[3] = var2;
             var3 = var1;
 case 2:
             var2 = var3.join;

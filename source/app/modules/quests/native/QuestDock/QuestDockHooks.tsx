@@ -267,7 +267,7 @@ case 18:
                 var11 = copyDataProperties(var21, var20);
                 var14 = 0;
                 var11 = 'x';
-                var3[var11] = var14;
+                var3[10] = var14;
                 var11 = _closure2_slot9;
                 if(!(!(var11 > var14))) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
@@ -277,7 +277,7 @@ case 20:
                 var14 = _closure2_slot9;
 case 22:
                 var11 = 'y';
-                var3[var11] = var14;
+                var3[10] = var14;
                 var14 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var11 = var11[var15];
@@ -287,9 +287,9 @@ case 22:
                 var11 = var9.right;
                 var14 = var15.bind(var16)(var13, var14, var11);
                 var11 = 'width';
-                var3[var11] = var14;
+                var3[10] = var14;
                 var11 = 'height';
-                var3[var11] = var12;
+                var3[10] = var12;
                 var3 = var8.bind(var10)(var3);
                 var8 = _closure2_slot2;
                 var3 = var8.set;
@@ -307,7 +307,7 @@ case 10:
                 var11 = copyDataProperties(var21, var20);
                 var12 = 0;
                 var11 = 'x';
-                var3[var11] = var12;
+                var3[10] = var12;
                 var11 = _closure2_slot8;
                 if(var11) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
@@ -316,7 +316,7 @@ case 24:
                 var12 = var11 * var14;
 case 23:
                 var11 = 'y';
-                var3[var11] = var12;
+                var3[10] = var12;
                 var12 = _closure1_slot0;
                 var14 = _closure1_slot2;
                 var11 = 12;
@@ -341,10 +341,10 @@ case 28:
 case 30:
                 var12 = var14.bind(var15)(var13, var12, var11);
                 var11 = 'width';
-                var3[var11] = var12;
+                var3[10] = var12;
                 var12 = _closure1_slot7;
                 var11 = 'height';
-                var3[var11] = var12;
+                var3[10] = var12;
                 var3 = var8.bind(var10)(var3);
                 var3 = _closure2_slot2;
                 var2 = var3.set;
@@ -360,7 +360,7 @@ case 8:
                 var10 = copyDataProperties(var21, var20);
                 var11 = 0;
                 var10 = 'x';
-                var3[var10] = var11;
+                var3[9] = var11;
                 var10 = _closure2_slot8;
                 if(var10) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
@@ -369,7 +369,7 @@ case 32:
                 var11 = var10 * var12;
 case 31:
                 var10 = 'y';
-                var3[var10] = var11;
+                var3[9] = var11;
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot2;
                 var10 = 12;
@@ -394,10 +394,10 @@ case 36:
 case 38:
                 var10 = var11.bind(var12)(var13, var10, var9);
                 var9 = 'width';
-                var3[var9] = var10;
+                var3[8] = var10;
                 var10 = _closure1_slot8;
                 var9 = 'height';
-                var3[var9] = var10;
+                var3[8] = var10;
                 var3 = var7.bind(var8)(var3);
                 var7 = _closure2_slot2;
                 var3 = var7.set;

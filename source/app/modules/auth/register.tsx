@@ -594,9 +594,9 @@ case 53:
             var10 = var1;
             var4 = copyDataProperties(var10, var9);
             var4 = 'invite';
-            var1[var4] = var6;
+            var1[3] = var6;
             var4 = 'giftCodeSKUId';
-            var1[var4] = var5;
+            var1[3] = var5;
             var1 = var2.bind(var3)(var1);
             return var1;
         }

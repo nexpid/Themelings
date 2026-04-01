@@ -116,7 +116,7 @@ case 0:
             var35 = var7;
             var5 = copyDataProperties(var35, var34);
             var5 = 'bottom';
-            var7[var5] = var4;
+            var7[4] = var4;
             var5 = new Array(2);
             var5[0] = var7;
             var5[1] = var6;

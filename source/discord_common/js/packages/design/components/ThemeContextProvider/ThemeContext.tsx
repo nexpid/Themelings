@@ -14,7 +14,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var2;
         var2 = copyDataProperties(var5, var4);
         var2 = 'key';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var6 = function useThemeContext() {

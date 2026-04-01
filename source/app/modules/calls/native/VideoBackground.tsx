@@ -297,9 +297,9 @@ case 28:
 case 27:
             var12[1] = var10;
             var10 = 'avatarStyle';
-            var6[var10] = var12;
+            var6[9] = var12;
             var10 = 'isStageCall';
-            var6[var10] = var11;
+            var6[9] = var11;
             var8 = var9.bind(var5)(var8, var6);
             var6 = new Array(2);
             var6[0] = var8;

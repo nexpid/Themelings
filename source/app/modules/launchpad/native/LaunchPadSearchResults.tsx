@@ -920,12 +920,12 @@ case 21:
                     var2 = var3.scrollToTop;
                     var1 = var4 == var2;
 case 48:
-                    if(var1) { _fun0008_ip = 19; continue _fun0008 }
+                    if(var1) { _fun0008_ip = 49; continue _fun0008 }
 case 20:
                     var2 = var3.scrollToTop;
                     var1 = false;
                     var1 = var2.bind(var3)(var1);
-case 19:
+case 49:
                     var1 = undefined;
                     return var1;
                 }
@@ -954,7 +954,7 @@ case 0:
                     var1 = null;
                     var2 = var1 == var4;
                     var1 = 0;
-                    if(var2) { _fun0009_ip = 49; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 50; continue _fun0009 }
 case 16:
                     var2 = _closure2_slot0;
                     var2 = var2[var4];
@@ -967,8 +967,8 @@ case 16:
                     var2 = var7.bind(var6)(var2);
                     var2 = var2.AutocompleterResultTypes;
                     var2 = var2.VOICE_CHANNEL;
-                    if(!(var5 !== var2)) { _fun0009_ip = 50; continue _fun0009 }
-case 51:
+                    if(!(var5 !== var2)) { _fun0009_ip = 51; continue _fun0009 }
+case 52:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var2 = 30;
@@ -976,8 +976,8 @@ case 51:
                     var5 = var5.bind(var6)(var2);
                     var2 = _closure2_slot5;
                     var2 = var5.bind(var6)(var2);
-                    _fun0009_ip = 52; continue _fun0009;
-case 50:
+                    _fun0009_ip = 53; continue _fun0009;
+case 51:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var4 = 30;
@@ -991,9 +991,9 @@ case 50:
                     var4 = var4 + var3;
                     var3 = 2;
                     var2 = var4 - var3;
-case 52:
+case 53:
                     var1 = var2;
-case 49:
+case 50:
                     return var1;
                 }
             };
@@ -1006,8 +1006,8 @@ case 49:
             var7 = var11.length;
             var6 = 0;
             var6 = var7 > var6;
-            if(!var6) { _fun0007_ip = 53; continue _fun0007 }
-case 54:
+            if(!var6) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
             var8 = _closure1_slot9;
             var7 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -1037,7 +1037,7 @@ case 54:
             var9 = 'always';
             var6['keyboardShouldPersistTaps'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 53:
+case 54:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

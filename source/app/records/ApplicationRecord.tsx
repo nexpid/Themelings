@@ -155,9 +155,9 @@ case 5:
     var10 = var2.END_GAME_APPLICATION_ID;
     var6 = var2.POKER_NIGHT_APPLICATION_ID;
     var2 = {};
-    var2[var6] = var11;
+    var2[5] = var11;
     var6 = 12;
-    var2[var10] = var6;
+    var2[9] = var6;
     var _closure1_slot11 = var2;
     var2 = function(arg1) {
         var5 = function BasicApplicationRecord(arg1) {
@@ -392,10 +392,10 @@ case 0:
                 var4 = copyDataProperties(var9, var8);
                 var5 = var2.cover_image;
                 var4 = 'coverImage';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.primary_sku_id;
                 var4 = 'primarySkuId';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var4 = var2.bot;
                 var5 = null;
                 var4 = var5 != var4;
@@ -410,19 +410,19 @@ case 6:
                 var5 = var4 instanceof Object ? var4 : var6;
 case 31:
                 var4 = 'bot';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.third_party_skus;
                 var4 = 'thirdPartySkus';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.role_connections_verification_url;
                 var4 = 'roleConnectionsVerificationUrl';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.parent_id;
                 var4 = 'parentId';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var4 = var2.connection_entrypoint_url;
                 var2 = 'connectionEntrypointUrl';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var10 = var2;
@@ -628,7 +628,7 @@ case 66:
                         var3 = var4.bind(var5)(var2);
 case 65:
                         var2 = 'application';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     }
                 };
@@ -1073,10 +1073,10 @@ case 0:
                 var5 = copyDataProperties(var14, var13);
                 var6 = var2.cover_image;
                 var5 = 'coverImage';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var6 = var2.primary_sku_id;
                 var5 = 'primarySkuId';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var5 = var2.bot;
                 var6 = null;
                 var5 = var6 != var5;
@@ -1092,19 +1092,19 @@ case 5:
                 var7 = var5 instanceof Object ? var5 : var8;
 case 167:
                 var5 = 'bot';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.third_party_skus;
                 var5 = 'thirdPartySkus';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.role_connections_verification_url;
                 var5 = 'roleConnectionsVerificationUrl';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.overlay_warn;
                 var5 = 'overlayWarn';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.overlay_compatibility_hook;
                 var5 = 'overlayCompatibilityHook';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.overlay_methods;
                 if(!(var6 == var7)) { _fun0016_ip = 168; continue _fun0016 }
 case 169:
@@ -1118,19 +1118,19 @@ case 169:
                 var7 = var5.DEFAULT;
 case 168:
                 var5 = 'overlayMethods';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.hook;
                 var5 = 'hook';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.store_listing_sku_id;
                 var5 = 'storeListingSkuId';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.guild_id;
                 var5 = 'guildId';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.guild;
                 var5 = 'guild';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var5 = var2.publishers;
                 if(!(var6 == var5)) { _fun0016_ip = 170; continue _fun0016 }
 case 171:
@@ -1144,7 +1144,7 @@ case 170:
                 var7 = var8.bind(var9)(var5);
 case 172:
                 var5 = 'publishers';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var5 = var2.developers;
                 if(!(var6 == var5)) { _fun0016_ip = 173; continue _fun0016 }
 case 174:
@@ -1158,13 +1158,13 @@ case 173:
                 var7 = var8.bind(var9)(var5);
 case 175:
                 var5 = 'developers';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.eula_id;
                 var5 = 'eulaId';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var7 = var2.slug;
                 var5 = 'slug';
-                var1[var5] = var7;
+                var1[4] = var7;
                 var8 = _closure1_slot2;
                 var7 = _closure1_slot3;
                 var5 = 11;
@@ -1185,16 +1185,16 @@ case 179:
 case 178:
                 var8 = var8.bind(var9)(var7);
                 var7 = 'flags';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = var2.max_participants;
                 var7 = 'maxParticipants';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = var2.tags;
                 var7 = 'tags';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = var2.embedded_activity_config;
                 var7 = 'embeddedActivityConfig';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var7 = var2.integration_types_config;
                 var7 = var6 != var7;
                 var8 = undefined;
@@ -1258,22 +1258,22 @@ case 75:
                 var8 = var9.bind(var10)(var7);
 case 180:
                 var7 = 'integrationTypesConfig';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = var2.terms_of_service_url;
                 var7 = 'termsOfServiceUrl';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = var2.privacy_policy_url;
                 var7 = 'privacyPolicyUrl';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = var2.is_discoverable;
                 var7 = 'isDiscoverable';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = var2.directory_entry;
                 var7 = 'directoryEntry';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = var2.categories;
                 var7 = 'categories';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var7 = var2.linked_games;
                 var6 = var6 == var7;
                 var5 = undefined;
@@ -1300,20 +1300,20 @@ case 66:
                         var3 = var4.bind(var5)(var2);
 case 65:
                         var2 = 'application';
-                        var1[var2] = var3;
+                        var1[1] = var3;
                         return var1;
                     }
                 };
                 var5 = var6.bind(var7)(var4);
 case 134:
                 var4 = 'linkedGames';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var5 = var2.deeplink_uri;
                 var4 = 'deepLinkUri';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var4 = var2.application_account_link_benefit_config;
                 var2 = 'applicationAccountLinkBenefitConfig';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var15 = var2;

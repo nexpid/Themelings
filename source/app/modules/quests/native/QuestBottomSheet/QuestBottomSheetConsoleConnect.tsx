@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = copyDataProperties(var9, var8);
             var6 = _closure2_slot0;
             var2 = 'onPress';
-            var3[var2] = var6;
+            var3[1] = var6;
             var2 = var1.type;
             var1 = undefined;
             var1 = var5.bind(var1)(var4, var3, var2);

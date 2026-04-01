@@ -96,24 +96,24 @@ case 4:
             var12 = copyDataProperties(var19, var18);
             var16 = false;
             var12 = 'arrow';
-            var1[var12] = var16;
+            var1[11] = var16;
             var12 = 'label';
-            var1[var12] = var15;
+            var1[11] = var15;
             var12 = 'subLabel';
-            var1[var12] = var14;
+            var1[11] = var14;
             var12 = 'disabled';
-            var1[var12] = var11;
+            var1[11] = var11;
             var12 = {};
             var12['disabled'] = var11;
             var12['selected'] = var8;
             var11 = 'accessibilityState';
-            var1[var11] = var12;
+            var1[10] = var12;
             var12 = true;
             var11 = 'accessible';
-            var1[var11] = var12;
+            var1[10] = var12;
             var12 = 'radio';
             var11 = 'accessibilityRole';
-            var1[var11] = var12;
+            var1[10] = var12;
             var10 = var10 != var7;
             var12 = '';
             var11 = var12;
@@ -127,9 +127,9 @@ case 6:
             var7 = ', ';
             var10 = var10.bind(var12)(var13, var7, var11);
             var7 = 'accessibilityLabel';
-            var1[var7] = var10;
+            var1[6] = var10;
             var7 = 'accessibilityHint';
-            var1[var7] = var9;
+            var1[6] = var9;
             var7 = function onPress(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -150,7 +150,7 @@ case 8:
                 }
             };
             var6 = 'onPress';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = _closure1_slot3;
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -162,7 +162,7 @@ case 8:
             var5['selected'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'trailing';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

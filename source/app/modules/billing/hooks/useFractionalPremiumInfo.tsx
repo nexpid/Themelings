@@ -364,7 +364,7 @@ case 10:
             var23 = var2;
             var2 = copyDataProperties(var24, var23);
             var2 = 'fetched';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

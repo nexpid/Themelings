@@ -314,7 +314,7 @@ case 8:
                 var6 = copyDataProperties(var11, var10);
                 var7 = 'gift_customization';
                 var6 = 'initial_step';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };

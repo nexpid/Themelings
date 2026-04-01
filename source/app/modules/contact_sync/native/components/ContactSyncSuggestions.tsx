@@ -389,7 +389,7 @@ case 7:
             var5 = copyDataProperties(var7, var6);
             var1 = var1[var4];
             var1 = !var1;
-            var2[var4] = var1;
+            var2[3] = var1;
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
             return var1;

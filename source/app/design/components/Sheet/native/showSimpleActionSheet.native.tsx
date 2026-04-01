@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var8 = 'hideActionSheet';
-        var2[var8] = var9;
+        var2[7] = var9;
         var15 = var5;
         var14 = var3;
         var13 = var7;

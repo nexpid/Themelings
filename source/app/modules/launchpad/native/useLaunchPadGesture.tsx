@@ -371,7 +371,7 @@ case 33:
                         var7 = copyDataProperties(var16, var15);
                         var7 = true;
                         var9 = 'active';
-                        var5[var9] = var7;
+                        var5[8] = var7;
                         var5 = var6.bind(var8)(var5);
                         var6 = _closure2_slot4;
                         var5 = var6.setLaunchPadShown;
@@ -395,10 +395,10 @@ case 22:
                         var5 = var5.bind(var9)();
                         var9 = var5.position;
                         var5 = 'initialPullTabPosition';
-                        var6[var5] = var9;
+                        var6[4] = var9;
                         var5 = true;
                         var9 = 'active';
-                        var6[var9] = var5;
+                        var6[8] = var5;
                         var6 = var7.bind(var8)(var6);
                         var4 = _closure2_slot4;
                         var6 = var4.setLaunchPadPullTabScale;

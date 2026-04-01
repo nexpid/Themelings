@@ -744,7 +744,7 @@ case 55:
                                 var9 = var6;
                                 var7 = copyDataProperties(var9, var8);
                                 var7 = 'id';
-                                var6[var7] = var1;
+                                var6[6] = var1;
                                 var2['file'] = var6;
                                 var5 = _closure1_slot7;
                                 var5 = var5.InteractionModal;
@@ -959,7 +959,7 @@ case 49:
                     var5 = copyDataProperties(var8, var7);
                     var6 = arg1;
                     var5 = 'previewType';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
@@ -1037,10 +1037,10 @@ case 65:
                     var6 = copyDataProperties(var8, var7);
                     var6 = _closure3_slot0;
                     var5 = 'draftType';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var6 = _closure2_slot5;
                     var5 = 'includedUploadIds';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };

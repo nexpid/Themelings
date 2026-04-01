@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var3[var4];
                     var3 = undefined;
                     var3 = var6.bind(var3)(var5);
-                    var2[var4] = var3;
+                    var2[3] = var3;
                     var1['listings'] = var2;
                     return var1;
                 };
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var3[var4];
                     var3 = undefined;
                     var3 = var6.bind(var3)(var5);
-                    var2[var4] = var3;
+                    var2[3] = var3;
                     var1['editStateIdsForGroup'] = var2;
                     return var1;
                 };

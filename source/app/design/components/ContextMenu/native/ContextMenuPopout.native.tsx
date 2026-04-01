@@ -373,7 +373,7 @@ case 14:
     var10 = copyDataProperties(var18, var17);
     var11 = 'auto';
     var10 = 'height';
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['accessibleDismiss'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
@@ -542,10 +542,10 @@ case 24:
 case 26:
             var3 = 'top';
 case 25:
-            var21[var3] = var7;
-            var21[var27] = var5;
+            var21[2] = var7;
+            var21[26] = var5;
             var3 = 'maxHeight';
-            var21[var3] = var14;
+            var21[2] = var14;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var26 = 5;
@@ -555,7 +555,7 @@ case 25:
             var3 = var8 - var3;
             var5 = var3 - var5;
             var3 = 'maxWidth';
-            var21[var3] = var5;
+            var21[2] = var5;
             var3 = var9[var22];
             var8 = var7.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;

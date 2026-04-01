@@ -102,11 +102,11 @@ case 10:
                 var3 = _closure2_slot0;
                 var5 = var4 + var3;
                 var4 = 'x';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var2 = var2.y;
                 var3 = var2 + var3;
                 var2 = 'y';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var3 = var5.bind(var6)(var4);

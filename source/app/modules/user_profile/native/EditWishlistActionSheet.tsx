@@ -471,9 +471,9 @@ case 18:
                     var7 = copyDataProperties(var11, var10);
                     var9 = _closure2_slot4;
                     var7 = 'analyticsLocations';
-                    var2[var7] = var9;
+                    var2[6] = var9;
                     var7 = 'wishlistId';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var7 = _closure2_slot8;
                     var6 = _closure1_slot12;
                     if(var7) { _fun0005_ip = 19; continue _fun0005 }
@@ -484,7 +484,7 @@ case 19:
                     var7 = var6.WISHLIST_TOGGLE_PRIVATE;
 case 21:
                     var6 = 'action';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var7 = _closure2_slot6;
                     var6 = null;
                     var7 = var6 == var7;
@@ -496,7 +496,7 @@ case 23:
                     var6 = var5.bind(var7)();
 case 22:
                     var5 = 'productLines';
-                    var2[var5] = var6;
+                    var2[4] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }

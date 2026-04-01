@@ -151,23 +151,23 @@ case 12:
             var6 = copyDataProperties(var21, var20);
             var19 = arg2;
             var6 = 'ref';
-            var1[var6] = var19;
+            var1[5] = var19;
             var6 = 'size';
-            var1[var6] = var18;
+            var1[5] = var18;
             var18 = 'tertiary';
             var6 = 'variant';
-            var1[var6] = var18;
+            var1[5] = var18;
             var6 = 'icon';
-            var1[var6] = var17;
+            var1[5] = var17;
             var6 = 'iconPosition';
-            var1[var6] = var16;
+            var1[5] = var16;
             var6 = var12.padding;
             var16 = new Array(2);
             var16[0] = var6;
             var6 = var12.radius;
             var16[1] = var6;
             var6 = 'pillStyle';
-            var1[var6] = var16;
+            var1[5] = var16;
             if(!(var10 == var14)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
             var16 = var10 == var8;
@@ -180,7 +180,7 @@ case 18:
             var14 = var6;
 case 16:
             var6 = 'accessibilityLabel';
-            var1[var6] = var14;
+            var1[5] = var14;
             if(!(var10 == var7)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
             var6 = {};
@@ -188,7 +188,7 @@ case 21:
             var7 = var6;
 case 20:
             var6 = 'accessibilityValue';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = _closure1_slot5;
             var6 = _closure1_slot4;
             var5 = {};
@@ -217,7 +217,7 @@ case 25:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'textElement';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

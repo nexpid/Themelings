@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['request'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -226,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -311,7 +311,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -363,7 +363,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -412,7 +412,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -439,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var8['request'] = var10;
     var8['response'] = var1;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -470,7 +470,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -511,7 +511,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.RPCCommand;
@@ -539,7 +539,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var8['response'] = var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.RPCCommand;
@@ -557,7 +557,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['response'] = var9;
-    var2[var8] = var4;
+    var2[7] = var4;
     var4 = function Activity(arg1) {
         var3 = arg1;
         var2 = var3.object;

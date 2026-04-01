@@ -208,12 +208,12 @@ case 9:
             var19 = var1;
             var2 = copyDataProperties(var19, var18);
             var2 = 'isLurking';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = 'isGuest';
-            var1[var2] = var3;
+            var1[1] = var3;
             var3 = false;
             var2 = 'isPendingMember';
-            var1[var2] = var3;
+            var1[1] = var3;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
             var1 = {'disableReactionReads': true, 'disableReactionCreates': true, 'disableReactionUpdates': true, 'isLurking': false, 'isGuest': false, 'isPendingMember': false};

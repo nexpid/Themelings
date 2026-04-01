@@ -64,7 +64,7 @@ case 7:
             var6 = copyDataProperties(var9, var8);
             var7 = true;
             var6 = 'isUpdating';
-            var1[var6] = var7;
+            var1[5] = var7;
             var1 = var2.bind(var3)(var4, var1);
             _fun0002_ip = 8; continue _fun0002;
 case 6:
@@ -76,7 +76,7 @@ case 6:
             var5 = copyDataProperties(var9, var8);
             var6 = true;
             var5 = 'isUpdating';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
 case 8:
             var1 = undefined;
@@ -102,10 +102,10 @@ case 10:
             var9 = var7;
             var7 = copyDataProperties(var10, var9);
             var7 = 'error';
-            var1[var7] = var6;
+            var1[6] = var6;
             var8 = false;
             var7 = 'isUpdating';
-            var1[var7] = var8;
+            var1[6] = var8;
             var1 = var2.bind(var3)(var4, var1);
             _fun0003_ip = 11; continue _fun0003;
 case 9:
@@ -116,7 +116,7 @@ case 9:
             var10 = var1;
             var5 = copyDataProperties(var10, var9);
             var5 = 'error';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
 case 11:
             var1 = undefined;
@@ -154,17 +154,17 @@ case 15:
             var10 = var8;
             var8 = copyDataProperties(var11, var10);
             var8 = 'profile';
-            var2[var8] = var7;
+            var2[7] = var7;
             var8 = global;
             var9 = var8.Date;
             var8 = var9.now;
             var9 = var8.bind(var9)();
             var8 = 'lastSyncTimestamp';
-            var2[var8] = var9;
+            var2[7] = var9;
             var8 = _closure1_slot8;
             var9 = var8.FETCHED;
             var8 = 'fetchStatus';
-            var2[var8] = var9;
+            var2[7] = var9;
             var2 = var4.bind(var6)(var3, var2);
             _fun0004_ip = 12; continue _fun0004;
 case 14:
@@ -176,17 +176,17 @@ case 14:
             var11 = var1;
             var6 = copyDataProperties(var11, var10);
             var6 = 'profile';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = global;
             var7 = var6.Date;
             var6 = var7.now;
             var7 = var6.bind(var7)();
             var6 = 'lastSyncTimestamp';
-            var1[var6] = var7;
+            var1[5] = var7;
             var5 = _closure1_slot8;
             var6 = var5.FETCHED;
             var5 = 'fetchStatus';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
 case 12:
             var1 = undefined;
@@ -496,7 +496,7 @@ case 7:
             var6 = _closure1_slot8;
             var7 = var6.FETCHING;
             var6 = 'fetchStatus';
-            var1[var6] = var7;
+            var1[5] = var7;
             var1 = var2.bind(var3)(var4, var1);
             _fun0011_ip = 37; continue _fun0011;
 case 36:
@@ -509,7 +509,7 @@ case 36:
             var5 = _closure1_slot8;
             var6 = var5.FETCHING;
             var5 = 'fetchStatus';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
 case 37:
             var1 = undefined;
@@ -536,17 +536,17 @@ case 39:
             var9 = var6;
             var6 = copyDataProperties(var10, var9);
             var6 = 'profile';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = global;
             var8 = var6.Date;
             var6 = var8.now;
             var8 = var6.bind(var8)();
             var6 = 'lastSyncTimestamp';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = _closure1_slot8;
             var8 = var6.FETCHED;
             var6 = 'fetchStatus';
-            var1[var6] = var8;
+            var1[5] = var8;
             var1 = var2.bind(var3)(var4, var1);
             _fun0012_ip = 40; continue _fun0012;
 case 38:
@@ -557,17 +557,17 @@ case 38:
             var10 = var1;
             var6 = copyDataProperties(var10, var9);
             var6 = 'profile';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = global;
             var7 = var6.Date;
             var6 = var7.now;
             var7 = var6.bind(var7)();
             var6 = 'lastSyncTimestamp';
-            var1[var6] = var7;
+            var1[5] = var7;
             var5 = _closure1_slot8;
             var6 = var5.FETCHED;
             var5 = 'fetchStatus';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
 case 40:
             var1 = undefined;
@@ -594,11 +594,11 @@ case 10:
             var9 = var6;
             var6 = copyDataProperties(var10, var9);
             var6 = 'error';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = _closure1_slot8;
             var8 = var6.FETCHED;
             var6 = 'fetchStatus';
-            var1[var6] = var8;
+            var1[5] = var8;
             var1 = var2.bind(var3)(var4, var1);
             _fun0013_ip = 42; continue _fun0013;
 case 41:
@@ -609,11 +609,11 @@ case 41:
             var10 = var1;
             var6 = copyDataProperties(var10, var9);
             var6 = 'error';
-            var1[var6] = var7;
+            var1[5] = var7;
             var5 = _closure1_slot8;
             var6 = var5.FETCHED;
             var5 = 'fetchStatus';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
 case 42:
             var1 = undefined;
@@ -641,10 +641,10 @@ case 39:
             var9 = var7;
             var7 = copyDataProperties(var10, var9);
             var7 = 'profile';
-            var1[var7] = var6;
+            var1[6] = var6;
             var8 = false;
             var7 = 'isUpdating';
-            var1[var7] = var8;
+            var1[6] = var8;
             var1 = var2.bind(var3)(var4, var1);
             _fun0014_ip = 44; continue _fun0014;
 case 43:
@@ -655,7 +655,7 @@ case 43:
             var10 = var1;
             var5 = copyDataProperties(var10, var9);
             var5 = 'profile';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var2.bind(var3)(var4, var1);
 case 44:
             var1 = undefined;
@@ -692,17 +692,17 @@ case 19:
             var10 = var7;
             var7 = copyDataProperties(var11, var10);
             var7 = 'profile';
-            var2[var7] = var8;
+            var2[6] = var8;
             var7 = global;
             var9 = var7.Date;
             var7 = var9.now;
             var9 = var7.bind(var9)();
             var7 = 'lastSyncTimestamp';
-            var2[var7] = var9;
+            var2[6] = var9;
             var7 = _closure1_slot8;
             var9 = var7.FETCHED;
             var7 = 'fetchStatus';
-            var2[var7] = var9;
+            var2[6] = var9;
             var2 = var3.bind(var4)(var5, var2);
             _fun0015_ip = 47; continue _fun0015;
 case 48:
@@ -713,17 +713,17 @@ case 48:
             var11 = var2;
             var7 = copyDataProperties(var11, var10);
             var7 = 'profile';
-            var2[var7] = var8;
+            var2[6] = var8;
             var7 = global;
             var8 = var7.Date;
             var7 = var8.now;
             var8 = var7.bind(var8)();
             var7 = 'lastSyncTimestamp';
-            var2[var7] = var8;
+            var2[6] = var8;
             var6 = _closure1_slot8;
             var7 = var6.FETCHED;
             var6 = 'fetchStatus';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var3.bind(var4)(var5, var2);
 case 47:
             return var1;
@@ -803,7 +803,7 @@ case 56:
             var3 = copyDataProperties(var10, var9);
             var7 = var1.name;
             var3 = 'name';
-            var6[var3] = var7;
+            var6[2] = var7;
             var3 = var1.icon;
             var8 = var4 != var3;
             var7 = null;
@@ -812,7 +812,7 @@ case 58:
             var7 = var3;
 case 57:
             var3 = 'icon';
-            var6[var3] = var7;
+            var6[2] = var7;
             var3 = var1.description;
             var8 = var4 != var3;
             var7 = '';
@@ -821,7 +821,7 @@ case 44:
             var7 = var3;
 case 37:
             var3 = 'description';
-            var6[var3] = var7;
+            var6[2] = var7;
             var3 = var1.discovery_splash;
             var7 = var4 != var3;
             var4 = null;
@@ -830,7 +830,7 @@ case 60:
             var4 = var3;
 case 59:
             var3 = 'customBanner';
-            var6[var3] = var4;
+            var6[2] = var4;
             var4 = _closure1_slot9;
             var3 = var4.set;
             var2 = var1.id;
@@ -839,7 +839,7 @@ case 59:
             var9 = var5;
             var5 = copyDataProperties(var10, var9);
             var5 = 'profile';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;
             return var1;
@@ -882,15 +882,15 @@ case 63:
             var7 = copyDataProperties(var11, var10);
             var9 = false;
             var7 = 'isUpdating';
-            var2[var7] = var9;
+            var2[6] = var9;
             var7 = {};
             var11 = var7;
             var10 = var6;
             var6 = copyDataProperties(var11, var10);
             var6 = 'visibility';
-            var7[var6] = var8;
+            var7[5] = var8;
             var6 = 'profile';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var3.bind(var4)(var5, var2);
 case 62:
             return var1;

@@ -380,7 +380,7 @@ case 11:
             var7 = copyDataProperties(var9, var8);
             var7 = var6.isElementFullscreen;
             var6 = 'isElementFullscreen';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             var1 = true;
 case 17:
@@ -416,7 +416,7 @@ case 19:
             var7 = copyDataProperties(var9, var8);
             var7 = var6.focused;
             var6 = 'focused';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             var1 = true;
 case 18:
@@ -458,7 +458,7 @@ case 8:
             var6 = var6.height;
             var7['height'] = var6;
             var6 = 'windowSize';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             var1 = true;
 case 22:
@@ -508,7 +508,7 @@ case 11:
             var7 = copyDataProperties(var9, var8);
             var7 = var6.visible;
             var6 = 'visible';
-            var2[var6] = var7;
+            var2[5] = var7;
             var2 = var4.bind(var5)(var3, var2);
             var1 = true;
 case 17:

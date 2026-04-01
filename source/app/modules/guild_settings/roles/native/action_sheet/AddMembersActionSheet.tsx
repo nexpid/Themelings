@@ -252,7 +252,7 @@ case 16:
                 var5 = var1;
                 var2 = copyDataProperties(var5, var4);
                 var2 = 'id';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var24 = var25.bind(var26)(var24);
@@ -734,7 +734,7 @@ case 0:
             var10 = var1.Object;
             var2 = var10.keys;
             var2 = var2.bind(var10)(var15);
-            var5[var8] = var2;
+            var5[7] = var2;
             var2 = 'AddMembersActionSheet';
             var2 = var6.bind(var7)(var5, var2);
             var5 = var1.Object;

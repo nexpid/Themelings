@@ -40,12 +40,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var12 = var10.AUTO;
     var11 = {};
-    var4[var12] = var11;
+    var4[11] = var11;
     var11 = var10.FULL;
     var10 = {};
     var12 = {'width': 1280, 'height': 720};
     var10['encode'] = var12;
-    var4[var11] = var10;
+    var4[10] = var10;
     var6 = var6.bind(var7)(var4);
     var4 = function WantsVideoQuality(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -632,7 +632,7 @@ case 80:
                 var11 = var6;
                 var6 = copyDataProperties(var12, var11);
                 var6 = 'framerate';
-                var5[var6] = var8;
+                var5[5] = var8;
                 var1['encode'] = var5;
                 var5 = {};
                 var6 = var4.options;

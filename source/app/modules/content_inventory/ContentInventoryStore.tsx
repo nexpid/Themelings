@@ -293,7 +293,7 @@ case 12:
                         var7 = var5;
                         var4 = arraySpread(var8, var7, var6);
                         var3 = var3.content;
-                        var2[var4] = var3;
+                        var2[3] = var3;
                         var3 = 1;
                         var3 = var4 + var3;
                         var1 = var2;

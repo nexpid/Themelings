@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2['render'] = var10;
-        var6[var3] = var2;
+        var6[2] = var2;
         var3 = var5.MEMBER_EDIT;
         var2 = {};
         var10 = function render(arg1) {
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2['render'] = var10;
-        var6[var3] = var2;
+        var6[2] = var2;
         var3 = var5.MEMBER_KICK;
         var2 = {};
         var10 = function headerTitle() {
@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2['render'] = var10;
-        var6[var3] = var2;
+        var6[2] = var2;
         var3 = var5.MEMBER_BAN;
         var2 = {};
         var10 = function headerTitle() {
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2['render'] = var7;
-        var6[var3] = var2;
+        var6[2] = var2;
         var3 = _closure1_slot4;
         var1 = 11;
         var1 = var9[var1];

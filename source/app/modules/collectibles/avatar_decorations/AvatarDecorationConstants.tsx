@@ -19,13 +19,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var8 = var4.SIZE_56;
     var7 = 4;
-    var2[var8] = var7;
+    var2[7] = var7;
     var8 = var4.SIZE_80;
     var7 = 6;
-    var2[var8] = var7;
+    var2[7] = var7;
     var7 = var4.SIZE_120;
     var4 = 8;
-    var2[var7] = var4;
+    var2[6] = var4;
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

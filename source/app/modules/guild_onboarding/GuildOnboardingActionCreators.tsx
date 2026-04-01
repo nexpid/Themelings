@@ -615,7 +615,7 @@ case 35:
             var22 = var22.length;
             var23 = var22 - var23;
             var22 = 'step';
-            var2[var22] = var23;
+            var2[21] = var23;
             var21 = var4 == var21;
             var22 = 0;
             if(var21) { _fun0006_ip = 36; continue _fun0006 }
@@ -633,23 +633,23 @@ case 37:
             var22 = var21.length;
 case 36:
             var21 = 'options_selected';
-            var2[var21] = var22;
+            var2[20] = var22;
             var17 = var17.length;
             var21 = var17 > var6;
             var17 = 'skipped';
-            var2[var17] = var21;
+            var2[16] = var21;
             var21 = false;
             var17 = 'back';
-            var2[var17] = var21;
+            var2[16] = var21;
             var17 = 'in_onboarding';
-            var2[var17] = var11;
+            var2[16] = var11;
             var17 = 'is_final_step';
-            var2[var17] = var11;
+            var2[16] = var11;
             var21 = var12.size;
             var17 = 'roles_granted';
-            var2[var17] = var21;
+            var2[16] = var21;
             var17 = 'channels_granted';
-            var2[var17] = var19;
+            var2[16] = var19;
             var19 = var20.map;
             var17 = function(arg1) {
                 var1 = arg1;
@@ -658,7 +658,7 @@ case 36:
             };
             var19 = var19.bind(var20)(var17);
             var17 = 'guild_onboarding_covered_channel_ids';
-            var2[var17] = var19;
+            var2[16] = var19;
             var17 = var18.map;
             var16 = function(arg1) {
                 var1 = arg1;
@@ -667,19 +667,19 @@ case 36:
             };
             var17 = var17.bind(var18)(var16);
             var16 = 'guild_onboarding_uncovered_channel_ids';
-            var2[var16] = var17;
+            var2[15] = var17;
             var17 = var14.connected;
             var16 = 'provider_connections_connected';
-            var2[var16] = var17;
+            var2[15] = var17;
             var16 = var14.notConnected;
             var14 = 'provider_connections_not_connected';
-            var2[var14] = var16;
+            var2[13] = var16;
             var16 = var13.connected;
             var14 = 'application_connections_connected';
-            var2[var14] = var16;
+            var2[13] = var16;
             var14 = var13.notConnected;
             var13 = 'application_connections_not_connected';
-            var2[var13] = var14;
+            var2[12] = var14;
             var2 = var9.bind(var10)(var8, var2);
             var8 = _closure1_slot0;
             var14 = _closure1_slot2;

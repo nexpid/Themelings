@@ -248,11 +248,11 @@ case 13:
             var17 = var10;
             var10 = copyDataProperties(var18, var17);
             var10 = 'style';
-            var5[var10] = var4;
+            var5[9] = var4;
             var10 = 'transitionState';
-            var5[var10] = var12;
+            var5[9] = var12;
             var10 = 'onClose';
-            var5[var10] = var11;
+            var5[9] = var11;
             var6 = var8.bind(var9)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;

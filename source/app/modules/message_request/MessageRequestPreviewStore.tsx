@@ -578,7 +578,7 @@ case 9:
             var6 = var6.message;
             var7 = var8.bind(var9)(var7, var6);
             var6 = 'message';
-            var3[var6] = var7;
+            var3[5] = var7;
             var4[var5] = var3;
             var2 = undefined;
 case 63:

@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.bind(var9)(var4);
         var1 = _closure1_slot5;
         var4 = var1.VIEW_PROFILE;
-        var2[var5] = var4;
+        var2[4] = var4;
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var4.lfIHs4;
         var5 = var5.bind(var9)(var4);
         var4 = var1.ADD_REACTION;
-        var2[var5] = var4;
+        var2[4] = var4;
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var4["5IEsGx"];
         var5 = var5.bind(var9)(var4);
         var4 = var1.REPLY;
-        var2[var5] = var4;
+        var2[4] = var4;
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var5 = var4.intl;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var3.ChPNkN;
         var3 = var4.bind(var5)(var3);
         var1 = var1.MESSAGE_ACTIONS_MENU;
-        var2[var3] = var1;
+        var2[2] = var1;
         var1 = arg1;
         var1 = var2[var1];
         return var1;

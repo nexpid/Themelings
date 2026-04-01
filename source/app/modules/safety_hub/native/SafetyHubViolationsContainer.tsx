@@ -419,7 +419,7 @@ case 25:
                     var8 = var7.name;
 case 24:
                     var7 = 'guildName';
-                    var3[var7] = var8;
+                    var3[6] = var8;
                     var2 = var5.bind(var6)(var4, var3);
 case 23:
                     var1 = var2;

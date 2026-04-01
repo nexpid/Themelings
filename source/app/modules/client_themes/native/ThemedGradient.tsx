@@ -943,7 +943,7 @@ case 100:
             var20 = var11;
             var15 = copyDataProperties(var21, var20);
             var15 = 'gradient';
-            var8[var15] = var16;
+            var8[14] = var16;
             var21 = var13.bind(var6)(var12, var8);
             var22 = undefined;
             var20 = var3;
@@ -966,7 +966,7 @@ case 98:
             var15 = copyDataProperties(var21, var20);
             var15 = var14.baseTheme;
             var14 = 'theme';
-            var8[var14] = var15;
+            var8[13] = var15;
             var21 = var13.bind(var6)(var12, var8);
             var22 = undefined;
             var20 = var3;
@@ -985,7 +985,7 @@ case 95:
             var20 = var11;
             var13 = copyDataProperties(var21, var20);
             var13 = 'gradient';
-            var2[var13] = var10;
+            var2[12] = var10;
             var21 = var12.bind(var6)(var9, var2);
             var22 = undefined;
             var20 = var3;
@@ -1007,7 +1007,7 @@ case 94:
             var11 = copyDataProperties(var21, var20);
             var11 = var10.theme;
             var10 = 'theme';
-            var1[var10] = var11;
+            var1[9] = var11;
             var21 = var9.bind(var6)(var8, var1);
             var22 = undefined;
             var20 = var3;
@@ -1057,7 +1057,7 @@ case 87:
             var11 = copyDataProperties(var16, var15);
             var11 = var10.theme;
             var10 = 'theme';
-            var2[var10] = var11;
+            var2[9] = var11;
             var16 = var9.bind(var6)(var8, var2);
             var15 = var1.withOverlay;
             var17 = undefined;

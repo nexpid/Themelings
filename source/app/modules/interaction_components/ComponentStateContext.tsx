@@ -71,7 +71,7 @@ case 5:
                         var2 = _closure2_slot0;
                         var3 = var2.id;
                         var2 = _closure3_slot0;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         return var1;
                     };
                     var3 = var4.bind(var5)(var3);

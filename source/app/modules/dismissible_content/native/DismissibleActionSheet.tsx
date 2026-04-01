@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = 'markAsDismissed';
-            var2[var7] = var8;
+            var2[6] = var8;
             var2 = var5.bind(var6)(var4, var3, var2);
             return var1;
         };

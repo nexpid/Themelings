@@ -182,19 +182,19 @@ case 16:
                 return var1;
             };
             var4 = 'POST_CONNECTION_OPEN';
-            var2[var4] = var5;
+            var2[3] = var5;
             var10 = {};
             var10['callback'] = var9;
             var4 = false;
             var10['autoSubscribe'] = var4;
             var5 = 'MESSAGE_CREATE';
-            var2[var5] = var10;
+            var2[4] = var10;
             var5 = 'MESSAGE_UPDATE';
-            var2[var5] = var9;
+            var2[4] = var9;
             var5 = 'LOAD_MESSAGES_SUCCESS';
-            var2[var5] = var8;
+            var2[4] = var8;
             var5 = 'LOAD_MESSAGES_AROUND_SUCCESS';
-            var2[var5] = var8;
+            var2[4] = var8;
             var8 = function LOAD_RECENT_MENTIONS_SUCCESS(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -222,7 +222,7 @@ case 17:
                 }
             };
             var5 = 'LOAD_RECENT_MENTIONS_SUCCESS';
-            var2[var5] = var8;
+            var2[4] = var8;
             var8 = function LOAD_PINNED_MESSAGES_SUCCESS(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -251,11 +251,11 @@ case 17:
                 }
             };
             var5 = 'LOAD_PINNED_MESSAGES_SUCCESS';
-            var2[var5] = var8;
+            var2[4] = var8;
             var5 = 'SEARCH_MESSAGES_SUCCESS';
-            var2[var5] = var7;
+            var2[4] = var7;
             var5 = 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS';
-            var2[var5] = var7;
+            var2[4] = var7;
             var5 = {};
             var6 = function callback(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -276,7 +276,7 @@ case 16:
             var5['callback'] = var6;
             var5['autoSubscribe'] = var4;
             var4 = 'CHANNEL_SELECT';
-            var2[var4] = var5;
+            var2[3] = var5;
             var3['actions'] = var2;
             return var1;
         }

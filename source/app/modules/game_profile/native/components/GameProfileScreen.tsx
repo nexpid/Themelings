@@ -963,7 +963,7 @@ case 45:
             };
             var3['render'] = var2;
             var2 = 'GAME_PROFILE';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         };
         var2 = new Array(0);

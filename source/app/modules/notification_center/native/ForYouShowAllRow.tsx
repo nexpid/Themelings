@@ -296,7 +296,7 @@ case 7:
             var7 = 4;
             var8 = var8 + var7;
             var7 = 'marginRight';
-            var2[var7] = var8;
+            var2[6] = var8;
             var1['avatar'] = var2;
             var2 = {'width': 8, 'height': 32};
             var7 = var3[var6];

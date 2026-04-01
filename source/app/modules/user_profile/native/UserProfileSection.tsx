@@ -129,7 +129,7 @@ case 4:
             var2 = var7.bind(var13)(var3, var1);
 case 5:
             var1 = 'borderColor';
-            var11[var1] = var2;
+            var11[0] = var2;
             var3 = _closure1_slot4;
             var2 = _closure1_slot2;
             var1 = {};
@@ -189,7 +189,7 @@ case 8:
             var5 = var8.bind(var4)(var7, var5);
             var6[1] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

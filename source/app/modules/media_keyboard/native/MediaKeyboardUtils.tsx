@@ -271,7 +271,7 @@ case 43:
                 var2 = copyDataProperties(var5, var4);
                 var3 = _closure2_slot1;
                 var2 = 'origin';
-                var1[var2] = var3;
+                var1[1] = var3;
                 return var1;
             };
             var7 = var3.bind(var4)(var2);
@@ -1439,12 +1439,12 @@ case 131:
             var9 = copyDataProperties(var16, var15);
             var10 = arg5;
             var9 = 'origin';
-            var6[var9] = var10;
+            var6[8] = var10;
             var9 = var7.name;
             var7 = 'id';
-            var6[var7] = var9;
+            var6[6] = var9;
             var7 = 'filename';
-            var6[var7] = var8;
+            var6[6] = var8;
             var2['file'] = var6;
             var2['draftType'] = var5;
             var5 = false;
@@ -1788,7 +1788,7 @@ case 146:
             var4 = copyDataProperties(var8, var7);
             var5 = arg1;
             var4 = 'previewType';
-            var2[var4] = var5;
+            var2[3] = var5;
             var2 = var3.bind(var1)(var2);
             return var1;
         };
@@ -1828,7 +1828,7 @@ case 146:
             var5 = copyDataProperties(var9, var8);
             var5 = _closure2_slot1;
             var4 = 'draftType';
-            var2[var4] = var5;
+            var2[3] = var5;
             var2 = var3.bind(var1)(var2);
             return var1;
         };

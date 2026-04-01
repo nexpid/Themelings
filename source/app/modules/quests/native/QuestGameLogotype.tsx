@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var4;
     var8 = copyDataProperties(var15, var14);
     var8 = 'overshootClamping';
-    var4[var8] = var9;
+    var4[7] = var9;
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];

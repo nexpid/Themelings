@@ -104,7 +104,7 @@ case 5:
                 var8 = var7.reason;
 case 4:
                 var7 = 'reason';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var8 = function onComplete(arg1) {
                     var4 = _closure3_slot1;
                     var3 = var4.push;
@@ -175,7 +175,7 @@ case 8:
                     return var1;
                 };
                 var7 = 'onComplete';
-                var1[var7] = var8;
+                var1[6] = var8;
                 var7 = _closure2_slot0;
                 var7 = var7.allowDeletePhone;
                 var6 = null;
@@ -236,13 +236,13 @@ case 2:
                 };
 case 9:
                 var5 = 'onDeletePhone';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             }
         };
         var7['render'] = var13;
-        var6[var10] = var7;
+        var6[9] = var7;
         var10 = var5.VERIFY_PHONE;
         var7 = {};
         var13 = var9[var12];
@@ -272,7 +272,7 @@ case 9:
             var6 = copyDataProperties(var9, var8);
             var7 = true;
             var6 = 'disableKeyboardAvoidingView';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = function onVerified(arg1) {
                 var1 = arg1;
                 var _closure4_slot0 = var1;
@@ -356,12 +356,12 @@ case 14:
                 return var1;
             };
             var5 = 'onVerified';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
         var7['render'] = var13;
-        var6[var10] = var7;
+        var6[9] = var7;
         var10 = var5.VERIFY_PASSWORD;
         var7 = {};
         var12 = var9[var12];
@@ -385,7 +385,7 @@ case 14:
             return var1;
         };
         var7['render'] = var11;
-        var6[var10] = var7;
+        var6[9] = var7;
         var1['screens'] = var6;
         var5 = var5.ADD_PHONE;
         var1['initialRouteName'] = var5;

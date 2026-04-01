@@ -232,12 +232,12 @@ case 9:
                 var3 = var3.newMemberTimestamp;
                 var11 = var4 <= var3;
                 var3 = 'isCurrentGuildMemberByTimestamp';
-                var1[var3] = var11;
+                var1[2] = var11;
                 var11 = false;
                 var3 = 'isIncludedInSearchResults';
-                var1[var3] = var11;
+                var1[2] = var11;
                 var3 = 'user';
-                var1[var3] = var9;
+                var1[2] = var9;
                 var3 = 6;
                 var3 = var6[var3];
                 var6 = var5.bind(var10)(var3);
@@ -257,9 +257,9 @@ case 12:
 case 11:
                 var5 = var5.bind(var6)(var7, var3);
                 var3 = 'sort';
-                var1[var3] = var5;
+                var1[2] = var5;
                 var3 = 'joinedAtTimestamp';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var21 = var1;
                 var20 = var2;
                 var2 = copyDataProperties(var21, var20);

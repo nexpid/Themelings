@@ -240,13 +240,13 @@ case 0:
                         var7 = var8.getAttachmentFilename;
                         var7 = var7.bind(var8)(var6);
                         var8 = 'filename';
-                        var5[var8] = var7;
+                        var5[7] = var7;
                         var9 = 0;
                         var7 = 'size';
-                        var5[var7] = var9;
+                        var5[6] = var9;
                         var7 = var6.url;
                         var9 = 'proxy_url';
-                        var5[var9] = var7;
+                        var5[8] = var7;
                         var7 = 16;
                         var1 = var1[var7];
                         var10 = var2.bind(var4)(var1);
@@ -271,15 +271,15 @@ case 8:
                         var7 = copyDataProperties(var12, var11);
                         var10 = _closure1_slot14;
                         var7 = 'width';
-                        var2[var7] = var10;
+                        var2[6] = var10;
                         var10 = _closure1_slot15;
                         var7 = 'height';
-                        var2[var7] = var10;
+                        var2[6] = var10;
                         var7 = _closure2_slot5;
                         var7 = var7.uri;
-                        var2[var9] = var7;
+                        var2[8] = var7;
                         var7 = _closure1_slot16;
-                        var2[var8] = var7;
+                        var2[7] = var7;
                         var1 = var2;
 case 7:
                         _fun0002_ip = 9; continue _fun0002;
@@ -303,7 +303,7 @@ case 13:
                         var9 = _closure1_slot12;
 case 12:
                         var8 = 'width';
-                        var2[var8] = var9;
+                        var2[7] = var9;
                         var7 = _closure2_slot3;
                         var6 = var6.id;
                         var6 = var7[var6];
@@ -318,7 +318,7 @@ case 17:
                         var4 = _closure1_slot13;
 case 16:
                         var3 = 'height';
-                        var2[var3] = var4;
+                        var2[2] = var4;
                         var1 = var2;
 case 9:
                         return var1;
@@ -538,7 +538,7 @@ case 27:
                             var2 = _closure4_slot0;
                             var3 = var2.id;
                             var2 = _closure5_slot0;
-                            var1[var3] = var2;
+                            var1[2] = var2;
                             return var1;
                         };
                         var1 = var3.bind(var2)(var1);
@@ -733,7 +733,7 @@ case 33:
                         var4 = var4.naturalSize;
                         var4 = var4.height;
                         var2['height'] = var4;
-                        var1[var3] = var2;
+                        var1[2] = var2;
                         return var1;
                     };
                     var4 = var5.bind(var1)(var4);

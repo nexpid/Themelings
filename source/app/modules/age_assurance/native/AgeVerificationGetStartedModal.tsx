@@ -262,7 +262,7 @@ case 10:
                         return var1;
                     };
                     var3['render'] = var12;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var3 = _closure1_slot7;
                     var11 = var3.RETRY;
                     var3 = {};
@@ -295,7 +295,7 @@ case 10:
                         return var1;
                     };
                     var3['render'] = var12;
-                    var1[var11] = var3;
+                    var1[10] = var3;
                     var2 = _closure1_slot7;
                     var3 = var2.EXPRESSIVE_INTRO;
                     var2 = {};
@@ -332,7 +332,7 @@ case 10:
                         return var1;
                     };
                     var2['render'] = var4;
-                    var1[var3] = var2;
+                    var1[2] = var2;
                     return var1;
                 };
                 var15 = undefined;

@@ -976,7 +976,7 @@ case 102:
                 var32 = var26;
                 var31 = var4;
                 var27 = copyDataProperties(var32, var31);
-                var26[var10] = var11;
+                var26[9] = var11;
                 var28 = var26;
 case 101:
                 var26 = var28;
@@ -996,9 +996,9 @@ case 104:
                 var28 = var3._members;
                 var28 = var28.newMemberTimestamp;
                 var28 = var29 <= var28;
-                var27[var13] = var28;
+                var27[12] = var28;
                 var28 = var3.lastRefreshTimestamp;
-                var27[var12] = var28;
+                var27[11] = var28;
                 var26 = var27;
 case 103:
                 var27 = var3._rawUpdateMember;

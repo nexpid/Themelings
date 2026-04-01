@@ -424,13 +424,13 @@ case 40:
             var16 = var8;
             var8 = copyDataProperties(var17, var16);
             var8 = 'showBadge';
-            var1[var8] = var9;
+            var1[7] = var9;
             if(!(var7 != var5)) { _fun0002_ip = 42; continue _fun0002 }
 case 43:
             var6 = var5;
 case 42:
             var5 = 'lottieComponentColor';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -536,7 +536,7 @@ case 48:
             var7['children'] = var8;
             var8 = var3.bind(var4)(var2, var7);
             var7 = 'children';
-            var5[var7] = var8;
+            var5[6] = var8;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

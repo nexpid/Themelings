@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = copyDataProperties(var6, var5);
             var4 = var2.dismissible_content;
             var2 = 'dismissibleContent';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
             var7 = var2;

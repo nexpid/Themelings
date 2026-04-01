@@ -237,7 +237,7 @@ case 8:
             return var1;
         };
         var2['render'] = var11;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot11;
         var3 = var2.CREATION_INTENT;
         var2 = {};
@@ -273,7 +273,7 @@ case 8:
             return var1;
         };
         var2['render'] = var11;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot11;
         var3 = var2.CREATE_SERVER;
         var2 = {};
@@ -328,7 +328,7 @@ case 8:
                 return var1;
             };
             var6 = 'onCreate';
-            var1[var6] = var7;
+            var1[5] = var7;
             var8 = _closure1_slot0;
             var5 = 21;
             var6 = var9[var5];
@@ -341,12 +341,12 @@ case 8:
             var5 = var5["5HZu07"];
             var6 = var6.bind(var7)(var5);
             var5 = 'customTitle';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
         var2['render'] = var11;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot11;
         var3 = var2.JOIN_SERVER;
         var2 = {};
@@ -383,7 +383,7 @@ case 8:
             return var1;
         };
         var2['render'] = var11;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot11;
         var3 = var2.ACCEPT_INVITE;
         var2 = {};
@@ -426,7 +426,7 @@ case 8:
             return var1;
         };
         var2['render'] = var11;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot11;
         var3 = var2.CHANNEL_PROMPT;
         var2 = {};
@@ -482,7 +482,7 @@ case 8:
             return var1;
         };
         var2['render'] = var8;
-        var1[var3] = var2;
+        var1[2] = var2;
         var2 = _closure1_slot11;
         var3 = var2.JOIN_STUDENT_HUB;
         var2 = {};
@@ -516,7 +516,7 @@ case 8:
             return var1;
         };
         var2['render'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot19 = var1;

@@ -126,7 +126,7 @@ case 2:
                     return var1;
                 };
                 var3['render'] = var11;
-                var1[var10] = var3;
+                var1[9] = var3;
                 var2 = _closure1_slot9;
                 var3 = var2.RECIPENT_SELECT;
                 var2 = {};
@@ -156,7 +156,7 @@ case 2:
                     return var1;
                 };
                 var2['render'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var1 = var3.bind(var4)(var1, var2);
@@ -330,7 +330,7 @@ case 0:
             var4 = var12[var4];
             var4 = var10.bind(var6)(var4);
             var4 = var4.COLLECTIBLES_MOBILE_GIFT_MODAL;
-            var1[var5] = var4;
+            var1[4] = var4;
             var4 = 1;
             var4 = var5 + var4;
             var1 = var2.bind(var6)(var1);

@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.SUMMARIES;
     var10[2] = var8;
     var8 = 'no_text_activity';
-    var4[var8] = var10;
+    var4[7] = var10;
     var10 = var7.DISCONNECTED;
     var11 = var9.NEW_MESSAGES;
     var8 = new Array(3);
@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8[1] = var11;
     var11 = var9.SUMMARIES;
     var8[2] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.LAUNCHING_WITH_ORIENTATION_CHANGE;
     var11 = var9.NEW_MESSAGES;
     var8 = new Array(3);
@@ -59,10 +59,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8[1] = var11;
     var11 = var9.SUMMARIES;
     var8[2] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.PANEL;
     var8 = new Array(0);
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.PIP;
     var11 = var9.NEW_MESSAGES;
     var8 = new Array(3);
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8[1] = var11;
     var11 = var9.SUMMARIES;
     var8[2] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var8 = var7.ACTIVITY_POPOUT_WINDOW;
     var10 = var9.NEW_MESSAGES;
     var7 = new Array(3);
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7[1] = var10;
     var9 = var9.SUMMARIES;
     var7[2] = var9;
-    var4[var8] = var7;
+    var4[7] = var7;
     var _closure1_slot5 = var4;
     var4 = 7;
     var4 = var6[var4];

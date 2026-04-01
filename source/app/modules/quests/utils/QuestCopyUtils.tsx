@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot5 = var4;
-    var5 = 7;
+    var5 = 4;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -585,7 +585,7 @@ case 47:
         return var1;
     };
     var3['copyShareLink'] = var4;
-    var4 = function getDefaultReward(arg1) {
+    var2 = function getDefaultReward(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = arg1;
@@ -616,82 +616,6 @@ case 50:
             throw var1;
         }
     };
-    var3['getDefaultReward'] = var4;
-    var2 = function(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-            var2 = arg1;
-            var1 = var2.hasVideoAsset;
-            var8 = var2.playerState;
-            var5 = var2.pauseReason;
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            if(var1) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
-            var1 = 4;
-            var1 = var6[var1];
-            var11 = undefined;
-            var2 = var4.bind(var11)(var1);
-            var1 = var2.isWeb;
-            var1 = var1.bind(var2)();
-            var10 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var2 = 1;
-            var7 = var12[var2];
-            var7 = var10.bind(var11)(var7);
-            var9 = var7.intl;
-            var7 = var9.string;
-            var2 = var12[var2];
-            var2 = var10.bind(var11)(var2);
-            var2 = var2.t;
-            if(var1) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
-            var1 = var2.rStN/7;
-            var1 = var7.bind(var9)(var1);
-            _fun0007_ip = 56; continue _fun0007;
-case 54:
-            var2 = var2.E1du/q;
-            var1 = var7.bind(var9)(var2);
-case 56:
-            _fun0007_ip = 57; continue _fun0007;
-case 52:
-            var2 = 5;
-            var2 = var6[var2];
-            var7 = undefined;
-            var2 = var4.bind(var7)(var2);
-            var2 = var2.VideoPlayerState;
-            var4 = var2.PAUSED;
-            var2 = null;
-            if(!(var8 === var4)) { _fun0007_ip = 58; continue _fun0007 }
-case 59:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var4 = 6;
-            var4 = var9[var4];
-            var4 = var8.bind(var7)(var4);
-            var4 = var4.VideoPlayerStateChangeReason;
-            var4 = var4.FOCUS;
-            var2 = null;
-            if(!(var5 === var4)) { _fun0007_ip = 58; continue _fun0007 }
-case 15:
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var3 = 1;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var5 = var4.intl;
-            var4 = var5.string;
-            var3 = var8[var3];
-            var3 = var6.bind(var7)(var3);
-            var3 = var3.t;
-            var3 = var3.w6PeBF;
-            var2 = var4.bind(var5)(var3);
-case 58:
-            var1 = var2;
-case 57:
-            return var1;
-        }
-    };
-    var3['getQuestPlaybackBlockedMessage'] = var2;
+    var3['getDefaultReward'] = var2;
     return var1;
 })();

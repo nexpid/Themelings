@@ -52,19 +52,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var9);
     var9 = var9.DisplayNameEffect;
     var9 = var9.NEON;
-    var4[var9] = var10;
+    var4[8] = var10;
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.DisplayNameEffect;
     var10 = var9.TOON;
     var9 = 1.6;
-    var4[var10] = var9;
+    var4[9] = var9;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.DisplayNameEffect;
     var9 = var8.POP;
     var8 = 1.2;
-    var4[var9] = var8;
+    var4[8] = var8;
     var _closure1_slot9 = var4;
     var4 = 4;
     var4 = var6[var4];
@@ -634,7 +634,7 @@ case 66:
             var36 = var5;
             var28 = copyDataProperties(var37, var36);
             var30 = 'textStrokeWidth';
-            var25[var30] = var21;
+            var25[29] = var21;
             var31 = var10 != var29;
             var28 = undefined;
             if(!var31) { _fun0002_ip = 67; continue _fun0002 }
@@ -642,15 +642,15 @@ case 68:
             var28 = var29;
 case 67:
             var32 = 'textStrokeColor';
-            var25[var32] = var28;
+            var25[31] = var28;
             var28 = new Array(2);
             var28[0] = var2;
             var29 = var22.popBackLayer;
             var28[1] = var29;
             var31 = 'style';
-            var25[var31] = var28;
+            var25[30] = var28;
             var29 = 'children';
-            var25[var29] = var6;
+            var25[28] = var6;
             var26 = var27.bind(var4)(var26, var25);
             var25 = new Array(2);
             var25[0] = var26;
@@ -664,20 +664,20 @@ case 67:
             var37 = var26;
             var36 = var5;
             var34 = copyDataProperties(var37, var36);
-            var26[var30] = var21;
+            var26[29] = var21;
             var34 = var10 != var33;
             var30 = undefined;
             if(!var34) { _fun0002_ip = 69; continue _fun0002 }
 case 70:
             var30 = var33;
 case 69:
-            var26[var32] = var30;
+            var26[31] = var30;
             var30 = new Array(2);
             var30[0] = var2;
             var32 = var22.popFrontLayer;
             var30[1] = var32;
-            var26[var31] = var30;
-            var26[var29] = var6;
+            var26[30] = var30;
+            var26[28] = var6;
             var26 = var28.bind(var4)(var27, var26);
             var25[1] = var26;
             var9['children'] = var25;
@@ -741,24 +741,24 @@ case 59:
             var36 = var5;
             var17 = copyDataProperties(var37, var36);
             var17 = 'gradientColors';
-            var2[var17] = var18;
+            var2[16] = var18;
             var17 = 'gradientWidth';
-            var2[var17] = var12;
+            var2[16] = var12;
             var18 = 'clamp';
             var17 = 'gradientMode';
-            var2[var17] = var18;
+            var2[16] = var18;
             var17 = new Array(1);
             var17[0] = var11;
             var11 = 'style';
-            var2[var11] = var17;
+            var2[10] = var17;
             var11 = 'gradientAngle';
-            var2[var11] = var16;
+            var2[10] = var16;
             var11 = 'textStrokeWidth';
-            var2[var11] = var15;
+            var2[10] = var15;
             var11 = 'textStrokeColor';
-            var2[var11] = var14;
+            var2[10] = var14;
             var11 = 'children';
-            var2[var11] = var6;
+            var2[10] = var6;
             var2 = var9.bind(var4)(var3, var2);
             return var2;
 case 46:
@@ -773,10 +773,10 @@ case 46:
             var36 = var5;
             var11 = copyDataProperties(var37, var36);
             var11 = 'gradientWidth';
-            var2[var11] = var12;
+            var2[10] = var12;
             var12 = 'clamp';
             var11 = 'gradientMode';
-            var2[var11] = var12;
+            var2[10] = var12;
             var12 = var5.style;
             var11 = new Array(2);
             var11[0] = var12;
@@ -789,11 +789,11 @@ case 76:
 case 75:
             var11[1] = var10;
             var10 = 'style';
-            var2[var10] = var11;
+            var2[9] = var11;
             var10 = 'color';
-            var2[var10] = var7;
+            var2[9] = var7;
             var10 = 'children';
-            var2[var10] = var6;
+            var2[9] = var6;
             var2 = var9.bind(var4)(var3, var2);
             return var2;
 case 43:
@@ -808,9 +808,9 @@ case 43:
             var36 = var5;
             var5 = copyDataProperties(var37, var36);
             var5 = 'color';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

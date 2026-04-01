@@ -44,7 +44,7 @@ case 6:
             var2 = var3.bind(var1)(var2);
             var3 = var2.accessibilityPreferencesSharedValue;
             var2 = {};
-            var2[var5] = var6;
+            var2[4] = var6;
             var2 = var4.bind(var1)(var3, var2);
 case 5:
             return var1;

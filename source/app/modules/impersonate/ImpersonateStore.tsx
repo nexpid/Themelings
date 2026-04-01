@@ -629,7 +629,7 @@ case 28:
         var5 = var6.now;
         var6 = var5.bind(var6)();
         var5 = 'timestamp';
-        var2[var5] = var6;
+        var2[4] = var6;
         var3[var4] = var2;
         return var1;
     };

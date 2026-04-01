@@ -143,7 +143,7 @@ case 4:
             var8 = copyDataProperties(var13, var12);
             var8 = var7.channelId;
             var7 = 'channelId';
-            var2[var7] = var8;
+            var2[6] = var8;
             var7 = var6 == var5;
             var8 = undefined;
             if(var7) { _fun0001_ip = 6; continue _fun0001 }
@@ -151,7 +151,7 @@ case 7:
             var8 = var5.type;
 case 6:
             var7 = 'channelType';
-            var2[var7] = var8;
+            var2[6] = var8;
             var7 = var6 == var5;
             var6 = undefined;
             if(var7) { _fun0001_ip = 8; continue _fun0001 }
@@ -159,7 +159,7 @@ case 9:
             var6 = var5.guild_id;
 case 8:
             var5 = 'guildId';
-            var2[var5] = var6;
+            var2[4] = var6;
             var2 = var3.bind(var4)(var2);
             return var1;
         }
@@ -221,7 +221,7 @@ case 8:
             var5 = var3[var4];
             var3 = 1;
             var3 = var5 + var3;
-            var2[var4] = var3;
+            var2[3] = var3;
             var1['incrementableActions'] = var2;
             return var1;
         };

@@ -52,7 +52,7 @@ case 4:
             var7 = var18[var7];
             var7 = var6.bind(var4)(var7);
             var7 = var7.COLLECTIBLES_SHOP_PROFILE_PREVIEW;
-            var3[var9] = var7;
+            var3[8] = var7;
             var7 = 1;
             var9 = var9 + var7;
             var3 = var5.bind(var4)(var3);

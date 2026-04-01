@@ -186,7 +186,7 @@ case 16:
                     var5 = var3.bind(var7)();
 case 15:
                     var3 = 'nonce';
-                    var8[var3] = var5;
+                    var8[2] = var5;
                     var5 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var3 = 8;
@@ -195,7 +195,7 @@ case 15:
                     var3 = var5.getLoginHandoffSourceFromRedirectTo;
                     var5 = var3.bind(var5)(var11);
                     var3 = 'handoffSource';
-                    var8[var3] = var5;
+                    var8[2] = var5;
                     var3 = _closure1_slot9;
                     var3 = var3.bind(var4)(var8);
                     SaveGenerator(address=195);
@@ -358,7 +358,7 @@ case 37:
                     var5 = var3.bind(var6)();
 case 36:
                     var3 = 'nonce';
-                    var7[var3] = var5;
+                    var7[2] = var5;
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 8;
@@ -367,7 +367,7 @@ case 36:
                     var3 = var3.LoginHandoffSource;
                     var5 = var3.ROLE_SUBSCRIPTION_SETTING;
                     var3 = 'handoffSource';
-                    var7[var3] = var5;
+                    var7[2] = var5;
                     var3 = _closure1_slot9;
                     var3 = var3.bind(var4)(var7);
                     SaveGenerator(address=159);

@@ -425,7 +425,7 @@ case 32:
             var6 = _closure1_slot8;
             var7 = var6.UPCOMING;
             var6 = 'status';
-            var2[var6] = var7;
+            var2[5] = var7;
             var1 = var2;
 case 12:
             _fun0009_ip = 33; continue _fun0009;
@@ -435,11 +435,11 @@ case 30:
             var9 = var4;
             var4 = copyDataProperties(var10, var9);
             var4 = 'earnedOnDate';
-            var2[var4] = var5;
+            var2[3] = var5;
             var3 = _closure1_slot8;
             var4 = var3.EARNED;
             var3 = 'status';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1 = var2;
 case 33:
             return var1;

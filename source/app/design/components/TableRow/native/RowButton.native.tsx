@@ -116,7 +116,7 @@ case 15:
             var8 = copyDataProperties(var18, var17);
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -221,11 +221,11 @@ case 23:
             var18 = var7;
             var6 = copyDataProperties(var19, var18);
             var6 = 'variant';
-            var1[var6] = var15;
+            var1[5] = var15;
             var6 = 'border';
-            var1[var6] = var10;
+            var1[5] = var10;
             var6 = 'children';
-            var1[var6] = var8;
+            var1[5] = var8;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
 case 19:
@@ -290,7 +290,7 @@ case 7:
             var7 = copyDataProperties(var19, var18);
             var11 = 'transparent';
             var7 = 'variant';
-            var1[var7] = var11;
+            var1[6] = var11;
             var7 = _closure1_slot4;
             var5 = 9;
             var5 = var10[var5];
@@ -301,7 +301,7 @@ case 7:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

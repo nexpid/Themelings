@@ -99,7 +99,7 @@ case 6:
                 var9 = var6;
                 var6 = copyDataProperties(var10, var9);
                 var6 = 'color';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var1 = var4.bind(var5)(var3, var2);
 case 8:
                 return var1;

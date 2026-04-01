@@ -751,7 +751,7 @@ case 51:
             var1 = var1.radii;
             var2 = var1.xl;
             var1 = 'borderRadius';
-            var20[var1] = var2;
+            var20[0] = var2;
             _closure2_slot15 = var20;
             var3 = _closure1_slot15;
             var2 = _closure1_slot16;
@@ -763,7 +763,7 @@ case 51:
             var42 = var13;
             var27 = copyDataProperties(var42, var41);
             var27 = 'marginTop';
-            var13[var27] = var36;
+            var13[26] = var36;
             var5['style'] = var13;
             var31 = _closure1_slot14;
             var13 = 37;

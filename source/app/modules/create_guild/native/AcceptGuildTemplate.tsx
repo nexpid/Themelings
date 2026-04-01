@@ -753,7 +753,7 @@ case 19:
     var24 = var9;
     var14 = copyDataProperties(var24, var23);
     var14 = 'marginTop';
-    var9[var14] = var15;
+    var9[13] = var15;
     var4['sectionHeader'] = var9;
     var9 = {};
     var14 = var6[var11];

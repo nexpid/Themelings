@@ -116,7 +116,7 @@ case 14:
             var6 = copyDataProperties(var10, var9);
             var4 = var4.guild;
             var4 = var4.id;
-            var2[var4] = var5;
+            var2[3] = var5;
             _closure1_slot10 = var2;
 case 13:
             return var1;

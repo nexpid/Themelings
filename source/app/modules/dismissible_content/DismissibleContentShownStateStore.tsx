@@ -149,7 +149,7 @@ case 4:
         var4 = new var9[var6](var8, var7);
         var5 = var4 instanceof Object ? var4 : var5;
         var4 = 'candidates';
-        var1[var4] = var5;
+        var1[3] = var5;
         var6 = var3.Set;
         var8 = var2.currentlyShown;
         var5 = var6.prototype;
@@ -158,7 +158,7 @@ case 4:
         var4 = new var9[var6](var8, var7);
         var5 = var4 instanceof Object ? var4 : var5;
         var4 = 'currentlyShown';
-        var1[var4] = var5;
+        var1[3] = var5;
         var4 = var3.Set;
         var8 = var2.currentlyShownGroup;
         var3 = var4.prototype;
@@ -167,7 +167,7 @@ case 4:
         var2 = new var9[var4](var8, var7);
         var3 = var2 instanceof Object ? var2 : var3;
         var2 = 'currentlyShownGroup';
-        var1[var2] = var3;
+        var1[1] = var3;
         return var1;
     };
     var _closure1_slot14 = var2;

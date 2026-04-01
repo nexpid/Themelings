@@ -87,7 +87,7 @@ case 0:
                 var19 = 0;
                 var2 = arraySpread(var21, var20, var19);
                 var2 = 'routes';
-                var3[var2] = var4;
+                var3[1] = var4;
                 var13 = new Array(0);
                 var4 = new Array(0);
                 var2 = {};
@@ -250,7 +250,7 @@ case 21:
                             var4 = _closure2_slot3;
                             var5 = var4.key;
                             var4 = 'target';
-                            var1[var4] = var5;
+                            var1[3] = var5;
                             var1 = var2.bind(var3)(var1);
 case 20:
                             var1 = undefined;
@@ -277,11 +277,11 @@ case 13:
         var17 = var7;
         var7 = copyDataProperties(var18, var17);
         var7 = 'state';
-        var5[var7] = var10;
+        var5[6] = var10;
         var7 = 'navigation';
-        var5[var7] = var9;
+        var5[6] = var9;
         var7 = 'descriptors';
-        var5[var7] = var8;
+        var5[6] = var8;
         var5 = var2.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var2.bind(var4)(var3, var1);

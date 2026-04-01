@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['style'] = var8;
         var6 = var7.bind(var4)(var6, var5);
         var5 = 'children';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -202,7 +202,7 @@ case 12:
             var4 = var4.colors;
             var5 = var4.MOBILE_ACTIONSHEET_GRADIENT_BACKGROUND_DEFAULT;
             var4 = 'backgroundColor';
-            var2[var4] = var5;
+            var2[3] = var5;
             var1['backgroundOverlay'] = var2;
             var2 = {};
             var4 = 16;
@@ -387,16 +387,16 @@ case 28:
             var6 = copyDataProperties(var23, var22);
             var17 = true;
             var6 = 'enableDynamicSizing';
-            var1[var6] = var17;
+            var1[5] = var17;
             var6 = 'snapPoints';
-            var1[var6] = var16;
+            var1[5] = var16;
             var6 = 'maxDynamicContentSize';
-            var1[var6] = var15;
+            var1[5] = var15;
             var15 = arg2;
             var6 = 'ref';
-            var1[var6] = var15;
+            var1[5] = var15;
             var6 = 'onChange';
-            var1[var6] = var7;
+            var1[5] = var7;
             var7 = _closure1_slot16;
             var6 = _closure1_slot0;
             var5 = var14[var5];
@@ -415,7 +415,7 @@ case 28:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -593,15 +593,15 @@ case 42:
             var7 = copyDataProperties(var26, var25);
             var16 = arg2;
             var7 = 'ref';
-            var1[var7] = var16;
+            var1[6] = var16;
             var7 = 'enableDynamicSizing';
-            var1[var7] = var15;
+            var1[6] = var15;
             var7 = 'contentHeight';
-            var1[var7] = var14;
+            var1[6] = var14;
             var7 = 'snapPoints';
-            var1[var7] = var9;
+            var1[6] = var9;
             var7 = 'onChange';
-            var1[var7] = var8;
+            var1[6] = var8;
             var7 = var10;
             if(!(var6 != var11)) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
@@ -634,7 +634,7 @@ case 45:
             var6[0] = var7;
             var6[1] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -1146,7 +1146,7 @@ case 74:
                     var6 = _closure2_slot2;
 case 60:
                     var5 = 'children';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 }

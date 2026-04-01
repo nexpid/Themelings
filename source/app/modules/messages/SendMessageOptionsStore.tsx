@@ -169,7 +169,7 @@ case 11:
             var7 = var6.OTHER;
 case 10:
             var6 = 'location';
-            var2[var6] = var7;
+            var2[5] = var7;
             var5[var4] = var2;
 case 4:
             var2 = var1.nonce;

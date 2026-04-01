@@ -72,16 +72,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var5;
         var9 = copyDataProperties(var15, var14);
         var9 = 'source';
-        var5[var9] = var11;
+        var5[8] = var11;
         var9 = {};
         var8 = _closure1_slot4;
         var14 = var8.absoluteFillObject;
         var15 = var9;
         var8 = copyDataProperties(var15, var14);
         var8 = 'opacity';
-        var9[var8] = var10;
+        var9[7] = var10;
         var8 = 'style';
-        var5[var8] = var9;
+        var5[7] = var9;
         var8 = function onLoad() {
             var4 = _closure2_slot0;
             var3 = var4.set;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var7 = 'onLoad';
-        var5[var7] = var8;
+        var5[6] = var8;
         var5 = var3.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);

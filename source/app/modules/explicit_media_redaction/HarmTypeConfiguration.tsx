@@ -100,7 +100,7 @@ case 2:
 case 6:
             var6 = var4.explicitContentGuilds;
 case 5:
-            var1[var8] = var6;
+            var1[7] = var6;
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var7];
@@ -113,7 +113,7 @@ case 5:
 case 8:
             var6 = var4.explicitContentFriendDm;
 case 7:
-            var1[var8] = var6;
+            var1[7] = var6;
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var7];
@@ -126,7 +126,7 @@ case 7:
 case 10:
             var2 = var4.explicitContentNonFriendDm;
 case 9:
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };
@@ -159,7 +159,7 @@ case 12:
 case 14:
             var5 = var10.explicitContentGuilds;
 case 13:
-            var1[var8] = var5;
+            var1[7] = var5;
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
             var8 = var5[var3];
@@ -177,7 +177,7 @@ case 13:
 case 16:
             var5 = var10.explicitContentFriendDm;
 case 15:
-            var1[var8] = var5;
+            var1[7] = var5;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = var4[var3];
@@ -195,7 +195,7 @@ case 15:
 case 18:
             var2 = var4.explicitContentNonFriendDm;
 case 17:
-            var1[var3] = var2;
+            var1[2] = var2;
             var9 = var1;
 case 11:
             var1 = {};
@@ -226,7 +226,7 @@ case 20:
 case 19:
             var2['setting'] = var10;
             var2 = var4.bind(var6)(var2);
-            var1[var3] = var2;
+            var1[2] = var2;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var3 = var2[var12];
@@ -252,7 +252,7 @@ case 21:
             var2['setting'] = var6;
             var6 = true;
             var2 = var4.bind(var10)(var2);
-            var1[var3] = var2;
+            var1[2] = var2;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var3 = var2[var12];
@@ -278,12 +278,12 @@ case 23:
             var2['setting'] = var7;
             var2['isDm'] = var6;
             var2 = var4.bind(var5)(var2);
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };
     var6['getUserSettingsWithDefaults'] = var15;
-    var2[var9] = var6;
+    var2[8] = var6;
     var9 = var5.GORE;
     var6 = {};
     var15 = var5.GORE;
@@ -337,7 +337,7 @@ case 2:
 case 6:
             var6 = var4.goreContentGuilds;
 case 5:
-            var1[var8] = var6;
+            var1[7] = var6;
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var7];
@@ -350,7 +350,7 @@ case 5:
 case 8:
             var6 = var4.goreContentFriendDm;
 case 7:
-            var1[var8] = var6;
+            var1[7] = var6;
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var7];
@@ -363,7 +363,7 @@ case 7:
 case 10:
             var2 = var4.goreContentNonFriendDm;
 case 9:
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };
@@ -396,7 +396,7 @@ case 12:
 case 14:
             var5 = var10.goreContentGuilds;
 case 13:
-            var1[var8] = var5;
+            var1[7] = var5;
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
             var8 = var5[var3];
@@ -414,7 +414,7 @@ case 13:
 case 16:
             var5 = var10.goreContentFriendDm;
 case 15:
-            var1[var8] = var5;
+            var1[7] = var5;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = var4[var3];
@@ -432,7 +432,7 @@ case 15:
 case 18:
             var2 = var4.goreContentNonFriendDm;
 case 17:
-            var1[var3] = var2;
+            var1[2] = var2;
             var9 = var1;
 case 11:
             var1 = {};
@@ -463,7 +463,7 @@ case 20:
 case 19:
             var2['setting'] = var10;
             var2 = var4.bind(var6)(var2);
-            var1[var3] = var2;
+            var1[2] = var2;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var3 = var2[var12];
@@ -489,7 +489,7 @@ case 21:
             var2['setting'] = var6;
             var6 = true;
             var2 = var4.bind(var10)(var2);
-            var1[var3] = var2;
+            var1[2] = var2;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var3 = var2[var12];
@@ -515,12 +515,12 @@ case 23:
             var2['setting'] = var7;
             var2['isDm'] = var6;
             var2 = var4.bind(var5)(var2);
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };
     var6['getUserSettingsWithDefaults'] = var15;
-    var2[var9] = var6;
+    var2[8] = var6;
     var9 = var5.SELF_HARM;
     var6 = {};
     var15 = var5.SELF_HARM;
@@ -574,7 +574,7 @@ case 2:
 case 6:
             var6 = var4.selfHarmContentGuilds;
 case 5:
-            var1[var8] = var6;
+            var1[7] = var6;
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var7];
@@ -587,7 +587,7 @@ case 5:
 case 8:
             var6 = var4.selfHarmContentFriendDm;
 case 7:
-            var1[var8] = var6;
+            var1[7] = var6;
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var7];
@@ -600,7 +600,7 @@ case 7:
 case 10:
             var2 = var4.selfHarmContentNonFriendDm;
 case 9:
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         }
     };
@@ -620,7 +620,7 @@ case 9:
         var7 = var5.bind(var4)(var7);
         var7 = var7.ExplicitContentRedaction;
         var7 = var7.UNSET_EXPLICIT_CONTENT_REDACTION;
-        var1[var8] = var7;
+        var1[7] = var7;
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.ContentHarmTypeChannel;
@@ -629,7 +629,7 @@ case 9:
         var7 = var5.bind(var4)(var7);
         var7 = var7.ExplicitContentRedaction;
         var7 = var7.UNSET_EXPLICIT_CONTENT_REDACTION;
-        var1[var8] = var7;
+        var1[7] = var7;
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.ContentHarmTypeChannel;
@@ -638,11 +638,11 @@ case 9:
         var2 = var5.bind(var4)(var2);
         var2 = var2.ExplicitContentRedaction;
         var2 = var2.UNSET_EXPLICIT_CONTENT_REDACTION;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var6['getUserSettingsWithDefaults'] = var10;
-    var2[var9] = var6;
+    var2[8] = var6;
     var6 = 8;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

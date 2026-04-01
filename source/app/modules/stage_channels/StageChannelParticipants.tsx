@@ -493,10 +493,10 @@ case 48:
                 var8 = _closure1_slot16;
                 var8 = var8.VOICE;
                 var13 = 'type';
-                var7[var13] = var8;
+                var7[12] = var8;
                 var4 = var4.id;
                 var14 = 'id';
-                var7[var14] = var4;
+                var7[13] = var4;
                 var8 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var11 = 13;
@@ -505,7 +505,7 @@ case 48:
                 var4 = var8.getAudienceRequestToSpeakState;
                 var4 = var4.bind(var8)(var9);
                 var8 = 'rtsState';
-                var7[var8] = var4;
+                var7[7] = var4;
                 var4 = var1.push;
                 var4 = var4.bind(var1)(var7);
                 var9 = _closure1_slot5;
@@ -536,15 +536,15 @@ case 54:
                 var20 = var7;
                 var19 = var15;
                 var15 = copyDataProperties(var20, var19);
-                var7[var14] = var12;
+                var7[13] = var12;
                 var12 = _closure1_slot16;
                 var12 = var12.STREAM;
-                var7[var13] = var12;
+                var7[12] = var12;
                 var4 = var4[var11];
                 var4 = var9.bind(var10)(var4);
                 var4 = var4.RequestToSpeakStates;
                 var4 = var4.NONE;
-                var7[var8] = var4;
+                var7[7] = var4;
                 var4 = var1.push;
                 var4 = var4.bind(var1)(var7);
 case 52:

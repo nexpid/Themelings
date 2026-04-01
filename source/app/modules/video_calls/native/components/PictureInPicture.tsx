@@ -61,13 +61,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = copyDataProperties(var19, var18);
     var14 = 'baseline';
     var13 = 'alignItems';
-    var12[var13] = var14;
+    var12[12] = var14;
     var5['pipOuterContainer'] = var12;
     var12 = {};
     var18 = var15.absoluteFillObject;
     var19 = var12;
     var15 = copyDataProperties(var19, var18);
-    var12[var13] = var14;
+    var12[12] = var14;
     var5['pipInnerContainer'] = var12;
     var12 = 8;
     var13 = var7[var12];

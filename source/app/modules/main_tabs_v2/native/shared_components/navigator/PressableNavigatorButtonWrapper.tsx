@@ -112,12 +112,12 @@ case 8:
             var2 = _closure1_slot2;
             var1 = {'collapsable': false, 'style': null, 'importantForAccessibility': 'yes'};
             if(var6) { _fun0002_ip = 10; continue _fun0002 }
-case 7:
+case 11:
             var6 = var7.buttonWrapper;
-            _fun0002_ip = 11; continue _fun0002;
+            _fun0002_ip = 12; continue _fun0002;
 case 10:
             var6 = var7.buttonWrapperModal;
-case 11:
+case 12:
             var1['style'] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

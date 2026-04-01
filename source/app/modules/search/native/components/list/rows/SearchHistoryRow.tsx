@@ -980,7 +980,7 @@ case 30:
             var9 = var1;
             var3 = copyDataProperties(var10, var9);
             var3 = 'searchHistoryItem';
-            var4[var3] = var5;
+            var4[2] = var5;
             var3 = undefined;
             var3 = var7.bind(var3)(var6, var4);
             return var3;
@@ -992,7 +992,7 @@ case 28:
             var9 = var1;
             var3 = copyDataProperties(var10, var9);
             var3 = 'searchHistoryItem';
-            var4[var3] = var5;
+            var4[2] = var5;
             var3 = undefined;
             var3 = var7.bind(var3)(var6, var4);
             return var3;
@@ -1004,7 +1004,7 @@ case 26:
             var9 = var1;
             var3 = copyDataProperties(var10, var9);
             var3 = 'searchHistoryItem';
-            var4[var3] = var5;
+            var4[2] = var5;
             var3 = undefined;
             var3 = var7.bind(var3)(var6, var4);
             return var3;
@@ -1016,7 +1016,7 @@ case 7:
             var9 = var1;
             var3 = copyDataProperties(var10, var9);
             var3 = 'searchHistoryItem';
-            var4[var3] = var5;
+            var4[2] = var5;
             var3 = undefined;
             var3 = var7.bind(var3)(var6, var4);
             return var3;
@@ -1028,7 +1028,7 @@ case 23:
             var9 = var1;
             var1 = copyDataProperties(var10, var9);
             var1 = 'searchHistoryItem';
-            var2[var1] = var5;
+            var2[0] = var5;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
             return var1;

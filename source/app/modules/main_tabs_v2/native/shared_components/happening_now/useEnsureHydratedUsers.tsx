@@ -55,7 +55,7 @@ case 3:
                 var1 = {};
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot1;
-                var1[var3] = var2;
+                var1[2] = var2;
                 _fun0001_ip = 4; continue _fun0001;
 case 2:
                 var1 = {};

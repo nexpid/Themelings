@@ -30,10 +30,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var9[var5];
         var6 = var6.bind(var4)(var5);
         var5 = 'icon';
-        var1[var5] = var6;
+        var1[4] = var6;
         var6 = 'secondary';
         var5 = 'variant';
-        var1[var5] = var6;
+        var1[4] = var6;
         var5 = 6;
         var6 = var9[var5];
         var6 = var8.bind(var4)(var6);
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.UKOtz+;
         var6 = var6.bind(var7)(var5);
         var5 = 'accessibilityLabel';
-        var1[var5] = var6;
+        var1[4] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -561,7 +561,7 @@ case 17:
                     return var1;
                 };
                 var2['action'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 var2 = 1;
                 var2 = var3 + var2;
                 return var1;
@@ -673,7 +673,7 @@ case 28:
                     var7 = var5;
                     var4 = arraySpread(var8, var7, var6);
                     var3 = _closure2_slot20;
-                    var2[var4] = var3;
+                    var2[3] = var3;
                     var3 = 1;
                     var3 = var4 + var3;
                     var1 = var2;

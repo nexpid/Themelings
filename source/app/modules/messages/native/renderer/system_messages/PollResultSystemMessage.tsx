@@ -242,9 +242,9 @@ case 16:
             var9['content'] = var13;
             var11 = var11.bind(var5)(var9);
             var9 = 'answerHook';
-            var2[var9] = var11;
+            var2[8] = var11;
             var9 = 'percentage';
-            var2[var9] = var12;
+            var2[8] = var12;
             var4 = var7.bind(var8)(var4, var2);
             _fun0001_ip = 21; continue _fun0001;
 case 14:
@@ -264,7 +264,7 @@ case 14:
             var21 = var10;
             var11 = copyDataProperties(var22, var21);
             var11 = 'percentage';
-            var2[var11] = var12;
+            var2[10] = var12;
             var4 = var8.bind(var9)(var7, var2);
             _fun0001_ip = 21; continue _fun0001;
 case 12:
@@ -287,7 +287,7 @@ case 12:
             var10 = {'type': 'emoji', 'content': 'frowning', 'surrogate': '😦'};
             var11 = var11.bind(var5)(var10);
             var10 = 'sadEmojiHook';
-            var2[var10] = var11;
+            var2[9] = var11;
             var4 = var8.bind(var9)(var7, var2);
 case 21:
             var2 = {};
@@ -300,7 +300,7 @@ case 21:
             var22 = var2;
             var3 = copyDataProperties(var22, var21);
             var3 = 'content';
-            var2[var3] = var4;
+            var2[2] = var4;
             return var2;
 case 4:
             return var1;

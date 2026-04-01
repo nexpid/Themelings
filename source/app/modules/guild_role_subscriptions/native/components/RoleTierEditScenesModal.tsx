@@ -188,7 +188,7 @@ case 8:
             var5 = var3;
             var2 = copyDataProperties(var6, var5);
             var2 = 'stepNumber';
-            var1[var2] = var4;
+            var1[1] = var4;
             _fun0004_ip = 18; continue _fun0004;
 case 17:
             var2 = {};
@@ -264,8 +264,8 @@ case 22:
             var20 = var12[var7];
             var21 = var2;
             var17 = copyDataProperties(var21, var20);
-            var2[var10] = var16;
-            var2[var9] = var11;
+            var2[9] = var16;
+            var2[8] = var11;
             var4[var15] = var2;
             var7 = var7 + 1;
             var2 = var14.length;
@@ -299,7 +299,7 @@ case 19:
                 var8 = undefined;
                 var5 = var12.bind(var8)(var5, var13);
                 var11 = 'headerRight';
-                var2[var11] = var5;
+                var2[10] = var5;
                 var7 = _closure1_slot13;
                 var5 = _closure1_slot7;
                 var5 = var5.GATING;
@@ -327,8 +327,8 @@ case 19:
                     return var1;
                 };
                 var5 = 'render';
-                var2[var5] = var14;
-                var1[var3] = var2;
+                var2[4] = var14;
+                var1[2] = var2;
                 var2 = _closure1_slot7;
                 var3 = var2.GROUP;
                 var2 = {};
@@ -338,7 +338,7 @@ case 19:
                 var14 = _closure1_slot7;
                 var14 = var14.GROUP;
                 var14 = var12.bind(var8)(var14, var13);
-                var2[var11] = var14;
+                var2[10] = var14;
                 var14 = _closure1_slot7;
                 var14 = var14.GROUP;
                 var15 = var7.bind(var8)(var14, var9);
@@ -364,8 +364,8 @@ case 19:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-                var2[var5] = var14;
-                var1[var3] = var2;
+                var2[4] = var14;
+                var1[2] = var2;
                 var2 = _closure1_slot7;
                 var3 = var2.CHANNEL_BENEFITS;
                 var2 = {};
@@ -375,7 +375,7 @@ case 19:
                 var14 = _closure1_slot7;
                 var14 = var14.CHANNEL_BENEFITS;
                 var14 = var12.bind(var8)(var14, var13);
-                var2[var11] = var14;
+                var2[10] = var14;
                 var14 = _closure1_slot7;
                 var14 = var14.CHANNEL_BENEFITS;
                 var15 = var7.bind(var8)(var14, var9);
@@ -402,8 +402,8 @@ case 19:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-                var2[var5] = var14;
-                var1[var3] = var2;
+                var2[4] = var14;
+                var1[2] = var2;
                 var2 = _closure1_slot7;
                 var3 = var2.INTANGIBLE_BENEFITS;
                 var2 = {};
@@ -413,7 +413,7 @@ case 19:
                 var14 = _closure1_slot7;
                 var14 = var14.INTANGIBLE_BENEFITS;
                 var14 = var12.bind(var8)(var14, var13);
-                var2[var11] = var14;
+                var2[10] = var14;
                 var14 = _closure1_slot7;
                 var14 = var14.INTANGIBLE_BENEFITS;
                 var15 = var7.bind(var8)(var14, var9);
@@ -440,8 +440,8 @@ case 19:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-                var2[var5] = var14;
-                var1[var3] = var2;
+                var2[4] = var14;
+                var1[2] = var2;
                 var2 = _closure1_slot7;
                 var3 = var2.CONFIRMATION;
                 var2 = {};
@@ -451,7 +451,7 @@ case 19:
                 var14 = _closure1_slot7;
                 var14 = var14.CONFIRMATION;
                 var14 = var12.bind(var8)(var14, var13);
-                var2[var11] = var14;
+                var2[10] = var14;
                 var14 = _closure1_slot7;
                 var14 = var14.CONFIRMATION;
                 var15 = var7.bind(var8)(var14, var9);
@@ -477,8 +477,8 @@ case 19:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-                var2[var5] = var14;
-                var1[var3] = var2;
+                var2[4] = var14;
+                var1[2] = var2;
                 var2 = _closure1_slot7;
                 var3 = var2.DESIGN;
                 var2 = {};
@@ -488,7 +488,7 @@ case 19:
                 var14 = _closure1_slot7;
                 var14 = var14.DESIGN;
                 var14 = var12.bind(var8)(var14, var13);
-                var2[var11] = var14;
+                var2[10] = var14;
                 var14 = _closure1_slot7;
                 var14 = var14.DESIGN;
                 var15 = var7.bind(var8)(var14, var9);
@@ -514,8 +514,8 @@ case 19:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-                var2[var5] = var14;
-                var1[var3] = var2;
+                var2[4] = var14;
+                var1[2] = var2;
                 var2 = _closure1_slot7;
                 var3 = var2.DETAILS;
                 var2 = {};
@@ -525,7 +525,7 @@ case 19:
                 var10 = _closure1_slot7;
                 var10 = var10.DETAILS;
                 var10 = var12.bind(var8)(var10, var13);
-                var2[var11] = var10;
+                var2[10] = var10;
                 var6 = _closure1_slot7;
                 var6 = var6.DETAILS;
                 var15 = var7.bind(var8)(var6, var9);
@@ -551,8 +551,8 @@ case 19:
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-                var2[var5] = var4;
-                var1[var3] = var2;
+                var2[4] = var4;
+                var1[2] = var2;
                 return var1;
             };
             var19 = arg2;

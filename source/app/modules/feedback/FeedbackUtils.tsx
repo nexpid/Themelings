@@ -153,8 +153,8 @@ case 2:
             var4 = copyDataProperties(var7, var6);
             var5 = _closure1_slot10;
             var4 = 'optOutExpiryTime';
-            var2[var4] = var5;
-            var1[var3] = var2;
+            var2[3] = var5;
+            var1[2] = var2;
             return var1;
         };
         var2 = var3.bind(var4)(var2);

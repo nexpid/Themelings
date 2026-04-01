@@ -771,14 +771,14 @@ case 51:
                 var10 = var2;
                 var2 = copyDataProperties(var11, var10);
                 var2 = 'allow';
-                var4[var2] = var7;
+                var4[1] = var7;
                 var2 = 'deny';
-                var4[var2] = var6;
+                var4[1] = var6;
                 var2 = {};
                 var10 = _closure1_slot19;
                 var11 = var2;
                 var6 = copyDataProperties(var11, var10);
-                var2[var5] = var4;
+                var2[4] = var4;
                 _closure1_slot19 = var2;
                 var4 = _closure1_slot16;
                 var2 = var4.add;

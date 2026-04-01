@@ -704,10 +704,10 @@ case 47:
             if(!(var7 < var1)) { _fun0010_ip = 43; continue _fun0010 }
 case 49:
             var1 = {};
-            var1[var5] = var6;
+            var1[4] = var6;
             _closure1_slot14 = var1;
             var1 = {};
-            var1[var5] = var4;
+            var1[4] = var4;
             _closure1_slot11 = var1;
             var1 = {};
             var12 = var1;

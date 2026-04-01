@@ -154,9 +154,9 @@ case 0:
                 var11 = copyDataProperties(var19, var18);
                 var11 = _closure1_slot9;
                 var14 = 'type';
-                var7[var14] = var11;
+                var7[13] = var11;
                 var11 = 'boosters';
-                var7[var11] = var17;
+                var7[10] = var17;
                 var7 = var10.bind(var16)(var7);
                 var5 = var8[var5];
                 var10 = var9.bind(var1)(var5);
@@ -166,8 +166,8 @@ case 0:
                 var18 = var15;
                 var15 = copyDataProperties(var19, var18);
                 var13 = _closure1_slot8;
-                var5[var14] = var13;
-                var5[var11] = var12;
+                var5[13] = var13;
+                var5[10] = var12;
                 var10 = var9.bind(var10)(var5);
                 var9 = var10.map;
                 var5 = function(arg1) {

@@ -1155,7 +1155,7 @@ case 100:
                     var13 = var15.bind;
                     var15 = var13.bind(var15)(var14, var7);
                     var13 = 'renderItem';
-                    var2[var13] = var15;
+                    var2[12] = var15;
                     var13 = var7.section;
                     var13 = var13.key;
                     var14 = null;
@@ -1166,39 +1166,39 @@ case 101:
                     var14 = var13.bind(var15)(var10);
 case 25:
                     var13 = 'activeDivider';
-                    var2[var13] = var14;
+                    var2[12] = var14;
                     var13 = var7.section;
                     var14 = var13.key;
                     var13 = 'key';
-                    var2[var13] = var14;
+                    var2[12] = var14;
                     if(var12) { _fun0018_ip = 102; continue _fun0018 }
 case 103:
                     var12 = var11;
 case 102:
                     var11 = 'active';
-                    var2[var11] = var12;
+                    var2[10] = var12;
                     var6 = _closure3_slot0;
                     var11 = 'list';
-                    var2[var11] = var6;
+                    var2[10] = var6;
                     var11 = var6.props;
                     var12 = var11.sortingEnabled;
                     var11 = 'sortingEnabled';
-                    var2[var11] = var12;
+                    var2[10] = var12;
                     var7 = var7.section;
                     var7 = var7.key;
                     var10 = var10 === var7;
                     var7 = 'hovering';
-                    var2[var7] = var10;
+                    var2[6] = var10;
                     var7 = 'panResponder';
-                    var2[var7] = var9;
+                    var2[6] = var9;
                     var7 = 'rowData';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var7 = var6.handleRowActive;
                     var6 = 'onRowActive';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var5 = var5 > var1;
                     var1 = 'isAfter';
-                    var2[var1] = var5;
+                    var2[0] = var5;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var4, var2);
                     return var1;
@@ -1279,39 +1279,39 @@ case 114:
                     var14 = var13.bind(var15)(var10);
 case 113:
                     var13 = 'activeDivider';
-                    var2[var13] = var14;
+                    var2[12] = var14;
                     var13 = var7.item;
                     var14 = var13.key;
                     var13 = 'key';
-                    var2[var13] = var14;
+                    var2[12] = var14;
                     if(var12) { _fun0019_ip = 115; continue _fun0019 }
 case 116:
                     var12 = var11;
 case 115:
                     var11 = 'active';
-                    var2[var11] = var12;
+                    var2[10] = var12;
                     var6 = _closure3_slot0;
                     var11 = 'list';
-                    var2[var11] = var6;
+                    var2[10] = var6;
                     var11 = var6.props;
                     var12 = var11.sortingEnabled;
                     var11 = 'sortingEnabled';
-                    var2[var11] = var12;
+                    var2[10] = var12;
                     var7 = var7.item;
                     var7 = var7.key;
                     var10 = var10 === var7;
                     var7 = 'hovering';
-                    var2[var7] = var10;
+                    var2[6] = var10;
                     var7 = 'panResponder';
-                    var2[var7] = var9;
+                    var2[6] = var9;
                     var7 = 'rowData';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var7 = var6.handleRowActive;
                     var6 = 'onRowActive';
-                    var2[var6] = var7;
+                    var2[5] = var7;
                     var5 = var5 > var1;
                     var1 = 'isAfter';
-                    var2[var1] = var5;
+                    var2[0] = var5;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var4, var2);
                     return var1;
@@ -1952,16 +1952,16 @@ case 0:
                 var1 = copyDataProperties(var13, var12);
                 var11 = var7.setListRef;
                 var1 = 'ref';
-                var5[var1] = var11;
+                var5[0] = var11;
                 var11 = var7.handleScroll;
                 var1 = 'onScroll';
-                var5[var1] = var11;
+                var5[0] = var11;
                 var11 = var7.handleContentSizeChange;
                 var1 = 'onContentSizeChange';
-                var5[var1] = var11;
+                var5[0] = var11;
                 var11 = var7.handleListLayout;
                 var1 = 'onLayout';
-                var5[var1] = var11;
+                var5[0] = var11;
                 var1 = null;
                 var9 = var1 == var9;
                 if(!var9) { _fun0030_ip = 153; continue _fun0030 }
@@ -1970,29 +1970,29 @@ case 154:
                 var9 = var1 !== var10;
 case 153:
                 var1 = 'scrollEnabled';
-                var5[var1] = var9;
+                var5[0] = var9;
                 var9 = var7.renderItem;
                 var1 = 'renderItem';
-                var5[var1] = var9;
+                var5[0] = var9;
                 var9 = var7.renderSectionHeader;
                 var1 = 'renderSectionHeader';
-                var5[var1] = var9;
+                var5[0] = var9;
                 var9 = false;
                 var1 = 'stickySectionHeadersEnabled';
-                var5[var1] = var9;
+                var5[0] = var9;
                 var9 = 20;
                 var1 = 'initialNumToRender';
-                var5[var1] = var9;
+                var5[0] = var9;
                 var9 = function keyExtractor(arg1) {
                     var1 = arg1;
                     var1 = var1.key;
                     return var1;
                 };
                 var1 = 'keyExtractor';
-                var5[var1] = var9;
+                var5[0] = var9;
                 var9 = var7.getItemLayout;
                 var1 = 'getItemLayout';
-                var5[var1] = var9;
+                var5[0] = var9;
                 var1 = undefined;
                 var6 = var8.bind(var1)(var6, var5);
                 var5 = new Array(2);

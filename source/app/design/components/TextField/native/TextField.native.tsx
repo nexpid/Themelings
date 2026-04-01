@@ -77,13 +77,13 @@ case 2:
             var11 = var5;
             var5 = copyDataProperties(var12, var11);
             var5 = 'ref';
-            var1[var5] = var9;
+            var1[4] = var9;
             var5 = 'leading';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'trailing';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'inputStyle';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

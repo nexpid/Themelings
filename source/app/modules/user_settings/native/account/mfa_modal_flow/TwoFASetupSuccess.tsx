@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = copyDataProperties(var18, var17);
     var13 = 33;
     var12 = 'marginTop';
-    var9[var12] = var13;
+    var9[11] = var13;
     var4['success'] = var9;
     var9 = {'fontSize': 14, 'textAlign': 'center', 'marginHorizontal': 20, 'marginTop': 4};
     var12 = var6[var10];

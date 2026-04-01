@@ -418,7 +418,7 @@ case 0:
             var6['end'] = var8;
             var6['endsParent'] = var7;
             var5['starts'] = var6;
-            var2[var1] = var5;
+            var2[0] = var5;
             var5 = 1;
             var1 = var1 + var5;
             var1 = var2.length;

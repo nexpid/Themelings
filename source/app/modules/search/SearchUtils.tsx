@@ -322,11 +322,11 @@ case 43:
     var6 = var6.ME;
     var6 = {};
     var13 = var8.FILTER_BEFORE;
-    var6[var13] = var12;
+    var6[12] = var12;
     var13 = var8.FILTER_AFTER;
-    var6[var13] = var12;
+    var6[12] = var12;
     var8 = var8.FILTER_ON;
-    var6[var8] = var12;
+    var6[7] = var12;
     var _closure1_slot16 = var6;
     var8 = 13;
     var12 = var10[var8];
@@ -1634,7 +1634,7 @@ case 154:
             var1 = null;
             var2 = var1 == var6;
             if(var2) { _fun0020_ip = 155; continue _fun0020 }
-case 5:
+case 68:
             var2 = {};
             var7 = _closure2_slot3;
             var2['previousToken'] = var7;
@@ -2193,7 +2193,7 @@ case 187:
             var2 = var4.name;
 case 41:
             if(!(var3 == var2)) { _fun0029_ip = 188; continue _fun0029 }
-case 155:
+case 189:
             var2 = var5.name;
 case 188:
             return var2;

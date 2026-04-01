@@ -831,10 +831,10 @@ case 62:
             var47 = var1;
             var3 = copyDataProperties(var47, var46);
             var3 = 'roleIcon';
-            var1[var3] = var12;
+            var1[2] = var12;
             var12 = var24.id;
             var3 = 'authorId';
-            var1[var3] = var12;
+            var1[2] = var12;
             var35 = _closure1_slot0;
             var3 = var36[var10];
             var3 = var35.bind(var9)(var3);
@@ -846,7 +846,7 @@ case 62:
             var3 = var3.hG1StD;
             var3 = var12.bind(var23)(var3);
             var23 = 'username';
-            var1[var23] = var3;
+            var1[22] = var3;
             var3 = 20;
             var12 = var36[var3];
             var31 = var35.bind(var9)(var12);
@@ -863,7 +863,7 @@ case 62:
             var3 = var30.bind(var31)(var3);
             var30 = var3.uri;
             var3 = 'avatarURL';
-            var1[var3] = var30;
+            var1[2] = var30;
             var30 = _closure1_slot3;
             var31 = var6 != var22;
             var3 = undefined;
@@ -873,7 +873,7 @@ case 66:
 case 65:
             var30 = var30.bind(var9)(var3);
             var3 = 'colorString';
-            var1[var3] = var30;
+            var1[2] = var30;
             var3 = {};
             var3['headerText'] = var13;
             var32 = _closure1_slot0;
@@ -1091,7 +1091,7 @@ case 100:
             var3['actionsText'] = var4;
             var3['feedbackText'] = var2;
             var2 = 'autoModerationContext';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };

@@ -501,7 +501,7 @@ case 15:
                     var1['format'] = var6;
                     var4 = var5.bind(var7)(var4, var1);
                     var1 = 'url';
-                    var2[var1] = var4;
+                    var2[0] = var4;
                     var1 = var2;
                     _fun0005_ip = 16; continue _fun0005;
 case 14:
@@ -517,7 +517,7 @@ case 18:
                     var4 = var3.url;
 case 17:
                     var3 = 'url';
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     var1 = var2;
 case 16:
                     return var1;
@@ -1524,10 +1524,9 @@ case 105:
             var2 = var21.bind(var26)(var2);
             var _closure2_slot39 = var2;
             var21 = var4[var9];
-            var29 = var6.bind(var5)(var21);
-            var26 = var29.useShouldShowBonusOrbsUX;
-            var21 = var1.config;
-            var41 = var26.bind(var29)(var21);
+            var26 = var6.bind(var5)(var21);
+            var21 = var26.useShouldShowBonusOrbsUX;
+            var41 = var21.bind(var26)(var1);
             var4 = var4[var9];
             var6 = var6.bind(var5)(var4);
             var4 = var6.useEligibleForQuestOrbMultiplier;

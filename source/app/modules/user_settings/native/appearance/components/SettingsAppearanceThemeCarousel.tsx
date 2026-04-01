@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = copyDataProperties(var21, var20);
     var18 = '#000000';
     var17 = 'shadowColor';
-    var10[var17] = var18;
+    var10[16] = var18;
     var7['floatingNux'] = var10;
     var10 = {};
     var18 = {};

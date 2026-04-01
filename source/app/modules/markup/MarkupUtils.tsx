@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var5;
         var4 = arraySpread(var9, var8, var7);
         var6 = {};
-        var1[var4] = var6;
+        var1[3] = var6;
         var4 = var4 + var5;
         var1 = var2.bind(var3)(var1);
         return var1;
@@ -81,11 +81,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = copyDataProperties(var31, var30);
     var16 = 'bottom';
     var11 = 'emojiTooltipPosition';
-    var7[var11] = var16;
+    var7[10] = var16;
     var11 = 'shouldCloseDefaultModals';
-    var7[var11] = var13;
+    var7[10] = var13;
     var11 = 'shouldStopPropagation';
-    var7[var11] = var13;
+    var7[10] = var13;
     var10 = var10.bind(var1)(var7);
     var7 = new Array(2);
     var7[0] = var10;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var30 = var19;
     var11 = copyDataProperties(var31, var30);
     var11 = 'enableEmojiClick';
-    var7[var11] = var12;
+    var7[10] = var12;
     var10 = var10.bind(var1)(var7);
     var7 = new Array(1);
     var7[0] = var10;

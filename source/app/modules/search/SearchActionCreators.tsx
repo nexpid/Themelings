@@ -363,7 +363,7 @@ case 0:
             var13 = copyDataProperties(var19, var18);
             var13 = var12.offset;
             var12 = 'offset';
-            var7[var12] = var13;
+            var7[11] = var13;
             var4 = var4[var6];
             var11 = var11.bind(var1)(var4);
             var4 = var11.getGuildIdFromSearchContext;

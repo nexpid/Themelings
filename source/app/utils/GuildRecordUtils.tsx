@@ -475,7 +475,7 @@ case 77:
             var6 = var5.bind(var7)();
 case 76:
             var5 = 'joinedAt';
-            var1[var5] = var6;
+            var1[4] = var6;
             var5 = var2.premiumProgressBarEnabledUserUpdatedAt;
             var5 = var3 != var5;
             var6 = null;
@@ -486,17 +486,17 @@ case 3:
             var6 = var5.bind(var7)();
 case 78:
             var5 = 'premiumProgressBarEnabledUserUpdatedAt';
-            var1[var5] = var6;
+            var1[4] = var6;
             var5 = global;
             var6 = var5.Array;
             var5 = var6.from;
             var2 = var2.features;
             var5 = var5.bind(var6)(var2);
             var2 = 'features';
-            var1[var2] = var5;
+            var1[1] = var5;
             var5 = arg2;
             var2 = 'roles';
-            var1[var2] = var5;
+            var1[1] = var5;
             var2 = var3 != var4;
             var3 = null;
             if(!var2) { _fun0003_ip = 79; continue _fun0003 }
@@ -509,7 +509,7 @@ case 80:
             var3 = var2;
 case 79:
             var2 = 'member';
-            var1[var2] = var3;
+            var1[1] = var3;
             return var1;
         }
     };
@@ -1459,7 +1459,7 @@ case 0:
             var5 = var4.features;
             var6 = var6.bind(var7)(var5);
             var5 = 'features';
-            var3[var5] = var6;
+            var3[4] = var6;
             var6 = var4.joinedAt;
             var5 = null;
             var6 = var5 != var6;
@@ -1476,7 +1476,7 @@ case 181:
             var7 = var6 instanceof Object ? var6 : var8;
 case 180:
             var6 = 'joinedAt';
-            var3[var6] = var7;
+            var3[5] = var7;
             var6 = var4.premiumProgressBarEnabledUserUpdatedAt;
             var6 = var5 != var6;
             var5 = null;
@@ -1492,7 +1492,7 @@ case 9:
             var5 = var4 instanceof Object ? var4 : var6;
 case 182:
             var4 = 'premiumProgressBarEnabledUserUpdatedAt';
-            var3[var4] = var5;
+            var3[3] = var5;
             var4 = delete var3.roles;
             var4 = delete var3.member;
             var1 = _closure1_slot12;

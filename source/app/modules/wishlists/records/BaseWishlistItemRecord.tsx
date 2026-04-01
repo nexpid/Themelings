@@ -157,15 +157,15 @@ case 0:
                 var13 = var1;
                 var4 = copyDataProperties(var13, var12);
                 var4 = 'sku_id';
-                var1[var4] = var10;
+                var1[3] = var10;
                 var4 = 'sku_product_line';
-                var1[var4] = var9;
+                var1[3] = var9;
                 var4 = 'sku_name';
-                var1[var4] = var8;
+                var1[3] = var8;
                 var4 = 'is_owned';
-                var1[var4] = var7;
+                var1[3] = var7;
                 var4 = 'gifter_user_id';
-                var1[var4] = var5;
+                var1[3] = var5;
                 var2 = var2 != var6;
                 var4 = undefined;
                 if(!var2) { _fun0003_ip = 9; continue _fun0003 }
@@ -175,7 +175,7 @@ case 10:
                 var4 = var2.bind(var5)(var6);
 case 9:
                 var2 = 'sku';
-                var1[var2] = var4;
+                var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var14 = var2;

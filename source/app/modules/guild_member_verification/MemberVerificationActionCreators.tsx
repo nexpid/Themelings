@@ -639,7 +639,7 @@ case 60:
                     var9 = var7;
 case 62:
                     var7 = 'message';
-                    var6[var7] = var9;
+                    var6[6] = var9;
                     throw var6;
 case 56:
                     var6 = {};
@@ -659,7 +659,7 @@ case 56:
                     var7 = var7["8T1rxN"];
                     var9 = var9.bind(var10)(var7);
                     var7 = 'message';
-                    var6[var7] = var9;
+                    var6[6] = var9;
                     throw var6;
 case 54:
                     var10 = _closure1_slot0;
@@ -721,7 +721,7 @@ case 54:
                     var7 = var7.yjpDQ3;
                     var8 = var8.bind(var9)(var7);
                     var7 = 'message';
-                    var6[var7] = var8;
+                    var6[6] = var8;
                     throw var6;
 case 43:
                     var6 = _closure1_slot0;

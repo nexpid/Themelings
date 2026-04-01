@@ -191,7 +191,7 @@ case 6:
             var11 = 0;
             var13 = var1;
             var4 = arraySpread(var13, var12, var11);
-            var1[var4] = var3;
+            var1[3] = var3;
             var3 = 1;
             var3 = var4 + var3;
             var2['tags'] = var1;
@@ -530,7 +530,7 @@ case 35:
                 var9 = 0;
                 var11 = var1;
                 var5 = arraySpread(var11, var10, var9);
-                var1[var5] = var4;
+                var1[4] = var4;
                 var5 = var5 + var6;
                 var2['tags'] = var1;
                 _fun0008_ip = 34; continue _fun0008;

@@ -226,6 +226,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['USER_SETTINGS'] = var6;
     var2 = 'USER_SETTINGS';
     var4[var6] = var2;
+    var6 = 54;
+    var4['NITRO_HOME_PERK_CARD'] = var6;
+    var2 = 'NITRO_HOME_PERK_CARD';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

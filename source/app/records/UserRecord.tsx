@@ -729,7 +729,7 @@ case 112:
                 var6 = var1.guildMemberAvatars;
                 var7 = var4;
                 var5 = copyDataProperties(var7, var6);
-                var4[var3] = var2;
+                var4[2] = var2;
                 var3 = var1.merge;
                 var2 = {};
                 var2['guildMemberAvatars'] = var4;
@@ -758,7 +758,7 @@ case 113:
                 var6 = var1.guildMemberAvatars;
                 var7 = var4;
                 var5 = copyDataProperties(var7, var6);
-                var4[var3] = var2;
+                var4[2] = var2;
                 var3 = var1.merge;
                 var2 = {};
                 var2['guildMemberAvatars'] = var4;

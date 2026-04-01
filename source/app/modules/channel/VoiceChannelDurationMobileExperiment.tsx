@@ -1,4 +1,4 @@
-// app/modules/channel/native/VoiceChannelDurationMobileExperiment.tsx
+// app/modules/channel/VoiceChannelDurationMobileExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/channel/native/VoiceChannelDurationMobileExperiment.tsx';
+    var5 = 'modules/channel/VoiceChannelDurationMobileExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['VoiceChannelDurationMobileExperiment'] = var4;
     var2 = function useVoiceChannelDurationMobileEnabled(arg1, arg2) {

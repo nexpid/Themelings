@@ -57,10 +57,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var10;
     var11 = copyDataProperties(var18, var17);
     var11 = 'height';
-    var10[var11] = var12;
+    var10[10] = var12;
     var15 = -var14;
     var14 = 'top';
-    var10[var14] = var15;
+    var10[13] = var15;
     var4['image'] = var10;
     var10 = {};
     var17 = var13.absoluteFillObject;
@@ -68,8 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = copyDataProperties(var18, var17);
     var14 = 'rgba(38, 39, 50, 0.3)';
     var13 = 'backgroundColor';
-    var10[var13] = var14;
-    var10[var11] = var12;
+    var10[12] = var14;
+    var10[10] = var12;
     var4['overlay'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot10 = var4;

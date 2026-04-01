@@ -71,10 +71,10 @@ case 0:
             var9[0] = var13;
             var9[1] = var8;
             var8 = 'style';
-            var1[var8] = var9;
+            var1[7] = var9;
             var9 = arg2;
             var8 = 'ref';
-            var1[var8] = var9;
+            var1[7] = var9;
             if(!(var7 == var11)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var9 = _closure1_slot3;
@@ -107,7 +107,7 @@ case 4:
             var6[0] = var7;
             var6[1] = var5;
             var5 = 'children';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

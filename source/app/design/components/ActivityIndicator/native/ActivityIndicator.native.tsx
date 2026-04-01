@@ -81,11 +81,11 @@ case 6:
             var13 = var5;
             var5 = copyDataProperties(var14, var13);
             var5 = 'size';
-            var1[var5] = var8;
+            var1[4] = var8;
             var5 = 'animating';
-            var1[var5] = var7;
+            var1[4] = var7;
             var5 = 'color';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

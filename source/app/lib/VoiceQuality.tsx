@@ -409,10 +409,10 @@ case 54:
                                 var5 = copyDataProperties(var11, var10);
                                 var8 = var1.packetsSent;
                                 var5 = 'packetsSent';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var8 = var1.bytesSent;
                                 var5 = 'bytesSent';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var5 = var1.packetsLost;
                                 var9 = var6 != var5;
                                 var8 = 0;
@@ -421,7 +421,7 @@ case 56:
                                 var8 = var5;
 case 29:
                                 var5 = 'packetsLost';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var5 = var1.passthroughCount;
                                 var9 = var6 != var5;
                                 var8 = 0;
@@ -430,7 +430,7 @@ case 58:
                                 var8 = var5;
 case 57:
                                 var5 = 'passthroughCount';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var5 = var1.encryptSuccessCount;
                                 var9 = var6 != var5;
                                 var8 = 0;
@@ -439,7 +439,7 @@ case 60:
                                 var8 = var5;
 case 59:
                                 var5 = 'encryptSuccessCount';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var5 = var1.encryptFailureCount;
                                 var9 = var6 != var5;
                                 var8 = 0;
@@ -448,7 +448,7 @@ case 62:
                                 var8 = var5;
 case 61:
                                 var5 = 'encryptFailureCount';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var5 = var1.encryptDuration;
                                 var9 = var6 != var5;
                                 var8 = 0;
@@ -457,7 +457,7 @@ case 64:
                                 var8 = var5;
 case 63:
                                 var5 = 'encryptDuration';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var5 = var1.encryptAttempts;
                                 var9 = var6 != var5;
                                 var8 = 0;
@@ -466,7 +466,7 @@ case 65:
                                 var8 = var5;
 case 36:
                                 var5 = 'encryptAttempts';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var5 = var1.encryptMaxAttempts;
                                 var9 = var6 != var5;
                                 var8 = 0;
@@ -475,7 +475,7 @@ case 67:
                                 var8 = var5;
 case 66:
                                 var5 = 'encryptMaxAttempts';
-                                var3[var5] = var8;
+                                var3[4] = var8;
                                 var5 = var1.encryptMissingKeyCount;
                                 var8 = var6 != var5;
                                 var7 = 0;
@@ -484,7 +484,7 @@ case 69:
                                 var7 = var5;
 case 68:
                                 var5 = 'encryptMissingKeyCount';
-                                var3[var5] = var7;
+                                var3[4] = var7;
                                 var4['outboundStats'] = var3;
                                 var4 = global;
                                 var7 = var4.Boolean;

@@ -325,16 +325,16 @@ case 14:
                 var4 = copyDataProperties(var9, var8);
                 var5 = var3._targetFPS;
                 var4 = 'target_fps';
-                var2[var4] = var5;
+                var2[3] = var5;
                 var5 = var3._targetResolution;
                 var4 = 'target_resolution_height';
-                var2[var4] = var5;
+                var2[3] = var5;
                 var5 = var3._streamSettingsChanged;
                 var4 = 'stream_settings_changed';
-                var2[var4] = var5;
+                var2[3] = var5;
                 var4 = var3._automaticQualityChanges;
                 var3 = 'num_auto_quality_changes';
-                var2[var3] = var4;
+                var2[2] = var4;
                 var1 = var2;
 case 13:
                 return var1;

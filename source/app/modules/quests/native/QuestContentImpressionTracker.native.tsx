@@ -256,7 +256,7 @@ case 37:
                                 return var1;
                             };
                             var4 = 'calculateVisibility';
-                            var1[var4] = var5;
+                            var1[3] = var5;
                             var2[var3] = var1;
                             var1 = undefined;
                             return var1;
@@ -505,7 +505,7 @@ case 0:
             var15 = var1;
             var8 = copyDataProperties(var16, var15);
             var8 = 'adContentIds';
-            var10[var8] = var9;
+            var10[7] = var9;
             var13 = var13.bind(var4)(var10);
             var10 = {};
             var16 = var10;
@@ -515,14 +515,14 @@ case 0:
             var15 = var13;
             var13 = copyDataProperties(var16, var15);
             var13 = 'focused';
-            var10[var13] = var3;
+            var10[12] = var3;
             var13 = var3 !== var2;
             var2 = 'focusedChanged';
-            var10[var2] = var13;
+            var10[1] = var13;
             var2 = 'reference';
-            var10[var2] = var12;
+            var10[1] = var12;
             var2 = 'isFocused';
-            var10[var2] = var3;
+            var10[1] = var3;
             var3 = _closure1_slot8;
             var2 = 8;
             var2 = var7[var2];
@@ -535,13 +535,13 @@ case 0:
             var15 = var10;
             var10 = copyDataProperties(var16, var15);
             var10 = 'key';
-            var5[var10] = var11;
-            var5[var8] = var9;
+            var5[9] = var11;
+            var5[7] = var9;
             if(var7) { _fun0007_ip = 55; continue _fun0007 }
 case 56:
             var7 = var1.adCreativeType;
             var1 = 'adCreativeType';
-            var5[var1] = var7;
+            var5[0] = var7;
             var1 = var5;
             _fun0007_ip = 57; continue _fun0007;
 case 55:
@@ -553,7 +553,7 @@ case 55:
             var6 = var6.AdCreativeType;
             var7 = var6.QUEST;
             var6 = 'adCreativeType';
-            var5[var6] = var7;
+            var5[5] = var7;
             var1 = var5;
 case 57:
             var1 = var3.bind(var4)(var2, var1);

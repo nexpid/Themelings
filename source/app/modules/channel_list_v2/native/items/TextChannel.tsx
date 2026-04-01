@@ -446,7 +446,7 @@ case 25:
             var3 = copyDataProperties(var37, var36);
             var3 = var21.name;
             var29 = 'children';
-            var1[var29] = var3;
+            var1[28] = var3;
             var26 = var7.bind(var4)(var2, var1);
             var3 = _closure1_slot13;
             var6 = _closure1_slot1;
@@ -573,7 +573,7 @@ case 35:
             var28 = var30.getChannelSubtitleData;
             var28 = var28.bind(var30)(var31);
             var28 = var28.subtitle;
-            var25[var29] = var28;
+            var25[28] = var28;
             var25 = var27.bind(var4)(var26, var25);
             var24[1] = var25;
             var15['children'] = var24;

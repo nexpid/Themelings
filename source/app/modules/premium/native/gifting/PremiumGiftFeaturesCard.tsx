@@ -278,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = copyDataProperties(var11, var10);
         var4 = -8;
         var3 = 'marginStart';
-        var2[var3] = var4;
+        var2[2] = var4;
         var1['featureText'] = var2;
         var2 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
         var1['promotionalCardImage'] = var2;
@@ -754,7 +754,7 @@ case 49:
             var9 = var12.bind(var4)(var11, var9);
             var10[6] = var9;
             var9 = 'children';
-            var6[var9] = var10;
+            var6[8] = var10;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;

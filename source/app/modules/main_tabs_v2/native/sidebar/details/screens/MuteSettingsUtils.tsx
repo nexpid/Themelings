@@ -283,12 +283,12 @@ case 0:
             var5 = var7.getGuild;
             var5 = var5.bind(var7)(var11);
             var7 = null;
-            if(!(var7 == var3)) { _fun0004_ip = 16; continue _fun0004 }
-case 27:
-            if(!(var7 == var6)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
-            if(!(var7 != var5)) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+            if(!(var7 == var3)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
+            if(!(var7 == var6)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+            if(!(var7 != var5)) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
             var8 = _closure1_slot1;
             var12 = _closure1_slot3;
             var7 = 11;
@@ -303,14 +303,14 @@ case 31:
             var5 = var5.NotificationLabels;
             var5 = var5.Muted;
             var5 = var8.bind(var9)(var7, var2, var5);
-            _fun0004_ip = 30; continue _fun0004;
-case 28:
+            _fun0004_ip = 31; continue _fun0004;
+case 29:
             var5 = var6.isThread;
             var8 = var5.bind(var6)();
             var5 = _closure1_slot1;
             var7 = _closure1_slot3;
-            if(var8) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+            if(var8) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
             var8 = 11;
             var8 = var7[var8];
             var10 = var5.bind(var1)(var8);
@@ -326,17 +326,17 @@ case 33:
             var16 = var11;
             var14 = var2;
             var4 = var17[var9](var16, var15, var14, var13, var12);
-            _fun0004_ip = 30; continue _fun0004;
-case 32:
+            _fun0004_ip = 31; continue _fun0004;
+case 33:
             var4 = 10;
             var4 = var7[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.setNotificationSettings;
             var4 = var4.bind(var5)(var6, var2);
-            _fun0004_ip = 30; continue _fun0004;
-case 16:
+            _fun0004_ip = 31; continue _fun0004;
+case 27:
             var2 = var3.bind(var1)(var2);
-case 30:
+case 31:
             return var1;
         }
     };
@@ -355,14 +355,14 @@ case 0:
             var4 = undefined;
             var3 = undefined;
             var2 = undefined;
-            if(!var8) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+            if(!var8) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
             var8 = var1.getGuildId;
             var12 = var8.bind(var1)();
             var8 = var1.isThread;
             var8 = var8.bind(var1)();
-            if(var8) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+            if(var8) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var11 = _closure1_slot8;
             var9 = var11.getChannelMuteConfig;
             var8 = var1.id;
@@ -372,8 +372,8 @@ case 37:
             var8 = var10.bind(var11)(var12, var8);
             var10 = var9;
             var9 = var8;
-            _fun0005_ip = 38; continue _fun0005;
-case 36:
+            _fun0005_ip = 39; continue _fun0005;
+case 37:
             var14 = _closure1_slot4;
             var11 = var14.getMuteConfig;
             var8 = var1.id;
@@ -381,7 +381,7 @@ case 36:
             var13 = var14.isMuted;
             var8 = var1.id;
             var9 = var13.bind(var14)(var8);
-case 38:
+case 39:
             var11 = _closure1_slot8;
             var7 = var11.getChannelMessageNotifications;
             var1 = var1.id;
@@ -392,7 +392,7 @@ case 38:
             var2 = var1.bind(var11)(var12);
             var6 = var10;
             var5 = var9;
-case 34:
+case 35:
             var1 = {};
             var1['muteConfig'] = var6;
             var1['muted'] = var5;
@@ -409,19 +409,19 @@ case 0:
             var3 = arg1;
             var2 = _closure1_slot11;
             var2 = var2.ALL_MESSAGES;
-            if(!(var2 !== var3)) { _fun0006_ip = 39; continue _fun0006 }
+            if(!(var2 !== var3)) { _fun0006_ip = 40; continue _fun0006 }
 case 5:
             var2 = _closure1_slot11;
             var2 = var2.ONLY_MENTIONS;
-            if(!(var2 !== var3)) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
+            if(!(var2 !== var3)) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
             var2 = _closure1_slot11;
             var2 = var2.NO_MESSAGES;
-            if(!(var2 !== var3)) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
+            if(!(var2 !== var3)) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
             var2 = null;
             return var2;
-case 42:
+case 43:
             var6 = _closure1_slot0;
             var7 = _closure1_slot3;
             var2 = 8;
@@ -436,7 +436,7 @@ case 42:
             var2 = var2.CtVGyQ;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 40:
+case 41:
             var6 = _closure1_slot0;
             var7 = _closure1_slot3;
             var2 = 8;
@@ -451,7 +451,7 @@ case 40:
             var2 = var2.xGICju;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 39:
+case 40:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
             var1 = 8;

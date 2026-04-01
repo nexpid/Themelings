@@ -840,10 +840,10 @@ case 65:
         var5 = var5.VoiceFilterModelStatus;
         var6 = var5.DOWNLOADING;
         var5 = 'status';
-        var2[var5] = var6;
+        var2[4] = var6;
         var6 = 0;
         var5 = 'downloadedBytes';
-        var2[var5] = var6;
+        var2[4] = var6;
         var3[var4] = var2;
         return var1;
     };
@@ -862,9 +862,9 @@ case 65:
         var8 = var1;
         var4 = copyDataProperties(var8, var7);
         var4 = 'downloadedBytes';
-        var1[var4] = var6;
+        var1[3] = var6;
         var4 = 'totalBytes';
-        var1[var4] = var5;
+        var1[3] = var5;
         var2[var3] = var1;
         var1 = undefined;
         return var1;
@@ -911,7 +911,7 @@ case 68:
             var8 = var8.VoiceFilterModelStatus;
             var9 = var8.MISSING;
             var8 = 'status';
-            var5[var8] = var9;
+            var5[7] = var9;
             var6[var7] = var5;
             if(!(var3 == var4)) { _fun0011_ip = 69; continue _fun0011 }
 case 70:
@@ -950,9 +950,9 @@ case 67:
         var5 = var5.VoiceFilterModelStatus;
         var6 = var5.DOWNLOADED;
         var5 = 'status';
-        var2[var5] = var6;
+        var2[4] = var6;
         var5 = 'downloadedBytes';
-        var2[var5] = var1;
+        var2[4] = var1;
         var3[var4] = var2;
         return var1;
     };
@@ -1023,9 +1023,9 @@ case 74:
             var22 = var17[var14];
             var23 = var6;
             var17 = copyDataProperties(var23, var22);
-            var6[var11] = var14;
-            var6[var10] = var1;
-            var6[var8] = var9;
+            var6[10] = var14;
+            var6[9] = var1;
+            var6[7] = var9;
             var7[var14] = var6;
             var12 = var12 + 1;
             var6 = var13.length;
@@ -1060,18 +1060,18 @@ case 78:
             var22 = var20[var17];
             var23 = var6;
             var20 = copyDataProperties(var23, var22);
-            var6[var11] = var17;
-            var6[var10] = var18;
+            var6[10] = var17;
+            var6[9] = var18;
             var18 = var9;
             if(var16) { _fun0012_ip = 79; continue _fun0012 }
 case 80:
             var18 = var19;
 case 79:
-            var6[var13] = var18;
+            var6[12] = var18;
             var19 = var15.currentSet;
             var18 = var19.includes;
             var18 = var18.bind(var19)(var17);
-            var6[var12] = var18;
+            var6[11] = var18;
             var7[var17] = var6;
 case 77:
             var17 = var14.bind(var1)();

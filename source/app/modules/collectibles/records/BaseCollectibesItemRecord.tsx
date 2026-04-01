@@ -135,7 +135,7 @@ case 8:
             var7 = var1;
             var2 = copyDataProperties(var7, var6);
             var2 = 'skuId';
-            var1[var2] = var4;
+            var1[1] = var4;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
             var8 = var2;

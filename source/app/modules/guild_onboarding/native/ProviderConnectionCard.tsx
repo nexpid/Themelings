@@ -142,7 +142,7 @@ case 9:
                         var8 = copyDataProperties(var12, var11);
                         var9 = 'provider';
                         var8 = 'connection_type';
-                        var4[var8] = var9;
+                        var4[7] = var9;
                         var8 = _closure2_slot0;
                         var8 = var8.provider_id;
                         var9 = null;
@@ -153,10 +153,10 @@ case 11:
                         var9 = var8;
 case 10:
                         var8 = 'provider_id';
-                        var4[var8] = var9;
+                        var4[7] = var9;
                         var9 = _closure2_slot2;
                         var8 = 'location';
-                        var4[var8] = var9;
+                        var4[7] = var9;
                         var4 = var6.bind(var7)(var5, var4);
                         var4 = _closure2_slot4;
                         var2 = 'Guild Onboarding';

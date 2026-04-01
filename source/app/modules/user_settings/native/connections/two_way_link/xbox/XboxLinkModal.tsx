@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3['render'] = var9;
-                var1[var8] = var3;
+                var1[7] = var3;
                 var8 = var2.PRE_CONNECT;
                 var3 = {};
                 var3['headerLeft'] = var6;
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3['render'] = var9;
-                var1[var8] = var3;
+                var1[7] = var3;
                 var8 = var2.DISCORD_CONSENT;
                 var3 = {};
                 var3['headerLeft'] = var6;
@@ -216,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3['render'] = var9;
-                var1[var8] = var3;
+                var1[7] = var3;
                 var8 = var2.SUCCESS;
                 var3 = {};
                 var3['headerLeft'] = var6;
@@ -237,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3['render'] = var9;
-                var1[var8] = var3;
+                var1[7] = var3;
                 var8 = var2.EDUCATION;
                 var3 = {};
                 var3['headerLeft'] = var6;
@@ -260,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3['render'] = var9;
-                var1[var8] = var3;
+                var1[7] = var3;
                 var3 = var2.ERROR;
                 var2 = {};
                 var2['headerLeft'] = var6;
@@ -283,7 +283,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2['render'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var1 = undefined;

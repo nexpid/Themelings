@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var10 = 'getConstants';
-    var4[var10] = var11;
+    var4[9] = var11;
     var11 = function setInputDevice(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -68,7 +68,7 @@ case 4:
         }
     };
     var10 = 'setInputDevice';
-    var4[var10] = var11;
+    var4[9] = var11;
     var11 = function setOutputDevice(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -100,7 +100,7 @@ case 4:
         }
     };
     var10 = 'setOutputDevice';
-    var4[var10] = var11;
+    var4[9] = var11;
     var11 = function setVideoInputDevice(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -132,7 +132,7 @@ case 4:
         }
     };
     var10 = 'setVideoInputDevice';
-    var4[var10] = var11;
+    var4[9] = var11;
     var11 = var12.Object;
     var10 = var11.fromEntries;
     var14 = var12.Object;

@@ -93,7 +93,7 @@ case 2:
     var14['hasUserInteractedSinceOrientationChange'] = var15;
     var14['isInitialized'] = var15;
     var14['isVisible'] = var15;
-    var12[var17] = var14;
+    var12[16] = var14;
     var14 = var13.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
     var13 = {};
     var13['x'] = var1;
@@ -108,7 +108,7 @@ case 2:
     var13['hasUserInteractedSinceOrientationChange'] = var15;
     var13['isInitialized'] = var15;
     var13['isVisible'] = var15;
-    var12[var14] = var13;
+    var12[13] = var13;
     var2['voiceCallOverlayLayoutStates'] = var12;
     var2 = var6.bind(var7)(var2);
     var _closure1_slot9 = var2;

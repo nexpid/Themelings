@@ -230,7 +230,7 @@ case 0:
                     var7 = copyDataProperties(var11, var10);
                     var8 = 'application';
                     var7 = 'connection_type';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var7 = _closure2_slot0;
                     var7 = var7.application_id;
                     var8 = null;
@@ -241,10 +241,10 @@ case 17:
                     var8 = var7;
 case 16:
                     var7 = 'application_id';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var8 = _closure2_slot2;
                     var7 = 'location';
-                    var2[var7] = var8;
+                    var2[6] = var8;
                     var2 = var5.bind(var6)(var3, var2);
                     var3 = _closure2_slot5;
                     var2 = {};

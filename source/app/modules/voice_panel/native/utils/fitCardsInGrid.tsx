@@ -206,10 +206,10 @@ case 25:
             var22 = var24 + var22;
             var22 = var22 * var21;
             var22 = var23 - var22;
-            var18[var9] = var22;
+            var18[8] = var22;
             var21 = var13 - var21;
-            var18[var8] = var21;
-            var18[var7] = var19;
+            var18[7] = var21;
+            var18[6] = var19;
             var19 = _closure1_slot0;
             var19 = var19.bind(var10)(var18, var20);
             var17 = var20;

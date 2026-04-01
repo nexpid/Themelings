@@ -560,10 +560,10 @@ case 90:
     var17 = 0;
     var13 = arraySpread(var19, var18, var17);
     var16 = var10.GUILD_SUBSCRIPTION_UNAVAILABLE;
-    var12[var13] = var16;
+    var12[12] = var16;
     var15 = var13 + var15;
     var13 = var10.ROLE_SUBSCRIPTION_UNAVAILABLE;
-    var12[var15] = var13;
+    var12[14] = var13;
     var13 = var14.prototype;
     var13 = Object.create(var13, {constructor: {value: var14}});
     var20 = var13;

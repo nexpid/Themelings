@@ -437,7 +437,7 @@ case 4:
             return var1;
         };
         var2['headerRight'] = var4;
-        var1[var3] = var2;
+        var1[2] = var2;
         return var1;
     };
     var _closure1_slot10 = var4;

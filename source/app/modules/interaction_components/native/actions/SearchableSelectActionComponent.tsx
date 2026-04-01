@@ -251,9 +251,9 @@ case 31:
             var19 = var8;
             var8 = copyDataProperties(var20, var19);
             var8 = 'placeholder';
-            var6[var8] = var13;
+            var6[7] = var13;
             var8 = 'state';
-            var6[var8] = var12;
+            var6[7] = var12;
             var8 = _closure1_slot0;
             var7 = 9;
             var7 = var11[var7];
@@ -261,7 +261,7 @@ case 31:
             var7 = var8.transformSearchableSelectOptions;
             var8 = var7.bind(var8)(var9, var10);
             var7 = 'selectedOptions';
-            var6[var7] = var8;
+            var6[6] = var8;
             var1['model'] = var6;
             var5 = function onTap() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {

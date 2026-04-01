@@ -118,10 +118,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7[var5];
             var6 = var6.bind(var3)(var5);
             var5 = 'ViewComponent';
-            var1[var5] = var6;
+            var1[4] = var6;
             var6 = 'collapse';
             var5 = 'pressBehavior';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
@@ -375,7 +375,7 @@ case 14:
         var11['children'] = var13;
         var12 = var10.bind(var4)(var12, var11);
         var11 = 'children';
-        var5[var11] = var12;
+        var5[10] = var12;
         var9 = var10.bind(var4)(var9, var5);
         var5 = new Array(3);
         var5[0] = var9;

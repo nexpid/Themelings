@@ -322,14 +322,14 @@ case 0:
                 var2 = null;
                 var4 = var2 == var3;
                 var2 = undefined;
-                if(var4) { _fun0004_ip = 7; continue _fun0004 }
-case 36:
+                if(var4) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                 var4 = var3.features;
                 var3 = var4.has;
                 var1 = _closure1_slot8;
                 var1 = var1.PREMIUM_TIER_3_OVERRIDE;
                 var2 = var3.bind(var4)(var1);
-case 7:
+case 36:
                 var1 = true;
                 var1 = var1 === var2;
                 return var1;
@@ -372,10 +372,10 @@ case 7:
 case 0:
                 var2 = _closure2_slot1;
                 var12 = null;
-                if(!(var12 != var2)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                if(!(var12 != var2)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                 var2 = _closure2_slot4;
-                if(!var2) { _fun0005_ip = 37; continue _fun0005 }
+                if(!var2) { _fun0005_ip = 38; continue _fun0005 }
 case 34:
                 var2 = _closure2_slot1;
                 var11 = var2.allPowerups;
@@ -391,28 +391,28 @@ case 34:
                 var4 = 0;
                 var6 = var5;
                 var5 = undefined;
-                if(var3) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                if(var3) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var14 = var6.value;
                 var3 = var14.skuId;
                 var17 = var14.threshold;
                 var16 = var11[var3];
                 var14 = var5;
-                if(!(var12 != var16)) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                if(!(var12 != var16)) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
                 var15 = _closure2_slot3;
-                if(!var15) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                if(!var15) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
                 var18 = _closure1_slot7;
                 var15 = var18.has;
                 var15 = var15.bind(var18)(var3);
                 var14 = var5;
-                if(var15) { _fun0005_ip = 41; continue _fun0005 }
-case 43:
+                if(var15) { _fun0005_ip = 42; continue _fun0005 }
+case 44:
                 var3 = var10[var3];
                 var14 = var5;
-                if(!(var12 == var3)) { _fun0005_ip = 41; continue _fun0005 }
-case 15:
+                if(!(var12 == var3)) { _fun0005_ip = 42; continue _fun0005 }
+case 46:
                 var18 = var16.dependencies;
                 var15 = var18.every;
                 var3 = function(arg1) {
@@ -425,35 +425,35 @@ case 15:
                 };
                 var3 = var15.bind(var18)(var3);
                 var14 = var5;
-                if(!var3) { _fun0005_ip = 41; continue _fun0005 }
-case 45:
+                if(!var3) { _fun0005_ip = 42; continue _fun0005 }
+case 19:
                 var15 = var16.cost;
                 var3 = _closure2_slot2;
                 var3 = var15 - var3;
                 var15 = var3 > var4;
-                if(!var15) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
-                var15 = var3 <= var17;
-case 46:
-                var14 = var3;
-                if(!var15) { _fun0005_ip = 41; continue _fun0005 }
+                if(!var15) { _fun0005_ip = 47; continue _fun0005 }
 case 48:
+                var15 = var3 <= var17;
+case 47:
+                var14 = var3;
+                if(!var15) { _fun0005_ip = 42; continue _fun0005 }
+case 49:
                 var15 = var2.push;
                 var15 = var15.bind(var2)(var16);
                 var14 = var3;
-case 41:
+case 42:
                 var15 = var7.bind(var8)();
                 var3 = var15.done;
                 var5 = var14;
                 var6 = var15;
-                if(!var3) { _fun0005_ip = 40; continue _fun0005 }
-case 39:
+                if(!var3) { _fun0005_ip = 41; continue _fun0005 }
+case 40:
                 var3 = var2.length;
-                if(!(!(var3 > var4))) { _fun0005_ip = 49; continue _fun0005 }
-case 37:
+                if(!(!(var3 > var4))) { _fun0005_ip = 24; continue _fun0005 }
+case 38:
                 var3 = undefined;
                 return var3;
-case 49:
+case 24:
                 var3 = global;
                 var4 = var3.Math;
                 var3 = var4.floor;

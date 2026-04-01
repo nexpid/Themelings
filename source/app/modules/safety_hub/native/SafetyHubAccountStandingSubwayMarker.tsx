@@ -147,9 +147,9 @@ case 9:
             var23 = var12;
             var19 = copyDataProperties(var23, var22);
             var19 = 'width';
-            var12[var19] = var20;
+            var12[18] = var20;
             var19 = 'height';
-            var12[var19] = var20;
+            var12[18] = var20;
             var19 = 0;
             if(!var18) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
@@ -163,7 +163,7 @@ case 11:
             var19 = -var18;
 case 10:
             var18 = 'marginLeft';
-            var12[var18] = var19;
+            var12[17] = var19;
             var13 = var17 - var13;
             var14 = 0;
             if(!(var16 === var13)) { _fun0001_ip = 12; continue _fun0001 }
@@ -178,7 +178,7 @@ case 13:
             var14 = -var13;
 case 12:
             var13 = 'marginRight';
-            var12[var13] = var14;
+            var12[12] = var14;
             var5['style'] = var12;
             var14 = _closure1_slot4;
             var13 = _closure1_slot3;

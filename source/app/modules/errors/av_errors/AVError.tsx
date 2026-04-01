@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Audio;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.NOISE_CANCELLER_ERROR;
     var8 = {};
     var12 = 1002;
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Audio;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.AUDIO_CAPTURE_SAMPLE_RATE_MISMATCH;
     var8 = {};
     var12 = 1003;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Audio;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.STREAM_FAILED_TO_START;
     var8 = {};
     var12 = 2001;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Video;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.STREAM_VIEW_LOW_FPS;
     var8 = {};
     var12 = 2002;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['category'] = var12;
     var12 = false;
     var8['isErrorOutbound'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.STREAM_VIEW_HIGH_PACKET_LOSS;
     var8 = {};
     var13 = 2003;
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.STREAM_SEND_HIGH_PACKET_LOSS;
     var8 = {};
     var13 = 2004;
@@ -164,7 +164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.STREAM_SEND_LOW_FPS;
     var8 = {};
     var13 = 2005;
@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.STREAM_BAD_NETWORK_QUALITY;
     var8 = {};
     var13 = 2006;
@@ -184,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.STREAM_RECONNECTING;
     var8 = {};
     var13 = 2007;
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.VIDEO_DECODE_ERROR;
     var8 = {};
     var13 = 2008;
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.VIDEO_ENCODE_ERROR;
     var8 = {};
     var13 = 2009;
@@ -214,7 +214,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.STREAM_FULL;
     var8 = {};
     var13 = 2010;
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.VIDEO_STREAM_SENDER_READY_TIMEOUT;
     var8 = {};
     var13 = 2011;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.VIDEO_STREAM_RECEIVER_READY_TIMEOUT;
     var8 = {};
     var13 = 2012;
@@ -244,7 +244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.CAMERA_SEND_LOW_FPS;
     var8 = {};
     var13 = 2013;
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.VIDEO_STREAM_SENDER_READY_TIMEOUT_NO_STREAM;
     var8 = {};
     var13 = 2014;
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.VIDEO_STREAM_RECEIVER_READY_TIMEOUT_NO_STREAM;
     var8 = {};
     var13 = 2015;
@@ -274,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6.Video;
     var8['category'] = var13;
     var8['isErrorOutbound'] = var12;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.NO_INPUT_DEVICES;
     var8 = {};
     var12 = 3001;
@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Devices;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.NO_AUDIO_INPUT_DETECTED;
     var8 = {};
     var12 = 3002;
@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Devices;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.SCREENSHARE_OS_NOT_SUPPORTED;
     var8 = {};
     var12 = 3003;
@@ -304,7 +304,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Devices;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.SCREENSHARE_OS_ERROR;
     var8 = {};
     var12 = 3004;
@@ -314,7 +314,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Devices;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var10 = var7.DEBUG_LOG_UPLOAD_FAILED;
     var8 = {};
     var12 = 4001;
@@ -324,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6.Debug;
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
-    var4[var10] = var8;
+    var4[9] = var8;
     var _closure1_slot5 = var4;
     var4 = {};
     var8 = 'Unknown';

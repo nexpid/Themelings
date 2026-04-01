@@ -304,9 +304,9 @@ case 6:
             var6 = var6.shinyButton;
             var8[1] = var6;
             var6 = 'style';
-            var1[var6] = var8;
+            var1[5] = var8;
             var6 = 'disabled';
-            var1[var6] = var7;
+            var1[5] = var7;
             var6 = function renderShine() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -380,7 +380,7 @@ case 7:
                 }
             };
             var5 = 'renderShine';
-            var1[var5] = var6;
+            var1[4] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -1054,7 +1054,7 @@ case 98:
                     var21 = 0;
                     var10 = arraySpread(var23, var22, var21);
                     var9 = var9.onError;
-                    var7[var10] = var9;
+                    var7[9] = var9;
                     var9 = 1;
                     var9 = var10 + var9;
                     var3['errorCallbacks'] = var7;
@@ -1513,9 +1513,9 @@ case 40:
         var7 = var6 instanceof Object ? var6 : var7;
         var6 = {};
         var14 = var11.PRELOADED_USER_SETTINGS;
-        var6[var14] = var8;
+        var6[13] = var8;
         var11 = var11.FRECENCY_AND_FAVORITES_SETTINGS;
-        var6[var11] = var7;
+        var6[10] = var7;
         var11 = 22;
         var11 = var13[var11];
         var13 = var12.bind(var1)(var11);

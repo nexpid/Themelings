@@ -50,8 +50,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = copyDataProperties(var8, var7);
                 var6 = _closure3_slot1;
                 var5 = _closure3_slot2;
-                var3[var6] = var5;
-                var2[var4] = var3;
+                var3[5] = var5;
+                var2[3] = var3;
                 var1['responses'] = var2;
                 return var1;
             };
@@ -154,7 +154,7 @@ case 4:
                     var8 = var2;
                     var5 = copyDataProperties(var8, var7);
                     var3 = _closure3_slot0;
-                    var2[var3] = var4;
+                    var2[2] = var4;
                     var1['displayedQuestions'] = var2;
                     return var1;
                 }

@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_GUILD;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_ROLES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_CHANNELS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.KICK_MEMBERS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -227,7 +227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.BAN_MEMBERS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -247,7 +247,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.CREATE_INSTANT_INVITE;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -267,7 +267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_NICKNAMES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.CHANGE_NICKNAME;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -307,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_GUILD_EXPRESSIONS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -327,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.CREATE_GUILD_EXPRESSIONS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -347,7 +347,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_WEBHOOKS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -367,7 +367,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.VIEW_AUDIT_LOG;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -387,7 +387,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.VIEW_CHANNEL;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -407,7 +407,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.SEND_MESSAGES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -427,7 +427,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.SEND_TTS_MESSAGES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -447,7 +447,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_MESSAGES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -467,7 +467,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.EMBED_LINKS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -487,7 +487,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.ATTACH_FILES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -507,7 +507,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.READ_MESSAGE_HISTORY;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -527,7 +527,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MENTION_EVERYONE;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -547,7 +547,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.ADD_REACTIONS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -567,7 +567,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.USE_EXTERNAL_EMOJIS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -587,7 +587,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.USE_EXTERNAL_STICKERS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -607,7 +607,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.USE_APPLICATION_COMMANDS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -627,7 +627,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.SEND_VOICE_MESSAGES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -647,7 +647,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.CONNECT;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -667,7 +667,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.SPEAK;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -687,7 +687,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MUTE_MEMBERS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -707,7 +707,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.DEAFEN_MEMBERS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -727,7 +727,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MOVE_MEMBERS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -747,7 +747,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.USE_VAD;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -767,7 +767,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.PRIORITY_SPEAKER;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -787,7 +787,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.CREATE_PUBLIC_THREADS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -807,7 +807,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.CREATE_PRIVATE_THREADS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -827,7 +827,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.SEND_MESSAGES_IN_THREADS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -847,7 +847,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_THREADS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -867,7 +867,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MANAGE_EVENTS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -887,7 +887,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.CREATE_EVENTS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -907,7 +907,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.MODERATE_MEMBERS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -927,7 +927,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.REQUEST_TO_SPEAK;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -947,7 +947,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.VIEW_GUILD_ANALYTICS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -967,7 +967,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.VIEW_CREATOR_MONETIZATION_ANALYTICS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -987,7 +987,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.STREAM;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -1007,7 +1007,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.USE_EMBEDDED_ACTIVITIES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -1027,7 +1027,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.USE_SOUNDBOARD;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -1047,7 +1047,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.USE_EXTERNAL_SOUNDS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -1067,7 +1067,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.SET_VOICE_CHANNEL_STATUS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -1087,7 +1087,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.SEND_POLLS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -1107,7 +1107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.USE_EXTERNAL_APPS;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -1127,7 +1127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var10 = var8.PIN_MESSAGES;
     var9 = var10.toString;
     var10 = var9.bind(var10)();
@@ -1147,7 +1147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var10] = var9;
+    var5[9] = var9;
     var9 = var8.BYPASS_SLOWMODE;
     var8 = var9.toString;
     var9 = var8.bind(var9)();
@@ -1167,7 +1167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5[var9] = var8;
+    var5[8] = var8;
     var _closure1_slot5 = var5;
     var5 = 3;
     var5 = var7[var5];

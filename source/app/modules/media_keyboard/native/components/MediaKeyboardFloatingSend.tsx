@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var10;
     var11 = copyDataProperties(var17, var16);
     var11 = 'top';
-    var10[var11] = var1;
+    var10[10] = var1;
     var11 = 6;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.colors;
     var12 = var11.BACKGROUND_SURFACE_HIGH;
     var11 = 'color';
-    var10[var11] = var12;
+    var10[10] = var12;
     var4['gradient'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot8 = var4;
@@ -405,7 +405,7 @@ case 13:
             var12 = copyDataProperties(var20, var19);
             var13 = 'none';
             var12 = 'pointerEvents';
-            var5[var12] = var13;
+            var5[11] = var13;
             var7 = var11.bind(var4)(var8, var5);
 case 12:
             var5 = new Array(2);

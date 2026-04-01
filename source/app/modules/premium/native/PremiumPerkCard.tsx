@@ -91,10 +91,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var12 = var5.NARROW;
     var11 = {'width': 300, 'height': 364};
-    var4[var12] = var11;
+    var4[11] = var11;
     var12 = var5.WIDE;
     var11 = {'width': 320, 'height': 364};
-    var4[var12] = var11;
+    var4[11] = var11;
     var4 = var7.bind(var10)(var4);
     var _closure1_slot11 = var4;
     var7 = 26;

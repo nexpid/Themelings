@@ -54,7 +54,7 @@ case 3:
                         var2 = {};
                         var8 = _closure1_slot5;
                         var7 = arg1;
-                        var2[var8] = var7;
+                        var2[7] = var7;
                         var2 = var5.bind(var6)(var2);
                         SaveGenerator(address=64);
 case 4:

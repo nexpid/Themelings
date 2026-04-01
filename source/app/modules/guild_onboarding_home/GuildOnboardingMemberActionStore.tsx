@@ -287,8 +287,8 @@ case 11:
         var8 = var3;
         var5 = copyDataProperties(var8, var7);
         var5 = true;
-        var3[var6] = var5;
-        var2[var4] = var3;
+        var3[5] = var5;
+        var2[3] = var3;
         _closure1_slot6 = var2;
         var1 = undefined;
         return var1;

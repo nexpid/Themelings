@@ -11,98 +11,82 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var9 = var2.skuId;
+            var7 = var2.skuId;
             var14 = var2.layer;
-            var10 = var2.containerWidth;
+            var13 = var2.animatedPosition;
+            var _closure2_slot0 = var13;
+            var3 = var2.containerWidth;
             var2 = _closure1_slot10;
             var5 = undefined;
             var8 = var2.bind(var5)();
-            var4 = _closure1_slot0;
+            var4 = _closure1_slot6;
+            var2 = 2;
+            var2 = var2 * var4;
+            var10 = var3 + var2;
+            var2 = _closure1_slot5;
+            var3 = var10 / var2;
+            var2 = _closure1_slot7;
+            var2 = -var2;
+            var11 = var3 * var2;
+            var _closure2_slot1 = var11;
+            var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 5;
             var2 = var3[var2];
-            var7 = var4.bind(var5)(var2);
-            var2 = var7.useBottomSheet;
-            var2 = var2.bind(var7)();
-            var15 = var2.animatedPosition;
-            var _closure2_slot0 = var15;
-            var7 = _closure1_slot1;
-            var2 = 6;
-            var2 = var3[var2];
-            var2 = var7.bind(var5)(var2);
-            var2 = var2.bind(var5)();
-            var13 = var2.top;
-            var _closure2_slot1 = var13;
-            var11 = _closure1_slot6;
-            var2 = 2;
-            var2 = var2 * var11;
-            var10 = var10 + var2;
-            var2 = _closure1_slot5;
-            var11 = var10 / var2;
-            var2 = _closure1_slot7;
-            var2 = -var2;
-            var11 = var11 * var2;
-            var _closure2_slot2 = var11;
-            var2 = 7;
-            var2 = var3[var2];
-            var7 = var7.bind(var5)(var2);
+            var4 = var4.bind(var5)(var2);
             var2 = {};
-            var2['skuId'] = var9;
+            var2['skuId'] = var7;
             var2['layer'] = var14;
             var2['layerWidth'] = var10;
-            var2 = var7.bind(var5)(var2);
+            var2 = var4.bind(var5)(var2);
             var12 = var2.assetUrl;
             var9 = var2.imageHeight;
-            var _closure2_slot3 = var9;
-            var2 = 8;
+            var _closure2_slot2 = var9;
+            var4 = _closure1_slot0;
+            var2 = 6;
             var3 = var3[var2];
             var4 = var4.bind(var5)(var3);
             var3 = var4.useAnimatedStyle;
-            var1 = function l() {
+            var1 = function s() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var2 = _closure2_slot0;
-                    var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var2 = _closure2_slot3;
-                    var1 = 0;
-                    if(!(var1 !== var2)) { _fun0002_ip = 2; continue _fun0002 }
-case 4:
                     var1 = {};
                     var4 = _closure2_slot0;
-                    var2 = var4.get;
-                    var4 = var2.bind(var4)();
-                    var2 = _closure2_slot2;
-                    var2 = var4 + var2;
-                    var1['top'] = var2;
-                    var2 = 1;
-                    var1['opacity'] = var2;
-                    _fun0002_ip = 5; continue _fun0002;
+                    var3 = null;
+                    var5 = var3 == var4;
+                    var4 = undefined;
+                    if(var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var6 = _closure2_slot0;
+                    var5 = var6.get;
+                    var4 = var5.bind(var6)();
 case 2:
-                    var2 = {};
-                    var4 = _closure2_slot1;
-                    var2['top'] = var4;
-                    var5 = _closure2_slot3;
-                    var3 = 1;
-                    var4 = 0;
-                    if(!(var4 === var5)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    var6 = var3 != var4;
                     var3 = 0;
-case 6:
-                    var2['opacity'] = var3;
-                    var1 = var2;
+                    var5 = 0;
+                    if(!var6) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
+                    var5 = var4;
+case 4:
+                    var4 = _closure2_slot1;
+                    var4 = var5 + var4;
+                    var1['top'] = var4;
+                    var4 = _closure2_slot2;
+                    var2 = 1;
+                    if(!(var3 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                    var2 = 0;
+case 6:
+                    var1['opacity'] = var2;
                     return var1;
                 }
             };
             var7 = {};
-            var7['animatedPosition'] = var15;
-            var7['imageHeight'] = var9;
-            var7['safeAreaTop'] = var13;
+            var7['animatedPosition'] = var13;
             var7['overflowTop'] = var11;
+            var7['imageHeight'] = var9;
             var1['__closure'] = var7;
-            var7 = 1818387593921.0;
+            var7 = 2478496781523.0;
             var1['__workletHash'] = var7;
             var7 = _closure1_slot11;
             var1['__initData'] = var7;
@@ -138,7 +122,7 @@ case 10:
             var8[2] = var13;
             var2['style'] = var8;
             var8 = _closure1_slot9;
-            var6 = 9;
+            var6 = 7;
             var6 = var11[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
@@ -210,15 +194,15 @@ case 8:
     var14 = var9;
     var10 = copyDataProperties(var14, var13);
     var10 = 'pointerEvents';
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['backdrop'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
     var4 = {};
-    var7 = 'function ProfileFrameBackdropTsx1(){const{animatedPosition,imageHeight,safeAreaTop,overflowTop}=this.__closure;if(animatedPosition==null||imageHeight===0){return{top:safeAreaTop,opacity:imageHeight===0?0:1};}const sheetTop=animatedPosition.get();return{top:sheetTop+overflowTop,opacity:1};}';
+    var7 = 'function ProfileFrameBackdropTsx1(){const{animatedPosition,overflowTop,imageHeight}=this.__closure;var _animatedPosition$get,_animatedPosition;const sheetTop=(_animatedPosition$get=(_animatedPosition=animatedPosition)===null||_animatedPosition===void 0?void 0:_animatedPosition.get())!==null&&_animatedPosition$get!==void 0?_animatedPosition$get:0;return{top:sheetTop+overflowTop,opacity:imageHeight===0?0:1};}';
     var4['code'] = var7;
     var _closure1_slot11 = var4;
-    var4 = 10;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -232,6 +216,8 @@ case 0:
             var _closure2_slot0 = var1;
             var4 = var2.containerWidth;
             var _closure2_slot1 = var4;
+            var2 = var2.animatedPosition;
+            var _closure2_slot2 = var2;
             var3 = _closure1_slot10;
             var5 = undefined;
             var7 = var3.bind(var5)();
@@ -271,7 +257,7 @@ case 11:
 case 14:
             var1 = null;
             if(!(var3 !== var4)) { _fun0003_ip = 13; continue _fun0003 }
-case 5:
+case 15:
             var4 = _closure1_slot9;
             var3 = _closure1_slot4;
             var2 = {};
@@ -287,8 +273,10 @@ case 5:
                 var6 = var6.skuId;
                 var3['skuId'] = var6;
                 var3['layer'] = var1;
-                var2 = _closure2_slot1;
-                var3['containerWidth'] = var2;
+                var6 = _closure2_slot1;
+                var3['containerWidth'] = var6;
+                var2 = _closure2_slot2;
+                var3['animatedPosition'] = var2;
                 var2 = var1.id;
                 var1 = undefined;
                 var1 = var5.bind(var1)(var4, var3, var2);

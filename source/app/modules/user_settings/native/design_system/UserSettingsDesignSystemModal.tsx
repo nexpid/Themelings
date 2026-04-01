@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3['render'] = var11;
-            var1[var9] = var3;
+            var1[8] = var3;
             var3 = _closure1_slot10;
             var9 = var3.WHO_DAT;
             var3 = {};
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3['render'] = var11;
-            var1[var9] = var3;
+            var1[8] = var3;
             var3 = _closure1_slot10;
             var9 = var3.EVERYBODY;
             var3 = {};
@@ -231,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3['render'] = var11;
-            var1[var9] = var3;
+            var1[8] = var3;
             var3 = _closure1_slot10;
             var9 = var3.JOCKIN;
             var3 = {};
@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3['render'] = var10;
-            var1[var9] = var3;
+            var1[8] = var3;
             var2 = _closure1_slot10;
             var3 = var2.LIMIT;
             var2 = {};
@@ -356,7 +356,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2['render'] = var4;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         };
         var1 = new Array(0);

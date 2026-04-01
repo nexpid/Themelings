@@ -67,17 +67,17 @@ case 4:
             var4 = _closure1_slot5;
             var12 = var4.currentState;
             var4 = 'client_app_state';
-            var3[var4] = var12;
+            var3[3] = var12;
             var12 = true;
             var4 = 'is_fast_connect';
-            var3[var4] = var12;
+            var3[3] = var12;
             var4 = 7;
             var4 = var7[var4];
             var5 = var5.bind(var2)(var4);
             var4 = var5.describeConnectionReasons;
             var5 = var4.bind(var5)();
             var4 = 'gateway_connect_reasons';
-            var3[var4] = var5;
+            var3[3] = var5;
             var7 = null;
             if(!(var7 == var6)) { _fun0001_ip = 7; continue _fun0001 }
 case 8:

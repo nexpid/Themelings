@@ -126,7 +126,7 @@ case 2:
             var3 = 4;
             var4 = var4 + var3;
             var3 = 'marginRight';
-            var2[var3] = var4;
+            var2[2] = var4;
             var1['avatar'] = var2;
             return var1;
         }

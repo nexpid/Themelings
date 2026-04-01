@@ -155,7 +155,7 @@ case 6:
     var17 = var13;
     var10 = new var17[var10](var16);
     var10 = var10 instanceof Object ? var10 : var13;
-    var2[var12] = var10;
+    var2[11] = var10;
     var12 = var9.AUDIO_OUTPUT;
     var10 = var6[var8];
     var10 = var5.bind(var1)(var10);
@@ -165,7 +165,7 @@ case 6:
     var17 = var13;
     var10 = new var17[var10](var16);
     var10 = var10 instanceof Object ? var10 : var13;
-    var2[var12] = var10;
+    var2[11] = var10;
     var10 = var9.VIDEO_INPUT;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
@@ -175,18 +175,18 @@ case 6:
     var17 = var12;
     var8 = new var17[var8](var16);
     var8 = var8 instanceof Object ? var8 : var12;
-    var2[var10] = var8;
+    var2[9] = var8;
     var _closure1_slot13 = var2;
     var2 = {};
     var10 = var9.AUDIO_INPUT;
     var8 = {};
-    var2[var10] = var8;
+    var2[9] = var8;
     var10 = var9.AUDIO_OUTPUT;
     var8 = {};
-    var2[var10] = var8;
+    var2[9] = var8;
     var10 = var9.VIDEO_INPUT;
     var8 = {};
-    var2[var10] = var8;
+    var2[9] = var8;
     var _closure1_slot14 = var2;
     var2 = {};
     var12 = var9.AUDIO_INPUT;
@@ -199,7 +199,7 @@ case 6:
     var16 = var11;
     var10 = new var17[var10](var16, var15);
     var10 = var10 instanceof Object ? var10 : var13;
-    var2[var12] = var10;
+    var2[11] = var10;
     var12 = var9.AUDIO_OUTPUT;
     var10 = var6[var8];
     var10 = var7.bind(var1)(var10);
@@ -209,7 +209,7 @@ case 6:
     var16 = var11;
     var10 = new var17[var10](var16, var15);
     var10 = var10 instanceof Object ? var10 : var13;
-    var2[var12] = var10;
+    var2[11] = var10;
     var9 = var9.VIDEO_INPUT;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
@@ -219,7 +219,7 @@ case 6:
     var16 = var11;
     var8 = new var17[var8](var16, var15);
     var8 = var8 instanceof Object ? var8 : var10;
-    var2[var9] = var8;
+    var2[8] = var8;
     var _closure1_slot15 = var2;
     var2 = 10;
     var2 = var6[var2];
@@ -454,7 +454,7 @@ case 20:
                         return var1;
                     };
                     var3['getCurrentDeviceId'] = var6;
-                    var2[var5] = var3;
+                    var2[4] = var3;
                     var5 = var1.AUDIO_OUTPUT;
                     var3 = {};
                     var6 = function getCurrentDeviceId(arg1) {
@@ -464,7 +464,7 @@ case 20:
                         return var1;
                     };
                     var3['getCurrentDeviceId'] = var6;
-                    var2[var5] = var3;
+                    var2[4] = var3;
                     var3 = var1.VIDEO_INPUT;
                     var1 = {};
                     var4 = function getCurrentDeviceId(arg1) {
@@ -474,7 +474,7 @@ case 20:
                         return var1;
                     };
                     var1['getCurrentDeviceId'] = var4;
-                    var2[var3] = var1;
+                    var2[2] = var1;
                     var1 = arg1;
                     var1 = var2[var1];
                     return var1;
@@ -507,17 +507,17 @@ case 17:
             var3 = var2.AUDIO_INPUT;
             var3 = var4[var3];
             var3 = var3.usageHistory;
-            var1[var5] = var3;
+            var1[4] = var3;
             var5 = var2.AUDIO_OUTPUT;
             var3 = var2.AUDIO_OUTPUT;
             var3 = var4[var3];
             var3 = var3.usageHistory;
-            var1[var5] = var3;
+            var1[4] = var3;
             var3 = var2.VIDEO_INPUT;
             var2 = var2.VIDEO_INPUT;
             var2 = var4[var2];
             var2 = var2.usageHistory;
-            var1[var3] = var2;
+            var1[2] = var2;
             return var1;
         };
         var5['value'] = var7;
@@ -544,13 +544,13 @@ case 17:
             var3 = _closure1_slot9;
             var5 = var3.AUDIO_INPUT;
             var1 = new Array(0);
-            var4[var5] = var1;
+            var4[4] = var1;
             var5 = var3.AUDIO_OUTPUT;
             var1 = new Array(0);
-            var4[var5] = var1;
+            var4[4] = var1;
             var5 = var3.VIDEO_INPUT;
             var1 = new Array(0);
-            var4[var5] = var1;
+            var4[4] = var1;
             var _closure3_slot1 = var4;
             var1 = var3.AUDIO_INPUT;
             var6 = new Array(2);

@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var4;
     var7 = copyDataProperties(var11, var10);
     var7 = 'top';
-    var4[var7] = var1;
+    var4[6] = var1;
     var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];

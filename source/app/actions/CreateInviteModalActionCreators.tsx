@@ -82,13 +82,13 @@ case 2:
         var8 = copyDataProperties(var11, var10);
         var9 = arg1;
         var8 = 'guildId';
-        var3[var8] = var9;
+        var3[7] = var9;
         var9 = arg2;
         var8 = 'channelId';
-        var3[var8] = var9;
+        var3[7] = var9;
         var9 = arg4;
         var8 = 'onClose';
-        var3[var8] = var9;
+        var3[7] = var9;
         var3 = var6.bind(var7)(var3);
         var3 = 3;
         var3 = var5[var3];

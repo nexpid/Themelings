@@ -231,7 +231,7 @@ case 16:
             var8['onAnimationFinish'] = var11;
             var9 = var10.bind(var4)(var9, var8);
             var8 = 'children';
-            var5[var8] = var9;
+            var5[7] = var9;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

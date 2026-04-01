@@ -127,7 +127,7 @@ case 12:
             var10 = 0;
             var12 = var4;
             var7 = arraySpread(var12, var11, var10);
-            var4[var7] = var5;
+            var4[6] = var5;
             var6 = 1;
             var6 = var7 + var6;
             var2 = var4;

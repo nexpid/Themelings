@@ -388,7 +388,7 @@ case 39:
                 var9 = var9.ImpressionNames;
                 var9 = var9.ROLE_SUBSCRIPTION_INITIAL_SETUP_MODAL_LANDING;
                 var3['impressionName'] = var9;
-                var1[var8] = var3;
+                var1[7] = var3;
                 var2 = _closure1_slot8;
                 var3 = var2.DETAILS;
                 var2 = {};
@@ -397,7 +397,7 @@ case 39:
                 var4 = var4.ImpressionNames;
                 var4 = var4.ROLE_SUBSCRIPTION_INITIAL_SETUP_MODAL_TIER_STEP;
                 var2['impressionName'] = var4;
-                var1[var3] = var2;
+                var1[2] = var2;
                 return var1;
             };
             var2 = new Array(0);
@@ -464,15 +464,15 @@ case 39:
             var16 = copyDataProperties(var20, var19);
             var16 = _closure1_slot9;
             var11 = 'modalKey';
-            var8[var11] = var16;
+            var8[10] = var16;
             var11 = 'onDone';
-            var8[var11] = var15;
+            var8[10] = var15;
             var11 = 'steps';
-            var8[var11] = var14;
+            var8[10] = var14;
             var11 = 'onClose';
-            var8[var11] = var13;
+            var8[10] = var13;
             var11 = 'stepScreenPropsMap';
-            var8[var11] = var12;
+            var8[10] = var12;
             var8 = var10.bind(var4)(var9, var8);
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

@@ -295,11 +295,11 @@ case 27:
             var24 = var5;
             var5 = copyDataProperties(var25, var24);
             var5 = 'total_emoji_slots';
-            var4[var5] = var8;
+            var4[4] = var8;
             var5 = 'total_sound_slots';
-            var4[var5] = var7;
+            var4[4] = var7;
             var5 = 'total_sticker_slots';
-            var4[var5] = var6;
+            var4[4] = var6;
             var2['features'] = var4;
             var25 = var2;
             var24 = var3;

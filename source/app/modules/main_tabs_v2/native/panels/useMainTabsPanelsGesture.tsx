@@ -414,7 +414,7 @@ case 37:
                         var2 = copyDataProperties(var19, var18);
                         var15 = arg3;
                         var2 = 'velocity';
-                        var6[var2] = var15;
+                        var6[1] = var15;
                         var17 = 'respect-motion-settings';
                         var20 = var14;
                         var19 = var11;

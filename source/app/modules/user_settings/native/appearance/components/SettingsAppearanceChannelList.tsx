@@ -49,10 +49,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var14.radii;
     var15 = var14.xl;
     var14 = 'borderRadius';
-    var9[var14] = var15;
+    var9[13] = var15;
     var15 = 'hidden';
     var14 = 'overflow';
-    var9[var14] = var15;
+    var9[13] = var15;
     var4['channelPreviewGradient'] = var9;
     var9 = {};
     var9['flex'] = var13;
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = copyDataProperties(var18, var17);
     var11 = '#000000';
     var10 = 'shadowColor';
-    var9[var10] = var11;
+    var9[9] = var11;
     var4['channelPreviewCardContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
@@ -137,7 +137,7 @@ case 6:
                     var6 = copyDataProperties(var9, var8);
                     var7 = _closure2_slot0;
                     var6 = 'animatedStyles';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
 case 4:
@@ -154,7 +154,7 @@ case 4:
                     var6 = copyDataProperties(var9, var8);
                     var7 = _closure2_slot0;
                     var6 = 'animatedStyles';
-                    var1[var6] = var7;
+                    var1[5] = var7;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
 case 2:
@@ -171,7 +171,7 @@ case 2:
                     var5 = copyDataProperties(var9, var8);
                     var6 = _closure2_slot0;
                     var5 = 'animatedStyles';
-                    var1[var5] = var6;
+                    var1[4] = var6;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 }

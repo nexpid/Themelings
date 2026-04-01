@@ -240,7 +240,7 @@ case 6:
                 return var1;
             };
             var9['onPress'] = var10;
-            var5[var8] = var9;
+            var5[7] = var9;
             var8 = var8 + var12;
             if(!(var3 != var4)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:

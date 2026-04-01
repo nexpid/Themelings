@@ -125,14 +125,14 @@ case 8:
                 var9 = var8.contentStyle;
 case 6:
                 var8 = 'contentStyle';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var8 = _closure2_slot0;
                 var9 = var8.header;
                 var8 = 'headerStyle';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var9 = false;
                 var8 = 'headerShadowVisible';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var9 = function headerTitle(arg1) {
                     var3 = arg1;
                     var6 = var3.children;
@@ -160,10 +160,10 @@ case 6:
                     return var1;
                 };
                 var8 = 'headerTitle';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var9 = 'center';
                 var8 = 'headerTitleAlign';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var8 = var11.getState;
                 var8 = var8.bind(var11)();
                 var9 = var8.routes;
@@ -200,7 +200,7 @@ case 13:
                 var9 = var8.bind(var10)(var11);
 case 14:
                 var8 = 'headerLeft';
-                var1[var8] = var9;
+                var1[7] = var9;
                 var6 = var6.params;
                 var7 = var7 == var6;
                 var4 = undefined;
@@ -214,7 +214,7 @@ case 18:
                 var4 = var3;
 case 17:
                 var3 = 'fullScreenGestureEnabled';
-                var1[var3] = var4;
+                var1[2] = var4;
                 var13 = _closure2_slot2;
                 var14 = var1;
                 var2 = copyDataProperties(var14, var13);
@@ -271,7 +271,7 @@ case 17:
                 var5 = var5.zIJnA6;
                 var6 = var6.bind(var7)(var5);
                 var5 = 'label';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var6 = function onPress() {
                     var4 = _closure3_slot0;
                     var3 = var4.navigate;
@@ -283,7 +283,7 @@ case 17:
                     return var1;
                 };
                 var5 = 'onPress';
-                var1[var5] = var6;
+                var1[4] = var6;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

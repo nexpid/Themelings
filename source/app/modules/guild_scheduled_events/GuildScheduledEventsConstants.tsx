@@ -88,10 +88,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = {};
     var9 = var16.STAGE_INSTANCE;
     var7 = var6.GUILD_STAGE_VOICE;
-    var12[var9] = var7;
+    var12[8] = var7;
     var7 = var16.VOICE;
     var6 = var6.GUILD_VOICE;
-    var12[var7] = var6;
+    var12[6] = var6;
     var9 = var2.Set;
     var7 = var16.EXTERNAL;
     var6 = new Array(1);

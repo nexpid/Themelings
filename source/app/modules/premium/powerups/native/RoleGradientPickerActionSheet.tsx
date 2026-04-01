@@ -265,7 +265,7 @@ case 7:
                         var1 = copyDataProperties(var6, var5);
                         var4 = arg1;
                         var1 = 'primary_color';
-                        var2[var1] = var4;
+                        var2[0] = var4;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
                         return var1;
@@ -315,7 +315,7 @@ case 7:
                         var1 = copyDataProperties(var6, var5);
                         var4 = arg1;
                         var1 = 'secondary_color';
-                        var2[var1] = var4;
+                        var2[0] = var4;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
                         return var1;
@@ -479,10 +479,10 @@ case 10:
                         var1 = _closure3_slot0;
                         var5 = var1.start;
                         var4 = 'primary_color';
-                        var2[var4] = var5;
+                        var2[3] = var5;
                         var4 = var1.end;
                         var1 = 'secondary_color';
-                        var2[var1] = var4;
+                        var2[0] = var4;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
                         return var1;

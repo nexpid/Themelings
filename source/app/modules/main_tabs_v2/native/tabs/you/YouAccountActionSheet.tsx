@@ -183,7 +183,7 @@ case 0:
                 var7 = var1.value;
                 var8 = var8.bind(var9)(var7);
                 var7 = 'label';
-                var2[var7] = var8;
+                var2[6] = var8;
                 var9 = var1.value;
                 var8 = _closure2_slot0;
                 var7 = undefined;
@@ -233,7 +233,7 @@ case 5:
                 var7 = var9.bind(var10)(var8, var6);
 case 2:
                 var6 = 'subLabel';
-                var2[var6] = var7;
+                var2[5] = var7;
                 var1 = var1.value;
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;

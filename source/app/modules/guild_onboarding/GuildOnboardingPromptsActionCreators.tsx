@@ -187,7 +187,7 @@ case 18:
 case 11:
                     var2 = _closure1_slot14;
                     var2 = var2.bind(var6)(var7);
-                    SaveGenerator(address=311);
+                    SaveGenerator(address=312);
 case 19:
                     return var2;
 case 20:
@@ -288,10 +288,10 @@ case 2:
         var7 = copyDataProperties(var17, var16);
         var7 = _closure1_slot13;
         var8 = 'step';
-        var4[var8] = var7;
+        var4[7] = var7;
         var7 = true;
         var15 = 'required';
-        var4[var15] = var7;
+        var4[14] = var7;
         var4 = var13.bind(var14)(var5, var4);
         var2 = var12[var2];
         var5 = var3.bind(var1)(var2);
@@ -306,14 +306,14 @@ case 2:
         var17 = var2;
         var9 = copyDataProperties(var17, var16);
         var6 = _closure1_slot13;
-        var2[var8] = var6;
+        var2[7] = var6;
         var8 = false;
         var6 = 'skipped';
-        var2[var6] = var8;
+        var2[5] = var8;
         var6 = 'is_final_step';
-        var2[var6] = var7;
+        var2[5] = var7;
         var6 = 'in_onboarding';
-        var2[var6] = var7;
+        var2[5] = var7;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
@@ -396,10 +396,10 @@ case 2:
         var6 = copyDataProperties(var10, var9);
         var7 = false;
         var6 = 'has_new_prompts';
-        var2[var6] = var7;
+        var2[5] = var7;
         var7 = 0;
         var6 = 'number_of_prompts';
-        var2[var6] = var7;
+        var2[5] = var7;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };

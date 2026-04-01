@@ -398,13 +398,13 @@ case 43:
     var14 = var12[var14];
     var14 = var11.bind(var1)(var14);
     var14 = var14.PreloadedUserSettings;
-    var10[var15] = var14;
+    var10[14] = var14;
     var14 = var13.FRECENCY_AND_FAVORITES_SETTINGS;
     var13 = 5;
     var13 = var12[var13];
     var13 = var11.bind(var1)(var13);
     var13 = var13.FrecencyUserSettings;
-    var10[var14] = var13;
+    var10[13] = var13;
     var _closure1_slot6 = var10;
     var10 = 8;
     var10 = var12[var10];
