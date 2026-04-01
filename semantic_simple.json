@@ -1,1904 +1,957 @@
 {
   "ACTIVITY_TIMEBAR_PROGRESS_BACKGROUND": {
-    "dark": "#ffffff",
-    "light": "#060607",
-    "midnight": "#e4e5e8",
-    "darker": "#f3f3f4"
+    "11": "#f3f3f4"
   },
   "ANDROID_NAVIGATION_BAR_BACKGROUND": {
-    "dark": "#0c0c0d",
-    "light": "#f9f9f9",
-    "midnight": "#0f1014",
-    "darker": "#0f1014"
+    "11": "#0f1014"
   },
   "ANDROID_NAVIGATION_SCRIM_BACKGROUND": {
-    "dark": "#0c0c0d80",
-    "light": "#f9f9f980",
-    "midnight": "#0f101480",
-    "darker": "#0f101480"
+    "11": "#0f101480"
   },
   "APP_FRAME_BORDER": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "11": "#1c1d23"
   },
   "APP_MESSAGE_EMBED_SECONDARY_TEXT": {
-    "dark": "#ffffffb3",
-    "light": "#ffffffb3",
-    "midnight": "#ffffffb3",
-    "darker": "#ffffffb3"
+    "12": "#ffffffb3"
   },
   "BACKGROUND_ACCENT": {
-    "dark": "#41434a",
-    "light": "#6d6f78",
-    "midnight": "#2c2d35",
-    "darker": "#383a43"
+    "13": "#383a43"
   },
   "BACKGROUND_BASE_LOW": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "BACKGROUND_BASE_LOWER": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "BACKGROUND_BASE_LOWEST": {
-    "dark": "#232428",
-    "light": "#ebedef",
-    "midnight": "#000000",
-    "darker": "#131318"
+    "14": "#131318"
   },
   "BACKGROUND_BRAND": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "BACKGROUND_CODE": {
-    "dark": "#5865f214",
-    "light": "#5865f20a",
-    "midnight": "#5865f214",
-    "darker": "#5865f214"
+    "14": "#5865f214"
   },
   "BACKGROUND_FEEDBACK_CRITICAL": {
-    "dark": "#da373c",
-    "light": "#da373c",
-    "midnight": "#da373c",
-    "darker": "#da373c"
+    "14": "#da373c"
   },
   "BACKGROUND_FEEDBACK_INFO": {
-    "dark": "#0074e314",
-    "light": "#0074e314",
-    "midnight": "#0074e314",
-    "darker": "#0074e314"
+    "14": "#0074e314"
   },
   "BACKGROUND_FEEDBACK_NOTIFICATION": {
-    "dark": "#f23f43",
-    "light": "#da373c",
-    "midnight": "#f23f43",
-    "darker": "#f23f43"
+    "14": "#f23f43"
   },
   "BACKGROUND_FEEDBACK_POSITIVE": {
-    "dark": "#00854514",
-    "light": "#00854514",
-    "midnight": "#00854514",
-    "darker": "#00854514"
+    "14": "#00854514"
   },
   "BACKGROUND_FEEDBACK_WARNING": {
-    "dark": "#f0b2321a",
-    "light": "#af76151a",
-    "midnight": "#f0b2321a",
-    "darker": "#f0b2321a"
+    "14": "#f0b2321a"
   },
   "BACKGROUND_MOD_MUTED": {
-    "dark": "#4e50584d",
-    "light": "#80848e14",
-    "midnight": "#6c6f7c29",
-    "darker": "#6c6f7c1f"
+    "14": "#6c6f7c1f"
   },
   "BACKGROUND_MOD_NORMAL": {
-    "dark": "#4e505829",
-    "light": "#80848e29",
-    "midnight": "#6c6f7c33",
-    "darker": "#6c6f7c29"
+    "14": "#6c6f7c29"
   },
   "BACKGROUND_MOD_STRONG": {
-    "dark": "#4e50588a",
-    "light": "#80848e3d",
-    "midnight": "#6c6f7c2e",
-    "darker": "#6c6f7c3d"
+    "14": "#6c6f7c3d"
   },
   "BACKGROUND_MOD_SUBTLE": {
-    "dark": "#4e50587a",
-    "light": "#80848e29",
-    "midnight": "#6c6f7c1f",
-    "darker": "#6c6f7c29"
+    "14": "#6c6f7c29"
   },
   "BACKGROUND_SCRIM": {
-    "dark": "#000000b3",
-    "light": "#0000008a",
-    "midnight": "#212229bf",
-    "darker": "#000000b3"
+    "14": "#000000b3"
   },
   "BACKGROUND_SCRIM_LIGHTBOX": {
-    "dark": "#000000eb",
-    "light": "#000000eb",
-    "midnight": "#000000eb",
-    "darker": "#000000eb"
+    "14": "#000000eb"
   },
   "BACKGROUND_SECONDARY_ALT": {
-    "dark": "#232428",
-    "light": "#ebedef",
-    "midnight": "#2c2d35",
-    "darker": "#383a43"
+    "14": "#383a43"
   },
   "BACKGROUND_SURFACE_HIGH": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "14": "#26272f"
   },
   "BACKGROUND_SURFACE_HIGHEST": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#212229",
-    "darker": "#2c2d35"
+    "14": "#2c2d35"
   },
   "BACKGROUND_TILE_GRADIENT_PINK_END": {
-    "dark": "#6600664d",
-    "light": "#fd99e94d",
-    "midnight": "#6600664d",
-    "darker": "#6600664d"
+    "14": "#6600664d"
   },
   "BACKGROUND_TILE_GRADIENT_PINK_START": {
-    "dark": "#b3269c4d",
-    "light": "#fbe6ff4d",
-    "midnight": "#b3269c4d",
-    "darker": "#b3269c4d"
+    "14": "#b3269c4d"
   },
   "BADGE_BACKGROUND_BRAND": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "BADGE_BACKGROUND_DEFAULT": {
-    "dark": "#4e505829",
-    "light": "#80848e29",
-    "midnight": "#6c6f7c33",
-    "darker": "#6c6f7c29"
+    "14": "#6c6f7c29"
   },
   "BADGE_NOTIFICATION_BACKGROUND": {
-    "dark": "#f23f43",
-    "light": "#da373c",
-    "midnight": "#f23f43",
-    "darker": "#f23f43"
+    "14": "#f23f43"
   },
   "BADGE_TEXT_DEFAULT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "BG_SURFACE_RAISED": {
-    "dark": "#383a40",
-    "light": "#ffffff",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "14": "#26272f"
   },
   "BLACK": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "14": "#000000"
   },
   "BLUR_FALLBACK": {
-    "dark": "#1e1f22f5",
-    "light": "#41434af5",
-    "midnight": "#212229f5",
-    "darker": "#2c2d35f5"
+    "14": "#2c2d35f5"
   },
   "BLUR_FALLBACK_PRESSED": {
-    "dark": "#1a1b1ef5",
-    "light": "#383a40f5",
-    "midnight": "#1c1d23f5",
-    "darker": "#26272ff5"
+    "14": "#26272ff5"
   },
   "BORDER_FEEDBACK_CRITICAL": {
-    "dark": "#d22d3933",
-    "light": "#d22d393d",
-    "midnight": "#d22d393d",
-    "darker": "#d22d3933"
+    "16": "#d22d3933"
   },
   "BORDER_FOCUS": {
-    "dark": "#00aafc",
-    "light": "#0097f2",
-    "midnight": "#00aafc",
-    "darker": "#00aafc"
+    "16": "#00aafc"
   },
   "BORDER_MUTED": {
-    "dark": "#ffffff08",
-    "light": "#0000000a",
-    "midnight": "#6c6f7c14",
-    "darker": "#6c6f7c0f"
+    "16": "#6c6f7c0f"
   },
   "BORDER_NORMAL": {
-    "dark": "#97979f33",
-    "light": "#97979f5c",
-    "midnight": "#97979f3d",
-    "darker": "#97979f33"
+    "16": "#97979f33"
   },
   "BORDER_STRONG": {
-    "dark": "#ffffff29",
-    "light": "#00000029",
-    "midnight": "#6c6f7c3d",
-    "darker": "#6c6f7c38"
+    "16": "#6c6f7c38"
   },
   "BORDER_SUBTLE": {
-    "dark": "#ffffff14",
-    "light": "#00000014",
-    "midnight": "#6c6f7c24",
-    "darker": "#6c6f7c1f"
+    "14": "#6c6f7c1f"
   },
   "BUTTON_DANGER_BACKGROUND_DISABLED": {
-    "dark": "#da373c",
-    "light": "#da373c",
-    "midnight": "#da373c",
-    "darker": "#da373c"
+    "14": "#da373c"
   },
   "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": {
-    "dark": "#4752c4",
-    "light": "#4752c4",
-    "midnight": "#4752c4",
-    "darker": "#4752c4"
+    "14": "#4752c4"
   },
   "BUTTON_OUTLINE_PRIMARY_TEXT": {
-    "dark": "#ffffff",
-    "light": "#000000",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "CARD_BACKGROUND_DEFAULT": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "14": "#26272f"
   },
   "CARD_GRADIENT_BG": {
-    "dark": "#00000066",
-    "light": "#ffffffb3",
-    "midnight": "#00000066",
-    "darker": "#00000066"
+    "14": "#00000066"
   },
   "CARD_GRADIENT_PRESSED_BG": {
-    "dark": "#00000080",
-    "light": "#ffffff80",
-    "midnight": "#00000080",
-    "darker": "#00000080"
+    "14": "#00000080"
   },
   "CARD_PRIMARY_PRESSED_BG": {
-    "dark": "#282a2e",
-    "light": "#ebedef",
-    "midnight": "#0c0c10",
-    "darker": "#212229"
+    "14": "#212229"
   },
   "CARD_SECONDARY_BG": {
-    "dark": "#2b2d31",
-    "light": "#ffffff",
-    "midnight": "#0c0c10",
-    "darker": "#212229"
+    "14": "#212229"
   },
   "CARD_SECONDARY_PRESSED_BG": {
-    "dark": "#282a2e",
-    "light": "#ebedef",
-    "midnight": "#08080b",
-    "darker": "#18191f"
+    "14": "#18191f"
   },
   "CHANNEL_BACKGROUND_DEFAULT": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "CHANNEL_ICON": {
-    "dark": "#80848e",
-    "light": "#6d6f78",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "14": "#818491"
   },
   "CHANNELS_DEFAULT": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#9597a3",
-    "darker": "#9597a3"
+    "14": "#9597a3"
   },
   "CHANNELTEXTAREA_BACKGROUND": {
-    "dark": "#383a40",
-    "light": "#ebedef",
-    "midnight": "#131318",
-    "darker": "#383a43"
+    "14": "#383a43"
   },
   "CHAT_BANNER_BG": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "CHAT_BORDER": {
-    "dark": "#1e1f22",
-    "light": "#e3e5e8",
-    "midnight": "#1c1d23",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "CHECKBOX_BACKGROUND_DEFAULT": {
-    "dark": "#00000000",
-    "light": "#00000000",
-    "midnight": "#00000000",
-    "darker": "#00000000"
+    "14": "#00000000"
   },
   "CHECKBOX_BACKGROUND_SELECTED_DEFAULT": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "CHECKBOX_BORDER_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "CHECKBOX_BORDER_SELECTED_DEFAULT": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "CHECKBOX_ICON_ACTIVE": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "CONTENT_INVENTORY_OVERLAY_TEXT_PRIMARY": {
-    "dark": "#ffffffd9",
-    "light": "#ffffffd9",
-    "midnight": "#ffffffd9",
-    "darker": "#ffffffd9"
+    "14": "#ffffffd9"
   },
   "CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY": {
-    "dark": "#ffffffb3",
-    "light": "#ffffffb3",
-    "midnight": "#ffffffb3",
-    "darker": "#ffffffb3"
+    "14": "#ffffffb3"
   },
   "CONTEXT_MENU_BACKDROP_BACKGROUND": {
-    "dark": "#000000b3",
-    "light": "#0000008a",
-    "midnight": "#000000b3",
-    "darker": "#000000b3"
+    "14": "#000000b3"
   },
   "CONTROL_BRAND_FOREGROUND": {
-    "dark": "#949cf7",
-    "light": "#5865f2",
-    "midnight": "#949cf7",
-    "darker": "#949cf7"
+    "14": "#949cf7"
   },
   "CONTROL_BRAND_FOREGROUND_NEW": {
-    "dark": "#949cf7",
-    "light": "#5865f2",
-    "midnight": "#949cf7",
-    "darker": "#949cf7"
+    "14": "#949cf7"
   },
   "CONTROL_CONNECTED_BACKGROUND_ACTIVE": {
-    "dark": "#1f703c",
-    "light": "#1f703c",
-    "midnight": "#1f703c",
-    "darker": "#1f703c"
+    "14": "#1f703c"
   },
   "CONTROL_CONNECTED_BACKGROUND_DEFAULT": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "14": "#248045"
   },
   "CONTROL_CONNECTED_BORDER_ACTIVE": {
-    "dark": "#1f703c",
-    "light": "#1f703c",
-    "midnight": "#1f703c",
-    "darker": "#1f703c"
+    "14": "#1f703c"
   },
   "CONTROL_CONNECTED_BORDER_DEFAULT": {
-    "dark": "#23a55a",
-    "light": "#24934e",
-    "midnight": "#23a55a",
-    "darker": "#23a55a"
+    "14": "#23a55a"
   },
   "CONTROL_CONNECTED_TEXT_DEFAULT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "CONTROL_CRITICAL_PRIMARY_BACKGROUND_ACTIVE": {
-    "dark": "#bb3033",
-    "light": "#bb3033",
-    "midnight": "#bb3033",
-    "darker": "#bb3033"
+    "14": "#bb3033"
   },
   "CONTROL_CRITICAL_PRIMARY_BACKGROUND_DEFAULT": {
-    "dark": "#da373c",
-    "light": "#da373c",
-    "midnight": "#da373c",
-    "darker": "#da373c"
+    "14": "#da373c"
   },
   "CONTROL_CRITICAL_PRIMARY_BORDER_ACTIVE": {
-    "dark": "#bb3033",
-    "light": "#bb3033",
-    "midnight": "#bb3033",
-    "darker": "#bb3033"
+    "14": "#bb3033"
   },
   "CONTROL_CRITICAL_PRIMARY_BORDER_DEFAULT": {
-    "dark": "#da373c",
-    "light": "#da373c",
-    "midnight": "#da373c",
-    "darker": "#da373c"
+    "14": "#da373c"
   },
   "CONTROL_CRITICAL_PRIMARY_TEXT_DEFAULT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "CONTROL_CRITICAL_SECONDARY_BACKGROUND_ACTIVE": {
-    "dark": "#4e50588a",
-    "light": "#80848e3d",
-    "midnight": "#6c6f7c2e",
-    "darker": "#6c6f7c3d"
+    "14": "#6c6f7c3d"
   },
   "CONTROL_CRITICAL_SECONDARY_BACKGROUND_DEFAULT": {
-    "dark": "#4e50587a",
-    "light": "#80848e29",
-    "midnight": "#6c6f7c1f",
-    "darker": "#6c6f7c29"
+    "14": "#6c6f7c29"
   },
   "CONTROL_CRITICAL_SECONDARY_BORDER_ACTIVE": {
-    "dark": "#ffffff08",
-    "light": "#0000000a",
-    "midnight": "#6c6f7c14",
-    "darker": "#6c6f7c0f"
+    "14": "#6c6f7c0f"
   },
   "CONTROL_CRITICAL_SECONDARY_BORDER_DEFAULT": {
-    "dark": "#ffffff08",
-    "light": "#0000000a",
-    "midnight": "#6c6f7c14",
-    "darker": "#6c6f7c0f"
+    "14": "#6c6f7c0f"
   },
   "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": {
-    "dark": "#fa777b",
-    "light": "#a12829",
-    "midnight": "#fa777b",
-    "darker": "#fa777b"
+    "14": "#fa777b"
   },
   "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": {
-    "dark": "#4e50588a",
-    "light": "#80848e3d",
-    "midnight": "#6c6f7c2e",
-    "darker": "#6c6f7c3d"
+    "14": "#6c6f7c3d"
   },
   "CONTROL_ICON_ONLY_ICON_ACTIVE": {
-    "dark": "#f2f3f5",
-    "light": "#060607",
-    "midnight": "#d3d5d9",
-    "darker": "#dddee1"
+    "14": "#dddee1"
   },
   "CONTROL_ICON_ONLY_ICON_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#9597a3",
-    "darker": "#9597a3"
+    "14": "#9597a3"
   },
   "CONTROL_OVERLAY_PRIMARY_BACKGROUND_ACTIVE": {
-    "dark": "#dbdee1",
-    "light": "#dbdee1",
-    "midnight": "#dddee1",
-    "darker": "#dddee1"
+    "14": "#dddee1"
   },
   "CONTROL_OVERLAY_PRIMARY_BACKGROUND_DEFAULT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "CONTROL_OVERLAY_PRIMARY_BORDER_DEFAULT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT": {
-    "dark": "#060607",
-    "light": "#060607",
-    "midnight": "#0c0c10",
-    "darker": "#0c0c10"
+    "14": "#0c0c10"
   },
   "CONTROL_OVERLAY_SECONDARY_BACKGROUND_ACTIVE": {
-    "dark": "#000000a3",
-    "light": "#000000a3",
-    "midnight": "#000000a3",
-    "darker": "#000000a3"
+    "14": "#000000a3"
   },
   "CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT": {
-    "dark": "#0000008a",
-    "light": "#0000008a",
-    "midnight": "#0000008a",
-    "darker": "#0000008a"
+    "14": "#0000008a"
   },
   "CONTROL_OVERLAY_SECONDARY_BORDER_DEFAULT": {
-    "dark": "#0000008a",
-    "light": "#0000008a",
-    "midnight": "#0000008a",
-    "darker": "#0000008a"
+    "14": "#0000008a"
   },
   "CONTROL_OVERLAY_SECONDARY_TEXT_DEFAULT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "CONTROL_PRIMARY_BACKGROUND_ACTIVE": {
-    "dark": "#4752c4",
-    "light": "#4752c4",
-    "midnight": "#4752c4",
-    "darker": "#4752c4"
+    "14": "#4752c4"
   },
   "CONTROL_PRIMARY_BACKGROUND_DEFAULT": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "CONTROL_PRIMARY_BORDER_ACTIVE": {
-    "dark": "#4752c4",
-    "light": "#4752c4",
-    "midnight": "#4752c4",
-    "darker": "#4752c4"
+    "14": "#4752c4"
   },
   "CONTROL_PRIMARY_BORDER_DEFAULT": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "CONTROL_PRIMARY_TEXT_DEFAULT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "CONTROL_SECONDARY_BACKGROUND_ACTIVE": {
-    "dark": "#4e5058",
-    "light": "#f2f3f5",
-    "midnight": "#383a43",
-    "darker": "#4d505b"
+    "14": "#4d505b"
   },
   "CONTROL_SECONDARY_BACKGROUND_DEFAULT": {
-    "dark": "#5c5e66",
-    "light": "#ffffff",
-    "midnight": "#2c2d35",
-    "darker": "#383a43"
+    "14": "#383a43"
   },
   "CONTROL_SECONDARY_BORDER_ACTIVE": {
-    "dark": "#ffffff08",
-    "light": "#0000000a",
-    "midnight": "#6c6f7c14",
-    "darker": "#6c6f7c0f"
+    "14": "#6c6f7c0f"
   },
   "CONTROL_SECONDARY_BORDER_DEFAULT": {
-    "dark": "#ffffff14",
-    "light": "#00000014",
-    "midnight": "#6c6f7c24",
-    "darker": "#6c6f7c1f"
+    "14": "#6c6f7c1f"
   },
   "CONTROL_SECONDARY_TEXT_DEFAULT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "CUSTOM_STATUS_BUBBLE_BG": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#212229",
-    "darker": "#2c2d35"
+    "14": "#2c2d35"
   },
   "DATEPICKER_RANGE_BACKGROUND_DEFAULT": {
-    "dark": "#5865f266",
-    "light": "#5865f266",
-    "midnight": "#5865f266",
-    "darker": "#5865f266"
+    "14": "#5865f266"
   },
   "DATEPICKER_RANGE_BACKGROUND_HOVER": {
-    "dark": "#5865f299",
-    "light": "#5865f299",
-    "midnight": "#5865f299",
-    "darker": "#5865f299"
+    "14": "#5865f299"
   },
   "EMBED_BACKGROUND": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "14": "#26272f"
   },
   "EMBED_BACKGROUND_ALTERNATE": {
-    "dark": "#313338",
-    "light": "#e3e5e8",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "14": "#26272f"
   },
   "EXPRESSIVE_GRADIENT_BLUE_END": {
-    "dark": "#161a8a73",
-    "light": "#a0a9facc",
-    "midnight": "#161a8a40",
-    "darker": "#161a8a4d"
+    "14": "#161a8a4d"
   },
   "EXPRESSIVE_GRADIENT_BLUE_START": {
-    "dark": "#5865f273",
-    "light": "#e6e8ffcc",
-    "midnight": "#5865f240",
-    "darker": "#5865f24d"
+    "14": "#5865f24d"
   },
   "EXPRESSIVE_GRADIENT_GREEN_END": {
-    "dark": "#00663873",
-    "light": "#8af7b5cc",
-    "midnight": "#00663840",
-    "darker": "#0066384d"
+    "14": "#0066384d"
   },
   "EXPRESSIVE_GRADIENT_GREEN_START": {
-    "dark": "#21bb6373",
-    "light": "#e5fff0cc",
-    "midnight": "#21bb6340",
-    "darker": "#21bb634d"
+    "14": "#21bb634d"
   },
   "EXPRESSIVE_GRADIENT_NITRO_GREEN_END": {
-    "dark": "#1414cb80",
-    "light": "#5865f2e6",
-    "midnight": "#1414cb4d",
-    "darker": "#1414cb66"
+    "14": "#1414cb66"
   },
   "EXPRESSIVE_GRADIENT_NITRO_GREEN_START": {
-    "dark": "#21bb6380",
-    "light": "#e5fff0e6",
-    "midnight": "#21bb634d",
-    "darker": "#21bb6366"
+    "14": "#21bb6366"
   },
   "EXPRESSIVE_GRADIENT_NITRO_PINK_END": {
-    "dark": "#1414cb80",
-    "light": "#5865f2e6",
-    "midnight": "#1414cb4d",
-    "darker": "#1414cb66"
+    "14": "#1414cb66"
   },
   "EXPRESSIVE_GRADIENT_NITRO_PINK_START": {
-    "dark": "#8c138180",
-    "light": "#fd99e9e6",
-    "midnight": "#8c13814d",
-    "darker": "#8c138166"
+    "14": "#8c138166"
   },
   "EXPRESSIVE_GRADIENT_PINK_END": {
-    "dark": "#66006673",
-    "light": "#fd99e9cc",
-    "midnight": "#66006640",
-    "darker": "#6600664d"
+    "14": "#6600664d"
   },
   "EXPRESSIVE_GRADIENT_PINK_START": {
-    "dark": "#b3269c73",
-    "light": "#fbe6ffcc",
-    "midnight": "#b3269c40",
-    "darker": "#b3269c4d"
+    "14": "#b3269c4d"
   },
   "EXPRESSIVE_GRADIENT_PURPLE_END": {
-    "dark": "#3e168973",
-    "light": "#ca9ef9cc",
-    "midnight": "#3e168940",
-    "darker": "#3e16894d"
+    "14": "#3e16894d"
   },
   "EXPRESSIVE_GRADIENT_PURPLE_START": {
-    "dark": "#a056f273",
-    "light": "#f3e6ffcc",
-    "midnight": "#a056f240",
-    "darker": "#a056f24d"
+    "14": "#a056f24d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_BRONZE_END": {
-    "dark": "#d93d094d",
-    "light": "#d93d094d",
-    "midnight": "#d93d094d",
-    "darker": "#d93d094d"
+    "14": "#d93d094d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_BRONZE_START": {
-    "dark": "#fe92424d",
-    "light": "#fe92424d",
-    "midnight": "#fe92424d",
-    "darker": "#fe92424d"
+    "14": "#fe92424d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_DIAMOND_END": {
-    "dark": "#612caf4d",
-    "light": "#612caf4d",
-    "midnight": "#612caf4d",
-    "darker": "#612caf4d"
+    "14": "#612caf4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_DIAMOND_START": {
-    "dark": "#a056f24d",
-    "light": "#a056f24d",
-    "midnight": "#a056f24d",
-    "darker": "#a056f24d"
+    "14": "#a056f24d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_EMERALD_END": {
-    "dark": "#108e4d4d",
-    "light": "#108e4d4d",
-    "midnight": "#108e4d4d",
-    "darker": "#108e4d4d"
+    "14": "#108e4d4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_EMERALD_START": {
-    "dark": "#35ed7e4d",
-    "light": "#35ed7e4d",
-    "midnight": "#35ed7e4d",
-    "darker": "#35ed7e4d"
+    "14": "#35ed7e4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_GOLD_END": {
-    "dark": "#fcb0144d",
-    "light": "#fcb0144d",
-    "midnight": "#fcb0144d",
-    "darker": "#fcb0144d"
+    "14": "#fcb0144d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_GOLD_START": {
-    "dark": "#f3ba2f4d",
-    "light": "#f3ba2f4d",
-    "midnight": "#f3ba2f4d",
-    "darker": "#f3ba2f4d"
+    "14": "#f3ba2f4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_OPAL_END": {
-    "dark": "#0074e34d",
-    "light": "#0074e34d",
-    "midnight": "#0074e34d",
-    "darker": "#0074e34d"
+    "14": "#0074e34d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_OPAL_START": {
-    "dark": "#4cb5bf4d",
-    "light": "#4cb5bf4d",
-    "midnight": "#4cb5bf4d",
-    "darker": "#4cb5bf4d"
+    "14": "#4cb5bf4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_PLATINUM_END": {
-    "dark": "#006b754d",
-    "light": "#006b754d",
-    "midnight": "#006b754d",
-    "darker": "#006b754d"
+    "14": "#006b754d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_PLATINUM_START": {
-    "dark": "#79cdd64d",
-    "light": "#79cdd64d",
-    "midnight": "#79cdd64d",
-    "darker": "#79cdd64d"
+    "14": "#79cdd64d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_RUBY_END": {
-    "dark": "#6206154d",
-    "light": "#6206154d",
-    "midnight": "#6206154d",
-    "darker": "#6206154d"
+    "14": "#6206154d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_RUBY_START": {
-    "dark": "#de464a4d",
-    "light": "#de464a4d",
-    "midnight": "#de464a4d",
-    "darker": "#de464a4d"
+    "14": "#de464a4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_SILVER_END": {
-    "dark": "#43434c4d",
-    "light": "#43434c4d",
-    "midnight": "#43434c4d",
-    "darker": "#43434c4d"
+    "14": "#43434c4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_SILVER_START": {
-    "dark": "#d4d5d84d",
-    "light": "#d4d5d84d",
-    "midnight": "#d4d5d84d",
-    "darker": "#d4d5d84d"
+    "14": "#d4d5d84d"
   },
   "GRADIENT_PROGRESS_PILL_BACKGROUND": {
-    "dark": "#595a63",
-    "light": "#c2c2c7",
-    "midnight": "#36373e",
-    "darker": "#44454d"
+    "14": "#44454d"
   },
   "GUILD_FOLDER_BACKGROUND": {
-    "dark": "#4e50584d",
-    "light": "#80848e14",
-    "midnight": "#6c6f7c29",
-    "darker": "#6c6f7c1f"
+    "14": "#6c6f7c1f"
   },
   "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": {
-    "dark": "#1e1f22",
-    "light": "#ffffff",
-    "midnight": "#1e1f22",
-    "darker": "#1e1f22"
+    "14": "#1e1f22"
   },
   "GUILD_PROFILE_BANNER_BACKGROUND_DEFAULT": {
-    "dark": "#232428",
-    "light": "#70717a",
-    "midnight": "#000000",
-    "darker": "#131318"
+    "14": "#131318"
   },
   "ICON_FEEDBACK_CRITICAL": {
-    "dark": "#f23f43",
-    "light": "#da373c",
-    "midnight": "#f23f43",
-    "darker": "#f23f43"
+    "14": "#f23f43"
   },
   "ICON_FEEDBACK_INFO": {
-    "dark": "#00aafc",
-    "light": "#006be7",
-    "midnight": "#00aafc",
-    "darker": "#00aafc"
+    "14": "#00aafc"
   },
   "ICON_FEEDBACK_NOTIFICATION": {
-    "dark": "#f23f43",
-    "light": "#da373c",
-    "midnight": "#f23f43",
-    "darker": "#f23f43"
+    "14": "#f23f43"
   },
   "ICON_FEEDBACK_POSITIVE": {
-    "dark": "#2dc771",
-    "light": "#248045",
-    "midnight": "#2dc771",
-    "darker": "#2dc771"
+    "14": "#2dc771"
   },
   "ICON_FEEDBACK_WARNING": {
-    "dark": "#f0b232",
-    "light": "#af7615",
-    "midnight": "#f0b232",
-    "darker": "#f0b232"
+    "14": "#f0b232"
   },
   "ICON_MUTED": {
-    "dark": "#80848e",
-    "light": "#80848e",
-    "midnight": "#5b5e6a",
-    "darker": "#6c6f7c"
+    "14": "#6c6f7c"
   },
   "ICON_OVERLAY_DARK": {
-    "dark": "#2f3035",
-    "light": "#2f3035",
-    "midnight": "#2f3035",
-    "darker": "#2f3035"
+    "14": "#2f3035"
   },
   "ICON_OVERLAY_LIGHT": {
-    "dark": "#ffffff",
-    "light": "#fbfbfb",
-    "midnight": "#e4e4e6",
-    "darker": "#fbfbfb"
+    "14": "#fbfbfb"
   },
   "ICON_STATUS_DND": {
-    "dark": "#f23f43",
-    "light": "#da373c",
-    "midnight": "#f23f43",
-    "darker": "#f23f43"
+    "14": "#f23f43"
   },
   "ICON_STATUS_IDLE": {
-    "dark": "#f0b232",
-    "light": "#af7615",
-    "midnight": "#f0b232",
-    "darker": "#f0b232"
+    "14": "#f0b232"
   },
   "ICON_STATUS_OFFLINE": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#9597a3",
-    "darker": "#9597a3"
+    "14": "#9597a3"
   },
   "ICON_STATUS_ONLINE": {
-    "dark": "#23a55a",
-    "light": "#24934e",
-    "midnight": "#23a55a",
-    "darker": "#23a55a"
+    "14": "#23a55a"
   },
   "ICON_STRONG": {
-    "dark": "#f2f3f5",
-    "light": "#060607",
-    "midnight": "#d3d5d9",
-    "darker": "#dddee1"
+    "14": "#dddee1"
   },
   "ICON_SUBTLE": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#9597a3",
-    "darker": "#9597a3"
+    "14": "#9597a3"
   },
   "ICON_TRANSPARENT": {
-    "dark": "#00000000",
-    "light": "#00000000",
-    "midnight": "#00000000",
-    "darker": "#00000000"
+    "14": "#00000000"
   },
   "ICON_VOICE_CONNECTED": {
-    "dark": "#2dc771",
-    "light": "#248045",
-    "midnight": "#26b968",
-    "darker": "#26b968"
+    "14": "#26b968"
   },
   "ICON_VOICE_DISCONNECTED": {
-    "dark": "#fa777b",
-    "light": "#a12829",
-    "midnight": "#fa777b",
-    "darker": "#fa777b"
+    "14": "#fa777b"
   },
   "ICON_VOICE_MUTED": {
-    "dark": "#f23f43",
-    "light": "#da373c",
-    "midnight": "#f23f43",
-    "darker": "#f23f43"
+    "14": "#f23f43"
   },
   "ICON_VOICE_SPEAKING": {
-    "dark": "#26b968",
-    "light": "#24934e",
-    "midnight": "#26b968",
-    "darker": "#26b968"
+    "14": "#26b968"
   },
   "INPUT_BACKGROUND_DEFAULT": {
-    "dark": "#1e1f22",
-    "light": "#00000014",
-    "midnight": "#bcc1fa1a",
-    "darker": "#0f1014d9"
+    "14": "#0f1014d9"
   },
   "INPUT_BORDER_ACTIVE": {
-    "dark": "#ffffff29",
-    "light": "#00000029",
-    "midnight": "#6c6f7c3d",
-    "darker": "#6c6f7c38"
+    "14": "#6c6f7c38"
   },
   "INPUT_BORDER_DEFAULT": {
-    "dark": "#6c6f7c52",
-    "light": "#6c6f7c52",
-    "midnight": "#6c6f7c52",
-    "darker": "#6c6f7c52"
+    "14": "#6c6f7c52"
   },
   "INPUT_BORDER_ERROR_DEFAULT": {
-    "dark": "#d22d3933",
-    "light": "#d22d393d",
-    "midnight": "#d22d393d",
-    "darker": "#d22d3933"
+    "14": "#d22d3933"
   },
   "INPUT_ICON_DEFAULT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "INPUT_PLACEHOLDER_TEXT_DEFAULT": {
-    "dark": "#80848e",
-    "light": "#5c5e66",
-    "midnight": "#9597a3",
-    "darker": "#818491"
+    "14": "#818491"
   },
   "INPUT_TEXT_DEFAULT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "INPUT_TEXT_ERROR_DEFAULT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "INTERACTIVE_ACCENT_BACKGROUND_ACTIVE": {
-    "dark": "#3a48a3",
-    "light": "#3a48a3",
-    "midnight": "#3a48a3",
-    "darker": "#3a48a3"
+    "14": "#3a48a3"
   },
   "INTERACTIVE_ACCENT_BACKGROUND_DEFAULT": {
-    "dark": "#4e50587a",
-    "light": "#80848e29",
-    "midnight": "#6c6f7c1f",
-    "darker": "#6c6f7c29"
+    "14": "#6c6f7c29"
   },
   "INTERACTIVE_ACCENT_BACKGROUND_SELECTED": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "INTERACTIVE_BACKGROUND_ACTIVE": {
-    "dark": "#4e50587a",
-    "light": "#80848e33",
-    "midnight": "#4d505b7a",
-    "darker": "#4d505b7a"
+    "14": "#4d505b7a"
   },
   "INTERACTIVE_BACKGROUND_HOVER": {
-    "dark": "#4e50584d",
-    "light": "#80848e29",
-    "midnight": "#4d505b4d",
-    "darker": "#4d505b4d"
+    "14": "#4d505b4d"
   },
   "INTERACTIVE_BACKGROUND_SELECTED": {
-    "dark": "#4e505899",
-    "light": "#80848e3d",
-    "midnight": "#4d505b99",
-    "darker": "#4d505b99"
+    "14": "#4d505b99"
   },
   "INTERACTIVE_ICON_ACTIVE": {
-    "dark": "#ffffff",
-    "light": "#060607",
-    "midnight": "#e4e5e8",
-    "darker": "#f3f3f4"
+    "14": "#f3f3f4"
   },
   "INTERACTIVE_ICON_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "INTERACTIVE_ICON_HOVER": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#dddee1"
+    "14": "#dddee1"
   },
   "INTERACTIVE_MUTED": {
-    "dark": "#4e5058",
-    "light": "#c4c9ce",
-    "midnight": "#4d505b",
-    "darker": "#4d505b"
+    "14": "#4d505b"
   },
   "INTERACTIVE_TEXT_ACTIVE": {
-    "dark": "#ffffff",
-    "light": "#060607",
-    "midnight": "#e4e5e8",
-    "darker": "#f3f3f4"
+    "14": "#f3f3f4"
   },
   "INTERACTIVE_TEXT_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "INTERACTIVE_TEXT_HOVER": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#dddee1"
+    "14": "#dddee1"
   },
   "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
-    "dark": "#23242880",
-    "light": "#f2f3f51a",
-    "midnight": "#23242880",
-    "darker": "#23242880"
+    "14": "#23242880"
   },
   "LEGACY_ANDROID_BLUR_OVERLAY_ULTRA_THIN": {
-    "dark": "#00000006",
-    "light": "#ffffff40",
-    "midnight": "#00000006",
-    "darker": "#00000006"
+    "14": "#00000006"
   },
   "LEGACY_BLUR_FALLBACK_DEFAULT": {
-    "dark": "#232428f9",
-    "light": "#dbdee1f9",
-    "midnight": "#232428f9",
-    "darker": "#232428f9"
+    "14": "#232428f9"
   },
   "LEGACY_BLUR_FALLBACK_ULTRA_THIN": {
-    "dark": "#000000f2",
-    "light": "#fffffff2",
-    "midnight": "#000000f2",
-    "darker": "#000000f2"
+    "14": "#000000f2"
   },
   "MENTION_BACKGROUND": {
-    "dark": "#5865f24d",
-    "light": "#5865f226",
-    "midnight": "#5865f280",
-    "darker": "#5865f280"
+    "14": "#5865f280"
   },
   "MENTION_FOREGROUND": {
-    "dark": "#c9cdfb",
-    "light": "#4752c4",
-    "midnight": "#d4d7fc",
-    "darker": "#d4d7fc"
+    "14": "#d4d7fc"
   },
   "MESSAGE_AUTOMOD_BACKGROUND_DEFAULT": {
-    "dark": "#f23f430d",
-    "light": "#f23f430d",
-    "midnight": "#fa777b14",
-    "darker": "#fa777b14"
+    "14": "#fa777b14"
   },
   "MESSAGE_AUTOMOD_BACKGROUND_HOVER": {
-    "dark": "#f23f431a",
-    "light": "#f23f431a",
-    "midnight": "#f23f431a",
-    "darker": "#f23f431a"
+    "14": "#f23f431a"
   },
   "MESSAGE_BACKGROUND_HOVER": {
-    "dark": "#0202020f",
-    "light": "#02020208",
-    "midnight": "#18191f",
-    "darker": "#18191f"
+    "14": "#18191f"
   },
   "MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT": {
-    "dark": "#949cf714",
-    "light": "#949cf71a",
-    "midnight": "#949cf714",
-    "darker": "#949cf714"
+    "14": "#949cf714"
   },
   "MESSAGE_HIGHLIGHT_BACKGROUND_HOVER": {
-    "dark": "#949cf70f",
-    "light": "#949cf733",
-    "midnight": "#949cf70f",
-    "darker": "#949cf70f"
+    "14": "#949cf70f"
   },
   "MESSAGE_MENTIONED_BACKGROUND_DEFAULT": {
-    "dark": "#f0b2321a",
-    "light": "#f0b2321a",
-    "midnight": "#fcc14514",
-    "darker": "#fcc14514"
+    "14": "#fcc14514"
   },
   "MESSAGE_MENTIONED_BACKGROUND_HOVER": {
-    "dark": "#f0b23214",
-    "light": "#f0b23233",
-    "midnight": "#f0b23214",
-    "darker": "#f0b23214"
+    "14": "#f0b23214"
   },
   "MESSAGES_ITEM_CHANNEL_TEXT_DEFAULT": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "14": "#818491"
   },
   "MOBILE_ACTIONSHEET_BACKGROUND": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "MOBILE_ACTIONSHEET_GRADIENT_BACKGROUND_DEFAULT": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "MOBILE_ALERT_BACKGROUND_DEFAULT": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": {
-    "dark": "#ffffff12",
-    "light": "#0000001f",
-    "midnight": "#ffffff12",
-    "darker": "#ffffff12"
+    "14": "#ffffff12"
   },
   "MOBILE_BACKGROUND_SCRIM_OPAQUE": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#212229",
-    "darker": "#000000"
+    "14": "#000000"
   },
   "MOBILE_CHANNEL_ITEM_BACKGROUND_SELECTED": {
-    "dark": "#4e50584d",
-    "light": "#80848e14",
-    "midnight": "#6c6f7c29",
-    "darker": "#6c6f7c1f"
+    "14": "#6c6f7c1f"
   },
   "MOBILE_COACHMARK_BACKGROUND_DEFAULT": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#212229",
-    "darker": "#2c2d35"
+    "14": "#2c2d35"
+  },
+  "MOBILE_COACHMARK_BORDER_DEFAULT": {
+    "14": "#2c2d35"
   },
   "MOBILE_EXPRESSION_PICKER_BACKGROUND_DEFAULT": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "14": "#26272f"
   },
   "MOBILE_GUILDBAR_ICON_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "MOBILE_HEADER_ICON_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "MOBILE_LEGACY_BUTTON_SECONDARY_BACKGROUND_DEFAULT": {
-    "dark": "#5c5e66",
-    "light": "#6d6f78",
-    "midnight": "#2c2d35",
-    "darker": "#383a43"
+    "14": "#383a43"
   },
   "MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "MOBILE_LEGACY_BUTTON_SECONDARY_TEXT_DEFAULT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "MOBILE_SEGMENTED_CONTROL_BACKGROUND": {
-    "dark": "#1e1f22",
-    "light": "#00000014",
-    "midnight": "#bcc1fa1a",
-    "darker": "#0f1014d9"
+    "14": "#0f1014d9"
   },
   "MOBILE_SEGMENTED_CONTROL_INDICATOR_BACKGROUND": {
-    "dark": "#282a2e",
-    "light": "#ffffff",
-    "midnight": "#2c2d35",
-    "darker": "#31323b"
+    "14": "#31323b"
   },
   "MOBILE_TEXT_HEADING_PRIMARY": {
-    "dark": "#f2f3f5",
-    "light": "#060607",
-    "midnight": "#ecedef",
-    "darker": "#e4e5e8"
+    "14": "#e4e5e8"
   },
   "MOBILE_TOAST_BACKGROUND_DEFAULT": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#212229",
-    "darker": "#2c2d35"
+    "14": "#2c2d35"
   },
   "MOBILE_TYPING_INDICATOR_BACKGROUND_DEFAULT": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "MOBILE_UNREADBAR_TEXT_DEFAULT": {
-    "dark": "#949cf7",
-    "light": "#505cdc",
-    "midnight": "#7984f5",
-    "darker": "#949cf7"
+    "14": "#949cf7"
   },
   "MODAL_BACKGROUND": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#31323b",
-    "darker": "#31323b"
+    "14": "#31323b"
   },
   "MODAL_FOOTER_BACKGROUND": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#2c2d35",
-    "darker": "#2c2d35"
+    "14": "#2c2d35"
   },
   "NAVIGATOR_HEADER_TINT": {
-    "dark": "#ffffff",
-    "light": "#4e5058",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "14": "#ffffff"
   },
   "NOTICE_BACKGROUND_POSITIVE": {
-    "dark": "#001603",
-    "light": "#c8ffd8",
-    "midnight": "#001603",
-    "darker": "#002e0f"
+    "14": "#002e0f"
   },
   "OVERLAY_BACKDROP_LIGHTBOX": {
-    "dark": "#000000eb",
-    "light": "#000000eb",
-    "midnight": "#000000eb",
-    "darker": "#000000eb"
+    "14": "#000000eb"
   },
   "PANEL_BG": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#0f1014",
-    "darker": "#1c1d23"
+    "14": "#1c1d23"
   },
   "POLLS_NORMAL_IMAGE_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#ffffff",
-    "midnight": "#232428",
-    "darker": "#232428"
+    "14": "#232428"
   },
   "POLLS_VICTOR_FILL": {
-    "dark": "#23a55a33",
-    "light": "#24934e33",
-    "midnight": "#23a55a33",
-    "darker": "#23a55a33"
+    "14": "#23a55a33"
   },
   "POLLS_VOTED_FILL": {
-    "dark": "#5865f233",
-    "light": "#5865f233",
-    "midnight": "#5865f233",
-    "darker": "#5865f233"
+    "14": "#5865f233"
   },
   "PREMIUM_NITRO_PINK_TEXT": {
-    "dark": "#c269c3",
-    "light": "#b64ab7",
-    "midnight": "#c269c3",
-    "darker": "#c269c3"
+    "14": "#c269c3"
   },
   "PROFILE_GRADIENT_NOTE_BACKGROUND": {
-    "dark": "#0000004d",
-    "light": "#ffffff4d",
-    "midnight": "#0000004d",
-    "darker": "#0000004d"
+    "14": "#0000004d"
   },
   "PROFILE_GRADIENT_OVERLAY": {
-    "dark": "#00000099",
-    "light": "#ffffff99",
-    "midnight": "#00000099",
-    "darker": "#00000099"
+    "14": "#00000099"
   },
   "PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME": {
-    "dark": "#000000cc",
-    "light": "#ffffffcc",
-    "midnight": "#000000cc",
-    "darker": "#000000cc"
+    "14": "#000000cc"
   },
   "PROFILE_GRADIENT_ROLE_PILL_BACKGROUND": {
-    "dark": "#23242880",
-    "light": "#ffffff80",
-    "midnight": "#23242880",
-    "darker": "#23242880"
+    "14": "#23242880"
   },
   "PROFILE_GRADIENT_ROLE_PILL_BORDER": {
-    "dark": "#ffffff33",
-    "light": "#23242833",
-    "midnight": "#ffffff33",
-    "darker": "#ffffff33"
+    "14": "#ffffff33"
   },
   "PROFILE_GRADIENT_SECTION_BOX": {
-    "dark": "#00000073",
-    "light": "#ffffff73",
-    "midnight": "#00000073",
-    "darker": "#00000073"
+    "14": "#00000073"
   },
   "PROGRESSBAR_INDICATOR_BACKGROUND": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "PROGRESSBAR_TRACK_BACKGROUND": {
-    "dark": "#4e50588a",
-    "light": "#80848e3d",
-    "midnight": "#6c6f7c2e",
-    "darker": "#6c6f7c3d"
+    "14": "#6c6f7c3d"
   },
   "RADIO_BORDER_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "REACTION_BACKGROUND_DEFAULT": {
-    "dark": "#4e50588a",
-    "light": "#80848e3d",
-    "midnight": "#6c6f7c2e",
-    "darker": "#6c6f7c3d"
+    "14": "#6c6f7c3d"
   },
   "REACTION_BACKGROUND_REACTED_DEFAULT": {
-    "dark": "#5865f226",
-    "light": "#5865f226",
-    "midnight": "#5865f226",
-    "darker": "#5865f226"
+    "14": "#5865f226"
   },
   "REACTION_BORDER_DEFAULT": {
-    "dark": "#ffffff29",
-    "light": "#00000029",
-    "midnight": "#6c6f7c3d",
-    "darker": "#6c6f7c38"
+    "14": "#6c6f7c38"
   },
   "REACTION_BORDER_REACTED_DEFAULT": {
-    "dark": "#4752c4",
-    "light": "#4752c4",
-    "midnight": "#4752c4",
-    "darker": "#4752c4"
+    "14": "#4752c4"
   },
   "REACTION_TEXT_ACTIVE": {
-    "dark": "#ffffff",
-    "light": "#060607",
-    "midnight": "#e4e5e8",
-    "darker": "#f3f3f4"
+    "14": "#f3f3f4"
   },
   "REACTION_TEXT_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "REACTION_TEXT_HOVER": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#dddee1"
+    "14": "#dddee1"
   },
   "REACTION_TEXT_REACTED_DEFAULT": {
-    "dark": "#dee0fc",
-    "light": "#4752c4",
-    "midnight": "#dee0fc",
-    "darker": "#dee0fc"
+    "14": "#dee0fc"
   },
   "REDESIGN_ACTIVITY_CARD_BADGE_ICON": {
-    "dark": "#949ba4",
-    "light": "#80848e",
-    "midnight": "#6c6f7c",
-    "darker": "#818491"
+    "14": "#818491"
   },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PINK_FOR_GRADIENT": {
-    "dark": "#ab5d8a",
-    "light": "#ab5d8a",
-    "midnight": "#ab5d8a",
-    "darker": "#ab5d8a"
+    "14": "#ab5d8a"
   },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PRESSED_BACKGROUND": {
-    "dark": "#0000001a",
-    "light": "#0000001a",
-    "midnight": "#0000001a",
-    "darker": "#0000001a"
+    "14": "#0000001a"
   },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT": {
-    "dark": "#8547c6",
-    "light": "#8547c6",
-    "midnight": "#8547c6",
-    "darker": "#8547c6"
+    "14": "#8547c6"
   },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT_2": {
-    "dark": "#b845c1",
-    "light": "#b845c1",
-    "midnight": "#b845c1",
-    "darker": "#b845c1"
+    "14": "#b845c1"
   },
   "REDESIGN_BUTTON_TERTIARY_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#00000014",
-    "midnight": "#bcc1fa1a",
-    "darker": "#6c6f7c1f"
+    "14": "#6c6f7c1f"
   },
   "REDESIGN_BUTTON_TERTIARY_PRESSED_BACKGROUND": {
-    "dark": "#383a40",
-    "light": "#00000029",
-    "midnight": "#6c6f7c33",
-    "darker": "#6c6f7c33"
+    "14": "#6c6f7c33"
   },
   "REDESIGN_BUTTON_TERTIARY_PRESSED_TEXT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#d3d5d9"
+    "14": "#d3d5d9"
   },
   "REDESIGN_BUTTON_TERTIARY_TEXT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "14": "#c7c8ce"
   },
   "REDESIGN_CHANNEL_NAME_MUTED_TEXT": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "14": "#818491"
   },
   "REDESIGN_CHANNEL_NAME_TEXT": {
-    "dark": "#f2f3f5",
-    "light": "#060607",
-    "midnight": "#ecedef",
-    "darker": "#e4e5e8"
+    "14": "#e4e5e8"
   },
   "REDESIGN_CHAT_INPUT_BACKGROUND": {
-    "dark": "#1e1f22",
-    "light": "#00000014",
-    "midnight": "#bcc1fa1a",
-    "darker": "#6c6f7c1f"
+    "14": "#6c6f7c1f"
   },
   "REDESIGN_IMAGE_BUTTON_PRESSED_BACKGROUND": {
-    "dark": "#00000014",
-    "light": "#00000014",
-    "midnight": "#00000014",
-    "darker": "#00000014"
+    "14": "#00000014"
   },
   "REDESIGN_INPUT_CONTROL_ACTIVE_BG": {
-    "dark": "#282a2e",
-    "light": "#ffffff",
-    "midnight": "#2c2d35",
-    "darker": "#31323b"
+    "14": "#31323b"
   },
   "REDESIGN_INPUT_CONTROL_SELECTED": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "14": "#5865f2"
   },
   "SLIDER_TRACK_BACKGROUND": {
-    "dark": "#34343a",
-    "light": "#c2c2c7",
-    "midnight": "#3f4048",
-    "darker": "#474851"
+    "14": "#474851"
   },
   "SPINE_DEFAULT": {
-    "dark": "#41434a",
-    "light": "#6d6f78",
-    "midnight": "#2c2d35",
-    "darker": "#383a43"
+    "14": "#383a43"
   },
   "SPOILER_HIDDEN_BACKGROUND": {
-    "dark": "#1e1f22",
-    "light": "#e3e5e8",
-    "midnight": "#41434d",
-    "darker": "#41434d"
+    "14": "#41434d"
   },
   "SPOILER_REVEALED_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#ebedef",
-    "midnight": "#6c6f7c29",
-    "darker": "#6c6f7c29"
+    "14": "#6c6f7c29"
   },
   "STAGE_CARD_PILL_BG": {
-    "dark": "#2b2d31",
-    "light": "#ffffff",
-    "midnight": "#0c0c10",
-    "darker": "#212229"
+    "13": "#212229"
   },
   "STANDALONE_CHANNEL_CONTENT_BACKGROUND": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "12": "#1c1d23"
   },
   "STANDALONE_CHANNEL_HEADER_BORDER": {
-    "dark": "#ffffff29",
-    "light": "#00000029",
-    "midnight": "#6c6f7c3d",
-    "darker": "#6c6f7c38"
+    "12": "#6c6f7c38"
   },
   "STATUS_DANGER": {
-    "dark": "#f23f43",
-    "light": "#da373c",
-    "midnight": "#f23f43",
-    "darker": "#f23f43"
+    "12": "#f23f43"
   },
   "STATUS_ONLINE": {
-    "dark": "#23a55a",
-    "light": "#24934e",
-    "midnight": "#23a55a",
-    "darker": "#23a55a"
+    "12": "#23a55a"
   },
   "STATUS_POSITIVE": {
-    "dark": "#23a55a",
-    "light": "#24934e",
-    "midnight": "#23a55a",
-    "darker": "#23a55a"
+    "12": "#23a55a"
   },
   "STATUS_POSITIVE_BACKGROUND": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "12": "#248045"
   },
   "STATUS_POSITIVE_TEXT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "12": "#ffffff"
   },
   "STATUS_SPEAKING": {
-    "dark": "#23a55a",
-    "light": "#23a55a",
-    "midnight": "#23a55a",
-    "darker": "#23a55a"
+    "12": "#23a55a"
   },
   "STATUS_WARNING": {
-    "dark": "#f0b232",
-    "light": "#af7615",
-    "midnight": "#f0b232",
-    "darker": "#f0b232"
+    "12": "#f0b232"
   },
   "STATUS_WARNING_BACKGROUND": {
-    "dark": "#f0b232",
-    "light": "#af7615",
-    "midnight": "#f0b232",
-    "darker": "#f0b232"
+    "12": "#f0b232"
   },
   "STATUS_WARNING_TEXT": {
-    "dark": "#000000",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "12": "#000000"
   },
   "STEAM_REVIEW_TEXT_MIXED": {
-    "dark": "#dc8d00",
-    "light": "#884800",
-    "midnight": "#e09000",
-    "darker": "#f49f00"
+    "12": "#f49f00"
   },
   "STEAM_REVIEW_TEXT_NEGATIVE": {
-    "dark": "#e55455",
-    "light": "#d22d39",
-    "midnight": "#e55455",
-    "darker": "#f16d6a"
+    "12": "#f16d6a"
   },
   "STEAM_REVIEW_TEXT_POSITIVE": {
-    "dark": "#3286e9",
-    "light": "#006dd4",
-    "midnight": "#3286e9",
-    "darker": "#5299ef"
+    "12": "#5299ef"
   },
   "SWITCH_BACKGROUND_DEFAULT": {
-    "dark": "#4e505829",
-    "light": "#80848e29",
-    "midnight": "#6c6f7c33",
-    "darker": "#6c6f7c29"
+    "12": "#6c6f7c29"
   },
   "SWITCH_BACKGROUND_SELECTED_DEFAULT": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "12": "#5865f2"
   },
   "SWITCH_BORDER_DEFAULT": {
-    "dark": "#4e505829",
-    "light": "#80848e29",
-    "midnight": "#6c6f7c33",
-    "darker": "#6c6f7c29"
+    "12": "#6c6f7c29"
   },
   "SWITCH_BORDER_SELECTED_DEFAULT": {
-    "dark": "#4e505829",
-    "light": "#80848e29",
-    "midnight": "#6c6f7c33",
-    "darker": "#6c6f7c29"
+    "12": "#6c6f7c29"
   },
   "SWITCH_THUMB_BACKGROUND_DEFAULT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "12": "#ffffff"
   },
   "TAB_BAR_BACKGROUND": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "12": "#26272f"
   },
   "TAB_LABEL_TEXT_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "12": "#c7c8ce"
   },
   "TAB_LABEL_TEXT_FOCUSED": {
-    "dark": "#ffffff",
-    "light": "#060607",
-    "midnight": "#e4e5e8",
-    "darker": "#f3f3f4"
+    "12": "#f3f3f4"
   },
   "TABLEROW_BACKGROUND_DEFAULT": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "12": "#26272f"
   },
   "TABLEROW_BACKGROUND_PRESSED": {
-    "dark": "#282a2e",
-    "light": "#ebedef",
-    "midnight": "#0c0c10",
-    "darker": "#212229"
+    "12": "#212229"
   },
   "TABLEROW_ICON_COLOR_DEFAULT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#c7c8ce",
-    "darker": "#c7c8ce"
+    "12": "#c7c8ce"
   },
   "TEXT_BRAND": {
-    "dark": "#949cf7",
-    "light": "#505cdc",
-    "midnight": "#7984f5",
-    "darker": "#949cf7"
+    "12": "#949cf7"
   },
   "TEXT_DEFAULT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "12": "#c7c8ce"
   },
   "TEXT_FEEDBACK_CRITICAL": {
-    "dark": "#fa777b",
-    "light": "#a12829",
-    "midnight": "#fa777b",
-    "darker": "#fa777b"
+    "12": "#fa777b"
   },
   "TEXT_FEEDBACK_INFO": {
-    "dark": "#2eb6ff",
-    "light": "#006be7",
-    "midnight": "#2eb6ff",
-    "darker": "#2eb6ff"
+    "12": "#2eb6ff"
   },
   "TEXT_FEEDBACK_POSITIVE": {
-    "dark": "#2dc771",
-    "light": "#248045",
-    "midnight": "#2dc771",
-    "darker": "#2dc771"
+    "12": "#2dc771"
   },
   "TEXT_FEEDBACK_WARNING": {
-    "dark": "#f0b232",
-    "light": "#9a650d",
-    "midnight": "#f0b232",
-    "darker": "#f0b232"
+    "12": "#f0b232"
   },
   "TEXT_LINK": {
-    "dark": "#5a9ef1",
-    "light": "#0268ca",
-    "midnight": "#3c8ceb",
-    "darker": "#4d96ee"
+    "12": "#4d96ee"
   },
   "TEXT_MUTED": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "12": "#818491"
   },
   "TEXT_OVERLAY_DARK": {
-    "dark": "#2f3035",
-    "light": "#2f3035",
-    "midnight": "#2f3035",
-    "darker": "#2f3035"
+    "12": "#2f3035"
   },
   "TEXT_OVERLAY_LIGHT": {
-    "dark": "#ffffff",
-    "light": "#fbfbfb",
-    "midnight": "#e4e4e6",
-    "darker": "#fbfbfb"
+    "12": "#fbfbfb"
   },
   "TEXT_STATUS_DND": {
-    "dark": "#f23f43",
-    "light": "#da373c",
-    "midnight": "#f23f43",
-    "darker": "#f23f43"
+    "12": "#f23f43"
   },
   "TEXT_STATUS_IDLE": {
-    "dark": "#f0b232",
-    "light": "#af7615",
-    "midnight": "#f0b232",
-    "darker": "#f0b232"
+    "12": "#f0b232"
   },
   "TEXT_STATUS_OFFLINE": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#9597a3",
-    "darker": "#9597a3"
+    "12": "#9597a3"
   },
   "TEXT_STATUS_ONLINE": {
-    "dark": "#23a55a",
-    "light": "#24934e",
-    "midnight": "#23a55a",
-    "darker": "#23a55a"
+    "12": "#23a55a"
   },
   "TEXT_STRONG": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "12": "#c7c8ce"
   },
   "TEXT_SUBTLE": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#a8aab4",
-    "darker": "#9597a3"
+    "12": "#9597a3"
   },
   "TEXT_VOICE_CONNECTED": {
-    "dark": "#2dc771",
-    "light": "#248045",
-    "midnight": "#26b968",
-    "darker": "#26b968"
+    "12": "#26b968"
   },
   "TEXT_VOICE_DISCONNECTED": {
-    "dark": "#fa9193",
-    "light": "#8f2022",
-    "midnight": "#f85b5f",
-    "darker": "#fa777b"
+    "12": "#fa777b"
   },
   "TEXT_VOICE_SPEAKING": {
-    "dark": "#26b968",
-    "light": "#24934e",
-    "midnight": "#26b968",
-    "darker": "#26b968"
+    "12": "#26b968"
   },
   "THEME_LOCKED_BLUR_FALLBACK": {
-    "dark": "#1e1f22f5",
-    "light": "#1e1f22f5",
-    "midnight": "#1e1f22f5",
-    "darker": "#1e1f22f5"
+    "12": "#1e1f22f5"
   },
   "THREAD_CHANNEL_SPINE": {
-    "dark": "#4e5058",
-    "light": "#c4c9ce",
-    "midnight": "#4d505b",
-    "darker": "#4d505b"
+    "12": "#4d505b"
   },
   "USER_PROFILE_ABOUT_ME_HEADING_TEXT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
+    "12": "#c7c8ce"
   },
   "USER_PROFILE_CONTAINER_BACKGROUND": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#131318",
-    "darker": "#26272f"
+    "12": "#26272f"
   },
   "USER_PROFILE_GRADIENT_BACKGROUND": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "12": "#1c1d23"
   },
   "VOICE_CHANNEL_USER_LIMIT_ACCENT_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#ebedef",
-    "midnight": "#000000",
-    "darker": "#131318"
+    "12": "#131318"
   },
   "VOICE_CHANNEL_USER_LIMIT_BACKGROUND": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
+    "12": "#1c1d23"
   },
   "VOICE_CHANNEL_USER_LIMIT_ICON": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#9597a3",
-    "darker": "#9597a3"
+    "12": "#9597a3"
   },
   "VOICE_CHANNEL_USER_LIMIT_TEXT": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#9597a3",
-    "darker": "#9597a3"
+    "11": "#9597a3"
   },
   "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
-    "dark": "#2c2d3566",
-    "light": "#2c2d3566",
-    "midnight": "#2c2d3566",
-    "darker": "#2c2d3566"
+    "11": "#2c2d3566"
   },
   "VOICE_VIDEO_VIDEO_TILE_BLUR_FALLBACK": {
-    "dark": "#1e1f227a",
-    "light": "#1e1f227a",
-    "midnight": "#1e1f227a",
-    "darker": "#1e1f227a"
+    "11": "#1e1f227a"
   },
   "WHITE": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
+    "9": "#ffffff",
+    "10": "#ffffff"
   }
 }
