@@ -415,6 +415,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['ROLE_SUBSCRIPTION_LISTING_UPSELL_ERROR_PAGE'] = var2;
     var2 = 'impression_shelf_activity_details';
     var4['SHELF_ACTIVITY_DETAILS'] = var2;
+    var2 = 'impression_shop_card';
+    var4['SHOP_CARD'] = var2;
     var2 = 'impression_shop_product_detail';
     var4['SHOP_PRODUCT_DETAIL'] = var2;
     var2 = 'impression_snowsgiving';
@@ -507,6 +509,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VOICE_FEEDBACK_MODAL'] = var2;
     var2 = 'impression_voice_filter_feedback_modal';
     var4['VOICE_FILTER_FEEDBACK_MODAL'] = var2;
+    var2 = 'impression_voice_invite_embed';
+    var4['VOICE_INVITE_EMBED'] = var2;
     var2 = 'impression_voice_invite_suggestions_entrypoint';
     var4['VOICE_INVITE_SUGGESTIONS_ENTRYPOINT'] = var2;
     var2 = 'impression_voice_invite_suggestions_popover';

@@ -115,6 +115,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['NSFW_EMBEDDED_ACTIVITY'] = var4;
     var4 = 'nsfw_app_listing';
     var6['NSFW_APP_LISTING'] = var4;
+    var4 = 'spoiler_channel';
+    var6['SPOILER_CHANNEL'] = var4;
     var5 = {};
     var4 = 'nsfw_channel_agree_cta';
     var5['NSFW_CHANNEL_AGREE_CTA'] = var4;

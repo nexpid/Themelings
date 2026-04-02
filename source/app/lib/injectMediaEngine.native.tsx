@@ -41,11 +41,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['getVoiceEngine'] = var8;
-    var8 = function getVoiceFilters() {
-        var1 = {};
-        return var1;
-    };
-    var2['getVoiceFilters'] = var8;
     var7 = function getOpenH264LibraryPath() {
         var1 = undefined;
         return var1;

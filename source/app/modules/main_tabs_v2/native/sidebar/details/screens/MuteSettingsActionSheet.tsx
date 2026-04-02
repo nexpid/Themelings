@@ -352,101 +352,92 @@ case 5:
     var2 = function MuteSettingsHint(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var1 = arg1;
-            var3 = var1.isMuted;
-            var2 = var1.isGuildMuted;
-            var8 = var1.guildMessageNotifications;
-            var6 = var1.showVoiceActivityNotificationOptions;
-            var4 = undefined;
-            if(!(var6 === var4)) { _fun0002_ip = 9; continue _fun0002 }
+            var2 = arg1;
+            var3 = var2.isMuted;
+            var1 = var2.isGuildMuted;
+            var8 = var2.guildMessageNotifications;
+            if(var3) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-            var6 = false;
-case 9:
-            if(var3) { _fun0002_ip = 11; continue _fun0002 }
+            if(var1) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            if(var2) { _fun0002_ip = 13; continue _fun0002 }
+            var1 = _closure1_slot8;
+            var1 = var1.NO_MESSAGES;
+            if(!(var8 !== var1)) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var2 = _closure1_slot8;
-            var2 = var2.NO_MESSAGES;
-            if(!(var8 !== var2)) { _fun0002_ip = 15; continue _fun0002 }
+            var1 = _closure1_slot8;
+            var1 = var1.ALL_MESSAGES;
+            if(!(var8 !== var1)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var2 = _closure1_slot8;
-            var2 = var2.ALL_MESSAGES;
-            if(!(var8 !== var2)) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
-            var2 = _closure1_slot8;
-            var2 = var2.ONLY_MENTIONS;
-            if(!(var8 !== var2)) { _fun0002_ip = 17; continue _fun0002 }
-case 19:
-            var2 = null;
-            return var2;
-case 17:
-            var7 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var12 = 8;
-            var3 = var2[var12];
-            var3 = var7.bind(var4)(var3);
-            var5 = var3.intl;
-            var3 = var5.string;
-            var2 = var2[var12];
-            var2 = var7.bind(var4)(var2);
-            var2 = var2.t;
-            if(var6) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
-            var6 = var2.mUbulW;
-            var6 = var3.bind(var5)(var6);
-            _fun0002_ip = 22; continue _fun0002;
-case 20:
-            var2 = var2.l3yoAR;
-            var6 = var3.bind(var5)(var2);
-case 22:
-            var5 = _closure1_slot9;
-            var3 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 7;
-            var2 = var7[var2];
-            var2 = var3.bind(var4)(var2);
-            var3 = var2.Text;
-            var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
+            var1 = _closure1_slot8;
+            var3 = var1.ONLY_MENTIONS;
+            var1 = null;
+            if(!(var8 === var3)) { _fun0002_ip = 17; continue _fun0002 }
+case 15:
+            var6 = _closure1_slot9;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 7;
+            var3 = var5[var3];
+            var5 = undefined;
+            var3 = var4.bind(var5)(var3);
+            var4 = var3.Text;
+            var3 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var7 = _closure1_slot8;
             var7 = var7.ALL_MESSAGES;
-            if(!(var8 !== var7)) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
-            var11 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var8 = var7[var12];
-            var8 = var11.bind(var4)(var8);
+            if(!(var8 !== var7)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+            var10 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var7 = 8;
+            var8 = var12[var7];
+            var8 = var10.bind(var5)(var8);
             var9 = var8.intl;
             var8 = var9.string;
-            var7 = var7[var12];
-            var7 = var11.bind(var4)(var7);
+            var7 = var12[var7];
+            var7 = var10.bind(var5)(var7);
             var7 = var7.t;
             var7 = var7.GGAdHV;
-            var6 = var8.bind(var9)(var7);
-case 23:
-            var2['children'] = var6;
-            var2 = var5.bind(var4)(var3, var2);
-            return var2;
-case 15:
-            var5 = _closure1_slot9;
-            var7 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var2 = 7;
-            var2 = var11[var2];
-            var2 = var7.bind(var4)(var2);
-            var3 = var2.Text;
-            var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
-            var6 = 8;
-            var8 = var11[var6];
-            var8 = var7.bind(var4)(var8);
-            var9 = var8.intl;
-            var8 = var9.format;
-            var6 = var11[var6];
-            var6 = var7.bind(var4)(var6);
-            var6 = var6.t;
-            var7 = var6.nRwUIL;
-            var6 = {};
-            var11 = function notificationHook(arg1, arg2) {
+            var7 = var8.bind(var9)(var7);
+            _fun0002_ip = 20; continue _fun0002;
+case 18:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var8 = 8;
+            var9 = var13[var8];
+            var9 = var12.bind(var5)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var8 = var13[var8];
+            var8 = var12.bind(var5)(var8);
+            var8 = var8.t;
+            var8 = var8.mUbulW;
+            var7 = var9.bind(var10)(var8);
+case 20:
+            var3['children'] = var7;
+            var1 = var6.bind(var5)(var4, var3);
+case 17:
+            _fun0002_ip = 21; continue _fun0002;
+case 13:
+            var6 = _closure1_slot9;
+            var8 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 7;
+            var3 = var12[var3];
+            var5 = undefined;
+            var3 = var8.bind(var5)(var3);
+            var4 = var3.Text;
+            var3 = {'variant': 'text-sm/medium', 'color': 'text-default'};
+            var7 = 8;
+            var9 = var12[var7];
+            var9 = var8.bind(var5)(var9);
+            var10 = var9.intl;
+            var9 = var10.format;
+            var7 = var12[var7];
+            var7 = var8.bind(var5)(var7);
+            var7 = var7.t;
+            var8 = var7.nRwUIL;
+            var7 = {};
+            var12 = function notificationHook(arg1, arg2) {
                 var5 = _closure1_slot9;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -462,31 +453,33 @@ case 15:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var6['notificationHook'] = var11;
-            var6 = var8.bind(var9)(var7, var6);
-            var2['children'] = var6;
-            var2 = var5.bind(var4)(var3, var2);
-            return var2;
-case 13:
-            var5 = _closure1_slot9;
-            var7 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var2 = 7;
-            var2 = var11[var2];
-            var2 = var7.bind(var4)(var2);
-            var3 = var2.Text;
-            var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
-            var6 = 8;
-            var8 = var11[var6];
-            var8 = var7.bind(var4)(var8);
-            var9 = var8.intl;
-            var8 = var9.format;
-            var6 = var11[var6];
-            var6 = var7.bind(var4)(var6);
-            var6 = var6.t;
-            var7 = var6.O34r15;
-            var6 = {};
-            var10 = function mutedHook(arg1, arg2) {
+            var7['notificationHook'] = var12;
+            var7 = var9.bind(var10)(var8, var7);
+            var3['children'] = var7;
+            var1 = var6.bind(var5)(var4, var3);
+case 21:
+            _fun0002_ip = 22; continue _fun0002;
+case 11:
+            var6 = _closure1_slot9;
+            var8 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 7;
+            var3 = var12[var3];
+            var5 = undefined;
+            var3 = var8.bind(var5)(var3);
+            var4 = var3.Text;
+            var3 = {'variant': 'text-sm/medium', 'color': 'text-default'};
+            var7 = 8;
+            var9 = var12[var7];
+            var9 = var8.bind(var5)(var9);
+            var10 = var9.intl;
+            var9 = var10.format;
+            var7 = var12[var7];
+            var7 = var8.bind(var5)(var7);
+            var7 = var7.t;
+            var8 = var7.O34r15;
+            var7 = {};
+            var11 = function mutedHook(arg1, arg2) {
                 var5 = _closure1_slot9;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -502,32 +495,35 @@ case 13:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var6['mutedHook'] = var10;
-            var6 = var8.bind(var9)(var7, var6);
+            var7['mutedHook'] = var11;
+            var7 = var9.bind(var10)(var8, var7);
+            var3['children'] = var7;
+            var1 = var6.bind(var5)(var4, var3);
+case 22:
+            _fun0002_ip = 23; continue _fun0002;
+case 9:
+            var5 = _closure1_slot9;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = 7;
+            var2 = var10[var2];
+            var4 = undefined;
+            var2 = var9.bind(var4)(var2);
+            var3 = var2.Text;
+            var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
+            var6 = 8;
+            var7 = var10[var6];
+            var7 = var9.bind(var4)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var6 = var10[var6];
+            var6 = var9.bind(var4)(var6);
+            var6 = var6.t;
+            var6 = var6.t0mEt2;
+            var6 = var7.bind(var8)(var6);
             var2['children'] = var6;
-            var2 = var5.bind(var4)(var3, var2);
-            return var2;
-case 11:
-            var3 = _closure1_slot9;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 7;
-            var1 = var9[var1];
-            var1 = var8.bind(var4)(var1);
-            var2 = var1.Text;
-            var1 = {'variant': 'text-sm/medium', 'color': 'text-default'};
-            var5 = 8;
-            var6 = var9[var5];
-            var6 = var8.bind(var4)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var5 = var9[var5];
-            var5 = var8.bind(var4)(var5);
-            var5 = var5.t;
-            var5 = var5.t0mEt2;
-            var5 = var6.bind(var7)(var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var1 = var5.bind(var4)(var3, var2);
+case 23:
             return var1;
         }
     };

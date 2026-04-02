@@ -256,8 +256,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IN_APP_NOTIFICATIONS'] = var1;
     var1 = 'SYSTEM_NOTIFICATIONS';
     var2['SYSTEM_NOTIFICATIONS'] = var1;
-    var1 = 'VOICE_ACTIVITY_NOTIFICATIONS';
-    var2['VOICE_ACTIVITY_NOTIFICATIONS'] = var1;
     var1 = 'FRIEND_ONLINE_NOTIFICATIONS';
     var2['FRIEND_ONLINE_NOTIFICATIONS'] = var1;
     var1 = 'REACTION_NOTIFICATIONS';

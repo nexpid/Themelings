@@ -18,35 +18,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.useMemo;
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var12 = 1;
     var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.Pressable;
+    var7 = var4.useCallback;
     var _closure1_slot4 = var7;
-    var4 = var4.View;
-    var _closure1_slot5 = var4;
+    var7 = var4.useMemo;
+    var _closure1_slot5 = var7;
+    var4 = var4.useState;
+    var _closure1_slot6 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.EXTERNAL_PRODUCT_SKU_IDS;
-    var _closure1_slot6 = var4;
+    var7 = var4.Pressable;
+    var _closure1_slot7 = var7;
+    var4 = var4.View;
+    var _closure1_slot8 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot7 = var7;
-    var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var4 = var4.EXTERNAL_PRODUCT_SKU_IDS;
+    var _closure1_slot9 = var4;
     var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot10 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot11 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 5;
+    var10 = 6;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
@@ -68,24 +76,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginTop'] = var10;
     var4['collectiblePreview'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot12 = var4;
     var4 = function ProfileEffectPreview(arg1) {
         var1 = arg1;
         var8 = var1.product;
         var7 = var1.width;
         var9 = var1.handlePreviewPress;
-        var1 = _closure1_slot9;
+        var1 = _closure1_slot12;
         var4 = undefined;
         var6 = var1.bind(var4)();
-        var3 = _closure1_slot7;
-        var2 = _closure1_slot4;
+        var3 = _closure1_slot10;
+        var2 = _closure1_slot7;
         var1 = {};
         var1['onPress'] = var9;
         var6 = var6.collectiblePreview;
         var1['style'] = var6;
         var6 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var5 = 6;
+        var5 = 7;
         var5 = var9[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};
@@ -96,42 +104,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot13 = var4;
     var4 = function AvatarDecorationPreview(arg1) {
         var1 = arg1;
         var7 = var1.product;
         var8 = var1.handlePreviewPress;
-        var1 = _closure1_slot9;
+        var1 = _closure1_slot12;
         var4 = undefined;
         var6 = var1.bind(var4)();
-        var3 = _closure1_slot7;
-        var2 = _closure1_slot4;
+        var3 = _closure1_slot10;
+        var2 = _closure1_slot7;
         var1 = {};
         var1['onPress'] = var8;
-        var6 = var6.collectiblePreview;
-        var1['style'] = var6;
-        var6 = _closure1_slot1;
-        var8 = _closure1_slot2;
-        var5 = 7;
-        var5 = var8[var5];
-        var6 = var6.bind(var4)(var5);
-        var5 = {};
-        var5['product'] = var7;
-        var5 = var3.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot11 = var4;
-    var4 = function NameplatePreview(arg1) {
-        var1 = arg1;
-        var7 = var1.product;
-        var1 = _closure1_slot9;
-        var4 = undefined;
-        var6 = var1.bind(var4)();
-        var3 = _closure1_slot7;
-        var2 = _closure1_slot5;
-        var1 = {};
         var6 = var6.collectiblePreview;
         var1['style'] = var6;
         var6 = _closure1_slot1;
@@ -146,7 +130,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot12 = var4;
+    var _closure1_slot14 = var4;
+    var4 = function NameplatePreview(arg1) {
+        var1 = arg1;
+        var7 = var1.product;
+        var1 = _closure1_slot12;
+        var4 = undefined;
+        var6 = var1.bind(var4)();
+        var3 = _closure1_slot10;
+        var2 = _closure1_slot8;
+        var1 = {};
+        var6 = var6.collectiblePreview;
+        var1['style'] = var6;
+        var6 = _closure1_slot1;
+        var8 = _closure1_slot2;
+        var5 = 9;
+        var5 = var8[var5];
+        var6 = var6.bind(var4)(var5);
+        var5 = {};
+        var5['product'] = var7;
+        var5 = var3.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot15 = var4;
     var4 = function BundlePreview(arg1) {
         var2 = arg1;
         var8 = var2.product;
@@ -157,14 +165,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var7;
         var9 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var2 = 9;
+        var2 = 10;
         var2 = var11[var2];
         var4 = undefined;
         var3 = var9.bind(var4)(var2);
         var2 = var3.useShopProductItems;
         var6 = var2.bind(var3)(var8);
         var _closure2_slot3 = var6;
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot5;
         var2 = new Array(4);
         var2[0] = var8;
         var2[1] = var5;
@@ -183,7 +191,7 @@ case 3:
                 var3 = {};
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var5 = 10;
+                var5 = 11;
                 var6 = var11[var5];
                 var7 = undefined;
                 var6 = var10.bind(var7)(var6);
@@ -197,8 +205,8 @@ case 3:
                 var3['label'] = var5;
                 var5 = 'profile';
                 var3['id'] = var5;
-                var6 = _closure1_slot7;
-                var5 = _closure1_slot10;
+                var6 = _closure1_slot10;
+                var5 = _closure1_slot13;
                 var4 = {};
                 var9 = _closure2_slot0;
                 var4['product'] = var9;
@@ -221,7 +229,7 @@ case 5:
                 var4 = {};
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot2;
-                var6 = 10;
+                var6 = 11;
                 var7 = var12[var6];
                 var9 = undefined;
                 var7 = var11.bind(var9)(var7);
@@ -235,8 +243,8 @@ case 5:
                 var4['label'] = var6;
                 var6 = 'decoration';
                 var4['id'] = var6;
-                var7 = _closure1_slot7;
-                var6 = _closure1_slot11;
+                var7 = _closure1_slot10;
+                var6 = _closure1_slot14;
                 var5 = {};
                 var10 = _closure2_slot0;
                 var5['product'] = var10;
@@ -256,7 +264,7 @@ case 7:
                 var2 = {};
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var5 = 10;
+                var5 = 11;
                 var6 = var11[var5];
                 var7 = undefined;
                 var6 = var10.bind(var7)(var6);
@@ -270,8 +278,8 @@ case 7:
                 var2['label'] = var5;
                 var5 = 'nameplate';
                 var2['id'] = var5;
-                var6 = _closure1_slot7;
-                var5 = _closure1_slot12;
+                var6 = _closure1_slot10;
+                var5 = _closure1_slot15;
                 var4 = {};
                 var8 = _closure2_slot0;
                 var4['product'] = var8;
@@ -292,7 +300,7 @@ case 6:
             }
         };
         var6 = var3.bind(var4)(var1, var2);
-        var1 = 11;
+        var1 = 12;
         var1 = var11[var1];
         var3 = var9.bind(var4)(var1);
         var2 = var3.useSegmentedControlState;
@@ -302,11 +310,11 @@ case 6:
         var5 = 0;
         var1['defaultIndex'] = var5;
         var10 = var2.bind(var3)(var1);
-        var3 = _closure1_slot8;
-        var2 = _closure1_slot5;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot8;
         var1 = {};
-        var7 = _closure1_slot7;
-        var5 = 12;
+        var7 = _closure1_slot10;
+        var5 = 13;
         var5 = var11[var5];
         var5 = var9.bind(var4)(var5);
         var6 = var5.SegmentedControlPages;
@@ -318,7 +326,7 @@ case 6:
         var6 = {};
         var8 = {};
         var13 = _closure1_slot1;
-        var12 = 5;
+        var12 = 6;
         var14 = var11[var12];
         var14 = var13.bind(var4)(var14);
         var14 = var14.spacing;
@@ -330,7 +338,7 @@ case 6:
         var12 = var12.PX_12;
         var8['paddingTop'] = var12;
         var6['style'] = var8;
-        var8 = 13;
+        var8 = 14;
         var8 = var11[var8];
         var8 = var9.bind(var4)(var8);
         var9 = var8.SegmentedControl;
@@ -346,7 +354,7 @@ case 6:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot13 = var4;
+    var _closure1_slot16 = var4;
     var4 = function IndividualProductPreview(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -357,7 +365,7 @@ case 0:
             var3 = var5.type;
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var9 = 14;
+            var9 = 15;
             var2 = var2[var9];
             var4 = undefined;
             var2 = var6.bind(var4)(var2);
@@ -393,20 +401,20 @@ case 14:
             return var2;
 case 13:
             var3 = var5.skuId;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot9;
             var2 = var2.FRACTIONAL_PREMIUM;
             if(!(var3 !== var2)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
             var6 = var5.skuId;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot9;
             var3 = var2.ORB_PROFILE_BADGE;
             var2 = null;
             if(!(var6 === var3)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot10;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 16;
+            var3 = 17;
             var3 = var10[var3];
             var3 = var6.bind(var4)(var3);
             var6 = var3.OrbBadgePreview;
@@ -415,10 +423,10 @@ case 18:
 case 17:
             _fun0002_ip = 19; continue _fun0002;
 case 15:
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot10;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 15;
+            var3 = 16;
             var3 = var10[var3];
             var3 = var6.bind(var4)(var3);
             var6 = var3.FractionalNitroPreview;
@@ -427,16 +435,16 @@ case 15:
 case 19:
             return var2;
 case 4:
-            var6 = _closure1_slot7;
-            var3 = _closure1_slot11;
+            var6 = _closure1_slot10;
+            var3 = _closure1_slot14;
             var2 = {};
             var2['product'] = var5;
             var2['handlePreviewPress'] = var7;
             var2 = var6.bind(var4)(var3, var2);
             return var2;
 case 10:
-            var6 = _closure1_slot7;
-            var3 = _closure1_slot10;
+            var6 = _closure1_slot10;
+            var3 = _closure1_slot13;
             var2 = {};
             var2['product'] = var5;
             var2['width'] = var8;
@@ -444,15 +452,15 @@ case 10:
             var2 = var6.bind(var4)(var3, var2);
             return var2;
 case 8:
-            var3 = _closure1_slot7;
-            var2 = _closure1_slot12;
+            var3 = _closure1_slot10;
+            var2 = _closure1_slot15;
             var1 = {};
             var1['product'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot14 = var4;
+    var _closure1_slot17 = var4;
     var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -462,22 +470,39 @@ case 8:
     var2 = function _default(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var1 = arg1;
-            var9 = var1.product;
-            var7 = var1.handlePreviewPress;
-            var1 = _closure1_slot9;
+            var2 = arg1;
+            var9 = var2.product;
+            var7 = var2.handlePreviewPress;
+            var2 = _closure1_slot12;
             var4 = undefined;
-            var10 = var1.bind(var4)();
-            var2 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var1 = 17;
-            var1 = var6[var1];
-            var1 = var2.bind(var4)(var1);
-            var1 = var1.bind(var4)();
-            var8 = var1.width;
+            var11 = var2.bind(var4)();
+            var3 = _closure1_slot6;
+            var2 = 0;
+            var8 = var3.bind(var4)(var2);
+            var6 = _closure1_slot3;
+            var3 = 2;
+            var3 = var6.bind(var4)(var8, var3);
+            var8 = var3[var2];
+            var2 = 1;
+            var2 = var3[var2];
+            var _closure2_slot0 = var2;
+            var3 = _closure1_slot4;
+            var2 = function(arg1) {
+                var3 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var1.nativeEvent;
+                var1 = var1.layout;
+                var2 = var1.width;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var1 = new Array(0);
+            var10 = var3.bind(var4)(var2, var1);
             var2 = var9.type;
             var3 = _closure1_slot0;
-            var1 = 14;
+            var6 = _closure1_slot2;
+            var1 = 15;
             var1 = var6[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.CollectiblesItemType;
@@ -493,17 +518,18 @@ case 21:
             var1 = var2.isValidCollectiblesBundle;
             var6 = var1.bind(var2)(var9);
 case 20:
-            var3 = _closure1_slot7;
-            var2 = _closure1_slot5;
+            var3 = _closure1_slot10;
+            var2 = _closure1_slot8;
             var1 = {};
-            var10 = var10.previewContainer;
-            var1['style'] = var10;
+            var11 = var11.previewContainer;
+            var1['style'] = var11;
+            var1['onLayout'] = var10;
             if(var6) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
-            var6 = _closure1_slot14;
+            var6 = _closure1_slot17;
             _fun0003_ip = 24; continue _fun0003;
 case 22:
-            var6 = _closure1_slot13;
+            var6 = _closure1_slot16;
 case 24:
             var5 = {};
             var5['product'] = var9;

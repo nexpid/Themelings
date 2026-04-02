@@ -879,8 +879,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var46['AVATAR_DECORATION_MODAL_UPSELL'] = var5;
     var5 = 'nameplate_modal_upsell';
     var46['NAMEPLATE_MODAL_UPSELL'] = var5;
-    var5 = 'voice_filters_upsell';
-    var46['VOICE_FILTERS_UPSELL'] = var5;
     var5 = 'recent_avatars_roadblock_upsell';
     var46['RECENT_AVATARS_ROADBLOCK_UPSELL'] = var5;
     var5 = 'emoji_everywhere_inline_upsell';

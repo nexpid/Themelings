@@ -102,6 +102,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['INTRO_TO_ORBS_QUEST'] = var1;
     var1 = 'intro to orbs quest banner';
     var2['INTRO_TO_ORBS_QUEST_BANNER'] = var1;
+    var1 = 'quest orb multiplier info modal';
+    var2['QUEST_ORB_MULTIPLIER_INFO_MODAL'] = var1;
     var1 = 'mobile orbs reward claim modal';
     var2['MOBILE_ORBS_REWARD_CLAIM_MODAL'] = var1;
     var1 = 'orbs balance menu';
@@ -282,10 +284,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_BOOST_UNCANCELLATION_MODAL'] = var1;
     var1 = 'guild boosting progress bar';
     var2['GUILD_BOOSTING_PROGRESS_BAR'] = var1;
-    var1 = 'guild boosting progress bar admin coachmark';
-    var2['GUILD_BOOSTING_PROGRESS_BAR_ADMIN_COACHMARK'] = var1;
-    var1 = 'guild boosting progress bar member coachmark';
-    var2['GUILD_BOOSTING_PROGRESS_BAR_MEMBER_COACHMARK'] = var1;
     var1 = 'guild boosting tier none';
     var2['GUILD_BOOSTING_TIER_NONE'] = var1;
     var1 = 'guild boosting tier 1';
@@ -330,6 +328,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VOICE_INVITE_SUGGESTIONS'] = var1;
     var1 = 'voice invite suggestions popover';
     var2['VOICE_INVITE_SUGGESTIONS_POPOVER'] = var1;
+    var1 = 'voice invite stream preview';
+    var2['VOICE_INVITE_STREAM_PREVIEW'] = var1;
     var1 = 'new guild button';
     var2['NEW_GUILD_BUTTON'] = var1;
     var1 = 'character count';
@@ -788,8 +788,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_MEMBER_MOD_VIEW'] = var1;
     var1 = 'guild member application review';
     var2['GUILD_MEMBER_APPLICATION_REVIEW'] = var1;
-    var1 = 'voice filter popout';
-    var2['VOICE_FILTER_POPOUT'] = var1;
     var1 = 'for later helpers';
     var2['FOR_LATER_HELPERS'] = var1;
     var1 = 'for later popout';

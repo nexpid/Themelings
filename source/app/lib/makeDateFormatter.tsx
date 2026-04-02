@@ -72,17 +72,13 @@ case 2:
             var2 = var5 !== var2;
             if(!var2) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var8 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var6 = 2;
             var6 = var9[var6];
-            var9 = var8.bind(var4)(var6);
-            var8 = var9.getCurrentConfig;
-            var6 = {};
-            var10 = 'makeLongFormatter';
-            var6['location'] = var10;
-            var6 = var8.bind(var9)(var6);
-            var2 = var6.enable24HourPref;
+            var8 = var8.bind(var4)(var6);
+            var6 = var8.supportsSystemDateFormatter;
+            var2 = var6.bind(var8)();
 case 10:
             if(!var2) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
@@ -296,7 +292,7 @@ case 30:
     var7['value'] = var1;
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var7);
-    var1 = 6;
+    var1 = 5;
     var5 = var5[var1];
     var1 = undefined;
     var7 = var6.bind(var1)(var5);
@@ -356,7 +352,7 @@ case 7:
 case 38:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var5 = 5;
+            var5 = 2;
             var5 = var7[var5];
             var5 = var6.bind(r119)(var5);
             var5 = var5.makeFormatter;
@@ -364,17 +360,13 @@ case 38:
 case 37:
             if(!var2) { _fun0006_ip = 39; continue _fun0006 }
 case 2:
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 2;
             var5 = var7[var5];
-            var7 = var6.bind(r119)(var5);
-            var6 = var7.getCurrentConfig;
-            var5 = {};
-            var8 = 'makeDateFormatter';
-            var5['location'] = var8;
-            var5 = var6.bind(var7)(var5);
-            var2 = var5.enableSystemFormatter;
+            var6 = var6.bind(r119)(var5);
+            var5 = var6.supportsSystemDateFormatter;
+            var2 = var5.bind(var6)();
 case 39:
             r115 = var4;
             if(var2) { _fun0006_ip = 40; continue _fun0006 }

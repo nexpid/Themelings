@@ -1,14 +1,14 @@
 // app/actions/native/BillingActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
-    var12 = metroImportDefault;
-    var10 = metroImportAll;
+    var9 = require;
+    var13 = metroImportDefault;
+    var11 = metroImportAll;
     var3 = exports;
-    var9 = dependencyMap;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var12;
-    var _closure1_slot2 = var10;
-    var _closure1_slot3 = var9;
+    var10 = dependencyMap;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var11;
+    var _closure1_slot3 = var10;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -185,7 +185,7 @@ case 35:
         }
     };
     var _closure1_slot25 = var1;
-    var11 = function applyAppleReceipt(arg1) {
+    var12 = function applyAppleReceipt(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -355,7 +355,7 @@ case 38:
             throw var1;
         }
     };
-    var _closure1_slot26 = var11;
+    var _closure1_slot26 = var12;
     var1 = function _getTrialOfferSignature() {
         var5 = undefined;
         var1 = undefined;
@@ -833,7 +833,7 @@ case 74:
         return var1;
     };
     var _closure1_slot31 = var1;
-    var5 = function getIAPJWTRequestData(arg1) {
+    var6 = function getIAPJWTRequestData(arg1) {
         var1 = undefined;
         var4 = _closure1_slot33;
         var3 = var4.apply;
@@ -843,7 +843,7 @@ case 74:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot32 = var5;
+    var _closure1_slot32 = var6;
     var1 = function _getIAPJWTRequestData() {
         var5 = undefined;
         var1 = undefined;
@@ -1080,7 +1080,7 @@ case 93:
         return var1;
     };
     var _closure1_slot33 = var1;
-    var4 = function updateAppleSubscription(arg1) {
+    var5 = function updateAppleSubscription(arg1) {
         var1 = undefined;
         var4 = _closure1_slot35;
         var3 = var4.apply;
@@ -1090,7 +1090,7 @@ case 93:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot34 = var4;
+    var _closure1_slot34 = var5;
     var1 = function _updateAppleSubscription() {
         var5 = undefined;
         var1 = undefined;
@@ -1474,7 +1474,7 @@ case 136:
         return var1;
     };
     var _closure1_slot37 = var1;
-    var1 = function isValidCurrency(arg1) {
+    var4 = function isValidCurrency(arg1) {
         var1 = global;
         var3 = var1.Object;
         var2 = var3.values;
@@ -1485,7 +1485,7 @@ case 136:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot38 = var1;
+    var _closure1_slot38 = var4;
     var1 = function _createGenericSubscription() {
         var5 = undefined;
         var1 = undefined;
@@ -3060,96 +3060,96 @@ case 17:
     var _closure1_slot5 = var1;
     var1 = ['sku_id', 'country_code', 'is_gift', 'gift_info_options'];
     var _closure1_slot6 = var1;
-    var7 = global;
-    var14 = var7.Object;
-    var13 = var14.defineProperty;
-    var6 = {};
+    var8 = global;
+    var15 = var8.Object;
+    var14 = var15.defineProperty;
+    var7 = {};
     var1 = true;
-    var6['value'] = var1;
+    var7['value'] = var1;
     var1 = '__esModule';
-    var1 = var13.bind(var14)(var3, var1, var6);
+    var1 = var14.bind(var15)(var3, var1, var7);
     var1 = 0;
-    var6 = var9[var1];
+    var7 = var10[var1];
     var1 = undefined;
-    var6 = var12.bind(var1)(var6);
-    var _closure1_slot7 = var6;
-    var6 = 1;
-    var6 = var9[var6];
-    var6 = var12.bind(var1)(var6);
-    var _closure1_slot8 = var6;
-    var6 = 2;
-    var6 = var9[var6];
-    var6 = var10.bind(var1)(var6);
-    var6 = 3;
-    var6 = var9[var6];
-    var6 = var12.bind(var1)(var6);
-    var _closure1_slot9 = var6;
-    var6 = 4;
-    var6 = var9[var6];
-    var6 = var12.bind(var1)(var6);
-    var _closure1_slot10 = var6;
-    var6 = 5;
-    var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var10 = var6.setPaymentSuccess;
-    var _closure1_slot11 = var10;
-    var6 = var6.showOldPaymentFlowSuccess;
-    var _closure1_slot12 = var6;
-    var6 = 6;
-    var6 = var9[var6];
-    var6 = var12.bind(var1)(var6);
-    var _closure1_slot13 = var6;
-    var6 = 7;
-    var6 = var9[var6];
-    var6 = var12.bind(var1)(var6);
-    var _closure1_slot14 = var6;
-    var6 = 8;
-    var6 = var9[var6];
-    var6 = var12.bind(var1)(var6);
-    var _closure1_slot15 = var6;
-    var6 = 9;
-    var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var10 = var6.AnalyticEvents;
-    var _closure1_slot16 = var10;
-    var10 = var6.CurrencyCodes;
-    var _closure1_slot17 = var10;
-    var10 = var6.Endpoints;
-    var _closure1_slot18 = var10;
-    var10 = var6.StoreKitErrors;
-    var6 = 10;
-    var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var6 = var6.PaymentGateways;
-    var _closure1_slot19 = var6;
-    var6 = 11;
-    var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var6 = var6.jsx;
-    var _closure1_slot20 = var6;
-    var6 = 'localAppleReceiptHash';
-    var _closure1_slot21 = var6;
-    var6 = 'BILLING';
-    var _closure1_slot22 = var6;
-    var6 = 12;
-    var6 = var9[var6];
-    var13 = var12.bind(var1)(var6);
-    var6 = var13.prototype;
-    var18 = Object.create(var6, {constructor: {value: var13}});
-    var17 = 'BillingActionCreators.tsx';
-    var6 = new var18[var13](var17, var16);
-    var6 = {};
-    var6['applyAppleReceipt'] = var11;
-    var11 = 18;
-    var12 = var9[var11];
-    var12 = var8.bind(var1)(var12);
-    var12 = var12.fetchMostRecentSubscription;
-    var6['fetchMostRecentSubscription'] = var12;
-    var11 = var9[var11];
-    var11 = var8.bind(var1)(var11);
-    var11 = var11.fetchIpCountryCode;
-    var6['fetchIpCountryCode'] = var11;
-    var11 = function init() {
+    var7 = var13.bind(var1)(var7);
+    var _closure1_slot7 = var7;
+    var7 = 1;
+    var7 = var10[var7];
+    var7 = var13.bind(var1)(var7);
+    var _closure1_slot8 = var7;
+    var7 = 2;
+    var7 = var10[var7];
+    var7 = var11.bind(var1)(var7);
+    var7 = 3;
+    var7 = var10[var7];
+    var7 = var13.bind(var1)(var7);
+    var _closure1_slot9 = var7;
+    var7 = 4;
+    var7 = var10[var7];
+    var7 = var13.bind(var1)(var7);
+    var _closure1_slot10 = var7;
+    var7 = 5;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var11 = var7.setPaymentSuccess;
+    var _closure1_slot11 = var11;
+    var7 = var7.showOldPaymentFlowSuccess;
+    var _closure1_slot12 = var7;
+    var7 = 6;
+    var7 = var10[var7];
+    var7 = var13.bind(var1)(var7);
+    var _closure1_slot13 = var7;
+    var7 = 7;
+    var7 = var10[var7];
+    var7 = var13.bind(var1)(var7);
+    var _closure1_slot14 = var7;
+    var7 = 8;
+    var7 = var10[var7];
+    var7 = var13.bind(var1)(var7);
+    var _closure1_slot15 = var7;
+    var7 = 9;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var11 = var7.AnalyticEvents;
+    var _closure1_slot16 = var11;
+    var11 = var7.CurrencyCodes;
+    var _closure1_slot17 = var11;
+    var11 = var7.Endpoints;
+    var _closure1_slot18 = var11;
+    var11 = var7.StoreKitErrors;
+    var7 = 10;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var7 = var7.PaymentGateways;
+    var _closure1_slot19 = var7;
+    var7 = 11;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var7 = var7.jsx;
+    var _closure1_slot20 = var7;
+    var7 = 'localAppleReceiptHash';
+    var _closure1_slot21 = var7;
+    var7 = 'BILLING';
+    var _closure1_slot22 = var7;
+    var7 = 12;
+    var7 = var10[var7];
+    var14 = var13.bind(var1)(var7);
+    var7 = var14.prototype;
+    var19 = Object.create(var7, {constructor: {value: var14}});
+    var18 = 'BillingActionCreators.tsx';
+    var7 = new var19[var14](var18, var17);
+    var7 = {};
+    var7['applyAppleReceipt'] = var12;
+    var12 = 18;
+    var13 = var10[var12];
+    var13 = var9.bind(var1)(var13);
+    var13 = var13.fetchMostRecentSubscription;
+    var7['fetchMostRecentSubscription'] = var13;
+    var12 = var10[var12];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.fetchIpCountryCode;
+    var7['fetchIpCountryCode'] = var12;
+    var12 = function init() {
         var2 = this;
         var _closure2_slot0 = var2;
         var3 = _closure1_slot8;
@@ -3223,8 +3223,8 @@ case 66:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var6['init'] = var11;
-    var11 = function connectGenericIap() {
+    var7['init'] = var12;
+    var12 = function connectGenericIap() {
         var3 = _closure1_slot8;
         var2 = undefined;
         var1 = function* () {
@@ -3305,8 +3305,8 @@ case 315:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var6['connectGenericIap'] = var11;
-    var11 = function disconnectGenericIap() {
+    var7['connectGenericIap'] = var12;
+    var12 = function disconnectGenericIap() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
         var1 = 21;
@@ -3320,8 +3320,8 @@ case 315:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var6['disconnectGenericIap'] = var11;
-    var11 = function loadProducts(arg1) {
+    var7['disconnectGenericIap'] = var12;
+    var12 = function loadProducts(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var3 = _closure1_slot8;
@@ -3494,8 +3494,8 @@ case 322:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var6['loadProducts'] = var11;
-    var11 = function createSubscription(arg1) {
+    var7['loadProducts'] = var12;
+    var12 = function createSubscription(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var3 = _closure1_slot8;
@@ -4048,8 +4048,8 @@ case 333:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var6['createSubscription'] = var11;
-    var11 = function restoreAndApplyPurchases() {
+    var7['createSubscription'] = var12;
+    var12 = function restoreAndApplyPurchases() {
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var3 = arguments[0];
@@ -4610,34 +4610,34 @@ case 388:
             return var1;
         }
     };
-    var6['restoreAndApplyPurchases'] = var11;
-    var11 = var7.Set;
-    var7 = 20;
-    var7 = var9[var7];
-    var7 = var8.bind(var1)(var7);
-    var7 = var7.ErrorCode;
-    var12 = var7.E_USER_CANCELLED;
-    var7 = new Array(2);
-    var7[0] = var12;
-    var10 = var10.PAYMENT_CANCELED;
-    var7[1] = var10;
-    var10 = var11.prototype;
-    var10 = Object.create(var10, {constructor: {value: var11}});
-    var18 = var10;
-    var17 = var7;
-    var7 = new var18[var11](var17, var16);
-    var7 = var7 instanceof Object ? var7 : var10;
-    var _closure1_slot23 = var7;
-    var7 = 46;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'actions/native/BillingActionCreators.tsx';
-    var7 = var8.bind(var9)(var7);
-    var3['default'] = var6;
-    var3['getIAPJWTRequestData'] = var5;
-    var3['updateAppleSubscription'] = var4;
-    var4 = function cancelGenericSubscription(arg1, arg2, arg3) {
+    var7['restoreAndApplyPurchases'] = var12;
+    var12 = var8.Set;
+    var8 = 20;
+    var8 = var10[var8];
+    var8 = var9.bind(var1)(var8);
+    var8 = var8.ErrorCode;
+    var13 = var8.E_USER_CANCELLED;
+    var8 = new Array(2);
+    var8[0] = var13;
+    var11 = var11.PAYMENT_CANCELED;
+    var8[1] = var11;
+    var11 = var12.prototype;
+    var11 = Object.create(var11, {constructor: {value: var12}});
+    var19 = var11;
+    var18 = var8;
+    var8 = new var19[var12](var18, var17);
+    var8 = var8 instanceof Object ? var8 : var11;
+    var _closure1_slot23 = var8;
+    var8 = 46;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'actions/native/BillingActionCreators.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['default'] = var7;
+    var3['getIAPJWTRequestData'] = var6;
+    var3['updateAppleSubscription'] = var5;
+    var5 = function cancelGenericSubscription(arg1, arg2, arg3) {
         var1 = undefined;
         var4 = _closure1_slot37;
         var3 = var4.apply;
@@ -4647,7 +4647,8 @@ case 388:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['cancelGenericSubscription'] = var4;
+    var3['cancelGenericSubscription'] = var5;
+    var3['isValidCurrency'] = var4;
     var4 = function createGenericSubscription(arg1, arg2) {
         var1 = undefined;
         var4 = _closure1_slot39;

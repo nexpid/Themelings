@@ -1289,8 +1289,27 @@ case 50:
         }
     };
     var2['CHANNEL_UPDATES'] = var7;
-    var7 = function handleChannelDelete(arg1) {
+    var7 = function handleThreadUpdate(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.channel;
+            var4 = _closure1_slot18;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0015_ip = 40; continue _fun0015 }
+case 46:
+            var4 = _closure1_slot36;
+            var3 = var2.id;
+            var2 = undefined;
+            var1 = var4.bind(var2)(var3);
+case 40:
+            return var1;
+        }
+    };
+    var2['THREAD_UPDATE'] = var7;
+    var7 = function handleChannelDelete(arg1) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.channel;
@@ -1298,12 +1317,12 @@ case 0:
             var2 = _closure1_slot18;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0015_ip = 132; continue _fun0015 }
+            if(!var1) { _fun0016_ip = 132; continue _fun0016 }
 case 133:
             var2 = _closure1_slot18;
             var2 = var2.id;
             var2 = var2 === var3;
-            if(!var2) { _fun0015_ip = 11; continue _fun0015 }
+            if(!var2) { _fun0016_ip = 11; continue _fun0016 }
 case 134:
             var3 = _closure1_slot14;
             var3 = var3.CLOSED;

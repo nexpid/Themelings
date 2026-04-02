@@ -428,8 +428,8 @@ case 0:
 case 42:
                 var3 = var4.Segmenter;
 case 3:
-                if(!(var8 !== var3)) { _fun0009_ip = 55; continue _fun0009 }
-case 56:
+                if(!(var8 !== var3)) { _fun0009_ip = 38; continue _fun0009 }
+case 55:
                 var3 = _closure1_slot4;
                 var2 = var2.Intl;
                 var2 = var2.Segmenter;
@@ -447,18 +447,18 @@ case 56:
                 var5 = var4;
                 var4 = 0;
                 var2 = 0;
-                if(var3) { _fun0009_ip = 38; continue _fun0009 }
-case 57:
+                if(var3) { _fun0009_ip = 56; continue _fun0009 }
+case 52:
                 var3 = var5.value;
                 var4 = var4 + var6;
                 var10 = var7.bind(var8)();
                 var3 = var10.done;
                 var5 = var10;
                 var2 = var4;
-                if(!var3) { _fun0009_ip = 57; continue _fun0009 }
-case 38:
+                if(!var3) { _fun0009_ip = 52; continue _fun0009 }
+case 56:
                 return var2;
-case 55:
+case 38:
                 var1 = var1.length;
                 return var1;
             }

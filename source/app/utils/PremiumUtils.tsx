@@ -6649,22 +6649,6 @@ case 537:
         return var1;
     };
     var70['canUseCollectibles'] = var73;
-    var73 = function canUsePremiumVoiceFilters(arg1) {
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 28;
-        var3 = var6[var1];
-        var2 = undefined;
-        var4 = var5.bind(var2)(var3);
-        var3 = var4.canUserUse;
-        var1 = var6[var1];
-        var1 = var5.bind(var2)(var1);
-        var2 = var1.PREMIUM_VOICE_FILTERS;
-        var1 = arg1;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var70['canUsePremiumVoiceFilters'] = var73;
     var73 = function canUseMonthlyOrbs(arg1) {
         _fun0068: for(var _fun0068_ip = 0; ; ) switch(_fun0068_ip) {
 case 0:

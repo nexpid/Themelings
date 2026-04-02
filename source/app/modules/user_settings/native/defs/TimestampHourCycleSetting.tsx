@@ -4,9 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var7 = var1.Object;
     var4 = var7.defineProperty;
@@ -20,20 +18,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
-    var _closure1_slot3 = var2;
+    var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var9 = var2.MobileSetting;
-    var2 = 6;
+    var2 = 5;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRadio;
     var2 = {};
     var10 = function title() {
         var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 4;
+        var6 = _closure1_slot1;
+        var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -57,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var9;
     var9 = function onTimestampHourCycleChange(arg1) {
         var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot1;
         var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
@@ -72,14 +70,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['onValueChange'] = var9;
-    var9 = function useDMsMessagePreviewsOptions() {
-        var4 = _closure1_slot3;
+    var8 = function useDMsMessagePreviewsOptions() {
+        var4 = _closure1_slot2;
         var3 = var4.useMemo;
         var2 = function() {
             var2 = {};
             var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var7 = 4;
+            var6 = _closure1_slot1;
+            var7 = 3;
             var1 = var6[var7];
             var4 = undefined;
             var1 = var5.bind(var4)(var1);
@@ -91,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.FMWYvb;
             var1 = var3.bind(var8)(var1);
             var2['label'] = var1;
-            var3 = 5;
+            var3 = 4;
             var1 = var6[var3];
             var1 = var5.bind(var4)(var1);
             var1 = var1.TimestampHourCycle;
@@ -139,25 +137,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['useOptions'] = var9;
-    var8 = function useExperiment() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.useExperiment;
-        var2 = {};
-        var1 = 'TimestampHourCycleSetting';
-        var2['location'] = var1;
-        var1 = {};
-        var5 = true;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        var1 = var1.enable24HourPref;
-        return var1;
-    };
+    var2['useOptions'] = var8;
+    var8 = 6;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.supportsSystemDateFormatter;
     var2['usePredicate'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 7;

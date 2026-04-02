@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
     var11 = var5.MobileSetting;
-    var5 = 5;
+    var5 = 4;
     var5 = var8[var5];
     var9 = var7.bind(var1)(var5);
     var6 = var9.createToggle;
@@ -63,14 +63,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = function title() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var2 = 6;
+        var2 = 5;
         var2 = var6[var2];
         var5 = undefined;
         var2 = var3.bind(var5)(var2);
         var3 = var2.intl;
         var2 = var3.string;
         var4 = _closure1_slot1;
-        var1 = 7;
+        var1 = 6;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
         var1 = var1["2gFUEw"];
@@ -83,22 +83,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['useValue'] = var4;
     var5['onValueChange'] = var2;
     var10 = function usePredicate() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 4;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.useIsDisplayNameStylesMobileEnabled;
-        var1 = {};
-        var4 = 'DisplayNameStylesSetting';
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
+        var1 = true;
         return var1;
     };
     var5['usePredicate'] = var10;
     var5 = var6.bind(var9)(var5);
-    var6 = 8;
+    var6 = 7;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

@@ -106,16 +106,24 @@ case 17:
             var4 = var5.store_removal_date;
 case 16:
             var3['storeRemovalDate'] = var4;
+            var5 = var2.powerup_metadata;
+            var7 = var16 == var5;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var4 = var5.deactivation_cooldown_period_days;
+case 18:
+            var3['deactivationCooldownPeriodDays'] = var4;
             var5 = _closure1_slot2;
             var5 = var5.LEVEL;
-            if(!(var5 !== var6)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(!(var5 !== var6)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var5 = _closure1_slot2;
             var5 = var5.PERK;
-            if(!(var5 !== var6)) { _fun0001_ip = 20; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 22; continue _fun0001 }
 case 4:
             return var1;
-case 20:
+case 22:
             var5 = {};
             var6 = _closure1_slot2;
             var6 = var6.PERK;
@@ -123,26 +131,26 @@ case 20:
             var7 = var2.description;
             var8 = var16 != var7;
             var6 = '';
-            if(!var8) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+            if(!var8) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var6 = var7;
-case 21:
+case 23:
             var5['description'] = var6;
             var25 = var5;
             var24 = var3;
             var6 = copyDataProperties(var25, var24);
             return var5;
-case 18:
+case 20:
             var5 = var2.sku;
             var6 = var5.powerup_metadata;
             var7 = var16 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
-            var5 = var6.guild_features;
-case 23:
-            if(!(var16 != var5)) { _fun0001_ip = 25; continue _fun0001 }
+            if(var7) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
+            var5 = var6.guild_features;
+case 25:
+            if(!(var16 != var5)) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var7 = _closure1_slot3;
             var6 = var5.additional_emoji_slots;
             var14 = var7 + var6;
@@ -162,8 +170,8 @@ case 26:
             var8 = var14;
             var7 = var13;
             var6 = var12;
-            if(!var2) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+            if(!var2) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var19 = var17.find;
             var2 = function(arg1) {
                 var2 = _closure2_slot0;
@@ -176,107 +184,107 @@ case 28:
             var22 = var19.bind(var17)(var2);
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+            if(var2) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var2 = var22.sku;
             var20 = var16 == var2;
             var11 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 29; continue _fun0001 }
-case 31:
+            if(var20) { _fun0001_ip = 31; continue _fun0001 }
+case 33:
             var2 = var2.powerup_metadata;
             var20 = var16 == var2;
             var11 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 29; continue _fun0001 }
-case 32:
+            if(var20) { _fun0001_ip = 31; continue _fun0001 }
+case 34:
             var20 = var2.guild_features;
             var2 = var16 == var20;
             var11 = var20;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 29; continue _fun0001 }
-case 33:
+            if(var2) { _fun0001_ip = 31; continue _fun0001 }
+case 35:
             var19 = var20.additional_emoji_slots;
             var11 = var20;
-case 29:
+case 31:
             var20 = var16 != var19;
             var2 = 0;
-            if(!var20) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(!var20) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var2 = var19;
-case 34:
+case 36:
             var21 = var14 + var2;
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+            if(var2) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var2 = var22.sku;
             var20 = var16 == var2;
             var10 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 36; continue _fun0001 }
-case 38:
+            if(var20) { _fun0001_ip = 38; continue _fun0001 }
+case 40:
             var2 = var2.powerup_metadata;
             var20 = var16 == var2;
             var10 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 36; continue _fun0001 }
-case 39:
+            if(var20) { _fun0001_ip = 38; continue _fun0001 }
+case 41:
             var20 = var2.guild_features;
             var2 = var16 == var20;
             var10 = var20;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 36; continue _fun0001 }
-case 40:
+            if(var2) { _fun0001_ip = 38; continue _fun0001 }
+case 42:
             var19 = var20.additional_sound_slots;
             var10 = var20;
-case 36:
+case 38:
             var20 = var16 != var19;
             var2 = 0;
-            if(!var20) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+            if(!var20) { _fun0001_ip = 43; continue _fun0001 }
+case 44:
             var2 = var19;
-case 41:
+case 43:
             var20 = var13 + var2;
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
+            if(var2) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
             var2 = var22.sku;
             var23 = var16 == var2;
             var9 = var2;
             var19 = undefined;
-            if(var23) { _fun0001_ip = 43; continue _fun0001 }
-case 45:
+            if(var23) { _fun0001_ip = 45; continue _fun0001 }
+case 47:
             var2 = var2.powerup_metadata;
             var23 = var16 == var2;
             var9 = var2;
             var19 = undefined;
-            if(var23) { _fun0001_ip = 43; continue _fun0001 }
-case 46:
+            if(var23) { _fun0001_ip = 45; continue _fun0001 }
+case 48:
             var23 = var2.guild_features;
             var2 = var16 == var23;
             var9 = var23;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 43; continue _fun0001 }
-case 47:
+            if(var2) { _fun0001_ip = 45; continue _fun0001 }
+case 49:
             var19 = var23.additional_sticker_slots;
             var9 = var23;
-case 43:
+case 45:
             var23 = var16 != var19;
             var2 = 0;
-            if(!var23) { _fun0001_ip = 48; continue _fun0001 }
-case 49:
+            if(!var23) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
             var2 = var19;
-case 48:
+case 50:
             var19 = var12 + var2;
             var23 = var16 == var22;
             var2 = undefined;
-            if(var23) { _fun0001_ip = 50; continue _fun0001 }
-case 51:
+            if(var23) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
             var22 = var22.sku;
             var2 = var22.dependent_sku_id;
-case 50:
+case 52:
             _closure2_slot0 = var2;
             var14 = var21;
             var13 = var20;
@@ -284,8 +292,8 @@ case 50:
             var8 = var14;
             var7 = var13;
             var6 = var12;
-            if(var16 != var2) { _fun0001_ip = 28; continue _fun0001 }
-case 27:
+            if(var16 != var2) { _fun0001_ip = 30; continue _fun0001 }
+case 29:
             var2 = {};
             var4 = _closure1_slot2;
             var4 = var4.LEVEL;
@@ -305,7 +313,7 @@ case 27:
             var24 = var3;
             var3 = copyDataProperties(var25, var24);
             return var2;
-case 25:
+case 27:
             return var1;
         }
     };

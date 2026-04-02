@@ -26,9 +26,8 @@ case 3:
                     var5 = var2.HTTP;
                     var4 = var5.get;
                     var2 = _closure1_slot4;
-                    var2 = var2.GAMES_DETECTABLE;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=61);
+                    SaveGenerator(address=55);
 case 4:
                     return var2;
 case 5:
@@ -80,7 +79,7 @@ case 2:
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.Endpoints;
+    var4 = var4.DETECTABLE_GAMES_CDN_URL;
     var _closure1_slot4 = var4;
     var4 = 4;
     var4 = var6[var4];

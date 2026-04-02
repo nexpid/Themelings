@@ -1130,7 +1130,7 @@ case 46:
             }
         };
         var5['get'] = var1;
-        var1 = new Array(54);
+        var1 = new Array(55);
         var1[0] = var5;
         var5 = {};
         var7 = 'topic';
@@ -2084,6 +2084,19 @@ case 51:
         var5['value'] = var7;
         var1[50] = var5;
         var5 = {};
+        var7 = 'isSpoilerChannel';
+        var5['key'] = var7;
+        var7 = function value() {
+            var3 = this;
+            var2 = var3.hasFlag;
+            var1 = _closure1_slot15;
+            var1 = var1.IS_SPOILER_CHANNEL;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[51] = var5;
+        var5 = {};
         var7 = 'accessPermissions';
         var5['key'] = var7;
         var7 = function get() {
@@ -2095,7 +2108,7 @@ case 51:
             return var1;
         };
         var5['get'] = var7;
-        var1[51] = var5;
+        var1[52] = var5;
         var5 = {};
         var7 = 'hasFlag';
         var5['key'] = var7;
@@ -2114,7 +2127,7 @@ case 51:
             return var1;
         };
         var5['value'] = var7;
-        var1[52] = var5;
+        var1[53] = var5;
         var5 = {};
         var7 = 'isHDStreamSplashed';
         var5['key'] = var7;
@@ -2147,7 +2160,7 @@ case 42:
             }
         };
         var5['get'] = var6;
-        var1[53] = var5;
+        var1[54] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

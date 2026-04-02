@@ -338,7 +338,7 @@ case 16:
     var4 = var5.bind(var1)(var4);
     var4 = var4.PremiumTypes;
     var _closure1_slot8 = var4;
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -347,82 +347,100 @@ case 16:
     var4 = function useOutboundPromotions() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var10 = _closure1_slot2;
             var2 = 6;
-            var3 = var14[var2];
+            var5 = var10[var2];
             var12 = undefined;
-            var7 = var13.bind(var12)(var3);
-            var6 = var7.useStateFromStores;
-            var3 = _closure1_slot7;
-            var5 = new Array(1);
-            var5[0] = var3;
-            var3 = function() {
+            var8 = var3.bind(var12)(var5);
+            var7 = var8.useStateFromStores;
+            var5 = _closure1_slot7;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
                 var1 = _closure1_slot7;
                 var1 = var1.lastFetchedActivePromotions;
                 return var1;
             };
-            var11 = var6.bind(var7)(var5, var3);
+            var11 = var7.bind(var8)(var6, var5);
             var _closure2_slot0 = var11;
-            var3 = var14[var2];
-            var7 = var13.bind(var12)(var3);
-            var6 = var7.useStateFromStores;
-            var3 = _closure1_slot5;
-            var5 = new Array(1);
-            var5[0] = var3;
-            var3 = function() {
+            var5 = var10[var2];
+            var8 = var3.bind(var12)(var5);
+            var7 = var8.useStateFromStores;
+            var5 = _closure1_slot5;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
                 var2 = _closure1_slot5;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var17 = var6.bind(var7)(var5, var3);
-            var3 = 8;
-            var3 = var14[var3];
-            var5 = var13.bind(var12)(var3);
-            var3 = var5.useHasActiveTrial;
-            var6 = var3.bind(var5)();
-            var2 = var14[var2];
-            var7 = var13.bind(var12)(var2);
-            var5 = var7.useStateFromStores;
+            var8 = var7.bind(var8)(var6, var5);
+            var5 = 8;
+            var5 = var10[var5];
+            var6 = var3.bind(var12)(var5);
+            var5 = var6.useHasActiveTrial;
+            var6 = var5.bind(var6)();
+            var2 = var10[var2];
+            var9 = var3.bind(var12)(var2);
+            var7 = var9.useStateFromStores;
             var2 = _closure1_slot6;
-            var3 = new Array(1);
-            var3[0] = var2;
+            var5 = new Array(1);
+            var5[0] = var2;
             var2 = function() {
                 var2 = _closure1_slot6;
                 var1 = var2.hasAnyUnexpiredOffer;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var5 = var5.bind(var7)(var3, var2);
+            var5 = var7.bind(var9)(var5, var2);
             var2 = 9;
-            var2 = var14[var2];
-            var3 = var13.bind(var12)(var2);
+            var2 = var10[var2];
+            var3 = var3.bind(var12)(var2);
             var2 = var3.useIsInReverseTrial;
             var9 = var2.bind(var3)();
             var _closure2_slot1 = var9;
-            var3 = _closure1_slot4;
-            var2 = var3.useState;
-            var16 = false;
-            var2 = var2.bind(var3)(var16);
-            var15 = _closure1_slot3;
-            var10 = 2;
-            var2 = var15.bind(var12)(var2, var10);
-            var8 = 0;
-            var7 = var2[var8];
+            var7 = _closure1_slot1;
+            var3 = 10;
+            var2 = var10[var3];
+            var14 = var7.bind(var12)(var2);
+            var13 = var14.isPremiumExactly;
+            var2 = _closure1_slot8;
+            var2 = var2.TIER_2;
+            var2 = var13.bind(var14)(var8, var2);
+            var3 = var10[var3];
+            var7 = var7.bind(var12)(var3);
+            var3 = var7.isPremium;
+            var3 = var3.bind(var7)(var8);
+            var8 = !var3;
+            if(var8) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
+            var8 = var2;
+case 46:
+            var _closure2_slot2 = var8;
+            var7 = _closure1_slot4;
+            var3 = var7.useState;
+            var2 = false;
+            var2 = var3.bind(var7)(var2);
+            var14 = _closure1_slot3;
+            var13 = 2;
+            var2 = var14.bind(var12)(var2, var13);
+            var10 = 0;
+            var7 = var2[var10];
             var3 = 1;
             var2 = var2[var3];
-            var _closure2_slot2 = var2;
-            var19 = _closure1_slot4;
-            var18 = var19.useState;
-            var2 = new Array(0);
-            var2 = var18.bind(var19)(var2);
-            var2 = var15.bind(var12)(var2, var10);
-            var10 = var2[var8];
-            var2 = var2[var3];
             var _closure2_slot3 = var2;
-            var15 = _closure1_slot4;
-            var8 = var15.useEffect;
+            var16 = _closure1_slot4;
+            var15 = var16.useState;
+            var2 = new Array(0);
+            var2 = var15.bind(var16)(var2);
+            var2 = var14.bind(var12)(var2, var13);
+            var10 = var2[var10];
+            var2 = var2[var3];
+            var _closure2_slot4 = var2;
+            var14 = _closure1_slot4;
+            var13 = var14.useEffect;
             var3 = new Array(2);
             var3[0] = var11;
             var3[1] = var9;
@@ -433,14 +451,14 @@ case 0:
                     var1 = null;
                     var1 = var1 != var3;
                     if(var1) { _fun0006_ip = 29; continue _fun0006 }
-case 46:
+case 48:
                     var1 = _closure2_slot1;
 case 29:
-                    if(!var1) { _fun0006_ip = 47; continue _fun0006 }
+                    if(!var1) { _fun0006_ip = 49; continue _fun0006 }
 case 31:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 11;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -448,7 +466,7 @@ case 31:
                     var1 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 12;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
@@ -457,18 +475,18 @@ case 31:
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
-case 47:
+case 49:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var2 = var8.bind(var15)(var2, var3);
-            var15 = _closure1_slot4;
-            var8 = var15.useCallback;
+            var2 = var13.bind(var14)(var2, var3);
+            var14 = _closure1_slot4;
+            var13 = var14.useCallback;
             var3 = function(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot4;
                 var1 = undefined;
                 var2 = function(arg1) {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -487,8 +505,8 @@ case 0:
                         };
                         var2 = var2.bind(var4)(var1);
                         var1 = var4;
-                        if(var2) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+                        if(var2) { _fun0007_ip = 50; continue _fun0007 }
+case 51:
                         var2 = new Array(1);
                         var5 = 0;
                         var7 = var2;
@@ -499,7 +517,7 @@ case 49:
                         var3 = 1;
                         var3 = var4 + var3;
                         var1 = var2;
-case 48:
+case 50:
                         return var1;
                     }
                 };
@@ -507,33 +525,7 @@ case 48:
                 return var1;
             };
             var2 = new Array(0);
-            var2 = var8.bind(var15)(var3, var2);
-            var8 = _closure1_slot1;
-            var3 = 12;
-            var3 = var14[var3];
-            var15 = var8.bind(var12)(var3);
-            var8 = var15.isPremiumExactly;
-            var3 = _closure1_slot8;
-            var3 = var3.TIER_2;
-            var3 = var8.bind(var15)(var17, var3);
-            var8 = 13;
-            var8 = var14[var8];
-            var8 = var13.bind(var12)(var8);
-            var15 = var8.OutboundPromoDesktopUpsellExperiment;
-            var14 = var15.useExperiment;
-            var13 = {};
-            var8 = 'useOutboundPromotions';
-            var13['location'] = var8;
-            var8 = {};
-            var8['autoTrackExposure'] = var16;
-            var8['disable'] = var3;
-            var8 = var14.bind(var15)(var13, var8);
-            var8 = var8.enabled;
-            if(var8) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
-            var8 = var3;
-case 50:
-            var _closure2_slot4 = var8;
+            var2 = var13.bind(var14)(var3, var2);
             var15 = _closure1_slot4;
             var14 = var15.useEffect;
             var13 = new Array(3);
@@ -543,7 +535,7 @@ case 50:
             var3 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -551,23 +543,23 @@ case 50:
                 var2 = function() {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                        var1 = _closure2_slot4;
+                        var1 = _closure2_slot2;
                         if(!var1) { _fun0008_ip = 3; continue _fun0008 }
 case 52:
                         var4 = _closure2_slot0;
                         var2 = null;
                         var2 = var2 == var4;
-                        if(var2) { _fun0008_ip = 49; continue _fun0008 }
+                        if(var2) { _fun0008_ip = 51; continue _fun0008 }
 case 31:
                         var2 = _closure2_slot1;
-case 49:
+case 51:
                         var1 = var2;
 case 3:
                         if(!var1) { _fun0008_ip = 53; continue _fun0008 }
 case 33:
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 12;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
@@ -587,7 +579,7 @@ case 53:
             var13 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -603,11 +595,11 @@ case 53:
                     var5 = var3.bind(var4)();
                     var4 = var5.then;
                     var3 = function(arg1) {
-                        var4 = _closure2_slot3;
+                        var4 = _closure2_slot4;
                         var1 = undefined;
                         var3 = arg1;
                         var3 = var4.bind(var1)(var3);
-                        var3 = _closure2_slot2;
+                        var3 = _closure2_slot3;
                         var2 = true;
                         var2 = var3.bind(var1)(var2);
                         return var1;
@@ -615,11 +607,11 @@ case 53:
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.catch;
                     var2 = function() {
-                        var4 = _closure2_slot3;
+                        var4 = _closure2_slot4;
                         var1 = undefined;
                         var3 = new Array(0);
                         var3 = var4.bind(var1)(var3);
-                        var3 = _closure2_slot2;
+                        var3 = _closure2_slot3;
                         var2 = true;
                         var2 = var3.bind(var1)(var2);
                         return var1;
@@ -650,12 +642,12 @@ case 55:
             if(!var13) { _fun0005_ip = 55; continue _fun0005 }
 case 54:
             var1 = _closure1_slot11;
-            var24 = undefined;
-            var23 = var6;
-            var22 = var5;
-            var21 = var9;
-            var20 = var3;
-            var5 = var24[var1](var23, var22, var21, var20, var19);
+            var21 = undefined;
+            var20 = var6;
+            var19 = var5;
+            var18 = var9;
+            var17 = var3;
+            var5 = var21[var1](var20, var19, var18, var17, var16);
             var1 = global;
             var12 = var1.Set;
             var6 = var5.map;
@@ -664,11 +656,11 @@ case 54:
                 var1 = var1.id;
                 return var1;
             };
-            var23 = var6.bind(var5)(var1);
+            var20 = var6.bind(var5)(var1);
             var6 = var12.prototype;
             var6 = Object.create(var6, {constructor: {value: var12}});
-            var24 = var6;
-            var1 = new var24[var12](var23, var22);
+            var21 = var6;
+            var1 = new var21[var12](var20, var19);
             var1 = var1 instanceof Object ? var1 : var6;
             var _closure2_slot5 = var1;
             var6 = var10.filter;
@@ -676,49 +668,61 @@ case 54:
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var1 = arg1;
-                    var5 = var1.promotion;
+                    var4 = var1.promotion;
                     var3 = _closure2_slot5;
                     var2 = var3.has;
-                    var1 = var5.id;
+                    var1 = var4.id;
                     var1 = var2.bind(var3)(var1);
                     var1 = !var1;
                     if(!var1) { _fun0009_ip = 56; continue _fun0009 }
 case 57:
-                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 7;
                     var3 = var3[var2];
                     var2 = undefined;
-                    var4 = var4.bind(var2)(var3);
-                    var3 = var4.isRecurringPromotion;
+                    var5 = var5.bind(var2)(var3);
+                    var3 = var5.isRecurringPromotion;
                     var2 = {};
-                    var6 = var5.outboundTitle;
+                    var6 = var4.outboundTitle;
                     var2['promotionPartner'] = var6;
-                    var5 = var5.promotionType;
-                    var2['promotionType'] = var5;
-                    var3 = var3.bind(var4)(var2);
+                    var6 = var4.promotionType;
+                    var2['promotionType'] = var6;
+                    var3 = var3.bind(var5)(var2);
                     var2 = false;
                     var1 = var2 === var3;
 case 56:
+                    if(!var1) { _fun0009_ip = 58; continue _fun0009 }
+case 59:
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 7;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var3 = var5.bind(var2)(var3);
+                    var2 = var3.isLogitechPromotion;
+                    var2 = var2.bind(var3)(var4);
+                    var1 = !var2;
+case 58:
                     return var1;
                 }
             };
             var6 = var6.bind(var10)(var1);
             var1 = {};
-            if(!var7) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
-            var8 = !var8;
-            if(var8) { _fun0005_ip = 60; continue _fun0005 }
+            if(!var7) { _fun0005_ip = 60; continue _fun0005 }
 case 61:
-            var10 = null;
-            var8 = var10 != var11;
-case 60:
+            var8 = !var8;
             if(var8) { _fun0005_ip = 62; continue _fun0005 }
 case 63:
-            var8 = var9;
+            var10 = null;
+            var8 = var10 != var11;
 case 62:
+            if(var8) { _fun0005_ip = 64; continue _fun0005 }
+case 65:
+            var8 = var9;
+case 64:
             var7 = var8;
-case 58:
+case 60:
             var1['promotionsLoaded'] = var7;
             var1['activeOutboundPromotions'] = var5;
             var5 = var6.filter;
@@ -800,8 +804,8 @@ case 58:
 case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0010_ip = 64; continue _fun0010 }
-case 65:
+                if(!(var1 != var3)) { _fun0010_ip = 66; continue _fun0010 }
+case 67:
                 var4 = _closure2_slot1;
                 var3 = var4.filter;
                 var1 = function(arg1) {
@@ -825,10 +829,10 @@ case 65:
                     return var1;
                 };
                 var1 = var3.bind(var4)(var1);
-                _fun0010_ip = 66; continue _fun0010;
-case 64:
-                var1 = _closure2_slot1;
+                _fun0010_ip = 68; continue _fun0010;
 case 66:
+                var1 = _closure2_slot1;
+case 68:
                 return var1;
             }
         };

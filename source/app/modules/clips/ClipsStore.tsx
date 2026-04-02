@@ -503,7 +503,7 @@ case 14:
     var8['maxAutoClips'] = var2;
     var2 = {'enableDistributedSignals': true, 'enablePhraseSignals': true, 'enableGameSignals': true};
     var8['clipSignals'] = var2;
-    var2 = {'emotionClassifier': true, 'wakeWordDetector': false, 'yellDetector': true, 'whisperTranscription': true};
+    var2 = {'emotionClassifier': true, 'wakeWordDetector': false, 'yellDetector': true, 'whisperTranscription': true, 'laughterDetector': true};
     var8['mlPipelinesEnabled'] = var2;
     var2 = ['clip that', 'clip it', 'clip clip'];
     var8['autoClipPhrases'] = var2;

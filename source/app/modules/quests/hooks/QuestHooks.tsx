@@ -1856,19 +1856,6 @@ case 0:
                 var2 = var8[var5];
                 var2 = var7.bind(var6)(var2);
                 var2 = var2.FirstPartyQuestTaskTypes;
-                var2 = var2.PLAY_ON_DESKTOP_V2;
-                var3['taskType'] = var2;
-                var2 = function() {
-                    var1 = _closure1_slot12;
-                    var1 = var1.DESKTOP;
-                    return var1;
-                };
-                var9 = var4.bind(var9)(var3, var2);
-                var4 = var9.with;
-                var3 = {};
-                var2 = var8[var5];
-                var2 = var7.bind(var6)(var2);
-                var2 = var2.FirstPartyQuestTaskTypes;
                 var2 = var2.PLAY_ACTIVITY;
                 var3['taskType'] = var2;
                 var2 = function() {

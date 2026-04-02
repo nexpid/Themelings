@@ -42,6 +42,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ClipsInitFailure'] = var1;
     var1 = 'clips-recording-ended';
     var2['ClipsRecordingEnded'] = var1;
+    var1 = 'clips-ml-detection';
+    var2['ClipsMlDetection'] = var1;
     var1 = 'native-screenshare-picker-updated';
     var2['NativeScreenSharePickerUpdate'] = var1;
     var1 = 'native-screenshare-picker-cancelled';
@@ -50,8 +52,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NativeScreenSharePickerError'] = var1;
     var1 = 'audio-device-module-error';
     var2['AudioDeviceModuleError'] = var1;
-    var1 = 'voice-filters-failed';
-    var2['VoiceFiltersFailed'] = var1;
     var1 = 'video-codec-error';
     var2['VideoCodecError'] = var1;
     var1 = 'voice-queue-metrics';

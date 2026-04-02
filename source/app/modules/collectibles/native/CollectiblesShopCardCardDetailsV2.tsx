@@ -613,7 +613,7 @@ case 0:
             var1 = 23;
             var1 = var10[var1];
             var3 = var7.bind(var4)(var1);
-            var1 = var3.getBaseProductName;
+            var1 = var3.getProductName;
             var9 = var1.bind(var3)(var14);
             var1 = 24;
             var1 = var10[var1];

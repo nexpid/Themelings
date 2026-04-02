@@ -119,42 +119,14 @@ case 7:
             var6 = undefined;
             if(var8) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var6 = var7.duration_speaking_voice_filter_ids;
-case 9:
-            var9 = var5 != var6;
-            var8 = null;
-            if(!var9) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-            var8 = var6;
-case 11:
-            var6 = 'duration_speaking_voice_filter_ids';
-            var2[5] = var8;
-            var8 = var5 == var7;
-            var6 = undefined;
-            if(var8) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-            var6 = var7.duration_speaking_voice_filter_ms;
-case 13:
-            var9 = var5 != var6;
-            var8 = null;
-            if(!var9) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-            var8 = var6;
-case 15:
-            var6 = 'duration_speaking_voice_filter_ms';
-            var2[5] = var8;
-            var8 = var5 == var7;
-            var6 = undefined;
-            if(var8) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
             var6 = var7.duration_muted_ms;
-case 17:
+case 9:
             var8 = var5 != var6;
             var7 = null;
-            if(!var8) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(!var8) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var7 = var6;
-case 19:
+case 11:
             var6 = 'duration_muted_ms';
             var2[5] = var7;
             var7 = _closure1_slot9;
@@ -165,8 +137,8 @@ case 19:
             var4 = var4.bind(var3)();
             var4 = _closure1_slot3;
             var4 = var4.hasUsedBackgroundInCall;
-            if(var4) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+            if(var4) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 10;
@@ -179,7 +151,7 @@ case 22:
             var4['analyticsData'] = var2;
             var4 = var6.bind(var7)(var4);
             _fun0001_ip = 6; continue _fun0001;
-case 21:
+case 13:
             var4 = {};
             var14 = var4;
             var13 = var2;
@@ -203,10 +175,10 @@ case 21:
             var6 = var7[var6];
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
+            if(var7) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var5 = var6.name;
-case 23:
+case 15:
             var2['video_device_name'] = var5;
             var6 = _closure1_slot5;
             var5 = var6.getHardwareEncoding;

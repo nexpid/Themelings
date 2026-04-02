@@ -1488,7 +1488,7 @@ case 95:
         var7 = 47;
         var7 = var16[var7];
         var17 = var6.bind(var4)(var7);
-        var7 = var17.useIsChannelContentGated;
+        var7 = var17.useShouldHideChannelContent;
         var7 = var7.bind(var17)(var9);
         var7 = !var7;
         var3 = var16[var3];

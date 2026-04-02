@@ -186,8 +186,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15['NOISE_SUPPRESSION'] = var1;
     var1 = 'NOISE_CANCELLATION';
     var15['NOISE_CANCELLATION'] = var1;
-    var1 = 'VOICE_FILTERS';
-    var15['VOICE_FILTERS'] = var1;
     var1 = 'AUTOMATIC_GAIN_CONTROL';
     var15['AUTOMATIC_GAIN_CONTROL'] = var1;
     var1 = 'CLIPS';
@@ -405,8 +403,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SIDECHAIN_COMPRESSION_MIN_RATIO'] = var25;
     var25 = 0.8;
     var3['SIDECHAIN_COMPRESSION_MAX_RATIO'] = var25;
-    var25 = 0.4;
-    var3['LOOPBACK_PLAYBACK_GAIN_MULTIPLIER'] = var25;
     var3['DEFAULT_CALL_BITRATE'] = var24;
     var24 = 16000;
     var3['DEFAULT_CALL_MIN_BITRATE'] = var24;

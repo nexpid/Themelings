@@ -70,8 +70,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APP_DIRECTORY_SETTINGS_NEW_PILL'] = var1;
     var1 = 'INVITE_SPLASH_GUILD_HEADER_TOOLTIP';
     var2['INVITE_SPLASH_GUILD_HEADER_TOOLTIP'] = var1;
-    var1 = 'VOICE_FILTER_FEEDBACK';
-    var2['VOICE_FILTER_FEEDBACK'] = var1;
     var1 = 'ANIMATED_VIDEO_BG_CAPERNITE_DAY_NEW';
     var2['ANIMATED_VIDEO_BG_CAPERNITE_DAY_NEW'] = var1;
     var1 = 'ANIMATED_VIDEO_BG_CAPERNITE_NIGHT_NEW';

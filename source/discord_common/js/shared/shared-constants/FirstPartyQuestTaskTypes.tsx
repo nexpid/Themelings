@@ -18,8 +18,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PLAY_ON_XBOX'] = var2;
     var2 = 'PLAY_ON_PLAYSTATION';
     var4['PLAY_ON_PLAYSTATION'] = var2;
-    var2 = 'PLAY_ON_DESKTOP_V2';
-    var4['PLAY_ON_DESKTOP_V2'] = var2;
     var2 = 'WATCH_VIDEO';
     var4['WATCH_VIDEO'] = var2;
     var2 = 'WATCH_VIDEO_ON_MOBILE';
@@ -34,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var10 = ['PLAY_ACTIVITY', 'PLAY_ON_DESKTOP', 'PLAY_ON_DESKTOP_V2', 'PLAY_ON_PLAYSTATION', 'PLAY_ON_XBOX', 'STREAM_ON_DESKTOP', 'WATCH_VIDEO', 'WATCH_VIDEO_ON_MOBILE'];
+    var10 = ['PLAY_ACTIVITY', 'PLAY_ON_DESKTOP', 'PLAY_ON_PLAYSTATION', 'PLAY_ON_XBOX', 'STREAM_ON_DESKTOP', 'WATCH_VIDEO', 'WATCH_VIDEO_ON_MOBILE'];
     var11 = var6;
     var5 = new var11[var7](var10, var9);
     var5 = var5 instanceof Object ? var5 : var6;

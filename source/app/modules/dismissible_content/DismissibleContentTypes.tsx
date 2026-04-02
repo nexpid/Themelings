@@ -248,7 +248,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.THIRD_PARTY_OUTBOUND_PROMO_NAGBAR;
-    var17 = new Array(12);
+    var17 = new Array(13);
     var17[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -305,6 +305,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.ML_REVERSE_TRIAL_FOLLOWUP_UPSELL_MODAL;
     var17[11] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.PREMIUM_MARKETING_MOMENT_NAGBAR_UPSELL;
+    var17[12] = var14;
     var _closure1_slot2 = var17;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

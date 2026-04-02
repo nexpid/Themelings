@@ -489,22 +489,6 @@ case 62:
         }
     };
     var _closure1_slot19 = var1;
-    var20 = function voiceEligibilityCheck() {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-            var3 = _closure1_slot8;
-            var1 = var3.getWasEverRtcConnected;
-            var1 = var1.bind(var3)();
-            var1 = !var1;
-            if(var1) { _fun0008_ip = 64; continue _fun0008 }
-case 35:
-            var3 = _closure1_slot8;
-            var2 = var3.getWasEverMultiParticipant;
-            var1 = var2.bind(var3)();
-case 64:
-            return var1;
-        }
-    };
     var1 = global;
     var9 = var1.Object;
     var5 = var9.defineProperty;
@@ -559,9 +543,9 @@ case 64:
     var2 = {};
     var9 = var10.VOICE;
     var5 = {};
-    var23 = var5;
-    var22 = var13;
-    var11 = copyDataProperties(var23, var22);
+    var22 = var5;
+    var21 = var13;
+    var11 = copyDataProperties(var22, var21);
     var11 = var12.AV;
     var18 = 'group';
     var5[17] = var11;
@@ -579,15 +563,32 @@ case 64:
     var15 = 'feedbackType';
     var5[14] = var14;
     var19 = new Array(1);
-    var19[0] = var20;
+    var14 = function voiceEligibilityCheck() {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var3 = _closure1_slot8;
+            var2 = var3.getWasEverRtcConnected;
+            var2 = var2.bind(var3)();
+            if(var2) { _fun0008_ip = 64; continue _fun0008 }
+case 33:
+            var2 = true;
+            return var2;
+case 64:
+            var2 = _closure1_slot8;
+            var1 = var2.getWasEverMultiParticipant;
+            var1 = var1.bind(var2)();
+            return var1;
+        }
+    };
+    var19[0] = var14;
     var14 = 'eligibilityChecks';
     var5[13] = var19;
     var2[8] = var5;
     var9 = var10.STREAM;
     var5 = {};
-    var23 = var5;
-    var22 = var13;
-    var19 = copyDataProperties(var23, var22);
+    var22 = var5;
+    var21 = var13;
+    var19 = copyDataProperties(var22, var21);
     var19 = var12.AV;
     var5[17] = var19;
     var19 = var7[var11];
@@ -602,9 +603,9 @@ case 64:
     var2[8] = var5;
     var9 = var10.VIDEO_BACKGROUND;
     var5 = {};
-    var23 = var5;
-    var22 = var13;
-    var19 = copyDataProperties(var23, var22);
+    var22 = var5;
+    var21 = var13;
+    var19 = copyDataProperties(var22, var21);
     var19 = var12.AV;
     var5[17] = var19;
     var19 = var7[var11];
@@ -653,31 +654,11 @@ case 64:
     var19 = var10.BLOCK_USER;
     var5['feedbackType'] = var19;
     var2[8] = var5;
-    var9 = var10.VOICE_FILTER;
-    var5 = {};
-    var23 = var5;
-    var22 = var13;
-    var19 = copyDataProperties(var23, var22);
-    var19 = var12.AV;
-    var5[17] = var19;
-    var19 = var7[var11];
-    var19 = var6.bind(var1)(var19);
-    var19 = var19.HotspotLocations;
-    var19 = var19.VOICE_FILTER_FEEDBACK;
-    var5[16] = var19;
-    var19 = 'lastVoiceFilterFeedback';
-    var5[15] = var19;
-    var19 = var10.VOICE_FILTER;
-    var5[14] = var19;
-    var19 = new Array(1);
-    var19[0] = var20;
-    var5[13] = var19;
-    var2[8] = var5;
     var9 = var10.SEARCH_RESULTS;
     var5 = {};
-    var23 = var5;
-    var22 = var13;
-    var13 = copyDataProperties(var23, var22);
+    var22 = var5;
+    var21 = var13;
+    var13 = copyDataProperties(var22, var21);
     var13 = var12.SEARCH;
     var5[17] = var13;
     var13 = var7[var11];
@@ -860,17 +841,17 @@ case 0:
                         var3 = var4.getFeedbackConfig;
                         var4 = var3.bind(var4)(var6);
                         var3 = null;
-                        if(!(var3 == var4)) { _fun0012_ip = 64; continue _fun0012 }
-case 70:
+                        if(!(var3 == var4)) { _fun0012_ip = 70; continue _fun0012 }
+case 71:
                         var5 = _closure1_slot12;
                         var4 = var5[var6];
-case 64:
+case 70:
                         var _closure4_slot0 = var4;
                         var4 = var4.eligibilityChecks;
-                        if(!(var3 == var4)) { _fun0012_ip = 71; continue _fun0012 }
+                        if(!(var3 == var4)) { _fun0012_ip = 72; continue _fun0012 }
 case 8:
                         var4 = new Array(0);
-case 71:
+case 72:
                         var3 = _closure1_slot17;
                         var5 = new Array(3);
                         var5[0] = var3;
@@ -887,8 +868,8 @@ case 71:
                             return var1;
                         };
                         var1 = var3.bind(var5)(var1);
-                        if(!var1) { _fun0012_ip = 72; continue _fun0012 }
-case 73:
+                        if(!var1) { _fun0012_ip = 73; continue _fun0012 }
+case 74:
                         var3 = var4.every;
                         var2 = function(arg1) {
                             var3 = _closure4_slot0;
@@ -898,7 +879,7 @@ case 73:
                             return var1;
                         };
                         var1 = var3.bind(var4)(var2);
-case 72:
+case 73:
                         return var1;
                     }
                 };
@@ -908,25 +889,25 @@ case 72:
 case 38:
                 var6 = var5.feedbackTypeToShow;
                 var4 = null;
-                if(!(var4 != var6)) { _fun0011_ip = 74; continue _fun0011 }
-case 75:
+                if(!(var4 != var6)) { _fun0011_ip = 75; continue _fun0011 }
+case 76:
                 var4 = _closure1_slot10;
                 var6 = var5.feedbackTypeToShow;
                 var6 = var4[var6];
                 var4 = var4[var3];
                 if(!(!(var6 < var4))) { _fun0011_ip = 51; continue _fun0011 }
-case 74:
+case 75:
                 var5['feedbackTypeToShow'] = var3;
                 var4 = var5.showFeedbackModalDebounced;
                 var3 = arg2;
                 var3 = var4.bind(var5)(var3, var2);
-                _fun0011_ip = 76; continue _fun0011;
+                _fun0011_ip = 77; continue _fun0011;
 case 51:
                 var3 = null;
-                if(!(var3 != var2)) { _fun0011_ip = 76; continue _fun0011 }
-case 77:
+                if(!(var3 != var2)) { _fun0011_ip = 77; continue _fun0011 }
+case 78:
                 var2 = var2.bind(var1)();
-case 76:
+case 77:
                 return var1;
             }
         };

@@ -109,9 +109,7 @@ case 6:
 case 2:
             var5 = _closure1_slot4;
             var3 = var1.Illustration;
-            var2 = {};
-            var6 = 'contain';
-            var2['resizeMode'] = var6;
+            var2 = {'accessible': false, 'importantForAccessibility': 'no', 'accessibilityRole': 'none', 'resizeMode': 'contain'};
             var10 = var12.emptyImage;
             var6 = new Array(2);
             var6[0] = var10;

@@ -2535,10 +2535,10 @@ case 172:
                     SaveGenerator(address=282);
 case 173:
                     return var11;
-case 174:
+case 95:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(!var12) { _fun0022_ip = 175; continue _fun0022 }
-case 176: // try_end0
+                    if(!var12) { _fun0022_ip = 174; continue _fun0022 }
+case 175: // try_end0
                     return var11;
 case 171: // try_start_1
                     var19 = var10;
@@ -2558,14 +2558,14 @@ case 171: // try_start_1
                     var20 = undefined;
                     var7 = var20[var7](var19, var18, var17, var16, var15);
                     SaveGenerator(address=318);
-case 177:
+case 176:
                     return var7;
-case 178:
+case 177:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0022_ip = 179; continue _fun0022 }
-case 175: // try_end1
+                    if(var8) { _fun0022_ip = 178; continue _fun0022 }
+case 174: // try_end1
                     _fun0022_ip = 29; continue _fun0022;
-case 179:
+case 178:
                     return var7;
 case 92:
                     return var6;
@@ -2621,7 +2621,7 @@ case 0:
                             var5 = var2 == var3;
                             var1 = undefined;
                             if(var5) { _fun0023_ip = 67; continue _fun0023 }
-case 180:
+case 179:
                             var3 = var3.dispatcher;
                             var2 = var2 == var3;
                             var1 = undefined;

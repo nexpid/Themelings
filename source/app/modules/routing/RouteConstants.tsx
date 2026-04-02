@@ -1363,6 +1363,8 @@ case 32:
             return var1;
         };
         var2['QUEST_PREVIEW_TOOL_2'] = var14;
+        var14 = '/last-meadow-online';
+        var2['GORILLA'] = var14;
         var14 = '/icymi';
         var2['ICYMI'] = var14;
         var14 = var10.bind(var13)(var2);

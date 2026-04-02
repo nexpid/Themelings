@@ -98,8 +98,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SecureFramesUpdate'] = var1;
     var1 = 'sdp-error';
     var2['SdpError'] = var1;
-    var1 = 'voice-filter-changed';
-    var2['VoiceFilterChanged'] = var1;
     var1 = 'users-merged';
     var2['UsersMerged'] = var1;
     var4 = dependencyMap;

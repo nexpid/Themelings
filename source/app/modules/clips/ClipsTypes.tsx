@@ -18,6 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['PHRASE'] = var1;
     var1 = 'yelling';
     var7['YELLING'] = var1;
+    var1 = 'laughter';
+    var7['LAUGHTER'] = var1;
     var1 = 'game_event';
     var7['GAME_EVENT'] = var1;
     var1 = 'speaking';
