@@ -266,7 +266,7 @@ case 9: // try_start_1
                     var8 = true;
                     var4['forceExternalBrowser'] = var8;
                     var4 = var5.bind(var6)(var7, var4);
-                    SaveGenerator(address=355);
+                    SaveGenerator(address=358);
 case 20:
                     return var4;
 case 21:

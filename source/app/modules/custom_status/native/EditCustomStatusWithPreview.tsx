@@ -1134,12 +1134,12 @@ case 0:
                         var4 = _closure1_slot13;
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var1 = 30;
+                        var1 = 25;
                         var1 = var9[var1];
                         var3 = undefined;
                         var1 = var8.bind(var3)(var1);
-                        var2 = var1.Text;
-                        var1 = {'variant': 'redesign/heading-18/bold', 'accessibilityRole': 'header'};
+                        var2 = var1.GenericHeaderTitle;
+                        var1 = {};
                         var5 = 11;
                         var6 = var9[var5];
                         var6 = var8.bind(var3)(var6);
@@ -1150,7 +1150,7 @@ case 0:
                         var5 = var5.t;
                         var5 = var5.Iuzg8R;
                         var5 = var6.bind(var7)(var5);
-                        var1['children'] = var5;
+                        var1['title'] = var5;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };

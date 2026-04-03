@@ -112,20 +112,15 @@ case 4:
 case 0:
             var4 = arg1;
             var7 = var4.message;
-            var19 = var4.roleStyle;
-            var16 = var7.author;
+            var17 = var4.roleStyle;
             var5 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var1 = 6;
-            var1 = var13[var1];
+            var1 = var11[var1];
             var3 = undefined;
             var5 = var5.bind(var3)(var1);
             var1 = var5.getMessageAuthorWithProcessedColor;
-            var1 = var1.bind(var5)(var7);
-            var12 = var1.nick;
-            var17 = var1.colorString;
-            var14 = var1.colorStrings;
-            var11 = var1.guildId;
+            var18 = var1.bind(var5)(var7);
             var6 = _closure1_slot4;
             var5 = var6.getChannel;
             var1 = var7.channel_id;
@@ -134,146 +129,126 @@ case 0:
             var5 = var6.can;
             var1 = _closure1_slot9;
             var1 = var1.MUTE_MEMBERS;
-            var6 = var5.bind(var6)(var1, var8);
+            var8 = var5.bind(var6)(var1, var8);
             var9 = _closure1_slot3;
-            var8 = var9.getParticipant;
+            var6 = var9.getParticipant;
             var5 = var7.channel_id;
             var1 = var7.author;
             var1 = var1.id;
-            var5 = var8.bind(var9)(var5, var1);
+            var5 = var6.bind(var9)(var5, var1);
             var1 = global;
             var10 = var1.Date;
             var9 = _closure1_slot1;
-            var8 = 7;
-            var8 = var13[var8];
-            var13 = var9.bind(var3)(var8);
-            var9 = var13.extractTimestamp;
-            var8 = var7.id;
-            var22 = var9.bind(var13)(var8);
+            var6 = 7;
+            var6 = var11[var6];
+            var11 = var9.bind(var3)(var6);
+            var9 = var11.extractTimestamp;
+            var6 = var7.id;
+            var21 = var9.bind(var11)(var6);
             var9 = var10.prototype;
             var9 = Object.create(var9, {constructor: {value: var10}});
-            var23 = var9;
-            var8 = new var23[var10](var22, var21);
-            var9 = var8 instanceof Object ? var8 : var9;
-            var8 = var9.toISOString;
-            var8 = var8.bind(var9)();
-            var10 = var1.Date;
-            var13 = null;
-            var1 = var13 == var5;
-            var9 = undefined;
+            var22 = var9;
+            var6 = new var22[var10](var21, var20);
+            var9 = var6 instanceof Object ? var6 : var9;
+            var6 = var9.toISOString;
+            var9 = var6.bind(var9)();
+            var11 = var1.Date;
+            var6 = null;
+            var1 = var6 == var5;
+            var10 = undefined;
             if(var1) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
             var1 = var5.voiceState;
-            var15 = var13 == var1;
-            var9 = undefined;
-            if(var15) { _fun0002_ip = 5; continue _fun0002 }
+            var12 = var6 == var1;
+            var10 = undefined;
+            if(var12) { _fun0002_ip = 5; continue _fun0002 }
 case 7:
-            var9 = var1.requestToSpeakTimestamp;
+            var10 = var1.requestToSpeakTimestamp;
 case 5:
-            var15 = var13 != var9;
+            var12 = var6 != var10;
             var1 = 0;
-            if(!var15) { _fun0002_ip = 8; continue _fun0002 }
+            if(!var12) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var1 = var9;
+            var1 = var10;
 case 8:
-            var9 = var10.prototype;
-            var9 = Object.create(var9, {constructor: {value: var10}});
-            var23 = var9;
-            var22 = var1;
-            var1 = new var23[var10](var22, var21);
-            var9 = var1 instanceof Object ? var1 : var9;
-            var1 = var9.toISOString;
-            var1 = var1.bind(var9)();
-            var1 = var8 === var1;
-            if(!var6) { _fun0002_ip = 10; continue _fun0002 }
+            var10 = var11.prototype;
+            var10 = Object.create(var10, {constructor: {value: var11}});
+            var22 = var10;
+            var21 = var1;
+            var1 = new var22[var11](var21, var20);
+            var10 = var1 instanceof Object ? var1 : var10;
+            var1 = var10.toISOString;
+            var1 = var1.bind(var10)();
+            var1 = var9 === var1;
+            var9 = var8;
+            if(!var9) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var9 = var13 == var5;
-            var8 = undefined;
-            if(var9) { _fun0002_ip = 12; continue _fun0002 }
+            var8 = var6 == var5;
+            var6 = undefined;
+            if(var8) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var8 = var5.rtsState;
+            var6 = var5.rtsState;
 case 12:
-            var9 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var5 = 8;
             var5 = var10[var5];
-            var5 = var9.bind(var3)(var5);
+            var5 = var8.bind(var3)(var5);
             var5 = var5.RequestToSpeakStates;
             var5 = var5.REQUESTED_TO_SPEAK;
-            var6 = var8 === var5;
+            var9 = var6 === var5;
 case 10:
-            if(!var6) { _fun0002_ip = 14; continue _fun0002 }
+            if(!var9) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var6 = var1;
+            var9 = var1;
 case 14:
-            var9 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var1 = 9;
-            var1 = var8[var1];
-            var10 = var9.bind(var3)(var1);
-            var5 = var10.isNativeMessageEligibleForEnhancedRoleColors;
-            var1 = var16.id;
-            var15 = var5.bind(var10)(var11, var1, var19);
             var1 = {};
-            var5 = 4;
-            var10 = var8[var5];
-            var10 = var9.bind(var3)(var10);
-            var11 = var10.intl;
-            var10 = var11.formatToParts;
-            var8 = var8[var5];
-            var8 = var9.bind(var3)(var8);
-            var8 = var8.t;
-            var9 = var8.M87x7Y;
-            var8 = {};
-            var8['username'] = var12;
-            var12 = {};
-            var18 = 'bindUserMenu';
-            var12['action'] = var18;
-            var16 = var16.id;
-            var12['userId'] = var16;
-            var18 = 'username';
-            var16 = null;
-            if(!(var18 === var19)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-            var16 = var17;
-case 16:
-            var12['linkColor'] = var16;
-            var13 = null;
-            if(!var15) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
-            var13 = var14;
-case 18:
-            var12['roleColors'] = var13;
-            var13 = var7.channel_id;
-            var12['messageChannelId'] = var13;
-            var13 = true;
-            var12['medium'] = var13;
-            var8['usernameOnClick'] = var12;
-            var8 = var10.bind(var11)(var9, var8);
-            var1['content'] = var8;
-            var1['showInviteToSpeakButton'] = var6;
-            var10 = _closure1_slot0;
+            var11 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var8 = var6[var5];
-            var8 = var10.bind(var3)(var8);
-            var9 = var8.intl;
-            var8 = var9.string;
-            var5 = var6[var5];
-            var5 = var10.bind(var3)(var5);
+            var8 = 4;
+            var5 = var6[var8];
+            var5 = var11.bind(var3)(var5);
+            var14 = var5.intl;
+            var13 = var14.formatToParts;
+            var5 = var6[var8];
+            var5 = var11.bind(var3)(var5);
             var5 = var5.t;
-            var5 = var5.f0T7hI;
-            var5 = var8.bind(var9)(var5);
-            var1['buttonLabel'] = var5;
-            var5 = _closure1_slot10;
-            var5 = var5.bind(var3)(var7);
-            var1['ephemeralIndication'] = var5;
+            var12 = var5.M87x7Y;
+            var10 = {};
+            var5 = var18.nick;
+            var10['username'] = var5;
             var5 = _closure1_slot1;
+            var15 = 9;
+            var15 = var6[var15];
+            var16 = var5.bind(var3)(var15);
+            var15 = {};
+            var15['message'] = var7;
+            var15['author'] = var18;
+            var15['roleStyle'] = var17;
+            var15 = var16.bind(var3)(var15);
+            var10['usernameOnClick'] = var15;
+            var10 = var13.bind(var14)(var12, var10);
+            var1['content'] = var10;
+            var1['showInviteToSpeakButton'] = var9;
+            var9 = var6[var8];
+            var9 = var11.bind(var3)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var8 = var6[var8];
+            var8 = var11.bind(var3)(var8);
+            var8 = var8.t;
+            var8 = var8.f0T7hI;
+            var8 = var9.bind(var10)(var8);
+            var1['buttonLabel'] = var8;
+            var2 = _closure1_slot10;
+            var2 = var2.bind(var3)(var7);
+            var1['ephemeralIndication'] = var2;
             var2 = 10;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
-            var21 = var2.bind(var3)(var4);
-            var22 = var1;
-            var2 = copyDataProperties(var22, var21);
+            var20 = var2.bind(var3)(var4);
+            var21 = var1;
+            var2 = copyDataProperties(var21, var20);
             return var1;
         }
     };

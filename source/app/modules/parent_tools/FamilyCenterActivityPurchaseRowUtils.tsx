@@ -252,15 +252,15 @@ case 23:
             var4 = undefined;
             var3 = undefined;
             if(!var7) { _fun0005_ip = 22; continue _fun0005 }
-case 18:
+case 24:
             var7 = _closure1_slot6;
             var7 = var7[var8];
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(var8) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var6 = var7.name;
-case 24:
+case 25:
             var4 = var6;
             var3 = undefined;
             _fun0005_ip = 22; continue _fun0005;

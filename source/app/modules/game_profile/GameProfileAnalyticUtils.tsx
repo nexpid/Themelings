@@ -215,6 +215,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['QuestEmbed'] = var4;
     var4 = 'quest_live_stream';
     var5['QuestLiveStream'] = var4;
+    var4 = 'clip_embed';
+    var5['ClipEmbed'] = var4;
     var4 = {};
     var10 = 'full_profile';
     var4['FullProfile'] = var10;

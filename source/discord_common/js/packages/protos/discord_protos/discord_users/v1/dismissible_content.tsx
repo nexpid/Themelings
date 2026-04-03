@@ -2106,6 +2106,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_MARKETING_MOMENT_NAGBAR_UPSELL'] = var2;
     var1 = 'PREMIUM_MARKETING_MOMENT_NAGBAR_UPSELL';
     var4[var2] = var1;
+    var2 = 727;
+    var4['WISHLISTING_NITRO_TAB_NEW_BADGE'] = var2;
+    var1 = 'WISHLISTING_NITRO_TAB_NEW_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

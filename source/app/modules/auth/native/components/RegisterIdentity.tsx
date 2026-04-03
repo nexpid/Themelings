@@ -478,7 +478,7 @@ case 17:
     var4['scrollContent'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;
-    var4 = 28;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -490,39 +490,26 @@ case 0:
             var2 = _closure1_slot16;
             var4 = undefined;
             var11 = var2.bind(var4)();
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
             var2 = 23;
-            var2 = var6[var2];
-            var2 = var5.bind(var4)(var2);
-            var7 = var2.EmailFirstRegistrationExperiment;
-            var3 = var7.useExperiment;
-            var2 = {};
-            var8 = 'RegisterIdentity';
-            var2['location'] = var8;
-            var2 = var3.bind(var7)(var2);
-            var2 = var2.enabled;
-            var3 = 24;
-            var3 = var6[var3];
-            var5 = var5.bind(var4)(var3);
-            var3 = var5.getDeviceCountry;
-            var6 = var3.bind(var5)();
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.getDeviceCountry;
+            var6 = var2.bind(var3)();
+            var2 = null;
+            var2 = var2 != var6;
             if(!var2) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
-            var3 = null;
-            var2 = var3 != var6;
-case 20:
-            if(!var2) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 25;
+            var3 = 24;
             var3 = var7[var3];
             var3 = var5.bind(var4)(var3);
             var5 = var3.EMAIL_FIRST_COUNTRIES;
             var3 = var5.has;
             var2 = var3.bind(var5)(var6);
-case 22:
+case 20:
             var _closure2_slot0 = var2;
             var6 = _closure1_slot5;
             var5 = var6.useMemo;
@@ -540,8 +527,8 @@ case 0:
                     var5 = undefined;
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.t;
-                    if(var1) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+                    if(var1) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                     var1 = var2.dEYpSt;
                     var3['descriptor'] = var1;
                     var9 = 16;
@@ -564,8 +551,8 @@ case 25:
                     var9 = var9.EMAIL;
                     var4['mode'] = var9;
                     var1[1] = var4;
-                    _fun0005_ip = 26; continue _fun0005;
-case 24:
+                    _fun0005_ip = 24; continue _fun0005;
+case 22:
                     var2 = var2.w/qqKK;
                     var3['descriptor'] = var2;
                     var4 = 16;
@@ -589,7 +576,7 @@ case 24:
                     var3['mode'] = var4;
                     var2[1] = var3;
                     var1 = var2;
-case 26:
+case 24:
                     return var1;
                 }
             };
@@ -628,7 +615,7 @@ case 26:
             var12 = var5.bind(var8)(var2, var3);
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 26;
+            var2 = 25;
             var2 = var9[var2];
             var5 = var8.bind(var4)(var2);
             var3 = var5.useSegmentedControlState;
@@ -684,13 +671,13 @@ case 0:
                     };
                     var4 = var3.bind(var4)(var2);
                     var2 = -1;
-                    if(!(var2 !== var4)) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+                    if(!(var2 !== var4)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
                     var3 = _closure2_slot3;
                     var2 = var3.setActiveIndex;
                     var1 = false;
                     var1 = var2.bind(var3)(var4, var1);
-case 27:
+case 25:
                     var1 = undefined;
                     return var1;
                 }
@@ -707,7 +694,7 @@ case 27:
             var11 = var11.segmentedControl;
             var5['style'] = var11;
             var12 = _closure1_slot14;
-            var10 = 27;
+            var10 = 26;
             var10 = var9[var10];
             var10 = var8.bind(var4)(var10);
             var11 = var10.SegmentedControl;

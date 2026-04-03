@@ -19,31 +19,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
+    var4 = var4.CustomCheckoutFlow;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var7 = var4.Routes;
-    var _closure1_slot3 = var7;
+    var _closure1_slot4 = var7;
     var4 = var4.LinkingTypes;
-    var _closure1_slot4 = var4;
-    var4 = function checkForMobileWebRedirectCheckoutFlow(arg1, arg2) {
+    var _closure1_slot5 = var4;
+    var4 = function checkForCustomCheckoutFlow(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
             var3 = var4.startsWith;
-            var1 = _closure1_slot3;
+            var1 = _closure1_slot4;
             var1 = var1.BILLING_MANAGE_SUBSCRIPTION;
             var1 = var3.bind(var4)(var1);
-            var1 = !var1;
-            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = _closure1_slot4;
-            var3 = var2.MOBILE_WEB_REDIRECT_CHECKOUT;
-            var2 = arg2;
-            var1 = var2 === var3;
+            var1 = _closure1_slot5;
+            var3 = var1.MOBILE_WEB_REDIRECT_CHECKOUT;
+            var1 = arg2;
+            if(!(var1 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var1 = _closure1_slot3;
+            var4 = var1.META_QUEST_WEB_REDIRECT_CHECKOUT;
+            var3 = arg3;
+            var1 = undefined;
+            if(!(var3 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var3 = _closure1_slot3;
+            var1 = var3.META_QUEST_WEB_REDIRECT_CHECKOUT;
+case 6:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
+            var2 = _closure1_slot3;
+            var1 = var2.MOBILE_WEB_REDIRECT_CHECKOUT;
+case 8:
+            return var1;
 case 2:
+            var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
-    var4 = 5;
+    var _closure1_slot6 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -55,7 +76,7 @@ case 2:
         var2 = arg3;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -80,7 +101,7 @@ case 2:
     var4 = function() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -90,48 +111,73 @@ case 2:
     };
     var3['isMobileWebRedirectCheckoutEnabled'] = var4;
     var4 = function() {
-        var5 = _closure1_slot0;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var3 = var4.bind(var1)(var3);
+            var1 = var3.isMetaQuest;
+            var1 = var1.bind(var3)();
+            var2 = _closure1_slot3;
+            if(var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var1 = var2.MOBILE_WEB_REDIRECT_CHECKOUT;
+            _fun0002_ip = 11; continue _fun0002;
+case 9:
+            var1 = var2.META_QUEST_WEB_REDIRECT_CHECKOUT;
+case 11:
+            return var1;
+        }
+    };
+    var3['getCustomCheckoutFlowForAnalytics'] = var4;
+    var4 = function() {
+        var3 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var2 = 3;
-        var2 = var7[var2];
-        var4 = undefined;
-        var3 = var5.bind(var4)(var2);
-        var2 = var3.useLocation;
-        var2 = var2.bind(var3)();
-        var6 = var2.search;
-        var3 = var2.pathname;
         var2 = 4;
         var2 = var7[var2];
-        var5 = var5.bind(var4)(var2);
-        var2 = var5.parse;
-        var2 = var2.bind(var5)(var6);
-        var2 = var2.deep_link_type;
-        var1 = _closure1_slot5;
-        var1 = var1.bind(var4)(var3, var2);
+        var5 = undefined;
+        var4 = var3.bind(var5)(var2);
+        var2 = var4.useLocation;
+        var2 = var2.bind(var4)();
+        var6 = var2.search;
+        var4 = var2.pathname;
+        var2 = 5;
+        var2 = var7[var2];
+        var3 = var3.bind(var5)(var2);
+        var2 = var3.parse;
+        var2 = var2.bind(var3)(var6);
+        var3 = var2.deep_link_type;
+        var2 = var2.flow_type;
+        var1 = _closure1_slot6;
+        var1 = var1.bind(var5)(var4, var3, var2);
         return var1;
     };
-    var3['useIsInMobileWebRedirectCheckoutFlow'] = var4;
+    var3['useGetCustomCheckoutFlow'] = var4;
     var2 = function() {
         var2 = global;
         var1 = var2.window;
         var1 = var1.location;
-        var4 = var1.pathname;
+        var5 = var1.pathname;
         var6 = _closure1_slot0;
-        var5 = _closure1_slot2;
-        var3 = 4;
-        var5 = var5[var3];
-        var3 = undefined;
-        var6 = var6.bind(var3)(var5);
-        var5 = var6.parse;
+        var4 = _closure1_slot2;
+        var3 = 5;
+        var3 = var4[var3];
+        var4 = undefined;
+        var6 = var6.bind(var4)(var3);
+        var3 = var6.parse;
         var2 = var2.window;
         var2 = var2.location;
         var2 = var2.search;
-        var2 = var5.bind(var6)(var2);
-        var2 = var2.deep_link_type;
-        var1 = _closure1_slot5;
-        var1 = var1.bind(var3)(var4, var2);
+        var2 = var3.bind(var6)(var2);
+        var3 = var2.deep_link_type;
+        var2 = var2.flow_type;
+        var1 = _closure1_slot6;
+        var1 = var1.bind(var4)(var5, var3, var2);
         return var1;
     };
-    var3['getIsInMobileWebRedirectCheckoutFlow'] = var2;
+    var3['getCustomCheckoutFlow'] = var2;
     return var1;
 })();

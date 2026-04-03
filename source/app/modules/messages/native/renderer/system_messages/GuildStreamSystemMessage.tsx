@@ -31,74 +31,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
-            var9 = var4.message;
-            var15 = var4.roleStyle;
-            var7 = var9.author;
-            var1 = var9.messageReference;
-            var14 = null;
-            if(!(var14 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+            var14 = var4.message;
+            var12 = var4.roleStyle;
+            var7 = var14.author;
+            var2 = var14.messageReference;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = {};
+            var2 = {};
 case 2:
-            var8 = var1.channel_id;
-            var6 = var1.guild_id;
-            var5 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var1 = 1;
-            var1 = var17[var1];
+            var8 = var2.channel_id;
+            var6 = var2.guild_id;
+            var9 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var3 = 1;
+            var5 = var15[var3];
             var3 = undefined;
-            var1 = var5.bind(var3)(var1);
-            var11 = var1.bind(var3)(var9);
-            var5 = var14 != var11;
-            var12 = _closure1_slot0;
+            var5 = var9.bind(var3)(var5);
+            var11 = var5.bind(var3)(var14);
+            var5 = var1 != var11;
+            var10 = _closure1_slot0;
             var1 = 2;
-            var1 = var17[var1];
-            var10 = var12.bind(var3)(var1);
+            var1 = var15[var1];
+            var10 = var10.bind(var3)(var1);
             var1 = var10.getMessageAuthorWithProcessedColor;
-            var10 = var1.bind(var10)(var9);
-            var1 = var10.nick;
-            var13 = var10.colorString;
-            var16 = var10.colorStrings;
-            var18 = var10.guildId;
-            var10 = 3;
-            var10 = var17[var10];
-            var17 = var12.bind(var3)(var10);
-            var12 = var17.isNativeMessageEligibleForEnhancedRoleColors;
-            var10 = var7.id;
-            var17 = var12.bind(var17)(var18, var10, var15);
+            var13 = var1.bind(var10)(var14);
             var10 = {};
+            var1 = var13.nick;
             var10['username'] = var1;
+            var1 = 3;
+            var1 = var15[var1];
+            var9 = var9.bind(var3)(var1);
             var1 = {};
-            var12 = 'bindUserMenu';
-            var1['action'] = var12;
-            var12 = var7.id;
-            var1['userId'] = var12;
-            var1['colorString'] = var13;
-            var18 = 'username';
-            var12 = null;
-            if(!(var18 === var15)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var12 = var13;
-case 4:
-            var1['linkColor'] = var12;
-            var1['roleColor'] = var13;
-            var12 = null;
-            if(!var17) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var12 = var16;
-case 6:
-            var1['roleColors'] = var12;
-            var12 = 'dot';
-            var12 = var12 === var15;
-            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var12 = var14 != var13;
-case 8:
-            var1['shouldShowRoleDot'] = var12;
-            var9 = var9.channel_id;
-            var1['messageChannelId'] = var9;
-            var9 = true;
-            var1['medium'] = var9;
+            var1['message'] = var14;
+            var1['author'] = var13;
+            var1['roleStyle'] = var12;
+            var1 = var9.bind(var3)(var1);
             var10['usernameOnClick'] = var1;
             var13 = {};
             var1 = 'bindJoinStream';
@@ -124,36 +92,36 @@ case 8:
             var6 = var12[var6];
             var6 = var7.bind(var3)(var6);
             var6 = var6.t;
-            if(var5) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var6.dMmbGk;
             var5 = {};
-            var21 = var5;
-            var20 = var10;
-            var12 = copyDataProperties(var21, var20);
+            var17 = var5;
+            var16 = var10;
+            var12 = copyDataProperties(var17, var16);
             var12 = 'onJoinStream';
             var5[11] = var13;
             var5 = var8.bind(var9)(var7, var5);
-            _fun0001_ip = 12; continue _fun0001;
-case 10:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var7 = var6.FP7rUI;
             var6 = {};
-            var21 = var6;
-            var20 = var10;
-            var10 = copyDataProperties(var21, var20);
+            var17 = var6;
+            var16 = var10;
+            var10 = copyDataProperties(var17, var16);
             var10 = 'duration';
             var6[9] = var11;
             var5 = var8.bind(var9)(var7, var6);
-case 12:
+case 6:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 5;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
-            var20 = var2.bind(var3)(var4);
-            var21 = var1;
-            var2 = copyDataProperties(var21, var20);
+            var16 = var2.bind(var3)(var4);
+            var17 = var1;
+            var2 = copyDataProperties(var17, var16);
             return var1;
         }
     };

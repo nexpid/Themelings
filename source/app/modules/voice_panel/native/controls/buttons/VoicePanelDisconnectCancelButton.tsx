@@ -67,8 +67,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 8;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.unsafe_rawColors;
-    var12 = var12.RED_400;
+    var12 = var12.modules;
+    var12 = var12.mobile;
+    var12 = var12.VOICE_PANEL_DISCONNECT_BUTTON_MIN_WIDTH;
+    var9['minWidth'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.CONTROL_CRITICAL_PRIMARY_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var12;
     var4['disconnectCancelBG'] = var9;
     var9 = {};
@@ -244,7 +250,7 @@ case 13:
             var3['__workletHash'] = var2;
             var2 = _closure1_slot12;
             var3['__initData'] = var2;
-            var2 = function p(arg1, arg2) {
+            var2 = function v(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = arg1;

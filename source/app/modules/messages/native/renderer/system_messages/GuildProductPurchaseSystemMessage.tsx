@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageTypes;
     var _closure1_slot5 = var4;
-    var4 = 9;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -38,133 +38,141 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function createGuildProductPurchaseSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
+            var2 = arg1;
             var5 = {};
-            var19 = var5;
-            var18 = var1;
-            var2 = copyDataProperties(var19, var18);
+            var20 = var5;
+            var19 = var2;
+            var1 = copyDataProperties(var20, var19);
             var4 = _closure1_slot3;
-            var19 = var1.message;
-            var2 = var4.prototype;
-            var2 = Object.create(var2, {constructor: {value: var4}});
-            var20 = var2;
-            var1 = new var20[var4](var19, var18);
-            var2 = var1 instanceof Object ? var1 : var2;
+            var20 = var2.message;
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var21 = var3;
+            var1 = new var21[var4](var20, var19);
+            var3 = var1 instanceof Object ? var1 : var3;
             var1 = 'message';
-            var5[0] = var2;
-            var2 = var5.message;
+            var5[0] = var3;
+            var3 = var5.message;
             var1 = _closure1_slot5;
             var1 = var1.ROLE_SUBSCRIPTION_PURCHASE;
-            var2['type'] = var1;
+            var3['type'] = var1;
             var1 = var5.message;
-            var2 = var1.purchaseNotification;
+            var3 = var1.purchaseNotification;
             var1 = null;
-            var6 = var1 == var2;
+            var7 = var1 == var3;
             var4 = undefined;
             var13 = undefined;
-            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var2.guild_product_purchase;
-            var6 = var1 == var2;
+            var3 = var3.guild_product_purchase;
+            var7 = var1 == var3;
             var13 = undefined;
-            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var13 = var2.product_name;
+            var13 = var3.product_name;
 case 2:
             if(!(var1 != var13)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var2 = var5.message;
-            var7 = var2.author;
-            var9 = _closure1_slot4;
-            var8 = var9.getChannel;
-            var6 = var2.getChannelId;
-            var6 = var6.bind(var2)();
-            var8 = var8.bind(var9)(var6);
-            var6 = var1 == var8;
-            var15 = undefined;
-            if(var6) { _fun0001_ip = 7; continue _fun0001 }
+            var17 = var5.message;
+            var16 = var2.roleStyle;
+            var12 = var17.author;
+            var7 = _closure1_slot4;
+            var3 = var7.getChannel;
+            var2 = var17.getChannelId;
+            var2 = var2.bind(var17)();
+            var3 = var3.bind(var7)(var2);
+            var2 = var1 == var3;
+            var14 = undefined;
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var6 = var8.getGuildId;
-            var15 = var6.bind(var8)();
+            var2 = var3.getGuildId;
+            var14 = var2.bind(var3)();
 case 7:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var6 = 3;
-            var6 = var10[var6];
-            var8 = var9.bind(var4)(var6);
-            var6 = var8.getMessageAuthor;
-            var6 = var6.bind(var8)(var2);
-            var8 = var6.nick;
-            var16 = var6.guildMemberAvatar;
-            var6 = 4;
-            var6 = var10[var6];
-            var10 = var9.bind(var4)(var6);
-            var9 = var10.ensureAvatarSource;
-            if(!(var1 != var16)) { _fun0001_ip = 9; continue _fun0001 }
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 3;
+            var2 = var7[var2];
+            var8 = var3.bind(var4)(var2);
+            var2 = var8.getMessageAuthor;
+            var2 = var2.bind(var8)(var17);
+            var15 = var2.guildMemberAvatar;
+            var2 = 4;
+            var2 = var7[var2];
+            var8 = var3.bind(var4)(var2);
+            var2 = var8.getMessageAuthorWithProcessedColor;
+            var8 = var2.bind(var8)(var17);
+            var2 = 5;
+            var2 = var7[var2];
+            var7 = var3.bind(var4)(var2);
+            var3 = var7.ensureAvatarSource;
+            if(!(var1 != var15)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            if(!(var1 == var15)) { _fun0001_ip = 11; continue _fun0001 }
+            if(!(var1 == var14)) { _fun0001_ip = 11; continue _fun0001 }
 case 9:
-            var6 = var7.getAvatarSource;
-            var6 = var6.bind(var7)(var4);
+            var2 = var12.getAvatarSource;
+            var2 = var2.bind(var12)(var4);
             _fun0001_ip = 12; continue _fun0001;
 case 11:
-            var12 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var11 = 5;
-            var11 = var14[var11];
-            var14 = var12.bind(var4)(var11);
-            var12 = var14.getGuildMemberAvatarSource;
-            var11 = {};
-            var17 = var7.id;
-            var11['userId'] = var17;
-            var11['avatar'] = var16;
-            var11['guildId'] = var15;
-            var6 = var12.bind(var14)(var11, var7);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var9 = 6;
+            var9 = var11[var9];
+            var11 = var10.bind(var4)(var9);
+            var10 = var11.getGuildMemberAvatarSource;
+            var9 = {};
+            var18 = var12.id;
+            var9['userId'] = var18;
+            var9['avatar'] = var15;
+            var9['guildId'] = var14;
+            var2 = var10.bind(var11)(var9, var12);
 case 12:
-            var6 = var9.bind(var10)(var6);
-            var14 = {};
-            var9 = 'bindUserMenu';
-            var14['action'] = var9;
-            var7 = var7.id;
-            var14['userId'] = var7;
-            var2 = var2.channel_id;
-            var14['messageChannelId'] = var2;
+            var3 = var3.bind(var7)(var2);
             var2 = {};
             var10 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var9 = 6;
+            var9 = 7;
             var9 = var7[var9];
             var12 = var10.bind(var4)(var9);
             var11 = var12.getGuildProductPurchaseSystemMessageContentMobile;
             var9 = {};
-            var9['username'] = var8;
+            var14 = var8.nick;
+            var9['username'] = var14;
+            var6 = _closure1_slot1;
+            var14 = 8;
+            var14 = var7[var14];
+            var15 = var6.bind(var4)(var14);
+            var14 = {};
+            var14['message'] = var17;
+            var14['author'] = var8;
+            var14['roleStyle'] = var16;
+            var14 = var15.bind(var4)(var14);
             var9['usernameOnClickHandler'] = var14;
             var9['productName'] = var13;
             var9 = var11.bind(var12)(var9);
             var2['content'] = var9;
             var9 = 0;
             var2['totalMonthsSubscribed'] = var9;
+            var8 = var8.nick;
             var2['username'] = var8;
-            var6 = var6.uri;
-            var2['avatarURL'] = var6;
-            var6 = 7;
-            var8 = var7[var6];
+            var3 = var3.uri;
+            var2['avatarURL'] = var3;
+            var3 = 9;
+            var8 = var7[var3];
             var8 = var10.bind(var4)(var8);
             var9 = var8.intl;
             var8 = var9.string;
-            var6 = var7[var6];
-            var6 = var10.bind(var4)(var6);
-            var6 = var6.t;
-            var6 = var6.s2N5HS;
-            var6 = var8.bind(var9)(var6);
-            var2['welcomeLabel'] = var6;
-            var6 = _closure1_slot1;
-            var3 = 8;
+            var3 = var7[var3];
+            var3 = var10.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.s2N5HS;
+            var3 = var8.bind(var9)(var3);
+            var2['welcomeLabel'] = var3;
+            var3 = 10;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
-            var18 = var3.bind(var4)(var5);
-            var19 = var2;
-            var3 = copyDataProperties(var19, var18);
+            var19 = var3.bind(var4)(var5);
+            var20 = var2;
+            var3 = copyDataProperties(var20, var19);
             return var2;
 case 5:
             return var1;

@@ -311,7 +311,7 @@ case 24:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(21);
+        var1 = new Array(22);
         var1[0] = var5;
         var5 = {};
         var7 = 'outboundPromotions';
@@ -569,7 +569,7 @@ case 17:
         var5['value'] = var7;
         var1[17] = var5;
         var5 = {};
-        var7 = 'getGiftPromotionRewardSkuIds';
+        var7 = 'getGiftPromotion';
         var5['key'] = var7;
         var7 = function value() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -583,32 +583,54 @@ case 0:
                 var1 = var4.bind(var1)(var3);
                 var1 = var1.PromotionTypes;
                 var1 = var1.GIFT_PROMOTION;
-                var2 = var2[var1];
+                var3 = var2[var1];
                 var1 = global;
-                var3 = var1.Object;
-                var1 = var3.keys;
-                var3 = var1.bind(var3)(var2);
-                var4 = var3.length;
-                var1 = 0;
-                if(!(var1 !== var4)) { _fun0008_ip = 28; continue _fun0008 }
-case 4:
-                var1 = var3[var1];
-                var1 = var2[var1];
-                var1 = var1.rewardSkuIds;
-                _fun0008_ip = 9; continue _fun0008;
+                var2 = var1.Object;
+                var1 = var2.keys;
+                var4 = var1.bind(var2)(var3);
+                var5 = var4.length;
+                var2 = 0;
+                var1 = null;
+                if(!(var2 !== var5)) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
+                var2 = var4[var2];
+                var1 = var3[var2];
 case 28:
-                var1 = new Array(0);
-case 9:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[18] = var5;
         var5 = {};
-        var7 = 'getMarketingMomentPromotion';
+        var7 = 'getGiftPromotionRewardSkuIds';
         var5['key'] = var7;
         var7 = function value() {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.getGiftPromotion;
+                var3 = var1.bind(var2)();
+                var2 = null;
+                var4 = var2 == var3;
+                var1 = undefined;
+                if(var4) { _fun0009_ip = 30; continue _fun0009 }
+case 31:
+                var1 = var3.rewardSkuIds;
+case 30:
+                if(!(var2 == var1)) { _fun0009_ip = 32; continue _fun0009 }
+case 33:
+                var1 = new Array(0);
+case 32:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[19] = var5;
+        var5 = {};
+        var7 = 'getMarketingMomentPromotion';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var2 = _closure1_slot16;
                 var4 = _closure1_slot0;
@@ -626,7 +648,7 @@ case 0:
                 var4 = var2.bind(var4)(var3);
                 var5 = var4.length;
                 var2 = 0;
-                if(!(var2 !== var5)) { _fun0009_ip = 6; continue _fun0009 }
+                if(!(var2 !== var5)) { _fun0010_ip = 6; continue _fun0010 }
 case 4:
                 var2 = var4[var2];
                 var2 = var3[var2];
@@ -639,10 +661,10 @@ case 4:
                 var1 = var1 instanceof Object ? var1 : var4;
                 var3 = var3 < var1;
                 var1 = null;
-                if(var3) { _fun0009_ip = 29; continue _fun0009 }
-case 30:
+                if(var3) { _fun0010_ip = 34; continue _fun0010 }
+case 35:
                 var1 = var2;
-case 29:
+case 34:
                 return var1;
 case 6:
                 var1 = null;
@@ -650,12 +672,12 @@ case 6:
             }
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'getMarketingMomentRewardSkuIds';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.getMarketingMomentPromotion;
@@ -663,19 +685,19 @@ case 0:
                 var2 = null;
                 var4 = var2 == var3;
                 var1 = undefined;
-                if(var4) { _fun0010_ip = 17; continue _fun0010 }
-case 31:
+                if(var4) { _fun0011_ip = 17; continue _fun0011 }
+case 36:
                 var1 = var3.rewardSkuIds;
 case 17:
-                if(!(var2 == var1)) { _fun0010_ip = 32; continue _fun0010 }
-case 33:
+                if(!(var2 == var1)) { _fun0011_ip = 37; continue _fun0011 }
+case 38:
                 var1 = new Array(0);
-case 32:
+case 37:
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[20] = var5;
+        var1[21] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -686,17 +708,17 @@ case 32:
     var8['persistKey'] = var2;
     var2 = new Array(1);
     var9 = function(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
-case 34: // try_start_0
+case 39: // try_start_0
             var2 = var1;
             var2 = delete var2.bogoPromotion;
-case 35: // try_end0
-            _fun0011_ip = 36; continue _fun0011;
-case 37: // catch_target0
+case 40: // try_end0
+            _fun0012_ip = 41; continue _fun0012;
+case 42: // catch_target0
             CatchBlockStart(arg_register=1);
-case 36:
+case 41:
             return var1;
         }
     };
@@ -707,7 +729,7 @@ case 36:
     var15 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleActivePromotionsFetchSuccess(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var7 = var1.promotions;
@@ -772,7 +794,7 @@ case 0:
             _closure1_slot19 = var5;
             var6 = var7.forEach;
             var5 = function(arg1) {
-                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                     var3 = arg1;
                     var4 = _closure1_slot8;
@@ -792,8 +814,8 @@ case 0:
                     var5['promotionType'] = var8;
                     var6 = var6.bind(var7)(var5);
                     var5 = true;
-                    if(!(var5 !== var6)) { _fun0013_ip = 38; continue _fun0013 }
-case 39:
+                    if(!(var5 !== var6)) { _fun0014_ip = 43; continue _fun0014 }
+case 44:
                     var6 = var3.promotion_type;
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot1;
@@ -802,8 +824,8 @@ case 39:
                     var5 = var7.bind(var1)(var5);
                     var5 = var5.PromotionTypes;
                     var5 = var5.THIRD_PARTY;
-                    if(!(var6 !== var5)) { _fun0013_ip = 40; continue _fun0013 }
-case 41:
+                    if(!(var6 !== var5)) { _fun0014_ip = 45; continue _fun0014 }
+case 46:
                     var6 = _closure1_slot16;
                     var5 = var3.promotion_type;
                     var6 = var6[var5];
@@ -811,8 +833,8 @@ case 41:
                     var6[var5] = var4;
                     var7 = var3.marketing_components;
                     var5 = null;
-                    if(!(var5 != var7)) { _fun0013_ip = 42; continue _fun0013 }
-case 43:
+                    if(!(var5 != var7)) { _fun0014_ip = 47; continue _fun0014 }
+case 48:
                     var6 = var7.forEach;
                     var5 = function(arg1) {
                         var6 = arg1;
@@ -827,8 +849,8 @@ case 43:
                         return var1;
                     };
                     var5 = var6.bind(var7)(var5);
-                    _fun0013_ip = 42; continue _fun0013;
-case 40:
+                    _fun0014_ip = 47; continue _fun0014;
+case 45:
                     var6 = _closure1_slot16;
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot1;
@@ -839,17 +861,17 @@ case 40:
                     var5 = var6[var5];
                     var3 = var3.id;
                     var5[var3] = var4;
-                    _fun0013_ip = 42; continue _fun0013;
-case 38:
+                    _fun0014_ip = 47; continue _fun0014;
+case 43:
                     var5 = var4.id;
                     var3 = _closure1_slot17;
                     var3 = var5 in var3;
-                    if(var3) { _fun0013_ip = 42; continue _fun0013 }
-case 44:
+                    if(var3) { _fun0014_ip = 47; continue _fun0014 }
+case 49:
                     var3 = _closure1_slot17;
                     var2 = var4.id;
                     var3[var2] = var4;
-case 42:
+case 47:
                     return var1;
                 }
             };
@@ -862,14 +884,14 @@ case 42:
             _closure1_slot14 = var4;
             var4 = _closure1_slot10;
             var4 = var4.hasFetchedConsumedInboundPromotionId;
-            if(var4) { _fun0012_ip = 45; continue _fun0012 }
-case 46:
+            if(var4) { _fun0013_ip = 50; continue _fun0013 }
+case 51:
             var5 = _closure1_slot10;
             var4 = true;
             var5['hasFetchedConsumedInboundPromotionId'] = var4;
             var2 = _closure1_slot10;
             var2['consumedInboundPromotionId'] = var3;
-case 45:
+case 50:
             return var1;
         }
     };
@@ -988,7 +1010,7 @@ case 45:
     };
     var2['ACTIVE_BOGO_PROMOTION_FETCH_FAIL'] = var9;
     var9 = function handleDismissOutboundPromotionNotice() {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = global;
             var5 = var1.Object;
@@ -1006,15 +1028,15 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var4 = var2.length;
             var2 = 0;
-            if(!(var2 !== var4)) { _fun0014_ip = 9; continue _fun0014 }
+            if(!(var2 !== var4)) { _fun0015_ip = 9; continue _fun0015 }
 case 4:
             var2 = _closure1_slot21;
             var2 = var2.bind(var1)();
             var4 = null;
-            if(!(var4 != var2)) { _fun0014_ip = 47; continue _fun0014 }
-case 48:
+            if(!(var4 != var2)) { _fun0015_ip = 52; continue _fun0015 }
+case 53:
             _closure1_slot18 = var2;
-case 47:
+case 52:
             return var1;
 case 9:
             var1 = false;
@@ -1023,7 +1045,7 @@ case 9:
     };
     var2['OUTBOUND_PROMOTION_NOTICE_DISMISS'] = var9;
     var9 = function handleOutboundPromotionsSeen() {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var1 = global;
             var5 = var1.Object;
@@ -1041,17 +1063,17 @@ case 0:
             var3 = var4.bind(var5)(var3);
             var4 = var3.length;
             var3 = 0;
-            if(!(var3 !== var4)) { _fun0015_ip = 8; continue _fun0015 }
+            if(!(var3 !== var4)) { _fun0016_ip = 8; continue _fun0016 }
 case 4:
             var3 = _closure1_slot21;
             var3 = var3.bind(var1)();
             var4 = null;
-            if(!(var4 != var3)) { _fun0015_ip = 49; continue _fun0015 }
-case 48:
+            if(!(var4 != var3)) { _fun0016_ip = 54; continue _fun0016 }
+case 53:
             _closure1_slot18 = var3;
             var2 = _closure1_slot10;
             var2['lastSeenOutboundPromotionStartDate'] = var3;
-case 49:
+case 54:
             return var1;
 case 8:
             var1 = false;

@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -31,31 +31,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var4 = arg1;
             var11 = var4.message;
-            var5 = var4.theme;
-            var7 = _closure1_slot1;
-            var6 = _closure1_slot2;
+            var8 = var4.theme;
+            var6 = var4.roleStyle;
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
             var1 = 1;
-            var1 = var6[var1];
+            var1 = var7[var1];
             var3 = undefined;
-            var1 = var7.bind(var3)(var1);
-            var13 = var1.bind(var3)(var5);
-            var5 = _closure1_slot0;
+            var1 = var5.bind(var3)(var1);
+            var13 = var1.bind(var3)(var8);
+            var8 = _closure1_slot0;
             var1 = 2;
-            var1 = var6[var1];
+            var1 = var7[var1];
+            var8 = var8.bind(var3)(var1);
+            var1 = var8.getMessageAuthorWithProcessedColor;
+            var14 = var1.bind(var8)(var11);
+            var1 = 3;
+            var1 = var7[var1];
             var5 = var5.bind(var3)(var1);
-            var1 = var5.getMessageAuthor;
-            var1 = var1.bind(var5)(var11);
-            var14 = var1.nick;
-            var10 = {};
-            var1 = 'bindUserMenu';
-            var10['action'] = var1;
-            var1 = var11.author;
-            var1 = var1.id;
-            var10['userId'] = var1;
-            var1 = var11.channel_id;
-            var10['messageChannelId'] = var1;
-            var1 = true;
-            var10['medium'] = var1;
+            var1 = {};
+            var1['message'] = var11;
+            var1['author'] = var14;
+            var1['roleStyle'] = var6;
+            var10 = var5.bind(var3)(var1);
             var6 = _closure1_slot3;
             var5 = var6.getChannel;
             var1 = var11.channel_id;
@@ -84,7 +82,7 @@ case 5:
 case 8:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 3;
+            var1 = 4;
             var1 = var7[var1];
             var1 = var6.bind(var3)(var1);
             var1 = var1.t;
@@ -93,7 +91,7 @@ case 8:
 case 7:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 3;
+            var1 = 4;
             var1 = var7[var1];
             var1 = var6.bind(var3)(var1);
             var1 = var1.t;
@@ -102,7 +100,7 @@ case 9:
             var1 = {};
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var16 = 3;
+            var16 = 4;
             var6 = var6[var16];
             var6 = var7.bind(var3)(var6);
             var8 = var6.intl;
@@ -123,7 +121,8 @@ case 12:
             var6 = var5.qa0e/n;
 case 14:
             var5 = {};
-            var5['username'] = var14;
+            var15 = var14.nick;
+            var5['username'] = var15;
             var5['usernameOnClick'] = var10;
             var15 = var11.content;
             var5['channelName'] = var15;
@@ -131,6 +130,7 @@ case 14:
             _fun0001_ip = 15; continue _fun0001;
 case 10:
             var6 = {};
+            var14 = var14.nick;
             var6['username'] = var14;
             var6['usernameOnClick'] = var10;
             var10 = var11.content;
@@ -153,7 +153,7 @@ case 15:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 4;
+            var2 = 5;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
             var17 = var2.bind(var3)(var4);

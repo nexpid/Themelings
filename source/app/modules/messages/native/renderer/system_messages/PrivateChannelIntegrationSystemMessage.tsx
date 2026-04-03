@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageTypes;
     var _closure1_slot3 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -31,45 +31,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
-            var6 = var4.message;
-            var1 = var6.author;
-            var7 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var3 = 1;
-            var5 = var5[var3];
+            var5 = var4.message;
+            var7 = var4.roleStyle;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 1;
+            var1 = var8[var1];
             var3 = undefined;
-            var7 = var7.bind(var3)(var5);
-            var5 = var7.getMessageAuthor;
-            var5 = var5.bind(var7)(var6);
-            var11 = var5.nick;
-            var10 = {};
-            var7 = 'bindUserMenu';
-            var10['action'] = var7;
-            var1 = var1.id;
-            var10['userId'] = var1;
-            var1 = var6.channel_id;
-            var10['messageChannelId'] = var1;
-            var5 = true;
-            var10['medium'] = var5;
-            var12 = var6.application;
-            var8 = null;
-            var9 = var8 == var12;
+            var6 = var6.bind(var3)(var1);
+            var1 = var6.getMessageAuthorWithProcessedColor;
+            var11 = var1.bind(var6)(var5);
+            var6 = _closure1_slot1;
+            var1 = 2;
+            var1 = var8[var1];
+            var6 = var6.bind(var3)(var1);
+            var1 = {};
+            var1['message'] = var5;
+            var1['author'] = var11;
+            var1['roleStyle'] = var7;
+            var10 = var6.bind(var3)(var1);
+            var12 = var5.application;
+            var6 = null;
+            var7 = var6 == var12;
             var1 = undefined;
-            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = var12.bot;
 case 2:
-            var1 = var8 != var1;
+            var1 = var6 != var1;
             var9 = undefined;
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var1 = {};
-            var1['action'] = var7;
-            var7 = var12.bot;
-            var7 = var7.id;
-            var1['userId'] = var7;
-            var6 = var6.channel_id;
-            var1['messageChannelId'] = var6;
+            var6 = 'bindUserMenu';
+            var1['action'] = var6;
+            var6 = var12.bot;
+            var6 = var6.id;
+            var1['userId'] = var6;
+            var5 = var5.channel_id;
+            var1['messageChannelId'] = var5;
+            var5 = true;
             var1['medium'] = var5;
             var9 = var1;
 case 4:
@@ -81,13 +82,14 @@ case 4:
 case 7:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var5 = 2;
+            var5 = 3;
             var5 = var7[var5];
             var7 = var6.bind(var3)(var5);
             var6 = var7.getPrivateChannelIntegrationRemovedSystemMessageASTContent;
             var5 = {};
             var5['application'] = var12;
-            var5['username'] = var11;
+            var8 = var11.nick;
+            var5['username'] = var8;
             var5['usernameOnClick'] = var10;
             var5['applicationNameOnClick'] = var9;
             var5 = var6.bind(var7)(var5);
@@ -95,12 +97,13 @@ case 7:
 case 6:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var6 = 2;
+            var6 = 3;
             var6 = var8[var6];
             var8 = var7.bind(var3)(var6);
             var7 = var8.getPrivateChannelIntegrationAddedSystemMessageASTContent;
             var6 = {};
             var6['application'] = var12;
+            var11 = var11.nick;
             var6['username'] = var11;
             var6['usernameOnClick'] = var10;
             var6['applicationNameOnClick'] = var9;
@@ -109,7 +112,7 @@ case 8:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 3;
+            var2 = 4;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
             var13 = var2.bind(var3)(var4);

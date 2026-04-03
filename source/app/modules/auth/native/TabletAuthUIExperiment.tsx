@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'name': '2026-02-tablet-auth-ui', 'kind': 'user'};
+    var2 = {'name': '2026-02-tablet-auth-ui', 'kind': 'installation'};
     var8 = {};
     var9 = false;
     var8['enabled'] = var9;

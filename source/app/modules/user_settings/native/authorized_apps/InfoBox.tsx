@@ -1,4 +1,4 @@
-// app/modules/user_settings/native/shared/InfoBox.tsx
+// app/modules/user_settings/native/authorized_apps/InfoBox.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var13 = metroImportDefault;
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/user_settings/native/shared/InfoBox.tsx';
+    var5 = 'modules/user_settings/native/authorized_apps/InfoBox.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function InfoBox(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

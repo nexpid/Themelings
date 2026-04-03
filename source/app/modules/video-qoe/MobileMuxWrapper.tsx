@@ -559,7 +559,7 @@ case 34:
                 var3 = this;
                 var5 = var3.muxIntegration;
                 if(!(var2 != var5)) { _fun0020_ip = 33; continue _fun0020 }
-case 35:
+case 28:
                 var4 = var5.emitRenditionChange;
                 var3 = var1.width;
                 var2 = var1.height;
@@ -581,7 +581,7 @@ case 0:
                 var3 = this;
                 var1 = undefined;
                 var4 = undefined;
-case 36: // try_start_0
+case 35: // try_start_0
                 var5 = var3.seekTimeout;
                 var2 = null;
                 if(!(var2 != var5)) { _fun0021_ip = 25; continue _fun0021 }
@@ -594,22 +594,22 @@ case 19:
 case 25:
                 var5 = var3.muxIntegration;
                 var4 = var5;
-                if(!(var2 != var5)) { _fun0021_ip = 37; continue _fun0021 }
+                if(!(var2 != var5)) { _fun0021_ip = 36; continue _fun0021 }
 case 26:
                 var5 = var4;
                 var4 = var5.destroy;
                 var4 = var4.bind(var5)();
-case 37:
+case 36:
                 var3['muxIntegration'] = var2;
-case 38: // try_end0
-                _fun0021_ip = 39; continue _fun0021;
-case 40: // catch_target0
+case 37: // try_end0
+                _fun0021_ip = 38; continue _fun0021;
+case 39: // catch_target0
                 CatchBlockStart(arg_register=4);
                 var4 = _closure1_slot4;
                 var3 = var4.error;
                 var2 = 'Error destroying MobileMuxWrapper';
                 var2 = var3.bind(var4)(var2, var5);
-case 39:
+case 38:
                 return var1;
             }
         };
@@ -627,16 +627,16 @@ case 0:
                 var3 = var1 == var4;
                 var2 = undefined;
                 if(var3) { _fun0022_ip = 16; continue _fun0022 }
-case 41:
+case 40:
                 var3 = var4.getSessionId;
                 var2 = var3.bind(var4)();
 case 16:
                 var3 = var1 != var2;
                 var1 = null;
-                if(!var3) { _fun0022_ip = 42; continue _fun0022 }
-case 43:
-                var1 = var2;
+                if(!var3) { _fun0022_ip = 41; continue _fun0022 }
 case 42:
+                var1 = var2;
+case 41:
                 return var1;
             }
         };

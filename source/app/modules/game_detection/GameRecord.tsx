@@ -311,6 +311,17 @@ case 59:
                 var1['websites'] = var2;
                 var2 = var5.companies;
                 var1['companies'] = var2;
+                var7 = var8 == var3;
+                var2 = undefined;
+                if(var7) { _fun0003_ip = 61; continue _fun0003 }
+case 62:
+                var2 = var3.icon_hash;
+case 61:
+                if(!(var8 == var2)) { _fun0003_ip = 63; continue _fun0003 }
+case 64:
+                var2 = var5.icon_hash;
+case 63:
+                var1['iconHash'] = var2;
                 var2 = var5.cover_image_hash;
                 var1['coverImageHash'] = var2;
                 var2 = var5.banner_hash;
@@ -319,21 +330,21 @@ case 59:
                 var1['screenshotHashes'] = var2;
                 var7 = var8 == var3;
                 var2 = undefined;
-                if(var7) { _fun0003_ip = 61; continue _fun0003 }
-case 62:
+                if(var7) { _fun0003_ip = 65; continue _fun0003 }
+case 66:
                 var2 = var3.screenshot_urls;
-case 61:
-                if(!(var8 == var2)) { _fun0003_ip = 63; continue _fun0003 }
-case 64:
+case 65:
+                if(!(var8 == var2)) { _fun0003_ip = 67; continue _fun0003 }
+case 68:
                 var2 = var5.screenshot_urls;
-case 63:
+case 67:
                 var1['screenshotUrls'] = var2;
                 var2 = var5.trailers;
                 var1['trailers'] = var2;
                 var2 = var5.l30_rank;
                 var1['l30Rank'] = var2;
-                if(!(var8 != var3)) { _fun0003_ip = 65; continue _fun0003 }
-case 66:
+                if(!(var8 != var3)) { _fun0003_ip = 69; continue _fun0003 }
+case 70:
                 var2 = {};
                 var7 = var5.id;
                 var2['applicationId'] = var7;
@@ -362,16 +373,16 @@ case 66:
                 var7 = var3.first_release_date;
                 var2['firstReleaseDate'] = var7;
                 var7 = var3.publisher_names;
-                if(!(var8 == var7)) { _fun0003_ip = 67; continue _fun0003 }
-case 68:
+                if(!(var8 == var7)) { _fun0003_ip = 71; continue _fun0003 }
+case 72:
                 var7 = new Array(0);
-case 67:
+case 71:
                 var2['publishers'] = var7;
                 var7 = var3.developer_names;
-                if(!(var8 == var7)) { _fun0003_ip = 69; continue _fun0003 }
-case 70:
+                if(!(var8 == var7)) { _fun0003_ip = 73; continue _fun0003 }
+case 74:
                 var7 = new Array(0);
-case 69:
+case 73:
                 var2['developers'] = var7;
                 var7 = var5.trailers;
                 var2['trailers'] = var7;
@@ -392,7 +403,7 @@ case 69:
                 var3 = var3.l30_rank;
                 var2['l30Rank'] = var3;
                 var1['supplementalData'] = var2;
-case 65:
+case 69:
                 return var1;
             }
         };

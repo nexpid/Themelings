@@ -59,77 +59,45 @@ case 3:
             var2 = var2.messageReference;
             if(!(var1 != var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var9 = var6.message;
-            var12 = var6.roleStyle;
-            var10 = _closure1_slot0;
-            var14 = _closure1_slot2;
+            var8 = var6.message;
+            var11 = var6.roleStyle;
+            var9 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var2 = 1;
-            var2 = var14[var2];
-            var8 = var10.bind(var5)(var2);
-            var2 = var8.getMessageAuthorWithProcessedColor;
-            var8 = var2.bind(var8)(var9);
-            var2 = var8.nick;
-            var11 = var8.colorString;
-            var13 = var8.colorStrings;
-            var15 = var8.guildId;
-            var8 = 2;
-            var8 = var14[var8];
-            var14 = var10.bind(var5)(var8);
-            var10 = var14.isNativeMessageEligibleForEnhancedRoleColors;
-            var8 = var9.author;
-            var8 = var8.id;
-            var14 = var10.bind(var14)(var15, var8, var12);
+            var2 = var13[var2];
+            var9 = var9.bind(var5)(var2);
+            var2 = var9.getMessageAuthorWithProcessedColor;
+            var12 = var2.bind(var9)(var8);
             var10 = {};
+            var2 = var12.nick;
             var10['username'] = var2;
+            var9 = _closure1_slot1;
+            var2 = 2;
+            var2 = var13[var2];
+            var9 = var9.bind(var5)(var2);
             var2 = {};
-            var8 = 'bindUserMenu';
-            var2['action'] = var8;
-            var8 = var9.author;
-            var8 = var8.id;
-            var2['userId'] = var8;
-            var2['colorString'] = var11;
-            var15 = 'username';
-            var8 = null;
-            if(!(var15 === var12)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var8 = var11;
-case 6:
-            var2['linkColor'] = var8;
-            var2['roleColor'] = var11;
-            var8 = null;
-            if(!var14) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var8 = var13;
-case 8:
-            var2['roleColors'] = var8;
-            var8 = 'dot';
-            var8 = var8 === var12;
-            if(!var8) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var8 = var1 != var11;
-case 10:
-            var2['shouldShowRoleDot'] = var8;
-            var8 = var9.channel_id;
-            var2['messageChannelId'] = var8;
-            var8 = true;
-            var2['medium'] = var8;
+            var2['message'] = var8;
+            var2['author'] = var12;
+            var2['roleStyle'] = var11;
+            var2 = var9.bind(var5)(var2);
             var10['usernameOnClick'] = var2;
             var2 = var7.questionText;
             var10['title'] = var2;
             var2 = {};
-            var11 = 'bindJumpToMessage';
-            var2['action'] = var11;
-            var11 = var9.messageReference;
-            var11 = var11.channel_id;
-            var2['targetChannelId'] = var11;
-            var9 = var9.messageReference;
-            var9 = var9.message_id;
-            var2['targetMessageId'] = var9;
+            var9 = 'bindJumpToMessage';
+            var2['action'] = var9;
+            var9 = var8.messageReference;
+            var9 = var9.channel_id;
+            var2['targetChannelId'] = var9;
+            var8 = var8.messageReference;
+            var8 = var8.message_id;
+            var2['targetMessageId'] = var8;
+            var8 = true;
             var2['medium'] = var8;
             var10['titleOnClick'] = var2;
             var2 = var7.totalVotes;
-            if(!(var4 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!(var4 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = global;
             var9 = var2.Math;
             var8 = var9.round;
@@ -145,15 +113,15 @@ case 13:
             var2 = '%';
             var12 = var8.bind(var4)(var9, var2);
             var2 = var7.victorAnswerId;
-            if(!(var1 != var2)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!(var1 != var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var13 = new Array(0);
             var15 = var7.victorEmoji;
-            if(!(var1 != var15)) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(!(var1 != var15)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = var15.id;
-            if(!(var1 == var2)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(!(var1 == var2)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = var13.push;
             var2 = {};
             var8 = 'emoji';
@@ -171,8 +139,8 @@ case 19:
             var8 = var15.name;
             var2['surrogate'] = var8;
             var2 = var4.bind(var13)(var2);
-            _fun0001_ip = 20; continue _fun0001;
-case 18:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var4 = var13.push;
             var2 = {};
             var8 = var15.id;
@@ -208,11 +176,11 @@ case 18:
             var8 = var9.bind(var11)(var8);
             var2['frozenSrc'] = var8;
             var2 = var4.bind(var13)(var2);
-case 20:
+case 14:
             var4 = var13.push;
             var2 = {'type': 'text', 'content': ' '};
             var2 = var4.bind(var13)(var2);
-case 16:
+case 10:
             var4 = var13.push;
             var2 = {};
             var8 = 'text';
@@ -232,9 +200,9 @@ case 16:
             var2 = var2.t;
             var4 = var2.zFwIxC;
             var2 = {};
-            var22 = var2;
-            var21 = var10;
-            var9 = copyDataProperties(var22, var21);
+            var21 = var2;
+            var20 = var10;
+            var9 = copyDataProperties(var21, var20);
             var11 = _closure1_slot4;
             var9 = {};
             var14 = 'strong';
@@ -246,8 +214,8 @@ case 16:
             var9 = 'percentage';
             var2[8] = var12;
             var4 = var7.bind(var8)(var4, var2);
-            _fun0001_ip = 21; continue _fun0001;
-case 14:
+            _fun0001_ip = 15; continue _fun0001;
+case 8:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 3;
@@ -260,14 +228,14 @@ case 14:
             var2 = var2.t;
             var7 = var2.dqftZ2;
             var2 = {};
-            var22 = var2;
-            var21 = var10;
-            var11 = copyDataProperties(var22, var21);
+            var21 = var2;
+            var20 = var10;
+            var11 = copyDataProperties(var21, var20);
             var11 = 'percentage';
             var2[10] = var12;
             var4 = var8.bind(var9)(var7, var2);
-            _fun0001_ip = 21; continue _fun0001;
-case 12:
+            _fun0001_ip = 15; continue _fun0001;
+case 6:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 3;
@@ -280,25 +248,25 @@ case 12:
             var2 = var2.t;
             var7 = var2["9dPxsm"];
             var2 = {};
-            var22 = var2;
-            var21 = var10;
-            var10 = copyDataProperties(var22, var21);
+            var21 = var2;
+            var20 = var10;
+            var10 = copyDataProperties(var21, var20);
             var11 = _closure1_slot4;
             var10 = {'type': 'emoji', 'content': 'frowning', 'surrogate': '😦'};
             var11 = var11.bind(var5)(var10);
             var10 = 'sadEmojiHook';
             var2[9] = var11;
             var4 = var8.bind(var9)(var7, var2);
-case 21:
+case 15:
             var2 = {};
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 7;
             var3 = var8[var3];
             var3 = var7.bind(var5)(var3);
-            var21 = var3.bind(var5)(var6);
-            var22 = var2;
-            var3 = copyDataProperties(var22, var21);
+            var20 = var3.bind(var5)(var6);
+            var21 = var2;
+            var3 = copyDataProperties(var21, var20);
             var3 = 'content';
             var2[2] = var4;
             return var2;

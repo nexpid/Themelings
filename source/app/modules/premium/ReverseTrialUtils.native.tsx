@@ -67,10 +67,15 @@ case 4:
         return var1;
     };
     var3['useReverseTrialDaysRemaining'] = var4;
-    var2 = function maybeShowReverseTrialUpsellModal() {
+    var4 = function maybeShowReverseTrialInitialUpsellModal() {
         var1 = undefined;
         return var1;
     };
-    var3['maybeShowReverseTrialUpsellModal'] = var2;
+    var3['maybeShowReverseTrialInitialUpsellModal'] = var4;
+    var2 = function maybeShowReverseTrialFollowupUpsellModal() {
+        var1 = undefined;
+        return var1;
+    };
+    var3['maybeShowReverseTrialFollowupUpsellModal'] = var2;
     return var1;
 })();

@@ -340,44 +340,44 @@ case 18:
                         var5 = var3 == var4;
                         var2 = undefined;
                         if(var5) { _fun0006_ip = 19; continue _fun0006 }
-case 9:
+case 20:
                         var5 = var4.sku;
                         var6 = var3 == var5;
                         var2 = undefined;
                         if(var6) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+case 21:
                         var2 = var5.powerup_metadata;
 case 19:
                         if(!(var3 == var2)) { _fun0006_ip = 17; continue _fun0006 }
-case 21:
+case 22:
                         var5 = var4.sku;
                         var6 = var3 == var5;
                         var2 = undefined;
-                        if(var6) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+                        if(var6) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
                         var5 = var5.tenant_metadata;
                         var6 = var3 == var5;
                         var2 = undefined;
-                        if(var6) { _fun0006_ip = 22; continue _fun0006 }
-case 24:
+                        if(var6) { _fun0006_ip = 23; continue _fun0006 }
+case 25:
                         var5 = var5.guild_monetization;
                         var6 = var3 == var5;
                         var2 = undefined;
-                        if(var6) { _fun0006_ip = 22; continue _fun0006 }
-case 25:
+                        if(var6) { _fun0006_ip = 23; continue _fun0006 }
+case 26:
                         var2 = var5.game_server;
-case 22:
-                        if(!(var3 != var2)) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+case 23:
+                        if(!(var3 != var2)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
                         var3 = _closure3_slot1;
                         var2 = var4.id;
                         var3[var2] = var4;
-                        _fun0006_ip = 26; continue _fun0006;
+                        _fun0006_ip = 27; continue _fun0006;
 case 17:
                         var3 = _closure3_slot0;
                         var2 = var4.sku_id;
                         var3[var2] = var4;
-case 26:
+case 27:
                         return var1;
                     }
                 };

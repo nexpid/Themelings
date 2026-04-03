@@ -57,27 +57,20 @@ case 8:
             var14 = var11;
             if(!(var4 === var1)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var6 = _closure1_slot12;
+            var6 = _closure1_slot11;
             var4 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 9;
             var1 = var13[var1];
             var1 = var4.bind(var5)(var1);
             var4 = var1.Text;
-            var1 = {};
-            var13 = true;
-            var1['experimental_useNativeText'] = var13;
-            var13 = _closure1_slot11;
-            var13 = var13.bind(var5)(var3);
-            var1['variant'] = var13;
+            var1 = {'experimental_useNativeText': true, 'variant': 'text-sm/semibold', 'color': null, 'lineClamp': 1};
             var13 = 'text-subtle';
             if(!var15) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var13 = 'text-muted';
 case 12:
             var1['color'] = var13;
-            var13 = 1;
-            var1['lineClamp'] = var13;
             var13 = var19.categoryText;
             var1['style'] = var13;
             var1['children'] = var11;
@@ -88,7 +81,7 @@ case 10:
             var13 = null;
             if(!var4) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var11 = _closure1_slot12;
+            var11 = _closure1_slot11;
             var6 = _closure1_slot4;
             var4 = {};
             var15 = var19.iconWrapperStyles;
@@ -96,8 +89,8 @@ case 15:
             var4['children'] = var12;
             var13 = var11.bind(var5)(var6, var4);
 case 14:
-            var6 = _closure1_slot14;
-            var4 = _closure1_slot13;
+            var6 = _closure1_slot13;
+            var4 = _closure1_slot12;
             var11 = {};
             var12 = new Array(3);
             if(var3) { _fun0001_ip = 16; continue _fun0001 }
@@ -114,7 +107,7 @@ case 16:
             var14 = null;
             if(!var15) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
-            var17 = _closure1_slot12;
+            var17 = _closure1_slot11;
             var16 = _closure1_slot4;
             var15 = {};
             var19 = var19.noteWrapper;
@@ -132,7 +125,7 @@ case 18:
 case 22:
             if(!(var1 == var8)) { _fun0001_ip = 21; continue _fun0001 }
 case 23:
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot11;
             var3 = _closure1_slot4;
             var1 = {};
             var11 = 'header';
@@ -142,7 +135,7 @@ case 23:
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 24; continue _fun0001;
 case 21:
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot11;
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 10;
@@ -162,7 +155,7 @@ case 24:
             return var1;
         }
     };
-    var _closure1_slot18 = var5;
+    var _closure1_slot17 = var5;
     var1 = function renderCollapsibleCategoryItem(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -195,17 +188,17 @@ case 25:
 case 27:
             if(var4) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
-            var9 = _closure1_slot17;
+            var9 = _closure1_slot16;
             _fun0002_ip = 30; continue _fun0002;
 case 28:
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot15;
 case 30:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot17;
             var1 = {};
             var14 = var1;
             var13 = var7;
             var7 = copyDataProperties(var14, var13);
-            var8 = _closure1_slot12;
+            var8 = _closure1_slot11;
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var6 = 12;
@@ -231,7 +224,7 @@ case 30:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot18 = var1;
     var4 = function useCategoryPressEvents(arg1, arg2) {
         var6 = arg1;
         var4 = arg2;
@@ -289,7 +282,7 @@ case 33:
         var1['onLongPress'] = var2;
         return var1;
     };
-    var _closure1_slot20 = var4;
+    var _closure1_slot19 = var4;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -328,19 +321,17 @@ case 33:
     var _closure1_slot8 = var7;
     var7 = var6.CATEGORY_MARGIN_TOP;
     var _closure1_slot9 = var7;
-    var7 = var6.CATEGORY_VERTICAL_PADDING;
-    var _closure1_slot10 = var7;
-    var6 = var6.getCategoryNameTextVariant;
-    var _closure1_slot11 = var6;
+    var6 = var6.CATEGORY_VERTICAL_PADDING;
+    var _closure1_slot10 = var6;
     var6 = 6;
     var6 = var9[var6];
     var6 = var8.bind(var1)(var6);
     var7 = var6.jsx;
-    var _closure1_slot12 = var7;
+    var _closure1_slot11 = var7;
     var7 = var6.Fragment;
-    var _closure1_slot13 = var7;
+    var _closure1_slot12 = var7;
     var6 = var6.jsxs;
-    var _closure1_slot14 = var6;
+    var _closure1_slot13 = var6;
     var6 = 7;
     var6 = var9[var6];
     var10 = var8.bind(var1)(var6);
@@ -413,7 +404,7 @@ case 43:
         }
     };
     var6 = var7.bind(var10)(var6);
-    var _closure1_slot15 = var6;
+    var _closure1_slot14 = var6;
     var10 = {'flexShrink': 0, 'flexGrow': 0};
     var7 = {};
     var15 = var7;
@@ -426,12 +417,12 @@ case 43:
     var12[0] = var11;
     var11 = 'transform';
     var7[10] = var12;
-    var _closure1_slot16 = var7;
+    var _closure1_slot15 = var7;
     var7 = {};
     var15 = var7;
     var14 = var10;
     var10 = copyDataProperties(var15, var14);
-    var _closure1_slot17 = var7;
+    var _closure1_slot16 = var7;
     var7 = 22;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -454,7 +445,7 @@ case 43:
         var5 = var5.bind(var3)(var4);
         var4 = 'CategoryChannel';
         var4 = var5.bind(var3)(var4);
-        var5 = _closure1_slot15;
+        var5 = _closure1_slot14;
         var5 = var5.bind(var3)(var4);
         var8 = _closure1_slot0;
         var7 = 16;
@@ -486,12 +477,12 @@ case 43:
         var2 = var8.bind(var9)(var7, var2);
         var9 = var2.collapsed;
         var10 = var2.muted;
-        var7 = _closure1_slot20;
+        var7 = _closure1_slot19;
         var2 = var11.id;
         var2 = var7.bind(var3)(var2, var9);
         var8 = var2.onPress;
         var7 = var2.onLongPress;
-        var2 = _closure1_slot19;
+        var2 = _closure1_slot18;
         var1 = {};
         var11 = var11.name;
         var1['name'] = var11;
@@ -519,7 +510,7 @@ case 43:
         var5 = var5.bind(var3)(var4);
         var4 = 'RecentlyActiveCategory';
         var4 = var5.bind(var3)(var4);
-        var5 = _closure1_slot15;
+        var5 = _closure1_slot14;
         var5 = var5.bind(var3)(var4);
         var12 = _closure1_slot0;
         var7 = 16;
@@ -558,7 +549,7 @@ case 43:
             return var1;
         };
         var7 = var9.bind(var10)(var2, var7);
-        var2 = _closure1_slot19;
+        var2 = _closure1_slot18;
         var1 = {};
         var9 = 18;
         var10 = var13[var9];
@@ -595,7 +586,7 @@ case 43:
         var4 = var4.bind(var3)(var2);
         var2 = 'SuggestedCategory';
         var4 = var4.bind(var3)(var2);
-        var2 = _closure1_slot15;
+        var2 = _closure1_slot14;
         var5 = var2.bind(var3)(var4);
         var9 = _closure1_slot3;
         var7 = var9.useCallback;
@@ -651,7 +642,7 @@ case 43:
             return var1;
         };
         var7 = var7.bind(var9)(var1, var2);
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot17;
         var1 = {};
         var11 = _closure1_slot0;
         var8 = 18;

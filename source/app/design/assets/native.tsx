@@ -1311,9 +1311,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 259;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);
+    var2 = var2.WumpusCouchSpotIllustration;
+    var3['WumpusCouchSpotIllustration'] = var2;
+    var2 = 260;
+    var2 = var5[var2];
+    var2 = var4.bind(var1)(var2);
     var2 = var2.WumpusGearSpotIllustration;
     var3['WumpusGearSpotIllustration'] = var2;
-    var2 = 260;
+    var2 = 261;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);
     var2 = var2.WumpusMahjongSpotIllustration;

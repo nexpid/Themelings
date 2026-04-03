@@ -412,7 +412,7 @@ case 44:
                 var3 = var10[var3];
                 var14 = var5;
                 if(!(var12 == var3)) { _fun0005_ip = 42; continue _fun0005 }
-case 46:
+case 15:
                 var18 = var16.dependencies;
                 var15 = var18.every;
                 var3 = function(arg1) {
@@ -426,7 +426,7 @@ case 46:
                 var3 = var15.bind(var18)(var3);
                 var14 = var5;
                 if(!var3) { _fun0005_ip = 42; continue _fun0005 }
-case 19:
+case 46:
                 var15 = var16.cost;
                 var3 = _closure2_slot2;
                 var3 = var15 - var3;
@@ -449,11 +449,11 @@ case 42:
                 if(!var3) { _fun0005_ip = 41; continue _fun0005 }
 case 40:
                 var3 = var2.length;
-                if(!(!(var3 > var4))) { _fun0005_ip = 24; continue _fun0005 }
+                if(!(!(var3 > var4))) { _fun0005_ip = 50; continue _fun0005 }
 case 38:
                 var3 = undefined;
                 return var3;
-case 24:
+case 50:
                 var3 = global;
                 var4 = var3.Math;
                 var3 = var4.floor;

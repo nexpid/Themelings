@@ -856,7 +856,7 @@ case 44:
             var6 = var7.iconBg;
             _fun0009_ip = 45; continue _fun0009;
 case 43:
-            var6 = var7.iconBgSelected;
+            var6 = var7.iconBgVoiceMuted;
 case 45:
             var1['style'] = var6;
             var1['children'] = var5;

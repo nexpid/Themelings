@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var4 = arg1;
             var11 = var4.message;
-            var15 = var4.roleStyle;
+            var14 = var4.roleStyle;
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 1;
@@ -39,95 +39,62 @@ case 0:
             var3 = undefined;
             var5 = var5.bind(var3)(var1);
             var1 = var5.getMessageAuthorWithProcessedColor;
-            var1 = var1.bind(var5)(var11);
-            var9 = var1.nick;
-            var14 = var1.colorString;
-            var16 = var1.colorStrings;
-            var8 = var1.guildId;
+            var15 = var1.bind(var5)(var11);
             var6 = _closure1_slot3;
             var5 = var6.getChannel;
             var7 = var11.messageReference;
             var10 = null;
-            var12 = var10 == var7;
+            var8 = var10 == var7;
             var1 = undefined;
-            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = var7.channel_id;
 case 2:
             var12 = var5.bind(var6)(var1);
-            var6 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var1 = 2;
-            var1 = var13[var1];
-            var7 = var6.bind(var3)(var1);
-            var5 = var7.isNativeMessageEligibleForEnhancedRoleColors;
-            var1 = var11.author;
-            var1 = var1.id;
-            var17 = var5.bind(var7)(var8, var1, var15);
             var1 = {};
-            var5 = 3;
-            var7 = var13[var5];
+            var6 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var5 = 2;
+            var7 = var16[var5];
             var7 = var6.bind(var3)(var7);
             var8 = var7.intl;
             var7 = var8.formatToParts;
-            var5 = var13[var5];
+            var5 = var16[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.t;
             var6 = var5.veX9jq;
             var5 = {};
+            var9 = var15.nick;
             var5['actorName'] = var9;
+            var13 = _closure1_slot1;
+            var9 = 3;
+            var9 = var16[var9];
+            var13 = var13.bind(var3)(var9);
             var9 = {};
-            var13 = 'bindUserMenu';
-            var9['action'] = var13;
-            var13 = var11.author;
-            var13 = var13.id;
-            var9['userId'] = var13;
-            var9['colorString'] = var14;
-            var18 = 'username';
-            var13 = null;
-            if(!(var18 === var15)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var13 = var14;
-case 4:
-            var9['linkColor'] = var13;
-            var9['roleColor'] = var14;
-            var13 = null;
-            if(!var17) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var13 = var16;
-case 6:
-            var9['roleColors'] = var13;
-            var13 = 'dot';
-            var13 = var13 === var15;
-            if(!var13) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var13 = var10 != var14;
-case 8:
-            var9['shouldShowRoleDot'] = var13;
-            var13 = var11.channel_id;
-            var9['messageChannelId'] = var13;
-            var13 = true;
-            var9['medium'] = var13;
+            var9['message'] = var11;
+            var9['author'] = var15;
+            var9['roleStyle'] = var14;
+            var9 = var13.bind(var3)(var9);
             var5['actorHook'] = var9;
             var13 = var10 == var12;
             var9 = undefined;
-            if(var13) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var12.name;
-case 10:
-            if(!(var10 == var9)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+case 4:
+            if(!(var10 == var9)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var11.content;
-case 12:
+case 6:
             var5['threadName'] = var9;
             var9 = {'action': 'bindOpenThreadChannel', 'threadId': null, 'medium': true};
             var11 = var11.messageReference;
             var12 = var10 == var11;
             var10 = undefined;
-            if(var12) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = var11.channel_id;
-case 14:
+case 8:
             var9['threadId'] = var10;
             var5['threadOnClick'] = var9;
             var5 = var7.bind(var8)(var6, var5);
@@ -137,9 +104,9 @@ case 14:
             var2 = 4;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
-            var20 = var2.bind(var3)(var4);
-            var21 = var1;
-            var2 = copyDataProperties(var21, var20);
+            var17 = var2.bind(var3)(var4);
+            var18 = var1;
+            var2 = copyDataProperties(var18, var17);
             return var1;
         }
     };

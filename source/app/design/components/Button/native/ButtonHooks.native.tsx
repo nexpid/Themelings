@@ -353,7 +353,7 @@ case 25:
     var6 = var12[var6];
     var6 = var11.bind(var1)(var6);
     var6 = var6.Platform;
-    var9 = 'rgba(0,0,0,0.01)';
+    var9 = 'rgba(0,0,0,0.001)';
     var _closure1_slot4 = var9;
     var6 = 2;
     var7 = var12[var6];

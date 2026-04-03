@@ -23,92 +23,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/messages/native/renderer/system_messages/ChannelPinnedMessageSystemMessage.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function createChannelPinnedMessageSystemMessage(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var4 = arg1;
-            var10 = var4.message;
-            var14 = var4.roleStyle;
-            var6 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var1 = 0;
-            var1 = var11[var1];
-            var3 = undefined;
-            var5 = var6.bind(var3)(var1);
-            var1 = var5.getMessageAuthorWithProcessedColor;
-            var1 = var1.bind(var5)(var10);
-            var9 = var1.nick;
-            var13 = var1.colorString;
-            var15 = var1.colorStrings;
-            var8 = var1.guildId;
-            var1 = 1;
-            var1 = var11[var1];
-            var7 = var6.bind(var3)(var1);
-            var5 = var7.isNativeMessageEligibleForEnhancedRoleColors;
-            var1 = var10.author;
-            var1 = var1.id;
-            var16 = var5.bind(var7)(var8, var1, var14);
-            var1 = {};
-            var5 = 2;
-            var7 = var11[var5];
-            var7 = var6.bind(var3)(var7);
-            var8 = var7.intl;
-            var7 = var8.formatToParts;
-            var5 = var11[var5];
-            var5 = var6.bind(var3)(var5);
-            var5 = var5.t;
-            var6 = var5["6TrHq2"];
-            var5 = {};
-            var5['username'] = var9;
-            var9 = {};
-            var11 = 'bindUserMenu';
-            var9['action'] = var11;
-            var11 = var10.author;
-            var11 = var11.id;
-            var9['userId'] = var11;
-            var9['colorString'] = var13;
-            var12 = null;
-            var17 = 'username';
-            var11 = null;
-            if(!(var17 === var14)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var11 = var13;
-case 2:
-            var9['linkColor'] = var11;
-            var9['roleColor'] = var13;
-            var11 = null;
-            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var11 = var15;
-case 4:
-            var9['roleColors'] = var11;
-            var11 = 'dot';
-            var11 = var11 === var14;
-            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var11 = var12 != var13;
-case 6:
-            var9['shouldShowRoleDot'] = var11;
-            var11 = var10.channel_id;
-            var9['messageChannelId'] = var11;
-            var11 = true;
-            var9['medium'] = var11;
-            var5['usernameOnClick'] = var9;
-            var9 = {'action': 'bindOpenPins', 'messageChannelId': null, 'medium': true};
-            var10 = var10.channel_id;
-            var9['messageChannelId'] = var10;
-            var5['pinsOnClick'] = var9;
-            var5 = var7.bind(var8)(var6, var5);
-            var1['content'] = var5;
-            var5 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var2 = 3;
-            var2 = var6[var2];
-            var2 = var5.bind(var3)(var2);
-            var19 = var2.bind(var3)(var4);
-            var20 = var1;
-            var2 = copyDataProperties(var20, var19);
-            return var1;
-        }
+        var4 = arg1;
+        var11 = var4.message;
+        var13 = var4.roleStyle;
+        var7 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 0;
+        var1 = var6[var1];
+        var3 = undefined;
+        var2 = var7.bind(var3)(var1);
+        var1 = var2.getMessageAuthorWithProcessedColor;
+        var14 = var1.bind(var2)(var11);
+        var1 = {};
+        var2 = 1;
+        var8 = var6[var2];
+        var8 = var7.bind(var3)(var8);
+        var9 = var8.intl;
+        var8 = var9.formatToParts;
+        var2 = var6[var2];
+        var2 = var7.bind(var3)(var2);
+        var2 = var2.t;
+        var7 = var2["6TrHq2"];
+        var2 = {};
+        var10 = var14.nick;
+        var2['username'] = var10;
+        var5 = _closure1_slot1;
+        var10 = 2;
+        var10 = var6[var10];
+        var12 = var5.bind(var3)(var10);
+        var10 = {};
+        var10['message'] = var11;
+        var10['author'] = var14;
+        var10['roleStyle'] = var13;
+        var10 = var12.bind(var3)(var10);
+        var2['usernameOnClick'] = var10;
+        var10 = {'action': 'bindOpenPins', 'messageChannelId': null, 'medium': true};
+        var11 = var11.channel_id;
+        var10['messageChannelId'] = var11;
+        var2['pinsOnClick'] = var10;
+        var2 = var8.bind(var9)(var7, var2);
+        var1['content'] = var2;
+        var2 = 3;
+        var2 = var6[var2];
+        var2 = var5.bind(var3)(var2);
+        var16 = var2.bind(var3)(var4);
+        var17 = var1;
+        var2 = copyDataProperties(var17, var16);
+        return var1;
     };
     var3['createChannelPinnedMessageSystemMessage'] = var2;
     return var1;

@@ -405,67 +405,67 @@ case 28:
         var9[16] = var15;
         var17 = var12.FRIENDS_LIST_CLICKED;
         var15 = {};
-        var15['throttlePeriod'] = var16;
-        var20 = function throttleKeys(arg1) {
+        var20 = 60000;
+        var15['throttlePeriod'] = var20;
+        var21 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.tab_opened;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var20;
+        var15['throttleKeys'] = var21;
         var9[16] = var15;
         var17 = var12.FRIENDS_LIST_VIEWED;
         var15 = {};
         var15['throttlePeriod'] = var16;
-        var20 = function throttleKeys(arg1) {
+        var21 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.tab_opened;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var20;
+        var15['throttleKeys'] = var21;
         var9[16] = var15;
         var17 = var12.NOW_PLAYING_CARD_HOVERED;
         var15 = {};
         var15['throttlePeriod'] = var16;
-        var20 = function throttleKeys(arg1) {
+        var21 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.tab_opened;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var20;
+        var15['throttleKeys'] = var21;
         var9[16] = var15;
         var17 = var12.START_SPEAKING;
         var15 = {};
         var15['throttlePeriod'] = var16;
-        var20 = function throttleKeys(arg1) {
+        var21 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.server;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var20;
+        var15['throttleKeys'] = var21;
         var9[16] = var15;
         var17 = var12.START_LISTENING;
         var15 = {};
         var15['throttlePeriod'] = var16;
-        var20 = function throttleKeys(arg1) {
+        var21 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.server;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var20;
+        var15['throttleKeys'] = var21;
         var9[16] = var15;
         var17 = var12.ACTIVITY_UPDATED;
         var15 = {'throttlePeriod': 60000, 'throttleKeys': null, 'deduplicate': true};
-        var20 = 60000;
         var21 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.application_id;

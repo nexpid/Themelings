@@ -183,8 +183,6 @@ case 2:
                 return var1;
             };
             var10['onChange'] = var18;
-            var18 = false;
-            var10['hasIcons'] = var18;
             var23 = _closure1_slot5;
             var19 = 14;
             var18 = var16[var19];

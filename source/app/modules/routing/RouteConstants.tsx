@@ -522,6 +522,8 @@ case 2:
             }
         };
         var2['SETTINGS'] = var16;
+        var16 = '/settings/advanced/activate-application-test-mode';
+        var2['DEVELOPER_ACTIVATE_APPLICATION_TEST_MODE'] = var16;
         var16 = '/snowsgiving';
         var2['SNOWSGIVING'] = var16;
         var16 = function PLAYGROUND(arg1, arg2) {

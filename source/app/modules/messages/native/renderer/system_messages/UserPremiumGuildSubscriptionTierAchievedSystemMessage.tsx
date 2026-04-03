@@ -35,153 +35,91 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var3 = arg1;
             var13 = arg2;
-            var14 = var3.message;
-            var18 = var3.roleStyle;
-            var15 = var14.author;
+            var7 = var3.message;
+            var6 = var3.roleStyle;
             var5 = _closure1_slot3;
             var4 = var5.getChannel;
-            var2 = var14.getChannelId;
-            var2 = var2.bind(var14)();
-            var6 = var4.bind(var5)(var2);
-            var17 = null;
-            if(!(var17 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = var7.getChannelId;
+            var2 = var2.bind(var7)();
+            var9 = var4.bind(var5)(var2);
+            var2 = null;
+            if(!(var2 != var9)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = _closure1_slot4;
-            var4 = var5.getGuild;
-            var2 = var6.getGuildId;
-            var2 = var2.bind(var6)();
-            var11 = var4.bind(var5)(var2);
-            if(!(var17 != var11)) { _fun0001_ip = 4; continue _fun0001 }
+            var8 = _closure1_slot4;
+            var5 = var8.getGuild;
+            var4 = var9.getGuildId;
+            var4 = var4.bind(var9)();
+            var11 = var5.bind(var8)(var4);
+            if(!(var2 != var11)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var4 = _closure1_slot1;
-            var6 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var2 = 3;
-            var2 = var6[var2];
+            var2 = var8[var2];
             var5 = undefined;
             var2 = var4.bind(var5)(var2);
-            var10 = var2.bind(var5)(var14);
-            var4 = _closure1_slot0;
+            var10 = var2.bind(var5)(var7);
+            var9 = _closure1_slot0;
             var2 = 4;
-            var2 = var6[var2];
-            var7 = var4.bind(var5)(var2);
-            var2 = var7.getMessageAuthorWithProcessedColor;
-            var2 = var2.bind(var7)(var14);
-            var12 = var2.nick;
-            var16 = var2.colorString;
-            var19 = var2.colorStrings;
-            var7 = var2.guildId;
+            var2 = var8[var2];
+            var9 = var9.bind(var5)(var2);
+            var2 = var9.getMessageAuthorWithProcessedColor;
+            var16 = var2.bind(var9)(var7);
             var2 = 5;
-            var2 = var6[var2];
-            var6 = var4.bind(var5)(var2);
-            var4 = var6.isNativeMessageEligibleForEnhancedRoleColors;
-            var2 = var15.id;
-            var20 = var4.bind(var6)(var7, var2, var18);
+            var2 = var8[var2];
+            var4 = var4.bind(var5)(var2);
+            var2 = {};
+            var2['message'] = var7;
+            var2['author'] = var16;
+            var2['roleStyle'] = var6;
+            var15 = var4.bind(var5)(var2);
             var2 = {};
             var4 = 1;
             if(!(!(var10 > var4))) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var14 = _closure1_slot2;
             var4 = 6;
-            var7 = var9[var4];
-            var7 = var6.bind(var5)(var7);
-            var8 = var7.intl;
+            var6 = var14[var4];
+            var6 = var12.bind(var5)(var6);
+            var8 = var6.intl;
             var7 = var8.formatToParts;
-            var4 = var9[var4];
-            var4 = var6.bind(var5)(var4);
+            var4 = var14[var4];
+            var4 = var12.bind(var5)(var4);
             var4 = var4.t;
             var6 = var4.oAYAP7;
             var4 = {};
-            var4['username'] = var12;
-            var9 = {};
-            var21 = 'bindUserMenu';
-            var9['action'] = var21;
-            var21 = var15.id;
-            var9['userId'] = var21;
-            var9['colorString'] = var16;
-            var22 = 'username';
-            var21 = null;
-            if(!(var22 === var18)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var21 = var16;
-case 8:
-            var9['linkColor'] = var21;
-            var9['roleColor'] = var16;
-            var9['roleColors'] = var19;
-            var21 = 'dot';
-            var21 = var21 === var18;
-            if(!var21) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var21 = var17 != var16;
-case 10:
-            var9['shouldShowRoleDot'] = var21;
-            var21 = var14.channel_id;
-            var9['messageChannelId'] = var21;
-            var21 = true;
-            var9['medium'] = var21;
-            var4['usernameOnClick'] = var9;
+            var9 = var16.nick;
+            var4['username'] = var9;
+            var4['usernameOnClick'] = var15;
             var9 = var11.name;
             var4['guildName'] = var9;
-            var21 = _closure1_slot0;
-            var22 = _closure1_slot2;
             var9 = 7;
-            var9 = var22[var9];
-            var21 = var21.bind(var5)(var9);
-            var9 = var21.getTierName;
-            var9 = var9.bind(var21)(var13);
+            var9 = var14[var9];
+            var12 = var12.bind(var5)(var9);
+            var9 = var12.getTierName;
+            var9 = var9.bind(var12)(var13);
             var4['newTierName'] = var9;
             var4 = var7.bind(var8)(var6, var4);
-            _fun0001_ip = 12; continue _fun0001;
+            _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var7 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var14 = _closure1_slot2;
             var6 = 6;
-            var8 = var21[var6];
-            var8 = var7.bind(var5)(var8);
-            var9 = var8.intl;
+            var7 = var14[var6];
+            var7 = var12.bind(var5)(var7);
+            var9 = var7.intl;
             var8 = var9.formatToParts;
-            var6 = var21[var6];
-            var6 = var7.bind(var5)(var6);
+            var6 = var14[var6];
+            var6 = var12.bind(var5)(var6);
             var6 = var6.t;
             var7 = var6.GjNvr7;
             var6 = {};
-            var6['username'] = var12;
-            var12 = {};
-            var21 = 'bindUserMenu';
-            var12['action'] = var21;
-            var15 = var15.id;
-            var12['userId'] = var15;
-            var12['colorString'] = var16;
-            var21 = 'username';
-            var15 = null;
-            if(!(var21 === var18)) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-            var15 = var16;
-case 13:
-            var12['linkColor'] = var15;
-            var12['roleColor'] = var16;
-            var15 = null;
-            if(!var20) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-            var15 = var19;
-case 15:
-            var12['roleColors'] = var15;
-            var15 = 'dot';
-            var15 = var15 === var18;
-            if(!var15) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
-            var15 = var17 != var16;
-case 17:
-            var12['shouldShowRoleDot'] = var15;
-            var14 = var14.channel_id;
-            var12['messageChannelId'] = var14;
-            var14 = true;
-            var12['medium'] = var14;
-            var6['usernameOnClick'] = var12;
+            var16 = var16.nick;
+            var6['username'] = var16;
+            var6['usernameOnClick'] = var15;
             var11 = var11.name;
             var6['guildName'] = var11;
-            var12 = _closure1_slot0;
-            var14 = _closure1_slot2;
             var11 = 7;
             var11 = var14[var11];
             var12 = var12.bind(var5)(var11);
@@ -190,16 +128,16 @@ case 17:
             var6['newTierName'] = var11;
             var6['numSubscriptions'] = var10;
             var4 = var8.bind(var9)(var7, var6);
-case 12:
+case 8:
             var2['content'] = var4;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 8;
             var4 = var7[var4];
             var4 = var6.bind(var5)(var4);
-            var24 = var4.bind(var5)(var3);
-            var25 = var2;
-            var4 = copyDataProperties(var25, var24);
+            var17 = var4.bind(var5)(var3);
+            var18 = var2;
+            var4 = copyDataProperties(var18, var17);
             return var2;
 case 4:
             var5 = _closure1_slot0;

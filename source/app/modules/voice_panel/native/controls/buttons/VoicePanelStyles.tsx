@@ -24,47 +24,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
+            var5 = arg2;
             var1 = {};
             var2 = {};
             var4 = 'transparent';
-            var5 = arg2;
             if(var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var5 = 1;
-            var6 = var6[var5];
-            var5 = undefined;
-            var5 = var7.bind(var5)(var6);
-            var5 = var5.colors;
-            var4 = var5.BACKGROUND_MOD_STRONG;
+            var8 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var6 = 1;
+            var7 = var7[var6];
+            var6 = undefined;
+            var6 = var8.bind(var6)(var7);
+            var6 = var6.colors;
+            var4 = var6.BACKGROUND_MOD_STRONG;
 case 2:
             var2['backgroundColor'] = var4;
             var1['iconBg'] = var2;
             var2 = {};
-            var8 = _closure1_slot1;
-            var5 = _closure1_slot2;
+            var9 = _closure1_slot1;
+            var8 = _closure1_slot2;
             var7 = 1;
-            var5 = var5[var7];
+            var10 = var8[var7];
             var6 = undefined;
-            var5 = var8.bind(var6)(var5);
-            var5 = var5.colors;
-            var5 = var5.WHITE;
-            var2['backgroundColor'] = var5;
+            var10 = var9.bind(var6)(var10);
+            var10 = var10.colors;
+            var10 = var10.WHITE;
+            var2['backgroundColor'] = var10;
             var1['iconBgSelected'] = var2;
             var2 = {};
-            var8 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var5 = var5[var7];
-            var5 = var8.bind(var6)(var5);
-            var8 = var5.colors;
+            var2['borderWidth'] = var7;
+            var10 = var8[var7];
+            var10 = var9.bind(var6)(var10);
+            var10 = var10.colors;
+            var10 = var10.BACKGROUND_VOICE_MUTED;
+            var2['borderColor'] = var10;
+            var8 = var8[var7];
+            var8 = var9.bind(var6)(var8);
+            var8 = var8.colors;
+            var8 = var8.BACKGROUND_VOICE_MUTED;
+            var2['backgroundColor'] = var8;
+            var1['iconBgVoiceMuted'] = var2;
+            var2 = {};
+            var9 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var7];
+            var8 = var9.bind(var6)(var8);
+            var8 = var8.colors;
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var8.WHITE;
-            _fun0001_ip = 6; continue _fun0001;
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
+            var5 = var8.ICON_STRONG;
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
 case 4:
             var5 = var8.INTERACTIVE_TEXT_DEFAULT;
-case 6:
+case 9:
             var2['color'] = var5;
             var1['iconFill'] = var2;
             var2 = {};
@@ -96,13 +115,13 @@ case 6:
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
-            if(var3) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var4.WHITE;
-            _fun0001_ip = 9; continue _fun0001;
-case 7:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var3 = var4.CONTROL_BRAND_FOREGROUND;
-case 9:
+case 12:
             var2['backgroundColor'] = var3;
             var1['iconBadgeIndicator'] = var2;
             return var1;

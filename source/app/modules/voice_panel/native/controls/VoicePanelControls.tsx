@@ -587,89 +587,98 @@ case 23:
     var8 = 'function VoicePanelControlsTsx16(mode,previousMode){const{isScreenReaderEnabled,VoicePanelControlsModes,runOnJS,setIsDrawer}=this.__closure;if(mode===previousMode||!isScreenReaderEnabled)return;if(mode===VoicePanelControlsModes.DRAWER&&previousMode!==VoicePanelControlsModes.DRAWER){runOnJS(setIsDrawer)(true);}else if(mode!==VoicePanelControlsModes.DRAWER&&previousMode===VoicePanelControlsModes.DRAWER){runOnJS(setIsDrawer)(false);}}';
     var4['code'] = var8;
     var _closure1_slot40 = var4;
+    var4 = {};
+    var8 = 'function VoicePanelControlsTsx17(){const{wrapperSpecs}=this.__closure;return wrapperSpecs.get().drawerMode;}';
+    var4['code'] = var8;
+    var _closure1_slot41 = var4;
+    var4 = {};
+    var8 = 'function VoicePanelControlsTsx18(drawerMode,previousDrawerMode){const{isRefreshEnabled,runOnJS,setIsDrawerActive}=this.__closure;if(drawerMode===previousDrawerMode)return;if(!isRefreshEnabled)return;if(drawerMode){runOnJS(setIsDrawerActive)(true);}else{runOnJS(setIsDrawerActive)(false);}}';
+    var4['code'] = var8;
+    var _closure1_slot42 = var4;
     var4 = var7.memo;
     var2 = function VoicePanelControls(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
-            var28 = var2.gestureState;
-            var _closure2_slot0 = var28;
-            var22 = _closure1_slot0;
-            var23 = _closure1_slot2;
+            var29 = var2.gestureState;
+            var _closure2_slot0 = var29;
+            var16 = _closure1_slot0;
+            var22 = _closure1_slot2;
             var2 = 23;
-            var2 = var23[var2];
+            var2 = var22[var2];
             var4 = undefined;
-            var3 = var22.bind(var4)(var2);
+            var3 = var16.bind(var4)(var2);
             var2 = var3.useIsScreenReaderEnabled;
-            var34 = var2.bind(var3)();
-            var _closure2_slot1 = var34;
+            var39 = var2.bind(var3)();
+            var _closure2_slot1 = var39;
             var12 = _closure1_slot1;
             var2 = 36;
-            var2 = var23[var2];
+            var2 = var22[var2];
             var3 = var12.bind(var4)(var2);
             var2 = 'VoicePanelControls';
-            var15 = var3.bind(var4)(var2);
+            var28 = var3.bind(var4)(var2);
+            var _closure2_slot2 = var28;
             var6 = _closure1_slot4;
             var3 = var6.useContext;
             var2 = 13;
-            var2 = var23[var2];
+            var2 = var22[var2];
             var2 = var12.bind(var4)(var2);
             var2 = var3.bind(var6)(var2);
-            var31 = var2.channelId;
-            var _closure2_slot2 = var31;
-            var30 = var2.controlsSpecs;
-            var _closure2_slot3 = var30;
-            var18 = var2.mode;
-            var _closure2_slot4 = var18;
+            var32 = var2.channelId;
+            var _closure2_slot3 = var32;
+            var31 = var2.controlsSpecs;
+            var _closure2_slot4 = var31;
+            var13 = var2.mode;
+            var _closure2_slot5 = var13;
             var7 = var2.setControlsMode;
-            var _closure2_slot5 = var7;
-            var25 = var2.useReducedMotion;
-            var _closure2_slot6 = var25;
+            var _closure2_slot6 = var7;
+            var18 = var2.useReducedMotion;
+            var _closure2_slot7 = var18;
             var2 = _closure1_slot21;
-            var24 = var2.bind(var4)();
+            var23 = var2.bind(var4)();
             var2 = var6.useState;
-            var16 = null;
-            var2 = var2.bind(var6)(var16);
-            var10 = _closure1_slot3;
+            var15 = null;
+            var2 = var2.bind(var6)(var15);
+            var24 = _closure1_slot3;
             var9 = 2;
-            var2 = var10.bind(var4)(var2, var9);
+            var2 = var24.bind(var4)(var2, var9);
             var8 = 0;
             var20 = var2[var8];
-            var _closure2_slot7 = var20;
+            var _closure2_slot8 = var20;
             var3 = 1;
             var2 = var2[var3];
-            var _closure2_slot8 = var2;
-            var33 = 14;
-            var2 = var23[var33];
-            var5 = var22.bind(var4)(var2);
+            var _closure2_slot9 = var2;
+            var34 = 14;
+            var2 = var22[var34];
+            var5 = var16.bind(var4)(var2);
             var2 = var5.useSharedValue;
             var19 = var2.bind(var5)(var20);
-            var _closure2_slot9 = var19;
+            var _closure2_slot10 = var19;
             var5 = var6.useLayoutEffect;
             var2 = function() {
-                var3 = _closure2_slot9;
+                var3 = _closure2_slot10;
                 var2 = var3.set;
-                var1 = _closure2_slot7;
+                var1 = _closure2_slot8;
                 var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;
             };
             var2 = var5.bind(var6)(var2);
             var2 = 37;
-            var2 = var23[var2];
+            var2 = var22[var2];
             var2 = var12.bind(var4)(var2);
-            var26 = var2.bind(var4)(var31);
+            var26 = var2.bind(var4)(var32);
             var2 = 38;
-            var2 = var23[var2];
-            var11 = var22.bind(var4)(var2);
-            var5 = var11.useMaybeFetchSoundboardSounds;
+            var2 = var22[var2];
+            var10 = var16.bind(var4)(var2);
+            var5 = var10.useMaybeFetchSoundboardSounds;
             var2 = {};
             var2['shouldFetch'] = var26;
-            var2 = var5.bind(var11)(var2);
-            var11 = var6.useCallback;
+            var2 = var5.bind(var10)(var2);
+            var10 = var6.useCallback;
             var5 = new Array(3);
-            var5[0] = var31;
-            var5[1] = var30;
+            var5[0] = var32;
+            var5[1] = var31;
             var5[2] = var7;
             var2 = function(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -699,14 +708,14 @@ case 9:
 case 0:
                             var1 = false;
                             var _closure4_slot0 = var1;
-                            var2 = _closure2_slot3;
+                            var2 = _closure2_slot4;
                             var1 = var2.get;
                             var1 = var1.bind(var2)();
                             var2 = var1.mode;
                             var1 = _closure1_slot15;
                             var1 = var1.DRAWER;
                             var6 = var2 !== var1;
-                            var7 = _closure2_slot8;
+                            var7 = _closure2_slot9;
                             var1 = undefined;
                             var2 = function(arg1) {
                                 var1 = _closure3_slot0;
@@ -719,7 +728,7 @@ case 0:
                             var7 = _closure3_slot2;
                             if(var7) { _fun0006_ip = 26; continue _fun0006 }
 case 27:
-                            var8 = _closure2_slot5;
+                            var8 = _closure2_slot6;
                             var7 = {};
                             var9 = _closure1_slot15;
                             var9 = var9.DRAWER;
@@ -741,7 +750,7 @@ case 31:
                             var4 = 19;
                             var4 = var6[var4];
                             var5 = var5.bind(var1)(var4);
-                            var4 = _closure2_slot2;
+                            var4 = _closure2_slot3;
                             var3 = _closure3_slot0;
                             var2 = _closure3_slot1;
                             var2 = var5.bind(var1)(var4, var3, var2);
@@ -753,17 +762,17 @@ case 30:
                     return var1;
                 }
             };
-            var17 = var11.bind(var6)(var2, var5);
-            var _closure2_slot10 = var17;
+            var17 = var10.bind(var6)(var2, var5);
+            var _closure2_slot11 = var17;
             var2 = 40;
-            var2 = var23[var2];
+            var2 = var22[var2];
             var2 = var12.bind(var4)(var2);
-            var29 = var2.bind(var4)();
-            var _closure2_slot11 = var29;
-            var11 = var6.useLayoutEffect;
+            var30 = var2.bind(var4)();
+            var _closure2_slot12 = var30;
+            var10 = var6.useLayoutEffect;
             var5 = new Array(4);
-            var5[0] = var31;
-            var5[1] = var30;
+            var5[0] = var32;
+            var5[1] = var31;
             var5[2] = var17;
             var5[3] = var20;
             var2 = function() {
@@ -772,7 +781,7 @@ case 30:
 case 0:
                         var5 = _closure1_slot6;
                         var4 = var5.getChatOpen;
-                        var3 = _closure2_slot2;
+                        var3 = _closure2_slot3;
                         var3 = var4.bind(var5)(var3);
                         var5 = _closure3_slot0;
                         if(!(var3 !== var5)) { _fun0007_ip = 32; continue _fun0007 }
@@ -780,7 +789,7 @@ case 4:
                         var _closure3_slot0 = var3;
                         if(!var3) { _fun0007_ip = 32; continue _fun0007 }
 case 33:
-                        var3 = _closure2_slot10;
+                        var3 = _closure2_slot11;
                         var2 = {};
                         var4 = 'chat';
                         var2['tab'] = var4;
@@ -819,13 +828,13 @@ case 32:
                 };
                 return var1;
             };
-            var2 = var11.bind(var6)(var2, var5);
-            var11 = var6.useEffect;
+            var2 = var10.bind(var6)(var2, var5);
+            var10 = var6.useEffect;
             var5 = new Array(1);
             var5[0] = var17;
             var2 = function() {
                 var5 = function handleOpenChatTab() {
-                    var3 = _closure2_slot10;
+                    var3 = _closure2_slot11;
                     var2 = {};
                     var1 = 'chat';
                     var2['tab'] = var1;
@@ -870,49 +879,49 @@ case 32:
                 };
                 return var1;
             };
-            var2 = var11.bind(var6)(var2, var5);
+            var2 = var10.bind(var6)(var2, var5);
             var2 = 42;
-            var2 = var23[var2];
-            var5 = var22.bind(var4)(var2);
+            var2 = var22[var2];
+            var5 = var16.bind(var4)(var2);
             var2 = var5.getSafeAreaInsets;
-            var13 = var2.bind(var5)();
-            var2 = var23[var33];
-            var11 = var22.bind(var4)(var2);
-            var5 = var11.useSharedValue;
+            var11 = var2.bind(var5)();
+            var2 = var22[var34];
+            var10 = var16.bind(var4)(var2);
+            var5 = var10.useSharedValue;
             var2 = {'width': null, 'height': 0, 'x': 0, 'y': 0, 'drawerMode': false, 'hidden': false};
             var21 = 21;
-            var21 = var23[var21];
-            var35 = var22.bind(var4)(var21);
-            var32 = var35.getControlsDefaultWidth;
+            var21 = var22[var21];
+            var33 = var16.bind(var4)(var21);
+            var27 = var33.getControlsDefaultWidth;
             var21 = 43;
-            var21 = var23[var21];
-            var27 = var22.bind(var4)(var21);
-            var21 = var27.getWindowDimensions;
-            var21 = var21.bind(var27)();
-            var27 = var21.width;
-            var21 = var13.left;
-            var13 = var13.right;
-            var13 = var32.bind(var35)(var27, var21, var13);
-            var2['width'] = var13;
+            var21 = var22[var21];
+            var25 = var16.bind(var4)(var21);
+            var21 = var25.getWindowDimensions;
+            var21 = var21.bind(var25)();
+            var25 = var21.width;
+            var21 = var11.left;
+            var11 = var11.right;
+            var11 = var27.bind(var33)(var25, var21, var11);
+            var2['width'] = var11;
             var27 = false;
-            var21 = var5.bind(var11)(var2);
-            var _closure2_slot12 = var21;
+            var21 = var5.bind(var10)(var2);
+            var _closure2_slot13 = var21;
             var2 = 17;
-            var2 = var23[var2];
-            var11 = var22.bind(var4)(var2);
-            var5 = var11.useToken;
+            var2 = var22[var2];
+            var10 = var16.bind(var4)(var2);
+            var5 = var10.useToken;
             var2 = 10;
-            var2 = var23[var2];
+            var2 = var22[var2];
             var2 = var12.bind(var4)(var2);
             var2 = var2.modules;
             var2 = var2.mobile;
             var2 = var2.VOICE_PANEL_CONTROLS_BORDER_RADIUS;
-            var32 = var5.bind(var11)(var2);
-            var _closure2_slot13 = var32;
-            var2 = var23[var33];
-            var11 = var22.bind(var4)(var2);
-            var5 = var11.useAnimatedStyle;
-            var2 = function ie() {
+            var25 = var5.bind(var10)(var2);
+            var _closure2_slot14 = var25;
+            var2 = var22[var34];
+            var10 = var16.bind(var4)(var2);
+            var5 = var10.useAnimatedStyle;
+            var2 = function le() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = {};
@@ -923,14 +932,14 @@ case 0:
                     var7 = undefined;
                     var10 = var3.bind(var7)(var2);
                     var6 = var10.withSpring;
-                    var3 = _closure2_slot12;
+                    var3 = _closure2_slot13;
                     var2 = var3.get;
                     var2 = var2.bind(var3)();
                     var3 = var2.drawerMode;
                     var5 = 0;
                     if(var3) { _fun0008_ip = 34; continue _fun0008 }
 case 12:
-                    var5 = _closure2_slot13;
+                    var5 = _closure2_slot14;
 case 34:
                     var3 = _closure1_slot9;
                     var3 = var6.bind(var10)(var5, var3);
@@ -940,14 +949,14 @@ case 34:
                     var3 = var3[var9];
                     var10 = var5.bind(var7)(var3);
                     var6 = var10.withSpring;
-                    var5 = _closure2_slot12;
+                    var5 = _closure2_slot13;
                     var3 = var5.get;
                     var3 = var3.bind(var5)();
                     var3 = var3.drawerMode;
                     var5 = 0;
                     if(var3) { _fun0008_ip = 35; continue _fun0008 }
 case 36:
-                    var5 = _closure2_slot13;
+                    var5 = _closure2_slot14;
 case 35:
                     var3 = _closure1_slot9;
                     var3 = var6.bind(var10)(var5, var3);
@@ -957,7 +966,7 @@ case 35:
                     var6 = var3[var9];
                     var13 = var5.bind(var7)(var6);
                     var12 = var13.withSpring;
-                    var10 = _closure2_slot12;
+                    var10 = _closure2_slot13;
                     var6 = var10.get;
                     var6 = var6.bind(var10)();
                     var11 = var6.height;
@@ -1010,7 +1019,7 @@ case 37:
                     var2 = var5[var9];
                     var12 = var6.bind(var7)(var2);
                     var11 = var12.withSpring;
-                    var10 = _closure2_slot12;
+                    var10 = _closure2_slot13;
                     var2 = var10.get;
                     var2 = var2.bind(var10)();
                     var10 = var2.x;
@@ -1023,12 +1032,12 @@ case 37:
                     var5 = var5[var9];
                     var7 = var6.bind(var7)(var5);
                     var6 = var7.withSpring;
-                    var9 = _closure2_slot6;
+                    var9 = _closure2_slot7;
                     var5 = var9.get;
                     var5 = var5.bind(var9)();
                     if(var5) { _fun0008_ip = 39; continue _fun0008 }
 case 40:
-                    var9 = _closure2_slot12;
+                    var9 = _closure2_slot13;
                     var5 = var9.get;
                     var5 = var5.bind(var9)();
                     var5 = var5.hidden;
@@ -1046,19 +1055,19 @@ case 43:
                     var5 = var5.requiresPop;
                     if(var5) { _fun0008_ip = 39; continue _fun0008 }
 case 41:
-                    var9 = _closure2_slot12;
+                    var9 = _closure2_slot13;
                     var5 = var9.get;
                     var5 = var5.bind(var9)();
                     var9 = var5.height;
                     var5 = _closure1_slot12;
                     var9 = var9 + var5;
-                    var10 = _closure2_slot11;
+                    var10 = _closure2_slot12;
                     var5 = var10.get;
                     var5 = var5.bind(var10)();
                     var5 = var9 + var5;
                     _fun0008_ip = 44; continue _fun0008;
 case 39:
-                    var9 = _closure2_slot12;
+                    var9 = _closure2_slot13;
                     var8 = var9.get;
                     var8 = var8.bind(var9)();
                     var5 = var8.y;
@@ -1071,52 +1080,52 @@ case 44:
                     return var1;
                 }
             };
-            var13 = {};
-            var35 = 34;
-            var35 = var23[var35];
-            var35 = var22.bind(var4)(var35);
-            var35 = var35.withSpring;
-            var13['withSpring'] = var35;
-            var13['wrapperSpecs'] = var21;
-            var13['borderRadius'] = var32;
-            var32 = _closure1_slot9;
-            var13['BORDER_RADIUS_PHYSICS'] = var32;
-            var32 = _closure1_slot10;
-            var13['PANEL_CONTROLS_HEIGHT_PHYSICS'] = var32;
-            var32 = _closure1_slot8;
-            var13['MODE_CHANGE_PHYSICS'] = var32;
-            var32 = 44;
-            var32 = var23[var32];
-            var32 = var12.bind(var4)(var32);
-            var13['roundToNearestPixel'] = var32;
-            var32 = _closure1_slot7;
-            var13['UI_SHOW_HIDE_PHYSICS'] = var32;
-            var13['useReducedMotion'] = var25;
-            var13['gestureState'] = var28;
-            var25 = _closure1_slot12;
-            var13['CALL_TILE_GUTTER'] = var25;
-            var13['accessoryHeights'] = var29;
-            var2['__closure'] = var13;
-            var13 = 14734014706335.0;
-            var2['__workletHash'] = var13;
-            var13 = _closure1_slot37;
-            var2['__initData'] = var13;
-            var25 = var5.bind(var11)(var2);
-            var2 = var23[var33];
-            var11 = var22.bind(var4)(var2);
-            var5 = var11.useAnimatedProps;
-            var2 = function ce() {
+            var11 = {};
+            var33 = 34;
+            var33 = var22[var33];
+            var33 = var16.bind(var4)(var33);
+            var33 = var33.withSpring;
+            var11['withSpring'] = var33;
+            var11['wrapperSpecs'] = var21;
+            var11['borderRadius'] = var25;
+            var25 = _closure1_slot9;
+            var11['BORDER_RADIUS_PHYSICS'] = var25;
+            var25 = _closure1_slot10;
+            var11['PANEL_CONTROLS_HEIGHT_PHYSICS'] = var25;
+            var25 = _closure1_slot8;
+            var11['MODE_CHANGE_PHYSICS'] = var25;
+            var25 = 44;
+            var25 = var22[var25];
+            var25 = var12.bind(var4)(var25);
+            var11['roundToNearestPixel'] = var25;
+            var25 = _closure1_slot7;
+            var11['UI_SHOW_HIDE_PHYSICS'] = var25;
+            var11['useReducedMotion'] = var18;
+            var11['gestureState'] = var29;
+            var18 = _closure1_slot12;
+            var11['CALL_TILE_GUTTER'] = var18;
+            var11['accessoryHeights'] = var30;
+            var2['__closure'] = var11;
+            var11 = 14734014706335.0;
+            var2['__workletHash'] = var11;
+            var11 = _closure1_slot37;
+            var2['__initData'] = var11;
+            var25 = var5.bind(var10)(var2);
+            var2 = var22[var34];
+            var10 = var16.bind(var4)(var2);
+            var5 = var10.useAnimatedProps;
+            var2 = function ge() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var1 = {};
-                    var4 = _closure2_slot4;
+                    var4 = _closure2_slot5;
                     var3 = var4.get;
                     var4 = var3.bind(var4)();
                     var3 = _closure1_slot11;
                     var3 = var3.PANEL;
                     if(!(var4 === var3)) { _fun0009_ip = 45; continue _fun0009 }
 case 46:
-                    var3 = _closure2_slot12;
+                    var3 = _closure2_slot13;
                     var2 = var3.get;
                     var2 = var2.bind(var3)();
                     var3 = var2.hidden;
@@ -1129,17 +1138,17 @@ case 47:
                     return var1;
                 }
             };
-            var13 = {};
-            var13['mode'] = var18;
-            var18 = _closure1_slot11;
-            var13['VoicePanelModes'] = var18;
-            var13['wrapperSpecs'] = var21;
-            var2['__closure'] = var13;
-            var13 = 5608048435620.0;
-            var2['__workletHash'] = var13;
-            var13 = _closure1_slot38;
-            var2['__initData'] = var13;
-            var13 = var5.bind(var11)(var2);
+            var11 = {};
+            var11['mode'] = var13;
+            var13 = _closure1_slot11;
+            var11['VoicePanelModes'] = var13;
+            var11['wrapperSpecs'] = var21;
+            var2['__closure'] = var11;
+            var11 = 5608048435620.0;
+            var2['__workletHash'] = var11;
+            var11 = _closure1_slot38;
+            var2['__initData'] = var11;
+            var13 = var5.bind(var10)(var2);
             var2 = function useControlsGesture(arg1, arg2, arg3, arg4) {
                 var17 = arg1;
                 var18 = arg2;
@@ -2199,12 +2208,12 @@ case 96:
                 var1['gestureSpecs'] = var2;
                 return var1;
             };
-            var40 = undefined;
-            var39 = var20;
-            var38 = var19;
-            var37 = var21;
-            var36 = var17;
-            var2 = var40[var2](var39, var38, var37, var36, var35);
+            var44 = undefined;
+            var43 = var20;
+            var42 = var19;
+            var41 = var21;
+            var40 = var17;
+            var2 = var44[var2](var43, var42, var41, var40, var39);
             var11 = var2.gesture;
             var5 = var2.useScrollLock;
             var18 = var2.gestureSpecs;
@@ -2571,28 +2580,28 @@ case 99:
             var2 = var2.bind(var4)(var21);
             var2 = var6.useState;
             var2 = var2.bind(var6)(var27);
-            var2 = var10.bind(var4)(var2, var9);
+            var2 = var24.bind(var4)(var2, var9);
             var10 = var2[var8];
-            var32 = var2[var3];
-            var _closure2_slot14 = var32;
-            var2 = var23[var33];
-            var9 = var22.bind(var4)(var2);
-            var8 = var9.useAnimatedReaction;
-            var3 = function Ee() {
-                var2 = _closure2_slot3;
+            var38 = var2[var3];
+            var _closure2_slot15 = var38;
+            var2 = var22[var34];
+            var36 = var16.bind(var4)(var2);
+            var35 = var36.useAnimatedReaction;
+            var33 = function Ce() {
+                var2 = _closure2_slot4;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
                 var1 = var1.mode;
                 return var1;
             };
             var2 = {};
-            var2['controlsSpecs'] = var30;
-            var3['__closure'] = var2;
+            var2['controlsSpecs'] = var31;
+            var33['__closure'] = var2;
             var2 = 7719878249076.0;
-            var3['__workletHash'] = var2;
+            var33['__workletHash'] = var2;
             var2 = _closure1_slot39;
-            var3['__initData'] = var2;
-            var2 = function Te(arg1, arg2) {
+            var33['__initData'] = var2;
+            var2 = function De(arg1, arg2) {
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     var3 = arg1;
@@ -2630,7 +2639,7 @@ case 128:
                     var4 = undefined;
                     var5 = var3.bind(var4)(var2);
                     var3 = var5.runOnJS;
-                    var2 = _closure2_slot14;
+                    var2 = _closure2_slot15;
                     var3 = var3.bind(var5)(var2);
                     var2 = false;
                     var2 = var3.bind(var4)(var2);
@@ -2643,7 +2652,7 @@ case 126:
                     var3 = undefined;
                     var4 = var2.bind(var3)(var1);
                     var2 = var4.runOnJS;
-                    var1 = _closure2_slot14;
+                    var1 = _closure2_slot15;
                     var2 = var2.bind(var4)(var1);
                     var1 = true;
                     var1 = var2.bind(var3)(var1);
@@ -2652,19 +2661,89 @@ case 124:
                     return var1;
                 }
             };
+            var37 = {};
+            var37['isScreenReaderEnabled'] = var39;
+            var39 = _closure1_slot15;
+            var37['VoicePanelControlsModes'] = var39;
+            var39 = var22[var34];
+            var39 = var16.bind(var4)(var39);
+            var39 = var39.runOnJS;
+            var37['runOnJS'] = var39;
+            var37['setIsDrawer'] = var38;
+            var2['__closure'] = var37;
+            var37 = 12036469956927.0;
+            var2['__workletHash'] = var37;
+            var37 = _closure1_slot40;
+            var2['__initData'] = var37;
+            var2 = var35.bind(var36)(var33, var2);
+            var2 = var6.useState;
+            var2 = var2.bind(var6)(var27);
+            var2 = var24.bind(var4)(var2, var9);
+            var24 = var2[var8];
+            var33 = var2[var3];
+            var _closure2_slot16 = var33;
+            var2 = var22[var34];
+            var9 = var16.bind(var4)(var2);
+            var8 = var9.useAnimatedReaction;
+            var3 = function be() {
+                var2 = _closure2_slot13;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var1 = var1.drawerMode;
+                return var1;
+            };
+            var2 = {};
+            var2['wrapperSpecs'] = var21;
+            var3['__closure'] = var2;
+            var2 = 2374715205601.0;
+            var3['__workletHash'] = var2;
+            var2 = _closure1_slot41;
+            var3['__initData'] = var2;
+            var2 = function Re(arg1, arg2) {
+                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+                    var1 = arg1;
+                    var2 = arg2;
+                    var2 = var1 !== var2;
+                    if(!var2) { _fun0016_ip = 122; continue _fun0016 }
+case 123:
+                    var2 = _closure2_slot2;
+case 122:
+                    if(!var2) { _fun0016_ip = 11; continue _fun0016 }
+case 129:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 14;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var5 = var4.bind(var3)(var2);
+                    var4 = var5.runOnJS;
+                    var2 = _closure2_slot16;
+                    var2 = var4.bind(var5)(var2);
+                    if(var1) { _fun0016_ip = 130; continue _fun0016 }
+case 131:
+                    var1 = false;
+                    var1 = var2.bind(var3)(var1);
+                    _fun0016_ip = 11; continue _fun0016;
+case 130:
+                    var1 = true;
+                    var1 = var2.bind(var3)(var1);
+case 11:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
             var27 = {};
-            var27['isScreenReaderEnabled'] = var34;
-            var34 = _closure1_slot15;
-            var27['VoicePanelControlsModes'] = var34;
-            var33 = var23[var33];
-            var33 = var22.bind(var4)(var33);
-            var33 = var33.runOnJS;
-            var27['runOnJS'] = var33;
-            var27['setIsDrawer'] = var32;
+            var27['isRefreshEnabled'] = var28;
+            var34 = var22[var34];
+            var34 = var16.bind(var4)(var34);
+            var34 = var34.runOnJS;
+            var27['runOnJS'] = var34;
+            var27['setIsDrawerActive'] = var33;
             var2['__closure'] = var27;
-            var27 = 12036469956927.0;
+            var27 = 1721919006032.0;
             var2['__workletHash'] = var27;
-            var27 = _closure1_slot40;
+            var27 = _closure1_slot42;
             var2['__initData'] = var27;
             var2 = var8.bind(var9)(var3, var2);
             var2 = var6.useId;
@@ -2673,7 +2752,7 @@ case 124:
             var2 = new Array(1);
             var2[0] = var7;
             var1 = function() {
-                var3 = _closure2_slot5;
+                var3 = _closure2_slot6;
                 var2 = {};
                 var1 = _closure1_slot15;
                 var1 = var1.FLOATING_DEFAULT;
@@ -2685,15 +2764,15 @@ case 124:
             var9 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot20;
             var1 = 15;
-            var1 = var23[var1];
-            var1 = var22.bind(var4)(var1);
+            var1 = var22[var1];
+            var1 = var16.bind(var4)(var1);
             var1 = var1.ControlsGestureScrollLock;
             var2 = var1.Provider;
             var1 = {};
             var1['value'] = var5;
             var8 = _closure1_slot18;
             var5 = 45;
-            var5 = var23[var5];
+            var5 = var22[var5];
             var6 = var12.bind(var4)(var5);
             var5 = {};
             var5['wrapperSpecs'] = var21;
@@ -2702,118 +2781,115 @@ case 124:
             var5[0] = var6;
             var7 = _closure1_slot34;
             var6 = {};
-            var6['channelId'] = var31;
+            var6['channelId'] = var32;
             var6['wrapperSpecs'] = var21;
-            var6['controlsSpecs'] = var30;
-            var6['accessoryHeights'] = var29;
-            var6['gestureState'] = var28;
+            var6['controlsSpecs'] = var31;
+            var6['accessoryHeights'] = var30;
+            var6['gestureState'] = var29;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var6 = 46;
-            var6 = var23[var6];
+            var6 = var22[var6];
             var7 = var12.bind(var4)(var6);
             var6 = {};
             var6['nativeID'] = var27;
-            var27 = var24.accessibilityWrapper;
+            var27 = var23.accessibilityWrapper;
             var6['style'] = var27;
             var6['accessibilityViewIsModal'] = var10;
             var6['onAccessibilityEscape'] = var9;
             var9 = 'box-none';
             var6['pointerEvents'] = var9;
             var9 = 18;
-            var9 = var23[var9];
-            var9 = var22.bind(var4)(var9);
+            var9 = var22[var9];
+            var9 = var16.bind(var4)(var9);
             var10 = var9.GestureDetector;
             var9 = {};
             var9['gesture'] = var11;
             var11 = 35;
-            var11 = var23[var11];
+            var11 = var22[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
-            var27 = var24.wrapper;
-            var24 = new Array(2);
-            var24[0] = var27;
-            var24[1] = var25;
-            var11['style'] = var24;
+            var27 = var23.wrapper;
+            var23 = new Array(2);
+            var23[0] = var27;
+            var23[1] = var25;
+            var11['style'] = var23;
             var11['animatedProps'] = var13;
             var13 = 47;
-            var13 = var23[var13];
-            var22 = var22.bind(var4)(var13);
-            var13 = var22.isMetaQuest;
-            var13 = var13.bind(var22)();
-            if(var13) { _fun0004_ip = 129; continue _fun0004 }
-case 130:
-            var23 = _closure1_slot18;
-            var22 = _closure1_slot22;
+            var13 = var22[var13];
+            var16 = var16.bind(var4)(var13);
+            var13 = var16.isMetaQuest;
+            var13 = var13.bind(var16)();
+            if(var13) { _fun0004_ip = 132; continue _fun0004 }
+case 133:
+            var22 = _closure1_slot18;
+            var16 = _closure1_slot22;
             var13 = {};
             var13['openTab'] = var17;
-            var16 = var23.bind(var4)(var22, var13);
-case 129:
-            var13 = new Array(4);
-            var13[0] = var16;
-            var23 = _closure1_slot18;
-            var25 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            if(var15) { _fun0004_ip = 131; continue _fun0004 }
+            var15 = var22.bind(var4)(var16, var13);
 case 132:
-            var15 = 49;
-            var15 = var27[var15];
-            var15 = var25.bind(var4)(var15);
-            var16 = var15.VoicePanelVisualEffectView;
+            var13 = new Array(3);
+            var13[0] = var15;
+            var23 = _closure1_slot20;
+            var16 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var15 = 48;
+            var15 = var22[var15];
+            var15 = var16.bind(var4)(var15);
+            var22 = var15.ThemeContextProvider;
             var15 = {};
-            var22 = !var26;
-            if(!var22) { _fun0004_ip = 133; continue _fun0004 }
-case 134:
-            var28 = _closure1_slot0;
-            var29 = _closure1_slot2;
-            var24 = 50;
-            var24 = var29[var24];
-            var28 = var28.bind(var4)(var24);
-            var24 = var28.isAndroid;
-            var22 = var24.bind(var28)();
-case 133:
-            var15['matchAppTheme'] = var22;
-            var15 = var23.bind(var4)(var16, var15);
-            _fun0004_ip = 135; continue _fun0004;
-case 131:
-            var16 = 48;
-            var16 = var27[var16];
-            var16 = var25.bind(var4)(var16);
-            var22 = var16.ThemeContextProvider;
-            var16 = {};
-            var24 = _closure1_slot17;
-            var24 = var24.MIDNIGHT;
-            var16['theme'] = var24;
-            var24 = 49;
-            var24 = var27[var24];
-            var24 = var25.bind(var4)(var24);
-            var25 = var24.VoicePanelVisualEffectView;
-            var24 = {};
-            var26 = !var26;
-            if(!var26) { _fun0004_ip = 136; continue _fun0004 }
-case 137:
-            var28 = _closure1_slot0;
-            var29 = _closure1_slot2;
-            var27 = 50;
-            var27 = var29[var27];
-            var28 = var28.bind(var4)(var27);
-            var27 = var28.isAndroid;
-            var26 = var27.bind(var28)();
-case 136:
-            var24['matchAppTheme'] = var26;
-            var24 = var23.bind(var4)(var25, var24);
-            var16['children'] = var24;
-            var15 = var23.bind(var4)(var22, var16);
+            var16 = undefined;
+            if(!var28) { _fun0004_ip = 134; continue _fun0004 }
 case 135:
-            var13[1] = var15;
+            var16 = undefined;
+            if(!var26) { _fun0004_ip = 134; continue _fun0004 }
+case 136:
+            var16 = undefined;
+            if(var24) { _fun0004_ip = 134; continue _fun0004 }
+case 137:
+            var24 = _closure1_slot17;
+            var16 = var24.MIDNIGHT;
+case 134:
+            var15['theme'] = var16;
+            var25 = _closure1_slot18;
+            var24 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var16 = 49;
+            var16 = var27[var16];
+            var16 = var24.bind(var4)(var16);
+            var24 = var16.VoicePanelVisualEffectView;
+            var16 = {};
+            var26 = !var26;
+            if(!var26) { _fun0004_ip = 138; continue _fun0004 }
+case 139:
+            var29 = _closure1_slot0;
+            var30 = _closure1_slot2;
+            var27 = 50;
+            var27 = var30[var27];
+            var29 = var29.bind(var4)(var27);
+            var27 = var29.isAndroid;
+            var27 = var27.bind(var29)();
+            if(var27) { _fun0004_ip = 140; continue _fun0004 }
+case 141:
+            var27 = var28;
+case 140:
+            var26 = var27;
+case 138:
+            var16['matchAppTheme'] = var26;
+            var16 = var25.bind(var4)(var24, var16);
+            var24 = new Array(2);
+            var24[0] = var16;
             var16 = _closure1_slot18;
-            var22 = _closure1_slot36;
-            var15 = {};
-            var15['openTab'] = var17;
-            var15['wrapperSpecs'] = var21;
-            var15['sharedTab'] = var19;
-            var15 = var16.bind(var4)(var22, var15);
-            var13[2] = var15;
+            var26 = _closure1_slot36;
+            var25 = {};
+            var25['openTab'] = var17;
+            var25['wrapperSpecs'] = var21;
+            var25['sharedTab'] = var19;
+            var25 = var16.bind(var4)(var26, var25);
+            var24[1] = var25;
+            var15['children'] = var24;
+            var15 = var23.bind(var4)(var22, var15);
+            var13[1] = var15;
             var15 = _closure1_slot1;
             var22 = _closure1_slot2;
             var14 = 51;
@@ -2826,7 +2902,7 @@ case 135:
             var14['gestureSpecs'] = var18;
             var14['openTab'] = var17;
             var14 = var16.bind(var4)(var15, var14);
-            var13[3] = var14;
+            var13[2] = var14;
             var11['children'] = var13;
             var11 = var3.bind(var4)(var12, var11);
             var9['children'] = var11;

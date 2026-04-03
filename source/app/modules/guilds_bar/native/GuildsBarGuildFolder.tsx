@@ -1668,16 +1668,16 @@ case 0:
                         var2 = var2.bind(var3)(var1);
                         var4 = null;
                         var1 = var4 == var2;
-                        if(var1) { _fun0024_ip = 116; continue _fun0024 }
-case 66:
+                        if(var1) { _fun0024_ip = 62; continue _fun0024 }
+case 116:
                         var3 = var2.action;
                         var1 = var4 == var3;
-case 116:
-                        if(var1) { _fun0024_ip = 81; continue _fun0024 }
-case 4:
+case 62:
+                        if(var1) { _fun0024_ip = 117; continue _fun0024 }
+case 48:
                         var1 = var2.action;
                         var1 = var1.bind(var2)();
-case 81:
+case 117:
                         var1 = undefined;
                         return var1;
                     }
@@ -1721,20 +1721,20 @@ case 46:
                     var2 = var6.bind(var2)(var7);
                     var4 = var5 === var2;
 case 84:
-                    if(!var4) { _fun0025_ip = 117; continue _fun0025 }
+                    if(!var4) { _fun0025_ip = 118; continue _fun0025 }
 case 110:
                     var2 = _closure2_slot10;
                     var4 = !var2;
-case 117:
+case 118:
                     var5 = _closure2_slot12;
                     var2 = var5.set;
                     var6 = _closure2_slot0;
                     var7 = null;
                     var6 = var7 != var6;
-                    if(!var6) { _fun0025_ip = 118; continue _fun0025 }
-case 119:
+                    if(!var6) { _fun0025_ip = 119; continue _fun0025 }
+case 120:
                     var7 = _closure2_slot0;
-case 118:
+case 119:
                     var1 = global;
                     var1 = var1.HermesInternal;
                     var6 = var1.concat;
@@ -1743,11 +1743,11 @@ case 118:
                     var1 = var2.bind(var5)(var1);
                     var1 = {};
                     var2 = {};
-                    if(var4) { _fun0025_ip = 120; continue _fun0025 }
-case 121:
+                    if(var4) { _fun0025_ip = 121; continue _fun0025 }
+case 122:
                     var5 = var3.targetOriginY;
-                    _fun0025_ip = 122; continue _fun0025;
-case 120:
+                    _fun0025_ip = 123; continue _fun0025;
+case 121:
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var7 = 15;
@@ -1759,13 +1759,13 @@ case 120:
                     var7 = _closure1_slot12;
                     var6 = 'animate-always';
                     var5 = var9.bind(var10)(var8, var7, var6);
-case 122:
+case 123:
                     var2['originY'] = var5;
-                    if(var4) { _fun0025_ip = 123; continue _fun0025 }
-case 124:
+                    if(var4) { _fun0025_ip = 124; continue _fun0025 }
+case 125:
                     var4 = var3.targetHeight;
                     _fun0025_ip = 24; continue _fun0025;
-case 123:
+case 124:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var6 = 15;
@@ -1825,10 +1825,10 @@ case 24:
             var1['onAccessibilityAction'] = var26;
             var1['selected'] = var25;
             var25 = !var11;
-            if(!var25) { _fun0015_ip = 125; continue _fun0015 }
-case 126:
+            if(!var25) { _fun0015_ip = 126; continue _fun0015 }
+case 127:
             var25 = var12;
-case 125:
+case 126:
             var1['unread'] = var25;
             var25 = false;
             var1['circle'] = var25;
@@ -1845,11 +1845,11 @@ case 125:
             var1['expanded'] = var11;
             var1['layout'] = var5;
             var5 = var7;
-            if(!var11) { _fun0015_ip = 127; continue _fun0015 }
-case 128:
-            var5 = var7;
-            if(var6) { _fun0015_ip = 127; continue _fun0015 }
+            if(!var11) { _fun0015_ip = 128; continue _fun0015 }
 case 129:
+            var5 = var7;
+            if(var6) { _fun0015_ip = 128; continue _fun0015 }
+case 130:
             var11 = _closure1_slot14;
             var7 = _closure1_slot18;
             var6 = {};
@@ -1858,7 +1858,7 @@ case 129:
             var14 = var14.length;
             var6['totalItems'] = var14;
             var5 = var11.bind(var4)(var7, var6);
-case 127:
+case 128:
             var1['externalChildren'] = var5;
             var7 = _closure1_slot14;
             var6 = _closure1_slot1;

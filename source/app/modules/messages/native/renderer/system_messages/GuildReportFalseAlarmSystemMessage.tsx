@@ -29,126 +29,91 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function createGuildReportFalseAlarmSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var8 = arg1;
-            var15 = var8.message;
-            var11 = var8.roleStyle;
-            var17 = var8.theme;
-            var2 = _closure1_slot1;
-            var14 = _closure1_slot2;
+            var6 = arg1;
+            var13 = var6.message;
+            var14 = var6.roleStyle;
+            var4 = var6.theme;
+            var7 = _closure1_slot1;
+            var10 = _closure1_slot2;
             var1 = 1;
-            var1 = var14[var1];
+            var1 = var10[var1];
             var9 = undefined;
-            var1 = var2.bind(var9)(var1);
-            var6 = var1.bind(var9)(var17);
-            var2 = var15.author;
-            var5 = _closure1_slot3;
-            var4 = var5.getChannel;
-            var1 = var15.channel_id;
-            var13 = var4.bind(var5)(var1);
-            var7 = _closure1_slot0;
+            var1 = var7.bind(var9)(var1);
+            var5 = var1.bind(var9)(var4);
+            var8 = _closure1_slot3;
+            var2 = var8.getChannel;
+            var1 = var13.channel_id;
+            var11 = var2.bind(var8)(var1);
+            var8 = _closure1_slot0;
             var1 = 2;
-            var1 = var14[var1];
-            var4 = var7.bind(var9)(var1);
-            var1 = var4.getMessageAuthorWithProcessedColor;
-            var4 = var1.bind(var4)(var15);
-            var1 = var4.nick;
-            var10 = var4.colorString;
-            var12 = var4.colorStrings;
-            var16 = var4.guildId;
-            var4 = 3;
-            var4 = var14[var4];
-            var5 = var7.bind(var9)(var4);
-            var4 = var5.resolveAlertModeColors;
-            var4 = var4.bind(var5)(var17);
-            var4 = var4.automodUsernameColor;
-            var5 = 4;
-            var5 = var14[var5];
-            var14 = var7.bind(var9)(var5);
-            var7 = var14.isNativeMessageEligibleForEnhancedRoleColors;
-            var5 = var2.id;
-            var16 = var7.bind(var14)(var16, var5, var11);
-            var14 = {};
-            var14['username'] = var1;
+            var1 = var10[var1];
+            var2 = var8.bind(var9)(var1);
+            var1 = var2.getMessageAuthorWithProcessedColor;
+            var15 = var1.bind(var2)(var13);
+            var1 = 3;
+            var1 = var10[var1];
+            var2 = var8.bind(var9)(var1);
+            var1 = var2.resolveAlertModeColors;
+            var1 = var1.bind(var2)(var4);
+            var4 = var1.automodUsernameColor;
+            var12 = {};
+            var1 = var15.nick;
+            var12['username'] = var1;
+            var1 = 4;
+            var1 = var10[var1];
+            var2 = var7.bind(var9)(var1);
             var1 = {};
-            var5 = 'bindUserMenu';
-            var1['action'] = var5;
-            var2 = var2.id;
-            var1['userId'] = var2;
-            var1['colorString'] = var10;
-            var5 = null;
-            var7 = 'username';
-            var2 = null;
-            if(!(var7 === var11)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var2 = var10;
-case 2:
-            var1['linkColor'] = var2;
-            var1['roleColor'] = var10;
-            var2 = null;
-            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var2 = var12;
-case 4:
-            var1['roleColors'] = var2;
-            var2 = 'dot';
-            var2 = var2 === var11;
-            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var2 = var5 != var10;
-case 6:
-            var1['shouldShowRoleDot'] = var2;
-            var2 = var15.channel_id;
-            var1['messageChannelId'] = var2;
-            var11 = true;
-            var1['medium'] = var11;
-            var14['usernameOnClick'] = var1;
-            var10 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var1['message'] = var13;
+            var1['author'] = var15;
+            var1['roleStyle'] = var14;
+            var1 = var2.bind(var9)(var1);
+            var12['usernameOnClick'] = var1;
             var1 = 5;
-            var1 = var12[var1];
-            var2 = var10.bind(var9)(var1);
+            var1 = var10[var1];
+            var2 = var7.bind(var9)(var1);
             var1 = {};
-            var1['message'] = var15;
-            var1['channel'] = var13;
+            var1['message'] = var13;
+            var1['channel'] = var11;
+            var11 = true;
             var1['isSystemDM'] = var11;
-            var1['colors'] = var6;
+            var1['colors'] = var5;
             var2 = var2.bind(var9)(var1);
             var1 = {};
-            var6 = 6;
-            var6 = var12[var6];
-            var6 = var10.bind(var9)(var6);
-            var19 = var6.bind(var9)(var8);
-            var20 = var1;
-            var6 = copyDataProperties(var20, var19);
-            var11 = _closure1_slot0;
-            var6 = 7;
-            var8 = var12[var6];
-            var8 = var11.bind(var9)(var8);
-            var13 = var8.intl;
-            var10 = var13.formatToParts;
-            var8 = var12[var6];
-            var8 = var11.bind(var9)(var8);
-            var8 = var8.t;
-            var8 = var8["21+uW4"];
-            var10 = var10.bind(var13)(var8, var14);
-            var8 = 'content';
-            var1[7] = var10;
-            var8 = var12[var6];
-            var8 = var11.bind(var9)(var8);
-            var10 = var8.intl;
-            var8 = var10.string;
-            var6 = var12[var6];
-            var6 = var11.bind(var9)(var6);
+            var5 = 6;
+            var5 = var10[var5];
+            var5 = var7.bind(var9)(var5);
+            var17 = var5.bind(var9)(var6);
+            var18 = var1;
+            var5 = copyDataProperties(var18, var17);
+            var5 = 7;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var11 = var6.intl;
+            var7 = var11.formatToParts;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
             var6 = var6.t;
-            var6 = var6.hG1StD;
-            var6 = var8.bind(var10)(var6);
-            var1[6] = var6;
-            var6 = var5 != var4;
+            var6 = var6["21+uW4"];
+            var7 = var7.bind(var11)(var6, var12);
+            var6 = 'content';
+            var1[5] = var7;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var10[var5];
+            var5 = var8.bind(var9)(var5);
+            var5 = var5.t;
+            var5 = var5.hG1StD;
+            var6 = var6.bind(var7)(var5);
+            var5 = 'username';
+            var1[4] = var6;
             var5 = null;
-            if(!var6) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            var6 = var5 != var4;
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var4;
-case 8:
+case 2:
             var4 = 'usernameColor';
             var1[3] = var5;
             var8 = _closure1_slot0;
@@ -170,9 +135,9 @@ case 8:
             var4 = var3.uri;
             var3 = 'avatarURL';
             var1[2] = var4;
-            var20 = var1;
-            var19 = var2;
-            var2 = copyDataProperties(var20, var19);
+            var18 = var1;
+            var17 = var2;
+            var2 = copyDataProperties(var18, var17);
             return var1;
         }
     };

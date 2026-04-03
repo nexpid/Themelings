@@ -53,7 +53,7 @@ case 3:
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
-            var3 = var3.GIFTING_PROMOTION_ICON;
+            var3 = var3.GIFTING_PROMOTION_DESKTOP_FIRST_TIME_COACHMARK;
             if(!(var3 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var4 = _closure1_slot0;
@@ -61,7 +61,7 @@ case 5:
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
-            var3 = var3.GIFTING_PROMOTION_DESKTOP_FIRST_TIME_COACHMARK;
+            var3 = var3.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
             if(!(var3 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
             var4 = _closure1_slot0;
@@ -69,7 +69,7 @@ case 6:
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
-            var3 = var3.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
+            var3 = var3.GIFTING_PROMOTION_REMINDER;
             if(!(var3 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
 case 7:
             var4 = _closure1_slot0;
@@ -77,73 +77,65 @@ case 7:
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
-            var3 = var3.GIFTING_PROMOTION_REMINDER;
-            if(!(var3 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
-case 8:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var5];
-            var3 = var4.bind(var2)(var3);
-            var3 = var3.DismissibleContent;
             var3 = var3.ACTIVITIES_VOICE_LAUNCHER_BADGE;
-            if(!(var3 !== var6)) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(!(var3 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GUILD_POWERUP_NEW_PERK_AVAILABLE_COACHMARK;
-            if(!(var3 !== var6)) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(!(var3 !== var6)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.COLLECTIBLES_SHOP_WIDE_BANNER;
-            if(!(var3 !== var6)) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!(var3 !== var6)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GAME_SHOP_ANNOUNCEMENT_MODAL;
-            if(!(var3 !== var6)) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!(var3 !== var6)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.COLLECTIBLES_SHOP_MARVEL_RIVALS_ORBS_REWARD;
-            if(!(var3 !== var6)) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!(var3 !== var6)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GAME_SHOP_ORBS_REWARD_BANNER;
-            if(!(var3 !== var6)) { _fun0001_ip = 17; continue _fun0001 }
-case 19:
+            if(!(var3 !== var6)) { _fun0001_ip = 16; continue _fun0001 }
+case 18:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.SLAYER_STOREFRONT_ORBS_REWARDS_ANNOUNCEMENT;
-            if(!(var3 !== var6)) { _fun0001_ip = 17; continue _fun0001 }
-case 20:
+            if(!(var3 !== var6)) { _fun0001_ip = 16; continue _fun0001 }
+case 19:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.SLAYER_STOREFRONT_ORBS_REWARD_WISHLIST_UPSELL;
-            if(!(var3 !== var6)) { _fun0001_ip = 17; continue _fun0001 }
-case 21:
+            if(!(var3 !== var6)) { _fun0001_ip = 16; continue _fun0001 }
+case 20:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 9;
@@ -156,13 +148,13 @@ case 21:
             var3 = var4.bind(var5)(var6, var3);
             var3 = 0;
             return var3;
-case 17:
+case 16:
             var3 = 1;
             return var3;
-case 15:
+case 14:
             var3 = _closure1_slot4;
             return var3;
-case 13:
+case 12:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 8;
@@ -171,10 +163,10 @@ case 13:
             var3 = var4.getWideBannerDismissibleContentVersion;
             var3 = var3.bind(var4)();
             return var3;
-case 11:
+case 10:
             var3 = 0;
             return var3;
-case 9:
+case 8:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 6;
@@ -217,16 +209,16 @@ case 2:
             var1 = null;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var2 = var3.version;
+            if(var4) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
+            var2 = var3.version;
+case 21:
             var3 = var1 != var2;
             var1 = 0;
-            if(!var3) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
-            var1 = var2;
+            if(!var3) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
+            var1 = var2;
+case 23:
             return var1;
         }
     };

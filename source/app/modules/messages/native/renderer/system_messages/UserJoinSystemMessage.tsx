@@ -39,159 +39,125 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
-            var12 = var4.message;
-            var16 = var4.roleStyle;
-            var5 = _closure1_slot0;
+            var17 = var4.message;
+            var15 = var4.roleStyle;
+            var2 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 3;
             var1 = var6[var1];
             var3 = undefined;
-            var5 = var5.bind(var3)(var1);
-            var1 = var5.getMessageAuthorWithProcessedColor;
-            var1 = var1.bind(var5)(var12);
-            var11 = var1.nick;
-            var15 = var1.colorString;
-            var17 = var1.colorStrings;
-            var13 = var1.guildId;
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.getMessageAuthorWithProcessedColor;
+            var16 = var1.bind(var2)(var17);
             var7 = _closure1_slot3;
-            var5 = var7.getChannel;
-            var1 = var12.getChannelId;
-            var1 = var1.bind(var12)();
-            var9 = var5.bind(var7)(var1);
-            var5 = _closure1_slot1;
+            var2 = var7.getChannel;
+            var1 = var17.getChannelId;
+            var1 = var1.bind(var17)();
+            var9 = var2.bind(var7)(var1);
+            var2 = _closure1_slot1;
             var1 = 4;
             var1 = var6[var1];
-            var6 = var5.bind(var3)(var1);
-            var5 = var6.getSystemMessageUserJoinMobile;
-            var1 = var12.id;
-            var10 = var5.bind(var6)(var1);
-            var14 = null;
-            var1 = var14 == var9;
+            var6 = var2.bind(var3)(var1);
+            var2 = var6.getSystemMessageUserJoinMobile;
+            var1 = var17.id;
+            var12 = var2.bind(var6)(var1);
+            var2 = null;
+            var1 = var2 == var9;
             var8 = undefined;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = var9.getGuildId;
             var8 = var1.bind(var9)();
 case 2:
-            var1 = var14 != var8;
-            var6 = undefined;
+            var1 = var2 != var8;
+            var7 = undefined;
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var14 != var9;
-            var6 = undefined;
+            var1 = var2 != var9;
+            var7 = undefined;
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
-            var5 = _closure1_slot4;
-            var1 = var5.getGuild;
-            var1 = var1.bind(var5)(var8);
-            var7 = var14 != var1;
-            if(!var7) { _fun0001_ip = 7; continue _fun0001 }
+            var6 = _closure1_slot4;
+            var1 = var6.getGuild;
+            var1 = var1.bind(var6)(var8);
+            var6 = var2 != var1;
+            if(!var6) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var5 = var1.systemChannelFlags;
+            var2 = var1.systemChannelFlags;
             var1 = _closure1_slot5;
             var1 = var1.SUPPRESS_JOIN_NOTIFICATION_REPLIES;
-            var1 = var5 & var1;
-            var7 = !var1;
+            var1 = var2 & var1;
+            var6 = !var1;
 case 7:
-            var5 = _closure1_slot0;
-            var18 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var10 = _closure1_slot2;
             var1 = 5;
-            var1 = var18[var1];
-            var5 = var5.bind(var3)(var1);
-            var1 = var5.computeIsStickerReplyEnabled;
-            var24 = var5;
-            var23 = var8;
-            var22 = var9;
-            var21 = var12;
-            var20 = var7;
-            var1 = var24[var1](var23, var22, var21, var20, var19);
-            var6 = undefined;
+            var1 = var10[var1];
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.computeIsStickerReplyEnabled;
+            var22 = var2;
+            var21 = var8;
+            var20 = var9;
+            var19 = var17;
+            var18 = var6;
+            var1 = var22[var1](var21, var20, var19, var18, var17);
+            var7 = undefined;
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 9:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 6;
             var1 = var9[var1];
-            var7 = var8.bind(var3)(var1);
-            var5 = var7.transformSticker;
+            var6 = var8.bind(var3)(var1);
+            var2 = var6.transformSticker;
             var1 = 7;
             var1 = var9[var1];
             var9 = var8.bind(var3)(var1);
             var8 = var9.pickWelcomeSticker;
-            var1 = var12.id;
+            var1 = var17.id;
             var1 = var8.bind(var9)(var1);
-            var6 = var5.bind(var7)(var1);
+            var7 = var2.bind(var6)(var1);
 case 4:
-            var8 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var1 = 8;
-            var1 = var7[var1];
-            var9 = var8.bind(var3)(var1);
-            var5 = var9.isNativeMessageEligibleForEnhancedRoleColors;
-            var1 = var12.author;
-            var1 = var1.id;
-            var18 = var5.bind(var9)(var13, var1, var16);
             var1 = {};
-            var5 = 9;
-            var7 = var7[var5];
-            var7 = var8.bind(var3)(var7);
-            var9 = var7.intl;
-            var8 = var9.formatToParts;
-            var7 = {};
-            var7['username'] = var11;
-            var11 = {};
-            var13 = 'bindUserMenu';
-            var11['action'] = var13;
-            var13 = var12.author;
-            var13 = var13.id;
-            var11['userId'] = var13;
-            var19 = 'username';
-            var13 = null;
-            if(!(var19 === var16)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var13 = var15;
-case 10:
-            var11['linkColor'] = var13;
-            var13 = null;
-            if(!var18) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var13 = var17;
-case 12:
-            var11['roleColors'] = var13;
-            var13 = 'dot';
-            var13 = var13 === var16;
-            if(!var13) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var13 = var14 != var15;
-case 14:
-            var11['shouldShowRoleDot'] = var13;
-            var12 = var12.channel_id;
-            var11['messageChannelId'] = var12;
-            var12 = true;
-            var11['medium'] = var12;
-            var7['usernameOnClick'] = var11;
-            var7 = var8.bind(var9)(var10, var7);
-            var1['content'] = var7;
-            var1['sticker'] = var6;
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var7 = var6[var5];
+            var2 = 8;
+            var8 = var6[var2];
+            var8 = var9.bind(var3)(var8);
+            var11 = var8.intl;
+            var10 = var11.formatToParts;
+            var8 = {};
+            var13 = var16.nick;
+            var8['username'] = var13;
+            var5 = _closure1_slot1;
+            var13 = 9;
+            var13 = var6[var13];
+            var14 = var5.bind(var3)(var13);
+            var13 = {};
+            var13['message'] = var17;
+            var13['author'] = var16;
+            var13['roleStyle'] = var15;
+            var13 = var14.bind(var3)(var13);
+            var8['usernameOnClick'] = var13;
+            var8 = var10.bind(var11)(var12, var8);
+            var1['content'] = var8;
+            var1['sticker'] = var7;
+            var7 = var6[var2];
             var7 = var9.bind(var3)(var7);
             var8 = var7.intl;
             var7 = var8.string;
-            var5 = var6[var5];
-            var5 = var9.bind(var3)(var5);
-            var5 = var5.t;
-            var5 = var5["7Tj6HT"];
-            var5 = var7.bind(var8)(var5);
-            var1['stickerLabel'] = var5;
-            var5 = _closure1_slot1;
+            var2 = var6[var2];
+            var2 = var9.bind(var3)(var2);
+            var2 = var2.t;
+            var2 = var2["7Tj6HT"];
+            var2 = var7.bind(var8)(var2);
+            var1['stickerLabel'] = var2;
             var2 = 10;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
-            var22 = var2.bind(var3)(var4);
-            var23 = var1;
-            var2 = copyDataProperties(var23, var22);
+            var20 = var2.bind(var3)(var4);
+            var21 = var1;
+            var2 = copyDataProperties(var21, var20);
             return var1;
         }
     };

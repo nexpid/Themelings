@@ -44,162 +44,123 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var4 = arg1;
             var1 = var4.message;
-            var1 = var1.author;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var9 = var4.roleStyle;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var3 = 4;
-            var5 = var10[var3];
+            var5 = var7[var3];
             var3 = undefined;
-            var7 = var9.bind(var3)(var5);
-            var6 = var7.getMessageAuthorWithProcessedColor;
-            var5 = var4.message;
-            var6 = var6.bind(var7)(var5);
-            var11 = var6.nick;
-            var5 = var6.colorString;
-            var8 = var6.colorStrings;
-            var7 = var6.guildId;
-            var6 = 5;
-            var6 = var10[var6];
-            var12 = var9.bind(var3)(var6);
-            var10 = var12.isNativeMessageEligibleForEnhancedRoleColors;
-            var9 = var1.id;
-            var6 = var4.roleStyle;
-            var9 = var10.bind(var12)(var7, var9, var6);
-            var10 = {};
-            var6 = 'bindUserMenu';
-            var10['action'] = var6;
-            var1 = var1.id;
-            var10['userId'] = var1;
-            var1 = var4.message;
-            var1 = var1.channel_id;
-            var10['messageChannelId'] = var1;
-            var1 = true;
-            var10['medium'] = var1;
-            var10['colorString'] = var5;
-            var13 = var4.roleStyle;
+            var8 = var6.bind(var3)(var5);
+            var5 = var8.getMessageAuthorWithProcessedColor;
+            var11 = var5.bind(var8)(var1);
+            var8 = _closure1_slot1;
+            var5 = 5;
+            var5 = var7[var5];
+            var8 = var8.bind(var3)(var5);
+            var5 = {};
+            var5['message'] = var1;
+            var5['author'] = var11;
+            var5['roleStyle'] = var9;
+            var10 = var8.bind(var3)(var5);
+            var5 = 6;
+            var5 = var7[var5];
+            var7 = var6.bind(var3)(var5);
+            var6 = var7.getSystemMessageEmoji;
+            var5 = var1.content;
+            var9 = var6.bind(var7)(var5);
             var6 = null;
-            var12 = 'username';
-            var1 = null;
-            if(!(var12 === var13)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var6 != var9)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var5;
-case 2:
-            var10['linkColor'] = var1;
-            var10['roleColor'] = var5;
-            var1 = null;
-            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+            var8 = _closure1_slot3;
+            var7 = var8.getDisambiguatedEmojiContext;
+            var5 = var11.guildId;
+            var12 = var7.bind(var8)(var5);
+            var7 = var6 == var12;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var8;
-case 4:
-            var10['roleColors'] = var1;
-            var8 = var4.roleStyle;
-            var1 = 'dot';
-            var1 = var1 === var8;
-            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var1 = var6 != var5;
-case 6:
-            var10['shouldShowRoleDot'] = var1;
-            var5 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var1 = 6;
-            var1 = var8[var1];
-            var8 = var5.bind(var3)(var1);
-            var5 = var8.getSystemMessageEmoji;
-            var1 = var4.message;
-            var1 = var1.content;
-            var9 = var5.bind(var8)(var1);
-            if(!(var6 != var9)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var5 = _closure1_slot3;
-            var1 = var5.getDisambiguatedEmojiContext;
-            var8 = var1.bind(var5)(var7);
-            var5 = var6 == var8;
-            var1 = undefined;
-            if(var5) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var7 = var8.getById;
-            var5 = var9.id;
-            var1 = var7.bind(var8)(var5);
-case 10:
-            var7 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var5 = 9;
-            var8 = var15[var5];
-            var13 = var7.bind(var3)(var8);
-            var12 = var13.getEmojiURL;
-            var8 = {};
-            var14 = var9.id;
-            var8['id'] = var14;
-            var14 = var9.animated;
-            var8['animated'] = var14;
-            var14 = 48;
-            var8['size'] = var14;
-            var12 = var12.bind(var13)(var8);
-            var5 = var15[var5];
-            var13 = var7.bind(var3)(var5);
-            var8 = var13.getEmojiURL;
-            var5 = {'id': null, 'animated': false, 'size': 48};
+            var8 = var12.getById;
             var7 = var9.id;
-            var5['id'] = var7;
-            var7 = false;
-            var5 = var8.bind(var13)(var5);
-            var13 = {};
-            var14 = _closure1_slot0;
-            var8 = 10;
-            var8 = var15[var8];
-            var8 = var14.bind(var3)(var8);
-            var8 = var8.AST_KEY;
-            var8 = var8.CUSTOM_EMOJI;
-            var13['type'] = var8;
-            var13['jumboable'] = var7;
-            var13['src'] = var12;
-            var13['frozenSrc'] = var5;
-            var5 = var9.name;
-            var13['alt'] = var5;
-            var5 = var9.id;
-            var13['id'] = var5;
-            var5 = var9.animated;
-            var13['animateEmoji'] = var5;
-            var14 = {'action': 'bindInsertText', 'text': null, 'addSpace': true};
-            var5 = var6 == var1;
-            var7 = undefined;
-            if(var5) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var7 = var1.name;
-case 12:
-            if(!(var6 == var7)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            var5 = var8.bind(var12)(var7);
+case 4:
+            var8 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var7 = 9;
+            var12 = var16[var7];
+            var14 = var8.bind(var3)(var12);
+            var13 = var14.getEmojiURL;
+            var12 = {};
+            var15 = var9.id;
+            var12['id'] = var15;
+            var15 = var9.animated;
+            var12['animated'] = var15;
+            var15 = 48;
+            var12['size'] = var15;
+            var12 = var13.bind(var14)(var12);
+            var7 = var16[var7];
+            var14 = var8.bind(var3)(var7);
+            var13 = var14.getEmojiURL;
+            var7 = {'id': null, 'animated': false, 'size': 48};
+            var8 = var9.id;
+            var7['id'] = var8;
+            var8 = false;
+            var7 = var13.bind(var14)(var7);
+            var14 = {};
+            var15 = _closure1_slot0;
+            var13 = 10;
+            var13 = var16[var13];
+            var13 = var15.bind(var3)(var13);
+            var13 = var13.AST_KEY;
+            var13 = var13.CUSTOM_EMOJI;
+            var14['type'] = var13;
+            var14['jumboable'] = var8;
+            var14['src'] = var12;
+            var14['frozenSrc'] = var7;
             var7 = var9.name;
-case 14:
-            var1 = global;
-            var1 = var1.HermesInternal;
-            var5 = var1.concat;
-            var1 = ':';
-            var1 = var5.bind(var1)(var7, var1);
-            var14['text'] = var1;
-            var5 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var1 = 7;
-            var7 = var15[var1];
-            var7 = var5.bind(var3)(var7);
-            var8 = var7.intl;
-            var7 = var8.formatToParts;
-            var1 = var15[var1];
-            var1 = var5.bind(var3)(var1);
-            var1 = var1.t;
-            var5 = var1.SYlkPk;
-            var1 = {};
-            var1['username'] = var11;
-            var1['usernameOnClick'] = var10;
-            var15 = var9.name;
-            var1['emojiName'] = var15;
-            var1['emojiOnClick'] = var14;
-            var1['emojiPreview'] = var13;
-            var7 = var7.bind(var8)(var5, var1);
+            var14['alt'] = var7;
+            var7 = var9.id;
+            var14['id'] = var7;
+            var7 = var9.animated;
+            var14['animateEmoji'] = var7;
+            var15 = {'action': 'bindInsertText', 'text': null, 'addSpace': true};
+            var7 = var6 == var5;
+            var8 = undefined;
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var8 = var5.name;
+case 6:
+            if(!(var6 == var8)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var8 = var9.name;
+case 8:
+            var5 = global;
+            var5 = var5.HermesInternal;
+            var7 = var5.concat;
+            var5 = ':';
+            var5 = var7.bind(var5)(var8, var5);
+            var15['text'] = var5;
+            var7 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var5 = 7;
+            var8 = var16[var5];
+            var8 = var7.bind(var3)(var8);
+            var13 = var8.intl;
+            var8 = var13.formatToParts;
+            var5 = var16[var5];
+            var5 = var7.bind(var3)(var5);
+            var5 = var5.t;
+            var7 = var5.SYlkPk;
+            var5 = {};
+            var16 = var11.nick;
+            var5['username'] = var16;
+            var5['usernameOnClick'] = var10;
+            var16 = var9.name;
+            var5['emojiName'] = var16;
+            var5['emojiOnClick'] = var15;
+            var5['emojiPreview'] = var14;
+            var7 = var8.bind(var13)(var7, var5);
             var8 = _closure1_slot4;
             var5 = var8.getChannel;
-            var1 = var4.message;
             var1 = var1.channel_id;
             var13 = var5.bind(var8)(var1);
             var8 = _closure1_slot5;
@@ -208,8 +169,8 @@ case 14:
             var1 = var1.ADD_REACTIONS;
             var1 = var5.bind(var8)(var1, var13);
             var5 = undefined;
-            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = {'count': 0, 'burst_count': 0, 'me': false, 'me_burst': false};
             var8 = {};
             var13 = var9.id;
@@ -223,7 +184,7 @@ case 17:
             var8['displayName'] = var9;
             var1['emoji'] = var8;
             var5 = var1;
-case 16:
+case 10:
             var1 = {};
             var1['content'] = var7;
             var8 = _closure1_slot1;
@@ -237,20 +198,20 @@ case 16:
             var7 = var4.reactions;
             var8 = var7.length;
             var7 = 0;
-            if(!(!(var8 > var7))) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-            if(!(var6 != var5)) { _fun0001_ip = 18; continue _fun0001 }
-case 20:
+            if(!(!(var8 > var7))) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            if(!(var6 != var5)) { _fun0001_ip = 12; continue _fun0001 }
+case 14:
             var6 = new Array(1);
             var6[0] = var5;
-            _fun0001_ip = 21; continue _fun0001;
-case 18:
+            _fun0001_ip = 15; continue _fun0001;
+case 12:
             var6 = var4.reactions;
-case 21:
+case 15:
             var5 = 'reactions';
             var1[4] = var6;
             return var1;
-case 8:
+case 2:
             var1 = {};
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -264,6 +225,7 @@ case 8:
             var5 = var5.t;
             var7 = var5["7NBgIX"];
             var5 = {};
+            var11 = var11.nick;
             var5['username'] = var11;
             var5['usernameOnClick'] = var10;
             var5 = var8.bind(var9)(var7, var5);

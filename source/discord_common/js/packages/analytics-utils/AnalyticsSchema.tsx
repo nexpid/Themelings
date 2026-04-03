@@ -215,6 +215,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_CREATE_MODAL_JOIN'] = var2;
     var2 = 'impression_guild_discovery';
     var4['GUILD_DISCOVERY'] = var2;
+    var2 = 'impression_guild_hangout_window';
+    var4['GUILD_HANGOUT_WINDOW'] = var2;
+    var2 = 'impression_guild_hangout_window_modal';
+    var4['GUILD_HANGOUT_WINDOW_MODAL'] = var2;
     var2 = 'impression_guild_invite';
     var4['GUILD_INVITE'] = var2;
     var2 = 'impression_guild_invite_link_settings';

@@ -936,7 +936,7 @@ case 48: // try_start_0
                             var12 = true;
                             var6['forceExternalBrowser'] = var12;
                             var6 = var10.bind(var11)(var7, var6);
-                            SaveGenerator(address=491);
+                            SaveGenerator(address=495);
 case 49:
                             return var6;
 case 50:
@@ -946,7 +946,7 @@ case 52: // try_end0
                             _fun0008_ip = 40; continue _fun0008;
 case 51:
                             return var6;
-case 13: // catch_target0
+case 53: // catch_target0
                             CatchBlockStart(arg_register=9);
                             var7 = _closure1_slot22;
                             var6 = var7.error;
@@ -1066,8 +1066,8 @@ case 41:
                             var6 = var6.bind(var9)(var2);
                             var2 = var6.isCollectiblesShopOpen;
                             var2 = var2.bind(var6)();
-                            if(var2) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
+                            if(var2) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
                             var6 = _closure1_slot0;
                             var12 = _closure1_slot2;
                             var2 = var12[var7];
@@ -1095,14 +1095,14 @@ case 54:
                             var2 = var6.bind(var8)(var2);
 case 40:
                             return var9;
-case 53:
+case 54:
                             var8 = _closure1_slot6;
                             var6 = var8.getProduct;
                             var2 = var5;
                             var2 = var2.skuId;
                             var8 = var6.bind(var8)(var2);
-                            if(!(var3 == var8)) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
+                            if(!(var3 == var8)) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                             var6 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var2 = var2[var7];
@@ -1111,20 +1111,20 @@ case 56:
                             var2 = var5;
                             var2 = var2.skuId;
                             var2 = var6.bind(var7)(var2);
-                            SaveGenerator(address=1145);
-case 57:
-                            return var2;
+                            SaveGenerator(address=1156);
 case 58:
+                            return var2;
+case 59:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+                            if(var6) { _fun0008_ip = 60; continue _fun0008 }
+case 61:
                             var7 = _closure1_slot6;
                             var6 = var7.getProduct;
                             var5 = var5.skuId;
                             var8 = var6.bind(var7)(var5);
-case 55:
-                            if(!(var3 == var8)) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+case 56:
+                            if(!(var3 == var8)) { _fun0008_ip = 62; continue _fun0008 }
+case 63:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var3 = 21;
@@ -1133,8 +1133,8 @@ case 62:
                             var3 = var5.hideAllActionSheets;
                             var3 = var3.bind(var5)();
                             var3 = undefined;
-                            _fun0008_ip = 63; continue _fun0008;
-case 61:
+                            _fun0008_ip = 64; continue _fun0008;
+case 62:
                             var6 = _closure1_slot0;
                             var10 = _closure1_slot2;
                             var5 = 41;
@@ -1154,9 +1154,9 @@ case 61:
                             var4 = 'stack';
                             var4 = var6.bind(var7)(var5, var4);
                             var3 = undefined;
-case 63:
+case 64:
                             return var3;
-case 59:
+case 60:
                             return var2;
 case 35:
                             return var1;
@@ -1210,12 +1210,12 @@ case 0:
                     var7 = var1 == var6;
                     var1 = undefined;
                     var6 = undefined;
-                    if(var7) { _fun0009_ip = 64; continue _fun0009 }
-case 65:
+                    if(var7) { _fun0009_ip = 65; continue _fun0009 }
+case 66:
                     var8 = _closure2_slot5;
                     var7 = var8.getProductLines;
                     var6 = var7.bind(var8)();
-case 64:
+case 65:
                     var3['productLines'] = var6;
                     var3 = var5.bind(var1)(var3);
                     var6 = _closure1_slot1;
@@ -1307,14 +1307,14 @@ case 64:
                 return var1;
             };
             var26 = var12.bind(var14)(var9, var11);
-            if(!var7) { _fun0002_ip = 66; continue _fun0002 }
+            if(!var7) { _fun0002_ip = 67; continue _fun0002 }
+case 68:
+            if(!(var1 != var3)) { _fun0002_ip = 69; continue _fun0002 }
 case 67:
-            if(!(var1 != var3)) { _fun0002_ip = 68; continue _fun0002 }
-case 66:
-            if(!(var1 == var4)) { _fun0002_ip = 69; continue _fun0002 }
-case 70:
-            if(!(var1 != var3)) { _fun0002_ip = 71; continue _fun0002 }
-case 72:
+            if(!(var1 == var4)) { _fun0002_ip = 70; continue _fun0002 }
+case 71:
+            if(!(var1 != var3)) { _fun0002_ip = 72; continue _fun0002 }
+case 54:
             var4 = var19.length;
             var3 = 0;
             if(!(var3 !== var4)) { _fun0002_ip = 73; continue _fun0002 }
@@ -1595,11 +1595,11 @@ case 73:
             var2['shouldShowMRNotice'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 71:
+case 72:
+            return var1;
+case 70:
             return var1;
 case 69:
-            return var1;
-case 68:
             return var1;
         }
     };

@@ -10,23 +10,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
-    var2 = {};
+    var4 = {};
     var1 = true;
-    var2['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var2 = var6[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.jsx;
-    var _closure1_slot4 = var2;
-    var2 = {};
-    var4 = function maybeOpenSpoilerGateForVoiceChannel(arg1) {
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/spoiler_channels/maybeOpenSpoilerGateForVoiceChannel.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function maybeOpenSpoilerGateForVoiceChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
@@ -77,13 +82,6 @@ case 4:
             return var1;
         }
     };
-    var2['maybeOpenSpoilerGateForVoiceChannel'] = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/spoiler_channels/maybeOpenSpoilerGateForVoiceChannel.native.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var3['maybeOpenSpoilerGateForVoiceChannel'] = var2;
     return var1;
 })();

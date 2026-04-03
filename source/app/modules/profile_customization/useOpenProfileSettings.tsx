@@ -1,18 +1,19 @@
 // app/modules/profile_customization/useOpenProfileSettings.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
@@ -20,27 +21,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.useCallback;
     var _closure1_slot2 = var4;
     var4 = 1;
-    var7 = var6[var4];
-    var4 = metroImportDefault;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.UserSettingsSections;
     var _closure1_slot4 = var4;
-    var4 = 3;
+    var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ProfileCustomizationSubsection;
     var _closure1_slot5 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = 8;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -55,20 +58,29 @@ case 0:
 case 3:
             var2 = {};
 case 2:
-            var8 = var2.guild;
-            var _closure2_slot0 = var8;
-            var7 = var2.scrollPosition;
-            var _closure2_slot1 = var7;
-            var6 = var2.analyticsLocation;
-            var _closure2_slot2 = var6;
-            var5 = var2.analyticsLocations;
-            var _closure2_slot3 = var5;
+            var9 = var2.guild;
+            var _closure2_slot0 = var9;
+            var8 = var2.scrollPosition;
+            var _closure2_slot1 = var8;
+            var7 = var2.analyticsLocation;
+            var _closure2_slot2 = var7;
+            var6 = var2.analyticsLocations;
+            var _closure2_slot3 = var6;
+            var5 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 7;
+            var3 = var10[var3];
+            var10 = var5.bind(var4)(var3);
+            var5 = var10.useIsEligibleForUserProfileWYSIWYGEditing;
+            var3 = 'useOpenProfileSettings';
+            var5 = var5.bind(var10)(var3);
             var3 = _closure1_slot2;
-            var2 = new Array(4);
-            var2[0] = var8;
-            var2[1] = var7;
-            var2[2] = var6;
-            var2[3] = var5;
+            var2 = new Array(5);
+            var2[0] = var9;
+            var2[1] = var8;
+            var2[2] = var7;
+            var2[3] = var6;
+            var2[4] = var5;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -78,7 +90,7 @@ case 0:
 case 2:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 6;
+                    var1 = 8;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -89,7 +101,7 @@ case 2:
 case 4:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 7;
+                    var1 = 9;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);

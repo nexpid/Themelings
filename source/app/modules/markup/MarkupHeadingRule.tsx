@@ -57,7 +57,7 @@ case 4:
             var4 = undefined;
             var7 = var3.bind(var4)(var2);
             var3 = var7.anyScopeRegex;
-            var2 = /^ *(#{1,3})(?:\s+)((?![#]+)[^\n]+?)#*\s*(?:\n|$)/;
+            var2 = /^ *(#{1,3})(?:\s+)([^\n]+?)#*\s*(?:\n|$)/;
             var3 = var3.bind(var7)(var2);
             var2 = arg1;
             var1 = var3.bind(var4)(var2, var6, var5);

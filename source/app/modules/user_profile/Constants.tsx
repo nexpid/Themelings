@@ -376,6 +376,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['PRESS_WATCH_BUTTON'] = var5;
     var5 = 'PRESS_JOIN_CALL_BUTTON';
     var9['PRESS_JOIN_CALL_BUTTON'] = var5;
+    var5 = 'PRESS_CONNECT_ACCOUNT_BUTTON';
+    var9['PRESS_CONNECT_ACCOUNT_BUTTON'] = var5;
     var5 = 'PRESS_CONNECT_XBOX_BUTTON';
     var9['PRESS_CONNECT_XBOX_BUTTON'] = var5;
     var5 = 'PRESS_CONNECT_PLAYSTATION_BUTTON';
