@@ -80,6 +80,9 @@
   "BACKGROUND_TILE_GRADIENT_PINK_START": {
     "14": "#b3269c4d"
   },
+  "BACKGROUND_VOICE_MUTED": {
+    "14": "#ffffff"
+  },
   "BADGE_BACKGROUND_BRAND": {
     "14": "#5865f2"
   },
@@ -120,7 +123,10 @@
     "16": "#6c6f7c38"
   },
   "BORDER_SUBTLE": {
-    "14": "#6c6f7c1f"
+    "16": "#6c6f7c1f"
+  },
+  "BORDER_VOICE_MUTED": {
+    "14": "#ffffff"
   },
   "BUTTON_DANGER_BACKGROUND_DISABLED": {
     "14": "#da373c"
@@ -644,6 +650,9 @@
   "MOBILE_UNREADBAR_TEXT_DEFAULT": {
     "14": "#949cf7"
   },
+  "MOBILE_VOICE_PANEL_BADGE_BACKGROUND": {
+    "14": "#26272f"
+  },
   "MODAL_BACKGROUND": {
     "14": "#31323b"
   },
@@ -840,6 +849,9 @@
     "12": "#6c6f7c29"
   },
   "SWITCH_THUMB_BACKGROUND_DEFAULT": {
+    "12": "#ffffff"
+  },
+  "SWITCH_THUMB_BACKGROUND_SELECTED_DEFAULT": {
     "12": "#ffffff"
   },
   "TAB_BAR_BACKGROUND": {

@@ -242,6 +242,15 @@
       }
     ]
   },
+  "BACKGROUND_VOICE_MUTED": {
+    "14": [
+      "#ffffff",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
+  },
   "BADGE_BACKGROUND_BRAND": {
     "14": [
       "#5865f2",
@@ -360,11 +369,20 @@
     ]
   },
   "BORDER_SUBTLE": {
-    "14": [
+    "16": [
       "#6c6f7c1f",
       {
         "raw": "PLUM_11",
         "opacity": 0.12
+      }
+    ]
+  },
+  "BORDER_VOICE_MUTED": {
+    "14": [
+      "#ffffff",
+      {
+        "raw": "WHITE",
+        "opacity": 1
       }
     ]
   },
@@ -1934,6 +1952,15 @@
       }
     ]
   },
+  "MOBILE_VOICE_PANEL_BADGE_BACKGROUND": {
+    "14": [
+      "#26272f",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ]
+  },
   "MODAL_BACKGROUND": {
     "14": [
       "#31323b",
@@ -2520,6 +2547,15 @@
     ]
   },
   "SWITCH_THUMB_BACKGROUND_DEFAULT": {
+    "12": [
+      "#ffffff",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
+  },
+  "SWITCH_THUMB_BACKGROUND_SELECTED_DEFAULT": {
     "12": [
       "#ffffff",
       {
