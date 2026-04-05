@@ -700,7 +700,7 @@ case 39:
             var12 = var22[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.VideoComponent;
-            var12 = {'style': null, 'poster': null, 'posterResizeMode': 'cover', 'source': null, 'resizeMode': 'cover', 'mixWithOthers': 'mix', 'muted': true, 'preventsDisplaySleepDuringVideoPlayback': false};
+            var12 = {'style': null, 'poster': null, 'posterResizeMode': 'cover', 'source': null, 'resizeMode': 'cover', 'mixWithOthers': 'mix', 'muted': true, 'disableFocus': true, 'preventsDisplaySleepDuringVideoPlayback': false};
             var22 = var17.videoPreview;
             var12['style'] = var22;
             var22 = var18 == var21;

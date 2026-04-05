@@ -767,6 +767,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var9[var13];
     var17 = var11.bind(var1)(var15);
     var16 = var17.getFlag;
+    var15 = 53;
+    var15 = var16.bind(var17)(var15);
+    var10['MANAGE_OFFICIAL_MESSAGES'] = var15;
+    var15 = var9[var13];
+    var17 = var11.bind(var1)(var15);
+    var16 = var17.getFlag;
     var15 = 20;
     var15 = var16.bind(var17)(var15);
     var10['CONNECT'] = var15;
@@ -2306,6 +2312,8 @@ case 4:
     var64 = 'blog.discord.com';
     var3['BLOG_DOMAIN'] = var64;
     var3['FEEDBACK_DOMAIN'] = var63;
+    var63 = 'docs.discord.com';
+    var3['DOCS_DOMAIN'] = var63;
     var3['UNSAFE_Colors'] = var62;
     var3['Fonts'] = var61;
     var3['StatusTypes'] = var60;

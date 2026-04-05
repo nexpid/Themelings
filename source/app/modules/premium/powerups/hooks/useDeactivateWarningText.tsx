@@ -148,16 +148,16 @@ case 8:
 case 7:
                         var1 = var3;
                         if(!(var2 != var5)) { _fun0003_ip = 9; continue _fun0003 }
-case 3:
+case 10:
                         var5 = _closure2_slot3;
                         var4 = var4.id;
                         var4 = var5[var4];
                         var5 = var2 != var4;
                         var2 = 0;
-                        if(!var5) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                        if(!var5) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                         var2 = var4;
-case 10:
+case 11:
                         var1 = var3 + var2;
 case 9:
                         return var1;
@@ -189,29 +189,29 @@ case 0:
                 var7 = undefined;
                 var3 = var5.bind(var7)(var3);
                 var3 = var3.GUILD_POWERUP_ROLE_COLOR_SKU_ID;
-                if(!(var3 !== var4)) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                if(!(var3 !== var4)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var8];
                 var3 = var5.bind(var7)(var3);
                 var3 = var3.VANITY_URL_POWERUP_SKU_ID;
-                if(!(var3 !== var4)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                if(!(var3 !== var4)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var8];
                 var3 = var5.bind(var7)(var3);
                 var3 = var3.GUILD_TAGS_BADGE_PACK_PETS_POWERUP_SKU_ID;
-                if(!(var3 !== var4)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                if(!(var3 !== var4)) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var8];
                 var3 = var5.bind(var7)(var3);
                 var3 = var3.GUILD_TAGS_BADGE_PACK_FLEX_POWERUP_SKU_ID;
-                if(!(var3 !== var4)) { _fun0004_ip = 16; continue _fun0004 }
-case 18:
+                if(!(var3 !== var4)) { _fun0004_ip = 17; continue _fun0004 }
+case 19:
                 var4 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var3 = 7;
@@ -232,14 +232,14 @@ case 18:
                 var9 = null;
                 var10 = var9 != var10;
                 var9 = 0;
-                if(!var10) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                if(!var10) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                 var9 = _closure2_slot2;
-case 19:
+case 20:
                 var3['memberCount'] = var9;
                 var3 = var5.bind(var6)(var4, var3);
-                _fun0004_ip = 21; continue _fun0004;
-case 16:
+                _fun0004_ip = 22; continue _fun0004;
+case 17:
                 var5 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var4 = 7;
@@ -253,8 +253,8 @@ case 16:
                 var4 = var9.bind(var7)(var4);
                 var4 = var4.Vf2ZcR;
                 var3 = var5.bind(var6)(var4);
-                _fun0004_ip = 21; continue _fun0004;
-case 14:
+                _fun0004_ip = 22; continue _fun0004;
+case 15:
                 var4 = _closure2_slot4;
                 var6 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -267,22 +267,22 @@ case 14:
                 var5 = 8;
                 var5 = var11[var5];
                 var5 = var10.bind(var7)(var5);
-                if(var4) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                if(var4) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                 var4 = var5.Du91Rb;
                 var4 = var6.bind(var9)(var4);
-                _fun0004_ip = 24; continue _fun0004;
-case 22:
+                _fun0004_ip = 25; continue _fun0004;
+case 23:
                 var5 = var5.hN75yb;
                 var4 = var6.bind(var9)(var5);
-case 24:
+case 25:
                 var3 = var4;
-                _fun0004_ip = 21; continue _fun0004;
-case 12:
+                _fun0004_ip = 22; continue _fun0004;
+case 13:
                 var5 = _closure2_slot5;
                 var4 = 0;
-                if(!(!(var5 > var4))) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+                if(!(!(var5 > var4))) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
                 var5 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var4 = 7;
@@ -300,8 +300,8 @@ case 26:
                 var10 = var10.title;
                 var4['perk'] = var10;
                 var4 = var6.bind(var9)(var5, var4);
-                _fun0004_ip = 27; continue _fun0004;
-case 25:
+                _fun0004_ip = 28; continue _fun0004;
+case 26:
                 var6 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var5 = 7;
@@ -321,12 +321,12 @@ case 25:
                 var11 = _closure2_slot5;
                 var5['memberCount'] = var11;
                 var4 = var9.bind(var10)(var6, var5);
-case 27:
+case 28:
                 var3 = var4;
-case 21:
+case 22:
                 var4 = _closure2_slot4;
-                if(!var4) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                if(!var4) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                 var2 = _closure2_slot1;
                 var5 = var2.skuId;
                 var6 = _closure1_slot0;
@@ -335,10 +335,10 @@ case 29:
                 var2 = var6.bind(var7)(var2);
                 var2 = var2.GUILD_POWERUP_LEVEL_3_SKU_ID;
                 var4 = var5 === var2;
-case 28:
+case 29:
                 var2 = null;
-                if(!var4) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+                if(!var4) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
                 var5 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var4 = 7;
@@ -352,7 +352,7 @@ case 31:
                 var1 = var6.bind(var7)(var1);
                 var1 = var1.M4XL5n;
                 var2 = var4.bind(var5)(var1);
-case 30:
+case 31:
                 var1 = {};
                 var1['warningText'] = var3;
                 var1['vanityUrlWarning'] = var2;

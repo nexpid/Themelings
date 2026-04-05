@@ -2110,6 +2110,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['WISHLISTING_NITRO_TAB_NEW_BADGE'] = var2;
     var1 = 'WISHLISTING_NITRO_TAB_NEW_BADGE';
     var4[var2] = var1;
+    var2 = 728;
+    var4['QUEST_HOME_NEW_QUEST_BADGE'] = var2;
+    var1 = 'QUEST_HOME_NEW_QUEST_BADGE';
+    var4[var2] = var1;
+    var2 = 729;
+    var4['PREMIUM_MARKETING_MOMENT_USER_SETTINGS_OFFER_BADGE'] = var2;
+    var1 = 'PREMIUM_MARKETING_MOMENT_USER_SETTINGS_OFFER_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

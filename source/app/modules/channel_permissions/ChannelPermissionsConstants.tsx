@@ -1047,6 +1047,46 @@ case 100:
             var9 = var2.BYPASS_SLOWMODE;
             var3['flag'] = var9;
             var1[3] = var3;
+            var3 = var2.MANAGE_OFFICIAL_MESSAGES;
+            var2 = var3.toString;
+            var4 = var2.bind(var3)();
+            var3 = {};
+            var12 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var9 = var2[var8];
+            var9 = var12.bind(var7)(var9);
+            var11 = var9.intl;
+            var9 = var11.string;
+            var2 = var2[var8];
+            var2 = var12.bind(var7)(var2);
+            var2 = var2.t;
+            var2 = var2.Aj9ruN;
+            var2 = var9.bind(var11)(var2);
+            var3['title'] = var2;
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_CATEGORY;
+            if(!(var6 !== var2)) { _fun0001_ip = 101; continue _fun0001 }
+case 102:
+            var9 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var9.bind(var7)(var2);
+            var2 = var2.t;
+            var2 = var2.qEbw4W;
+            _fun0001_ip = 103; continue _fun0001;
+case 101:
+            var11 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var9 = var9[var8];
+            var9 = var11.bind(var7)(var9);
+            var9 = var9.t;
+            var2 = var9.Pf0e/Q;
+case 103:
+            var3['description'] = var2;
+            var2 = _closure1_slot6;
+            var9 = var2.MANAGE_OFFICIAL_MESSAGES;
+            var3['flag'] = var9;
+            var1[3] = var3;
             var3 = var2.READ_MESSAGE_HISTORY;
             var2 = var3.toString;
             var4 = var2.bind(var3)();
@@ -1064,48 +1104,48 @@ case 100:
             var9 = var9[var8];
             var9 = var14.bind(var7)(var9);
             var9 = var9.t;
-            if(var2) { _fun0001_ip = 101; continue _fun0001 }
-case 102:
+            if(var2) { _fun0001_ip = 104; continue _fun0001 }
+case 105:
             var2 = var9.l9ufaR;
             var2 = var11.bind(var12)(var2);
-            _fun0001_ip = 103; continue _fun0001;
-case 101:
+            _fun0001_ip = 106; continue _fun0001;
+case 104:
             var9 = var9["0RQwtn"];
             var2 = var11.bind(var12)(var9);
-case 103:
+case 106:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var2 !== var6)) { _fun0001_ip = 104; continue _fun0001 }
-case 105:
+            if(!(var2 !== var6)) { _fun0001_ip = 107; continue _fun0001 }
+case 108:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_VOICE;
-            if(!(var2 !== var6)) { _fun0001_ip = 106; continue _fun0001 }
-case 107:
+            if(!(var2 !== var6)) { _fun0001_ip = 109; continue _fun0001 }
+case 110:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_FORUM;
-            if(!(var2 !== var6)) { _fun0001_ip = 108; continue _fun0001 }
-case 109:
+            if(!(var2 !== var6)) { _fun0001_ip = 111; continue _fun0001 }
+case 112:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_MEDIA;
-            if(!(var2 !== var6)) { _fun0001_ip = 108; continue _fun0001 }
-case 110:
+            if(!(var2 !== var6)) { _fun0001_ip = 111; continue _fun0001 }
+case 113:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2.cuMfH0;
-            _fun0001_ip = 111; continue _fun0001;
-case 108:
+            _fun0001_ip = 114; continue _fun0001;
+case 111:
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.RqCc7i;
-            _fun0001_ip = 111; continue _fun0001;
-case 106:
+            _fun0001_ip = 114; continue _fun0001;
+case 109:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
             var9 = 4;
@@ -1115,20 +1155,20 @@ case 106:
             var9 = null;
             var14 = var9 == var13;
             var9 = undefined;
-            if(var14) { _fun0001_ip = 112; continue _fun0001 }
-case 113:
+            if(var14) { _fun0001_ip = 115; continue _fun0001 }
+case 116:
             var9 = var13.readMessageHistoryDisabled;
-case 112:
+case 115:
             var2 = var11.bind(var12)(var9);
-            _fun0001_ip = 111; continue _fun0001;
-case 104:
+            _fun0001_ip = 114; continue _fun0001;
+case 107:
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.cJRv/g;
-case 111:
+case 114:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.READ_MESSAGE_HISTORY;
@@ -1152,23 +1192,23 @@ case 111:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 114; continue _fun0001 }
-case 115:
+            if(!(var6 !== var2)) { _fun0001_ip = 117; continue _fun0001 }
+case 118:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2.CpakGz;
-            _fun0001_ip = 116; continue _fun0001;
-case 114:
+            _fun0001_ip = 119; continue _fun0001;
+case 117:
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.b7pc9U;
-case 116:
+case 119:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.SEND_TTS_MESSAGES;
@@ -1192,23 +1232,23 @@ case 116:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 117; continue _fun0001 }
-case 118:
+            if(!(var6 !== var2)) { _fun0001_ip = 120; continue _fun0001 }
+case 121:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2.ReG3gG;
-            _fun0001_ip = 119; continue _fun0001;
-case 117:
+            _fun0001_ip = 122; continue _fun0001;
+case 120:
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.D+qW0J;
-case 119:
+case 122:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.USE_APPLICATION_COMMANDS;
@@ -1232,23 +1272,23 @@ case 119:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 120; continue _fun0001 }
-case 121:
+            if(!(var6 !== var2)) { _fun0001_ip = 123; continue _fun0001 }
+case 124:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2.BhEo9V;
-            _fun0001_ip = 122; continue _fun0001;
-case 120:
+            _fun0001_ip = 125; continue _fun0001;
+case 123:
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.gavGfv;
-case 122:
+case 125:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.SEND_VOICE_MESSAGES;
@@ -1272,23 +1312,23 @@ case 122:
             var2['title'] = var3;
             var3 = _closure1_slot3;
             var3 = var3.GUILD_CATEGORY;
-            if(!(var6 !== var3)) { _fun0001_ip = 123; continue _fun0001 }
-case 124:
+            if(!(var6 !== var3)) { _fun0001_ip = 126; continue _fun0001 }
+case 127:
             var9 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var8];
             var3 = var9.bind(var7)(var3);
             var3 = var3.t;
             var3 = var3.ckKKIO;
-            _fun0001_ip = 125; continue _fun0001;
-case 123:
+            _fun0001_ip = 128; continue _fun0001;
+case 126:
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
             var3 = var9["18Ya7L"];
-case 125:
+case 128:
             var2['description'] = var3;
             var3 = _closure1_slot6;
             var9 = var3.SEND_POLLS;
@@ -1312,107 +1352,107 @@ case 125:
             var4['title'] = var12;
             var12 = _closure1_slot3;
             var12 = var12.GUILD_CATEGORY;
-            if(var10) { _fun0001_ip = 126; continue _fun0001 }
-case 127:
-            if(!(var12 !== var6)) { _fun0001_ip = 128; continue _fun0001 }
-case 129:
+            if(var10) { _fun0001_ip = 129; continue _fun0001 }
+case 130:
+            if(!(var12 !== var6)) { _fun0001_ip = 131; continue _fun0001 }
+case 132:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_STAGE_VOICE;
-            if(!(var10 !== var6)) { _fun0001_ip = 130; continue _fun0001 }
-case 131:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 132; continue _fun0001 }
-case 133:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 132; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 133; continue _fun0001 }
 case 134:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 135; continue _fun0001 }
+case 136:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 135; continue _fun0001 }
+case 137:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 132; continue _fun0001 }
-case 135:
+            if(!(var10 !== var6)) { _fun0001_ip = 135; continue _fun0001 }
+case 138:
             var13 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var13.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.HvG8uR;
-            _fun0001_ip = 136; continue _fun0001;
-case 132:
+            _fun0001_ip = 139; continue _fun0001;
+case 135:
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
             var13 = var13[var8];
             var13 = var14.bind(var7)(var13);
             var13 = var13.t;
             var10 = var13.QU/Rw8;
-            _fun0001_ip = 136; continue _fun0001;
-case 130:
+            _fun0001_ip = 139; continue _fun0001;
+case 133:
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
             var13 = var13[var8];
             var13 = var14.bind(var7)(var13);
             var13 = var13.t;
             var10 = var13.G9+Qie;
-            _fun0001_ip = 136; continue _fun0001;
-case 128:
+            _fun0001_ip = 139; continue _fun0001;
+case 131:
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
             var13 = var13[var8];
             var13 = var14.bind(var7)(var13);
             var13 = var13.t;
             var10 = var13.stA0Hl;
-            _fun0001_ip = 136; continue _fun0001;
-case 126:
-            if(!(var12 !== var6)) { _fun0001_ip = 137; continue _fun0001 }
-case 138:
+            _fun0001_ip = 139; continue _fun0001;
+case 129:
+            if(!(var12 !== var6)) { _fun0001_ip = 140; continue _fun0001 }
+case 141:
             var12 = _closure1_slot3;
             var12 = var12.GUILD_STAGE_VOICE;
-            if(!(var12 !== var6)) { _fun0001_ip = 139; continue _fun0001 }
-case 140:
-            var12 = _closure1_slot3;
-            var12 = var12.GUILD_TEXT;
-            if(!(var12 !== var6)) { _fun0001_ip = 141; continue _fun0001 }
-case 142:
-            var12 = _closure1_slot3;
-            var12 = var12.GUILD_FORUM;
-            if(!(var12 !== var6)) { _fun0001_ip = 141; continue _fun0001 }
+            if(!(var12 !== var6)) { _fun0001_ip = 142; continue _fun0001 }
 case 143:
             var12 = _closure1_slot3;
+            var12 = var12.GUILD_TEXT;
+            if(!(var12 !== var6)) { _fun0001_ip = 144; continue _fun0001 }
+case 145:
+            var12 = _closure1_slot3;
+            var12 = var12.GUILD_FORUM;
+            if(!(var12 !== var6)) { _fun0001_ip = 144; continue _fun0001 }
+case 146:
+            var12 = _closure1_slot3;
             var12 = var12.GUILD_MEDIA;
-            if(!(var12 !== var6)) { _fun0001_ip = 141; continue _fun0001 }
-case 144:
+            if(!(var12 !== var6)) { _fun0001_ip = 144; continue _fun0001 }
+case 147:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.j4AyO8;
-            _fun0001_ip = 136; continue _fun0001;
-case 141:
+            _fun0001_ip = 139; continue _fun0001;
+case 144:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.LsS8xT;
-            _fun0001_ip = 136; continue _fun0001;
-case 139:
+            _fun0001_ip = 139; continue _fun0001;
+case 142:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.SOFNhP;
-            _fun0001_ip = 136; continue _fun0001;
-case 137:
+            _fun0001_ip = 139; continue _fun0001;
+case 140:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.XcrieN;
-case 136:
+case 139:
             var4['description'] = var10;
             var10 = var3.CONNECT;
             var4['flag'] = var10;
@@ -1433,55 +1473,55 @@ case 136:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 145; continue _fun0001 }
-case 146:
+            if(!(var10 !== var6)) { _fun0001_ip = 148; continue _fun0001 }
+case 149:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_STAGE_VOICE;
-            if(!(var10 !== var6)) { _fun0001_ip = 147; continue _fun0001 }
-case 148:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 149; continue _fun0001 }
-case 150:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 149; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 150; continue _fun0001 }
 case 151:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 152; continue _fun0001 }
+case 153:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 152; continue _fun0001 }
+case 154:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 149; continue _fun0001 }
-case 152:
+            if(!(var10 !== var6)) { _fun0001_ip = 152; continue _fun0001 }
+case 155:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10["568E6d"];
-            _fun0001_ip = 153; continue _fun0001;
-case 149:
+            _fun0001_ip = 156; continue _fun0001;
+case 152:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12["+VXsJI"];
-            _fun0001_ip = 153; continue _fun0001;
-case 147:
+            _fun0001_ip = 156; continue _fun0001;
+case 150:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.a8n741;
-            _fun0001_ip = 153; continue _fun0001;
-case 145:
+            _fun0001_ip = 156; continue _fun0001;
+case 148:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.iXhS6R;
-case 153:
+case 156:
             var4['description'] = var10;
             var10 = var3.SPEAK;
             var4['flag'] = var10;
@@ -1502,55 +1542,55 @@ case 153:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 154; continue _fun0001 }
-case 155:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 156; continue _fun0001 }
-case 157:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 156; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 157; continue _fun0001 }
 case 158:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 159; continue _fun0001 }
+case 160:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 159; continue _fun0001 }
+case 161:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 156; continue _fun0001 }
-case 159:
+            if(!(var10 !== var6)) { _fun0001_ip = 159; continue _fun0001 }
+case 162:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_STAGE_VOICE;
-            if(!(var10 !== var6)) { _fun0001_ip = 160; continue _fun0001 }
-case 161:
+            if(!(var10 !== var6)) { _fun0001_ip = 163; continue _fun0001 }
+case 164:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.RY8rIc;
-            _fun0001_ip = 162; continue _fun0001;
-case 160:
+            _fun0001_ip = 165; continue _fun0001;
+case 163:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.swJcN6;
-            _fun0001_ip = 162; continue _fun0001;
-case 156:
+            _fun0001_ip = 165; continue _fun0001;
+case 159:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.AuEQEC;
-            _fun0001_ip = 162; continue _fun0001;
-case 154:
+            _fun0001_ip = 165; continue _fun0001;
+case 157:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.ryG0/J;
-case 162:
+case 165:
             var4['description'] = var10;
             var10 = var3.STREAM;
             var4['flag'] = var10;
@@ -1571,39 +1611,39 @@ case 162:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 163; continue _fun0001 }
-case 164:
+            if(!(var10 !== var6)) { _fun0001_ip = 166; continue _fun0001 }
+case 167:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 165; continue _fun0001 }
-case 166:
+            if(!(var10 !== var6)) { _fun0001_ip = 168; continue _fun0001 }
+case 169:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 165; continue _fun0001 }
-case 167:
+            if(!(var10 !== var6)) { _fun0001_ip = 168; continue _fun0001 }
+case 170:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.qinvMU;
-            _fun0001_ip = 168; continue _fun0001;
-case 165:
+            _fun0001_ip = 171; continue _fun0001;
+case 168:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.RyEwla;
-            _fun0001_ip = 168; continue _fun0001;
-case 163:
+            _fun0001_ip = 171; continue _fun0001;
+case 166:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.maNzCO;
-case 168:
+case 171:
             var4['description'] = var10;
             var10 = var3.USE_EMBEDDED_ACTIVITIES;
             var4['flag'] = var10;
@@ -1624,39 +1664,39 @@ case 168:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 169; continue _fun0001 }
-case 170:
+            if(!(var10 !== var6)) { _fun0001_ip = 172; continue _fun0001 }
+case 173:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 171; continue _fun0001 }
-case 172:
+            if(!(var10 !== var6)) { _fun0001_ip = 174; continue _fun0001 }
+case 175:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 171; continue _fun0001 }
-case 173:
+            if(!(var10 !== var6)) { _fun0001_ip = 174; continue _fun0001 }
+case 176:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.czqMLp;
-            _fun0001_ip = 174; continue _fun0001;
-case 171:
+            _fun0001_ip = 177; continue _fun0001;
+case 174:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.qPUPip;
-            _fun0001_ip = 174; continue _fun0001;
-case 169:
+            _fun0001_ip = 177; continue _fun0001;
+case 172:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.bgIY3H;
-case 174:
+case 177:
             var4['description'] = var10;
             var10 = var3.USE_EXTERNAL_APPS;
             var4['flag'] = var10;
@@ -1677,20 +1717,20 @@ case 174:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 175; continue _fun0001 }
-case 176:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 177; continue _fun0001 }
-case 178:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 177; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 178; continue _fun0001 }
 case 179:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 180; continue _fun0001 }
+case 181:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 180; continue _fun0001 }
+case 182:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 177; continue _fun0001 }
-case 180:
+            if(!(var10 !== var6)) { _fun0001_ip = 180; continue _fun0001 }
+case 183:
             var12 = _closure1_slot0;
             var17 = _closure1_slot2;
             var10 = var17[var8];
@@ -1712,8 +1752,8 @@ case 180:
             var15 = var16.bind(var17)(var15);
             var10['helpCenterArticle'] = var15;
             var10 = var13.bind(var14)(var12, var10);
-            _fun0001_ip = 181; continue _fun0001;
-case 177:
+            _fun0001_ip = 184; continue _fun0001;
+case 180:
             var13 = _closure1_slot0;
             var18 = _closure1_slot2;
             var12 = var18[var8];
@@ -1735,8 +1775,8 @@ case 177:
             var16 = var17.bind(var18)(var16);
             var12['helpCenterArticle'] = var16;
             var10 = var14.bind(var15)(var13, var12);
-            _fun0001_ip = 181; continue _fun0001;
-case 175:
+            _fun0001_ip = 184; continue _fun0001;
+case 178:
             var13 = _closure1_slot0;
             var18 = _closure1_slot2;
             var12 = var18[var8];
@@ -1758,7 +1798,7 @@ case 175:
             var16 = var17.bind(var18)(var16);
             var12['helpCenterArticle'] = var16;
             var10 = var14.bind(var15)(var13, var12);
-case 181:
+case 184:
             var4['description'] = var10;
             var10 = var3.USE_SOUNDBOARD;
             var4['flag'] = var10;
@@ -1801,55 +1841,55 @@ case 181:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 182; continue _fun0001 }
-case 183:
+            if(!(var10 !== var6)) { _fun0001_ip = 185; continue _fun0001 }
+case 186:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_STAGE_VOICE;
-            if(!(var10 !== var6)) { _fun0001_ip = 184; continue _fun0001 }
-case 185:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 186; continue _fun0001 }
-case 187:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 186; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 187; continue _fun0001 }
 case 188:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 189; continue _fun0001 }
+case 190:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 189; continue _fun0001 }
+case 191:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 186; continue _fun0001 }
-case 189:
+            if(!(var10 !== var6)) { _fun0001_ip = 189; continue _fun0001 }
+case 192:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.s2eihY;
-            _fun0001_ip = 190; continue _fun0001;
-case 186:
+            _fun0001_ip = 193; continue _fun0001;
+case 189:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12["3GJwsc"];
-            _fun0001_ip = 190; continue _fun0001;
-case 184:
+            _fun0001_ip = 193; continue _fun0001;
+case 187:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.BJKqsW;
-            _fun0001_ip = 190; continue _fun0001;
-case 182:
+            _fun0001_ip = 193; continue _fun0001;
+case 185:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.fUYPly;
-case 190:
+case 193:
             var4['description'] = var10;
             var10 = var3.USE_VAD;
             var4['flag'] = var10;
@@ -1870,20 +1910,20 @@ case 190:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 191; continue _fun0001 }
-case 192:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 193; continue _fun0001 }
-case 194:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 193; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 194; continue _fun0001 }
 case 195:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 196; continue _fun0001 }
+case 197:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 196; continue _fun0001 }
+case 198:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 193; continue _fun0001 }
-case 196:
+            if(!(var10 !== var6)) { _fun0001_ip = 196; continue _fun0001 }
+case 199:
             var18 = _closure1_slot0;
             var15 = _closure1_slot2;
             var10 = var15[var8];
@@ -1906,8 +1946,8 @@ case 196:
             var15 = var16.bind(var17)(var15);
             var10['keybind'] = var15;
             var10 = var13.bind(var14)(var12, var10);
-            _fun0001_ip = 197; continue _fun0001;
-case 193:
+            _fun0001_ip = 200; continue _fun0001;
+case 196:
             var19 = _closure1_slot0;
             var16 = _closure1_slot2;
             var12 = var16[var8];
@@ -1930,8 +1970,8 @@ case 193:
             var16 = var17.bind(var18)(var16);
             var12['keybind'] = var16;
             var10 = var14.bind(var15)(var13, var12);
-            _fun0001_ip = 197; continue _fun0001;
-case 191:
+            _fun0001_ip = 200; continue _fun0001;
+case 194:
             var19 = _closure1_slot0;
             var16 = _closure1_slot2;
             var12 = var16[var8];
@@ -1954,7 +1994,7 @@ case 191:
             var16 = var17.bind(var18)(var16);
             var12['keybind'] = var16;
             var10 = var14.bind(var15)(var13, var12);
-case 197:
+case 200:
             var4['description'] = var10;
             var10 = var3.PRIORITY_SPEAKER;
             var4['flag'] = var10;
@@ -1975,55 +2015,55 @@ case 197:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 198; continue _fun0001 }
-case 199:
+            if(!(var10 !== var6)) { _fun0001_ip = 201; continue _fun0001 }
+case 202:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_STAGE_VOICE;
-            if(!(var10 !== var6)) { _fun0001_ip = 200; continue _fun0001 }
-case 201:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 202; continue _fun0001 }
-case 203:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 202; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 203; continue _fun0001 }
 case 204:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 205; continue _fun0001 }
+case 206:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 205; continue _fun0001 }
+case 207:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 202; continue _fun0001 }
-case 205:
+            if(!(var10 !== var6)) { _fun0001_ip = 205; continue _fun0001 }
+case 208:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.LW5C9P;
-            _fun0001_ip = 206; continue _fun0001;
-case 202:
+            _fun0001_ip = 209; continue _fun0001;
+case 205:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.KYDG2K;
-            _fun0001_ip = 206; continue _fun0001;
-case 200:
+            _fun0001_ip = 209; continue _fun0001;
+case 203:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.EbvdH9;
-            _fun0001_ip = 206; continue _fun0001;
-case 198:
+            _fun0001_ip = 209; continue _fun0001;
+case 201:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.bcuobK;
-case 206:
+case 209:
             var4['description'] = var10;
             var10 = var3.MUTE_MEMBERS;
             var4['flag'] = var10;
@@ -2044,43 +2084,43 @@ case 206:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 207; continue _fun0001 }
-case 208:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 209; continue _fun0001 }
-case 210:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 209; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 210; continue _fun0001 }
 case 211:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 212; continue _fun0001 }
+case 213:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 212; continue _fun0001 }
+case 214:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 209; continue _fun0001 }
-case 212:
+            if(!(var10 !== var6)) { _fun0001_ip = 212; continue _fun0001 }
+case 215:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.UAdIxo;
-            _fun0001_ip = 213; continue _fun0001;
-case 209:
+            _fun0001_ip = 216; continue _fun0001;
+case 212:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.d+i1nX;
-            _fun0001_ip = 213; continue _fun0001;
-case 207:
+            _fun0001_ip = 216; continue _fun0001;
+case 210:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.amZ5vn;
-case 213:
+case 216:
             var4['description'] = var10;
             var10 = var3.DEAFEN_MEMBERS;
             var4['flag'] = var10;
@@ -2101,55 +2141,55 @@ case 213:
             var4['title'] = var10;
             var10 = _closure1_slot3;
             var10 = var10.GUILD_CATEGORY;
-            if(!(var10 !== var6)) { _fun0001_ip = 214; continue _fun0001 }
-case 215:
+            if(!(var10 !== var6)) { _fun0001_ip = 217; continue _fun0001 }
+case 218:
             var10 = _closure1_slot3;
             var10 = var10.GUILD_STAGE_VOICE;
-            if(!(var10 !== var6)) { _fun0001_ip = 216; continue _fun0001 }
-case 217:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_TEXT;
-            if(!(var10 !== var6)) { _fun0001_ip = 218; continue _fun0001 }
-case 219:
-            var10 = _closure1_slot3;
-            var10 = var10.GUILD_FORUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 218; continue _fun0001 }
+            if(!(var10 !== var6)) { _fun0001_ip = 219; continue _fun0001 }
 case 220:
             var10 = _closure1_slot3;
+            var10 = var10.GUILD_TEXT;
+            if(!(var10 !== var6)) { _fun0001_ip = 221; continue _fun0001 }
+case 222:
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_FORUM;
+            if(!(var10 !== var6)) { _fun0001_ip = 221; continue _fun0001 }
+case 223:
+            var10 = _closure1_slot3;
             var10 = var10.GUILD_MEDIA;
-            if(!(var10 !== var6)) { _fun0001_ip = 218; continue _fun0001 }
-case 221:
+            if(!(var10 !== var6)) { _fun0001_ip = 221; continue _fun0001 }
+case 224:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.nSD1ah;
-            _fun0001_ip = 222; continue _fun0001;
-case 218:
+            _fun0001_ip = 225; continue _fun0001;
+case 221:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.cbdQy2;
-            _fun0001_ip = 222; continue _fun0001;
-case 216:
+            _fun0001_ip = 225; continue _fun0001;
+case 219:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.bizKz6;
-            _fun0001_ip = 222; continue _fun0001;
-case 214:
+            _fun0001_ip = 225; continue _fun0001;
+case 217:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var8];
             var12 = var13.bind(var7)(var12);
             var12 = var12.t;
             var10 = var12.XmoyRD;
-case 222:
+case 225:
             var4['description'] = var10;
             var10 = var3.MOVE_MEMBERS;
             var4['flag'] = var10;
@@ -2170,23 +2210,23 @@ case 222:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 223; continue _fun0001 }
-case 224:
+            if(!(var6 !== var2)) { _fun0001_ip = 226; continue _fun0001 }
+case 227:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2.uzlYFE;
-            _fun0001_ip = 225; continue _fun0001;
-case 223:
+            _fun0001_ip = 228; continue _fun0001;
+case 226:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.T1lMSl;
-case 225:
+case 228:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.REQUEST_TO_SPEAK;
@@ -2200,12 +2240,12 @@ case 225:
             var9 = var2.GUILD_THREADS_ONLY;
             var2 = var9.has;
             var2 = var2.bind(var9)(var6);
-            if(var2) { _fun0001_ip = 226; continue _fun0001 }
-case 227:
+            if(var2) { _fun0001_ip = 229; continue _fun0001 }
+case 230:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 228; continue _fun0001 }
-case 229:
+            if(!(var6 !== var2)) { _fun0001_ip = 231; continue _fun0001 }
+case 232:
             var11 = _closure1_slot0;
             var2 = _closure1_slot2;
             var9 = var2[var8];
@@ -2217,8 +2257,8 @@ case 229:
             var2 = var2.t;
             var2 = var2.kEqgr7;
             var2 = var9.bind(var10)(var2);
-            _fun0001_ip = 230; continue _fun0001;
-case 228:
+            _fun0001_ip = 233; continue _fun0001;
+case 231:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var8];
@@ -2230,9 +2270,9 @@ case 228:
             var9 = var9.t;
             var9 = var9.QKe7Q3;
             var2 = var10.bind(var11)(var9);
-case 230:
-            _fun0001_ip = 231; continue _fun0001;
-case 226:
+case 233:
+            _fun0001_ip = 234; continue _fun0001;
+case 229:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var8];
@@ -2244,43 +2284,43 @@ case 226:
             var9 = var9.t;
             var9 = var9.ossiZD;
             var2 = var10.bind(var11)(var9);
-case 231:
+case 234:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var2 !== var6)) { _fun0001_ip = 232; continue _fun0001 }
-case 233:
+            if(!(var2 !== var6)) { _fun0001_ip = 235; continue _fun0001 }
+case 236:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_FORUM;
-            if(!(var2 !== var6)) { _fun0001_ip = 234; continue _fun0001 }
-case 235:
+            if(!(var2 !== var6)) { _fun0001_ip = 237; continue _fun0001 }
+case 238:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_MEDIA;
-            if(!(var2 !== var6)) { _fun0001_ip = 234; continue _fun0001 }
-case 236:
+            if(!(var2 !== var6)) { _fun0001_ip = 237; continue _fun0001 }
+case 239:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2.yvan0j;
-            _fun0001_ip = 237; continue _fun0001;
-case 234:
+            _fun0001_ip = 240; continue _fun0001;
+case 237:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.XLi/jG;
-            _fun0001_ip = 237; continue _fun0001;
-case 232:
+            _fun0001_ip = 240; continue _fun0001;
+case 235:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.S31soU;
-case 237:
+case 240:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.MANAGE_THREADS;
@@ -2304,23 +2344,23 @@ case 237:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 238; continue _fun0001 }
-case 239:
+            if(!(var6 !== var2)) { _fun0001_ip = 241; continue _fun0001 }
+case 242:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2["5SDtGB"];
-            _fun0001_ip = 240; continue _fun0001;
-case 238:
+            _fun0001_ip = 243; continue _fun0001;
+case 241:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9["+M1yLj"];
-case 240:
+case 243:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.CREATE_PUBLIC_THREADS;
@@ -2344,23 +2384,23 @@ case 240:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 241; continue _fun0001 }
-case 242:
+            if(!(var6 !== var2)) { _fun0001_ip = 244; continue _fun0001 }
+case 245:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2.Chg2zd;
-            _fun0001_ip = 243; continue _fun0001;
-case 241:
+            _fun0001_ip = 246; continue _fun0001;
+case 244:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.hBS/zn;
-case 243:
+case 246:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.CREATE_PRIVATE_THREADS;
@@ -2374,12 +2414,12 @@ case 243:
             var9 = var2.GUILD_THREADS_ONLY;
             var2 = var9.has;
             var2 = var2.bind(var9)(var6);
-            if(var2) { _fun0001_ip = 244; continue _fun0001 }
-case 245:
+            if(var2) { _fun0001_ip = 247; continue _fun0001 }
+case 248:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 246; continue _fun0001 }
-case 247:
+            if(!(var6 !== var2)) { _fun0001_ip = 249; continue _fun0001 }
+case 250:
             var11 = _closure1_slot0;
             var2 = _closure1_slot2;
             var9 = var2[var8];
@@ -2391,8 +2431,8 @@ case 247:
             var2 = var2.t;
             var2 = var2.fTE74g;
             var2 = var9.bind(var10)(var2);
-            _fun0001_ip = 248; continue _fun0001;
-case 246:
+            _fun0001_ip = 251; continue _fun0001;
+case 249:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var8];
@@ -2404,9 +2444,9 @@ case 246:
             var9 = var9.t;
             var9 = var9["5QlVGy"];
             var2 = var10.bind(var11)(var9);
-case 248:
-            _fun0001_ip = 249; continue _fun0001;
-case 244:
+case 251:
+            _fun0001_ip = 252; continue _fun0001;
+case 247:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var8];
@@ -2418,43 +2458,43 @@ case 244:
             var9 = var9.t;
             var9 = var9.fqhqWm;
             var2 = var10.bind(var11)(var9);
-case 249:
+case 252:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var2 !== var6)) { _fun0001_ip = 250; continue _fun0001 }
-case 251:
+            if(!(var2 !== var6)) { _fun0001_ip = 253; continue _fun0001 }
+case 254:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_FORUM;
-            if(!(var2 !== var6)) { _fun0001_ip = 252; continue _fun0001 }
-case 253:
+            if(!(var2 !== var6)) { _fun0001_ip = 255; continue _fun0001 }
+case 256:
             var2 = _closure1_slot3;
             var2 = var2.GUILD_MEDIA;
-            if(!(var2 !== var6)) { _fun0001_ip = 252; continue _fun0001 }
-case 254:
+            if(!(var2 !== var6)) { _fun0001_ip = 255; continue _fun0001 }
+case 257:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2.xHO6Me;
-            _fun0001_ip = 255; continue _fun0001;
-case 252:
+            _fun0001_ip = 258; continue _fun0001;
+case 255:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.XTnrPH;
-            _fun0001_ip = 255; continue _fun0001;
-case 250:
+            _fun0001_ip = 258; continue _fun0001;
+case 253:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.DlIVcN;
-case 255:
+case 258:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.SEND_MESSAGES_IN_THREADS;
@@ -2478,23 +2518,23 @@ case 255:
             var3['title'] = var2;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var6 !== var2)) { _fun0001_ip = 256; continue _fun0001 }
-case 257:
+            if(!(var6 !== var2)) { _fun0001_ip = 259; continue _fun0001 }
+case 260:
             var9 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
             var2 = var2["4pO/TY"];
-            _fun0001_ip = 258; continue _fun0001;
-case 256:
+            _fun0001_ip = 261; continue _fun0001;
+case 259:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
             var9 = var10.bind(var7)(var9);
             var9 = var9.t;
             var2 = var9.CP2sz4;
-case 258:
+case 261:
             var3['description'] = var2;
             var2 = _closure1_slot6;
             var9 = var2.MANAGE_EVENTS;
@@ -2518,23 +2558,23 @@ case 258:
             var2['title'] = var4;
             var4 = _closure1_slot3;
             var4 = var4.GUILD_CATEGORY;
-            if(!(var6 !== var4)) { _fun0001_ip = 259; continue _fun0001 }
-case 260:
+            if(!(var6 !== var4)) { _fun0001_ip = 262; continue _fun0001 }
+case 263:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var8];
             var4 = var6.bind(var7)(var4);
             var4 = var4.t;
             var4 = var4.sPoBLa;
-            _fun0001_ip = 261; continue _fun0001;
-case 259:
+            _fun0001_ip = 264; continue _fun0001;
+case 262:
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
             var6 = var6[var8];
             var6 = var9.bind(var7)(var6);
             var6 = var6.t;
             var4 = var6.XpibmC;
-case 261:
+case 264:
             var2['description'] = var4;
             var4 = _closure1_slot6;
             var6 = var4.CREATE_EVENTS;

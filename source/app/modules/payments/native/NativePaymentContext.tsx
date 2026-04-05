@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var9;
     var4 = var2[var4];
     var2 = var2[var6];
-    var6 = 8;
+    var6 = 9;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -51,26 +51,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function NativePaymentContextProvider(arg1) {
         var1 = arg1;
         var5 = var1.children;
-        var13 = var1.skuIDs;
-        var _closure2_slot0 = var13;
+        var3 = var1.skuIDs;
+        var _closure2_slot0 = var3;
         var7 = var1.activeSubscription;
-        var3 = _closure1_slot1;
-        var6 = _closure1_slot2;
+        var6 = _closure1_slot1;
+        var9 = _closure1_slot2;
         var4 = 5;
-        var8 = var6[var4];
+        var8 = var9[var4];
         var4 = undefined;
-        var9 = var3.bind(var4)(var8);
-        var8 = var9.useNativeIAPPayments;
-        var8 = var8.bind(var9)();
+        var10 = var6.bind(var4)(var8);
+        var8 = var10.useNativeIAPPayments;
+        var8 = var8.bind(var10)();
         var11 = var8.nativePaymentsConnected;
         var8 = var8.storeFront;
         var _closure2_slot1 = var8;
-        var12 = _closure1_slot3;
-        var10 = var12.useEffect;
-        var9 = new Array(2);
-        var9[0] = var8;
-        var9[1] = var13;
-        var2 = function() {
+        var13 = _closure1_slot3;
+        var12 = var13.useEffect;
+        var10 = new Array(2);
+        var10[0] = var8;
+        var10[1] = var3;
+        var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = _closure2_slot1;
@@ -101,13 +101,41 @@ case 4:
                 return var1;
             }
         };
-        var2 = var10.bind(var12)(var2, var9);
-        var2 = 7;
-        var2 = var6[var2];
-        var2 = var3.bind(var4)(var2);
-        var2 = var2.bind(var4)();
-        var9 = var2.selectedPlan;
-        var10 = var2.setSelectedPlanId;
+        var3 = var12.bind(var13)(var3, var10);
+        var3 = 7;
+        var3 = var9[var3];
+        var3 = var6.bind(var4)(var3);
+        var3 = var3.bind(var4)();
+        var13 = var3.selectedPlanId;
+        var _closure2_slot2 = var13;
+        var10 = var3.setSelectedPlanId;
+        var6 = _closure1_slot0;
+        var3 = 8;
+        var3 = var9[var3];
+        var12 = var6.bind(var4)(var3);
+        var9 = var12.useStateFromStores;
+        var3 = _closure1_slot4;
+        var6 = new Array(1);
+        var6[0] = var3;
+        var3 = new Array(1);
+        var3[0] = var13;
+        var2 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var3 = _closure2_slot2;
+                var1 = null;
+                var3 = var1 != var3;
+                if(!var3) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
+                var4 = _closure1_slot4;
+                var3 = var4.get;
+                var2 = _closure2_slot2;
+                var1 = var3.bind(var4)(var2);
+case 6:
+                return var1;
+            }
+        };
+        var9 = var9.bind(var12)(var6, var2, var3);
         var3 = _closure1_slot5;
         var1 = _closure1_slot6;
         var2 = var1.Provider;

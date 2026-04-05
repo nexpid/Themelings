@@ -1469,8 +1469,8 @@ case 0:
                         var5 = 26;
                         var4 = var3;
                         var3 = undefined;
-                        if(var2) { _fun0018_ip = 96; continue _fun0018 }
-case 101:
+                        if(var2) { _fun0018_ip = 101; continue _fun0018 }
+case 102:
                         var14 = var4.value;
                         var13 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -1481,11 +1481,11 @@ case 101:
                         var2 = _closure1_slot23;
                         var2 = var2.bind(var1)(var14);
                         var13 = var3;
-                        if(!var2) { _fun0018_ip = 102; continue _fun0018 }
-case 103:
-                        var13 = var3;
-                        if(!(var6 != var16)) { _fun0018_ip = 102; continue _fun0018 }
+                        if(!var2) { _fun0018_ip = 103; continue _fun0018 }
 case 104:
+                        var13 = var3;
+                        if(!(var6 != var16)) { _fun0018_ip = 103; continue _fun0018 }
+case 105:
                         var15 = var16.find;
                         var2 = function(arg1) {
                             var2 = _closure4_slot0;
@@ -1494,12 +1494,12 @@ case 104:
                             return var1;
                         };
                         var2 = var15.bind(var16)(var2);
-                        if(!(var6 == var2)) { _fun0018_ip = 105; continue _fun0018 }
-case 106:
+                        if(!(var6 == var2)) { _fun0018_ip = 106; continue _fun0018 }
+case 19:
                         var15 = _closure1_slot25;
                         var15 = var15.bind(var1)(var16, var10);
                         var13 = var2;
-                        if(!var15) { _fun0018_ip = 102; continue _fun0018 }
+                        if(!var15) { _fun0018_ip = 103; continue _fun0018 }
 case 107:
                         var18 = _closure3_slot0;
                         var17 = var18.set;
@@ -1513,8 +1513,8 @@ case 107:
                         var15['applicationId'] = var19;
                         var15 = var17.bind(var18)(var16, var15);
                         var13 = var2;
-                        _fun0018_ip = 102; continue _fun0018;
-case 105:
+                        _fun0018_ip = 103; continue _fun0018;
+case 106:
                         var17 = _closure3_slot0;
                         var16 = var17.set;
                         var15 = var14.id;
@@ -1522,13 +1522,13 @@ case 105:
                         var14['applicationId'] = var2;
                         var14 = var16.bind(var17)(var15, var14);
                         var13 = var2;
-case 102:
+case 103:
                         var14 = var8.bind(var1)();
                         var2 = var14.done;
                         var3 = var13;
                         var4 = var14;
-                        if(!var2) { _fun0018_ip = 101; continue _fun0018 }
-case 96:
+                        if(!var2) { _fun0018_ip = 102; continue _fun0018 }
+case 101:
                         return var1;
                     }
                 };
@@ -1620,19 +1620,19 @@ case 117:
                 var12 = _closure1_slot23;
                 var12 = var12.bind(var8)(var4);
                 if(!var12) { _fun0019_ip = 49; continue _fun0019 }
-case 118:
+case 106:
                 var12 = var10 != var11;
 case 49:
-                if(!var12) { _fun0019_ip = 119; continue _fun0019 }
+                if(!var12) { _fun0019_ip = 118; continue _fun0019 }
 case 92:
-                if(!(var11 === var9)) { _fun0019_ip = 119; continue _fun0019 }
-case 120:
+                if(!(var11 === var9)) { _fun0019_ip = 118; continue _fun0019 }
+case 119:
                 var12 = var1.set;
                 var11 = var4.id;
                 var4 = {};
                 var4['applicationId'] = var9;
                 var4 = var12.bind(var1)(var11, var4);
-case 119:
+case 118:
                 var11 = var7.bind(var8)();
                 var4 = var11.done;
                 var5 = var11;
@@ -1683,10 +1683,10 @@ case 0:
                 var6 = var8.log;
                 var5 = '~ getActivelyProgressingActivityQuestIds -> Embedded activities: ';
                 var5 = var6.bind(var8)(var5, var7);
-                if(var4) { _fun0020_ip = 121; continue _fun0020 }
-case 122:
-                return var1;
+                if(var4) { _fun0020_ip = 120; continue _fun0020 }
 case 121:
+                return var1;
+case 120:
                 var4 = _closure1_slot13;
                 var6 = var4.quests;
                 var5 = _closure1_slot21;
@@ -1701,8 +1701,8 @@ case 121:
                 var9 = var5;
                 var7 = undefined;
                 var5 = undefined;
-                if(var4) { _fun0020_ip = 123; continue _fun0020 }
-case 124:
+                if(var4) { _fun0020_ip = 122; continue _fun0020 }
+case 123:
                 var15 = var9.value;
                 var13 = _closure1_slot21;
                 var4 = var6.values;
@@ -1710,8 +1710,8 @@ case 124:
                 var14 = var13.bind(var8)(var4);
                 var13 = var14.bind(var8)();
                 var4 = var13.done;
-                if(var4) { _fun0020_ip = 125; continue _fun0020 }
-case 126:
+                if(var4) { _fun0020_ip = 124; continue _fun0020 }
+case 107:
                 var17 = var13.value;
                 var16 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -1721,32 +1721,32 @@ case 126:
                 var16 = var4.bind(var16)(var17);
                 var4 = _closure1_slot23;
                 var4 = var4.bind(var8)(var17);
+                if(!var4) { _fun0020_ip = 125; continue _fun0020 }
+case 126:
+                var4 = var11 != var16;
+case 125:
                 if(!var4) { _fun0020_ip = 127; continue _fun0020 }
 case 128:
-                var4 = var11 != var16;
-case 127:
-                if(!var4) { _fun0020_ip = 129; continue _fun0020 }
-case 130:
-                if(!(var16 === var15)) { _fun0020_ip = 129; continue _fun0020 }
+                if(!(var16 === var15)) { _fun0020_ip = 127; continue _fun0020 }
 case 50:
                 var19 = var1.set;
                 var18 = var17.id;
                 var4 = {};
                 var4['applicationId'] = var15;
                 var4 = var19.bind(var1)(var18, var4);
-case 129:
+case 127:
                 var18 = var14.bind(var8)();
                 var4 = var18.done;
                 var13 = var18;
                 var7 = var17;
                 var5 = var16;
-                if(!var4) { _fun0020_ip = 126; continue _fun0020 }
-case 125:
+                if(!var4) { _fun0020_ip = 107; continue _fun0020 }
+case 124:
                 var13 = var12.bind(var8)();
                 var4 = var13.done;
                 var9 = var13;
-                if(!var4) { _fun0020_ip = 124; continue _fun0020 }
-case 123:
+                if(!var4) { _fun0020_ip = 123; continue _fun0020 }
+case 122:
                 var5 = _closure1_slot21;
                 var4 = var6.values;
                 var4 = var4.bind(var6)();
@@ -1754,21 +1754,21 @@ case 123:
                 var5 = var7.bind(var8)();
                 var4 = var5.done;
                 var6 = 29;
-                if(var4) { _fun0020_ip = 131; continue _fun0020 }
+                if(var4) { _fun0020_ip = 129; continue _fun0020 }
 case 114:
                 var4 = var5.value;
                 var9 = _closure1_slot23;
                 var9 = var9.bind(var8)(var4);
-                if(!var9) { _fun0020_ip = 132; continue _fun0020 }
-case 133:
+                if(!var9) { _fun0020_ip = 130; continue _fun0020 }
+case 131:
                 var11 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var10 = var10[var6];
                 var11 = var11.bind(var8)(var10);
                 var10 = var11.isPlayAnyActivityQuest;
                 var9 = var10.bind(var11)(var4);
-case 132:
-                if(!var9) { _fun0020_ip = 134; continue _fun0020 }
+case 130:
+                if(!var9) { _fun0020_ip = 132; continue _fun0020 }
 case 97:
                 var10 = var1.set;
                 var9 = var4.id;
@@ -1776,12 +1776,12 @@ case 97:
                 var11 = _closure1_slot15;
                 var4['applicationId'] = var11;
                 var4 = var10.bind(var1)(var9, var4);
-case 134:
+case 132:
                 var9 = var7.bind(var8)();
                 var4 = var9.done;
                 var5 = var9;
                 if(!var4) { _fun0020_ip = 114; continue _fun0020 }
-case 131:
+case 129:
                 var5 = _closure1_slot19;
                 var4 = var5.log;
                 var6 = var2.Array;

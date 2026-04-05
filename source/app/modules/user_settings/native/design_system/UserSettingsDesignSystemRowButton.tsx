@@ -187,8 +187,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var22 = var17[var15];
         var22 = var16.bind(var1)(var22);
         var20['source'] = var22;
-        var22 = 'boosting-pink';
-        var20['variant'] = var22;
         var20 = var8.bind(var1)(var21, var20);
         var18['icon'] = var20;
         var20 = function onPress() {

@@ -65,7 +65,7 @@ case 3:
             var12 = 'MediaKeyboardButtonIcon';
             var1['location'] = var12;
             var1 = var10.bind(var11)(var1);
-            var13 = var1.chatInputHideApps;
+            var13 = var1.chatInputHideMore;
             _closure2_slot1 = var13;
             var1 = 4;
             var10 = var9[var1];

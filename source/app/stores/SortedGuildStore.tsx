@@ -1153,20 +1153,20 @@ case 0:
             var9 = var5 == var7;
             var3 = undefined;
             var6 = undefined;
-            if(var9) { _fun0018_ip = 86; continue _fun0018 }
-case 124:
+            if(var9) { _fun0018_ip = 34; continue _fun0018 }
+case 41:
             var6 = var7.id;
-case 86:
+case 34:
             var4 = var4.id;
-            if(!(var6 === var4)) { _fun0018_ip = 125; continue _fun0018 }
-case 40:
-            if(!(var5 != var1)) { _fun0018_ip = 125; continue _fun0018 }
-case 126:
+            if(!(var6 === var4)) { _fun0018_ip = 124; continue _fun0018 }
+case 95:
+            if(!(var5 != var1)) { _fun0018_ip = 124; continue _fun0018 }
+case 43:
             var7 = 'string';
             var6 = typeof var8;
             var4 = var8;
-            if(!(var7 === var6)) { _fun0018_ip = 127; continue _fun0018 }
-case 42:
+            if(!(var7 === var6)) { _fun0018_ip = 52; continue _fun0018 }
+case 125:
             var6 = global;
             var6 = var6.Date;
             var7 = var6.prototype;
@@ -1175,20 +1175,20 @@ case 42:
             var10 = var8;
             var6 = new var11[var6](var10, var9);
             var4 = var6 instanceof Object ? var6 : var7;
-case 127:
+case 52:
             var1 = var1.joinedAt;
             var1 = var4 !== var1;
-            if(!var1) { _fun0018_ip = 128; continue _fun0018 }
-case 129:
+            if(!var1) { _fun0018_ip = 126; continue _fun0018 }
+case 127:
             var1 = var5 != var4;
-case 128:
-            if(!var1) { _fun0018_ip = 130; continue _fun0018 }
-case 131:
+case 126:
+            if(!var1) { _fun0018_ip = 128; continue _fun0018 }
+case 96:
             var2 = _closure1_slot29;
             var1 = var2.bind(var3)();
-case 130:
+case 128:
             return var1;
-case 125:
+case 124:
             var1 = false;
             return var1;
         }
@@ -1206,8 +1206,8 @@ case 0:
             var1 = var3.isFolderExpanded;
             var3 = var1.bind(var3)(var5);
             var1 = null;
-            if(!(var1 != var4)) { _fun0019_ip = 132; continue _fun0019 }
-case 133:
+            if(!(var1 != var4)) { _fun0019_ip = 129; continue _fun0019 }
+case 130:
             var6 = var4.type;
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -1217,15 +1217,15 @@ case 133:
             var5 = var7.bind(var1)(var5);
             var5 = var5.GuildsNodeType;
             var5 = var5.FOLDER;
-            if(!(var6 === var5)) { _fun0019_ip = 132; continue _fun0019 }
+            if(!(var6 === var5)) { _fun0019_ip = 129; continue _fun0019 }
 case 123:
             var5 = var4.expanded;
-            if(!(var5 !== var3)) { _fun0019_ip = 132; continue _fun0019 }
-case 134:
+            if(!(var5 !== var3)) { _fun0019_ip = 129; continue _fun0019 }
+case 131:
             var2 = _closure1_slot39;
             var2 = var2.bind(var1)(var4, var3);
             return var1;
-case 132:
+case 129:
             var1 = false;
             return var1;
         }
@@ -1242,7 +1242,7 @@ case 0:
             var3 = var1.bind(var3)(var5);
             var1 = null;
             if(!(var1 != var3)) { _fun0020_ip = 97; continue _fun0020 }
-case 135:
+case 132:
             var6 = var3.type;
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -1256,7 +1256,7 @@ case 135:
 case 47:
             var5 = var3.expanded;
             if(!(var5 !== var4)) { _fun0020_ip = 97; continue _fun0020 }
-case 136:
+case 133:
             var2 = _closure1_slot39;
             var2 = var2.bind(var1)(var3, var4);
             return var1;
@@ -1290,12 +1290,12 @@ case 121:
             var2 = var2.GuildsNodeType;
             var2 = var2.FOLDER;
             var2 = var9 === var2;
-            if(!var2) { _fun0021_ip = 137; continue _fun0021 }
+            if(!var2) { _fun0021_ip = 134; continue _fun0021 }
 case 123:
             var2 = var8.expanded;
-case 137:
+case 134:
             if(!var2) { _fun0021_ip = 17; continue _fun0021 }
-case 138:
+case 135:
             var2 = _closure1_slot39;
             var2 = var2.bind(var1)(var8, var5);
 case 17:
@@ -1470,26 +1470,26 @@ case 9:
                 var4 = var6.bind(var1)(var4);
                 var4 = var4.GuildsNodeType;
                 var4 = var4.GUILD;
-                if(!(var4 === var5)) { _fun0022_ip = 139; continue _fun0022 }
+                if(!(var4 === var5)) { _fun0022_ip = 136; continue _fun0022 }
 case 47:
                 var5 = _closure2_slot0;
                 var4 = var5.push;
                 var4 = var4.bind(var5)(var2);
-case 139:
+case 136:
                 var3 = _closure1_slot24;
                 var2 = var2.children;
                 var5 = var3.bind(var1)(var2);
                 var3 = var5.bind(var1)();
                 var2 = var3.done;
                 if(var2) { _fun0022_ip = 54; continue _fun0022 }
-case 140:
+case 137:
                 var6 = _closure2_slot1;
                 var2 = var3.value;
                 var2 = var6.bind(var1)(var2);
                 var6 = var5.bind(var1)();
                 var2 = var6.done;
                 var3 = var6;
-                if(!var2) { _fun0022_ip = 140; continue _fun0022 }
+                if(!var2) { _fun0022_ip = 137; continue _fun0022 }
 case 54:
                 return var1;
             }
@@ -1564,12 +1564,12 @@ case 0:
                 var3 = _closure1_slot5;
                 var1 = _closure1_slot23;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0023_ip = 141; continue _fun0023 }
-case 142:
+                if(var1) { _fun0023_ip = 138; continue _fun0023 }
+case 139:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0023_ip = 143; continue _fun0023;
-case 141:
+                _fun0023_ip = 140; continue _fun0023;
+case 138:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -1577,7 +1577,7 @@ case 141:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 143:
+case 140:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var2 = function() {
@@ -1592,12 +1592,12 @@ case 0:
                         var5 = var2 == var3;
                         var1 = undefined;
                         var4 = undefined;
-                        if(var5) { _fun0024_ip = 144; continue _fun0024 }
-case 145:
+                        if(var5) { _fun0024_ip = 141; continue _fun0024 }
+case 142:
                         var4 = var3.tree;
+case 141:
+                        if(!(var2 != var4)) { _fun0024_ip = 143; continue _fun0024 }
 case 144:
-                        if(!(var2 != var4)) { _fun0024_ip = 146; continue _fun0024 }
-case 147:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var5 = 15;
@@ -1619,7 +1619,7 @@ case 147:
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.bind(var1)();
                         var2 = var3.done;
-                        if(var2) { _fun0024_ip = 146; continue _fun0024 }
+                        if(var2) { _fun0024_ip = 143; continue _fun0024 }
 case 19:
                         var7 = var3.value;
                         var8 = var7.type;
@@ -1629,19 +1629,19 @@ case 19:
                         var2 = var9.bind(var1)(var2);
                         var2 = var2.GuildsNodeType;
                         var2 = var2.FOLDER;
-                        if(!(var8 === var2)) { _fun0024_ip = 148; continue _fun0024 }
-case 149:
+                        if(!(var8 === var2)) { _fun0024_ip = 145; continue _fun0024 }
+case 146:
                         var9 = _closure1_slot11;
                         var8 = var9.isFolderExpanded;
                         var2 = var7.id;
                         var2 = var8.bind(var9)(var2);
                         var7['expanded'] = var2;
-case 148:
+case 145:
                         var7 = var4.bind(var1)();
                         var2 = var7.done;
                         var3 = var7;
                         if(!var2) { _fun0024_ip = 19; continue _fun0024 }
-case 146:
+case 143:
                         return var1;
                     }
                 };

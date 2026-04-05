@@ -1948,27 +1948,20 @@ case 90:
 case 0:
             var1 = arg1;
             var5 = var1.channelId;
-            var2 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 29;
-            var1 = var4[var1];
-            var4 = undefined;
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.isEligibleForSafetyXPHoldoutExperiment;
-            var1 = var1.bind(var2)();
             var1 = null;
             var1 = var1 != var5;
             if(!var1) { _fun0031_ip = 144; continue _fun0031 }
-case 12:
-            var6 = _closure1_slot14;
-            var2 = var6.getChannelId;
-            var2 = var2.bind(var6)();
-            var6 = var5 !== var2;
-            var2 = !var6;
-            if(var6) { _fun0031_ip = 145; continue _fun0031 }
-case 141:
-            var3 = _closure1_slot41;
-            var2 = var3.bind(var4)(var5);
+case 18:
+            var4 = _closure1_slot14;
+            var2 = var4.getChannelId;
+            var2 = var2.bind(var4)();
+            var4 = var5 !== var2;
+            var2 = !var4;
+            if(var4) { _fun0031_ip = 145; continue _fun0031 }
+case 146:
+            var4 = _closure1_slot41;
+            var3 = undefined;
+            var2 = var4.bind(var3)(var5);
 case 145:
             var1 = var2;
 case 144:
@@ -1983,7 +1976,7 @@ case 0:
             var1 = var2.settings;
             var2 = var2.local;
             if(!var2) { _fun0032_ip = 141; continue _fun0032 }
-case 146:
+case 147:
             var3 = var1.type;
             var1 = _closure1_slot18;
             var1 = var1.PRELOADED_USER_SETTINGS;
@@ -2036,7 +2029,7 @@ case 0:
             var1 = 0;
             var1 = var1 !== var3;
             if(!var1) { _fun0034_ip = 91; continue _fun0034 }
-case 147:
+case 148:
             var3 = _closure1_slot29;
             var2 = undefined;
             var1 = var3.bind(var2)(var4);
@@ -2128,7 +2121,7 @@ case 0:
             var3 = arg1;
             var2 = var3.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0035_ip = 148; continue _fun0035 }
+            if(!(var1 !== var2)) { _fun0035_ip = 149; continue _fun0035 }
 case 7:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -2137,8 +2130,8 @@ case 7:
             var2 = undefined;
             var2 = var5.bind(var2)(var4);
             var4 = arg2;
-            if(var4) { _fun0035_ip = 145; continue _fun0035 }
-case 149:
+            if(var4) { _fun0035_ip = 150; continue _fun0035 }
+case 151:
             var5 = var2.sendMessagesForScanning;
             var1 = var3[var1];
             var4 = var1.channel_id;
@@ -2150,17 +2143,17 @@ case 149:
             };
             var1 = var6.bind(var3)(var1);
             var1 = var5.bind(var2)(var4, var1);
-            _fun0035_ip = 148; continue _fun0035;
-case 145:
+            _fun0035_ip = 149; continue _fun0035;
+case 150:
             var1 = var2.sendMultiChannelMessagesForScanning;
             var1 = var1.bind(var2)(var3);
-case 148:
+case 149:
             var1 = undefined;
             return var1;
         }
     };
     var _closure1_slot20 = var4;
-    var4 = 30;
+    var4 = 29;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -2184,12 +2177,12 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot21;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0036_ip = 150; continue _fun0036 }
+                if(var1) { _fun0036_ip = 152; continue _fun0036 }
 case 41:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
                 _fun0036_ip = 74; continue _fun0036;
-case 150:
+case 152:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -2245,7 +2238,7 @@ case 74:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 31;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

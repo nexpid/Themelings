@@ -5836,19 +5836,19 @@ case 3:
                             var12 = var8.transportInfo;
                             var13 = var3 == var12;
                             var8 = undefined;
-                            if(var13) { _fun0070_ip = 219; continue _fun0070 }
-case 336:
+                            if(var13) { _fun0070_ip = 336; continue _fun0070 }
+case 337:
                             var8 = var12.createConnectionTime;
-case 219:
+case 336:
                             var4['time_3_media_engine_create_native_connection'] = var8;
                             var8 = _closure3_slot4;
                             var12 = var8.transportInfo;
                             var13 = var3 == var12;
                             var8 = undefined;
-                            if(var13) { _fun0070_ip = 337; continue _fun0070 }
-case 338:
+                            if(var13) { _fun0070_ip = 338; continue _fun0070 }
+case 222:
                             var8 = var12.connectTime;
-case 337:
+case 338:
                             var4['time_4_media_engine_connect_to_socket'] = var8;
                             var8 = _closure3_slot0;
                             var8 = var8._connection;

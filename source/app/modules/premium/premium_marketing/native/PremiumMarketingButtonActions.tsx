@@ -55,12 +55,11 @@ case 0:
             var _closure2_slot2 = var3;
             var2 = var2.onPaymentDismiss;
             var _closure2_slot3 = var2;
-            var4 = undefined;
-            var _closure2_slot4 = var4;
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = 3;
             var3 = var3[var5];
+            var4 = undefined;
             var3 = var7.bind(var4)(var3);
             var3 = var3.ButtonAction;
             var3 = var3.OPEN_TIER_1_PAYMENT_MODAL;
@@ -145,97 +144,103 @@ case 7:
             };
             return var2;
 case 4:
-            var2 = function handlePaymentDismiss(arg1) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var1 = arg1;
-                    var6 = var1.productId;
-                    var4 = var1.isSuccess;
-                    var3 = _closure2_slot3;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-                    var3 = _closure2_slot3;
-                    var2 = {};
-                    var2['productId'] = var6;
-                    var2['isSuccess'] = var4;
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-case 9:
-                    var5 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var8 = 5;
-                    var2 = var1[var8];
-                    var1 = undefined;
-                    var2 = var5.bind(var1)(var2);
-                    var2 = var2.ProductIds;
-                    var2 = var2.PREMIUM_TIER_2_MONTHLY;
-                    var2 = var6 === var2;
-                    if(var2) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-                    var7 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var5 = var5[var8];
-                    var5 = var7.bind(var1)(var5);
-                    var5 = var5.ProductIds;
-                    var5 = var5.PREMIUM_TIER_2_YEARLY;
-                    var2 = var6 === var5;
-case 11:
-                    if(!var4) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-                    if(!var2) { _fun0002_ip = 13; continue _fun0002 }
-case 15:
-                    var4 = _closure1_slot3;
-                    var2 = var4.getMarketingMomentRewardSkuIds;
-                    var5 = var2.bind(var4)();
-                    var4 = var5.length;
-                    var2 = 0;
-                    if(!(var4 > var2)) { _fun0002_ip = 13; continue _fun0002 }
-case 16:
-                    var4 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 6;
-                    var3 = var6[var3];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.showMarketingMomentRewardScreen;
-                    var2 = var5[var2];
-                    var2 = var3.bind(var4)(var2);
-case 13:
-                    return var1;
-                }
-            };
-            _closure2_slot4 = var2;
             var2 = function() {
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
+                var2 = _closure1_slot3;
+                var1 = var2.getMarketingMomentRewardSkuIds;
+                var1 = var1.bind(var2)();
+                var _closure3_slot0 = var1;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
                 var1 = 4;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var6 = {};
-                var7 = _closure2_slot1;
-                var6['page'] = var7;
-                var7 = _closure1_slot5;
-                var7 = var7.FOOTER;
-                var6['section'] = var7;
-                var7 = _closure1_slot6;
-                var7 = var7.BUTTON_CTA;
-                var6['object'] = var7;
-                var7 = _closure1_slot7;
-                var7 = var7.TIER_2;
-                var6['objectType'] = var7;
-                var1['analyticsLocation'] = var6;
-                var6 = _closure2_slot0;
-                var1['analyticsLocations'] = var6;
-                var5 = _closure1_slot4;
-                var5 = var5.TIER_2;
-                var1['premiumType'] = var5;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = {};
+                var7 = {};
+                var8 = _closure2_slot1;
+                var7['page'] = var8;
+                var8 = _closure1_slot5;
+                var8 = var8.FOOTER;
+                var7['section'] = var8;
+                var8 = _closure1_slot6;
+                var8 = var8.BUTTON_CTA;
+                var7['object'] = var8;
+                var8 = _closure1_slot7;
+                var8 = var8.TIER_2;
+                var7['objectType'] = var8;
+                var2['analyticsLocation'] = var7;
+                var7 = _closure2_slot0;
+                var2['analyticsLocations'] = var7;
+                var6 = _closure1_slot4;
+                var6 = var6.TIER_2;
+                var2['premiumType'] = var6;
                 var5 = _closure2_slot2;
-                var1['onPaymentSuccess'] = var5;
-                var4 = _closure2_slot4;
-                var1['onPaymentDismiss'] = var4;
-                var1 = var2.bind(var3)(var1);
+                var2['onPaymentSuccess'] = var5;
+                var4 = function onPaymentDismiss(arg1) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                        var1 = arg1;
+                        var6 = var1.productId;
+                        var3 = var1.isSuccess;
+                        var4 = _closure2_slot3;
+                        var2 = null;
+                        if(!(var2 != var4)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                        var4 = _closure2_slot3;
+                        var2 = {};
+                        var2['productId'] = var6;
+                        var2['isSuccess'] = var3;
+                        var1 = undefined;
+                        var1 = var4.bind(var1)(var2);
+case 9:
+                        var5 = _closure1_slot0;
+                        var1 = _closure1_slot2;
+                        var8 = 5;
+                        var4 = var1[var8];
+                        var1 = undefined;
+                        var4 = var5.bind(var1)(var4);
+                        var4 = var4.ProductIds;
+                        var4 = var4.PREMIUM_TIER_2_MONTHLY;
+                        var4 = var6 === var4;
+                        if(var4) { _fun0002_ip = 5; continue _fun0002 }
+case 3:
+                        var7 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        var5 = var5[var8];
+                        var5 = var7.bind(var1)(var5);
+                        var5 = var5.ProductIds;
+                        var5 = var5.PREMIUM_TIER_2_YEARLY;
+                        var4 = var6 === var5;
+case 5:
+                        if(!var3) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+                        var3 = var4;
+case 11:
+                        if(!var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+                        var4 = _closure3_slot0;
+                        var5 = var4.length;
+                        var4 = 0;
+                        var3 = var5 > var4;
+case 13:
+                        if(!var3) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                        var3 = _closure1_slot0;
+                        var4 = _closure1_slot2;
+                        var2 = 6;
+                        var2 = var4[var2];
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.showMarketingMomentRewardScreen;
+                        var5 = _closure3_slot0;
+                        var2 = 0;
+                        var2 = var5[var2];
+                        var2 = var3.bind(var4)(var2);
+case 15:
+                        return var1;
+                    }
+                };
+                var2['onPaymentDismiss'] = var4;
+                var2 = var3.bind(var1)(var2);
                 return var1;
             };
             return var2;

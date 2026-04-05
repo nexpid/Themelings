@@ -285,35 +285,35 @@ case 34:
 case 39:
             var3 = var2.pendingNickname;
             if(!(var4 !== var3)) { _fun0004_ip = 31; continue _fun0004 }
-case 41:
+case 21:
             var5 = var2.pendingNickname;
             var3 = null;
             var6 = var3 != var5;
             var3 = '';
-            if(!var6) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            var3 = var5;
+            if(!var6) { _fun0004_ip = 41; continue _fun0004 }
 case 42:
+            var3 = var5;
+case 41:
             var1['nick'] = var3;
 case 31:
             var3 = var2.pendingAvatarDecoration;
-            if(!(var4 !== var3)) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+            if(!(var4 !== var3)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
             var3 = var2.pendingAvatarDecoration;
             var1['avatarDecoration'] = var3;
-case 44:
+case 43:
             var3 = var2.pendingNameplate;
-            if(!(var4 !== var3)) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+            if(!(var4 !== var3)) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
             var3 = var2.pendingNameplate;
             var1['nameplate'] = var3;
-case 46:
+case 45:
             var3 = var2.pendingDisplayNameStyles;
-            if(!(var4 !== var3)) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
+            if(!(var4 !== var3)) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
             var2 = var2.pendingDisplayNameStyles;
             var1['displayNameStyles'] = var2;
-case 48:
+case 47:
             return var1;
         }
     };

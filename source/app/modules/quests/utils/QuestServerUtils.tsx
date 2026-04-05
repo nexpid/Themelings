@@ -107,14 +107,23 @@ case 0:
             var1['completedAt'] = var3;
             var3 = var2.claimed_at;
             var1['claimedAt'] = var3;
-            var4 = var2.claimed_tier;
+            var5 = var2.claimed_tier;
             var3 = null;
-            var5 = var3 != var4;
-            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+            var6 = var3 != var5;
+            var4 = null;
+            if(!var6) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var3 = var4;
+            var4 = var5;
 case 6:
-            var1['claimedTier'] = var3;
+            var1['claimedTier'] = var4;
+            var4 = var2.orb_quantity_claimed;
+            var5 = var3 != var4;
+            var3 = null;
+            if(!var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var3 = var4;
+case 8:
+            var1['orbQuantityClaimed'] = var3;
             var3 = var2.last_stream_heartbeat_at;
             var1['lastStreamHeartbeatAt'] = var3;
             var3 = var2.stream_progress_seconds;
@@ -143,8 +152,8 @@ case 0:
             var1 = var5.bind(var1)(var4);
             var1 = var1.QuestRewardTypes;
             var1 = var1.VIRTUAL_CURRENCY;
-            if(!(var2 !== var1)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+            if(!(var2 !== var1)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var1 = {};
             var2 = var3.sku_id;
             var1['skuId'] = var2;
@@ -160,8 +169,8 @@ case 9:
             var1['assetVideo'] = var2;
             var2 = var3.collectible_product;
             var1['collectibleProduct'] = var2;
-            _fun0003_ip = 10; continue _fun0003;
-case 8:
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
             var2 = {};
             var4 = var3.sku_id;
             var2['skuId'] = var4;
@@ -176,7 +185,7 @@ case 8:
             var3 = var3.orb_quantity;
             var2['orbQuantity'] = var3;
             var1 = var2;
-case 10:
+case 12:
             return var1;
         }
     };
@@ -279,10 +288,10 @@ case 0:
             var3 = var2.tier;
             var2 = null;
             var4 = var2 != var3;
-            if(!var4) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+            if(!var4) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var2 = var3;
-case 11:
+case 13:
             var1['tier'] = var2;
             return var1;
         }
@@ -296,12 +305,12 @@ case 0:
             var4 = var1 == var2;
             var8 = undefined;
             var3 = undefined;
-            if(var4) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
-            var3 = var2.quest_rewards;
-case 13:
-            if(!(var1 != var3)) { _fun0005_ip = 15; continue _fun0005 }
+            if(var4) { _fun0005_ip = 15; continue _fun0005 }
 case 16:
+            var3 = var2.quest_rewards;
+case 15:
+            if(!(var1 != var3)) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var5 = var2.quest_rewards;
             var2 = var5.reward;
             var3 = var2.tag;
@@ -312,18 +321,18 @@ case 16:
             var2 = var4.bind(var8)(var2);
             var2 = var2.QuestRewardTypes;
             var2 = var2.IN_GAME;
-            if(!(var2 !== var3)) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+            if(!(var2 !== var3)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var7];
             var2 = var4.bind(var8)(var2);
             var2 = var2.QuestRewardTypes;
             var2 = var2.REWARD_CODE;
-            if(!(var2 !== var3)) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+            if(!(var2 !== var3)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             return var8;
-case 19:
+case 21:
             var2 = {};
             var3 = {};
             var4 = {};
@@ -338,7 +347,7 @@ case 19:
             var3['reward'] = var4;
             var2['questRewards'] = var3;
             return var2;
-case 17:
+case 19:
             var2 = {};
             var3 = {};
             var4 = {};
@@ -348,7 +357,7 @@ case 17:
             var3['reward'] = var4;
             var2['questRewards'] = var3;
             return var2;
-case 15:
+case 17:
             return var1;
         }
     };
@@ -439,16 +448,16 @@ case 0:
             var1['expiresAt'] = var4;
             var5 = var2.asset_hero_video;
             var4 = null;
-            if(!(var4 != var5)) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+            if(!(var4 != var5)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
             var5 = _closure1_slot11;
             var3 = var2.asset_hero_video;
             var3 = var5.bind(var6)(var3);
             var1['assetHeroVideo'] = var3;
-case 21:
+case 23:
             var3 = var2.quest_home_entrypoint;
-            if(!(var4 != var3)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+            if(!(var4 != var3)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
             var3 = var2.quest_home_entrypoint;
             var2 = {};
             var4 = var3.linear_gradient_start;
@@ -468,7 +477,7 @@ case 24:
             var3 = var3.tooltip_subtitle;
             var2['tooltipSubtitle'] = var3;
             var1['questHomeEntrypoint'] = var2;
-case 23:
+case 25:
             return var1;
         }
     };
@@ -497,7 +506,7 @@ case 23:
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
-case 25: // try_start_0
+case 27: // try_start_0
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 1;
@@ -518,9 +527,9 @@ case 25: // try_start_0
             var2 = var3.bind(var4)(var2, var1);
             var1 = var2.exhaustive;
             var1 = var1.bind(var2)();
-case 26: // try_end0
+case 28: // try_end0
             return var1;
-case 27: // catch_target0
+case 29: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = false;
             return var1;
@@ -546,12 +555,12 @@ case 0:
             var5 = var2.user_status;
             var3 = null;
             var5 = var3 == var5;
-            if(var5) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
+            if(var5) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
             var5 = _closure1_slot5;
             var4 = var2.user_status;
             var3 = var5.bind(var6)(var4);
-case 28:
+case 30:
             var1['userStatus'] = var3;
             var3 = var2.targeted_content;
             var1['targetedContent'] = var3;
@@ -588,12 +597,12 @@ case 0:
             var6 = var3.user_status;
             var2 = null;
             var6 = var2 == var6;
-            if(var6) { _fun0009_ip = 30; continue _fun0009 }
-case 31:
+            if(var6) { _fun0009_ip = 32; continue _fun0009 }
+case 33:
             var4 = _closure1_slot5;
             var3 = var3.user_status;
             var2 = var4.bind(var5)(var3);
-case 30:
+case 32:
             var1['userStatus'] = var2;
             return var1;
         }
@@ -622,8 +631,8 @@ case 0:
             var1 = arg1;
             var3 = var1.version;
             var2 = 1;
-            if(!(var2 === var3)) { _fun0010_ip = 32; continue _fun0010 }
-case 14:
+            if(!(var2 === var3)) { _fun0010_ip = 34; continue _fun0010 }
+case 16:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var6 = 4;
@@ -634,11 +643,11 @@ case 14:
             var5 = var3.QUEST_HOME_BANNER;
             var3 = var1.placements;
             var3 = var5 in var3;
-            if(var3) { _fun0010_ip = 33; continue _fun0010 }
-case 34:
+            if(var3) { _fun0010_ip = 35; continue _fun0010 }
+case 36:
             var3 = null;
             return var3;
-case 33:
+case 35:
             var3 = var1.placements;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -649,13 +658,13 @@ case 33:
             var3 = var3[var1];
             var1 = null;
             var5 = var1 == var3;
-            if(var5) { _fun0010_ip = 35; continue _fun0010 }
-case 20:
+            if(var5) { _fun0010_ip = 37; continue _fun0010 }
+case 22:
             var2 = _closure1_slot13;
             var1 = var2.bind(var4)(var3);
-case 35:
+case 37:
             return var1;
-case 32:
+case 34:
             var1 = null;
             return var1;
         }

@@ -25,7 +25,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 8;
+    var4 = 2;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'width': 32, 'height': 32};
+    var4['icon'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -37,11 +46,13 @@ case 0:
             var1 = arg1;
             var5 = var1.guild;
             var _closure2_slot0 = var5;
+            var2 = _closure1_slot4;
+            var4 = undefined;
+            var9 = var2.bind(var4)();
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 2;
+            var2 = 3;
             var2 = var13[var2];
-            var4 = undefined;
             var3 = var12.bind(var4)(var2);
             var2 = var3.useIOSCompletionStates;
             var2 = var2.bind(var3)(var5);
@@ -51,12 +62,12 @@ case 0:
             var _closure2_slot2 = var5;
             var7 = var2.totalSteps;
             var3 = _closure1_slot3;
-            var10 = _closure1_slot1;
-            var1 = 3;
+            var14 = _closure1_slot1;
+            var1 = 4;
             var1 = var13[var1];
-            var2 = var10.bind(var4)(var1);
+            var2 = var14.bind(var4)(var1);
             var1 = {};
-            var9 = function onPress() {
+            var10 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = _closure2_slot2;
@@ -64,7 +75,7 @@ case 0:
 case 3:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 5;
                     var3 = var3[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);
@@ -75,7 +86,7 @@ case 3:
 case 2:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 2;
+                    var1 = 3;
                     var3 = var3[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);
@@ -85,12 +96,16 @@ case 2:
                     return var1;
                 }
             };
-            var1['onPress'] = var9;
-            var9 = 5;
-            var9 = var13[var9];
-            var9 = var10.bind(var4)(var9);
-            var1['source'] = var9;
-            var9 = 6;
+            var1['onPress'] = var10;
+            var10 = {};
+            var11 = 6;
+            var11 = var13[var11];
+            var11 = var14.bind(var4)(var11);
+            var10['uri'] = var11;
+            var1['source'] = var10;
+            var9 = var9.icon;
+            var1['iconStyle'] = var9;
+            var9 = 7;
             var10 = var13[var9];
             var10 = var12.bind(var4)(var10);
             var11 = var10.intl;
@@ -115,7 +130,7 @@ case 6:
                 var4 = _closure1_slot3;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 7;
+                var1 = 8;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);

@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var7.bind(var1)(var2);
     var2 = var2.Permissions;
     var4 = var2.ADMINISTRATOR;
-    var5 = new Array(13);
+    var5 = new Array(14);
     var5[0] = var4;
     var4 = var2.KICK_MEMBERS;
     var5[1] = var4;
@@ -41,8 +41,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5[10] = var4;
     var4 = var2.MODERATE_MEMBERS;
     var5[11] = var4;
-    var2 = var2.MENTION_EVERYONE;
-    var5[12] = var2;
+    var4 = var2.MENTION_EVERYONE;
+    var5[12] = var4;
+    var2 = var2.MANAGE_OFFICIAL_MESSAGES;
+    var5[13] = var2;
     var2 = 1;
     var4 = var8[var2];
     var2 = metroImportAll;

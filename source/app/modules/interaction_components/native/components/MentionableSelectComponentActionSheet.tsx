@@ -435,15 +435,15 @@ case 34:
                     var7 = var2 == var3;
                     var3 = undefined;
                     if(var7) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+case 3:
                     var7 = _closure2_slot5;
                     var4 = var4.id;
                     var3 = var7[var4];
 case 35:
                     var10 = var3;
 case 33:
-                    if(!(var2 != var10)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+                    if(!(var2 != var10)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                     var4 = _closure1_slot11;
                     var3 = _closure1_slot4;
                     var2 = {};
@@ -476,7 +476,7 @@ case 38:
                     var2['children'] = var5;
                     var2 = var4.bind(var1)(var3, var2);
                     return var2;
-case 37:
+case 36:
                     return var1;
                 }
             };
@@ -503,7 +503,7 @@ case 0:
                     var1 = var4.bind(var6)(var1);
                     var1 = var1.SelectOptionType;
                     var1 = var1.USER;
-                    if(!(var3 !== var1)) { _fun0005_ip = 39; continue _fun0005 }
+                    if(!(var3 !== var1)) { _fun0005_ip = 38; continue _fun0005 }
 case 30:
                     var3 = var9.type;
                     var4 = _closure1_slot0;
@@ -512,10 +512,10 @@ case 30:
                     var1 = var4.bind(var6)(var1);
                     var1 = var1.SelectOptionType;
                     var1 = var1.ROLE;
-                    if(!(var3 !== var1)) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
-                    return var6;
+                    if(!(var3 !== var1)) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
+                    return var6;
+case 39:
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var1 = 22;
@@ -532,17 +532,17 @@ case 40:
                     var1['roleName'] = var7;
                     var1 = var4.bind(var5)(var3, var1);
                     return var1;
-case 39:
+case 38:
                     var4 = _closure1_slot8;
                     var3 = var4.getUser;
                     var1 = var9.value;
                     var7 = var3.bind(var4)(var1);
                     var8 = null;
-                    if(!(var8 != var7)) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
-                    var1 = var7.bot;
-                    if(var1) { _fun0005_ip = 44; continue _fun0005 }
+                    if(!(var8 != var7)) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
+                    var1 = var7.bot;
+                    if(var1) { _fun0005_ip = 43; continue _fun0005 }
+case 41:
                     var3 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var1 = 22;
@@ -559,14 +559,14 @@ case 42:
                     var1['username'] = var10;
                     var11 = var8 == var7;
                     var10 = undefined;
-                    if(var11) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
-                    var10 = var7.discriminator;
+                    if(var11) { _fun0005_ip = 44; continue _fun0005 }
 case 45:
+                    var10 = var7.discriminator;
+case 44:
                     var1['discriminator'] = var10;
                     var1 = var4.bind(var5)(var3, var1);
-                    _fun0005_ip = 47; continue _fun0005;
-case 44:
+                    _fun0005_ip = 46; continue _fun0005;
+case 43:
                     var3 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var2 = 22;
@@ -583,13 +583,13 @@ case 44:
                     var2['username'] = var9;
                     var8 = var8 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
-                    var6 = var7.discriminator;
+                    if(var8) { _fun0005_ip = 47; continue _fun0005 }
 case 48:
+                    var6 = var7.discriminator;
+case 47:
                     var2['discriminator'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 47:
+case 46:
                     return var1;
                 }
             };

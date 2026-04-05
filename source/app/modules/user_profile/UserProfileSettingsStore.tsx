@@ -816,6 +816,8 @@ case 30:
                 var2[2] = var4;
                 var3 = 'pendingProfileEffect';
                 var2[2] = var4;
+                var3 = 'pendingProfileFrame';
+                var2[2] = var4;
                 var3 = 'pendingBanner';
                 var2[2] = var4;
                 var3 = 'pendingAccentColor';

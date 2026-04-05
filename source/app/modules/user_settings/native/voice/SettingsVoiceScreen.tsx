@@ -71,6 +71,18 @@ case 4:
             var6 = var15.bind(var4)(var6);
             var7 = var6.Pressable;
             var6 = {};
+            var10 = 'link';
+            var6['accessibilityRole'] = var10;
+            var10 = var16[var12];
+            var10 = var15.bind(var4)(var10);
+            var13 = var10.intl;
+            var11 = var13.string;
+            var10 = var16[var12];
+            var10 = var15.bind(var4)(var10);
+            var10 = var10.t;
+            var10 = var10.hvVgAZ;
+            var10 = var11.bind(var13)(var10);
+            var6['accessibilityLabel'] = var10;
             var10 = 14;
             var10 = var16[var10];
             var10 = var15.bind(var4)(var10);
@@ -81,7 +93,7 @@ case 4:
             var9 = var16[var9];
             var9 = var15.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-sm/medium', 'color': 'text-link', 'accessibilityRole': 'link'};
+            var9 = {'variant': 'text-sm/medium', 'color': 'text-link'};
             var13 = var16[var12];
             var13 = var15.bind(var4)(var13);
             var14 = var13.intl;

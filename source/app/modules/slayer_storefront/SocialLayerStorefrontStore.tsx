@@ -336,7 +336,7 @@ case 15:
                 var4 = var4 == var3;
                 var2 = undefined;
                 if(var4) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+case 4:
                 var2 = var3.guildId;
 case 16:
                 var1 = var2;
@@ -396,10 +396,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0007_ip = 18; continue _fun0007 }
-case 19:
-                var1 = var2.state;
+                if(var3) { _fun0007_ip = 17; continue _fun0007 }
 case 18:
+                var1 = var2.state;
+case 17:
                 return var1;
             }
         };
@@ -428,10 +428,10 @@ case 0:
                 var2 = null;
                 var3 = var2 == var1;
                 var2 = undefined;
-                if(var3) { _fun0008_ip = 18; continue _fun0008 }
-case 19:
-                var2 = var1.state;
+                if(var3) { _fun0008_ip = 17; continue _fun0008 }
 case 18:
+                var2 = var1.state;
+case 17:
                 var1 = 'ineligible';
                 var1 = var1 !== var2;
                 return var1;
@@ -516,7 +516,7 @@ case 0:
             var2 = var1.sku_id;
             var4 = var4[var2];
             var2 = null;
-            if(!(var2 != var4)) { _fun0009_ip = 20; continue _fun0009 }
+            if(!(var2 != var4)) { _fun0009_ip = 19; continue _fun0009 }
 case 11:
             var2 = {};
             var5 = _closure1_slot12;
@@ -527,7 +527,7 @@ case 11:
             var1 = delete var2[var1];
             var1 = undefined;
             return var1;
-case 20:
+case 19:
             var1 = false;
             return var1;
         }
@@ -539,11 +539,11 @@ case 0:
             var1 = arg1;
             var3 = var1.interactionId;
             var2 = null;
-            if(!(var2 != var3)) { _fun0010_ip = 21; continue _fun0010 }
-case 22:
+            if(!(var2 != var3)) { _fun0010_ip = 20; continue _fun0010 }
+case 21:
             var4 = _closure1_slot13;
             var5 = var4[var3];
-            if(!(var2 != var5)) { _fun0010_ip = 13; continue _fun0010 }
+            if(!(var2 != var5)) { _fun0010_ip = 22; continue _fun0010 }
 case 23:
             var2 = {};
             var6 = _closure1_slot12;
@@ -556,7 +556,7 @@ case 23:
             var2 = delete var2[var3];
             var2 = undefined;
             return var2;
-case 13:
+case 22:
             var2 = global;
             var5 = var2.Object;
             var4 = var5.values;
@@ -594,7 +594,7 @@ case 26:
 case 24:
             var1 = false;
             return var1;
-case 21:
+case 20:
             var1 = false;
             return var1;
         }
@@ -720,7 +720,7 @@ case 32:
             var6 = var3 == var5;
             var7 = undefined;
             if(var6) { _fun0013_ip = 35; continue _fun0013 }
-case 13:
+case 22:
             var7 = var5.state;
 case 35:
             var6 = 'loading';
@@ -964,13 +964,13 @@ case 44:
             var3 = _closure1_slot14;
             var2 = var3.has;
             var2 = var2.bind(var3)(var7);
-            if(var2) { _fun0014_ip = 45; continue _fun0014 }
+            if(var2) { _fun0014_ip = 13; continue _fun0014 }
 case 3:
             var2 = _closure1_slot13;
             var2[var7] = var6;
             var2 = undefined;
-            _fun0014_ip = 46; continue _fun0014;
-case 45:
+            _fun0014_ip = 45; continue _fun0014;
+case 13:
             var5 = _closure1_slot14;
             var3 = var5.delete;
             var3 = var3.bind(var5)(var7);
@@ -982,7 +982,7 @@ case 45:
             var3[5] = var5;
             _closure1_slot12 = var3;
             var2 = undefined;
-case 46:
+case 45:
             var1 = var2;
 case 43:
             return var1;
@@ -996,26 +996,26 @@ case 0:
             var5 = var2.skuId;
             var7 = var2.reason;
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0015_ip = 47; continue _fun0015 }
+            if(!(var7 === var1)) { _fun0015_ip = 46; continue _fun0015 }
 case 7:
             var7 = 'http_error';
-case 47:
+case 46:
             var6 = var2.httpStatus;
             var2 = _closure1_slot12;
             var2 = var2[var5];
             var4 = null;
             var8 = var4 == var2;
             var4 = undefined;
-            if(var8) { _fun0015_ip = 48; continue _fun0015 }
-case 49:
-            var4 = var2.state;
+            if(var8) { _fun0015_ip = 47; continue _fun0015 }
 case 48:
+            var4 = var2.state;
+case 47:
             var2 = 'checking';
-            if(!(var2 !== var4)) { _fun0015_ip = 16; continue _fun0015 }
+            if(!(var2 !== var4)) { _fun0015_ip = 49; continue _fun0015 }
 case 50:
             var2 = 'interaction_deadline';
             if(!(var2 !== var7)) { _fun0015_ip = 51; continue _fun0015 }
-case 16:
+case 49:
             var2 = {};
             var9 = _closure1_slot12;
             var10 = var2;
@@ -1051,14 +1051,14 @@ case 53:
             var8 = _closure1_slot12;
             var9 = var1;
             var6 = copyDataProperties(var9, var8);
-            if(var3) { _fun0016_ip = 13; continue _fun0016 }
+            if(var3) { _fun0016_ip = 22; continue _fun0016 }
 case 54:
             var3 = {};
             var6 = 'ineligible';
             var3['state'] = var6;
             var3['ineligibleReason'] = var5;
             _fun0016_ip = 37; continue _fun0016;
-case 13:
+case 22:
             var5 = {};
             var6 = 'eligible';
             var5['state'] = var6;

@@ -304,10 +304,10 @@ case 23:
                 var4 = var2.writeUnknownFields;
                 var2 = false;
                 if(!(var2 !== var4)) { _fun0005_ip = 25; continue _fun0005 }
-case 6:
+case 26:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
+                if(!(var2 == var4)) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 6;
@@ -316,7 +316,7 @@ case 27:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 26:
+case 27:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;

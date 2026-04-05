@@ -17,22 +17,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7[var1];
     var1 = undefined;
     var4 = var6.bind(var1)(var4);
-    var5 = var4.Routes;
-    var _closure1_slot2 = var5;
-    var4 = var4.UserSettingsSections;
-    var _closure1_slot3 = var4;
+    var4 = var4.StaticChannelRoute;
+    var _closure1_slot2 = var4;
     var4 = 1;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var4 = var4.StaticChannelRoute;
-    var _closure1_slot4 = var4;
+    var4 = var4.UserSettingsPath;
+    var _closure1_slot3 = var4;
     var4 = {};
     var5 = 'role_subscription';
     var4['ROLE_SUBSCRIPTION'] = var5;
     var5 = 'role_subscription_setting';
     var4['ROLE_SUBSCRIPTION_SETTING'] = var5;
-    var _closure1_slot5 = var4;
-    var5 = 3;
+    var _closure1_slot4 = var4;
+    var5 = 4;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -58,25 +56,30 @@ case 0:
             if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var5 = var3.channelId;
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot2;
             var3 = var3.ROLE_SUBSCRIPTIONS;
             if(!(var5 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 2:
-            var7 = _closure1_slot2;
-            var6 = var7.SETTINGS;
+            var3 = var4.toLowerCase;
+            var4 = var3.bind(var4)();
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 3;
+            var3 = var6[var3];
+            var6 = var5.bind(var1)(var3);
+            var5 = var6.settingsPathToRoute;
             var3 = _closure1_slot3;
-            var5 = var3.SUBSCRIPTIONS;
-            var3 = 'role-subscriptions';
-            var3 = var6.bind(var7)(var5, var3);
+            var3 = var3.SUBSCRIPTIONS_ROLE_SUBSCRIPTIONS;
+            var3 = var5.bind(var6)(var3);
             var1 = undefined;
             if(!(var4 === var3)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot4;
             var1 = var3.ROLE_SUBSCRIPTION_SETTING;
 case 5:
             _fun0001_ip = 7; continue _fun0001;
 case 4:
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot4;
             var1 = var2.ROLE_SUBSCRIPTION;
 case 7:
             return var1;

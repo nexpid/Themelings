@@ -338,113 +338,144 @@ case 88:
 case 87:
             var4['pendingProfileEffect'] = var7;
 case 80:
-            var7 = 'banner';
+            var7 = 'profileFrame';
             var7 = var7 in var2;
             if(!var7) { _fun0001_ip = 89; continue _fun0001 }
 case 90:
-            if(!(var3 != var5)) { _fun0001_ip = 91; continue _fun0001 }
+            var9 = var2.profileFrame;
+            var13 = var3 == var9;
+            var7 = undefined;
+            var12 = undefined;
+            if(var13) { _fun0001_ip = 91; continue _fun0001 }
 case 92:
+            var12 = var9.skuId;
+case 91:
+            var13 = var3 == var8;
+            var9 = undefined;
+            if(var13) { _fun0001_ip = 93; continue _fun0001 }
+case 94:
+            var13 = var8.profileFrame;
+            var14 = var3 == var13;
+            var9 = undefined;
+            if(var14) { _fun0001_ip = 93; continue _fun0001 }
+case 95:
+            var9 = var13.skuId;
+case 93:
+            if(!(var12 !== var9)) { _fun0001_ip = 96; continue _fun0001 }
+case 97:
+            var9 = var2.profileFrame;
+            var4['pendingProfileFrame'] = var9;
+            _fun0001_ip = 89; continue _fun0001;
+case 96:
+            var4['pendingProfileFrame'] = var7;
+case 89:
+            var7 = 'banner';
+            var7 = var7 in var2;
+            if(!var7) { _fun0001_ip = 98; continue _fun0001 }
+case 99:
+            if(!(var3 != var5)) { _fun0001_ip = 100; continue _fun0001 }
+case 101:
             var9 = var2.banner;
             var12 = var3 == var11;
             var7 = undefined;
-            if(var12) { _fun0001_ip = 93; continue _fun0001 }
-case 94:
+            if(var12) { _fun0001_ip = 102; continue _fun0001 }
+case 103:
             var7 = var11.banner;
-case 93:
-            if(!(var9 !== var7)) { _fun0001_ip = 95; continue _fun0001 }
-case 91:
-            if(!(var3 == var5)) { _fun0001_ip = 96; continue _fun0001 }
-case 97:
+case 102:
+            if(!(var9 !== var7)) { _fun0001_ip = 104; continue _fun0001 }
+case 100:
+            if(!(var3 == var5)) { _fun0001_ip = 105; continue _fun0001 }
+case 106:
             var7 = var2.banner;
             var6 = var6.banner;
-            if(!(var7 !== var6)) { _fun0001_ip = 95; continue _fun0001 }
-case 96:
+            if(!(var7 !== var6)) { _fun0001_ip = 104; continue _fun0001 }
+case 105:
             var6 = var2.banner;
             var4['pendingBanner'] = var6;
-            _fun0001_ip = 89; continue _fun0001;
-case 95:
+            _fun0001_ip = 98; continue _fun0001;
+case 104:
             var6 = undefined;
             var4['pendingBanner'] = var6;
-case 89:
+case 98:
             var6 = 'accentColor';
             var6 = var6 in var2;
-            if(!var6) { _fun0001_ip = 98; continue _fun0001 }
-case 99:
+            if(!var6) { _fun0001_ip = 107; continue _fun0001 }
+case 108:
             var6 = var2.accentColor;
             var4['pendingAccentColor'] = var6;
-case 98:
+case 107:
             var6 = 'themeColors';
             var6 = var6 in var2;
-            if(!var6) { _fun0001_ip = 100; continue _fun0001 }
-case 101:
+            if(!var6) { _fun0001_ip = 109; continue _fun0001 }
+case 110:
             var9 = var2.themeColors;
             var11 = var3 == var9;
             var6 = undefined;
             var7 = undefined;
-            if(var11) { _fun0001_ip = 102; continue _fun0001 }
-case 103:
+            if(var11) { _fun0001_ip = 111; continue _fun0001 }
+case 112:
             var7 = var9[var10];
-case 102:
-            if(!(var3 != var7)) { _fun0001_ip = 104; continue _fun0001 }
-case 105:
+case 111:
+            if(!(var3 != var7)) { _fun0001_ip = 113; continue _fun0001 }
+case 114:
             var10 = var2.themeColors;
             var9 = var3 == var10;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 106; continue _fun0001 }
-case 107:
+            if(var9) { _fun0001_ip = 115; continue _fun0001 }
+case 116:
             var9 = 1;
             var7 = var10[var9];
-case 106:
-            if(!(var3 == var7)) { _fun0001_ip = 108; continue _fun0001 }
-case 104:
+case 115:
+            if(!(var3 == var7)) { _fun0001_ip = 117; continue _fun0001 }
+case 113:
             var9 = var3 == var8;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 109; continue _fun0001 }
-case 110:
+            if(var9) { _fun0001_ip = 118; continue _fun0001 }
+case 119:
             var7 = var8.themeColors;
-case 109:
-            if(!(var3 == var7)) { _fun0001_ip = 108; continue _fun0001 }
-case 111:
+case 118:
+            if(!(var3 == var7)) { _fun0001_ip = 117; continue _fun0001 }
+case 120:
             var4['pendingThemeColors'] = var6;
-            _fun0001_ip = 100; continue _fun0001;
-case 108:
+            _fun0001_ip = 109; continue _fun0001;
+case 117:
             var6 = var2.themeColors;
             var4['pendingThemeColors'] = var6;
-case 100:
+case 109:
             var6 = 'bio';
             var6 = var6 in var2;
-            if(!var6) { _fun0001_ip = 112; continue _fun0001 }
-case 113:
+            if(!var6) { _fun0001_ip = 121; continue _fun0001 }
+case 122:
             var7 = var2.bio;
             var9 = var3 == var8;
             var3 = undefined;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 114; continue _fun0001 }
-case 115:
+            if(var9) { _fun0001_ip = 123; continue _fun0001 }
+case 124:
             var6 = var8.bio;
-case 114:
-            if(!(var7 !== var6)) { _fun0001_ip = 116; continue _fun0001 }
-case 117:
+case 123:
+            if(!(var7 !== var6)) { _fun0001_ip = 125; continue _fun0001 }
+case 126:
             var6 = var2.bio;
             var4['pendingBio'] = var6;
-            _fun0001_ip = 112; continue _fun0001;
-case 116:
+            _fun0001_ip = 121; continue _fun0001;
+case 125:
             var4['pendingBio'] = var3;
-case 112:
+case 121:
             var3 = 'primaryGuildId';
             var3 = var3 in var2;
-            if(!var3) { _fun0001_ip = 118; continue _fun0001 }
-case 119:
+            if(!var3) { _fun0001_ip = 127; continue _fun0001 }
+case 128:
             var3 = var2.primaryGuildId;
             var4['pendingPrimaryGuildId'] = var3;
-case 118:
+case 127:
             var3 = 'legacyUsernameDisabled';
             var3 = var3 in var2;
-            if(!var3) { _fun0001_ip = 120; continue _fun0001 }
-case 121:
+            if(!var3) { _fun0001_ip = 129; continue _fun0001 }
+case 130:
             var2 = var2.legacyUsernameDisabled;
             var4['pendingLegacyUsernameDisabled'] = var2;
-case 120:
+case 129:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 3;

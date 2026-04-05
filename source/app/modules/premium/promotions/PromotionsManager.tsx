@@ -150,6 +150,14 @@ case 8:
                 var5 = var6.bind;
                 var5 = var5.bind(var6)(var1);
                 var3['BILLING_SUBSCRIPTION_UPDATE_SUCCESS'] = var5;
+                var6 = var1.onMobilePurchaseSuccess;
+                var5 = var6.bind;
+                var5 = var5.bind(var6)(var1);
+                var3['IAP_PURCHASE_PRODUCT_SUCCESS'] = var5;
+                var6 = var1.onMobilePurchaseSuccess;
+                var5 = var6.bind;
+                var5 = var5.bind(var6)(var1);
+                var3['GPLAY_PURCHASE_VERIFIED'] = var5;
                 var6 = var1.onOfferUpdated;
                 var5 = var6.bind;
                 var5 = var5.bind(var6)(var1);
@@ -273,7 +281,7 @@ case 7:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'onSubscriptionUpdated';
@@ -305,7 +313,7 @@ case 21:
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'onOfferUpdated';
+        var7 = 'onMobilePurchaseSuccess';
         var5['key'] = var7;
         var7 = function value() {
             var3 = _closure1_slot0;
@@ -321,6 +329,23 @@ case 21:
         };
         var5['value'] = var7;
         var1[2] = var5;
+        var5 = {};
+        var7 = 'onOfferUpdated';
+        var5['key'] = var7;
+        var7 = function value() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 12;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.maybeFetchActivePromotions;
+            var2 = false;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[3] = var5;
         var5 = {};
         var7 = 'onVCRedeemed';
         var5['key'] = var7;
@@ -356,7 +381,7 @@ case 12:
             }
         };
         var5['value'] = var6;
-        var1[3] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

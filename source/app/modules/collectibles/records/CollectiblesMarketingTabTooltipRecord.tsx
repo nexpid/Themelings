@@ -53,8 +53,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['refTargetBackground'] = var4;
             var4 = var2.badgeIcon;
             var3['badgeIcon'] = var4;
-            var2 = var2.badgeText;
-            var3['badgeText'] = var2;
+            var4 = var2.badgeText;
+            var3['badgeText'] = var4;
+            var2 = var2.hoverGradient;
+            var3['hoverGradient'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;
@@ -78,8 +80,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2.badge_icon;
             var4 = 'badgeIcon';
             var1[3] = var5;
-            var4 = var2.badge_text;
-            var2 = 'badgeText';
+            var5 = var2.badge_text;
+            var4 = 'badgeText';
+            var1[3] = var5;
+            var4 = var2.hover_gradient;
+            var2 = 'hoverGradient';
             var1[1] = var4;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});

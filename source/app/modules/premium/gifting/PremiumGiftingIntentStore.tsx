@@ -1307,7 +1307,7 @@ case 70:
             var2['messageGiftIntentLastShownMap'] = var5;
             var3 = var3.giftUnreadNotificationLastDismissedTimes;
             if(!(var4 == var3)) { _fun0021_ip = 76; continue _fun0021 }
-case 103:
+case 90:
             var3 = new Array(0);
 case 76:
             var2['giftUnreadNotificationLastDismissedTimes'] = var3;
@@ -1433,13 +1433,13 @@ case 0:
             var1 = arg1;
             var4 = var1.total;
             var2 = null;
-            if(!(var2 != var4)) { _fun0022_ip = 104; continue _fun0022 }
-case 105:
+            if(!(var2 != var4)) { _fun0022_ip = 103; continue _fun0022 }
+case 104:
             var3 = _closure1_slot31;
             var1 = undefined;
             var3 = var3.bind(var1)(var4);
             return var1;
-case 104:
+case 103:
             _closure1_slot18 = var2;
             var2 = _closure1_slot27;
             var1 = undefined;

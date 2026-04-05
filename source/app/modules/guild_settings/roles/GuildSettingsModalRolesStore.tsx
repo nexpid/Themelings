@@ -465,14 +465,14 @@ case 0:
             var5 = var4 != var1;
             var1 = undefined;
             var2 = undefined;
-            if(!var5) { _fun0009_ip = 5; continue _fun0009 }
-case 22:
+            if(!var5) { _fun0009_ip = 22; continue _fun0009 }
+case 6:
             var7 = _closure1_slot8;
             var6 = var7.getRole;
             var5 = _closure1_slot14;
             var5 = var5.id;
             var2 = var6.bind(var7)(var5, var8);
-case 5:
+case 22:
             _closure1_slot15 = var2;
             if(!(var4 != var2)) { _fun0009_ip = 23; continue _fun0009 }
 case 24:
@@ -511,7 +511,7 @@ case 0:
             var6 = var1.permission;
             var3 = _closure1_slot17;
             var1 = null;
-            if(!(var1 != var3)) { _fun0010_ip = 25; continue _fun0010 }
+            if(!(var1 != var3)) { _fun0010_ip = 22; continue _fun0010 }
 case 18:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -526,7 +526,7 @@ case 18:
             var2 = _closure1_slot24;
             var2 = var2.bind(var1)();
             return var1;
-case 25:
+case 22:
             var1 = false;
             return var1;
         }

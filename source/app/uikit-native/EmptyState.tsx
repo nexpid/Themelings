@@ -69,43 +69,53 @@ case 0:
             var12 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var11 = 5;
-            var2 = var2[var11];
+            var13 = 5;
+            var2 = var2[var13];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useThemeContext;
             var2 = var2.bind(var3)();
-            var10 = var2.theme;
+            var11 = var2.theme;
             var2 = var1.Illustration;
             var7 = null;
             if(!(var7 == var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
+            var2 = var1.lightSource;
+            var2 = var7 != var2;
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var3 = var1.darkSource;
+            var2 = var7 != var3;
+case 4:
+            var9 = null;
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot4;
             var3 = _closure1_slot3;
             var2 = {};
             var6 = 'contain';
             var2['resizeMode'] = var6;
-            var9 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var6 = var6[var11];
-            var9 = var9.bind(var4)(var6);
-            var6 = var9.isThemeLight;
-            var6 = var6.bind(var9)(var10);
-            if(var6) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            var6 = var6[var13];
+            var10 = var10.bind(var4)(var6);
+            var6 = var10.isThemeLight;
+            var6 = var6.bind(var10)(var11);
+            if(var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var1.darkSource;
-            _fun0001_ip = 6; continue _fun0001;
-case 4:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var6 = var1.lightSource;
-case 6:
+case 10:
             var2['source'] = var6;
-            var9 = var12.emptyImage;
+            var10 = var12.emptyImage;
             var6 = new Array(2);
-            var6[0] = var9;
-            var9 = var1.imageStyle;
-            var6[1] = var9;
+            var6[0] = var10;
+            var10 = var1.imageStyle;
+            var6[1] = var10;
             var2['style'] = var6;
             var9 = var5.bind(var4)(var3, var2);
-            _fun0001_ip = 7; continue _fun0001;
+            _fun0001_ip = 6; continue _fun0001;
 case 2:
             var5 = _closure1_slot4;
             var3 = var1.Illustration;
@@ -117,7 +127,7 @@ case 2:
             var6[1] = var10;
             var2['style'] = var6;
             var9 = var5.bind(var4)(var3, var2);
-case 7:
+case 6:
             var10 = var1.style;
             var11 = var1.body;
             var16 = var1.title;
@@ -138,8 +148,8 @@ case 7:
             var5[0] = var9;
             var10 = var7 != var16;
             var9 = null;
-            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var10) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var15 = _closure1_slot4;
             var14 = _closure1_slot0;
             var17 = _closure1_slot1;
@@ -155,12 +165,12 @@ case 9:
             var10['style'] = var17;
             var10['children'] = var16;
             var9 = var15.bind(var4)(var14, var10);
-case 8:
+case 11:
             var5[1] = var9;
             var9 = var7 != var11;
             var7 = null;
-            if(!var9) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var9) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var10 = _closure1_slot4;
             var9 = _closure1_slot0;
             var14 = _closure1_slot1;
@@ -176,7 +186,7 @@ case 11:
             var8['style'] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 10:
+case 13:
             var5[2] = var7;
             var5[3] = var6;
             var1['children'] = var5;

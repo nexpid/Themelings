@@ -228,12 +228,12 @@ case 10:
                 var2 = var4.bind(var5)(var3, var2);
                 var3 = null;
                 if(!(var3 == var2)) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+case 5:
                 var1 = _closure1_slot8;
-                _fun0004_ip = 14; continue _fun0004;
+                _fun0004_ip = 13; continue _fun0004;
 case 12:
                 var1 = var2.activities;
-case 14:
+case 13:
                 return var1;
             }
         };
@@ -273,16 +273,16 @@ case 10:
                 };
                 var2 = var4.bind(var5)(var3, var2);
                 var4 = null;
-                if(!(var4 != var2)) { _fun0006_ip = 15; continue _fun0006 }
-case 13:
+                if(!(var4 != var2)) { _fun0006_ip = 14; continue _fun0006 }
+case 5:
                 var3 = var2.hiddenActivities;
-                if(!(var4 == var3)) { _fun0006_ip = 16; continue _fun0006 }
-case 15:
+                if(!(var4 == var3)) { _fun0006_ip = 15; continue _fun0006 }
+case 14:
                 var1 = _closure1_slot8;
-                _fun0006_ip = 17; continue _fun0006;
-case 16:
+                _fun0006_ip = 16; continue _fun0006;
+case 15:
                 var1 = var2.hiddenActivities;
-case 17:
+case 16:
                 return var1;
             }
         };
@@ -330,8 +330,8 @@ case 0:
                 var2 = arg1;
                 var _closure3_slot0 = var2;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0008_ip = 18; continue _fun0008 }
-case 19:
+                if(!(var1 != var2)) { _fun0008_ip = 17; continue _fun0008 }
+case 18:
                 var5 = _closure1_slot7;
                 var3 = var5.getSessionId;
                 var3 = var3.bind(var5)();
@@ -359,8 +359,8 @@ case 10:
                     }
                 };
                 var5 = var6.bind(var7)(var5, var2);
-                if(!(var1 != var5)) { _fun0008_ip = 20; continue _fun0008 }
-case 21:
+                if(!(var1 != var5)) { _fun0008_ip = 19; continue _fun0008 }
+case 20:
                 var7 = var5.activities;
                 var6 = var7.find;
                 var2 = function(arg1) {
@@ -371,13 +371,13 @@ case 21:
                     return var1;
                 };
                 var2 = var6.bind(var7)(var2);
-                if(!(var1 == var2)) { _fun0008_ip = 22; continue _fun0008 }
-case 23:
+                if(!(var1 == var2)) { _fun0008_ip = 21; continue _fun0008 }
+case 22:
                 var6 = var5.hiddenActivities;
                 var5 = var1 == var6;
                 var3 = undefined;
-                if(var5) { _fun0008_ip = 24; continue _fun0008 }
-case 25:
+                if(var5) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
                 var5 = var6.find;
                 var4 = function(arg1) {
                     var1 = arg1;
@@ -387,13 +387,13 @@ case 25:
                     return var1;
                 };
                 var3 = var5.bind(var6)(var4);
-case 24:
+case 23:
                 var2 = var3;
-case 22:
+case 21:
                 return var2;
-case 20:
+case 19:
                 return var1;
-case 18:
+case 17:
                 return var1;
             }
         };

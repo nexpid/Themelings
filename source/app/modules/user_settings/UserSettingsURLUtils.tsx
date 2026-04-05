@@ -1,0 +1,543 @@
+// app/modules/user_settings/UserSettingsURLUtils.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function normalizeSection(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = arg1;
+            var1 = null;
+            var2 = var1 == var3;
+            var1 = '';
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var2 = var3.toLowerCase;
+            var5 = var2.bind(var3)();
+            var4 = var5.replace;
+            var3 = _closure1_slot7;
+            var2 = '-';
+            var1 = var4.bind(var5)(var3, var2);
+case 2:
+            return var1;
+        }
+    };
+    var _closure1_slot8 = var1;
+    var1 = function isUserSettingsPath(arg1) {
+        var1 = global;
+        var3 = var1.Object;
+        var2 = var3.values;
+        var1 = _closure1_slot4;
+        var3 = var2.bind(var3)(var1);
+        var2 = var3.includes;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserSettingsPath;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot5 = var7;
+    var4 = var4.Routes;
+    var _closure1_slot6 = var4;
+    var4 = /[_\s]|%20/g;
+    var _closure1_slot7 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/UserSettingsURLUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function settingsPathToRoute(arg1) {
+        var3 = arg1;
+        var2 = var3.split;
+        var1 = '/';
+        var5 = var2.bind(var3)(var1);
+        var4 = _closure1_slot6;
+        var3 = var4.SETTINGS;
+        var1 = 0;
+        var2 = var5[var1];
+        var1 = 1;
+        var1 = var5[var1];
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['settingsPathToRoute'] = var4;
+    var4 = function trackParseSettingsUrl(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = arg1;
+            var5 = arg2;
+            var2 = var1.target;
+            var6 = var1.path;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var2 = 5;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.track;
+            var1 = _closure1_slot5;
+            var2 = var1.USER_SETTINGS_URL_PARSING_FAILED;
+            var1 = {};
+            var1['user_settings_url_origin'] = var5;
+            var1['user_settings_url_path'] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            _fun0002_ip = 6; continue _fun0002;
+case 4:
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var2 = 5;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.track;
+            var1 = _closure1_slot5;
+            var2 = var1.USER_SETTINGS_URL_PARSED;
+            var1 = {};
+            var1['user_settings_url_path'] = var6;
+            var1['user_settings_url_origin'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+case 6:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var3['trackParseSettingsUrl'] = var4;
+    var2 = function parseSettingsUrl(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.path;
+            var4 = var1.search;
+            var2 = var3.split;
+            var1 = '?';
+            var2 = var2.bind(var3)(var1);
+            var1 = 0;
+            var2 = var2[var1];
+            var1 = var2.split;
+            var8 = '/';
+            var3 = var1.bind(var2)(var8);
+            var1 = _closure1_slot3;
+            var7 = undefined;
+            var9 = 4;
+            var3 = var1.bind(var7)(var3, var9);
+            var1 = 2;
+            var6 = var3[var1];
+            var1 = 3;
+            var5 = var3[var1];
+            var3 = _closure1_slot8;
+            var11 = var3.bind(var7)(var6);
+            var10 = new Array(2);
+            var10[0] = var11;
+            var3 = var3.bind(var7)(var5);
+            var10[1] = var3;
+            var6 = var10.filter;
+            var5 = global;
+            var3 = var5.Boolean;
+            var6 = var6.bind(var10)(var3);
+            var3 = var6.join;
+            var3 = var3.bind(var6)(var8);
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = var6[var1];
+            var10 = var12.bind(var7)(var1);
+            var8 = var10.getIsEligibleForUserSettingsRedesign4AExperiment;
+            var1 = 'UserSettingsURLUtils';
+            var1 = var8.bind(var10)(var1);
+            var10 = {};
+            var8 = _closure1_slot4;
+            var13 = var8.ACCOUNT;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.ACCOUNT_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.ACCOUNT_STANDING;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.ACCOUNT_STANDING_CATEGORY;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.ACCOUNT_ACCOUNT_STANDING;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.ACCOUNT_STANDING_CATEGORY;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.PROFILE_CUSTOMIZATION;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.PROFILE_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.CONTENT_AND_SOCIAL;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.CONTENT_AND_SOCIAL_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.CONNECTED_GAMES;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.CONTENT_AND_SOCIAL_CONNECTED_GAMES_CATEGORY;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.CONTENT_AND_SOCIAL_CONNECTED_GAMES;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.CONTENT_AND_SOCIAL_CONNECTED_GAMES_CATEGORY;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.DATA_AND_PRIVACY;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.DATA_AND_PRIVACY_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.PRIVACY_AND_SAFETY;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.DATA_AND_PRIVACY_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.FAMILY_CENTER;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.FAMILY_CENTER_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.SESSIONS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.SESSIONS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.AUTHORIZED_APPS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.AUTHORIZED_APPS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.CONNECTIONS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.CONNECTIONS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.CLIPS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.CLIPS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.PREMIUM;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.NITRO_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.GUILD_BOOSTING;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.PREMIUM_GUILD_SUBSCRIPTIONS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.SUBSCRIPTIONS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.SUBSCRIPTIONS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.SUBSCRIPTIONS_ROLE_SUBSCRIPTIONS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.SUBSCRIPTIONS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.INVENTORY;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.GIFT_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var8 = var8.BILLING;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var6 = var6.WebUserSettings;
+            var6 = var6.BILLING_PANEL;
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var8 = var6.APPEARANCE;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var12 = var6.WebUserSettings;
+            if(var1) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+            var6 = var12.APPEARANCE_PANEL;
+            _fun0003_ip = 9; continue _fun0003;
+case 7:
+            var6 = var12.DISPLAY_PANEL;
+case 9:
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var13 = var6.ACCESSIBILITY;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.ACCESSIBILITY_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.VOICE;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.VOICE_AND_VIDEO_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var8 = var8.POGGERMODE;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var6 = var6.WebUserSettings;
+            var6 = var6.POGGERMODE_PANEL;
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var8 = var6.TEXT;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var12 = var6.WebUserSettings;
+            if(var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var6 = var12.CHAT_PANEL;
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
+            var6 = var12.DISPLAY_MESSAGES_CATEGORY;
+case 12:
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var13 = var6.NOTIFICATIONS;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.NOTIFICATIONS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.EMAILS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.NOTIFICATIONS_EMAIL_CATEGORY;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.NOTIFICATIONS_EMAILS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.NOTIFICATIONS_EMAIL_CATEGORY;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var13 = var8.KEYBINDS;
+            var8 = var6[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            var8 = var8.KEYBINDS_PANEL;
+            var10[12] = var8;
+            var8 = _closure1_slot4;
+            var8 = var8.LANGUAGE;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var6 = var6.WebUserSettings;
+            var6 = var6.LANGUAGE_AND_TIME_PANEL;
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var8 = var6.WINDOWS;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var12 = var6.WebUserSettings;
+            if(var1) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            var6 = var12.WINDOWS_PANEL;
+            _fun0003_ip = 15; continue _fun0003;
+case 13:
+            var6 = var12.ADVANCED_CATEGORY;
+case 15:
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var8 = var6.LINUX;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var12 = var6.WebUserSettings;
+            if(var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var6 = var12.LINUX_PANEL;
+            _fun0003_ip = 18; continue _fun0003;
+case 16:
+            var6 = var12.ADVANCED_CATEGORY;
+case 18:
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var8 = var6.STREAMER_MODE;
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var9];
+            var6 = var12.bind(var7)(var6);
+            var12 = var6.WebUserSettings;
+            if(var1) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
+            var6 = var12.STREAMER_MODE_PANEL;
+            _fun0003_ip = 21; continue _fun0003;
+case 19:
+            var6 = var12.STREAMER_MODE_CATEGORY;
+case 21:
+            var10[7] = var6;
+            var6 = _closure1_slot4;
+            var6 = var6.ADVANCED;
+            var12 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var9];
+            var8 = var12.bind(var7)(var8);
+            var8 = var8.WebUserSettings;
+            if(var1) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+            var1 = var8.ADVANCED_PANEL;
+            _fun0003_ip = 24; continue _fun0003;
+case 22:
+            var1 = var8.DEVELOPER_PANEL;
+case 24:
+            var10[5] = var1;
+            var1 = _closure1_slot4;
+            var12 = var1.ACTIVITY_PRIVACY;
+            var8 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var6 = var1[var9];
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.WebUserSettings;
+            var6 = var6.ACTIVITY_PRIVACY_PANEL;
+            var10[11] = var6;
+            var6 = _closure1_slot4;
+            var12 = var6.REGISTERED_GAMES;
+            var6 = var1[var9];
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.WebUserSettings;
+            var6 = var6.REGISTERED_GAMES_PANEL;
+            var10[11] = var6;
+            var6 = _closure1_slot4;
+            var12 = var6.OVERLAY;
+            var6 = var1[var9];
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.WebUserSettings;
+            var6 = var6.OVERLAY_PANEL;
+            var10[11] = var6;
+            var6 = _closure1_slot4;
+            var12 = var6.EXPERIMENTS;
+            var6 = var1[var9];
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.WebUserSettings;
+            var6 = var6.EXPERIMENTS_PANEL;
+            var10[11] = var6;
+            var6 = _closure1_slot4;
+            var6 = var6.DEVELOPER_OPTIONS;
+            var1 = var1[var9];
+            var1 = var8.bind(var7)(var1);
+            var1 = var1.WebUserSettings;
+            var1 = var1.DEVELOPER_OPTIONS_PANEL;
+            var10[5] = var1;
+            var1 = {};
+            var6 = _closure1_slot9;
+            var6 = var6.bind(var7)(var3);
+            var8 = undefined;
+            if(!var6) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+            var8 = var10[var3];
+case 25:
+            var6 = null;
+            if(!(var6 == var8)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
+            var9 = _closure1_slot9;
+            var12 = var9.bind(var7)(var11);
+            var9 = undefined;
+            if(!var12) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
+            var9 = var10[var11];
+case 29:
+            var8 = var9;
+case 27:
+            var1['target'] = var8;
+            var1['path'] = var3;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 6;
+            var2 = var8[var2];
+            var3 = var3.bind(var7)(var2);
+            var2 = var3.parse;
+            if(!(var6 == var4)) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
+            var5 = var5.location;
+            var4 = var5.search;
+case 31:
+            var2 = var2.bind(var3)(var4);
+            var1['params'] = var2;
+            return var1;
+        }
+    };
+    var3['parseSettingsUrl'] = var2;
+    return var1;
+})();

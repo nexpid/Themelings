@@ -152,7 +152,7 @@ case 0:
             var1 = var3.bind(var5)(var1);
             var5 = var1.enabled;
             var _closure2_slot5 = var5;
-            var21 = var1.chatInputHideApps;
+            var21 = var1.chatInputHideMore;
             var1 = _closure1_slot9;
             var8 = var1.bind(var4)(var5);
             var _closure2_slot6 = var8;

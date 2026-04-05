@@ -51,16 +51,21 @@ case 3:
             var2 = var2.colors;
             var3 = var2.ICON_STRONG;
 case 2:
-            var11 = var1.width;
-            if(!(var11 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+            var12 = var1.width;
+            if(!(var12 === var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var11 = 256;
+            var12 = 256;
 case 4:
-            var8 = var1.height;
-            if(!(var8 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+            var11 = var1.height;
+            if(!(var11 === var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var8 = 30;
+            var11 = 30;
 case 6:
+            var8 = var1.scale;
+            if(!(var8 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var8 = 1;
+case 8:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 3;
@@ -69,42 +74,44 @@ case 6:
             var1 = var2.useToken;
             var2 = var1.bind(var2)(var3);
             var1 = null;
-            if(!(var1 == var2)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+            if(!(var1 == var2)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
+            var1 = var1 != var3;
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var10 = 'string';
             var9 = typeof var3;
             var1 = var10 === var9;
-case 10:
+case 12:
             var9 = undefined;
-            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = {};
             var1['tintColor'] = var3;
             var9 = var1;
-            _fun0001_ip = 12; continue _fun0001;
-case 8:
+            _fun0001_ip = 14; continue _fun0001;
+case 10:
             var1 = {};
             var1['tintColor'] = var2;
             var9 = var1;
-case 12:
+case 14:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
             var10 = 0;
             var1['fadeDuration'] = var10;
             var10 = {};
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var12 = 4;
-            var12 = var14[var12];
-            var12 = var13.bind(var4)(var12);
-            var10['uri'] = var12;
+            var14 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var13 = 4;
+            var13 = var15[var13];
+            var13 = var14.bind(var4)(var13);
+            var10['uri'] = var13;
             var1['source'] = var10;
             var10 = {};
-            var10['width'] = var11;
+            var12 = var12 * var8;
+            var10['width'] = var12;
+            var8 = var11 * var8;
             var10['height'] = var8;
             var8 = new Array(2);
             var8[0] = var10;

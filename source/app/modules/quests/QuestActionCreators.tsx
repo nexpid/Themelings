@@ -4105,7 +4105,7 @@ case 283:
         return var1;
     };
     var3['dismissQuestActivityModal'] = var4;
-    var2 = function setAutoEnroll(arg1) {
+    var4 = function setAutoEnroll(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 9;
@@ -4121,6 +4121,44 @@ case 283:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setAutoEnroll'] = var2;
+    var3['setAutoEnroll'] = var4;
+    var4 = function markAdContentSeen(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 9;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'AD_CONTENT_MARK_SEEN';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['adCreativeType'] = var5;
+        var5 = arg2;
+        var2['contentIds'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['markAdContentSeen'] = var4;
+    var2 = function markAdContentUnseen(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 9;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'AD_CONTENT_MARK_UNSEEN';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['adCreativeType'] = var5;
+        var5 = arg2;
+        var2['contentIds'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['markAdContentUnseen'] = var2;
     return var1;
 })();

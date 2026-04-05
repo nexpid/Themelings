@@ -138,7 +138,7 @@ case 2:
         return var1;
     };
     var _closure1_slot10 = var7;
-    var7 = 9;
+    var7 = 10;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -202,6 +202,15 @@ case 24:
 case 25:
             var3 = 'iOS';
             if(!(var3 !== var8)) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 7;
+            var3 = var5[var3];
+            var4 = var4.bind(var9)(var3);
+            var3 = var4.isMetaQuest;
+            var3 = var3.bind(var4)();
+            if(var3) { _fun0002_ip = 26; continue _fun0002 }
 case 23:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -224,7 +233,7 @@ case 26:
 case 0:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 7;
+                    var1 = 8;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
@@ -235,24 +244,24 @@ case 0:
                     var4['loadId'] = var7;
                     var3 = var3.onSuccessCallback;
                     var8 = null;
-                    if(!(var8 == var3)) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+                    if(!(var8 == var3)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                     var3 = _closure1_slot9;
-                    _fun0003_ip = 29; continue _fun0003;
-case 27:
+                    _fun0003_ip = 30; continue _fun0003;
+case 28:
                     var7 = _closure2_slot0;
                     var3 = var7.onSuccessCallback;
-case 29:
+case 30:
                     var7 = _closure2_slot0;
                     var7 = var7.onFailureCallback;
-                    if(!(var8 == var7)) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+                    if(!(var8 == var7)) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
                     var2 = _closure1_slot10;
-                    _fun0003_ip = 32; continue _fun0003;
-case 30:
+                    _fun0003_ip = 33; continue _fun0003;
+case 31:
                     var1 = _closure2_slot0;
                     var2 = var1.onFailureCallback;
-case 32:
+case 33:
                     var12 = 'premium_external_management';
                     var13 = var6;
                     var11 = var4;
@@ -265,28 +274,28 @@ case 32:
             _closure2_slot1 = var11;
             var3 = var1 == var6;
             var4 = undefined;
-            if(var3) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+            if(var3) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var4 = var6.status;
-case 33:
+case 34:
             var3 = _closure1_slot3;
             var3 = var3.CANCELED;
             var10 = var4 === var3;
-            if(var10) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+            if(var10) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var3 = _closure1_slot3;
             var3 = var3.PAUSE_PENDING;
             var10 = var4 === var3;
-case 35:
-            if(var10) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+case 36:
+            if(var10) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             var3 = _closure1_slot3;
             var3 = var3.PAST_DUE;
             var10 = var4 === var3;
-case 37:
+case 38:
             var2 = var2.returnCtaAsComponent;
-            if(var2) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
+            if(var2) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
             var2 = 5;
@@ -301,12 +310,12 @@ case 40:
             var2 = {};
             var2['manageExternalNitroSubscription'] = var11;
             var2 = var4.bind(var5)(var3, var2);
-            _fun0002_ip = 41; continue _fun0002;
-case 39:
+            _fun0002_ip = 42; continue _fun0002;
+case 40:
             var5 = _closure1_slot5;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 8;
+            var3 = 9;
             var3 = var11[var3];
             var3 = var12.bind(var9)(var3);
             var4 = var3.LinkButton;
@@ -332,19 +341,19 @@ case 39:
             var13 = var13[var15];
             var13 = var14.bind(var9)(var13);
             var13 = var13.t;
-            if(var10) { _fun0002_ip = 42; continue _fun0002 }
-case 43:
-            var10 = var13.olSp/D;
-            _fun0002_ip = 44; continue _fun0002;
-case 42:
-            var10 = var13.tqSSSA;
+            if(var10) { _fun0002_ip = 43; continue _fun0002 }
 case 44:
+            var10 = var13.olSp/D;
+            _fun0002_ip = 45; continue _fun0002;
+case 43:
+            var10 = var13.tqSSSA;
+case 45:
             var10 = var11.bind(var12)(var10);
             var3['text'] = var10;
             var10 = 'text-sm/semibold';
             var3['variant'] = var10;
             var2 = var5.bind(var9)(var4, var3);
-case 41:
+case 42:
             return var2;
 case 20:
             var3 = _closure1_slot0;

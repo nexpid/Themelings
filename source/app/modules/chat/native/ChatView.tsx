@@ -743,7 +743,7 @@ case 44:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var10 = 45;
+            var10 = 44;
             var10 = var17[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
@@ -758,7 +758,7 @@ case 42:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var10 = 44;
+            var10 = 43;
             var10 = var17[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
@@ -774,7 +774,7 @@ case 40:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var10 = 43;
+            var10 = 42;
             var10 = var16[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
@@ -790,7 +790,7 @@ case 38:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var10 = 42;
+            var10 = 41;
             var10 = var16[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
@@ -813,11 +813,6 @@ case 36:
             var13 = var13.empty;
             var10['style'] = var13;
             var16 = _closure1_slot0;
-            var13 = 41;
-            var13 = var17[var13];
-            var13 = var16.bind(var4)(var13);
-            var13 = var13.EmptyChannelNoTextChannels;
-            var10['Illustration'] = var13;
             var13 = 12;
             var14 = var17[var13];
             var14 = var16.bind(var4)(var14);
@@ -867,7 +862,7 @@ case 51:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 46;
+    var4 = 45;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

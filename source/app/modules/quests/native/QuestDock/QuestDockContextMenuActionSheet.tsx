@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
-    var4 = 34;
+    var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -609,7 +609,7 @@ case 11:
             };
             var10['onPress'] = var18;
             var12 = var19.bind(var4)(var12, var10);
-            var10 = new Array(6);
+            var10 = new Array(7);
             var10[0] = var12;
             var12 = var17[var16];
             var12 = var13.bind(var4)(var12);
@@ -763,7 +763,68 @@ case 11:
             var12['onPress'] = var20;
             var12 = var19.bind(var4)(var18, var12);
             var10[3] = var12;
-            var12 = 30;
+            var12 = var17[var16];
+            var12 = var13.bind(var4)(var12);
+            var18 = var12.ActionSheetRow;
+            var12 = {};
+            var20 = var17[var16];
+            var20 = var13.bind(var4)(var20);
+            var20 = var20.ActionSheetRow;
+            var22 = var20.Icon;
+            var20 = {};
+            var23 = 30;
+            var24 = var17[var23];
+            var24 = var13.bind(var4)(var24);
+            var24 = var24.EyeIcon;
+            var20['IconComponent'] = var24;
+            var20 = var19.bind(var4)(var22, var20);
+            var12['icon'] = var20;
+            var20 = var17[var15];
+            var20 = var13.bind(var4)(var20);
+            var22 = var20.FormLabel;
+            var20 = {};
+            var24 = var17[var21];
+            var24 = var13.bind(var4)(var24);
+            var26 = var24.intl;
+            var25 = var26.string;
+            var24 = var17[var21];
+            var24 = var13.bind(var4)(var24);
+            var24 = var24.t;
+            var24 = var24.lL6/zF;
+            var24 = var25.bind(var26)(var24);
+            var20['text'] = var24;
+            var20 = var19.bind(var4)(var22, var20);
+            var12['label'] = var20;
+            var20 = function onPress() {
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 24;
+                var3 = var4[var1];
+                var1 = undefined;
+                var7 = var5.bind(var1)(var3);
+                var6 = var7.markAdContentUnseen;
+                var3 = 31;
+                var3 = var4[var3];
+                var3 = var5.bind(var1)(var3);
+                var3 = var3.AdCreativeType;
+                var5 = var3.QUEST;
+                var3 = _closure2_slot0;
+                var8 = var3.id;
+                var3 = new Array(1);
+                var3[0] = var8;
+                var3 = var6.bind(var7)(var5, var3);
+                var3 = _closure1_slot1;
+                var2 = 15;
+                var2 = var4[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.hideActionSheet;
+                var2 = var2.bind(var3)();
+                return var1;
+            };
+            var12['onPress'] = var20;
+            var12 = var19.bind(var4)(var18, var12);
+            var10[4] = var12;
+            var12 = 32;
             var12 = var17[var12];
             var17 = var13.bind(var4)(var12);
             var13 = var17.isQuestPreviewTool2Enabled;
@@ -786,7 +847,6 @@ case 13:
             var19 = var19.ActionSheetRow;
             var20 = var19.Icon;
             var19 = {};
-            var23 = 31;
             var23 = var22[var23];
             var23 = var25.bind(var4)(var23);
             var23 = var23.EyeIcon;
@@ -812,7 +872,7 @@ case 13:
             var19 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 32;
+                var1 = 33;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
@@ -838,7 +898,7 @@ case 13:
             var13['onPress'] = var19;
             var12 = var18.bind(var4)(var17, var13);
 case 12:
-            var10[4] = var12;
+            var10[5] = var12;
             var13 = _closure1_slot6;
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -877,7 +937,7 @@ case 12:
             var14 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 33;
+                var1 = 34;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
@@ -895,7 +955,7 @@ case 12:
             };
             var11['onPress'] = var14;
             var11 = var13.bind(var4)(var12, var11);
-            var10[5] = var11;
+            var10[6] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
 case 10:

@@ -251,18 +251,18 @@ case 0:
                     var2 = var4.getGuild;
                     var4 = var2.bind(var4)(var5);
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0004_ip = 6; continue _fun0004 }
-case 11:
+                    if(!(var2 != var4)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                     var4 = _closure1_slot9;
                     var2 = var4.canChatInGuild;
                     var2 = var2.bind(var4)(var5);
-                    if(var2) { _fun0004_ip = 6; continue _fun0004 }
-case 12:
+                    if(var2) { _fun0004_ip = 11; continue _fun0004 }
+case 13:
                     var4 = _closure1_slot15;
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
-                    _fun0004_ip = 13; continue _fun0004;
-case 6:
+                    _fun0004_ip = 14; continue _fun0004;
+case 11:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 9;
@@ -273,7 +273,7 @@ case 6:
                     var4 = var4.bind(var5)(var3);
                     var1 = _closure1_slot16;
                     var1 = var1.bind(var2)(var3);
-case 13:
+case 14:
                     var1 = undefined;
                     return var1;
                 }
@@ -296,35 +296,35 @@ case 0:
             var1 = var2.getGuild;
             var5 = var1.bind(var2)(var6);
             var1 = null;
-            if(!(var1 != var5)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
+            if(!(var1 != var5)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var3 = _closure1_slot9;
             var2 = var3.getCheck;
             var2 = var2.bind(var3)(var6);
             var3 = var2.canChat;
-            if(var3) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
-            var6 = var5.verificationLevel;
-            var3 = _closure1_slot12;
-            var3 = var3.MEDIUM;
-            if(!(var6 !== var3)) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
-            var6 = var5.verificationLevel;
-            var3 = _closure1_slot12;
-            var3 = var3.HIGH;
-            if(!(var6 === var3)) { _fun0005_ip = 16; continue _fun0005 }
+            if(var3) { _fun0005_ip = 17; continue _fun0005 }
 case 18:
             var6 = var5.verificationLevel;
             var3 = _closure1_slot12;
             var3 = var3.MEDIUM;
-            if(!(var3 !== var6)) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+            if(!(var6 !== var3)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+            var6 = var5.verificationLevel;
+            var3 = _closure1_slot12;
+            var3 = var3.HIGH;
+            if(!(var6 === var3)) { _fun0005_ip = 17; continue _fun0005 }
+case 19:
+            var6 = var5.verificationLevel;
+            var3 = _closure1_slot12;
+            var3 = var3.MEDIUM;
+            if(!(var3 !== var6)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var3 = _closure1_slot12;
             var3 = var3.HIGH;
             var7 = undefined;
             var10 = undefined;
-            if(!(var3 === var6)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
+            if(!(var3 === var6)) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 10;
@@ -332,8 +332,8 @@ case 23:
             var6 = var6.bind(var7)(var3);
             var3 = var2.memberDeadline;
             var10 = var6.bind(var7)(var3);
-            _fun0005_ip = 22; continue _fun0005;
-case 20:
+            _fun0005_ip = 23; continue _fun0005;
+case 21:
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 10;
@@ -342,9 +342,9 @@ case 20:
             var3 = var7.bind(var6)(var3);
             var2 = var2.accountDeadline;
             var10 = var3.bind(var6)(var2);
-case 22:
-            if(!(var1 != var10)) { _fun0005_ip = 16; continue _fun0005 }
-case 24:
+case 23:
+            if(!(var1 != var10)) { _fun0005_ip = 17; continue _fun0005 }
+case 25:
             var3 = var10.isSameOrBefore;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -355,8 +355,8 @@ case 24:
             var2 = var1.bind(var8)();
             var1 = 'minute';
             var1 = var3.bind(var10)(var2, var1);
-            if(var1) { _fun0005_ip = 16; continue _fun0005 }
-case 25:
+            if(var1) { _fun0005_ip = 17; continue _fun0005 }
+case 26:
             var6 = {};
             var1 = _closure1_slot10;
             var1 = var1.GUILD_VERIFICATION;
@@ -394,10 +394,10 @@ case 25:
             var4 = 'local';
             var1['category'] = var4;
             var1 = var2.bind(var3)(var1);
-case 16:
+case 17:
             var1 = undefined;
             return var1;
-case 14:
+case 15:
             var1 = false;
             return var1;
         }
@@ -417,12 +417,12 @@ case 0:
             var4 = _closure1_slot13;
             var2 = var4.has;
             var2 = var2.bind(var4)(var3);
-            if(!var2) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+            if(!var2) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
             var2 = _closure1_slot16;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
-case 26:
+case 27:
             var1 = undefined;
             return var1;
         }

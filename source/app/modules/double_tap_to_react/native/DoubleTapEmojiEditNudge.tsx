@@ -282,6 +282,8 @@ case 15:
             var6 = var15.bind(var4)(var6);
             var7 = var6.PressableOpacity;
             var6 = {};
+            var14 = 'button';
+            var6['accessibilityRole'] = var14;
             var6['onPress'] = var13;
             var13 = _closure1_slot14;
             var6['hitSlop'] = var13;

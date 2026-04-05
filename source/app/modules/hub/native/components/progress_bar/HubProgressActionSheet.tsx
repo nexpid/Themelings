@@ -153,8 +153,8 @@ case 0:
             var3 = var8.useHubProgressBarCompletedSteps;
             var17 = var3.bind(var8)(var2);
             var _closure2_slot2 = var17;
-            var22 = var17.size;
-            _closure2_slot3 = var22;
+            var21 = var17.size;
+            _closure2_slot3 = var21;
             var3 = global;
             var9 = var3.Math;
             var8 = var9.max;
@@ -162,12 +162,12 @@ case 0:
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
             var7 = var3.MIN_PROGRESS_PERCENT;
-            var3 = 100;
-            var11 = var3 * var22;
-            var6 = _closure1_slot7;
-            var6 = var11 / var6;
-            var11 = var8.bind(var9)(var7, var6);
-            var9 = var3 === var11;
+            var6 = 100;
+            var11 = var6 * var21;
+            var3 = _closure1_slot7;
+            var3 = var11 / var3;
+            var3 = var8.bind(var9)(var7, var3);
+            var9 = var6 === var3;
             var6 = _closure1_slot3;
             var3 = var6.useRef;
             var3 = var3.bind(var6)(var5);
@@ -221,11 +221,11 @@ case 0:
             if(var9) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = var2.hRVjpT;
-            var12 = var3.bind(var5)(var6);
+            var11 = var3.bind(var5)(var6);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var2 = var2.zQ4gGo;
-            var12 = var3.bind(var5)(var2);
+            var11 = var3.bind(var5)(var2);
 case 4:
             var5 = _closure1_slot16;
             var3 = _closure1_slot4;
@@ -240,20 +240,20 @@ case 4:
             var6 = var19.bind(var4)(var6);
             var7 = var6.GuildProgressHeader;
             var6 = {};
-            var6['title'] = var12;
-            var12 = var20[var18];
-            var12 = var19.bind(var4)(var12);
-            var21 = var12.intl;
-            var15 = var21.format;
-            var12 = var20[var18];
-            var12 = var19.bind(var4)(var12);
-            var12 = var12.t;
-            var14 = var12.l6iRLs;
-            var12 = {};
-            var12['numFinished'] = var22;
-            var22 = _closure1_slot7;
-            var12['total'] = var22;
-            var22 = function stepsHook(arg1, arg2) {
+            var6['title'] = var11;
+            var11 = var20[var18];
+            var11 = var19.bind(var4)(var11);
+            var15 = var11.intl;
+            var14 = var15.format;
+            var11 = var20[var18];
+            var11 = var19.bind(var4)(var11);
+            var11 = var11.t;
+            var12 = var11.l6iRLs;
+            var11 = {};
+            var11['numFinished'] = var21;
+            var21 = _closure1_slot7;
+            var11['total'] = var21;
+            var21 = function stepsHook(arg1, arg2) {
                 var5 = _closure1_slot15;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -269,10 +269,9 @@ case 4:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var12['stepsHook'] = var22;
-            var12 = var15.bind(var21)(var14, var12);
-            var6['subtitle'] = var12;
-            var6['percentCompleted'] = var11;
+            var11['stepsHook'] = var21;
+            var11 = var14.bind(var15)(var12, var11);
+            var6['subtitle'] = var11;
             var7 = var8.bind(var4)(var7, var6);
             var6 = new Array(5);
             var6[0] = var7;

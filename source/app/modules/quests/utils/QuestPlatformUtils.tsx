@@ -106,7 +106,7 @@ case 10:
     var _closure1_slot6 = var9;
     var6 = var6.UserSettingsSections;
     var _closure1_slot7 = var6;
-    var6 = 16;
+    var6 = 17;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -260,9 +260,9 @@ case 21:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = arg1;
-            var13 = arg2;
+            var14 = arg2;
             var _closure2_slot0 = var3;
-            var _closure2_slot1 = var13;
+            var _closure2_slot1 = var14;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 8;
@@ -349,9 +349,9 @@ case 34:
             if(!(var11 === var12)) { _fun0006_ip = 35; continue _fun0006 }
 case 33:
             var12 = var10.android;
-            var14 = var2 == var12;
+            var13 = var2 == var12;
             var11 = undefined;
-            if(var14) { _fun0006_ip = 36; continue _fun0006 }
+            if(var13) { _fun0006_ip = 36; continue _fun0006 }
 case 37:
             var11 = var12.androidAppId;
 case 36:
@@ -371,41 +371,100 @@ case 35:
 case 32:
             var8 = var7;
 case 22:
-            var7 = var5;
+            var11 = var5;
             if(!(var2 != var8)) { _fun0006_ip = 39; continue _fun0006 }
 case 40:
-            var7 = var8;
+            var11 = var8;
 case 39:
+            var5 = var11;
+case 41: // try_start_0
+            var7 = global;
+            var9 = var7.URL;
+            var19 = var5;
+            var7 = var9.prototype;
+            var7 = Object.create(var7, {constructor: {value: var9}});
+            var20 = var7;
+            var5 = new var20[var9](var19, var18);
+            var5 = var5 instanceof Object ? var5 : var7;
+            var9 = var5.searchParams;
+            var7 = var9.has;
+            var5 = 'dclid';
+            var5 = var7.bind(var9)(var5);
+case 42: // try_end0
+            _fun0006_ip = 43; continue _fun0006;
+case 44: // catch_target0
+            CatchBlockStart(arg_register=6);
+            var5 = false;
+case 43:
+            var13 = undefined;
+            var7 = var11;
+            if(!var5) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var9 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var10 = 4;
-            var10 = var5[var10];
-            var12 = var9.bind(var6)(var10);
+            var10 = _closure1_slot2;
+            var5 = 9;
+            var5 = var10[var5];
+            var9 = var9.bind(var6)(var5);
+            var5 = var9.v4;
+            var9 = var5.bind(var9)();
+            var10 = var11;
+            var5 = var9;
+case 47: // try_start_1
+            var11 = global;
+            var15 = var11.URL;
+            var19 = var10;
+            var12 = var15.prototype;
+            var12 = Object.create(var12, {constructor: {value: var15}});
+            var20 = var12;
+            var11 = new var20[var15](var19, var18);
+            var11 = var11 instanceof Object ? var11 : var12;
+            var16 = var11.searchParams;
+            var15 = var16.set;
+            var12 = var5;
+            var5 = 'dclid';
+            var5 = var15.bind(var16)(var5, var12);
+            var5 = var11.toString;
+            var5 = var5.bind(var11)();
+case 48: // try_end1
+            _fun0006_ip = 49; continue _fun0006;
+case 50: // catch_target1
+            CatchBlockStart(arg_register=10);
+            var5 = var10;
+case 49:
+            var7 = var5;
+            var13 = var9;
+case 45:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var5 = 4;
+            var5 = var10[var5];
+            var12 = var9.bind(var6)(var5);
             var11 = var12.trackQuestContentClicked;
-            var10 = {};
-            var14 = var3.id;
-            var10['questId'] = var14;
-            var14 = var13.content;
-            var10['questContent'] = var14;
-            var14 = var13.ctaContent;
-            var10['questContentCTA'] = var14;
-            var14 = var13.position;
-            var10['questContentPosition'] = var14;
-            var14 = var13.impressionId;
-            var10['impressionId'] = var14;
-            var13 = var13.sourceQuestContent;
-            var10['sourceQuestContent'] = var13;
-            var10 = var11.bind(var12)(var10);
-            var10 = 9;
-            var10 = var5[var10];
-            var10 = var9.bind(var6)(var10);
-            var12 = var10.ComponentDispatch;
-            var11 = var12.dispatch;
-            var10 = _closure1_slot5;
-            var10 = var10.QUEST_GAME_LINK_OPENED;
-            var10 = var11.bind(var12)(var10);
+            var5 = {};
+            var15 = var3.id;
+            var5['questId'] = var15;
+            var15 = var14.content;
+            var5['questContent'] = var15;
+            var15 = var14.ctaContent;
+            var5['questContentCTA'] = var15;
+            var15 = var14.position;
+            var5['questContentPosition'] = var15;
+            var15 = var14.impressionId;
+            var5['impressionId'] = var15;
+            var14 = var14.sourceQuestContent;
+            var5['sourceQuestContent'] = var14;
+            var5['clickId'] = var13;
+            var5 = var11.bind(var12)(var5);
             var12 = 10;
-            var5 = var5[var12];
+            var5 = var10[var12];
+            var5 = var9.bind(var6)(var5);
+            var13 = var5.ComponentDispatch;
+            var11 = var13.dispatch;
+            var5 = _closure1_slot5;
+            var5 = var5.QUEST_GAME_LINK_OPENED;
+            var5 = var11.bind(var13)(var5);
+            var5 = 11;
+            var5 = var10[var5];
             var5 = var9.bind(var6)(var5);
             var10 = var5.AppStoreBottomSheetOverlayExperiment;
             var9 = var10.getConfig;
@@ -414,16 +473,16 @@ case 39:
             var5['location'] = var11;
             var5 = var9.bind(var10)(var5);
             var5 = var5.enabled;
-            if(!(var2 != var8)) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
-            if(!var5) { _fun0006_ip = 41; continue _fun0006 }
-case 43:
+            if(!(var2 != var8)) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
+            if(!var5) { _fun0006_ip = 51; continue _fun0006 }
+case 53:
             var3 = var3.config;
             var9 = var3.ctaConfig;
             var5 = var2 == var9;
             var3 = null;
-            if(var5) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+            if(var5) { _fun0006_ip = 54; continue _fun0006 }
+case 55:
             var8 = _closure1_slot0;
             var5 = _closure1_slot2;
             var10 = 7;
@@ -431,17 +490,17 @@ case 45:
             var8 = var8.bind(var6)(var5);
             var5 = var8.isAndroid;
             var5 = var5.bind(var8)();
-            if(!var5) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+            if(!var5) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
             var8 = var9.android;
             var11 = var2 == var8;
             var5 = undefined;
-            if(var11) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+            if(var11) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
             var5 = var8.androidAppId;
-case 48:
-            if(!(var2 == var5)) { _fun0006_ip = 50; continue _fun0006 }
-case 46:
+case 58:
+            if(!(var2 == var5)) { _fun0006_ip = 60; continue _fun0006 }
+case 56:
             var8 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var10];
@@ -449,19 +508,19 @@ case 46:
             var5 = var8.isIOS;
             var8 = var5.bind(var8)();
             var5 = null;
-            if(!var8) { _fun0006_ip = 51; continue _fun0006 }
-case 52:
+            if(!var8) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
             var10 = var9.ios;
             var11 = var2 == var10;
             var8 = undefined;
-            if(var11) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
+            if(var11) { _fun0006_ip = 63; continue _fun0006 }
+case 64:
             var8 = var10.iosAppId;
-case 53:
+case 63:
             var8 = var2 != var8;
             var5 = null;
-            if(!var8) { _fun0006_ip = 51; continue _fun0006 }
-case 55:
+            if(!var8) { _fun0006_ip = 61; continue _fun0006 }
+case 65:
             var8 = {};
             var10 = var9.ios;
             var14 = var10.iosAppId;
@@ -477,9 +536,9 @@ case 55:
             var10 = var11.bind(var6)(var10, var12);
             var8['appId'] = var10;
             var5 = var8;
-case 51:
-            _fun0006_ip = 56; continue _fun0006;
-case 50:
+case 61:
+            _fun0006_ip = 66; continue _fun0006;
+case 60:
             var8 = {};
             var9 = var9.android;
             var11 = var9.androidAppId;
@@ -491,26 +550,26 @@ case 50:
             var8['url'] = var9;
             var8['appId'] = var2;
             var5 = var8;
-case 56:
+case 66:
             var3 = var5;
-case 44:
-            if(!(var2 == var3)) { _fun0006_ip = 57; continue _fun0006 }
-case 41:
+case 54:
+            if(!(var2 == var3)) { _fun0006_ip = 67; continue _fun0006 }
+case 51:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var5 = 13;
+            var5 = 14;
             var5 = var9[var5];
             var5 = var8.bind(var6)(var5);
             var5 = var5.bind(var6)(var7);
             return var6;
-case 57:
+case 67:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 11;
+            var4 = 12;
             var4 = var8[var4];
             var4 = var7.bind(var6)(var4);
             var5 = var4.openPlayStoreInlineInstall;
-            var4 = 12;
+            var4 = 13;
             var4 = var8[var4];
             var4 = var7.bind(var6)(var4);
             var7 = var4.clearAppStoreOverlayOpen;
@@ -521,11 +580,11 @@ case 57:
             var3 = var3.appId;
             var7 = var2 == var3;
             var2 = undefined;
-            if(var7) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+            if(var7) { _fun0006_ip = 68; continue _fun0006 }
+case 69:
             var7 = var3.toString;
             var2 = var7.bind(var3)();
-case 58:
+case 68:
             var _closure2_slot4 = var2;
             var2 = function(arg1) {
                 var2 = _closure2_slot2;
@@ -545,7 +604,7 @@ case 58:
                 var12 = arg1;
                 var17 = var11;
                 var3 = var17[var10](var16, var15, var14, var13, var12, var11);
-                var3 = 9;
+                var3 = 10;
                 var3 = var5[var3];
                 var3 = var4.bind(var1)(var3);
                 var4 = var3.ComponentDispatch;
@@ -562,7 +621,7 @@ case 58:
 case 0:
                     var1 = arg1;
                     if(var1) { _fun0007_ip = 24; continue _fun0007 }
-case 60:
+case 70:
                     var1 = _closure2_slot2;
                     var5 = undefined;
                     var1 = var1.bind(var5)();
@@ -579,7 +638,7 @@ case 60:
                     var12 = var3.QUEST_APP_STORE_OVERLAY_OPEN_FAILED;
                     var16 = var11;
                     var3 = var16[var10](var15, var14, var13, var12, var11);
-                    var3 = 9;
+                    var3 = 10;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var4 = var3.ComponentDispatch;
@@ -587,7 +646,7 @@ case 60:
                     var1 = _closure1_slot5;
                     var1 = var1.QUEST_APP_STORE_OVERLAY_FINISHED;
                     var1 = var3.bind(var4)(var1);
-                    _fun0007_ip = 61; continue _fun0007;
+                    _fun0007_ip = 71; continue _fun0007;
 case 24:
                     var3 = _closure2_slot3;
                     var1 = {};
@@ -612,7 +671,7 @@ case 24:
                     var15 = var6;
                     var14 = var5;
                     var1 = var16[var3](var15, var14, var13, var12, var11);
-case 61:
+case 71:
                     var1 = undefined;
                     return var1;
                 }
@@ -636,7 +695,7 @@ case 61:
                 var11 = var3.QUEST_APP_STORE_OVERLAY_OPEN_FAILED;
                 var15 = var10;
                 var3 = var15[var9](var14, var13, var12, var11, var10);
-                var3 = 9;
+                var3 = 10;
                 var3 = var5[var3];
                 var3 = var4.bind(var1)(var3);
                 var4 = var3.ComponentDispatch;
@@ -677,7 +736,7 @@ case 61:
         var8 = var8.sourceQuestContent;
         var2['sourceQuestContent'] = var8;
         var2 = var6.bind(var7)(var2);
-        var2 = 14;
+        var2 = 15;
         var2 = var5[var2];
         var2 = var3.bind(var1)(var2);
         var3 = var2.openUserSettings;
@@ -722,11 +781,11 @@ case 0:
             var6 = var2.bind(var3)(var4);
             var4 = var6.length;
             var2 = 1;
-            if(!(var2 !== var4)) { _fun0008_ip = 62; continue _fun0008 }
-case 63:
+            if(!(var2 !== var4)) { _fun0008_ip = 72; continue _fun0008 }
+case 73:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 15;
+            var2 = 16;
             var2 = var5[var2];
             var5 = var4.bind(var3)(var2);
             var4 = var5.dispatch;
@@ -758,7 +817,7 @@ case 63:
             var2['includedPlatformTypes'] = var7;
             var2 = var4.bind(var5)(var2);
             return var3;
-case 62:
+case 72:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 5;

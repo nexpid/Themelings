@@ -116,7 +116,7 @@ case 0:
             var2['location'] = var7;
             var2 = var3.bind(var5)(var2);
             var22 = var2.enabled;
-            var5 = var2.chatInputHideApps;
+            var5 = var2.chatInputHideMore;
             var2 = _closure1_slot8;
             var21 = var2.bind(var4)(var22);
             var3 = _closure1_slot1;
@@ -138,15 +138,19 @@ case 0:
             var6 = var6.SYSTEM;
             var6 = var7.bind(var10)(var6);
             var6 = var6.keyboardWillOpen;
-            var15 = var17;
+            var15 = !var5;
             if(!var15) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-            if(var2) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            var2 = var6;
-case 7:
-            var15 = var2;
+            var15 = var17;
 case 5:
+            if(!var15) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+            if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var2 = var6;
+case 9:
+            var15 = var2;
+case 7:
             var7 = _closure1_slot4;
             var2 = var7.useState;
             var6 = var2.bind(var7)(var3);
@@ -188,14 +192,14 @@ case 5:
             var6 = var21.container;
             var1['style'] = var6;
             var6 = null;
-            if(!var10) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var6 = null;
-            if(!var18) { _fun0002_ip = 9; continue _fun0002 }
-case 11:
-            var6 = null;
-            if(var5) { _fun0002_ip = 9; continue _fun0002 }
+            if(!var10) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
+            var6 = null;
+            if(!var18) { _fun0002_ip = 11; continue _fun0002 }
+case 13:
+            var6 = null;
+            if(var5) { _fun0002_ip = 11; continue _fun0002 }
+case 14:
             var19 = _closure1_slot6;
             var18 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -216,23 +220,23 @@ case 12:
             var20 = var21.activeBrand;
             var5['styleActiveIcon'] = var20;
             var20 = undefined;
-            if(!var22) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!var22) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var20 = var21.activeSurface;
-case 13:
+case 15:
             var5['styleActive'] = var20;
             var6 = var19.bind(var4)(var18, var5);
-case 9:
+case 11:
             var5 = new Array(3);
             var5[0] = var6;
             var6 = null;
-            if(!var10) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-            if(var8) { _fun0002_ip = 17; continue _fun0002 }
+            if(!var10) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
+            if(var8) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var6 = null;
-            if(!var15) { _fun0002_ip = 15; continue _fun0002 }
-case 17:
+            if(!var15) { _fun0002_ip = 17; continue _fun0002 }
+case 19:
             var10 = _closure1_slot6;
             var8 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -249,7 +253,7 @@ case 17:
             var14 = var14.bind(var4)(var15);
             var7['shouldShowThread'] = var14;
             var6 = var10.bind(var4)(var8, var7);
-case 15:
+case 17:
             var5[1] = var6;
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;

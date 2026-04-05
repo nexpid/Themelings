@@ -18,6 +18,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUEST_HOME_HERO'] = var4;
     var1 = 'QUEST_HOME_HERO';
     var2[var4] = var1;
+    var4 = 3;
+    var2['BOUNTY'] = var4;
+    var1 = 'BOUNTY';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -698,7 +698,7 @@ case 43:
             var25 = _closure1_slot11;
             var24 = _closure1_slot1;
             var27 = _closure1_slot2;
-            var23 = 32;
+            var23 = 31;
             var23 = var27[var23];
             var24 = var24.bind(var4)(var23);
             var23 = {};
@@ -741,7 +741,7 @@ case 10:
 case 44:
             var5 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var2 = 33;
+            var2 = 32;
             var2 = var20[var2];
             var5 = var5.bind(var4)(var2);
             var2 = {};
@@ -762,7 +762,7 @@ case 42:
             var13 = _closure1_slot11;
             var11 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var10 = 31;
+            var10 = 30;
             var10 = var20[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.CreateThreadView;
@@ -778,7 +778,7 @@ case 40:
             var3 = _closure1_slot11;
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 30;
+            var1 = 29;
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -802,7 +802,7 @@ case 48:
             var20 = _closure1_slot11;
             var19 = _closure1_slot1;
             var21 = _closure1_slot2;
-            var15 = 29;
+            var15 = 28;
             var15 = var21[var15];
             var19 = var19.bind(var4)(var15);
             var15 = {};
@@ -829,7 +829,7 @@ case 35:
             var15 = _closure1_slot11;
             var14 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var12 = 27;
+            var12 = 26;
             var12 = var19[var12];
             var13 = var14.bind(var4)(var12);
             var12 = {};
@@ -839,7 +839,7 @@ case 35:
             var12 = new Array(2);
             var12[0] = var13;
             var15 = _closure1_slot11;
-            var13 = 28;
+            var13 = 27;
             var13 = var19[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {};
@@ -875,11 +875,6 @@ case 32:
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var11 = _closure1_slot0;
-            var8 = 26;
-            var8 = var12[var8];
-            var8 = var11.bind(var4)(var8);
-            var8 = var8.EmptyChannelNoTextChannels;
-            var5['Illustration'] = var8;
             var8 = 12;
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
@@ -908,7 +903,7 @@ case 32:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 34;
+    var4 = 33;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

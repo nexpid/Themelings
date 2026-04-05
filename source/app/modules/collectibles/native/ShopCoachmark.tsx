@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['image'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 7;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -112,11 +112,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = {};
-                var4 = _closure2_slot2;
-                var1['title'] = var4;
-                var4 = _closure2_slot3;
-                var1['description'] = var4;
-                var4 = function onDismiss() {
+                var3 = _closure2_slot2;
+                var1['title'] = var3;
+                var3 = _closure2_slot3;
+                var1['description'] = var3;
+                var3 = function onDismiss() {
                     var3 = _closure2_slot0;
                     var1 = _closure1_slot4;
                     var2 = var1.USER_DISMISS;
@@ -124,16 +124,46 @@ case 0:
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 };
-                var1['onDismiss'] = var4;
-                var4 = _closure2_slot1;
-                var1['visible'] = var4;
-                var4 = 'bottom';
-                var1['position'] = var4;
-                var5 = _closure2_slot7;
-                var4 = null;
-                if(!(var4 == var5)) { _fun0001_ip = 2; continue _fun0001 }
+                var1['onDismiss'] = var3;
+                var3 = _closure2_slot1;
+                var1['visible'] = var3;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var8 = 5;
+                var5 = var5[var8];
+                var7 = undefined;
+                var6 = var6.bind(var7)(var5);
+                var5 = var6.isYouNavFloating;
+                var6 = var5.bind(var6)();
+                var5 = 'bottom';
+                if(!var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var3 = function() {
+                var5 = 'top';
+case 2:
+                var1['position'] = var5;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var5 = var5[var8];
+                var6 = var6.bind(var7)(var5);
+                var5 = var6.isYouNavFloating;
+                var6 = var5.bind(var6)();
+                var5 = undefined;
+                if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                var8 = _closure1_slot1;
+                var9 = _closure1_slot2;
+                var6 = 6;
+                var6 = var9[var6];
+                var6 = var8.bind(var7)(var6);
+                var6 = var6.spacing;
+                var5 = var6.PX_12;
+case 4:
+                var1['offsetY'] = var5;
+                var6 = _closure2_slot7;
+                var5 = null;
+                if(!(var5 == var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                var4 = function() {
                     var4 = _closure1_slot5;
                     var3 = _closure1_slot7;
                     var2 = {};
@@ -145,21 +175,20 @@ case 3:
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;
                 };
-                _fun0001_ip = 4; continue _fun0001;
-case 2:
-                var3 = _closure2_slot7;
-case 4:
-                var1['renderImgComponent'] = var3;
-                var7 = _closure1_slot0;
+                _fun0001_ip = 8; continue _fun0001;
+case 6:
+                var4 = _closure2_slot7;
+case 8:
+                var1['renderImgComponent'] = var4;
+                var6 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var3 = 5;
+                var3 = 7;
                 var4 = var8[var3];
-                var6 = undefined;
-                var4 = var7.bind(var6)(var4);
+                var4 = var6.bind(var7)(var4);
                 var5 = var4.intl;
                 var4 = var5.string;
                 var3 = var8[var3];
-                var3 = var7.bind(var6)(var3);
+                var3 = var6.bind(var7)(var3);
                 var3 = var3.t;
                 var3 = var3.fYfGgK;
                 var3 = var4.bind(var5)(var3);
@@ -174,7 +203,7 @@ case 4:
         var3 = var5.bind(var6)(var2, var3);
         var5 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var5.bind(var1)(var2);

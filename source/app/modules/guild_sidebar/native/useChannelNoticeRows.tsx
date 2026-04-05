@@ -229,7 +229,7 @@ case 12:
                             var1 = var3.gameApplicationIds;
 case 11:
                             if(!(var2 == var1)) { _fun0004_ip = 13; continue _fun0004 }
-case 5:
+case 14:
                             var1 = new Array(0);
 case 13:
                             return var1;
@@ -244,10 +244,10 @@ case 13:
                     var3 = var8.useApplication;
                     var6 = null;
                     var2 = null;
-                    if(!var5) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                    if(!var5) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                     var2 = var9;
-case 14:
+case 15:
                     var2 = var3.bind(var8)(var2);
                     var8 = var2.data;
                     var13 = _closure1_slot0;
@@ -268,50 +268,50 @@ case 14:
                     var13 = var13.bind(var12)(var3);
                     var3 = var13.useDefaultAuthorizationNotifiers;
                     var3 = var3.bind(var13)(var14, var10);
-                    if(!var5) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-                    var5 = var9;
-case 16:
-                    if(!var5) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-                    var5 = !var10;
+                    if(!var5) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
-                    if(!var5) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-                    var5 = var8;
+                    var5 = var9;
+case 17:
+                    if(!var5) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-                    if(!var5) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                    var5 = var6 != var2;
+                    var5 = !var10;
+case 19:
+                    if(!var5) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-                    if(!var5) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+                    var5 = var8;
+case 21:
+                    if(!var5) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+                    var5 = var6 != var2;
+case 23:
+                    if(!var5) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                     var8 = var2.applicationAccountLinkBenefitConfig;
                     var5 = var6 != var8;
-case 24:
-                    if(!var5) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+case 25:
+                    if(!var5) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                     var8 = var2.applicationAccountLinkBenefitConfig;
                     var8 = var8.reward_name;
                     var5 = var6 != var8;
-case 26:
-                    if(!var5) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+case 27:
+                    if(!var5) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
                     var8 = var2.applicationAccountLinkBenefitConfig;
                     var8 = var8.reward_image;
                     var5 = var6 != var8;
-case 28:
+case 29:
                     var9 = _closure1_slot0;
                     var13 = _closure1_slot2;
                     var8 = 14;
                     var8 = var13[var8];
                     var14 = var9.bind(var12)(var8);
                     var13 = var14.useSelectedSingleUseGuildDismissibleContent;
-                    if(var5) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+                    if(var5) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
                     var9 = new Array(0);
-                    _fun0003_ip = 32; continue _fun0003;
-case 30:
+                    _fun0003_ip = 33; continue _fun0003;
+case 31:
                     var8 = _closure1_slot0;
                     var15 = _closure1_slot2;
                     var5 = 15;
@@ -322,7 +322,7 @@ case 30:
                     var5 = new Array(1);
                     var5[0] = var8;
                     var9 = var5;
-case 32:
+case 33:
                     var5 = _closure1_slot12;
                     var17 = var5.CHANNEL_NOTICES;
                     var16 = true;
@@ -345,8 +345,8 @@ case 32:
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                             var2 = _closure3_slot1;
-                            if(!var2) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+                            if(!var2) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot2;
                             var2 = 16;
@@ -369,7 +369,7 @@ case 34:
                             var6 = var6.CHANNEL_NOTICES;
                             var1['groupName'] = var6;
                             var1 = var4.bind(var5)(var3, var2, var1);
-case 33:
+case 34:
                             var1 = undefined;
                             return var1;
                         }
@@ -407,46 +407,46 @@ case 0:
                     var1 = new Array(1);
                     var1[0] = var3;
                     var4 = _closure2_slot6;
-                    if(!var4) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+                    if(!var4) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
                     var5 = var1.push;
                     var4 = _closure1_slot9;
                     var4 = var4.GAME_CLAIM;
                     var4 = var5.bind(var1)(var4);
-case 35:
+case 36:
                     var4 = _closure2_slot7;
-                    if(!var4) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+                    if(!var4) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
                     var5 = var1.push;
                     var4 = _closure1_slot9;
                     var4 = var4.APPLICATION_ACCOUNT_LINK;
                     var4 = var5.bind(var1)(var4);
-case 37:
+case 38:
                     var4 = _closure2_slot2;
-                    if(var4) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
+                    if(var4) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
                     var4 = _closure2_slot4;
-                    if(!var4) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+                    if(!var4) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
                     var5 = var1.push;
                     var4 = _closure1_slot9;
                     var4 = var4.MFA_WARNING;
                     var4 = var5.bind(var1)(var4);
-                    _fun0006_ip = 41; continue _fun0006;
-case 39:
+                    _fun0006_ip = 42; continue _fun0006;
+case 40:
                     var5 = var1.push;
                     var4 = _closure1_slot9;
                     var4 = var4.GUILD_PROGRESS;
                     var4 = var5.bind(var1)(var4);
-case 41:
+case 42:
                     var3 = _closure2_slot5;
-                    if(!var3) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+                    if(!var3) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
                     var3 = var1.push;
                     var2 = _closure1_slot9;
                     var2 = var2.LIVE_CHANNEL_NOTICE;
                     var2 = var3.bind(var1)(var2);
-case 43:
+case 44:
                     return var1;
                 }
             };

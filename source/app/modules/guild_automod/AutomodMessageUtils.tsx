@@ -456,8 +456,8 @@ case 41:
 case 45:
             var2 = var4.name;
 case 44:
-            if(!(var3 == var2)) { _fun0009_ip = 46; continue _fun0009 }
-case 47:
+            if(!(var3 == var2)) { _fun0009_ip = 9; continue _fun0009 }
+case 46:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 9;
@@ -470,7 +470,7 @@ case 47:
             var3 = var3.t;
             var3 = var3.J90oLW;
             var2 = var4.bind(var5)(var3);
-case 46:
+case 9:
             var1 = var2;
 case 43:
             return var1;
@@ -584,10 +584,10 @@ case 0:
             var1['embedChannelId'] = var4;
             var4 = null;
             var4 = var4 != var3;
-            if(!var4) { _fun0010_ip = 48; continue _fun0010 }
-case 49:
-            var2 = var3;
+            if(!var4) { _fun0010_ip = 47; continue _fun0010 }
 case 48:
+            var2 = var3;
+case 47:
             var1['alertActionsExecution'] = var2;
             return var1;
         }
@@ -704,8 +704,8 @@ case 0:
             var1 = null;
             var2 = var1 == var4;
             var1 = undefined;
-            if(var2) { _fun0011_ip = 50; continue _fun0011 }
-case 51:
+            if(var2) { _fun0011_ip = 49; continue _fun0011 }
+case 50:
             var3 = var4.some;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -716,7 +716,7 @@ case 51:
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
-case 50:
+case 49:
             return var1;
         }
     };
@@ -740,7 +740,7 @@ case 0:
 case 24:
             var1 = _closure1_slot18;
             var1 = var1.bind(var11)(var6, var5, var3);
-            if(!(var2 == var1)) { _fun0012_ip = 52; continue _fun0012 }
+            if(!(var2 == var1)) { _fun0012_ip = 51; continue _fun0012 }
 case 41:
             var3 = _closure1_slot13;
             var5 = var3.bind(var11)(var9);
@@ -758,8 +758,8 @@ case 41:
             var3 = var3.AutomodMessageEmbedKeys;
             var3 = var3.APPLICATION_NAME;
             var10 = var7.bind(var11)(var9, var3);
-            if(!(var2 == var10)) { _fun0012_ip = 53; continue _fun0012 }
-case 54:
+            if(!(var2 == var10)) { _fun0012_ip = 52; continue _fun0012 }
+case 53:
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
             var3 = 12;
@@ -767,8 +767,8 @@ case 54:
             var3 = var7.bind(var11)(var3);
             var3 = var3.AutomodDecisionOutcomeEmbedKeys;
             var3 = var3.BLOCKED;
-            if(!(var5 === var3)) { _fun0012_ip = 55; continue _fun0012 }
-case 56:
+            if(!(var5 === var3)) { _fun0012_ip = 54; continue _fun0012 }
+case 55:
             var12 = _closure1_slot0;
             var13 = _closure1_slot1;
             var3 = 9;
@@ -781,8 +781,8 @@ case 56:
             var3 = var3.t;
             var3 = var3["2kuGkD"];
             var3 = var7.bind(var9)(var3);
-            _fun0012_ip = 57; continue _fun0012;
-case 55:
+            _fun0012_ip = 56; continue _fun0012;
+case 54:
             var13 = _closure1_slot0;
             var14 = _closure1_slot1;
             var7 = 9;
@@ -795,9 +795,9 @@ case 55:
             var7 = var7.t;
             var7 = var7.Oo38tv;
             var3 = var9.bind(var12)(var7);
-case 57:
+case 56:
             return var3;
-case 53:
+case 52:
             var9 = _closure1_slot6;
             var7 = var9.getUser;
             var3 = arg3;
@@ -809,10 +809,10 @@ case 53:
             var3 = var7.bind(var11)(var3);
             var3 = var3.AutomodInteractionCallbackTypeEmbedKeys;
             var3 = var3.MODAL;
-            if(!(var6 === var3)) { _fun0012_ip = 58; continue _fun0012 }
-case 59:
-            if(!(var2 == var9)) { _fun0012_ip = 60; continue _fun0012 }
+            if(!(var6 === var3)) { _fun0012_ip = 57; continue _fun0012 }
 case 58:
+            if(!(var2 == var9)) { _fun0012_ip = 59; continue _fun0012 }
+case 57:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 12;
@@ -820,8 +820,8 @@ case 58:
             var2 = var3.bind(var11)(var2);
             var2 = var2.AutomodDecisionOutcomeEmbedKeys;
             var2 = var2.BLOCKED;
-            if(!(var5 === var2)) { _fun0012_ip = 61; continue _fun0012 }
-case 62:
+            if(!(var5 === var2)) { _fun0012_ip = 60; continue _fun0012 }
+case 61:
             var3 = _closure1_slot0;
             var12 = _closure1_slot1;
             var2 = 9;
@@ -838,8 +838,8 @@ case 62:
             var12 = var8.username;
             var2['integrationOwner'] = var12;
             var2 = var6.bind(var7)(var3, var2);
-            _fun0012_ip = 63; continue _fun0012;
-case 61:
+            _fun0012_ip = 62; continue _fun0012;
+case 60:
             var6 = _closure1_slot0;
             var13 = _closure1_slot1;
             var3 = 9;
@@ -856,9 +856,9 @@ case 61:
             var13 = var8.username;
             var3['integrationOwner'] = var13;
             var2 = var7.bind(var12)(var6, var3);
-case 63:
-            _fun0012_ip = 64; continue _fun0012;
-case 60:
+case 62:
+            _fun0012_ip = 63; continue _fun0012;
+case 59:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 12;
@@ -866,8 +866,8 @@ case 60:
             var3 = var6.bind(var11)(var3);
             var3 = var3.AutomodDecisionOutcomeEmbedKeys;
             var3 = var3.BLOCKED;
-            if(!(var5 === var3)) { _fun0012_ip = 65; continue _fun0012 }
-case 66:
+            if(!(var5 === var3)) { _fun0012_ip = 64; continue _fun0012 }
+case 65:
             var5 = _closure1_slot0;
             var12 = _closure1_slot1;
             var3 = 9;
@@ -886,8 +886,8 @@ case 66:
             var12 = var8.username;
             var3['integrationOwner'] = var12;
             var3 = var6.bind(var7)(var5, var3);
-            _fun0012_ip = 67; continue _fun0012;
-case 65:
+            _fun0012_ip = 66; continue _fun0012;
+case 64:
             var5 = _closure1_slot0;
             var12 = _closure1_slot1;
             var4 = 9;
@@ -906,11 +906,11 @@ case 65:
             var8 = var8.username;
             var4['integrationOwner'] = var8;
             var3 = var6.bind(var7)(var5, var4);
-case 67:
+case 66:
             var2 = var3;
-case 64:
+case 63:
             return var2;
-case 52:
+case 51:
             return var1;
         }
     };
@@ -926,7 +926,7 @@ case 0:
             var11 = arguments[4];
             var13 = undefined;
             if(!(var17 === var13)) { _fun0013_ip = 2; continue _fun0013 }
-case 68:
+case 67:
             var17 = _closure1_slot9;
 case 2:
             var1 = _closure1_slot16;
@@ -954,12 +954,12 @@ case 2:
             var4 = var4.APPLICATION_NAME;
             var12 = var12.bind(var13)(var5, var4);
             var4 = null;
-            if(!(var4 != var1)) { _fun0013_ip = 69; continue _fun0013 }
-case 46:
+            if(!(var4 != var1)) { _fun0013_ip = 68; continue _fun0013 }
+case 9:
             var1 = _closure1_slot18;
             var1 = var1.bind(var13)(var15, var9, var2);
-            if(!(var4 == var1)) { _fun0013_ip = 70; continue _fun0013 }
-case 69:
+            if(!(var4 == var1)) { _fun0013_ip = 69; continue _fun0013 }
+case 68:
             var15 = _closure1_slot5;
             var9 = var15.can;
             var2 = _closure1_slot10;
@@ -967,11 +967,11 @@ case 69:
             var2 = var9.bind(var15)(var2, var3);
             var9 = _closure1_slot19;
             var16 = var9.bind(var13)(var3, var2);
-            if(!(var4 != var3)) { _fun0013_ip = 71; continue _fun0013 }
-case 72:
+            if(!(var4 != var3)) { _fun0013_ip = 70; continue _fun0013 }
+case 71:
             var15 = var17;
             if(var2) { _fun0013_ip = 30; continue _fun0013 }
-case 71:
+case 70:
             var15 = _closure1_slot9;
 case 30:
             var3 = _closure1_slot11;
@@ -984,19 +984,10 @@ case 30:
             var5 = var3.bind(var13)(var5, var2);
             var3 = var4 == var5;
             var2 = null;
-            if(var3) { _fun0013_ip = 73; continue _fun0013 }
-case 74:
+            if(var3) { _fun0013_ip = 72; continue _fun0013 }
+case 73:
             var3 = 'blocked';
-            if(!(var3 !== var5)) { _fun0013_ip = 75; continue _fun0013 }
-case 76:
-            var5 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var3 = 9;
-            var3 = var9[var3];
-            var3 = var5.bind(var13)(var3);
-            var3 = var3.t;
-            var14 = var3.bma6cs;
-            _fun0013_ip = 77; continue _fun0013;
+            if(!(var3 !== var5)) { _fun0013_ip = 74; continue _fun0013 }
 case 75:
             var5 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -1004,8 +995,17 @@ case 75:
             var3 = var9[var3];
             var3 = var5.bind(var13)(var3);
             var3 = var3.t;
+            var14 = var3.bma6cs;
+            _fun0013_ip = 76; continue _fun0013;
+case 74:
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var3 = 9;
+            var3 = var9[var3];
+            var3 = var5.bind(var13)(var3);
+            var3 = var3.t;
             var14 = var3.cLQrqz;
-case 77:
+case 76:
             var5 = _closure1_slot0;
             var9 = _closure1_slot1;
             var3 = 9;
@@ -1017,11 +1017,11 @@ case 77:
             var3['channelName'] = var16;
             var3['channelHook'] = var17;
             var2 = var5.bind(var9)(var14, var3);
-case 73:
-            if(!(var4 == var2)) { _fun0013_ip = 78; continue _fun0013 }
-case 79:
-            if(!(var4 == var12)) { _fun0013_ip = 80; continue _fun0013 }
-case 81:
+case 72:
+            if(!(var4 == var2)) { _fun0013_ip = 77; continue _fun0013 }
+case 78:
+            if(!(var4 == var12)) { _fun0013_ip = 79; continue _fun0013 }
+case 80:
             var5 = _closure1_slot0;
             var9 = _closure1_slot1;
             var3 = 12;
@@ -1029,8 +1029,8 @@ case 81:
             var3 = var5.bind(var13)(var3);
             var3 = var3.AutomodDecisionOutcomeEmbedKeys;
             var3 = var3.BLOCKED;
-            if(!(var7 === var3)) { _fun0013_ip = 82; continue _fun0013 }
-case 83:
+            if(!(var7 === var3)) { _fun0013_ip = 81; continue _fun0013 }
+case 82:
             var5 = _closure1_slot0;
             var17 = _closure1_slot1;
             var3 = 9;
@@ -1046,8 +1046,8 @@ case 83:
             var3['channelName'] = var16;
             var3['channelHook'] = var15;
             var3 = var9.bind(var14)(var5, var3);
-            _fun0013_ip = 84; continue _fun0013;
-case 82:
+            _fun0013_ip = 83; continue _fun0013;
+case 81:
             var9 = _closure1_slot0;
             var18 = _closure1_slot1;
             var5 = 9;
@@ -1063,9 +1063,9 @@ case 82:
             var5['channelName'] = var16;
             var5['channelHook'] = var15;
             var3 = var14.bind(var17)(var9, var5);
-case 84:
-            _fun0013_ip = 85; continue _fun0013;
-case 80:
+case 83:
+            _fun0013_ip = 84; continue _fun0013;
+case 79:
             var9 = _closure1_slot0;
             var14 = _closure1_slot1;
             var5 = 11;
@@ -1073,10 +1073,10 @@ case 80:
             var5 = var9.bind(var13)(var5);
             var5 = var5.AutomodInteractionCallbackTypeEmbedKeys;
             var5 = var5.MODAL;
-            if(!(var8 === var5)) { _fun0013_ip = 86; continue _fun0013 }
-case 87:
-            if(!(var4 == var11)) { _fun0013_ip = 88; continue _fun0013 }
+            if(!(var8 === var5)) { _fun0013_ip = 85; continue _fun0013 }
 case 86:
+            if(!(var4 == var11)) { _fun0013_ip = 87; continue _fun0013 }
+case 85:
             var5 = _closure1_slot0;
             var8 = _closure1_slot1;
             var4 = 12;
@@ -1085,7 +1085,7 @@ case 86:
             var4 = var4.AutomodDecisionOutcomeEmbedKeys;
             var4 = var4.BLOCKED;
             if(!(var7 === var4)) { _fun0013_ip = 39; continue _fun0013 }
-case 89:
+case 88:
             var5 = _closure1_slot0;
             var14 = _closure1_slot1;
             var4 = 9;
@@ -1103,7 +1103,7 @@ case 89:
             var4['channelHook'] = var15;
             var4['integrationOwnerHook'] = var10;
             var4 = var8.bind(var9)(var5, var4);
-            _fun0013_ip = 90; continue _fun0013;
+            _fun0013_ip = 89; continue _fun0013;
 case 39:
             var8 = _closure1_slot0;
             var17 = _closure1_slot1;
@@ -1122,9 +1122,9 @@ case 39:
             var5['channelHook'] = var15;
             var5['integrationOwnerHook'] = var10;
             var4 = var9.bind(var14)(var8, var5);
-case 90:
-            _fun0013_ip = 91; continue _fun0013;
-case 88:
+case 89:
+            _fun0013_ip = 90; continue _fun0013;
+case 87:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var5 = 12;
@@ -1132,8 +1132,8 @@ case 88:
             var5 = var8.bind(var13)(var5);
             var5 = var5.AutomodDecisionOutcomeEmbedKeys;
             var5 = var5.BLOCKED;
-            if(!(var7 === var5)) { _fun0013_ip = 92; continue _fun0013 }
-case 93:
+            if(!(var7 === var5)) { _fun0013_ip = 91; continue _fun0013 }
+case 92:
             var7 = _closure1_slot0;
             var14 = _closure1_slot1;
             var5 = 9;
@@ -1150,8 +1150,8 @@ case 93:
             var5['interactionUserHook'] = var11;
             var5['integrationOwnerHook'] = var10;
             var5 = var8.bind(var9)(var7, var5);
-            _fun0013_ip = 94; continue _fun0013;
-case 92:
+            _fun0013_ip = 93; continue _fun0013;
+case 91:
             var7 = _closure1_slot0;
             var14 = _closure1_slot1;
             var6 = 9;
@@ -1168,15 +1168,15 @@ case 92:
             var6['interactionUserHook'] = var11;
             var6['integrationOwnerHook'] = var10;
             var5 = var8.bind(var9)(var7, var6);
-case 94:
+case 93:
             var4 = var5;
-case 91:
+case 90:
             var3 = var4;
-case 85:
+case 84:
             var2 = var3;
-case 78:
+case 77:
             return var2;
-case 70:
+case 69:
             return var1;
         }
     };
@@ -1193,23 +1193,23 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var2 = var2.AutomodQuarantineUserMessageEmbedKeys;
             var2 = var2.NICKNAME;
-            if(!(var2 !== var3)) { _fun0014_ip = 95; continue _fun0014 }
-case 96:
+            if(!(var2 !== var3)) { _fun0014_ip = 94; continue _fun0014 }
+case 95:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.AutomodQuarantineUserMessageEmbedKeys;
             var2 = var2.USERNAME;
-            if(!(var2 !== var3)) { _fun0014_ip = 97; continue _fun0014 }
-case 98:
+            if(!(var2 !== var3)) { _fun0014_ip = 96; continue _fun0014 }
+case 97:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.AutomodQuarantineUserMessageEmbedKeys;
             var2 = var2.GLOBAL_NAME;
-            if(!(var2 !== var3)) { _fun0014_ip = 99; continue _fun0014 }
+            if(!(var2 !== var3)) { _fun0014_ip = 98; continue _fun0014 }
 case 28:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -1217,8 +1217,8 @@ case 28:
             var2 = var4.bind(var5)(var2);
             var2 = var2.AutomodQuarantineUserMessageEmbedKeys;
             var2 = var2.CLAN_TAG;
-            if(!(var2 !== var3)) { _fun0014_ip = 72; continue _fun0014 }
-case 6:
+            if(!(var2 !== var3)) { _fun0014_ip = 71; continue _fun0014 }
+case 99:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 9;
@@ -1232,7 +1232,7 @@ case 6:
             var2 = var2.pJQVnr;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 72:
+case 71:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 9;
@@ -1246,7 +1246,7 @@ case 72:
             var2 = var2.Rtum01;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 99:
+case 98:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 9;
@@ -1260,7 +1260,7 @@ case 99:
             var2 = var2.V9eJ85;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 97:
+case 96:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 9;
@@ -1274,7 +1274,7 @@ case 97:
             var2 = var2.pJQVnr;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 95:
+case 94:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 9;
@@ -1367,7 +1367,7 @@ case 103:
             var9 = var3 != var12;
             var4 = undefined;
             if(!var9) { _fun0015_ip = 105; continue _fun0015 }
-case 57:
+case 56:
             var9 = global;
             var9 = var9.Date;
             var11 = var9.prototype;
@@ -1441,7 +1441,7 @@ case 42:
             var4 = var1 != var3;
             var2 = null;
             if(!var4) { _fun0016_ip = 117; continue _fun0016 }
-case 50:
+case 49:
             var2 = var3;
 case 117:
             return var2;

@@ -749,6 +749,8 @@ case 36:
                     var1 = {};
                     var4 = _closure2_slot2;
                     var1['product'] = var4;
+                    var4 = true;
+                    var1['useCategoryImage'] = var4;
                     var1 = var2.bind(var3)(var1);
 case 35:
                     var1 = undefined;
