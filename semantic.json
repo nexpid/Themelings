@@ -2627,17 +2627,9 @@
       }
     ]
   },
-  "TEXT_DEFAULT": {
-    "12": [
-      "#c7c8ce",
-      {
-        "raw": "PLUM_6",
-        "opacity": 1
-      }
-    ]
-  },
+  "TEXT_DEFAULT": {},
   "TEXT_FEEDBACK_CRITICAL": {
-    "12": [
+    "13": [
       "#fa777b",
       {
         "raw": "RED_345",
@@ -2646,7 +2638,7 @@
     ]
   },
   "TEXT_FEEDBACK_INFO": {
-    "12": [
+    "13": [
       "#2eb6ff",
       {
         "raw": "BLUE_330",
@@ -2655,7 +2647,7 @@
     ]
   },
   "TEXT_FEEDBACK_POSITIVE": {
-    "12": [
+    "13": [
       "#2dc771",
       {
         "raw": "GREEN_330",
@@ -2664,7 +2656,7 @@
     ]
   },
   "TEXT_FEEDBACK_WARNING": {
-    "12": [
+    "13": [
       "#f0b232",
       {
         "raw": "YELLOW_300",
@@ -2673,7 +2665,7 @@
     ]
   },
   "TEXT_LINK": {
-    "12": [
+    "13": [
       "#4d96ee",
       {
         "raw": "BLUE_NEW_37",
@@ -2682,7 +2674,7 @@
     ]
   },
   "TEXT_MUTED": {
-    "12": [
+    "13": [
       "#818491",
       {
         "raw": "PLUM_10",
@@ -2691,7 +2683,7 @@
     ]
   },
   "TEXT_OVERLAY_DARK": {
-    "12": [
+    "13": [
       "#2f3035",
       {
         "raw": "NEUTRAL_71",
@@ -2700,7 +2692,7 @@
     ]
   },
   "TEXT_OVERLAY_LIGHT": {
-    "12": [
+    "13": [
       "#fbfbfb",
       {
         "raw": "NEUTRAL_2",
@@ -2709,7 +2701,7 @@
     ]
   },
   "TEXT_STATUS_DND": {
-    "12": [
+    "13": [
       "#f23f43",
       {
         "raw": "RED_400",
@@ -2718,7 +2710,7 @@
     ]
   },
   "TEXT_STATUS_IDLE": {
-    "12": [
+    "13": [
       "#f0b232",
       {
         "raw": "YELLOW_300",
@@ -2727,7 +2719,7 @@
     ]
   },
   "TEXT_STATUS_OFFLINE": {
-    "12": [
+    "13": [
       "#9597a3",
       {
         "raw": "PLUM_9",
@@ -2736,7 +2728,7 @@
     ]
   },
   "TEXT_STATUS_ONLINE": {
-    "12": [
+    "13": [
       "#23a55a",
       {
         "raw": "GREEN_360",
@@ -2745,7 +2737,7 @@
     ]
   },
   "TEXT_STRONG": {
-    "12": [
+    "13": [
       "#c7c8ce",
       {
         "raw": "PLUM_6",
@@ -2754,7 +2746,7 @@
     ]
   },
   "TEXT_SUBTLE": {
-    "12": [
+    "13": [
       "#9597a3",
       {
         "raw": "PLUM_9",

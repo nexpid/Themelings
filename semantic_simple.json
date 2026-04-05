@@ -875,50 +875,48 @@
   "TEXT_BRAND": {
     "12": "#949cf7"
   },
-  "TEXT_DEFAULT": {
-    "12": "#c7c8ce"
-  },
+  "TEXT_DEFAULT": {},
   "TEXT_FEEDBACK_CRITICAL": {
-    "12": "#fa777b"
+    "13": "#fa777b"
   },
   "TEXT_FEEDBACK_INFO": {
-    "12": "#2eb6ff"
+    "13": "#2eb6ff"
   },
   "TEXT_FEEDBACK_POSITIVE": {
-    "12": "#2dc771"
+    "13": "#2dc771"
   },
   "TEXT_FEEDBACK_WARNING": {
-    "12": "#f0b232"
+    "13": "#f0b232"
   },
   "TEXT_LINK": {
-    "12": "#4d96ee"
+    "13": "#4d96ee"
   },
   "TEXT_MUTED": {
-    "12": "#818491"
+    "13": "#818491"
   },
   "TEXT_OVERLAY_DARK": {
-    "12": "#2f3035"
+    "13": "#2f3035"
   },
   "TEXT_OVERLAY_LIGHT": {
-    "12": "#fbfbfb"
+    "13": "#fbfbfb"
   },
   "TEXT_STATUS_DND": {
-    "12": "#f23f43"
+    "13": "#f23f43"
   },
   "TEXT_STATUS_IDLE": {
-    "12": "#f0b232"
+    "13": "#f0b232"
   },
   "TEXT_STATUS_OFFLINE": {
-    "12": "#9597a3"
+    "13": "#9597a3"
   },
   "TEXT_STATUS_ONLINE": {
-    "12": "#23a55a"
+    "13": "#23a55a"
   },
   "TEXT_STRONG": {
-    "12": "#c7c8ce"
+    "13": "#c7c8ce"
   },
   "TEXT_SUBTLE": {
-    "12": "#9597a3"
+    "13": "#9597a3"
   },
   "TEXT_VOICE_CONNECTED": {
     "12": "#26b968"
