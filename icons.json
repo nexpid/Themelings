@@ -188,26 +188,6 @@
         "width": 128,
         "height": 128
     },
-    "app_dock_no_search_results_dark": {
-        "file": "app/images/native/empties/app_dock_no_search_results_dark.png",
-        "hash": "cf5af7ee8f65a0fdeb96ff3d4448bdc8",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 336.5,
-        "height": 254
-    },
-    "app_dock_no_search_results_light": {
-        "file": "app/images/native/empties/app_dock_no_search_results_light.png",
-        "hash": "6d32e4ea361c0f6306b8cf86df2131fe",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 336.5,
-        "height": 254
-    },
     "app_dock_not_found_dark": {
         "file": "app/images/native/empties/app_dock_not_found_dark.png",
         "hash": "153e24032a5a8790888aef41caaf4b2c",
@@ -1128,15 +1108,6 @@
         "width": 161,
         "height": 161
     },
-    "captcha_header": {
-        "file": "app/images/native/captcha_header.png",
-        "hash": "889f1da45314f8f38eae7ddbc04f78cd",
-        "scales": [
-            1
-        ],
-        "width": 88,
-        "height": 85
-    },
     "CarIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CarIcon.png",
         "hash": "30f38e9cc06345b39ea1b73343d04289",
@@ -1358,6 +1329,16 @@
     "ChatMarkUnreadIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatMarkUnreadIcon.png",
         "hash": "a97ebd26f28acc69dba8dec170283378",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ChatMinusIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/ChatMinusIcon.png",
+        "hash": "cc3ad965d916c02c7c8f984700b87bf1",
         "scales": [
             2,
             3
@@ -2588,34 +2569,6 @@
         "width": 200,
         "height": 72
     },
-    "empty_channel_no_text_channels_dark": {
-        "file": "app/images/native/empties/empty_channel_no_text_channels_dark.png",
-        "hash": "b93ea41310e6086beaf77dbbe369f01e",
-        "scales": [
-            1
-        ],
-        "width": 1088,
-        "height": 888
-    },
-    "empty_channel_no_text_channels_darker": {
-        "file": "app/design/components/Illustration/native/redesign/generated/images/empty_channel_no_text_channels_darker.png",
-        "hash": "af58a6d0b570acbbc599390dbd501477",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 256,
-        "height": 194
-    },
-    "empty_channel_no_text_channels_light": {
-        "file": "app/images/native/empties/empty_channel_no_text_channels_light.png",
-        "hash": "253b33328c71adf5210120d8263f00f2",
-        "scales": [
-            1
-        ],
-        "width": 1088,
-        "height": 888
-    },
     "empty_dms_activities": {
         "file": "app/images/native/empties/empty_dms_activities.png",
         "hash": "813b26f9493222d83dc58dec090b98ea",
@@ -2625,16 +2578,6 @@
         ],
         "width": 311,
         "height": 175
-    },
-    "empty_instant_invite_friends": {
-        "file": "app/images/native/empties/empty_instant_invite_friends.png",
-        "hash": "922fc9869c3ee0ed3aedef0f0ad9cb7d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 173,
-        "height": 90
     },
     "empty_permission": {
         "file": "app/modules/media_keyboard/native/images/empty_permission.png",
@@ -3573,16 +3516,6 @@
         ],
         "width": 303,
         "height": 198
-    },
-    "guild_progress_32px": {
-        "file": "app/images/native/icons/empty_channel/guild_progress_32px.png",
-        "hash": "3eebabf7082deaf66228fab3dbf897d9",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 48,
-        "height": 48
     },
     "guild_subscription_no_guilds_dark": {
         "file": "app/images/native/premium/guild_boosting/guild_subscription_no_guilds_dark.png",
@@ -10240,17 +10173,6 @@
         "width": 184,
         "height": 184
     },
-    "no-results": {
-        "file": "app/modules/main_tabs_v2/native/images/no-results.png",
-        "hash": "2046c95f866f533a711b85ed43f78011",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 301,
-        "height": 128
-    },
     "notification_upsell": {
         "file": "app/modules/nuf/native/components/notification/notification_upsell.png",
         "hash": "21f19c3533062eebc26337b4e7ba590a",
@@ -10687,16 +10609,6 @@
         "width": 107.5,
         "height": 107
     },
-    "progress-center": {
-        "file": "app/modules/guild_progress/native/images/progress-center.png",
-        "hash": "db6ae8d142cba500f31d32a778771a2a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 56,
-        "height": 46
-    },
     "progress-setup": {
         "file": "app/modules/hub/native/images/progress-setup.png",
         "hash": "c0ad0e7adefed3e2ebad52c7f4beb394",
@@ -10706,16 +10618,6 @@
         ],
         "width": 48,
         "height": 48
-    },
-    "progress-sparkles": {
-        "file": "app/modules/guild_progress/native/images/progress-sparkles.png",
-        "hash": "edd4b77f7b1596bd78de306e80906987",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 161,
-        "height": 52
     },
     "ps_relink_upsell": {
         "file": "app/images/consoles/ps_relink_upsell.png",
