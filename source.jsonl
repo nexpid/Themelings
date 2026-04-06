@@ -4639,7 +4639,7 @@
 { "file": "app/modules/media_engine/LinuxVulkanCaptureExperiment.tsx", "size": 1436 }
 { "file": "app/modules/media_engine/LowLatencyRateControlExperiment.tsx", "size": 1937 }
 { "file": "app/modules/media_engine/MediaEngineActionCreators.tsx", "size": 2469 }
-{ "file": "app/modules/media_engine/MediaEngineStatsStore.tsx", "size": 34400 }
+{ "file": "app/modules/media_engine/MediaEngineStatsStore.tsx", "size": 34402 }
 { "file": "app/modules/media_engine/MobileAudioOutputExperiment.tsx", "size": 1213 }
 { "file": "app/modules/media_engine/MobileGLTRExperiment.tsx", "size": 1072 }
 { "file": "app/modules/media_engine/native/VoiceProcessingErrorManager.tsx", "size": 6354 }
@@ -7669,7 +7669,7 @@
 { "file": "app/modules/voice_panel/native/controls/buttons/VoicePanelConnectButton.tsx", "size": 12671 }
 { "file": "app/modules/voice_panel/native/controls/buttons/VoicePanelDisconnectCancelButton.tsx", "size": 18132 }
 { "file": "app/modules/voice_panel/native/controls/buttons/VoicePanelDrawerToggleButton.tsx", "size": 4503 }
-{ "file": "app/modules/voice_panel/native/controls/buttons/VoicePanelMicButton.tsx", "size": 31397 }
+{ "file": "app/modules/voice_panel/native/controls/buttons/VoicePanelMicButton.tsx", "size": 31399 }
 { "file": "app/modules/voice_panel/native/controls/buttons/VoicePanelRiveMicButton.tsx", "size": 2284 }
 { "file": "app/modules/voice_panel/native/controls/buttons/VoicePanelScreenshareButton.tsx", "size": 8839 }
 { "file": "app/modules/voice_panel/native/controls/buttons/VoicePanelSoundboardButton.tsx", "size": 5510 }
@@ -8731,7 +8731,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx", "size": 40496 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 75493 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/frecency_user_settings.tsx", "size": 197350 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 934150 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 934148 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 14092 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx", "size": 86450 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx", "size": 24633 }
@@ -8753,7 +8753,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/theme_aware_asset.tsx", "size": 15287 }
 { "file": "discord_common/js/packages/protos/discord_protos/safety_common/v1/classification_type.tsx", "size": 82902 }
 { "file": "discord_common/js/packages/protos/discord_protos/safety_common/v1/safety_state.tsx", "size": 79603 }
-{ "file": "discord_common/js/packages/protos/discord_protos/users/v1/user.tsx", "size": 421706 }
+{ "file": "discord_common/js/packages/protos/discord_protos/users/v1/user.tsx", "size": 421705 }
 { "file": "discord_common/js/packages/protos/google/protobuf/timestamp.tsx", "size": 27271 }
 { "file": "discord_common/js/packages/protos/google/protobuf/wrappers.tsx", "size": 92900 }
 { "file": "discord_common/js/packages/rpc-schema/definitions.tsx", "size": 29028 }
