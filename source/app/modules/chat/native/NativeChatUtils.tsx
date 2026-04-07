@@ -7,25 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var8;
-    var1 = function logMissingView(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 1;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.captureMessage;
-        var2 = global;
-        var2 = var2.HermesInternal;
-        var7 = var2.concat;
-        var6 = '';
-        var5 = arg1;
-        var2 = ' called with null view';
-        var2 = var7.bind(var6)(var5, var2);
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var _closure1_slot6 = var1;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -74,49 +55,43 @@ case 0:
             var7 = arg2;
             var1 = arg3;
             var2 = null;
-            if(!(var2 == var9)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var2 != var9)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = _closure1_slot6;
-            var4 = undefined;
-            var3 = 'scrollTo';
-            var3 = var5.bind(var4)(var3);
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
-            if(!(var2 == var1)) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var1 = {};
+            if(!(var2 == var1)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var1 = {};
+case 4:
             var3 = var1.animated;
             var8 = undefined;
             var6 = var8 !== var3;
-            if(!var6) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var6 = var3;
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var6 = var3;
+case 6:
             var3 = var1.highlight;
             var5 = var8 !== var3;
-            if(!var5) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var5 = var3;
+            if(!var5) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var5 = var3;
+case 8:
             var4 = var1.position;
-            if(!(var8 === var4)) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(!(var8 === var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = _closure1_slot5;
             var4 = var1.TOP;
-case 11:
+case 10:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 2;
+            var3 = 1;
             var3 = var11[var3];
             var10 = var10.bind(var8)(var3);
             var3 = var10.isIOS;
             var3 = var3.bind(var10)();
-            if(var3) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 3;
+            var3 = 2;
             var3 = var11[var3];
             var3 = var10.bind(var8)(var3);
             var10 = var3.Commands;
@@ -128,12 +103,12 @@ case 14:
             var13 = var5;
             var12 = var4;
             var3 = var17[var3](var16, var15, var14, var13, var12, var11);
-            _fun0001_ip = 4; continue _fun0001;
-case 13:
+            _fun0001_ip = 2; continue _fun0001;
+case 12:
             var3 = _closure1_slot4;
             var3 = var3.bind(var8)(var9);
-            if(!(var2 != var3)) { _fun0001_ip = 4; continue _fun0001 }
-case 15:
+            if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 14:
             var1 = _closure1_slot3;
             var2 = var1.DCDChatManager;
             var1 = var2.scrollTo;
@@ -144,7 +119,7 @@ case 15:
             var13 = var5;
             var12 = var4;
             var1 = var17[var1](var16, var15, var14, var13, var12, var11);
-case 4:
+case 2:
             var1 = undefined;
             return var1;
         }
@@ -156,43 +131,37 @@ case 0:
             var6 = arg1;
             var4 = arg2;
             var2 = null;
-            if(!(var2 == var6)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-            var5 = _closure1_slot6;
-            var3 = undefined;
-            var1 = 'scrollToBottom';
-            var1 = var5.bind(var3)(var1);
-            _fun0002_ip = 18; continue _fun0002;
+            if(!(var2 != var6)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var3 = 2;
+            var3 = 1;
             var3 = var5[var3];
             var5 = undefined;
             var7 = var7.bind(var5)(var3);
             var3 = var7.isIOS;
             var3 = var3.bind(var7)();
-            if(var3) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+            if(var3) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 3;
+            var3 = 2;
             var3 = var8[var3];
             var3 = var7.bind(var5)(var3);
             var7 = var3.Commands;
             var3 = var7.scrollToBottom;
             var3 = var3.bind(var7)(var6, var4);
-            _fun0002_ip = 18; continue _fun0002;
-case 19:
+            _fun0002_ip = 15; continue _fun0002;
+case 17:
             var3 = _closure1_slot4;
             var3 = var3.bind(var5)(var6);
-            if(!(var2 != var3)) { _fun0002_ip = 18; continue _fun0002 }
-case 21:
+            if(!(var2 != var3)) { _fun0002_ip = 15; continue _fun0002 }
+case 19:
             var1 = _closure1_slot3;
             var2 = var1.DCDChatManager;
             var1 = var2.scrollToBottom;
             var1 = var1.bind(var2)(var3, var4);
-case 18:
+case 15:
             var1 = undefined;
             return var1;
         }
@@ -203,34 +172,28 @@ case 18:
 case 0:
             var5 = arg1;
             var2 = null;
-            if(!(var2 == var5)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-            var4 = _closure1_slot6;
-            var3 = undefined;
-            var1 = 'scrollToTop';
-            var1 = var4.bind(var3)(var1);
-            _fun0003_ip = 24; continue _fun0003;
-case 22:
+            if(!(var2 != var5)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 2;
+            var3 = 1;
             var3 = var4[var3];
             var4 = undefined;
             var6 = var6.bind(var4)(var3);
             var3 = var6.isIOS;
             var3 = var3.bind(var6)();
-            if(!var3) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+            if(!var3) { _fun0003_ip = 20; continue _fun0003 }
+case 22:
             var3 = _closure1_slot4;
             var4 = var3.bind(var4)(var5);
-            if(!(var2 != var4)) { _fun0003_ip = 24; continue _fun0003 }
-case 26:
+            if(!(var2 != var4)) { _fun0003_ip = 20; continue _fun0003 }
+case 23:
             var1 = _closure1_slot3;
             var3 = var1.DCDChatManager;
             var2 = var3.scrollToTop;
             var1 = arg2;
             var1 = var2.bind(var3)(var4, var1);
-case 24:
+case 20:
             var1 = undefined;
             return var1;
         }
@@ -241,35 +204,29 @@ case 24:
 case 0:
             var5 = arg1;
             var2 = null;
-            if(!(var2 == var5)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-            var4 = _closure1_slot6;
-            var3 = undefined;
-            var1 = 'scrollToRelativeOffset';
-            var1 = var4.bind(var3)(var1);
-            _fun0004_ip = 27; continue _fun0004;
-case 22:
+            if(!(var2 != var5)) { _fun0004_ip = 24; continue _fun0004 }
+case 21:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 2;
+            var3 = 1;
             var3 = var4[var3];
             var4 = undefined;
             var6 = var6.bind(var4)(var3);
             var3 = var6.isIOS;
             var3 = var3.bind(var6)();
-            if(!var3) { _fun0004_ip = 27; continue _fun0004 }
-case 25:
+            if(!var3) { _fun0004_ip = 24; continue _fun0004 }
+case 22:
             var3 = _closure1_slot4;
             var5 = var3.bind(var4)(var5);
-            if(!(var2 != var5)) { _fun0004_ip = 27; continue _fun0004 }
-case 26:
+            if(!(var2 != var5)) { _fun0004_ip = 24; continue _fun0004 }
+case 23:
             var1 = _closure1_slot3;
             var4 = var1.DCDChatManager;
             var3 = var4.scrollToRelativeOffset;
             var2 = arg2;
             var1 = arg3;
             var1 = var3.bind(var4)(var5, var2, var1);
-case 27:
+case 24:
             var1 = undefined;
             return var1;
         }
@@ -282,43 +239,37 @@ case 0:
             var6 = arg2;
             var1 = arg3;
             var2 = null;
-            if(!(var2 == var8)) { _fun0005_ip = 2; continue _fun0005 }
+            if(!(var2 != var8)) { _fun0005_ip = 25; continue _fun0005 }
 case 3:
-            var5 = _closure1_slot6;
-            var4 = undefined;
-            var3 = 'scrollIntoView';
-            var3 = var5.bind(var4)(var3);
-            _fun0005_ip = 28; continue _fun0005;
-case 2:
-            if(!(var2 == var1)) { _fun0005_ip = 5; continue _fun0005 }
-case 6:
-            var1 = {};
+            if(!(var2 == var1)) { _fun0005_ip = 4; continue _fun0005 }
 case 5:
+            var1 = {};
+case 4:
             var3 = var1.animated;
             var7 = undefined;
             var5 = var7 !== var3;
-            if(!var5) { _fun0005_ip = 7; continue _fun0005 }
-case 8:
-            var5 = var3;
+            if(!var5) { _fun0005_ip = 6; continue _fun0005 }
 case 7:
+            var5 = var3;
+case 6:
             var1 = var1.highlight;
             var4 = var7 !== var1;
-            if(!var4) { _fun0005_ip = 9; continue _fun0005 }
-case 10:
-            var4 = var1;
+            if(!var4) { _fun0005_ip = 8; continue _fun0005 }
 case 9:
+            var4 = var1;
+case 8:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 2;
+            var3 = 1;
             var3 = var10[var3];
             var9 = var9.bind(var7)(var3);
             var3 = var9.isIOS;
             var3 = var3.bind(var9)();
-            if(var3) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+            if(var3) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 3;
+            var3 = 2;
             var3 = var10[var3];
             var3 = var9.bind(var7)(var3);
             var9 = var3.Commands;
@@ -329,12 +280,12 @@ case 30:
             var12 = var5;
             var11 = var4;
             var3 = var15[var3](var14, var13, var12, var11, var10);
-            _fun0005_ip = 28; continue _fun0005;
-case 29:
+            _fun0005_ip = 25; continue _fun0005;
+case 26:
             var3 = _closure1_slot4;
             var3 = var3.bind(var7)(var8);
-            if(!(var2 != var3)) { _fun0005_ip = 28; continue _fun0005 }
-case 31:
+            if(!(var2 != var3)) { _fun0005_ip = 25; continue _fun0005 }
+case 28:
             var1 = _closure1_slot3;
             var2 = var1.DCDChatManager;
             var1 = var2.scrollIntoView;
@@ -344,7 +295,7 @@ case 31:
             var12 = var5;
             var11 = var4;
             var1 = var15[var1](var14, var13, var12, var11, var10);
-case 28:
+case 25:
             var1 = undefined;
             return var1;
         }
@@ -356,55 +307,49 @@ case 0:
             var10 = arg1;
             var11 = arg2;
             var1 = null;
-            if(!(var1 == var10)) { _fun0006_ip = 32; continue _fun0006 }
-case 17:
-            var4 = _closure1_slot6;
-            var3 = undefined;
-            var2 = 'updateRows';
-            var2 = var4.bind(var3)(var2);
-            _fun0006_ip = 33; continue _fun0006;
-case 32:
+            if(!(var1 != var10)) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var6 = 2;
+            var6 = 1;
             var3 = var3[var6];
             var4 = undefined;
             var5 = var5.bind(var4)(var3);
             var3 = var5.isIOS;
             var3 = var3.bind(var5)();
-            if(!var3) { _fun0006_ip = 27; continue _fun0006 }
-case 34:
+            if(!var3) { _fun0006_ip = 24; continue _fun0006 }
+case 31:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 4;
+            var3 = 3;
             var3 = var7[var3];
             var5 = var5.bind(var4)(var3);
             var3 = var5.isFabric;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0006_ip = 35; continue _fun0006 }
-case 27:
+            if(var3) { _fun0006_ip = 32; continue _fun0006 }
+case 24:
             var3 = _closure1_slot4;
             var15 = var3.bind(var4)(var10);
-            if(!(var1 != var15)) { _fun0006_ip = 36; continue _fun0006 }
-case 37:
+            if(!(var1 != var15)) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var6];
             var5 = var5.bind(var4)(var3);
             var3 = var5.isIOS;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+            if(var3) { _fun0006_ip = 35; continue _fun0006 }
+case 36:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 6;
+            var3 = 5;
             var3 = var6[var3];
             var14 = var5.bind(var4)(var3);
-            _fun0006_ip = 40; continue _fun0006;
-case 38:
+            _fun0006_ip = 37; continue _fun0006;
+case 35:
             var3 = _closure1_slot3;
             var14 = var3.DCDChatManager;
-case 40:
+case 37:
             var13 = var14.updateRows;
             var3 = global;
             var7 = var3.JSON;
@@ -415,38 +360,38 @@ case 40:
             var5 = var11.scrollData;
             var5 = var1 != var5;
             var8 = null;
-            if(!var5) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+            if(!var5) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
             var6 = var3.JSON;
             var5 = var6.stringify;
             var3 = var11.scrollData;
             var8 = var5.bind(var6)(var3);
-case 41:
+case 38:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 5;
+            var3 = 4;
             var3 = var6[var3];
             var5 = var5.bind(var4)(var3);
             var3 = var5.getAndIncrementChangesetIdForChat;
             var7 = var3.bind(var5)(var10);
             var3 = var11.HACK_iOSForceAnimations;
             var6 = var1 != var3;
-            if(!var6) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+            if(!var6) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
             var6 = var3;
-case 43:
+case 40:
             var3 = var11.forceReload;
             var5 = var1 != var3;
-            if(!var5) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+            if(!var5) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
             var5 = var3;
-case 45:
+case 42:
             var16 = var11.isAnimated;
             var3 = var1 == var16;
-            if(var3) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+            if(var3) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
             var3 = var16;
-case 47:
+case 44:
             var26 = var14;
             var25 = var15;
             var24 = var12;
@@ -457,13 +402,13 @@ case 47:
             var19 = var5;
             var18 = var3;
             var3 = var26[var13](var25, var24, var23, var22, var21, var20, var19, var18, var17);
-            _fun0006_ip = 33; continue _fun0006;
-case 36:
+            _fun0006_ip = 29; continue _fun0006;
+case 33:
             return var4;
-case 35:
+case 32:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 3;
+            var3 = 2;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var9 = var3.Commands;
@@ -477,38 +422,38 @@ case 35:
             var5 = var11.scrollData;
             var12 = var1 != var5;
             var5 = '';
-            if(!var12) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+            if(!var12) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
             var13 = var3.JSON;
             var12 = var13.stringify;
             var3 = var11.scrollData;
             var5 = var12.bind(var13)(var3);
-case 49:
+case 46:
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var12[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.getAndIncrementChangesetIdForChat;
             var4 = var2.bind(var3)(var10);
             var2 = var11.HACK_iOSForceAnimations;
             var3 = var1 != var2;
-            if(!var3) { _fun0006_ip = 51; continue _fun0006 }
-case 52:
+            if(!var3) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
             var3 = var2;
-case 51:
+case 48:
             var12 = var11.forceReload;
             var2 = var1 != var12;
-            if(!var2) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
+            if(!var2) { _fun0006_ip = 50; continue _fun0006 }
+case 51:
             var2 = var12;
-case 53:
+case 50:
             var11 = var11.isAnimated;
             var1 = var1 == var11;
-            if(var1) { _fun0006_ip = 55; continue _fun0006 }
-case 56:
+            if(var1) { _fun0006_ip = 52; continue _fun0006 }
+case 53:
             var1 = var11;
-case 55:
+case 52:
             var26 = var9;
             var25 = var10;
             var24 = var7;
@@ -519,7 +464,7 @@ case 55:
             var19 = var2;
             var18 = var1;
             var1 = var26[var8](var25, var24, var23, var22, var21, var20, var19, var18, var17);
-case 33:
+case 29:
             var1 = undefined;
             return var1;
         }
@@ -530,85 +475,76 @@ case 33:
 case 0:
             var4 = arg1;
             var2 = null;
-            if(!(var2 == var4)) { _fun0007_ip = 16; continue _fun0007 }
-case 23:
-            var5 = _closure1_slot6;
-            var3 = undefined;
-            var1 = 'clearRows';
-            var1 = var5.bind(var3)(var1);
-            _fun0007_ip = 57; continue _fun0007;
+            if(!(var2 != var4)) { _fun0007_ip = 54; continue _fun0007 }
 case 16:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var5 = 2;
+            var5 = 1;
             var3 = var3[var5];
             var6 = undefined;
             var7 = var7.bind(var6)(var3);
             var3 = var7.isIOS;
             var3 = var3.bind(var7)();
-            if(!var3) { _fun0007_ip = 58; continue _fun0007 }
-case 20:
+            if(!var3) { _fun0007_ip = 55; continue _fun0007 }
+case 18:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 4;
+            var3 = 3;
             var3 = var8[var3];
             var7 = var7.bind(var6)(var3);
             var3 = var7.isFabric;
             var3 = var3.bind(var7)();
-            if(var3) { _fun0007_ip = 59; continue _fun0007 }
-case 58:
+            if(var3) { _fun0007_ip = 56; continue _fun0007 }
+case 55:
             var3 = _closure1_slot4;
             var7 = var3.bind(var6)(var4);
-            if(!(var2 != var7)) { _fun0007_ip = 60; continue _fun0007 }
-case 61:
+            if(!(var2 != var7)) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var5];
             var3 = var3.bind(var6)(var2);
             var2 = var3.isIOS;
             var2 = var2.bind(var3)();
-            if(var2) { _fun0007_ip = 62; continue _fun0007 }
-case 63:
+            if(var2) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 6;
+            var2 = 5;
             var2 = var5[var2];
             var5 = var3.bind(var6)(var2);
-            _fun0007_ip = 64; continue _fun0007;
-case 62:
+            _fun0007_ip = 61; continue _fun0007;
+case 59:
             var2 = _closure1_slot3;
             var5 = var2.DCDChatManager;
-case 64:
+case 61:
             var3 = var5.clearRows;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var9[var2];
             var8 = var8.bind(var6)(var2);
             var2 = var8.getAndIncrementChangesetIdForChat;
             var2 = var2.bind(var8)(var4);
             var2 = var3.bind(var5)(var7, var2);
-            _fun0007_ip = 57; continue _fun0007;
-case 60:
-            var3 = _closure1_slot6;
-            var2 = 'clearRows';
-            var2 = var3.bind(var6)(var2);
+            _fun0007_ip = 54; continue _fun0007;
+case 57:
             return var6;
-case 59:
+case 56:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 3;
+            var1 = 2;
             var1 = var7[var1];
             var1 = var5.bind(var6)(var1);
             var3 = var1.Commands;
             var2 = var3.clearRows;
-            var1 = 5;
+            var1 = 4;
             var1 = var7[var1];
             var5 = var5.bind(var6)(var1);
             var1 = var5.getAndIncrementChangesetIdForChat;
             var1 = var1.bind(var5)(var4);
             var1 = var2.bind(var3)(var4, var1);
-case 57:
+case 54:
             var1 = undefined;
             return var1;
         }
@@ -619,52 +555,46 @@ case 57:
 case 0:
             var3 = arg1;
             var2 = null;
-            if(!(var2 == var3)) { _fun0008_ip = 16; continue _fun0008 }
-case 23:
-            var5 = _closure1_slot6;
-            var4 = undefined;
-            var1 = 'fadeIn';
-            var1 = var5.bind(var4)(var1);
-            _fun0008_ip = 65; continue _fun0008;
+            if(!(var2 != var3)) { _fun0008_ip = 62; continue _fun0008 }
 case 16:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var4 = 2;
+            var4 = 1;
             var5 = var5[var4];
             var4 = undefined;
             var6 = var6.bind(var4)(var5);
             var5 = var6.isIOS;
             var5 = var5.bind(var6)();
-            if(!var5) { _fun0008_ip = 65; continue _fun0008 }
-case 20:
+            if(!var5) { _fun0008_ip = 62; continue _fun0008 }
+case 18:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var5 = 4;
+            var5 = 3;
             var5 = var7[var5];
             var6 = var6.bind(var4)(var5);
             var5 = var6.isFabric;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0008_ip = 66; continue _fun0008 }
-case 67:
+            if(var5) { _fun0008_ip = 63; continue _fun0008 }
+case 64:
             var5 = _closure1_slot4;
             var6 = var5.bind(var4)(var3);
-            if(!(var2 != var6)) { _fun0008_ip = 65; continue _fun0008 }
-case 68:
+            if(!(var2 != var6)) { _fun0008_ip = 62; continue _fun0008 }
+case 65:
             var2 = _closure1_slot3;
             var5 = var2.DCDChatManager;
             var2 = var5.fadeIn;
             var2 = var2.bind(var5)(var6);
-            _fun0008_ip = 65; continue _fun0008;
-case 66:
+            _fun0008_ip = 62; continue _fun0008;
+case 63:
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 3;
+            var1 = 2;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Commands;
             var1 = var2.fadeIn;
             var1 = var1.bind(var2)(var3);
-case 65:
+case 62:
             var1 = undefined;
             return var1;
         }
@@ -676,37 +606,32 @@ case 0:
             var5 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 2;
+            var1 = 1;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0009_ip = 11; continue _fun0009 }
-case 69:
+            if(!var3) { _fun0009_ip = 20; continue _fun0009 }
+case 66:
             var3 = null;
-            if(!(var3 == var5)) { _fun0009_ip = 7; continue _fun0009 }
-case 70:
-            var6 = _closure1_slot6;
-            var4 = 'focus';
-            var4 = var6.bind(var1)(var4);
-            _fun0009_ip = 11; continue _fun0009;
-case 7:
+            if(!(var3 != var5)) { _fun0009_ip = 20; continue _fun0009 }
+case 22:
             var4 = _closure1_slot4;
             var5 = var4.bind(var1)(var5);
-            if(!(var3 != var5)) { _fun0009_ip = 11; continue _fun0009 }
-case 10:
+            if(!(var3 != var5)) { _fun0009_ip = 20; continue _fun0009 }
+case 23:
             var2 = _closure1_slot3;
             var4 = var2.DCDChatManager;
             var3 = var4.focus;
             var2 = arg2;
             var2 = var3.bind(var4)(var5, var2);
-case 11:
+case 20:
             return var1;
         }
     };
     var5['focus'] = var6;
-    var6 = 7;
+    var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

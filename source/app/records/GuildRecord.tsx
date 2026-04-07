@@ -124,6 +124,7 @@ case 2:
     var5['premiumFeatures'] = var11;
     var5['moderatorReporting'] = var11;
     var5['gameApplicationIds'] = var11;
+    var5['officialMessageColor'] = var11;
     var5 = var7.bind(var10)(var5);
     var7 = 6;
     var7 = var9[var7];

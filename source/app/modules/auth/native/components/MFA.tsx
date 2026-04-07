@@ -141,6 +141,7 @@ case 4:
                 return var1;
             };
             var1['handleOnClose'] = var5;
+            var1['ignoreKeyboard'] = var6;
             var5 = undefined;
             if(!var6) { _fun0001_ip = 6; continue _fun0001 }
 case 7:

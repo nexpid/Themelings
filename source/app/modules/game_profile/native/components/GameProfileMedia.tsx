@@ -370,19 +370,13 @@ case 4:
                         var1['posterUrl'] = var2;
                         return var1;
                     };
-                    var9 = var3.bind(var5)(var1);
+                    var7 = var3.bind(var5)(var1);
                     var1 = new Array(0);
-                    var10 = var1;
-                    var8 = 0;
-                    var3 = arraySpread(var10, var9, var8);
+                    var6 = 0;
+                    var8 = var1;
+                    var6 = arraySpread(var8, var7, var6);
                     var4 = _closure2_slot0;
-                    var9 = var4.screenshots;
-                    var5 = new Array(0);
-                    var10 = var5;
-                    var8 = arraySpread(var10, var9, var8);
-                    var9 = var4.artwork;
-                    var10 = var5;
-                    var4 = arraySpread(var10, var9, var8);
+                    var5 = var4.screenshots;
                     var4 = var5.map;
                     var2 = function(arg1) {
                         var1 = {};
@@ -392,10 +386,9 @@ case 4:
                         var1['url'] = var2;
                         return var1;
                     };
-                    var9 = var4.bind(var5)(var2);
-                    var10 = var1;
-                    var8 = var3;
-                    var2 = arraySpread(var10, var9, var8);
+                    var7 = var4.bind(var5)(var2);
+                    var8 = var1;
+                    var2 = arraySpread(var8, var7, var6);
                     _fun0002_ip = 6; continue _fun0002;
 case 2:
                     var1 = new Array(0);
@@ -596,11 +589,11 @@ case 12:
                     var2 = var2[var6];
                     var2 = var2 - var8;
                     var2 = var9.bind(var10)(var2);
-                    if(!(var2 < var4)) { _fun0004_ip = 6; continue _fun0004 }
-case 13:
+                    if(!(var2 < var4)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var5 = var6;
                     var4 = var2;
-case 6:
+case 13:
                     var6 = var6 + 1;
                     var2 = _closure2_slot10;
                     var2 = var2.length;
@@ -618,8 +611,8 @@ case 10:
             var10 = var4.bind(var8)(var1, var2);
             var2 = var11.length;
             var1 = null;
-            if(!(var3 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!(var3 !== var2)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var4 = _closure1_slot9;
             var3 = _closure1_slot5;
             var2 = {};
@@ -643,7 +636,7 @@ case 0:
                     var9 = arg2;
                     var3 = var2.type;
                     var1 = 'trailer';
-                    if(!(var1 !== var3)) { _fun0005_ip = 16; continue _fun0005 }
+                    if(!(var1 !== var3)) { _fun0005_ip = 17; continue _fun0005 }
 case 8:
                     var6 = _closure1_slot9;
                     var5 = _closure1_slot11;
@@ -668,8 +661,8 @@ case 8:
                     var3 = var7.bind(var3)(var8, var1, var9);
                     var1 = undefined;
                     var1 = var6.bind(var1)(var5, var4, var3);
-                    _fun0005_ip = 17; continue _fun0005;
-case 16:
+                    _fun0005_ip = 18; continue _fun0005;
+case 17:
                     var6 = _closure1_slot9;
                     var5 = _closure1_slot12;
                     var4 = {};
@@ -698,7 +691,7 @@ case 16:
                     var3 = var7.bind(var3)(var8, var2, var9);
                     var2 = undefined;
                     var1 = var6.bind(var2)(var5, var4, var3);
-case 17:
+case 18:
                     return var1;
                 }
             };
@@ -707,7 +700,7 @@ case 17:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 14:
+case 15:
             return var1;
         }
     };

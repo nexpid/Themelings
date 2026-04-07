@@ -2118,6 +2118,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_MARKETING_MOMENT_USER_SETTINGS_OFFER_BADGE'] = var2;
     var1 = 'PREMIUM_MARKETING_MOMENT_USER_SETTINGS_OFFER_BADGE';
     var4[var2] = var1;
+    var2 = 730;
+    var4['NITRO_TAB_QUEST_ORB_MULTIPLIER_TOOLTIP'] = var2;
+    var1 = 'NITRO_TAB_QUEST_ORB_MULTIPLIER_TOOLTIP';
+    var4[var2] = var1;
+    var2 = 731;
+    var4['PIN_CHANNEL_NEW_BADGE'] = var2;
+    var1 = 'PIN_CHANNEL_NEW_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -283,6 +283,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_SETTINGS_MEMBERS'] = var2;
     var2 = 'impression_guild_settings_moderation';
     var4['GUILD_SETTINGS_MODERATION'] = var2;
+    var2 = 'impression_guild_settings_official_messages';
+    var4['GUILD_SETTINGS_OFFICIAL_MESSAGES'] = var2;
     var2 = 'impression_guild_settings_overview';
     var4['GUILD_SETTINGS_OVERVIEW'] = var2;
     var2 = 'impression_guild_settings_partner';
@@ -351,6 +353,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['IGNORE_USER_CONFIRMATION'] = var2;
     var2 = 'impression_invite_accept';
     var4['INVITE_ACCEPT'] = var2;
+    var2 = 'impression_invite_embed';
+    var4['INVITE_EMBED'] = var2;
     var2 = 'impression_localized_pricing_upsell_viewed';
     var4['LOCALIZED_PRICING_UPSELL_VIEWED'] = var2;
     var2 = 'impression_masked_link_modal';

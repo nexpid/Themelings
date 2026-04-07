@@ -826,29 +826,29 @@ case 0:
             var5 = arg1;
             var10 = arg2;
             var2 = null;
-            if(!(var2 != var10)) { _fun0004_ip = 7; continue _fun0004 }
-case 22:
+            if(!(var2 != var10)) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var1 = var10.isPremiumWithFractionalPremiumOnly;
             var1 = var1.bind(var10)();
-            if(!var1) { _fun0004_ip = 7; continue _fun0004 }
-case 23:
+            if(!var1) { _fun0004_ip = 22; continue _fun0004 }
+case 24:
             var3 = _closure1_slot12;
             var1 = var3.includes;
             var1 = var1.bind(var3)(var5);
-            if(var1) { _fun0004_ip = 24; continue _fun0004 }
-case 7:
+            if(var1) { _fun0004_ip = 25; continue _fun0004 }
+case 22:
             var1 = arg3;
-            if(!var1) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+            if(!var1) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
             var3 = _closure1_slot13;
             var1 = var3.includes;
             var1 = var1.bind(var3)(var5);
-            if(var1) { _fun0004_ip = 27; continue _fun0004 }
-case 25:
+            if(var1) { _fun0004_ip = 28; continue _fun0004 }
+case 26:
             var4 = _closure1_slot14;
             var1 = var4.get;
             var9 = var1.bind(var4)(var5);
-            if(!(var2 != var9)) { _fun0004_ip = 28; continue _fun0004 }
+            if(!(var2 != var9)) { _fun0004_ip = 13; continue _fun0004 }
 case 29:
             var4 = var2 == var10;
             var6 = undefined;
@@ -857,7 +857,7 @@ case 29:
 case 31:
             var1 = var10.perks;
 case 30:
-            if(!(var2 != var1)) { _fun0004_ip = 28; continue _fun0004 }
+            if(!(var2 != var1)) { _fun0004_ip = 13; continue _fun0004 }
 case 32:
             var8 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -875,7 +875,7 @@ case 32:
             var1 = var1.DenormalizedPerksReadConfig;
             var1 = var1.CONTROL;
             if(!(var4 === var1)) { _fun0004_ip = 33; continue _fun0004 }
-case 28:
+case 13:
             var1 = var5.getFeatureValue;
             var1 = var1.bind(var5)(var10);
             return var1;
@@ -902,14 +902,14 @@ case 34:
             var3 = var3.DenormalizedPerksReadConfig;
             var3 = var3.DUAL_READ_RETURN_NEW;
             if(!(var4 === var3)) { _fun0004_ip = 36; continue _fun0004 }
-case 18:
+case 37:
             var1 = var2;
 case 36:
             return var1;
-case 27:
+case 28:
             var1 = false;
             return var1;
-case 24:
+case 25:
             var1 = false;
             return var1;
         }

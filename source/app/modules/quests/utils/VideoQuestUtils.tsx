@@ -511,8 +511,27 @@ case 38:
     };
     var3['handleVideoQuestModalClose'] = var5;
     var3['getVideoQuestModalKey'] = var4;
-    var2 = function isVideoQuestProgressing(arg1) {
+    var4 = function computeMaxSeekableTime(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var5 = arg1;
+            var4 = arg2;
+            var1 = 1;
+            var2 = var4 - var1;
+            var1 = var5;
+            if(!(var1 >= var2)) { _fun0010_ip = 22; continue _fun0010 }
+case 50:
+            var2 = global;
+            var3 = var2.Math;
+            var2 = var3.max;
+            var1 = var2.bind(var3)(var5, var4);
+case 22:
+            return var1;
+        }
+    };
+    var3['computeMaxSeekableTime'] = var4;
+    var2 = function isVideoQuestProgressing(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = arg1;
             var3 = _closure1_slot0;
@@ -525,7 +544,7 @@ case 0:
             var1 = var1.bind(var3)(var2);
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0010_ip = 50; continue _fun0010 }
+            if(var3) { _fun0011_ip = 51; continue _fun0011 }
 case 25:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -537,7 +556,7 @@ case 25:
             var2 = var2.id;
             var2 = var5.bind(var4)(var2);
             var1 = var3.bind(var4)(var2);
-case 50:
+case 51:
             return var1;
         }
     };

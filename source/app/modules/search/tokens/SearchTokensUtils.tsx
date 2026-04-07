@@ -26,7 +26,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = /(?:\s*([^\s]+))/;
     var3['GENERIC_REGEX'] = var4;
     var4 = function makeRegexForOptionsWithNegation(arg1) {
-        var5 = arg1;
+        var4 = new Array(0);
+        var7 = arg1;
+        var6 = 0;
+        var8 = var4;
+        var1 = arraySpread(var8, var7, var6);
+        var3 = var4.sort;
+        var1 = function(arg1, arg2) {
+            var1 = arg2;
+            var2 = var1.length;
+            var1 = arg1;
+            var1 = var1.length;
+            var1 = var2 - var1;
+            return var1;
+        };
+        var5 = var3.bind(var4)(var1);
         var1 = global;
         var4 = var1.RegExp;
         var3 = var5.map;
@@ -50,12 +64,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var1.concat;
         var2 = '(?:\\s*(-?(?:';
         var1 = ')))';
-        var7 = var3.bind(var2)(var5, var1);
+        var8 = var3.bind(var2)(var5, var1);
         var1 = var4.prototype;
         var2 = Object.create(var1, {constructor: {value: var4}});
-        var6 = 'i';
-        var8 = var2;
-        var1 = new var8[var4](var7, var6, var5);
+        var7 = 'i';
+        var9 = var2;
+        var1 = new var9[var4](var8, var7, var6);
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };

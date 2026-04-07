@@ -158,6 +158,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['NEW_MESSAGE_BAR_ID'] = var8;
     var8 = 'SPOILER_';
     var3['SPOILER_ATTACHMENT_PREFIX'] = var8;
+    var8 = 10070709;
+    var3['DEFAULT_GUILD_OFFICIAL_COLOR'] = var8;
     var3['FileUploadErrorTypes'] = var7;
     var3['MessageTagTypes'] = var6;
     var6 = 209715200;

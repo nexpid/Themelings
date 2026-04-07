@@ -1,4 +1,4 @@
-// app/modules/webauthn/experiments/SignalAllAcceptedCredentialsExperiment.tsx
+// app/modules/media/native/SwiftPhotoLibraryImageLoaderExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'kind': 'user', 'name': '2026-02-signal-all-accepted-credentials'};
+    var2 = {'name': '2026-04-swift-photo-library-image-loader', 'kind': 'user'};
     var8 = {};
     var9 = false;
     var8['enabled'] = var9;
@@ -31,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/webauthn/experiments/SignalAllAcceptedCredentialsExperiment.tsx';
+    var4 = 'modules/media/native/SwiftPhotoLibraryImageLoaderExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['SignalAllAcceptedCredentialsExperiment'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

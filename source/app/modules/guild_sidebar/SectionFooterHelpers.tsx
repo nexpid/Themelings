@@ -67,18 +67,18 @@ case 12:
             var3 = _closure1_slot6;
             if(!(var4 !== var3)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var3 = arg2;
-            var4 = !var3;
-            var3 = !var4;
-            if(var4) { _fun0001_ip = 15; continue _fun0001 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var10];
+            var3 = var4.bind(var9)(var3);
+            var3 = var3.SECTION_INDEX_FAVORITES;
+            var3 = var5 === var3;
+            if(var3) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var8 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var4 = var4[var10];
-            var4 = var8.bind(var9)(var4);
-            var4 = var4.SECTION_INDEX_FAVORITES;
-            var4 = var5 === var4;
-            if(var4) { _fun0001_ip = 17; continue _fun0001 }
+            var4 = arg2;
+            var8 = !var4;
+            var4 = !var8;
+            if(var8) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;

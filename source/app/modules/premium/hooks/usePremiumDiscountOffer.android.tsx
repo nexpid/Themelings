@@ -1,4 +1,4 @@
-// app/modules/premium/hooks/usePremiumDiscountOffer.native.android.tsx
+// app/modules/premium/hooks/usePremiumDiscountOffer.android.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -79,7 +79,7 @@ case 2:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/premium/hooks/usePremiumDiscountOffer.native.android.tsx';
+    var4 = 'modules/premium/hooks/usePremiumDiscountOffer.android.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function usePremiumDiscountOffer() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

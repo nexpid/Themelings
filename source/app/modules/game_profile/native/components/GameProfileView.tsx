@@ -92,6 +92,7 @@ case 0:
             var1 = arg1;
             var19 = var1.application;
             var22 = var1.supplementalGameData;
+            var16 = var1.bannerHash;
             var24 = var1.officialInvite;
             var21 = var1.viewId;
             var15 = var1.source;
@@ -174,6 +175,7 @@ case 4:
             var8 = {};
             var8['application'] = var19;
             var8['supplementalGameData'] = var22;
+            var8['bannerHash'] = var16;
             var8['scrollY'] = var10;
             var9 = var3.bind(var4)(var9, var8);
             var8 = new Array(2);

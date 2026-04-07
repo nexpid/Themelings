@@ -163,27 +163,39 @@ case 11:
     var2 = function isWishlistableCollectiblesProduct(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var3 = arg1;
-            var4 = _closure1_slot0;
+            var4 = arg1;
+            var2 = _closure1_slot0;
             var5 = _closure1_slot1;
             var1 = 3;
             var1 = var5[var1];
-            var5 = undefined;
-            var4 = var4.bind(var5)(var1);
-            var1 = var4.isPremiumCollectiblesProduct;
-            var1 = var1.bind(var4)(var3);
+            var6 = undefined;
+            var2 = var2.bind(var6)(var1);
+            var1 = var2.isPremiumCollectiblesProduct;
+            var1 = var1.bind(var2)(var4);
             var1 = !var1;
             if(!var1) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
-            var3 = var3.type;
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 1;
-            var2 = var6[var2];
-            var2 = var4.bind(var5)(var2);
+            var5 = var4.type;
+            var8 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var7 = 1;
+            var2 = var2[var7];
+            var2 = var8.bind(var6)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.EXTERNAL_SKU;
-            var1 = var3 !== var2;
+            var2 = var5 !== var2;
+            if(!var2) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
+            var4 = var4.type;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var5.bind(var6)(var3);
+            var3 = var3.CollectiblesItemType;
+            var3 = var3.PROFILE_FRAME;
+            var2 = var4 !== var3;
+case 17:
+            var1 = var2;
 case 15:
             return var1;
         }

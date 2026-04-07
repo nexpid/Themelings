@@ -93,18 +93,16 @@ case 13:
             var4 = 'stretch';
             var2['alignItems'] = var4;
             var1['contentContainer'] = var2;
+            var2 = {'flexDirection': 'column', 'alignItems': 'center'};
             var4 = 'center';
-            var2 = {'flexDirection': 'column', 'alignItems': 'center'};
-            var1['mfaContainerHeader'] = var2;
-            var2 = {'flexDirection': 'column', 'alignItems': 'center'};
             var9 = _closure1_slot1;
             var7 = _closure1_slot2;
             var7 = var7[var6];
             var7 = var9.bind(var5)(var7);
             var7 = var7.spacing;
-            var7 = var7.PX_12;
-            var2['marginTop'] = var7;
-            var1['mfaContainerHeaderContent'] = var2;
+            var7 = var7.PX_24;
+            var2['paddingBottom'] = var7;
+            var1['mfaContainerHeader'] = var2;
             var2 = {};
             var9 = 0;
             if(var8) { _fun0001_ip = 14; continue _fun0001 }
@@ -117,13 +115,6 @@ case 15:
             var9 = var10.PX_32;
 case 14:
             var2['marginHorizontal'] = var9;
-            var10 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var9 = var9[var6];
-            var9 = var10.bind(var5)(var9);
-            var9 = var9.spacing;
-            var9 = var9.PX_16;
-            var2['marginBottom'] = var9;
             var7 = 0;
             if(var8) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
@@ -136,7 +127,7 @@ case 17:
 case 16:
             var2['marginTop'] = var7;
             var2['textAlign'] = var4;
-            var1['mfaContainerFooter'] = var2;
+            var1['mfaContainerHeaderText'] = var2;
             var2 = {'flexDirection': 'column', 'alignSelf': 'stretch'};
             var1['inputContainer'] = var2;
             var2 = {'flexDirection': 'column', 'alignSelf': 'stretch'};
@@ -151,12 +142,19 @@ case 16:
             var7 = var7.colors;
             var7 = var7.BACKGROUND_SURFACE_HIGH;
             var2['backgroundColor'] = var7;
+            var7 = var3[var6];
+            var7 = var4.bind(var5)(var7);
+            var7 = var7.radii;
+            var7 = var7.md;
+            var2['borderRadius'] = var7;
+            var1['radioItem'] = var2;
+            var2 = {};
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.radii;
-            var3 = var3.md;
-            var2['borderRadius'] = var3;
-            var1['radioItem'] = var2;
+            var3 = var3.spacing;
+            var3 = var3.PX_24;
+            var2['paddingTop'] = var3;
+            var1['submit'] = var2;
             return var1;
         }
     };

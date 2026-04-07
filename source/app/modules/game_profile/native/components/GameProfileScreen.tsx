@@ -797,13 +797,20 @@ case 42:
             var8 = var8.bind(var5)(var4);
             var4 = {};
             var4['application'] = var21;
+            var22 = var19 == var20;
+            var21 = undefined;
+            if(var22) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
+            var21 = var20.supplementalData;
+case 43:
+            var4['supplementalGameData'] = var21;
             var21 = var19 == var20;
             var19 = undefined;
-            if(var21) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
-            var19 = var20.supplementalData;
-case 43:
-            var4['supplementalGameData'] = var19;
+            if(var21) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
+            var19 = var20.bannerHash;
+case 45:
+            var4['bannerHash'] = var19;
             var4['officialInvite'] = var18;
             var4['viewId'] = var17;
             var4['source'] = var16;
@@ -824,7 +831,7 @@ case 43:
             var4 = var9.bind(var5)(var8, var4);
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0002_ip = 45; continue _fun0002;
+            _fun0002_ip = 47; continue _fun0002;
 case 39:
             var4 = _closure1_slot7;
             var3 = _closure1_slot5;
@@ -837,7 +844,7 @@ case 39:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 45:
+case 47:
             return var1;
         }
     };

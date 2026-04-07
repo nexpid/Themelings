@@ -225,8 +225,10 @@ case 10:
     var8 = var5.SUPPRESS_NOTIFICATIONS;
     var9 = var9 | var8;
     var8 = var5.URGENT;
+    var9 = var9 | var8;
+    var8 = var5.IS_COMPONENTS_V2;
     var8 = var9 | var8;
-    var5 = var5.IS_COMPONENTS_V2;
+    var5 = var5.IS_GUILD_OFFICIAL;
     var5 = var8 | var5;
     var _closure1_slot10 = var5;
     var5 = 7;

@@ -1,13 +1,13 @@
 // app/modules/skus/native/SKUPreview.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
+    var7 = require;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var7;
-    var2 = function CollectiblesPreview(arg1) {
+    var _closure1_slot2 = var8;
+    var4 = function CollectiblesPreview(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -164,7 +164,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot9 = var2;
+    var _closure1_slot9 = var4;
     var1 = function CollectiblesSKUPreview(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -203,60 +203,99 @@ case 12:
         return var1;
     };
     var _closure1_slot11 = var1;
+    var2 = function PremiumSKUPreview() {
+        var1 = _closure1_slot8;
+        var4 = undefined;
+        var7 = var1.bind(var4)();
+        var6 = _closure1_slot0;
+        var8 = _closure1_slot2;
+        var1 = 13;
+        var1 = var8[var1];
+        var3 = var6.bind(var4)(var1);
+        var2 = var3.useToken;
+        var9 = _closure1_slot1;
+        var1 = 14;
+        var1 = var8[var1];
+        var1 = var9.bind(var4)(var1);
+        var1 = var1.colors;
+        var1 = var1.TEXT_DEFAULT;
+        var9 = var2.bind(var3)(var1);
+        var3 = _closure1_slot7;
+        var2 = _closure1_slot4;
+        var1 = {};
+        var7 = var7.premiumRiveContainer;
+        var1['style'] = var7;
+        var7 = _closure1_slot7;
+        var5 = 15;
+        var5 = var8[var5];
+        var5 = var6.bind(var4)(var5);
+        var6 = var5.ThemeAwareNitroWishlistingWumpusRive;
+        var5 = {};
+        var8 = {};
+        var8['logoColor'] = var9;
+        var5['dataBinding'] = var8;
+        var5 = var7.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot12 = var2;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var5 = {};
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
     var1 = true;
-    var5['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = var9.bind(var10)(var3, var1, var6);
     var1 = 0;
-    var8 = var7[var1];
-    var5 = metroImportAll;
+    var9 = var8[var1];
+    var6 = metroImportAll;
     var1 = undefined;
-    var5 = var5.bind(var1)(var8);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.View;
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.transformSKUToCollectiblesItem;
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.SKUProductLines;
-    var _closure1_slot6 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.jsx;
-    var _closure1_slot7 = var5;
-    var5 = 5;
-    var5 = var7[var5];
-    var9 = var6.bind(var1)(var5);
-    var8 = var9.createStyles;
-    var5 = {};
-    var10 = {'width': '100%', 'height': '100%', 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'};
-    var5['container'] = var10;
-    var10 = {};
-    var11 = 20;
-    var10['paddingTop'] = var11;
-    var5['bundleContainer'] = var10;
-    var5 = var8.bind(var9)(var5);
-    var _closure1_slot8 = var5;
-    var5 = 14;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/skus/native/SKUPreview.tsx';
-    var5 = var6.bind(var7)(var5);
-    var4 = function SKUPreview(arg1) {
+    var6 = var6.bind(var1)(var9);
+    var _closure1_slot3 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.View;
+    var _closure1_slot4 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.transformSKUToCollectiblesItem;
+    var _closure1_slot5 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.SKUProductLines;
+    var _closure1_slot6 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.jsx;
+    var _closure1_slot7 = var6;
+    var6 = 5;
+    var6 = var8[var6];
+    var10 = var7.bind(var1)(var6);
+    var9 = var10.createStyles;
+    var6 = {};
+    var11 = {'width': '100%', 'height': '100%', 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'};
+    var6['container'] = var11;
+    var11 = {};
+    var12 = 20;
+    var11['paddingTop'] = var12;
+    var6['bundleContainer'] = var11;
+    var11 = {'width': 170, 'height': 170};
+    var6['premiumRiveContainer'] = var11;
+    var6 = var9.bind(var10)(var6);
+    var _closure1_slot8 = var6;
+    var6 = 17;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/skus/native/SKUPreview.tsx';
+    var6 = var7.bind(var8)(var6);
+    var5 = function SKUPreview(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
@@ -271,28 +310,28 @@ case 15:
             if(!(var3 !== var4)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
             var3 = _closure1_slot6;
-            var3 = var3.APPLICATION;
+            var3 = var3.PREMIUM;
             if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
             var3 = _closure1_slot6;
-            var3 = var3.BOOST;
-            if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
-case 20:
+            var3 = var3.APPLICATION;
+            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
+case 12:
             var3 = _closure1_slot6;
-            var3 = var3.GUILD_ROLE;
-            if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+            var3 = var3.BOOST;
+            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
             var3 = _closure1_slot6;
-            var3 = var3.PREMIUM;
-            if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+            var3 = var3.GUILD_ROLE;
+            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
 case 22:
             var3 = _closure1_slot6;
             var3 = var3.GUILD_PRODUCT;
-            if(!(var3 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+            if(!(var3 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
 case 23:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 13;
+            var3 = 16;
             var4 = var4[var3];
             var3 = undefined;
             var6 = var5.bind(var3)(var4);
@@ -300,8 +339,15 @@ case 23:
             var4 = var1.productLine;
             var4 = var5.bind(var6)(var4);
             return var3;
-case 18:
+case 20:
             var3 = null;
+            return var3;
+case 18:
+            var6 = _closure1_slot7;
+            var5 = _closure1_slot12;
+            var4 = undefined;
+            var3 = {};
+            var3 = var6.bind(var4)(var5, var3);
             return var3;
 case 16:
             var6 = _closure1_slot7;
@@ -320,7 +366,8 @@ case 14:
             return var1;
         }
     };
-    var3['default'] = var4;
-    var3['CollectiblesPreview'] = var2;
+    var3['default'] = var5;
+    var3['CollectiblesPreview'] = var4;
+    var3['PremiumSKUPreview'] = var2;
     return var1;
 })();

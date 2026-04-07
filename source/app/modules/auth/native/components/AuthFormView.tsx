@@ -65,22 +65,29 @@ case 3:
             var6 = 60;
 case 2:
             var2['paddingTop'] = var6;
-            var6 = 16;
-            var7 = var6;
+            var7 = 16;
+            var6 = var7;
             if(!var5) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = 24;
+            var6 = 24;
 case 4:
-            var2['paddingRight'] = var7;
+            var2['paddingRight'] = var6;
+            var6 = var7;
             if(!var5) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var6 = 24;
 case 6:
             var2['paddingLeft'] = var6;
+            var6 = 0;
             if(!var5) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var3 = 0;
+            var6 = var7;
 case 8:
+            var2['paddingBottom'] = var6;
+            if(!var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var3 = 0;
+case 10:
             var2['flex'] = var3;
             var1['content'] = var2;
             var2 = {'marginTop': 8, 'alignItems': 'center'};
@@ -116,8 +123,8 @@ case 0:
             var2 = _closure1_slot6;
             var13 = var2.bind(var5)(var1);
             var4 = _closure1_slot5;
-            if(var1) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = _closure1_slot2;
             var1 = {};
             var6 = var13.container;
@@ -162,8 +169,8 @@ case 11:
             var14 = null;
             var11 = var14 != var15;
             var16 = null;
-            if(!var11) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(!var11) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var18 = _closure1_slot4;
             var17 = _closure1_slot0;
             var19 = _closure1_slot1;
@@ -173,13 +180,13 @@ case 13:
             var11 = {};
             var11['children'] = var15;
             var16 = var18.bind(var5)(var17, var11);
-case 12:
+case 14:
             var11 = new Array(3);
             var11[0] = var16;
             var16 = var14 != var12;
             var14 = null;
-            if(!var16) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(!var16) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var18 = _closure1_slot4;
             var17 = _closure1_slot2;
             var16 = {};
@@ -187,7 +194,7 @@ case 15:
             var16['style'] = var19;
             var16['children'] = var12;
             var14 = var18.bind(var5)(var17, var16);
-case 14:
+case 16:
             var11[1] = var14;
             var11[2] = var7;
             var6['children'] = var11;
@@ -195,8 +202,8 @@ case 14:
             var3[2] = var6;
             var1['children'] = var3;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0002_ip = 16; continue _fun0002;
-case 10:
+            _fun0002_ip = 18; continue _fun0002;
+case 12:
             var3 = _closure1_slot3;
             var2 = {'contentInset': null, 'automaticallyAdjustContentInsets': false, 'keyboardShouldPersistTaps': 'handled', 'alwaysBounceVertical': false};
             var6 = {};
@@ -211,8 +218,8 @@ case 10:
             var8 = null;
             var6 = var8 != var15;
             var10 = null;
-            if(!var6) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(!var6) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var14 = _closure1_slot4;
             var11 = _closure1_slot0;
             var16 = _closure1_slot1;
@@ -222,13 +229,13 @@ case 18:
             var6 = {};
             var6['children'] = var15;
             var10 = var14.bind(var5)(var11, var6);
-case 17:
+case 19:
             var6 = new Array(3);
             var6[0] = var10;
             var10 = var8 != var12;
             var8 = null;
-            if(!var10) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+            if(!var10) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var11 = _closure1_slot4;
             var10 = _closure1_slot2;
             var9 = {};
@@ -236,12 +243,12 @@ case 20:
             var9['style'] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var5)(var10, var9);
-case 19:
+case 21:
             var6[1] = var8;
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 16:
+case 18:
             return var1;
         }
     };

@@ -114,6 +114,10 @@ case 0:
         var22['QUEST_ACTIVITY_HEADER'] = var1;
         var1 = 'quest_activity_unenrolled_modal';
         var22['QUEST_ACTIVITY_UNENROLLED_MODAL'] = var1;
+        var1 = 'nitro_home_marketing';
+        var22['NITRO_HOME_MARKETING'] = var1;
+        var1 = 'nitro_home_tab';
+        var22['NITRO_HOME_TAB'] = var1;
         var1 = 0;
         var4 = var24[var1];
         var2 = metroImportDefault;

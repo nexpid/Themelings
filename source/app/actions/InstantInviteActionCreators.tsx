@@ -2780,9 +2780,12 @@ case 0:
             var7 = arg2;
             var6 = var1.invite;
             var8 = var1.action;
-            var11 = var1.inviter_id;
-            var10 = var1.invite_message_id;
-            var9 = var1.invite_instance_id;
+            var14 = var1.inviter_id;
+            var13 = var1.invite_message_id;
+            var12 = var1.invite_instance_id;
+            var11 = var1.application_id;
+            var10 = var1.stream_key;
+            var9 = var1.number_of_users_in_channel;
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
             var1 = 41;
@@ -2796,43 +2799,64 @@ case 0:
             var2['action'] = var8;
             var8 = var6.code;
             var2['invite_code'] = var8;
-            var13 = var6.type;
+            var16 = var6.type;
             var6 = null;
-            var12 = var6 == var13;
+            var15 = var6 == var16;
             var8 = undefined;
-            if(var12) { _fun0031_ip = 244; continue _fun0031 }
-case 245:
-            var12 = var13.toString;
-            var8 = var12.bind(var13)();
+            if(var15) { _fun0031_ip = 34; continue _fun0031 }
 case 244:
+            var15 = var16.toString;
+            var8 = var15.bind(var16)();
+case 34:
             var2['invite_type'] = var8;
+            var15 = var6 != var14;
+            var8 = null;
+            if(!var15) { _fun0031_ip = 245; continue _fun0031 }
+case 197:
+            var8 = var14;
+case 245:
+            var2['inviter_id'] = var8;
+            var14 = var6 != var13;
+            var8 = null;
+            if(!var14) { _fun0031_ip = 246; continue _fun0031 }
+case 247:
+            var8 = var13;
+case 246:
+            var2['invite_message_id'] = var8;
+            var13 = var6 != var12;
+            var8 = null;
+            if(!var13) { _fun0031_ip = 187; continue _fun0031 }
+case 248:
+            var8 = var12;
+case 187:
+            var2['invite_instance_id'] = var8;
             var12 = var6 != var11;
             var8 = null;
-            if(!var12) { _fun0031_ip = 120; continue _fun0031 }
-case 115:
+            if(!var12) { _fun0031_ip = 249; continue _fun0031 }
+case 15:
             var8 = var11;
-case 120:
-            var2['inviter_id'] = var8;
+case 249:
+            var2['application_id'] = var8;
             var11 = var6 != var10;
             var8 = null;
-            if(!var11) { _fun0031_ip = 226; continue _fun0031 }
-case 183:
+            if(!var11) { _fun0031_ip = 250; continue _fun0031 }
+case 251:
             var8 = var10;
-case 226:
-            var2['invite_message_id'] = var8;
+case 250:
+            var2['stream_key'] = var8;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0031_ip = 246; continue _fun0031 }
-case 148:
+            if(!var10) { _fun0031_ip = 153; continue _fun0031 }
+case 150:
             var8 = var9;
-case 246:
-            var2['invite_instance_id'] = var8;
+case 153:
+            var2['number_of_users_in_channel'] = var8;
             var8 = var6 != var7;
             var6 = null;
-            if(!var8) { _fun0031_ip = 12; continue _fun0031 }
-case 247:
+            if(!var8) { _fun0031_ip = 252; continue _fun0031 }
+case 253:
             var6 = var7;
-case 12:
+case 252:
             var2['location_stack'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;

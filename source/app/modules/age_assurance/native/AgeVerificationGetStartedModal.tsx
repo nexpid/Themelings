@@ -1,12 +1,12 @@
 // app/modules/age_assurance/native/AgeVerificationGetStartedModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
+    var6 = require;
     var11 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
     var _closure1_slot1 = var11;
-    var _closure1_slot2 = var6;
+    var _closure1_slot2 = var7;
     var1 = function getInitialRouteName(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -32,59 +32,61 @@ case 7:
     var _closure1_slot8 = var1;
     var1 = global;
     var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
+    var5 = var8.defineProperty;
+    var2 = {};
     var1 = true;
-    var4['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var5.bind(var8)(var3, var1, var2);
     var1 = 0;
-    var4 = var6[var1];
+    var2 = var7[var1];
     var1 = undefined;
-    var4 = var11.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var7 = var6[var4];
-    var4 = metroImportAll;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
-    var4 = {};
+    var2 = var11.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var5 = var7[var2];
+    var2 = metroImportAll;
+    var2 = var2.bind(var1)(var5);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var7[var2];
+    var8 = var6.bind(var1)(var2);
+    var5 = var8.createStyles;
+    var2 = {};
     var9 = {};
     var10 = 4;
-    var10 = var6[var10];
+    var10 = var7[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
     var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var10 = 'transparent';
     var9['shadowColor'] = var10;
-    var4['headerStyle'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
-    var4 = {};
-    var7 = 'INTRO';
-    var4['INTRO'] = var7;
-    var7 = 'RETRY';
-    var4['RETRY'] = var7;
-    var7 = 'EXPRESSIVE_INTRO';
-    var4['EXPRESSIVE_INTRO'] = var7;
-    var _closure1_slot7 = var4;
-    var4 = 17;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/age_assurance/native/AgeVerificationGetStartedModal.tsx';
-    var4 = var5.bind(var6)(var4);
-    var2 = function AgeVerificationGetStartedModal(arg1) {
+    var2['headerStyle'] = var9;
+    var2 = var5.bind(var8)(var2);
+    var _closure1_slot6 = var2;
+    var2 = {};
+    var5 = 'INTRO';
+    var2['INTRO'] = var5;
+    var5 = 'RETRY';
+    var2['RETRY'] = var5;
+    var5 = 'EXPRESSIVE_INTRO';
+    var2['EXPRESSIVE_INTRO'] = var5;
+    var5 = 'GOOGLE_WALLET_VERIFICATION';
+    var2['GOOGLE_WALLET_VERIFICATION'] = var5;
+    var _closure1_slot7 = var2;
+    var5 = 18;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/age_assurance/native/AgeVerificationGetStartedModal.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function AgeVerificationGetStartedModal(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -115,7 +117,7 @@ case 8:
             var8 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 11;
+                var1 = 12;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -128,11 +130,11 @@ case 8:
             _closure2_slot6 = var14;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var3 = var9[var3];
             var17 = var8.bind(var4)(var3);
             var15 = var17.useSelectedDismissibleContent;
-            var3 = 13;
+            var3 = 14;
             var3 = var9[var3];
             var3 = var8.bind(var4)(var3);
             var3 = var3.DismissibleContent;
@@ -165,7 +167,7 @@ case 8:
                 var10 = _closure2_slot3;
                 var9 = _closure2_slot4;
                 var2 = function getScreens(arg1, arg2, arg3, arg4, arg5, arg6) {
-                    var10 = arg1;
+                    var9 = arg1;
                     var1 = arg2;
                     var _closure4_slot0 = var1;
                     var1 = arg3;
@@ -176,7 +178,7 @@ case 8:
                     var _closure4_slot3 = var1;
                     var1 = arg6;
                     var _closure4_slot4 = var1;
-                    var7 = function closeModal() {
+                    var13 = function closeModal() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 5;
@@ -187,7 +189,7 @@ case 8:
                         var1 = var1.bind(var2)();
                         return var1;
                     };
-                    var _closure4_slot5 = var7;
+                    var _closure4_slot5 = var13;
                     var1 = function closeModalWithOnComplete() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -207,23 +209,23 @@ case 10:
                     var _closure4_slot6 = var1;
                     var1 = {};
                     var3 = _closure1_slot7;
-                    var11 = var3.INTRO;
+                    var10 = var3.INTRO;
                     var3 = {};
-                    var5 = var10.headerStyle;
+                    var5 = var9.headerStyle;
                     var3['headerStyle'] = var5;
                     var5 = function headerTitle() {
                         var1 = null;
                         return var1;
                     };
                     var3['headerTitle'] = var5;
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
                     var5 = 6;
-                    var12 = var9[var5];
+                    var11 = var8[var5];
                     var6 = undefined;
-                    var14 = var8.bind(var6)(var12);
-                    var13 = var14.getHeaderCloseButton;
-                    var12 = function() {
+                    var14 = var7.bind(var6)(var11);
+                    var12 = var14.getHeaderCloseButton;
+                    var11 = function() {
                         var2 = _closure4_slot5;
                         var1 = undefined;
                         var2 = var2.bind(var1)();
@@ -241,9 +243,9 @@ case 10:
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var12 = var13.bind(var14)(var12);
-                    var3['headerLeft'] = var12;
-                    var12 = function render() {
+                    var11 = var12.bind(var14)(var11);
+                    var3['headerLeft'] = var11;
+                    var11 = function render() {
                         var4 = _closure1_slot5;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -261,24 +263,24 @@ case 10:
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
-                    var3['render'] = var12;
-                    var1[10] = var3;
+                    var3['render'] = var11;
+                    var1[9] = var3;
                     var3 = _closure1_slot7;
-                    var11 = var3.RETRY;
+                    var10 = var3.RETRY;
                     var3 = {};
-                    var12 = var10.headerStyle;
-                    var3['headerStyle'] = var12;
-                    var12 = function headerTitle() {
+                    var11 = var9.headerStyle;
+                    var3['headerStyle'] = var11;
+                    var11 = function headerTitle() {
                         var1 = null;
                         return var1;
                     };
-                    var3['headerTitle'] = var12;
-                    var12 = var9[var5];
-                    var13 = var8.bind(var6)(var12);
-                    var12 = var13.getHeaderCloseButton;
-                    var12 = var12.bind(var13)(var7);
-                    var3['headerLeft'] = var12;
-                    var12 = function render() {
+                    var3['headerTitle'] = var11;
+                    var11 = var8[var5];
+                    var12 = var7.bind(var6)(var11);
+                    var11 = var12.getHeaderCloseButton;
+                    var11 = var11.bind(var12)(var13);
+                    var3['headerLeft'] = var11;
+                    var11 = function render() {
                         var4 = _closure1_slot5;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -294,24 +296,24 @@ case 10:
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
-                    var3['render'] = var12;
-                    var1[10] = var3;
-                    var2 = _closure1_slot7;
-                    var3 = var2.EXPRESSIVE_INTRO;
-                    var2 = {};
-                    var10 = var10.headerStyle;
-                    var2['headerStyle'] = var10;
-                    var10 = function headerTitle() {
+                    var3['render'] = var11;
+                    var1[9] = var3;
+                    var3 = _closure1_slot7;
+                    var10 = var3.EXPRESSIVE_INTRO;
+                    var3 = {};
+                    var11 = var9.headerStyle;
+                    var3['headerStyle'] = var11;
+                    var11 = function headerTitle() {
                         var1 = null;
                         return var1;
                     };
-                    var2['headerTitle'] = var10;
-                    var5 = var9[var5];
-                    var6 = var8.bind(var6)(var5);
-                    var5 = var6.getHeaderCloseButton;
-                    var5 = var5.bind(var6)(var7);
-                    var2['headerLeft'] = var5;
-                    var4 = function render() {
+                    var3['headerTitle'] = var11;
+                    var11 = var8[var5];
+                    var12 = var7.bind(var6)(var11);
+                    var11 = var12.getHeaderCloseButton;
+                    var11 = var11.bind(var12)(var13);
+                    var3['headerLeft'] = var11;
+                    var11 = function render(arg1, arg2) {
                         var4 = _closure1_slot5;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -328,6 +330,41 @@ case 10:
                         var1['classificationId'] = var6;
                         var5 = _closure4_slot2;
                         var1['entryPoint'] = var5;
+                        var5 = arg2;
+                        var1['navigation'] = var5;
+                        var1 = var4.bind(var3)(var2, var1);
+                        return var1;
+                    };
+                    var3['render'] = var11;
+                    var1[9] = var3;
+                    var2 = _closure1_slot7;
+                    var3 = var2.GOOGLE_WALLET_VERIFICATION;
+                    var2 = {};
+                    var9 = var9.headerStyle;
+                    var2['headerStyle'] = var9;
+                    var9 = function headerTitle() {
+                        var1 = null;
+                        return var1;
+                    };
+                    var2['headerTitle'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.getHeaderBackButton;
+                    var5 = var5.bind(var6)();
+                    var2['headerLeft'] = var5;
+                    var4 = function render() {
+                        var4 = _closure1_slot5;
+                        var2 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var1 = 11;
+                        var1 = var3[var1];
+                        var3 = undefined;
+                        var2 = var2.bind(var3)(var1);
+                        var1 = {};
+                        var6 = _closure4_slot6;
+                        var1['onClose'] = var6;
+                        var5 = _closure4_slot0;
+                        var1['modalSessionId'] = var5;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
@@ -353,7 +390,7 @@ case 3:
                     var1 = _closure2_slot1;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 14;
+                    var3 = 15;
                     var4 = var4[var3];
                     var3 = undefined;
                     var3 = var5.bind(var3)(var4);
@@ -369,7 +406,7 @@ case 15:
 case 12:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 15;
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
@@ -389,7 +426,7 @@ case 16:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -402,7 +439,7 @@ case 16:
             };
             var1 = var3.bind(var11)(var1, var2);
             var3 = _closure1_slot5;
-            var1 = 15;
+            var1 = 16;
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var2 = var1.Navigator;
@@ -411,7 +448,7 @@ case 16:
             var5 = _closure1_slot8;
             var5 = var5.bind(var4)(var7, var6);
             var1['initialRouteName'] = var5;
-            var5 = 16;
+            var5 = 17;
             var6 = var9[var5];
             var6 = var8.bind(var4)(var6);
             var7 = var6.intl;
@@ -426,6 +463,7 @@ case 16:
             return var1;
         }
     };
-    var3['default'] = var2;
+    var3['default'] = var4;
+    var3['AgeVerificationGetStartedModalScenes'] = var2;
     return var1;
 })();
