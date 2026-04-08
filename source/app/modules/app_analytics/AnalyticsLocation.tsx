@@ -240,6 +240,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_BOOSTING_PREMIUM_UPSELL'] = var1;
     var1 = 'guild boosting first time booster upsell';
     var2['GUILD_BOOSTING_FIRST_TIME_BOOSTER_UPSELL'] = var1;
+    var1 = 'guild boosting announcement message';
+    var2['GUILD_BOOSTING_ANNOUNCEMENT_MESSAGE'] = var1;
+    var1 = 'guild boosting announcement message first time booster';
+    var2['GUILD_BOOSTING_ANNOUNCEMENT_MESSAGE_FIRST_TIME_BOOSTER'] = var1;
     var1 = 'rpc';
     var2['RPC'] = var1;
     var1 = 'billing standalone';
@@ -876,6 +880,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SEASONAL_GIFTING_REMINDER_NAGBAR'] = var1;
     var1 = 'gifting promotion coachmark';
     var2['GIFTING_PROMOTION_COACHMARK'] = var1;
+    var1 = 'third party promotions modal';
+    var2['THIRD_PARTY_PROMOTIONS_MODAL'] = var1;
+    var1 = 'recurring 3pp modal';
+    var2['RECURRING_3PP_MODAL'] = var1;
     var1 = 'go live modal v2';
     var2['GO_LIVE_MODAL_V2'] = var1;
     var1 = 'go live modal settings selection';

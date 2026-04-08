@@ -1591,6 +1591,8 @@ case 109:
     var9['MESSAGE_SHORTCUT'] = var10;
     var10 = 'Double Tap';
     var9['DOUBLE_TAP'] = var10;
+    var10 = 'In App Notification';
+    var9['IN_APP_NOTIFICATION'] = var10;
     var _closure1_slot11 = var9;
     var10 = 18;
     var10 = var12[var10];

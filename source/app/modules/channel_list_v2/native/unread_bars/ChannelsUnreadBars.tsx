@@ -1269,7 +1269,7 @@ case 129:
             var19 = var12 == var18;
             var17 = undefined;
             if(var19) { _fun0007_ip = 131; continue _fun0007 }
-case 132:
+case 90:
             var17 = var18.isMention;
 case 131:
             var5['isMention'] = var17;
@@ -1294,10 +1294,10 @@ case 131:
             var6['onPress'] = var14;
             var14 = var12 == var13;
             var12 = undefined;
-            if(var14) { _fun0007_ip = 133; continue _fun0007 }
-case 134:
-            var12 = var13.isMention;
+            if(var14) { _fun0007_ip = 132; continue _fun0007 }
 case 133:
+            var12 = var13.isMention;
+case 132:
             var6['isMention'] = var12;
             var11 = var11.scrollPosValue;
             var6['scrollPosition'] = var11;

@@ -304,16 +304,16 @@ case 44:
 case 43:
             var3 = var2.pendingNameplate;
             if(!(var4 !== var3)) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
+case 19:
             var3 = var2.pendingNameplate;
             var1['nameplate'] = var3;
 case 45:
             var3 = var2.pendingDisplayNameStyles;
-            if(!(var4 !== var3)) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
+            if(!(var4 !== var3)) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
             var2 = var2.pendingDisplayNameStyles;
             var1['displayNameStyles'] = var2;
-case 47:
+case 46:
             return var1;
         }
     };

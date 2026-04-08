@@ -173,6 +173,8 @@ case 2:
             return var1;
         };
         var2['BILLING_PROMOTION_DIRECT_FULFILLMENT_REDEMPTION'] = var16;
+        var16 = '/redeem';
+        var2['GIFT_CARD_REDEEM'] = var16;
         var16 = '/channels/@me';
         var2['FRIENDS'] = var16;
         var2['ME'] = var16;

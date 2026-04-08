@@ -1,290 +1,305 @@
 // app/modules/in_app_notifications/native/Notification.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var11 = metroImportDefault;
+    var6 = require;
+    var12 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
-    var _closure1_slot2 = var6;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var7;
     var1 = function Progress(arg1) {
-        var2 = arg1;
-        var12 = var2.percent;
-        var _closure2_slot0 = var12;
-        var4 = _closure1_slot4;
-        var3 = var4.useState;
-        var2 = 0;
-        var7 = var3.bind(var4)(var2);
-        var5 = _closure1_slot3;
-        var4 = undefined;
-        var3 = 2;
-        var3 = var5.bind(var4)(var7, var3);
-        var11 = var3[var2];
-        var _closure2_slot1 = var11;
-        var2 = 1;
-        var2 = var3[var2];
-        var _closure2_slot2 = var2;
-        var2 = _closure1_slot9;
-        var9 = var2.bind(var4)();
-        var7 = _closure1_slot4;
-        var5 = var7.useCallback;
-        var3 = function(arg1) {
-            var1 = arg1;
-            var1 = var1.nativeEvent;
-            var1 = var1.layout;
-            var3 = var1.width;
-            var2 = _closure2_slot2;
-            var1 = undefined;
-            var1 = var2.bind(var1)(var3);
-            return var1;
-        };
-        var2 = new Array(0);
-        var7 = var5.bind(var7)(var3, var2);
-        var3 = _closure1_slot0;
-        var8 = _closure1_slot2;
-        var5 = 8;
-        var2 = var8[var5];
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.useAnimatedStyle;
-        var1 = function c() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var1 = _closure2_slot0;
-                var2 = 'number';
-                var1 = typeof var1;
-                if(!(var2 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var2 = _closure2_slot0;
-                var1 = var2.get;
-                var2 = var1.bind(var2)();
-                _fun0001_ip = 4; continue _fun0001;
-case 2:
-                var2 = _closure2_slot0;
-case 4:
-                var1 = 100;
-                var2 = var2 / var1;
-                var1 = {};
-                var3 = {};
-                var4 = _closure2_slot1;
-                var2 = var4 * var2;
-                var2 = var2 - var4;
-                var3['translateX'] = var2;
-                var2 = new Array(1);
-                var2[0] = var3;
-                var1['transform'] = var2;
+            var2 = arg1;
+            var14 = var2.percent;
+            var _closure2_slot0 = var14;
+            var13 = var2.hideProgress;
+            var3 = _closure1_slot4;
+            var2 = var3.useState;
+            var12 = 0;
+            var6 = var2.bind(var3)(var12);
+            var3 = _closure1_slot3;
+            var4 = undefined;
+            var2 = 2;
+            var2 = var3.bind(var4)(var6, var2);
+            var10 = var2[var12];
+            var _closure2_slot1 = var10;
+            var11 = 1;
+            var2 = var2[var11];
+            var _closure2_slot2 = var2;
+            var2 = _closure1_slot9;
+            var9 = var2.bind(var4)();
+            var7 = _closure1_slot4;
+            var6 = var7.useCallback;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.nativeEvent;
+                var1 = var1.layout;
+                var3 = var1.width;
+                var2 = _closure2_slot2;
+                var1 = undefined;
+                var1 = var2.bind(var1)(var3);
                 return var1;
-            }
-        };
-        var10 = {};
-        var10['percent'] = var12;
-        var10['width'] = var11;
-        var1['__closure'] = var10;
-        var10 = 7737176392305.0;
-        var1['__workletHash'] = var10;
-        var10 = _closure1_slot10;
-        var1['__initData'] = var10;
-        var10 = var2.bind(var3)(var1);
-        var3 = _closure1_slot6;
-        var2 = _closure1_slot5;
-        var1 = {};
-        var1['onLayout'] = var7;
-        var7 = var9.progressContainer;
-        var1['style'] = var7;
-        var7 = _closure1_slot6;
-        var6 = _closure1_slot1;
-        var5 = var8[var5];
-        var5 = var6.bind(var4)(var5);
-        var6 = var5.View;
-        var5 = {};
-        var8 = new Array(2);
-        var8[0] = var10;
-        var9 = var9.progress;
-        var8[1] = var9;
-        var5['style'] = var8;
-        var5 = var7.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+            };
+            var2 = new Array(0);
+            var6 = var6.bind(var7)(var3, var2);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var8 = 8;
+            var2 = var2[var8];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useAnimatedStyle;
+            var1 = function h() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = _closure2_slot0;
+                    var2 = 'number';
+                    var1 = typeof var1;
+                    if(!(var2 !== var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var2 = _closure2_slot0;
+                    var1 = var2.get;
+                    var2 = var1.bind(var2)();
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
+                    var2 = _closure2_slot0;
+case 4:
+                    var1 = 100;
+                    var2 = var2 / var1;
+                    var1 = {};
+                    var3 = {};
+                    var4 = _closure2_slot1;
+                    var2 = var4 * var2;
+                    var2 = var2 - var4;
+                    var3['translateX'] = var2;
+                    var2 = new Array(1);
+                    var2[0] = var3;
+                    var1['transform'] = var2;
+                    return var1;
+                }
+            };
+            var7 = {};
+            var7['percent'] = var14;
+            var7['width'] = var10;
+            var1['__closure'] = var7;
+            var7 = 7737176392305.0;
+            var1['__workletHash'] = var7;
+            var7 = _closure1_slot10;
+            var1['__initData'] = var7;
+            var10 = var2.bind(var3)(var1);
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var1['onLayout'] = var6;
+            var7 = var9.progressContainer;
+            var6 = new Array(2);
+            var6[0] = var7;
+            var7 = {};
+            if(!var13) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            var11 = 0;
+case 5:
+            var7['opacity'] = var11;
+            var6[1] = var7;
+            var1['style'] = var6;
+            var7 = _closure1_slot6;
+            var6 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var5 = var5[var8];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.View;
+            var5 = {};
+            var8 = new Array(2);
+            var8[0] = var10;
+            var9 = var9.progress;
+            var8[1] = var9;
+            var5['style'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var5 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var5.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var4 = var7[var1];
     var1 = undefined;
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var13 = 1;
-    var7 = var6[var13];
+    var14 = 1;
+    var5 = var7[var14];
     var4 = metroImportAll;
-    var4 = var4.bind(var1)(var7);
+    var4 = var4.bind(var1)(var5);
     var _closure1_slot4 = var4;
     var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot5 = var4;
     var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot6 = var7;
-    var7 = var4.jsxs;
-    var _closure1_slot7 = var7;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.jsx;
+    var _closure1_slot6 = var5;
+    var5 = var4.jsxs;
+    var _closure1_slot7 = var5;
     var4 = var4.Fragment;
     var _closure1_slot8 = var4;
-    var12 = 4;
-    var4 = var6[var12];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
-    var4 = {};
-    var9 = {};
-    var10 = 5;
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.shadows;
-    var17 = var14.SHADOW_HIGH;
-    var18 = var9;
-    var14 = copyDataProperties(var18, var17);
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.colors;
-    var15 = var14.MOBILE_ALERT_BACKGROUND_DEFAULT;
-    var14 = 'backgroundColor';
-    var9[13] = var15;
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.radii;
-    var15 = var14.lg;
-    var14 = 'borderRadius';
-    var9[13] = var15;
-    var15 = 480;
-    var14 = 'maxWidth';
-    var9[13] = var15;
-    var15 = '100%';
-    var14 = 'width';
-    var9[13] = var15;
-    var14 = 'center';
-    var15 = 'alignSelf';
-    var9[14] = var14;
-    var4['shadow'] = var9;
-    var9 = {};
-    var15 = var6[var10];
-    var15 = var11.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.lg;
-    var9['borderRadius'] = var15;
-    var9['borderWidth'] = var13;
-    var15 = var6[var10];
-    var15 = var11.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BORDER_SUBTLE;
-    var9['borderColor'] = var15;
-    var15 = 'hidden';
-    var9['overflow'] = var15;
-    var4['container'] = var9;
-    var9 = {};
-    var9['flex'] = var13;
-    var4['body'] = var9;
-    var9 = {};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_12;
-    var9['marginRight'] = var13;
-    var4['iconContainer'] = var9;
-    var9 = {};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.unsafe_rawColors;
-    var13 = var13.YELLOW_300;
-    var9['backgroundColor'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_16;
-    var9['paddingHorizontal'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_8;
-    var9['paddingVertical'] = var13;
-    var13 = 'row';
-    var9['flexDirection'] = var13;
-    var9['alignItems'] = var14;
-    var4['alertContainer'] = var9;
-    var9 = {};
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
+    var13 = 4;
+    var4 = var7[var13];
+    var9 = var6.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var5 = {};
+    var10 = {};
+    var11 = 5;
+    var4 = var7[var11];
+    var4 = var12.bind(var1)(var4);
+    var4 = var4.shadows;
+    var18 = var4.SHADOW_HIGH;
+    var19 = var10;
+    var4 = copyDataProperties(var19, var18);
+    var4 = var7[var11];
+    var4 = var12.bind(var1)(var4);
+    var4 = var4.colors;
+    var15 = var4.MOBILE_ALERT_BACKGROUND_DEFAULT;
+    var4 = 'backgroundColor';
+    var10[3] = var15;
+    var4 = var7[var11];
+    var4 = var12.bind(var1)(var4);
+    var4 = var4.radii;
+    var15 = var4.lg;
+    var4 = 'borderRadius';
+    var10[3] = var15;
+    var4 = 480;
+    var15 = 'maxWidth';
+    var10[14] = var4;
+    var16 = '100%';
+    var15 = 'width';
+    var10[14] = var16;
+    var15 = 'center';
+    var16 = 'alignSelf';
+    var10[15] = var15;
+    var5['shadow'] = var10;
+    var10 = {};
+    var16 = var7[var11];
+    var16 = var12.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.lg;
+    var10['borderRadius'] = var16;
+    var10['borderWidth'] = var14;
+    var16 = var7[var11];
+    var16 = var12.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.BORDER_SUBTLE;
+    var10['borderColor'] = var16;
+    var16 = 'hidden';
+    var10['overflow'] = var16;
+    var5['container'] = var10;
+    var10 = {};
+    var10['flex'] = var14;
+    var5['body'] = var10;
+    var10 = {};
+    var14 = var7[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_12;
+    var10['marginRight'] = var14;
+    var5['iconContainer'] = var10;
+    var10 = {};
+    var14 = var7[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.unsafe_rawColors;
+    var14 = var14.YELLOW_300;
+    var10['backgroundColor'] = var14;
+    var14 = var7[var11];
+    var14 = var12.bind(var1)(var14);
     var14 = var14.spacing;
     var14 = var14.PX_16;
-    var9['padding'] = var14;
-    var9['flexDirection'] = var13;
-    var4['contentContainer'] = var9;
-    var9 = {'flex': 1, 'marginBottom': 2};
-    var4['label'] = var9;
-    var9 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var4['labelContainer'] = var9;
-    var9 = {'width': 12, 'height': 12};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_4;
-    var9['marginRight'] = var13;
-    var4['warningIcon'] = var9;
-    var9 = {};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.xs;
-    var9['borderTopRightRadius'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.xs;
-    var9['borderBottomRightRadius'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BRAND;
-    var9['backgroundColor'] = var13;
-    var9['height'] = var12;
-    var4['progress'] = var9;
-    var9 = {'position': 'absolute', 'bottom': 4294967295, 'width': '100%'};
-    var4['progressContainer'] = var9;
-    var9 = {};
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_12;
-    var9['marginLeft'] = var10;
-    var4['rightAccessoryContainer'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
-    var4 = {};
-    var7 = "function NotificationTsx1(){const{percent,width}=this.__closure;const percentRemaining=(typeof percent==='number'?percent:percent.get())/100;return{transform:[{translateX:-width+width*percentRemaining}]};}";
-    var4['code'] = var7;
-    var _closure1_slot10 = var4;
-    var4 = {'mass': 1, 'overshootClamping': true, 'damping': 27, 'stiffness': 300};
-    var _closure1_slot11 = var4;
-    var4 = {};
-    var7 = 'function NotificationTsx2(){const{withSpring,scale,ON_PRESS_SPRING_CONFIG}=this.__closure;return{transform:[{scale:withSpring(scale.get(),ON_PRESS_SPRING_CONFIG)}]};}';
-    var4['code'] = var7;
-    var _closure1_slot12 = var4;
-    var4 = 11;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/in_app_notifications/native/Notification.tsx';
-    var4 = var5.bind(var6)(var4);
+    var10['paddingHorizontal'] = var14;
+    var14 = var7[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_8;
+    var10['paddingVertical'] = var14;
+    var14 = 'row';
+    var10['flexDirection'] = var14;
+    var10['alignItems'] = var15;
+    var5['alertContainer'] = var10;
+    var10 = {};
+    var15 = var7[var11];
+    var15 = var12.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_16;
+    var10['padding'] = var15;
+    var10['flexDirection'] = var14;
+    var5['contentContainer'] = var10;
+    var10 = {'flex': 1, 'marginBottom': 2};
+    var5['label'] = var10;
+    var10 = {'flexDirection': 'row', 'alignItems': 'center'};
+    var5['labelContainer'] = var10;
+    var10 = {'width': 12, 'height': 12};
+    var14 = var7[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_4;
+    var10['marginRight'] = var14;
+    var5['warningIcon'] = var10;
+    var10 = {};
+    var14 = var7[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.xs;
+    var10['borderTopRightRadius'] = var14;
+    var14 = var7[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.xs;
+    var10['borderBottomRightRadius'] = var14;
+    var14 = var7[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_BRAND;
+    var10['backgroundColor'] = var14;
+    var10['height'] = var13;
+    var5['progress'] = var10;
+    var10 = {'position': 'absolute', 'bottom': 4294967295, 'width': '100%'};
+    var5['progressContainer'] = var10;
+    var10 = {};
+    var11 = var7[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_12;
+    var10['marginLeft'] = var11;
+    var5['rightAccessoryContainer'] = var10;
+    var5 = var8.bind(var9)(var5);
+    var _closure1_slot9 = var5;
+    var5 = {};
+    var8 = "function NotificationTsx1(){const{percent,width}=this.__closure;const percentRemaining=(typeof percent==='number'?percent:percent.get())/100;return{transform:[{translateX:-width+width*percentRemaining}]};}";
+    var5['code'] = var8;
+    var _closure1_slot10 = var5;
+    var5 = {'mass': 1, 'overshootClamping': true, 'damping': 27, 'stiffness': 300};
+    var _closure1_slot11 = var5;
+    var5 = {};
+    var8 = 'function NotificationTsx2(){const{withSpring,scale,ON_PRESS_SPRING_CONFIG}=this.__closure;return{transform:[{scale:withSpring(scale.get(),ON_PRESS_SPRING_CONFIG)}]};}';
+    var5['code'] = var8;
+    var _closure1_slot12 = var5;
+    var5 = 11;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/in_app_notifications/native/Notification.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['NOTIFICATION_MAX_WIDTH'] = var4;
     var4 = function Notification(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var17 = var1.icon;
@@ -304,8 +319,8 @@ case 0:
             var10 = null;
             var5 = var10 != var21;
             var6 = null;
-            if(!var5) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+            if(!var5) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var8 = _closure1_slot7;
             var7 = _closure1_slot5;
             var5 = {};
@@ -339,7 +354,7 @@ case 6:
             var9[1] = var12;
             var5['children'] = var9;
             var6 = var8.bind(var4)(var7, var5);
-case 5:
+case 7:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot7;
@@ -349,8 +364,8 @@ case 5:
             var6['style'] = var9;
             var9 = var10 != var17;
             var12 = null;
-            if(!var9) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+            if(!var9) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var16 = _closure1_slot6;
             var13 = _closure1_slot5;
             var9 = {};
@@ -358,7 +373,7 @@ case 8:
             var9['style'] = var19;
             var9['children'] = var17;
             var12 = var16.bind(var4)(var13, var9);
-case 7:
+case 9:
             var9 = new Array(3);
             var9[0] = var12;
             var16 = _closure1_slot7;
@@ -372,10 +387,10 @@ case 7:
             var17['style'] = var21;
             var23 = var10 != var20;
             var21 = null;
-            if(!var23) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!var23) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var21 = var20;
-case 9:
+case 11:
             var20 = new Array(2);
             var20[0] = var21;
             var25 = _closure1_slot6;
@@ -398,8 +413,8 @@ case 9:
             var19 = var16.bind(var4)(var19, var17);
             var17 = new Array(2);
             var17[0] = var19;
-            if(!(var10 == var18)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+            if(!(var10 == var18)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var21 = _closure1_slot6;
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -409,15 +424,15 @@ case 12:
             var19 = {'variant': 'redesign/message-preview/medium', 'color': 'text-subtle', 'lineClamp': 2};
             var19['children'] = var22;
             var18 = var21.bind(var4)(var20, var19);
-case 11:
+case 13:
             var17[1] = var18;
             var12['children'] = var17;
             var12 = var16.bind(var4)(var13, var12);
             var9[1] = var12;
             var12 = var10 != var14;
             var10 = null;
-            if(!var12) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!var12) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var13 = _closure1_slot6;
             var12 = _closure1_slot5;
             var11 = {};
@@ -425,7 +440,7 @@ case 14:
             var11['style'] = var15;
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
-case 13:
+case 15:
             var9[2] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -437,29 +452,30 @@ case 13:
     };
     var3['Notification'] = var4;
     var2 = function NotificationPressable(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var15 = var1.onPress;
+            var16 = var1.onPress;
             var11 = var1.onLongPress;
             var9 = var1.children;
-            var13 = var1.percent;
+            var14 = var1.percent;
+            var13 = var1.hideProgress;
             var1 = _closure1_slot9;
             var4 = undefined;
             var8 = var1.bind(var4)();
             var6 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var17 = _closure1_slot2;
             var1 = 8;
-            var3 = var16[var1];
+            var3 = var17[var1];
             var7 = var6.bind(var4)(var3);
             var5 = var7.useSharedValue;
             var3 = 1;
-            var17 = var5.bind(var7)(var3);
-            var _closure2_slot0 = var17;
+            var18 = var5.bind(var7)(var3);
+            var _closure2_slot0 = var18;
             var12 = _closure1_slot4;
             var7 = var12.useCallback;
             var5 = new Array(1);
-            var5[0] = var17;
+            var5[0] = var18;
             var3 = function() {
                 var3 = _closure2_slot0;
                 var2 = var3.set;
@@ -467,11 +483,11 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var14 = var7.bind(var12)(var3, var5);
+            var15 = var7.bind(var12)(var3, var5);
             var12 = _closure1_slot4;
             var7 = var12.useCallback;
             var5 = new Array(1);
-            var5[0] = var17;
+            var5[0] = var18;
             var3 = function() {
                 var3 = _closure2_slot0;
                 var2 = var3.set;
@@ -480,10 +496,10 @@ case 0:
                 return var1;
             };
             var12 = var7.bind(var12)(var3, var5);
-            var3 = var16[var1];
+            var3 = var17[var1];
             var5 = var6.bind(var4)(var3);
             var3 = var5.useAnimatedStyle;
-            var2 = function _() {
+            var2 = function f() {
                 var1 = {};
                 var3 = {};
                 var6 = _closure1_slot0;
@@ -505,14 +521,14 @@ case 0:
                 return var1;
             };
             var7 = {};
-            var18 = 9;
-            var18 = var16[var18];
-            var18 = var6.bind(var4)(var18);
-            var18 = var18.withSpring;
-            var7['withSpring'] = var18;
-            var7['scale'] = var17;
-            var17 = _closure1_slot11;
-            var7['ON_PRESS_SPRING_CONFIG'] = var17;
+            var19 = 9;
+            var19 = var17[var19];
+            var19 = var6.bind(var4)(var19);
+            var19 = var19.withSpring;
+            var7['withSpring'] = var19;
+            var7['scale'] = var18;
+            var18 = _closure1_slot11;
+            var7['ON_PRESS_SPRING_CONFIG'] = var18;
             var2['__closure'] = var7;
             var7 = 13198115041161.0;
             var2['__workletHash'] = var7;
@@ -521,23 +537,23 @@ case 0:
             var7 = var3.bind(var5)(var2);
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
-            var1 = var16[var1];
+            var1 = var17[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.View;
             var1 = {};
-            var17 = var8.shadow;
+            var18 = var8.shadow;
             var5 = new Array(2);
-            var5[0] = var17;
+            var5[0] = var18;
             var5[1] = var7;
             var1['style'] = var5;
             var7 = _closure1_slot7;
             var5 = 10;
-            var5 = var16[var5];
+            var5 = var17[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.PressableHighlight;
             var5 = {};
-            var5['onPress'] = var15;
-            var5['onPressIn'] = var14;
+            var5['onPress'] = var16;
+            var5['onPressIn'] = var15;
             var5['onPressOut'] = var12;
             var5['onLongPress'] = var11;
             var11 = 'button';
@@ -549,15 +565,16 @@ case 0:
             var8 = new Array(2);
             var8[0] = var9;
             var9 = null;
-            var11 = var9 != var13;
-            if(!var11) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+            var11 = var9 != var14;
+            if(!var11) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var12 = _closure1_slot6;
             var11 = _closure1_slot13;
             var10 = {};
-            var10['percent'] = var13;
+            var10['percent'] = var14;
+            var10['hideProgress'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 15:
+case 17:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

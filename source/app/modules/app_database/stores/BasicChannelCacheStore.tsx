@@ -593,11 +593,11 @@ case 48:
                 var7 = var3.value;
                 var2 = var5.has;
                 var2 = var2.bind(var5)(var7);
-                if(var2) { _fun0009_ip = 9; continue _fun0009 }
-case 49:
+                if(var2) { _fun0009_ip = 49; continue _fun0009 }
+case 50:
                 var2 = var6.delete;
                 var2 = var2.bind(var6)(var7);
-case 9:
+case 49:
                 var7 = var4.bind(var1)();
                 var2 = var7.done;
                 var3 = var7;
@@ -642,16 +642,16 @@ case 34:
 case 3:
                 var6 = var2;
                 for(var2 in var6)
-case 50:
-                {
 case 51:
+                {
+case 52:
                     var10 = var2;
                     var9 = var1.channels;
                     var8 = var9.delete;
                     var8 = var8.bind(var9)(var10);
-                    _fun0010_ip = 50; continue _fun0010;
+                    _fun0010_ip = 51; continue _fun0010;
                 }
-case 52:
+case 53:
                 var2 = var1.guilds;
                 var1 = var2.delete;
                 var1 = var1.bind(var2)(var3);

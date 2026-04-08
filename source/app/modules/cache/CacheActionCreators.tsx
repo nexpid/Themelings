@@ -39,7 +39,7 @@ case 11:
                     var6 = _closure1_slot3;
                     var3 = var6.loadAllMissingChannels;
                     var3 = var3.bind(var6)();
-                    SaveGenerator(address=75);
+                    SaveGenerator(address=77);
 case 12:
                     return var3;
 case 13:
@@ -62,7 +62,7 @@ case 15:
                     var6 = var4.Promise;
                     var4 = var6.all;
                     var4 = var4.bind(var6)(var7);
-                    SaveGenerator(address=153);
+                    SaveGenerator(address=155);
 case 16:
                     return var4;
 case 17:

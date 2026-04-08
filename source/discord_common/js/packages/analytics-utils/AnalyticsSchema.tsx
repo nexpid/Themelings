@@ -525,6 +525,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VOICE_INVITE_SUGGESTIONS_POPOVER'] = var2;
     var2 = 'impression_voice_user_activity_popout';
     var4['VOICE_USER_ACTIVITY_POPOUT'] = var2;
+    var2 = 'impression_wishlist_item';
+    var4['WISHLIST_ITEM'] = var2;
     var2 = {};
     var5 = 'network_action_account_revert';
     var2['ACCOUNT_REVERT'] = var5;

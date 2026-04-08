@@ -1,0 +1,285 @@
+// app/modules/in_app_notifications/native/MessageNotificationAccessory.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = function ReactionAccessory(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var14 = var1.reaction;
+            var1 = _closure1_slot6;
+            var4 = undefined;
+            var8 = var1.bind(var4)();
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 6;
+            var1 = var9[var1];
+            var7 = var5.bind(var4)(var1);
+            var6 = var7.useStateFromStores;
+            var1 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var1 = _closure1_slot3;
+                var1 = var1.useReducedMotion;
+                return var1;
+            };
+            var13 = var6.bind(var7)(var3, var1);
+            var1 = 7;
+            var3 = var9[var1];
+            var7 = var5.bind(var4)(var3);
+            var6 = var7.useSharedValue;
+            var3 = 0;
+            var10 = var6.bind(var7)(var3);
+            var _closure2_slot0 = var10;
+            var6 = _closure1_slot1;
+            var3 = 8;
+            var3 = var9[var3];
+            var7 = var6.bind(var4)(var3);
+            var3 = function() {
+                var4 = _closure2_slot0;
+                var3 = var4.set;
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var1 = 9;
+                var2 = var11[var1];
+                var1 = undefined;
+                var7 = var10.bind(var1)(var2);
+                var6 = var7.withTiming;
+                var5 = {};
+                var2 = 150;
+                var5['duration'] = var2;
+                var2 = 7;
+                var8 = var11[var2];
+                var8 = var10.bind(var1)(var8);
+                var9 = var8.Easing;
+                var8 = var9.out;
+                var2 = var11[var2];
+                var2 = var10.bind(var1)(var2);
+                var2 = var2.Easing;
+                var2 = var2.ease;
+                var2 = var8.bind(var9)(var2);
+                var5['easing'] = var2;
+                var2 = 1;
+                var2 = var6.bind(var7)(var2, var5);
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var3 = var7.bind(var4)(var3);
+            var3 = var9[var1];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.useAnimatedStyle;
+            var2 = function f() {
+                var1 = {};
+                var4 = {};
+                var3 = _closure2_slot0;
+                var2 = var3.get;
+                var2 = var2.bind(var3)();
+                var4['scale'] = var2;
+                var2 = new Array(1);
+                var2[0] = var4;
+                var1['transform'] = var2;
+                var2 = var3.get;
+                var2 = var2.bind(var3)();
+                var1['opacity'] = var2;
+                return var1;
+            };
+            var7 = {};
+            var7['animatedState'] = var10;
+            var2['__closure'] = var7;
+            var7 = 14380351405746.0;
+            var2['__workletHash'] = var7;
+            var7 = _closure1_slot7;
+            var2['__initData'] = var7;
+            var7 = var3.bind(var5)(var2);
+            var3 = _closure1_slot5;
+            var1 = var9[var1];
+            var1 = var6.bind(var4)(var1);
+            var2 = var1.View;
+            var1 = {};
+            var10 = var8.reactionContainer;
+            var5 = new Array(2);
+            var5[0] = var10;
+            var5[1] = var7;
+            var1['style'] = var5;
+            var7 = _closure1_slot5;
+            var5 = 10;
+            var5 = var9[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = {};
+            var9 = var8.emoji;
+            var5['style'] = var9;
+            var9 = var8.emoji;
+            var5['fastImageStyle'] = var9;
+            var8 = var8.textEmoji;
+            var5['textEmojiStyle'] = var8;
+            var8 = var14.id;
+            var9 = null;
+            var10 = var9 == var8;
+            var8 = '';
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var8 = var14.surrogates;
+case 2:
+            var5['name'] = var8;
+            var8 = var14.id;
+            if(!(var9 == var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var8 = var14.url;
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var9 = 11;
+            var9 = var11[var9];
+            var11 = var10.bind(var4)(var9);
+            var10 = var11.getEmojiURL;
+            var9 = {};
+            var15 = var14.id;
+            var9['id'] = var15;
+            var13 = !var13;
+            if(!var13) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var13 = var14.animated;
+case 7:
+            var9['animated'] = var13;
+            var12 = _closure1_slot4;
+            var9['size'] = var12;
+            var8 = var10.bind(var11)(var9);
+case 6:
+            var5['src'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var12 = 1;
+    var4 = var6[var12];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.EMOJI_URL_BASE_SIZE;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var10 = 5;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.REACTION_BACKGROUND_REACTED_DEFAULT;
+    var9['backgroundColor'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.REACTION_BORDER_REACTED_DEFAULT;
+    var9['borderColor'] = var13;
+    var9['borderWidth'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.radii;
+    var10 = var10.md;
+    var9['borderRadius'] = var10;
+    var10 = 8;
+    var9['padding'] = var10;
+    var4['reactionContainer'] = var9;
+    var9 = {'width': 24, 'height': 24};
+    var4['emoji'] = var9;
+    var9 = {'fontSize': 24, 'lineHeight': 28};
+    var4['textEmoji'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot6 = var4;
+    var4 = {};
+    var7 = 'function MessageNotificationAccessoryTsx1(){const{animatedState}=this.__closure;return{transform:[{scale:animatedState.get()}],opacity:animatedState.get()};}';
+    var4['code'] = var7;
+    var _closure1_slot7 = var4;
+    var4 = 15;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/in_app_notifications/native/MessageNotificationAccessory.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function MessageNotificationAccessory(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = arg1;
+            var1 = var2.reaction;
+            var6 = var2.onReactionPress;
+            var2 = null;
+            if(!(var2 != var1)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot8;
+            var2 = {};
+            var2['reaction'] = var1;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            _fun0002_ip = 11; continue _fun0002;
+case 9:
+            var5 = _closure1_slot5;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = 12;
+            var2 = var10[var2];
+            var4 = undefined;
+            var2 = var9.bind(var4)(var2);
+            var3 = var2.IconButton;
+            var2 = {'variant': 'secondary', 'size': 'sm'};
+            var11 = _closure1_slot5;
+            var7 = 13;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var8 = var7.ReactionPlusIcon;
+            var7 = {};
+            var7 = var11.bind(var4)(var8, var7);
+            var2['icon'] = var7;
+            var2['onPress'] = var6;
+            var6 = 14;
+            var7 = var10[var6];
+            var7 = var9.bind(var4)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var6 = var10[var6];
+            var6 = var9.bind(var4)(var6);
+            var6 = var6.t;
+            var6 = var6.lfIHs4;
+            var6 = var7.bind(var8)(var6);
+            var2['accessibilityLabel'] = var6;
+            var1 = var5.bind(var4)(var3, var2);
+case 11:
+            return var1;
+        }
+    };
+    var3['MessageNotificationAccessory'] = var2;
+    return var1;
+})();

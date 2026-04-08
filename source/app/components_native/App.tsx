@@ -101,7 +101,7 @@ case 3:
         var4 = var6.paths;
         var4 = var8.bind(var1)(var7, var4);
 case 2:
-        var4 = 60;
+        var4 = 61;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -110,7 +110,7 @@ case 2:
         var2 = function App() {
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var2 = 54;
+            var2 = 55;
             var2 = var9[var2];
             var4 = undefined;
             var2 = var8.bind(var4)(var2);
@@ -169,7 +169,7 @@ case 0:
                         var2 = 31;
                         var2 = var5[var2];
                         var6 = var4.bind(var3)(var2);
-                        var2 = var6.init;
+                        var2 = var6.initialize;
                         var2 = var2.bind(var6)();
                         var2 = 32;
                         var2 = var5[var2];
@@ -184,7 +184,7 @@ case 0:
                         var2 = 34;
                         var2 = var5[var2];
                         var6 = var4.bind(var3)(var2);
-                        var2 = var6.initialize;
+                        var2 = var6.init;
                         var2 = var2.bind(var6)();
                         var2 = 35;
                         var2 = var5[var2];
@@ -221,13 +221,13 @@ case 0:
                         var6 = var4.bind(var3)(var2);
                         var2 = var6.initialize;
                         var2 = var2.bind(var6)();
-                        var6 = _closure1_slot5;
-                        var2 = var6.ensureInitialized;
-                        var2 = var2.bind(var6)();
                         var2 = 42;
                         var2 = var5[var2];
                         var6 = var4.bind(var3)(var2);
                         var2 = var6.initialize;
+                        var2 = var2.bind(var6)();
+                        var6 = _closure1_slot5;
+                        var2 = var6.ensureInitialized;
                         var2 = var2.bind(var6)();
                         var2 = 43;
                         var2 = var5[var2];
@@ -251,11 +251,16 @@ case 0:
                         var2 = var2.bind(var6)();
                         var2 = 47;
                         var2 = var5[var2];
+                        var6 = var4.bind(var3)(var2);
+                        var2 = var6.initialize;
+                        var2 = var2.bind(var6)();
+                        var2 = 48;
+                        var2 = var5[var2];
                         var4 = var4.bind(var3)(var2);
                         var2 = var4.initialize;
                         var2 = var2.bind(var4)();
                         var4 = _closure1_slot0;
-                        var2 = 48;
+                        var2 = 49;
                         var2 = var5[var2];
                         var4 = var4.bind(var3)(var2);
                         var2 = var4.isIOS;
@@ -264,7 +269,7 @@ case 0:
 case 5:
                         var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var2 = 49;
+                        var2 = 50;
                         var2 = var5[var2];
                         var4 = var4.bind(var3)(var2);
                         var2 = var4.initialize;
@@ -272,7 +277,7 @@ case 5:
 case 4:
                         var2 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var1 = 50;
+                        var1 = 51;
                         var1 = var4[var1];
                         var2 = var2.bind(var3)(var1);
                         var1 = var2.initializeRouteManagerIfNeeded;
@@ -280,13 +285,13 @@ case 4:
                         var1 = function() {
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var1 = 24;
+                            var1 = 28;
                             var5 = var4[var1];
                             var1 = undefined;
                             var6 = var3.bind(var1)(var5);
                             var5 = var6.terminate;
                             var5 = var5.bind(var6)();
-                            var5 = 34;
+                            var5 = 24;
                             var5 = var4[var5];
                             var6 = var3.bind(var1)(var5);
                             var5 = var6.terminate;
@@ -296,13 +301,23 @@ case 4:
                             var6 = var3.bind(var1)(var5);
                             var5 = var6.terminate;
                             var5 = var5.bind(var6)();
+                            var5 = 36;
+                            var5 = var4[var5];
+                            var6 = var3.bind(var1)(var5);
+                            var5 = var6.terminate;
+                            var5 = var5.bind(var6)();
                             var5 = _closure1_slot0;
-                            var2 = 50;
+                            var2 = 51;
                             var2 = var4[var2];
                             var5 = var5.bind(var1)(var2);
                             var2 = var5.cleanupRouteManager;
                             var2 = var2.bind(var5)();
-                            var2 = 47;
+                            var2 = 48;
+                            var2 = var4[var2];
+                            var5 = var3.bind(var1)(var2);
+                            var2 = var5.terminate;
+                            var2 = var2.bind(var5)();
+                            var2 = 40;
                             var2 = var4[var2];
                             var5 = var3.bind(var1)(var2);
                             var2 = var5.terminate;
@@ -312,22 +327,12 @@ case 4:
                             var5 = var3.bind(var1)(var2);
                             var2 = var5.terminate;
                             var2 = var2.bind(var5)();
-                            var2 = 38;
-                            var2 = var4[var2];
-                            var5 = var3.bind(var1)(var2);
-                            var2 = var5.terminate;
-                            var2 = var2.bind(var5)();
-                            var2 = 33;
+                            var2 = 34;
                             var2 = var4[var2];
                             var5 = var3.bind(var1)(var2);
                             var2 = var5.terminate;
                             var2 = var2.bind(var5)();
                             var2 = 26;
-                            var2 = var4[var2];
-                            var5 = var3.bind(var1)(var2);
-                            var2 = var5.terminate;
-                            var2 = var2.bind(var5)();
-                            var2 = 41;
                             var2 = var4[var2];
                             var5 = var3.bind(var1)(var2);
                             var2 = var5.terminate;
@@ -342,12 +347,17 @@ case 4:
                             var5 = var3.bind(var1)(var2);
                             var2 = var5.terminate;
                             var2 = var2.bind(var5)();
-                            var2 = 45;
+                            var2 = 44;
                             var2 = var4[var2];
                             var5 = var3.bind(var1)(var2);
                             var2 = var5.terminate;
                             var2 = var2.bind(var5)();
                             var2 = 46;
+                            var2 = var4[var2];
+                            var5 = var3.bind(var1)(var2);
+                            var2 = var5.terminate;
+                            var2 = var2.bind(var5)();
+                            var2 = 47;
                             var2 = var4[var2];
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.terminate;
@@ -366,7 +376,7 @@ case 4:
             var2 = function useAuthenticated() {
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 51;
+                var1 = 52;
                 var3 = var3[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var3);
@@ -403,19 +413,19 @@ case 6:
 case 9:
                         var3 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var2 = 52;
+                        var2 = 53;
                         var2 = var5[var2];
                         var4 = undefined;
                         var6 = var3.bind(var4)(var2);
                         var2 = var6.startSession;
                         var2 = var2.bind(var6)(var7);
-                        var2 = 53;
+                        var2 = 54;
                         var2 = var5[var2];
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.initialize;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 48;
+                        var2 = 49;
                         var2 = var5[var2];
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.isAndroid;
@@ -430,7 +440,7 @@ case 10:
                         var1 = function() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 53;
+                            var1 = 54;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -456,7 +466,7 @@ case 8:
                 var3 = function() {
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 54;
+                    var1 = 55;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var4.bind(var1)(var3);
@@ -474,7 +484,7 @@ case 8:
             var2 = function useChannelObfuscationPersistence() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 55;
+                var1 = 56;
                 var4 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
@@ -491,7 +501,7 @@ case 8:
 case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 48;
+                        var1 = 49;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -508,7 +518,7 @@ case 13:
 case 12:
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var2 = 56;
+                        var2 = 57;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.setUseChannelObfuscation;
@@ -527,7 +537,7 @@ case 14:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 54;
+                var1 = 55;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -539,7 +549,7 @@ case 14:
             var1 = new Array(0);
             var1 = var3.bind(var5)(var2, var1);
             var3 = _closure1_slot7;
-            var5 = 57;
+            var5 = 58;
             var1 = var9[var5];
             var2 = var8.bind(var4)(var1);
             var1 = {};
@@ -549,13 +559,13 @@ case 14:
             var5 = var5.Profiles;
             var5 = var5.App;
             var1['profile'] = var5;
-            var5 = 58;
+            var5 = 59;
             var5 = var9[var5];
             var6 = var8.bind(var4)(var5);
             var5 = {};
             var7 = 'main';
             var5['appEntryKey'] = var7;
-            var7 = 59;
+            var7 = 60;
             var7 = var9[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};

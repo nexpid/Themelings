@@ -91,8 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var19 = var1.application;
-            var22 = var1.supplementalGameData;
-            var16 = var1.bannerHash;
+            var22 = var1.game;
             var24 = var1.officialInvite;
             var21 = var1.viewId;
             var15 = var1.source;
@@ -174,8 +173,7 @@ case 4:
             var9 = var12.bind(var4)(var8);
             var8 = {};
             var8['application'] = var19;
-            var8['supplementalGameData'] = var22;
-            var8['bannerHash'] = var16;
+            var8['game'] = var22;
             var8['scrollY'] = var10;
             var9 = var3.bind(var4)(var9, var8);
             var8 = new Array(2);
@@ -200,7 +198,7 @@ case 4:
             var10 = var13[var10];
             var12 = var12.bind(var4)(var10);
             var10 = {};
-            var10['supplementalGameData'] = var22;
+            var10['game'] = var22;
             var10['viewId'] = var21;
             var10['source'] = var15;
             var10['trackAction'] = var18;
@@ -237,7 +235,7 @@ case 8:
             var27 = var27.bind(var4)(var20);
             var20 = {};
             var20['application'] = var19;
-            var20['supplementalGameData'] = var22;
+            var20['game'] = var22;
             var20['websiteButtons'] = var28;
             var20['trackAction'] = var18;
             var20 = var17.bind(var4)(var27, var20);
@@ -252,7 +250,7 @@ case 7:
             var12 = var20[var12];
             var13 = var16.bind(var4)(var12);
             var12 = {};
-            var12['supplementalGameData'] = var22;
+            var12['game'] = var22;
             var12['trackAction'] = var18;
             var12 = var17.bind(var4)(var13, var12);
             var10[2] = var12;
@@ -261,7 +259,7 @@ case 7:
             var13 = var16.bind(var4)(var12);
             var12 = {};
             var12['application'] = var19;
-            var12['supplementalGameData'] = var22;
+            var12['game'] = var22;
             var12['viewId'] = var21;
             var12['source'] = var15;
             var12['trackAction'] = var18;
@@ -281,7 +279,7 @@ case 7:
             var13 = var16.bind(var4)(var12);
             var12 = {};
             var12['closeModal'] = var23;
-            var12['supplementalGameData'] = var22;
+            var12['game'] = var22;
             var12['onInviteResolved'] = var25;
             var12['trackAction'] = var18;
             var12 = var17.bind(var4)(var13, var12);
@@ -301,7 +299,7 @@ case 7:
             var12 = var20[var12];
             var13 = var16.bind(var4)(var12);
             var12 = {};
-            var12['supplementalGameData'] = var22;
+            var12['game'] = var22;
             var12['closeModal'] = var23;
             var12['trackAction'] = var18;
             var12 = var17.bind(var4)(var13, var12);
@@ -311,7 +309,7 @@ case 7:
             var13 = var16.bind(var4)(var12);
             var12 = {};
             var12['application'] = var19;
-            var12['supplementalGameData'] = var22;
+            var12['game'] = var22;
             var12['viewId'] = var21;
             var12['source'] = var15;
             var12['trackAction'] = var18;

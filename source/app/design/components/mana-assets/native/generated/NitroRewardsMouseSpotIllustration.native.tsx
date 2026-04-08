@@ -1,4 +1,4 @@
-// app/design/components/mana-assets/native/generated/NitroRewardsSpotIllustration.native.tsx
+// app/design/components/mana-assets/native/generated/NitroRewardsMouseSpotIllustration.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -24,9 +24,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'design/components/mana-assets/native/generated/NitroRewardsSpotIllustration.native.tsx';
+    var4 = 'design/components/mana-assets/native/generated/NitroRewardsMouseSpotIllustration.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function NitroRewardsSpotIllustration(arg1) {
+    var2 = function NitroRewardsMouseSpotIllustration(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -79,6 +79,6 @@ case 6:
             return var1;
         }
     };
-    var3['NitroRewardsSpotIllustration'] = var2;
+    var3['NitroRewardsMouseSpotIllustration'] = var2;
     return var1;
 })();

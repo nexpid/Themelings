@@ -218,7 +218,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var6 = var1.supplementalGameData;
+            var6 = var1.game;
             var _closure2_slot0 = var6;
             var9 = var1.trackAction;
             var _closure2_slot1 = var9;
@@ -581,7 +581,7 @@ case 39:
             var9 = var9[var22];
             var9 = var12.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.kBDZSL;
+            var9 = var9.U2N+ci;
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var7 = var8.bind(var5)(var7, var6);

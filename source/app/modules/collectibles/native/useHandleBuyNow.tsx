@@ -266,44 +266,72 @@ case 9: // try_start_1
                     var8 = true;
                     var4['forceExternalBrowser'] = var8;
                     var4 = var5.bind(var6)(var7, var4);
-                    SaveGenerator(address=358);
+                    SaveGenerator(address=355);
 case 20:
                     return var4;
 case 21:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(var5) { _fun0002_ip = 22; continue _fun0002 }
-case 23: // try_end1
+case 23:
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 7;
+                    var5 = var7[var5];
+                    var6 = var6.bind(var2)(var5);
+                    var5 = var6.hideActionSheet;
+                    var5 = var5.bind(var6)();
+case 24: // try_end1
                     _fun0002_ip = 18; continue _fun0002;
 case 22:
                     return var4;
-case 24: // catch_target1
-                    CatchBlockStart(arg_register=5);
-                    var7 = _closure1_slot7;
-                    var5 = var7.error;
+case 25: // catch_target1
+                    CatchBlockStart(arg_register=6);
+                    var6 = _closure1_slot7;
+                    var5 = var6.error;
                     var4 = global;
                     var9 = var4.JSON;
                     var8 = var9.stringify;
-                    var9 = var8.bind(var9)(var6);
+                    var9 = var8.bind(var9)(var7);
                     var4 = var4.HermesInternal;
                     var8 = var4.concat;
                     var4 = 'Error performing web handoff: ';
                     var4 = var8.bind(var4)(var9);
-                    var4 = var5.bind(var7)(var4);
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 11;
-                    var3 = var5[var3];
+                    var4 = var5.bind(var6)(var4);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var4 = 11;
+                    var4 = var10[var4];
+                    var6 = var9.bind(var2)(var4);
+                    var5 = var6.captureBillingException;
+                    var4 = {};
+                    var8 = {};
+                    var11 = 'useHandleBuyNow';
+                    var8['source'] = var11;
+                    var11 = _closure2_slot0;
+                    var11 = var11.skuId;
+                    var8['skuId'] = var11;
+                    var4['tags'] = var8;
+                    var4 = var5.bind(var6)(var7, var4);
+                    var4 = _closure1_slot1;
+                    var3 = 12;
+                    var3 = var10[var3];
                     var5 = var4.bind(var2)(var3);
-                    var4 = var5.captureBillingException;
+                    var4 = var5.open;
                     var3 = {};
-                    var7 = {};
-                    var8 = 'useHandleBuyNow';
-                    var7['source'] = var8;
-                    var8 = _closure2_slot0;
-                    var8 = var8.skuId;
-                    var7['skuId'] = var8;
-                    var3['tags'] = var7;
-                    var3 = var4.bind(var5)(var6, var3);
+                    var6 = 'SHOP_ITEM_HANDOFF_ERROR';
+                    var3['key'] = var6;
+                    var6 = 13;
+                    var7 = var10[var6];
+                    var7 = var9.bind(var2)(var7);
+                    var8 = var7.intl;
+                    var7 = var8.string;
+                    var6 = var10[var6];
+                    var6 = var9.bind(var2)(var6);
+                    var6 = var6.t;
+                    var6 = var6.rTU7/z;
+                    var6 = var7.bind(var8)(var6);
+                    var3['content'] = var6;
+                    var3 = var4.bind(var5)(var3);
 case 18:
                     return var2;
 case 8:
@@ -324,7 +352,7 @@ case 8:
         var1['isBuying'] = var2;
         return var1;
     };
-    var4 = 12;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

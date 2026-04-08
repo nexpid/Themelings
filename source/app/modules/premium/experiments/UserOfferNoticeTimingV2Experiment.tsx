@@ -1,4 +1,4 @@
-// app/modules/premium/experiments/UserOfferNoticeTimingExperiment.tsx
+// app/modules/premium/experiments/UserOfferNoticeTimingV2Experiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -16,39 +16,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var6.bind(var1)(var4);
     var5 = var8.createApexExperiment;
-    var4 = {'name': '2026-01-user-offer-notice-timing-xp', 'kind': 'user'};
+    var4 = {'name': '2026-01-user-offer-notice-timing-v2-xp', 'kind': 'user'};
     var9 = {};
     var9['thresholdMs'] = var10;
     var4['defaultConfig'] = var9;
     var9 = {};
     var10 = {};
-    var11 = 86400000;
-    var10['thresholdMs'] = var11;
-    var9[1] = var10;
-    var10 = {};
-    var11 = 172800000;
-    var10['thresholdMs'] = var11;
-    var9[2] = var10;
-    var10 = {};
-    var11 = 259200000;
-    var10['thresholdMs'] = var11;
-    var9[3] = var10;
-    var10 = {};
-    var11 = 345600000;
-    var10['thresholdMs'] = var11;
-    var9[4] = var10;
-    var10 = {};
-    var11 = 432000000;
-    var10['thresholdMs'] = var11;
-    var9[5] = var10;
-    var10 = {};
-    var11 = 518400000;
-    var10['thresholdMs'] = var11;
-    var9[6] = var10;
-    var10 = {};
     var11 = 604800000;
     var10['thresholdMs'] = var11;
-    var9[7] = var10;
+    var9[1] = var10;
     var4['variations'] = var9;
     var4 = var5.bind(var8)(var4);
     var _closure1_slot0 = var4;
@@ -56,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/premium/experiments/UserOfferNoticeTimingExperiment.tsx';
+    var5 = 'modules/premium/experiments/UserOfferNoticeTimingV2Experiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['UserOfferNoticeTimingExperiment'] = var4;
     var4 = function getOfferNoticeTimingExperimentThreshold(arg1) {

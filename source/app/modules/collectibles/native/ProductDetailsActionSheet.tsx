@@ -141,24 +141,8 @@ case 10:
             var17 = _closure1_slot2;
             var17 = var17[var19];
             var18 = var18.bind(var4)(var17);
-            var17 = var18.getIsVariantProduct;
+            var17 = var18.getProductSkuIds;
             var17 = var17.bind(var18)(var24);
-            if(var17) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var18 = var24.skuId;
-            var17 = new Array(1);
-            var17[0] = var18;
-            _fun0001_ip = 14; continue _fun0001;
-case 12:
-            var21 = var24.variants;
-            var19 = var21.map;
-            var18 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.skuId;
-                return var1;
-            };
-            var17 = var19.bind(var21)(var18);
-case 14:
             var9['product_sku_ids'] = var17;
             var5['properties'] = var9;
             var5 = var6.bind(var4)(var5);
@@ -169,10 +153,10 @@ case 14:
             var6['setShouldReset'] = var3;
             var9 = var14 != var7;
             var5 = undefined;
-            if(!var9) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!var9) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var5 = var7;
-case 15:
+case 12:
             var6['shopAnalyticsContext'] = var5;
             var5 = function useHandlePreviewPress(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -256,10 +240,10 @@ case 0:
                     var3 = var5.bind(var2)(var3);
                     var3 = var3.CollectiblesItemType;
                     var3 = var3.NAMEPLATE;
-                    if(!(var4 === var3)) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+                    if(!(var4 === var3)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     return var2;
-case 17:
+case 14:
                     return var1;
                 }
             };
@@ -281,12 +265,12 @@ case 0:
                     var3 = var5.bind(var1)(var3);
                     var3 = var3.CollectiblesItemType;
                     var3 = var3.BUNDLE;
-                    if(!(var4 === var3)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                    if(!(var4 === var3)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     var3 = _closure2_slot3;
                     var2 = false;
                     var2 = var3.bind(var1)(var2);
-case 19:
+case 16:
                     return var1;
                 }
             };
@@ -342,7 +326,7 @@ case 0:
                     var2 = var1 == var4;
                     var1 = undefined;
                     if(var2) { _fun0004_ip = 4; continue _fun0004 }
-case 21:
+case 18:
                     var3 = var4.scrollToEnd;
                     var2 = {};
                     var5 = true;
@@ -365,8 +349,8 @@ case 4:
             var18 = var20.container;
             var8['style'] = var18;
             var8['ref'] = var11;
-            if(!var13) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!var13) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var19 = _closure1_slot7;
             var18 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -380,7 +364,7 @@ case 23:
             var20 = 'md';
             var11['size'] = var20;
             var13 = var19.bind(var4)(var18, var11);
-case 22:
+case 19:
             var11 = new Array(5);
             var11[0] = var13;
             var21 = _closure1_slot7;
@@ -524,10 +508,10 @@ case 0:
             var3 = arg1;
             var6 = var3.shopAnalyticsContext;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(!(var6 === var4)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var6 = _closure1_slot9;
-case 24:
+case 21:
             var1 = null;
             var2 = Object.create(var1);
             var1 = 0;

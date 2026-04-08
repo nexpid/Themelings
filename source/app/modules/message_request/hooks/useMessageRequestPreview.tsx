@@ -487,19 +487,29 @@ case 46:
     var2 = function useMessageRequestPreview(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
+            var1 = arguments[1];
             var2 = arg1;
             var7 = var2.id;
             var _closure2_slot0 = var7;
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var9 = 5;
-            var2 = var11[var9];
             var8 = undefined;
-            var13 = var10.bind(var8)(var2);
-            var12 = var13.useStateFromStoresObject;
-            var6 = _closure1_slot6;
+            if(!(var1 === var8)) { _fun0006_ip = 61; continue _fun0006 }
+case 31:
+            var1 = {};
+case 61:
+            var1 = var1.enabled;
+            if(!(var1 === var8)) { _fun0006_ip = 62; continue _fun0006 }
+case 63:
+            var1 = true;
+case 62:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var10 = 5;
+            var2 = var12[var10];
+            var14 = var11.bind(var8)(var2);
+            var13 = var14.useStateFromStoresObject;
+            var9 = _closure1_slot6;
             var4 = new Array(3);
-            var4[0] = var6;
+            var4[0] = var9;
             var2 = _closure1_slot4;
             var4[1] = var2;
             var2 = _closure1_slot5;
@@ -518,68 +528,71 @@ case 0:
                     var1 = var1.bind(var3)(var5);
                     var5 = var1.message;
                     var3 = null;
-                    if(!(var3 == var5)) { _fun0007_ip = 61; continue _fun0007 }
+                    if(!(var3 == var5)) { _fun0007_ip = 64; continue _fun0007 }
 case 39:
-                    if(!(var3 != var6)) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
+                    if(!(var3 != var6)) { _fun0007_ip = 64; continue _fun0007 }
+case 65:
                     var5 = _closure1_slot4;
                     var4 = var5.getMessage;
                     var2 = _closure2_slot0;
                     var2 = var4.bind(var5)(var2, var6);
-                    if(!(var3 == var2)) { _fun0007_ip = 63; continue _fun0007 }
-case 61:
+                    if(!(var3 == var2)) { _fun0007_ip = 66; continue _fun0007 }
+case 64:
                     return var1;
-case 63:
+case 66:
                     var1 = {'loaded': true, 'error': false};
                     var1['message'] = var2;
                     return var1;
                 }
             };
-            var3 = var12.bind(var13)(var4, var2, var3);
+            var3 = var13.bind(var14)(var4, var2, var3);
             var4 = var3.loaded;
             var2 = var3.message;
             var3 = var3.error;
-            var9 = var11[var9];
-            var11 = var10.bind(var8)(var9);
-            var10 = var11.useStateFromStores;
+            var10 = var12[var10];
+            var12 = var11.bind(var8)(var10);
+            var11 = var12.useStateFromStores;
+            var10 = new Array(1);
+            var10[0] = var9;
             var9 = new Array(1);
-            var9[0] = var6;
-            var6 = new Array(1);
-            var6[0] = var7;
-            var1 = function() {
+            var9[0] = var7;
+            var6 = function() {
                 var3 = _closure1_slot6;
                 var2 = var3.shouldLoadMessageRequestPreview;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var6 = var10.bind(var11)(var9, var1, var6);
+            var6 = var11.bind(var12)(var10, var6, var9);
+            if(!var1) { _fun0006_ip = 67; continue _fun0006 }
+case 68:
             var1 = !var4;
-            if(!var1) { _fun0006_ip = 64; continue _fun0006 }
-case 65:
+case 67:
+            if(!var1) { _fun0006_ip = 69; continue _fun0006 }
+case 70:
             var9 = null;
             var1 = var9 == var2;
-case 64:
-            if(!var1) { _fun0006_ip = 66; continue _fun0006 }
-case 67:
-            var1 = var6;
-case 66:
-            if(!var1) { _fun0006_ip = 68; continue _fun0006 }
 case 69:
+            if(!var1) { _fun0006_ip = 71; continue _fun0006 }
+case 72:
+            var1 = var6;
+case 71:
+            if(!var1) { _fun0006_ip = 23; continue _fun0006 }
+case 52:
             var6 = _closure1_slot8;
             var1 = var6.add;
             var1 = var1.bind(var6)(var7);
             var6 = _closure1_slot9;
             var1 = null;
-            if(!(var1 == var6)) { _fun0006_ip = 68; continue _fun0006 }
-case 70:
+            if(!(var1 == var6)) { _fun0006_ip = 23; continue _fun0006 }
+case 73:
             var1 = global;
             var7 = var1.setTimeout;
             var6 = _closure1_slot12;
             var1 = 0;
             var1 = var7.bind(var8)(var6, var1);
             _closure1_slot9 = var1;
-case 68:
+case 23:
             var1 = {};
             var1['loaded'] = var4;
             var1['error'] = var3;

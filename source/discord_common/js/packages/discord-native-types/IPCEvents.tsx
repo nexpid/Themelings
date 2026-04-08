@@ -48,6 +48,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APP_VIEWED'] = var1;
     var1 = 'DISCORD_APP_FIRST_RENDER_AFTER_READY_PAYLOAD';
     var2['APP_FIRST_RENDER_AFTER_READY_PAYLOAD'] = var1;
+    var1 = 'DISCORD_APP_GET_MAIN_BUNDLE_STATS';
+    var2['APP_GET_MAIN_BUNDLE_STATS'] = var1;
+    var1 = 'DISCORD_APP_MAIN_BUNDLE_STATS';
+    var2['APP_MAIN_BUNDLE_STATS'] = var1;
     var1 = 'DISCORD_APP_GET_DEFAULT_DOUBLE_CLICK_ACTION';
     var2['APP_GET_DEFAULT_DOUBLE_CLICK_ACTION'] = var1;
     var1 = 'DISCORD_APP_PAUSE_FRAME_EVICTOR';
@@ -121,6 +125,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NATIVE_MODULES_FINISH_UPDATER_BOOTSTRAP'] = var1;
     var1 = 'DISCORD_NATIVE_MODULES_GET_HAS_NEW_UPDATER';
     var2['NATIVE_MODULES_GET_HAS_NEW_UPDATER'] = var1;
+    var1 = 'DISCORD_NATIVE_MODULES_GET_MODULE_PATH';
+    var2['NATIVE_MODULES_GET_MODULE_PATH'] = var1;
     var1 = 'DISCORD_NAVIGATION_HISTORY_CLEAR';
     var2['NAVIGATION_HISTORY_CLEAR'] = var1;
     var1 = 'DISCORD_NOTIFICATION_CLOSE';

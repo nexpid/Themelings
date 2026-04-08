@@ -36,7 +36,7 @@ case 0:
             var12 = 'checkbox';
             var5['accessibilityRole'] = var12;
             var12 = {};
-            var12['selected'] = var19;
+            var12['checked'] = var19;
             var5['accessibilityState'] = var12;
             var14 = _closure1_slot5;
             var13 = _closure1_slot3;
@@ -146,6 +146,7 @@ case 4:
     var10 = 1;
     var4 = var6[var10];
     var4 = var5.bind(var1)(var4);
+    var7 = var4.Platform;
     var4 = var4.View;
     var _closure1_slot3 = var4;
     var4 = 2;

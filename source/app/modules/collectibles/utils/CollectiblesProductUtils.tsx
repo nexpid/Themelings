@@ -262,8 +262,35 @@ case 21:
     };
     var3['getProductsWithOrbsPrice'] = var5;
     var3['getIsVariantProduct'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var2 = arg1;
+            var3 = _closure1_slot9;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            if(var1) { _fun0006_ip = 20; continue _fun0006 }
+case 23:
+            var3 = var2.skuId;
+            var1 = new Array(1);
+            var1[0] = var3;
+            _fun0006_ip = 24; continue _fun0006;
+case 20:
+            var4 = var2.variants;
+            var3 = var4.map;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.skuId;
+                return var1;
+            };
+            var1 = var3.bind(var4)(var2);
+case 24:
+            return var1;
+        }
+    };
+    var3['getProductSkuIds'] = var4;
+    var4 = function(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = arg1;
             var5 = arg2;
@@ -271,30 +298,30 @@ case 0:
             var1 = undefined;
             var2 = var2.bind(var1)(var4);
             var1 = var4;
-            if(!var2) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+            if(!var2) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
             var3 = null;
             var1 = var4;
-            if(!(var3 != var5)) { _fun0006_ip = 23; continue _fun0006 }
+            if(!(var3 != var5)) { _fun0007_ip = 25; continue _fun0007 }
 case 20:
             var2 = var4.variants;
             var2 = var2[var5];
             var1 = var4;
-            if(!(var3 != var2)) { _fun0006_ip = 23; continue _fun0006 }
+            if(!(var3 != var2)) { _fun0007_ip = 25; continue _fun0007 }
 case 14:
             var1 = var2;
-case 23:
+case 25:
             return var1;
         }
     };
     var3['getSelectedProduct'] = var4;
     var2 = function(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 != var2)) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+            if(!(var1 != var2)) { _fun0008_ip = 27; continue _fun0008 }
+case 28:
             var4 = var2.type;
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -304,36 +331,36 @@ case 26:
             var3 = var6.bind(var7)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.VARIANTS_GROUP;
-            if(!(var4 !== var3)) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+            if(!(var4 !== var3)) { _fun0008_ip = 29; continue _fun0008 }
+case 24:
             var3 = var2.type;
             return var3;
-case 27:
+case 29:
             var3 = var2.variants;
-            if(!(var1 != var3)) { _fun0007_ip = 12; continue _fun0007 }
+            if(!(var1 != var3)) { _fun0008_ip = 12; continue _fun0008 }
 case 7:
             var3 = var2.variants;
             var3 = var3.length;
             var4 = 0;
-            if(!(var4 !== var3)) { _fun0007_ip = 12; continue _fun0007 }
-case 29:
+            if(!(var4 !== var3)) { _fun0008_ip = 12; continue _fun0008 }
+case 30:
             var2 = var2.variants;
             var3 = var2[var4];
             var6 = var1 == var3;
             var2 = null;
-            if(var6) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
+            if(var6) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
             var6 = _closure1_slot2;
             var5 = var3.items;
             var3 = 1;
             var3 = var6.bind(var7)(var5, var3);
             var3 = var3[var4];
             var2 = var3.type;
-case 30:
+case 31:
             return var2;
 case 12:
             return var1;
-case 25:
+case 27:
             return var1;
         }
     };

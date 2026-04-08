@@ -280,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var1 = var2.supplementalGameData;
+            var1 = var2.game;
             var _closure2_slot0 = var1;
             var2 = var2.trackAction;
             var _closure2_slot1 = var2;
@@ -328,17 +328,17 @@ case 0:
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = _closure2_slot0;
-                    var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+                    var1 = _closure2_slot0;
+                    var4 = null;
+                    if(!(var4 != var1)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var3 = _closure2_slot0;
-                    var5 = var3.trailers;
-                    if(!(var1 == var5)) { _fun0002_ip = 4; continue _fun0002 }
+                    var1 = _closure2_slot0;
+                    var6 = var1.trailers;
+                    if(!(var4 == var6)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var5 = new Array(0);
+                    var6 = new Array(0);
 case 4:
-                    var3 = var5.map;
+                    var3 = var6.map;
                     var1 = function(arg1) {
                         var2 = arg1;
                         var1 = {};
@@ -370,13 +370,17 @@ case 4:
                         var1['posterUrl'] = var2;
                         return var1;
                     };
-                    var7 = var3.bind(var5)(var1);
+                    var8 = var3.bind(var6)(var1);
                     var1 = new Array(0);
-                    var6 = 0;
-                    var8 = var1;
-                    var6 = arraySpread(var8, var7, var6);
-                    var4 = _closure2_slot0;
-                    var5 = var4.screenshots;
+                    var7 = 0;
+                    var9 = var1;
+                    var3 = arraySpread(var9, var8, var7);
+                    var5 = _closure2_slot0;
+                    var5 = var5.screenshotUrls;
+                    if(!(var4 == var5)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                    var5 = new Array(0);
+case 6:
                     var4 = var5.map;
                     var2 = function(arg1) {
                         var1 = {};
@@ -386,13 +390,14 @@ case 4:
                         var1['url'] = var2;
                         return var1;
                     };
-                    var7 = var4.bind(var5)(var2);
-                    var8 = var1;
-                    var2 = arraySpread(var8, var7, var6);
-                    _fun0002_ip = 6; continue _fun0002;
+                    var8 = var4.bind(var5)(var2);
+                    var9 = var1;
+                    var7 = var3;
+                    var2 = arraySpread(var9, var8, var7);
+                    _fun0002_ip = 8; continue _fun0002;
 case 2:
                     var1 = new Array(0);
-case 6:
+case 8:
                     return var1;
                 }
             };
@@ -464,14 +469,14 @@ case 0:
                         var3 = arg2;
                         var2 = var4.type;
                         var1 = 'trailer';
-                        if(!(var1 !== var2)) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+                        if(!(var1 !== var2)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var1 = {'uri': null, 'mediaIndex': null, 'width': 1920, 'height': 1080, 'accessoryType': 'embed', 'disableDownload': true};
                         var2 = var4.url;
                         var1['uri'] = var2;
                         var1['mediaIndex'] = var3;
-                        _fun0003_ip = 9; continue _fun0003;
-case 7:
+                        _fun0003_ip = 11; continue _fun0003;
+case 9:
                         var2 = {};
                         var5 = var4.url;
                         var2['uri'] = var5;
@@ -491,7 +496,7 @@ case 7:
                         var3 = true;
                         var2['disableDownload'] = var3;
                         var1 = var2;
-case 9:
+case 11:
                         return var1;
                     }
                 };
@@ -563,8 +568,8 @@ case 0:
                     var2 = _closure2_slot10;
                     var2 = var2.length;
                     var3 = 0;
-                    if(!(var3 !== var2)) { _fun0004_ip = 10; continue _fun0004 }
-case 8:
+                    if(!(var3 !== var2)) { _fun0004_ip = 12; continue _fun0004 }
+case 10:
                     var2 = arg1;
                     var2 = var2.nativeEvent;
                     var2 = var2.contentOffset;
@@ -581,29 +586,29 @@ case 8:
                     var2 = var6 < var2;
                     var5 = 0;
                     var3 = 0;
-                    if(!var2) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                    if(!var2) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var10 = var7.Math;
                     var9 = var10.abs;
                     var2 = _closure2_slot10;
                     var2 = var2[var6];
                     var2 = var2 - var8;
                     var2 = var9.bind(var10)(var2);
-                    if(!(var2 < var4)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                    if(!(var2 < var4)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                     var5 = var6;
                     var4 = var2;
-case 13:
+case 15:
                     var6 = var6 + 1;
                     var2 = _closure2_slot10;
                     var2 = var2.length;
                     var3 = var5;
-                    if(var6 < var2) { _fun0004_ip = 12; continue _fun0004 }
-case 11:
+                    if(var6 < var2) { _fun0004_ip = 14; continue _fun0004 }
+case 13:
                     var2 = _closure2_slot5;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
-case 10:
+case 12:
                     var1 = undefined;
                     return var1;
                 }
@@ -611,8 +616,8 @@ case 10:
             var10 = var4.bind(var8)(var1, var2);
             var2 = var11.length;
             var1 = null;
-            if(!(var3 !== var2)) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!(var3 !== var2)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var4 = _closure1_slot9;
             var3 = _closure1_slot5;
             var2 = {};
@@ -636,8 +641,8 @@ case 0:
                     var9 = arg2;
                     var3 = var2.type;
                     var1 = 'trailer';
-                    if(!(var1 !== var3)) { _fun0005_ip = 17; continue _fun0005 }
-case 8:
+                    if(!(var1 !== var3)) { _fun0005_ip = 19; continue _fun0005 }
+case 10:
                     var6 = _closure1_slot9;
                     var5 = _closure1_slot11;
                     var4 = {};
@@ -661,8 +666,8 @@ case 8:
                     var3 = var7.bind(var3)(var8, var1, var9);
                     var1 = undefined;
                     var1 = var6.bind(var1)(var5, var4, var3);
-                    _fun0005_ip = 18; continue _fun0005;
-case 17:
+                    _fun0005_ip = 20; continue _fun0005;
+case 19:
                     var6 = _closure1_slot9;
                     var5 = _closure1_slot12;
                     var4 = {};
@@ -691,7 +696,7 @@ case 17:
                     var3 = var7.bind(var3)(var8, var2, var9);
                     var2 = undefined;
                     var1 = var6.bind(var2)(var5, var4, var3);
-case 18:
+case 20:
                     return var1;
                 }
             };
@@ -700,7 +705,7 @@ case 18:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 15:
+case 17:
             return var1;
         }
     };

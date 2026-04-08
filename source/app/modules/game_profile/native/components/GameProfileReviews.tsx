@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
-            var2 = var3.supplementalGameData;
+            var2 = var3.game;
             var11 = var3.url;
             var _closure2_slot0 = var11;
             var6 = var3.showBorderBottom;
@@ -232,7 +232,7 @@ case 10:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
-            var2 = var3.supplementalGameData;
+            var2 = var3.game;
             var7 = var3.url;
             var _closure2_slot0 = var7;
             var6 = var3.trackAction;
@@ -674,7 +674,7 @@ case 31:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var18 = var1.supplementalGameData;
+            var18 = var1.game;
             var16 = var1.trackAction;
             var1 = _closure1_slot9;
             var6 = undefined;
@@ -771,7 +771,7 @@ case 49:
             var19 = _closure1_slot7;
             var15 = _closure1_slot10;
             var11 = {};
-            var11['supplementalGameData'] = var18;
+            var11['game'] = var18;
             var11['url'] = var20;
             var11['showBorderBottom'] = var14;
             var11['trackAction'] = var16;
@@ -785,7 +785,7 @@ case 51:
             var15 = _closure1_slot7;
             var14 = _closure1_slot11;
             var13 = {};
-            var13['supplementalGameData'] = var18;
+            var13['game'] = var18;
             var13['url'] = var17;
             var13['trackAction'] = var16;
             var12 = var15.bind(var6)(var14, var13);

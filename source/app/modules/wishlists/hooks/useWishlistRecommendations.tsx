@@ -186,36 +186,37 @@ case 35:
     var1 = function useWishlistRecommendationsWithWishlists(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var2 = arg1;
-            var8 = var2.userIdsAndWishlistIds;
+            var1 = arg1;
+            var8 = var1.userIdsAndWishlistIds;
             var _closure2_slot0 = var8;
-            var4 = var2.numItems;
-            var6 = var2.applicationIds;
-            var3 = var2.source;
-            var5 = undefined;
-            if(!(var3 === var5)) { _fun0004_ip = 36; continue _fun0004 }
+            var3 = var1.numItems;
+            var4 = var1.applicationIds;
+            var2 = var1.source;
+            var7 = undefined;
+            if(!(var2 === var7)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var7 = 8;
-            var7 = var10[var7];
-            var7 = var9.bind(var5)(var7);
-            var7 = var7.WishlistFetchSource;
-            var3 = var7.USER_PROFILE;
+            var5 = 8;
+            var5 = var10[var5];
+            var5 = var9.bind(var7)(var5);
+            var5 = var5.WishlistFetchSource;
+            var2 = var5.USER_PROFILE;
 case 36:
-            var7 = var2.filterByApplicationIds;
-            if(!(var7 === var5)) { _fun0004_ip = 38; continue _fun0004 }
+            var5 = var1.filterByApplicationIds;
+            if(!(var5 === var7)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-            var7 = false;
+            var5 = false;
 case 38:
-            var _closure2_slot1 = var5;
-            var _closure2_slot2 = var5;
-            var _closure2_slot3 = var5;
-            var _closure2_slot4 = var5;
-            var _closure2_slot5 = var5;
-            var _closure2_slot6 = var5;
-            var _closure2_slot7 = var5;
-            var _closure2_slot8 = var5;
+            var _closure2_slot1 = var7;
+            var _closure2_slot2 = var7;
+            var _closure2_slot3 = var7;
+            var _closure2_slot4 = var7;
+            var _closure2_slot5 = var7;
+            var _closure2_slot6 = var7;
+            var _closure2_slot7 = var7;
+            var _closure2_slot8 = var7;
+            var _closure2_slot9 = var7;
             var9 = {};
             var13 = _closure1_slot4;
             var12 = var13.useMemo;
@@ -234,9 +235,9 @@ case 38:
             };
             var10 = var12.bind(var13)(var10, var11);
             var9['userIds'] = var10;
-            var9['numItems'] = var4;
-            var9['applicationIds'] = var6;
-            var4 = function useFetchWishlistRecommendations(arg1) {
+            var9['numItems'] = var3;
+            var9['applicationIds'] = var4;
+            var3 = function useFetchWishlistRecommendations(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = arg1;
@@ -339,18 +340,18 @@ case 49:
                     return var1;
                 }
             };
-            var9 = var4.bind(var5)(var9);
-            _closure2_slot1 = var9;
-            var4 = {};
-            var4['userIdsAndWishlistIds'] = var8;
-            var4['source'] = var3;
-            var3 = undefined;
-            if(!var7) { _fun0004_ip = 50; continue _fun0004 }
+            var11 = var3.bind(var7)(var9);
+            _closure2_slot1 = var11;
+            var3 = {};
+            var3['userIdsAndWishlistIds'] = var8;
+            var3['source'] = var2;
+            var2 = undefined;
+            if(!var5) { _fun0004_ip = 50; continue _fun0004 }
 case 51:
-            var3 = var6;
+            var2 = var4;
 case 50:
-            var4['applicationIdsFilter'] = var3;
-            var3 = function useSortedWishlistUnownedSkus(arg1) {
+            var3['applicationIdsFilter'] = var2;
+            var2 = function useSortedWishlistUnownedSkus(arg1) {
                 var1 = arg1;
                 var8 = var1.userIdsAndWishlistIds;
                 var5 = var1.source;
@@ -643,21 +644,21 @@ case 75:
                 var1['wishlistErrors'] = var2;
                 return var1;
             };
-            var4 = var3.bind(var5)(var4);
-            var12 = var4.sortedWishlistSkus;
-            _closure2_slot2 = var12;
-            var3 = var4.wishlistSkuIdToSku;
+            var2 = var2.bind(var7)(var3);
+            var13 = var2.sortedWishlistSkus;
+            _closure2_slot2 = var13;
+            var3 = var2.wishlistSkuIdToSku;
             _closure2_slot3 = var3;
-            var11 = var4.wishlistSkusToUserAndReasonMap;
-            _closure2_slot4 = var11;
-            var10 = var4.wishlistsAreFetching;
-            _closure2_slot5 = var10;
-            var8 = var4.wishlistErrors;
-            _closure2_slot6 = var8;
-            var6 = _closure1_slot4;
-            var5 = var6.useMemo;
+            var10 = var2.wishlistSkusToUserAndReasonMap;
+            _closure2_slot4 = var10;
+            var12 = var2.wishlistsAreFetching;
+            _closure2_slot5 = var12;
+            var2 = var2.wishlistErrors;
+            _closure2_slot6 = var2;
+            var8 = _closure1_slot4;
+            var5 = var8.useMemo;
             var4 = new Array(2);
-            var4[0] = var9;
+            var4[0] = var11;
             var4[1] = var3;
             var3 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
@@ -702,17 +703,17 @@ case 78:
                     return var1;
                 }
             };
-            var3 = var5.bind(var6)(var3, var4);
+            var3 = var5.bind(var8)(var3, var4);
             var5 = var3.filteredRecommendations;
             _closure2_slot7 = var5;
             var3 = var3.skusToUserAndReasonRecommendations;
             _closure2_slot8 = var3;
-            var7 = _closure1_slot4;
-            var6 = var7.useMemo;
+            var9 = _closure1_slot4;
+            var8 = var9.useMemo;
             var4 = new Array(4);
-            var4[0] = var12;
+            var4[0] = var13;
             var4[1] = var5;
-            var4[2] = var11;
+            var4[2] = var10;
             var4[3] = var3;
             var3 = function() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -766,16 +767,17 @@ case 43:
                     return var1;
                 }
             };
-            var3 = var6.bind(var7)(var3, var4);
+            var3 = var8.bind(var9)(var3, var4);
             var4 = var3.combinedSkus;
+            _closure2_slot9 = var4;
             var3 = var3.combinedSkusToUserAndReason;
-            var7 = _closure1_slot4;
-            var6 = var7.useMemo;
-            var2 = new Array(3);
-            var2[0] = var10;
-            var2[1] = var9;
-            var2[2] = var8;
-            var1 = function() {
+            var10 = _closure1_slot4;
+            var9 = var10.useMemo;
+            var8 = new Array(3);
+            var8[0] = var12;
+            var8[1] = var11;
+            var8[2] = var2;
+            var2 = function() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                     var3 = _closure2_slot5;
@@ -824,7 +826,57 @@ case 80:
                     return var1;
                 }
             };
-            var2 = var6.bind(var7)(var1, var2);
+            var2 = var9.bind(var10)(var2, var8);
+            var10 = _closure1_slot4;
+            var9 = var10.useMemo;
+            var8 = new Array(2);
+            var8[0] = var5;
+            var8[1] = var4;
+            var6 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 11;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.uniq;
+                var7 = _closure2_slot7;
+                var5 = var7.map;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.id;
+                    return var1;
+                };
+                var9 = var5.bind(var7)(var1);
+                var1 = new Array(0);
+                var8 = 0;
+                var10 = var1;
+                var8 = arraySpread(var10, var9, var8);
+                var7 = _closure2_slot9;
+                var6 = var7.map;
+                var4 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.id;
+                    return var1;
+                };
+                var9 = var6.bind(var7)(var4);
+                var10 = var1;
+                var4 = arraySpread(var10, var9, var8);
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var8 = var9.bind(var10)(var6, var8);
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 12;
+            var1 = var9[var1];
+            var7 = var6.bind(var7)(var1);
+            var6 = var7.useGetOrFetchStorefrontPricesForSkuIds;
+            var1 = {};
+            var1['skuIds'] = var8;
+            var8 = 'useWishlistRecommendationsWithWishlists';
+            var1['location'] = var8;
+            var1 = var6.bind(var7)(var1);
             var1 = {};
             var1['recommendations'] = var5;
             var1['wishlistAndRecommendations'] = var4;
@@ -844,7 +896,7 @@ case 80:
         var1 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 11;
+            var1 = 13;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -958,7 +1010,7 @@ case 80:
     var7 = var7 instanceof Object ? var7 : var8;
     var4['data'] = var7;
     var _closure1_slot10 = var4;
-    var4 = 14;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -991,7 +1043,7 @@ case 82:
             var1['userIdsAndWishlistIds'] = var2;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var9 = 12;
+            var9 = 14;
             var9 = var10[var9];
             var11 = var2.bind(var6)(var9);
             var9 = var11.useWishlistApplicationIds;
@@ -1003,7 +1055,7 @@ case 82:
             var9 = var1.wishlistAndRecommendations;
             var5 = var1.skusToUserAndReason;
             var4 = var1.status;
-            var1 = 13;
+            var1 = 15;
             var1 = var10[var1];
             var6 = var2.bind(var6)(var1);
             var2 = var6.useWishlistSkuFilter;
@@ -1085,7 +1137,7 @@ case 37:
                     var1 = function(arg1) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 13;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -1218,7 +1270,7 @@ case 79:
             var1['userIdsAndWishlistIds'] = var7;
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var7 = 12;
+            var7 = 14;
             var7 = var11[var7];
             var9 = var9.bind(var3)(var7);
             var7 = var9.useWishlistApplicationIds;

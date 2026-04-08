@@ -2394,7 +2394,7 @@ case 161:
                     var2 = var5 < var3;
 case 38:
                     if(!var2) { _fun0034_ip = 187; continue _fun0034 }
-case 188:
+case 169:
                     var4 = _closure2_slot10;
                     var3 = 1;
                     var3 = var5 - var3;
@@ -2404,7 +2404,7 @@ case 188:
                     var2 = var4 > var3;
 case 187:
                     if(!var2) { _fun0034_ip = 53; continue _fun0034 }
-case 189:
+case 188:
                     var3 = _closure2_slot7;
                     var2 = var3.current;
                     var2 = var2 + 1;

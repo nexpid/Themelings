@@ -26,7 +26,7 @@ case 3:
                     var10 = var2.skuId;
                     var9 = var2.slug;
                     var4 = undefined;
-                    SaveGenerator(address=48);
+                    SaveGenerator(address=47);
 case 4:
                     return var4;
 case 5:
@@ -101,7 +101,7 @@ case 23:
                     var8 = true;
                     var3['skipOnboarding'] = var8;
                     var3 = var6.bind(var7)(var3);
-                    SaveGenerator(address=291);
+                    SaveGenerator(address=290);
 case 24:
                     return var3;
 case 25:
@@ -121,7 +121,7 @@ case 20:
                     var6['shouldNavigate'] = var3;
                     var3 = {};
                     var3 = var7.bind(var8)(var12, var3, var6);
-                    SaveGenerator(address=348);
+                    SaveGenerator(address=347);
 case 27:
                     return var3;
 case 28:
@@ -216,17 +216,17 @@ case 0:
             var2 = var1.invite;
             var5 = var1.forceFetch;
             var1 = null;
-            if(!(var1 != var2)) { _fun0002_ip = 5; continue _fun0002 }
-case 30:
+            if(!(var1 != var2)) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var3 = var2.guild;
             var6 = var1 == var3;
             var2 = undefined;
-            if(var6) { _fun0002_ip = 31; continue _fun0002 }
+            if(var6) { _fun0002_ip = 4; continue _fun0002 }
 case 32:
             var2 = var3.id;
-case 31:
+case 4:
             var4 = var2;
-case 5:
+case 30:
             if(!(var1 != var4)) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
             var3 = _closure1_slot0;

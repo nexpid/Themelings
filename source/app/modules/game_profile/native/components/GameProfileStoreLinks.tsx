@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var7 = var1.application;
-            var4 = var1.supplementalGameData;
+            var4 = var1.game;
             var2 = var1.trackAction;
             var _closure2_slot0 = var2;
             var8 = var1.websiteButtons;

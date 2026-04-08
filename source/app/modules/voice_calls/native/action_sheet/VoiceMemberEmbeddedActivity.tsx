@@ -107,31 +107,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = 12;
     var10 = {'paddingTop': 12, 'paddingBottom': 16, 'flexDirection': 'column', 'display': 'flex', 'justifyContent': 'flex-start'};
     var5['voiceMemberItemRow'] = var10;
+    var15 = 'center';
     var10 = {'paddingHorizontal': 16, 'alignItems': 'center'};
     var5['innerRow'] = var10;
     var10 = {'marginBottom': 8, 'flexDirection': 'row', 'display': 'flex'};
     var5['activityDetails'] = var10;
     var5['appIcon'] = var11;
     var10 = {};
-    var19 = var10;
-    var18 = var11;
-    var11 = copyDataProperties(var19, var18);
+    var20 = var10;
+    var19 = var11;
+    var11 = copyDataProperties(var20, var19);
     var11 = 11;
-    var15 = var7[var11];
-    var15 = var12.bind(var1)(var15);
-    var15 = var15.colors;
-    var16 = var15.INTERACTIVE_TEXT_DEFAULT;
-    var15 = 'tintColor';
-    var10[14] = var16;
+    var16 = var7[var11];
+    var16 = var12.bind(var1)(var16);
+    var16 = var16.colors;
+    var17 = var16.INTERACTIVE_TEXT_DEFAULT;
+    var16 = 'tintColor';
+    var10[15] = var17;
     var5['appIconPlaceholder'] = var10;
     var10 = {'flex': 1, 'paddingRight': 4};
     var5['centerGroup'] = var10;
     var10 = {};
-    var15 = 20;
-    var10['lineHeight'] = var15;
+    var16 = 20;
+    var10['lineHeight'] = var16;
     var5['applicationName'] = var10;
-    var10 = {'borderRadius': 100, 'paddingHorizontal': 24, 'alignSelf': 'center'};
+    var10 = {};
+    var10['alignSelf'] = var15;
     var5['joinButton'] = var10;
+    var10 = {'borderRadius': 100, 'paddingHorizontal': 24};
+    var5['joinButtonPill'] = var10;
     var10 = {'alignItems': 'center', 'justifyContent': 'center', 'display': 'flex', 'width': '100%', 'paddingHorizontal': 16};
     var5['joinButtonContainer'] = var10;
     var10 = {};
@@ -172,7 +176,7 @@ case 0:
             var _closure2_slot0 = var8;
             var2 = var1.onItemPress;
             var _closure2_slot1 = var2;
-            var17 = var1.isActionSheet;
+            var18 = var1.isActionSheet;
             var5 = undefined;
             var _closure2_slot2 = var5;
             var _closure2_slot3 = var5;
@@ -206,7 +210,7 @@ case 4:
             };
             var _closure2_slot8 = var1;
             var1 = _closure1_slot15;
-            var25 = var1.bind(var5)();
+            var21 = var1.bind(var5)();
             var3 = _closure1_slot1;
             var1 = _closure1_slot2;
             var2 = 13;
@@ -220,8 +224,8 @@ case 4:
             var2 = 1;
             var3 = var3.bind(var5)(var4, var2);
             var2 = 0;
-            var20 = var3[var2];
-            _closure2_slot2 = var20;
+            var23 = var3[var2];
+            _closure2_slot2 = var23;
             var3 = global;
             var7 = var3.Array;
             var4 = var7.from;
@@ -311,8 +315,8 @@ case 6:
             var6 = var6.location;
             var6 = var7.bind(var9)(var6);
             var _closure2_slot5 = var6;
-            var19 = 17;
-            var1 = var1[var19];
+            var20 = 17;
+            var1 = var1[var20];
             var7 = var4.bind(var5)(var1);
             var6 = var7.useEmbeddedActivityJoinability;
             var4 = {};
@@ -328,9 +332,9 @@ case 11:
 case 10:
             var4['userId'] = var9;
             var4['channelId'] = var8;
-            var4['application'] = var20;
-            var18 = var6.bind(var7)(var4);
-            _closure2_slot6 = var18;
+            var4['application'] = var23;
+            var19 = var6.bind(var7)(var4);
+            _closure2_slot6 = var19;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 18;
@@ -344,13 +348,13 @@ case 10:
             var3 = var4.bind(var6)(var3, var7);
             var4 = _closure1_slot17;
             var11 = var4.bind(var5)(var3);
-            if(!(var1 != var20)) { _fun0001_ip = 12; continue _fun0001 }
+            if(!(var1 != var23)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             if(!(var1 != var2)) { _fun0001_ip = 12; continue _fun0001 }
 case 14:
-            var4 = var20.getIconSource;
+            var4 = var23.getIconSource;
             var2 = 32;
-            var12 = var4.bind(var20)(var2);
+            var12 = var4.bind(var23)(var2);
             if(!(var1 == var12)) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
             var4 = _closure1_slot1;
@@ -359,7 +363,7 @@ case 16:
             var2 = var6[var2];
             var12 = var4.bind(var5)(var2);
 case 15:
-            var27 = var20.name;
+            var27 = var23.name;
             var2 = function onEmbeddedActivityItemPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -377,7 +381,7 @@ case 15:
             };
             _closure2_slot7 = var2;
             var2 = _closure1_slot16;
-            var21 = var2.bind(var5)(var3);
+            var25 = var2.bind(var5)(var3);
             var4 = _closure1_slot10;
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -388,12 +392,12 @@ case 15:
             var2 = {};
             var6 = 'button';
             var2['accessibilityRole'] = var6;
-            var23 = 22;
-            var6 = var16[var23];
+            var24 = 22;
+            var6 = var16[var24];
             var6 = var7.bind(var5)(var6);
             var9 = var6.intl;
             var8 = var9.formatToPlainString;
-            var6 = var16[var23];
+            var6 = var16[var24];
             var6 = var7.bind(var5)(var6);
             var6 = var6.t;
             var7 = var6.Yw5Hr2;
@@ -413,7 +417,7 @@ case 15:
             var8 = _closure1_slot11;
             var7 = _closure1_slot5;
             var6 = {};
-            var10 = var25.voiceMemberItemRow;
+            var10 = var21.voiceMemberItemRow;
             var9 = new Array(2);
             var9[0] = var10;
             var10 = {};
@@ -421,10 +425,10 @@ case 15:
             var9[1] = var10;
             var6['style'] = var9;
             var9 = {};
-            var11 = var25.innerRow;
+            var11 = var21.innerRow;
             var10 = new Array(2);
             var10[0] = var11;
-            var11 = var25.activityDetails;
+            var11 = var21.activityDetails;
             var10[1] = var11;
             var9['style'] = var10;
             var11 = _closure1_slot4;
@@ -435,10 +439,10 @@ case 15:
             var13 = var15.bind(var5)(var13);
             if(!(var12 !== var13)) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var13 = var25.appIcon;
+            var13 = var21.appIcon;
             _fun0001_ip = 19; continue _fun0001;
 case 17:
-            var13 = var25.appIconPlaceholder;
+            var13 = var21.appIconPlaceholder;
 case 19:
             var10['style'] = var13;
             var10['source'] = var12;
@@ -448,19 +452,19 @@ case 19:
             var13 = _closure1_slot10;
             var15 = _closure1_slot5;
             var12 = {};
-            var11 = var25.centerGroup;
+            var11 = var21.centerGroup;
             var12['style'] = var11;
-            var22 = _closure1_slot0;
+            var26 = _closure1_slot0;
             var11 = _closure1_slot2;
             var16 = 23;
             var16 = var11[var16];
-            var16 = var22.bind(var5)(var16);
-            var22 = var16.Text;
+            var16 = var26.bind(var5)(var16);
+            var26 = var16.Text;
             var16 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
-            var28 = var25.applicationName;
+            var28 = var21.applicationName;
             var16['style'] = var28;
             var16['children'] = var27;
-            var16 = var13.bind(var5)(var22, var16);
+            var16 = var13.bind(var5)(var26, var16);
             var12['children'] = var16;
             var12 = var13.bind(var5)(var15, var12);
             var10[1] = var12;
@@ -471,22 +475,22 @@ case 19:
             var11 = {};
             var16 = -6;
             var11['offsetAmount'] = var16;
-            var22 = var25.overflow;
+            var26 = var21.overflow;
             var16 = new Array(2);
-            var16[0] = var22;
-            if(var17) { _fun0001_ip = 20; continue _fun0001 }
+            var16[0] = var26;
+            if(var18) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var17 = var25.overflowBackgroundColor;
+            var18 = var21.overflowBackgroundColor;
             _fun0001_ip = 22; continue _fun0001;
 case 20:
-            var17 = var25.overflowBackgroundColorActionSheet;
+            var18 = var21.overflowBackgroundColorActionSheet;
 case 22:
-            var16[1] = var17;
+            var16[1] = var18;
             var11['overflowStyle'] = var16;
-            var17 = _closure1_slot0;
+            var18 = _closure1_slot0;
             var16 = _closure1_slot2;
             var15 = var16[var15];
-            var15 = var17.bind(var5)(var15);
+            var15 = var18.bind(var5)(var15);
             var15 = var15.OverflowText;
             var11['overflowComponent'] = var15;
             var11['items'] = var14;
@@ -550,11 +554,11 @@ case 23:
             var12 = _closure1_slot11;
             var11 = _closure1_slot5;
             var10 = {};
-            var14 = var25.innerRow;
+            var14 = var21.innerRow;
             var13 = new Array(2);
             var13[0] = var14;
             var14 = {};
-            var15 = var21.height;
+            var15 = var25.height;
             var14['height'] = var15;
             var15 = 'center';
             var14['justifyContent'] = var15;
@@ -566,68 +570,67 @@ case 23:
             var13 = var16[var13];
             var14 = var14.bind(var5)(var13);
             var13 = {};
-            var13['application'] = var20;
-            var20 = {};
-            var22 = 'absolute';
-            var20['position'] = var22;
-            var22 = var21.width;
-            var20['width'] = var22;
-            var21 = var21.height;
-            var20['height'] = var21;
-            var13['dimensionsStyle'] = var20;
-            var20 = 8;
-            var13['borderRadius'] = var20;
-            var20 = 'contain';
-            var13['resizeMode'] = var20;
+            var13['application'] = var23;
+            var23 = {};
+            var26 = 'absolute';
+            var23['position'] = var26;
+            var26 = var25.width;
+            var23['width'] = var26;
+            var25 = var25.height;
+            var23['height'] = var25;
+            var13['dimensionsStyle'] = var23;
+            var23 = 8;
+            var13['borderRadius'] = var23;
+            var23 = 'contain';
+            var13['resizeMode'] = var23;
             var14 = var15.bind(var5)(var14, var13);
             var13 = new Array(2);
             var13[0] = var14;
             var14 = {};
-            var20 = var25.joinButtonContainer;
-            var14['style'] = var20;
-            var16 = var16[var19];
-            var16 = var17.bind(var5)(var16);
+            var23 = var21.joinButtonContainer;
+            var14['style'] = var23;
+            var16 = var16[var20];
+            var16 = var18.bind(var5)(var16);
             var16 = var16.EmbeddedActivityJoinability;
-            var17 = var16.CAN_JOIN;
+            var18 = var16.CAN_JOIN;
             var16 = null;
-            if(!(var18 === var17)) { _fun0001_ip = 25; continue _fun0001 }
+            if(!(var19 === var18)) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
             var19 = _closure1_slot10;
-            var21 = _closure1_slot1;
-            var22 = _closure1_slot2;
-            var20 = 26;
-            var17 = var22[var20];
-            var18 = var21.bind(var5)(var17);
+            var23 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var17 = 26;
+            var17 = var20[var17];
+            var17 = var23.bind(var5)(var17);
+            var18 = var17.BaseTextButton;
             var17 = {};
-            var26 = function onPress() {
+            var22 = function onPress() {
                 var2 = _closure2_slot7;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var17['onPress'] = var26;
-            var25 = var25.joinButton;
-            var17['style'] = var25;
-            var26 = _closure1_slot0;
-            var24 = var22[var23];
-            var24 = var26.bind(var5)(var24);
-            var25 = var24.intl;
-            var24 = var25.string;
-            var23 = var22[var23];
-            var23 = var26.bind(var5)(var23);
-            var23 = var23.t;
-            var23 = var23["4i2vj+"];
-            var23 = var24.bind(var25)(var23);
-            var17['text'] = var23;
-            var20 = var22[var20];
-            var20 = var21.bind(var5)(var20);
-            var20 = var20.Colors;
-            var20 = var20.GREY;
-            var17['color'] = var20;
+            var17['onPress'] = var22;
+            var22 = var21.joinButton;
+            var17['style'] = var22;
+            var21 = var21.joinButtonPill;
+            var17['pillStyle'] = var21;
+            var21 = var20[var24];
+            var21 = var23.bind(var5)(var21);
+            var22 = var21.intl;
+            var21 = var22.string;
+            var20 = var20[var24];
+            var20 = var23.bind(var5)(var20);
+            var20 = var20.t;
+            var20 = var20["4i2vj+"];
+            var20 = var21.bind(var22)(var20);
+            var17['text'] = var20;
+            var20 = 'secondary';
+            var17['variant'] = var20;
+            var20 = 'sm';
+            var17['size'] = var20;
             var20 = true;
             var17['shrink'] = var20;
-            var20 = 100;
-            var17['cornerRadius'] = var20;
             var16 = var19.bind(var5)(var18, var17);
 case 25:
             var14['children'] = var16;

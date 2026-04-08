@@ -582,7 +582,7 @@ case 87:
                     var7 = !var5;
                     var5 = !var7;
                     if(!var7) { _fun0006_ip = 88; continue _fun0006 }
-case 71:
+case 89:
                     var7 = global;
                     var8 = var7.Promise;
                     var7 = var8.prototype;
@@ -692,17 +692,17 @@ case 40:
                     var5 = undefined;
                     var2 = var2.bind(var5)(var3);
                     SaveGenerator(address=66);
-case 89:
-                    return var2;
 case 90:
+                    return var2;
+case 91:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0008_ip = 91; continue _fun0008 }
-case 92:
-                    if(var2) { _fun0008_ip = 93; continue _fun0008 }
-case 94:
+                    if(var3) { _fun0008_ip = 92; continue _fun0008 }
+case 93:
+                    if(var2) { _fun0008_ip = 94; continue _fun0008 }
+case 95:
                     var3 = false;
                     return var3;
-case 93:
+case 94:
                     var3 = function confirmActivityAgeGate() {
                         var1 = undefined;
                         var4 = _closure1_slot10;
@@ -717,15 +717,15 @@ case 93:
                     SaveGenerator(address=94);
 case 77:
                     return var3;
-case 95:
+case 96:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
                     if(var7) { _fun0008_ip = 33; continue _fun0008 }
-case 96:
-                    if(var3) { _fun0008_ip = 97; continue _fun0008 }
+case 97:
+                    if(var3) { _fun0008_ip = 98; continue _fun0008 }
 case 37:
                     var7 = false;
                     return var7;
-case 97:
+case 98:
                     var4 = function confirmExternalAppLaunch() {
                         var1 = undefined;
                         var4 = _closure1_slot11;
@@ -738,12 +738,12 @@ case 97:
                     };
                     var4 = var4.bind(var5)(var6);
                     SaveGenerator(address=122);
-case 98:
+case 99:
                     return var4;
 case 20:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(var5) { _fun0008_ip = 51; continue _fun0008 }
-case 99:
+case 100:
                     var5 = !var4;
                     var5 = !var5;
                     return var5;
@@ -751,7 +751,7 @@ case 51:
                     return var4;
 case 33:
                     return var3;
-case 91:
+case 92:
                     return var2;
 case 54:
                     return var1;

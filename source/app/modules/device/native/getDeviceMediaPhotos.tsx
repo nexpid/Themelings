@@ -41,16 +41,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.batchSize;
-            var7 = var1.endCursor;
-            var10 = var1.lastAssetIndex;
-            var11 = var1.lastNodeImageUri;
+            var9 = var1.batchSize;
+            var8 = var1.endCursor;
+            var11 = var1.lastAssetIndex;
+            var12 = var1.lastNodeImageUri;
+            var7 = var1.extensions;
             var5 = var1.onFetched;
             var4 = var1.onError;
             var1 = undefined;
             if(!(var4 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = function h(arg1) {
+            var4 = function u(arg1) {
                 var5 = arg1;
                 var4 = _closure1_slot4;
                 var3 = var4.log;
@@ -77,37 +78,38 @@ case 3:
             };
 case 2:
             var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var3 = 3;
-            var3 = var9[var3];
+            var3 = var10[var3];
             var6 = var6.bind(var1)(var3);
             var3 = var6.isIOS;
             var3 = var3.bind(var6)();
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var3 = _closure1_slot3;
-            var9 = var3.CameraRollUtils;
-            var6 = var9.getPhotos;
+            var10 = var3.CameraRollUtils;
+            var6 = var10.getPhotos;
             var3 = {};
-            var3['first'] = var8;
-            var12 = 'All';
-            var3['assetType'] = var12;
-            var3['after'] = var11;
-            var3['offset'] = var10;
-            var6 = var6.bind(var9)(var3);
+            var3['first'] = var9;
+            var13 = 'All';
+            var3['assetType'] = var13;
+            var3['after'] = var12;
+            var3['offset'] = var11;
+            var3['extensions'] = var7;
+            var6 = var6.bind(var10)(var3);
             var3 = var6.then;
             var6 = var3.bind(var6)(var5);
             var3 = var6.catch;
             var3 = var3.bind(var6)(var4);
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var9 = _closure1_slot1;
+            var10 = _closure1_slot1;
             var3 = _closure1_slot2;
             var6 = 4;
             var3 = var3[var6];
-            var9 = var9.bind(var1)(var3);
+            var10 = var10.bind(var1)(var3);
             var3 = null;
-            if(!(var3 != var9)) { _fun0001_ip = 6; continue _fun0001 }
+            if(!(var3 != var10)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -115,8 +117,9 @@ case 7:
             var6 = var3.bind(var1)(var2);
             var3 = var6.getPhotos;
             var2 = {'first': null, 'groupTypes': 'Recents', 'assetType': 'All'};
-            var2['first'] = var8;
-            var2['after'] = var7;
+            var2['first'] = var9;
+            var2['after'] = var8;
+            var2['extensions'] = var7;
             var3 = var3.bind(var6)(var2);
             var2 = var3.then;
             var3 = var2.bind(var3)(var5);

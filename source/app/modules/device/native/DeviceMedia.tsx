@@ -36,68 +36,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.batchSize;
+            var9 = var1.batchSize;
+            var5 = var1.extensions;
             var1 = undefined;
             var _closure2_slot2 = var1;
-            var5 = _closure1_slot4;
-            var3 = var5.getState;
-            var7 = var3.bind(var5)();
-            var3 = var7.assets;
+            var6 = _closure1_slot4;
+            var3 = var6.getState;
+            var8 = var3.bind(var6)();
+            var3 = var8.assets;
             var _closure2_slot0 = var3;
-            var9 = var7.page;
-            var6 = var7.lastAssetIndex;
-            var _closure2_slot1 = var6;
-            var5 = var7.hasReachedEnd;
-            var7 = var7.endCursor;
-            var11 = null;
-            if(!(var11 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+            var10 = var8.page;
+            var7 = var8.lastAssetIndex;
+            var _closure2_slot1 = var7;
+            var6 = var8.hasReachedEnd;
+            var8 = var8.endCursor;
+            var12 = null;
+            if(!(var12 != var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var10 = var3.edges;
+            var11 = var3.edges;
             var3 = var3.edges;
-            var5 = var3.length;
+            var6 = var3.length;
             var3 = 1;
-            var5 = var5 - var3;
-            var10 = var10[var5];
-            var12 = var11 == var10;
-            var5 = undefined;
-            if(var12) { _fun0001_ip = 5; continue _fun0001 }
+            var6 = var6 - var3;
+            var11 = var11[var6];
+            var13 = var12 == var11;
+            var6 = undefined;
+            if(var13) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var10 = var10.node;
-            var12 = var11 == var10;
-            var5 = undefined;
-            if(var12) { _fun0001_ip = 5; continue _fun0001 }
+            var11 = var11.node;
+            var13 = var12 == var11;
+            var6 = undefined;
+            if(var13) { _fun0001_ip = 5; continue _fun0001 }
 case 7:
-            var5 = var10.image;
+            var6 = var11.image;
 case 5:
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var10 = 5;
-            var10 = var13[var10];
-            var12 = var12.bind(var1)(var10);
-            var10 = var12.isIOS;
-            var10 = var10.bind(var12)();
-            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var11 = 5;
+            var11 = var14[var11];
+            var13 = var13.bind(var1)(var11);
+            var11 = var13.isIOS;
+            var11 = var11.bind(var13)();
+            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            if(!(var11 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var12 != var6)) { _fun0001_ip = 2; continue _fun0001 }
 case 10:
-            var10 = var5.uri;
-            if(!(var11 != var10)) { _fun0001_ip = 2; continue _fun0001 }
+            var11 = var6.uri;
+            if(!(var12 != var11)) { _fun0001_ip = 2; continue _fun0001 }
 case 8:
-            var3 = var9 + var3;
+            var3 = var10 + var3;
             _closure2_slot2 = var3;
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var2 = 4;
-            var2 = var9[var2];
+            var2 = var10[var2];
             var3 = var3.bind(var1)(var2);
             var2 = {};
-            var2['batchSize'] = var8;
-            var2['endCursor'] = var7;
-            var2['lastAssetIndex'] = var6;
-            var5 = var5.uri;
-            var2['lastNodeImageUri'] = var5;
+            var2['batchSize'] = var9;
+            var2['endCursor'] = var8;
+            var2['lastAssetIndex'] = var7;
+            var6 = var6.uri;
+            var2['lastNodeImageUri'] = var6;
+            var2['extensions'] = var5;
             var4 = function onFetched(arg1) {
                 var3 = function applyStateUpdate(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -258,8 +260,9 @@ case 2:
     var2['getNextAssetPage'] = var7;
     var7 = function refreshAssets(arg1) {
         var1 = arg1;
-        var5 = var1.batchSize;
-        var _closure2_slot0 = var5;
+        var6 = var1.batchSize;
+        var _closure2_slot0 = var6;
+        var5 = var1.extensions;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 4;
@@ -267,7 +270,8 @@ case 2:
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
         var2 = {};
-        var2['batchSize'] = var5;
+        var2['batchSize'] = var6;
+        var2['extensions'] = var5;
         var4 = function onFetched(arg1) {
             var3 = function applyStateUpdate(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -353,12 +357,12 @@ case 42:
                     var10 = var9 == var8;
                     var7 = undefined;
                     if(var10) { _fun0004_ip = 43; continue _fun0004 }
-case 6:
+case 44:
                     var8 = var8.edges;
                     var9 = var9 == var8;
                     var7 = undefined;
                     if(var9) { _fun0004_ip = 43; continue _fun0004 }
-case 7:
+case 45:
                     var7 = var8.length;
 case 43:
                     var3['num_assets'] = var7;
@@ -388,35 +392,35 @@ case 0:
                             var8 = var5 == var1;
                             var1 = undefined;
                             var6 = undefined;
-                            if(var8) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+                            if(var8) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
                             var8 = _closure4_slot0;
                             var8 = var8.page_info;
                             var9 = var5 == var8;
                             var6 = undefined;
-                            if(var9) { _fun0006_ip = 44; continue _fun0006 }
-case 46:
+                            if(var9) { _fun0006_ip = 46; continue _fun0006 }
+case 48:
                             var6 = var8.end_cursor;
-case 44:
+case 46:
                             var2['endCursor'] = var6;
                             var6 = _closure4_slot0;
                             var8 = var5 == var6;
                             var6 = undefined;
-                            if(var8) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+                            if(var8) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
                             var7 = _closure4_slot0;
                             var7 = var7.page_info;
                             var8 = var5 == var7;
                             var6 = undefined;
-                            if(var8) { _fun0006_ip = 47; continue _fun0006 }
-case 49:
-                            var6 = var7.has_next_page;
-case 47:
-                            var5 = var5 == var6;
-                            if(var5) { _fun0006_ip = 50; continue _fun0006 }
+                            if(var8) { _fun0006_ip = 49; continue _fun0006 }
 case 51:
+                            var6 = var7.has_next_page;
+case 49:
+                            var5 = var5 == var6;
+                            if(var5) { _fun0006_ip = 52; continue _fun0006 }
+case 53:
                             var5 = var6;
-case 50:
+case 52:
                             var5 = !var5;
                             var2['hasReachedEnd'] = var5;
                             var2 = var3.bind(var4)(var2);

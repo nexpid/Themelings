@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot9 = var4;
-    var4 = 50;
+    var4 = 51;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -73,14 +73,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 46;
+            var2 = 47;
             var2 = var7[var2];
             var5 = undefined;
             var2 = var4.bind(var5)(var2);
             var2 = var2.bind(var5)();
             var3 = var2.bottom;
             var _closure2_slot0 = var3;
-            var2 = 47;
+            var2 = 48;
             var2 = var7[var2];
             var4 = var4.bind(var5)(var2);
             var2 = function() {
@@ -92,7 +92,7 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var _closure2_slot1 = var2;
             var6 = _closure1_slot0;
-            var4 = 48;
+            var4 = 49;
             var4 = var7[var4];
             var8 = var6.bind(var5)(var4);
             var7 = var8.useStateFromStores;
@@ -1324,19 +1324,19 @@ case 3:
                         };
                         var3['render'] = var7;
                         var1[5] = var3;
-                        var3 = var2.ROLE_SUBSCRIPTIONS_TIER_TEMPLATE_SELECTION;
-                        var2 = {};
-                        var6 = var10[var5];
-                        var6 = var9.bind(var8)(var6);
-                        var7 = var6.intl;
-                        var6 = var7.string;
-                        var5 = var10[var5];
-                        var5 = var9.bind(var8)(var5);
-                        var5 = var5.t;
-                        var5 = var5.KzCF/6;
-                        var5 = var6.bind(var7)(var5);
-                        var2['title'] = var5;
-                        var4 = function render(arg1) {
+                        var6 = var2.ROLE_SUBSCRIPTIONS_TIER_TEMPLATE_SELECTION;
+                        var3 = {};
+                        var7 = var10[var5];
+                        var7 = var9.bind(var8)(var7);
+                        var12 = var7.intl;
+                        var11 = var12.string;
+                        var7 = var10[var5];
+                        var7 = var9.bind(var8)(var7);
+                        var7 = var7.t;
+                        var7 = var7.KzCF/6;
+                        var7 = var11.bind(var12)(var7);
+                        var3['title'] = var7;
+                        var7 = function render(arg1) {
                             var4 = _closure1_slot9;
                             var2 = _closure1_slot1;
                             var3 = _closure1_slot2;
@@ -1351,6 +1351,34 @@ case 3:
                             var6 = _closure4_slot0;
                             var5 = 'guildId';
                             var1[4] = var6;
+                            var1 = var4.bind(var3)(var2, var1);
+                            return var1;
+                        };
+                        var3['render'] = var7;
+                        var1[5] = var3;
+                        var3 = var2.OFFICIAL_MESSAGES;
+                        var2 = {};
+                        var6 = var10[var5];
+                        var6 = var9.bind(var8)(var6);
+                        var7 = var6.intl;
+                        var6 = var7.string;
+                        var5 = var10[var5];
+                        var5 = var9.bind(var8)(var5);
+                        var5 = var5.t;
+                        var5 = var5.xHEzFh;
+                        var5 = var6.bind(var7)(var5);
+                        var2['title'] = var5;
+                        var4 = function render() {
+                            var4 = _closure1_slot9;
+                            var2 = _closure1_slot1;
+                            var3 = _closure1_slot2;
+                            var1 = 46;
+                            var1 = var3[var1];
+                            var3 = undefined;
+                            var2 = var2.bind(var3)(var1);
+                            var1 = {};
+                            var5 = _closure4_slot0;
+                            var1['guildId'] = var5;
                             var1 = var4.bind(var3)(var2, var1);
                             return var1;
                         };
@@ -1434,7 +1462,7 @@ case 9:
             var4 = _closure1_slot9;
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 49;
+            var2 = 50;
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Navigator;

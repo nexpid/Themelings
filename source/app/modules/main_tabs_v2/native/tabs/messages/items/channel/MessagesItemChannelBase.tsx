@@ -213,14 +213,14 @@ case 6:
             var7 = _closure1_slot1;
             var6 = 16;
             var6 = var3[var6];
-            var7 = var7.bind(var4)(var6);
+            var8 = var7.bind(var4)(var6);
             var6 = 'MessagesItemChannelBase';
-            var7 = var7.bind(var4)(var6);
+            var8 = var8.bind(var4)(var6);
             var6 = _closure1_slot18;
-            var26 = var6.bind(var4)(var7);
+            var26 = var6.bind(var4)(var8);
             var _closure2_slot3 = var26;
             var9 = _closure1_slot4;
-            var7 = var9.useMemo;
+            var8 = var9.useMemo;
             var6 = new Array(1);
             var6[0] = var5;
             var5 = function() {
@@ -231,11 +231,11 @@ case 6:
                 var1['overflow'] = var2;
                 return var1;
             };
-            var6 = var7.bind(var9)(var5, var6);
-            var8 = var9.useMemo;
-            var7 = new Array(2);
-            var7[0] = var26;
-            var7[1] = var23;
+            var6 = var8.bind(var9)(var5, var6);
+            var10 = var9.useMemo;
+            var8 = new Array(2);
+            var8[0] = var26;
+            var8[1] = var23;
             var5 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -254,13 +254,13 @@ case 8:
                     return var1;
                 }
             };
-            var8 = var8.bind(var9)(var5, var7);
+            var8 = var10.bind(var9)(var5, var8);
             var5 = var3[var1];
-            var11 = var2.bind(var4)(var5);
-            var10 = var11.useStateFromStoresObject;
+            var12 = var2.bind(var4)(var5);
+            var11 = var12.useStateFromStoresObject;
             var5 = _closure1_slot7;
-            var7 = new Array(1);
-            var7[0] = var5;
+            var10 = new Array(1);
+            var10[0] = var5;
             var5 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -302,15 +302,15 @@ case 14:
                     return var1;
                 }
             };
-            var5 = var10.bind(var11)(var7, var5);
+            var5 = var11.bind(var12)(var10, var5);
             var27 = var5.status;
             var19 = var5.activities;
             var5 = var3[var1];
-            var11 = var2.bind(var4)(var5);
-            var10 = var11.useStateFromStores;
+            var12 = var2.bind(var4)(var5);
+            var11 = var12.useStateFromStores;
             var5 = _closure1_slot8;
-            var7 = new Array(1);
-            var7[0] = var5;
+            var10 = new Array(1);
+            var10[0] = var5;
             var5 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -341,7 +341,14 @@ case 12:
                     return var1;
                 }
             };
-            var14 = var10.bind(var11)(var7, var5);
+            var14 = var11.bind(var12)(var10, var5);
+            var5 = 17;
+            var5 = var3[var5];
+            var7 = var7.bind(var4)(var5);
+            var5 = var24.id;
+            var5 = var7.bind(var4)(var5);
+            var33 = var5.isIncomingCall;
+            var32 = var5.isOngoingCall;
             var5 = var3[var1];
             var11 = var2.bind(var4)(var5);
             var10 = var11.useStateFromStoresObject;
@@ -455,7 +462,7 @@ case 22:
             var1 = 1;
             var1 = var9[var1];
             var _closure2_slot4 = var1;
-            var1 = 17;
+            var1 = 18;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.useNameplate;
@@ -483,7 +490,7 @@ case 24:
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 18;
+                var1 = 19;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -554,7 +561,7 @@ case 14:
 case 30:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 19;
+                    var3 = 20;
                     var3 = var5[var3];
                     var8 = undefined;
                     var6 = var4.bind(var8)(var3);
@@ -625,7 +632,7 @@ case 43:
 case 28:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 21;
                     var3 = var3[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);
@@ -644,7 +651,7 @@ case 28:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -663,7 +670,7 @@ case 28:
             var7 = _closure1_slot17;
             var29 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var5 = 22;
+            var5 = 23;
             var5 = var11[var5];
             var5 = var29.bind(var4)(var5);
             var6 = var5.PressableHighlight;
@@ -675,12 +682,14 @@ case 28:
             var9 = 'button';
             var5['accessibilityRole'] = var9;
             var9 = _closure1_slot1;
-            var28 = 23;
+            var28 = 24;
             var30 = var11[var28];
             var31 = var9.bind(var4)(var30);
             var30 = {};
             var30['channel'] = var24;
             var30['unread'] = var14;
+            var30['isIncomingCall'] = var33;
+            var30['isOngoingCall'] = var32;
             var30 = var31.bind(var4)(var30);
             var5['accessibilityLabel'] = var30;
             var28 = var11[var28];
@@ -696,7 +705,7 @@ case 28:
             var28 = var28.backgroundColor;
             var5['underlayColor'] = var28;
             var5['style'] = var8;
-            var8 = 24;
+            var8 = 25;
             var8 = var11[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
@@ -740,7 +749,7 @@ case 51:
             var11 = _closure1_slot16;
             var10 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var9 = 25;
+            var9 = 26;
             var9 = var25[var9];
             var26 = var10.bind(var4)(var9);
             var9 = {};
@@ -748,7 +757,7 @@ case 51:
             var9['resolvedUnreadSetting'] = var13;
             var9['muted'] = var21;
             var28 = _closure1_slot0;
-            var16 = 26;
+            var16 = 27;
             var16 = var25[var16];
             var16 = var28.bind(var4)(var16);
             var16 = var16.ChannelListLayoutTypes;
@@ -758,7 +767,7 @@ case 51:
             var9['panelVariant'] = var16;
             var9 = var11.bind(var4)(var26, var9);
             var8[2] = var9;
-            var9 = 27;
+            var9 = 28;
             var9 = var25[var9];
             var26 = var10.bind(var4)(var9);
             var9 = {};
@@ -768,7 +777,7 @@ case 51:
             var9['muted'] = var21;
             var9['ignored'] = var20;
             var9['blocked'] = var18;
-            var28 = 28;
+            var28 = 29;
             var28 = var25[var28];
             var28 = var10.bind(var4)(var28);
             var28 = var28.bind(var4)(var19);
@@ -776,7 +785,7 @@ case 51:
             var9['status'] = var27;
             var9 = var11.bind(var4)(var26, var9);
             var8[3] = var9;
-            var9 = 29;
+            var9 = 30;
             var9 = var25[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -816,7 +825,7 @@ case 53:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 30;
+    var5 = 31;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

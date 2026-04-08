@@ -59,38 +59,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.application;
-            var2 = var1.supplementalGameData;
-            var12 = var1.trackAction;
-            var _closure2_slot0 = var12;
+            var3 = var1.game;
+            var10 = var1.trackAction;
+            var _closure2_slot0 = var10;
             var1 = _closure1_slot8;
             var5 = undefined;
             var6 = var1.bind(var5)();
-            var10 = _closure1_slot3;
-            var7 = var10.useState;
+            var9 = _closure1_slot3;
+            var4 = var9.useState;
             var1 = false;
-            var1 = var7.bind(var10)(var1);
-            var14 = _closure1_slot2;
-            var13 = 2;
-            var1 = var14.bind(var5)(var1, var13);
+            var1 = var4.bind(var9)(var1);
+            var13 = _closure1_slot2;
+            var12 = 2;
+            var1 = var13.bind(var5)(var1, var12);
             var8 = 0;
             var16 = var1[var8];
             var _closure2_slot1 = var16;
-            var9 = 1;
-            var1 = var1[var9];
+            var7 = 1;
+            var1 = var1[var7];
             var _closure2_slot2 = var1;
-            var7 = var10.useState;
+            var4 = var9.useState;
             var1 = null;
-            var7 = var7.bind(var10)(var1);
-            var7 = var14.bind(var5)(var7, var13);
-            var8 = var7[var8];
+            var4 = var4.bind(var9)(var1);
+            var4 = var13.bind(var5)(var4, var12);
+            var8 = var4[var8];
             var _closure2_slot3 = var8;
-            var7 = var7[var9];
-            var _closure2_slot4 = var7;
-            var13 = var10.useCallback;
-            var9 = new Array(1);
-            var9[0] = var8;
-            var7 = function(arg1) {
+            var4 = var4[var7];
+            var _closure2_slot4 = var4;
+            var12 = var9.useCallback;
+            var7 = new Array(1);
+            var7[0] = var8;
+            var4 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure2_slot3;
@@ -111,12 +110,12 @@ case 2:
                     return var1;
                 }
             };
-            var15 = var13.bind(var10)(var7, var9);
-            var9 = var10.useCallback;
-            var7 = new Array(2);
-            var7[0] = var16;
-            var7[1] = var12;
-            var4 = function() {
+            var15 = var12.bind(var9)(var4, var7);
+            var7 = var9.useCallback;
+            var4 = new Array(2);
+            var4[0] = var16;
+            var4[1] = var10;
+            var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot1;
@@ -142,12 +141,12 @@ case 6:
                     return var1;
                 }
             };
-            var12 = var9.bind(var10)(var4, var7);
-            var4 = var1 == var2;
+            var12 = var7.bind(var9)(var2, var4);
+            var2 = var1 == var3;
             var10 = undefined;
-            if(var4) { _fun0001_ip = 7; continue _fun0001 }
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var10 = var2.summary;
+            var10 = var3.summaryLocalized;
 case 7:
             if(!(var1 == var10)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:

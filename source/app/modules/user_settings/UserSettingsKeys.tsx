@@ -190,6 +190,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SESSIONS_CURRENT_SESSION_SETTING'] = var1;
     var1 = 'sessions_other_sessions_setting';
     var2['SESSIONS_OTHER_SESSIONS_SETTING'] = var1;
+    var1 = 'sessions_logout_all_sessions_setting';
+    var2['SESSIONS_LOGOUT_ALL_SESSIONS_SETTING'] = var1;
     var1 = 'authorized_apps_sidebar_item';
     var2['AUTHORIZED_APPS_SIDEBAR_ITEM'] = var1;
     var1 = 'authorized_apps_panel';

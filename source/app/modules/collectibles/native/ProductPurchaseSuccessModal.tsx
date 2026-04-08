@@ -540,20 +540,20 @@ case 31:
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useCurrentUser;
-            var35 = var2.bind(var3)();
+            var34 = var2.bind(var3)();
             var3 = _closure1_slot1;
             var2 = 19;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var37.styles;
             var2 = var3.bind(var4)(var2);
-            var42 = var2.backgroundColors;
+            var41 = var2.backgroundColors;
             var24 = null;
-            var3 = var24 == var42;
+            var3 = var24 == var41;
             var2 = undefined;
             if(var3) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
-            var2 = var42.tertiary;
+            var2 = var41.tertiary;
 case 33:
             var5 = var24 != var2;
             var3 = _closure1_slot15;
@@ -944,12 +944,12 @@ case 46:
 case 49:
             var13 = var2.mobileBgUrl;
 case 48:
-            var3 = _closure1_slot3;
-            var2 = var37.items;
-            var34 = 1;
-            var2 = var3.bind(var4)(var2, var34);
-            var40 = 0;
-            var33 = var2[var40];
+            var5 = _closure1_slot3;
+            var3 = var37.items;
+            var2 = 1;
+            var2 = var5.bind(var4)(var3, var2);
+            var35 = 0;
+            var33 = var2[var35];
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = 26;
@@ -962,9 +962,9 @@ case 48:
             var5 = var8.bind(var11)(var5);
             var22 = var5.handleUseNow;
             var23 = var5.isApplying;
-            var5 = var35.getAvatarSource;
-            var41 = false;
-            var31 = var5.bind(var35)(var4, var41, var6);
+            var5 = var34.getAvatarSource;
+            var40 = false;
+            var31 = var5.bind(var34)(var4, var40, var6);
             var5 = 27;
             var5 = var3[var5];
             var8 = var2.bind(var4)(var5);
@@ -1077,13 +1077,13 @@ case 54:
             var19 = _closure1_slot11;
             var18 = _closure1_slot16;
             var15 = {};
-            var43 = var24 == var42;
+            var42 = var24 == var41;
             var38 = undefined;
-            if(var43) { _fun0004_ip = 56; continue _fun0004 }
+            if(var42) { _fun0004_ip = 56; continue _fun0004 }
 case 57:
-            var43 = var42.label;
-            var42 = var43.toHexString;
-            var38 = var42.bind(var43)();
+            var42 = var41.label;
+            var41 = var42.toHexString;
+            var38 = var41.bind(var42)();
 case 56:
             if(!(var24 != var38)) { _fun0004_ip = 58; continue _fun0004 }
 case 59:
@@ -1176,16 +1176,16 @@ case 71:
             var36 = var9.previewBundle;
             var26['style'] = var36;
             var38 = _closure1_slot1;
-            var42 = _closure1_slot2;
+            var41 = _closure1_slot2;
             var36 = 37;
-            var36 = var42[var36];
+            var36 = var41[var36];
             var38 = var38.bind(var4)(var36);
             var36 = {};
-            var36['isPurchased'] = var41;
-            var41 = var39.firstAvatarDecoration;
-            var36['deco'] = var41;
-            var41 = var39.firstProfileEffect;
-            var36['pfx'] = var41;
+            var36['isPurchased'] = var40;
+            var40 = var39.firstAvatarDecoration;
+            var36['deco'] = var40;
+            var40 = var39.firstProfileEffect;
+            var36['pfx'] = var40;
             var39 = var39.firstNameplate;
             var36['nameplate'] = var39;
             var39 = 'large';
@@ -1204,9 +1204,9 @@ case 68:
             var26 = var28.bind(var4)(var26);
             var28 = var26.NameplatePreview;
             var26 = {};
-            var26['user'] = var35;
+            var26['user'] = var34;
             var36 = var37.items;
-            var36 = var36[var40];
+            var36 = var36[var35];
             var26['nameplate'] = var36;
             var26['animate'] = var21;
             var20 = var29.bind(var4)(var28, var26);
@@ -1215,35 +1215,17 @@ case 72:
 case 66:
             var29 = _closure1_slot11;
             var28 = _closure1_slot1;
-            var39 = _closure1_slot2;
+            var36 = _closure1_slot2;
             var26 = 35;
-            var26 = var39[var26];
+            var26 = var36[var26];
             var28 = var28.bind(var4)(var26);
             var26 = {};
-            var26['user'] = var35;
-            var35 = var9.profilePreview;
-            var26['style'] = var35;
-            var35 = var37.items;
-            var35 = var35[var40];
-            var26['pendingProfileEffectRecord'] = var35;
-            var26['bioLineClamp'] = var34;
-            var35 = _closure1_slot0;
-            var34 = 13;
-            var36 = var39[var34];
-            var36 = var35.bind(var4)(var36);
-            var38 = var36.intl;
-            var36 = var38.formatToPlainString;
-            var34 = var39[var34];
-            var34 = var35.bind(var4)(var34);
-            var34 = var34.t;
-            var35 = var34.mbHmX2;
-            var34 = {};
-            var39 = var37.items;
-            var39 = var39[var40];
-            var39 = var39.accessibilityLabel;
-            var34['a11y_text'] = var39;
-            var34 = var36.bind(var38)(var35, var34);
-            var26['accessibilityLabel'] = var34;
+            var26['user'] = var34;
+            var34 = var37.items;
+            var34 = var34[var35];
+            var26['profileEffect'] = var34;
+            var34 = var9.profilePreview;
+            var26['style'] = var34;
             var20 = var29.bind(var4)(var28, var26);
 case 73:
             _fun0004_ip = 74; continue _fun0004;

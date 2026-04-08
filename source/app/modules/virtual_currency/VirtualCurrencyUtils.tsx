@@ -58,7 +58,7 @@ case 4:
             return var1;
         }
     };
-    var3['getApplicationIdForOrbSKU'] = var4;
+    var3['get1PShopApplicationIdForSKU'] = var4;
     var2 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:

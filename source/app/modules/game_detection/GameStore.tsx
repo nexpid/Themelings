@@ -210,19 +210,15 @@ case 0:
                 var5 = _closure1_slot8;
                 var2 = var5.get;
                 var1 = arg1;
-                var5 = var2.bind(var5)(var1);
+                var7 = var2.bind(var5)(var1);
                 var1 = null;
-                var7 = var1 == var5;
+                var5 = var1 == var7;
                 var6 = undefined;
                 var2 = undefined;
-                if(var7) { _fun0003_ip = 9; continue _fun0003 }
+                if(var5) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var5 = var5.supplementalData;
-                var7 = var1 == var5;
-                var2 = undefined;
-                if(var7) { _fun0003_ip = 9; continue _fun0003 }
-case 7:
-                var2 = var5.coverImageUrl;
+                var5 = var7.getCoverURL;
+                var2 = var5.bind(var7)();
 case 9:
                 if(!(var1 != var2)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:

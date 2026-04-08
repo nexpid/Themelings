@@ -196,7 +196,7 @@ case 13:
                             var3 = 8;
                             var3 = var10[var3];
                             var10 = var9.bind(var6)(var3);
-                            var9 = var10.getApplicationIdForOrbSKU;
+                            var9 = var10.get1PShopApplicationIdForSKU;
                             var3 = var8;
                             var2 = var9.bind(var10)(var3);
 case 12:
@@ -336,7 +336,7 @@ case 22:
                             var9 = 8;
                             var9 = var18[var9];
                             var13 = var13.bind(var4)(var9);
-                            var9 = var13.getApplicationIdForOrbSKU;
+                            var9 = var13.get1PShopApplicationIdForSKU;
                             var18 = var16;
                             var13 = var9.bind(var13)(var18);
                             var12 = var13;

@@ -132,7 +132,7 @@ case 3:
             var18 = var14[var20];
             var18 = var13.bind(var5)(var18);
             var18 = var18.t;
-            var18 = var18.KM/slb;
+            var18 = var18["5DYPT8"];
             var18 = var21.bind(var22)(var18);
             var9['children'] = var18;
             var16 = var17.bind(var5)(var16, var9);
@@ -364,7 +364,7 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.supplementalGameData;
+            var2 = var1.game;
             var7 = var1.closeModal;
             var6 = var1.trackAction;
             var1 = null;

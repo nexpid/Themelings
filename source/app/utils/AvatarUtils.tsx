@@ -866,7 +866,7 @@ case 134: // try_end0
             var3 = var3.asset;
             var10 = var3;
             if(!(var1 != var3)) { _fun0010_ip = 135; continue _fun0010 }
-case 136:
+case 122:
             var3 = global;
             var9 = var3.window;
             var11 = var9.GLOBAL_ENV;
@@ -876,8 +876,8 @@ case 136:
             var13 = _closure1_slot3;
             var11 = var13.AVATAR_DECORATION_PRESETS;
             var7 = var11.bind(var13)(var10);
-            if(!(var1 == var9)) { _fun0010_ip = 137; continue _fun0010 }
-case 138:
+            if(!(var1 == var9)) { _fun0010_ip = 136; continue _fun0010 }
+case 137:
             var10 = var3.URL;
             var9 = var3.location;
             var15 = var9.protocol;
@@ -892,8 +892,8 @@ case 138:
             var20 = var9;
             var4 = new var20[var10](var19, var18);
             var4 = var4 instanceof Object ? var4 : var9;
-            _fun0010_ip = 113; continue _fun0010;
-case 137:
+            _fun0010_ip = 65; continue _fun0010;
+case 136:
             var9 = var3.URL;
             var11 = var8;
             var10 = var7;
@@ -906,7 +906,7 @@ case 137:
             var20 = var8;
             var7 = new var20[var9](var19, var18);
             var4 = var7 instanceof Object ? var7 : var8;
-case 113:
+case 65:
             var10 = var4.searchParams;
             var9 = var10.set;
             var13 = _closure1_slot0;
@@ -942,7 +942,7 @@ case 135:
             return var1;
 case 133:
             return var2;
-case 139: // catch_target0
+case 138: // catch_target0
             CatchBlockStart(arg_register=1);
             return var1;
 case 129:
@@ -972,18 +972,18 @@ case 2:
             var10 = var3.CDN_HOST;
             var13 = 'png';
             var4 = var13;
-            if(!var7) { _fun0011_ip = 140; continue _fun0011 }
+            if(!var7) { _fun0011_ip = 139; continue _fun0011 }
 case 83:
             var5 = _closure1_slot26;
             var6 = undefined;
             var5 = var5.bind(var6)(var8);
             var4 = var13;
-            if(!var5) { _fun0011_ip = 140; continue _fun0011 }
+            if(!var5) { _fun0011_ip = 139; continue _fun0011 }
 case 51:
             var5 = _closure1_slot31;
             var3 = _closure1_slot9;
             var4 = var5.bind(var6)(var3);
-case 140:
+case 139:
             var6 = _closure1_slot3;
             var5 = var6.GUILD_MEMBER_BANNER;
             var19 = var6;
@@ -993,8 +993,8 @@ case 140:
             var15 = var4;
             var6 = var19[var5](var18, var17, var16, var15, var14);
             var9 = var4;
-            if(!(var2 == var10)) { _fun0011_ip = 141; continue _fun0011 }
-case 142:
+            if(!(var2 == var10)) { _fun0011_ip = 140; continue _fun0011 }
+case 141:
             var2 = var1.location;
             var4 = var2.protocol;
             var2 = var1.window;
@@ -1003,7 +1003,7 @@ case 142:
             var2 = var4 + var2;
             var2 = var2 + var6;
             _fun0011_ip = 122; continue _fun0011;
-case 141:
+case 140:
             var4 = var1.HermesInternal;
             var5 = var4.concat;
             var4 = 'https://';
@@ -1027,19 +1027,19 @@ case 122:
             var4 = 'webp';
             var4 = var4 === var9;
             if(!var4) { _fun0011_ip = 103; continue _fun0011 }
-case 143:
+case 142:
             var4 = var7;
 case 103:
-            if(!var4) { _fun0011_ip = 144; continue _fun0011 }
+            if(!var4) { _fun0011_ip = 143; continue _fun0011 }
 case 123:
             var7 = _closure1_slot26;
             var4 = var7.bind(var6)(var8);
-case 144:
-            if(!var4) { _fun0011_ip = 145; continue _fun0011 }
+case 143:
+            if(!var4) { _fun0011_ip = 144; continue _fun0011 }
 case 124:
             var4 = true;
             var5['animated'] = var4;
-case 145:
+case 144:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 5;
@@ -1063,10 +1063,10 @@ case 0:
             var11 = var1.splash;
             var5 = var1.size;
             var1 = null;
-            if(!(var1 != var11)) { _fun0012_ip = 146; continue _fun0012 }
+            if(!(var1 != var11)) { _fun0012_ip = 145; continue _fun0012 }
 case 115:
             if(!(var1 == var5)) { _fun0012_ip = 8; continue _fun0012 }
-case 147:
+case 146:
             var2 = global;
             var2 = var2.window;
             var2 = var2.screen;
@@ -1094,7 +1094,7 @@ case 8:
             var4 = var4.GLOBAL_ENV;
             var10 = var4.CDN_HOST;
             if(!(var1 == var10)) { _fun0012_ip = 101; continue _fun0012 }
-case 148:
+case 147:
             var4 = var2.location;
             var6 = var4.protocol;
             var4 = var2.window;
@@ -1105,7 +1105,7 @@ case 148:
             var3 = var6.GUILD_SPLASH;
             var3 = var3.bind(var6)(var12, var11);
             var3 = var4 + var3;
-            _fun0012_ip = 149; continue _fun0012;
+            _fun0012_ip = 148; continue _fun0012;
 case 101:
             var4 = var2.HermesInternal;
             var9 = var4.concat;
@@ -1117,14 +1117,14 @@ case 101:
             var16 = var12;
             var14 = var11;
             var3 = var19[var9](var18, var17, var16, var15, var14, var13, var12);
-case 149:
+case 148:
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var2 = '?size=';
             var2 = var4.bind(var2)(var5);
             var2 = var3 + var2;
             return var2;
-case 146:
+case 145:
             return var1;
         }
     };
@@ -1137,12 +1137,12 @@ case 0:
             var17 = var1.id;
             var9 = var1.banner;
             var7 = undefined;
-            if(!(var8 === var7)) { _fun0013_ip = 150; continue _fun0013 }
+            if(!(var8 === var7)) { _fun0013_ip = 149; continue _fun0013 }
 case 71:
             var8 = false;
-case 150:
+case 149:
             var1 = null;
-            if(!(var1 != var9)) { _fun0013_ip = 151; continue _fun0013 }
+            if(!(var1 != var9)) { _fun0013_ip = 150; continue _fun0013 }
 case 90:
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -1160,28 +1160,28 @@ case 90:
             var2 = _closure1_slot9;
             var5 = 'jpg';
             var3 = var5;
-            if(!var2) { _fun0013_ip = 152; continue _fun0013 }
+            if(!var2) { _fun0013_ip = 151; continue _fun0013 }
 case 95:
             var3 = 'webp';
-case 152:
+case 151:
             var10 = var3;
-            if(!var8) { _fun0013_ip = 153; continue _fun0013 }
-case 154:
+            if(!var8) { _fun0013_ip = 152; continue _fun0013 }
+case 153:
             var2 = _closure1_slot26;
             var2 = var2.bind(var7)(var9);
             var10 = var3;
-            if(!var2) { _fun0013_ip = 153; continue _fun0013 }
-case 155:
+            if(!var2) { _fun0013_ip = 152; continue _fun0013 }
+case 154:
             var3 = _closure1_slot31;
             var2 = _closure1_slot9;
             var10 = var3.bind(var7)(var2);
-case 153:
+case 152:
             var2 = global;
             var3 = var2.window;
             var3 = var3.GLOBAL_ENV;
             var16 = var3.CDN_HOST;
-            if(!(var1 == var16)) { _fun0013_ip = 156; continue _fun0013 }
-case 157:
+            if(!(var1 == var16)) { _fun0013_ip = 155; continue _fun0013 }
+case 156:
             var3 = var2.location;
             var6 = var3.protocol;
             var3 = var2.window;
@@ -1192,8 +1192,8 @@ case 157:
             var3 = var12.GUILD_BANNER;
             var3 = var3.bind(var12)(var17, var9, var10);
             var3 = var6 + var3;
-            _fun0013_ip = 158; continue _fun0013;
-case 156:
+            _fun0013_ip = 157; continue _fun0013;
+case 155:
             var6 = var2.HermesInternal;
             var15 = var6.concat;
             var25 = 'https://';
@@ -1205,30 +1205,30 @@ case 156:
             var20 = var9;
             var18 = var10;
             var3 = var25[var15](var24, var23, var22, var21, var20, var19, var18, var17);
-case 158:
+case 157:
             var6 = {};
             var6['size'] = var11;
-            if(!(var5 === var10)) { _fun0013_ip = 159; continue _fun0013 }
-case 160:
+            if(!(var5 === var10)) { _fun0013_ip = 158; continue _fun0013 }
+case 159:
             var5 = 'lossless';
             var6['quality'] = var5;
-case 159:
+case 158:
             var5 = 'webp';
             var5 = var5 === var10;
-            if(!var5) { _fun0013_ip = 161; continue _fun0013 }
-case 162:
-            var5 = var8;
+            if(!var5) { _fun0013_ip = 160; continue _fun0013 }
 case 161:
-            if(!var5) { _fun0013_ip = 163; continue _fun0013 }
-case 164:
+            var5 = var8;
+case 160:
+            if(!var5) { _fun0013_ip = 162; continue _fun0013 }
+case 163:
             var8 = _closure1_slot26;
             var5 = var8.bind(var7)(var9);
-case 163:
-            if(!var5) { _fun0013_ip = 165; continue _fun0013 }
-case 166:
+case 162:
+            if(!var5) { _fun0013_ip = 164; continue _fun0013 }
+case 165:
             var5 = true;
             var6['animated'] = var5;
-case 165:
+case 164:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 5;
@@ -1242,7 +1242,7 @@ case 165:
             var2 = var4.bind(var2)(var5);
             var2 = var3 + var2;
             return var2;
-case 151:
+case 150:
             return var1;
         }
     };
@@ -1254,7 +1254,7 @@ case 0:
             var12 = var1.id;
             var11 = var1.homeHeader;
             var1 = null;
-            if(!(var1 != var11)) { _fun0014_ip = 167; continue _fun0014 }
+            if(!(var1 != var11)) { _fun0014_ip = 166; continue _fun0014 }
 case 71:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1274,8 +1274,8 @@ case 71:
             var4 = var2.window;
             var4 = var4.GLOBAL_ENV;
             var10 = var4.CDN_HOST;
-            if(!(var1 == var10)) { _fun0014_ip = 168; continue _fun0014 }
-case 169:
+            if(!(var1 == var10)) { _fun0014_ip = 167; continue _fun0014 }
+case 168:
             var4 = var2.location;
             var6 = var4.protocol;
             var4 = var2.window;
@@ -1286,8 +1286,8 @@ case 169:
             var3 = var6.GUILD_HOME_HEADER;
             var3 = var3.bind(var6)(var12, var11);
             var3 = var4 + var3;
-            _fun0014_ip = 170; continue _fun0014;
-case 168:
+            _fun0014_ip = 169; continue _fun0014;
+case 167:
             var4 = var2.HermesInternal;
             var9 = var4.concat;
             var19 = 'https://';
@@ -1298,14 +1298,14 @@ case 168:
             var16 = var12;
             var14 = var11;
             var3 = var19[var9](var18, var17, var16, var15, var14, var13, var12);
-case 170:
+case 169:
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var2 = '?size=';
             var2 = var4.bind(var2)(var5);
             var2 = var3 + var2;
             return var2;
-case 167:
+case 166:
             return var1;
         }
     };
@@ -1319,7 +1319,7 @@ case 0:
             var1 = null;
             var2 = var1 == var5;
             if(var2) { _fun0015_ip = 51; continue _fun0015 }
-case 171:
+case 170:
             var4 = _closure1_slot11;
             var3 = {};
             var7 = _closure1_slot3;
@@ -1350,7 +1350,7 @@ case 0:
             var1 = null;
             var2 = var1 == var5;
             if(var2) { _fun0016_ip = 51; continue _fun0016 }
-case 171:
+case 170:
             var4 = _closure1_slot11;
             var3 = {};
             var7 = _closure1_slot3;
@@ -1380,10 +1380,10 @@ case 0:
             var11 = var1.splash;
             var5 = var1.size;
             var1 = null;
-            if(!(var1 != var11)) { _fun0017_ip = 146; continue _fun0017 }
+            if(!(var1 != var11)) { _fun0017_ip = 145; continue _fun0017 }
 case 115:
             if(!(var1 == var5)) { _fun0017_ip = 8; continue _fun0017 }
-case 147:
+case 146:
             var2 = global;
             var2 = var2.window;
             var2 = var2.screen;
@@ -1411,7 +1411,7 @@ case 8:
             var4 = var4.GLOBAL_ENV;
             var10 = var4.CDN_HOST;
             if(!(var1 == var10)) { _fun0017_ip = 101; continue _fun0017 }
-case 148:
+case 147:
             var4 = var2.location;
             var6 = var4.protocol;
             var4 = var2.window;
@@ -1422,7 +1422,7 @@ case 148:
             var3 = var6.GUILD_DISCOVERY_SPLASH;
             var3 = var3.bind(var6)(var12, var11);
             var3 = var4 + var3;
-            _fun0017_ip = 149; continue _fun0017;
+            _fun0017_ip = 148; continue _fun0017;
 case 101:
             var4 = var2.HermesInternal;
             var9 = var4.concat;
@@ -1434,14 +1434,14 @@ case 101:
             var16 = var12;
             var14 = var11;
             var3 = var19[var9](var18, var17, var16, var15, var14, var13, var12);
-case 149:
+case 148:
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var2 = '?size=';
             var2 = var4.bind(var2)(var5);
             var2 = var3 + var2;
             return var2;
-case 146:
+case 145:
             return var1;
         }
     };
@@ -1455,10 +1455,10 @@ case 0:
             var7 = var1.size;
             var6 = var1.canAnimate;
             var3 = undefined;
-            if(!(var6 === var3)) { _fun0018_ip = 147; continue _fun0018 }
+            if(!(var6 === var3)) { _fun0018_ip = 146; continue _fun0018 }
 case 114:
             var6 = false;
-case 147:
+case 146:
             var5 = var1.lossless;
             if(!(var5 === var3)) { _fun0018_ip = 2; continue _fun0018 }
 case 3:
@@ -1492,14 +1492,14 @@ case 0:
             var5 = var1.size;
             var3 = undefined;
             if(!(var5 === var3)) { _fun0019_ip = 96; continue _fun0019 }
-case 172:
+case 171:
             var5 = _closure1_slot4;
 case 96:
             var4 = var1.canAnimate;
-            if(!(var4 === var3)) { _fun0019_ip = 173; continue _fun0019 }
-case 174:
-            var4 = false;
+            if(!(var4 === var3)) { _fun0019_ip = 172; continue _fun0019 }
 case 173:
+            var4 = false;
+case 172:
             var2 = _closure1_slot11;
             var1 = {};
             var8 = _closure1_slot3;
@@ -1527,14 +1527,14 @@ case 0:
             var8 = var1.size;
             var6 = undefined;
             if(!(var8 === var6)) { _fun0020_ip = 96; continue _fun0020 }
-case 172:
+case 171:
             var8 = _closure1_slot4;
 case 96:
             var12 = var1.bot;
             var2 = var1.botIconFirst;
             var5 = var1.fallbackAvatar;
             if(!(var5 === var6)) { _fun0020_ip = 116; continue _fun0020 }
-case 175:
+case 174:
             var5 = true;
 case 116:
             var7 = var1.keepAspectRatio;
@@ -1547,12 +1547,12 @@ case 47:
             var1 = var12.id;
 case 9:
             if(!(var4 != var1)) { _fun0020_ip = 121; continue _fun0020 }
-case 176:
+case 175:
             if(!(var4 != var11)) { _fun0020_ip = 121; continue _fun0020 }
 case 52:
             var1 = var11.avatar;
             if(!(var4 != var1)) { _fun0020_ip = 121; continue _fun0020 }
-case 177:
+case 176:
             var3 = _closure1_slot15;
             var1 = {};
             var13 = var12.id;
@@ -1565,44 +1565,44 @@ case 177:
             var1['canAnimate'] = var11;
             var1['size'] = var8;
             var1 = var3.bind(var6)(var1);
-            if(!(var4 == var1)) { _fun0020_ip = 165; continue _fun0020 }
+            if(!(var4 == var1)) { _fun0020_ip = 164; continue _fun0020 }
 case 121:
-            if(!(var4 != var12)) { _fun0020_ip = 178; continue _fun0020 }
+            if(!(var4 != var12)) { _fun0020_ip = 177; continue _fun0020 }
 case 18:
-            if(!var2) { _fun0020_ip = 178; continue _fun0020 }
+            if(!var2) { _fun0020_ip = 177; continue _fun0020 }
 case 21:
             var3 = _closure1_slot13;
             var2 = false;
             var2 = var3.bind(var6)(var12, var2, var8);
-            if(!(var4 == var2)) { _fun0020_ip = 179; continue _fun0020 }
-case 178:
-            if(!(var4 == var9)) { _fun0020_ip = 149; continue _fun0020 }
-case 180:
+            if(!(var4 == var2)) { _fun0020_ip = 178; continue _fun0020 }
+case 177:
+            if(!(var4 == var9)) { _fun0020_ip = 148; continue _fun0020 }
+case 179:
             if(!(var4 != var12)) { _fun0020_ip = 107; continue _fun0020 }
 case 88:
             var11 = _closure1_slot13;
             var3 = false;
             var3 = var11.bind(var6)(var12, var3, var8);
-            if(!(var4 == var3)) { _fun0020_ip = 181; continue _fun0020 }
+            if(!(var4 == var3)) { _fun0020_ip = 180; continue _fun0020 }
 case 107:
             var4 = undefined;
-            if(!var5) { _fun0020_ip = 182; continue _fun0020 }
-case 183:
+            if(!var5) { _fun0020_ip = 181; continue _fun0020 }
+case 182:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
             var5 = 11;
             var5 = var12[var5];
             var4 = var11.bind(var6)(var5);
-case 182:
-            return var4;
 case 181:
+            return var4;
+case 180:
             return var3;
-case 149:
+case 148:
             var3 = _closure1_slot30;
             var4 = var3.bind(var6)(var9);
             var3 = var9;
-            if(var4) { _fun0020_ip = 184; continue _fun0020 }
-case 185:
+            if(var4) { _fun0020_ip = 183; continue _fun0020 }
+case 184:
             var5 = _closure1_slot11;
             var4 = {};
             var11 = _closure1_slot3;
@@ -1618,11 +1618,11 @@ case 185:
             var4['canWebP'] = var8;
             var4['keepAspectRatio'] = var7;
             var3 = var5.bind(var6)(var4);
-case 184:
+case 183:
             return var3;
-case 179:
+case 178:
             return var2;
-case 165:
+case 164:
             return var1;
         }
     };
@@ -1636,14 +1636,14 @@ case 0:
             var4 = var1.size;
             var3 = undefined;
             if(!(var4 === var3)) { _fun0021_ip = 96; continue _fun0021 }
-case 172:
+case 171:
             var4 = _closure1_slot4;
 case 96:
             var6 = var1.keepAspectRatio;
-            if(!(var6 === var3)) { _fun0021_ip = 173; continue _fun0021 }
-case 174:
-            var6 = false;
+            if(!(var6 === var3)) { _fun0021_ip = 172; continue _fun0021 }
 case 173:
+            var6 = false;
+case 172:
             var5 = var1.format;
             var2 = _closure1_slot11;
             var1 = {};
@@ -1678,10 +1678,10 @@ case 0:
             var5 = var1.size;
             var4 = var1.canAnimate;
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0022_ip = 175; continue _fun0022 }
+            if(!(var4 === var3)) { _fun0022_ip = 174; continue _fun0022 }
 case 94:
             var4 = true;
-case 175:
+case 174:
             var2 = _closure1_slot11;
             var1 = {};
             var8 = function endpoint(arg1, arg2, arg3) {
@@ -1721,8 +1721,8 @@ case 0:
             var8 = var1.applicationId;
             var5 = var1.size;
             var4 = null;
-            if(!(var4 == var8)) { _fun0023_ip = 186; continue _fun0023 }
-case 147:
+            if(!(var4 == var8)) { _fun0023_ip = 185; continue _fun0023 }
+case 146:
             var2 = _closure1_slot11;
             var1 = {};
             var3 = _closure1_slot3;
@@ -1738,7 +1738,7 @@ case 147:
             var1['canWebP'] = var3;
             var10 = undefined;
             var1 = var2.bind(var10)(var1);
-            if(!(var4 == var1)) { _fun0023_ip = 187; continue _fun0023 }
+            if(!(var4 == var1)) { _fun0023_ip = 134; continue _fun0023 }
 case 12:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -1760,9 +1760,9 @@ case 12:
             var2 = var2.length;
             var2 = var6 % var2;
             var1 = var3[var2];
-case 187:
-            _fun0023_ip = 188; continue _fun0023;
-case 186:
+case 134:
+            _fun0023_ip = 186; continue _fun0023;
+case 185:
             var6 = _closure1_slot23;
             var2 = {};
             var2['id'] = var8;
@@ -1770,8 +1770,8 @@ case 186:
             var2['size'] = var5;
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
-            if(!(var4 == var2)) { _fun0023_ip = 138; continue _fun0023 }
-case 189:
+            if(!(var4 == var2)) { _fun0023_ip = 187; continue _fun0023 }
+case 188:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 2;
@@ -1779,9 +1779,9 @@ case 189:
             var3 = var4.bind(var5)(var3);
             var3 = var3.default;
             var2 = var3.DEFAULT_CHANNEL_ICON;
-case 138:
+case 187:
             var1 = var2;
-case 188:
+case 186:
             return var1;
         }
     };
@@ -1810,7 +1810,7 @@ case 0:
             var1 = null;
             var1 = var1 != var4;
             if(!var1) { _fun0025_ip = 70; continue _fun0025 }
-case 190:
+case 189:
             var3 = var4.startsWith;
             var2 = 'a_';
             var1 = var3.bind(var4)(var2);
@@ -1826,7 +1826,7 @@ case 0:
             var1 = null;
             var1 = var1 != var4;
             if(!var1) { _fun0026_ip = 70; continue _fun0026 }
-case 190:
+case 189:
             var3 = var4.startsWith;
             var2 = 'v_';
             var1 = var3.bind(var4)(var2);
@@ -1839,7 +1839,7 @@ case 70:
         _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var1 = arg1;
-case 191: // try_start_0
+case 190: // try_start_0
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 13;
@@ -1854,7 +1854,7 @@ case 191: // try_start_0
             var2 = var2.bind(var3)(var1);
             var1 = var2.pop;
             var1 = var1.bind(var2)();
-case 192: // try_end0
+case 191: // try_end0
             return var1;
 case 7: // catch_target0
             CatchBlockStart(arg_register=0);
@@ -1894,7 +1894,7 @@ case 0:
             var1 = null;
             var1 = var1 != var4;
             if(!var1) { _fun0029_ip = 70; continue _fun0029 }
-case 190:
+case 189:
             var3 = _closure1_slot6;
             var2 = var3.test;
             var1 = var2.bind(var3)(var4);
@@ -1908,10 +1908,10 @@ case 70:
 case 0:
             var1 = 'gif';
             var2 = arg1;
-            if(!var2) { _fun0030_ip = 193; continue _fun0030 }
-case 194:
-            var1 = 'webp';
+            if(!var2) { _fun0030_ip = 192; continue _fun0030 }
 case 193:
+            var1 = 'webp';
+case 192:
             return var1;
         }
     };
@@ -2057,10 +2057,10 @@ case 193:
 case 0:
             var5 = arguments[1];
             var3 = undefined;
-            if(!(var5 === var3)) { _fun0031_ip = 195; continue _fun0031 }
-case 196:
-            var5 = false;
+            if(!(var5 === var3)) { _fun0031_ip = 194; continue _fun0031 }
 case 195:
+            var5 = false;
+case 194:
             var2 = _closure1_slot29;
             var4 = _closure1_slot18;
             var1 = arg1;
@@ -2118,7 +2118,7 @@ case 0:
             if(!var2) { _fun0032_ip = 81; continue _fun0032 }
 case 97:
             if(!var1) { _fun0032_ip = 81; continue _fun0032 }
-case 197:
+case 196:
             var2 = 'number';
             var1 = typeof var3;
             if(!(var2 === var1)) { _fun0032_ip = 120; continue _fun0032 }
@@ -2129,7 +2129,7 @@ case 120:
             var4 = var5.bind(var4)(var1);
             var1 = typeof var4;
             if(!(var2 !== var1)) { _fun0032_ip = 11; continue _fun0032 }
-case 198:
+case 197:
             var5 = var4.uri;
             var2 = var3.uri;
             var1 = var4;
@@ -2190,7 +2190,7 @@ case 0:
             var1 = null;
             var1 = var1 != var5;
             if(!var1) { _fun0033_ip = 43; continue _fun0033 }
-case 190:
+case 189:
             var4 = _closure1_slot26;
             var2 = _closure1_slot28;
             var3 = undefined;
@@ -2208,7 +2208,7 @@ case 0:
             var1 = null;
             var1 = var1 != var5;
             if(!var1) { _fun0034_ip = 43; continue _fun0034 }
-case 190:
+case 189:
             var4 = _closure1_slot27;
             var2 = _closure1_slot28;
             var3 = undefined;
