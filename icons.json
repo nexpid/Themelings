@@ -5844,16 +5844,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_star": {
-        "file": "app/images/native/icons/ic_star.png",
-        "hash": "007b604ba850af5236a4b4aae5f9e0bb",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 10,
-        "height": 10
-    },
     "ic_star_basic_gradient": {
         "file": "app/images/native/icons/premium/ic_star_basic_gradient.png",
         "hash": "55246d4ea25bd886025abf1d5da98147",
@@ -12757,6 +12747,16 @@
         ],
         "width": 18,
         "height": 18
+    },
+    "WaveformIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/WaveformIcon.png",
+        "hash": "07392a850e043822a5c8062588fbfbb4",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "webhook_empty_dark": {
         "file": "app/images/native/empties/webhook_empty_dark.png",
