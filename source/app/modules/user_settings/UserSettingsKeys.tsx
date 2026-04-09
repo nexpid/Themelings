@@ -56,6 +56,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACCOUNT_SECURITY_KEYS_SETTING'] = var1;
     var1 = 'account_sessions_nested_panel';
     var2['ACCOUNT_SESSIONS_NESTED_PANEL'] = var1;
+    var1 = 'account_standing_nested_panel';
+    var2['ACCOUNT_STANDING_NESTED_PANEL'] = var1;
+    var1 = 'account_standing_nested_category';
+    var2['ACCOUNT_STANDING_NESTED_CATEGORY'] = var1;
+    var1 = 'account_standing_panel';
+    var2['ACCOUNT_STANDING_PANEL'] = var1;
     var1 = 'account_info_category';
     var2['ACCOUNT_INFO_CATEGORY'] = var1;
     var1 = 'account_info_username_setting';
@@ -76,6 +82,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACCOUNT_REMOVAL_CATEGORY'] = var1;
     var1 = 'account_removal_setting';
     var2['ACCOUNT_REMOVAL_SETTING'] = var1;
+    var1 = 'account_disable_setting';
+    var2['ACCOUNT_DISABLE_SETTING'] = var1;
+    var1 = 'account_delete_setting';
+    var2['ACCOUNT_DELETE_SETTING'] = var1;
     var1 = 'account_standing_tab';
     var2['ACCOUNT_STANDING_TAB'] = var1;
     var1 = 'account_standing_category';

@@ -1,4 +1,4 @@
-// app/modules/game_detection/hooks/useGameWithSupplementalData.tsx
+// app/modules/games/hooks/useGame.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var5 = metroImportDefault;
@@ -179,10 +179,10 @@ case 16:
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/game_detection/hooks/useGameWithSupplementalData.tsx';
+    var5 = 'modules/games/hooks/useGame.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['useGameWithSupplementalData'] = var4;
-    var2 = function useGamesWithSupplementalDataRequest(arg1) {
+    var3['useGame'] = var4;
+    var2 = function useGames(arg1) {
         var5 = arg1;
         var _closure2_slot0 = var5;
         var4 = _closure1_slot3;
@@ -216,6 +216,6 @@ case 16:
         var1 = undefined;
         return var1;
     };
-    var3['useGamesWithSupplementalDataRequest'] = var2;
+    var3['useGames'] = var2;
     return var1;
 })();

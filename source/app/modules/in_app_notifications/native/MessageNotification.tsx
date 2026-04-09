@@ -49,19 +49,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var11 = var1.notification;
-            var5 = var1.reaction;
-            var1 = var1.onReactionPress;
+            var16 = var1.reaction;
+            var5 = var1.onReactionPress;
+            var1 = var1.accessoryVisible;
             var2 = _closure1_slot6;
             var4 = undefined;
             var13 = var2.bind(var4)();
             var10 = var11.message;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var18 = 10;
-            var2 = var6[var18];
+            var19 = 10;
+            var2 = var6[var19];
             var7 = var3.bind(var4)(var2);
             var2 = var7.useNullableMessageAuthor;
-            var16 = var2.bind(var7)(var10);
+            var17 = var2.bind(var7)(var10);
             var2 = 11;
             var2 = var6[var2];
             var7 = var3.bind(var4)(var2);
@@ -76,11 +77,11 @@ case 0:
             };
             var3 = var6.bind(var7)(var3, var2);
             var6 = null;
-            var7 = var6 == var16;
+            var7 = var6 == var17;
             var2 = undefined;
             if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var16.colorString;
+            var2 = var17.colorString;
 case 2:
             var7 = var6 != var2;
             var14 = undefined;
@@ -118,11 +119,11 @@ case 12:
             var3 = var2.RoleDot;
             var2 = {};
             var2['color'] = var14;
-            var15 = var6 == var16;
+            var15 = var6 == var17;
             var14 = undefined;
             if(var15) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var14 = var16.colorStrings;
+            var14 = var17.colorStrings;
 case 13:
             var2['colors'] = var14;
             var13 = var13.newContainerRoleDot;
@@ -135,12 +136,12 @@ case 10:
             var2 = var2[var3];
             var15 = var8.bind(var4)(var2);
             var14 = var15.getNotificationTitle;
-            var24 = var11.channel;
-            var22 = var11.parentChannel;
-            var21 = var11.guild;
-            var25 = var15;
-            var23 = var16;
-            var13 = var25[var14](var24, var23, var22, var21, var20);
+            var25 = var11.channel;
+            var23 = var11.parentChannel;
+            var22 = var11.guild;
+            var26 = var15;
+            var24 = var17;
+            var13 = var26[var14](var25, var24, var23, var22, var21);
             var2 = var10.content;
             var8 = var2.length;
             var2 = 0;
@@ -167,32 +168,32 @@ case 22:
 case 21:
             if(!var2) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var17 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var18 = _closure1_slot0;
+            var17 = _closure1_slot2;
             var2 = 13;
-            var8 = var16[var2];
-            var8 = var17.bind(var4)(var8);
+            var8 = var17[var2];
+            var8 = var18.bind(var4)(var8);
             var15 = var8.intl;
             var14 = var15.formatToPlainString;
-            var2 = var16[var2];
-            var2 = var17.bind(var4)(var2);
+            var2 = var17[var2];
+            var2 = var18.bind(var4)(var2);
             var2 = var2.t;
             var8 = var2["7eikg1"];
             var2 = {};
-            var16 = var16[var18];
-            var19 = var17.bind(var4)(var16);
-            var18 = var19.getUserAuthor;
-            var16 = var10.interaction;
-            var20 = var6 == var16;
-            var17 = undefined;
-            if(var20) { _fun0001_ip = 25; continue _fun0001 }
+            var17 = var17[var19];
+            var20 = var18.bind(var4)(var17);
+            var19 = var20.getUserAuthor;
+            var17 = var10.interaction;
+            var21 = var6 == var17;
+            var18 = undefined;
+            if(var21) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
-            var17 = var16.user;
+            var18 = var17.user;
 case 25:
-            var16 = var11.channel;
-            var16 = var18.bind(var19)(var17, var16);
-            var16 = var16.nick;
-            var2['username'] = var16;
+            var17 = var11.channel;
+            var17 = var19.bind(var20)(var18, var17);
+            var17 = var17.nick;
+            var2['username'] = var17;
             var2 = var14.bind(var15)(var8, var2);
             var10['content'] = var2;
 case 23:
@@ -201,40 +202,42 @@ case 23:
             var8 = 14;
             var8 = var14[var8];
             var8 = var2.bind(var4)(var8);
-            var16 = var8.InAppNotificationReactExperiment;
-            var15 = var16.useConfig;
+            var17 = var8.InAppNotificationReactExperiment;
+            var15 = var17.useConfig;
             var8 = {};
-            var20 = 'MessageNotification';
-            var8['location'] = var20;
-            var8 = var15.bind(var16)(var8);
-            var16 = var8.quickReact;
+            var21 = 'MessageNotification';
+            var8['location'] = var21;
+            var8 = var15.bind(var17)(var8);
+            var17 = var8.quickReact;
             var8 = var8.expandedSize;
             var15 = {};
             var15['message'] = var10;
             var15['notification'] = var11;
-            var15['quickReactEnabled'] = var16;
-            var15['reaction'] = var5;
-            var15['onReactionPress'] = var1;
+            var15['quickReactEnabled'] = var17;
+            var15['reaction'] = var16;
+            var15['onReactionPress'] = var5;
+            var15['accessoryVisible'] = var1;
             var17 = var15.message;
             var1 = var15.notification;
             var5 = var15.quickReactEnabled;
-            var18 = var15.reaction;
-            var16 = var15.onReactionPress;
+            var19 = var15.reaction;
+            var18 = var15.onReactionPress;
+            var16 = var15.accessoryVisible;
             var3 = var14[var3];
             var15 = var2.bind(var4)(var3);
             var3 = var15.useHasPreviewableMedia;
             var15 = var3.bind(var15)(var17);
             var3 = 6;
             var3 = var14[var3];
-            var19 = var2.bind(var4)(var3);
-            var3 = var19.useCanReactToMessage;
+            var20 = var2.bind(var4)(var3);
+            var3 = var20.useCanReactToMessage;
             var1 = var1.channel;
-            var1 = var3.bind(var19)(var17, var1);
+            var1 = var3.bind(var20)(var17, var1);
             var3 = 7;
             var3 = var14[var3];
-            var19 = var2.bind(var4)(var3);
-            var3 = var19.useInAppNotificationRedesign;
-            var3 = var3.bind(var19)(var20);
+            var20 = var2.bind(var4)(var3);
+            var3 = var20.useInAppNotificationRedesign;
+            var3 = var3.bind(var20)(var21);
             var3 = var3.redesignEnabled;
             if(var15) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
@@ -244,14 +247,16 @@ case 29:
 case 30:
             var15 = _closure1_slot5;
             var5 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var20 = _closure1_slot2;
             var1 = 8;
-            var1 = var19[var1];
+            var1 = var20[var1];
             var1 = var5.bind(var4)(var1);
             var5 = var1.MessageNotificationAccessory;
             var1 = {};
-            var1['reaction'] = var18;
-            var1['onReactionPress'] = var16;
+            var1['reaction'] = var19;
+            var1['onReactionPress'] = var18;
+            var16 = !var16;
+            var1['showReactionButton'] = var16;
             var5 = var15.bind(var4)(var5, var1);
             _fun0001_ip = 31; continue _fun0001;
 case 27:

@@ -95,7 +95,7 @@ case 0:
             var2 = 5;
             var2 = var7[var2];
             var7 = var5.bind(var6)(var2);
-            var5 = var7.useGameWithSupplementalData;
+            var5 = var7.useGame;
             var2 = var9.id;
             var2 = var5.bind(var7)(var2);
             var5 = var2.data;

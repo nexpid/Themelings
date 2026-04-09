@@ -780,7 +780,7 @@ case 40:
             var10 = {};
             var10['guildId'] = var15;
             var10['channelId'] = var14;
-            var10 = var12.bind(var4)(var11, var10);
+            var10 = var12.bind(var4)(var11, var10, var14);
             var11 = 'ChannelSpoiler';
             var11 = var9.bind(var4)(var10, var11);
             var8 = var10;

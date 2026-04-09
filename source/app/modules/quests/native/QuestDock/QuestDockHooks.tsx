@@ -502,7 +502,7 @@ case 4:
             var3 = var2.prevRestingQuestDockMode;
             var1 = new Array(2);
             var1[0] = var3;
-            var2 = var2.isVisible;
+            var2 = var2.isEligibleToBeVisible;
             var1[1] = var2;
             return var1;
         };

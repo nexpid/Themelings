@@ -140,7 +140,7 @@ case 0:
             var3 = 8;
             var3 = var5[var3];
             var10 = var4.bind(var6)(var3);
-            var5 = var10.useGameWithSupplementalData;
+            var5 = var10.useGame;
             var4 = null;
             var14 = var4 == var13;
             var3 = undefined;

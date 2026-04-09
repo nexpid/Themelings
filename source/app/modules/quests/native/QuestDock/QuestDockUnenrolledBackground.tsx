@@ -386,7 +386,7 @@ case 10:
             var13 = var21[var13];
             var13 = var19.bind(var4)(var13);
             var13 = var16.bind(var18)(var13);
-            var13 = var13.isVisible;
+            var13 = var13.isRendered;
             var5 = !var5;
             if(!var5) { _fun0001_ip = 12; continue _fun0001 }
 case 13:

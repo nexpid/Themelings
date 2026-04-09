@@ -223,7 +223,7 @@ case 8:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(7);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = 'getFormState';
@@ -290,6 +290,37 @@ case 11:
         var5['value'] = var7;
         var1[4] = var5;
         var5 = {};
+        var7 = 'hasUnsavedChanges';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.values;
+            var1 = _closure1_slot13;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.some;
+            var1 = function(arg1) {
+                var1 = global;
+                var3 = var1.Object;
+                var2 = var3.values;
+                var1 = arg1;
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.some;
+                var1 = function(arg1) {
+                    var2 = undefined;
+                    var1 = arg1;
+                    var1 = var2 !== var1;
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
         var7 = 'showNotice';
         var5['key'] = var7;
         var7 = function value() {
@@ -336,7 +367,7 @@ case 13:
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'canSubmit';
         var5['key'] = var7;
@@ -378,7 +409,7 @@ case 19:
             }
         };
         var5['value'] = var6;
-        var1[6] = var5;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -239,39 +239,39 @@ case 0:
                 var4 = _closure1_slot6;
                 var3 = _closure2_slot0;
                 var3 = var3.attachments;
-                var6 = undefined;
-                var12 = var4.bind(var6)(var3);
-                var4 = var12.bind(var6)();
+                var5 = undefined;
+                var12 = var4.bind(var5)(var3);
+                var4 = var12.bind(var5)();
                 var3 = var4.done;
                 var11 = 3;
                 var10 = 'lg';
                 var9 = 4;
                 var8 = 5;
-                var5 = 2;
+                var7 = 2;
                 if(var3) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
                 var14 = var4.value;
                 var15 = var14.filename;
                 var13 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var3 = var3[var5];
-                var13 = var13.bind(var6)(var3);
+                var3 = var3[var7];
+                var13 = var13.bind(var5)(var3);
                 var3 = var13.isImageFile;
                 var3 = var3.bind(var13)(var15);
                 if(var3) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
                 var13 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var3 = var3[var5];
-                var13 = var13.bind(var6)(var3);
+                var3 = var3[var7];
+                var13 = var13.bind(var5)(var3);
                 var3 = var13.isVideoFile;
                 var3 = var3.bind(var13)(var15);
                 if(var3) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
                 var13 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var3 = var3[var5];
-                var13 = var13.bind(var6)(var3);
+                var3 = var3[var7];
+                var13 = var13.bind(var5)(var3);
                 var3 = var13.isAudioFile;
                 var16 = var3.bind(var13)(var15);
                 var13 = var1.push;
@@ -286,17 +286,17 @@ case 43:
                 var17 = _closure1_slot0;
                 var19 = _closure1_slot2;
                 var16 = var19[var8];
-                var16 = var17.bind(var6)(var16);
+                var16 = var17.bind(var5)(var16);
                 var17 = var16.FileIcon;
                 var16 = {};
                 var16['size'] = var10;
                 var20 = _closure1_slot1;
                 var19 = var19[var9];
-                var19 = var20.bind(var6)(var19);
+                var19 = var20.bind(var5)(var19);
                 var19 = var19.colors;
                 var19 = var19.ICON_SUBTLE;
                 var16['color'] = var19;
-                var16 = var18.bind(var6)(var17, var16);
+                var16 = var18.bind(var5)(var17, var16);
                 var3['icon'] = var16;
                 var16 = var13.bind(var1)(var3);
                 _fun0004_ip = 44; continue _fun0004;
@@ -308,17 +308,17 @@ case 42:
                 var16 = _closure1_slot0;
                 var18 = _closure1_slot2;
                 var15 = var18[var11];
-                var15 = var16.bind(var6)(var15);
+                var15 = var16.bind(var5)(var15);
                 var16 = var15.WaveformIcon;
                 var15 = {};
                 var15['size'] = var10;
                 var19 = _closure1_slot1;
                 var18 = var18[var9];
-                var18 = var19.bind(var6)(var18);
+                var18 = var19.bind(var5)(var18);
                 var18 = var18.colors;
                 var18 = var18.TEXT_BRAND;
                 var15['color'] = var18;
-                var15 = var17.bind(var6)(var16, var15);
+                var15 = var17.bind(var5)(var16, var15);
                 var3['icon'] = var15;
                 var3 = var13.bind(var1)(var3);
                 _fun0004_ip = 44; continue _fun0004;
@@ -340,48 +340,69 @@ case 38:
                 var3['media'] = var14;
                 var3 = var13.bind(var1)(var3);
 case 44:
-                var13 = var12.bind(var6)();
+                var13 = var12.bind(var5)();
                 var3 = var13.done;
                 var4 = var13;
                 if(!var3) { _fun0004_ip = 37; continue _fun0004 }
 case 36:
+                var4 = _closure1_slot6;
+                var3 = _closure2_slot0;
+                var3 = var3.embeds;
+                var8 = var4.bind(var5)(var3);
+                var4 = var8.bind(var5)();
+                var3 = var4.done;
+                var7 = null;
+                if(var3) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
+                var10 = var4.value;
+                var3 = var10.image;
+                var3 = var7 == var3;
+                if(!var3) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
+                var9 = var10.video;
+                var3 = var7 == var9;
+case 47:
+                if(!var3) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
+                var9 = var10.thumbnail;
+                var3 = var7 == var9;
+case 49:
+                if(var3) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
+                var9 = var1.push;
+                var3 = {};
+                var11 = _closure1_slot5;
+                var11 = var11.EMBED;
+                var3['type'] = var11;
+                var3['media'] = var10;
+                var3 = var9.bind(var1)(var3);
+case 51:
+                var9 = var8.bind(var5)();
+                var3 = var9.done;
+                var4 = var9;
+                if(!var3) { _fun0004_ip = 46; continue _fun0004 }
+case 45:
                 var3 = _closure1_slot6;
                 var2 = _closure2_slot0;
-                var2 = var2.embeds;
-                var5 = var3.bind(var6)(var2);
-                var3 = var5.bind(var6)();
+                var2 = var2.stickerItems;
+                var4 = var3.bind(var5)(var2);
+                var3 = var4.bind(var5)();
                 var2 = var3.done;
-                var4 = null;
-                if(var2) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
-                var9 = var3.value;
-                var2 = var9.image;
-                var2 = var4 == var2;
-                if(!var2) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
-                var8 = var9.video;
-                var2 = var4 == var8;
-case 47:
-                if(!var2) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
-                var8 = var9.thumbnail;
-                var2 = var4 == var8;
-case 49:
-                if(var2) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-                var8 = var1.push;
+                if(var2) { _fun0004_ip = 53; continue _fun0004 }
+case 54:
+                var8 = var3.value;
+                var7 = var1.push;
                 var2 = {};
-                var10 = _closure1_slot5;
-                var10 = var10.EMBED;
-                var2['type'] = var10;
-                var2['media'] = var9;
-                var2 = var8.bind(var1)(var2);
-case 51:
-                var8 = var5.bind(var6)();
-                var2 = var8.done;
-                var3 = var8;
-                if(!var2) { _fun0004_ip = 46; continue _fun0004 }
-case 45:
+                var9 = _closure1_slot5;
+                var9 = var9.STICKER;
+                var2['type'] = var9;
+                var2['media'] = var8;
+                var2 = var7.bind(var1)(var2);
+                var7 = var4.bind(var5)();
+                var2 = var7.done;
+                var3 = var7;
+                if(!var2) { _fun0004_ip = 54; continue _fun0004 }
+case 53:
                 return var1;
             }
         };

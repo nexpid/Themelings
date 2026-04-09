@@ -10,23 +10,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function trackTryOutFeature(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot7;
         var3 = var2.PREMIUM_FEATURE_TRY_OUT;
         var2 = {};
         var7 = arg1;
         var2['feature_name'] = var7;
-        var6 = _closure1_slot9;
+        var6 = _closure1_slot10;
         var6 = var6.PREMIUM_STANDARD;
         var2['feature_tier'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _saveProfileChanges() {
         var5 = undefined;
         var1 = undefined;
@@ -61,7 +61,7 @@ case 7:
 case 6:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 6;
+                    var2 = 9;
                     var2 = var8[var2];
                     var6 = var6.bind(var5)(var2);
                     var2 = var6.getShouldConvertBioEmoji;
@@ -78,7 +78,7 @@ case 11:
                     var6 = var11;
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 10;
                     var2 = var9[var2];
                     var9 = var8.bind(var5)(var2);
                     var8 = var9.parse;
@@ -89,7 +89,7 @@ case 11:
 case 10: // try_start_0
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var9 = 8;
+                    var9 = 11;
                     var2 = var8[var9];
                     var14 = var6.bind(var5)(var2);
                     var6 = var14.dispatch;
@@ -102,7 +102,7 @@ case 10: // try_start_0
                     var2['guildId'] = var12;
                     var2 = var6.bind(var14)(var2);
                     var6 = _closure1_slot0;
-                    var2 = 9;
+                    var2 = 12;
                     var2 = var8[var2];
                     var2 = var6.bind(var5)(var2);
                     var8 = var2.HTTP;
@@ -110,16 +110,16 @@ case 10: // try_start_0
                     var2 = {};
                     if(!(var13 == var12)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                    var14 = _closure1_slot7;
+                    var14 = _closure1_slot8;
                     var13 = var14.USER_PROFILE;
-                    var12 = _closure1_slot8;
+                    var12 = _closure1_slot9;
                     var12 = var13.bind(var14)(var12);
                     _fun0001_ip = 14; continue _fun0001;
 case 12:
-                    var16 = _closure1_slot7;
+                    var16 = _closure1_slot8;
                     var15 = var16.USER_GUILD_PROFILE;
                     var14 = var7;
-                    var13 = _closure1_slot8;
+                    var13 = _closure1_slot9;
                     var12 = var15.bind(var16)(var14, var13);
 case 14:
                     var2['url'] = var12;
@@ -140,7 +140,7 @@ case 18:
 case 20:
                     var11 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var8 = 10;
+                    var8 = 13;
                     var8 = var6[var8];
                     var8 = var11.bind(var5)(var8);
                     var8 = var8.APIError;
@@ -190,7 +190,7 @@ case 22: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 10;
+                    var4 = 13;
                     var4 = var8[var4];
                     var4 = var6.bind(var5)(var4);
                     var4 = var4.APIError;
@@ -201,7 +201,7 @@ case 22: // catch_target0
                     var4 = new var19[var4](var18, var17);
                     var6 = var4 instanceof Object ? var4 : var6;
                     var4 = _closure1_slot1;
-                    var3 = 8;
+                    var3 = 11;
                     var3 = var8[var3];
                     var5 = var4.bind(var5)(var3);
                     var4 = var5.dispatch;
@@ -221,7 +221,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot12 = var4;
+        _closure1_slot13 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -229,10 +229,10 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var4 = function fetchApplicationWidgetConfigs() {
         var1 = undefined;
-        var4 = _closure1_slot14;
+        var4 = _closure1_slot15;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -240,7 +240,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var1 = function _fetchApplicationWidgetConfigs() {
         var5 = undefined;
         var1 = undefined;
@@ -266,7 +266,7 @@ case 25:
 case 24:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var3 = 8;
+                    var3 = 11;
                     var2 = var2[var3];
                     var5 = undefined;
                     var7 = var4.bind(var5)(var2);
@@ -278,13 +278,13 @@ case 24:
 case 27: // try_start_0
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 12;
                     var2 = var7[var2];
                     var2 = var4.bind(var5)(var2);
                     var7 = var2.HTTP;
                     var4 = var7.get;
                     var2 = {};
-                    var8 = _closure1_slot7;
+                    var8 = _closure1_slot8;
                     var8 = var8.USER_PROFILE_APPLICATION_WIDGET_APPLICATION_IDS;
                     var2['url'] = var8;
                     var8 = true;
@@ -324,7 +324,7 @@ case 33: // catch_target0
                     var9 = 'USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_FAILURE';
                     var3['type'] = var9;
                     var3 = var7.bind(var8)(var3);
-                    var3 = 11;
+                    var3 = 14;
                     var3 = var6[var3];
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.captureException;
@@ -340,7 +340,7 @@ case 23:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot14 = var4;
+        _closure1_slot15 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -348,7 +348,7 @@ case 23:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -373,21 +373,23 @@ case 23:
     var2 = 3;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
-    var6 = var2.AnalyticEvents;
+    var6 = var2.ComponentActions;
     var _closure1_slot6 = var6;
-    var6 = var2.Endpoints;
+    var6 = var2.AnalyticEvents;
     var _closure1_slot7 = var6;
-    var6 = var2.ME;
+    var6 = var2.Endpoints;
     var _closure1_slot8 = var6;
+    var6 = var2.ME;
+    var _closure1_slot9 = var6;
     var11 = var2.QueryIds;
     var2 = 4;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
     var6 = var2.AnalyticsPremiumFeatureTiers;
-    var _closure1_slot9 = var6;
+    var _closure1_slot10 = var6;
     var2 = var2.AnalyticsPremiumFeatureNames;
-    var _closure1_slot10 = var2;
-    var2 = 12;
+    var _closure1_slot11 = var2;
+    var2 = 15;
     var2 = var8[var2];
     var9 = var7.bind(var1)(var2);
     var6 = var9.createFetchStore;
@@ -401,22 +403,74 @@ case 23:
     };
     var2['get'] = var11;
     var11 = function load() {
-        var2 = _closure1_slot13;
+        var2 = _closure1_slot14;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
     };
     var2['load'] = var11;
     var2 = var6.bind(var9)(var10, var2);
-    var6 = 13;
+    var6 = 16;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/user_profile/UserProfileActionCreators.tsx';
     var6 = var7.bind(var8)(var6);
+    var6 = function notifyUnsavedUserProfileChangesInModal() {
+        var7 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var3 = 5;
+        var4 = var9[var3];
+        var1 = undefined;
+        var4 = var7.bind(var1)(var4);
+        var6 = var4.ComponentDispatch;
+        var5 = var6.dispatch;
+        var2 = _closure1_slot6;
+        var4 = var2.SHAKE_PROFILE_MODAL;
+        var4 = var5.bind(var6)(var4);
+        var3 = var9[var3];
+        var3 = var7.bind(var1)(var3);
+        var4 = var3.ComponentDispatch;
+        var3 = var4.dispatch;
+        var2 = var2.EMPHASIZE_NOTICE;
+        var2 = var3.bind(var4)(var2);
+        var2 = 6;
+        var2 = var9[var2];
+        var2 = var7.bind(var1)(var2);
+        var4 = var2.AccessibilityAnnouncer;
+        var3 = var4.announce;
+        var2 = 7;
+        var5 = var9[var2];
+        var5 = var7.bind(var1)(var5);
+        var8 = var5.intl;
+        var6 = var8.string;
+        var5 = var9[var2];
+        var5 = var7.bind(var1)(var5);
+        var5 = var5.t;
+        var5 = var5.GP7JLE;
+        var8 = var6.bind(var8)(var5);
+        var5 = var9[var2];
+        var5 = var7.bind(var1)(var5);
+        var6 = var5.intl;
+        var5 = var6.string;
+        var2 = var9[var2];
+        var2 = var7.bind(var1)(var2);
+        var2 = var2.t;
+        var2 = var2.gKoO1D;
+        var7 = var5.bind(var6)(var2);
+        var2 = global;
+        var2 = var2.HermesInternal;
+        var6 = var2.concat;
+        var5 = '';
+        var2 = ' ';
+        var2 = var6.bind(var5)(var8, var2, var7);
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['notifyUnsavedUserProfileChangesInModal'] = var6;
     var6 = function saveProfileChanges() {
         var1 = undefined;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -443,7 +497,7 @@ case 34:
 case 36:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 8;
+            var2 = 11;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
@@ -464,7 +518,7 @@ case 35:
     var6 = function resetPendingProfileChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -476,10 +530,25 @@ case 35:
         return var1;
     };
     var3['resetPendingProfileChanges'] = var6;
+    var6 = function resetAllPendingChanges() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 11;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_CHANGES';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['resetAllPendingChanges'] = var6;
     var6 = function setTryItOutAvatar(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 8;
+        var1 = 11;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -490,8 +559,8 @@ case 35:
         var6 = arg1;
         var3['avatar'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot10;
+        var3 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var2 = var2.ANIMATED_AVATAR;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -500,7 +569,7 @@ case 35:
     var6 = function setTryItOutAvatarDecoration(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 8;
+        var1 = 11;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -511,8 +580,8 @@ case 35:
         var6 = arg1;
         var3['avatarDecoration'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot10;
+        var3 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var2 = var2.AVATAR_DECORATION;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -521,7 +590,7 @@ case 35:
     var6 = function setTryItOutProfileEffect(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 8;
+        var1 = 11;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -532,8 +601,8 @@ case 35:
         var6 = arg1;
         var3['profileEffect'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot10;
+        var3 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var2 = var2.PROFILE_EFFECT;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -542,7 +611,7 @@ case 35:
     var6 = function setTryItOutBanner(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 8;
+        var1 = 11;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -553,8 +622,8 @@ case 35:
         var6 = arg1;
         var3['banner'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot10;
+        var3 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var2 = var2.PROFILE_BANNER;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -563,7 +632,7 @@ case 35:
     var6 = function setTryItOutThemeColors(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 8;
+        var1 = 11;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -574,8 +643,8 @@ case 35:
         var6 = arg1;
         var3['themeColors'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot10;
+        var3 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var2 = var2.PROFILE_THEME_COLOR;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -584,7 +653,7 @@ case 35:
     var6 = function setTryItOutDisplayNameStyles(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 8;
+        var1 = 11;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -595,8 +664,8 @@ case 35:
         var6 = arg1;
         var3['displayNameStyles'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot10;
+        var3 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var2 = var2.DISPLAY_NAME_STYLES;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -605,7 +674,7 @@ case 35:
     var5 = function setTryItOutPreset(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 8;
+        var1 = 11;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -617,8 +686,8 @@ case 35:
         var8 = var3;
         var6 = copyDataProperties(var8, var7);
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot10;
+        var3 = _closure1_slot12;
+        var2 = _closure1_slot11;
         var2 = var2.PRESET;
         var2 = var3.bind(var1)(var2);
         return var1;

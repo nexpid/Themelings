@@ -59,7 +59,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
-            var23 = var3.title;
+            var24 = var3.title;
+            var19 = var3.subtitle;
             var21 = var3.description;
             var16 = var3.agreement;
             var18 = var3.agreementButtonVariant;
@@ -201,14 +202,15 @@ case 6:
             var15 = 6;
             var10 = var8[var15];
             var10 = var7.bind(var4)(var10);
-            var19 = var10.Text;
+            var23 = var10.Text;
             var10 = {'variant': 'heading-xxl/bold', 'maxFontSizeMultiplier': 2};
-            var24 = var22.title;
-            var10['style'] = var24;
-            var10['children'] = var23;
-            var19 = var20.bind(var4)(var19, var10);
-            var10 = new Array(2);
-            var10[0] = var19;
+            var25 = var22.title;
+            var10['style'] = var25;
+            var10['children'] = var24;
+            var23 = var20.bind(var4)(var23, var10);
+            var10 = new Array(3);
+            var10[0] = var23;
+            var10[1] = var19;
             var15 = var8[var15];
             var15 = var7.bind(var4)(var15);
             var19 = var15.Text;
@@ -217,7 +219,7 @@ case 6:
             var15['style'] = var22;
             var15['children'] = var21;
             var15 = var20.bind(var4)(var19, var15);
-            var10[1] = var15;
+            var10[2] = var15;
             var5['children'] = var10;
             var6 = var3.bind(var4)(var6, var5);
             var5 = new Array(2);

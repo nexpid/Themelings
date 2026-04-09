@@ -235,16 +235,26 @@ case 0:
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var1 = _closure2_slot2;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 23;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    var1 = var1.hasWebAuthn;
                     if(!var1) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var1 = _closure2_slot1;
+                    var1 = _closure2_slot2;
 case 2:
                     if(!var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
+                    var1 = _closure2_slot1;
+case 4:
+                    if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure2_slot0;
                     var1 = !var2;
-case 4:
+case 6:
                     return var1;
                 }
             };
@@ -257,17 +267,17 @@ case 4:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0003_ip = 6; continue _fun0003 }
-case 3:
+                    if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 23;
+                    var1 = 24;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.fetchWebAuthnCredentials;
                     var1 = var1.bind(var2)();
-case 6:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
@@ -277,19 +287,19 @@ case 6:
             var2 = _closure1_slot13;
             var1 = {};
             var7 = var5;
-            if(!var7) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(!var7) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = _closure1_slot11;
             var8 = _closure1_slot16;
             var5 = {};
             var7 = var9.bind(var4)(var8, var5);
-case 7:
+case 10:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot11;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 24;
+            var6 = 25;
             var6 = var13[var6];
             var6 = var12.bind(var4)(var6);
             var7 = var6.TableRowGroupTitle;
@@ -319,7 +329,7 @@ case 7:
         var3 = function() {
             var12 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 25;
+            var1 = 26;
             var1 = var7[var1];
             var6 = undefined;
             var3 = var12.bind(var6)(var1);
@@ -415,7 +425,7 @@ case 7:
             var5 = var8.bind(var9)(var5);
             var1['sections'] = var5;
             var5 = _closure1_slot1;
-            var4 = 26;
+            var4 = 27;
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var1['ListHeaderComponent'] = var4;
@@ -427,7 +437,7 @@ case 7:
         var4 = _closure1_slot11;
         var2 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 27;
+        var1 = 28;
         var1 = var3[var1];
         var3 = undefined;
         var2 = var2.bind(var3)(var1);
@@ -440,7 +450,7 @@ case 7:
     var1 = function AccountStandingPage() {
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var2 = 28;
+        var2 = 29;
         var2 = var4[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
@@ -606,7 +616,7 @@ case 0:
                 return var1;
             };
             var12 = var3.bind(var10)(var2, var1);
-            var1 = 29;
+            var1 = 30;
             var1 = var20[var1];
             var3 = var19.bind(var4)(var1);
             var2 = var3.useSegmentedControlState;
@@ -662,17 +672,17 @@ case 0:
             var1['items'] = var14;
             var1['pageWidth'] = var13;
             var10 = var10.STANDING;
-            if(!(var12 === var10)) { _fun0004_ip = 9; continue _fun0004 }
-case 10:
+            if(!(var12 === var10)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
             var6 = var7;
-case 9:
+case 12:
             var1['defaultIndex'] = var6;
             var5 = function onSetActiveIndex(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 30;
+                    var1 = 31;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
@@ -682,15 +692,15 @@ case 0:
                     var2 = {};
                     var8 = 0;
                     var6 = arg1;
-                    if(!(var8 !== var6)) { _fun0005_ip = 11; continue _fun0005 }
-case 12:
+                    if(!(var8 !== var6)) { _fun0005_ip = 14; continue _fun0005 }
+case 4:
                     var6 = _closure1_slot14;
                     var6 = var6.STANDING;
-                    _fun0005_ip = 13; continue _fun0005;
-case 11:
+                    _fun0005_ip = 15; continue _fun0005;
+case 14:
                     var7 = _closure1_slot14;
                     var6 = var7.SECURITY;
-case 13:
+case 15:
                     var2['target_tab_name'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
@@ -710,7 +720,7 @@ case 13:
             var15 = _closure1_slot11;
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var8 = 31;
+            var8 = 32;
             var8 = var13[var8];
             var8 = var10.bind(var4)(var8);
             var14 = var8.SegmentedControl;
@@ -727,7 +737,7 @@ case 13:
             var11 = var11.pageContainer;
             var6['style'] = var11;
             var11 = _closure1_slot11;
-            var9 = 32;
+            var9 = 33;
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.SegmentedControlPages;
@@ -743,7 +753,7 @@ case 13:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 33;
+    var5 = 34;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

@@ -1,4 +1,4 @@
-// app/modules/game_detection/GameActionCreators.tsx
+// app/modules/games/GameActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -596,7 +596,7 @@ case 18:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/game_detection/GameActionCreators.tsx';
+    var4 = 'modules/games/GameActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function fetchGamesWithSupplementalData() {
         var1 = undefined;

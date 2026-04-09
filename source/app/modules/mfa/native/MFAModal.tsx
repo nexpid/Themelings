@@ -49,20 +49,16 @@ case 0:
                     var1 = 4;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var2 = var3.bind(var1)(var2);
-                    var1 = var2.isMetaQuest;
-                    var1 = var1.bind(var2)();
-                    var3 = _closure2_slot0;
+                    var1 = var3.bind(var1)(var2);
+                    var1 = var1.hasWebAuthn;
+                    var2 = _closure2_slot0;
                     if(var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var1 = var3;
-                    _fun0002_ip = 6; continue _fun0002;
-case 4:
-                    var2 = {};
-                    var7 = var2;
-                    var6 = var3;
-                    var4 = copyDataProperties(var7, var6);
-                    var5 = var3.methods;
+                    var1 = {};
+                    var7 = var1;
+                    var6 = var2;
+                    var3 = copyDataProperties(var7, var6);
+                    var5 = var2.methods;
                     var4 = var5.filter;
                     var3 = function(arg1) {
                         var1 = arg1;
@@ -73,7 +69,9 @@ case 4:
                     };
                     var4 = var4.bind(var5)(var3);
                     var3 = 'methods';
-                    var2[2] = var4;
+                    var1[2] = var4;
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var1 = var2;
 case 6:
                     return var1;

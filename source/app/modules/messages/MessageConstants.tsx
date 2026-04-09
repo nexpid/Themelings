@@ -4,6 +4,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = metroImportDefault;
     var3 = exports;
     var12 = dependencyMap;
+    var _closure1_slot0 = var11;
+    var _closure1_slot1 = var12;
     var2 = global;
     var7 = var2.Object;
     var6 = var7.defineProperty;
@@ -17,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var11.bind(var1)(var4);
     var4 = var4.ChannelStreamTypes;
-    var _closure1_slot0 = var4;
+    var _closure1_slot2 = var4;
     var6 = var2.Object;
     var4 = var6.freeze;
     var2 = {'referencedAvatarProfile': false, 'referencedUsernameProfile': false, 'interactionAvatarProfile': false, 'interactionUsernameProfile': false, 'interactionData': false, 'avatarProfile': false, 'usernameProfile': false, 'emojiPicker': false, 'emojiBurstPicker': false, 'moreUtilities': false, 'contextMenu': false};
@@ -48,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['POLL_TYPE'] = var2;
     var4 = {};
     var13 = {};
-    var2 = 1;
+    var2 = 2;
     var14 = var12[var2];
     var14 = var8.bind(var1)(var14);
     var14 = var14.Millis;
@@ -59,11 +61,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var12[var2];
     var14 = var8.bind(var1)(var14);
     var14 = var14.Millis;
-    var14 = var14.MINUTE;
-    var14 = var2 * var14;
+    var15 = var14.MINUTE;
+    var14 = 1;
+    var14 = var14 * var15;
     var13['deadline'] = var14;
     var4['timeout'] = var13;
-    var13 = 2;
+    var13 = 3;
     var13 = var12[var13];
     var14 = var8.bind(var1)(var13);
     var13 = var12[var2];
@@ -136,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SOCIAL_LAYER_STOREFRONT'] = var8;
     var8 = 'other';
     var2['OTHER'] = var8;
-    var8 = 3;
+    var8 = 4;
     var8 = var12[var8];
     var12 = var11.bind(var1)(var8);
     var11 = var12.fileFinishedImporting;
@@ -164,6 +167,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUILD_OFFICIAL_HIGHLIGHT_ALPHA_COLOR'] = var8;
     var8 = 0.16;
     var3['GUILD_OFFICIAL_HIGHLIGHT_ALPHA'] = var8;
+    var8 = 0.2;
+    var3['GUILD_OFFICIAL_HIGHLIGHT_SELECTED_ALPHA'] = var8;
+    var8 = function getGuildOfficialMessageStyle(arg1) {
+        var5 = arg1;
+        var1 = {};
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var2 = 1;
+        var4 = var7[var2];
+        var3 = undefined;
+        var9 = var6.bind(var3)(var4);
+        var8 = var9.int2hsl;
+        var4 = true;
+        var8 = var8.bind(var9)(var5, var4);
+        var1['--custom-guild-official-message'] = var8;
+        var2 = var7[var2];
+        var3 = var6.bind(var3)(var2);
+        var2 = var3.int2hslValues;
+        var2 = var2.bind(var3)(var5, var4);
+        var1['--custom-guild-official-message-hsl'] = var2;
+        var2 = 0.16;
+        var1['--custom-guild-official-message-alpha'] = var2;
+        var2 = 0.2;
+        var1['--custom-guild-official-message-selected-alpha'] = var2;
+        return var1;
+    };
+    var3['getGuildOfficialMessageStyle'] = var8;
     var3['FileUploadErrorTypes'] = var7;
     var3['MessageTagTypes'] = var6;
     var6 = 209715200;
@@ -171,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function isChannelStreamMessage(arg1) {
         var1 = arg1;
         var2 = var1.type;
-        var1 = _closure1_slot0;
+        var1 = _closure1_slot2;
         var1 = var1.MESSAGE;
         var1 = var2 === var1;
         return var1;

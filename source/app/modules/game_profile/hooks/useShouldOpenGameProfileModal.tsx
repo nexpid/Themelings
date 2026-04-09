@@ -314,7 +314,7 @@ case 30:
             var5 = 11;
             var5 = var9[var5];
             var6 = var6.bind(var11)(var5);
-            var5 = var6.useGamesWithSupplementalDataRequest;
+            var5 = var6.useGames;
             if(var3) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
             var2 = new Array(0);

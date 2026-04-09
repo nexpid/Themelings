@@ -36,17 +36,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 4;
     var8 = var6[var8];
     var8 = var9.bind(var1)(var8);
-    var4['server-subscriptions-finish-setting-up'] = var8;
-    var8 = 5;
-    var8 = var6[var8];
-    var8 = var9.bind(var1)(var8);
     var4['server-subscriptions-create-tier-from-template'] = var8;
     var _closure1_slot5 = var4;
     var4 = {};
     var8 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 6;
+        var1 = 5;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -63,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 6;
+        var1 = 5;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -80,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function selectGuildCta() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 6;
+        var1 = 5;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -97,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function createGuildDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 6;
+        var1 = 5;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -114,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function createGuildCta() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 6;
+        var1 = 5;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -132,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function useIsGuildSupported() {
         var3 = _closure1_slot0;
         var7 = _closure1_slot1;
-        var1 = 7;
+        var1 = 6;
         var5 = var7[var1];
         var2 = undefined;
         var6 = var3.bind(var2)(var5);
@@ -161,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4['useIsGuildSupported'] = var7;
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

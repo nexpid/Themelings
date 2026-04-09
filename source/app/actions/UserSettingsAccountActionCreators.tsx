@@ -725,12 +725,12 @@ case 52:
 case 55:
             var3 = var7 != var2;
 case 54:
-            if(!var3) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
+            if(!var3) { _fun0005_ip = 6; continue _fun0005 }
+case 56:
             var3 = _closure1_slot8;
             var5['push_voip_provider'] = var3;
             var5['push_voip_token'] = var2;
-case 56:
+case 6:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 4;
@@ -779,8 +779,8 @@ case 0:
                     var3['user'] = var9;
                     var3 = var6.bind(var7)(var3);
                     var6 = _closure2_slot1;
-                    if(!(var4 !== var6)) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+                    if(!(var4 !== var6)) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var6 = 8;
@@ -791,11 +791,11 @@ case 59:
                     var10 = var9.avatar;
                     var6['avatarHash'] = var10;
                     var6 = var7.bind(var8)(var6);
-case 58:
+case 57:
                     var6 = _closure2_slot2;
                     var8 = null;
                     if(!(var8 != var6)) { _fun0006_ip = 16; continue _fun0006 }
-case 60:
+case 59:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var6 = var6[var2];
@@ -812,12 +812,12 @@ case 16:
                     var6 = _closure2_slot0;
                     var6 = var8 != var6;
                     if(!var6) { _fun0006_ip = 25; continue _fun0006 }
-case 61:
+case 60:
                     var7 = _closure2_slot2;
                     var6 = var8 != var7;
 case 25:
-                    if(!var6) { _fun0006_ip = 62; continue _fun0006 }
-case 63:
+                    if(!var6) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var6 = var6[var2];
@@ -829,12 +829,12 @@ case 63:
                     var9 = var9.id;
                     var6['userId'] = var9;
                     var6 = var7.bind(var8)(var6);
-case 62:
+case 61:
                     var6 = _closure2_slot3;
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    if(var6) { _fun0006_ip = 64; continue _fun0006 }
-case 65:
+                    if(var6) { _fun0006_ip = 63; continue _fun0006 }
+case 64:
                     var2 = var5[var2];
                     var7 = var3.bind(var4)(var2);
                     var6 = var7.dispatch;
@@ -842,14 +842,14 @@ case 65:
                     var8 = 'USER_SETTINGS_MODAL_SUBMIT_COMPLETE';
                     var2['type'] = var8;
                     var2 = var6.bind(var7)(var2);
-                    _fun0006_ip = 66; continue _fun0006;
-case 64:
+                    _fun0006_ip = 65; continue _fun0006;
+case 63:
                     var2 = 9;
                     var2 = var5[var2];
                     var3 = var3.bind(var4)(var2);
                     var2 = var3.close;
                     var2 = var2.bind(var3)();
-case 66:
+case 65:
                     return var1;
                 }
             };

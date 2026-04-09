@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = 3;
         var8 = var7[var8];
         var9 = var9.bind(var5)(var8);
-        var8 = var9.useGamesWithSupplementalDataRequest;
+        var8 = var9.useGames;
         var8 = var8.bind(var9)(var4);
         var3 = var7[var3];
         var3 = var6.bind(var5)(var3);

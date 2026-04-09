@@ -31,15 +31,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.ShopCtaEnum;
     var _closure1_slot5 = var4;
     var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 5;
+    var10 = 6;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.radii;
@@ -47,8 +52,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var10;
     var4['buttonPill'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 13;
+    var _closure1_slot7 = var4;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -64,12 +69,15 @@ case 0:
 case 3:
             var10 = false;
 case 2:
+            var1 = var1.onTrackPress;
+            var _closure2_slot0 = var1;
+            var _closure2_slot1 = var4;
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var1 = var9[var1];
-            var6 = var2.bind(var4)(var1);
-            var5 = var6.useStateFromStores;
+            var7 = var2.bind(var4)(var1);
+            var5 = var7.useStateFromStores;
             var1 = _closure1_slot4;
             var3 = new Array(2);
             var3[0] = var1;
@@ -88,7 +96,7 @@ case 5:
                     var3 = var4.isPurchasingProduct;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 8;
                     var5 = var5[var2];
                     var2 = undefined;
                     var2 = var6.bind(var2)(var5);
@@ -99,16 +107,17 @@ case 4:
                     return var1;
                 }
             };
-            var5 = var5.bind(var6)(var3, var1);
-            var1 = _closure1_slot6;
+            var5 = var5.bind(var7)(var3, var1);
+            var1 = _closure1_slot7;
             var7 = var1.bind(var4)();
             var3 = _closure1_slot1;
-            var1 = 8;
+            var1 = 9;
             var1 = var9[var1];
             var1 = var3.bind(var4)(var1);
-            var6 = var1.bind(var4)();
-            var3 = _closure1_slot5;
-            var1 = 9;
+            var1 = var1.bind(var4)();
+            _closure2_slot1 = var1;
+            var3 = _closure1_slot6;
+            var1 = 10;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BaseTextButton;
@@ -116,15 +125,15 @@ case 4:
             var9 = undefined;
             if(!var10) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var13 = _closure1_slot5;
+            var13 = _closure1_slot6;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var11 = 10;
+            var11 = 11;
             var11 = var18[var11];
             var11 = var17.bind(var4)(var11);
             var12 = var11.Text;
             var11 = {'variant': 'text-xs/semibold', 'color': 'always-white', 'allowFontScaling': false};
-            var14 = 11;
+            var14 = 12;
             var15 = var18[var14];
             var15 = var17.bind(var4)(var15);
             var16 = var15.intl;
@@ -143,7 +152,7 @@ case 6:
 case 9:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var11 = 11;
+            var11 = 12;
             var12 = var15[var11];
             var12 = var14.bind(var4)(var12);
             var13 = var12.intl;
@@ -157,7 +166,7 @@ case 8:
             var1['text'] = var9;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var9 = 11;
+            var9 = 12;
             var11 = var14[var9];
             var11 = var13.bind(var4)(var11);
             var12 = var11.intl;
@@ -178,10 +187,10 @@ case 10:
             var1['size'] = var9;
             var9 = true;
             var1['grow'] = var9;
-            var10 = _closure1_slot5;
+            var10 = _closure1_slot6;
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var8 = 12;
+            var8 = 13;
             var8 = var11[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.NitroWheelIcon;
@@ -190,6 +199,25 @@ case 10:
             var1['icon'] = var8;
             var7 = var7.buttonPill;
             var1['pillStyle'] = var7;
+            var6 = function onPress() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var3 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+                    var4 = _closure2_slot0;
+                    var2 = _closure1_slot5;
+                    var3 = var2.UNLOCK_WITH_NITRO;
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+case 12:
+                    var2 = _closure2_slot1;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)();
+                    return var1;
+                }
+            };
             var1['onPress'] = var6;
             var1['disabled'] = var5;
             var1 = var3.bind(var4)(var2, var1);

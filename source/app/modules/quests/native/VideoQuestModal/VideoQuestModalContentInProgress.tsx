@@ -990,7 +990,8 @@ case 31:
             var25 = _closure1_slot9;
             var21 = 30;
             var21 = var32[var21];
-            var24 = var24.bind(var4)(var21);
+            var21 = var30.bind(var4)(var21);
+            var24 = var21.ShinyButton;
             var21 = {};
             var21['onPress'] = var33;
             var28 = var28.ctaPrimary;
@@ -1467,7 +1468,8 @@ case 44:
             var34[0] = var35;
             var35 = 30;
             var35 = var19[var35];
-            var36 = var21.bind(var4)(var35);
+            var35 = var7.bind(var4)(var35);
+            var36 = var35.ShinyButton;
             var35 = {};
             var35['onPress'] = var38;
             var38 = var24.ctaPrimary;

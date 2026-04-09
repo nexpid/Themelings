@@ -1,4 +1,4 @@
-// app/modules/game_detection/GameRecord.tsx
+// app/modules/games/GameRecord.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var9 = metroImportDefault;
@@ -311,54 +311,66 @@ case 37:
         var5 = {};
         var7 = 'getCoverURL';
         var5['key'] = var7;
-        var7 = function value() {
+        var7 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var7 = this;
-                var1 = var7.media;
+                var11 = this;
+                var1 = var11.media;
                 var3 = null;
                 var2 = var3 == var1;
                 var1 = null;
                 if(var2) { _fun0003_ip = 42; continue _fun0003 }
 case 43:
-                var2 = var7.media;
+                var2 = var11.media;
                 var2 = var2.cover_hash;
-                if(!(var3 == var2)) { _fun0003_ip = 6; continue _fun0003 }
+                if(!(var3 == var2)) { _fun0003_ip = 3; continue _fun0003 }
 case 44:
-                var2 = var7.media;
+                var2 = var11.media;
                 var4 = var2.cover_url;
                 var5 = var3 != var4;
                 var2 = null;
-                if(!var5) { _fun0003_ip = 45; continue _fun0003 }
-case 46:
-                var2 = var4;
+                if(!var5) { _fun0003_ip = 6; continue _fun0003 }
 case 45:
-                _fun0003_ip = 47; continue _fun0003;
+                var2 = var4;
 case 6:
-                var6 = _closure1_slot1;
-                var5 = _closure1_slot2;
-                var4 = 7;
-                var5 = var5[var4];
-                var4 = undefined;
-                var6 = var6.bind(var4)(var5);
+                _fun0003_ip = 46; continue _fun0003;
+case 3:
+                var5 = _closure1_slot1;
+                var10 = _closure1_slot2;
+                var7 = 7;
+                var4 = var10[var7];
+                var9 = undefined;
+                var6 = var5.bind(var9)(var4);
                 var5 = var6.getGameAssetURL;
                 var4 = {};
-                var8 = var7.id;
-                var4['id'] = var8;
-                var7 = var7.media;
-                var7 = var7.cover_hash;
-                var4['hash'] = var7;
-                var7 = true;
-                var4['keepAspectRatio'] = var7;
+                var12 = var11.id;
+                var4['id'] = var12;
+                var11 = var11.media;
+                var11 = var11.cover_hash;
+                var4['hash'] = var11;
+                var11 = true;
+                var4['keepAspectRatio'] = var11;
+                var8 = _closure1_slot0;
+                var7 = var10[var7];
+                var7 = var8.bind(var9)(var7);
+                var8 = var7.SUPPORTS_WEBP;
+                var7 = 'png';
+                if(!var8) { _fun0003_ip = 47; continue _fun0003 }
+case 48:
+                var7 = 'webp';
+case 47:
+                var4['format'] = var7;
+                var7 = arg1;
+                var4['size'] = var7;
                 var4 = var5.bind(var6)(var4);
                 var5 = var3 != var4;
                 var3 = null;
-                if(!var5) { _fun0003_ip = 48; continue _fun0003 }
-case 49:
+                if(!var5) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
                 var3 = var4;
-case 48:
+case 49:
                 var2 = var3;
-case 47:
+case 46:
                 var1 = var2;
 case 42:
                 return var1;
@@ -375,8 +387,8 @@ case 0:
                 var1 = this;
                 var3 = var1.media;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+                if(!(var2 != var3)) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 8;
@@ -390,10 +402,10 @@ case 51:
                 var1 = var1.media;
                 var1 = var1.artwork_urls;
                 var1 = var4.bind(var5)(var3, var2, var1);
-                _fun0004_ip = 52; continue _fun0004;
-case 50:
+                _fun0004_ip = 53; continue _fun0004;
+case 51:
                 var1 = new Array(0);
-case 52:
+case 53:
                 return var1;
             }
         };
@@ -412,8 +424,8 @@ case 0:
                 var2 = null;
                 var4 = var2 == var5;
                 var1 = undefined;
-                if(var4) { _fun0005_ip = 53; continue _fun0005 }
-case 54:
+                if(var4) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
                 var4 = var5.filter;
                 var3 = function(arg1) {
                     var1 = arg1;
@@ -424,9 +436,9 @@ case 54:
                     return var1;
                 };
                 var1 = var4.bind(var5)(var3);
-case 53:
+case 54:
                 if(!(var2 == var1)) { _fun0005_ip = 7; continue _fun0005 }
-case 55:
+case 56:
                 var1 = new Array(0);
 case 7:
                 return var1;
@@ -442,7 +454,7 @@ case 7:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/game_detection/GameRecord.tsx';
+    var4 = 'modules/games/GameRecord.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

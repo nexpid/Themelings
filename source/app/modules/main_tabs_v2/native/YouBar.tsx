@@ -416,7 +416,7 @@ case 19:
             var3 = var3[var2];
             var4 = var4.bind(var5)(var3);
             var3 = var4.useAnimatedStyle;
-            var1 = function y() {
+            var1 = function I() {
                 var1 = {};
                 var4 = {};
                 var5 = _closure2_slot5;
@@ -1708,7 +1708,7 @@ case 63:
 case 0:
             var2 = arg1;
             var6 = var2.largeAvatarEnabled;
-            var2 = var2.isQuestVisible;
+            var2 = var2.isQuestRendered;
             var4 = undefined;
             var _closure2_slot0 = var4;
             var _closure2_slot1 = var4;
@@ -2536,15 +2536,15 @@ case 108:
     var5 = var9.bind(var8)(var5);
     var _closure1_slot45 = var5;
     var5 = {};
-    var9 = 'function YouBarTsx6(){const{withSpring,isPressed,isQuestVisible,SPRING_CONFIG}=this.__closure;return{transform:[{scale:withSpring(isPressed&&!isQuestVisible?0.98:1,SPRING_CONFIG)}]};}';
+    var9 = 'function YouBarTsx6(){const{withSpring,isPressed,isQuestRendered,SPRING_CONFIG}=this.__closure;return{transform:[{scale:withSpring(isPressed&&!isQuestRendered?0.98:1,SPRING_CONFIG)}]};}';
     var5['code'] = var9;
     var _closure1_slot46 = var5;
     var5 = {};
-    var9 = 'function YouBarTsx7(){const{withSpring,isQuestVisible,questDockAnimatedBorderRadius,YOU_BAR_HEIGHT,SPRING_CONFIG}=this.__closure;return{borderTopRightRadius:withSpring(isQuestVisible?questDockAnimatedBorderRadius.get():YOU_BAR_HEIGHT/2,SPRING_CONFIG),borderTopLeftRadius:withSpring(isQuestVisible?questDockAnimatedBorderRadius.get():YOU_BAR_HEIGHT/2,SPRING_CONFIG)};}';
+    var9 = 'function YouBarTsx7(){const{withSpring,isQuestRendered,questDockAnimatedBorderRadius,YOU_BAR_HEIGHT,SPRING_CONFIG}=this.__closure;return{borderTopRightRadius:withSpring(isQuestRendered?questDockAnimatedBorderRadius.get():YOU_BAR_HEIGHT/2,SPRING_CONFIG),borderTopLeftRadius:withSpring(isQuestRendered?questDockAnimatedBorderRadius.get():YOU_BAR_HEIGHT/2,SPRING_CONFIG)};}';
     var5['code'] = var9;
     var _closure1_slot47 = var5;
     var5 = {};
-    var9 = 'function YouBarTsx8(){const{withSpring,isQuestVisible,questDockAnimatedBorderRadius,YOU_BAR_HEIGHT,SPRING_CONFIG}=this.__closure;return{borderTopRightRadius:withSpring(isQuestVisible?questDockAnimatedBorderRadius.get():YOU_BAR_HEIGHT/2,SPRING_CONFIG)};}';
+    var9 = 'function YouBarTsx8(){const{withSpring,isQuestRendered,questDockAnimatedBorderRadius,YOU_BAR_HEIGHT,SPRING_CONFIG}=this.__closure;return{borderTopRightRadius:withSpring(isQuestRendered?questDockAnimatedBorderRadius.get():YOU_BAR_HEIGHT/2,SPRING_CONFIG)};}';
     var5['code'] = var9;
     var _closure1_slot48 = var5;
     var5 = {};
@@ -2579,7 +2579,7 @@ case 0:
             var3 = 56;
             var9 = var8[var3];
             var13 = var6.bind(var4)(var9);
-            var9 = var13.useIsMobileQuestDockVisibleBase;
+            var9 = var13.useIsMobileQuestDockRenderedBase;
             var3 = var8[var3];
             var14 = var6.bind(var4)(var3);
             var3 = var14.useMobileQuestDock;
@@ -3005,11 +3005,11 @@ case 135:
             var14 = var14.withSpring;
             var6['withSpring'] = var14;
             var6['isPressed'] = var7;
-            var6['isQuestVisible'] = var20;
+            var6['isQuestRendered'] = var20;
             var7 = _closure1_slot36;
             var6['SPRING_CONFIG'] = var7;
             var2['__closure'] = var6;
-            var6 = 12501635603693.0;
+            var6 = 4633106658765.0;
             var2['__workletHash'] = var6;
             var6 = _closure1_slot46;
             var2['__initData'] = var6;
@@ -3079,14 +3079,14 @@ case 43:
             var19 = var18.bind(var4)(var19);
             var19 = var19.withSpring;
             var14['withSpring'] = var19;
-            var14['isQuestVisible'] = var20;
+            var14['isQuestRendered'] = var20;
             var14['questDockAnimatedBorderRadius'] = var16;
             var19 = _closure1_slot16;
             var14['YOU_BAR_HEIGHT'] = var19;
             var19 = _closure1_slot36;
             var14['SPRING_CONFIG'] = var19;
             var2['__closure'] = var14;
-            var14 = 12489723644898.0;
+            var14 = 14575312830567.0;
             var2['__workletHash'] = var14;
             var14 = _closure1_slot47;
             var2['__initData'] = var14;
@@ -3128,14 +3128,14 @@ case 131:
             var17 = var18.bind(var4)(var17);
             var17 = var17.withSpring;
             var14['withSpring'] = var17;
-            var14['isQuestVisible'] = var20;
+            var14['isQuestRendered'] = var20;
             var14['questDockAnimatedBorderRadius'] = var16;
             var16 = _closure1_slot16;
             var14['YOU_BAR_HEIGHT'] = var16;
             var16 = _closure1_slot36;
             var14['SPRING_CONFIG'] = var16;
             var2['__closure'] = var14;
-            var14 = 6489921181141.0;
+            var14 = 2329054083221.0;
             var2['__workletHash'] = var14;
             var14 = _closure1_slot48;
             var2['__initData'] = var14;
@@ -3664,7 +3664,7 @@ case 162:
             var18 = _closure1_slot41;
             var17 = {};
             var17['largeAvatarEnabled'] = var21;
-            var17['isQuestVisible'] = var20;
+            var17['isQuestRendered'] = var20;
             var17 = var19.bind(var4)(var18, var17);
             var14['children'] = var17;
             var14 = var16.bind(var4)(var15, var14);

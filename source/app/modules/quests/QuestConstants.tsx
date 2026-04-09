@@ -42,10 +42,6 @@ case 0:
         var22['COLLECTIBLE_REWARD_MODAL'] = var1;
         var1 = 'orbs_reward_modal';
         var22['ORBS_REWARD_MODAL'] = var1;
-        var1 = 'quest_preview_tool';
-        var22['QUEST_PREVIEW_TOOL'] = var1;
-        var1 = 'quest_preview_tool_2';
-        var22['QUEST_PREVIEW_TOOL_2'] = var1;
         var1 = 'QUESTS_MINOR_REWARD_CAPPING_CONFIG';
         var22['QUESTS_MINOR_REWARD_CAPPING_CONFIG'] = var1;
         var1 = 'quests_card';
@@ -96,8 +92,6 @@ case 0:
         var22['QUEST_HOME_MOVED_CALLOUT'] = var1;
         var1 = 'in_app_navigation';
         var22['IN_APP_NAVIGATION'] = var1;
-        var1 = 'navigate_to_quest_home_util';
-        var22['NAVIGATE_TO_QUEST_HOME_UTIL'] = var1;
         var1 = 'quest_deep_link_util';
         var22['QUEST_DEEP_LINK_UTIL'] = var1;
         var1 = 'you_tab_profile_header';

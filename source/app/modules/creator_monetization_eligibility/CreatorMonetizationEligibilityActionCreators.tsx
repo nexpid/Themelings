@@ -285,94 +285,17 @@ case 8:
         return var1;
     };
     var _closure1_slot10 = var1;
-    var1 = function _fetchCreatorMonetizationNagActivateEligibility() {
-        var5 = undefined;
-        var1 = undefined;
-        var4 = _closure1_slot3;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
-                    var8 = arg1;
-case 18: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 3;
-                    var2 = var5[var2];
-                    var5 = undefined;
-                    var2 = var4.bind(var5)(var2);
-                    var6 = var2.HTTP;
-                    var4 = var6.get;
-                    var2 = {};
-                    var7 = _closure1_slot4;
-                    var7 = var7.CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY;
-                    var2['url'] = var7;
-                    var7 = {};
-                    var7['nag_guild_ids'] = var8;
-                    var2['query'] = var7;
-                    var7 = true;
-                    var2['rejectWithError'] = var7;
-                    var2 = var4.bind(var6)(var2);
-                    SaveGenerator(address=93);
-case 6:
-                    return var2;
-case 19:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
-                    var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var6[var3];
-                    var5 = var4.bind(var5)(var3);
-                    var4 = var5.dispatch;
-                    var3 = {};
-                    var6 = 'CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY_FETCH_SUCCESS';
-                    var3['type'] = var6;
-                    var6 = var2.body;
-                    var6 = var6.eligible_guilds;
-                    var3['eligibleGuilds'] = var6;
-                    var3 = var4.bind(var5)(var3);
-case 22: // try_end0
-                    _fun0006_ip = 23; continue _fun0006;
-case 20:
-                    return var2;
-case 24: // catch_target0
-                    CatchBlockStart(arg_register=1);
-case 23:
-                    var2 = undefined;
-                    return var2;
-case 16:
-                    return var1;
-                }
-            };
-            return var1;
-        };
-        var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot11 = var1;
     var1 = function _ownershipTransferOnboard() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 25; continue _fun0007 }
+                    if(var2) { _fun0006_ip = 16; continue _fun0006 }
 case 17:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -396,17 +319,17 @@ case 17:
                     var2['rejectWithError'] = var7;
                     var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=99);
-case 26:
+case 18:
                     return var2;
-case 21:
+case 19:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+                    if(var3) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                     var3 = var2.body;
                     var7 = var3.application;
                     var5 = null;
-                    if(!(var5 != var7)) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+                    if(!(var5 != var7)) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var4 = 4;
@@ -419,18 +342,18 @@ case 30:
                     var7 = var3.application;
                     var4['application'] = var7;
                     var4 = var5.bind(var6)(var4);
-case 29:
+case 22:
                     return var3;
-case 27:
+case 20:
                     return var2;
-case 25:
+case 16:
                     return var1;
                 }
             };
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot12 = var4;
+        _closure1_slot11 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -438,18 +361,18 @@ case 25:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _requestRemoveMonetization() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 31; continue _fun0008 }
+                    if(var2) { _fun0007_ip = 24; continue _fun0007 }
 case 3:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -475,12 +398,85 @@ case 14:
                     return var2;
 case 7:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0008_ip = 26; continue _fun0008 }
+                    if(var4) { _fun0007_ip = 18; continue _fun0007 }
 case 2:
                     return var3;
+case 18:
+                    return var2;
+case 24:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot12 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot12 = var1;
+    var1 = function _removeMonetization() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                    StartGenerator();
+                    var6 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0008_ip = 25; continue _fun0008 }
+case 17:
+                    var2 = function requestRemoveMonetization() {
+                        var1 = undefined;
+                        var4 = _closure1_slot12;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
+                    };
+                    var5 = undefined;
+                    var2 = var2.bind(var5)(var6);
+                    SaveGenerator(address=30);
 case 26:
                     return var2;
+case 27:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
+                    var4 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var8[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.getApplicationsForGuild;
+                    var3 = {};
+                    var7 = _closure1_slot5;
+                    var7 = var7.GUILD_ROLE_SUBSCRIPTIONS;
+                    var3['type'] = var7;
+                    var7 = true;
+                    var3['includeTeam'] = var7;
+                    var3 = var4.bind(var5)(var6, var3);
+                    SaveGenerator(address=98);
+case 30:
+                    return var3;
+case 8:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
+                    return var3;
 case 31:
+                    return var3;
+case 28:
+                    return var2;
+case 25:
                     return var1;
                 }
             };
@@ -496,79 +492,6 @@ case 31:
         return var1;
     };
     var _closure1_slot13 = var1;
-    var1 = function _removeMonetization() {
-        var5 = undefined;
-        var1 = undefined;
-        var4 = _closure1_slot3;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                    StartGenerator();
-                    var6 = arg1;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 32; continue _fun0009 }
-case 17:
-                    var2 = function requestRemoveMonetization() {
-                        var1 = undefined;
-                        var4 = _closure1_slot13;
-                        var3 = var4.apply;
-                        var1 = arguments;
-                        var2 = var1;
-                        var1 = this;
-                        var1 = var3.bind(var4)(var1, var2);
-                        return var1;
-                    };
-                    var5 = undefined;
-                    var2 = var2.bind(var5)(var6);
-                    SaveGenerator(address=30);
-case 33:
-                    return var2;
-case 34:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0009_ip = 35; continue _fun0009 }
-case 36:
-                    var4 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var3 = 5;
-                    var3 = var8[var3];
-                    var5 = var4.bind(var5)(var3);
-                    var4 = var5.getApplicationsForGuild;
-                    var3 = {};
-                    var7 = _closure1_slot5;
-                    var7 = var7.GUILD_ROLE_SUBSCRIPTIONS;
-                    var3['type'] = var7;
-                    var7 = true;
-                    var3['includeTeam'] = var7;
-                    var3 = var4.bind(var5)(var6, var3);
-                    SaveGenerator(address=98);
-case 37:
-                    return var3;
-case 8:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0009_ip = 38; continue _fun0009 }
-case 39:
-                    return var3;
-case 38:
-                    return var3;
-case 35:
-                    return var2;
-case 32:
-                    return var1;
-                }
-            };
-            return var1;
-        };
-        var4 = var4.bind(var5)(var3);
-        _closure1_slot14 = var4;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot14 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -653,20 +576,9 @@ case 32:
         return var1;
     };
     var3['getCreatorMonetizationOnboardingMarketing'] = var4;
-    var4 = function fetchCreatorMonetizationNagActivateEligibility() {
-        var1 = undefined;
-        var4 = _closure1_slot11;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var3['fetchCreatorMonetizationNagActivateEligibility'] = var4;
     var4 = function ownershipTransferOnboard() {
         var1 = undefined;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot11;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -719,7 +631,7 @@ case 32:
     var3['acceptNewTermsDemonetized'] = var4;
     var2 = function removeMonetization() {
         var1 = undefined;
-        var4 = _closure1_slot14;
+        var4 = _closure1_slot13;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

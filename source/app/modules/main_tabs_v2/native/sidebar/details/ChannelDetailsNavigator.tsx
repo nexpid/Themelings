@@ -209,7 +209,8 @@ case 0:
             var20 = var2.channelId;
             var _closure2_slot0 = var20;
             var19 = var2.applicationId;
-            var17 = var2.search;
+            var18 = var2.search;
+            var17 = var2.expandTopic;
             var1 = var2.source;
             var _closure2_slot1 = var1;
             var8 = var2.initialRouteName;
@@ -336,11 +337,11 @@ case 17:
                 }
             };
             var12 = var3.bind(var6)(var1, var2);
-            var18 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
             var1 = 17;
-            var1 = var21[var1];
-            var3 = var18.bind(var4)(var1);
+            var1 = var22[var1];
+            var3 = var21.bind(var4)(var1);
             var2 = var3.useNavigatorBackPressHandler;
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -382,7 +383,7 @@ case 20:
             var1 = var2.bind(var3)(var1);
             var2 = _closure1_slot1;
             var1 = 19;
-            var1 = var21[var1];
+            var1 = var22[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var10 = var1.left;
@@ -406,13 +407,13 @@ case 20:
             var5['id'] = var13;
             var13 = {};
             var16 = 11;
-            var16 = var21[var16];
-            var16 = var18.bind(var4)(var16);
+            var16 = var22[var16];
+            var16 = var21.bind(var4)(var16);
             var16 = var16.renderGenericTitle;
             var13['headerTitle'] = var16;
-            var23 = var13;
-            var22 = var14;
-            var14 = copyDataProperties(var23, var22);
+            var24 = var13;
+            var23 = var14;
+            var14 = copyDataProperties(var24, var23);
             var5['screenOptions'] = var13;
             var5['initialRouteName'] = var8;
             var16 = _closure1_slot9;
@@ -420,7 +421,8 @@ case 20:
             var8 = {};
             var14 = {};
             var14['channelId'] = var20;
-            var14['search'] = var17;
+            var14['search'] = var18;
+            var14['expandTopic'] = var17;
             var8['initialParams'] = var14;
             var14 = _closure1_slot6;
             var17 = var14.DETAILS;
@@ -628,9 +630,9 @@ case 20:
             var13 = _closure1_slot9;
             var11 = var10.Screen;
             var10 = {};
-            var23 = var10;
-            var22 = var15;
-            var15 = copyDataProperties(var23, var22);
+            var24 = var10;
+            var23 = var15;
+            var15 = copyDataProperties(var24, var23);
             var15 = var14.THREADS;
             var14 = 'name';
             var10[13] = var15;

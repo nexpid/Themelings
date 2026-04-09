@@ -557,32 +557,32 @@ case 0:
             var2 = var7 == var3;
             var9 = null;
             if(var2) { _fun0011_ip = 44; continue _fun0011 }
-case 24:
+case 45:
             var2 = var4.getTime;
             var2 = var2.bind(var4)();
             var9 = var2 - var3;
 case 44:
             var3 = var7 == var8;
             var2 = undefined;
-            if(var3) { _fun0011_ip = 45; continue _fun0011 }
-case 46:
+            if(var3) { _fun0011_ip = 46; continue _fun0011 }
+case 47:
             var2 = var8.guildId;
-case 45:
-            if(!(var7 == var2)) { _fun0011_ip = 47; continue _fun0011 }
-case 48:
+case 46:
+            if(!(var7 == var2)) { _fun0011_ip = 48; continue _fun0011 }
+case 49:
             var3 = _closure1_slot23;
             var2 = var8;
-            if(!(var7 == var2)) { _fun0011_ip = 49; continue _fun0011 }
-case 50:
+            if(!(var7 == var2)) { _fun0011_ip = 50; continue _fun0011 }
+case 51:
             var2 = {};
-case 49:
+case 50:
             var6 = var3.bind(var1)(var12, var2);
-            _fun0011_ip = 51; continue _fun0011;
-case 47:
+            _fun0011_ip = 52; continue _fun0011;
+case 48:
             var3 = _closure1_slot22;
             var2 = var8.guildId;
             var6 = var3.bind(var1)(var12, var2);
-case 51:
+case 52:
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
             var2 = 18;
@@ -601,23 +601,23 @@ case 51:
             var2['type'] = var13;
             var14 = var7 == var8;
             var13 = undefined;
-            if(var14) { _fun0011_ip = 52; continue _fun0011 }
-case 53:
+            if(var14) { _fun0011_ip = 53; continue _fun0011 }
+case 54:
             var13 = var8.dismissAction;
-case 52:
-            if(!(var7 == var13)) { _fun0011_ip = 54; continue _fun0011 }
-case 55:
+case 53:
+            if(!(var7 == var13)) { _fun0011_ip = 55; continue _fun0011 }
+case 56:
             var14 = _closure1_slot12;
             var13 = var14.UNKNOWN;
-case 54:
+case 55:
             var2['action'] = var13;
             var2['content_count'] = var11;
             var13 = var7 == var8;
             var11 = undefined;
-            if(var13) { _fun0011_ip = 56; continue _fun0011 }
-case 57:
+            if(var13) { _fun0011_ip = 57; continue _fun0011 }
+case 58:
             var11 = var8.groupName;
-case 56:
+case 57:
             var2['group_name'] = var11;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -630,18 +630,18 @@ case 56:
             var2['bypass_fatigue'] = var10;
             var11 = var7 == var8;
             var10 = undefined;
-            if(var11) { _fun0011_ip = 58; continue _fun0011 }
-case 59:
+            if(var11) { _fun0011_ip = 59; continue _fun0011 }
+case 60:
             var10 = var8.guildId;
-case 58:
+case 59:
             var2['guild_id'] = var10;
             var2['shown_duration'] = var9;
             var9 = var7 == var8;
             var7 = undefined;
-            if(var9) { _fun0011_ip = 60; continue _fun0011 }
-case 61:
+            if(var9) { _fun0011_ip = 61; continue _fun0011 }
+case 62:
             var7 = var8.version;
-case 60:
+case 61:
             var2['version'] = var7;
             var2['num_times_dismissed'] = var6;
             var2 = var4.bind(var5)(var3, var2);
@@ -744,11 +744,11 @@ case 0:
             var2 = var4 == var1;
             var3 = undefined;
             var5 = undefined;
-            if(var2) { _fun0012_ip = 62; continue _fun0012 }
-case 63:
+            if(var2) { _fun0012_ip = 63; continue _fun0012 }
+case 64:
             var1 = var1.recurringDismissibleContentStates;
             var5 = var1[var10];
-case 62:
+case 63:
             var1 = {};
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -758,7 +758,7 @@ case 62:
             var2 = var6.isVersionedDismissibleContent;
             var7 = var2.bind(var6)(var10);
             var6 = 0;
-            if(!var7) { _fun0012_ip = 64; continue _fun0012 }
+            if(!var7) { _fun0012_ip = 65; continue _fun0012 }
 case 30:
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -767,7 +767,7 @@ case 30:
             var9 = var9.bind(var3)(var7);
             var7 = var9.getVersionedDismissibleContentCurrentVersion;
             var6 = var7.bind(var9)(var10);
-case 64:
+case 65:
             var1['lastDismissedVersion'] = var6;
             var7 = global;
             var6 = var7.Date;
@@ -788,8 +788,8 @@ case 64:
             var6 = var9.isSnowflakeBoundDismissibleContent;
             var9 = var6.bind(var9)(var10);
             var6 = '0';
-            if(!var9) { _fun0012_ip = 65; continue _fun0012 }
-case 66:
+            if(!var9) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var8 = 10;
@@ -802,14 +802,14 @@ case 66:
             var7 = 2592000000.0;
             var7 = var10 + var7;
             var6 = var8.bind(var9)(var7);
-case 65:
+case 66:
             var1['lastDismissedObjectId'] = var6;
             var6 = var4 == var5;
             var3 = undefined;
-            if(var6) { _fun0012_ip = 67; continue _fun0012 }
-case 68:
+            if(var6) { _fun0012_ip = 68; continue _fun0012 }
+case 57:
             var3 = var5.numTimesDismissed;
-case 67:
+case 68:
             var4 = var4 != var3;
             var2 = 0;
             if(!var4) { _fun0012_ip = 69; continue _fun0012 }
@@ -970,7 +970,7 @@ case 0:
             var2 = var3.disableNewUserDismissibleContent;
             var2 = var2.bind(var3)(var6);
             if(var2) { _fun0013_ip = 71; continue _fun0013 }
-case 62:
+case 63:
             var2 = _closure1_slot5;
             var2 = var2.settings;
             var5 = var2.userContent;
@@ -999,10 +999,10 @@ case 76:
 case 75:
             var1 = {};
             var3 = var3 != var2;
-            if(!var3) { _fun0013_ip = 47; continue _fun0013 }
-case 77:
+            if(!var3) { _fun0013_ip = 77; continue _fun0013 }
+case 38:
             var3 = var2 >= var4;
-case 47:
+case 77:
             var1['isDismissed'] = var3;
             var1['lastDismissedVersion'] = var2;
             return var1;
@@ -1040,17 +1040,17 @@ case 33:
             var3 = var7 == var1;
             var5 = undefined;
             if(var3) { _fun0014_ip = 79; continue _fun0014 }
-case 80:
+case 45:
             var5 = var1.lastDismissedAtMs;
 case 79:
             var1 = var7 != var5;
             var3 = undefined;
-            if(!var1) { _fun0014_ip = 81; continue _fun0014 }
-case 82:
+            if(!var1) { _fun0014_ip = 80; continue _fun0014 }
+case 81:
             var1 = '0';
             var3 = undefined;
-            if(!(var1 !== var5)) { _fun0014_ip = 81; continue _fun0014 }
-case 83:
+            if(!(var1 !== var5)) { _fun0014_ip = 80; continue _fun0014 }
+case 82:
             var4 = global;
             var9 = var4.Number;
             var6 = var9.isNaN;
@@ -1058,19 +1058,19 @@ case 83:
             var1 = var1.bind(var2)(var5);
             var6 = var6.bind(var9)(var1);
             var1 = undefined;
-            if(var6) { _fun0014_ip = 84; continue _fun0014 }
-case 85:
+            if(var6) { _fun0014_ip = 83; continue _fun0014 }
+case 84:
             var4 = var4.Number;
             var1 = var4.bind(var2)(var5);
-case 84:
+case 83:
             var3 = var1;
-case 81:
-            if(!(var2 !== var3)) { _fun0014_ip = 86; continue _fun0014 }
-case 87:
+case 80:
+            if(!(var2 !== var3)) { _fun0014_ip = 58; continue _fun0014 }
+case 85:
             var1 = var7 != var8;
             var4 = true;
-            if(!var1) { _fun0014_ip = 88; continue _fun0014 }
-case 89:
+            if(!var1) { _fun0014_ip = 86; continue _fun0014 }
+case 87:
             var1 = var8.cooldownDurationMs;
             var6 = var3 + var1;
             var1 = global;
@@ -1079,29 +1079,29 @@ case 89:
             var1 = var1.bind(var5)();
             var5 = var8.showAfterTimestamp;
             var5 = var7 == var5;
-            if(var5) { _fun0014_ip = 90; continue _fun0014 }
-case 91:
+            if(var5) { _fun0014_ip = 88; continue _fun0014 }
+case 89:
             var7 = var8.showAfterTimestamp;
             var7 = var1 >= var7;
-            if(!var7) { _fun0014_ip = 55; continue _fun0014 }
-case 53:
+            if(!var7) { _fun0014_ip = 90; continue _fun0014 }
+case 91:
             var8 = var8.showAfterTimestamp;
             var7 = var3 <= var8;
-case 55:
-            var5 = var7;
 case 90:
+            var5 = var7;
+case 88:
             var1 = var1 < var6;
             if(var1) { _fun0014_ip = 92; continue _fun0014 }
-case 54:
+case 93:
             var1 = !var5;
 case 92:
             var4 = var1;
-case 88:
+case 86:
             var1 = {};
             var1['isDismissed'] = var4;
             var1['lastDismissedAtMs'] = var3;
             return var1;
-case 86:
+case 58:
             var1 = {};
             var3 = false;
             var1['isDismissed'] = var3;
@@ -1126,7 +1126,7 @@ case 0:
             var2 = var2.bind(var5)(var1);
             var1 = var2.disableNewUserDismissibleContent;
             var1 = var1.bind(var2)(var4);
-            if(var1) { _fun0015_ip = 93; continue _fun0015 }
+            if(var1) { _fun0015_ip = 94; continue _fun0015 }
 case 21:
             var1 = _closure1_slot5;
             var1 = var1.settings;
@@ -1141,7 +1141,7 @@ case 33:
             var7 = var2 == var1;
             var6 = undefined;
             if(var7) { _fun0015_ip = 79; continue _fun0015 }
-case 80:
+case 45:
             var6 = var1.lastDismissedObjectId;
 case 79:
             var1 = _closure1_slot5;
@@ -1149,23 +1149,23 @@ case 79:
             var1 = var1.userContent;
             var8 = var2 == var1;
             var7 = undefined;
-            if(var8) { _fun0015_ip = 94; continue _fun0015 }
-case 95:
+            if(var8) { _fun0015_ip = 95; continue _fun0015 }
+case 96:
             var1 = var1.recurringDismissibleContentStates;
             var1 = var1[var4];
             var4 = var2 == var1;
             var7 = undefined;
-            if(var4) { _fun0015_ip = 94; continue _fun0015 }
-case 96:
+            if(var4) { _fun0015_ip = 95; continue _fun0015 }
+case 97:
             var7 = var1.lastDismissedAtMs;
-case 94:
+case 95:
             var1 = var2 != var7;
             var11 = undefined;
-            if(!var1) { _fun0015_ip = 97; continue _fun0015 }
+            if(!var1) { _fun0015_ip = 42; continue _fun0015 }
 case 98:
             var1 = '0';
             var11 = undefined;
-            if(!(var1 !== var7)) { _fun0015_ip = 97; continue _fun0015 }
+            if(!(var1 !== var7)) { _fun0015_ip = 42; continue _fun0015 }
 case 99:
             var4 = global;
             var9 = var4.Number;
@@ -1180,7 +1180,7 @@ case 101:
             var1 = var4.bind(var5)(var7);
 case 100:
             var11 = var1;
-case 97:
+case 42:
             var4 = var2 != var10;
             var1 = false;
             if(!var4) { _fun0015_ip = 102; continue _fun0015 }
@@ -1188,7 +1188,7 @@ case 103:
             var4 = var2 != var11;
             var1 = false;
             if(!var4) { _fun0015_ip = 102; continue _fun0015 }
-case 104:
+case 54:
             var4 = var10.cooldownDurationMs;
             var8 = var11 + var4;
             var4 = global;
@@ -1197,27 +1197,27 @@ case 104:
             var4 = var4.bind(var7)();
             var7 = var10.showAfterTimestamp;
             var7 = var2 == var7;
-            if(var7) { _fun0015_ip = 105; continue _fun0015 }
-case 106:
+            if(var7) { _fun0015_ip = 104; continue _fun0015 }
+case 105:
             var9 = var10.showAfterTimestamp;
             var9 = var4 >= var9;
-            if(!var9) { _fun0015_ip = 107; continue _fun0015 }
-case 108:
+            if(!var9) { _fun0015_ip = 106; continue _fun0015 }
+case 107:
             var10 = var10.showAfterTimestamp;
             var9 = var11 <= var10;
-case 107:
+case 106:
             var7 = var9;
-case 105:
+case 104:
             var4 = var4 < var8;
-            if(var4) { _fun0015_ip = 109; continue _fun0015 }
-case 110:
-            var4 = !var7;
+            if(var4) { _fun0015_ip = 108; continue _fun0015 }
 case 109:
+            var4 = !var7;
+case 108:
             var1 = var4;
 case 102:
             var2 = var2 != var6;
-            if(!var2) { _fun0015_ip = 111; continue _fun0015 }
-case 112:
+            if(!var2) { _fun0015_ip = 110; continue _fun0015 }
+case 111:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 10;
@@ -1228,13 +1228,13 @@ case 112:
             var4 = var4.bind(var5)(var3, var6);
             var3 = 1;
             var2 = var3 !== var4;
-case 111:
-            if(!var1) { _fun0015_ip = 113; continue _fun0015 }
-case 114:
-            var1 = var2;
+case 110:
+            if(!var1) { _fun0015_ip = 112; continue _fun0015 }
 case 113:
+            var1 = var2;
+case 112:
             return var1;
-case 93:
+case 94:
             var1 = true;
             return var1;
         }
@@ -1280,7 +1280,7 @@ case 0:
             var4 = var5.bind(var2)(var4);
             var2 = var4.disableNewUserDismissibleContent;
             var2 = var2.bind(var4)(var3);
-            if(var2) { _fun0016_ip = 115; continue _fun0016 }
+            if(var2) { _fun0016_ip = 114; continue _fun0016 }
 case 3:
             var4 = _closure1_slot5;
             var2 = var4.getGuildDismissedContentState;
@@ -1293,21 +1293,21 @@ case 5:
             var4 = var2[var3];
             var1 = var5 != var4;
 case 4:
-            if(!var1) { _fun0016_ip = 80; continue _fun0016 }
+            if(!var1) { _fun0016_ip = 45; continue _fun0016 }
 case 7:
             var4 = var2[var3];
             var4 = var4.lastDismissedAtMs;
             var1 = var5 != var4;
-case 80:
-            if(!var1) { _fun0016_ip = 116; continue _fun0016 }
+case 45:
+            if(!var1) { _fun0016_ip = 47; continue _fun0016 }
 case 72:
             var2 = var2[var3];
             var3 = var2.lastDismissedAtMs;
             var2 = '0';
             var1 = var2 !== var3;
-case 116:
+case 47:
             return var1;
-case 115:
+case 114:
             var1 = true;
             return var1;
         }
@@ -1325,7 +1325,7 @@ case 0:
             var4 = var5.bind(var2)(var4);
             var2 = var4.disableNewUserDismissibleContent;
             var2 = var2.bind(var4)(var3);
-            if(var2) { _fun0017_ip = 115; continue _fun0017 }
+            if(var2) { _fun0017_ip = 114; continue _fun0017 }
 case 3:
             var4 = _closure1_slot5;
             var2 = var4.getGuildDismissedContentState;
@@ -1338,21 +1338,21 @@ case 5:
             var4 = var2[var3];
             var1 = var5 != var4;
 case 4:
-            if(!var1) { _fun0017_ip = 80; continue _fun0017 }
+            if(!var1) { _fun0017_ip = 45; continue _fun0017 }
 case 7:
             var4 = var2[var3];
             var4 = var4.lastDismissedObjectId;
             var1 = var5 != var4;
-case 80:
-            if(!var1) { _fun0017_ip = 116; continue _fun0017 }
+case 45:
+            if(!var1) { _fun0017_ip = 47; continue _fun0017 }
 case 72:
             var2 = var2[var3];
             var3 = var2.lastDismissedObjectId;
             var2 = '0';
             var1 = var2 !== var3;
-case 116:
+case 47:
             return var1;
-case 115:
+case 114:
             var1 = true;
             return var1;
         }
@@ -1369,7 +1369,7 @@ case 0:
             var5 = _closure1_slot10;
             var1 = undefined;
             var5 = var5.bind(var1)(var7);
-            if(var5) { _fun0018_ip = 117; continue _fun0018 }
+            if(var5) { _fun0018_ip = 115; continue _fun0018 }
 case 19:
             var10 = _closure1_slot7;
             var9 = var10.hasUserHitDCCap;
@@ -1377,11 +1377,11 @@ case 19:
             var11 = var5 == var6;
             var8 = undefined;
             if(var11) { _fun0018_ip = 29; continue _fun0018 }
-case 118:
+case 116:
             var8 = var6.guildId;
 case 29:
             var8 = var9.bind(var10)(var7, var8);
-            if(var8) { _fun0018_ip = 117; continue _fun0018 }
+            if(var8) { _fun0018_ip = 115; continue _fun0018 }
 case 4:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -1394,22 +1394,22 @@ case 4:
             var8['location'] = var11;
             var8 = var9.bind(var10)(var8);
             var8 = var8.enabled;
-            if(!var8) { _fun0018_ip = 39; continue _fun0018 }
-case 119:
+            if(!var8) { _fun0018_ip = 117; continue _fun0018 }
+case 49:
             var9 = arg4;
             var8 = var5 == var9;
-case 39:
-            if(!var8) { _fun0018_ip = 94; continue _fun0018 }
-case 120:
+case 117:
+            if(!var8) { _fun0018_ip = 95; continue _fun0018 }
+case 118:
             var10 = _closure1_slot14;
             var9 = var10.has;
             var8 = var9.bind(var10)(var7);
-case 94:
-            if(!var3) { _fun0018_ip = 85; continue _fun0018 }
-case 121:
+case 95:
+            if(!var3) { _fun0018_ip = 84; continue _fun0018 }
+case 119:
             var3 = !var8;
-case 85:
-            if(var3) { _fun0018_ip = 117; continue _fun0018 }
+case 84:
+            if(var3) { _fun0018_ip = 115; continue _fun0018 }
 case 98:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -1430,10 +1430,10 @@ case 98:
             var2['content'] = var7;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0018_ip = 122; continue _fun0018 }
-case 104:
+            if(var7) { _fun0018_ip = 90; continue _fun0018 }
+case 120:
             var5 = var6.groupName;
-case 122:
+case 90:
             var2['groupName'] = var5;
             var4 = function onAdded() {
                 _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
@@ -1451,7 +1451,7 @@ case 0:
                     var9 = var5 == var4;
                     var4 = undefined;
                     if(var9) { _fun0019_ip = 15; continue _fun0019 }
-case 123:
+case 121:
                     var9 = _closure2_slot1;
                     var4 = var9.guildId;
 case 15:
@@ -1461,24 +1461,24 @@ case 15:
                     var3 = _closure2_slot1;
                     var4 = var6.bind(var1)(var4, var3);
                     var3 = var5 == var3;
-                    if(var3) { _fun0019_ip = 124; continue _fun0019 }
-case 125:
+                    if(var3) { _fun0019_ip = 122; continue _fun0019 }
+case 123:
                     var4 = _closure2_slot1;
                     var4 = var4.onShown;
                     var3 = var5 == var4;
-case 124:
-                    if(var3) { _fun0019_ip = 48; continue _fun0019 }
-case 126:
+case 122:
+                    if(var3) { _fun0019_ip = 124; continue _fun0019 }
+case 125:
                     var3 = _closure2_slot1;
                     var2 = var3.onShown;
                     var2 = var2.bind(var3)();
-case 48:
+case 124:
                     return var1;
                 }
             };
             var2['onAdded'] = var4;
             var2 = var3.bind(var1)(var2);
-case 117:
+case 115:
             return var1;
         }
     };

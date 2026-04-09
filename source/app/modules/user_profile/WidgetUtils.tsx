@@ -858,7 +858,7 @@ case 63:
             var3 = 10;
             var3 = var5[var3];
             var3 = var4.bind(var1)(var3);
-            var4 = var3.useGameWithSupplementalData;
+            var4 = var3.useGame;
             var3 = var4.fetchMany;
             var5 = var2.applicationId;
             var2 = new Array(1);

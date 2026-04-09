@@ -558,38 +558,69 @@ case 26:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = arg1;
-            var4 = var6.syncer;
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 26;
-            var1 = var5[var1];
-            var5 = undefined;
-            var3 = var3.bind(var5)(var1);
-            var1 = var3.useSelectedMediaSource;
-            var4 = var1.bind(var3)(var4);
-            var3 = _closure1_slot3;
-            var1 = 2;
-            var3 = var3.bind(var5)(var4, var1);
-            var1 = 0;
-            var7 = var3[var1];
-            var1 = 1;
-            var8 = var3[var1];
+            var11 = var6.onIndexChange;
+            var _closure2_slot0 = var11;
             var1 = null;
-            var3 = var1 == var8;
-            if(var3) { _fun0005_ip = 28; continue _fun0005 }
+            var5 = Object.create(var1);
+            var4 = 0;
+            var5['onIndexChange'] = var4;
+            var15 = {};
+            var14 = var6;
+            var13 = var5;
+            var6 = copyDataProperties(var15, var14, var13);
+            var9 = var6.syncer;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 26;
+            var7 = var7[var5];
+            var5 = undefined;
+            var8 = var8.bind(var5)(var7);
+            var7 = var8.useSelectedMediaSource;
+            var9 = var7.bind(var8)(var9);
+            var8 = _closure1_slot3;
+            var7 = 2;
+            var8 = var8.bind(var5)(var9, var7);
+            var7 = var8[var4];
+            var _closure2_slot1 = var7;
+            var4 = 1;
+            var8 = var8[var4];
+            var10 = _closure1_slot4;
+            var9 = var10.useEffect;
+            var4 = new Array(2);
+            var4[0] = var7;
+            var4[1] = var11;
+            var3 = function() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var3 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0006_ip = 28; continue _fun0006 }
 case 29:
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+case 28:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var3 = var9.bind(var10)(var3, var4);
+            var3 = var1 == var8;
+            if(var3) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
             var4 = _closure1_slot7;
             var3 = _closure1_slot14;
             var2 = {};
-            var10 = var2;
-            var9 = var6;
-            var6 = copyDataProperties(var10, var9);
+            var15 = var2;
+            var14 = var6;
+            var6 = copyDataProperties(var15, var14);
             var6 = 'source';
             var2[5] = var8;
             var6 = 'index';
             var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
-case 28:
+case 30:
             return var1;
         }
     };

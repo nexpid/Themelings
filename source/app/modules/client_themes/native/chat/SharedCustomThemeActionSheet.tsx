@@ -121,44 +121,44 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.onPressApply;
+            var8 = var1.onPressApply;
             var1 = _closure1_slot14;
             var5 = undefined;
             var6 = var1.bind(var5)();
             var _closure2_slot0 = var6;
-            var2 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 19;
             var1 = var9[var1];
-            var10 = var2.bind(var5)(var1);
-            var3 = var10.useStateFromStores;
+            var10 = var3.bind(var5)(var1);
+            var4 = var10.useStateFromStores;
             var1 = _closure1_slot9;
-            var2 = new Array(1);
-            var2[0] = var1;
+            var3 = new Array(1);
+            var3[0] = var1;
             var1 = function() {
                 var2 = _closure1_slot9;
                 var1 = var2.getPremiumTypeSubscription;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var3 = var3.bind(var10)(var2, var1);
-            var2 = _closure1_slot1;
+            var4 = var4.bind(var10)(var3, var1);
+            var3 = _closure1_slot1;
             var1 = 20;
             var1 = var9[var1];
-            var2 = var2.bind(var5)(var1);
-            var1 = var2.getPremiumTypeFromSubscription;
-            var2 = var1.bind(var2)(var3);
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.getPremiumTypeFromSubscription;
+            var3 = var1.bind(var3)(var4);
             var1 = _closure1_slot11;
             var1 = var1.TIER_2;
-            if(!(var2 === var1)) { _fun0002_ip = 4; continue _fun0002 }
+            if(!(var3 === var1)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var3 = _closure1_slot12;
+            var4 = _closure1_slot12;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 18;
             var1 = var13[var1];
             var1 = var12.bind(var5)(var1);
-            var2 = var1.Button;
+            var3 = var1.Button;
             var1 = {};
             var9 = 14;
             var10 = var13[var9];
@@ -171,20 +171,20 @@ case 5:
             var9 = var9["1Qm822"];
             var9 = var10.bind(var11)(var9);
             var1['text'] = var9;
-            var1['onPress'] = var4;
-            var4 = 'primary';
-            var1['variant'] = var4;
-            var1 = var3.bind(var5)(var2, var1);
+            var1['onPress'] = var8;
+            var8 = 'primary';
+            var1['variant'] = var8;
+            var1 = var4.bind(var5)(var3, var1);
             _fun0002_ip = 6; continue _fun0002;
 case 4:
             var4 = _closure1_slot12;
-            var3 = _closure1_slot1;
+            var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var2 = 23;
             var2 = var12[var2];
-            var3 = var3.bind(var5)(var2);
+            var2 = var11.bind(var5)(var2);
+            var3 = var2.ShinyButton;
             var2 = {};
-            var11 = _closure1_slot0;
             var8 = 14;
             var9 = var12[var8];
             var9 = var11.bind(var5)(var9);

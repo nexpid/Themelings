@@ -67,7 +67,16 @@ case 10:
         var5 = var5.NativeModules;
         var5 = var5.DCDSecurityKeyManager;
         var5 = var7 != var5;
-        var7 = 3;
+        if(!var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+        var7 = 1;
+        var7 = var9[var7];
+        var10 = var8.bind(var1)(var7);
+        var7 = var10.isMetaQuest;
+        var7 = var7.bind(var10)();
+        var5 = !var7;
+case 12:
+        var7 = 4;
         var7 = var9[var7];
         var9 = var8.bind(var1)(var7);
         var8 = var9.fileFinishedImporting;
@@ -89,7 +98,7 @@ case 10:
             var3 = var3.bind(var4)(var2);
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var4.bind(var1)(var2);
@@ -119,10 +128,10 @@ case 10:
 case 0:
                 var4 = arguments[2];
                 var3 = undefined;
-                if(!(var4 === var3)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                if(!(var4 === var3)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var4 = 'Discord';
-case 12:
+case 14:
                 var1 = global;
                 var2 = var1.encodeURI;
                 var9 = var2.bind(var3)(var4);
@@ -152,7 +161,7 @@ case 0:
                 var7 = arg2;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var1 = 2;
+                var1 = 3;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -165,10 +174,10 @@ case 0:
                 var2 = null;
                 var8 = var2 == var7;
                 var2 = undefined;
-                if(var8) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                if(var8) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                 var2 = var7.tags;
-case 14:
+case 16:
                 var10 = var6;
                 var9 = var2;
                 var2 = copyDataProperties(var10, var9);

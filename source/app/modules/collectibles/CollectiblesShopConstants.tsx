@@ -248,6 +248,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['UNLOCK_WITH_NITRO'] = var16;
     var16 = 'add_to_collection';
     var2['ADD_TO_COLLECTION'] = var16;
+    var16 = 'bundle_view_avatar_decoration';
+    var2['BUNDLE_VIEW_AVATAR_DECORATION'] = var16;
+    var16 = 'bundle_view_profile_effect';
+    var2['BUNDLE_VIEW_PROFILE_EFFECT'] = var16;
+    var16 = 'bundle_view_nameplate';
+    var2['BUNDLE_VIEW_NAMEPLATE'] = var16;
+    var16 = 'full_profile_preview';
+    var2['FULL_PROFILE_PREVIEW'] = var16;
     var16 = 7;
     var16 = var18[var16];
     var18 = var17.bind(var1)(var16);

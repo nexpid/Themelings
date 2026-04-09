@@ -144,7 +144,7 @@ case 0:
             var1 = 14;
             var1 = var3[var1];
             var2 = var2.bind(var5)(var1);
-            var1 = var2.useGameWithSupplementalData;
+            var1 = var2.useGame;
             var1 = var1.bind(var2)(var23);
             var19 = var1.data;
             var1 = var1.isLoading;

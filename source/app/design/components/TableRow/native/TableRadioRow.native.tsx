@@ -22,9 +22,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var4 = var4.Platform;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -62,7 +66,7 @@ case 2:
             var3 = var7.useContext;
             var13 = _closure1_slot0;
             var16 = _closure1_slot1;
-            var1 = 2;
+            var1 = 3;
             var1 = var16[var1];
             var1 = var13.bind(var4)(var1);
             var1 = var1.TableRadioGroupContext;
@@ -76,7 +80,7 @@ case 5:
 case 4:
             var2 = _closure1_slot0;
             var16 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var16[var1];
             var7 = var2.bind(var4)(var3);
             var3 = var7.getNodeText;
@@ -86,7 +90,7 @@ case 4:
             var1 = var3.getNodeText;
             var7 = var1.bind(var3)(var14);
             var3 = _closure1_slot3;
-            var1 = 4;
+            var1 = 5;
             var1 = var16[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRow;
@@ -154,7 +158,7 @@ case 8:
             var7 = _closure1_slot3;
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var5 = 5;
+            var5 = 6;
             var5 = var9[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.FormRadio;

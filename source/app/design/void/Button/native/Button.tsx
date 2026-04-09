@@ -1,4 +1,4 @@
-// app/uikit-native/Button.tsx
+// app/design/void/Button/native/Button.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var14 = require;
     var19 = metroImportDefault;
@@ -848,12 +848,12 @@ case 83:
     var7 = 2;
     var7 = var15[var7];
     var7 = var14.bind(var1)(var7);
-    var7 = var7.getThemedRippleConfig;
-    var _closure1_slot7 = var7;
+    var22 = var7.Fonts;
     var11 = 3;
     var7 = var15[var11];
     var7 = var14.bind(var1)(var7);
-    var22 = var7.Fonts;
+    var7 = var7.getThemedRippleConfig;
+    var _closure1_slot7 = var7;
     var7 = 4;
     var7 = var15[var7];
     var7 = var14.bind(var1)(var7);
@@ -1295,7 +1295,7 @@ case 83:
     var13 = var15[var13];
     var15 = var14.bind(var1)(var13);
     var14 = var15.fileFinishedImporting;
-    var13 = 'uikit-native/Button.tsx';
+    var13 = 'design/void/Button/native/Button.tsx';
     var13 = var14.bind(var15)(var13);
     var3['default'] = var12;
     var3['BUTTON_CORNER_RADIUS'] = var11;

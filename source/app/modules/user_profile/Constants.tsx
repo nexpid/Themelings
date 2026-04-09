@@ -511,8 +511,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var2['WIDGET_ADDED'] = var21;
     var2['WIDGET_REMOVED'] = var20;
-    var20 = 'WIDGET_SAVE_FAILURE';
-    var2['WIDGET_SAVE_FAILURE'] = var20;
+    var20 = 'PROFILE_SAVE_GENERIC_FAILURE';
+    var2['PROFILE_SAVE_GENERIC_FAILURE'] = var20;
     var20 = 'SOMETHING_WENT_WRONG';
     var2['SOMETHING_WENT_WRONG'] = var20;
     var17 = var19[var17];

@@ -155,7 +155,7 @@ case 0:
             var1 = 7;
             var1 = var6[var1];
             var2 = var3.bind(var4)(var1);
-            var1 = var2.useGameWithSupplementalData;
+            var1 = var2.useGame;
             var1 = var1.bind(var2)(var23);
             var7 = var1.data;
             var9 = _closure1_slot1;

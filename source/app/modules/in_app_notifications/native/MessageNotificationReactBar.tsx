@@ -207,9 +207,7 @@ case 4:
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.EmojiPickerRowButton;
-        var6 = {};
-        var10 = 40;
-        var6['emojiContainerSize'] = var10;
+        var6 = {'emojiContainerSize': 40, 'onPress': null, 'iconSize': 'sm'};
         var6['onPress'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;

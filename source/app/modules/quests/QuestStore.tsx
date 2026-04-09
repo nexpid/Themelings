@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot48 = var2;
+            _closure1_slot49 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot48 = var1;
+    var _closure1_slot49 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -117,7 +117,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot50;
+            var9 = _closure1_slot51;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -129,7 +129,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot50;
+            var7 = _closure1_slot51;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -188,7 +188,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot49 = var1;
+    var _closure1_slot50 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -221,180 +221,181 @@ case 3:
             return var1;
         }
     };
-    var _closure1_slot50 = var1;
+    var _closure1_slot51 = var1;
     var2 = function initializeState() {
         var1 = false;
         var _closure1_slot12 = var1;
         var _closure1_slot13 = var1;
-        var2 = global;
-        var4 = var2.Map;
-        var5 = var4.prototype;
-        var5 = Object.create(var5, {constructor: {value: var4}});
-        var6 = var5;
-        var4 = new var6[var4](var5);
-        var4 = var4 instanceof Object ? var4 : var5;
-        var _closure1_slot14 = var4;
+        var4 = global;
+        var2 = var4.Map;
+        var5 = var2.prototype;
+        var5 = Object.create(var5, {constructor: {value: var2}});
+        var7 = var5;
+        var2 = new var7[var2](var6);
+        var2 = var2 instanceof Object ? var2 : var5;
+        var _closure1_slot14 = var2;
         var _closure1_slot15 = var1;
         var _closure1_slot16 = var1;
-        var1 = var2.Map;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot17 = var1;
-        var1 = var2.Map;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot18 = var1;
-        var1 = var2.Map;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot19 = var1;
-        var1 = var2.Map;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot20 = var1;
         var1 = 0;
         var _closure1_slot21 = var1;
         var _closure1_slot22 = var1;
-        var1 = var2.Set;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Set;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot23 = var1;
-        var1 = var2.Set;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Set;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot24 = var1;
-        var1 = var2.Set;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Set;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot25 = var1;
-        var1 = var2.Set;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Set;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot26 = var1;
-        var1 = var2.Set;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Set;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot27 = var1;
-        var1 = var2.Map;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         _closure1_slot41 = var1;
-        var1 = var2.Map;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot29 = var1;
-        var1 = var2.Map;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot30 = var1;
-        var1 = var2.Map;
-        var4 = var1.prototype;
-        var4 = Object.create(var4, {constructor: {value: var1}});
-        var6 = var4;
-        var1 = new var6[var1](var5);
-        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var4.Map;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var1 = var1 instanceof Object ? var1 : var2;
         var _closure1_slot31 = var1;
-        var4 = null;
-        var _closure1_slot32 = var4;
-        var1 = var2.Map;
+        var2 = null;
+        var _closure1_slot32 = var2;
+        var1 = var4.Map;
         var5 = var1.prototype;
         var5 = Object.create(var5, {constructor: {value: var1}});
-        var6 = var5;
-        var1 = new var6[var1](var5);
+        var7 = var5;
+        var1 = new var7[var1](var6);
         var1 = var1 instanceof Object ? var1 : var5;
         var _closure1_slot33 = var1;
-        var1 = var2.Set;
+        var1 = var4.Set;
         var5 = var1.prototype;
         var5 = Object.create(var5, {constructor: {value: var1}});
-        var6 = var5;
-        var1 = new var6[var1](var5);
+        var7 = var5;
+        var1 = new var7[var1](var6);
         var1 = var1 instanceof Object ? var1 : var5;
         var _closure1_slot28 = var1;
-        var1 = var2.Map;
+        var1 = var4.Map;
         var5 = var1.prototype;
         var5 = Object.create(var5, {constructor: {value: var1}});
-        var6 = var5;
-        var1 = new var6[var1](var5);
+        var7 = var5;
+        var1 = new var7[var1](var6);
         var1 = var1 instanceof Object ? var1 : var5;
         var _closure1_slot34 = var1;
-        var1 = var2.Map;
+        var1 = var4.Map;
         var5 = var1.prototype;
         var5 = Object.create(var5, {constructor: {value: var1}});
-        var6 = var5;
-        var1 = new var6[var1](var5);
+        var7 = var5;
+        var1 = new var7[var1](var6);
         var1 = var1 instanceof Object ? var1 : var5;
         var _closure1_slot35 = var1;
-        var1 = var2.Map;
+        var1 = var4.Map;
         var5 = var1.prototype;
         var5 = Object.create(var5, {constructor: {value: var1}});
-        var6 = var5;
-        var1 = new var6[var1](var5);
+        var7 = var5;
+        var1 = new var7[var1](var6);
         var1 = var1 instanceof Object ? var1 : var5;
         var _closure1_slot36 = var1;
-        var5 = _closure1_slot60;
+        var5 = _closure1_slot61;
         var1 = undefined;
         var5 = var5.bind(var1)();
-        var _closure1_slot37 = var4;
-        var4 = var2.Map;
+        var _closure1_slot37 = var2;
+        var5 = var4.Map;
+        var6 = var5.prototype;
+        var6 = Object.create(var6, {constructor: {value: var5}});
+        var7 = var6;
+        var5 = new var7[var5](var6);
+        var5 = var5 instanceof Object ? var5 : var6;
+        var _closure1_slot39 = var5;
+        var5 = var4.Map;
+        var6 = var5.prototype;
+        var6 = Object.create(var6, {constructor: {value: var5}});
+        var7 = var6;
+        var5 = new var7[var5](var6);
+        var5 = var5 instanceof Object ? var5 : var6;
+        _closure1_slot47 = var5;
+        var4 = var4.Map;
         var5 = var4.prototype;
         var5 = Object.create(var5, {constructor: {value: var4}});
-        var6 = var5;
-        var4 = new var6[var4](var5);
+        var7 = var5;
+        var4 = new var7[var4](var6);
         var4 = var4 instanceof Object ? var4 : var5;
-        var _closure1_slot39 = var4;
-        var4 = var2.Map;
-        var5 = var4.prototype;
-        var5 = Object.create(var5, {constructor: {value: var4}});
-        var6 = var5;
-        var4 = new var6[var4](var5);
-        var4 = var4 instanceof Object ? var4 : var5;
-        _closure1_slot46 = var4;
-        var2 = var2.Map;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot38 = var2;
+        var _closure1_slot38 = var4;
+        _closure1_slot46 = var2;
         return var1;
     };
-    var _closure1_slot51 = var2;
+    var _closure1_slot52 = var2;
     var1 = function updateQuestData(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -544,7 +545,7 @@ case 62:
             var4 = copyDataProperties(var23, var22);
             var1 = var2.bind(var3)(var14, var1);
 case 60:
-            var2 = _closure1_slot49;
+            var2 = _closure1_slot50;
             var1 = _closure1_slot35;
             var9 = undefined;
             var8 = var2.bind(var9)(var1);
@@ -619,7 +620,7 @@ case 39:
             return var1;
         }
     };
-    var _closure1_slot52 = var1;
+    var _closure1_slot53 = var1;
     var1 = function _addRewardCode(arg1, arg2) {
         var1 = global;
         var4 = var1.Map;
@@ -637,7 +638,7 @@ case 39:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot53 = var1;
+    var _closure1_slot54 = var1;
     var1 = function updateQuestRewardData(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -705,10 +706,10 @@ case 77:
 case 76:
             if(!(var7 != var8)) { _fun0006_ip = 78; continue _fun0006 }
 case 79:
-            var3 = _closure1_slot53;
+            var3 = _closure1_slot54;
             var3 = var3.bind(var1)(var4, var8);
 case 78:
-            var3 = _closure1_slot52;
+            var3 = _closure1_slot53;
             var2 = {};
             var5 = {};
             var13 = var5;
@@ -737,7 +738,7 @@ case 59:
             return var1;
         }
     };
-    var _closure1_slot54 = var1;
+    var _closure1_slot55 = var1;
     var1 = function maybeDeleteQuestHeartbeatFailure(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -764,7 +765,7 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot55 = var1;
+    var _closure1_slot56 = var1;
     var1 = function removeQuestIdFromIsEnrolling(arg1) {
         var1 = global;
         var4 = var1.Set;
@@ -781,7 +782,7 @@ case 5:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot56 = var1;
+    var _closure1_slot57 = var1;
     var1 = function removeQuestIdFromIsDismissing(arg1) {
         var1 = global;
         var4 = var1.Set;
@@ -798,7 +799,7 @@ case 5:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot57 = var1;
+    var _closure1_slot58 = var1;
     var1 = function resolveResponseTtl(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -822,7 +823,7 @@ case 83:
             return var1;
         }
     };
-    var _closure1_slot58 = var1;
+    var _closure1_slot59 = var1;
     var1 = function _runExpirationCheck() {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -887,7 +888,7 @@ case 87:
                     if(!var3) { _fun0010_ip = 90; continue _fun0010 }
 case 91:
                     _closure1_slot36 = var2;
-                    var2 = _closure1_slot47;
+                    var2 = _closure1_slot48;
                     var1 = var2.emitChange;
                     var1 = var1.bind(var2)();
 case 90:
@@ -929,7 +930,7 @@ case 92:
 case 93:
             var4 = var4.setTimeout;
             var2 = function() {
-                var2 = _closure1_slot59;
+                var2 = _closure1_slot60;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 return var1;
@@ -940,7 +941,7 @@ case 72:
             return var1;
         }
     };
-    var _closure1_slot59 = var1;
+    var _closure1_slot60 = var1;
     var1 = function _stopExpirationChecker() {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -959,7 +960,7 @@ case 85:
             return var1;
         }
     };
-    var _closure1_slot60 = var1;
+    var _closure1_slot61 = var1;
     var8 = global;
     var11 = var8.Object;
     var10 = var11.defineProperty;
@@ -1026,13 +1027,14 @@ case 85:
     var10 = false;
     var _closure1_slot44 = var10;
     var _closure1_slot45 = var9;
+    var _closure1_slot46 = var9;
     var8 = var8.Map;
     var9 = var8.prototype;
     var9 = Object.create(var9, {constructor: {value: var8}});
     var15 = var9;
     var8 = new var15[var8](var14);
     var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot46 = var8;
+    var _closure1_slot47 = var8;
     var2 = var2.bind(var1)();
     var2 = 18;
     var2 = var6[var2];
@@ -1051,7 +1053,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot48;
+                var1 = _closure1_slot49;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0013_ip = 95; continue _fun0013 }
 case 96:
@@ -1088,7 +1090,7 @@ case 97:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(36);
+        var1 = new Array(37);
         var1[0] = var5;
         var5 = {};
         var7 = 'excludedQuests';
@@ -1244,7 +1246,7 @@ case 37:
         var7 = 'getFetchQuestPreviewError';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot46;
+            var3 = _closure1_slot47;
             var2 = var3.get;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
@@ -1488,6 +1490,15 @@ case 104:
         var5['value'] = var7;
         var1[31] = var5;
         var5 = {};
+        var7 = 'getQuestHomeHero';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot46;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[32] = var5;
+        var5 = {};
         var7 = 'getLastFetchedQuestHomeHero';
         var5['key'] = var7;
         var7 = function value() {
@@ -1495,7 +1506,7 @@ case 104:
             return var1;
         };
         var5['value'] = var7;
-        var1[32] = var5;
+        var1[33] = var5;
         var5 = {};
         var7 = 'isFetchingEarnedQuestToDeliver';
         var5['key'] = var7;
@@ -1504,7 +1515,7 @@ case 104:
             return var1;
         };
         var5['get'] = var7;
-        var1[33] = var5;
+        var1[34] = var5;
         var5 = {};
         var7 = 'isFetchingEarnedQuestToDeliverByPlacement';
         var5['key'] = var7;
@@ -1530,7 +1541,7 @@ case 100:
             }
         };
         var5['value'] = var7;
-        var1[34] = var5;
+        var1[35] = var5;
         var5 = {};
         var7 = 'earnedQuestForPlacement';
         var5['key'] = var7;
@@ -1539,7 +1550,7 @@ case 100:
             return var1;
         };
         var5['get'] = var6;
-        var1[35] = var5;
+        var1[36] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1551,10 +1562,10 @@ case 100:
     var14 = var7.bind(var1)(var2);
     var2 = {};
     var7 = function handleLogout() {
-        var3 = _closure1_slot60;
+        var3 = _closure1_slot61;
         var1 = undefined;
         var3 = var3.bind(var1)();
-        var3 = _closure1_slot51;
+        var3 = _closure1_slot52;
         var3 = var3.bind(var1)();
         var4 = _closure1_slot10;
         var3 = var4.getState;
@@ -1603,7 +1614,7 @@ case 0:
             var26 = var2;
             var1 = new var26[var1](var25);
             var5 = var1 instanceof Object ? var1 : var2;
-            var2 = _closure1_slot49;
+            var2 = _closure1_slot50;
             var1 = undefined;
             var15 = var2.bind(var1)(var8);
             var8 = var15.bind(var1)();
@@ -1674,7 +1685,7 @@ case 106:
             var2 = new var26[var2](var25);
             var2 = var2 instanceof Object ? var2 : var8;
             _closure1_slot19 = var2;
-            var2 = _closure1_slot49;
+            var2 = _closure1_slot50;
             var8 = var2.bind(var1)(var7);
             var7 = var8.bind(var1)();
             var2 = var7.done;
@@ -1690,7 +1701,7 @@ case 110:
             var7 = var9;
             if(!var2) { _fun0021_ip = 110; continue _fun0021 }
 case 109:
-            var8 = _closure1_slot49;
+            var8 = _closure1_slot50;
             var11 = _closure1_slot39;
             var2 = null;
             var9 = var2 == var11;
@@ -1732,9 +1743,9 @@ case 114:
             if(!var7) { _fun0021_ip = 113; continue _fun0021 }
 case 112:
             _closure1_slot36 = var5;
-            var5 = _closure1_slot60;
+            var5 = _closure1_slot61;
             var5 = var5.bind(var1)();
-            var5 = _closure1_slot59;
+            var5 = _closure1_slot60;
             var5 = var5.bind(var1)();
             var5 = var2 != var6;
             var2 = null;
@@ -1784,7 +1795,7 @@ case 0:
             var1 = new var11[var1](var10);
             var1 = var1 instanceof Object ? var1 : var2;
             _closure1_slot20 = var1;
-            var2 = _closure1_slot49;
+            var2 = _closure1_slot50;
             var1 = undefined;
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
@@ -1913,7 +1924,7 @@ case 80:
 case 126:
             var4['questId'] = var14;
             var4['fetchedAt'] = var12;
-            var12 = _closure1_slot58;
+            var12 = _closure1_slot59;
             var12 = var12.bind(var1)(var13);
             var4['ttlMillis'] = var12;
             var4['adDecisionData'] = var11;
@@ -2006,7 +2017,7 @@ case 0:
             _closure1_slot17 = var7;
             var1 = var7.set;
             var1 = var1.bind(var7)(var5, var9);
-            var7 = _closure1_slot58;
+            var7 = _closure1_slot59;
             var1 = undefined;
             var14 = var7.bind(var1)(var8);
             var8 = _closure1_slot35;
@@ -2026,7 +2037,7 @@ case 127:
             var23 = var3;
             var3 = new var24[var8](var23, var22);
             var7 = var3 instanceof Object ? var3 : var7;
-            var3 = _closure1_slot49;
+            var3 = _closure1_slot50;
             var12 = var3.bind(var1)(var4);
             var4 = var12.bind(var1)();
             var3 = var4.done;
@@ -2108,13 +2119,13 @@ case 129:
         var4 = var5.add;
         var4 = var4.bind(var5)(var3);
         var5 = var2.Map;
-        var7 = _closure1_slot46;
+        var7 = _closure1_slot47;
         var4 = var5.prototype;
         var4 = Object.create(var4, {constructor: {value: var5}});
         var8 = var4;
         var2 = new var8[var5](var7, var6);
         var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot46 = var2;
+        _closure1_slot47 = var2;
         var1 = var2.delete;
         var1 = var1.bind(var2)(var3);
         var1 = undefined;
@@ -2157,13 +2168,13 @@ case 129:
         var4 = var5.set;
         var4 = var4.bind(var5)(var3, var6);
         var5 = var2.Map;
-        var9 = _closure1_slot46;
+        var9 = _closure1_slot47;
         var4 = var5.prototype;
         var4 = Object.create(var4, {constructor: {value: var5}});
         var10 = var4;
         var2 = new var10[var5](var9, var8);
         var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot46 = var2;
+        _closure1_slot47 = var2;
         var1 = var2.delete;
         var1 = var1.bind(var2)(var3);
         var1 = undefined;
@@ -2186,13 +2197,13 @@ case 129:
         var5 = var6.delete;
         var5 = var5.bind(var6)(var4);
         var6 = var2.Map;
-        var9 = _closure1_slot46;
+        var9 = _closure1_slot47;
         var5 = var6.prototype;
         var5 = Object.create(var5, {constructor: {value: var6}});
         var10 = var5;
         var2 = new var10[var6](var9, var8);
         var2 = var2 instanceof Object ? var2 : var5;
-        _closure1_slot46 = var2;
+        _closure1_slot47 = var2;
         var1 = var2.set;
         var1 = var1.bind(var2)(var4, var3);
         var1 = undefined;
@@ -2209,7 +2220,7 @@ case 0:
             var5 = _closure1_slot28;
             var4 = var5.add;
             var4 = var4.bind(var5)(var6);
-            var5 = _closure1_slot52;
+            var5 = _closure1_slot53;
             var4 = {};
             var4['userStatus'] = var1;
             var1 = undefined;
@@ -2217,7 +2228,7 @@ case 0:
             var4 = null;
             if(!(var4 != var3)) { _fun0025_ip = 5; continue _fun0025 }
 case 133:
-            var2 = _closure1_slot55;
+            var2 = _closure1_slot56;
             var2 = var2.bind(var1)(var3);
 case 5:
             return var1;
@@ -2286,13 +2297,13 @@ case 136:
     var7 = function handleEnrollSuccess(arg1) {
         var1 = arg1;
         var2 = var1.enrolledQuestUserStatus;
-        var6 = _closure1_slot52;
+        var6 = _closure1_slot53;
         var5 = var2.questId;
         var4 = {};
         var4['userStatus'] = var2;
         var1 = undefined;
         var4 = var6.bind(var1)(var5, var4);
-        var3 = _closure1_slot56;
+        var3 = _closure1_slot57;
         var2 = var2.questId;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -2301,7 +2312,7 @@ case 136:
     var7 = function handleEnrollFailure(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var2 = _closure1_slot56;
+        var2 = _closure1_slot57;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2342,7 +2353,7 @@ case 0:
             var3 = var1.delete;
             var3 = var3.bind(var1)(var4);
             _closure1_slot25 = var1;
-            var3 = _closure1_slot53;
+            var3 = _closure1_slot54;
             var1 = undefined;
             var3 = var3.bind(var1)(var4, var6);
             var5 = _closure1_slot18;
@@ -2363,7 +2374,7 @@ case 141:
 case 140:
             if(!var3) { _fun0027_ip = 47; continue _fun0027 }
 case 44:
-            var3 = _closure1_slot52;
+            var3 = _closure1_slot53;
             var2 = {};
             var5 = {};
             var10 = var5;
@@ -2430,7 +2441,7 @@ case 47:
         var5 = var2.delete;
         var5 = var5.bind(var2)(var4);
         _closure1_slot24 = var2;
-        var2 = _closure1_slot54;
+        var2 = _closure1_slot55;
         var1 = undefined;
         var2 = var2.bind(var1)(var4, var3);
         return var1;
@@ -2484,13 +2495,13 @@ case 5:
     var7 = function handleDismissContentSuccess(arg1) {
         var1 = arg1;
         var2 = var1.dismissedQuestUserStatus;
-        var6 = _closure1_slot52;
+        var6 = _closure1_slot53;
         var5 = var2.questId;
         var4 = {};
         var4['userStatus'] = var2;
         var1 = undefined;
         var4 = var6.bind(var1)(var5, var4);
-        var3 = _closure1_slot57;
+        var3 = _closure1_slot58;
         var2 = var2.questId;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -2499,7 +2510,7 @@ case 5:
     var7 = function handleDismissContentFailure(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var2 = _closure1_slot57;
+        var2 = _closure1_slot58;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2535,7 +2546,7 @@ case 0:
             var7 = var7.bind(var1)(var2);
             var2 = var7.questUserStatusFromServer;
             var2 = var2.bind(var7)(var5);
-            var9 = _closure1_slot52;
+            var9 = _closure1_slot53;
             var8 = var5.quest_id;
             var7 = {};
             var7['userStatus'] = var2;
@@ -2607,7 +2618,7 @@ case 147:
     var7 = function handleStreamClose(arg1) {
         var1 = arg1;
         var3 = var1.streamKey;
-        var2 = _closure1_slot55;
+        var2 = _closure1_slot56;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2616,7 +2627,7 @@ case 147:
     var7 = function handleDismissProgressTrackingFailureNotice(arg1) {
         var1 = arg1;
         var3 = var1.streamKey;
-        var2 = _closure1_slot55;
+        var2 = _closure1_slot56;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2627,7 +2638,7 @@ case 147:
 case 0:
             var1 = arg1;
             var2 = var1.previewQuestUserStatus;
-            var6 = _closure1_slot52;
+            var6 = _closure1_slot53;
             var5 = var2.questId;
             var4 = {};
             var4['userStatus'] = var2;
@@ -2865,13 +2876,111 @@ case 9:
         return var1;
     };
     var2['QUESTS_FETCH_QUEST_HOME_HERO_FAILURE'] = var7;
+    var7 = function handleFetchQuestHomeHeroDecisionBegin(arg1) {
+        var1 = arg1;
+        var4 = var1.placement;
+        var3 = true;
+        _closure1_slot44 = var3;
+        var2 = global;
+        var6 = var2.Map;
+        var8 = _closure1_slot14;
+        var5 = var6.prototype;
+        var5 = Object.create(var5, {constructor: {value: var6}});
+        var9 = var5;
+        var2 = new var9[var6](var8, var7);
+        var2 = var2 instanceof Object ? var2 : var5;
+        _closure1_slot14 = var2;
+        var1 = var2.set;
+        var1 = var1.bind(var2)(var4, var3);
+        var1 = undefined;
+        return var1;
+    };
+    var2['QUESTS_FETCH_QUEST_HOME_HERO_DECISION_BEGIN'] = var7;
+    var7 = function handleFetchQuestHomeHeroDecisionSuccess(arg1) {
+        var2 = arg1;
+        var7 = false;
+        _closure1_slot44 = var7;
+        var4 = global;
+        var5 = var4.Date;
+        var1 = var5.now;
+        var1 = var1.bind(var5)();
+        _closure1_slot43 = var1;
+        var6 = var4.Map;
+        var9 = _closure1_slot14;
+        var5 = var6.prototype;
+        var5 = Object.create(var5, {constructor: {value: var6}});
+        var10 = var5;
+        var1 = new var10[var6](var9, var8);
+        var6 = var1 instanceof Object ? var1 : var5;
+        _closure1_slot14 = var6;
+        var5 = var6.set;
+        var1 = var2.placement;
+        var1 = var5.bind(var6)(var1, var7);
+        var1 = var2.questHomeHero;
+        _closure1_slot46 = var1;
+        var5 = {};
+        var1 = null;
+        var5['questId'] = var1;
+        var1 = var2.fetchedAt;
+        var5['fetchedAt'] = var1;
+        var7 = _closure1_slot59;
+        var6 = var2.responseTtlSeconds;
+        var1 = undefined;
+        var6 = var7.bind(var1)(var6);
+        var5['ttlMillis'] = var6;
+        var6 = var2.adDecisionData;
+        var5['adDecisionData'] = var6;
+        var6 = var2.adContext;
+        var5['adContext'] = var6;
+        var6 = var2.metadataRaw;
+        var5['metadataRaw'] = var6;
+        var6 = var2.metadataSealed;
+        var5['metadataSealed'] = var6;
+        var6 = var2.trafficMetadataRaw;
+        var5['trafficMetadataRaw'] = var6;
+        var6 = var2.trafficMetadataSealed;
+        var5['trafficMetadataSealed'] = var6;
+        var7 = var4.Map;
+        var9 = _closure1_slot38;
+        var6 = var7.prototype;
+        var6 = Object.create(var6, {constructor: {value: var7}});
+        var10 = var6;
+        var4 = new var10[var7](var9, var8);
+        var4 = var4 instanceof Object ? var4 : var6;
+        _closure1_slot38 = var4;
+        var3 = var4.set;
+        var2 = var2.placement;
+        var2 = var3.bind(var4)(var2, var5);
+        return var1;
+    };
+    var2['QUESTS_FETCH_QUEST_HOME_HERO_DECISION_SUCCESS'] = var7;
+    var7 = function handleFetchQuestHomeHeroDecisionFailure(arg1) {
+        var1 = arg1;
+        var4 = var1.placement;
+        var3 = false;
+        _closure1_slot44 = var3;
+        var2 = global;
+        var6 = var2.Map;
+        var8 = _closure1_slot14;
+        var5 = var6.prototype;
+        var5 = Object.create(var5, {constructor: {value: var6}});
+        var9 = var5;
+        var2 = new var9[var6](var8, var7);
+        var2 = var2 instanceof Object ? var2 : var5;
+        _closure1_slot14 = var2;
+        var1 = var2.set;
+        var1 = var1.bind(var2)(var4, var3);
+        var1 = undefined;
+        return var1;
+    };
+    var2['QUESTS_FETCH_QUEST_HOME_HERO_DECISION_FAILURE'] = var7;
     var7 = var9.prototype;
     var7 = Object.create(var7, {constructor: {value: var9}});
     var15 = var7;
     var13 = var2;
     var2 = new var15[var9](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot47 = var2;
+    var _closure1_slot48 = var2;
     var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

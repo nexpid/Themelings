@@ -299,7 +299,7 @@ case 11:
             var11 = var19[var2];
             var22 = var17.bind(var4)(var11);
             var21 = var22.useAnimatedStyle;
-            var11 = function V() {
+            var11 = function F() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -418,7 +418,7 @@ case 14:
             var5 = var19[var2];
             var11 = var17.bind(var4)(var5);
             var10 = var11.useAnimatedStyle;
-            var5 = function F() {
+            var5 = function V() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -1124,7 +1124,7 @@ case 0:
             var5 = undefined;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-            var20 = var1.isVisible;
+            var20 = var1.isRendered;
             var _closure2_slot0 = var20;
             var10 = var1.isVisibleToUser;
             var14 = var1.quest;
@@ -1185,10 +1185,9 @@ case 0:
             var11 = var1.bind(var2)();
             var1 = 35;
             var1 = var15[var1];
-            var3 = var12.bind(var5)(var1);
-            var2 = var3.useQuestBarImpressionSurvey;
-            var1 = var14.id;
-            var13 = var2.bind(var3)(var1);
+            var2 = var12.bind(var5)(var1);
+            var1 = var2.useQuestBarImpressionSurvey;
+            var13 = var1.bind(var2)(var14);
             var2 = 19;
             var1 = var15[var2];
             var8 = var12.bind(var5)(var1);
@@ -1242,12 +1241,12 @@ case 28:
             var21 = var12.bind(var5)(var21);
             var21 = var21.withSpring;
             var17['withSpring'] = var21;
-            var17['isVisible'] = var20;
+            var17['isRendered'] = var20;
             var20 = _closure1_slot36;
             var17['ENTRANCE_ANIMATION_SPING_CONFIG'] = var20;
             var17['componentDimensions'] = var19;
             var1['__closure'] = var17;
-            var17 = 4948945021130.0;
+            var17 = 6078447942223.0;
             var1['__workletHash'] = var17;
             var17 = _closure1_slot37;
             var1['__initData'] = var17;
@@ -1572,11 +1571,11 @@ case 100:
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
-                var2 = var3.updateQuestDockVisibilityOverride;
+                var2 = var3.updateQuestDockVisibilityEligibility;
                 var1 = {};
                 var4 = _closure2_slot13;
                 var4 = !var4;
-                var1['isVisible'] = var4;
+                var1['isEligibleToBeVisible'] = var4;
                 var1 = var2.bind(var3)(var1);
                 var1 = function() {
                     var3 = _closure1_slot0;
@@ -1585,10 +1584,10 @@ case 100:
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
-                    var3 = var4.updateQuestDockVisibilityOverride;
+                    var3 = var4.updateQuestDockVisibilityEligibility;
                     var2 = {};
                     var5 = false;
-                    var2['isVisible'] = var5;
+                    var2['isEligibleToBeVisible'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
@@ -2036,7 +2035,7 @@ case 102:
     var5[8] = var10;
     var _closure1_slot36 = var5;
     var5 = {};
-    var9 = "function QuestDockTsx10(){const{withSpring,isVisible,ENTRANCE_ANIMATION_SPING_CONFIG,componentDimensions}=this.__closure;return{opacity:withSpring(isVisible?1:0,ENTRANCE_ANIMATION_SPING_CONFIG,'animate-always'),transform:[{translateY:withSpring(isVisible?0:componentDimensions.height,ENTRANCE_ANIMATION_SPING_CONFIG)}]};}";
+    var9 = "function QuestDockTsx10(){const{withSpring,isRendered,ENTRANCE_ANIMATION_SPING_CONFIG,componentDimensions}=this.__closure;return{opacity:withSpring(isRendered?1:0,ENTRANCE_ANIMATION_SPING_CONFIG,'animate-always'),transform:[{translateY:withSpring(isRendered?0:componentDimensions.height,ENTRANCE_ANIMATION_SPING_CONFIG)}]};}";
     var5['code'] = var9;
     var _closure1_slot37 = var5;
     var5 = var8.memo;
@@ -2053,7 +2052,7 @@ case 0:
             var8 = var4.bind(var7)();
             var4 = var3[var1];
             var7 = var2.bind(var5)(var4);
-            var4 = var7.useIsMobileQuestDockVisibleBase;
+            var4 = var7.useIsMobileQuestDockRenderedBase;
             var10 = var4.bind(var7)(var8);
             var1 = var3[var1];
             var2 = var2.bind(var5)(var1);
@@ -2072,7 +2071,7 @@ case 110:
             var3 = var2.Provider;
             var2 = {};
             var7 = {};
-            var7['isVisible'] = var10;
+            var7['isRendered'] = var10;
             var7['isVisibleToUser'] = var9;
             var7['quest'] = var8;
             var2['value'] = var7;

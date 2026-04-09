@@ -452,14 +452,14 @@ case 41:
                     var9 = var9.bind(var10)(var4);
                     var4 = new Array(1);
                     var4[0] = var9;
-                    _fun0005_ip = 23; continue _fun0005;
+                    _fun0005_ip = 42; continue _fun0005;
 case 40:
                     var10 = var8.body;
                     var9 = var10.map;
                     var8 = _closure1_slot4;
                     var8 = var8.createFromServer;
                     var4 = var9.bind(var10)(var8);
-case 23:
+case 42:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var8 = var8[var7];
@@ -472,11 +472,11 @@ case 23:
                     var8 = var9.bind(var10)(var8);
                     var8 = _closure1_slot10;
                     var8 = var8.bind(var6)();
-case 42: // try_end0
+case 43: // try_end0
                     return var4;
 case 39:
                     return var3;
-case 43: // catch_target0
+case 44: // catch_target0
                     CatchBlockStart(arg_register=8);
                     var8 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -530,7 +530,7 @@ case 31:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 44; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 45; continue _fun0006 }
 case 19:
                     var8 = arg1;
                     var9 = arg2;
@@ -545,7 +545,7 @@ case 19:
                     var10 = 'GUILD_UNAPPLY_BOOST_START';
                     var2['type'] = var10;
                     var2 = var3.bind(var7)(var2);
-case 45: // try_start_0
+case 46: // try_start_0
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 5;
@@ -562,15 +562,15 @@ case 45: // try_start_0
                     var2['url'] = var8;
                     var2 = var3.bind(var7)(var2);
                     SaveGenerator(address=141);
-case 46:
-                    return var2;
 case 47:
+                    return var2;
+case 48:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 48; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 49; continue _fun0006 }
 case 26:
                     var3 = _closure1_slot10;
                     var3 = var3.bind(var5)();
-case 49: // try_end0
+case 50: // try_end0
                     var7 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var3 = var3[var6];
@@ -582,9 +582,9 @@ case 49: // try_end0
                     var3['boostId'] = var9;
                     var3 = var7.bind(var8)(var3);
                     return var5;
-case 48:
+case 49:
                     return var2;
-case 50: // catch_target0
+case 51: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -608,7 +608,7 @@ case 50: // catch_target0
                     var3['error'] = var2;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
-case 44:
+case 45:
                     return var1;
                 }
             };
@@ -634,7 +634,7 @@ case 44:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 51; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 52; continue _fun0007 }
 case 19:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -652,12 +652,12 @@ case 19:
                     var2['url'] = var7;
                     var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=89);
-case 52:
-                    return var2;
 case 53:
+                    return var2;
+case 54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+                    if(var3) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
                     var8 = _closure1_slot5;
                     var7 = var8.createFromServer;
                     var5 = var2.body;
@@ -679,9 +679,9 @@ case 55:
                     var4['guildBoostSlot'] = var3;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 54:
+case 55:
                     return var2;
-case 51:
+case 52:
                     return var1;
                 }
             };
@@ -707,7 +707,7 @@ case 51:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 51; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 52; continue _fun0008 }
 case 19:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -725,12 +725,12 @@ case 19:
                     var2['url'] = var7;
                     var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=89);
-case 52:
-                    return var2;
 case 53:
+                    return var2;
+case 54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+                    if(var3) { _fun0008_ip = 55; continue _fun0008 }
+case 56:
                     var8 = _closure1_slot5;
                     var7 = var8.createFromServer;
                     var5 = var2.body;
@@ -752,9 +752,9 @@ case 55:
                     var4['guildBoostSlot'] = var3;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 54:
+case 55:
                     return var2;
-case 51:
+case 52:
                     return var1;
                 }
             };

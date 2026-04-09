@@ -485,7 +485,8 @@ case 31:
             var10[1] = var11;
             var11 = 22;
             var11 = var8[var11];
-            var12 = var3.bind(var5)(var11);
+            var11 = var17.bind(var5)(var11);
+            var12 = var11.ShinyButton;
             var11 = {};
             var15 = var15.primaryCTA;
             var11['style'] = var15;

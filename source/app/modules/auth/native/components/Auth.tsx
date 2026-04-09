@@ -512,21 +512,20 @@ case 40:
         var2 = var9.bind(var10)(var2);
         var _closure1_slot12 = var2;
         var2 = {};
-        var11 = var5.LOGIN;
+        var10 = var5.LOGIN;
         var9 = 9;
         var9 = var7[var9];
-        var10 = var6.bind(var1)(var9);
-        var9 = var10.isMetaQuest;
-        var15 = var9.bind(var10)();
-        var9 = 600;
-        var10 = var9;
-        if(!var15) { _fun0001_ip = 42; continue _fun0001 }
+        var9 = var6.bind(var1)(var9);
+        var11 = var9.hasWebAuthn;
+        var9 = 540;
+        if(!var11) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
-        var10 = 540;
+        var9 = 600;
 case 42:
-        var2[10] = var10;
-        var5 = var5.MFA;
-        var2[4] = var9;
+        var2[9] = var9;
+        var9 = var5.MFA;
+        var5 = 600;
+        var2[8] = var5;
         var _closure1_slot13 = var2;
         var2 = 10;
         var2 = var7[var2];

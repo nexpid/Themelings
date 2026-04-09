@@ -20,18 +20,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2.UserSettingsSections;
     var2 = 1;
     var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.QuestsExperimentLocations;
-    var _closure1_slot2 = var2;
-    var2 = 2;
-    var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
     var8 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 3;
+        var1 = 2;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -48,22 +43,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function usePredicate() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.isQuestPreviewTool2Enabled;
-        var1 = {};
-        var4 = _closure1_slot2;
-        var4 = var4.QUEST_PREVIEW_TOOL_2;
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.useIsPreviewerOnAnyQuest;
+        var1 = var1.bind(var2)();
         return var1;
     };
     var2['usePredicate'] = var8;
     var8 = null;
     var2['parent'] = var8;
-    var8 = 5;
+    var8 = 4;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.QuestsIcon;
@@ -74,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 6;
+        var1 = 5;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -84,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['getComponent'] = var9;
     var2['screen'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 7;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

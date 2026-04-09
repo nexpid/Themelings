@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var2.bind(var1)(var4);
     var4 = var6.createContext;
-    var2 = {'quest': null, 'isVisible': false, 'isVisibleToUser': false};
+    var2 = {'quest': null, 'isRendered': false, 'isVisibleToUser': false};
     var2['quest'] = var1;
     var2 = var4.bind(var6)(var2);
     var4 = 1;

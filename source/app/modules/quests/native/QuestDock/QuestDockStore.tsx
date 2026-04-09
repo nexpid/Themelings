@@ -201,7 +201,7 @@ case 9:
         var5['get'] = var7;
         var1[3] = var5;
         var5 = {};
-        var7 = 'isVisible';
+        var7 = 'isEligibleToBeVisible';
         var5['key'] = var7;
         var6 = function get() {
             var1 = _closure1_slot10;
@@ -258,14 +258,14 @@ case 13:
         return var1;
     };
     var2['QUESTS_DOCK_RESET_SOFT_DISMISSAL'] = var9;
-    var4 = function handleQuestDockVisibilityOverrideUpdate(arg1) {
+    var4 = function handleQuestDockEligibilityUpdate(arg1) {
         var1 = arg1;
-        var2 = var1.isVisible;
+        var2 = var1.isEligibleToBeVisible;
         _closure1_slot10 = var2;
         var1 = undefined;
         return var1;
     };
-    var2['QUESTS_DOCK_OVERRIDE_VISIBILITY_UPDATE'] = var4;
+    var2['QUESTS_DOCK_VISIBILITY_ELIGIBILITY_UPDATE'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var13 = var4;

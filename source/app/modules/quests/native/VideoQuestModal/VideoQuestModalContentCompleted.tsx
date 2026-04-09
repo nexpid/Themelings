@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var32 = var2.onClose;
+            var30 = var2.onClose;
             var29 = var2.onRestartVideo;
             var6 = var2.sourceQuestContent;
             var2 = _closure1_slot9;
@@ -177,7 +177,7 @@ case 0:
             var5 = var7.useVideoQuestClickCtaAndMaybeCloseModal;
             var2 = {};
             var2['quest'] = var25;
-            var2['onClose'] = var32;
+            var2['onClose'] = var30;
             var2['sourceQuestContent'] = var6;
             var2['impressionId'] = var8;
             var19 = var5.bind(var7)(var2);
@@ -196,8 +196,8 @@ case 0:
             var2['sourceQuestContent'] = var6;
             var2 = var3.bind(var5)(var2);
             var13 = var2.isLoading;
-            var31 = var2.isClaiming;
-            var30 = var2.claim;
+            var34 = var2.isClaiming;
+            var33 = var2.claim;
             var3 = var25.userStatus;
             var11 = null;
             var5 = var11 == var3;
@@ -407,8 +407,8 @@ case 4:
             var23 = 21;
             var20 = var15[var23];
             var20 = var12.bind(var4)(var20);
-            var34 = var20.intl;
-            var33 = var34.formatToPlainString;
+            var32 = var20.intl;
+            var31 = var32.formatToPlainString;
             var20 = var15[var23];
             var20 = var12.bind(var4)(var20);
             var20 = var20.t;
@@ -418,7 +418,7 @@ case 4:
             var37 = var37.messages;
             var37 = var37.questName;
             var20['questName'] = var37;
-            var20 = var33.bind(var34)(var24, var20);
+            var20 = var31.bind(var32)(var24, var20);
             var7['children'] = var20;
             var9 = var8.bind(var4)(var9, var7);
             var7 = new Array(2);
@@ -428,9 +428,9 @@ case 4:
             var9 = var15[var9];
             var24 = var20.bind(var4)(var9);
             var9 = {};
-            var9['onClose'] = var32;
-            var32 = var26.closeButton;
-            var9['style'] = var32;
+            var9['onClose'] = var30;
+            var30 = var26.closeButton;
+            var9['style'] = var30;
             var9 = var8.bind(var4)(var24, var9);
             var7[1] = var9;
             var5['children'] = var7;
@@ -469,14 +469,14 @@ case 7:
             var13 = {};
             var24 = var26.contentRewards;
             var13['style'] = var24;
-            var33 = _closure1_slot6;
-            var32 = _closure1_slot1;
-            var34 = _closure1_slot2;
+            var31 = _closure1_slot6;
+            var30 = _closure1_slot1;
+            var32 = _closure1_slot2;
             var24 = 24;
-            var24 = var34[var24];
-            var32 = var32.bind(var4)(var24);
+            var24 = var32[var24];
+            var30 = var30.bind(var4)(var24);
             var24 = {'withQuestName': false, 'withRewardAvailableCopy': false, 'size': null, 'withRewardTileAnimation': true};
-            var34 = 'md';
+            var32 = 'md';
             if(var35) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var35 = 'lg';
@@ -484,21 +484,21 @@ case 9:
 case 11:
             var35 = 'md-lg';
 case 10:
-            var34 = var35;
+            var32 = var35;
 case 8:
-            var24['size'] = var34;
-            var32 = var33.bind(var4)(var32, var24);
+            var24['size'] = var32;
+            var30 = var31.bind(var4)(var30, var24);
             var24 = new Array(2);
-            var24[0] = var32;
-            var34 = _closure1_slot6;
-            var33 = _closure1_slot0;
-            var32 = _closure1_slot2;
-            var32 = var32[var17];
-            var32 = var33.bind(var4)(var32);
-            var33 = var32.Text;
-            var32 = {'color': 'text-strong', 'style': null, 'variant': 'heading-lg/semibold'};
+            var24[0] = var30;
+            var32 = _closure1_slot6;
+            var31 = _closure1_slot0;
+            var30 = _closure1_slot2;
+            var30 = var30[var17];
+            var30 = var31.bind(var4)(var30);
+            var31 = var30.Text;
+            var30 = {'color': 'text-strong', 'style': null, 'variant': 'heading-lg/semibold'};
             var35 = var26.contentRewardsCopy;
-            var32['style'] = var35;
+            var30['style'] = var35;
             var36 = _closure1_slot0;
             var35 = _closure1_slot2;
             var37 = var35[var23];
@@ -517,9 +517,9 @@ case 12:
             var36 = var36.EMp8/M;
             var35 = var37.bind(var38)(var36);
 case 14:
-            var32['children'] = var35;
-            var32 = var34.bind(var4)(var33, var32);
-            var24[1] = var32;
+            var30['children'] = var35;
+            var30 = var32.bind(var4)(var31, var30);
+            var24[1] = var30;
             var13['children'] = var24;
             var15 = var20.bind(var4)(var15, var13);
             _fun0001_ip = 15; continue _fun0001;
@@ -535,28 +535,27 @@ case 15:
             if(var16) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
             var24 = _closure1_slot6;
-            var20 = _closure1_slot1;
-            var32 = _closure1_slot2;
-            var16 = 25;
-            var16 = var32[var16];
-            var20 = var20.bind(var4)(var16);
-            var16 = {};
-            var16['loading'] = var31;
-            var16['onPress'] = var30;
-            var30 = var26.ctaPrimary;
-            var16['style'] = var30;
             var31 = _closure1_slot0;
-            var30 = var32[var23];
-            var30 = var31.bind(var4)(var30);
-            var34 = var30.intl;
-            var33 = var34.string;
-            var30 = var32[var23];
-            var30 = var31.bind(var4)(var30);
-            var30 = var30.t;
-            var30 = var30.cfY4PE;
-            var30 = var33.bind(var34)(var30);
-            var16['text'] = var30;
-            var30 = 26;
+            var32 = _closure1_slot2;
+            var30 = 25;
+            var16 = var32[var30];
+            var16 = var31.bind(var4)(var16);
+            var20 = var16.ShinyButton;
+            var16 = {};
+            var16['loading'] = var34;
+            var16['onPress'] = var33;
+            var33 = var26.ctaPrimary;
+            var16['style'] = var33;
+            var33 = var32[var23];
+            var33 = var31.bind(var4)(var33);
+            var35 = var33.intl;
+            var34 = var35.string;
+            var33 = var32[var23];
+            var33 = var31.bind(var4)(var33);
+            var33 = var33.t;
+            var33 = var33.cfY4PE;
+            var33 = var34.bind(var35)(var33);
+            var16['text'] = var33;
             var30 = var32[var30];
             var30 = var31.bind(var4)(var30);
             var30 = var30.ButtonColors;
@@ -625,7 +624,7 @@ case 16:
             var15 = var8.bind(var4)(var15, var13);
             var13 = new Array(2);
             var13[0] = var15;
-            var15 = 27;
+            var15 = 26;
             var16 = var31[var15];
             var16 = var30.bind(var4)(var16);
             var17 = var16.PressableOpacity;
@@ -643,7 +642,7 @@ case 16:
             var33 = var34.bind(var35)(var33);
             var16['accessibilityLabel'] = var33;
             var16['onPress'] = var29;
-            var29 = 28;
+            var29 = 27;
             var29 = var31[var29];
             var29 = var30.bind(var4)(var29);
             var30 = var29.RetryIcon;
@@ -680,7 +679,7 @@ case 19:
             var12['accessibilityLabel'] = var17;
             var12['onPress'] = var19;
             var20 = _closure1_slot1;
-            var17 = 29;
+            var17 = 28;
             var17 = var29[var17];
             var20 = var20.bind(var4)(var17);
             var17 = {};
@@ -711,7 +710,7 @@ case 18:
             var13 = var13.PX_16;
             var10['spacing'] = var13;
             var17 = _closure1_slot6;
-            var13 = 30;
+            var13 = 29;
             var13 = var26[var13];
             var13 = var20.bind(var4)(var13);
             var16 = var13.Button;
@@ -748,7 +747,7 @@ case 21:
             var23 = var24.bind(var25)(var23);
             var15['accessibilityLabel'] = var23;
             var15['onPress'] = var18;
-            var18 = 31;
+            var18 = 30;
             var18 = var20[var18];
             var18 = var19.bind(var4)(var18);
             var19 = var18.ShareIcon;
@@ -776,7 +775,7 @@ case 20:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 32;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

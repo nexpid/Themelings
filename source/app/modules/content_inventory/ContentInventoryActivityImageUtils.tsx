@@ -474,7 +474,7 @@ case 61:
             var8 = 6;
             var8 = var13[var8];
             var9 = var9.bind(var5)(var8);
-            var8 = var9.useGameWithSupplementalData;
+            var8 = var9.useGame;
             if(!(var7 != var6)) { _fun0004_ip = 63; continue _fun0004 }
 case 64:
             var11 = var6;

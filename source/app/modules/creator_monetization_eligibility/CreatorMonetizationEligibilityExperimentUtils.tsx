@@ -113,7 +113,7 @@ case 7:
     var8 = new var18[var12](var17, var16);
     var8 = var8 instanceof Object ? var8 : var11;
     var _closure1_slot5 = var8;
-    var8 = 5;
+    var8 = 4;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -199,7 +199,7 @@ case 2:
         }
     };
     var3['useIsExpeditedOnboardingGuild'] = var4;
-    var4 = function isExpeditedMonetizationOnboardingGuild(arg1) {
+    var2 = function isExpeditedMonetizationOnboardingGuild(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = arg1;
@@ -221,26 +221,6 @@ case 13:
             return var1;
         }
     };
-    var3['isExpeditedMonetizationOnboardingGuild'] = var4;
-    var2 = function isCreatorMonetizationNagActivateEnabled() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 4;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        var4 = var1.CreatorMonetizationNagActivateExperiment;
-        var3 = var4.getCurrentConfig;
-        var2 = {};
-        var1 = 'e3bb71_11';
-        var2['location'] = var1;
-        var1 = {};
-        var5 = true;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        var1 = var1.enableCreatorMonetizationNagActivateForUser;
-        return var1;
-    };
-    var3['isCreatorMonetizationNagActivateEnabled'] = var2;
+    var3['isExpeditedMonetizationOnboardingGuild'] = var2;
     return var1;
 })();

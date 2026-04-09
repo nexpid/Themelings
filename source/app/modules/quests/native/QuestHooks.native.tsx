@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var8;
-    var5 = function useIsMobileQuestDockVisibleBase(arg1) {
+    var5 = function useIsMobileQuestDockRenderedBase(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var9 = arg1;
@@ -131,7 +131,7 @@ case 21:
         }
     };
     var _closure1_slot12 = var5;
-    var4 = function useIsMobileQuestDockVisible() {
+    var4 = function useIsMobileQuestDockRendered() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = _closure1_slot1;
@@ -518,8 +518,8 @@ case 45:
         }
     };
     var3['useIsMobileQuestDockVisibleToUser'] = var6;
-    var3['useIsMobileQuestDockVisibleBase'] = var5;
-    var3['useIsMobileQuestDockVisible'] = var4;
+    var3['useIsMobileQuestDockRenderedBase'] = var5;
+    var3['useIsMobileQuestDockRendered'] = var4;
     var4 = function useQuestGameLogotypeAssetUrl(arg1) {
         var5 = arg1;
         var _closure2_slot0 = var5;

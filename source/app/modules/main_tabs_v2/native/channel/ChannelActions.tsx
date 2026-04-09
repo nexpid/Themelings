@@ -607,7 +607,7 @@ case 0:
             var1 = 38;
             var1 = var8[var1];
             var4 = var4.bind(var5)(var1);
-            var1 = var4.useIsChannelContentGated;
+            var1 = var4.useShouldHideChannelContent;
             var8 = var1.bind(var4)(var7);
             var4 = null;
             var9 = var4 == var7;

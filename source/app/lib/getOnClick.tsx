@@ -32,7 +32,7 @@ case 0:
 case 3:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 12;
                     var2 = var3[var2];
                     var3 = undefined;
                     var5 = var4.bind(var3)(var2);
@@ -90,7 +90,7 @@ case 9:
                     var _closure4_slot0 = var4;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 13;
                     var2 = var7[var2];
                     var8 = var6.bind(var4)(var2);
                     var7 = var8.getInviteInstanceId;
@@ -106,7 +106,7 @@ case 9:
 case 11:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 14;
                     var2 = var9[var2];
                     var13 = var8.bind(var4)(var2);
                     var11 = var13.resolveInvite;
@@ -232,7 +232,7 @@ case 39:
 case 40:
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var8 = 15;
+                    var8 = 14;
                     var8 = var10[var8];
                     var9 = var9.bind(var4)(var8);
                     var8 = var9.transitionToInviteSync;
@@ -334,16 +334,12 @@ case 8:
     var _closure1_slot14 = var7;
     var4 = var4.CollectiblesMobileShopScreen;
     var _closure1_slot15 = var4;
-    var4 = 12;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.QuestsExperimentLocations;
     var4 = {};
     var4['skipExtensionCheck'] = var1;
     var7 = new Array(0);
     var4['analyticsLocations'] = var7;
     var _closure1_slot16 = var4;
-    var4 = 41;
+    var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -370,7 +366,7 @@ case 44:
             var _closure2_slot5 = var7;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 16;
+            var2 = 15;
             var2 = var4[var2];
             var3 = var3.bind(var7)(var2);
             var2 = var3.findCodedLink;
@@ -382,7 +378,7 @@ case 47:
             var5 = var2.type;
             var10 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var11 = 17;
+            var11 = 16;
             var3 = var3[var11];
             var3 = var10.bind(var7)(var3);
             var3 = var3.CodedLinkType;
@@ -403,7 +399,7 @@ case 51:
             var5 = var2.type;
             var10 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var11 = 17;
+            var11 = 16;
             var3 = var3[var11];
             var3 = var10.bind(var7)(var3);
             var3 = var3.CodedLinkType;
@@ -433,7 +429,7 @@ case 55:
             var5 = var2.type;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 17;
+            var3 = 16;
             var3 = var11[var3];
             var3 = var10.bind(var7)(var3);
             var3 = var3.CodedLinkType;
@@ -445,7 +441,7 @@ case 57:
             var5 = var2.type;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 17;
+            var3 = 16;
             var3 = var11[var3];
             var3 = var10.bind(var7)(var3);
             var3 = var3.CodedLinkType;
@@ -457,7 +453,7 @@ case 36:
             var5 = var2.type;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 17;
+            var3 = 16;
             var3 = var11[var3];
             var3 = var10.bind(var7)(var3);
             var3 = var3.CodedLinkType;
@@ -469,7 +465,7 @@ case 62:
             var5 = var2.type;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 17;
+            var3 = 16;
             var3 = var11[var3];
             var3 = var10.bind(var7)(var3);
             var3 = var3.CodedLinkType;
@@ -478,7 +474,7 @@ case 62:
 case 63:
             var5 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 30;
+            var3 = 29;
             var3 = var10[var3];
             var5 = var5.bind(var7)(var3);
             var3 = var5.getIsEligibleForQuests;
@@ -490,7 +486,7 @@ case 66:
             var5 = var2.type;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 17;
+            var3 = 16;
             var3 = var11[var3];
             var3 = var10.bind(var7)(var3);
             var3 = var3.CodedLinkType;
@@ -499,7 +495,7 @@ case 66:
 case 65:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var13 = 31;
+            var13 = 30;
             var3 = var3[var13];
             var5 = var5.bind(var7)(var3);
             var3 = var5.toURLSafe;
@@ -564,7 +560,7 @@ case 83:
             var10 = var2.type;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 17;
+            var2 = 16;
             var2 = var13[var2];
             var2 = var12.bind(var7)(var2);
             var2 = var2.CodedLinkType;
@@ -573,7 +569,7 @@ case 83:
 case 82:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 38;
+            var2 = 37;
             var2 = var12[var2];
             var10 = var10.bind(var7)(var2);
             var2 = var10.tryParseEventDetailsPath;
@@ -583,7 +579,7 @@ case 82:
 case 86:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 39;
+            var6 = 38;
             var6 = var10[var6];
             var8 = var8.bind(var7)(var6);
             var6 = var8.isSuspiciousDownload;
@@ -604,7 +600,7 @@ case 89:
 case 88:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 39;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -630,7 +626,7 @@ case 89:
 case 88:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var2 = 37;
+                    var2 = 36;
                     var2 = var5[var2];
                     var3 = undefined;
                     var8 = var4.bind(var3)(var2);
@@ -642,7 +638,7 @@ case 88:
                     var9 = var9.code;
                     var2['application_id'] = var9;
                     var2 = var7.bind(var8)(var6, var2);
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var5[var2];
                     var2 = var4.bind(var3)(var2);
                     var1 = _closure2_slot0;
@@ -676,7 +672,7 @@ case 89:
 case 88:
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 36;
+                    var1 = 35;
                     var1 = var3[var1];
                     var4 = undefined;
                     var3 = var2.bind(var4)(var1);
@@ -701,7 +697,7 @@ case 96:
 case 95:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var3 = 34;
+                    var3 = 33;
                     var3 = var2[var3];
                     var5 = undefined;
                     var7 = var4.bind(var5)(var3);
@@ -712,10 +708,10 @@ case 95:
                     var3 = var6.bind(var7)(var3);
                     var3 = var3.enabled;
                     var _closure3_slot0 = var3;
-                    var3 = 28;
+                    var3 = 27;
                     var3 = var2[var3];
                     var4 = var4.bind(var5)(var3);
-                    var3 = 35;
+                    var3 = 34;
                     var3 = var2[var3];
                     var2 = var2.paths;
                     var3 = var4.bind(var5)(var3, var2);
@@ -797,7 +793,7 @@ case 89:
 case 88:
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 31;
+                    var1 = 30;
                     var1 = var3[var1];
                     var3 = undefined;
                     var6 = var2.bind(var3)(var1);
@@ -846,7 +842,7 @@ case 104:
 case 108:
                     var2 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 32;
+                    var1 = 31;
                     var1 = var9[var1];
                     var1 = var2.bind(var3)(var1);
                     var2 = var1.openQuestHome;
@@ -870,7 +866,7 @@ case 113:
                     var1['filter'] = var5;
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 33;
+                    var4 = 32;
                     var4 = var6[var4];
                     var4 = var5.bind(var3)(var4);
                     var4 = var4.QuestContent;
@@ -910,10 +906,10 @@ case 95:
                     var _closure3_slot1 = var3;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var3 = 28;
+                    var3 = 27;
                     var3 = var2[var3];
                     var4 = var4.bind(var5)(var3);
-                    var3 = 29;
+                    var3 = 28;
                     var3 = var2[var3];
                     var2 = var2.paths;
                     var3 = var4.bind(var5)(var3, var2);
@@ -964,10 +960,10 @@ case 95:
                     var _closure3_slot1 = var3;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var3 = 28;
+                    var3 = 27;
                     var3 = var2[var3];
                     var4 = var4.bind(var5)(var3);
-                    var3 = 27;
+                    var3 = 26;
                     var3 = var2[var3];
                     var2 = var2.paths;
                     var3 = var4.bind(var5)(var3, var2);
@@ -1029,13 +1025,13 @@ case 115:
                     var _closure3_slot2 = var1;
                     var5 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 20;
                     var1 = var10[var1];
                     var1 = var5.bind(var6)(var1);
                     var1 = var1.bind(var6)();
                     var _closure3_slot3 = var1;
                     var5 = _closure1_slot0;
-                    var1 = 22;
+                    var1 = 21;
                     var1 = var10[var1];
                     var5 = var5.bind(var6)(var1);
                     var1 = var5.getPlayInContext;
@@ -1064,7 +1060,7 @@ case 21:
 case 122:
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    var10 = 25;
+                    var10 = 24;
                     var10 = var12[var10];
                     var12 = var11.bind(var6)(var10);
                     var11 = var12.openPrivateChannel;
@@ -1085,7 +1081,7 @@ case 0:
 case 124:
                                     var5 = _closure1_slot0;
                                     var3 = _closure1_slot2;
-                                    var2 = 23;
+                                    var2 = 22;
                                     var2 = var3[var2];
                                     var3 = undefined;
                                     var9 = var5.bind(var3)(var2);
@@ -1112,7 +1108,7 @@ case 100:
                                     var7 = var2.customId;
                                     var5 = _closure1_slot1;
                                     var8 = _closure1_slot2;
-                                    var4 = 26;
+                                    var4 = 25;
                                     var4 = var8[var4];
                                     var5 = var5.bind(var3)(var4);
                                     var4 = {};
@@ -1170,7 +1166,7 @@ case 126:
 case 129:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var4 = 23;
+                    var4 = 22;
                     var4 = var7[var4];
                     var7 = var5.bind(var6)(var4);
                     var5 = var7.getCustomActivityLinkParams;
@@ -1207,7 +1203,7 @@ case 44:
 case 133:
                                     var5 = _closure1_slot0;
                                     var6 = _closure1_slot2;
-                                    var3 = 24;
+                                    var3 = 23;
                                     var3 = var6[var3];
                                     var6 = var5.bind(var4)(var3);
                                     var5 = var6.runPrimaryAppCommandOrJoinEmbeddedActivity;
@@ -1293,7 +1289,7 @@ case 88:
                     var6 = var2.type;
                     var8 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var9 = 17;
+                    var9 = 16;
                     var5 = var3[var9];
                     var3 = undefined;
                     var5 = var8.bind(var3)(var5);
@@ -1313,7 +1309,7 @@ case 138:
 case 139:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var5 = 18;
+                    var5 = 17;
                     var5 = var8[var5];
                     var6 = var6.bind(var3)(var5);
                     var5 = var6.parseStorefrontSkuCodedLink;
@@ -1347,7 +1343,7 @@ case 142:
 case 145:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 20;
+                    var4 = 19;
                     var4 = var6[var4];
                     var7 = var5.bind(var3)(var4);
                     var6 = var7.track;
@@ -1366,7 +1362,7 @@ case 145:
 case 144:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var5[var2];
                     var2 = var4.bind(var3)(var2);
                     var1 = _closure2_slot0;

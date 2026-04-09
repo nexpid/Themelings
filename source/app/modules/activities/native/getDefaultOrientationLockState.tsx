@@ -74,8 +74,8 @@ case 12:
             var2 = undefined;
             var4 = var3.bind(var2)(var5);
 case 11:
-            if(!(var1 != var4)) { _fun0002_ip = 8; continue _fun0002 }
-case 13:
+            if(!(var1 != var4)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 0;
@@ -90,7 +90,7 @@ case 13:
             var1['applicationId'] = var5;
             var1['lockState'] = var4;
             var1 = var2.bind(var3)(var1);
-case 8:
+case 13:
             var1 = undefined;
             return var1;
         }

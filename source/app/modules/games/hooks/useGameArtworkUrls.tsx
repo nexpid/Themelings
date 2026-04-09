@@ -1,4 +1,4 @@
-// app/modules/game_detection/hooks/useGameArtworkUrls.tsx
+// app/modules/games/hooks/useGameArtworkUrls.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -75,7 +75,7 @@ case 6:
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/game_detection/hooks/useGameArtworkUrls.tsx';
+    var5 = 'modules/games/hooks/useGameArtworkUrls.tsx';
     var5 = var6.bind(var7)(var5);
     var3['getArtworkUrls'] = var4;
     var2 = function useGameArtworkUrls(arg1) {

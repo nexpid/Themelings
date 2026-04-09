@@ -205,7 +205,7 @@ case 0:
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
-            var3 = var4.useIsMobileQuestDockVisible;
+            var3 = var4.useIsMobileQuestDockRendered;
             var11 = var3.bind(var4)();
             var12 = null;
             var3 = var12 == var10;
@@ -439,7 +439,7 @@ case 0:
             var3 = var7[var1];
             var1 = undefined;
             var4 = var8.bind(var1)(var3);
-            var3 = var4.useIsMobileQuestDockVisible;
+            var3 = var4.useIsMobileQuestDockRendered;
             var11 = var3.bind(var4)();
             var3 = 12;
             var3 = var7[var3];
