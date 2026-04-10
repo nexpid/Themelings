@@ -1336,16 +1336,6 @@
         "width": 24,
         "height": 24
     },
-    "ChatMinusIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/ChatMinusIcon.png",
-        "hash": "cc3ad965d916c02c7c8f984700b87bf1",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ChatPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatPlusIcon.png",
         "hash": "2ec8d4d40c93ceea32933ae4e505df6e",
@@ -11108,7 +11098,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/hub/native/images/search_empty_state.png",
+        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
