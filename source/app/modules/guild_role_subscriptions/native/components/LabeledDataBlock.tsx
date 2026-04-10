@@ -5,8 +5,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -24,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -33,9 +32,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot4 = var7;
+    var _closure1_slot3 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var13 = 4;
     var4 = var6[var13];
     var8 = var5.bind(var1)(var4);
@@ -74,8 +73,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'marginBottom': 16};
     var4['titleSection'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 11;
+    var _closure1_slot5 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -90,11 +89,11 @@ case 0:
             var6 = var1.style;
             var16 = var1.icon;
             var14 = var1.onPressIcon;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot5;
             var4 = undefined;
             var11 = var1.bind(var4)();
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot2;
             var1 = {};
             var8 = var11.container;
             var5 = new Array(2);
@@ -104,9 +103,9 @@ case 0:
             var5 = {};
             var6 = var11.titleSection;
             var5['style'] = var6;
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot3;
             var8 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var13 = _closure1_slot1;
             var6 = 7;
             var6 = var13[var6];
             var6 = var8.bind(var4)(var6);
@@ -122,24 +121,25 @@ case 0:
             var8 = var8 != var16;
             if(!var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var13 = _closure1_slot4;
-            var12 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var13 = _closure1_slot3;
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot1;
             var9 = 8;
             var9 = var19[var9];
-            var9 = var12.bind(var4)(var9);
+            var9 = var18.bind(var4)(var9);
             var12 = var9.PressableOpacity;
             var9 = {};
             var15 = 'button';
             var9['accessibilityRole'] = var15;
             var9['onPress'] = var14;
-            var18 = _closure1_slot1;
             var17 = 9;
             var14 = var19[var17];
-            var15 = var18.bind(var4)(var14);
+            var14 = var18.bind(var4)(var14);
+            var15 = var14.Icon;
             var14 = {};
             var17 = var19[var17];
             var17 = var18.bind(var4)(var17);
+            var17 = var17.Icon;
             var17 = var17.Sizes;
             var17 = var17.SMALL;
             var14['size'] = var17;
@@ -158,10 +158,10 @@ case 2:
             var6 = var10;
             if(!(var9 === var8)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot3;
             var8 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var7 = 10;
+            var12 = _closure1_slot1;
+            var7 = 9;
             var7 = var12[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.LegacyText;

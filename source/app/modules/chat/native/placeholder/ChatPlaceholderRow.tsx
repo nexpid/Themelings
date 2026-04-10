@@ -32,28 +32,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.jsxs;
     var _closure1_slot4 = var4;
     var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.AVATAR_SIZE_MAP;
-    var4 = 4;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AVATAR_SIZE_MAP;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AvatarSizes;
     var4 = var4.NORMAL;
     var14 = var8[var4];
-    var4 = 5;
+    var4 = 4;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
     var10 = {};
-    var12 = 6;
+    var12 = 5;
     var11 = var6[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.spacing;
     var11 = var11.PX_12;
     var10['paddingLeft'] = var11;
-    var11 = 7;
+    var11 = 6;
     var16 = var6[var11];
     var16 = var5.bind(var1)(var16);
     var16 = var16.CHAT_PLACEHOLDER_ROW_MARGIN_TOP;
@@ -139,7 +138,7 @@ case 0:
             var8 = new Array(0);
             var2 = 0;
             var7 = var2 < var6;
-            var1 = 8;
+            var1 = 7;
             var14 = '';
             var13 = '%';
             if(!var7) { _fun0001_ip = 2; continue _fun0001 }
@@ -210,7 +209,7 @@ case 2:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

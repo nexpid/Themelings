@@ -496,7 +496,7 @@ case 0:
             var2 = arg1;
             var1 = var2.eventUser;
             var _closure2_slot0 = var1;
-            var20 = var2.guildId;
+            var21 = var2.guildId;
             var2 = _closure1_slot9;
             var5 = undefined;
             var10 = var2.bind(var5)();
@@ -553,9 +553,9 @@ case 0:
                 return var1;
             };
             var2 = var9.bind(var13)(var8, var2, var4);
-            var19 = var2.isMobileOnline;
-            var18 = var2.isVROnline;
-            var16 = var2.status;
+            var20 = var2.isMobileOnline;
+            var19 = var2.isVROnline;
+            var18 = var2.status;
             var4 = _closure1_slot7;
             var2 = 13;
             var2 = var7[var2];
@@ -570,18 +570,18 @@ case 0:
             if(!var8) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
             var14 = _closure1_slot7;
-            var9 = _closure1_slot1;
+            var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var15 = 17;
             var8 = var17[var15];
-            var9 = var9.bind(var5)(var8);
+            var8 = var16.bind(var5)(var8);
+            var9 = var8.Avatar;
             var8 = {};
             var8['user'] = var11;
-            var8['guildId'] = var20;
-            var8['isMobileOnline'] = var19;
-            var8['isVROnline'] = var18;
-            var8['status'] = var16;
-            var16 = _closure1_slot0;
+            var8['guildId'] = var21;
+            var8['isMobileOnline'] = var20;
+            var8['isVROnline'] = var19;
+            var8['status'] = var18;
             var15 = var17[var15];
             var15 = var16.bind(var5)(var15);
             var15 = var15.AvatarSizes;

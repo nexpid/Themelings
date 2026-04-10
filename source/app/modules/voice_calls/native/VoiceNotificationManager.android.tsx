@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot15 = var2;
+            _closure1_slot17 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot17 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -99,6 +99,14 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot13 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot14 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot15 = var4;
     var4 = function() {
         var4 = _closure1_slot7;
         var3 = function VoiceNotificationManager() {
@@ -324,12 +332,12 @@ case 36:
                     var14 = var4.bind(var6)(var10);
                     var6 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var4 = 11;
+                    var4 = 13;
                     var4 = var10[var4];
                     var6 = var6.bind(var5)(var4);
                     var4 = var6.getStatus;
                     var4 = var4.bind(var6)(var8);
-                    var20 = var4.connectionStatusText;
+                    var21 = var4.connectionStatusText;
                     var4 = var3 != var9;
                     var15 = '';
                     var13 = var15;
@@ -346,7 +354,7 @@ case 40:
                     var8 = var6.bind(var8)(var4);
                     var6 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var4 = 12;
+                    var4 = 14;
                     var4 = var9[var4];
                     var6 = var6.bind(var5)(var4);
                     var9 = var3 == var8;
@@ -362,33 +370,46 @@ case 42:
                     var4 = ' - ';
                     var13 = var6.bind(var4)(var8);
 case 38:
+                    var4 = var3 != var14;
+                    var10 = var15;
+                    if(!var4) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
+                    var6 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var4 = 15;
+                    var4 = var8[var4];
+                    var9 = var6.bind(var5)(var4);
+                    var8 = var9.computeChannelName;
+                    var6 = _closure1_slot15;
+                    var4 = _closure1_slot14;
+                    var10 = var8.bind(var9)(var14, var6, var4);
+case 44:
                     var6 = var3 != var14;
                     var4 = null;
-                    if(!var6) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+                    if(!var6) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
                     var6 = {};
                     var17 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var18 = 13;
+                    var18 = 16;
                     var9 = var8[var18];
                     var9 = var17.bind(var5)(var9);
-                    var19 = var9.intl;
-                    var16 = var19.formatToPlainString;
+                    var20 = var9.intl;
+                    var19 = var20.formatToPlainString;
                     var9 = var8[var18];
                     var9 = var17.bind(var5)(var9);
                     var9 = var9.t;
-                    var10 = var9.aUT3+M;
+                    var16 = var9.aUT3+M;
                     var9 = {};
-                    var9['callState'] = var20;
-                    var9 = var16.bind(var19)(var10, var9);
+                    var9['callState'] = var21;
+                    var9 = var19.bind(var20)(var16, var9);
                     var6['title'] = var9;
-                    var10 = var14.name;
                     var9 = global;
                     var9 = var9.HermesInternal;
                     var9 = var9.concat;
                     var9 = var9.bind(var15)(var10, var13);
                     var6['content'] = var9;
-                    var10 = 14;
+                    var10 = 17;
                     var9 = var8[var10];
                     var9 = var17.bind(var5)(var9);
                     var9 = var9.ServiceNotificationPriority;
@@ -423,15 +444,15 @@ case 45:
                     var9 = var9[var18];
                     var9 = var19.bind(var5)(var9);
                     var9 = var9.t;
-                    if(var12) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+                    if(var12) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
                     var12 = var9.w4m945;
                     var12 = var16.bind(var17)(var12);
-                    _fun0004_ip = 48; continue _fun0004;
-case 46:
+                    _fun0004_ip = 50; continue _fun0004;
+case 48:
                     var9 = var9.YqAjXy;
                     var12 = var16.bind(var17)(var9);
-case 48:
+case 50:
                     var9 = 'ToggleSelfMute';
                     var9 = var13.bind(var15)(var14, var9, var12);
                     var8[1] = var9;
@@ -446,15 +467,15 @@ case 48:
                     var9 = var9[var18];
                     var9 = var17.bind(var5)(var9);
                     var9 = var9.t;
-                    if(var11) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+                    if(var11) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
                     var11 = var9.wjcRFX;
                     var11 = var15.bind(var16)(var11);
-                    _fun0004_ip = 51; continue _fun0004;
-case 49:
+                    _fun0004_ip = 53; continue _fun0004;
+case 51:
                     var9 = var9["2US872"];
                     var11 = var15.bind(var16)(var9);
-case 51:
+case 53:
                     var9 = 'ToggleDeafen';
                     var9 = var12.bind(var13)(var14, var9, var11);
                     var8[2] = var9;
@@ -464,23 +485,23 @@ case 51:
                     var8 = var8[var10];
                     var8 = var9.bind(var5)(var8);
                     var8 = var8.ServiceNotificationType;
-                    if(var7) { _fun0004_ip = 52; continue _fun0004 }
-case 53:
+                    if(var7) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
                     var7 = var8.VOICE_CALL;
-                    _fun0004_ip = 54; continue _fun0004;
-case 52:
-                    var7 = var8.SCREEN_SHARE;
+                    _fun0004_ip = 56; continue _fun0004;
 case 54:
+                    var7 = var8.SCREEN_SHARE;
+case 56:
                     var6['type'] = var7;
                     var7 = true;
                     var6['usesGateway'] = var7;
                     var4 = var6;
-case 44:
-                    if(!(var3 == var4)) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
+case 46:
+                    if(!(var3 == var4)) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var3 = 15;
+                    var3 = 18;
                     var3 = var7[var3];
                     var7 = var6.bind(var5)(var3);
                     var6 = var7.removeServiceHandler;
@@ -488,10 +509,10 @@ case 56:
                     var3 = var3.voiceServiceHandlerId;
                     var3 = var6.bind(var7)(var3);
                     _fun0004_ip = 20; continue _fun0004;
-case 55:
+case 57:
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 18;
                     var2 = var6[var2];
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.updateServiceHandler;
@@ -583,8 +604,8 @@ case 20:
     var13 = var8;
     var4 = new var13[var4](var12);
     var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot14 = var4;
-    var4 = 16;
+    var _closure1_slot16 = var4;
+    var4 = 19;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -600,16 +621,16 @@ case 0:
                 var1 = _closure1_slot4;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot3;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot17;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0005_ip = 57; continue _fun0005 }
+                if(var1) { _fun0005_ip = 59; continue _fun0005 }
 case 9:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0005_ip = 58; continue _fun0005;
-case 57:
+                _fun0005_ip = 60; continue _fun0005;
+case 59:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -618,7 +639,7 @@ case 57:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 58:
+case 60:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -633,7 +654,7 @@ case 58:
         var1 = '_initialize';
         var5['key'] = var1;
         var1 = function value() {
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot16;
             var1 = var2.initialize;
             var1 = var1.bind(var2)();
             var1 = undefined;
@@ -646,7 +667,7 @@ case 58:
         var7 = '_terminate';
         var5['key'] = var7;
         var6 = function value() {
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot16;
             var1 = var2.terminate;
             var1 = var1.bind(var2)();
             var1 = undefined;
@@ -663,7 +684,7 @@ case 58:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 17;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

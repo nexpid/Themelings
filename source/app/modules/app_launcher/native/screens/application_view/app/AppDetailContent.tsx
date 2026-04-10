@@ -1121,11 +1121,12 @@ case 50:
 case 52:
             var24[1] = var29;
             var35 = _closure1_slot13;
-            var31 = _closure1_slot1;
+            var31 = _closure1_slot0;
             var43 = _closure1_slot3;
             var29 = 35;
             var29 = var43[var29];
-            var31 = var31.bind(var4)(var29);
+            var29 = var31.bind(var4)(var29);
+            var31 = var29.Spacer;
             var29 = {};
             var44 = var28 == var25;
             var43 = 24;

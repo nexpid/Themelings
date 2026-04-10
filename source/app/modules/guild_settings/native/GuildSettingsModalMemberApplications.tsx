@@ -182,10 +182,10 @@ case 10:
             var2 = {};
             var10 = true;
             var2['arrow'] = var10;
-            var12 = _closure1_slot1;
             var13 = 11;
             var10 = var15[var13];
-            var12 = var12.bind(var4)(var10);
+            var10 = var14.bind(var4)(var10);
+            var12 = var10.Avatar;
             var10 = {};
             var10['source'] = var16;
             var13 = var15[var13];
@@ -441,14 +441,14 @@ case 20:
             if(!(var10 === var11)) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
             var12 = _closure1_slot7;
-            var11 = _closure1_slot1;
-            var23 = _closure1_slot2;
-            var10 = 20;
-            var10 = var23[var10];
-            var11 = var11.bind(var4)(var10);
-            var10 = {};
             var22 = _closure1_slot0;
-            var16 = 21;
+            var23 = _closure1_slot2;
+            var10 = 11;
+            var10 = var23[var10];
+            var10 = var22.bind(var4)(var10);
+            var11 = var10.EmptyState;
+            var10 = {};
+            var16 = 20;
             var16 = var23[var16];
             var16 = var22.bind(var4)(var16);
             var16 = var16.NoResults;
@@ -488,7 +488,7 @@ case 24:
             var10 = _closure1_slot7;
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var8 = 22;
+            var8 = 21;
             var8 = var11[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.NavScrim;
@@ -518,7 +518,7 @@ case 14:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 23;
+    var5 = 22;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

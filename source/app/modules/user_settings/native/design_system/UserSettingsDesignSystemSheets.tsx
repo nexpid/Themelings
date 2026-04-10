@@ -19,7 +19,7 @@ case 0:
             var6 = 2;
             var1 = var1.bind(var4)(var2, var6);
             var3 = 0;
-            var14 = var1[var3];
+            var26 = var1[var3];
             var2 = 1;
             var25 = var1[var2];
             var5 = _closure1_slot4;
@@ -27,8 +27,8 @@ case 0:
             var5 = var1.bind(var5)(var7);
             var1 = _closure1_slot3;
             var1 = var1.bind(var4)(var5, var6);
-            var27 = var1[var3];
-            var26 = var1[var2];
+            var14 = var1[var3];
+            var27 = var1[var2];
             var7 = _closure1_slot4;
             var5 = var7.useState;
             var1 = 'Header title';
@@ -48,7 +48,7 @@ case 0:
             var _closure2_slot0 = var13;
             var7 = _closure1_slot4;
             var5 = var7.useState;
-            var1 = 'Label';
+            var1 = 'Reset';
             var5 = var5.bind(var7)(var1);
             var1 = _closure1_slot3;
             var1 = var1.bind(var4)(var5, var6);
@@ -93,8 +93,8 @@ case 5:
             var9['label'] = var16;
             var8 = var17.bind(var4)(var10, var9);
 case 4:
-            var5['trailing'] = var8;
-            var8 = var27;
+            var5['leading'] = var8;
+            var8 = var26;
             if(!var8) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var17 = _closure1_slot7;
@@ -109,7 +109,7 @@ case 7:
             var9['onPress'] = var18;
             var8 = var17.bind(var4)(var10, var9);
 case 6:
-            var5['leading'] = var8;
+            var5['trailing'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['header'] = var5;
             var7 = _closure1_slot8;
@@ -174,10 +174,10 @@ case 6:
             var21 = var10.bind(var4)(var21);
             var23 = var21.ActionSheetSwitchRow;
             var21 = {};
-            var21['value'] = var27;
-            var21['onValueChange'] = var26;
-            var26 = 'Show Leading';
-            var21['label'] = var26;
+            var21['value'] = var14;
+            var21['onValueChange'] = var27;
+            var27 = 'Show Leading';
+            var21['label'] = var27;
             var23 = var24.bind(var4)(var23, var21);
             var21 = new Array(2);
             var21[0] = var23;
@@ -186,7 +186,7 @@ case 6:
             var22 = var10.bind(var4)(var22);
             var23 = var22.ActionSheetSwitchRow;
             var22 = {};
-            var22['value'] = var14;
+            var22['value'] = var26;
             var22['onValueChange'] = var25;
             var25 = 'Show Trailing';
             var22['label'] = var25;
@@ -202,7 +202,7 @@ case 6:
             var9 = {};
             var9['value'] = var16;
             var9['onChange'] = var15;
-            var15 = 'Trailing';
+            var15 = 'Leading';
             var9['label'] = var15;
             var14 = !var14;
             var9['isDisabled'] = var14;
@@ -226,59 +226,87 @@ case 6:
     };
     var _closure1_slot11 = var1;
     var1 = function DemoPromoSheet() {
-        var4 = _closure1_slot7;
-        var11 = _closure1_slot0;
-        var12 = _closure1_slot2;
-        var1 = 14;
-        var1 = var12[var1];
-        var3 = undefined;
-        var1 = var11.bind(var3)(var1);
-        var2 = var1.PromoSheet;
-        var1 = {'illustration': null, 'title': "Here's a Promo Sheet", 'description': "You can use this to promote new features, products, or anything else you'd like!"};
-        var8 = _closure1_slot7;
-        var7 = _closure1_slot1;
-        var6 = 15;
-        var6 = var12[var6];
-        var7 = var7.bind(var3)(var6);
-        var6 = {};
-        var6 = var8.bind(var3)(var7, var6);
-        var1['illustration'] = var6;
-        var7 = _closure1_slot7;
-        var5 = 16;
-        var5 = var12[var5];
-        var5 = var11.bind(var3)(var5);
-        var6 = var5.Button;
-        var5 = {};
-        var8 = 'lg';
-        var5['size'] = var8;
-        var8 = function onPress() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 13;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.hideActionSheet;
-            var1 = 'promo-sheet-demo';
-            var1 = var2.bind(var3)(var1);
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 14;
+            var1 = var7[var1];
+            var4 = undefined;
+            var2 = var2.bind(var4)(var1);
+            var1 = 'UserSettingsDesignSystemSheets';
+            var1 = var2.bind(var4)(var1);
+            var6 = _closure1_slot7;
+            var5 = _closure1_slot0;
+            var2 = 15;
+            var2 = var7[var2];
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.Button;
+            var2 = {};
+            var8 = 'lg';
+            var2['size'] = var8;
+            var8 = function onPress() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 13;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.hideActionSheet;
+                var1 = 'promo-sheet-demo';
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var2['onPress'] = var8;
+            var8 = 16;
+            var10 = var7[var8];
+            var10 = var5.bind(var4)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var8 = var7[var8];
+            var8 = var5.bind(var4)(var8);
+            var8 = var8.t;
+            var8 = var8.BddRzS;
+            var8 = var10.bind(var11)(var8);
+            var2['text'] = var8;
+            var6 = var6.bind(var4)(var3, var2);
+            var3 = _closure1_slot7;
+            var2 = 17;
+            var2 = var7[var2];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.PromoSheet;
+            if(var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var1 = {'illustration': null, 'title': "Here's a Promo Sheet", 'description': "You can use this to promote new features, products, or anything else you'd like!"};
+            var8 = _closure1_slot7;
+            var7 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var5 = 19;
+            var5 = var10[var5];
+            var7 = var7.bind(var4)(var5);
+            var5 = {};
+            var5 = var8.bind(var4)(var7, var5);
+            var1['illustration'] = var5;
+            var1['actions'] = var6;
+            _fun0002_ip = 10; continue _fun0002;
+case 8:
+            var5 = {'graphic': null, 'gradientColor': 'purple', 'title': "Here's a Promo Sheet", 'description': "You can use this to promote new features, products, or anything else you'd like!"};
+            var7 = {'type': 'image', 'src': null, 'aspectRatio': '16/9'};
+            var8 = {};
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var9 = 18;
+            var9 = var11[var9];
+            var9 = var10.bind(var4)(var9);
+            var8['uri'] = var9;
+            var7['src'] = var8;
+            var5['graphic'] = var7;
+            var5['actions'] = var6;
+            var1 = var5;
+case 10:
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
-        };
-        var5['onPress'] = var8;
-        var8 = 17;
-        var9 = var12[var8];
-        var9 = var11.bind(var3)(var9);
-        var10 = var9.intl;
-        var9 = var10.string;
-        var8 = var12[var8];
-        var8 = var11.bind(var3)(var8);
-        var8 = var8.t;
-        var8 = var8.BddRzS;
-        var8 = var9.bind(var10)(var8);
-        var5['text'] = var8;
-        var5 = var7.bind(var3)(var6, var5);
-        var1['actions'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
+        }
     };
     var _closure1_slot12 = var1;
     var1 = global;
@@ -346,7 +374,7 @@ case 6:
         return var1;
     };
     var _closure1_slot10 = var4;
-    var4 = 20;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -370,7 +398,7 @@ case 6:
         var6 = var5.Stack;
         var5 = {};
         var11 = _closure1_slot7;
-        var9 = 18;
+        var9 = 20;
         var8 = var20[var9];
         var8 = var17.bind(var4)(var8);
         var10 = var8.Card;
@@ -381,7 +409,7 @@ case 6:
         var14 = var13.Stack;
         var13 = {};
         var22 = _closure1_slot7;
-        var18 = 19;
+        var18 = 21;
         var16 = var20[var18];
         var16 = var17.bind(var4)(var16);
         var21 = var16.Text;
@@ -397,7 +425,7 @@ case 6:
         var16 = var23.bind(var4)(var22, var16);
         var21[1] = var16;
         var24 = _closure1_slot7;
-        var16 = 16;
+        var16 = 15;
         var22 = var20[var16];
         var22 = var17.bind(var4)(var22);
         var23 = var22.Button;

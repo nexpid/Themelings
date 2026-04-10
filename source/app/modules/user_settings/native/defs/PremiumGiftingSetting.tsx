@@ -105,19 +105,19 @@ case 2:
     };
     var2['usePreNavigationAction'] = var11;
     var11 = function usePremiumGiftingSettingTrailing() {
-        var3 = _closure1_slot0;
+        var2 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var2 = 5;
-        var2 = var6[var2];
+        var3 = 5;
+        var3 = var6[var3];
         var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.useUnseenOutboundPromotions;
-        var5 = var2.bind(var3)();
+        var5 = var2.bind(var4)(var3);
+        var3 = var5.useUnseenOutboundPromotions;
+        var5 = var3.bind(var5)();
         var3 = _closure1_slot4;
-        var2 = _closure1_slot1;
         var1 = 6;
         var1 = var6[var1];
-        var2 = var2.bind(var4)(var1);
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.Badge;
         var1 = {};
         var5 = var5.length;
         var1['value'] = var5;

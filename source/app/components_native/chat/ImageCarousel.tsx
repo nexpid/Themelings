@@ -421,18 +421,21 @@ case 22:
                     var11 = var11.footerRightContainer;
                     var7['style'] = var11;
                     var13 = _closure1_slot11;
-                    var17 = _closure1_slot1;
+                    var17 = _closure1_slot0;
                     var18 = _closure1_slot2;
-                    var16 = 17;
+                    var16 = 10;
                     var11 = var18[var16];
-                    var12 = var17.bind(var4)(var11);
+                    var11 = var17.bind(var4)(var11);
+                    var12 = var11.Icon;
                     var11 = {};
-                    var19 = 18;
+                    var20 = _closure1_slot1;
+                    var19 = 17;
                     var19 = var18[var19];
-                    var19 = var17.bind(var4)(var19);
+                    var19 = var20.bind(var4)(var19);
                     var11['source'] = var19;
                     var16 = var18[var16];
                     var16 = var17.bind(var4)(var16);
+                    var16 = var16.Icon;
                     var16 = var16.Sizes;
                     var16 = var16.SMALL_14;
                     var11['size'] = var16;
@@ -454,7 +457,7 @@ case 24:
                     var13 = _closure1_slot11;
                     var12 = _closure1_slot1;
                     var16 = _closure1_slot2;
-                    var9 = 19;
+                    var9 = 18;
                     var9 = var16[var9];
                     var12 = var12.bind(var4)(var9);
                     var9 = {};
@@ -489,7 +492,7 @@ case 29:
                     var19 = _closure1_slot11;
                     var23 = _closure1_slot0;
                     var24 = _closure1_slot2;
-                    var16 = 20;
+                    var16 = 19;
                     var16 = var24[var16];
                     var16 = var23.bind(var4)(var16);
                     var18 = var16.Text;
@@ -497,7 +500,7 @@ case 29:
                     var20 = _closure2_slot4;
                     var20 = var20.altTagText;
                     var16['style'] = var20;
-                    var20 = 21;
+                    var20 = 20;
                     var21 = var24[var20];
                     var21 = var23.bind(var4)(var21);
                     var22 = var21.intl;
@@ -525,7 +528,7 @@ case 31:
                     var23 = _closure1_slot11;
                     var22 = _closure1_slot0;
                     var24 = _closure1_slot2;
-                    var21 = 22;
+                    var21 = 21;
                     var21 = var24[var21];
                     var21 = var22.bind(var4)(var21);
                     var22 = var21.PlayIcon;
@@ -551,7 +554,7 @@ case 33:
                     var16 = _closure1_slot11;
                     var15 = _closure1_slot0;
                     var17 = _closure1_slot2;
-                    var14 = 23;
+                    var14 = 22;
                     var14 = var17[var14];
                     var14 = var15.bind(var4)(var14);
                     var15 = var14.EyeIcon;
@@ -575,7 +578,7 @@ case 32:
             var1['name'] = var2;
             var25 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var20 = 21;
+            var20 = 20;
             var2 = var17[var20];
             var2 = var25.bind(var4)(var2);
             var5 = var2.intl;
@@ -592,7 +595,7 @@ case 32:
             var2 = _closure1_slot4;
             var1 = {};
             var8 = _closure1_slot11;
-            var6 = 24;
+            var6 = 23;
             var5 = var17[var6];
             var5 = var25.bind(var4)(var5);
             var7 = var5.PressableOpacity;
@@ -699,16 +702,19 @@ case 40:
             var13[1] = var14;
             var9['style'] = var13;
             var14 = _closure1_slot11;
-            var16 = 17;
+            var19 = _closure1_slot0;
+            var16 = 10;
             var12 = var18[var16];
-            var13 = var17.bind(var4)(var12);
+            var12 = var19.bind(var4)(var12);
+            var13 = var12.Icon;
             var12 = {};
-            var19 = 25;
-            var19 = var18[var19];
-            var19 = var17.bind(var4)(var19);
-            var12['source'] = var19;
+            var20 = 24;
+            var20 = var18[var20];
+            var20 = var17.bind(var4)(var20);
+            var12['source'] = var20;
             var16 = var18[var16];
-            var16 = var17.bind(var4)(var16);
+            var16 = var19.bind(var4)(var16);
+            var16 = var16.Icon;
             var16 = var16.Sizes;
             var16 = var16.MEDIUM;
             var12['size'] = var16;
@@ -948,7 +954,7 @@ case 0:
                 var6 = var1.current;
                 var7 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 26;
+                var1 = 25;
                 var5 = var5[var1];
                 var1 = undefined;
                 var7 = var7.bind(var1)(var5);
@@ -1054,7 +1060,7 @@ case 50:
             var1 = function(arg1) {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 27;
+                var1 = 26;
                 var3 = var3[var1];
                 var1 = undefined;
                 var6 = var4.bind(var1)(var3);
@@ -1087,7 +1093,7 @@ case 52:
 case 10:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 28;
+                    var1 = 27;
                     var3 = var8[var1];
                     var1 = undefined;
                     var6 = var7.bind(var1)(var3);
@@ -1147,7 +1153,7 @@ case 4:
             var5 = {'horizontal': true, 'keyboardShouldPersistTaps': 'always', 'showsHorizontalScrollIndicator': false, 'accessibilityRole': 'list'};
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var8 = 21;
+            var8 = 20;
             var12 = var16[var8];
             var12 = var15.bind(var4)(var12);
             var14 = var12.intl;
@@ -1199,7 +1205,7 @@ case 58:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 29;
+    var5 = 28;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

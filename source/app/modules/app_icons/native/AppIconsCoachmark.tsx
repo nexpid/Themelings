@@ -186,7 +186,8 @@ case 2:
             var17['style'] = var8;
             var19 = 12;
             var8 = var16[var19];
-            var18 = var21.bind(var4)(var8);
+            var8 = var11.bind(var4)(var8);
+            var18 = var8.Icon;
             var8 = {};
             var20 = 13;
             var20 = var16[var20];

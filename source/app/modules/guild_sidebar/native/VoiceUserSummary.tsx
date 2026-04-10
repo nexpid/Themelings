@@ -78,8 +78,8 @@ case 0:
             var10 = var1.max;
             var2 = var1.guildId;
             var _closure2_slot0 = var2;
-            var6 = var1.renderIcon;
-            var7 = var1.noPadding;
+            var7 = var1.renderIcon;
+            var8 = var1.noPadding;
             var5 = var1.stageIcon;
             var1 = _closure1_slot7;
             var4 = undefined;
@@ -101,53 +101,54 @@ case 2:
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useClientThemesOverride;
-            var8 = var1.bind(var2)();
+            var12 = var1.bind(var2)();
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
-            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var12 = var15.container;
+            var13 = var15.container;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var12 = var15.containerNoPadding;
+            var13 = var15.containerNoPadding;
 case 6:
-            var7 = new Array(2);
-            var7[0] = var12;
-            var7[1] = var8;
-            var1['style'] = var7;
-            var7 = _closure1_slot4;
-            if(!var6) { _fun0001_ip = 7; continue _fun0001 }
+            var8 = new Array(2);
+            var8[0] = var13;
+            var8[1] = var12;
+            var1['style'] = var8;
+            var8 = _closure1_slot4;
+            if(!var7) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
             if(var5) { _fun0001_ip = 9; continue _fun0001 }
 case 7:
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var12 = _closure1_slot2;
             var5 = 8;
-            var5 = var8[var5];
-            var5 = var6.bind(var4)(var5);
-            var6 = var5.VoiceNormalIcon;
+            var5 = var12[var5];
+            var5 = var7.bind(var4)(var5);
+            var7 = var5.VoiceNormalIcon;
             _fun0001_ip = 10; continue _fun0001;
 case 9:
-            var8 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var5 = 7;
-            var5 = var12[var5];
-            var5 = var8.bind(var4)(var5);
-            var6 = var5.StageIcon;
+            var5 = var13[var5];
+            var5 = var12.bind(var4)(var5);
+            var7 = var5.StageIcon;
 case 10:
             var5 = {'size': 'sm', 'color': 'channel-icon'};
-            var8 = var15.redesignChannelIcon;
-            var5['style'] = var8;
-            var6 = var7.bind(var4)(var6, var5);
+            var12 = var15.redesignChannelIcon;
+            var5['style'] = var12;
+            var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
-            var5[0] = var6;
+            var5[0] = var7;
             var8 = _closure1_slot4;
-            var7 = _closure1_slot1;
+            var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var12 = 9;
+            var12 = 3;
             var6 = var14[var12];
-            var7 = var7.bind(var4)(var6);
+            var6 = var13.bind(var4)(var6);
+            var7 = var6.SummarizedIconRow;
             var6 = {};
             var17 = -6;
             var6['offsetAmount'] = var17;
@@ -158,7 +159,6 @@ case 10:
             var15[0] = var17;
             var15[1] = var16;
             var6['overflowStyle'] = var15;
-            var13 = _closure1_slot0;
             var12 = var14[var12];
             var12 = var13.bind(var4)(var12);
             var12 = var12.OverflowTextSmall;
@@ -169,18 +169,18 @@ case 10:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var4 = _closure1_slot4;
-                    var2 = _closure1_slot1;
+                    var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var5 = 3;
                     var1 = var8[var5];
                     var3 = undefined;
-                    var2 = var2.bind(var3)(var1);
+                    var1 = var7.bind(var3)(var1);
+                    var2 = var1.CutoutableAvatarImage;
                     var1 = {};
-                    var7 = arg1;
-                    var1['user'] = var7;
-                    var7 = _closure2_slot0;
-                    var1['guildId'] = var7;
-                    var7 = _closure1_slot0;
+                    var9 = arg1;
+                    var1['user'] = var9;
+                    var9 = _closure2_slot0;
+                    var1['guildId'] = var9;
                     var5 = var8[var5];
                     var5 = var7.bind(var3)(var5);
                     var5 = var5.AvatarSizes;
@@ -206,7 +206,7 @@ case 11:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 10;
+    var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

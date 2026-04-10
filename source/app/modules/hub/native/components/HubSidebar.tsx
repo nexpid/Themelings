@@ -131,11 +131,12 @@ case 4:
             if(var7) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var8 = _closure1_slot7;
-            var7 = _closure1_slot1;
+            var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var6 = 10;
             var6 = var10[var6];
-            var7 = var7.bind(var4)(var6);
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.Badge;
             var6 = {};
             var6['value'] = var9;
             var5 = var8.bind(var4)(var7, var6);

@@ -17,8 +17,8 @@ case 0:
             var3 = var3.game;
             var5 = _closure1_slot16;
             var4 = undefined;
-            var9 = var5.bind(var4)();
-            var _closure2_slot0 = var9;
+            var8 = var5.bind(var4)();
+            var _closure2_slot0 = var8;
             var5 = {};
             var5['userId'] = var6;
             var5['activity'] = var1;
@@ -34,7 +34,7 @@ case 0:
                     var11 = var1.stream;
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var3 = 41;
+                    var3 = 39;
                     var3 = var5[var3];
                     var5 = undefined;
                     var9 = var4.bind(var5)(var3);
@@ -85,7 +85,7 @@ case 10:
 case 16:
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var6 = 42;
+                    var6 = 40;
                     var6 = var9[var6];
                     var12 = var7.bind(var5)(var6);
                     var11 = var12.getAssetImage;
@@ -141,7 +141,7 @@ case 25:
 case 31:
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var6 = 42;
+                    var6 = 40;
                     var6 = var9[var6];
                     var11 = var7.bind(var5)(var6);
                     var10 = var11.getAssetImage;
@@ -179,7 +179,7 @@ case 38:
 case 41:
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 43;
+                    var2 = 41;
                     var2 = var6[var2];
                     var2 = var3.bind(var5)(var2);
                     _fun0002_ip = 42; continue _fun0002;
@@ -199,7 +199,7 @@ case 42:
 case 36:
                     var2 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 44;
+                    var1 = 42;
                     var3 = var6[var1];
                     var7 = var2.bind(var5)(var3);
                     var3 = var7.memoizedImageSource;
@@ -222,7 +222,7 @@ case 36:
             var12 = var3.b;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var5 = 35;
+            var5 = 34;
             var3 = var7[var5];
             var11 = var6.bind(var4)(var3);
             var3 = var11.rgbToHex;
@@ -238,7 +238,7 @@ case 36:
             var6 = var7.useMemo;
             var5 = new Array(2);
             var5[0] = var3;
-            var3 = var9.cardImageAssetContainer;
+            var3 = var8.cardImageAssetContainer;
             var5[1] = var3;
             var3 = function() {
                 var1 = _closure2_slot0;
@@ -256,7 +256,7 @@ case 36:
             var6 = var7.useMemo;
             var3 = new Array(2);
             var3[0] = var11;
-            var11 = var9.cardImageAssetBackground;
+            var11 = var8.cardImageAssetBackground;
             var3[1] = var11;
             var2 = function() {
                 var1 = _closure2_slot0;
@@ -275,7 +275,7 @@ case 36:
 case 44:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 27;
+            var3 = 26;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.bind(var4)(var1);
@@ -293,7 +293,7 @@ case 47:
 case 50:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 30;
+            var3 = 29;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.bind(var4)(var1);
@@ -312,7 +312,7 @@ case 32:
 case 55:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 34;
+            var1 = 33;
             var2 = var11[var1];
             var2 = var7.bind(var4)(var2);
             var3 = var2.intl;
@@ -327,7 +327,7 @@ case 54:
 case 51:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 34;
+            var1 = 33;
             var2 = var11[var1];
             var2 = var7.bind(var4)(var2);
             var3 = var2.intl;
@@ -342,7 +342,7 @@ case 56:
 case 49:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 34;
+            var1 = 33;
             var2 = var11[var1];
             var2 = var7.bind(var4)(var2);
             var3 = var2.intl;
@@ -357,7 +357,7 @@ case 57:
 case 45:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 34;
+            var1 = 33;
             var2 = var11[var1];
             var2 = var7.bind(var4)(var2);
             var3 = var2.intl;
@@ -380,11 +380,11 @@ case 58:
             var14 = _closure1_slot11;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var12 = 38;
+            var12 = 36;
             var12 = var16[var12];
             var13 = var13.bind(var4)(var12);
             var12 = {};
-            var16 = var9.cardImageAsset;
+            var16 = var8.cardImageAsset;
             var12['style'] = var16;
             var12['source'] = var15;
             var12 = var14.bind(var4)(var13, var12);
@@ -399,30 +399,31 @@ case 43:
             var1 = {};
             var1['style'] = var5;
             var7 = _closure1_slot11;
-            var11 = _closure1_slot1;
+            var6 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var5 = 36;
+            var5 = 35;
             var5 = var12[var5];
-            var6 = var11.bind(var4)(var5);
+            var6 = var6.bind(var4)(var5);
             var5 = {};
             var5['stream'] = var10;
             var13 = _closure1_slot11;
-            var10 = 37;
-            var10 = var12[var10];
-            var11 = var11.bind(var4)(var10);
-            var10 = {};
-            var14 = var9.cardImageStreamLive;
-            var10['style'] = var14;
-            var14 = var9.stageStreamLiveText;
-            var10['textStyle'] = var14;
-            var14 = false;
-            var10['allowFontScaling'] = var14;
-            var10 = var13.bind(var4)(var11, var10);
-            var5['children'] = var10;
-            var9 = var9.cardImageStreamPreview;
-            var5['style'] = var9;
             var11 = _closure1_slot0;
-            var8 = 34;
+            var9 = 24;
+            var9 = var12[var9];
+            var9 = var11.bind(var4)(var9);
+            var10 = var9.LiveTag;
+            var9 = {};
+            var14 = var8.cardImageStreamLive;
+            var9['style'] = var14;
+            var14 = var8.stageStreamLiveText;
+            var9['textStyle'] = var14;
+            var14 = false;
+            var9['allowFontScaling'] = var14;
+            var9 = var13.bind(var4)(var10, var9);
+            var5['children'] = var9;
+            var8 = var8.cardImageStreamPreview;
+            var5['style'] = var8;
+            var8 = 33;
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
             var10 = var9.intl;
@@ -451,7 +452,7 @@ case 43:
         var6 = var1.bind(var4)();
         var9 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var1 = 39;
+        var1 = 37;
         var1 = var10[var1];
         var2 = var9.bind(var4)(var1);
         var1 = var2.useLiveStageData;
@@ -464,7 +465,7 @@ case 43:
         var6 = var6.avatarStackContainer;
         var1['style'] = var6;
         var7 = _closure1_slot11;
-        var5 = 40;
+        var5 = 38;
         var5 = var10[var5];
         var5 = var9.bind(var4)(var5);
         var6 = var5.HappeningNowAvatarStack;
@@ -482,7 +483,7 @@ case 43:
         var5['userCount'] = var8;
         var8 = true;
         var5['isStage'] = var8;
-        var8 = 25;
+        var8 = 24;
         var8 = var10[var8];
         var8 = var9.bind(var4)(var8);
         var8 = var8.AvatarSizes;
@@ -750,7 +751,7 @@ case 61:
             };
             var22 = var8.bind(var16)(var6, var3);
             var6 = _closure1_slot1;
-            var3 = 27;
+            var3 = 26;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.bind(var4)(var10);
@@ -768,7 +769,7 @@ case 65:
 case 68:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 30;
+            var3 = 29;
             var3 = var7[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.bind(var4)(var10);
@@ -789,7 +790,7 @@ case 74:
 case 76:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 33;
+            var3 = 32;
             var3 = var8[var3];
             var3 = var6.bind(var4)(var3);
             var7 = var3.GameControllerIcon;
@@ -797,7 +798,7 @@ case 76:
 case 75:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 32;
+            var3 = 31;
             var3 = var8[var3];
             var3 = var6.bind(var4)(var3);
             var7 = var3.StageIcon;
@@ -805,7 +806,7 @@ case 75:
 case 69:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 31;
+            var3 = 30;
             var3 = var8[var3];
             var3 = var6.bind(var4)(var3);
             var7 = var3.XboxNeutralIcon;
@@ -813,7 +814,7 @@ case 69:
 case 67:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 29;
+            var3 = 28;
             var3 = var8[var3];
             var3 = var6.bind(var4)(var3);
             var7 = var3.MusicIcon;
@@ -821,7 +822,7 @@ case 67:
 case 63:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 28;
+            var3 = 27;
             var3 = var8[var3];
             var3 = var6.bind(var4)(var3);
             var7 = var3.SpotifyNeutralIcon;
@@ -1019,17 +1020,16 @@ case 96:
             var20 = var26.content;
             var17['style'] = var20;
             var31 = _closure1_slot11;
-            var25 = _closure1_slot1;
+            var25 = _closure1_slot0;
             var28 = _closure1_slot2;
-            var20 = 24;
-            var20 = var28[var20];
-            var27 = var25.bind(var4)(var20);
+            var33 = 24;
+            var20 = var28[var33];
+            var20 = var25.bind(var4)(var20);
+            var27 = var20.Avatar;
             var20 = {};
             var20['user'] = var12;
-            var25 = var12.avatarDecoration;
-            var20['avatarDecoration'] = var25;
-            var25 = _closure1_slot0;
-            var33 = 25;
+            var34 = var12.avatarDecoration;
+            var20['avatarDecoration'] = var34;
             var33 = var28[var33];
             var33 = var25.bind(var4)(var33);
             var33 = var33.AvatarSizes;
@@ -1055,7 +1055,7 @@ case 96:
             var24 = var31.bind(var4)(var27, var24);
             var20[1] = var24;
             var27 = _closure1_slot11;
-            var24 = 26;
+            var24 = 25;
             var24 = var28[var24];
             var24 = var25.bind(var4)(var24);
             var25 = var24.HappeningNowActivityCardSubtitle;
@@ -1165,7 +1165,7 @@ case 86:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 45;
+    var4 = 43;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

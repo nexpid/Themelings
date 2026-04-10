@@ -84,12 +84,13 @@ case 2:
     var _closure1_slot10 = var1;
     var1 = function ItemSeparator() {
         var4 = _closure1_slot5;
-        var2 = _closure1_slot1;
+        var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 6;
         var1 = var3[var1];
         var3 = undefined;
-        var2 = var2.bind(var3)(var1);
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.Spacer;
         var1 = {};
         var5 = 8;
         var1['size'] = var5;

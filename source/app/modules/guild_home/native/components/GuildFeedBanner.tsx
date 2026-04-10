@@ -543,11 +543,12 @@ case 20:
             if(!var16) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
             var20 = _closure1_slot11;
-            var18 = _closure1_slot1;
+            var18 = _closure1_slot0;
             var27 = _closure1_slot2;
             var16 = 26;
             var16 = var27[var16];
-            var18 = var18.bind(var4)(var16);
+            var16 = var18.bind(var4)(var16);
+            var18 = var16.Icon;
             var16 = {};
             var27 = var26.icon;
             var16['style'] = var27;
@@ -636,13 +637,14 @@ case 30:
             };
             var16['onPress'] = var21;
             var27 = _closure1_slot11;
-            var28 = _closure1_slot1;
             var21 = 26;
             var21 = var33[var21];
-            var24 = var28.bind(var4)(var21);
+            var21 = var32.bind(var4)(var21);
+            var24 = var21.Icon;
             var21 = {};
             var25 = var26.publicIcon;
             var21['style'] = var25;
+            var28 = _closure1_slot1;
             var25 = 30;
             var25 = var33[var25];
             var25 = var28.bind(var4)(var25);

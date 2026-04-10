@@ -112,13 +112,13 @@ case 2:
             var _closure2_slot4 = var1;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 25;
+            var1 = 24;
             var1 = var3[var1];
             var7 = var2.bind(var4)(var1);
             var1 = var7.useGetOrFetchCollectiblesCategoriesAndPurchases;
             var1 = var1.bind(var7)();
             var7 = _closure1_slot1;
-            var1 = 26;
+            var1 = 25;
             var1 = var3[var1];
             var1 = var7.bind(var4)(var1);
             var11 = var1.bind(var4)();
@@ -148,7 +148,7 @@ case 4:
                 }
             };
             var7 = var8.bind(var10)(var7, var1);
-            var1 = 27;
+            var1 = 26;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.getProfilePreviewValue;
@@ -197,7 +197,7 @@ case 10:
             var12 = _closure1_slot11;
             var8 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var7 = 28;
+            var7 = 27;
             var7 = var16[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -244,7 +244,7 @@ case 12:
                 var5 = _closure1_slot11;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 29;
+                var1 = 28;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -286,7 +286,7 @@ case 0:
             var5 = var2.bind(var4)();
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 30;
+            var2 = 29;
             var2 = var7[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.bind(var4)(var3);
@@ -385,7 +385,7 @@ case 23:
             var8 = _closure1_slot11;
             var7 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var5 = 31;
+            var5 = 30;
             var5 = var13[var5];
             var6 = var7.bind(var4)(var5);
             var5 = {};
@@ -394,7 +394,7 @@ case 23:
             var5['pendingAvatarSrc'] = var10;
             var5['pendingAvatarDecoration'] = var9;
             var15 = _closure1_slot0;
-            var14 = 32;
+            var14 = 31;
             var14 = var13[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.AvatarSizes;
@@ -403,7 +403,7 @@ case 23:
             var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
-            var6 = 33;
+            var6 = 32;
             var6 = var13[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -419,7 +419,7 @@ case 23:
         }
     };
     var _closure1_slot16 = var5;
-    var5 = 34;
+    var5 = 33;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -452,7 +452,7 @@ case 0:
                 var1 = var1.isFetching;
                 return var1;
             };
-            var15 = var7.bind(var9)(var5, var3);
+            var16 = var7.bind(var9)(var5, var3);
             var3 = _closure1_slot1;
             var5 = 11;
             var5 = var2[var5];
@@ -502,12 +502,12 @@ case 25:
 case 24:
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var16 = 15;
-            var2 = var13[var16];
+            var17 = 15;
+            var2 = var13[var17];
             var2 = var8.bind(var4)(var2);
             var2 = var2.EDIT_AVATAR_DECORATION_SHEET;
             var2 = var3.bind(var4)(var6, var2);
-            var17 = var2.analyticsLocations;
+            var15 = var2.analyticsLocations;
             var6 = _closure1_slot4;
             var8 = var6.useCallback;
             var3 = new Array(1);
@@ -582,7 +582,7 @@ case 28:
             var5 = var12.bind(var4)(var5);
             var6 = var5.AnalyticsLocationProvider;
             var5 = {};
-            var5['value'] = var17;
+            var5['value'] = var15;
             var9 = _closure1_slot13;
             var7 = 18;
             var7 = var13[var7];
@@ -607,11 +607,11 @@ case 28:
             var24 = var3.bind(var4)(var24, var13);
             var13 = new Array(2);
             var13[0] = var24;
-            if(var15) { _fun0005_ip = 29; continue _fun0005 }
+            if(var16) { _fun0005_ip = 29; continue _fun0005 }
 case 30:
             var25 = _closure1_slot13;
             var24 = _closure1_slot12;
-            var15 = {};
+            var16 = {};
             var29 = _closure1_slot11;
             var35 = _closure1_slot0;
             var36 = _closure1_slot2;
@@ -646,8 +646,8 @@ case 30:
             var27['isTryItOut'] = var19;
             var27 = var29.bind(var4)(var28, var27);
             var26[1] = var27;
-            var15['children'] = var26;
-            var15 = var25.bind(var4)(var24, var15);
+            var16['children'] = var26;
+            var16 = var25.bind(var4)(var24, var16);
             _fun0005_ip = 31; continue _fun0005;
 case 29:
             var26 = _closure1_slot11;
@@ -661,14 +661,14 @@ case 29:
             var27 = {'animating': true, 'size': 'large'};
             var27 = var26.bind(var4)(var28, var27);
             var24['children'] = var27;
-            var15 = var26.bind(var4)(var25, var24);
+            var16 = var26.bind(var4)(var25, var24);
 case 31:
-            var13[1] = var15;
+            var13[1] = var16;
             var10['children'] = var13;
             var12 = var9.bind(var4)(var12, var10);
             var10 = new Array(3);
             var10[0] = var12;
-            var15 = _closure1_slot11;
+            var16 = _closure1_slot11;
             var13 = _closure1_slot1;
             var24 = _closure1_slot2;
             var12 = 22;
@@ -692,27 +692,23 @@ case 34:
             var12['selectedSkuId'] = var20;
             var12['isTryItOut'] = var19;
             var12['onApply'] = var18;
-            var12['analyticsLocations'] = var17;
+            var12['analyticsLocations'] = var15;
             var18 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var16 = var17[var16];
-            var16 = var18.bind(var4)(var16);
-            var16 = var16.EDIT_AVATAR_DECORATION_SHEET;
-            var12['analyticsSource'] = var16;
-            var12 = var15.bind(var4)(var13, var12);
+            var15 = _closure1_slot2;
+            var17 = var15[var17];
+            var17 = var18.bind(var4)(var17);
+            var17 = var17.EDIT_AVATAR_DECORATION_SHEET;
+            var12['analyticsSource'] = var17;
+            var12 = var16.bind(var4)(var13, var12);
             var10[1] = var12;
             var13 = _closure1_slot11;
-            var16 = _closure1_slot0;
+            var12 = _closure1_slot0;
             var11 = 23;
-            var11 = var17[var11];
-            var11 = var16.bind(var4)(var11);
+            var11 = var15[var11];
+            var11 = var12.bind(var4)(var11);
             var12 = var11.ActionSheetHeaderBar;
             var11 = {};
-            var15 = 24;
-            var15 = var17[var15];
-            var15 = var16.bind(var4)(var15);
-            var15 = var15.ActionSheetHeaderBarVariants;
-            var15 = var15.FLOATING;
+            var15 = 'floating';
             var11['variant'] = var15;
             var11['onPress'] = var14;
             var11 = var13.bind(var4)(var12, var11);

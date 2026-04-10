@@ -15,7 +15,7 @@ case 0:
             var _closure2_slot0 = var18;
             var1 = _closure1_slot9;
             var5 = undefined;
-            var10 = var1.bind(var5)();
+            var9 = var1.bind(var5)();
             var16 = null;
             var1 = null;
             if(!(var5 !== var18)) { _fun0001_ip = 2; continue _fun0001 }
@@ -35,18 +35,18 @@ case 3:
             var6 = var14.bind(var5)(var6);
             var7 = var6.PressableOpacity;
             var6 = {};
-            var12 = 'button';
-            var6['accessibilityRole'] = var12;
-            var12 = 9;
-            var12 = var17[var12];
-            var12 = var14.bind(var5)(var12);
-            var15 = var12.intl;
+            var11 = 'button';
+            var6['accessibilityRole'] = var11;
+            var11 = 9;
+            var11 = var17[var11];
+            var11 = var14.bind(var5)(var11);
+            var15 = var11.intl;
             var14 = var15.formatToPlainString;
-            var12 = 10;
-            var12 = var17[var12];
-            var12 = var13.bind(var5)(var12);
-            var13 = var12.T7DUoU;
-            var12 = {};
+            var11 = 10;
+            var11 = var17[var11];
+            var11 = var13.bind(var5)(var11);
+            var13 = var11.T7DUoU;
+            var11 = {};
             var17 = var16 == var18;
             var16 = undefined;
             if(var17) { _fun0001_ip = 4; continue _fun0001 }
@@ -54,10 +54,10 @@ case 5:
             var17 = var18.toString;
             var16 = var17.bind(var18)();
 case 4:
-            var12['name'] = var16;
-            var12 = var14.bind(var15)(var13, var12);
-            var6['accessibilityLabel'] = var12;
-            var11 = function onPress() {
+            var11['name'] = var16;
+            var11 = var14.bind(var15)(var13, var11);
+            var6['accessibilityLabel'] = var11;
+            var10 = function onPress() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 15;
@@ -79,23 +79,26 @@ case 4:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var6['onPress'] = var11;
-            var10 = var10.actionButton;
-            var6['style'] = var10;
+            var6['onPress'] = var10;
+            var9 = var9.actionButton;
+            var6['style'] = var9;
             var11 = _closure1_slot6;
-            var13 = _closure1_slot1;
+            var15 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var12 = 18;
-            var9 = var14[var12];
-            var10 = var13.bind(var5)(var9);
+            var13 = 18;
+            var9 = var14[var13];
+            var9 = var15.bind(var5)(var9);
+            var10 = var9.Icon;
             var9 = {};
-            var12 = var14[var12];
-            var12 = var13.bind(var5)(var12);
-            var12 = var12.Sizes;
-            var12 = var12.SMALL;
-            var9['size'] = var12;
-            var12 = true;
-            var9['disableColor'] = var12;
+            var13 = var14[var13];
+            var13 = var15.bind(var5)(var13);
+            var13 = var13.Icon;
+            var13 = var13.Sizes;
+            var13 = var13.SMALL;
+            var9['size'] = var13;
+            var13 = true;
+            var9['disableColor'] = var13;
+            var13 = _closure1_slot1;
             var12 = 19;
             var12 = var14[var12];
             var12 = var13.bind(var5)(var12);

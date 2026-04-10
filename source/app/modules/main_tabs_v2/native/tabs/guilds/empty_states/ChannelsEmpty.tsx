@@ -274,11 +274,12 @@ case 12:
             var9 = var23.bind(var4)(var9);
             var12 = var9.RowButton;
             var9 = {};
-            var25 = _closure1_slot1;
             var19 = 18;
             var19 = var17[var19];
-            var20 = var25.bind(var4)(var19);
+            var19 = var23.bind(var4)(var19);
+            var20 = var19.Icon;
             var19 = {};
+            var25 = _closure1_slot1;
             var24 = 19;
             var24 = var17[var24];
             var24 = var25.bind(var4)(var24);

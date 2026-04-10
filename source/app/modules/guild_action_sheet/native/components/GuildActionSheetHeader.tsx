@@ -94,10 +94,10 @@ case 2:
             };
             var1['onPress'] = var5;
             var8 = _closure1_slot10;
-            var7 = _closure1_slot1;
             var5 = 17;
             var5 = var9[var5];
-            var7 = var7.bind(var4)(var5);
+            var5 = var12.bind(var4)(var5);
+            var7 = var5.Icon;
             var5 = {};
             var11 = var11.communityPillIcon;
             var5['style'] = var11;
@@ -565,11 +565,12 @@ case 30:
             if(!var2) { _fun0002_ip = 31; continue _fun0002 }
 case 32:
             var5 = _closure1_slot10;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 17;
             var2 = var8[var2];
-            var3 = var3.bind(var4)(var2);
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.Icon;
             var2 = {};
             var8 = var23.icon;
             var2['style'] = var8;
@@ -847,13 +848,14 @@ case 53:
             };
             var15['onPress'] = var18;
             var22 = _closure1_slot10;
-            var24 = _closure1_slot1;
             var18 = 17;
             var18 = var26[var18];
-            var21 = var24.bind(var4)(var18);
+            var18 = var25.bind(var4)(var18);
+            var21 = var18.Icon;
             var18 = {};
             var23 = var23.publicIcon;
             var18['style'] = var23;
+            var24 = _closure1_slot1;
             var23 = 34;
             var23 = var26[var23];
             var23 = var24.bind(var4)(var23);

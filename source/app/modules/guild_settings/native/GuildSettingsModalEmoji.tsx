@@ -296,14 +296,14 @@ case 25:
             var11[0] = var6;
             var9 = function() {
                 var4 = _closure1_slot9;
-                var2 = _closure1_slot1;
+                var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var1 = 18;
                 var1 = var9[var1];
                 var3 = undefined;
-                var2 = var2.bind(var3)(var1);
+                var1 = var8.bind(var3)(var1);
+                var2 = var1.EmptyState;
                 var1 = {};
-                var8 = _closure1_slot0;
                 var5 = 19;
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);

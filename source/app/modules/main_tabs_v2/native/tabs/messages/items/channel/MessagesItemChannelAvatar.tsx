@@ -305,10 +305,11 @@ case 26:
             if(!var3) { _fun0002_ip = 27; continue _fun0002 }
 case 28:
             var11 = _closure1_slot9;
-            var4 = _closure1_slot1;
+            var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var18];
-            var4 = var4.bind(var5)(var3);
+            var3 = var4.bind(var5)(var3);
+            var4 = var3.Avatar;
             var3 = {};
             var3['user'] = var16;
             var18 = var16.avatarDecoration;

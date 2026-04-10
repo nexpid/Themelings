@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var15 = var2.label;
+            var13 = var2.label;
             var11 = var2.count;
             var6 = var2.collapsed;
             var _closure2_slot0 = var6;
@@ -141,7 +141,7 @@ case 2:
             var1['__workletHash'] = var5;
             var5 = _closure1_slot8;
             var1['__initData'] = var5;
-            var14 = var2.bind(var3)(var1);
+            var15 = var2.bind(var3)(var1);
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
@@ -159,9 +159,9 @@ case 2:
             var9 = var8.Text;
             var8 = {'variant': 'text-md/semibold', 'color': 'always-white', 'accessibilityRole': 'header'};
             var10 = new Array(3);
-            var10[0] = var15;
-            var15 = ' — ';
-            var10[1] = var15;
+            var10[0] = var13;
+            var13 = ' — ';
+            var10[1] = var13;
             var10[2] = var11;
             var8['children'] = var10;
             var9 = var7.bind(var4)(var9, var8);
@@ -171,30 +171,32 @@ case 2:
             var9 = var9 != var17;
             if(!var9) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = _closure1_slot6;
+            var13 = _closure1_slot6;
             var11 = _closure1_slot4;
             var10 = {};
             var18 = var16.children;
             var10['style'] = var18;
             var10['children'] = var17;
-            var9 = var15.bind(var4)(var11, var10);
+            var9 = var13.bind(var4)(var11, var10);
 case 4:
             var8[1] = var9;
             var11 = _closure1_slot6;
             var10 = _closure1_slot4;
             var9 = {};
-            var15 = var16.collapseButton;
-            var9['style'] = var15;
+            var13 = var16.collapseButton;
+            var9['style'] = var13;
             var18 = _closure1_slot1;
             var19 = _closure1_slot2;
             var12 = var19[var12];
             var12 = var18.bind(var4)(var12);
             var13 = var12.View;
             var12 = {};
-            var12['style'] = var14;
+            var12['style'] = var15;
+            var15 = _closure1_slot0;
             var14 = 8;
             var14 = var19[var14];
-            var15 = var18.bind(var4)(var14);
+            var14 = var15.bind(var4)(var14);
+            var15 = var14.Icon;
             var14 = {};
             var17 = 9;
             var17 = var19[var17];

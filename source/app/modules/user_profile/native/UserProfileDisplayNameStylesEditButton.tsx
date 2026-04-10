@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['newBadge'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 25;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -314,13 +314,15 @@ case 9:
                     _fun0003_ip = 12; continue _fun0003;
 case 11:
                     var5 = _closure1_slot10;
-                    var8 = _closure1_slot1;
+                    var3 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var2 = 18;
                     var2 = var9[var2];
                     var4 = undefined;
-                    var3 = var8.bind(var4)(var2);
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.Icon;
                     var2 = {};
+                    var8 = _closure1_slot1;
                     var7 = 19;
                     var7 = var9[var7];
                     var7 = var8.bind(var4)(var7);
@@ -405,7 +407,7 @@ case 20:
             var13['aria-hidden'] = var16;
             var22 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var16 = 24;
+            var16 = 18;
             var16 = var19[var16];
             var16 = var22.bind(var4)(var16);
             var17 = var16.TextBadge;

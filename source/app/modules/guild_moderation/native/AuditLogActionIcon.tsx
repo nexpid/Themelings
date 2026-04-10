@@ -118,11 +118,12 @@ case 16:
             var7 = var11.bind(var4)(var8, var7);
             var5[1] = var7;
             var8 = _closure1_slot8;
-            var7 = _closure1_slot1;
+            var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var6 = 29;
             var6 = var11[var6];
-            var7 = var7.bind(var4)(var6);
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.Icon;
             var6 = {};
             var10 = var10.actionImage;
             var6['style'] = var10;

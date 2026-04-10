@@ -223,7 +223,7 @@ case 25:
                             var12 = _closure1_slot11;
                             var11 = var12.CHANNEL;
                             var10 = var5.guild_id;
-                            var5 = _closure1_slot12;
+                            var5 = _closure1_slot13;
                             var5 = var5.ROLE_SUBSCRIPTIONS;
                             var5 = var11.bind(var12)(var10, var5);
                             var3 = var8.bind(var9)(var5);
@@ -402,12 +402,12 @@ case 32:
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.StaticChannelRoute;
+    var4 = var4.getThemedRippleConfig;
     var _closure1_slot12 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.getThemedRippleConfig;
+    var4 = var4.StaticChannelRoute;
     var _closure1_slot13 = var4;
     var4 = 11;
     var4 = var6[var4];
@@ -694,7 +694,7 @@ case 49:
             var28[1] = var35;
             var1['style'] = var28;
             var1['underlayColor'] = var36;
-            var35 = _closure1_slot13;
+            var35 = _closure1_slot12;
             var28 = {};
             var28['color'] = var36;
             var28 = var35.bind(var3)(var28);

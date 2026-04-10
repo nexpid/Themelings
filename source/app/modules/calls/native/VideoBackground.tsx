@@ -276,11 +276,12 @@ case 25:
             var8[3] = var9;
             var2['style'] = var8;
             var9 = _closure1_slot9;
-            var8 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var15 = _closure1_slot2;
             var6 = 11;
             var6 = var15[var6];
-            var8 = var8.bind(var5)(var6);
+            var6 = var8.bind(var5)(var6);
+            var8 = var6.Avatar;
             var6 = {};
             var6['source'] = var13;
             var19 = var6;

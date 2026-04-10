@@ -51,12 +51,12 @@ case 0:
             var1 = arg1;
             var9 = var1.userRecord;
             var _closure2_slot0 = var9;
-            var7 = _closure1_slot1;
+            var2 = _closure1_slot1;
             var12 = _closure1_slot2;
             var1 = 4;
             var1 = var12[var1];
             var4 = undefined;
-            var1 = var7.bind(var4)(var1);
+            var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var1 = var1.analyticsLocations;
             var _closure2_slot1 = var1;
@@ -69,7 +69,8 @@ case 0:
             var1 = {'icon': null, 'label': null, 'subLabel': null, 'labelLineClamp': 1, 'subLabelLineClamp': 1, 'accessibilityRole': 'button'};
             var10 = 6;
             var6 = var12[var10];
-            var7 = var7.bind(var4)(var6);
+            var6 = var11.bind(var4)(var6);
+            var7 = var6.Avatar;
             var6 = {};
             var6['user'] = var9;
             var6['guildId'] = var4;

@@ -239,21 +239,24 @@ case 0:
                     if(!(var3 === var2)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                     var4 = _closure1_slot8;
-                    var7 = _closure1_slot1;
+                    var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var6 = 15;
                     var2 = var8[var6];
-                    var3 = var7.bind(var5)(var2);
+                    var2 = var7.bind(var5)(var2);
+                    var3 = var2.GradientBorder;
                     var2 = {};
                     var9 = 2;
                     var2['borderWidth'] = var9;
                     var6 = var8[var6];
                     var6 = var7.bind(var5)(var6);
+                    var6 = var6.GradientBorder;
                     var6 = var6.Direction;
                     var6 = var6.VERTICAL;
                     var2['direction'] = var6;
                     var6 = _closure1_slot10;
                     var2['colors'] = var6;
+                    var7 = _closure1_slot1;
                     var6 = 8;
                     var6 = var8[var6];
                     var6 = var7.bind(var5)(var6);

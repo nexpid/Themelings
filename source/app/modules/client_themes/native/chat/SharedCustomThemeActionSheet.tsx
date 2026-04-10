@@ -222,12 +222,13 @@ case 4:
             var2['onPress'] = var8;
             var7 = function renderIcon() {
                 var4 = _closure1_slot12;
-                var2 = _closure1_slot1;
+                var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 24;
+                var1 = 23;
                 var1 = var3[var1];
                 var3 = undefined;
-                var2 = var2.bind(var3)(var1);
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.NitroWheel;
                 var1 = {};
                 var5 = _closure2_slot0;
                 var6 = var5.nitroWheelButton;
@@ -257,7 +258,7 @@ case 3:
 case 2:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 25;
+            var2 = 24;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.getBaseTheme;
@@ -267,7 +268,7 @@ case 2:
         }
     };
     var _closure1_slot17 = var4;
-    var4 = 26;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

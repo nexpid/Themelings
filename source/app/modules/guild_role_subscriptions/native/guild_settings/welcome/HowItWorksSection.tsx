@@ -195,7 +195,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = _closure1_slot4;
         var15 = 9;
         var15 = var11[var15];
-        var16 = var10.bind(var4)(var15);
+        var15 = var14.bind(var4)(var15);
+        var16 = var15.Spacer;
         var15 = {};
         var18 = 12;
         var15['size'] = var18;

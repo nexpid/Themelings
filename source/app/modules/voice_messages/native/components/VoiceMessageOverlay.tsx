@@ -561,7 +561,7 @@ case 18:
                 var3 = var3.bind(var4)();
                 var1['opacity'] = var3;
                 var3 = _closure2_slot0;
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot14;
                 var3 = var3 + var2;
                 var2 = 24;
                 var3 = var3 + var2;
@@ -576,7 +576,7 @@ case 18:
             var6 = {};
             var6['initialAnimation'] = var11;
             var6['safeAreaBottom'] = var7;
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot14;
             var6['CHAT_INPUT_HEIGHT'] = var7;
             var7 = 32;
             var6['LOCK_PILL_BOTTOM_OFFSET'] = var7;
@@ -693,14 +693,14 @@ case 18:
     var2 = 8;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var10 = var2.CHAT_INPUT_HEIGHT;
-    var _closure1_slot13 = var10;
-    var2 = var2.CHAT_INPUT_HORIZONTAL_PADDING;
-    var _closure1_slot14 = var2;
+    var2 = var2.ANDROID_FOREGROUND_RIPPLE;
+    var _closure1_slot13 = var2;
     var2 = 9;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var2 = var2.ANDROID_FOREGROUND_RIPPLE;
+    var10 = var2.CHAT_INPUT_HEIGHT;
+    var _closure1_slot14 = var10;
+    var2 = var2.CHAT_INPUT_HORIZONTAL_PADDING;
     var _closure1_slot15 = var2;
     var2 = 10;
     var2 = var7[var2];
@@ -717,7 +717,8 @@ case 18:
     var11 = var12.createAnimatedComponent;
     var10 = 12;
     var10 = var7[var10];
-    var10 = var9.bind(var1)(var10);
+    var10 = var6.bind(var1)(var10);
+    var10 = var10.Icon;
     var10 = var11.bind(var12)(var10);
     var _closure1_slot19 = var10;
     var10 = var7[var2];
@@ -779,7 +780,7 @@ case 18:
         var2[2] = var4;
         var1['container'] = var2;
         var2 = {'flexDirection': 'row', 'alignItems': 'flex-end', 'paddingTop': 8, 'paddingHorizontal': null, 'paddingBottom': 9};
-        var8 = _closure1_slot14;
+        var8 = _closure1_slot15;
         var2['paddingHorizontal'] = var8;
         var1['innerContainer'] = var2;
         var9 = 'absolute';
@@ -2205,7 +2206,7 @@ case 55:
             var1 = function le() {
                 var2 = _closure2_slot2;
                 var2 = var2.bottom;
-                var3 = _closure1_slot13;
+                var3 = _closure1_slot14;
                 var4 = _closure2_slot5;
                 var1 = var4.get;
                 var4 = var1.bind(var4)();
@@ -2219,7 +2220,7 @@ case 55:
             };
             var5 = {};
             var5['insetsNoKeyboard'] = var7;
-            var8 = _closure1_slot13;
+            var8 = _closure1_slot14;
             var5['CHAT_INPUT_HEIGHT'] = var8;
             var5['recordingAnimation'] = var17;
             var1['__closure'] = var5;
@@ -2234,7 +2235,7 @@ case 55:
             var1 = function ce() {
                 var1 = _closure2_slot2;
                 var2 = var1.bottom;
-                var3 = _closure1_slot13;
+                var3 = _closure1_slot14;
                 var1 = 1.6;
                 var1 = var1 * var3;
                 var1 = var2 + var1;
@@ -2242,7 +2243,7 @@ case 55:
             };
             var5 = {};
             var5['insetsNoKeyboard'] = var7;
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot14;
             var5['CHAT_INPUT_HEIGHT'] = var7;
             var1['__closure'] = var5;
             var5 = 5416150236821.0;
@@ -2320,7 +2321,7 @@ case 55:
             var22[0] = var28;
             var22[1] = var23;
             var17['style'] = var22;
-            var28 = _closure1_slot15;
+            var28 = _closure1_slot13;
             var17['androidRippleConfig'] = var28;
             var23 = 'button';
             var17['accessibilityRole'] = var23;
@@ -2376,7 +2377,8 @@ case 55:
             var33['source'] = var26;
             var26 = 12;
             var36 = var30[var26];
-            var36 = var25.bind(var4)(var36);
+            var36 = var29.bind(var4)(var36);
+            var36 = var36.Icon;
             var36 = var36.Sizes;
             var36 = var36.MEDIUM;
             var33['size'] = var36;
@@ -2458,10 +2460,11 @@ case 56:
 case 58:
             var24 = var25.bind(var4)(var24);
             var21['source'] = var24;
-            var25 = _closure1_slot1;
+            var25 = _closure1_slot0;
             var24 = _closure1_slot2;
             var24 = var24[var26];
             var24 = var25.bind(var4)(var24);
+            var24 = var24.Icon;
             var24 = var24.Sizes;
             var24 = var24.MEDIUM;
             var21['size'] = var24;

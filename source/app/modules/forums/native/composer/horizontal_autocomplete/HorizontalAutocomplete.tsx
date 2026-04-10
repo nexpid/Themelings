@@ -199,7 +199,7 @@ case 0:
             var1 = arg1;
             var15 = var1.user;
             var13 = var1.nick;
-            var10 = var1.status;
+            var16 = var1.status;
             var9 = var1.guildId;
             var5 = var1.onPress;
             var1 = _closure1_slot12;
@@ -210,17 +210,17 @@ case 0:
             var1 = {};
             var1['onPress'] = var5;
             var7 = _closure1_slot10;
-            var6 = _closure1_slot1;
+            var10 = _closure1_slot0;
             var8 = _closure1_slot2;
             var11 = 14;
             var5 = var8[var11];
-            var6 = var6.bind(var4)(var5);
+            var5 = var10.bind(var4)(var5);
+            var6 = var5.Avatar;
             var5 = {};
-            var5['status'] = var10;
-            var10 = var14.status;
-            var5['statusStyle'] = var10;
+            var5['status'] = var16;
+            var16 = var14.status;
+            var5['statusStyle'] = var16;
             var5['user'] = var15;
-            var10 = _closure1_slot0;
             var11 = var8[var11];
             var11 = var10.bind(var4)(var11);
             var11 = var11.AvatarSizes;
@@ -384,7 +384,7 @@ case 6:
             var8 = _closure1_slot10;
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var6 = 20;
+            var6 = 14;
             var6 = var12[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.LegacyText;
@@ -454,30 +454,30 @@ case 0:
 case 13:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 22;
+            var1 = 21;
             var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.getChannelIconWithGuild;
-            var7 = var1.bind(var2)(var12, var3);
+            var8 = var1.bind(var2)(var12, var3);
             _fun0003_ip = 14; continue _fun0003;
 case 12:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 21;
+            var1 = 20;
             var1 = var3[var1];
-            var7 = var2.bind(var4)(var1);
+            var8 = var2.bind(var4)(var1);
 case 14:
             var3 = _closure1_slot10;
-            var2 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var1 = 23;
-            var1 = var11[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = {};
-            var1['source'] = var7;
-            var8 = var3.bind(var4)(var2, var1);
             var7 = _closure1_slot0;
-            var1 = 24;
+            var11 = _closure1_slot2;
+            var1 = 14;
+            var1 = var11[var1];
+            var1 = var7.bind(var4)(var1);
+            var2 = var1.Icon;
+            var1 = {};
+            var1['source'] = var8;
+            var8 = var3.bind(var4)(var2, var1);
+            var1 = 22;
             var1 = var11[var1];
             var9 = var7.bind(var4)(var1);
             var3 = var9.computeChannelName;
@@ -526,7 +526,7 @@ case 16:
             var3 = _closure1_slot10;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 20;
+            var1 = 14;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.LegacyText;
@@ -546,7 +546,7 @@ case 15:
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 25;
+            var1 = 23;
             var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -598,7 +598,7 @@ case 17:
         }
     };
     var2['Emoji'] = var4;
-    var4 = 26;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

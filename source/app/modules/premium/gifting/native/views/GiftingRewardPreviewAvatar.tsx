@@ -5,8 +5,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -23,16 +22,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -44,17 +43,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var5 = arg1;
             var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot1;
             var3 = 4;
             var8 = var7[var3];
             var4 = undefined;
             var11 = var6.bind(var4)(var8);
             var10 = var11.useStateFromStores;
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot3;
             var9 = new Array(1);
             var9[0] = var8;
             var8 = function() {
-                var2 = _closure1_slot4;
+                var2 = _closure1_slot3;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -63,11 +62,11 @@ case 0:
             var3 = var7[var3];
             var7 = var6.bind(var4)(var3);
             var6 = var7.useStateFromStores;
-            var9 = _closure1_slot3;
+            var9 = _closure1_slot2;
             var3 = new Array(1);
             var3[0] = var9;
             var2 = function() {
-                var1 = _closure1_slot3;
+                var1 = _closure1_slot2;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
@@ -83,12 +82,13 @@ case 3:
             var2['asset'] = var3;
             var7 = var2;
 case 2:
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot1;
             var1 = 5;
             var1 = var9[var1];
-            var2 = var2.bind(var4)(var1);
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Avatar;
             var1 = {};
             var1['user'] = var8;
             var1['guildId'] = var4;

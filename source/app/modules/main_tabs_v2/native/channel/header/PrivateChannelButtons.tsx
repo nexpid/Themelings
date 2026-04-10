@@ -973,12 +973,13 @@ case 85:
                     return var2;
 case 84:
                     var5 = _closure1_slot18;
-                    var3 = _closure1_slot1;
+                    var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var12 = 13;
                     var2 = var2[var12];
                     var4 = undefined;
-                    var3 = var3.bind(var4)(var2);
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.CutoutableAvatarImage;
                     var2 = {};
                     var10 = {};
                     var11 = -6;

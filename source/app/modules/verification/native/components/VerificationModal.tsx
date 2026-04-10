@@ -15,13 +15,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var9 = var1.bind(var4)();
         var3 = _closure1_slot11;
-        var2 = _closure1_slot1;
+        var15 = _closure1_slot0;
         var16 = _closure1_slot2;
         var1 = 9;
         var1 = var16[var1];
-        var2 = var2.bind(var4)(var1);
+        var1 = var15.bind(var4)(var1);
+        var2 = var1.EmptyState;
         var1 = {};
-        var15 = _closure1_slot0;
         var5 = 10;
         var5 = var16[var5];
         var5 = var15.bind(var4)(var5);

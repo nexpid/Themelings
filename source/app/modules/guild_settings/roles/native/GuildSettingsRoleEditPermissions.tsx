@@ -409,13 +409,13 @@ case 14:
             var9 = _closure1_slot14;
             if(var6) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var8 = _closure1_slot1;
+            var15 = _closure1_slot0;
             var19 = _closure1_slot3;
             var6 = 26;
             var6 = var19[var6];
-            var8 = var8.bind(var4)(var6);
+            var6 = var15.bind(var4)(var6);
+            var8 = var6.EmptyState;
             var6 = {};
-            var15 = _closure1_slot0;
             var16 = 27;
             var16 = var19[var16];
             var16 = var15.bind(var4)(var16);

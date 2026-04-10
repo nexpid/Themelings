@@ -3,6 +3,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -16,17 +18,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var _closure1_slot0 = var4;
+    var _closure1_slot2 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.WishlistRecommendationReason;
-    var _closure1_slot1 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.SKUProductLines;
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -43,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var9;
         var6 = var4.numItems;
         var _closure2_slot3 = var6;
-        var5 = _closure1_slot0;
+        var5 = _closure1_slot2;
         var7 = var5.useMemo;
         var4 = new Array(1);
         var4[0] = var1;
@@ -51,11 +48,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure2_slot0;
             var2 = var3.filter;
             var1 = function(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var3 = var1.GIFTABLE_PRODUCT_LINES;
+                var2 = var3.has;
                 var1 = arg1;
-                var2 = var1.productLine;
-                var1 = _closure1_slot2;
-                var1 = var1.COLLECTIBLES;
-                var1 = var2 === var1;
+                var1 = var1.productLine;
+                var1 = var2.bind(var3)(var1);
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -88,7 +91,7 @@ case 3:
                     var3 = var4[var3];
                     var2 = _closure2_slot2;
                     var3 = var3[var2];
-                    var2 = _closure1_slot1;
+                    var2 = _closure1_slot3;
                     var2 = var2.WISHLIST;
                     var1 = var3 === var2;
 case 2:

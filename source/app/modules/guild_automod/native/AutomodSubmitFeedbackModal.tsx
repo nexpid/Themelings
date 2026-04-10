@@ -70,8 +70,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var1.onSubmit;
         var1 = _closure1_slot9;
         var4 = undefined;
-        var10 = var1.bind(var4)();
-        var _closure2_slot2 = var10;
+        var9 = var1.bind(var4)();
+        var _closure2_slot2 = var9;
         var16 = _closure1_slot0;
         var17 = _closure1_slot2;
         var1 = 11;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = _closure1_slot8;
         var2 = _closure1_slot5;
         var1 = {};
-        var5 = var10.container;
+        var5 = var9.container;
         var1['style'] = var5;
         var7 = _closure1_slot7;
         var5 = 14;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var16.bind(var4)(var5);
         var6 = var5.LegacyText;
         var5 = {};
-        var8 = var10.headerTitle;
+        var8 = var9.headerTitle;
         var5['style'] = var8;
         var13 = 9;
         var8 = var17[var13];
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var16.bind(var4)(var6);
         var7 = var6.Text;
         var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
-        var14 = var10.headerSubtitle;
+        var14 = var9.headerSubtitle;
         var6['style'] = var14;
         var14 = var17[var13];
         var14 = var16.bind(var4)(var14);
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = _closure1_slot7;
         var7 = _closure1_slot5;
         var6 = {};
-        var14 = var10.formBody;
+        var14 = var9.formBody;
         var6['style'] = var14;
         var14 = var18.map;
         var11 = function(arg1, arg2) {
@@ -187,7 +187,7 @@ case 0:
                 };
                 var6['onPress'] = var7;
                 var15 = _closure1_slot7;
-                var7 = 16;
+                var7 = 14;
                 var7 = var14[var7];
                 var7 = var12.bind(var1)(var7);
                 var14 = var7.RadioIndicator;
@@ -236,17 +236,16 @@ case 2:
         var8 = _closure1_slot7;
         var7 = _closure1_slot5;
         var6 = {};
-        var11 = var10.submitButtonContainer;
-        var10 = new Array(2);
-        var10[0] = var11;
-        var11 = {};
-        var14 = 16;
-        var14 = var15 + var14;
-        var11['paddingBottom'] = var14;
-        var10[1] = var11;
-        var6['style'] = var10;
+        var9 = var9.submitButtonContainer;
+        var11 = new Array(2);
+        var11[0] = var9;
+        var14 = {};
+        var9 = 16;
+        var15 = var15 + var9;
+        var14['paddingBottom'] = var15;
+        var11[1] = var14;
+        var6['style'] = var11;
         var11 = _closure1_slot7;
-        var9 = 17;
         var9 = var17[var9];
         var9 = var16.bind(var4)(var9);
         var10 = var9.Button;
@@ -373,7 +372,7 @@ case 2:
     var4['submitButtonContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -434,7 +433,7 @@ case 2:
             var2 = function onSubmit() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 18;
+                var1 = 17;
                 var3 = var3[var1];
                 var1 = undefined;
                 var6 = var4.bind(var1)(var3);
@@ -510,7 +509,7 @@ case 2:
         };
         var6 = var8.bind(var9)(var3, var6);
         var3 = _closure1_slot7;
-        var1 = 19;
+        var1 = 18;
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Navigator;

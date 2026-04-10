@@ -924,13 +924,14 @@ case 32:
                 var17['arrow'] = var21;
                 var21 = var15.handleChannelChange;
                 var17['onPress'] = var21;
-                var31 = _closure1_slot1;
                 var27 = 32;
                 var21 = var30[var27];
-                var22 = var31.bind(var4)(var21);
+                var21 = var28.bind(var4)(var21);
+                var22 = var21.Icon;
                 var21 = {};
                 var27 = var30[var27];
-                var27 = var31.bind(var4)(var27);
+                var27 = var28.bind(var4)(var27);
+                var27 = var27.Icon;
                 var27 = var27.Sizes;
                 var27 = var27.CUSTOM;
                 var21['size'] = var27;

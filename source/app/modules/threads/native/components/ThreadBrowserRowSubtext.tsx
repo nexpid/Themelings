@@ -360,7 +360,7 @@ case 21:
             var11 = _closure1_slot9;
             var8 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var5 = 24;
+            var5 = 21;
             var5 = var16[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.RoleDot;
@@ -381,7 +381,7 @@ case 20:
             var6 = var14.bind(var4)(var6);
             var7 = var6.Text;
             var6 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
-            var11 = 25;
+            var11 = 24;
             var11 = var15[var11];
             var14 = var14.bind(var4)(var11);
             var11 = var14.isFabric;
@@ -754,7 +754,7 @@ case 43:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 26;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

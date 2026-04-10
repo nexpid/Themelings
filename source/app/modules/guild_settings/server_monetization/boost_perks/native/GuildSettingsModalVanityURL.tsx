@@ -575,15 +575,15 @@ case 32:
                 if(!var2) { _fun0005_ip = 38; continue _fun0005 }
 case 39:
                 var6 = _closure1_slot14;
-                var5 = _closure1_slot1;
+                var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var2 = 20;
                 var2 = var10[var2];
-                var5 = var5.bind(var4)(var2);
+                var2 = var9.bind(var4)(var2);
+                var5 = var2.LegacyText;
                 var2 = {};
-                var9 = var11.errorText;
-                var2['style'] = var9;
-                var9 = _closure1_slot0;
+                var8 = var11.errorText;
+                var2['style'] = var8;
                 var8 = 21;
                 var8 = var10[var8];
                 var9 = var9.bind(var4)(var8);

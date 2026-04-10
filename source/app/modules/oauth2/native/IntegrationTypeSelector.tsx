@@ -412,11 +412,12 @@ case 0:
                     if(!var8) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
                     var9 = _closure1_slot5;
-                    var8 = _closure1_slot1;
+                    var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var7 = 15;
                     var7 = var10[var7];
-                    var8 = var8.bind(var4)(var7);
+                    var7 = var8.bind(var4)(var7);
+                    var8 = var7.BetaTag;
                     var7 = {};
                     var6 = var9.bind(var4)(var8, var7);
 case 10:

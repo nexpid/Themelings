@@ -150,7 +150,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['style'] = var5;
         var10 = 11;
         var5 = var12[var10];
-        var6 = var9.bind(var4)(var5);
+        var5 = var8.bind(var4)(var5);
+        var6 = var5.HelpMessage;
         var5 = {};
         var10 = var12[var10];
         var10 = var8.bind(var4)(var10);

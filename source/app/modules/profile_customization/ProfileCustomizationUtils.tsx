@@ -537,10 +537,13 @@ case 45:
     var2 = function announcePendingAvatarChange(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-            var2 = null;
-            var1 = arg1;
-            if(!(var2 != var1)) { _fun0012_ip = 46; continue _fun0012 }
-case 44:
+            var2 = arg1;
+            var1 = 'set';
+            if(!(var1 !== var2)) { _fun0012_ip = 46; continue _fun0012 }
+case 47:
+            var1 = 'remove';
+            if(!(var1 !== var2)) { _fun0012_ip = 48; continue _fun0012 }
+case 49:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 5;
@@ -557,11 +560,11 @@ case 44:
             var1 = var8[var1];
             var1 = var7.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.NstziV;
+            var1 = var1["/b5nqj"];
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-            _fun0012_ip = 47; continue _fun0012;
-case 46:
+            _fun0012_ip = 50; continue _fun0012;
+case 48:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 5;
@@ -581,7 +584,28 @@ case 46:
             var1 = var1.f1+oNk;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-case 47:
+            _fun0012_ip = 50; continue _fun0012;
+case 46:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 5;
+            var1 = var8[var1];
+            var6 = undefined;
+            var1 = var7.bind(var6)(var1);
+            var3 = var1.AccessibilityAnnouncer;
+            var2 = var3.announce;
+            var1 = 6;
+            var4 = var8[var1];
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var1 = var8[var1];
+            var1 = var7.bind(var6)(var1);
+            var1 = var1.t;
+            var1 = var1.NstziV;
+            var1 = var4.bind(var5)(var1);
+            var1 = var2.bind(var3)(var1);
+case 50:
             var1 = undefined;
             return var1;
         }

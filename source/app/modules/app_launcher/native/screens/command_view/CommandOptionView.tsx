@@ -233,7 +233,7 @@ case 9:
             var8 = var2.bind(var4)(var8);
             var9 = var8.FadeOut;
             var8 = var9.reduceMotion;
-            var17 = var8.bind(var9)(var6);
+            var19 = var8.bind(var9)(var6);
             var1 = var1[var14];
             var1 = var2.bind(var4)(var1);
             var8 = var1.FadeInUp;
@@ -397,13 +397,15 @@ case 18:
             var14 = {};
             var14['collapsable'] = var24;
             var14['entering'] = var20;
-            var14['exiting'] = var17;
-            var17 = var26.optionErrorContainer;
-            var14['style'] = var17;
+            var14['exiting'] = var19;
+            var19 = var26.optionErrorContainer;
+            var14['style'] = var19;
             var20 = _closure1_slot5;
+            var19 = _closure1_slot0;
             var25 = 13;
             var17 = var18[var25];
-            var24 = var27.bind(var4)(var17);
+            var17 = var19.bind(var4)(var17);
+            var24 = var17.Icon;
             var17 = {};
             var26 = var26.optionErrorIcon;
             var17['style'] = var26;
@@ -411,7 +413,6 @@ case 18:
             var26 = var18[var26];
             var26 = var27.bind(var4)(var26);
             var17['source'] = var26;
-            var19 = _closure1_slot0;
             var25 = var18[var25];
             var25 = var19.bind(var4)(var25);
             var25 = var25.IconSizes;

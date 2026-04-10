@@ -54,7 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createAnimatedComponent;
     var4 = 7;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Icon;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 8;

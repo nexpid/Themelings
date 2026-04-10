@@ -92,8 +92,8 @@ case 0:
             var1 = arg1;
             var17 = var1.media;
             var _closure2_slot0 = var17;
-            var14 = var1.size;
-            var _closure2_slot1 = var14;
+            var16 = var1.size;
+            var _closure2_slot1 = var16;
             var7 = var1.containerStyle;
             var3 = var1.onPress;
             var _closure2_slot2 = var3;
@@ -101,7 +101,7 @@ case 0:
             var4 = undefined;
             var _closure2_slot5 = var4;
             var5 = _closure1_slot11;
-            var16 = var5.bind(var4)();
+            var15 = var5.bind(var4)();
             var5 = _closure1_slot6;
             var5 = var5.bind(var4)();
             var18 = var5.scale;
@@ -133,9 +133,9 @@ case 0:
             var5 = var17.author;
             var6 = new Array(2);
             var6[0] = var5;
-            var13 = var9 == var12;
+            var14 = var9 == var12;
             var5 = undefined;
-            if(var13) { _fun0001_ip = 2; continue _fun0001 }
+            if(var14) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var5 = var12.guild_id;
 case 2:
@@ -219,26 +219,26 @@ case 8:
                 var1['opacity'] = var2;
                 return var1;
             };
-            var13 = {};
+            var14 = {};
             var19 = 9;
             var19 = var1[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.withTiming;
-            var13['withTiming'] = var19;
-            var13['opacity'] = var3;
+            var14['withTiming'] = var19;
+            var14['opacity'] = var3;
             var19 = 10;
             var19 = var1[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.timingStandard;
-            var13['timingStandard'] = var19;
-            var6['__closure'] = var13;
-            var13 = 9644750191833.0;
-            var6['__workletHash'] = var13;
-            var13 = _closure1_slot13;
-            var6['__initData'] = var13;
+            var14['timingStandard'] = var19;
+            var6['__closure'] = var14;
+            var14 = 9644750191833.0;
+            var6['__workletHash'] = var14;
+            var14 = _closure1_slot13;
+            var6['__initData'] = var14;
             var6 = var10.bind(var12)(var6);
             var12 = _closure1_slot3;
-            var13 = var12.useEffect;
+            var14 = var12.useEffect;
             var10 = new Array(1);
             var10[0] = var3;
             var3 = function() {
@@ -250,10 +250,10 @@ case 8:
                 var1 = undefined;
                 return var1;
             };
-            var3 = var13.bind(var12)(var3, var10);
+            var3 = var14.bind(var12)(var3, var10);
             var10 = var12.useMemo;
             var3 = new Array(1);
-            var3[0] = var14;
+            var3[0] = var16;
             var2 = function() {
                 var1 = {};
                 var2 = _closure2_slot1;
@@ -268,7 +268,7 @@ case 8:
             var1 = var2.bind(var4)(var1);
             var2 = var1.View;
             var1 = {};
-            var12 = var16.container;
+            var12 = var15.container;
             var5 = new Array(4);
             var5[0] = var12;
             var5[1] = var7;
@@ -291,26 +291,26 @@ case 8:
 case 10:
             var12 = _closure1_slot9;
             var11 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var8 = 11;
-            var8 = var13[var8];
+            var8 = var14[var8];
             var8 = var11.bind(var4)(var8);
             var11 = var8.SearchEmbedMediaImage;
             var8 = {};
-            var13 = var17.sources;
-            var8['sources'] = var13;
-            var13 = var17.embed;
-            var8['embed'] = var13;
-            var13 = var17.messageId;
-            var8['messageId'] = var13;
-            var13 = var17.channelId;
-            var8['channelId'] = var13;
-            var13 = var17.author;
-            var13 = var13.id;
-            var8['authorId'] = var13;
+            var14 = var17.sources;
+            var8['sources'] = var14;
+            var14 = var17.embed;
+            var8['embed'] = var14;
+            var14 = var17.messageId;
+            var8['messageId'] = var14;
+            var14 = var17.channelId;
+            var8['channelId'] = var14;
+            var14 = var17.author;
+            var14 = var14.id;
+            var8['authorId'] = var14;
             var8['scale'] = var18;
-            var8['containerHeight'] = var14;
-            var8['containerWidth'] = var14;
+            var8['containerHeight'] = var16;
+            var8['containerWidth'] = var16;
             var10 = var12.bind(var4)(var11, var8);
 case 9:
             var8 = new Array(5);
@@ -321,7 +321,7 @@ case 9:
             var10 = var11 === var10;
             if(!var10) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var13 = _closure1_slot9;
+            var14 = _closure1_slot9;
             var12 = _closure1_slot0;
             var19 = _closure1_slot2;
             var11 = 11;
@@ -337,9 +337,9 @@ case 12:
             var19 = var19.id;
             var11['authorId'] = var19;
             var11['scale'] = var18;
-            var11['containerHeight'] = var14;
-            var11['containerWidth'] = var14;
-            var10 = var13.bind(var4)(var12, var11);
+            var11['containerHeight'] = var16;
+            var11['containerWidth'] = var16;
+            var10 = var14.bind(var4)(var12, var11);
 case 11:
             var8[1] = var10;
             var11 = var17.type;
@@ -348,7 +348,7 @@ case 11:
             var10 = var11 === var10;
             if(!var10) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var13 = _closure1_slot9;
+            var14 = _closure1_slot9;
             var12 = _closure1_slot0;
             var19 = _closure1_slot2;
             var11 = 11;
@@ -356,9 +356,9 @@ case 14:
             var11 = var12.bind(var4)(var11);
             var12 = var11.SearchSoundMediaImage;
             var11 = {};
-            var11['height'] = var14;
-            var11['width'] = var14;
-            var10 = var13.bind(var4)(var12, var11);
+            var11['height'] = var16;
+            var11['width'] = var16;
+            var10 = var14.bind(var4)(var12, var11);
 case 13:
             var8[2] = var10;
             var11 = var17.type;
@@ -367,7 +367,7 @@ case 13:
             var10 = var11 === var10;
             if(!var10) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var13 = _closure1_slot9;
+            var14 = _closure1_slot9;
             var12 = _closure1_slot0;
             var19 = _closure1_slot2;
             var11 = 11;
@@ -388,9 +388,9 @@ case 16:
             var19 = var19.bot;
             var11['isBot'] = var19;
             var11['scale'] = var18;
-            var11['containerHeight'] = var14;
-            var11['containerWidth'] = var14;
-            var10 = var13.bind(var4)(var12, var11);
+            var11['containerHeight'] = var16;
+            var11['containerWidth'] = var16;
+            var10 = var14.bind(var4)(var12, var11);
 case 15:
             var8[3] = var10;
             var9 = var9 != var21;
@@ -399,8 +399,8 @@ case 18:
             var12 = _closure1_slot9;
             var11 = _closure1_slot4;
             var10 = {};
-            var13 = var16.avatar;
-            var10['style'] = var13;
+            var14 = var15.avatar;
+            var10['style'] = var14;
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
             var13 = 12;
@@ -408,14 +408,14 @@ case 18:
             var13 = var19.bind(var4)(var13);
             var14 = var13.Card;
             var13 = {};
-            var18 = 'low';
-            var13['shadow'] = var18;
-            var16 = var16.card;
-            var13['style'] = var16;
-            var16 = _closure1_slot1;
+            var16 = 'low';
+            var13['shadow'] = var16;
+            var15 = var15.card;
+            var13['style'] = var15;
             var18 = 13;
             var15 = var20[var18];
-            var16 = var16.bind(var4)(var15);
+            var15 = var19.bind(var4)(var15);
+            var16 = var15.Avatar;
             var15 = {};
             var15['source'] = var21;
             var18 = var20[var18];

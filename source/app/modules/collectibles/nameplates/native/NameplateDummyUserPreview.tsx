@@ -200,11 +200,11 @@ case 11:
 case 10:
             var1 = _closure1_slot8;
             var9 = var1.bind(var4)(var14, var2);
-            var2 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var17 = _closure1_slot2;
             var1 = 7;
-            var1 = var12[var1];
-            var5 = var2.bind(var4)(var1);
+            var1 = var17[var1];
+            var5 = var12.bind(var4)(var1);
             var3 = var5.useStateFromStores;
             var1 = _closure1_slot4;
             var2 = new Array(1);
@@ -234,14 +234,14 @@ case 10:
             var8 = _closure1_slot5;
             var16 = _closure1_slot1;
             var5 = 9;
-            var5 = var12[var5];
+            var5 = var17[var5];
             var7 = var16.bind(var4)(var5);
             var5 = {};
             var5['nameplate'] = var13;
             var13 = true;
             var5['fullOpacity'] = var13;
-            var17 = var9.nameplate;
-            var5['style'] = var17;
+            var18 = var9.nameplate;
+            var5['style'] = var18;
             var5['animate'] = var10;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);
@@ -250,8 +250,9 @@ case 10:
             var10 = var9.avatarContainer;
             var7['style'] = var10;
             var10 = 4;
-            var10 = var12[var10];
-            var12 = var16.bind(var4)(var10);
+            var10 = var17[var10];
+            var10 = var12.bind(var4)(var10);
+            var12 = var10.Avatar;
             var10 = {};
             var18 = _closure1_slot2;
             if(var15) { _fun0002_ip = 12; continue _fun0002 }

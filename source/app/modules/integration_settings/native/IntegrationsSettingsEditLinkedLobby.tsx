@@ -362,7 +362,8 @@ case 20:
             var9['style'] = var13;
             var20 = 19;
             var13 = var16[var20];
-            var19 = var25.bind(var5)(var13);
+            var13 = var17.bind(var5)(var13);
+            var19 = var13.Avatar;
             var13 = {};
             var23 = 20;
             var23 = var16[var23];

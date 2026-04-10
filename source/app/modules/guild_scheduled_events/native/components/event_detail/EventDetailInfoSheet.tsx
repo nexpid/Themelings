@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['ageVerificationContainer'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot15 = var5;
-    var5 = 30;
+    var5 = 28;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -285,7 +285,7 @@ case 2:
             var6 = var3.bind(var4)(var2);
             var3 = var12.guild_id;
             var2 = var12.id;
-            var27 = var6.bind(var4)(var3, var2, var10);
+            var26 = var6.bind(var4)(var3, var2, var10);
             var2 = var21[var1];
             var8 = var23.bind(var4)(var2);
             var6 = var8.useStateFromStores;
@@ -343,8 +343,8 @@ case 6:
                 }
             };
             var1 = var6.bind(var8)(var3, var1, var2);
-            var26 = var1.creator;
-            var _closure2_slot4 = var26;
+            var28 = var1.creator;
+            var _closure2_slot4 = var28;
             var1 = var1.creatorMember;
             var _closure2_slot5 = var1;
             var3 = _closure1_slot13;
@@ -430,7 +430,7 @@ case 6:
             var21 = var21.t;
             var23 = var21["+DLsD8"];
             var21 = {};
-            var21['count'] = var27;
+            var21['count'] = var26;
             var21 = var24.bind(var25)(var23, var21);
             var9['children'] = var21;
             var9 = var15.bind(var4)(var14, var9);
@@ -439,7 +439,7 @@ case 6:
             var6 = var3.bind(var4)(var2, var6);
             var5[4] = var6;
             var6 = null;
-            var8 = var6 != var26;
+            var8 = var6 != var28;
             if(!var8) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
             var8 = var17;
@@ -452,16 +452,16 @@ case 10:
             var21 = var18.interestedContainer;
             var9['style'] = var21;
             var24 = _closure1_slot12;
-            var23 = _closure1_slot1;
+            var26 = _closure1_slot0;
             var25 = _closure1_slot2;
             var27 = 23;
             var21 = var25[var27];
-            var23 = var23.bind(var4)(var21);
+            var21 = var26.bind(var4)(var21);
+            var23 = var21.Avatar;
             var21 = {};
-            var21['user'] = var26;
-            var26 = var12.guild_id;
-            var21['guildId'] = var26;
-            var26 = _closure1_slot0;
+            var21['user'] = var28;
+            var28 = var12.guild_id;
+            var21['guildId'] = var28;
             var27 = var25[var27];
             var27 = var26.bind(var4)(var27);
             var27 = var27.AvatarSizes;
@@ -512,7 +512,7 @@ case 16:
                     var8 = _closure1_slot12;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var5 = 24;
+                    var5 = 23;
                     var5 = var7[var5];
                     var7 = undefined;
                     var5 = var6.bind(var7)(var5);
@@ -532,7 +532,7 @@ case 15:
                     var8 = _closure1_slot12;
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 25;
+                    var1 = 23;
                     var6 = var6[var1];
                     var1 = undefined;
                     var6 = var7.bind(var1)(var6);
@@ -574,7 +574,7 @@ case 21:
 case 24:
                     var12 = _closure1_slot1;
                     var13 = _closure1_slot2;
-                    var11 = 26;
+                    var11 = 24;
                     var11 = var13[var11];
                     var12 = var12.bind(var1)(var11);
                     var11 = var12.getName;
@@ -619,7 +619,7 @@ case 26:
             var15 = _closure1_slot12;
             var14 = _closure1_slot1;
             var23 = _closure1_slot2;
-            var21 = 27;
+            var21 = 25;
             var9 = var23[var21];
             var14 = var14.bind(var4)(var9);
             var9 = {};
@@ -659,7 +659,7 @@ case 25:
             var14 = _closure1_slot13;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var8 = 28;
+            var8 = 26;
             var8 = var15[var8];
             var8 = var16.bind(var4)(var8);
             var9 = var8.ButtonGroup;
@@ -730,7 +730,7 @@ case 32:
             var9 = _closure1_slot12;
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var7 = 29;
+            var7 = 27;
             var7 = var14[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};

@@ -1,12 +1,10 @@
 // app/modules/in_app_reports/native/components/InAppReportsMultiSelect.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = function CheckboxRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -16,17 +14,17 @@ case 0:
             var19 = var1.selected;
             var22 = var1.title;
             var26 = var1.subtitle;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot5;
             var4 = undefined;
             var10 = var1.bind(var4)();
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot2;
             var1 = {};
             var5 = var10.rowContainer;
             var1['style'] = var5;
-            var11 = _closure1_slot4;
+            var11 = _closure1_slot3;
             var18 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot1;
             var5 = 5;
             var5 = var6[var5];
             var5 = var18.bind(var4)(var5);
@@ -38,17 +36,17 @@ case 0:
             var12 = {};
             var12['checked'] = var19;
             var5['accessibilityState'] = var12;
-            var14 = _closure1_slot5;
-            var13 = _closure1_slot3;
+            var14 = _closure1_slot4;
+            var13 = _closure1_slot2;
             var12 = {};
             var15 = var10.row;
             var12['style'] = var15;
-            var17 = _closure1_slot5;
-            var16 = _closure1_slot3;
+            var17 = _closure1_slot4;
+            var16 = _closure1_slot2;
             var15 = {};
             var20 = var10.optionText;
             var15['style'] = var20;
-            var20 = _closure1_slot4;
+            var20 = _closure1_slot3;
             var27 = 6;
             var6 = var6[var27];
             var6 = var18.bind(var4)(var6);
@@ -70,9 +68,9 @@ case 0:
             var20 = null;
             if(!var21) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var23 = _closure1_slot4;
+            var23 = _closure1_slot3;
             var22 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var21 = _closure1_slot1;
             var21 = var21[var27];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
@@ -90,12 +88,13 @@ case 2:
             var16 = var17.bind(var4)(var16, var15);
             var15 = new Array(2);
             var15[0] = var16;
-            var18 = _closure1_slot4;
-            var17 = _closure1_slot1;
-            var20 = _closure1_slot2;
+            var18 = _closure1_slot3;
+            var17 = _closure1_slot0;
+            var20 = _closure1_slot1;
             var16 = 7;
             var16 = var20[var16];
-            var17 = var17.bind(var4)(var16);
+            var16 = var17.bind(var4)(var16);
+            var17 = var16.Checkbox;
             var16 = {};
             var16['selected'] = var19;
             var16 = var18.bind(var4)(var17, var16);
@@ -106,8 +105,8 @@ case 2:
             var9 = var11.bind(var4)(var9, var5);
             var5 = new Array(3);
             var5[0] = var9;
-            var12 = _closure1_slot4;
-            var11 = _closure1_slot3;
+            var12 = _closure1_slot3;
+            var11 = _closure1_slot2;
             var9 = {};
             var13 = var10.flex;
             var9['style'] = var13;
@@ -116,8 +115,8 @@ case 2:
             var6 = null;
             if(!var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var9 = _closure1_slot4;
-            var8 = _closure1_slot3;
+            var9 = _closure1_slot3;
+            var8 = _closure1_slot2;
             var7 = {};
             var10 = var10.divider;
             var7['style'] = var10;
@@ -129,7 +128,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot6 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -148,14 +147,14 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var7 = var4.Platform;
     var4 = var4.View;
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot4 = var7;
+    var _closure1_slot3 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -175,14 +174,15 @@ case 4:
     var7['optionText'] = var10;
     var10 = {'alignSelf': 'stretch', 'marginStart': 16, 'height': 1};
     var11 = 4;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
+    var12 = var6[var11];
+    var11 = metroImportDefault;
+    var11 = var11.bind(var1)(var12);
     var11 = var11.colors;
     var11 = var11.BORDER_SUBTLE;
     var10['backgroundColor'] = var11;
     var7['divider'] = var10;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot6 = var7;
+    var _closure1_slot5 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -197,7 +197,7 @@ case 0:
             var _closure2_slot0 = var2;
             var1 = var1.state;
             var _closure2_slot1 = var1;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot5;
             var5 = undefined;
             var7 = var1.bind(var5)();
             var1 = null;
@@ -208,8 +208,8 @@ case 7:
             if(!(var4 === var8)) { _fun0002_ip = 6; continue _fun0002 }
 case 8:
             var8 = var3.data;
-            var4 = _closure1_slot4;
-            var3 = _closure1_slot3;
+            var4 = _closure1_slot3;
+            var3 = _closure1_slot2;
             var2 = {};
             var7 = var7.container;
             var2['style'] = var7;
@@ -264,8 +264,8 @@ case 18:
 case 17:
                     var2 = arg3;
                     var11 = var2.length;
-                    var4 = _closure1_slot4;
-                    var3 = _closure1_slot7;
+                    var4 = _closure1_slot3;
+                    var3 = _closure1_slot6;
                     var2 = {};
                     var10 = 1;
                     var10 = var11 - var10;

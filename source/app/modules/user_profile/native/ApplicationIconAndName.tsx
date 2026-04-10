@@ -78,11 +78,12 @@ case 2:
             var2 = _closure1_slot4;
             var1 = {};
             var13 = _closure1_slot3;
-            var8 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var12 = _closure1_slot2;
             var7 = 3;
             var7 = var12[var7];
-            var8 = var8.bind(var4)(var7);
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.Icon;
             var7 = {};
             var5 = var5.gameIcon;
             var7['style'] = var5;

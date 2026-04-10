@@ -701,13 +701,13 @@ case 44:
             if(!(var7 === var6)) { _fun0001_ip = 45; continue _fun0001 }
 case 46:
             var8 = _closure1_slot13;
-            var7 = _closure1_slot1;
+            var17 = _closure1_slot0;
             var19 = _closure1_slot3;
             var6 = 25;
             var6 = var19[var6];
-            var7 = var7.bind(var4)(var6);
+            var6 = var17.bind(var4)(var6);
+            var7 = var6.EmptyState;
             var6 = {};
-            var17 = _closure1_slot0;
             var9 = 26;
             var9 = var19[var9];
             var9 = var17.bind(var4)(var9);

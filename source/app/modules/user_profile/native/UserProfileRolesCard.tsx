@@ -196,8 +196,8 @@ case 0:
                     var5[0] = var3;
                     var7 = _closure2_slot4;
                     var4 = null;
-                    if(!(var4 != var7)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                    if(!(var4 != var7)) { _fun0003_ip = 9; continue _fun0003 }
+case 11:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var7 = 14;
@@ -206,13 +206,13 @@ case 12:
                     var7 = var8.getRoleIconData;
                     var3 = _closure2_slot0;
                     var3 = var7.bind(var8)(var3);
-                    if(!(var4 == var3)) { _fun0003_ip = 8; continue _fun0003 }
+                    if(!(var4 == var3)) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
                     var3 = {};
-case 8:
+case 12:
                     var3 = var3.customIconSrc;
                     var _closure3_slot0 = var3;
-                    if(!(var4 != var3)) { _fun0003_ip = 11; continue _fun0003 }
+                    if(!(var4 != var3)) { _fun0003_ip = 9; continue _fun0003 }
 case 14:
                     var4 = var5.push;
                     var3 = {};
@@ -247,7 +247,7 @@ case 14:
                     };
                     var3['onPress'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 11:
+case 9:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 15;
@@ -311,7 +311,7 @@ case 20:
                     var13 = var11 != var12;
                     var11 = undefined;
                     if(!var13) { _fun0004_ip = 22; continue _fun0004 }
-case 13:
+case 12:
                     var11 = var12;
 case 22:
                     var5['roleColor'] = var11;
@@ -597,7 +597,7 @@ case 33:
             var2 = 0;
             var1 = null;
             if(!(var2 !== var3)) { _fun0006_ip = 35; continue _fun0006 }
-case 6:
+case 36:
             var4 = _closure1_slot9;
             var3 = _closure1_slot1;
             var14 = _closure1_slot2;

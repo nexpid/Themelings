@@ -58,7 +58,7 @@ case 0:
             var2 = var1.fetchShopHomeError;
             var1 = _closure1_slot6;
             var5 = undefined;
-            var6 = var1.bind(var5)();
+            var7 = var1.bind(var5)();
             var1 = null;
             if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -66,9 +66,9 @@ case 3:
 case 4:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
-            var7 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var1 = 8;
-            var1 = var7[var1];
+            var1 = var8[var1];
             var2 = var2.bind(var5)(var1);
             var1 = {};
             var1['block'] = var4;
@@ -81,19 +81,19 @@ case 2:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
-            var6 = var6.container;
-            var2['style'] = var6;
-            var7 = _closure1_slot1;
+            var7 = var7.container;
+            var2['style'] = var7;
+            var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var6 = 5;
             var6 = var12[var6];
-            var7 = var7.bind(var5)(var6);
+            var6 = var11.bind(var5)(var6);
+            var7 = var6.EmptyState;
             var6 = {};
-            var9 = {};
-            var10 = 42;
-            var9['marginTop'] = var10;
-            var6['style'] = var9;
-            var11 = _closure1_slot0;
+            var8 = {};
+            var9 = 42;
+            var8['marginTop'] = var9;
+            var6['style'] = var8;
             var8 = 6;
             var8 = var12[var8];
             var8 = var11.bind(var5)(var8);

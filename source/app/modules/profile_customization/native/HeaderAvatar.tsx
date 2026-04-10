@@ -256,12 +256,13 @@ case 14:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var4 = _closure1_slot8;
-                    var2 = _closure1_slot1;
+                    var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 9;
                     var1 = var3[var1];
                     var3 = undefined;
-                    var2 = var2.bind(var3)(var1);
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.Avatar;
                     var1 = _closure2_slot2;
                     if(!(var3 === var1)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:

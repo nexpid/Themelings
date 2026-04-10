@@ -5,8 +5,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = function GridAvatar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -18,20 +17,20 @@ case 0:
             var8 = var2.showStatus;
             var10 = var2.pendingAvatarSrc;
             var3 = var2.pendingAvatarDecoration;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var4 = undefined;
             var2 = var2.bind(var4)();
             var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
+            var14 = _closure1_slot1;
             var9 = 7;
             var5 = var14[var9];
             var17 = var13.bind(var4)(var5);
             var16 = var17.useStateFromStores;
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot4;
             var15 = new Array(1);
             var15[0] = var5;
             var5 = function() {
-                var3 = _closure1_slot5;
+                var3 = _closure1_slot4;
                 var2 = var3.getStatus;
                 var1 = _closure2_slot0;
                 var1 = var1.id;
@@ -42,11 +41,11 @@ case 0:
             var9 = var14[var9];
             var14 = var13.bind(var4)(var9);
             var13 = var14.useStateFromStores;
-            var15 = _closure1_slot4;
+            var15 = _closure1_slot3;
             var9 = new Array(1);
             var9[0] = var15;
             var6 = function() {
-                var1 = _closure1_slot4;
+                var1 = _closure1_slot3;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
@@ -66,12 +65,13 @@ case 4:
             var2 = var2.avatarStatusStyle;
             var6['statusStyle'] = var2;
             var6['size'] = var1;
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot1;
-            var5 = _closure1_slot2;
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var1 = 8;
             var1 = var5[var1];
-            var2 = var2.bind(var4)(var1);
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Avatar;
             if(!(var4 === var10)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var1 = {};
@@ -84,7 +84,7 @@ case 7:
 case 6:
             var5 = {};
             var8 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var13 = _closure1_slot1;
             var7 = 9;
             var7 = var13[var7];
             var8 = var8.bind(var4)(var7);
@@ -105,7 +105,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot8 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -123,22 +123,22 @@ case 8:
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var11.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var11.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot5 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -157,7 +157,7 @@ case 8:
     var9 = {'width': 108, 'height': 108, 'justifyContent': 'space-around', 'marginLeft': 28};
     var4['gridContainer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -166,22 +166,22 @@ case 8:
     var4 = var5.bind(var6)(var4);
     var2 = function AvatarGrid(arg1) {
         var11 = arg1;
-        var1 = _closure1_slot8;
+        var1 = _closure1_slot7;
         var4 = undefined;
         var7 = var1.bind(var4)();
-        var3 = _closure1_slot7;
-        var2 = _closure1_slot3;
+        var3 = _closure1_slot6;
+        var2 = _closure1_slot2;
         var1 = {};
         var5 = var7.gridContainer;
         var1['style'] = var5;
         var5 = {};
         var6 = var7.avatarRow;
         var5['style'] = var6;
-        var9 = _closure1_slot6;
-        var10 = _closure1_slot9;
+        var9 = _closure1_slot5;
+        var10 = _closure1_slot8;
         var6 = {};
         var14 = _closure1_slot0;
-        var15 = _closure1_slot2;
+        var15 = _closure1_slot1;
         var13 = 8;
         var12 = var15[var13];
         var12 = var14.bind(var4)(var12);
@@ -194,7 +194,7 @@ case 8:
         var9 = var9.bind(var4)(var10, var6);
         var6 = new Array(2);
         var6[0] = var9;
-        var16 = _closure1_slot6;
+        var16 = _closure1_slot5;
         var9 = {};
         var12 = var15[var13];
         var12 = var14.bind(var4)(var12);
@@ -215,7 +215,7 @@ case 8:
         var6 = {};
         var7 = var7.avatarRow;
         var6['style'] = var7;
-        var9 = _closure1_slot6;
+        var9 = _closure1_slot5;
         var7 = {};
         var16 = var15[var13];
         var16 = var14.bind(var4)(var16);
@@ -228,7 +228,7 @@ case 8:
         var9 = var9.bind(var4)(var10, var7);
         var7 = new Array(2);
         var7[0] = var9;
-        var9 = _closure1_slot6;
+        var9 = _closure1_slot5;
         var8 = {};
         var13 = var15[var13];
         var13 = var14.bind(var4)(var13);

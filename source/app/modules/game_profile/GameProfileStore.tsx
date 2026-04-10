@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot13 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -87,6 +87,8 @@ case 4:
     var _closure1_slot11 = var2;
     var2 = {};
     var _closure1_slot12 = var2;
+    var2 = null;
+    var _closure1_slot13 = var2;
     var2 = 5;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -104,7 +106,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot13;
+                var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -143,7 +145,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getSimilarGamesError';
@@ -241,7 +243,7 @@ case 9:
         var5 = {};
         var7 = 'isAnnouncementsFetching';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var2 = _closure1_slot12;
@@ -256,8 +258,17 @@ case 9:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[7] = var5;
+        var5 = {};
+        var7 = 'getPendingReturn';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot13;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -359,7 +370,7 @@ case 9:
         return var1;
     };
     var2['GAME_PROFILE_GET_ANNOUNCEMENTS_SUCCESS'] = var8;
-    var4 = function handleGetAnnouncementsError(arg1) {
+    var8 = function handleGetAnnouncementsError(arg1) {
         var1 = arg1;
         var3 = var1.gameId;
         var4 = _closure1_slot11;
@@ -371,7 +382,66 @@ case 9:
         var1 = undefined;
         return var1;
     };
-    var2['GAME_PROFILE_GET_ANNOUNCEMENTS_ERROR'] = var4;
+    var2['GAME_PROFILE_GET_ANNOUNCEMENTS_ERROR'] = var8;
+    var8 = function handleSetPendingReturn(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var1 = arg1;
+            var5 = var1.gameId;
+            var4 = var1.channelId;
+            var7 = _closure1_slot13;
+            var2 = null;
+            var8 = var2 == var7;
+            var1 = undefined;
+            var6 = undefined;
+            if(var8) { _fun0007_ip = 11; continue _fun0007 }
+case 12:
+            var6 = var7.gameId;
+case 11:
+            if(!(var6 === var5)) { _fun0007_ip = 13; continue _fun0007 }
+case 14:
+            var6 = _closure1_slot13;
+            var7 = var2 == var6;
+            var2 = undefined;
+            if(var7) { _fun0007_ip = 15; continue _fun0007 }
+case 16:
+            var2 = var6.channelId;
+case 15:
+            if(!(var2 !== var4)) { _fun0007_ip = 17; continue _fun0007 }
+case 13:
+            var2 = {};
+            var2['gameId'] = var5;
+            var2['channelId'] = var4;
+            _closure1_slot13 = var2;
+            return var1;
+case 17:
+            var1 = false;
+            return var1;
+        }
+    };
+    var2['GAME_PROFILE_SET_PENDING_RETURN'] = var8;
+    var4 = function handleClearPendingReturn(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var1 = arg1;
+            var4 = var1.gameId;
+            var3 = _closure1_slot13;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0008_ip = 14; continue _fun0008 }
+case 18:
+            var3 = _closure1_slot13;
+            var3 = var3.gameId;
+            if(!(var3 === var4)) { _fun0008_ip = 14; continue _fun0008 }
+case 19:
+            _closure1_slot13 = var1;
+            var1 = undefined;
+            return var1;
+case 14:
+            var1 = false;
+            return var1;
+        }
+    };
+    var2['GAME_PROFILE_CLEAR_PENDING_RETURN'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;

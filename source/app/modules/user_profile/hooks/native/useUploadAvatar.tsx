@@ -217,9 +217,10 @@ case 18:
                         var4 = var8.bind(var9)(var4);
                         var4 = 13;
                         var4 = var7[var4];
-                        var8 = var5.bind(var3)(var4);
-                        var4 = var8.announcePendingAvatarChange;
-                        var4 = var4.bind(var8)(var6);
+                        var9 = var5.bind(var3)(var4);
+                        var8 = var9.announcePendingAvatarChange;
+                        var4 = 'set';
+                        var4 = var8.bind(var9)(var4);
                         _fun0002_ip = 10; continue _fun0002;
 case 17:
                         var4 = 11;

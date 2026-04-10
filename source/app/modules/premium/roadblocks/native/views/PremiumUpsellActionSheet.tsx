@@ -338,7 +338,7 @@ case 8:
     var4['image'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot21 = var4;
-    var4 = 41;
+    var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -984,21 +984,22 @@ case 31:
 case 0:
                     var1 = _closure2_slot6;
                     var1 = !var1;
-                    if(!var1) { _fun0007_ip = 32; continue _fun0007 }
-case 33:
+                    if(!var1) { _fun0007_ip = 18; continue _fun0007 }
+case 32:
                     var5 = _closure1_slot18;
-                    var3 = _closure1_slot1;
+                    var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 37;
+                    var2 = 36;
                     var2 = var4[var2];
                     var4 = undefined;
-                    var3 = var3.bind(var4)(var2);
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.NitroWheel;
                     var2 = {};
                     var6 = _closure2_slot1;
                     var6 = var6.nitroWheel;
                     var2['style'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
-case 32:
+case 18:
                     return var1;
                 }
             };
@@ -1009,7 +1010,7 @@ case 0:
                     var4 = _closure1_slot18;
                     var2 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var1 = 38;
+                    var1 = 37;
                     var1 = var7[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -1018,7 +1019,7 @@ case 0:
                     var8 = var8.gradient;
                     var1['style'] = var8;
                     var9 = _closure1_slot0;
-                    var8 = 39;
+                    var8 = 38;
                     var10 = var7[var8];
                     var10 = var9.bind(var3)(var10);
                     var10 = var10.HorizontalGradient;
@@ -1038,10 +1039,10 @@ case 0:
                     if(var5) { _fun0008_ip = 9; continue _fun0008 }
 case 8:
                     var5 = var6.PREMIUM_TIER_2_TRI_COLOR;
-                    _fun0008_ip = 34; continue _fun0008;
+                    _fun0008_ip = 33; continue _fun0008;
 case 9:
                     var5 = var6.PREMIUM_TIER_0;
-case 34:
+case 33:
                     var1['colors'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
@@ -1052,7 +1053,7 @@ case 34:
             var13 = new Array(2);
             var13[0] = var15;
             var16 = _closure1_slot18;
-            var14 = 40;
+            var14 = 39;
             var14 = var18[var14];
             var14 = var21.bind(var5)(var14);
             var15 = var14.Button;

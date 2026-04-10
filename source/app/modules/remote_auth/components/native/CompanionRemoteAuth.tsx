@@ -74,16 +74,16 @@ case 5:
             var2 = _closure1_slot8;
             var1 = {};
             var7 = _closure1_slot7;
-            var20 = _closure1_slot1;
+            var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var8 = 10;
             var5 = var19[var8];
-            var6 = var20.bind(var4)(var5);
+            var5 = var18.bind(var4)(var5);
+            var6 = var5.Avatar;
             var5 = {};
             var11 = var10.avatar;
             var5['style'] = var11;
             var5['user'] = var21;
-            var18 = _closure1_slot0;
             var8 = var19[var8];
             var8 = var18.bind(var4)(var8);
             var8 = var8.AvatarSizes;
@@ -131,6 +131,7 @@ case 5:
             var11 = var11.t;
             var13 = var11.Cbl5JK;
             var11 = {};
+            var20 = _closure1_slot1;
             var17 = 11;
             var17 = var19[var17];
             var20 = var20.bind(var4)(var17);

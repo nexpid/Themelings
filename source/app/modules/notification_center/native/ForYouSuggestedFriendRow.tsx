@@ -395,10 +395,10 @@ case 16:
             var15 = {};
             var17 = var33.avatar;
             var15['style'] = var17;
-            var26 = _closure1_slot1;
             var17 = 22;
             var17 = var29[var17];
-            var26 = var26.bind(var8)(var17);
+            var17 = var30.bind(var8)(var17);
+            var26 = var17.Avatar;
             var17 = {};
             var27 = var25.user;
             var17['user'] = var27;

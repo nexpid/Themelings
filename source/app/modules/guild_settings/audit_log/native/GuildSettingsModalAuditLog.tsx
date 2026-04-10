@@ -723,11 +723,12 @@ case 26:
             _fun0001_ip = 27; continue _fun0001;
 case 25:
             var17 = _closure1_slot15;
-            var16 = _closure1_slot1;
+            var16 = _closure1_slot0;
             var19 = _closure1_slot3;
             var15 = 25;
             var15 = var19[var15];
-            var16 = var16.bind(var4)(var15);
+            var15 = var16.bind(var4)(var15);
+            var16 = var15.EmptyState;
             var15 = {};
             var20 = _closure1_slot0;
             var19 = _closure1_slot3;

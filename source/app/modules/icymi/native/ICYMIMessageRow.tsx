@@ -388,10 +388,10 @@ case 37:
             var10 = var10.replyInner;
             var7['style'] = var10;
             var12 = _closure1_slot14;
-            var11 = _closure1_slot1;
             var13 = 22;
             var10 = var15[var13];
-            var11 = var11.bind(var5)(var10);
+            var10 = var16.bind(var5)(var10);
+            var11 = var10.Avatar;
             var10 = {};
             var17 = false;
             var10['animate'] = var17;

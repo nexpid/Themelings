@@ -95,12 +95,14 @@ case 5:
             if(!var7) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var17 = _closure1_slot4;
-            var19 = _closure1_slot1;
+            var13 = _closure1_slot0;
             var20 = _closure1_slot2;
             var10 = 8;
             var10 = var20[var10];
-            var13 = var19.bind(var5)(var10);
+            var10 = var13.bind(var5)(var10);
+            var13 = var10.Icon;
             var10 = {};
+            var19 = _closure1_slot1;
             var18 = 9;
             var18 = var20[var18];
             var18 = var19.bind(var5)(var18);
@@ -180,12 +182,14 @@ case 4:
             if(!var7) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var9 = _closure1_slot4;
-            var13 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var14 = _closure1_slot2;
             var7 = 8;
             var7 = var14[var7];
-            var8 = var13.bind(var5)(var7);
+            var7 = var8.bind(var5)(var7);
+            var8 = var7.Icon;
             var7 = {};
+            var13 = _closure1_slot1;
             var10 = 9;
             var10 = var14[var10];
             var10 = var13.bind(var5)(var10);

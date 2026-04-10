@@ -261,7 +261,8 @@ case 6:
             var23 = _closure1_slot6;
             var25 = 14;
             var18 = var19[var25];
-            var22 = var27.bind(var4)(var18);
+            var18 = var21.bind(var4)(var18);
+            var22 = var18.Icon;
             var18 = {};
             var18['source'] = var26;
             var26 = 6;

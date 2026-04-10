@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var3 = arg1;
             var14 = var3.style;
-            var12 = var3.option;
+            var11 = var3.option;
             var8 = var3.selected;
             var1 = var3.selectedItemName;
             var _closure2_slot0 = var1;
@@ -73,17 +73,17 @@ case 0:
             var4 = undefined;
             var9 = var1.bind(var4)();
             var3 = var5.onPress;
-            var11 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 4;
             var1 = var13[var1];
-            var2 = var11.bind(var4)(var1);
+            var2 = var10.bind(var4)(var1);
             var1 = var2.useAnimationDelayedAutoFocus;
             var1 = var1.bind(var2)(var15, var3);
             var3 = _closure1_slot3;
             var1 = 5;
             var1 = var13[var1];
-            var1 = var11.bind(var4)(var1);
+            var1 = var10.bind(var4)(var1);
             var2 = var1.FormRow;
             var1 = {'start': true, 'end': true};
             var15 = var9.formRow;
@@ -93,8 +93,8 @@ case 0:
             var1['style'] = var9;
             var9 = 6;
             var9 = var13[var9];
-            var9 = var11.bind(var4)(var9);
-            var11 = var9.Text;
+            var9 = var10.bind(var4)(var9);
+            var10 = var9.Text;
             var9 = {};
             var13 = 'text-md/medium';
             if(!var8) { _fun0001_ip = 2; continue _fun0001 }
@@ -110,9 +110,9 @@ case 4:
             var9['color'] = var13;
             var13 = 1;
             var9['lineClamp'] = var13;
-            var12 = var12.displayName;
-            var9['children'] = var12;
-            var9 = var3.bind(var4)(var11, var9);
+            var11 = var11.displayName;
+            var9['children'] = var11;
+            var9 = var3.bind(var4)(var10, var9);
             var1['label'] = var9;
             var6 = null;
             if(!var8) { _fun0001_ip = 6; continue _fun0001 }
@@ -135,17 +135,18 @@ case 7:
 case 6:
             var1['subLabel'] = var6;
             var8 = _closure1_slot3;
-            var13 = _closure1_slot1;
+            var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var9 = 7;
             var6 = var11[var9];
-            var7 = var13.bind(var4)(var6);
+            var6 = var10.bind(var4)(var6);
+            var7 = var6.Icon;
             var6 = {};
+            var13 = _closure1_slot1;
             var12 = 8;
             var12 = var11[var12];
             var12 = var13.bind(var4)(var12);
             var6['source'] = var12;
-            var10 = _closure1_slot0;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.IconSizes;

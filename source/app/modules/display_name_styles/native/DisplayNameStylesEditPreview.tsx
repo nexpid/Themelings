@@ -47,14 +47,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = 'none';
         var1['pointerEvents'] = var5;
         var7 = _closure1_slot5;
-        var16 = _closure1_slot1;
+        var14 = _closure1_slot0;
         var17 = _closure1_slot2;
         var8 = 12;
         var5 = var17[var8];
-        var6 = var16.bind(var4)(var5);
+        var5 = var14.bind(var4)(var5);
+        var6 = var5.Avatar;
         var5 = {};
         var5['user'] = var24;
-        var14 = _closure1_slot0;
         var8 = var17[var8];
         var8 = var14.bind(var4)(var8);
         var8 = var8.AvatarSizes;
@@ -75,6 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var13.chatHeader;
         var9['style'] = var10;
         var19 = _closure1_slot5;
+        var16 = _closure1_slot1;
         var10 = 13;
         var10 = var17[var10];
         var18 = var16.bind(var4)(var10);

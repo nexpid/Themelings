@@ -293,12 +293,14 @@ case 16:
             _fun0001_ip = 17; continue _fun0001;
 case 15:
             var6 = _closure1_slot11;
-            var8 = _closure1_slot1;
+            var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 15;
             var3 = var11[var3];
-            var4 = var8.bind(var5)(var3);
+            var3 = var10.bind(var5)(var3);
+            var4 = var3.EmptyState;
             var3 = {};
+            var8 = _closure1_slot1;
             var7 = 16;
             var7 = var11[var7];
             var7 = var8.bind(var5)(var7);
@@ -307,7 +309,6 @@ case 15:
             var7 = var11[var7];
             var7 = var8.bind(var5)(var7);
             var3['darkSource'] = var7;
-            var10 = _closure1_slot0;
             var7 = 18;
             var8 = var11[var7];
             var8 = var10.bind(var5)(var8);

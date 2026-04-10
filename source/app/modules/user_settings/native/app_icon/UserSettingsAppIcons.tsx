@@ -1,11 +1,11 @@
 // app/modules/user_settings/native/app_icon/UserSettingsAppIcons.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -18,12 +18,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var12.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
     var4 = metroImportAll;
-    var7 = var4.bind(var1)(var7);
+    var8 = var4.bind(var1)(var7);
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -31,17 +31,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.Gradients;
-    var _closure1_slot6 = var8;
-    var8 = var4.HorizontalGradient;
-    var _closure1_slot7 = var8;
-    var8 = var4.UpsellTypes;
-    var _closure1_slot8 = var8;
+    var7 = var4.Gradients;
+    var _closure1_slot6 = var7;
+    var7 = var4.HorizontalGradient;
+    var _closure1_slot7 = var7;
+    var7 = var4.UpsellTypes;
+    var _closure1_slot8 = var7;
     var4 = var4.AnalyticsPages;
     var _closure1_slot9 = var4;
     var4 = 5;
@@ -52,39 +52,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot11 = var8;
-    var8 = var4.Fragment;
-    var _closure1_slot12 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot11 = var7;
+    var7 = var4.Fragment;
+    var _closure1_slot12 = var7;
     var4 = var4.jsxs;
     var _closure1_slot13 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var4 = {};
-    var10 = {'width': 24, 'height': 24};
-    var4['nitroWheel'] = var10;
-    var10 = {'padding': 0, 'position': 'absolute', 'bottom': 56, 'width': 350, 'alignSelf': 'center'};
-    var4['upsellButtonContainer'] = var10;
-    var10 = {'width': '100%', 'height': 50, 'position': 'absolute', 'overflow': 'hidden'};
-    var11 = 8;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.xl;
-    var10['borderRadius'] = var13;
-    var4['linearGradient'] = var10;
-    var10 = {};
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.WHITE;
-    var10['color'] = var11;
-    var4['buttonText'] = var10;
-    var4 = var8.bind(var9)(var4);
-    var _closure1_slot14 = var4;
-    var4 = function NitroUpsellButton() {
+    var10 = var5.bind(var1)(var4);
+    var9 = var10.createStyles;
+    var7 = {};
+    var4 = 24;
+    var11 = {'width': 24, 'height': 24};
+    var7['nitroWheel'] = var11;
+    var11 = {'padding': 0, 'position': 'absolute', 'bottom': 56, 'width': 350, 'alignSelf': 'center'};
+    var7['upsellButtonContainer'] = var11;
+    var11 = {'width': '100%', 'height': 50, 'position': 'absolute', 'overflow': 'hidden'};
+    var12 = 8;
+    var14 = var6[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.xl;
+    var11['borderRadius'] = var14;
+    var7['linearGradient'] = var11;
+    var11 = {};
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.WHITE;
+    var11['color'] = var12;
+    var7['buttonText'] = var11;
+    var7 = var9.bind(var10)(var7);
+    var _closure1_slot14 = var7;
+    var7 = function NitroUpsellButton() {
         var2 = _closure1_slot14;
         var4 = undefined;
         var9 = var2.bind(var4)();
@@ -155,12 +156,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['textStyle'] = var9;
         var9 = function renderRightIcon() {
             var4 = _closure1_slot11;
-            var2 = _closure1_slot1;
+            var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 16;
+            var1 = 10;
             var1 = var3[var1];
             var3 = undefined;
-            var2 = var2.bind(var3)(var1);
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.NitroWheel;
             var1 = {};
             var5 = _closure2_slot0;
             var5 = var5.nitroWheel;
@@ -179,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot11;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 17;
+            var1 = 16;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -202,8 +204,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot15 = var4;
-    var4 = var7.memo;
+    var _closure1_slot15 = var7;
+    var7 = var8.memo;
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -212,7 +214,7 @@ case 0:
             var11 = var2.bind(var4)();
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var2 = 18;
+            var2 = 17;
             var2 = var16[var2];
             var6 = var7.bind(var4)(var2);
             var5 = var6.useStateFromStores;
@@ -227,13 +229,13 @@ case 0:
             };
             var5 = var5.bind(var6)(var3, var2);
             var _closure2_slot0 = var5;
-            var2 = 19;
+            var2 = 18;
             var2 = var16[var2];
             var3 = var7.bind(var4)(var2);
             var2 = var3.useCurrentAppIcon;
             var2 = var2.bind(var3)();
             var _closure2_slot1 = var2;
-            var2 = 20;
+            var2 = 19;
             var2 = var16[var2];
             var3 = var7.bind(var4)(var2);
             var2 = var3.isPremium;
@@ -264,11 +266,11 @@ case 5:
 case 7:
                             var7 = _closure1_slot0;
                             var12 = _closure1_slot2;
-                            var5 = 19;
+                            var5 = 18;
                             var5 = var12[var5];
                             var11 = var7.bind(var3)(var5);
                             var9 = var11.setAppIcon;
-                            var5 = 21;
+                            var5 = 20;
                             var5 = var12[var5];
                             var5 = var7.bind(var3)(var5);
                             var5 = var5.FreemiumAppIconIds;
@@ -301,7 +303,7 @@ case 15:
 case 16:
                             var5 = _closure1_slot1;
                             var9 = _closure1_slot2;
-                            var4 = 22;
+                            var4 = 21;
                             var4 = var9[var4];
                             var9 = var5.bind(var3)(var4);
                             var5 = var9.handleShowUpsellAlert;
@@ -315,7 +317,7 @@ case 16:
 case 14:
                             var4 = _closure1_slot0;
                             var5 = _closure1_slot2;
-                            var2 = 19;
+                            var2 = 18;
                             var2 = var5[var2];
                             var5 = var4.bind(var3)(var2);
                             var4 = var5.setAppIcon;
@@ -363,7 +365,7 @@ case 2:
             var2 = _closure1_slot12;
             var1 = {};
             var8 = _closure1_slot11;
-            var5 = 23;
+            var5 = 22;
             var5 = var16[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Form;
@@ -373,7 +375,7 @@ case 2:
             var13 = 'radiogroup';
             var9['accessibilityRole'] = var13;
             var14 = _closure1_slot1;
-            var13 = 24;
+            var13 = 23;
             var13 = var16[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {};
@@ -405,8 +407,7 @@ case 22:
             return var1;
         }
     };
-    var2 = var4.bind(var7)(var2);
-    var4 = 25;
+    var2 = var7.bind(var8)(var2);
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

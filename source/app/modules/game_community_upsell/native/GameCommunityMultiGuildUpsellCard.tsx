@@ -856,11 +856,12 @@ case 57:
             var17['guild'] = var21;
             var21 = 'one-column';
             var21 = var21 === var26;
-            var28 = _closure1_slot1;
+            var28 = _closure1_slot0;
             var29 = _closure1_slot2;
             var26 = 20;
             var26 = var29[var26];
             var26 = var28.bind(var4)(var26);
+            var26 = var26.Icon;
             var28 = var26.Sizes;
             if(var21) { _fun0005_ip = 58; continue _fun0005 }
 case 59:

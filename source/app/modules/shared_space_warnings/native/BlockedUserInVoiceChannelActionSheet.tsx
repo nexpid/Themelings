@@ -305,13 +305,13 @@ case 6:
             _fun0001_ip = 7; continue _fun0001;
 case 5:
             var21 = _closure1_slot14;
-            var19 = _closure1_slot1;
+            var26 = _closure1_slot0;
             var27 = _closure1_slot2;
             var24 = 18;
             var18 = var27[var24];
-            var19 = var19.bind(var4)(var18);
+            var18 = var26.bind(var4)(var18);
+            var19 = var18.Avatar;
             var18 = {};
-            var26 = _closure1_slot0;
             var24 = var27[var24];
             var24 = var26.bind(var4)(var24);
             var24 = var24.AvatarSizes;

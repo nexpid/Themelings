@@ -381,10 +381,10 @@ case 12:
             var1['onPress'] = var8;
             var1['collapsable'] = var5;
             var14 = _closure1_slot9;
-            var8 = _closure1_slot1;
             var9 = 18;
             var5 = var16[var9];
-            var8 = var8.bind(var4)(var5);
+            var5 = var13.bind(var4)(var5);
+            var8 = var5.Avatar;
             var5 = {};
             var17 = var10.avatar;
             var5['style'] = var17;

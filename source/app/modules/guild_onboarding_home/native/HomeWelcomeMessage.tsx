@@ -202,7 +202,7 @@ case 2:
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 23;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -212,8 +212,8 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var31 = var1.guildId;
-            var _closure2_slot0 = var31;
+            var32 = var1.guildId;
+            var _closure2_slot0 = var32;
             var5 = undefined;
             var _closure2_slot3 = var5;
             var1 = _closure1_slot10;
@@ -274,27 +274,27 @@ case 4:
                     return var1;
                 }
             };
-            var30 = var7.bind(var8)(var4, var1);
-            var _closure2_slot2 = var30;
+            var31 = var7.bind(var8)(var4, var1);
+            var _closure2_slot2 = var31;
             var4 = _closure1_slot1;
             var1 = 9;
             var1 = var6[var1];
             var6 = var4.bind(var5)(var1);
             var1 = null;
-            var7 = var1 == var30;
+            var7 = var1 == var31;
             var4 = undefined;
             if(var7) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var4 = var30.id;
+            var4 = var31.id;
 case 6:
-            var7 = var6.bind(var5)(var4, var31);
+            var7 = var6.bind(var5)(var4, var32);
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 10;
             var4 = var8[var4];
             var6 = var6.bind(var5)(var4);
             var4 = {};
-            var4['user'] = var30;
+            var4['user'] = var31;
             var4['displayProfile'] = var7;
             var4 = var6.bind(var5)(var4);
             var6 = var4.theme;
@@ -332,13 +332,13 @@ case 8:
 case 11:
             var4 = new Array(0);
 case 10:
-            var7[30] = var4;
+            var7[31] = var4;
             var4 = 'HomeWelcomeMessage';
             var4 = var8.bind(var9)(var7, var4);
             var8 = _closure1_slot3;
             var7 = var8.useEffect;
             var4 = new Array(2);
-            var4[0] = var30;
+            var4[0] = var31;
             var4[1] = var2;
             var3 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -403,13 +403,13 @@ case 14:
 case 21:
             if(!(var1 != var24)) { _fun0002_ip = 20; continue _fun0002 }
 case 22:
-            if(!(var1 != var30)) { _fun0002_ip = 20; continue _fun0002 }
+            if(!(var1 != var31)) { _fun0002_ip = 20; continue _fun0002 }
 case 23:
             var19 = var1 != var2;
             if(!var19) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
             var3 = var2.ownerId;
-            var2 = var30.id;
+            var2 = var31.id;
             var19 = var3 === var2;
 case 24:
             var4 = _closure1_slot8;
@@ -428,7 +428,7 @@ case 24:
             var6 = {};
             var9 = var23.relativeContainer;
             var6['style'] = var9;
-            var9 = var30.avatarDecoration;
+            var9 = var31.avatarDecoration;
             var9 = var1 == var9;
             var10 = null;
             if(!var9) { _fun0002_ip = 26; continue _fun0002 }
@@ -470,18 +470,18 @@ case 26:
             var10 = var11.bind(var5)(var15, var10);
             var9[1] = var10;
             var12 = _closure1_slot8;
-            var29 = _closure1_slot1;
-            var32 = _closure1_slot2;
+            var30 = _closure1_slot1;
+            var33 = _closure1_slot2;
             var10 = 16;
-            var10 = var32[var10];
-            var11 = var29.bind(var5)(var10);
+            var10 = var33[var10];
+            var11 = var30.bind(var5)(var10);
             var10 = {};
             var17 = var23.avatar;
             var10['style'] = var17;
-            var10['user'] = var30;
+            var10['user'] = var31;
             var18 = _closure1_slot0;
-            var17 = 17;
-            var17 = var32[var17];
+            var29 = 17;
+            var17 = var33[var29];
             var17 = var18.bind(var5)(var17);
             var17 = var17.AvatarSizes;
             var17 = var17.NORMAL;
@@ -492,8 +492,8 @@ case 26:
             var9[2] = var10;
             var12 = _closure1_slot8;
             var10 = 18;
-            var10 = var32[var10];
-            var11 = var29.bind(var5)(var10);
+            var10 = var33[var10];
+            var11 = var30.bind(var5)(var10);
             var10 = {};
             var17 = var23.welcomeContainer;
             var10['containerStyle'] = var17;
@@ -509,7 +509,7 @@ case 26:
             var16['style'] = var17;
             var26 = _closure1_slot8;
             var25 = 19;
-            var17 = var32[var25];
+            var17 = var33[var25];
             var17 = var18.bind(var5)(var17);
             var18 = var17.Text;
             var17 = {};
@@ -518,10 +518,10 @@ case 26:
             var27 = 'text-md/semibold';
             var17['variant'] = var27;
             var27 = 20;
-            var27 = var32[var27];
-            var29 = var29.bind(var5)(var27);
-            var27 = var29.getName;
-            var27 = var27.bind(var29)(var31, var1, var30);
+            var27 = var33[var27];
+            var30 = var30.bind(var5)(var27);
+            var27 = var30.getName;
+            var27 = var27.bind(var30)(var32, var1, var31);
             var17['children'] = var27;
             var18 = var26.bind(var5)(var18, var17);
             var17 = new Array(2);
@@ -530,20 +530,22 @@ case 26:
             if(!var19) { _fun0002_ip = 31; continue _fun0002 }
 case 32:
             var27 = _closure1_slot8;
-            var30 = _closure1_slot1;
+            var30 = _closure1_slot0;
             var31 = _closure1_slot2;
-            var29 = 21;
             var19 = var31[var29];
-            var26 = var30.bind(var5)(var19);
+            var19 = var30.bind(var5)(var19);
+            var26 = var19.Icon;
             var19 = {};
             var29 = var31[var29];
             var29 = var30.bind(var5)(var29);
+            var29 = var29.Icon;
             var29 = var29.Sizes;
             var29 = var29.REFRESH_SMALL_16;
             var19['size'] = var29;
             var29 = var23.icon;
             var19['style'] = var29;
-            var29 = 22;
+            var30 = _closure1_slot1;
+            var29 = 21;
             var29 = var31[var29];
             var29 = var30.bind(var5)(var29);
             var19['source'] = var29;

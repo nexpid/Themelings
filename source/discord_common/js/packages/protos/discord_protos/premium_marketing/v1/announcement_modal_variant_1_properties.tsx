@@ -1,11 +1,11 @@
 // discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var10 = require;
-    var8 = metroImportDefault;
+    var11 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var11 = dependencyMap;
-    var _closure1_slot0 = var10;
-    var _closure1_slot1 = var11;
+    var12 = dependencyMap;
+    var _closure1_slot0 = var11;
+    var _closure1_slot1 = var12;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -16,7 +16,7 @@ case 0:
             var1 = arg2;
             var9 = var2.bind(var3)(var1);
             var2 = _closure1_slot5;
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot15;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -40,7 +40,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -73,13 +73,13 @@ case 9:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot14 = var2;
+            _closure1_slot15 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -89,56 +89,56 @@ case 9:
     var1 = '__esModule';
     var1 = var5.bind(var6)(var3, var1, var4);
     var13 = 0;
-    var4 = var11[var13];
+    var4 = var12[var13];
     var1 = undefined;
-    var4 = var8.bind(var1)(var4);
+    var4 = var9.bind(var1)(var4);
     var _closure1_slot2 = var4;
-    var12 = 1;
-    var4 = var11[var12];
-    var4 = var8.bind(var1)(var4);
+    var10 = 1;
+    var4 = var12[var10];
+    var4 = var9.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var9 = 2;
-    var4 = var11[var9];
-    var4 = var8.bind(var1)(var4);
+    var8 = 2;
+    var4 = var12[var8];
+    var4 = var9.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var7 = 3;
-    var4 = var11[var7];
-    var4 = var8.bind(var1)(var4);
+    var4 = var12[var7];
+    var4 = var9.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var6 = 4;
-    var4 = var11[var6];
-    var4 = var8.bind(var1)(var4);
+    var4 = var12[var6];
+    var4 = var9.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var5 = 5;
-    var4 = var11[var5];
-    var4 = var8.bind(var1)(var4);
+    var4 = var12[var5];
+    var4 = var9.bind(var1)(var4);
     var _closure1_slot7 = var4;
-    var8 = {};
-    var8['UNSPECIFIED'] = var13;
+    var9 = {};
+    var9['UNSPECIFIED'] = var13;
     var4 = 'UNSPECIFIED';
-    var8[var13] = var4;
-    var8['OPEN_MARKETING_PAGE'] = var12;
+    var9[var13] = var4;
+    var9['OPEN_MARKETING_PAGE'] = var10;
     var4 = 'OPEN_MARKETING_PAGE';
-    var8[var12] = var4;
-    var8['OPEN_TIER_2_PAYMENT_MODAL'] = var9;
+    var9[var10] = var4;
+    var9['OPEN_TIER_2_PAYMENT_MODAL'] = var8;
     var4 = 'OPEN_TIER_2_PAYMENT_MODAL';
-    var8[var9] = var4;
-    var8['OPEN_TIER_1_PAYMENT_MODAL'] = var7;
+    var9[var8] = var4;
+    var9['OPEN_TIER_1_PAYMENT_MODAL'] = var7;
     var4 = 'OPEN_TIER_1_PAYMENT_MODAL';
-    var8[var7] = var4;
-    var8['OPEN_TIER_2_PAYMENT_MODAL_CUSTOM_CONFIRMATION_FOOTER'] = var6;
+    var9[var7] = var4;
+    var9['OPEN_TIER_2_PAYMENT_MODAL_CUSTOM_CONFIRMATION_FOOTER'] = var6;
     var4 = 'OPEN_TIER_2_PAYMENT_MODAL_CUSTOM_CONFIRMATION_FOOTER';
-    var8[var6] = var4;
-    var8['OPEN_PLAN_SELECTION_MODAL'] = var5;
+    var9[var6] = var4;
+    var9['OPEN_PLAN_SELECTION_MODAL'] = var5;
     var4 = 'OPEN_PLAN_SELECTION_MODAL';
-    var8[var5] = var4;
-    var9 = 6;
-    var8['OPEN_PREMIUM_GROUP_PAYMENT_MODAL'] = var9;
+    var9[var5] = var4;
+    var10 = 6;
+    var9['OPEN_PREMIUM_GROUP_PAYMENT_MODAL'] = var10;
     var4 = 'OPEN_PREMIUM_GROUP_PAYMENT_MODAL';
-    var8[var9] = var4;
-    var _closure1_slot8 = var8;
-    var4 = var11[var9];
-    var4 = var10.bind(var1)(var4);
+    var9[var10] = var4;
+    var _closure1_slot8 = var9;
+    var4 = var12[var10];
+    var4 = var11.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function FeatureCard$Type() {
@@ -147,7 +147,7 @@ case 9:
             var4 = _closure2_slot0;
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot14;
             var6 = new Array(5);
             var1 = {'no': 1, 'name': 'header', 'kind': 'scalar', 'T': 9};
             var6[0] = var1;
@@ -489,10 +489,10 @@ case 42:
     var5 = Object.create(var5, {constructor: {value: var4}});
     var17 = var5;
     var4 = new var17[var4](var16);
-    var7 = var4 instanceof Object ? var4 : var5;
-    var _closure1_slot9 = var7;
-    var4 = var11[var9];
-    var4 = var10.bind(var1)(var4);
+    var8 = var4 instanceof Object ? var4 : var5;
+    var _closure1_slot9 = var8;
+    var4 = var12[var10];
+    var4 = var11.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function SubscriptionButton$Type() {
@@ -501,7 +501,7 @@ case 42:
             var4 = _closure2_slot0;
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot14;
             var6 = new Array(2);
             var1 = {'no': 1, 'name': 'copy', 'kind': 'scalar', 'T': 9};
             var6[0] = var1;
@@ -763,10 +763,10 @@ case 39:
     var5 = Object.create(var5, {constructor: {value: var4}});
     var17 = var5;
     var4 = new var17[var4](var16);
-    var6 = var4 instanceof Object ? var4 : var5;
-    var _closure1_slot10 = var6;
-    var4 = var11[var9];
-    var4 = var10.bind(var1)(var4);
+    var7 = var4 instanceof Object ? var4 : var5;
+    var _closure1_slot10 = var7;
+    var4 = var12[var10];
+    var4 = var11.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function Variant1Storage$Type() {
@@ -775,7 +775,7 @@ case 39:
             var4 = _closure2_slot0;
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot14;
             var1 = {'no': 1, 'name': 'hero_art_localized_video_links_dark_theme', 'kind': 'map', 'K': 9};
             var6 = {'kind': 'scalar', 'T': 9};
             var1['V'] = var6;
@@ -1383,11 +1383,11 @@ case 92:
     var5 = Object.create(var5, {constructor: {value: var4}});
     var17 = var5;
     var4 = new var17[var4](var16);
-    var5 = var4 instanceof Object ? var4 : var5;
-    var _closure1_slot11 = var5;
-    var4 = var11[var9];
-    var4 = var10.bind(var1)(var4);
-    var12 = var4.MessageType;
+    var6 = var4 instanceof Object ? var4 : var5;
+    var _closure1_slot11 = var6;
+    var4 = var12[var10];
+    var4 = var11.bind(var1)(var4);
+    var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function Subtitle$Type() {
             var5 = this;
@@ -1395,7 +1395,7 @@ case 92:
             var4 = _closure2_slot0;
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot14;
             var6 = new Array(3);
             var1 = {'no': 1, 'name': 'link', 'kind': 'scalar', 'T': 9};
             var6[0] = var1;
@@ -1672,16 +1672,313 @@ case 103:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var4 = var4.bind(var1)(var12);
-    var12 = var4.prototype;
-    var12 = Object.create(var12, {constructor: {value: var4}});
-    var17 = var12;
+    var4 = var4.bind(var1)(var5);
+    var5 = var4.prototype;
+    var5 = Object.create(var5, {constructor: {value: var4}});
+    var17 = var5;
     var4 = new var17[var4](var16);
-    var4 = var4 instanceof Object ? var4 : var12;
-    var _closure1_slot12 = var4;
-    var9 = var11[var9];
-    var9 = var10.bind(var1)(var9);
-    var9 = var9.MessageType;
+    var5 = var4 instanceof Object ? var4 : var5;
+    var _closure1_slot12 = var5;
+    var4 = var12[var10];
+    var4 = var11.bind(var1)(var4);
+    var13 = var4.MessageType;
+    var4 = function(arg1) {
+        var4 = function Disclaimer$Type() {
+            var5 = this;
+            var2 = _closure1_slot3;
+            var4 = _closure2_slot0;
+            var3 = undefined;
+            var2 = var2.bind(var3)(var5, var4);
+            var2 = _closure1_slot14;
+            var6 = new Array(2);
+            var1 = {'no': 1, 'name': 'disclaimer_text', 'kind': 'scalar', 'T': 9};
+            var6[0] = var1;
+            var1 = {'no': 2, 'name': 'disclaimer_help_article', 'kind': 'message'};
+            var7 = function T() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 7;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.HelpArticle;
+                return var1;
+            };
+            var1['T'] = var7;
+            var6[1] = var1;
+            var1 = ['discord_protos.premium_marketing.v1.Disclaimer'];
+            var1[1] = var6;
+            var1 = var2.bind(var3)(var5, var4, var1);
+            return var1;
+        };
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot7;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot4;
+        var5 = {};
+        var1 = 'create';
+        var5['key'] = var1;
+        var1 = function value(arg1) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                var5 = arg1;
+                var4 = this;
+                var1 = {};
+                var2 = '';
+                var1['disclaimerText'] = var2;
+                var2 = global;
+                var2 = var2.globalThis;
+                var10 = var2.Object;
+                var9 = var10.defineProperty;
+                var8 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var7 = 6;
+                var3 = var3[var7];
+                var6 = undefined;
+                var3 = var8.bind(var6)(var3);
+                var8 = var3.MESSAGE_TYPE;
+                var3 = {};
+                var11 = false;
+                var3['enumerable'] = var11;
+                var3['value'] = var4;
+                var3 = var9.bind(var10)(var1, var8, var3);
+                if(!(var6 !== var5)) { _fun0018_ip = 67; continue _fun0018 }
+case 107:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var2 = var2[var7];
+                var3 = var3.bind(var6)(var2);
+                var2 = var3.reflectionMergePartial;
+                var2 = var2.bind(var3)(var4, var1, var5);
+case 67:
+                return var1;
+            }
+        };
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'internalBinaryRead';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2, arg3, arg4) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+case 0:
+                var18 = arg1;
+                var17 = arg3;
+                var1 = arg4;
+                var16 = this;
+                var2 = null;
+                if(!(var2 == var1)) { _fun0019_ip = 12; continue _fun0019 }
+case 13:
+                var2 = var16.create;
+                var1 = var2.bind(var16)();
+case 12:
+                var3 = var18.pos;
+                var2 = arg2;
+                var15 = var3 + var2;
+                var2 = var18.pos;
+                var2 = var2 < var15;
+                var14 = undefined;
+                var12 = 7;
+                var11 = 6;
+                var10 = true;
+                var9 = false;
+                var8 = 'throw';
+                var7 = 2;
+                var6 = 1;
+                var5 = 0;
+                var4 = undefined;
+                var3 = undefined;
+                if(!var2) { _fun0019_ip = 108; continue _fun0019 }
+case 58:
+                var2 = var18.tag;
+                var19 = var2.bind(var18)();
+                var2 = _closure1_slot2;
+                var2 = var2.bind(var14)(var19, var7);
+                var27 = var2[var5];
+                var26 = var2[var6];
+                if(!(var6 !== var27)) { _fun0019_ip = 109; continue _fun0019 }
+case 67:
+                if(!(var7 !== var27)) { _fun0019_ip = 110; continue _fun0019 }
+case 69:
+                var21 = var17.readUnknownField;
+                if(!(var8 !== var21)) { _fun0019_ip = 36; continue _fun0019 }
+case 111:
+                var2 = var18.skip;
+                var2 = var2.bind(var18)(var26);
+                var20 = var21;
+                var19 = var2;
+                if(!(var9 !== var21)) { _fun0019_ip = 96; continue _fun0019 }
+case 100:
+                var23 = var21;
+                if(!(var10 === var21)) { _fun0019_ip = 112; continue _fun0019 }
+case 37:
+                var24 = _closure1_slot0;
+                var22 = _closure1_slot1;
+                var22 = var22[var11];
+                var22 = var24.bind(var14)(var22);
+                var22 = var22.UnknownFieldHandler;
+                var23 = var22.onRead;
+case 112:
+                var32 = var16.typeName;
+                var33 = undefined;
+                var31 = var1;
+                var30 = var27;
+                var29 = var26;
+                var28 = var2;
+                var22 = var33[var23](var32, var31, var30, var29, var28, var27);
+                var20 = var21;
+                var19 = var2;
+                _fun0019_ip = 96; continue _fun0019;
+case 36:
+                var2 = global;
+                var21 = var2.globalThis;
+                var22 = var21.Error;
+                var28 = var16.typeName;
+                var2 = var2.HermesInternal;
+                var24 = var2.concat;
+                var33 = 'Unknown field ';
+                var31 = ' (wire type ';
+                var29 = ') for ';
+                var32 = var27;
+                var30 = var26;
+                var32 = var33[var24](var32, var31, var30, var29, var28, var27);
+                var21 = var22.prototype;
+                var21 = Object.create(var21, {constructor: {value: var22}});
+                var33 = var21;
+                var2 = new var33[var22](var32, var31);
+                var2 = var2 instanceof Object ? var2 : var21;
+                throw var2;
+case 110:
+                var21 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var2 = var2[var12];
+                var2 = var21.bind(var14)(var2);
+                var23 = var2.HelpArticle;
+                var22 = var23.internalBinaryRead;
+                var2 = var18.uint32;
+                var31 = var2.bind(var18)();
+                var29 = var1.disclaimerHelpArticle;
+                var33 = var23;
+                var32 = var18;
+                var30 = var17;
+                var2 = var33[var22](var32, var31, var30, var29, var28);
+                var1['disclaimerHelpArticle'] = var2;
+                var20 = var4;
+                var19 = var3;
+                _fun0019_ip = 96; continue _fun0019;
+case 109:
+                var2 = var18.string;
+                var2 = var2.bind(var18)();
+                var1['disclaimerText'] = var2;
+                var20 = var4;
+                var19 = var3;
+case 96:
+                var2 = var18.pos;
+                var4 = var20;
+                var3 = var19;
+                if(var2 < var15) { _fun0019_ip = 58; continue _fun0019 }
+case 108:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'internalBinaryWrite';
+        var5['key'] = var7;
+        var6 = function value(arg1, arg2, arg3) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+                var5 = arg1;
+                var1 = arg2;
+                var2 = arg3;
+                var4 = var5.disclaimerText;
+                var3 = '';
+                if(!(var3 !== var4)) { _fun0020_ip = 113; continue _fun0020 }
+case 114:
+                var6 = var1.tag;
+                var7 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var3 = 6;
+                var4 = var4[var3];
+                var3 = undefined;
+                var3 = var7.bind(var3)(var4);
+                var3 = var3.WireType;
+                var4 = var3.LengthDelimited;
+                var3 = 1;
+                var6 = var6.bind(var1)(var3, var4);
+                var4 = var6.string;
+                var3 = var5.disclaimerText;
+                var3 = var4.bind(var6)(var3);
+case 113:
+                var3 = var5.disclaimerHelpArticle;
+                if(!var3) { _fun0020_ip = 115; continue _fun0020 }
+case 60:
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot1;
+                var3 = 7;
+                var3 = var11[var3];
+                var8 = undefined;
+                var3 = var10.bind(var8)(var3);
+                var7 = var3.HelpArticle;
+                var6 = var7.internalBinaryWrite;
+                var4 = var5.disclaimerHelpArticle;
+                var9 = var1.tag;
+                var3 = 6;
+                var3 = var11[var3];
+                var3 = var10.bind(var8)(var3);
+                var3 = var3.WireType;
+                var8 = var3.LengthDelimited;
+                var3 = 2;
+                var8 = var9.bind(var1)(var3, var8);
+                var3 = var8.fork;
+                var3 = var3.bind(var8)();
+                var4 = var6.bind(var7)(var4, var3, var2);
+                var3 = var4.join;
+                var3 = var3.bind(var4)();
+case 115:
+                var4 = var2.writeUnknownFields;
+                var2 = false;
+                if(!(var2 !== var4)) { _fun0020_ip = 116; continue _fun0020 }
+case 117:
+                var2 = 1;
+                if(!(var2 == var4)) { _fun0020_ip = 26; continue _fun0020 }
+case 118:
+                var6 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var2 = 6;
+                var3 = var3[var2];
+                var2 = undefined;
+                var2 = var6.bind(var2)(var3);
+                var2 = var2.UnknownFieldHandler;
+                var4 = var2.onWrite;
+case 26:
+                var2 = this;
+                var3 = var2.typeName;
+                var2 = undefined;
+                var2 = var4.bind(var2)(var3, var5, var1);
+case 116:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[2] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
+    };
+    var4 = var4.bind(var1)(var13);
+    var13 = var4.prototype;
+    var13 = Object.create(var13, {constructor: {value: var4}});
+    var17 = var13;
+    var4 = new var17[var4](var16);
+    var4 = var4 instanceof Object ? var4 : var13;
+    var _closure1_slot13 = var4;
+    var10 = var12[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.MessageType;
     var2 = function(arg1) {
         var4 = function AnnouncementModalVariant1Properties$Type() {
             var5 = this;
@@ -1689,8 +1986,8 @@ case 103:
             var4 = _closure2_slot0;
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot13;
-            var6 = new Array(14);
+            var2 = _closure1_slot14;
+            var6 = new Array(15);
             var1 = {'no': 1, 'name': 'header', 'kind': 'scalar', 'T': 9};
             var6[0] = var1;
             var1 = {'no': 2, 'name': 'subheader', 'kind': 'scalar', 'T': 9};
@@ -1733,12 +2030,19 @@ case 103:
             var1['T'] = var8;
             var6[12] = var1;
             var1 = {'no': 14, 'name': 'storage', 'kind': 'message'};
-            var7 = function T() {
+            var8 = function T() {
                 var1 = _closure1_slot11;
                 return var1;
             };
-            var1['T'] = var7;
+            var1['T'] = var8;
             var6[13] = var1;
+            var1 = {'no': 15, 'name': 'disclaimer', 'kind': 'message'};
+            var7 = function T() {
+                var1 = _closure1_slot13;
+                return var1;
+            };
+            var1['T'] = var7;
+            var6[14] = var1;
             var1 = ['discord_protos.premium_marketing.v1.AnnouncementModalVariant1Properties'];
             var1[1] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
@@ -1754,7 +2058,7 @@ case 103:
         var1 = 'create';
         var5['key'] = var1;
         var1 = function value(arg1) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var5 = arg1;
                 var4 = this;
@@ -1779,15 +2083,15 @@ case 0:
                 var3['enumerable'] = var11;
                 var3['value'] = var4;
                 var3 = var9.bind(var10)(var1, var8, var3);
-                if(!(var6 !== var5)) { _fun0018_ip = 107; continue _fun0018 }
-case 108:
+                if(!(var6 !== var5)) { _fun0021_ip = 119; continue _fun0021 }
+case 120:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var7];
                 var3 = var3.bind(var6)(var2);
                 var2 = var3.reflectionMergePartial;
                 var2 = var2.bind(var3)(var4, var1, var5);
-case 107:
+case 119:
                 return var1;
             }
         };
@@ -1798,14 +2102,14 @@ case 107:
         var7 = 'internalBinaryRead';
         var5['key'] = var7;
         var7 = function value(arg1, arg2, arg3, arg4) {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var19 = arg1;
                 var18 = arg3;
                 var1 = arg4;
                 var2 = this;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0019_ip = 12; continue _fun0019 }
+                if(!(var3 == var1)) { _fun0022_ip = 12; continue _fun0022 }
 case 13:
                 var3 = var2.create;
                 var1 = var3.bind(var2)();
@@ -1825,7 +2129,7 @@ case 12:
                 var6 = 1;
                 var5 = undefined;
                 var4 = undefined;
-                if(!var3) { _fun0019_ip = 109; continue _fun0019 }
+                if(!var3) { _fun0022_ip = 121; continue _fun0022 }
 case 47:
                 var3 = var19.tag;
                 var7 = var3.bind(var19)();
@@ -1833,22 +2137,36 @@ case 47:
                 var3 = var3.bind(var16)(var7, var10);
                 var8 = var3[var9];
                 var7 = var3[var6];
-                SwitchImm(value_reg=7, jump_table_address=798, default_jump_address=601, unsigned_min_value=1, unsigned_max_value=14) // Switch table: [578, 555, 529, 503, 449, 393, 367, 341, 315, 289, 263, 237, 183, 127];
-case 110:
-                var22 = _closure1_slot11;
+                SwitchImm(value_reg=7, jump_table_address=854, default_jump_address=657, unsigned_min_value=1, unsigned_max_value=15) // Switch table: [634, 611, 585, 559, 505, 449, 423, 397, 371, 345, 319, 293, 239, 183, 127];
+case 122:
+                var22 = _closure1_slot13;
                 var21 = var22.internalBinaryRead;
                 var3 = var19.uint32;
                 var29 = var3.bind(var19)();
-                var27 = var1.storage;
+                var27 = var1.disclaimer;
                 var31 = var22;
                 var30 = var19;
                 var28 = var18;
                 var3 = var31[var21](var30, var29, var28, var27, var26);
+                var1['disclaimer'] = var3;
+                var21 = var5;
+                var20 = var4;
+                _fun0022_ip = 123; continue _fun0022;
+case 124:
+                var24 = _closure1_slot11;
+                var23 = var24.internalBinaryRead;
+                var3 = var19.uint32;
+                var29 = var3.bind(var19)();
+                var27 = var1.storage;
+                var31 = var24;
+                var30 = var19;
+                var28 = var18;
+                var3 = var31[var23](var30, var29, var28, var27, var26);
                 var1['storage'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 112:
+                _fun0022_ip = 123; continue _fun0022;
+case 102:
                 var23 = var1.heroArtVideoSubtitles;
                 var22 = var23.push;
                 var25 = _closure1_slot12;
@@ -1859,50 +2177,50 @@ case 112:
                 var3 = var22.bind(var23)(var3);
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 113:
+                _fun0022_ip = 123; continue _fun0022;
+case 125:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['body'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 114:
+                _fun0022_ip = 123; continue _fun0022;
+case 126:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['modalTopPill'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 115:
+                _fun0022_ip = 123; continue _fun0022;
+case 68:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['heroArtImageLinkLightTheme'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 116:
+                _fun0022_ip = 123; continue _fun0022;
+case 46:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['heroArtImageLinkDarkTheme'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 117:
+                _fun0022_ip = 123; continue _fun0022;
+case 73:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['heroArtVideoLinkLightTheme'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 118:
+                _fun0022_ip = 123; continue _fun0022;
+case 127:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['dismissKey'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 119:
+                _fun0022_ip = 123; continue _fun0022;
+case 128:
                 var24 = _closure1_slot10;
                 var23 = var24.internalBinaryRead;
                 var3 = var19.uint32;
@@ -1915,8 +2233,8 @@ case 119:
                 var1['button'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 120:
+                _fun0022_ip = 123; continue _fun0022;
+case 129:
                 var23 = var1.featureCards;
                 var22 = var23.push;
                 var25 = _closure1_slot9;
@@ -1927,55 +2245,55 @@ case 120:
                 var3 = var22.bind(var23)(var3);
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 121:
+                _fun0022_ip = 123; continue _fun0022;
+case 130:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['helpArticleId'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 122:
+                _fun0022_ip = 123; continue _fun0022;
+case 131:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['videoLink'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 123:
+                _fun0022_ip = 123; continue _fun0022;
+case 132:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['subheader'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 124:
+                _fun0022_ip = 123; continue _fun0022;
+case 133:
                 var3 = var19.string;
                 var3 = var3.bind(var19)();
                 var1['header'] = var3;
                 var21 = var5;
                 var20 = var4;
-                _fun0019_ip = 111; continue _fun0019;
-case 125:
+                _fun0022_ip = 123; continue _fun0022;
+case 93:
                 var22 = var18.readUnknownField;
-                if(!(var11 !== var22)) { _fun0019_ip = 126; continue _fun0019 }
-case 127:
+                if(!(var11 !== var22)) { _fun0022_ip = 134; continue _fun0022 }
+case 135:
                 var3 = var19.skip;
                 var3 = var3.bind(var19)(var7);
                 var21 = var22;
                 var20 = var3;
-                if(!(var12 !== var22)) { _fun0019_ip = 111; continue _fun0019 }
-case 128:
+                if(!(var12 !== var22)) { _fun0022_ip = 123; continue _fun0022 }
+case 136:
                 var24 = var22;
-                if(!(var13 === var22)) { _fun0019_ip = 129; continue _fun0019 }
-case 130:
+                if(!(var13 === var22)) { _fun0022_ip = 137; continue _fun0022 }
+case 138:
                 var25 = _closure1_slot0;
                 var23 = _closure1_slot1;
                 var23 = var23[var14];
                 var23 = var25.bind(var16)(var23);
                 var23 = var23.UnknownFieldHandler;
                 var24 = var23.onRead;
-case 129:
+case 137:
                 var30 = var2.typeName;
                 var31 = undefined;
                 var29 = var1;
@@ -1985,14 +2303,14 @@ case 129:
                 var23 = var31[var24](var30, var29, var28, var27, var26, var25);
                 var21 = var22;
                 var20 = var3;
-case 111:
+case 123:
                 var3 = var19.pos;
                 var5 = var21;
                 var4 = var20;
-                if(var3 < var17) { _fun0019_ip = 47; continue _fun0019 }
-case 109:
+                if(var3 < var17) { _fun0022_ip = 47; continue _fun0022 }
+case 121:
                 return var1;
-case 126:
+case 134:
                 var1 = global;
                 var3 = var1.globalThis;
                 var3 = var3.Error;
@@ -2019,15 +2337,15 @@ case 126:
         var7 = 'internalBinaryWrite';
         var5['key'] = var7;
         var6 = function value(arg1, arg2, arg3) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var5 = arg1;
                 var1 = arg2;
                 var3 = arg3;
                 var2 = var5.header;
                 var8 = '';
-                if(!(var8 !== var2)) { _fun0020_ip = 79; continue _fun0020 }
-case 131:
+                if(!(var8 !== var2)) { _fun0023_ip = 79; continue _fun0023 }
+case 139:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -2044,8 +2362,8 @@ case 131:
                 var2 = var4.bind(var6)(var2);
 case 79:
                 var2 = var5.subheader;
-                if(!(var8 !== var2)) { _fun0020_ip = 132; continue _fun0020 }
-case 133:
+                if(!(var8 !== var2)) { _fun0023_ip = 140; continue _fun0023 }
+case 141:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -2060,10 +2378,10 @@ case 133:
                 var4 = var6.string;
                 var2 = var5.subheader;
                 var2 = var4.bind(var6)(var2);
-case 132:
+case 140:
                 var2 = var5.videoLink;
-                if(!(var8 !== var2)) { _fun0020_ip = 134; continue _fun0020 }
-case 135:
+                if(!(var8 !== var2)) { _fun0023_ip = 142; continue _fun0023 }
+case 143:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -2078,10 +2396,10 @@ case 135:
                 var4 = var6.string;
                 var2 = var5.videoLink;
                 var2 = var4.bind(var6)(var2);
-case 134:
+case 142:
                 var2 = var5.helpArticleId;
-                if(!(var8 !== var2)) { _fun0020_ip = 136; continue _fun0020 }
-case 137:
+                if(!(var8 !== var2)) { _fun0023_ip = 110; continue _fun0023 }
+case 144:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -2096,7 +2414,7 @@ case 137:
                 var4 = var6.string;
                 var2 = var5.helpArticleId;
                 var2 = var4.bind(var6)(var2);
-case 136:
+case 110:
                 var2 = var5.featureCards;
                 var2 = var2.length;
                 var9 = 0;
@@ -2105,8 +2423,8 @@ case 136:
                 var4 = undefined;
                 var11 = 5;
                 var10 = 0;
-                if(!var6) { _fun0020_ip = 138; continue _fun0020 }
-case 139:
+                if(!var6) { _fun0023_ip = 145; continue _fun0023 }
+case 146:
                 var14 = _closure1_slot9;
                 var13 = var14.internalBinaryWrite;
                 var6 = var5.featureCards;
@@ -2127,11 +2445,11 @@ case 139:
                 var10 = var10 + 1;
                 var6 = var5.featureCards;
                 var6 = var6.length;
-                if(var10 < var6) { _fun0020_ip = 139; continue _fun0020 }
-case 138:
+                if(var10 < var6) { _fun0023_ip = 146; continue _fun0023 }
+case 145:
                 var6 = var5.button;
-                if(!var6) { _fun0020_ip = 140; continue _fun0020 }
-case 141:
+                if(!var6) { _fun0023_ip = 147; continue _fun0023 }
+case 148:
                 var12 = _closure1_slot10;
                 var11 = var12.internalBinaryWrite;
                 var10 = var5.button;
@@ -2148,10 +2466,10 @@ case 141:
                 var10 = var11.bind(var12)(var10, var6, var3);
                 var6 = var10.join;
                 var6 = var6.bind(var10)();
-case 140:
+case 147:
                 var6 = var5.dismissKey;
-                if(!(var8 !== var6)) { _fun0020_ip = 142; continue _fun0020 }
-case 143:
+                if(!(var8 !== var6)) { _fun0023_ip = 149; continue _fun0023 }
+case 150:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2164,10 +2482,10 @@ case 143:
                 var10 = var11.string;
                 var6 = var5.dismissKey;
                 var6 = var10.bind(var11)(var6);
-case 142:
+case 149:
                 var6 = var5.heroArtVideoLinkLightTheme;
-                if(!(var8 !== var6)) { _fun0020_ip = 144; continue _fun0020 }
-case 145:
+                if(!(var8 !== var6)) { _fun0023_ip = 151; continue _fun0023 }
+case 152:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2180,10 +2498,10 @@ case 145:
                 var10 = var11.string;
                 var6 = var5.heroArtVideoLinkLightTheme;
                 var6 = var10.bind(var11)(var6);
-case 144:
+case 151:
                 var6 = var5.heroArtImageLinkDarkTheme;
-                if(!(var8 !== var6)) { _fun0020_ip = 146; continue _fun0020 }
-case 147:
+                if(!(var8 !== var6)) { _fun0023_ip = 153; continue _fun0023 }
+case 154:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2196,10 +2514,10 @@ case 147:
                 var10 = var11.string;
                 var6 = var5.heroArtImageLinkDarkTheme;
                 var6 = var10.bind(var11)(var6);
-case 146:
+case 153:
                 var6 = var5.heroArtImageLinkLightTheme;
-                if(!(var8 !== var6)) { _fun0020_ip = 148; continue _fun0020 }
-case 149:
+                if(!(var8 !== var6)) { _fun0023_ip = 155; continue _fun0023 }
+case 156:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2212,10 +2530,10 @@ case 149:
                 var10 = var11.string;
                 var6 = var5.heroArtImageLinkLightTheme;
                 var6 = var10.bind(var11)(var6);
-case 148:
+case 155:
                 var6 = var5.modalTopPill;
-                if(!(var8 !== var6)) { _fun0020_ip = 150; continue _fun0020 }
-case 151:
+                if(!(var8 !== var6)) { _fun0023_ip = 157; continue _fun0023 }
+case 158:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2228,10 +2546,10 @@ case 151:
                 var10 = var11.string;
                 var6 = var5.modalTopPill;
                 var6 = var10.bind(var11)(var6);
-case 150:
+case 157:
                 var6 = var5.body;
-                if(!(var8 !== var6)) { _fun0020_ip = 152; continue _fun0020 }
-case 153:
+                if(!(var8 !== var6)) { _fun0023_ip = 159; continue _fun0023 }
+case 160:
                 var10 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2244,14 +2562,14 @@ case 153:
                 var8 = var10.string;
                 var6 = var5.body;
                 var6 = var8.bind(var10)(var6);
-case 152:
+case 159:
                 var6 = var5.heroArtVideoSubtitles;
                 var6 = var6.length;
                 var6 = var9 < var6;
                 var8 = 13;
                 var9 = 0;
-                if(!var6) { _fun0020_ip = 154; continue _fun0020 }
-case 155:
+                if(!var6) { _fun0023_ip = 161; continue _fun0023 }
+case 162:
                 var12 = _closure1_slot12;
                 var11 = var12.internalBinaryWrite;
                 var6 = var5.heroArtVideoSubtitles;
@@ -2272,11 +2590,11 @@ case 155:
                 var9 = var9 + 1;
                 var6 = var5.heroArtVideoSubtitles;
                 var6 = var6.length;
-                if(var9 < var6) { _fun0020_ip = 155; continue _fun0020 }
-case 154:
+                if(var9 < var6) { _fun0023_ip = 162; continue _fun0023 }
+case 161:
                 var6 = var5.storage;
-                if(!var6) { _fun0020_ip = 156; continue _fun0020 }
-case 157:
+                if(!var6) { _fun0023_ip = 163; continue _fun0023 }
+case 164:
                 var10 = _closure1_slot11;
                 var9 = var10.internalBinaryWrite;
                 var8 = var5.storage;
@@ -2294,25 +2612,46 @@ case 157:
                 var8 = var9.bind(var10)(var8, var6, var3);
                 var6 = var8.join;
                 var6 = var6.bind(var8)();
-case 156:
+case 163:
+                var6 = var5.disclaimer;
+                if(!var6) { _fun0023_ip = 165; continue _fun0023 }
+case 166:
+                var10 = _closure1_slot13;
+                var9 = var10.internalBinaryWrite;
+                var8 = var5.disclaimer;
+                var12 = var1.tag;
+                var11 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var6 = var6[var7];
+                var6 = var11.bind(var4)(var6);
+                var6 = var6.WireType;
+                var11 = var6.LengthDelimited;
+                var6 = 15;
+                var11 = var12.bind(var1)(var6, var11);
+                var6 = var11.fork;
+                var6 = var6.bind(var11)();
+                var8 = var9.bind(var10)(var8, var6, var3);
+                var6 = var8.join;
+                var6 = var6.bind(var8)();
+case 165:
                 var3 = var3.writeUnknownFields;
                 var6 = false;
-                if(!(var6 !== var3)) { _fun0020_ip = 158; continue _fun0020 }
-case 159:
+                if(!(var6 !== var3)) { _fun0023_ip = 167; continue _fun0023 }
+case 168:
                 var6 = 1;
-                if(!(var6 == var3)) { _fun0020_ip = 160; continue _fun0020 }
-case 161:
+                if(!(var6 == var3)) { _fun0023_ip = 169; continue _fun0023 }
+case 170:
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var7];
                 var2 = var6.bind(var4)(var2);
                 var2 = var2.UnknownFieldHandler;
                 var3 = var2.onWrite;
-case 160:
+case 169:
                 var2 = this;
                 var2 = var2.typeName;
                 var2 = var3.bind(var4)(var2, var5, var1);
-case 158:
+case 167:
                 return var1;
             }
         };
@@ -2321,23 +2660,24 @@ case 158:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var2 = var2.bind(var1)(var9);
-    var9 = var2.prototype;
-    var9 = Object.create(var9, {constructor: {value: var2}});
-    var17 = var9;
+    var2 = var2.bind(var1)(var10);
+    var10 = var2.prototype;
+    var10 = Object.create(var10, {constructor: {value: var2}});
+    var17 = var10;
     var2 = new var17[var2](var16);
-    var2 = var2 instanceof Object ? var2 : var9;
-    var9 = 7;
-    var9 = var11[var9];
-    var11 = var10.bind(var1)(var9);
-    var10 = var11.fileFinishedImporting;
-    var9 = '../discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx';
-    var9 = var10.bind(var11)(var9);
-    var3['ButtonAction'] = var8;
-    var3['FeatureCard'] = var7;
-    var3['SubscriptionButton'] = var6;
-    var3['Variant1Storage'] = var5;
-    var3['Subtitle'] = var4;
+    var2 = var2 instanceof Object ? var2 : var10;
+    var10 = 8;
+    var10 = var12[var10];
+    var12 = var11.bind(var1)(var10);
+    var11 = var12.fileFinishedImporting;
+    var10 = '../discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx';
+    var10 = var11.bind(var12)(var10);
+    var3['ButtonAction'] = var9;
+    var3['FeatureCard'] = var8;
+    var3['SubscriptionButton'] = var7;
+    var3['Variant1Storage'] = var6;
+    var3['Subtitle'] = var5;
+    var3['Disclaimer'] = var4;
     var3['AnnouncementModalVariant1Properties'] = var2;
     return var1;
 })();

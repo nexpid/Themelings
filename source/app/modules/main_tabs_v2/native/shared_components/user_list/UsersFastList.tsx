@@ -420,11 +420,12 @@ case 23:
             var23 = var5.badgeWrapper;
             var17['style'] = var23;
             var25 = _closure1_slot7;
-            var24 = _closure1_slot1;
+            var24 = _closure1_slot0;
             var27 = _closure1_slot2;
             var23 = 13;
             var23 = var27[var23];
-            var24 = var24.bind(var4)(var23);
+            var23 = var24.bind(var4)(var23);
+            var24 = var23.Badge;
             var23 = {};
             var27 = var5.badge;
             var23['style'] = var27;

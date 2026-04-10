@@ -342,11 +342,12 @@ case 22:
             var9 = var2.bind(var4)(var1);
             _fun0001_ip = 23; continue _fun0001;
 case 21:
-            var2 = _closure1_slot1;
+            var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 12;
             var1 = var3[var1];
-            var9 = var2.bind(var4)(var1);
+            var1 = var2.bind(var4)(var1);
+            var9 = var1.TextInput;
 case 23:
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;

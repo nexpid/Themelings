@@ -41,12 +41,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.UnreadSetting;
+    var4 = var4.getThemedRippleConfig;
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.getThemedRippleConfig;
+    var4 = var4.UnreadSetting;
     var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var6[var4];
@@ -350,7 +350,7 @@ case 16:
             var6[1] = var7;
             var1['style'] = var6;
             var1['underlayColor'] = var23;
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot8;
             var6 = {};
             var6['color'] = var23;
             var6 = var7.bind(var3)(var6);
@@ -431,7 +431,7 @@ case 24:
             var25 = undefined;
             if(var18) { _fun0001_ip = 22; continue _fun0001 }
 case 25:
-            var30 = _closure1_slot8;
+            var30 = _closure1_slot9;
             var30 = var30.ALL_MESSAGES;
             var25 = undefined;
             if(!(var20 === var30)) { _fun0001_ip = 22; continue _fun0001 }

@@ -69,12 +69,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var14 = var2.index;
-            var _closure2_slot0 = var14;
-            var13 = var2.userId;
-            var _closure2_slot1 = var13;
-            var19 = var2.guildId;
-            var _closure2_slot2 = var19;
+            var15 = var2.index;
+            var _closure2_slot0 = var15;
+            var14 = var2.userId;
+            var _closure2_slot1 = var14;
+            var18 = var2.guildId;
+            var _closure2_slot2 = var18;
             var8 = var2.fullwidth;
             var6 = var2.panelVariant;
             var5 = undefined;
@@ -98,13 +98,13 @@ case 2:
             var3 = _closure1_slot0;
             var2 = 10;
             var4 = var10[var2];
-            var16 = var3.bind(var5)(var4);
-            var15 = var16.useStateFromStores;
+            var17 = var3.bind(var5)(var4);
+            var16 = var17.useStateFromStores;
             var4 = _closure1_slot6;
             var12 = new Array(1);
             var12[0] = var4;
             var11 = new Array(1);
-            var11[0] = var13;
+            var11[0] = var14;
             var4 = function() {
                 var3 = _closure1_slot6;
                 var2 = var3.getUser;
@@ -112,15 +112,15 @@ case 2:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var20 = var15.bind(var16)(var12, var4, var11);
-            _closure2_slot4 = var20;
+            var19 = var16.bind(var17)(var12, var4, var11);
+            _closure2_slot4 = var19;
             var4 = _closure1_slot3;
             var12 = var4.useCallback;
             var11 = new Array(5);
-            var11[0] = var14;
-            var11[1] = var19;
-            var11[2] = var13;
-            var11[3] = var20;
+            var11[0] = var15;
+            var11[1] = var18;
+            var11[2] = var14;
+            var11[3] = var19;
             var11[4] = var7;
             var7 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -189,8 +189,8 @@ case 4:
             var10 = new Array(1);
             var10[0] = var2;
             var3 = new Array(2);
-            var3[0] = var19;
-            var3[1] = var20;
+            var3[0] = var18;
+            var3[1] = var19;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -229,15 +229,15 @@ case 8:
                 }
             };
             var2 = var11.bind(var12)(var10, var2, var3);
-            var15 = var2.status;
-            _closure2_slot5 = var15;
+            var16 = var2.status;
+            _closure2_slot5 = var16;
             var14 = var2.activities;
             var17 = var2.isMobileOnline;
-            var13 = var2.isVROnline;
+            var15 = var2.isVROnline;
             var3 = var4.useMemo;
             var2 = new Array(2);
-            var2[0] = var15;
-            var2[1] = var20;
+            var2[0] = var16;
+            var2[1] = var19;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -258,7 +258,7 @@ case 10:
             };
             var12 = var3.bind(var4)(var1, var2);
             var1 = null;
-            if(!(var1 != var20)) { _fun0001_ip = 11; continue _fun0001 }
+            if(!(var1 != var19)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -266,7 +266,7 @@ case 12:
             var2 = var10[var2];
             var4 = var3.bind(var5)(var2);
             var2 = var4.getName;
-            var2 = var2.bind(var4)(var20);
+            var2 = var2.bind(var4)(var19);
             var11 = new Array(2);
             var11[0] = var2;
             var4 = _closure1_slot0;
@@ -274,7 +274,7 @@ case 12:
             var2 = var10[var2];
             var4 = var4.bind(var5)(var2);
             var2 = var4.getStatusLabel;
-            var2 = var2.bind(var4)(var15);
+            var2 = var2.bind(var4)(var16);
             var11[1] = var2;
             var4 = var11.join;
             var2 = ', ';
@@ -297,20 +297,22 @@ case 13:
             var6 = {};
             var9 = var9.content;
             var6['style'] = var9;
-            var15 = _closure1_slot1;
+            var10 = _closure1_slot0;
             var16 = _closure1_slot2;
             var9 = 7;
             var9 = var16[var9];
-            var10 = var15.bind(var5)(var9);
+            var9 = var10.bind(var5)(var9);
+            var10 = var9.Avatar;
             var9 = {};
-            var9['user'] = var20;
-            var20 = var20.avatarDecoration;
-            var9['avatarDecoration'] = var20;
-            var9['guildId'] = var19;
+            var9['user'] = var19;
+            var19 = var19.avatarDecoration;
+            var9['avatarDecoration'] = var19;
+            var9['guildId'] = var18;
             var18 = _closure1_slot10;
             var9['size'] = var18;
             var9['isMobileOnline'] = var17;
-            var9['isVROnline'] = var13;
+            var9['isVROnline'] = var15;
+            var15 = _closure1_slot1;
             var13 = 17;
             var13 = var16[var13];
             var13 = var15.bind(var5)(var13);

@@ -466,51 +466,52 @@ case 0:
                 var5 = _closure1_slot12;
                 var4 = _closure1_slot4;
                 var3 = {};
-                var10 = _closure2_slot0;
-                var2 = var10.channelRow;
+                var7 = _closure2_slot0;
+                var2 = var7.channelRow;
                 var3['style'] = var2;
-                var9 = _closure1_slot11;
-                var8 = _closure1_slot1;
+                var15 = _closure1_slot11;
+                var8 = _closure1_slot0;
                 var2 = _closure1_slot3;
-                var14 = 22;
-                var6 = var2[var14];
+                var10 = 20;
+                var6 = var2[var10];
                 var2 = undefined;
-                var8 = var8.bind(var2)(var6);
+                var6 = var8.bind(var2)(var6);
+                var14 = var6.Icon;
                 var6 = {};
-                var11 = var10.channelIcon;
-                var10 = new Array(2);
-                var10[0] = var11;
-                var15 = null;
+                var8 = var7.channelIcon;
+                var7 = new Array(2);
+                var7[0] = var8;
+                var8 = null;
                 if(!var13) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
                 var16 = _closure2_slot0;
-                var15 = var16.channelCategoryIcon;
+                var8 = var16.channelCategoryIcon;
 case 9:
-                var10[1] = var15;
-                var6['style'] = var10;
-                var15 = _closure1_slot1;
-                var10 = _closure1_slot3;
-                var16 = 8;
-                var16 = var10[var16];
-                var16 = var15.bind(var2)(var16);
-                var16 = var16.unsafe_rawColors;
-                var16 = var16.PRIMARY_400;
-                var6['color'] = var16;
-                var14 = var10[var14];
-                var14 = var15.bind(var2)(var14);
-                var14 = var14.Sizes;
-                var14 = var14.CUSTOM;
-                var6['size'] = var14;
-                var14 = _closure1_slot18;
-                var14 = var14.bind(var2)(var1);
-                var6['source'] = var14;
-                var8 = var9.bind(var2)(var8, var6);
-                var6 = new Array(2);
-                var6[0] = var8;
-                var9 = _closure1_slot11;
+                var7[1] = var8;
+                var6['style'] = var7;
+                var16 = _closure1_slot1;
+                var7 = _closure1_slot3;
+                var8 = 8;
+                var8 = var7[var8];
+                var8 = var16.bind(var2)(var8);
+                var8 = var8.unsafe_rawColors;
+                var8 = var8.PRIMARY_400;
+                var6['color'] = var8;
                 var8 = _closure1_slot0;
-                var7 = 20;
-                var7 = var10[var7];
+                var16 = var7[var10];
+                var16 = var8.bind(var2)(var16);
+                var16 = var16.Icon;
+                var16 = var16.Sizes;
+                var16 = var16.CUSTOM;
+                var6['size'] = var16;
+                var16 = _closure1_slot18;
+                var16 = var16.bind(var2)(var1);
+                var6['source'] = var16;
+                var14 = var15.bind(var2)(var14, var6);
+                var6 = new Array(2);
+                var6[0] = var14;
+                var9 = _closure1_slot11;
+                var7 = var7[var10];
                 var7 = var8.bind(var2)(var7);
                 var8 = var7.LegacyText;
                 var7 = {};
@@ -571,14 +572,14 @@ case 14:
 case 16:
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var1 = 25;
+            var1 = 24;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             _fun0004_ip = 17; continue _fun0004;
 case 15:
             var5 = _closure1_slot1;
             var6 = _closure1_slot3;
-            var3 = 24;
+            var3 = 23;
             var3 = var6[var3];
             var1 = var5.bind(var4)(var3);
 case 17:
@@ -586,7 +587,7 @@ case 17:
 case 13:
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var2 = 23;
+            var2 = 22;
             var2 = var5[var2];
             var1 = var3.bind(var4)(var2);
 case 18:
@@ -612,7 +613,7 @@ case 0:
                 var5 = _closure1_slot11;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot3;
-                var2 = 26;
+                var2 = 25;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
@@ -627,7 +628,7 @@ case 0:
 case 20:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot3;
-                var7 = 27;
+                var7 = 26;
                 var7 = var9[var7];
                 var9 = var8.bind(var4)(var7);
                 var8 = var9.int2hex;
@@ -825,7 +826,7 @@ case 19:
     var4['protip'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 28;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

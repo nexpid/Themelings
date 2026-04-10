@@ -644,14 +644,14 @@ case 33:
             var2 = _closure1_slot6;
             var1 = {};
             var9 = _closure1_slot12;
-            var7 = _closure1_slot1;
+            var20 = _closure1_slot0;
             var17 = _closure1_slot2;
             var5 = 19;
             var5 = var17[var5];
-            var7 = var7.bind(var4)(var5);
+            var5 = var20.bind(var4)(var5);
+            var7 = var5.AccessibilityFocusView;
             var5 = {'accessible': true, 'role': 'meter', 'aria-label': null, 'aria-valuenow': null, 'aria-valuemin': 0, 'aria-valuemax': 100};
             var10 = true;
-            var20 = _closure1_slot0;
             var13 = 18;
             var18 = var17[var13];
             var18 = var20.bind(var4)(var18);

@@ -34,7 +34,7 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var16 = var9.bind(var12)(var8, var7);
+            var19 = var9.bind(var12)(var8, var7);
             var7 = 8;
             var7 = var6[var7];
             var8 = var2.bind(var4)(var7);
@@ -45,7 +45,7 @@ case 0:
             var8 = var6[var8];
             var9 = var7.bind(var4)(var8);
             var8 = var9.getFormattedName;
-            var12 = var8.bind(var9)(var16);
+            var12 = var8.bind(var9)(var19);
             var15 = _closure1_slot3;
             var14 = var15.useEffect;
             var9 = new Array(1);
@@ -110,19 +110,19 @@ case 0:
             var2 = var1.TableRow;
             var1 = {};
             var6 = null;
-            var6 = var6 != var16;
+            var6 = var6 != var19;
             if(!var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var14 = _closure1_slot7;
-            var13 = _closure1_slot1;
+            var16 = _closure1_slot0;
             var18 = _closure1_slot2;
             var15 = 14;
             var8 = var18[var15];
-            var13 = var13.bind(var4)(var8);
+            var8 = var16.bind(var4)(var8);
+            var13 = var8.Avatar;
             var8 = {};
-            var8['user'] = var16;
+            var8['user'] = var19;
             var8['guildId'] = var4;
-            var16 = _closure1_slot0;
             var15 = var18[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.AvatarSizes;

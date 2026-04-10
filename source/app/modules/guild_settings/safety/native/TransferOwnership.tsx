@@ -239,10 +239,10 @@ case 2:
             var1 = var15[var1];
             var3 = var13.bind(var4)(var1);
             var2 = var3.useToken;
-            var22 = _closure1_slot1;
+            var18 = _closure1_slot1;
             var11 = 9;
             var1 = var15[var11];
-            var1 = var22.bind(var4)(var1);
+            var1 = var18.bind(var4)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.TABLE_ROW_PADDING;
@@ -294,7 +294,7 @@ case 2:
             var _closure2_slot4 = var1;
             var1 = 17;
             var1 = var15[var1];
-            var3 = var22.bind(var4)(var1);
+            var3 = var18.bind(var4)(var1);
             var2 = var3.getNickname;
             var1 = var20.id;
             var16 = var2.bind(var3)(var1, var4, var25);
@@ -373,7 +373,7 @@ case 14:
             var5 = {};
             var8 = {};
             var11 = var15[var11];
-            var11 = var22.bind(var4)(var11);
+            var11 = var18.bind(var4)(var11);
             var11 = var11.spacing;
             var11 = var11.PX_16;
             var8['paddingTop'] = var11;
@@ -386,7 +386,7 @@ case 14:
             var9 = {};
             var17 = 20;
             var17 = var15[var17];
-            var17 = var22.bind(var4)(var17);
+            var17 = var18.bind(var4)(var17);
             var9['source'] = var17;
             var17 = var24.arrow;
             var9['style'] = var17;
@@ -398,7 +398,8 @@ case 14:
             var11['style'] = var17;
             var26 = 21;
             var17 = var15[var26];
-            var18 = var22.bind(var4)(var17);
+            var17 = var13.bind(var4)(var17);
+            var18 = var17.Avatar;
             var17 = {};
             var17['user'] = var21;
             var21 = var20.id;
@@ -415,7 +416,8 @@ case 14:
             var21 = var24.avatarFauxBorder;
             var18['style'] = var21;
             var21 = var15[var26];
-            var22 = var22.bind(var4)(var21);
+            var21 = var13.bind(var4)(var21);
+            var22 = var21.Avatar;
             var21 = {};
             var21['user'] = var25;
             var21['guildId'] = var4;
@@ -499,7 +501,7 @@ case 16:
 case 0:
                     var1 = _closure1_slot16;
                     var4 = undefined;
-                    var15 = var1.bind(var4)();
+                    var17 = var1.bind(var4)();
                     var3 = _closure1_slot15;
                     var2 = _closure1_slot14;
                     var1 = {};
@@ -510,7 +512,7 @@ case 0:
                     var5 = var7.bind(var4)(var5);
                     var7 = var5.Text;
                     var5 = {'style': null, 'variant': 'text-sm/bold', 'color': 'text-default'};
-                    var8 = var15.aka;
+                    var8 = var17.aka;
                     var5['style'] = var8;
                     var8 = ['AKA', ' '];
                     var5['children'] = var8;
@@ -523,20 +525,20 @@ case 0:
                     if(!var8) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
                     var13 = _closure1_slot13;
-                    var12 = _closure1_slot1;
+                    var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
                     var14 = 21;
                     var8 = var16[var14];
-                    var12 = var12.bind(var4)(var8);
+                    var8 = var15.bind(var4)(var8);
+                    var12 = var8.Avatar;
                     var8 = {};
-                    var15 = var15.miniAvatar;
-                    var8['style'] = var15;
-                    var15 = _closure2_slot1;
-                    var8['user'] = var15;
-                    var15 = _closure2_slot0;
-                    var15 = var15.id;
-                    var8['guildId'] = var15;
-                    var15 = _closure1_slot0;
+                    var17 = var17.miniAvatar;
+                    var8['style'] = var17;
+                    var17 = _closure2_slot1;
+                    var8['user'] = var17;
+                    var17 = _closure2_slot0;
+                    var17 = var17.id;
+                    var8['guildId'] = var17;
                     var14 = var16[var14];
                     var14 = var15.bind(var4)(var14);
                     var14 = var14.AvatarSizes;

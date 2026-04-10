@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppealIngestionExternalLink(arg1) {
         var1 = arg1;
-        var12 = var1.text;
+        var10 = var1.text;
         var2 = var1.url;
         var _closure2_slot0 = var2;
         var1 = var1.onPress;
@@ -94,11 +94,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var13.bind(var4)(var1);
         var2 = var1.PressableHighlight;
         var1 = {};
-        var6 = var11.childButton;
-        var1['style'] = var6;
-        var6 = 'button';
-        var1['accessibilityRole'] = var6;
-        var5 = function onPress() {
+        var7 = var11.childButton;
+        var1['style'] = var7;
+        var7 = 'button';
+        var1['accessibilityRole'] = var7;
+        var6 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = _closure2_slot1;
@@ -121,7 +121,7 @@ case 2:
                 return var1;
             }
         };
-        var1['onPress'] = var5;
+        var1['onPress'] = var6;
         var7 = _closure1_slot5;
         var6 = _closure1_slot3;
         var5 = {};
@@ -130,18 +130,18 @@ case 2:
         var8 = 7;
         var8 = var14[var8];
         var8 = var13.bind(var4)(var8);
-        var10 = var8.Text;
+        var9 = var8.Text;
         var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
-        var15 = var11.childButtonText;
-        var8['style'] = var15;
-        var8['children'] = var12;
-        var10 = var3.bind(var4)(var10, var8);
+        var12 = var11.childButtonText;
+        var8['style'] = var12;
+        var8['children'] = var10;
+        var9 = var3.bind(var4)(var9, var8);
         var8 = new Array(2);
-        var8[0] = var10;
-        var10 = _closure1_slot1;
+        var8[0] = var9;
         var9 = 8;
         var9 = var14[var9];
-        var10 = var10.bind(var4)(var9);
+        var9 = var13.bind(var4)(var9);
+        var10 = var9.Icon;
         var9 = {};
         var12 = 9;
         var12 = var14[var12];

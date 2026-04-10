@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot13 = var4;
-    var4 = 55;
+    var4 = 54;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -235,13 +235,13 @@ case 6:
             if(!(var3 == var24)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var21 = _closure1_slot13;
-            var9 = _closure1_slot1;
-            var25 = _closure1_slot2;
-            var22 = 50;
-            var3 = var25[var22];
-            var9 = var9.bind(var4)(var3);
-            var3 = {};
             var23 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var22 = 39;
+            var3 = var25[var22];
+            var3 = var23.bind(var4)(var3);
+            var9 = var3.Avatar;
+            var3 = {};
             var22 = var25[var22];
             var22 = var23.bind(var4)(var22);
             var22 = var22.AvatarSizes;
@@ -1360,19 +1360,19 @@ case 68:
             var3 = _closure1_slot13;
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 51;
+            var1 = 50;
             var1 = var11[var1];
             var1 = var8.bind(var4)(var1);
             var2 = var1.ActionSheet;
             var1 = {};
             var1['showGradient'] = var6;
-            var6 = 52;
+            var6 = 51;
             var6 = var11[var6];
             var12 = var8.bind(var4)(var6);
             var6 = var12.isMetaQuest;
             var6 = var6.bind(var12)();
             var1['startExpanded'] = var6;
-            var6 = 53;
+            var6 = 52;
             var6 = var11[var6];
             var6 = var8.bind(var4)(var6);
             var8 = var6.ActionSheetIconHeader;
@@ -1389,7 +1389,7 @@ case 68:
                 var4 = _closure1_slot13;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 54;
+                var1 = 53;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -1438,7 +1438,7 @@ case 14:
                         var4 = _closure1_slot13;
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var12 = 54;
+                        var12 = 53;
                         var2 = var2[var12];
                         var2 = var3.bind(var5)(var2);
                         var3 = var2.ActionSheetRow;

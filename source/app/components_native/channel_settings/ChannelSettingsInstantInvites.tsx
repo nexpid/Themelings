@@ -353,12 +353,14 @@ case 17:
             if(!(var14 === var1)) { _fun0001_ip = 16; continue _fun0001 }
 case 18:
             var4 = _closure1_slot9;
-            var8 = _closure1_slot1;
+            var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var1 = 13;
             var1 = var19[var1];
-            var3 = var8.bind(var6)(var1);
+            var1 = var18.bind(var6)(var1);
+            var3 = var1.EmptyState;
             var1 = {};
+            var8 = _closure1_slot1;
             var5 = 14;
             var5 = var19[var5];
             var5 = var8.bind(var6)(var5);
@@ -367,7 +369,6 @@ case 18:
             var5 = var19[var5];
             var5 = var8.bind(var6)(var5);
             var1['darkSource'] = var5;
-            var18 = _closure1_slot0;
             var5 = 16;
             var8 = var19[var5];
             var8 = var18.bind(var6)(var8);

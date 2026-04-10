@@ -126,13 +126,13 @@ case 4:
             if(!var10) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
             var17 = _closure1_slot5;
-            var13 = _closure1_slot1;
+            var19 = _closure1_slot0;
             var20 = _closure1_slot2;
             var18 = 9;
             var10 = var20[var18];
-            var13 = var13.bind(var4)(var10);
+            var10 = var19.bind(var4)(var10);
+            var13 = var10.Avatar;
             var10 = {};
-            var19 = _closure1_slot0;
             var18 = var20[var18];
             var18 = var19.bind(var4)(var18);
             var18 = var18.AvatarSizes;
@@ -234,16 +234,16 @@ case 14:
             if(!(var14 == var13)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
             var24 = _closure1_slot5;
-            var23 = _closure1_slot1;
+            var26 = _closure1_slot0;
             var27 = _closure1_slot2;
             var25 = 9;
             var22 = var27[var25];
-            var23 = var23.bind(var6)(var22);
+            var22 = var26.bind(var6)(var22);
+            var23 = var22.Avatar;
             var22 = {};
-            var26 = var16.getAvatarSource;
-            var26 = var26.bind(var16)(var15);
-            var22['source'] = var26;
-            var26 = _closure1_slot0;
+            var28 = var16.getAvatarSource;
+            var28 = var28.bind(var16)(var15);
+            var22['source'] = var28;
             var25 = var27[var25];
             var25 = var26.bind(var6)(var25);
             var25 = var25.AvatarSizes;
@@ -278,16 +278,16 @@ case 13:
             if(!(var14 == var13)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
             var19 = _closure1_slot5;
-            var18 = _closure1_slot1;
+            var21 = _closure1_slot0;
             var22 = _closure1_slot2;
             var20 = 9;
             var14 = var22[var20];
-            var18 = var18.bind(var6)(var14);
+            var14 = var21.bind(var6)(var14);
+            var18 = var14.Avatar;
             var14 = {};
-            var21 = var16.getAvatarSource;
-            var21 = var21.bind(var16)(var15);
-            var14['source'] = var21;
-            var21 = _closure1_slot0;
+            var23 = var16.getAvatarSource;
+            var23 = var23.bind(var16)(var15);
+            var14['source'] = var23;
             var20 = var22[var20];
             var20 = var21.bind(var6)(var20);
             var20 = var20.AvatarSizes;

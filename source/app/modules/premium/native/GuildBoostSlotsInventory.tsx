@@ -263,10 +263,10 @@ case 17:
             };
             var8['onPress'] = var12;
             var13 = _closure1_slot11;
-            var12 = _closure1_slot1;
             var11 = 17;
             var11 = var18[var11];
-            var12 = var12.bind(var5)(var11);
+            var11 = var17.bind(var5)(var11);
+            var12 = var11.LegacyText;
             var11 = {};
             var14 = var14.subscriptionSlotInfoTransferText;
             var11['style'] = var14;
@@ -412,10 +412,10 @@ case 21:
             };
             var11['onPress'] = var16;
             var17 = _closure1_slot11;
-            var16 = _closure1_slot1;
             var15 = 17;
             var15 = var22[var15];
-            var16 = var16.bind(var4)(var15);
+            var15 = var21.bind(var4)(var15);
+            var16 = var15.LegacyText;
             var15 = {};
             var19 = var19.subscribeButtonText;
             var15['style'] = var19;

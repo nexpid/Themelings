@@ -304,12 +304,14 @@ case 32:
             if(!(var7 == var6)) { _fun0001_ip = 33; continue _fun0001 }
 case 30:
             var8 = _closure1_slot8;
-            var11 = _closure1_slot1;
+            var7 = _closure1_slot0;
             var13 = _closure1_slot2;
             var6 = 16;
             var6 = var13[var6];
-            var7 = var11.bind(var4)(var6);
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.Icon;
             var6 = {};
+            var11 = _closure1_slot1;
             var9 = 17;
             var9 = var13[var9];
             var9 = var11.bind(var4)(var9);

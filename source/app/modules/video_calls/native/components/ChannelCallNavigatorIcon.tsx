@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['iconColor'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -206,11 +206,12 @@ case 10:
             if(!(var11 == var18)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
             var17 = _closure1_slot6;
-            var20 = _closure1_slot1;
+            var20 = _closure1_slot0;
             var21 = _closure1_slot2;
             var19 = 10;
             var13 = var21[var19];
-            var14 = var20.bind(var4)(var13);
+            var13 = var20.bind(var4)(var13);
+            var14 = var13.Icon;
             var13 = {};
             var13['source'] = var22;
             var22 = var16.iconColor;
@@ -218,6 +219,7 @@ case 14:
             var13['color'] = var22;
             var19 = var21[var19];
             var19 = var20.bind(var4)(var19);
+            var19 = var19.Icon;
             var19 = var19.Sizes;
             var19 = var19.SMALL_20;
             var13['size'] = var19;
@@ -245,7 +247,7 @@ case 19:
             var14 = _closure1_slot6;
             var13 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var12 = 11;
+            var12 = 10;
             var12 = var17[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.LegacyText;

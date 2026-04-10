@@ -23,7 +23,7 @@ case 2:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var6 = 11;
+            var6 = 10;
             var1 = var9[var6];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -210,15 +210,17 @@ case 0:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var4 = _closure1_slot4;
-                    var6 = _closure1_slot1;
+                    var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var5 = 5;
                     var1 = var7[var5];
                     var3 = undefined;
-                    var2 = var6.bind(var3)(var1);
+                    var1 = var6.bind(var3)(var1);
+                    var2 = var1.Icon;
                     var1 = {};
                     var5 = var7[var5];
                     var5 = var6.bind(var3)(var5);
+                    var5 = var5.Icon;
                     var5 = var5.Sizes;
                     var5 = var5.SMALL;
                     var1['size'] = var5;
@@ -269,7 +271,7 @@ case 19:
     };
     var5 = var8.bind(var9)(var5);
     var _closure1_slot7 = var5;
-    var5 = 12;
+    var5 = 11;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -405,11 +407,12 @@ case 37:
             if(!var9) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
             var12 = _closure1_slot4;
-            var11 = _closure1_slot1;
+            var11 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var9 = 10;
+            var9 = 5;
             var9 = var15[var9];
-            var11 = var11.bind(var4)(var9);
+            var9 = var11.bind(var4)(var9);
+            var11 = var9.Badge;
             var9 = {};
             var14 = var14.countStyle;
             var9['style'] = var14;

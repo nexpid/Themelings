@@ -4,9 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -24,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -78,12 +76,13 @@ case 18:
             var1 = null;
             if(!var2) { _fun0001_ip = 17; continue _fun0001 }
 case 19:
-            var4 = _closure1_slot3;
-            var3 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var4 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var10 = _closure1_slot1;
             var2 = 2;
             var2 = var10[var2];
-            var3 = var3.bind(var5)(var2);
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.Badge;
             var2 = {};
             var2['value'] = var9;
             var9 = true;
@@ -92,9 +91,9 @@ case 19:
 case 17:
             _fun0001_ip = 20; continue _fun0001;
 case 16:
-            var4 = _closure1_slot3;
+            var4 = _closure1_slot2;
             var3 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot1;
             var2 = 4;
             var2 = var9[var2];
             var2 = var3.bind(var5)(var2);
@@ -105,9 +104,9 @@ case 16:
 case 20:
             _fun0001_ip = 21; continue _fun0001;
 case 13:
-            var4 = _closure1_slot3;
+            var4 = _closure1_slot2;
             var13 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var16 = _closure1_slot1;
             var2 = 4;
             var2 = var16[var2];
             var2 = var13.bind(var5)(var2);
@@ -135,9 +134,9 @@ case 13:
 case 21:
             _fun0001_ip = 22; continue _fun0001;
 case 9:
-            var4 = _closure1_slot3;
+            var4 = _closure1_slot2;
             var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var8 = _closure1_slot1;
             var2 = 3;
             var2 = var8[var2];
             var2 = var3.bind(var5)(var2);
@@ -147,12 +146,13 @@ case 9:
 case 22:
             _fun0001_ip = 23; continue _fun0001;
 case 8:
-            var4 = _closure1_slot3;
-            var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var4 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
             var2 = 2;
             var2 = var8[var2];
-            var3 = var3.bind(var5)(var2);
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.Badge;
             var2 = {};
             var2['value'] = var7;
             var2['isMentionLowImportance'] = var6;

@@ -215,7 +215,7 @@ case 19:
             var2['size'] = var6;
             var6 = false;
             var2['canAnimate'] = var6;
-            var14 = var3.bind(var4)(var2);
+            var18 = var3.bind(var4)(var2);
             var4 = _closure1_slot10;
             var3 = _closure1_slot9;
             var2 = {};
@@ -224,9 +224,11 @@ case 19:
             var9 = var13.disabledView;
             var6['style'] = var9;
             var12 = _closure1_slot8;
+            var14 = _closure1_slot0;
             var9 = 15;
             var9 = var15[var9];
-            var11 = var20.bind(var5)(var9);
+            var9 = var14.bind(var5)(var9);
+            var11 = var9.Icon;
             var9 = {};
             var16 = var13.disabledPauseIcon;
             var9['style'] = var16;
@@ -242,10 +244,9 @@ case 19:
             var11 = var15[var17];
             var12 = var20.bind(var5)(var11);
             var11 = {};
-            var18 = var13.guildIcon;
-            var11['style'] = var18;
-            var11['icon'] = var14;
-            var14 = _closure1_slot0;
+            var19 = var13.guildIcon;
+            var11['style'] = var19;
+            var11['icon'] = var18;
             var17 = var15[var17];
             var17 = var14.bind(var5)(var17);
             var17 = var17.GuildIconSizes;

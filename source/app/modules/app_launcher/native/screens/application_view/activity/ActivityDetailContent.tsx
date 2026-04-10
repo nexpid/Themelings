@@ -924,13 +924,13 @@ case 59:
             var7 = var37.buttonContainer;
             var1['style'] = var7;
             var10 = _closure1_slot11;
-            var8 = _closure1_slot1;
+            var29 = _closure1_slot0;
             var35 = _closure1_slot3;
             var24 = 36;
             var7 = var35[var24];
-            var8 = var8.bind(var4)(var7);
+            var7 = var29.bind(var4)(var7);
+            var8 = var7.HelpMessage;
             var7 = {};
-            var29 = _closure1_slot0;
             var24 = var35[var24];
             var24 = var29.bind(var4)(var24);
             var24 = var24.HelpMessageTypes;

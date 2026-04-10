@@ -205,18 +205,18 @@ case 0:
                     var4 = var2.current;
                     var3 = _closure1_slot7;
                     var3 = var3.DISMISSED;
-                    if(!(var4 !== var3)) { _fun0003_ip = 12; continue _fun0003 }
+                    if(!(var4 !== var3)) { _fun0003_ip = 4; continue _fun0003 }
 case 11:
                     var3 = _closure2_slot5;
                     var2 = _closure1_slot7;
                     var2 = var2.SHOWN;
                     var3['current'] = var2;
-                    _fun0003_ip = 13; continue _fun0003;
-case 12:
+                    _fun0003_ip = 12; continue _fun0003;
+case 4:
                     var2 = _closure2_slot4;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 13:
+case 12:
                     var1 = undefined;
                     return var1;
                 }
@@ -226,12 +226,12 @@ case 13:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot3;
-                    if(!var2) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                    if(!var2) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var2 = _closure2_slot6;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 14:
+case 13:
                     var1 = undefined;
                     return var1;
                 }

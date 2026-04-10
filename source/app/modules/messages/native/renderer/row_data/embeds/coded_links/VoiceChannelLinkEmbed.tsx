@@ -44,15 +44,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.Permissions;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot10 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Permissions;
+    var _closure1_slot11 = var4;
+    var4 = 9;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.InviteTypes;
-    var _closure1_slot10 = var4;
-    var4 = 13;
+    var _closure1_slot12 = var4;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -75,42 +83,42 @@ case 0:
             var6 = var2[var1];
             var2 = _closure1_slot6;
             var1 = var2.getChannel;
-            var8 = var1.bind(var2)(var6);
+            var14 = var1.bind(var2)(var6);
             var2 = _closure1_slot7;
             var1 = var2.getGuild;
             var9 = var1.bind(var2)(var5);
             var1 = null;
-            if(!(var1 != var8)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var1 != var14)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var8.isGuildVocal;
-            var2 = var2.bind(var8)();
+            var2 = var14.isGuildVocal;
+            var2 = var2.bind(var14)();
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
             if(!(var1 != var9)) { _fun0001_ip = 2; continue _fun0001 }
 case 5:
             var6 = _closure1_slot8;
             var5 = var6.can;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot11;
             var2 = var2.VIEW_CHANNEL;
-            var2 = var5.bind(var6)(var2, var8);
+            var2 = var5.bind(var6)(var2, var14);
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 6:
             var6 = _closure1_slot8;
             var5 = var6.can;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot11;
             var2 = var2.CONNECT;
-            var2 = var5.bind(var6)(var2, var8);
+            var2 = var5.bind(var6)(var2, var14);
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 7:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 8;
+            var2 = 10;
             var2 = var6[var2];
             var5 = var5.bind(var4)(var2);
             var2 = arg2;
             var2 = var5.bind(var4)(var2);
             var5 = var2.colors;
-            var10 = var2.baseColors;
+            var8 = var2.baseColors;
             var6 = var1 == var9;
             var2 = undefined;
             if(var6) { _fun0001_ip = 8; continue _fun0001 }
@@ -129,101 +137,109 @@ case 12:
             var6 = undefined;
             _fun0001_ip = 14; continue _fun0001;
 case 10:
-            var11 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var2 = 9;
-            var2 = var12[var2];
-            var12 = var11.bind(var4)(var2);
-            var11 = var12.getGuildIconURL;
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var2 = 11;
+            var2 = var11[var2];
+            var11 = var10.bind(var4)(var2);
+            var10 = var11.getGuildIconURL;
             var2 = {};
-            var14 = var1 == var9;
-            var13 = undefined;
-            if(var14) { _fun0001_ip = 15; continue _fun0001 }
+            var13 = var1 == var9;
+            var12 = undefined;
+            if(var13) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var13 = var9.id;
+            var12 = var9.id;
 case 15:
-            var2['id'] = var13;
-            var14 = var1 == var9;
-            var13 = undefined;
-            if(var14) { _fun0001_ip = 17; continue _fun0001 }
+            var2['id'] = var12;
+            var13 = var1 == var9;
+            var12 = undefined;
+            if(var13) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var13 = var9.icon;
+            var12 = var9.icon;
 case 17:
-            var2['icon'] = var13;
-            var13 = true;
-            var2['canAnimate'] = var13;
-            var13 = 128;
-            var2['size'] = var13;
-            var6 = var11.bind(var12)(var2);
+            var2['icon'] = var12;
+            var12 = true;
+            var2['canAnimate'] = var12;
+            var12 = 128;
+            var2['size'] = var12;
+            var6 = var10.bind(var11)(var2);
             var7 = undefined;
 case 14:
             var2 = {};
-            var17 = var2;
-            var16 = var10;
-            var10 = copyDataProperties(var17, var16);
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var10 = 10;
-            var10 = var12[var10];
-            var11 = var11.bind(var4)(var10);
-            var10 = var11.isAndroid;
-            var10 = var10.bind(var11)();
-            var11 = undefined;
-            if(!var10) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-            var11 = '';
-case 19:
-            var10 = 'headerText';
-            var2[9] = var11;
-            var11 = var5.headerColor;
-            var10 = 'headerColor';
-            var2[9] = var11;
-            var10 = var8.isGuildStageVoice;
-            var12 = var10.bind(var8)();
-            var15 = _closure1_slot0;
+            var18 = var2;
+            var17 = var8;
+            var8 = copyDataProperties(var18, var17);
+            var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var10 = 11;
-            var13 = var11[var10];
-            var13 = var15.bind(var4)(var13);
-            var14 = var13.intl;
-            var13 = var14.string;
-            var11 = var11[var10];
-            var11 = var15.bind(var4)(var11);
-            var11 = var11.t;
-            if(var12) { _fun0001_ip = 21; continue _fun0001 }
+            var8 = 12;
+            var8 = var11[var8];
+            var10 = var10.bind(var4)(var8);
+            var8 = var10.isAndroid;
+            var8 = var8.bind(var10)();
+            var10 = undefined;
+            if(!var8) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var10 = '';
+case 19:
+            var8 = 'headerText';
+            var2[7] = var10;
+            var10 = var5.headerColor;
+            var8 = 'headerColor';
+            var2[7] = var10;
+            var8 = var14.isGuildStageVoice;
+            var11 = var8.bind(var14)();
+            var15 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var10 = 13;
+            var12 = var8[var10];
+            var12 = var15.bind(var4)(var12);
+            var13 = var12.intl;
+            var12 = var13.string;
+            var8 = var8[var10];
+            var8 = var15.bind(var4)(var8);
+            var8 = var8.t;
+            if(var11) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-            var12 = var11.gpqgah;
-            var12 = var13.bind(var14)(var12);
+            var11 = var8.gpqgah;
+            var11 = var12.bind(var13)(var11);
             _fun0001_ip = 23; continue _fun0001;
 case 21:
-            var11 = var11["7vb2cc"];
-            var12 = var13.bind(var14)(var11);
+            var8 = var8["7vb2cc"];
+            var11 = var12.bind(var13)(var8);
 case 23:
-            var11 = 'acceptLabelText';
-            var2[10] = var12;
-            var11 = 'onlineText';
-            var2[10] = var4;
-            var11 = 'memberText';
-            var2[10] = var4;
-            var13 = _closure1_slot4;
-            var12 = var13.resolveAssetSource;
-            var14 = _closure1_slot0;
+            var8 = 'acceptLabelText';
+            var2[7] = var11;
+            var8 = 'onlineText';
+            var2[7] = var4;
+            var8 = 'memberText';
+            var2[7] = var4;
+            var12 = _closure1_slot4;
+            var11 = var12.resolveAssetSource;
+            var13 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var11 = 12;
-            var11 = var15[var11];
-            var14 = var14.bind(var4)(var11);
-            var11 = var14.getChannelIcon;
-            var11 = var11.bind(var14)(var8);
-            var11 = var12.bind(var13)(var11);
-            var13 = var1 == var11;
-            var12 = undefined;
-            if(var13) { _fun0001_ip = 24; continue _fun0001 }
+            var8 = 14;
+            var8 = var15[var8];
+            var13 = var13.bind(var4)(var8);
+            var8 = var13.getChannelIcon;
+            var8 = var8.bind(var13)(var14);
+            var8 = var11.bind(var12)(var8);
+            var12 = var1 == var8;
+            var11 = undefined;
+            if(var12) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var12 = var11.uri;
+            var11 = var8.uri;
 case 24:
-            var11 = 'channelIcon';
-            var2[10] = var12;
-            var11 = var8.name;
+            var8 = 'channelIcon';
+            var2[7] = var11;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var8 = 15;
+            var8 = var12[var8];
+            var13 = var11.bind(var4)(var8);
+            var12 = var13.computeChannelName;
+            var11 = _closure1_slot10;
+            var8 = _closure1_slot9;
+            var11 = var12.bind(var13)(var14, var11, var8);
             var8 = 'titleText';
             var2[7] = var11;
             var11 = var5.titleColor;
@@ -274,7 +290,7 @@ case 26:
             var6 = '';
             var5 = 'subtitle';
             var2[4] = var6;
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot12;
             var5 = var3.GUILD;
             var3 = 'type';
             var2[2] = var5;

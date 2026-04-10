@@ -255,11 +255,12 @@ case 24:
 case 20:
                     var5 = var2.bind(var3)(var5);
                     var3 = _closure1_slot6;
-                    var2 = _closure1_slot1;
+                    var2 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var1 = 12;
                     var1 = var6[var1];
-                    var2 = var2.bind(var4)(var1);
+                    var1 = var2.bind(var4)(var1);
+                    var2 = var1.Icon;
                     var1 = {};
                     var1['source'] = var5;
                     var5 = {'width': 32, 'height': 32};

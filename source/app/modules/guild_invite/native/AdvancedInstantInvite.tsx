@@ -296,13 +296,14 @@ case 14:
             var16 = var33.bind(var4)(var16);
             var17 = var16.FormRow;
             var16 = {};
-            var39 = _closure1_slot1;
             var38 = 16;
             var34 = var30[var38];
-            var35 = var39.bind(var4)(var34);
+            var34 = var33.bind(var4)(var34);
+            var35 = var34.Icon;
             var34 = {};
             var38 = var30[var38];
-            var38 = var39.bind(var4)(var38);
+            var38 = var33.bind(var4)(var38);
+            var38 = var38.Icon;
             var38 = var38.Sizes;
             var38 = var38.CUSTOM;
             var34['size'] = var38;

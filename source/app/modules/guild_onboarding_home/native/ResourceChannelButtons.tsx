@@ -79,7 +79,7 @@ case 0:
             var _closure2_slot0 = var1;
             var2 = _closure1_slot7;
             var5 = undefined;
-            var16 = var2.bind(var5)();
+            var17 = var2.bind(var5)();
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 6;
@@ -96,19 +96,19 @@ case 0:
             var8 = var2[var1];
             var _closure2_slot1 = var8;
             var1 = 1;
-            var15 = var2[var1];
-            var _closure2_slot2 = var15;
+            var14 = var2[var1];
+            var _closure2_slot2 = var14;
             var7 = null;
             if(!(var7 == var8)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var7 == var15;
+            var2 = var7 == var14;
             var1 = null;
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 2:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
-            var6 = var16.wrapper;
+            var6 = var17.wrapper;
             var2['style'] = var6;
             var9 = var7 != var8;
             if(!var9) { _fun0001_ip = 5; continue _fun0001 }
@@ -116,27 +116,28 @@ case 6:
             var11 = _closure1_slot5;
             var10 = _closure1_slot4;
             var6 = {};
-            var12 = var16.buttonWrapper;
+            var12 = var17.buttonWrapper;
             var6['style'] = var12;
-            var17 = _closure1_slot0;
+            var19 = _closure1_slot0;
             var22 = _closure1_slot2;
             var12 = 7;
             var12 = var22[var12];
-            var12 = var17.bind(var5)(var12);
-            var17 = var12.Button;
+            var12 = var19.bind(var5)(var12);
+            var15 = var12.Button;
             var12 = {};
             var18 = 'secondary';
             var12['variant'] = var18;
             var18 = var8.title;
             var12['text'] = var18;
-            var21 = _closure1_slot1;
             var18 = 8;
             var18 = var22[var18];
-            var19 = var21.bind(var5)(var18);
+            var18 = var19.bind(var5)(var18);
+            var19 = var18.Icon;
             var18 = {};
-            var20 = var16.iconColor;
+            var20 = var17.iconColor;
             var20 = var20.color;
             var18['color'] = var20;
+            var21 = _closure1_slot1;
             var20 = 9;
             var20 = var22[var20];
             var20 = var21.bind(var5)(var20);
@@ -161,7 +162,7 @@ case 6:
             var12['onPress'] = var18;
             var18 = true;
             var12['grow'] = var18;
-            var12 = var11.bind(var5)(var17, var12);
+            var12 = var11.bind(var5)(var15, var12);
             var6['children'] = var12;
             var9 = var11.bind(var5)(var10, var6);
 case 5:
@@ -170,43 +171,44 @@ case 5:
             var8 = var7 != var8;
             if(!var8) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var8 = var7 != var15;
+            var8 = var7 != var14;
 case 7:
             if(!var8) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
             var11 = _closure1_slot5;
             var10 = _closure1_slot4;
             var9 = {};
-            var12 = var16.spacer;
+            var12 = var17.spacer;
             var9['style'] = var12;
             var8 = var11.bind(var5)(var10, var9);
 case 9:
             var6[1] = var8;
-            var7 = var7 != var15;
+            var7 = var7 != var14;
             if(!var7) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var10 = _closure1_slot5;
             var9 = _closure1_slot4;
             var8 = {};
-            var11 = var16.buttonWrapper;
+            var11 = var17.buttonWrapper;
             var8['style'] = var11;
-            var12 = _closure1_slot0;
+            var15 = _closure1_slot0;
             var18 = _closure1_slot2;
             var11 = 7;
             var11 = var18[var11];
-            var11 = var12.bind(var5)(var11);
+            var11 = var15.bind(var5)(var11);
             var12 = var11.Button;
             var11 = {};
-            var15 = var15.title;
-            var11['text'] = var15;
-            var17 = _closure1_slot1;
+            var14 = var14.title;
+            var11['text'] = var14;
             var14 = 8;
             var14 = var18[var14];
-            var15 = var17.bind(var5)(var14);
+            var14 = var15.bind(var5)(var14);
+            var15 = var14.Icon;
             var14 = {};
-            var16 = var16.iconColor;
-            var16 = var16.color;
-            var14['color'] = var16;
+            var17 = var17.iconColor;
+            var17 = var17.color;
+            var14['color'] = var17;
+            var17 = _closure1_slot1;
             var16 = 11;
             var16 = var18[var16];
             var16 = var17.bind(var5)(var16);

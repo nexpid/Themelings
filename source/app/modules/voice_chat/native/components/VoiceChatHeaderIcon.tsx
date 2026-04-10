@@ -166,11 +166,12 @@ case 4:
             var7[1] = var8;
             var1['style'] = var7;
             var8 = _closure1_slot6;
-            var10 = _closure1_slot1;
+            var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var9 = 13;
             var5 = var11[var9];
-            var7 = var10.bind(var4)(var5);
+            var5 = var10.bind(var4)(var5);
+            var7 = var5.Icon;
             var5 = {};
             var5['source'] = var13;
             var12 = var12.badge;
@@ -178,6 +179,7 @@ case 4:
             var5['color'] = var12;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
+            var9 = var9.Icon;
             var9 = var9.Sizes;
             var9 = var9.SMALL_20;
             var5['size'] = var9;

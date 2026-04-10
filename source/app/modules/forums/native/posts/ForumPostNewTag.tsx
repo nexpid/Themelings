@@ -1,10 +1,9 @@
 // app/modules/forums/native/posts/ForumPostNewTag.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
-    var _closure1_slot0 = var11;
+    var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -32,8 +31,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['paddingVertical'] = var10;
     var10 = 3;
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
+    var11 = var6[var10];
+    var10 = metroImportDefault;
+    var10 = var10.bind(var1)(var11);
     var10 = var10.unsafe_rawColors;
     var10 = var10.BRAND_260;
     var9['backgroundColor'] = var10;
@@ -57,7 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = _closure1_slot1;
         var1 = 4;
         var1 = var5[var1];
-        var2 = var2.bind(var4)(var1);
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.NewTag;
         var1 = {'containerStyle': null, 'variant': 'text-xs/bold', 'color': 'button-outline-brand-border-active'};
         var5 = new Array(2);
         var5[0] = var7;

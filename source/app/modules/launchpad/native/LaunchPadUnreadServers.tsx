@@ -338,17 +338,17 @@ case 13:
             _fun0001_ip = 14; continue _fun0001;
 case 10:
             var8 = _closure1_slot10;
-            var6 = _closure1_slot1;
+            var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var10 = 12;
             var4 = var13[var10];
-            var6 = var6.bind(var5)(var4);
+            var4 = var12.bind(var5)(var4);
+            var6 = var4.Avatar;
             var4 = {};
-            var12 = var14.privateChannelIcon;
-            var4['style'] = var12;
+            var15 = var14.privateChannelIcon;
+            var4['style'] = var15;
             var4['user'] = var9;
             var4['guildId'] = var5;
-            var12 = _closure1_slot0;
             var10 = var13[var10];
             var10 = var12.bind(var5)(var10);
             var10 = var10.AvatarSizes;

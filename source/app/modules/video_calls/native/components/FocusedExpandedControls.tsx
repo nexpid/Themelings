@@ -20,14 +20,16 @@ case 0:
             if(!(var1 != var7)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var5 = _closure1_slot8;
-            var10 = _closure1_slot1;
+            var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var9 = 8;
             var2 = var12[var9];
-            var4 = var10.bind(var6)(var2);
+            var2 = var10.bind(var6)(var2);
+            var4 = var2.Icon;
             var2 = {};
             var9 = var12[var9];
             var9 = var10.bind(var6)(var9);
+            var9 = var9.Icon;
             var9 = var9.Sizes;
             var9 = var9.MEDIUM;
             var2['size'] = var9;

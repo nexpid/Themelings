@@ -124,11 +124,12 @@ case 3:
             var6 = var14.row;
             var2['style'] = var6;
             var9 = _closure1_slot10;
-            var7 = _closure1_slot1;
+            var7 = _closure1_slot0;
             var6 = _closure1_slot2;
             var16 = 13;
             var6 = var6[var16];
-            var7 = var7.bind(var5)(var6);
+            var6 = var7.bind(var5)(var6);
+            var7 = var6.Avatar;
             var6 = {};
             var6['user'] = var13;
             var6['guildId'] = var5;

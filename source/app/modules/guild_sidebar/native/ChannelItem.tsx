@@ -313,10 +313,10 @@ case 0:
             var8 = var2.isMobileOnline;
             var5 = var2.isVROnline;
             var3 = _closure1_slot13;
-            var2 = _closure1_slot1;
             var10 = 20;
             var1 = var12[var10];
-            var2 = var2.bind(var4)(var1);
+            var1 = var11.bind(var4)(var1);
+            var2 = var1.Avatar;
             var1 = {};
             var1['user'] = var13;
             var1['guildId'] = var4;

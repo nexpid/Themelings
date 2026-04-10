@@ -317,11 +317,12 @@ case 26:
                     var2 = var11.id;
                     var7 = var3.bind(var4)(var2);
                     var4 = _closure1_slot10;
-                    var3 = _closure1_slot1;
+                    var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var8 = 14;
                     var2 = var2[var8];
-                    var3 = var3.bind(var5)(var2);
+                    var2 = var3.bind(var5)(var2);
+                    var3 = var2.Avatar;
                     var2 = {};
                     var2['user'] = var11;
                     var2['isMobileOnline'] = var10;

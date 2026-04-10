@@ -600,12 +600,14 @@ case 6:
                 var10 = new Array(2);
                 var10[0] = var14;
                 var16 = _closure1_slot7;
-                var19 = _closure1_slot1;
+                var15 = _closure1_slot0;
                 var20 = _closure1_slot2;
                 var14 = 12;
                 var14 = var20[var14];
-                var15 = var19.bind(var1)(var14);
+                var14 = var15.bind(var1)(var14);
+                var15 = var14.Icon;
                 var14 = {};
+                var19 = _closure1_slot1;
                 var18 = 13;
                 var18 = var20[var18];
                 var18 = var19.bind(var1)(var18);

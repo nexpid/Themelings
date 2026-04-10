@@ -250,10 +250,10 @@ case 12:
             var12['children'] = var23;
             var12 = var21.bind(var4)(var19, var12);
             var11[2] = var12;
-            var19 = _closure1_slot1;
             var23 = 9;
             var12 = var25[var23];
-            var19 = var19.bind(var4)(var12);
+            var12 = var24.bind(var4)(var12);
+            var19 = var12.InputView;
             var12 = {'value': null, 'onChangeText': null, 'style': null, 'autoFocus': true, 'showBorder': false, 'showTopContainer': false};
             var12['value'] = var17;
             var12['onChangeText'] = var26;

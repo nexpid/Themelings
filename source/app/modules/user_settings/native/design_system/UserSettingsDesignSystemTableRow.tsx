@@ -393,7 +393,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var31 = _closure1_slot12;
         var32 = 15;
         var20 = var24[var32];
-        var30 = var13.bind(var4)(var20);
+        var20 = var23.bind(var4)(var20);
+        var30 = var20.Avatar;
         var20 = {};
         var20['user'] = var34;
         var20['guildId'] = var33;

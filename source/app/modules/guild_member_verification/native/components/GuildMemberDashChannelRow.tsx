@@ -240,11 +240,12 @@ case 8:
             if(!var7) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
             var8 = _closure1_slot7;
-            var7 = _closure1_slot1;
+            var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var6 = 14;
             var6 = var11[var6];
-            var7 = var7.bind(var4)(var6);
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.Badge;
             var6 = {};
             var10 = var10.badge;
             var6['style'] = var10;

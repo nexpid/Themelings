@@ -24,13 +24,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.GUILD_ITEM_SIZE;
     var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.BADGE_PADDING;
-    var _closure1_slot4 = var7;
-    var4 = var4.BADGE_SIZE;
-    var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -51,17 +44,32 @@ case 2:
             var5 = var1.width;
             if(!(var5 === var10)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var5 = _closure1_slot5;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 2;
+            var2 = var6[var2];
+            var2 = var3.bind(var10)(var2);
+            var5 = var2.BADGE_SIZE;
 case 4:
             var6 = var1.height;
             if(!(var6 === var10)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var6 = _closure1_slot5;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 2;
+            var2 = var8[var2];
+            var2 = var3.bind(var10)(var2);
+            var6 = var2.BADGE_SIZE;
 case 6:
             var2 = var1.padding;
             if(!(var2 === var10)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var2 = _closure1_slot4;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 2;
+            var1 = var8[var1];
+            var1 = var3.bind(var10)(var1);
+            var2 = var1.BADGE_PADDING;
 case 8:
             var9 = _closure1_slot2;
             var3 = var9.roundToNearestPixel;

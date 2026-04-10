@@ -170,16 +170,16 @@ case 15:
 case 16:
             var24 = 'text-default';
 case 14:
-            var13 = _closure1_slot1;
+            var12 = _closure1_slot1;
             var34 = _closure1_slot2;
             var1 = 18;
             var1 = var34[var1];
-            var2 = var13.bind(var3)(var1);
+            var2 = var12.bind(var3)(var1);
             var5 = _closure1_slot12;
-            var4 = _closure1_slot0;
+            var13 = _closure1_slot0;
             var1 = 19;
             var1 = var34[var1];
-            var1 = var4.bind(var3)(var1);
+            var1 = var13.bind(var3)(var1);
             var4 = var1.PressableHighlight;
             var1 = {};
             var1['onPress'] = var7;
@@ -197,14 +197,14 @@ case 14:
             var1['style'] = var6;
             var6 = 20;
             var6 = var34[var6];
-            var8 = var13.bind(var3)(var6);
+            var8 = var12.bind(var3)(var6);
             var10 = _closure1_slot14;
             var7 = _closure1_slot13;
             var6 = {};
             var22 = _closure1_slot12;
             var11 = 21;
             var11 = var34[var11];
-            var12 = var13.bind(var3)(var11);
+            var12 = var12.bind(var3)(var11);
             var11 = {};
             var11['unread'] = var19;
             var35 = _closure1_slot11;
@@ -216,7 +216,8 @@ case 14:
             var22 = _closure1_slot12;
             var12 = 22;
             var12 = var34[var12];
-            var13 = var13.bind(var3)(var12);
+            var12 = var13.bind(var3)(var12);
+            var13 = var12.Avatar;
             var12 = {};
             var12['user'] = var25;
             var12['guildId'] = var3;

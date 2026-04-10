@@ -185,11 +185,12 @@ case 2:
             if(var3) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var4 = _closure1_slot12;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot0;
             var8 = _closure1_slot3;
             var2 = 9;
             var2 = var8[var2];
-            var3 = var3.bind(var5)(var2);
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.HelpMessage;
             var2 = {};
             var2['messageType'] = var7;
             var2['children'] = var6;

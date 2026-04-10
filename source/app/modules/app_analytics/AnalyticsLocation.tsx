@@ -726,6 +726,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_SHOP_HEADER_CAROUSEL'] = var1;
     var1 = 'collectibles shop popular picks carousel';
     var2['COLLECTIBLES_SHOP_POPULAR_PICKS_CAROUSEL'] = var1;
+    var1 = 'collectibles shop hero';
+    var2['COLLECTIBLES_SHOP_HERO'] = var1;
+    var1 = 'collectibles shop featured block';
+    var2['COLLECTIBLES_SHOP_FEATURED_BLOCK'] = var1;
+    var1 = 'collectibles shop popular picks';
+    var2['COLLECTIBLES_SHOP_POPULAR_PICKS'] = var1;
+    var1 = 'collectibles shop shelf';
+    var2['COLLECTIBLES_SHOP_SHELF'] = var1;
     var1 = 'collectibles mobile shop all button';
     var2['COLLECTIBLES_MOBILE_SHOP_ALL_BUTTON'] = var1;
     var1 = 'collectibles shop mobile featured page menu item';

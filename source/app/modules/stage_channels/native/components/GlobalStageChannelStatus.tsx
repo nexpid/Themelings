@@ -679,7 +679,7 @@ case 32:
     var5['declineButtonPill'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot12 = var5;
-    var5 = 32;
+    var5 = 31;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -690,7 +690,7 @@ case 32:
 case 0:
             var1 = arg1;
             var7 = var1.channel;
-            var21 = var1.guild;
+            var24 = var1.guild;
             var6 = undefined;
             var _closure2_slot0 = var6;
             var1 = _closure1_slot12;
@@ -756,14 +756,14 @@ case 29:
 case 43:
             if(!(var1 == var5)) { _fun0006_ip = 44; continue _fun0006 }
 case 45:
-            var18 = var20.icon;
+            var16 = var20.icon;
             _fun0006_ip = 46; continue _fun0006;
 case 44:
-            var18 = var20.activeStageIcon;
+            var16 = var20.activeStageIcon;
 case 46:
             _fun0006_ip = 47; continue _fun0006;
 case 42:
-            var18 = var20.activeSpeakerIcon;
+            var16 = var20.activeSpeakerIcon;
 case 47:
             var8 = _closure1_slot1;
             var10 = _closure1_slot3;
@@ -789,9 +789,9 @@ case 48:
 case 50:
             if(!(var1 != var7)) { _fun0006_ip = 51; continue _fun0006 }
 case 52:
-            if(!(var1 != var21)) { _fun0006_ip = 51; continue _fun0006 }
+            if(!(var1 != var24)) { _fun0006_ip = 51; continue _fun0006 }
 case 53:
-            var8 = var21.name;
+            var8 = var24.name;
             var4 = global;
             var4 = var4.HermesInternal;
             var4 = var4.concat;
@@ -823,11 +823,11 @@ case 59:
             var8 = var20.noticeContainer;
             var2['style'] = var8;
             var11 = _closure1_slot10;
-            var16 = _closure1_slot1;
+            var10 = _closure1_slot1;
             var9 = _closure1_slot3;
             var8 = 29;
             var8 = var9[var8];
-            var10 = var16.bind(var6)(var8);
+            var10 = var10.bind(var6)(var8);
             var8 = {};
             var15 = true;
             var8['animated'] = var15;
@@ -836,27 +836,28 @@ case 59:
             var8 = new Array(3);
             var8[0] = var10;
             var15 = _closure1_slot10;
-            var10 = 30;
-            var11 = var9[var10];
-            var13 = var16.bind(var6)(var11);
-            var11 = {};
-            var11['style'] = var18;
-            var10 = var9[var10];
-            var10 = var16.bind(var6)(var10);
-            var10 = var10.Sizes;
-            var10 = var10.REFRESH_SMALL_16;
-            var11['size'] = var10;
             var10 = _closure1_slot0;
-            var16 = 31;
+            var18 = 22;
+            var11 = var9[var18];
+            var11 = var10.bind(var6)(var11);
+            var13 = var11.Icon;
+            var11 = {};
+            var11['style'] = var16;
+            var16 = var9[var18];
+            var16 = var10.bind(var6)(var16);
+            var16 = var16.Icon;
+            var16 = var16.Sizes;
+            var16 = var16.REFRESH_SMALL_16;
+            var11['size'] = var16;
+            var16 = 30;
             var16 = var9[var16];
-            var18 = var10.bind(var6)(var16);
-            var16 = var18.getChannelIconWithGuild;
-            var16 = var16.bind(var18)(var7, var21);
+            var21 = var10.bind(var6)(var16);
+            var16 = var21.getChannelIconWithGuild;
+            var16 = var16.bind(var21)(var7, var24);
             var11['source'] = var16;
             var11 = var15.bind(var6)(var13, var11);
             var8[1] = var11;
             var11 = _closure1_slot11;
-            var18 = 22;
             var9 = var9[var18];
             var9 = var10.bind(var6)(var9);
             var10 = var9.LegacyText;

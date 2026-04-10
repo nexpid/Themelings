@@ -259,12 +259,13 @@ case 3:
             var2['primaryButtonText'] = var9;
             var9 = function primaryButtonIcon() {
                 var4 = _closure1_slot7;
-                var2 = _closure1_slot1;
+                var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 28;
                 var1 = var3[var1];
                 var3 = undefined;
-                var2 = var2.bind(var3)(var1);
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.NitroWheel;
                 var1 = {};
                 var5 = _closure2_slot0;
                 var5 = var5.nitroIcon;

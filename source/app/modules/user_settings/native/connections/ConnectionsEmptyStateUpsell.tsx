@@ -147,11 +147,12 @@ case 8:
             var9[1] = var10;
             var5['style'] = var9;
             var10 = _closure1_slot6;
-            var9 = _closure1_slot1;
+            var9 = _closure1_slot0;
             var14 = _closure1_slot2;
             var8 = 13;
             var8 = var14[var8];
-            var9 = var9.bind(var4)(var8);
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.Icon;
             var8 = {};
             var13 = var13.icon;
             var8['style'] = var13;

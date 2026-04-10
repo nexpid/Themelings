@@ -272,11 +272,12 @@ case 16:
             if(!var12) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
             var19 = _closure1_slot8;
-            var18 = _closure1_slot1;
+            var18 = _closure1_slot0;
             var21 = _closure1_slot2;
             var12 = 13;
             var12 = var21[var12];
-            var18 = var18.bind(var4)(var12);
+            var12 = var18.bind(var4)(var12);
+            var18 = var12.Ellipsis;
             var12 = {};
             var13 = var19.bind(var4)(var18, var12);
 case 18:

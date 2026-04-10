@@ -486,15 +486,17 @@ case 51:
             if(!(var1 == var5)) { _fun0007_ip = 53; continue _fun0007 }
 case 54:
             var11 = _closure1_slot6;
-            var15 = _closure1_slot1;
+            var15 = _closure1_slot0;
             var16 = _closure1_slot2;
             var14 = 8;
             var1 = var16[var14];
-            var3 = var15.bind(var4)(var1);
+            var1 = var15.bind(var4)(var1);
+            var3 = var1.Icon;
             var1 = {};
             var1['disableColor'] = var17;
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
+            var14 = var14.Icon;
             var14 = var14.Sizes;
             var14 = var14.CUSTOM;
             var1['size'] = var14;
@@ -514,14 +516,14 @@ case 53:
 case 57:
             var7 = 'icon-muted';
             if(var10) { _fun0007_ip = 58; continue _fun0007 }
-case 39:
-            if(var8) { _fun0007_ip = 59; continue _fun0007 }
-case 38:
-            var8 = 'channel-icon';
-            if(!var9) { _fun0007_ip = 60; continue _fun0007 }
 case 59:
-            var8 = 'interactive-text-active';
+            if(var8) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
+            var8 = 'channel-icon';
+            if(!var9) { _fun0007_ip = 62; continue _fun0007 }
 case 60:
+            var8 = 'interactive-text-active';
+case 62:
             var7 = var8;
 case 58:
             var6 = var7;

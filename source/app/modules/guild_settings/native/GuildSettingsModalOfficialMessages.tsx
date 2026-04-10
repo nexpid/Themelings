@@ -80,9 +80,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8[1] = var9;
         var5['style'] = var8;
         var10 = _closure1_slot11;
+        var19 = _closure1_slot0;
         var8 = 33;
         var8 = var20[var8];
-        var9 = var12.bind(var4)(var8);
+        var8 = var19.bind(var4)(var8);
+        var9 = var8.Avatar;
         var8 = {};
         var11 = 34;
         var11 = var20[var11];
@@ -102,7 +104,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var26.chatHeader;
         var12['style'] = var13;
         var23 = _closure1_slot11;
-        var19 = _closure1_slot0;
         var13 = 29;
         var16 = var20[var13];
         var16 = var19.bind(var4)(var16);

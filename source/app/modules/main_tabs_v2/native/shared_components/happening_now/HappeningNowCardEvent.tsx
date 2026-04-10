@@ -145,10 +145,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['ticketContainer'] = var13;
     var13 = {};
     var14 = 9;
-    var14 = var6[var14];
-    var14 = var5.bind(var1)(var14);
-    var15 = var14.AVATAR_SIZE_MAP;
-    var14 = 10;
+    var15 = var6[var14];
+    var15 = var5.bind(var1)(var15);
+    var15 = var15.AVATAR_SIZE_MAP;
     var14 = var6[var14];
     var14 = var5.bind(var1)(var14);
     var14 = var14.AvatarSizes;
@@ -159,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var11.bind(var12)(var8);
     var _closure1_slot14 = var8;
     var8 = {};
-    var11 = 11;
+    var11 = 10;
     var11 = var6[var11];
     var11 = var5.bind(var1)(var11);
     var11 = var11.CutoutShape;
@@ -235,7 +234,7 @@ case 7:
             var10 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var6 = 12;
+            var6 = 11;
             var2 = var2[var6];
             var11 = var3.bind(var4)(var2);
             var8 = var11.useStateFromStores;
@@ -257,7 +256,7 @@ case 9:
             _closure2_slot2 = var8;
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 13;
+            var2 = 12;
             var2 = var12[var2];
             var13 = var3.bind(var4)(var2);
             var12 = var13.useEnsureHydratedUsers;
@@ -287,14 +286,14 @@ case 13:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var26 = var6.bind(var12)(var3, var2);
+            var28 = var6.bind(var12)(var3, var2);
             var2 = var11 != var18;
             var12 = null;
             if(!var2) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 14;
+            var2 = 13;
             var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.getNextRecurrenceIdInEvent;
@@ -302,7 +301,7 @@ case 15:
 case 14:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 15;
+            var2 = 14;
             var2 = var6[var2];
             var6 = var3.bind(var4)(var2);
             var3 = var18.guild_id;
@@ -319,7 +318,7 @@ case 14:
 case 0:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 15;
                     var3 = var3[var1];
                     var1 = undefined;
                     var7 = var4.bind(var1)(var3);
@@ -352,7 +351,7 @@ case 16:
                     var3 = var6.bind(var7)(var4, var3);
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 17;
+                    var2 = 16;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openGuildEventDetails;
@@ -372,12 +371,12 @@ case 16:
 case 19:
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 18;
+            var1 = 17;
             var1 = var12[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.makeSource;
             var8 = _closure1_slot1;
-            var1 = 19;
+            var1 = 18;
             var1 = var12[var1];
             var8 = var8.bind(var4)(var1);
             var1 = 200;
@@ -386,7 +385,7 @@ case 19:
 case 18:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.getEventTimeData;
@@ -416,7 +415,7 @@ case 20:
             var3 = _closure1_slot13;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var16 = 20;
+            var16 = 19;
             var1 = var1[var16];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -431,7 +430,7 @@ case 22:
             var7 = _closure1_slot13;
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var5 = 11;
+            var5 = 10;
             var5 = var8[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -445,22 +444,22 @@ case 22:
             var17 = {};
             var20 = var10.avatarContainer;
             var17['style'] = var20;
-            var20 = var11 != var26;
+            var20 = var11 != var28;
             if(!var20) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
             var24 = _closure1_slot12;
-            var22 = _closure1_slot1;
-            var27 = _closure1_slot2;
-            var25 = 10;
-            var21 = var27[var25];
-            var22 = var22.bind(var4)(var21);
-            var21 = {};
-            var21['user'] = var26;
-            var26 = var26.avatarDecoration;
-            var21['avatarDecoration'] = var26;
-            var26 = var18.guild_id;
-            var21['guildId'] = var26;
             var26 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var25 = 9;
+            var21 = var27[var25];
+            var21 = var26.bind(var4)(var21);
+            var22 = var21.Avatar;
+            var21 = {};
+            var21['user'] = var28;
+            var28 = var28.avatarDecoration;
+            var21['avatarDecoration'] = var28;
+            var28 = var18.guild_id;
+            var21['guildId'] = var28;
             var25 = var27[var25];
             var25 = var26.bind(var4)(var25);
             var25 = var25.AvatarSizes;
@@ -480,7 +479,7 @@ case 24:
             var25 = _closure1_slot12;
             var24 = _closure1_slot0;
             var26 = _closure1_slot2;
-            var22 = 21;
+            var22 = 20;
             var22 = var26[var22];
             var22 = var24.bind(var4)(var22);
             var24 = var22.GroupIcon;
@@ -498,12 +497,12 @@ case 27:
             var26 = _closure1_slot12;
             var28 = _closure1_slot0;
             var31 = _closure1_slot2;
-            var24 = 22;
+            var24 = 21;
             var24 = var31[var24];
             var24 = var28.bind(var4)(var24);
             var25 = var24.Text;
             var24 = {'color': 'mobile-text-heading-primary', 'variant': 'text-xs/semibold'};
-            var27 = 23;
+            var27 = 22;
             var27 = var31[var27];
             var28 = var28.bind(var4)(var27);
             var27 = var28.humanizeValue;
@@ -595,7 +594,7 @@ case 37:
 case 40:
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var14 = 24;
+            var14 = 23;
             var15 = var18[var14];
             var15 = var17.bind(var4)(var15);
             var16 = var15.intl;
@@ -625,7 +624,7 @@ case 39:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 25;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

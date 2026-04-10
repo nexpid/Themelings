@@ -1361,7 +1361,7 @@ case 99:
             r109 = 52;
             r117 = r123[r109];
             r117 = r122.bind(var3)(r117);
-            r117 = r117.ChatIcon;
+            r117 = r117.StampIcon;
             var82['IconComponent'] = r117;
             r117 = r119.GENERAL;
             var82['section'] = r117;
@@ -1381,10 +1381,9 @@ case 99:
             r125 = r125["2km5Gf"];
             r125 = r126.bind(r127)(r125);
             var82['label'] = r125;
-            r125 = 53;
-            r125 = r123[r125];
+            r125 = r123[r109];
             r125 = r122.bind(var3)(r125);
-            r125 = r125.ChatMinusIcon;
+            r125 = r125.StampIcon;
             var82['IconComponent'] = r125;
             r125 = r119.GENERAL;
             var82['section'] = r125;
@@ -1403,7 +1402,7 @@ case 99:
             r117 = r117.tpxJto;
             r117 = r125.bind(r126)(r117);
             var82['label'] = r117;
-            r117 = 54;
+            r117 = 53;
             r117 = r123[r117];
             r117 = r122.bind(var3)(r117);
             r117 = r117.NitroWheelIcon;
@@ -1426,7 +1425,7 @@ case 99:
             r125 = r125.tpxJto;
             r125 = r126.bind(r127)(r125);
             var82['label'] = r125;
-            r125 = 55;
+            r125 = 54;
             r125 = r123[r125];
             r125 = r122.bind(var3)(r125);
             r125 = r125.BookmarkOutlineIcon;
@@ -1448,7 +1447,7 @@ case 99:
             r125 = r125.SvXS1Z;
             r125 = r126.bind(r127)(r125);
             var82['label'] = r125;
-            r125 = 56;
+            r125 = 55;
             r125 = r123[r125];
             r125 = r122.bind(var3)(r125);
             r125 = r125.BookmarkIcon;
@@ -1470,7 +1469,7 @@ case 99:
             r117 = r117.mJ3P0N;
             r117 = r125.bind(r126)(r117);
             var82['label'] = r117;
-            r117 = 57;
+            r117 = 56;
             r125 = r123[r117];
             r125 = r122.bind(var3)(r125);
             r125 = r125.ClockIcon;
@@ -1515,7 +1514,7 @@ case 99:
             r124 = r124.PHjkRE;
             r124 = r125.bind(r126)(r124);
             var82['label'] = r124;
-            r124 = 58;
+            r124 = 57;
             r124 = r123[r124];
             r124 = r122.bind(var3)(r124);
             r124 = r124.RobotIcon;
@@ -1538,7 +1537,8 @@ case 99:
             r121 = r121.g33r/P;
             r121 = r124.bind(r125)(r121);
             var82['label'] = r121;
-            r121 = r123[r109];
+            r121 = 58;
+            r121 = r123[r121];
             r121 = r122.bind(var3)(r121);
             r121 = r121.ChatIcon;
             var82['IconComponent'] = r121;

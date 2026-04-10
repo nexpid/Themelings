@@ -186,9 +186,10 @@ case 0:
                 var2 = var7.bind(var8)(var2);
                 var2 = 7;
                 var2 = var6[var2];
-                var4 = var4.bind(var1)(var2);
-                var2 = var4.announcePendingAvatarChange;
-                var2 = var2.bind(var4)(var5);
+                var6 = var4.bind(var1)(var2);
+                var4 = var6.announcePendingAvatarChange;
+                var2 = 'remove';
+                var2 = var4.bind(var6)(var2);
                 var4 = _closure2_slot0;
                 if(!(var5 == var4)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:

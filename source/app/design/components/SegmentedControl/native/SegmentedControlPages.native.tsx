@@ -352,7 +352,7 @@ case 18:
     var4['code'] = var7;
     var _closure1_slot10 = var4;
     var4 = {};
-    var7 = 'function SegmentedControlPagesNativeTsx5(contentOffset,contentSize){const{pageIndex,roundIfClose,pageWidth,reportedPageIndex,runOnJS,onPageChanged}=this.__closure;pageIndex.set(Math.min(Math.max(roundIfClose(contentOffset.x/pageWidth,1e-4),0),roundIfClose(contentSize.width/pageWidth,1e-4)-1));const pageFullyVisible=pageIndex.get()%1===0;if(pageFullyVisible&&reportedPageIndex.get()!==pageIndex.get()){reportedPageIndex.set(pageIndex.get());runOnJS(onPageChanged)(pageIndex.get());}}';
+    var7 = 'function SegmentedControlPagesNativeTsx5(contentOffset,contentSize){const{pageWidth,pageIndex,roundIfClose,reportedPageIndex,runOnJS,onPageChanged}=this.__closure;if(pageWidth===0){return;}pageIndex.set(Math.min(Math.max(roundIfClose(contentOffset.x/pageWidth,1e-4),0),roundIfClose(contentSize.width/pageWidth,1e-4)-1));const pageFullyVisible=pageIndex.get()%1===0;if(pageFullyVisible&&reportedPageIndex.get()!==pageIndex.get()){reportedPageIndex.set(pageIndex.get());runOnJS(onPageChanged)(pageIndex.get());}}';
     var4['code'] = var7;
     var _closure1_slot11 = var4;
     var4 = {};
@@ -671,30 +671,33 @@ case 26:
             var10 = function Z(arg1, arg2) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
+                    var2 = _closure2_slot8;
+                    var5 = 0;
+                    if(!(var5 !== var2)) { _fun0010_ip = 29; continue _fun0010 }
+case 20:
                     var7 = _closure2_slot9;
                     var8 = var7.set;
-                    var1 = global;
-                    var11 = var1.Math;
+                    var2 = global;
+                    var11 = var2.Math;
                     var10 = var11.min;
-                    var16 = var1.Math;
+                    var16 = var2.Math;
                     var15 = var16.max;
                     var6 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var4 = 5;
-                    var5 = var12[var4];
-                    var1 = undefined;
-                    var17 = var6.bind(var1)(var5);
-                    var9 = var17.roundIfClose;
-                    var5 = arg1;
-                    var5 = var5.x;
+                    var9 = var12[var4];
+                    var3 = undefined;
+                    var18 = var6.bind(var3)(var9);
+                    var17 = var18.roundIfClose;
+                    var9 = arg1;
+                    var9 = var9.x;
                     var14 = _closure2_slot8;
-                    var5 = var5 / var14;
+                    var9 = var9 / var14;
                     var13 = 0.0001;
-                    var9 = var9.bind(var17)(var5, var13);
-                    var5 = 0;
+                    var9 = var17.bind(var18)(var9, var13);
                     var9 = var15.bind(var16)(var9, var5);
                     var4 = var12[var4];
-                    var12 = var6.bind(var1)(var4);
+                    var12 = var6.bind(var3)(var4);
                     var6 = var12.roundIfClose;
                     var4 = arg2;
                     var4 = var4.width;
@@ -708,8 +711,8 @@ case 0:
                     var4 = var4.bind(var7)();
                     var4 = var4 % var6;
                     var4 = var4 === var5;
-                    if(!var4) { _fun0010_ip = 29; continue _fun0010 }
-case 30:
+                    if(!var4) { _fun0010_ip = 30; continue _fun0010 }
+case 31:
                     var6 = _closure2_slot10;
                     var5 = var6.get;
                     var6 = var5.bind(var6)();
@@ -717,8 +720,8 @@ case 30:
                     var5 = var7.get;
                     var5 = var5.bind(var7)();
                     var4 = var6 !== var5;
-case 29:
-                    if(!var4) { _fun0010_ip = 31; continue _fun0010 }
+case 30:
+                    if(!var4) { _fun0010_ip = 29; continue _fun0010 }
 case 32:
                     var7 = _closure2_slot10;
                     var6 = var7.set;
@@ -728,27 +731,28 @@ case 32:
                     var5 = var6.bind(var7)(var5);
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var6[var3];
-                    var5 = var5.bind(var1)(var3);
-                    var3 = var5.runOnJS;
-                    var2 = _closure2_slot16;
-                    var3 = var3.bind(var5)(var2);
-                    var2 = var4.get;
-                    var2 = var2.bind(var4)();
-                    var2 = var3.bind(var1)(var2);
-case 31:
+                    var2 = 4;
+                    var2 = var6[var2];
+                    var5 = var5.bind(var3)(var2);
+                    var2 = var5.runOnJS;
+                    var1 = _closure2_slot16;
+                    var2 = var2.bind(var5)(var1);
+                    var1 = var4.get;
+                    var1 = var1.bind(var4)();
+                    var1 = var2.bind(var3)(var1);
+case 29:
+                    var1 = undefined;
                     return var1;
                 }
             };
             var8 = {};
+            var8['pageWidth'] = var12;
             var8['pageIndex'] = var1;
             var18 = 5;
             var31 = var20[var18];
             var31 = var19.bind(var5)(var31);
             var31 = var31.roundIfClose;
             var8['roundIfClose'] = var31;
-            var8['pageWidth'] = var12;
             var8['reportedPageIndex'] = var22;
             var31 = var20[var3];
             var31 = var19.bind(var5)(var31);
@@ -756,7 +760,7 @@ case 31:
             var8['runOnJS'] = var31;
             var8['onPageChanged'] = var23;
             var10['__closure'] = var8;
-            var8 = 4668517096289.0;
+            var8 = 11872880107296.0;
             var10['__workletHash'] = var8;
             var8 = _closure1_slot11;
             var10['__initData'] = var8;

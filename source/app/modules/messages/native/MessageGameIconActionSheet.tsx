@@ -118,11 +118,11 @@ case 0:
                 if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                 var4 = _closure1_slot6;
-                var3 = _closure1_slot0;
+                var11 = _closure1_slot0;
                 var13 = _closure1_slot2;
                 var2 = 9;
                 var2 = var13[var2];
-                var2 = var3.bind(var5)(var2);
+                var2 = var11.bind(var5)(var2);
                 var3 = var2.BottomSheet;
                 var2 = {};
                 var12 = true;
@@ -135,10 +135,10 @@ case 5:
                 var8 = {};
                 var10 = var18.gameDescriptionWrapperOuter;
                 var8['style'] = var10;
-                var11 = _closure1_slot1;
                 var10 = 10;
                 var10 = var13[var10];
-                var11 = var11.bind(var5)(var10);
+                var10 = var11.bind(var5)(var10);
+                var11 = var10.Icon;
                 var10 = {};
                 var13 = var18.gameIcon;
                 var10['style'] = var13;

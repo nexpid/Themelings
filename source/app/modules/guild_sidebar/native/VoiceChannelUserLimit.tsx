@@ -109,18 +109,21 @@ case 0:
             if(!var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var10 = _closure1_slot4;
-            var13 = _closure1_slot1;
+            var13 = _closure1_slot0;
             var16 = _closure1_slot2;
             var11 = 5;
             var7 = var16[var11];
-            var9 = var13.bind(var4)(var7);
+            var7 = var13.bind(var4)(var7);
+            var9 = var7.Icon;
             var7 = {};
+            var18 = _closure1_slot1;
             var17 = 6;
             var17 = var16[var17];
-            var17 = var13.bind(var4)(var17);
+            var17 = var18.bind(var4)(var17);
             var7['source'] = var17;
             var11 = var16[var11];
             var11 = var13.bind(var4)(var11);
+            var11 = var11.Icon;
             var11 = var11.Sizes;
             var11 = var11.REFRESH_SMALL_16;
             var7['size'] = var11;

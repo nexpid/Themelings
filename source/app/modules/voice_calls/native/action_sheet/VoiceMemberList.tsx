@@ -119,12 +119,12 @@ case 2:
     var4 = 11;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.ACTION_SHEET_MAX_WIDTH;
+    var4 = var4.FORM_ROW_VERTICAL_PADDING;
     var _closure1_slot18 = var4;
     var4 = 12;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.FORM_ROW_VERTICAL_PADDING;
+    var4 = var4.ACTION_SHEET_MAX_WIDTH;
     var _closure1_slot19 = var4;
     var4 = 13;
     var4 = var6[var4];
@@ -633,7 +633,7 @@ case 32:
             var8 = global;
             var12 = var8.Math;
             var11 = var12.min;
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot19;
             var4 = var11.bind(var12)(var15, var4);
             _closure2_slot4 = var4;
             var17 = _closure1_slot0;
@@ -1190,7 +1190,7 @@ case 71:
                     var2 = var1[var2];
                     if(!(var9 != var2)) { _fun0014_ip = 28; continue _fun0014 }
 case 33:
-                    var1 = _closure1_slot19;
+                    var1 = _closure1_slot18;
                     var7 = 32;
                     var8 = var1 + var7;
                     var1 = _closure1_slot10;

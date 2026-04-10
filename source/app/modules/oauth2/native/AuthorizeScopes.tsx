@@ -400,8 +400,8 @@ case 23:
             var12 = var9.bind(var12)();
             var9 = new Array(3);
             var9[0] = var12;
-            if(!var11) { _fun0002_ip = 11; continue _fun0002 }
-case 27:
+            if(!var11) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var15 = _closure1_slot4;
             var14 = _closure1_slot7;
             var12 = {};
@@ -418,7 +418,7 @@ case 27:
             var16 = var17.bind(var18)(var16);
             var12['text'] = var16;
             var11 = var15.bind(var4)(var14, var12);
-case 11:
+case 27:
             var9[1] = var11;
             var12 = _closure1_slot4;
             var11 = _closure1_slot7;

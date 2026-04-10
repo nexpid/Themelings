@@ -217,6 +217,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['QuestLiveStream'] = var4;
     var4 = 'clip_embed';
     var5['ClipEmbed'] = var4;
+    var4 = 'announcement_channel_return';
+    var5['AnnouncementChannelReturn'] = var4;
     var4 = {};
     var10 = 'full_profile';
     var4['FullProfile'] = var10;

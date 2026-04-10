@@ -399,7 +399,7 @@ case 0:
             var1 = var3.isGuildVoice;
             var1 = var1.bind(var3)();
             if(!var1) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+case 9:
             var1 = var2;
 case 56:
             return var1;

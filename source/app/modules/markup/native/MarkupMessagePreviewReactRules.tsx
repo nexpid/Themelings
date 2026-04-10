@@ -749,7 +749,7 @@ case 38:
 case 39:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 17;
+                    var3 = 16;
                     var3 = var6[var3];
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.assertNever;
@@ -758,25 +758,27 @@ case 39:
                     var7 = undefined;
                     _fun0009_ip = 29; continue _fun0009;
 case 27:
-                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 13;
                     var3 = var3[var2];
                     var2 = undefined;
-                    var5 = var5.bind(var2)(var3);
-                    var3 = var5.isFabric;
-                    var5 = var3.bind(var5)();
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.isFabric;
+                    var4 = var3.bind(var4)();
                     var3 = '💬';
-                    if(var5) { _fun0009_ip = 40; continue _fun0009 }
+                    if(var4) { _fun0009_ip = 40; continue _fun0009 }
 case 41:
                     var6 = _closure1_slot4;
-                    var10 = _closure1_slot1;
+                    var5 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var4 = 15;
+                    var4 = 12;
                     var4 = var12[var4];
-                    var5 = var10.bind(var2)(var4);
+                    var4 = var5.bind(var2)(var4);
+                    var5 = var4.ThemedIcon;
                     var4 = {};
-                    var9 = 16;
+                    var10 = _closure1_slot1;
+                    var9 = 15;
                     var9 = var12[var9];
                     var9 = var10.bind(var2)(var9);
                     var4['source'] = var9;
@@ -885,7 +887,7 @@ case 29:
                 var5 = _closure1_slot4;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 18;
+                var1 = 17;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -1007,7 +1009,7 @@ case 44:
     var5 = new var14[var10](var13, var12, var11);
     var5 = var5 instanceof Object ? var5 : var8;
     var _closure1_slot6 = var5;
-    var5 = 19;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

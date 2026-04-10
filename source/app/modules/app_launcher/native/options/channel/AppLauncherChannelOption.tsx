@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot6 = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -44,9 +44,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var11 = var1.style;
-            var9 = var1.option;
-            var _closure2_slot0 = var9;
+            var12 = var1.style;
+            var11 = var1.option;
+            var _closure2_slot0 = var11;
             var2 = var1.initialValue;
             var _closure2_slot1 = var2;
             var14 = var1.onChannelPress;
@@ -59,8 +59,8 @@ case 0:
             var8 = var1.hasError;
             var1 = var1.onPress;
             var _closure2_slot5 = var1;
-            var13 = _closure1_slot4;
-            var2 = var13.useState;
+            var9 = _closure1_slot4;
+            var2 = var9.useState;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -82,7 +82,7 @@ case 2:
                     return var1;
                 }
             };
-            var3 = var2.bind(var13)(var1);
+            var3 = var2.bind(var9)(var1);
             var2 = _closure1_slot3;
             var4 = undefined;
             var1 = 2;
@@ -94,9 +94,9 @@ case 2:
             var2 = var3[var2];
             var _closure2_slot7 = var2;
             var3 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var2 = 4;
-            var2 = var12[var2];
+            var2 = var13[var2];
             var16 = var3.bind(var4)(var2);
             var15 = var16.useStateFromStores;
             var2 = _closure1_slot5;
@@ -113,7 +113,7 @@ case 2:
             };
             var10 = var15.bind(var16)(var10, var2, var3);
             var _closure2_slot8 = var10;
-            var3 = var13.useEffect;
+            var3 = var9.useEffect;
             var2 = new Array(3);
             var2[0] = var14;
             var2[1] = var1;
@@ -143,30 +143,34 @@ case 7:
                     return var1;
                 }
             };
-            var1 = var3.bind(var13)(var1, var2);
-            var3 = _closure1_slot6;
+            var1 = var3.bind(var9)(var1, var2);
             var2 = _closure1_slot1;
             var1 = 5;
-            var1 = var12[var1];
+            var1 = var13[var1];
+            var1 = var2.bind(var4)(var1);
+            var9 = var1.bind(var4)(var10);
+            var3 = _closure1_slot6;
+            var1 = 6;
+            var1 = var13[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var1['style'] = var11;
-            var1['option'] = var9;
+            var1['style'] = var12;
+            var1['option'] = var11;
             var1['hasError'] = var8;
             var8 = null;
-            var9 = var8 != var10;
-            var1['selected'] = var9;
-            var9 = var8 != var10;
+            var11 = var8 != var10;
+            var1['selected'] = var11;
+            var11 = var8 != var10;
             var8 = undefined;
-            if(!var9) { _fun0001_ip = 9; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var8 = var10.name;
+            var8 = var9;
 case 9:
             var1['selectedItemName'] = var8;
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var7 = 6;
+            var7 = 7;
             var7 = var11[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.ChannelIcon;
@@ -187,20 +191,20 @@ case 12:
 case 11:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var1 = 7;
+                    var1 = 8;
                     var3 = var8[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
                     var5 = var6.openLazy;
                     var3 = _closure1_slot0;
-                    var2 = 9;
+                    var2 = 10;
                     var2 = var8[var2];
                     var9 = var3.bind(var1)(var2);
-                    var2 = 8;
+                    var2 = 9;
                     var4 = var8[var2];
                     var2 = var8.paths;
                     var4 = var9.bind(var1)(var4, var2);
-                    var2 = 6;
+                    var2 = 7;
                     var2 = var8[var2];
                     var2 = var3.bind(var1)(var2);
                     var3 = var2.APP_LAUNCHER_CHANNEL_LIST_ACTION_SHEET_KEY;

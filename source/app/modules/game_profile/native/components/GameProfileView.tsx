@@ -288,7 +288,7 @@ case 7:
             var12 = var20[var12];
             var13 = var16.bind(var4)(var12);
             var12 = {};
-            var25 = var19.id;
+            var25 = var22.id;
             var12['gameId'] = var25;
             var12['officialInvite'] = var24;
             var12['closeModal'] = var23;

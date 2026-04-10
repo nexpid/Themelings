@@ -192,7 +192,7 @@ case 2:
             var3 = var4.bind(var5)(var1, var3);
             var1 = null;
             if(var2) { _fun0001_ip = 5; continue _fun0001 }
-case 2:
+case 6:
             var2 = {};
             var2['props'] = var3;
             var1 = var2;

@@ -125,11 +125,12 @@ case 3:
                 if(!var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
                 var5 = _closure1_slot6;
-                var4 = _closure1_slot1;
+                var4 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var3 = 8;
                 var3 = var8[var3];
-                var4 = var4.bind(var6)(var3);
+                var3 = var4.bind(var6)(var3);
+                var4 = var3.Icon;
                 var3 = {};
                 var3['source'] = var7;
                 var2 = var5.bind(var6)(var4, var3);

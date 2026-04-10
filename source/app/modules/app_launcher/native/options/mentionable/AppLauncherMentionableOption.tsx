@@ -11,31 +11,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.mentionable;
+            var3 = var1.mentionable;
             var10 = var1.guildId;
             var1 = _closure1_slot10;
             var5 = undefined;
-            var6 = var1.bind(var5)();
+            var7 = var1.bind(var5)();
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 9;
             var1 = var13[var1];
             var8 = var11.bind(var5)(var1);
-            var4 = var8.useStateFromStores;
+            var6 = var8.useStateFromStores;
             var1 = _closure1_slot5;
-            var3 = new Array(1);
-            var3[0] = var1;
+            var4 = new Array(1);
+            var4[0] = var1;
             var1 = function() {
                 var1 = _closure1_slot5;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var9 = var4.bind(var8)(var3, var1);
-            var4 = _closure1_slot9;
-            var3 = _closure1_slot1;
+            var9 = var6.bind(var8)(var4, var1);
+            var6 = _closure1_slot9;
+            var4 = _closure1_slot1;
             var1 = 10;
             var1 = var13[var1];
-            var3 = var3.bind(var5)(var1);
+            var4 = var4.bind(var5)(var1);
             var1 = {};
             var12 = _closure1_slot9;
             var8 = 11;
@@ -45,65 +45,65 @@ case 0:
             var8 = {'size': 'sm', 'color': 'interactive-text-default'};
             var8 = var12.bind(var5)(var11, var8);
             var1['icon'] = var8;
-            var6 = var6.iconWrapper;
-            var1['wrapperStyle'] = var6;
-            var1 = var4.bind(var5)(var3, var1);
-            var3 = null;
-            if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+            var7 = var7.iconWrapper;
+            var1['wrapperStyle'] = var7;
+            var1 = var6.bind(var5)(var4, var1);
+            var4 = null;
+            if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = var2.type;
+            var6 = var3.type;
             var8 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var6 = 12;
-            var3 = var3[var6];
-            var3 = var8.bind(var5)(var3);
-            var3 = var3.MentionableItemTypes;
-            var3 = var3.USER;
-            if(!(var3 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+            var4 = _closure1_slot2;
+            var7 = 12;
+            var4 = var4[var7];
+            var4 = var8.bind(var5)(var4);
+            var4 = var4.MentionableItemTypes;
+            var4 = var4.USER;
+            if(!(var4 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var8 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var6];
-            var3 = var8.bind(var5)(var3);
-            var3 = var3.MentionableItemTypes;
-            var3 = var3.ROLE;
-            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+            var4 = _closure1_slot2;
+            var4 = var4[var7];
+            var4 = var8.bind(var5)(var4);
+            var4 = var4.MentionableItemTypes;
+            var4 = var4.ROLE;
+            if(!(var4 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var6];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.MentionableItemTypes;
-            var3 = var3.GLOBAL;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var7];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.MentionableItemTypes;
+            var4 = var4.GLOBAL;
             return var1;
 case 6:
-            var8 = var2.result;
-            var6 = _closure1_slot9;
-            var4 = _closure1_slot0;
+            var8 = var3.result;
+            var7 = _closure1_slot9;
+            var6 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 14;
-            var3 = var11[var3];
-            var3 = var4.bind(var5)(var3);
-            var4 = var3.RoleIcon;
-            var3 = {};
-            var3['role'] = var8;
-            var3 = var6.bind(var5)(var4, var3);
-            return var3;
+            var4 = 14;
+            var4 = var11[var4];
+            var4 = var6.bind(var5)(var4);
+            var6 = var4.RoleIcon;
+            var4 = {};
+            var4['role'] = var8;
+            var4 = var7.bind(var5)(var6, var4);
+            return var4;
 case 4:
-            var2 = var2.result;
-            var11 = var2.user;
+            var3 = var3.result;
+            var11 = var3.user;
             var4 = _closure1_slot9;
-            var3 = _closure1_slot1;
+            var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 13;
             var2 = var8[var6];
-            var3 = var3.bind(var5)(var2);
+            var2 = var7.bind(var5)(var2);
+            var3 = var2.Avatar;
             var2 = {};
             var2['user'] = var11;
             var2['guildId'] = var10;
             var9 = !var9;
             var2['animate'] = var9;
-            var7 = _closure1_slot0;
             var6 = var8[var6];
             var6 = var7.bind(var5)(var6);
             var6 = var6.AvatarSizes;

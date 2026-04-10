@@ -110,10 +110,10 @@ case 0:
             var8 = var23.content;
             var5['style'] = var8;
             var13 = _closure1_slot4;
-            var9 = _closure1_slot1;
             var17 = 7;
             var8 = var15[var17];
-            var9 = var9.bind(var4)(var8);
+            var8 = var12.bind(var4)(var8);
+            var9 = var8.HelpMessage;
             var8 = {'messageType': null, 'textColor': 'text-feedback-info', 'textVariant': 'text-sm/medium'};
             var17 = var15[var17];
             var17 = var12.bind(var4)(var17);

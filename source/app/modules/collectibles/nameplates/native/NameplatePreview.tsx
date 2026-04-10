@@ -283,12 +283,13 @@ case 24:
             var2[4] = var11;
             var1 = function() {
                 var4 = _closure1_slot7;
-                var2 = _closure1_slot1;
+                var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var6 = 13;
                 var1 = var8[var6];
                 var3 = undefined;
-                var2 = var2.bind(var3)(var1);
+                var1 = var7.bind(var3)(var1);
+                var2 = var1.Avatar;
                 var1 = {};
                 var9 = _closure2_slot2;
                 var9 = var9.avatar;
@@ -297,7 +298,6 @@ case 24:
                 var1['user'] = var9;
                 var9 = _closure2_slot1;
                 var1['guildId'] = var9;
-                var7 = _closure1_slot0;
                 var6 = var8[var6];
                 var6 = var7.bind(var3)(var6);
                 var6 = var6.AvatarSizes;

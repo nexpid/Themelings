@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var14 = var1.start;
+            var11 = var1.start;
             var8 = var1.end;
             var18 = var1.suggestion;
             var _closure2_slot0 = var18;
@@ -192,11 +192,11 @@ case 5:
 case 6:
             var6 = var1;
 case 4:
-            var11 = _closure1_slot1;
+            var2 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 12;
             var1 = var9[var1];
-            var3 = var11.bind(var4)(var1);
+            var3 = var2.bind(var4)(var1);
             var2 = var3.getUserAvatarSource;
             var1 = var18.suggested_user;
             var17 = var2.bind(var3)(var1);
@@ -207,12 +207,13 @@ case 4:
             var1 = var10.bind(var4)(var1);
             var2 = var1.TableCheckboxRow;
             var1 = {};
-            var1['start'] = var14;
+            var1['start'] = var11;
             var1['end'] = var8;
             var14 = _closure1_slot8;
             var16 = 14;
             var8 = var9[var16];
-            var11 = var11.bind(var4)(var8);
+            var8 = var10.bind(var4)(var8);
+            var11 = var8.Avatar;
             var8 = {};
             var8['source'] = var17;
             var16 = var9[var16];

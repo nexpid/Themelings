@@ -121,12 +121,12 @@ case 2:
             var _closure2_slot3 = var16;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 20;
+            var1 = 19;
             var1 = var4[var1];
             var2 = var3.bind(var5)(var1);
             var1 = var2.useGetOrFetchCollectiblesCategoriesAndPurchases;
             var1 = var1.bind(var2)();
-            var2 = 21;
+            var2 = 20;
             var1 = var4[var2];
             var12 = var3.bind(var5)(var1);
             var11 = var12.useStateFromStores;
@@ -140,7 +140,7 @@ case 2:
             };
             var1 = var11.bind(var12)(var9, var1);
             var11 = _closure1_slot1;
-            var9 = 22;
+            var9 = 21;
             var9 = var4[var9];
             var9 = var11.bind(var5)(var9);
             var12 = var9.bind(var5)();
@@ -169,7 +169,7 @@ case 2:
                 }
             };
             var9 = var11.bind(var13)(var9, var2);
-            var2 = 23;
+            var2 = 22;
             var2 = var4[var2];
             var4 = var3.bind(var5)(var2);
             var3 = var4.getProfilePreviewValue;
@@ -216,14 +216,14 @@ case 14:
             var9 = _closure1_slot11;
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var4 = 24;
+            var4 = 23;
             var4 = var21[var4];
             var4 = var20.bind(var5)(var4);
             var8 = var4.Text;
             var4 = {'variant': 'redesign/heading-18/bold', 'style': null, 'accessibilityRole': 'header'};
             var17 = var11.title;
             var4['style'] = var17;
-            var17 = 25;
+            var17 = 24;
             var18 = var21[var17];
             var18 = var20.bind(var5)(var18);
             var19 = var18.intl;
@@ -255,7 +255,7 @@ case 15:
             var9 = _closure1_slot11;
             var8 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var7 = 26;
+            var7 = 25;
             var7 = var16[var7];
             var8 = var8.bind(var5)(var7);
             var7 = {};
@@ -269,7 +269,7 @@ case 17:
             var7['previewSkuId'] = var13;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var13 = 25;
+            var13 = 24;
             var14 = var17[var13];
             var14 = var16.bind(var5)(var14);
             var18 = var14.intl;
@@ -302,7 +302,7 @@ case 17:
                 var5 = _closure1_slot11;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 27;
+                var1 = 26;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -356,7 +356,7 @@ case 0:
             var14 = var2.bind(var4)();
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 28;
+            var2 = 27;
             var2 = var6[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.bind(var4)(var3);
@@ -419,7 +419,7 @@ case 26:
 case 29:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var5 = 25;
+            var5 = 24;
             var6 = var10[var5];
             var6 = var8.bind(var4)(var6);
             var7 = var6.intl;
@@ -433,7 +433,7 @@ case 29:
 case 28:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 25;
+            var6 = 24;
             var8 = var11[var6];
             var8 = var7.bind(var4)(var8);
             var10 = var8.intl;
@@ -460,7 +460,7 @@ case 30:
             var12 = _closure1_slot11;
             var19 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var18 = 29;
+            var18 = 28;
             var6 = var15[var18];
             var6 = var19.bind(var4)(var6);
             var10 = var6.NameplateDummyUserPreview;
@@ -479,7 +479,7 @@ case 30:
             var10 = var12.bind(var4)(var11, var10);
             var6[1] = var10;
             var11 = _closure1_slot1;
-            var10 = 30;
+            var10 = 29;
             var9 = var15[var10];
             var26 = var11.bind(var4)(var9);
             var9 = {};
@@ -509,7 +509,7 @@ case 30:
             var6 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var6;
-            var6 = 31;
+            var6 = 30;
             var6 = var15[var6];
             var6 = var19.bind(var4)(var6);
             var9 = var6.NameplatePreview;
@@ -569,7 +569,7 @@ case 30:
         }
     };
     var _closure1_slot15 = var5;
-    var5 = 32;
+    var5 = 31;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -616,12 +616,12 @@ case 31:
             var1 = 11;
             var3 = var18[var1];
             var5 = var11.bind(var4)(var3);
-            var13 = 12;
-            var3 = var18[var13];
+            var14 = 12;
+            var3 = var18[var14];
             var3 = var11.bind(var4)(var3);
             var3 = var3.EDIT_NAMEPLATE_SHEET;
             var3 = var5.bind(var4)(var3);
-            var14 = var3.analyticsLocations;
+            var13 = var3.analyticsLocations;
             var6 = _closure1_slot4;
             var8 = var6.useCallback;
             var5 = function() {
@@ -683,7 +683,7 @@ case 33:
             var1 = var10.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
-            var1['value'] = var14;
+            var1['value'] = var13;
             var7 = _closure1_slot12;
             var5 = 15;
             var5 = var18[var5];
@@ -741,27 +741,23 @@ case 38:
 case 37:
             var10['selectedSkuId'] = var16;
             var10['onApply'] = var15;
-            var10['analyticsLocations'] = var14;
-            var14 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var13 = var15[var13];
-            var13 = var14.bind(var4)(var13);
-            var13 = var13.EDIT_NAMEPLATE_SHEET;
-            var10['analyticsSource'] = var13;
+            var10['analyticsLocations'] = var13;
+            var15 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var14 = var13[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.EDIT_NAMEPLATE_SHEET;
+            var10['analyticsSource'] = var14;
             var10 = var3.bind(var4)(var11, var10);
             var8[1] = var10;
             var11 = _closure1_slot11;
-            var14 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var9 = 18;
-            var9 = var15[var9];
-            var9 = var14.bind(var4)(var9);
+            var9 = var13[var9];
+            var9 = var10.bind(var4)(var9);
             var10 = var9.ActionSheetHeaderBar;
             var9 = {};
-            var13 = 19;
-            var13 = var15[var13];
-            var13 = var14.bind(var4)(var13);
-            var13 = var13.ActionSheetHeaderBarVariants;
-            var13 = var13.FLOATING;
+            var13 = 'floating';
             var9['variant'] = var13;
             var9['onPress'] = var12;
             var9 = var11.bind(var4)(var10, var9);

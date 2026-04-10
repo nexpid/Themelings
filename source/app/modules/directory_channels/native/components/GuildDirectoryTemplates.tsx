@@ -23,14 +23,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var7 = function Icon() {
             var4 = _closure1_slot9;
-            var2 = _closure1_slot1;
+            var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 7;
             var1 = var7[var1];
             var3 = undefined;
-            var2 = var2.bind(var3)(var1);
+            var1 = var6.bind(var3)(var1);
+            var2 = var1.Icon;
             var1 = {};
-            var6 = _closure1_slot0;
             var5 = 8;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);

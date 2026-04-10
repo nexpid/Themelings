@@ -31,7 +31,7 @@ case 6:
             var9 = _closure1_slot9;
             var12 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var6 = 14;
+            var6 = 13;
             var5 = var17[var6];
             var5 = var12.bind(var4)(var5);
             var7 = var5.Text;
@@ -84,7 +84,7 @@ case 5:
             var10 = _closure1_slot9;
             var13 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var7 = 14;
+            var7 = 13;
             var6 = var17[var7];
             var6 = var13.bind(var4)(var6);
             var9 = var6.Text;
@@ -139,7 +139,7 @@ case 4:
             var12 = _closure1_slot9;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var7 = 14;
+            var7 = 13;
             var6 = var14[var7];
             var6 = var13.bind(var4)(var6);
             var9 = var6.Text;
@@ -343,7 +343,7 @@ case 0:
             };
             var19 = var10.bind(var11)(var8, var3);
             var3 = var5.getAvatarSource;
-            var13 = var3.bind(var5)(var7);
+            var15 = var3.bind(var5)(var7);
             var24 = 10;
             var3 = var2[var24];
             var3 = var6.bind(var4)(var3);
@@ -395,15 +395,15 @@ case 11:
             var8 = var21.avatarContainer;
             var5['style'] = var8;
             var11 = _closure1_slot9;
-            var10 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var12 = 11;
-            var8 = var15[var12];
-            var10 = var10.bind(var4)(var8);
-            var8 = {};
-            var8['source'] = var13;
             var13 = _closure1_slot0;
-            var12 = var15[var12];
+            var12 = _closure1_slot2;
+            var20 = 11;
+            var8 = var12[var20];
+            var8 = var13.bind(var4)(var8);
+            var10 = var8.CutoutableAvatarImage;
+            var8 = {};
+            var8['source'] = var15;
+            var12 = var12[var20];
             var12 = var13.bind(var4)(var12);
             var12 = var12.AvatarSizes;
             var12 = var12.REFRESH_MEDIUM_32;
@@ -423,24 +423,25 @@ case 14:
             var13[0] = var15;
             var10['style'] = var13;
             var17 = _closure1_slot9;
-            var22 = _closure1_slot1;
-            var23 = _closure1_slot2;
-            var13 = 12;
-            var13 = var23[var13];
-            var15 = var22.bind(var4)(var13);
+            var15 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var13 = var25[var20];
+            var13 = var15.bind(var4)(var13);
+            var15 = var13.Icon;
             var13 = {};
-            var20 = var21.icon;
-            var13['style'] = var20;
-            var20 = 13;
-            var20 = var23[var20];
-            var20 = var22.bind(var4)(var20);
-            var13['source'] = var20;
-            var20 = 8;
-            var20 = var23[var20];
-            var20 = var22.bind(var4)(var20);
-            var20 = var20.unsafe_rawColors;
-            var20 = var20.WHITE;
-            var13['color'] = var20;
+            var22 = var21.icon;
+            var13['style'] = var22;
+            var23 = _closure1_slot1;
+            var22 = 12;
+            var22 = var25[var22];
+            var22 = var23.bind(var4)(var22);
+            var13['source'] = var22;
+            var22 = 8;
+            var22 = var25[var22];
+            var22 = var23.bind(var4)(var22);
+            var22 = var22.unsafe_rawColors;
+            var22 = var22.WHITE;
+            var13['color'] = var22;
             var13 = var17.bind(var4)(var15, var13);
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
@@ -459,7 +460,7 @@ case 13:
             var12 = _closure1_slot9;
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var17 = 14;
+            var17 = 13;
             var10 = var10[var17];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;
@@ -485,9 +486,9 @@ case 16:
             var13 = var12.Text;
             var12 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var16 = var16.user;
-            var20 = var16.discriminator;
+            var22 = var16.discriminator;
             var16 = ['#'];
-            var16[1] = var20;
+            var16[1] = var22;
             var12['children'] = var16;
             var11 = var15.bind(var4)(var13, var12);
 case 15:
@@ -503,9 +504,8 @@ case 15:
             var10['style'] = var13;
             var16 = _closure1_slot9;
             var15 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var13 = 15;
-            var13 = var20[var13];
+            var13 = _closure1_slot2;
+            var13 = var13[var20];
             var13 = var15.bind(var4)(var13);
             var15 = var13.LegacyText;
             var13 = {};
@@ -563,7 +563,7 @@ case 22:
         }
     };
     var _closure1_slot12 = var4;
-    var4 = 22;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -592,7 +592,7 @@ case 22:
         var22 = function handleDismiss() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 16;
+            var1 = 14;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -604,7 +604,7 @@ case 22:
         var _closure2_slot3 = var22;
         var15 = _closure1_slot0;
         var16 = _closure1_slot2;
-        var5 = 17;
+        var5 = 15;
         var1 = var16[var5];
         var8 = var15.bind(var4)(var1);
         var7 = var8.useStageBlockedUsers;
@@ -631,7 +631,7 @@ case 22:
         var5 = new Array(0);
         var11 = var8.bind(var11)(var7, var5);
         var8 = _closure1_slot10;
-        var5 = 18;
+        var5 = 16;
         var5 = var16[var5];
         var5 = var15.bind(var4)(var5);
         var7 = var5.SafeAreaPaddingView;
@@ -642,7 +642,7 @@ case 22:
         var5['style'] = var12;
         var5['onLayout'] = var11;
         var21 = _closure1_slot9;
-        var17 = 19;
+        var17 = 17;
         var11 = var16[var17];
         var11 = var15.bind(var4)(var11);
         var20 = var11.Button;
@@ -703,7 +703,7 @@ case 22:
         var1 = arraySpread(var28, var27, var26);
         var _closure2_slot4 = var11;
         var3 = _closure1_slot10;
-        var1 = 20;
+        var1 = 18;
         var1 = var16[var1];
         var1 = var15.bind(var4)(var1);
         var2 = var1.BottomSheet;
@@ -719,7 +719,7 @@ case 22:
         var1['footer'] = var5;
         var8 = _closure1_slot9;
         var7 = _closure1_slot1;
-        var5 = 21;
+        var5 = 19;
         var5 = var16[var5];
         var7 = var7.bind(var4)(var5);
         var5 = {};

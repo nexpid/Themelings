@@ -45,23 +45,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var9 = {};
     var12 = 5;
-    var12 = var6[var12];
-    var12 = var5.bind(var1)(var12);
-    var15 = var12.AVATAR_SIZE_MAP;
-    var12 = 6;
     var13 = var6[var12];
     var13 = var5.bind(var1)(var13);
-    var13 = var13.AvatarSizes;
-    var13 = var13.NORMAL;
-    var13 = var15[var13];
-    var13 = var13 / var11;
-    var9['borderRadius'] = var13;
-    var13 = 7;
-    var15 = var6[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BACKGROUND_SURFACE_HIGH;
-    var9['backgroundColor'] = var15;
+    var13 = var13.AVATAR_SIZE_MAP;
+    var12 = var6[var12];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.AvatarSizes;
+    var12 = var12.NORMAL;
+    var12 = var13[var12];
+    var12 = var12 / var11;
+    var9['borderRadius'] = var12;
+    var12 = 6;
+    var13 = var6[var12];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
+    var9['backgroundColor'] = var13;
     var4['avatar'] = var9;
     var9 = {'marginRight': 16, 'alignItems': 'flex-start', 'height': '100%'};
     var4['avatarContainer'] = var9;
@@ -71,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['messageDetails'] = var9;
     var9 = {};
     var9['flexShrink'] = var10;
-    var13 = var6[var13];
+    var13 = var6[var12];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
     var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
@@ -88,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['usernameTextContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -104,15 +103,15 @@ case 0:
             var2 = _closure1_slot8;
             var4 = undefined;
             var14 = var2.bind(var4)();
-            var2 = _closure1_slot0;
+            var9 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var3 = 8;
-            var3 = var12[var3];
-            var6 = var2.bind(var4)(var3);
-            var5 = var6.useStateFromStores;
-            var7 = _closure1_slot4;
-            var3 = new Array(1);
-            var3[0] = var7;
+            var2 = 7;
+            var2 = var12[var2];
+            var5 = var9.bind(var4)(var2);
+            var3 = var5.useStateFromStores;
+            var6 = _closure1_slot4;
+            var2 = new Array(1);
+            var2[0] = var6;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -129,7 +128,7 @@ case 3:
 case 5:
                     var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var4 = 9;
+                    var4 = 8;
                     var5 = var5[var4];
                     var4 = undefined;
                     var5 = var6.bind(var4)(var5);
@@ -142,28 +141,28 @@ case 2:
                     return var1;
                 }
             };
-            var19 = var5.bind(var6)(var3, var1);
-            var1 = 10;
+            var19 = var3.bind(var5)(var2, var1);
+            var1 = 9;
             var1 = var12[var1];
-            var2 = var2.bind(var4)(var1);
+            var2 = var9.bind(var4)(var1);
             var1 = var2.useMessageRequestRelativeTimestampText;
             var18 = var1.bind(var2)(var13);
             var1 = global;
-            var5 = var1.Math;
-            var3 = var5.floor;
+            var6 = var1.Math;
+            var5 = var6.floor;
             var2 = var1.Math;
             var1 = var2.random;
-            var6 = var1.bind(var2)();
-            var9 = _closure1_slot1;
-            var1 = 11;
+            var7 = var1.bind(var2)();
+            var3 = _closure1_slot1;
+            var1 = 10;
             var2 = var12[var1];
-            var2 = var9.bind(var4)(var2);
+            var2 = var3.bind(var4)(var2);
             var2 = var2.DEFAULT_AVATARS;
             var2 = var2.length;
-            var2 = var6 * var2;
-            var2 = var3.bind(var5)(var2);
+            var2 = var7 * var2;
+            var2 = var5.bind(var6)(var2);
             var1 = var12[var1];
-            var1 = var9.bind(var4)(var1);
+            var1 = var3.bind(var4)(var1);
             var1 = var1.DEFAULT_AVATARS;
             var11 = var1[var2];
             var3 = _closure1_slot6;
@@ -174,9 +173,10 @@ case 2:
             var5 = {};
             var8 = var14.avatarContainer;
             var5['style'] = var8;
-            var8 = 6;
+            var8 = 5;
             var8 = var12[var8];
-            var9 = var9.bind(var4)(var8);
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.Avatar;
             var17 = null;
             if(!(var17 == var24)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -217,7 +217,7 @@ case 8:
             var9['style'] = var11;
             var20 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var16 = 12;
+            var16 = 11;
             var11 = var15[var16];
             var11 = var20.bind(var4)(var11);
             var12 = var11.Text;
@@ -246,7 +246,7 @@ case 11:
 case 16:
             var27 = _closure1_slot0;
             var28 = _closure1_slot2;
-            var23 = 13;
+            var23 = 12;
             var25 = var28[var23];
             var25 = var27.bind(var4)(var25);
             var26 = var25.intl;
@@ -271,7 +271,7 @@ case 18:
             var19 = var23.bind(var4)(var19);
             var20 = var19.Text;
             var19 = {'variant': 'text-md/medium', 'color': 'text-muted'};
-            var22 = 9;
+            var22 = 8;
             var22 = var25[var22];
             var23 = var23.bind(var4)(var22);
             var22 = var23.getUserTag;
@@ -309,7 +309,7 @@ case 17:
             var9 = new Array(2);
             var9[0] = var11;
             var11 = _closure1_slot1;
-            var10 = 14;
+            var10 = 13;
             var10 = var15[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};

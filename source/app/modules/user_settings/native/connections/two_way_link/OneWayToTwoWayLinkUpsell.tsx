@@ -120,11 +120,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2 = var6.bind(var7)(var2, var3);
         var3 = _closure1_slot6;
-        var2 = _closure1_slot1;
+        var2 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
         var1 = var6[var1];
-        var2 = var2.bind(var4)(var1);
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.NewTag;
         var1 = {};
         var5 = var5.newContainer;
         var1['containerStyle'] = var5;

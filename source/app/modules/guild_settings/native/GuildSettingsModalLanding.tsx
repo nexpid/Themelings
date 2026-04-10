@@ -435,7 +435,7 @@ case 21:
             var18 = 21;
             var18 = var20[var18];
             var18 = var19.bind(var5)(var18);
-            var18 = var18.ChatIcon;
+            var18 = var18.StampIcon;
             var7['IconComponent'] = var18;
             var7 = var17.bind(var5)(var16, var7);
             var13['icon'] = var7;

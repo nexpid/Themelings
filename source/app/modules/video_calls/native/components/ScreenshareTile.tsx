@@ -110,7 +110,8 @@ case 4:
             var8['style'] = var10;
             var10 = 8;
             var10 = var15[var10];
-            var12 = var13.bind(var4)(var10);
+            var10 = var14.bind(var4)(var10);
+            var12 = var10.LiveTag;
             var10 = {};
             var10 = var3.bind(var4)(var12, var10);
             var8['children'] = var10;

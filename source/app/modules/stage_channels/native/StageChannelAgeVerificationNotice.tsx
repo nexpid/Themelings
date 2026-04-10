@@ -164,11 +164,12 @@ case 0:
             if(var1) { _fun0004_ip = 8; continue _fun0004 }
 case 9:
             var3 = _closure1_slot5;
-            var2 = _closure1_slot1;
+            var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var8 = 15;
             var1 = var1[var8];
-            var2 = var2.bind(var5)(var1);
+            var1 = var2.bind(var5)(var1);
+            var2 = var1.HelpMessage;
             var1 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot2;

@@ -44,14 +44,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var1.channel;
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
-        var2 = 23;
+        var2 = 24;
         var2 = var7[var2];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
         var6 = var2.bind(var4)();
         var3 = _closure1_slot12;
         var2 = _closure1_slot0;
-        var1 = 24;
+        var1 = 25;
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.ChannelCallMicButton;
@@ -76,13 +76,13 @@ case 0:
             var _closure2_slot4 = var4;
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 25;
+            var2 = 26;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var _closure2_slot1 = var2;
             var7 = _closure1_slot0;
-            var2 = 26;
+            var2 = 27;
             var8 = var6[var2];
             var12 = var7.bind(var4)(var8);
             var11 = var12.useStateFromStores;
@@ -137,12 +137,12 @@ case 6:
             };
             var11 = var8.bind(var11)(var7, var2);
             var _closure2_slot2 = var11;
-            var2 = 27;
+            var2 = 28;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var8 = var2.bind(var4)();
             var _closure2_slot3 = var8;
-            var2 = 28;
+            var2 = 29;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)(var9);
@@ -172,7 +172,7 @@ case 0:
 case 13:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 29;
+                    var3 = 30;
                     var3 = var5[var3];
                     var5 = undefined;
                     var7 = var4.bind(var5)(var3);
@@ -228,7 +228,7 @@ case 24:
 case 25:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var7 = 21;
+                    var7 = 22;
                     var7 = var10[var7];
                     var8 = var8.bind(var3)(var7);
                     var7 = var8.toggleSelfMute;
@@ -236,7 +236,7 @@ case 25:
 case 23:
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var6 = 22;
+                    var6 = 23;
                     var6 = var8[var6];
                     var8 = var7.bind(var3)(var6);
                     var7 = var8.selectVoiceChannel;
@@ -246,7 +246,7 @@ case 23:
 case 14:
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 30;
+                    var2 = 31;
                     var2 = var6[var2];
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.beginConsoleTransfer;
@@ -258,7 +258,7 @@ case 14:
             var8 = var3.bind(var7)(var1, var2);
             var7 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var3 = 16;
+            var3 = 17;
             var2 = var1[var3];
             var2 = var7.bind(var4)(var2);
             var11 = var2.bind(var4)(var9);
@@ -268,7 +268,7 @@ case 14:
             var3 = var7.useIsVoiceChannelLocked;
             var12 = var3.bind(var7)(var9);
             var3 = _closure1_slot12;
-            var7 = 31;
+            var7 = 32;
             var1 = var1[var7];
             var1 = var2.bind(var4)(var1);
             var2 = var1.LabeledActionButton;
@@ -285,7 +285,7 @@ case 28:
             var1['disabled'] = var9;
             var10 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var14 = 32;
+            var14 = 33;
             var13 = var9[var14];
             var13 = var10.bind(var4)(var13);
             var13 = var13.unsafe_rawColors;
@@ -299,7 +299,7 @@ case 28:
             var13['tintColor'] = var14;
             var1['imageStyle'] = var13;
             var16 = _closure1_slot0;
-            var14 = 20;
+            var14 = 21;
             var13 = var9[var14];
             var13 = var16.bind(var4)(var13);
             var15 = var13.intl;
@@ -313,11 +313,11 @@ case 28:
             var15 = _closure1_slot2;
             if(var6) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
-            var9 = 34;
+            var9 = 35;
             var9 = var15[var9];
             _fun0001_ip = 32; continue _fun0001;
 case 30:
-            var13 = 33;
+            var13 = 34;
             var9 = var15[var13];
 case 32:
             var9 = var10.bind(var4)(var9);
@@ -444,7 +444,7 @@ case 41:
     var4['actionBarContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 35;
+    var4 = 36;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -478,23 +478,28 @@ case 41:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
-            var17 = var2.channel;
-            var _closure2_slot0 = var17;
+            var8 = var2.channel;
+            var _closure2_slot0 = var8;
             var2 = _closure1_slot15;
             var4 = undefined;
             var11 = var2.bind(var4)();
-            var3 = _closure1_slot0;
+            var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 16;
             var2 = var5[var2];
+            var2 = var3.bind(var4)(var2);
+            var17 = var2.bind(var4)(var8);
+            var3 = _closure1_slot0;
+            var2 = 17;
+            var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useIsVoiceChannelLocked;
-            var2 = var2.bind(var3)(var17);
+            var2 = var2.bind(var3)(var8);
             var7 = _closure1_slot7;
             var5 = var7.can;
             var3 = _closure1_slot11;
             var3 = var3.CREATE_INSTANT_INVITE;
-            var3 = var5.bind(var7)(var3, var17);
+            var3 = var5.bind(var7)(var3, var8);
             var7 = null;
             var13 = null;
             if(!var3) { _fun0004_ip = 42; continue _fun0004 }
@@ -505,7 +510,7 @@ case 44:
             var13 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 17;
+                var1 = 18;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -539,17 +544,17 @@ case 46:
             var12 = _closure1_slot12;
             var15 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var8 = 18;
+            var8 = 19;
             var8 = var18[var8];
             var9 = var15.bind(var4)(var8);
             var8 = {};
-            var14 = 19;
+            var14 = 20;
             var14 = var18[var14];
             var14 = var15.bind(var4)(var14);
             var8['source'] = var14;
             var8['onPress'] = var13;
             var14 = _closure1_slot0;
-            var13 = 20;
+            var13 = 21;
             var15 = var18[var13];
             var15 = var14.bind(var4)(var15);
             var16 = var15.intl;
@@ -559,7 +564,6 @@ case 46:
             var13 = var13.t;
             var14 = var13.dHHb/2;
             var13 = {};
-            var17 = var17.name;
             var13['channelName'] = var17;
             var13 = var15.bind(var16)(var14, var13);
             var8['accessibilityLabel'] = var13;

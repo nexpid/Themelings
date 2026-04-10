@@ -79,11 +79,12 @@ case 18:
             if(!var2) { _fun0001_ip = 17; continue _fun0001 }
 case 19:
             var4 = _closure1_slot3;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 2;
             var2 = var10[var2];
-            var3 = var3.bind(var5)(var2);
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.Badge;
             var2 = {};
             var2['value'] = var9;
             var9 = true;
@@ -147,11 +148,12 @@ case 22:
             _fun0001_ip = 23; continue _fun0001;
 case 8:
             var4 = _closure1_slot3;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 2;
             var2 = var8[var2];
-            var3 = var3.bind(var5)(var2);
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.Badge;
             var2 = {};
             var2['value'] = var7;
             var2['isMentionLowImportance'] = var6;

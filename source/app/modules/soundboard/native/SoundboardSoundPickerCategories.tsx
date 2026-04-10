@@ -167,11 +167,12 @@ case 10:
             if(!(var9 == var11)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var13 = _closure1_slot10;
-            var12 = _closure1_slot1;
+            var12 = _closure1_slot0;
             var16 = _closure1_slot2;
             var9 = 14;
             var9 = var16[var9];
-            var12 = var12.bind(var5)(var9);
+            var9 = var12.bind(var5)(var9);
+            var12 = var9.Icon;
             var9 = {};
             var16 = var17.keyboardItem;
             var9['style'] = var16;

@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.RIGHT;
     var4['direction'] = var7;
     var _closure1_slot7 = var4;
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -314,13 +314,14 @@ case 26:
                     var3 = _closure2_slot9;
                     var2 = var3.push;
                     var5 = _closure1_slot5;
-                    var10 = _closure1_slot1;
+                    var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var4 = 6;
                     var4 = var11[var4];
                     var4 = var10.bind(var7)(var4);
+                    var4 = var4.CutoutableAvatarImage;
                     if(var1) { _fun0003_ip = 36; continue _fun0003 }
-case 12:
+case 37:
                     var1 = {};
                     var10 = _closure2_slot3;
                     var1['size'] = var10;
@@ -352,13 +353,13 @@ case 21:
             _closure2_slot10 = var11;
             var22 = var11 < var16;
             var14 = 0;
-            if(!var22) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
+            if(!var22) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var22 = var15.bind(var4)();
             var14 = var14 + 1;
             _closure2_slot10 = var14;
-            if(var14 < var16) { _fun0001_ip = 38; continue _fun0001 }
-case 37:
+            if(var14 < var16) { _fun0001_ip = 39; continue _fun0001 }
+case 38:
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
             var14 = 9;
@@ -368,15 +369,15 @@ case 37:
             var14 = var12[var11];
             var21 = var15.bind(var16)(var19, var20, var14);
             var14 = var13;
-            if(!var14) { _fun0001_ip = 39; continue _fun0001 }
-case 40:
+            if(!var14) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var16 = var12.length;
             var15 = 1;
             var14 = var16 > var15;
-case 39:
+case 40:
             var16 = var21;
-            if(!var14) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+            if(!var14) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var15 = _closure1_slot0;
             var22 = _closure1_slot2;
             var14 = 10;
@@ -395,24 +396,24 @@ case 42:
             var21 = var22 - var21;
             var14['count'] = var21;
             var16 = var19.bind(var20)(var15, var14);
-case 41:
-            if(!var13) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
+case 42:
+            if(!var13) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
             var12 = var12[var11];
             var11 = null;
-            if(!(var11 != var12)) { _fun0001_ip = 43; continue _fun0001 }
-case 45:
+            if(!(var11 != var12)) { _fun0001_ip = 44; continue _fun0001 }
+case 46:
             var12 = var2.HermesInternal;
             var13 = var12.concat;
             var12 = 'username-';
             var15 = var13.bind(var12)(var16);
-            if(!(var11 == var17)) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
+            if(!(var11 == var17)) { _fun0001_ip = 47; continue _fun0001 }
+case 48:
             var12 = var5.push;
             var14 = _closure1_slot5;
             var13 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var11 = 12;
+            var11 = 6;
             var11 = var19[var11];
             var11 = var13.bind(var4)(var11);
             var13 = var11.LegacyText;
@@ -427,8 +428,8 @@ case 47:
             var11['children'] = var16;
             var11 = var14.bind(var4)(var13, var11, var15);
             var11 = var12.bind(var5)(var11);
-            _fun0001_ip = 43; continue _fun0001;
-case 46:
+            _fun0001_ip = 44; continue _fun0001;
+case 47:
             var12 = var5.push;
             var14 = _closure1_slot5;
             var13 = _closure1_slot0;
@@ -451,11 +452,11 @@ case 46:
             var11['children'] = var16;
             var11 = var14.bind(var4)(var13, var11, var15);
             var11 = var12.bind(var5)(var11);
-case 43:
-            if(!(var10 > var9)) { _fun0001_ip = 48; continue _fun0001 }
-case 49:
-            if(!var3) { _fun0001_ip = 48; continue _fun0001 }
+case 44:
+            if(!(var10 > var9)) { _fun0001_ip = 49; continue _fun0001 }
 case 50:
+            if(!var3) { _fun0001_ip = 49; continue _fun0001 }
+case 51:
             var3 = var5.pop;
             var3 = var3.bind(var5)();
             var3 = 1;
@@ -500,7 +501,7 @@ case 50:
             var2 = var11.bind(var2)(var12);
             var2 = var10.bind(var4)(var9, var6, var2);
             var2 = var3.bind(var5)(var2);
-case 48:
+case 49:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};

@@ -15,11 +15,11 @@ case 0:
             var11 = var1.children;
             var13 = var1.contentStyle;
             var17 = var1.guildId;
-            var8 = var1.isInteractive;
+            var7 = var1.isInteractive;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var8 = true;
+            var7 = true;
 case 2:
             var1 = _closure1_slot7;
             var12 = var1.bind(var4)();
@@ -28,27 +28,27 @@ case 2:
             var1 = {};
             var5 = var12.container;
             var1['style'] = var5;
-            var9 = _closure1_slot5;
+            var8 = _closure1_slot5;
             var6 = _closure1_slot3;
             var5 = {};
-            var10 = var12.emojiContainer;
-            var5['style'] = var10;
+            var9 = var12.emojiContainer;
+            var5['style'] = var9;
             var15 = _closure1_slot5;
             var14 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var10 = 5;
-            var10 = var18[var10];
-            var14 = var14.bind(var4)(var10);
-            var10 = {};
-            var10['guildId'] = var17;
-            var10['id'] = var16;
-            var10 = var15.bind(var4)(var14, var10);
-            var5['children'] = var10;
-            var6 = var9.bind(var4)(var6, var5);
+            var9 = 5;
+            var9 = var18[var9];
+            var14 = var14.bind(var4)(var9);
+            var9 = {};
+            var9['guildId'] = var17;
+            var9['id'] = var16;
+            var9 = var15.bind(var4)(var14, var9);
+            var5['children'] = var9;
+            var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(3);
             var5[0] = var6;
-            var10 = _closure1_slot5;
-            var9 = _closure1_slot3;
+            var9 = _closure1_slot5;
+            var8 = _closure1_slot3;
             var6 = {};
             var14 = var12.benefitColumn;
             var12 = new Array(2);
@@ -56,19 +56,21 @@ case 2:
             var12[1] = var13;
             var6['style'] = var12;
             var6['children'] = var11;
-            var6 = var10.bind(var4)(var9, var6);
+            var6 = var9.bind(var4)(var8, var6);
             var5[1] = var6;
             var6 = true;
-            var6 = var6 === var8;
+            var6 = var6 === var7;
             if(!var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var9 = _closure1_slot5;
-            var11 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var12 = _closure1_slot2;
             var7 = 6;
             var7 = var12[var7];
-            var8 = var11.bind(var4)(var7);
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.Icon;
             var7 = {};
+            var11 = _closure1_slot1;
             var10 = 7;
             var10 = var12[var10];
             var10 = var11.bind(var4)(var10);
@@ -173,7 +175,7 @@ case 0:
             var13 = var1.bind(var5)(var3);
             var1 = null;
             var4 = var1 != var3;
-            var12 = null;
+            var15 = null;
             if(!var4) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
             var9 = _closure1_slot0;
@@ -182,7 +184,7 @@ case 13:
             var4 = var10[var4];
             var9 = var9.bind(var5)(var4);
             var4 = var9.getChannelIcon;
-            var12 = var4.bind(var9)(var3);
+            var15 = var4.bind(var9)(var3);
 case 12:
             if(!(var1 != var3)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
@@ -197,26 +199,27 @@ case 15:
             var6 = {};
             var9 = var17.channelRow;
             var6['style'] = var9;
-            var11 = _closure1_slot5;
-            var16 = _closure1_slot1;
+            var12 = _closure1_slot5;
+            var11 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var15 = 6;
-            var9 = var14[var15];
-            var10 = var16.bind(var5)(var9);
+            var16 = 6;
+            var9 = var14[var16];
+            var9 = var11.bind(var5)(var9);
+            var10 = var9.Icon;
             var9 = {};
             var17 = var17.channelIcon;
             var9['style'] = var17;
-            var15 = var14[var15];
-            var15 = var16.bind(var5)(var15);
-            var15 = var15.Sizes;
-            var15 = var15.CUSTOM;
-            var9['size'] = var15;
-            var9['source'] = var12;
-            var10 = var11.bind(var5)(var10, var9);
+            var16 = var14[var16];
+            var16 = var11.bind(var5)(var16);
+            var16 = var16.Icon;
+            var16 = var16.Sizes;
+            var16 = var16.CUSTOM;
+            var9['size'] = var16;
+            var9['source'] = var15;
+            var10 = var12.bind(var5)(var10, var9);
             var9 = new Array(2);
             var9[0] = var10;
             var12 = _closure1_slot5;
-            var11 = _closure1_slot0;
             var10 = 8;
             var10 = var14[var10];
             var10 = var11.bind(var5)(var10);

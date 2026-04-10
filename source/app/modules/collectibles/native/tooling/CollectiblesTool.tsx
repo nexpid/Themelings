@@ -492,11 +492,11 @@ case 12:
             var9 = {};
             var10 = var22.sectionHeader;
             var9['style'] = var10;
-            var16 = _closure1_slot0;
+            var26 = _closure1_slot0;
             var30 = _closure1_slot2;
             var20 = 11;
             var10 = var30[var20];
-            var10 = var16.bind(var4)(var10);
+            var10 = var26.bind(var4)(var10);
             var11 = var10.Text;
             var10 = {'variant': 'heading-md/semibold', 'style': null, 'children': 'Shop Settings'};
             var12 = var22.sectionTitle;
@@ -508,7 +508,7 @@ case 12:
             var9[0] = var10;
             var10 = 12;
             var10 = var30[var10];
-            var10 = var16.bind(var4)(var10);
+            var10 = var26.bind(var4)(var10);
             var11 = var10.ShopSkipCategoriesFilter;
             var10 = {};
             var10 = var3.bind(var4)(var11, var10);
@@ -524,11 +524,11 @@ case 12:
             var11 = var22.sectionHeader;
             var10['style'] = var11;
             var11 = var30[var20];
-            var11 = var16.bind(var4)(var11);
+            var11 = var26.bind(var4)(var11);
             var12 = var11.Text;
             var11 = {'variant': 'heading-md/semibold', 'style': null, 'children': 'Product Configuration'};
-            var24 = var22.sectionTitle;
-            var11['style'] = var24;
+            var16 = var22.sectionTitle;
+            var11['style'] = var16;
             var11 = var3.bind(var4)(var12, var11);
             var10['children'] = var11;
             var11 = var3.bind(var4)(var2, var10);
@@ -538,7 +538,7 @@ case 12:
             var12 = var22.inputContainer;
             var11['style'] = var12;
             var12 = var30[var20];
-            var12 = var16.bind(var4)(var12);
+            var12 = var26.bind(var4)(var12);
             var16 = var12.Text;
             var12 = {'variant': 'text-md/semibold', 'style': null, 'children': 'Primary Product SKU ID'};
             var24 = var22.inputLabel;
@@ -549,10 +549,10 @@ case 12:
             var16 = {};
             var24 = var22.inputWrapper;
             var16['style'] = var24;
-            var29 = _closure1_slot1;
             var24 = 13;
             var24 = var30[var24];
-            var26 = var29.bind(var4)(var24);
+            var24 = var26.bind(var4)(var24);
+            var26 = var24.TextInput;
             var24 = {};
             var24['value'] = var19;
             var24['onChangeText'] = var23;
@@ -563,6 +563,7 @@ case 12:
             var27 = {};
             var23 = 14;
             var27['fontSize'] = var23;
+            var29 = _closure1_slot1;
             var28 = 7;
             var28 = var30[var28];
             var28 = var29.bind(var4)(var28);

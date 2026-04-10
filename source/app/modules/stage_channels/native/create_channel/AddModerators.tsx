@@ -371,13 +371,13 @@ case 13:
             var7 = {};
             var16 = var16.errorMessage;
             var7['style'] = var16;
-            var17 = _closure1_slot1;
+            var20 = _closure1_slot0;
             var21 = _closure1_slot2;
             var19 = 17;
             var16 = var21[var19];
-            var17 = var17.bind(var4)(var16);
+            var16 = var20.bind(var4)(var16);
+            var17 = var16.HelpMessage;
             var16 = {};
-            var20 = _closure1_slot0;
             var19 = var21[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.HelpMessageTypes;

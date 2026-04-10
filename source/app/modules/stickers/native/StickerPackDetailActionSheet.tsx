@@ -287,18 +287,14 @@ case 8:
             var24 = var17.bind(var4)(var24);
             var25 = var24.ActionSheetHeaderBar;
             var24 = {};
-            var26 = 15;
-            var26 = var20[var26];
-            var26 = var17.bind(var4)(var26);
-            var26 = var26.ActionSheetHeaderBarVariants;
-            var26 = var26.FLOATING;
+            var26 = 'floating';
             var24['variant'] = var26;
             var24 = var19.bind(var4)(var25, var24);
             var21[1] = var24;
             var15['children'] = var21;
             var15 = var3.bind(var4)(var2, var15);
             var5['header'] = var15;
-            var15 = 16;
+            var15 = 15;
             var15 = var20[var15];
             var15 = var17.bind(var4)(var15);
             var17 = var15.BottomSheetScrollView;
@@ -315,7 +311,7 @@ case 8:
                 var5 = _closure1_slot9;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 17;
+                var1 = 16;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -346,7 +342,7 @@ case 11:
             var15 = _closure1_slot9;
             var14 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var9 = 18;
+            var9 = 17;
             var9 = var19[var9];
             var9 = var14.bind(var4)(var9);
             var14 = var9.PressableOpacity;
@@ -364,7 +360,7 @@ case 11:
             };
             var9['onPress'] = var16;
             var17 = _closure1_slot1;
-            var16 = 19;
+            var16 = 18;
             var16 = var19[var16];
             var17 = var17.bind(var4)(var16);
             var16 = {};
@@ -397,7 +393,7 @@ case 12:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

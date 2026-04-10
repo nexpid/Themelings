@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function sortChannelsByLastMessageId(arg1, arg2) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var2 = 15;
+        var2 = 18;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -69,21 +69,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.TextAreaCta;
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.AnalyticEvents;
-    var _closure1_slot10 = var8;
-    var4 = var4.Permissions;
-    var _closure1_slot11 = var4;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot10 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var4 = var4.TextAreaCta;
+    var _closure1_slot11 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.AnalyticEvents;
+    var _closure1_slot12 = var8;
+    var4 = var4.Permissions;
+    var _closure1_slot13 = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot12 = var4;
+    var _closure1_slot14 = var4;
     var4 = var7.memo;
     var2 = function ChatInputGuardReadonly(arg1) {
         var1 = arg1;
@@ -92,39 +100,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function useNotice(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var6 = arg1;
-                var _closure3_slot0 = var6;
+                var5 = arg1;
+                var _closure3_slot0 = var5;
                 var2 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var1 = 9;
-                var7 = var5[var1];
-                var9 = undefined;
-                var10 = var2.bind(var9)(var7);
-                var8 = var10.useMemberActionsForChannel;
-                var7 = arg2;
-                var7 = var8.bind(var10)(var6, var7);
-                var7 = var7.channelAction;
-                var1 = var5[var1];
-                var5 = var2.bind(var9)(var1);
-                var2 = var5.useNextMemberAction;
-                var10 = null;
-                var8 = var10 == var7;
+                var4 = _closure1_slot2;
+                var1 = 11;
+                var6 = var4[var1];
+                var11 = undefined;
+                var9 = var2.bind(var11)(var6);
+                var7 = var9.useMemberActionsForChannel;
+                var6 = arg2;
+                var6 = var7.bind(var9)(var5, var6);
+                var6 = var6.channelAction;
+                var1 = var4[var1];
+                var4 = var2.bind(var11)(var1);
+                var2 = var4.useNextMemberAction;
+                var13 = null;
+                var7 = var13 == var6;
                 var1 = undefined;
-                if(var8) { _fun0001_ip = 2; continue _fun0001 }
+                if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var1 = var7.channelId;
+                var1 = var6.channelId;
 case 2:
-                var1 = var2.bind(var5)(var6, var1);
+                var1 = var2.bind(var4)(var5, var1);
                 var _closure3_slot1 = var1;
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var2 = 10;
-                var1 = var6[var2];
-                var11 = var5.bind(var9)(var1);
-                var8 = var11.useStateFromStores;
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var2 = 12;
+                var1 = var5[var2];
+                var9 = var4.bind(var11)(var1);
+                var7 = var9.useStateFromStores;
                 var1 = _closure1_slot4;
-                var7 = new Array(1);
-                var7[0] = var1;
+                var6 = new Array(1);
+                var6[0] = var1;
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -143,14 +151,14 @@ case 4:
                         return var1;
                     }
                 };
-                var8 = var8.bind(var11)(var7, var1);
-                var _closure3_slot2 = var8;
-                var1 = var6[var2];
-                var12 = var5.bind(var9)(var1);
-                var11 = var12.useStateFromStoresArray;
+                var12 = var7.bind(var9)(var6, var1);
+                var _closure3_slot2 = var12;
+                var1 = var5[var2];
+                var9 = var4.bind(var11)(var1);
+                var7 = var9.useStateFromStoresArray;
                 var1 = _closure1_slot5;
-                var7 = new Array(1);
-                var7[0] = var1;
+                var6 = new Array(1);
+                var6[0] = var1;
                 var1 = function() {
                     var4 = _closure1_slot5;
                     var3 = var4.getChannels;
@@ -166,18 +174,18 @@ case 4:
                     };
                     var3 = var3.bind(var4)(var2);
                     var2 = var3.sort;
-                    var1 = _closure1_slot13;
+                    var1 = _closure1_slot15;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var1 = var11.bind(var12)(var7, var1);
+                var1 = var7.bind(var9)(var6, var1);
                 var _closure3_slot3 = var1;
-                var2 = var6[var2];
-                var7 = var5.bind(var9)(var2);
-                var6 = var7.useStateFromStoresArray;
+                var2 = var5[var2];
+                var6 = var4.bind(var11)(var2);
+                var5 = var6.useStateFromStoresArray;
                 var2 = _closure1_slot7;
-                var5 = new Array(1);
-                var5[0] = var2;
+                var4 = new Array(1);
+                var4[0] = var2;
                 var2 = new Array(1);
                 var2[0] = var1;
                 var1 = function() {
@@ -185,7 +193,7 @@ case 4:
                     var3 = var4.filter;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 11;
+                    var2 = 13;
                     var5 = var5[var2];
                     var2 = undefined;
                     var2 = var6.bind(var2)(var5);
@@ -205,7 +213,7 @@ case 4:
                     var1 = function(arg1) {
                         var4 = _closure1_slot7;
                         var3 = var4.can;
-                        var1 = _closure1_slot11;
+                        var1 = _closure1_slot13;
                         var2 = var1.SEND_MESSAGES;
                         var1 = arg1;
                         var1 = var3.bind(var4)(var2, var1);
@@ -214,54 +222,63 @@ case 4:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var12 = var6.bind(var7)(var5, var1, var2);
-                var _closure3_slot4 = var12;
-                if(!(var10 == var8)) { _fun0001_ip = 6; continue _fun0001 }
+                var10 = var5.bind(var6)(var4, var1, var2);
+                var _closure3_slot4 = var10;
+                if(!(var13 == var12)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                var1 = var12.length;
-                var11 = 0;
-                if(!(var11 !== var1)) { _fun0001_ip = 8; continue _fun0001 }
+                var1 = var10.length;
+                var9 = 0;
+                if(!(var9 !== var1)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
                 var1 = {};
-                var5 = _closure1_slot0;
-                var13 = _closure1_slot2;
-                var2 = 12;
-                var6 = var13[var2];
-                var6 = var5.bind(var9)(var6);
-                var7 = var6.intl;
-                var6 = var7.formatToPlainString;
-                var2 = var13[var2];
-                var2 = var5.bind(var9)(var2);
+                var4 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var2 = 14;
+                var5 = var7[var2];
+                var5 = var4.bind(var11)(var5);
+                var6 = var5.intl;
+                var5 = var6.formatToPlainString;
+                var2 = var7[var2];
+                var2 = var4.bind(var11)(var2);
                 var2 = var2.t;
-                var5 = var2.q1krfU;
+                var4 = var2.q1krfU;
                 var2 = {};
-                var11 = var12[var11];
-                var12 = var10 == var11;
-                var10 = undefined;
-                if(var12) { _fun0001_ip = 10; continue _fun0001 }
+                var7 = var10[var9];
+                var13 = var13 != var7;
+                var7 = '';
+                if(!var13) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-                var10 = var11.name;
+                var14 = _closure1_slot0;
+                var15 = _closure1_slot2;
+                var13 = 15;
+                var13 = var15[var13];
+                var15 = var14.bind(var11)(var13);
+                var14 = var15.computeChannelName;
+                var13 = var10[var9];
+                var10 = _closure1_slot10;
+                var9 = _closure1_slot9;
+                var7 = var14.bind(var15)(var13, var10, var9);
 case 10:
-                var2['channelName'] = var10;
-                var2 = var6.bind(var7)(var5, var2);
+                var2['channelName'] = var7;
+                var2 = var5.bind(var6)(var4, var2);
                 var1['text'] = var2;
                 var2 = function handlePress() {
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 16;
                     var3 = var4[var1];
                     var1 = undefined;
                     var7 = var5.bind(var1)(var3);
                     var6 = var7.trackWithMetadata;
-                    var3 = _closure1_slot10;
+                    var3 = _closure1_slot12;
                     var5 = var3.TEXT_AREA_CTA_CLICKED;
                     var3 = {};
-                    var8 = _closure1_slot9;
+                    var8 = _closure1_slot11;
                     var8 = var8.CHANNEL_LINK;
                     var3['cta_type'] = var8;
                     var3 = var6.bind(var7)(var5, var3);
                     var3 = _closure1_slot0;
-                    var2 = 14;
+                    var2 = 17;
                     var2 = var4[var2];
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.transitionToGuild;
@@ -277,36 +294,36 @@ case 10:
                 _fun0001_ip = 12; continue _fun0001;
 case 8:
                 var2 = {};
-                var10 = _closure1_slot0;
-                var11 = _closure1_slot2;
-                var5 = 12;
-                var6 = var11[var5];
-                var6 = var10.bind(var9)(var6);
-                var7 = var6.intl;
-                var6 = var7.string;
-                var5 = var11[var5];
-                var5 = var10.bind(var9)(var5);
-                var5 = var5.t;
-                var5 = var5.gHD/nZ;
-                var5 = var6.bind(var7)(var5);
-                var2['text'] = var5;
-                var5 = function handlePress() {
+                var7 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var4 = 14;
+                var5 = var9[var4];
+                var5 = var7.bind(var11)(var5);
+                var6 = var5.intl;
+                var5 = var6.string;
+                var4 = var9[var4];
+                var4 = var7.bind(var11)(var4);
+                var4 = var4.t;
+                var4 = var4.gHD/nZ;
+                var4 = var5.bind(var6)(var4);
+                var2['text'] = var4;
+                var4 = function handlePress() {
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 16;
                     var3 = var4[var1];
                     var1 = undefined;
                     var7 = var5.bind(var1)(var3);
                     var6 = var7.trackWithMetadata;
-                    var3 = _closure1_slot10;
+                    var3 = _closure1_slot12;
                     var5 = var3.TEXT_AREA_CTA_CLICKED;
                     var3 = {};
-                    var8 = _closure1_slot9;
+                    var8 = _closure1_slot11;
                     var8 = var8.CHANNEL_LIST;
                     var3['cta_type'] = var8;
                     var3 = var6.bind(var7)(var5, var3);
                     var3 = _closure1_slot0;
-                    var2 = 14;
+                    var2 = 17;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.transitionToGuild;
@@ -314,45 +331,51 @@ case 8:
                     var2 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
-                var2['handlePress'] = var5;
+                var2['handlePress'] = var4;
                 var1 = var2;
 case 12:
                 _fun0001_ip = 13; continue _fun0001;
 case 6:
                 var2 = {};
-                var5 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var4 = 12;
-                var6 = var10[var4];
-                var6 = var5.bind(var9)(var6);
-                var7 = var6.intl;
+                var10 = _closure1_slot0;
+                var13 = _closure1_slot2;
+                var4 = 14;
+                var5 = var13[var4];
+                var5 = var10.bind(var11)(var5);
+                var7 = var5.intl;
                 var6 = var7.formatToPlainString;
-                var4 = var10[var4];
-                var4 = var5.bind(var9)(var4);
+                var4 = var13[var4];
+                var4 = var10.bind(var11)(var4);
                 var4 = var4.t;
                 var5 = var4.q1krfU;
                 var4 = {};
-                var8 = var8.name;
+                var9 = 15;
+                var9 = var13[var9];
+                var11 = var10.bind(var11)(var9);
+                var10 = var11.computeChannelName;
+                var9 = _closure1_slot10;
+                var8 = _closure1_slot9;
+                var8 = var10.bind(var11)(var12, var9, var8);
                 var4['channelName'] = var8;
                 var4 = var6.bind(var7)(var5, var4);
                 var2['text'] = var4;
                 var3 = function handlePress() {
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 16;
                     var3 = var4[var1];
                     var1 = undefined;
                     var7 = var5.bind(var1)(var3);
                     var6 = var7.trackWithMetadata;
-                    var3 = _closure1_slot10;
+                    var3 = _closure1_slot12;
                     var5 = var3.TEXT_AREA_CTA_CLICKED;
                     var3 = {};
-                    var8 = _closure1_slot9;
+                    var8 = _closure1_slot11;
                     var8 = var8.CHANNEL_LINK;
                     var3['cta_type'] = var8;
                     var3 = var6.bind(var7)(var5, var3);
                     var3 = _closure1_slot0;
-                    var2 = 14;
+                    var2 = 17;
                     var2 = var4[var2];
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.transitionToGuild;
@@ -372,10 +395,10 @@ case 13:
         var1 = var1.bind(var4)(var3, var2);
         var5 = var1.text;
         var7 = var1.handlePress;
-        var3 = _closure1_slot12;
+        var3 = _closure1_slot14;
         var2 = _closure1_slot1;
         var10 = _closure1_slot2;
-        var1 = 16;
+        var1 = 19;
         var1 = var10[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
@@ -383,7 +406,7 @@ case 13:
         var1['type'] = var8;
         var1['actionOnPress'] = var7;
         var9 = _closure1_slot0;
-        var6 = 12;
+        var6 = 14;
         var7 = var10[var6];
         var7 = var9.bind(var4)(var7);
         var8 = var7.intl;
@@ -399,7 +422,7 @@ case 13:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 17;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

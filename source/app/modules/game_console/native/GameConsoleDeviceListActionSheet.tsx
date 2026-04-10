@@ -435,9 +435,9 @@ case 4:
             var2 = var7.useState;
             var14 = null;
             var2 = var2.bind(var7)(var14);
-            var15 = _closure1_slot4;
+            var16 = _closure1_slot4;
             var11 = 2;
-            var5 = var15.bind(var4)(var2, var11);
+            var5 = var16.bind(var4)(var2, var11);
             var2 = 0;
             var13 = var5[var2];
             _closure2_slot4 = var13;
@@ -445,9 +445,9 @@ case 4:
             var5 = var5[var8];
             var _closure2_slot5 = var5;
             var5 = var7.useState;
-            var16 = false;
-            var5 = var5.bind(var7)(var16);
-            var5 = var15.bind(var4)(var5, var11);
+            var15 = false;
+            var5 = var5.bind(var7)(var15);
+            var5 = var16.bind(var4)(var5, var11);
             var17 = var5[var2];
             var5 = var5[var8];
             _closure2_slot6 = var5;
@@ -530,8 +530,8 @@ case 16:
                     return var1;
                 }
             };
-            var18 = var5.bind(var7)(var1, var3);
-            var1 = var18.length;
+            var16 = var5.bind(var7)(var1, var3);
+            var1 = var16.length;
             if(!(!(var1 > var2))) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
             var3 = _closure1_slot12;
@@ -543,22 +543,23 @@ case 17:
             var3 = _closure1_slot13;
             var2 = _closure1_slot14;
             var1 = {};
-            var15 = _closure1_slot12;
-            var11 = _closure1_slot1;
+            var11 = _closure1_slot12;
+            var20 = _closure1_slot0;
             var21 = _closure1_slot2;
             var5 = 21;
             var5 = var21[var5];
-            var7 = var11.bind(var4)(var5);
+            var5 = var20.bind(var4)(var5);
+            var7 = var5.RadioGroup;
             var5 = {};
-            var19 = var12.radioItem;
-            var5['style'] = var19;
-            var5['options'] = var18;
+            var18 = var12.radioItem;
+            var5['style'] = var18;
+            var5['options'] = var16;
             var5['value'] = var13;
-            var5['withDividers'] = var16;
-            var16 = true;
-            var5['withSpacing'] = var16;
+            var5['withDividers'] = var15;
+            var15 = true;
+            var5['withSpacing'] = var15;
             var5['disabled'] = var17;
-            var16 = function onChange(arg1) {
+            var15 = function onChange(arg1) {
                 var1 = arg1;
                 var5 = var1.value;
                 var3 = _closure2_slot5;
@@ -574,18 +575,18 @@ case 17:
                 var2 = var3.bind(var4)(var2, var5);
                 return var1;
             };
-            var5['onChange'] = var16;
-            var7 = var15.bind(var4)(var7, var5);
+            var5['onChange'] = var15;
+            var7 = var11.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
             var15 = _closure1_slot12;
+            var11 = _closure1_slot1;
             var7 = 22;
             var7 = var21[var7];
             var11 = var11.bind(var4)(var7);
             var7 = {};
             var16 = var12.infoBox;
             var7['style'] = var16;
-            var20 = _closure1_slot0;
             var16 = 11;
             var18 = var21[var16];
             var18 = var20.bind(var4)(var18);

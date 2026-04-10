@@ -2576,7 +2576,7 @@ case 234:
                     var5 = undefined;
                     if(var12) { _fun0017_ip = 235; continue _fun0017 }
 case 236:
-                    var5 = var7.quests;
+                    var5 = var7.earnedDecisionByQuestId;
 case 235:
                     _closure4_slot0 = var5;
                     var7 = var8.filter;

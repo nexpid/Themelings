@@ -700,16 +700,17 @@ case 40:
             var7 = var17.bind(var4)(var7);
             var16 = var7.BottomSheetScrollView;
 case 42:
-            var7 = _closure1_slot0;
-            var17 = _closure1_slot2;
             if(var1) { _fun0001_ip = 43; continue _fun0001 }
 case 44:
+            var7 = _closure1_slot1;
+            var17 = _closure1_slot2;
             var1 = 15;
             var1 = var17[var1];
-            var1 = var7.bind(var4)(var1);
-            var23 = var1.TextInput;
+            var23 = var7.bind(var4)(var1);
             _fun0001_ip = 45; continue _fun0001;
 case 43:
+            var7 = _closure1_slot0;
+            var17 = _closure1_slot2;
             var1 = 14;
             var1 = var17[var1];
             var1 = var7.bind(var4)(var1);

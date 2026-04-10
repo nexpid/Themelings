@@ -328,90 +328,94 @@ case 22:
     var2 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var3 = arg1;
-            var7 = var3.state;
+            var4 = arg1;
+            var3 = var4.state;
             var1 = null;
             var2 = Object.create(var1);
             var1 = 0;
             var2['state'] = var1;
             var13 = {};
-            var12 = var3;
+            var12 = var4;
             var11 = var2;
             var6 = copyDataProperties(var13, var12, var11);
-            var2 = _closure1_slot6;
+            var1 = _closure1_slot6;
             var4 = undefined;
-            var5 = var2.bind(var4)();
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var5 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
             var8 = 5;
-            var2 = var2[var8];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.VideoIconState;
-            var2 = var2.VIDEO_DISABLED_LOCAL_AUTO;
-            if(!(var2 !== var7)) { _fun0003_ip = 24; continue _fun0003 }
+            var1 = var1[var8];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.VideoIconState;
+            var1 = var1.VIDEO_DISABLED_LOCAL_AUTO;
+            if(!(var1 !== var3)) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var8];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.VideoIconState;
-            var2 = var2.VIDEO_DISABLED_LOCAL;
-            if(!(var2 !== var7)) { _fun0003_ip = 26; continue _fun0003 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.VideoIconState;
+            var1 = var1.VIDEO_DISABLED_LOCAL;
+            if(!(var1 !== var3)) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var8];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.VideoIconState;
-            var2 = var2.VIDEO_ACTIVE;
-            if(!(var2 !== var7)) { _fun0003_ip = 17; continue _fun0003 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.VideoIconState;
+            var1 = var1.VIDEO_ACTIVE;
+            if(!(var1 !== var3)) { _fun0003_ip = 17; continue _fun0003 }
 case 28:
-            var3 = _closure1_slot0;
+            var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 10;
-            var2 = var8[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.assertNever;
-            var2 = var2.bind(var3)(var7);
+            var1 = 10;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.assertNever;
+            var1 = var1.bind(var2)(var3);
             return var4;
 case 17:
-            var7 = _closure1_slot4;
-            var9 = _closure1_slot1;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 11;
-            var2 = var10[var2];
-            var3 = var9.bind(var4)(var2);
-            var2 = {};
-            var13 = var2;
+            var1 = 11;
+            var1 = var10[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Icon;
+            var1 = {};
+            var13 = var1;
             var12 = var6;
             var8 = copyDataProperties(var13, var12);
+            var9 = _closure1_slot1;
             var8 = 14;
             var8 = var10[var8];
             var9 = var9.bind(var4)(var8);
             var8 = 'source';
-            var2[7] = var9;
-            var2 = var7.bind(var4)(var3, var2);
-            return var2;
+            var1[7] = var9;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
 case 26:
-            var7 = _closure1_slot4;
-            var3 = _closure1_slot7;
-            var2 = {};
-            var13 = var2;
-            var12 = var6;
-            var8 = copyDataProperties(var13, var12);
-            var2 = var7.bind(var4)(var3, var2);
-            return var2;
-case 24:
             var3 = _closure1_slot4;
-            var8 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var1 = 11;
-            var1 = var9[var1];
-            var2 = var8.bind(var4)(var1);
+            var2 = _closure1_slot7;
             var1 = {};
             var13 = var1;
             var12 = var6;
-            var7 = copyDataProperties(var13, var12);
+            var8 = copyDataProperties(var13, var12);
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+case 24:
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 11;
+            var1 = var9[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Icon;
+            var1 = {};
+            var13 = var1;
+            var12 = var6;
+            var8 = copyDataProperties(var13, var12);
+            var8 = _closure1_slot1;
             var7 = 13;
             var7 = var9[var7];
             var8 = var8.bind(var4)(var7);

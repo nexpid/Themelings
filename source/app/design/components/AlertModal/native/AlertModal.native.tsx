@@ -1354,10 +1354,10 @@ case 53:
             var17 = var4.bind(var5)(var3);
 case 6:
             var20 = var2.variant;
-            if(!(var20 === var1)) { _fun0013_ip = 26; continue _fun0013 }
+            if(!(var20 === var1)) { _fun0013_ip = 3; continue _fun0013 }
 case 54:
             var20 = 'destructive';
-case 26:
+case 3:
             var18 = var2.onConfirm;
             var16 = var2.onCancel;
             var5 = var2.onCloseCallback;

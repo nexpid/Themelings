@@ -138,13 +138,13 @@ case 0:
             var3 = var5.bind(var4)(var3);
             var8 = var3.AnimateStickers;
             var3 = var8.useSetting;
-            var10 = var3.bind(var8)();
+            var11 = var3.bind(var8)();
             var3 = 11;
             var3 = var2[var3];
-            var9 = var5.bind(var4)(var3);
-            var8 = var9.shouldAnimateSticker;
+            var10 = var5.bind(var4)(var3);
+            var8 = var10.shouldAnimateSticker;
             var3 = false;
-            var11 = var8.bind(var9)(var10, var3);
+            var14 = var8.bind(var10)(var11, var3);
             var3 = var12.type;
             var13 = 12;
             var2 = var2[var13];
@@ -278,36 +278,36 @@ case 12:
             var7 = _closure1_slot14;
             var6 = _closure1_slot5;
             var5 = {};
-            var9 = var16.itemInner;
+            var10 = var16.itemInner;
             var8 = new Array(2);
-            var8[0] = var9;
+            var8[0] = var10;
             if(var15) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var9 = var16.fadedItem;
+            var10 = var16.fadedItem;
             _fun0001_ip = 16; continue _fun0001;
 case 14:
-            var9 = var16.activeItem;
+            var10 = var16.activeItem;
 case 16:
-            var8[1] = var9;
+            var8[1] = var10;
             var5['style'] = var8;
             var8 = var12.icon;
             if(!(var20 == var8)) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var9 = var12.type;
-            var10 = _closure1_slot0;
+            var10 = var12.type;
+            var11 = _closure1_slot0;
             var8 = _closure1_slot2;
             var8 = var8[var13];
-            var8 = var10.bind(var4)(var8);
+            var8 = var11.bind(var4)(var8);
             var8 = var8.StickerCategoryTypes;
             var8 = var8.GUILD;
-            if(!(var9 !== var8)) { _fun0001_ip = 19; continue _fun0001 }
+            if(!(var10 !== var8)) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
-            var10 = _closure1_slot14;
-            var9 = _closure1_slot1;
+            var11 = _closure1_slot14;
+            var10 = _closure1_slot1;
             var18 = _closure1_slot2;
             var8 = 18;
             var8 = var18[var8];
-            var9 = var9.bind(var4)(var8);
+            var10 = var10.bind(var4)(var8);
             var8 = {};
             var18 = 'previewSticker';
             var18 = var18 in var12;
@@ -323,49 +323,49 @@ case 23:
             var18 = var12.previewSticker;
 case 24:
             var8['sticker'] = var18;
-            if(!var11) { _fun0001_ip = 25; continue _fun0001 }
+            if(!var14) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
-            var11 = var15;
+            var14 = var15;
 case 25:
-            var8['animated'] = var11;
-            var11 = _closure1_slot11;
-            var8['size'] = var11;
-            var8 = var10.bind(var4)(var9, var8);
+            var8['animated'] = var14;
+            var14 = _closure1_slot11;
+            var8['size'] = var14;
+            var8 = var11.bind(var4)(var10, var8);
             _fun0001_ip = 27; continue _fun0001;
 case 19:
-            var11 = _closure1_slot14;
-            var10 = _closure1_slot1;
+            var14 = _closure1_slot14;
+            var11 = _closure1_slot1;
             var18 = _closure1_slot2;
             var15 = 17;
-            var9 = var18[var15];
-            var10 = var10.bind(var4)(var9);
-            var9 = {};
-            var9['guild'] = var17;
+            var10 = var18[var15];
+            var11 = var11.bind(var4)(var10);
+            var10 = {};
+            var10['guild'] = var17;
             var17 = var16.guildItemPlaceholder;
-            var9['loadingStyle'] = var17;
+            var10['loadingStyle'] = var17;
             var17 = _closure1_slot0;
             var15 = var18[var15];
             var15 = var17.bind(var4)(var15);
             var15 = var15.GuildIconSizes;
             var15 = var15.XSMALL;
-            var9['size'] = var15;
+            var10['size'] = var15;
             var15 = var16.guildIcon;
-            var9['style'] = var15;
-            var8 = var11.bind(var4)(var10, var9);
+            var10['style'] = var15;
+            var8 = var14.bind(var4)(var11, var10);
 case 27:
             _fun0001_ip = 28; continue _fun0001;
 case 17:
             var11 = _closure1_slot14;
-            var10 = _closure1_slot1;
+            var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var9 = 15;
             var9 = var15[var9];
-            var10 = var10.bind(var4)(var9);
+            var9 = var14.bind(var4)(var9);
+            var10 = var9.Icon;
             var9 = {};
             var16 = var16.guildIcon;
             var9['style'] = var16;
             var16 = var12.type;
-            var14 = _closure1_slot0;
             var13 = var15[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.StickerCategoryTypes;
@@ -402,12 +402,12 @@ case 0:
             var2 = arg1;
             var18 = var2.categories;
             var _closure2_slot0 = var18;
-            var15 = var2.categoryIndex;
-            var _closure2_slot1 = var15;
+            var13 = var2.categoryIndex;
+            var _closure2_slot1 = var13;
             var5 = var2.style;
             var2 = _closure1_slot16;
             var4 = undefined;
-            var14 = var2.bind(var4)();
+            var15 = var2.bind(var4)();
             var9 = _closure1_slot4;
             var2 = var9.useRef;
             var2 = var2.bind(var9)(var4);
@@ -439,8 +439,8 @@ case 0:
             var2 = var2[var3];
             var _closure2_slot5 = var2;
             var2 = var9.useState;
-            var13 = false;
-            var2 = var2.bind(var9)(var13);
+            var12 = false;
+            var2 = var2.bind(var9)(var12);
             var2 = var11.bind(var4)(var2, var10);
             var7 = var2[var7];
             var _closure2_slot6 = var7;
@@ -491,7 +491,7 @@ case 29:
             var2 = var11.bind(var9)(var2, var10);
             var11 = var9.useEffect;
             var10 = new Array(1);
-            var10[0] = var15;
+            var10[0] = var13;
             var2 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -686,7 +686,7 @@ case 45:
             var3 = var9.useCallback;
             var2 = new Array(3);
             var2[0] = var18;
-            var2[1] = var15;
+            var2[1] = var13;
             var2[2] = var11;
             var1 = function(arg1, arg2) {
                 var6 = arg2;
@@ -706,7 +706,7 @@ case 45:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var15 = var3.bind(var9)(var1, var2);
+            var13 = var3.bind(var9)(var1, var2);
             var9 = _closure1_slot1;
             var21 = _closure1_slot2;
             var1 = 21;
@@ -738,10 +738,10 @@ case 45:
             var17 = 'callbacks';
             var5['scrollReporting'] = var17;
             var5['sections'] = var16;
-            var5['renderItem'] = var15;
-            var5['showsHorizontalScrollIndicator'] = var13;
-            var13 = var14.list;
-            var5['style'] = var13;
+            var5['renderItem'] = var13;
+            var5['showsHorizontalScrollIndicator'] = var12;
+            var12 = var15.list;
+            var5['style'] = var12;
             var9 = var11.bind(var4)(var9, var5);
             var5 = new Array(2);
             var5[0] = var9;
@@ -753,11 +753,11 @@ case 46:
             if(!var6) { _fun0003_ip = 48; continue _fun0003 }
 case 17:
             var9 = _closure1_slot14;
-            var15 = _closure1_slot0;
+            var13 = _closure1_slot0;
             var16 = _closure1_slot2;
             var7 = 14;
             var7 = var16[var7];
-            var7 = var15.bind(var4)(var7);
+            var7 = var13.bind(var4)(var7);
             var8 = var7.PressableOpacity;
             var7 = {};
             var7['onPress'] = var10;
@@ -765,30 +765,31 @@ case 17:
             var7['accessibilityRole'] = var10;
             var10 = 24;
             var11 = var16[var10];
-            var11 = var15.bind(var4)(var11);
-            var13 = var11.intl;
-            var11 = var13.string;
+            var11 = var13.bind(var4)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
             var10 = var16[var10];
-            var10 = var15.bind(var4)(var10);
+            var10 = var13.bind(var4)(var10);
             var10 = var10.t;
             var10 = var10.rzCcjK;
-            var10 = var11.bind(var13)(var10);
+            var10 = var11.bind(var12)(var10);
             var7['accessibilityLabel'] = var10;
             var11 = _closure1_slot5;
             var10 = {};
-            var15 = var14.item;
-            var13 = new Array(2);
-            var13[0] = var15;
-            var15 = var14.fadedItem;
-            var13[1] = var15;
-            var10['style'] = var13;
-            var15 = _closure1_slot1;
+            var17 = var15.item;
+            var12 = new Array(2);
+            var12[0] = var17;
+            var17 = var15.fadedItem;
+            var12[1] = var17;
+            var10['style'] = var12;
             var12 = 15;
             var12 = var16[var12];
-            var13 = var15.bind(var4)(var12);
+            var12 = var13.bind(var4)(var12);
+            var13 = var12.Icon;
             var12 = {};
-            var14 = var14.guildIcon;
-            var12['style'] = var14;
+            var15 = var15.guildIcon;
+            var12['style'] = var15;
+            var15 = _closure1_slot1;
             var14 = 25;
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);

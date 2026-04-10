@@ -1238,13 +1238,13 @@ case 93:
             if(!var20) { _fun0014_ip = 94; continue _fun0014 }
 case 95:
             var22 = _closure1_slot21;
-            var21 = _closure1_slot1;
+            var24 = _closure1_slot0;
             var23 = _closure1_slot2;
             var25 = 33;
             var20 = var23[var25];
-            var21 = var21.bind(var4)(var20);
+            var20 = var24.bind(var4)(var20);
+            var21 = var20.Avatar;
             var20 = {};
-            var24 = _closure1_slot0;
             var23 = var23[var26];
             var26 = var24.bind(var4)(var23);
             var24 = var26.getCachedSourceFromURI;
@@ -1301,13 +1301,15 @@ case 103:
             var17 = var14.thermalAlertIconContainer;
             var8['style'] = var17;
             var19 = _closure1_slot21;
-            var17 = 34;
+            var18 = _closure1_slot0;
+            var17 = 33;
             var17 = var22[var17];
-            var18 = var21.bind(var4)(var17);
+            var17 = var18.bind(var4)(var17);
+            var18 = var17.Icon;
             var17 = {};
             var20 = var14.thermalAlertIcon;
             var17['style'] = var20;
-            var20 = 35;
+            var20 = 34;
             var20 = var22[var20];
             var20 = var21.bind(var4)(var20);
             var17['source'] = var20;
@@ -1382,7 +1384,7 @@ case 104:
         var7 = var9.bind(var10)(var7);
         var11 = var7.layoutManager;
         var9 = _closure1_slot0;
-        var7 = 36;
+        var7 = 35;
         var7 = var6[var7];
         var10 = var9.bind(var4)(var7);
         var7 = var10.useTargetDimensionsSubscription;
@@ -1429,7 +1431,7 @@ case 4:
         var3['__initData'] = var10;
         var7 = var7.bind(var9)(var3);
         var3 = _closure1_slot21;
-        var1 = 37;
+        var1 = 36;
         var1 = var6[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
@@ -1629,7 +1631,7 @@ case 111:
 case 112:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 38;
+                    var2 = 37;
                     var3 = var3[var2];
                     var2 = undefined;
                     var5 = var4.bind(var2)(var3);
@@ -1677,7 +1679,7 @@ case 2:
 case 5:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 38;
+                    var2 = 37;
                     var3 = var3[var2];
                     var2 = undefined;
                     var5 = var4.bind(var2)(var3);
@@ -1709,7 +1711,7 @@ case 115:
             var1 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 39;
+                var2 = 38;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -1796,7 +1798,7 @@ case 118:
             var7 = _closure1_slot21;
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 41;
+            var3 = 40;
             var3 = var8[var3];
             var3 = var4.bind(var5)(var3);
             var4 = var3.StreamFailed;
@@ -1812,7 +1814,7 @@ case 116:
             var4 = _closure1_slot21;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 40;
+            var2 = 39;
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.StreamEnded;
@@ -2335,7 +2337,7 @@ case 109:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 42;
+    var4 = 41;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

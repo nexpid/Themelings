@@ -579,13 +579,13 @@ case 41:
             var7 = new Array(2);
             var7[0] = var8;
             var10 = _closure1_slot12;
-            var9 = _closure1_slot1;
+            var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var8 = 28;
             var8 = var15[var8];
-            var9 = var9.bind(var5)(var8);
+            var8 = var14.bind(var5)(var8);
+            var9 = var8.EmptyState;
             var8 = {};
-            var14 = _closure1_slot0;
             var11 = 29;
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);

@@ -216,11 +216,12 @@ case 6:
                     var6 = new Array(2);
                     var6[0] = var8;
                     var9 = _closure1_slot5;
-                    var8 = _closure1_slot1;
+                    var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var7 = 10;
                     var7 = var10[var7];
-                    var8 = var8.bind(var2)(var7);
+                    var7 = var8.bind(var2)(var7);
+                    var8 = var7.Badge;
                     var7 = {};
                     var11 = var1.badged;
                     var10 = 0;

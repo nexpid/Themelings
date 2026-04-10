@@ -37,11 +37,12 @@ case 7:
             return var1;
 case 6:
             var4 = _closure1_slot5;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 7;
             var2 = var8[var2];
-            var3 = var3.bind(var5)(var2);
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.Badge;
             var2 = {};
             var7 = var7.count;
             var2['value'] = var7;

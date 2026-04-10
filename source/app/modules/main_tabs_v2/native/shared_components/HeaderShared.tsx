@@ -747,8 +747,8 @@ case 41:
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
-            var7 = var1.accessibilityLabel;
-            var6 = var1.onPress;
+            var13 = var1.accessibilityLabel;
+            var7 = var1.onPress;
             var9 = var1.source;
             var8 = var1.resizeMode;
             var10 = var1.color;
@@ -756,24 +756,24 @@ case 0:
             var4 = undefined;
             var11 = var1.bind(var4)();
             var3 = _closure1_slot7;
-            var2 = _closure1_slot0;
+            var6 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 19;
             var1 = var12[var1];
-            var1 = var2.bind(var4)(var1);
+            var1 = var6.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
-            var13 = 'button';
-            var1['accessibilityRole'] = var13;
-            var1['accessibilityLabel'] = var7;
-            var7 = var11.actionButtonPressable;
-            var1['style'] = var7;
-            var1['onPress'] = var6;
+            var14 = 'button';
+            var1['accessibilityRole'] = var14;
+            var1['accessibilityLabel'] = var13;
+            var13 = var11.actionButtonPressable;
+            var1['style'] = var13;
+            var1['onPress'] = var7;
             var7 = _closure1_slot7;
-            var6 = _closure1_slot1;
             var5 = 20;
             var5 = var12[var5];
-            var6 = var6.bind(var4)(var5);
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.Icon;
             var5 = {};
             var12 = null;
             if(!(var12 == var10)) { _fun0007_ip = 44; continue _fun0007 }

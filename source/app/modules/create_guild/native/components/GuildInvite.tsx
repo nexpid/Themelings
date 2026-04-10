@@ -894,11 +894,12 @@ case 39:
             var13 = new Array(2);
             var13[0] = var14;
             var21 = _closure1_slot19;
-            var20 = _closure1_slot1;
             var14 = 33;
             var14 = var19[var14];
-            var17 = var20.bind(var5)(var14);
+            var14 = var22.bind(var5)(var14);
+            var17 = var14.Icon;
             var14 = {};
+            var20 = _closure1_slot1;
             var28 = 34;
             var28 = var19[var28];
             var28 = var20.bind(var5)(var28);

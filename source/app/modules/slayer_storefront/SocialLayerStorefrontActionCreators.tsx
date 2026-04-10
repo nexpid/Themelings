@@ -724,7 +724,7 @@ case 65:
     var4 = 5;
     var4 = var4 * var7;
     var _closure1_slot10 = var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -795,56 +795,44 @@ case 65:
         return var1;
     };
     var3['fetchSocialLayerStorefrontConfig'] = var4;
-    var2 = function fetchSocialLayerSKUPurchaseEligibility(arg1, arg2, arg3) {
+    var2 = function fetchSocialLayerSKUPurchaseEligibility(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var9 = arg2;
-            var _closure2_slot0 = var9;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 7;
-            var3 = var3[var1];
-            var1 = undefined;
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.getIsEligibleForSocialLayerStorefrontSKUPurchaseEligibilityExperiment;
-            var3 = {};
-            var7 = arg3;
-            var3['location'] = var7;
-            var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0005_ip = 84; continue _fun0005 }
+            var8 = arg2;
+            var _closure2_slot0 = var8;
+            var3 = _closure1_slot4;
+            var2 = var3.getSKUEligibility;
+            var4 = var2.bind(var3)(var8);
+            var2 = 'checking';
+            var2 = var2 !== var4;
+            if(!var2) { _fun0005_ip = 84; continue _fun0005 }
 case 85:
-            var4 = _closure1_slot4;
-            var3 = var4.getSKUEligibility;
-            var5 = var3.bind(var4)(var9);
-            var3 = 'checking';
-            var3 = var3 !== var5;
-            if(!var3) { _fun0005_ip = 86; continue _fun0005 }
-case 87:
-            var4 = 'eligible';
-            var3 = var4 !== var5;
+            var3 = 'eligible';
+            var2 = var3 !== var4;
+case 84:
+            if(!var2) { _fun0005_ip = 10; continue _fun0005 }
 case 86:
-            if(!var3) { _fun0005_ip = 88; continue _fun0005 }
-case 89:
-            var4 = 'ineligible';
-            var3 = var4 !== var5;
+            var3 = 'ineligible';
+            var2 = var3 !== var4;
+case 10:
+            if(!var2) { _fun0005_ip = 87; continue _fun0005 }
 case 88:
-            if(!var3) { _fun0005_ip = 84; continue _fun0005 }
-case 90:
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var3 = 4;
-            var3 = var5[var3];
-            var7 = var4.bind(var1)(var3);
-            var4 = var7.dispatch;
-            var3 = {};
-            var8 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START';
-            var3['type'] = var8;
-            var3['skuId'] = var9;
-            var3 = var4.bind(var7)(var3);
-            var3 = global;
-            var7 = var3.setTimeout;
-            var4 = _closure1_slot10;
-            var3 = function() {
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var4 = undefined;
+            var7 = var3.bind(var4)(var2);
+            var3 = var7.dispatch;
+            var2 = {};
+            var9 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START';
+            var2['type'] = var9;
+            var2['skuId'] = var8;
+            var2 = var3.bind(var7)(var2);
+            var2 = global;
+            var7 = var2.setTimeout;
+            var3 = _closure1_slot10;
+            var2 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var5 = _closure1_slot4;
@@ -852,8 +840,8 @@ case 0:
                     var2 = _closure2_slot0;
                     var3 = var3.bind(var5)(var2);
                     var2 = 'checking';
-                    if(!(var2 === var3)) { _fun0006_ip = 91; continue _fun0006 }
-case 92:
+                    if(!(var2 === var3)) { _fun0006_ip = 89; continue _fun0006 }
+case 90:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 4;
@@ -865,29 +853,29 @@ case 92:
                     var4 = _closure2_slot0;
                     var1['skuId'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 91:
+case 89:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var3 = var7.bind(var1)(var3, var4);
-            var4 = _closure1_slot0;
-            var3 = 5;
-            var3 = var5[var3];
-            var3 = var4.bind(var1)(var3);
-            var5 = var3.HTTP;
-            var4 = var5.post;
-            var3 = {};
-            var8 = _closure1_slot5;
-            var7 = var8.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_ELIGIBILITY;
-            var6 = arg1;
-            var6 = var7.bind(var8)(var6, var9);
-            var3['url'] = var6;
-            var6 = true;
-            var3['rejectWithError'] = var6;
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.then;
-            var3 = function(arg1) {
+            var2 = var7.bind(var4)(var2, var3);
+            var3 = _closure1_slot0;
+            var2 = 5;
+            var2 = var6[var2];
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.HTTP;
+            var3 = var4.post;
+            var2 = {};
+            var7 = _closure1_slot5;
+            var6 = var7.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_ELIGIBILITY;
+            var5 = arg1;
+            var5 = var6.bind(var7)(var5, var8);
+            var2['url'] = var5;
+            var5 = true;
+            var2['rejectWithError'] = var5;
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.then;
+            var2 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 4;
@@ -907,9 +895,9 @@ case 91:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.catch;
-            var2 = function(arg1) {
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.catch;
+            var1 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var6 = arg1;
@@ -928,17 +916,18 @@ case 0:
                     var5 = null;
                     var7 = var5 == var6;
                     var5 = undefined;
-                    if(var7) { _fun0007_ip = 93; continue _fun0007 }
-case 94:
+                    if(var7) { _fun0007_ip = 91; continue _fun0007 }
+case 92:
                     var5 = var6.status;
-case 93:
+case 91:
                     var2['httpStatus'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
             };
-            var2 = var3.bind(var4)(var2);
-case 84:
+            var1 = var2.bind(var3)(var1);
+case 87:
+            var1 = undefined;
             return var1;
         }
     };

@@ -170,31 +170,31 @@ case 0:
             var3 = var2.bind(var4)(var1);
             var2 = var3.isThemeDark;
             var1 = var12.theme;
-            var11 = var2.bind(var3)(var1);
+            var9 = var2.bind(var3)(var1);
             var1 = _closure1_slot9;
-            var10 = var1.bind(var4)(var11);
+            var10 = var1.bind(var4)(var9);
             var3 = _closure1_slot7;
             var2 = _closure1_slot3;
             var1 = {};
-            var8 = var10.themeSelectorGradientBackground;
+            var7 = var10.themeSelectorGradientBackground;
             var5 = new Array(2);
-            var5[0] = var8;
-            var8 = var6;
+            var5[0] = var7;
+            var7 = var6;
             if(!var6) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-            var9 = {};
+            var8 = {};
             var13 = 0.5;
-            var9['opacity'] = var13;
-            var8 = var9;
+            var8['opacity'] = var13;
+            var7 = var8;
 case 5:
-            var5[1] = var8;
+            var5[1] = var7;
             var1['style'] = var5;
-            var9 = _closure1_slot6;
+            var8 = _closure1_slot6;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
             var5 = 10;
             var5 = var16[var5];
-            var8 = var15.bind(var4)(var5);
+            var7 = var15.bind(var4)(var5);
             var5 = {};
             var13 = {};
             var14 = 7;
@@ -207,26 +207,28 @@ case 5:
             var5['gradientOverride'] = var12;
             var12 = true;
             var5['mix'] = var12;
-            if(var11) { _fun0002_ip = 7; continue _fun0002 }
+            if(var9) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var11 = _closure1_slot11;
+            var9 = _closure1_slot11;
             _fun0002_ip = 9; continue _fun0002;
 case 7:
-            var11 = _closure1_slot10;
+            var9 = _closure1_slot10;
 case 9:
-            var5['mixColorOverride'] = var11;
-            var8 = var9.bind(var4)(var8, var5);
+            var5['mixColorOverride'] = var9;
+            var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
-            var5[0] = var8;
+            var5[0] = var7;
             if(!var6) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var9 = _closure1_slot6;
-            var12 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var13 = _closure1_slot2;
             var7 = 11;
             var7 = var13[var7];
-            var8 = var12.bind(var4)(var7);
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.Icon;
             var7 = {};
+            var12 = _closure1_slot1;
             var11 = 12;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
@@ -345,7 +347,7 @@ case 15:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var11 = var1.item;
+            var9 = var1.item;
             var6 = var1.isThemeLocked;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -354,33 +356,33 @@ case 0:
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
             var2 = var3.isThemeDark;
-            var1 = var11.theme;
+            var1 = var9.theme;
             var12 = var2.bind(var3)(var1);
             var1 = _closure1_slot9;
             var10 = var1.bind(var4)(var12);
             var3 = _closure1_slot7;
             var2 = _closure1_slot3;
             var1 = {};
-            var8 = var10.themeSelectorGradientBackground;
+            var7 = var10.themeSelectorGradientBackground;
             var5 = new Array(2);
-            var5[0] = var8;
-            var8 = var6;
+            var5[0] = var7;
+            var7 = var6;
             if(!var6) { _fun0004_ip = 5; continue _fun0004 }
 case 6:
-            var9 = {};
+            var8 = {};
             var13 = 0.5;
-            var9['opacity'] = var13;
-            var8 = var9;
+            var8['opacity'] = var13;
+            var7 = var8;
 case 5:
-            var5[1] = var8;
+            var5[1] = var7;
             var1['style'] = var5;
-            var9 = _closure1_slot6;
-            var8 = _closure1_slot0;
+            var8 = _closure1_slot6;
+            var7 = _closure1_slot0;
             var16 = _closure1_slot2;
             var5 = 10;
             var5 = var16[var5];
-            var5 = var8.bind(var4)(var5);
-            var8 = var5.CustomThemedGradient;
+            var5 = var7.bind(var4)(var5);
+            var7 = var5.CustomThemedGradient;
             var5 = {};
             var13 = {};
             var15 = _closure1_slot1;
@@ -401,19 +403,21 @@ case 17:
             var12 = _closure1_slot10;
 case 19:
             var5['mixColorOverride'] = var12;
-            var5['customTheme'] = var11;
-            var8 = var9.bind(var4)(var8, var5);
+            var5['customTheme'] = var9;
+            var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
-            var5[0] = var8;
+            var5[0] = var7;
             if(!var6) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
             var9 = _closure1_slot6;
-            var12 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var13 = _closure1_slot2;
             var7 = 11;
             var7 = var13[var7];
-            var8 = var12.bind(var4)(var7);
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.Icon;
             var7 = {};
+            var12 = _closure1_slot1;
             var11 = 12;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);

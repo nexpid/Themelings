@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var20 = var1.collectiblesItem;
+            var18 = var1.collectiblesItem;
             var19 = var1.currentUser;
             var11 = var1.gradientColors;
             var13 = var1.gradientAngle;
@@ -27,11 +27,11 @@ case 0:
             var1 = var1.bottom;
             var10 = var2.bind(var5)(var1);
             var1 = _closure1_slot7;
-            var1 = var1.bind(var5)(var20);
+            var1 = var1.bind(var5)(var18);
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = _closure1_slot6;
-            var2 = var1.bind(var5)(var20);
+            var2 = var1.bind(var5)(var18);
             var12 = null;
             var1 = null;
             if(!var2) { _fun0001_ip = 4; continue _fun0001 }
@@ -82,7 +82,7 @@ case 6:
             var17 = var17.AvatarSizes;
             var17 = var17.NORMAL;
             var12['size'] = var17;
-            var17 = var20.asset;
+            var17 = var18.asset;
             var12['asset'] = var17;
             var12 = var14.bind(var5)(var13, var12);
             var8['children'] = var12;
@@ -122,22 +122,22 @@ case 2:
             var6 = {};
             var11 = var10.nameplateWrapper;
             var6['style'] = var11;
-            var16 = _closure1_slot11;
-            var15 = _closure1_slot1;
+            var15 = _closure1_slot11;
+            var12 = _closure1_slot1;
             var14 = _closure1_slot2;
             var11 = 11;
             var11 = var14[var11];
-            var12 = var15.bind(var5)(var11);
+            var12 = var12.bind(var5)(var11);
             var11 = {'nameplate': null, 'fullOpacity': true, 'animate': true};
             var13 = _closure1_slot0;
-            var17 = 12;
-            var17 = var14[var17];
-            var18 = var13.bind(var5)(var17);
-            var17 = var18.getNameplateData;
-            var17 = var17.bind(var18)(var20);
-            var11['nameplate'] = var17;
+            var16 = 12;
+            var16 = var14[var16];
+            var17 = var13.bind(var5)(var16);
+            var16 = var17.getNameplateData;
+            var16 = var16.bind(var17)(var18);
+            var11['nameplate'] = var16;
             var17 = true;
-            var11 = var16.bind(var5)(var12, var11);
+            var11 = var15.bind(var5)(var12, var11);
             var6['children'] = var11;
             var8 = var9.bind(var5)(var8, var6);
             var6 = new Array(3);
@@ -150,7 +150,8 @@ case 2:
             var16 = _closure1_slot11;
             var18 = 13;
             var12 = var14[var18];
-            var15 = var15.bind(var5)(var12);
+            var12 = var13.bind(var5)(var12);
+            var15 = var12.Avatar;
             var12 = {};
             var12['user'] = var19;
             var12['guildId'] = var5;

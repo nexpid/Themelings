@@ -83,8 +83,8 @@ case 4:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.channel;
-            var _closure2_slot0 = var8;
+            var6 = var1.channel;
+            var _closure2_slot0 = var6;
             var4 = undefined;
             var _closure2_slot1 = var4;
             var3 = _closure1_slot0;
@@ -92,7 +92,7 @@ case 0:
             var2 = 12;
             var2 = var1[var2];
             var9 = var3.bind(var4)(var2);
-            var6 = var9.useStateFromStores;
+            var5 = var9.useStateFromStores;
             var2 = _closure1_slot6;
             var3 = new Array(1);
             var3[0] = var2;
@@ -102,45 +102,45 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var3 = var6.bind(var9)(var3, var2);
+            var3 = var5.bind(var9)(var3, var2);
             var2 = _closure1_slot1;
-            var6 = 13;
-            var1 = var1[var6];
+            var5 = 13;
+            var1 = var1[var5];
             var2 = var2.bind(var4)(var1);
             var1 = null;
-            var9 = var1 == var8;
+            var9 = var1 == var6;
             var1 = undefined;
             if(var9) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-            var1 = var8.id;
+            var1 = var6.id;
 case 5:
             var2 = var2.bind(var4)(var3, var1);
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var1 = var1[var6];
+            var1 = var1[var5];
             var1 = var3.bind(var4)(var1);
             var1 = var1.RequestToSpeakStates;
             var1 = var1.ON_STAGE;
             var1 = var2 === var1;
             _closure2_slot1 = var1;
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 11;
             var3 = var9[var2];
-            var3 = var6.bind(var4)(var3);
-            var8 = var3.intl;
-            var3 = var8.string;
+            var3 = var5.bind(var4)(var3);
+            var6 = var3.intl;
+            var3 = var6.string;
             var2 = var9[var2];
-            var2 = var6.bind(var4)(var2);
+            var2 = var5.bind(var4)(var2);
             var2 = var2.t;
             if(var1) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var6 = var2["8Joh+p"];
-            var6 = var3.bind(var8)(var6);
+            var5 = var2["8Joh+p"];
+            var5 = var3.bind(var6)(var5);
             _fun0002_ip = 9; continue _fun0002;
 case 7:
             var2 = var2.ezLpY6;
-            var6 = var3.bind(var8)(var2);
+            var5 = var3.bind(var6)(var2);
 case 9:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -149,20 +149,20 @@ case 4:
             var1 = 15;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
-            var9 = var1.MicrophoneArrowRightIcon;
+            var11 = var1.MicrophoneArrowRightIcon;
             _fun0002_ip = 11; continue _fun0002;
 case 10:
             var1 = 14;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
-            var9 = var1.GroupArrowDownIcon;
+            var11 = var1.GroupArrowDownIcon;
 case 11:
             var3 = _closure1_slot9;
-            var2 = _closure1_slot0;
+            var6 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 16;
             var1 = var10[var1];
-            var1 = var2.bind(var4)(var1);
+            var1 = var6.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
             var7 = function onPress() {
@@ -228,17 +228,18 @@ case 12:
                 }
             };
             var1['onPress'] = var7;
-            var8 = _closure1_slot9;
+            var9 = _closure1_slot9;
             var7 = {};
-            var7 = var8.bind(var4)(var9, var7);
+            var7 = var9.bind(var4)(var11, var7);
             var1['icon'] = var7;
-            var1['label'] = var6;
+            var1['label'] = var5;
             var7 = _closure1_slot9;
-            var9 = _closure1_slot1;
             var5 = 22;
             var5 = var10[var5];
-            var6 = var9.bind(var4)(var5);
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.Icon;
             var5 = {};
+            var9 = _closure1_slot1;
             var8 = 23;
             var8 = var10[var8];
             var8 = var9.bind(var4)(var8);

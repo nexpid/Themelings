@@ -1,11 +1,11 @@
 // app/modules/connections/native/ConnectionsRoleMessageBadgeActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var14 = metroImportDefault;
+    var15 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var15;
     var _closure1_slot2 = var7;
     var1 = function PopoutCheck(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -254,7 +254,7 @@ case 15:
                 var1 = var18.bot;
 case 14:
                 var1 = var17 != var1;
-                var22 = null;
+                var24 = null;
                 if(!var1) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
                 var3 = _closure1_slot7;
@@ -263,7 +263,7 @@ case 17:
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var31 = var2;
                 var1 = new var31[var3](var30, var29);
-                var22 = var1 instanceof Object ? var1 : var2;
+                var24 = var1 instanceof Object ? var1 : var2;
 case 16:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -287,7 +287,7 @@ case 20:
                 var1 = var2.bind(var3)(var1);
                 if(var1) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
-                var1 = var17 != var22;
+                var1 = var17 != var24;
                 var12 = undefined;
                 if(!var1) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
@@ -353,20 +353,20 @@ case 26:
                 if(!var11) { _fun0003_ip = 28; continue _fun0003 }
 case 29:
                 var16 = _closure1_slot16;
-                var15 = _closure1_slot1;
+                var26 = _closure1_slot0;
                 var27 = _closure1_slot2;
-                var23 = 24;
-                var11 = var27[var23];
-                var15 = var15.bind(var4)(var11);
+                var22 = 24;
+                var11 = var27[var22];
+                var11 = var26.bind(var4)(var11);
+                var15 = var11.Icon;
                 var11 = {};
                 var20 = _closure2_slot1;
                 var20 = var20.popoutCheckGroupPlatformIcon;
                 var11['style'] = var20;
-                var26 = _closure1_slot0;
                 var20 = 25;
                 var20 = var27[var20];
-                var25 = var26.bind(var4)(var20);
-                var21 = var25.makeSource;
+                var23 = var26.bind(var4)(var20);
+                var21 = var23.makeSource;
                 var20 = 26;
                 var20 = var27[var20];
                 var27 = var26.bind(var4)(var20);
@@ -381,14 +381,15 @@ case 31:
 case 30:
                 var20 = var26.darkPNG;
 case 32:
-                var20 = var21.bind(var25)(var20);
+                var20 = var21.bind(var23)(var20);
                 var11['source'] = var20;
                 var20 = true;
                 var11['disableColor'] = var20;
-                var21 = _closure1_slot1;
+                var21 = _closure1_slot0;
                 var20 = _closure1_slot2;
-                var20 = var20[var23];
+                var20 = var20[var22];
                 var20 = var21.bind(var4)(var20);
+                var20 = var20.Icon;
                 var20 = var20.Sizes;
                 var20 = var20.MEDIUM;
                 var11['size'] = var20;
@@ -396,22 +397,22 @@ case 32:
 case 28:
                 var11 = new Array(4);
                 var11[0] = var14;
-                var15 = var17 != var22;
+                var15 = var17 != var24;
                 var14 = null;
                 if(!var15) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
                 var20 = _closure1_slot16;
-                var16 = _closure1_slot1;
-                var23 = _closure1_slot2;
-                var21 = 27;
-                var15 = var23[var21];
-                var16 = var16.bind(var4)(var15);
-                var15 = {};
-                var24 = _closure2_slot1;
-                var24 = var24.popoutCheckGroupPlatformIcon;
-                var15['style'] = var24;
-                var15['user'] = var22;
                 var22 = _closure1_slot0;
+                var23 = _closure1_slot2;
+                var21 = 24;
+                var15 = var23[var21];
+                var15 = var22.bind(var4)(var15);
+                var16 = var15.Avatar;
+                var15 = {};
+                var25 = _closure2_slot1;
+                var25 = var25.popoutCheckGroupPlatformIcon;
+                var15['style'] = var25;
+                var15['user'] = var24;
                 var21 = var23[var21];
                 var21 = var22.bind(var4)(var21);
                 var21 = var21.AvatarSizes;
@@ -463,7 +464,7 @@ case 37:
                     var1 = var1.description;
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 28;
+                    var4 = 27;
                     var3 = var7[var4];
                     var5 = undefined;
                     var14 = var6.bind(var5)(var3);
@@ -529,7 +530,7 @@ case 37:
     var1 = 0;
     var5 = var7[var1];
     var1 = undefined;
-    var5 = var14.bind(var1)(var5);
+    var5 = var15.bind(var1)(var5);
     var _closure1_slot3 = var5;
     var5 = 1;
     var8 = var7[var5];
@@ -545,27 +546,27 @@ case 37:
     var _closure1_slot6 = var5;
     var5 = 3;
     var5 = var7[var5];
-    var5 = var14.bind(var1)(var5);
+    var5 = var15.bind(var1)(var5);
     var _closure1_slot7 = var5;
-    var11 = 4;
-    var5 = var7[var11];
-    var5 = var14.bind(var1)(var5);
+    var12 = 4;
+    var5 = var7[var12];
+    var5 = var15.bind(var1)(var5);
     var _closure1_slot8 = var5;
     var5 = 5;
     var5 = var7[var5];
-    var5 = var14.bind(var1)(var5);
+    var5 = var15.bind(var1)(var5);
     var _closure1_slot9 = var5;
     var5 = 6;
     var5 = var7[var5];
-    var5 = var14.bind(var1)(var5);
+    var5 = var15.bind(var1)(var5);
     var _closure1_slot10 = var5;
     var5 = 7;
     var5 = var7[var5];
-    var5 = var14.bind(var1)(var5);
+    var5 = var15.bind(var1)(var5);
     var _closure1_slot11 = var5;
-    var12 = 8;
-    var5 = var7[var12];
-    var5 = var14.bind(var1)(var5);
+    var13 = 8;
+    var5 = var7[var13];
+    var5 = var15.bind(var1)(var5);
     var _closure1_slot12 = var5;
     var5 = 9;
     var5 = var7[var5];
@@ -590,67 +591,66 @@ case 37:
     var _closure1_slot18 = var5;
     var5 = 12;
     var5 = var7[var5];
-    var9 = var6.bind(var1)(var5);
-    var8 = var9.createStyles;
-    var5 = {};
-    var10 = {'flexDirection': 'column', 'alignItems': 'center', 'padding': 16};
-    var5['container'] = var10;
-    var10 = {'width': '100%', 'flexDirection': 'row', 'alignItems': 'center', 'paddingBottom': 16, 'borderBottomWidth': 1};
-    var13 = 13;
-    var15 = var7[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BORDER_SUBTLE;
-    var10['borderBottomColor'] = var15;
-    var15 = var7[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.spacing;
-    var15 = var15.PX_24;
-    var10['marginBottom'] = var15;
-    var5['header'] = var10;
-    var10 = {'marginRight': 8, 'height': 24, 'width': 24};
-    var5['verifiedContainer'] = var10;
-    var10 = {'flexShrink': 1, 'flexDirection': 'column'};
-    var5['headerTextContainer'] = var10;
-    var10 = {'position': 'absolute', 'left': 0, 'top': 0};
-    var5['verifiedCheck'] = var10;
-    var10 = {};
-    var15 = 40;
-    var10['marginVertical'] = var15;
-    var5['loadingSpinner'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'marginTop': 8, 'marginLeft': 32, 'paddingRight': 20};
-    var5['popoutCheck'] = var10;
-    var10 = {};
-    var10['marginRight'] = var12;
-    var15 = var7[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.TEXT_FEEDBACK_POSITIVE;
-    var10['tintColor'] = var15;
-    var5['popoutCheckIcon'] = var10;
-    var10 = {'width': '100%', 'marginBottom': 24};
-    var5['popoutChecksGroup'] = var10;
-    var10 = {'paddingBottom': 12, 'borderBottomWidth': 1, 'borderBottomColor': null, 'marginBottom': 12};
-    var13 = var7[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BORDER_SUBTLE;
-    var10['borderBottomColor'] = var13;
-    var5['popoutChecksGroupBottomMargin'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var5['popoutCheckGroupName'] = var10;
-    var10 = {};
-    var10['marginRight'] = var12;
-    var5['popoutCheckGroupPlatformIcon'] = var10;
-    var10 = {};
-    var10['marginBottom'] = var12;
-    var5['button'] = var10;
-    var10 = {};
-    var10['marginLeft'] = var11;
-    var5['botTag'] = var10;
-    var5 = var8.bind(var9)(var5);
-    var _closure1_slot19 = var5;
-    var5 = 41;
+    var10 = var6.bind(var1)(var5);
+    var9 = var10.createStyles;
+    var8 = {};
+    var5 = {'flexDirection': 'column', 'alignItems': 'center', 'padding': 16};
+    var8['container'] = var5;
+    var5 = {'width': '100%', 'flexDirection': 'row', 'alignItems': 'center', 'paddingBottom': 16, 'borderBottomWidth': 1};
+    var14 = 13;
+    var11 = var7[var14];
+    var11 = var15.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BORDER_SUBTLE;
+    var5['borderBottomColor'] = var11;
+    var11 = var7[var14];
+    var11 = var15.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_24;
+    var5['marginBottom'] = var11;
+    var8['header'] = var5;
+    var5 = {'marginRight': 8, 'height': 24, 'width': 24};
+    var8['verifiedContainer'] = var5;
+    var5 = {'flexShrink': 1, 'flexDirection': 'column'};
+    var8['headerTextContainer'] = var5;
+    var5 = {'position': 'absolute', 'left': 0, 'top': 0};
+    var8['verifiedCheck'] = var5;
+    var11 = {};
+    var5 = 40;
+    var11['marginVertical'] = var5;
+    var8['loadingSpinner'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'marginTop': 8, 'marginLeft': 32, 'paddingRight': 20};
+    var8['popoutCheck'] = var11;
+    var11 = {};
+    var11['marginRight'] = var13;
+    var16 = var7[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.TEXT_FEEDBACK_POSITIVE;
+    var11['tintColor'] = var16;
+    var8['popoutCheckIcon'] = var11;
+    var11 = {'width': '100%', 'marginBottom': 24};
+    var8['popoutChecksGroup'] = var11;
+    var11 = {'paddingBottom': 12, 'borderBottomWidth': 1, 'borderBottomColor': null, 'marginBottom': 12};
+    var14 = var7[var14];
+    var14 = var15.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BORDER_SUBTLE;
+    var11['borderBottomColor'] = var14;
+    var8['popoutChecksGroupBottomMargin'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center'};
+    var8['popoutCheckGroupName'] = var11;
+    var11 = {};
+    var11['marginRight'] = var13;
+    var8['popoutCheckGroupPlatformIcon'] = var11;
+    var11 = {};
+    var11['marginBottom'] = var13;
+    var8['button'] = var11;
+    var11 = {};
+    var11['marginLeft'] = var12;
+    var8['botTag'] = var11;
+    var8 = var9.bind(var10)(var8);
+    var _closure1_slot19 = var8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -673,10 +673,10 @@ case 0:
             var22 = var1.bind(var4)();
             var6 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 29;
+            var1 = 28;
             var3 = var2[var1];
             var5 = var6.bind(var4)(var3);
-            var3 = 30;
+            var3 = 29;
             var3 = var2[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.CONNECTIONS_ROLE_POPOUT;
@@ -684,7 +684,7 @@ case 0:
             var5 = var3.analyticsLocations;
             var _closure2_slot4 = var5;
             var3 = _closure1_slot0;
-            var8 = 31;
+            var8 = 30;
             var6 = var2[var8];
             var12 = var3.bind(var4)(var6);
             var10 = var12.useStateFromStores;
@@ -776,7 +776,7 @@ case 41:
             var7 = function() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 32;
+                var1 = 31;
                 var2 = var9[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -789,7 +789,7 @@ case 41:
                 var8 = _closure2_slot1;
                 var2['role_id'] = var8;
                 var8 = _closure1_slot0;
-                var7 = 33;
+                var7 = 32;
                 var10 = var9[var7];
                 var12 = var8.bind(var1)(var10);
                 var11 = var12.collectChannelAnalyticsMetadataFromId;
@@ -828,7 +828,7 @@ case 43:
 case 46:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 34;
+                    var2 = 33;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -960,7 +960,7 @@ case 57:
             var1 = {};
             var1['value'] = var5;
             var7 = _closure1_slot16;
-            var5 = 35;
+            var5 = 34;
             var5 = var28[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheet;
@@ -982,7 +982,7 @@ case 57:
             var14['style'] = var19;
             var26 = _closure1_slot16;
             var23 = _closure1_slot1;
-            var19 = 36;
+            var19 = 35;
             var19 = var28[var19];
             var23 = var23.bind(var4)(var19);
             var19 = {};
@@ -1093,7 +1093,7 @@ case 71:
             var28 = _closure1_slot16;
             var32 = _closure1_slot0;
             var33 = _closure1_slot2;
-            var26 = 37;
+            var26 = 36;
             var26 = var33[var26];
             var26 = var32.bind(var4)(var26);
             var27 = var26.Button;
@@ -1101,7 +1101,7 @@ case 71:
             var29 = function onPress() {
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 38;
+                var1 = 37;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
@@ -1109,7 +1109,7 @@ case 71:
                 var3 = 'ConnectionsRoleMessageBadgeActionSheet';
                 var3 = var5.bind(var6)(var3);
                 var3 = _closure1_slot0;
-                var2 = 39;
+                var2 = 38;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openGuildRoleConnectionsModal;
@@ -1151,7 +1151,7 @@ case 73:
             var23 = _closure1_slot16;
             var27 = _closure1_slot0;
             var28 = _closure1_slot2;
-            var21 = 37;
+            var21 = 36;
             var21 = var28[var21];
             var21 = var27.bind(var4)(var21);
             var22 = var21.Button;
@@ -1159,7 +1159,7 @@ case 73:
             var24 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 40;
+                var1 = 39;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);

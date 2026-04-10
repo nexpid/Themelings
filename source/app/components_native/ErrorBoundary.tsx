@@ -462,13 +462,13 @@ case 25:
                 _fun0008_ip = 26; continue _fun0008;
 case 24:
                 var4 = _closure1_slot15;
-                var3 = _closure1_slot1;
+                var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var2 = 18;
                 var2 = var10[var2];
-                var3 = var3.bind(var5)(var2);
+                var2 = var8.bind(var5)(var2);
+                var3 = var2.EmptyState;
                 var2 = {};
-                var8 = _closure1_slot0;
                 var6 = 19;
                 var6 = var10[var6];
                 var6 = var8.bind(var5)(var6);

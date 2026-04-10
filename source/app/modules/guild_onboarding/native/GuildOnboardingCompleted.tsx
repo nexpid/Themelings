@@ -746,10 +746,10 @@ case 22:
             var17 = var25.card;
             var14['style'] = var17;
             var21 = _closure1_slot10;
-            var27 = _closure1_slot1;
             var34 = 24;
             var17 = var19[var34];
-            var27 = var27.bind(var5)(var17);
+            var17 = var20.bind(var5)(var17);
+            var27 = var17.Avatar;
             var17 = {};
             var34 = var19[var34];
             var34 = var20.bind(var5)(var34);

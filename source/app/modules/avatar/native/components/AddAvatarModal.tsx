@@ -26,77 +26,83 @@ case 3:
                             var3 = undefined;
                             var2 = false;
                             var2 = var5.bind(var3)(var2);
-                            var6 = _closure1_slot0;
+                            var5 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var10 = 16;
                             var2 = var2[var10];
-                            var7 = var6.bind(var3)(var2);
-                            var6 = var7.openImagePicker;
+                            var7 = var5.bind(var3)(var2);
+                            var5 = var7.openImagePicker;
                             var2 = {};
                             var8 = _closure1_slot8;
                             var2['size'] = var8;
-                            var2 = var6.bind(var7)(var2);
+                            var2 = var5.bind(var7)(var2);
                             SaveGenerator(address=74);
 case 4:
                             return var2;
 case 5:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0002_ip = 6; continue _fun0002 }
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                            if(var5) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                            var13 = var2.base64;
-                            var6 = null;
-                            if(!(var6 != var13)) { _fun0002_ip = 8; continue _fun0002 }
+                            var14 = var2.base64;
+                            var8 = null;
+                            if(!(var8 != var14)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                            var8 = var13.match;
+                            var7 = var14.match;
                             var9 = _closure1_slot0;
-                            var7 = _closure1_slot2;
-                            var7 = var7[var10];
-                            var7 = var9.bind(var3)(var7);
-                            var7 = var7.base64GIFRegex;
-                            var7 = var8.bind(var13)(var7);
-                            if(!(var6 == var7)) { _fun0002_ip = 10; continue _fun0002 }
+                            var5 = _closure1_slot2;
+                            var5 = var5[var10];
+                            var5 = var9.bind(var3)(var5);
+                            var5 = var5.base64GIFRegex;
+                            var5 = var7.bind(var14)(var5);
+                            if(!(var8 == var5)) { _fun0002_ip = 10; continue _fun0002 }
 case 8:
-                            var6 = var6 != var13;
-                            var7 = undefined;
-                            if(!var6) { _fun0002_ip = 11; continue _fun0002 }
+                            var7 = var8 != var14;
+                            var5 = undefined;
+                            if(!var7) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                            var11 = _closure1_slot0;
-                            var12 = _closure1_slot2;
-                            var10 = 13;
-                            var6 = var12[var10];
-                            var9 = var11.bind(var3)(var6);
-                            var8 = var9.createPendingImage;
-                            var6 = {};
-                            var6['imageUri'] = var13;
-                            var10 = var12[var10];
-                            var11 = var11.bind(var3)(var10);
-                            var10 = var11.generateAvatarDescription;
-                            var10 = var10.bind(var11)();
-                            var6['description'] = var10;
-                            var7 = var8.bind(var9)(var6);
+                            var12 = _closure1_slot0;
+                            var13 = _closure1_slot2;
+                            var11 = 13;
+                            var7 = var13[var11];
+                            var10 = var12.bind(var3)(var7);
+                            var9 = var10.createPendingImage;
+                            var7 = {};
+                            var7['imageUri'] = var14;
+                            var11 = var13[var11];
+                            var12 = var12.bind(var3)(var11);
+                            var11 = var12.generateAvatarDescription;
+                            var11 = var11.bind(var12)();
+                            var7['description'] = var11;
+                            var5 = var9.bind(var10)(var7);
 case 11:
-                            var6 = _closure1_slot0;
-                            var8 = _closure1_slot2;
-                            var5 = 17;
-                            var5 = var8[var5];
-                            var10 = var6.bind(var3)(var5);
-                            var9 = var10.setPendingChanges;
-                            var5 = {};
-                            var5['avatar'] = var7;
-                            var5 = var9.bind(var10)(var5);
-                            var5 = 18;
-                            var5 = var8[var5];
-                            var6 = var6.bind(var3)(var5);
-                            var5 = var6.announcePendingAvatarChange;
-                            var5 = var5.bind(var6)(var7);
+                            var7 = _closure1_slot0;
+                            var9 = _closure1_slot2;
+                            var6 = 17;
+                            var6 = var9[var6];
+                            var11 = var7.bind(var3)(var6);
+                            var10 = var11.setPendingChanges;
+                            var6 = {};
+                            var6['avatar'] = var5;
+                            var6 = var10.bind(var11)(var6);
+                            var6 = 18;
+                            var6 = var9[var6];
+                            var7 = var7.bind(var3)(var6);
+                            var6 = var7.announcePendingAvatarChange;
+                            var8 = var8 == var5;
+                            var5 = 'set';
+                            if(!var8) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+                            var5 = 'remove';
+case 13:
+                            var5 = var6.bind(var7)(var5);
                             var5 = _closure2_slot2;
                             var5 = var5.bind(var3)(var3);
-                            _fun0002_ip = 13; continue _fun0002;
+                            _fun0002_ip = 15; continue _fun0002;
 case 10:
                             var5 = _closure2_slot0;
                             var4 = true;
                             var4 = var5.bind(var3)(var4);
-case 13:
+case 15:
                             return var3;
 case 6:
                             return var2;
@@ -166,8 +172,8 @@ case 2:
             var13 = null;
             var3 = var13 != var11;
             var1 = undefined;
-            if(!var3) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var3) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var15 = _closure1_slot0;
             var17 = _closure1_slot2;
             var12 = 13;
@@ -187,12 +193,12 @@ case 15:
             var12 = var12.bind(var15)();
             var3['description'] = var12;
             var1 = var5.bind(var6)(var3);
-case 14:
-            var12 = var2;
-            if(!(var13 != var1)) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var12 = var1;
 case 16:
+            var12 = var2;
+            if(!(var13 != var1)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var12 = var1;
+case 18:
             var _closure2_slot3 = var12;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -202,10 +208,10 @@ case 16:
             var2 = var3.memoizedImageSource;
             var5 = var13 == var12;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(var5) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var1 = var12.imageUri;
-case 18:
+case 20:
             var20 = var2.bind(var3)(var1);
             var3 = _closure1_slot10;
             var2 = _closure1_slot6;
@@ -216,10 +222,10 @@ case 18:
             var6 = {};
             var15 = var8 > var7;
             var7 = 16;
-            if(!var15) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(!var15) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var7 = var8;
-case 20:
+case 22:
             var6['paddingBottom'] = var7;
             var5[1] = var6;
             var1['style'] = var5;
@@ -313,8 +319,8 @@ case 20:
             var20 = {};
             var24 = var10.errorText;
             var20['style'] = var24;
-            if(!var23) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!var23) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var27 = _closure1_slot0;
             var24 = _closure1_slot2;
             var25 = var24[var19];
@@ -326,7 +332,7 @@ case 23:
             var24 = var24.t;
             var24 = var24.XyLlVm;
             var23 = var25.bind(var26)(var24);
-case 22:
+case 24:
             var20['children'] = var23;
             var20 = var22.bind(var4)(var21, var20);
             var15['children'] = var20;

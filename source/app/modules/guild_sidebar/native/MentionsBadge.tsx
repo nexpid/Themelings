@@ -3,8 +3,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
-    var1 = metroImportDefault;
-    var _closure1_slot0 = var1;
+    var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -40,7 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 2;
         var1 = var3[var1];
         var3 = undefined;
-        var2 = var2.bind(var3)(var1);
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.Badge;
         var1 = {};
         var1['value'] = var6;
         var1['isMentionLowImportance'] = var5;

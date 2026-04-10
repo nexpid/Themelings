@@ -431,11 +431,12 @@ case 28:
             if(!(var20 !== var27)) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
             var23 = _closure1_slot17;
-            var21 = _closure1_slot1;
+            var21 = _closure1_slot0;
             var28 = _closure1_slot2;
             var17 = 27;
             var17 = var28[var17];
-            var21 = var21.bind(var4)(var17);
+            var17 = var21.bind(var4)(var17);
+            var21 = var17.Badge;
             var17 = {};
             var17['value'] = var27;
             var17['isMentionLowImportance'] = var24;

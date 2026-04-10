@@ -160,18 +160,18 @@ case 4:
             var9 = var5.bind(var7)(var2, var3);
             var2 = var1.items;
             var1 = 0;
-            var23 = var2[var1];
+            var22 = var2[var1];
             var3 = _closure1_slot9;
             var2 = _closure1_slot4;
             var1 = {};
             var5 = var15.container;
             var1['style'] = var5;
             var5 = _closure1_slot6;
-            var5 = var5.bind(var4)(var23);
+            var5 = var5.bind(var4)(var22);
             if(var5) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var5 = _closure1_slot5;
-            var5 = var5.bind(var4)(var23);
+            var5 = var5.bind(var4)(var22);
             var7 = undefined;
             if(!var5) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
@@ -189,7 +189,7 @@ case 8:
             var12 = var12.AvatarSizes;
             var12 = var12.LARGE;
             var5['size'] = var12;
-            var12 = var23.asset;
+            var12 = var22.asset;
             var5['asset'] = var12;
             var7 = var11.bind(var4)(var8, var5);
 case 7:
@@ -208,17 +208,17 @@ case 5:
             var20 = _closure1_slot2;
             var13 = 12;
             var13 = var20[var13];
-            var18 = var16.bind(var4)(var13);
+            var16 = var16.bind(var4)(var13);
             var13 = {'nameplate': null, 'fullOpacity': true, 'animate': true};
             var19 = _closure1_slot0;
             var17 = 13;
             var17 = var20[var17];
-            var22 = var19.bind(var4)(var17);
-            var17 = var22.getNameplateData;
-            var17 = var17.bind(var22)(var23);
+            var18 = var19.bind(var4)(var17);
+            var17 = var18.getNameplateData;
+            var17 = var17.bind(var18)(var22);
             var13['nameplate'] = var17;
             var17 = true;
-            var13 = var14.bind(var4)(var18, var13);
+            var13 = var14.bind(var4)(var16, var13);
             var12['children'] = var13;
             var13 = var14.bind(var4)(var8, var12);
             var12 = new Array(2);
@@ -228,7 +228,8 @@ case 5:
             var13['style'] = var15;
             var18 = 14;
             var15 = var20[var18];
-            var16 = var16.bind(var4)(var15);
+            var15 = var19.bind(var4)(var15);
+            var16 = var15.Avatar;
             var15 = {};
             var15['user'] = var21;
             var15['guildId'] = var4;

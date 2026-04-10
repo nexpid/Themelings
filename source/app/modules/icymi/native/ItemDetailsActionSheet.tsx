@@ -152,13 +152,13 @@ case 5:
             if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var3 = _closure1_slot7;
-            var2 = _closure1_slot1;
+            var6 = _closure1_slot0;
             var10 = _closure1_slot2;
             var5 = 12;
             var1 = var10[var5];
-            var2 = var2.bind(var4)(var1);
+            var1 = var6.bind(var4)(var1);
+            var2 = var1.Avatar;
             var1 = {};
-            var6 = _closure1_slot0;
             var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var5 = var5.AvatarSizes;

@@ -421,19 +421,19 @@ case 48:
             var4 = var4.bind(var5)(var1);
             var5 = null;
             var1 = var5 != var4;
-            if(!var1) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+            if(!var1) { _fun0006_ip = 31; continue _fun0006 }
+case 56:
             var4 = var4.messageId;
             var1 = var5 != var4;
-case 56:
-            if(!var1) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+case 31:
+            if(!var1) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
             var4 = _closure1_slot4;
             var3 = var4.isCallUnavailable;
             var2 = var2.id;
             var2 = var3.bind(var4)(var2);
             var1 = !var2;
-case 58:
+case 57:
             return var1;
         }
     };

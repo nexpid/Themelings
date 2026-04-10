@@ -423,7 +423,7 @@ case 43:
     var14 = var10;
     var10 = copyDataProperties(var15, var14);
     var _closure1_slot16 = var7;
-    var7 = 22;
+    var7 = 23;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -434,22 +434,22 @@ case 43:
     var3['useCategoryPressEvents'] = var4;
     var4 = function CategoryChannel(arg1) {
         var1 = arg1;
-        var11 = var1.channel;
-        var _closure2_slot0 = var11;
+        var12 = var1.channel;
+        var _closure2_slot0 = var12;
         var6 = var1.withMarginTop;
-        var5 = _closure1_slot1;
-        var9 = _closure1_slot2;
+        var13 = _closure1_slot1;
+        var14 = _closure1_slot2;
         var3 = 15;
-        var4 = var9[var3];
+        var4 = var14[var3];
         var3 = undefined;
-        var5 = var5.bind(var3)(var4);
+        var5 = var13.bind(var3)(var4);
         var4 = 'CategoryChannel';
         var4 = var5.bind(var3)(var4);
         var5 = _closure1_slot14;
         var5 = var5.bind(var3)(var4);
         var8 = _closure1_slot0;
         var7 = 16;
-        var7 = var9[var7];
+        var7 = var14[var7];
         var9 = var8.bind(var3)(var7);
         var8 = var9.useStateFromStoresObject;
         var10 = _closure1_slot6;
@@ -478,13 +478,16 @@ case 43:
         var9 = var2.collapsed;
         var10 = var2.muted;
         var7 = _closure1_slot19;
-        var2 = var11.id;
+        var2 = var12.id;
         var2 = var7.bind(var3)(var2, var9);
         var8 = var2.onPress;
         var7 = var2.onLongPress;
         var2 = _closure1_slot18;
         var1 = {};
-        var11 = var11.name;
+        var11 = 17;
+        var11 = var14[var11];
+        var11 = var13.bind(var3)(var11);
+        var11 = var11.bind(var3)(var12);
         var1['name'] = var11;
         var1['muted'] = var10;
         var1['collapsed'] = var9;
@@ -537,7 +540,7 @@ case 43:
         var2 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 17;
+            var1 = 18;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -551,7 +554,7 @@ case 43:
         var7 = var9.bind(var10)(var2, var7);
         var2 = _closure1_slot18;
         var1 = {};
-        var9 = 18;
+        var9 = 19;
         var10 = var13[var9];
         var10 = var12.bind(var3)(var10);
         var11 = var10.intl;
@@ -596,7 +599,7 @@ case 43:
         var1 = function() {
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 19;
+            var1 = 20;
             var2 = var8[var1];
             var1 = undefined;
             var4 = var7.bind(var1)(var2);
@@ -605,7 +608,7 @@ case 43:
             var5 = 'REDESIGN_SUGGESTED_CHANNELS_CLEAR';
             var2['key'] = var5;
             var6 = {};
-            var5 = 18;
+            var5 = 19;
             var9 = var8[var5];
             var9 = var7.bind(var1)(var9);
             var10 = var9.intl;
@@ -619,7 +622,7 @@ case 43:
             var5 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 20;
+                var1 = 21;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -630,7 +633,7 @@ case 43:
                 return var1;
             };
             var6['onPress'] = var5;
-            var5 = 21;
+            var5 = 22;
             var5 = var8[var5];
             var5 = var7.bind(var1)(var5);
             var5 = var5.CircleXIcon;
@@ -645,7 +648,7 @@ case 43:
         var2 = _closure1_slot17;
         var1 = {};
         var11 = _closure1_slot0;
-        var8 = 18;
+        var8 = 19;
         var9 = var12[var8];
         var9 = var11.bind(var3)(var9);
         var10 = var9.intl;

@@ -106,7 +106,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10['style'] = var9;
         var9 = 8;
         var9 = var15[var9];
-        var11 = var17.bind(var4)(var9);
+        var9 = var14.bind(var4)(var9);
+        var11 = var9.Icon;
         var9 = {};
         var16 = 9;
         var16 = var15[var16];

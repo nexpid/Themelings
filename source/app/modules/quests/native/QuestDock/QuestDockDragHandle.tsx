@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var18 = var2.isExpanded;
+            var17 = var2.isExpanded;
             var6 = _closure1_slot3;
             var3 = var6.useContext;
             var5 = _closure1_slot1;
@@ -108,8 +108,8 @@ case 0:
             var3 = var5.bind(var6)(var3);
             var9 = var3.activeQuestDockMode;
             var _closure2_slot0 = var9;
-            var14 = var3.questDockWrapperSpecs;
-            var _closure2_slot1 = var14;
+            var18 = var3.questDockWrapperSpecs;
+            var _closure2_slot1 = var18;
             var5 = var2.userStatus;
             var3 = null;
             var6 = var3 == var5;
@@ -120,11 +120,11 @@ case 3:
 case 2:
             var10 = var3 != var2;
             var _closure2_slot2 = var10;
-            var20 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var2 = 8;
-            var3 = var19[var2];
-            var8 = var20.bind(var4)(var3);
+            var3 = var11[var2];
+            var8 = var12.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
             var3 = function D() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -179,27 +179,27 @@ case 6:
                     return var1;
                 }
             };
-            var12 = {};
-            var11 = 9;
-            var6 = var19[var11];
-            var6 = var20.bind(var4)(var6);
+            var16 = {};
+            var14 = 9;
+            var6 = var11[var14];
+            var6 = var12.bind(var4)(var6);
             var6 = var6.withSpring;
-            var12['withSpring'] = var6;
-            var12['activeQuestDockMode'] = var9;
+            var16['withSpring'] = var6;
+            var16['activeQuestDockMode'] = var9;
             var7 = _closure1_slot5;
-            var12['QuestDockMode'] = var7;
+            var16['QuestDockMode'] = var7;
             var6 = _closure1_slot6;
-            var12['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var6;
-            var12['questDockWrapperSpecs'] = var14;
-            var3['__closure'] = var12;
-            var12 = 9438955055878.0;
-            var3['__workletHash'] = var12;
-            var12 = _closure1_slot10;
-            var3['__initData'] = var12;
+            var16['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var6;
+            var16['questDockWrapperSpecs'] = var18;
+            var3['__closure'] = var16;
+            var16 = 9438955055878.0;
+            var3['__workletHash'] = var16;
+            var16 = _closure1_slot10;
+            var3['__initData'] = var16;
             var8 = var5.bind(var8)(var3);
-            var3 = var19[var2];
-            var12 = var20.bind(var4)(var3);
-            var5 = var12.useAnimatedStyle;
+            var3 = var11[var2];
+            var16 = var12.bind(var4)(var3);
+            var5 = var16.useAnimatedStyle;
             var3 = function p() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -237,23 +237,23 @@ case 10:
                     return var1;
                 }
             };
-            var14 = {};
-            var16 = var19[var11];
-            var16 = var20.bind(var4)(var16);
-            var16 = var16.withSpring;
-            var14['withSpring'] = var16;
-            var14['isEnrolled'] = var10;
-            var14['activeQuestDockMode'] = var9;
-            var14['QuestDockMode'] = var7;
-            var14['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var6;
-            var3['__closure'] = var14;
-            var14 = 1642273909925.0;
-            var3['__workletHash'] = var14;
-            var14 = _closure1_slot11;
-            var3['__initData'] = var14;
-            var17 = var5.bind(var12)(var3);
-            var2 = var19[var2];
-            var3 = var20.bind(var4)(var2);
+            var18 = {};
+            var19 = var11[var14];
+            var19 = var12.bind(var4)(var19);
+            var19 = var19.withSpring;
+            var18['withSpring'] = var19;
+            var18['isEnrolled'] = var10;
+            var18['activeQuestDockMode'] = var9;
+            var18['QuestDockMode'] = var7;
+            var18['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var6;
+            var3['__closure'] = var18;
+            var18 = 1642273909925.0;
+            var3['__workletHash'] = var18;
+            var18 = _closure1_slot11;
+            var3['__initData'] = var18;
+            var16 = var5.bind(var16)(var3);
+            var2 = var11[var2];
+            var3 = var12.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
             var1 = function C() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -293,10 +293,10 @@ case 12:
                 }
             };
             var5 = {};
-            var11 = var19[var11];
-            var11 = var20.bind(var4)(var11);
-            var11 = var11.withSpring;
-            var5['withSpring'] = var11;
+            var14 = var11[var14];
+            var14 = var12.bind(var4)(var14);
+            var14 = var14.withSpring;
+            var5['withSpring'] = var14;
             var5['isEnrolled'] = var10;
             var5['activeQuestDockMode'] = var9;
             var5['QuestDockMode'] = var7;
@@ -306,7 +306,7 @@ case 12:
             var1['__workletHash'] = var5;
             var5 = _closure1_slot12;
             var1['__initData'] = var5;
-            var12 = var2.bind(var3)(var1);
+            var18 = var2.bind(var3)(var1);
             var3 = _closure1_slot7;
             var2 = _closure1_slot4;
             var1 = {};
@@ -315,74 +315,67 @@ case 12:
             var7 = _closure1_slot8;
             var10 = _closure1_slot1;
             var9 = 10;
-            var5 = var19[var9];
+            var5 = var11[var9];
             var6 = var10.bind(var4)(var5);
             var5 = {};
             var5['style'] = var8;
-            var8 = var19[var9];
+            var8 = var11[var9];
             var10 = var10.bind(var4)(var8);
             var8 = {};
-            var14 = var15.dragHandleOverlay;
-            var11 = new Array(2);
-            var11[0] = var14;
-            var11[1] = var12;
-            var8['style'] = var11;
-            var12 = 11;
-            var11 = var19[var12];
-            var11 = var20.bind(var4)(var11);
-            var14 = var11.ActionSheetHeaderBar;
+            var19 = var15.dragHandleOverlay;
+            var14 = new Array(2);
+            var14[0] = var19;
+            var14[1] = var18;
+            var8['style'] = var14;
+            var14 = 11;
+            var11 = var11[var14];
+            var11 = var12.bind(var4)(var11);
+            var12 = var11.ActionSheetHeaderBar;
             var11 = {};
-            var16 = 12;
-            var19 = var19[var16];
-            var19 = var20.bind(var4)(var19);
-            var19 = var19.ActionSheetHeaderBarVariants;
-            var19 = var19.OVERLAY;
-            var11['variant'] = var19;
-            var22 = _closure1_slot0;
-            var23 = _closure1_slot2;
-            var19 = 13;
-            var20 = var23[var19];
-            var20 = var22.bind(var4)(var20);
-            var21 = var20.intl;
-            var20 = var21.string;
-            var19 = var23[var19];
-            var19 = var22.bind(var4)(var19);
-            var19 = var19.t;
-            if(var18) { _fun0001_ip = 13; continue _fun0001 }
+            var18 = 'overlay';
+            var11['variant'] = var18;
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var18 = 12;
+            var19 = var22[var18];
+            var19 = var21.bind(var4)(var19);
+            var20 = var19.intl;
+            var19 = var20.string;
+            var18 = var22[var18];
+            var18 = var21.bind(var4)(var18);
+            var18 = var18.t;
+            if(var17) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var18 = var19.Yplnt6;
-            var18 = var20.bind(var21)(var18);
+            var17 = var18.Yplnt6;
+            var17 = var19.bind(var20)(var17);
             _fun0001_ip = 15; continue _fun0001;
 case 13:
-            var19 = var19.GQ+4bk;
-            var18 = var20.bind(var21)(var19);
+            var18 = var18.GQ+4bk;
+            var17 = var19.bind(var20)(var18);
 case 15:
-            var11['accessibilityLabel'] = var18;
-            var11 = var3.bind(var4)(var14, var11);
+            var11['accessibilityLabel'] = var17;
+            var11 = var3.bind(var4)(var12, var11);
             var8['children'] = var11;
             var10 = var3.bind(var4)(var10, var8);
             var8 = new Array(2);
             var8[0] = var10;
             var11 = _closure1_slot7;
             var10 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var9 = var14[var9];
+            var12 = _closure1_slot2;
+            var9 = var12[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {'style': null, 'pointerEvents': 'none', 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
-            var18 = var15.dragHandleOverlay;
+            var17 = var15.dragHandleOverlay;
             var15 = new Array(2);
-            var15[0] = var18;
-            var15[1] = var17;
+            var15[0] = var17;
+            var15[1] = var16;
             var9['style'] = var15;
-            var15 = _closure1_slot0;
-            var12 = var14[var12];
-            var12 = var15.bind(var4)(var12);
+            var13 = _closure1_slot0;
+            var12 = var12[var14];
+            var12 = var13.bind(var4)(var12);
             var13 = var12.ActionSheetHeaderBar;
             var12 = {};
-            var14 = var14[var16];
-            var14 = var15.bind(var4)(var14);
-            var14 = var14.ActionSheetHeaderBarVariants;
-            var14 = var14.FLOATING;
+            var14 = 'floating';
             var12['variant'] = var14;
             var12 = var11.bind(var4)(var13, var12);
             var9['children'] = var12;
@@ -396,7 +389,7 @@ case 15:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

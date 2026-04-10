@@ -5,8 +5,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -24,14 +23,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot4 = var7;
+    var _closure1_slot3 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -61,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginLeft'] = var10;
     var4['userProfileInfo'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -73,11 +72,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var13 = var1.user;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot5;
             var4 = undefined;
             var9 = var1.bind(var4)();
             var15 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var16 = _closure1_slot1;
             var1 = 5;
             var1 = var16[var1];
             var5 = var15.bind(var4)(var1);
@@ -86,12 +85,12 @@ case 0:
             var2 = var1.color;
             var1 = 0.08;
             var12 = var3.bind(var5)(var2, var1);
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot2;
             var1 = {};
             var5 = var9.container;
             var1['style'] = var5;
-            var11 = _closure1_slot4;
+            var11 = _closure1_slot3;
             var14 = 6;
             var5 = var16[var14];
             var5 = var15.bind(var4)(var5);
@@ -123,10 +122,10 @@ case 0:
             var8['borderColor'] = var12;
             var7[1] = var8;
             var6['style'] = var7;
-            var8 = _closure1_slot1;
             var12 = 8;
             var7 = var16[var12];
-            var8 = var8.bind(var4)(var7);
+            var7 = var15.bind(var4)(var7);
+            var8 = var7.Avatar;
             var7 = {};
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
@@ -146,9 +145,9 @@ case 0:
             var11 = var9 != var11;
             if(!var11) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var15 = _closure1_slot4;
+            var15 = _closure1_slot3;
             var12 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot1;
             var9 = var9[var14];
             var9 = var12.bind(var4)(var9);
             var12 = var9.Text;
@@ -159,9 +158,9 @@ case 3:
 case 2:
             var9 = new Array(2);
             var9[0] = var11;
-            var12 = _closure1_slot4;
+            var12 = _closure1_slot3;
             var11 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot1;
             var10 = var10[var14];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;

@@ -928,11 +928,11 @@ case 49:
 case 48:
             var6 = var8 != var6;
             if(!var6) { _fun0011_ip = 50; continue _fun0011 }
-case 51:
+case 13:
             var6 = var8 != var12;
 case 50:
-            if(!var6) { _fun0011_ip = 52; continue _fun0011 }
-case 53:
+            if(!var6) { _fun0011_ip = 51; continue _fun0011 }
+case 52:
             var9 = _closure1_slot12;
             var8 = _closure1_slot23;
             var7 = {};
@@ -943,7 +943,7 @@ case 53:
             var7['commandIds'] = var11;
             var7['themeType'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 52:
+case 51:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

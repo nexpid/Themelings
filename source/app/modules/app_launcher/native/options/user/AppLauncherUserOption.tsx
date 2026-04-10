@@ -79,9 +79,9 @@ case 0:
             var14 = var2.bind(var4)();
             var11 = var1.guild_id;
             var2 = _closure1_slot0;
-            var17 = _closure1_slot2;
+            var16 = _closure1_slot2;
             var1 = 6;
-            var1 = var17[var1];
+            var1 = var16[var1];
             var6 = var2.bind(var4)(var1);
             var3 = var6.useStateFromStores;
             var1 = _closure1_slot5;
@@ -92,7 +92,7 @@ case 0:
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var16 = var3.bind(var6)(var2, var1);
+            var18 = var3.bind(var6)(var2, var1);
             var19 = _closure1_slot4;
             var2 = var19.useState;
             var1 = function() {
@@ -117,9 +117,9 @@ case 2:
                 }
             };
             var1 = var2.bind(var19)(var1);
-            var18 = _closure1_slot3;
+            var17 = _closure1_slot3;
             var10 = 2;
-            var1 = var18.bind(var4)(var1, var10);
+            var1 = var17.bind(var4)(var1, var10);
             var3 = 0;
             var13 = var1[var3];
             var2 = 1;
@@ -128,14 +128,14 @@ case 2:
             var1 = var19.useState;
             var6 = null;
             var1 = var1.bind(var19)(var6);
-            var1 = var18.bind(var4)(var1, var10);
+            var1 = var17.bind(var4)(var1, var10);
             var10 = var1[var3];
             var1 = var1[var2];
             var _closure2_slot7 = var1;
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var1 = 7;
-            var1 = var17[var1];
+            var1 = var16[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['style'] = var15;
@@ -228,18 +228,18 @@ case 11:
 case 13:
             var12 = _closure1_slot6;
             var9 = _closure1_slot1;
-            var18 = _closure1_slot2;
+            var17 = _closure1_slot2;
             var8 = 14;
-            var8 = var18[var8];
+            var8 = var17[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
-            var17 = _closure1_slot0;
+            var16 = _closure1_slot0;
             var15 = 15;
-            var15 = var18[var15];
-            var15 = var17.bind(var4)(var15);
-            var17 = var15.UserCircleIcon;
+            var15 = var17[var15];
+            var15 = var16.bind(var4)(var15);
+            var16 = var15.UserCircleIcon;
             var15 = {'size': 'sm', 'color': 'interactive-text-default'};
-            var15 = var12.bind(var4)(var17, var15);
+            var15 = var12.bind(var4)(var16, var15);
             var8['icon'] = var15;
             var14 = var14.iconWrapper;
             var8['wrapperStyle'] = var14;
@@ -247,17 +247,17 @@ case 13:
             _fun0001_ip = 14; continue _fun0001;
 case 12:
             var14 = _closure1_slot6;
-            var12 = _closure1_slot1;
+            var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var15 = 13;
             var9 = var17[var15];
-            var12 = var12.bind(var4)(var9);
+            var9 = var16.bind(var4)(var9);
+            var12 = var9.Avatar;
             var9 = {};
             var9['user'] = var10;
             var9['guildId'] = var11;
-            var16 = !var16;
-            var9['animate'] = var16;
-            var16 = _closure1_slot0;
+            var18 = !var18;
+            var9['animate'] = var18;
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.AvatarSizes;

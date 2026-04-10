@@ -310,16 +310,18 @@ case 14:
             if(!var13) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
             var19 = _closure1_slot5;
-            var24 = _closure1_slot1;
+            var18 = _closure1_slot1;
             var25 = _closure1_slot2;
             var17 = 16;
             var17 = var25[var17];
-            var18 = var24.bind(var5)(var17);
+            var18 = var18.bind(var5)(var17);
             var17 = {};
             var17['guild'] = var20;
+            var24 = _closure1_slot0;
             var23 = 17;
             var23 = var25[var23];
             var23 = var24.bind(var5)(var23);
+            var23 = var23.Icon;
             var23 = var23.Sizes;
             var23 = var23.REFRESH_SMALL_16;
             var17['size'] = var23;

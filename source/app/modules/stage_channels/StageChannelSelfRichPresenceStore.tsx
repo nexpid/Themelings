@@ -41,26 +41,26 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot21 = var2;
+            _closure1_slot23 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot23 = var1;
     var9 = function handleUpdateActivity() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = function buildActivity() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var2 = _closure1_slot12;
+                    var2 = _closure1_slot13;
                     var1 = var2.getVoiceChannelId;
                     var13 = var1.bind(var2)();
                     var1 = null;
                     if(!(var1 != var13)) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-                    var3 = _closure1_slot14;
+                    var3 = _closure1_slot16;
                     var2 = var3.getStageInstanceByChannel;
                     var12 = var2.bind(var3)(var13);
                     if(!(var1 != var12)) { _fun0003_ip = 8; continue _fun0003 }
@@ -72,12 +72,12 @@ case 9:
 case 11:
                     var4 = _closure1_slot2;
                     var5 = _closure1_slot3;
-                    var2 = 13;
+                    var2 = 15;
                     var2 = var5[var2];
                     var9 = undefined;
                     var5 = var4.bind(var9)(var2);
                     var4 = var5.canEveryone;
-                    var2 = _closure1_slot18;
+                    var2 = _closure1_slot20;
                     var2 = var2.VIEW_CHANNEL;
                     var2 = var4.bind(var5)(var2, var3);
                     if(var2) { _fun0003_ip = 12; continue _fun0003 }
@@ -93,7 +93,7 @@ case 12:
 case 15:
                     var5 = var6.features;
                     var4 = var5.has;
-                    var2 = _closure1_slot17;
+                    var2 = _closure1_slot19;
                     var2 = var2.DISCOVERABLE;
                     var2 = var4.bind(var5)(var2);
                     if(var2) { _fun0003_ip = 16; continue _fun0003 }
@@ -102,12 +102,12 @@ case 17:
 case 16:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    var2 = 14;
+                    var2 = 16;
                     var2 = var5[var2];
                     var4 = var4.bind(var9)(var2);
                     var2 = var4.packStageChannelPartyId;
                     var4 = var2.bind(var4)(var3, var12);
-                    var5 = _closure1_slot20;
+                    var5 = _closure1_slot22;
                     var7 = var1 == var5;
                     var2 = undefined;
                     if(var7) { _fun0003_ip = 18; continue _fun0003 }
@@ -122,14 +122,14 @@ case 18:
                     var11 = null;
                     if(!(var2 === var4)) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-                    var11 = _closure1_slot20;
+                    var11 = _closure1_slot22;
 case 21:
-                    var8 = _closure1_slot13;
+                    var8 = _closure1_slot15;
                     var7 = var8.getMutableParticipants;
                     var5 = var3.id;
                     var14 = _closure1_slot0;
                     var15 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 17;
                     var2 = var15[var2];
                     var2 = var14.bind(var9)(var2);
                     var2 = var2.StageChannelParticipantNamedIndex;
@@ -141,7 +141,7 @@ case 21:
                         var2 = var1.type;
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
-                        var1 = 15;
+                        var1 = 17;
                         var3 = var3[var1];
                         var1 = undefined;
                         var1 = var4.bind(var1)(var3);
@@ -154,7 +154,7 @@ case 21:
                     var7 = var5.length;
                     var2 = var2.length;
                     var5 = var2 - var7;
-                    var8 = _closure1_slot13;
+                    var8 = _closure1_slot15;
                     var2 = var8.getParticipantCount;
                     var2 = var2.bind(var8)(var13);
                     var8 = var2 - var7;
@@ -179,7 +179,7 @@ case 27:
                     var7 = var13[var2];
 case 26:
                     var2 = {};
-                    var13 = _closure1_slot15;
+                    var13 = _closure1_slot17;
                     var2['application_id'] = var13;
                     var12 = var12.topic;
                     if(!(var1 == var12)) { _fun0003_ip = 28; continue _fun0003 }
@@ -188,18 +188,26 @@ case 29:
 case 28:
                     if(!(var1 == var12)) { _fun0003_ip = 30; continue _fun0003 }
 case 31:
-                    var12 = var3.name;
+                    var14 = _closure1_slot0;
+                    var15 = _closure1_slot3;
+                    var13 = 18;
+                    var13 = var15[var13];
+                    var16 = var14.bind(var9)(var13);
+                    var15 = var16.computeChannelName;
+                    var14 = _closure1_slot14;
+                    var13 = _closure1_slot12;
+                    var12 = var15.bind(var16)(var3, var14, var13);
 case 30:
                     var2['name'] = var12;
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot3;
-                    var12 = 16;
+                    var12 = 19;
                     var12 = var14[var12];
                     var13 = var13.bind(var9)(var12);
                     var12 = var13.getStageHasMedia;
                     var3 = var3.id;
                     var3 = var12.bind(var13)(var3);
-                    var10 = _closure1_slot16;
+                    var10 = _closure1_slot18;
                     if(var3) { _fun0003_ip = 32; continue _fun0003 }
 case 33:
                     var3 = var10.LISTENING;
@@ -226,8 +234,8 @@ case 39:
                     var11 = var11.Date;
                     var12 = var11.prototype;
                     var12 = Object.create(var12, {constructor: {value: var11}});
-                    var18 = var12;
-                    var11 = new var18[var11](var17);
+                    var20 = var12;
+                    var11 = new var20[var11](var19);
                     var12 = var11 instanceof Object ? var11 : var12;
                     var11 = var12.getTime;
                     var10 = var11.bind(var12)();
@@ -272,21 +280,21 @@ case 6:
             var3 = var1.bind(var5)();
             var4 = _closure1_slot1;
             var6 = _closure1_slot3;
-            var1 = 17;
+            var1 = 20;
             var1 = var6[var1];
             var4 = var4.bind(var5)(var1);
-            var1 = _closure1_slot20;
+            var1 = _closure1_slot22;
             var1 = var4.bind(var5)(var3, var1);
             var1 = !var1;
             if(!var1) { _fun0002_ip = 42; continue _fun0002 }
 case 43:
-            _closure1_slot20 = var3;
+            _closure1_slot22 = var3;
             var1 = true;
 case 42:
             return var1;
         }
     };
-    var _closure1_slot22 = var9;
+    var _closure1_slot24 = var9;
     var1 = global;
     var10 = var1.Object;
     var8 = var10.defineProperty;
@@ -342,23 +350,31 @@ case 42:
     var _closure1_slot14 = var2;
     var2 = 11;
     var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.STAGE_APPLICATION_ID;
+    var2 = var7.bind(var1)(var2);
     var _closure1_slot15 = var2;
     var2 = 12;
     var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot16 = var2;
+    var2 = 13;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.STAGE_APPLICATION_ID;
+    var _closure1_slot17 = var2;
+    var2 = 14;
+    var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var8 = var2.ActivityTypes;
-    var _closure1_slot16 = var8;
-    var8 = var2.GuildFeatures;
-    var _closure1_slot17 = var8;
-    var8 = var2.Permissions;
     var _closure1_slot18 = var8;
+    var8 = var2.GuildFeatures;
+    var _closure1_slot19 = var8;
+    var8 = var2.Permissions;
+    var _closure1_slot20 = var8;
     var2 = var2.RTCConnectionStates;
-    var _closure1_slot19 = var2;
+    var _closure1_slot21 = var2;
     var2 = null;
-    var _closure1_slot20 = var2;
-    var2 = 18;
+    var _closure1_slot22 = var2;
+    var2 = 21;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -375,7 +391,7 @@ case 0:
                 var1 = _closure1_slot7;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot6;
-                var1 = _closure1_slot21;
+                var1 = _closure1_slot23;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 11; continue _fun0004 }
 case 44:
@@ -413,9 +429,9 @@ case 45:
             var14 = _closure1_slot9;
             var13 = _closure1_slot10;
             var12 = _closure1_slot11;
-            var11 = _closure1_slot12;
-            var10 = _closure1_slot13;
-            var9 = _closure1_slot14;
+            var11 = _closure1_slot13;
+            var10 = _closure1_slot15;
+            var9 = _closure1_slot16;
             var15 = var8;
             var1 = var15[var7](var14, var13, var12, var11, var10, var9, var8);
             var1 = undefined;
@@ -428,7 +444,7 @@ case 45:
         var7 = 'getActivity';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot20;
+            var1 = _closure1_slot22;
             return var1;
         };
         var5['value'] = var6;
@@ -439,7 +455,7 @@ case 45:
     var8 = var2.bind(var1)(var8);
     var2 = 'StageChannelSelfRichPresenceStore';
     var8['displayName'] = var2;
-    var2 = 19;
+    var2 = 22;
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
@@ -453,7 +469,7 @@ case 45:
 case 0:
             var1 = arg1;
             var6 = var1.state;
-            var5 = _closure1_slot20;
+            var5 = _closure1_slot22;
             var1 = null;
             var7 = var1 == var5;
             var3 = undefined;
@@ -480,7 +496,7 @@ case 46:
 case 51:
             var1 = var4;
 case 50:
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot21;
             var4 = var4.RTC_CONNECTED;
             var4 = var6 !== var4;
             if(var4) { _fun0005_ip = 52; continue _fun0005 }
@@ -490,7 +506,7 @@ case 52:
             var1 = !var4;
             if(var4) { _fun0005_ip = 54; continue _fun0005 }
 case 45:
-            var2 = _closure1_slot22;
+            var2 = _closure1_slot24;
             var1 = var2.bind(var3)();
 case 54:
             return var1;
@@ -504,17 +520,17 @@ case 0:
             var7 = var1.voiceStates;
             var1 = undefined;
             var _closure2_slot0 = var1;
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot22;
             var5 = null;
             if(!(var5 != var3)) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
             var6 = _closure1_slot0;
             var8 = _closure1_slot3;
-            var3 = 14;
+            var3 = 16;
             var3 = var8[var3];
             var8 = var6.bind(var1)(var3);
             var6 = var8.unpackStageChannelParty;
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot22;
             var3 = var6.bind(var8)(var3);
             _closure2_slot0 = var3;
             var3 = var5 != var3;
@@ -534,7 +550,7 @@ case 58:
 case 57:
             if(!var3) { _fun0006_ip = 55; continue _fun0006 }
 case 52:
-            var2 = _closure1_slot22;
+            var2 = _closure1_slot24;
             var2 = var2.bind(var1)();
 case 55:
             return var1;
@@ -547,7 +563,7 @@ case 55:
     var12 = var2;
     var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 20;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -1503,6 +1503,7 @@ case 57:
                     var1['messageRenderHasMoreAfter'] = var2;
                     var1['firstAppActiveTime'] = var2;
                     var1['initialPage'] = var2;
+                    var1['initialGuildId'] = var2;
                     var1['earlyCacheInfo'] = var2;
                     var1['lazyCacheInfo'] = var2;
                     var2 = {};
@@ -1545,7 +1546,7 @@ case 33:
                 return var1;
             };
             var5['value'] = var1;
-            var1 = new Array(15);
+            var1 = new Array(16);
             var1[0] = var5;
             var5 = {};
             var7 = 'setInitialPage';
@@ -1560,6 +1561,18 @@ case 33:
             var5['value'] = var7;
             var1[1] = var5;
             var5 = {};
+            var7 = 'setInitialGuildId';
+            var5['key'] = var7;
+            var7 = function value(arg1) {
+                var2 = arg1;
+                var1 = this;
+                var1['initialGuildId'] = var2;
+                var1 = undefined;
+                return var1;
+            };
+            var5['value'] = var7;
+            var1[2] = var5;
+            var5 = {};
             var7 = 'setEarlyCacheInfo';
             var5['key'] = var7;
             var7 = function value(arg1) {
@@ -1570,7 +1583,7 @@ case 33:
                 return var1;
             };
             var5['value'] = var7;
-            var1[2] = var5;
+            var1[3] = var5;
             var5 = {};
             var7 = 'setLazyCacheInfo';
             var5['key'] = var7;
@@ -1582,7 +1595,7 @@ case 33:
                 return var1;
             };
             var5['value'] = var7;
-            var1[3] = var5;
+            var1[4] = var5;
             var5 = {};
             var7 = 'setInterstitial';
             var5['key'] = var7;
@@ -1596,7 +1609,7 @@ case 33:
                 return var1;
             };
             var5['value'] = var7;
-            var1[4] = var5;
+            var1[5] = var5;
             var5 = {};
             var7 = 'addLocalMessages';
             var5['key'] = var7;
@@ -1632,7 +1645,7 @@ case 78:
                 }
             };
             var5['value'] = var7;
-            var1[5] = var5;
+            var1[6] = var5;
             var5 = {};
             var7 = 'attachReadyPayloadProperties';
             var5['key'] = var7;
@@ -1644,7 +1657,7 @@ case 78:
                 return var1;
             };
             var5['value'] = var7;
-            var1[6] = var5;
+            var1[7] = var5;
             var5 = {};
             var7 = 'appStateChanged';
             var5['key'] = var7;
@@ -1686,7 +1699,7 @@ case 82:
                 }
             };
             var5['value'] = var7;
-            var1[7] = var5;
+            var1[8] = var5;
             var5 = {};
             var7 = 'recordRender';
             var5['key'] = var7;
@@ -1722,7 +1735,7 @@ case 83:
                 }
             };
             var5['value'] = var7;
-            var1[8] = var5;
+            var1[9] = var5;
             var5 = {};
             var7 = 'recordMessageRender';
             var5['key'] = var7;
@@ -1888,7 +1901,7 @@ case 87:
                 }
             };
             var5['value'] = var7;
-            var1[9] = var5;
+            var1[10] = var5;
             var5 = {};
             var7 = 'getStartTime';
             var5['key'] = var7;
@@ -1922,7 +1935,7 @@ case 108:
                 }
             };
             var5['value'] = var7;
-            var1[10] = var5;
+            var1[11] = var5;
             var5 = {};
             var7 = 'processNativeLogs';
             var5['key'] = var7;
@@ -2120,7 +2133,7 @@ case 109:
                 }
             };
             var5['value'] = var7;
-            var1[11] = var5;
+            var1[12] = var5;
             var5 = {};
             var7 = 'serializeAppStartupMetrics';
             var5['key'] = var7;
@@ -2136,7 +2149,7 @@ case 109:
                 return var1;
             };
             var5['value'] = var7;
-            var1[12] = var5;
+            var1[13] = var5;
             var5 = {};
             var7 = 'serializeWebPerfStartupMetrics';
             var5['key'] = var7;
@@ -2159,7 +2172,7 @@ case 109:
                 return var1;
             };
             var5['value'] = var7;
-            var1[13] = var5;
+            var1[14] = var5;
             var5 = {};
             var7 = 'serializeTTITracker';
             var5['key'] = var7;
@@ -2225,6 +2238,9 @@ case 31:
                     var3 = copyDataProperties(var14, var13);
                     var6 = var2.initialPage;
                     var3 = 'initial_page';
+                    var1[2] = var6;
+                    var6 = var2.initialGuildId;
+                    var3 = 'guild_id';
                     var1[2] = var6;
                     var6 = var2.loadIndex;
                     var3 = var6.serializeStart;
@@ -3040,7 +3056,7 @@ case 155:
                 }
             };
             var5['value'] = var6;
-            var1[14] = var5;
+            var1[15] = var5;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };

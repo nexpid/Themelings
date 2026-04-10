@@ -616,7 +616,7 @@ case 12:
             var6 = _closure1_slot2;
             var3 = 19;
             var3 = var6[var3];
-            var15 = var5.bind(var4)(var3);
+            var19 = var5.bind(var4)(var3);
             _fun0001_ip = 13; continue _fun0001;
 case 11:
             var5 = _closure1_slot1;
@@ -625,7 +625,7 @@ case 11:
             var3 = var6[var3];
             var5 = var5.bind(var4)(var3);
             var3 = var5.getUserAvatarSource;
-            var15 = var3.bind(var5)(var13);
+            var19 = var3.bind(var5)(var13);
 case 13:
             var1 = var1.state;
             var1 = var2[var1];
@@ -644,14 +644,14 @@ case 13:
             var5 = {};
             var7 = var14.avatarBackground;
             var5['style'] = var7;
-            var8 = _closure1_slot1;
+            var15 = _closure1_slot0;
             var18 = _closure1_slot2;
             var11 = 20;
             var7 = var18[var11];
-            var8 = var8.bind(var4)(var7);
+            var7 = var15.bind(var4)(var7);
+            var8 = var7.Avatar;
             var7 = {};
-            var7['source'] = var15;
-            var15 = _closure1_slot0;
+            var7['source'] = var19;
             var11 = var18[var11];
             var11 = var15.bind(var4)(var11);
             var11 = var11.AvatarSizes;

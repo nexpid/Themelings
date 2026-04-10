@@ -804,15 +804,15 @@ case 49:
             _fun0001_ip = 50; continue _fun0001;
 case 36:
             var12 = _closure1_slot9;
-            var11 = _closure1_slot1;
+            var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var10 = 40;
             var10 = var17[var10];
-            var11 = var11.bind(var4)(var10);
+            var10 = var16.bind(var4)(var10);
+            var11 = var10.EmptyState;
             var10 = {};
             var13 = var13.empty;
             var10['style'] = var13;
-            var16 = _closure1_slot0;
             var13 = 12;
             var14 = var17[var13];
             var14 = var16.bind(var4)(var14);

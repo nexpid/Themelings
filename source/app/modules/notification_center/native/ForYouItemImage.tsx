@@ -248,12 +248,12 @@ case 9:
                         return var1;
                     };
                     var2['onPress'] = var6;
-                    var7 = _closure1_slot1;
-                    var12 = 24;
+                    var12 = 17;
                     var6 = var13[var12];
-                    var7 = var7.bind(var4)(var6);
+                    var6 = var11.bind(var4)(var6);
+                    var7 = var6.Avatar;
                     var6 = {};
-                    var9 = 25;
+                    var9 = 24;
                     var9 = var13[var9];
                     var15 = var11.bind(var4)(var9);
                     var14 = var15.getAvatarSource;
@@ -451,11 +451,12 @@ case 37:
             if(!(var8 == var15)) { _fun0002_ip = 38; continue _fun0002 }
 case 36:
             var13 = _closure1_slot8;
-            var12 = _closure1_slot1;
+            var12 = _closure1_slot0;
             var14 = _closure1_slot2;
             var11 = 17;
             var11 = var14[var11];
-            var12 = var12.bind(var4)(var11);
+            var11 = var12.bind(var4)(var11);
+            var12 = var11.Icon;
             var11 = {};
             var14 = var3.icon;
             var11['source'] = var14;
@@ -467,7 +468,7 @@ case 38:
             var14 = _closure1_slot8;
             var13 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var12 = 27;
+            var12 = 26;
             var12 = var16[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
@@ -506,7 +507,7 @@ case 21:
             var3 = var15[var3];
             var11 = var14.bind(var4)(var3);
             var3 = {};
-            var13 = 26;
+            var13 = 25;
             var13 = var15[var13];
             var13 = var14.bind(var4)(var13);
             var3['source'] = var13;
@@ -553,12 +554,14 @@ case 48:
             if(!(var11 !== var3)) { _fun0002_ip = 49; continue _fun0002 }
 case 50:
             var12 = _closure1_slot8;
-            var15 = _closure1_slot1;
+            var11 = _closure1_slot0;
             var16 = _closure1_slot2;
             var3 = 17;
             var3 = var16[var3];
-            var11 = var15.bind(var4)(var3);
+            var3 = var11.bind(var4)(var3);
+            var11 = var3.Icon;
             var3 = {};
+            var15 = _closure1_slot1;
             var13 = 14;
             var13 = var16[var13];
             var13 = var15.bind(var4)(var13);
@@ -586,17 +589,18 @@ case 51:
             _fun0002_ip = 52; continue _fun0002;
 case 46:
             var13 = _closure1_slot8;
-            var16 = _closure1_slot1;
+            var18 = _closure1_slot0;
             var17 = _closure1_slot2;
             var15 = 17;
             var3 = var17[var15];
-            var12 = var16.bind(var4)(var3);
+            var3 = var18.bind(var4)(var3);
+            var12 = var3.Icon;
             var3 = {};
-            var18 = 18;
-            var18 = var17[var18];
-            var18 = var16.bind(var4)(var18);
-            var3['source'] = var18;
-            var18 = _closure1_slot0;
+            var16 = _closure1_slot1;
+            var19 = 18;
+            var19 = var17[var19];
+            var19 = var16.bind(var4)(var19);
+            var3['source'] = var19;
             var15 = var17[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.IconSizes;
@@ -706,13 +710,15 @@ case 66:
             _fun0002_ip = 17; continue _fun0002;
 case 13:
             var9 = _closure1_slot8;
-            var11 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var8 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var3 = 17;
-            var3 = var8[var3];
-            var8 = var11.bind(var4)(var3);
+            var3 = var11[var3];
+            var3 = var8.bind(var4)(var3);
+            var8 = var3.Icon;
             var3 = {};
             var12 = var10.icon_name;
+            var11 = _closure1_slot1;
             var10 = 'icHighlight';
             if(!(var10 !== var12)) { _fun0002_ip = 67; continue _fun0002 }
 case 68:
@@ -747,7 +753,7 @@ case 17:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 28;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

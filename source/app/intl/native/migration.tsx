@@ -63,11 +63,12 @@ case 2:
             };
 case 7:
             var3 = _closure1_slot4;
-            var2 = _closure1_slot1;
+            var2 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 7;
             var1 = var8[var1];
-            var2 = var2.bind(var4)(var1);
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.LegacyText;
             var1 = {'accessible': true, 'accessibilityRole': 'link'};
             var1['onPress'] = var7;
             var6 = var6.link;

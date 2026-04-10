@@ -388,11 +388,12 @@ case 40:
             _fun0002_ip = 41; continue _fun0002;
 case 23:
             var13 = _closure1_slot10;
-            var12 = _closure1_slot1;
+            var12 = _closure1_slot0;
             var14 = _closure1_slot2;
             var3 = 19;
             var3 = var14[var3];
-            var12 = var12.bind(var4)(var3);
+            var3 = var12.bind(var4)(var3);
+            var12 = var3.LiveTag;
             var3 = {};
             var2 = var13.bind(var4)(var12, var3);
 case 41:

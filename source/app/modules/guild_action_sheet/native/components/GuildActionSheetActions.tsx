@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var19 = var1.guild;
+            var18 = var1.guild;
             var16 = var1.user;
             var1 = _closure1_slot22;
             var4 = undefined;
@@ -22,7 +22,7 @@ case 0:
             var1 = var6[var1];
             var7 = var2.bind(var4)(var1);
             var3 = var7.getNickname;
-            var1 = var19.id;
+            var1 = var18.id;
             var15 = var3.bind(var7)(var1, var4, var16);
             var7 = {};
             var1 = _closure1_slot15;
@@ -44,7 +44,7 @@ case 0:
             var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var1['guild'] = var19;
+            var1['guild'] = var18;
             var1['analyticsLocation'] = var7;
             var1['analyticsLocations'] = var3;
             var1 = var2.bind(var4)(var1);
@@ -61,7 +61,7 @@ case 0:
             var6 = var7.bind(var4)(var6);
             var8 = var6.intl;
             var7 = var8.string;
-            var10 = var19.features;
+            var10 = var18.features;
             var9 = var10.has;
             var6 = _closure1_slot14;
             var6 = var6.HUB;
@@ -85,7 +85,7 @@ case 4:
             if(!(var7 != var16)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var8 = var16.hasAvatarForGuild;
-            var7 = var19.id;
+            var7 = var18.id;
             var7 = var8.bind(var16)(var7);
             var6 = var15;
             if(!var7) { _fun0001_ip = 5; continue _fun0001 }
@@ -95,28 +95,29 @@ case 7:
             var7 = {};
             var10 = var14.identitySublabel;
             var7['style'] = var10;
-            var18 = _closure1_slot20;
-            var12 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var20 = 32;
-            var10 = var17[var20];
-            var13 = var12.bind(var4)(var10);
-            var10 = {};
-            var21 = _closure1_slot0;
-            var20 = var17[var20];
-            var20 = var21.bind(var4)(var20);
-            var20 = var20.AvatarSizes;
-            var20 = var20.SIZE_16;
-            var10['size'] = var20;
-            var20 = var14.guildServerAvatar;
-            var10['style'] = var20;
-            var10['user'] = var16;
-            var19 = var19.id;
-            var10['guildId'] = var19;
-            var13 = var18.bind(var4)(var13, var10);
-            var10 = new Array(2);
-            var10[0] = var13;
             var13 = _closure1_slot20;
+            var20 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var19 = 32;
+            var10 = var17[var19];
+            var10 = var20.bind(var4)(var10);
+            var12 = var10.Avatar;
+            var10 = {};
+            var19 = var17[var19];
+            var19 = var20.bind(var4)(var19);
+            var19 = var19.AvatarSizes;
+            var19 = var19.SIZE_16;
+            var10['size'] = var19;
+            var19 = var14.guildServerAvatar;
+            var10['style'] = var19;
+            var10['user'] = var16;
+            var18 = var18.id;
+            var10['guildId'] = var18;
+            var12 = var13.bind(var4)(var12, var10);
+            var10 = new Array(2);
+            var10[0] = var12;
+            var13 = _closure1_slot20;
+            var12 = _closure1_slot1;
             var11 = 33;
             var11 = var17[var11];
             var12 = var12.bind(var4)(var11);

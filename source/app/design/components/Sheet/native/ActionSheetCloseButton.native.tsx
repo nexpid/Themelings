@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var5 = var1.onPress;
-            var10 = var1.variant;
+            var9 = var1.variant;
             var4 = _closure1_slot3;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -58,33 +58,41 @@ case 0:
             var1 = var6.bind(var3)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
-            var9 = 'button';
-            var1['accessibilityRole'] = var9;
-            var9 = 3;
-            var11 = var7[var9];
+            var10 = 'button';
+            var1['accessibilityRole'] = var10;
+            var10 = 3;
+            var11 = var7[var10];
             var11 = var6.bind(var3)(var11);
             var12 = var11.intl;
             var11 = var12.string;
-            var9 = var7[var9];
-            var9 = var6.bind(var3)(var9);
-            var9 = var9.t;
-            var9 = var9.cpT0Cq;
-            var9 = var11.bind(var12)(var9);
-            var1['accessibilityLabel'] = var9;
-            var9 = _closure1_slot5;
-            var1['hitSlop'] = var9;
-            var9 = _closure1_slot4;
-            var1['androidRippleConfig'] = var9;
+            var10 = var7[var10];
+            var10 = var6.bind(var3)(var10);
+            var10 = var10.t;
+            var10 = var10.cpT0Cq;
+            var10 = var11.bind(var12)(var10);
+            var1['accessibilityLabel'] = var10;
+            var10 = _closure1_slot5;
+            var1['hitSlop'] = var10;
+            var10 = _closure1_slot4;
+            var1['androidRippleConfig'] = var10;
             var1['onPress'] = var5;
             var5 = 4;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
             var6 = var5.XSmallIcon;
             var5 = {};
-            var9 = 'overlay';
-            var7 = undefined;
-            if(!(var9 === var10)) { _fun0001_ip = 2; continue _fun0001 }
+            var7 = 'overlay';
+            if(!(var7 !== var9)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var7 = 5;
+            var7 = var10[var7];
+            var7 = var9.bind(var3)(var7);
+            var7 = var7.colors;
+            var7 = var7.ICON_STRONG;
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var8 = 5;
@@ -92,7 +100,7 @@ case 3:
             var8 = var9.bind(var3)(var8);
             var8 = var8.colors;
             var7 = var8.WHITE;
-case 2:
+case 4:
             var5['color'] = var7;
             var5 = var4.bind(var3)(var6, var5);
             var1['children'] = var5;

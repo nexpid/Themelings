@@ -263,9 +263,10 @@ case 28:
                         var7 = var11.bind(var12)(var7);
                         var7 = 9;
                         var7 = var10[var7];
-                        var8 = var8.bind(var5)(var7);
-                        var7 = var8.announcePendingAvatarChange;
-                        var7 = var7.bind(var8)(var9);
+                        var10 = var8.bind(var5)(var7);
+                        var8 = var10.announcePendingAvatarChange;
+                        var7 = 'set';
+                        var7 = var8.bind(var10)(var7);
                         _fun0001_ip = 23; continue _fun0001;
 case 27:
                         var8 = _closure1_slot0;

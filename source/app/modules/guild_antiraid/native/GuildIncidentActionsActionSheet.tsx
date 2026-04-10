@@ -322,10 +322,10 @@ case 4:
             var23 = var23.oCYAc7;
             var23 = var24.bind(var26)(var23);
             var5['title'] = var23;
-            var24 = _closure1_slot1;
             var26 = 14;
             var23 = var10[var26];
-            var24 = var24.bind(var4)(var23);
+            var23 = var12.bind(var4)(var23);
+            var24 = var23.BetaTag;
             var23 = {};
             var26 = var10[var26];
             var26 = var12.bind(var4)(var26);

@@ -118,13 +118,14 @@ case 2:
         var12 = var13.bind(var14)(var12);
         var5['accessibilityLabel'] = var12;
         var14 = _closure1_slot7;
-        var23 = _closure1_slot1;
         var15 = 9;
         var12 = var22[var15];
-        var13 = var23.bind(var4)(var12);
+        var12 = var19.bind(var4)(var12);
+        var13 = var12.Icon;
         var12 = {};
         var16 = var10.closeButtonIcon;
         var12['style'] = var16;
+        var23 = _closure1_slot1;
         var16 = 10;
         var16 = var22[var16];
         var16 = var23.bind(var4)(var16);

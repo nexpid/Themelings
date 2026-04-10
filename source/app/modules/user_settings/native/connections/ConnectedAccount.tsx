@@ -1515,22 +1515,22 @@ case 73:
                 if(!(var3 !== var4)) { _fun0012_ip = 75; continue _fun0012 }
 case 76:
                 var6 = _closure1_slot19;
-                var14 = _closure1_slot0;
+                var15 = _closure1_slot0;
                 var16 = _closure1_slot2;
                 var3 = 37;
                 var3 = var16[var3];
-                var3 = var14.bind(var5)(var3);
+                var3 = var15.bind(var5)(var3);
                 var4 = var3.PressableOpacity;
                 var3 = {};
                 var7 = 'button';
                 var3['accessibilityRole'] = var7;
                 var7 = 20;
                 var8 = var16[var7];
-                var8 = var14.bind(var5)(var8);
+                var8 = var15.bind(var5)(var8);
                 var9 = var8.intl;
                 var8 = var9.string;
                 var7 = var16[var7];
-                var7 = var14.bind(var5)(var7);
+                var7 = var15.bind(var5)(var7);
                 var7 = var7.t;
                 var7 = var7.wzzjk9;
                 var7 = var8.bind(var9)(var7);
@@ -1575,19 +1575,21 @@ case 76:
                 var7 = var11.metadataRefreshButton;
                 var3['style'] = var7;
                 var9 = _closure1_slot19;
-                var15 = _closure1_slot1;
-                var14 = 38;
+                var14 = 34;
                 var7 = var16[var14];
-                var8 = var15.bind(var5)(var7);
+                var7 = var15.bind(var5)(var7);
+                var8 = var7.Icon;
                 var7 = {};
                 var17 = var11.metadataRefreshIcon;
                 var7['style'] = var17;
                 var14 = var16[var14];
                 var14 = var15.bind(var5)(var14);
+                var14 = var14.Icon;
                 var14 = var14.Sizes;
                 var14 = var14.SMALL;
                 var7['size'] = var14;
-                var14 = 39;
+                var15 = _closure1_slot1;
+                var14 = 38;
                 var14 = var16[var14];
                 var14 = var15.bind(var5)(var14);
                 var7['source'] = var14;
@@ -2011,18 +2013,20 @@ case 0:
                 var1 = var16.props;
                 var21 = var1.account;
                 var13 = var1.theme;
-                var7 = _closure1_slot1;
+                var2 = _closure1_slot1;
                 var14 = _closure1_slot2;
                 var1 = 23;
                 var1 = var14[var1];
-                var3 = var7.bind(var4)(var1);
+                var3 = var2.bind(var4)(var1);
                 var2 = var3.get;
                 var1 = var21.type;
                 var11 = var2.bind(var3)(var1);
                 var3 = _closure1_slot19;
-                var8 = 38;
+                var12 = _closure1_slot0;
+                var8 = 34;
                 var1 = var14[var8];
-                var2 = var7.bind(var4)(var1);
+                var1 = var12.bind(var4)(var1);
+                var2 = var1.Icon;
                 var1 = {};
                 var5 = true;
                 var1['accessible'] = var5;
@@ -2031,28 +2035,28 @@ case 0:
                 var6 = var18.platformIcon;
                 var1['style'] = var6;
                 var6 = var14[var8];
-                var6 = var7.bind(var4)(var6);
+                var6 = var12.bind(var4)(var6);
+                var6 = var6.Icon;
                 var6 = var6.Sizes;
                 var6 = var6.LARGE;
                 var1['size'] = var6;
-                var12 = _closure1_slot0;
-                var6 = 40;
+                var6 = 39;
                 var6 = var14[var6];
                 var10 = var12.bind(var4)(var6);
                 var7 = var10.makeSource;
-                var6 = 41;
+                var6 = 40;
                 var6 = var14[var6];
                 var12 = var12.bind(var4)(var6);
                 var6 = var12.isThemeDark;
                 var6 = var6.bind(var12)(var13);
                 var11 = var11.icon;
-                if(var6) { _fun0016_ip = 67; continue _fun0016 }
-case 86:
-                var6 = var11.lightPNG;
-                _fun0016_ip = 87; continue _fun0016;
-case 67:
-                var6 = var11.darkPNG;
+                if(var6) { _fun0016_ip = 86; continue _fun0016 }
 case 87:
+                var6 = var11.lightPNG;
+                _fun0016_ip = 88; continue _fun0016;
+case 86:
+                var6 = var11.darkPNG;
+case 88:
                 var6 = var7.bind(var10)(var6);
                 var1['source'] = var6;
                 var1['disableColor'] = var5;
@@ -2060,7 +2064,7 @@ case 87:
                 var3 = _closure1_slot19;
                 var17 = _closure1_slot0;
                 var22 = _closure1_slot2;
-                var1 = 42;
+                var1 = 41;
                 var1 = var22[var1];
                 var1 = var17.bind(var4)(var1);
                 var2 = var1.Stack;
@@ -2090,13 +2094,14 @@ case 87:
                 var10 = {'top': 5, 'left': 5, 'bottom': 5, 'right': 5};
                 var5['hitSlop'] = var10;
                 var11 = _closure1_slot19;
-                var13 = _closure1_slot1;
                 var8 = var22[var8];
-                var10 = var13.bind(var4)(var8);
+                var8 = var17.bind(var4)(var8);
+                var10 = var8.Icon;
                 var8 = {};
                 var12 = var18.deleteConnectionIcon;
                 var8['style'] = var12;
-                var12 = 43;
+                var13 = _closure1_slot1;
+                var12 = 42;
                 var12 = var22[var12];
                 var12 = var13.bind(var4)(var12);
                 var8['source'] = var12;
@@ -2129,7 +2134,7 @@ case 87:
                 var18 = var18.connectedAccountTopContainer;
                 var7['style'] = var18;
                 var18 = _closure1_slot19;
-                var9 = 44;
+                var9 = 43;
                 var9 = var22[var9];
                 var9 = var17.bind(var4)(var9);
                 var17 = var9.TableRow;
@@ -2175,12 +2180,12 @@ case 87:
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var4 = 45;
+    var4 = 44;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ThemeContext;
     var2['contextType'] = var4;
-    var4 = 46;
+    var4 = 45;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

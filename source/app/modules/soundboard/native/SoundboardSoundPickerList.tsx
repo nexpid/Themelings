@@ -613,12 +613,14 @@ case 42:
                     return var1;
 case 40:
                     var3 = _closure1_slot7;
-                    var8 = _closure1_slot1;
+                    var2 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var1 = 18;
                     var1 = var9[var1];
-                    var2 = var8.bind(var4)(var1);
+                    var1 = var2.bind(var4)(var1);
+                    var2 = var1.Icon;
                     var1 = {};
+                    var8 = _closure1_slot1;
                     var6 = 20;
                     var6 = var9[var6];
                     var6 = var8.bind(var4)(var6);
@@ -630,12 +632,14 @@ case 40:
                     return var1;
 case 58:
                     var3 = _closure1_slot7;
-                    var8 = _closure1_slot1;
+                    var2 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var1 = 18;
                     var1 = var9[var1];
-                    var2 = var8.bind(var4)(var1);
+                    var1 = var2.bind(var4)(var1);
+                    var2 = var1.Icon;
                     var1 = {};
+                    var8 = _closure1_slot1;
                     var6 = 19;
                     var6 = var9[var6];
                     var6 = var8.bind(var4)(var6);

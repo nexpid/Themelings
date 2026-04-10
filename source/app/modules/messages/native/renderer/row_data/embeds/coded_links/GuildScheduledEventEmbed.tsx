@@ -20,7 +20,7 @@ case 0:
             var34 = var1.recurrenceId;
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var5[var1];
             var11 = undefined;
             var1 = var3.bind(var11)(var1);
@@ -48,23 +48,23 @@ case 4:
 case 7:
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var5 = 11;
+            var5 = 12;
             var5 = var10[var5];
             var6 = var6.bind(var11)(var5);
             var5 = var6.getAssetUriForEmbed;
             var18 = var5.bind(var6)(var7);
 case 6:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 12;
-            var5 = var10[var5];
-            var6 = var7.bind(var11)(var5);
+            var10 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 13;
+            var5 = var7[var5];
+            var6 = var10.bind(var11)(var5);
             var5 = var6.isGuildEventInvitable;
             var15 = var5.bind(var6)(var2);
             var5 = _closure1_slot6;
             var35 = var5.bind(var11)(var2);
             var24 = var2.entity_type;
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot14;
             var23 = var5.EXTERNAL;
             var12 = _closure1_slot7;
             var6 = var12.isInterestedInEventRecurrence;
@@ -73,30 +73,30 @@ case 6:
             var5 = var2.name;
             var30 = var2.description;
             var19 = var2.entity_type;
-            var6 = _closure1_slot13;
+            var6 = _closure1_slot14;
             var17 = var6.STAGE_INSTANCE;
-            var6 = 13;
-            var6 = var10[var6];
-            var12 = var7.bind(var11)(var6);
-            var6 = var12.getEventSchedule;
-            var12 = var6.bind(var12)(var2, var34);
             var6 = 14;
-            var6 = var10[var6];
-            var10 = var7.bind(var11)(var6);
-            var7 = var10.getEventTimeData;
-            var14 = var9 == var12;
-            var6 = undefined;
-            if(var14) { _fun0001_ip = 8; continue _fun0001 }
+            var6 = var7[var6];
+            var12 = var10.bind(var11)(var6);
+            var6 = var12.getEventSchedule;
+            var14 = var6.bind(var12)(var2, var34);
+            var6 = 15;
+            var7 = var7[var6];
+            var12 = var10.bind(var11)(var7);
+            var10 = var12.getEventTimeData;
+            var20 = var9 == var14;
+            var7 = undefined;
+            if(var20) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var14 = var12.startTime;
-            var12 = var14.toISOString;
-            var6 = var12.bind(var14)();
+            var20 = var14.startTime;
+            var14 = var20.toISOString;
+            var7 = var14.bind(var20)();
 case 8:
-            var20 = var7.bind(var10)(var6);
+            var20 = var10.bind(var12)(var7);
             var7 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var6 = 15;
-            var10 = var25[var6];
+            var10 = 16;
+            var10 = var25[var10];
             var14 = var7.bind(var11)(var10);
             var12 = var14.getGuildScheduledEventHeaderProps;
             var10 = {};
@@ -120,7 +120,7 @@ case 8:
             var20['backgroundColor'] = var17;
             var20['thumbnailCornerRadius'] = var6;
             var20['embedCanBeTapped'] = var28;
-            var36 = 16;
+            var36 = 17;
             var6 = var25[var36];
             var6 = var7.bind(var11)(var6);
             var19 = var6.intl;
@@ -130,19 +130,19 @@ case 8:
             var6 = var6.t;
             var6 = var6.DlcqlU;
             var32 = var17.bind(var19)(var6);
-            var17 = 11;
+            var17 = 12;
             var6 = var25[var17];
             var26 = var7.bind(var11)(var6);
             var19 = var26.getAssetUriForEmbed;
             var21 = _closure1_slot1;
-            var6 = 17;
+            var6 = 18;
             var6 = var25[var6];
             var6 = var21.bind(var11)(var6);
             var31 = var19.bind(var26)(var6);
             var6 = var25[var17];
             var19 = var7.bind(var11)(var6);
             var7 = var19.getAssetUriForEmbed;
-            var6 = 18;
+            var6 = 19;
             var6 = var25[var6];
             var6 = var21.bind(var11)(var6);
             var19 = var7.bind(var19)(var6);
@@ -150,12 +150,12 @@ case 8:
 case 11:
             var26 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var7 = 19;
+            var7 = 20;
             var7 = var6[var7];
             var25 = var26.bind(var11)(var7);
             var21 = var25.processColorOrThrow;
             var27 = _closure1_slot1;
-            var7 = 20;
+            var7 = 21;
             var7 = var6[var7];
             var7 = var27.bind(var11)(var7);
             var7 = var7.unsafe_rawColors;
@@ -195,7 +195,7 @@ case 15:
             var38 = var35.bind(var11)(var31);
             var35 = var38.getAssetUriForEmbed;
             var39 = _closure1_slot1;
-            var31 = 21;
+            var31 = 22;
             var31 = var40[var31];
             var31 = var39.bind(var11)(var31);
             var25 = var35.bind(var38)(var31);
@@ -250,7 +250,7 @@ case 20:
 case 23:
             var23 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var15 = 22;
+            var15 = 23;
             var15 = var24[var15];
             var24 = var23.bind(var11)(var15);
             var23 = var24.parseToAST;
@@ -261,34 +261,42 @@ case 23:
 case 22:
             var15 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var1 = 23;
+            var1 = 24;
             var1 = var23[var1];
             var15 = var15.bind(var11)(var1);
             var1 = var15.getLocationFromEvent;
             var15 = var1.bind(var15)(var2);
             if(!(var9 == var15)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var23 = var9 == var29;
+            var23 = var9 != var29;
             var1 = undefined;
-            if(var23) { _fun0001_ip = 26; continue _fun0001 }
+            if(!var23) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var1 = var29.name;
+            var24 = _closure1_slot0;
+            var30 = _closure1_slot2;
+            var23 = 25;
+            var23 = var30[var23];
+            var31 = var24.bind(var11)(var23);
+            var30 = var31.computeChannelName;
+            var24 = _closure1_slot12;
+            var23 = _closure1_slot11;
+            var1 = var30.bind(var31)(var29, var24, var23);
 case 26:
             var15 = var1;
 case 24:
             var24 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var23 = 24;
+            var23 = 26;
             var23 = var1[var23];
             var24 = var24.bind(var11)(var23);
             var23 = var24.getEventLocationIconSource;
             var24 = var23.bind(var24)(var2, var29, var28);
-            var29 = _closure1_slot11;
+            var29 = _closure1_slot12;
             var28 = var29.getUser;
             var23 = var2.creator_id;
             var23 = var28.bind(var29)(var23);
             var28 = _closure1_slot1;
-            var29 = 25;
+            var29 = 27;
             var1 = var1[var29];
             var32 = var28.bind(var11)(var1);
             var31 = var32.getGuildEventUserCounts;
@@ -345,7 +353,7 @@ case 33:
             var22 = var21.bind(var11)(var20);
             var21 = var22.getAssetUriForEmbed;
             var25 = _closure1_slot1;
-            var20 = 26;
+            var20 = 28;
             var20 = var26[var20];
             var20 = var25.bind(var11)(var20);
             var21 = var21.bind(var22)(var20);
@@ -390,7 +398,7 @@ case 40:
 case 39:
             var15 = 'creatorAvatar';
             var1[14] = var19;
-            var15 = _closure1_slot12;
+            var15 = _closure1_slot13;
             var19 = var15.GUILD_SCHEDULED_EVENT;
             var15 = 'extendedType';
             var1[14] = var19;
@@ -446,7 +454,7 @@ case 47:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -494,22 +502,26 @@ case 47:
     var _closure1_slot11 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.CodedLinkExtendedType;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot12 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.GuildScheduledEventEntityTypes;
+    var4 = var4.CodedLinkExtendedType;
     var _closure1_slot13 = var4;
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.InviteTypes;
+    var4 = var4.GuildScheduledEventEntityTypes;
     var _closure1_slot14 = var4;
-    var4 = {};
+    var4 = 10;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.InviteTypes;
     var _closure1_slot15 = var4;
-    var4 = 29;
+    var4 = {};
+    var _closure1_slot16 = var4;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -563,7 +575,7 @@ case 57:
 case 59:
             var4 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 25;
+            var1 = 27;
             var1 = var10[var1];
             var12 = var4.bind(var6)(var1);
             var10 = var12.getGuildEventUserCounts;
@@ -571,7 +583,7 @@ case 59:
             var1 = new Array(0);
             var1 = var10.bind(var12)(var5, var4, var1);
 case 58:
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var1 = {};
             var1['channel'] = var11;
             var1['guildEvent'] = var9;
@@ -592,7 +604,7 @@ case 62:
 case 60:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var9 = 28;
+            var9 = 30;
             var9 = var11[var9];
             var11 = var10.bind(var6)(var9);
             var10 = var11.fromInviteGuild;
@@ -605,7 +617,7 @@ case 64:
             var7 = var7.type;
             if(!(var2 == var7)) { _fun0002_ip = 65; continue _fun0002 }
 case 66:
-            var8 = _closure1_slot14;
+            var8 = _closure1_slot15;
             var7 = var8.GUILD;
 case 65:
             var1['type'] = var7;
@@ -618,7 +630,7 @@ case 56:
 case 68:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 27;
+            var3 = 29;
             var3 = var7[var3];
             var4 = var4.bind(var6)(var3);
             var3 = var4.fetchGuildEventsForGuild;
@@ -655,7 +667,7 @@ case 0:
 case 53:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var6 = 14;
+            var6 = 15;
             var6 = var9[var6];
             var8 = var8.bind(var7)(var6);
             var6 = var8.getNextRecurrenceIdInEvent;
@@ -675,7 +687,7 @@ case 71:
 case 72:
             var6 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var5 = 25;
+            var5 = 27;
             var5 = var9[var5];
             var11 = var6.bind(var7)(var5);
             var9 = var11.getGuildEventUserCounts;
@@ -694,7 +706,7 @@ case 75:
             var6 = var9.getUserCount;
             var5 = var10.id;
             var9 = var6.bind(var9)(var5, var8);
-            var6 = _closure1_slot16;
+            var6 = _closure1_slot17;
             var5 = {};
             var13 = _closure1_slot9;
             var12 = var13.getChannel;
@@ -714,27 +726,27 @@ case 76:
             var5['guild'] = var9;
             var9 = arg2;
             var5['theme'] = var9;
-            var9 = _closure1_slot14;
+            var9 = _closure1_slot15;
             var9 = var9.GUILD;
             var5['type'] = var9;
             var5['recurrenceId'] = var8;
             var5 = var6.bind(var7)(var5);
             return var5;
 case 68:
-            var5 = _closure1_slot15;
+            var5 = _closure1_slot16;
             var5 = var5[var4];
             if(var5) { _fun0003_ip = 78; continue _fun0003 }
 case 79:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var5 = 27;
+            var5 = 29;
             var5 = var8[var5];
             var6 = var6.bind(var7)(var5);
             var5 = var6.fetchGuildEventsForGuild;
             var7 = var5.bind(var6)(var4);
             var6 = var7.then;
             var5 = function() {
-                var2 = _closure1_slot15;
+                var2 = _closure1_slot16;
                 var1 = _closure2_slot0;
                 var1 = delete var2[var1];
                 return var1;
@@ -742,13 +754,13 @@ case 79:
             var6 = var6.bind(var7)(var5);
             var5 = var6.catch;
             var3 = function() {
-                var2 = _closure1_slot15;
+                var2 = _closure1_slot16;
                 var1 = _closure2_slot0;
                 var1 = delete var2[var1];
                 return var1;
             };
             var3 = var5.bind(var6)(var3);
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot16;
             var2 = true;
             var3[var4] = var2;
 case 78:

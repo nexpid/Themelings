@@ -163,14 +163,14 @@ case 19:
                     var5 = var5.bind(var23)(var22);
                     var5 = var7 != var5;
                     if(!var5) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+case 4:
                     var6 = var7 != var6;
-                    if(!var6) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-                    var6 = var7 != var21;
+                    if(!var6) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
-                    if(!var6) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+                    var6 = var7 != var21;
+case 21:
+                    if(!var6) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
                     var24 = _closure1_slot2;
                     var23 = _closure1_slot3;
                     var7 = 6;
@@ -204,19 +204,19 @@ case 25:
                     var3['onConfirmActivityLaunchChecksAlertOpen'] = var9;
                     var3 = var7.bind(var8)(var3);
                     SaveGenerator(address=345);
-case 26:
+case 25:
                     return var3;
-case 27:
+case 26:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
                     var6 = var3;
-                    if(var7) { _fun0002_ip = 28; continue _fun0002 }
-case 24:
+                    if(var7) { _fun0002_ip = 27; continue _fun0002 }
+case 23:
                     var5 = var6;
 case 20:
                     var4 = var5;
 case 18:
                     return var4;
-case 28:
+case 27:
                     return var3;
 case 16:
                     return var2;

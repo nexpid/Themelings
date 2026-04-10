@@ -150,10 +150,10 @@ case 0:
                     return var1;
                 };
                 var1['onPress'] = var7;
-                var8 = _closure1_slot1;
                 var7 = 13;
                 var7 = var16[var7];
-                var8 = var8.bind(var3)(var7);
+                var7 = var15.bind(var3)(var7);
+                var8 = var7.Icon;
                 var7 = {};
                 var11 = 14;
                 var11 = var16[var11];

@@ -3,8 +3,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
-    var1 = metroImportDefault;
-    var _closure1_slot0 = var1;
+    var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -95,7 +94,8 @@ case 7:
                     var6 = 2;
                     var6 = var9[var6];
                     var9 = undefined;
-                    var8 = var8.bind(var9)(var6);
+                    var6 = var8.bind(var9)(var6);
+                    var8 = var6.Spacer;
                     var6 = {};
                     var11 = _closure2_slot0;
                     var6['size'] = var11;

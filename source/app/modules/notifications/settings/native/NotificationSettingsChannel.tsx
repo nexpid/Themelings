@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['screenContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -83,10 +83,14 @@ case 0:
             var3 = var3.h850Ss;
             var3 = var5.bind(var8)(var3);
             var _closure2_slot1 = var3;
-            var3 = var14.channel;
-            var3 = var3.name;
-            var _closure2_slot2 = var3;
+            var5 = _closure1_slot1;
             var3 = 8;
+            var3 = var7[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var14.channel;
+            var3 = var5.bind(var4)(var3);
+            var _closure2_slot2 = var3;
+            var3 = 9;
             var3 = var7[var3];
             var5 = var2.bind(var4)(var3);
             var3 = var5.useNavigation;
@@ -116,7 +120,7 @@ case 0:
                         var4 = _closure1_slot6;
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 9;
+                        var1 = 10;
                         var1 = var3[var1];
                         var3 = undefined;
                         var1 = var2.bind(var3)(var1);
@@ -140,7 +144,7 @@ case 3:
                     var1 = {};
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var5 = 9;
+                    var5 = 10;
                     var6 = var6[var5];
                     var5 = undefined;
                     var6 = var7.bind(var5)(var6);
@@ -188,7 +192,7 @@ case 2:
             var3 = function() {
                 var4 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var3 = var9[var1];
                 var1 = undefined;
                 var7 = var4.bind(var1)(var3);
@@ -202,7 +206,7 @@ case 2:
                 var8 = false;
                 var3['muted'] = var8;
                 var8 = _closure1_slot0;
-                var2 = 11;
+                var2 = 12;
                 var2 = var9[var2];
                 var2 = var8.bind(var1)(var2);
                 var2 = var2.NotificationLabels;
@@ -214,7 +218,7 @@ case 2:
                 return var1;
             };
             var11 = var9.bind(var11)(var3, var8);
-            var3 = 12;
+            var3 = 13;
             var3 = var7[var3];
             var9 = var2.bind(var4)(var3);
             var8 = var9.useStateFromStoresObject;
@@ -243,7 +247,7 @@ case 2:
             };
             var12 = var8.bind(var9)(var3, var1);
             var3 = _closure1_slot7;
-            var1 = 13;
+            var1 = 14;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Form;
@@ -256,7 +260,7 @@ case 5:
             var9 = _closure1_slot6;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var15 = 14;
+            var15 = 15;
             var5 = var18[var15];
             var5 = var17.bind(var4)(var5);
             var8 = var5.NotificationSettingsMuteBanner;
@@ -289,7 +293,7 @@ case 4:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var7 = 15;
+            var7 = 16;
             var7 = var11[var7];
             var7 = var8.bind(var4)(var7);
             var12 = var7.NotificationSettingsChannelPresets;
@@ -298,7 +302,7 @@ case 4:
             var7['channel'] = var15;
             var7 = var9.bind(var4)(var12, var7);
             var5[1] = var7;
-            var7 = 16;
+            var7 = 17;
             var7 = var11[var7];
             var7 = var8.bind(var4)(var7);
             var15 = var7.NotificationSettingsChannelMessageNotification;
@@ -311,7 +315,7 @@ case 4:
             var7['channel'] = var17;
             var7 = var9.bind(var4)(var15, var7);
             var5[2] = var7;
-            var7 = 17;
+            var7 = 18;
             var7 = var11[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.NotificationSettingsChannelMessageUnread;
@@ -331,7 +335,7 @@ case 7:
             var11 = _closure1_slot6;
             var9 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var8 = 18;
+            var8 = 19;
             var8 = var15[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.NotificationSettingsChannelPost;
@@ -356,7 +360,7 @@ case 9:
             var7['style'] = var11;
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var10 = 19;
+            var10 = 20;
             var10 = var12[var10];
             var10 = var15.bind(var4)(var10);
             var11 = var10.Button;

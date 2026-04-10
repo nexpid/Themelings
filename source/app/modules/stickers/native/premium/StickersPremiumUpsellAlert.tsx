@@ -208,21 +208,22 @@ case 0:
             var2 = _closure1_slot4;
             var1 = {};
             var7 = var9.perkRow;
-            var5 = new Array(2);
-            var5[0] = var7;
+            var6 = new Array(2);
+            var6[0] = var7;
             var7 = undefined;
             if(!var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var7 = var9.lastPerkRow;
 case 2:
-            var5[1] = var7;
-            var1['style'] = var5;
+            var6[1] = var7;
+            var1['style'] = var6;
             var8 = _closure1_slot13;
-            var7 = _closure1_slot1;
+            var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var5 = 12;
             var5 = var11[var5];
-            var7 = var7.bind(var4)(var5);
+            var5 = var7.bind(var4)(var5);
+            var6 = var5.Icon;
             var5 = {};
             var12 = var9.perkIcon;
             var5['style'] = var12;
@@ -234,10 +235,9 @@ case 2:
             var5['disableColor'] = var12;
             var12 = var10.color;
             var5['color'] = var12;
-            var7 = var8.bind(var4)(var7, var5);
+            var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(2);
-            var5[0] = var7;
-            var7 = _closure1_slot0;
+            var5[0] = var6;
             var6 = 13;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
@@ -256,7 +256,7 @@ case 2:
         }
     };
     var _closure1_slot17 = var4;
-    var4 = 29;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -266,7 +266,7 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.onClose;
+            var10 = var1.onClose;
             var1 = var1.analyticsLocation;
             var _closure2_slot0 = var1;
             var4 = undefined;
@@ -360,30 +360,30 @@ case 6:
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var10 = _closure1_slot0;
+            var11 = _closure1_slot0;
             var24 = 7;
             var6 = var5[var24];
-            var6 = var10.bind(var4)(var6);
-            var11 = var6.intl;
-            var8 = var11.string;
+            var6 = var11.bind(var4)(var6);
+            var9 = var6.intl;
+            var8 = var9.string;
             var6 = var5[var24];
-            var6 = var10.bind(var4)(var6);
+            var6 = var11.bind(var4)(var6);
             var6 = var6.t;
             var6 = var6.f3Pet9;
-            var6 = var8.bind(var11)(var6);
+            var6 = var8.bind(var9)(var6);
             var1['cancelText'] = var6;
-            var6 = 21;
-            var6 = var5[var6];
-            var6 = var10.bind(var4)(var6);
+            var9 = 12;
+            var6 = var5[var9];
+            var6 = var11.bind(var4)(var6);
             var6 = var6.ButtonColors;
             var6 = var6.GREEN;
             var1['confirmColor'] = var6;
             var6 = var5[var24];
-            var6 = var10.bind(var4)(var6);
+            var6 = var11.bind(var4)(var6);
             var8 = var6.intl;
             var6 = var8.string;
             var5 = var5[var24];
-            var5 = var10.bind(var4)(var5);
+            var5 = var11.bind(var4)(var5);
             var5 = var5.t;
             var5 = var5.o3Tnif;
             var5 = var6.bind(var8)(var5);
@@ -391,7 +391,7 @@ case 6:
             var5 = function onConfirm() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 22;
+                var1 = 21;
                 var4 = var2[var1];
                 var1 = undefined;
                 var9 = var5.bind(var1)(var4);
@@ -413,15 +413,15 @@ case 6:
                 var10[10] = var12;
                 var4['location'] = var10;
                 var4 = var8.bind(var9)(var7, var4);
-                var4 = 23;
+                var4 = 22;
                 var4 = var2[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.pushLazy;
                 var7 = _closure1_slot0;
-                var3 = 25;
+                var3 = 24;
                 var3 = var2[var3];
                 var7 = var7.bind(var1)(var3);
-                var3 = 24;
+                var3 = 23;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var3 = var7.bind(var1)(var3, var2);
@@ -432,8 +432,8 @@ case 6:
                 return var1;
             };
             var1['onConfirm'] = var5;
-            var1['onClose'] = var9;
-            var1['onCancel'] = var9;
+            var1['onClose'] = var10;
+            var1['onCancel'] = var10;
             var6 = var18.alert;
             var5 = new Array(2);
             var5[0] = var6;
@@ -453,18 +453,18 @@ case 8:
             var5['style'] = var6;
             var19 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var6 = 26;
+            var6 = 25;
             var6 = var15[var6];
             var6 = var19.bind(var4)(var6);
             var7 = var6.PressableOpacity;
             var6 = {'accessibilityRole': 'button', 'accessibilityLabel': 'close'};
-            var6['onPress'] = var9;
-            var20 = _closure1_slot1;
-            var9 = 12;
+            var6['onPress'] = var10;
             var9 = var15[var9];
-            var10 = var20.bind(var4)(var9);
+            var9 = var19.bind(var4)(var9);
+            var10 = var9.Icon;
             var9 = {};
-            var12 = 27;
+            var20 = _closure1_slot1;
+            var12 = 26;
             var12 = var15[var12];
             var12 = var20.bind(var4)(var12);
             var9['source'] = var12;
@@ -488,7 +488,7 @@ case 8:
             var9['onStartShouldSetResponder'] = var12;
             var13 = _closure1_slot5;
             var12 = {};
-            var14 = 28;
+            var14 = 27;
             var14 = var15[var14];
             var14 = var20.bind(var4)(var14);
             var12['source'] = var14;

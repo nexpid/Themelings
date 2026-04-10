@@ -277,11 +277,12 @@ case 19:
                 var9 = var8.gameContainer;
                 var3['style'] = var9;
                 var12 = _closure1_slot14;
-                var10 = _closure1_slot1;
+                var10 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var9 = 23;
                 var9 = var11[var9];
-                var11 = var10.bind(var7)(var9);
+                var9 = var10.bind(var7)(var9);
+                var11 = var9.Icon;
                 var10 = {};
                 var9 = var8.gameIcon;
                 var10['style'] = var9;
@@ -1437,12 +1438,13 @@ case 70:
                     _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                         var4 = _closure1_slot14;
-                        var2 = _closure1_slot1;
+                        var2 = _closure1_slot0;
                         var1 = _closure1_slot2;
-                        var8 = 40;
+                        var8 = 23;
                         var1 = var1[var8];
                         var3 = undefined;
-                        var2 = var2.bind(var3)(var1);
+                        var1 = var2.bind(var3)(var1);
+                        var2 = var1.Avatar;
                         var1 = {};
                         var7 = _closure2_slot17;
                         var7 = var7.avatar;
@@ -1455,10 +1457,10 @@ case 0:
                         var10 = var7.OFFLINE;
                         var9 = _closure2_slot23;
                         var7 = null;
-                        if(!(var10 !== var9)) { _fun0014_ip = 33; continue _fun0014 }
-case 73:
+                        if(!(var10 !== var9)) { _fun0014_ip = 73; continue _fun0014 }
+case 32:
                         var7 = _closure2_slot23;
-case 33:
+case 73:
                         var1['status'] = var7;
                         var7 = _closure2_slot21;
                         var1['isMobileOnline'] = var7;
@@ -1571,7 +1573,7 @@ case 85:
                         var11 = _closure1_slot14;
                         var9 = _closure1_slot0;
                         var14 = _closure1_slot2;
-                        var5 = 41;
+                        var5 = 40;
                         var5 = var14[var5];
                         var5 = var9.bind(var4)(var5);
                         var9 = var5.CrownIcon;
@@ -1597,7 +1599,7 @@ case 87:
                         var9 = _closure1_slot14;
                         var8 = _closure1_slot0;
                         var12 = _closure1_slot2;
-                        var7 = 42;
+                        var7 = 41;
                         var7 = var12[var7];
                         var7 = var8.bind(var4)(var7);
                         var8 = var7.BoostGemIcon;
@@ -1698,13 +1700,13 @@ case 78:
                 var11 = var21.bind(var22)(var6, var11);
                 var21 = _closure1_slot1;
                 var25 = _closure1_slot2;
-                var6 = 43;
+                var6 = 42;
                 var6 = var25[var6];
                 var21 = var21.bind(var5)(var6);
                 var6 = var33.id;
                 var39 = var21.bind(var5)(var23, var6);
                 var22 = _closure1_slot0;
-                var21 = 44;
+                var21 = 43;
                 var21 = var25[var21];
                 var22 = var22.bind(var5)(var21);
                 var21 = var22.useProcessColorStringsArray;
@@ -1722,7 +1724,7 @@ case 94:
 case 93:
                 var21 = _closure1_slot1;
                 var22 = _closure1_slot2;
-                var6 = 45;
+                var6 = 44;
                 var6 = var22[var6];
                 var21 = var21.bind(var5)(var6);
                 var6 = {};
@@ -1731,7 +1733,7 @@ case 93:
                 var6['guildId'] = var23;
                 var25 = var21.bind(var5)(var6);
                 var21 = _closure1_slot0;
-                var6 = 46;
+                var6 = 45;
                 var6 = var22[var6];
                 var38 = var21.bind(var5)(var6);
                 var31 = var38.useDisplayNameStylesFont;
@@ -1820,7 +1822,7 @@ case 101:
                 var28 = _closure1_slot14;
                 var26 = _closure1_slot1;
                 var36 = _closure1_slot2;
-                var23 = 47;
+                var23 = 46;
                 var23 = var36[var23];
                 var26 = var26.bind(var5)(var23);
                 var23 = {};
@@ -1849,7 +1851,7 @@ case 108:
                 var34 = _closure1_slot2;
                 if(var24) { _fun0006_ip = 109; continue _fun0006 }
 case 110:
-                var24 = 50;
+                var24 = 49;
                 var24 = var34[var24];
                 var25 = var26.bind(var5)(var24);
                 var24 = {};
@@ -1858,7 +1860,7 @@ case 110:
                 var24 = var28.bind(var5)(var25, var24);
                 _fun0006_ip = 111; continue _fun0006;
 case 109:
-                var25 = 48;
+                var25 = 47;
                 var25 = var34[var25];
                 var26 = var26.bind(var5)(var25);
                 var25 = {};
@@ -1866,7 +1868,7 @@ case 109:
                 var31 = var31.bind(var33)();
                 var25['verified'] = var31;
                 var32 = _closure1_slot0;
-                var31 = 49;
+                var31 = 48;
                 var31 = var34[var31];
                 var32 = var32.bind(var5)(var31);
                 var31 = var32.getBotTagTypeFromUser;
@@ -1899,7 +1901,7 @@ case 117:
                 var26 = _closure1_slot14;
                 var25 = _closure1_slot0;
                 var28 = _closure1_slot2;
-                var23 = 51;
+                var23 = 23;
                 var23 = var28[var23];
                 var23 = var25.bind(var5)(var23);
                 var25 = var23.RoleDot;
@@ -1966,7 +1968,7 @@ case 128:
                 var4 = _closure1_slot14;
                 var3 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 54;
+                var1 = 52;
                 var1 = var8[var1];
                 var1 = var3.bind(var5)(var1);
                 var3 = var1.TableRow;
@@ -1982,7 +1984,7 @@ case 130:
                 var8 = _closure1_slot14;
                 var4 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var3 = 53;
+                var3 = 51;
                 var3 = var9[var3];
                 var3 = var4.bind(var5)(var3);
                 var4 = var3.UserNameplateRow;
@@ -2001,7 +2003,7 @@ case 126:
                 var4 = _closure1_slot14;
                 var3 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 52;
+                var2 = 50;
                 var2 = var8[var2];
                 var2 = var3.bind(var5)(var2);
                 var3 = var2.TableCheckboxRow;
@@ -2017,7 +2019,7 @@ case 132:
             }
         };
         var2 = var4.bind(var7)(var2);
-        var4 = 55;
+        var4 = 53;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

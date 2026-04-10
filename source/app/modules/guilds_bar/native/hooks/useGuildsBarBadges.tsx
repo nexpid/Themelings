@@ -61,14 +61,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.BADGE_PADDING;
+    var4 = var4.jsx;
     var _closure1_slot14 = var4;
     var4 = 10;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot15 = var4;
-    var4 = 11;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -76,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'position': 'absolute', 'right': 9, 'backgroundColor': 'transparent', 'borderColor': 'transparent'};
     var4['topRightBadge'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -86,13 +81,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useGuildsBarBadges(arg1, arg2, arg3) {
         var2 = arg1;
         var _closure2_slot0 = var2;
-        var1 = _closure1_slot16;
+        var1 = _closure1_slot15;
         var7 = undefined;
         var8 = var1.bind(var7)();
         var _closure2_slot1 = var8;
         var13 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var4 = 12;
+        var4 = 11;
         var1 = var11[var4];
         var12 = var13.bind(var7)(var1);
         var10 = var12.useStateFromStores;
@@ -174,7 +169,7 @@ case 12:
 case 13:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 13;
+                var2 = 12;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -275,16 +270,16 @@ case 20:
         };
         var9 = var9.bind(var12)(var5, var1, var4);
         var4 = _closure1_slot1;
-        var1 = 14;
+        var1 = 13;
         var1 = var11[var1];
         var1 = var4.bind(var7)(var1);
         var2 = var1.bind(var7)(var2);
         var _closure2_slot3 = var2;
-        var12 = 15;
+        var12 = 14;
         var1 = var11[var12];
         var15 = var13.bind(var7)(var1);
         var14 = var15.useToken;
-        var5 = 16;
+        var5 = 15;
         var1 = var11[var5];
         var1 = var4.bind(var7)(var1);
         var1 = var1.modules;
@@ -315,7 +310,13 @@ case 20:
             var1[0] = var2;
             var2 = {};
             var4 = _closure2_slot5;
-            var3 = _closure1_slot14;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 16;
+            var5 = var5[var3];
+            var3 = undefined;
+            var3 = var6.bind(var3)(var5);
+            var3 = var3.BADGE_PADDING;
             var3 = var4 - var3;
             var2['top'] = var3;
             var1[1] = var2;
@@ -374,7 +375,7 @@ case 29:
                 var7 = null;
                 if(!var8) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                var10 = _closure1_slot15;
+                var10 = _closure1_slot14;
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var8 = var8[var12];

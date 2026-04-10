@@ -218,7 +218,8 @@ case 7:
             var24 = _closure1_slot10;
             var22 = 19;
             var22 = var14[var22];
-            var23 = var28.bind(var4)(var22);
+            var22 = var21.bind(var4)(var22);
+            var23 = var22.Icon;
             var22 = {};
             var25 = var13.noticeIcon;
             var22['style'] = var25;

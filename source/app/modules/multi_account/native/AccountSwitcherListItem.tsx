@@ -319,11 +319,12 @@ case 21:
             var12 = var20.accountInfo;
             var9['style'] = var12;
             var14 = _closure1_slot9;
-            var23 = _closure1_slot1;
+            var18 = _closure1_slot0;
             var24 = _closure1_slot2;
             var12 = 15;
             var12 = var24[var12];
-            var13 = var23.bind(var5)(var12);
+            var12 = var18.bind(var5)(var12);
+            var13 = var12.Avatar;
             var12 = {};
             var12['user'] = var21;
             var12['guildId'] = var5;
@@ -337,7 +338,6 @@ case 21:
             var16 = var20.tagContainer;
             var14['style'] = var16;
             var19 = _closure1_slot9;
-            var18 = _closure1_slot0;
             var22 = 12;
             var16 = var24[var22];
             var16 = var18.bind(var5)(var16);
@@ -345,6 +345,7 @@ case 21:
             var16 = {'variant': 'text-md/semibold', 'color': 'text-default', 'style': null, 'lineClamp': 1};
             var20 = var20.username;
             var16['style'] = var20;
+            var23 = _closure1_slot1;
             var20 = 16;
             var20 = var24[var20];
             var24 = var23.bind(var5)(var20);

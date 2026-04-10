@@ -138,11 +138,12 @@ case 3:
             var6['accessibilityRole'] = var12;
             var12 = var9.closeContainer;
             var6['style'] = var12;
-            var13 = _closure1_slot1;
             var12 = 11;
             var12 = var16[var12];
-            var14 = var13.bind(var5)(var12);
+            var12 = var15.bind(var5)(var12);
+            var14 = var12.Icon;
             var12 = {};
+            var13 = _closure1_slot1;
             var17 = 12;
             var17 = var16[var17];
             var17 = var13.bind(var5)(var17);

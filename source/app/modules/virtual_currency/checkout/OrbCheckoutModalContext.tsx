@@ -116,9 +116,16 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var10 = var14.bind(var15)(var13, var3, var10);
-            var _closure2_slot4 = var10;
+            var14 = var14.bind(var15)(var13, var3, var10);
             var3 = 8;
+            var3 = var7[var3];
+            var13 = var5.bind(var11)(var3);
+            var10 = var13.useSKUOrbPrice;
+            var3 = {};
+            var3['sku'] = var14;
+            var10 = var10.bind(var13)(var3);
+            var _closure2_slot4 = var10;
+            var3 = 9;
             var3 = var7[var3];
             var5 = var5.bind(var11)(var3);
             var3 = var5.useFetchCollectiblesProduct;
@@ -135,29 +142,13 @@ case 0:
 case 0:
                     var1 = _closure2_slot4;
                     var3 = null;
-                    var1 = var3 != var1;
-                    var2 = null;
-                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+                    if(!(var3 == var1)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var5 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var1 = 9;
-                    var4 = var4[var1];
-                    var1 = undefined;
-                    var7 = var5.bind(var1)(var4);
-                    var5 = var7.getOrbPriceFromPrices;
-                    var1 = _closure2_slot4;
-                    var4 = var1.prices;
-                    var1 = _closure2_slot3;
-                    var2 = var5.bind(var7)(var4, var1);
-case 2:
-                    if(!(var3 == var2)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
                     var1 = _closure2_slot5;
-                    if(!(var3 == var1)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(!(var3 == var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     return var3;
-case 6:
+case 4:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var1 = 10;
@@ -166,23 +157,22 @@ case 6:
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.getProductOrbPrice;
                     var1 = {};
-                    var7 = _closure2_slot5;
-                    var1['product'] = var7;
+                    var6 = _closure2_slot5;
+                    var1['product'] = var6;
                     var6 = _closure2_slot3;
                     var1['isPremiumUser'] = var6;
                     var4 = var4.bind(var5)(var1);
                     var1 = {};
-                    var1['orbPrice'] = var4;
                     var3 = null;
-                    if(!(var3 !== var4)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(!(var3 !== var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = var4.amount;
-case 8:
+case 6:
                     var1['orbPriceAmount'] = var3;
                     return var1;
-case 4:
+case 2:
                     var1 = {};
-                    var1['orbPrice'] = var2;
+                    var2 = _closure2_slot4;
                     var2 = var2.amount;
                     var1['orbPriceAmount'] = var2;
                     return var1;
@@ -192,12 +182,12 @@ case 4:
             var7 = null;
             var3 = var7 == var5;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var5.orbPriceAmount;
-case 10:
-            if(!(var7 == var2)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+case 8:
+            if(!(var7 == var2)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 11;
@@ -210,7 +200,7 @@ case 13:
             var3['tags'] = var2;
             var2 = 'Orb price not found for product';
             var2 = var10.bind(var13)(var2, var3);
-case 12:
+case 10:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 12;
@@ -258,10 +248,10 @@ case 12:
             var1 = {};
             var1['skuId'] = var9;
             var1['loadId'] = var8;
-            if(!(var7 == var6)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!(var7 == var6)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = new Array(0);
-case 14:
+case 12:
             var1['analyticsLocations'] = var6;
             var1['orbProductContext'] = var5;
             var1['onRedeemVirtualCurrency'] = var4;
@@ -308,10 +298,10 @@ case 0:
             var6['skuId'] = var14;
             var6['loadId'] = var13;
             var13 = null;
-            if(!(var13 == var12)) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(!(var13 == var12)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var12 = new Array(0);
-case 16:
+case 14:
             var6['analyticsLocations'] = var12;
             var6['analyticsSourceLocation'] = var11;
             var6['orbProductContext'] = var10;

@@ -288,7 +288,7 @@ case 21:
     var4['closeButtonWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -404,10 +404,10 @@ case 25:
             var9['paddingBottom'] = var10;
             var6['contentContainerStyle'] = var9;
             var11 = _closure1_slot8;
-            var10 = _closure1_slot1;
-            var9 = 19;
+            var9 = 10;
             var9 = var21[var9];
-            var10 = var10.bind(var5)(var9);
+            var9 = var20.bind(var5)(var9);
+            var10 = var9.CardSection;
             var9 = {};
             var19 = 'radiogroup';
             var9['accessibilityRole'] = var19;
@@ -454,7 +454,7 @@ case 25:
             var14 = var14.closeButtonWrapper;
             var10['style'] = var14;
             var15 = _closure1_slot8;
-            var13 = 20;
+            var13 = 19;
             var13 = var21[var13];
             var13 = var20.bind(var5)(var13);
             var14 = var13.Button;
