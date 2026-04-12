@@ -1549,6 +1549,9 @@ case 109:
             };
             var4 = var6.bind(var7)(var4);
             _closure1_slot18 = var4;
+            var6 = _closure1_slot19;
+            var4 = var3.id;
+            var6[var4] = var3;
             var4 = var3.id;
             var3 = new Array(1);
             var3[0] = var4;

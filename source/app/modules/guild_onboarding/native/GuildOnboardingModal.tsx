@@ -380,7 +380,7 @@ case 16:
                     var2 = var2.MEMBER_VERIFICATION_GATE_ENABLED;
                     var2 = var5.bind(var6)(var2);
                     if(!var2) { _fun0005_ip = 17; continue _fun0005 }
-case 2:
+case 18:
                     var5 = var4.features;
                     var4 = var5.has;
                     var3 = _closure1_slot10;
@@ -473,7 +473,7 @@ case 15:
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var2 = _closure2_slot6;
-                    if(!var2) { _fun0006_ip = 18; continue _fun0006 }
+                    if(!var2) { _fun0006_ip = 19; continue _fun0006 }
 case 7:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -484,7 +484,7 @@ case 7:
                     var2 = var3.fetchVerificationForm;
                     var1 = _closure2_slot0;
                     var1 = var2.bind(var3)(var1);
-case 18:
+case 19:
                     var1 = undefined;
                     return var1;
                 }
@@ -530,19 +530,19 @@ case 18:
                 return var1;
             };
             var6 = var7.bind(var8)(var5, var6);
-            if(!var3) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+            if(!var3) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var3 = var2.length;
             var2 = 0;
-            if(!(!(var3 > var2))) { _fun0004_ip = 21; continue _fun0004 }
-case 19:
+            if(!(!(var3 > var2))) { _fun0004_ip = 22; continue _fun0004 }
+case 20:
             var2 = _closure1_slot9;
             var5 = var2.PROMPT;
-            _fun0004_ip = 22; continue _fun0004;
-case 21:
+            _fun0004_ip = 23; continue _fun0004;
+case 22:
             var2 = _closure1_slot9;
             var5 = var2.CONNECTIONS;
-case 22:
+case 23:
             var3 = _closure1_slot12;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;

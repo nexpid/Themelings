@@ -209,11 +209,11 @@ case 19:
             var6 = null;
             var1 = var6 == var15;
             var8 = undefined;
-            if(var1) { _fun0001_ip = 14; continue _fun0001 }
-case 20:
+            if(var1) { _fun0001_ip = 20; continue _fun0001 }
+case 11:
             var1 = var15.isGuildStageVoice;
             var8 = var1.bind(var15)();
-case 14:
+case 20:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 13;
@@ -222,7 +222,7 @@ case 14:
             var3 = var6 == var15;
             var1 = undefined;
             if(var3) { _fun0001_ip = 21; continue _fun0001 }
-case 15:
+case 22:
             var1 = var15.id;
 case 21:
             var1 = var2.bind(var4)(var1);
@@ -244,14 +244,14 @@ case 21:
             var3 = var3.bind(var4)();
             var12 = var5.bind(var9)(var3);
             var5 = var13;
-            if(!var8) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            if(var1) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
-            var1 = var2;
+            if(!var8) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
+            if(var1) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+            var1 = var2;
+case 25:
             var5 = var1;
-case 22:
+case 23:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 17;
@@ -259,8 +259,8 @@ case 22:
             var2 = var2.bind(var4)(var1);
             var1 = var2.useIsScreenLandscape;
             var9 = var1.bind(var2)();
-            if(!var9) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+            if(!var9) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var2 = _closure1_slot0;
             var18 = _closure1_slot2;
             var1 = 18;
@@ -272,9 +272,9 @@ case 27:
             var1 = var18[var1];
             var1 = var17.bind(var4)(var1);
             var9 = var2.bind(var3)(var1);
-case 26:
-            if(!var9) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+case 27:
+            if(!var9) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 20;
@@ -282,7 +282,7 @@ case 29:
             var2 = var2.bind(var4)(var1);
             var1 = var2.isAndroid;
             var9 = var1.bind(var2)();
-case 28:
+case 29:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 21;
@@ -293,28 +293,28 @@ case 28:
             var3 = _closure1_slot10;
             var2 = _closure1_slot3;
             var1 = {};
-            if(var5) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
-            var17 = var16.bgNeutral;
-            _fun0001_ip = 32; continue _fun0001;
-case 30:
-            var17 = var16.bg;
+            if(var5) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
+            var17 = var16.bgNeutral;
+            _fun0001_ip = 33; continue _fun0001;
+case 31:
+            var17 = var16.bg;
+case 33:
             var5 = new Array(3);
             var5[0] = var17;
             var16 = var16.container;
             var5[1] = var16;
             var16 = {};
             var17 = 0;
-            if(var9) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+            if(var9) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var17 = var18;
-case 33:
+case 34:
             var16['paddingTop'] = var17;
             var5[2] = var16;
             var1['style'] = var5;
-            if(!var9) { _fun0001_ip = 35; continue _fun0001 }
-case 36:
+            if(!var9) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var17 = _closure1_slot9;
             var16 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -325,12 +325,12 @@ case 36:
             var18 = true;
             var5['hidden'] = var18;
             var9 = var17.bind(var4)(var16, var5);
-case 35:
+case 36:
             var5 = new Array(2);
             var5[0] = var9;
             var6 = null;
-            if(!var8) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
+            if(!var8) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var9 = _closure1_slot9;
             var8 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -345,7 +345,7 @@ case 38:
             var7['rtcConnectionState'] = var11;
             var7['remotePlatform'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 37:
+case 38:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -57,7 +57,7 @@ case 2:
     var5 = var6.bind(var1)(var5);
     var5 = var5.SubscriptionPlans;
     var _closure1_slot5 = var5;
-    var5 = 6;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -369,7 +369,7 @@ case 32:
         }
     };
     var3['createBackgroundStyle'] = var4;
-    var2 = function combinePromotionStyles(arg1, arg2) {
+    var4 = function combinePromotionStyles(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
@@ -419,6 +419,91 @@ case 40:
             return var1;
         }
     };
-    var3['combinePromotionStyles'] = var2;
+    var3['combinePromotionStyles'] = var4;
+    var2 = function shouldShowGiftPromotionReminderNotice() {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 6;
+            var1 = var4[var1];
+            var8 = undefined;
+            var1 = var2.bind(var8)(var1);
+            var4 = var1.GiftPromotionReminderExperiment;
+            var2 = var4.getConfig;
+            var1 = {};
+            var5 = 'shouldShowGiftPromotionReminderNotice';
+            var1['location'] = var5;
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.enabled;
+            if(var1) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
+            var1 = false;
+            return var1;
+case 42:
+            var4 = _closure1_slot4;
+            var2 = var4.getMarketingComponentByType;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 7;
+            var1 = var6[var1];
+            var1 = var5.bind(var8)(var1);
+            var1 = var1.MarketingComponentType;
+            var1 = var1.GIFT_REMINDER_NAGBAR;
+            var2 = var2.bind(var4)(var1);
+            var1 = null;
+            if(!(var1 != var2)) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
+            var4 = _closure1_slot4;
+            var2 = var4.getGiftPromotion;
+            var2 = var2.bind(var4)();
+            var4 = var1 == var2;
+            var6 = undefined;
+            if(var4) { _fun0008_ip = 46; continue _fun0008 }
+case 47:
+            var6 = var2.id;
+case 46:
+            var1 = var1 != var6;
+            if(!var1) { _fun0008_ip = 48; continue _fun0008 }
+case 49:
+            var10 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var4 = 8;
+            var5 = var2[var4];
+            var7 = var10.bind(var8)(var5);
+            var5 = var7.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
+            var9 = 9;
+            var2 = var2[var9];
+            var2 = var10.bind(var8)(var2);
+            var2 = var2.DismissibleContent;
+            var2 = var2.GIFTING_PROMOTION_DESKTOP_FIRST_TIME_COACHMARK;
+            var2 = var5.bind(var7)(var2, var6);
+            var2 = var2.isDismissed;
+            var5 = !var2;
+            var2 = !var5;
+            if(var5) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var4 = var3[var4];
+            var5 = var7.bind(var8)(var4);
+            var4 = var5.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
+            var3 = var3[var9];
+            var3 = var7.bind(var8)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.GIFTING_PROMOTION_REMINDER;
+            var3 = var4.bind(var5)(var3, var6);
+            var3 = var3.isDismissed;
+            var2 = !var3;
+case 50:
+            var1 = var2;
+case 48:
+            return var1;
+case 44:
+            var1 = false;
+            return var1;
+        }
+    };
+    var3['shouldShowGiftPromotionReminderNotice'] = var2;
     return var1;
 })();

@@ -1,4 +1,4 @@
-// app/modules/voice_calls/GuildVoiceTriggerPointExperiment.tsx
+// app/lib/EnsureReceivedMessagesAddedInOrderExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -14,32 +14,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var5.bind(var1)(var2);
-    var8 = var2.CommonTriggerPoints;
-    var2 = 1;
-    var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
-    var4 = var7.createExperiment;
-    var2 = {'kind': 'guild', 'id': '2026-04_guild_voice_trigger_point', 'label': 'Guild Voice Trigger Point Experiment'};
-    var8 = var8.GUILD_VOICE;
-    var2['commonTriggerPoint'] = var8;
+    var4 = var7.createApexExperiment;
+    var2 = {'name': '2026-04-ensure-received-messages-added-in-order', 'kind': 'user'};
     var8 = {};
     var9 = false;
     var8['enabled'] = var9;
     var2['defaultConfig'] = var8;
-    var9 = {'id': 1, 'label': 'Treatment'};
     var8 = {};
-    var8['enabled'] = var10;
-    var9['config'] = var8;
-    var8 = new Array(1);
-    var8[0] = var9;
-    var2['treatments'] = var8;
+    var9 = {};
+    var9['enabled'] = var10;
+    var8[1] = var9;
+    var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 2;
+    var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/voice_calls/GuildVoiceTriggerPointExperiment.tsx';
+    var4 = 'lib/EnsureReceivedMessagesAddedInOrderExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

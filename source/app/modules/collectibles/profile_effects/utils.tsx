@@ -170,6 +170,6 @@ case 6:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['usePotentiallyRandomizedConfig'] = var2;
+    var3['usePotentiallyRandomizedProfileEffect'] = var2;
     return var1;
 })();

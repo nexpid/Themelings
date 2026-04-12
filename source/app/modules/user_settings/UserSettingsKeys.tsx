@@ -792,6 +792,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['STREAMER_MODE_DISABLE_NOTIFICATIONS'] = var1;
     var1 = 'streamer_mode_hide_discord_window_from_screen_capture';
     var2['STREAMER_MODE_HIDE_DISCORD_WINDOW_FROM_SCREEN_CAPTURE'] = var1;
+    var1 = 'streamer_mode_hide_overlay_widgets';
+    var2['STREAMER_MODE_HIDE_OVERLAY_WIDGETS'] = var1;
     var1 = 'advanced_sidebar_item';
     var2['ADVANCED_SIDEBAR_ITEM'] = var1;
     var1 = 'advanced_panel';

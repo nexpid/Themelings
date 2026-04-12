@@ -2130,6 +2130,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BOOST_PROGRESS_BAR_MOBILE_COACHMARK'] = var2;
     var1 = 'BOOST_PROGRESS_BAR_MOBILE_COACHMARK';
     var4[var2] = var1;
+    var2 = 733;
+    var4['SLAYER_STOREFRONT_VC_GIFTING_STREAM_HEADER_NEW_BADGE'] = var2;
+    var1 = 'SLAYER_STOREFRONT_VC_GIFTING_STREAM_HEADER_NEW_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -235,24 +235,24 @@ case 25:
             var1 = var4.getRoleIconData;
             var1 = var1.bind(var4)(var6);
             if(!(var3 == var1)) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+case 16:
             var1 = {};
 case 26:
             var8 = var1.customIconSrc;
             var4 = var1.unicodeEmoji;
-            if(!(var3 == var8)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+            if(!(var3 == var8)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var9 = var3 == var4;
             var1 = undefined;
-            if(var9) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
-            var1 = var4.surrogates;
+            if(var9) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
-            if(!(var3 == var1)) { _fun0004_ip = 28; continue _fun0004 }
+            var1 = var4.surrogates;
+case 29:
+            if(!(var3 == var1)) { _fun0004_ip = 27; continue _fun0004 }
 case 21:
             var1 = undefined;
             return var1;
-case 28:
+case 27:
             var1 = {};
             var1['source'] = var8;
             var8 = var6.name;
@@ -260,10 +260,10 @@ case 28:
             var1['size'] = var5;
             var5 = var3 == var4;
             var3 = undefined;
-            if(var5) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
-            var3 = var4.surrogates;
+            if(var5) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
+            var3 = var4.surrogates;
+case 31:
             var1['unicodeEmoji'] = var3;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;

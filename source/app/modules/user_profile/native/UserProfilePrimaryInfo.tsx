@@ -939,95 +939,102 @@ case 64:
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
-            var15 = var1.user;
+            var14 = var1.user;
             var7 = var1.themeType;
-            var10 = var1.style;
-            var11 = var1.showToastOnPress;
+            var8 = var1.style;
+            var13 = var1.showToastOnPress;
             var5 = undefined;
-            if(!(var11 === var5)) { _fun0009_ip = 66; continue _fun0009 }
+            if(!(var13 === var5)) { _fun0009_ip = 66; continue _fun0009 }
 case 67:
-            var11 = false;
+            var13 = false;
 case 66:
             var1 = _closure1_slot14;
-            var8 = var1.bind(var5)();
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var11 = var1.bind(var5)();
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 29;
-            var1 = var4[var1];
-            var6 = var3.bind(var5)(var1);
-            var3 = var6.getUserPrimaryGuild;
-            var4 = null;
-            var9 = var4 == var15;
+            var1 = var3[var1];
+            var4 = var2.bind(var5)(var1);
+            var2 = var4.getUserPrimaryGuild;
+            var3 = null;
+            var9 = var3 == var14;
             var1 = undefined;
             if(var9) { _fun0009_ip = 68; continue _fun0009 }
 case 69:
-            var1 = var15.primaryGuild;
+            var1 = var14.primaryGuild;
 case 68:
-            var3 = var3.bind(var6)(var1);
-            var1 = var3.tag;
-            var3 = var3.guildId;
-            var6 = _closure1_slot17;
-            var6 = var6.bind(var5)(var7);
-            var14 = var6.badgeSize;
-            var7 = var6.guildTagBadgeSize;
-            var12 = var6.guildTagHorizontalPadding;
-            var6 = var6.guildTagTextVariant;
-            var13 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var9 = 26;
-            var9 = var16[var9];
-            var13 = var13.bind(var5)(var9);
-            var9 = var13.isAndroid;
-            var9 = var9.bind(var13)();
-            var13 = 4;
-            var16 = var13;
-            if(!var9) { _fun0009_ip = 70; continue _fun0009 }
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.tag;
+            var2 = var2.guildId;
+            var4 = _closure1_slot17;
+            var4 = var4.bind(var5)(var7);
+            var18 = var4.badgeSize;
+            var10 = var4.guildTagBadgeSize;
+            var16 = var4.guildTagHorizontalPadding;
+            var9 = var4.guildTagTextVariant;
+            var7 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var4 = 26;
+            var4 = var12[var4];
+            var7 = var7.bind(var5)(var4);
+            var4 = var7.isAndroid;
+            var4 = var4.bind(var7)();
+            var17 = 4;
+            var7 = var17;
+            if(!var4) { _fun0009_ip = 70; continue _fun0009 }
 case 71:
-            var16 = 2;
+            var7 = 2;
 case 70:
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var9 = 14;
-            var9 = var18[var9];
-            var9 = var17.bind(var5)(var9);
-            var9 = var9.TextStyleSheet;
-            var9 = var9[var6];
-            var9 = var9.fontSize;
-            var9 = var9 + var16;
-            var16 = var4 == var1;
+            var12 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var4 = 14;
+            var4 = var15[var4];
+            var4 = var12.bind(var5)(var4);
+            var4 = var4.TextStyleSheet;
+            var4 = var4[var9];
+            var4 = var4.fontSize;
+            var12 = var4 + var7;
+            var4 = var3 == var1;
             var1 = null;
-            if(var16) { _fun0009_ip = 72; continue _fun0009 }
+            if(var4) { _fun0009_ip = 72; continue _fun0009 }
 case 12:
-            var3 = var4 == var3;
+            var2 = var3 == var2;
             var1 = null;
-            if(var3) { _fun0009_ip = 72; continue _fun0009 }
+            if(var2) { _fun0009_ip = 72; continue _fun0009 }
 case 73:
             var4 = _closure1_slot11;
-            var3 = _closure1_slot1;
-            var16 = _closure1_slot2;
-            var2 = 30;
-            var2 = var16[var2];
-            var3 = var3.bind(var5)(var2);
+            var3 = _closure1_slot5;
             var2 = {};
-            var15 = var15.id;
-            var2['userId'] = var15;
-            var11 = !var11;
-            var2['disabledTooltip'] = var11;
-            var11 = var8.guildTag;
-            var8 = new Array(3);
-            var8[0] = var11;
+            var15 = var11.guildTag;
+            var7 = new Array(3);
+            var7[0] = var15;
+            var15 = {};
+            var17 = var18 + var17;
+            var15['minHeight'] = var17;
+            var15['paddingHorizontal'] = var16;
+            var7[1] = var15;
+            var7[2] = var8;
+            var2['style'] = var7;
+            var8 = _closure1_slot11;
+            var7 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var6 = 30;
+            var6 = var15[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = {};
+            var14 = var14.id;
+            var6['userId'] = var14;
+            var13 = !var13;
+            var6['disabledTooltip'] = var13;
+            var11 = var11.transparentBackground;
+            var6['containerStyles'] = var11;
             var11 = {};
-            var13 = var14 + var13;
-            var11['minHeight'] = var13;
-            var11['paddingHorizontal'] = var12;
-            var8[1] = var11;
-            var8[2] = var10;
-            var2['containerStyles'] = var8;
-            var8 = {};
-            var8['lineHeight'] = var9;
-            var2['textStyle'] = var8;
-            var2['badgeSize'] = var7;
-            var2['textVariant'] = var6;
+            var11['lineHeight'] = var12;
+            var6['textStyle'] = var11;
+            var6['badgeSize'] = var10;
+            var6['textVariant'] = var9;
+            var6 = var8.bind(var5)(var7, var6);
+            var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 72:
             return var1;
@@ -1113,6 +1120,10 @@ case 72:
     var17 = var17.sm;
     var14['borderRadius'] = var17;
     var7['guildTag'] = var14;
+    var14 = {};
+    var17 = 'transparent';
+    var14['backgroundColor'] = var17;
+    var7['transparentBackground'] = var14;
     var14 = {};
     var17 = 'contain';
     var14['resizeMode'] = var17;

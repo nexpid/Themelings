@@ -167,7 +167,7 @@ case 0:
 case 19:
                 var2 = undefined;
                 var2 = var3.bind(var2)();
-                _fun0003_ip = 8; continue _fun0003;
+                _fun0003_ip = 20; continue _fun0003;
 case 18:
                 var2 = global;
                 var6 = var2.setTimeout;
@@ -190,14 +190,14 @@ case 0:
                         var1 = var2.getGuildId;
                         var2 = var1.bind(var2)();
                         var1 = _closure2_slot0;
-                        if(!(var2 === var1)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                        if(!(var2 === var1)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                         var3 = _closure3_slot4;
                         var2 = undefined;
                         var3 = var3.bind(var2)();
                         var1 = _closure3_slot0;
                         var1 = var1.bind(var2)();
-case 20:
+case 21:
                         var1 = undefined;
                         return var1;
                     }
@@ -219,7 +219,7 @@ case 20:
                 var2 = _closure1_slot3;
                 var1 = var2.addChangeListener;
                 var1 = var1.bind(var2)(var3);
-case 8:
+case 20:
                 var1 = undefined;
                 return var1;
             }

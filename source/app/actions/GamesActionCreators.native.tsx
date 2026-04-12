@@ -94,15 +94,18 @@ case 4:
     };
     var _closure1_slot8 = var1;
     var4 = function joinWithSecret(arg1, arg2) {
+        var3 = arg1;
+        var2 = var3.replace;
+        var1 = /\/+$/;
+        var6 = '';
+        var5 = var2.bind(var3)(var1, var6);
         var1 = _closure1_slot5;
-        var6 = var1.GAME_INVITE_FRAGMENT;
+        var4 = var1.GAME_INVITE_FRAGMENT;
         var1 = global;
         var1 = var1.HermesInternal;
-        var5 = var1.concat;
-        var4 = '';
-        var3 = arg1;
+        var3 = var1.concat;
         var1 = arg2;
-        var5 = var5.bind(var4)(var3, var6, var1);
+        var5 = var3.bind(var6)(var5, var4, var1);
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
         var1 = 6;

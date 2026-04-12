@@ -185,7 +185,7 @@ case 19:
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var7)(var2);
                 if(var2) { _fun0003_ip = 20; continue _fun0003 }
-case 9:
+case 21:
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var2 = 8;
@@ -195,8 +195,8 @@ case 9:
                 var4 = var7.isGuildOnboardingSettingsAvailable;
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var7)(var2);
-                if(var2) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                if(var2) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                 var7 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var4 = 9;
@@ -205,25 +205,25 @@ case 22:
                 var4 = var4.bind(var9)(var5);
                 var4 = !var4;
                 var2 = !var4;
-case 21:
-                if(!var2) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+case 22:
+                if(!var2) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                 var4 = _closure2_slot1;
-                if(var4) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+                if(var4) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                 var8 = _closure1_slot12;
                 var7 = _closure2_slot0;
                 var6 = _closure1_slot4;
                 var4 = var8.bind(var9)(var7, var6);
-case 25:
+case 26:
                 var2 = var4;
-case 23:
-                _fun0003_ip = 27; continue _fun0003;
+case 24:
+                _fun0003_ip = 28; continue _fun0003;
 case 20:
                 var4 = _closure1_slot11;
                 var3 = undefined;
                 var2 = var4.bind(var3)(var5);
-case 27:
+case 28:
                 var1 = var2;
 case 18:
                 return var1;
@@ -247,16 +247,16 @@ case 0:
             var2 = var4.isFullServerPreview;
             var2 = var2.bind(var4)(var5);
             var4 = null;
-            if(!(var4 != var3)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+            if(!(var4 != var3)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var4 = _closure1_slot9;
-            if(!(var5 !== var4)) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
-            var4 = _closure1_slot7;
-            if(!(var5 !== var4)) { _fun0004_ip = 30; continue _fun0004 }
+            if(!(var5 !== var4)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-            if(var2) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+            var4 = _closure1_slot7;
+            if(!(var5 !== var4)) { _fun0004_ip = 31; continue _fun0004 }
+case 33:
+            if(var2) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 8;
@@ -265,57 +265,57 @@ case 34:
             var4 = var6.bind(var2)(var4);
             var2 = var4.isGuildOnboardingSettingsAvailable;
             var4 = var2.bind(var4)(var5);
-            if(!var4) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+            if(!var4) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var6 = var3.features;
             var5 = var6.has;
             var2 = _closure1_slot8;
             var2 = var2.GUILD_ONBOARDING;
             var4 = var5.bind(var6)(var2);
-case 35:
-            if(!var4) { _fun0004_ip = 22; continue _fun0004 }
-case 37:
+case 36:
+            if(!var4) { _fun0004_ip = 23; continue _fun0004 }
+case 38:
             var6 = var3.features;
             var5 = var6.has;
             var2 = _closure1_slot8;
             var2 = var2.GUILD_SERVER_GUIDE;
             var4 = var5.bind(var6)(var2);
-case 22:
+case 23:
             var6 = var3.features;
             var5 = var6.has;
             var2 = _closure1_slot8;
             var2 = var2.GUILD_ONBOARDING;
             var2 = var5.bind(var6)(var2);
-            if(!var2) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+            if(!var2) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var7 = var3.features;
             var6 = var7.has;
             var5 = _closure1_slot8;
             var5 = var5.GUILD_SERVER_GUIDE;
             var2 = var6.bind(var7)(var5);
-case 38:
-            if(var2) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+case 39:
+            if(var2) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var2 = var4;
-case 40:
-            if(!var2) { _fun0004_ip = 42; continue _fun0004 }
+case 41:
+            if(!var2) { _fun0004_ip = 43; continue _fun0004 }
 case 20:
             var6 = var3.features;
             var5 = var6.has;
             var4 = _closure1_slot8;
             var4 = var4.COMMUNITY;
             var2 = var5.bind(var6)(var4);
-case 42:
+case 43:
             return var2;
-case 33:
+case 34:
             var2 = _closure1_slot11;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
             return var1;
-case 30:
+case 31:
             var1 = false;
             return var1;
-case 28:
+case 29:
             var1 = false;
             return var1;
         }

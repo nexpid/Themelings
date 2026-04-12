@@ -627,7 +627,7 @@ case 56:
             var4 = var2 != var5;
             var1 = null;
             if(!var4) { _fun0002_ip = 67; continue _fun0002 }
-case 68:
+case 8:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 29;
@@ -663,7 +663,7 @@ case 0:
             var1 = var6.getGuildScheduledEvent;
             var10 = var1.bind(var6)(var8);
             var1 = null;
-            if(!(var1 == var5)) { _fun0003_ip = 69; continue _fun0003 }
+            if(!(var1 == var5)) { _fun0003_ip = 68; continue _fun0003 }
 case 53:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -672,19 +672,19 @@ case 53:
             var8 = var8.bind(var7)(var6);
             var6 = var8.getNextRecurrenceIdInEvent;
             var5 = var6.bind(var8)(var10);
-case 69:
+case 68:
             var6 = var1 != var5;
             var8 = undefined;
-            if(!var6) { _fun0003_ip = 70; continue _fun0003 }
+            if(!var6) { _fun0003_ip = 69; continue _fun0003 }
 case 54:
             var8 = var5;
+case 69:
+            if(!(var1 != var10)) { _fun0003_ip = 8; continue _fun0003 }
 case 70:
-            if(!(var1 != var10)) { _fun0003_ip = 68; continue _fun0003 }
-case 71:
             var5 = _closure1_slot5;
             var5 = var5.bind(var7)(var10);
-            if(var5) { _fun0003_ip = 68; continue _fun0003 }
-case 72:
+            if(var5) { _fun0003_ip = 8; continue _fun0003 }
+case 71:
             var6 = _closure1_slot1;
             var9 = _closure1_slot2;
             var5 = 27;
@@ -692,15 +692,15 @@ case 72:
             var11 = var6.bind(var7)(var5);
             var9 = var11.getGuildEventUserCounts;
             var6 = var10.id;
-            if(!(var1 == var8)) { _fun0003_ip = 73; continue _fun0003 }
-case 74:
-            var5 = new Array(0);
-            _fun0003_ip = 75; continue _fun0003;
+            if(!(var1 == var8)) { _fun0003_ip = 72; continue _fun0003 }
 case 73:
+            var5 = new Array(0);
+            _fun0003_ip = 74; continue _fun0003;
+case 72:
             var12 = new Array(1);
             var12[0] = var8;
             var5 = var12;
-case 75:
+case 74:
             var5 = var9.bind(var11)(var4, var6, var5);
             var9 = _closure1_slot7;
             var6 = var9.getUserCount;
@@ -712,10 +712,10 @@ case 75:
             var12 = var13.getChannel;
             var14 = var1 == var10;
             var11 = undefined;
-            if(var14) { _fun0003_ip = 76; continue _fun0003 }
-case 77:
-            var11 = var10.channel_id;
+            if(var14) { _fun0003_ip = 75; continue _fun0003 }
 case 76:
+            var11 = var10.channel_id;
+case 75:
             var11 = var12.bind(var13)(var11);
             var5['channel'] = var11;
             var5['guildEvent'] = var10;
@@ -732,11 +732,11 @@ case 76:
             var5['recurrenceId'] = var8;
             var5 = var6.bind(var7)(var5);
             return var5;
-case 68:
+case 8:
             var5 = _closure1_slot16;
             var5 = var5[var4];
-            if(var5) { _fun0003_ip = 78; continue _fun0003 }
-case 79:
+            if(var5) { _fun0003_ip = 77; continue _fun0003 }
+case 78:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var5 = 29;
@@ -763,7 +763,7 @@ case 79:
             var3 = _closure1_slot16;
             var2 = true;
             var3[var4] = var2;
-case 78:
+case 77:
             return var1;
         }
     };

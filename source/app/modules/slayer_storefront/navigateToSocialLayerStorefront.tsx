@@ -101,7 +101,7 @@ case 23:
                     var8 = true;
                     var3['skipOnboarding'] = var8;
                     var3 = var6.bind(var7)(var3);
-                    SaveGenerator(address=290);
+                    SaveGenerator(address=291);
 case 24:
                     return var3;
 case 25:
@@ -121,7 +121,7 @@ case 20:
                     var6['shouldNavigate'] = var3;
                     var3 = {};
                     var3 = var7.bind(var8)(var12, var3, var6);
-                    SaveGenerator(address=347);
+                    SaveGenerator(address=348);
 case 27:
                     return var3;
 case 28:

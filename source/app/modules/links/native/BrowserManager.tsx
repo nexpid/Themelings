@@ -208,14 +208,42 @@ case 12:
         return var1;
     };
     var3['getIsInAppBrowserOpen'] = var4;
+    var4 = function subscribeToIsInAppBrowserOpen(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var3 = _closure1_slot7;
+        var2 = var3.subscribe;
+        var1 = function(arg1, arg2) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                var2 = arg1;
+                var1 = arg2;
+                var4 = var2.isInAppBrowserOpen;
+                var3 = var1.isInAppBrowserOpen;
+                if(!(var4 !== var3)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                var4 = _closure2_slot0;
+                var3 = var2.isInAppBrowserOpen;
+                var2 = var1.isInAppBrowserOpen;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
+case 13:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['subscribeToIsInAppBrowserOpen'] = var4;
     var4 = function browserManagerOpenUrl(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arg1;
             var7 = arguments[1];
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0003_ip = 2; continue _fun0003 }
-case 13:
+            if(!(var7 === var4)) { _fun0004_ip = 2; continue _fun0004 }
+case 15:
             var1 = _closure1_slot11;
             var7 = var1.bind(var4)();
 case 2:
@@ -226,42 +254,19 @@ case 2:
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.SAFARI;
-            if(!(var7 !== var2)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+            if(!(var7 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.CHROME;
-            if(!(var7 === var2)) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(!(var7 === var2)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var2 = _closure1_slot10;
             var2 = var2.bind(var4)();
-            if(!var2) { _fun0003_ip = 14; continue _fun0003 }
-case 16:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var6];
-            var2 = var5.bind(var4)(var2);
-            var2 = var2.WebBrowserType;
-            var2 = var2.IN_APP;
-            if(!(var7 === var2)) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-            var5 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 2;
-            var2 = var8[var2];
-            var5 = var5.bind(var4)(var2);
-            var2 = var5.isAndroid;
-            var2 = var2.bind(var5)();
-            if(!var2) { _fun0003_ip = 18; continue _fun0003 }
-case 20:
-            var5 = _closure1_slot7;
-            var2 = var5.getState;
-            var2 = var2.bind(var5)();
-            var2 = var2.supportsInAppBrowser;
-            if(!var2) { _fun0003_ip = 14; continue _fun0003 }
+            if(!var2) { _fun0004_ip = 16; continue _fun0004 }
 case 18:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -269,16 +274,39 @@ case 18:
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.IN_APP;
-            if(!(var7 !== var2)) { _fun0003_ip = 21; continue _fun0003 }
+            if(!(var7 === var2)) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 2;
+            var2 = var8[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.isAndroid;
+            var2 = var2.bind(var5)();
+            if(!var2) { _fun0004_ip = 20; continue _fun0004 }
 case 22:
+            var5 = _closure1_slot7;
+            var2 = var5.getState;
+            var2 = var2.bind(var5)();
+            var2 = var2.supportsInAppBrowser;
+            if(!var2) { _fun0004_ip = 16; continue _fun0004 }
+case 20:
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.WebBrowserType;
+            var2 = var2.IN_APP;
+            if(!(var7 !== var2)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var5.bind(var4)(var2);
             var2 = var2.WebBrowserType;
             var2 = var2.CHROME;
-            if(!(var7 !== var2)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+            if(!(var7 !== var2)) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var2 = global;
             var6 = var2.Error;
             var2 = var2.HermesInternal;
@@ -291,6 +319,31 @@ case 24:
             var2 = new var11[var6](var10, var9);
             var2 = var2 instanceof Object ? var2 : var5;
             throw var2;
+case 25:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.isAndroid;
+            var2 = var2.bind(var5)();
+            if(var2) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
+            var6 = _closure1_slot6;
+            var5 = var6.openInChromeURL;
+            var2 = true;
+            var2 = var5.bind(var6)(var3, var2);
+            _fun0004_ip = 29; continue _fun0004;
+case 27:
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 3;
+            var5 = var7[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.openInChromeURL;
+            var2 = var5.bind(var6)(var3);
+case 29:
+            return var2;
 case 23:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -299,38 +352,13 @@ case 23:
             var5 = var5.bind(var4)(var2);
             var2 = var5.isAndroid;
             var2 = var2.bind(var5)();
-            if(var2) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-            var6 = _closure1_slot6;
-            var5 = var6.openInChromeURL;
-            var2 = true;
-            var2 = var5.bind(var6)(var3, var2);
-            _fun0003_ip = 27; continue _fun0003;
-case 25:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var5 = 3;
-            var5 = var7[var5];
-            var6 = var6.bind(var4)(var5);
-            var5 = var6.openInChromeURL;
-            var2 = var5.bind(var6)(var3);
-case 27:
-            return var2;
-case 21:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 2;
-            var2 = var6[var2];
-            var5 = var5.bind(var4)(var2);
-            var2 = var5.isAndroid;
-            var2 = var2.bind(var5)();
-            if(var2) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+            if(var2) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var5 = _closure1_slot6;
             var2 = var5.openInAppURL;
             var6 = var2.bind(var5)(var3);
-            _fun0003_ip = 30; continue _fun0003;
-case 28:
+            _fun0004_ip = 32; continue _fun0004;
+case 30:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 3;
@@ -338,15 +366,15 @@ case 28:
             var5 = var5.bind(var4)(var2);
             var2 = var5.openInAppURL;
             var6 = var2.bind(var5)(var3);
-case 30:
+case 32:
             var5 = var6.then;
             var2 = function(arg1) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var2 = false;
                     var1 = arg1;
-                    if(!(var2 !== var1)) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+                    if(!(var2 !== var1)) { _fun0005_ip = 13; continue _fun0005 }
+case 33:
                     var3 = _closure1_slot7;
                     var2 = var3.setState;
                     var1 = {};
@@ -354,7 +382,7 @@ case 32:
                     var1['isInAppBrowserOpen'] = var4;
                     var1 = var2.bind(var3)(var1);
                     var2 = function subscribeToInAppBrowserClose() {
-                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                             var4 = _closure1_slot9;
                             var1 = undefined;
@@ -366,33 +394,33 @@ case 0:
                             var5 = var5.bind(var1)(var4);
                             var4 = var5.isIOS;
                             var4 = var4.bind(var5)();
-                            if(var4) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+                            if(var4) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
                             var4 = var4[var6];
                             var5 = var5.bind(var1)(var4);
                             var4 = var5.isAndroid;
                             var4 = var4.bind(var5)();
-                            if(!var4) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                            if(!var4) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
                             var7 = _closure1_slot3;
                             var6 = var7.addEventListener;
                             var5 = 'change';
                             var4 = function(arg1) {
-                                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                                     var2 = 'active';
                                     var1 = arg1;
                                     var1 = var2 === var1;
-                                    if(!var1) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+                                    if(!var1) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
                                     var3 = _closure1_slot7;
                                     var2 = var3.getState;
                                     var2 = var2.bind(var3)();
                                     var1 = var2.isInAppBrowserOpen;
-case 37:
-                                    if(!var1) { _fun0006_ip = 39; continue _fun0006 }
+case 38:
+                                    if(!var1) { _fun0007_ip = 40; continue _fun0007 }
 case 5:
                                     var4 = _closure1_slot7;
                                     var3 = var4.setState;
@@ -403,15 +431,15 @@ case 5:
                                     var2 = _closure1_slot9;
                                     var1 = undefined;
                                     var1 = var2.bind(var1)();
-case 39:
+case 40:
                                     var1 = undefined;
                                     return var1;
                                 }
                             };
                             var4 = var6.bind(var7)(var5, var4);
                             _closure1_slot8 = var4;
-                            _fun0005_ip = 35; continue _fun0005;
-case 33:
+                            _fun0006_ip = 36; continue _fun0006;
+case 34:
                             var6 = _closure1_slot4;
                             var9 = _closure1_slot6;
                             var5 = var6.prototype;
@@ -435,20 +463,20 @@ case 33:
                             };
                             var2 = var5.bind(var6)(var4, var2);
                             _closure1_slot8 = var2;
-case 35:
+case 36:
                             return var1;
                         }
                     };
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 31:
+case 13:
                     var1 = undefined;
                     return var1;
                 }
             };
             var2 = var5.bind(var6)(var2);
             return var2;
-case 14:
+case 16:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 5;
@@ -465,7 +493,7 @@ case 14:
     };
     var3['browserManagerOpenUrl'] = var4;
     var4 = function browserManagerSelectBrowser(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var5 = arg1;
             var4 = _closure1_slot0;
@@ -476,14 +504,14 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+            if(var3) { _fun0008_ip = 41; continue _fun0008 }
+case 42:
             var3 = _closure1_slot5;
             var4 = var3.BrowserManager;
             var3 = var4.selectBrowser;
             var3 = var3.bind(var4)(var5);
-            _fun0007_ip = 42; continue _fun0007;
-case 40:
+            _fun0008_ip = 43; continue _fun0008;
+case 41:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var6 = 4;
@@ -491,38 +519,38 @@ case 40:
             var3 = var4.bind(var1)(var3);
             var3 = var3.WebBrowserType;
             var3 = var3.SAFARI;
-            if(!(var3 !== var5)) { _fun0007_ip = 43; continue _fun0007 }
-case 44:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var6];
-            var3 = var4.bind(var1)(var3);
-            var3 = var3.WebBrowserType;
-            var3 = var3.IN_APP;
-            if(!(var3 !== var5)) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var6];
-            var3 = var4.bind(var1)(var3);
-            var3 = var3.WebBrowserType;
-            var3 = var3.CHROME;
-            if(!(var3 === var5)) { _fun0007_ip = 42; continue _fun0007 }
-case 47:
-            var6 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var3 = 3;
-            var4 = var8[var3];
-            var6 = var6.bind(var1)(var4);
-            var4 = var6.selectBrowser;
-            var7 = _closure1_slot0;
-            var3 = var8[var3];
-            var3 = var7.bind(var1)(var3);
-            var3 = var3.BrowserType;
-            var3 = var3.CHROME;
-            var3 = var4.bind(var6)(var3);
-            _fun0007_ip = 42; continue _fun0007;
+            if(!(var3 !== var5)) { _fun0008_ip = 44; continue _fun0008 }
 case 45:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.WebBrowserType;
+            var3 = var3.IN_APP;
+            if(!(var3 !== var5)) { _fun0008_ip = 46; continue _fun0008 }
+case 47:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.WebBrowserType;
+            var3 = var3.CHROME;
+            if(!(var3 === var5)) { _fun0008_ip = 43; continue _fun0008 }
+case 48:
+            var6 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var4 = var8[var3];
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.selectBrowser;
+            var7 = _closure1_slot0;
+            var3 = var8[var3];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.BrowserType;
+            var3 = var3.CHROME;
+            var3 = var4.bind(var6)(var3);
+            _fun0008_ip = 43; continue _fun0008;
+case 46:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 3;
@@ -535,8 +563,8 @@ case 45:
             var3 = var3.BrowserType;
             var3 = var3.IN_APP;
             var3 = var4.bind(var6)(var3);
-            _fun0007_ip = 42; continue _fun0007;
-case 43:
+            _fun0008_ip = 43; continue _fun0008;
+case 44:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 3;
@@ -549,7 +577,7 @@ case 43:
             var3 = var3.BrowserType;
             var3 = var3.SAFARI;
             var3 = var4.bind(var6)(var3);
-case 42:
+case 43:
             var4 = _closure1_slot7;
             var3 = var4.setState;
             var2 = {};
@@ -560,7 +588,7 @@ case 42:
     };
     var3['browserManagerSelectBrowser'] = var4;
     var4 = function browserManagerCloseBrowser() {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var4 = _closure1_slot7;
             var3 = var4.setState;
@@ -576,19 +604,19 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0008_ip = 48; continue _fun0008 }
-case 49:
+            if(var3) { _fun0009_ip = 49; continue _fun0009 }
+case 50:
             var2 = _closure1_slot5;
             var3 = var2.BrowserManager;
             var2 = var3.closeBrowser;
             var2 = var2.bind(var3)();
-case 48:
+case 49:
             return var1;
         }
     };
     var3['browserManagerCloseBrowser'] = var4;
     var2 = function openPlayStoreInlineInstall(arg1, arg2, arg3) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var6 = arg1;
             var5 = arg2;
@@ -607,13 +635,13 @@ case 0:
             var9 = var9.bind(var7)(var1);
             var1 = var9.isAndroid;
             var1 = var1.bind(var9)();
-            if(var1) { _fun0009_ip = 50; continue _fun0009 }
-case 51:
+            if(var1) { _fun0010_ip = 51; continue _fun0010 }
+case 52:
             var1 = null;
-            if(!(var1 != var5)) { _fun0009_ip = 52; continue _fun0009 }
-case 53:
-            if(!(var1 != var8)) { _fun0009_ip = 44; continue _fun0009 }
-case 48:
+            if(!(var1 != var5)) { _fun0010_ip = 53; continue _fun0010 }
+case 54:
+            if(!(var1 != var8)) { _fun0010_ip = 45; continue _fun0010 }
+case 49:
             var9 = _closure1_slot6;
             var8 = var9.setOpenAppStoreDismissCallback;
             var1 = function() {
@@ -629,19 +657,19 @@ case 48:
                 return var1;
             };
             var1 = var8.bind(var9)(var1);
-case 44:
+case 45:
             var8 = _closure1_slot6;
             var1 = var8.openAppStoreInline;
             var1 = var1.bind(var8)(var6, var5);
-            _fun0009_ip = 19; continue _fun0009;
-case 52:
+            _fun0010_ip = 21; continue _fun0010;
+case 53:
             var9 = var4.Promise;
             var8 = var9.resolve;
             var4 = false;
             var1 = var8.bind(var9)(var4);
-case 19:
-            _fun0009_ip = 54; continue _fun0009;
-case 50:
+case 21:
+            _fun0010_ip = 55; continue _fun0010;
+case 51:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 3;
@@ -649,7 +677,7 @@ case 50:
             var4 = var4.bind(var7)(var3);
             var3 = var4.openPlayStoreInline;
             var2 = function() {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var1 = global;
                     var2 = var1.Date;
@@ -659,18 +687,18 @@ case 0:
                     var3 = var3 - var2;
                     var4 = _closure2_slot0;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0010_ip = 31; continue _fun0010 }
-case 55:
+                    if(!(var2 != var4)) { _fun0011_ip = 13; continue _fun0011 }
+case 56:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
-case 31:
+case 13:
                     var1 = undefined;
                     return var1;
                 }
             };
             var1 = var3.bind(var4)(var6, var5, var2);
-case 54:
+case 55:
             return var1;
         }
     };

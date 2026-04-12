@@ -150,10 +150,10 @@ case 12:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-            _fun0001_ip = 14; continue _fun0001;
+            _fun0001_ip = 12; continue _fun0001;
 case 5:
             var1 = new Array(0);
-case 14:
+case 12:
             return var1;
 case 2:
             var1 = new Array(0);

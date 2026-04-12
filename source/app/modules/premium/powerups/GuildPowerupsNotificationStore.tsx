@@ -253,16 +253,16 @@ case 0:
             var6 = var10 == var4;
             var1 = undefined;
             var2 = undefined;
-            if(var6) { _fun0005_ip = 9; continue _fun0005 }
-case 17:
+            if(var6) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var2 = var4.premiumSubscriberCount;
-case 9:
+case 17:
             var4 = var10 != var2;
             var6 = 0;
-            if(!var4) { _fun0005_ip = 18; continue _fun0005 }
+            if(!var4) { _fun0005_ip = 13; continue _fun0005 }
 case 19:
             var6 = var2;
-case 18:
+case 13:
             var4 = _closure1_slot9;
             var2 = var4.getStateForGuild;
             var13 = var2.bind(var4)(var5);

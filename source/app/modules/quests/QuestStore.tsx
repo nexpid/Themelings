@@ -392,6 +392,8 @@ case 3:
         var4 = new var7[var4](var6);
         var4 = var4 instanceof Object ? var4 : var5;
         var _closure1_slot38 = var4;
+        _closure1_slot43 = var2;
+        _closure1_slot45 = var2;
         _closure1_slot46 = var2;
         return var1;
     };
@@ -1019,7 +1021,7 @@ case 91:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(37);
+        var1 = new Array(36);
         var1[0] = var5;
         var5 = {};
         var7 = 'excludedQuests';
@@ -1410,23 +1412,25 @@ case 98:
         var5['value'] = var7;
         var1[30] = var5;
         var5 = {};
-        var7 = 'getQuestHomeHeroConfig';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot45;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[31] = var5;
-        var5 = {};
         var7 = 'getQuestHomeHero';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot46;
-            return var1;
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+                var3 = _closure1_slot46;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0020_ip = 100; continue _fun0020 }
+case 88:
+                var1 = _closure1_slot45;
+                _fun0020_ip = 35; continue _fun0020;
+case 100:
+                var1 = _closure1_slot46;
+case 35:
+                return var1;
+            }
         };
         var5['value'] = var7;
-        var1[32] = var5;
+        var1[31] = var5;
         var5 = {};
         var7 = 'getLastFetchedQuestHomeHero';
         var5['key'] = var7;
@@ -1435,7 +1439,7 @@ case 98:
             return var1;
         };
         var5['value'] = var7;
-        var1[33] = var5;
+        var1[32] = var5;
         var5 = {};
         var7 = 'isFetchingEarnedQuestToDeliver';
         var5['key'] = var7;
@@ -1444,25 +1448,25 @@ case 98:
             return var1;
         };
         var5['get'] = var7;
-        var1[34] = var5;
+        var1[33] = var5;
         var5 = {};
         var7 = 'isFetchingEarnedQuestToDeliverByPlacement';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var5 = _closure1_slot17;
                 var1 = null;
                 var3 = var1 == var5;
                 var2 = undefined;
-                if(var3) { _fun0020_ip = 92; continue _fun0020 }
+                if(var3) { _fun0021_ip = 92; continue _fun0021 }
 case 93:
                 var4 = var5.get;
                 var3 = arg1;
                 var2 = var4.bind(var5)(var3);
 case 92:
                 var1 = var1 != var2;
-                if(!var1) { _fun0020_ip = 94; continue _fun0020 }
+                if(!var1) { _fun0021_ip = 94; continue _fun0021 }
 case 95:
                 var1 = var2;
 case 94:
@@ -1470,7 +1474,7 @@ case 94:
             }
         };
         var5['value'] = var7;
-        var1[35] = var5;
+        var1[34] = var5;
         var5 = {};
         var7 = 'earnedQuestForPlacement';
         var5['key'] = var7;
@@ -1479,7 +1483,7 @@ case 94:
             return var1;
         };
         var5['get'] = var6;
-        var1[36] = var5;
+        var1[35] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1517,7 +1521,7 @@ case 94:
     };
     var2['QUESTS_FETCH_CURRENT_QUESTS_BEGIN'] = var7;
     var7 = function handleFetchCurrentQuestsSuccess(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
             var8 = var1.quests;
@@ -1554,7 +1558,7 @@ case 0:
             var11 = ')';
             var10 = 13;
             var9 = 14;
-            if(var2) { _fun0021_ip = 100; continue _fun0021 }
+            if(var2) { _fun0022_ip = 101; continue _fun0022 }
 case 19:
             var2 = var8.value;
             var18 = _closure1_slot18;
@@ -1577,8 +1581,8 @@ case 19:
             var16 = var16.QuestContent;
             var16 = var16.QUEST_BAR;
             var16 = var17.bind(var18)(var16);
-            if(!var16) { _fun0021_ip = 101; continue _fun0021 }
-case 102:
+            if(!var16) { _fun0022_ip = 102; continue _fun0022 }
+case 103:
             var17 = _closure1_slot0;
             var16 = _closure1_slot2;
             var16 = var16[var14];
@@ -1601,12 +1605,12 @@ case 102:
             var22 = var11;
             var2 = var26[var2](var25, var24, var23, var22, var21);
             var2 = var16.bind(var17)(var2);
-case 101:
+case 102:
             var16 = var15.bind(var1)();
             var2 = var16.done;
             var8 = var16;
-            if(!var2) { _fun0021_ip = 19; continue _fun0021 }
-case 100:
+            if(!var2) { _fun0022_ip = 19; continue _fun0022 }
+case 101:
             var2 = var4.Map;
             var8 = var2.prototype;
             var8 = Object.create(var8, {constructor: {value: var2}});
@@ -1618,8 +1622,8 @@ case 100:
             var8 = var2.bind(var1)(var7);
             var7 = var8.bind(var1)();
             var2 = var7.done;
-            if(var2) { _fun0021_ip = 103; continue _fun0021 }
-case 104:
+            if(var2) { _fun0022_ip = 104; continue _fun0022 }
+case 105:
             var12 = var7.value;
             var11 = _closure1_slot19;
             var9 = var11.set;
@@ -1628,30 +1632,30 @@ case 104:
             var9 = var8.bind(var1)();
             var2 = var9.done;
             var7 = var9;
-            if(!var2) { _fun0021_ip = 104; continue _fun0021 }
-case 103:
+            if(!var2) { _fun0022_ip = 105; continue _fun0022 }
+case 104:
             var8 = _closure1_slot50;
             var11 = _closure1_slot39;
             var2 = null;
             var9 = var2 == var11;
             var7 = undefined;
-            if(var9) { _fun0021_ip = 39; continue _fun0021 }
-case 105:
+            if(var9) { _fun0022_ip = 39; continue _fun0022 }
+case 106:
             var9 = var11.values;
             var7 = var9.bind(var11)();
 case 39:
             var9 = var8.bind(var1)(var7);
             var8 = var9.bind(var1)();
             var7 = var8.done;
-            if(var7) { _fun0021_ip = 106; continue _fun0021 }
-case 107:
+            if(var7) { _fun0022_ip = 107; continue _fun0022 }
+case 108:
             var14 = var8.value;
             var12 = _closure1_slot18;
             var11 = var12.has;
             var7 = var14.id;
             var7 = var11.bind(var12)(var7);
-            if(var7) { _fun0021_ip = 108; continue _fun0021 }
-case 109:
+            if(var7) { _fun0022_ip = 109; continue _fun0022 }
+case 110:
             var12 = _closure1_slot18;
             var11 = var12.set;
             var7 = var14.id;
@@ -1665,12 +1669,12 @@ case 109:
             var7 = var13.isQuestExpired;
             var7 = var7.bind(var13)(var14);
             var7 = var12.bind(var5)(var11, var7);
-case 108:
+case 109:
             var11 = var9.bind(var1)();
             var7 = var11.done;
             var8 = var11;
-            if(!var7) { _fun0021_ip = 107; continue _fun0021 }
-case 106:
+            if(!var7) { _fun0022_ip = 108; continue _fun0022 }
+case 107:
             _closure1_slot36 = var5;
             var5 = _closure1_slot61;
             var5 = var5.bind(var1)();
@@ -1678,8 +1682,8 @@ case 106:
             var5 = var5.bind(var1)();
             var5 = var2 != var6;
             var2 = null;
-            if(!var5) { _fun0021_ip = 110; continue _fun0021 }
-case 111:
+            if(!var5) { _fun0022_ip = 111; continue _fun0022 }
+case 112:
             var4 = var4.Date;
             var5 = var4.prototype;
             var5 = Object.create(var5, {constructor: {value: var4}});
@@ -1687,7 +1691,7 @@ case 111:
             var25 = var6;
             var4 = new var26[var4](var25, var24);
             var2 = var4 instanceof Object ? var4 : var5;
-case 110:
+case 111:
             _closure1_slot37 = var2;
             return var1;
         }
@@ -1710,7 +1714,7 @@ case 110:
     };
     var2['QUESTS_FETCH_CLAIMED_QUESTS_BEGIN'] = var7;
     var7 = function handleFetchClaimedQuestsSuccess(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.quests;
@@ -1729,7 +1733,7 @@ case 0:
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0022_ip = 112; continue _fun0022 }
+            if(var2) { _fun0023_ip = 113; continue _fun0023 }
 case 85:
             var8 = var3.value;
             var7 = _closure1_slot20;
@@ -1739,8 +1743,8 @@ case 85:
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0022_ip = 85; continue _fun0022 }
-case 112:
+            if(!var2) { _fun0023_ip = 85; continue _fun0023 }
+case 113:
             return var1;
         }
     };
@@ -1773,106 +1777,103 @@ case 112:
     };
     var2['QUESTS_FETCH_QUEST_TO_DELIVER_BEGIN'] = var7;
     var7 = function handleFetchQuestToDeliverSuccess(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var1 = arg1;
-            var16 = var1.quest;
+            var15 = var1.quest;
             var5 = var1.placement;
-            var11 = var1.adDecisionData;
-            var10 = var1.adContext;
-            var13 = var1.responseTtlSeconds;
-            var9 = var1.metadataRaw;
+            var10 = var1.adDecisionData;
+            var9 = var1.adContext;
+            var12 = var1.responseTtlSeconds;
             var8 = var1.metadataSealed;
             var7 = var1.trafficMetadataRaw;
             var6 = var1.trafficMetadataSealed;
-            var12 = var1.fetchedAt;
+            var11 = var1.fetchedAt;
             var3 = global;
             var2 = var3.Date;
             var1 = var2.now;
             var1 = var1.bind(var2)();
             _closure1_slot22 = var1;
-            var14 = false;
-            _closure1_slot13 = var14;
-            var15 = var3.Map;
-            var20 = _closure1_slot14;
-            var4 = var15.prototype;
-            var4 = Object.create(var4, {constructor: {value: var15}});
-            var21 = var4;
-            var1 = new var21[var15](var20, var19);
+            var13 = false;
+            _closure1_slot13 = var13;
+            var14 = var3.Map;
+            var19 = _closure1_slot14;
+            var4 = var14.prototype;
+            var4 = Object.create(var4, {constructor: {value: var14}});
+            var20 = var4;
+            var1 = new var20[var14](var19, var18);
             var4 = var1 instanceof Object ? var1 : var4;
             _closure1_slot14 = var4;
             var1 = var4.set;
-            var1 = var1.bind(var4)(var5, var14);
-            var14 = _closure1_slot1;
+            var1 = var1.bind(var4)(var5, var13);
+            var13 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 17;
             var4 = var4[var1];
             var1 = undefined;
-            var15 = var14.bind(var1)(var4);
-            var14 = var15.getConfig;
+            var14 = var13.bind(var1)(var4);
+            var13 = var14.getConfig;
             var4 = {};
-            var17 = 'handleFetchQuestToDeliverSuccess';
-            var4['location'] = var17;
-            var4 = var14.bind(var15)(var4);
+            var16 = 'handleFetchQuestToDeliverSuccess';
+            var4['location'] = var16;
+            var4 = var13.bind(var14)(var4);
             var4 = var4.enableNewRequestBehavior;
-            var14 = null;
-            if(var4) { _fun0023_ip = 113; continue _fun0023 }
-case 114:
-            if(!(var14 != var16)) { _fun0023_ip = 115; continue _fun0023 }
-case 116:
-            var17 = _closure1_slot34;
-            var15 = var17.set;
+            var13 = null;
+            if(var4) { _fun0024_ip = 114; continue _fun0024 }
+case 115:
+            if(!(var13 != var15)) { _fun0024_ip = 116; continue _fun0024 }
+case 117:
+            var16 = _closure1_slot34;
+            var14 = var16.set;
             var4 = {};
-            var4['quest'] = var16;
-            var4['adDecisionData'] = var11;
-            var4['adContext'] = var10;
-            var4['metadataRaw'] = var9;
+            var4['quest'] = var15;
+            var4['adDecisionData'] = var10;
+            var4['adContext'] = var9;
             var4['metadataSealed'] = var8;
             var4['trafficMetadataRaw'] = var7;
             var4['trafficMetadataSealed'] = var6;
-            var4 = var15.bind(var17)(var5, var4);
-            _fun0023_ip = 117; continue _fun0023;
-case 115:
-            var15 = _closure1_slot34;
-            var4 = var15.delete;
-            var4 = var4.bind(var15)(var5);
-            _fun0023_ip = 117; continue _fun0023;
-case 113:
+            var4 = var14.bind(var16)(var5, var4);
+            _fun0024_ip = 118; continue _fun0024;
+case 116:
+            var14 = _closure1_slot34;
+            var4 = var14.delete;
+            var4 = var4.bind(var14)(var5);
+            _fun0024_ip = 118; continue _fun0024;
+case 114:
             var4 = {};
-            var17 = var14 == var16;
-            var15 = undefined;
-            if(var17) { _fun0023_ip = 118; continue _fun0023 }
-case 119:
-            var15 = var16.id;
-case 118:
-            var16 = var14 != var15;
-            var14 = null;
-            if(!var16) { _fun0023_ip = 120; continue _fun0023 }
-case 74:
-            var14 = var15;
+            var16 = var13 == var15;
+            var14 = undefined;
+            if(var16) { _fun0024_ip = 119; continue _fun0024 }
 case 120:
-            var4['questId'] = var14;
-            var4['fetchedAt'] = var12;
-            var12 = _closure1_slot59;
-            var12 = var12.bind(var1)(var13);
-            var4['ttlMillis'] = var12;
-            var4['adDecisionData'] = var11;
-            var4['adContext'] = var10;
-            var4['metadataRaw'] = var9;
+            var14 = var15.id;
+case 119:
+            var15 = var13 != var14;
+            var13 = null;
+            if(!var15) { _fun0024_ip = 121; continue _fun0024 }
+case 122:
+            var13 = var14;
+case 121:
+            var4['questId'] = var13;
+            var4['fetchedAt'] = var11;
+            var11 = _closure1_slot59;
+            var11 = var11.bind(var1)(var12);
+            var4['ttlMillis'] = var11;
+            var4['adDecisionData'] = var10;
+            var4['adContext'] = var9;
             var4['metadataSealed'] = var8;
             var4['trafficMetadataRaw'] = var7;
             var4['trafficMetadataSealed'] = var6;
             var7 = var3.Map;
-            var20 = _closure1_slot38;
+            var19 = _closure1_slot38;
             var6 = var7.prototype;
             var6 = Object.create(var6, {constructor: {value: var7}});
-            var21 = var6;
-            var3 = new var21[var7](var20, var19);
+            var20 = var6;
+            var3 = new var20[var7](var19, var18);
             var3 = var3 instanceof Object ? var3 : var6;
             _closure1_slot38 = var3;
             var2 = var3.set;
             var2 = var2.bind(var3)(var5, var4);
-case 117:
+case 118:
             return var1;
         }
     };
@@ -1925,128 +1926,126 @@ case 117:
     };
     var2['QUESTS_FETCH_EARNED_QUEST_TO_DELIVER_BEGIN'] = var7;
     var7 = function handleFetchEarnedQuestToDeliverSuccess(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.serverQuests;
-            var6 = var1.metadataRaw;
             var5 = var1.content;
-            var18 = var1.fetchedAt;
-            var7 = var1.responseTtlSeconds;
-            var8 = false;
-            _closure1_slot16 = var8;
-            var17 = global;
-            var9 = var17.Map;
-            var25 = _closure1_slot17;
-            var3 = var9.prototype;
-            var3 = Object.create(var3, {constructor: {value: var9}});
-            var26 = var3;
-            var1 = new var26[var9](var25, var24);
+            var17 = var1.fetchedAt;
+            var6 = var1.responseTtlSeconds;
+            var7 = false;
+            _closure1_slot16 = var7;
+            var16 = global;
+            var8 = var16.Map;
+            var24 = _closure1_slot17;
+            var3 = var8.prototype;
+            var3 = Object.create(var3, {constructor: {value: var8}});
+            var25 = var3;
+            var1 = new var25[var8](var24, var23);
             var3 = var1 instanceof Object ? var1 : var3;
             _closure1_slot17 = var3;
             var1 = var3.set;
-            var1 = var1.bind(var3)(var5, var8);
+            var1 = var1.bind(var3)(var5, var7);
             var3 = _closure1_slot59;
             var1 = undefined;
-            var16 = var3.bind(var1)(var7);
-            var7 = _closure1_slot35;
-            var3 = var7.get;
-            var7 = var3.bind(var7)(var5);
-            var8 = var17.Map;
-            var15 = null;
-            var9 = var15 == var7;
+            var15 = var3.bind(var1)(var6);
+            var6 = _closure1_slot35;
+            var3 = var6.get;
+            var6 = var3.bind(var6)(var5);
+            var7 = var16.Map;
+            var14 = null;
+            var8 = var14 == var6;
             var3 = undefined;
-            if(var9) { _fun0024_ip = 121; continue _fun0024 }
-case 122:
-            var3 = var7.earnedDecisionByQuestId;
-case 121:
-            var7 = var8.prototype;
-            var7 = Object.create(var7, {constructor: {value: var8}});
-            var26 = var7;
-            var25 = var3;
-            var3 = new var26[var8](var25, var24);
-            var7 = var3 instanceof Object ? var3 : var7;
-            var3 = _closure1_slot50;
-            var14 = var3.bind(var1)(var4);
-            var4 = var14.bind(var1)();
-            var3 = var4.done;
-            var13 = 13;
-            var12 = 16;
-            var11 = 2;
-            var10 = 0;
-            var9 = 1;
-            var8 = var4;
-            var4 = undefined;
-            if(var3) { _fun0024_ip = 123; continue _fun0024 }
+            if(var8) { _fun0025_ip = 123; continue _fun0025 }
 case 124:
-            var19 = var8.value;
-            var3 = _closure1_slot8;
-            var3 = var3.bind(var1)(var19, var11);
-            var20 = var3[var10];
-            var22 = var3[var9];
-            var19 = var7.set;
-            var3 = {};
-            var3['fetchedAt'] = var18;
-            var3['ttlMillis'] = var16;
-            var21 = var15 != var22;
-            var3['shouldDeliver'] = var21;
-            var3 = var19.bind(var7)(var20, var3);
-            if(!(var15 != var22)) { _fun0024_ip = 125; continue _fun0024 }
-case 51:
-            var19 = _closure1_slot18;
-            var3 = var19.get;
-            var19 = var3.bind(var19)(var20);
-            var21 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var12];
-            var21 = var21.bind(var1)(var3);
-            var3 = var21.questWithUserStatusFromServer;
-            var3 = var3.bind(var21)(var22);
-            if(!(var15 == var19)) { _fun0024_ip = 61; continue _fun0024 }
-case 126:
-            var22 = var17.Map;
-            var25 = _closure1_slot18;
-            var21 = var22.prototype;
-            var21 = Object.create(var21, {constructor: {value: var22}});
-            var26 = var21;
-            var19 = new var26[var22](var25, var24);
-            var21 = var19 instanceof Object ? var19 : var21;
-            _closure1_slot18 = var21;
-            var19 = var21.set;
-            var19 = var19.bind(var21)(var20, var3);
-            var22 = var17.Map;
-            var25 = _closure1_slot36;
-            var21 = var22.prototype;
-            var21 = Object.create(var21, {constructor: {value: var22}});
-            var26 = var21;
-            var19 = new var26[var22](var25, var24);
-            var22 = var19 instanceof Object ? var19 : var21;
-            _closure1_slot36 = var22;
-            var21 = var22.set;
-            var23 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var19 = var19[var13];
-            var23 = var23.bind(var1)(var19);
-            var19 = var23.isQuestExpired;
-            var19 = var19.bind(var23)(var3);
-            var19 = var21.bind(var22)(var20, var19);
-            var4 = var3;
-            _fun0024_ip = 125; continue _fun0024;
-case 61:
-            var19 = _closure1_slot53;
-            var19 = var19.bind(var1)(var20, var3);
-            var4 = var3;
-case 125:
-            var19 = var14.bind(var1)();
-            var3 = var19.done;
-            var8 = var19;
-            if(!var3) { _fun0024_ip = 124; continue _fun0024 }
+            var3 = var6.earnedDecisionByQuestId;
 case 123:
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var25 = var6;
+            var24 = var3;
+            var3 = new var25[var7](var24, var23);
+            var6 = var3 instanceof Object ? var3 : var6;
+            var3 = _closure1_slot50;
+            var13 = var3.bind(var1)(var4);
+            var4 = var13.bind(var1)();
+            var3 = var4.done;
+            var12 = 13;
+            var11 = 16;
+            var10 = 2;
+            var9 = 0;
+            var8 = 1;
+            var7 = var4;
+            var4 = undefined;
+            if(var3) { _fun0025_ip = 125; continue _fun0025 }
+case 126:
+            var18 = var7.value;
+            var3 = _closure1_slot8;
+            var3 = var3.bind(var1)(var18, var10);
+            var19 = var3[var9];
+            var21 = var3[var8];
+            var18 = var6.set;
+            var3 = {};
+            var3['fetchedAt'] = var17;
+            var3['ttlMillis'] = var15;
+            var20 = var14 != var21;
+            var3['shouldDeliver'] = var20;
+            var3 = var18.bind(var6)(var19, var3);
+            if(!(var14 != var21)) { _fun0025_ip = 127; continue _fun0025 }
+case 114:
+            var18 = _closure1_slot18;
+            var3 = var18.get;
+            var18 = var3.bind(var18)(var19);
+            var20 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var11];
+            var20 = var20.bind(var1)(var3);
+            var3 = var20.questWithUserStatusFromServer;
+            var3 = var3.bind(var20)(var21);
+            if(!(var14 == var18)) { _fun0025_ip = 128; continue _fun0025 }
+case 129:
+            var21 = var16.Map;
+            var24 = _closure1_slot18;
+            var20 = var21.prototype;
+            var20 = Object.create(var20, {constructor: {value: var21}});
+            var25 = var20;
+            var18 = new var25[var21](var24, var23);
+            var20 = var18 instanceof Object ? var18 : var20;
+            _closure1_slot18 = var20;
+            var18 = var20.set;
+            var18 = var18.bind(var20)(var19, var3);
+            var21 = var16.Map;
+            var24 = _closure1_slot36;
+            var20 = var21.prototype;
+            var20 = Object.create(var20, {constructor: {value: var21}});
+            var25 = var20;
+            var18 = new var25[var21](var24, var23);
+            var21 = var18 instanceof Object ? var18 : var20;
+            _closure1_slot36 = var21;
+            var20 = var21.set;
+            var22 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var18 = var18[var12];
+            var22 = var22.bind(var1)(var18);
+            var18 = var22.isQuestExpired;
+            var18 = var18.bind(var22)(var3);
+            var18 = var20.bind(var21)(var19, var18);
+            var4 = var3;
+            _fun0025_ip = 127; continue _fun0025;
+case 128:
+            var18 = _closure1_slot53;
+            var18 = var18.bind(var1)(var19, var3);
+            var4 = var3;
+case 127:
+            var18 = var13.bind(var1)();
+            var3 = var18.done;
+            var7 = var18;
+            if(!var3) { _fun0025_ip = 126; continue _fun0025 }
+case 125:
             var4 = _closure1_slot35;
             var3 = var4.set;
             var2 = {};
-            var2['earnedDecisionByQuestId'] = var7;
-            var2['metadataRaw'] = var6;
+            var2['earnedDecisionByQuestId'] = var6;
             var2 = var3.bind(var4)(var5, var2);
             return var1;
         }
@@ -2179,7 +2178,7 @@ case 123:
     };
     var2['QUESTS_FETCH_PREVIEW_FAILURE'] = var7;
     var7 = function handleSendHeartbeatSuccess(arg1) {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.questId;
@@ -2194,8 +2193,8 @@ case 0:
             var1 = undefined;
             var4 = var5.bind(var1)(var6, var4);
             var4 = null;
-            if(!(var4 != var3)) { _fun0025_ip = 5; continue _fun0025 }
-case 127:
+            if(!(var4 != var3)) { _fun0026_ip = 5; continue _fun0026 }
+case 130:
             var2 = _closure1_slot56;
             var2 = var2.bind(var1)(var3);
 case 5:
@@ -2204,22 +2203,22 @@ case 5:
     };
     var2['QUESTS_SEND_HEARTBEAT_SUCCESS'] = var7;
     var7 = function handleSendHeartbeatFailure(arg1) {
-        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.questId;
             var4 = var1.streamKey;
             var3 = null;
             var1 = var3 != var4;
-            if(!var1) { _fun0026_ip = 128; continue _fun0026 }
-case 129:
+            if(!var1) { _fun0027_ip = 131; continue _fun0027 }
+case 132:
             var5 = _closure1_slot31;
             var2 = var5.get;
             var2 = var2.bind(var5)(var4);
             var1 = var3 == var2;
-case 128:
-            if(!var1) { _fun0026_ip = 130; continue _fun0026 }
 case 131:
+            if(!var1) { _fun0027_ip = 133; continue _fun0027 }
+case 134:
             var5 = global;
             var7 = var5.Map;
             var9 = _closure1_slot31;
@@ -2238,7 +2237,7 @@ case 131:
             var5 = var5.bind(var6)();
             var1['firstFailedAt'] = var5;
             var1 = var2.bind(var3)(var4, var1);
-case 130:
+case 133:
             var1 = undefined;
             return var1;
         }
@@ -2305,7 +2304,7 @@ case 130:
     };
     var2['QUESTS_FETCH_REWARD_CODE_BEGIN'] = var7;
     var7 = function handleFetchRewardCodeSuccess(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.questId;
@@ -2330,17 +2329,17 @@ case 0:
             var8 = null;
             var5 = var8 == var3;
             var7 = undefined;
-            if(var5) { _fun0027_ip = 132; continue _fun0027 }
-case 133:
+            if(var5) { _fun0028_ip = 135; continue _fun0028 }
+case 136:
             var7 = var3.userStatus;
-case 132:
-            var3 = var8 != var7;
-            if(!var3) { _fun0027_ip = 134; continue _fun0027 }
 case 135:
+            var3 = var8 != var7;
+            if(!var3) { _fun0028_ip = 124; continue _fun0028 }
+case 137:
             var5 = var7.claimedAt;
             var3 = var8 == var5;
-case 134:
-            if(!var3) { _fun0027_ip = 47; continue _fun0027 }
+case 124:
+            if(!var3) { _fun0028_ip = 47; continue _fun0028 }
 case 44:
             var3 = _closure1_slot53;
             var2 = {};
@@ -2434,7 +2433,7 @@ case 47:
     };
     var2['QUESTS_CLAIM_REWARD_FAILURE'] = var7;
     var7 = function handleDismissContentBegin(arg1) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.questId;
@@ -2450,8 +2449,8 @@ case 0:
             var4 = var4.bind(var1)(var3);
             _closure1_slot26 = var1;
             var1 = _closure1_slot32;
-            if(!(var1 === var3)) { _fun0028_ip = 5; continue _fun0028 }
-case 136:
+            if(!(var1 === var3)) { _fun0029_ip = 5; continue _fun0029 }
+case 138:
             var1 = null;
             _closure1_slot32 = var1;
 case 5:
@@ -2485,7 +2484,7 @@ case 5:
     };
     var2['QUESTS_DISMISS_CONTENT_FAILURE'] = var7;
     var7 = function handleQuestUserStatusUpdate(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.user_status;
@@ -2524,8 +2523,8 @@ case 0:
             var7 = var5.quest_id;
             var9 = var8.bind(var9)(var7);
             var7 = null;
-            if(!(var7 != var9)) { _fun0029_ip = 137; continue _fun0029 }
-case 138:
+            if(!(var7 != var9)) { _fun0030_ip = 139; continue _fun0030 }
+case 140:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var7 = 13;
@@ -2537,7 +2536,7 @@ case 138:
             var8 = var10.get;
             var7 = var5.quest_id;
             var7 = var8.bind(var10)(var7);
-            if(!(var7 !== var9)) { _fun0029_ip = 137; continue _fun0029 }
+            if(!(var7 !== var9)) { _fun0030_ip = 139; continue _fun0030 }
 case 73:
             var10 = var4.Map;
             var13 = _closure1_slot36;
@@ -2550,7 +2549,7 @@ case 73:
             var5 = var5.quest_id;
             var5 = var7.bind(var8)(var5, var9);
             _closure1_slot36 = var5;
-case 137:
+case 139:
             var8 = var4.Object;
             var7 = var8.keys;
             var5 = var2.progress;
@@ -2558,15 +2557,15 @@ case 137:
             var7 = var5.length;
             var5 = 0;
             var5 = var5 === var7;
-            if(!var5) { _fun0029_ip = 139; continue _fun0029 }
-case 140:
+            if(!var5) { _fun0030_ip = 141; continue _fun0030 }
+case 142:
             var9 = _closure1_slot41;
             var8 = var9.has;
             var7 = var2.questId;
             var5 = var8.bind(var9)(var7);
-case 139:
-            if(!var5) { _fun0029_ip = 141; continue _fun0029 }
-case 142:
+case 141:
+            if(!var5) { _fun0030_ip = 143; continue _fun0030 }
+case 144:
             var5 = var6.log;
             var8 = var2.questId;
             var4 = var4.HermesInternal;
@@ -2578,7 +2577,7 @@ case 142:
             var3 = var4.delete;
             var2 = var2.questId;
             var2 = var3.bind(var4)(var2);
-case 141:
+case 143:
             return var1;
         }
     };
@@ -2602,7 +2601,7 @@ case 141:
     };
     var2['QUESTS_DISMISS_PROGRESS_TRACKING_FAILURE_NOTICE'] = var7;
     var7 = function handlePreviewUpdateSuccess(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.previewQuestUserStatus;
@@ -2614,7 +2613,7 @@ case 0:
             var4 = var6.bind(var1)(var5, var4);
             var5 = var2.claimedAt;
             var4 = null;
-            if(!(var4 == var5)) { _fun0030_ip = 133; continue _fun0030 }
+            if(!(var4 == var5)) { _fun0031_ip = 136; continue _fun0031 }
 case 9:
             var5 = global;
             var7 = var5.Map;
@@ -2628,10 +2627,10 @@ case 9:
             var6 = var7.delete;
             var5 = var2.questId;
             var5 = var6.bind(var7)(var5);
-case 133:
+case 136:
             var5 = var2.enrolledAt;
-            if(!(var4 == var5)) { _fun0030_ip = 114; continue _fun0030 }
-case 143:
+            if(!(var4 == var5)) { _fun0031_ip = 145; continue _fun0031 }
+case 146:
             var5 = global;
             var7 = var5.Map;
             var9 = _closure1_slot33;
@@ -2650,13 +2649,13 @@ case 143:
             var6 = var7.resetQuest;
             var5 = var2.questId;
             var5 = var6.bind(var7)(var5);
-case 114:
+case 145:
             var7 = _closure1_slot18;
             var6 = var7.get;
             var5 = var2.questId;
             var6 = var6.bind(var7)(var5);
-            if(!(var4 != var6)) { _fun0030_ip = 31; continue _fun0030 }
-case 144:
+            if(!(var4 != var6)) { _fun0031_ip = 31; continue _fun0031 }
+case 147:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 13;
@@ -2668,8 +2667,8 @@ case 144:
             var5 = var7.get;
             var4 = var2.questId;
             var4 = var5.bind(var7)(var4);
-            if(!(var4 !== var6)) { _fun0030_ip = 31; continue _fun0030 }
-case 145:
+            if(!(var4 !== var6)) { _fun0031_ip = 31; continue _fun0031 }
+case 148:
             var4 = global;
             var7 = var4.Map;
             var9 = _closure1_slot36;
@@ -2688,16 +2687,16 @@ case 31:
     };
     var2['QUESTS_PREVIEW_UPDATE_SUCCESS'] = var7;
     var7 = function handleDeliveryOverride(arg1) {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.questId;
             var4 = _closure1_slot32;
             var1 = null;
-            if(!(var4 !== var3)) { _fun0031_ip = 146; continue _fun0031 }
-case 147:
+            if(!(var4 !== var3)) { _fun0032_ip = 149; continue _fun0032 }
+case 150:
             var1 = var3;
-case 146:
+case 149:
             _closure1_slot32 = var1;
             var1 = undefined;
             return var1;
@@ -2705,7 +2704,7 @@ case 146:
     };
     var2['QUESTS_DELIVERY_OVERRIDE'] = var7;
     var7 = function handleSelectTaskPlatform(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.questId;
@@ -2720,13 +2719,13 @@ case 0:
             var2 = var2 instanceof Object ? var2 : var4;
             _closure1_slot33 = var2;
             var2 = null;
-            if(!(var2 != var5)) { _fun0032_ip = 148; continue _fun0032 }
-case 149:
+            if(!(var2 != var5)) { _fun0033_ip = 151; continue _fun0033 }
+case 152:
             var4 = _closure1_slot33;
             var2 = var4.set;
             var2 = var2.bind(var4)(var3, var5);
-            _fun0032_ip = 84; continue _fun0032;
-case 148:
+            _fun0033_ip = 84; continue _fun0033;
+case 151:
             var2 = _closure1_slot33;
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
@@ -2737,7 +2736,7 @@ case 84:
     };
     var2['QUESTS_SELECT_TASK_PLATFORM'] = var7;
     var7 = function handleUpdateOptimisticProgress(arg1) {
-        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.questId;
@@ -2747,7 +2746,7 @@ case 0:
             var2 = var3.get;
             var3 = var2.bind(var3)(var4);
             var2 = null;
-            if(!(var2 == var3)) { _fun0033_ip = 5; continue _fun0033 }
+            if(!(var2 == var3)) { _fun0034_ip = 5; continue _fun0034 }
 case 99:
             var2 = global;
             var2 = var2.Map;
@@ -2768,19 +2767,19 @@ case 5:
     };
     var2['QUESTS_UPDATE_OPTIMISTIC_PROGRESS'] = var7;
     var7 = function handleResetOptimisticProgress(arg1) {
-        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
+        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.questId;
             var4 = _closure1_slot41;
             var2 = var4.has;
             var2 = var2.bind(var4)(var3);
-            if(!var2) { _fun0034_ip = 150; continue _fun0034 }
+            if(!var2) { _fun0035_ip = 153; continue _fun0035 }
 case 96:
             var4 = _closure1_slot41;
             var2 = var4.delete;
             var2 = var2.bind(var4)(var3);
-case 150:
+case 153:
             var2 = _closure1_slot10;
             var1 = var2.getState;
             var2 = var1.bind(var2)();
@@ -2792,13 +2791,13 @@ case 150:
     };
     var2['QUESTS_RESET_OPTIMISTIC_PROGRESS'] = var7;
     var7 = function handleUserCompletionUpdate(arg1) {
-        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
+        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.quest_enrollment_blocked_until;
             var2 = null;
             var1 = var2 != var4;
-            if(!var1) { _fun0035_ip = 9; continue _fun0035 }
+            if(!var1) { _fun0036_ip = 9; continue _fun0036 }
 case 93:
             var1 = global;
             var1 = var1.Date;
@@ -2900,8 +2899,6 @@ case 9:
         var5['adDecisionData'] = var6;
         var6 = var2.adContext;
         var5['adContext'] = var6;
-        var6 = var2.metadataRaw;
-        var5['metadataRaw'] = var6;
         var6 = var2.metadataSealed;
         var5['metadataSealed'] = var6;
         var6 = var2.trafficMetadataRaw;

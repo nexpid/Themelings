@@ -1007,7 +1007,7 @@ case 0:
             var2 = var2.COMMUNITY;
             var2 = var3.bind(var5)(var2);
             if(var2) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+case 3:
             var3 = var4.add;
             var2 = _closure1_slot9;
             var5 = var2.VIEW_GUILD_ANALYTICS;
@@ -1020,8 +1020,8 @@ case 41:
             var2 = _closure1_slot8;
             var2 = var2.VERIFIED;
             var2 = var3.bind(var5)(var2);
-            if(!var2) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+            if(!var2) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
             var6 = _closure1_slot1;
             var5 = _closure1_slot3;
             var3 = 12;
@@ -1036,16 +1036,16 @@ case 44:
             var3['location'] = var8;
             var3 = var5.bind(var6)(var3);
             var2 = var3.enabled;
-case 43:
-            if(var2) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+case 42:
+            if(var2) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
             var3 = var4.add;
             var2 = _closure1_slot9;
             var5 = var2.MANAGE_OFFICIAL_MESSAGES;
             var2 = var5.toString;
             var2 = var2.bind(var5)();
             var2 = var3.bind(var4)(var2);
-case 45:
+case 44:
             var3 = _closure1_slot14;
             var6 = _closure1_slot2;
             var5 = _closure1_slot3;

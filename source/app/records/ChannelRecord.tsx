@@ -2271,8 +2271,10 @@ case 42:
             var1['linkedLobby'] = var3;
             var3 = var2.hdStreamingUntil;
             var1['hdStreamingUntil'] = var3;
-            var2 = var2.hdStreamingBuyerId;
-            var1['hdStreamingBuyerId'] = var2;
+            var3 = var2.hdStreamingBuyerId;
+            var1['hdStreamingBuyerId'] = var3;
+            var2 = var2.voiceHangout;
+            var1['voiceHangout'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;
@@ -2522,8 +2524,10 @@ case 95:
                 var4['linkedLobby'] = var5;
                 var5 = var2.hd_streaming_until;
                 var4['hdStreamingUntil'] = var5;
-                var2 = var2.hd_streaming_buyer_id;
-                var4['hdStreamingBuyerId'] = var2;
+                var5 = var2.hd_streaming_buyer_id;
+                var4['hdStreamingBuyerId'] = var5;
+                var2 = var2.voice_hangout;
+                var4['voiceHangout'] = var2;
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot3;
                 var1 = 15;
@@ -2603,8 +2607,10 @@ case 35:
                 var1['videoQualityMode'] = var3;
                 var3 = var2.hdStreamingUntil;
                 var1['hdStreamingUntil'] = var3;
-                var2 = var2.hdStreamingBuyerId;
-                var1['hdStreamingBuyerId'] = var2;
+                var3 = var2.hdStreamingBuyerId;
+                var1['hdStreamingBuyerId'] = var3;
+                var2 = var2.voiceHangout;
+                var1['voiceHangout'] = var2;
                 return var1;
             }
         };
@@ -2712,8 +2718,10 @@ case 103:
                 var2['videoQualityMode'] = var5;
                 var5 = var4.hd_streaming_until;
                 var2['hdStreamingUntil'] = var5;
-                var4 = var4.hd_streaming_buyer_id;
-                var2['hdStreamingBuyerId'] = var4;
+                var5 = var4.hd_streaming_buyer_id;
+                var2['hdStreamingBuyerId'] = var5;
+                var4 = var4.voice_hangout;
+                var2['voiceHangout'] = var4;
                 var1 = var3.bind(var1)(var2);
                 return var1;
             }

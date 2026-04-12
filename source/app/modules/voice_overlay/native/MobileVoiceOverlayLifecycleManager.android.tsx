@@ -1157,16 +1157,16 @@ case 0:
                             var7 = var4 == var2;
                             var9 = undefined;
                             if(var7) { _fun0018_ip = 95; continue _fun0018 }
-case 17:
+case 96:
                             var9 = var2.name;
 case 95:
                             var10 = var4 != var9;
                             var2 = '';
                             var7 = var2;
-                            if(!var10) { _fun0018_ip = 96; continue _fun0018 }
+                            if(!var10) { _fun0018_ip = 40; continue _fun0018 }
 case 97:
                             var7 = var9;
-case 96:
+case 40:
                             var1['guildName'] = var7;
                             var9 = _closure1_slot8;
                             var7 = var9.getChannel;
@@ -1174,7 +1174,7 @@ case 96:
                             var7 = var7.bind(var9)(var5);
                             var4 = var4 != var7;
                             if(!var4) { _fun0018_ip = 98; continue _fun0018 }
-case 99:
+case 72:
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
                             var4 = var4[var8];
@@ -1240,8 +1240,8 @@ case 0:
                     var4 = var4[var6];
                     var5 = var5.bind(var1)(var4);
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0019_ip = 100; continue _fun0019 }
-case 101:
+                    if(!(var4 != var5)) { _fun0019_ip = 99; continue _fun0019 }
+case 100:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var6];
@@ -1249,7 +1249,7 @@ case 101:
                     var5 = var6.showOverlay;
                     var4 = _closure1_slot23;
                     var4 = var5.bind(var6)(var4);
-case 100:
+case 99:
                     var3 = _closure3_slot0;
                     var4 = var3.updateOverlayUI;
                     var4 = var4.bind(var3)();
@@ -1290,15 +1290,15 @@ case 0:
                     var3 = var3[var5];
                     var4 = var4.bind(var1)(var3);
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0020_ip = 102; continue _fun0020 }
-case 103:
+                    if(!(var3 != var4)) { _fun0020_ip = 101; continue _fun0020 }
+case 102:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var3 = var3[var5];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.hideOverlay;
                     var3 = var3.bind(var4)();
-case 102:
+case 101:
                     var3 = _closure3_slot0;
                     var2 = _closure1_slot22;
                     var2 = var2.NOT_SHOWING;
@@ -1335,7 +1335,7 @@ case 0:
                     var1 = var3.getUser;
                     var3 = var1.bind(var3)(var5);
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0022_ip = 104; continue _fun0022 }
+                    if(!(var1 != var3)) { _fun0022_ip = 103; continue _fun0022 }
 case 41:
                     var4 = _closure1_slot15;
                     var2 = var4.isSpeaking;
@@ -1348,7 +1348,7 @@ case 41:
                     var3 = var3.discriminator;
                     var2['discriminator'] = var3;
                     return var2;
-case 104:
+case 103:
                     return var1;
                 }
             };
@@ -1392,12 +1392,12 @@ case 0:
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.isFabric;
                 var4 = var4.bind(var5)();
-                if(var4) { _fun0023_ip = 105; continue _fun0023 }
+                if(var4) { _fun0023_ip = 104; continue _fun0023 }
 case 68:
                 var4 = var2.isBatchedBridgeInitialized;
-case 105:
-                if(var4) { _fun0023_ip = 106; continue _fun0023 }
-case 107:
+case 104:
+                if(var4) { _fun0023_ip = 105; continue _fun0023 }
+case 106:
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var4 = 35;
@@ -1415,15 +1415,15 @@ case 107:
                 var4 = var6.bind(var7)(var4, var5);
                 var4 = true;
                 var2['isBatchedBridgeInitialized'] = var4;
-case 106:
+case 105:
                 var5 = _closure1_slot18;
                 var4 = var5.getEnabled;
                 var4 = var4.bind(var5)();
-                if(!var4) { _fun0023_ip = 108; continue _fun0023 }
-case 109:
+                if(!var4) { _fun0023_ip = 107; continue _fun0023 }
+case 108:
                 var4 = var2.handleOverlayEnable;
                 var4 = var4.bind(var2)();
-case 108:
+case 107:
                 var4 = _closure1_slot18;
                 var3 = var4.addChangeListener;
                 var2 = var2.handleMobileVoiceOverlayStoreUpdate;
@@ -1528,14 +1528,14 @@ case 0:
                 var2 = _closure1_slot3;
                 var1 = _closure1_slot26;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0024_ip = 110; continue _fun0024 }
-case 111:
+                if(var1) { _fun0024_ip = 109; continue _fun0024 }
+case 110:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0024_ip = 112; continue _fun0024;
-case 110:
+                _fun0024_ip = 111; continue _fun0024;
+case 109:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -1544,7 +1544,7 @@ case 110:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 112:
+case 111:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }

@@ -648,7 +648,7 @@ case 31:
         return var1;
     };
     var2['UPLOAD_ATTACHMENT_SET_UPLOADS'] = var9;
-    var9 = function handleSetFile(arg1) {
+    var4 = function handleSetFile(arg1) {
         var1 = arg1;
         var5 = var1.channelId;
         var2 = var1.id;
@@ -692,19 +692,7 @@ case 31:
         var2 = var2.bind(var1)(var5, var4, var3);
         return var1;
     };
-    var2['UPLOAD_ATTACHMENT_SET_FILE'] = var9;
-    var4 = function handleThreadSidebarClose(arg1) {
-        var1 = arg1;
-        var5 = var1.baseChannelId;
-        var4 = _closure1_slot15;
-        var1 = _closure1_slot8;
-        var3 = var1.FirstThreadMessage;
-        var1 = undefined;
-        var2 = new Array(0);
-        var2 = var4.bind(var1)(var5, var3, var2);
-        return var1;
-    };
-    var2['SIDEBAR_CLOSE'] = var4;
+    var2['UPLOAD_ATTACHMENT_SET_FILE'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var14 = var4;

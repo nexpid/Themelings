@@ -2381,7 +2381,7 @@ case 2:
 case 0:
                     var2 = _closure2_slot3;
                     var8 = null;
-                    if(!(var8 != var2)) { _fun0022_ip = 41; continue _fun0022 }
+                    if(!(var8 != var2)) { _fun0022_ip = 64; continue _fun0022 }
 case 36:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -2404,7 +2404,7 @@ case 136:
                     var2 = var6.bind(var7)(var2, var1);
                     var1 = {'withMutualGuilds': true, 'dispatchWait': true};
                     var1 = var4.bind(var5)(var3, var2, var1);
-case 41:
+case 64:
                     var1 = undefined;
                     return var1;
                 }

@@ -92,16 +92,18 @@ case 0:
             var1 = arg1;
             var19 = var1.application;
             var22 = var1.game;
-            var24 = var1.officialInvite;
+            var25 = var1.officialInvite;
             var21 = var1.viewId;
             var15 = var1.source;
             var18 = var1.trackAction;
-            var25 = var1.onOfficialGuildInviteResolved;
+            var26 = var1.onOfficialGuildInviteResolved;
             var23 = var1.closeModal;
-            var10 = var1.scrollY;
-            var28 = var1.websiteButtons;
+            var16 = var1.scrollY;
+            var29 = var1.websiteButtons;
             var2 = var1.onStoreLinksMeasured;
             var _closure2_slot0 = var2;
+            var10 = var1.onHeaderHeightMeasured;
+            var24 = var1.scrollOffsetRef;
             var1 = _closure1_slot7;
             var4 = undefined;
             var14 = var1.bind(var4)();
@@ -123,7 +125,7 @@ case 0:
             var3 = var12.bind(var4)(var3);
             var3 = var3.GAME_PROFILE;
             var3 = var5.bind(var4)(var3);
-            var26 = var3.analyticsLocations;
+            var27 = var3.analyticsLocations;
             var5 = var6.useCallback;
             var3 = new Array(1);
             var3[0] = var2;
@@ -162,7 +164,7 @@ case 4:
             var1 = var2.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
-            var1['value'] = var26;
+            var1['value'] = var27;
             var7 = _closure1_slot6;
             var6 = _closure1_slot4;
             var5 = {};
@@ -174,7 +176,8 @@ case 4:
             var8 = {};
             var8['application'] = var19;
             var8['game'] = var22;
-            var8['scrollY'] = var10;
+            var8['scrollY'] = var16;
+            var8['onHeightMeasured'] = var10;
             var9 = var3.bind(var4)(var9, var8);
             var8 = new Array(2);
             var8[0] = var9;
@@ -205,7 +208,7 @@ case 4:
             var12 = var3.bind(var4)(var12, var10);
             var10 = new Array(10);
             var10[0] = var12;
-            var13 = var28.length;
+            var13 = var29.length;
             var12 = 0;
             var12 = var13 > var12;
             if(!var12) { _fun0001_ip = 7; continue _fun0001 }
@@ -228,17 +231,17 @@ case 8:
                 return var1;
             };
             var13['onLayout'] = var20;
-            var27 = _closure1_slot1;
-            var29 = _closure1_slot2;
+            var28 = _closure1_slot1;
+            var30 = _closure1_slot2;
             var20 = 9;
-            var20 = var29[var20];
-            var27 = var27.bind(var4)(var20);
+            var20 = var30[var20];
+            var28 = var28.bind(var4)(var20);
             var20 = {};
             var20['application'] = var19;
             var20['game'] = var22;
-            var20['websiteButtons'] = var28;
+            var20['websiteButtons'] = var29;
             var20['trackAction'] = var18;
-            var20 = var17.bind(var4)(var27, var20);
+            var20 = var17.bind(var4)(var28, var20);
             var13['children'] = var20;
             var12 = var17.bind(var4)(var16, var13);
 case 7:
@@ -270,7 +273,7 @@ case 7:
             var13 = var16.bind(var4)(var12);
             var12 = {};
             var12['application'] = var19;
-            var12['analyticsLocations'] = var26;
+            var12['analyticsLocations'] = var27;
             var12['trackAction'] = var18;
             var12 = var17.bind(var4)(var13, var12);
             var10[4] = var12;
@@ -280,7 +283,7 @@ case 7:
             var12 = {};
             var12['closeModal'] = var23;
             var12['game'] = var22;
-            var12['onInviteResolved'] = var25;
+            var12['onInviteResolved'] = var26;
             var12['trackAction'] = var18;
             var12 = var17.bind(var4)(var13, var12);
             var10[5] = var12;
@@ -288,11 +291,12 @@ case 7:
             var12 = var20[var12];
             var13 = var16.bind(var4)(var12);
             var12 = {};
-            var25 = var22.id;
-            var12['gameId'] = var25;
-            var12['officialInvite'] = var24;
+            var26 = var22.id;
+            var12['gameId'] = var26;
+            var12['officialInvite'] = var25;
             var12['closeModal'] = var23;
             var12['trackAction'] = var18;
+            var12['scrollOffsetRef'] = var24;
             var12 = var17.bind(var4)(var13, var12);
             var10[6] = var12;
             var12 = 15;

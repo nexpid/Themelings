@@ -3064,13 +3064,13 @@ case 313:
                     var6 = var5.guild_id;
                     var6 = var4 != var6;
                     var4 = null;
-                    if(!var6) { _fun0015_ip = 314; continue _fun0015 }
+                    if(!var6) { _fun0015_ip = 256; continue _fun0015 }
 case 263:
                     var7 = _closure1_slot7;
                     var6 = var7.getGuild;
                     var5 = var5.guild_id;
                     var4 = var6.bind(var7)(var5);
-case 314:
+case 256:
                     var8['guild'] = var4;
                     var5 = _closure1_slot17;
                     var4 = {};
@@ -3085,19 +3085,19 @@ case 314:
                     var2 = var2.interactionData;
                     var3 = undefined;
                     var2 = var7.bind(var3)(var6, var8, var2);
-                    SaveGenerator(address=176);
-case 315:
+                    SaveGenerator(address=177);
+case 314:
                     return var2;
-case 316:
+case 315:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0015_ip = 317; continue _fun0015 }
-case 49:
+                    if(var6) { _fun0015_ip = 316; continue _fun0015 }
+case 317:
                     var4['interactionLifecycleOptions'] = var2;
                     var3 = var5.bind(var3)(var4);
 case 311:
                     var3 = undefined;
                     return var3;
-case 317:
+case 316:
                     return var2;
 case 310:
                     return var1;
@@ -3156,8 +3156,8 @@ case 320:
             var3['guildId'] = var5;
             var3['data'] = var12;
             var12 = var14.nonce;
-            if(!(var9 == var12)) { _fun0016_ip = 321; continue _fun0016 }
-case 322:
+            if(!(var9 == var12)) { _fun0016_ip = 314; continue _fun0016 }
+case 321:
             var17 = _closure1_slot0;
             var18 = _closure1_slot3;
             var13 = 23;
@@ -3165,7 +3165,7 @@ case 322:
             var17 = var17.bind(var1)(var13);
             var13 = var17.createNonce;
             var12 = var13.bind(var17)();
-case 321:
+case 314:
             var3['nonce'] = var12;
             var3['attachments'] = var7;
             var3['maxSizeCallback'] = var6;
@@ -3201,12 +3201,12 @@ case 321:
             var14['channelId'] = var15;
             var10['data'] = var14;
             var10 = var12.bind(var13)(var11, var10);
-            if(!(var9 != var7)) { _fun0016_ip = 323; continue _fun0016 }
-case 324:
+            if(!(var9 != var7)) { _fun0016_ip = 322; continue _fun0016 }
+case 323:
             var10 = var7.length;
             var9 = 0;
             if(!(!(var10 > var9))) { _fun0016_ip = 299; continue _fun0016 }
-case 323:
+case 322:
             var4 = _closure1_slot21;
             var4 = var4.bind(var1)(var3, var8);
             _fun0016_ip = 318; continue _fun0016;
@@ -3233,7 +3233,7 @@ case 299:
 case 0:
                     var1 = arg1;
                     if(!var1) { _fun0017_ip = 289; continue _fun0017 }
-case 325:
+case 324:
                     var4 = _closure1_slot21;
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot0;

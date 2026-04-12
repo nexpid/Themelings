@@ -809,7 +809,7 @@ case 71:
                 var14 = var12.bind(var14)(var15);
                 var12 = var6 != var14;
                 if(!var12) { _fun0013_ip = 72; continue _fun0013 }
-case 44:
+case 57:
                 var14 = var14.afkChannelId;
                 var13 = var13.id;
                 var12 = var14 === var13;
@@ -885,62 +885,62 @@ case 82:
 case 84:
                 var4 = var8.singleActiveStreamViewerCount;
                 var11 = 25;
-                if(!(var4 <= var11)) { _fun0013_ip = 85; continue _fun0013 }
+                if(!(var4 <= var11)) { _fun0013_ip = 66; continue _fun0013 }
+case 85:
+                if(!var10) { _fun0013_ip = 66; continue _fun0013 }
 case 86:
-                if(!var10) { _fun0013_ip = 85; continue _fun0013 }
-case 87:
                 var4 = var8.singleActiveStreamViewerCount;
                 var5 = var9 > var4;
                 var4 = 'stream_user_joined';
-                if(var5) { _fun0013_ip = 88; continue _fun0013 }
-case 85:
+                if(var5) { _fun0013_ip = 87; continue _fun0013 }
+case 66:
                 var5 = var8.voiceChannelUserCount;
-                if(!(var6 != var5)) { _fun0013_ip = 89; continue _fun0013 }
+                if(!(var6 != var5)) { _fun0013_ip = 88; continue _fun0013 }
+case 89:
+                if(!(var6 != var7)) { _fun0013_ip = 88; continue _fun0013 }
 case 90:
-                if(!(var6 != var7)) { _fun0013_ip = 89; continue _fun0013 }
-case 91:
                 var5 = var8.voiceChannelUserCount;
-                if(!(var5 <= var11)) { _fun0013_ip = 89; continue _fun0013 }
-case 92:
+                if(!(var5 <= var11)) { _fun0013_ip = 88; continue _fun0013 }
+case 91:
                 var5 = var8.voiceChannelUserCount;
                 var12 = var7 > var5;
                 var5 = 'user_join';
-                if(var12) { _fun0013_ip = 93; continue _fun0013 }
-case 89:
+                if(var12) { _fun0013_ip = 92; continue _fun0013 }
+case 88:
                 var12 = var8.voiceChannelUserCount;
-                if(!(var6 != var12)) { _fun0013_ip = 94; continue _fun0013 }
+                if(!(var6 != var12)) { _fun0013_ip = 93; continue _fun0013 }
+case 94:
+                if(!(var6 != var7)) { _fun0013_ip = 93; continue _fun0013 }
 case 95:
-                if(!(var6 != var7)) { _fun0013_ip = 94; continue _fun0013 }
-case 96:
                 var6 = var8.voiceChannelUserCount;
-                if(!(var6 <= var11)) { _fun0013_ip = 94; continue _fun0013 }
-case 97:
+                if(!(var6 <= var11)) { _fun0013_ip = 93; continue _fun0013 }
+case 96:
                 var6 = var8.voiceChannelUserCount;
                 var7 = var7 < var6;
                 var6 = 'user_leave';
-                if(var7) { _fun0013_ip = 98; continue _fun0013 }
-case 94:
+                if(var7) { _fun0013_ip = 97; continue _fun0013 }
+case 93:
                 var7 = var8.singleActiveStreamViewerCount;
                 var11 = var7 <= var11;
                 var7 = undefined;
-                if(!var11) { _fun0013_ip = 99; continue _fun0013 }
-case 100:
+                if(!var11) { _fun0013_ip = 98; continue _fun0013 }
+case 99:
                 var7 = undefined;
-                if(!var10) { _fun0013_ip = 99; continue _fun0013 }
-case 101:
+                if(!var10) { _fun0013_ip = 98; continue _fun0013 }
+case 100:
                 var8 = var8.singleActiveStreamViewerCount;
                 var8 = var9 < var8;
                 var7 = undefined;
-                if(!var8) { _fun0013_ip = 99; continue _fun0013 }
-case 102:
+                if(!var8) { _fun0013_ip = 98; continue _fun0013 }
+case 101:
                 var7 = 'stream_user_left';
-case 99:
-                var6 = var7;
 case 98:
+                var6 = var7;
+case 97:
                 var5 = var6;
-case 93:
+case 92:
                 var4 = var5;
-case 88:
+case 87:
                 var3 = var4;
 case 83:
                 var2 = var3;
@@ -995,30 +995,30 @@ case 0:
                 var3 = var3.bind(var6)(var1);
                 var1 = var3.isNotNullish;
                 var1 = var1.bind(var3)(var11);
-                if(var1) { _fun0015_ip = 103; continue _fun0015 }
-case 104:
-                var4 = _closure1_slot4;
-                _fun0015_ip = 105; continue _fun0015;
+                if(var1) { _fun0015_ip = 102; continue _fun0015 }
 case 103:
+                var4 = _closure1_slot4;
+                _fun0015_ip = 104; continue _fun0015;
+case 102:
                 var3 = _closure1_slot3;
                 var1 = var3.getEmbeddedActivitiesForChannel;
                 var4 = var1.bind(var3)(var11);
-case 105:
+case 104:
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot1;
                 var1 = var1[var8];
                 var3 = var3.bind(var6)(var1);
                 var1 = var3.isNotNullish;
                 var1 = var1.bind(var3)(var9);
-                if(var1) { _fun0015_ip = 106; continue _fun0015 }
-case 107:
-                var3 = _closure1_slot4;
-                _fun0015_ip = 108; continue _fun0015;
+                if(var1) { _fun0015_ip = 105; continue _fun0015 }
 case 106:
+                var3 = _closure1_slot4;
+                _fun0015_ip = 107; continue _fun0015;
+case 105:
                 var11 = _closure1_slot3;
                 var1 = var11.getEmbeddedActivitiesForChannel;
                 var3 = var1.bind(var11)(var9);
-case 108:
+case 107:
                 var1 = {};
                 var1['connectedActivityLocation'] = var7;
                 var1['voiceChannelId'] = var9;
@@ -1030,11 +1030,11 @@ case 108:
                 var5 = var5.bind(var6)(var4);
                 var4 = var5.isNotNullish;
                 var4 = var4.bind(var5)(var10);
-                if(var4) { _fun0015_ip = 109; continue _fun0015 }
+                if(var4) { _fun0015_ip = 108; continue _fun0015 }
 case 63:
                 var4 = _closure1_slot4;
                 _fun0015_ip = 64; continue _fun0015;
-case 109:
+case 108:
                 var9 = _closure1_slot3;
                 var5 = var9.getEmbeddedActivitiesForChannel;
                 var4 = var5.bind(var9)(var10);
@@ -1047,12 +1047,12 @@ case 64:
                 var4 = var5.isNotNullish;
                 var5 = var4.bind(var5)(var7);
                 var4 = null;
-                if(!var5) { _fun0015_ip = 110; continue _fun0015 }
-case 111:
+                if(!var5) { _fun0015_ip = 109; continue _fun0015 }
+case 110:
                 var6 = _closure1_slot3;
                 var5 = var6.getSelfEmbeddedActivityForLocation;
                 var4 = var5.bind(var6)(var7);
-case 110:
+case 109:
                 var1['userConnectedActivity'] = var4;
                 var1['voiceChannelActivities'] = var3;
                 var3 = _closure1_slot5;
@@ -1087,19 +1087,19 @@ case 0:
                         var1 = null;
                         var5 = var1 == var5;
                         var1 = undefined;
-                        if(var5) { _fun0017_ip = 112; continue _fun0017 }
+                        if(var5) { _fun0017_ip = 111; continue _fun0017 }
 case 79:
                         var5 = _closure3_slot1;
                         var1 = var5.applicationId;
-case 112:
+case 111:
                         var1 = var4 === var1;
-                        if(!var1) { _fun0017_ip = 113; continue _fun0017 }
+                        if(!var1) { _fun0017_ip = 112; continue _fun0017 }
 case 31:
                         var3 = var3.launchId;
                         var2 = _closure3_slot1;
                         var2 = var2.launchId;
                         var1 = var3 === var2;
-case 113:
+case 112:
                         return var1;
                     }
                 };
@@ -1113,7 +1113,7 @@ case 113:
                 var1 = var13.isNotNullish;
                 var13 = var1.bind(var13)(var15);
                 var1 = undefined;
-                if(!var13) { _fun0016_ip = 114; continue _fun0016 }
+                if(!var13) { _fun0016_ip = 87; continue _fun0016 }
 case 48:
                 var16 = var4.voiceChannelActivities;
                 var15 = var16.find;
@@ -1140,8 +1140,8 @@ case 48:
                 var15 = var15.length;
                 var9 = var9.length;
                 var15 = var15 < var9;
-                if(!var15) { _fun0016_ip = 115; continue _fun0016 }
-case 108:
+                if(!var15) { _fun0016_ip = 113; continue _fun0016 }
+case 107:
                 var16 = _closure1_slot0;
                 var9 = _closure1_slot1;
                 var9 = var9[var12];
@@ -1149,191 +1149,191 @@ case 108:
                 var16 = var17.isNotNullish;
                 var9 = var4.voiceChannelId;
                 var15 = var16.bind(var17)(var9);
-case 115:
+case 113:
                 var9 = undefined;
+                if(!var15) { _fun0016_ip = 114; continue _fun0016 }
+case 115:
+                var9 = 'activity_launch';
+case 114:
+                var15 = var11 === var14;
                 if(!var15) { _fun0016_ip = 116; continue _fun0016 }
 case 117:
-                var9 = 'activity_launch';
-case 116:
-                var15 = var11 === var14;
-                if(!var15) { _fun0016_ip = 118; continue _fun0016 }
-case 119:
                 var17 = _closure1_slot0;
                 var16 = _closure1_slot1;
                 var16 = var16[var12];
                 var17 = var17.bind(var11)(var16);
                 var16 = var17.isNotNullish;
                 var15 = var16.bind(var17)(var13);
+case 116:
+                if(!var15) { _fun0016_ip = 118; continue _fun0016 }
+case 119:
+                var9 = 'activity_end';
 case 118:
+                var15 = var11 === var13;
                 if(!var15) { _fun0016_ip = 120; continue _fun0016 }
 case 121:
-                var9 = 'activity_end';
-case 120:
-                var15 = var11 === var13;
-                if(!var15) { _fun0016_ip = 122; continue _fun0016 }
-case 123:
                 var17 = _closure1_slot0;
                 var16 = _closure1_slot1;
                 var16 = var16[var12];
                 var17 = var17.bind(var11)(var16);
                 var16 = var17.isNotNullish;
                 var15 = var16.bind(var17)(var14);
-case 122:
-                if(!var15) { _fun0016_ip = 124; continue _fun0016 }
-case 110:
+case 120:
+                if(!var15) { _fun0016_ip = 122; continue _fun0016 }
+case 109:
                 var16 = var14.userIds;
                 var17 = var16.size;
                 var16 = 1;
                 var15 = var17 > var16;
+case 122:
+                if(!var15) { _fun0016_ip = 123; continue _fun0016 }
 case 124:
-                if(!var15) { _fun0016_ip = 125; continue _fun0016 }
-case 126:
                 var9 = 'activity_user_join';
-case 125:
+case 123:
                 var16 = _closure1_slot0;
                 var15 = _closure1_slot1;
                 var15 = var15[var12];
                 var16 = var16.bind(var11)(var15);
                 var15 = var16.isNotNullish;
                 var15 = var15.bind(var16)(var14);
-                if(!var15) { _fun0016_ip = 127; continue _fun0016 }
-case 128:
+                if(!var15) { _fun0016_ip = 125; continue _fun0016 }
+case 126:
                 var17 = _closure1_slot0;
                 var16 = _closure1_slot1;
                 var16 = var16[var12];
                 var17 = var17.bind(var11)(var16);
                 var16 = var17.isNotNullish;
                 var15 = var16.bind(var17)(var13);
-case 127:
+case 125:
                 var1 = var9;
-                if(!var15) { _fun0016_ip = 114; continue _fun0016 }
-case 129:
+                if(!var15) { _fun0016_ip = 87; continue _fun0016 }
+case 127:
                 var15 = var14.userIds;
                 var16 = var15.size;
                 var15 = var13.userIds;
                 var15 = var15.size;
-                if(!(var16 > var15)) { _fun0016_ip = 130; continue _fun0016 }
-case 131:
+                if(!(var16 > var15)) { _fun0016_ip = 128; continue _fun0016 }
+case 129:
                 var9 = 'activity_user_join';
-case 130:
+case 128:
                 var14 = var14.userIds;
                 var14 = var14.size;
                 var13 = var13.userIds;
                 var13 = var13.size;
-                if(!(var14 < var13)) { _fun0016_ip = 132; continue _fun0016 }
-case 133:
+                if(!(var14 < var13)) { _fun0016_ip = 92; continue _fun0016 }
+case 98:
                 var9 = 'activity_user_left';
-case 132:
+case 92:
                 var1 = var9;
-case 114:
+case 87:
                 var9 = var1;
-                if(var8) { _fun0016_ip = 134; continue _fun0016 }
-case 135:
+                if(var8) { _fun0016_ip = 130; continue _fun0016 }
+case 131:
                 var8 = var4.connectedChannelActivities;
                 var8 = var8.length;
                 var3 = var3.length;
                 var3 = var8 < var3;
-                if(!var3) { _fun0016_ip = 136; continue _fun0016 }
-case 137:
+                if(!var3) { _fun0016_ip = 132; continue _fun0016 }
+case 133:
                 var8 = var4.channelActivities;
                 var8 = var8.length;
                 var5 = var5.length;
                 var3 = var8 < var5;
-case 136:
-                if(!var3) { _fun0016_ip = 138; continue _fun0016 }
-case 139:
+case 132:
+                if(!var3) { _fun0016_ip = 134; continue _fun0016 }
+case 135:
                 var1 = 'activity_launch';
-case 138:
+case 134:
                 var3 = var4.userConnectedActivity;
                 var5 = null;
                 var5 = var5 == var10;
-                if(!var5) { _fun0016_ip = 140; continue _fun0016 }
-case 141:
+                if(!var5) { _fun0016_ip = 136; continue _fun0016 }
+case 137:
                 var13 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var8 = var8[var12];
                 var13 = var13.bind(var11)(var8);
                 var8 = var13.isNotNullish;
                 var5 = var8.bind(var13)(var3);
-case 140:
-                if(!var5) { _fun0016_ip = 142; continue _fun0016 }
-case 143:
+case 136:
+                if(!var5) { _fun0016_ip = 138; continue _fun0016 }
+case 139:
                 var1 = 'activity_end';
-case 142:
+case 138:
                 var8 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var5 = var5[var12];
                 var8 = var8.bind(var11)(var5);
                 var5 = var8.isNotNullish;
                 var5 = var5.bind(var8)(var10);
-                if(!var5) { _fun0016_ip = 144; continue _fun0016 }
-case 145:
+                if(!var5) { _fun0016_ip = 140; continue _fun0016 }
+case 141:
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var7 = var7[var12];
                 var8 = var8.bind(var11)(var7);
                 var7 = var8.isNotNullish;
                 var5 = var7.bind(var8)(var3);
-case 144:
+case 140:
                 var9 = var1;
-                if(!var5) { _fun0016_ip = 134; continue _fun0016 }
-case 146:
+                if(!var5) { _fun0016_ip = 130; continue _fun0016 }
+case 142:
                 var5 = var10.userIds;
                 var7 = var5.size;
                 var5 = var3.userIds;
                 var5 = var5.size;
-                if(!(var7 > var5)) { _fun0016_ip = 147; continue _fun0016 }
-case 148:
+                if(!(var7 > var5)) { _fun0016_ip = 143; continue _fun0016 }
+case 144:
                 var1 = 'activity_user_join';
-case 147:
+case 143:
                 var5 = var10.userIds;
                 var5 = var5.size;
                 var3 = var3.userIds;
                 var3 = var3.size;
-                if(!(var5 < var3)) { _fun0016_ip = 149; continue _fun0016 }
-case 150:
+                if(!(var5 < var3)) { _fun0016_ip = 145; continue _fun0016 }
+case 146:
                 var1 = 'activity_user_left';
-case 149:
+case 145:
                 var9 = var1;
-case 134:
+case 130:
                 var5 = null;
                 var1 = var5 != var9;
-                if(var1) { _fun0016_ip = 151; continue _fun0016 }
-case 152:
+                if(var1) { _fun0016_ip = 147; continue _fun0016 }
+case 148:
                 var3 = var4.connectedActivityLocation;
                 var3 = var5 == var3;
-                if(!var3) { _fun0016_ip = 153; continue _fun0016 }
-case 154:
+                if(!var3) { _fun0016_ip = 149; continue _fun0016 }
+case 150:
                 var3 = var5 == var2;
-case 153:
+case 149:
                 var1 = var3;
-case 151:
+case 147:
                 var3 = var9;
-                if(var1) { _fun0016_ip = 155; continue _fun0016 }
-case 156:
+                if(var1) { _fun0016_ip = 151; continue _fun0016 }
+case 152:
                 var1 = var4.connectedActivityLocation;
-                if(!(var5 == var1)) { _fun0016_ip = 157; continue _fun0016 }
-case 158:
+                if(!(var5 == var1)) { _fun0016_ip = 153; continue _fun0016 }
+case 154:
                 var7 = var5 != var2;
                 var1 = 'activity_launch';
-                if(var7) { _fun0016_ip = 159; continue _fun0016 }
-case 157:
+                if(var7) { _fun0016_ip = 155; continue _fun0016 }
+case 153:
                 var7 = var4.connectedActivityLocation;
-                if(!(var5 != var7)) { _fun0016_ip = 160; continue _fun0016 }
-case 161:
+                if(!(var5 != var7)) { _fun0016_ip = 156; continue _fun0016 }
+case 157:
                 var7 = var5 == var2;
                 var2 = 'activity_end';
-                if(var7) { _fun0016_ip = 162; continue _fun0016 }
-case 160:
+                if(var7) { _fun0016_ip = 158; continue _fun0016 }
+case 156:
                 var8 = var5 != var10;
-                if(!var8) { _fun0016_ip = 163; continue _fun0016 }
-case 164:
+                if(!var8) { _fun0016_ip = 159; continue _fun0016 }
+case 160:
                 var7 = var4.userConnectedActivity;
                 var8 = var5 != var7;
-case 163:
+case 159:
                 var7 = var9;
-                if(!var8) { _fun0016_ip = 165; continue _fun0016 }
-case 166:
+                if(!var8) { _fun0016_ip = 161; continue _fun0016 }
+case 162:
                 var8 = var4.userConnectedActivity;
                 var8 = var8.userIds;
                 var11 = var8.size;
@@ -1341,62 +1341,62 @@ case 166:
                 var8 = var8.size;
                 var11 = var11 < var8;
                 var8 = 'activity_user_join';
-                if(var11) { _fun0016_ip = 167; continue _fun0016 }
-case 168:
+                if(var11) { _fun0016_ip = 163; continue _fun0016 }
+case 164:
                 var11 = var4.userConnectedActivity;
                 var11 = var11.userIds;
                 var11 = var11.size;
                 var10 = var10.userIds;
                 var10 = var10.size;
-                if(!(var11 > var10)) { _fun0016_ip = 169; continue _fun0016 }
-case 170:
+                if(!(var11 > var10)) { _fun0016_ip = 165; continue _fun0016 }
+case 166:
                 var9 = 'activity_user_leave';
-case 169:
-                var8 = var9;
-case 167:
-                var7 = var8;
 case 165:
+                var8 = var9;
+case 163:
+                var7 = var8;
+case 161:
                 var2 = var7;
-case 162:
+case 158:
                 var1 = var2;
-case 159:
-                var3 = var1;
 case 155:
+                var3 = var1;
+case 151:
                 var2 = var5 != var3;
-                if(var2) { _fun0016_ip = 171; continue _fun0016 }
-case 172:
+                if(var2) { _fun0016_ip = 167; continue _fun0016 }
+case 168:
                 var1 = var4.connectedFrame;
                 var1 = var5 == var1;
-                if(!var1) { _fun0016_ip = 173; continue _fun0016 }
-case 174:
+                if(!var1) { _fun0016_ip = 169; continue _fun0016 }
+case 170:
                 var1 = var5 == var6;
-case 173:
+case 169:
                 var2 = var1;
-case 171:
+case 167:
                 var1 = var3;
-                if(var2) { _fun0016_ip = 175; continue _fun0016 }
-case 176:
+                if(var2) { _fun0016_ip = 171; continue _fun0016 }
+case 172:
                 var2 = var4.connectedFrame;
-                if(!(var5 == var2)) { _fun0016_ip = 177; continue _fun0016 }
-case 178:
+                if(!(var5 == var2)) { _fun0016_ip = 173; continue _fun0016 }
+case 174:
                 var7 = var5 != var6;
                 var2 = 'activity_launch';
-                if(var7) { _fun0016_ip = 179; continue _fun0016 }
-case 177:
+                if(var7) { _fun0016_ip = 175; continue _fun0016 }
+case 173:
                 var4 = var4.connectedFrame;
                 var4 = var5 != var4;
-                if(!var4) { _fun0016_ip = 180; continue _fun0016 }
-case 181:
+                if(!var4) { _fun0016_ip = 176; continue _fun0016 }
+case 177:
                 var4 = var5 == var6;
-case 180:
-                if(!var4) { _fun0016_ip = 182; continue _fun0016 }
-case 183:
-                var3 = 'activity_end';
-case 182:
-                var2 = var3;
+case 176:
+                if(!var4) { _fun0016_ip = 178; continue _fun0016 }
 case 179:
-                var1 = var2;
+                var3 = 'activity_end';
+case 178:
+                var2 = var3;
 case 175:
+                var1 = var2;
+case 171:
                 return var1;
             }
         };
@@ -1445,18 +1445,18 @@ case 0:
                 var5 = var1.gameActivityHangStatus;
                 var1 = var4.inVoice;
                 if(var1) { _fun0018_ip = 80; continue _fun0018 }
-case 184:
+case 180:
                 var1 = undefined;
                 return var1;
 case 80:
                 var3 = null;
-                if(!(var3 != var6)) { _fun0018_ip = 113; continue _fun0018 }
-case 185:
+                if(!(var3 != var6)) { _fun0018_ip = 112; continue _fun0018 }
+case 181:
                 var2 = var4.hangStatus;
                 var1 = 'hang_status_select';
-                if(!(var6 === var2)) { _fun0018_ip = 186; continue _fun0018 }
-case 113:
-                if(!(var3 != var8)) { _fun0018_ip = 69; continue _fun0018 }
+                if(!(var6 === var2)) { _fun0018_ip = 182; continue _fun0018 }
+case 112:
+                if(!(var3 != var8)) { _fun0018_ip = 183; continue _fun0018 }
 case 32:
                 var10 = var8.status;
                 var2 = var4.customHangStatus;
@@ -1464,13 +1464,13 @@ case 32:
                 var6 = undefined;
                 var9 = undefined;
                 if(var7) { _fun0018_ip = 29; continue _fun0018 }
-case 187:
+case 184:
                 var9 = var2.status;
 case 29:
                 var7 = 'hang_status_select';
                 var2 = var7;
-                if(!(var10 === var9)) { _fun0018_ip = 74; continue _fun0018 }
-case 188:
+                if(!(var10 === var9)) { _fun0018_ip = 185; continue _fun0018 }
+case 186:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var9 = 26;
@@ -1481,28 +1481,28 @@ case 188:
                 var11 = var4.customHangStatus;
                 var12 = var3 == var11;
                 var6 = undefined;
-                if(var12) { _fun0018_ip = 189; continue _fun0018 }
+                if(var12) { _fun0018_ip = 187; continue _fun0018 }
 case 44:
                 var6 = var11.emoji;
-case 189:
+case 187:
                 var6 = var9.bind(var10)(var8, var6);
                 var2 = var7;
-                if(!var6) { _fun0018_ip = 74; continue _fun0018 }
-case 69:
+                if(!var6) { _fun0018_ip = 185; continue _fun0018 }
+case 183:
                 var7 = var3 != var5;
                 var3 = undefined;
                 if(!var7) { _fun0018_ip = 56; continue _fun0018 }
-case 190:
+case 188:
                 var4 = var4.gameActivityHangStatus;
                 var3 = undefined;
                 if(!(var4 !== var5)) { _fun0018_ip = 56; continue _fun0018 }
-case 191:
+case 189:
                 var3 = 'hang_status_select';
 case 56:
                 var2 = var3;
-case 74:
+case 185:
                 var1 = var2;
-case 186:
+case 182:
                 return var1;
             }
         };

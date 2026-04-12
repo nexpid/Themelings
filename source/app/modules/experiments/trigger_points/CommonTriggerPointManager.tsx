@@ -74,7 +74,7 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -142,23 +142,9 @@ case 0:
                 var6 = null;
                 if(!(var6 != var1)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                if(!(var6 != var5)) { _fun0003_ip = 7; continue _fun0003 }
-case 11:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var1 = 5;
-                var2 = var2[var1];
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                var3 = var1.GuildVoiceTriggerPoint;
-                var2 = var3.trigger;
-                var1 = {};
-                var1['guildId'] = var5;
-                var1 = var2.bind(var3)(var1);
-case 7:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var1 = 6;
+                var1 = 5;
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
@@ -166,10 +152,10 @@ case 7:
                 var2 = var3.trigger;
                 var1 = {};
                 var6 = var6 != var5;
-                if(!var6) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                var4 = var5;
+                if(!var6) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
+                var4 = var5;
+case 11:
                 var1['guildId'] = var4;
                 var1 = var2.bind(var3)(var1);
 case 9:
@@ -186,7 +172,7 @@ case 9:
         var7 = function value() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 6;
+            var1 = 5;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
@@ -203,7 +189,7 @@ case 9:
         var6 = function value() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 7;
+            var1 = 6;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
@@ -223,7 +209,7 @@ case 9:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

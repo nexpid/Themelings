@@ -302,6 +302,7 @@ case 0:
             var5['pendingDisplayNameStyles'] = var13;
             var8 = true;
             var5['compact'] = var8;
+            var5['hideFrame'] = var8;
             var8 = 320;
             var5['maxWidth'] = var8;
             var8 = 8;

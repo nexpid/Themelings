@@ -488,20 +488,26 @@ case 56:
     };
     var3['getQuestType'] = var4;
     var4 = function isQuestFeaturedByHero(arg1, arg2) {
-        var2 = arg2;
-        var _closure2_slot0 = var2;
-        var2 = arg1;
-        var3 = var2.ctaQuests;
-        var2 = var3.some;
-        var1 = function(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
             var1 = arg1;
-            var2 = var1.questId;
-            var1 = _closure2_slot0;
-            var1 = var2 === var1;
+            var5 = var1.questIds;
+            var1 = null;
+            var3 = var1 == var5;
+            var2 = undefined;
+            if(var3) { _fun0009_ip = 33; continue _fun0009 }
+case 29:
+            var4 = var5.includes;
+            var3 = arg2;
+            var2 = var4.bind(var5)(var3);
+case 33:
+            var1 = var1 != var2;
+            if(!var1) { _fun0009_ip = 57; continue _fun0009 }
+case 58:
+            var1 = var2;
+case 57:
             return var1;
-        };
-        var1 = var2.bind(var3)(var1);
-        return var1;
+        }
     };
     var3['isQuestFeaturedByHero'] = var4;
     var2 = function setQuestHomeUtmContext(arg1) {

@@ -891,27 +891,27 @@ case 80:
                     var6 = var2 == var5;
                     var4 = undefined;
                     if(var6) { _fun0013_ip = 79; continue _fun0013 }
-case 16:
+case 81:
                     var4 = var5.layout;
 case 79:
-                    if(!(var2 != var4)) { _fun0013_ip = 81; continue _fun0013 }
-case 32:
+                    if(!(var2 != var4)) { _fun0013_ip = 65; continue _fun0013 }
+case 82:
                     var3 = var3.nativeEvent;
                     var3 = var3.layout;
                     var5 = var3.width;
                     var4 = var3.height;
                     var3 = 0;
-                    if(!(var5 > var3)) { _fun0013_ip = 81; continue _fun0013 }
-case 82:
-                    if(!(var4 > var3)) { _fun0013_ip = 81; continue _fun0013 }
+                    if(!(var5 > var3)) { _fun0013_ip = 65; continue _fun0013 }
 case 83:
+                    if(!(var4 > var3)) { _fun0013_ip = 65; continue _fun0013 }
+case 63:
                     var3 = _closure2_slot27;
                     var3 = var3.current;
-                    if(!(var2 != var3)) { _fun0013_ip = 81; continue _fun0013 }
-case 53:
+                    if(!(var2 != var3)) { _fun0013_ip = 65; continue _fun0013 }
+case 76:
                     var2 = var3.updateVideoDimensions;
                     var2 = var2.bind(var3)(var5, var4);
-case 81:
+case 65:
                     return var1;
                 }
             };
@@ -1017,7 +1017,7 @@ case 84:
                     var11 = var8 != var10;
                     var7 = 0;
                     if(!var11) { _fun0017_ip = 86; continue _fun0017 }
-case 81:
+case 87:
                     var7 = var10;
 case 86:
                     var5['top'] = var7;
@@ -1025,46 +1025,46 @@ case 86:
                     var7 = var8 == var7;
                     var10 = undefined;
                     if(var7) { _fun0017_ip = 7; continue _fun0017 }
-case 87:
+case 88:
                     var7 = _closure2_slot4;
                     var10 = var7.bottom;
 case 7:
                     var11 = var8 != var10;
                     var7 = 0;
-                    if(!var11) { _fun0017_ip = 88; continue _fun0017 }
-case 89:
+                    if(!var11) { _fun0017_ip = 89; continue _fun0017 }
+case 90:
                     var7 = var10;
-case 88:
+case 89:
                     var5['bottom'] = var7;
                     var7 = _closure2_slot4;
                     var7 = var8 == var7;
                     var10 = undefined;
                     if(var7) { _fun0017_ip = 48; continue _fun0017 }
-case 90:
+case 91:
                     var7 = _closure2_slot4;
                     var10 = var7.left;
 case 48:
                     var11 = var8 != var10;
                     var7 = 0;
                     if(!var11) { _fun0017_ip = 46; continue _fun0017 }
-case 91:
+case 92:
                     var7 = var10;
 case 46:
                     var5['left'] = var7;
                     var7 = _closure2_slot4;
                     var10 = var8 == var7;
                     var7 = undefined;
-                    if(var10) { _fun0017_ip = 92; continue _fun0017 }
+                    if(var10) { _fun0017_ip = 93; continue _fun0017 }
 case 49:
                     var9 = _closure2_slot4;
                     var7 = var9.right;
-case 92:
+case 93:
                     var8 = var8 != var7;
                     var6 = 0;
-                    if(!var8) { _fun0017_ip = 93; continue _fun0017 }
-case 94:
+                    if(!var8) { _fun0017_ip = 94; continue _fun0017 }
+case 95:
                     var6 = var7;
-case 93:
+case 94:
                     var5['right'] = var6;
                     var1['style'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
@@ -1083,25 +1083,25 @@ case 0:
                     var5 = null;
                     var2 = var5 == var1;
                     var1 = null;
-                    if(var2) { _fun0018_ip = 95; continue _fun0018 }
+                    if(var2) { _fun0018_ip = 96; continue _fun0018 }
 case 35:
                     var2 = {};
                     var3 = _closure2_slot9;
                     var6 = var5 == var3;
                     var3 = undefined;
                     if(var6) { _fun0018_ip = 73; continue _fun0018 }
-case 96:
+case 97:
                     var6 = _closure2_slot9;
                     var3 = var6.url;
 case 73:
-                    if(!(var5 == var3)) { _fun0018_ip = 97; continue _fun0018 }
-case 98:
+                    if(!(var5 == var3)) { _fun0018_ip = 98; continue _fun0018 }
+case 99:
                     var4 = _closure2_slot8;
                     var3 = var4.url;
-case 97:
+case 98:
                     var2['uri'] = var3;
                     var1 = var2;
-case 95:
+case 96:
                     return var1;
                 }
             };
@@ -1129,8 +1129,8 @@ case 71:
                 }
             };
             var6 = var9.bind(var37)(var3, var6);
-            if(!(var1 != var35)) { _fun0001_ip = 99; continue _fun0001 }
-case 100:
+            if(!(var1 != var35)) { _fun0001_ip = 100; continue _fun0001 }
+case 101:
             var3 = 'landscape';
             var9 = var3 === var4;
             var4 = _closure1_slot7;
@@ -1165,23 +1165,23 @@ case 100:
             var2['onVideoLayout'] = var14;
             var2['videoRef'] = var13;
             var13 = 'top-left';
-            if(!var9) { _fun0001_ip = 101; continue _fun0001 }
-case 102:
+            if(!var9) { _fun0001_ip = 102; continue _fun0001 }
+case 103:
             var13 = 'center';
-case 101:
+case 102:
             var2['bufferingSpinnerPlacement'] = var13;
             var2['captionsEnabled'] = var10;
             var10 = var9;
-            if(!var9) { _fun0001_ip = 103; continue _fun0001 }
-case 104:
+            if(!var9) { _fun0001_ip = 104; continue _fun0001 }
+case 105:
             var10 = var12;
-case 103:
+case 104:
             var2['showCaptionsButton'] = var10;
             var10 = var9;
-            if(!var10) { _fun0001_ip = 105; continue _fun0001 }
-case 106:
+            if(!var10) { _fun0001_ip = 106; continue _fun0001 }
+case 107:
             var10 = var11;
-case 105:
+case 106:
             var2['showTranscriptButton'] = var10;
             var2['showFullscreenButton'] = var9;
             var2['showProgress'] = var9;
@@ -1190,7 +1190,7 @@ case 105:
             var2['onToggleFullscreen'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 99:
+case 100:
             return var1;
         }
     };

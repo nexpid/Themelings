@@ -477,7 +477,7 @@ case 0:
                     var5 = var1 == var5;
                     var1 = undefined;
                     if(var5) { _fun0008_ip = 46; continue _fun0008 }
-case 3:
+case 47:
                     var4 = _closure2_slot0;
                     var1 = var4.guild_id;
 case 46:
@@ -534,7 +534,7 @@ case 0:
                     var _closure3_slot1 = var19;
                     var4 = new Array(0);
                     var1 = _closure2_slot3;
-                    if(var1) { _fun0009_ip = 47; continue _fun0009 }
+                    if(var1) { _fun0009_ip = 48; continue _fun0009 }
 case 38:
                     var8 = {};
                     var8['sections'] = var4;
@@ -589,8 +589,8 @@ case 0:
                             var1 = undefined;
                             var11 = null;
                             var8 = 0;
-                            if(!var5) { _fun0010_ip = 48; continue _fun0010 }
-case 49:
+                            if(!var5) { _fun0010_ip = 49; continue _fun0010 }
+case 50:
                             var16 = var10[var8];
                             var17 = function _loop(arg1) {
                                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -608,12 +608,12 @@ case 0:
                                     };
                                     var4 = var4.bind(var5)(var2);
                                     var2 = null;
-                                    if(!(var2 != var4)) { _fun0011_ip = 50; continue _fun0011 }
-case 51:
+                                    if(!(var2 != var4)) { _fun0011_ip = 51; continue _fun0011 }
+case 46:
                                     var2 = _closure4_slot1;
                                     var1 = var3.soundId;
                                     var2[var1] = var3;
-case 50:
+case 51:
                                     var1 = undefined;
                                     return var1;
                                 }
@@ -639,8 +639,8 @@ case 55:
 case 54:
                             var8 = var8 + 1;
                             var5 = var10.length;
-                            if(var8 < var5) { _fun0010_ip = 49; continue _fun0010 }
-case 48:
+                            if(var8 < var5) { _fun0010_ip = 50; continue _fun0010 }
+case 49:
                             var5 = new Array(0);
                             var8 = _closure1_slot12;
                             var10 = var8.bind(var1)(var9);
@@ -931,7 +931,7 @@ case 93:
                     var2['lockedCustomSoundCount'] = var5;
                     var1['soundCounts'] = var2;
                     _fun0009_ip = 96; continue _fun0009;
-case 47:
+case 48:
                     var7 = _closure1_slot15;
                     var6 = _closure2_slot5;
                     var2 = undefined;

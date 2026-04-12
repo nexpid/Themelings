@@ -234,7 +234,7 @@ case 11:
         var5['toastText'] = var10;
         var5 = var8.bind(var9)(var5);
         var _closure1_slot7 = var5;
-        var5 = 13;
+        var5 = 15;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;
@@ -242,45 +242,81 @@ case 11:
         var5 = var6.bind(var7)(var5);
         var3['ToastEmoji'] = var4;
         var2 = function showDoubleTapEmojiUpdatedToast(arg1) {
-            var1 = arg1;
-            var1 = var1.emoji;
-            var _closure2_slot0 = var1;
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 12;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.open;
-            var2 = {};
-            var6 = 'DEFAULT_REACTION_EMOJI_UPDATED';
-            var2['key'] = var6;
-            var6 = function icon() {
-                var4 = _closure1_slot6;
-                var3 = _closure1_slot8;
-                var2 = {};
-                var1 = _closure2_slot0;
-                var2['emoji'] = var1;
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var1 = arg1;
+                var8 = var1.emoji;
+                var _closure2_slot0 = var8;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 12;
+                var3 = var3[var1];
                 var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2);
-                return var1;
-            };
-            var2['icon'] = var6;
-            var5 = function content() {
-                var4 = _closure1_slot6;
-                var3 = _closure1_slot9;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.getIsScreenReaderEnabled;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var3 = 14;
+                var3 = var5[var3];
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.open;
+                var3 = {};
+                var7 = 'DEFAULT_REACTION_EMOJI_UPDATED';
+                var3['key'] = var7;
+                var7 = function icon() {
+                    var4 = _closure1_slot6;
+                    var3 = _closure1_slot8;
+                    var2 = {};
+                    var1 = _closure2_slot0;
+                    var2['emoji'] = var1;
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3, var2);
+                    return var1;
+                };
+                var3['icon'] = var7;
+                var6 = function content() {
+                    var4 = _closure1_slot6;
+                    var3 = _closure1_slot9;
+                    var2 = {};
+                    var1 = _closure2_slot0;
+                    var2['emoji'] = var1;
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3, var2);
+                    return var1;
+                };
+                var3['content'] = var6;
+                var6 = 3000;
+                var3['toastDurationMs'] = var6;
+                var3 = var4.bind(var5)(var3);
+                _fun0004_ip = 15; continue _fun0004;
+case 13:
+                var5 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var2 = 13;
+                var2 = var9[var2];
+                var2 = var5.bind(var1)(var2);
+                var4 = var2.AccessibilityAnnouncer;
+                var3 = var4.announce;
+                var2 = 11;
+                var6 = var9[var2];
+                var6 = var5.bind(var1)(var6);
+                var7 = var6.intl;
+                var6 = var7.formatToPlainString;
+                var2 = var9[var2];
+                var2 = var5.bind(var1)(var2);
+                var2 = var2.t;
+                var5 = var2.nKY0Fl;
                 var2 = {};
-                var1 = _closure2_slot0;
-                var2['emoji'] = var1;
-                var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2);
+                var8 = var8.name;
+                var2['emojiName'] = var8;
+                var2 = var6.bind(var7)(var5, var2);
+                var2 = var3.bind(var4)(var2);
+case 15:
                 return var1;
-            };
-            var2['content'] = var5;
-            var5 = 3000;
-            var2['toastDurationMs'] = var5;
-            var2 = var3.bind(var4)(var2);
-            return var1;
+            }
         };
         var3['showDoubleTapEmojiUpdatedToast'] = var2;
         return var1;

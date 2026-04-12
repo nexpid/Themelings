@@ -387,34 +387,45 @@ case 9:
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
-            var5 = var1.gameId;
-            var4 = var1.channelId;
-            var7 = _closure1_slot13;
+            var6 = var1.gameId;
+            var5 = var1.channelId;
+            var4 = var1.initialScrollOffset;
+            var8 = _closure1_slot13;
             var2 = null;
-            var8 = var2 == var7;
+            var9 = var2 == var8;
             var1 = undefined;
-            var6 = undefined;
-            if(var8) { _fun0007_ip = 11; continue _fun0007 }
+            var7 = undefined;
+            if(var9) { _fun0007_ip = 11; continue _fun0007 }
 case 12:
-            var6 = var7.gameId;
+            var7 = var8.gameId;
 case 11:
-            if(!(var6 === var5)) { _fun0007_ip = 13; continue _fun0007 }
+            if(!(var7 === var6)) { _fun0007_ip = 13; continue _fun0007 }
 case 14:
-            var6 = _closure1_slot13;
-            var7 = var2 == var6;
-            var2 = undefined;
-            if(var7) { _fun0007_ip = 15; continue _fun0007 }
+            var8 = _closure1_slot13;
+            var9 = var2 == var8;
+            var7 = undefined;
+            if(var9) { _fun0007_ip = 15; continue _fun0007 }
 case 16:
-            var2 = var6.channelId;
+            var7 = var8.channelId;
 case 15:
-            if(!(var2 !== var4)) { _fun0007_ip = 17; continue _fun0007 }
+            if(!(var7 === var5)) { _fun0007_ip = 13; continue _fun0007 }
+case 3:
+            var7 = _closure1_slot13;
+            var8 = var2 == var7;
+            var2 = undefined;
+            if(var8) { _fun0007_ip = 17; continue _fun0007 }
+case 18:
+            var2 = var7.initialScrollOffset;
+case 17:
+            if(!(var2 !== var4)) { _fun0007_ip = 19; continue _fun0007 }
 case 13:
             var2 = {};
-            var2['gameId'] = var5;
-            var2['channelId'] = var4;
+            var2['gameId'] = var6;
+            var2['channelId'] = var5;
+            var2['initialScrollOffset'] = var4;
             _closure1_slot13 = var2;
             return var1;
-case 17:
+case 19:
             var1 = false;
             return var1;
         }
@@ -427,16 +438,16 @@ case 0:
             var4 = var1.gameId;
             var3 = _closure1_slot13;
             var1 = null;
-            if(!(var1 != var3)) { _fun0008_ip = 14; continue _fun0008 }
-case 18:
+            if(!(var1 != var3)) { _fun0008_ip = 20; continue _fun0008 }
+case 21:
             var3 = _closure1_slot13;
             var3 = var3.gameId;
-            if(!(var3 === var4)) { _fun0008_ip = 14; continue _fun0008 }
-case 19:
+            if(!(var3 === var4)) { _fun0008_ip = 20; continue _fun0008 }
+case 22:
             _closure1_slot13 = var1;
             var1 = undefined;
             return var1;
-case 14:
+case 20:
             var1 = false;
             return var1;
         }

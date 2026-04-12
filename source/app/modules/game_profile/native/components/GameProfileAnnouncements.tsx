@@ -422,16 +422,18 @@ case 26:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.gameId;
-            var _closure2_slot0 = var2;
-            var11 = var1.officialInvite;
-            var _closure2_slot1 = var11;
-            var12 = var1.closeModal;
-            var _closure2_slot2 = var12;
-            var13 = var1.trackAction;
-            var _closure2_slot3 = var13;
+            var8 = var1.gameId;
+            var _closure2_slot0 = var8;
+            var12 = var1.officialInvite;
+            var _closure2_slot1 = var12;
+            var13 = var1.closeModal;
+            var _closure2_slot2 = var13;
+            var14 = var1.trackAction;
+            var _closure2_slot3 = var14;
+            var2 = var1.scrollOffsetRef;
+            var _closure2_slot4 = var2;
             var4 = undefined;
-            var _closure2_slot8 = var4;
+            var _closure2_slot9 = var4;
             var1 = _closure1_slot10;
             var10 = var1.bind(var4)();
             var3 = _closure1_slot1;
@@ -440,28 +442,29 @@ case 0:
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.bind(var4)();
-            var8 = var1.analyticsLocations;
-            var _closure2_slot4 = var8;
+            var11 = var1.analyticsLocations;
+            var _closure2_slot5 = var11;
             var1 = 14;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
-            var1 = var1.bind(var4)(var2);
+            var1 = var1.bind(var4)(var8);
             var6 = var1.messages;
             var18 = var1.channelId;
-            var _closure2_slot5 = var18;
+            var _closure2_slot6 = var18;
             var20 = var1.guildId;
-            var _closure2_slot6 = var20;
+            var _closure2_slot7 = var20;
             var1 = var1.loading;
             var7 = _closure1_slot4;
-            var14 = var7.useCallback;
-            var5 = new Array(7);
-            var5[0] = var13;
-            var5[1] = var12;
-            var5[2] = var11;
+            var15 = var7.useCallback;
+            var5 = new Array(8);
+            var5[0] = var14;
+            var5[1] = var13;
+            var5[2] = var12;
             var5[3] = var20;
             var5[4] = var18;
-            var5[5] = var8;
-            var5[6] = var2;
+            var5[5] = var11;
+            var5[6] = var8;
+            var5[7] = var2;
             var3 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -482,12 +485,12 @@ case 30:
 case 28:
                     if(!(var5 == var6)) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
-                    var6 = _closure2_slot6;
+                    var6 = _closure2_slot7;
 case 31:
                     var2 = var5 != var6;
                     if(!var2) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot6;
                     var2 = var5 != var3;
 case 33:
                     if(!var2) { _fun0003_ip = 35; continue _fun0003 }
@@ -509,8 +512,11 @@ case 36:
                     var2 = {};
                     var5 = _closure2_slot0;
                     var2['gameId'] = var5;
-                    var5 = _closure2_slot5;
+                    var5 = _closure2_slot6;
                     var2['channelId'] = var5;
+                    var10 = _closure2_slot4;
+                    var10 = var10.current;
+                    var2['initialScrollOffset'] = var10;
                     var2 = var8.bind(var9)(var2);
                     var2 = _closure2_slot2;
                     var2 = var2.bind(var1)();
@@ -522,23 +528,24 @@ case 36:
                     var2['invite'] = var7;
                     var2['guildId'] = var6;
                     var2['channelId'] = var5;
-                    var4 = _closure2_slot4;
+                    var4 = _closure2_slot5;
                     var2['analyticsLocationStack'] = var4;
                     var2 = var3.bind(var1)(var2);
 case 35:
                     return var1;
                 }
             };
-            var16 = var14.bind(var7)(var3, var5);
+            var16 = var15.bind(var7)(var3, var5);
             var5 = var7.useCallback;
-            var3 = new Array(7);
-            var3[0] = var13;
-            var3[1] = var12;
-            var3[2] = var11;
+            var3 = new Array(8);
+            var3[0] = var14;
+            var3[1] = var13;
+            var3[2] = var12;
             var3[3] = var20;
             var3[4] = var18;
-            var3[5] = var8;
-            var3[6] = var2;
+            var3[5] = var11;
+            var3[6] = var8;
+            var3[7] = var2;
             var2 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -559,12 +566,12 @@ case 30:
 case 28:
                     if(!(var5 == var6)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                    var6 = _closure2_slot6;
+                    var6 = _closure2_slot7;
 case 31:
                     var2 = var5 != var6;
                     if(!var2) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot6;
                     var2 = var5 != var3;
 case 33:
                     if(!var2) { _fun0004_ip = 37; continue _fun0004 }
@@ -586,8 +593,11 @@ case 36:
                     var2 = {};
                     var5 = _closure2_slot0;
                     var2['gameId'] = var5;
-                    var5 = _closure2_slot5;
+                    var5 = _closure2_slot6;
                     var2['channelId'] = var5;
+                    var10 = _closure2_slot4;
+                    var10 = var10.current;
+                    var2['initialScrollOffset'] = var10;
                     var2 = var8.bind(var9)(var2);
                     var2 = _closure2_slot2;
                     var2 = var2.bind(var1)();
@@ -601,7 +611,7 @@ case 36:
                     var2['channelId'] = var5;
                     var5 = arg1;
                     var2['messageId'] = var5;
-                    var4 = _closure2_slot4;
+                    var4 = _closure2_slot5;
                     var2['analyticsLocationStack'] = var4;
                     var2 = var3.bind(var1)(var2);
 case 37:
@@ -609,7 +619,7 @@ case 37:
                 }
             };
             var2 = var5.bind(var7)(var2, var3);
-            var _closure2_slot7 = var2;
+            var _closure2_slot8 = var2;
             if(var1) { _fun0002_ip = 38; continue _fun0002 }
 case 39:
             var1 = null;
@@ -627,7 +637,7 @@ case 42:
 case 44:
             var21 = var6[var14];
 case 43:
-            _closure2_slot8 = var21;
+            _closure2_slot9 = var21;
             var19 = var6;
             if(!var2) { _fun0002_ip = 45; continue _fun0002 }
 case 46:
@@ -716,8 +726,8 @@ case 48:
             var12['variant'] = var22;
             var12['message'] = var21;
             var21 = function onPress() {
-                var3 = _closure2_slot7;
-                var1 = _closure2_slot8;
+                var3 = _closure2_slot8;
+                var1 = _closure2_slot9;
                 var2 = var1.id;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -750,7 +760,7 @@ case 50:
                 var3['variant'] = var6;
                 var3['message'] = var1;
                 var2 = function onPress() {
-                    var3 = _closure2_slot7;
+                    var3 = _closure2_slot8;
                     var1 = _closure3_slot0;
                     var2 = var1.id;
                     var1 = undefined;
@@ -758,9 +768,9 @@ case 50:
                     return var1;
                 };
                 var3['onPress'] = var2;
-                var6 = _closure2_slot6;
+                var6 = _closure2_slot7;
                 var3['guildId'] = var6;
-                var2 = _closure2_slot5;
+                var2 = _closure2_slot6;
                 var3['channelId'] = var2;
                 var2 = var1.id;
                 var1 = undefined;

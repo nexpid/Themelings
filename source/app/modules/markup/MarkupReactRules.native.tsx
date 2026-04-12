@@ -2140,20 +2140,20 @@ case 0:
                             var3 = var2.bind(var3)(var4);
                             var6 = null;
                             var2 = var6 != var4;
-                            if(!var2) { _fun0034_ip = 129; continue _fun0034 }
-case 130:
+                            if(!var2) { _fun0034_ip = 109; continue _fun0034 }
+case 113:
                             var2 = var6 != var3;
+case 109:
+                            if(!var2) { _fun0034_ip = 42; continue _fun0034 }
 case 129:
-                            if(!var2) { _fun0034_ip = 10; continue _fun0034 }
-case 112:
                             var7 = var3.features;
                             var6 = var7.has;
                             var3 = _closure1_slot10;
                             var3 = var3.COMMUNITY;
                             var2 = var6.bind(var7)(var3);
-case 10:
-                            if(!var2) { _fun0034_ip = 131; continue _fun0034 }
-case 40:
+case 42:
+                            if(!var2) { _fun0034_ip = 130; continue _fun0034 }
+case 131:
                             var2 = _closure1_slot12;
                             var2 = var2.GUILD_HOME;
                             var2 = var5 !== var2;
@@ -2163,8 +2163,8 @@ case 133:
                             var3 = var3.SERVER_GUIDE;
                             var2 = var5 !== var3;
 case 132:
-                            if(var2) { _fun0034_ip = 131; continue _fun0034 }
-case 46:
+                            if(var2) { _fun0034_ip = 130; continue _fun0034 }
+case 134:
                             var5 = _closure1_slot0;
                             var3 = _closure1_slot2;
                             var2 = 12;
@@ -2175,7 +2175,7 @@ case 46:
                             var1 = _closure1_slot11;
                             var1 = var1.GUILD_HOME;
                             var1 = var2.bind(var3)(var4, var1);
-case 131:
+case 130:
                             var1 = undefined;
                             return var1;
                         }
@@ -2281,7 +2281,7 @@ case 0:
                     var3 = var4.toLowerCase;
                     var4 = var3.bind(var4)();
                     var3 = 'ansi';
-                    if(!(var3 === var4)) { _fun0035_ip = 134; continue _fun0035 }
+                    if(!(var3 === var4)) { _fun0035_ip = 135; continue _fun0035 }
 case 107:
                     var5 = var1.content;
                     var4 = var5.replaceAll;
@@ -2289,7 +2289,7 @@ case 107:
                     var2 = '';
                     var2 = var4.bind(var5)(var3, var2);
                     var1['content'] = var2;
-case 134:
+case 135:
                     return var1;
                 }
             };
@@ -2459,7 +2459,7 @@ case 0:
                     var2 = var2.bind(var3)();
                     var7 = 2;
                     if(var2) { _fun0036_ip = 8; continue _fun0036 }
-case 129:
+case 136:
                     var3 = _closure1_slot4;
                     var2 = var3.getFontScale;
                     var3 = var2.bind(var3)();
@@ -2467,7 +2467,7 @@ case 129:
                     var3 = var3 < var2;
                     var2 = 0;
                     if(!var3) { _fun0036_ip = 85; continue _fun0036 }
-case 135:
+case 131:
                     var2 = 1;
 case 85:
                     var7 = var2;
@@ -2494,35 +2494,35 @@ case 123:
                     var6 = var7.getFontScale;
                     var7 = var6.bind(var7)();
                     var6 = 1;
-                    if(!(!(var7 < var6))) { _fun0036_ip = 136; continue _fun0036 }
-case 137:
+                    if(!(!(var7 < var6))) { _fun0036_ip = 137; continue _fun0036 }
+case 138:
                     var6 = 1.25;
-                    if(!(!(var7 < var6))) { _fun0036_ip = 138; continue _fun0036 }
-case 139:
+                    if(!(!(var7 < var6))) { _fun0036_ip = 139; continue _fun0036 }
+case 140:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var6 = var6[var12];
                     var6 = var7.bind(var5)(var6);
                     var6 = var6.GuildIconSizes;
                     var6 = var6.XXSMALL;
-                    _fun0036_ip = 140; continue _fun0036;
-case 138:
+                    _fun0036_ip = 141; continue _fun0036;
+case 139:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var7 = var7[var12];
                     var7 = var8.bind(var5)(var7);
                     var7 = var7.GuildIconSizes;
                     var6 = var7.XXSMALL_12;
-case 140:
-                    _fun0036_ip = 141; continue _fun0036;
-case 136:
+case 141:
+                    _fun0036_ip = 142; continue _fun0036;
+case 137:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var7 = var7[var12];
                     var7 = var8.bind(var5)(var7);
                     var7 = var7.GuildIconSizes;
                     var6 = var7.XXXSMALL;
-case 141:
+case 142:
                     var2['size'] = var6;
                     var9 = var4.bind(var5)(var3, var2);
 case 70:
@@ -2531,10 +2531,10 @@ case 70:
                     var2 = {};
                     var7 = var11 == var1;
                     var6 = undefined;
-                    if(var7) { _fun0036_ip = 142; continue _fun0036 }
-case 143:
+                    if(var7) { _fun0036_ip = 143; continue _fun0036 }
+case 144:
                     var6 = var1.textColor;
-case 142:
+case 143:
                     var2['color'] = var6;
                     var8 = _closure1_slot13;
                     var7 = _closure1_slot6;
@@ -2551,10 +2551,10 @@ case 142:
                     var7 = {};
                     var12 = var11 == var1;
                     var11 = undefined;
-                    if(var12) { _fun0036_ip = 144; continue _fun0036 }
-case 145:
+                    if(var12) { _fun0036_ip = 145; continue _fun0036 }
+case 146:
                     var11 = var1.textColor;
-case 144:
+case 145:
                     var7['color'] = var11;
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
@@ -2590,15 +2590,15 @@ case 0:
                     var4 = var6 != var3;
                     var2 = 'text';
                     var11 = var2;
-                    if(!var4) { _fun0037_ip = 146; continue _fun0037 }
+                    if(!var4) { _fun0037_ip = 147; continue _fun0037 }
 case 14:
                     var11 = var3;
-case 146:
+case 147:
                     var13 = 2;
-                    if(!(var2 === var11)) { _fun0037_ip = 147; continue _fun0037 }
+                    if(!(var2 === var11)) { _fun0037_ip = 148; continue _fun0037 }
 case 95:
                     var13 = 0;
-case 147:
+case 148:
                     var4 = _closure1_slot13;
                     var9 = _closure1_slot0;
                     var12 = _closure1_slot2;
@@ -2634,10 +2634,10 @@ case 147:
                     var2 = {};
                     var8 = var6 == var1;
                     var6 = undefined;
-                    if(var8) { _fun0037_ip = 148; continue _fun0037 }
-case 149:
+                    if(var8) { _fun0037_ip = 149; continue _fun0037 }
+case 150:
                     var6 = var1.textColor;
-case 148:
+case 149:
                     var2['color'] = var6;
                     var9 = _closure1_slot13;
                     var8 = _closure1_slot6;
@@ -2765,7 +2765,7 @@ case 0:
                     var6 = var5 != var4;
                     var4 = 0;
                     if(!var6) { _fun0038_ip = 111; continue _fun0038 }
-case 147:
+case 148:
                     var4 = var1.level;
 case 111:
                     var _closure3_slot3 = var4;
@@ -2790,7 +2790,7 @@ case 0:
                             var8 = '⚬ ';
                             var10 = 0;
                             if(!(var10 === var1)) { _fun0039_ip = 20; continue _fun0039 }
-case 150:
+case 151:
                             var1 = _closure3_slot0;
                             var1 = var1.ordered;
                             var2 = 'boolean';
@@ -2815,7 +2815,7 @@ case 19:
                             var2 = var1.bind(var2)();
                             var1 = '● ';
                             if(!var2) { _fun0039_ip = 6; continue _fun0039 }
-case 151:
+case 152:
                             var1 = '• ';
 case 6:
                             _fun0039_ip = 49; continue _fun0039;
@@ -2852,14 +2852,14 @@ case 20:
                             var15[1] = var3;
                             var2 = _closure3_slot4;
                             var19 = null;
-                            if(!(var19 == var2)) { _fun0039_ip = 152; continue _fun0039 }
-case 153:
+                            if(!(var19 == var2)) { _fun0039_ip = 153; continue _fun0039 }
+case 154:
                             var3 = _closure3_slot4;
-                            _fun0039_ip = 154; continue _fun0039;
-case 152:
+                            _fun0039_ip = 155; continue _fun0039;
+case 153:
                             var2 = _closure3_slot4;
                             var3 = var2 + var11;
-case 154:
+case 155:
                             var2 = 'start';
                             var15[1] = var3;
                             var _closure4_slot1 = var15;
@@ -2886,22 +2886,22 @@ case 154:
                             var7 = _closure3_slot2;
                             var19 = var19 == var7;
                             var7 = undefined;
-                            if(var19) { _fun0039_ip = 155; continue _fun0039 }
-case 156:
+                            if(var19) { _fun0039_ip = 156; continue _fun0039 }
+case 157:
                             var19 = _closure3_slot2;
                             var7 = var19.textColor;
-case 155:
+case 156:
                             var13['color'] = var7;
                             var7 = _closure3_slot3;
                             var7 = var7 > var10;
                             var10 = var12;
-                            if(!var7) { _fun0039_ip = 157; continue _fun0039 }
-case 158:
+                            if(!var7) { _fun0039_ip = 158; continue _fun0039 }
+case 159:
                             var20 = '  ';
                             var19 = var20.repeat;
                             var7 = _closure3_slot3;
                             var10 = var19.bind(var20)(var7);
-case 157:
+case 158:
                             var7 = new Array(2);
                             var7[0] = var10;
                             var7[1] = var8;
@@ -2923,12 +2923,12 @@ case 157:
                             var17 = var1.Array;
                             var13 = var17.isArray;
                             var13 = var13.bind(var17)(var16);
-                            if(var13) { _fun0039_ip = 159; continue _fun0039 }
-case 160:
+                            if(var13) { _fun0039_ip = 160; continue _fun0039 }
+case 161:
                             var13 = _closure3_slot1;
                             var13 = var13.bind(var4)(var16, var15);
-                            _fun0039_ip = 161; continue _fun0039;
-case 159:
+                            _fun0039_ip = 162; continue _fun0039;
+case 160:
                             var15 = var16.map;
                             var14 = function(arg1, arg2) {
                                 _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
@@ -2959,14 +2959,14 @@ case 7:
                                     var1 = undefined;
                                     var9 = var10.bind(var1)(var11, var9);
                                     var6[1] = var9;
-                                    if(!var7) { _fun0040_ip = 162; continue _fun0040 }
+                                    if(!var7) { _fun0040_ip = 163; continue _fun0040 }
 case 123:
                                     var7 = !var8;
-case 162:
-                                    if(!var7) { _fun0040_ip = 163; continue _fun0040 }
-case 164:
-                                    var7 = '\n';
 case 163:
+                                    if(!var7) { _fun0040_ip = 164; continue _fun0040 }
+case 132:
+                                    var7 = '\n';
+case 164:
                                     var6[2] = var7;
                                     var2['children'] = var6;
                                     var1 = var4.bind(var1)(var3, var2, var5);
@@ -2974,7 +2974,7 @@ case 163:
                                 }
                             };
                             var13 = var15.bind(var16)(var14);
-case 161:
+case 162:
                             var10[1] = var13;
                             var13 = _closure3_slot0;
                             var13 = var13.items;
@@ -3037,7 +3037,7 @@ case 0:
                     var3 = var9.level;
                     var7 = 'heading-xl/bold';
                     var2 = 1;
-                    if(!(var2 !== var3)) { _fun0041_ip = 167; continue _fun0041 }
+                    if(!(var2 !== var3)) { _fun0041_ip = 129; continue _fun0041 }
 case 2:
                     var4 = var9.level;
                     var2 = 'heading-md/bold';
@@ -3047,7 +3047,7 @@ case 115:
                     var2 = 'heading-lg/bold';
 case 109:
                     var7 = var2;
-case 167:
+case 129:
                     var5 = _closure1_slot14;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -3060,10 +3060,10 @@ case 167:
                     var2['variant'] = var7;
                     var8 = var1.forceWhite;
                     var7 = 'text-strong';
-                    if(!var8) { _fun0041_ip = 132; continue _fun0041 }
+                    if(!var8) { _fun0041_ip = 167; continue _fun0041 }
 case 168:
                     var7 = 'white';
-case 132:
+case 167:
                     var2['color'] = var7;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;

@@ -37,29 +37,33 @@ case 0:
 case 3:
             var4 = '';
 case 2:
-            var9 = var2.targetType;
-            var8 = var2.targetUserId;
-            var7 = var2.targetApplicationId;
-            var3 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var2 = 2;
-            var2 = var6[var2];
-            var6 = var3.bind(var1)(var2);
-            var3 = var6.dispatch;
-            var2 = {};
-            var10 = 'CREATE_INVITE_MODAL_INIT';
-            var2['type'] = var10;
-            var10 = arg1;
-            var2['guildId'] = var10;
-            var10 = arg2;
-            var2['channelId'] = var10;
-            var2['targetType'] = var9;
-            var2['targetUserId'] = var8;
-            var2['targetApplicationId'] = var7;
-            var2 = var3.bind(var6)(var2);
+            var10 = var2.targetType;
+            var9 = var2.targetUserId;
+            var8 = var2.targetApplicationId;
+            var2 = var2.skipCreateInvite;
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var3 = 2;
+            var3 = var7[var3];
+            var7 = var6.bind(var1)(var3);
+            var6 = var7.dispatch;
+            var3 = {};
+            var11 = 'CREATE_INVITE_MODAL_INIT';
+            var3['type'] = var11;
+            var11 = arg1;
+            var3['guildId'] = var11;
+            var11 = arg2;
+            var3['channelId'] = var11;
+            var3['targetType'] = var10;
+            var3['targetUserId'] = var9;
+            var3['targetApplicationId'] = var8;
+            var3 = var6.bind(var7)(var3);
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var5.createInvite;
             var2 = true;
             var2 = var3.bind(var5)(var4, var2);
+case 4:
             return var1;
         }
     };
@@ -144,8 +148,8 @@ case 0:
             var2 = var4.getPendingSettings;
             var2 = var2.bind(var4)();
             var15 = null;
-            if(!(var15 != var2)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            if(!(var15 != var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 2;
@@ -172,14 +176,14 @@ case 5:
             var4 = var4.bind(var5)();
             var5 = arg2;
             var11 = null;
-            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = var15 != var4;
             var11 = null;
-            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
-case 8:
+            if(!var5) { _fun0002_ip = 8; continue _fun0002 }
+case 10:
             var11 = var4.code;
-case 6:
+case 8:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 4;
@@ -241,14 +245,14 @@ case 0:
                     var6 = null;
                     var7 = var6 == var3;
                     var4 = undefined;
-                    if(var7) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
-                    var4 = var3.message;
-case 9:
-                    if(!(var6 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+                    if(var7) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-                    var5 = var3.message;
+                    var4 = var3.message;
 case 11:
+                    if(!(var6 != var4)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                    var5 = var3.message;
+case 13:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 2;
@@ -264,7 +268,7 @@ case 11:
                 }
             };
             var1 = var3.bind(var4)(var2, var1);
-case 4:
+case 6:
             var1 = undefined;
             return var1;
         }
@@ -287,10 +291,10 @@ case 0:
             var3['type'] = var6;
             var3 = var4.bind(var5)(var3);
             var3 = null;
-            if(!(var3 != var2)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+            if(!(var3 != var2)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var2 = var2.bind(var1)();
-case 13:
+case 15:
             return var1;
         }
     };

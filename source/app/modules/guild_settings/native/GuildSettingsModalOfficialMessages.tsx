@@ -530,21 +530,21 @@ case 0:
                     var8 = _closure2_slot2;
                     var1 = undefined;
                     var7 = undefined;
-                    if(!var8) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                    if(!var8) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var7 = function() {
                         var1 = null;
                         return var1;
                     };
-case 10:
+case 9:
                     var2['headerLeft'] = var7;
                     var7 = _closure2_slot2;
-                    if(var7) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                    if(var7) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                     var7 = _closure2_slot3;
                     var5 = undefined;
-                    if(!var7) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                    if(!var7) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var5 = function() {
                         var4 = _closure1_slot11;
                         var8 = _closure1_slot0;
@@ -571,9 +571,9 @@ case 15:
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
-case 14:
-                    _fun0003_ip = 16; continue _fun0003;
-case 12:
+case 13:
+                    _fun0003_ip = 15; continue _fun0003;
+case 11:
                     var5 = function() {
                         var4 = _closure1_slot11;
                         var2 = _closure1_slot0;
@@ -587,7 +587,7 @@ case 12:
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
-case 16:
+case 15:
                     var2['headerRight'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;

@@ -20,30 +20,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var1)(var2);
     var _closure1_slot2 = var2;
     var2 = 1;
-    var2 = var10[var2];
-    var2 = var9.bind(var1)(var2);
-    var7 = var2.CommonTriggerPoints;
-    var2 = 2;
-    var2 = var10[var2];
-    var5 = var9.bind(var1)(var2);
-    var4 = var5.createExperiment;
-    var2 = {'kind': 'user', 'id': '2024-07_icymi', 'label': 'In-case-you-missed-it tab'};
-    var7 = var7.CONNECTION_OPEN_MOBILE;
-    var2['commonTriggerPoint'] = var7;
-    var7 = {};
+    var4 = var10[var2];
+    var7 = var9.bind(var1)(var4);
+    var5 = var7.createApexExperiment;
+    var4 = {'name': '2026-04-icymi-staff-only', 'kind': 'user'};
+    var8 = {};
     var13 = false;
-    var7['enabled'] = var13;
-    var2['defaultConfig'] = var7;
-    var8 = {'id': 1, 'label': 'enables the new icymi tab'};
-    var7 = {};
-    var7['enabled'] = var14;
-    var8['config'] = var7;
-    var7 = new Array(1);
-    var7[0] = var8;
-    var2['treatments'] = var7;
-    var7 = var4.bind(var5)(var2);
+    var8['enabled'] = var13;
+    var4['defaultConfig'] = var8;
+    var8 = {};
+    var11 = {};
+    var11['enabled'] = var14;
+    var8[1] = var11;
+    var4['variations'] = var8;
+    var7 = var5.bind(var7)(var4);
     var _closure1_slot3 = var7;
-    var2 = 4;
     var4 = var10[var2];
     var8 = var9.bind(var1)(var4);
     var5 = var8.createApexExperiment;
@@ -84,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12[1] = var13;
     var2['variations'] = var12;
     var2 = var8.bind(var11)(var2);
-    var8 = 5;
+    var8 = 3;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -92,38 +83,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.bind(var10)(var8);
     var8 = 'hide_icymi_tab';
     var3['ICYMI_LAB_FEATURE'] = var8;
-    var3['ICYMIExperiment'] = var7;
+    var3['ICYMIStaffOnlyExperiment'] = var7;
     var7 = function useICYMIEnabled(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var5 = arg1;
-            var8 = arguments[1];
+            var6 = arg1;
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 2;
+            var1 = var4[var1];
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var8 = true;
-case 2:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var1 = 3;
-            var1 = var6[var1];
-            var3 = var3.bind(var4)(var1);
+            var2 = var2.bind(var4)(var1);
             var1 = 'hide_icymi_tab';
-            var7 = var3.bind(var4)(var1);
-            var6 = _closure1_slot3;
-            var4 = var6.useExperiment;
-            var3 = {};
-            var3['location'] = var5;
-            var1 = {};
-            var1['autoTrackExposure'] = var8;
-            var1['disable'] = var7;
-            var1 = var4.bind(var6)(var3, var1);
-            var4 = _closure1_slot4;
-            var3 = var4.useConfig;
+            var1 = var2.bind(var4)(var1);
+            var5 = _closure1_slot3;
+            var4 = var5.useConfig;
             var2 = {};
-            var2['location'] = var5;
-            var2 = var3.bind(var4)(var2);
-            var1 = var1.enabled;
+            var2['location'] = var6;
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.enabled;
+            var5 = _closure1_slot4;
+            var4 = var5.useConfig;
+            var3 = {};
+            var3['location'] = var6;
+            var3 = var4.bind(var5)(var3);
+            var1 = !var1;
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = var2;
+case 2:
             return var1;
         }
     };
@@ -131,26 +119,22 @@ case 2:
     var6 = function getICYMIEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var6 = arguments[1];
-            var1 = undefined;
-            if(!(var6 === var1)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-            var6 = true;
-case 4:
             var4 = _closure1_slot2;
             var3 = var4.get;
-            var2 = 'hide_icymi_tab';
-            var5 = var3.bind(var4)(var2);
+            var1 = 'hide_icymi_tab';
+            var1 = var3.bind(var4)(var1);
             var4 = _closure1_slot3;
-            var3 = var4.getCurrentConfig;
+            var3 = var4.getConfig;
             var2 = {};
-            var1 = arg1;
-            var2['location'] = var1;
-            var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['disable'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            var1 = var1.enabled;
+            var5 = arg1;
+            var2['location'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.enabled;
+            var1 = !var1;
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var1 = var2;
+case 4:
             return var1;
         }
     };

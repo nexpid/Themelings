@@ -310,20 +310,20 @@ case 0:
             var1 = var3.getGuild;
             var1 = var1.bind(var3)(var5);
             var3 = null;
-            if(!(var3 == var1)) { _fun0005_ip = 8; continue _fun0005 }
-case 7:
+            if(!(var3 == var1)) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
             var6 = _closure1_slot8;
             var4 = var6.getChannel;
             var1 = var4.bind(var6)(var5);
-case 8:
-            if(!(var3 == var1)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+case 32:
+            if(!(var3 == var1)) { _fun0005_ip = 3; continue _fun0005 }
+case 34:
             var4 = _closure1_slot8;
             var3 = var4.getChannel;
             var2 = var4.getDMFromUserId;
             var2 = var2.bind(var4)(var5);
             var1 = var3.bind(var4)(var2);
-case 32:
+case 3:
             return var1;
         }
     };
@@ -369,14 +369,14 @@ case 0:
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot18;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0006_ip = 32; continue _fun0006 }
+                if(var1) { _fun0006_ip = 35; continue _fun0006 }
 case 11:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0006_ip = 34; continue _fun0006;
-case 32:
+                _fun0006_ip = 36; continue _fun0006;
+case 35:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -385,7 +385,7 @@ case 32:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 34:
+case 36:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -413,8 +413,8 @@ case 0:
                 var15 = var4;
                 var3 = var15[var9](var14, var13, var12, var11, var10, var9);
                 var3 = null;
-                if(!(var3 != var2)) { _fun0007_ip = 35; continue _fun0007 }
-case 36:
+                if(!(var3 != var2)) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
                 var6 = var2.pendingUsages;
                 var5 = var6.filter;
                 var3 = function(arg1) {
@@ -423,20 +423,20 @@ case 0:
                         var2 = arg1;
                         var1 = null;
                         var1 = var1 != var2;
-                        if(!var1) { _fun0008_ip = 37; continue _fun0008 }
+                        if(!var1) { _fun0008_ip = 39; continue _fun0008 }
 case 26:
                         var4 = _closure1_slot12;
                         var3 = var4.test;
                         var2 = var2.key;
                         var1 = var3.bind(var4)(var2);
-case 37:
+case 39:
                         return var1;
                     }
                 };
                 var3 = var5.bind(var6)(var3);
                 var2['pendingUsages'] = var3;
                 _closure1_slot17 = var2;
-case 35:
+case 37:
                 var3 = var4.syncWith;
                 var5 = _closure1_slot7;
                 var2 = new Array(1);
@@ -505,7 +505,7 @@ case 0:
                 var3 = var1 != var2;
                 var1 = 0;
                 if(!var3) { _fun0009_ip = 9; continue _fun0009 }
-case 37:
+case 39:
                 var1 = var2;
 case 9:
                 return var1;
@@ -527,11 +527,11 @@ case 0:
                 var1 = null;
                 var2 = var1 != var3;
                 var1 = 0;
-                if(!var2) { _fun0010_ip = 38; continue _fun0010 }
-case 39:
+                if(!var2) { _fun0010_ip = 40; continue _fun0010 }
+case 41:
                 var2 = var4.getScoreWithoutFetchingLatest;
                 var1 = var2.bind(var4)(var3);
-case 38:
+case 40:
                 return var1;
             }
         };
@@ -588,13 +588,13 @@ case 0:
             var3 = _closure1_slot13;
             var3 = var3.FRECENCY_AND_FAVORITES_SETTINGS;
             var3 = var4 !== var3;
-            if(var3) { _fun0011_ip = 40; continue _fun0011 }
+            if(var3) { _fun0011_ip = 42; continue _fun0011 }
 case 8:
             var3 = !var1;
-case 40:
+case 42:
             var1 = !var3;
             if(var3) { _fun0011_ip = 10; continue _fun0011 }
-case 41:
+case 43:
             var3 = _closure1_slot17;
             var2 = new Array(0);
             var3['pendingUsages'] = var2;

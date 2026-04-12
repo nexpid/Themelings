@@ -34,14 +34,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = 96;
     var3['PROFILE_FRAME_OVERFLOW_TOP'] = var4;
+    var4 = 66;
+    var3['PROFILE_FRAME_OVERFLOW_BOTTOM'] = var4;
     var4 = 20;
-    var3['PROFILE_FRAME_OVERFLOW_LEFT'] = var4;
+    var3['PROFILE_FRAME_OVERFLOW_HORIZONTAL'] = var4;
     var4 = 375;
     var3['PROFILE_FRAME_CONTAINER_WIDTH'] = var4;
-    var4 = 678;
-    var3['PROFILE_FRAME_CONTAINER_HEIGHT'] = var4;
-    var4 = 415;
-    var3['PROFILE_FRAME_LAYER_WIDTH'] = var4;
     var3['PROFILE_FRAME_Z_INDEX'] = var2;
     return var1;
 })();

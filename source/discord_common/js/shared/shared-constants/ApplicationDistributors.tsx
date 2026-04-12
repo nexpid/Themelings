@@ -43,7 +43,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 'roblox';
     var2['ROBLOX'] = var1;
     var1 = 'xbox';
-    var2['XBOX'] = var1;
+    var2['XBOX_STORE'] = var1;
+    var1 = 'xbox_title';
+    var2['XBOX_TITLE'] = var1;
     var1 = 'xbox_game_pass';
     var2['XBOX_GAME_PASS'] = var1;
     var1 = 'gop';

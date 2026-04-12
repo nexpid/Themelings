@@ -222,13 +222,12 @@ case 0:
                 var1 = 8;
                 var3 = var3[var1];
                 var1 = undefined;
-                var6 = var4.bind(var1)(var3);
-                var5 = var6.getICYMIEnabled;
-                var4 = 'ICYMIManager';
-                var3 = false;
-                var3 = var5.bind(var6)(var4, var3);
-                if(!var3) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.getICYMIEnabled;
+                var3 = 'ICYMIManager';
+                var3 = var4.bind(var5)(var3);
+                if(!var3) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                 var4 = _closure1_slot10;
                 var3 = true;
                 var3 = var4.bind(var1)(var3);
@@ -243,7 +242,7 @@ case 14:
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.getRecommendedGuilds;
                 var2 = var2.bind(var3)();
-case 13:
+case 12:
                 return var1;
             }
         };

@@ -16,34 +16,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var8 = var6[var1];
-    var4 = metroImportAll;
+    var4 = var6[var1];
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
     var4 = 1;
+    var8 = var6[var4];
+    var4 = metroImportAll;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot4 = var4;
+    var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.PROFILE_CONTENT_WITHOUT_STATUS_TOP_PADDING;
-    var _closure1_slot5 = var7;
-    var4 = var4.UserProfileThemeTypes;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
+    var7 = var4.PROFILE_CONTENT_WITHOUT_STATUS_TOP_PADDING;
     var _closure1_slot7 = var7;
-    var4 = var4.jsxs;
+    var4 = var4.UserProfileThemeTypes;
     var _closure1_slot8 = var4;
     var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot9 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot10 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -53,7 +58,7 @@ case 0:
             var5 = arg2;
             var4 = arg3;
             var1 = {};
-            var2 = {'maxHeight': '100%', 'position': 'relative', 'overflow': 'hidden', 'width': '100%'};
+            var2 = {'maxHeight': '100%', 'position': 'relative', 'width': '100%', 'justifyContent': 'center'};
             var3 = null;
             var6 = var3 != var4;
             var3 = 263;
@@ -62,6 +67,10 @@ case 3:
             var3 = var4;
 case 2:
             var2['maxWidth'] = var3;
+            var1['profileContainer'] = var2;
+            var2 = {};
+            var3 = 'hidden';
+            var2['overflow'] = var3;
             var3 = 350;
             var4 = arg1;
             if(!var4) { _fun0001_ip = 4; continue _fun0001 }
@@ -78,7 +87,7 @@ case 6:
             var2['borderWidth'] = var4;
             var9 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var7 = 6;
+            var7 = 7;
             var8 = var6[var7];
             var6 = undefined;
             var8 = var9.bind(var6)(var8);
@@ -98,16 +107,10 @@ case 10:
             var8 = var8.radii;
             var8 = var8.lg;
             var2['borderRadius'] = var8;
-            var8 = var4[var7];
-            var8 = var5.bind(var6)(var8);
-            var8 = var8.shadows;
-            var10 = var8.SHADOW_HIGH;
-            var11 = var2;
-            var8 = copyDataProperties(var11, var10);
-            var1['profileContainer'] = var2;
+            var1['profileContentContainer'] = var2;
             var2 = {};
             var2['flexGrow'] = var3;
-            var1['profileContentWrapper'] = var2;
+            var1['profileInnerContent'] = var2;
             var2 = {};
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
@@ -122,8 +125,8 @@ case 10:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
-    var4 = 25;
+    var _closure1_slot11 = var4;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -133,167 +136,221 @@ case 10:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
-            var28 = var2.user;
+            var35 = var2.user;
             var7 = var2.accessibilityLabel;
-            var34 = var2.displayName;
-            var29 = var2.guildId;
-            var _closure2_slot0 = var29;
-            var15 = var2.pendingProfileEffectRecord;
-            var30 = var2.pendingDisplayNameStyles;
+            var41 = var2.displayName;
+            var36 = var2.guildId;
+            var _closure2_slot0 = var36;
+            var16 = var2.pendingProfileEffectRecord;
+            var37 = var2.pendingDisplayNameStyles;
             var9 = var2.style;
-            var21 = var2.compact;
+            var27 = var2.compact;
             var4 = undefined;
-            if(!(var21 === var4)) { _fun0002_ip = 11; continue _fun0002 }
+            if(!(var27 === var4)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var21 = false;
+            var27 = false;
 case 11:
-            var14 = var2.maxWidth;
-            var6 = var2.additionalBadges;
-            if(!(var6 === var4)) { _fun0002_ip = 13; continue _fun0002 }
+            var3 = var2.hideFrame;
+            if(!(var3 === var4)) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var6 = new Array(0);
+            var3 = false;
 case 13:
+            var17 = var2.maxWidth;
+            var13 = var2.additionalBadges;
+            if(!(var13 === var4)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+            var13 = new Array(0);
+case 15:
             var _closure2_slot1 = var4;
-            var8 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var2 = 7;
-            var2 = var12[var2];
-            var10 = var8.bind(var4)(var2);
-            var5 = var10.useStateFromStoresObject;
-            var2 = _closure1_slot4;
-            var3 = new Array(1);
-            var3[0] = var2;
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var6 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 8;
+            var2 = var11[var2];
+            var10 = var6.bind(var4)(var2);
+            var8 = var10.useStateFromStoresObject;
+            var2 = _closure1_slot6;
+            var5 = new Array(1);
+            var5[0] = var2;
             var2 = function() {
-                var3 = _closure1_slot4;
+                var3 = _closure1_slot6;
                 var2 = var3.getPendingChanges;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var2 = var5.bind(var10)(var3, var2);
-            var18 = var2.pendingAvatar;
-            var13 = var2.pendingBanner;
-            var17 = var2.pendingAccentColor;
-            var16 = var2.pendingThemeColors;
-            var41 = var2.pendingAvatarDecoration;
-            var33 = var2.pendingGlobalName;
-            var32 = var2.pendingPronouns;
-            var3 = var2.pendingLegacyUsernameDisabled;
-            var19 = _closure1_slot1;
-            var2 = 8;
-            var2 = var12[var2];
-            var5 = var19.bind(var4)(var2);
-            var2 = var28.id;
-            var26 = var5.bind(var4)(var2, var29);
+            var2 = var8.bind(var10)(var5, var2);
+            var14 = var2.pendingAvatar;
+            var21 = var2.pendingBanner;
+            var24 = var2.pendingAccentColor;
+            var22 = var2.pendingThemeColors;
+            var48 = var2.pendingAvatarDecoration;
+            var40 = var2.pendingGlobalName;
+            var39 = var2.pendingPronouns;
+            var8 = var2.pendingLegacyUsernameDisabled;
+            var12 = _closure1_slot1;
             var2 = 9;
-            var2 = var12[var2];
-            var5 = var19.bind(var4)(var2);
+            var2 = var11[var2];
+            var5 = var12.bind(var4)(var2);
+            var2 = var35.id;
+            var33 = var5.bind(var4)(var2, var36);
+            var2 = 10;
+            var2 = var11[var2];
+            var5 = var12.bind(var4)(var2);
             var2 = {};
-            var2['user'] = var28;
-            var2['displayProfile'] = var26;
-            var2['pendingThemeColors'] = var16;
+            var2['user'] = var35;
+            var2['displayProfile'] = var33;
+            var2['pendingThemeColors'] = var22;
             var2 = var5.bind(var4)(var2);
             var5 = var2.theme;
-            var23 = var2.primaryColor;
-            var20 = var2.secondaryColor;
+            var29 = var2.primaryColor;
+            var26 = var2.secondaryColor;
             var10 = null;
-            var35 = var10 != var23;
-            var2 = _closure1_slot9;
-            var14 = var2.bind(var4)(var21, var35, var14);
-            var2 = 10;
-            var2 = var12[var2];
-            var2 = var19.bind(var4)(var2);
-            var25 = var2.bind(var4)();
+            var42 = var10 != var29;
+            var2 = _closure1_slot11;
+            var23 = var2.bind(var4)(var27, var42, var17);
             var2 = 11;
-            var2 = var12[var2];
-            var8 = var8.bind(var4)(var2);
-            var2 = var8.useCustomStatusActivity;
-            var36 = var2.bind(var8)();
-            var22 = var10 != var36;
-            if(!var22) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-            var22 = !var21;
-case 15:
-            var8 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var2 = 12;
-            var2 = var12[var2];
-            var24 = var8.bind(var4)(var2);
-            var19 = var24.useUserProfileColors;
-            var2 = {};
-            var2['theme'] = var5;
-            var2['primaryColor'] = var23;
-            var2['secondaryColor'] = var20;
-            var2 = var19.bind(var24)(var2);
-            var24 = var2.gradientFallbackBackground;
-            var40 = var2.avatarBackground;
-            var27 = var2.containerBackground;
-            var2 = 13;
-            var2 = var12[var2];
-            var12 = var8.bind(var4)(var2);
-            var8 = var12.getProfilePreviewValue;
-            var2 = {};
-            var2['pendingValue'] = var15;
-            var19 = var10 == var26;
-            var15 = undefined;
-            if(var19) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
-            var15 = var26.profileEffect;
-case 17:
-            var2['userValue'] = var15;
-            var19 = var10 == var26;
-            var15 = undefined;
-            if(var19) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
-            var19 = var26._guildMemberProfile;
-            var31 = var10 == var19;
-            var15 = undefined;
-            if(var31) { _fun0002_ip = 19; continue _fun0002 }
-case 21:
-            var15 = var19.profileEffect;
-case 19:
-            var2['guildValue'] = var15;
-            var2['guildId'] = var29;
-            var15 = var8.bind(var12)(var2);
-            var19 = _closure1_slot0;
-            var37 = _closure1_slot2;
-            var2 = 14;
-            var2 = var37[var2];
-            var12 = var19.bind(var4)(var2);
-            var8 = var12.getPendingAvatarSrc;
-            var2 = {};
-            var31 = var28.id;
-            var2['userId'] = var31;
-            var2['image'] = var18;
-            var42 = var8.bind(var12)(var2);
-            var12 = _closure1_slot1;
-            var2 = 15;
-            var2 = var37[var2];
+            var2 = var11[var2];
             var2 = var12.bind(var4)(var2);
-            var3 = var2.bind(var4)(var26, var3);
-            var2 = global;
-            var18 = var2.Set;
-            var8 = var3.map;
-            var2 = function(arg1) {
+            var32 = var2.bind(var4)();
+            var2 = 12;
+            var2 = var11[var2];
+            var6 = var6.bind(var4)(var2);
+            var2 = var6.useCustomStatusActivity;
+            var43 = var2.bind(var6)();
+            var28 = var10 != var43;
+            if(!var28) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+            var28 = !var27;
+case 17:
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var11 = 13;
+            var11 = var2[var11];
+            var17 = var6.bind(var4)(var11);
+            var12 = var17.useUserProfileColors;
+            var11 = {};
+            var11['theme'] = var5;
+            var11['primaryColor'] = var29;
+            var11['secondaryColor'] = var26;
+            var11 = var12.bind(var17)(var11);
+            var30 = var11.gradientFallbackBackground;
+            var47 = var11.avatarBackground;
+            var34 = var11.containerBackground;
+            var11 = 14;
+            var2 = var2[var11];
+            var12 = var6.bind(var4)(var2);
+            var6 = var12.getProfilePreviewValue;
+            var2 = {};
+            var2['pendingValue'] = var16;
+            var17 = var10 == var33;
+            var16 = undefined;
+            if(var17) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var16 = var33.profileEffect;
+case 19:
+            var2['userValue'] = var16;
+            var17 = var10 == var33;
+            var16 = undefined;
+            if(var17) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+            var17 = var33._guildMemberProfile;
+            var18 = var10 == var17;
+            var16 = undefined;
+            if(var18) { _fun0002_ip = 21; continue _fun0002 }
+case 23:
+            var16 = var17.profileEffect;
+case 21:
+            var2['guildValue'] = var16;
+            var2['guildId'] = var36;
+            var19 = var6.bind(var12)(var2);
+            var2 = undefined;
+            if(var3) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var11];
+            var11 = var6.bind(var4)(var3);
+            var6 = var11.getProfilePreviewValue;
+            var3 = {};
+            var16 = var10 == var33;
+            var12 = undefined;
+            if(var16) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+            var12 = var33.profileFrame;
+case 26:
+            var3['userValue'] = var12;
+            var16 = var10 == var33;
+            var12 = undefined;
+            if(var16) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
+            var16 = var33._guildMemberProfile;
+            var17 = var10 == var16;
+            var12 = undefined;
+            if(var17) { _fun0002_ip = 28; continue _fun0002 }
+case 30:
+            var12 = var16.profileFrame;
+case 28:
+            var3['guildValue'] = var12;
+            var3['guildId'] = var36;
+            var2 = var6.bind(var11)(var3);
+case 24:
+            var6 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var3 = 15;
+            var3 = var11[var3];
+            var6 = var6.bind(var4)(var3);
+            var11 = var10 == var2;
+            var3 = undefined;
+            if(var11) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
+            var3 = var2.skuId;
+case 31:
+            var2 = 'UserProfilePreview';
+            var16 = var6.bind(var4)(var3, var2);
+            _closure2_slot1 = var16;
+            var2 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 16;
+            var3 = var6[var3];
+            var12 = var2.bind(var4)(var3);
+            var11 = var12.getPendingAvatarSrc;
+            var3 = {};
+            var17 = var35.id;
+            var3['userId'] = var17;
+            var3['image'] = var14;
+            var49 = var11.bind(var12)(var3);
+            var11 = _closure1_slot1;
+            var3 = 17;
+            var3 = var6[var3];
+            var3 = var11.bind(var4)(var3);
+            var3 = var3.bind(var4)(var33, var8);
+            var8 = global;
+            var12 = var8.Set;
+            var11 = var3.map;
+            var8 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.id;
                 return var1;
             };
-            var46 = var8.bind(var3)(var2);
-            var8 = var18.prototype;
-            var8 = Object.create(var8, {constructor: {value: var18}});
-            var47 = var8;
-            var2 = new var47[var18](var46, var45);
-            var2 = var2 instanceof Object ? var2 : var8;
-            _closure2_slot1 = var2;
-            var31 = new Array(0);
-            var44 = 0;
-            var46 = var31;
-            var45 = var3;
-            var44 = arraySpread(var46, var45, var44);
-            var3 = var6.filter;
-            var1 = function(arg1) {
-                var3 = _closure2_slot1;
+            var53 = var11.bind(var3)(var8);
+            var11 = var12.prototype;
+            var11 = Object.create(var11, {constructor: {value: var12}});
+            var54 = var11;
+            var8 = new var54[var12](var53, var52);
+            var8 = var8 instanceof Object ? var8 : var11;
+            _closure2_slot2 = var8;
+            var38 = new Array(0);
+            var8 = 0;
+            var53 = var38;
+            var52 = var3;
+            var51 = 0;
+            var51 = arraySpread(var53, var52, var51);
+            var12 = var13.filter;
+            var3 = function(arg1) {
+                var3 = _closure2_slot2;
                 var2 = var3.has;
                 var1 = arg1;
                 var1 = var1.id;
@@ -301,212 +358,388 @@ case 19:
                 var1 = !var1;
                 return var1;
             };
-            var45 = var3.bind(var6)(var1);
-            var46 = var31;
-            var1 = arraySpread(var46, var45, var44);
-            var3 = _closure1_slot7;
-            var1 = 16;
-            var1 = var37[var1];
-            var1 = var19.bind(var4)(var1);
+            var52 = var12.bind(var13)(var3);
+            var53 = var38;
+            var3 = arraySpread(var53, var52, var51);
+            var11 = _closure1_slot4;
+            var3 = var11.useState;
+            var13 = var3.bind(var11)(var8);
+            var12 = _closure1_slot3;
+            var3 = 2;
+            var3 = var12.bind(var4)(var13, var3);
+            var14 = var3[var8];
+            _closure2_slot3 = var14;
+            var31 = 1;
+            var3 = var3[var31];
+            _closure2_slot4 = var3;
+            var12 = var11.useCallback;
+            var8 = function(arg1) {
+                var3 = _closure2_slot4;
+                var1 = global;
+                var4 = var1.Math;
+                var2 = var4.floor;
+                var1 = arg1;
+                var1 = var1.nativeEvent;
+                var1 = var1.layout;
+                var1 = var1.width;
+                var2 = var2.bind(var4)(var1);
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var3 = new Array(0);
+            var17 = var12.bind(var11)(var8, var3);
+            var8 = var11.useMemo;
+            var3 = new Array(2);
+            var3[0] = var16;
+            var3[1] = var14;
+            var1 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var2 = _closure2_slot1;
+                    var1 = null;
+                    if(!(var1 == var2)) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
+                    var1 = undefined;
+                    return var1;
+case 33:
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 18;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = _closure2_slot3;
+                    var1 = var2.bind(var3)(var1);
+                    var8 = var1.overflowTop;
+                    var4 = var1.overflowBottom;
+                    var2 = var1.overflowHorizontal;
+                    var1 = {};
+                    var3 = _closure2_slot1;
+                    var9 = var3.layers;
+                    var7 = var9.some;
+                    var3 = function(arg1) {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                            var2 = arg1;
+                            var3 = var2.type;
+                            var1 = 'staple';
+                            var1 = var1 === var3;
+                            if(!var1) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
+                            var3 = var2.anchor;
+                            var2 = 'top';
+                            var1 = var2 === var3;
+case 35:
+                            return var1;
+                        }
+                    };
+                    var9 = var7.bind(var9)(var3);
+                    var7 = 0;
+                    if(!var9) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
+                    var7 = var8;
+case 37:
+                    var1['marginTop'] = var7;
+                    var6 = _closure2_slot1;
+                    var7 = var6.layers;
+                    var6 = var7.some;
+                    var5 = function(arg1) {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                            var2 = arg1;
+                            var3 = var2.type;
+                            var1 = 'staple';
+                            var1 = var1 === var3;
+                            if(!var1) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+                            var3 = var2.anchor;
+                            var2 = 'bottom';
+                            var1 = var2 === var3;
+case 35:
+                            return var1;
+                        }
+                    };
+                    var5 = var6.bind(var7)(var5);
+                    var3 = 0;
+                    if(!var5) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
+                    var3 = var4;
+case 39:
+                    var1['marginBottom'] = var3;
+                    var1['marginHorizontal'] = var2;
+                    return var1;
+                }
+            };
+            var11 = var8.bind(var11)(var1, var3);
+            var3 = _closure1_slot9;
+            var1 = 19;
+            var1 = var6[var1];
+            var1 = var2.bind(var4)(var1);
             var2 = var1.ThemeContextProvider;
             var1 = {};
             var1['theme'] = var5;
-            var1['primaryColor'] = var23;
-            var1['secondaryColor'] = var20;
-            var6 = _closure1_slot3;
+            var1['primaryColor'] = var29;
+            var1['secondaryColor'] = var26;
+            var6 = _closure1_slot5;
             var5 = {'style': null, 'pointerEvents': 'none', 'accessibilityLabel': null, 'accessibilityRole': 'image', 'accessible': true};
-            var18 = var14.profileContainer;
-            var8 = new Array(2);
-            var8[0] = var18;
-            var8[1] = var9;
+            var12 = var23.profileContainer;
+            var8 = new Array(3);
+            var8[0] = var12;
+            var8[1] = var11;
+            var8[2] = var9;
             var5['style'] = var8;
             var5['accessibilityLabel'] = var7;
-            var39 = true;
-            var8 = _closure1_slot8;
+            var46 = true;
+            var8 = _closure1_slot10;
             var7 = {'importantForAccessibility': 'no-hide-descendants', 'accessibilityElementsHidden': true};
-            var9 = 17;
-            var9 = var37[var9];
+            var11 = var10 != var16;
+            if(!var11) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
+            var13 = _closure1_slot9;
+            var12 = _closure1_slot1;
+            var25 = _closure1_slot2;
+            var9 = 20;
+            var9 = var25[var9];
             var12 = var12.bind(var4)(var9);
             var9 = {};
-            var9['user'] = var28;
-            var9['displayProfile'] = var26;
-            var18 = 18;
-            var18 = var37[var18];
-            var18 = var19.bind(var4)(var18);
-            var18 = var18.PFX_MOBILE_ACTION_SHEET_BANNER_HEIGHT;
-            var9['bannerHeight'] = var18;
-            var9['pendingBanner'] = var13;
-            var9['pendingAvatarSrc'] = var42;
-            var18 = var10 != var17;
-            var13 = undefined;
-            if(!var18) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-            var13 = var17;
-case 22:
-            var9['pendingAccentColor'] = var13;
-            var17 = var10 != var16;
-            var13 = undefined;
-            if(!var17) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
-            var13 = var16;
-case 24:
-            var9['pendingThemeColors'] = var13;
-            var9['disableInteraction'] = var39;
-            var12 = var3.bind(var4)(var12, var9);
+            var9['frame'] = var16;
+            var18 = _closure1_slot8;
+            var18 = var18.PREVIEW;
+            var9['profileThemeType'] = var18;
+            var20 = _closure1_slot0;
+            var18 = 21;
+            var18 = var25[var18];
+            var18 = var20.bind(var4)(var18);
+            var18 = var18.ProfileFrameLayerOrder;
+            var18 = var18.BACK;
+            var9['frameOrder'] = var18;
+            var9['containerWidth'] = var14;
+            var11 = var13.bind(var4)(var12, var9);
+case 41:
             var9 = new Array(3);
-            var9[0] = var12;
-            var16 = _closure1_slot8;
-            var13 = _closure1_slot3;
-            var12 = {};
-            var17 = var14.profileContentWrapper;
-            var12['style'] = var17;
-            var38 = _closure1_slot7;
-            var19 = _closure1_slot1;
-            var37 = _closure1_slot2;
-            var17 = 19;
-            var17 = var37[var17];
-            var18 = var19.bind(var4)(var17);
+            var9[0] = var11;
+            var13 = _closure1_slot10;
+            var12 = _closure1_slot5;
+            var11 = {};
+            var11['onLayout'] = var17;
+            var17 = var23.profileContentContainer;
+            var11['style'] = var17;
+            var20 = _closure1_slot9;
+            var18 = _closure1_slot1;
+            var45 = _closure1_slot2;
+            var17 = 22;
+            var17 = var45[var17];
+            var18 = var18.bind(var4)(var17);
             var17 = {};
-            var17['user'] = var28;
-            var17['guildId'] = var29;
-            var17['pendingAvatarSrc'] = var42;
-            var17['pendingAvatarDecoration'] = var41;
-            var17['backgroundColor'] = var40;
-            var17['disableStatus'] = var39;
-            var18 = var38.bind(var4)(var18, var17);
-            var17 = new Array(2);
+            var17['user'] = var35;
+            var17['displayProfile'] = var33;
+            var44 = _closure1_slot0;
+            var25 = 23;
+            var25 = var45[var25];
+            var25 = var44.bind(var4)(var25);
+            var25 = var25.PFX_MOBILE_ACTION_SHEET_BANNER_HEIGHT;
+            var17['bannerHeight'] = var25;
+            var17['pendingBanner'] = var21;
+            var17['pendingAvatarSrc'] = var49;
+            var25 = var10 != var24;
+            var21 = undefined;
+            if(!var25) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
+            var21 = var24;
+case 43:
+            var17['pendingAccentColor'] = var21;
+            var24 = var10 != var22;
+            var21 = undefined;
+            if(!var24) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
+            var21 = var22;
+case 45:
+            var17['pendingThemeColors'] = var21;
+            var17['disableInteraction'] = var46;
+            var18 = var20.bind(var4)(var18, var17);
+            var17 = new Array(3);
             var17[0] = var18;
-            var18 = 20;
-            var18 = var37[var18];
-            var19 = var19.bind(var4)(var18);
+            var21 = _closure1_slot10;
+            var20 = _closure1_slot5;
             var18 = {};
-            var18['fallbackBackground'] = var24;
-            var18['primaryColor'] = var23;
-            var18['secondaryColor'] = var20;
-            var23 = var25.profileContentWrapper;
-            var20 = new Array(3);
-            var20[0] = var23;
-            var23 = var25.profileContent;
-            var20[1] = var23;
-            var23 = !var22;
-            if(var22) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            var22 = var23.profileInnerContent;
+            var18['style'] = var22;
+            var45 = _closure1_slot9;
+            var25 = _closure1_slot1;
+            var44 = _closure1_slot2;
+            var22 = 24;
+            var22 = var44[var22];
+            var24 = var25.bind(var4)(var22);
+            var22 = {};
+            var22['user'] = var35;
+            var22['guildId'] = var36;
+            var22['pendingAvatarSrc'] = var49;
+            var22['pendingAvatarDecoration'] = var48;
+            var22['backgroundColor'] = var47;
+            var22['disableStatus'] = var46;
+            var24 = var45.bind(var4)(var24, var22);
+            var22 = new Array(2);
+            var22[0] = var24;
+            var24 = 25;
+            var24 = var44[var24];
+            var25 = var25.bind(var4)(var24);
             var24 = {};
-            var37 = _closure1_slot5;
-            var24['paddingTop'] = var37;
-            var23 = var24;
-case 26:
-            var20[2] = var23;
-            var18['containerStyle'] = var20;
-            if(!var22) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
-            var24 = _closure1_slot7;
-            var23 = _closure1_slot1;
-            var37 = _closure1_slot2;
-            var20 = 21;
-            var20 = var37[var20];
-            var23 = var23.bind(var4)(var20);
-            var20 = {};
-            var20['customStatusActivity'] = var36;
-            var36 = _closure1_slot6;
-            var36 = var36.PREVIEW;
-            var20['themeType'] = var36;
-            var20['hasCustomProfileTheme'] = var35;
-            var35 = var25.customStatusBubble;
-            var20['style'] = var35;
-            var35 = var25.emojiOnlyCustomStatusBubble;
-            var20['emojiOnlyStyle'] = var35;
-            var22 = var24.bind(var4)(var23, var20);
-case 28:
-            var20 = new Array(3);
-            var20[0] = var22;
-            var24 = _closure1_slot7;
-            var23 = _closure1_slot1;
-            var35 = _closure1_slot2;
-            var22 = 22;
-            var22 = var35[var22];
-            var23 = var23.bind(var4)(var22);
-            var22 = {};
-            var22['user'] = var28;
-            var35 = _closure1_slot6;
-            var35 = var35.PREVIEW;
-            var22['themeType'] = var35;
-            if(!(var10 != var34)) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
-            var33 = var34;
-case 30:
-            var22['displayName'] = var33;
-            if(!(var10 == var32)) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
-            var34 = var10 == var26;
-            var33 = undefined;
-            if(var34) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
-            var33 = var26.pronouns;
-case 34:
-            var32 = var33;
-case 32:
-            var22['pronouns'] = var32;
-            var22['badges'] = var31;
-            var22['badgeContainerBackground'] = var27;
-            var31 = false;
-            var22['showBadgeToastOnPress'] = var31;
-            var22['pendingDisplayNameStyles'] = var30;
-            var22['guildId'] = var29;
-            var22 = var24.bind(var4)(var23, var22);
-            var20[1] = var22;
-            var21 = !var21;
-            if(!var21) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
-            var24 = _closure1_slot7;
-            var23 = _closure1_slot1;
-            var29 = _closure1_slot2;
-            var22 = 23;
-            var22 = var29[var22];
-            var23 = var23.bind(var4)(var22);
-            var22 = {};
-            var28 = var28.id;
-            var22['userId'] = var28;
-            var22['displayProfile'] = var26;
-            var26 = _closure1_slot6;
-            var26 = var26.PREVIEW;
-            var22['themeType'] = var26;
-            var26 = var25.card;
-            var25 = new Array(3);
-            var25[0] = var26;
-            var26 = var14.aboutMeCard;
-            var25[1] = var26;
+            var24['fallbackBackground'] = var30;
+            var24['primaryColor'] = var29;
+            var24['secondaryColor'] = var26;
+            var29 = var32.profileContentWrapper;
+            var26 = new Array(3);
+            var26[0] = var29;
+            var29 = var32.profileContent;
+            var26[1] = var29;
+            var29 = !var28;
+            if(var28) { _fun0002_ip = 47; continue _fun0002 }
+case 48:
+            var30 = {};
+            var44 = _closure1_slot7;
+            var30['paddingTop'] = var44;
+            var29 = var30;
+case 47:
+            var26[2] = var29;
+            var24['containerStyle'] = var26;
+            if(!var28) { _fun0002_ip = 49; continue _fun0002 }
+case 50:
+            var30 = _closure1_slot9;
+            var29 = _closure1_slot1;
+            var44 = _closure1_slot2;
+            var26 = 26;
+            var26 = var44[var26];
+            var29 = var29.bind(var4)(var26);
             var26 = {};
-            var26['backgroundColor'] = var27;
-            var25[2] = var26;
-            var22['style'] = var25;
-            var25 = 1;
-            var22['bioLineClamp'] = var25;
-            var21 = var24.bind(var4)(var23, var22);
-case 36:
-            var20[2] = var21;
-            var18['children'] = var20;
-            var18 = var16.bind(var4)(var19, var18);
+            var26['customStatusActivity'] = var43;
+            var43 = _closure1_slot8;
+            var43 = var43.PREVIEW;
+            var26['themeType'] = var43;
+            var26['hasCustomProfileTheme'] = var42;
+            var42 = var32.customStatusBubble;
+            var26['style'] = var42;
+            var42 = var32.emojiOnlyCustomStatusBubble;
+            var26['emojiOnlyStyle'] = var42;
+            var28 = var30.bind(var4)(var29, var26);
+case 49:
+            var26 = new Array(3);
+            var26[0] = var28;
+            var30 = _closure1_slot9;
+            var29 = _closure1_slot1;
+            var42 = _closure1_slot2;
+            var28 = 27;
+            var28 = var42[var28];
+            var29 = var29.bind(var4)(var28);
+            var28 = {};
+            var28['user'] = var35;
+            var42 = _closure1_slot8;
+            var42 = var42.PREVIEW;
+            var28['themeType'] = var42;
+            if(!(var10 != var41)) { _fun0002_ip = 51; continue _fun0002 }
+case 52:
+            var40 = var41;
+case 51:
+            var28['displayName'] = var40;
+            if(!(var10 == var39)) { _fun0002_ip = 53; continue _fun0002 }
+case 54:
+            var41 = var10 == var33;
+            var40 = undefined;
+            if(var41) { _fun0002_ip = 55; continue _fun0002 }
+case 56:
+            var40 = var33.pronouns;
+case 55:
+            var39 = var40;
+case 53:
+            var28['pronouns'] = var39;
+            var28['badges'] = var38;
+            var28['badgeContainerBackground'] = var34;
+            var38 = false;
+            var28['showBadgeToastOnPress'] = var38;
+            var28['pendingDisplayNameStyles'] = var37;
+            var28['guildId'] = var36;
+            var28 = var30.bind(var4)(var29, var28);
+            var26[1] = var28;
+            var27 = !var27;
+            if(!var27) { _fun0002_ip = 57; continue _fun0002 }
+case 58:
+            var30 = _closure1_slot9;
+            var29 = _closure1_slot1;
+            var36 = _closure1_slot2;
+            var28 = 28;
+            var28 = var36[var28];
+            var29 = var29.bind(var4)(var28);
+            var28 = {};
+            var35 = var35.id;
+            var28['userId'] = var35;
+            var28['displayProfile'] = var33;
+            var33 = _closure1_slot8;
+            var33 = var33.PREVIEW;
+            var28['themeType'] = var33;
+            var33 = var32.card;
+            var32 = new Array(3);
+            var32[0] = var33;
+            var33 = var23.aboutMeCard;
+            var32[1] = var33;
+            var33 = {};
+            var33['backgroundColor'] = var34;
+            var32[2] = var33;
+            var28['style'] = var32;
+            var28['bioLineClamp'] = var31;
+            var27 = var30.bind(var4)(var29, var28);
+case 57:
+            var26[2] = var27;
+            var24['children'] = var26;
+            var24 = var21.bind(var4)(var25, var24);
+            var22[1] = var24;
+            var18['children'] = var22;
+            var18 = var21.bind(var4)(var20, var18);
             var17[1] = var18;
-            var12['children'] = var17;
-            var12 = var16.bind(var4)(var13, var12);
-            var9[1] = var12;
-            var10 = var10 != var15;
-            if(!var10) { _fun0002_ip = 38; continue _fun0002 }
-case 39:
-            var13 = _closure1_slot7;
+            var18 = var10 != var19;
+            if(!var18) { _fun0002_ip = 59; continue _fun0002 }
+case 60:
+            var22 = _closure1_slot9;
+            var21 = _closure1_slot1;
+            var24 = _closure1_slot2;
+            var20 = 29;
+            var20 = var24[var20];
+            var21 = var21.bind(var4)(var20);
+            var20 = {};
+            var24 = var19.skuId;
+            var20['skuId'] = var24;
+            var23 = var23.profileEffect;
+            var20['style'] = var23;
+            var19 = var19.skuId;
+            var18 = var22.bind(var4)(var21, var20, var19);
+case 59:
+            var17[2] = var18;
+            var11['children'] = var17;
+            var11 = var13.bind(var4)(var12, var11);
+            var9[1] = var11;
+            var10 = var10 != var16;
+            if(!var10) { _fun0002_ip = 61; continue _fun0002 }
+case 62:
+            var13 = _closure1_slot9;
             var12 = _closure1_slot1;
-            var16 = _closure1_slot2;
-            var11 = 24;
-            var11 = var16[var11];
+            var17 = _closure1_slot2;
+            var11 = 20;
+            var11 = var17[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
-            var15 = var15.skuId;
-            var11['skuId'] = var15;
-            var14 = var14.profileEffect;
-            var11['style'] = var14;
+            var11['frame'] = var16;
+            var16 = _closure1_slot8;
+            var16 = var16.PREVIEW;
+            var11['profileThemeType'] = var16;
+            var16 = _closure1_slot0;
+            var15 = 21;
+            var15 = var17[var15];
+            var15 = var16.bind(var4)(var15);
+            var15 = var15.ProfileFrameLayerOrder;
+            var15 = var15.FRONT;
+            var11['frameOrder'] = var15;
+            var11['containerWidth'] = var14;
             var10 = var13.bind(var4)(var12, var11);
-case 38:
+case 61:
             var9[2] = var10;
             var7['children'] = var9;
             var7 = var8.bind(var4)(var6, var7);

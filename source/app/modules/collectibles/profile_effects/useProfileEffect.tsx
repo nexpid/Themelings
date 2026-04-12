@@ -1,4 +1,4 @@
-// app/modules/collectibles/profile_effects/useProfileEffectPreset.tsx
+// app/modules/collectibles/profile_effects/useProfileEffect.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -37,9 +37,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/profile_effects/useProfileEffectPreset.tsx';
+    var4 = 'modules/collectibles/profile_effects/useProfileEffect.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function useProfileEffect(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var6 = arg1;
@@ -113,49 +113,24 @@ case 6:
                 }
             };
             var1 = var5.bind(var7)(var4, var1);
-            var _closure2_slot1 = var1;
-            var7 = _closure1_slot2;
-            var5 = var7.useMemo;
-            var4 = new Array(1);
-            var4[0] = var1;
-            var1 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var2 = _closure2_slot1;
-                    var1 = null;
-                    var2 = var1 != var2;
-                    var1 = undefined;
-                    if(!var2) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                    var2 = {};
-                    var3 = _closure2_slot1;
-                    var4 = var3.skuId;
-                    var2['skuId'] = var4;
-                    var2['config'] = var3;
-                    var1 = var2;
-case 12:
-                    return var1;
-                }
-            };
-            var1 = var5.bind(var7)(var1, var4);
             var4 = null;
             var7 = var4 != var6;
-            if(!var7) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var7 = var4 == var1;
-case 14:
-            var _closure2_slot2 = var7;
+case 12:
+            var _closure2_slot1 = var7;
             var5 = _closure1_slot2;
             var4 = var5.useEffect;
             var3 = new Array(2);
             var3[0] = var7;
             var3[1] = var6;
             var2 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var2 = _closure2_slot2;
-                    if(!var2) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                    var2 = _closure2_slot1;
+                    if(!var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot1;
                     var2 = 5;
@@ -165,7 +140,7 @@ case 17:
                     var2 = var3.maybeFetchCollectiblesProduct;
                     var1 = _closure2_slot0;
                     var1 = var2.bind(var3)(var1);
-case 16:
+case 14:
                     var1 = undefined;
                     return var1;
                 }
@@ -174,6 +149,6 @@ case 16:
             return var1;
         }
     };
-    var3['useProfileEffectPreset'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

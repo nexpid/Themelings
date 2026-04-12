@@ -186,7 +186,7 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.profileEffectConfig;
+            var2 = var1.profileEffect;
             var _closure2_slot0 = var2;
             var15 = var1.replayOnNavigationFocus;
             var4 = undefined;
@@ -459,7 +459,7 @@ case 16:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = arg1;
-            var3 = var2.config;
+            var3 = var2.profileEffect;
             var13 = var2.bannerAdjustment;
             var4 = undefined;
             if(!(var13 === var4)) { _fun0006_ip = 18; continue _fun0006 }
@@ -621,65 +621,56 @@ case 30:
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var7 = arg1;
-            var2 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
             var1 = 18;
-            var1 = var4[var1];
+            var1 = var8[var1];
             var6 = undefined;
-            var4 = var2.bind(var6)(var1);
-            var2 = var4.useProfileEffectPreset;
+            var2 = var2.bind(var6)(var1);
             var1 = var7.skuId;
-            var2 = var2.bind(var4)(var1);
-            var1 = null;
-            var4 = var1 == var2;
-            var8 = undefined;
-            if(var4) { _fun0008_ip = 16; continue _fun0008 }
-case 31:
-            var8 = var2.config;
-case 16:
-            var5 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var2 = 11;
-            var2 = var9[var2];
-            var11 = var5.bind(var6)(var2);
-            var10 = var11.useStateFromStores;
-            var2 = _closure1_slot7;
-            var4 = new Array(1);
-            var4[0] = var2;
-            var2 = function() {
+            var5 = var2.bind(var6)(var1);
+            var4 = _closure1_slot0;
+            var1 = 11;
+            var1 = var8[var1];
+            var10 = var4.bind(var6)(var1);
+            var9 = var10.useStateFromStores;
+            var1 = _closure1_slot7;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
                 var1 = _closure1_slot7;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var2 = var10.bind(var11)(var4, var2);
-            var4 = 8;
-            var4 = var9[var4];
-            var5 = var5.bind(var6)(var4);
-            var4 = var5.usePotentiallyRandomizedConfig;
-            var8 = var4.bind(var5)(var8);
-            var4 = var1 == var8;
+            var2 = var9.bind(var10)(var2, var1);
+            var1 = 8;
+            var1 = var8[var1];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.usePotentiallyRandomizedProfileEffect;
+            var8 = var1.bind(var4)(var5);
             var1 = null;
-            if(var4) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
-            if(var2) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+            var4 = var1 == var8;
+            if(var4) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
+            if(var2) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
             var2 = var7.useThumbnail;
-            if(var2) { _fun0008_ip = 34; continue _fun0008 }
-case 36:
+            if(var2) { _fun0008_ip = 33; continue _fun0008 }
+case 11:
             var5 = _closure1_slot9;
             var4 = _closure1_slot13;
             var2 = {};
-            var2['profileEffectConfig'] = var8;
-            var13 = var2;
-            var12 = var7;
-            var9 = copyDataProperties(var13, var12);
+            var2['profileEffect'] = var8;
+            var12 = var2;
+            var11 = var7;
+            var9 = copyDataProperties(var12, var11);
             var2 = var5.bind(var6)(var4, var2);
-            _fun0008_ip = 37; continue _fun0008;
-case 34:
+            _fun0008_ip = 35; continue _fun0008;
+case 33:
             var5 = _closure1_slot9;
             var4 = _closure1_slot14;
             var3 = {};
-            var3['config'] = var8;
+            var3['profileEffect'] = var8;
             var8 = var7.bannerAdjustment;
             var3['bannerAdjustment'] = var8;
             var8 = var7.useThumbnail;
@@ -687,9 +678,9 @@ case 34:
             var7 = var7.thumbnailUrlOverride;
             var3['thumbnailUrlOverride'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 37:
+case 35:
             var1 = var2;
-case 32:
+case 31:
             return var1;
         }
     };

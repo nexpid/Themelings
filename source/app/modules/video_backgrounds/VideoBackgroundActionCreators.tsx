@@ -336,13 +336,13 @@ case 31:
                         return var1;
                     };
                     var2 = var7.bind(var9)(var3, var2, var6);
-                    SaveGenerator(address=97);
+                    SaveGenerator(address=99);
 case 32:
                     return var2;
-case 33:
+case 25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+                    if(var3) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 8;
@@ -350,8 +350,8 @@ case 35:
                     var6 = var6.bind(var4)(var3);
                     var3 = var6.isCustomBackgroundOption;
                     var3 = var3.bind(var6)(var8);
-                    if(var3) { _fun0004_ip = 36; continue _fun0004 }
-case 9:
+                    if(var3) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var3 = 5;
@@ -364,7 +364,7 @@ case 9:
                     var3['backgroundOption'] = var8;
                     var3 = var6.bind(var7)(var3);
                     _fun0004_ip = 37; continue _fun0004;
-case 36:
+case 35:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 4;
@@ -381,7 +381,7 @@ case 36:
                     var8 = false;
                     var3['rejectWithError'] = var8;
                     var3 = var6.bind(var7)(var3);
-                    SaveGenerator(address=264);
+                    SaveGenerator(address=266);
 case 38:
                     return var3;
 case 39:
@@ -404,7 +404,7 @@ case 37:
                     return var4;
 case 40:
                     return var3;
-case 34:
+case 33:
                     return var2;
 case 30:
                     return var1;

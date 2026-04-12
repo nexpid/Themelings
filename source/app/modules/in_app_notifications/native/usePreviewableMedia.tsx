@@ -183,6 +183,269 @@ case 35:
         }
     };
     var _closure1_slot8 = var1;
+    var1 = function getBasePreviewableMedia(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.message;
+            var9 = var1.isForward;
+            var1 = new Array(0);
+            var3 = var2.attachments;
+            var3 = var3.length;
+            var4 = 0;
+            if(!(var3 > var4)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+            var5 = var2.hasFlag;
+            var3 = _closure1_slot4;
+            var3 = var3.IS_VOICE_MESSAGE;
+            var3 = var5.bind(var2)(var3);
+            if(var3) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+            var5 = _closure1_slot7;
+            var3 = var2.attachments;
+            var16 = undefined;
+            var15 = var5.bind(var16)(var3);
+            var5 = var15.bind(var16)();
+            var3 = var5.done;
+            var14 = 'forward';
+            var12 = 3;
+            var11 = 'lg';
+            var8 = 4;
+            var7 = 6;
+            var6 = 5;
+            if(var3) { _fun0004_ip = 36; continue _fun0004 }
+case 40:
+            var18 = var5.value;
+            var19 = var18.filename;
+            var17 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var17 = var17.bind(var16)(var3);
+            var3 = var17.isImageFile;
+            var3 = var3.bind(var17)(var19);
+            if(var3) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
+            var17 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var17 = var17.bind(var16)(var3);
+            var3 = var17.isVideoFile;
+            var3 = var3.bind(var17)(var19);
+            if(var3) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+            var17 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var17 = var17.bind(var16)(var3);
+            var3 = var17.isAudioFile;
+            var20 = var3.bind(var17)(var19);
+            var17 = var1.push;
+            var3 = {};
+            var19 = _closure1_slot6;
+            if(var20) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
+            var20 = var19.FILE;
+            var3['type'] = var20;
+            var3['media'] = var18;
+            var22 = _closure1_slot5;
+            var21 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var20 = var23[var7];
+            var20 = var21.bind(var16)(var20);
+            var21 = var20.FileIcon;
+            var20 = {};
+            var20['size'] = var11;
+            var24 = _closure1_slot1;
+            var23 = var23[var8];
+            var23 = var24.bind(var16)(var23);
+            var23 = var23.colors;
+            var23 = var23.ICON_SUBTLE;
+            var20['color'] = var23;
+            var20 = var22.bind(var16)(var21, var20);
+            var3['icon'] = var20;
+            var20 = null;
+            if(!var9) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
+            var20 = var14;
+case 47:
+            var3['parentType'] = var20;
+            var20 = var17.bind(var1)(var3);
+            _fun0004_ip = 49; continue _fun0004;
+case 45:
+            var19 = var19.AUDIO;
+            var3['type'] = var19;
+            var3['media'] = var18;
+            var21 = _closure1_slot5;
+            var20 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var19 = var22[var12];
+            var19 = var20.bind(var16)(var19);
+            var20 = var19.WaveformIcon;
+            var19 = {};
+            var19['size'] = var11;
+            var23 = _closure1_slot1;
+            var22 = var22[var8];
+            var22 = var23.bind(var16)(var22);
+            var22 = var22.colors;
+            var22 = var22.TEXT_BRAND;
+            var19['color'] = var22;
+            var19 = var21.bind(var16)(var20, var19);
+            var3['icon'] = var19;
+            var19 = null;
+            if(!var9) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
+            var19 = var14;
+case 50:
+            var3['parentType'] = var19;
+            var3 = var17.bind(var1)(var3);
+            _fun0004_ip = 49; continue _fun0004;
+case 43:
+            var17 = var1.push;
+            var3 = {};
+            var19 = _closure1_slot6;
+            var19 = var19.VIDEO;
+            var3['type'] = var19;
+            var3['media'] = var18;
+            var19 = null;
+            if(!var9) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
+            var19 = var14;
+case 52:
+            var3['parentType'] = var19;
+            var3 = var17.bind(var1)(var3);
+            _fun0004_ip = 49; continue _fun0004;
+case 41:
+            var17 = var1.push;
+            var3 = {};
+            var19 = _closure1_slot6;
+            var19 = var19.IMAGE;
+            var3['type'] = var19;
+            var3['media'] = var18;
+            var18 = null;
+            if(!var9) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
+            var18 = var14;
+case 54:
+            var3['parentType'] = var18;
+            var3 = var17.bind(var1)(var3);
+case 49:
+            var17 = var15.bind(var16)();
+            var3 = var17.done;
+            var5 = var17;
+            if(var3) { _fun0004_ip = 36; continue _fun0004 }
+case 56:
+            _fun0004_ip = 40; continue _fun0004;
+case 38:
+            var3 = var2.attachments;
+            var5 = var3[var4];
+            var4 = var1.push;
+            var3 = {};
+            var6 = _closure1_slot6;
+            var6 = var6.VOICE_MESSAGE;
+            var3['type'] = var6;
+            var3['media'] = var5;
+            var8 = _closure1_slot5;
+            var6 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var5 = 3;
+            var5 = var12[var5];
+            var7 = undefined;
+            var5 = var6.bind(var7)(var5);
+            var6 = var5.WaveformIcon;
+            var5 = {};
+            var11 = 'lg';
+            var5['size'] = var11;
+            var11 = _closure1_slot1;
+            var10 = 4;
+            var10 = var12[var10];
+            var10 = var11.bind(var7)(var10);
+            var10 = var10.colors;
+            var10 = var10.TEXT_BRAND;
+            var5['color'] = var10;
+            var5 = var8.bind(var7)(var6, var5);
+            var3['icon'] = var5;
+            var5 = null;
+            if(!var9) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
+            var5 = 'forward';
+case 57:
+            var3['parentType'] = var5;
+            var3 = var4.bind(var1)(var3);
+case 36:
+            var4 = _closure1_slot7;
+            var3 = var2.embeds;
+            var7 = undefined;
+            var10 = var4.bind(var7)(var3);
+            var4 = var10.bind(var7)();
+            var3 = var4.done;
+            var6 = 'forward';
+            var5 = null;
+            if(var3) { _fun0004_ip = 59; continue _fun0004 }
+case 60:
+            var12 = var4.value;
+            var3 = var12.image;
+            var3 = var5 == var3;
+            if(!var3) { _fun0004_ip = 61; continue _fun0004 }
+case 62:
+            var11 = var12.video;
+            var3 = var5 == var11;
+case 61:
+            if(!var3) { _fun0004_ip = 63; continue _fun0004 }
+case 64:
+            var11 = var12.thumbnail;
+            var3 = var5 == var11;
+case 63:
+            if(var3) { _fun0004_ip = 65; continue _fun0004 }
+case 66:
+            var11 = var1.push;
+            var3 = {};
+            var13 = _closure1_slot6;
+            var13 = var13.EMBED;
+            var3['type'] = var13;
+            var3['media'] = var12;
+            var12 = null;
+            if(!var9) { _fun0004_ip = 67; continue _fun0004 }
+case 68:
+            var12 = var6;
+case 67:
+            var3['parentType'] = var12;
+            var3 = var11.bind(var1)(var3);
+case 65:
+            var11 = var10.bind(var7)();
+            var3 = var11.done;
+            var4 = var11;
+            if(!var3) { _fun0004_ip = 60; continue _fun0004 }
+case 59:
+            var3 = _closure1_slot7;
+            var2 = var2.stickerItems;
+            var4 = var3.bind(var7)(var2);
+            var3 = var4.bind(var7)();
+            var2 = var3.done;
+            if(var2) { _fun0004_ip = 69; continue _fun0004 }
+case 70:
+            var11 = var3.value;
+            var10 = var1.push;
+            var2 = {};
+            var12 = _closure1_slot6;
+            var12 = var12.STICKER;
+            var2['type'] = var12;
+            var2['media'] = var11;
+            var11 = null;
+            if(!var9) { _fun0004_ip = 71; continue _fun0004 }
+case 72:
+            var11 = var6;
+case 71:
+            var2['parentType'] = var11;
+            var2 = var10.bind(var1)(var2);
+            var10 = var4.bind(var7)();
+            var2 = var10.done;
+            var3 = var10;
+            if(!var2) { _fun0004_ip = 70; continue _fun0004 }
+case 69:
+            return var1;
+        }
+    };
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -223,7 +486,7 @@ case 35:
     var5 = 'voice_message';
     var4['VOICE_MESSAGE'] = var5;
     var _closure1_slot6 = var4;
-    var5 = 7;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -238,223 +501,60 @@ case 35:
         var2 = new Array(1);
         var2[0] = var5;
         var1 = function() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = new Array(0);
+                var5 = _closure1_slot9;
+                var3 = {};
+                var7 = _closure2_slot0;
+                var3['message'] = var7;
+                var4 = false;
+                var3['isForward'] = var4;
+                var4 = undefined;
+                var11 = var5.bind(var4)(var3);
+                var8 = var1.push;
+                var3 = new Array(0);
+                var5 = 0;
+                var12 = var3;
+                var10 = 0;
+                var9 = arraySpread(var12, var11, var10);
+                var12 = var8;
+                var11 = var3;
+                var10 = var1;
+                var3 = apply(var12, var11, var10);
+                var8 = _closure1_slot1;
+                var9 = _closure1_slot2;
+                var3 = 7;
+                var3 = var9[var3];
+                var3 = var8.bind(var4)(var3);
+                var3 = var3.bind(var4)(var7);
+                if(!var3) { _fun0005_ip = 73; continue _fun0005 }
+case 74:
                 var3 = _closure2_slot0;
-                var3 = var3.attachments;
+                var3 = var3.messageSnapshots;
                 var3 = var3.length;
-                var4 = 0;
-                if(!(var3 > var4)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-                var6 = _closure2_slot0;
-                var5 = var6.hasFlag;
-                var3 = _closure1_slot4;
-                var3 = var3.IS_VOICE_MESSAGE;
-                var3 = var5.bind(var6)(var3);
-                if(var3) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
-                var5 = _closure1_slot7;
-                var3 = _closure2_slot0;
-                var3 = var3.attachments;
-                var13 = undefined;
-                var12 = var5.bind(var13)(var3);
-                var5 = var12.bind(var13)();
-                var3 = var5.done;
-                var11 = 3;
-                var10 = 'lg';
-                var8 = 4;
-                var7 = 6;
-                var6 = 5;
-                if(var3) { _fun0004_ip = 36; continue _fun0004 }
-case 40:
-                var15 = var5.value;
-                var16 = var15.filename;
-                var14 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var3 = var3[var6];
-                var14 = var14.bind(var13)(var3);
-                var3 = var14.isImageFile;
-                var3 = var3.bind(var14)(var16);
-                if(var3) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
-                var14 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var3 = var3[var6];
-                var14 = var14.bind(var13)(var3);
-                var3 = var14.isVideoFile;
-                var3 = var3.bind(var14)(var16);
-                if(var3) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
-                var14 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var3 = var3[var6];
-                var14 = var14.bind(var13)(var3);
-                var3 = var14.isAudioFile;
-                var17 = var3.bind(var14)(var16);
-                var14 = var1.push;
-                var3 = {};
-                var16 = _closure1_slot6;
-                if(var17) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
-                var17 = var16.FILE;
-                var3['type'] = var17;
-                var3['media'] = var15;
-                var19 = _closure1_slot5;
-                var18 = _closure1_slot0;
-                var20 = _closure1_slot2;
-                var17 = var20[var7];
-                var17 = var18.bind(var13)(var17);
-                var18 = var17.FileIcon;
-                var17 = {};
-                var17['size'] = var10;
-                var21 = _closure1_slot1;
-                var20 = var20[var8];
-                var20 = var21.bind(var13)(var20);
-                var20 = var20.colors;
-                var20 = var20.ICON_SUBTLE;
-                var17['color'] = var20;
-                var17 = var19.bind(var13)(var18, var17);
-                var3['icon'] = var17;
-                var17 = var14.bind(var1)(var3);
-                _fun0004_ip = 47; continue _fun0004;
-case 45:
-                var16 = var16.AUDIO;
-                var3['type'] = var16;
-                var3['media'] = var15;
-                var18 = _closure1_slot5;
-                var17 = _closure1_slot0;
-                var19 = _closure1_slot2;
-                var16 = var19[var11];
-                var16 = var17.bind(var13)(var16);
-                var17 = var16.WaveformIcon;
-                var16 = {};
-                var16['size'] = var10;
-                var20 = _closure1_slot1;
-                var19 = var19[var8];
-                var19 = var20.bind(var13)(var19);
-                var19 = var19.colors;
-                var19 = var19.TEXT_BRAND;
-                var16['color'] = var19;
-                var16 = var18.bind(var13)(var17, var16);
-                var3['icon'] = var16;
-                var3 = var14.bind(var1)(var3);
-                _fun0004_ip = 47; continue _fun0004;
-case 43:
-                var14 = var1.push;
-                var3 = {};
-                var16 = _closure1_slot6;
-                var16 = var16.VIDEO;
-                var3['type'] = var16;
-                var3['media'] = var15;
-                var3 = var14.bind(var1)(var3);
-                _fun0004_ip = 47; continue _fun0004;
-case 41:
-                var14 = var1.push;
-                var3 = {};
-                var16 = _closure1_slot6;
-                var16 = var16.IMAGE;
-                var3['type'] = var16;
-                var3['media'] = var15;
-                var3 = var14.bind(var1)(var3);
-case 47:
-                var14 = var12.bind(var13)();
-                var3 = var14.done;
-                var5 = var14;
-                if(var3) { _fun0004_ip = 36; continue _fun0004 }
-case 48:
-                _fun0004_ip = 40; continue _fun0004;
-case 38:
-                var3 = _closure2_slot0;
-                var3 = var3.attachments;
-                var5 = var3[var4];
-                var4 = var1.push;
-                var3 = {};
-                var6 = _closure1_slot6;
-                var6 = var6.VOICE_MESSAGE;
-                var3['type'] = var6;
-                var3['media'] = var5;
-                var8 = _closure1_slot5;
-                var6 = _closure1_slot0;
-                var11 = _closure1_slot2;
-                var5 = 3;
-                var5 = var11[var5];
-                var7 = undefined;
-                var5 = var6.bind(var7)(var5);
-                var6 = var5.WaveformIcon;
-                var5 = {};
-                var10 = 'lg';
-                var5['size'] = var10;
-                var10 = _closure1_slot1;
-                var9 = 4;
-                var9 = var11[var9];
-                var9 = var10.bind(var7)(var9);
-                var9 = var9.colors;
-                var9 = var9.TEXT_BRAND;
-                var5['color'] = var9;
-                var5 = var8.bind(var7)(var6, var5);
-                var3['icon'] = var5;
-                var3 = var4.bind(var1)(var3);
-case 36:
-                var4 = _closure1_slot7;
-                var3 = _closure2_slot0;
-                var3 = var3.embeds;
-                var5 = undefined;
-                var8 = var4.bind(var5)(var3);
-                var4 = var8.bind(var5)();
-                var3 = var4.done;
-                var7 = null;
-                if(var3) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
-                var10 = var4.value;
-                var3 = var10.image;
-                var3 = var7 == var3;
-                if(!var3) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-                var9 = var10.video;
-                var3 = var7 == var9;
-case 51:
-                if(!var3) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
-                var9 = var10.thumbnail;
-                var3 = var7 == var9;
-case 53:
-                if(var3) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
-                var9 = var1.push;
-                var3 = {};
-                var11 = _closure1_slot6;
-                var11 = var11.EMBED;
-                var3['type'] = var11;
-                var3['media'] = var10;
-                var3 = var9.bind(var1)(var3);
-case 55:
-                var9 = var8.bind(var5)();
-                var3 = var9.done;
-                var4 = var9;
-                if(!var3) { _fun0004_ip = 50; continue _fun0004 }
-case 49:
-                var3 = _closure1_slot7;
-                var2 = _closure2_slot0;
-                var2 = var2.stickerItems;
-                var4 = var3.bind(var5)(var2);
-                var3 = var4.bind(var5)();
-                var2 = var3.done;
-                if(var2) { _fun0004_ip = 57; continue _fun0004 }
-case 58:
-                var8 = var3.value;
-                var7 = var1.push;
+                if(!(var3 > var5)) { _fun0005_ip = 73; continue _fun0005 }
+case 75:
+                var3 = _closure1_slot9;
                 var2 = {};
-                var9 = _closure1_slot6;
-                var9 = var9.STICKER;
-                var2['type'] = var9;
-                var2['media'] = var8;
-                var2 = var7.bind(var1)(var2);
-                var7 = var4.bind(var5)();
-                var2 = var7.done;
-                var3 = var7;
-                if(!var2) { _fun0004_ip = 58; continue _fun0004 }
-case 57:
+                var6 = _closure2_slot0;
+                var6 = var6.messageSnapshots;
+                var6 = var6[var5];
+                var6 = var6.message;
+                var2['message'] = var6;
+                var6 = true;
+                var2['isForward'] = var6;
+                var11 = var3.bind(var4)(var2);
+                var3 = var1.push;
+                var2 = new Array(0);
+                var12 = var2;
+                var10 = 0;
+                var4 = arraySpread(var12, var11, var10);
+                var12 = var3;
+                var11 = var2;
+                var10 = var1;
+                var2 = apply(var12, var11, var10);
+case 73:
                 return var1;
             }
         };
