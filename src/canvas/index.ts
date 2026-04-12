@@ -1,10 +1,10 @@
+import { readdir } from "node:fs/promises";
+import { join } from "node:path";
 import { Canvas, GlobalFonts, loadImage } from "@napi-rs/canvas";
 import sharp from "sharp";
 import { type Diff, DiffEnum } from "../types";
-import { maxChangesThreshold } from "../update/util";
+import { assert, maxChangesThreshold } from "../update/util";
 import { getLines } from "./util";
-import { join } from "node:path";
-import { readdir } from "node:fs/promises";
 
 interface Label {
 	txt: string;
@@ -19,8 +19,7 @@ type DataEntry = {
 };
 
 async function bulkRegister(family: string, path: string) {
-    for (const item of await readdir(path))
-        GlobalFonts.registerFromPath(join(path, item), family);
+	for (const item of await readdir(path)) GlobalFonts.registerFromPath(join(path, item), family);
 }
 await bulkRegister("GG Sans", join(import.meta.dir, "fonts/ggsans"));
 await bulkRegister("GG Mono", join(import.meta.dir, "fonts/ggmono"));
@@ -74,7 +73,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 			} else {
 				obj.Added[0].push({
 					label: [{ txt: label }],
-					file: !color ? await convertFile(change.curFile!) : undefined,
+					file: change.curFile ? await convertFile(change.curFile) : undefined,
 					color: color ? change.cur : undefined,
 				});
 			}
@@ -117,7 +116,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 			} else {
 				obj.Renamed[0].push({
 					label: [{ txt: change.old, tint: "muted" }, { txt: label }],
-					file: !color ? await convertFile(change.curFile!) : undefined,
+					file: change.curFile ? await convertFile(change.curFile) : undefined,
 					color: color ? change.cur : undefined,
 				});
 			}
@@ -135,7 +134,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 			} else {
 				obj.Removed[0].push({
 					label: [{ txt: label }],
-					file: !color ? await convertFile(change.oldFile!) : undefined,
+					file: change.oldFile ? await convertFile(change.oldFile) : undefined,
 					color: color ? change.old : undefined,
 				});
 			}
@@ -177,15 +176,21 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 		const img = await loadImage(file);
 		imageMap.set(file, img);
 
-		const mult = itemHei / img.height;
-		imageWidths.set(file, img.width * mult);
+		const ratio = itemHei / img.height;
+		imageWidths.set(file, img.width * ratio);
 	}
 
 	const textMeasurements: number[] = [];
 	const textWidthMap = new Map<Label[], number>();
 
 	const widForAsset = (asset: DataEntry) =>
-		asset.file ? imageWidths.get(asset.file!)! : asset.blob ? blobTextItemWid : asset.color ? itemHei : 0;
+		asset.file
+			? assert(imageWidths.get(asset.file), `Missing image width for ${asset.file}`)
+			: asset.blob
+				? blobTextItemWid
+				: asset.color
+					? itemHei
+					: 0;
 
 	for (const [_, changes] of entries) {
 		for (const row of changes) {
@@ -272,7 +277,8 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 		const textWids: number[] = [];
 		for (let i = 0; i < changes[0].length; i++) {
 			const wids = [];
-			for (const row of changes) wids.push(textWidthMap.get(row[i].label)!);
+			for (const row of changes)
+				wids.push(assert(textWidthMap.get(row[i].label), `Missing text width for ${row[i].label}`));
 
 			textWids[i] = Math.max(...wids);
 		}
@@ -308,10 +314,10 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 					ctx.fill();
 				} else if (asset.file) {
 					ctx.drawImage(
-						imageMap.get(asset.file)!,
+						assert(imageMap.get(asset.file), `Missing image map for ${asset.file}`),
 						midX + spacing,
 						y + thisTextHei,
-						imageWidths.get(asset.file)!,
+						assert(imageWidths.get(asset.file), `Missing image width for ${asset.file}`),
 						itemHei,
 					);
 				} else if (asset.blob) {

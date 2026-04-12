@@ -118,7 +118,7 @@ export function convertSimpleSemantic(semantic: SemanticColors) {
 		simpleSemantic[key] = color;
 	}
 
-    return simpleSemantic;
+	return simpleSemantic;
 }
 
 export default async function colors(code: string[]) {

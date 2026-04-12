@@ -21,14 +21,14 @@ async function diffRaw(progress: Progress) {
 		if (!oldRaw[raw]) {
 			const renamedRaw = Object.entries(oldRaw).find(([rRaw, rVal]) => !newRaw[rRaw] && rVal === newRaw[raw])?.[0];
 
-			if (renamedRaw)
-				renamed.add(renamedRaw),
-					changes.set(raw, {
-						change: DiffEnum.Renamed,
-						old: renamedRaw,
-						cur: raw,
-					});
-			else changes.set(raw, { change: DiffEnum.Added, cur: newRaw[raw] });
+			if (renamedRaw) {
+				renamed.add(renamedRaw);
+				changes.set(raw, {
+					change: DiffEnum.Renamed,
+					old: renamedRaw,
+					cur: raw,
+				});
+			} else changes.set(raw, { change: DiffEnum.Added, cur: newRaw[raw] });
 		} else if (oldRaw[raw].toLowerCase() !== newRaw[raw].toLowerCase())
 			changes.set(raw, {
 				change: DiffEnum.Changed,
@@ -95,14 +95,14 @@ async function diffSemantic(progress: Progress) {
 					Object.entries(sVal).every(([skTheme, skVal]) => skVal[0] === semI[skTheme][0]),
 			)?.[0];
 
-			if (renamedSem)
-				renamed.add(renamedSem),
-					changes.set(sem, {
-						change: DiffEnum.Renamed,
-						old: renamedSem,
-						cur: transform(Object.values(semI)[0]),
-					});
-			else allVars(sem, newSemantic[sem], true);
+			if (renamedSem) {
+				renamed.add(renamedSem);
+				changes.set(sem, {
+					change: DiffEnum.Renamed,
+					old: renamedSem,
+					cur: transform(Object.values(semI)[0]),
+				});
+			} else allVars(sem, newSemantic[sem], true);
 		} else
 			for (const clir of Object.keys(newSemantic[sem]))
 				if (!oldSemantic[sem][clir])
@@ -155,15 +155,15 @@ async function diffIcons(progress: Progress) {
 				([iKey, iVal]) => !newIcons[iKey] && iVal.hash === newIcons[icon].hash,
 			)?.[0];
 
-			if (renamedIcon)
-				renamed.add(renamedIcon),
-					changes.set(icon, {
-						change: DiffEnum.Renamed,
-						old: renamedIcon,
-						cur: newIcons[icon].hash,
-						curFile: join(iconDir.new, newIcons[icon].file),
-					});
-			else
+			if (renamedIcon) {
+				renamed.add(renamedIcon);
+				changes.set(icon, {
+					change: DiffEnum.Renamed,
+					old: renamedIcon,
+					cur: newIcons[icon].hash,
+					curFile: join(iconDir.new, newIcons[icon].file),
+				});
+			} else
 				changes.set(icon, {
 					change: DiffEnum.Added,
 					cur: newIcons[icon].hash,
@@ -220,26 +220,26 @@ const diffCode = async (progress: Progress) => {
 		if (!oldCode.has(code)) {
 			const renamedCode = oldCode
 				.keys()
-				.find((vCode) => !newCode.has(vCode) && oldCode.get(vCode)!.de === newCode.get(code)!.de);
+				.find((vCode) => !newCode.has(vCode) && oldCode.get(vCode)?.de === newCode.get(code)?.de);
 
-			if (renamedCode)
-				renamed.add(renamedCode),
-					changes.set(code, {
-						change: DiffEnum.Renamed,
-						oldFile: renamedCode,
-						size: formatBytes(newCode.get(code)!.s, 1),
-					});
-			else
+			if (renamedCode) {
+				renamed.add(renamedCode);
+				changes.set(code, {
+					change: DiffEnum.Renamed,
+					oldFile: renamedCode,
+					size: formatBytes(newCode.get(code)?.s || 0, 1),
+				});
+			} else
 				changes.set(code, {
 					change: DiffEnum.Added,
-					size: formatBytes(newCode.get(code)!.s, 1),
+					size: formatBytes(newCode.get(code)?.s || 0, 1),
 				});
 		}
 	for (const code of oldCode.keys())
 		if (!newCode.has(code) && !renamed.has(code))
 			changes.set(code, {
 				change: DiffEnum.Removed,
-				size: formatBytes(oldCode.get(code)!.s, 1),
+				size: formatBytes(oldCode.get(code)?.s || 0, 1),
 			});
 
 	progress.update("diff_code", true);

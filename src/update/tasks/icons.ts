@@ -1,9 +1,12 @@
 import { copyFile, readdir, rename, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
+import { runInNewContext } from "node:vm";
 import type { Icons } from "../../types";
 import { commit } from "../commit";
 import { cuteVersion } from "../shared";
 import { discordPath, join, mkdirSuppressed, type Progress, sortByHierarchy, sortObj } from "../util";
+
+// a bit less scary code matching below, be warned
 
 export default async function icons(progress: Progress, code: string[], ...paths: string[]) {
 	const lookForFiles: {
@@ -23,11 +26,11 @@ export default async function icons(progress: Progress, code: string[], ...paths
 		// easiest way to check
 		if (line.includes("'httpServerLocation'") && code[i - 1]?.includes(".registerAsset")) {
 			const objText = line.split("{").slice(1).join("{").split("}").slice(0, -1).join("}");
-			const obj = (0, eval)(`({${objText}})`);
+			const obj = runInNewContext(`({${objText}})`);
 
 			// the next line has scales for the icon
 			const scalesText = code[i + 1].split("[").slice(1).join("[").split("]").slice(0, -1).join("]");
-			const scales = (0, eval)(`([${scalesText}])`);
+			const scales = runInNewContext(`([${scalesText}])`);
 
 			if (!Array.isArray(scales) || scales.some((x) => Number.isNaN(x))) continue;
 

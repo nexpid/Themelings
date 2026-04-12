@@ -11,7 +11,7 @@ export default async function decompile(progress: Progress, pathToBundle: string
 
 	progress.start("decompile_downloading");
 	if (!(await exists(pathToDecompiler))) {
-		await Bun.$`git clone https://github.com/P1sec/hermes-dec.git ${pathToDecompiler}`
+		await Bun.$`git clone https://github.com/P1sec/hermes-dec.git --depth=1 ${pathToDecompiler}`
 			.quiet()
 			.nothrow()
 			.then(handleShellErr);
@@ -32,7 +32,7 @@ export default async function decompile(progress: Progress, pathToBundle: string
 		progress.update("decompile_decompiling", true);
 	} else progress.update("decompile_decompiling", null);
 
-	// "optional" step
+	// delayed step
 	if (process.env.NODE_ENV !== "test" && !commitAnyway) {
 		const gzFile = "code.js.gz";
 

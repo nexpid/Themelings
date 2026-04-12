@@ -5,8 +5,16 @@ import type { $ } from "bun";
 export const maxChangesThreshold = 10; // thank you Discord for making 700 icon changes in one version
 export const maxCodeChangesThreshold = 10;
 
-export function sortObj(obj: Record<string | number | symbol, any>) {
-	return Object.fromEntries(Object.entries(obj).sort(([a], [b]) => a.localeCompare(b)));
+export function sortObj(obj: object) {
+	return Object.fromEntries(
+		Object.entries(obj).sort(([a], [b]) => {
+			const [, aK, aN] = a.match(/(.+?)(\d*)$/) || [];
+			const [, bK, bN] = b.match(/(.+?)(\d*)$/) || [];
+
+			if (aK === bK && aN && bN) return Number(aN) - Number(bN);
+			else return aK.localeCompare(bK);
+		}),
+	);
 }
 
 let somethingInLog = false;
@@ -33,7 +41,7 @@ export function makeProgress(data: Record<string, string>, startPaused = false) 
 		logs = keys.map((key) => {
 			const rootKey = key.split("_")[1] && keys.includes(key.split("_")[0]) && key.split("_")[0];
 			const otherKeys = keys.filter((x) => x.split("_")[0] === rootKey);
-			const isLast = otherKeys.findIndex((x) => x === key) === otherKeys.length - 1;
+			const isLast = otherKeys.indexOf(key) === otherKeys.length - 1;
 
 			return `${rootKey ? (isLast ? " ╚═ " : " ╠═ ") : ""}${
 				{
@@ -134,9 +142,7 @@ export function handleShellErr(out: $.ShellOutput): $.ShellOutput {
 export const join = (...paths: string[]) => _join(...paths).replace(/\\/g, "/");
 
 export const mkdirSuppressed = (...args: Parameters<typeof mkdir>) =>
-	mkdir(...args).catch((e) =>
-		e?.code !== "EEXIST" && cuteError(e),
-	);
+	mkdir(...args).catch((e) => e?.code !== "EEXIST" && cuteError(e));
 
 export function cuteError(e: any) {
 	return e?.stack ?? e?.message ?? String(e);
@@ -159,4 +165,10 @@ export function formatBytes(bytes: number, decimals = 2): string {
 
 export function discordPath(path: string) {
 	return join("app", path);
+}
+
+export function assert<T>(value: T | undefined | null, message?: string): T {
+	if (value === undefined || value === null)
+		throw new TypeError(message || `Failed to assert that ${value} is defined`);
+	return value;
 }

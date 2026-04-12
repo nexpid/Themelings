@@ -112,7 +112,8 @@ export function deminify(code: string, path: string) {
 			.replace(caseMatch, caseReplacer)
 			.replace(functNameMatch, functNameReplacer)
 			.replace(nullstringMatch, (_, __, id: string) => {
-				if (nullStrings.has(id)) return nullStrings.get(id)!;
+				const nullString = nullStrings.get(id);
+				if (nullString) return nullString;
 				else {
 					writeFileSync("temp/nullcrashed.js", cleaned.join("\n"));
 					throw new Error(`parsing failed, nullstring ${id} doesn't exist (LINE: ${y}, FILE: ${path})`);

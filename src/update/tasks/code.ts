@@ -5,6 +5,8 @@ import { deminify } from "../deminify";
 import { commitAnyway, cuteVersion } from "../shared";
 import { discordPath, join, mkdirSuppressed, type Progress, sortByHierarchy } from "../util";
 
+// scary code matching below, be warned
+
 const moduleStartIndentation = " ".repeat(4);
 
 export default async function code(progress: Progress, code: string[]) {

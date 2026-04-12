@@ -7,6 +7,6 @@ const file = Bun.file("../data/version.txt");
 const latest = (await file.exists()) && (await file.text());
 
 if (latest !== alpha || process.argv.includes("--force")) {
-	await Bun.write("../data/version.txt", alpha);
+	await file.write(alpha);
 	process.stdout.write(alpha);
 } else process.stdout.write("false");

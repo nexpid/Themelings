@@ -4,7 +4,7 @@ import { RouteBases, Routes } from "discord-api-types/v10";
 import draw, { convertDiffs } from "../../canvas";
 import { type CodeDiff, type Diff, DiffEnum, type OutDiffs } from "../../types";
 import { cuteVersion, version } from "../shared";
-import { maxChangesThreshold, maxCodeChangesThreshold } from "../util";
+import { assert, maxChangesThreshold, maxCodeChangesThreshold } from "../util";
 
 function basename(path: string) {
 	return `... ${_basename(path)}`;
@@ -172,7 +172,7 @@ async function triggerWebhook(
 
 export async function webhook(diffs: OutDiffs) {
 	if (diffs.raw?.size || diffs.semantic?.size)
-		await triggerWebhook(process.env.color_webhook!, {
+		await triggerWebhook(assert(process.env.color_webhook, "Missing color webhook env"), {
 			role: "1227327297795657850",
 			embeds: [
 				...(diffs.raw?.size
@@ -199,7 +199,7 @@ export async function webhook(diffs: OutDiffs) {
 		});
 
 	if (diffs.icons?.size)
-		await triggerWebhook(process.env.icons_webhook!, {
+		await triggerWebhook(assert(process.env.icons_webhook, "Missing icons webhook env"), {
 			role: "1227327765079003217",
 			embeds: [
 				{
@@ -211,7 +211,7 @@ export async function webhook(diffs: OutDiffs) {
 			],
 		});
 	if (diffs.code?.size)
-		await triggerWebhook(process.env.code_webhook!, {
+		await triggerWebhook(assert(process.env.code_webhook, "Missing code webhook env"), {
 			role: "1233861867059941387",
 			embeds: [
 				{

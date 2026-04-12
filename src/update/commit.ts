@@ -47,8 +47,5 @@ export async function commit(files: string[], message: string) {
 	}
 
 	await resolveProm?.();
-	gitQueue.splice(
-		gitQueue.findIndex((x) => x === prom),
-		1,
-	);
+	gitQueue.splice(gitQueue.indexOf(prom), 1);
 }
