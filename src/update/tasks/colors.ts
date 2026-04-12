@@ -1,111 +1,124 @@
-// this code includes a lot of scary regexes, be warned
-
-import Color from "color";
+import { runInNewContext } from "node:vm";
+import Color, { type ColorInstance } from "color";
 import type { SemanticColors } from "../../types";
 import { commit } from "../commit";
 import { cuteVersion } from "../shared";
 import { sortObj } from "../util";
 
-Object.freeze = (obj: any) => obj;
+function hex(color: ColorInstance) {
+	return (color.alpha() === 1 ? color.hex() : color.hexa()).toLowerCase();
+}
 
-export function evalModule(code: string[], hookLine: number): (...args: any[]) => any {
-	/*
-	  1. r3 = '../discord_common/js/packages/tokens/colors/generated/generated-definitions.tsx';
-	  2. r3 = r4.bind(r5)(r3);
-	  3. r2['_private'] = r1;
-	  4. return r0;
-	  5. }; <<<< BINGO!!!! (hopefully)
-	  */
+// FIXME fixes an issue introduced in hermes-dec commit 1c112f85e3fb49442c57a0ed31b83bb3825db639,
+// where code such as "rX[rY] = z" is instead parsed as "rX[Y] = z"
+function fixHermesDecIndex(code: string) {
+	return code.replace(/r(\d+)\[(\d+)\] =/g, "r$1[r$2] =");
+}
+
+// more scary code matching below, be warned
+
+export function evalMetroModule<T>(code: string[], importName: string, imports: object = {}): T {
+	const hookLine = code.findIndex((x) => x.includes(importName));
+	if (!hookLine) throw new Error(`Cannot find hookLine for ${importName}!`);
+
+	// usually fileFinishedImporting is called 5 lines before the function ends, so we pray
 	const endLine = hookLine + 5;
 
 	let startLine: number | null = null;
-	for (let indLine = hookLine; indLine > 0; indLine--)
-		if (code[indLine].includes("// Environment:")) {
-			startLine = indLine;
+	for (let i = hookLine; i > 0; i--)
+		if (code[i].includes("// Environment:")) {
+			startLine = i;
 			break;
 		}
 
-	if (!startLine) throw new Error("Failed to find startLine!");
+	if (!startLine) throw new Error(`Failed to find startLine for ${importName}!`);
 
-	return (0, eval)(code.slice(startLine, endLine).join("\n"));
+	const snippet = fixHermesDecIndex(code.slice(startLine, endLine).join("\n"));
+	const fn = runInNewContext(snippet, {
+		global: {
+			Object: Object.assign(Object, {
+				freeze(obj: any) {
+					return obj;
+				},
+			}),
+		},
+	});
+
+	const exports: any = {};
+	fn(
+		null, // global
+		() => ({
+			fileFinishedImporting() {},
+			...imports,
+		}), // require
+		null, // metroImportDefault
+		null, // metroImportAll
+		null, // moduleObject
+		exports, // exports
+		[], // dependencyMap
+	);
+
+	return exports;
 }
 
 export function getInternalRawColors(code: string[]) {
-	const moduleLine = code.findIndex((l) => l.includes("/tokens/colors/generated/raw-color-definitions.tsx'"));
-	if (moduleLine === -1) throw new Error("Cannot find rawColorsModuleLine!");
-
-	const internalModule: {
+	const module = evalMetroModule<{
 		_private: {
 			RawColors: Record<string, string>;
 		};
-	} = {} as any;
+	}>(code, "/tokens/colors/generated/raw-color-definitions.tsx'", {});
 
-	evalModule(code, moduleLine)(
-		null,
-		() => ({
-			fileFinishedImporting: () => void 0,
-		}),
-		null,
-		null,
-		null,
-		internalModule,
-		{},
-	);
-
-	const raw = internalModule._private.RawColors;
-	for (const key of Object.keys(raw)) raw[key] = Color(raw[key]).hex().toLowerCase();
+	const raw: Record<string, string> = {};
+	for (const [key, color] of Object.entries(module._private.RawColors)) {
+		raw[key] = hex(Color(color));
+	}
 
 	return raw;
 }
 
-export function getInternalSemanticColors(code: string[], raw: Record<string, string>): SemanticColors {
-	const moduleLine = code.findIndex((l) => l.includes("/tokens/colors/generated/native/generated-definitions.tsx'"));
-	if (moduleLine === -1) throw new Error("Cannot find semanticColorsModuleLine!");
-
-	const internalModule: {
+export function getInternalSemanticColors(code: string[], raw: Record<string, string>) {
+	const module = evalMetroModule<{
 		_private: {
 			SemanticColors: Record<string, Record<string, { raw: string; opacity: number }>>;
 		};
-	} = {} as any;
-
-	evalModule(code, moduleLine)(
-		null,
-		() => ({
-			_private: {
-				Themes: new Proxy(
-					{},
-					{
-						get(_, prop) {
-							return prop.toString().toLowerCase();
-						},
+	}>(code, "/tokens/colors/generated/native/generated-definitions.tsx'", {
+		_private: {
+			Themes: new Proxy(
+				{},
+				{
+					get(_, key) {
+						return key.toString().toLowerCase();
 					},
-				),
-			},
-			fileFinishedImporting: () => void 0,
-		}),
-		null,
-		null,
-		null,
-		internalModule,
-		{},
-	);
+				},
+			),
+		},
+	});
 
-	for (const val of Object.values(internalModule._private.SemanticColors)) {
-		delete val.category;
-		delete val.gradient;
-	}
+	const semantic: SemanticColors = {};
+	for (const [key, colors] of Object.entries(module._private.SemanticColors)) {
+		const color: SemanticColors[string] = {};
+		for (const [theme, val] of Object.entries(colors)) {
+			if (typeof val !== "object" || !("raw" in val)) continue;
 
-	const sem = internalModule._private.SemanticColors as any;
-	for (const key of Object.keys(sem))
-		for (const theme of Object.keys(sem[key])) {
-			const clr = raw[sem[key][theme].raw];
-			if (clr) {
-				const color = Color(clr).alpha(sem[key][theme].opacity);
-				sem[key][theme] = [(color.alpha() === 1 ? color.hex() : color.hexa()).toLowerCase(), sem[key][theme]];
-			} else delete sem[key][theme];
+			color[theme] = [hex(Color(raw[val.raw]).alpha(val.opacity)), { raw: val.raw, opacity: val.opacity }];
 		}
 
-	return sem;
+		semantic[key] = color;
+	}
+
+	return semantic;
+}
+
+export function convertSimpleSemantic(semantic: SemanticColors) {
+	const simpleSemantic: Record<string, Record<string, string>> = {};
+	for (const [key, colors] of Object.entries(semantic)) {
+		const color: Record<string, string> = {};
+		for (const [theme, [clr]] of Object.entries(colors)) color[theme] = clr;
+
+		simpleSemantic[key] = color;
+	}
+
+    return simpleSemantic;
 }
 
 export default async function colors(code: string[]) {
@@ -114,14 +127,7 @@ export default async function colors(code: string[]) {
 
 	const semantic = getInternalSemanticColors(code, raw);
 	await Bun.write("../data/semantic.json", JSON.stringify(sortObj(semantic), null, 2));
-
-	const simpleSemantic = semantic as any;
-	for (const key of Object.keys(simpleSemantic)) {
-		simpleSemantic[key] = { ...simpleSemantic[key] };
-
-		for (const theme of Object.keys(simpleSemantic[key])) simpleSemantic[key][theme] = semantic[key][theme][0];
-	}
-	await Bun.write("../data/semantic_simple.json", JSON.stringify(sortObj(simpleSemantic), null, 2));
+	await Bun.write("../data/semantic_simple.json", JSON.stringify(sortObj(convertSimpleSemantic(semantic)), null, 2));
 
 	await commit(["raw.json", "semantic.json", "semantic_simple.json"], `chore: update colors for ${cuteVersion}`);
 }
