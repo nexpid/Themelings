@@ -7,7 +7,7 @@
 		"update:commit": "bun run --env-file local.env src/update/index.ts --commit-anyway",
 		"update:mock": "bun run --env-file local.env src/update/index.ts --mock",
 		"update:prod": "bun run src/update/index.ts",
-		"canvas:test": "bun run src/canvas/test.ts",
+		"canvas:test": "bun run src/canvas/index.test.ts",
 		"deminify:test": "bun run src/update/deminify.test.ts",
 		"colors:test": "bun run src/update/tasks/colors.test.ts",
 		"format": "biome check --fix ."
@@ -15,8 +15,7 @@
 	"dependencies": {
 		"@napi-rs/canvas": "^0.1.97",
 		"color": "^5.0.3",
-		"discord-api-types": "^0.38.45",
-		"sharp": "^0.34.5"
+		"discord-api-types": "^0.38.45"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.11",

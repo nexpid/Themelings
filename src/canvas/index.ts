@@ -1,7 +1,6 @@
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 import { Canvas, GlobalFonts, loadImage } from "@napi-rs/canvas";
-import sharp from "sharp";
 import { type Diff, DiffEnum } from "../types";
 import { assert, maxChangesThreshold } from "../update/util";
 import { getLines } from "./util";
@@ -23,7 +22,6 @@ async function bulkRegister(family: string, path: string) {
 }
 await bulkRegister("GG Sans", join(import.meta.dir, "fonts/ggsans"));
 await bulkRegister("GG Mono", join(import.meta.dir, "fonts/ggmono"));
-console.log(GlobalFonts.families);
 
 const colors = {
 	background: "#1c1d23", // BACKGROUND_BASE_LOWEST
@@ -49,10 +47,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 	};
 
 	async function convertFile(file: string) {
-		if (file.endsWith(".svg")) {
-			const data = await sharp(file).png().toBuffer();
-			return `data:image/png;base64,${data.toString("base64")}`;
-		} else if (file.endsWith(".lottie")) {
+		if (file.endsWith(".lottie")) {
 			// TODO lottie support... maybe one day...
 			return "src/canvas/placeholders/lottie.png";
 		} else return file;
