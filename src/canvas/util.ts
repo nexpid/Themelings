@@ -1,4 +1,4 @@
-import type { CanvasRenderingContext2D } from "skia-canvas";
+import type { CanvasRenderingContext2D } from "@napi-rs/canvas";
 
 // https://stackoverflow.com/a/16599668
 export function getLines(ctx: CanvasRenderingContext2D, text: string, maxWidth: number) {

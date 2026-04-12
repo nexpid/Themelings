@@ -1,8 +1,10 @@
+import { Canvas, GlobalFonts, loadImage } from "@napi-rs/canvas";
 import sharp from "sharp";
-import { Canvas, FontLibrary, loadImage } from "skia-canvas";
 import { type Diff, DiffEnum } from "../types";
 import { maxChangesThreshold } from "../update/util";
 import { getLines } from "./util";
+import { join } from "node:path";
+import { readdir } from "node:fs/promises";
 
 interface Label {
 	txt: string;
@@ -13,20 +15,23 @@ type DataEntry = {
 	label: Label[];
 	color?: string;
 	file?: string;
-	important?: boolean;
+	blob?: boolean;
 };
 
-FontLibrary.use({
-	"gg-sans": ["src/canvas/fonts/ggsans/*.ttf"],
-	"gg-mono": ["src/canvas/fonts/ggmono/*.ttf"],
-});
+async function bulkRegister(family: string, path: string) {
+    for (const item of await readdir(path))
+        GlobalFonts.registerFromPath(join(path, item), family);
+}
+await bulkRegister("GG Sans", join(import.meta.dir, "fonts/ggsans"));
+await bulkRegister("GG Mono", join(import.meta.dir, "fonts/ggmono"));
+console.log(GlobalFonts.families);
 
 const colors = {
-	bgMain: "#1C1D23", // BACKGROUND_PRIMARY
-	bgSecondary: "#26272F", // BACKGROUND_SECONDARY
-	textNormal: "#C7C8CE", // TEXT_NORMAL
+	background: "#1c1d23", // BACKGROUND_BASE_LOWEST
+	card: "#26272f", // CARD_BACKGROUND_DEFAULT
+	blob: "#6c6f7c1f", // BACKGROUND_MOD_MUTED
+	textNormal: "#c7c8ce", // TEXT_NORMAL
 	textMuted: "#818491", // TEXT_NORMAL
-	importantBg: "#EEEEEE05", // custom, something like BG_MOD_**********
 };
 
 export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Promise<Record<string, DataEntry[][]>> {
@@ -64,7 +69,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 
 				obj.Added[0].push({
 					label: [{ txt: `(+${count} addition${count > 1 ? "s" : ""})` }],
-					important: true,
+					blob: true,
 				});
 			} else {
 				obj.Added[0].push({
@@ -81,7 +86,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 				const count = entries.filter(([_, x]) => x.change === DiffEnum.Changed).length - changesCounter.Changed;
 				const obja = {
 					label: [{ txt: `(+${count} change${count > 1 ? "s" : ""})` }],
-					important: true,
+					blob: true,
 				};
 
 				obj.Changed[0].push(obja);
@@ -107,7 +112,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 
 				obj.Renamed[0].push({
 					label: [{ txt: `(+${count} rename${count > 1 ? "s" : ""})` }],
-					important: true,
+					blob: true,
 				});
 			} else {
 				obj.Renamed[0].push({
@@ -125,7 +130,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 
 				obj.Removed[0].push({
 					label: [{ txt: `(+${count} removal${count > 1 ? "s" : ""})` }],
-					important: true,
+					blob: true,
 				});
 			} else {
 				obj.Removed[0].push({
@@ -147,18 +152,18 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 	// constants
 	const labelFontSize = 24;
 	const assetTitleFontSize = 18;
-	const importantTextFontSize = 20;
+	const blobTextFontSize = 20;
 
-	const padding = 16;
+	const padding = 24;
 	const textHei = assetTitleFontSize + padding / 4;
 	const itemHei = 128;
-	const importantTextItemWid = itemHei + 3 + textHei;
+	const blobTextItemWid = itemHei + 3 + textHei;
 
 	// measures the width of images & text
 
 	const measureCtx = new Canvas(1, 1).getContext("2d");
 
-	const assetTitleFont = `400 ${assetTitleFontSize}px gg-mono`;
+	const assetTitleFont = `400 ${assetTitleFontSize}px GG Mono`;
 	measureCtx.font = assetTitleFont;
 
 	const imageMap = new Map<string, any>();
@@ -180,14 +185,14 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 	const textWidthMap = new Map<Label[], number>();
 
 	const widForAsset = (asset: DataEntry) =>
-		asset.file ? imageWidths.get(asset.file!)! : asset.important ? importantTextItemWid : asset.color ? itemHei : 0;
+		asset.file ? imageWidths.get(asset.file!)! : asset.blob ? blobTextItemWid : asset.color ? itemHei : 0;
 
 	for (const [_, changes] of entries) {
 		for (const row of changes) {
 			let rowLen = 0;
 			for (const text of row) {
 				let wid = 0;
-				if (text.important) wid = importantTextItemWid;
+				if (text.blob) wid = blobTextItemWid;
 				else wid = Math.max(...text.label.map(({ txt }) => measureCtx.measureText(txt).width), widForAsset(text));
 
 				rowLen += wid;
@@ -227,7 +232,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 	ctx.textBaseline = "top";
 
 	// background
-	ctx.fillStyle = colors.bgMain;
+	ctx.fillStyle = colors.background;
 	ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 	const x = padding;
@@ -239,7 +244,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 			return sep * textHei + (sep - 1) * 1;
 		});
 
-		ctx.fillStyle = colors.bgSecondary;
+		ctx.fillStyle = colors.card;
 		ctx.beginPath();
 		ctx.roundRect(
 			x - padding / 2,
@@ -255,7 +260,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 		ctx.fill();
 
 		ctx.fillStyle = colors.textNormal;
-		ctx.font = `600 ${labelFontSize}px gg-sans`;
+		ctx.font = `600 ${labelFontSize}px GG Sans`;
 		ctx.fillText(title, x, y);
 		y += 24 + padding / 4;
 
@@ -284,7 +289,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 
 				const midX = x + textWid / 2 - itemWid / 2;
 
-				if (!asset.important) {
+				if (!asset.blob) {
 					ctx.font = assetTitleFont;
 
 					const lab = Array.isArray(asset.label) ? asset.label : [asset.label];
@@ -309,23 +314,23 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 						imageWidths.get(asset.file)!,
 						itemHei,
 					);
-				} else if (asset.important) {
-					ctx.fillStyle = colors.importantBg;
+				} else if (asset.blob) {
+					ctx.fillStyle = colors.blob;
 					ctx.beginPath();
-					ctx.roundRect(x + spacing, y, importantTextItemWid, importantTextItemWid, 25);
+					ctx.roundRect(x + spacing, y, blobTextItemWid, blobTextItemWid, 25);
 					ctx.fill();
 
 					ctx.fillStyle = colors.textNormal;
-					ctx.font = `600 ${importantTextFontSize}px gg-sans`;
+					ctx.font = `600 ${blobTextFontSize}px GG Sans`;
 
-					const lines = getLines(ctx, asset.label[0].txt, importantTextItemWid);
+					const lines = getLines(ctx, asset.label[0].txt, blobTextItemWid);
 
-					const startY = y + importantTextItemWid / 2 - (lines.length * (importantTextFontSize + 1)) / 2;
+					const startY = y + blobTextItemWid / 2 - (lines.length * (blobTextFontSize + 1)) / 2;
 					for (let l = 0; l < lines.length; l++) {
 						const textWid = ctx.measureText(lines[l]).width;
-						const setX = x + spacing + importantTextItemWid / 2 - textWid / 2;
+						const setX = x + spacing + blobTextItemWid / 2 - textWid / 2;
 
-						ctx.fillText(lines[l], setX, startY + l * (importantTextFontSize + 1));
+						ctx.fillText(lines[l], setX, startY + l * (blobTextFontSize + 1));
 					}
 				}
 
@@ -340,7 +345,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 	}
 
 	// watermark :3
-	ctx.font = `400 ${padding / 2}px gg-sans`;
+	ctx.font = `400 ${padding / 2}px GG Sans`;
 	const watermarkText = "Themelings";
 	const watermarkTextWidth = ctx.measureText(watermarkText).width;
 

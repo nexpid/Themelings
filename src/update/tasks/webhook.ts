@@ -1,6 +1,6 @@
 import { basename as _basename } from "node:path";
+import type { Canvas } from "@napi-rs/canvas";
 import { RouteBases, Routes } from "discord-api-types/v10";
-import type { Canvas } from "skia-canvas";
 import draw, { convertDiffs } from "../../canvas";
 import { type CodeDiff, type Diff, DiffEnum, type OutDiffs } from "../../types";
 import { cuteVersion, version } from "../shared";
@@ -114,7 +114,7 @@ async function triggerWebhook(
 	const formData = new FormData();
 
 	for (let i = 0; i < images.length; i++) {
-		const img = await images[i]?.toBuffer("png");
+		const img = images[i]?.toBuffer("image/png");
 		formData.append(`files[${i}]`, new Blob([img as any], { type: "image/png" }), `${i}.png`);
 	}
 
