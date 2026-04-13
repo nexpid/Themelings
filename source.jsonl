@@ -2416,7 +2416,7 @@
 { "file": "app/modules/connections/authorizeConnection.native.tsx", "size": 11238 }
 { "file": "app/modules/connections/ConnectionsHooks.tsx", "size": 16507 }
 { "file": "app/modules/connections/ConnectionsRoleActionCreators.tsx", "size": 13811 }
-{ "file": "app/modules/connections/ConnectionsUtils.tsx", "size": 50357 }
+{ "file": "app/modules/connections/ConnectionsUtils.tsx", "size": 50351 }
 { "file": "app/modules/connections/Constants.tsx", "size": 3438 }
 { "file": "app/modules/connections/CrunchyrollConnectionConstants.tsx", "size": 1276 }
 { "file": "app/modules/connections/DomainVerifyUtils.tsx", "size": 1240 }
