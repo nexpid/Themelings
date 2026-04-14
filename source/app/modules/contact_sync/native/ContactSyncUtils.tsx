@@ -490,24 +490,24 @@ case 0:
                         var6 = undefined;
                         var5 = null;
                         var7 = arg1;
-                        if(!(var5 != var7)) { _fun0007_ip = 23; continue _fun0007 }
+                        if(!(var5 != var7)) { _fun0007_ip = 29; continue _fun0007 }
 case 14:
                         var9 = _closure3_slot1;
                         var7 = _closure1_slot16;
                         var7 = var9.bind(var1)(var7);
-                        _fun0007_ip = 29; continue _fun0007;
-case 23: // try_start_0
+                        _fun0007_ip = 30; continue _fun0007;
+case 29: // try_start_0
                         var7 = global;
                         var10 = var7.JSON;
                         var9 = var10.parse;
                         var7 = var8;
                         var3 = var9.bind(var10)(var7);
-case 25: // try_end0
-                        _fun0007_ip = 30; continue _fun0007;
-case 31: // catch_target0
+case 31: // try_end0
+                        _fun0007_ip = 32; continue _fun0007;
+case 33: // catch_target0
                         CatchBlockStart(arg_register=6);
                         var3 = {};
-case 30:
+case 32:
                         var7 = global;
                         var9 = var7.Object;
                         var7 = var9.values;
@@ -524,24 +524,24 @@ case 30:
                         var2 = var3;
                         var3 = var5 == var3;
                         var7 = undefined;
-                        if(var3) { _fun0007_ip = 32; continue _fun0007 }
-case 33:
+                        if(var3) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
                         var7 = var2.unencryptedName;
-case 32:
+case 34:
                         var6 = var7;
                         var3 = _closure3_slot0;
                         var2 = {};
                         var2['names'] = var8;
                         var7 = var5 != var7;
                         var5 = null;
-                        if(!var7) { _fun0007_ip = 34; continue _fun0007 }
-case 35:
+                        if(!var7) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
                         var5 = var6;
-case 34:
+case 36:
                         var2['ownName'] = var5;
                         var2['payload'] = var4;
                         var2 = var3.bind(var1)(var2);
-case 29:
+case 30:
                         return var1;
                     }
                 };
@@ -572,9 +572,9 @@ case 16: // try_start_0
             var6 = var4.JSON;
             var4 = var6.parse;
             var1 = var4.bind(var6)(var3);
-case 36: // try_end0
-            _fun0008_ip = 37; continue _fun0008;
-case 38: // catch_target0
+case 38: // try_end0
+            _fun0008_ip = 39; continue _fun0008;
+case 40: // catch_target0
             CatchBlockStart(arg_register=3);
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -583,7 +583,7 @@ case 38: // catch_target0
             var3 = var3.bind(var5)(var2);
             var2 = var3.captureException;
             var2 = var2.bind(var3)(var4);
-case 37:
+case 39:
             return var1;
         }
     };
@@ -664,10 +664,10 @@ case 0:
             var1 = {};
             var1['phone'] = var2;
             var1['email'] = var3;
-            if(var2) { _fun0009_ip = 39; continue _fun0009 }
-case 40:
+            if(var2) { _fun0009_ip = 41; continue _fun0009 }
+case 42:
             var2 = var3;
-case 39:
+case 41:
             var1['any'] = var2;
             return var1;
         }

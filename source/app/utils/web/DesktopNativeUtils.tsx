@@ -4060,7 +4060,7 @@ case 85:
                 var1 = var1.bind(var3)();
                 var2 = var1.getGPUDriverVersions;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0077_ip = 55; continue _fun0077 }
+                if(!(var1 == var2)) { _fun0077_ip = 142; continue _fun0077 }
 case 120:
                 var1 = global;
                 var4 = var1.Promise;
@@ -4070,13 +4070,13 @@ case 120:
                 var1 = {};
                 var1 = var5.bind(var6)(var1);
                 var1 = var2.bind(var4)(var1);
-                _fun0077_ip = 235; continue _fun0077;
-case 55:
+                _fun0077_ip = 236; continue _fun0077;
+case 142:
                 var2 = var3.getDiscordUtils;
                 var3 = var2.bind(var3)();
                 var2 = var3.getGPUDriverVersions;
                 var1 = var2.bind(var3)();
-case 235:
+case 236:
                 return var1;
             }
         };
@@ -4685,13 +4685,13 @@ case 114:
                 var2 = arg1;
                 var1 = var5.bind(var3)(var2);
 case 158:
-                if(!(var4 == var1)) { _fun0099_ip = 120; continue _fun0099 }
+                if(!(var4 == var1)) { _fun0099_ip = 102; continue _fun0099 }
 case 99:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.resolve;
                 var1 = var2.bind(var3)(var4);
-case 120:
+case 102:
                 return var1;
             }
         };
@@ -4719,12 +4719,12 @@ case 0:
                 var1 = var1.isPlatformEmbedded;
                 var2 = global;
                 var4 = var2.Promise;
-                if(var1) { _fun0100_ip = 144; continue _fun0100 }
+                if(var1) { _fun0100_ip = 227; continue _fun0100 }
 case 51:
                 var1 = var4.resolve;
                 var1 = var1.bind(var4)();
-                _fun0100_ip = 91; continue _fun0100;
-case 144:
+                _fun0100_ip = 103; continue _fun0100;
+case 227:
                 var2 = var4.prototype;
                 var3 = Object.create(var2, {constructor: {value: var4}});
                 var5 = function(arg1, arg2) {
@@ -4783,7 +4783,7 @@ case 233:
                 var6 = var3;
                 var2 = new var6[var4](var5, var4);
                 var1 = var2 instanceof Object ? var2 : var3;
-case 91:
+case 103:
                 return var1;
             }
         };
@@ -4800,12 +4800,12 @@ case 0:
                 var1 = var1.isPlatformEmbedded;
                 var2 = global;
                 var4 = var2.Promise;
-                if(var1) { _fun0103_ip = 144; continue _fun0103 }
+                if(var1) { _fun0103_ip = 227; continue _fun0103 }
 case 51:
                 var1 = var4.resolve;
                 var1 = var1.bind(var4)();
-                _fun0103_ip = 91; continue _fun0103;
-case 144:
+                _fun0103_ip = 103; continue _fun0103;
+case 227:
                 var2 = var4.prototype;
                 var3 = Object.create(var2, {constructor: {value: var4}});
                 var5 = function(arg1, arg2) {
@@ -4864,7 +4864,7 @@ case 233:
                 var6 = var3;
                 var2 = new var6[var4](var5, var4);
                 var1 = var2 instanceof Object ? var2 : var3;
-case 91:
+case 103:
                 return var1;
             }
         };

@@ -136,6 +136,64 @@ case 2:
         return var1;
     };
     var4['fetchUserApplicationIdentitiesWithProfiles'] = var2;
+    var2 = function updateApplicationIdentityConfig(arg1, arg2, arg3) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 4;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var5 = var2.HTTP;
+                    var4 = var5.patch;
+                    var2 = {};
+                    var10 = _closure1_slot5;
+                    var9 = var10.SELF_APPLICATION_IDENTITY_CONFIG;
+                    var8 = _closure2_slot0;
+                    var7 = _closure2_slot1;
+                    var7 = var9.bind(var10)(var8, var7);
+                    var2['url'] = var7;
+                    var6 = _closure2_slot2;
+                    var2['body'] = var6;
+                    var6 = true;
+                    var2['rejectWithError'] = var6;
+                    var2 = var4.bind(var5)(var2);
+                    SaveGenerator(address=99);
+case 13:
+                    return var2;
+case 14:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                    return var3;
+case 15:
+                    return var2;
+case 11:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var4['updateApplicationIdentityConfig'] = var2;
     var _closure1_slot6 = var4;
     var2 = 6;
     var2 = var7[var2];

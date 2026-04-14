@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.SEARCH_TEXT_INPUT_DEBOUNCE_TIME;
     var _closure1_slot5 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -84,27 +84,21 @@ case 0:
                 var2 = _closure2_slot1;
                 if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 3:
-                var5 = _closure1_slot0;
-                var4 = _closure1_slot2;
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot2;
                 var3 = 5;
-                var4 = var4[var3];
-                var3 = undefined;
-                var6 = var5.bind(var3)(var4);
-                var5 = var6.debounce;
+                var3 = var6[var3];
+                var5 = undefined;
+                var8 = var4.bind(var5)(var3);
+                var7 = var8.debounce;
                 var4 = _closure1_slot5;
                 var3 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                        var6 = _closure1_slot4;
-                        var5 = var6.getState;
-                        var4 = _closure2_slot0;
-                        var3 = function(arg1) {
-                            var2 = arg1;
-                            var1 = var2.isAutocompleteVisible;
-                            var1 = var1.bind(var2)();
-                            return var1;
-                        };
-                        var3 = var5.bind(var6)(var4, var3);
+                        var5 = _closure1_slot4;
+                        var4 = var5.isAutocompleteVisible;
+                        var3 = _closure2_slot0;
+                        var3 = var4.bind(var5)(var3);
                         if(var3) { _fun0003_ip = 5; continue _fun0003 }
 case 6:
                         var4 = _closure1_slot1;
@@ -122,8 +116,11 @@ case 5:
                         return var1;
                     }
                 };
-                var4 = var5.bind(var6)(var3, var4);
-                var3 = _closure1_slot4;
+                var4 = var7.bind(var8)(var3, var4);
+                var3 = _closure1_slot1;
+                var2 = 6;
+                var2 = var6[var2];
+                var3 = var3.bind(var5)(var2);
                 var2 = var3.subscribeTextInputValue;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1, var4);

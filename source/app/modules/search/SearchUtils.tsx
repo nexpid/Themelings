@@ -1634,7 +1634,7 @@ case 154:
             var1 = null;
             var2 = var1 == var6;
             if(var2) { _fun0020_ip = 155; continue _fun0020 }
-case 68:
+case 5:
             var2 = {};
             var7 = _closure2_slot3;
             var2['previousToken'] = var7;

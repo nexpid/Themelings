@@ -41,8 +41,8 @@ case 3:
             var5 = _closure1_slot2;
             var1 = 1;
             var1 = var5[var1];
-            var6 = undefined;
-            var2 = var2.bind(var6)(var1);
+            var5 = undefined;
+            var2 = var2.bind(var5)(var1);
             var1 = var2.getAuthorizationApp;
             var2 = var1.bind(var2)(var4);
             if(!(var7 != var2)) { _fun0001_ip = 4; continue _fun0001 }
@@ -59,12 +59,12 @@ case 9:
             return var1;
 case 8:
             var1 = var7 == var2;
-            var5 = undefined;
+            var6 = undefined;
             if(var1) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var5 = var2.parentId;
+            var6 = var2.parentId;
 case 10:
-            if(!(var7 == var5)) { _fun0001_ip = 12; continue _fun0001 }
+            if(!(var7 == var6)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var4 = var7 == var2;
             var1 = undefined;
@@ -72,21 +72,21 @@ case 13:
 case 15:
             var1 = var2.id;
 case 14:
-            var5 = var1;
+            var6 = var1;
 case 12:
-            var1 = var7 != var5;
+            var1 = var7 != var6;
             if(!var1) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
             var4 = _closure1_slot3;
             var2 = var4.getFetchStateForApplication;
-            var4 = var2.bind(var4)(var5);
+            var4 = var2.bind(var4)(var6);
             var2 = _closure1_slot4;
             var2 = var2.NOT_FETCHED;
             if(!(var4 !== var2)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
             var4 = _closure1_slot3;
             var2 = var4.getFetchStateForApplication;
-            var4 = var2.bind(var4)(var5);
+            var4 = var2.bind(var4)(var6);
             var2 = _closure1_slot4;
             var2 = var2.FETCHED;
             var2 = var4 === var2;
@@ -94,7 +94,7 @@ case 19:
 case 21:
             var8 = _closure1_slot3;
             var4 = var8.getNewestTokenForApplication;
-            var4 = var4.bind(var8)(var5);
+            var4 = var4.bind(var8)(var6);
             var2 = var7 != var4;
 case 20:
             var2 = !var2;
@@ -104,9 +104,11 @@ case 18:
             var7 = _closure1_slot2;
             var3 = 2;
             var3 = var7[var3];
-            var4 = var4.bind(var6)(var3);
-            var3 = var4.fetchByApplicationId;
-            var3 = var3.bind(var4)(var5);
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.fetch;
+            var3 = new Array(1);
+            var3[0] = var6;
+            var3 = var4.bind(var5)(var3);
             var2 = false;
 case 22:
             var1 = var2;

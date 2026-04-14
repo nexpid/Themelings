@@ -83,8 +83,8 @@ case 2:
                     return var1;
                 }
             };
-            var20 = var8.bind(var9)(var7, var2, var3);
-            var _closure2_slot3 = var20;
+            var19 = var8.bind(var9)(var7, var2, var3);
+            var _closure2_slot3 = var19;
             var3 = _closure1_slot1;
             var2 = 5;
             var2 = var6[var2];
@@ -95,7 +95,7 @@ case 2:
             var7 = _closure1_slot3;
             var6 = var7.useEffect;
             var3 = new Array(2);
-            var3[0] = var20;
+            var3[0] = var19;
             var2 = var10.application_id;
             var3[1] = var2;
             var2 = function() {
@@ -151,11 +151,11 @@ case 10:
             };
             var2 = var6.bind(var7)(var2, var3);
             var2 = null;
-            var3 = var2 == var20;
+            var3 = var2 == var19;
             var11 = undefined;
             if(var3) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var11 = var20.name;
+            var11 = var19.name;
 case 12:
             if(!(var2 == var11)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
@@ -172,25 +172,24 @@ case 15:
             var2 = var2.cgPbaZ;
             var11 = var3.bind(var6)(var2);
 case 14:
-            var19 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var2 = 8;
-            var2 = var12[var2];
-            var3 = var19.bind(var4)(var2);
-            var2 = var3.useStartAuthorize;
-            var2 = var2.bind(var3)(var20);
-            var7 = var2.hasAlreadyLinked;
-            var6 = var2.canStartAuthorization;
-            var18 = var2.startAuthorization;
-            _closure2_slot5 = var18;
-            var8 = var2.fetched;
-            var3 = _closure1_slot6;
             var2 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var3 = 8;
+            var3 = var12[var3];
+            var3 = var2.bind(var4)(var3);
+            var3 = var3.bind(var4)(var19);
+            var7 = var3.hasAlreadyLinked;
+            var6 = var3.canStartAuthorization;
+            var18 = var3.startAuthorization;
+            _closure2_slot5 = var18;
+            var8 = var3.fetched;
+            var3 = _closure1_slot6;
             var14 = 9;
             var9 = var12[var14];
             var13 = var2.bind(var4)(var9);
             var9 = {};
-            var9['game'] = var20;
+            var9['game'] = var19;
+            var19 = _closure1_slot0;
             var14 = var12[var14];
             var14 = var19.bind(var4)(var14);
             var14 = var14.GameIconSizes;

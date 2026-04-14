@@ -389,6 +389,63 @@ case 32:
         return var1;
     };
     var3['useUserProfileEffect'] = var4;
+    var4 = function useUserProfileFrame(arg1) {
+        var2 = arg1;
+        var3 = var2.user;
+        var _closure2_slot0 = var3;
+        var2 = var2.guildId;
+        var _closure2_slot1 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 4;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStores;
+        var5 = _closure1_slot4;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                var1 = _closure2_slot1;
+                var2 = null;
+                if(!(var2 != var1)) { _fun0009_ip = 15; continue _fun0009 }
+case 29:
+                var6 = _closure1_slot4;
+                var5 = var6.getGuildMemberProfile;
+                var1 = _closure2_slot0;
+                var4 = var1.id;
+                var1 = _closure2_slot1;
+                var4 = var5.bind(var6)(var4, var1);
+                var5 = var2 == var4;
+                var1 = undefined;
+                if(var5) { _fun0009_ip = 30; continue _fun0009 }
+case 31:
+                var1 = var4.profileFrame;
+case 30:
+                _fun0009_ip = 32; continue _fun0009;
+case 15:
+                var5 = _closure1_slot4;
+                var4 = var5.getUserProfile;
+                var3 = _closure2_slot0;
+                var3 = var3.id;
+                var3 = var4.bind(var5)(var3);
+                var4 = var2 == var3;
+                var2 = undefined;
+                if(var4) { _fun0009_ip = 33; continue _fun0009 }
+case 34:
+                var2 = var3.profileFrame;
+case 33:
+                var1 = var2;
+case 32:
+                return var1;
+            }
+        };
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['useUserProfileFrame'] = var4;
     var4 = function useAvatarDecorationSettings(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -452,7 +509,7 @@ case 32:
     };
     var3['useProfileEffectSettings'] = var4;
     var4 = function getProfilePreviewValue(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.userValue;
@@ -460,33 +517,33 @@ case 0:
             var1 = var2.pendingValue;
             var4 = var2.guildId;
             var7 = '';
-            if(!(var7 !== var1)) { _fun0009_ip = 35; continue _fun0009 }
+            if(!(var7 !== var1)) { _fun0010_ip = 35; continue _fun0010 }
 case 36:
             var6 = null;
-            if(!(var6 !== var1)) { _fun0009_ip = 35; continue _fun0009 }
+            if(!(var6 !== var1)) { _fun0010_ip = 35; continue _fun0010 }
 case 37:
-            if(!(var7 !== var1)) { _fun0009_ip = 22; continue _fun0009 }
+            if(!(var7 !== var1)) { _fun0010_ip = 22; continue _fun0010 }
 case 3:
-            if(!(var6 == var1)) { _fun0009_ip = 38; continue _fun0009 }
+            if(!(var6 == var1)) { _fun0010_ip = 38; continue _fun0010 }
 case 22:
             var2 = var3;
-            if(!(var6 != var4)) { _fun0009_ip = 39; continue _fun0009 }
+            if(!(var6 != var4)) { _fun0010_ip = 39; continue _fun0010 }
 case 40:
             var2 = var3;
-            if(!(var7 !== var5)) { _fun0009_ip = 39; continue _fun0009 }
+            if(!(var7 !== var5)) { _fun0010_ip = 39; continue _fun0010 }
 case 15:
             var2 = var3;
-            if(!(var6 != var5)) { _fun0009_ip = 39; continue _fun0009 }
+            if(!(var6 != var5)) { _fun0010_ip = 39; continue _fun0010 }
 case 41:
             var2 = var5;
 case 39:
             var1 = var2;
 case 38:
-            _fun0009_ip = 42; continue _fun0009;
+            _fun0010_ip = 42; continue _fun0010;
 case 35:
             var2 = null;
             var4 = var2 != var4;
-            if(!var4) { _fun0009_ip = 43; continue _fun0009 }
+            if(!var4) { _fun0010_ip = 43; continue _fun0010 }
 case 8:
             var2 = var3;
 case 43:
@@ -497,25 +554,6 @@ case 42:
     };
     var3['getProfilePreviewValue'] = var4;
     var4 = function showRemoveAvatar(arg1, arg2) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-            var2 = arg1;
-            var1 = undefined;
-            if(!(var1 !== var2)) { _fun0010_ip = 16; continue _fun0010 }
-case 44:
-            var1 = null;
-            var1 = var1 != var2;
-            _fun0010_ip = 45; continue _fun0010;
-case 16:
-            var3 = null;
-            var2 = arg2;
-            var1 = var3 != var2;
-case 45:
-            return var1;
-        }
-    };
-    var3['showRemoveAvatar'] = var4;
-    var4 = function showRemoveBanner(arg1, arg2) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = arg1;
@@ -533,16 +571,35 @@ case 45:
             return var1;
         }
     };
-    var3['showRemoveBanner'] = var4;
-    var2 = function announcePendingAvatarChange(arg1) {
+    var3['showRemoveAvatar'] = var4;
+    var4 = function showRemoveBanner(arg1, arg2) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var2 = arg1;
+            var1 = undefined;
+            if(!(var1 !== var2)) { _fun0012_ip = 16; continue _fun0012 }
+case 44:
+            var1 = null;
+            var1 = var1 != var2;
+            _fun0012_ip = 45; continue _fun0012;
+case 16:
+            var3 = null;
+            var2 = arg2;
+            var1 = var3 != var2;
+case 45:
+            return var1;
+        }
+    };
+    var3['showRemoveBanner'] = var4;
+    var2 = function announcePendingAvatarChange(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var2 = arg1;
             var1 = 'set';
-            if(!(var1 !== var2)) { _fun0012_ip = 46; continue _fun0012 }
+            if(!(var1 !== var2)) { _fun0013_ip = 46; continue _fun0013 }
 case 47:
             var1 = 'remove';
-            if(!(var1 !== var2)) { _fun0012_ip = 48; continue _fun0012 }
+            if(!(var1 !== var2)) { _fun0013_ip = 48; continue _fun0013 }
 case 49:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -563,7 +620,7 @@ case 49:
             var1 = var1["/b5nqj"];
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-            _fun0012_ip = 50; continue _fun0012;
+            _fun0013_ip = 50; continue _fun0013;
 case 48:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -584,7 +641,7 @@ case 48:
             var1 = var1.f1+oNk;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-            _fun0012_ip = 50; continue _fun0012;
+            _fun0013_ip = 50; continue _fun0013;
 case 46:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;

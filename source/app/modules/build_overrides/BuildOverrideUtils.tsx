@@ -238,13 +238,13 @@ case 16:
                     return var1;
                 };
                 var1 = var3.bind(var5)(var2, var1);
-                _fun0004_ip = 9; continue _fun0004;
+                _fun0004_ip = 18; continue _fun0004;
 case 12:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.resolve;
                 var1 = var2.bind(var3)(var4);
-case 9:
+case 18:
                 return var1;
             }
         };
@@ -256,8 +256,8 @@ case 0:
                 var3 = _closure1_slot11;
                 var4 = undefined;
                 var3 = var3.bind(var4)(var5);
-                if(var3) { _fun0006_ip = 18; continue _fun0006 }
-case 19:
+                if(var3) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot3;
                 var3 = 4;
@@ -266,19 +266,19 @@ case 19:
                 var3 = var6.safeParseWithQuery;
                 var11 = var3.bind(var6)(var5);
                 var7 = null;
-                if(!(var7 != var11)) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+                if(!(var7 != var11)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
                 var11['search'] = var7;
                 var6 = var11.query;
                 var3 = 'true';
                 var6['meta'] = var3;
                 var3 = _closure1_slot5;
-                if(!var3) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+                if(!var3) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
                 var6 = var11.query;
                 var3 = _closure1_slot5;
                 var6['version'] = var3;
-case 22:
+case 23:
                 var3 = global;
                 var3 = var3.window;
                 var3 = var3.location;
@@ -318,15 +318,15 @@ case 16:
                     return var1;
                 };
                 var2 = var6.bind(var8)(var3, var2);
-                _fun0006_ip = 24; continue _fun0006;
-case 20:
+                _fun0006_ip = 25; continue _fun0006;
+case 21:
                 var3 = global;
                 var6 = var3.Promise;
                 var3 = var6.resolve;
                 var2 = var3.bind(var6)(var7);
-case 24:
+case 25:
                 return var2;
-case 18:
+case 19:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.resolve;
@@ -361,7 +361,7 @@ case 0:
                 var7 = undefined;
                 var2 = undefined;
                 var1 = undefined;
-case 25: // try_start_0
+case 26: // try_start_0
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot3;
                 var4 = 7;
@@ -377,8 +377,8 @@ case 25: // try_start_0
                 var4 = var4[var3];
                 var1 = var4;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0008_ip = 26; continue _fun0008 }
-case 27:
+                if(!(var3 != var4)) { _fun0008_ip = 27; continue _fun0008 }
+case 28:
                 var5 = var6.JSON;
                 var4 = var5.parse;
                 var6 = var6.atob;
@@ -395,19 +395,19 @@ case 27:
                 var1 = var1["$meta"];
                 var1 = var1.experiments;
                 var2 = var1;
-                if(!(var3 == var1)) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
-                var1 = {};
-                _fun0008_ip = 30; continue _fun0008;
-case 28:
-                var1 = var2;
+                if(!(var3 == var1)) { _fun0008_ip = 29; continue _fun0008 }
 case 30:
-                _fun0008_ip = 31; continue _fun0008;
-case 26:
                 var1 = {};
-case 31: // try_end0
+                _fun0008_ip = 31; continue _fun0008;
+case 29:
+                var1 = var2;
+case 31:
+                _fun0008_ip = 32; continue _fun0008;
+case 27:
+                var1 = {};
+case 32: // try_end0
                 return var1;
-case 32: // catch_target0
+case 33: // catch_target0
                 CatchBlockStart(arg_register=0);
                 var1 = {};
                 return var1;
@@ -439,8 +439,8 @@ case 0:
                 var1 = _closure1_slot11;
                 var7 = undefined;
                 var1 = var1.bind(var7)(var2);
-                if(var1) { _fun0010_ip = 33; continue _fun0010 }
-case 34:
+                if(var1) { _fun0010_ip = 34; continue _fun0010 }
+case 35:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot3;
                 var1 = 4;
@@ -449,40 +449,40 @@ case 34:
                 var1 = var3.safeParseWithQuery;
                 var6 = var1.bind(var3)(var2);
                 var1 = null;
-                if(!(var1 != var6)) { _fun0010_ip = 35; continue _fun0010 }
-case 36:
+                if(!(var1 != var6)) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
                 var8 = _closure1_slot8;
                 var5 = var8.has;
                 var3 = var6.hostname;
                 var3 = var5.bind(var8)(var3);
-                if(!var3) { _fun0010_ip = 37; continue _fun0010 }
-case 38:
+                if(!var3) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
                 var3 = var6.query;
                 var11 = 's';
                 var3 = var11 in var3;
-                if(!var3) { _fun0010_ip = 37; continue _fun0010 }
-case 39:
+                if(!var3) { _fun0010_ip = 38; continue _fun0010 }
+case 40:
                 var8 = _closure1_slot9;
                 var5 = var8.has;
                 var3 = var6.pathname;
                 var3 = var5.bind(var8)(var3);
-                if(var3) { _fun0010_ip = 40; continue _fun0010 }
-case 37:
+                if(var3) { _fun0010_ip = 41; continue _fun0010 }
+case 38:
                 return var1;
-case 40:
+case 41:
                 var9 = var6.query;
                 for(var3 in var9)
-case 41:
-                {
 case 42:
-                    var13 = var3;
-                    if(var11 === var13) { _fun0010_ip = 41; continue _fun0010 }
+                {
 case 43:
+                    var13 = var3;
+                    if(var11 === var13) { _fun0010_ip = 42; continue _fun0010 }
+case 44:
                     var12 = var6.query;
                     var12 = delete var12[var13];
-                    _fun0010_ip = 41; continue _fun0010;
+                    _fun0010_ip = 42; continue _fun0010;
                 }
-case 44:
+case 45:
                 var3 = {};
                 var5 = var6.query;
                 var5 = var5.s;
@@ -496,9 +496,9 @@ case 44:
                 var4 = var4.bind(var5)(var6);
                 var3['url'] = var4;
                 return var3;
-case 35:
+case 36:
                 return var1;
-case 33:
+case 34:
                 var1 = {};
                 var3 = null;
                 var1['payload'] = var3;

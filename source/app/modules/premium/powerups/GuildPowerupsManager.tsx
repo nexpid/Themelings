@@ -91,7 +91,7 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot11 = var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -215,6 +215,16 @@ case 12:
                 var7['guildId'] = var12;
                 var7['location'] = var10;
                 var7 = var8.bind(var11)(var7);
+                var7 = 12;
+                var7 = var6[var7];
+                var7 = var5.bind(var4)(var7);
+                var11 = var7.ServerThemeExperiment;
+                var8 = var11.trackExposure;
+                var7 = {};
+                var12 = var9.id;
+                var7['guildId'] = var12;
+                var7['location'] = var10;
+                var7 = var8.bind(var11)(var7);
                 var2 = var6[var2];
                 var6 = var5.bind(var4)(var2);
                 var5 = var6.getGameServerEnabled;
@@ -224,7 +234,7 @@ case 12:
 case 14:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 12;
+                var2 = 13;
                 var2 = var6[var2];
                 var2 = var5.bind(var4)(var2);
                 var6 = var2.GameServerPricingExperiment;
@@ -237,7 +247,7 @@ case 14:
 case 13:
                 var6 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var2 = 13;
+                var2 = 14;
                 var2 = var8[var2];
                 var7 = var6.bind(var4)(var2);
                 var5 = var7.getConfig;
@@ -245,7 +255,7 @@ case 13:
                 var2['location'] = var10;
                 var2 = var5.bind(var7)(var2);
                 var2 = var2.enabled;
-                var5 = 14;
+                var5 = 15;
                 var5 = var8[var5];
                 var7 = var6.bind(var4)(var5);
                 var6 = var7.getConfig;
@@ -254,7 +264,7 @@ case 13:
                 var5 = var6.bind(var7)(var5);
                 var5 = var5.enabled;
                 var7 = _closure1_slot0;
-                var6 = 15;
+                var6 = 16;
                 var6 = var8[var6];
                 var8 = var7.bind(var4)(var6);
                 var7 = var8.getHasAllocateBoostPermission;
@@ -270,7 +280,7 @@ case 17:
 case 20:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var5 = 16;
+                var5 = 17;
                 var5 = var7[var5];
                 var6 = var6.bind(var4)(var5);
                 var5 = var6.getIsCurrentUserEligibleForPowerupUpsells;
@@ -278,7 +288,7 @@ case 20:
 case 19:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var5 = 17;
+                var5 = 18;
                 var5 = var7[var5];
                 var5 = var6.bind(var4)(var5);
                 var5 = var5.isMobile;
@@ -295,7 +305,7 @@ case 15:
 case 24:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 18;
+                var2 = 19;
                 var2 = var6[var2];
                 var5 = var5.bind(var4)(var2);
                 var2 = var5.fetchPowerupCatalogForGuild;
@@ -308,7 +318,7 @@ case 23:
 case 25:
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 18;
+                var1 = 19;
                 var1 = var5[var1];
                 var2 = var2.bind(var4)(var1);
                 var1 = var2.fetchGuildBoostEntitlements;
@@ -358,7 +368,7 @@ case 0:
                 var4 = arg1;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 15;
+                var1 = 16;
                 var3 = var3[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var3);
@@ -373,12 +383,12 @@ case 0:
 case 11:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var2 = 18;
+                var2 = 19;
                 var2 = var5[var2];
                 var6 = var3.bind(var1)(var2);
                 var2 = var6.fetchGuildBoostEntitlements;
                 var2 = var2.bind(var6)(var4);
-                var2 = 19;
+                var2 = 20;
                 var2 = var5[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.fetchAppliedGuildBoostsForGuild;
@@ -398,7 +408,7 @@ case 26:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

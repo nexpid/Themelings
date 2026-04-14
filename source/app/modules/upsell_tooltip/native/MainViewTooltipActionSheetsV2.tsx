@@ -13,7 +13,7 @@ case 0:
             var5 = arg1;
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var7 = 18;
+            var7 = 19;
             var1 = var1[var7];
             var6 = undefined;
             var2 = var2.bind(var6)(var1);
@@ -59,7 +59,7 @@ case 2:
         var6 = var1 != var2;
         var3 = _closure1_slot1;
         var10 = _closure1_slot2;
-        var1 = 19;
+        var1 = 20;
         var2 = var10[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
@@ -68,7 +68,7 @@ case 2:
         var3 = var2.MAIN_VIEW_ACTION_SHEET_SELECTED;
         var2 = {};
         var9 = _closure1_slot0;
-        var11 = 17;
+        var11 = 18;
         var11 = var10[var11];
         var11 = var9.bind(var1)(var11);
         var12 = var11.DismissibleContent;
@@ -79,7 +79,7 @@ case 2:
         var8 = var7.id;
         var8 = var11.bind(var1)(var8);
         var2['dc_type'] = var8;
-        var8 = 20;
+        var8 = 21;
         var8 = var10[var8];
         var8 = var9.bind(var1)(var8);
         var9 = var8.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
@@ -135,7 +135,7 @@ case 8:
         var3 = _closure1_slot12;
         var2 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 21;
+        var1 = 22;
         var1 = var6[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.DismissibleActionSheet;
@@ -223,7 +223,7 @@ case 8:
         return var1;
     };
     var4 = {};
-    var11 = 17;
+    var11 = 18;
     var6 = var8[var11];
     var6 = var7.bind(var1)(var6);
     var6 = var6.DismissibleContent;
@@ -287,11 +287,33 @@ case 8:
     };
     var4['importer'] = var14;
     var6[2] = var4;
-    var4 = new Array(8);
+    var4 = new Array(9);
     var17 = var4;
     var16 = var6;
     var15 = 0;
     var6 = arraySpread(var17, var16, var15);
+    var9 = {};
+    var14 = var8[var11];
+    var14 = var7.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.RIOT_CONNECTION_DEPRECATION_DISABLE;
+    var9['id'] = var14;
+    var14 = function importer() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 8;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 17;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var9['importer'] = var14;
+    var4[5] = var9;
+    var6 = var6 + var10;
     var9 = {};
     var14 = var8[var11];
     var14 = var7.bind(var1)(var14);
@@ -416,7 +438,7 @@ case 8:
     var6 = var6 + var10;
     var4[5] = var9;
     var _closure1_slot13 = var4;
-    var6 = 27;
+    var6 = 28;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -427,7 +449,7 @@ case 8:
 case 0:
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var1 = 24;
+            var1 = 25;
             var1 = var15[var1];
             var5 = undefined;
             var2 = var13.bind(var5)(var1);
@@ -464,7 +486,7 @@ case 0:
                 return var1;
             };
             var2 = var12.bind(var5)(var2, var8);
-            var12 = 25;
+            var12 = 26;
             var2 = var15[var12];
             var16 = var13.bind(var5)(var2);
             var14 = var16.useStateFromStores;
@@ -559,7 +581,7 @@ case 15:
 case 17:
                             var10 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var3 = 18;
+                            var3 = 19;
                             var4 = var4[var3];
                             var10 = var10.bind(var9)(var4);
                             var4 = var10.isSnowflakeBoundDismissibleContent;
@@ -584,7 +606,7 @@ case 21:
 case 23:
                             var4 = _closure1_slot0;
                             var12 = _closure1_slot2;
-                            var3 = 22;
+                            var3 = 23;
                             var3 = var12[var3];
                             var4 = var4.bind(var9)(var3);
                             var3 = var4.UNSAFE_isDismissibleContentDismissed;
@@ -597,7 +619,7 @@ case 22:
 case 26:
                             var13 = _closure1_slot0;
                             var14 = _closure1_slot2;
-                            var12 = 23;
+                            var12 = 24;
                             var12 = var14[var12];
                             var14 = var13.bind(var9)(var12);
                             var13 = var14.isTimeRecurringDismissibleContentDismissed;
@@ -609,7 +631,7 @@ case 25:
 case 24:
                             _fun0007_ip = 27; continue _fun0007;
 case 20:
-                            var4 = 23;
+                            var4 = 24;
                             var4 = var11[var4];
                             var11 = var10.bind(var9)(var4);
                             var10 = var11.isVersionedDismissibleContentDismissed;
@@ -625,7 +647,7 @@ case 18:
 case 30:
                             var7 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var6 = 22;
+                            var6 = 23;
                             var6 = var10[var6];
                             var7 = var7.bind(var9)(var6);
                             var6 = var7.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
@@ -645,10 +667,10 @@ case 14:
                     var2 = var2.bind(var3)(var1);
                     var1 = null;
                     var3 = var1 != var2;
-                    if(!var3) { _fun0006_ip = 31; continue _fun0006 }
-case 10:
-                    var1 = var2;
+                    if(!var3) { _fun0006_ip = 12; continue _fun0006 }
 case 31:
+                    var1 = var2;
+case 12:
                     return var1;
                 }
             };
@@ -767,7 +789,7 @@ case 50:
             var4 = _closure1_slot12;
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var2 = 26;
+            var2 = 27;
             var2 = var12[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -818,7 +840,7 @@ case 48:
             var4 = _closure1_slot12;
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 26;
+            var2 = 27;
             var2 = var12[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.SelectedTimeRecurringDismissibleContent;
@@ -871,7 +893,7 @@ case 46:
             var4 = _closure1_slot12;
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 26;
+            var2 = 27;
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.SelectedVersionedDismissibleContent;
@@ -931,7 +953,7 @@ case 44:
             var4 = _closure1_slot12;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 26;
+            var2 = 27;
             var2 = var10[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.SelectedSnowflakeBoundDismissibleContent;

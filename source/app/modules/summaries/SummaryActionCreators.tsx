@@ -523,14 +523,14 @@ case 58:
                     var5 = var6.shouldFetchChannelAffinities;
                     var5 = var5.bind(var6)();
                     var6 = global;
-                    if(var5) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
+                    if(var5) { _fun0007_ip = 56; continue _fun0007 }
+case 59:
                     var11 = var6.Promise;
                     var10 = var11.resolve;
                     var5 = null;
                     var5 = var10.bind(var11)(var5);
                     return var5;
-case 59:
+case 56:
                     var10 = var6.Date;
                     var5 = var10.now;
                     var13 = var5.bind(var10)();
@@ -548,7 +548,7 @@ case 59:
                     var10 = var11.bind(var12)(var10);
                     var9 = undefined;
                     var8 = undefined;
-case 61: // try_start_0
+case 60: // try_start_0
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var10 = 8;
@@ -558,19 +558,19 @@ case 61: // try_start_0
                     var11 = var12.get;
                     var10 = {'url': '/users/@me/affinities/channels', 'rejectWithError': false};
                     var10 = var11.bind(var12)(var10);
-                    SaveGenerator(address=188);
-case 62:
+                    SaveGenerator(address=187);
+case 61:
                     return var10;
-case 63:
+case 62:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
-                    if(var11) { _fun0007_ip = 21; continue _fun0007 }
+                    if(var11) { _fun0007_ip = 63; continue _fun0007 }
 case 64:
                     var8 = var10;
 case 65: // try_end0
                     _fun0007_ip = 66; continue _fun0007;
-case 21:
+case 63:
                     return var10;
-case 67: // catch_target0
+case 22: // catch_target0
                     CatchBlockStart(arg_register=11);
                     var11 = _closure1_slot0;
                     var13 = _closure1_slot2;
@@ -589,17 +589,17 @@ case 66:
                     var10 = null;
                     var11 = var10 == var8;
                     var8 = undefined;
-                    if(var11) { _fun0007_ip = 68; continue _fun0007 }
-case 69:
+                    if(var11) { _fun0007_ip = 67; continue _fun0007 }
+case 26:
                     var11 = var4;
                     var11 = var11.body;
                     var4 = var11;
                     var11 = var10 == var11;
                     var8 = undefined;
-                    if(var11) { _fun0007_ip = 68; continue _fun0007 }
-case 70:
-                    var8 = var4.channel_affinities;
+                    if(var11) { _fun0007_ip = 67; continue _fun0007 }
 case 68:
+                    var8 = var4.channel_affinities;
+case 67:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var3 = var3[var5];
@@ -612,10 +612,10 @@ case 68:
                     var8 = var9;
                     var10 = var10 != var8;
                     var8 = undefined;
-                    if(!var10) { _fun0007_ip = 71; continue _fun0007 }
-case 36:
+                    if(!var10) { _fun0007_ip = 69; continue _fun0007 }
+case 70:
                     var8 = var9;
-case 71:
+case 69:
                     var3['error'] = var8;
                     var3['requestedAt'] = var7;
                     var7 = var6.Date;
@@ -662,22 +662,22 @@ case 0:
                     StartGenerator();
                     var2 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0008_ip = 72; continue _fun0008 }
+                    if(var3) { _fun0008_ip = 71; continue _fun0008 }
 case 44:
                     var11 = arg1;
                     var4 = undefined;
-                    if(!(var2 === var4)) { _fun0008_ip = 73; continue _fun0008 }
-case 74:
-                    var2 = {};
+                    if(!(var2 === var4)) { _fun0008_ip = 72; continue _fun0008 }
 case 73:
+                    var2 = {};
+case 72:
                     var19 = var2.useQuickSwitcher;
-                    if(!(var19 === var4)) { _fun0008_ip = 75; continue _fun0008 }
-case 76:
-                    var19 = true;
+                    if(!(var19 === var4)) { _fun0008_ip = 74; continue _fun0008 }
 case 75:
+                    var19 = true;
+case 74:
                     var18 = var2.useChannelAffinities;
                     if(!(var18 === var4)) { _fun0008_ip = 19; continue _fun0008 }
-case 77:
+case 76:
                     var18 = true;
 case 19:
                     var7 = undefined;
@@ -687,7 +687,7 @@ case 19:
                     SaveGenerator(address=66);
 case 41:
                     return var4;
-case 59:
+case 77:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0008_ip = 78; continue _fun0008 }
 case 79:
@@ -745,11 +745,11 @@ case 0:
                             var1 = arg1;
                             var5 = var3.bind(var5)(var1);
                             var1 = null;
-                            if(!(var1 != var5)) { _fun0009_ip = 77; continue _fun0009 }
+                            if(!(var1 != var5)) { _fun0009_ip = 76; continue _fun0009 }
 case 83:
                             var3 = var5.fetching;
                             if(var3) { _fun0009_ip = 84; continue _fun0009 }
-case 77:
+case 76:
                             var6 = var1 == var5;
                             var3 = undefined;
                             if(var6) { _fun0009_ip = 85; continue _fun0009 }
@@ -875,7 +875,7 @@ case 88:
                     return var3;
 case 78:
                     return var2;
-case 72:
+case 71:
                     return var1;
                 }
             };
@@ -961,7 +961,7 @@ case 101: // try_start_0
                                     SaveGenerator(address=24);
 case 46:
                                     return var2;
-case 74:
+case 73:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                                     if(var3) { _fun0012_ip = 102; continue _fun0012 }
 case 103: // try_end0

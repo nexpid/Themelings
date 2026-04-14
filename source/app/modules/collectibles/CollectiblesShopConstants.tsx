@@ -256,6 +256,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BUNDLE_VIEW_NAMEPLATE'] = var16;
     var16 = 'full_profile_preview';
     var2['FULL_PROFILE_PREVIEW'] = var16;
+    var16 = 'view_details';
+    var2['VIEW_DETAILS'] = var16;
+    var16 = 'payment_options';
+    var2['PAYMENT_OPTIONS'] = var16;
+    var16 = 'open_details';
+    var2['OPEN_DETAILS'] = var16;
+    var16 = 'variant_click';
+    var2['VARIANT_CLICK'] = var16;
+    var16 = 'variant_click_more';
+    var2['VARIANT_CLICK_MORE'] = var16;
     var16 = 7;
     var16 = var18[var16];
     var18 = var17.bind(var1)(var16);

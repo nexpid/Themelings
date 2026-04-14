@@ -22,8 +22,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var1)(var4);
     var _closure1_slot2 = var4;
     var4 = 2;
-    var4 = var5[var4];
-    var4 = var7.bind(var1)(var4);
+    var7 = var5[var4];
+    var4 = metroImportAll;
+    var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
     var4 = function SearchFetchPendingManager() {
         var3 = this;
@@ -125,6 +126,8 @@ case 2:
     var4 = 'modules/search/native/components/tabs/pages/messages/SearchFetchPendingManager.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useSearchFetchPendingManager(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
         var4 = _closure1_slot0;
         var5 = _closure1_slot1;
         var1 = 4;
@@ -141,26 +144,40 @@ case 2:
             return var1;
         };
         var1 = var4.bind(var5)(var1);
-        var _closure2_slot0 = var1;
+        var _closure2_slot1 = var1;
         var5 = _closure1_slot3;
-        var4 = var5.subscribeTextInputValue;
-        var3 = arg1;
-        var2 = function(arg1, arg2) {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        var4 = var5.useEffect;
+        var3 = new Array(2);
+        var3[0] = var6;
+        var3[1] = var1;
+        var2 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.subscribeTextInputValue;
+            var2 = _closure2_slot0;
+            var1 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var2 = arg2;
-                var1 = arg1;
-                if(!(var2 !== var1)) { _fun0002_ip = 5; continue _fun0002 }
+                    var2 = arg2;
+                    var1 = arg1;
+                    if(!(var2 !== var1)) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                var2 = _closure2_slot0;
-                var1 = var2.reset;
-                var1 = var1.bind(var2)();
+                    var2 = _closure2_slot1;
+                    var1 = var2.reset;
+                    var1 = var1.bind(var2)();
 case 5:
-                var1 = undefined;
-                return var1;
-            }
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        var2 = var4.bind(var5)(var3, var2);
+        var2 = var4.bind(var5)(var2, var3);
         return var1;
     };
     var3['useSearchFetchPendingManager'] = var2;

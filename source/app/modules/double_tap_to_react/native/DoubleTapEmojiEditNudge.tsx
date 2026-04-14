@@ -48,16 +48,25 @@ case 0:
             var _closure2_slot0 = var6;
             var14 = var2.emoji;
             var _closure2_slot1 = var14;
-            var3 = _closure1_slot7;
+            var19 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var2 = 14;
+            var2 = var15[var2];
             var4 = undefined;
+            var3 = var19.bind(var4)(var2);
+            var2 = var3.useAppEntryKey;
+            var2 = var2.bind(var3)();
+            var _closure2_slot2 = var2;
+            var3 = _closure1_slot7;
             var2 = function(arg1) {
                 var1 = arg1;
+                var2 = var1.byAppEntry;
+                var1 = _closure2_slot2;
+                var1 = var2[var1];
                 var1 = var1.fontScale;
                 return var1;
             };
             var5 = var3.bind(var4)(var2);
-            var19 = _closure1_slot0;
-            var15 = _closure1_slot2;
             var2 = 11;
             var2 = var15[var2];
             var8 = var19.bind(var4)(var2);
@@ -71,7 +80,7 @@ case 0:
                 return var1;
             };
             var2 = var7.bind(var8)(var3, var2);
-            var _closure2_slot2 = var2;
+            var _closure2_slot3 = var2;
             var3 = _closure1_slot15;
             var11 = var3.bind(var4)(var5);
             var7 = _closure1_slot4;
@@ -93,7 +102,7 @@ case 5:
 case 4:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 15;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -104,7 +113,7 @@ case 4:
                     var2['id'] = var7;
                     var5 = _closure1_slot10;
                     var2['size'] = var5;
-                    var5 = _closure2_slot2;
+                    var5 = _closure2_slot3;
                     var5 = !var5;
                     if(!var5) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
@@ -125,7 +134,7 @@ case 6:
             var1 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 15;
+                var1 = 16;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -146,7 +155,7 @@ case 0:
 case 10:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
-                            var2 = 16;
+                            var2 = 17;
                             var2 = var6[var2];
                             var3 = undefined;
                             var10 = var5.bind(var3)(var2);
@@ -166,7 +175,7 @@ case 10:
                             var2['location'] = var11;
                             var2 = var9.bind(var10)(var5, var2);
                             var5 = _closure1_slot0;
-                            var2 = 17;
+                            var2 = 18;
                             var2 = var6[var2];
                             var2 = var5.bind(var3)(var2);
                             var6 = var2.DoubleTapReactionEmoji;
@@ -189,7 +198,7 @@ case 12:
 case 14:
                             var5 = _closure1_slot0;
                             var6 = _closure1_slot2;
-                            var4 = 18;
+                            var4 = 19;
                             var4 = var6[var4];
                             var6 = var5.bind(var3)(var4);
                             var5 = var6.showDoubleTapEmojiUpdatedToast;
@@ -231,12 +240,12 @@ case 9:
             var5 = var11.doubleTapEmojiEditNudgeContainer;
             var1['style'] = var5;
             var7 = _closure1_slot12;
-            var9 = 19;
+            var9 = 20;
             var5 = var15[var9];
             var5 = var19.bind(var4)(var5);
             var6 = var5.Text;
             var5 = {'color': 'text-subtle', 'variant': 'text-sm/normal'};
-            var16 = 20;
+            var16 = 21;
             var8 = var15[var16];
             var8 = var19.bind(var4)(var8);
             var18 = var8.intl;
@@ -252,7 +261,7 @@ case 9:
             var5[0] = var6;
             var8 = _closure1_slot12;
             var7 = _closure1_slot1;
-            var6 = 21;
+            var6 = 22;
             var6 = var15[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -277,7 +286,7 @@ case 15:
             var8 = _closure1_slot12;
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var6 = 22;
+            var6 = 23;
             var6 = var12[var6];
             var6 = var15.bind(var4)(var6);
             var7 = var6.PressableOpacity;
@@ -423,7 +432,7 @@ case 15:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

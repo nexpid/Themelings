@@ -155,51 +155,33 @@ case 16:
 case 0:
             var1 = arg1;
             var12 = var1.searchContext;
-            var5 = _closure1_slot4;
-            var4 = var5.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.isInitialSearchQuery;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var4.bind(var5)(var12, var3);
-            if(var3) { _fun0003_ip = 18; continue _fun0003 }
+            var3 = _closure1_slot4;
+            var2 = var3.isInitialSearchQuery;
+            var2 = var2.bind(var3)(var12);
+            if(var2) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
             var15 = _closure1_slot1;
             var13 = _closure1_slot2;
             var14 = 4;
-            var3 = var13[var14];
+            var2 = var13[var14];
             var5 = undefined;
-            var4 = var15.bind(var5)(var3);
-            var3 = var4.refreshQueryId;
-            var3 = var3.bind(var4)(var12);
+            var3 = var15.bind(var5)(var2);
+            var2 = var3.refreshQueryId;
+            var2 = var2.bind(var3)(var12);
             var11 = _closure1_slot0;
             var10 = 5;
-            var3 = var13[var10];
-            var4 = var11.bind(var5)(var3);
-            var3 = var4.getChannelIdFromSearchContext;
-            var9 = var3.bind(var4)(var12);
-            var4 = _closure1_slot3;
-            var3 = var4.getChannel;
-            var8 = var3.bind(var4)(var9);
-            var4 = _closure1_slot4;
-            var6 = var4.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getQueryString;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var7 = var6.bind(var4)(var12, var3);
-            var3 = var4.getState;
-            var2 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getTextInputValue;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var6 = var3.bind(var4)(var12, var2);
+            var2 = var13[var10];
+            var3 = var11.bind(var5)(var2);
+            var2 = var3.getChannelIdFromSearchContext;
+            var9 = var2.bind(var3)(var12);
+            var3 = _closure1_slot3;
+            var2 = var3.getChannel;
+            var8 = var2.bind(var3)(var9);
+            var3 = _closure1_slot4;
+            var2 = var3.getQueryString;
+            var7 = var2.bind(var3)(var12);
+            var2 = var3.getTextInputValue;
+            var6 = var2.bind(var3)(var12);
             var2 = 6;
             var2 = var13[var2];
             var4 = var15.bind(var5)(var2);
@@ -260,51 +242,33 @@ case 0:
             var7 = var1.channelId;
             var12 = var1.userId;
             var13 = var1.entityType;
-            var5 = _closure1_slot4;
-            var4 = var5.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.isInitialSearchQuery;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var4.bind(var5)(var19, var3);
-            if(var3) { _fun0004_ip = 22; continue _fun0004 }
+            var3 = _closure1_slot4;
+            var2 = var3.isInitialSearchQuery;
+            var2 = var2.bind(var3)(var19);
+            if(var2) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var3 = 5;
-            var4 = var16[var3];
+            var2 = 5;
+            var3 = var16[var2];
             var5 = undefined;
-            var6 = var15.bind(var5)(var4);
-            var4 = var6.getGuildIdFromSearchContext;
-            var9 = var4.bind(var6)(var19);
-            var3 = var16[var3];
             var4 = var15.bind(var5)(var3);
-            var3 = var4.getChannelIdFromSearchContext;
-            var8 = var3.bind(var4)(var19);
-            var4 = _closure1_slot3;
-            var3 = var4.getChannel;
-            var6 = var3.bind(var4)(var8);
-            var3 = var4.getChannel;
-            var11 = var3.bind(var4)(var7);
-            var4 = _closure1_slot4;
-            var17 = var4.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getQueryString;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var22 = var17.bind(var4)(var19, var3);
-            var3 = var4.getState;
-            var2 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getTextInputValue;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var21 = var3.bind(var4)(var19, var2);
+            var3 = var4.getGuildIdFromSearchContext;
+            var9 = var3.bind(var4)(var19);
+            var2 = var16[var2];
+            var3 = var15.bind(var5)(var2);
+            var2 = var3.getChannelIdFromSearchContext;
+            var8 = var2.bind(var3)(var19);
+            var3 = _closure1_slot3;
+            var2 = var3.getChannel;
+            var6 = var2.bind(var3)(var8);
+            var2 = var3.getChannel;
+            var11 = var2.bind(var3)(var7);
+            var3 = _closure1_slot4;
+            var2 = var3.getQueryString;
+            var22 = var2.bind(var3)(var19);
+            var2 = var3.getTextInputValue;
+            var21 = var2.bind(var3)(var19);
             var18 = _closure1_slot1;
             var2 = 6;
             var2 = var16[var2];
@@ -391,49 +355,31 @@ case 0:
             var13 = var1.numMediaTabReturnedResults;
             var12 = var1.numFileTabReturnedResults;
             var9 = var1.numLinkTabReturnedResults;
-            var5 = _closure1_slot4;
-            var4 = var5.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.isInitialSearchQuery;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var4.bind(var5)(var23, var3);
-            if(var3) { _fun0005_ip = 28; continue _fun0005 }
+            var3 = _closure1_slot4;
+            var2 = var3.isInitialSearchQuery;
+            var2 = var2.bind(var3)(var23);
+            if(var2) { _fun0005_ip = 28; continue _fun0005 }
 case 29:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 5;
-            var4 = var11[var3];
+            var2 = 5;
+            var3 = var11[var2];
             var5 = undefined;
-            var6 = var10.bind(var5)(var4);
-            var4 = var6.getGuildIdFromSearchContext;
-            var8 = var4.bind(var6)(var23);
-            var3 = var11[var3];
             var4 = var10.bind(var5)(var3);
-            var3 = var4.getChannelIdFromSearchContext;
-            var7 = var3.bind(var4)(var23);
-            var4 = _closure1_slot3;
-            var3 = var4.getChannel;
-            var6 = var3.bind(var4)(var7);
-            var4 = _closure1_slot4;
-            var19 = var4.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getQueryString;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var21 = var19.bind(var4)(var23, var3);
-            var3 = var4.getState;
-            var2 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getTextInputValue;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var20 = var3.bind(var4)(var23, var2);
+            var3 = var4.getGuildIdFromSearchContext;
+            var8 = var3.bind(var4)(var23);
+            var2 = var11[var2];
+            var3 = var10.bind(var5)(var2);
+            var2 = var3.getChannelIdFromSearchContext;
+            var7 = var2.bind(var3)(var23);
+            var3 = _closure1_slot3;
+            var2 = var3.getChannel;
+            var6 = var2.bind(var3)(var7);
+            var3 = _closure1_slot4;
+            var2 = var3.getQueryString;
+            var21 = var2.bind(var3)(var23);
+            var2 = var3.getTextInputValue;
+            var20 = var2.bind(var3)(var23);
             var22 = _closure1_slot1;
             var2 = 6;
             var2 = var11[var2];
@@ -502,49 +448,31 @@ case 28:
 case 0:
             var1 = arg1;
             var13 = var1.searchContext;
-            var5 = _closure1_slot4;
-            var4 = var5.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.isInitialSearchQuery;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var4.bind(var5)(var13, var3);
-            if(var3) { _fun0006_ip = 32; continue _fun0006 }
+            var3 = _closure1_slot4;
+            var2 = var3.isInitialSearchQuery;
+            var2 = var2.bind(var3)(var13);
+            if(var2) { _fun0006_ip = 32; continue _fun0006 }
 case 19:
-            var4 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var3 = 5;
-            var6 = var14[var3];
+            var2 = 5;
+            var4 = var14[var2];
             var5 = undefined;
-            var7 = var4.bind(var5)(var6);
-            var6 = var7.getGuildIdFromSearchContext;
-            var8 = var6.bind(var7)(var13);
-            var3 = var14[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.getChannelIdFromSearchContext;
-            var7 = var3.bind(var4)(var13);
-            var4 = _closure1_slot3;
-            var3 = var4.getChannel;
-            var6 = var3.bind(var4)(var7);
-            var4 = _closure1_slot4;
-            var9 = var4.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getQueryString;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var11 = var9.bind(var4)(var13, var3);
-            var3 = var4.getState;
-            var2 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getTextInputValue;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var10 = var3.bind(var4)(var13, var2);
+            var6 = var3.bind(var5)(var4);
+            var4 = var6.getGuildIdFromSearchContext;
+            var8 = var4.bind(var6)(var13);
+            var2 = var14[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.getChannelIdFromSearchContext;
+            var7 = var2.bind(var3)(var13);
+            var3 = _closure1_slot3;
+            var2 = var3.getChannel;
+            var6 = var2.bind(var3)(var7);
+            var3 = _closure1_slot4;
+            var2 = var3.getQueryString;
+            var11 = var2.bind(var3)(var13);
+            var2 = var3.getTextInputValue;
+            var10 = var2.bind(var3)(var13);
             var12 = _closure1_slot1;
             var2 = 6;
             var2 = var14[var2];
@@ -598,49 +526,31 @@ case 32:
 case 0:
             var1 = arg1;
             var13 = var1.searchContext;
-            var5 = _closure1_slot4;
-            var4 = var5.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.isInitialSearchQuery;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var4.bind(var5)(var13, var3);
-            if(var3) { _fun0007_ip = 32; continue _fun0007 }
+            var3 = _closure1_slot4;
+            var2 = var3.isInitialSearchQuery;
+            var2 = var2.bind(var3)(var13);
+            if(var2) { _fun0007_ip = 32; continue _fun0007 }
 case 19:
-            var4 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var3 = 5;
-            var6 = var14[var3];
+            var2 = 5;
+            var4 = var14[var2];
             var5 = undefined;
-            var7 = var4.bind(var5)(var6);
-            var6 = var7.getGuildIdFromSearchContext;
-            var8 = var6.bind(var7)(var13);
-            var3 = var14[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.getChannelIdFromSearchContext;
-            var7 = var3.bind(var4)(var13);
-            var4 = _closure1_slot3;
-            var3 = var4.getChannel;
-            var6 = var3.bind(var4)(var7);
-            var4 = _closure1_slot4;
-            var9 = var4.getState;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getQueryString;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var11 = var9.bind(var4)(var13, var3);
-            var3 = var4.getState;
-            var2 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getTextInputValue;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var10 = var3.bind(var4)(var13, var2);
+            var6 = var3.bind(var5)(var4);
+            var4 = var6.getGuildIdFromSearchContext;
+            var8 = var4.bind(var6)(var13);
+            var2 = var14[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.getChannelIdFromSearchContext;
+            var7 = var2.bind(var3)(var13);
+            var3 = _closure1_slot3;
+            var2 = var3.getChannel;
+            var6 = var2.bind(var3)(var7);
+            var3 = _closure1_slot4;
+            var2 = var3.getQueryString;
+            var11 = var2.bind(var3)(var13);
+            var2 = var3.getTextInputValue;
+            var10 = var2.bind(var3)(var13);
             var12 = _closure1_slot1;
             var2 = 6;
             var2 = var14[var2];

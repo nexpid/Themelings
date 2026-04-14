@@ -193,7 +193,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var8);
     var8 = var8.unsupportedCommand;
     var2[8] = var8;
-    var7 = var7.QUEST_START_TIMER;
+    var9 = var7.QUEST_START_TIMER;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.unsupportedCommand;
+    var2[8] = var8;
+    var7 = var7.GET_QUESTS;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.unsupportedCommand;

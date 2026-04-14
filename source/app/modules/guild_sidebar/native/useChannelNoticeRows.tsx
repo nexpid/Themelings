@@ -249,20 +249,20 @@ case 15:
                     var2 = var9;
 case 14:
                     var2 = var3.bind(var8)(var2);
-                    var8 = var2.data;
-                    var13 = _closure1_slot0;
+                    var3 = var2.data;
+                    var8 = _closure1_slot1;
                     var15 = _closure1_slot2;
                     var2 = 12;
                     var2 = var15[var2];
-                    var3 = var13.bind(var12)(var2);
-                    var2 = var3.useStartAuthorize;
-                    var2 = var2.bind(var3)(var8);
+                    var2 = var8.bind(var12)(var2);
+                    var2 = var2.bind(var12)(var3);
                     var9 = var2.fetched;
                     var10 = var2.hasAlreadyLinked;
                     _closure3_slot1 = var10;
                     var8 = var2.canStartAuthorization;
                     var14 = var2.startAuthorization;
                     var2 = var2.connectionApp;
+                    var13 = _closure1_slot0;
                     var3 = 13;
                     var3 = var15[var3];
                     var13 = var13.bind(var12)(var3);

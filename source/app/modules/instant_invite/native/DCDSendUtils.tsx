@@ -268,7 +268,7 @@ case 19: // try_start_0
             var4 = var5.canOpenUrlScheme;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-case 4: // try_end0
+case 12: // try_end0
             return var1;
 case 21: // catch_target0
             CatchBlockStart(arg_register=0);

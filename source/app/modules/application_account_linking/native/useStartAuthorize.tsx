@@ -198,6 +198,6 @@ case 24:
             return var1;
         }
     };
-    var3['useStartAuthorize'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

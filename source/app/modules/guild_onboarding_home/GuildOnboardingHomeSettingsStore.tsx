@@ -496,7 +496,7 @@ case 44:
                 var5 = var2 == var6;
                 var3 = undefined;
                 if(var5) { _fun0014_ip = 43; continue _fun0014 }
-case 27:
+case 45:
                 var5 = var6.find;
                 var4 = function(arg1) {
                     var1 = arg1;
@@ -509,10 +509,10 @@ case 27:
 case 43:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0014_ip = 45; continue _fun0014 }
-case 46:
+                if(!var4) { _fun0014_ip = 46; continue _fun0014 }
+case 21:
                 var2 = var3;
-case 45:
+case 46:
                 var1 = var2;
 case 41:
                 return var1;
@@ -604,7 +604,7 @@ case 49:
             var1 = -1;
             var1 = var1 !== var4;
             if(!var1) { _fun0016_ip = 51; continue _fun0016 }
-case 52:
+case 46:
             var3 = var2.resourceChannels;
             var2 = {};
             var7 = var2;
@@ -630,11 +630,11 @@ case 0:
             var2 = _closure1_slot7;
             var2 = var2[var3];
             var4 = null;
-            if(!(var4 != var2)) { _fun0017_ip = 53; continue _fun0017 }
+            if(!(var4 != var2)) { _fun0017_ip = 52; continue _fun0017 }
 case 17:
             var3 = var2.newMemberActions;
             if(!(var4 == var3)) { _fun0017_ip = 38; continue _fun0017 }
-case 54:
+case 53:
             var3 = new Array(0);
 case 38:
             var2['newMemberActions'] = var3;
@@ -651,7 +651,7 @@ case 38:
             var4 = var3.bind(var4)(var1);
             var1 = -1;
             var1 = var1 !== var4;
-            if(!var1) { _fun0017_ip = 55; continue _fun0017 }
+            if(!var1) { _fun0017_ip = 54; continue _fun0017 }
 case 21:
             var3 = var2.newMemberActions;
             var2 = {};
@@ -660,9 +660,9 @@ case 21:
             var5 = copyDataProperties(var7, var6);
             var3[var4] = var2;
             var1 = true;
-case 55:
+case 54:
             return var1;
-case 53:
+case 52:
             var1 = false;
             return var1;
         }
@@ -677,7 +677,7 @@ case 0:
             var3 = var1.id;
             var4 = var4[var3];
             var3 = null;
-            if(!(var3 != var4)) { _fun0018_ip = 56; continue _fun0018 }
+            if(!(var3 != var4)) { _fun0018_ip = 33; continue _fun0018 }
 case 47:
             var4 = _closure1_slot7;
             var3 = var1.id;
@@ -687,7 +687,7 @@ case 47:
             var1 = delete var2[var1];
             var1 = undefined;
             return var1;
-case 56:
+case 33:
             var1 = false;
             return var1;
         }

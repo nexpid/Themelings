@@ -370,7 +370,7 @@ case 39:
                     var6 = var4 != var5;
                     var4 = 'compact';
                     if(!var6) { _fun0006_ip = 41; continue _fun0006 }
-case 28:
+case 4:
                     var4 = var5;
 case 41:
                     var1['density'] = var4;

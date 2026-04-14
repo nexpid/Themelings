@@ -997,15 +997,15 @@ case 0:
             var4 = var4.bind(var7)(var2);
             var2 = var4.isCacheEnabled;
             var2 = var2.bind(var4)();
-            if(var2) { _fun0012_ip = 115; continue _fun0012 }
-case 116:
+            if(var2) { _fun0012_ip = 9; continue _fun0012 }
+case 115:
             var2 = global;
             var6 = var2.Promise;
             var4 = var6.resolve;
             var2 = {};
             var6 = var4.bind(var6)(var2);
-            _fun0012_ip = 117; continue _fun0012;
-case 115:
+            _fun0012_ip = 116; continue _fun0012;
+case 9:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 3;
@@ -1013,15 +1013,15 @@ case 115:
             var4 = var4.bind(var7)(var2);
             var2 = var4.getCommittedVersions;
             var6 = var2.bind(var4)();
-case 117:
+case 116:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var5];
             var4 = var4.bind(var7)(var2);
             var2 = var4.isCacheEnabled;
             var2 = var2.bind(var4)();
-            if(var2) { _fun0012_ip = 118; continue _fun0012 }
-case 119:
+            if(var2) { _fun0012_ip = 117; continue _fun0012 }
+case 118:
             var2 = global;
             var5 = var2.Promise;
             var4 = var5.resolve;
@@ -1032,8 +1032,8 @@ case 119:
             var2 = new var10[var2](var9);
             var2 = var2 instanceof Object ? var2 : var8;
             var5 = var4.bind(var5)(var2);
-            _fun0012_ip = 120; continue _fun0012;
-case 118:
+            _fun0012_ip = 119; continue _fun0012;
+case 117:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 4;
@@ -1041,17 +1041,17 @@ case 118:
             var4 = var4.bind(var7)(var2);
             var2 = var4.getGuildIds;
             var5 = var2.bind(var4)();
-case 120:
+case 119:
             var2 = null;
-            if(!(var2 == var3)) { _fun0012_ip = 121; continue _fun0012 }
-case 122:
+            if(!(var2 == var3)) { _fun0012_ip = 120; continue _fun0012 }
+case 121:
             var2 = global;
             var8 = var2.Promise;
             var4 = var8.resolve;
             var2 = false;
             var4 = var4.bind(var8)(var2);
-            _fun0012_ip = 123; continue _fun0012;
-case 121:
+            _fun0012_ip = 122; continue _fun0012;
+case 120:
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
             var1 = 5;
@@ -1059,7 +1059,7 @@ case 121:
             var2 = var2.bind(var7)(var1);
             var1 = var2.okAsync;
             var4 = var1.bind(var2)(var3);
-case 123:
+case 122:
             var1 = global;
             var3 = var1.Promise;
             var2 = var3.all;
@@ -1080,36 +1080,36 @@ case 0:
                     var8 = undefined;
                     var5 = var3 === var8;
                     var4 = undefined;
-                    if(var5) { _fun0013_ip = 124; continue _fun0013 }
-case 125:
-                    var4 = var2;
+                    if(var5) { _fun0013_ip = 123; continue _fun0013 }
 case 124:
+                    var4 = var2;
+case 123:
                     var3 = undefined;
-                    if(var5) { _fun0013_ip = 126; continue _fun0013 }
-case 127:
+                    if(var5) { _fun0013_ip = 125; continue _fun0013 }
+case 126:
                     var7 = var6().value;
                     var2 = var1;
                     var2 = var2 === var8;
                     var3 = undefined;
                     var5 = var2;
-                    if(var2) { _fun0013_ip = 126; continue _fun0013 }
+                    if(var2) { _fun0013_ip = 125; continue _fun0013 }
 case 108:
                     var3 = var7;
                     var5 = var2;
-case 126:
+case 125:
                     var2 = undefined;
-                    if(var5) { _fun0013_ip = 115; continue _fun0013 }
+                    if(var5) { _fun0013_ip = 127; continue _fun0013 }
 case 128:
                     var7 = var6().value;
                     var6 = var1;
                     var6 = var6 === var8;
                     var2 = undefined;
                     var5 = var6;
-                    if(var6) { _fun0013_ip = 115; continue _fun0013 }
+                    if(var6) { _fun0013_ip = 127; continue _fun0013 }
 case 129:
                     var2 = var7;
                     var5 = var6;
-case 115:
+case 127:
                     if(var5) { _fun0013_ip = 80; continue _fun0013 }
 case 106:
                     var1.return();

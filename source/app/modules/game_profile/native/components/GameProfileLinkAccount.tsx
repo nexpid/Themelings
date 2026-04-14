@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.application;
+            var2 = var1.application;
             var11 = var1.trackAction;
             var _closure2_slot0 = var11;
             var9 = var1.analyticsLocations;
@@ -154,19 +154,19 @@ case 0:
             var1 = _closure1_slot8;
             var4 = undefined;
             var19 = var1.bind(var4)();
-            var7 = _closure1_slot0;
+            var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var1 = 6;
             var1 = var8[var1];
-            var2 = var7.bind(var4)(var1);
-            var1 = var2.useStartAuthorize;
-            var6 = var1.bind(var2)(var3);
+            var1 = var3.bind(var4)(var1);
+            var6 = var1.bind(var4)(var2);
             var3 = var6.fetched;
             var1 = var6.hasAlreadyLinked;
             var2 = var6.canStartAuthorization;
             var10 = var6.startAuthorization;
             var _closure2_slot2 = var10;
             var24 = var6.connectionApp;
+            var7 = _closure1_slot0;
             var6 = 7;
             var6 = var8[var6];
             var12 = var7.bind(var4)(var6);

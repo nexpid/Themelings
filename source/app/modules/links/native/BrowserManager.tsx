@@ -661,14 +661,14 @@ case 45:
             var8 = _closure1_slot6;
             var1 = var8.openAppStoreInline;
             var1 = var1.bind(var8)(var6, var5);
-            _fun0010_ip = 21; continue _fun0010;
+            _fun0010_ip = 55; continue _fun0010;
 case 53:
             var9 = var4.Promise;
             var8 = var9.resolve;
             var4 = false;
             var1 = var8.bind(var9)(var4);
-case 21:
-            _fun0010_ip = 55; continue _fun0010;
+case 55:
+            _fun0010_ip = 56; continue _fun0010;
 case 51:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -688,7 +688,7 @@ case 0:
                     var4 = _closure2_slot0;
                     var2 = null;
                     if(!(var2 != var4)) { _fun0011_ip = 13; continue _fun0011 }
-case 56:
+case 57:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
@@ -698,7 +698,7 @@ case 13:
                 }
             };
             var1 = var3.bind(var4)(var6, var5, var2);
-case 55:
+case 56:
             return var1;
         }
     };

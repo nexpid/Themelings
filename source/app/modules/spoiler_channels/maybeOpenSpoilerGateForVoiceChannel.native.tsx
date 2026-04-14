@@ -48,7 +48,7 @@ case 3:
             var3 = var3[var1];
             var1 = undefined;
             var3 = var5.bind(var1)(var3);
-            var1 = var3.shouldShowSpoilerGateForVoiceChannel;
+            var1 = var3.shouldShowSpoilerGateForChannelId;
             var1 = var1.bind(var3)(var4);
             var2 = !var1;
 case 2:

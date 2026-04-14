@@ -273,69 +273,103 @@ case 35:
     var1 = function getQuestDeliveryDataForPlacement(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var3 = arg1;
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
+            var4 = arg1;
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
             var2 = 6;
-            var4 = var4[var2];
-            var2 = undefined;
-            var5 = var5.bind(var2)(var4);
-            var4 = var5.getConfig;
+            var2 = var8[var2];
+            var7 = undefined;
+            var5 = var3.bind(var7)(var2);
+            var3 = var5.getConfig;
             var2 = {};
             var6 = 'getQuestDeliveryDataForPlacement';
             var2['location'] = var6;
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.enableNewRequestBehavior;
-            var1 = _closure1_slot4;
-            if(var2) { _fun0004_ip = 36; continue _fun0004 }
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.enableNewRequestBehavior;
+            var2 = _closure1_slot4;
+            var5 = var2.questAdDecisionByPlacement;
+            var2 = var5.get;
+            var2 = var2.bind(var5)(var4);
+            var6 = _closure1_slot0;
+            var5 = 4;
+            var5 = var8[var5];
+            var5 = var6.bind(var7)(var5);
+            var5 = var5.QuestPlacement;
+            var5 = var5.QUEST_HOME_BANNER_DESKTOP;
+            if(!(var4 === var5)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-            var4 = var1.questToDeliverForPlacement;
-            var2 = var4.get;
-            var5 = var2.bind(var4)(var3);
-            var2 = null;
-            var4 = var2 == var5;
-            if(var4) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
-            var4 = {};
-            var6 = var5.quest;
-            var6 = var6.id;
-            var4['questId'] = var6;
-            var6 = var5.adDecisionData;
-            var4['adDecisionData'] = var6;
-            var6 = var5.adContext;
-            var4['adContext'] = var6;
-            var6 = var5.metadataSealed;
-            var4['metadataSealed'] = var6;
-            var6 = var5.trafficMetadataRaw;
-            var4['trafficMetadataRaw'] = var6;
-            var5 = var5.trafficMetadataSealed;
-            var4['trafficMetadataSealed'] = var5;
-            var2 = var4;
-case 38:
-            return var2;
+            var5 = null;
+            if(!(var5 == var2)) { _fun0004_ip = 38; continue _fun0004 }
 case 36:
-            var2 = var1.questAdDecisionByPlacement;
-            var1 = var2.get;
-            var3 = var1.bind(var2)(var3);
+            if(var3) { _fun0004_ip = 23; continue _fun0004 }
+case 39:
+            var1 = _closure1_slot4;
+            var3 = var1.questToDeliverForPlacement;
+            var1 = var3.get;
+            var4 = var1.bind(var3)(var4);
             var1 = null;
-            var2 = var1 == var3;
-            if(var2) { _fun0004_ip = 40; continue _fun0004 }
+            var3 = var1 == var4;
+            if(var3) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
-            var2 = {};
-            var4 = var3.questId;
-            var2['questId'] = var4;
-            var4 = var3.adDecisionData;
-            var2['adDecisionData'] = var4;
-            var4 = var3.adContext;
-            var2['adContext'] = var4;
-            var4 = var3.metadataSealed;
-            var2['metadataSealed'] = var4;
-            var4 = var3.trafficMetadataRaw;
-            var2['trafficMetadataRaw'] = var4;
-            var3 = var3.trafficMetadataSealed;
-            var2['trafficMetadataSealed'] = var3;
-            var1 = var2;
+            var3 = {};
+            var5 = var4.quest;
+            var5 = var5.id;
+            var3['questId'] = var5;
+            var5 = var4.quest;
+            var5 = var5.id;
+            var3['adCreativeId'] = var5;
+            var5 = var4.adDecisionData;
+            var3['adDecisionData'] = var5;
+            var5 = var4.adContext;
+            var3['adContext'] = var5;
+            var5 = var4.metadataSealed;
+            var3['metadataSealed'] = var5;
+            var5 = var4.trafficMetadataRaw;
+            var3['trafficMetadataRaw'] = var5;
+            var4 = var4.trafficMetadataSealed;
+            var3['trafficMetadataSealed'] = var4;
+            var1 = var3;
 case 40:
+            return var1;
+case 23:
+            var1 = null;
+            var3 = var1 == var2;
+            if(var3) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
+            var3 = {};
+            var4 = var2.questId;
+            var3['questId'] = var4;
+            var4 = var2.adCreativeId;
+            var3['adCreativeId'] = var4;
+            var4 = var2.adDecisionData;
+            var3['adDecisionData'] = var4;
+            var4 = var2.adContext;
+            var3['adContext'] = var4;
+            var4 = var2.metadataSealed;
+            var3['metadataSealed'] = var4;
+            var4 = var2.trafficMetadataRaw;
+            var3['trafficMetadataRaw'] = var4;
+            var4 = var2.trafficMetadataSealed;
+            var3['trafficMetadataSealed'] = var4;
+            var1 = var3;
+case 42:
+            return var1;
+case 38:
+            var1 = {};
+            var3 = var2.questId;
+            var1['questId'] = var3;
+            var3 = var2.adCreativeId;
+            var1['adCreativeId'] = var3;
+            var3 = var2.adDecisionData;
+            var1['adDecisionData'] = var3;
+            var3 = var2.adContext;
+            var1['adContext'] = var3;
+            var3 = var2.metadataSealed;
+            var1['metadataSealed'] = var3;
+            var3 = var2.trafficMetadataRaw;
+            var1['trafficMetadataRaw'] = var3;
+            var2 = var2.trafficMetadataSealed;
+            var1['trafficMetadataSealed'] = var2;
             return var1;
         }
     };
@@ -386,7 +420,7 @@ case 0:
             var1 = null;
             var1 = var1 != var2;
             if(!var1) { _fun0005_ip = 5; continue _fun0005 }
-case 42:
+case 44:
             var3 = var2.fetchedAt;
             var2 = var2.ttlMillis;
             var3 = var3 + var2;
@@ -411,8 +445,8 @@ case 0:
             var3 = var4.isArray;
             var3 = var3.bind(var4)(var9);
             var5 = var9;
-            if(!var3) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+            if(!var3) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var8 = var2.Map;
             var4 = var9.map;
             var3 = function(arg1) {
@@ -429,13 +463,13 @@ case 44:
             var11 = var4;
             var3 = new var11[var8](var10, var9);
             var5 = var3 instanceof Object ? var3 : var4;
-case 43:
+case 45:
             var4 = var2.Array;
             var3 = var4.isArray;
             var3 = var3.bind(var4)(var7);
             var4 = var7;
-            if(!var3) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+            if(!var3) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var3 = var2.Map;
             var2 = var7.map;
             var1 = function(arg1) {
@@ -452,29 +486,29 @@ case 46:
             var11 = var2;
             var1 = new var11[var3](var10, var9);
             var4 = var1 instanceof Object ? var1 : var2;
-case 45:
+case 47:
             var1 = var5.get;
             var1 = var1.bind(var5)(var6);
             var3 = null;
-            if(!(var3 == var1)) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+            if(!(var3 == var1)) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
             var2 = var4.get;
             var6 = var2.bind(var4)(var6);
             var7 = var3 == var6;
             var4 = undefined;
-            if(var7) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+            if(var7) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
             var4 = var6.replacementId;
-case 49:
+case 51:
             var3 = var3 != var4;
             var2 = undefined;
-            if(!var3) { _fun0006_ip = 51; continue _fun0006 }
-case 52:
+            if(!var3) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
             var3 = var5.get;
             var2 = var3.bind(var5)(var4);
-case 51:
+case 53:
             return var2;
-case 47:
+case 49:
             return var1;
         }
     };
@@ -487,11 +521,11 @@ case 0:
             var2 = _closure1_slot11;
             var4 = undefined;
             var2 = var2.bind(var4)(var5);
-            if(var2) { _fun0007_ip = 53; continue _fun0007 }
+            if(var2) { _fun0007_ip = 55; continue _fun0007 }
 case 29:
             var2 = false;
             return var2;
-case 53:
+case 55:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -520,11 +554,11 @@ case 0:
             var3 = _closure1_slot12;
             var2 = undefined;
             var2 = var3.bind(var2)(var1);
-            if(var2) { _fun0008_ip = 53; continue _fun0008 }
+            if(var2) { _fun0008_ip = 55; continue _fun0008 }
 case 29:
             var2 = false;
             return var2;
-case 53:
+case 55:
             var2 = global;
             var4 = var2.Date;
             var3 = var4.now;
@@ -545,11 +579,11 @@ case 53:
             var4 = var1.expiresAt;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+            if(!var1) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
             var2 = var2 <= var3;
             var1 = !var2;
-case 54:
+case 56:
             return var1;
         }
     };
@@ -571,7 +605,7 @@ case 0:
             var4 = var1;
             var3 = null;
             var1 = null;
-            if(var2) { _fun0009_ip = 48; continue _fun0009 }
+            if(var2) { _fun0009_ip = 50; continue _fun0009 }
 case 4:
             var2 = var4.value;
             var11 = var9.Date;
@@ -585,26 +619,26 @@ case 4:
             var2 = var10.valueOf;
             var2 = var2.bind(var10)();
             var10 = var3;
-            if(!(!(var2 <= var8))) { _fun0009_ip = 56; continue _fun0009 }
-case 57:
-            var11 = var5 == var3;
-            if(var11) { _fun0009_ip = 58; continue _fun0009 }
+            if(!(!(var2 <= var8))) { _fun0009_ip = 58; continue _fun0009 }
 case 59:
-            var11 = var2 < var3;
-case 58:
-            if(!var11) { _fun0009_ip = 60; continue _fun0009 }
+            var11 = var5 == var3;
+            if(var11) { _fun0009_ip = 60; continue _fun0009 }
 case 61:
-            var3 = var2;
+            var11 = var2 < var3;
 case 60:
+            if(!var11) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
+            var3 = var2;
+case 62:
             var10 = var3;
-case 56:
+case 58:
             var11 = var6.bind(var7)();
             var2 = var11.done;
             var3 = var10;
             var4 = var11;
             var1 = var3;
             if(!var2) { _fun0009_ip = 4; continue _fun0009 }
-case 48:
+case 50:
             return var1;
         }
     };
@@ -615,18 +649,18 @@ case 0:
             var4 = arg1;
             var5 = arguments[1];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0010_ip = 62; continue _fun0010 }
-case 42:
+            if(!(var5 === var1)) { _fun0010_ip = 64; continue _fun0010 }
+case 44:
             var1 = {};
             var2 = 'short';
             var1['dateStyle'] = var2;
             var5 = var1;
-case 62:
+case 64:
             var1 = null;
             var2 = var1 == var4;
             var1 = '';
-            if(var2) { _fun0010_ip = 63; continue _fun0010 }
-case 64:
+            if(var2) { _fun0010_ip = 65; continue _fun0010 }
+case 66:
             var2 = global;
             var2 = var2.Date;
             var3 = var2.prototype;
@@ -639,7 +673,7 @@ case 64:
             var2 = _closure1_slot3;
             var2 = var2.locale;
             var1 = var3.bind(var4)(var2, var5);
-case 63:
+case 65:
             return var1;
         }
     };
@@ -653,11 +687,11 @@ case 0:
             var1 = arg3;
             var2 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var1 == var2)) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+            if(!(var1 == var2)) { _fun0011_ip = 67; continue _fun0011 }
+case 68:
             var3 = undefined;
             return var3;
-case 65:
+case 67:
             var3 = var4.get;
             var2 = var2.quest;
             var2 = var2.id;
@@ -665,15 +699,15 @@ case 65:
             var3 = var1 == var2;
             var4 = undefined;
             var1 = undefined;
-            if(var3) { _fun0011_ip = 67; continue _fun0011 }
+            if(var3) { _fun0011_ip = 69; continue _fun0011 }
 case 7:
             var3 = _closure1_slot12;
             var3 = var3.bind(var4)(var2);
             var1 = undefined;
-            if(var3) { _fun0011_ip = 67; continue _fun0011 }
-case 68:
+            if(var3) { _fun0011_ip = 69; continue _fun0011 }
+case 70:
             var1 = var2;
-case 67:
+case 69:
             return var1;
         }
     };
@@ -688,12 +722,12 @@ case 0:
             var4 = var4.bind(var3)(var1);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0012_ip = 69; continue _fun0012 }
-case 62:
+            if(!var1) { _fun0012_ip = 71; continue _fun0012 }
+case 64:
             var3 = _closure1_slot6;
             var2 = var3.has;
             var1 = var2.bind(var3)(var4);
-case 69:
+case 71:
             return var1;
         }
     };
@@ -701,30 +735,35 @@ case 69:
     var4 = function getAdDecisionData(arg1, arg2) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
+            var4 = arg1;
             var3 = _closure1_slot13;
-            var5 = undefined;
+            var6 = undefined;
             var2 = arg2;
-            var4 = var3.bind(var5)(var2);
-            var3 = null;
-            if(!(var3 != var4)) { _fun0013_ip = 30; continue _fun0013 }
-case 31:
-            var2 = _closure1_slot14;
-            var4 = var2.bind(var5)(var4);
-            if(!(var3 == var4)) { _fun0013_ip = 70; continue _fun0013 }
-case 71:
-            var4 = {};
-case 70:
-            var2 = var4.adDecisionData;
-            var4 = var4.questId;
-            if(!(var3 != var2)) { _fun0013_ip = 7; continue _fun0013 }
-case 72:
-            var3 = arg1;
-            if(!(var4 !== var3)) { _fun0013_ip = 73; continue _fun0013 }
-case 7:
-            var2 = _closure1_slot7;
+            var5 = var3.bind(var6)(var2);
+            var2 = null;
+            if(!(var2 != var5)) { _fun0013_ip = 72; continue _fun0013 }
+case 64:
+            var3 = _closure1_slot14;
+            var3 = var3.bind(var6)(var5);
+            if(!(var2 == var3)) { _fun0013_ip = 73; continue _fun0013 }
+case 66:
+            var3 = {};
 case 73:
+            var5 = var3.adDecisionData;
+            var6 = var3.questId;
+            var3 = var3.adCreativeId;
+            if(!(var2 != var5)) { _fun0013_ip = 74; continue _fun0013 }
+case 75:
+            var2 = var5;
+            if(!(var6 !== var4)) { _fun0013_ip = 69; continue _fun0013 }
+case 35:
+            var2 = var5;
+            if(!(var3 !== var4)) { _fun0013_ip = 69; continue _fun0013 }
+case 74:
+            var2 = _closure1_slot7;
+case 69:
             return var2;
-case 30:
+case 72:
             var1 = _closure1_slot7;
             return var1;
         }
@@ -738,16 +777,16 @@ case 0:
             var3 = arg1;
             var4 = var4.bind(var1)(var3);
             var3 = null;
-            if(!(var3 == var4)) { _fun0014_ip = 66; continue _fun0014 }
+            if(!(var3 == var4)) { _fun0014_ip = 68; continue _fun0014 }
 case 31:
             return var1;
-case 66:
+case 68:
             var2 = _closure1_slot14;
             var2 = var2.bind(var1)(var4);
             var3 = var3 == var2;
             var1 = undefined;
             if(var3) { _fun0014_ip = 5; continue _fun0014 }
-case 74:
+case 76:
             var1 = var2.metadataSealed;
 case 5:
             return var1;
@@ -764,21 +803,21 @@ case 0:
             var5 = var4.bind(var2)(var1);
             var4 = null;
             if(!(var4 != var5)) { _fun0015_ip = 7; continue _fun0015 }
-case 62:
+case 64:
             var1 = _closure1_slot14;
             var5 = var1.bind(var2)(var5);
-            if(!(var4 == var5)) { _fun0015_ip = 75; continue _fun0015 }
-case 64:
+            if(!(var4 == var5)) { _fun0015_ip = 73; continue _fun0015 }
+case 66:
             var5 = {};
-case 75:
+case 73:
             var1 = var5.trafficMetadataRaw;
             var5 = var5.questId;
             if(!(var4 != var1)) { _fun0015_ip = 7; continue _fun0015 }
-case 76:
-            if(!(var5 !== var6)) { _fun0015_ip = 77; continue _fun0015 }
+case 77:
+            if(!(var5 !== var6)) { _fun0015_ip = 78; continue _fun0015 }
 case 7:
             if(!(var4 == var6)) { _fun0015_ip = 30; continue _fun0015 }
-case 73:
+case 79:
             return var2;
 case 30:
             var5 = _closure1_slot4;
@@ -786,12 +825,12 @@ case 30:
             var3 = var3.bind(var5)(var6);
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0015_ip = 78; continue _fun0015 }
-case 79:
+            if(var4) { _fun0015_ip = 80; continue _fun0015 }
+case 81:
             var2 = var3.trafficMetadataRaw;
-case 78:
+case 80:
             return var2;
-case 77:
+case 78:
             return var1;
         }
     };
@@ -806,21 +845,21 @@ case 0:
             var5 = var4.bind(var2)(var1);
             var4 = null;
             if(!(var4 != var5)) { _fun0016_ip = 7; continue _fun0016 }
-case 62:
+case 64:
             var1 = _closure1_slot14;
             var5 = var1.bind(var2)(var5);
-            if(!(var4 == var5)) { _fun0016_ip = 75; continue _fun0016 }
-case 64:
+            if(!(var4 == var5)) { _fun0016_ip = 73; continue _fun0016 }
+case 66:
             var5 = {};
-case 75:
+case 73:
             var1 = var5.trafficMetadataSealed;
             var5 = var5.questId;
             if(!(var4 != var1)) { _fun0016_ip = 7; continue _fun0016 }
-case 76:
-            if(!(var5 !== var6)) { _fun0016_ip = 77; continue _fun0016 }
+case 77:
+            if(!(var5 !== var6)) { _fun0016_ip = 78; continue _fun0016 }
 case 7:
             if(!(var4 == var6)) { _fun0016_ip = 30; continue _fun0016 }
-case 73:
+case 79:
             return var2;
 case 30:
             var5 = _closure1_slot4;
@@ -828,12 +867,12 @@ case 30:
             var3 = var3.bind(var5)(var6);
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0016_ip = 78; continue _fun0016 }
-case 79:
+            if(var4) { _fun0016_ip = 80; continue _fun0016 }
+case 81:
             var2 = var3.trafficMetadataSealed;
-case 78:
+case 80:
             return var2;
-case 77:
+case 78:
             return var1;
         }
     };
@@ -846,16 +885,16 @@ case 0:
             var3 = arg1;
             var4 = var4.bind(var1)(var3);
             var3 = null;
-            if(!(var3 == var4)) { _fun0017_ip = 66; continue _fun0017 }
+            if(!(var3 == var4)) { _fun0017_ip = 68; continue _fun0017 }
 case 31:
             return var1;
-case 66:
+case 68:
             var2 = _closure1_slot14;
             var2 = var2.bind(var1)(var4);
             var3 = var3 == var2;
             var1 = undefined;
             if(var3) { _fun0017_ip = 5; continue _fun0017 }
-case 74:
+case 76:
             var1 = var2.adContext;
 case 5:
             return var1;
@@ -881,10 +920,10 @@ case 0:
             var2 = null;
             var8 = var2 == var7;
             var2 = undefined;
-            if(var8) { _fun0018_ip = 73; continue _fun0018 }
-case 80:
+            if(var8) { _fun0018_ip = 79; continue _fun0018 }
+case 82:
             var2 = var7.tags;
-case 73:
+case 79:
             var10 = var6;
             var9 = var2;
             var2 = copyDataProperties(var10, var9);

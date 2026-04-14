@@ -815,6 +815,8 @@ case 73:
             var7 = new var10[var7](var9, var8);
             var7 = var7 instanceof Object ? var7 : var8;
             var2['includedPlatformTypes'] = var7;
+            var7 = false;
+            var2['includeApplicationConnections'] = var7;
             var2 = var4.bind(var5)(var2);
             return var3;
 case 72:

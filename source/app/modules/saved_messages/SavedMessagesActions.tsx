@@ -182,13 +182,13 @@ case 17:
                     var7 = false;
                     var2['rejectWithError'] = var7;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=114);
-case 19:
+                    SaveGenerator(address=113);
+case 4:
                     return var2;
-case 20:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                    if(var5) { _fun0003_ip = 19; continue _fun0003 }
+case 7:
                     var5 = var2.body;
                     var7 = var5.results;
                     var6 = var7.map;
@@ -200,8 +200,8 @@ case 0:
                             var4 = var2.message;
                             var3 = null;
                             var4 = var3 != var4;
-                            if(!var4) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+                            if(!var4) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                             var6 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var4 = 5;
@@ -211,7 +211,7 @@ case 24:
                             var5 = var6.createMessageRecord;
                             var4 = var2.message;
                             var3 = var5.bind(var6)(var4);
-case 23:
+case 20:
                             var1['message'] = var3;
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
@@ -239,7 +239,7 @@ case 23:
                     var4['savedMessages'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 21:
+case 19:
                     return var2;
 case 16:
                     return var1;

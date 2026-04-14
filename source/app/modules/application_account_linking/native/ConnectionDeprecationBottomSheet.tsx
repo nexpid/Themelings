@@ -1,0 +1,694 @@
+// app/modules/application_account_linking/native/ConnectionDeprecationBottomSheet.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var6;
+    var1 = function ConnectionIcon(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var5 = var1.platform;
+            var7 = var1.theme;
+            var1 = _closure1_slot10;
+            var4 = undefined;
+            var8 = var1.bind(var4)();
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 28;
+            var1 = var6[var1];
+            var2 = var3.bind(var4)(var1);
+            var1 = var2.isThemeDark;
+            var1 = var1.bind(var2)(var7);
+            var2 = 29;
+            var2 = var6[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.makeSource;
+            var5 = var5.icon;
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = var5.lightPNG;
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            var1 = var5.darkPNG;
+case 4:
+            var9 = var2.bind(var3)(var1);
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var8.iconContainer;
+            var1['style'] = var5;
+            var7 = _closure1_slot8;
+            var6 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var10 = 30;
+            var5 = var12[var10];
+            var6 = var6.bind(var4)(var5);
+            var5 = {};
+            var11 = _closure1_slot0;
+            var10 = var12[var10];
+            var10 = var11.bind(var4)(var10);
+            var10 = var10.IconSizes;
+            var10 = var10.CUSTOM;
+            var5['size'] = var10;
+            var5['source'] = var9;
+            var9 = true;
+            var5['disableColor'] = var9;
+            var8 = var8.connectionIcon;
+            var5['style'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var1;
+    var1 = function ApplicationIcon(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = arg1;
+            var12 = var1.application;
+            var1 = _closure1_slot10;
+            var4 = undefined;
+            var5 = var1.bind(var4)();
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var5.iconContainer;
+            var1['style'] = var5;
+            var5 = null;
+            var6 = var5 != var12;
+            if(!var6) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+            var8 = _closure1_slot8;
+            var7 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var9 = 31;
+            var6 = var11[var9];
+            var7 = var7.bind(var4)(var6);
+            var6 = {};
+            var6['game'] = var12;
+            var10 = _closure1_slot0;
+            var9 = var11[var9];
+            var9 = var10.bind(var4)(var9);
+            var9 = var9.GameIconSizes;
+            var9 = var9.NORMAL;
+            var6['size'] = var9;
+            var5 = var8.bind(var4)(var7, var6);
+case 5:
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot12 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserSettingsSections;
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ContentDismissActionType;
+    var _closure1_slot7 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot8 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var10 = 'center';
+    var9 = {'width': 56, 'height': 56, 'alignItems': 'center', 'justifyContent': 'center'};
+    var4['iconContainer'] = var9;
+    var9 = {};
+    var11 = 8;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_16;
+    var9['paddingHorizontal'] = var11;
+    var4['content'] = var9;
+    var9 = {};
+    var9['textAlign'] = var10;
+    var4['text'] = var9;
+    var9 = {'height': 48, 'width': 48};
+    var4['connectionIcon'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot10 = var4;
+    var4 = 33;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/application_account_linking/native/ConnectionDeprecationBottomSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function ConnectionDeprecationBottomSheet(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.platformTypes;
+            var _closure2_slot0 = var2;
+            var28 = var1.applicationName;
+            var1 = var1.markAsDismissed;
+            var _closure2_slot1 = var1;
+            var4 = undefined;
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var1 = _closure1_slot10;
+            var23 = var1.bind(var4)();
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 9;
+            var1 = var2[var1];
+            var5 = var3.bind(var4)(var1);
+            var1 = var5.useThemeContext;
+            var1 = var1.bind(var5)();
+            var24 = var1.theme;
+            var5 = _closure1_slot1;
+            var1 = 10;
+            var1 = var2[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var10 = var1.bottom;
+            var1 = 11;
+            var2 = var2[var1];
+            var6 = var3.bind(var4)(var2);
+            var5 = var6.useStateFromStores;
+            var2 = _closure1_slot5;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var2 = _closure1_slot5;
+                    var1 = var2.getAccounts;
+                    var3 = var1.bind(var2)();
+                    var2 = var3.find;
+                    var1 = function(arg1) {
+                        var3 = _closure2_slot0;
+                        var2 = var3.includes;
+                        var1 = arg1;
+                        var1 = var1.type;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
+                    };
+                    var2 = var2.bind(var3)(var1);
+                    var1 = null;
+                    var3 = var1 == var2;
+                    var1 = undefined;
+                    if(var3) { _fun0004_ip = 7; continue _fun0004 }
+case 8:
+                    var1 = var2.type;
+case 7:
+                    return var1;
+                }
+            };
+            var6 = var5.bind(var6)(var3, var2);
+            var5 = null;
+            var2 = var5 != var6;
+            var29 = null;
+            if(!var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 12;
+            var2 = var7[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.get;
+            var29 = var2.bind(var3)(var6);
+case 9:
+            var3 = var5 == var29;
+            var2 = undefined;
+            if(var3) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            var2 = var29.replacedBy;
+case 11:
+            _closure2_slot2 = var2;
+            var2 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = var6[var1];
+            var7 = var2.bind(var4)(var1);
+            var3 = var7.useStateFromStores;
+            var1 = _closure1_slot4;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                var3 = _closure1_slot4;
+                var2 = var3.getApplication;
+                var1 = _closure2_slot2;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var22 = var3.bind(var7)(var2, var1);
+            var3 = _closure1_slot1;
+            var1 = 13;
+            var1 = var6[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.bind(var4)(var22);
+            var1 = var1.startAuthorization;
+            _closure2_slot3 = var1;
+            var1 = 14;
+            var1 = var6[var1];
+            var2 = var3.bind(var4)(var1);
+            var1 = 15;
+            var1 = var6[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.ACTION_SHEET;
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.analyticsLocations;
+            _closure2_slot4 = var1;
+            if(!(var5 != var29)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            if(!(var5 != var22)) { _fun0003_ip = 13; continue _fun0003 }
+case 15:
+            var15 = function handleDismiss() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 16;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var4 = var4.bind(var1)(var3);
+                    var3 = var4.hideActionSheet;
+                    var3 = var3.bind(var4)();
+                    var5 = _closure2_slot1;
+                    var4 = null;
+                    if(!(var4 != var5)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
+                    var3 = _closure2_slot1;
+                    var2 = _closure1_slot7;
+                    var2 = var2.DISMISS;
+                    var2 = var3.bind(var1)(var2);
+case 16:
+                    return var1;
+                }
+            };
+            if(!(var5 == var28)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+            var28 = var22.name;
+case 18:
+            var3 = _closure1_slot8;
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var1 = 17;
+            var1 = var20[var1];
+            var1 = var19.bind(var4)(var1);
+            var2 = var1.BottomSheetTitleHeader;
+            var1 = {};
+            var1['title'] = var5;
+            var7 = _closure1_slot8;
+            var5 = 18;
+            var5 = var20[var5];
+            var5 = var19.bind(var4)(var5);
+            var6 = var5.ActionSheetCloseButton;
+            var5 = {};
+            var5['onPress'] = var15;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['leading'] = var5;
+            var5 = var3.bind(var4)(var2, var1);
+            var3 = _closure1_slot8;
+            var1 = 19;
+            var1 = var20[var1];
+            var1 = var19.bind(var4)(var1);
+            var2 = var1.BottomSheet;
+            var1 = {};
+            var6 = true;
+            var1['startExpanded'] = var6;
+            var6 = var23.content;
+            var1['contentStyles'] = var6;
+            var1['header'] = var5;
+            var5 = function onDismiss() {
+                var3 = _closure2_slot1;
+                var1 = _closure1_slot7;
+                var2 = var1.DISMISS;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var1['onDismiss'] = var5;
+            var7 = _closure1_slot9;
+            var9 = 20;
+            var5 = var20[var9];
+            var5 = var19.bind(var4)(var5);
+            var6 = var5.Stack;
+            var5 = {};
+            var21 = 24;
+            var5['spacing'] = var21;
+            var8 = {};
+            var8['paddingBottom'] = var10;
+            var5['style'] = var8;
+            var8 = var20[var9];
+            var8 = var19.bind(var4)(var8);
+            var10 = var8.Stack;
+            var8 = {'justify': 'center', 'align': 'center', 'direction': 'horizontal'};
+            var12 = 'center';
+            var16 = _closure1_slot8;
+            var14 = _closure1_slot11;
+            var11 = {};
+            var11['theme'] = var24;
+            var11['platform'] = var29;
+            var14 = var16.bind(var4)(var14, var11);
+            var11 = new Array(3);
+            var11[0] = var14;
+            var17 = _closure1_slot8;
+            var14 = 21;
+            var14 = var20[var14];
+            var14 = var19.bind(var4)(var14);
+            var16 = var14.UnionIcon;
+            var14 = {};
+            var14['theme'] = var24;
+            var14 = var17.bind(var4)(var16, var14);
+            var11[1] = var14;
+            var17 = _closure1_slot8;
+            var16 = _closure1_slot12;
+            var14 = {};
+            var14['application'] = var22;
+            var14 = var17.bind(var4)(var16, var14);
+            var11[2] = var14;
+            var8['children'] = var11;
+            var10 = var7.bind(var4)(var10, var8);
+            var8 = new Array(3);
+            var8[0] = var10;
+            var10 = var20[var9];
+            var10 = var19.bind(var4)(var10);
+            var11 = var10.Stack;
+            var10 = {};
+            var10['justify'] = var12;
+            var22 = _closure1_slot8;
+            var14 = 22;
+            var12 = var20[var14];
+            var12 = var19.bind(var4)(var12);
+            var17 = var12.Text;
+            var12 = {};
+            var16 = 'heading-xl/bold';
+            var12['variant'] = var16;
+            var16 = var23.text;
+            var12['style'] = var16;
+            var16 = 23;
+            var24 = var20[var16];
+            var24 = var19.bind(var4)(var24);
+            var27 = var24.intl;
+            var26 = var27.string;
+            var25 = _closure1_slot1;
+            var24 = var20[var21];
+            var24 = var25.bind(var4)(var24);
+            var24 = var24.vycLU2;
+            var24 = var26.bind(var27)(var24);
+            var12['children'] = var24;
+            var17 = var22.bind(var4)(var17, var12);
+            var12 = new Array(2);
+            var12[0] = var17;
+            var22 = _closure1_slot8;
+            var14 = var20[var14];
+            var14 = var19.bind(var4)(var14);
+            var17 = var14.Text;
+            var14 = {};
+            var24 = 'text-md/medium';
+            var14['variant'] = var24;
+            var23 = var23.text;
+            var14['style'] = var23;
+            var23 = var20[var16];
+            var23 = var19.bind(var4)(var23);
+            var27 = var23.intl;
+            var26 = var27.format;
+            var23 = var20[var21];
+            var23 = var25.bind(var4)(var23);
+            var24 = var23.YnnXb6;
+            var23 = {};
+            var29 = var29.name;
+            var23['connectionName'] = var29;
+            var23['applicationName'] = var28;
+            var23 = var26.bind(var27)(var24, var23);
+            var14['children'] = var23;
+            var14 = var22.bind(var4)(var17, var14);
+            var12[1] = var14;
+            var10['children'] = var12;
+            var10 = var7.bind(var4)(var11, var10);
+            var8[1] = var10;
+            var9 = var20[var9];
+            var9 = var19.bind(var4)(var9);
+            var10 = var9.Stack;
+            var9 = {};
+            var17 = _closure1_slot8;
+            var12 = 25;
+            var11 = var20[var12];
+            var11 = var19.bind(var4)(var11);
+            var14 = var11.Button;
+            var11 = {};
+            var22 = var20[var16];
+            var22 = var19.bind(var4)(var22);
+            var23 = var22.intl;
+            var22 = var23.string;
+            var21 = var20[var21];
+            var21 = var25.bind(var4)(var21);
+            var21 = var21.ZeOhh9;
+            var21 = var22.bind(var23)(var21);
+            var11['text'] = var21;
+            var23 = _closure1_slot8;
+            var21 = 26;
+            var21 = var20[var21];
+            var21 = var19.bind(var4)(var21);
+            var22 = var21.WindowLaunchIcon;
+            var21 = {};
+            var24 = 'sm';
+            var21['size'] = var24;
+            var24 = 8;
+            var24 = var20[var24];
+            var24 = var25.bind(var4)(var24);
+            var24 = var24.colors;
+            var24 = var24.WHITE;
+            var21['color'] = var24;
+            var21 = var23.bind(var4)(var22, var21);
+            var11['icon'] = var21;
+            var21 = 'end';
+            var11['iconPosition'] = var21;
+            var21 = 'lg';
+            var11['size'] = var21;
+            var18 = function onPress() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 16;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.hideActionSheet;
+                    var2 = var2.bind(var3)();
+                    var4 = _closure2_slot1;
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
+                    var3 = _closure2_slot1;
+                    var2 = _closure1_slot7;
+                    var2 = var2.PRIMARY;
+                    var2 = var3.bind(var1)(var2);
+case 16:
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 27;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.openUserSettings;
+                    var2 = {};
+                    var5 = _closure1_slot6;
+                    var5 = var5.CONNECTIONS;
+                    var2['screen'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    var2 = global;
+                    var4 = var2.setTimeout;
+                    var3 = function() {
+                        var3 = _closure2_slot3;
+                        var2 = {};
+                        var1 = _closure2_slot4;
+                        var2['analyticsLocations'] = var1;
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+                        return var1;
+                    };
+                    var2 = 0;
+                    var2 = var4.bind(var1)(var3, var2);
+                    return var1;
+                }
+            };
+            var11['onPress'] = var18;
+            var14 = var17.bind(var4)(var14, var11);
+            var11 = new Array(2);
+            var11[0] = var14;
+            var14 = _closure1_slot8;
+            var12 = var20[var12];
+            var12 = var19.bind(var4)(var12);
+            var13 = var12.Button;
+            var12 = {'text': null, 'variant': 'secondary', 'size': 'lg'};
+            var17 = var20[var16];
+            var17 = var19.bind(var4)(var17);
+            var18 = var17.intl;
+            var17 = var18.string;
+            var16 = var20[var16];
+            var16 = var19.bind(var4)(var16);
+            var16 = var16.t;
+            var16 = var16.TulDPl;
+            var16 = var17.bind(var18)(var16);
+            var12['text'] = var16;
+            var12['onPress'] = var15;
+            var12 = var14.bind(var4)(var13, var12);
+            var11[1] = var12;
+            var9['children'] = var11;
+            var9 = var7.bind(var4)(var10, var9);
+            var8[2] = var9;
+            var5['children'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+case 13:
+            var1 = false;
+            return var1;
+        }
+    };
+    var3['default'] = var4;
+    var2 = function useShouldShowConnectionDeprecationBottomSheet(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var2 = arg1;
+            var2 = var2.deprecatedPlatformTypes;
+            var _closure2_slot0 = var2;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 11;
+            var3 = var6[var3];
+            var5 = undefined;
+            var8 = var4.bind(var5)(var3);
+            var7 = var8.useStateFromStoresObject;
+            var9 = _closure1_slot5;
+            var3 = new Array(1);
+            var3[0] = var9;
+            var1 = function() {
+                var1 = {};
+                var4 = _closure1_slot5;
+                var3 = var4.isFetching;
+                var3 = var3.bind(var4)();
+                var1['fetchingConnections'] = var3;
+                var3 = var4.getAccounts;
+                var5 = var3.bind(var4)();
+                var4 = var5.map;
+                var3 = function(arg1) {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 12;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.get;
+                    var1 = arg1;
+                    var1 = var1.type;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.find;
+                var2 = function(arg1) {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                        var2 = arg1;
+                        var3 = var2.replacedBy;
+                        var1 = null;
+                        var1 = var1 != var3;
+                        if(!var1) { _fun0008_ip = 20; continue _fun0008 }
+case 21:
+                        var4 = _closure2_slot0;
+                        var3 = var4.includes;
+                        var2 = var2.type;
+                        var1 = var3.bind(var4)(var2);
+case 20:
+                        return var1;
+                    }
+                };
+                var2 = var3.bind(var4)(var2);
+                var1['matchingPlatform'] = var2;
+                return var1;
+            };
+            var3 = var7.bind(var8)(var3, var1);
+            var1 = var3.fetchingConnections;
+            var8 = var3.matchingPlatform;
+            var3 = 32;
+            var3 = var6[var3];
+            var7 = var4.bind(var5)(var3);
+            var6 = var7.useGetOrFetchApplication;
+            var4 = null;
+            var9 = var4 != var8;
+            var3 = null;
+            if(!var9) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
+            var3 = var8.replacedBy;
+case 22:
+            var3 = var6.bind(var7)(var3);
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 13;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var6 = var2.bind(var5)(var3);
+            var2 = var6.hasAlreadyLinked;
+            var5 = var6.canStartAuthorization;
+            var6 = var6.fetched;
+            if(var1) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
+            var1 = !var6;
+case 24:
+            if(var1) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
+            var1 = !var5;
+case 26:
+            if(var1) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
+            var1 = var4 == var3;
+case 28:
+            var1 = !var1;
+            if(!var1) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
+            var1 = !var2;
+case 30:
+            return var1;
+        }
+    };
+    var3['useShouldShowConnectionDeprecationBottomSheet'] = var2;
+    return var1;
+})();

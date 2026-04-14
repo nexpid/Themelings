@@ -570,8 +570,55 @@ case 73:
         return var1;
     };
     var3['mergeEmbedsOnURL'] = var4;
-    var4 = function isEmbedInline(arg1) {
+    var4 = function getEffectiveVideoProvider(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var1 = arg1;
+            var5 = arg2;
+            var4 = undefined;
+            var2 = 'YouTube';
+            if(!(var2 !== var1)) { _fun0005_ip = 79; continue _fun0005 }
+case 80:
+            var3 = 'TikTok';
+            if(!(var3 !== var1)) { _fun0005_ip = 79; continue _fun0005 }
+case 81:
+            var7 = var5;
+            var6 = null;
+            if(!(var6 != var7)) { _fun0005_ip = 82; continue _fun0005 }
+case 83: // try_start_0
+            var6 = global;
+            var7 = var6.URL;
+            var8 = var5;
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var9 = var6;
+            var5 = new var9[var7](var8, var7);
+            var5 = var5 instanceof Object ? var5 : var6;
+            var6 = var5.hostname;
+            var4 = var6;
+            var5 = 'www.youtube.com';
+            if(!(var5 !== var6)) { _fun0005_ip = 84; continue _fun0005 }
+case 85:
+            var5 = var4;
+            var4 = 'www.tiktok.com';
+            if(!(var4 !== var5)) { _fun0005_ip = 86; continue _fun0005 }
+case 87: // try_end0
+            _fun0005_ip = 82; continue _fun0005;
+case 86:
+            return var3;
+case 84:
+            return var2;
+case 88: // catch_target0
+            CatchBlockStart(arg_register=1);
+case 82:
+            return var1;
+case 79:
+            return var1;
+        }
+    };
+    var3['getEffectiveVideoProvider'] = var4;
+    var4 = function isEmbedInline(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = arg1;
             var1 = var3.image;
@@ -581,179 +628,179 @@ case 0:
             var5 = var3.rawTitle;
             var4 = null;
             var1 = var4 != var1;
-            if(var1) { _fun0005_ip = 79; continue _fun0005 }
-case 80:
+            if(var1) { _fun0006_ip = 89; continue _fun0006 }
+case 90:
             var1 = var4 != var2;
-case 79:
-            if(!var1) { _fun0005_ip = 81; continue _fun0005 }
-case 82:
+case 89:
+            if(!var1) { _fun0006_ip = 86; continue _fun0006 }
+case 91:
             var2 = _closure1_slot4;
             var2 = var2.GIFV;
             var2 = var7 === var2;
-            if(var2) { _fun0005_ip = 78; continue _fun0005 }
-case 83:
+            if(var2) { _fun0006_ip = 78; continue _fun0006 }
+case 92:
             var3 = _closure1_slot4;
             var3 = var3.RICH;
             var3 = var7 !== var3;
-            if(!var3) { _fun0005_ip = 84; continue _fun0005 }
-case 85:
+            if(!var3) { _fun0006_ip = 93; continue _fun0006 }
+case 94:
             var3 = var4 == var6;
-case 84:
-            if(!var3) { _fun0005_ip = 86; continue _fun0005 }
-case 87:
+case 93:
+            if(!var3) { _fun0006_ip = 95; continue _fun0006 }
+case 96:
             var3 = var4 == var5;
-case 86:
+case 95:
             var2 = var3;
 case 78:
             var1 = var2;
-case 81:
+case 86:
             return var1;
         }
     };
     var3['isEmbedInline'] = var4;
     var4 = function isServerShopArticleEmbed(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var3 = arg1;
             var2 = var3.type;
             var1 = _closure1_slot4;
             var1 = var1.ARTICLE;
             var1 = var2 === var1;
-            if(!var1) { _fun0006_ip = 88; continue _fun0006 }
-case 89:
+            if(!var1) { _fun0007_ip = 97; continue _fun0007 }
+case 81:
             var5 = var3.url;
             var2 = null;
             var1 = var2 != var5;
-case 88:
-            if(!var1) { _fun0006_ip = 90; continue _fun0006 }
-case 91:
+case 97:
+            if(!var1) { _fun0007_ip = 98; continue _fun0007 }
+case 99:
             var6 = _closure1_slot11;
             var5 = var6.test;
             var2 = var3.url;
             var2 = var5.bind(var6)(var2);
-            if(var2) { _fun0006_ip = 92; continue _fun0006 }
-case 93:
+            if(var2) { _fun0007_ip = 100; continue _fun0007 }
+case 101:
             var5 = _closure1_slot10;
             var4 = var5.test;
             var3 = var3.url;
             var2 = var4.bind(var5)(var3);
-case 92:
+case 100:
             var1 = var2;
-case 90:
+case 98:
             return var1;
         }
     };
     var3['isServerShopArticleEmbed'] = var4;
     var4 = function isCollectiblesShopArticleEmbed(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = arg1;
             var4 = var2.type;
             var1 = _closure1_slot4;
             var1 = var1.ARTICLE;
             var1 = var4 === var1;
-            if(!var1) { _fun0007_ip = 88; continue _fun0007 }
-case 89:
+            if(!var1) { _fun0008_ip = 97; continue _fun0008 }
+case 81:
             var5 = var2.url;
             var4 = null;
             var1 = var4 != var5;
-case 88:
-            if(!var1) { _fun0007_ip = 94; continue _fun0007 }
-case 91:
+case 97:
+            if(!var1) { _fun0008_ip = 102; continue _fun0008 }
+case 99:
             var4 = _closure1_slot12;
             var3 = var4.test;
             var2 = var2.url;
             var1 = var3.bind(var4)(var2);
-case 94:
+case 102:
             return var1;
         }
     };
     var3['isCollectiblesShopArticleEmbed'] = var4;
     var4 = function isSocialLayerStorefrontArticleEmbed(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var3 = arg1;
             var2 = var3.type;
             var1 = _closure1_slot4;
             var1 = var1.ARTICLE;
             var1 = var2 === var1;
-            if(!var1) { _fun0008_ip = 88; continue _fun0008 }
-case 89:
+            if(!var1) { _fun0009_ip = 97; continue _fun0009 }
+case 81:
             var5 = var3.url;
             var2 = null;
             var1 = var2 != var5;
-case 88:
-            if(!var1) { _fun0008_ip = 90; continue _fun0008 }
-case 91:
+case 97:
+            if(!var1) { _fun0009_ip = 98; continue _fun0009 }
+case 99:
             var6 = _closure1_slot14;
             var5 = var6.test;
             var2 = var3.url;
             var2 = var5.bind(var6)(var2);
-            if(var2) { _fun0008_ip = 92; continue _fun0008 }
-case 93:
+            if(var2) { _fun0009_ip = 100; continue _fun0009 }
+case 101:
             var5 = _closure1_slot13;
             var4 = var5.test;
             var3 = var3.url;
             var2 = var4.bind(var5)(var3);
-case 92:
+case 100:
             var1 = var2;
-case 90:
+case 98:
             return var1;
         }
     };
     var3['isSocialLayerStorefrontArticleEmbed'] = var4;
     var4 = function getMaxEmbedMediaSize(arg1, arg2, arg3) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var4 = arg2;
             var3 = arg3;
             var2 = null;
-            if(!(var2 != var4)) { _fun0009_ip = 95; continue _fun0009 }
-case 96:
-            if(!(var2 == var3)) { _fun0009_ip = 97; continue _fun0009 }
-case 95:
+            if(!(var2 != var4)) { _fun0010_ip = 103; continue _fun0010 }
+case 104:
+            if(!(var2 == var3)) { _fun0010_ip = 105; continue _fun0010 }
+case 103:
             var1 = arg1;
             var1 = var1.provider;
             var5 = var2 == var1;
             var2 = undefined;
-            if(var5) { _fun0009_ip = 88; continue _fun0009 }
-case 98:
+            if(var5) { _fun0010_ip = 97; continue _fun0010 }
+case 106:
             var2 = var1.name;
-case 88:
+case 97:
             var1 = 'TikTok';
-            if(!(var1 !== var2)) { _fun0009_ip = 99; continue _fun0009 }
-case 100:
+            if(!(var1 !== var2)) { _fun0010_ip = 107; continue _fun0010 }
+case 108:
             var1 = {'maxMediaWidth': 400, 'maxMediaHeight': 300};
-            _fun0009_ip = 77; continue _fun0009;
-case 99:
+            _fun0010_ip = 77; continue _fun0010;
+case 107:
             var1 = {'maxMediaWidth': 400, 'maxMediaHeight': 450};
 case 77:
-            _fun0009_ip = 86; continue _fun0009;
-case 97:
+            _fun0010_ip = 95; continue _fun0010;
+case 105:
             var2 = {};
             var2['maxMediaWidth'] = var4;
             var2['maxMediaHeight'] = var3;
             var1 = var2;
-case 86:
+case 95:
             return var1;
         }
     };
     var3['getMaxEmbedMediaSize'] = var4;
     var4 = function canEmbedLinks(arg1, arg2) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var3 = arg1;
             var4 = arg2;
             var1 = var3.isPrivate;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0010_ip = 101; continue _fun0010 }
-case 102:
+            if(var1) { _fun0011_ip = 109; continue _fun0011 }
+case 110:
             var2 = var4.can;
             var1 = _closure1_slot5;
             var1 = var1.EMBED_LINKS;
             var1 = var2.bind(var4)(var1, var3);
-            _fun0010_ip = 74; continue _fun0010;
-case 101:
+            _fun0011_ip = 74; continue _fun0011;
+case 109:
             var2 = var3.isManaged;
             var2 = var2.bind(var3)();
             var1 = !var2;
@@ -763,37 +810,37 @@ case 74:
     };
     var3['canEmbedLinks'] = var4;
     var2 = function shouldStripEmbeds(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.content;
             var1 = '';
             var1 = var1 !== var3;
-            if(var1) { _fun0011_ip = 103; continue _fun0011 }
-case 102:
+            if(var1) { _fun0012_ip = 111; continue _fun0012 }
+case 110:
             var4 = var2.messageSnapshots;
             var3 = var4.some;
             var2 = function(arg1) {
-                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                     var2 = arg1;
                     var1 = var2.message;
                     var3 = var1.content;
                     var1 = '';
                     var1 = var1 !== var3;
-                    if(var1) { _fun0012_ip = 101; continue _fun0012 }
-case 104:
+                    if(var1) { _fun0013_ip = 109; continue _fun0013 }
+case 112:
                     var2 = var2.message;
                     var2 = var2.attachments;
                     var3 = var2.length;
                     var2 = 0;
                     var1 = var3 > var2;
-case 101:
+case 109:
                     return var1;
                 }
             };
             var1 = var3.bind(var4)(var2);
-case 103:
+case 111:
             return var1;
         }
     };

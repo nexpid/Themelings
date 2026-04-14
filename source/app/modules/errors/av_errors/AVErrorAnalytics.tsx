@@ -185,41 +185,41 @@ case 22:
             var12 = undefined;
             var3 = 0;
             if(!var2) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+case 2:
             var9 = var6[var3];
             var2 = var7.stats;
             var10 = var2.screenshare;
             var11 = var1 == var10;
             var2 = undefined;
-            if(var11) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
-            var2 = var10[var9];
+            if(var11) { _fun0006_ip = 24; continue _fun0006 }
 case 25:
+            var2 = var10[var9];
+case 24:
             var11 = var1 != var2;
             var10 = 0;
-            if(!var11) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
-            var10 = var2;
+            if(!var11) { _fun0006_ip = 26; continue _fun0006 }
 case 27:
+            var10 = var2;
+case 26:
             var2 = var8.stats;
             var2 = var2.screenshare;
             var14 = var1 == var2;
             var11 = undefined;
-            if(var14) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
-            var11 = var2[var9];
+            if(var14) { _fun0006_ip = 28; continue _fun0006 }
 case 29:
+            var11 = var2[var9];
+case 28:
             var14 = var1 != var11;
             var2 = 0;
-            if(!var14) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
-            var2 = var11;
+            if(!var14) { _fun0006_ip = 30; continue _fun0006 }
 case 31:
+            var2 = var11;
+case 30:
             var2 = var2 - var10;
             var5[var9] = var2;
             var3 = var3 + 1;
             var2 = var6.length;
-            if(var3 < var2) { _fun0006_ip = 24; continue _fun0006 }
+            if(var3 < var2) { _fun0006_ip = 2; continue _fun0006 }
 case 23:
             var2 = global;
             var3 = var2.Object;
@@ -234,30 +234,30 @@ case 23:
             var6 = 0;
             var2 = var8;
             var3 = null;
-            if(!var5) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
+            if(!var5) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
             var14 = var11[var6];
             var5 = _closure1_slot3;
             var14 = var5.bind(var12)(var14, var10);
             var5 = var14[var4];
             var14 = var14[var9];
-            if(!(var14 > var8)) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+            if(!(var14 > var8)) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
             var8 = var14;
             var7 = var5;
-case 35:
+case 34:
             var6 = var6 + 1;
             var5 = var11.length;
             var2 = var8;
             var3 = var7;
-            if(var6 < var5) { _fun0006_ip = 34; continue _fun0006 }
-case 33:
+            if(var6 < var5) { _fun0006_ip = 33; continue _fun0006 }
+case 32:
             var4 = var2 > var4;
             var2 = null;
-            if(!var4) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
-            var2 = var3;
+            if(!var4) { _fun0006_ip = 36; continue _fun0006 }
 case 37:
+            var2 = var3;
+case 36:
             return var2;
 case 20:
             return var1;
@@ -353,21 +353,21 @@ case 0:
             var7 = 'channelId';
             var7 = var7 in var6;
             var8 = undefined;
-            if(!var7) { _fun0007_ip = 24; continue _fun0007 }
-case 5:
+            if(!var7) { _fun0007_ip = 2; continue _fun0007 }
+case 38:
             var8 = var6.channelId;
-case 24:
+case 2:
             var7 = null;
-            if(!(var7 != var8)) { _fun0007_ip = 39; continue _fun0007 }
-case 40:
-            var4 = var8;
+            if(!(var7 != var8)) { _fun0007_ip = 13; continue _fun0007 }
 case 39:
+            var4 = var8;
+case 13:
             var8 = var7 != var4;
             var9 = null;
-            if(!var8) { _fun0007_ip = 41; continue _fun0007 }
-case 8:
-            var9 = var4;
+            if(!var8) { _fun0007_ip = 40; continue _fun0007 }
 case 41:
+            var9 = var4;
+case 40:
             var _closure2_slot3 = var9;
             var8 = _closure1_slot6;
             var4 = var8.getChannel;
@@ -376,15 +376,15 @@ case 41:
             var4 = 'streamKey';
             var8 = var4 in var6;
             var4 = undefined;
-            if(!var8) { _fun0007_ip = 30; continue _fun0007 }
+            if(!var8) { _fun0007_ip = 29; continue _fun0007 }
 case 42:
             var4 = var6.streamKey;
-case 30:
+case 29:
             var8 = 'mediaContext';
             var9 = var8 in var6;
             var8 = undefined;
             if(!var9) { _fun0007_ip = 43; continue _fun0007 }
-case 32:
+case 31:
             var8 = var6.mediaContext;
 case 43:
             var _closure2_slot5 = var8;
@@ -407,10 +407,10 @@ case 45:
             var9 = 'mediaSessionId';
             var10 = var9 in var6;
             var9 = undefined;
-            if(!var10) { _fun0007_ip = 34; continue _fun0007 }
+            if(!var10) { _fun0007_ip = 33; continue _fun0007 }
 case 47:
             var9 = var6.mediaSessionId;
-case 34:
+case 33:
             var _closure2_slot8 = var9;
             var9 = 'rtcConnectionId';
             var10 = var9 in var6;
@@ -712,7 +712,7 @@ case 0:
                     var2 = var3 != var1;
                     var1 = null;
                     if(!var2) { _fun0008_ip = 117; continue _fun0008 }
-case 24:
+case 2:
                     var1 = _closure2_slot6;
 case 117:
                     var5['underlying_error'] = var1;
@@ -736,7 +736,7 @@ case 120:
                     var8 = var3 != var7;
                     var2 = null;
                     if(!var8) { _fun0008_ip = 122; continue _fun0008 }
-case 29:
+case 28:
                     var2 = var7;
 case 122:
                     var5['guild_id'] = var2;
@@ -766,19 +766,19 @@ case 127:
                     var2 = _closure2_slot9;
                     var7 = var3 != var2;
                     var2 = null;
-                    if(!var7) { _fun0008_ip = 34; continue _fun0008 }
+                    if(!var7) { _fun0008_ip = 33; continue _fun0008 }
 case 129:
                     var2 = _closure2_slot9;
-case 34:
+case 33:
                     var5['rtc_connection_id'] = var2;
                     var2 = _closure2_slot8;
-                    if(!(var3 == var2)) { _fun0008_ip = 35; continue _fun0008 }
+                    if(!(var3 == var2)) { _fun0008_ip = 34; continue _fun0008 }
 case 130:
                     var7 = _closure1_slot8;
                     var2 = var7.getMediaSessionId;
                     var7 = var2.bind(var7)();
                     _fun0008_ip = 131; continue _fun0008;
-case 35:
+case 34:
                     var7 = _closure2_slot8;
 case 131:
                     var8 = var3 != var7;

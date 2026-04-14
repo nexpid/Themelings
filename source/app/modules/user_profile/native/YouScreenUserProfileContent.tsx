@@ -247,6 +247,7 @@ case 4:
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var8 = var4.Platform;
     var8 = var4.ScrollView;
     var _closure1_slot5 = var8;
     var4 = var4.View;

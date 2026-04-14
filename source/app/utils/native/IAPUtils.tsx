@@ -479,13 +479,13 @@ case 0:
             var1 = var1.bind(var3)();
             var8 = global;
             var4 = var8.Promise;
-            if(var1) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+            if(var1) { _fun0007_ip = 44; continue _fun0007 }
+case 50:
             var3 = var4.resolve;
             var1 = new Array(0);
             var1 = var3.bind(var4)(var1);
-            _fun0007_ip = 12; continue _fun0007;
-case 50:
+            _fun0007_ip = 51; continue _fun0007;
+case 44:
             var3 = var4.all;
             var7 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -597,7 +597,7 @@ case 11:
                 }
             };
             var1 = var3.bind(var4)(var2);
-case 12:
+case 51:
             return var1;
         }
     };

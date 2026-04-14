@@ -609,12 +609,12 @@ case 0:
                 var1 = null;
                 var5 = var1 == var4;
                 var2 = undefined;
-                if(var5) { _fun0008_ip = 3; continue _fun0008 }
+                if(var5) { _fun0008_ip = 62; continue _fun0008 }
 case 72:
                 var5 = var4.options;
                 var4 = var1 == var5;
                 var2 = undefined;
-                if(var4) { _fun0008_ip = 3; continue _fun0008 }
+                if(var4) { _fun0008_ip = 62; continue _fun0008 }
 case 73:
                 var4 = var5.find;
                 var3 = function(arg1) {
@@ -626,7 +626,7 @@ case 73:
                     return var1;
                 };
                 var2 = var4.bind(var5)(var3);
-case 3:
+case 62:
                 var3 = var1 != var2;
                 var1 = null;
                 if(!var3) { _fun0008_ip = 74; continue _fun0008 }
@@ -721,13 +721,13 @@ case 0:
                 var3 = null;
                 var6 = var3 == var4;
                 var1 = undefined;
-                if(var6) { _fun0009_ip = 76; continue _fun0009 }
-case 77:
+                if(var6) { _fun0009_ip = 5; continue _fun0009 }
+case 76:
                 var4 = var4.options;
                 var3 = var3 == var4;
                 var1 = undefined;
-                if(var3) { _fun0009_ip = 76; continue _fun0009 }
-case 78:
+                if(var3) { _fun0009_ip = 5; continue _fun0009 }
+case 77:
                 var3 = var4.find;
                 var2 = function(arg1) {
                     var1 = arg1;
@@ -737,7 +737,7 @@ case 78:
                     return var1;
                 };
                 var1 = var3.bind(var4)(var2);
-case 76:
+case 5:
                 return var1;
             }
         };
@@ -808,14 +808,14 @@ case 0:
             var3['channelId'] = var7;
             var3['changedOptionStates'] = var6;
             var3 = var4.bind(var5)(var3);
-            if(var1) { _fun0010_ip = 79; continue _fun0010 }
-case 80:
-            var1 = var2;
+            if(var1) { _fun0010_ip = 78; continue _fun0010 }
 case 79:
-            if(var1) { _fun0010_ip = 81; continue _fun0010 }
-case 82:
-            var1 = true;
+            var1 = var2;
+case 78:
+            if(var1) { _fun0010_ip = 80; continue _fun0010 }
 case 81:
+            var1 = true;
+case 80:
             return var1;
         }
     };

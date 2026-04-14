@@ -330,6 +330,7 @@ case 33:
 case 35:
                 var11 = {};
                 var11['questId'] = var14;
+                var11['adCreativeId'] = var14;
                 var11['fetchedAt'] = var5;
                 var14 = 0;
                 var11['ttlMillis'] = var14;

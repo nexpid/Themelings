@@ -1549,13 +1549,13 @@ case 136:
             var2 = var3.loadGuildIds;
             var5 = var2.bind(var3)(var4);
             var2 = null;
-            if(!(var2 == var5)) { _fun0024_ip = 106; continue _fun0024 }
+            if(!(var2 == var5)) { _fun0024_ip = 128; continue _fun0024 }
 case 40:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
             var5 = var2.bind(var3)();
-case 106:
+case 128:
             var2 = global;
             var4 = var2.Promise;
             var3 = var4.all;

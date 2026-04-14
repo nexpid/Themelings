@@ -595,7 +595,7 @@ case 33:
             var18 = var18[var22];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.ETE/oC;
+            var18 = var18.cpT0Cq;
             var18 = var19.bind(var20)(var18);
             var14['text'] = var18;
             var14['onPress'] = var17;

@@ -1454,40 +1454,53 @@ case 39:
     };
     var2['APP_DM_OPEN'] = var9;
     var9 = function handleAuthorizedAppsUpdate(arg1) {
-        var1 = arg1;
-        var3 = var1.tokens;
-        var2 = var3.forEach;
-        var1 = function(arg1) {
-            _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
-                var4 = arg1;
-                var5 = _closure1_slot17;
-                var6 = _closure1_slot6;
-                var3 = var6.createFromServer;
-                var1 = var4.application;
-                var3 = var3.bind(var6)(var1);
-                var1 = undefined;
-                var3 = var5.bind(var1)(var3);
-                var3 = var4.application;
-                var5 = var3.bot;
-                var3 = null;
-                if(!(var3 != var5)) { _fun0031_ip = 86; continue _fun0031 }
-case 75:
-                var3 = _closure1_slot19;
-                var2 = {};
-                var5 = var5.id;
-                var2['userId'] = var5;
-                var4 = var4.application;
-                var4 = var4.id;
-                var2['applicationId'] = var4;
-                var2 = var3.bind(var1)(var2);
-case 86:
-                return var1;
-            }
-        };
-        var1 = var2.bind(var3)(var1);
-        var1 = undefined;
-        return var1;
+            var3 = _closure1_slot15;
+            var1 = arg1;
+            var2 = var1.tokens;
+            var1 = var2.values;
+            var2 = var1.bind(var2)();
+            var1 = undefined;
+            var6 = var3.bind(var1)(var2);
+            var3 = var6.bind(var1)();
+            var2 = var3.done;
+            var5 = null;
+            var4 = var3;
+            var3 = undefined;
+            if(var2) { _fun0031_ip = 103; continue _fun0031 }
+case 63:
+            var10 = var4.value;
+            if(!(var5 != var10)) { _fun0031_ip = 104; continue _fun0031 }
+case 105:
+            var8 = _closure1_slot17;
+            var11 = _closure1_slot6;
+            var9 = var11.createFromServer;
+            var2 = var10.application;
+            var2 = var9.bind(var11)(var2);
+            var2 = var8.bind(var1)(var2);
+            var2 = var10.application;
+            var2 = var2.bot;
+            var3 = var2;
+            if(!(var5 != var2)) { _fun0031_ip = 104; continue _fun0031 }
+case 106:
+            var9 = _closure1_slot19;
+            var8 = {};
+            var11 = var2.id;
+            var8['userId'] = var11;
+            var10 = var10.application;
+            var10 = var10.id;
+            var8['applicationId'] = var10;
+            var8 = var9.bind(var1)(var8);
+            var3 = var2;
+case 104:
+            var8 = var6.bind(var1)();
+            var2 = var8.done;
+            var4 = var8;
+            if(!var2) { _fun0031_ip = 63; continue _fun0031 }
+case 103:
+            return var1;
+        }
     };
     var2['USER_AUTHORIZED_APPS_UPDATE'] = var9;
     var9 = function handleNotificationCenterItemsSuccess(arg1) {
@@ -1565,21 +1578,21 @@ case 33:
             var2 = var3.length;
             var1 = 0;
             if(!(var1 !== var2)) { _fun0034_ip = 86; continue _fun0034 }
-case 103:
+case 107:
             var2 = _closure1_slot15;
             var1 = undefined;
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
             if(var2) { _fun0034_ip = 13; continue _fun0034 }
-case 104:
+case 108:
             var6 = _closure1_slot17;
             var2 = var3.value;
             var2 = var6.bind(var1)(var2);
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0034_ip = 104; continue _fun0034 }
+            if(!var2) { _fun0034_ip = 108; continue _fun0034 }
 case 13:
             return var1;
 case 86:

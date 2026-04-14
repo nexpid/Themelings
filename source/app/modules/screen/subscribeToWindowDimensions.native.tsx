@@ -24,21 +24,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/screen/subscribeToWindowDimensions.native.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function subscribeToWindowDimensions(arg1) {
-        var2 = arg1;
-        var _closure2_slot0 = var2;
-        var3 = _closure1_slot0;
-        var2 = var3.subscribe;
-        var1 = function(arg1) {
-            var1 = arg1;
-            var4 = _closure2_slot0;
-            var3 = var1.windowDimensions;
-            var2 = var1.windowDimensionsIgnoringKeyboard;
-            var1 = undefined;
-            var2 = var4.bind(var1)(var3, var2);
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var2 = arguments[1];
+            var3 = arg1;
+            var _closure2_slot0 = var3;
+            var3 = undefined;
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var2 = 'main';
+case 2:
+            var _closure2_slot1 = var2;
+            var3 = _closure1_slot0;
+            var2 = var3.subscribe;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var3 = var1.byAppEntry;
+                var2 = _closure2_slot1;
+                var2 = var3[var2];
+                var4 = var2.windowDimensions;
+                var3 = var2.windowDimensionsIgnoringKeyboard;
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var2 = var2.bind(var1)(var4, var3);
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
             return var1;
-        };
-        var1 = var2.bind(var3)(var1);
-        return var1;
+        }
     };
     var3['default'] = var2;
     return var1;

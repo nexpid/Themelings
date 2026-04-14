@@ -79,8 +79,8 @@ case 0:
             var2 = arg1;
             var14 = var2.premiumType;
             var _closure2_slot0 = var14;
-            var22 = var2.trialOffer;
-            var19 = var2.discountOffer;
+            var23 = var2.trialOffer;
+            var20 = var2.discountOffer;
             var2 = _closure1_slot8;
             var4 = undefined;
             var12 = var2.bind(var4)();
@@ -124,10 +124,10 @@ case 2:
                 }
             };
             var15 = null;
-            var18 = var15 != var22;
+            var18 = var15 != var23;
             if(!var18) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var1 = var22.subscription_trial;
+            var1 = var23.subscription_trial;
             var3 = var15 == var1;
             var2 = undefined;
             if(var3) { _fun0001_ip = 10; continue _fun0001 }
@@ -145,53 +145,62 @@ case 10:
 case 8:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var5 = 7;
-            var1 = var1[var5];
+            var7 = 7;
+            var1 = var1[var7];
             var3 = var2.bind(var4)(var1);
             var2 = var3.getPlanIdForPremiumType;
             var1 = _closure1_slot5;
             var1 = var1.MONTH;
-            var6 = var2.bind(var3)(var14, var1);
-            var16 = var15 != var19;
+            var5 = var2.bind(var3)(var14, var1);
+            var16 = var15 != var20;
             if(!var16) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var2 = var19.discount;
+            var2 = var20.discount;
             var3 = var15 == var2;
             var1 = undefined;
             if(var3) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var3 = var2.plan_ids;
             var2 = var3.includes;
-            var1 = var2.bind(var3)(var6);
+            var1 = var2.bind(var3)(var5);
 case 14:
             var16 = var1;
 case 12:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
-            var7 = _closure1_slot2;
+            var5 = _closure1_slot2;
             var1 = 8;
-            var1 = var7[var1];
+            var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var6 = var12.header;
             var1['style'] = var6;
             var6 = _closure1_slot0;
-            var5 = var7[var5];
-            var8 = var6.bind(var4)(var5);
-            var5 = var8.getPremiumGradientColor;
-            var5 = var5.bind(var8)(var14);
-            var1['colors'] = var5;
-            var5 = 9;
-            var8 = var7[var5];
+            var8 = var5[var7];
+            var10 = var6.bind(var4)(var8);
+            var8 = var10.getPremiumGradientColor;
+            var8 = var8.bind(var10)(var14);
+            var1['colors'] = var8;
+            var8 = 9;
+            var10 = var5[var8];
+            var10 = var6.bind(var4)(var10);
+            var10 = var10.HorizontalGradient;
+            var10 = var10.START;
+            var1['start'] = var10;
+            var8 = var5[var8];
             var8 = var6.bind(var4)(var8);
             var8 = var8.HorizontalGradient;
-            var8 = var8.START;
-            var1['start'] = var8;
-            var5 = var7[var5];
-            var5 = var6.bind(var4)(var5);
-            var5 = var5.HorizontalGradient;
-            var5 = var5.END;
-            var1['end'] = var5;
+            var8 = var8.END;
+            var1['end'] = var8;
+            var19 = true;
+            var1['accessible'] = var19;
+            var8 = 'header';
+            var1['accessibilityRole'] = var8;
+            var5 = var5[var7];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.getPremiumTypeDisplayName;
+            var5 = var5.bind(var6)(var14);
+            var1['accessibilityLabel'] = var5;
             var6 = var9.bind(var4)();
             if(!var6) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
@@ -213,7 +222,7 @@ case 16:
             var6 = {};
             var9 = var12.logoContainer;
             var6['style'] = var9;
-            var20 = _closure1_slot6;
+            var21 = _closure1_slot6;
             var13 = _closure1_slot1;
             var9 = _closure1_slot2;
             var10 = 10;
@@ -229,55 +238,54 @@ case 19:
             if(!(var9 !== var14)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
             var9 = _closure1_slot4;
-            var21 = var9.TIER_2;
+            var22 = var9.TIER_2;
             var9 = undefined;
-            if(!(var21 === var14)) { _fun0001_ip = 22; continue _fun0001 }
+            if(!(var22 === var14)) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-            var23 = _closure1_slot1;
-            var24 = _closure1_slot2;
-            var21 = 13;
-            var21 = var24[var21];
-            var9 = var23.bind(var4)(var21);
+            var24 = _closure1_slot1;
+            var25 = _closure1_slot2;
+            var22 = 13;
+            var22 = var25[var22];
+            var9 = var24.bind(var4)(var22);
             _fun0001_ip = 22; continue _fun0001;
 case 20:
-            var23 = _closure1_slot1;
-            var24 = _closure1_slot2;
-            var21 = 12;
-            var21 = var24[var21];
-            var9 = var23.bind(var4)(var21);
+            var24 = _closure1_slot1;
+            var25 = _closure1_slot2;
+            var22 = 12;
+            var22 = var25[var22];
+            var9 = var24.bind(var4)(var22);
             _fun0001_ip = 22; continue _fun0001;
 case 18:
-            var23 = _closure1_slot1;
-            var24 = _closure1_slot2;
-            var21 = 11;
-            var21 = var24[var21];
-            var9 = var23.bind(var4)(var21);
+            var24 = _closure1_slot1;
+            var25 = _closure1_slot2;
+            var22 = 11;
+            var22 = var25[var22];
+            var9 = var24.bind(var4)(var22);
 case 22:
             var13['source'] = var9;
             var9 = 'contain';
             var13['resizeMode'] = var9;
-            var17 = var20.bind(var4)(var17, var13);
+            var17 = var21.bind(var4)(var17, var13);
             var13 = new Array(3);
             var13[0] = var17;
             var17 = null;
             if(!var18) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var21 = _closure1_slot6;
-            var20 = _closure1_slot0;
-            var23 = _closure1_slot2;
+            var22 = _closure1_slot6;
+            var21 = _closure1_slot0;
+            var24 = _closure1_slot2;
             var18 = 14;
-            var18 = var23[var18];
-            var18 = var20.bind(var4)(var18);
-            var20 = var18.PremiumPill;
+            var18 = var24[var18];
+            var18 = var21.bind(var4)(var18);
+            var21 = var18.PremiumPill;
             var18 = {};
-            var23 = var12.discountPill;
-            var18['style'] = var23;
-            var18['trialOffer'] = var22;
+            var24 = var12.discountPill;
+            var18['style'] = var24;
+            var18['trialOffer'] = var23;
             var18['premiumType'] = var14;
-            var22 = true;
-            var18['useWhiteBackground'] = var22;
-            var18['hideTrialCountdown'] = var22;
-            var17 = var21.bind(var4)(var20, var18);
+            var18['useWhiteBackground'] = var19;
+            var18['hideTrialCountdown'] = var19;
+            var17 = var22.bind(var4)(var21, var18);
 case 24:
             var13[1] = var17;
             var15 = null;
@@ -285,17 +293,16 @@ case 24:
 case 27:
             var18 = _closure1_slot6;
             var17 = _closure1_slot0;
-            var20 = _closure1_slot2;
+            var21 = _closure1_slot2;
             var16 = 14;
-            var16 = var20[var16];
+            var16 = var21[var16];
             var16 = var17.bind(var4)(var16);
             var17 = var16.PremiumPill;
             var16 = {};
-            var20 = var12.discountPill;
-            var16['style'] = var20;
-            var16['discountOffer'] = var19;
+            var21 = var12.discountPill;
+            var16['style'] = var21;
+            var16['discountOffer'] = var20;
             var16['premiumType'] = var14;
-            var19 = true;
             var16['shouldShowDiscountUpsell'] = var19;
             var16['useWhiteBackground'] = var19;
             var15 = var18.bind(var4)(var17, var16);

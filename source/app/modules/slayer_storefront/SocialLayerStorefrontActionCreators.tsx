@@ -246,68 +246,76 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 46; continue _fun0002 }
 case 47:
-                    var10 = arg1;
+                    var12 = arg1;
                     var6 = arg2;
                     var2 = undefined;
+                    var5 = undefined;
                     var8 = undefined;
-case 48: // try_start_0
-                    var5 = _closure1_slot1;
-                    var9 = _closure1_slot2;
+                    var11 = undefined;
+case 4: // try_start_0
+                    var9 = _closure1_slot1;
+                    var10 = _closure1_slot2;
                     var7 = 4;
-                    var3 = var9[var7];
-                    var11 = var5.bind(var2)(var3);
-                    var5 = var11.dispatch;
+                    var3 = var10[var7];
+                    var13 = var9.bind(var2)(var3);
+                    var9 = var13.dispatch;
                     var3 = {};
-                    var12 = 'STORE_LISTINGS_FETCH_START';
-                    var3['type'] = var12;
-                    var13 = var6;
-                    var3['skuId'] = var13;
-                    var3 = var5.bind(var11)(var3);
-                    var5 = _closure1_slot0;
+                    var14 = 'STORE_LISTINGS_FETCH_START';
+                    var3['type'] = var14;
+                    var15 = var6;
+                    var3['skuId'] = var15;
+                    var3 = var9.bind(var13)(var3);
+                    var9 = _closure1_slot0;
                     var3 = 5;
-                    var3 = var9[var3];
-                    var3 = var5.bind(var2)(var3);
-                    var9 = var3.HTTP;
-                    var5 = var9.get;
+                    var3 = var10[var3];
+                    var3 = var9.bind(var2)(var3);
+                    var10 = var3.HTTP;
+                    var9 = var10.get;
                     var3 = {};
-                    var12 = _closure1_slot5;
-                    var11 = var12.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU;
-                    var10 = var11.bind(var12)(var10, var13);
-                    var3['url'] = var10;
-                    var10 = true;
-                    var3['rejectWithError'] = var10;
-                    var3 = var5.bind(var9)(var3);
-                    SaveGenerator(address=133);
-case 49:
+                    var14 = _closure1_slot5;
+                    var13 = var14.SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU;
+                    var12 = var13.bind(var14)(var12, var15);
+                    var3['url'] = var12;
+                    var12 = true;
+                    var3['rejectWithError'] = var12;
+                    var3 = var9.bind(var10)(var3);
+                    SaveGenerator(address=137);
+case 48:
                     return var3;
-case 50:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 51; continue _fun0002 }
-case 52:
-                    var8 = var3;
-                    var9 = var3.body;
-                    var5 = null;
-                    if(!(var5 != var9)) { _fun0002_ip = 53; continue _fun0002 }
-case 18:
-                    var5 = var8;
-                    var5 = var5.ok;
-                    if(!var5) { _fun0002_ip = 53; continue _fun0002 }
+case 49:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
+                    if(var9) { _fun0002_ip = 50; continue _fun0002 }
+case 51:
+                    var5 = var3;
+                    var10 = var3.body;
+                    var9 = null;
+                    if(!(var9 != var10)) { _fun0002_ip = 52; continue _fun0002 }
+case 53:
+                    var10 = var5;
+                    var10 = var10.ok;
+                    if(!var10) { _fun0002_ip = 52; continue _fun0002 }
 case 54:
-                    var5 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var9 = var4[var7];
-                    var11 = var5.bind(var2)(var9);
-                    var10 = var11.dispatch;
-                    var9 = {};
-                    var12 = 'SOCIAL_LAYER_STOREFRONT_PARTIAL_LOAD_SUCCESS';
-                    var9['type'] = var12;
-                    var12 = global;
-                    var14 = var12.Object;
-                    var13 = var14.fromEntries;
-                    var12 = var8.body;
-                    var16 = var12.assets;
-                    var15 = var16.map;
-                    var12 = function(arg1) {
+                    var14 = var5;
+                    var5 = var14.body;
+                    var8 = var5.store_listing;
+                    var5 = var14.body;
+                    var5 = var5.storefront_metadata;
+                    var11 = var5;
+                    var12 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var10 = var10[var7];
+                    var13 = var12.bind(var2)(var10);
+                    var12 = var13.dispatch;
+                    var10 = {};
+                    var15 = 'SOCIAL_LAYER_STOREFRONT_PARTIAL_LOAD_SUCCESS';
+                    var10['type'] = var15;
+                    var15 = global;
+                    var16 = var15.Object;
+                    var15 = var16.fromEntries;
+                    var14 = var14.body;
+                    var18 = var14.assets;
+                    var17 = var18.map;
+                    var14 = function(arg1) {
                         var2 = arg1;
                         var3 = var2.id;
                         var1 = new Array(2);
@@ -315,35 +323,58 @@ case 54:
                         var1[1] = var2;
                         return var1;
                     };
-                    var12 = var15.bind(var16)(var12);
-                    var12 = var13.bind(var14)(var12);
-                    var9['assets'] = var12;
-                    var9 = var10.bind(var11)(var9);
+                    var14 = var17.bind(var18)(var14);
+                    var14 = var15.bind(var16)(var14);
+                    var10['assets'] = var14;
+                    var10 = var12.bind(var13)(var10);
+                    if(!(var9 != var5)) { _fun0002_ip = 55; continue _fun0002 }
+case 56:
+                    var9 = _closure1_slot1;
+                    var14 = _closure1_slot2;
+                    var5 = var14[var7];
+                    var10 = var9.bind(var2)(var5);
+                    var9 = var10.dispatch;
+                    var5 = {};
+                    var12 = 'SOCIAL_LAYER_STOREFRONT_METADATA_LOAD_SUCCESS';
+                    var5['type'] = var12;
+                    var12 = var8;
+                    var12 = var12.sku;
+                    var12 = var12.application_id;
+                    var5['applicationId'] = var12;
+                    var13 = _closure1_slot0;
+                    var12 = 6;
+                    var12 = var14[var12];
+                    var13 = var13.bind(var2)(var12);
+                    var12 = var13.transformStorefrontMetadataServer;
+                    var11 = var12.bind(var13)(var11);
+                    var5['storefrontMetadata'] = var11;
+                    var5 = var9.bind(var10)(var5);
+case 55:
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
                     var4 = var4[var7];
                     var7 = var5.bind(var2)(var4);
                     var5 = var7.dispatch;
                     var4 = {};
                     var9 = 'STORE_LISTING_FETCH_SUCCESS';
                     var4['type'] = var9;
-                    var8 = var8.body;
-                    var8 = var8.store_listing;
                     var4['storeListing'] = var8;
                     var4 = var5.bind(var7)(var4);
-case 55: // try_end0
-                    _fun0002_ip = 56; continue _fun0002;
-case 53: // try_start_1
+case 57: // try_end0
+                    _fun0002_ip = 58; continue _fun0002;
+case 52: // try_start_1
                     var4 = global;
                     var7 = var4.Error;
                     var4 = var7.prototype;
                     var5 = Object.create(var4, {constructor: {value: var7}});
-                    var18 = 'Failed to fetch social layer storefront SKU';
-                    var19 = var5;
-                    var4 = new var19[var7](var18, var17);
+                    var20 = 'Failed to fetch social layer storefront SKU';
+                    var21 = var5;
+                    var4 = new var21[var7](var20, var19);
                     var4 = var4 instanceof Object ? var4 : var5;
                     throw var4;
-case 51: // try_end1
+case 50: // try_end1
                     return var3;
-case 57: // catch_target0 // catch_target1
+case 59: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -356,7 +387,7 @@ case 57: // catch_target0 // catch_target1
                     var3['type'] = var7;
                     var3['skuId'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 56:
+case 58:
                     return var2;
 case 46:
                     return var1;
@@ -384,7 +415,7 @@ case 46:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 58; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 60; continue _fun0003 }
 case 47:
                     var5 = arg1;
 case 3: // try_start_0
@@ -416,12 +447,12 @@ case 3: // try_start_0
                     var2['rejectWithError'] = var9;
                     var2 = var4.bind(var8)(var2);
                     SaveGenerator(address=129);
-case 59:
+case 61:
                     return var2;
 case 16:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 60; continue _fun0003 }
-case 61:
+                    if(var4) { _fun0003_ip = 62; continue _fun0003 }
+case 48:
                     var8 = var2.body;
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -446,11 +477,11 @@ case 61:
                     var7['backgroundImageAssetId'] = var8;
                     var3['announcement'] = var7;
                     var3 = var4.bind(var6)(var3);
-case 62: // try_end0
-                    _fun0003_ip = 63; continue _fun0003;
-case 60:
+case 63: // try_end0
+                    _fun0003_ip = 64; continue _fun0003;
+case 62:
                     return var2;
-case 64: // catch_target0
+case 65: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -464,10 +495,10 @@ case 64: // catch_target0
                     var2['type'] = var6;
                     var2['guildId'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 63:
+case 64:
                     var2 = undefined;
                     return var2;
-case 58:
+case 60:
                     return var1;
                 }
             };
@@ -493,7 +524,7 @@ case 58:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 65; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 66; continue _fun0004 }
 case 47:
                     var2 = undefined;
                     var10 = undefined;
@@ -506,12 +537,12 @@ case 47:
                     var4 = var4.bind(var6)();
                     var7 = var4.state;
                     var6 = 'loading';
-                    if(!(var6 !== var7)) { _fun0004_ip = 66; continue _fun0004 }
+                    if(!(var6 !== var7)) { _fun0004_ip = 67; continue _fun0004 }
 case 10:
                     var7 = var4.state;
                     var6 = 'success';
-                    if(!(var6 === var7)) { _fun0004_ip = 67; continue _fun0004 }
-case 68:
+                    if(!(var6 === var7)) { _fun0004_ip = 68; continue _fun0004 }
+case 69:
                     var6 = global;
                     var7 = var6.Date;
                     var6 = var7.now;
@@ -519,12 +550,12 @@ case 68:
                     var6 = var4.fetchedAt;
                     var7 = var7 - var6;
                     var6 = _closure1_slot8;
-                    if(!(!(var7 < var6))) { _fun0004_ip = 66; continue _fun0004 }
-case 67:
+                    if(!(!(var7 < var6))) { _fun0004_ip = 67; continue _fun0004 }
+case 68:
                     var7 = var4.state;
                     var6 = 'error';
                     if(!(var6 === var7)) { _fun0004_ip = 18; continue _fun0004 }
-case 69:
+case 70:
                     var6 = global;
                     var7 = var6.Date;
                     var6 = var7.now;
@@ -532,7 +563,7 @@ case 69:
                     var4 = var4.fetchedAt;
                     var6 = var6 - var4;
                     var4 = _closure1_slot9;
-                    if(!(!(var6 < var4))) { _fun0004_ip = 66; continue _fun0004 }
+                    if(!(!(var6 < var4))) { _fun0004_ip = 67; continue _fun0004 }
 case 18: // try_start_0
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -558,19 +589,19 @@ case 18: // try_start_0
                     var4['rejectWithError'] = var11;
                     var4 = var6.bind(var8)(var4);
                     SaveGenerator(address=258);
-case 70:
-                    return var4;
 case 71:
+                    return var4;
+case 72:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0004_ip = 72; continue _fun0004 }
-case 73:
+                    if(var6) { _fun0004_ip = 73; continue _fun0004 }
+case 74:
                     var6 = var4.body;
                     var9 = var6;
                     var11 = null;
                     var13 = null;
                     var6 = var6.promotion_end_datetime;
-                    if(!(var11 != var6)) { _fun0004_ip = 74; continue _fun0004 }
-case 75:
+                    if(!(var11 != var6)) { _fun0004_ip = 75; continue _fun0004 }
+case 76:
                     var6 = global;
                     var15 = var6.Date;
                     var8 = var9;
@@ -586,10 +617,10 @@ case 75:
                     var6 = var15.getTime;
                     var6 = var6.bind(var15)();
                     var6 = var8.bind(var14)(var6);
-                    if(var6) { _fun0004_ip = 74; continue _fun0004 }
-case 76:
+                    if(var6) { _fun0004_ip = 75; continue _fun0004 }
+case 77:
                     var13 = var5;
-case 74:
+case 75:
                     var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var5 = var5[var7];
@@ -606,8 +637,8 @@ case 74:
                     var12 = var9;
                     var13 = var11 == var9;
                     var9 = undefined;
-                    if(var13) { _fun0004_ip = 77; continue _fun0004 }
-case 78:
+                    if(var13) { _fun0004_ip = 78; continue _fun0004 }
+case 79:
                     var14 = var12;
                     var13 = var14.map;
                     var12 = function(arg1) {
@@ -622,23 +653,23 @@ case 78:
                         return var1;
                     };
                     var9 = var13.bind(var14)(var12);
-case 77:
+case 78:
                     var10 = var9;
-                    if(!(var11 == var9)) { _fun0004_ip = 79; continue _fun0004 }
-case 80:
-                    var9 = new Array(0);
-                    _fun0004_ip = 81; continue _fun0004;
-case 79:
-                    var9 = var10;
+                    if(!(var11 == var9)) { _fun0004_ip = 80; continue _fun0004 }
 case 81:
+                    var9 = new Array(0);
+                    _fun0004_ip = 82; continue _fun0004;
+case 80:
+                    var9 = var10;
+case 82:
                     var8['storefronts'] = var9;
                     var5['config'] = var8;
                     var5 = var6.bind(var7)(var5);
-case 82: // try_end0
-                    _fun0004_ip = 66; continue _fun0004;
-case 72:
+case 83: // try_end0
+                    _fun0004_ip = 67; continue _fun0004;
+case 73:
                     return var4;
-case 83: // catch_target0
+case 84: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -650,9 +681,9 @@ case 83: // catch_target0
                     var6 = 'SOCIAL_LAYER_STOREFRONT_CONFIG_FETCH_FAILURE';
                     var3['type'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 66:
+case 67:
                     return var2;
-case 65:
+case 66:
                     return var1;
                 }
             };
@@ -805,18 +836,18 @@ case 0:
             var4 = var2.bind(var3)(var8);
             var2 = 'checking';
             var2 = var2 !== var4;
-            if(!var2) { _fun0005_ip = 84; continue _fun0005 }
-case 85:
+            if(!var2) { _fun0005_ip = 85; continue _fun0005 }
+case 86:
             var3 = 'eligible';
             var2 = var3 !== var4;
-case 84:
+case 85:
             if(!var2) { _fun0005_ip = 10; continue _fun0005 }
-case 86:
+case 87:
             var3 = 'ineligible';
             var2 = var3 !== var4;
 case 10:
-            if(!var2) { _fun0005_ip = 87; continue _fun0005 }
-case 88:
+            if(!var2) { _fun0005_ip = 88; continue _fun0005 }
+case 89:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -840,8 +871,8 @@ case 0:
                     var2 = _closure2_slot0;
                     var3 = var3.bind(var5)(var2);
                     var2 = 'checking';
-                    if(!(var2 === var3)) { _fun0006_ip = 89; continue _fun0006 }
-case 90:
+                    if(!(var2 === var3)) { _fun0006_ip = 90; continue _fun0006 }
+case 91:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 4;
@@ -853,7 +884,7 @@ case 90:
                     var4 = _closure2_slot0;
                     var1['skuId'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 89:
+case 90:
                     var1 = undefined;
                     return var1;
                 }
@@ -916,17 +947,17 @@ case 0:
                     var5 = null;
                     var7 = var5 == var6;
                     var5 = undefined;
-                    if(var7) { _fun0007_ip = 91; continue _fun0007 }
-case 92:
+                    if(var7) { _fun0007_ip = 92; continue _fun0007 }
+case 93:
                     var5 = var6.status;
-case 91:
+case 92:
                     var2['httpStatus'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
-case 87:
+case 88:
             var1 = undefined;
             return var1;
         }

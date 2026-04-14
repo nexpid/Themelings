@@ -157,16 +157,10 @@ case 0:
                     var3 = var5.bind(var6)(var3);
                     if(!var3) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                    var7 = _closure1_slot5;
-                    var6 = var7.getState;
+                    var6 = _closure1_slot5;
+                    var3 = var6.getSearchResultsQuery;
                     var9 = _closure2_slot0;
-                    var3 = function(arg1) {
-                        var2 = arg1;
-                        var1 = var2.getSearchResultsQuery;
-                        var1 = var1.bind(var2)();
-                        return var1;
-                    };
-                    var8 = var6.bind(var7)(var9, var3);
+                    var8 = var3.bind(var6)(var9);
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 13;

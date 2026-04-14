@@ -303,11 +303,11 @@ case 0:
                         var2 = _closure3_slot0;
                         var8 = var3.bind(var4)(var2);
                         var2 = null;
-                        if(!(var2 == var8)) { _fun0003_ip = 15; continue _fun0003 }
+                        if(!(var2 == var8)) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
                         var3 = {'selfDeaf': false, 'deaf': false};
-                        _fun0003_ip = 16; continue _fun0003;
-case 15:
+                        _fun0003_ip = 15; continue _fun0003;
+case 2:
                         var5 = _closure1_slot0;
                         var4 = _closure1_slot2;
                         var2 = 16;
@@ -321,7 +321,7 @@ case 15:
                         var13 = var7;
                         var12 = var8;
                         var3 = var13[var6](var12, var11, var10, var9, var8);
-case 16:
+case 15:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 15;
@@ -339,15 +339,15 @@ case 16:
             var5 = var2.bind(var4)(var5);
             var2 = var5.deaf;
             var5 = var5.onPress;
-            if(var2) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(var2) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var2 = undefined;
-            if(!var9) { _fun0002_ip = 19; continue _fun0002 }
+            if(!var9) { _fun0002_ip = 18; continue _fun0002 }
 case 10:
             var2 = var7;
-case 19:
+case 18:
             var5 = var2;
-case 17:
+case 16:
             _closure2_slot1 = var5;
             var18 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -380,16 +380,16 @@ case 0:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var2 = var2.active;
-                    if(var2) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                    if(var2) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                    if(!(var2 != var3)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                     var3 = _closure2_slot1;
                     var2 = undefined;
                     var2 = var3.bind(var2)();
-case 22:
+case 21:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var3 = true;
@@ -419,7 +419,7 @@ case 22:
                     var4 = var4.bind(var5)(var3);
                     var1 = _closure2_slot0;
                     var1 = var1.bind(var2)(var3);
-case 20:
+case 19:
                     var1 = undefined;
                     return var1;
                 }
@@ -437,8 +437,8 @@ case 0:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var2 = var2.active;
-                    if(!var2) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+                    if(!var2) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var3 = false;
@@ -462,7 +462,7 @@ case 25:
                     var4 = var4.bind(var5)(var3);
                     var1 = _closure2_slot0;
                     var1 = var1.bind(var2)(var3);
-case 24:
+case 23:
                     var1 = undefined;
                     return var1;
                 }
@@ -479,12 +479,12 @@ case 0:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var2 = var2.dragging;
-                    if(var2) { _fun0006_ip = 26; continue _fun0006 }
-case 25:
+                    if(var2) { _fun0006_ip = 25; continue _fun0006 }
+case 24:
                     var2 = _closure2_slot6;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 26:
+case 25:
                     var1 = undefined;
                     return var1;
                 }
@@ -500,8 +500,8 @@ case 0:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var2 = var2.dragging;
-                    if(var2) { _fun0007_ip = 27; continue _fun0007 }
-case 25:
+                    if(var2) { _fun0007_ip = 26; continue _fun0007 }
+case 24:
                     var2 = _closure2_slot4;
                     var3 = var2.current;
                     var2 = true;
@@ -509,7 +509,7 @@ case 25:
                     var2 = _closure2_slot5;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 27:
+case 26:
                     var1 = undefined;
                     return var1;
                 }
@@ -549,8 +549,8 @@ case 0:
                         var3 = var6.bind(var1)(var3);
                         var3 = var3.State;
                         var3 = var3.BEGAN;
-                        if(!(var5 === var3)) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
+                        if(!(var5 === var3)) { _fun0008_ip = 27; continue _fun0008 }
+case 28:
                         var3 = var4.activate;
                         var3 = var3.bind(var4)();
                         var3 = _closure1_slot0;
@@ -562,7 +562,7 @@ case 29:
                         var2 = _closure2_slot7;
                         var2 = var3.bind(var4)(var2);
                         var2 = var2.bind(var1)();
-case 28:
+case 27:
                         return var1;
                     }
                 };
@@ -662,13 +662,13 @@ case 28:
             var14 = var14.Q8gkVL;
             var14 = var15.bind(var16)(var14);
             var9['accessibilityLabel'] = var14;
-            if(var17) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
-            var14 = var11.iconBg;
-            _fun0002_ip = 32; continue _fun0002;
+            if(var17) { _fun0002_ip = 29; continue _fun0002 }
 case 30:
+            var14 = var11.iconBg;
+            _fun0002_ip = 31; continue _fun0002;
+case 29:
             var14 = var11.iconBgSelected;
-case 32:
+case 31:
             var9['style'] = var14;
             var16 = _closure1_slot13;
             var15 = _closure1_slot0;
@@ -678,15 +678,15 @@ case 32:
             var14 = var15.bind(var4)(var14);
             var15 = var14.MicrophoneIcon;
             var14 = {};
-            if(var17) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+            if(var17) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var17 = var11.iconFill;
             var17 = var17.color;
-            _fun0002_ip = 35; continue _fun0002;
-case 33:
+            _fun0002_ip = 34; continue _fun0002;
+case 32:
             var18 = var11.iconFillSelected;
             var17 = var18.color;
-case 35:
+case 34:
             var14['color'] = var17;
             var17 = 'lg';
             var14['size'] = var17;
@@ -779,8 +779,8 @@ case 0:
                     var1 = var4.bind(var5)(var1);
                     var1 = var1.DominantMuteState;
                     var1 = var1.SERVER_MUTE;
-                    if(!(var3 !== var1)) { _fun0010_ip = 36; continue _fun0010 }
-case 27:
+                    if(!(var3 !== var1)) { _fun0010_ip = 35; continue _fun0010 }
+case 26:
                     var4 = _closure1_slot13;
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -791,21 +791,21 @@ case 27:
                     var1 = {};
                     var7 = _closure2_slot0;
                     var8 = _closure2_slot2;
-                    if(var7) { _fun0010_ip = 37; continue _fun0010 }
-case 38:
+                    if(var7) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
                     var7 = var8.iconFill;
                     var7 = var7.color;
-                    _fun0010_ip = 39; continue _fun0010;
-case 37:
+                    _fun0010_ip = 38; continue _fun0010;
+case 36:
                     var8 = var8.iconFillRed;
                     var7 = var8.color;
-case 39:
+case 38:
                     var1['color'] = var7;
                     var7 = _closure2_slot0;
                     var1['muted'] = var7;
                     var1 = var4.bind(var5)(var3, var1);
-                    _fun0010_ip = 40; continue _fun0010;
-case 36:
+                    _fun0010_ip = 39; continue _fun0010;
+case 35:
                     var4 = _closure1_slot13;
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -819,7 +819,7 @@ case 36:
                     var6 = var6.color;
                     var2['color'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 40:
+case 39:
                     return var1;
                 }
             };
@@ -841,23 +841,23 @@ case 40:
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.t;
-            if(var6) { _fun0009_ip = 41; continue _fun0009 }
-case 42:
+            if(var6) { _fun0009_ip = 40; continue _fun0009 }
+case 41:
             var8 = var9.w4m945;
             var8 = var10.bind(var11)(var8);
-            _fun0009_ip = 43; continue _fun0009;
-case 41:
+            _fun0009_ip = 42; continue _fun0009;
+case 40:
             var9 = var9.YqAjXy;
             var8 = var10.bind(var11)(var9);
-case 43:
+case 42:
             var1['accessibilityLabel'] = var8;
-            if(var6) { _fun0009_ip = 44; continue _fun0009 }
-case 45:
-            var6 = var7.iconBg;
-            _fun0009_ip = 46; continue _fun0009;
+            if(var6) { _fun0009_ip = 43; continue _fun0009 }
 case 44:
+            var6 = var7.iconBg;
+            _fun0009_ip = 45; continue _fun0009;
+case 43:
             var6 = var7.iconBgVoiceMuted;
-case 46:
+case 45:
             var1['style'] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -11,40 +11,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var2 = var1.searchContext;
         var _closure2_slot0 = var2;
-        var11 = var1.isFocused;
-        var _closure2_slot1 = var11;
-        var4 = _closure1_slot7;
-        var3 = var4.useState;
-        var1 = function(arg1) {
-            var2 = arg1;
-            var1 = var2.isInitialSearchQuery;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var1 = var3.bind(var4)(var2, var1);
-        var _closure2_slot2 = var1;
+        var13 = var1.isFocused;
+        var _closure2_slot1 = var13;
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var3 = 8;
-        var3 = var7[var3];
+        var1 = 8;
+        var3 = var7[var1];
         var4 = undefined;
-        var10 = var6.bind(var4)(var3);
-        var9 = var10.useFullscreenPlaceholderCount;
-        var3 = {};
+        var12 = var6.bind(var4)(var3);
+        var11 = var12.useStateFromStores;
+        var3 = _closure1_slot7;
+        var10 = new Array(1);
+        var10[0] = var3;
+        var9 = new Array(1);
+        var9[0] = var2;
+        var3 = function() {
+            var3 = _closure1_slot7;
+            var2 = var3.isInitialSearchQuery;
+            var1 = _closure2_slot0;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var3 = var11.bind(var12)(var10, var3, var9);
+        var _closure2_slot2 = var3;
+        var9 = 9;
+        var9 = var7[var9];
+        var11 = var6.bind(var4)(var9);
+        var10 = var11.useFullscreenPlaceholderCount;
+        var9 = {};
         var12 = _closure1_slot8;
-        var3['placeholderHeight'] = var12;
+        var9['placeholderHeight'] = var12;
         var12 = 1;
-        var3['numColumns'] = var12;
-        var12 = var9.bind(var10)(var3);
+        var9['numColumns'] = var12;
+        var12 = var10.bind(var11)(var9);
         var _closure2_slot3 = var12;
-        var10 = _closure1_slot3;
-        var9 = var10.useEffect;
-        var3 = new Array(3);
-        var3[0] = var11;
-        var3[1] = var1;
-        var1 = var2.channelId;
-        var3[2] = var1;
-        var1 = function() {
+        var11 = _closure1_slot3;
+        var10 = var11.useEffect;
+        var9 = new Array(3);
+        var9[0] = var13;
+        var9[1] = var3;
+        var3 = var2.channelId;
+        var9[2] = var3;
+        var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var2 = _closure2_slot2;
@@ -56,7 +64,7 @@ case 2:
 case 5:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 9;
+                var2 = 10;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -69,8 +77,7 @@ case 4:
                 return var1;
             }
         };
-        var1 = var9.bind(var10)(var1, var3);
-        var1 = 10;
+        var3 = var10.bind(var11)(var3, var9);
         var1 = var7[var1];
         var10 = var6.bind(var4)(var1);
         var9 = var10.useStateFromStoresObject;
@@ -279,7 +286,7 @@ case 15:
 case 0:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -380,58 +387,68 @@ case 18:
     var2 = function PinsScreen(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var1 = arg1;
-            var8 = var1.searchContext;
-            var7 = var1.tab;
-            var6 = var1.isFocused;
-            var4 = _closure1_slot7;
-            var3 = var4.useState;
-            var1 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.isInitialSearchQuery;
-                var1 = var1.bind(var2)();
+            var2 = arg1;
+            var8 = var2.searchContext;
+            var _closure2_slot0 = var8;
+            var7 = var2.tab;
+            var6 = var2.isFocused;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 8;
+            var3 = var5[var3];
+            var5 = undefined;
+            var10 = var4.bind(var5)(var3);
+            var9 = var10.useStateFromStores;
+            var3 = _closure1_slot7;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = new Array(1);
+            var3[0] = var8;
+            var1 = function() {
+                var3 = _closure1_slot7;
+                var2 = var3.isInitialSearchQuery;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var1 = var3.bind(var4)(var8, var1);
+            var1 = var9.bind(var10)(var4, var1, var3);
             if(!var1) { _fun0006_ip = 21; continue _fun0006 }
-case 16:
+case 22:
             var3 = var8.type;
             var1 = _closure1_slot13;
             var1 = var1.CHANNEL;
-            if(!(var3 !== var1)) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+            if(!(var3 !== var1)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
             var3 = var8.type;
             var1 = _closure1_slot13;
             var1 = var1.GUILD_CHANNEL;
-            if(!(var3 !== var1)) { _fun0006_ip = 22; continue _fun0006 }
-case 24:
+            if(!(var3 !== var1)) { _fun0006_ip = 23; continue _fun0006 }
+case 15:
             var3 = var8.type;
             var1 = _closure1_slot13;
             var1 = var1.THREAD;
             if(!(var3 === var1)) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
-            var5 = _closure1_slot14;
-            var4 = _closure1_slot15;
-            var3 = {};
-            var3['searchContext'] = var8;
-            var3['tab'] = var7;
-            var3['isFocused'] = var6;
-            var1 = undefined;
-            var1 = var5.bind(var1)(var4, var3);
+case 23:
+            var4 = _closure1_slot14;
+            var3 = _closure1_slot15;
+            var1 = {};
+            var1['searchContext'] = var8;
+            var1['tab'] = var7;
+            var1['isFocused'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
             _fun0006_ip = 25; continue _fun0006;
 case 21:
-            var5 = _closure1_slot14;
+            var4 = _closure1_slot14;
             var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 16;
-            var2 = var4[var2];
-            var4 = undefined;
-            var3 = var3.bind(var4)(var2);
+            var2 = var9[var2];
+            var3 = var3.bind(var5)(var2);
             var2 = {};
             var2['searchContext'] = var8;
             var2['tab'] = var7;
             var2['isFocused'] = var6;
-            var1 = var5.bind(var4)(var3, var2);
+            var1 = var4.bind(var5)(var3, var2);
 case 25:
             return var1;
         }

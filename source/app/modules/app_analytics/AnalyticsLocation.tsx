@@ -570,6 +570,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EDIT_PROFILE_EFFECT_MODAL'] = var1;
     var1 = 'edit profile effect action sheet';
     var2['EDIT_PROFILE_EFFECT_SHEET'] = var1;
+    var1 = 'edit profile frame action sheet';
+    var2['EDIT_PROFILE_FRAME_SHEET'] = var1;
     var1 = 'edit nameplate modal';
     var2['EDIT_NAMEPLATE_MODAL'] = var1;
     var1 = 'edit nameplate sheet';
@@ -940,6 +942,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APP_MESSAGE_EMBED'] = var1;
     var1 = 'user settings sessions';
     var2['USER_SETTINGS_SESSIONS'] = var1;
+    var1 = 'user settings connections';
+    var2['USER_SETTINGS_CONNECTIONS'] = var1;
     var1 = 'mobile app manage premium subscription cta';
     var2['MOBILE_APP_MANAGE_PREMIUM_SUBSCRIPTION_CTA'] = var1;
     var1 = 'sharing controls coachmark';
@@ -1133,6 +1137,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FAVORITES_GUILD_BUTTON'] = var1;
     var1 = 'favorites guild menu item';
     var2['FAVORITES_GUILD_MENU_ITEM'] = var1;
+    var1 = 'action sheet';
+    var2['ACTION_SHEET'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -187,7 +187,7 @@ case 13:
                     var5 = var6.push;
                     var5 = var5.bind(var6)(var7);
                     if(!var4) { _fun0003_ip = 16; continue _fun0003 }
-case 12:
+case 17:
                     var7 = _closure3_slot1;
                     var6 = var7.addEventListener;
                     var5 = {};
@@ -203,14 +203,14 @@ case 0:
                             var3 = _closure4_slot1;
                             var5 = var4.bind(var5)(var3);
                             var3 = 0;
-                            if(!(var5 >= var3)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+                            if(!(var5 >= var3)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                             var2 = _closure3_slot0;
                             var4 = var2._queue;
                             var3 = var4.splice;
                             var2 = 1;
                             var2 = var3.bind(var4)(var5, var2);
-case 17:
+case 18:
                             var3 = _closure4_slot0;
                             var1 = global;
                             var4 = var1.Error;
@@ -230,7 +230,7 @@ case 16:
                     var2 = _closure3_slot0;
                     var1 = var2._processQueue;
                     var1 = var1.bind(var2)();
-                    _fun0003_ip = 19; continue _fun0003;
+                    _fun0003_ip = 20; continue _fun0003;
 case 15:
                     var1 = global;
                     var4 = var1.Error;
@@ -242,7 +242,7 @@ case 15:
                     var2 = var1 instanceof Object ? var1 : var2;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 19:
+case 20:
                     var1 = undefined;
                     return var1;
                 }

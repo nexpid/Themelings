@@ -68,17 +68,25 @@ case 0:
             var2 = var3.useSearchMessages;
             var16 = var2.bind(var3)(var13, var12);
             var _closure2_slot1 = var16;
-            var7 = _closure1_slot4;
-            var3 = var7.useState;
-            var2 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getSearchResultsQuery;
-                var1 = var1.bind(var2)();
+            var2 = 5;
+            var2 = var6[var2];
+            var9 = var5.bind(var4)(var2);
+            var8 = var9.useStateFromStores;
+            var2 = _closure1_slot4;
+            var7 = new Array(1);
+            var7[0] = var2;
+            var3 = new Array(1);
+            var3[0] = var13;
+            var2 = function() {
+                var3 = _closure1_slot4;
+                var2 = var3.getSearchResultsQuery;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var2 = var3.bind(var7)(var13, var2);
+            var2 = var8.bind(var9)(var7, var2, var3);
             var _closure2_slot2 = var2;
-            var3 = 5;
+            var3 = 6;
             var3 = var6[var3];
             var6 = var5.bind(var4)(var3);
             var5 = var6.useOnPressMessageItem;
@@ -97,7 +105,7 @@ case 0:
                 var3 = var1.messageId;
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 6;
+                var1 = 7;
                 var2 = var2[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var2);
@@ -140,7 +148,7 @@ case 4:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 7;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -157,7 +165,7 @@ case 4:
             _closure2_slot7 = var15;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 8;
+            var2 = 9;
             var2 = var9[var2];
             var5 = var8.bind(var4)(var2);
             var3 = var5.useSearchMessagesLoadingState;
@@ -228,7 +236,7 @@ case 6:
 case 5:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 10;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -264,14 +272,14 @@ case 7:
                 }
             };
             var14 = var3.bind(var7)(var1, var2);
-            var1 = 10;
+            var1 = 11;
             var1 = var9[var1];
             var2 = var8.bind(var4)(var1);
             var1 = var2.useContentContainerStyles;
             var7 = var1.bind(var2)();
             var3 = _closure1_slot12;
             var2 = _closure1_slot1;
-            var1 = 6;
+            var1 = 7;
             var1 = var9[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -283,7 +291,7 @@ case 7:
             var1['estimatedItemSize'] = var10;
             var7 = var7.messagesContentContainer;
             var1['contentContainerStyle'] = var7;
-            var7 = 11;
+            var7 = 12;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.MessageVerticalSeparator;
@@ -295,7 +303,7 @@ case 7:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

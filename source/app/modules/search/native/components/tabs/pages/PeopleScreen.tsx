@@ -67,30 +67,35 @@ case 0:
             var7 = var7.bind(var8)(var6);
             var _closure2_slot1 = var7;
             var7 = 8;
-            var7 = var4[var7];
-            var10 = var3.bind(var5)(var7);
-            var9 = var10.useStateFromStores;
-            var7 = _closure1_slot5;
-            var8 = new Array(1);
-            var8[0] = var7;
-            var7 = function() {
+            var8 = var4[var7];
+            var11 = var3.bind(var5)(var8);
+            var10 = var11.useStateFromStores;
+            var8 = _closure1_slot5;
+            var9 = new Array(1);
+            var9[0] = var8;
+            var8 = function() {
                 var3 = _closure1_slot5;
                 var2 = var3.getResults;
                 var1 = _closure2_slot1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var10 = var9.bind(var10)(var8, var7);
+            var10 = var10.bind(var11)(var9, var8);
             var _closure2_slot2 = var10;
-            var9 = _closure1_slot6;
-            var8 = var9.useState;
-            var7 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.isInitialSearchQuery;
-                var1 = var1.bind(var2)();
+            var7 = var4[var7];
+            var11 = var3.bind(var5)(var7);
+            var9 = var11.useStateFromStores;
+            var7 = _closure1_slot6;
+            var8 = new Array(1);
+            var8[0] = var7;
+            var7 = function() {
+                var3 = _closure1_slot6;
+                var2 = var3.isInitialSearchQuery;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var12 = var8.bind(var9)(var6, var7);
+            var12 = var9.bind(var11)(var8, var7);
             var _closure2_slot3 = var12;
             var7 = 9;
             var7 = var4[var7];

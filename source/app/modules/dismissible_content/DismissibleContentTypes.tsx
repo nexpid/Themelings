@@ -146,7 +146,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    var18 = new Array(18);
+    var18 = new Array(20);
     var18[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -233,6 +233,16 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.QUEST_HOME_NEW_QUEST_BADGE;
     var18[17] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.RIOT_CONNECTION_DEPRECATION;
+    var18[18] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.RIOT_CONNECTION_DEPRECATION_ADMIN;
+    var18[19] = var14;
     var _closure1_slot1 = var18;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

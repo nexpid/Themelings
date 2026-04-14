@@ -1110,8 +1110,8 @@ case 132: // try_start_1
                 var8 = var8.bind(var6)(var5);
                 var5 = var8.isGooglePlayBillingSupported;
                 var5 = var5.bind(var8)();
-                if(var5) { _fun0010_ip = 145; continue _fun0010 }
-case 146:
+                if(var5) { _fun0010_ip = 63; continue _fun0010 }
+case 145:
                 var9 = var3;
                 var10 = undefined;
                 var11 = undefined;
@@ -1128,7 +1128,7 @@ case 146:
 case 54:
                 var8 = var10;
                 var13 = var8.value;
-case 147: // try_start_0
+case 146: // try_start_0
                 var14 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var8 = var8[var9];
@@ -1139,11 +1139,11 @@ case 147: // try_start_0
                 var14 = var5;
                 var8 = var14.push;
                 var8 = var8.bind(var14)(var15);
-case 148: // try_end0
-                _fun0010_ip = 149; continue _fun0010;
-case 150: // catch_target0
+case 147: // try_end0
+                _fun0010_ip = 148; continue _fun0010;
+case 149: // catch_target0
                 CatchBlockStart(arg_register=7);
-case 149:
+case 148:
                 var8 = var11;
                 var8 = var8.bind(var6)();
                 var10 = var8;
@@ -1152,24 +1152,24 @@ case 149:
 case 58:
                 var8 = var5;
                 var8 = var8.length;
-                if(!(var12 !== var8)) { _fun0010_ip = 151; continue _fun0010 }
-case 152:
+                if(!(var12 !== var8)) { _fun0010_ip = 150; continue _fun0010 }
+case 151:
                 var10 = _closure1_slot24;
                 var9 = var5;
                 var5 = _closure1_slot10;
                 var8 = var5.GIFT;
                 var5 = true;
                 var8 = var10.bind(var6)(var9, var8, var5);
-                _fun0010_ip = 153; continue _fun0010;
-case 151:
+                _fun0010_ip = 152; continue _fun0010;
+case 150:
                 var5 = global;
                 var10 = var5.Promise;
                 var9 = var10.resolve;
                 var5 = new Array(0);
                 var8 = var9.bind(var10)(var5);
+case 152:
+                SaveGenerator(address=357);
 case 153:
-                SaveGenerator(address=358);
-case 130:
                 return var8;
 case 154:
                 ResumeGenerator(result_out_reg=7, return_bool_out_reg=4);
@@ -1178,11 +1178,11 @@ case 154:
                 if(!var9) { _fun0010_ip = 155; continue _fun0010 }
 case 156: // try_end1
                 return var8;
-case 145: // try_start_2
+case 63: // try_start_2
                 var9 = _closure1_slot16;
                 var8 = var9.getIAPSkus;
                 var3 = var8.bind(var9)(var3);
-                SaveGenerator(address=394);
+                SaveGenerator(address=393);
 case 157:
                 return var3;
 case 158:

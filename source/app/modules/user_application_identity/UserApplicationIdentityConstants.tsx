@@ -1,0 +1,34 @@
+// app/modules/user_application_identity/UserApplicationIdentityConstants.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var5 = {};
+    var1 = '1443033465766281327';
+    var5['RIOT_GAMES'] = var1;
+    var1 = var5.RIOT_GAMES;
+    var4 = new Array(1);
+    var4[0] = var1;
+    var1 = var5.RIOT_GAMES;
+    var2 = new Array(1);
+    var2[0] = var1;
+    var6 = dependencyMap;
+    var1 = 0;
+    var7 = var6[var1];
+    var6 = require;
+    var1 = undefined;
+    var8 = var6.bind(var1)(var7);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/user_application_identity/UserApplicationIdentityConstants.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['ApplicationIdentityConnections'] = var5;
+    var3['APPLICATION_IDENTITY_CONNECTIONS_ALLOWED_APPLICATIONS'] = var4;
+    var3['APPLICATION_IDENTITY_CONNECTIONS_SCREEN_APPLICATIONS'] = var2;
+    return var1;
+})();

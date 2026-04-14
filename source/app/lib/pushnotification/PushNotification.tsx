@@ -640,7 +640,7 @@ case 25:
 case 24:
                 var8 = 'notification';
                 if(!(var8 === var4)) { _fun0018_ip = 27; continue _fun0018 }
-case 20:
+case 28:
                 var7 = _closure1_slot4;
                 var6 = var7.addListener;
                 var5 = function(arg1) {
@@ -651,19 +651,19 @@ case 0:
                         var2 = arg1;
                         var3 = var3.bind(var1)(var2);
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0019_ip = 28; continue _fun0019 }
-case 29:
+                        if(!(var2 != var3)) { _fun0019_ip = 29; continue _fun0019 }
+case 30:
                         var2 = _closure2_slot0;
                         var2 = var2.bind(var1)(var3);
-case 28:
+case 29:
                         return var1;
                     }
                 };
                 var5 = var6.bind(var7)(var8, var5);
 case 27:
                 var7 = 'localNotification';
-                if(!(var7 === var4)) { _fun0018_ip = 30; continue _fun0018 }
-case 31:
+                if(!(var7 === var4)) { _fun0018_ip = 31; continue _fun0018 }
+case 32:
                 var6 = _closure1_slot4;
                 var5 = var6.addListener;
                 var3 = function(arg1) {
@@ -674,16 +674,16 @@ case 0:
                         var2 = arg1;
                         var3 = var3.bind(var1)(var2);
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0020_ip = 28; continue _fun0020 }
-case 29:
+                        if(!(var2 != var3)) { _fun0020_ip = 29; continue _fun0020 }
+case 30:
                         var2 = _closure2_slot0;
                         var2 = var2.bind(var1)(var3);
-case 28:
+case 29:
                         return var1;
                     }
                 };
                 var3 = var5.bind(var6)(var7, var3);
-case 30:
+case 31:
                 var3 = _closure1_slot3;
                 var2 = var3.registerEventListener;
                 var2 = var2.bind(var3)(var4);
@@ -705,8 +705,8 @@ case 0:
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.isAndroid;
                 var4 = var4.bind(var5)();
-                if(var4) { _fun0021_ip = 32; continue _fun0021 }
-case 33:
+                if(var4) { _fun0021_ip = 33; continue _fun0021 }
+case 34:
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var4 = 2;
@@ -715,8 +715,8 @@ case 33:
                 var5 = var6.addEventListener;
                 var4 = 'register';
                 var4 = var5.bind(var6)(var4, var7);
-                _fun0021_ip = 34; continue _fun0021;
-case 32:
+                _fun0021_ip = 35; continue _fun0021;
+case 33:
                 var6 = _closure1_slot4;
                 var5 = var6.addListener;
                 var4 = 'register';
@@ -732,7 +732,7 @@ case 32:
                 var3 = _closure1_slot3;
                 var2 = var3.registerEventListener;
                 var2 = var2.bind(var3)(var4);
-case 34:
+case 35:
                 return var1;
             }
         };
@@ -755,12 +755,12 @@ case 0:
                     var6 = var6.bind(var1)(var4);
                     var4 = var6.isAndroid;
                     var4 = var4.bind(var6)();
-                    if(var4) { _fun0022_ip = 35; continue _fun0022 }
-case 33:
+                    if(var4) { _fun0022_ip = 36; continue _fun0022 }
+case 34:
                     var4 = false;
                     var4 = var5.bind(var1)(var4);
                     _fun0022_ip = 14; continue _fun0022;
-case 35:
+case 36:
                     var4 = _closure1_slot3;
                     var3 = var4.getSoundsEnabled;
                     var4 = var3.bind(var4)();
@@ -801,12 +801,12 @@ case 0:
                     var6 = var6.bind(var1)(var4);
                     var4 = var6.isAndroid;
                     var4 = var4.bind(var6)();
-                    if(var4) { _fun0023_ip = 35; continue _fun0023 }
-case 33:
+                    if(var4) { _fun0023_ip = 36; continue _fun0023 }
+case 34:
                     var4 = false;
                     var4 = var5.bind(var1)(var4);
                     _fun0023_ip = 14; continue _fun0023;
-case 35:
+case 36:
                     var4 = _closure1_slot3;
                     var3 = var4.getVibrationsEnabled;
                     var4 = var3.bind(var4)();
@@ -847,12 +847,12 @@ case 0:
                     var6 = var6.bind(var1)(var4);
                     var4 = var6.isAndroid;
                     var4 = var4.bind(var6)();
-                    if(var4) { _fun0024_ip = 35; continue _fun0024 }
-case 33:
+                    if(var4) { _fun0024_ip = 36; continue _fun0024 }
+case 34:
                     var4 = false;
                     var4 = var5.bind(var1)(var4);
                     _fun0024_ip = 14; continue _fun0024;
-case 35:
+case 36:
                     var4 = _closure1_slot3;
                     var3 = var4.getLightsEnabled;
                     var4 = var3.bind(var4)();
@@ -886,13 +886,13 @@ case 0:
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.isAndroid;
                 var3 = var3.bind(var4)();
-                if(!var3) { _fun0025_ip = 35; continue _fun0025 }
+                if(!var3) { _fun0025_ip = 36; continue _fun0025 }
 case 9:
                 var4 = _closure1_slot3;
                 var3 = var4.setSoundsEnabled;
                 var2 = arg1;
                 var2 = var3.bind(var4)(var2);
-case 35:
+case 36:
                 return var1;
             }
         };
@@ -908,13 +908,13 @@ case 0:
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.isAndroid;
                 var3 = var3.bind(var4)();
-                if(!var3) { _fun0026_ip = 35; continue _fun0026 }
+                if(!var3) { _fun0026_ip = 36; continue _fun0026 }
 case 9:
                 var4 = _closure1_slot3;
                 var3 = var4.setVibrationsEnabled;
                 var2 = arg1;
                 var2 = var3.bind(var4)(var2);
-case 35:
+case 36:
                 return var1;
             }
         };
@@ -930,13 +930,13 @@ case 0:
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.isAndroid;
                 var3 = var3.bind(var4)();
-                if(!var3) { _fun0027_ip = 35; continue _fun0027 }
+                if(!var3) { _fun0027_ip = 36; continue _fun0027 }
 case 9:
                 var4 = _closure1_slot3;
                 var3 = var4.setLightsEnabled;
                 var2 = arg1;
                 var2 = var3.bind(var4)(var2);
-case 35:
+case 36:
                 return var1;
             }
         };
@@ -952,13 +952,13 @@ case 0:
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.isAndroid;
                 var3 = var3.bind(var4)();
-                if(!var3) { _fun0028_ip = 36; continue _fun0028 }
+                if(!var3) { _fun0028_ip = 37; continue _fun0028 }
 case 9:
                 var4 = _closure1_slot3;
                 var3 = var4.setNotifyEveryTime;
                 var2 = arg1;
                 var2 = var3.bind(var4)(var2);
-case 36:
+case 37:
                 return var1;
             }
         };
@@ -981,12 +981,12 @@ case 0:
                     var6 = var6.bind(var1)(var4);
                     var4 = var6.isAndroid;
                     var4 = var4.bind(var6)();
-                    if(var4) { _fun0029_ip = 35; continue _fun0029 }
-case 33:
+                    if(var4) { _fun0029_ip = 36; continue _fun0029 }
+case 34:
                     var4 = false;
                     var4 = var5.bind(var1)(var4);
                     _fun0029_ip = 17; continue _fun0029;
-case 35:
+case 36:
                     var4 = _closure1_slot3;
                     var3 = var4.shouldNotifyEveryTime;
                     var4 = var3.bind(var4)();

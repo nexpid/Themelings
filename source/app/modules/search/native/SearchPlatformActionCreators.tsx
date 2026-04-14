@@ -21,11 +21,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var2 = var2.SearchTypes;
     var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
     var2 = {};
     var7 = function searchPeopleTab(arg1, arg2) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -33,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = arg1;
         var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -50,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function cleanupPeopleTab(arg1) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -58,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = arg1;
         var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -79,14 +85,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var1.threadId;
         var9 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var3 = var4[var1];
         var1 = undefined;
         var9 = var9.bind(var1)(var3);
         var3 = var9.getSearchContextId;
         var9 = var3.bind(var9)(var10);
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -105,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function cleanupGuildMemberTab(arg1) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -113,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = arg1;
         var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -132,14 +138,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var1.guildId;
         var7 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var3 = var4[var1];
         var1 = undefined;
         var7 = var7.bind(var1)(var3);
         var3 = var7.getSearchContextId;
         var7 = var3.bind(var7)(var8);
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -156,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function cleanupGuildChannelTab(arg1) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -164,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = arg1;
         var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -192,14 +198,14 @@ case 3:
 case 2:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 1;
+            var2 = 3;
             var2 = var5[var2];
             var3 = undefined;
             var4 = var4.bind(var3)(var2);
             var2 = var4.getSearchContextId;
             var4 = var2.bind(var4)(var6);
             var2 = _closure1_slot1;
-            var1 = 2;
+            var1 = 4;
             var1 = var5[var1];
             var3 = var2.bind(var3)(var1);
             var2 = var3.dispatch;
@@ -219,7 +225,7 @@ case 4:
     var7 = function removeSearchHistoryItem(arg1, arg2) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -227,7 +233,7 @@ case 4:
         var3 = arg1;
         var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -241,10 +247,10 @@ case 4:
         return var1;
     };
     var2['removeSearchHistoryItem'] = var7;
-    var4 = function clearSearchHistory(arg1) {
+    var7 = function clearSearchHistory(arg1) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -252,7 +258,7 @@ case 4:
         var3 = arg1;
         var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -263,8 +269,81 @@ case 4:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['clearSearchHistory'] = var4;
-    var4 = 3;
+    var2['clearSearchHistory'] = var7;
+    var7 = function updateSearchQuery(arg1, arg2) {
+        var5 = arg1;
+        var6 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 3;
+        var3 = var4[var1];
+        var1 = undefined;
+        var6 = var6.bind(var1)(var3);
+        var3 = var6.getSearchContextId;
+        var6 = var3.bind(var6)(var5);
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var7 = 'SEARCH_QUERY_NATIVE_UPDATE';
+        var2['type'] = var7;
+        var2['id'] = var6;
+        var2['searchContext'] = var5;
+        var5 = arg2;
+        var2['updater'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['updateSearchQuery'] = var7;
+    var7 = function deleteSearchQuery(arg1) {
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 3;
+        var3 = var4[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var3);
+        var5 = var6.getSearchContextId;
+        var3 = arg1;
+        var5 = var5.bind(var6)(var3);
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var6 = 'SEARCH_QUERY_NATIVE_DELETE';
+        var2['type'] = var6;
+        var2['id'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['deleteSearchQuery'] = var7;
+    var4 = function initializeSearchQuery(arg1) {
+        var5 = arg1;
+        var6 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 3;
+        var3 = var4[var1];
+        var1 = undefined;
+        var6 = var6.bind(var1)(var3);
+        var3 = var6.getSearchContextId;
+        var6 = var3.bind(var6)(var5);
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var7 = 'SEARCH_QUERY_NATIVE_INITIALIZE';
+        var2['type'] = var7;
+        var2['id'] = var6;
+        var2['searchContext'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['initializeSearchQuery'] = var4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
