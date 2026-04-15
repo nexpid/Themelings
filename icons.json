@@ -2380,14 +2380,14 @@
         "height": 118
     },
     "DiceIcon": {
-        "file": "app/modules/hang_status/images/native/DiceIcon.png",
-        "hash": "985b4e92cbb48a66fc4c57670189d253",
+        "file": "app/design/components/Icon/native/redesign/generated/images/DiceIcon.png",
+        "hash": "0272dced0f6c0fbc37cda949ecb8a378",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 24,
+        "height": 24
     },
     "disconnect": {
         "file": "app/modules/video_calls/native/images/disconnect.png",
@@ -5572,16 +5572,6 @@
         "hash": "bb061f50f0c26bcf1817896eee7a9443",
         "scales": [
             1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_reaction_smile": {
-        "file": "app/images/native/ic_reaction_smile.png",
-        "hash": "f7ffec41c9bbe61d134e1fd8fcff0768",
-        "scales": [
             2,
             3
         ],
@@ -11559,6 +11549,16 @@
     "StampIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StampIcon.png",
         "hash": "4ca3f49624db00fa92c0d848adcbd326",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "StampXIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/StampXIcon.png",
+        "hash": "8fac2258402ebf2cc1f56faa719e8e1a",
         "scales": [
             2,
             3
