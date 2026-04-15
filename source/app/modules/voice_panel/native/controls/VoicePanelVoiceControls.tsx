@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var21 = var1.channel;
-            var27 = var1.openTab;
+            var20 = var1.openTab;
             var6 = _closure1_slot3;
             var2 = var6.useContext;
             var3 = _closure1_slot1;
@@ -114,15 +114,15 @@ case 0:
             var6 = var1.DeveloperMode;
             var1 = var6.useSetting;
             var8 = var1.bind(var6)();
-            var25 = 12;
-            var1 = var5[var25];
+            var19 = 12;
+            var1 = var5[var19];
             var7 = var3.bind(var4)(var1);
             var6 = var7.useConfig;
             var1 = {};
             var11 = 'VoicePanelVoiceControls';
             var1['location'] = var11;
             var1 = var6.bind(var7)(var1);
-            var22 = var1.treatment;
+            var17 = var1.treatment;
             var1 = 13;
             var1 = var5[var1];
             var7 = var3.bind(var4)(var1);
@@ -147,79 +147,72 @@ case 0:
             if(!var12) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var13 = _closure1_slot6;
-            var17 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var18 = _closure1_slot0;
+            var15 = _closure1_slot2;
             var5 = 16;
-            var5 = var19[var5];
-            var5 = var17.bind(var4)(var5);
+            var5 = var15[var5];
+            var5 = var18.bind(var4)(var5);
             var11 = var5.TableRowGroup;
             var5 = {};
             var14 = true;
             var5['hasIcons'] = var14;
-            var18 = _closure1_slot5;
-            var15 = 17;
-            var14 = var19[var15];
-            var14 = var17.bind(var4)(var14);
-            var20 = var14.ActivitiesButton;
+            var25 = _closure1_slot5;
+            var22 = 17;
+            var14 = var15[var22];
+            var14 = var18.bind(var4)(var14);
+            var23 = var14.ActivitiesButton;
             var14 = {};
-            var14['openTab'] = var27;
-            var20 = var18.bind(var4)(var20, var14);
-            var14 = new Array(3);
-            var14[0] = var20;
-            var20 = var19[var25];
-            var20 = var17.bind(var4)(var20);
-            var20 = var20.MobileGoLiveEntrypointTreatment;
-            var20 = var20.SCREENSHARE_REPLACES_CHAT;
-            if(!(var20 !== var22)) { _fun0001_ip = 4; continue _fun0001 }
+            var14['openTab'] = var20;
+            var23 = var25.bind(var4)(var23, var14);
+            var14 = new Array(2);
+            var14[0] = var23;
+            var15 = var15[var19];
+            var15 = var18.bind(var4)(var15);
+            var15 = var15.MobileGoLiveEntrypointTreatment;
+            var15 = var15.SCREENSHARE_REPLACES_CHAT;
+            if(!(var15 !== var17)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var23 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var20 = var20[var25];
-            var20 = var23.bind(var4)(var20);
-            var20 = var20.MobileGoLiveEntrypointTreatment;
-            var20 = var20.SCREENSHARE_REPLACES_SOUNDBOARD;
-            if(!(var20 !== var22)) { _fun0001_ip = 6; continue _fun0001 }
+            var18 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var19];
+            var15 = var18.bind(var4)(var15);
+            var15 = var15.MobileGoLiveEntrypointTreatment;
+            var15 = var15.SCREENSHARE_REPLACES_SOUNDBOARD;
+            if(!(var15 !== var17)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var23 = _closure1_slot5;
-            var22 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var20 = var20[var15];
-            var20 = var22.bind(var4)(var20);
-            var22 = var20.ScreenshareButton;
-            var20 = {};
-            var20['channel'] = var21;
-            var20 = var23.bind(var4)(var22, var20);
-            _fun0001_ip = 8; continue _fun0001;
-case 6:
-            var25 = _closure1_slot5;
-            var23 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var22 = var22[var15];
-            var22 = var23.bind(var4)(var22);
-            var23 = var22.SoundboardButton;
-            var22 = {};
-            var22['channel'] = var21;
-            var20 = var25.bind(var4)(var23, var22);
-            _fun0001_ip = 8; continue _fun0001;
-case 4:
-            var25 = _closure1_slot5;
-            var23 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var22 = var22[var15];
-            var22 = var23.bind(var4)(var22);
-            var23 = var22.ChatButton;
-            var22 = {};
-            var22['openTab'] = var27;
-            var20 = var25.bind(var4)(var23, var22);
-case 8:
-            var14[1] = var20;
-            var15 = var19[var15];
+            var18 = _closure1_slot5;
+            var17 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var22];
             var15 = var17.bind(var4)(var15);
-            var17 = var15.HangStatusButton;
+            var17 = var15.ScreenshareButton;
             var15 = {};
             var15['channel'] = var21;
             var15 = var18.bind(var4)(var17, var15);
-            var14[2] = var15;
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
+            var19 = _closure1_slot5;
+            var18 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var17 = var17[var22];
+            var17 = var18.bind(var4)(var17);
+            var18 = var17.SoundboardButton;
+            var17 = {};
+            var17['channel'] = var21;
+            var15 = var19.bind(var4)(var18, var17);
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
+            var19 = _closure1_slot5;
+            var18 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var17 = var17[var22];
+            var17 = var18.bind(var4)(var17);
+            var18 = var17.ChatButton;
+            var17 = {};
+            var17['openTab'] = var20;
+            var15 = var19.bind(var4)(var18, var17);
+case 8:
+            var14[1] = var15;
             var5['children'] = var14;
             var7 = var13.bind(var4)(var11, var5);
 case 2:

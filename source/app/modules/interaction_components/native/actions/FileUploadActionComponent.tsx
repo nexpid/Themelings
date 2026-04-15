@@ -531,121 +531,120 @@ case 42:
     var2 = function FileUploadActionComponent(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var10 = arg1;
-            var14 = var10.minValues;
-            var12 = var10.maxValues;
+            var9 = arg1;
+            var14 = var9.minValues;
+            var12 = var9.maxValues;
             var _closure2_slot0 = var12;
             var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 16;
-            var1 = var3[var1];
+            var1 = _closure1_slot2;
+            var3 = 16;
+            var3 = var1[var3];
             var5 = undefined;
-            var4 = var4.bind(var5)(var1);
-            var1 = var4.useComponentStateContext;
-            var6 = var1.bind(var4)();
-            var4 = _closure1_slot1;
-            var9 = 17;
-            var1 = var3[var9];
-            var11 = var4.bind(var5)(var1);
-            var1 = null;
-            var8 = var1 != var6;
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.useComponentStateContext;
+            var6 = var3.bind(var4)();
+            var3 = _closure1_slot1;
+            var17 = 17;
+            var4 = var1[var17];
+            var10 = var3.bind(var5)(var4);
+            var4 = null;
+            var8 = var4 != var6;
             var7 = 'FileUploadActionComponent must be used within a ComponentStateContextProvider';
-            var7 = var11.bind(var5)(var8, var7);
-            var16 = var6.channelId;
-            var _closure2_slot1 = var16;
-            var3 = var3[var9];
-            var7 = var4.bind(var5)(var3);
-            var4 = var1 != var16;
-            var3 = 'FileUploadActionComponent must be used inside a channel';
-            var3 = var7.bind(var5)(var4, var3);
-            var3 = var6.modal;
-            var4 = var1 == var3;
-            var17 = undefined;
-            if(var4) { _fun0006_ip = 43; continue _fun0006 }
+            var7 = var10.bind(var5)(var8, var7);
+            var15 = var6.channelId;
+            var _closure2_slot1 = var15;
+            var1 = var1[var17];
+            var7 = var3.bind(var5)(var1);
+            var3 = var4 != var15;
+            var1 = 'FileUploadActionComponent must be used inside a channel';
+            var1 = var7.bind(var5)(var3, var1);
+            var1 = var6.modal;
+            var3 = var4 == var1;
+            var16 = undefined;
+            if(var3) { _fun0006_ip = 43; continue _fun0006 }
 case 44:
-            var17 = var3.customId;
+            var16 = var1.customId;
 case 43:
-            var _closure2_slot2 = var17;
+            var _closure2_slot2 = var16;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = var7[var9];
-            var11 = var8.bind(var5)(var3);
-            var4 = var1 != var17;
-            var3 = 'FileUploadActionComponent requires modalCustomId from context';
-            var3 = var11.bind(var5)(var4, var3);
-            var4 = _closure1_slot0;
-            var3 = 18;
-            var3 = var7[var3];
-            var18 = var4.bind(var5)(var3);
-            var15 = var18.useStateFromStores;
-            var3 = _closure1_slot6;
-            var11 = new Array(1);
-            var11[0] = var3;
-            var3 = function() {
+            var1 = var7[var17];
+            var10 = var8.bind(var5)(var1);
+            var3 = var4 != var16;
+            var1 = 'FileUploadActionComponent requires modalCustomId from context';
+            var1 = var10.bind(var5)(var3, var1);
+            var3 = _closure1_slot0;
+            var1 = 18;
+            var1 = var7[var1];
+            var18 = var3.bind(var5)(var1);
+            var11 = var18.useStateFromStores;
+            var1 = _closure1_slot6;
+            var10 = new Array(1);
+            var10[0] = var1;
+            var1 = function() {
                 var3 = _closure1_slot6;
                 var2 = var3.getChannel;
                 var1 = _closure2_slot1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var15 = var15.bind(var18)(var11, var3);
-            var _closure2_slot3 = var15;
-            var3 = var7[var9];
-            var11 = var8.bind(var5)(var3);
-            var8 = var1 != var15;
-            var3 = 'FileUploadActionComponent requires a valid channel';
-            var3 = var11.bind(var5)(var8, var3);
-            var3 = 19;
-            var3 = var7[var3];
-            var11 = var4.bind(var5)(var3);
+            var10 = var11.bind(var18)(var10, var1);
+            var _closure2_slot3 = var10;
+            var1 = var7[var17];
+            var11 = var8.bind(var5)(var1);
+            var8 = var4 != var10;
+            var1 = 'FileUploadActionComponent requires a valid channel';
+            var1 = var11.bind(var5)(var8, var1);
+            var1 = 19;
+            var1 = var7[var1];
+            var11 = var3.bind(var5)(var1);
             var8 = var11.maxFileSize;
-            var3 = var15.guild_id;
-            var11 = var8.bind(var11)(var3);
+            var1 = var10.guild_id;
+            var11 = var8.bind(var11)(var1);
             var _closure2_slot4 = var11;
-            var3 = 20;
-            var3 = var7[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.useFileUploadComponentState;
-            var4 = var3.bind(var4)(var10);
-            var7 = var4.uploadIds;
+            var1 = 20;
+            var1 = var7[var1];
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.useFileUploadComponentState;
+            var1 = var1.bind(var3)(var9);
+            var7 = var1.uploadIds;
             var _closure2_slot5 = var7;
-            var3 = var4.setUploadIds;
+            var3 = var1.setUploadIds;
             var _closure2_slot6 = var3;
-            var8 = var4.currentUploads;
+            var8 = var1.currentUploads;
             var _closure2_slot7 = var8;
-            var4 = var6.getParents;
-            var10 = var4.bind(var6)(var10);
-            var6 = var1 == var10;
-            var4 = undefined;
-            if(var6) { _fun0006_ip = 45; continue _fun0006 }
+            var1 = var6.getParents;
+            var9 = var1.bind(var6)(var9);
+            var1 = var4 == var9;
+            var6 = undefined;
+            if(var1) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
-            var6 = 0;
-            var4 = var10[var6];
+            var1 = 0;
+            var6 = var9[var1];
 case 45:
-            var6 = var1 == var4;
+            var1 = var4 == var6;
             var18 = undefined;
-            if(var6) { _fun0006_ip = 47; continue _fun0006 }
+            if(var1) { _fun0006_ip = 47; continue _fun0006 }
 case 48:
-            var18 = var4.type;
+            var18 = var6.type;
 case 47:
-            var10 = _closure1_slot0;
+            var9 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var6 = 21;
-            var6 = var19[var6];
-            var6 = var10.bind(var5)(var6);
-            var6 = var6.ComponentType;
-            var6 = var6.LABEL;
-            var10 = undefined;
-            if(!(var18 === var6)) { _fun0006_ip = 49; continue _fun0006 }
+            var1 = 21;
+            var1 = var19[var1];
+            var1 = var9.bind(var5)(var1);
+            var1 = var1.ComponentType;
+            var9 = var1.LABEL;
+            var1 = undefined;
+            if(!(var18 === var9)) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
-            var10 = var4;
+            var1 = var6;
 case 49:
-            var _closure2_slot8 = var10;
-            var6 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var4 = var4[var9];
-            var6 = var6.bind(var5)(var4);
-            var4 = var1 != var10;
+            var9 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var6 = var6[var17];
+            var6 = var9.bind(var5)(var6);
+            var4 = var4 != var1;
             var1 = 'FileUploadActionComponent must be used within a label Component';
             var1 = var6.bind(var5)(var4, var1);
             var9 = _closure1_slot4;
@@ -825,13 +824,13 @@ case 51:
             var1[1] = var12;
             var1[2] = var3;
             var1[3] = var11;
-            var1[4] = var17;
-            var1[5] = var16;
+            var1[4] = var16;
+            var1[5] = var15;
             var1 = var6.bind(var9)(var4, var1);
-            var _closure2_slot9 = var1;
+            var _closure2_slot8 = var1;
             var6 = var9.useCallback;
             var4 = new Array(3);
-            var4[0] = var16;
+            var4[0] = var15;
             var4[1] = var7;
             var4[2] = var3;
             var3 = function(arg1) {
@@ -862,17 +861,15 @@ case 51:
                 return var1;
             };
             var6 = var6.bind(var9)(var3, var4);
-            var _closure2_slot10 = var6;
+            var _closure2_slot9 = var6;
             var4 = var9.useCallback;
-            var3 = new Array(7);
-            var3[0] = var15;
-            var10 = var10.label;
-            var3[1] = var10;
-            var3[2] = var12;
-            var3[3] = var1;
-            var3[4] = var7;
-            var3[5] = var8;
-            var3[6] = var6;
+            var3 = new Array(6);
+            var3[0] = var10;
+            var3[1] = var12;
+            var3[2] = var1;
+            var3[3] = var7;
+            var3[4] = var8;
+            var3[5] = var6;
             var1 = function() {
                 var2 = _closure1_slot7;
                 var11 = var2.InteractionModal;
@@ -897,7 +894,7 @@ case 51:
                 var3 = _closure1_slot8;
                 var2['onRestoreKeyboard'] = var3;
                 var3 = function onSelectFiles(arg1) {
-                    var3 = _closure2_slot9;
+                    var3 = _closure2_slot8;
                     var1 = undefined;
                     var2 = arg1;
                     var2 = var3.bind(var1)(var2);
@@ -918,9 +915,6 @@ case 51:
                 var4 = var6.bind(var1)(var2);
                 var3 = var4.showMediaKeyboardActionSheet;
                 var2 = {};
-                var12 = _closure2_slot8;
-                var12 = var12.label;
-                var2['title'] = var12;
                 var12 = _closure2_slot3;
                 var2['channel'] = var12;
                 var2['draftType'] = var11;
@@ -988,7 +982,7 @@ case 65:
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.mediaNodeToUploadItem;
                         var5 = var3.bind(var4)(var5);
-                        var4 = _closure2_slot9;
+                        var4 = _closure2_slot8;
                         var3 = new Array(1);
                         var3[0] = var5;
                         var3 = var4.bind(var1)(var3);
@@ -1015,7 +1009,7 @@ case 64:
                         var4 = null;
                         if(!(var4 != var2)) { _fun0008_ip = 66; continue _fun0008 }
 case 67:
-                        var3 = _closure2_slot10;
+                        var3 = _closure2_slot9;
                         var2 = var2.id;
                         var2 = var3.bind(var1)(var2);
 case 66:
@@ -1118,7 +1112,7 @@ case 75:
                 var4 = _closure1_slot16;
                 var3 = {};
                 var3['upload'] = var1;
-                var2 = _closure2_slot10;
+                var2 = _closure2_slot9;
                 var3['handleRemoveFile'] = var2;
                 var2 = var1.id;
                 var1 = undefined;

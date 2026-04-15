@@ -348,8 +348,8 @@ case 17:
             var9 = 18;
             var9 = var23[var9];
             var9 = var26.bind(var5)(var9);
-            var15 = var9.Text;
-            var9 = {'variant': 'eyebrow', 'color': 'text-default'};
+            var15 = var9.TableRowGroupTitle;
+            var9 = {};
             var22 = 19;
             var24 = var23[var22];
             var24 = var26.bind(var5)(var24);
@@ -360,7 +360,7 @@ case 17:
             var23 = var23.t;
             var23 = var23.Q60n1E;
             var23 = var24.bind(var25)(var23);
-            var9['children'] = var23;
+            var9['title'] = var23;
             var15 = var4.bind(var5)(var15, var9);
             var9 = new Array(2);
             var9[0] = var15;

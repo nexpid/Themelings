@@ -35,10 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VoicePanelSpoilerAlert(arg1) {
         var1 = arg1;
-        var2 = var1.guildId;
-        var _closure2_slot0 = var2;
         var1 = var1.channelId;
-        var _closure2_slot1 = var1;
+        var _closure2_slot0 = var1;
         var14 = _closure1_slot0;
         var15 = _closure1_slot2;
         var5 = 2;
@@ -47,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var14.bind(var4)(var1);
         var1 = var2.useDismissModalCallback;
         var1 = var1.bind(var2)();
-        var _closure2_slot2 = var1;
+        var _closure2_slot1 = var1;
         var3 = _closure1_slot3;
         var10 = 3;
         var1 = var15[var10];
@@ -94,14 +92,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var7 = var4.bind(var1)(var2);
             var3 = var7.spoilerAgree;
-            var5 = _closure2_slot1;
+            var5 = _closure2_slot0;
             var3 = var3.bind(var7)(var5);
             var3 = 6;
             var3 = var6[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.selectVoiceChannel;
             var3 = var3.bind(var4)(var5);
-            var2 = _closure2_slot2;
+            var2 = _closure2_slot1;
             var2 = var2.bind(var1)();
             return var1;
         };
@@ -127,16 +125,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = 'secondary';
         var10['variant'] = var13;
         var12 = function onPress() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 5;
-            var2 = var2[var1];
+            var2 = _closure2_slot1;
             var1 = undefined;
-            var5 = var3.bind(var1)(var2);
-            var4 = var5.nsfwReturnToSafety;
-            var3 = _closure2_slot0;
-            var3 = var4.bind(var5)(var3);
-            var2 = _closure2_slot2;
             var2 = var2.bind(var1)();
             return var1;
         };

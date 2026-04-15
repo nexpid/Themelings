@@ -44,8 +44,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.CONTENT_AND_SOCIAL;
     var8 = 'family_center_content_and_social_panel';
     var2[8] = var8;
-    var8 = var5.DATA_AND_PRIVACY;
-    var5 = 'family_center_data_and_privacy_panel';
+    var9 = var5.DATA_AND_PRIVACY;
+    var8 = 'family_center_data_and_privacy_panel';
+    var2[8] = var8;
+    var8 = var5.SCREEN_TIME_CONTROLS;
+    var5 = 'family_center_screen_time_controls_panel';
     var2[7] = var5;
     var5 = 6;
     var5 = var7[var5];

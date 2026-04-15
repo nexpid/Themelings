@@ -407,7 +407,7 @@ case 25:
             var6 = 'md';
             if(!var7) { _fun0004_ip = 28; continue _fun0004 }
 case 29:
-            var6 = 'sm';
+            var6 = 'xs';
 case 28:
             var2['size'] = var6;
             var6 = 'text-strong';

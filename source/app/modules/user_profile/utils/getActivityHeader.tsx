@@ -207,36 +207,11 @@ case 54:
             var1 = var1.COMPETING;
             if(!(var2 !== var1)) { _fun0001_ip = 57; continue _fun0001 }
 case 58:
-            var2 = var11.type;
-            var1 = _closure1_slot3;
-            var1 = var1.HANG_STATUS;
-            if(!(var2 !== var1)) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
             var1 = {};
             var1['text'] = var13;
             var1['platformIcon'] = var4;
             var1['platformLabel'] = var3;
-            _fun0001_ip = 61; continue _fun0001;
-case 59:
-            var2 = {};
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var6 = 2;
-            var7 = var10[var6];
-            var7 = var9.bind(var13)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var6 = var10[var6];
-            var6 = var9.bind(var13)(var6);
-            var6 = var6.t;
-            var6 = var6.Hi4tob;
-            var6 = var7.bind(var8)(var6);
-            var2['text'] = var6;
-            var2['platformIcon'] = var4;
-            var2['platformLabel'] = var3;
-            var1 = var2;
-case 61:
-            _fun0001_ip = 62; continue _fun0001;
+            _fun0001_ip = 59; continue _fun0001;
 case 57:
             var2 = {};
             var9 = _closure1_slot0;
@@ -255,8 +230,8 @@ case 57:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 62:
-            _fun0001_ip = 63; continue _fun0001;
+case 59:
+            _fun0001_ip = 60; continue _fun0001;
 case 56:
             var2 = {};
             var7 = _closure1_slot0;
@@ -278,8 +253,8 @@ case 56:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 63:
-            _fun0001_ip = 64; continue _fun0001;
+case 60:
+            _fun0001_ip = 61; continue _fun0001;
 case 52:
             var2 = {};
             var9 = _closure1_slot0;
@@ -298,8 +273,8 @@ case 52:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 64:
-            _fun0001_ip = 65; continue _fun0001;
+case 61:
+            _fun0001_ip = 62; continue _fun0001;
 case 51:
             var2 = {};
             var7 = _closure1_slot0;
@@ -321,8 +296,8 @@ case 51:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 65:
-            _fun0001_ip = 66; continue _fun0001;
+case 62:
+            _fun0001_ip = 63; continue _fun0001;
 case 47:
             var2 = {};
             var9 = _closure1_slot0;
@@ -341,8 +316,8 @@ case 47:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 66:
-            _fun0001_ip = 67; continue _fun0001;
+case 63:
+            _fun0001_ip = 64; continue _fun0001;
 case 46:
             var2 = {};
             var7 = _closure1_slot0;
@@ -364,8 +339,8 @@ case 46:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 67:
-            _fun0001_ip = 68; continue _fun0001;
+case 64:
+            _fun0001_ip = 65; continue _fun0001;
 case 42:
             var2 = {};
             var7 = _closure1_slot0;
@@ -385,8 +360,8 @@ case 42:
             var6 = var8.bind(var9)(var7, var6);
             var2['text'] = var6;
             var1 = var2;
-case 68:
-            _fun0001_ip = 69; continue _fun0001;
+case 65:
+            _fun0001_ip = 66; continue _fun0001;
 case 40:
             var2 = {};
             var9 = _closure1_slot0;
@@ -405,8 +380,8 @@ case 40:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 69:
-            _fun0001_ip = 70; continue _fun0001;
+case 66:
+            _fun0001_ip = 67; continue _fun0001;
 case 38:
             var2 = {};
             var9 = _closure1_slot0;
@@ -425,8 +400,8 @@ case 38:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 70:
-            _fun0001_ip = 71; continue _fun0001;
+case 67:
+            _fun0001_ip = 68; continue _fun0001;
 case 37:
             var2 = {};
             var15 = _closure1_slot0;
@@ -456,8 +431,8 @@ case 37:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 71:
-            _fun0001_ip = 72; continue _fun0001;
+case 68:
+            _fun0001_ip = 69; continue _fun0001;
 case 32:
             var2 = {};
             var15 = _closure1_slot0;
@@ -487,8 +462,8 @@ case 32:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 72:
-            _fun0001_ip = 73; continue _fun0001;
+case 69:
+            _fun0001_ip = 70; continue _fun0001;
 case 27:
             var2 = {};
             var7 = _closure1_slot0;
@@ -517,23 +492,23 @@ case 27:
             var12 = var12[var17];
             var12 = var16.bind(var13)(var12);
             var12 = var12.t;
-            if(var10) { _fun0001_ip = 74; continue _fun0001 }
-case 75:
+            if(var10) { _fun0001_ip = 71; continue _fun0001 }
+case 72:
             var10 = var12.p6vL0e;
             var10 = var14.bind(var15)(var10);
-            _fun0001_ip = 76; continue _fun0001;
-case 74:
+            _fun0001_ip = 73; continue _fun0001;
+case 71:
             var12 = var12.BrHQaq;
             var10 = var14.bind(var15)(var12);
-case 76:
+case 73:
             var6['platform'] = var10;
             var6 = var8.bind(var9)(var7, var6);
             var2['text'] = var6;
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 73:
-            _fun0001_ip = 77; continue _fun0001;
+case 70:
+            _fun0001_ip = 74; continue _fun0001;
 case 22:
             var2 = {};
             var7 = _closure1_slot0;
@@ -562,23 +537,23 @@ case 22:
             var11 = var11[var16];
             var11 = var15.bind(var13)(var11);
             var11 = var11.t;
-            if(var10) { _fun0001_ip = 78; continue _fun0001 }
-case 79:
+            if(var10) { _fun0001_ip = 75; continue _fun0001 }
+case 76:
             var10 = var11.p6vL0e;
             var10 = var12.bind(var14)(var10);
-            _fun0001_ip = 80; continue _fun0001;
-case 78:
+            _fun0001_ip = 77; continue _fun0001;
+case 75:
             var11 = var11.BrHQaq;
             var10 = var12.bind(var14)(var11);
-case 80:
+case 77:
             var6['platform'] = var10;
             var6 = var8.bind(var9)(var7, var6);
             var2['text'] = var6;
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 77:
-            _fun0001_ip = 81; continue _fun0001;
+case 74:
+            _fun0001_ip = 78; continue _fun0001;
 case 17:
             var2 = {};
             var14 = _closure1_slot0;
@@ -608,8 +583,8 @@ case 17:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 81:
-            _fun0001_ip = 82; continue _fun0001;
+case 78:
+            _fun0001_ip = 79; continue _fun0001;
 case 12:
             var2 = {};
             var12 = _closure1_slot0;
@@ -639,7 +614,7 @@ case 12:
             var2['platformIcon'] = var4;
             var2['platformLabel'] = var3;
             var1 = var2;
-case 82:
+case 79:
             return var1;
         }
     };

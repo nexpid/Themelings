@@ -229,8 +229,6 @@ case 22:
                     var1 = var9[var1];
                     var5 = var5.bind(var7)(var1);
                     var1 = {};
-                    var9 = _closure2_slot2;
-                    var1['guildId'] = var9;
                     var9 = _closure2_slot1;
                     var1['channelId'] = var9;
                     var1 = var6.bind(var7)(var5, var1);

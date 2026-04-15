@@ -1,4 +1,4 @@
-// app/modules/media_keyboard/native/components/MediaKeyboardFloatingBarExperiment.tsx
+// app/modules/media_engine/AV1DecodeExperimentAndroid.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
-    var4 = {'name': '2026-03-media-keyboard-floating-bar', 'kind': 'user'};
+    var4 = {'name': '2026-04-av1-decode-android', 'kind': 'user'};
     var9 = {};
     var10 = false;
     var9['enabled'] = var10;
@@ -32,18 +32,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/media_keyboard/native/components/MediaKeyboardFloatingBarExperiment.tsx';
+    var4 = 'modules/media_engine/AV1DecodeExperimentAndroid.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useIsMediaKeyboardFloatingBarEnabled(arg1) {
+    var2 = function getAV1DecodeExperimentAndroidConfig(arg1) {
         var3 = _closure1_slot0;
-        var2 = var3.useConfig;
+        var2 = var3.getConfig;
         var1 = {};
         var4 = arg1;
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
-        var1 = var1.enabled;
         return var1;
     };
-    var3['useIsMediaKeyboardFloatingBarEnabled'] = var2;
+    var3['getAV1DecodeExperimentAndroidConfig'] = var2;
     return var1;
 })();

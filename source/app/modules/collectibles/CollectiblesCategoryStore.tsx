@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot26 = var2;
+            _closure1_slot27 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -116,7 +116,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot28;
+            var9 = _closure1_slot29;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -128,7 +128,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot28;
+            var7 = _closure1_slot29;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -187,7 +187,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot28 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -220,7 +220,7 @@ case 3:
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var4 = global;
     var10 = var4.Object;
     var8 = var10.defineProperty;
@@ -254,20 +254,24 @@ case 3:
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
     var _closure1_slot7 = var8;
+    var8 = 6;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot8 = var8;
     var8 = var4.Map;
     var10 = var8.prototype;
     var10 = Object.create(var10, {constructor: {value: var8}});
     var17 = var10;
     var8 = new var17[var8](var16);
     var12 = var8 instanceof Object ? var8 : var10;
-    var _closure1_slot8 = var12;
+    var _closure1_slot9 = var12;
     var8 = var4.Map;
     var10 = var8.prototype;
     var10 = Object.create(var10, {constructor: {value: var8}});
     var17 = var10;
     var8 = new var17[var8](var16);
     var11 = var8 instanceof Object ? var8 : var10;
-    var _closure1_slot9 = var11;
+    var _closure1_slot10 = var11;
     var8 = var4.Map;
     var10 = var8.prototype;
     var10 = Object.create(var10, {constructor: {value: var8}});
@@ -280,47 +284,47 @@ case 3:
     var17 = var13;
     var8 = new var17[var8](var16);
     var8 = var8 instanceof Object ? var8 : var13;
-    var _closure1_slot10 = var12;
-    var _closure1_slot11 = var11;
-    var _closure1_slot12 = var10;
-    var10 = new Array(0);
+    var _closure1_slot11 = var12;
+    var _closure1_slot12 = var11;
     var _closure1_slot13 = var10;
-    var _closure1_slot14 = var8;
-    var8 = false;
+    var10 = new Array(0);
+    var _closure1_slot14 = var10;
     var _closure1_slot15 = var8;
+    var8 = false;
+    var _closure1_slot16 = var8;
     var8 = var4.Set;
     var10 = var8.prototype;
     var10 = Object.create(var10, {constructor: {value: var8}});
     var17 = var10;
     var8 = new var17[var8](var16);
     var8 = var8 instanceof Object ? var8 : var10;
-    var _closure1_slot16 = var8;
-    var _closure1_slot17 = var1;
+    var _closure1_slot17 = var8;
+    var _closure1_slot18 = var1;
     var8 = var4.Map;
     var10 = var8.prototype;
     var10 = Object.create(var10, {constructor: {value: var8}});
     var17 = var10;
     var8 = new var17[var8](var16);
     var8 = var8 instanceof Object ? var8 : var10;
-    var _closure1_slot18 = var8;
+    var _closure1_slot19 = var8;
     var4 = var4.Map;
     var8 = var4.prototype;
     var8 = Object.create(var8, {constructor: {value: var4}});
     var17 = var8;
     var4 = new var17[var4](var16);
     var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot19 = var4;
-    var _closure1_slot20 = var1;
+    var _closure1_slot20 = var4;
     var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var4 = {};
-    var _closure1_slot22 = var4;
-    var _closure1_slot23 = var2;
+    var _closure1_slot23 = var4;
+    var _closure1_slot24 = var2;
     var2 = function updateCategoriesAndProducts(arg1) {
         var1 = arg1;
-        _closure1_slot10 = var1;
+        _closure1_slot11 = var1;
         var6 = global;
         var7 = var6.Map;
-        var4 = _closure1_slot10;
+        var4 = _closure1_slot11;
         var1 = var4.values;
         var15 = var1.bind(var4)();
         var8 = new Array(0);
@@ -342,16 +346,16 @@ case 3:
         var17 = var4;
         var1 = new var17[var7](var16, var15);
         var1 = var1 instanceof Object ? var1 : var4;
-        _closure1_slot14 = var1;
+        _closure1_slot15 = var1;
         var11 = var6.Map;
         var7 = _closure1_slot0;
         var8 = _closure1_slot1;
-        var4 = 7;
+        var4 = 8;
         var9 = var8[var4];
         var1 = undefined;
         var13 = var7.bind(var1)(var9);
         var12 = var13.getProductsFromCategories;
-        var10 = _closure1_slot10;
+        var10 = _closure1_slot11;
         var9 = true;
         var12 = var12.bind(var13)(var10, var9);
         var10 = var12.map;
@@ -369,12 +373,12 @@ case 3:
         var17 = var10;
         var9 = new var17[var11](var16, var15);
         var9 = var9 instanceof Object ? var9 : var10;
-        _closure1_slot11 = var9;
+        _closure1_slot12 = var9;
         var6 = var6.Map;
         var4 = var8[var4];
         var9 = var7.bind(var1)(var4);
         var8 = var9.getProductsFromCategories;
-        var7 = _closure1_slot10;
+        var7 = _closure1_slot11;
         var4 = false;
         var7 = var8.bind(var9)(var7, var4);
         var4 = var7.map;
@@ -392,25 +396,25 @@ case 3:
         var17 = var4;
         var2 = new var17[var6](var16, var15);
         var4 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot12 = var4;
+        _closure1_slot13 = var4;
         var2 = var4.values;
         var15 = var2.bind(var4)();
         var2 = new Array(0);
         var16 = var2;
         var4 = arraySpread(var16, var15, var14);
-        _closure1_slot13 = var2;
+        _closure1_slot14 = var2;
         return var1;
     };
-    var _closure1_slot24 = var2;
+    var _closure1_slot25 = var2;
     var4 = function reset() {
-        var1 = _closure1_slot8;
-        _closure1_slot10 = var1;
         var1 = _closure1_slot9;
         _closure1_slot11 = var1;
+        var1 = _closure1_slot10;
+        _closure1_slot12 = var1;
         var1 = undefined;
-        _closure1_slot20 = var1;
+        _closure1_slot21 = var1;
         var2 = false;
-        _closure1_slot15 = var2;
+        _closure1_slot16 = var2;
         var2 = global;
         var2 = var2.Set;
         var4 = var2.prototype;
@@ -418,17 +422,17 @@ case 3:
         var5 = var4;
         var2 = new var5[var2](var4);
         var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot16 = var2;
-        _closure1_slot17 = var1;
-        _closure1_slot21 = var1;
+        _closure1_slot17 = var2;
+        _closure1_slot18 = var1;
+        _closure1_slot22 = var1;
         var2 = {};
-        _closure1_slot22 = var2;
-        var2 = 0;
         _closure1_slot23 = var2;
+        var2 = 0;
+        _closure1_slot24 = var2;
         return var1;
     };
-    var _closure1_slot25 = var4;
-    var2 = 8;
+    var _closure1_slot26 = var4;
+    var2 = 9;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -445,7 +449,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot26;
+                var1 = _closure1_slot27;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
@@ -483,7 +487,7 @@ case 41:
             var5 = _closure1_slot7;
             var2 = new Array(1);
             var2[0] = var5;
-            var1 = _closure1_slot25;
+            var1 = _closure1_slot26;
             var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;
             return var1;
@@ -495,7 +499,7 @@ case 41:
         var7 = 'isFetchingCategories';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot16;
             return var1;
         };
         var5['get'] = var7;
@@ -511,7 +515,7 @@ case 0:
                 var1 = var1 != var4;
                 if(!var1) { _fun0006_ip = 42; continue _fun0006 }
 case 43:
-                var3 = _closure1_slot16;
+                var3 = _closure1_slot17;
                 var2 = var3.has;
                 var1 = var2.bind(var3)(var4);
 case 42:
@@ -524,7 +528,7 @@ case 42:
         var7 = 'error';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot18;
             return var1;
         };
         var5['get'] = var7;
@@ -533,7 +537,7 @@ case 42:
         var7 = 'lastErrorTimestamp';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot21;
+            var1 = _closure1_slot22;
             return var1;
         };
         var5['get'] = var7;
@@ -542,7 +546,7 @@ case 42:
         var7 = 'lastSuccessfulFetch';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot20;
+            var1 = _closure1_slot21;
             return var1;
         };
         var5['get'] = var7;
@@ -551,7 +555,7 @@ case 42:
         var7 = 'lastFetchOptions';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot22;
+            var1 = _closure1_slot23;
             return var1;
         };
         var5['get'] = var7;
@@ -560,7 +564,7 @@ case 42:
         var7 = 'categories';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot11;
             return var1;
         };
         var5['get'] = var7;
@@ -569,7 +573,7 @@ case 42:
         var7 = 'products';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             return var1;
         };
         var5['get'] = var7;
@@ -578,7 +582,7 @@ case 42:
         var7 = 'productsWithVariantsAsGroup';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot14;
             return var1;
         };
         var5['get'] = var7;
@@ -587,7 +591,7 @@ case 42:
         var7 = 'skipNumCategories';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot23;
+            var1 = _closure1_slot24;
             return var1;
         };
         var5['get'] = var7;
@@ -604,7 +608,7 @@ case 0:
                 var1 = undefined;
                 if(!var2) { _fun0007_ip = 44; continue _fun0007 }
 case 36:
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot11;
                 var2 = var3.get;
                 var1 = var2.bind(var3)(var4);
 case 44:
@@ -625,7 +629,7 @@ case 0:
                 var1 = undefined;
                 if(!var2) { _fun0008_ip = 44; continue _fun0008 }
 case 36:
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var2 = var3.get;
                 var1 = var2.bind(var3)(var4);
 case 44:
@@ -641,7 +645,7 @@ case 44:
             var4 = arg1;
             var3 = var4.map;
             var2 = function(arg1) {
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var2 = var3.get;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
@@ -672,7 +676,7 @@ case 0:
                 var1 = undefined;
                 if(!var2) { _fun0009_ip = 44; continue _fun0009 }
 case 36:
-                var3 = _closure1_slot18;
+                var3 = _closure1_slot19;
                 var2 = var3.get;
                 var1 = var2.bind(var3)(var4);
 case 44:
@@ -693,7 +697,7 @@ case 0:
                 var1 = undefined;
                 if(!var2) { _fun0010_ip = 44; continue _fun0010 }
 case 36:
-                var3 = _closure1_slot19;
+                var3 = _closure1_slot20;
                 var2 = var3.get;
                 var1 = var2.bind(var3)(var4);
 case 44:
@@ -714,7 +718,7 @@ case 0:
                 var1 = undefined;
                 if(!var2) { _fun0011_ip = 44; continue _fun0011 }
 case 36:
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot13;
                 var2 = var3.get;
                 var1 = var2.bind(var3)(var4);
 case 44:
@@ -735,7 +739,7 @@ case 0:
                 var1 = undefined;
                 if(!var2) { _fun0012_ip = 44; continue _fun0012 }
 case 36:
-                var3 = _closure1_slot14;
+                var3 = _closure1_slot15;
                 var2 = var3.get;
                 var1 = var2.bind(var3)(var4);
 case 44:
@@ -774,19 +778,19 @@ case 45:
     var8 = var2.bind(var1)(var8);
     var2 = 'CollectiblesCategoryStore';
     var8['displayName'] = var2;
-    var2 = 9;
+    var2 = 10;
     var2 = var6[var2];
     var16 = var7.bind(var1)(var2);
     var2 = {};
     var10 = function COLLECTIBLES_CATEGORIES_FETCH(arg1) {
         var1 = true;
-        _closure1_slot15 = var1;
+        _closure1_slot16 = var1;
         var1 = undefined;
-        _closure1_slot17 = var1;
-        _closure1_slot21 = var1;
+        _closure1_slot18 = var1;
+        _closure1_slot22 = var1;
         var2 = arg1;
         var2 = var2.options;
-        _closure1_slot22 = var2;
+        _closure1_slot23 = var2;
         return var1;
     };
     var2['COLLECTIBLES_CATEGORIES_FETCH'] = var10;
@@ -795,19 +799,33 @@ case 45:
 case 0:
             var2 = arg1;
             var1 = var2.categories;
-            var8 = var1.categories;
-            var1 = var8.length;
+            var1 = var1.collections;
+            var1 = var1.length;
             var10 = 0;
-            if(!(var10 !== var1)) { _fun0014_ip = 47; continue _fun0014 }
-case 44:
+            if(!(!(var1 > var10))) { _fun0014_ip = 47; continue _fun0014 }
+case 38:
+            var1 = var2.categories;
+            var8 = var1.categories;
+            _fun0014_ip = 48; continue _fun0014;
+case 47:
+            var1 = var2.categories;
+            var5 = var1.collections;
+            var3 = var5.map;
+            var1 = _closure1_slot8;
+            var1 = var1.fromStorefrontCollectionRecord;
+            var8 = var3.bind(var5)(var1);
+case 48:
+            var1 = var8.length;
+            if(!(var10 !== var1)) { _fun0014_ip = 49; continue _fun0014 }
+case 50:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var3 = 6;
+            var3 = 7;
             var5 = var5[var3];
             var3 = undefined;
             var7 = var6.bind(var3)(var5);
             var6 = var7.isEqual;
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot11;
             var5 = var9.values;
             var12 = var5.bind(var9)();
             var5 = new Array(0);
@@ -815,11 +833,11 @@ case 44:
             var11 = 0;
             var9 = arraySpread(var13, var12, var11);
             var5 = var6.bind(var7)(var5, var8);
-            if(var5) { _fun0014_ip = 48; continue _fun0014 }
-case 49:
+            if(var5) { _fun0014_ip = 51; continue _fun0014 }
+case 52:
             var2 = var2.noOp;
-            if(var2) { _fun0014_ip = 48; continue _fun0014 }
-case 50:
+            if(var2) { _fun0014_ip = 51; continue _fun0014 }
+case 53:
             var5 = global;
             var7 = var5.Map;
             var6 = var8.map;
@@ -845,7 +863,7 @@ case 50:
             var5 = new var14[var5](var13);
             var5 = var5 instanceof Object ? var5 : var6;
             var _closure2_slot1 = var5;
-            var6 = _closure1_slot10;
+            var6 = _closure1_slot11;
             var5 = var6.forEach;
             var4 = function(arg1, arg2) {
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
@@ -861,44 +879,44 @@ case 42:
                     var6 = var4.unpublishedAt;
                     var5 = null;
                     var5 = var5 == var6;
-                    if(var5) { _fun0015_ip = 51; continue _fun0015 }
-case 52:
+                    if(var5) { _fun0015_ip = 54; continue _fun0015 }
+case 55:
                     var7 = var4.unpublishedAt;
                     var6 = _closure2_slot1;
                     var5 = var7 > var6;
-case 51:
+case 54:
                     var2 = var5;
 case 11:
-                    if(!var2) { _fun0015_ip = 53; continue _fun0015 }
-case 54:
+                    if(!var2) { _fun0015_ip = 48; continue _fun0015 }
+case 56:
                     var2 = _closure2_slot0;
                     var1 = var2.set;
                     var1 = var1.bind(var2)(var3, var4);
-case 53:
+case 48:
                     var1 = undefined;
                     return var1;
                 }
             };
             var4 = var5.bind(var6)(var4);
-            var1 = _closure1_slot24;
+            var1 = _closure1_slot25;
             var1 = var1.bind(var3)(var2);
-            _fun0014_ip = 48; continue _fun0014;
-case 47:
-            var1 = _closure1_slot8;
-            _closure1_slot10 = var1;
+            _fun0014_ip = 51; continue _fun0014;
+case 49:
             var1 = _closure1_slot9;
             _closure1_slot11 = var1;
-case 48:
+            var1 = _closure1_slot10;
+            _closure1_slot12 = var1;
+case 51:
             var1 = global;
             var2 = var1.Date;
             var1 = var2.now;
             var1 = var1.bind(var2)();
-            _closure1_slot20 = var1;
-            var1 = false;
-            _closure1_slot15 = var1;
-            var1 = undefined;
-            _closure1_slot17 = var1;
             _closure1_slot21 = var1;
+            var1 = false;
+            _closure1_slot16 = var1;
+            var1 = undefined;
+            _closure1_slot18 = var1;
+            _closure1_slot22 = var1;
             return var1;
         }
     };
@@ -906,12 +924,12 @@ case 48:
     var10 = function COLLECTIBLES_CATEGORIES_FETCH_FAILURE(arg1) {
         var1 = arg1;
         var3 = var1.error;
-        var1 = _closure1_slot8;
-        _closure1_slot10 = var1;
         var1 = _closure1_slot9;
         _closure1_slot11 = var1;
+        var1 = _closure1_slot10;
+        _closure1_slot12 = var1;
         var1 = false;
-        _closure1_slot15 = var1;
+        _closure1_slot16 = var1;
         var1 = global;
         var4 = var1.Set;
         var5 = var4.prototype;
@@ -919,12 +937,12 @@ case 48:
         var6 = var5;
         var4 = new var6[var4](var5);
         var4 = var4 instanceof Object ? var4 : var5;
-        _closure1_slot16 = var4;
-        _closure1_slot17 = var3;
+        _closure1_slot17 = var4;
+        _closure1_slot18 = var3;
         var3 = var1.Date;
         var1 = var3.now;
         var1 = var1.bind(var3)();
-        _closure1_slot21 = var1;
+        _closure1_slot22 = var1;
         var1 = undefined;
         return var1;
     };
@@ -934,33 +952,33 @@ case 48:
         var3 = var1.skuId;
         var2 = global;
         var6 = var2.Set;
-        var7 = _closure1_slot16;
+        var7 = _closure1_slot17;
         var5 = var6.prototype;
         var5 = Object.create(var5, {constructor: {value: var6}});
         var8 = var5;
         var4 = new var8[var6](var7, var6);
         var5 = var4 instanceof Object ? var4 : var5;
-        _closure1_slot16 = var5;
+        _closure1_slot17 = var5;
         var4 = var5.add;
         var4 = var4.bind(var5)(var3);
         var6 = var2.Map;
-        var7 = _closure1_slot18;
+        var7 = _closure1_slot19;
         var5 = var6.prototype;
         var5 = Object.create(var5, {constructor: {value: var6}});
         var8 = var5;
         var4 = new var8[var6](var7, var6);
         var5 = var4 instanceof Object ? var4 : var5;
-        _closure1_slot18 = var5;
+        _closure1_slot19 = var5;
         var4 = var5.delete;
         var4 = var4.bind(var5)(var3);
         var5 = var2.Map;
-        var7 = _closure1_slot19;
+        var7 = _closure1_slot20;
         var4 = var5.prototype;
         var4 = Object.create(var4, {constructor: {value: var5}});
         var8 = var4;
         var2 = new var8[var5](var7, var6);
         var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot19 = var2;
+        _closure1_slot20 = var2;
         var1 = var2.delete;
         var1 = var1.bind(var2)(var3);
         var1 = undefined;
@@ -973,11 +991,11 @@ case 0:
             var1 = arg1;
             var3 = var1.skuId;
             var5 = var1.product;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var2 = var4.get;
             var2 = var2.bind(var4)(var3);
             var11 = null;
-            if(!(var11 != var2)) { _fun0016_ip = 55; continue _fun0016 }
+            if(!(var11 != var2)) { _fun0016_ip = 57; continue _fun0016 }
 case 45:
             var10 = global;
             var7 = var10.Object;
@@ -986,16 +1004,16 @@ case 45:
             var4 = var6.bind(var7)(var4);
             var4 = var4.length;
             var9 = 0;
-            if(!(var9 === var4)) { _fun0016_ip = 55; continue _fun0016 }
-case 56:
+            if(!(var9 === var4)) { _fun0016_ip = 57; continue _fun0016 }
+case 58:
             var4 = var2.prices;
             var5['prices'] = var4;
             var4 = var2.bundledProducts;
-            if(!(var11 != var4)) { _fun0016_ip = 55; continue _fun0016 }
-case 57:
+            if(!(var11 != var4)) { _fun0016_ip = 57; continue _fun0016 }
+case 59:
             var4 = var5.bundledProducts;
-            if(!(var11 != var4)) { _fun0016_ip = 55; continue _fun0016 }
-case 58:
+            if(!(var11 != var4)) { _fun0016_ip = 57; continue _fun0016 }
+case 60:
             var6 = var10.Map;
             var7 = var2.bundledProducts;
             var4 = var7.map;
@@ -1014,69 +1032,69 @@ case 58:
             var19 = var4;
             var2 = new var19[var6](var18, var17);
             var8 = var2 instanceof Object ? var2 : var4;
-            var4 = _closure1_slot27;
+            var4 = _closure1_slot28;
             var2 = var5.bundledProducts;
             var7 = undefined;
             var6 = var4.bind(var7)(var2);
             var4 = var6.bind(var7)();
             var2 = var4.done;
-            if(var2) { _fun0016_ip = 55; continue _fun0016 }
-case 59:
+            if(var2) { _fun0016_ip = 57; continue _fun0016 }
+case 61:
             var12 = var4.value;
             var13 = var8.get;
             var2 = var12.skuId;
             var2 = var13.bind(var8)(var2);
             var13 = var11 != var2;
-            if(!var13) { _fun0016_ip = 60; continue _fun0016 }
-case 61:
+            if(!var13) { _fun0016_ip = 62; continue _fun0016 }
+case 63:
             var16 = var10.Object;
             var15 = var16.keys;
             var14 = var12.prices;
             var14 = var15.bind(var16)(var14);
             var14 = var14.length;
             var13 = var9 === var14;
-case 60:
-            if(!var13) { _fun0016_ip = 62; continue _fun0016 }
-case 63:
-            var12['prices'] = var2;
 case 62:
+            if(!var13) { _fun0016_ip = 64; continue _fun0016 }
+case 65:
+            var12['prices'] = var2;
+case 64:
             var12 = var6.bind(var7)();
             var2 = var12.done;
             var4 = var12;
-            if(!var2) { _fun0016_ip = 59; continue _fun0016 }
-case 55:
-            var4 = _closure1_slot11;
+            if(!var2) { _fun0016_ip = 61; continue _fun0016 }
+case 57:
+            var4 = _closure1_slot12;
             var2 = var4.set;
             var2 = var2.bind(var4)(var3, var5);
             var2 = global;
             var6 = var2.Set;
-            var18 = _closure1_slot16;
+            var18 = _closure1_slot17;
             var5 = var6.prototype;
             var5 = Object.create(var5, {constructor: {value: var6}});
             var19 = var5;
             var4 = new var19[var6](var18, var17);
             var5 = var4 instanceof Object ? var4 : var5;
-            _closure1_slot16 = var5;
+            _closure1_slot17 = var5;
             var4 = var5.delete;
             var4 = var4.bind(var5)(var3);
             var6 = var2.Map;
-            var18 = _closure1_slot18;
+            var18 = _closure1_slot19;
             var5 = var6.prototype;
             var5 = Object.create(var5, {constructor: {value: var6}});
             var19 = var5;
             var4 = new var19[var6](var18, var17);
             var5 = var4 instanceof Object ? var4 : var5;
-            _closure1_slot18 = var5;
+            _closure1_slot19 = var5;
             var4 = var5.delete;
             var4 = var4.bind(var5)(var3);
             var5 = var2.Map;
-            var18 = _closure1_slot19;
+            var18 = _closure1_slot20;
             var4 = var5.prototype;
             var4 = Object.create(var4, {constructor: {value: var5}});
             var19 = var4;
             var2 = new var19[var5](var18, var17);
             var2 = var2 instanceof Object ? var2 : var4;
-            _closure1_slot19 = var2;
+            _closure1_slot20 = var2;
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
             var1 = undefined;
@@ -1090,33 +1108,33 @@ case 55:
         var6 = var1.error;
         var1 = global;
         var7 = var1.Set;
-        var9 = _closure1_slot16;
+        var9 = _closure1_slot17;
         var5 = var7.prototype;
         var5 = Object.create(var5, {constructor: {value: var7}});
         var10 = var5;
         var3 = new var10[var7](var9, var8);
         var5 = var3 instanceof Object ? var3 : var5;
-        _closure1_slot16 = var5;
+        _closure1_slot17 = var5;
         var3 = var5.delete;
         var3 = var3.bind(var5)(var4);
         var7 = var1.Map;
-        var9 = _closure1_slot18;
+        var9 = _closure1_slot19;
         var5 = var7.prototype;
         var5 = Object.create(var5, {constructor: {value: var7}});
         var10 = var5;
         var3 = new var10[var7](var9, var8);
         var5 = var3 instanceof Object ? var3 : var5;
-        _closure1_slot18 = var5;
+        _closure1_slot19 = var5;
         var3 = var5.set;
         var3 = var3.bind(var5)(var4, var6);
         var6 = var1.Map;
-        var9 = _closure1_slot19;
+        var9 = _closure1_slot20;
         var5 = var6.prototype;
         var5 = Object.create(var5, {constructor: {value: var6}});
         var10 = var5;
         var3 = new var10[var6](var9, var8);
         var3 = var3 instanceof Object ? var3 : var5;
-        _closure1_slot19 = var3;
+        _closure1_slot20 = var3;
         var2 = var3.set;
         var5 = var1.Date;
         var1 = var5.now;
@@ -1134,7 +1152,7 @@ case 0:
             var2 = var2.categories;
             var2 = var2.length;
             var6 = 0;
-            if(!(var6 !== var2)) { _fun0017_ip = 64; continue _fun0017 }
+            if(!(var6 !== var2)) { _fun0017_ip = 66; continue _fun0017 }
 case 42:
             var2 = global;
             var4 = var2.Map;
@@ -1155,9 +1173,9 @@ case 42:
             var10 = var3;
             var1 = new var10[var4](var9, var8);
             var5 = var1 instanceof Object ? var1 : var3;
-            var3 = _closure1_slot24;
+            var3 = _closure1_slot25;
             var4 = var2.Map;
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot11;
             var1 = new Array(0);
             var9 = var1;
             var7 = 0;
@@ -1173,7 +1191,7 @@ case 42:
             var2 = var1 instanceof Object ? var1 : var2;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
-case 64:
+case 66:
             var1 = undefined;
             return var1;
         }
@@ -1182,7 +1200,7 @@ case 64:
     var9 = function COLLECTIBLES_SKIP_NUM_CATEGORIES(arg1) {
         var1 = arg1;
         var2 = var1.skipNumCategories;
-        _closure1_slot23 = var2;
+        _closure1_slot24 = var2;
         var1 = undefined;
         return var1;
     };
@@ -1194,7 +1212,7 @@ case 64:
     var15 = var2;
     var2 = new var17[var8](var16, var15, var14);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

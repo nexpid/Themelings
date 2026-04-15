@@ -71,8 +71,6 @@ case 5:
             var2 = var10[var2];
             var6 = var6.bind(var8)(var2);
             var2 = {};
-            var10 = var9.guild_id;
-            var2['guildId'] = var10;
             var9 = var9.id;
             var2['channelId'] = var9;
             var2 = var7.bind(var8)(var6, var2);

@@ -133,12 +133,12 @@ case 9:
             var3 = typeof var2;
             var1 = var4 === var3;
 case 8:
-            if(!var1) { _fun0004_ip = 5; continue _fun0004 }
-case 10:
+            if(!var1) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
             var3 = var2.__tag__;
             var2 = 'uint8array';
             var1 = var2 === var3;
-case 5:
+case 10:
             return var1;
         }
     };

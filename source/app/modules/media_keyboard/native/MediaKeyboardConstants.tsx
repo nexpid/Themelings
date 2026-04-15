@@ -50,8 +50,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.fileFinishedImporting;
     var7 = 'modules/media_keyboard/native/MediaKeyboardConstants.tsx';
     var7 = var8.bind(var9)(var7);
-    var7 = 66;
-    var3['HEADER_HEIGHT'] = var7;
     var7 = 16;
     var3['HEADER_HANDLE_HEIGHT'] = var7;
     var3['MediaKeyboardTarget'] = var6;

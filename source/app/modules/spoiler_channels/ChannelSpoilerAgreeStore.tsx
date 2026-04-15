@@ -131,24 +131,28 @@ case 8:
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var3 = arg1;
-                var2 = null;
-                if(!(var2 != var3)) { _fun0003_ip = 9; continue _fun0003 }
+                var4 = arg1;
+                var5 = this;
+                var3 = var5.waitFor;
+                var1 = _closure1_slot5;
+                var1 = var3.bind(var5)(var1);
+                var3 = null;
+                if(!(var3 != var4)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var1 = var3.users;
-                if(!(var2 == var1)) { _fun0003_ip = 11; continue _fun0003 }
+                var1 = var4.users;
+                if(!(var3 == var1)) { _fun0003_ip = 7; continue _fun0003 }
 case 9:
-                var2 = {};
                 var1 = {};
-                var2['users'] = var1;
-                _fun0003_ip = 12; continue _fun0003;
-case 11:
-                var1 = {};
-                var3 = var3.users;
+                var3 = {};
                 var1['users'] = var3;
-                var2 = var1;
-case 12:
-                _closure1_slot6 = var2;
+                _fun0003_ip = 11; continue _fun0003;
+case 7:
+                var3 = {};
+                var4 = var4.users;
+                var3['users'] = var4;
+                var1 = var3;
+case 11:
+                _closure1_slot6 = var1;
                 var1 = undefined;
                 return var1;
             }
@@ -163,39 +167,33 @@ case 12:
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var4 = arg1;
-                var5 = null;
-                if(!(var5 != var4)) { _fun0004_ip = 13; continue _fun0004 }
-case 10:
-                var2 = _closure1_slot5;
-                var1 = var2.getCurrentUser;
-                var1 = var1.bind(var2)();
-                var7 = var5 == var1;
-                var6 = undefined;
-                if(var7) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-                var6 = var1.id;
+                var2 = null;
+                if(!(var2 != var4)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+                var5 = _closure1_slot5;
+                var1 = var5.getId;
+                var5 = var1.bind(var5)();
+                var1 = var2 != var5;
+                if(!var1) { _fun0004_ip = 4; continue _fun0004 }
 case 14:
-                var1 = var5 != var6;
-                if(!var1) { _fun0004_ip = 16; continue _fun0004 }
-case 12:
                 var3 = _closure1_slot6;
                 var3 = var3.users;
-                var3 = var3[var6];
-                var5 = var5 == var3;
+                var3 = var3[var5];
+                var5 = var2 == var3;
                 var2 = undefined;
-                if(var5) { _fun0004_ip = 17; continue _fun0004 }
-case 6:
+                if(var5) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                 var3 = var3.channels;
                 var2 = var3[var4];
-case 17:
-                if(var2) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+case 15:
+                if(var2) { _fun0004_ip = 17; continue _fun0004 }
+case 6:
                 var2 = false;
-case 18:
+case 17:
                 var1 = var2;
-case 16:
+case 4:
                 return var1;
-case 13:
+case 12:
                 var1 = false;
                 return var1;
             }
@@ -231,49 +229,74 @@ case 13:
     var2 = var5[var2];
     var11 = var6.bind(var1)(var2);
     var2 = {};
-    var4 = function handleChannelSpoilerAgree(arg1) {
+    var8 = function handleChannelSpoilerAgree(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.channelId;
-            var3 = _closure1_slot5;
-            var1 = var3.getCurrentUser;
-            var5 = var1.bind(var3)();
-            var6 = null;
-            var7 = var6 == var5;
-            var1 = undefined;
-            var3 = undefined;
-            if(var7) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
-            var3 = var5.id;
+            var3 = var1.channelId;
+            var4 = _closure1_slot5;
+            var2 = var4.getId;
+            var2 = var2.bind(var4)();
+            var5 = null;
+            if(!(var5 != var2)) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
+            var4 = _closure1_slot6;
+            var4 = var4.users;
+            var4 = var4[var2];
+            if(!(var5 == var4)) { _fun0005_ip = 5; continue _fun0005 }
 case 20:
-            if(!(var6 != var3)) { _fun0005_ip = 22; continue _fun0005 }
-case 12:
-            var5 = _closure1_slot6;
-            var5 = var5.users;
-            var5 = var5[var3];
-            if(!(var6 == var5)) { _fun0005_ip = 16; continue _fun0005 }
-case 23:
-            var5 = _closure1_slot6;
-            var6 = var5.users;
-            var5 = {};
-            var7 = {};
-            var5['channels'] = var7;
-            var6[var3] = var5;
-case 16:
-            var2 = _closure1_slot6;
-            var2 = var2.users;
-            var2 = var2[var3];
-            var3 = var2.channels;
-            var2 = true;
-            var3[var4] = var2;
+            var4 = _closure1_slot6;
+            var5 = var4.users;
+            var4 = {};
+            var6 = {};
+            var4['channels'] = var6;
+            var5[var2] = var4;
+case 5:
+            var1 = _closure1_slot6;
+            var1 = var1.users;
+            var1 = var1[var2];
+            var2 = var1.channels;
+            var1 = true;
+            var2[var3] = var1;
+            var1 = undefined;
             return var1;
-case 22:
+case 18:
             var1 = false;
             return var1;
         }
     };
-    var2['CHANNEL_SPOILER_AGREE'] = var4;
+    var2['CHANNEL_SPOILER_AGREE'] = var8;
+    var4 = function handleChannelSpoilerAgreeClear(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var1 = arg1;
+            var4 = var1.channelId;
+            var2 = _closure1_slot5;
+            var1 = var2.getId;
+            var5 = var1.bind(var2)();
+            var6 = null;
+            var1 = var6 != var5;
+            if(!var1) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
+            var2 = _closure1_slot6;
+            var2 = var2.users;
+            var2 = var2[var5];
+            var2 = var6 != var2;
+            if(!var2) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
+            var3 = _closure1_slot6;
+            var3 = var3.users;
+            var3 = var3[var5];
+            var3 = var3.channels;
+            var3 = delete var3[var4];
+            var2 = undefined;
+case 23:
+            var1 = var2;
+case 21:
+            return var1;
+        }
+    };
+    var2['CHANNEL_SPOILER_AGREE_CLEAR'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;

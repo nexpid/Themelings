@@ -98,19 +98,39 @@ case 0:
                 if(!var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                 var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
+                var5 = _closure1_slot2;
                 var2 = 6;
-                var3 = var3[var2];
-                var2 = undefined;
-                var3 = var4.bind(var2)(var3);
-                var2 = var3.transitionTo;
-                var1 = _closure1_slot4;
-                var1 = var1.ME;
+                var2 = var5[var2];
+                var3 = undefined;
+                var7 = var4.bind(var3)(var2);
+                var6 = var7.transitionTo;
+                var2 = _closure1_slot4;
+                var2 = var2.ME;
+                var2 = var6.bind(var7)(var2);
+                var2 = 7;
+                var2 = var5[var2];
+                var2 = var4.bind(var3)(var2);
+                var5 = var2.MobileHomeDrawerExperiment;
+                var4 = var5.getConfig;
+                var2 = {};
+                var6 = 'multi-account';
+                var2['location'] = var6;
+                var2 = var4.bind(var5)(var2);
+                var2 = var2.enableHome;
+                if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
+                var2 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 8;
+                var1 = var4[var1];
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.setHomeDrawerState;
+                var1 = false;
                 var1 = var2.bind(var3)(var1);
 case 4:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 7;
+                var1 = 9;
                 var2 = var7[var1];
                 var1 = undefined;
                 var4 = var6.bind(var1)(var2);
@@ -119,7 +139,7 @@ case 4:
                 var8 = 'SWITCH_ACCOUNTS_TOAST_LOGIN_SUCCESS';
                 var2['key'] = var8;
                 var8 = _closure1_slot0;
-                var5 = 8;
+                var5 = 10;
                 var9 = var7[var5];
                 var9 = var8.bind(var1)(var9);
                 var10 = var9.intl;
@@ -134,7 +154,7 @@ case 4:
                 var5['username'] = var11;
                 var5 = var9.bind(var10)(var8, var5);
                 var2['content'] = var5;
-                var5 = 9;
+                var5 = 11;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var2['icon'] = var5;
@@ -150,7 +170,7 @@ case 4:
     var8 = function onSwitchError() {
         var6 = _closure1_slot1;
         var7 = _closure1_slot2;
-        var1 = 7;
+        var1 = 9;
         var2 = var7[var1];
         var1 = undefined;
         var4 = var6.bind(var1)(var2);
@@ -159,7 +179,7 @@ case 4:
         var8 = 'SWITCH_ACCOUNTS_TOAST_LOGIN_ERROR';
         var2['key'] = var8;
         var10 = _closure1_slot0;
-        var5 = 8;
+        var5 = 10;
         var8 = var7[var5];
         var8 = var10.bind(var1)(var8);
         var9 = var8.intl;
@@ -170,7 +190,7 @@ case 4:
         var5 = var5.pqvKWA;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 9;
+        var5 = 11;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var2['icon'] = var5;
@@ -206,7 +226,7 @@ case 4:
     var12 = var2;
     var2 = new var13[var7](var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

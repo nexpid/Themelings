@@ -18,6 +18,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['waitSubscribed'] = var4;
+    var4 = function waitParentSubscribed() {
+        var1 = global;
+        var2 = var1.Promise;
+        var1 = var2.resolve;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var2['waitParentSubscribed'] = var4;
     var4 = function waitConnected() {
         var1 = global;
         var2 = var1.Promise;
@@ -26,6 +34,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['waitConnected'] = var4;
+    var4 = function waitParentConnected() {
+        var1 = global;
+        var2 = var1.Promise;
+        var1 = var2.resolve;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var2['waitParentConnected'] = var4;
     var4 = function isLaunchable() {
         var1 = global;
         var3 = var1.Promise;

@@ -292,12 +292,12 @@ case 4:
     var15 = var8[var12];
     var15 = var14.bind(var1)(var15);
     var15 = var15.radii;
-    var15 = var15.lg;
+    var15 = var15.sm;
     var11['borderTopRightRadius'] = var15;
     var15 = var8[var12];
     var15 = var14.bind(var1)(var15);
     var15 = var15.radii;
-    var15 = var15.lg;
+    var15 = var15.sm;
     var11['borderTopLeftRadius'] = var15;
     var15 = var8[var12];
     var15 = var14.bind(var1)(var15);

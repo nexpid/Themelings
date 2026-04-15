@@ -2243,6 +2243,23 @@ case 173:
         return var1;
     };
     var4['spoilerAgree'] = var8;
+    var8 = function clearSpoilerAgree(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot3;
+        var1 = 14;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'CHANNEL_SPOILER_AGREE_CLEAR';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['channelId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var4['clearSpoilerAgree'] = var8;
     var8 = function escapeToDefaultChannel(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:

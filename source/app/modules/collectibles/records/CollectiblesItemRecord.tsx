@@ -332,49 +332,49 @@ case 30:
             var3 = var4.collectibles;
 case 51:
             var4 = var9 == var3;
-            var7 = undefined;
+            var5 = undefined;
             if(var4) { _fun0006_ip = 52; continue _fun0006 }
 case 53:
-            var7 = var3.item;
+            var5 = var3.item;
 case 52:
-            if(!(var9 == var7)) { _fun0006_ip = 54; continue _fun0006 }
+            if(!(var9 == var5)) { _fun0006_ip = 54; continue _fun0006 }
 case 47:
             var3 = undefined;
             return var3;
 case 54:
-            var4 = var7.type;
-            var5 = _closure1_slot0;
+            var4 = var5.type;
+            var6 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var6 = 5;
-            var3 = var3[var6];
-            var3 = var5.bind(var2)(var3);
+            var7 = 5;
+            var3 = var3[var7];
+            var3 = var6.bind(var2)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.AVATAR_DECORATION;
             if(!(var4 !== var3)) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
-            var4 = var7.type;
-            var5 = _closure1_slot0;
+            var4 = var5.type;
+            var6 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var3 = var3[var6];
-            var3 = var5.bind(var2)(var3);
+            var3 = var3[var7];
+            var3 = var6.bind(var2)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.NAMEPLATE;
             if(!(var4 !== var3)) { _fun0006_ip = 57; continue _fun0006 }
 case 58:
-            var4 = var7.type;
-            var5 = _closure1_slot0;
+            var4 = var5.type;
+            var6 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var3 = var3[var6];
-            var3 = var5.bind(var2)(var3);
+            var3 = var3[var7];
+            var3 = var6.bind(var2)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.PROFILE_EFFECT;
             if(!(var4 !== var3)) { _fun0006_ip = 59; continue _fun0006 }
 case 60:
-            var4 = var7.type;
-            var5 = _closure1_slot0;
+            var4 = var5.type;
+            var6 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var3 = var3[var6];
-            var3 = var5.bind(var2)(var3);
+            var3 = var3[var7];
+            var3 = var6.bind(var2)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.PROFILE_FRAME;
             var2 = undefined;
@@ -383,22 +383,22 @@ case 62:
             var3 = {};
             var4 = 'single';
             var3['type'] = var4;
-            var6 = _closure1_slot5;
+            var7 = _closure1_slot5;
             var4 = {};
-            var5 = var1.id;
-            var4['skuId'] = var5;
-            var5 = var7.type;
-            var4['type'] = var5;
-            var5 = var7.label;
-            var4['label'] = var5;
-            var5 = var7.layers;
-            var4['layers'] = var5;
-            var5 = var6.prototype;
-            var5 = Object.create(var5, {constructor: {value: var6}});
-            var12 = var5;
+            var6 = var1.id;
+            var4['skuId'] = var6;
+            var6 = var5.type;
+            var4['type'] = var6;
+            var6 = var5.label;
+            var4['label'] = var6;
+            var6 = var5.layers;
+            var4['layers'] = var6;
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var12 = var6;
             var11 = var4;
-            var4 = new var12[var6](var11, var10);
-            var4 = var4 instanceof Object ? var4 : var5;
+            var4 = new var12[var7](var11, var10);
+            var4 = var4 instanceof Object ? var4 : var6;
             var3['item'] = var4;
             var2 = var3;
 case 61:
@@ -407,101 +407,81 @@ case 59:
             var3 = {};
             var4 = 'single';
             var3['type'] = var4;
-            var6 = _closure1_slot4;
+            var7 = _closure1_slot4;
             var4 = {};
-            var5 = var1.id;
-            var4['skuId'] = var5;
-            var5 = var7.type;
-            var4['type'] = var5;
-            var5 = var7.titleLocalized;
-            if(!(var9 == var5)) { _fun0006_ip = 64; continue _fun0006 }
+            var6 = var1.id;
+            var4['skuId'] = var6;
+            var6 = var5.type;
+            var4['type'] = var6;
+            var6 = var5.title;
+            var4['title'] = var6;
+            var6 = var5.description;
+            var4['description'] = var6;
+            var6 = var5.thumbnailPreviewSrc;
+            var4['thumbnailPreviewSrc'] = var6;
+            var6 = var5.reducedMotionSrc;
+            var4['reducedMotionSrc'] = var6;
+            var6 = var5.effects;
+            if(!(var9 == var6)) { _fun0006_ip = 64; continue _fun0006 }
 case 65:
-            var5 = var7.title;
+            var6 = new Array(0);
 case 64:
-            var4['title'] = var5;
-            var5 = var7.descriptionLocalized;
-            if(!(var9 == var5)) { _fun0006_ip = 66; continue _fun0006 }
-case 67:
-            var5 = var7.description;
-case 66:
-            var4['description'] = var5;
-            var5 = var7.thumbnailPreviewSrc;
-            var4['thumbnailPreviewSrc'] = var5;
-            var5 = var7.reducedMotionSrc;
-            var4['reducedMotionSrc'] = var5;
-            var5 = var7.effects;
-            if(!(var9 == var5)) { _fun0006_ip = 68; continue _fun0006 }
-case 69:
-            var5 = new Array(0);
-case 68:
-            var4['effects'] = var5;
-            var5 = var7.accessibilityLabelLocalized;
-            if(!(var9 == var5)) { _fun0006_ip = 70; continue _fun0006 }
-case 71:
-            var5 = var7.accessibilityLabel;
-case 70:
-            var4['accessibilityLabel'] = var5;
-            var5 = var7.animationType;
-            var4['animationType'] = var5;
-            var5 = var7.staticFrameSrc;
-            var4['staticFrameSrc'] = var5;
-            var5 = var6.prototype;
-            var5 = Object.create(var5, {constructor: {value: var6}});
-            var12 = var5;
+            var4['effects'] = var6;
+            var6 = var5.accessibilityLabel;
+            var4['accessibilityLabel'] = var6;
+            var6 = var5.animationType;
+            var4['animationType'] = var6;
+            var6 = var5.staticFrameSrc;
+            var4['staticFrameSrc'] = var6;
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var12 = var6;
             var11 = var4;
-            var4 = new var12[var6](var11, var10);
-            var4 = var4 instanceof Object ? var4 : var5;
+            var4 = new var12[var7](var11, var10);
+            var4 = var4 instanceof Object ? var4 : var6;
             var3['item'] = var4;
             var2 = var3;
 case 63:
-            _fun0006_ip = 72; continue _fun0006;
+            _fun0006_ip = 66; continue _fun0006;
 case 57:
             var3 = {};
             var4 = 'single';
             var3['type'] = var4;
-            var6 = _closure1_slot3;
+            var7 = _closure1_slot3;
             var4 = {};
-            var5 = var1.id;
-            var4['skuId'] = var5;
-            var5 = var7.type;
-            var4['type'] = var5;
-            var5 = var7.asset;
-            var4['asset'] = var5;
-            var5 = var7.labelLocalized;
-            if(!(var9 == var5)) { _fun0006_ip = 73; continue _fun0006 }
-case 74:
-            var5 = var7.label;
-case 73:
-            var4['label'] = var5;
-            var5 = var7.palette;
-            var4['palette'] = var5;
-            var5 = var6.prototype;
-            var5 = Object.create(var5, {constructor: {value: var6}});
-            var12 = var5;
+            var6 = var1.id;
+            var4['skuId'] = var6;
+            var6 = var5.type;
+            var4['type'] = var6;
+            var6 = var5.asset;
+            var4['asset'] = var6;
+            var6 = var5.label;
+            var4['label'] = var6;
+            var6 = var5.palette;
+            var4['palette'] = var6;
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var12 = var6;
             var11 = var4;
-            var4 = new var12[var6](var11, var10);
-            var4 = var4 instanceof Object ? var4 : var5;
+            var4 = new var12[var7](var11, var10);
+            var4 = var4 instanceof Object ? var4 : var6;
             var3['item'] = var4;
             var2 = var3;
-case 72:
-            _fun0006_ip = 75; continue _fun0006;
+case 66:
+            _fun0006_ip = 67; continue _fun0006;
 case 55:
             var3 = {};
             var4 = 'single';
             var3['type'] = var4;
             var6 = _closure1_slot2;
             var4 = {};
-            var5 = var1.id;
-            var4['skuId'] = var5;
-            var5 = var7.type;
-            var4['type'] = var5;
-            var5 = var7.asset;
-            var4['asset'] = var5;
-            var5 = var7.labelLocalized;
-            if(!(var9 == var5)) { _fun0006_ip = 76; continue _fun0006 }
-case 77:
-            var5 = var7.label;
-case 76:
+            var7 = var1.id;
+            var4['skuId'] = var7;
+            var7 = var5.type;
+            var4['type'] = var7;
+            var7 = var5.asset;
+            var4['asset'] = var7;
+            var5 = var5.label;
             var4['label'] = var5;
             var5 = var6.prototype;
             var5 = Object.create(var5, {constructor: {value: var6}});
@@ -511,54 +491,54 @@ case 76:
             var4 = var4 instanceof Object ? var4 : var5;
             var3['item'] = var4;
             var2 = var3;
-case 75:
+case 67:
             return var2;
 case 49:
             var3 = new Array(0);
             var4 = _closure1_slot8;
             var2 = var1.bundledSkus;
             var7 = null;
-            if(!(var7 == var2)) { _fun0006_ip = 78; continue _fun0006 }
-case 79:
+            if(!(var7 == var2)) { _fun0006_ip = 68; continue _fun0006 }
+case 69:
             var2 = new Array(0);
-case 78:
+case 68:
             var1 = undefined;
             var6 = var4.bind(var1)(var2);
             var4 = var6.bind(var1)();
             var2 = var4.done;
             var5 = 'single';
-            if(var2) { _fun0006_ip = 80; continue _fun0006 }
-case 81:
+            if(var2) { _fun0006_ip = 70; continue _fun0006 }
+case 71:
             var9 = _closure1_slot10;
             var2 = var4.value;
             var2 = var9.bind(var1)(var2);
             var10 = var7 == var2;
             var9 = undefined;
-            if(var10) { _fun0006_ip = 82; continue _fun0006 }
-case 83:
+            if(var10) { _fun0006_ip = 72; continue _fun0006 }
+case 73:
             var9 = var2.type;
-case 82:
-            if(!(var5 === var9)) { _fun0006_ip = 84; continue _fun0006 }
-case 85:
+case 72:
+            if(!(var5 === var9)) { _fun0006_ip = 74; continue _fun0006 }
+case 75:
             var9 = var3.push;
             var2 = var2.item;
             var2 = var9.bind(var3)(var2);
-case 84:
+case 74:
             var9 = var6.bind(var1)();
             var2 = var9.done;
             var4 = var9;
-            if(!var2) { _fun0006_ip = 81; continue _fun0006 }
-case 80:
+            if(!var2) { _fun0006_ip = 71; continue _fun0006 }
+case 70:
             var4 = var3.length;
             var2 = 0;
-            if(!(var2 !== var4)) { _fun0006_ip = 86; continue _fun0006 }
-case 87:
+            if(!(var2 !== var4)) { _fun0006_ip = 76; continue _fun0006 }
+case 77:
             var2 = {};
             var4 = 'bundle';
             var2['type'] = var4;
             var2['items'] = var3;
             return var2;
-case 86:
+case 76:
             return var1;
         }
     };

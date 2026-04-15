@@ -190,15 +190,15 @@ case 9:
 case 12:
             var1 = _closure1_slot3;
             var1 = var1.LOW;
-            if(!(var1 !== var5)) { _fun0002_ip = 7; continue _fun0002 }
-case 13:
+            if(!(var1 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var1 = _closure1_slot3;
             var1 = var1.MEDIUM;
-            if(!(var1 !== var5)) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(!(var1 !== var5)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var1 = _closure1_slot3;
             var1 = var1.HIGH;
-            if(!(var1 !== var5)) { _fun0002_ip = 16; continue _fun0002 }
+            if(!(var1 !== var5)) { _fun0002_ip = 5; continue _fun0002 }
 case 17:
             var1 = _closure1_slot3;
             var1 = var1.VERY_HIGH;
@@ -220,15 +220,15 @@ case 18:
             var1 = _closure1_slot0;
             var1 = var1.VERY_HIGH;
             _fun0002_ip = 20; continue _fun0002;
-case 16:
+case 5:
             var3 = _closure1_slot0;
             var1 = var3.HIGH;
             _fun0002_ip = 20; continue _fun0002;
-case 14:
+case 15:
             var3 = _closure1_slot0;
             var1 = var3.MEDIUM;
             _fun0002_ip = 20; continue _fun0002;
-case 7:
+case 13:
             var3 = _closure1_slot0;
             var1 = var3.LOW;
             _fun0002_ip = 20; continue _fun0002;
@@ -452,7 +452,7 @@ case 0:
             var1 = undefined;
             var10 = undefined;
             if(var2) { _fun0005_ip = 40; continue _fun0005 }
-case 13:
+case 14:
             var2 = var3.toString;
             var10 = var2.bind(var3)();
 case 40:

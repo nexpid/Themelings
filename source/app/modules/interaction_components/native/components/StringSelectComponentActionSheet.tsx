@@ -314,13 +314,13 @@ case 0:
                     var4 = null;
                     var2 = var4 != var1;
                     var1 = null;
-                    if(!var2) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+                    if(!var2) { _fun0005_ip = 10; continue _fun0005 }
+case 16:
                     var3 = var6.description;
                     var2 = '';
                     var1 = null;
-                    if(!(var2 !== var3)) { _fun0005_ip = 16; continue _fun0005 }
-case 18:
+                    if(!(var2 !== var3)) { _fun0005_ip = 10; continue _fun0005 }
+case 17:
                     var5 = _closure1_slot5;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -336,7 +336,7 @@ case 18:
                     var6 = var6.description;
                     var2['children'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
-case 16:
+case 10:
                     return var1;
                 }
             };
@@ -345,10 +345,10 @@ case 16:
             var1['labelComponent'] = var11;
             var10 = var10.options;
             var1['options'] = var10;
-            if(!var9) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-            var9 = var8.selectionOptionItemWithDescription;
+            if(!var9) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
+            var9 = var8.selectionOptionItemWithDescription;
+case 18:
             var8 = new Array(1);
             var8[0] = var9;
             var1['itemStyle'] = var8;
@@ -395,10 +395,10 @@ case 0:
                     var7 = var5.emoji;
                     var8 = null;
                     var8 = var8 == var7;
-                    if(var8) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
-                    var6 = var7.name;
+                    if(var8) { _fun0006_ip = 20; continue _fun0006 }
 case 21:
+                    var6 = var7.name;
+case 20:
                     var1['emojiName'] = var6;
                     var6 = var5.label;
                     var1['optionName'] = var6;

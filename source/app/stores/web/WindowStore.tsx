@@ -39,23 +39,26 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function getWindowIdState(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
+            var4 = arg1;
             var3 = _closure1_slot9;
-            var2 = var3.get;
-            var1 = arg1;
-            var1 = var2.bind(var3)(var1);
-            var2 = null;
-            if(!(var2 == var1)) { _fun0002_ip = 6; continue _fun0002 }
+            var1 = var3.get;
+            var1 = var1.bind(var3)(var4);
+            var3 = null;
+            if(!(var3 == var1)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
+            var3 = _closure1_slot10;
+            var2 = var3.has;
+            var2 = var2.bind(var3)(var4);
             var2 = {'isElementFullscreen': false, 'focused': false, 'windowSize': null, 'visible': false};
             var3 = {'width': 0, 'height': 0};
             var2['windowSize'] = var3;
@@ -64,7 +67,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var2 = global;
     var10 = var2.Object;
     var9 = var10.defineProperty;
@@ -96,13 +99,20 @@ case 6:
     var _closure1_slot7 = var8;
     var8 = null;
     var _closure1_slot8 = var8;
-    var2 = var2.Map;
+    var8 = var2.Map;
+    var9 = var8.prototype;
+    var9 = Object.create(var9, {constructor: {value: var8}});
+    var14 = var9;
+    var8 = new var14[var8](var13);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot9 = var8;
+    var2 = var2.Set;
     var8 = var2.prototype;
     var8 = Object.create(var8, {constructor: {value: var2}});
     var14 = var8;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var8;
-    var _closure1_slot9 = var2;
+    var _closure1_slot10 = var2;
     var2 = 7;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -120,7 +130,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -167,7 +177,7 @@ case 12:
                 var1 = var4.getMainWindowId;
                 var3 = var1.bind(var4)();
 case 11:
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var2)(var3);
                 var1 = var1.focused;
                 return var1;
@@ -207,7 +217,7 @@ case 12:
                 var1 = var4.getMainWindowId;
                 var3 = var1.bind(var4)();
 case 11:
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var2)(var3);
                 var1 = var1.visible;
                 return var1;
@@ -270,7 +280,7 @@ case 12:
                 var1 = var4.getMainWindowId;
                 var3 = var1.bind(var4)();
 case 11:
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var2)(var3);
                 var1 = var1.isElementFullscreen;
                 return var1;
@@ -296,7 +306,7 @@ case 12:
                 var1 = var4.getMainWindowId;
                 var3 = var1.bind(var4)();
 case 11:
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var2)(var3);
                 var1 = var1.windowSize;
                 return var1;
@@ -362,7 +372,7 @@ case 15:
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var6 = arg1;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var3 = var6.windowId;
             var1 = undefined;
             var7 = var4.bind(var1)(var3);
@@ -392,7 +402,7 @@ case 17:
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var6 = arg1;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var3 = var6.windowId;
             var1 = undefined;
             var7 = var4.bind(var1)(var3);
@@ -428,7 +438,7 @@ case 18:
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var6 = arg1;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var3 = var6.windowId;
             var1 = undefined;
             var7 = var4.bind(var1)(var3);
@@ -470,17 +480,21 @@ case 22:
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
+            var5 = _closure1_slot10;
+            var4 = var5.add;
+            var3 = var1.windowId;
+            var3 = var4.bind(var5)(var3);
             var5 = _closure1_slot9;
             var4 = var5.delete;
             var3 = var1.windowId;
             var3 = var4.bind(var5)(var3);
             var3 = _closure1_slot8;
             var1 = var1.windowId;
-            if(!(var3 === var1)) { _fun0013_ip = 21; continue _fun0013 }
+            if(!(var3 === var1)) { _fun0013_ip = 20; continue _fun0013 }
 case 23:
             var1 = null;
             _closure1_slot8 = var1;
-case 21:
+case 20:
             var1 = true;
             return var1;
         }
@@ -490,7 +504,7 @@ case 21:
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var6 = arg1;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var3 = var6.windowId;
             var1 = undefined;
             var7 = var4.bind(var1)(var3);

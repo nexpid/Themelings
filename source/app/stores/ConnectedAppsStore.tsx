@@ -133,8 +133,40 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
+        var5 = {};
+        var7 = 'isChildConnected';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                var3 = arg1;
+                var _closure3_slot0 = var3;
+                var1 = null;
+                var1 = var1 != var3;
+                if(!var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                var3 = global;
+                var5 = var3.Object;
+                var4 = var5.values;
+                var3 = _closure1_slot7;
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.some;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.parentId;
+                    var1 = _closure3_slot0;
+                    var1 = var2 === var1;
+                    return var1;
+                };
+                var1 = var3.bind(var4)(var2);
+case 9:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'connections';
         var5['key'] = var7;
@@ -151,7 +183,7 @@ case 8:
             return var1;
         };
         var5['get'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'getApplication';
         var5['key'] = var7;
@@ -162,7 +194,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getAllConnections';
         var5['key'] = var7;
@@ -171,7 +203,7 @@ case 8:
             return var1;
         };
         var5['value'] = var6;
-        var1[3] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -194,25 +226,27 @@ case 8:
     };
     var2['OVERLAY_INITIALIZE'] = var8;
     var8 = function handleAppConnection(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.application;
             var1 = var5.id;
             var4 = null;
-            if(!(var4 != var1)) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+            if(!(var4 != var1)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var2 = var5.id;
             var3 = _closure1_slot7;
             var3 = var3[var2];
-            if(!(var4 == var3)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(!(var4 == var3)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var4 = _closure1_slot7;
             var3 = {};
             var6 = 0;
             var3['count'] = var6;
             var6 = var5.id;
             var3['id'] = var6;
+            var6 = var5.parentId;
+            var3['parentId'] = var6;
             var6 = var5.name;
             var3['name'] = var6;
             var6 = var5.icon;
@@ -222,7 +256,7 @@ case 12:
             var5 = false;
             var3['authenticated'] = var5;
             var4[var2] = var3;
-case 11:
+case 13:
             var1 = _closure1_slot7;
             var2 = var1[var2];
             var1 = var2.count;
@@ -230,29 +264,29 @@ case 11:
             var2['count'] = var1;
             var1 = undefined;
             return var1;
-case 9:
+case 11:
             var1 = false;
             return var1;
         }
     };
     var2['RPC_APP_CONNECTED'] = var8;
     var8 = function handleAppAuthenticated(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.application;
             var2 = var1.id;
             var4 = null;
             var2 = var4 != var2;
-            if(!var2) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+            if(!var2) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var5 = _closure1_slot7;
             var3 = var1.id;
             var3 = var5[var3];
             var2 = var4 != var3;
-case 13:
-            if(!var2) { _fun0004_ip = 6; continue _fun0004 }
 case 15:
+            if(!var2) { _fun0005_ip = 6; continue _fun0005 }
+case 17:
             var2 = _closure1_slot7;
             var1 = var1.id;
             var2 = var2[var1];
@@ -265,22 +299,22 @@ case 6:
     };
     var2['RPC_APP_AUTHENTICATED'] = var8;
     var4 = function handleAppDisconnection(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.application;
             var2 = var1.id;
             var4 = null;
             var2 = var4 != var2;
-            if(!var2) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
+            if(!var2) { _fun0006_ip = 15; continue _fun0006 }
+case 16:
             var5 = _closure1_slot7;
             var3 = var1.id;
             var3 = var5[var3];
             var2 = var4 != var3;
-case 13:
-            if(!var2) { _fun0005_ip = 16; continue _fun0005 }
 case 15:
+            if(!var2) { _fun0006_ip = 18; continue _fun0006 }
+case 17:
             var4 = _closure1_slot7;
             var3 = var1.id;
             var4 = var4[var3];
@@ -292,12 +326,12 @@ case 15:
             var3 = var4[var3];
             var4 = var3.count;
             var3 = 0;
-            if(!(var3 === var4)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+            if(!(var3 === var4)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
             var2 = _closure1_slot7;
             var1 = var1.id;
             var1 = delete var2[var1];
-case 16:
+case 18:
             var1 = undefined;
             return var1;
         }

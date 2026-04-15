@@ -444,8 +444,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['SEND_REPLY_ACTIVITY'] = var5;
     var5 = 'PRESS_CLOUD_PLAY_BUTTON';
     var9['PRESS_CLOUD_PLAY_BUTTON'] = var5;
-    var5 = 'PRESS_HANG_STATUS_BUTTON';
-    var9['PRESS_HANG_STATUS_BUTTON'] = var5;
     var5 = 'PRESS_ADD_TO_CURRENT_GAMES_WIDGET';
     var9['PRESS_ADD_TO_CURRENT_GAMES_WIDGET'] = var5;
     var5 = 'PRESS_APPLICATION_WIDGET_PREVIEW_VIEW_MORE';

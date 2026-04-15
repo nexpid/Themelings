@@ -275,7 +275,7 @@ case 31:
     var1 = function toggleDeaf() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 43;
+        var1 = 39;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -356,7 +356,7 @@ case 31:
     var5 = var6.bind(var1)(var5);
     var5 = var5.jsx;
     var _closure1_slot17 = var5;
-    var5 = 66;
+    var5 = 62;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -427,93 +427,6 @@ case 37:
     };
     var3['GameConsoles'] = var5;
     var3['GameConsoleAccountButton'] = var4;
-    var4 = function HangStatusButton(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.channel;
-            var _closure2_slot0 = var3;
-            var2 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var1 = 27;
-            var1 = var7[var1];
-            var5 = undefined;
-            var4 = var2.bind(var5)(var1);
-            var2 = var4.useHangStatusExperiment;
-            var1 = {};
-            var8 = var3.guild_id;
-            var1['guildId'] = var8;
-            var8 = 'HangStatusButton';
-            var1['location'] = var8;
-            var1 = var2.bind(var4)(var1);
-            var4 = var1.enableHangStatus;
-            var2 = _closure1_slot1;
-            var1 = 28;
-            var1 = var7[var1];
-            var2 = var2.bind(var5)(var1);
-            var1 = true;
-            var2 = var2.bind(var5)(var3, var1);
-            var1 = null;
-            if(!var4) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-            var1 = null;
-            if(!var2) { _fun0004_ip = 39; continue _fun0004 }
-case 41:
-            var4 = _closure1_slot17;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 25;
-            var2 = var10[var2];
-            var2 = var9.bind(var5)(var2);
-            var3 = var2.TableRow;
-            var2 = {};
-            var6 = function onPress() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 29;
-                var2 = var2[var1];
-                var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.showHangStatusPickerActionSheet;
-                var3 = {};
-                var2 = _closure2_slot0;
-                var2 = var2.id;
-                var3['channelId'] = var2;
-                var2 = true;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
-            var2['onPress'] = var6;
-            var8 = _closure1_slot17;
-            var6 = 26;
-            var6 = var10[var6];
-            var6 = var9.bind(var5)(var6);
-            var7 = var6.TableRowIcon;
-            var6 = {};
-            var12 = _closure1_slot1;
-            var11 = 30;
-            var11 = var10[var11];
-            var11 = var12.bind(var5)(var11);
-            var6['source'] = var11;
-            var6 = var8.bind(var5)(var7, var6);
-            var2['icon'] = var6;
-            var6 = 17;
-            var7 = var10[var6];
-            var7 = var9.bind(var5)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var6 = var10[var6];
-            var6 = var9.bind(var5)(var6);
-            var6 = var6.t;
-            var6 = var6.pwvT9g;
-            var6 = var7.bind(var8)(var6);
-            var2['label'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 39:
-            return var1;
-        }
-    };
-    var3['HangStatusButton'] = var4;
     var4 = function ActivitiesButton(arg1) {
         var2 = arg1;
         var7 = var2.openTab;
@@ -522,7 +435,7 @@ case 39:
         var3 = var6.useContext;
         var8 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var2 = 31;
+        var2 = 27;
         var2 = var9[var2];
         var4 = undefined;
         var2 = var8.bind(var4)(var2);
@@ -547,7 +460,7 @@ case 39:
                 var2['tab'] = var1;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 32;
+                var1 = 28;
                 var4 = var4[var1];
                 var1 = undefined;
                 var4 = var5.bind(var1)(var4);
@@ -576,7 +489,7 @@ case 39:
         var5 = var8.bind(var4)(var5);
         var6 = var5.TableRowIcon;
         var5 = {};
-        var10 = 33;
+        var10 = 29;
         var10 = var9[var10];
         var10 = var8.bind(var4)(var10);
         var10 = var10.AppsIcon;
@@ -606,7 +519,7 @@ case 39:
         var3 = var6.useContext;
         var8 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var2 = 31;
+        var2 = 27;
         var2 = var9[var2];
         var4 = undefined;
         var2 = var8.bind(var4)(var2);
@@ -631,7 +544,7 @@ case 39:
                 var2['tab'] = var1;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 32;
+                var1 = 28;
                 var4 = var4[var1];
                 var1 = undefined;
                 var4 = var5.bind(var1)(var4);
@@ -660,7 +573,7 @@ case 39:
         var5 = var8.bind(var4)(var5);
         var6 = var5.TableRowIcon;
         var5 = {};
-        var10 = 34;
+        var10 = 30;
         var10 = var9[var10];
         var10 = var8.bind(var4)(var10);
         var10 = var10.ChatIcon;
@@ -683,13 +596,13 @@ case 39:
     };
     var3['ChatButton'] = var4;
     var4 = function SoundboardButton(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.channel;
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 35;
+            var1 = 31;
             var3 = var7[var1];
             var5 = undefined;
             var3 = var4.bind(var5)(var3);
@@ -704,8 +617,8 @@ case 0:
             var8 = var1.handlePress;
             var7 = var1.disabled;
             var1 = null;
-            if(!var2) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(!var2) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var4 = _closure1_slot17;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -733,7 +646,7 @@ case 43:
             var6 = var10.bind(var5)(var6);
             var7 = var6.TableRowIcon;
             var6 = {};
-            var9 = 36;
+            var9 = 32;
             var9 = var11[var9];
             var9 = var10.bind(var5)(var9);
             var9 = var9.SoundboardIcon;
@@ -741,7 +654,7 @@ case 43:
             var6 = var8.bind(var5)(var7, var6);
             var2['icon'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 42:
+case 39:
             return var1;
         }
     };
@@ -751,7 +664,7 @@ case 42:
         var3 = var2.channel;
         var5 = _closure1_slot1;
         var10 = _closure1_slot2;
-        var2 = 37;
+        var2 = 33;
         var2 = var10[var2];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -771,7 +684,7 @@ case 42:
         var1 = function() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 38;
+            var1 = 34;
             var3 = var3[var1];
             var1 = undefined;
             var6 = var4.bind(var1)(var3);
@@ -814,7 +727,7 @@ case 42:
     };
     var3['ScreenshareButton'] = var4;
     var4 = function StreamVolumeItem() {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -829,7 +742,7 @@ case 0:
             var1 = _closure1_slot10;
             var2[1] = var1;
             var1 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var2 = _closure1_slot9;
                     var1 = var2.getLastActiveStream;
@@ -837,32 +750,32 @@ case 0:
                     var5 = null;
                     var4 = var5 != var2;
                     var1 = null;
-                    if(!var4) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+                    if(!var4) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
                     var4 = var2.ownerId;
                     var6 = _closure1_slot10;
                     var3 = var6.getId;
                     var3 = var3.bind(var6)();
                     var1 = null;
-                    if(!(var4 !== var3)) { _fun0007_ip = 44; continue _fun0007 }
-case 46:
+                    if(!(var4 !== var3)) { _fun0006_ip = 41; continue _fun0006 }
+case 43:
                     var1 = var2;
-case 44:
+case 41:
                     return var1;
                 }
             };
             var2 = var3.bind(var6)(var2, var1);
             var3 = _closure1_slot1;
-            var1 = 39;
+            var1 = 35;
             var1 = var4[var1];
             var6 = var3.bind(var5)(var1);
             var1 = null;
             var3 = var1 == var2;
             var4 = undefined;
-            if(var3) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+            if(var3) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
             var4 = var2.ownerId;
-case 47:
+case 44:
             var3 = _closure1_slot16;
             var3 = var3.STREAM;
             var3 = var6.bind(var5)(var4, var3);
@@ -870,8 +783,8 @@ case 47:
             var13 = var3.handleVolumeChange;
             var2 = var1 == var2;
             var1 = null;
-            if(var2) { _fun0006_ip = 16; continue _fun0006 }
-case 49:
+            if(var2) { _fun0005_ip = 16; continue _fun0005 }
+case 46:
             var4 = _closure1_slot17;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -899,29 +812,29 @@ case 49:
             var6 = {};
             var11 = _closure1_slot17;
             var10 = _closure1_slot1;
-            var9 = 40;
+            var9 = 36;
             var9 = var18[var9];
             var10 = var10.bind(var5)(var9);
             var9 = {};
-            var15 = 41;
+            var15 = 37;
             var15 = var18[var15];
             var17 = var17.bind(var5)(var15);
             var15 = var17.isAndroid;
             var17 = var15.bind(var17)();
             var15 = undefined;
-            if(!var17) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
+            if(!var17) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
             var15 = function() {
                 var1 = true;
                 return var1;
             };
-case 50:
+case 47:
             var9['onResponderGrant'] = var15;
             var9['value'] = var14;
             var9['onValueChange'] = var13;
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var12 = 42;
+            var12 = 38;
             var15 = var14[var12];
             var15 = var13.bind(var5)(var15);
             var15 = var15.unsafe_rawColors;
@@ -961,7 +874,7 @@ case 16:
         };
         var7 = var3.bind(var5)(var2, var1);
         var3 = _closure1_slot17;
-        var1 = 44;
+        var1 = 40;
         var1 = var9[var1];
         var1 = var8.bind(var4)(var1);
         var2 = var1.TableSwitchRow;
@@ -972,13 +885,13 @@ case 16:
         var5 = var8.bind(var4)(var5);
         var10 = var5.TableRowIcon;
         var5 = {};
-        var12 = 45;
+        var12 = 41;
         var12 = var9[var12];
         var12 = var8.bind(var4)(var12);
         var12 = var12.HeadphonesSlashIcon;
         var5['IconComponent'] = var12;
         var13 = _closure1_slot1;
-        var12 = 46;
+        var12 = 42;
         var12 = var9[var12];
         var12 = var13.bind(var4)(var12);
         var5['source'] = var12;
@@ -1030,7 +943,7 @@ case 16:
         var _closure2_slot1 = var1;
         var6 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var1 = 47;
+        var1 = 43;
         var1 = var8[var1];
         var4 = undefined;
         var2 = var6.bind(var4)(var1);
@@ -1055,7 +968,7 @@ case 16:
         var7 = function onPress() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 48;
+            var1 = 44;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -1079,7 +992,7 @@ case 16:
         var7 = var9.bind(var10)(var7);
         var1['label'] = var7;
         var7 = _closure1_slot17;
-        var5 = 49;
+        var5 = 45;
         var5 = var8[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.TableRowArrow;
@@ -1091,14 +1004,14 @@ case 16:
     };
     var3['AudioRouteButton'] = var4;
     var4 = function InviteButton(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = arg1;
             var1 = var2.channel;
             var2 = var2.connected;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var3 = 50;
+            var3 = 46;
             var3 = var9[var3];
             var5 = undefined;
             var7 = var8.bind(var5)(var3);
@@ -1110,21 +1023,21 @@ case 0:
             var3 = var9[var3];
             var3 = var7.bind(var5)(var3);
             var7 = var3.bind(var5)(var1);
-            var3 = 51;
+            var3 = 47;
             var3 = var9[var3];
             var8 = var8.bind(var5)(var3);
             var3 = var8.useInviteMembersCallback;
             var1 = var1.id;
             var8 = var3.bind(var8)(var1);
             var1 = null;
-            if(var7) { _fun0008_ip = 52; continue _fun0008 }
-case 53:
+            if(var7) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
             var1 = null;
-            if(!var4) { _fun0008_ip = 52; continue _fun0008 }
-case 54:
+            if(!var4) { _fun0007_ip = 49; continue _fun0007 }
+case 51:
             var1 = null;
-            if(!var2) { _fun0008_ip = 52; continue _fun0008 }
-case 55:
+            if(!var2) { _fun0007_ip = 49; continue _fun0007 }
+case 52:
             var4 = _closure1_slot17;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1140,13 +1053,13 @@ case 55:
             var8 = var7.bind(var5)(var8);
             var10 = var8.TableRowIcon;
             var8 = {};
-            var12 = 52;
+            var12 = 48;
             var12 = var9[var12];
             var12 = var7.bind(var5)(var12);
             var12 = var12.GroupPlusIcon;
             var8['IconComponent'] = var12;
             var13 = _closure1_slot1;
-            var12 = 53;
+            var12 = 49;
             var12 = var9[var12];
             var12 = var13.bind(var5)(var12);
             var8['source'] = var12;
@@ -1164,7 +1077,7 @@ case 55:
             var8 = var10.bind(var11)(var8);
             var2['label'] = var8;
             var8 = _closure1_slot17;
-            var6 = 49;
+            var6 = 45;
             var6 = var9[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.TableRowArrow;
@@ -1172,7 +1085,7 @@ case 55:
             var6 = var8.bind(var5)(var7, var6);
             var2['trailing'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 52:
+case 49:
             return var1;
         }
     };
@@ -1208,7 +1121,7 @@ case 52:
         var1 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 54;
+            var1 = 50;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -1221,7 +1134,7 @@ case 52:
         };
         var6 = var3.bind(var5)(var1, var2);
         var3 = _closure1_slot17;
-        var1 = 44;
+        var1 = 40;
         var1 = var9[var1];
         var1 = var8.bind(var4)(var1);
         var2 = var1.TableSwitchRow;
@@ -1232,13 +1145,13 @@ case 52:
         var5 = var8.bind(var4)(var5);
         var10 = var5.TableRowIcon;
         var5 = {};
-        var13 = 55;
+        var13 = 51;
         var13 = var9[var13];
         var13 = var8.bind(var4)(var13);
         var13 = var13.VideoIcon;
         var5['IconComponent'] = var13;
         var13 = _closure1_slot1;
-        var12 = 56;
+        var12 = 52;
         var12 = var9[var12];
         var12 = var13.bind(var4)(var12);
         var5['source'] = var12;
@@ -1282,11 +1195,11 @@ case 52:
     };
     var3['HideNonVideoParticipants'] = var4;
     var4 = function HideSelfVideo() {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 57;
+            var1 = 53;
             var1 = var8[var1];
             var5 = undefined;
             var3 = var3.bind(var5)(var1);
@@ -1321,12 +1234,12 @@ case 0:
             var1 = var8.bind(var9)(var4, var1);
             var _closure2_slot2 = var1;
             var1 = null;
-            if(!var3) { _fun0009_ip = 56; continue _fun0009 }
-case 57:
+            if(!var3) { _fun0008_ip = 53; continue _fun0008 }
+case 54:
             var4 = _closure1_slot17;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 44;
+            var2 = 40;
             var2 = var10[var2];
             var2 = var9.bind(var5)(var2);
             var3 = var2.TableSwitchRow;
@@ -1334,14 +1247,14 @@ case 57:
             var7 = !var7;
             var2['value'] = var7;
             var6 = function onValueChange() {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var2 = _closure2_slot2;
-                    if(var2) { _fun0010_ip = 58; continue _fun0010 }
-case 59:
+                    if(var2) { _fun0009_ip = 55; continue _fun0009 }
+case 56:
                     var2 = _closure2_slot0;
-                    if(var2) { _fun0010_ip = 58; continue _fun0010 }
-case 60:
+                    if(var2) { _fun0009_ip = 55; continue _fun0009 }
+case 57:
                     var2 = _closure1_slot15;
                     var5 = var2.VIDEO;
                     var4 = function openHideSelfStreamAndVideoConfirmDialog(arg1, arg2) {
@@ -1410,7 +1323,7 @@ case 60:
                     };
                     var3 = var4.bind(var2)(var5, var3);
                     return var2;
-case 58:
+case 55:
                     var3 = _closure2_slot1;
                     var1 = _closure2_slot0;
                     var2 = !var1;
@@ -1432,7 +1345,7 @@ case 58:
             var6 = var7.bind(var8)(var6);
             var2['label'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 56:
+case 53:
             return var1;
         }
     };
@@ -1454,7 +1367,7 @@ case 56:
         var6 = var5.TableRowIcon;
         var5 = {};
         var11 = _closure1_slot1;
-        var10 = 58;
+        var10 = 54;
         var10 = var9[var10];
         var10 = var11.bind(var3)(var10);
         var5['source'] = var10;
@@ -1472,14 +1385,14 @@ case 56:
         var5 = var6.bind(var7)(var5);
         var1['label'] = var5;
         var5 = function onPress() {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var3 = _closure1_slot5;
                 var2 = var3.getCurrentEmbeddedActivity;
                 var6 = var2.bind(var3)();
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 59;
+                var1 = 55;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -1488,17 +1401,17 @@ case 0:
                 var5 = null;
                 var8 = var5 == var6;
                 var7 = undefined;
-                if(var8) { _fun0011_ip = 61; continue _fun0011 }
-case 62:
+                if(var8) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
                 var7 = var6.location;
-case 61:
+case 58:
                 var2['location'] = var7;
                 var7 = var5 == var6;
                 var5 = undefined;
-                if(var7) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
+                if(var7) { _fun0010_ip = 60; continue _fun0010 }
+case 61:
                 var5 = var6.applicationId;
-case 63:
+case 60:
                 var2['applicationId'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -1510,11 +1423,11 @@ case 63:
     };
     var3['LeaveActivitiesButton'] = var4;
     var4 = function ShareActivityLogsButton() {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 60;
+            var1 = 56;
             var1 = var7[var1];
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
@@ -1532,8 +1445,8 @@ case 0:
             var7 = null;
             var9 = var7 != var11;
             var7 = undefined;
-            if(!var9) { _fun0012_ip = 65; continue _fun0012 }
-case 66:
+            if(!var9) { _fun0011_ip = 62; continue _fun0011 }
+case 63:
             var10 = _closure1_slot17;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1544,7 +1457,7 @@ case 66:
             var8 = {};
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 65:
+case 62:
             var1['icon'] = var7;
             var1['label'] = var6;
             var1['onPress'] = var5;
@@ -1572,7 +1485,7 @@ case 65:
         };
         var6 = var3.bind(var6)(var2, var1);
         var3 = _closure1_slot17;
-        var1 = 44;
+        var1 = 40;
         var1 = var9[var1];
         var1 = var8.bind(var4)(var1);
         var2 = var1.TableSwitchRow;
@@ -1584,7 +1497,7 @@ case 65:
         var10 = var7.TableRowIcon;
         var7 = {};
         var13 = _closure1_slot1;
-        var12 = 61;
+        var12 = 57;
         var12 = var9[var12];
         var12 = var13.bind(var4)(var12);
         var7['source'] = var12;
@@ -1594,7 +1507,7 @@ case 65:
         var5 = function onValueChange(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 62;
+            var1 = 58;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1634,7 +1547,7 @@ case 65:
         var1 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 63;
+            var1 = 59;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1660,13 +1573,13 @@ case 65:
         var7 = var6.bind(var3)(var7);
         var9 = var7.TableRowIcon;
         var7 = {};
-        var11 = 64;
+        var11 = 60;
         var11 = var8[var11];
         var11 = var6.bind(var3)(var11);
         var11 = var11.SettingsIcon;
         var7['IconComponent'] = var11;
         var12 = _closure1_slot1;
-        var11 = 65;
+        var11 = 61;
         var11 = var8[var11];
         var11 = var12.bind(var3)(var11);
         var7['source'] = var11;
@@ -1694,7 +1607,7 @@ case 65:
         var7 = var9.bind(var10)(var7);
         var1['subLabel'] = var7;
         var7 = _closure1_slot17;
-        var5 = 49;
+        var5 = 45;
         var5 = var8[var5];
         var5 = var6.bind(var3)(var5);
         var6 = var5.TableRowArrow;
@@ -1706,13 +1619,13 @@ case 65:
     };
     var3['VoiceSettingsButton'] = var4;
     var4 = function ReportStreamIssueButton(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.stream;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 60;
+            var1 = 56;
             var1 = var7[var1];
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
@@ -1730,8 +1643,8 @@ case 0:
             var7 = null;
             var9 = var7 != var11;
             var7 = undefined;
-            if(!var9) { _fun0013_ip = 67; continue _fun0013 }
-case 68:
+            if(!var9) { _fun0012_ip = 64; continue _fun0012 }
+case 65:
             var10 = _closure1_slot17;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1742,7 +1655,7 @@ case 68:
             var8 = {};
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 67:
+case 64:
             var1['icon'] = var7;
             var1['label'] = var6;
             var1['onPress'] = var5;
@@ -1752,11 +1665,11 @@ case 67:
     };
     var3['ReportStreamIssueButton'] = var4;
     var2 = function RTCDebugPanelButton() {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 60;
+            var1 = 56;
             var1 = var7[var1];
             var4 = undefined;
             var5 = var2.bind(var4)(var1);
@@ -1778,8 +1691,8 @@ case 0:
             var7 = null;
             var9 = var7 != var11;
             var7 = undefined;
-            if(!var9) { _fun0014_ip = 67; continue _fun0014 }
-case 68:
+            if(!var9) { _fun0013_ip = 64; continue _fun0013 }
+case 65:
             var10 = _closure1_slot17;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1790,7 +1703,7 @@ case 68:
             var8 = {};
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 67:
+case 64:
             var1['icon'] = var7;
             var1['label'] = var6;
             var1['onPress'] = var5;

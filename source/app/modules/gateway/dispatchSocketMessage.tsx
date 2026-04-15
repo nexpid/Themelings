@@ -5316,6 +5316,33 @@ case 104:
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['CLIPS_REMOTE_TRIGGER'];
+    var4 = function(arg1) {
+        _fun0058: for(var _fun0058_ip = 0; ; ) switch(_fun0058_ip) {
+case 0:
+            var1 = arg1;
+            var3 = _closure1_slot29;
+            var2 = {};
+            var4 = 'CLIPS_REMOTE_TRIGGER';
+            var2['type'] = var4;
+            var4 = var1.user_id;
+            var2['userId'] = var4;
+            var4 = var1.application_id;
+            var2['applicationId'] = var4;
+            var4 = var1.party_id;
+            var1 = null;
+            var5 = var1 != var4;
+            if(!var5) { _fun0058_ip = 194; continue _fun0058 }
+case 97:
+            var1 = var4;
+case 194:
+            var2['partyId'] = var1;
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        }
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var7 = ['GUILD_SOUNDBOARD_SOUND_CREATE'];
     var4 = function(arg1) {
         var4 = arg1;
@@ -5643,20 +5670,20 @@ case 104:
         var6 = var1.updated_voice_states;
         var5 = var6.map;
         var4 = function(arg1) {
-            _fun0058: for(var _fun0058_ip = 0; ; ) switch(_fun0058_ip) {
+            _fun0059: for(var _fun0059_ip = 0; ; ) switch(_fun0059_ip) {
 case 0:
                 var3 = arg1;
                 var1 = {};
                 var2 = var3.channel_id;
                 var1['channelId'] = var2;
                 var2 = var3.deaf;
-                if(var2) { _fun0058_ip = 36; continue _fun0058 }
+                if(var2) { _fun0059_ip = 36; continue _fun0059 }
 case 31:
                 var2 = false;
 case 36:
                 var1['deaf'] = var2;
                 var2 = var3.mute;
-                if(var2) { _fun0058_ip = 92; continue _fun0058 }
+                if(var2) { _fun0059_ip = 92; continue _fun0059 }
 case 164:
                 var2 = false;
 case 92:
@@ -5665,34 +5692,34 @@ case 92:
                 var2 = null;
                 var6 = var2 != var5;
                 var4 = null;
-                if(!var6) { _fun0058_ip = 174; continue _fun0058 }
-case 194:
+                if(!var6) { _fun0059_ip = 174; continue _fun0059 }
+case 195:
                 var4 = var5;
 case 174:
                 var1['requestToSpeakTimestamp'] = var4;
                 var4 = var3.self_deaf;
-                if(var4) { _fun0058_ip = 181; continue _fun0058 }
+                if(var4) { _fun0059_ip = 181; continue _fun0059 }
 case 42:
                 var4 = false;
 case 181:
                 var1['selfDeaf'] = var4;
                 var4 = var3.self_mute;
-                if(var4) { _fun0058_ip = 177; continue _fun0058 }
+                if(var4) { _fun0059_ip = 177; continue _fun0059 }
 case 11:
                 var4 = false;
 case 177:
                 var1['selfMute'] = var4;
                 var4 = var3.self_stream;
-                if(var4) { _fun0058_ip = 182; continue _fun0058 }
+                if(var4) { _fun0059_ip = 182; continue _fun0059 }
 case 183:
                 var4 = false;
 case 182:
                 var1['selfStream'] = var4;
                 var4 = var3.self_video;
-                if(var4) { _fun0058_ip = 195; continue _fun0058 }
-case 196:
+                if(var4) { _fun0059_ip = 196; continue _fun0059 }
+case 197:
                 var4 = false;
-case 195:
+case 196:
                 var1['selfVideo'] = var4;
                 var4 = var3.session_id;
                 var1['sessionId'] = var4;
@@ -5702,10 +5729,10 @@ case 195:
                 var1['userId'] = var4;
                 var3 = var3.discoverable;
                 var2 = var2 == var3;
-                if(var2) { _fun0058_ip = 197; continue _fun0058 }
-case 198:
+                if(var2) { _fun0059_ip = 198; continue _fun0059 }
+case 199:
                 var2 = var3;
-case 197:
+case 198:
                 var1['discoverable'] = var2;
                 return var1;
             }

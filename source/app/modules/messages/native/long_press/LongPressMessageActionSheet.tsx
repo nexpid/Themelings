@@ -276,7 +276,7 @@ case 35:
     var7 = 'DESTRUCTIVE';
     var4[var8] = var7;
     var _closure1_slot25 = var4;
-    var4 = 75;
+    var4 = 76;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1381,9 +1381,10 @@ case 99:
             r125 = r125["2km5Gf"];
             r125 = r126.bind(r127)(r125);
             var82['label'] = r125;
-            r125 = r123[r109];
+            r125 = 53;
+            r125 = r123[r125];
             r125 = r122.bind(var3)(r125);
-            r125 = r125.StampIcon;
+            r125 = r125.StampXIcon;
             var82['IconComponent'] = r125;
             r125 = r119.GENERAL;
             var82['section'] = r125;
@@ -1402,7 +1403,7 @@ case 99:
             r117 = r117.tpxJto;
             r117 = r125.bind(r126)(r117);
             var82['label'] = r117;
-            r117 = 53;
+            r117 = 54;
             r117 = r123[r117];
             r117 = r122.bind(var3)(r117);
             r117 = r117.NitroWheelIcon;
@@ -1425,7 +1426,7 @@ case 99:
             r125 = r125.tpxJto;
             r125 = r126.bind(r127)(r125);
             var82['label'] = r125;
-            r125 = 54;
+            r125 = 55;
             r125 = r123[r125];
             r125 = r122.bind(var3)(r125);
             r125 = r125.BookmarkOutlineIcon;
@@ -1447,7 +1448,7 @@ case 99:
             r125 = r125.SvXS1Z;
             r125 = r126.bind(r127)(r125);
             var82['label'] = r125;
-            r125 = 55;
+            r125 = 56;
             r125 = r123[r125];
             r125 = r122.bind(var3)(r125);
             r125 = r125.BookmarkIcon;
@@ -1469,7 +1470,7 @@ case 99:
             r117 = r117.mJ3P0N;
             r117 = r125.bind(r126)(r117);
             var82['label'] = r117;
-            r117 = 56;
+            r117 = 57;
             r125 = r123[r117];
             r125 = r122.bind(var3)(r125);
             r125 = r125.ClockIcon;
@@ -1514,7 +1515,7 @@ case 99:
             r124 = r124.PHjkRE;
             r124 = r125.bind(r126)(r124);
             var82['label'] = r124;
-            r124 = 57;
+            r124 = 58;
             r124 = r123[r124];
             r124 = r122.bind(var3)(r124);
             r124 = r124.RobotIcon;
@@ -1537,7 +1538,7 @@ case 99:
             r121 = r121.g33r/P;
             r121 = r124.bind(r125)(r121);
             var82['label'] = r121;
-            r121 = 58;
+            r121 = 59;
             r121 = r123[r121];
             r121 = r122.bind(var3)(r121);
             r121 = r121.ChatIcon;
@@ -1560,7 +1561,7 @@ case 99:
             r121 = r121.P8tvKG;
             r121 = r124.bind(r125)(r121);
             var82['label'] = r121;
-            r121 = 59;
+            r121 = 60;
             r121 = r123[r121];
             r121 = r122.bind(var3)(r121);
             r121 = r121.AtIcon;
@@ -1583,7 +1584,7 @@ case 99:
             r121 = r121.S/xNKV;
             r121 = r124.bind(r125)(r121);
             var82['label'] = r121;
-            r121 = 60;
+            r121 = 61;
             r124 = r123[r121];
             r124 = r122.bind(var3)(r124);
             r124 = r124.DownloadIcon;
@@ -1780,7 +1781,7 @@ case 118:
             r111 = r111.zBoHlf;
             r111 = r116.bind(r117)(r111);
             var82['label'] = r111;
-            r111 = 61;
+            r111 = 62;
             r111 = r115[r111];
             r111 = r112.bind(var3)(r111);
             r111 = r111.IdIcon;
@@ -1820,7 +1821,7 @@ case 121:
             var82['label'] = r108;
             r111 = _closure1_slot0;
             r112 = _closure1_slot2;
-            r108 = 62;
+            r108 = 63;
             r108 = r112[r108];
             r108 = r111.bind(var3)(r108);
             r108 = r108.XSmallBoldIcon;
@@ -1894,7 +1895,7 @@ case 121:
             r115 = r115["+78Pfm"];
             r115 = r116.bind(r117)(r115);
             var82['label'] = r115;
-            r115 = 63;
+            r115 = 64;
             r116 = r112[r115];
             r116 = r111.bind(var3)(r116);
             r116 = r116.FlagIcon;
@@ -1919,7 +1920,7 @@ case 121:
             r117 = r118.bind(r119)(r117);
             var82['label'] = r117;
             var82['variant'] = r109;
-            r117 = 64;
+            r117 = 65;
             r117 = r112[r117];
             r117 = r111.bind(var3)(r117);
             r117 = r117.ClydeIcon;
@@ -1936,7 +1937,7 @@ case 121:
             r118 = r116.intl;
             r117 = r118.string;
             r119 = _closure1_slot1;
-            r116 = 65;
+            r116 = 66;
             r116 = r112[r116];
             r116 = r119.bind(var3)(r116);
             r116 = r116["1D+vqy"];
@@ -1965,7 +1966,7 @@ case 121:
             r114 = r114.ZH7P2h;
             r114 = r115.bind(r116)(r114);
             var82['label'] = r114;
-            r114 = 66;
+            r114 = 67;
             r114 = r112[r114];
             r114 = r111.bind(var3)(r114);
             r114 = r114.ImageWarningIcon;
@@ -2134,7 +2135,7 @@ case 136:
 case 139:
             var74 = _closure1_slot0;
             var75 = _closure1_slot2;
-            var73 = 67;
+            var73 = 68;
             var73 = var75[var73];
             var75 = var74.bind(var3)(var73);
             var74 = var75.canReportMessageToMods;
@@ -2149,7 +2150,7 @@ case 138:
 case 142:
             var76 = _closure1_slot0;
             var77 = _closure1_slot2;
-            var75 = 68;
+            var75 = 69;
             var75 = var77[var75];
             var77 = var76.bind(var3)(var75);
             var76 = var77.canReportUser;
@@ -2161,7 +2162,7 @@ case 141:
 case 144:
             var75 = _closure1_slot0;
             var76 = _closure1_slot2;
-            var74 = 68;
+            var74 = 69;
             var74 = var76[var74];
             var76 = var75.bind(var3)(var74);
             var75 = var76.canReportMessage;
@@ -2258,7 +2259,7 @@ case 166:
 case 165:
             var59 = _closure1_slot1;
             var60 = _closure1_slot2;
-            var58 = 69;
+            var58 = 70;
             var58 = var60[var58];
             var60 = var59.bind(var3)(var58);
             var59 = var15;
@@ -2418,7 +2419,7 @@ case 209:
 case 211:
             var33 = _closure1_slot0;
             var34 = _closure1_slot2;
-            var32 = 70;
+            var32 = 71;
             var32 = var34[var32];
             var34 = var33.bind(var3)(var32);
             var33 = var34.isWebPlayerVideoUrl;
@@ -2457,7 +2458,7 @@ case 208:
 case 213:
             var30 = _closure1_slot0;
             var31 = _closure1_slot2;
-            var29 = 71;
+            var29 = 72;
             var29 = var31[var29];
             var31 = var30.bind(var3)(var29);
             var30 = var31.messageHasObscurableMedia;
@@ -2499,7 +2500,7 @@ case 223:
 case 225:
             var28 = _closure1_slot0;
             var29 = _closure1_slot2;
-            var27 = 72;
+            var27 = 73;
             var27 = var29[var27];
             var29 = var28.bind(var3)(var27);
             var28 = var29.hasNonVoteReactions;
@@ -2553,7 +2554,7 @@ case 229:
             var16 = var17.bind(var18)(var16);
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var16 = 73;
+            var16 = 74;
             var16 = var18[var16];
             var17 = var17.bind(var3)(var16);
             var16 = var17.canViewInteractionInfo;
@@ -2587,7 +2588,7 @@ case 233:
             var16 = var14.bind(var15)(var12);
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var12 = 74;
+            var12 = 75;
             var12 = var15[var12];
             var15 = var14.bind(var3)(var12);
             var14 = var15.groupBy;

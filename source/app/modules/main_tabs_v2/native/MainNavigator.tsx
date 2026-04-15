@@ -1083,7 +1083,7 @@ case 44:
                     var12 = 42;
                     var12 = var14[var12];
                     var12 = var13.bind(var3)(var12);
-                    var10 = var12.MOVED_TO_ACTION_SHEET_ON_ANDROID_COMPONENTS;
+                    var10 = var12.BASE_MOVED_TO_ACTION_SHEET_ON_ANDROID_COMPONENTS;
 case 46:
                     var8[3] = var10;
                     var10 = _closure1_slot0;

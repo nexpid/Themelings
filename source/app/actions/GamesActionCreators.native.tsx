@@ -294,8 +294,10 @@ case 0:
                                     var7 = 'ACTIVITY_JOIN';
                                     var1['type'] = var7;
                                     var7 = _closure5_slot2;
-                                    var7 = var7.id;
-                                    var1['applicationId'] = var7;
+                                    var8 = var7.id;
+                                    var1['applicationId'] = var8;
+                                    var7 = var7.parent_id;
+                                    var1['parentApplicationId'] = var7;
                                     var1['secret'] = var6;
                                     var5 = _closure1_slot7;
                                     var5 = var5.PLAY;

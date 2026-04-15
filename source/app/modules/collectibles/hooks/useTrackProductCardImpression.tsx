@@ -217,7 +217,7 @@ case 22:
                     var9 = var8 == var6;
                     var6 = undefined;
                     if(var9) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+case 8:
                     var9 = _closure2_slot3;
                     var6 = var9.tilePosition;
 case 24:
@@ -227,31 +227,31 @@ case 24:
                     var6 = _closure2_slot3;
                     var9 = var8 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+                    if(var9) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
                     var9 = _closure2_slot3;
                     var6 = var9.pageCategory;
-case 26:
+case 25:
                     var2['page_category'] = var6;
                     var6 = _closure2_slot3;
                     var9 = var8 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+                    if(var9) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
                     var9 = _closure2_slot3;
                     var6 = var9.pageSection;
-case 28:
+case 27:
                     var2['page_section'] = var6;
                     var6 = _closure2_slot2;
                     var2['type'] = var6;
                     var6 = _closure2_slot3;
                     var8 = var8 == var6;
                     var6 = undefined;
-                    if(var8) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+                    if(var8) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
                     var7 = _closure2_slot3;
                     var6 = var7.categoryPosition;
-case 30:
+case 29:
                     var2['category_position'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
@@ -270,10 +270,10 @@ case 0:
                     var3 = var2.current;
                     var2 = null;
                     var4 = arg1;
-                    if(var4) { _fun0003_ip = 32; continue _fun0003 }
-case 33:
-                    if(!(var2 !== var3)) { _fun0003_ip = 34; continue _fun0003 }
-case 35:
+                    if(var4) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
+                    if(!(var2 !== var3)) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
                     var4 = global;
                     var6 = var4.clearTimeout;
                     var4 = _closure2_slot6;
@@ -282,10 +282,10 @@ case 35:
                     var4 = var6.bind(var4)(var5);
                     var4 = _closure2_slot6;
                     var4['current'] = var2;
-                    _fun0003_ip = 34; continue _fun0003;
-case 32:
-                    if(!(var2 === var3)) { _fun0003_ip = 34; continue _fun0003 }
-case 36:
+                    _fun0003_ip = 33; continue _fun0003;
+case 31:
+                    if(!(var2 === var3)) { _fun0003_ip = 33; continue _fun0003 }
+case 35:
                     var2 = _closure2_slot6;
                     var1 = global;
                     var5 = var1.setTimeout;
@@ -302,7 +302,7 @@ case 36:
                     var1 = 1000;
                     var1 = var5.bind(var4)(var3, var1);
                     var2['current'] = var1;
-case 34:
+case 33:
                     var1 = undefined;
                     return var1;
                 }
@@ -316,7 +316,7 @@ case 0:
                         var2 = _closure2_slot6;
                         var3 = var2.current;
                         var2 = null;
-                        if(!(var2 !== var3)) { _fun0004_ip = 37; continue _fun0004 }
+                        if(!(var2 !== var3)) { _fun0004_ip = 36; continue _fun0004 }
 case 15:
                         var3 = global;
                         var5 = var3.clearTimeout;
@@ -326,7 +326,7 @@ case 15:
                         var3 = var5.bind(var3)(var4);
                         var1 = _closure2_slot6;
                         var1['current'] = var2;
-case 37:
+case 36:
                         var1 = undefined;
                         return var1;
                     }

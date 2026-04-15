@@ -277,8 +277,9 @@ case 17:
     var9['gap'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.round;
+    var12 = var12.modules;
+    var12 = var12.button;
+    var12 = var12.BORDER_RADIUS;
     var9['borderRadius'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);

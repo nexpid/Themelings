@@ -59,12 +59,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var12;
     var4['container'] = var9;
     var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BADGE_BACKGROUND_DEFAULT;
+    var9['backgroundColor'] = var12;
+    var4['badge'] = var9;
+    var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MOD_STRONG;
-    var9['backgroundColor'] = var10;
-    var4['badge'] = var9;
+    var10 = var10.BADGE_TEXT_DEFAULT;
+    var9['color'] = var10;
+    var4['badgeText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
     var4 = 15;
@@ -247,8 +254,10 @@ case 10:
             var6 = var7.bind(var4)(var6);
             var7 = var6.Badge;
             var6 = {};
-            var10 = var10.badge;
-            var6['style'] = var10;
+            var11 = var10.badge;
+            var6['style'] = var11;
+            var10 = var10.badgeText;
+            var6['textStyle'] = var10;
             var6['value'] = var9;
             var5 = var8.bind(var4)(var7, var6);
 case 9:

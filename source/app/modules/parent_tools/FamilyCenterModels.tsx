@@ -177,8 +177,10 @@ case 7:
             var1['startTime'] = var3;
             var3 = var2.endTime;
             var1['endTime'] = var3;
-            var2 = var2.days;
-            var1['days'] = var2;
+            var3 = var2.days;
+            var1['days'] = var3;
+            var2 = var2.enabled;
+            var1['enabled'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;
@@ -302,12 +304,14 @@ case 27:
                 var6 = var6 != var5;
                 var4 = undefined;
                 if(!var6) { _fun0004_ip = 29; continue _fun0004 }
-case 7:
+case 8:
                 var4 = var5;
 case 29:
                 var1['endTime'] = var4;
-                var2 = var2.days;
-                var1['days'] = var2;
+                var4 = var2.days;
+                var1['days'] = var4;
+                var2 = var2.enabled;
+                var1['enabled'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var10 = var2;
@@ -512,22 +516,22 @@ case 39:
             var3 = var3.length;
             var5 = 0;
             if(!(var5 !== var3)) { _fun0008_ip = 40; continue _fun0008 }
-case 41:
+case 28:
             var3 = var7.rules;
             var5 = var3[var5];
             var3 = 'ruleId';
             var3 = var3 in var5;
             var6 = _closure1_slot9;
-            if(var3) { _fun0008_ip = 42; continue _fun0008 }
+            if(var3) { _fun0008_ip = 41; continue _fun0008 }
 case 7:
             var3 = var6.fromServer;
             var3 = var3.bind(var6)(var7);
-            _fun0008_ip = 43; continue _fun0008;
-case 42:
+            _fun0008_ip = 42; continue _fun0008;
+case 41:
             var5 = var6.fromCache;
             var3 = var5.bind(var6)(var7);
-case 43:
-            _fun0008_ip = 44; continue _fun0008;
+case 42:
+            _fun0008_ip = 43; continue _fun0008;
 case 40:
             var6 = _closure1_slot9;
             var4 = {};
@@ -539,7 +543,7 @@ case 40:
             var8 = var4;
             var4 = new var9[var6](var8, var7);
             var3 = var4 instanceof Object ? var4 : var5;
-case 44:
+case 43:
             var2 = var3;
 case 38:
             var1 = var2;

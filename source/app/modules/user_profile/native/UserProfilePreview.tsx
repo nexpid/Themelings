@@ -58,7 +58,7 @@ case 0:
             var5 = arg2;
             var4 = arg3;
             var1 = {};
-            var2 = {'maxHeight': '100%', 'position': 'relative', 'width': '100%', 'justifyContent': 'center'};
+            var2 = {'maxHeight': '100%', 'position': 'relative', 'width': '100%'};
             var3 = null;
             var6 = var3 != var4;
             var3 = 263;
@@ -493,6 +493,9 @@ case 39:
             var46 = true;
             var8 = _closure1_slot10;
             var7 = {'importantForAccessibility': 'no-hide-descendants', 'accessibilityElementsHidden': true};
+            var9 = {};
+            var9['flexShrink'] = var31;
+            var7['style'] = var9;
             var11 = var10 != var16;
             if(!var11) { _fun0002_ip = 41; continue _fun0002 }
 case 42:

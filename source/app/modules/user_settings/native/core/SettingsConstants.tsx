@@ -98,6 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FAMILY_CENTER'] = var1;
     var1 = 'FAMILY_CENTER_PARENTAL_CONTROLS_SETTINGS';
     var2['FAMILY_CENTER_PARENTAL_CONTROLS_SETTINGS'] = var1;
+    var1 = 'FAMILY_CENTER_SCHEDULE_DOWNTIME';
+    var2['FAMILY_CENTER_SCHEDULE_DOWNTIME'] = var1;
     var1 = 'AUTHORIZED_APPS';
     var2['AUTHORIZED_APPS'] = var1;
     var1 = 'AUTHORIZED_APP';

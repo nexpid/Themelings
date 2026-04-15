@@ -112,6 +112,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACCOUNT_STANDING_CATEGORY'] = var1;
     var1 = 'account_standing_setting';
     var2['ACCOUNT_STANDING_SETTING'] = var1;
+    var1 = 'account_family_center_category';
+    var2['ACCOUNT_FAMILY_CENTER_CATEGORY'] = var1;
+    var1 = 'account_family_center_nested_panel';
+    var2['ACCOUNT_FAMILY_CENTER_NESTED_PANEL'] = var1;
     var1 = 'content_and_social_sidebar_item';
     var2['CONTENT_AND_SOCIAL_SIDEBAR_ITEM'] = var1;
     var1 = 'content_and_social_panel';
@@ -822,6 +826,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACTIVITY_PRIVACY_PER_GUILD_DEFAULT_SETTING'] = var1;
     var1 = 'activity_sharing_per_guild_setting';
     var2['ACTIVITY_PRIVACY_PER_GUILD_SETTING'] = var1;
+    var1 = 'activity_sharing_my_servers_category';
+    var2['ACTIVITY_PRIVACY_MY_SERVERS_CATEGORY'] = var1;
     var1 = 'activity_privacy_related_settings';
     var2['ACTIVITY_PRIVACY_RELATED_SETTINGS'] = var1;
     var1 = 'activity_privacy_to_profile_privacy_navigator';

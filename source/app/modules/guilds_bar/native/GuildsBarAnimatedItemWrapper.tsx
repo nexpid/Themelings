@@ -435,7 +435,7 @@ case 20:
             var4 = var4.INTERACTIVE_TEXT_ACTIVE;
             var2['backgroundColor'] = var4;
             var1['unreadIndicator'] = var2;
-            var2 = {'position': 'absolute', 'left': null, 'top': 0, 'right': 16, 'height': null, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+            var2 = {'position': 'absolute', 'left': null, 'top': 0, 'right': 8, 'height': null, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
             var4 = 16;
             var4 = var3 + var4;
             var2['left'] = var4;

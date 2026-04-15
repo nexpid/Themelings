@@ -1507,13 +1507,13 @@ case 80:
                     var4 = var6.bind(var2)(var4);
                     var2 = var4.isAndroid;
                     var2 = var2.bind(var4)();
-                    if(!var2) { _fun0016_ip = 64; continue _fun0016 }
-case 99:
+                    if(!var2) { _fun0016_ip = 99; continue _fun0016 }
+case 60:
                     var2 = _closure2_slot5;
                     var4 = var2.current;
                     var2 = var4.seek;
                     var2 = var2.bind(var4)(var5);
-case 64:
+case 99:
                     var1 = _closure2_slot5;
                     var2 = var1.current;
                     var1 = var2.seek;

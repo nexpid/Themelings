@@ -215,7 +215,7 @@ case 8:
                     var9 = var1 - var7;
                     var1 = null;
                     if(!var11) { _fun0002_ip = 11; continue _fun0002 }
-case 5:
+case 12:
                     var8 = _closure1_slot3;
                     var5 = _closure1_slot2;
                     var4 = {};
@@ -226,16 +226,16 @@ case 5:
                     var10 = _closure2_slot4;
                     var3[1] = var10;
                     var10 = 0;
-                    if(!(var10 === var6)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                    if(!(var10 === var6)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                     var10 = {};
-                    _fun0002_ip = 14; continue _fun0002;
-case 12:
+                    _fun0002_ip = 15; continue _fun0002;
+case 13:
                     var12 = {};
                     var13 = _closure2_slot3;
                     var12['marginLeft'] = var13;
                     var10 = var12;
-case 14:
+case 15:
                     var3[2] = var10;
                     var4['style'] = var3;
                     var10 = _closure2_slot2;
@@ -245,7 +245,7 @@ case 14:
                     var4['children'] = var9;
                     var1 = var8.bind(var3)(var5, var4, var6);
 case 11:
-                    _fun0002_ip = 15; continue _fun0002;
+                    _fun0002_ip = 16; continue _fun0002;
 case 10:
                     var5 = _closure1_slot3;
                     var4 = _closure2_slot6;
@@ -263,7 +263,7 @@ case 10:
                     var3['overflow'] = var2;
                     var2 = undefined;
                     var1 = var5.bind(var2)(var4, var3, var6);
-case 15:
+case 16:
                     return var1;
 case 6:
                     var1 = undefined;

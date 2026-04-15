@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
-    var4 = 3;
+    var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -30,40 +30,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useMediaKeyboardItemsPerRow() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var4 = 2;
-            var4 = var3[var4];
-            var6 = undefined;
-            var7 = var5.bind(var6)(var4);
-            var5 = var7.useIsMediaKeyboardFloatingBarEnabled;
-            var4 = 'useMediaKeyboardItemsPerRow';
-            var4 = var5.bind(var7)(var4);
             var5 = _closure1_slot1;
-            var8 = 1;
-            var3 = var3[var8];
-            var3 = var5.bind(var6)(var3);
-            var7 = var3.bind(var6)();
-            var5 = _closure1_slot0;
             var3 = _closure1_slot2;
+            var8 = 1;
+            var4 = var3[var8];
+            var6 = undefined;
+            var4 = var5.bind(var6)(var4);
+            var7 = var4.bind(var6)();
+            var4 = _closure1_slot0;
             var3 = var3[var8];
-            var3 = var5.bind(var6)(var3);
+            var3 = var4.bind(var6)(var3);
             var3 = var3.WindowSizeClassifier;
-            if(var4) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = var3.LARGE;
-            var5 = var7 >= var4;
-            var4 = 3;
-            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var4 = 6;
-case 4:
-            _fun0001_ip = 6; continue _fun0001;
-case 2:
             var3 = var3.XLARGE;
             var4 = 8;
-            if(!(var3 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!(var3 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var8];
@@ -71,8 +52,8 @@ case 7:
             var3 = var3.WindowSizeClassifier;
             var3 = var3.LARGE;
             var4 = 6;
-            if(!(var3 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
-case 8:
+            if(!(var3 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var8];
@@ -80,8 +61,8 @@ case 8:
             var3 = var3.WindowSizeClassifier;
             var3 = var3.NORMAL;
             var4 = 4;
-            if(!(var3 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
-case 9:
+            if(!(var3 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var8];
@@ -89,8 +70,8 @@ case 9:
             var3 = var3.WindowSizeClassifier;
             var3 = var3.SMALL;
             var4 = 3;
-            if(!(var3 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
-case 10:
+            if(!(var3 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             var3 = global;
             var6 = var3.Error;
             var3 = var3.HermesInternal;
@@ -103,7 +84,7 @@ case 10:
             var3 = new var11[var6](var10, var9);
             var3 = var3 instanceof Object ? var3 : var5;
             throw var3;
-case 6:
+case 2:
             var _closure2_slot0 = var4;
             var7 = _closure1_slot3;
             var2 = var7.useRef;

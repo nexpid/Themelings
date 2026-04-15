@@ -145,6 +145,8 @@ case 6:
     var4['RECAPTCHA'] = var8;
     var8 = 'recaptcha_enterprise';
     var4['RECAPTCHA_ENTERPRISE'] = var8;
+    var8 = 'turnstile';
+    var4['TURNSTILE'] = var8;
     var5 = var5.Error;
     var5 = var7.bind(var1)(var5);
     var2 = function(arg1) {

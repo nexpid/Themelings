@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.colors;
-        var3 = var3.BACKGROUND_MOD_STRONG;
+        var3 = var3.MOBILE_EMOJI_BUTTON_BACKGROUND;
         var2['backgroundColor'] = var3;
         var1['emojiContainer'] = var2;
         return var1;

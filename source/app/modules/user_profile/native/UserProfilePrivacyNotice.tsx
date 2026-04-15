@@ -8,40 +8,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function usePrivacyNoticeContentTypes() {
         var5 = _closure1_slot0;
-        var4 = _closure1_slot1;
+        var8 = _closure1_slot1;
         var3 = 10;
-        var4 = var4[var3];
-        var3 = undefined;
-        var5 = var5.bind(var3)(var4);
-        var4 = var5.useIsInPrivateProfilesExperiment;
+        var3 = var8[var3];
+        var4 = undefined;
+        var7 = var5.bind(var4)(var3);
+        var6 = var7.useIsInPrivateProfilesExperiment;
         var3 = 'UserProfilePrivacyNotice';
-        var5 = var4.bind(var5)(var3);
-        var _closure2_slot0 = var5;
+        var7 = var6.bind(var7)(var3);
+        var _closure2_slot0 = var7;
+        var3 = 11;
+        var3 = var8[var3];
+        var6 = var5.bind(var4)(var3);
+        var3 = var6.useUserIsTeen;
+        var6 = var3.bind(var6)();
+        var _closure2_slot1 = var6;
+        var3 = 12;
+        var3 = var8[var3];
+        var3 = var5.bind(var4)(var3);
+        var4 = var3.ProfileVisibility;
+        var3 = var4.useSetting;
+        var5 = var3.bind(var4)();
+        var _closure2_slot2 = var5;
         var4 = _closure1_slot3;
         var3 = var4.useMemo;
-        var2 = new Array(1);
-        var2[0] = var5;
+        var2 = new Array(3);
+        var2[0] = var7;
+        var2[1] = var6;
+        var2[2] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var1 = _closure2_slot0;
-                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+                var2 = _closure2_slot0;
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var1 = new Array(0);
-                _fun0001_ip = 4; continue _fun0001;
+                var2 = _closure2_slot1;
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+                var3 = _closure2_slot2;
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var1 = 8;
+                var1 = var4[var1];
+                var4 = undefined;
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.ProfileVisibility;
+                var1 = var1.FRIENDS_AND_ALL_GUILDS;
+                if(!(var3 === var1)) { _fun0001_ip = 5; continue _fun0001 }
 case 2:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var2 = 11;
-                var3 = var3[var2];
-                var2 = undefined;
-                var2 = var4.bind(var2)(var3);
+                var1 = new Array(0);
+                _fun0001_ip = 6; continue _fun0001;
+case 5:
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var2 = 13;
+                var2 = var5[var2];
+                var2 = var3.bind(var4)(var2);
                 var2 = var2.DismissibleContent;
                 var3 = var2.PRIVATE_PROFILE_INLINE_NOTICE;
                 var2 = new Array(1);
                 var2[0] = var3;
                 var1 = var2;
-case 4:
+case 6:
                 return var1;
             }
         };
@@ -137,7 +165,7 @@ case 4:
     var4['closeButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -153,7 +181,7 @@ case 0:
             var3 = var1.bind(var4)();
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var1 = 12;
+            var1 = 14;
             var1 = var7[var1];
             var2 = var5.bind(var4)(var1);
             var1 = var2.useSelectedDismissibleContent;
@@ -166,7 +194,7 @@ case 0:
             var1 = 1;
             var1 = var3[var1];
             var _closure2_slot0 = var1;
-            var1 = 13;
+            var1 = 12;
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var3 = var1.ProfileVisibility;
@@ -178,7 +206,7 @@ case 0:
                 var5 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var1 = 14;
+                var1 = 15;
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
@@ -187,7 +215,7 @@ case 0:
                 var1 = function onPress() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 15;
+                    var1 = 16;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -208,13 +236,13 @@ case 0:
             };
             var1 = new Array(0);
             var18 = var10.bind(var11)(var8, var1);
-            var1 = 11;
+            var1 = 13;
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.DismissibleContent;
             var1 = var1.PRIVATE_PROFILE_INLINE_NOTICE;
-            if(!(var2 === var1)) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+            if(!(var2 === var1)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 8;
@@ -222,16 +250,16 @@ case 6:
             var2 = var5.bind(var4)(var2);
             var2 = var2.ProfileVisibility;
             var2 = var2.FRIENDS_ONLY;
-            if(!(var2 !== var3)) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+            if(!(var2 !== var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var1];
             var2 = var5.bind(var4)(var2);
             var2 = var2.ProfileVisibility;
             var2 = var2.FRIENDS_AND_SMALL_GUILDS;
-            if(!(var2 !== var3)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!(var2 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = var3[var1];
@@ -243,8 +271,8 @@ case 10:
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
             var17 = var1.dqQ7AN;
-            _fun0002_ip = 11; continue _fun0002;
-case 9:
+            _fun0002_ip = 13; continue _fun0002;
+case 11:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 9;
@@ -252,8 +280,8 @@ case 9:
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
             var17 = var1["9AvQO/"];
-            _fun0002_ip = 11; continue _fun0002;
-case 7:
+            _fun0002_ip = 13; continue _fun0002;
+case 9:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 9;
@@ -261,7 +289,7 @@ case 7:
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
             var17 = var1["0UBDvq"];
-case 11:
+case 13:
             var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};
@@ -273,7 +301,7 @@ case 11:
             var5['style'] = var7;
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
-            var6 = 16;
+            var6 = 17;
             var6 = var11[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.CircleInformationIcon;
@@ -283,7 +311,7 @@ case 11:
             var6 = var8.bind(var4)(var2, var5);
             var5 = new Array(3);
             var5[0] = var6;
-            var6 = 14;
+            var6 = 15;
             var6 = var11[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.Text;
@@ -301,7 +329,7 @@ case 11:
             var6['children'] = var14;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
-            var6 = 17;
+            var6 = 18;
             var6 = var11[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.PressableOpacity;
@@ -329,7 +357,7 @@ case 11:
             var6['onPress'] = var12;
             var9 = var9.closeButton;
             var6['style'] = var9;
-            var9 = 18;
+            var9 = 19;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.XSmallIcon;
@@ -341,7 +369,7 @@ case 11:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 5:
+case 7:
             var1 = null;
             return var1;
         }
@@ -353,7 +381,7 @@ case 5:
         var7 = var2.bind(var4)();
         var3 = _closure1_slot0;
         var5 = _closure1_slot1;
-        var2 = 12;
+        var2 = 14;
         var2 = var5[var2];
         var6 = var3.bind(var4)(var2);
         var2 = var6.useSelectedDismissibleContent;
@@ -363,7 +391,7 @@ case 5:
         var2 = var2.bind(var4)(var6, var1);
         var1 = 0;
         var2 = var2[var1];
-        var1 = 11;
+        var1 = 13;
         var1 = var5[var1];
         var1 = var3.bind(var4)(var1);
         var1 = var1.DismissibleContent;

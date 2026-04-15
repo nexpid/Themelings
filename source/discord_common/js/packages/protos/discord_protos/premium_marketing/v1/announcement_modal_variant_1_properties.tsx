@@ -1987,7 +1987,7 @@ case 116:
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
             var2 = _closure1_slot14;
-            var6 = new Array(15);
+            var6 = new Array(16);
             var1 = {'no': 1, 'name': 'header', 'kind': 'scalar', 'T': 9};
             var6[0] = var1;
             var1 = {'no': 2, 'name': 'subheader', 'kind': 'scalar', 'T': 9};
@@ -2037,12 +2037,25 @@ case 116:
             var1['T'] = var8;
             var6[13] = var1;
             var1 = {'no': 15, 'name': 'disclaimer', 'kind': 'message'};
-            var7 = function T() {
+            var8 = function T() {
                 var1 = _closure1_slot13;
                 return var1;
             };
-            var1['T'] = var7;
+            var1['T'] = var8;
             var6[14] = var1;
+            var1 = {'no': 18, 'name': 'help_article', 'kind': 'message'};
+            var7 = function T() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 7;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.HelpArticle;
+                return var1;
+            };
+            var1['T'] = var7;
+            var6[15] = var1;
             var1 = ['discord_protos.premium_marketing.v1.AnnouncementModalVariant1Properties'];
             var1[1] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
@@ -2104,8 +2117,8 @@ case 119:
         var7 = function value(arg1, arg2, arg3, arg4) {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
-                var19 = arg1;
-                var18 = arg3;
+                var20 = arg1;
+                var19 = arg3;
                 var1 = arg4;
                 var2 = this;
                 var3 = null;
@@ -2114,219 +2127,238 @@ case 13:
                 var3 = var2.create;
                 var1 = var3.bind(var2)();
 case 12:
-                var4 = var19.pos;
+                var4 = var20.pos;
                 var3 = arg2;
-                var17 = var4 + var3;
-                var3 = var19.pos;
-                var3 = var3 < var17;
-                var16 = undefined;
-                var14 = 6;
-                var13 = true;
-                var12 = false;
-                var11 = 'throw';
+                var18 = var4 + var3;
+                var3 = var20.pos;
+                var3 = var3 < var18;
+                var17 = undefined;
+                var15 = 6;
+                var14 = true;
+                var13 = false;
+                var12 = 'throw';
+                var11 = 7;
                 var10 = 2;
                 var9 = 0;
                 var6 = 1;
                 var5 = undefined;
                 var4 = undefined;
                 if(!var3) { _fun0022_ip = 121; continue _fun0022 }
-case 47:
-                var3 = var19.tag;
-                var7 = var3.bind(var19)();
+case 58:
+                var3 = var20.tag;
+                var7 = var3.bind(var20)();
                 var3 = _closure1_slot2;
-                var3 = var3.bind(var16)(var7, var10);
+                var3 = var3.bind(var17)(var7, var10);
                 var8 = var3[var9];
                 var7 = var3[var6];
-                SwitchImm(value_reg=7, jump_table_address=854, default_jump_address=657, unsigned_min_value=1, unsigned_max_value=15) // Switch table: [634, 611, 585, 559, 505, 449, 423, 397, 371, 345, 319, 293, 239, 183, 127];
+                SwitchImm(value_reg=7, jump_table_address=932, default_jump_address=735, unsigned_min_value=1, unsigned_max_value=18) // Switch table: [712, 689, 663, 637, 583, 527, 501, 475, 449, 423, 397, 371, 317, 261, 205, 735, 735, 130];
 case 122:
-                var22 = _closure1_slot13;
-                var21 = var22.internalBinaryRead;
-                var3 = var19.uint32;
-                var29 = var3.bind(var19)();
-                var27 = var1.disclaimer;
-                var31 = var22;
-                var30 = var19;
-                var28 = var18;
-                var3 = var31[var21](var30, var29, var28, var27, var26);
-                var1['disclaimer'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var21 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var11];
+                var3 = var21.bind(var17)(var3);
+                var23 = var3.HelpArticle;
+                var22 = var23.internalBinaryRead;
+                var3 = var20.uint32;
+                var30 = var3.bind(var20)();
+                var28 = var1.helpArticle;
+                var32 = var23;
+                var31 = var20;
+                var29 = var19;
+                var3 = var32[var22](var31, var30, var29, var28, var27);
+                var1['helpArticle'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 124:
-                var24 = _closure1_slot11;
-                var23 = var24.internalBinaryRead;
-                var3 = var19.uint32;
-                var29 = var3.bind(var19)();
-                var27 = var1.storage;
-                var31 = var24;
-                var30 = var19;
-                var28 = var18;
-                var3 = var31[var23](var30, var29, var28, var27, var26);
-                var1['storage'] = var3;
-                var21 = var5;
-                var20 = var4;
-                _fun0022_ip = 123; continue _fun0022;
-case 102:
-                var23 = var1.heroArtVideoSubtitles;
-                var22 = var23.push;
-                var25 = _closure1_slot12;
+                var25 = _closure1_slot13;
                 var24 = var25.internalBinaryRead;
-                var3 = var19.uint32;
-                var3 = var3.bind(var19)();
-                var3 = var24.bind(var25)(var19, var3, var18);
-                var3 = var22.bind(var23)(var3);
-                var21 = var5;
-                var20 = var4;
+                var3 = var20.uint32;
+                var30 = var3.bind(var20)();
+                var28 = var1.disclaimer;
+                var32 = var25;
+                var31 = var20;
+                var29 = var19;
+                var3 = var32[var24](var31, var30, var29, var28, var27);
+                var1['disclaimer'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 125:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['body'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var25 = _closure1_slot11;
+                var24 = var25.internalBinaryRead;
+                var3 = var20.uint32;
+                var30 = var3.bind(var20)();
+                var28 = var1.storage;
+                var32 = var25;
+                var31 = var20;
+                var29 = var19;
+                var3 = var32[var24](var31, var30, var29, var28, var27);
+                var1['storage'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 126:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['modalTopPill'] = var3;
-                var21 = var5;
-                var20 = var4;
-                _fun0022_ip = 123; continue _fun0022;
-case 68:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['heroArtImageLinkLightTheme'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var24 = var1.heroArtVideoSubtitles;
+                var23 = var24.push;
+                var26 = _closure1_slot12;
+                var25 = var26.internalBinaryRead;
+                var3 = var20.uint32;
+                var3 = var3.bind(var20)();
+                var3 = var25.bind(var26)(var20, var3, var19);
+                var3 = var23.bind(var24)(var3);
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 46:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['heroArtImageLinkDarkTheme'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['body'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 73:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['heroArtVideoLinkLightTheme'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['modalTopPill'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 127:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['dismissKey'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['heroArtImageLinkLightTheme'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 128:
-                var24 = _closure1_slot10;
-                var23 = var24.internalBinaryRead;
-                var3 = var19.uint32;
-                var29 = var3.bind(var19)();
-                var27 = var1.button;
-                var31 = var24;
-                var30 = var19;
-                var28 = var18;
-                var3 = var31[var23](var30, var29, var28, var27, var26);
-                var1['button'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['heroArtImageLinkDarkTheme'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 129:
-                var23 = var1.featureCards;
-                var22 = var23.push;
-                var25 = _closure1_slot9;
-                var24 = var25.internalBinaryRead;
-                var3 = var19.uint32;
-                var3 = var3.bind(var19)();
-                var3 = var24.bind(var25)(var19, var3, var18);
-                var3 = var22.bind(var23)(var3);
-                var21 = var5;
-                var20 = var4;
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['heroArtVideoLinkLightTheme'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 130:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['helpArticleId'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['dismissKey'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 131:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['videoLink'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var25 = _closure1_slot10;
+                var24 = var25.internalBinaryRead;
+                var3 = var20.uint32;
+                var30 = var3.bind(var20)();
+                var28 = var1.button;
+                var32 = var25;
+                var31 = var20;
+                var29 = var19;
+                var3 = var32[var24](var31, var30, var29, var28, var27);
+                var1['button'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 132:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['subheader'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var24 = var1.featureCards;
+                var23 = var24.push;
+                var26 = _closure1_slot9;
+                var25 = var26.internalBinaryRead;
+                var3 = var20.uint32;
+                var3 = var3.bind(var20)();
+                var3 = var25.bind(var26)(var20, var3, var19);
+                var3 = var23.bind(var24)(var3);
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
 case 133:
-                var3 = var19.string;
-                var3 = var3.bind(var19)();
-                var1['header'] = var3;
-                var21 = var5;
-                var20 = var4;
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['helpArticleId'] = var3;
+                var22 = var5;
+                var21 = var4;
                 _fun0022_ip = 123; continue _fun0022;
-case 93:
-                var22 = var18.readUnknownField;
-                if(!(var11 !== var22)) { _fun0022_ip = 134; continue _fun0022 }
+case 134:
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['videoLink'] = var3;
+                var22 = var5;
+                var21 = var4;
+                _fun0022_ip = 123; continue _fun0022;
 case 135:
-                var3 = var19.skip;
-                var3 = var3.bind(var19)(var7);
-                var21 = var22;
-                var20 = var3;
-                if(!(var12 !== var22)) { _fun0022_ip = 123; continue _fun0022 }
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['subheader'] = var3;
+                var22 = var5;
+                var21 = var4;
+                _fun0022_ip = 123; continue _fun0022;
 case 136:
-                var24 = var22;
-                if(!(var13 === var22)) { _fun0022_ip = 137; continue _fun0022 }
-case 138:
-                var25 = _closure1_slot0;
-                var23 = _closure1_slot1;
-                var23 = var23[var14];
-                var23 = var25.bind(var16)(var23);
-                var23 = var23.UnknownFieldHandler;
-                var24 = var23.onRead;
+                var3 = var20.string;
+                var3 = var3.bind(var20)();
+                var1['header'] = var3;
+                var22 = var5;
+                var21 = var4;
+                _fun0022_ip = 123; continue _fun0022;
 case 137:
-                var30 = var2.typeName;
-                var31 = undefined;
-                var29 = var1;
-                var28 = var8;
-                var27 = var7;
-                var26 = var3;
-                var23 = var31[var24](var30, var29, var28, var27, var26, var25);
-                var21 = var22;
-                var20 = var3;
+                var23 = var19.readUnknownField;
+                if(!(var12 !== var23)) { _fun0022_ip = 138; continue _fun0022 }
+case 139:
+                var3 = var20.skip;
+                var3 = var3.bind(var20)(var7);
+                var22 = var23;
+                var21 = var3;
+                if(!(var13 !== var23)) { _fun0022_ip = 123; continue _fun0022 }
+case 140:
+                var25 = var23;
+                if(!(var14 === var23)) { _fun0022_ip = 141; continue _fun0022 }
+case 142:
+                var26 = _closure1_slot0;
+                var24 = _closure1_slot1;
+                var24 = var24[var15];
+                var24 = var26.bind(var17)(var24);
+                var24 = var24.UnknownFieldHandler;
+                var25 = var24.onRead;
+case 141:
+                var31 = var2.typeName;
+                var32 = undefined;
+                var30 = var1;
+                var29 = var8;
+                var28 = var7;
+                var27 = var3;
+                var24 = var32[var25](var31, var30, var29, var28, var27, var26);
+                var22 = var23;
+                var21 = var3;
 case 123:
-                var3 = var19.pos;
-                var5 = var21;
-                var4 = var20;
-                if(var3 < var17) { _fun0022_ip = 47; continue _fun0022 }
+                var3 = var20.pos;
+                var5 = var22;
+                var4 = var21;
+                if(var3 < var18) { _fun0022_ip = 58; continue _fun0022 }
 case 121:
                 return var1;
-case 134:
+case 138:
                 var1 = global;
                 var3 = var1.globalThis;
                 var3 = var3.Error;
-                var26 = var2.typeName;
+                var27 = var2.typeName;
                 var1 = var1.HermesInternal;
                 var5 = var1.concat;
-                var31 = 'Unknown field ';
-                var29 = ' (wire type ';
-                var27 = ') for ';
-                var30 = var8;
-                var28 = var7;
-                var30 = var31[var5](var30, var29, var28, var27, var26, var25);
+                var32 = 'Unknown field ';
+                var30 = ' (wire type ';
+                var28 = ') for ';
+                var31 = var8;
+                var29 = var7;
+                var31 = var32[var5](var31, var30, var29, var28, var27, var26);
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var31 = var2;
-                var1 = new var31[var3](var30, var29);
+                var32 = var2;
+                var1 = new var32[var3](var31, var30);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
             }
@@ -2345,7 +2377,7 @@ case 0:
                 var2 = var5.header;
                 var8 = '';
                 if(!(var8 !== var2)) { _fun0023_ip = 79; continue _fun0023 }
-case 139:
+case 143:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -2362,8 +2394,8 @@ case 139:
                 var2 = var4.bind(var6)(var2);
 case 79:
                 var2 = var5.subheader;
-                if(!(var8 !== var2)) { _fun0023_ip = 140; continue _fun0023 }
-case 141:
+                if(!(var8 !== var2)) { _fun0023_ip = 144; continue _fun0023 }
+case 145:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -2378,10 +2410,10 @@ case 141:
                 var4 = var6.string;
                 var2 = var5.subheader;
                 var2 = var4.bind(var6)(var2);
-case 140:
+case 144:
                 var2 = var5.videoLink;
-                if(!(var8 !== var2)) { _fun0023_ip = 142; continue _fun0023 }
-case 143:
+                if(!(var8 !== var2)) { _fun0023_ip = 146; continue _fun0023 }
+case 147:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -2396,10 +2428,10 @@ case 143:
                 var4 = var6.string;
                 var2 = var5.videoLink;
                 var2 = var4.bind(var6)(var2);
-case 142:
+case 146:
                 var2 = var5.helpArticleId;
                 if(!(var8 !== var2)) { _fun0023_ip = 110; continue _fun0023 }
-case 144:
+case 148:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -2423,8 +2455,8 @@ case 110:
                 var4 = undefined;
                 var11 = 5;
                 var10 = 0;
-                if(!var6) { _fun0023_ip = 145; continue _fun0023 }
-case 146:
+                if(!var6) { _fun0023_ip = 149; continue _fun0023 }
+case 150:
                 var14 = _closure1_slot9;
                 var13 = var14.internalBinaryWrite;
                 var6 = var5.featureCards;
@@ -2445,11 +2477,11 @@ case 146:
                 var10 = var10 + 1;
                 var6 = var5.featureCards;
                 var6 = var6.length;
-                if(var10 < var6) { _fun0023_ip = 146; continue _fun0023 }
-case 145:
+                if(var10 < var6) { _fun0023_ip = 150; continue _fun0023 }
+case 149:
                 var6 = var5.button;
-                if(!var6) { _fun0023_ip = 147; continue _fun0023 }
-case 148:
+                if(!var6) { _fun0023_ip = 151; continue _fun0023 }
+case 152:
                 var12 = _closure1_slot10;
                 var11 = var12.internalBinaryWrite;
                 var10 = var5.button;
@@ -2466,10 +2498,10 @@ case 148:
                 var10 = var11.bind(var12)(var10, var6, var3);
                 var6 = var10.join;
                 var6 = var6.bind(var10)();
-case 147:
+case 151:
                 var6 = var5.dismissKey;
-                if(!(var8 !== var6)) { _fun0023_ip = 149; continue _fun0023 }
-case 150:
+                if(!(var8 !== var6)) { _fun0023_ip = 153; continue _fun0023 }
+case 154:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2482,10 +2514,10 @@ case 150:
                 var10 = var11.string;
                 var6 = var5.dismissKey;
                 var6 = var10.bind(var11)(var6);
-case 149:
+case 153:
                 var6 = var5.heroArtVideoLinkLightTheme;
-                if(!(var8 !== var6)) { _fun0023_ip = 151; continue _fun0023 }
-case 152:
+                if(!(var8 !== var6)) { _fun0023_ip = 155; continue _fun0023 }
+case 156:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2498,10 +2530,10 @@ case 152:
                 var10 = var11.string;
                 var6 = var5.heroArtVideoLinkLightTheme;
                 var6 = var10.bind(var11)(var6);
-case 151:
+case 155:
                 var6 = var5.heroArtImageLinkDarkTheme;
-                if(!(var8 !== var6)) { _fun0023_ip = 153; continue _fun0023 }
-case 154:
+                if(!(var8 !== var6)) { _fun0023_ip = 157; continue _fun0023 }
+case 158:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2514,10 +2546,10 @@ case 154:
                 var10 = var11.string;
                 var6 = var5.heroArtImageLinkDarkTheme;
                 var6 = var10.bind(var11)(var6);
-case 153:
+case 157:
                 var6 = var5.heroArtImageLinkLightTheme;
-                if(!(var8 !== var6)) { _fun0023_ip = 155; continue _fun0023 }
-case 156:
+                if(!(var8 !== var6)) { _fun0023_ip = 159; continue _fun0023 }
+case 160:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2530,10 +2562,10 @@ case 156:
                 var10 = var11.string;
                 var6 = var5.heroArtImageLinkLightTheme;
                 var6 = var10.bind(var11)(var6);
-case 155:
+case 159:
                 var6 = var5.modalTopPill;
-                if(!(var8 !== var6)) { _fun0023_ip = 157; continue _fun0023 }
-case 158:
+                if(!(var8 !== var6)) { _fun0023_ip = 161; continue _fun0023 }
+case 162:
                 var11 = var1.tag;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2546,10 +2578,10 @@ case 158:
                 var10 = var11.string;
                 var6 = var5.modalTopPill;
                 var6 = var10.bind(var11)(var6);
-case 157:
+case 161:
                 var6 = var5.body;
-                if(!(var8 !== var6)) { _fun0023_ip = 159; continue _fun0023 }
-case 160:
+                if(!(var8 !== var6)) { _fun0023_ip = 163; continue _fun0023 }
+case 164:
                 var10 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -2562,14 +2594,14 @@ case 160:
                 var8 = var10.string;
                 var6 = var5.body;
                 var6 = var8.bind(var10)(var6);
-case 159:
+case 163:
                 var6 = var5.heroArtVideoSubtitles;
                 var6 = var6.length;
                 var6 = var9 < var6;
                 var8 = 13;
                 var9 = 0;
-                if(!var6) { _fun0023_ip = 161; continue _fun0023 }
-case 162:
+                if(!var6) { _fun0023_ip = 165; continue _fun0023 }
+case 166:
                 var12 = _closure1_slot12;
                 var11 = var12.internalBinaryWrite;
                 var6 = var5.heroArtVideoSubtitles;
@@ -2590,11 +2622,11 @@ case 162:
                 var9 = var9 + 1;
                 var6 = var5.heroArtVideoSubtitles;
                 var6 = var6.length;
-                if(var9 < var6) { _fun0023_ip = 162; continue _fun0023 }
-case 161:
+                if(var9 < var6) { _fun0023_ip = 166; continue _fun0023 }
+case 165:
                 var6 = var5.storage;
-                if(!var6) { _fun0023_ip = 163; continue _fun0023 }
-case 164:
+                if(!var6) { _fun0023_ip = 167; continue _fun0023 }
+case 168:
                 var10 = _closure1_slot11;
                 var9 = var10.internalBinaryWrite;
                 var8 = var5.storage;
@@ -2612,10 +2644,10 @@ case 164:
                 var8 = var9.bind(var10)(var8, var6, var3);
                 var6 = var8.join;
                 var6 = var6.bind(var8)();
-case 163:
+case 167:
                 var6 = var5.disclaimer;
-                if(!var6) { _fun0023_ip = 165; continue _fun0023 }
-case 166:
+                if(!var6) { _fun0023_ip = 169; continue _fun0023 }
+case 170:
                 var10 = _closure1_slot13;
                 var9 = var10.internalBinaryWrite;
                 var8 = var5.disclaimer;
@@ -2633,25 +2665,49 @@ case 166:
                 var8 = var9.bind(var10)(var8, var6, var3);
                 var6 = var8.join;
                 var6 = var6.bind(var8)();
-case 165:
+case 169:
+                var6 = var5.helpArticle;
+                if(!var6) { _fun0023_ip = 171; continue _fun0023 }
+case 172:
+                var11 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var8 = 7;
+                var8 = var6[var8];
+                var8 = var11.bind(var4)(var8);
+                var10 = var8.HelpArticle;
+                var9 = var10.internalBinaryWrite;
+                var8 = var5.helpArticle;
+                var12 = var1.tag;
+                var6 = var6[var7];
+                var6 = var11.bind(var4)(var6);
+                var6 = var6.WireType;
+                var11 = var6.LengthDelimited;
+                var6 = 18;
+                var11 = var12.bind(var1)(var6, var11);
+                var6 = var11.fork;
+                var6 = var6.bind(var11)();
+                var8 = var9.bind(var10)(var8, var6, var3);
+                var6 = var8.join;
+                var6 = var6.bind(var8)();
+case 171:
                 var3 = var3.writeUnknownFields;
                 var6 = false;
-                if(!(var6 !== var3)) { _fun0023_ip = 167; continue _fun0023 }
-case 168:
+                if(!(var6 !== var3)) { _fun0023_ip = 173; continue _fun0023 }
+case 174:
                 var6 = 1;
-                if(!(var6 == var3)) { _fun0023_ip = 169; continue _fun0023 }
-case 170:
+                if(!(var6 == var3)) { _fun0023_ip = 175; continue _fun0023 }
+case 176:
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var7];
                 var2 = var6.bind(var4)(var2);
                 var2 = var2.UnknownFieldHandler;
                 var3 = var2.onWrite;
-case 169:
+case 175:
                 var2 = this;
                 var2 = var2.typeName;
                 var2 = var3.bind(var4)(var2, var5, var1);
-case 167:
+case 173:
                 return var1;
             }
         };

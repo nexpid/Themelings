@@ -759,8 +759,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var46['STREAM_QUALITY_INDICATOR'] = var5;
     var5 = 'gift_stream_quality_indicator';
     var46['GIFT_STREAM_QUALITY_INDICATOR'] = var5;
-    var5 = 'stream_quality_upsell';
-    var46['STREAM_QUALITY_UPSELL'] = var5;
     var5 = 'message_length_upsell';
     var46['MESSAGE_LENGTH_UPSELL'] = var5;
     var5 = 'message_length_in_editor_upsell';

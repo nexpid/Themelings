@@ -56,22 +56,22 @@ case 7:
             var4 = var5;
 case 6:
             var1['start'] = var4;
-            var4 = var3.loop_delay;
+            var4 = var3.loopDelay;
             var1['loopDelay'] = var4;
             var4 = var3.position;
             var1['position'] = var4;
-            var4 = var3.z_index;
+            var4 = var3.zIndex;
             var1['zIndex'] = var4;
-            var5 = var3.randomized_sources;
+            var5 = var3.randomizedSources;
             var3 = var2 == var5;
             var2 = undefined;
             if(var3) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
             var4 = var5.map;
             var3 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.src;
                 var1 = {};
-                var2 = arg1;
-                var2 = var2.src;
                 var1['src'] = var2;
                 return var1;
             };
@@ -151,23 +151,17 @@ case 13:
             var2['type'] = var7;
             var7 = var3.title;
             var2['title'] = var7;
-            var7 = var3.title_localized;
-            var2['titleLocalized'] = var7;
             var7 = var3.description;
             var2['description'] = var7;
-            var7 = var3.description_localized;
-            var2['descriptionLocalized'] = var7;
-            var7 = var3.accessibility_label;
+            var7 = var3.accessibilityLabel;
             var2['accessibilityLabel'] = var7;
-            var7 = var3.accessibility_label_localized;
-            var2['accessibilityLabelLocalized'] = var7;
-            var7 = var3.animation_type;
+            var7 = var3.animationType;
             var2['animationType'] = var7;
-            var7 = var3.static_frame_src;
+            var7 = var3.staticFrameSrc;
             var2['staticFrameSrc'] = var7;
-            var7 = var3.thumbnail_preview_src;
+            var7 = var3.thumbnailPreviewSrc;
             var2['thumbnailPreviewSrc'] = var7;
-            var7 = var3.reduced_motion_src;
+            var7 = var3.reducedMotionSrc;
             var2['reducedMotionSrc'] = var7;
             var9 = var3.effects;
             var7 = var5 == var9;
@@ -196,8 +190,6 @@ case 11:
             var2['assets'] = var5;
             var5 = var3.label;
             var2['label'] = var5;
-            var5 = var3.label_localized;
-            var2['labelLocalized'] = var5;
             var5 = var3.palette;
             var2['palette'] = var5;
             var1 = var2;
@@ -215,10 +207,8 @@ case 10:
             var4 = var3.assets;
             var4 = var5.bind(var6)(var4);
             var2['assets'] = var4;
-            var4 = var3.label;
-            var2['label'] = var4;
-            var3 = var3.label_localized;
-            var2['labelLocalized'] = var3;
+            var3 = var3.label;
+            var2['label'] = var3;
             var1 = var2;
 case 21:
             return var1;

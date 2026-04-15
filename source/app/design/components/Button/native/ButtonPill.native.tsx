@@ -708,26 +708,34 @@ case 46:
 case 48:
             var1 = 'lg';
             if(!(var1 === var2)) { _fun0008_ip = 49; continue _fun0008 }
-case 50:
+case 2:
             var1 = {};
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var4 = 4;
-            var8 = var7[var4];
+            var8 = var6[var4];
             var5 = undefined;
-            var8 = var6.bind(var5)(var8);
+            var8 = var7.bind(var5)(var8);
             var8 = var8.LARGE_BUTTON_HEIGHT;
             var1['minHeight'] = var8;
-            var8 = var7[var4];
-            var8 = var6.bind(var5)(var8);
+            var8 = var6[var4];
+            var8 = var7.bind(var5)(var8);
             var8 = var8.LARGE_BUTTON_HEIGHT;
             var1['minWidth'] = var8;
-            var4 = var7[var4];
-            var4 = var6.bind(var5)(var4);
+            var4 = var6[var4];
+            var4 = var7.bind(var5)(var4);
             var4 = var4.LARGE_BUTTON_HORIZONTAL_PADDING;
             var1['paddingHorizontal'] = var4;
-            var2 = _closure1_slot13;
-            var1['paddingVertical'] = var2;
+            var4 = _closure1_slot13;
+            var1['paddingVertical'] = var4;
+            var4 = _closure1_slot1;
+            var2 = 6;
+            var2 = var6[var2];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.modules;
+            var2 = var2.button;
+            var2 = var2.BORDER_RADIUS_LG;
+            var1['borderRadius'] = var2;
             var3 = var1;
             _fun0008_ip = 49; continue _fun0008;
 case 47:
@@ -825,8 +833,8 @@ case 0:
             var2 = arg1;
             var3 = var2.loading;
             var1 = null;
-            if(!(var1 != var3)) { _fun0009_ip = 51; continue _fun0009 }
-case 52:
+            if(!(var1 != var3)) { _fun0009_ip = 50; continue _fun0009 }
+case 51:
             var5 = _closure1_slot7;
             var4 = _closure1_slot19;
             var3 = {};
@@ -835,8 +843,8 @@ case 52:
             var1 = copyDataProperties(var7, var6);
             var1 = undefined;
             var1 = var5.bind(var1)(var4, var3);
-            _fun0009_ip = 53; continue _fun0009;
-case 51:
+            _fun0009_ip = 52; continue _fun0009;
+case 50:
             var5 = _closure1_slot7;
             var4 = _closure1_slot18;
             var3 = {};
@@ -845,7 +853,7 @@ case 51:
             var2 = copyDataProperties(var7, var6);
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
-case 53:
+case 52:
             return var1;
         }
     };

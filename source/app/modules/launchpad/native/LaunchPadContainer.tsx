@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = "function LaunchPadContainerTsx3(){const{interpolate,launchPadSharedState,withSpring,windowDimensions,LAUNCH_PAD_SPRING_CONFIG}=this.__closure;return{borderRadius:interpolate(launchPadSharedState.get(),[0,1],[0,16]),transform:[{scale:withSpring(interpolate(launchPadSharedState.get(),[0,1],[1,(windowDimensions.get().width-16*3)/windowDimensions.get().width]),LAUNCH_PAD_SPRING_CONFIG,'animate-always')},{translateY:withSpring(interpolate(launchPadSharedState.get(),[0,1],[0,-4]),LAUNCH_PAD_SPRING_CONFIG,'animate-always')}]};}";
     var4['code'] = var7;
     var _closure1_slot11 = var4;
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -85,18 +85,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var13 = var2.children;
+            var14 = var2.children;
             var2 = _closure1_slot8;
             var4 = undefined;
-            var14 = var2.bind(var4)();
+            var21 = var2.bind(var4)();
             var11 = _closure1_slot1;
-            var22 = _closure1_slot2;
+            var23 = _closure1_slot2;
             var2 = 5;
-            var2 = var22[var2];
+            var2 = var23[var2];
             var2 = var11.bind(var4)(var2);
             var20 = var2.bind(var4)();
             var2 = 6;
-            var2 = var22[var2];
+            var2 = var23[var2];
             var2 = var11.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var17 = var2.launchPadSharedState;
@@ -107,7 +107,7 @@ case 0:
             var15 = var2.updaters;
             var _closure2_slot1 = var15;
             var2 = 7;
-            var2 = var22[var2];
+            var2 = var23[var2];
             var3 = var11.bind(var4)(var2);
             var2 = {};
             var2['launchPadType'] = var20;
@@ -120,16 +120,16 @@ case 0:
             var7 = var2.gesture;
             var5 = var2.gestureRef;
             var2 = 8;
-            var2 = var22[var2];
+            var2 = var23[var2];
             var2 = var11.bind(var4)(var2);
             var9 = var2.bind(var4)();
             var _closure2_slot2 = var9;
             var6 = _closure1_slot0;
             var10 = 9;
-            var2 = var22[var10];
-            var21 = var6.bind(var4)(var2);
-            var8 = var21.useAnimatedReaction;
-            var3 = function s() {
+            var2 = var23[var10];
+            var13 = var6.bind(var4)(var2);
+            var8 = var13.useAnimatedReaction;
+            var3 = function o() {
                 var2 = _closure2_slot2;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
@@ -161,15 +161,15 @@ case 2:
                     return var1;
                 }
             };
-            var23 = {};
-            var23['updaters'] = var15;
-            var2['__closure'] = var23;
-            var23 = 418963589215.0;
-            var2['__workletHash'] = var23;
-            var23 = _closure1_slot10;
-            var2['__initData'] = var23;
-            var2 = var8.bind(var21)(var3, var2);
-            var2 = var22[var10];
+            var22 = {};
+            var22['updaters'] = var15;
+            var2['__closure'] = var22;
+            var22 = 418963589215.0;
+            var2['__workletHash'] = var22;
+            var22 = _closure1_slot10;
+            var2['__initData'] = var22;
+            var2 = var8.bind(var13)(var3, var2);
+            var2 = var23[var10];
             var3 = var6.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
             var1 = function v() {
@@ -239,16 +239,16 @@ case 2:
                 return var1;
             };
             var8 = {};
-            var21 = var22[var10];
-            var21 = var6.bind(var4)(var21);
-            var21 = var21.interpolate;
-            var8['interpolate'] = var21;
+            var13 = var23[var10];
+            var13 = var6.bind(var4)(var13);
+            var13 = var13.interpolate;
+            var8['interpolate'] = var13;
             var8['launchPadSharedState'] = var17;
-            var21 = 10;
-            var21 = var22[var21];
-            var21 = var6.bind(var4)(var21);
-            var21 = var21.withSpring;
-            var8['withSpring'] = var21;
+            var13 = 10;
+            var13 = var23[var13];
+            var13 = var6.bind(var4)(var13);
+            var13 = var13.withSpring;
+            var8['withSpring'] = var13;
             var8['windowDimensions'] = var9;
             var9 = _closure1_slot4;
             var8['LAUNCH_PAD_SPRING_CONFIG'] = var9;
@@ -257,16 +257,26 @@ case 2:
             var1['__workletHash'] = var8;
             var8 = _closure1_slot11;
             var1['__initData'] = var8;
-            var21 = var2.bind(var3)(var1);
-            var3 = _closure1_slot6;
+            var22 = var2.bind(var3)(var1);
             var1 = 11;
-            var1 = var22[var1];
+            var1 = var23[var1];
+            var1 = var6.bind(var4)(var1);
+            var3 = var1.MobileHomeDrawerExperiment;
+            var2 = var3.useConfig;
+            var1 = {};
+            var8 = 'guilds';
+            var1['location'] = var8;
+            var1 = var2.bind(var3)(var1);
+            var13 = var1.enableHome;
+            var3 = _closure1_slot6;
+            var1 = 12;
+            var1 = var23[var1];
             var1 = var11.bind(var4)(var1);
             var2 = var1.Provider;
             var1 = {};
             var1['value'] = var5;
-            var5 = 12;
-            var5 = var22[var5];
+            var5 = 13;
+            var5 = var23[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.GestureDetector;
             var5 = {};
@@ -274,30 +284,32 @@ case 2:
             var9 = _closure1_slot7;
             var8 = _closure1_slot3;
             var7 = {};
-            var23 = var14.wrapper;
-            var7['style'] = var23;
-            var10 = var22[var10];
+            var24 = var21.wrapper;
+            var7['style'] = var24;
+            var10 = var23[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.View;
             var10 = {};
-            var22 = var14.container;
-            var14 = new Array(2);
-            var14[0] = var22;
-            var14[1] = var21;
-            var10['style'] = var14;
-            var10['children'] = var13;
+            var23 = var21.container;
+            var21 = new Array(2);
+            var21[0] = var23;
+            var21[1] = var22;
+            var10['style'] = var21;
+            var10['children'] = var14;
             var11 = var3.bind(var4)(var11, var10);
             var10 = new Array(2);
             var10[0] = var11;
             var11 = _closure1_slot5;
-            var13 = var11.DISABLED;
-            var11 = undefined;
-            if(!(var20 !== var13)) { _fun0001_ip = 5; continue _fun0001 }
+            var11 = var11.DISABLED;
+            if(!(var20 === var11)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
+            var11 = undefined;
+            if(!var13) { _fun0001_ip = 7; continue _fun0001 }
+case 5:
             var14 = _closure1_slot6;
             var13 = _closure1_slot1;
             var21 = _closure1_slot2;
-            var12 = 13;
+            var12 = 14;
             var12 = var21[var12];
             var13 = var13.bind(var4)(var12);
             var12 = {};
@@ -308,7 +320,7 @@ case 6:
             var12['launchPadPullTabState'] = var16;
             var12['updaters'] = var15;
             var11 = var14.bind(var4)(var13, var12);
-case 5:
+case 7:
             var10[1] = var11;
             var7['children'] = var10;
             var7 = var9.bind(var4)(var8, var7);

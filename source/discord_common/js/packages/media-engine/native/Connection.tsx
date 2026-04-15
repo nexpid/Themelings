@@ -5663,7 +5663,7 @@ case 228:
                 var3 = var2.keyframeInterval;
                 var1 = var2.clipsKeyFrameInterval;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0071_ip = 189; continue _fun0071;
+                _fun0071_ip = 323; continue _fun0071;
 case 65:
                 var3 = global;
                 var5 = var3.Math;
@@ -5671,7 +5671,7 @@ case 65:
                 var3 = var2.keyframeInterval;
                 var2 = var2.clipsKeyFrameInterval;
                 var1 = var4.bind(var5)(var3, var2);
-case 189:
+case 323:
                 return var1;
             }
         };
@@ -5743,16 +5743,16 @@ case 0:
                 var3 = var3.VIDEO_EFFECTS;
                 var3 = var6.bind(var7)(var3);
                 if(!var3) { _fun0072_ip = 78; continue _fun0072 }
-case 323:
+case 324:
                 var5 = var5.context;
                 var4 = _closure1_slot21;
                 var4 = var4.STREAM;
                 var3 = var5 === var4;
 case 78:
-                if(!var3) { _fun0072_ip = 324; continue _fun0072 }
-case 325:
+                if(!var3) { _fun0072_ip = 325; continue _fun0072 }
+case 326:
                 var1['enableVideoEffects'] = var2;
-case 324:
+case 325:
                 return var1;
             }
         };
@@ -5854,10 +5854,10 @@ case 0:
                 var1 = this;
                 var2 = var1.lastExecutedTransitionId;
                 var3 = -1;
-                if(!(var3 !== var2)) { _fun0075_ip = 326; continue _fun0075 }
+                if(!(var3 !== var2)) { _fun0075_ip = 327; continue _fun0075 }
 case 228:
                 var2 = var1.lastPreparedTransitionId;
-                if(!(var3 !== var2)) { _fun0075_ip = 326; continue _fun0075 }
+                if(!(var3 !== var2)) { _fun0075_ip = 327; continue _fun0075 }
 case 63:
                 var3 = var1.lastPreparedTransitionId;
                 var2 = var1.lastExecutedTransitionId;
@@ -5865,23 +5865,23 @@ case 63:
 case 43:
                 var2 = var1.lastExecutedTransitionId;
                 var2 = var4 > var2;
-                if(var2) { _fun0075_ip = 327; continue _fun0075 }
+                if(var2) { _fun0075_ip = 328; continue _fun0075 }
 case 30:
                 var3 = var1.lastPreparedTransitionId;
                 var2 = var4 <= var3;
-case 327:
+case 328:
                 _fun0075_ip = 95; continue _fun0075;
 case 194:
                 var3 = var1.lastExecutedTransitionId;
                 var3 = var4 > var3;
-                if(!var3) { _fun0075_ip = 328; continue _fun0075 }
+                if(!var3) { _fun0075_ip = 329; continue _fun0075 }
 case 295:
                 var5 = var1.lastPreparedTransitionId;
                 var3 = var4 <= var5;
-case 328:
+case 329:
                 var2 = var3;
 case 95:
-                if(var2) { _fun0075_ip = 326; continue _fun0075 }
+                if(var2) { _fun0075_ip = 327; continue _fun0075 }
 case 53:
                 var14 = var1.lastExecutedTransitionId;
                 var12 = var1.lastPreparedTransitionId;
@@ -5905,16 +5905,16 @@ case 53:
                 var2 = new var17[var2](var16, var15);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
-case 326:
+case 327:
                 var1['lastExecutedTransitionId'] = var4;
                 var3 = var1.conn;
                 var2 = var3.executeSecureFramesTransition;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0075_ip = 329; continue _fun0075 }
-case 330:
+                if(!(var1 != var2)) { _fun0075_ip = 330; continue _fun0075 }
+case 331:
                 var1 = var2.call;
                 var1 = var1.bind(var2)(var3, var4);
-case 329:
+case 330:
                 var1 = undefined;
                 return var1;
             }
@@ -6261,11 +6261,11 @@ case 0:
                 var3 = var5.bind(var6)(var4, var3, var1);
                 var1 = null;
                 var4 = var1 == var3;
-                if(var4) { _fun0083_ip = 331; continue _fun0083 }
-case 332:
+                if(var4) { _fun0083_ip = 332; continue _fun0083 }
+case 333:
                 var2['conn'] = var3;
                 var1 = var2;
-case 331:
+case 332:
                 return var1;
             }
         };

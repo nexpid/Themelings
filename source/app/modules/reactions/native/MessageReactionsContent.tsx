@@ -1554,7 +1554,7 @@ case 78:
             var2 = _closure2_slot2;
             var4['canRemoveReactions'] = var2;
             var10 = 'ReactionEmojiOptionsActionSheet';
-            var8 = 'stack';
+            var8 = 'replaceTopSheet';
             var12 = var7;
             var9 = var4;
             var2 = var12[var6](var11, var10, var9, var8, var7);

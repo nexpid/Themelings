@@ -1877,10 +1877,6 @@ case 91:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.showMediaKeyboardActionSheet;
                 var2 = {};
-                var9 = var6.displayName;
-                var2['title'] = var9;
-                var9 = var6.displayDescription;
-                var2['subtitle'] = var9;
                 var8 = _closure2_slot1;
                 var8 = var8.channel;
                 var2['channel'] = var8;

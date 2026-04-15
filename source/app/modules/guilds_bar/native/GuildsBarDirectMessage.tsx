@@ -342,26 +342,31 @@ case 21:
             var1['config'] = var8;
             var1['cutouts'] = var7;
             var1['externalChildren'] = var6;
-            var8 = _closure1_slot11;
-            var7 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var6 = 18;
-            var6 = var14[var6];
-            var7 = var7.bind(var4)(var6);
-            var6 = {};
-            var6['channel'] = var11;
-            var6 = var8.bind(var4)(var7, var6);
-            var1['expandedChildren'] = var6;
-            if(!(var5 != var11)) { _fun0001_ip = 23; continue _fun0001 }
+            var7 = var5 != var11;
+            var6 = null;
+            if(!var7) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
+            var14 = _closure1_slot11;
+            var8 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var7 = 18;
+            var7 = var15[var7];
+            var8 = var8.bind(var4)(var7);
+            var7 = {};
+            var7['channel'] = var11;
+            var6 = var14.bind(var4)(var8, var7);
+case 23:
+            var1['expandedChildren'] = var6;
+            if(!(var5 != var11)) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var6 = var11.isMultiUserDM;
             var6 = var6.bind(var11)();
-            if(var6) { _fun0001_ip = 25; continue _fun0001 }
-case 23:
+            if(var6) { _fun0001_ip = 27; continue _fun0001 }
+case 25:
             var6 = var5 != var12;
             var5 = null;
-            if(!var6) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+            if(!var6) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var8 = _closure1_slot11;
             var7 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -373,9 +378,9 @@ case 27:
             var6['style'] = var13;
             var6['source'] = var12;
             var5 = var8.bind(var4)(var7, var6);
-case 26:
-            _fun0001_ip = 28; continue _fun0001;
-case 25:
+case 28:
+            _fun0001_ip = 30; continue _fun0001;
+case 27:
             var8 = _closure1_slot11;
             var7 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -398,7 +403,7 @@ case 25:
             var6['pileSizeOverride'] = var10;
             var6['animate'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 28:
+case 30:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
