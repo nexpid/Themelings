@@ -425,6 +425,9 @@
   "GUILD_PROFILE_BANNER_BACKGROUND_DEFAULT": {
     "14": "#131318"
   },
+  "ICON_DEFAULT": {
+    "14": "#c7c8ce"
+  },
   "ICON_FEEDBACK_CRITICAL": {
     "14": "#f23f43"
   },
@@ -610,6 +613,9 @@
   },
   "MOBILE_COACHMARK_BORDER_DEFAULT": {
     "14": "#2c2d35"
+  },
+  "MOBILE_EMOJI_BUTTON_BACKGROUND": {
+    "14": "#6c6f7c3d"
   },
   "MOBILE_EXPRESSION_PICKER_BACKGROUND_DEFAULT": {
     "14": "#1c1d23"
