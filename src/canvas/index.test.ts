@@ -1,17 +1,18 @@
-import mock from "../mock";
-import draw, { convertDiffs } from ".";
+import { file } from "bun";
+import { drawSections } from ".";
+import { makeSections } from "./factory";
 
 await Bun.write(
 	"temp/files.png",
-	await draw(await convertDiffs(mock.icons))
-		.then((x) => x.toBuffer("image/png"))
-		.then((x) => new Uint8Array(x)),
-	{ createPath: true },
+	// new Uint8Array(drawSections(await makeSections(mock.icons, true)).toBuffer("image/png")),
+	new Uint8Array(
+		drawSections(await makeSections(new Map(await file("temp/diff_icons.json").json()), true)).toBuffer("image/png"),
+	),
 );
 await Bun.write(
 	"temp/colors.png",
-	await draw(await convertDiffs(mock.semantic, true))
-		.then((x) => x.toBuffer("image/png"))
-		.then((x) => new Uint8Array(x)),
-	{ createPath: true },
+	// new Uint8Array(drawSections(await makeSections(mock.semantic)).toBuffer("image/png")),
+	new Uint8Array(
+		drawSections(await makeSections(new Map(await file("temp/diff_semantic.json").json()))).toBuffer("image/png"),
+	),
 );

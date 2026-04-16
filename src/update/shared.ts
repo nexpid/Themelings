@@ -1,8 +1,17 @@
+import { join } from "node:path";
+
+export const trackerUserAgent = "Themelings <https://github.com/nexpid/Themelings/>";
+export const maxChangesThreshold = 10; // thank you Discord for making 700 icon changes in one version
+export const maxCodeChangesThreshold = 25;
+
+export const workFolder = "tmp";
+export const apksFolder = join(workFolder, "apks");
+export const codePath = join(workFolder, "code.js");
+
 export const oprevFiles = ["semantic.json", "raw.json", "icons.json", "source.jsonl"] as const;
 export const prevFiles = new Map<(typeof oprevFiles)[number], ArrayBuffer>();
-export const apksToDownload = ["base", "config.xxhdpi", "config.hdpi"] as const;
-export const version = await Bun.file("../data/version.txt").text();
 
+export const version = await Bun.file("../data/version.txt").text();
 export const cuteVersion = `${["stable", "beta", "alpha"][Number(version[3])] ?? "version"} ${version.slice(0, 3)}.${Number(version.slice(-2))}`;
 
 export const isMock = process.argv.includes("--mock");

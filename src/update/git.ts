@@ -1,5 +1,5 @@
 import { commitAnyway } from "./shared";
-import { handleShellErr } from "./util";
+import { handleShellErr } from "./utils";
 
 export const gitChanged = new Set<string>();
 

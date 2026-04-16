@@ -1,145 +1,160 @@
-import { type CodeDiff, type Diff, DiffEnum, type Icons, type OutDiffs, type SemanticColors } from "../../types";
-import { getGitChanged, gitChanged } from "../commit";
+import { write } from "bun";
+import {
+	type CodeDiff,
+	type Diff,
+	type Differs,
+	DiffType,
+	type Icons,
+	type RawColors,
+	type Semantic,
+	type SemanticColors,
+} from "../../types";
+import { getGitChanged, gitChanged } from "../git";
+import { log, type Progress, wrapPromise } from "../progress";
 import { diffAnyway, prevFiles } from "../shared";
-import { formatBytes, join, log, type Progress } from "../util";
+import { join, parseJsonl } from "../utils";
 
-type RawColors = Record<string, string>;
-async function diffRaw(progress: Progress) {
-	progress.start("diff_raw");
+async function diffRaw() {
 	if (!prevFiles.has("raw.json")) {
-		progress.update("diff_raw", false);
 		throw new Error("Missing prevFile: raw.json");
 	}
 
 	const oldRaw = JSON.parse(new TextDecoder().decode(prevFiles.get("raw.json"))) as RawColors;
-	const newRaw = (await Bun.file(join("../data", "raw.json")).json()) as RawColors;
+	const newRaw: RawColors = await Bun.file(join("../data", "raw.json")).json();
 
 	const renamed = new Set<string>();
-
 	const changes = new Map<string, Diff>();
-	for (const raw of Object.keys(newRaw))
-		if (!oldRaw[raw]) {
-			const renamedRaw = Object.entries(oldRaw).find(([rRaw, rVal]) => !newRaw[rRaw] && rVal === newRaw[raw])?.[0];
+	for (const [name, source] of Object.entries(newRaw))
+		if (!oldRaw[name]) {
+			const oldName = Object.entries(oldRaw).find(([key, val]) => !newRaw[key] && val === source)?.[0];
 
-			if (renamedRaw) {
-				renamed.add(renamedRaw);
-				changes.set(raw, {
-					change: DiffEnum.Renamed,
-					old: renamedRaw,
-					cur: raw,
+			if (!oldName)
+				changes.set(name, {
+					type: DiffType.Added,
+					source,
 				});
-			} else changes.set(raw, { change: DiffEnum.Added, cur: newRaw[raw] });
-		} else if (oldRaw[raw].toLowerCase() !== newRaw[raw].toLowerCase())
-			changes.set(raw, {
-				change: DiffEnum.Changed,
-				old: oldRaw[raw],
-				cur: newRaw[raw],
+			else {
+				renamed.add(oldName);
+				changes.set(name, {
+					type: DiffType.Renamed,
+					oldName,
+					source,
+				});
+			}
+		} else if (oldRaw[name].toLowerCase() !== source.toLowerCase())
+			changes.set(name, {
+				type: DiffType.Changed,
+				source,
+				oldSource: oldRaw[name],
 			});
-	for (const raw of Object.keys(oldRaw))
-		if (!newRaw[raw] && !renamed.has(raw)) changes.set(raw, { change: DiffEnum.Removed, old: oldRaw[raw] });
+	for (const [name, source] of Object.entries(oldRaw))
+		if (!newRaw[name] && !renamed.has(name))
+			changes.set(name, {
+				type: DiffType.Removed,
+				source,
+			});
 
-	progress.update("diff_raw", true);
 	return changes;
 }
 
-type PreviousSemanticColors = Record<string, Record<string, string>>;
+function getSemanticLabel(semantic: Semantic) {
+	const light = semantic.light,
+		dark = semantic.darker ?? semantic.dark;
+	if (dark && light) return `☀️ ${light[0]}, 🌙 ${dark[0]}`;
+	else
+		return Object.entries(semantic)
+			.map(([name, [color]]) => `${name} ${color}`)
+			.join(", ");
+}
 
-async function diffSemantic(progress: Progress) {
-	progress.start("diff_semantic");
+async function diffSemantic() {
 	if (!prevFiles.has("semantic.json")) {
-		progress.update("diff_semantic", false);
 		throw new Error("Missing prevFile: semantic.json");
 	}
 
-	let oldSemantic = JSON.parse(new TextDecoder().decode(prevFiles.get("semantic.json"))) as SemanticColors;
-
-	// transform PreviousSemanticColors to SemanticColors
-	if (typeof Object.values(Object.values(oldSemantic)[0])[0] === "string")
-		oldSemantic = Object.fromEntries(
-			Object.entries(oldSemantic as any as PreviousSemanticColors).map(([clr, themes]) => [
-				clr,
-				Object.fromEntries(
-					Object.entries(themes).map(([theme, color]) => [
-						theme,
-						[color, { raw: "this is a placeholder", opacity: 0 }],
-					]),
-				),
-			]),
-		) as any;
-
-	const newSemantic = (await Bun.file(join("../data", "semantic.json")).json()) as SemanticColors;
+	const oldSemantic = JSON.parse(new TextDecoder().decode(prevFiles.get("semantic.json"))) as SemanticColors;
+	const newSemantic: SemanticColors = await Bun.file(join("../data", "semantic.json")).json();
 
 	const renamed = new Set<string>();
-
-	const transform = ([clr, _]: [string, { raw: string; opacity: number }]) => clr;
-	// 	val.raw === "this is a placeholder" ? clr : `${clr} (${val.raw})`;
-
-	const allVars = (key: string, sem: SemanticColors[string], added: boolean) => {
-		for (const [k, v] of Object.entries(sem)) {
-			changes.set(
-				`${key}.${k}`,
-				added ? { change: DiffEnum.Added, cur: transform(v) } : { change: DiffEnum.Removed, old: transform(v) },
-			);
-		}
-	};
-
 	const changes = new Map<string, Diff>();
-	for (const sem of Object.keys(newSemantic))
-		if (!oldSemantic[sem]) {
-			const semI = newSemantic[sem];
-			const semL = Object.keys(semI).length;
-			const renamedSem = Object.entries(oldSemantic).find(
-				([sSem, sVal]) =>
-					!newSemantic[sSem] &&
-					Object.keys(sVal).length === semL &&
-					Object.entries(sVal).every(([skTheme, skVal]) => skVal[0] === semI[skTheme][0]),
+	for (const [name, semantic] of Object.entries(newSemantic)) {
+		const source = Object.values(semantic)
+			.map(([color]) => color)
+			.join(",");
+		if (!oldSemantic[name]) {
+			const themes = Object.keys(semantic).length;
+			const oldName = Object.entries(oldSemantic).find(
+				([key, val]) =>
+					!newSemantic[key] &&
+					Object.keys(val).length === themes &&
+					Object.entries(val).every(([skey, sval]) => sval[0] === semantic[skey][0]),
 			)?.[0];
 
-			if (renamedSem) {
-				renamed.add(renamedSem);
-				changes.set(sem, {
-					change: DiffEnum.Renamed,
-					old: renamedSem,
-					cur: transform(Object.values(semI)[0]),
+			if (!oldName)
+				changes.set(name, {
+					type: DiffType.Added,
+					source,
+					label: getSemanticLabel(semantic),
 				});
-			} else allVars(sem, newSemantic[sem], true);
-		} else
-			for (const clir of Object.keys(newSemantic[sem]))
-				if (!oldSemantic[sem][clir])
-					changes.set(`${sem}.${clir}`, {
-						change: DiffEnum.Added,
-						cur: transform(newSemantic[sem][clir]),
+			else {
+				renamed.add(oldName);
+				changes.set(name, {
+					type: DiffType.Renamed,
+					oldName,
+					source,
+				});
+			}
+		} else {
+			const oldSource = Object.values(oldSemantic[name])
+				.map(([color]) => color)
+				.join(",");
+			for (const [theme, [color]] of Object.entries(semantic))
+				if (!oldSemantic[name][theme])
+					changes.set(`${name}.${theme}`, {
+						type: DiffType.Added,
+						source: color,
 					});
-				else if (oldSemantic[sem][clir][0].toLowerCase() !== newSemantic[sem][clir][0].toLowerCase())
-					changes.set(`${sem}.${clir}`, {
-						change: DiffEnum.Changed,
-						old: transform(oldSemantic[sem][clir]),
-						cur: transform(newSemantic[sem][clir]),
+				else if (oldSemantic[name][theme][0].toLowerCase() !== color.toLowerCase())
+					changes.set(`${name}.${theme}`, {
+						type: DiffType.Changed,
+						source,
+						label: getSemanticLabel(semantic),
+						oldSource,
+						oldLabel: getSemanticLabel(oldSemantic[name]),
 					});
+		}
+	}
+	for (const [name, semantic] of Object.entries(oldSemantic)) {
+		if (renamed.has(name)) continue;
 
-	for (const sem of Object.keys(oldSemantic))
-		if (!newSemantic[sem] && !renamed.has(sem)) allVars(sem, oldSemantic[sem], false);
+		const source = Object.values(semantic)
+			.map(([color]) => color)
+			.join(",");
+		if (!newSemantic[name])
+			changes.set(name, {
+				type: DiffType.Removed,
+				source,
+				label: Object.keys(semantic).join(", "),
+			});
 		else
-			for (const clir of Object.keys(oldSemantic[sem]))
-				if (!newSemantic[sem][clir])
-					changes.set(`${sem}.${clir}`, {
-						change: DiffEnum.Removed,
-						old: transform(oldSemantic[sem][clir]),
+			for (const [theme, [source]] of Object.entries(semantic))
+				if (!newSemantic[name][theme])
+					changes.set(`${name}.${theme}`, {
+						type: DiffType.Removed,
+						source,
 					});
+	}
 
-	progress.update("diff_semantic", true);
 	return changes;
 }
 
-async function diffIcons(progress: Progress) {
-	progress.start("diff_icons");
+async function diffIcons() {
 	if (!prevFiles.has("icons.json")) {
-		progress.update("diff_icons", false);
 		throw new Error("Missing prevFile: icons.json");
 	}
 
 	const oldIcons = JSON.parse(new TextDecoder().decode(prevFiles.get("icons.json"))) as Icons;
-	const newIcons = (await Bun.file(join("../data", "icons.json")).json()) as Icons;
+	const newIcons: Icons = await Bun.file(join("../data", "icons.json")).json();
 
 	const iconDir = {
 		old: join("../data", "oldicons"),
@@ -147,104 +162,95 @@ async function diffIcons(progress: Progress) {
 	};
 
 	const renamed = new Set<string>();
-
 	const changes = new Map<string, Diff>();
-	for (const icon of Object.keys(newIcons))
-		if (!oldIcons[icon]) {
-			const renamedIcon = Object.entries(oldIcons).find(
-				([iKey, iVal]) => !newIcons[iKey] && iVal.hash === newIcons[icon].hash,
-			)?.[0];
+	for (const [name, icon] of Object.entries(newIcons)) {
+		const label = icon.hash.slice(0, 8);
+		if (!oldIcons[name]) {
+			const oldName = Object.entries(oldIcons).find(([key, val]) => !newIcons[key] && val.hash === icon.hash)?.[0];
 
-			if (renamedIcon) {
-				renamed.add(renamedIcon);
-				changes.set(icon, {
-					change: DiffEnum.Renamed,
-					old: renamedIcon,
-					cur: newIcons[icon].hash,
-					curFile: join(iconDir.new, newIcons[icon].file),
+			if (!oldName)
+				changes.set(name, {
+					type: DiffType.Added,
+					source: join(iconDir.new, icon.file),
+					label,
 				});
-			} else
-				changes.set(icon, {
-					change: DiffEnum.Added,
-					cur: newIcons[icon].hash,
-					curFile: join(iconDir.new, newIcons[icon].file),
+			else {
+				renamed.add(oldName);
+				changes.set(name, {
+					type: DiffType.Renamed,
+					oldName,
+					source: join(iconDir.new, icon.file),
 				});
-		} else if (newIcons[icon].hash !== oldIcons[icon].hash)
-			changes.set(icon, {
-				change: DiffEnum.Changed,
-				old: oldIcons[icon].hash,
-				oldFile: join(iconDir.old, oldIcons[icon].file),
-				cur: newIcons[icon].hash,
-				curFile: join(iconDir.new, newIcons[icon].file),
+			}
+		} else if (oldIcons[name].hash !== icon.hash)
+			changes.set(name, {
+				type: DiffType.Changed,
+				source: join(iconDir.new, icon.file),
+				label,
+				oldSource: join(iconDir.old, oldIcons[name].file),
+				oldLabel: oldIcons[name].hash.slice(0, 8),
 			});
-	for (const icon of Object.keys(oldIcons))
-		if (!newIcons[icon] && !renamed.has(icon))
-			changes.set(icon, {
-				change: DiffEnum.Removed,
-				old: oldIcons[icon].hash,
-				oldFile: join(iconDir.old, oldIcons[icon].file),
+	}
+	for (const [name, icon] of Object.entries(oldIcons))
+		if (!newIcons[name] && !renamed.has(name))
+			changes.set(name, {
+				type: DiffType.Removed,
+				source: join(iconDir.old, icon.file),
+				label: icon.hash.slice(0, 8),
 			});
 
-	progress.update("diff_icons", true);
 	return changes;
 }
-const diffCode = async (progress: Progress) => {
-	progress.start("diff_code");
+
+function parseSource(text: string) {
+	const source = parseJsonl(text) as { file: string; lines: number }[];
+	return Object.fromEntries(source.map((x) => [x.file, x.lines])) as Record<string, number>;
+}
+
+async function diffCode() {
 	if (!prevFiles.has("source.jsonl")) {
-		progress.update("diff_code", false);
 		throw new Error("Missing prevFile: source.jsonl");
 	}
 
-	const jsonlToJson = (jsonl: string) =>
-		new Map(
-			(
-				JSON.parse(`[${jsonl.split("\n").join(",\n")}]`) as {
-					file: string;
-					size: number;
-				}[]
-			).map((x) => [
-				x.file,
-				{
-					s: x.size,
-					de: x.size - JSON.stringify(x.file).length,
-				},
-			]),
-		);
+	const oldCode = parseSource(new TextDecoder().decode(prevFiles.get("source.jsonl")));
+	const newCode = parseSource(await Bun.file(join("../data", "source.jsonl")).text());
 
-	const oldCode = jsonlToJson(new TextDecoder().decode(prevFiles.get("source.jsonl")));
-	const newCode = jsonlToJson(await Bun.file(join("../data", "source.jsonl")).text());
+	if (!Object.values(oldCode).every((x) => typeof x === "number")) return new Map();
 
 	const renamed = new Set<string>();
 	const changes = new Map<string, CodeDiff>();
-	for (const code of newCode.keys())
-		if (!oldCode.has(code)) {
-			const renamedCode = oldCode
-				.keys()
-				.find((vCode) => !newCode.has(vCode) && oldCode.get(vCode)?.de === newCode.get(code)?.de);
+	for (const [name, lines] of Object.entries(newCode)) {
+		if (!oldCode[name]) {
+			const oldName = Object.entries(oldCode).find(([key, val]) => !newCode[key] && val === lines)?.[0];
 
-			if (renamedCode) {
-				renamed.add(renamedCode);
-				changes.set(code, {
-					change: DiffEnum.Renamed,
-					oldFile: renamedCode,
-					size: formatBytes(newCode.get(code)?.s || 0, 1),
+			if (!oldName)
+				changes.set(name, {
+					type: DiffType.Added,
+					lines,
 				});
-			} else
-				changes.set(code, {
-					change: DiffEnum.Added,
-					size: formatBytes(newCode.get(code)?.s || 0, 1),
+			else {
+				renamed.add(oldName);
+				changes.set(name, {
+					type: DiffType.Renamed,
+					oldName,
+					lines,
 				});
-		}
-	for (const code of oldCode.keys())
-		if (!newCode.has(code) && !renamed.has(code))
-			changes.set(code, {
-				change: DiffEnum.Removed,
-				size: formatBytes(oldCode.get(code)?.s || 0, 1),
+			}
+		} else if (oldCode[name] !== lines)
+			changes.set(name, {
+				type: DiffType.Changed,
+				diff: lines - oldCode[name],
+			});
+	}
+	for (const [name, lines] of Object.entries(oldCode))
+		if (!oldCode[name] && !renamed.has(name))
+			changes.set(name, {
+				type: DiffType.Removed,
+				lines,
 			});
 
-	progress.update("diff_code", true);
 	return changes;
-};
+}
 
 export default async function diffs(progress: Progress) {
 	await getGitChanged();
@@ -252,22 +258,43 @@ export default async function diffs(progress: Progress) {
 
 	if (!gitChanged.has("version.txt") && !diffAnyway) {
 		progress.update("diff", null);
-		for (const x of ["raw", "semantic", "icons", "code"]) progress.update(`diff_${x}`, null);
-		return null;
+		progress.update("diff_raw", null);
+		progress.update("diff_semantic", null);
+		progress.update("diff_icons", null);
+		progress.update("diff_code", null);
+		return;
 	}
 
-	const differs = {} as OutDiffs;
+	const differs = {} as Differs;
 
-	await Promise.allSettled([
-		gitChanged.has("raw.json") ? diffRaw(progress).then((x) => (differs.raw = x)) : progress.update("diff_raw", null),
+	await Promise.all([
+		gitChanged.has("raw.json")
+			? wrapPromise(
+					diffRaw().then((x) => (differs.raw = x)),
+					progress,
+					"diff_raw",
+				)
+			: progress.update("diff_raw", null),
 		gitChanged.has("semantic.json")
-			? diffSemantic(progress).then((x) => (differs.semantic = x))
+			? wrapPromise(
+					diffSemantic().then((x) => (differs.semantic = x)),
+					progress,
+					"diff_semantic",
+				)
 			: progress.update("diff_semantic", null),
 		gitChanged.has("icons.json")
-			? diffIcons(progress).then((x) => (differs.icons = x))
+			? wrapPromise(
+					diffIcons().then((x) => (differs.icons = x)),
+					progress,
+					"diff_icons",
+				)
 			: progress.update("diff_icons", null),
 		gitChanged.has("source.jsonl")
-			? diffCode(progress).then((x) => (differs.code = x))
+			? wrapPromise(
+					diffCode().then((x) => (differs.code = x)),
+					progress,
+					"diff_code",
+				)
 			: progress.update("diff_code", null),
 	]);
 

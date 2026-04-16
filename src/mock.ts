@@ -1,132 +1,147 @@
-import { DiffEnum, type OutDiffs } from "./types";
+import Color from "color";
+import { type CodeDiff, type Diff, type Differs, DiffType } from "./types";
 
 const randomColor = () =>
 	`#${Math.floor(Math.random() * 0xffffff)
 		.toString(16)
 		.padStart(6, "0")}`;
+const randomColors = () => {
+	const base = Color(randomColor());
+	return [
+		base.lighten(0.6).hex(),
+		base.desaturate(0.3).darken(0.5).hex(),
+		base.darken(0.6).hex(),
+		base.darken(0.8).hex(),
+	].join(",");
+};
 
 // mock data for "bun run update:mock" and "bun run canvas:test"
 export default {
-	semantic: new Map([
-		...new Array(5).fill(0).map(
-			(_, i) =>
-				[
-					`MOCK_SEMANTIC_SAMPLE_${i + 1}`,
-					{
-						change: DiffEnum.Added,
-						cur: randomColor(),
-					},
-				] as any,
-		),
-		...new Array(5).fill(0).map(
-			(_, i) =>
-				[
-					`MOCK_SEMANTIC_SAMPLE_${i + 6}`,
-					{
-						change: DiffEnum.Changed,
-						old: randomColor(),
-						cur: randomColor(),
-					},
-				] as any,
-		),
-		...new Array(5).fill(0).map(
-			(_, i) =>
-				[
-					`MOCK_SEMANTIC_SAMPLE_${i + 11}`,
-					{
-						change: DiffEnum.Renamed,
-						old: `mock_samentic_sample_${i + 11}`,
-						cur: randomColor(),
-					},
-				] as any,
-		),
-		...new Array(5).fill(0).map(
-			(_, i) =>
-				[
-					`MOCK_SEMANTIC_SAMPLE_${i + 16}`,
-					{
-						change: DiffEnum.Removed,
-						old: randomColor(),
-					},
-				] as any,
-		),
-	]),
-	raw: undefined,
+	semantic: new Map<string, Diff>([
+		...Array.from({ length: 5 }).map((_, i) => [
+			`MOCK_SEMANTIC_SAMPLE_${i + 1}`,
+			{
+				type: DiffType.Added,
+				source: randomColors(),
+				label: "☀️ #aaaaaa, 🌙 #bbbbbb",
+			} as Diff,
+		]),
+		...Array.from({ length: 5 }).map((_, i) => [
+			`MOCK_SEMANTIC_SAMPLE_${i + 6}`,
+			{
+				type: DiffType.Changed,
+				source: randomColors(),
+				label: "☀️ #aaaaaa, 🌙 #bbbbbb",
+				oldSource: randomColors(),
+				oldLabel: "☀️ #888888, 🌙 #999999",
+			} as Diff,
+		]),
+		...Array.from({ length: 5 }).map((_, i) => [
+			`MOCK_SEMANTIC_SAMPLE_${i + 11}`,
+			{
+				type: DiffType.Renamed,
+				oldName: `mock_samentic_sample_${i + 11}`,
+				source: randomColors(),
+			} as Diff,
+		]),
+		...Array.from({ length: 5 }).map((_, i) => [
+			`MOCK_SEMANTIC_SAMPLE_${i + 16}`,
+			{
+				type: DiffType.Removed,
+				source: randomColors(),
+				label: "☀️ #aaaaaa, 🌙 #bbbbbb",
+			} as Diff,
+		]),
+	] as [string, Diff][]),
+	raw: new Map(),
 	icons: new Map([
 		[
 			"FirstMockIcon",
 			{
-				change: DiffEnum.Added,
-				cur: "c6f6357fb999cba134e6b35b08500c30",
-				curFile: "src/canvas/mock/FirstMockIcon.png",
-			},
+				type: DiffType.Added,
+				source: "src/canvas/mock/FirstMockIcon.png",
+				label: "c6f6357f",
+			} as Diff,
 		],
 		[
 			"SvgMockIcon",
 			{
-				change: DiffEnum.Added,
-				cur: "5d534560e865f1f5b8d7258f9c262bc3",
-				curFile: "src/canvas/mock/SvgMockIcon.svg",
-			},
+				type: DiffType.Added,
+				source: "src/canvas/mock/SvgMockIcon.svg",
+				label: "5d534560",
+			} as Diff,
 		],
 		[
 			"LottieMockIcon",
 			{
-				change: DiffEnum.Added,
-				cur: "340efc5291ffb230a20a2b8be8bc444f",
-				curFile: "src/canvas/mock/LottieMockIcon.lottie",
-			},
+				type: DiffType.Added,
+				source: "src/canvas/mock/LottieMockIcon.lottie",
+				label: "340efc52",
+			} as Diff,
 		],
 		[
 			"SecondMockIcon",
 			{
-				change: DiffEnum.Changed,
-				old: "6e23574440797ff3e6abd5754795fd4c",
-				oldFile: "src/canvas/mock/SecondMockIcon.png",
-				cur: "76ffeecde2194d0448f1c1e942eb4595",
-				curFile: "src/canvas/mock/SecondMockIconNew.png",
-			},
+				type: DiffType.Changed,
+				source: "src/canvas/mock/SecondMockIconNew.png",
+				label: "76ffeecd",
+				oldSource: "src/canvas/mock/SecondMockIcon.png",
+				oldLabel: "6e235744",
+			} as Diff,
 		],
 		[
 			"ThirdMockIcon",
 			{
-				change: DiffEnum.Renamed,
-				old: "thirdmkocicon",
-				cur: "5bff32bf603e438af5f02350b6d0527e",
-				curFile: "src/canvas/mock/ThirdMockIcon.png",
-			},
+				type: DiffType.Renamed,
+				oldName: "thirdmkocicon",
+				source: "src/canvas/mock/ThirdMockIcon.png",
+			} as Diff,
 		],
 		[
 			"FourthMockIcon",
 			{
-				change: DiffEnum.Removed,
-				old: "cf4e13406bca0989d46c0f07ced94850",
-				oldFile: "src/canvas/mock/FourthMockIcon.png",
-			},
+				type: DiffType.Removed,
+				source: "src/canvas/mock/FourthMockIcon.png",
+				label: "cf4e1340",
+			} as Diff,
 		],
 	]),
 	code: new Map([
 		[
 			"app/foomodule.tsx",
 			{
-				change: DiffEnum.Added,
-				size: "5 KB",
-			},
+				type: DiffType.Added,
+				lines: 5123,
+			} as CodeDiff,
+		],
+		[
+			"app/common/CardComponent.tsx",
+			{
+				type: DiffType.Changed,
+				diff: -82,
+			} as CodeDiff,
+		],
+		[
+			"app/common/SectionComponent.tsx",
+			{
+				type: DiffType.Changed,
+				diff: 83,
+			} as CodeDiff,
 		],
 		[
 			"app/ui/barmodule.ts",
 			{
-				change: DiffEnum.Renamed,
-				oldFile: "app/ui/barmodule.ts",
-				size: "8 KB",
-			},
+				type: DiffType.Renamed,
+				oldName: "app/legacy/ui/bar_module.ts",
+				lines: 8012,
+			} as CodeDiff,
 		],
 		[
 			"app/intl/ReallyBigCoolComponent.tsx",
 			{
-				change: DiffEnum.Removed,
-				size: "12 MB",
-			},
+				type: DiffType.Removed,
+				lines: 456,
+			} as CodeDiff,
 		],
 	]),
-} satisfies OutDiffs;
+} satisfies Differs;

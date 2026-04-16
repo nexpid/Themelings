@@ -1,9 +1,9 @@
 import { runInNewContext } from "node:vm";
 import Color, { type ColorInstance } from "color";
-import type { SemanticColors } from "../../types";
-import { commit } from "../commit";
+import type { RawColors, SemanticColors } from "../../types";
+import { commit } from "../git";
 import { cuteVersion } from "../shared";
-import { sortObj } from "../util";
+import { sortObj } from "../utils";
 
 function hex(color: ColorInstance) {
 	return (color.alpha() === 1 ? color.hex() : color.hexa()).toLowerCase();
@@ -64,11 +64,11 @@ export function evalMetroModule<T>(code: string[], importName: string, imports: 
 export function getInternalRawColors(code: string[]) {
 	const module = evalMetroModule<{
 		_private: {
-			RawColors: Record<string, string>;
+			RawColors: RawColors;
 		};
 	}>(code, "/tokens/colors/generated/raw-color-definitions.tsx'", {});
 
-	const raw: Record<string, string> = {};
+	const raw: RawColors = {};
 	for (const [key, color] of Object.entries(module._private.RawColors)) {
 		raw[key] = hex(Color(color));
 	}
@@ -123,11 +123,11 @@ export function convertSimpleSemantic(semantic: SemanticColors) {
 
 export default async function colors(code: string[]) {
 	const raw = getInternalRawColors(code);
-	await Bun.write("../data/raw.json", JSON.stringify(sortObj(raw), null, 2));
+	await Bun.write("../data/raw.json", JSON.stringify(sortObj(raw), null, 4));
 
 	const semantic = getInternalSemanticColors(code, raw);
-	await Bun.write("../data/semantic.json", JSON.stringify(sortObj(semantic), null, 2));
-	await Bun.write("../data/semantic_simple.json", JSON.stringify(sortObj(convertSimpleSemantic(semantic)), null, 2));
+	await Bun.write("../data/semantic.json", JSON.stringify(sortObj(semantic), null, 4));
+	await Bun.write("../data/semantic_simple.json", JSON.stringify(sortObj(convertSimpleSemantic(semantic)), null, 4));
 
 	await commit(["raw.json", "semantic.json", "semantic_simple.json"], `chore: update colors for ${cuteVersion}`);
 }

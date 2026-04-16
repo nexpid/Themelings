@@ -1,6 +1,6 @@
 import { writeFileSync } from "node:fs";
 import { extname } from "node:path";
-import { log } from "./util";
+import { log } from "./progress";
 
 const variableMatch = /\br(\d{1,2})\b/g;
 const argumentMatch = /\ba(\d{1,2})\b/g;
