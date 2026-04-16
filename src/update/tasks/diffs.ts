@@ -1,4 +1,3 @@
-import { write } from "bun";
 import {
 	type CodeDiff,
 	type Diff,

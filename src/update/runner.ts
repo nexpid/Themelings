@@ -118,5 +118,5 @@ export async function runTasks() {
 	}
 
 	await commit(["version.txt"], `chore: bump app version to ${cuteVersion}`);
-	// await rm("../data/oldicons", { force: true, recursive: true });
+	await rm("../data/oldicons", { force: true, recursive: true });
 }
