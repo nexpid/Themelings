@@ -1,4 +1,5 @@
 import { copyFile, mkdir, readdir, rename } from "node:fs/promises";
+import { basename } from "node:path";
 import { runInNewContext } from "node:vm";
 import type { Icons } from "../../types";
 import { commit } from "../git";
@@ -32,7 +33,11 @@ export async function parseAssets(code: string[]) {
 			if (!scalesText) throw new Error(`Failed to find scalesText for ${scalesLine} (line ${i + 2})`);
 
 			const info = runInNewContext(`(${infoText})`);
+			if (typeof info !== "object") continue;
+
 			const scales = runInNewContext(`(${scalesText})`);
+			if (!Array.isArray(scales)) continue;
+
 			info.scales = scales;
 
 			if (
@@ -46,7 +51,10 @@ export async function parseAssets(code: string[]) {
 	}
 
 	// get files of all apks
-	const listed = (await readdir(apksFolder, { recursive: true })).map((x) => join(apksFolder, x));
+	const apkPaths = new Map<string, string>();
+	for (const path of await readdir(apksFolder, { recursive: true })) {
+		apkPaths.set(basename(path), join(apksFolder, path));
+	}
 
 	const icons: Icons = {};
 	const toCopy: { from: string; to: string }[] = [];
@@ -57,7 +65,7 @@ export async function parseAssets(code: string[]) {
 			.replace(/\W+/g, "");
 		const path = `${baseName}.${asset.type}`;
 
-		const apkPath = listed.find((f) => f.endsWith(`/${path}`));
+		const apkPath = apkPaths.get(path);
 		if (apkPath) {
 			const realPath = join(
 				discordPath(asset.httpServerLocation.split("/").slice(2).join("/")),

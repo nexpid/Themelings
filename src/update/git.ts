@@ -21,10 +21,8 @@ export async function commit(files: string[], message: string) {
 		await gitQueue[0];
 	}
 
-	let resolveProm: any;
-	const prom = new Promise<void>((res) => (resolveProm = res));
-
-	gitQueue.push(prom);
+	const { promise, resolve } = Promise.withResolvers<void>();
+	gitQueue.push(promise);
 
 	if (process.env.NODE_ENV === "test" && !commitAnyway) {
 		await getGitChanged();
@@ -46,6 +44,8 @@ export async function commit(files: string[], message: string) {
 			.then((e) => void e);
 	}
 
-	await resolveProm?.();
-	gitQueue.splice(gitQueue.indexOf(prom), 1);
+	await resolve();
+
+	const promInd = gitQueue.indexOf(promise);
+	if (promInd !== -1) gitQueue.splice(promInd, 1);
 }

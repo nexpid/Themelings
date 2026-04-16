@@ -208,7 +208,7 @@ async function diffCode() {
 	const oldCode = parseSource(new TextDecoder().decode(prevFiles.get("source.jsonl")));
 	const newCode = parseSource(await Bun.file(join("../data", "source.jsonl")).text());
 
-	if (!Object.values(oldCode).every((x) => typeof x === "number")) return new Map();
+	if (!Object.values(oldCode).every((x) => typeof x.lines === "number")) return new Map();
 
 	const renamed = new Set<string>();
 	const changes = new Map<string, CodeDiff>();
