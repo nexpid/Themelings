@@ -88,7 +88,7 @@ export async function runTasks() {
 			wrapPromise(colors(code), taskProgress, "colors"),
 			wrapPromise(icons(taskProgress, code), taskProgress, "icons"),
 		]);
-		if (taskProgress.someFailed("colors", "icons"))
+		if (taskProgress.someFailed("code", "colors", "icons"))
 			throw new Error(`Failed at parser tasks!\n${taskProgress.prettyErrors("code", "colors", "icons")}`);
 
 		while (!taskProgress.isFinished("decompile_gzip")) {

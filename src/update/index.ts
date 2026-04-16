@@ -38,7 +38,7 @@ if (!reuseFolder) {
 				fetch(cdnUrl + apk, {
 					headers: {
 						"User-Agent": trackerUserAgent,
-						"Cache-contorl": "public, max-age=3600",
+						"Cache-Contorl": "public, max-age=3600",
 					},
 				})
 					.then((res) => res.arrayBuffer())

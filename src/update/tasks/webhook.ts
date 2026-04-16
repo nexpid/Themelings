@@ -197,7 +197,7 @@ export async function webhook(diffs: Differs) {
 			{
 				title: "Code",
 				body: formatDiff(diffs.code, maxCodeChangesThreshold),
-				footer: makeFooter(diffs.code.size, "icon"),
+				footer: makeFooter(diffs.code.size, "code"),
 			},
 		]);
 }

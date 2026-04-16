@@ -38,10 +38,7 @@ async function makeSection(diffs: Map<string, Diff>, isFile: boolean, type: Diff
 		entries: [],
 	};
 
-	const filtered = diffs
-		.entries()
-		.toArray()
-		.filter(([, diff]) => diff.type === type);
+	const filtered = [...diffs.entries()].filter(([, diff]) => diff.type === type);
 	for (const [name, diff] of filtered) {
 		if (section.entries.length >= maxChangesThreshold) {
 			section.entries.push([

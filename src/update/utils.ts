@@ -44,7 +44,12 @@ export function listRequiredDirs(files: string[]) {
 }
 
 export function parseJsonl(text: string) {
-	return JSON.parse(`[${text.split("\n").join()}]`);
+	const lines = text
+		.trim()
+		.split("\n")
+		.map((x) => x.trim())
+		.filter((x) => !!x);
+	return JSON.parse(`[${lines.join()}]`);
 }
 
 export function discordPath(path: string) {

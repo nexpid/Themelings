@@ -103,10 +103,7 @@ async function diffSemantic() {
 					source,
 				});
 			}
-		} else {
-			const oldSource = Object.values(oldSemantic[name])
-				.map(([color]) => color)
-				.join(",");
+		} else
 			for (const [theme, [color]] of Object.entries(semantic))
 				if (!oldSemantic[name][theme])
 					changes.set(`${name}.${theme}`, {
@@ -116,12 +113,9 @@ async function diffSemantic() {
 				else if (oldSemantic[name][theme][0].toLowerCase() !== color.toLowerCase())
 					changes.set(`${name}.${theme}`, {
 						type: DiffType.Changed,
-						source,
-						label: getSemanticLabel(semantic),
-						oldSource,
-						oldLabel: getSemanticLabel(oldSemantic[name]),
+						source: color,
+						oldSource: oldSemantic[name][theme][0],
 					});
-		}
 	}
 	for (const [name, semantic] of Object.entries(oldSemantic)) {
 		if (renamed.has(name)) continue;
@@ -133,7 +127,7 @@ async function diffSemantic() {
 			changes.set(name, {
 				type: DiffType.Removed,
 				source,
-				label: Object.keys(semantic).join(", "),
+				label: getSemanticLabel(semantic),
 			});
 		else
 			for (const [theme, [source]] of Object.entries(semantic))
@@ -203,7 +197,7 @@ async function diffIcons() {
 
 function parseSource(text: string) {
 	const source = parseJsonl(text) as { file: string; lines: number }[];
-	return Object.fromEntries(source.map((x) => [x.file, x.lines])) as Record<string, number>;
+	return Object.fromEntries(source.map((x) => [x.file, { lines: x.lines }])) as Record<string, { lines: number }>;
 }
 
 async function diffCode() {
@@ -218,9 +212,9 @@ async function diffCode() {
 
 	const renamed = new Set<string>();
 	const changes = new Map<string, CodeDiff>();
-	for (const [name, lines] of Object.entries(newCode)) {
+	for (const [name, { lines }] of Object.entries(newCode)) {
 		if (!oldCode[name]) {
-			const oldName = Object.entries(oldCode).find(([key, val]) => !newCode[key] && val === lines)?.[0];
+			const oldName = Object.entries(oldCode).find(([key, val]) => !newCode[key] && val.lines === lines)?.[0];
 
 			if (!oldName)
 				changes.set(name, {
@@ -235,14 +229,14 @@ async function diffCode() {
 					lines,
 				});
 			}
-		} else if (oldCode[name] !== lines)
+		} else if (oldCode[name].lines !== lines)
 			changes.set(name, {
 				type: DiffType.Changed,
-				diff: lines - oldCode[name],
+				diff: lines - oldCode[name].lines,
 			});
 	}
-	for (const [name, lines] of Object.entries(oldCode))
-		if (!oldCode[name] && !renamed.has(name))
+	for (const [name, { lines }] of Object.entries(oldCode))
+		if (!newCode[name] && !renamed.has(name))
 			changes.set(name, {
 				type: DiffType.Removed,
 				lines,

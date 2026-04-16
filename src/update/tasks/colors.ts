@@ -19,7 +19,7 @@ function fixHermesDecIndex(code: string) {
 
 export function evalMetroModule<T>(code: string[], importName: string, imports: object = {}): T {
 	const hookLine = code.findIndex((x) => x.includes(importName));
-	if (!hookLine) throw new Error(`Cannot find hookLine for ${importName}!`);
+	if (hookLine === -1) throw new Error(`Cannot find hookLine for ${importName}!`);
 
 	// usually fileFinishedImporting is called 5 lines before the function ends, so we pray
 	const endLine = hookLine + 5;
