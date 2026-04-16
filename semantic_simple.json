@@ -647,6 +647,9 @@
   "MOBILE_TEXT_HEADING_PRIMARY": {
     "14": "#e4e5e8"
   },
+  "MOBILE_THREAD_EMBED_BACKGROUND": {
+    "14": "#6c6f7c29"
+  },
   "MOBILE_TOAST_BACKGROUND_DEFAULT": {
     "14": "#2c2d35"
   },
@@ -880,6 +883,9 @@
   },
   "TEXT_BRAND": {
     "12": "#949cf7"
+  },
+  "TEXT_CODE": {
+    "12": "#97c3fc"
   },
   "TEXT_DEFAULT": {},
   "TEXT_FEEDBACK_CRITICAL": {

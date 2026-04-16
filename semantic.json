@@ -1943,6 +1943,15 @@
       }
     ]
   },
+  "MOBILE_THREAD_EMBED_BACKGROUND": {
+    "14": [
+      "#6c6f7c29",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.16
+      }
+    ]
+  },
   "MOBILE_TOAST_BACKGROUND_DEFAULT": {
     "14": [
       "#2c2d35",
@@ -2641,6 +2650,15 @@
       "#949cf7",
       {
         "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ]
+  },
+  "TEXT_CODE": {
+    "12": [
+      "#97c3fc",
+      {
+        "raw": "BLUE_NEW_19",
         "opacity": 1
       }
     ]
