@@ -23,23 +23,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = new Array(1);
         var8[0] = var4;
         var4 = function() {
-            var3 = _closure2_slot0;
-            var2 = var3.filter;
+            var7 = _closure2_slot0;
+            var3 = var7.filter;
             var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var1 = 2;
-            var4 = var4[var1];
-            var1 = undefined;
-            var1 = var5.bind(var1)(var4);
-            var1 = var1.isNotNullish;
-            var3 = var2.bind(var3)(var1);
-            var2 = var3.map;
-            var1 = function(arg1) {
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.isNotNullish;
+            var7 = var3.bind(var7)(var2);
+            var3 = var7.map;
+            var2 = function(arg1) {
                 var2 = arg1;
                 var1 = var2.getCanonicalGameId;
                 var1 = var1.bind(var2)();
                 return var1;
             };
+            var3 = var3.bind(var7)(var2);
+            var2 = var3.filter;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.isNotNullish;
             var1 = var2.bind(var3)(var1);
             return var1;
         };

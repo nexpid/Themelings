@@ -218,17 +218,17 @@ case 29:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg2;
-            if(var2) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+            if(var2) { _fun0004_ip = 11; continue _fun0004 }
+case 31:
             var3 = _closure1_slot5;
             var2 = undefined;
             var2 = var3.bind(var2)();
-            _fun0004_ip = 33; continue _fun0004;
-case 31:
+            _fun0004_ip = 32; continue _fun0004;
+case 11:
             var4 = _closure1_slot6;
             var3 = undefined;
             var2 = var4.bind(var3)();
-case 33:
+case 32:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
@@ -334,25 +334,25 @@ case 12:
             var11 = var12.bind(var9)(var11);
             var11 = var11.t;
             if(var4) { _fun0005_ip = 18; continue _fun0005 }
-case 34:
-            if(var2) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
-            var4 = var11["6Z1E+7"];
-            _fun0005_ip = 37; continue _fun0005;
+case 33:
+            if(var2) { _fun0005_ip = 34; continue _fun0005 }
 case 35:
+            var4 = var11["6Z1E+7"];
+            _fun0005_ip = 36; continue _fun0005;
+case 34:
             var4 = var11.OxP1NC;
-case 37:
-            _fun0005_ip = 38; continue _fun0005;
+case 36:
+            _fun0005_ip = 37; continue _fun0005;
 case 18:
-            if(var2) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
-            var2 = var11["+N9bxq"];
-            _fun0005_ip = 41; continue _fun0005;
+            if(var2) { _fun0005_ip = 38; continue _fun0005 }
 case 39:
-            var2 = var11.OQ0OUy;
-case 41:
-            var4 = var2;
+            var2 = var11["+N9bxq"];
+            _fun0005_ip = 40; continue _fun0005;
 case 38:
+            var2 = var11.OQ0OUy;
+case 40:
+            var4 = var2;
+case 37:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
@@ -363,17 +363,17 @@ case 38:
             var11 = null;
             var14 = var11 == var13;
             var12 = undefined;
-            if(var14) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
-            var12 = var13.name;
+            if(var14) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
+            var12 = var13.name;
+case 41:
             var1['guildName'] = var12;
             var11 = var11 == var10;
             var9 = undefined;
-            if(var11) { _fun0005_ip = 44; continue _fun0005 }
-case 25:
-            var9 = var10.tier_name;
+            if(var11) { _fun0005_ip = 43; continue _fun0005 }
 case 44:
+            var9 = var10.tier_name;
+case 43:
             var1['tierName'] = var9;
             var1['username'] = var8;
             var1['usernameOnClick'] = var7;
@@ -449,7 +449,7 @@ case 0:
             var6 = var4 == var5;
             var4 = undefined;
             if(var6) { _fun0007_ip = 46; continue _fun0007 }
-case 12:
+case 47:
             var4 = var5.id;
 case 46:
             var1['sender'] = var4;

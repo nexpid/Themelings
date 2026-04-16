@@ -82,9 +82,9 @@ case 0:
             var14 = var1.displayProfile;
             var13 = var1.user;
             var _closure2_slot0 = var13;
-            var7 = var1.pendingProfileEffect;
-            var8 = var1.guildId;
-            var _closure2_slot1 = var8;
+            var9 = var1.pendingProfileEffect;
+            var3 = var1.guildId;
+            var _closure2_slot1 = var3;
             var12 = var1.isTryItOut;
             var _closure2_slot2 = var12;
             var4 = undefined;
@@ -95,10 +95,10 @@ case 0:
             var1 = _closure1_slot2;
             var11 = 7;
             var1 = var1[var11];
-            var9 = var2.bind(var4)(var1);
-            var2 = var9.getProfilePreviewValue;
+            var8 = var2.bind(var4)(var1);
+            var2 = var8.getProfilePreviewValue;
             var1 = {};
-            var1['pendingValue'] = var7;
+            var1['pendingValue'] = var9;
             var5 = null;
             var15 = var5 == var14;
             var10 = undefined;
@@ -124,22 +124,22 @@ case 7:
             var10 = var14.profileEffect;
 case 5:
             var1['guildValue'] = var10;
-            var1['guildId'] = var8;
-            var14 = var2.bind(var9)(var1);
+            var1['guildId'] = var3;
+            var14 = var2.bind(var8)(var1);
             var2 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var1 = 8;
-            var1 = var9[var1];
-            var9 = var2.bind(var4)(var1);
-            var2 = var9.useFetchCollectiblesProduct;
+            var1 = var8[var1];
+            var8 = var2.bind(var4)(var1);
+            var2 = var8.useFetchCollectiblesProduct;
             var10 = var5 == var14;
             var1 = undefined;
             if(var10) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var1 = var14.skuId;
 case 8:
-            var1 = var2.bind(var9)(var1);
-            var9 = var1.product;
+            var1 = var2.bind(var8)(var1);
+            var8 = var1.product;
             var1 = var1.isFetching;
             var10 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -148,21 +148,21 @@ case 8:
             var10 = var11.useUserProfileEffect;
             var2 = {};
             var2['user'] = var13;
-            var2['guildId'] = var8;
+            var2['guildId'] = var3;
             var2 = var10.bind(var11)(var2);
-            if(!(var4 !== var7)) { _fun0001_ip = 10; continue _fun0001 }
+            if(!(var4 !== var9)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var2 = var7;
+            var2 = var9;
 case 10:
             _closure2_slot3 = var2;
             var11 = _closure1_slot3;
             var10 = var11.useCallback;
-            var7 = new Array(4);
-            var7[0] = var2;
-            var7[1] = var8;
-            var7[2] = var13;
-            var7[3] = var12;
-            var3 = function() {
+            var9 = new Array(4);
+            var9[0] = var2;
+            var9[1] = var3;
+            var9[2] = var13;
+            var9[3] = var12;
+            var7 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 9;
@@ -191,84 +191,76 @@ case 10:
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;
             };
-            var7 = var10.bind(var11)(var3, var7);
-            var10 = var5 == var9;
-            var3 = undefined;
-            if(var10) { _fun0001_ip = 12; continue _fun0001 }
+            var7 = var10.bind(var11)(var7, var9);
+            var9 = var5 == var8;
+            var11 = undefined;
+            if(var9) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var3 = var9.name;
+            var11 = var8.name;
 case 12:
-            if(!(var5 == var3)) { _fun0001_ip = 14; continue _fun0001 }
+            if(!(var5 == var11)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var9 = 12;
-            var10 = var13[var9];
-            var10 = var12.bind(var4)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var13[var9];
+            var8 = 12;
+            var9 = var13[var8];
             var9 = var12.bind(var4)(var9);
-            var9 = var9.t;
-            var9 = var9.PoWNfe;
-            var3 = var10.bind(var11)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var8 = var13[var8];
+            var8 = var12.bind(var4)(var8);
+            var8 = var8.t;
+            var8 = var8.PoWNfe;
+            var11 = var9.bind(var10)(var8);
 case 14:
-            var10 = var3;
-            if(!(var5 != var8)) { _fun0001_ip = 16; continue _fun0001 }
+            var9 = var11;
+            if(!(var5 != var3)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var10 = var3;
+            var9 = var11;
             if(!(var5 == var2)) { _fun0001_ip = 16; continue _fun0001 }
 case 18:
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var12 = _closure1_slot2;
             var2 = 12;
-            var3 = var11[var2];
-            var3 = var9.bind(var4)(var3);
-            var8 = var3.intl;
-            var3 = var8.string;
-            var2 = var11[var2];
-            var2 = var9.bind(var4)(var2);
+            var8 = var12[var2];
+            var8 = var3.bind(var4)(var8);
+            var10 = var8.intl;
+            var8 = var10.formatToPlainString;
+            var2 = var12[var2];
+            var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.CHf9iJ;
-            var10 = var3.bind(var8)(var2);
+            var3 = var2.ep5D4i;
+            var2 = {};
+            var2['label'] = var11;
+            var9 = var8.bind(var10)(var3, var2);
 case 16:
             var3 = _closure1_slot6;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var2 = 13;
-            var2 = var9[var2];
+            var2 = var10[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.UserProfileEditFormButton;
             if(var1) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var1 = {};
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var8 = 12;
-            var9 = var12[var8];
-            var9 = var11.bind(var4)(var9);
-            var15 = var9.intl;
-            var13 = var15.string;
-            var9 = var12[var8];
-            var9 = var11.bind(var4)(var9);
-            var9 = var9.t;
-            var9 = var9.wR5wOo;
-            var9 = var13.bind(var15)(var9);
-            var1['label'] = var9;
-            var1['buttonText'] = var10;
-            var9 = {};
-            var9['text'] = var10;
-            var1['accessibilityValue'] = var9;
-            var9 = var12[var8];
-            var9 = var11.bind(var4)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var12[var8];
-            var8 = var11.bind(var4)(var8);
+            var10 = var13[var8];
+            var10 = var12.bind(var4)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var8 = var13[var8];
+            var8 = var12.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.Xz9c91;
-            var8 = var9.bind(var10)(var8);
-            var1['accessibilityHint'] = var8;
+            var8 = var8.wR5wOo;
+            var8 = var10.bind(var11)(var8);
+            var1['label'] = var8;
+            var1['buttonText'] = var9;
+            var8 = {};
+            var8['text'] = var9;
+            var1['accessibilityValue'] = var8;
             var1['onPress'] = var7;
             if(!(var5 == var14)) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
@@ -345,24 +337,14 @@ case 19:
             var5['label'] = var10;
             var10 = var8[var9];
             var10 = var7.bind(var4)(var10);
-            var12 = var10.intl;
-            var11 = var12.string;
-            var10 = var8[var9];
-            var10 = var7.bind(var4)(var10);
-            var10 = var10.t;
-            var10 = var10.MKDeyL;
-            var10 = var11.bind(var12)(var10);
-            var5['buttonText'] = var10;
-            var10 = var8[var9];
-            var10 = var7.bind(var4)(var10);
             var11 = var10.intl;
             var10 = var11.string;
             var9 = var8[var9];
             var9 = var7.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.Xz9c91;
+            var9 = var9.MKDeyL;
             var9 = var10.bind(var11)(var9);
-            var5['accessibilityHint'] = var9;
+            var5['buttonText'] = var9;
             var9 = _closure1_slot5;
             var5['onPress'] = var9;
             var9 = _closure1_slot6;

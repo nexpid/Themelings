@@ -481,9 +481,8 @@ case 14:
         var7 = var6[var3];
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
-        var7 = var7.modules;
-        var7 = var7.mobile;
-        var7 = var7.SHEET_HEADER_PADDING_HORIZONTAL;
+        var7 = var7.spacing;
+        var7 = var7.PX_16;
         var2['left'] = var7;
         var7 = 'flex-start';
         var2['justifyContent'] = var7;
@@ -491,9 +490,8 @@ case 14:
         var2 = {};
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
-        var3 = var3.modules;
-        var3 = var3.mobile;
-        var3 = var3.SHEET_HEADER_PADDING_HORIZONTAL;
+        var3 = var3.spacing;
+        var3 = var3.PX_16;
         var2['right'] = var3;
         var3 = 'flex-end';
         var2['justifyContent'] = var3;

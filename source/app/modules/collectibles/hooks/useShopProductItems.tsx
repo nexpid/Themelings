@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(5);
+        var2 = new Array(6);
         var2[0] = var1;
         var1 = {};
         var6 = 'firstProfileEffect';
@@ -102,6 +102,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['get'] = var6;
         var2[2] = var1;
         var1 = {};
+        var6 = 'firstProfileFrame';
+        var1['key'] = var6;
+        var6 = function get() {
+            var3 = this;
+            var2 = var3.getFirstItemByType;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 3;
+            var4 = var4[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.PROFILE_FRAME;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1['get'] = var6;
+        var2[3] = var1;
+        var1 = {};
         var6 = 'getFirstItemByType';
         var1['key'] = var6;
         var6 = function value(arg1) {
@@ -128,7 +147,7 @@ case 4:
             }
         };
         var1['value'] = var6;
-        var2[3] = var1;
+        var2[4] = var1;
         var1 = {};
         var6 = 'sortByTypes';
         var1['key'] = var6;
@@ -170,7 +189,7 @@ case 8:
             return var1;
         };
         var1['value'] = var5;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -205,8 +224,10 @@ case 8:
             var1['firstProfileEffect'] = var3;
             var3 = var2.firstAvatarDecoration;
             var1['firstAvatarDecoration'] = var3;
-            var2 = var2.firstNameplate;
-            var1['firstNameplate'] = var2;
+            var3 = var2.firstNameplate;
+            var1['firstNameplate'] = var3;
+            var2 = var2.firstProfileFrame;
+            var1['firstProfileFrame'] = var2;
             return var1;
         };
         var1 = var3.bind(var4)(var1, var2);

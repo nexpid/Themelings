@@ -466,10 +466,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['FormText'] = var7;
     var7 = var5[var2];
     var7 = var4.bind(var1)(var7);
-    var7 = var7.FormTextSizes;
-    var3['FormTextSizes'] = var7;
-    var7 = var5[var2];
-    var7 = var4.bind(var1)(var7);
     var7 = var7.FormTextColors;
     var3['FormTextColors'] = var7;
     var7 = var5[var2];

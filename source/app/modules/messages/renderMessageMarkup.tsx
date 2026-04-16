@@ -97,10 +97,6 @@ case 4:
         var4 = var2.disableAnimatedEmoji;
         var4 = var6.bind(var5)(var4);
         var1['disableAnimatedEmoji'] = var4;
-        var6 = var3.Boolean;
-        var4 = var2.isInteracting;
-        var4 = var6.bind(var5)(var4);
-        var1['isInteracting'] = var4;
         var6 = false;
         var1['allowEmojiLinks'] = var6;
         var4 = true;
@@ -481,7 +477,7 @@ case 55:
     };
     var _closure1_slot7 = var1;
     var1 = function renderAutomodMessageMarkupWithParser(arg1, arg2, arg3, arg4) {
-        var6 = {'allowLinks': false, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': false, 'noStyleAndInteraction': false, 'allowHeading': false, 'allowList': false, 'disableAutoBlockNewlines': true, 'highlightWord': null, 'disableAnimatedEmoji': false};
+        var6 = {'allowLinks': false, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'formatInline': false, 'noStyleAndInteraction': false, 'allowHeading': false, 'allowList': false, 'disableAutoBlockNewlines': true, 'highlightWord': null, 'disableAnimatedEmoji': false};
         var1 = false;
         var2 = new Array(0);
         var6['mentionChannels'] = var2;
@@ -931,7 +927,7 @@ case 84:
             var3 = function renderMessageContentMarkupWithParser(arg1, arg2) {
                 var2 = arg2;
                 var10 = var2.content;
-                var5 = {'allowLinks': false, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': false, 'allowHeading': false, 'allowList': false, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': true};
+                var5 = {'allowLinks': false, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'formatInline': true, 'noStyleAndInteraction': false, 'allowHeading': false, 'allowList': false, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': true};
                 var1 = false;
                 var3 = new Array(0);
                 var5['mentionChannels'] = var3;

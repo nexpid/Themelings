@@ -595,63 +595,62 @@ case 55:
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var3 = arg1;
-            var6 = var3.isFullFetch;
-            var5 = _closure1_slot22;
+            var7 = var3.isFullFetch;
+            var6 = _closure1_slot22;
             var1 = _closure1_slot11;
-            var4 = var1.FETCHED;
+            var5 = var1.FETCHED;
+            var4 = global;
             var1 = undefined;
-            if(var6) { _fun0011_ip = 56; continue _fun0011 }
+            if(var7) { _fun0011_ip = 56; continue _fun0011 }
 case 57:
+            var9 = var4.Object;
+            var8 = var9.keys;
             var7 = var3.tokens;
-            var6 = var7.keys;
-            var6 = var6.bind(var7)();
-            var6 = var5.bind(var1)(var4, var6);
-            var7 = _closure1_slot19;
-            var6 = var3.tokens;
-            var12 = var7.bind(var1)(var6);
-            var7 = var12.bind(var1)();
-            var6 = var7.done;
+            var7 = var8.bind(var9)(var7);
+            var7 = var6.bind(var1)(var5, var7);
+            var9 = var4.Object;
+            var8 = var9.entries;
+            var7 = var3.tokens;
+            var13 = var8.bind(var9)(var7);
+            var7 = var13.length;
+            var12 = 0;
+            var7 = var12 < var7;
             var11 = 2;
-            var10 = 0;
-            var9 = 1;
-            var8 = null;
-            if(var6) { _fun0011_ip = 58; continue _fun0011 }
+            var10 = 1;
+            var9 = null;
+            var8 = 0;
+            if(!var7) { _fun0011_ip = 58; continue _fun0011 }
 case 59:
-            var13 = var7.value;
-            var6 = _closure1_slot7;
-            var6 = var6.bind(var1)(var13, var11);
-            var14 = var6[var10];
-            var15 = var6[var9];
-            if(!(var8 != var15)) { _fun0011_ip = 60; continue _fun0011 }
+            var14 = var13[var8];
+            var7 = _closure1_slot7;
+            var7 = var7.bind(var1)(var14, var11);
+            var15 = var7[var12];
+            var16 = var7[var10];
+            if(!(var9 != var16)) { _fun0011_ip = 60; continue _fun0011 }
 case 61:
-            var13 = _closure1_slot12;
-            var6 = var13.set;
-            var6 = var6.bind(var13)(var14, var15);
+            var14 = _closure1_slot12;
+            var7 = var14.set;
+            var7 = var7.bind(var14)(var15, var16);
             _fun0011_ip = 62; continue _fun0011;
 case 60:
-            var13 = _closure1_slot12;
-            var6 = var13.delete;
-            var6 = var6.bind(var13)(var14);
+            var14 = _closure1_slot12;
+            var7 = var14.delete;
+            var7 = var7.bind(var14)(var15);
 case 62:
-            var13 = var12.bind(var1)();
-            var6 = var13.done;
-            var7 = var13;
-            if(!var6) { _fun0011_ip = 59; continue _fun0011 }
+            var8 = var8 + 1;
+            var7 = var13.length;
+            if(var8 < var7) { _fun0011_ip = 59; continue _fun0011 }
 case 58:
-            var6 = _closure1_slot21;
-            var6 = var6.bind(var1)();
+            var7 = _closure1_slot21;
+            var7 = var7.bind(var1)();
             _fun0011_ip = 63; continue _fun0011;
 case 56:
-            var4 = var5.bind(var1)(var4);
-            var4 = global;
+            var5 = var6.bind(var1)(var5);
             var5 = var4.Map;
-            var4 = var3.tokens;
-            var3 = var4.entries;
-            var17 = var3.bind(var4)();
-            var6 = new Array(0);
-            var16 = 0;
-            var18 = var6;
-            var3 = arraySpread(var18, var17, var16);
+            var6 = var4.Object;
+            var4 = var6.entries;
+            var3 = var3.tokens;
+            var6 = var4.bind(var6)(var3);
             var4 = var6.filter;
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -703,10 +702,10 @@ case 0:
             var2 = var2.bind(var3)(var5);
             var3 = null;
             if(!(var3 != var2)) { _fun0012_ip = 64; continue _fun0012 }
-case 65:
+case 57:
             var3 = var2.id;
             if(!(var3 === var4)) { _fun0012_ip = 64; continue _fun0012 }
-case 66:
+case 65:
             var4 = _closure1_slot12;
             var3 = var4.delete;
             var2 = var2.application;

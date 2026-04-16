@@ -2978,6 +2978,9 @@ case 96:
         var5 = var5.is_preview;
         var1['isPreview'] = var5;
         var5 = var4.prune;
+        var5 = var5.is_finished;
+        var1['isFinished'] = var5;
+        var5 = var4.prune;
         var5 = var5.days;
         var1['days'] = var5;
         var5 = var4.prune;

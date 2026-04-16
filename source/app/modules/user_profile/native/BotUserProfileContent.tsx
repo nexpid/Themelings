@@ -477,13 +477,6 @@ case 33:
             var35 = var33;
 case 32:
             var15['guildId'] = var35;
-            var38 = _closure1_slot1;
-            var42 = _closure1_slot2;
-            var35 = 23;
-            var35 = var42[var35];
-            var35 = var38.bind(var5)(var35);
-            var35 = var35.hideActionSheet;
-            var15['onOpenApp'] = var35;
             var11 = var32.bind(var5)(var27, var15);
 case 27:
             var29['primaryButton'] = var11;

@@ -123,6 +123,7 @@ case 2:
     var5['profile'] = var11;
     var5['premiumFeatures'] = var11;
     var5['moderatorReporting'] = var11;
+    var5['verificationRoleId'] = var11;
     var5['gameApplicationIds'] = var11;
     var5['officialMessageColor'] = var11;
     var5 = var7.bind(var10)(var5);

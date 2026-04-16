@@ -94,8 +94,8 @@ case 7:
                             var4 = var2 == var5;
                             var6 = var5;
 case 6:
-                            if(var4) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                            if(var4) { _fun0002_ip = 5; continue _fun0002 }
+case 8:
                             var5 = var6.scrollToLocation;
                             var4 = {'section': 0, 'item': 0};
                             var7 = _closure1_slot4;
@@ -103,11 +103,11 @@ case 9:
                             var7 = !var7;
                             var4['animated'] = var7;
                             var4 = var5.bind(var6)(var4);
-case 8:
+case 5:
                             var3 = _closure2_slot1;
                             var4 = var3.current;
-                            if(!(var2 != var4)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                            if(!(var2 != var4)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                             var3 = var4.scrollToOffset;
                             var2 = {};
                             var5 = 0;
@@ -117,7 +117,7 @@ case 11:
                             var5 = !var5;
                             var2['animated'] = var5;
                             var2 = var3.bind(var4)(var2);
-case 10:
+case 9:
                             return var1;
                         }
                     };

@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var7;
     var4 = var4.jsxs;
     var _closure1_slot10 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -355,7 +355,7 @@ case 16:
 case 19:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 18;
+            var5 = 19;
             var5 = var8[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.SceneLoadingIndicator;
@@ -364,15 +364,29 @@ case 19:
             _fun0001_ip = 20; continue _fun0001;
 case 18:
             var8 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var5 = 17;
-            var5 = var11[var5];
+            var5 = var13[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
             var5['appEntryKey'] = var12;
             var5['sharedContent'] = var10;
+            var11 = _closure1_slot0;
+            var10 = 18;
+            var10 = var13[var10];
+            var11 = var11.bind(var4)(var10);
+            var10 = var11.isMetaQuest;
+            var10 = var10.bind(var11)();
+            if(var10) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var10 = _closure1_slot5;
             var10 = var10.exitApp;
+            _fun0001_ip = 23; continue _fun0001;
+case 21:
+            var11 = _closure1_slot6;
+            var11 = var11.ShareManager;
+            var10 = var11.close;
+case 23:
             var5['onClose'] = var10;
             var7 = var9.bind(var4)(var8, var5);
 case 20:
@@ -381,7 +395,7 @@ case 20:
             var8 = _closure1_slot9;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var10 = 19;
+            var10 = 20;
             var10 = var9[var10];
             var10 = var7.bind(var4)(var10);
             var11 = var10.ActionSheetContainer;
@@ -390,13 +404,13 @@ case 20:
             var10 = var8.bind(var4)(var11, var10);
             var5[1] = var10;
             var10 = _closure1_slot1;
-            var6 = 20;
+            var6 = 21;
             var6 = var9[var6];
             var10 = var10.bind(var4)(var6);
             var6 = {};
             var6 = var8.bind(var4)(var10, var6);
             var5[2] = var6;
-            var6 = 21;
+            var6 = 22;
             var6 = var9[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.AlertModalContainer;

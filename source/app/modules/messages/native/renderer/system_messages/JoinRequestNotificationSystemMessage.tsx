@@ -254,7 +254,7 @@ case 28:
             var10 = var5 == var9;
             var5 = undefined;
             if(var10) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+case 12:
             var5 = var9.name;
 case 33:
             var5 = var7.bind(var3)(var6, var8, var5);

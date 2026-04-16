@@ -672,19 +672,19 @@ case 71:
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var2 = this;
-                var3 = var2.type;
+                var4 = var2.type;
                 var1 = _closure1_slot11;
                 var1 = var1.GAME;
-                if(!(var3 !== var1)) { _fun0012_ip = 34; continue _fun0012 }
+                if(!(var4 !== var1)) { _fun0012_ip = 26; continue _fun0012 }
 case 73:
-                var7 = var2.linkedGames;
-                var3 = null;
-                var4 = var3 == var7;
-                var1 = undefined;
-                if(var4) { _fun0012_ip = 74; continue _fun0012 }
+                var8 = var2.linkedGames;
+                var1 = null;
+                var5 = var1 == var8;
+                var4 = undefined;
+                if(var5) { _fun0012_ip = 74; continue _fun0012 }
 case 75:
-                var5 = var7.find;
-                var4 = function(arg1) {
+                var6 = var8.find;
+                var5 = function(arg1) {
                     _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                         var1 = arg1;
@@ -702,21 +702,31 @@ case 76:
                         return var1;
                     }
                 };
-                var4 = var5.bind(var7)(var4);
-                var5 = var3 == var4;
-                var1 = undefined;
-                if(var5) { _fun0012_ip = 74; continue _fun0012 }
+                var5 = var6.bind(var8)(var5);
+                var6 = var1 == var5;
+                var4 = undefined;
+                if(var6) { _fun0012_ip = 74; continue _fun0012 }
 case 78:
-                var1 = var4.id;
+                var4 = var5.id;
 case 74:
-                if(!(var3 == var1)) { _fun0012_ip = 79; continue _fun0012 }
+                var5 = var1 != var4;
+                var1 = null;
+                if(!var5) { _fun0012_ip = 79; continue _fun0012 }
 case 80:
-                var1 = var2.id;
+                var1 = var4;
 case 79:
-                _fun0012_ip = 30; continue _fun0012;
-case 34:
-                var1 = var2.id;
-case 30:
+                _fun0012_ip = 38; continue _fun0012;
+case 26:
+                var5 = _closure1_slot1;
+                var4 = _closure1_slot3;
+                var3 = 13;
+                var4 = var4[var3];
+                var3 = undefined;
+                var4 = var5.bind(var3)(var4);
+                var3 = var4.cast;
+                var2 = var2.id;
+                var1 = var3.bind(var4)(var2);
+case 38:
                 return var1;
             }
         };
@@ -1418,7 +1428,7 @@ case 191:
         return var1;
     };
     var5 = var5.bind(var1)(var2);
-    var6 = 13;
+    var6 = 14;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

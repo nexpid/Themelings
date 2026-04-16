@@ -186,17 +186,18 @@ case 35:
     var1 = function tokensToAppTokensMap(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var6 = arg2;
+            var8 = arg2;
             var1 = global;
-            var3 = var1.Map;
-            var1 = null;
-            var2 = var1 == var6;
+            var3 = var1.Object;
+            var2 = var3.fromEntries;
+            var4 = null;
+            var6 = var4 == var8;
             var5 = undefined;
             var1 = undefined;
-            if(var2) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-            var4 = var6.map;
-            var2 = function(arg1) {
+            if(var6) { _fun0004_ip = 36; continue _fun0004 }
+case 3:
+            var7 = var8.map;
+            var6 = function(arg1) {
                 var1 = new Array(2);
                 var2 = arg1;
                 var1[0] = var2;
@@ -204,14 +205,13 @@ case 37:
                 var1[1] = var2;
                 return var1;
             };
-            var1 = var4.bind(var6)(var2);
+            var1 = var7.bind(var8)(var6);
 case 36:
-            var2 = var3.prototype;
-            var2 = Object.create(var2, {constructor: {value: var3}});
-            var10 = var2;
-            var9 = var1;
-            var1 = new var10[var3](var9, var8);
-            var1 = var1 instanceof Object ? var1 : var2;
+            if(!(var4 == var1)) { _fun0004_ip = 4; continue _fun0004 }
+case 37:
+            var1 = new Array(0);
+case 4:
+            var1 = var2.bind(var3)(var1);
             var3 = _closure1_slot8;
             var2 = arg1;
             var4 = var3.bind(var5)(var2);
@@ -219,11 +219,10 @@ case 36:
             var2 = var3.done;
             if(var2) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-            var7 = var3.value;
-            var6 = var1.set;
-            var2 = var7.application;
+            var6 = var3.value;
+            var2 = var6.application;
             var2 = var2.id;
-            var2 = var6.bind(var1)(var2, var7);
+            var1[var2] = var6;
             var6 = var4.bind(var5)();
             var2 = var6.done;
             var3 = var6;

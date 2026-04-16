@@ -39,18 +39,18 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot12 = var1;
     var1 = function getOrCreateEntry(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = arg1;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot11;
             var1 = var3[var4];
             var2 = null;
             if(!(var1 == var2)) { _fun0002_ip = 6; continue _fun0002 }
@@ -62,7 +62,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -93,11 +93,17 @@ case 6:
     var2 = var7.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = 5;
+    var8 = var6[var2];
+    var8 = var5.bind(var1)(var8);
+    var9 = var8.getWishlistSkuIds;
+    var _closure1_slot8 = var9;
+    var8 = var8.wishlistHasSkuId;
+    var _closure1_slot9 = var8;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot8 = var2;
+    var _closure1_slot10 = var2;
     var2 = {};
-    var _closure1_slot9 = var2;
+    var _closure1_slot11 = var2;
     var2 = 8;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -115,7 +121,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -150,7 +156,7 @@ case 10:
         var1 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot11;
                 var1 = arg1;
                 var1 = var2[var1];
                 var2 = null;
@@ -188,17 +194,15 @@ case 0:
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
                 var4 = var1.data;
-                var2 = null;
-                var3 = var2 == var4;
-                var1 = undefined;
-                if(var3) { _fun0005_ip = 12; continue _fun0005 }
+                var1 = null;
+                if(!(var1 == var4)) { _fun0005_ip = 12; continue _fun0005 }
 case 13:
-                var3 = var4.getSkuIds;
-                var1 = var3.bind(var4)();
-case 12:
-                if(!(var2 == var1)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
                 var1 = new Array(0);
+                _fun0005_ip = 14; continue _fun0005;
+case 12:
+                var3 = _closure1_slot8;
+                var2 = undefined;
+                var1 = var3.bind(var2)(var4);
 case 14:
                 return var1;
             }
@@ -217,19 +221,14 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 var5 = var1.data;
                 var1 = null;
-                var3 = var1 == var5;
-                var2 = undefined;
-                if(var3) { _fun0006_ip = 15; continue _fun0006 }
-case 13:
-                var4 = var5.hasSkuId;
-                var3 = arg2;
-                var2 = var4.bind(var5)(var3);
-case 15:
-                var1 = var1 != var2;
-                if(!var1) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
-                var1 = var2;
+                var1 = var1 != var5;
+                if(!var1) { _fun0006_ip = 15; continue _fun0006 }
 case 16:
+                var4 = _closure1_slot9;
+                var3 = undefined;
+                var2 = arg2;
+                var1 = var4.bind(var3)(var5, var2);
+case 15:
                 return var1;
             }
         };
@@ -326,7 +325,7 @@ case 16:
     var9 = function handleFetchStart(arg1) {
         var1 = arg1;
         var3 = var1.wishlistId;
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot13;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         var3 = 'fetching';
@@ -340,7 +339,7 @@ case 16:
         var5 = var1.wishlistId;
         var4 = var1.wishlistData;
         var2 = var1.updatedAt;
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot13;
         var1 = undefined;
         var3 = var3.bind(var1)(var5);
         var3['data'] = var4;
@@ -360,7 +359,7 @@ case 16:
         var1 = arg1;
         var4 = var1.wishlistId;
         var3 = var1.error;
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot13;
         var1 = undefined;
         var2 = var2.bind(var1)(var4);
         var4 = 'error';
@@ -373,7 +372,7 @@ case 16:
         var1 = arg1;
         var4 = var1.wishlistId;
         var2 = var1.wishlistData;
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot13;
         var1 = undefined;
         var3 = var3.bind(var1)(var4);
         var3['data'] = var2;
@@ -409,14 +408,14 @@ case 0:
             var5 = var1.wishlistId;
             var1 = var1.skuId;
             var _closure2_slot0 = var1;
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot13;
             var1 = undefined;
             var3 = var3.bind(var1)(var5);
             var6 = var3.data;
             var5 = null;
-            if(!(var5 != var6)) { _fun0007_ip = 18; continue _fun0007 }
-case 19:
-            var5 = _closure1_slot8;
+            if(!(var5 != var6)) { _fun0007_ip = 17; continue _fun0007 }
+case 18:
+            var5 = _closure1_slot10;
             var2 = {};
             var6 = var3.data;
             var6 = var6.id;
@@ -446,7 +445,7 @@ case 19:
             var2 = new var9[var5](var8, var7);
             var2 = var2 instanceof Object ? var2 : var4;
             var3['data'] = var2;
-case 18:
+case 17:
             return var1;
         }
     };
@@ -455,7 +454,7 @@ case 18:
         var1 = arg1;
         var4 = var1.wishlistId;
         var2 = var1.wishlistData;
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot13;
         var1 = undefined;
         var3 = var3.bind(var1)(var4);
         var3['data'] = var2;
@@ -474,7 +473,7 @@ case 18:
         var1 = arg1;
         var5 = var1.wishlistId;
         var4 = var1.error;
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot13;
         var1 = undefined;
         var3 = var3.bind(var1)(var5);
         var3['updatedAt'] = var1;
@@ -491,7 +490,7 @@ case 18:
     var9 = function handleUpdateVisibilitySuccess(arg1) {
         var1 = arg1;
         var3 = var1.wishlistId;
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot13;
         var1 = undefined;
         var3 = var2.bind(var1)(var3);
         var2 = 'success';
@@ -523,7 +522,7 @@ case 18:
         var1 = arg1;
         var4 = var1.wishlistId;
         var3 = var1.newWishlistData;
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot13;
         var1 = undefined;
         var2 = var2.bind(var1)(var4);
         var2['data'] = var3;
@@ -534,7 +533,7 @@ case 18:
         var1 = arg1;
         var4 = var1.wishlistId;
         var2 = var1.wishlistData;
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot13;
         var1 = undefined;
         var3 = var3.bind(var1)(var4);
         var3['data'] = var2;
@@ -553,7 +552,7 @@ case 18:
         var1 = arg1;
         var5 = var1.wishlistId;
         var4 = var1.error;
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot13;
         var1 = undefined;
         var3 = var3.bind(var1)(var5);
         var3['updatedAt'] = var1;
@@ -582,34 +581,35 @@ case 0:
             var4 = var3.default;
             var3 = var4.getFirstWishlistId;
             var3 = var3.bind(var4)(var5);
-            var8 = null;
-            var4 = var8 != var3;
+            var6 = null;
+            var4 = var6 != var3;
             if(!var4) { _fun0008_ip = 4; continue _fun0008 }
-case 20:
-            var5 = _closure1_slot9;
+case 19:
+            var5 = _closure1_slot11;
             var5 = var5[var3];
-            var4 = var8 != var5;
+            var4 = var6 != var5;
 case 4:
-            var6 = undefined;
-            if(!var4) { _fun0008_ip = 21; continue _fun0008 }
-case 22:
-            var5 = _closure1_slot9;
+            if(!var4) { _fun0008_ip = 20; continue _fun0008 }
+case 21:
+            var5 = _closure1_slot11;
             var5 = var5[var3];
             var5 = var5.data;
-            var4 = var8 != var5;
-            var6 = var5;
-case 21:
-            if(!var4) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
-            var5 = var6.hasSkuId;
-            var4 = var5.bind(var6)(var7);
+            var4 = var6 != var5;
+case 20:
+            if(!var4) { _fun0008_ip = 22; continue _fun0008 }
 case 23:
-            if(!var4) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
-            var2 = _closure1_slot9;
+            var6 = _closure1_slot9;
+            var5 = _closure1_slot11;
+            var5 = var5[var3];
+            var5 = var5.data;
+            var4 = var6.bind(var1)(var5, var7);
+case 22:
+            if(!var4) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
+            var2 = _closure1_slot11;
             var2 = var2[var3];
             var2['updatedAt'] = var1;
-case 25:
+case 24:
             return var1;
         }
     };

@@ -1772,7 +1772,7 @@ case 110:
 case 115:
             var44 = _closure1_slot11;
             var22 = _closure1_slot14;
-            var8 = {'mixWithOthers': 'mix', 'ref': null, 'accessible': false, 'importantForAccessibility': 'no-hide-descendants', 'accessibilityRole': 'none'};
+            var8 = {'mixWithOthers': 'inherit', 'ref': null, 'accessible': false, 'importantForAccessibility': 'no-hide-descendants', 'accessibilityRole': 'none'};
             var8['ref'] = var58;
             var58 = var15.video;
             var8['style'] = var58;

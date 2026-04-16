@@ -148,6 +148,8 @@ case 10:
                 var1['products'] = var3;
                 var3 = var2.heroRanking;
                 var1['heroRanking'] = var3;
+                var3 = var2.unpublishedAt;
+                var1['unpublishedAt'] = var3;
                 var3 = global;
                 var6 = var3.Array;
                 var4 = var6.isArray;
@@ -225,8 +227,9 @@ case 13:
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var3 = arg1;
-                var26 = this;
-                var23 = var3.products;
+                var28 = this;
+                var25 = var3.products;
+                var23 = var3.unpublished_at;
                 var20 = var3.hero_ranking;
                 var10 = var3.hero_logo_display_config;
                 var5 = var3.hero_banner_display_config;
@@ -242,29 +245,30 @@ case 0:
                 var9 = var3.pdp_bg_url;
                 var8 = var3.mobile_banner_url;
                 var7 = var3.mobile_bg_url;
-                var2 = {'products': 0, 'hero_ranking': 0, 'hero_logo_display_config': 0, 'hero_banner_display_config': 0, 'hero_banner_url': 0, 'hero_banner_animated_url': 0, 'hero_rive_url': 0, 'hero_logo_url': 0, 'catalog_banner_url': 0, 'catalog_banner_animated_url': 0, 'catalog_banner_rive_url': 0, 'featured_block_url': 0, 'logo_url': 0, 'pdp_bg_url': 0, 'mobile_banner_url': 0, 'mobile_bg_url': 0};
-                var28 = null;
+                var2 = {'products': 0, 'unpublished_at': 0, 'hero_ranking': 0, 'hero_logo_display_config': 0, 'hero_banner_display_config': 0, 'hero_banner_url': 0, 'hero_banner_animated_url': 0, 'hero_rive_url': 0, 'hero_logo_url': 0, 'catalog_banner_url': 0, 'catalog_banner_animated_url': 0, 'catalog_banner_rive_url': 0, 'featured_block_url': 0, 'logo_url': 0, 'pdp_bg_url': 0, 'mobile_banner_url': 0, 'mobile_bg_url': 0};
+                var21 = null;
+                var31 = var2;
+                var30 = null;
+                var1 = silentSetPrototypeOf(var31, var30);
+                var31 = {};
+                var30 = var3;
                 var29 = var2;
-                var1 = silentSetPrototypeOf(var29, var28);
-                var29 = {};
-                var28 = var3;
-                var27 = var2;
-                var24 = copyDataProperties(var29, var28, var27);
+                var26 = copyDataProperties(var31, var30, var29);
                 var3 = _closure2_slot0;
                 var1 = {};
-                var _closure3_slot0 = var26;
-                var25 = _closure1_slot6;
-                var21 = _closure1_slot5;
+                var _closure3_slot0 = var28;
+                var27 = _closure1_slot6;
+                var22 = _closure1_slot5;
                 var6 = undefined;
-                var22 = var21.bind(var6)(var3);
-                var21 = 'fromServer';
-                var22 = var25.bind(var6)(var22, var21, var26);
-                var _closure3_slot1 = var22;
-                var25 = 'function';
-                var21 = typeof var22;
-                if(!(var25 === var21)) { _fun0004_ip = 15; continue _fun0004 }
+                var24 = var22.bind(var6)(var3);
+                var22 = 'fromServer';
+                var24 = var27.bind(var6)(var24, var22, var28);
+                var _closure3_slot1 = var24;
+                var27 = 'function';
+                var22 = typeof var24;
+                if(!(var27 === var22)) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
-                var22 = function(arg1) {
+                var24 = function(arg1) {
                     var4 = _closure3_slot1;
                     var3 = var4.apply;
                     var2 = _closure3_slot0;
@@ -273,13 +277,13 @@ case 16:
                     return var1;
                 };
 case 15:
-                var21 = new Array(1);
-                var21[0] = var24;
-                var28 = var22.bind(var6)(var21);
-                var29 = var1;
-                var21 = copyDataProperties(var29, var28);
-                var22 = var23.reduce;
-                var21 = function(arg1, arg2) {
+                var22 = new Array(1);
+                var22[0] = var26;
+                var30 = var24.bind(var6)(var22);
+                var31 = var1;
+                var22 = copyDataProperties(var31, var30);
+                var24 = var25.reduce;
+                var22 = function(arg1, arg2) {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var1 = arg1;
@@ -305,8 +309,23 @@ case 3:
                     }
                 };
                 var4 = new Array(0);
-                var21 = var22.bind(var23)(var21, var4);
+                var22 = var24.bind(var25)(var22, var4);
                 var4 = 'products';
+                var1[3] = var22;
+                var4 = var21 != var23;
+                var21 = null;
+                if(!var4) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+                var4 = global;
+                var4 = var4.Date;
+                var22 = var4.prototype;
+                var22 = Object.create(var22, {constructor: {value: var4}});
+                var32 = var22;
+                var31 = var23;
+                var4 = new var32[var4](var31, var30);
+                var21 = var4 instanceof Object ? var4 : var22;
+case 18:
+                var4 = 'unpublishedAt';
                 var1[3] = var21;
                 var4 = 'heroRanking';
                 var1[3] = var20;
@@ -351,9 +370,9 @@ case 3:
                 var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var30 = var2;
-                var29 = var1;
-                var1 = new var30[var3](var29, var28);
+                var32 = var2;
+                var31 = var1;
+                var1 = new var32[var3](var31, var30);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             }
@@ -391,22 +410,22 @@ case 0:
                     var3 = arg2;
                     var3 = var4.bind(var5)(var3);
                     var4 = null;
-                    if(!(var4 != var3)) { _fun0006_ip = 18; continue _fun0006 }
-case 19:
+                    if(!(var4 != var3)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                     var5 = _closure1_slot9;
                     var4 = var3.type;
                     var2 = undefined;
                     var2 = var5.bind(var2)(var4);
-                    if(var2) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+                    if(var2) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                     var2 = var3.items;
                     var4 = var2.length;
                     var2 = 0;
-                    if(!(var2 !== var4)) { _fun0006_ip = 18; continue _fun0006 }
-case 20:
+                    if(!(var2 !== var4)) { _fun0006_ip = 20; continue _fun0006 }
+case 22:
                     var2 = var1.push;
                     var2 = var2.bind(var1)(var3);
-case 18:
+case 20:
                     return var1;
                 }
             };

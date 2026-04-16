@@ -392,6 +392,8 @@ case 0:
                     var3['IconComponent'] = var1;
                     var1 = _closure2_slot14;
                     var3['action'] = var1;
+                    var1 = 'link';
+                    var3['accessibilityRole'] = var1;
                     var1 = new Array(2);
                     var1[0] = var3;
                     var3 = {};

@@ -160,9 +160,7 @@ case 6:
             var5 = var11[var5];
             var5 = var8.bind(var4)(var5);
             var6 = var5.PressableOpacity;
-            var5 = {};
-            var13 = 'button';
-            var5['accessibilityRole'] = var13;
+            var5 = {'activeOpacity': 0.5, 'accessibilityRole': 'button'};
             var13 = 8;
             var14 = var11[var13];
             var14 = var8.bind(var4)(var14);
@@ -219,9 +217,7 @@ case 0:
             var5 = var12[var5];
             var5 = var10.bind(var4)(var5);
             var6 = var5.PressableOpacity;
-            var5 = {};
-            var9 = 'button';
-            var5['accessibilityRole'] = var9;
+            var5 = {'activeOpacity': 0.5, 'accessibilityRole': 'button'};
             var9 = 8;
             var13 = var12[var9];
             var13 = var10.bind(var4)(var13);

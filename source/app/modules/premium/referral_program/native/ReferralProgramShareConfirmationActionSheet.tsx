@@ -396,11 +396,11 @@ case 12:
 case 14:
             var17 = 21;
             var17 = var21[var17];
-            _fun0002_ip = 15; continue _fun0002;
+            _fun0002_ip = 8; continue _fun0002;
 case 13:
             var20 = 20;
             var17 = var21[var20];
-case 15:
+case 8:
             var17 = var19.bind(var4)(var17);
             var16['uri'] = var17;
             var8['source'] = var16;

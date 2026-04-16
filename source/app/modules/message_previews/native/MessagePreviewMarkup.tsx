@@ -218,7 +218,7 @@ case 12:
             var8 = '';
             if(!(var8 !== var12)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': null, 'unknownUserMentionPlaceholder': true};
+            var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': null, 'unknownUserMentionPlaceholder': true};
             var13 = new Array(0);
             var8['mentionChannels'] = var13;
             var13 = new Array(0);

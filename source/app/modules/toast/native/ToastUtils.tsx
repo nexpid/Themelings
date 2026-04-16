@@ -1080,15 +1080,15 @@ case 0:
             var1 = 0;
             if(!(var6 > var1)) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
-            if(!(!(var7 > var1))) { _fun0004_ip = 4; continue _fun0004 }
+            if(!(!(var7 > var1))) { _fun0004_ip = 27; continue _fun0004 }
 case 25:
-            if(!(!(var6 > var1))) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+            if(!(!(var6 > var1))) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
             var1 = var7 > var1;
             var8 = undefined;
             var5 = undefined;
-            if(!var1) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+            if(!var1) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 2;
@@ -1103,8 +1103,8 @@ case 30:
             var1 = {};
             var1['count'] = var7;
             var5 = var3.bind(var4)(var2, var1);
-            _fun0004_ip = 29; continue _fun0004;
-case 27:
+            _fun0004_ip = 30; continue _fun0004;
+case 28:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 2;
@@ -1120,8 +1120,8 @@ case 27:
             var1 = {};
             var1['count'] = var6;
             var5 = var3.bind(var4)(var2, var1);
-            _fun0004_ip = 29; continue _fun0004;
-case 4:
+            _fun0004_ip = 30; continue _fun0004;
+case 27:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 2;
@@ -1135,10 +1135,10 @@ case 4:
             var1 = var1.t;
             var1 = var1.fRD8wW;
             var5 = var2.bind(var3)(var1);
-case 29:
+case 30:
             var1 = null;
-            if(!(var1 != var5)) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+            if(!(var1 != var5)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 1;
@@ -1159,7 +1159,7 @@ case 32:
             var4 = 'status-positive';
             var1['iconColor'] = var4;
             var1 = var2.bind(var3)(var1);
-case 31:
+case 32:
             var1 = undefined;
             return var1;
         }

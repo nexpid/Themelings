@@ -587,10 +587,10 @@ case 37:
             var14 = false;
 case 36:
             var11 = var2.contentInset;
-            if(!(var11 === var4)) { _fun0005_ip = 9; continue _fun0005 }
-case 38:
+            if(!(var11 === var4)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
             var11 = {'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
-case 9:
+case 38:
             var12 = function handlePress(arg1) {
                 var1 = arg1;
                 var4 = var1.section;
@@ -632,8 +632,8 @@ case 9:
             var6 = null;
             var10 = var6 != var5;
             var9 = null;
-            if(!var10) { _fun0005_ip = 24; continue _fun0005 }
-case 39:
+            if(!var10) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var16 = _closure1_slot13;
             var15 = _closure1_slot16;
             var10 = {};
@@ -644,13 +644,13 @@ case 39:
             var10['useReducedMotion'] = var7;
             var5 = 'BEFORE';
             var9 = var16.bind(var4)(var15, var10, var5);
-case 24:
+case 40:
             var5 = new Array(2);
             var5[0] = var9;
             var9 = var6 != var13;
             var6 = null;
-            if(!var9) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(!var9) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var10 = _closure1_slot13;
             var9 = _closure1_slot16;
             var8 = {};
@@ -663,7 +663,7 @@ case 41:
             var8['useReducedMotion'] = var7;
             var7 = 'AFTER';
             var6 = var10.bind(var4)(var9, var8, var7);
-case 40:
+case 42:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

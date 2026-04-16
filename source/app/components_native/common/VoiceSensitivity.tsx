@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['sensitivitySlider'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -611,8 +611,8 @@ case 30:
             var7 = var17[var7];
             var9 = var9.bind(var4)(var7);
             var7 = {'style': null, 'value': null, 'minimumValue': 0, 'maximumValue': 100, 'minimumTrackTintColor': 'transparent', 'maximumTrackTintColor': 'transparent'};
-            var17 = var15.sensitivitySlider;
-            var7['style'] = var17;
+            var18 = var15.sensitivitySlider;
+            var7['style'] = var18;
             var7['value'] = var16;
             var7['onValueChange'] = var13;
             var13 = function handleSlidingComplete(arg1) {
@@ -627,19 +627,34 @@ case 30:
                 return var1;
             };
             var7['onSlidingComplete'] = var13;
+            var16 = _closure1_slot0;
+            var13 = 22;
+            var13 = var17[var13];
+            var16 = var16.bind(var4)(var13);
+            var13 = var16.isAndroid;
+            var16 = var13.bind(var16)();
+            var13 = undefined;
+            if(!var16) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
+            var13 = function() {
+                var1 = true;
+                return var1;
+            };
+case 31:
+            var7['onResponderGrant'] = var13;
             var7 = var10.bind(var4)(var9, var7);
             var5[2] = var7;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
 case 29:
-            if(var11) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(var11) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var16 = var15.sensitivityDefault;
-            _fun0001_ip = 33; continue _fun0001;
-case 31:
-            var16 = var15.sensitivitySpeaking;
+            _fun0001_ip = 35; continue _fun0001;
 case 33:
+            var16 = var15.sensitivitySpeaking;
+case 35:
             var3 = _closure1_slot13;
             var2 = _closure1_slot6;
             var1 = {};
@@ -664,10 +679,10 @@ case 33:
             var17 = var18.bind(var19)(var17);
             var5['aria-label'] = var17;
             var12 = 0;
-            if(!var11) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(!var11) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var12 = var14;
-case 34:
+case 36:
             var5['aria-valuenow'] = var12;
             var18 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -678,15 +693,15 @@ case 34:
             var12 = var12[var13];
             var12 = var18.bind(var4)(var12);
             var12 = var12.t;
-            if(var11) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+            if(var11) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var11 = var12.X2hJL7;
             var11 = var14.bind(var17)(var11);
-            _fun0001_ip = 38; continue _fun0001;
-case 36:
+            _fun0001_ip = 40; continue _fun0001;
+case 38:
             var12 = var12.haLKZ0;
             var11 = var14.bind(var17)(var12);
-case 38:
+case 40:
             var5['aria-valuetext'] = var11;
             var11 = function onAccessibilityFocus() {
                 var2 = _closure2_slot14;
@@ -706,7 +721,7 @@ case 0:
                     var3 = var2.current;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0008_ip = 18; continue _fun0008 }
-case 39:
+case 41:
                     var3 = global;
                     var5 = var3.clearTimeout;
                     var1 = _closure2_slot15;

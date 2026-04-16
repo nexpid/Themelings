@@ -213,9 +213,7 @@ case 17:
             var5 = var5.Text;
             var1['ratio'] = var5;
             var1['saturationFactor'] = var4;
-            var2 = var2.bind(var3)(var1);
-            var1 = var2.hex;
-            var1 = var1.bind(var2)();
+            var1 = var2.bind(var3)(var1);
             return var1;
         }
     };

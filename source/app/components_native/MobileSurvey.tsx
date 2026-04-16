@@ -100,8 +100,11 @@ case 3:
                     var1 = _closure1_slot6;
                     var3 = var1.OPEN_MODAL;
                     var1 = {};
-                    var6 = 'survey';
-                    var1['type'] = var6;
+                    var7 = 'survey';
+                    var1['type'] = var7;
+                    var6 = _closure2_slot1;
+                    var6 = var6.id;
+                    var1['promotion_id'] = var6;
                     var1 = var4.bind(var5)(var3, var1);
                     var1 = function() {
                         var4 = _closure1_slot3;

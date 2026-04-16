@@ -76,6 +76,16 @@ case 6:
             var10 = 10;
             var11 = var14[var10];
             var11 = var13.bind(var4)(var11);
+            var15 = var11.intl;
+            var12 = var15.string;
+            var11 = var14[var10];
+            var11 = var13.bind(var4)(var11);
+            var11 = var11.t;
+            var11 = var11["60lJ0C"];
+            var11 = var12.bind(var15)(var11);
+            var6['accessibilityLabel'] = var11;
+            var11 = var14[var10];
+            var11 = var13.bind(var4)(var11);
             var12 = var11.intl;
             var11 = var12.string;
             var10 = var14[var10];

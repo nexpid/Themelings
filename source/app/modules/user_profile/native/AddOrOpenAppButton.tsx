@@ -222,12 +222,12 @@ case 6:
     var _closure1_slot10 = var1;
     var1 = function OpenAppButton(arg1) {
         var1 = arg1;
-        var9 = var1.profileApplication;
-        var _closure2_slot0 = var9;
-        var10 = var1.channel;
+        var8 = var1.profileApplication;
+        var _closure2_slot0 = var8;
+        var10 = var1.botUserId;
         var _closure2_slot1 = var10;
-        var8 = var1.onOpenApp;
-        var _closure2_slot2 = var8;
+        var9 = var1.channel;
+        var _closure2_slot2 = var9;
         var5 = _closure1_slot5;
         var4 = var5.useState;
         var3 = false;
@@ -252,119 +252,156 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
+                    var3 = undefined;
+                    var _closure4_slot0 = var3;
+                    var _closure4_slot1 = var3;
                     var7 = _closure1_slot6;
                     var6 = {};
                     var2 = 'channel';
                     var6['type'] = var2;
-                    var2 = _closure2_slot1;
+                    var2 = _closure2_slot2;
                     var6['channel'] = var2;
                     var2 = _closure2_slot0;
-                    var4 = var2.id;
-                    var2 = undefined;
-                    var10 = var7.bind(var2)(var6, var4);
-                    var7 = var10.descriptor;
-                    var4 = null;
-                    var8 = var4 == var7;
-                    var6 = undefined;
-                    if(var8) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                    var6 = var7.application;
-case 10:
-                    if(!(var4 == var6)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                    var7 = _closure2_slot3;
-                    var6 = true;
-                    var6 = var7.bind(var2)(var6);
-case 12:
-                    var6 = var10.descriptor;
-                    var8 = var4 == var6;
+                    var2 = var2.id;
+                    var6 = var7.bind(var3)(var6, var2);
+                    _closure4_slot0 = var6;
+                    var8 = var6.descriptor;
+                    var2 = null;
+                    var10 = var2 == var8;
                     var7 = undefined;
-                    if(var8) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                    var7 = var6.application;
-case 14:
-                    if(!(var4 == var7)) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-                    var8 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var6 = 19;
-                    var6 = var9[var6];
-                    var9 = var8.bind(var2)(var6);
-                    var8 = var9.fetchApplication;
-                    var6 = _closure2_slot0;
-                    var6 = var6.id;
-                    var6 = var8.bind(var9)(var6);
-                    SaveGenerator(address=160);
-case 18:
-                    return var6;
-case 19:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    var7 = var6;
-                    if(!var8) { _fun0003_ip = 16; continue _fun0003 }
-case 4:
-                    return var6;
-case 16:
+                    if(var10) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                    var7 = var8.application;
+case 10:
+                    if(!(var2 == var7)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var8 = _closure2_slot3;
-                    var6 = false;
-                    var6 = var8.bind(var2)(var6);
-                    if(!(var4 != var10)) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-                    var6 = _closure2_slot2;
-                    if(!(var4 != var6)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                    var5 = _closure2_slot2;
-                    var5 = var5.bind(var2)();
-case 22:
-                    var6 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var5 = 20;
-                    var5 = var8[var5];
-                    var6 = var6.bind(var2)(var5);
-                    var5 = var6.getBestActiveInput;
-                    var6 = var5.bind(var6)();
-                    if(!(var4 != var6)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-                    var5 = var6.openCustomKeyboard;
-                    var4 = {};
-                    var9 = _closure1_slot0;
+                    var7 = true;
+                    var7 = var8.bind(var3)(var7);
+case 12:
+                    var7 = var6.descriptor;
+                    var10 = var2 == var7;
+                    var8 = undefined;
+                    if(var10) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+                    var8 = var7.application;
+case 14:
+                    if(!(var2 == var8)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+                    var10 = _closure1_slot1;
                     var11 = _closure1_slot2;
-                    var8 = 21;
-                    var8 = var11[var8];
-                    var8 = var9.bind(var2)(var8);
-                    var8 = var8.KeyboardTypes;
-                    var8 = var8.APP_LAUNCHER;
-                    var4['type'] = var8;
-                    var8 = {};
-                    var9 = _closure1_slot8;
-                    var9 = var9.APPLICATION_VIEW;
-                    var8['initialRouteName'] = var9;
-                    var9 = true;
-                    var8['initiallyExpanded'] = var9;
-                    var8['application'] = var7;
-                    var9 = var10.isGuildInstalled;
-                    var9 = !var9;
-                    if(!var9) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
-                    var10 = var10.isUserInstalled;
-                    var9 = !var10;
-case 26:
-                    var8['installOnDemand'] = var9;
-                    var4['context'] = var8;
-                    var4 = var5.bind(var6)(var4);
-case 24:
-                    var5 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var4 = 22;
-                    var4 = var6[var4];
-                    var6 = var5.bind(var2)(var4);
-                    var5 = var6.track;
-                    var3 = _closure1_slot7;
-                    var4 = var3.APP_PROFILE_OPEN_APP_BUTTON_CLICKED;
-                    var3 = {};
+                    var7 = 19;
+                    var7 = var11[var7];
+                    var11 = var10.bind(var3)(var7);
+                    var10 = var11.fetchApplication;
+                    var7 = _closure2_slot0;
                     var7 = var7.id;
-                    var3['application_id'] = var7;
-                    var3 = var5.bind(var6)(var4, var3);
+                    var7 = var10.bind(var11)(var7);
+                    SaveGenerator(address=174);
+case 18:
+                    return var7;
+case 19:
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=9);
+                    var8 = var7;
+                    if(!var10) { _fun0003_ip = 16; continue _fun0003 }
 case 20:
+                    return var7;
+case 16:
+                    _closure4_slot1 = var8;
+                    var10 = _closure2_slot3;
+                    var7 = false;
+                    var7 = var10.bind(var3)(var7);
+                    if(!(var2 != var6)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var2 = 9;
+                    var2 = var7[var2];
+                    var10 = var6.bind(var3)(var2);
+                    var2 = var10.hideActionSheet;
+                    var2 = var2.bind(var10)();
+                    var2 = 20;
+                    var2 = var7[var2];
+                    var7 = var6.bind(var3)(var2);
+                    var6 = var7.openPrivateChannel;
+                    var2 = {};
+                    var9 = _closure2_slot1;
+                    var2['recipientIds'] = var9;
+                    var2 = var6.bind(var7)(var2);
+                    SaveGenerator(address=276);
+case 23:
+                    return var2;
+case 24:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                    if(var6) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+                    var6 = global;
+                    var7 = var6.setTimeout;
+                    var6 = function() {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                            var3 = _closure1_slot0;
+                            var2 = _closure1_slot2;
+                            var1 = 21;
+                            var2 = var2[var1];
+                            var1 = undefined;
+                            var3 = var3.bind(var1)(var2);
+                            var2 = var3.getBestActiveInput;
+                            var4 = var2.bind(var3)();
+                            var2 = null;
+                            if(!(var2 != var4)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
+                            var3 = var4.openCustomKeyboard;
+                            var2 = {};
+                            var7 = _closure1_slot0;
+                            var8 = _closure1_slot2;
+                            var5 = 22;
+                            var5 = var8[var5];
+                            var5 = var7.bind(var1)(var5);
+                            var5 = var5.KeyboardTypes;
+                            var5 = var5.APP_LAUNCHER;
+                            var2['type'] = var5;
+                            var5 = {};
+                            var6 = _closure1_slot8;
+                            var6 = var6.APPLICATION_VIEW;
+                            var5['initialRouteName'] = var6;
+                            var6 = true;
+                            var5['initiallyExpanded'] = var6;
+                            var6 = _closure4_slot1;
+                            var5['application'] = var6;
+                            var6 = _closure4_slot0;
+                            var6 = var6.isGuildInstalled;
+                            var6 = !var6;
+                            if(!var6) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+                            var7 = _closure4_slot0;
+                            var7 = var7.isUserInstalled;
+                            var6 = !var7;
+case 29:
+                            var5['installOnDemand'] = var6;
+                            var2['context'] = var5;
+                            var2 = var3.bind(var4)(var2);
+case 27:
+                            return var1;
+                        }
+                    };
+                    var5 = 0;
+                    var5 = var7.bind(var3)(var6, var5);
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 23;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var3)(var5);
+                    var6 = var7.track;
+                    var4 = _closure1_slot7;
+                    var5 = var4.APP_PROFILE_OPEN_APP_BUTTON_CLICKED;
+                    var4 = {};
+                    var8 = var8.id;
+                    var4['application_id'] = var8;
+                    var4 = var6.bind(var7)(var5, var4);
+case 21:
+                    return var3;
+case 25:
                     return var2;
 case 8:
                     return var1;
@@ -375,8 +412,8 @@ case 8:
         var3 = var3.bind(var4)(var2);
         var2 = new Array(3);
         var2[0] = var10;
-        var9 = var9.id;
         var2[1] = var9;
+        var8 = var8.id;
         var2[2] = var8;
         var5 = var5.bind(var7)(var3, var2);
         var3 = _closure1_slot9;
@@ -446,50 +483,48 @@ case 8:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot9 = var4;
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_profile/native/AddOrOpenAppButton.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function AddOrOpenAppButton(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.application;
-            var8 = var1.botUserId;
-            var7 = var1.channel;
-            var10 = var1.guildId;
-            var6 = var1.onOpenApp;
+            var8 = var1.application;
+            var7 = var1.botUserId;
+            var6 = var1.channel;
+            var9 = var1.guildId;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 7;
             var1 = var4[var1];
             var5 = undefined;
             var1 = var3.bind(var5)(var1);
-            var1 = var1.bind(var5)(var7);
-            if(!var1) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+            var1 = var1.bind(var5)(var6);
+            if(!var1) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var1 = null;
-            if(!(var1 == var7)) { _fun0004_ip = 30; continue _fun0004 }
-case 28:
+            if(!(var1 == var6)) { _fun0005_ip = 33; continue _fun0005 }
+case 31:
             var4 = _closure1_slot9;
             var3 = _closure1_slot10;
             var1 = {};
-            var1['application'] = var9;
-            var1['guildId'] = var10;
+            var1['application'] = var8;
+            var1['guildId'] = var9;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0004_ip = 31; continue _fun0004;
-case 30:
+            _fun0005_ip = 34; continue _fun0005;
+case 33:
             var4 = _closure1_slot9;
             var3 = _closure1_slot11;
             var2 = {};
-            var2['profileApplication'] = var9;
-            var2['botUserId'] = var8;
-            var2['channel'] = var7;
-            var2['onOpenApp'] = var6;
+            var2['profileApplication'] = var8;
+            var2['botUserId'] = var7;
+            var2['channel'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 31:
+case 34:
             return var1;
         }
     };

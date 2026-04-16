@@ -49,8 +49,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['ONE_TIME_LOGIN'] = var1;
     var1 = 'PLAYGROUND';
     var7['PLAYGROUND'] = var1;
-    var1 = 'GORILLA';
-    var7['GORILLA'] = var1;
     var _closure1_slot0 = var7;
     var6 = {};
     var1 = 'settings';
@@ -79,8 +77,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['QUEST_PREVIEW_TOOL'] = var1;
     var1 = 'playground';
     var6['PLAYGROUND'] = var1;
-    var1 = 'gorilla';
-    var6['GORILLA'] = var1;
     var _closure1_slot1 = var6;
     var4 = {};
     var2 = 101;
@@ -249,14 +245,6 @@ case 24:
             var3 = var3.PLAYGROUND;
             if(!(var3 !== var2)) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
-            var3 = _closure1_slot0;
-            var3 = var3.GORILLA;
-            if(!(var3 !== var2)) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
-            return var2;
-case 27:
-            var2 = _closure1_slot1;
-            var2 = var2.GORILLA;
             return var2;
 case 25:
             var2 = _closure1_slot1;

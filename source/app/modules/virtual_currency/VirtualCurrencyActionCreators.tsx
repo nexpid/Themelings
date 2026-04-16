@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function fetchVirtualCurrencyBalance() {
         var1 = undefined;
-        var4 = _closure1_slot7;
+        var4 = _closure1_slot8;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var1 = function _fetchVirtualCurrencyBalance() {
         var5 = undefined;
         var1 = undefined;
@@ -32,7 +32,7 @@ case 0:
 case 3:
                     var7 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var5 = 3;
+                    var5 = 4;
                     var6 = var2[var5];
                     var2 = undefined;
                     var8 = var7.bind(var2)(var6);
@@ -40,7 +40,7 @@ case 3:
                     var6 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 3;
+                        var1 = 4;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -55,13 +55,13 @@ case 3:
 case 4: // try_start_0
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var6 = 4;
+                    var6 = 5;
                     var6 = var8[var6];
                     var6 = var7.bind(var2)(var6);
                     var8 = var6.HTTP;
                     var7 = var8.get;
                     var6 = {};
-                    var9 = _closure1_slot4;
+                    var9 = _closure1_slot5;
                     var9 = var9.VIRTUAL_CURRENCY_USER_BALANCE;
                     var6['url'] = var9;
                     var9 = false;
@@ -96,7 +96,7 @@ case 10: // catch_target0
                     var4 = var7;
                     var9 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var8 = 5;
+                    var8 = 6;
                     var6 = var6[var8];
                     var6 = var9.bind(var2)(var6);
                     var6 = var6.BillingError;
@@ -136,7 +136,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot7 = var4;
+        _closure1_slot8 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -144,7 +144,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot8 = var1;
     var1 = function _redeemVirtualCurrencyForSKU() {
         var5 = undefined;
         var1 = undefined;
@@ -161,8 +161,8 @@ case 15:
                     var3 = var2.skuId;
                     var13 = var3;
                     var _closure4_slot0 = var3;
-                    var18 = var2.loadId;
-                    var10 = var2.onRedeemStart;
+                    var16 = var2.loadId;
+                    var18 = var2.onRedeemStart;
                     var12 = var2.onRedeemSucceed;
                     var5 = var2.onRedeemFail;
                     var2 = var2.shouldRefetchBalance;
@@ -172,25 +172,28 @@ case 17:
                     var2 = true;
 case 16:
                     var8 = var2;
+                    var10 = undefined;
+                    var15 = undefined;
+                    var17 = undefined;
                     var14 = undefined;
                     var4 = undefined;
-                    SaveGenerator(address=78);
+                    SaveGenerator(address=84);
 case 18:
                     return var3;
 case 19:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
                     if(var6) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-                    var16 = _closure1_slot1;
-                    var15 = _closure1_slot2;
-                    var11 = 3;
-                    var15 = var15[var11];
-                    var16 = var16.bind(var3)(var15);
-                    var15 = var16.wait;
+                    var20 = _closure1_slot1;
+                    var19 = _closure1_slot2;
+                    var11 = 4;
+                    var19 = var19[var11];
+                    var20 = var20.bind(var3)(var19);
+                    var19 = var20.wait;
                     var7 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 3;
+                        var1 = 4;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -203,49 +206,80 @@ case 21:
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var7 = var15.bind(var16)(var7);
+                    var7 = var19.bind(var20)(var7);
                     var7 = null;
-                    if(!(var7 != var10)) { _fun0002_ip = 22; continue _fun0002 }
+                    if(!(var7 != var18)) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-                    var10 = var10.bind(var3)();
+                    var18 = var18.bind(var3)();
 case 22: // try_start_0
+                    var20 = _closure1_slot4;
+                    var19 = var20.get;
+                    var18 = var13;
+                    var18 = var19.bind(var20)(var18);
+                    var10 = var18;
+                    var19 = var7 == var18;
+                    var18 = undefined;
+                    if(var19) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+                    var18 = var10.applicationId;
+case 24:
+                    var15 = var18;
+                    var18 = var7 != var18;
+                    var10 = var18;
+                    if(!var18) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+                    var19 = _closure1_slot0;
+                    var20 = _closure1_slot2;
+                    var18 = 7;
+                    var18 = var20[var18];
+                    var19 = var19.bind(var3)(var18);
+                    var18 = var19.isTestModeForApplication;
+                    var10 = var18.bind(var19)(var15);
+case 26:
+                    var15 = {};
+                    var15['checkout_session_id'] = var16;
+                    var17 = var15;
+                    if(!var10) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
+                    var15 = var17;
+                    var10 = true;
+                    var15['test_mode'] = var10;
+case 28:
                     var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var10 = 4;
+                    var10 = 5;
                     var10 = var16[var10];
                     var10 = var15.bind(var3)(var10);
                     var16 = var10.HTTP;
                     var15 = var16.post;
                     var10 = {};
-                    var20 = _closure1_slot4;
+                    var20 = _closure1_slot5;
                     var19 = var20.VIRTUAL_CURRENCY_SKU_REDEEM;
-                    var17 = var13;
-                    var17 = var19.bind(var20)(var17);
-                    var10['url'] = var17;
-                    var17 = {};
-                    var17['checkout_session_id'] = var18;
+                    var18 = var13;
+                    var18 = var19.bind(var20)(var18);
+                    var10['url'] = var18;
                     var10['body'] = var17;
                     var17 = false;
                     var10['rejectWithError'] = var17;
                     var10 = var15.bind(var16)(var10);
-                    SaveGenerator(address=221);
-case 24:
+                    SaveGenerator(address=322);
+case 30:
                     return var10;
-case 25:
+case 31:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=14);
-                    if(var15) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+                    if(var15) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
                     var15 = var10.body;
                     var14 = var15;
-                    if(!(var7 != var15)) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+                    if(!(var7 != var15)) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
                     var15 = global;
                     var17 = var15.Array;
                     var16 = var17.isArray;
                     var15 = var14;
                     var15 = var16.bind(var17)(var15);
-                    if(!var15) { _fun0002_ip = 28; continue _fun0002 }
-case 30:
+                    if(!var15) { _fun0002_ip = 34; continue _fun0002 }
+case 36:
                     var16 = _closure1_slot1;
                     var15 = _closure1_slot2;
                     var15 = var15[var11];
@@ -260,22 +294,22 @@ case 30:
                     var15['entitlements'] = var18;
                     var15 = var16.bind(var17)(var15);
                     var15 = var8;
-                    if(!var15) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
-                    var15 = _closure1_slot6;
+                    if(!var15) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
+                    var15 = _closure1_slot7;
                     var15 = var15.bind(var3)();
-case 31:
+case 37:
                     var15 = var12;
-                    if(!(var7 != var15)) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+                    if(!(var7 != var15)) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
                     var15 = var12;
                     var12 = var14;
                     var12 = var15.bind(var3)(var12);
-case 33:
+case 39:
                     var12 = var14;
-case 35: // try_end0
+case 41: // try_end0
                     return var12;
-case 28: // try_start_1
+case 34: // try_start_1
                     var12 = global;
                     var12 = var12.Error;
                     var17 = var14;
@@ -287,12 +321,12 @@ case 28: // try_start_1
                     var21 = var17;
                     var12 = new var23[var12](var22, var21, var20);
                     var12 = var12 instanceof Object ? var12 : var14;
-                    var15 = _closure1_slot5;
+                    var15 = _closure1_slot6;
                     var14 = var15.error;
                     var14 = var14.bind(var15)(var16, var17);
                     var15 = _closure1_slot1;
                     var16 = _closure1_slot2;
-                    var14 = 6;
+                    var14 = 8;
                     var14 = var16[var14];
                     var16 = var15.bind(var3)(var14);
                     var15 = var16.captureException;
@@ -303,20 +337,20 @@ case 28: // try_start_1
                     var14['tags'] = var17;
                     var14 = var15.bind(var16)(var12, var14);
                     throw var12;
-case 26: // try_end1
+case 32: // try_end1
                     return var10;
-case 36: // catch_target0 // catch_target1
+case 42: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=11);
                     var9 = var12;
                     var15 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var14 = 5;
+                    var14 = 6;
                     var10 = var10[var14];
                     var10 = var15.bind(var3)(var10);
                     var10 = var10.BillingError;
                     var10 = var12 instanceof var10;
-                    if(var10) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+                    if(var10) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
                     var12 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var10 = var10[var14];
@@ -328,10 +362,10 @@ case 38:
                     var23 = var12;
                     var10 = new var23[var14](var22, var21);
                     var12 = var10 instanceof Object ? var10 : var12;
-                    _fun0002_ip = 39; continue _fun0002;
-case 37:
+                    _fun0002_ip = 45; continue _fun0002;
+case 43:
                     var12 = var9;
-case 39:
+case 45:
                     var4 = var12;
                     var10 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -344,16 +378,16 @@ case 39:
                     var9['skuId'] = var13;
                     var9['error'] = var12;
                     var9 = var10.bind(var11)(var9);
-                    if(!var8) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
-                    var6 = _closure1_slot6;
+                    if(!var8) { _fun0002_ip = 46; continue _fun0002 }
+case 47:
+                    var6 = _closure1_slot7;
                     var6 = var6.bind(var3)();
-case 40:
+case 46:
                     var6 = var5;
-                    if(!(var7 != var6)) { _fun0002_ip = 42; continue _fun0002 }
-case 43:
+                    if(!(var7 != var6)) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
                     var4 = var5.bind(var3)(var4);
-case 42:
+case 48:
                     return var3;
 case 20:
                     return var2;
@@ -366,7 +400,7 @@ case 14:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot8 = var4;
+        _closure1_slot9 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -374,7 +408,7 @@ case 14:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -390,10 +424,14 @@ case 14:
     var _closure1_slot3 = var5;
     var5 = 1;
     var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.Endpoints;
+    var5 = var8.bind(var1)(var5);
     var _closure1_slot4 = var5;
     var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Endpoints;
+    var _closure1_slot5 = var5;
+    var5 = 3;
     var5 = var7[var5];
     var9 = var8.bind(var1)(var5);
     var5 = var9.prototype;
@@ -402,8 +440,8 @@ case 14:
     var14 = var8;
     var5 = new var14[var9](var13, var12);
     var5 = var5 instanceof Object ? var5 : var8;
-    var _closure1_slot5 = var5;
-    var5 = 7;
+    var _closure1_slot6 = var5;
+    var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -412,7 +450,7 @@ case 14:
     var3['fetchVirtualCurrencyBalance'] = var4;
     var4 = function redeemVirtualCurrencyForSKU() {
         var1 = undefined;
-        var4 = _closure1_slot8;
+        var4 = _closure1_slot9;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -424,7 +462,7 @@ case 14:
     var2 = function setBalancePillOverlay(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);

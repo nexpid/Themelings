@@ -182,10 +182,8 @@ case 0:
             var _closure2_slot1 = var25;
             var2 = 12;
             var2 = var1[var2];
-            var3 = var8.bind(var4)(var2);
-            var2 = var3.getWishlistInDmLength;
-            var15 = false;
-            var14 = var2.bind(var3)(var15);
+            var2 = var8.bind(var4)(var2);
+            var14 = var2.WISHLIST_IN_DM_LENGTH_MOBILE;
             var _closure2_slot2 = var14;
             var2 = 13;
             var2 = var1[var2];
@@ -316,8 +314,9 @@ case 5:
             var5 = var13.bind(var4)(var5);
             var5 = var5.analyticsLocations;
             var _closure2_slot9 = var5;
-            var13 = var16.useRef;
-            var13 = var13.bind(var16)(var15);
+            var15 = var16.useRef;
+            var13 = false;
+            var13 = var15.bind(var16)(var13);
             var _closure2_slot10 = var13;
             var17 = var16.useEffect;
             var15 = new Array(4);

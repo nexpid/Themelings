@@ -7,8 +7,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Object;
     var7 = var8.defineProperty;
     var4 = {};
-    var1 = true;
-    var4['value'] = var1;
+    var12 = true;
+    var4['value'] = var12;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
@@ -17,14 +17,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
     var4 = {'name': '2026-01-wishlist-sku-preview', 'kind': 'user'};
-    var9 = {'isSkuPreviewEnabled': false, 'isShowPricesEnabled': false};
+    var9 = {};
+    var11 = false;
+    var9['isShowPricesEnabled'] = var11;
     var4['defaultConfig'] = var9;
     var9 = {};
-    var10 = {'isSkuPreviewEnabled': false, 'isShowPricesEnabled': false};
+    var10 = {};
+    var10['isShowPricesEnabled'] = var11;
     var9[0] = var10;
-    var10 = {'isSkuPreviewEnabled': true, 'isShowPricesEnabled': true};
+    var10 = {};
+    var10['isShowPricesEnabled'] = var12;
     var9[1] = var10;
-    var10 = {'isSkuPreviewEnabled': true, 'isShowPricesEnabled': false};
+    var10 = {};
+    var10['isShowPricesEnabled'] = var11;
     var9[2] = var10;
     var4['variations'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -35,28 +40,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/wishlists/experiments/WishlistSkuPreviewExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function useIsEligibleForWishlistSkuPreview(arg1) {
-        var3 = _closure1_slot0;
-        var2 = var3.useConfig;
-        var1 = {};
-        var4 = arg1;
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.isSkuPreviewEnabled;
-        return var1;
-    };
-    var3['useIsEligibleForWishlistSkuPreview'] = var4;
-    var4 = function getIsEligibleForWishlistSkuPreview(arg1) {
-        var3 = _closure1_slot0;
-        var2 = var3.getConfig;
-        var1 = {};
-        var4 = arg1;
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.isSkuPreviewEnabled;
-        return var1;
-    };
-    var3['getIsEligibleForWishlistSkuPreview'] = var4;
     var4 = function useIsEligibleForWishlistShowPrices(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.useConfig;

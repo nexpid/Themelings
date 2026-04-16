@@ -210,7 +210,7 @@ case 5:
             var1 = var5[var11];
             var12 = var15.bind(var4)(var1);
             var3 = var12.useAnimatedStyle;
-            var1 = function D() {
+            var1 = function k() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot1;
@@ -833,7 +833,7 @@ case 43:
             var16 = 'checkbox';
             var5['accessibilityRole'] = var16;
             var16 = {};
-            var16['selected'] = var9;
+            var16['checked'] = var9;
             var5['accessibilityState'] = var16;
             var16 = undefined;
             if(var17) { _fun0001_ip = 45; continue _fun0001 }

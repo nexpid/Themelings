@@ -189,21 +189,21 @@ case 21:
             var2 = var9.bind(var5)(var2);
             var2 = var2.t;
             var2 = var2.ECv270;
-            var10 = var3.bind(var4)(var2);
+            var9 = var3.bind(var4)(var2);
             _fun0001_ip = 22; continue _fun0001;
 case 20:
-            var10 = var17.name;
+            var9 = var17.name;
 case 22:
-            var18 = var10;
+            var10 = var9;
             if(!(var1 != var13)) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var9 = var13.tag;
+            var15 = var13.tag;
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var3 = '';
             var2 = ', ';
-            var18 = var4.bind(var3)(var10, var2, var9);
+            var10 = var4.bind(var3)(var9, var2, var15);
 case 23:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -217,46 +217,36 @@ case 23:
 case 26:
             var3 = 1;
 case 25:
-            var19 = _closure1_slot0;
-            var20 = _closure1_slot2;
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
             var2 = 12;
-            var2 = var20[var2];
-            var2 = var19.bind(var5)(var2);
+            var2 = var22[var2];
+            var2 = var21.bind(var5)(var2);
             var2 = var2.TextStyleSheet;
             var2 = var2.text-md/semibold;
             var2 = var2.fontSize;
             var15 = var2 + var3;
             var4 = _closure1_slot5;
             var2 = 13;
-            var2 = var20[var2];
-            var2 = var19.bind(var5)(var2);
+            var2 = var22[var2];
+            var2 = var21.bind(var5)(var2);
             var3 = var2.UserProfileEditFormButton;
             var2 = {};
-            var9 = 10;
-            var21 = var20[var9];
-            var21 = var19.bind(var5)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var20[var9];
-            var21 = var19.bind(var5)(var21);
-            var21 = var21.t;
-            var21 = var21.DUD+5n;
-            var21 = var22.bind(var23)(var21);
-            var2['label'] = var21;
-            var2['buttonText'] = var10;
-            var10 = {};
-            var10['text'] = var18;
-            var2['accessibilityValue'] = var10;
-            var10 = var20[var9];
-            var10 = var19.bind(var5)(var10);
-            var18 = var10.intl;
-            var10 = var18.string;
-            var9 = var20[var9];
-            var9 = var19.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.Xz9c91;
-            var9 = var10.bind(var18)(var9);
-            var2['accessibilityHint'] = var9;
+            var18 = 10;
+            var19 = var22[var18];
+            var19 = var21.bind(var5)(var19);
+            var20 = var19.intl;
+            var19 = var20.string;
+            var18 = var22[var18];
+            var18 = var21.bind(var5)(var18);
+            var18 = var18.t;
+            var18 = var18.DUD+5n;
+            var18 = var19.bind(var20)(var18);
+            var2['label'] = var18;
+            var2['buttonText'] = var9;
+            var9 = {};
+            var9['text'] = var10;
+            var2['accessibilityValue'] = var9;
             var7 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:

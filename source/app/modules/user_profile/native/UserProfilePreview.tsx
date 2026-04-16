@@ -141,7 +141,8 @@ case 0:
             var41 = var2.displayName;
             var36 = var2.guildId;
             var _closure2_slot0 = var36;
-            var16 = var2.pendingProfileEffectRecord;
+            var17 = var2.pendingProfileEffectRecord;
+            var12 = var2.pendingProfileFrameRecord;
             var37 = var2.pendingDisplayNameStyles;
             var9 = var2.style;
             var27 = var2.compact;
@@ -155,7 +156,7 @@ case 11:
 case 14:
             var3 = false;
 case 13:
-            var17 = var2.maxWidth;
+            var18 = var2.maxWidth;
             var13 = var2.additionalBadges;
             if(!(var13 === var4)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
@@ -190,15 +191,15 @@ case 15:
             var40 = var2.pendingGlobalName;
             var39 = var2.pendingPronouns;
             var8 = var2.pendingLegacyUsernameDisabled;
-            var12 = _closure1_slot1;
+            var16 = _closure1_slot1;
             var2 = 9;
             var2 = var11[var2];
-            var5 = var12.bind(var4)(var2);
+            var5 = var16.bind(var4)(var2);
             var2 = var35.id;
             var33 = var5.bind(var4)(var2, var36);
             var2 = 10;
             var2 = var11[var2];
-            var5 = var12.bind(var4)(var2);
+            var5 = var16.bind(var4)(var2);
             var2 = {};
             var2['user'] = var35;
             var2['displayProfile'] = var33;
@@ -210,10 +211,10 @@ case 15:
             var10 = null;
             var42 = var10 != var29;
             var2 = _closure1_slot11;
-            var23 = var2.bind(var4)(var27, var42, var17);
+            var23 = var2.bind(var4)(var27, var42, var18);
             var2 = 11;
             var2 = var11[var2];
-            var2 = var12.bind(var4)(var2);
+            var2 = var16.bind(var4)(var2);
             var32 = var2.bind(var4)();
             var2 = 12;
             var2 = var11[var2];
@@ -229,43 +230,43 @@ case 17:
             var2 = _closure1_slot2;
             var11 = 13;
             var11 = var2[var11];
-            var17 = var6.bind(var4)(var11);
-            var12 = var17.useUserProfileColors;
+            var18 = var6.bind(var4)(var11);
+            var16 = var18.useUserProfileColors;
             var11 = {};
             var11['theme'] = var5;
             var11['primaryColor'] = var29;
             var11['secondaryColor'] = var26;
-            var11 = var12.bind(var17)(var11);
+            var11 = var16.bind(var18)(var11);
             var30 = var11.gradientFallbackBackground;
             var47 = var11.avatarBackground;
             var34 = var11.containerBackground;
             var11 = 14;
             var2 = var2[var11];
-            var12 = var6.bind(var4)(var2);
-            var6 = var12.getProfilePreviewValue;
+            var16 = var6.bind(var4)(var2);
+            var6 = var16.getProfilePreviewValue;
             var2 = {};
-            var2['pendingValue'] = var16;
-            var17 = var10 == var33;
-            var16 = undefined;
-            if(var17) { _fun0002_ip = 19; continue _fun0002 }
+            var2['pendingValue'] = var17;
+            var18 = var10 == var33;
+            var17 = undefined;
+            if(var18) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
-            var16 = var33.profileEffect;
+            var17 = var33.profileEffect;
 case 19:
-            var2['userValue'] = var16;
-            var17 = var10 == var33;
-            var16 = undefined;
-            if(var17) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
-            var17 = var33._guildMemberProfile;
-            var18 = var10 == var17;
-            var16 = undefined;
+            var2['userValue'] = var17;
+            var18 = var10 == var33;
+            var17 = undefined;
             if(var18) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+            var18 = var33._guildMemberProfile;
+            var19 = var10 == var18;
+            var17 = undefined;
+            if(var19) { _fun0002_ip = 21; continue _fun0002 }
 case 23:
-            var16 = var17.profileEffect;
+            var17 = var18.profileEffect;
 case 21:
-            var2['guildValue'] = var16;
+            var2['guildValue'] = var17;
             var2['guildId'] = var36;
-            var19 = var6.bind(var12)(var2);
+            var19 = var6.bind(var16)(var2);
             var2 = undefined;
             if(var3) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
@@ -275,6 +276,7 @@ case 25:
             var11 = var6.bind(var4)(var3);
             var6 = var11.getProfilePreviewValue;
             var3 = {};
+            var3['pendingValue'] = var12;
             var16 = var10 == var33;
             var12 = undefined;
             if(var16) { _fun0002_ip = 26; continue _fun0002 }

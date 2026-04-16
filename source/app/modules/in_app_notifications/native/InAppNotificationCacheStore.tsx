@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = {'key': null, 'expanded': false, 'percentRemainingDuration': 100, 'forceRenderInMainNavigator': false};
+    var1 = {'key': null, 'expanded': false, 'percentRemainingDuration': 100};
     var _closure1_slot0 = var1;
     var1 = 0;
     var4 = var6[var1];

@@ -84,13 +84,13 @@ case 0:
             var1 = _closure1_slot9;
             var10 = var1.bind(var4)();
             var7 = null;
-            var3 = var7 != var15;
-            var _closure2_slot2 = var3;
-            var2 = _closure1_slot0;
+            var2 = var7 != var15;
+            var _closure2_slot2 = var2;
+            var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 7;
             var1 = var6[var1];
-            var13 = var2.bind(var4)(var1);
+            var13 = var3.bind(var4)(var1);
             var12 = var13.useStateFromStores;
             var1 = _closure1_slot6;
             var8 = new Array(1);
@@ -115,8 +115,8 @@ case 2:
             var14 = var12.bind(var13)(var8, var1);
             var1 = 8;
             var1 = var6[var1];
-            var6 = var2.bind(var4)(var1);
-            var2 = var6.getProfilePreviewValue;
+            var6 = var3.bind(var4)(var1);
+            var3 = var6.getProfilePreviewValue;
             var1 = {};
             var1['pendingValue'] = var11;
             var12 = var16.collectibles;
@@ -140,25 +140,25 @@ case 8:
 case 6:
             var1['guildValue'] = var8;
             var1['guildId'] = var15;
-            var8 = var2.bind(var6)(var1);
-            var2 = _closure1_slot0;
+            var8 = var3.bind(var6)(var1);
+            var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 9;
             var1 = var6[var1];
-            var6 = var2.bind(var4)(var1);
-            var2 = var6.useFetchNameplate;
+            var6 = var3.bind(var4)(var1);
+            var3 = var6.useFetchNameplate;
             var12 = var7 == var8;
             var1 = undefined;
             if(var12) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
             var1 = var8.skuId;
 case 9:
-            var1 = var2.bind(var6)(var1);
+            var1 = var3.bind(var6)(var1);
             var6 = var1.nameplateProduct;
             var8 = var1.nameplateRecord;
             var12 = var1.nameplateData;
-            var2 = var1.isFetching;
-            if(var3) { _fun0001_ip = 11; continue _fun0001 }
+            var3 = var1.isFetching;
+            if(var2) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var13 = var16.collectibles;
             var17 = var7 == var13;
@@ -221,81 +221,73 @@ case 19:
                 return var1;
             };
             var9 = var13.bind(var14)(var9, var11);
-            if(var2) { _fun0001_ip = 21; continue _fun0001 }
+            if(var3) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-            var11 = var7 == var6;
-            var2 = undefined;
-            if(var11) { _fun0001_ip = 23; continue _fun0001 }
+            var3 = var7 == var6;
+            var14 = undefined;
+            if(var3) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var2 = var6.name;
+            var14 = var6.name;
 case 23:
-            if(!(var7 == var2)) { _fun0001_ip = 25; continue _fun0001 }
+            if(!(var7 == var14)) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 14;
-            var13 = var16[var11];
-            var13 = var15.bind(var4)(var13);
-            var14 = var13.intl;
-            var13 = var14.string;
-            var11 = var16[var11];
+            var3 = 14;
+            var11 = var16[var3];
             var11 = var15.bind(var4)(var11);
-            var11 = var11.t;
-            var11 = var11.PoWNfe;
-            var2 = var13.bind(var14)(var11);
+            var13 = var11.intl;
+            var11 = var13.string;
+            var3 = var16[var3];
+            var3 = var15.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.PoWNfe;
+            var14 = var11.bind(var13)(var3);
 case 25:
-            var14 = var2;
-            if(!var3) { _fun0001_ip = 27; continue _fun0001 }
+            var13 = var14;
+            if(!var2) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
-            var14 = var2;
+            var13 = var14;
             if(!(var7 == var1)) { _fun0001_ip = 27; continue _fun0001 }
 case 29:
-            var11 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var15 = _closure1_slot2;
             var1 = 14;
-            var2 = var13[var1];
-            var2 = var11.bind(var4)(var2);
-            var3 = var2.intl;
-            var2 = var3.string;
-            var1 = var13[var1];
-            var1 = var11.bind(var4)(var1);
+            var3 = var15[var1];
+            var3 = var2.bind(var4)(var3);
+            var11 = var3.intl;
+            var3 = var11.formatToPlainString;
+            var1 = var15[var1];
+            var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.CHf9iJ;
-            var14 = var2.bind(var3)(var1);
+            var2 = var1.ep5D4i;
+            var1 = {};
+            var1['label'] = var14;
+            var13 = var3.bind(var11)(var2, var1);
 case 27:
             var3 = _closure1_slot8;
-            var15 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
             var1 = 13;
-            var1 = var16[var1];
-            var1 = var15.bind(var4)(var1);
+            var1 = var17[var1];
+            var1 = var16.bind(var4)(var1);
             var2 = var1.UserProfileEditFormButton;
             var1 = {};
             var11 = 14;
-            var13 = var16[var11];
-            var13 = var15.bind(var4)(var13);
-            var18 = var13.intl;
-            var17 = var18.string;
-            var13 = var16[var11];
-            var13 = var15.bind(var4)(var13);
-            var13 = var13.t;
-            var13 = var13.x5CoXR;
-            var13 = var17.bind(var18)(var13);
-            var1['label'] = var13;
-            var1['buttonText'] = var14;
-            var13 = {};
-            var13['text'] = var14;
-            var1['accessibilityValue'] = var13;
-            var13 = var16[var11];
-            var13 = var15.bind(var4)(var13);
-            var14 = var13.intl;
-            var13 = var14.string;
-            var11 = var16[var11];
-            var11 = var15.bind(var4)(var11);
+            var14 = var17[var11];
+            var14 = var16.bind(var4)(var14);
+            var15 = var14.intl;
+            var14 = var15.string;
+            var11 = var17[var11];
+            var11 = var16.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.RJxLnS;
-            var11 = var13.bind(var14)(var11);
-            var1['accessibilityHint'] = var11;
+            var11 = var11.x5CoXR;
+            var11 = var14.bind(var15)(var11);
+            var1['label'] = var11;
+            var1['buttonText'] = var13;
+            var11 = {};
+            var11['text'] = var13;
+            var1['accessibilityValue'] = var11;
             var1['onPress'] = var9;
             if(!(var7 != var12)) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
@@ -362,24 +354,14 @@ case 21:
             var1['label'] = var7;
             var7 = var10[var6];
             var7 = var9.bind(var4)(var7);
-            var11 = var7.intl;
-            var8 = var11.string;
-            var7 = var10[var6];
-            var7 = var9.bind(var4)(var7);
-            var7 = var7.t;
-            var7 = var7.MKDeyL;
-            var7 = var8.bind(var11)(var7);
-            var1['buttonText'] = var7;
-            var7 = var10[var6];
-            var7 = var9.bind(var4)(var7);
             var8 = var7.intl;
             var7 = var8.string;
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.RJxLnS;
+            var6 = var6.MKDeyL;
             var6 = var7.bind(var8)(var6);
-            var1['accessibilityHint'] = var6;
+            var1['buttonText'] = var6;
             var6 = _closure1_slot7;
             var1['onPress'] = var6;
             var7 = _closure1_slot4;

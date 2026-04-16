@@ -41,13 +41,14 @@ case 0:
                 var12 = var1.label;
                 var2 = var1.action;
                 var _closure3_slot0 = var2;
-                var13 = var1.iconSource;
-                var10 = var1.IconComponent;
-                var1 = var1.variant;
+                var14 = var1.iconSource;
+                var13 = var1.IconComponent;
+                var6 = var1.variant;
+                var1 = var1.accessibilityRole;
                 var2 = _closure2_slot0;
                 var2 = var2.length;
-                var14 = 1;
-                var2 = var2 - var14;
+                var15 = 1;
+                var2 = var2 - var15;
                 var7 = _closure1_slot5;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -59,27 +60,27 @@ case 0:
                 var3 = {};
                 var3['index'] = var11;
                 var3['label'] = var12;
-                var15 = 0;
-                var15 = var15 === var11;
-                if(!var15) { _fun0001_ip = 2; continue _fun0001 }
+                var16 = 0;
+                var16 = var16 === var11;
+                if(!var16) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var17 = _closure2_slot1;
-                var16 = null;
-                var15 = var16 == var17;
+                var18 = _closure2_slot1;
+                var17 = null;
+                var16 = var17 == var18;
 case 2:
-                var3['start'] = var15;
+                var3['start'] = var16;
                 var2 = var11 === var2;
                 var3['end'] = var2;
                 var2 = _closure2_slot4;
-                var15 = var2.includes;
-                var14 = var11 + var14;
-                var14 = var15.bind(var2)(var14);
-                var3['lastInSection'] = var14;
-                var3['iconSource'] = var13;
-                var3['IconComponent'] = var10;
-                var9 = _closure2_slot2;
-                var3['state'] = var9;
-                var6 = function onPress(arg1) {
+                var16 = var2.includes;
+                var15 = var11 + var15;
+                var15 = var16.bind(var2)(var15);
+                var3['lastInSection'] = var15;
+                var3['iconSource'] = var14;
+                var3['IconComponent'] = var13;
+                var10 = _closure2_slot2;
+                var3['state'] = var10;
+                var9 = function onPress(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var4 = _closure1_slot0;
@@ -116,8 +117,9 @@ case 8:
                         return var1;
                     }
                 };
-                var3['onPress'] = var6;
-                var3['variant'] = var1;
+                var3['onPress'] = var9;
+                var3['variant'] = var6;
+                var3['accessibilityRole'] = var1;
                 var6 = global;
                 var1 = var6.HermesInternal;
                 var10 = var1.concat;
@@ -559,7 +561,7 @@ case 25:
             var3 = var9[var22];
             var8 = var7.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
-            var3 = function H() {
+            var3 = function R() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = global;
