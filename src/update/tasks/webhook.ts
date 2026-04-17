@@ -4,8 +4,8 @@ import { RouteBases, Routes } from "discord-api-types/v10";
 import { drawSections } from "../../canvas";
 import { makeSections } from "../../canvas/factory";
 import { type CodeDiff, type Diff, type Differs, DiffType } from "../../types";
-import { cuteVersion, maxChangesThreshold, maxCodeChangesThreshold, version } from "../shared";
-import { assert } from "../utils";
+import { cuteVersion, maxCodeChanges, maxGeneralChanges, version } from "../shared";
+import { assert, formatBytes } from "../utils";
 
 function fileBase(path: string, other?: string) {
 	if (!other) return `... ${basename(path)}`;
@@ -30,7 +30,7 @@ function cap(lines: string[], item: string, threshold: number) {
 	return lines;
 }
 
-function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxChangesThreshold) {
+function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxGeneralChanges) {
 	const entries = [...diffs.entries()];
 
 	const sections = {
@@ -40,8 +40,8 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxChangesT
 				.map(
 					([name, diff]) =>
 						diff.type === DiffType.Added &&
-						("lines" in diff
-							? `+ ${fileBase(name)} (${diff.lines.toLocaleString("en-US")} lines)`
+						("size" in diff
+							? `+ ${fileBase(name)} (${formatBytes(diff.size)})`
 							: `+ ${name}: ${diff.label || diff.source}`),
 				)
 				.filter((x) => typeof x === "string"),
@@ -54,8 +54,8 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxChangesT
 				.map(
 					([name, diff]) =>
 						diff.type === DiffType.Changed &&
-						("diff" in diff
-							? `${diff.diff > 0 ? "+" : "-"} ${fileBase(name)} (${diff.diff >= 0 ? "+" : ""}${diff.diff.toLocaleString("en-US")} lines)`
+						("sizeDiff" in diff
+							? `${diff.sizeDiff > 0 ? "+" : "-"} ${fileBase(name)} (${diff.sizeDiff >= 0 ? "+" : "-"}${formatBytes(Math.abs(diff.sizeDiff))})`
 							: `- ${name}: ${diff.oldLabel || diff.oldSource}\n+ ${name}: ${diff.label || diff.source}`),
 				)
 				.filter((x) => typeof x === "string"),
@@ -68,7 +68,7 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxChangesT
 				.map(
 					([name, diff]) =>
 						diff.type === DiffType.Renamed &&
-						("lines" in diff
+						("size" in diff
 							? `- ${fileBase(diff.oldName, name)}\n+ ${fileBase(name, diff.oldName)}`
 							: `- ${diff.oldName}\n+ ${name}`),
 				)
@@ -82,8 +82,8 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxChangesT
 				.map(
 					([name, diff]) =>
 						diff.type === DiffType.Removed &&
-						("lines" in diff
-							? `- ${fileBase(name)} (${diff.lines.toLocaleString("en-US")} lines)`
+						("size" in diff
+							? `- ${fileBase(name)} (${formatBytes(diff.size)})`
 							: `- ${name}: ${diff.label || diff.source}`),
 				)
 				.filter((x) => typeof x === "string"),
@@ -196,7 +196,7 @@ export async function webhook(diffs: Differs) {
 		await sendWebhook(assert(process.env.code_webhook, "Missing code webhook env"), "1233861867059941387", [
 			{
 				title: "Code",
-				body: formatDiff(diffs.code, maxCodeChangesThreshold),
+				body: formatDiff(diffs.code, maxCodeChanges),
 				footer: makeFooter(diffs.code.size, "code"),
 			},
 		]);

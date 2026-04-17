@@ -7,6 +7,9 @@ import type { Progress } from "../progress";
 import { apksFolder, cuteVersion } from "../shared";
 import { discordPath, join, listRequiredDirs, sortObj } from "../utils";
 
+const infoObjRegex = /({.+?})/;
+const scalesArrayRegex = /(\[.+?\])/;
+
 // a bit less scary code matching below, be warned
 export async function parseAssets(code: string[]) {
 	const retrievedAssets: {
@@ -26,10 +29,10 @@ export async function parseAssets(code: string[]) {
 			scalesLine = code[i + 2];
 
 		if (line.includes(".registerAsset") && infoLine?.includes("'httpServerLocation'") && scalesLine?.includes("[")) {
-			const infoText = infoLine.match(/({.+?})/)?.[1];
+			const infoText = infoLine.match(infoObjRegex)?.[1];
 			if (!infoText) throw new Error(`Failed to find infoText for ${infoLine} (line ${i + 1})`);
 
-			const scalesText = scalesLine.match(/(\[.+?\])/)?.[1];
+			const scalesText = scalesLine.match(scalesArrayRegex)?.[1];
 			if (!scalesText) throw new Error(`Failed to find scalesText for ${scalesLine} (line ${i + 2})`);
 
 			const info = runInNewContext(`(${infoText})`);

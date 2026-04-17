@@ -8,6 +8,8 @@ import { discordPath, join, listRequiredDirs } from "../utils";
 // scary code matching below, be warned
 
 const moduleStartIndentation = " ".repeat(4);
+const pathCheckRegex = / = '(.*?)';$/;
+const lineImportRegex = / = r\d{1,2}\.fileFinishedImporting;$/;
 
 export default async function code(progress: Progress, code: string[]) {
 	progress.start("code_getting");
@@ -27,8 +29,8 @@ export default async function code(progress: Progress, code: string[]) {
 		}
 
 		// easiest way to check
-		const path = code[i + 1]?.match(/ = '(.*?)';$/)?.[1];
-		if (line.match(/ = r\d{1,2}\.fileFinishedImporting;$/) && path) {
+		const path = code[i + 1]?.match(pathCheckRegex)?.[1];
+		if (line.match(lineImportRegex) && path) {
 			const start = moduleStart;
 			if (!start) throw `moduleStart was null for ${start}~${i}; null ~ ${code[i]}`;
 			moduleStart = null;
@@ -63,7 +65,7 @@ export default async function code(progress: Progress, code: string[]) {
 		"../data/source.jsonl",
 		[...files.entries()]
 			.sort(([a], [b]) => a.localeCompare(b))
-			.map(([file, text]) => `{ "file": ${JSON.stringify(file)}, "lines": ${text.final.split("\n").length} }`)
+			.map(([file, text]) => `{ "file": ${JSON.stringify(file)}, "size": ${text.final.length} }`)
 			.join("\n"),
 	);
 

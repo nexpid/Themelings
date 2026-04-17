@@ -1,8 +1,8 @@
 import { join } from "node:path";
 
 export const trackerUserAgent = "Themelings <https://github.com/nexpid/Themelings/>";
-export const maxChangesThreshold = 10; // thank you Discord for making 700 icon changes in one version
-export const maxCodeChangesThreshold = 25;
+export const maxGeneralChanges = 15; // thank you Discord for making 700 icon changes in one version
+export const maxCodeChanges = 25;
 
 export const workFolder = "tmp";
 export const apksFolder = join(workFolder, "apks");

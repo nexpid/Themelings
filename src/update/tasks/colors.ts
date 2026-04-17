@@ -31,7 +31,7 @@ export function evalMetroModule<T>(code: string[], importName: string, imports: 
 			break;
 		}
 
-	if (!startLine) throw new Error(`Failed to find startLine for ${importName}!`);
+	if (startLine === null) throw new Error(`Failed to find startLine for ${importName}!`);
 
 	const snippet = fixHermesDecIndex(code.slice(startLine, endLine).join("\n"));
 	const fn = runInNewContext(snippet, {

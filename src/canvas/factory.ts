@@ -1,7 +1,6 @@
 import { join } from "node:path";
 import { type Image, loadImage } from "@napi-rs/canvas";
 import { type Diff, DiffType } from "../types";
-import { maxChangesThreshold } from "../update/shared";
 
 export type Item =
 	| {
@@ -25,30 +24,38 @@ export interface Row {
 
 export interface Section {
 	header: string;
-	entries: Row[][];
+	columns: Row[][];
 }
 
 function placeholderFile(file: string) {
 	return file.endsWith(".lottie") ? join(import.meta.dir, "placeholders/lottie.png") : file;
 }
 
+const numColumns = 5;
+const maxRows = 3;
+
 async function makeSection(diffs: Map<string, Diff>, isFile: boolean, type: DiffType, header: string) {
+	const filtered = [...diffs.entries()].filter(([, diff]) => diff.type === type);
 	const section: Section = {
 		header,
-		entries: [],
+		columns: Array.from({ length: numColumns }, () => []),
 	};
 
-	const filtered = [...diffs.entries()].filter(([, diff]) => diff.type === type);
+	let i = 0;
 	for (const [name, diff] of filtered) {
-		if (section.entries.length >= maxChangesThreshold) {
-			section.entries.push([
-				{
-					item: {
-						type: "blob",
-						blob: `+${(filtered.length - section.entries.length).toLocaleString("en-US")} ${header.toLowerCase()}`,
-					},
+		const columnInd = i++ % numColumns;
+
+		const column = section.columns[columnInd],
+			nextColumn = section.columns[i % numColumns];
+		if (!column) throw new Error(`Couldn't find column of index ${columnInd}`);
+
+		if (!nextColumn || nextColumn.length >= maxRows) {
+			column.push({
+				item: {
+					type: "blob",
+					blob: `+${(filtered.length - i).toLocaleString("en-US")} ${header.toLowerCase()}`,
 				},
-			]);
+			});
 			break;
 		}
 
@@ -57,14 +64,14 @@ async function makeSection(diffs: Map<string, Diff>, isFile: boolean, type: Diff
 			? { type: "image", image: await loadImage(placeholderFile(diff.source)) }
 			: { type: "color", colors: [changed && diff.oldSource.split(","), diff.source.split(",")].filter((x) => !!x) };
 
-		section.entries.push(
-			[
+		column.push(
+			...[
 				changed &&
 					isFile && {
 						subtitle: name,
 						item: {
 							type: "image",
-							image: await loadImage(diff.oldSource),
+							image: await loadImage(placeholderFile(diff.oldSource)),
 						} as Item,
 					},
 				{
@@ -76,6 +83,7 @@ async function makeSection(diffs: Map<string, Diff>, isFile: boolean, type: Diff
 		);
 	}
 
+	section.columns = section.columns.filter((x) => x.length);
 	return section;
 }
 
@@ -85,5 +93,5 @@ export async function makeSections(diffs: Map<string, Diff>, isFile = false) {
 		await makeSection(diffs, isFile, DiffType.Changed, "Changed"),
 		await makeSection(diffs, isFile, DiffType.Renamed, "Renamed"),
 		await makeSection(diffs, isFile, DiffType.Removed, "Removed"),
-	].filter((x) => x.entries[0]);
+	].filter((x) => x.columns[0]);
 }

@@ -1,5 +1,5 @@
 import Color from "color";
-import { type CodeDiff, type Diff, type Differs, DiffType } from "./types";
+import { type CodeDiff, type Diff, DiffType } from "./types";
 
 const randomColor = () =>
 	`#${Math.floor(Math.random() * 0xffffff)
@@ -15,10 +15,12 @@ const randomColors = () => {
 	].join(",");
 };
 
+const semNum = 20;
+
 // mock data for "bun run update:mock" and "bun run canvas:test"
 export default {
 	semantic: new Map<string, Diff>([
-		...Array.from({ length: 5 }).map((_, i) => [
+		...Array.from({ length: semNum }, (_, i) => [
 			`MOCK_SEMANTIC_SAMPLE_${i + 1}`,
 			{
 				type: DiffType.Added,
@@ -26,8 +28,8 @@ export default {
 				label: "☀️ #aaaaaa, 🌙 #bbbbbb",
 			} as Diff,
 		]),
-		...Array.from({ length: 5 }).map((_, i) => [
-			`MOCK_SEMANTIC_SAMPLE_${i + 6}`,
+		...Array.from({ length: semNum }, (_, i) => [
+			`MOCK_SEMANTIC_SAMPLE_${i + 1 + semNum}`,
 			{
 				type: DiffType.Changed,
 				source: randomColors(),
@@ -36,16 +38,16 @@ export default {
 				oldLabel: "☀️ #888888, 🌙 #999999",
 			} as Diff,
 		]),
-		...Array.from({ length: 5 }).map((_, i) => [
-			`MOCK_SEMANTIC_SAMPLE_${i + 11}`,
+		...Array.from({ length: semNum }, (_, i) => [
+			`MOCK_SEMANTIC_SAMPLE_${i + 1 + semNum * 2}`,
 			{
 				type: DiffType.Renamed,
-				oldName: `mock_samentic_sample_${i + 11}`,
+				oldName: `mock_samentic_sample_${i + 1 + semNum * 2}`,
 				source: randomColors(),
 			} as Diff,
 		]),
-		...Array.from({ length: 5 }).map((_, i) => [
-			`MOCK_SEMANTIC_SAMPLE_${i + 16}`,
+		...Array.from({ length: semNum }, (_, i) => [
+			`MOCK_SEMANTIC_SAMPLE_${i + 1 + semNum * 3}`,
 			{
 				type: DiffType.Removed,
 				source: randomColors(),
@@ -53,6 +55,18 @@ export default {
 			} as Diff,
 		]),
 	] as [string, Diff][]),
+	semanticBig: new Map<string, Diff>(
+		Array.from({ length: 35 }, (_, i) => [
+			`SOME_EXAMPLE_SEMANTIC_${i}`,
+			{
+				type: DiffType.Changed,
+				source: randomColors(),
+				label: "☀️ #aaaaaa, 🌙 #bbbbbb",
+				oldSource: randomColors(),
+				oldLabel: "☀️ #888888, 🌙 #999999",
+			} as Diff,
+		]),
+	),
 	raw: new Map(),
 	icons: new Map([
 		[
@@ -111,21 +125,21 @@ export default {
 			"app/foomodule.tsx",
 			{
 				type: DiffType.Added,
-				lines: 5123,
+				size: 24782,
 			} as CodeDiff,
 		],
 		[
 			"app/common/CardComponent.tsx",
 			{
 				type: DiffType.Changed,
-				diff: -82,
+				sizeDiff: -687,
 			} as CodeDiff,
 		],
 		[
 			"app/common/SectionComponent.tsx",
 			{
 				type: DiffType.Changed,
-				diff: 83,
+				sizeDiff: 6612,
 			} as CodeDiff,
 		],
 		[
@@ -133,15 +147,15 @@ export default {
 			{
 				type: DiffType.Renamed,
 				oldName: "app/legacy/ui/bar_module.ts",
-				lines: 8012,
+				size: 5212,
 			} as CodeDiff,
 		],
 		[
 			"app/intl/ReallyBigCoolComponent.tsx",
 			{
 				type: DiffType.Removed,
-				lines: 456,
+				size: 46532,
 			} as CodeDiff,
 		],
 	]),
-} satisfies Differs;
+};

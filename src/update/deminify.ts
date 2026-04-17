@@ -50,7 +50,7 @@ export function deminify(code: string, path: string) {
 		if (!depth) log(`WARNING! arg${n} does not have any depth (${path})`);
 
 		if (depth === 1) return nativeModuleNames[n] ?? `native${n + 1}`;
-		else return `arg${n + 1}`;
+		return `arg${n + 1}`;
 	};
 	const funReplacer = (_: string, prefix: string, id: string, suffix: string, caseId?: string) => {
 		const num = funMap.get(id) ?? String(funMap.size + 1).padStart(4, "0");
@@ -114,10 +114,8 @@ export function deminify(code: string, path: string) {
 			.replace(nullstringMatch, (_, __, id: string) => {
 				const nullString = nullStrings.get(id);
 				if (nullString) return nullString;
-				else {
-					writeFileSync("temp/nullcrashed.js", cleaned.join("\n"));
-					throw new Error(`parsing failed, nullstring ${id} doesn't exist (LINE: ${y}, FILE: ${path})`);
-				}
+				writeFileSync("temp/nullcrashed.js", cleaned.join("\n"));
+				throw new Error(`parsing failed, nullstring ${id} doesn't exist (LINE: ${y}, FILE: ${path})`);
 			});
 		lines.push(parsed);
 	}

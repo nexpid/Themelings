@@ -13,7 +13,18 @@
 				"noExplicitAny": "off"
 			},
 			"complexity": {
-				"noUselessStringConcat": "warn"
+				"noUselessStringConcat": "error",
+				"noForEach": "error",
+				"noUselessUndefined": "error",
+				"useSimplifiedLogicExpression": "error"
+			},
+			"performance": {
+				"noDelete": "error",
+				"noNamespaceImport": "error",
+				"useTopLevelRegex": "warn"
+			},
+			"style": {
+				"noUselessElse": "error"
 			}
 		}
 	},

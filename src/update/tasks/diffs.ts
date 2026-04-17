@@ -47,7 +47,7 @@ async function diffRaw() {
 				oldSource: oldRaw[name],
 			});
 	for (const [name, source] of Object.entries(oldRaw))
-		if (!newRaw[name] && !renamed.has(name))
+		if (!(newRaw[name] || renamed.has(name)))
 			changes.set(name, {
 				type: DiffType.Removed,
 				source,
@@ -60,10 +60,9 @@ function getSemanticLabel(semantic: Semantic) {
 	const light = semantic.light,
 		dark = semantic.darker ?? semantic.dark;
 	if (dark && light) return `☀️ ${light[0]}, 🌙 ${dark[0]}`;
-	else
-		return Object.entries(semantic)
-			.map(([name, [color]]) => `${name} ${color}`)
-			.join(", ");
+	return Object.entries(semantic)
+		.map(([name, [color]]) => `${name} ${color}`)
+		.join(", ");
 }
 
 async function diffSemantic() {
@@ -185,7 +184,7 @@ async function diffIcons() {
 			});
 	}
 	for (const [name, icon] of Object.entries(oldIcons))
-		if (!newIcons[name] && !renamed.has(name))
+		if (!(newIcons[name] || renamed.has(name)))
 			changes.set(name, {
 				type: DiffType.Removed,
 				source: join(iconDir.old, icon.file),
@@ -196,8 +195,8 @@ async function diffIcons() {
 }
 
 function parseSource(text: string) {
-	const source = parseJsonl(text) as { file: string; lines: number }[];
-	return Object.fromEntries(source.map((x) => [x.file, { lines: x.lines }])) as Record<string, { lines: number }>;
+	const source = parseJsonl(text) as { file: string; size: number }[];
+	return Object.fromEntries(source.map(({ file, size }) => [file, { size }])) as Record<string, { size: number }>;
 }
 
 async function diffCode() {
@@ -208,38 +207,36 @@ async function diffCode() {
 	const oldCode = parseSource(new TextDecoder().decode(prevFiles.get("source.jsonl")));
 	const newCode = parseSource(await Bun.file(join("../data", "source.jsonl")).text());
 
-	if (!Object.values(oldCode).every((x) => typeof x.lines === "number")) return new Map();
-
 	const renamed = new Set<string>();
 	const changes = new Map<string, CodeDiff>();
-	for (const [name, { lines }] of Object.entries(newCode)) {
+	for (const [name, { size }] of Object.entries(newCode)) {
 		if (!oldCode[name]) {
-			const oldName = Object.entries(oldCode).find(([key, val]) => !newCode[key] && val.lines === lines)?.[0];
+			const oldName = Object.entries(oldCode).find(([key, val]) => !newCode[key] && val.size === size)?.[0];
 
 			if (!oldName)
 				changes.set(name, {
 					type: DiffType.Added,
-					lines,
+					size,
 				});
 			else {
 				renamed.add(oldName);
 				changes.set(name, {
 					type: DiffType.Renamed,
 					oldName,
-					lines,
+					size,
 				});
 			}
-		} else if (oldCode[name].lines !== lines)
+		} else if (oldCode[name].size !== size)
 			changes.set(name, {
 				type: DiffType.Changed,
-				diff: lines - oldCode[name].lines,
+				sizeDiff: size - oldCode[name].size,
 			});
 	}
-	for (const [name, { lines }] of Object.entries(oldCode))
-		if (!newCode[name] && !renamed.has(name))
+	for (const [name, { size }] of Object.entries(oldCode))
+		if (!(newCode[name] || renamed.has(name)))
 			changes.set(name, {
 				type: DiffType.Removed,
-				lines,
+				size,
 			});
 
 	return changes;
@@ -249,7 +246,7 @@ export default async function diffs(progress: Progress) {
 	await getGitChanged();
 	log("hello i am changed", gitChanged);
 
-	if (!gitChanged.has("version.txt") && !diffAnyway) {
+	if (!(gitChanged.has("version.txt") || diffAnyway)) {
 		progress.update("diff", null);
 		progress.update("diff_raw", null);
 		progress.update("diff_semantic", null);

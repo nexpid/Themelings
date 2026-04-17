@@ -27,16 +27,16 @@ export type Diff =
 export type CodeDiff =
 	| {
 			type: DiffType.Added | DiffType.Removed;
-			lines: number;
+			size: number;
 	  }
 	| {
 			type: DiffType.Changed;
-			diff: number;
+			sizeDiff: number;
 	  }
 	| {
 			type: DiffType.Renamed;
 			oldName: string;
-			lines: number;
+			size: number;
 	  };
 
 export type Differs = Record<"semantic" | "raw" | "icons", Map<string, Diff> | undefined> & {

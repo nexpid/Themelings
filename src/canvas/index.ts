@@ -10,24 +10,25 @@ async function bulkRegister(family: string, path: string) {
 await bulkRegister("GG Sans", join(import.meta.dir, "fonts/ggsans"));
 await bulkRegister("GG Mono", join(import.meta.dir, "fonts/ggmono"));
 
-function calcSectionWidth(entries: { textWidth: number; itemWidth: number }[][]) {
-	const items = entries
-		.map((rows) => Math.max(...rows.map(({ textWidth, itemWidth }) => Math.max(textWidth, itemWidth))))
-		.reduce((a, b) => a + b, 0);
-	return items + (entries.length - 1) * layout.card.gapX;
+function calcColumnWidth(column: { textWidth: number; itemWidth: number }[]) {
+	return Math.max(...column.map(({ textWidth, itemWidth }) => Math.max(textWidth, itemWidth)));
 }
-function calcSectionHeight(entries: Row[][]) {
-	const texts = Math.max(
-		0,
-		...entries.map((rows) =>
-			rows
-				.map((row) => Number(!!row.title) + Number(!!row.subtitle) + Number(row.item.type === "blob"))
-				.reduce((a, b) => a + b, 0),
-		),
-	);
-	const items = Math.max(0, ...entries.map((rows) => rows.length));
-	const gaps = texts + items - 1;
-	return texts * textSizes.title + items * itemSize + gaps * layout.card.gapY;
+
+function calcSectionWidth(columns: { textWidth: number; itemWidth: number }[][]) {
+	const items = columns.map(calcColumnWidth).reduce((a, b) => a + b, 0);
+	return items + (columns.length - 1) * layout.card.gapX;
+}
+
+function calcColumnHeight(column: Row[]) {
+	const texts = column
+		.map((row) => Number(!!row.title) + Number(!!row.subtitle) + Number(row.item.type === "blob"))
+		.reduce((a, b) => a + b, 0);
+	const items = texts + column.length - 1;
+	return texts * textSizes.title + column.length * itemSize + items * layout.card.gapY;
+}
+
+function calcSectionHeight(columns: Row[][]) {
+	return Math.max(...columns.map((column) => calcColumnHeight(column)));
 }
 
 const layout = {
@@ -76,11 +77,11 @@ export function drawSections(sections: Section[]) {
 	const headerFont = `600 ${textSizes.header}px GG Sans`;
 	const titleFont = `400 ${textSizes.title}px GG Mono`;
 
-	const sects = sections.map(({ header, entries }) => ({
+	const sects = sections.map(({ header, columns }) => ({
 		headerWidth: measureText(mctx, headerFont, header).width,
 		header,
-		entries: entries.map((rows) =>
-			rows.map(({ title, subtitle, item }) => ({
+		columns: columns.map((column) =>
+			column.map(({ title, subtitle, item }) => ({
 				title,
 				subtitle,
 				textWidth: Math.max(
@@ -99,16 +100,16 @@ export function drawSections(sections: Section[]) {
 	}));
 	const width = Math.max(
 		...sects.map(({ headerWidth }) => headerWidth),
-		...sects.map(({ entries }) => layout.card.padding * 2 + calcSectionWidth(entries)),
+		...sects.map(({ columns }) => layout.card.padding * 2 + calcSectionWidth(columns)),
 	);
 	const height =
 		sects
 			.map(
-				({ entries }) =>
+				({ columns }) =>
 					textSizes.header +
 					layout.section.gap +
 					layout.card.padding * 2 +
-					calcSectionHeight(entries) +
+					calcSectionHeight(columns) +
 					layout.background.gap,
 			)
 			.reduce((a, b) => a + b, 0) - layout.background.gap;
@@ -128,9 +129,9 @@ export function drawSections(sections: Section[]) {
 		ctx.fillText(sect.header, x, y);
 		y += textSizes.header + layout.section.gap;
 
-		const hasBlob = sect.entries.flat().some((x) => x.item.type === "blob");
-		const sectionWidth = hasBlob ? calcSectionWidth(sect.entries) + layout.card.padding * 2 : width,
-			sectionHeight = calcSectionHeight(sect.entries);
+		const hasBlob = sect.columns.flat().some((x) => x.item.type === "blob");
+		const sectionWidth = hasBlob ? calcSectionWidth(sect.columns) + layout.card.padding * 2 : width,
+			sectionHeight = calcSectionHeight(sect.columns);
 		ctx.fillStyle = colors.section;
 		ctx.beginPath();
 		ctx.roundRect(x, y, sectionWidth, sectionHeight + layout.card.padding * 2, layout.card.radius);
@@ -138,10 +139,14 @@ export function drawSections(sections: Section[]) {
 		y += layout.card.padding;
 		x += layout.card.padding;
 
-		let wx = x;
-		for (const rows of sect.entries) {
+		let wx = x,
+			biggestY = y;
+		for (const column of sect.columns) {
 			let wy = y;
-			for (const row of rows) {
+
+			const columnWidth = calcColumnWidth(column);
+			const centerX = wx + columnWidth / 2;
+			for (const row of column) {
 				ctx.font = titleFont;
 				if (row.subtitle) {
 					ctx.fillStyle = colors.textMuted;
@@ -154,13 +159,13 @@ export function drawSections(sections: Section[]) {
 					wy += textSizes.title + layout.card.gapY;
 				}
 
-				const midX = wx + Math.max(row.textWidth, row.itemWidth) / 2 - row.itemWidth / 2;
+				const midX = centerX - row.itemWidth / 2;
 				if (row.item.type === "blob") {
-					const dx = sectionWidth + layout.card.padding - blobSize;
+					const blobHeight = biggestY - wy;
 
 					ctx.fillStyle = colors.blob;
 					ctx.beginPath();
-					ctx.roundRect(dx, y, blobSize, sectionHeight, layout.blob.radius);
+					ctx.roundRect(wx, wy, columnWidth, blobHeight, layout.blob.radius);
 					ctx.fill();
 
 					ctx.font = `600 ${textSizes.blob}px GG Sans`;
@@ -168,13 +173,13 @@ export function drawSections(sections: Section[]) {
 					ctx.textAlign = "center";
 					ctx.textBaseline = "middle";
 
-					const wrapped = wrapText(ctx, row.item.blob, blobSize);
+					const wrapped = wrapText(ctx, row.item.blob, columnWidth);
 					const height = textSizes.blob / 2;
 					for (let i = 0; i < wrapped.length; i++)
 						ctx.fillText(
 							wrapped[i],
-							dx + blobSize / 2,
-							y + sectionHeight / 2 - height * (wrapped.length - 1) + textSizes.blob * i,
+							wx + columnWidth / 2,
+							wy + blobHeight / 2 - height * (wrapped.length - 1) + textSizes.blob * i,
 						);
 
 					ctx.textAlign = "left";
@@ -207,7 +212,8 @@ export function drawSections(sections: Section[]) {
 					wy += itemSize + layout.card.gapY;
 				}
 			}
-			wx += Math.max(...rows.flatMap(({ textWidth, itemWidth }) => [textWidth, itemWidth])) + layout.card.gapX;
+			wx += columnWidth + layout.card.gapX;
+			biggestY = Math.max(biggestY, wy - layout.card.gapY);
 		}
 		y += sectionHeight;
 

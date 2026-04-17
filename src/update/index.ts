@@ -14,11 +14,17 @@ const apkAssets = {
 };
 
 let reuseFolder = isMock;
-if (!reuseFolder)
-	reuseFolder = await Bun.file("tmp/ver")
+if (!reuseFolder) {
+	const matches = await Bun.file("tmp/ver")
 		.text()
-		.then((x) => x === version)
-		.catch(() => false);
+		.then((x) => x === version);
+	if (matches) {
+		for (const folder of Object.keys(apkAssets)) {
+			if (!(await exists(join(apksFolder, folder, "res")))) break;
+		}
+		reuseFolder = true;
+	}
+}
 
 // Temp folder yippee!
 
