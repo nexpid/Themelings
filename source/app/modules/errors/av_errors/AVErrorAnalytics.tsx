@@ -283,7 +283,8 @@ case 20:
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.getSystemAnalyticsInfo;
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -311,8 +312,7 @@ case 20:
     var _closure1_slot11 = var4;
     var4 = 9;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.getSystemAnalyticsInfo;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot12 = var4;
     var4 = 10;
     var4 = var6[var4];
@@ -347,7 +347,7 @@ case 0:
             var4 = var5.getErrorInfo;
             var5 = var4.bind(var5)(var7);
             var _closure2_slot2 = var5;
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot11;
             var4 = var7.getVoiceChannelId;
             var4 = var4.bind(var7)();
             var7 = 'channelId';
@@ -369,7 +369,7 @@ case 41:
             var9 = var4;
 case 40:
             var _closure2_slot3 = var9;
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var4 = var8.getChannel;
             var4 = var4.bind(var8)(var9);
             var _closure2_slot4 = var4;
@@ -500,7 +500,7 @@ case 66:
             var13 = null;
             if(!var9) { _fun0007_ip = 68; continue _fun0007 }
 case 69:
-            var10 = _closure1_slot11;
+            var10 = _closure1_slot12;
             var9 = var10.getRTCConnection;
             var13 = var9.bind(var10)(var4);
 case 68:
@@ -508,7 +508,7 @@ case 68:
             var9 = var13;
             if(!(var7 == var4)) { _fun0007_ip = 70; continue _fun0007 }
 case 71:
-            var12 = _closure1_slot8;
+            var12 = _closure1_slot9;
             var10 = var12.getRTCConnection;
             var9 = var10.bind(var12)();
 case 70:
@@ -530,7 +530,7 @@ case 76:
 case 74:
             var14 = var10;
 case 72:
-            var12 = _closure1_slot5;
+            var12 = _closure1_slot6;
             var10 = var12.getState;
             var10 = var10.bind(var12)();
             var12 = var10.resolution;
@@ -688,7 +688,7 @@ case 113:
             var4 = var5;
 case 108:
             var _closure2_slot1 = var4;
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot5;
             var4 = var3.bind(var1)();
             var3 = var4.then;
             var2 = function(arg1) {
@@ -774,7 +774,7 @@ case 33:
                     var2 = _closure2_slot8;
                     if(!(var3 == var2)) { _fun0008_ip = 34; continue _fun0008 }
 case 130:
-                    var7 = _closure1_slot8;
+                    var7 = _closure1_slot9;
                     var2 = var7.getMediaSessionId;
                     var7 = var2.bind(var7)();
                     _fun0008_ip = 131; continue _fun0008;
@@ -811,7 +811,7 @@ case 138:
                     var2 = _closure2_slot5;
 case 137:
                     var5['context'] = var2;
-                    var8 = _closure1_slot8;
+                    var8 = _closure1_slot9;
                     var7 = var8.getRTCConnection;
                     var9 = var7.bind(var8)();
                     var7 = var3 == var9;
@@ -828,7 +828,7 @@ case 142:
                     var7 = var8;
 case 141:
                     var5['voice_backend_version'] = var7;
-                    var8 = _closure1_slot8;
+                    var8 = _closure1_slot9;
                     var7 = var8.getRTCConnection;
                     var9 = var7.bind(var8)();
                     var7 = var3 == var9;
@@ -845,9 +845,9 @@ case 146:
                     var7 = var8;
 case 145:
                     var5['rtc_worker_backend_version'] = var7;
-                    var9 = _closure1_slot9;
+                    var9 = _closure1_slot10;
                     var8 = var9.getRegion;
-                    var10 = _closure1_slot8;
+                    var10 = _closure1_slot9;
                     var7 = var10.getHostname;
                     var7 = var7.bind(var10)();
                     var8 = var8.bind(var9)(var7);
@@ -858,7 +858,7 @@ case 148:
                     var7 = var8;
 case 147:
                     var5['guild_region'] = var7;
-                    var8 = _closure1_slot8;
+                    var8 = _closure1_slot9;
                     var7 = var8.getHostname;
                     var8 = var7.bind(var8)();
                     var9 = var3 != var8;
@@ -1472,14 +1472,14 @@ case 294:
                     var4 = _closure2_slot30;
                     var4 = var7.bind(var1)(var4);
                     var5['inbound_bitrate_estimate'] = var4;
-                    var7 = _closure1_slot7;
+                    var7 = _closure1_slot8;
                     var4 = var7.getHardwareEncoding;
                     var4 = var4.bind(var7)();
                     var5['hardware_enabled'] = var4;
                     var4 = _closure2_slot14;
                     if(!(var3 == var4)) { _fun0008_ip = 296; continue _fun0008 }
 case 297:
-                    var8 = _closure1_slot7;
+                    var8 = _closure1_slot8;
                     var4 = var8.getInputDevices;
                     var7 = var4.bind(var8)();
                     var4 = var8.getInputDeviceId;
@@ -1499,7 +1499,7 @@ case 300:
                     var4 = _closure2_slot15;
                     if(!(var3 == var4)) { _fun0008_ip = 301; continue _fun0008 }
 case 302:
-                    var8 = _closure1_slot7;
+                    var8 = _closure1_slot8;
                     var4 = var8.getOutputDevices;
                     var7 = var4.bind(var8)();
                     var4 = var8.getOutputDeviceId;
@@ -1519,7 +1519,7 @@ case 305:
                     var4 = _closure2_slot16;
                     if(!(var3 == var4)) { _fun0008_ip = 306; continue _fun0008 }
 case 307:
-                    var8 = _closure1_slot7;
+                    var8 = _closure1_slot8;
                     var4 = var8.getVideoDevices;
                     var7 = var4.bind(var8)();
                     var4 = var8.getVideoDeviceId;
@@ -1536,7 +1536,7 @@ case 306:
                     var4 = _closure2_slot16;
 case 310:
                     var5['video_device_name'] = var4;
-                    var6 = _closure1_slot7;
+                    var6 = _closure1_slot8;
                     var4 = var6.getMediaEngine;
                     var7 = var4.bind(var6)();
                     var4 = var7.getAudioSubsystem;
@@ -1618,7 +1618,7 @@ case 312:
                     var4 = var6;
 case 311:
                     var5['input_device_os_muted'] = var4;
-                    var6 = _closure1_slot7;
+                    var6 = _closure1_slot8;
                     var4 = var6.getInputDeviceOSVolume;
                     var4 = var4.bind(var6)();
                     var6 = var3 != var4;

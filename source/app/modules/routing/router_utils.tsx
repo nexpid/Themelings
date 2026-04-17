@@ -362,13 +362,13 @@ case 23:
             var3 = var3.LOGIN;
             var3 = var4.bind(var1)(var3);
             if(var3) { _fun0007_ip = 26; continue _fun0007 }
-case 20:
+case 27:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.REGISTER;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+            if(var3) { _fun0007_ip = 28; continue _fun0007 }
+case 10:
             var4 = var1.startsWith;
             var5 = _closure1_slot5;
             var3 = var5.INVITE;
@@ -503,7 +503,7 @@ case 29:
             var1 = var3.INVITE;
 case 63:
             _fun0007_ip = 64; continue _fun0007;
-case 27:
+case 28:
             var3 = _closure1_slot6;
             var1 = var3.REGISTER;
 case 64:

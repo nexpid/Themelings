@@ -41,15 +41,16 @@ case 0:
             var3 = arg1;
             var7 = var3.dialogKey;
             var9 = var3.onDismiss;
+            var12 = var3.zIndex;
+            var2 = {'dialogKey': 0, 'onDismiss': 0, 'zIndex': 0};
             var8 = null;
-            var2 = Object.create(var8);
-            var1 = 0;
-            var2['dialogKey'] = var1;
-            var2['onDismiss'] = var1;
-            var13 = {};
-            var12 = var3;
-            var11 = var2;
-            var5 = copyDataProperties(var13, var12, var11);
+            var15 = var2;
+            var14 = null;
+            var1 = silentSetPrototypeOf(var15, var14);
+            var15 = {};
+            var14 = var3;
+            var13 = var2;
+            var5 = copyDataProperties(var15, var14, var13);
             var2 = _closure1_slot2;
             var1 = var2.useId;
             var6 = var1.bind(var2)();
@@ -63,7 +64,12 @@ case 0:
             var2 = var1.AccessibilityView;
             var1 = {};
             var10 = _closure1_slot3;
-            var10 = var10.absoluteFill;
+            var11 = var10.absoluteFill;
+            var10 = new Array(2);
+            var10[0] = var11;
+            var11 = {};
+            var11['zIndex'] = var12;
+            var10[1] = var11;
             var1['style'] = var10;
             var10 = true;
             var1['accessibilityViewIsModal'] = var10;
@@ -73,9 +79,9 @@ case 3:
             var6 = var7;
 case 2:
             var1['nativeID'] = var6;
-            var13 = var1;
-            var12 = var5;
-            var5 = copyDataProperties(var13, var12);
+            var15 = var1;
+            var14 = var5;
+            var5 = copyDataProperties(var15, var14);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         }

@@ -930,7 +930,7 @@ case 0:
             var2 = var2.unsafe_rawColors;
             if(var1) { _fun0027_ip = 2; continue _fun0027 }
 case 3:
-            var1 = var2.PLAYSTATION;
+            var1 = var2.PLATFORM_PLAYSTATION;
             _fun0027_ip = 4; continue _fun0027;
 case 2:
             var1 = var2.WHITE;

@@ -37,7 +37,5 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['AvatarDecorationBorderSizes'] = var2;
     var2 = 70;
     var3['AVATAR_DECORATION_SIZE'] = var2;
-    var2 = 50;
-    var3['MOBILE_SETTINGS_AVATAR_DECORATION_SIZE'] = var2;
     return var1;
 })();

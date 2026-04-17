@@ -424,7 +424,7 @@ case 13:
             var6 = var6[var8];
             var6 = var9.bind(var7)(var6);
             var6 = var6.colors;
-            var5 = var6.BACKGROUND_SURFACE_HIGH;
+            var5 = var6.MOBILE_EMBED_BACKGROUND_DEFAULT;
 case 12:
             var1['backgroundColor'] = var5;
             var6 = _closure1_slot1;

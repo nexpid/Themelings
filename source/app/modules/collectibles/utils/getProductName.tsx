@@ -168,7 +168,31 @@ case 17:
             var2 = var2.NAMEPLATE;
             if(!(var2 !== var3)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var7];
+            var2 = var4.bind(var6)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.PROFILE_FRAME;
+            if(!(var2 !== var3)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             return var5;
+case 20:
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 0;
+            var4 = var8[var2];
+            var4 = var3.bind(var6)(var4);
+            var7 = var4.intl;
+            var4 = var7.formatToPlainString;
+            var2 = var8[var2];
+            var2 = var3.bind(var6)(var2);
+            var2 = var2.t;
+            var3 = var2.vov8LX;
+            var2 = {};
+            var2['product'] = var5;
+            var2 = var4.bind(var7)(var3, var2);
+            return var2;
 case 18:
             var3 = _closure1_slot0;
             var8 = _closure1_slot1;

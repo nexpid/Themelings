@@ -977,29 +977,29 @@ case 0:
                     var7 = 0;
                     var6 = var7 === var6;
                     if(!var6) { _fun0013_ip = 72; continue _fun0013 }
-case 73:
+case 33:
                     var8 = _closure2_slot8;
                     var8 = var8.current;
                     var8 = var8.end;
                     var6 = var7 === var8;
 case 72:
-                    if(!var5) { _fun0013_ip = 74; continue _fun0013 }
-case 7:
+                    if(!var5) { _fun0013_ip = 73; continue _fun0013 }
+case 74:
                     var8 = _closure2_slot13;
                     if(!(var3 == var8)) { _fun0013_ip = 75; continue _fun0013 }
-case 74:
-                    if(!var5) { _fun0013_ip = 8; continue _fun0013 }
+case 73:
+                    if(!var5) { _fun0013_ip = 76; continue _fun0013 }
+case 77:
+                    if(var6) { _fun0013_ip = 78; continue _fun0013 }
 case 76:
-                    if(var6) { _fun0013_ip = 77; continue _fun0013 }
-case 8:
                     var5 = _closure2_slot13;
-                    if(!(var3 == var5)) { _fun0013_ip = 78; continue _fun0013 }
-case 79:
+                    if(!(var3 == var5)) { _fun0013_ip = 79; continue _fun0013 }
+case 80:
                     var5 = _closure2_slot8;
                     var5 = var5.current;
                     var5 = var3 != var5;
-                    if(!var5) { _fun0013_ip = 80; continue _fun0013 }
-case 81:
+                    if(!var5) { _fun0013_ip = 81; continue _fun0013 }
+case 82:
                     var8 = _closure2_slot8;
                     var8 = var8.current;
                     var9 = var8.start;
@@ -1007,9 +1007,9 @@ case 81:
                     var8 = var8.current;
                     var8 = var8.end;
                     var5 = var9 === var8;
-case 80:
-                    if(!var5) { _fun0013_ip = 82; continue _fun0013 }
-case 83:
+case 81:
+                    if(!var5) { _fun0013_ip = 83; continue _fun0013 }
+case 84:
                     var8 = _closure2_slot8;
                     var8 = var8.current;
                     var9 = var8.start;
@@ -1017,9 +1017,9 @@ case 83:
                     var8 = var8.current;
                     var8 = var8.length;
                     var5 = var9 === var8;
-case 82:
-                    if(!var5) { _fun0013_ip = 84; continue _fun0013 }
-case 85:
+case 83:
+                    if(!var5) { _fun0013_ip = 85; continue _fun0013 }
+case 21:
                     var5 = global;
                     var9 = var5.setTimeout;
                     var8 = function() {
@@ -1043,12 +1043,12 @@ case 26:
                     };
                     var5 = 10;
                     var5 = var9.bind(var1)(var8, var5);
-                    _fun0013_ip = 84; continue _fun0013;
-case 78:
+                    _fun0013_ip = 85; continue _fun0013;
+case 79:
                     var5 = _closure2_slot14;
                     var5 = var5.bind(var1)(var3);
-                    _fun0013_ip = 84; continue _fun0013;
-case 77:
+                    _fun0013_ip = 85; continue _fun0013;
+case 78:
                     var5 = _closure2_slot0;
                     var5 = var5.length;
                     if(!(var7 !== var5)) { _fun0013_ip = 86; continue _fun0013 }
@@ -1085,7 +1085,7 @@ case 87:
                     var5['text'] = var13;
                     var5 = var11.bind(var12)(var10, var5);
                     var5 = var8.bind(var9)(var5);
-                    _fun0013_ip = 84; continue _fun0013;
+                    _fun0013_ip = 85; continue _fun0013;
 case 86:
                     return var1;
 case 75:
@@ -1137,7 +1137,7 @@ case 94:
 case 88:
                     var2 = _closure2_slot14;
                     var2 = var2.bind(var1)(var3);
-case 84:
+case 85:
                     return var1;
                 }
             };

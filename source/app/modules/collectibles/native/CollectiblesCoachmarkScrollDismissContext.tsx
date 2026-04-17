@@ -109,7 +109,7 @@ case 5:
                 var5 = _closure2_slot1;
                 var5 = var5.current;
                 if(!(var3 == var5)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+case 2:
                 var6 = _closure2_slot1;
                 var5 = var4.x;
                 var6['current'] = var5;
@@ -125,7 +125,7 @@ case 6:
                 var5 = var5.bind(var6)(var4);
                 var4 = 16;
                 if(!(var5 >= var4)) { _fun0002_ip = 4; continue _fun0002 }
-case 8:
+case 7:
                 var4 = _closure2_slot0;
                 var4['current'] = var3;
                 var1 = _closure2_slot1;

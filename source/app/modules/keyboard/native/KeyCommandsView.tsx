@@ -384,11 +384,11 @@ case 0:
                     };
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 28; continue _fun0005 }
+                    if(!(var1 != var2)) { _fun0005_ip = 4; continue _fun0005 }
 case 39:
                     var1 = var2.onKeyCommand;
                     var1 = var1.bind(var2)(var3);
-case 28:
+case 4:
                     var1 = undefined;
                     return var1;
                 }

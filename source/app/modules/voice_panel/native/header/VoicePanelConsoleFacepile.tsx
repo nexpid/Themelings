@@ -37,7 +37,7 @@ case 4:
             var4 = var9[var4];
             var4 = var5.bind(var8)(var4);
             var4 = var4.unsafe_rawColors;
-            var4 = var4.PLAYSTATION;
+            var4 = var4.PLATFORM_PLAYSTATION;
             var1['color'] = var4;
             var7 = _closure1_slot0;
             var4 = 6;
@@ -77,7 +77,7 @@ case 2:
             var3 = var7[var3];
             var3 = var4.bind(var6)(var3);
             var3 = var3.unsafe_rawColors;
-            var3 = var3.XBOX;
+            var3 = var3.PLATFORM_XBOX;
             var1['color'] = var3;
             var5 = _closure1_slot0;
             var2 = 6;

@@ -35,25 +35,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var10 = var4.COLLECTIBLES_PREVIEW_SIZE;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var4 = var4.NOOP;
     var _closure1_slot7 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot8 = var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'height': 50, 'width': 50, 'borderRadius': null, 'overflow': 'hidden'};
-    var10 = 6;
+    var9 = {};
+    var9['height'] = var10;
+    var9['width'] = var10;
+    var10 = 7;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.radii;
     var12 = var12.xs;
     var9['borderRadius'] = var12;
+    var12 = 'hidden';
+    var9['overflow'] = var12;
     var4['previewContainer'] = var9;
     var9 = {};
     var10 = var6[var10];
@@ -64,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['noneIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -88,7 +96,7 @@ case 0:
             var _closure2_slot2 = var2;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var6[var1];
             var13 = var3.bind(var4)(var1);
             var12 = var13.useStateFromStores;
@@ -113,7 +121,7 @@ case 2:
                 }
             };
             var14 = var12.bind(var13)(var8, var1);
-            var1 = 8;
+            var1 = 9;
             var1 = var6[var1];
             var6 = var3.bind(var4)(var1);
             var3 = var6.getProfilePreviewValue;
@@ -143,7 +151,7 @@ case 6:
             var8 = var3.bind(var6)(var1);
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var6[var1];
             var6 = var3.bind(var4)(var1);
             var3 = var6.useFetchNameplate;
@@ -196,16 +204,16 @@ case 19:
             var9 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var4 = var2[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
                 var4 = _closure1_slot0;
-                var3 = 12;
+                var3 = 13;
                 var3 = var2[var3];
                 var4 = var4.bind(var1)(var3);
-                var3 = 11;
+                var3 = 12;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var4 = var4.bind(var1)(var3, var2);
@@ -233,7 +241,7 @@ case 23:
 case 26:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var3 = 14;
+            var3 = 15;
             var11 = var16[var3];
             var11 = var15.bind(var4)(var11);
             var13 = var11.intl;
@@ -252,7 +260,7 @@ case 28:
 case 29:
             var2 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var1 = 14;
+            var1 = 15;
             var3 = var15[var1];
             var3 = var2.bind(var4)(var3);
             var11 = var3.intl;
@@ -268,12 +276,12 @@ case 27:
             var3 = _closure1_slot8;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var1 = 13;
+            var1 = 14;
             var1 = var17[var1];
             var1 = var16.bind(var4)(var1);
             var2 = var1.UserProfileEditFormButton;
             var1 = {};
-            var11 = 14;
+            var11 = 15;
             var14 = var17[var11];
             var14 = var16.bind(var4)(var14);
             var15 = var14.intl;
@@ -298,13 +306,13 @@ case 30:
             var8 = _closure1_slot8;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 16;
+            var6 = 17;
             var6 = var13[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Icon;
             var6 = {};
             var11 = _closure1_slot1;
-            var9 = 17;
+            var9 = 18;
             var9 = var13[var9];
             var9 = var11.bind(var4)(var9);
             var6['source'] = var9;
@@ -320,7 +328,7 @@ case 33:
             var7['style'] = var10;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var10 = 15;
+            var10 = 16;
             var10 = var13[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {'nameplate': null, 'fullOpacity': true, 'isSquarePreview': true};
@@ -336,12 +344,12 @@ case 21:
             var3 = _closure1_slot8;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 13;
+            var1 = 14;
             var1 = var10[var1];
             var1 = var9.bind(var4)(var1);
             var2 = var1.UserProfileEditFormButton;
             var1 = {};
-            var6 = 14;
+            var6 = 15;
             var7 = var10[var6];
             var7 = var9.bind(var4)(var7);
             var11 = var7.intl;

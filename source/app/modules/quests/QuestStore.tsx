@@ -1623,7 +1623,7 @@ case 101:
             var7 = var8.bind(var1)();
             var2 = var7.done;
             if(var2) { _fun0022_ip = 104; continue _fun0022 }
-case 105:
+case 61:
             var12 = var7.value;
             var11 = _closure1_slot19;
             var9 = var11.set;
@@ -1632,18 +1632,18 @@ case 105:
             var9 = var8.bind(var1)();
             var2 = var9.done;
             var7 = var9;
-            if(!var2) { _fun0022_ip = 105; continue _fun0022 }
+            if(!var2) { _fun0022_ip = 61; continue _fun0022 }
 case 104:
             var8 = _closure1_slot50;
             var11 = _closure1_slot39;
             var2 = null;
             var9 = var2 == var11;
             var7 = undefined;
-            if(var9) { _fun0022_ip = 39; continue _fun0022 }
+            if(var9) { _fun0022_ip = 105; continue _fun0022 }
 case 106:
             var9 = var11.values;
             var7 = var9.bind(var11)();
-case 39:
+case 105:
             var9 = var8.bind(var1)(var7);
             var8 = var9.bind(var1)();
             var7 = var8.done;
@@ -2536,8 +2536,8 @@ case 0:
             var7 = var5.quest_id;
             var9 = var8.bind(var9)(var7);
             var7 = null;
-            if(!(var7 != var9)) { _fun0030_ip = 142; continue _fun0030 }
-case 143:
+            if(!(var7 != var9)) { _fun0030_ip = 53; continue _fun0030 }
+case 142:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var7 = 13;
@@ -2549,8 +2549,8 @@ case 143:
             var8 = var10.get;
             var7 = var5.quest_id;
             var7 = var8.bind(var10)(var7);
-            if(!(var7 !== var9)) { _fun0030_ip = 142; continue _fun0030 }
-case 73:
+            if(!(var7 !== var9)) { _fun0030_ip = 53; continue _fun0030 }
+case 143:
             var10 = var4.Map;
             var13 = _closure1_slot36;
             var8 = var10.prototype;
@@ -2562,7 +2562,7 @@ case 73:
             var5 = var5.quest_id;
             var5 = var7.bind(var8)(var5, var9);
             _closure1_slot36 = var5;
-case 142:
+case 53:
             var8 = var4.Object;
             var7 = var8.keys;
             var5 = var2.progress;

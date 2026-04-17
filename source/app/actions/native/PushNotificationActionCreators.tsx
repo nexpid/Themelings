@@ -371,13 +371,13 @@ case 40:
                         var9 = {};
                         var11 = _closure2_slot1;
                         if(var11) { _fun0004_ip = 41; continue _fun0004 }
-case 23:
+case 42:
                         var11 = _closure1_slot12;
                         var11 = var11.bind(var3)();
-                        _fun0004_ip = 42; continue _fun0004;
+                        _fun0004_ip = 43; continue _fun0004;
 case 41:
                         var11 = _closure1_slot11;
-case 42:
+case 43:
                         var9['provider'] = var11;
                         var10 = _closure2_slot0;
                         var9['token'] = var10;
@@ -395,11 +395,11 @@ case 42:
                         var11 = var11.bind(var3)(var10);
                         var10 = var11.isAndroid;
                         var10 = var10.bind(var11)();
-                        if(!var10) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+                        if(!var10) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
                         var11 = _closure1_slot13;
                         var10 = !var11;
-case 43:
+case 44:
                         var9['bypass_server_throttling_supported'] = var10;
                         var10 = _closure1_slot10;
                         var9['bundle_id'] = var10;
@@ -408,17 +408,17 @@ case 43:
                         var4['rejectWithError'] = var9;
                         var4 = var6.bind(var8)(var4);
                         SaveGenerator(address=344);
-case 45:
-                        return var4;
 case 46:
+                        return var4;
+case 47:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                        if(var6) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
+                        if(var6) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
                         var6 = var4.body;
                         var6 = var6.invalid_push_sync_tokens;
                         var6 = var6.length;
                         if(!(var6 > var7)) { _fun0004_ip = 38; continue _fun0004 }
-case 49:
+case 50:
                         var6 = _closure1_slot2;
                         var7 = _closure1_slot3;
                         var5 = 9;
@@ -429,7 +429,7 @@ case 49:
                         var5 = var5.invalid_push_sync_tokens;
                         var5 = var6.bind(var7)(var5);
                         _fun0004_ip = 38; continue _fun0004;
-case 47:
+case 48:
                         return var4;
 case 38:
                         return var3;

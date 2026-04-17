@@ -1,4 +1,4 @@
-// app/stores/SystemAnalyticsStore.native.tsx
+// app/modules/system_analytics/SystemAnalyticsStore.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = 'stores/SystemAnalyticsStore.native.tsx';
+    var2 = 'modules/system_analytics/SystemAnalyticsStore.native.tsx';
     var2 = var4.bind(var5)(var2);
     var2 = function getSystemAnalyticsInfo() {
         var1 = global;

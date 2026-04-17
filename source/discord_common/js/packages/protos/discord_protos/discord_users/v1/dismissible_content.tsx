@@ -2154,6 +2154,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CROISSANT_REHEAT_MOMENT'] = var2;
     var1 = 'CROISSANT_REHEAT_MOMENT';
     var4[var2] = var1;
+    var2 = 739;
+    var4['SLAYER_STOREFRONT_VC_GIFTING_PANEL_APP_WIDGET_CTA'] = var2;
+    var1 = 'SLAYER_STOREFRONT_VC_GIFTING_PANEL_APP_WIDGET_CTA';
+    var4[var2] = var1;
+    var2 = 740;
+    var4['PREMIUM_GROUP_PRIMARY_REMINDER_NAGBAR'] = var2;
+    var1 = 'PREMIUM_GROUP_PRIMARY_REMINDER_NAGBAR';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

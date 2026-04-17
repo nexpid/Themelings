@@ -47,30 +47,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.forwardRef;
     var4 = function(arg1, arg2) {
         var1 = arg1;
-        var9 = var1.sheetKey;
-        var _closure2_slot0 = var9;
+        var10 = var1.sheetKey;
+        var _closure2_slot0 = var10;
         var7 = var1.content;
-        var16 = var1.impressionName;
-        var12 = var1.impressionProperties;
-        var13 = _closure1_slot4;
-        var4 = var13.useState;
+        var17 = var1.impressionName;
+        var13 = var1.impressionProperties;
+        var8 = var1.zIndex;
+        var14 = _closure1_slot4;
+        var4 = var14.useState;
         var2 = 'visible';
-        var6 = var4.bind(var13)(var2);
+        var6 = var4.bind(var14)(var2);
         var5 = _closure1_slot3;
         var4 = undefined;
         var2 = 2;
         var5 = var5.bind(var4)(var6, var2);
         var2 = 0;
-        var15 = var5[var2];
-        var _closure2_slot1 = var15;
+        var16 = var5[var2];
+        var _closure2_slot1 = var16;
         var2 = 1;
         var2 = var5[var2];
         var _closure2_slot2 = var2;
-        var2 = var13.useRef;
+        var2 = var14.useRef;
         var6 = _closure1_slot7;
-        var2 = var2.bind(var13)(var6);
+        var2 = var2.bind(var14)(var6);
         var _closure2_slot3 = var2;
-        var8 = var13.useCallback;
+        var9 = var14.useCallback;
         var5 = function(arg1) {
             var2 = _closure2_slot3;
             var1 = arg1;
@@ -79,12 +80,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2 = new Array(0);
-        var5 = var8.bind(var13)(var5, var2);
+        var5 = var9.bind(var14)(var5, var2);
         var _closure2_slot4 = var5;
-        var2 = var13.useRef;
-        var2 = var2.bind(var13)(var6);
+        var2 = var14.useRef;
+        var2 = var2.bind(var14)(var6);
         var _closure2_slot5 = var2;
-        var8 = var13.useCallback;
+        var9 = var14.useCallback;
         var6 = function() {
             var2 = _closure2_slot5;
             var1 = var2.current;
@@ -93,27 +94,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2 = new Array(0);
-        var14 = var8.bind(var13)(var6, var2);
-        var _closure2_slot6 = var14;
+        var15 = var9.bind(var14)(var6, var2);
+        var _closure2_slot6 = var15;
         var2 = _closure1_slot1;
-        var10 = _closure1_slot2;
+        var11 = _closure1_slot2;
         var6 = 6;
-        var6 = var10[var6];
-        var11 = var2.bind(var4)(var6);
-        var8 = {};
+        var6 = var11[var6];
+        var12 = var2.bind(var4)(var6);
+        var9 = {};
         var6 = _closure1_slot0;
-        var17 = 7;
-        var17 = var10[var17];
-        var17 = var6.bind(var4)(var17);
-        var17 = var17.ImpressionTypes;
-        var17 = var17.HALFSHEET;
-        var8['type'] = var17;
-        var8['name'] = var16;
-        var8['properties'] = var12;
-        var8 = var11.bind(var4)(var8);
-        var16 = var13.useImperativeHandle;
-        var12 = arg2;
-        var11 = function() {
+        var18 = 7;
+        var18 = var11[var18];
+        var18 = var6.bind(var4)(var18);
+        var18 = var18.ImpressionTypes;
+        var18 = var18.HALFSHEET;
+        var9['type'] = var18;
+        var9['name'] = var17;
+        var9['properties'] = var13;
+        var9 = var12.bind(var4)(var9);
+        var17 = var14.useImperativeHandle;
+        var13 = arg2;
+        var12 = function() {
             var1 = {};
             var3 = function componentDidEnter() {
                 var3 = _closure2_slot2;
@@ -147,12 +148,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['componentDidLeave'] = var2;
             return var1;
         };
-        var8 = new Array(0);
-        var8 = var16.bind(var13)(var12, var11, var8);
-        var12 = var13.useCallback;
-        var11 = new Array(1);
-        var11[0] = var9;
-        var8 = function() {
+        var9 = new Array(0);
+        var9 = var17.bind(var14)(var13, var12, var9);
+        var13 = var14.useCallback;
+        var12 = new Array(1);
+        var12[0] = var10;
+        var9 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 8;
@@ -164,14 +165,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var8 = var12.bind(var13)(var8, var11);
-        var _closure2_slot7 = var8;
-        var12 = var13.useMemo;
-        var11 = new Array(4);
-        var11[0] = var15;
-        var11[1] = var8;
-        var11[2] = var14;
-        var11[3] = var5;
+        var9 = var13.bind(var14)(var9, var12);
+        var _closure2_slot7 = var9;
+        var13 = var14.useMemo;
+        var12 = new Array(4);
+        var12[0] = var16;
+        var12[1] = var9;
+        var12[2] = var15;
+        var12[3] = var5;
         var5 = function() {
             var1 = {};
             var3 = _closure2_slot1;
@@ -184,10 +185,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['registerDismissHandler'] = var2;
             return var1;
         };
-        var5 = var12.bind(var13)(var5, var11);
-        var12 = var13.useCallback;
-        var11 = new Array(1);
-        var11[0] = var8;
+        var5 = var13.bind(var14)(var5, var12);
+        var13 = var14.useCallback;
+        var12 = new Array(1);
+        var12[0] = var9;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -207,25 +208,26 @@ case 2:
                 return var1;
             }
         };
-        var11 = var12.bind(var13)(var3, var11);
+        var12 = var13.bind(var14)(var3, var12);
         var3 = 9;
-        var3 = var10[var3];
+        var3 = var11[var3];
         var3 = var2.bind(var4)(var3);
-        var3 = var3.bind(var4)(var11);
+        var3 = var3.bind(var4)(var12);
         var3 = _closure1_slot8;
         var1 = 10;
-        var1 = var10[var1];
+        var1 = var11[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Provider;
         var1 = {};
         var1['value'] = var5;
         var5 = 11;
-        var5 = var10[var5];
+        var5 = var11[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Dialog;
         var5 = {};
-        var5['dialogKey'] = var9;
-        var5['onDismiss'] = var8;
+        var5['dialogKey'] = var10;
+        var5['onDismiss'] = var9;
+        var5['zIndex'] = var8;
         var5['children'] = var7;
         var5 = var3.bind(var4)(var6, var5);
         var1['children'] = var5;
@@ -297,17 +299,19 @@ case 6:
         var2 = var3.map;
         var1 = function(arg1) {
             var1 = arg1;
-            var7 = var1.content;
+            var8 = var1.content;
             var5 = var1.key;
-            var6 = var1.impressionName;
-            var1 = var1.impressionProperties;
+            var7 = var1.impressionName;
+            var6 = var1.impressionProperties;
+            var1 = var1.zIndex;
             var4 = _closure1_slot8;
             var3 = _closure1_slot9;
             var2 = {};
             var2['sheetKey'] = var5;
-            var2['content'] = var7;
-            var2['impressionName'] = var6;
-            var2['impressionProperties'] = var1;
+            var2['content'] = var8;
+            var2['impressionName'] = var7;
+            var2['impressionProperties'] = var6;
+            var2['zIndex'] = var1;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2, var5);
             return var1;

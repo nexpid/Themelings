@@ -459,16 +459,38 @@ case 64:
                     var3 = var3[var7];
                     var3 = var5.bind(var6)(var3);
                     var3 = var3.CollectiblesItemType;
-                    var3 = var3.BUNDLE;
+                    var3 = var3.PROFILE_FRAME;
                     if(!(var3 !== var4)) { _fun0006_ip = 65; continue _fun0006 }
 case 66:
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var3 = var3[var7];
+                    var3 = var5.bind(var6)(var3);
+                    var3 = var3.CollectiblesItemType;
+                    var3 = var3.BUNDLE;
+                    if(!(var3 !== var4)) { _fun0006_ip = 67; continue _fun0006 }
+case 68:
                     var3 = '';
                     return var3;
-case 65:
+case 67:
                     var5 = _closure1_slot3;
                     var4 = _closure2_slot0;
                     var3 = _closure2_slot1;
                     var3 = var5.bind(var6)(var4, var3);
+                    return var3;
+case 65:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var3 = 1;
+                    var4 = var8[var3];
+                    var4 = var7.bind(var6)(var4);
+                    var5 = var4.intl;
+                    var4 = var5.string;
+                    var3 = var8[var3];
+                    var3 = var7.bind(var6)(var3);
+                    var3 = var3.t;
+                    var3 = var3.fWzWPp;
+                    var3 = var4.bind(var5)(var3);
                     return var3;
 case 63:
                     var7 = _closure1_slot0;
@@ -523,19 +545,19 @@ case 56:
                     var3 = var6.bind(var5)(var3);
                     var3 = var3.CollectiblesItemType;
                     var3 = var3.BUNDLE;
-                    if(!(var4 === var3)) { _fun0006_ip = 67; continue _fun0006 }
-case 68:
+                    if(!(var4 === var3)) { _fun0006_ip = 69; continue _fun0006 }
+case 70:
                     var3 = _closure2_slot0;
                     var6 = var3.summary;
                     var3 = var6.includes;
                     var4 = '{joinedItems}';
                     var3 = var3.bind(var6)(var4);
-                    if(var3) { _fun0006_ip = 69; continue _fun0006 }
-case 67:
+                    if(var3) { _fun0006_ip = 71; continue _fun0006 }
+case 69:
                     var3 = _closure2_slot0;
                     var3 = var3.summary;
                     return var3;
-case 69:
+case 71:
                     var3 = _closure1_slot3;
                     var1 = _closure2_slot0;
                     var2 = _closure2_slot1;

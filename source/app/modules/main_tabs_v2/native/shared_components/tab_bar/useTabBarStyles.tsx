@@ -218,6 +218,8 @@ case 10:
 case 9:
             var2['marginLeft'] = var3;
             var1['tabBarIcon'] = var2;
+            var2 = {'width': 24, 'height': 24};
+            var1['riveTabBarIcon'] = var2;
             var2 = {};
             var3 = 'none';
             var2['display'] = var3;
@@ -388,58 +390,58 @@ case 11:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = _closure2_slot9;
-                    var3 = undefined;
+                    var4 = undefined;
                     if(!var1) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
                     var1 = _closure2_slot0;
-                    var2 = var1.tabBarNux;
+                    var3 = var1.tabBarNux;
                     var1 = new Array(2);
-                    var1[0] = var2;
-                    var4 = _closure2_slot2;
-                    var2 = null;
-                    if(!(var2 == var4)) { _fun0004_ip = 15; continue _fun0004 }
+                    var1[0] = var3;
+                    var5 = _closure2_slot2;
+                    var3 = null;
+                    if(!(var3 == var5)) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
-                    var2 = _closure2_slot0;
-                    var2 = var2.tabBarNuxBackground;
+                    var3 = _closure2_slot0;
+                    var3 = var3.tabBarNuxBackground;
                     _fun0004_ip = 17; continue _fun0004;
 case 15:
-                    var2 = _closure2_slot2;
+                    var3 = _closure2_slot2;
 case 17:
-                    var1[1] = var2;
-                    var3 = var1;
+                    var1[1] = var3;
+                    var4 = var1;
 case 13:
                     var1 = _closure2_slot0;
                     var1 = var1.tabBarTabletHeight;
-                    var2 = new Array(2);
-                    var2[0] = var1;
+                    var3 = new Array(2);
+                    var3[0] = var1;
                     var1 = {};
-                    var4 = _closure2_slot10;
-                    var1['marginBottom'] = var4;
-                    var2[1] = var1;
+                    var5 = _closure2_slot10;
+                    var1['marginBottom'] = var5;
+                    var3[1] = var1;
                     var1 = _closure2_slot11;
-                    var6 = undefined;
+                    var7 = undefined;
                     if(!var1) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
                     var1 = _closure2_slot0;
-                    var4 = var1.tabBarYouTablet;
+                    var5 = var1.tabBarYouTablet;
                     var1 = new Array(3);
-                    var1[0] = var4;
-                    var4 = {};
-                    var5 = _closure2_slot12;
-                    var4['width'] = var5;
-                    var1[1] = var4;
-                    var1[2] = var2;
-                    var6 = var1;
+                    var1[0] = var5;
+                    var5 = {};
+                    var6 = _closure2_slot12;
+                    var5['width'] = var6;
+                    var1[1] = var5;
+                    var1[2] = var3;
+                    var7 = var1;
 case 18:
                     var1 = _closure2_slot11;
                     var10 = undefined;
                     if(!var1) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
                     var1 = _closure2_slot0;
-                    var4 = var1.tabBarIcymTablet;
+                    var5 = var1.tabBarIcymTablet;
                     var1 = new Array(2);
-                    var1[0] = var4;
-                    var1[1] = var2;
+                    var1[0] = var5;
+                    var1[1] = var3;
                     var10 = var1;
 case 20:
                     var1 = _closure2_slot11;
@@ -447,22 +449,22 @@ case 20:
                     if(!var1) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
                     var1 = _closure2_slot0;
-                    var4 = var1.tabBarNotificationsTablet;
+                    var5 = var1.tabBarNotificationsTablet;
                     var1 = new Array(2);
-                    var1[0] = var4;
-                    var1[1] = var2;
+                    var1[0] = var5;
+                    var1[1] = var3;
                     var8 = var1;
 case 22:
                     var1 = _closure2_slot11;
-                    var5 = undefined;
+                    var6 = undefined;
                     if(!var1) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
                     var1 = _closure2_slot0;
-                    var4 = var1.tabBarSettingsTablet;
+                    var5 = var1.tabBarSettingsTablet;
                     var1 = new Array(2);
-                    var1[0] = var4;
-                    var1[1] = var2;
-                    var5 = var1;
+                    var1[0] = var5;
+                    var1[1] = var3;
+                    var6 = var1;
 case 24:
                     var1 = _closure2_slot11;
                     var11 = undefined;
@@ -472,7 +474,7 @@ case 27:
                     var11 = var1.tabBarGuildsTablet;
 case 26:
                     var1 = _closure2_slot0;
-                    var2 = var1.tabBarIcon;
+                    var3 = var1.tabBarIcon;
                     var13 = {};
                     var14 = var1.tabBar;
                     var15 = var13;
@@ -486,54 +488,54 @@ case 26:
 case 29:
                     var1 = {};
                     var12 = _closure2_slot1;
-                    var4 = null;
-                    if(!(var4 == var12)) { _fun0004_ip = 30; continue _fun0004 }
+                    var5 = null;
+                    if(!(var5 == var12)) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
-                    var4 = _closure2_slot0;
-                    var4 = var4.tabBarTablet;
+                    var5 = _closure2_slot0;
+                    var5 = var5.tabBarTablet;
                     _fun0004_ip = 32; continue _fun0004;
 case 30:
-                    var4 = {};
+                    var5 = {};
 case 32:
                     var15 = var1;
-                    var14 = var4;
-                    var4 = copyDataProperties(var15, var14);
-                    var4 = _closure2_slot0;
-                    var4 = var4.tabBarTabletHeight;
-                    var12 = var4.height;
-                    var4 = _closure2_slot10;
-                    var12 = var12 + var4;
-                    var4 = 'height';
-                    var1[3] = var12;
+                    var14 = var5;
+                    var5 = copyDataProperties(var15, var14);
+                    var5 = _closure2_slot0;
+                    var5 = var5.tabBarTabletHeight;
+                    var12 = var5.height;
+                    var5 = _closure2_slot10;
+                    var12 = var12 + var5;
+                    var5 = 'height';
+                    var1[4] = var12;
                     var9 = var1;
 case 28:
                     var1 = {};
-                    var4 = {};
+                    var5 = {};
                     var12 = new Array(2);
                     var12[0] = var13;
                     var12[1] = var9;
-                    var4['tabBarStyle'] = var12;
+                    var5['tabBarStyle'] = var12;
                     var12 = _closure2_slot11;
                     var12 = !var12;
-                    var4['tabBarShowLabel'] = var12;
+                    var5['tabBarShowLabel'] = var12;
                     var12 = _closure2_slot5;
-                    var4['tabBarInactiveTintColor'] = var12;
+                    var5['tabBarInactiveTintColor'] = var12;
                     var12 = _closure2_slot6;
-                    var4['tabBarActiveTintColor'] = var12;
-                    var1['tabBarStyles'] = var4;
-                    var4 = {};
-                    var4['tabBarItemStyle'] = var11;
-                    var1['tabBarStylesGuilds'] = var4;
-                    var4 = {};
-                    var4['tabBarItemStyle'] = var10;
-                    var1['tabBarStylesIcym'] = var4;
-                    var4 = {};
-                    var4['tabBarItemStyle'] = var10;
-                    var1['tabBarStylesDiscovery'] = var4;
-                    var4 = {};
-                    var4['tabBarItemStyle'] = var8;
-                    var1['tabBarStylesNotifications'] = var4;
-                    var4 = {};
+                    var5['tabBarActiveTintColor'] = var12;
+                    var1['tabBarStyles'] = var5;
+                    var5 = {};
+                    var5['tabBarItemStyle'] = var11;
+                    var1['tabBarStylesGuilds'] = var5;
+                    var5 = {};
+                    var5['tabBarItemStyle'] = var10;
+                    var1['tabBarStylesIcym'] = var5;
+                    var5 = {};
+                    var5['tabBarItemStyle'] = var10;
+                    var1['tabBarStylesDiscovery'] = var5;
+                    var5 = {};
+                    var5['tabBarItemStyle'] = var8;
+                    var1['tabBarStylesNotifications'] = var5;
+                    var5 = {};
                     var10 = _closure2_slot3;
                     var8 = null;
                     if(!(var8 != var10)) { _fun0004_ip = 33; continue _fun0004 }
@@ -548,7 +550,7 @@ case 35:
                     var8 = new Array(2);
                     var8[0] = var10;
                     var8[1] = var9;
-                    var4['tabBarStyle'] = var8;
+                    var5['tabBarStyle'] = var8;
                     var8 = function tabBarBackground() {
                         var4 = _closure1_slot5;
                         var2 = _closure1_slot1;
@@ -565,18 +567,21 @@ case 35:
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
-                    var4['tabBarBackground'] = var8;
+                    var5['tabBarBackground'] = var8;
                     var8 = _closure2_slot7;
-                    var4['tabBarInactiveTintColor'] = var8;
-                    var7 = _closure2_slot8;
-                    var4['tabBarActiveTintColor'] = var7;
-                    var4['tabBarItemStyle'] = var6;
-                    var1['tabBarStylesYouTab'] = var4;
-                    var4 = {};
-                    var4['tabBarItemStyle'] = var5;
-                    var1['tabBarStylesSettings'] = var4;
-                    var1['tabBarItemStyle'] = var3;
-                    var1['tabBarIconStyle'] = var2;
+                    var5['tabBarInactiveTintColor'] = var8;
+                    var8 = _closure2_slot8;
+                    var5['tabBarActiveTintColor'] = var8;
+                    var5['tabBarItemStyle'] = var7;
+                    var1['tabBarStylesYouTab'] = var5;
+                    var5 = {};
+                    var5['tabBarItemStyle'] = var6;
+                    var1['tabBarStylesSettings'] = var5;
+                    var1['tabBarItemStyle'] = var4;
+                    var1['tabBarIconStyle'] = var3;
+                    var2 = _closure2_slot0;
+                    var2 = var2.riveTabBarIcon;
+                    var1['riveTabBarIcon'] = var2;
                     return var1;
                 }
             };

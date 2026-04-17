@@ -1851,6 +1851,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ReplyNudgeManager'] = var1;
     var1 = {};
+    var8 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'LOGOUT'];
+    var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
@@ -1863,6 +1865,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var1['inlineRequire'] = var8;
     var1['hasStoreChangeListeners'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['RestrictedHoursManager'] = var1;
     var1 = {};
     var8 = new Array(0);

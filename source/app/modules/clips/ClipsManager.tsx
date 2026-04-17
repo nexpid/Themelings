@@ -83,7 +83,8 @@ case 4:
     var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.getSystemAnalyticsInfo;
     var _closure1_slot10 = var4;
     var4 = 7;
     var4 = var6[var4];
@@ -99,8 +100,7 @@ case 4:
     var _closure1_slot13 = var4;
     var4 = 10;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.getSystemAnalyticsInfo;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot14 = var4;
     var4 = 11;
     var4 = var6[var4];
@@ -295,7 +295,7 @@ case 10:
                 var2 = var2.RTC_CONNECTED;
                 if(!(var4 === var2)) { _fun0003_ip = 9; continue _fun0003 }
 case 11:
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot11;
                 var2 = var4.getId;
                 var2 = var2.bind(var4)();
                 var8 = _closure1_slot0;
@@ -328,7 +328,7 @@ case 15:
                 var6 = var6.ownerId;
                 if(!(var6 === var2)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-                var6 = _closure1_slot13;
+                var6 = _closure1_slot14;
                 var5 = var6.getRTCConnection;
                 var5 = var5.bind(var6)(var7);
                 if(!(var4 != var5)) { _fun0003_ip = 18; continue _fun0003 }
@@ -409,7 +409,7 @@ case 0:
                 var1 = var1.bind(var5)(var4);
                 var1 = var5.applyUserSoundboardRecording;
                 var1 = var1.bind(var5)(var4);
-                var7 = _closure1_slot13;
+                var7 = _closure1_slot14;
                 var6 = var7.getRTCConnection;
                 var3 = _closure1_slot2;
                 var2 = _closure1_slot3;
@@ -477,7 +477,7 @@ case 15:
 case 0:
                 var7 = arg1;
                 var2 = this;
-                var4 = _closure1_slot12;
+                var4 = _closure1_slot13;
                 var3 = var4.getChannelId;
                 var5 = var3.bind(var4)();
                 var3 = null;
@@ -488,7 +488,7 @@ case 27:
                 var3 = var3.bind(var4)(var5);
                 if(var3) { _fun0006_ip = 26; continue _fun0006 }
 case 28:
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot11;
                 var3 = var4.getId;
                 var3 = var3.bind(var4)();
                 var3 = var7 !== var3;
@@ -541,7 +541,7 @@ case 26:
 case 0:
                 var2 = this;
                 var _closure3_slot0 = var2;
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot13;
                 var2 = var3.getUserIds;
                 var3 = var2.bind(var3)();
                 var2 = null;
@@ -576,7 +576,7 @@ case 0:
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var5.bind(var1)(var2);
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot12;
                 var2 = var5.bind(var1)(var2);
                 if(!var2) { _fun0008_ip = 34; continue _fun0008 }
 case 35:
@@ -677,11 +677,11 @@ case 42:
                 var2 = 21;
                 var2 = var6[var2];
                 var3 = var3.bind(var1)(var2);
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot12;
                 var2 = var3.bind(var1)(var2);
                 if(!var2) { _fun0009_ip = 41; continue _fun0009 }
 case 43:
-                var7 = _closure1_slot13;
+                var7 = _closure1_slot14;
                 var6 = var7.getRTCConnection;
                 var3 = _closure1_slot2;
                 var8 = _closure1_slot3;
@@ -741,7 +741,7 @@ case 0:
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                                 if(var2) { _fun0011_ip = 50; continue _fun0011 }
 case 48:
-                                var2 = _closure1_slot14;
+                                var2 = _closure1_slot10;
                                 var6 = undefined;
                                 var2 = var2.bind(var6)();
                                 SaveGenerator(address=29);
@@ -997,17 +997,17 @@ case 0:
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var3 = var4.bind(var1)(var3);
                 if(!var3) { _fun0013_ip = 59; continue _fun0013 }
 case 76:
-                var4 = _closure1_slot12;
+                var4 = _closure1_slot13;
                 var3 = var4.getRTCConnection;
                 var5 = var3.bind(var4)();
                 var3 = null;
                 if(!(var3 != var5)) { _fun0013_ip = 59; continue _fun0013 }
 case 77:
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot11;
                 var3 = var4.getId;
                 var3 = var3.bind(var4)();
                 if(!(var6 === var3)) { _fun0013_ip = 78; continue _fun0013 }
@@ -1048,11 +1048,11 @@ case 0:
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var3 = var4.bind(var1)(var3);
                 if(!var3) { _fun0014_ip = 80; continue _fun0014 }
 case 81:
-                var4 = _closure1_slot12;
+                var4 = _closure1_slot13;
                 var3 = var4.getRTCConnection;
                 var6 = var3.bind(var4)();
                 var3 = null;
@@ -1089,11 +1089,11 @@ case 0:
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var3 = var4.bind(var1)(var3);
                 if(!var3) { _fun0015_ip = 24; continue _fun0015 }
 case 35:
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot11;
                 var3 = var4.getId;
                 var3 = var3.bind(var4)();
                 if(!(var3 === var6)) { _fun0015_ip = 24; continue _fun0015 }

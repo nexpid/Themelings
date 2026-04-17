@@ -36,6 +36,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUILD_POWERUP_LEVEL_2_SKU_ID'] = var2;
     var2 = '1341586379779604623';
     var3['GUILD_POWERUP_LEVEL_3_SKU_ID'] = var2;
+    var2 = '1493634428604252161';
+    var3['GUILD_POWERUP_GUILD_THEME_SKU_ID'] = var2;
     var2 = '1351706802684952639';
     var3['GUILD_POWERUP_TAG_SKU_ID'] = var2;
     var2 = '1354906318279807056';

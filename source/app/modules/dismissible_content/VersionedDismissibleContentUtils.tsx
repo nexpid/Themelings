@@ -121,6 +121,14 @@ case 16:
             if(!(var3 !== var6)) { _fun0001_ip = 12; continue _fun0001 }
 case 17:
             var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var5];
+            var3 = var4.bind(var2)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.SLAYER_STOREFRONT_VC_GIFTING_PANEL_APP_WIDGET_CTA;
+            if(!(var3 !== var6)) { _fun0001_ip = 12; continue _fun0001 }
+case 18:
+            var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 8;
             var3 = var5[var3];
@@ -184,16 +192,16 @@ case 2:
             var1 = null;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(var4) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var2 = var3.version;
-case 18:
+case 19:
             var3 = var1 != var2;
             var1 = 0;
-            if(!var3) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(!var3) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var1 = var2;
-case 20:
+case 21:
             return var1;
         }
     };

@@ -218,7 +218,7 @@ case 21:
             var10 = var12[var10];
             var10 = var11.bind(var5)(var10);
             var10 = var10.unsafe_rawColors;
-            var9 = var10.TWITCH;
+            var9 = var10.PLATFORM_TWITCH;
             _fun0002_ip = 26; continue _fun0002;
 case 19:
             var11 = _closure1_slot1;
@@ -462,7 +462,7 @@ case 46:
             var3 = var26[var10];
             var8 = var27.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
-            var3 = function f() {
+            var3 = function O() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var3 = _closure2_slot0;
@@ -544,7 +544,7 @@ case 49:
             var3 = var1[var10];
             var5 = var21.bind(var4)(var3);
             var3 = var5.useAnimatedStyle;
-            var2 = function O() {
+            var2 = function f() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;

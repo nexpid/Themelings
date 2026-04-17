@@ -643,7 +643,7 @@ case 31:
                 var1 = undefined;
                 var3 = false;
                 var3 = var4.bind(var1)(var3);
-                var4 = _closure1_slot1;
+                var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var3 = 14;
                 var3 = var5[var3];

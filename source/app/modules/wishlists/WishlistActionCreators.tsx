@@ -51,80 +51,132 @@ case 6:
         }
     };
     var _closure1_slot14 = var1;
+    var1 = function maybeDispatchAdditionalActions(arg1) {
+        var2 = arg1;
+        var4 = var2.wishlist_items;
+        var3 = var4.map;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.sku;
+            return var1;
+        };
+        var6 = var3.bind(var4)(var1);
+        var5 = var6.filter;
+        var7 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 9;
+        var4 = var4[var1];
+        var1 = undefined;
+        var4 = var7.bind(var1)(var4);
+        var4 = var4.isNotNullish;
+        var4 = var5.bind(var6)(var4);
+        var5 = _closure1_slot16;
+        var5 = var5.bind(var1)(var2);
+        var5 = _closure1_slot17;
+        var5 = var5.bind(var1)(var4);
+        var3 = _closure1_slot18;
+        var2 = var2.storefront_pricing;
+        var2 = var3.bind(var1)(var2, var4);
+        return var1;
+    };
+    var _closure1_slot15 = var1;
     var1 = function maybeDispatchUserDiscounts(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = arg1;
-            var5 = var2.body;
-            var4 = null;
-            var6 = var4 == var5;
-            var1 = undefined;
-            var3 = undefined;
-            if(var6) { _fun0002_ip = 8; continue _fun0002 }
-case 3:
-            var3 = var5.user_discounts;
-case 8:
-            if(!(var4 != var3)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var2 = var2.body;
-            var4 = var2.user_discounts;
-            var3 = var4.map;
-            var2 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.user_discounts;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var3 = var1.user_discounts;
+            var2 = var3.map;
+            var1 = function(arg1) {
                 var3 = _closure1_slot4;
                 var2 = var3.fromServer;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var5 = var3.bind(var4)(var2);
+            var4 = var2.bind(var3)(var1);
             var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var2 = 9;
-            var2 = var4[var2];
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.dispatch;
-            var2 = {};
-            var6 = 'WISHLIST_USER_DISCOUNTS_RESPONSE_SUCCESS';
-            var2['type'] = var6;
-            var2['userDiscounts'] = var5;
-            var2 = var3.bind(var4)(var2);
-case 9:
+            var2 = _closure1_slot2;
+            var1 = 10;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var5 = 'WISHLIST_USER_DISCOUNTS_RESPONSE_SUCCESS';
+            var1['type'] = var5;
+            var1['userDiscounts'] = var4;
+            var1 = var2.bind(var3)(var1);
+case 8:
+            var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = function dispatchSkusFetchSuccessFromWishlistResponse(arg1) {
-        var1 = arg1;
-        var3 = var1.wishlist_items;
-        var2 = var3.map;
-        var1 = function(arg1) {
-            var1 = arg1;
-            var1 = var1.sku;
-            return var1;
-        };
-        var6 = var2.bind(var3)(var1);
-        var5 = var6.filter;
-        var7 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var1 = 10;
-        var3 = var4[var1];
-        var1 = undefined;
-        var3 = var7.bind(var1)(var3);
-        var3 = var3.isNotNullish;
-        var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 9;
-        var2 = var4[var2];
+        var2 = _closure1_slot2;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'SKUS_FETCH_SUCCESS';
-        var2['type'] = var6;
+        var5 = 'SKUS_FETCH_SUCCESS';
+        var2['type'] = var5;
+        var5 = arg1;
         var2['skus'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
+    var1 = function maybeDispatchStorefrontPricesFetchSuccessFromWishlistResponse(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var6 = arg1;
+            var11 = arg2;
+            var1 = null;
+            if(!(var1 != var6)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 10;
+            var1 = var8[var1];
+            var7 = undefined;
+            var3 = var2.bind(var7)(var1);
+            var2 = var3.dispatch;
+            var1 = {};
+            var5 = 'SKUS_PRICING_FETCH_SUCCESS';
+            var1['type'] = var5;
+            var5 = {};
+            var9 = 'skus';
+            var5['type'] = var9;
+            var10 = var11.map;
+            var9 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.id;
+                return var1;
+            };
+            var9 = var10.bind(var11)(var9);
+            var5['skuIds'] = var9;
+            var1['priceId'] = var5;
+            var5 = _closure1_slot0;
+            var4 = 11;
+            var4 = var8[var4];
+            var5 = var5.bind(var7)(var4);
+            var4 = var5.transformStorefrontPricesServer;
+            var4 = var4.bind(var5)(var6);
+            var1['data'] = var4;
+            var1 = var2.bind(var3)(var1);
+case 10:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var _closure1_slot18 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -188,18 +240,18 @@ case 9:
         var2 = undefined;
         var1 = function* () {
             var1 = function* anon_0_() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                    if(var2) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var2 = undefined;
                     var8 = undefined;
                     var5 = undefined;
                     var6 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 10;
                     var4 = var4[var3];
                     var7 = var6.bind(var2)(var4);
                     var6 = var7.dispatch;
@@ -209,10 +261,10 @@ case 12:
                     var11 = _closure2_slot0;
                     var4['wishlistId'] = var11;
                     var4 = var6.bind(var7)(var4);
-case 13: // try_start_0
+case 14: // try_start_0
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var4 = 11;
+                    var4 = 12;
                     var4 = var7[var4];
                     var4 = var6.bind(var2)(var4);
                     var11 = var4.HTTP;
@@ -226,19 +278,19 @@ case 13: // try_start_0
                     var12 = {};
                     var13 = _closure2_slot2;
                     var7 = null;
-                    if(!(var7 == var13)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                    if(!(var7 == var13)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                     var14 = _closure1_slot0;
                     var15 = _closure1_slot2;
-                    var13 = 12;
+                    var13 = 13;
                     var13 = var15[var13];
                     var13 = var14.bind(var2)(var13);
                     var13 = var13.WishlistFetchSource;
                     var13 = var13.USER_PROFILE;
-                    _fun0003_ip = 16; continue _fun0003;
-case 14:
+                    _fun0004_ip = 17; continue _fun0004;
+case 15:
                     var13 = _closure2_slot2;
-case 16:
+case 17:
                     var12['source'] = var13;
                     var13 = _closure1_slot14;
                     var16 = var13.bind(var2)();
@@ -249,36 +301,34 @@ case 16:
                     var4['rejectWithError'] = var12;
                     var4 = var6.bind(var11)(var4);
                     SaveGenerator(address=217);
-case 17:
-                    return var4;
 case 18:
+                    return var4;
+case 19:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                    if(var6) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                     var5 = var4;
                     var6 = var4.body;
                     var8 = var6;
                     var11 = var7 == var6;
                     var6 = undefined;
-                    if(var11) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                    if(var11) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                     var6 = var8.wishlist_items;
-case 21:
-                    if(!(var7 == var6)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+case 22:
+                    if(!(var7 == var6)) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var6 = 13;
+                    var6 = 14;
                     var6 = var8[var6];
                     var8 = var7.bind(var2)(var6);
                     var7 = var8.captureMessage;
                     var6 = 'Wishlist items not found in response';
                     var6 = var7.bind(var8)(var6);
-case 23:
-                    var6 = _closure1_slot15;
-                    var6 = var6.bind(var2)(var5);
+case 24:
                     var7 = var5.body;
-                    var5 = _closure1_slot16;
+                    var5 = _closure1_slot15;
                     var5 = var5.bind(var2)(var7);
                     var6 = _closure1_slot9;
                     var5 = var6.fromServer;
@@ -297,11 +347,11 @@ case 23:
                     var8 = _closure2_slot1;
                     var5['updatedAt'] = var8;
                     var5 = var6.bind(var7)(var5);
-case 25: // try_end0
-                    _fun0003_ip = 26; continue _fun0003;
-case 19:
+case 26: // try_end0
+                    _fun0004_ip = 27; continue _fun0004;
+case 20:
                     return var4;
-case 27: // catch_target0
+case 28: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -314,7 +364,7 @@ case 27: // catch_target0
                     var10 = _closure2_slot0;
                     var3['wishlistId'] = var10;
                     var10 = _closure1_slot0;
-                    var9 = 14;
+                    var9 = 15;
                     var9 = var6[var9];
                     var9 = var10.bind(var2)(var9);
                     var9 = var9.APIError;
@@ -326,14 +376,14 @@ case 27: // catch_target0
                     var9 = var9 instanceof Object ? var9 : var10;
                     var3['error'] = var9;
                     var3 = var7.bind(var8)(var3);
-                    var3 = 13;
+                    var3 = 14;
                     var3 = var6[var3];
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.captureException;
                     var3 = var3.bind(var4)(var5);
-case 26:
+case 27:
                     return var2;
-case 11:
+case 12:
                     return var1;
                 }
             };
@@ -353,52 +403,50 @@ case 11:
         var2 = undefined;
         var1 = function* () {
             var1 = function* anon_0_() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 28; continue _fun0004 }
-case 12:
+                    if(var2) { _fun0005_ip = 29; continue _fun0005 }
+case 13:
                     var8 = undefined;
                     var9 = undefined;
                     var3 = undefined;
                     var6 = null;
                     var5 = null;
-case 29: // try_start_1
-                    var7 = _closure1_slot15;
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var2 = 11;
-                    var2 = var11[var2];
-                    var2 = var10.bind(var8)(var2);
-                    var11 = var2.HTTP;
-                    var10 = var11.post;
+case 30: // try_start_1
+                    var7 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var2 = 12;
+                    var2 = var10[var2];
+                    var2 = var7.bind(var8)(var2);
+                    var10 = var2.HTTP;
+                    var7 = var10.post;
                     var2 = {};
-                    var12 = _closure1_slot12;
-                    var12 = var12.USER_WISHLIST_ITEMS;
-                    var2['url'] = var12;
-                    var13 = {};
-                    var14 = _closure2_slot0;
-                    var13['sku_id'] = var14;
-                    var14 = _closure1_slot14;
-                    var15 = var14.bind(var8)();
-                    var16 = var13;
-                    var14 = copyDataProperties(var16, var15);
-                    var2['body'] = var13;
-                    var13 = true;
-                    var2['rejectWithError'] = var13;
-                    var2 = var10.bind(var11)(var2);
-                    SaveGenerator(address=122);
-case 4:
+                    var11 = _closure1_slot12;
+                    var11 = var11.USER_WISHLIST_ITEMS;
+                    var2['url'] = var11;
+                    var11 = {};
+                    var13 = _closure2_slot0;
+                    var11['sku_id'] = var13;
+                    var13 = _closure1_slot14;
+                    var15 = var13.bind(var8)();
+                    var16 = var11;
+                    var13 = copyDataProperties(var16, var15);
+                    var2['body'] = var11;
+                    var11 = true;
+                    var2['rejectWithError'] = var11;
+                    var2 = var7.bind(var10)(var2);
+                    SaveGenerator(address=118);
+case 31:
                     return var2;
-case 30:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
-                    if(var10) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
+                    if(var7) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
                     var5 = var2;
-                    var7 = var7.bind(var8)(var2);
                     var11 = var2.body;
-                    var7 = _closure1_slot16;
+                    var7 = _closure1_slot15;
                     var7 = var7.bind(var8)(var11);
                     var10 = _closure1_slot9;
                     var7 = var10.fromServer;
@@ -406,7 +454,7 @@ case 32:
                     var9 = var13;
                     var10 = _closure1_slot1;
                     var11 = _closure1_slot2;
-                    var7 = 9;
+                    var7 = 10;
                     var7 = var11[var7];
                     var11 = var10.bind(var8)(var7);
                     var10 = var11.dispatch;
@@ -420,14 +468,14 @@ case 32:
                     var7['wishlistData'] = var13;
                     var7 = var10.bind(var11)(var7);
                     var7 = _closure2_slot1;
-                    if(!(var6 != var7)) { _fun0004_ip = 33; continue _fun0004 }
-case 34: // try_start_0
+                    if(!(var6 != var7)) { _fun0005_ip = 35; continue _fun0005 }
+case 36: // try_start_0
                     var7 = _closure1_slot10;
                     var14 = var9;
                     var13 = var7.bind(var8)(var14);
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var7 = 15;
+                    var7 = 16;
                     var7 = var10[var7];
                     var11 = var9.bind(var8)(var7);
                     var10 = var11.track;
@@ -444,55 +492,55 @@ case 34: // try_start_0
                     var12 = _closure2_slot1;
                     var7['location_stack'] = var12;
                     var7 = var10.bind(var11)(var9, var7);
-case 35: // try_end0
-                    _fun0004_ip = 33; continue _fun0004;
-case 36: // catch_target0
+case 37: // try_end0
+                    _fun0005_ip = 35; continue _fun0005;
+case 38: // catch_target0
                     CatchBlockStart(arg_register=6);
-case 33: // try_end1
-                    if(!(var6 != var5)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+case 35: // try_end1
+                    if(!(var6 != var5)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                     var7 = _closure1_slot6;
                     var5 = var7.getCurrentUser;
                     var5 = var5.bind(var7)();
                     var3 = var5;
-                    if(!(var6 != var5)) { _fun0004_ip = 37; continue _fun0004 }
-case 39:
+                    if(!(var6 != var5)) { _fun0005_ip = 39; continue _fun0005 }
+case 41:
                     var9 = _closure1_slot5;
                     var7 = var9.getFirstWishlistId;
                     var5 = var3;
                     var5 = var5.id;
                     var5 = var7.bind(var9)(var5);
-                    if(!(var6 == var5)) { _fun0004_ip = 37; continue _fun0004 }
-case 40: // try_start_2
+                    if(!(var6 == var5)) { _fun0005_ip = 39; continue _fun0005 }
+case 42: // try_start_2
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 16;
+                    var4 = 17;
                     var4 = var6[var4];
                     var5 = var5.bind(var8)(var4);
                     var4 = var5.fetchProfile;
                     var3 = var3.id;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=434);
-case 41:
-                    return var3;
-case 42:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 43; continue _fun0004 }
-case 44: // try_end2
-                    _fun0004_ip = 37; continue _fun0004;
+                    SaveGenerator(address=425);
 case 43:
                     return var3;
-case 45: // catch_target2
+case 44:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0005_ip = 45; continue _fun0005 }
+case 46: // try_end2
+                    _fun0005_ip = 39; continue _fun0005;
+case 45:
+                    return var3;
+case 47: // catch_target2
                     CatchBlockStart(arg_register=2);
-case 37:
+case 39:
                     return var8;
-case 31:
+case 33:
                     return var2;
-case 46: // catch_target1
+case 48: // catch_target1
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 10;
                     var3 = var9[var3];
                     var5 = var4.bind(var8)(var3);
                     var4 = var5.dispatch;
@@ -502,7 +550,7 @@ case 46: // catch_target1
                     var7 = _closure2_slot0;
                     var3['skuId'] = var7;
                     var7 = _closure1_slot0;
-                    var6 = 14;
+                    var6 = 15;
                     var6 = var9[var6];
                     var6 = var7.bind(var8)(var6);
                     var6 = var6.APIError;
@@ -515,7 +563,7 @@ case 46: // catch_target1
                     var3['error'] = var6;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
-case 28:
+case 29:
                     return var1;
                 }
             };
@@ -537,17 +585,17 @@ case 28:
         var2 = undefined;
         var1 = function* () {
             var1 = function* anon_0_() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 47; continue _fun0005 }
-case 12:
+                    if(var2) { _fun0006_ip = 49; continue _fun0006 }
+case 13:
                     var8 = undefined;
                     var5 = undefined;
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 10;
                     var2 = var2[var3];
                     var9 = var4.bind(var8)(var2);
                     var4 = var9.dispatch;
@@ -559,10 +607,10 @@ case 12:
                     var10 = _closure2_slot1;
                     var2['skuId'] = var10;
                     var2 = var4.bind(var9)(var2);
-case 48: // try_start_1
+case 50: // try_start_1
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var9[var2];
                     var2 = var4.bind(var8)(var2);
                     var9 = var2.HTTP;
@@ -584,16 +632,14 @@ case 48: // try_start_1
                     var2['rejectWithError'] = var10;
                     var2 = var4.bind(var9)(var2);
                     SaveGenerator(address=177);
-case 49:
+case 51:
                     return var2;
-case 50:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0005_ip = 51; continue _fun0005 }
 case 52:
-                    var4 = _closure1_slot15;
-                    var4 = var4.bind(var8)(var2);
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
                     var10 = var2.body;
-                    var4 = _closure1_slot16;
+                    var4 = _closure1_slot15;
                     var4 = var4.bind(var8)(var10);
                     var9 = _closure1_slot9;
                     var4 = var9.fromServer;
@@ -615,14 +661,14 @@ case 52:
                     var4 = var9.bind(var10)(var4);
                     var9 = _closure2_slot2;
                     var4 = null;
-                    if(!(var4 != var9)) { _fun0005_ip = 53; continue _fun0005 }
-case 54: // try_start_0
+                    if(!(var4 != var9)) { _fun0006_ip = 55; continue _fun0006 }
+case 56: // try_start_0
                     var4 = _closure1_slot10;
                     var12 = var5;
                     var11 = var4.bind(var8)(var12);
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var4 = 15;
+                    var4 = 16;
                     var4 = var9[var4];
                     var10 = var5.bind(var8)(var4);
                     var9 = var10.track;
@@ -639,15 +685,15 @@ case 54: // try_start_0
                     var11 = _closure2_slot2;
                     var4['location_stack'] = var11;
                     var4 = var9.bind(var10)(var5, var4);
-case 55: // try_end0
-                    _fun0005_ip = 53; continue _fun0005;
-case 56: // catch_target0
+case 57: // try_end0
+                    _fun0006_ip = 55; continue _fun0006;
+case 58: // catch_target0
                     CatchBlockStart(arg_register=3);
-case 53: // try_end1
+case 55: // try_end1
                     return var8;
-case 51:
+case 53:
                     return var2;
-case 57: // catch_target1
+case 59: // catch_target1
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -662,7 +708,7 @@ case 57: // catch_target1
                     var7 = _closure2_slot1;
                     var3['skuId'] = var7;
                     var7 = _closure1_slot0;
-                    var6 = 14;
+                    var6 = 15;
                     var6 = var9[var6];
                     var6 = var7.bind(var8)(var6);
                     var6 = var6.APIError;
@@ -675,7 +721,7 @@ case 57: // catch_target1
                     var3['error'] = var6;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
-case 47:
+case 49:
                     return var1;
                 }
             };
@@ -695,12 +741,12 @@ case 47:
         var2 = undefined;
         var1 = function* () {
             var1 = function* anon_0_() {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 58; continue _fun0006 }
-case 12:
+                    if(var2) { _fun0007_ip = 60; continue _fun0007 }
+case 13:
                     var8 = undefined;
                     var3 = undefined;
                     var4 = _closure1_slot6;
@@ -708,16 +754,16 @@ case 12:
                     var4 = var2.bind(var4)();
                     var3 = var4;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0006_ip = 59; continue _fun0006 }
-case 60: // try_start_1
-                    var4 = _closure1_slot15;
-                    var5 = _closure1_slot0;
+                    if(!(var2 != var4)) { _fun0007_ip = 61; continue _fun0007 }
+case 62: // try_start_1
+                    var5 = _closure1_slot15;
+                    var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var7[var2];
-                    var2 = var5.bind(var8)(var2);
+                    var2 = var4.bind(var8)(var2);
                     var7 = var2.HTTP;
-                    var5 = var7.patch;
+                    var4 = var7.patch;
                     var2 = {};
                     var12 = _closure1_slot12;
                     var11 = var12.USER_WISHLIST_PATCH;
@@ -734,18 +780,19 @@ case 60: // try_start_1
                     var2['body'] = var10;
                     var10 = true;
                     var2['rejectWithError'] = var10;
-                    var2 = var5.bind(var7)(var2);
+                    var2 = var4.bind(var7)(var2);
                     SaveGenerator(address=150);
-case 61:
+case 63:
                     return var2;
-case 62:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0006_ip = 63; continue _fun0006 }
 case 64:
-                    var4 = var4.bind(var8)(var2);
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0007_ip = 65; continue _fun0007 }
+case 66:
+                    var4 = var2.body;
+                    var4 = var5.bind(var8)(var4);
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 9;
+                    var4 = 10;
                     var4 = var7[var4];
                     var7 = var5.bind(var8)(var4);
                     var5 = var7.dispatch;
@@ -757,36 +804,36 @@ case 64:
                     var9 = _closure2_slot1;
                     var4['visibility'] = var9;
                     var4 = var5.bind(var7)(var4);
-case 65: // try_start_0
+case 67: // try_start_0
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var4 = 16;
+                    var4 = 17;
                     var4 = var7[var4];
                     var5 = var5.bind(var8)(var4);
                     var4 = var5.fetchProfile;
                     var3 = var3.id;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=261);
-case 66:
+                    SaveGenerator(address=269);
+case 68:
                     return var3;
-case 67:
+case 69:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0006_ip = 68; continue _fun0006 }
-case 69: // try_end0
-                    _fun0006_ip = 59; continue _fun0006;
-case 68: // try_end1
+                    if(var4) { _fun0007_ip = 70; continue _fun0007 }
+case 71: // try_end0
+                    _fun0007_ip = 61; continue _fun0007;
+case 70: // try_end1
                     return var3;
-case 70: // try_start_2 // catch_target0
+case 72: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=2);
-case 59: // try_end2
+case 61: // try_end2
                     return var8;
-case 63:
+case 65:
                     return var2;
-case 71: // catch_target1 // catch_target2
+case 73: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 10;
                     var3 = var9[var3];
                     var5 = var4.bind(var8)(var3);
                     var4 = var5.dispatch;
@@ -796,7 +843,7 @@ case 71: // catch_target1 // catch_target2
                     var7 = _closure2_slot0;
                     var3['wishlistId'] = var7;
                     var7 = _closure1_slot0;
-                    var6 = 14;
+                    var6 = 15;
                     var6 = var9[var6];
                     var6 = var7.bind(var8)(var6);
                     var6 = var6.APIError;
@@ -809,7 +856,7 @@ case 71: // catch_target1 // catch_target2
                     var3['error'] = var6;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
-case 58:
+case 60:
                     return var1;
                 }
             };
@@ -838,17 +885,17 @@ case 58:
         var2 = undefined;
         var1 = function* () {
             var1 = function* anon_0_() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 72; continue _fun0007 }
-case 12:
+                    if(var2) { _fun0008_ip = 74; continue _fun0008 }
+case 13:
                     var2 = undefined;
                     var5 = undefined;
                     var6 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 10;
                     var4 = var4[var3];
                     var7 = var6.bind(var2)(var4);
                     var6 = var7.dispatch;
@@ -866,10 +913,10 @@ case 12:
                     var8 = _closure2_slot4;
                     var4['newWishlistData'] = var8;
                     var4 = var6.bind(var7)(var4);
-case 73: // try_start_1
+case 75: // try_start_1
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var4 = 11;
+                    var4 = 12;
                     var4 = var7[var4];
                     var4 = var6.bind(var2)(var4);
                     var7 = var4.HTTP;
@@ -895,16 +942,14 @@ case 73: // try_start_1
                     var4['rejectWithError'] = var8;
                     var4 = var6.bind(var7)(var4);
                     SaveGenerator(address=225);
-case 74:
-                    return var4;
-case 75:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0007_ip = 43; continue _fun0007 }
 case 76:
-                    var6 = _closure1_slot15;
-                    var6 = var6.bind(var2)(var4);
+                    return var4;
+case 77:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    if(var6) { _fun0008_ip = 45; continue _fun0008 }
+case 78:
                     var8 = var4.body;
-                    var6 = _closure1_slot16;
+                    var6 = _closure1_slot15;
                     var6 = var6.bind(var2)(var8);
                     var7 = _closure1_slot9;
                     var6 = var7.fromServer;
@@ -924,13 +969,13 @@ case 76:
                     var6 = var7.bind(var8)(var6);
                     var7 = _closure2_slot5;
                     var6 = null;
-                    if(!(var6 != var7)) { _fun0007_ip = 77; continue _fun0007 }
-case 78: // try_start_0
+                    if(!(var6 != var7)) { _fun0008_ip = 79; continue _fun0008 }
+case 80: // try_start_0
                     var6 = _closure1_slot10;
                     var11 = var6.bind(var2)(var5);
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var5 = 15;
+                    var5 = 16;
                     var5 = var7[var5];
                     var8 = var6.bind(var2)(var5);
                     var7 = var8.track;
@@ -947,15 +992,15 @@ case 78: // try_start_0
                     var11 = _closure2_slot5;
                     var5['location_stack'] = var11;
                     var5 = var7.bind(var8)(var6, var5);
-case 79: // try_end0
-                    _fun0007_ip = 77; continue _fun0007;
-case 80: // catch_target0
+case 81: // try_end0
+                    _fun0008_ip = 79; continue _fun0008;
+case 82: // catch_target0
                     CatchBlockStart(arg_register=4);
-case 77: // try_end1
-                    _fun0007_ip = 81; continue _fun0007;
-case 43:
+case 79: // try_end1
+                    _fun0008_ip = 83; continue _fun0008;
+case 45:
                     return var4;
-case 45: // catch_target1
+case 47: // catch_target1
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -970,7 +1015,7 @@ case 45: // catch_target1
                     var10 = _closure2_slot1;
                     var3['skuId'] = var10;
                     var10 = _closure1_slot0;
-                    var9 = 14;
+                    var9 = 15;
                     var9 = var6[var9];
                     var9 = var10.bind(var2)(var9);
                     var9 = var9.APIError;
@@ -982,14 +1027,14 @@ case 45: // catch_target1
                     var9 = var9 instanceof Object ? var9 : var10;
                     var3['error'] = var9;
                     var3 = var7.bind(var8)(var3);
-                    var3 = 13;
+                    var3 = 14;
                     var3 = var6[var3];
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.captureException;
                     var3 = var3.bind(var4)(var5);
-case 81:
+case 83:
                     return var2;
-case 72:
+case 74:
                     return var1;
                 }
             };
@@ -1001,7 +1046,7 @@ case 72:
     };
     var2['reorderWishlistItem'] = var7;
     var4 = function fetchWishlistRecommendations(arg1, arg2) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var4 = arguments[2];
             var3 = arguments[3];
@@ -1010,28 +1055,28 @@ case 0:
             var2 = arg2;
             var _closure2_slot1 = var2;
             var2 = undefined;
-            if(!(var4 === var2)) { _fun0008_ip = 10; continue _fun0008 }
-case 82:
+            if(!(var4 === var2)) { _fun0009_ip = 84; continue _fun0009 }
+case 85:
             var4 = 20;
-case 10:
-            var _closure2_slot2 = var4;
-            if(!(var3 === var2)) { _fun0008_ip = 83; continue _fun0008 }
 case 84:
+            var _closure2_slot2 = var4;
+            if(!(var3 === var2)) { _fun0009_ip = 86; continue _fun0009 }
+case 87:
             var3 = true;
-case 83:
+case 86:
             var _closure2_slot3 = var3;
             var3 = _closure1_slot3;
             var1 = function* () {
                 var1 = function* anon_0_() {
-                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                    _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0009_ip = 85; continue _fun0009 }
-case 12:
+                        if(var2) { _fun0010_ip = 43; continue _fun0010 }
+case 13:
                         var6 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var5 = 9;
+                        var5 = 10;
                         var4 = var2[var5];
                         var2 = undefined;
                         var8 = var6.bind(var2)(var4);
@@ -1044,10 +1089,10 @@ case 12:
                         var9 = _closure2_slot0;
                         var4['applicationIds'] = var9;
                         var4 = var7.bind(var8)(var4);
-case 86: // try_start_0
+case 88: // try_start_0
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var4 = 11;
+                        var4 = 12;
                         var4 = var8[var4];
                         var4 = var7.bind(var2)(var4);
                         var8 = var4.HTTP;
@@ -1066,58 +1111,56 @@ case 86: // try_start_0
                         var10 = _closure2_slot3;
                         var9['localize'] = var10;
                         var10 = _closure1_slot14;
-                        var15 = var10.bind(var2)();
-                        var16 = var9;
-                        var10 = copyDataProperties(var16, var15);
+                        var12 = var10.bind(var2)();
+                        var13 = var9;
+                        var10 = copyDataProperties(var13, var12);
                         var4['query'] = var9;
                         var9 = true;
                         var4['rejectWithError'] = var9;
                         var4 = var7.bind(var8)(var4);
                         SaveGenerator(address=199);
-case 87:
+case 89:
                         return var4;
-case 88:
-                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                        if(var7) { _fun0009_ip = 89; continue _fun0009 }
 case 90:
-                        var7 = _closure1_slot15;
-                        var7 = var7.bind(var2)(var4);
-                        var10 = var4.body;
+                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                        if(var7) { _fun0010_ip = 91; continue _fun0010 }
+case 92:
+                        var9 = var4.body;
+                        var7 = _closure1_slot16;
+                        var7 = var7.bind(var2)(var9);
+                        var8 = _closure1_slot17;
+                        var7 = var9.skus;
+                        var7 = var8.bind(var2)(var7);
+                        var10 = _closure1_slot18;
+                        var8 = var9.storefront_pricing;
+                        var7 = var9.skus;
+                        var7 = var10.bind(var2)(var8, var7);
                         var8 = _closure1_slot8;
                         var7 = var8.fromServer;
-                        var13 = var7.bind(var8)(var10);
+                        var10 = var7.bind(var8)(var9);
                         var8 = _closure1_slot1;
                         var7 = _closure1_slot2;
-                        var9 = var7[var5];
-                        var12 = var8.bind(var2)(var9);
-                        var11 = var12.dispatch;
-                        var9 = {};
-                        var14 = 'WISHLIST_RECOMMENDATIONS_FETCH_SUCCESS';
-                        var9['type'] = var14;
-                        var14 = _closure2_slot1;
-                        var9['userIds'] = var14;
-                        var14 = _closure2_slot0;
-                        var9['applicationIds'] = var14;
-                        var9['data'] = var13;
-                        var9 = var11.bind(var12)(var9);
                         var7 = var7[var5];
                         var9 = var8.bind(var2)(var7);
                         var8 = var9.dispatch;
                         var7 = {};
-                        var11 = 'SKUS_FETCH_SUCCESS';
+                        var11 = 'WISHLIST_RECOMMENDATIONS_FETCH_SUCCESS';
                         var7['type'] = var11;
-                        var10 = var10.skus;
-                        var7['skus'] = var10;
+                        var11 = _closure2_slot1;
+                        var7['userIds'] = var11;
+                        var11 = _closure2_slot0;
+                        var7['applicationIds'] = var11;
+                        var7['data'] = var10;
                         var7 = var8.bind(var9)(var7);
-case 78: // try_end0
-                        _fun0009_ip = 91; continue _fun0009;
-case 89:
+case 93: // try_end0
+                        _fun0010_ip = 94; continue _fun0010;
+case 91:
                         return var4;
-case 33: // catch_target0
+case 40: // catch_target0
                         CatchBlockStart(arg_register=8);
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var7 = 13;
+                        var7 = 14;
                         var7 = var3[var7];
                         var8 = var4.bind(var2)(var7);
                         var7 = var8.captureException;
@@ -1133,9 +1176,9 @@ case 33: // catch_target0
                         var6 = _closure2_slot0;
                         var3['applicationIds'] = var6;
                         var3 = var4.bind(var5)(var3);
-case 91:
+case 94:
                         return var2;
-case 85:
+case 43:
                         return var1;
                     }
                 };
@@ -1147,7 +1190,7 @@ case 85:
         }
     };
     var2['fetchWishlistRecommendations'] = var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot8 = var2;
+            _closure1_slot9 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var2 = global;
     var9 = var2.Object;
     var8 = var9.defineProperty;
@@ -78,6 +78,7 @@ case 4:
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot5 = var2;
+    var _closure1_slot6 = var1;
     var2 = function setContent(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -101,6 +102,8 @@ case 6:
             var5['impressionProperties'] = var4;
             var5['backdropKind'] = var3;
             var5['appEntryKey'] = var2;
+            var2 = _closure1_slot6;
+            var5['zIndex'] = var2;
             var2 = _closure1_slot5;
             var4 = var2.length;
             var2 = 3;
@@ -142,7 +145,7 @@ case 14:
             return var1;
         }
     };
-    var _closure1_slot6 = var2;
+    var _closure1_slot7 = var2;
     var2 = function clearContent(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -173,7 +176,7 @@ case 15:
             return var1;
         }
     };
-    var _closure1_slot7 = var2;
+    var _closure1_slot8 = var2;
     var2 = 5;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -197,13 +200,13 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot2;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0004_ip = 17; continue _fun0004 }
 case 18:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0004_ip = 11; continue _fun0004;
+                _fun0004_ip = 19; continue _fun0004;
 case 17:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -212,7 +215,7 @@ case 17:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 11:
+case 19:
                 var1 = var3.bind(var4)(var5, var1);
                 var3 = function() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -224,10 +227,10 @@ case 0:
                         var1 = null;
                         var3 = var1 == var2;
                         var1 = undefined;
-                        if(var3) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                        if(var3) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                         var1 = var2.content;
-case 19:
+case 20:
                         return var1;
                     }
                 };
@@ -255,10 +258,10 @@ case 0:
                         var1 = null;
                         var3 = var1 == var2;
                         var1 = undefined;
-                        if(var3) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+                        if(var3) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                         var1 = var2.key;
-case 19:
+case 20:
                         return var1;
                     }
                 };
@@ -295,10 +298,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0007_ip = 21; continue _fun0007 }
-case 20:
-                var1 = var2.impressionName;
+                if(var3) { _fun0007_ip = 22; continue _fun0007 }
 case 21:
+                var1 = var2.impressionName;
+case 22:
                 return var1;
             }
         };
@@ -317,10 +320,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0008_ip = 21; continue _fun0008 }
-case 20:
-                var1 = var2.impressionProperties;
+                if(var3) { _fun0008_ip = 22; continue _fun0008 }
 case 21:
+                var1 = var2.impressionProperties;
+case 22:
                 return var1;
             }
         };
@@ -339,10 +342,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0009_ip = 21; continue _fun0009 }
-case 20:
-                var1 = var2.backdropKind;
+                if(var3) { _fun0009_ip = 22; continue _fun0009 }
 case 21:
+                var1 = var2.backdropKind;
+case 22:
                 return var1;
             }
         };
@@ -359,7 +362,7 @@ case 21:
     var12 = var6.bind(var1)(var2);
     var2 = {};
     var8 = function handleShowActionSheet(arg1) {
-        var3 = _closure1_slot6;
+        var3 = _closure1_slot7;
         var1 = undefined;
         var2 = arg1;
         var2 = var3.bind(var1)(var2);
@@ -367,7 +370,7 @@ case 21:
     };
     var2['SHOW_ACTION_SHEET'] = var8;
     var8 = function handleShowActionSheetQuickSwitcher(arg1) {
-        var3 = _closure1_slot6;
+        var3 = _closure1_slot7;
         var2 = {};
         var1 = 'QuickSwitcher';
         var2['key'] = var1;
@@ -382,7 +385,7 @@ case 21:
     var8 = function handleHideActionSheet(arg1) {
         var1 = arg1;
         var3 = var1.key;
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot8;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -395,14 +398,22 @@ case 21:
         return var1;
     };
     var2['HIDE_ALL_ACTION_SHEETS'] = var8;
-    var4 = function handleHideActionSheetQuickSwitcher() {
-        var3 = _closure1_slot7;
+    var8 = function handleHideActionSheetQuickSwitcher() {
+        var3 = _closure1_slot8;
         var1 = undefined;
         var2 = 'QuickSwitcher';
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var2['HIDE_ACTION_SHEET_QUICK_SWITCHER'] = var4;
+    var2['HIDE_ACTION_SHEET_QUICK_SWITCHER'] = var8;
+    var4 = function handleSetActionSheetZIndex(arg1) {
+        var1 = arg1;
+        var2 = var1.zIndex;
+        _closure1_slot6 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['SET_ACTION_SHEET_Z_INDEX'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var13 = var4;

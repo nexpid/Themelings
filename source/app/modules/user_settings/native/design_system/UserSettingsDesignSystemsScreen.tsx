@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['label'] = var6;
             var6 = _closure1_slot4;
             var7 = var6.DESIGN_SYSTEMS_TEXT;
-            var4 = new Array(15);
+            var4 = new Array(16);
             var4[0] = var7;
             var7 = var6.DESIGN_SYSTEMS_BUTTON;
             var4[1] = var7;
@@ -84,6 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[13] = var7;
             var7 = var6.DESIGN_SYSTEM_PILE;
             var4[14] = var7;
+            var7 = var6.DESIGN_SYSTEM_HAPTICS;
+            var4[15] = var7;
             var5['settings'] = var4;
             var4 = new Array(4);
             var4[0] = var5;

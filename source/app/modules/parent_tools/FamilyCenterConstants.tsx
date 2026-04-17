@@ -1272,6 +1272,8 @@ case 11:
     var25 = var26.fileFinishedImporting;
     var24 = 'modules/parent_tools/FamilyCenterConstants.tsx';
     var24 = var25.bind(var26)(var24);
+    var24 = 'RESTRICTED_HOURS_LAYER';
+    var3['RESTRICTED_HOURS_LAYER_KEY'] = var24;
     var3['FAMILY_CENTER_REFETCH_COOLDOWN'] = var23;
     var3['MAX_PARENT_TO_TEEN_ACTIVE_CONNECTIONS'] = var22;
     var3['MAX_TEEN_TO_PARENT_ACTIVE_CONNECTIONS'] = var21;

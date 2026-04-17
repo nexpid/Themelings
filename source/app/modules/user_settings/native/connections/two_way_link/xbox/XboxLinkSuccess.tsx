@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
-    var13 = var13.XBOX;
+    var13 = var13.PLATFORM_XBOX;
     var9['backgroundColor'] = var13;
     var4['appLogoBox'] = var9;
     var9 = {'width': 32, 'height': 32};

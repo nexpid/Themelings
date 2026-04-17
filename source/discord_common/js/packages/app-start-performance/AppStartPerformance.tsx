@@ -452,12 +452,12 @@ case 0:
                     var4 = arg3;
                     var5 = this;
                     var1 = var5.isTracing;
-                    if(var1) { _fun0010_ip = 28; continue _fun0010 }
-case 29:
+                    if(var1) { _fun0010_ip = 13; continue _fun0010 }
+case 28:
                     var1 = undefined;
                     var1 = var4.bind(var1)();
                     return var1;
-case 28:
+case 13:
                     var3 = var5.prefix;
                     var7 = var5.mark;
                     var2 = global;
@@ -506,15 +506,15 @@ case 0:
                         var4 = arg3;
                         var6 = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0011_ip = 30; continue _fun0011 }
-case 31:
+                        if(var2) { _fun0011_ip = 29; continue _fun0011 }
+case 30:
                         var2 = var6.isTracing;
-                        if(var2) { _fun0011_ip = 32; continue _fun0011 }
+                        if(var2) { _fun0011_ip = 31; continue _fun0011 }
 case 7:
                         var2 = undefined;
                         var2 = var4.bind(var2)();
                         return var2;
-case 32:
+case 31:
                         var5 = var6.mark;
                         var3 = global;
                         var2 = var3.HermesInternal;
@@ -528,12 +528,12 @@ case 32:
                         var2 = undefined;
                         var2 = var4.bind(var2)();
                         SaveGenerator(address=101);
-case 33:
+case 32:
                         return var2;
-case 34:
+case 33:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0011_ip = 35; continue _fun0011 }
-case 36:
+                        if(var4) { _fun0011_ip = 34; continue _fun0011 }
+case 35:
                         var8 = var3.Date;
                         var4 = var8.now;
                         var4 = var4.bind(var8)();
@@ -545,9 +545,9 @@ case 36:
                         var3 = var8.bind(var3)(var9);
                         var3 = var4.bind(var6)(var7, var3, var5);
                         return var2;
-case 35:
+case 34:
                         return var2;
-case 30:
+case 29:
                         return var1;
                     }
                 };

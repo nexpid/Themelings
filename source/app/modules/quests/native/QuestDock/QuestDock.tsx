@@ -510,11 +510,9 @@ case 17:
                 var3 = var3.bind(var4)();
                 var3 = var3.height;
                 var2 = _closure2_slot6;
-                var3 = var3 - var2;
-                var2 = var1.height;
                 var2 = var3 - var2;
-                var1 = var1.y;
-                var1 = var2 + var1;
+                var1 = var1.height;
+                var1 = var2 - var1;
                 return var1;
             };
             var23 = {};
@@ -522,7 +520,7 @@ case 17:
             var23['windowDimensions'] = var25;
             var23['safeAreaTop'] = var24;
             var5['__closure'] = var23;
-            var23 = 1497371487400.0;
+            var23 = 16753236808162.0;
             var5['__workletHash'] = var23;
             var23 = _closure1_slot32;
             var5['__initData'] = var23;
@@ -1999,7 +1997,7 @@ case 102:
     var9['code'] = var11;
     var _closure1_slot31 = var9;
     var9 = {};
-    var11 = 'function QuestDockTsx7(){const{questDockWrapperSpecs,windowDimensions,safeAreaTop}=this.__closure;const specs=questDockWrapperSpecs.get();const windowHeight=windowDimensions.get().height;return windowHeight-safeAreaTop-specs.height+specs.y;}';
+    var11 = 'function QuestDockTsx7(){const{questDockWrapperSpecs,windowDimensions,safeAreaTop}=this.__closure;const specs=questDockWrapperSpecs.get();const windowHeight=windowDimensions.get().height;return windowHeight-safeAreaTop-specs.height;}';
     var9['code'] = var11;
     var _closure1_slot32 = var9;
     var9 = {};

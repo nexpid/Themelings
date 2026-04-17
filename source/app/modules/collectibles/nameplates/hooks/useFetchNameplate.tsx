@@ -34,13 +34,17 @@ case 0:
             var1 = var2.bind(var4)(var1);
             var4 = var1.product;
             var2 = var1.isFetching;
-            var1 = null;
-            var1 = var1 == var4;
+            var5 = null;
+            var1 = var5 == var4;
             var8 = undefined;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = var4.items;
             var1 = var1[var7];
+            var5 = var5 == var1;
+            var8 = undefined;
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var8 = var1.type;
 case 2:
             var5 = _closure1_slot0;
@@ -51,11 +55,11 @@ case 2:
             var1 = var1.CollectiblesItemType;
             var1 = var1.NAMEPLATE;
             var5 = undefined;
-            if(!(var8 === var1)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!(var8 === var1)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var1 = var4.items;
             var5 = var1[var7];
-case 4:
+case 5:
             var1 = {};
             var1['nameplateProduct'] = var4;
             var1['nameplateRecord'] = var5;

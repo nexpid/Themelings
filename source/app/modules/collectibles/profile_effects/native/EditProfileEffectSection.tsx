@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var12 = var4.PROFILE_EFFECT_ASPECT_RATIO;
+    var12 = var4.SAMPLE_PROFILE_ASPECT_RATIO;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);

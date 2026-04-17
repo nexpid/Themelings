@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 'modules/collectibles/native/CollectiblesPreviewConstants.tsx';
     var2 = var4.bind(var5)(var2);
     var2 = 0.5113636363636364;
-    var3['PROFILE_EFFECT_ASPECT_RATIO'] = var2;
+    var3['SAMPLE_PROFILE_ASPECT_RATIO'] = var2;
     var2 = {};
     var4 = {'bundleWidth': 140, 'bundleHeight': 280, 'pfxWidth': 80, 'pfxHeight': 120, 'pfxTop': 70, 'pfxLeft': 16, 'avatarTop': 130, 'avatarRight': 40, 'avatarWithNameplateTop': 110, 'avatarWithNameplateRight': 40, 'nameplateBottom': 110, 'nameplatePreviewWidth': 80, 'avatarDecorationSize': 80, 'avatarDecorationSizeTriple': 60};
     var2['small'] = var4;

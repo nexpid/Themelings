@@ -69,6 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CARD_ROWS_COLUMN_GAP'] = var5;
     var5 = 140;
     var3['FLOATING_UPSELL_HEIGHT'] = var5;
+    var5 = 50;
+    var3['COLLECTIBLES_PREVIEW_SIZE'] = var5;
     var3['UserProfileThemeTypes'] = var4;
     var3['PROFILE_TOP_LAYER_Z_INDEX'] = var2;
     var2 = ' ∙ ';

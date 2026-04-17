@@ -97,6 +97,8 @@ case 8:
             var8['gradient.start'] = var11;
             var8['gradient.mid'] = var12;
             var8['gradient.end'] = var10;
+            var8['gradient.top'] = var11;
+            var8['gradient.bottom'] = var10;
             var8['gradient.primary'] = var11;
             var8['gradient.secondary'] = var10;
             var6['colors'] = var8;

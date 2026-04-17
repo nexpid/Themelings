@@ -226,11 +226,11 @@ case 8:
     var4 = var6[var10];
     var4 = var11.bind(var1)(var4);
     var4 = var4.unsafe_rawColors;
-    var4 = var4.XBOX;
+    var4 = var4.PLATFORM_XBOX;
     var4 = var6[var10];
     var4 = var11.bind(var1)(var4);
     var4 = var4.unsafe_rawColors;
-    var4 = var4.PLAYSTATION;
+    var4 = var4.PLATFORM_PLAYSTATION;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);

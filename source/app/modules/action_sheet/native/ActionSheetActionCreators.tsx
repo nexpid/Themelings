@@ -220,7 +220,7 @@ case 11:
         return var1;
     };
     var4['hideActionSheet'] = var8;
-    var5 = function hideAllActionSheets() {
+    var8 = function hideAllActionSheets() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -234,7 +234,24 @@ case 11:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var4['hideAllActionSheets'] = var5;
+    var4['hideAllActionSheets'] = var8;
+    var5 = function setActionSheetZIndex(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SET_ACTION_SHEET_Z_INDEX';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['zIndex'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var4['setActionSheetZIndex'] = var5;
     var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

@@ -388,6 +388,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DESIGN_SYSTEMS_MODAL'] = var1;
     var1 = 'DESIGN_SYSTEMS_LEGACY_BUTTON';
     var2['DESIGN_SYSTEMS_LEGACY_BUTTON'] = var1;
+    var1 = 'DESIGN_SYSTEM_HAPTICS';
+    var2['DESIGN_SYSTEM_HAPTICS'] = var1;
     var1 = 'HIGHLIGHT_NOTIFICATIONS';
     var2['HIGHLIGHT_NOTIFICATIONS'] = var1;
     var1 = 'COLLECTIBLES_SHOP';

@@ -1,11 +1,11 @@
 // app/modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingTierCards.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var14 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = function TierFeatures(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -21,7 +21,7 @@ case 0:
             var _closure2_slot2 = var9;
             var14 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 21;
+            var1 = 22;
             var3 = var6[var1];
             var11 = var14.bind(var4)(var3);
             var8 = var11.useAnimatedStyle;
@@ -31,7 +31,7 @@ case 0:
                     var1 = {};
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var14 = 21;
+                    var14 = 22;
                     var2 = var2[var14];
                     var13 = undefined;
                     var5 = var3.bind(var13)(var2);
@@ -44,7 +44,7 @@ case 3:
 case 2:
                     var7 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var6 = 22;
+                    var6 = 23;
                     var6 = var10[var6];
                     var7 = var7.bind(var13)(var6);
                     var6 = var7.withTiming;
@@ -83,7 +83,7 @@ case 4:
             var12['isVisible'] = var9;
             var13 = 150;
             var12['TIER_FEATURE_ANIMATION_DURATION_MS'] = var13;
-            var13 = 22;
+            var13 = 23;
             var13 = var6[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.withTiming;
@@ -169,7 +169,7 @@ case 12:
                     var9 = _closure1_slot11;
                     var8 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var7 = 23;
+                    var7 = 24;
                     var7 = var12[var7];
                     var7 = var8.bind(var1)(var7);
                     var8 = var7.Text;
@@ -212,10 +212,10 @@ case 14:
     var15 = 0;
     var4 = var6[var15];
     var1 = undefined;
-    var4 = var14.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var11 = 1;
-    var7 = var6[var11];
+    var14 = 1;
+    var7 = var6[var14];
     var4 = metroImportAll;
     var8 = var4.bind(var1)(var7);
     var _closure1_slot4 = var8;
@@ -228,7 +228,7 @@ case 14:
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var14.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
@@ -290,11 +290,11 @@ case 14:
     var10 = {};
     var10['isIncluded'] = var17;
     var23 = 9;
-    var12 = var6[var23];
-    var12 = var5.bind(var1)(var12);
-    var12 = var12.StickerIcon;
-    var10['IconComponent'] = var12;
-    var12 = function getCopy() {
+    var11 = var6[var23];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.StickerIcon;
+    var10['IconComponent'] = var11;
+    var11 = function getCopy() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
         var1 = 8;
@@ -318,16 +318,16 @@ case 14:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var10['getCopy'] = var12;
+    var10['getCopy'] = var11;
     var9[1] = var10;
     var10 = {};
     var10['isIncluded'] = var17;
-    var12 = 10;
-    var13 = var6[var12];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.ScreenArrowIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var11 = 10;
+    var12 = var6[var11];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.ScreenArrowIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
         var1 = 8;
@@ -351,15 +351,15 @@ case 14:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var9[2] = var10;
     var10 = {'orderCollapsed': 2, 'isIncluded': true};
     var22 = 11;
-    var13 = var6[var22];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.VoiceNormalIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var12 = var6[var22];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.VoiceNormalIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var10 = _closure1_slot0;
         var11 = _closure1_slot2;
         var5 = 8;
@@ -396,16 +396,16 @@ case 14:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var9[3] = var10;
     var10 = {};
     var10['isIncluded'] = var17;
     var21 = 12;
-    var13 = var6[var21];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.StageIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var12 = var6[var21];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.StageIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
         var1 = 8;
@@ -429,15 +429,15 @@ case 14:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var9[4] = var10;
     var10 = {'orderCollapsed': 1, 'isIncluded': true};
     var20 = 13;
-    var13 = var6[var20];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.GifIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var12 = var6[var20];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.GifIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -453,16 +453,16 @@ case 14:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var9[5] = var10;
     var10 = {};
     var10['isIncluded'] = var17;
     var18 = 14;
-    var13 = var6[var18];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.ServerGridIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var12 = var6[var18];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.ServerGridIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -478,17 +478,17 @@ case 14:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var9[6] = var10;
     var10 = {};
     var25 = false;
     var10['isIncluded'] = var25;
     var19 = 15;
-    var13 = var6[var19];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.UploadIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var12 = var6[var19];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.UploadIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var10 = _closure1_slot0;
         var11 = _closure1_slot2;
         var5 = 8;
@@ -526,15 +526,15 @@ case 14:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var9[7] = var10;
     var10 = {};
     var10['isIncluded'] = var25;
-    var13 = var6[var18];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.ServerGridIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var12 = var6[var18];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.ServerGridIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -550,15 +550,15 @@ case 14:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var9[8] = var10;
     var10 = {};
     var10['isIncluded'] = var25;
-    var13 = var6[var16];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.ReactionIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var12 = var6[var16];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.ReactionIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -574,12 +574,12 @@ case 14:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var9[9] = var10;
     var10 = {};
     var10['isIncluded'] = var25;
-    var13 = 16;
-    var24 = var6[var13];
+    var12 = 16;
+    var24 = var6[var12];
     var24 = var5.bind(var1)(var24);
     var24 = var24.LinkIcon;
     var10['IconComponent'] = var24;
@@ -673,30 +673,30 @@ case 14:
     var24['getCopy'] = var26;
     var10[1] = var24;
     var24 = {'orderCollapsed': 0, 'isIncluded': true};
-    var26 = var6[var12];
+    var26 = var6[var11];
     var26 = var5.bind(var1)(var26);
     var26 = var26.ScreenArrowIcon;
     var24['IconComponent'] = var26;
     var26 = function getCopy() {
-        var6 = _closure1_slot0;
-        var7 = _closure1_slot2;
+        var7 = _closure1_slot0;
+        var8 = _closure1_slot2;
         var1 = 8;
-        var3 = var7[var1];
-        var2 = undefined;
-        var3 = var6.bind(var2)(var3);
-        var4 = var3.intl;
+        var2 = var8[var1];
+        var6 = undefined;
+        var2 = var7.bind(var6)(var2);
+        var4 = var2.intl;
         var3 = var4.formatToPlainString;
-        var1 = var7[var1];
-        var1 = var6.bind(var2)(var1);
+        var1 = var8[var1];
+        var1 = var7.bind(var6)(var1);
         var1 = var1.t;
         var2 = var1.Jbg8oY;
         var1 = {};
-        var6 = _closure1_slot10;
-        var5 = _closure1_slot9;
-        var5 = var5.TIER_2;
-        var5 = var6[var5];
-        var5 = var5.limits;
-        var5 = var5.screenShareQualityResolution;
+        var5 = 17;
+        var5 = var8[var5];
+        var7 = var7.bind(var6)(var5);
+        var6 = var7.getServerBoostStreamQualityMarketingResolution;
+        var5 = 'GuildBoostingMarketingTierCards';
+        var5 = var6.bind(var7)(var5);
         var1['resolution'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
@@ -921,7 +921,7 @@ case 14:
     var10[9] = var24;
     var24 = {};
     var24['isIncluded'] = var25;
-    var25 = var6[var13];
+    var25 = var6[var12];
     var25 = var5.bind(var1)(var25);
     var25 = var25.LinkIcon;
     var24['IconComponent'] = var25;
@@ -1015,30 +1015,30 @@ case 14:
     var7[1] = var10;
     var10 = {};
     var10['isIncluded'] = var17;
-    var23 = var6[var12];
+    var23 = var6[var11];
     var23 = var5.bind(var1)(var23);
     var23 = var23.ScreenArrowIcon;
     var10['IconComponent'] = var23;
     var23 = function getCopy() {
-        var6 = _closure1_slot0;
-        var7 = _closure1_slot2;
+        var7 = _closure1_slot0;
+        var8 = _closure1_slot2;
         var1 = 8;
-        var3 = var7[var1];
-        var2 = undefined;
-        var3 = var6.bind(var2)(var3);
-        var4 = var3.intl;
+        var2 = var8[var1];
+        var6 = undefined;
+        var2 = var7.bind(var6)(var2);
+        var4 = var2.intl;
         var3 = var4.formatToPlainString;
-        var1 = var7[var1];
-        var1 = var6.bind(var2)(var1);
+        var1 = var8[var1];
+        var1 = var7.bind(var6)(var1);
         var1 = var1.t;
         var2 = var1.Jbg8oY;
         var1 = {};
-        var6 = _closure1_slot10;
-        var5 = _closure1_slot9;
-        var5 = var5.TIER_3;
-        var5 = var6[var5];
-        var5 = var5.limits;
-        var5 = var5.screenShareQualityResolution;
+        var5 = 17;
+        var5 = var8[var5];
+        var7 = var7.bind(var6)(var5);
+        var6 = var7.getServerBoostStreamQualityMarketingResolution;
+        var5 = 'GuildBoostingMarketingTierCards';
+        var5 = var6.bind(var7)(var5);
         var1['resolution'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
@@ -1261,11 +1261,11 @@ case 14:
     var10['getCopy'] = var16;
     var7[9] = var10;
     var10 = {'orderCollapsed': 0, 'isIncluded': true};
-    var13 = var6[var13];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.LinkIcon;
-    var10['IconComponent'] = var13;
-    var13 = function getCopy() {
+    var12 = var6[var12];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.LinkIcon;
+    var10['IconComponent'] = var12;
+    var12 = function getCopy() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -1281,7 +1281,7 @@ case 14:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var10['getCopy'] = var13;
+    var10['getCopy'] = var12;
     var7[10] = var10;
     var4['features'] = var7;
     var9[2] = var4;
@@ -1297,7 +1297,7 @@ case 14:
     };
     var4 = var7.bind(var9)(var4);
     var _closure1_slot15 = var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var7 = var9.createStyles;
@@ -1305,9 +1305,9 @@ case 14:
     var10 = {'marginRight': 10, 'width': 290};
     var4['cardWrapper'] = var10;
     var10 = {};
-    var13 = 18;
-    var16 = var6[var13];
-    var16 = var14.bind(var1)(var16);
+    var12 = 19;
+    var16 = var6[var12];
+    var16 = var13.bind(var1)(var16);
     var16 = var16.radii;
     var16 = var16.lg;
     var10['borderRadius'] = var16;
@@ -1317,8 +1317,8 @@ case 14:
     var10 = {'display': 'flex', 'padding': 24, 'height': '100%'};
     var4['cardContent'] = var10;
     var10 = {'borderRadius': null, 'overflow': 'hidden', 'height': '100%'};
-    var16 = var6[var13];
-    var16 = var14.bind(var1)(var16);
+    var16 = var6[var12];
+    var16 = var13.bind(var1)(var16);
     var16 = var16.radii;
     var16 = var16.lg;
     var10['borderRadius'] = var16;
@@ -1326,15 +1326,15 @@ case 14:
     var10 = {'alignItems': 'baseline', 'display': 'flex', 'flexDirection': 'row', 'flexGrow': 0, 'flexShrink': 0, 'marginBottom': 16};
     var4['cardHeading'] = var10;
     var10 = {};
-    var10['marginRight'] = var12;
+    var10['marginRight'] = var11;
     var4['cardTierName'] = var10;
     var10 = {};
-    var12 = 0.7;
-    var10['opacity'] = var12;
+    var11 = 0.7;
+    var10['opacity'] = var11;
     var4['cardTierBoostcount'] = var10;
     var10 = {'flexGrow': 1, 'flexShrink': 0};
     var4['cardFeatures'] = var10;
-    var12 = 'absolute';
+    var11 = 'absolute';
     var10 = {'position': 'absolute', 'top': 0, 'left': 0, 'height': '100%', 'width': '100%'};
     var4['cardFeaturesInvisible'] = var10;
     var10 = {'alignSelf': 'stretch', 'flexGrow': 1, 'position': 'relative'};
@@ -1353,14 +1353,13 @@ case 14:
     var10['marginBottom'] = var15;
     var4['cardFeatureLast'] = var10;
     var10 = {};
-    var10['flex'] = var11;
-    var11 = 19;
-    var11 = var6[var11];
-    var11 = var5.bind(var1)(var11);
-    var11 = var11.PROGRESS_BAR_SPACING;
-    var10['marginTop'] = var11;
+    var10['flex'] = var14;
+    var14 = 20;
+    var14 = var6[var14];
+    var14 = var5.bind(var1)(var14);
+    var14 = var14.PROGRESS_BAR_SPACING;
+    var10['marginTop'] = var14;
     var4['cardsScroller'] = var10;
-    var11 = 20;
     var10 = {'alignItems': 'flex-start', 'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'center', 'minWidth': '100%', 'paddingHorizontal': 8, 'paddingTop': 16, 'paddingBottom': 20};
     var4['cardsScrollerContent'] = var10;
     var10 = {'height': 24, 'marginRight': 6, 'width': 24};
@@ -1370,18 +1369,19 @@ case 14:
     var10 = {'flexGrow': 0, 'flexShrink': 0, 'height': 24, 'marginLeft': 8, 'width': 24};
     var4['cardFooterIcon'] = var10;
     var10 = {'borderRadius': null, 'paddingHorizontal': 8, 'paddingVertical': 4, 'position': 'absolute', 'top': 4294967280, 'left': 24};
-    var13 = var6[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.sm;
-    var10['borderRadius'] = var13;
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.sm;
+    var10['borderRadius'] = var12;
     var4['cardTierBadge'] = var10;
     var10 = {};
-    var13 = 'uppercase';
-    var10['textTransform'] = var13;
+    var12 = 'uppercase';
+    var10['textTransform'] = var12;
     var4['cardTierBadgeCopy'] = var10;
     var10 = {};
-    var10['position'] = var12;
+    var10['position'] = var11;
+    var11 = 21;
     var11 = var6[var11];
     var11 = var5.bind(var1)(var11);
     var11 = var11.DARK_WHITE_500_LIGHT_GUILD_BOOSTING_PINK;
@@ -1427,7 +1427,7 @@ case 0:
             var7 = var3.tier;
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 24;
+            var3 = 25;
             var3 = var5[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.bind(var4)();
@@ -1492,14 +1492,14 @@ case 16:
             var1 = var1 + var25;
             var17 = var7 === var1;
             var2 = _closure1_slot0;
-            var1 = 25;
+            var1 = 26;
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.isThemeDark;
             var2 = var1.bind(var2)(var3);
             var3 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var19 = 18;
+            var19 = 19;
             var1 = var1[var19];
             var1 = var3.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
@@ -1539,7 +1539,7 @@ case 27:
             var9 = _closure1_slot11;
             var14 = _closure1_slot1;
             var30 = _closure1_slot2;
-            var11 = 26;
+            var11 = 27;
             var5 = var30[var11];
             var6 = var14.bind(var4)(var5);
             var5 = {};
@@ -1572,7 +1572,7 @@ case 27:
             var10['style'] = var20;
             var24 = _closure1_slot12;
             var32 = _closure1_slot0;
-            var20 = 27;
+            var20 = 28;
             var20 = var30[var20];
             var20 = var32.bind(var4)(var20);
             var21 = var20.PressableHighlight;
@@ -1592,14 +1592,14 @@ case 27:
             var18 = var15.cardHeading;
             var26['style'] = var18;
             var35 = _closure1_slot11;
-            var18 = 23;
+            var18 = 24;
             var29 = var30[var18];
             var29 = var32.bind(var4)(var29);
             var33 = var29.Text;
             var29 = {'color': 'always-white', 'style': null, 'variant': 'heading-xxl/extrabold'};
             var37 = var15.cardTierName;
             var29['style'] = var37;
-            var37 = 28;
+            var37 = 29;
             var37 = var30[var37];
             var40 = var32.bind(var4)(var37);
             var39 = var40.getTierName;
@@ -1680,13 +1680,13 @@ case 27:
             var35 = _closure1_slot2;
             if(var31) { _fun0004_ip = 28; continue _fun0004 }
 case 29:
-            var31 = 30;
+            var31 = 31;
             var31 = var35[var31];
             var31 = var34.bind(var4)(var31);
             var32 = var31.ChevronLargeDownIcon;
             _fun0004_ip = 30; continue _fun0004;
 case 28:
-            var31 = 29;
+            var31 = 30;
             var31 = var35[var31];
             var31 = var34.bind(var4)(var31);
             var32 = var31.ChevronLargeUpIcon;
@@ -1801,7 +1801,7 @@ case 41:
             var14 = var16.bind(var4)(var10);
             var10 = {};
             var12 = _closure1_slot0;
-            var20 = 31;
+            var20 = 32;
             var19 = var17[var20];
             var21 = var12.bind(var4)(var19);
             var19 = var21.hexWithOpacity;
@@ -1871,12 +1871,12 @@ case 41:
             var11 = var18.bind(var4)(var14, var11);
             var10[1] = var11;
             var19 = _closure1_slot11;
-            var11 = 32;
+            var11 = 33;
             var14 = var17[var11];
             var14 = var12.bind(var4)(var14);
             var18 = var14.Icon;
             var14 = {};
-            var20 = 33;
+            var20 = 34;
             var21 = var17[var20];
             var21 = var16.bind(var4)(var21);
             var14['source'] = var21;
@@ -1931,7 +1931,7 @@ case 41:
             var11 = var12.bind(var4)(var11);
             var12 = var11.Icon;
             var11 = {};
-            var14 = 34;
+            var14 = 35;
             var14 = var17[var14];
             var14 = var16.bind(var4)(var14);
             var11['source'] = var14;
@@ -1956,7 +1956,7 @@ case 40:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot18 = var4;
-    var4 = 37;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1966,7 +1966,7 @@ case 40:
         var1 = function handleCardPress() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 36;
+            var1 = 37;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -2010,7 +2010,7 @@ case 40:
         var _closure2_slot4 = var1;
         var3 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var1 = 35;
+        var1 = 36;
         var1 = var10[var1];
         var11 = var3.bind(var4)(var1);
         var10 = var11.useStateFromStores;

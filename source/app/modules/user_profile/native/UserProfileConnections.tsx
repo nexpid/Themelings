@@ -45,7 +45,7 @@ case 5:
             var2 = var2[var3];
             var2 = var6.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var15 = var2.TWITTER;
+            var15 = var2.PLATFORM_TWITTER;
 case 4:
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;

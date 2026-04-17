@@ -5,28 +5,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var4;
-    var1 = function resolveOptionalCdnUrl(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var4 = arg1;
-            var1 = null;
-            var2 = var1 != var4;
-            var5 = undefined;
-            var1 = undefined;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 0;
-            var2 = var6[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = var3.resolveAdCreativeCdnUrl;
-            var1 = var2.bind(var3)(var4);
-case 2:
-            return var1;
-        }
-    };
-    var _closure1_slot2 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -43,7 +21,7 @@ case 2:
     var4 = 'modules/ads/QuestHomeHeroTypes.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function questHomeHeroFromServer(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
             var1 = {};
@@ -53,58 +31,81 @@ case 0:
             var1['labelTitle'] = var3;
             var3 = var2.label_subtitle;
             var1['labelSubtitle'] = var3;
-            var6 = _closure1_slot2;
-            var5 = var2.hero_image;
-            var4 = undefined;
-            var5 = var6.bind(var4)(var5);
-            var1['heroImage'] = var5;
-            var5 = var2.hero_video;
-            var5 = var6.bind(var4)(var5);
-            var1['heroVideo'] = var5;
-            var5 = var2.sponsor_image;
-            var5 = var6.bind(var4)(var5);
-            var1['sponsorImage'] = var5;
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var5 = 1;
-            var5 = var7[var5];
-            var7 = var6.bind(var4)(var5);
-            var6 = var7.questHomeHeroCtaFromServer;
-            var5 = var2.cta;
-            var5 = var6.bind(var7)(var5);
-            var1['cta'] = var5;
-            var5 = var2.quest_ids;
-            var1['questIds'] = var5;
-            var6 = var2.quest_home_entrypoint;
-            var5 = null;
-            var6 = var5 != var6;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var6 = 0;
+            var4 = var8[var6];
             var5 = undefined;
-            if(!var6) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            var10 = var7.bind(var5)(var4);
+            var9 = var10.resolveAdCreativeCdnUrl;
+            var4 = var2.hero_image;
+            var4 = var9.bind(var10)(var4);
+            var1['heroImage'] = var4;
+            var4 = var8[var6];
+            var10 = var7.bind(var5)(var4);
+            var9 = var10.resolveAdCreativeCdnUrl;
+            var4 = var2.hero_video;
+            var4 = var9.bind(var10)(var4);
+            var1['heroVideo'] = var4;
+            var4 = var8[var6];
+            var10 = var7.bind(var5)(var4);
+            var9 = var10.resolveAdCreativeCdnUrl;
+            var4 = var2.sponsor_image;
+            var4 = var9.bind(var10)(var4);
+            var1['sponsorImage'] = var4;
+            var4 = 1;
+            var4 = var8[var4];
+            var8 = var7.bind(var5)(var4);
+            var7 = var8.questHomeHeroCtaFromServer;
+            var4 = var2.cta;
+            var4 = var7.bind(var8)(var4);
+            var1['cta'] = var4;
+            var4 = var2.quest_ids;
+            var1['questIds'] = var4;
             var7 = var2.quest_home_entrypoint;
-            var6 = {};
-            var8 = var7.linear_gradient;
-            var6['linearGradient'] = var8;
-            var8 = var7.radial_gradient;
-            var6['radialGradient'] = var8;
-            var9 = _closure1_slot2;
-            var8 = var7.image;
-            var8 = var9.bind(var4)(var8);
-            var6['image'] = var8;
-            var8 = var7.tooltip_image;
-            var8 = var9.bind(var4)(var8);
-            var6['tooltipImage'] = var8;
-            var8 = var7.tooltip_title;
-            var6['tooltipTitle'] = var8;
-            var7 = var7.tooltip_subtitle;
-            var6['tooltipSubtitle'] = var7;
-            var5 = var6;
-case 4:
-            var1['questHomeEntrypoint'] = var5;
-            var3 = _closure1_slot2;
-            var5 = var2.shelf_image;
-            var5 = var3.bind(var4)(var5);
-            var1['shelfImage'] = var5;
+            var4 = null;
+            var7 = var4 != var7;
+            var4 = undefined;
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var8 = var2.quest_home_entrypoint;
+            var7 = {};
+            var9 = var8.linear_gradient;
+            var7['linearGradient'] = var9;
+            var9 = var8.radial_gradient;
+            var7['radialGradient'] = var9;
+            var10 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var11 = var9[var6];
+            var13 = var10.bind(var5)(var11);
+            var12 = var13.resolveAdCreativeCdnUrl;
+            var11 = var8.image;
+            var11 = var12.bind(var13)(var11);
+            var7['image'] = var11;
+            var9 = var9[var6];
+            var11 = var10.bind(var5)(var9);
+            var10 = var11.resolveAdCreativeCdnUrl;
+            var9 = var8.tooltip_image;
+            var9 = var10.bind(var11)(var9);
+            var7['tooltipImage'] = var9;
+            var9 = var8.tooltip_title;
+            var7['tooltipTitle'] = var9;
+            var8 = var8.tooltip_subtitle;
+            var7['tooltipSubtitle'] = var8;
+            var4 = var7;
+case 2:
+            var1['questHomeEntrypoint'] = var4;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var7 = var3[var6];
+            var9 = var4.bind(var5)(var7);
+            var8 = var9.resolveAdCreativeCdnUrl;
+            var7 = var2.shelf_image;
+            var7 = var8.bind(var9)(var7);
+            var1['shelfImage'] = var7;
+            var3 = var3[var6];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.resolveAdCreativeCdnUrl;
             var2 = var2.shelf_video;
             var2 = var3.bind(var4)(var2);
             var1['shelfVideo'] = var2;

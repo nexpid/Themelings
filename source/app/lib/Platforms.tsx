@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6[var12];
     var14 = var5.bind(var1)(var8);
     var9 = var14.unsafe_getRawColor;
-    var8 = 'TWITCH';
+    var8 = 'PLATFORM_TWITCH';
     var8 = var9.bind(var14)(var8);
     var2['color'] = var8;
     var8 = {};
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var12];
     var15 = var5.bind(var1)(var9);
     var14 = var15.unsafe_getRawColor;
-    var9 = 'YOUTUBE';
+    var9 = 'PLATFORM_YOUTUBE';
     var9 = var14.bind(var15)(var9);
     var2['color'] = var9;
     var9 = {};
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var12];
     var15 = var5.bind(var1)(var9);
     var14 = var15.unsafe_getRawColor;
-    var9 = 'BATTLENET';
+    var9 = 'PLATFORM_BATTLENET';
     var9 = var14.bind(var15)(var9);
     var2['color'] = var9;
     var9 = {};
@@ -222,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var12];
     var15 = var5.bind(var1)(var9);
     var14 = var15.unsafe_getRawColor;
-    var9 = 'BUNGIE';
+    var9 = 'PLATFORM_BUNGIE';
     var9 = var14.bind(var15)(var9);
     var2['color'] = var9;
     var9 = {};
@@ -261,7 +261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var12];
     var15 = var5.bind(var1)(var9);
     var14 = var15.unsafe_getRawColor;
-    var9 = 'SKYPE';
+    var9 = 'PLATFORM_SKYPE';
     var9 = var14.bind(var15)(var9);
     var2['color'] = var9;
     var9 = {};
@@ -314,7 +314,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var16 = var5.bind(var1)(var14);
     var15 = var16.unsafe_getRawColor;
-    var14 = 'LOL';
+    var14 = 'PLATFORM_LOL';
     var14 = var15.bind(var16)(var14);
     var2['color'] = var14;
     var14 = {};
@@ -353,7 +353,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var16 = var5.bind(var1)(var14);
     var15 = var16.unsafe_getRawColor;
-    var14 = 'STEAM';
+    var14 = 'PLATFORM_STEAM';
     var14 = var15.bind(var16)(var14);
     var2['color'] = var14;
     var14 = {};
@@ -405,7 +405,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var16 = var5.bind(var1)(var14);
     var15 = var16.unsafe_getRawColor;
-    var14 = 'REDDIT';
+    var14 = 'PLATFORM_REDDIT';
     var14 = var15.bind(var16)(var14);
     var2['color'] = var14;
     var14 = {};
@@ -459,7 +459,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var16 = var5.bind(var1)(var14);
     var15 = var16.unsafe_getRawColor;
-    var14 = 'FACEBOOK';
+    var14 = 'PLATFORM_FACEBOOK';
     var14 = var15.bind(var16)(var14);
     var2['color'] = var14;
     var14 = {};
@@ -498,7 +498,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var15 = var5.bind(var1)(var14);
     var14 = var15.unsafe_getRawColor;
-    var16 = 'TWITTER';
+    var16 = 'PLATFORM_TWITTER';
     var14 = var14.bind(var15)(var16);
     var2['color'] = var14;
     var14 = {};
@@ -607,7 +607,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var16 = var5.bind(var1)(var14);
     var15 = var16.unsafe_getRawColor;
-    var14 = 'SPOTIFY';
+    var14 = 'PLATFORM_SPOTIFY';
     var14 = var15.bind(var16)(var14);
     var2['color'] = var14;
     var14 = {};
@@ -658,7 +658,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var16 = var5.bind(var1)(var14);
     var15 = var16.unsafe_getRawColor;
-    var14 = 'XBOX';
+    var14 = 'PLATFORM_XBOX';
     var14 = var15.bind(var16)(var14);
     var2['color'] = var14;
     var14 = {};
@@ -699,7 +699,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var16 = var5.bind(var1)(var14);
     var15 = var16.unsafe_getRawColor;
-    var14 = 'SAMSUNG';
+    var14 = 'PLATFORM_SAMSUNG';
     var14 = var15.bind(var16)(var14);
     var2['color'] = var14;
     var14 = {};
@@ -736,7 +736,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var16 = var5.bind(var1)(var14);
     var15 = var16.unsafe_getRawColor;
-    var14 = 'GITHUB';
+    var14 = 'PLATFORM_GITHUB';
     var14 = var15.bind(var16)(var14);
     var2['color'] = var14;
     var14 = {};
@@ -789,7 +789,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var15 = var5.bind(var1)(var14);
     var14 = var15.unsafe_getRawColor;
-    var20 = 'PLAYSTATION';
+    var20 = 'PLATFORM_PLAYSTATION';
     var14 = var14.bind(var15)(var20);
     var2['color'] = var14;
     var14 = {};
@@ -1169,7 +1169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var14 = var5.bind(var1)(var12);
     var13 = var14.unsafe_getRawColor;
-    var12 = 'CRUNCHYROLL';
+    var12 = 'PLATFORM_CRUNCHYROLL';
     var12 = var13.bind(var14)(var12);
     var2['color'] = var12;
     var12 = {};

@@ -280,6 +280,24 @@ case 2:
     };
     var10['isEnabled'] = var12;
     var14[10] = var10;
+    var11 = var9.GUILD_THEME;
+    var10 = {};
+    var10['boostPrice'] = var2;
+    var12 = function isEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 9;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.getServerThemeEnabled;
+        var2 = arg1;
+        var1 = 'GuildPowerupsConstants';
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var10['isEnabled'] = var12;
+    var14[10] = var10;
     var13 = {};
     var10 = var9.GAME_SERVERS;
     var9 = {};
@@ -287,7 +305,7 @@ case 2:
     var11 = function isEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 9;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -434,7 +452,7 @@ case 2:
     var2['HALF'] = var25;
     var25 = 'none';
     var2['NONE'] = var25;
-    var25 = 10;
+    var25 = 11;
     var25 = var27[var25];
     var27 = var26.bind(var1)(var25);
     var26 = var27.fileFinishedImporting;

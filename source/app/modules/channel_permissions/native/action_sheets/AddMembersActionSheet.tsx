@@ -1005,7 +1005,7 @@ case 66:
     var10['flex'] = var11;
     var5['container'] = var10;
     var10 = {};
-    var11 = 'center';
+    var11 = 'stretch';
     var10['alignItems'] = var11;
     var11 = 14;
     var13 = var7[var11];

@@ -2164,47 +2164,29 @@ case 40:
         var5 = function checkDimensionsMismatch(arg1, arg2) {
             _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
-                var8 = arg1;
-                var7 = arg2;
-                var5 = this;
-                var1 = var5.props;
-                var1 = var1.windowWidth;
-                if(!(var1 === var8)) { _fun0023_ip = 218; continue _fun0023 }
-case 213:
-                var1 = var5.props;
-                var1 = var1.windowHeight;
-                if(!(var1 !== var7)) { _fun0023_ip = 219; continue _fun0023 }
-case 218:
-                var1 = var5.props;
-                var4 = var1.windowWidth;
-                var1 = var5.props;
-                var3 = var1.windowHeight;
-                var2 = var5.dirty;
-                var1 = {};
-                var9 = var5.props;
-                var10 = var1;
-                var6 = copyDataProperties(var10, var9);
-                var6 = 'windowWidth';
-                var1[5] = var8;
-                var6 = 'windowHeight';
-                var1[5] = var7;
-                var6 = _closure1_slot13;
-                var7 = var7 / var6;
-                var6 = 'chunkSize';
-                var1[5] = var7;
-                var5['props'] = var1;
-                var6 = var5.setDirty;
-                var1 = true;
-                var1 = var6.bind(var5)(var1);
-                var1 = var5.deferredLayoutChange;
-                var1 = var1.bind(var5)();
-                var1 = {};
-                var1['staleWidth'] = var4;
-                var1['staleHeight'] = var3;
-                var1['wasDirty'] = var2;
-                return var1;
-case 219:
+                var3 = this;
+                var1 = var3.props;
+                var2 = var1.windowWidth;
+                var1 = arg1;
+                if(!(var2 === var1)) { _fun0023_ip = 46; continue _fun0023 }
+case 69:
+                var1 = var3.props;
+                var4 = var1.windowHeight;
+                var2 = arg2;
                 var1 = null;
+                if(!(var4 !== var2)) { _fun0023_ip = 218; continue _fun0023 }
+case 46:
+                var2 = {};
+                var4 = var3.props;
+                var4 = var4.windowWidth;
+                var2['staleWidth'] = var4;
+                var4 = var3.props;
+                var4 = var4.windowHeight;
+                var2['staleHeight'] = var4;
+                var3 = var3.dirty;
+                var2['wasDirty'] = var3;
+                var1 = var2;
+case 218:
                 return var1;
             }
         };

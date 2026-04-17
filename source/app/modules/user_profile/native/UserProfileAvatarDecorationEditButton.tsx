@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.MOBILE_SETTINGS_AVATAR_DECORATION_SIZE;
+    var4 = var4.COLLECTIBLES_PREVIEW_SIZE;
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];

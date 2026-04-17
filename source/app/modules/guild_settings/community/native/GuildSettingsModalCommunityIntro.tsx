@@ -573,7 +573,7 @@ case 8:
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.unsafe_rawColors;
-            var5 = var5.PARTNER;
+            var5 = var5.PLATFORM_PARTNER;
             var1['color'] = var5;
             var1 = var4.bind(var3)(var2, var1);
             return var1;

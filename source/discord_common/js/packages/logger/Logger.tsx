@@ -570,8 +570,8 @@ case 4:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0010_ip = 10; continue _fun0010 }
-case 11:
+                                if(var2) { _fun0010_ip = 6; continue _fun0010 }
+case 10:
                                 var3 = global;
                                 var4 = var3.Date;
                                 var2 = var4.now;
@@ -580,12 +580,12 @@ case 11:
                                 var2 = undefined;
                                 var2 = var5.bind(var2)();
                                 SaveGenerator(address=37);
-case 12:
+case 11:
                                 return var2;
-case 13:
+case 12:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(var5) { _fun0010_ip = 14; continue _fun0010 }
-case 15:
+                                if(var5) { _fun0010_ip = 13; continue _fun0010 }
+case 14:
                                 var6 = _closure3_slot1;
                                 var5 = var6.log;
                                 var7 = var3.Date;
@@ -597,9 +597,9 @@ case 15:
                                 var3 = var7 + var3;
                                 var3 = var5.bind(var6)(var4, var3);
                                 return var2;
-case 14:
+case 13:
                                 return var2;
-case 10:
+case 6:
                                 return var1;
                             }
                         };
@@ -646,12 +646,12 @@ case 0:
                         var11 = undefined;
                         var9 = apply(var13, var12, var11);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0011_ip = 16; continue _fun0011 }
-case 17:
+                        if(!var8) { _fun0011_ip = 15; continue _fun0011 }
+case 16:
                         var9 = _closure1_slot6;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0011_ip = 16; continue _fun0011 }
-case 18:
+                        if(!(var8 != var9)) { _fun0011_ip = 15; continue _fun0011 }
+case 17:
                         var3 = _closure1_slot6;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -667,7 +667,7 @@ case 18:
                         var12 = var2;
                         var11 = undefined;
                         var2 = apply(var13, var12, var11);
-case 16:
+case 15:
                         return var1;
                     }
                 };

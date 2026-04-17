@@ -2715,7 +2715,7 @@ case 300:
 case 299:
                     var7 = false;
                     var26 = false;
-                    if(!var3) { _fun0023_ip = 212; continue _fun0023 }
+                    if(!var3) { _fun0023_ip = 301; continue _fun0023 }
 case 145:
                     var19 = _closure1_slot0;
                     var20 = _closure1_slot2;
@@ -2750,7 +2750,7 @@ case 145:
                     var10 = var12.bind(var19)(var10);
                     var27 = var5;
                     var26 = var3;
-case 212:
+case 301:
                     var5 = var15.startsWith;
                     var3 = 'ph://';
                     var5 = var5.bind(var15)(var3);
@@ -2761,13 +2761,13 @@ case 212:
                     var12 = var12.bind(var6)(var3);
                     var3 = var12.isIOS;
                     var3 = var3.bind(var12)();
-                    if(!var3) { _fun0023_ip = 301; continue _fun0023 }
-case 302:
+                    if(!var3) { _fun0023_ip = 253; continue _fun0023 }
+case 131:
                     var3 = var5;
-case 301:
+case 253:
                     var20 = false;
-                    if(!var3) { _fun0023_ip = 303; continue _fun0023 }
-case 304:
+                    if(!var3) { _fun0023_ip = 302; continue _fun0023 }
+case 171:
                     var5 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var3 = 24;
@@ -2779,10 +2779,10 @@ case 304:
                     var3['location'] = var19;
                     var3 = var5.bind(var12)(var3);
                     var20 = var3.useEnhancedConversion;
-case 303:
+case 302:
                     var23 = false;
-                    if(!var11) { _fun0023_ip = 305; continue _fun0023 }
-case 60:
+                    if(!var11) { _fun0023_ip = 303; continue _fun0023 }
+case 304:
                     var12 = _closure1_slot0;
                     var19 = _closure1_slot2;
                     var3 = 25;
@@ -2800,12 +2800,12 @@ case 60:
                     var3 = var3.bind(var12)();
                     var12 = !var3;
                     var3 = !var12;
-                    if(!var12) { _fun0023_ip = 306; continue _fun0023 }
-case 307:
-                    var3 = var5.enabled;
+                    if(!var12) { _fun0023_ip = 305; continue _fun0023 }
 case 306:
-                    var23 = var3;
+                    var3 = var5.enabled;
 case 305:
+                    var23 = var3;
+case 303:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var3 = var3[var10];
@@ -2817,15 +2817,15 @@ case 305:
                     var12 = var27;
                     var21 = var26;
                     var19 = false;
-                    if(!var5) { _fun0023_ip = 308; continue _fun0023 }
-case 309:
+                    if(!var5) { _fun0023_ip = 307; continue _fun0023 }
+case 37:
                     var10 = undefined;
                     var3 = undefined;
                     var12 = var27;
                     var21 = var26;
                     var19 = false;
-                    if(!var11) { _fun0023_ip = 308; continue _fun0023 }
-case 310:
+                    if(!var11) { _fun0023_ip = 307; continue _fun0023 }
+case 308:
                     var24 = _closure1_slot0;
                     var25 = _closure1_slot2;
                     var5 = 26;
@@ -2834,8 +2834,8 @@ case 310:
                     var5 = var24.isDiscordFrontendDevelopment;
                     var25 = var5.bind(var24)();
                     var5 = true;
-                    if(var25) { _fun0023_ip = 311; continue _fun0023 }
-case 312:
+                    if(var25) { _fun0023_ip = 309; continue _fun0023 }
+case 215:
                     var28 = _closure1_slot0;
                     var29 = _closure1_slot2;
                     var25 = 27;
@@ -2847,14 +2847,14 @@ case 312:
                     var25['location'] = var30;
                     var25 = var28.bind(var29)(var25);
                     var5 = var25.useJpegliEncoder;
-case 311:
+case 309:
                     var10 = undefined;
                     var3 = undefined;
                     var12 = var27;
                     var21 = var26;
                     var19 = var5;
-                    if(var22) { _fun0023_ip = 308; continue _fun0023 }
-case 313:
+                    if(var22) { _fun0023_ip = 307; continue _fun0023 }
+case 310:
                     var25 = var9.width;
                     var28 = null;
                     var25 = var28 != var25;
@@ -2863,8 +2863,8 @@ case 313:
                     var12 = var27;
                     var21 = var26;
                     var19 = var5;
-                    if(!var25) { _fun0023_ip = 308; continue _fun0023 }
-case 314:
+                    if(!var25) { _fun0023_ip = 307; continue _fun0023 }
+case 311:
                     var25 = var9.height;
                     var25 = var28 != var25;
                     var10 = undefined;
@@ -2872,8 +2872,8 @@ case 314:
                     var12 = var27;
                     var21 = var26;
                     var19 = var5;
-                    if(!var25) { _fun0023_ip = 308; continue _fun0023 }
-case 315:
+                    if(!var25) { _fun0023_ip = 307; continue _fun0023 }
+case 312:
                     var28 = _closure1_slot0;
                     var29 = _closure1_slot2;
                     var25 = 28;
@@ -2890,8 +2890,8 @@ case 315:
                     var12 = var27;
                     var21 = var26;
                     var19 = var5;
-                    if(!var25) { _fun0023_ip = 308; continue _fun0023 }
-case 189:
+                    if(!var25) { _fun0023_ip = 307; continue _fun0023 }
+case 313:
                     var26 = _closure1_slot0;
                     var27 = _closure1_slot2;
                     var25 = 23;
@@ -2912,7 +2912,7 @@ case 189:
                     var3 = var26.targetHeight;
                     var21 = true;
                     var19 = var5;
-case 308:
+case 307:
                     var5 = {};
                     var5['uri'] = var15;
                     var5['filename'] = var16;
@@ -2935,30 +2935,30 @@ case 308:
                         return var1;
                     };
                     var3 = var3.bind(var6)(var5);
-                    SaveGenerator(address=968);
-case 316:
+                    SaveGenerator(address=969);
+case 314:
                     return var3;
-case 317:
+case 315:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0023_ip = 318; continue _fun0023 }
-case 319:
+                    if(var5) { _fun0023_ip = 316; continue _fun0023 }
+case 317:
                     var10 = null;
-                    if(!(var10 == var3)) { _fun0023_ip = 320; continue _fun0023 }
+                    if(!(var10 == var3)) { _fun0023_ip = 318; continue _fun0023 }
+case 319:
+                    if(!(var8 === var6)) { _fun0023_ip = 320; continue _fun0023 }
 case 321:
-                    if(!(var8 === var6)) { _fun0023_ip = 322; continue _fun0023 }
-case 323:
                     var8 = true;
-case 322:
+case 320:
                     var5 = _closure1_slot37;
                     var5 = var5.bind(var6)(var15);
-                    if(var5) { _fun0023_ip = 324; continue _fun0023 }
-case 325:
+                    if(var5) { _fun0023_ip = 322; continue _fun0023 }
+case 323:
                     var5 = global;
                     var19 = var5.Promise;
                     var5 = var19.resolve;
                     var5 = var5.bind(var19)(var15);
-                    _fun0023_ip = 326; continue _fun0023;
-case 324:
+                    _fun0023_ip = 324; continue _fun0023;
+case 322:
                     var20 = _closure1_slot28;
                     var19 = {};
                     var19['compressionQuality'] = var12;
@@ -2969,24 +2969,24 @@ case 324:
                     var19['allowOptimization'] = var8;
                     var8 = 'resolveToMediaFilePath';
                     var5 = var20.bind(var6)(var8, var15, var19);
-case 326:
-                    SaveGenerator(address=1071);
-case 327:
+case 324:
+                    SaveGenerator(address=1072);
+case 325:
                     return var5;
-case 328:
+case 326:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
                     var20 = var8;
                     var19 = var5;
                     var8 = undefined;
-                    if(!var20) { _fun0023_ip = 329; continue _fun0023 }
-case 330:
+                    if(!var20) { _fun0023_ip = 327; continue _fun0023 }
+case 328:
                     return var5;
-case 320:
+case 318:
                     var19 = var3.path;
                     var8 = var3.encoderUsed;
-case 329:
-                    if(!(var10 != var19)) { _fun0023_ip = 331; continue _fun0023 }
-case 332:
+case 327:
+                    if(!(var10 != var19)) { _fun0023_ip = 329; continue _fun0023 }
+case 330:
                     var5 = _closure1_slot41;
                     var4 = {};
                     var4['path'] = var19;
@@ -3002,31 +3002,31 @@ case 332:
                     var4['imageEncoderType'] = var8;
                     var11 = var10 == var3;
                     var8 = undefined;
-                    if(var11) { _fun0023_ip = 333; continue _fun0023 }
-case 334:
+                    if(var11) { _fun0023_ip = 331; continue _fun0023 }
+case 332:
                     var8 = var3.outputWidth;
-case 333:
-                    if(!(var10 == var8)) { _fun0023_ip = 335; continue _fun0023 }
-case 336:
+case 331:
+                    if(!(var10 == var8)) { _fun0023_ip = 333; continue _fun0023 }
+case 334:
                     var8 = var9.width;
-case 335:
+case 333:
                     var4['uploadedImageWidth'] = var8;
                     var11 = var10 == var3;
                     var8 = undefined;
-                    if(var11) { _fun0023_ip = 337; continue _fun0023 }
-case 338:
+                    if(var11) { _fun0023_ip = 156; continue _fun0023 }
+case 335:
                     var8 = var3.outputHeight;
+case 156:
+                    if(!(var10 == var8)) { _fun0023_ip = 336; continue _fun0023 }
 case 337:
-                    if(!(var10 == var8)) { _fun0023_ip = 339; continue _fun0023 }
-case 340:
                     var8 = var9.height;
-case 339:
+case 336:
                     var4['uploadedImageHeight'] = var8;
                     var4['attachmentQualityMetricsEnabled'] = var7;
                     var4['attachmentOriginDetectionEnabled'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var4;
-case 331:
+case 329:
                     var4 = global;
                     var6 = var4.Error;
                     var4 = var6.prototype;
@@ -3036,7 +3036,7 @@ case 331:
                     var4 = new var40[var6](var39, var38);
                     var4 = var4 instanceof Object ? var4 : var5;
                     throw var4;
-case 318:
+case 316:
                     return var3;
 case 296:
                     return var2;
@@ -3069,7 +3069,7 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0024_ip = 316; continue _fun0024 }
+                    if(var3) { _fun0024_ip = 338; continue _fun0024 }
 case 136:
                     var4 = var2.uri;
                     var10 = var2.filename;
@@ -3087,7 +3087,7 @@ case 77:
                     return var8;
 case 297:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0024_ip = 341; continue _fun0024 }
+                    if(var5) { _fun0024_ip = 339; continue _fun0024 }
 case 19:
                     var19 = var4;
                     var9 = _closure1_slot0;
@@ -3097,16 +3097,16 @@ case 19:
                     var9 = var9.bind(var8)(var5);
                     var5 = var9.isIOS;
                     var5 = var5.bind(var9)();
-                    if(!var5) { _fun0024_ip = 342; continue _fun0024 }
-case 343:
+                    if(!var5) { _fun0024_ip = 340; continue _fun0024 }
+case 341:
                     var11 = var19.match;
                     var9 = _closure1_slot22;
                     var11 = var11.bind(var19)(var9);
                     var9 = null;
                     var5 = var9 != var11;
-case 342:
-                    if(var5) { _fun0024_ip = 344; continue _fun0024 }
-case 345:
+case 340:
+                    if(var5) { _fun0024_ip = 342; continue _fun0024 }
+case 343:
                     var19 = var4;
                     var9 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -3122,10 +3122,10 @@ case 205:
                     var9 = null;
                     var5 = var9 != var11;
 case 286:
-                    if(var5) { _fun0024_ip = 346; continue _fun0024 }
-case 347:
+                    if(var5) { _fun0024_ip = 344; continue _fun0024 }
+case 345:
                     if(!var17) { _fun0024_ip = 131; continue _fun0024 }
-case 348:
+case 346:
                     var9 = var4;
                     var5 = function shouldConvertToPNG() {
                         var1 = undefined;
@@ -3139,14 +3139,14 @@ case 348:
                     };
                     var5 = var5.bind(var8)(var9, var10);
                     SaveGenerator(address=239);
-case 349:
+case 347:
                     return var5;
-case 350:
+case 348:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(var9) { _fun0024_ip = 351; continue _fun0024 }
-case 352:
+                    if(var9) { _fun0024_ip = 349; continue _fun0024 }
+case 350:
                     if(!var5) { _fun0024_ip = 131; continue _fun0024 }
-case 353: // try_start_0
+case 351: // try_start_0
                     var11 = {};
                     var9 = _closure1_slot6;
                     var20 = var9.MediaManager;
@@ -3154,12 +3154,12 @@ case 353: // try_start_0
                     var9 = var4;
                     var9 = var19.bind(var20)(var9);
                     SaveGenerator(address=286);
-case 354:
+case 352:
                     return var9;
 case 211:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=18);
-                    if(var19) { _fun0024_ip = 355; continue _fun0024 }
-case 356:
+                    if(var19) { _fun0024_ip = 353; continue _fun0024 }
+case 354:
                     var11['path'] = var9;
                     var20 = _closure1_slot0;
                     var21 = _closure1_slot2;
@@ -3171,9 +3171,9 @@ case 356:
                     var11['encoderUsed'] = var19;
 case 291: // try_end0
                     return var11;
-case 355:
+case 353:
                     return var9;
-case 357: // catch_target0
+case 355: // catch_target0
                     CatchBlockStart(arg_register=20);
                     var19 = _closure1_slot21;
                     var11 = var19.error;
@@ -3192,7 +3192,7 @@ case 131:
                     var23 = var17;
                     var22 = var16;
                     var9 = var27[var11](var26, var25, var24, var23, var22, var21);
-                    if(var9) { _fun0024_ip = 358; continue _fun0024 }
+                    if(var9) { _fun0024_ip = 356; continue _fun0024 }
 case 31:
                     var17 = var4;
                     var11 = _closure1_slot0;
@@ -3203,13 +3203,13 @@ case 31:
                     var9 = var9.bind(var11)();
                     var11 = !var9;
                     var9 = !var11;
-                    if(var11) { _fun0024_ip = 359; continue _fun0024 }
+                    if(var11) { _fun0024_ip = 357; continue _fun0024 }
 case 223:
                     var11 = _closure1_slot33;
                     var11 = var11.bind(var8)(var17, var10);
                     var16 = null;
                     if(var11) { _fun0024_ip = 229; continue _fun0024 }
-case 360:
+case 358:
                     var15 = var17.match;
                     var11 = /^assets-library:\/\/.+&ext=gif$/i;
                     var11 = var15.bind(var17)(var11);
@@ -3218,43 +3218,43 @@ case 360:
 case 229:
                     var17 = var16 == var10;
                     var15 = undefined;
-                    if(var17) { _fun0024_ip = 361; continue _fun0024 }
-case 362:
+                    if(var17) { _fun0024_ip = 359; continue _fun0024 }
+case 360:
                     var18 = var10.match;
                     var17 = /\.gif$/i;
                     var15 = var18.bind(var10)(var17);
-case 361:
+case 359:
                     var11 = var16 != var15;
 case 263:
                     var9 = var11;
-case 359:
-                    if(var9) { _fun0024_ip = 363; continue _fun0024 }
+case 357:
+                    if(var9) { _fun0024_ip = 361; continue _fun0024 }
 case 233:
                     var9 = null;
                     return var9;
-case 363:
+case 361:
                     var15 = _closure1_slot28;
                     var11 = var4;
                     var9 = 'convertToGIFFilePath';
                     var9 = var15.bind(var8)(var9, var11);
                     SaveGenerator(address=568);
-case 364:
+case 362:
                     return var9;
-case 309:
+case 363:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=10);
-                    if(var11) { _fun0024_ip = 365; continue _fun0024 }
+                    if(var11) { _fun0024_ip = 364; continue _fun0024 }
 case 282:
                     var11 = null;
-                    if(!var9) { _fun0024_ip = 366; continue _fun0024 }
+                    if(!var9) { _fun0024_ip = 365; continue _fun0024 }
 case 36:
                     var15 = {};
                     var15['path'] = var9;
                     var11 = var15;
-case 366:
-                    return var11;
 case 365:
+                    return var11;
+case 364:
                     return var9;
-case 358:
+case 356:
                     var9 = _closure1_slot34;
                     var11 = var4;
                     var15 = var9.bind(var8)(var11, var10);
@@ -3271,43 +3271,43 @@ case 358:
                     SaveGenerator(address=663);
 case 43:
                     return var7;
-case 367:
+case 366:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=8);
-                    if(var9) { _fun0024_ip = 368; continue _fun0024 }
-case 369:
+                    if(var9) { _fun0024_ip = 367; continue _fun0024 }
+case 368:
                     var9 = null;
                     var11 = var9 == var7;
                     var10 = undefined;
-                    if(var11) { _fun0024_ip = 370; continue _fun0024 }
-case 371:
-                    var10 = var7.path;
+                    if(var11) { _fun0024_ip = 369; continue _fun0024 }
 case 370:
+                    var10 = var7.path;
+case 369:
                     var14 = var7;
-                    if(!(var9 != var10)) { _fun0024_ip = 372; continue _fun0024 }
-case 373:
-                    var14 = var10;
+                    if(!(var9 != var10)) { _fun0024_ip = 371; continue _fun0024 }
 case 372:
+                    var14 = var10;
+case 371:
                     var10 = var9 == var7;
                     var13 = undefined;
                     if(var10) { _fun0024_ip = 188; continue _fun0024 }
-case 374:
+case 373:
                     var13 = var7.encoderUsed;
 case 188:
                     var10 = var9 == var7;
                     var12 = undefined;
-                    if(var10) { _fun0024_ip = 375; continue _fun0024 }
-case 376:
+                    if(var10) { _fun0024_ip = 374; continue _fun0024 }
+case 311:
                     var12 = var7.outputWidth;
-case 375:
+case 374:
                     var10 = var9 == var7;
                     var11 = undefined;
-                    if(var10) { _fun0024_ip = 377; continue _fun0024 }
-case 378:
+                    if(var10) { _fun0024_ip = 375; continue _fun0024 }
+case 376:
                     var11 = var7.outputHeight;
-case 377:
+case 375:
                     var9 = null;
                     if(!var14) { _fun0024_ip = 32; continue _fun0024 }
-case 379:
+case 377:
                     var10 = {};
                     var10['path'] = var14;
                     var10['encoderUsed'] = var13;
@@ -3316,11 +3316,11 @@ case 379:
                     var9 = var10;
 case 32:
                     return var9;
-case 368:
+case 367:
                     return var7;
-case 351:
+case 349:
                     return var5;
-case 346:
+case 344:
                     var9 = _closure1_slot28;
                     var11 = var4;
                     var10 = var11.replace;
@@ -3330,23 +3330,23 @@ case 346:
                     var5 = 'convertBase64ToGIF';
                     var5 = var9.bind(var8)(var5, var7);
                     SaveGenerator(address=822);
-case 380:
+case 378:
                     return var5;
-case 381:
+case 379:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0024_ip = 382; continue _fun0024 }
-case 383:
+                    if(var7) { _fun0024_ip = 380; continue _fun0024 }
+case 381:
                     var7 = null;
-                    if(!var5) { _fun0024_ip = 384; continue _fun0024 }
-case 385:
+                    if(!var5) { _fun0024_ip = 382; continue _fun0024 }
+case 383:
                     var9 = {};
                     var9['path'] = var5;
                     var7 = var9;
-case 384:
-                    return var7;
 case 382:
+                    return var7;
+case 380:
                     return var5;
-case 344:
+case 342:
                     var7 = _closure1_slot28;
                     var10 = var4;
                     var9 = var10.replace;
@@ -3358,15 +3358,15 @@ case 344:
                     var3 = 'convertBase64ToJPEG';
                     var3 = var7.bind(var8)(var3, var5, var4);
                     SaveGenerator(address=899);
-case 386:
+case 384:
                     return var3;
-case 387:
+case 385:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0024_ip = 388; continue _fun0024 }
-case 389:
+                    if(var4) { _fun0024_ip = 386; continue _fun0024 }
+case 387:
                     var4 = null;
-                    if(!var3) { _fun0024_ip = 390; continue _fun0024 }
-case 391:
+                    if(!var3) { _fun0024_ip = 388; continue _fun0024 }
+case 389:
                     var5 = {};
                     var5['path'] = var3;
                     var7 = _closure1_slot0;
@@ -3378,13 +3378,13 @@ case 391:
                     var6 = var6.NATIVE;
                     var5['encoderUsed'] = var6;
                     var4 = var5;
-case 390:
-                    return var4;
 case 388:
+                    return var4;
+case 386:
                     return var3;
-case 341:
+case 339:
                     return var2;
-case 316:
+case 338:
                     return var1;
                 }
             };
@@ -3413,7 +3413,7 @@ case 0:
                     StartGenerator();
                     var9 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0025_ip = 392; continue _fun0025 }
+                    if(var2) { _fun0025_ip = 390; continue _fun0025 }
 case 136:
                     var7 = var9;
                     var2 = undefined;
@@ -3446,7 +3446,7 @@ case 52:
                     var6 = var8;
 case 101:
                     var3['rotationDegrees'] = var6;
-case 393: // try_end0
+case 391: // try_end0
                     return var5;
 case 103:
                     return var3;
@@ -3461,7 +3461,7 @@ case 108: // catch_target0
                     var3 = var5.bind(var6)(var3, var4);
 case 201:
                     return var2;
-case 392:
+case 390:
                     return var1;
                 }
             };
@@ -3482,7 +3482,7 @@ case 392:
 case 0:
             var3 = arg3;
             var1 = arg2;
-            if(var1) { _fun0026_ip = 394; continue _fun0026 }
+            if(var1) { _fun0026_ip = 392; continue _fun0026 }
 case 237:
             var4 = 'image/gif';
             var2 = arg1;
@@ -3491,13 +3491,13 @@ case 237:
 case 68:
             var1 = 'GIF';
             _fun0026_ip = 94; continue _fun0026;
-case 394:
+case 392:
             var4 = var3.playableDuration;
             var2 = null;
             var4 = var2 != var4;
             var2 = 'VIDEO';
             if(!var4) { _fun0026_ip = 20; continue _fun0026 }
-case 395:
+case 393:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var4 = 30;
@@ -3535,7 +3535,7 @@ case 0:
                     var6 = arg2;
                     var5 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0027_ip = 396; continue _fun0027 }
+                    if(var4) { _fun0027_ip = 394; continue _fun0027 }
 case 79:
                     var3 = arg1;
                     var13 = undefined;
@@ -3547,10 +3547,10 @@ case 79:
                     var4['height'] = var5;
                     var2 = var4;
                     var4 = null;
-                    if(!(var4 != var6)) { _fun0027_ip = 397; continue _fun0027 }
+                    if(!(var4 != var6)) { _fun0027_ip = 395; continue _fun0027 }
 case 92:
-                    if(!(var4 == var5)) { _fun0027_ip = 398; continue _fun0027 }
-case 397:
+                    if(!(var4 == var5)) { _fun0027_ip = 396; continue _fun0027 }
+case 395:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var5 = 11;
@@ -3570,7 +3570,7 @@ case 138:
                     var5 = var10;
                     var5 = var5.isVideo;
                     if(var5) { _fun0027_ip = 97; continue _fun0027 }
-case 399:
+case 397:
                     var5 = var2;
                     return var5;
 case 97: // try_start_0
@@ -3610,12 +3610,12 @@ case 97: // try_start_0
                     };
                     var5 = var5.bind(var13)(var6);
                     SaveGenerator(address=153);
-case 400:
+case 398:
                     return var5;
-case 345:
+case 343:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(var6) { _fun0027_ip = 401; continue _fun0027 }
-case 402:
+                    if(var6) { _fun0027_ip = 399; continue _fun0027 }
+case 400:
                     var7 = var5;
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
@@ -3626,12 +3626,12 @@ case 402:
                     var11 = var11.bind(var12)();
                     var9 = var11;
                     if(!var11) { _fun0027_ip = 286; continue _fun0027 }
-case 403:
+case 401:
                     var9 = var10.isVideo;
 case 286:
                     var8 = var9;
                     if(!var9) { _fun0027_ip = 56; continue _fun0027 }
-case 347:
+case 345:
                     var9 = var7;
                     var10 = var9.width;
                     var9 = 0;
@@ -3645,7 +3645,7 @@ case 23:
                     var8 = 0;
                     var6 = var8 === var9;
 case 209:
-                    if(!var6) { _fun0027_ip = 404; continue _fun0027 }
+                    if(!var6) { _fun0027_ip = 402; continue _fun0027 }
 case 119:
                     var6 = _closure1_slot6;
                     var9 = var6.DCDFileManager;
@@ -3653,20 +3653,20 @@ case 119:
                     var6 = var3;
                     var6 = var8.bind(var9)(var6);
                     SaveGenerator(address=280);
-case 405:
+case 403:
                     return var6;
-case 406:
+case 404:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(var8) { _fun0027_ip = 356; continue _fun0027 }
+                    if(var8) { _fun0027_ip = 354; continue _fun0027 }
 case 211:
                     var7 = var6;
-case 404: // try_end0
+case 402: // try_end0
                     return var7;
-case 356:
+case 354:
                     return var6;
-case 401:
+case 399:
                     return var5;
-case 407: // catch_target0
+case 405: // catch_target0
                     CatchBlockStart(arg_register=5);
                     var5 = _closure1_slot21;
                     var4 = var5.warn;
@@ -3679,9 +3679,9 @@ case 407: // catch_target0
                     var3 = var4.bind(var5)(var3, var6);
                     var3 = var2;
                     return var3;
-case 398:
-                    return var2;
 case 396:
+                    return var2;
+case 394:
                     return var1;
                 }
             };
@@ -3718,20 +3718,20 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0028_ip = 53; continue _fun0028 }
-case 408: // try_start_0
+case 406: // try_start_0
                     var2 = _closure1_slot6;
                     var3 = var2.MediaManager;
                     var2 = var3.isHEVCEncodingSupported;
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=34);
-case 409:
+case 407:
                     return var2;
 case 86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0028_ip = 410; continue _fun0028 }
-case 411: // try_end0
+                    if(var3) { _fun0028_ip = 408; continue _fun0028 }
+case 409: // try_end0
                     return var2;
-case 410:
+case 408:
                     return var2;
 case 92: // catch_target0
                     CatchBlockStart(arg_register=4);
@@ -3852,7 +3852,7 @@ case 200:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0030_ip = 412; continue _fun0030 }
+                    if(var4) { _fun0030_ip = 410; continue _fun0030 }
 case 3:
                     var5 = arg1;
                     var8 = arg2;
@@ -3861,8 +3861,8 @@ case 3:
                     var3 = undefined;
                     var2 = {};
                     var4 = arg5;
-                    if(!var4) { _fun0030_ip = 413; continue _fun0030 }
-case 394: // try_start_0
+                    if(!var4) { _fun0030_ip = 411; continue _fun0030 }
+case 392: // try_start_0
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var4 = 2;
@@ -3874,7 +3874,7 @@ case 394: // try_start_0
                     var4 = var5;
                     var4 = var7.bind(var9)(var4);
                     SaveGenerator(address=85);
-case 414:
+case 412:
                     return var4;
 case 9:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
@@ -3884,18 +3884,18 @@ case 20:
                     var7 = var4.source;
                     var9['origin'] = var7;
 case 103: // try_end0
-                    _fun0030_ip = 413; continue _fun0030;
+                    _fun0030_ip = 411; continue _fun0030;
 case 236:
                     return var4;
-case 415: // catch_target0
+case 413: // catch_target0
                     CatchBlockStart(arg_register=10);
                     var9 = _closure1_slot21;
                     var7 = var9.warn;
                     var4 = 'Failed to detect media origin';
                     var4 = var7.bind(var9)(var4, var11);
-case 413:
+case 411:
                     var4 = arg4;
-                    if(!var4) { _fun0030_ip = 416; continue _fun0030 }
+                    if(!var4) { _fun0030_ip = 414; continue _fun0030 }
 case 111: // try_start_1
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
@@ -3909,20 +3909,20 @@ case 111: // try_start_1
                     var9 = var10.includes;
                     var7 = '://';
                     var7 = var9.bind(var10)(var7);
-                    if(var7) { _fun0030_ip = 355; continue _fun0030 }
-case 417:
+                    if(var7) { _fun0030_ip = 353; continue _fun0030 }
+case 415:
                     var10 = var8;
                     var9 = var10.includes;
                     var7 = '/';
                     var7 = var9.bind(var10)(var7);
-                    if(var7) { _fun0030_ip = 418; continue _fun0030 }
-case 419:
+                    if(var7) { _fun0030_ip = 416; continue _fun0030 }
+case 417:
                     var10 = var8;
                     var9 = var10.includes;
                     var7 = '\\';
                     var7 = var9.bind(var10)(var7);
-                    if(var7) { _fun0030_ip = 418; continue _fun0030 }
-case 352:
+                    if(var7) { _fun0030_ip = 416; continue _fun0030 }
+case 350:
                     var9 = var5;
                     var7 = var9.startsWith;
                     var11 = 'ph://';
@@ -3932,15 +3932,15 @@ case 352:
                     var9 = var9.HermesInternal;
                     var9 = var9.concat;
                     if(var7) { _fun0030_ip = 210; continue _fun0030 }
-case 420:
+case 418:
                     var7 = 'file://';
                     var7 = var9.bind(var7)(var10);
-                    _fun0030_ip = 421; continue _fun0030;
+                    _fun0030_ip = 419; continue _fun0030;
 case 210:
                     var7 = var9.bind(var11)(var10);
-case 421:
+case 419:
                     _fun0030_ip = 291; continue _fun0030;
-case 418:
+case 416:
                     var10 = var8;
                     var8 = global;
                     var8 = var8.HermesInternal;
@@ -3949,17 +3949,17 @@ case 418:
                     var7 = var9.bind(var8)(var10);
 case 291:
                     var3 = var7;
-case 355:
+case 353:
                     var7 = var6;
                     var6 = var7.calculateImageQualityMetrics;
                     var3 = var6.bind(var7)(var5, var3);
                     SaveGenerator(address=356);
-case 422:
+case 420:
                     return var3;
-case 423:
+case 421:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0030_ip = 290; continue _fun0030 }
-case 424:
+                    if(var5) { _fun0030_ip = 422; continue _fun0030 }
+case 423:
                     var6 = var2;
                     var5 = var3.psnr;
                     var6['psnr'] = var5;
@@ -3980,19 +3980,19 @@ case 424:
                     var4 = 'dB, SSIM=';
                     var4 = var8.bind(var7)(var10, var4, var9);
                     var4 = var5.bind(var6)(var4);
-case 425: // try_end1
-                    _fun0030_ip = 416; continue _fun0030;
-case 290:
+case 258: // try_end1
+                    _fun0030_ip = 414; continue _fun0030;
+case 422:
                     return var3;
-case 26: // catch_target1
+case 227: // catch_target1
                     CatchBlockStart(arg_register=5);
                     var5 = _closure1_slot21;
                     var4 = var5.warn;
                     var3 = 'Error in quality metrics calculation';
                     var3 = var4.bind(var5)(var3, var6);
-case 416:
+case 414:
                     return var2;
-case 412:
+case 410:
                     return var1;
                 }
             };
@@ -4139,15 +4139,15 @@ case 79:
             var3 = var1.bind(var3)();
             var1 = _closure1_slot16;
             var1 = var1.CELLULAR;
-            if(!(var3 !== var1)) { _fun0031_ip = 426; continue _fun0031 }
+            if(!(var3 !== var1)) { _fun0031_ip = 424; continue _fun0031 }
 case 78:
             var1 = _closure1_slot17;
             var1 = var1.HIGH;
-            _fun0031_ip = 427; continue _fun0031;
-case 426:
+            _fun0031_ip = 425; continue _fun0031;
+case 424:
             var2 = _closure1_slot17;
             var1 = var2.LOW;
-case 427:
+case 425:
             return var1;
         }
     };
@@ -4175,7 +4175,7 @@ case 0:
                 var4 = var4.bind(var1)(var2);
                 var2 = var4.isAndroid;
                 var2 = var2.bind(var4)();
-                if(!var2) { _fun0032_ip = 428; continue _fun0032 }
+                if(!var2) { _fun0032_ip = 426; continue _fun0032 }
 case 148:
                 var4 = _closure2_slot0;
                 var6 = var4.platform;
@@ -4187,7 +4187,7 @@ case 148:
                 var4 = var4.UploadPlatform;
                 var4 = var4.REACT_NATIVE;
                 if(!(var6 !== var4)) { _fun0032_ip = 101; continue _fun0032 }
-case 428:
+case 426:
                 var4 = var5.bind(var1)();
                 _fun0032_ip = 281; continue _fun0032;
 case 101:
@@ -4235,21 +4235,21 @@ case 5:
             var3 = var3.bind(var5)(var1);
             var1 = var3.isAndroid;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0033_ip = 343; continue _fun0033 }
+            if(var1) { _fun0033_ip = 341; continue _fun0033 }
 case 82:
             var1 = _closure1_slot6;
             var3 = var1.DCDFileManager;
             var1 = var3.getSize;
             var1 = var1.bind(var3)(var4);
-            _fun0033_ip = 429; continue _fun0033;
-case 343:
+            _fun0033_ip = 427; continue _fun0033;
+case 341:
             var7 = _closure1_slot1;
             var3 = _closure1_slot2;
             var6 = 17;
             var3 = var3[var6];
             var7 = var7.bind(var5)(var3);
             var3 = null;
-            if(!(var3 != var7)) { _fun0033_ip = 430; continue _fun0033 }
+            if(!(var3 != var7)) { _fun0033_ip = 428; continue _fun0033 }
 case 150:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -4258,7 +4258,7 @@ case 150:
             var2 = var3.getSize;
             var2 = var2.bind(var3)(var4);
             _fun0033_ip = 286; continue _fun0033;
-case 430:
+case 428:
             var3 = global;
             var5 = var3.Promise;
             var4 = var5.reject;
@@ -4266,7 +4266,7 @@ case 430:
             var2 = var4.bind(var5)(var3);
 case 286:
             var1 = var2;
-case 429:
+case 427:
             return var1;
         }
     };
@@ -4279,11 +4279,11 @@ case 0:
             var4 = arguments[2];
             var7 = undefined;
             if(!(var5 === var7)) { _fun0034_ip = 105; continue _fun0034 }
-case 431:
+case 429:
             var5 = 'md5';
 case 105:
             if(!(var4 === var7)) { _fun0034_ip = 71; continue _fun0034 }
-case 432:
+case 430:
             var4 = 4096;
 case 71:
             var3 = _closure1_slot0;
@@ -4315,14 +4315,14 @@ case 95:
             var3 = var3.bind(var7)(var2);
             var2 = var3.getFileHash;
             var2 = var2.bind(var3)(var6, var5, var4);
-            _fun0034_ip = 433; continue _fun0034;
+            _fun0034_ip = 431; continue _fun0034;
 case 142:
             var3 = global;
             var5 = var3.Promise;
             var4 = var5.reject;
             var3 = "RTNFileManager doesn't exist?";
             var2 = var4.bind(var5)(var3);
-case 433:
+case 431:
             var1 = var2;
 case 242:
             return var1;
