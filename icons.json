@@ -11856,6 +11856,15 @@
         "width": 14,
         "height": 18
     },
+    "sunbeam_gradient_mobile": {
+        "file": "app/modules/parent_tools/images/sunbeam_gradient_mobile.png",
+        "hash": "98ba52ca11c0740336b7f6cfc50c1516",
+        "scales": [
+            1
+        ],
+        "width": 1080,
+        "height": 2400
+    },
     "SunsetIcon": {
         "file": "app/images/native/custom_app_icons/SunsetIcon/SunsetIcon.png",
         "hash": "9f9f6665c181624b81b98f40c0532d57",
@@ -12737,16 +12746,6 @@
         ],
         "width": 18,
         "height": 18
-    },
-    "WaveformIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/WaveformIcon.png",
-        "hash": "07392a850e043822a5c8062588fbfbb4",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "webhook_empty_dark": {
         "file": "app/images/native/empties/webhook_empty_dark.png",
