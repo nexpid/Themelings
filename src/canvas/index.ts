@@ -11,12 +11,7 @@ await bulkRegister("GG Sans", join(import.meta.dir, "fonts/ggsans"));
 await bulkRegister("GG Mono", join(import.meta.dir, "fonts/ggmono"));
 
 function calcColumnWidth(column: { textWidth: number; itemWidth: number }[]) {
-	return Math.max(...column.map(({ textWidth, itemWidth }) => Math.max(textWidth, itemWidth)));
-}
-
-function calcSectionWidth(columns: { textWidth: number; itemWidth: number }[][]) {
-	const items = columns.map(calcColumnWidth).reduce((a, b) => a + b, 0);
-	return items + (columns.length - 1) * layout.card.gapX;
+	return Math.max(0, ...column.map(({ textWidth, itemWidth }) => Math.max(0, textWidth, itemWidth)));
 }
 
 function calcColumnHeight(column: Row[]) {
@@ -28,7 +23,7 @@ function calcColumnHeight(column: Row[]) {
 }
 
 function calcSectionHeight(columns: Row[][]) {
-	return Math.max(...columns.map((column) => calcColumnHeight(column)));
+	return Math.max(0, ...columns.map((column) => calcColumnHeight(column)));
 }
 
 const layout = {
@@ -85,6 +80,7 @@ export function drawSections(sections: Section[]) {
 				title,
 				subtitle,
 				textWidth: Math.max(
+					0,
 					title ? measureText(mctx, titleFont, title).width : 0,
 					subtitle ? measureText(mctx, titleFont, subtitle).width : 0,
 				),
@@ -98,10 +94,13 @@ export function drawSections(sections: Section[]) {
 			})),
 		),
 	}));
-	const width = Math.max(
-		...sects.map(({ headerWidth }) => headerWidth),
-		...sects.map(({ columns }) => layout.card.padding * 2 + calcSectionWidth(columns)),
+	const columnWidths = Array.from({ length: Math.max(0, ...sects.map(({ columns }) => columns.length)) }, (_, i) =>
+		Math.max(0, ...sects.map(({ columns }) => (columns[i] ? calcColumnWidth(columns[i]) : 0))),
 	);
+	const sectionWidth =
+		columnWidths.reduce((a, b) => a + b, 0) + layout.card.gapX * (columnWidths.length - 1) + layout.card.padding * 2;
+
+	const width = Math.max(0, ...sects.map(({ headerWidth }) => headerWidth), sectionWidth);
 	const height =
 		sects
 			.map(
@@ -129,9 +128,7 @@ export function drawSections(sections: Section[]) {
 		ctx.fillText(sect.header, x, y);
 		y += textSizes.header + layout.section.gap;
 
-		const hasBlob = sect.columns.flat().some((x) => x.item.type === "blob");
-		const sectionWidth = hasBlob ? calcSectionWidth(sect.columns) + layout.card.padding * 2 : width,
-			sectionHeight = calcSectionHeight(sect.columns);
+		const sectionHeight = calcSectionHeight(sect.columns);
 		ctx.fillStyle = colors.section;
 		ctx.beginPath();
 		ctx.roundRect(x, y, sectionWidth, sectionHeight + layout.card.padding * 2, layout.card.radius);
@@ -141,21 +138,24 @@ export function drawSections(sections: Section[]) {
 
 		let wx = x,
 			biggestY = y;
-		for (const column of sect.columns) {
+		for (let i = 0; i < sect.columns.length; i++) {
 			let wy = y;
 
-			const columnWidth = calcColumnWidth(column);
+			const column = sect.columns[i];
+			const columnWidth = columnWidths[i];
+			if (!columnWidth) throw new Error(`Failed to get columnWidth for ${i}, ${columnWidth}`);
+
 			const centerX = wx + columnWidth / 2;
 			for (const row of column) {
 				ctx.font = titleFont;
 				if (row.subtitle) {
 					ctx.fillStyle = colors.textMuted;
-					ctx.fillText(row.subtitle, wx, wy);
+					ctx.fillText(row.subtitle, centerX - row.textWidth / 2, wy);
 					wy += textSizes.title + layout.card.gapY;
 				}
 				if (row.title) {
 					ctx.fillStyle = colors.textNormal;
-					ctx.fillText(row.title, wx, wy);
+					ctx.fillText(row.title, centerX - row.textWidth / 2, wy);
 					wy += textSizes.title + layout.card.gapY;
 				}
 

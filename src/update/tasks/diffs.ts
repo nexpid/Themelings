@@ -196,7 +196,9 @@ async function diffIcons() {
 
 function parseSource(text: string) {
 	const source = parseJsonl(text) as { file: string; size: number }[];
-	return Object.fromEntries(source.map(({ file, size }) => [file, { size }])) as Record<string, { size: number }>;
+	return Object.fromEntries(
+		source.map(({ file, size }) => [file, { size, compSize: size - JSON.stringify(file).length }]),
+	) as Record<string, { size: number; compSize: number }>;
 }
 
 async function diffCode() {
@@ -209,9 +211,9 @@ async function diffCode() {
 
 	const renamed = new Set<string>();
 	const changes = new Map<string, CodeDiff>();
-	for (const [name, { size }] of Object.entries(newCode)) {
+	for (const [name, { size, compSize }] of Object.entries(newCode)) {
 		if (!oldCode[name]) {
-			const oldName = Object.entries(oldCode).find(([key, val]) => !newCode[key] && val.size === size)?.[0];
+			const oldName = Object.entries(oldCode).find(([key, val]) => !newCode[key] && val.compSize === compSize)?.[0];
 
 			if (!oldName)
 				changes.set(name, {
@@ -226,11 +228,7 @@ async function diffCode() {
 					size,
 				});
 			}
-		} else if (oldCode[name].size !== size)
-			changes.set(name, {
-				type: DiffType.Changed,
-				sizeDiff: size - oldCode[name].size,
-			});
+		}
 	}
 	for (const [name, { size }] of Object.entries(oldCode))
 		if (!(newCode[name] || renamed.has(name)))

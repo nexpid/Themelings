@@ -42,12 +42,12 @@ export default {
 			`MOCK_SEMANTIC_SAMPLE_${i + 1 + semNum * 2}`,
 			{
 				type: DiffType.Renamed,
-				oldName: `mock_samentic_sample_${i + 1 + semNum * 2}`,
+				oldName: `mocked_samentic_sample_${i + 1 + semNum * 2}`,
 				source: randomColors(),
 			} as Diff,
 		]),
 		...Array.from({ length: semNum }, (_, i) => [
-			`MOCK_SEMANTIC_SAMPLE_${i + 1 + semNum * 3}`,
+			`MOCK__SEMANTIC__REMOVED__SAMPLE__${i + 1 + semNum * 3}`,
 			{
 				type: DiffType.Removed,
 				source: randomColors(),
@@ -126,20 +126,6 @@ export default {
 			{
 				type: DiffType.Added,
 				size: 24782,
-			} as CodeDiff,
-		],
-		[
-			"app/common/CardComponent.tsx",
-			{
-				type: DiffType.Changed,
-				sizeDiff: -687,
-			} as CodeDiff,
-		],
-		[
-			"app/common/SectionComponent.tsx",
-			{
-				type: DiffType.Changed,
-				sizeDiff: 6612,
 			} as CodeDiff,
 		],
 		[

@@ -34,80 +34,81 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxGeneralC
 	const entries = [...diffs.entries()];
 
 	const sections = {
-		Added: cap(
-			entries
-				.sort(([a], [b]) => a.localeCompare(b))
-				.map(
-					([name, diff]) =>
-						diff.type === DiffType.Added &&
-						("size" in diff
-							? `+ ${fileBase(name)} (${formatBytes(diff.size)})`
-							: `+ ${name}: ${diff.label || diff.source}`),
-				)
-				.filter((x) => typeof x === "string"),
-			"added",
-			threshold,
-		),
-		Changed: cap(
-			entries
-				.sort(([a], [b]) => a.localeCompare(b))
-				.map(
-					([name, diff]) =>
-						diff.type === DiffType.Changed &&
-						("sizeDiff" in diff
-							? `${diff.sizeDiff > 0 ? "+" : "-"} ${fileBase(name)} (${diff.sizeDiff >= 0 ? "+" : "-"}${formatBytes(Math.abs(diff.sizeDiff))})`
-							: `- ${name}: ${diff.oldLabel || diff.oldSource}\n+ ${name}: ${diff.label || diff.source}`),
-				)
-				.filter((x) => typeof x === "string"),
-			"changed",
-			threshold,
-		),
-		Renamed: cap(
-			entries
-				.sort(([a], [b]) => a.localeCompare(b))
-				.map(
-					([name, diff]) =>
-						diff.type === DiffType.Renamed &&
-						("size" in diff
-							? `- ${fileBase(diff.oldName, name)}\n+ ${fileBase(name, diff.oldName)}`
-							: `- ${diff.oldName}\n+ ${name}`),
-				)
-				.filter((x) => typeof x === "string"),
-			"renamed",
-			threshold,
-		),
-		Removed: cap(
-			entries
-				.sort(([a], [b]) => a.localeCompare(b))
-				.map(
-					([name, diff]) =>
-						diff.type === DiffType.Removed &&
-						("size" in diff
-							? `- ${fileBase(name)} (${formatBytes(diff.size)})`
-							: `- ${name}: ${diff.label || diff.source}`),
-				)
-				.filter((x) => typeof x === "string"),
-			"removed",
-			threshold,
-		),
+		Added: entries
+			.sort(([a], [b]) => a.localeCompare(b))
+			.map(
+				([name, diff]) =>
+					diff.type === DiffType.Added &&
+					("size" in diff
+						? `+ ${fileBase(name)} (${formatBytes(diff.size)})`
+						: `+ ${name}: ${diff.label || diff.source}`),
+			)
+			.filter((x) => typeof x === "string"),
+		Changed: entries
+			.sort(([a], [b]) => a.localeCompare(b))
+			.map(
+				([name, diff]) =>
+					diff.type === DiffType.Changed &&
+					`- ${name}: ${diff.oldLabel || diff.oldSource}\n+ ${name}: ${diff.label || diff.source}`,
+			)
+			.filter((x) => typeof x === "string"),
+		Renamed: entries
+			.sort(([a], [b]) => a.localeCompare(b))
+			.map(
+				([name, diff]) =>
+					diff.type === DiffType.Renamed &&
+					("size" in diff
+						? `- ${fileBase(diff.oldName, name)}\n+ ${fileBase(name, diff.oldName)}`
+						: `- ${diff.oldName}\n+ ${name}`),
+			)
+			.filter((x) => typeof x === "string"),
+		Removed: entries
+			.sort(([a], [b]) => a.localeCompare(b))
+			.map(
+				([name, diff]) =>
+					diff.type === DiffType.Removed &&
+					("size" in diff
+						? `- ${fileBase(name)} (${formatBytes(diff.size)})`
+						: `- ${name}: ${diff.label || diff.source}`),
+			)
+			.filter((x) => typeof x === "string"),
 	};
 
-	return Object.entries(sections)
-		.filter(([, lines]) => lines.length)
-		.map(([title, lines]) => `**${title}**\n\`\`\`diff\n${lines.join("\n")}\`\`\``)
-		.join("\n");
+	const text = Object.entries(sections).filter(([, lines]) => lines.length);
+	return {
+		embed: text
+			.map(
+				([title, lines]) => `**${title}**\n\`\`\`diff\n${cap(lines, title.toLowerCase(), threshold).join("\n")}\`\`\``,
+			)
+			.join("\n"),
+		file: text.map(([title, lines]) => `# ${title}\n\n${lines.join("\n")}`).join("\n\n"),
+		capped: text.some(([, lines]) => lines.length > threshold),
+	};
 }
 
 async function sendWebhook(
 	webhook: string,
 	role: string,
-	embeds: { title: string; body: string; image?: Canvas; footer?: string }[],
+	embeds: {
+		title: string;
+		body: { embed: string; file: string; capped: boolean };
+		image?: Canvas;
+		footer?: string;
+		key: string;
+	}[],
 ) {
-	const images = embeds.filter((x) => x.image).map((x) => x.image);
-
 	const body = new FormData();
-	for (let i = 0; i < images.length; i++) {
-		body.append(`files[${i}]`, new Blob([images[i]?.toBuffer("image/png")], { type: "image/png" }), `${i}.png`);
+	const items = new Map<Canvas, number>();
+
+	let fi = 0;
+	for (const embed of embeds) {
+		if (embed.image) {
+			items.set(embed.image, fi);
+			body.append(`files[${fi}]`, new Blob([embed.image.toBuffer("image/png")], { type: "image/png" }), `${fi++}.png`);
+		}
+		if (embed.body.capped) {
+			body.append(`files[${fi++}]`, new Blob([embed.body.file], { type: "text/plain" }), `diff-${embed.key}.diff`);
+		}
 	}
 
 	body.append(
@@ -116,13 +117,13 @@ async function sendWebhook(
 			content: `<@&${role}>`,
 			embeds: embeds.map(({ title, body, image, footer }) => ({
 				title,
-				description: body,
+				description: body.embed,
 				color: null,
 				author: {
 					name: `${version} (${cuteVersion})`,
 				},
 				image: image && {
-					url: `attachment://${images.indexOf(image)}.png`,
+					url: `attachment://${items.get(image)}.png`,
 				},
 				footer: footer && {
 					text: footer,
@@ -134,6 +135,7 @@ async function sendWebhook(
 
 	const url = new URL(webhook);
 	url.searchParams.set("wait", "true");
+	url.searchParams.set("with_components", "true");
 
 	const res = await fetch(url, {
 		method: "POST",
@@ -172,12 +174,14 @@ export async function webhook(diffs: Differs) {
 					body: formatDiff(diffs.raw),
 					image: drawSections(await makeSections(diffs.raw)),
 					footer: makeFooter(diffs.raw.size, "raw color"),
+					key: "raw-colors",
 				},
 				diffs.semantic?.size && {
 					title: "Semantic colors",
 					body: formatDiff(diffs.semantic),
 					image: drawSections(await makeSections(diffs.semantic)),
 					footer: makeFooter(diffs.semantic.size, "semantic color"),
+					key: "semantic-colors",
 				},
 			].filter((x) => !!x),
 		);
@@ -189,6 +193,7 @@ export async function webhook(diffs: Differs) {
 				body: formatDiff(diffs.icons),
 				image: drawSections(await makeSections(diffs.icons, true)),
 				footer: makeFooter(diffs.icons.size, "icon"),
+				key: "icons",
 			},
 		]);
 
@@ -198,6 +203,7 @@ export async function webhook(diffs: Differs) {
 				title: "Code",
 				body: formatDiff(diffs.code, maxCodeChanges),
 				footer: makeFooter(diffs.code.size, "code"),
+				key: "code",
 			},
 		]);
 }

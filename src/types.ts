@@ -30,10 +30,6 @@ export type CodeDiff =
 			size: number;
 	  }
 	| {
-			type: DiffType.Changed;
-			sizeDiff: number;
-	  }
-	| {
 			type: DiffType.Renamed;
 			oldName: string;
 			size: number;

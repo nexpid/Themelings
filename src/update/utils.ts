@@ -29,8 +29,8 @@ export function formatBytes(bytes: number, decimals = 1) {
 	if (!bytes) return "0 B";
 
 	const sizes = ["B", "KB", "MB"];
-	const mag = Math.max(Math.floor(Math.log(bytes) / Math.log(BYTE)), sizes.length - 1);
-	return `${(bytes / BYTE ** mag).toFixed(decimals)} ${sizes[mag]}`;
+	const mag = Math.min(Math.floor(Math.log(bytes) / Math.log(BYTE)), sizes.length - 1);
+	return `${parseFloat((bytes / BYTE ** mag).toFixed(decimals))} ${sizes[mag]}`;
 }
 
 export function handleShellErr(out: $.ShellOutput): $.ShellOutput {
