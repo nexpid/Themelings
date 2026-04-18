@@ -515,6 +515,15 @@ case 34:
                     return var1;
                 };
                 var5['MESSAGE_CREATE'] = var6;
+                var6 = function MESSAGE_REACTION_ADD(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.handleReactionAddForNudge;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
+                };
+                var5['MESSAGE_REACTION_ADD'] = var6;
                 var6 = function INVITE_ACCEPT_SUCCESS(arg1) {
                     var3 = _closure3_slot0;
                     var2 = var3.handleInviteAccept;
@@ -1046,14 +1055,14 @@ case 99:
             }
         };
         var _closure2_slot0 = var4;
-        var6 = _closure1_slot7;
+        var5 = _closure1_slot7;
         var3 = undefined;
-        var5 = arg1;
-        var5 = var6.bind(var3)(var4, var5);
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var6 = 'handleMessageCreateForNudge';
-        var5['key'] = var6;
+        var1 = 'handleMessageCreateForNudge';
+        var5['key'] = var1;
         var1 = function value(arg1) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -1126,8 +1135,67 @@ case 100:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(1);
+        var1 = new Array(2);
         var1[0] = var5;
+        var5 = {};
+        var7 = 'handleReactionAddForNudge';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+                var1 = arg1;
+                var4 = var1.channelId;
+                var3 = var1.userId;
+                var1 = var1.optimistic;
+                if(var1) { _fun0015_ip = 105; continue _fun0015 }
+case 58:
+                var5 = _closure1_slot11;
+                var2 = var5.getId;
+                var2 = var2.bind(var5)();
+                if(!(var3 === var2)) { _fun0015_ip = 105; continue _fun0015 }
+case 40:
+                var3 = _closure1_slot12;
+                var2 = var3.getChannel;
+                var3 = var2.bind(var3)(var4);
+                var2 = null;
+                if(!(var2 != var3)) { _fun0015_ip = 105; continue _fun0015 }
+case 106:
+                var2 = var3.getGuildId;
+                var6 = var2.bind(var3)();
+                var2 = var3.isThread;
+                var2 = var2.bind(var3)();
+                if(var2) { _fun0015_ip = 84; continue _fun0015 }
+case 18:
+                var5 = _closure1_slot13;
+                var4 = var5.isChannelMuted;
+                var2 = var3.id;
+                var2 = var4.bind(var5)(var6, var2);
+                _fun0015_ip = 88; continue _fun0015;
+case 84:
+                var5 = _closure1_slot10;
+                var4 = var5.isMuted;
+                var3 = var3.id;
+                var2 = var4.bind(var5)(var3);
+case 88:
+                if(var2) { _fun0015_ip = 105; continue _fun0015 }
+case 107:
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 20;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.setPushNotificationPermissionEligibleForPrompt;
+                var1 = _closure1_slot15;
+                var1 = var1.POST_REACTION_BANNER;
+                var1 = var2.bind(var3)(var1);
+case 105:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[1] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

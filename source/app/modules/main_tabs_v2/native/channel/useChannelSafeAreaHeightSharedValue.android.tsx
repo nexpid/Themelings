@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
     var1 = {};
-    var6 = 'function useChannelSafeAreaHeightSharedValueAndroidTsx1(){const{isChatInputVisualRefreshEnabled,chatInputSpaceBottom,keyboardOpenOrOpening,keyboardWillOpenSharedValue,keyboardOpenedHeight,insets,keyboardTypeSharedValue,KeyboardTypes,customKeyboardHeight}=this.__closure;const resolveBottom=function(bottom){return isChatInputVisualRefreshEnabled?Math.max(bottom,chatInputSpaceBottom):bottom;};if(keyboardOpenOrOpening.get()||keyboardWillOpenSharedValue.get()){const systemKeyboardHeight=keyboardOpenedHeight.get();if(systemKeyboardHeight<=0){return resolveBottom(insets.get().bottom);}return systemKeyboardHeight;}if(keyboardTypeSharedValue.get()===KeyboardTypes.SYSTEM){return resolveBottom(insets.get().bottom);}return customKeyboardHeight;}';
+    var6 = 'function useChannelSafeAreaHeightSharedValueAndroidTsx1(){const{chatInputFloating,chatInputSpaceBottom,keyboardOpenOrOpening,keyboardWillOpenSharedValue,keyboardOpenedHeight,insets,keyboardTypeSharedValue,KeyboardTypes,customKeyboardHeight}=this.__closure;const resolveBottom=function(bottom){return chatInputFloating?Math.max(bottom,chatInputSpaceBottom):bottom;};if(keyboardOpenOrOpening.get()||keyboardWillOpenSharedValue.get()){const systemKeyboardHeight=keyboardOpenedHeight.get();if(systemKeyboardHeight<=0){return resolveBottom(insets.get().bottom);}return systemKeyboardHeight;}if(keyboardTypeSharedValue.get()===KeyboardTypes.SYSTEM){return resolveBottom(insets.get().bottom);}return customKeyboardHeight;}';
     var1['code'] = var6;
     var _closure1_slot3 = var1;
     var1 = 9;
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = 'ChatInput';
         var2['location'] = var16;
         var2 = var3.bind(var5)(var2);
-        var16 = var2.enabled;
+        var16 = var2.chatInputFloating;
         var _closure2_slot7 = var16;
         var2 = 7;
         var2 = var10[var2];
@@ -157,7 +157,7 @@ case 10:
             }
         };
         var5 = {};
-        var5['isChatInputVisualRefreshEnabled'] = var16;
+        var5['chatInputFloating'] = var16;
         var5['chatInputSpaceBottom'] = var15;
         var5['keyboardOpenOrOpening'] = var14;
         var5['keyboardWillOpenSharedValue'] = var13;
@@ -171,7 +171,7 @@ case 10:
         var5['KeyboardTypes'] = var7;
         var5['customKeyboardHeight'] = var6;
         var1['__closure'] = var5;
-        var5 = 5642082276860.0;
+        var5 = 12201325230972.0;
         var1['__workletHash'] = var5;
         var4 = _closure1_slot3;
         var1['__initData'] = var4;

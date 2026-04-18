@@ -906,7 +906,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['inlineRequire'] = var8;
     var2['RedesignNewUserManager'] = var1;
     var1 = {};
-    var8 = ['MESSAGE_CREATE', 'INVITE_ACCEPT_SUCCESS', 'RELATIONSHIP_ADD', 'POST_CONNECTION_OPEN', 'APP_STATE_UPDATE'];
+    var8 = ['MESSAGE_CREATE', 'MESSAGE_REACTION_ADD', 'INVITE_ACCEPT_SUCCESS', 'RELATIONSHIP_ADD', 'POST_CONNECTION_OPEN', 'APP_STATE_UPDATE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'hooks/useUnmountAbortSignal.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useUnmountAbortSignal() {
+    var4 = function useUnmountAbortSignal() {
         var4 = _closure1_slot1;
         var6 = _closure1_slot2;
         var1 = 0;
@@ -57,6 +57,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.signal;
         return var1;
     };
-    var3['default'] = var2;
+    var3['default'] = var4;
+    var2 = function useUnmountAbortSignalWithDelay(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var1 = 0;
+        var1 = var6[var1];
+        var5 = undefined;
+        var4 = var4.bind(var5)(var1);
+        var1 = function() {
+            var1 = global;
+            var1 = var1.AbortController;
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var3 = var2;
+            var1 = new var3[var1](var2);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
+        };
+        var1 = var4.bind(var5)(var1);
+        var _closure2_slot1 = var1;
+        var4 = _closure1_slot0;
+        var3 = 1;
+        var3 = var6[var3];
+        var4 = var4.bind(var5)(var3);
+        var3 = var4.useUnmountEffect;
+        var2 = function() {
+            var1 = global;
+            var4 = var1.setTimeout;
+            var3 = _closure2_slot0;
+            var1 = undefined;
+            var2 = function() {
+                var2 = _closure2_slot1;
+                var1 = var2.abort;
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
+            };
+            var2 = var4.bind(var1)(var2, var3);
+            return var1;
+        };
+        var2 = var3.bind(var4)(var2);
+        var1 = var1.signal;
+        return var1;
+    };
+    var3['useUnmountAbortSignalWithDelay'] = var2;
     return var1;
 })();

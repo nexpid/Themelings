@@ -269,6 +269,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_SETTINGS_ENABLE_COMMUNITY'] = var2;
     var2 = 'impression_guild_settings_engagement';
     var4['GUILD_SETTINGS_ENGAGEMENT'] = var2;
+    var2 = 'impression_guild_settings_guild_theme';
+    var4['GUILD_SETTINGS_GUILD_THEME'] = var2;
     var2 = 'impression_guild_settings_integration';
     var4['GUILD_SETTINGS_INTEGRATION'] = var2;
     var2 = 'impression_guild_settings_invites';

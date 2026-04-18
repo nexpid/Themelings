@@ -1941,33 +1941,33 @@ case 0:
                     var5 = var2 == var3;
                     var1 = undefined;
                     var4 = undefined;
-                    if(var5) { _fun0025_ip = 92; continue _fun0025 }
-case 133:
+                    if(var5) { _fun0025_ip = 133; continue _fun0025 }
+case 134:
                     var5 = var3.nativeEvent;
                     var6 = var2 == var5;
                     var4 = undefined;
-                    if(var6) { _fun0025_ip = 92; continue _fun0025 }
-case 3:
+                    if(var6) { _fun0025_ip = 133; continue _fun0025 }
+case 20:
                     var4 = var5.layout;
-case 92:
-                    if(!(var2 != var4)) { _fun0025_ip = 37; continue _fun0025 }
-case 134:
+case 133:
+                    if(!(var2 != var4)) { _fun0025_ip = 36; continue _fun0025 }
+case 51:
                     var3 = var3.nativeEvent;
                     var3 = var3.layout;
                     var5 = var3.width;
                     var4 = var3.height;
                     var3 = 0;
-                    if(!(var5 > var3)) { _fun0025_ip = 37; continue _fun0025 }
+                    if(!(var5 > var3)) { _fun0025_ip = 36; continue _fun0025 }
 case 135:
-                    if(!(var4 > var3)) { _fun0025_ip = 37; continue _fun0025 }
-case 28:
+                    if(!(var4 > var3)) { _fun0025_ip = 36; continue _fun0025 }
+case 121:
                     var3 = _closure2_slot36;
                     var3 = var3.current;
-                    if(!(var2 != var3)) { _fun0025_ip = 37; continue _fun0025 }
-case 136:
+                    if(!(var2 != var3)) { _fun0025_ip = 36; continue _fun0025 }
+case 58:
                     var2 = var3.updateVideoDimensions;
                     var2 = var2.bind(var3)(var5, var4);
-case 37:
+case 36:
                     return var1;
                 }
             };
@@ -2003,7 +2003,7 @@ case 0:
                     var5 = null;
                     var2 = var5 == var1;
                     var1 = null;
-                    if(var2) { _fun0026_ip = 137; continue _fun0026 }
+                    if(var2) { _fun0026_ip = 136; continue _fun0026 }
 case 50:
                     var2 = {};
                     var3 = _closure2_slot10;
@@ -2015,13 +2015,13 @@ case 5:
                     var3 = var6.url;
 case 126:
                     if(!(var5 == var3)) { _fun0026_ip = 128; continue _fun0026 }
-case 138:
+case 137:
                     var4 = _closure2_slot9;
                     var3 = var4.url;
 case 128:
                     var2['uri'] = var3;
                     var1 = var2;
-case 137:
+case 136:
                     return var1;
                 }
             };
@@ -2039,7 +2039,7 @@ case 0:
                     var3 = var4.isAndroid;
                     var3 = var3.bind(var4)();
                     if(var3) { _fun0027_ip = 126; continue _fun0027 }
-case 134:
+case 138:
                     return var2;
 case 126:
                     var2 = _closure2_slot5;

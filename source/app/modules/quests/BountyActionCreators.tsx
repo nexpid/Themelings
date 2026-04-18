@@ -40,11 +40,11 @@ case 6: // try_start_0
                     var6 = var5.Date;
                     var5 = var6.now;
                     var9 = var5.bind(var6)();
-                    var11 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var5 = 4;
-                    var5 = var12[var5];
-                    var5 = var11.bind(var2)(var5);
+                    var12 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var10 = 4;
+                    var5 = var13[var10];
+                    var5 = var12.bind(var2)(var5);
                     var7 = var5.HTTP;
                     var6 = var7.get;
                     var5 = {};
@@ -52,17 +52,18 @@ case 6: // try_start_0
                     var8 = var8.QUESTS_GET_DECISIONS;
                     var5['url'] = var8;
                     var8 = {};
-                    var10 = 5;
-                    var10 = var12[var10];
-                    var10 = var11.bind(var2)(var10);
-                    var10 = var10.QuestPlacement;
-                    var10 = var10.QUEST_HOME_MOBILE_CAROUSEL;
-                    var8['placement'] = var10;
+                    var11 = 5;
+                    var11 = var13[var11];
+                    var11 = var12.bind(var2)(var11);
+                    var11 = var11.QuestPlacement;
+                    var11 = var11.QUEST_HOME_MOBILE_CAROUSEL;
+                    var8['placement'] = var11;
+                    var8['num_decisions_requested'] = var10;
                     var5['query'] = var8;
                     var8 = false;
                     var5['rejectWithError'] = var8;
                     var5 = var6.bind(var7)(var5);
-                    SaveGenerator(address=189);
+                    SaveGenerator(address=196);
 case 7:
                     return var5;
 case 8:
@@ -141,9 +142,9 @@ case 16: // catch_target0
                     var6 = var7.bind(var2)(var6);
                     var7 = var6.prototype;
                     var7 = Object.create(var7, {constructor: {value: var6}});
-                    var14 = var7;
-                    var13 = var8;
-                    var6 = new var14[var6](var13, var12);
+                    var15 = var7;
+                    var14 = var8;
+                    var6 = new var15[var6](var14, var13);
                     var6 = var6 instanceof Object ? var6 : var7;
                     var3['error'] = var6;
                     var3 = var4.bind(var5)(var3);

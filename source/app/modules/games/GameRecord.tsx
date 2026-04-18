@@ -268,6 +268,12 @@ case 39:
                 var10 = var8.steam;
                 var10 = var10.recent_rating_count;
                 var9['recentRatingCount'] = var10;
+                var10 = var8.steam;
+                var10 = var10.localized_rating;
+                var9['localizedRating'] = var10;
+                var10 = var8.steam;
+                var10 = var10.localized_rating_count;
+                var9['localizedRatingCount'] = var10;
                 var7 = var9;
 case 38:
                 var5['steam'] = var7;

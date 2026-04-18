@@ -1,11 +1,11 @@
 // app/modules/forums/native/AppliedForumTag.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var13 = metroImportDefault;
+    var14 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var14;
     var _closure1_slot2 = var7;
     var2 = function AppliedForumTag(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -206,8 +206,8 @@ case 8:
     var5['value'] = var1;
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var5);
-    var1 = 0;
-    var8 = var7[var1];
+    var12 = 0;
+    var8 = var7[var12];
     var5 = metroImportAll;
     var1 = undefined;
     var5 = var5.bind(var1)(var8);
@@ -218,7 +218,7 @@ case 8:
     var _closure1_slot3 = var5;
     var5 = 2;
     var5 = var7[var5];
-    var5 = var13.bind(var1)(var5);
+    var5 = var14.bind(var1)(var5);
     var _closure1_slot4 = var5;
     var5 = 3;
     var5 = var7[var5];
@@ -238,18 +238,21 @@ case 8:
     var8 = var9.createStyles;
     var5 = {};
     var10 = {'height': 24, 'paddingHorizontal': 8, 'borderRadius': 20, 'backgroundColor': null, 'borderWidth': 1, 'borderColor': null, 'marginRight': 4, 'flexShrink': 1};
-    var12 = 6;
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOD_NORMAL;
-    var10['backgroundColor'] = var14;
-    var12 = var7[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BORDER_SUBTLE;
-    var10['borderColor'] = var12;
+    var13 = 6;
+    var15 = var7[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BACKGROUND_MOD_NORMAL;
+    var10['backgroundColor'] = var15;
+    var13 = var7[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BORDER_SUBTLE;
+    var10['borderColor'] = var13;
     var5['pill'] = var10;
+    var10 = {};
+    var10['marginRight'] = var12;
+    var5['disableEndMargin'] = var10;
     var10 = {'height': 12, 'width': 12, 'marginRight': 4, 'flexShrink': 0};
     var5['emoji'] = var10;
     var10 = {'fontSize': 10, 'marginRight': 4};
@@ -268,25 +271,37 @@ case 8:
     var5 = 'modules/forums/native/AppliedForumTag.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function AppliedForumTagPill(arg1) {
-        var1 = arg1;
-        var8 = var1.tag;
-        var7 = var1.hasUnreads;
-        var6 = var1.containerStyle;
-        var2 = _closure1_slot8;
-        var4 = undefined;
-        var5 = var2.bind(var4)();
-        var3 = _closure1_slot6;
-        var2 = _closure1_slot9;
-        var1 = {};
-        var1['tag'] = var8;
-        var1['hasUnreads'] = var7;
-        var7 = var5.pill;
-        var5 = new Array(2);
-        var5[0] = var7;
-        var5[1] = var6;
-        var1['containerStyle'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var1 = arg1;
+            var9 = var1.tag;
+            var5 = var1.hasUnreads;
+            var8 = var1.containerStyle;
+            var6 = var1.disableEndMargin;
+            var2 = _closure1_slot8;
+            var4 = undefined;
+            var7 = var2.bind(var4)();
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot9;
+            var1 = {};
+            var1['tag'] = var9;
+            var1['hasUnreads'] = var5;
+            var9 = var7.pill;
+            var5 = new Array(3);
+            var5[0] = var9;
+            var5[1] = var8;
+            if(var6) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+            var6 = {};
+            _fun0004_ip = 16; continue _fun0004;
+case 14:
+            var6 = var7.disableEndMargin;
+case 16:
+            var5[2] = var6;
+            var1['containerStyle'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var3['AppliedForumTagPill'] = var4;
     var3['AppliedForumTag'] = var2;

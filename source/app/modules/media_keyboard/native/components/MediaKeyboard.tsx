@@ -156,7 +156,7 @@ case 0:
             var10 = 'MediaKeyboard';
             var2['location'] = var10;
             var2 = var7.bind(var8)(var2);
-            var2 = var2.chatInputHideMore;
+            var2 = var2.chatInputFloating;
             var14 = var2;
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:

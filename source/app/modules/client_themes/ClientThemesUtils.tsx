@@ -112,16 +112,16 @@ case 8:
             var2 = var5 === var3;
 case 7:
             if(var2) { _fun0002_ip = 9; continue _fun0002 }
-case 4:
+case 10:
             var3 = _closure1_slot3;
             var3 = var3.DARKER;
             var3 = var6 === var3;
-            if(!var3) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(!var3) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var4 = _closure1_slot3;
             var4 = var4.DARK;
             var3 = var5 === var4;
-case 10:
+case 11:
             var2 = var3;
 case 9:
             var1 = var2;

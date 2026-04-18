@@ -412,12 +412,12 @@ case 17:
                 }
             };
             var3 = var7.bind(var9)(var3, var4);
-            if(var1) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+            if(var1) { _fun0003_ip = 2; continue _fun0003 }
+case 18:
             var1 = null;
             var2 = var1 != var2;
-            if(var2) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+            if(var2) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var4 = _closure1_slot13;
             var3 = _closure1_slot7;
             var2 = {};
@@ -457,9 +457,9 @@ case 21:
             var7[1] = var9;
             var2['children'] = var7;
             var1 = var4.bind(var5)(var3, var2);
-case 20:
-            _fun0003_ip = 22; continue _fun0003;
-case 18:
+case 19:
+            _fun0003_ip = 21; continue _fun0003;
+case 2:
             var4 = _closure1_slot12;
             var3 = _closure1_slot5;
             var2 = {};
@@ -475,7 +475,7 @@ case 18:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 22:
+case 21:
             return var1;
         }
     };

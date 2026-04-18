@@ -1053,11 +1053,11 @@ case 0:
                     var2 = var1.start;
                     var3 = _closure2_slot1;
                     var3 = var3.current;
-                    if(!(var2 !== var3)) { _fun0010_ip = 69; continue _fun0010 }
-case 70:
+                    if(!(var2 !== var3)) { _fun0010_ip = 30; continue _fun0010 }
+case 41:
                     var1 = _closure2_slot1;
                     var1['current'] = var2;
-case 69:
+case 30:
                     var1 = undefined;
                     return var1;
                 }
@@ -1077,16 +1077,16 @@ case 69:
             var7['onFocus'] = var25;
             var27 = var24 != var26;
             var25 = var20;
-            if(!var27) { _fun0004_ip = 71; continue _fun0004 }
-case 72:
+            if(!var27) { _fun0004_ip = 69; continue _fun0004 }
+case 70:
             var25 = var26;
-case 71:
+case 69:
             var7['username'] = var25;
             var24 = var24 != var23;
-            if(!var24) { _fun0004_ip = 73; continue _fun0004 }
-case 74:
+            if(!var24) { _fun0004_ip = 71; continue _fun0004 }
+case 72:
             var20 = var23;
-case 73:
+case 71:
             var7['discriminator'] = var20;
             var7['validationState'] = var10;
             var7['autoFocus'] = var19;
@@ -1098,12 +1098,12 @@ case 73:
             var7 = new Array(2);
             var7[0] = var8;
             var8 = var12 > var13;
+            if(!var8) { _fun0004_ip = 73; continue _fun0004 }
+case 74:
+            var8 = var15;
+case 73:
             if(!var8) { _fun0004_ip = 75; continue _fun0004 }
 case 76:
-            var8 = var15;
-case 75:
-            if(!var8) { _fun0004_ip = 77; continue _fun0004 }
-case 78:
             var17 = _closure1_slot11;
             var16 = _closure1_slot5;
             var15 = {};
@@ -1136,16 +1136,16 @@ case 78:
             var21 = _closure1_slot15;
             var22 = var21.MESSAGE;
             var21 = undefined;
-            if(!(var23 === var22)) { _fun0004_ip = 79; continue _fun0004 }
-case 80:
+            if(!(var23 === var22)) { _fun0004_ip = 77; continue _fun0004 }
+case 78:
             var23 = var10.status;
             var22 = _closure1_slot14;
             var22 = var22.ERROR;
             var21 = undefined;
-            if(!(var23 === var22)) { _fun0004_ip = 79; continue _fun0004 }
-case 81:
-            var21 = 'error';
+            if(!(var23 === var22)) { _fun0004_ip = 77; continue _fun0004 }
 case 79:
+            var21 = 'error';
+case 77:
             var18['status'] = var21;
             var19 = var20.bind(var4)(var19, var18);
             var18 = new Array(2);
@@ -1153,13 +1153,13 @@ case 79:
             var20 = var10.status;
             var19 = _closure1_slot14;
             var19 = var19.ERROR;
-            if(!(var20 === var19)) { _fun0004_ip = 82; continue _fun0004 }
-case 83:
+            if(!(var20 === var19)) { _fun0004_ip = 80; continue _fun0004 }
+case 81:
             var20 = var10.field;
             var19 = _closure1_slot15;
             var19 = var19.MESSAGE;
-            if(!(var20 !== var19)) { _fun0004_ip = 84; continue _fun0004 }
-case 82:
+            if(!(var20 !== var19)) { _fun0004_ip = 82; continue _fun0004 }
+case 80:
             var21 = _closure1_slot10;
             var25 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -1181,19 +1181,19 @@ case 82:
             var22 = var23.bind(var24)(var22);
             var19['children'] = var22;
             var19 = var21.bind(var4)(var20, var19);
-            _fun0004_ip = 85; continue _fun0004;
-case 84:
+            _fun0004_ip = 83; continue _fun0004;
+case 82:
             var22 = _closure1_slot10;
             var21 = _closure1_slot18;
             var20 = {};
             var23 = var10.message;
             var20['errorMessage'] = var23;
             var19 = var22.bind(var4)(var21, var20);
-case 85:
+case 83:
             var18[1] = var19;
             var15['children'] = var18;
             var8 = var17.bind(var4)(var16, var15);
-case 77:
+case 75:
             var7[1] = var8;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);

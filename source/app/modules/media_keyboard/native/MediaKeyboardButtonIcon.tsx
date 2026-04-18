@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
     var4 = {};
-    var7 = "function MediaKeyboardButtonIconTsx1(){const{keyboard,KeyboardTypes,isAppsHidden,withTiming,timingStandard}=this.__closure;const isActive=keyboard===KeyboardTypes.MEDIA||isAppsHidden&&keyboard===KeyboardTypes.APP_LAUNCHER;return{transform:[{rotate:withTiming(isActive?'45deg':'0deg',timingStandard)}]};}";
+    var7 = "function MediaKeyboardButtonIconTsx1(){const{keyboard,KeyboardTypes,chatInputFloating,withTiming,timingStandard}=this.__closure;const isActive=keyboard===KeyboardTypes.MEDIA||chatInputFloating&&keyboard===KeyboardTypes.APP_LAUNCHER;return{transform:[{rotate:withTiming(isActive?'45deg':'0deg',timingStandard)}]};}";
     var4['code'] = var7;
     var _closure1_slot4 = var4;
     var4 = 9;
@@ -65,7 +65,7 @@ case 3:
             var12 = 'MediaKeyboardButtonIcon';
             var1['location'] = var12;
             var1 = var10.bind(var11)(var1);
-            var13 = var1.chatInputHideMore;
+            var13 = var1.chatInputFloating;
             _closure2_slot1 = var13;
             var1 = 4;
             var10 = var9[var1];
@@ -134,7 +134,7 @@ case 8:
             var14 = var7.bind(var5)(var14);
             var14 = var14.KeyboardTypes;
             var12['KeyboardTypes'] = var14;
-            var12['isAppsHidden'] = var13;
+            var12['chatInputFloating'] = var13;
             var13 = 6;
             var13 = var9[var13];
             var13 = var7.bind(var5)(var13);
@@ -146,7 +146,7 @@ case 8:
             var13 = var13.timingStandard;
             var12['timingStandard'] = var13;
             var6['__closure'] = var12;
-            var12 = 15320444533127.0;
+            var12 = 12686941860647.0;
             var6['__workletHash'] = var12;
             var12 = _closure1_slot4;
             var6['__initData'] = var12;

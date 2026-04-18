@@ -572,6 +572,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EDIT_PROFILE_EFFECT_SHEET'] = var1;
     var1 = 'edit profile frame action sheet';
     var2['EDIT_PROFILE_FRAME_SHEET'] = var1;
+    var1 = 'edit profile frame modal';
+    var2['EDIT_PROFILE_FRAME_MODAL'] = var1;
     var1 = 'edit nameplate modal';
     var2['EDIT_NAMEPLATE_MODAL'] = var1;
     var1 = 'edit nameplate sheet';

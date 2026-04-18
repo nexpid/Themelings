@@ -419,7 +419,7 @@ case 15:
             var9 = var3[var10];
             var20 = var25.bind(var4)(var9);
             var19 = var20.useAnimatedStyle;
-            var9 = function U() {
+            var9 = function G() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -564,26 +564,33 @@ case 23:
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var2 = _closure2_slot5;
-                    if(!var2) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
-                    var4 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var3 = 16;
-                    var3 = var7[var3];
-                    var6 = undefined;
-                    var4 = var4.bind(var6)(var3);
-                    var3 = var4.triggerHapticFeedback;
-                    var5 = _closure1_slot1;
-                    var2 = 17;
-                    var2 = var7[var2];
-                    var2 = var5.bind(var6)(var2);
-                    var2 = var2.SELECTION;
-                    var2 = var3.bind(var4)(var2);
+                    if(!var2) { _fun0005_ip = 9; continue _fun0005 }
 case 31:
+                    var5 = _closure2_slot0;
+                    var4 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 16;
+                    var3 = var8[var3];
+                    var7 = undefined;
+                    var4 = var4.bind(var7)(var3);
+                    var3 = var4.triggerHapticFeedback;
+                    var6 = _closure1_slot1;
+                    var2 = 17;
+                    var2 = var8[var2];
+                    var2 = var6.bind(var7)(var2);
+                    if(var5) { _fun0005_ip = 32; continue _fun0005 }
+case 12:
+                    var5 = var2.TOGGLE_ON;
+                    var5 = var3.bind(var4)(var5);
+                    _fun0005_ip = 9; continue _fun0005;
+case 32:
+                    var2 = var2.TOGGLE_OFF;
+                    var2 = var3.bind(var4)(var2);
+case 9:
                     var3 = _closure2_slot1;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0005_ip = 33; continue _fun0005 }
-case 8:
+case 34:
                     var3 = _closure2_slot1;
                     var1 = _closure2_slot0;
                     var2 = !var1;
@@ -611,22 +618,29 @@ case 33:
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var2 = _closure2_slot5;
-                    if(!var2) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
-                    var4 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var3 = 16;
-                    var3 = var7[var3];
-                    var6 = undefined;
-                    var4 = var4.bind(var6)(var3);
-                    var3 = var4.triggerHapticFeedback;
-                    var5 = _closure1_slot1;
-                    var2 = 17;
-                    var2 = var7[var2];
-                    var2 = var5.bind(var6)(var2);
-                    var2 = var2.SELECTION;
-                    var2 = var3.bind(var4)(var2);
+                    if(!var2) { _fun0006_ip = 9; continue _fun0006 }
 case 31:
+                    var5 = _closure2_slot0;
+                    var4 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 16;
+                    var3 = var8[var3];
+                    var7 = undefined;
+                    var4 = var4.bind(var7)(var3);
+                    var3 = var4.triggerHapticFeedback;
+                    var6 = _closure1_slot1;
+                    var2 = 17;
+                    var2 = var8[var2];
+                    var2 = var6.bind(var7)(var2);
+                    if(var5) { _fun0006_ip = 32; continue _fun0006 }
+case 12:
+                    var5 = var2.TOGGLE_ON;
+                    var5 = var3.bind(var4)(var5);
+                    _fun0006_ip = 9; continue _fun0006;
+case 32:
+                    var2 = var2.TOGGLE_OFF;
+                    var2 = var3.bind(var4)(var2);
+case 9:
                     var3 = _closure2_slot4;
                     var1 = _closure2_slot0;
                     var2 = !var1;
@@ -639,14 +653,14 @@ case 31:
 case 0:
                             var3 = _closure2_slot1;
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0007_ip = 34; continue _fun0007 }
+                            if(!(var2 != var3)) { _fun0007_ip = 35; continue _fun0007 }
 case 3:
                             var3 = _closure2_slot1;
                             var1 = _closure2_slot0;
                             var2 = !var1;
                             var1 = undefined;
                             var1 = var3.bind(var1)(var2);
-case 34:
+case 35:
                             var1 = undefined;
                             return var1;
                         }

@@ -455,7 +455,7 @@ case 8:
     var4['linkAccountIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 43;
+    var4 = 44;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -918,6 +918,30 @@ case 42:
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
+            var36 = var28.bind(var36)(var25, var23);
+            var28 = var36.with;
+            var25 = {};
+            var23 = var22[var35];
+            var23 = var34.bind(var4)(var23);
+            var23 = var23.CollectiblesItemType;
+            var23 = var23.PROFILE_FRAME;
+            var25['type'] = var23;
+            var23 = function(arg1) {
+                var4 = _closure1_slot11;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 36;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var5 = _closure2_slot4;
+                var1['user'] = var5;
+                var5 = arg1;
+                var1['profileFrame'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
+            };
             var28 = var28.bind(var36)(var25, var23);
             var25 = var28.with;
             var23 = {};
@@ -949,7 +973,7 @@ case 43:
                     var7 = _closure1_slot11;
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var5 = 36;
+                    var5 = 37;
                     var5 = var9[var5];
                     var5 = var6.bind(var1)(var5);
                     var6 = var5.NameplatePreview;
@@ -970,7 +994,7 @@ case 43:
                 var4 = _closure1_slot11;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 37;
+                var1 = 38;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -1132,7 +1156,7 @@ case 60:
             var12 = _closure1_slot11;
             var14 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 38;
+            var11 = 39;
             var11 = var16[var11];
             var11 = var14.bind(var4)(var11);
             var11 = var11.Button;
@@ -1157,7 +1181,7 @@ case 62:
             var14 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 40;
+                var1 = 41;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1185,7 +1209,7 @@ case 61:
             var16 = 'md';
             var14['size'] = var16;
             var18 = _closure1_slot11;
-            var16 = 41;
+            var16 = 42;
             var16 = var22[var16];
             var16 = var17.bind(var4)(var16);
             var17 = var16.ExperimentalGameControllerLinkIcon;
@@ -1221,7 +1245,7 @@ case 58:
             var14 = _closure1_slot11;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 38;
+            var11 = 39;
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Button;
@@ -1252,7 +1276,7 @@ case 67:
             var15 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 42;
+                var1 = 43;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -1284,7 +1308,7 @@ case 67:
                     var4 = var5.bind(var8)(var4);
                     var5 = _closure2_slot6;
                     var4 = var5.push;
-                    var2 = 39;
+                    var2 = 40;
                     var2 = var7[var2];
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.GiftCodeModalScreens;
@@ -1318,7 +1342,7 @@ case 67:
                     var2 = var3.bind(var4)(var2);
                     var5 = _closure2_slot6;
                     var4 = var5.push;
-                    var2 = 39;
+                    var2 = 40;
                     var2 = var9[var2];
                     var2 = var8.bind(var1)(var2);
                     var2 = var2.GiftCodeModalScreens;
@@ -1346,7 +1370,7 @@ case 56:
             var14 = _closure1_slot11;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var11 = 38;
+            var11 = 39;
             var11 = var19[var11];
             var11 = var18.bind(var4)(var11);
             var12 = var11.Button;
@@ -1387,7 +1411,7 @@ case 56:
                 var2 = var4.bind(var5)(var2);
                 var5 = _closure2_slot6;
                 var4 = var5.push;
-                var2 = 39;
+                var2 = 40;
                 var2 = var7[var2];
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.GiftCodeModalScreens;
@@ -1406,7 +1430,7 @@ case 54:
             var12 = _closure1_slot11;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var10 = 38;
+            var10 = 39;
             var10 = var18[var10];
             var10 = var17.bind(var4)(var10);
             var11 = var10.Button;
@@ -1429,7 +1453,7 @@ case 54:
                 var3 = var4.push;
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 39;
+                var1 = 40;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var6.bind(var1)(var2);

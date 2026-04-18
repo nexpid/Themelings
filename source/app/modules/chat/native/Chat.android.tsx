@@ -23,7 +23,7 @@ case 0:
             var6 = 'DCDChatList';
             var1['location'] = var6;
             var1 = var3.bind(var5)(var1);
-            var11 = var1.enabled;
+            var11 = var1.chatInputFloating;
             var1 = _closure1_slot5;
             var10 = var1.bind(var4)();
             var6 = _closure1_slot3;

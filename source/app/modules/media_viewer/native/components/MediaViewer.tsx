@@ -59,45 +59,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot12 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
-        var2 = arg1;
-        var29 = var2.entranceAnimationDriver;
+        var3 = arg1;
+        var29 = var3.entranceAnimationDriver;
         var _closure2_slot0 = var29;
-        var13 = var2.initialScrollItem;
-        var7 = var2.onContentSizeChange;
-        var28 = var2.onLongPress;
+        var7 = var3.onContentSizeChange;
+        var28 = var3.onLongPress;
         var _closure2_slot1 = var28;
-        var10 = var2.onScroll;
-        var27 = var2.originLayout;
+        var10 = var3.onScroll;
+        var27 = var3.originLayout;
         var _closure2_slot2 = var27;
-        var26 = var2.panGestureConfig;
+        var26 = var3.panGestureConfig;
         var _closure2_slot3 = var26;
-        var24 = var2.renderMedia;
+        var24 = var3.renderMedia;
         var _closure2_slot4 = var24;
-        var16 = var2.sources;
+        var16 = var3.sources;
         var _closure2_slot5 = var16;
-        var23 = var2.useItemVisible;
+        var23 = var3.useItemVisible;
         var _closure2_slot6 = var23;
-        var8 = var2.windowWidth;
+        var8 = var3.windowWidth;
         var _closure2_slot7 = var8;
-        var22 = var2.windowHeight;
+        var22 = var3.windowHeight;
         var _closure2_slot8 = var22;
-        var18 = var2.ref;
-        var3 = var2.zoomed;
-        var _closure2_slot9 = var3;
+        var18 = var3.ref;
+        var2 = var3.index;
+        var9 = var3.zoomed;
+        var _closure2_slot9 = var9;
         var6 = _closure1_slot0;
         var19 = _closure1_slot2;
-        var2 = 6;
-        var5 = var19[var2];
+        var3 = 6;
+        var5 = var19[var3];
         var4 = undefined;
-        var9 = var6.bind(var4)(var5);
-        var5 = var9.useSharedValue;
+        var11 = var6.bind(var4)(var5);
+        var5 = var11.useSharedValue;
         var12 = false;
-        var5 = var5.bind(var9)(var12);
+        var5 = var5.bind(var11)(var12);
         var _closure2_slot10 = var5;
-        var9 = var19[var2];
-        var14 = var6.bind(var4)(var9);
-        var11 = var14.useDerivedValue;
-        var9 = function T() {
+        var11 = var19[var3];
+        var14 = var6.bind(var4)(var11);
+        var13 = var14.useDerivedValue;
+        var11 = function T() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = _closure2_slot9;
@@ -115,20 +115,20 @@ case 2:
             }
         };
         var15 = {};
-        var15['zoomed'] = var3;
+        var15['zoomed'] = var9;
         var15['pinching'] = var5;
-        var9['__closure'] = var15;
+        var11['__closure'] = var15;
         var15 = 9157951736691.0;
-        var9['__workletHash'] = var15;
+        var11['__workletHash'] = var15;
         var15 = _closure1_slot11;
-        var9['__initData'] = var15;
-        var20 = var11.bind(var14)(var9);
+        var11['__initData'] = var15;
+        var20 = var13.bind(var14)(var11);
         var _closure2_slot11 = var20;
         var21 = _closure1_slot4;
         var14 = var21.useCallback;
-        var11 = new Array(1);
-        var11[0] = var5;
-        var9 = function(arg1) {
+        var13 = new Array(1);
+        var13[0] = var5;
+        var11 = function(arg1) {
             var1 = arg1;
             var1 = var1.nativeEvent;
             var1 = var1.touches;
@@ -140,10 +140,10 @@ case 2:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var15 = var14.bind(var21)(var9, var11);
-        var11 = var21.useCallback;
-        var9 = new Array(1);
-        var9[0] = var5;
+        var15 = var14.bind(var21)(var11, var13);
+        var13 = var21.useCallback;
+        var11 = new Array(1);
+        var11[0] = var5;
         var5 = function() {
             var3 = _closure2_slot10;
             var2 = var3.set;
@@ -151,29 +151,29 @@ case 2:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var14 = var11.bind(var21)(var5, var9);
+        var14 = var13.bind(var21)(var5, var11);
         var5 = 7;
         var5 = var19[var5];
-        var9 = var6.bind(var4)(var5);
-        var5 = var9.useMediaViewerPanGesture;
-        var5 = var5.bind(var9)(var26, var20);
+        var11 = var6.bind(var4)(var5);
+        var5 = var11.useMediaViewerPanGesture;
+        var5 = var5.bind(var11)(var26, var20);
         var25 = var5.panGestureGenerator;
         var _closure2_slot12 = var25;
         var5 = var5.nativeGesture;
-        var11 = var21.useCallback;
-        var9 = new Array(11);
-        var9[0] = var29;
-        var9[1] = var28;
-        var9[2] = var27;
-        var9[3] = var26;
-        var9[4] = var25;
-        var9[5] = var24;
-        var9[6] = var16;
-        var9[7] = var23;
-        var9[8] = var22;
-        var9[9] = var8;
-        var9[10] = var3;
-        var3 = function(arg1, arg2) {
+        var13 = var21.useCallback;
+        var11 = new Array(11);
+        var11[0] = var29;
+        var11[1] = var28;
+        var11[2] = var27;
+        var11[3] = var26;
+        var11[4] = var25;
+        var11[5] = var24;
+        var11[6] = var16;
+        var11[7] = var23;
+        var11[8] = var22;
+        var11[9] = var8;
+        var11[10] = var9;
+        var9 = function(arg1, arg2) {
             var7 = arg2;
             var4 = _closure1_slot8;
             var2 = _closure1_slot0;
@@ -212,10 +212,10 @@ case 2:
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
-        var11 = var11.bind(var21)(var3, var9);
-        var2 = var19[var2];
-        var3 = var6.bind(var4)(var2);
-        var2 = var3.useAnimatedProps;
+        var11 = var13.bind(var21)(var9, var11);
+        var3 = var19[var3];
+        var9 = var6.bind(var4)(var3);
+        var3 = var9.useAnimatedProps;
         var1 = function H() {
             var1 = {};
             var3 = _closure2_slot11;
@@ -224,22 +224,27 @@ case 2:
             var1['scrollEnabled'] = var2;
             return var1;
         };
-        var9 = {};
-        var9['scrollEnabled'] = var20;
-        var1['__closure'] = var9;
-        var9 = 13550782123441.0;
-        var1['__workletHash'] = var9;
-        var9 = _closure1_slot12;
-        var1['__initData'] = var9;
-        var9 = var2.bind(var3)(var1);
-        var3 = _closure1_slot8;
+        var13 = {};
+        var13['scrollEnabled'] = var20;
+        var1['__closure'] = var13;
+        var13 = 13550782123441.0;
+        var1['__workletHash'] = var13;
+        var13 = _closure1_slot12;
+        var1['__initData'] = var13;
+        var9 = var3.bind(var9)(var1);
+        var3 = _closure1_slot1;
         var1 = 9;
+        var1 = var19[var1];
+        var1 = var3.bind(var4)(var1);
+        var13 = var1.bind(var4)(var2);
+        var3 = _closure1_slot8;
+        var1 = 10;
         var1 = var19[var1];
         var1 = var6.bind(var4)(var1);
         var2 = var1.GestureDetector;
         var1 = {};
         var1['gesture'] = var5;
-        var5 = 10;
+        var5 = 11;
         var5 = var19[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.AnimatedFastList;
@@ -304,23 +309,23 @@ case 2:
 case 0:
             var1 = arg1;
             var17 = var1.onClose;
-            var30 = var1.onLongPress;
-            var29 = var1.originLayout;
-            var26 = var1.renderMedia;
+            var31 = var1.onLongPress;
+            var30 = var1.originLayout;
+            var27 = var1.renderMedia;
             var14 = var1.renderOverlay;
             var13 = var1.swipeVelocityThreshold;
             var1 = var1.syncer;
-            var24 = var1.index;
-            var25 = var1.sources;
+            var19 = var1.index;
+            var26 = var1.sources;
             var10 = var1.useViewerProps;
             var9 = var1.zoomed;
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var7 = 11;
+            var7 = 12;
             var1 = var15[var7];
             var4 = undefined;
             var6 = var3.bind(var4)(var1);
-            var1 = 12;
+            var1 = 13;
             var1 = var15[var1];
             var1 = var3.bind(var4)(var1);
             var8 = var1.MEDIA_VIEWER;
@@ -340,22 +345,22 @@ case 0:
             var22 = 1;
             var43 = var1[var22];
             var _closure2_slot0 = var43;
-            var1 = 13;
+            var1 = 14;
             var1 = var15[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.bind(var4)();
-            var19 = var1.width;
-            var20 = var1.height;
-            var _closure2_slot1 = var20;
-            var1 = 14;
+            var20 = var1.width;
+            var21 = var1.height;
+            var _closure2_slot1 = var21;
+            var1 = 15;
             var1 = var15[var1];
             var8 = var3.bind(var4)(var1);
             var1 = {};
-            var1['index'] = var24;
+            var1['index'] = var19;
             var1['onClose'] = var17;
-            var1['sources'] = var25;
-            var1['windowHeight'] = var20;
-            var1['windowWidth'] = var19;
+            var1['sources'] = var26;
+            var1['windowHeight'] = var21;
+            var1['windowWidth'] = var20;
             var45 = var8.bind(var4)(var1);
             var _closure2_slot2 = var45;
             var8 = _closure1_slot0;
@@ -376,33 +381,27 @@ case 0:
             var11 = var12.useAnimatedRef;
             var23 = var11.bind(var12)();
             var _closure2_slot5 = var23;
-            var11 = var25.length;
+            var11 = var26.length;
             var11 = var11 > var22;
             var _closure2_slot6 = var11;
             var10 = var10.bind(var4)();
-            var27 = var10.ref;
-            var31 = var10.onScroll;
-            var32 = var10.onContentSizeChange;
-            var21 = var10.useItemVisible;
-            var12 = var36.useState;
-            var10 = var24.get;
-            var10 = var10.bind(var24)();
-            var10 = var12.bind(var36)(var10);
-            var10 = var35.bind(var4)(var10, var22);
-            var33 = var10[var18];
+            var28 = var10.ref;
+            var32 = var10.onScroll;
+            var33 = var10.onContentSizeChange;
+            var25 = var10.useItemVisible;
             var10 = 7;
             var10 = var15[var10];
             var12 = var8.bind(var4)(var10);
             var10 = var12.useMediaViewerPanGestureConfig;
-            var28 = var10.bind(var12)(var45, var13, var17);
-            var13 = var28.dismiss;
-            var41 = var28.translatePos;
+            var29 = var10.bind(var12)(var45, var13, var17);
+            var13 = var29.dismiss;
+            var41 = var29.translatePos;
             var _closure2_slot7 = var41;
-            var38 = var28.isClosing;
+            var38 = var29.isClosing;
             var _closure2_slot8 = var38;
-            var44 = var28.isInteracting;
+            var44 = var29.isInteracting;
             var _closure2_slot9 = var44;
-            var12 = var28.overlayEnabled;
+            var12 = var29.overlayEnabled;
             var _closure2_slot10 = var12;
             var10 = _closure1_slot6;
             var42 = var10.absoluteFillObject;
@@ -410,7 +409,7 @@ case 0:
             var17 = var15[var39];
             var37 = var8.bind(var4)(var17);
             var24 = var37.useAnimatedStyle;
-            var17 = function M() {
+            var17 = function x() {
                 var1 = {};
                 var12 = _closure2_slot11;
                 var13 = var1;
@@ -453,7 +452,7 @@ case 0:
             };
             var40 = {};
             var40['absoluteFillObject'] = var42;
-            var40['windowHeight'] = var20;
+            var40['windowHeight'] = var21;
             var40['entranceAnimationDriver'] = var34;
             var46 = var15[var39];
             var46 = var8.bind(var4)(var46);
@@ -481,7 +480,7 @@ case 0:
             var17 = var15[var39];
             var35 = var8.bind(var4)(var17);
             var22 = var35.useAnimatedStyle;
-            var17 = function k() {
+            var17 = function M() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -509,7 +508,7 @@ case 8:
 case 9:
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var3 = 15;
+                    var3 = 16;
                     var3 = var10[var3];
                     var7 = undefined;
                     var6 = var8.bind(var7)(var3);
@@ -529,7 +528,7 @@ case 9:
 case 7:
                     var14 = _closure1_slot0;
                     var15 = _closure1_slot2;
-                    var5 = 15;
+                    var5 = 16;
                     var5 = var15[var5];
                     var13 = undefined;
                     var8 = var14.bind(var13)(var5);
@@ -587,7 +586,7 @@ case 4:
             var37['hideRelayoutSharedValue'] = var1;
             var37['overlayEnabled'] = var12;
             var37['isInteracting'] = var44;
-            var40 = 15;
+            var40 = 16;
             var38 = var15[var40];
             var38 = var8.bind(var4)(var38);
             var38 = var38.withTiming;
@@ -610,7 +609,7 @@ case 4:
             var22 = var15[var39];
             var37 = var8.bind(var4)(var22);
             var35 = var37.useDerivedValue;
-            var22 = function x() {
+            var22 = function k() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = _closure2_slot10;
@@ -658,7 +657,7 @@ case 13:
             var22 = var15[var39];
             var37 = var8.bind(var4)(var22);
             var35 = var37.useAnimatedStyle;
-            var22 = function de() {
+            var22 = function ue() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = {};
@@ -687,7 +686,7 @@ case 0:
 case 15:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 16;
                     var2 = var9[var2];
                     var7 = undefined;
                     var6 = var8.bind(var7)(var2);
@@ -827,7 +826,7 @@ case 11:
 case 21:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 17;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -839,7 +838,7 @@ case 20:
                 }
             };
             var11 = var35.bind(var36)(var5, var11);
-            var5 = 17;
+            var5 = 18;
             var5 = var15[var5];
             var8 = var8.bind(var4)(var5);
             var5 = var8.useOrientationListener;
@@ -848,18 +847,18 @@ case 20:
             var8 = _closure1_slot13;
             var5 = {};
             var5['entranceAnimationDriver'] = var34;
-            var5['initialScrollItem'] = var33;
-            var5['onContentSizeChange'] = var32;
-            var5['onScroll'] = var31;
-            var5['onLongPress'] = var30;
-            var5['originLayout'] = var29;
-            var5['panGestureConfig'] = var28;
-            var5['ref'] = var27;
-            var5['renderMedia'] = var26;
-            var5['sources'] = var25;
-            var5['useItemVisible'] = var21;
-            var5['windowHeight'] = var20;
-            var5['windowWidth'] = var19;
+            var5['onContentSizeChange'] = var33;
+            var5['onScroll'] = var32;
+            var5['onLongPress'] = var31;
+            var5['originLayout'] = var30;
+            var5['panGestureConfig'] = var29;
+            var5['ref'] = var28;
+            var5['renderMedia'] = var27;
+            var5['sources'] = var26;
+            var5['useItemVisible'] = var25;
+            var5['windowHeight'] = var21;
+            var5['windowWidth'] = var20;
+            var5['index'] = var19;
             var5['zoomed'] = var9;
             var21 = var11.bind(var4)(var8, var5);
             var9 = _closure1_slot9;
@@ -869,7 +868,7 @@ case 20:
             var5['style'] = var10;
             var5['onAccessibilityEscape'] = var13;
             var5['onLayout'] = var1;
-            var1 = 18;
+            var1 = 19;
             var1 = var15[var1];
             var10 = var3.bind(var4)(var1);
             var1 = {};
@@ -880,7 +879,7 @@ case 20:
             var1 = var11.bind(var4)(var10, var1);
             var10 = new Array(5);
             var10[0] = var1;
-            var1 = 19;
+            var1 = 20;
             var19 = var15[var1];
             var20 = var3.bind(var4)(var19);
             var19 = {};
@@ -915,7 +914,7 @@ case 22:
             var3 = _closure1_slot8;
             var12 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var11 = 20;
+            var11 = 21;
             var11 = var1[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
@@ -935,7 +934,7 @@ case 22:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

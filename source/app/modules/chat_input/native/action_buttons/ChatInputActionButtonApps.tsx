@@ -166,11 +166,11 @@ case 8:
                     var2['timeMs'] = var6;
                     var6 = null;
                     var6 = var6 == var7;
-                    if(var6) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+                    if(var6) { _fun0002_ip = 4; continue _fun0002 }
+case 14:
                     var6 = _closure2_slot0;
                     var5 = var6.guild_id;
-case 14:
+case 4:
                     var2['guildId'] = var5;
                     var5 = true;
                     var2['canShowBotsBanner'] = var5;
@@ -181,8 +181,8 @@ case 14:
                     var2 = var3.bind(var4)(var2);
 case 10:
                     var2 = _closure2_slot5;
-                    if(!var2) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+                    if(!var2) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 5;
@@ -201,11 +201,11 @@ case 17:
                     var2['timeMs'] = var6;
                     var6 = null;
                     var6 = var6 == var7;
-                    if(var6) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+                    if(var6) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                     var6 = _closure2_slot0;
                     var5 = var6.guild_id;
-case 18:
+case 17:
                     var2['guildId'] = var5;
                     var5 = _closure2_slot4;
                     var2['canShowAppsOrActivitiesBanner'] = var5;
@@ -214,7 +214,7 @@ case 18:
                     var5 = true;
                     var2['willShowGlobalSearchOnboarding'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 16:
+case 15:
                     var2 = _closure2_slot7;
                     var1 = global;
                     var5 = var1.setTimeout;
@@ -249,11 +249,11 @@ case 6:
             var1 = {};
             var1['ref'] = var6;
             var6 = null;
-            if(!var7) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(!var7) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var6 = null;
-            if(var10) { _fun0001_ip = 20; continue _fun0001 }
-case 22:
+            if(var10) { _fun0001_ip = 19; continue _fun0001 }
+case 21:
             var8 = _closure1_slot6;
             var7 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -265,7 +265,7 @@ case 22:
             var14 = var14.id;
             var5['channelId'] = var14;
             var6 = var8.bind(var4)(var7, var5);
-case 20:
+case 19:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot6;

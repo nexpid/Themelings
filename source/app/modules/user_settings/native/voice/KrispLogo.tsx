@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = {};
     var8 = {'marginLeft': 20, 'height': 30, 'width': 67};
     var5['logo'] = var8;
-    var8 = {'flexDirection': 'row', 'alignItems': 'center', 'paddingBottom': 12, 'gap': 12};
+    var8 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'paddingBottom': 12, 'gap': 12};
     var5['detailsView'] = var8;
     var _closure1_slot13 = var5;
     var5 = 14;

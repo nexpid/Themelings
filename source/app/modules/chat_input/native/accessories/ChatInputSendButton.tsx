@@ -103,60 +103,42 @@ case 7:
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
-    var4 = function(arg1, arg2, arg3) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var3 = arg1;
-            var4 = arg2;
-            var1 = {};
-            var2 = {};
-            var6 = 2;
-            var5 = arg3;
-            var5 = var6 * var5;
-            var5 = var4 + var5;
-            var2['width'] = var5;
-            var2['height'] = var4;
-            var1['container'] = var2;
-            var2 = {};
-            var8 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var7 = 6;
-            var5 = var5[var7];
-            var6 = undefined;
-            var5 = var8.bind(var6)(var5);
-            var8 = var5.colors;
-            if(var3) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-            var5 = var8.BACKGROUND_BRAND;
-            _fun0002_ip = 13; continue _fun0002;
-case 11:
-            var5 = var8.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
-case 13:
-            var2['backgroundColor'] = var5;
-            var1['sendButtonActive'] = var2;
-            var2 = {};
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var4 = var4[var7];
-            var4 = var5.bind(var6)(var4);
-            var4 = var4.colors;
-            if(var3) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-            var3 = var4.WHITE;
-            _fun0002_ip = 16; continue _fun0002;
-case 14:
-            var3 = var4.CONTROL_PRIMARY_TEXT_DEFAULT;
-case 16:
-            var2['tintColor'] = var3;
-            var1['sendButtonIconActive'] = var2;
-            return var1;
-        }
+    var4 = function(arg1, arg2) {
+        var3 = arg1;
+        var1 = {};
+        var2 = {};
+        var5 = 2;
+        var4 = arg2;
+        var4 = var5 * var4;
+        var4 = var3 + var4;
+        var2['width'] = var4;
+        var2['height'] = var3;
+        var1['container'] = var2;
+        var2 = {};
+        var5 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var3 = 6;
+        var7 = var6[var3];
+        var4 = undefined;
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.colors;
+        var7 = var7.CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND;
+        var2['backgroundColor'] = var7;
+        var1['sendButtonActive'] = var2;
+        var2 = {};
+        var3 = var6[var3];
+        var3 = var5.bind(var4)(var3);
+        var3 = var3.colors;
+        var3 = var3.CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT;
+        var2['tintColor'] = var3;
+        var1['sendButtonIconActive'] = var2;
+        return var1;
     };
     var4 = var8.bind(var9)(var4);
     var _closure1_slot9 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var12 = var1.onSendMessage;
@@ -166,39 +148,34 @@ case 0:
             var5 = var1.state;
             var8 = var1.cleanup;
             var7 = var1.type;
-            var2 = _closure1_slot1;
+            var15 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var1 = 7;
-            var1 = var14[var1];
-            var4 = undefined;
-            var3 = var2.bind(var4)(var1);
-            var1 = 'ChatInputSendButton';
-            var15 = var3.bind(var4)(var1);
-            var16 = _closure1_slot0;
-            var3 = 8;
+            var3 = 7;
             var1 = var14[var3];
-            var18 = var16.bind(var4)(var1);
-            var17 = var18.useToken;
+            var4 = undefined;
+            var17 = var15.bind(var4)(var1);
+            var16 = var17.useToken;
+            var2 = _closure1_slot1;
             var1 = 6;
             var13 = var14[var1];
             var13 = var2.bind(var4)(var13);
             var13 = var13.modules;
             var13 = var13.mobile;
             var13 = var13.CHAT_INPUT_ACTION_BUTTON_SIZE;
-            var13 = var17.bind(var18)(var13);
+            var13 = var16.bind(var17)(var13);
             var3 = var14[var3];
-            var16 = var16.bind(var4)(var3);
-            var3 = var16.useToken;
+            var15 = var15.bind(var4)(var3);
+            var3 = var15.useToken;
             var1 = var14[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.CHAT_INPUT_ACTION_BUTTON_MARGIN;
-            var3 = var3.bind(var16)(var1);
+            var3 = var3.bind(var15)(var1);
             var1 = _closure1_slot9;
-            var13 = var1.bind(var4)(var15, var13, var3);
+            var13 = var1.bind(var4)(var13, var3);
             var3 = _closure1_slot7;
-            var1 = 9;
+            var1 = 8;
             var1 = var14[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -206,16 +183,16 @@ case 0:
             var1['state'] = var5;
             var5 = _closure1_slot8;
             var5 = var5.BUTTON_SEND_VOICE_MESSAGE;
-            if(!(var7 !== var5)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(!(var7 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var5 = _closure1_slot8;
             var5 = var5.BUTTON_SEND_VOICE_MESSAGE_DISABLED;
-            if(!(var7 !== var5)) { _fun0003_ip = 17; continue _fun0003 }
-case 19:
+            if(!(var7 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
+case 13:
             var8 = _closure1_slot7;
             var7 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var5 = 11;
+            var5 = 10;
             var5 = var17[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
@@ -226,12 +203,12 @@ case 19:
             var13 = var13.sendButtonIconActive;
             var5['activeIconStyle'] = var13;
             var16 = _closure1_slot0;
-            var13 = 12;
+            var13 = 11;
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.SendMessageIcon;
             var5['IconComponent'] = var13;
-            var13 = 13;
+            var13 = 12;
             var14 = var17[var13];
             var14 = var16.bind(var4)(var14);
             var15 = var14.intl;
@@ -246,19 +223,19 @@ case 19:
             var11 = !var11;
             var5['disabled'] = var11;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0003_ip = 20; continue _fun0003;
-case 17:
+            _fun0002_ip = 14; continue _fun0002;
+case 11:
             var8 = _closure1_slot7;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var6 = 10;
+            var6 = 9;
             var6 = var11[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
             var6['disabled'] = var10;
             var6['channelId'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 20:
+case 14:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -268,7 +245,7 @@ case 20:
     var _closure1_slot10 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;
             var3 = var4.channel;
@@ -281,44 +258,39 @@ case 0:
             var _closure2_slot1 = var10;
             var7 = var4.requireTextContent;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+            if(!(var7 === var4)) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var7 = false;
-case 21:
+case 15:
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
-            var18 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var5 = 7;
-            var5 = var14[var5];
-            var9 = var18.bind(var4)(var5);
-            var5 = 'ChatInputSendButton';
-            var16 = var9.bind(var4)(var5);
             var11 = _closure1_slot0;
-            var9 = 8;
+            var14 = _closure1_slot2;
+            var9 = 7;
             var5 = var14[var9];
-            var19 = var11.bind(var4)(var5);
-            var17 = var19.useToken;
+            var18 = var11.bind(var4)(var5);
+            var16 = var18.useToken;
+            var17 = _closure1_slot1;
             var5 = 6;
             var15 = var14[var5];
-            var15 = var18.bind(var4)(var15);
+            var15 = var17.bind(var4)(var15);
             var15 = var15.modules;
             var15 = var15.mobile;
             var15 = var15.CHAT_INPUT_ACTION_BUTTON_SIZE;
-            var15 = var17.bind(var19)(var15);
+            var15 = var16.bind(var18)(var15);
             var9 = var14[var9];
-            var17 = var11.bind(var4)(var9);
-            var9 = var17.useToken;
+            var16 = var11.bind(var4)(var9);
+            var9 = var16.useToken;
             var5 = var14[var5];
-            var5 = var18.bind(var4)(var5);
+            var5 = var17.bind(var4)(var5);
             var5 = var5.modules;
             var5 = var5.mobile;
             var5 = var5.CHAT_INPUT_ACTION_BUTTON_MARGIN;
-            var9 = var9.bind(var17)(var5);
+            var9 = var9.bind(var16)(var5);
             var5 = _closure1_slot9;
-            var5 = var5.bind(var4)(var16, var15, var9);
+            var5 = var5.bind(var4)(var15, var9);
             var16 = _closure1_slot4;
             var15 = var16.useState;
             var9 = var6.length;
@@ -332,7 +304,7 @@ case 21:
             var9 = 1;
             var9 = var15[var9];
             _closure2_slot2 = var9;
-            var9 = 14;
+            var9 = 13;
             var9 = var14[var9];
             var16 = var11.bind(var4)(var9);
             var15 = var16.useStateFromStores;
@@ -351,27 +323,27 @@ case 21:
             var11 = var15.bind(var16)(var14, var9, var11);
             _closure2_slot3 = var11;
             var9 = !var11;
-            if(var9) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+            if(var9) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var9 = var13;
-case 23:
-            if(!var9) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
-            if(var6) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+case 17:
+            if(!var9) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
+            if(var6) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var6 = var12;
-case 27:
-            if(var6) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+case 21:
+            if(var6) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var6 = !var7;
-case 29:
+case 23:
             var9 = var6;
-case 25:
+case 19:
             _closure2_slot4 = var9;
-            if(!var2) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+            if(!var2) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
             var2 = !var9;
-case 31:
+case 25:
             _closure2_slot5 = var2;
             var6 = _closure1_slot4;
             var7 = var6.useMemo;
@@ -417,7 +389,7 @@ case 31:
             var7 = _closure1_slot7;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var5 = 15;
+            var5 = 14;
             var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.TransitionGroup;
@@ -438,7 +410,7 @@ case 31:
     var4['displayName'] = var2;
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 16;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -123,7 +123,7 @@ case 2:
         }
     };
     var3['getSteamReviewScoreDescriptionColor'] = var4;
-    var2 = function getSteamReviewScoreDescriptionIntl(arg1) {
+    var4 = function getSteamReviewScoreDescriptionIntl(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
@@ -353,6 +353,43 @@ case 16:
             return var1;
         }
     };
-    var3['getSteamReviewScoreDescriptionIntl'] = var2;
+    var3['getSteamReviewScoreDescriptionIntl'] = var4;
+    var2 = function canShowLocalizedSteamReview(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var2 = arg1;
+            var4 = null;
+            var1 = var4 != var2;
+            if(!var1) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
+            var3 = var2.localizedRating;
+            var1 = var4 != var3;
+case 30:
+            if(!var1) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
+            var3 = var2.localizedRatingCount;
+            var1 = var4 != var3;
+case 32:
+            if(!var1) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
+            var3 = var2.ratingCount;
+            var1 = var4 != var3;
+case 34:
+            if(!var1) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
+            var4 = var2.localizedRatingCount;
+            var3 = 200;
+            var1 = var4 >= var3;
+case 36:
+            if(!var1) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
+            var3 = var2.ratingCount;
+            var2 = 2000;
+            var1 = var3 >= var2;
+case 38:
+            return var1;
+        }
+    };
+    var3['canShowLocalizedSteamReview'] = var2;
     return var1;
 })();

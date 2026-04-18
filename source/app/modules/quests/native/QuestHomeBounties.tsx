@@ -346,8 +346,19 @@ case 2:
             var3 = new Array(0);
             var11 = var11.bind(var9)(var8, var3);
             var15 = var9.useCallback;
-            var8 = function() {
+            var8 = function(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 11;
+                var2 = var2[var1];
                 var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.showModal;
+                var2 = {};
+                var5 = arg1;
+                var5 = var5.id;
+                var2['bountyId'] = var5;
+                var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var3 = new Array(0);
@@ -391,7 +402,7 @@ case 8:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var4 = 11;
+            var4 = 12;
             var4 = var18[var4];
             var4 = var8.bind(var5)(var4);
             var8 = var4.FlashList;
@@ -442,7 +453,7 @@ case 9:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

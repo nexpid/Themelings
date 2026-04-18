@@ -313,7 +313,7 @@ case 0:
             var6 = var1[var9];
             var6 = var8.bind(var7)(var6);
             var6 = var6.WebUserSettings;
-            var6 = var6.DISPLAY_PANEL;
+            var6 = var6.APPEARANCE_PANEL;
             var10[11] = var6;
             var6 = _closure1_slot4;
             var12 = var6.ACCESSIBILITY;
@@ -341,7 +341,7 @@ case 0:
             var6 = var1[var9];
             var6 = var8.bind(var7)(var6);
             var6 = var6.WebUserSettings;
-            var6 = var6.DISPLAY_MESSAGES_CATEGORY;
+            var6 = var6.APPEARANCE_MESSAGES_CATEGORY;
             var10[11] = var6;
             var6 = _closure1_slot4;
             var12 = var6.NOTIFICATIONS;

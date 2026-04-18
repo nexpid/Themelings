@@ -500,7 +500,7 @@ case 14:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -509,55 +509,62 @@ case 14:
     var2 = function BottomSheetTitleHeader(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var7 = arg1;
-            var10 = var7.leading;
-            var4 = var7.trailing;
-            var5 = _closure1_slot4;
-            var2 = var5.useState;
-            var1 = false;
-            var9 = var2.bind(var5)(var1);
-            var5 = _closure1_slot3;
-            var6 = undefined;
-            var2 = 2;
-            var9 = var5.bind(var6)(var9, var2);
-            var2 = 0;
-            var2 = var9[var2];
-            var5 = 1;
-            var5 = var9[var5];
-            var _closure2_slot0 = var5;
-            var5 = null;
-            if(!(var5 != var10)) { _fun0007_ip = 16; continue _fun0007 }
-case 15:
-            if(!(var1 !== var10)) { _fun0007_ip = 16; continue _fun0007 }
-case 14:
-            var9 = '';
-            if(!(var9 === var10)) { _fun0007_ip = 17; continue _fun0007 }
-case 16:
-            if(!(var5 != var4)) { _fun0007_ip = 18; continue _fun0007 }
-case 19:
-            if(!(var1 !== var4)) { _fun0007_ip = 18; continue _fun0007 }
-case 20:
-            var1 = '';
-            if(!(var1 === var4)) { _fun0007_ip = 17; continue _fun0007 }
-case 18:
-            var5 = _closure1_slot6;
-            var4 = _closure1_slot11;
-            var1 = {};
-            var12 = var1;
-            var11 = var7;
-            var9 = copyDataProperties(var12, var11);
-            var1 = var5.bind(var6)(var4, var1);
-            _fun0007_ip = 21; continue _fun0007;
+            var10 = arg1;
+            var11 = var10.leading;
+            var8 = var10.trailing;
+            var3 = _closure1_slot4;
+            var1 = var3.useState;
+            var4 = false;
+            var7 = var1.bind(var3)(var4);
+            var3 = _closure1_slot3;
+            var5 = undefined;
+            var1 = 2;
+            var7 = var3.bind(var5)(var7, var1);
+            var1 = 0;
+            var1 = var7[var1];
+            var3 = 1;
+            var3 = var7[var3];
+            var _closure2_slot0 = var3;
+            var7 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var3 = 10;
+            var3 = var9[var3];
+            var7 = var7.bind(var5)(var3);
+            var3 = 'sheet';
+            var7 = var7.bind(var5)(var3);
+            var3 = null;
+            if(!(var3 != var11)) { _fun0007_ip = 16; continue _fun0007 }
 case 17:
-            var5 = _closure1_slot6;
-            if(var2) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
+            if(!(var4 !== var11)) { _fun0007_ip = 16; continue _fun0007 }
+case 18:
+            var9 = '';
+            if(!(var9 === var11)) { _fun0007_ip = 19; continue _fun0007 }
+case 16:
+            if(!(var3 != var8)) { _fun0007_ip = 2; continue _fun0007 }
+case 20:
+            if(!(var4 !== var8)) { _fun0007_ip = 2; continue _fun0007 }
+case 21:
+            var4 = '';
+            if(!(var4 === var8)) { _fun0007_ip = 19; continue _fun0007 }
+case 2:
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot11;
+            var4 = {};
+            var13 = var4;
+            var12 = var10;
+            var11 = copyDataProperties(var13, var12);
+            var8 = var9.bind(var5)(var8, var4);
+            _fun0007_ip = 22; continue _fun0007;
+case 19:
+            var9 = _closure1_slot6;
+            if(var1) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
             var4 = _closure1_slot13;
-            var2 = {};
-            var12 = var2;
-            var11 = var7;
-            var9 = copyDataProperties(var12, var11);
-            var9 = function onTitleTextLayout(arg1) {
+            var1 = {};
+            var13 = var1;
+            var12 = var10;
+            var11 = copyDataProperties(var13, var12);
+            var11 = function onTitleTextLayout(arg1) {
                 var1 = arg1;
                 var1 = var1.nativeEvent;
                 var3 = _closure2_slot0;
@@ -569,20 +576,36 @@ case 23:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var8 = 'onTitleTextLayout';
-            var2[7] = var9;
-            var2 = var5.bind(var6)(var4, var2);
-            _fun0007_ip = 24; continue _fun0007;
+            var6 = 'onTitleTextLayout';
+            var1[5] = var11;
+            var1 = var9.bind(var5)(var4, var1);
+            _fun0007_ip = 25; continue _fun0007;
+case 23:
+            var6 = _closure1_slot12;
+            var4 = {};
+            var13 = var4;
+            var12 = var10;
+            var10 = copyDataProperties(var13, var12);
+            var1 = var9.bind(var5)(var6, var4);
+case 25:
+            var8 = var1;
 case 22:
-            var4 = _closure1_slot12;
-            var3 = {};
-            var12 = var3;
-            var11 = var7;
-            var7 = copyDataProperties(var12, var11);
-            var2 = var5.bind(var6)(var4, var3);
-case 24:
-            var1 = var2;
-case 21:
+            var1 = var8;
+            if(!(var3 != var7)) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var6 = {};
+            var9 = 'relative';
+            var6['position'] = var9;
+            var2['style'] = var6;
+            var6 = new Array(2);
+            var6[0] = var8;
+            var6[1] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 26:
             return var1;
         }
     };

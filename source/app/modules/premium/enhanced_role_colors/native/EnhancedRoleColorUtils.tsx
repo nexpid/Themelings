@@ -173,24 +173,24 @@ case 0:
             var2 = var7 == var6;
             var8 = undefined;
             if(var2) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+case 3:
             var8 = var6.primaryColor;
 case 10:
             var2 = new Array(3);
             var2[0] = var8;
             var9 = var7 == var6;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
-            var8 = var6.secondaryColor;
+            if(var9) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
+            var8 = var6.secondaryColor;
+case 11:
             var2[1] = var8;
             var7 = var7 == var6;
             var5 = undefined;
-            if(var7) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-            var5 = var6.tertiaryColor;
+            if(var7) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
+            var5 = var6.tertiaryColor;
+case 13:
             var2[2] = var5;
             var1 = function() {
                 var3 = _closure1_slot10;
@@ -217,12 +217,12 @@ case 0:
             var2 = arg1;
             var1 = arg2;
             var1 = var3.bind(var4)(var2, var1);
-            if(!var1) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+            if(!var1) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var3 = 'username';
             var2 = arg3;
             var1 = var3 === var2;
-case 16:
+case 15:
             return var1;
         }
     };
@@ -239,19 +239,19 @@ case 0:
             var2 = arg1;
             var1 = arg2;
             var1 = var3.bind(var4)(var2, var1);
-            if(!var1) { _fun0006_ip = 18; continue _fun0006 }
-case 19:
+            if(!var1) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
             var3 = 'username';
             var2 = arg3;
             var1 = var3 === var2;
-case 18:
-            if(!var1) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+case 17:
+            if(!var1) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var2 = arg4;
             var3 = var2.length;
             var2 = 1;
             var1 = var3 > var2;
-case 20:
+case 19:
             return var1;
         }
     };

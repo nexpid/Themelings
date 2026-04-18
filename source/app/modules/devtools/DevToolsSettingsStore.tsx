@@ -77,7 +77,7 @@ case 4:
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var _closure1_slot7 = var2;
-    var4 = {'sidebarWidth': 460, 'lastOpenTabId': null, 'displayTools': false, 'showDevWidget': false};
+    var4 = {'sidebarWidth': 460, 'lastOpenTabId': null, 'lastOpenSubTabId': null, 'displayTools': false, 'showDevWidget': false};
     var2 = 460;
     var8 = {'x': 0, 'y': 0};
     var4['devWidgetPosition'] = var8;
@@ -169,7 +169,7 @@ case 11:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
@@ -219,25 +219,26 @@ case 15:
         var5['get'] = var7;
         var1[3] = var5;
         var5 = {};
-        var7 = 'displayTools';
+        var7 = 'lastOpenSubTabId';
         var5['key'] = var7;
         var7 = function get() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var1 = _closure1_slot7;
-                var1 = var1.isDeveloper;
-                if(!var1) { _fun0006_ip = 17; continue _fun0006 }
-case 9:
-                var2 = _closure1_slot8;
-                var1 = var2.displayTools;
-case 17:
+                var1 = _closure1_slot8;
+                var2 = var1.lastOpenSubTabId;
+                var1 = null;
+                var3 = var1 != var2;
+                if(!var3) { _fun0006_ip = 15; continue _fun0006 }
+case 16:
+                var1 = var2;
+case 15:
                 return var1;
             }
         };
         var5['get'] = var7;
         var1[4] = var5;
         var5 = {};
-        var7 = 'showDevWidget';
+        var7 = 'displayTools';
         var5['key'] = var7;
         var7 = function get() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -247,13 +248,31 @@ case 0:
                 if(!var1) { _fun0007_ip = 17; continue _fun0007 }
 case 9:
                 var2 = _closure1_slot8;
-                var1 = var2.showDevWidget;
+                var1 = var2.displayTools;
 case 17:
                 return var1;
             }
         };
         var5['get'] = var7;
         var1[5] = var5;
+        var5 = {};
+        var7 = 'showDevWidget';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var1 = _closure1_slot7;
+                var1 = var1.isDeveloper;
+                if(!var1) { _fun0008_ip = 17; continue _fun0008 }
+case 9:
+                var2 = _closure1_slot8;
+                var1 = var2.showDevWidget;
+case 17:
+                return var1;
+            }
+        };
+        var5['get'] = var7;
+        var1[6] = var5;
         var5 = {};
         var7 = 'devWidgetPosition';
         var5['key'] = var7;
@@ -263,7 +282,7 @@ case 17:
             return var1;
         };
         var5['get'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'sortedScreenKeys';
         var5['key'] = var7;
@@ -273,7 +292,7 @@ case 17:
             return var1;
         };
         var5['get'] = var6;
-        var1[7] = var5;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -286,11 +305,11 @@ case 17:
     var12 = var7.bind(var1)(var4);
     var4 = {};
     var5 = function handleDevToolsSettingsUpdate(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = _closure1_slot7;
             var1 = var1.isDeveloper;
-            if(!var1) { _fun0008_ip = 18; continue _fun0008 }
+            if(!var1) { _fun0009_ip = 18; continue _fun0009 }
 case 9:
             var1 = {};
             var4 = _closure1_slot8;

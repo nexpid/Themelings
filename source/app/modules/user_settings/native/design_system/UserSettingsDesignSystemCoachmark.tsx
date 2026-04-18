@@ -111,7 +111,7 @@ case 2:
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var1 = {'title': 'Title goes here', 'description': 'Body copy goes here'};
+                    var1 = {'title': 'Title goes here, and it can get really long so we should handle that', 'description': 'Body copy goes here'};
                     var5 = _closure2_slot3;
                     var2 = 'top';
                     if(!var5) { _fun0002_ip = 4; continue _fun0002 }

@@ -46,6 +46,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MARVEL_RIVALS_PROMOTIONAL_BANNER'] = var5;
     var1 = 'MARVEL_RIVALS_PROMOTIONAL_BANNER';
     var2[var5] = var1;
+    var5 = 9;
+    var2['SOCIAL_LAYER_STOREFRONT_PROMOTIONAL_BANNER'] = var5;
+    var1 = 'SOCIAL_LAYER_STOREFRONT_PROMOTIONAL_BANNER';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

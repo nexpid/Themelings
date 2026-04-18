@@ -91,7 +91,7 @@ case 0:
                 var2 = _closure2_slot0;
                 var3 = undefined;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = new Array(3);
+                var1 = new Array(4);
                 var6 = {'no': 1, 'name': 'body', 'kind': 'scalar', 'T': 9};
                 var1[0] = var6;
                 var6 = {'no': 2, 'name': 'cta_label', 'kind': 'scalar', 'T': 9};
@@ -113,6 +113,8 @@ case 0:
                 };
                 var6['T'] = var7;
                 var1[2] = var6;
+                var6 = {'no': 4, 'name': 'deeplink_section', 'kind': 'scalar', 'T': 9};
+                var1[3] = var6;
                 var9 = ['discord_protos.premium_marketing.v1.Nagbar'];
                 var9[1] = var1;
                 var1 = _closure1_slot6;
@@ -152,7 +154,7 @@ case 8:
 case 0:
                 var5 = arg1;
                 var4 = this;
-                var1 = {'body': '', 'ctaLabel': '', 'ctaAction': 0};
+                var1 = {'body': '', 'ctaLabel': '', 'ctaAction': 0, 'deeplinkSection': ''};
                 var2 = global;
                 var2 = var2.globalThis;
                 var10 = var2.Object;
@@ -190,26 +192,27 @@ case 9:
         var7 = function value(arg1, arg2, arg3, arg4) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var18 = arg1;
-                var17 = arg3;
+                var19 = arg1;
+                var18 = arg3;
                 var1 = arg4;
-                var16 = this;
+                var17 = this;
                 var2 = null;
                 if(!(var2 == var1)) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
-                var2 = var16.create;
-                var1 = var2.bind(var16)();
+                var2 = var17.create;
+                var1 = var2.bind(var17)();
 case 11:
-                var3 = var18.pos;
+                var3 = var19.pos;
                 var2 = arg2;
-                var15 = var3 + var2;
-                var2 = var18.pos;
-                var2 = var2 < var15;
-                var14 = undefined;
-                var12 = 7;
-                var11 = true;
-                var10 = false;
-                var9 = 'throw';
+                var16 = var3 + var2;
+                var2 = var19.pos;
+                var2 = var2 < var16;
+                var15 = undefined;
+                var13 = 7;
+                var12 = true;
+                var11 = false;
+                var10 = 'throw';
+                var9 = 4;
                 var8 = 3;
                 var7 = 2;
                 var6 = 1;
@@ -218,91 +221,100 @@ case 11:
                 var3 = undefined;
                 if(!var2) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-                var2 = var18.tag;
-                var19 = var2.bind(var18)();
+                var2 = var19.tag;
+                var20 = var2.bind(var19)();
                 var2 = _closure1_slot2;
-                var2 = var2.bind(var14)(var19, var7);
-                var27 = var2[var5];
-                var26 = var2[var6];
-                if(!(var6 !== var27)) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-                if(!(var7 !== var27)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
-                if(!(var8 !== var27)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-                var21 = var17.readUnknownField;
-                if(!(var9 !== var21)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                var2 = var18.skip;
-                var2 = var2.bind(var18)(var26);
-                var20 = var21;
-                var19 = var2;
-                if(!(var10 !== var21)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
-                var23 = var21;
-                if(!(var11 === var21)) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
-                var24 = _closure1_slot0;
-                var22 = _closure1_slot1;
-                var22 = var22[var12];
-                var22 = var24.bind(var14)(var22);
-                var22 = var22.UnknownFieldHandler;
-                var23 = var22.onRead;
-case 25:
-                var32 = var16.typeName;
-                var33 = undefined;
-                var31 = var1;
-                var30 = var27;
-                var29 = var26;
-                var28 = var2;
-                var22 = var33[var23](var32, var31, var30, var29, var28, var27);
-                var20 = var21;
-                var19 = var2;
-                _fun0004_ip = 23; continue _fun0004;
-case 21:
-                var2 = global;
-                var21 = var2.globalThis;
-                var22 = var21.Error;
-                var28 = var16.typeName;
-                var2 = var2.HermesInternal;
-                var24 = var2.concat;
-                var33 = 'Unknown field ';
-                var31 = ' (wire type ';
-                var29 = ') for ';
-                var32 = var27;
-                var30 = var26;
-                var32 = var33[var24](var32, var31, var30, var29, var28, var27);
-                var21 = var22.prototype;
-                var21 = Object.create(var21, {constructor: {value: var22}});
-                var33 = var21;
-                var2 = new var33[var22](var32, var31);
-                var2 = var2 instanceof Object ? var2 : var21;
-                throw var2;
-case 19:
-                var2 = var18.int32;
-                var2 = var2.bind(var18)();
-                var1['ctaAction'] = var2;
-                var20 = var4;
-                var19 = var3;
-                _fun0004_ip = 23; continue _fun0004;
+                var2 = var2.bind(var15)(var20, var7);
+                var28 = var2[var5];
+                var27 = var2[var6];
+                if(!(var6 !== var28)) { _fun0004_ip = 15; continue _fun0004 }
+case 9:
+                if(!(var7 !== var28)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-                var2 = var18.string;
-                var2 = var2.bind(var18)();
-                var1['ctaLabel'] = var2;
-                var20 = var4;
-                var19 = var3;
-                _fun0004_ip = 23; continue _fun0004;
-case 15:
-                var2 = var18.string;
-                var2 = var2.bind(var18)();
-                var1['body'] = var2;
-                var20 = var4;
-                var19 = var3;
+                if(!(var8 !== var28)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+                if(!(var9 !== var28)) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+                var22 = var18.readUnknownField;
+                if(!(var10 !== var22)) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
-                var2 = var18.pos;
-                var4 = var20;
-                var3 = var19;
-                if(var2 < var15) { _fun0004_ip = 14; continue _fun0004 }
+                var2 = var19.skip;
+                var2 = var2.bind(var19)(var27);
+                var21 = var22;
+                var20 = var2;
+                if(!(var11 !== var22)) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
+                var24 = var22;
+                if(!(var12 === var22)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
+                var25 = _closure1_slot0;
+                var23 = _closure1_slot1;
+                var23 = var23[var13];
+                var23 = var25.bind(var15)(var23);
+                var23 = var23.UnknownFieldHandler;
+                var24 = var23.onRead;
+case 26:
+                var33 = var17.typeName;
+                var34 = undefined;
+                var32 = var1;
+                var31 = var28;
+                var30 = var27;
+                var29 = var2;
+                var23 = var34[var24](var33, var32, var31, var30, var29, var28);
+                var21 = var22;
+                var20 = var2;
+                _fun0004_ip = 24; continue _fun0004;
+case 22:
+                var2 = global;
+                var22 = var2.globalThis;
+                var23 = var22.Error;
+                var29 = var17.typeName;
+                var2 = var2.HermesInternal;
+                var25 = var2.concat;
+                var34 = 'Unknown field ';
+                var32 = ' (wire type ';
+                var30 = ') for ';
+                var33 = var28;
+                var31 = var27;
+                var33 = var34[var25](var33, var32, var31, var30, var29, var28);
+                var22 = var23.prototype;
+                var22 = Object.create(var22, {constructor: {value: var23}});
+                var34 = var22;
+                var2 = new var34[var23](var33, var32);
+                var2 = var2 instanceof Object ? var2 : var22;
+                throw var2;
+case 20:
+                var2 = var19.string;
+                var2 = var2.bind(var19)();
+                var1['deeplinkSection'] = var2;
+                var21 = var4;
+                var20 = var3;
+                _fun0004_ip = 24; continue _fun0004;
+case 18:
+                var2 = var19.int32;
+                var2 = var2.bind(var19)();
+                var1['ctaAction'] = var2;
+                var21 = var4;
+                var20 = var3;
+                _fun0004_ip = 24; continue _fun0004;
+case 16:
+                var2 = var19.string;
+                var2 = var2.bind(var19)();
+                var1['ctaLabel'] = var2;
+                var21 = var4;
+                var20 = var3;
+                _fun0004_ip = 24; continue _fun0004;
+case 15:
+                var2 = var19.string;
+                var2 = var2.bind(var19)();
+                var1['body'] = var2;
+                var21 = var4;
+                var20 = var3;
+case 24:
+                var2 = var19.pos;
+                var4 = var21;
+                var3 = var20;
+                if(var2 < var16) { _fun0004_ip = 14; continue _fun0004 }
 case 13:
                 return var1;
             }
@@ -319,8 +331,8 @@ case 0:
                 var1 = arg2;
                 var2 = var5.body;
                 var3 = '';
-                if(!(var3 !== var2)) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+                if(!(var3 !== var2)) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -335,10 +347,47 @@ case 28:
                 var4 = var6.string;
                 var2 = var5.body;
                 var2 = var4.bind(var6)(var2);
-case 27:
+case 28:
                 var2 = var5.ctaLabel;
-                if(!(var3 !== var2)) { _fun0005_ip = 29; continue _fun0005 }
+                if(!(var3 !== var2)) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
+                var6 = var1.tag;
+                var7 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var2 = 7;
+                var4 = var4[var2];
+                var2 = undefined;
+                var2 = var7.bind(var2)(var4);
+                var2 = var2.WireType;
+                var4 = var2.LengthDelimited;
+                var2 = 2;
+                var6 = var6.bind(var1)(var2, var4);
+                var4 = var6.string;
+                var2 = var5.ctaLabel;
+                var2 = var4.bind(var6)(var2);
 case 30:
+                var4 = var5.ctaAction;
+                var2 = 0;
+                if(!(var2 !== var4)) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
+                var6 = var1.tag;
+                var7 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var2 = 7;
+                var4 = var4[var2];
+                var2 = undefined;
+                var2 = var7.bind(var2)(var4);
+                var2 = var2.WireType;
+                var4 = var2.Varint;
+                var2 = 3;
+                var6 = var6.bind(var1)(var2, var4);
+                var4 = var6.int32;
+                var2 = var5.ctaAction;
+                var2 = var4.bind(var6)(var2);
+case 32:
+                var2 = var5.deeplinkSection;
+                if(!(var3 !== var2)) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                 var4 = var1.tag;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -348,39 +397,20 @@ case 30:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.WireType;
                 var3 = var2.LengthDelimited;
-                var2 = 2;
+                var2 = 4;
                 var4 = var4.bind(var1)(var2, var3);
                 var3 = var4.string;
-                var2 = var5.ctaLabel;
+                var2 = var5.deeplinkSection;
                 var2 = var3.bind(var4)(var2);
-case 29:
-                var3 = var5.ctaAction;
-                var2 = 0;
-                if(!(var2 !== var3)) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
-                var4 = var1.tag;
-                var6 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var2 = 7;
-                var3 = var3[var2];
-                var2 = undefined;
-                var2 = var6.bind(var2)(var3);
-                var2 = var2.WireType;
-                var3 = var2.Varint;
-                var2 = 3;
-                var4 = var4.bind(var1)(var2, var3);
-                var3 = var4.int32;
-                var2 = var5.ctaAction;
-                var2 = var3.bind(var4)(var2);
-case 31:
+case 34:
                 var2 = arg3;
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+                if(!(var2 !== var4)) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                if(!(var2 == var4)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 7;
@@ -389,12 +419,12 @@ case 36:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 35:
+case 38:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 33:
+case 36:
                 return var1;
             }
         };

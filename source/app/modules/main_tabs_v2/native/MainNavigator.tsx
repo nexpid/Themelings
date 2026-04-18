@@ -918,19 +918,16 @@ case 39:
                     var25 = _closure1_slot25;
                     var11['getComponent'] = var25;
                     var25 = function options() {
-                        var1 = {};
-                        var4 = _closure1_slot1;
+                        var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var2 = 40;
-                        var2 = var3[var2];
+                        var1 = 40;
+                        var1 = var3[var1];
                         var3 = undefined;
-                        var2 = var4.bind(var3)(var2);
-                        var5 = var2.bind(var3)();
-                        var6 = var1;
-                        var2 = copyDataProperties(var6, var5);
-                        var3 = false;
-                        var2 = 'lockOrientation';
-                        var1[1] = var3;
+                        var2 = var2.bind(var3)(var1);
+                        var1 = {};
+                        var4 = false;
+                        var1['lockOrientation'] = var4;
+                        var1 = var2.bind(var3)(var1);
                         return var1;
                     };
                     var11['options'] = var25;

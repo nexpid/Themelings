@@ -2162,6 +2162,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_GROUP_PRIMARY_REMINDER_NAGBAR'] = var2;
     var1 = 'PREMIUM_GROUP_PRIMARY_REMINDER_NAGBAR';
     var4[var2] = var1;
+    var2 = 741;
+    var4['COLLECTIBLES_SHOP_SLAYER_STOREFRONT_PROMOTIONAL_BANNER'] = var2;
+    var1 = 'COLLECTIBLES_SHOP_SLAYER_STOREFRONT_PROMOTIONAL_BANNER';
+    var4[var2] = var1;
+    var2 = 742;
+    var4['NOTIFICATION_NUDGE_POST_REACTION_BANNER'] = var2;
+    var1 = 'NOTIFICATION_NUDGE_POST_REACTION_BANNER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -608,12 +608,14 @@ case 20:
     var4 = var8.bind(var9)(var4);
     var _closure1_slot14 = var4;
     var4 = var7.memo;
-    var2 = function ExternalPipViewVideo() {
+    var2 = function ExternalPipViewVideo(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
+            var1 = arg1;
+            var5 = var1.onLayout;
             var1 = _closure1_slot14;
             var4 = undefined;
-            var5 = var1.bind(var4)();
+            var7 = var1.bind(var4)();
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 19;
@@ -628,29 +630,30 @@ case 0:
             var3 = _closure1_slot11;
             var2 = _closure1_slot6;
             var1 = {};
-            var5 = var5.container;
-            var1['style'] = var5;
+            var7 = var7.container;
+            var1['style'] = var7;
+            var1['onLayout'] = var5;
             var5 = null;
             if(!(var5 == var10)) { _fun0009_ip = 23; continue _fun0009 }
-case 24:
-            if(!(var5 == var9)) { _fun0009_ip = 25; continue _fun0009 }
-case 26:
+case 18:
+            if(!(var5 == var9)) { _fun0009_ip = 24; continue _fun0009 }
+case 25:
             var8 = _closure1_slot11;
             var7 = _closure1_slot15;
             var5 = {};
             var11 = _closure1_slot10;
             var11 = var11.STREAM;
             var11 = var15 === var11;
-            if(var11) { _fun0009_ip = 27; continue _fun0009 }
-case 28:
+            if(var11) { _fun0009_ip = 26; continue _fun0009 }
+case 27:
             var14 = _closure1_slot10;
             var14 = var14.HIDDEN_STREAM;
             var11 = var15 === var14;
-case 27:
+case 26:
             var5['wasStream'] = var11;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0009_ip = 29; continue _fun0009;
-case 25:
+            _fun0009_ip = 28; continue _fun0009;
+case 24:
             var11 = _closure1_slot11;
             var8 = _closure1_slot16;
             var7 = {};
@@ -658,8 +661,8 @@ case 25:
             var7['channelId'] = var13;
             var7['speaking'] = var12;
             var5 = var11.bind(var4)(var8, var7);
-case 29:
-            _fun0009_ip = 30; continue _fun0009;
+case 28:
+            _fun0009_ip = 29; continue _fun0009;
 case 23:
             var8 = _closure1_slot11;
             var7 = _closure1_slot17;
@@ -667,7 +670,7 @@ case 23:
             var6['streamId'] = var10;
             var6['userId'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 30:
+case 29:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -193,6 +193,11 @@ case 10:
         var1 = false;
         return var1;
     };
+    var3['shouldShowPrimaryReminderNagbar'] = var4;
+    var4 = function() {
+        var1 = false;
+        return var1;
+    };
     var3['useIsEligibleForPremiumGroupPurchase'] = var4;
     var4 = function(arg1) {
         var1 = arg1;

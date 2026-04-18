@@ -342,7 +342,7 @@ case 0:
                         var2 = var1.actionName;
                         var1 = 'toggleWishlist';
                         if(!(var1 === var2)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+case 15:
                         var2 = _closure2_slot7;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
@@ -377,11 +377,11 @@ case 0:
                         var3 = var4.bind(var1)(var3);
                         var4 = _closure2_slot0;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0006_ip = 31; continue _fun0006 }
-case 29:
+                        if(!(var3 != var4)) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
                         var2 = _closure2_slot0;
                         var2 = var2.bind(var1)();
-case 31:
+case 30:
                         return var1;
                     }
                 };
@@ -698,7 +698,7 @@ case 58:
 case 60:
                         var1 = _closure2_slot7;
                         if(!(var1 !== var2)) { _fun0009_ip = 61; continue _fun0009 }
-case 29:
+case 31:
                         var1 = null;
                         return var1;
 case 61:

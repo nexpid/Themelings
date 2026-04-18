@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
-            var10 = var3.style;
+            var9 = var3.style;
             var1 = null;
             var2 = Object.create(var1);
             var1 = 0;
@@ -48,7 +48,7 @@ case 0:
             var15 = {};
             var14 = var3;
             var13 = var2;
-            var9 = copyDataProperties(var15, var14, var13);
+            var10 = copyDataProperties(var15, var14, var13);
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
             var1 = 3;
@@ -79,32 +79,36 @@ case 3:
             var5 = var7.bind(var4)(var5);
             var7 = var5.AppsIcon;
             var5 = {};
-            var5['style'] = var10;
+            var5['style'] = var9;
             var15 = var5;
-            var14 = var9;
-            var9 = copyDataProperties(var15, var14);
+            var14 = var10;
+            var11 = copyDataProperties(var15, var14);
             var5 = var8.bind(var4)(var7, var5);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var6 = 5;
-            var6 = var9[var6];
+            var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.PlusLargeIcon;
             var6 = {};
-            var9 = new Array(2);
-            var9[0] = var10;
-            var10 = {};
+            var15 = var6;
+            var14 = var10;
+            var10 = copyDataProperties(var15, var14);
+            var10 = new Array(2);
+            var10[0] = var9;
+            var9 = {};
             var12 = {};
             var11 = '45deg';
             var12['rotate'] = var11;
             var11 = new Array(1);
             var11[0] = var12;
-            var10['transform'] = var11;
-            var9[1] = var10;
-            var6['style'] = var9;
+            var9['transform'] = var11;
+            var10[1] = var9;
+            var9 = 'style';
+            var6[8] = var10;
             var5 = var8.bind(var4)(var7, var6);
 case 4:
             var1['children'] = var5;

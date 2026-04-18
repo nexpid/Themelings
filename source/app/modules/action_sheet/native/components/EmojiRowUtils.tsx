@@ -48,13 +48,20 @@ case 5:
 case 4:
             if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var4 = var3.type;
-            var2 = _closure1_slot4;
-            var2 = var2.THREAD_STARTER_MESSAGE;
+            var4 = var3.state;
+            var2 = _closure1_slot3;
+            var2 = var2.SENDING;
             var1 = var4 !== var2;
 case 6:
             if(!var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var4 = var3.type;
+            var2 = _closure1_slot4;
+            var2 = var2.THREAD_STARTER_MESSAGE;
+            var1 = var4 !== var2;
+case 8:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var4 = 1;
@@ -67,7 +74,7 @@ case 9:
             var2 = var2.EPHEMERAL;
             var2 = var4.bind(var5)(var3, var2);
             var1 = !var2;
-case 8:
+case 10:
             return var1;
         }
     };

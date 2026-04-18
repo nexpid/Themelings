@@ -437,11 +437,11 @@ case 0:
 case 82:
             var2 = false;
 case 81:
-            if(!var2) { _fun0005_ip = 83; continue _fun0005 }
+            if(!var2) { _fun0005_ip = 20; continue _fun0005 }
 case 8:
             var6 = null;
-            if(!(var6 != var1)) { _fun0005_ip = 83; continue _fun0005 }
-case 84:
+            if(!(var6 != var1)) { _fun0005_ip = 20; continue _fun0005 }
+case 83:
             var9 = var1.LIGHT;
             var5 = var1.DARK;
             var2 = {};
@@ -449,36 +449,36 @@ case 84:
             var10 = _closure1_slot6;
             var11 = var6 == var9;
             var8 = undefined;
-            if(var11) { _fun0005_ip = 85; continue _fun0005 }
-case 86:
-            var8 = var9.accentColor;
+            if(var11) { _fun0005_ip = 84; continue _fun0005 }
 case 85:
+            var8 = var9.accentColor;
+case 84:
             var8 = var10.bind(var4)(var8);
             var3['accentColor'] = var8;
             var10 = _closure1_slot6;
             var11 = var6 == var9;
             var8 = undefined;
-            if(var11) { _fun0005_ip = 87; continue _fun0005 }
-case 88:
-            var8 = var9.backgroundColor;
+            if(var11) { _fun0005_ip = 86; continue _fun0005 }
 case 87:
+            var8 = var9.backgroundColor;
+case 86:
             var8 = var10.bind(var4)(var8);
             var3['backgroundColor'] = var8;
             var10 = _closure1_slot6;
             var11 = var6 == var9;
             var8 = undefined;
-            if(var11) { _fun0005_ip = 89; continue _fun0005 }
-case 90:
-            var8 = var9.highlightColor;
+            if(var11) { _fun0005_ip = 88; continue _fun0005 }
 case 89:
+            var8 = var9.highlightColor;
+case 88:
             var8 = var10.bind(var4)(var8);
             var3['highlightColor'] = var8;
             var10 = var6 == var9;
             var8 = undefined;
-            if(var10) { _fun0005_ip = 91; continue _fun0005 }
-case 32:
-            var8 = var9.opacity;
+            if(var10) { _fun0005_ip = 90; continue _fun0005 }
 case 91:
+            var8 = var9.opacity;
+case 90:
             var3['opacity'] = var8;
             var2['LIGHT'] = var3;
             var3 = {};
@@ -486,7 +486,7 @@ case 91:
             var10 = var6 == var5;
             var8 = undefined;
             if(var10) { _fun0005_ip = 92; continue _fun0005 }
-case 93:
+case 15:
             var8 = var5.accentColor;
 case 92:
             var8 = var9.bind(var4)(var8);
@@ -494,31 +494,31 @@ case 92:
             var9 = _closure1_slot6;
             var10 = var6 == var5;
             var8 = undefined;
-            if(var10) { _fun0005_ip = 94; continue _fun0005 }
-case 95:
-            var8 = var5.backgroundColor;
+            if(var10) { _fun0005_ip = 93; continue _fun0005 }
 case 94:
+            var8 = var5.backgroundColor;
+case 93:
             var8 = var9.bind(var4)(var8);
             var3['backgroundColor'] = var8;
             var8 = _closure1_slot6;
             var9 = var6 == var5;
             var7 = undefined;
-            if(var9) { _fun0005_ip = 96; continue _fun0005 }
-case 97:
+            if(var9) { _fun0005_ip = 16; continue _fun0005 }
+case 95:
             var7 = var5.highlightColor;
-case 96:
+case 16:
             var7 = var8.bind(var4)(var7);
             var3['highlightColor'] = var7;
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0005_ip = 98; continue _fun0005 }
-case 99:
+            if(var6) { _fun0005_ip = 96; continue _fun0005 }
+case 97:
             var4 = var5.opacity;
-case 98:
+case 96:
             var3['opacity'] = var4;
             var2['DARK'] = var3;
             return var2;
-case 83:
+case 20:
             return var1;
         }
     };

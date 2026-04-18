@@ -1001,7 +1001,7 @@ case 35:
                 var1['style'] = var7;
                 var7 = null;
                 if(var5) { _fun0008_ip = 37; continue _fun0008 }
-case 38:
+case 22:
                 var9 = _closure1_slot14;
                 var8 = _closure1_slot16;
                 var5 = {};

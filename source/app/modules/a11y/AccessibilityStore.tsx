@@ -302,7 +302,7 @@ case 19:
                 var5 = var2.HermesInternal;
                 var5 = var5.concat;
                 if(var3) { _fun0004_ip = 20; continue _fun0004 }
-case 3:
+case 4:
                 var1 = var5.bind(var1)(var4);
                 _fun0004_ip = 21; continue _fun0004;
 case 20:
@@ -489,13 +489,13 @@ case 0:
                 var3 = var2.MessageDisplayCompact;
                 var2 = var3.getSetting;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0006_ip = 19; continue _fun0006 }
-case 27:
-                var2 = _closure1_slot14;
-                _fun0006_ip = 28; continue _fun0006;
-case 19:
-                var2 = _closure1_slot13;
+                if(var2) { _fun0006_ip = 27; continue _fun0006 }
 case 28:
+                var2 = _closure1_slot14;
+                _fun0006_ip = 29; continue _fun0006;
+case 27:
+                var2 = _closure1_slot13;
+case 29:
                 var1 = this;
                 var1 = var1.messageGroupSpacing;
                 var1 = var1 > var2;
@@ -519,13 +519,13 @@ case 0:
                 var3 = var2.MessageDisplayCompact;
                 var2 = var3.getSetting;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0007_ip = 19; continue _fun0007 }
-case 27:
-                var2 = _closure1_slot14;
-                _fun0007_ip = 28; continue _fun0007;
-case 19:
-                var2 = _closure1_slot13;
+                if(var2) { _fun0007_ip = 27; continue _fun0007 }
 case 28:
+                var2 = _closure1_slot14;
+                _fun0007_ip = 29; continue _fun0007;
+case 27:
+                var2 = _closure1_slot13;
+case 29:
                 var1 = this;
                 var1 = var1.messageGroupSpacing;
                 var1 = var1 < var2;
@@ -584,15 +584,15 @@ case 0:
                 var3 = var2.prefersReducedMotion;
                 var2 = 'no-preference';
                 if(!(var2 !== var3)) { _fun0008_ip = 7; continue _fun0008 }
-case 29:
+case 30:
                 var2 = 'reduce';
-                if(!(var2 !== var3)) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
+                if(!(var2 !== var3)) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
                 var1 = _closure1_slot17;
                 var1 = var1.systemPrefersReducedMotion;
                 var1 = var2 === var1;
                 return var1;
-case 30:
+case 31:
                 var1 = true;
                 return var1;
 case 7:
@@ -631,13 +631,13 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.syncForcedColors;
                 var1 = !var1;
-                if(var1) { _fun0009_ip = 32; continue _fun0009 }
+                if(var1) { _fun0009_ip = 33; continue _fun0009 }
 case 23:
                 var2 = _closure1_slot17;
                 var3 = var2.systemForcedColors;
                 var2 = 'active';
                 var1 = var2 !== var3;
-case 32:
+case 33:
                 var1 = !var1;
                 return var1;
             }
@@ -757,10 +757,10 @@ case 0:
             var2 = var3.get;
             var12 = 'a11yFontScale';
             var4 = var2.bind(var3)(var12);
-            if(var4) { _fun0010_ip = 33; continue _fun0010 }
-case 19:
+            if(var4) { _fun0010_ip = 34; continue _fun0010 }
+case 27:
             var4 = 100;
-case 33:
+case 34:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -770,7 +770,7 @@ case 33:
             var11 = 'a11yZoom';
             var3 = var2.bind(var3)(var11);
             if(var3) { _fun0010_ip = 8; continue _fun0010 }
-case 34:
+case 35:
             var2 = _closure1_slot11;
             var3 = var2.ZOOM_DEFAULT;
 case 8:
@@ -782,10 +782,10 @@ case 8:
             var2 = var5.get;
             var6 = 'a11yColorblindMode';
             var2 = var2.bind(var5)(var6);
-            if(var2) { _fun0010_ip = 35; continue _fun0010 }
-case 36:
+            if(var2) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
             var2 = false;
-case 35:
+case 36:
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var9 = var1[var8];
@@ -823,10 +823,10 @@ case 0:
             var1 = undefined;
             var2 = var3.bind(var1)(var5, var2);
             var1 = 82;
-            if(!(var1 !== var4)) { _fun0011_ip = 37; continue _fun0011 }
-case 38:
+            if(!(var1 !== var4)) { _fun0011_ip = 38; continue _fun0011 }
+case 39:
             var1 = 92;
-            if(!(var1 !== var4)) { _fun0011_ip = 39; continue _fun0011 }
+            if(!(var1 !== var4)) { _fun0011_ip = 18; continue _fun0011 }
 case 40:
             var5 = 16;
             var1 = 100;
@@ -851,10 +851,10 @@ case 45:
 case 43:
             var3 = 18;
             _fun0011_ip = 41; continue _fun0011;
-case 39:
+case 18:
             var3 = 15;
             _fun0011_ip = 41; continue _fun0011;
-case 37:
+case 38:
             var3 = 12;
 case 41:
             var1 = {};
@@ -1004,11 +1004,11 @@ case 53:
             var1 = _closure1_slot11;
             var1 = var1.FONT_SIZE_MIN;
             if(!(!(var2 < var1))) { _fun0014_ip = 52; continue _fun0014 }
-case 20:
+case 54:
             var1 = _closure1_slot17;
             var1 = var1.fontSize;
             if(!(var1 !== var2)) { _fun0014_ip = 52; continue _fun0014 }
-case 54:
+case 55:
             var1 = {};
             var5 = _closure1_slot17;
             var6 = var1;
@@ -1030,17 +1030,17 @@ case 0:
             var4 = var1.zoom;
             var3 = _closure1_slot11;
             var3 = var3.ZOOM_MIN;
-            if(!(!(var4 < var3))) { _fun0015_ip = 55; continue _fun0015 }
-case 56:
+            if(!(!(var4 < var3))) { _fun0015_ip = 56; continue _fun0015 }
+case 57:
             var4 = var1.zoom;
             var3 = _closure1_slot11;
             var3 = var3.ZOOM_MAX;
-            if(!(!(var4 > var3))) { _fun0015_ip = 55; continue _fun0015 }
-case 57:
+            if(!(!(var4 > var3))) { _fun0015_ip = 56; continue _fun0015 }
+case 58:
             var3 = _closure1_slot17;
             var4 = var3.zoom;
             var3 = var1.zoom;
-            if(!(var4 !== var3)) { _fun0015_ip = 55; continue _fun0015 }
+            if(!(var4 !== var3)) { _fun0015_ip = 56; continue _fun0015 }
 case 24:
             var3 = {};
             var5 = _closure1_slot17;
@@ -1060,7 +1060,7 @@ case 24:
             var2 = var2.zoom;
             var2 = var3.bind(var4)(var2);
             return var1;
-case 55:
+case 56:
             var1 = false;
             return var1;
         }
@@ -1077,9 +1077,9 @@ case 0:
             var3 = var3.zoom;
             var2 = var2.ZOOM_DEFAULT;
             if(!(var5 === var4)) { _fun0016_ip = 7; continue _fun0016 }
-case 58:
+case 59:
             if(!(var3 === var2)) { _fun0016_ip = 7; continue _fun0016 }
-case 30:
+case 31:
             var2 = false;
             return var2;
 case 7:
@@ -1091,19 +1091,19 @@ case 7:
             var3 = var2.fontSize;
             var2 = _closure1_slot11;
             var2 = var2.FONT_SIZE_DEFAULT;
-            if(!(var3 !== var2)) { _fun0016_ip = 59; continue _fun0016 }
-case 21:
+            if(!(var3 !== var2)) { _fun0016_ip = 60; continue _fun0016 }
+case 61:
             var3 = _closure1_slot17;
             var2 = _closure1_slot11;
             var2 = var2.FONT_SIZE_DEFAULT;
             var3['fontSize'] = var2;
-case 59:
+case 60:
             var2 = _closure1_slot17;
             var3 = var2.zoom;
             var2 = _closure1_slot11;
             var2 = var2.ZOOM_DEFAULT;
-            if(!(var3 !== var2)) { _fun0016_ip = 60; continue _fun0016 }
-case 61:
+            if(!(var3 !== var2)) { _fun0016_ip = 62; continue _fun0016 }
+case 63:
             var3 = _closure1_slot17;
             var2 = _closure1_slot11;
             var2 = var2.ZOOM_DEFAULT;
@@ -1118,7 +1118,7 @@ case 61:
             var1 = _closure1_slot17;
             var1 = var1.zoom;
             var1 = var2.bind(var3)(var1);
-case 60:
+case 62:
             var1 = undefined;
             return var1;
         }
@@ -1129,8 +1129,8 @@ case 60:
 case 0:
             var2 = _closure1_slot17;
             var2 = var2.keyboardModeEnabled;
-            if(var2) { _fun0017_ip = 62; continue _fun0017 }
-case 63:
+            if(var2) { _fun0017_ip = 64; continue _fun0017 }
+case 65:
             var2 = {};
             var4 = _closure1_slot17;
             var5 = var2;
@@ -1140,7 +1140,7 @@ case 63:
             var2['keyboardModeEnabled'] = var1;
             var1 = undefined;
             return var1;
-case 62:
+case 64:
             var1 = false;
             return var1;
         }
@@ -1151,11 +1151,11 @@ case 62:
 case 0:
             var2 = _closure1_slot17;
             var2 = var2.keyboardModeEnabled;
-            if(var2) { _fun0018_ip = 64; continue _fun0018 }
-case 63:
+            if(var2) { _fun0018_ip = 66; continue _fun0018 }
+case 65:
             var2 = false;
             return var2;
-case 64:
+case 66:
             var2 = {};
             var4 = _closure1_slot17;
             var5 = var2;
@@ -1232,10 +1232,10 @@ case 0:
             var4 = null;
             var5 = var4 != var3;
             var4 = 'none';
-            if(!var5) { _fun0019_ip = 65; continue _fun0019 }
-case 66:
+            if(!var5) { _fun0019_ip = 67; continue _fun0019 }
+case 68:
             var4 = var3;
-case 65:
+case 67:
             var3 = 'systemForcedColors';
             var2[2] = var4;
             _closure1_slot17 = var2;
@@ -1252,7 +1252,7 @@ case 0:
             var4 = var1.systemPrefersContrast;
             var1 = var3.systemPrefersContrast;
             if(!(var4 !== var1)) { _fun0020_ip = 44; continue _fun0020 }
-case 56:
+case 57:
             var1 = {};
             var5 = _closure1_slot17;
             var6 = var1;
@@ -1277,7 +1277,7 @@ case 0:
             var4 = var1.systemPrefersReducedMotion;
             var1 = var3.systemPrefersReducedMotion;
             if(!(var4 !== var1)) { _fun0021_ip = 44; continue _fun0021 }
-case 56:
+case 57:
             var1 = {};
             var5 = _closure1_slot17;
             var6 = var1;
@@ -1302,7 +1302,7 @@ case 0:
             var4 = var1.systemPrefersCrossfades;
             var1 = var3.systemPrefersCrossfades;
             if(!(var4 !== var1)) { _fun0022_ip = 44; continue _fun0022 }
-case 56:
+case 57:
             var1 = {};
             var5 = _closure1_slot17;
             var6 = var1;
@@ -1327,7 +1327,7 @@ case 0:
             var4 = var1.prefersReducedMotion;
             var1 = var3.prefersReducedMotion;
             if(!(var4 !== var1)) { _fun0023_ip = 44; continue _fun0023 }
-case 56:
+case 57:
             var1 = {};
             var5 = _closure1_slot17;
             var6 = var1;

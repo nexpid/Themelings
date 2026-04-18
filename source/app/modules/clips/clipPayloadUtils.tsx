@@ -3,9 +3,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
-    var1 = metroImportDefault;
-    var _closure1_slot0 = var1;
-    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -19,8 +16,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
     var4 = var4.CLIPS_MAX_PARTICIPANTS;
-    var _closure1_slot2 = var4;
-    var4 = 2;
+    var _closure1_slot0 = var4;
+    var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -29,19 +26,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function getClipCreatedAt(arg1) {
         var1 = global;
         var3 = var1.Date;
-        var4 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 1;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var4.bind(var1)(var2);
-        var2 = var4.extractTimestamp;
-        var1 = arg1;
-        var5 = var2.bind(var4)(var1);
-        var2 = var3.prototype;
-        var2 = Object.create(var2, {constructor: {value: var3}});
-        var6 = var2;
-        var1 = new var6[var3](var5, var4);
+        var1 = var3.prototype;
+        var2 = Object.create(var1, {constructor: {value: var3}});
+        var4 = arg1;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
         var2 = var1 instanceof Object ? var1 : var2;
         var1 = var2.toISOString;
         var1 = var1.bind(var2)();
@@ -51,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function getClipParticipantIds(arg1) {
         var4 = arg1;
         var3 = var4.slice;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot0;
         var1 = 0;
         var1 = var3.bind(var4)(var1, var2);
         return var1;

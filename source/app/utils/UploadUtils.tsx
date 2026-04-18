@@ -380,7 +380,7 @@ case 29:
             var10 = var4.bind(var8)(var7);
             var9 = var10.getClipCreatedAt;
             var7 = var2.clip;
-            var7 = var7.id;
+            var7 = var7.createdAt;
             var7 = var9.bind(var10)(var7);
             var1['clip_created_at'] = var7;
             var3 = var6[var3];
@@ -798,10 +798,10 @@ case 82:
             var2 = var6;
 case 80:
             var4 = var4 != var2;
-            if(!var4) { _fun0004_ip = 32; continue _fun0004 }
-case 84:
+            if(!var4) { _fun0004_ip = 84; continue _fun0004 }
+case 85:
             var5 = var2;
-case 32:
+case 84:
             var4 = var5.indexOf;
             var2 = 'image';
             var2 = var4.bind(var5)(var2);

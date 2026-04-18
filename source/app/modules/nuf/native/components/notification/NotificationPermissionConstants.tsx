@@ -51,6 +51,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NOTIFICATION_CENTER'] = var1;
     var1 = 'channel_banner';
     var2['CHANNEL_BANNER'] = var1;
+    var1 = 'post_reaction';
+    var2['POST_REACTION'] = var1;
     var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];

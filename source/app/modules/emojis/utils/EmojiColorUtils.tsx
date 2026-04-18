@@ -302,56 +302,56 @@ case 34:
             var5 = var3.bind(var4)(var2);
             var6 = var1 == var5;
             var2 = arg3;
-            if(var2) { _fun0002_ip = 9; continue _fun0002 }
-case 35:
-            var3 = undefined;
-            if(var6) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
-            var3 = var5.LIGHT;
+            if(var2) { _fun0002_ip = 35; continue _fun0002 }
 case 36:
-            _fun0002_ip = 38; continue _fun0002;
-case 9:
-            var2 = undefined;
-            if(var6) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
-            var2 = var5.DARK;
-case 39:
-            var3 = var2;
+            var3 = undefined;
+            if(var6) { _fun0002_ip = 37; continue _fun0002 }
 case 38:
+            var3 = var5.LIGHT;
+case 37:
+            _fun0002_ip = 39; continue _fun0002;
+case 35:
+            var2 = undefined;
+            if(var6) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
+            var2 = var5.DARK;
+case 40:
+            var3 = var2;
+case 39:
             var2 = {};
             var6 = var1 == var3;
             var5 = undefined;
-            if(var6) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
+            if(var6) { _fun0002_ip = 42; continue _fun0002 }
+case 43:
             var5 = var3.backgroundColor;
-case 41:
+case 42:
             var2['backgroundColor'] = var5;
             var6 = var1 == var3;
             var5 = undefined;
-            if(var6) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
+            if(var6) { _fun0002_ip = 44; continue _fun0002 }
+case 45:
             var5 = var3.accentColor;
-case 43:
+case 44:
             var2['accentColor'] = var5;
             var6 = var1 == var3;
             var5 = undefined;
-            if(var6) { _fun0002_ip = 45; continue _fun0002 }
-case 46:
+            if(var6) { _fun0002_ip = 46; continue _fun0002 }
+case 47:
             var5 = var3.highlightColor;
-case 45:
+case 46:
             var2['highlightColor'] = var5;
             var5 = var1 == var3;
             var4 = undefined;
-            if(var5) { _fun0002_ip = 47; continue _fun0002 }
-case 48:
+            if(var5) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
             var4 = var3.opacity;
-case 47:
+case 48:
             var5 = var1 != var4;
             var3 = 0.15;
-            if(!var5) { _fun0002_ip = 49; continue _fun0002 }
-case 50:
+            if(!var5) { _fun0002_ip = 50; continue _fun0002 }
+case 51:
             var3 = var4;
-case 49:
+case 50:
             var2['opacity'] = var3;
             return var2;
 case 32:

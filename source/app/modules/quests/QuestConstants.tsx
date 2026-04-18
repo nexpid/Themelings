@@ -102,8 +102,6 @@ case 0:
         var26['QUEST_ACTIVITY_BOTTOM_SHEET'] = var1;
         var1 = 'quest_primary_cta';
         var26['QUEST_PRIMARY_CTA'] = var1;
-        var1 = 'quest_learn_more_cta';
-        var26['QUEST_LEARN_MORE_CTA'] = var1;
         var1 = 'quest_activity_header';
         var26['QUEST_ACTIVITY_HEADER'] = var1;
         var1 = 'quest_activity_unenrolled_modal';

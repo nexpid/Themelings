@@ -508,6 +508,37 @@ case 32:
         return var1;
     };
     var3['useProfileEffectSettings'] = var4;
+    var4 = function useProfileFrameSettings(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 4;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStoresObject;
+        var5 = _closure1_slot3;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var1 = {};
+            var4 = _closure1_slot3;
+            var2 = var4.getPendingChanges;
+            var3 = _closure2_slot0;
+            var2 = var2.bind(var4)(var3);
+            var2 = var2.pendingProfileFrame;
+            var1['pendingProfileFrame'] = var2;
+            var2 = var4.getErrors;
+            var2 = var2.bind(var4)(var3);
+            var2 = var2.profileFrame;
+            var1['errors'] = var2;
+            return var1;
+        };
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['useProfileFrameSettings'] = var4;
     var4 = function getProfilePreviewValue(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
