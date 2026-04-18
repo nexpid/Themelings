@@ -176,6 +176,27 @@
   "CHAT_BORDER": {
     "14": "#1c1d23"
   },
+  "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": {
+    "14": "#6c6f7c1f"
+  },
+  "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": {
+    "14": "#c7c8ce"
+  },
+  "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": {
+    "14": "#949cf7"
+  },
+  "CHAT_INPUT_BACKGROUND": {
+    "14": "#6c6f7c1f"
+  },
+  "CHAT_INPUT_ICON_DEFAULT_TINT": {
+    "14": "#c7c8ce"
+  },
+  "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": {
+    "14": "#5865f2"
+  },
+  "CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT": {
+    "14": "#ffffff"
+  },
   "CHECKBOX_BACKGROUND_DEFAULT": {
     "14": "#00000000"
   },
