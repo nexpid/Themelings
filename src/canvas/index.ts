@@ -39,7 +39,7 @@ const layout = {
 		radius: 24,
 		padding: 12,
 		gapX: 16,
-		gapY: 6,
+		gapY: 8,
 	},
 	blob: {
 		radius: 24 - 12,
@@ -141,8 +141,7 @@ export function drawSections(sections: Section[]) {
 		y += layout.card.padding;
 		x += layout.card.padding;
 
-		let wx = x,
-			biggestY = y;
+		let wx = x;
 		for (let i = 0; i < sect.columns.length; i++) {
 			let wy = y;
 
@@ -166,7 +165,7 @@ export function drawSections(sections: Section[]) {
 
 				const midX = centerX - row.itemWidth / 2;
 				if (row.item.type === "blob") {
-					const blobHeight = biggestY - wy;
+					const blobHeight = sectionHeight - wy + y;
 
 					ctx.fillStyle = colors.blob;
 					ctx.beginPath();
@@ -218,7 +217,6 @@ export function drawSections(sections: Section[]) {
 				}
 			}
 			wx += columnWidth + layout.card.gapX;
-			biggestY = Math.max(biggestY, wy - layout.card.gapY);
 		}
 		y += sectionHeight;
 

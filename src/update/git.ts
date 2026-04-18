@@ -3,7 +3,7 @@ import { handleShellErr } from "./utils";
 
 export const gitChanged = new Set<string>();
 
-export async function getGitChanged() {
+export async function fetchGitChanged() {
 	for (const changed of (
 		await Bun.$`git status -z -- ':!oldicons' ':!icons' ':!source'`.cwd("../data").quiet().then(handleShellErr)
 	)
@@ -25,11 +25,11 @@ export async function commit(files: string[], message: string) {
 	gitQueue.push(promise);
 
 	if (process.env.NODE_ENV === "test" && !commitAnyway) {
-		await getGitChanged();
+		await fetchGitChanged();
 	} else {
 		// unstage all files
 		await Bun.$`git restore --staged .`.cwd("../data").nothrow().quiet().then(handleShellErr);
-		await getGitChanged();
+		await fetchGitChanged();
 		// stage files
 		await Bun.$`git add ${{ raw: files.map((x) => Bun.$.escape(x)).join(" ") }}`
 			.cwd("../data")
@@ -44,7 +44,7 @@ export async function commit(files: string[], message: string) {
 			.then((e) => void e);
 	}
 
-	await resolve();
+	resolve();
 
 	const promInd = gitQueue.indexOf(promise);
 	if (promInd !== -1) gitQueue.splice(promInd, 1);

@@ -8,8 +8,8 @@ import {
 	type Semantic,
 	type SemanticColors,
 } from "../../types";
-import { getGitChanged, gitChanged } from "../git";
-import { log, type Progress, wrapPromise } from "../progress";
+import { fetchGitChanged, gitChanged } from "../git";
+import { type Progress, wrapPromise } from "../progress";
 import { diffAnyway, prevFiles } from "../shared";
 import { join, parseJsonl } from "../utils";
 
@@ -241,8 +241,7 @@ async function diffCode() {
 }
 
 export default async function diffs(progress: Progress) {
-	await getGitChanged();
-	log("hello i am changed", gitChanged);
+	await fetchGitChanged();
 
 	if (!(gitChanged.has("version.txt") || diffAnyway)) {
 		progress.update("diff", null);

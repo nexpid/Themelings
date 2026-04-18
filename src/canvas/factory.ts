@@ -53,7 +53,7 @@ async function makeSection(diffs: Map<string, Diff>, isFile: boolean, type: Diff
 			column.push({
 				item: {
 					type: "blob",
-					blob: `+${(filtered.length - i).toLocaleString("en-US")} ${header.toLowerCase()}`,
+					blob: `+${(filtered.length - i + 1).toLocaleString("en-US")} ${header.toLowerCase()}`,
 				},
 			});
 			break;
