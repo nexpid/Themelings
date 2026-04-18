@@ -9,18 +9,20 @@ export function assert<T>(value: T | undefined | null, message?: string): T {
 
 const numberSuffixRegex = /(.+?)(\d*)$/;
 
-export function sortObj(obj: object) {
-	return Object.fromEntries(
-		Object.entries(obj).sort(([a], [b]) => {
-			const [, _aK, aN] = a.match(numberSuffixRegex) || [];
-			const [, _bK, bN] = b.match(numberSuffixRegex) || [];
-			const aK = _aK ?? a,
-				bK = _bK ?? b;
+export function sortEntries<T extends [key: string, value: any][]>(entries: T) {
+	return entries.sort(([a], [b]) => {
+		const [, _aK, aN] = a.match(numberSuffixRegex) || [];
+		const [, _bK, bN] = b.match(numberSuffixRegex) || [];
+		const aK = _aK ?? a,
+			bK = _bK ?? b;
 
-			if (aK === bK && aN && bN) return Number(aN) - Number(bN);
-			return aK.localeCompare(bK);
-		}),
-	);
+		if (aK === bK && aN && bN) return Number(aN) - Number(bN);
+		return aK.localeCompare(bK);
+	});
+}
+
+export function sortObj<T extends object>(obj: T) {
+	return Object.fromEntries(sortEntries(Object.entries(obj))) as T;
 }
 
 // "you should make it uppercase"

@@ -7,7 +7,7 @@
 		"update:commit": "bun run --env-file local.env src/update/index.ts --commit-anyway",
 		"update:mock": "bun run --env-file local.env src/update/index.ts --mock",
 		"update:prod": "bun run src/update/index.ts",
-		"canvas:test": "bun run src/canvas/index.test.ts",
+		"canvas:test": "bun run --watch src/canvas/index.test.ts",
 		"deminify:test": "bun run src/update/deminify.test.ts",
 		"colors:test": "bun run src/update/tasks/colors.test.ts",
 		"icons:test": "bun run src/update/tasks/icons.test.ts",

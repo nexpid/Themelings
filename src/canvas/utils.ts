@@ -1,4 +1,4 @@
-import type { CanvasRenderingContext2D } from "@napi-rs/canvas";
+import { type CanvasRenderingContext2D, loadImage } from "@napi-rs/canvas";
 
 export function measureText(ctx: CanvasRenderingContext2D, font: string, text: string) {
 	ctx.font = font;
@@ -25,4 +25,21 @@ export function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: 
 
 	lines.push(line);
 	return lines;
+}
+
+export async function transformSvg(svg: string, config: { color?: string; height?: number; width?: number }) {
+	const text = config.color ? svg.replace(/fill="#[a-z0-9]{3,6}"/gi, `fill="${config.color}"`) : svg;
+
+	const image = await loadImage(Buffer.from(text));
+	if (config.width && config.height) {
+		image.width = config.width;
+		image.height = config.height;
+	} else if (config.width) {
+		image.height = (image.height / image.width) * config.width;
+		image.width = config.width;
+	} else if (config.height) {
+		image.width = (image.width / image.height) * config.height;
+		image.height = config.height;
+	}
+	return image;
 }

@@ -1,11 +1,18 @@
 import { basename } from "node:path";
 import type { Canvas } from "@napi-rs/canvas";
-import { RouteBases, Routes } from "discord-api-types/v10";
+import {
+	type APIMessageTopLevelComponent,
+	ComponentType,
+	MessageFlags,
+	type RESTPostAPIWebhookWithTokenJSONBody,
+	RouteBases,
+	Routes,
+} from "discord-api-types/v10";
 import { drawSections } from "../../canvas";
 import { makeSections } from "../../canvas/factory";
 import { type CodeDiff, type Diff, type Differs, DiffType } from "../../types";
-import { cuteVersion, maxCodeChanges, maxGeneralChanges, version } from "../shared";
-import { assert, formatBytes } from "../utils";
+import { cuteVersion, maxDiffChanges, version } from "../shared";
+import { assert, formatBytes, sortEntries } from "../utils";
 
 function fileBase(path: string, other?: string) {
 	if (!other) return `... ${basename(path)}`;
@@ -21,21 +28,31 @@ function fileBase(path: string, other?: string) {
 }
 
 function makeFooter(size: number, item: string) {
-	return `${size.toLocaleString("en-US")} ${item} change${size !== 1 ? "s" : ""} total`;
+	return `**${size.toLocaleString("en-US")}** ${item} change${size !== 1 ? "s" : ""} total`;
 }
 
-function cap(lines: string[], item: string, threshold: number) {
+function getThreshold(lines: string[]) {
+	return lines.some((x) => x.includes("\n")) ? Math.floor(maxDiffChanges / 2) : maxDiffChanges;
+}
+
+function cap(lines: string[], item: string) {
+	const threshold = getThreshold(lines);
 	if (lines.length > threshold)
 		return [...lines.slice(0, threshold), `(+${(lines.length - threshold).toLocaleString("en-US")} ${item})`];
 	return lines;
 }
 
-function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxGeneralChanges) {
+interface FormattedDiff {
+	embed: string[];
+	file: string;
+	capped: boolean;
+}
+
+function formatDiff(diffs: Map<string, Diff | CodeDiff>): FormattedDiff {
 	const entries = [...diffs.entries()];
 
 	const sections = {
-		Added: entries
-			.sort(([a], [b]) => a.localeCompare(b))
+		Added: sortEntries(entries)
 			.map(
 				([name, diff]) =>
 					diff.type === DiffType.Added &&
@@ -44,16 +61,14 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxGeneralC
 						: `+ ${name}: ${diff.label || diff.source}`),
 			)
 			.filter((x) => typeof x === "string"),
-		Changed: entries
-			.sort(([a], [b]) => a.localeCompare(b))
+		Changed: sortEntries(entries)
 			.map(
 				([name, diff]) =>
 					diff.type === DiffType.Changed &&
 					`- ${name}: ${diff.oldLabel || diff.oldSource}\n+ ${name}: ${diff.label || diff.source}`,
 			)
 			.filter((x) => typeof x === "string"),
-		Renamed: entries
-			.sort(([a], [b]) => a.localeCompare(b))
+		Renamed: sortEntries(entries)
 			.map(
 				([name, diff]) =>
 					diff.type === DiffType.Renamed &&
@@ -62,8 +77,7 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxGeneralC
 						: `- ${diff.oldName}\n+ ${name}`),
 			)
 			.filter((x) => typeof x === "string"),
-		Removed: entries
-			.sort(([a], [b]) => a.localeCompare(b))
+		Removed: sortEntries(entries)
 			.map(
 				([name, diff]) =>
 					diff.type === DiffType.Removed &&
@@ -76,61 +90,98 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, threshold = maxGeneralC
 
 	const text = Object.entries(sections).filter(([, lines]) => lines.length);
 	return {
-		embed: text
-			.map(
-				([title, lines]) => `**${title}**\n\`\`\`diff\n${cap(lines, title.toLowerCase(), threshold).join("\n")}\`\`\``,
-			)
-			.join("\n"),
+		embed: text.map(
+			([title, lines]) => `### ${title}\n\`\`\`diff\n${cap(lines, title.toLowerCase()).join("\n")}\`\`\``,
+		),
 		file: text.map(([title, lines]) => `# ${title}\n\n${lines.join("\n")}`).join("\n\n"),
-		capped: text.some(([, lines]) => lines.length > threshold),
+		capped: text.some(([, lines]) => lines.length > getThreshold(lines)),
 	};
 }
 
-async function sendWebhook(
-	webhook: string,
-	role: string,
-	embeds: {
-		title: string;
-		body: { embed: string; file: string; capped: boolean };
-		image?: Canvas;
-		footer?: string;
-		key: string;
-	}[],
-) {
+interface WebhookEmbed {
+	title: string;
+	body: FormattedDiff;
+	image?: Canvas;
+	footer?: string;
+	key: string;
+}
+
+async function sendWebhook(webhook: string, role: string, embeds: WebhookEmbed[], color?: number) {
 	const body = new FormData();
-	const items = new Map<Canvas, number>();
+	const images = new Map<number, string>(),
+		diffs = new Map<number, string>();
 
 	let fi = 0;
-	for (const embed of embeds) {
+	for (let i = 0; i < embeds.length; i++) {
+		const embed = embeds[i];
 		if (embed.image) {
-			items.set(embed.image, fi);
-			body.append(`files[${fi}]`, new Blob([embed.image.toBuffer("image/png")], { type: "image/png" }), `${fi++}.png`);
+			const key = fi++;
+			const filename = `${embed.key}.png`;
+			images.set(i, filename);
+
+			body.append(`files[${key}]`, new Blob([embed.image.toBuffer("image/png")], { type: "image/png" }), filename);
 		}
 		if (embed.body.capped) {
-			body.append(`files[${fi++}]`, new Blob([embed.body.file], { type: "text/plain" }), `diff-${embed.key}.diff`);
+			const key = fi++;
+			const filename = `${embed.key}-changes.diff`;
+			diffs.set(i, filename);
+
+			body.append(`files[${key}]`, new Blob([embed.body.file], { type: "text/plain" }), filename);
 		}
 	}
 
 	body.append(
 		"payload_json",
 		JSON.stringify({
-			content: `<@&${role}>`,
-			embeds: embeds.map(({ title, body, image, footer }) => ({
-				title,
-				description: body.embed,
-				color: null,
-				author: {
-					name: `${version} (${cuteVersion})`,
+			flags: MessageFlags.IsComponentsV2,
+			components: [
+				{
+					type: ComponentType.TextDisplay,
+					content: `<@&${role}>`,
 				},
-				image: image && {
-					url: `attachment://${items.get(image)}.png`,
-				},
-				footer: footer && {
-					text: footer,
-				},
-			})),
+				...embeds.map(
+					({ title, body, image, footer }, i) =>
+						({
+							type: ComponentType.Container,
+							accent_color: color,
+							components: [
+								{
+									type: ComponentType.TextDisplay,
+									content: `## ${title}\n-# ${version} (${cuteVersion})`,
+								},
+								...body.embed.map((content) => ({
+									type: ComponentType.TextDisplay,
+									content,
+								})),
+								body.capped && {
+									type: ComponentType.File,
+									file: {
+										url: `attachment://${diffs.get(i)}`,
+									},
+								},
+								body.capped && {
+									type: ComponentType.Separator,
+								},
+								image && {
+									type: ComponentType.MediaGallery,
+									items: [
+										{
+											media: {
+												url: `attachment://${images.get(i)}`,
+											},
+										},
+									],
+								},
+								{
+									type: ComponentType.TextDisplay,
+									content: footer,
+								},
+							].filter((x) => !!x),
+						}) as APIMessageTopLevelComponent,
+				),
+			],
 			allowed_mentions: process.env.NODE_ENV === "test" ? { parse: [] } : { roles: [role] },
-		}),
+		} as RESTPostAPIWebhookWithTokenJSONBody),
 	);
 
 	const url = new URL(webhook);
@@ -184,26 +235,37 @@ export async function webhook(diffs: Differs) {
 					key: "semantic-colors",
 				},
 			].filter((x) => !!x),
+			0xd8ef9e,
 		);
 
 	if (diffs.icons?.size)
-		await sendWebhook(assert(process.env.icons_webhook, "Missing icons webhook env"), "1227327765079003217", [
-			{
-				title: "Icons",
-				body: formatDiff(diffs.icons),
-				image: drawSections(await makeSections(diffs.icons, true)),
-				footer: makeFooter(diffs.icons.size, "icon"),
-				key: "icons",
-			},
-		]);
+		await sendWebhook(
+			assert(process.env.icons_webhook, "Missing icons webhook env"),
+			"1227327765079003217",
+			[
+				{
+					title: "Icons",
+					body: formatDiff(diffs.icons),
+					image: drawSections(await makeSections(diffs.icons, true)),
+					footer: makeFooter(diffs.icons.size, "icon"),
+					key: "icons",
+				},
+			],
+			0xf4b8f7,
+		);
 
 	if (diffs.code?.size)
-		await sendWebhook(assert(process.env.code_webhook, "Missing code webhook env"), "1233861867059941387", [
-			{
-				title: "Code",
-				body: formatDiff(diffs.code, maxCodeChanges),
-				footer: makeFooter(diffs.code.size, "code"),
-				key: "code",
-			},
-		]);
+		await sendWebhook(
+			assert(process.env.code_webhook, "Missing code webhook env"),
+			"1233861867059941387",
+			[
+				{
+					title: "Code",
+					body: formatDiff(diffs.code),
+					footer: makeFooter(diffs.code.size, "code"),
+					key: "code",
+				},
+			],
+			0x86faf3,
+		);
 }

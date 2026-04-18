@@ -1,8 +1,9 @@
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 import { createCanvas, GlobalFonts } from "@napi-rs/canvas";
+import { file } from "bun";
 import type { Row, Section } from "./factory";
-import { measureText, wrapText } from "./utils";
+import { measureText, transformSvg, wrapText } from "./utils";
 
 async function bulkRegister(family: string, path: string) {
 	for (const item of await readdir(path)) GlobalFonts.registerFromPath(join(path, item), family);
@@ -60,12 +61,16 @@ const colors = {
 	blob: "#6c6f7c1f", // BACKGROUND_MOD_MUTED
 	textNormal: "#c7c8ce", // TEXT_NORMAL
 	textMuted: "#818491", // TEXT_MUTED
+	watermark: "#2f3035", // TEXT_OVERLAY_DARK
 };
 
 const itemSize = 128;
 const blobSize = itemSize + layout.card.gapY + textSizes.title;
 
-const watermarkText = "Themelings";
+const watermark = await transformSvg(await file(join(import.meta.dir, "placeholders/watermark.svg")).text(), {
+	color: colors.watermark,
+	height: layout.background.padding,
+});
 
 const mctx = createCanvas(1, 1).getContext("2d");
 export function drawSections(sections: Section[]) {
@@ -223,9 +228,7 @@ export function drawSections(sections: Section[]) {
 	}
 
 	// watermark
-	ctx.font = `400 ${layout.background.padding / 2}px GG Sans`;
-	ctx.fillStyle = "#fff4";
-	ctx.fillText(watermarkText, canvas.width - ctx.measureText(watermarkText).width - 3, 0);
+	ctx.drawImage(watermark, canvas.width - watermark.width - 1, 1);
 
 	return canvas;
 }

@@ -3,7 +3,7 @@ import { deminify } from "../deminify";
 import { commit } from "../git";
 import type { Progress } from "../progress";
 import { commitAnyway, cuteVersion } from "../shared";
-import { discordPath, join, listRequiredDirs } from "../utils";
+import { discordPath, join, listRequiredDirs, sortEntries } from "../utils";
 
 // scary code matching below, be warned
 
@@ -63,8 +63,7 @@ export default async function code(progress: Progress, code: string[]) {
 
 	await Bun.write(
 		"../data/source.jsonl",
-		[...files.entries()]
-			.sort(([a], [b]) => a.localeCompare(b))
+		sortEntries([...files.entries()])
 			.map(([file, text]) => `{ "file": ${JSON.stringify(file)}, "size": ${text.final.length} }`)
 			.join("\n"),
 	);
