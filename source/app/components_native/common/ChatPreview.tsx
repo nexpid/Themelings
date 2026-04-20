@@ -1283,13 +1283,28 @@ case 0:
                 var9 = var2.channel;
                 var3 = var2.isNSFWHidden;
                 var2 = var2.isSpoilerHidden;
-                if(var3) { _fun0020_ip = 93; continue _fun0020 }
-case 54:
-                if(!var2) { _fun0020_ip = 22; continue _fun0020 }
+                if(!var3) { _fun0020_ip = 5; continue _fun0020 }
+case 93:
+                var6 = null;
+                var7 = var6 == var9;
+                var3 = undefined;
+                if(var7) { _fun0020_ip = 60; continue _fun0020 }
 case 94:
-                var2 = null;
-                if(!(var2 == var9)) { _fun0020_ip = 95; continue _fun0020 }
-case 22:
+                var3 = var9.guild_id;
+case 60:
+                if(!(var6 == var3)) { _fun0020_ip = 95; continue _fun0020 }
+case 5:
+                if(!var2) { _fun0020_ip = 23; continue _fun0020 }
+case 53:
+                var3 = null;
+                var6 = var3 == var9;
+                var2 = undefined;
+                if(var6) { _fun0020_ip = 21; continue _fun0020 }
+case 96:
+                var2 = var9.guild_id;
+case 21:
+                if(!(var3 == var2)) { _fun0020_ip = 97; continue _fun0020 }
+case 23:
                 var7 = _closure1_slot21;
                 var3 = _closure1_slot1;
                 var17 = _closure1_slot3;
@@ -1362,8 +1377,8 @@ case 22:
                 var2['children'] = var8;
                 var6 = var7.bind(var4)(var6, var2);
                 var7 = var3;
-                _fun0020_ip = 96; continue _fun0020;
-case 95:
+                _fun0020_ip = 98; continue _fun0020;
+case 97:
                 var8 = _closure1_slot21;
                 var3 = _closure1_slot1;
                 var10 = _closure1_slot3;
@@ -1371,15 +1386,14 @@ case 95:
                 var2 = var10[var2];
                 var3 = var3.bind(var4)(var2);
                 var2 = {};
-                var10 = var9.getGuildId;
-                var10 = var10.bind(var9)();
+                var10 = var9.guild_id;
                 var2['guildId'] = var10;
                 var10 = var9.id;
                 var2['channelId'] = var10;
                 var7 = var8.bind(var4)(var3, var2);
                 var6 = undefined;
-                _fun0020_ip = 96; continue _fun0020;
-case 93:
+                _fun0020_ip = 98; continue _fun0020;
+case 95:
                 var8 = _closure1_slot21;
                 var3 = _closure1_slot1;
                 var10 = _closure1_slot3;
@@ -1387,14 +1401,13 @@ case 93:
                 var2 = var10[var2];
                 var3 = var3.bind(var4)(var2);
                 var2 = {};
-                var10 = var9.getGuildId;
-                var10 = var10.bind(var9)();
+                var10 = var9.guild_id;
                 var2['guildId'] = var10;
                 var9 = var9.id;
                 var2['channelId'] = var9;
                 var7 = var8.bind(var4)(var3, var2);
                 var6 = undefined;
-case 96:
+case 98:
                 var3 = _closure1_slot22;
                 var2 = _closure1_slot10;
                 var1 = {};
@@ -1431,36 +1444,36 @@ case 96:
     var2 = function ChatPreviewConnected(arg1) {
         _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
-            var9 = arg1;
-            var2 = var9.channelId;
-            var _closure2_slot0 = var2;
-            var4 = _closure1_slot0;
-            var7 = _closure1_slot3;
+            var8 = arg1;
+            var1 = var8.channelId;
+            var _closure2_slot0 = var1;
+            var6 = _closure1_slot0;
+            var17 = _closure1_slot3;
             var3 = 45;
-            var6 = var7[var3];
-            var5 = undefined;
-            var6 = var4.bind(var5)(var6);
-            var8 = var6.InlineAttachmentMedia;
-            var6 = var8.useSetting;
-            var17 = var6.bind(var8)();
-            var6 = var7[var3];
-            var6 = var4.bind(var5)(var6);
-            var8 = var6.InlineEmbedMedia;
-            var6 = var8.useSetting;
-            var16 = var6.bind(var8)();
-            var3 = var7[var3];
-            var3 = var4.bind(var5)(var3);
-            var6 = var3.RenderEmbeds;
-            var3 = var6.useSetting;
-            var15 = var3.bind(var6)();
+            var5 = var17[var3];
+            var4 = undefined;
+            var5 = var6.bind(var4)(var5);
+            var7 = var5.InlineAttachmentMedia;
+            var5 = var7.useSetting;
+            var16 = var5.bind(var7)();
+            var5 = var17[var3];
+            var5 = var6.bind(var4)(var5);
+            var7 = var5.InlineEmbedMedia;
+            var5 = var7.useSetting;
+            var15 = var5.bind(var7)();
+            var3 = var17[var3];
+            var3 = var6.bind(var4)(var3);
+            var5 = var3.RenderEmbeds;
+            var3 = var5.useSetting;
+            var14 = var3.bind(var5)();
             var3 = 46;
-            var6 = var7[var3];
-            var11 = var4.bind(var5)(var6);
-            var10 = var11.useStateFromStoresObject;
-            var6 = _closure1_slot15;
-            var8 = new Array(1);
-            var8[0] = var6;
-            var6 = function() {
+            var5 = var17[var3];
+            var10 = var6.bind(var4)(var5);
+            var9 = var10.useStateFromStoresObject;
+            var5 = _closure1_slot15;
+            var7 = new Array(1);
+            var7[0] = var5;
+            var5 = function() {
                 var1 = {};
                 var2 = _closure1_slot15;
                 var3 = var2.messages;
@@ -1469,58 +1482,58 @@ case 0:
                 var1['jumpTargetId'] = var2;
                 return var1;
             };
-            var6 = var10.bind(var11)(var8, var6);
-            var13 = var6.messages;
-            var12 = var6.jumpTargetId;
-            var6 = var7[var3];
-            var11 = var4.bind(var5)(var6);
-            var10 = var11.useStateFromStores;
-            var6 = _closure1_slot11;
-            var8 = new Array(1);
-            var8[0] = var6;
-            var6 = function() {
+            var5 = var9.bind(var10)(var7, var5);
+            var12 = var5.messages;
+            var11 = var5.jumpTargetId;
+            var5 = var17[var3];
+            var10 = var6.bind(var4)(var5);
+            var9 = var10.useStateFromStores;
+            var5 = _closure1_slot11;
+            var7 = new Array(1);
+            var7[0] = var5;
+            var5 = function() {
                 var1 = _closure1_slot11;
                 var1 = var1.roleStyle;
                 return var1;
             };
-            var14 = var10.bind(var11)(var8, var6);
-            var6 = var7[var3];
-            var11 = var4.bind(var5)(var6);
-            var10 = var11.useStateFromStores;
-            var6 = _closure1_slot13;
-            var8 = new Array(1);
-            var8[0] = var6;
-            var6 = function() {
+            var13 = var9.bind(var10)(var7, var5);
+            var5 = var17[var3];
+            var10 = var6.bind(var4)(var5);
+            var9 = var10.useStateFromStores;
+            var5 = _closure1_slot13;
+            var7 = new Array(1);
+            var7[0] = var5;
+            var5 = function() {
                 var3 = _closure1_slot13;
                 var2 = var3.getChannel;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var11 = var10.bind(var11)(var8, var6);
-            var8 = _closure1_slot1;
-            var6 = 47;
-            var6 = var7[var6];
-            var6 = var8.bind(var5)(var6);
-            var6 = var6.bind(var5)();
-            var10 = var6.width;
-            var6 = 48;
-            var6 = var7[var6];
-            var8 = var4.bind(var5)(var6);
-            var6 = var8.useIsChannelSpoilerGated;
-            var8 = var6.bind(var8)(var11);
-            var6 = 49;
-            var6 = var7[var6];
-            var18 = var4.bind(var5)(var6);
-            var6 = var18.useIsChannelContentGated;
-            var6 = var6.bind(var18)(var11);
-            var3 = var7[var3];
-            var7 = var4.bind(var5)(var3);
-            var4 = var7.useStateFromStores;
+            var10 = var9.bind(var10)(var7, var5);
+            var7 = _closure1_slot1;
+            var5 = 47;
+            var5 = var17[var5];
+            var5 = var7.bind(var4)(var5);
+            var5 = var5.bind(var4)();
+            var9 = var5.width;
+            var5 = 48;
+            var5 = var17[var5];
+            var7 = var6.bind(var4)(var5);
+            var5 = var7.useIsChannelSpoilerGated;
+            var7 = var5.bind(var7)(var10);
+            var5 = 49;
+            var5 = var17[var5];
+            var18 = var6.bind(var4)(var5);
+            var5 = var18.useIsChannelContentGated;
+            var5 = var5.bind(var18)(var10);
+            var3 = var17[var3];
+            var17 = var6.bind(var4)(var3);
+            var6 = var17.useStateFromStores;
             var18 = _closure1_slot12;
             var3 = new Array(1);
             var3[0] = var18;
-            var1 = function() {
+            var2 = function() {
                 var2 = _closure1_slot12;
                 var1 = var2.getContent;
                 var2 = var1.bind(var2)();
@@ -1528,55 +1541,43 @@ case 0:
                 var1 = var1 != var2;
                 return var1;
             };
-            var7 = var4.bind(var7)(var3, var1);
-            var1 = null;
-            var4 = var1 == var11;
-            var3 = undefined;
-            if(var4) { _fun0021_ip = 97; continue _fun0021 }
-case 98:
-            var3 = var11.guild_id;
-case 97:
-            var3 = var1 == var3;
-            var1 = null;
-            if(var3) { _fun0021_ip = 99; continue _fun0021 }
+            var6 = var6.bind(var17)(var3, var2);
+            var3 = _closure1_slot21;
+            var2 = _closure1_slot24;
+            var1 = {};
+            var20 = var1;
+            var19 = var8;
+            var8 = copyDataProperties(var20, var19);
+            var8 = 'inlineAttachmentMedia';
+            var1[7] = var16;
+            var8 = 'inlineEmbedMedia';
+            var1[7] = var15;
+            var8 = 'renderEmbeds';
+            var1[7] = var14;
+            var8 = 'roleStyle';
+            var1[7] = var13;
+            var8 = 'messages';
+            var1[7] = var12;
+            var8 = 'jumpTargetId';
+            var1[7] = var11;
+            var8 = 'channel';
+            var1[7] = var10;
+            var8 = 'width';
+            var1[7] = var9;
+            var8 = 'isSpoilerHidden';
+            var1[7] = var7;
+            var8 = 'isNSFWHidden';
+            var1[7] = var5;
+            var7 = !var7;
+            if(!var7) { _fun0021_ip = 99; continue _fun0021 }
 case 100:
-            var4 = _closure1_slot21;
-            var3 = _closure1_slot24;
-            var2 = {};
-            var20 = var2;
-            var19 = var9;
-            var9 = copyDataProperties(var20, var19);
-            var9 = 'inlineAttachmentMedia';
-            var2[8] = var17;
-            var9 = 'inlineEmbedMedia';
-            var2[8] = var16;
-            var9 = 'renderEmbeds';
-            var2[8] = var15;
-            var9 = 'roleStyle';
-            var2[8] = var14;
-            var9 = 'messages';
-            var2[8] = var13;
-            var9 = 'jumpTargetId';
-            var2[8] = var12;
-            var9 = 'channel';
-            var2[8] = var11;
-            var9 = 'width';
-            var2[8] = var10;
-            var9 = 'isSpoilerHidden';
-            var2[8] = var8;
-            var9 = 'isNSFWHidden';
-            var2[8] = var6;
-            var8 = !var8;
-            if(!var8) { _fun0021_ip = 101; continue _fun0021 }
-case 102:
-            var8 = !var6;
-case 101:
-            var6 = 'canAccessChannel';
-            var2[5] = var8;
-            var6 = 'hasActionSheetOpen';
-            var2[5] = var7;
-            var1 = var4.bind(var5)(var3, var2);
+            var7 = !var5;
 case 99:
+            var5 = 'canAccessChannel';
+            var1[4] = var7;
+            var5 = 'hasActionSheetOpen';
+            var1[4] = var6;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };

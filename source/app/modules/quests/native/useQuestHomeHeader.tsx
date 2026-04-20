@@ -343,8 +343,8 @@ case 0:
             var1 = {};
             var5 = var5.headerRightContainer;
             var1['style'] = var5;
-            if(!var7) { _fun0002_ip = 6; continue _fun0002 }
-case 8:
+            if(!var7) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var10 = _closure1_slot8;
             var8 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -356,7 +356,7 @@ case 8:
             var5['balance'] = var12;
             var5['onPress'] = var11;
             var7 = var10.bind(var4)(var8, var5);
-case 6:
+case 8:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot8;
@@ -392,7 +392,7 @@ case 0:
             var4 = var4.SUGGESTED;
             var4 = var8 !== var4;
             if(var3) { _fun0003_ip = 4; continue _fun0003 }
-case 9:
+case 10:
             var3 = var4;
 case 4:
             var6 = _closure1_slot1;
@@ -402,18 +402,18 @@ case 4:
             var4 = undefined;
             var5 = var6.bind(var4)(var5);
             var5 = var5.colors;
-            if(var3) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-            var12 = var5.INTERACTIVE_TEXT_DEFAULT;
-            _fun0003_ip = 12; continue _fun0003;
-case 10:
-            var12 = var5.WHITE;
+            if(var3) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var6 = 'tertiary';
-            if(!var3) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-            var6 = 'primary';
+            var12 = var5.INTERACTIVE_TEXT_DEFAULT;
+            _fun0003_ip = 13; continue _fun0003;
+case 11:
+            var12 = var5.WHITE;
 case 13:
+            var6 = 'tertiary';
+            if(!var3) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            var6 = 'primary';
+case 14:
             var7 = _closure1_slot3;
             var5 = var7.useCallback;
             var3 = new Array(4);
@@ -546,10 +546,10 @@ case 13:
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var2 = _closure2_slot5;
-                if(var2) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+                if(var2) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                 var2 = _closure2_slot6;
-case 15:
+case 16:
                 var _closure3_slot0 = var2;
                 var3 = _closure2_slot4;
                 var2 = var3.setOptions;
