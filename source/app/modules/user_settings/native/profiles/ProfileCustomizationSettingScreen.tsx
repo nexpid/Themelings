@@ -467,8 +467,8 @@ case 0:
                     var3 = _closure2_slot1;
                     var2 = var3.setOptions;
                     var1 = {};
-                    var5 = false;
-                    var1['headerShadowVisible'] = var5;
+                    var6 = false;
+                    var1['headerShadowVisible'] = var6;
                     var4 = _closure2_slot8;
                     if(var4) { _fun0005_ip = 17; continue _fun0005 }
 case 18:
@@ -562,13 +562,19 @@ case 19:
                     };
                     _fun0005_ip = 27; continue _fun0005;
 case 17:
-                    var7 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var5 = 26;
-                    var6 = var6[var5];
-                    var5 = undefined;
-                    var5 = var7.bind(var5)(var6);
-                    var4 = var5.HeaderSubmittingIndicator;
+                    var4 = function() {
+                        var4 = _closure1_slot16;
+                        var2 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var1 = 26;
+                        var1 = var3[var1];
+                        var3 = undefined;
+                        var1 = var2.bind(var3)(var1);
+                        var2 = var1.HeaderSubmittingIndicator;
+                        var1 = {};
+                        var1 = var4.bind(var3)(var2, var1);
+                        return var1;
+                    };
 case 27:
                     var1['headerRight'] = var4;
                     var1 = var2.bind(var3)(var1);

@@ -120,7 +120,7 @@ case 2:
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -143,26 +143,31 @@ case 0:
             var2 = new Array(1);
             var2[0] = var3;
             var1 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
                 var1 = 9;
-                var2 = var2[var1];
+                var2 = var6[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
+                var3 = var5.bind(var1)(var2);
                 var2 = {};
                 var4 = _closure2_slot0;
                 var2['guildId'] = var4;
+                var4 = 10;
+                var4 = var6[var4];
+                var4 = var5.bind(var1)(var4);
+                var4 = var4.GUILD_POWERUPS_CHANNEL_LIST_ROW;
+                var2['analyticsLocation'] = var4;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
             var15 = var6.bind(var7)(var1, var2);
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var12 = var1.bind(var4)(var3);
-            var1 = 11;
+            var1 = 12;
             var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var6 = var11 == var12;
@@ -179,7 +184,7 @@ case 11:
 case 10:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.ChannelModes;
@@ -188,7 +193,7 @@ case 10:
 case 12:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.ChannelModes;
@@ -203,7 +208,7 @@ case 13:
             var7 = _closure1_slot5;
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var9 = 12;
+            var9 = 13;
             var5 = var5[var9];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -222,13 +227,13 @@ case 14:
             var5['unread'] = var10;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var19 = 13;
+            var19 = 14;
             var10 = var16[var19];
             var10 = var15.bind(var4)(var10);
             var20 = var10.intl;
             var17 = var20.string;
             var21 = _closure1_slot1;
-            var18 = 14;
+            var18 = 15;
             var10 = var16[var18];
             var10 = var21.bind(var4)(var10);
             var10 = var10.yv3DJJ;
@@ -260,7 +265,7 @@ case 14:
             var10 = var9.BaseChannelIcon;
             var9 = {};
             var9['mode'] = var14;
-            var14 = 15;
+            var14 = 16;
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.BoostTier2Icon;

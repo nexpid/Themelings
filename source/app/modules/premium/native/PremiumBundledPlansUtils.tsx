@@ -1,10 +1,10 @@
 // app/modules/premium/native/PremiumBundledPlansUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var9 = require;
+    var12 = require;
     var3 = exports;
-    var10 = dependencyMap;
-    var _closure1_slot0 = var9;
-    var _closure1_slot1 = var10;
+    var13 = dependencyMap;
+    var _closure1_slot0 = var12;
+    var _closure1_slot1 = var13;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -76,7 +76,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot6;
+            var9 = _closure1_slot7;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -88,7 +88,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot6;
+            var7 = _closure1_slot7;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -147,7 +147,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot6 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -180,14 +180,14 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot6 = var1;
-    var7 = function getPremiumBundleWithPredicate(arg1) {
+    var _closure1_slot7 = var1;
+    var10 = function getPremiumBundleWithPredicate(arg1) {
         var1 = global;
         var3 = var1.Object;
         var2 = var3.values;
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var1 = 1;
+        var1 = 2;
         var4 = var4[var1];
         var1 = undefined;
         var1 = var5.bind(var1)(var4);
@@ -198,14 +198,14 @@ case 35:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot7 = var7;
-    var6 = function getPremiumBundledItemsFromProductId(arg1) {
+    var _closure1_slot8 = var10;
+    var9 = function getPremiumBundledItemsFromProductId(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var5 = 1;
+            var5 = 2;
             var3 = var3[var5];
             var4 = undefined;
             var3 = var6.bind(var4)(var3);
@@ -235,23 +235,23 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot8 = var6;
-    var5 = function getToggledIntervalProduct(arg1) {
+    var _closure1_slot9 = var9;
+    var8 = function getToggledIntervalProduct(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot9;
             var2 = undefined;
             var1 = arg1;
             var1 = var4.bind(var2)(var1);
             var _closure2_slot0 = var1;
             var7 = var1.premiumTier;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var6 = var1.TIER_1;
             var4 = null;
             var1 = null;
             if(!(var7 !== var6)) { _fun0005_ip = 38; continue _fun0005 }
 case 39:
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot8;
             var3 = function(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -294,8 +294,8 @@ case 38:
             return var1;
         }
     };
-    var _closure1_slot9 = var5;
-    var4 = function isValidBundleProductId(arg1) {
+    var _closure1_slot10 = var8;
+    var7 = function isValidBundleProductId(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var3 = arg1;
@@ -305,7 +305,7 @@ case 0:
 case 46:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var2 = 1;
+            var2 = 2;
             var4 = var4[var2];
             var2 = undefined;
             var2 = var5.bind(var2)(var4);
@@ -315,164 +315,15 @@ case 39:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
-    var1 = global;
-    var12 = var1.Object;
-    var11 = var12.defineProperty;
-    var8 = {};
-    var1 = true;
-    var8['value'] = var1;
-    var1 = '__esModule';
-    var1 = var11.bind(var12)(var3, var1, var8);
-    var1 = 0;
-    var8 = var10[var1];
-    var1 = undefined;
-    var8 = var9.bind(var1)(var8);
-    var11 = var8.PremiumTypes;
-    var _closure1_slot2 = var11;
-    var11 = var8.SubscriptionIntervalTypes;
-    var _closure1_slot3 = var11;
-    var8 = var8.SubscriptionPlans;
-    var _closure1_slot4 = var8;
-    var8 = 2;
-    var8 = var10[var8];
-    var10 = var9.bind(var1)(var8);
-    var9 = var10.fileFinishedImporting;
-    var8 = 'modules/premium/native/PremiumBundledPlansUtils.tsx';
-    var8 = var9.bind(var10)(var8);
-    var8 = function getPremiumBundlesWithPredicate(arg1) {
-        var1 = global;
-        var3 = var1.Object;
-        var2 = var3.values;
-        var5 = _closure1_slot0;
-        var4 = _closure1_slot1;
-        var1 = 1;
-        var4 = var4[var1];
-        var1 = undefined;
-        var1 = var5.bind(var1)(var4);
-        var1 = var1.AppStorePremiumProductIdsToPremiumBundledItems;
-        var3 = var2.bind(var3)(var1);
-        var2 = var3.filter;
-        var1 = arg1;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['getPremiumBundlesWithPredicate'] = var8;
-    var3['getPremiumBundleWithPredicate'] = var7;
-    var3['getPremiumBundledItemsFromProductId'] = var6;
-    var3['getToggledIntervalProduct'] = var5;
-    var5 = function getProductIdsForBothIntervals(arg1) {
+    var _closure1_slot11 = var7;
+    var6 = function getSubscriptionItemsForProduct(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var4 = arg1;
-            var1 = _closure1_slot8;
-            var2 = undefined;
-            var6 = var1.bind(var2)(var4);
-            var1 = _closure1_slot9;
-            var2 = var1.bind(var2)(var4);
-            var3 = null;
-            if(!(var3 != var2)) { _fun0008_ip = 47; continue _fun0008 }
-case 48:
-            var1 = {};
-            var9 = var6.interval;
-            var7 = _closure1_slot3;
-            var8 = var7.MONTH;
-            var7 = var2;
-            if(!(var9 === var8)) { _fun0008_ip = 49; continue _fun0008 }
-case 50:
-            var7 = var4;
-case 49:
-            var1['monthly'] = var7;
-            var6 = var6.interval;
-            var5 = _closure1_slot3;
-            var5 = var5.YEAR;
-            if(!(var6 === var5)) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
-            var2 = var4;
-case 51:
-            var1['yearly'] = var2;
-            _fun0008_ip = 13; continue _fun0008;
-case 47:
-            var2 = {};
-            var2['monthly'] = var4;
-            var2['yearly'] = var3;
-            var1 = var2;
-case 13:
-            return var1;
-        }
-    };
-    var3['getProductIdsForBothIntervals'] = var5;
-    var5 = function productsHaveSamePerks(arg1, arg2) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
             var2 = arg1;
-            var1 = arg2;
-            var5 = _closure1_slot10;
-            var4 = undefined;
-            var5 = var5.bind(var4)(var2);
-            if(!var5) { _fun0009_ip = 53; continue _fun0009 }
-case 31:
-            var5 = _closure1_slot10;
-            var5 = var5.bind(var4)(var1);
-            if(var5) { _fun0009_ip = 37; continue _fun0009 }
-case 53:
-            var5 = var2 === var1;
-            return var5;
-case 37:
-            var5 = null;
-            if(!(var5 != var2)) { _fun0009_ip = 13; continue _fun0009 }
-case 39:
-            if(!(var5 != var1)) { _fun0009_ip = 13; continue _fun0009 }
-case 54:
-            if(!(var2 !== var1)) { _fun0009_ip = 55; continue _fun0009 }
-case 4:
-            var3 = _closure1_slot8;
-            var5 = var3.bind(var4)(var2);
-            var4 = var3.bind(var4)(var1);
-            var6 = var5.numPremiumGuild;
-            var3 = var4.numPremiumGuild;
-            var3 = var6 === var3;
-            if(!var3) { _fun0009_ip = 56; continue _fun0009 }
-case 51:
-            var5 = var5.premiumTier;
-            var4 = var4.premiumTier;
-            var3 = var5 === var4;
-case 56:
-            return var3;
-case 55:
-            var3 = true;
-            return var3;
-case 13:
-            var1 = var2 === var1;
-            return var1;
-        }
-    };
-    var3['productsHaveSamePerks'] = var5;
-    var3['isValidBundleProductId'] = var4;
-    var4 = function shouldAlwaysExcludeFromPlanSelect(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-            var2 = arg1;
-            var1 = var2.isDeprecated;
-            if(var1) { _fun0010_ip = 53; continue _fun0010 }
-case 46:
-            var3 = var2.interval;
-            var2 = _closure1_slot3;
-            var2 = var2.YEAR;
-            var1 = var3 === var2;
-case 53:
-            return var1;
-        }
-    };
-    var3['shouldAlwaysExcludeFromPlanSelect'] = var4;
-    var4 = function getSubscriptionItemsForProduct(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-            var2 = arg1;
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot11;
             var5 = undefined;
             var1 = var1.bind(var5)(var2);
-            if(var1) { _fun0011_ip = 41; continue _fun0011 }
+            if(var1) { _fun0008_ip = 41; continue _fun0008 }
 case 29:
             var1 = global;
             var6 = var1.Error;
@@ -487,14 +338,14 @@ case 29:
             var1 = var1 instanceof Object ? var1 : var4;
             throw var1;
 case 41:
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var2 = var1.bind(var5)(var2);
             var1 = new Array(0);
             var6 = var2.basePlanId;
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot5;
             var4 = var4.NONE_MONTH;
-            if(!(var6 !== var4)) { _fun0011_ip = 57; continue _fun0011 }
-case 58:
+            if(!(var6 !== var4)) { _fun0008_ip = 47; continue _fun0008 }
+case 48:
             var6 = var1.push;
             var4 = {};
             var7 = var2.basePlanId;
@@ -502,13 +353,13 @@ case 58:
             var7 = 1;
             var4['quantity'] = var7;
             var4 = var6.bind(var1)(var4);
-case 57:
-            var3 = _closure1_slot5;
+case 47:
+            var3 = _closure1_slot6;
             var2 = var2.additionalPlans;
             var4 = var3.bind(var5)(var2);
             var3 = var4.bind(var5)();
             var2 = var3.done;
-            if(var2) { _fun0011_ip = 59; continue _fun0011 }
+            if(var2) { _fun0008_ip = 49; continue _fun0008 }
 case 14:
             var7 = var3.value;
             var6 = var1.push;
@@ -521,30 +372,30 @@ case 14:
             var6 = var4.bind(var5)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0011_ip = 14; continue _fun0011 }
-case 59:
+            if(!var2) { _fun0008_ip = 14; continue _fun0008 }
+case 49:
             return var1;
         }
     };
-    var3['getSubscriptionItemsForProduct'] = var4;
-    var2 = function makeExternalPaymentGatewayPlanIdOrThrow(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+    var _closure1_slot12 = var6;
+    var5 = function makeExternalPaymentGatewayPlanIdOrThrow(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
             var2 = null;
-            if(!(var2 != var1)) { _fun0012_ip = 56; continue _fun0012 }
-case 60:
-            var2 = _closure1_slot10;
+            if(!(var2 != var1)) { _fun0009_ip = 50; continue _fun0009 }
+case 51:
+            var2 = _closure1_slot11;
             var4 = undefined;
             var2 = var2.bind(var4)(var1);
-            if(var2) { _fun0012_ip = 61; continue _fun0012 }
-case 62:
+            if(var2) { _fun0009_ip = 52; continue _fun0009 }
+case 53:
             var2 = '.1';
             var2 = var1 + var2;
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot11;
             var3 = var3.bind(var4)(var2);
-            if(var3) { _fun0012_ip = 63; continue _fun0012 }
-case 64:
+            if(var3) { _fun0009_ip = 54; continue _fun0009 }
+case 55:
             var3 = global;
             var5 = var3.Error;
             var3 = var3.HermesInternal;
@@ -557,11 +408,11 @@ case 64:
             var3 = new var7[var5](var6, var5);
             var3 = var3 instanceof Object ? var3 : var4;
             throw var3;
-case 63:
+case 54:
             return var2;
-case 61:
+case 52:
             return var1;
-case 56:
+case 50:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;
@@ -573,6 +424,352 @@ case 56:
             throw var1;
         }
     };
-    var3['makeExternalPaymentGatewayPlanIdOrThrow'] = var2;
+    var _closure1_slot13 = var5;
+    var1 = function aggregateQuantitiesByPlanId(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var1 = global;
+            var1 = var1.Map;
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var15 = var2;
+            var1 = new var15[var1](var14);
+            var1 = var1 instanceof Object ? var1 : var2;
+            var3 = _closure1_slot6;
+            var7 = undefined;
+            var2 = arg1;
+            var6 = var3.bind(var7)(var2);
+            var3 = var6.bind(var7)();
+            var2 = var3.done;
+            var5 = null;
+            if(var2) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
+            var2 = var3.value;
+            var9 = var2.planId;
+            var10 = var2.quantity;
+            var8 = var1.set;
+            var2 = var1.get;
+            var11 = var2.bind(var1)(var9);
+            var12 = var5 != var11;
+            var2 = 0;
+            if(!var12) { _fun0010_ip = 58; continue _fun0010 }
+case 54:
+            var2 = var11;
+case 58:
+            var2 = var2 + var10;
+            var2 = var8.bind(var1)(var9, var2);
+            var8 = var6.bind(var7)();
+            var2 = var8.done;
+            var3 = var8;
+            if(!var2) { _fun0010_ip = 57; continue _fun0010 }
+case 56:
+            return var1;
+        }
+    };
+    var _closure1_slot14 = var1;
+    var1 = function planQuantityMapsEqual(arg1, arg2) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+            var2 = arg1;
+            var9 = arg2;
+            var3 = var2.size;
+            var1 = var9.size;
+            if(!(var3 === var1)) { _fun0011_ip = 59; continue _fun0011 }
+case 29:
+            var1 = _closure1_slot6;
+            var7 = undefined;
+            var6 = var1.bind(var7)(var2);
+            var2 = var6.bind(var7)();
+            var1 = var2.done;
+            var5 = 2;
+            var4 = 0;
+            var3 = 1;
+            if(var1) { _fun0011_ip = 60; continue _fun0011 }
+case 61:
+            var10 = var2.value;
+            var1 = _closure1_slot2;
+            var1 = var1.bind(var7)(var10, var5);
+            var11 = var1[var4];
+            var10 = var1[var3];
+            var1 = var9.get;
+            var1 = var1.bind(var9)(var11);
+            if(!(var1 === var10)) { _fun0011_ip = 62; continue _fun0011 }
+case 63:
+            var10 = var6.bind(var7)();
+            var1 = var10.done;
+            var2 = var10;
+            if(var1) { _fun0011_ip = 60; continue _fun0011 }
+case 64:
+            _fun0011_ip = 61; continue _fun0011;
+case 62:
+            var1 = false;
+            return var1;
+case 60:
+            var1 = true;
+            return var1;
+case 59:
+            var1 = false;
+            return var1;
+        }
+    };
+    var _closure1_slot15 = var1;
+    var4 = function getProductIdFromSubscriptionItems(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+            var2 = _closure1_slot14;
+            var7 = undefined;
+            var1 = arg1;
+            var6 = var2.bind(var7)(var1);
+            var2 = global;
+            var4 = var2.Object;
+            var3 = var4.keys;
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var1 = 2;
+            var1 = var9[var1];
+            var1 = var5.bind(var7)(var1);
+            var1 = var1.AppStorePremiumProductIdsToPremiumBundledItems;
+            var5 = var3.bind(var4)(var1);
+            var1 = var5.length;
+            var4 = 0;
+            var1 = var4 < var1;
+            if(!var1) { _fun0012_ip = 65; continue _fun0012 }
+case 44:
+            var1 = var5[var4];
+            var9 = _closure1_slot15;
+            var10 = _closure1_slot14;
+            var3 = _closure1_slot12;
+            var3 = var3.bind(var7)(var1);
+            var3 = var10.bind(var7)(var3);
+            var3 = var9.bind(var7)(var6, var3);
+            if(var3) { _fun0012_ip = 66; continue _fun0012 }
+case 13:
+            var4 = var4 + 1;
+            var3 = var5.length;
+            if(var4 < var3) { _fun0012_ip = 44; continue _fun0012 }
+case 65:
+            var4 = var2.Error;
+            var2 = var4.prototype;
+            var3 = Object.create(var2, {constructor: {value: var4}});
+            var12 = 'No App Store bundled product matches the subscription items';
+            var13 = var3;
+            var2 = new var13[var4](var12, var11);
+            var2 = var2 instanceof Object ? var2 : var3;
+            throw var2;
+case 66:
+            return var1;
+        }
+    };
+    var _closure1_slot16 = var4;
+    var1 = global;
+    var15 = var1.Object;
+    var14 = var15.defineProperty;
+    var11 = {};
+    var1 = true;
+    var11['value'] = var1;
+    var1 = '__esModule';
+    var1 = var14.bind(var15)(var3, var1, var11);
+    var1 = 0;
+    var14 = var13[var1];
+    var11 = metroImportDefault;
+    var1 = undefined;
+    var11 = var11.bind(var1)(var14);
+    var _closure1_slot2 = var11;
+    var11 = 1;
+    var11 = var13[var11];
+    var11 = var12.bind(var1)(var11);
+    var14 = var11.PremiumTypes;
+    var _closure1_slot3 = var14;
+    var14 = var11.SubscriptionIntervalTypes;
+    var _closure1_slot4 = var14;
+    var11 = var11.SubscriptionPlans;
+    var _closure1_slot5 = var11;
+    var11 = 3;
+    var11 = var13[var11];
+    var13 = var12.bind(var1)(var11);
+    var12 = var13.fileFinishedImporting;
+    var11 = 'modules/premium/native/PremiumBundledPlansUtils.tsx';
+    var11 = var12.bind(var13)(var11);
+    var11 = function getPremiumBundlesWithPredicate(arg1) {
+        var1 = global;
+        var3 = var1.Object;
+        var2 = var3.values;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var1 = 2;
+        var4 = var4[var1];
+        var1 = undefined;
+        var1 = var5.bind(var1)(var4);
+        var1 = var1.AppStorePremiumProductIdsToPremiumBundledItems;
+        var3 = var2.bind(var3)(var1);
+        var2 = var3.filter;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['getPremiumBundlesWithPredicate'] = var11;
+    var3['getPremiumBundleWithPredicate'] = var10;
+    var3['getPremiumBundledItemsFromProductId'] = var9;
+    var3['getToggledIntervalProduct'] = var8;
+    var8 = function getProductIdsForBothIntervals(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var4 = arg1;
+            var1 = _closure1_slot9;
+            var2 = undefined;
+            var6 = var1.bind(var2)(var4);
+            var1 = _closure1_slot10;
+            var2 = var1.bind(var2)(var4);
+            var3 = null;
+            if(!(var3 != var2)) { _fun0013_ip = 67; continue _fun0013 }
+case 68:
+            var1 = {};
+            var9 = var6.interval;
+            var7 = _closure1_slot4;
+            var8 = var7.MONTH;
+            var7 = var2;
+            if(!(var9 === var8)) { _fun0013_ip = 69; continue _fun0013 }
+case 70:
+            var7 = var4;
+case 69:
+            var1['monthly'] = var7;
+            var6 = var6.interval;
+            var5 = _closure1_slot4;
+            var5 = var5.YEAR;
+            if(!(var6 === var5)) { _fun0013_ip = 71; continue _fun0013 }
+case 72:
+            var2 = var4;
+case 71:
+            var1['yearly'] = var2;
+            _fun0013_ip = 13; continue _fun0013;
+case 67:
+            var2 = {};
+            var2['monthly'] = var4;
+            var2['yearly'] = var3;
+            var1 = var2;
+case 13:
+            return var1;
+        }
+    };
+    var3['getProductIdsForBothIntervals'] = var8;
+    var8 = function productsHaveSamePerks(arg1, arg2) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+            var2 = arg1;
+            var1 = arg2;
+            var5 = _closure1_slot11;
+            var4 = undefined;
+            var5 = var5.bind(var4)(var2);
+            if(!var5) { _fun0014_ip = 73; continue _fun0014 }
+case 31:
+            var5 = _closure1_slot11;
+            var5 = var5.bind(var4)(var1);
+            if(var5) { _fun0014_ip = 37; continue _fun0014 }
+case 73:
+            var5 = var2 === var1;
+            return var5;
+case 37:
+            var5 = null;
+            if(!(var5 != var2)) { _fun0014_ip = 13; continue _fun0014 }
+case 39:
+            if(!(var5 != var1)) { _fun0014_ip = 13; continue _fun0014 }
+case 74:
+            if(!(var2 !== var1)) { _fun0014_ip = 64; continue _fun0014 }
+case 4:
+            var3 = _closure1_slot9;
+            var5 = var3.bind(var4)(var2);
+            var4 = var3.bind(var4)(var1);
+            var6 = var5.numPremiumGuild;
+            var3 = var4.numPremiumGuild;
+            var3 = var6 === var3;
+            if(!var3) { _fun0014_ip = 50; continue _fun0014 }
+case 71:
+            var5 = var5.premiumTier;
+            var4 = var4.premiumTier;
+            var3 = var5 === var4;
+case 50:
+            return var3;
+case 64:
+            var3 = true;
+            return var3;
+case 13:
+            var1 = var2 === var1;
+            return var1;
+        }
+    };
+    var3['productsHaveSamePerks'] = var8;
+    var3['isValidBundleProductId'] = var7;
+    var7 = function shouldAlwaysExcludeFromPlanSelect(arg1) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+            var2 = arg1;
+            var1 = var2.isDeprecated;
+            if(var1) { _fun0015_ip = 73; continue _fun0015 }
+case 46:
+            var3 = var2.interval;
+            var2 = _closure1_slot4;
+            var2 = var2.YEAR;
+            var1 = var3 === var2;
+case 73:
+            return var1;
+        }
+    };
+    var3['shouldAlwaysExcludeFromPlanSelect'] = var7;
+    var3['getSubscriptionItemsForProduct'] = var6;
+    var3['makeExternalPaymentGatewayPlanIdOrThrow'] = var5;
+    var3['getProductIdFromSubscriptionItems'] = var4;
+    var2 = function getProductIdFromSubscription(arg1, arg2) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+            var1 = arg1;
+            var2 = arg2;
+            var3 = var1.isACOM;
+            var4 = null;
+            if(var3) { _fun0016_ip = 41; continue _fun0016 }
+case 75:
+            var6 = null;
+            if(!var2) { _fun0016_ip = 2; continue _fun0016 }
+case 76:
+            var5 = var1.renewalMutations;
+            var7 = var4 == var5;
+            var3 = undefined;
+            if(var7) { _fun0016_ip = 77; continue _fun0016 }
+case 78:
+            var3 = var5.paymentGatewayPlanId;
+case 77:
+            var6 = var3;
+case 2:
+            var5 = _closure1_slot13;
+            if(!(var4 == var6)) { _fun0016_ip = 79; continue _fun0016 }
+case 70:
+            var6 = var1.paymentGatewayPlanId;
+case 79:
+            var3 = undefined;
+            var3 = var5.bind(var3)(var6);
+            return var3;
+case 41:
+            var3 = null;
+            if(!var2) { _fun0016_ip = 80; continue _fun0016 }
+case 81:
+            var5 = var1.renewalMutations;
+            var6 = var4 == var5;
+            var2 = undefined;
+            if(var6) { _fun0016_ip = 82; continue _fun0016 }
+case 83:
+            var2 = var5.items;
+case 82:
+            var3 = var2;
+case 80:
+            var2 = _closure1_slot16;
+            if(!(var4 == var3)) { _fun0016_ip = 84; continue _fun0016 }
+case 60:
+            var3 = var1.items;
+case 84:
+            var1 = undefined;
+            var1 = var2.bind(var1)(var3);
+            return var1;
+        }
+    };
+    var3['getProductIdFromSubscription'] = var2;
     return var1;
 })();

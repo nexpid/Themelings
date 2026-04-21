@@ -172,7 +172,7 @@ case 9:
             var5 = var20[var10];
             var11 = var19.bind(var4)(var5);
             var9 = var11.useAnimatedStyle;
-            var5 = function L() {
+            var5 = function N() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = _closure2_slot8;
@@ -206,7 +206,7 @@ case 12:
             var5 = var20[var10];
             var11 = var19.bind(var4)(var5);
             var9 = var11.useAnimatedStyle;
-            var5 = function N() {
+            var5 = function L() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -375,6 +375,7 @@ case 21:
                 var1 = var1.id;
                 var2['channelId'] = var1;
                 var1 = true;
+                var2['shouldNavigateBack'] = var1;
                 var1 = var4.bind(var5)(var3, var1, var2);
                 return var1;
             };
@@ -400,6 +401,7 @@ case 21:
                 var1 = var1.id;
                 var2['channelId'] = var1;
                 var1 = true;
+                var2['shouldNavigateBack'] = var1;
                 var1 = var4.bind(var5)(var3, var1, var2);
                 return var1;
             };

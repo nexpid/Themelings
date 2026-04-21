@@ -56,10 +56,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.BORDER_MUTED;
     var9['borderColor'] = var10;
     var4['profileBorder'] = var9;
-    var9 = {};
-    var10 = 0.5;
-    var9['opacity'] = var10;
-    var4['purchasedProfileEffect'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
     var4 = 8;
@@ -73,7 +69,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var9 = var1.item;
-            var8 = var1.isPurchased;
             var7 = var1.hideBackground;
             var4 = undefined;
             if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -85,20 +80,15 @@ case 2:
             var3 = _closure1_slot4;
             var2 = _closure1_slot2;
             var1 = {};
-            var10 = var12.profileContainer;
-            var5 = new Array(3);
-            var5[0] = var10;
-            var10 = !var7;
-            if(!var10) { _fun0001_ip = 4; continue _fun0001 }
+            var8 = var12.profileContainer;
+            var5 = new Array(2);
+            var5[0] = var8;
+            var8 = !var7;
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var10 = var12.profileBackground;
+            var8 = var12.profileBackground;
 case 4:
-            var5[1] = var10;
-            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var8 = var12.purchasedProfileEffect;
-case 6:
-            var5[2] = var8;
+            var5[1] = var8;
             var1['style'] = var5;
             var10 = _closure1_slot3;
             var14 = _closure1_slot0;
@@ -125,15 +115,15 @@ case 6:
             var5 = new Array(3);
             var5[0] = var8;
             var7 = !var7;
-            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = _closure1_slot3;
             var10 = _closure1_slot2;
             var8 = {};
             var12 = var12.profileBorder;
             var8['style'] = var12;
             var7 = var11.bind(var4)(var10, var8);
-case 8:
+case 6:
             var5[1] = var7;
             var8 = _closure1_slot3;
             var7 = _closure1_slot0;

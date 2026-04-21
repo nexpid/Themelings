@@ -245,7 +245,7 @@ case 10:
     var7 = 'function MessageNotificationAccessoryTsx1(){const{withSpring,animatedState,SPRING_CONFIG}=this.__closure;return{transform:[{scale:withSpring(animatedState.get()?1:0.9,SPRING_CONFIG)}],opacity:withSpring(animatedState.get()?1:0,SPRING_CONFIG)};}';
     var4['code'] = var7;
     var _closure1_slot9 = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -254,71 +254,81 @@ case 10:
     var2 = function MessageNotificationAccessory(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var2 = arg1;
-            var1 = var2.reaction;
-            var10 = var2.onExpandPress;
-            var9 = var2.showReactionButton;
-            var2 = null;
-            if(!(var2 != var1)) { _fun0003_ip = 13; continue _fun0003 }
+            var1 = arg1;
+            var4 = var1.reaction;
+            var10 = var1.onExpandPress;
+            var1 = var1.expandedContentVisible;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 13;
+            var2 = var5[var2];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.useIsScreenReaderEnabled;
+            var9 = var2.bind(var3)();
+            if(var9) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-            var4 = _closure1_slot6;
-            var3 = _closure1_slot10;
-            var2 = {};
-            var2['reaction'] = var1;
-            var1 = undefined;
-            var1 = var4.bind(var1)(var3, var2);
-            _fun0003_ip = 15; continue _fun0003;
+            var9 = !var1;
 case 13:
-            var5 = _closure1_slot6;
-            var4 = _closure1_slot3;
-            var3 = {};
-            var2 = {};
-            var6 = 0;
-            if(!var9) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-            var6 = 1;
+            var1 = null;
+            if(!(var1 != var4)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-            var2['opacity'] = var6;
-            var3['style'] = var2;
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot10;
+            var1 = {};
+            var1['reaction'] = var4;
+            var1 = var3.bind(var5)(var2, var1);
+            _fun0003_ip = 17; continue _fun0003;
+case 15:
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot3;
+            var2 = {};
+            var6 = {};
+            var7 = 0;
+            if(!var9) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+            var7 = 1;
+case 18:
+            var6['opacity'] = var7;
+            var2['style'] = var6;
             var8 = _closure1_slot6;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 13;
-            var6 = var13[var2];
-            var2 = undefined;
-            var6 = var12.bind(var2)(var6);
+            var6 = 14;
+            var6 = var13[var6];
+            var6 = var12.bind(var5)(var6);
             var7 = var6.IconButton;
             var6 = {'variant': 'secondary', 'size': 'md'};
             var15 = _closure1_slot6;
-            var11 = 14;
+            var11 = 15;
             var11 = var13[var11];
-            var11 = var12.bind(var2)(var11);
+            var11 = var12.bind(var5)(var11);
             var14 = var11.ReactionPlusIcon;
             var11 = {};
             var16 = 'sm';
             var11['size'] = var16;
-            var11 = var15.bind(var2)(var14, var11);
+            var11 = var15.bind(var5)(var14, var11);
             var6['icon'] = var11;
             var6['onPress'] = var10;
             var9 = !var9;
             var6['disabled'] = var9;
             var9 = 8;
             var6['hitSlop'] = var9;
-            var9 = 15;
+            var9 = 16;
             var10 = var13[var9];
-            var10 = var12.bind(var2)(var10);
+            var10 = var12.bind(var5)(var10);
             var11 = var10.intl;
             var10 = var11.string;
             var9 = var13[var9];
-            var9 = var12.bind(var2)(var9);
+            var9 = var12.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.lfIHs4;
+            var9 = var9.IYLnQn;
             var9 = var10.bind(var11)(var9);
             var6['accessibilityLabel'] = var9;
-            var6 = var8.bind(var2)(var7, var6);
-            var3['children'] = var6;
-            var1 = var5.bind(var2)(var4, var3);
-case 15:
+            var6 = var8.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 17:
             return var1;
         }
     };

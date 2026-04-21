@@ -1,4 +1,4 @@
-// app/modules/screen/native/DimensionsStoreShared.tsx
+// app/modules/window/native/AppEntryKey.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,18 +16,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = 'modules/screen/native/DimensionsStoreShared.tsx';
+    var2 = 'modules/window/native/AppEntryKey.tsx';
     var2 = var4.bind(var5)(var2);
     var2 = ['main', 'share'];
     var3['APP_ENTRY_KEYS'] = var2;
-    var2 = function createEmptyPerAppEntryDimensionsState() {
-        var1 = {'fontScale': 1, 'screenIsLandscape': false};
-        var2 = {'width': 0, 'height': 0};
-        var1['windowDimensions'] = var2;
-        var2 = {'width': 0, 'height': 0};
-        var1['windowDimensionsIgnoringKeyboard'] = var2;
-        return var1;
-    };
-    var3['createEmptyPerAppEntryDimensionsState'] = var2;
     return var1;
 })();

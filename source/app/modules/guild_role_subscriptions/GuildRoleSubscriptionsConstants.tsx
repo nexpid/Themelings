@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var14.bind(var13)(var15, var4);
     var14 = var2.Object;
     var13 = var14.freeze;
-    var2 = {'PROMO_PAGE_GUIDE': 'https://discord.com/creators/say-hello-to-promo-pages-our-new-server-subscriptions-feature', 'CASE_STUDIES': 'https://discord.com/creator-portal/learn-from-creators?tab=creator-case-studies', 'SUBSCRIPTION_OFFERING_GUIDE': 'https://discord.com/creators/offering-inspiration-', 'TIER_STRUCTURE_GUIDE': 'https://discord.com/creators/server-subs-102-to-tier-or-not-to-tier'};
+    var2 = {'MUST_READ_ARTICLES': 'https://discord.com/creators/5-must-read-articles-for-beginners', 'CREATOR_TO_ADMIN_101': 'https://discord.com/creators/creator-to-server-admin-101', 'CREATOR_TO_ADMIN_201': 'https://discord.com/creators/creator-to-server-admin-201'};
     var2 = var13.bind(var14)(var2);
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);

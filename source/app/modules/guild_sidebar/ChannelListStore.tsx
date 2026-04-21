@@ -776,15 +776,15 @@ case 49:
     var2['CHANNEL_MUTE_EXPIRED'] = var11;
     var2['CHANNEL_RTC_UPDATE_CHAT_OPEN'] = var12;
     var2['CHANNEL_SELECT'] = var9;
-    var19 = function handleChannelStatuses(arg1) {
-        var3 = _closure1_slot26;
-        var2 = var3.clearGuildId;
+    var19 = function handleChannelInfo(arg1) {
         var1 = arg1;
-        var1 = var1.guildId;
-        var1 = var2.bind(var3)(var1);
+        var3 = var1.guildId;
+        var2 = _closure1_slot26;
+        var1 = var2.clearGuildId;
+        var1 = var1.bind(var2)(var3);
         return var1;
     };
-    var2['CHANNEL_STATUSES'] = var19;
+    var2['CHANNEL_INFO'] = var19;
     var19 = function handleChannelUpdates(arg1) {
         var2 = arg1;
         var4 = var2.channels;

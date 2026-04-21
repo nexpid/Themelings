@@ -63,8 +63,6 @@ case 8:
             var8 = {};
             var11 = var1.item;
             var8['item'] = var11;
-            var11 = false;
-            var8['isPurchased'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var2['children'] = var8;
             var2 = var6.bind(var4)(var3, var2);
@@ -81,9 +79,11 @@ case 6:
             var8 = 11;
             var8 = var11[var8];
             var9 = var9.bind(var4)(var8);
-            var8 = {'item': null, 'isPurchased': false, 'hideBackground': true};
+            var8 = {};
             var11 = var1.item;
             var8['item'] = var11;
+            var11 = true;
+            var8['hideBackground'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var2['children'] = var8;
             var2 = var6.bind(var4)(var3, var2);
@@ -100,9 +100,11 @@ case 4:
             var8 = 10;
             var8 = var11[var8];
             var9 = var9.bind(var4)(var8);
-            var8 = {'isPurchased': false, 'item': null, 'size': 100};
+            var8 = {};
             var11 = var1.item;
             var8['item'] = var11;
+            var11 = 100;
+            var8['size'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var2['children'] = var8;
             var2 = var6.bind(var4)(var3, var2);
@@ -148,8 +150,6 @@ case 10:
             var5 = var9[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
-            var9 = false;
-            var5['isPurchased'] = var9;
             var9 = var8.firstAvatarDecoration;
             var5['deco'] = var9;
             var9 = var8.firstProfileEffect;

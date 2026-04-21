@@ -514,23 +514,23 @@ case 26:
 case 0:
             var2 = arg1;
             var37 = var2.product;
-            var15 = var2.useCategoryImage;
+            var16 = var2.useCategoryImage;
             var4 = undefined;
-            if(!(var15 === var4)) { _fun0004_ip = 27; continue _fun0004 }
+            if(!(var16 === var4)) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
-            var15 = false;
+            var16 = false;
 case 27:
             var25 = var2.renderMessages;
             var12 = var2.onSuccess;
-            var16 = var2.showOrbBalancePill;
-            if(!(var16 === var4)) { _fun0004_ip = 29; continue _fun0004 }
+            var17 = var2.showOrbBalancePill;
+            if(!(var17 === var4)) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
-            var16 = false;
+            var17 = false;
 case 29:
-            var28 = var2.orbBalancePriorToPurchase;
-            if(!(var28 === var4)) { _fun0004_ip = 31; continue _fun0004 }
+            var30 = var2.orbBalancePriorToPurchase;
+            if(!(var30 === var4)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-            var28 = null;
+            var30 = null;
 case 31:
             var _closure2_slot0 = var4;
             var _closure2_slot1 = var4;
@@ -540,7 +540,7 @@ case 31:
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useCurrentUser;
-            var39 = var2.bind(var3)();
+            var38 = var2.bind(var3)();
             var3 = _closure1_slot1;
             var2 = 19;
             var2 = var5[var2];
@@ -571,7 +571,7 @@ case 33:
             var3 = var10.bind(var4)(var3);
             var3 = var3.colors;
             var3 = var3.INTERACTIVE_TEXT_ACTIVE;
-            var30 = var6.bind(var8)(var3);
+            var40 = var6.bind(var8)(var3);
             var10 = _closure1_slot5;
             var6 = var10.useRef;
             var3 = _closure1_slot21;
@@ -680,7 +680,7 @@ case 41:
             var3 = var6.useAvatarDecorationPreviewSizes;
             var3 = var3.bind(var6)();
             var6 = var3.avatarSize;
-            var36 = var3.avatarDecorationSize;
+            var35 = var3.avatarDecorationSize;
             var3 = 24;
             var3 = var2[var3];
             var11 = var5.bind(var4)(var3);
@@ -952,17 +952,17 @@ case 48:
             var2 = var3.bind(var5)(var2);
             var2 = var2.category;
             var3 = var24 == var2;
-            var13 = undefined;
+            var14 = undefined;
             if(var3) { _fun0004_ip = 50; continue _fun0004 }
 case 51:
-            var13 = var2.mobileBgUrl;
+            var14 = var2.mobileBgUrl;
 case 50:
             var3 = _closure1_slot3;
             var2 = var37.items;
-            var17 = 1;
-            var2 = var3.bind(var4)(var2, var17);
-            var40 = 0;
-            var38 = var2[var40];
+            var18 = 1;
+            var2 = var3.bind(var4)(var2, var18);
+            var39 = 0;
+            var36 = var2[var39];
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = 26;
@@ -975,24 +975,24 @@ case 50:
             var5 = var8.bind(var11)(var5);
             var22 = var5.handleUseNow;
             var23 = var5.isApplying;
-            var5 = var39.getAvatarSource;
-            var35 = false;
-            var33 = var5.bind(var39)(var4, var35, var6);
+            var5 = var38.getAvatarSource;
+            var11 = false;
+            var33 = var5.bind(var38)(var4, var11, var6);
             var5 = 27;
             var5 = var3[var5];
             var8 = var2.bind(var4)(var5);
             var6 = var8.useVirtualCurrencyMobileEnabled;
             var5 = {};
-            var11 = 'ProductPurchaseSuccessModal';
-            var5['location'] = var11;
+            var12 = 'ProductPurchaseSuccessModal';
+            var5['location'] = var12;
             var5 = var6.bind(var8)(var5);
-            var18 = var5.enabled;
+            var19 = var5.enabled;
             var5 = 28;
             var5 = var3[var5];
             var6 = var2.bind(var4)(var5);
             var5 = var6.useFetchVirtualCurrencyBalance;
             var5 = var5.bind(var6)();
-            var26 = var5.balance;
+            var28 = var5.balance;
             var8 = _closure1_slot5;
             var6 = var8.useEffect;
             var5 = function() {
@@ -1039,9 +1039,9 @@ case 50:
             var1['style'] = var5;
             var5 = var37.skuId;
             var1['id'] = var5;
-            if(!var15) { _fun0004_ip = 52; continue _fun0004 }
+            if(!var16) { _fun0004_ip = 52; continue _fun0004 }
 case 53:
-            if(!(var24 == var13)) { _fun0004_ip = 54; continue _fun0004 }
+            if(!(var24 == var14)) { _fun0004_ip = 54; continue _fun0004 }
 case 52:
             var8 = _closure1_slot12;
             var6 = _closure1_slot23;
@@ -1050,23 +1050,23 @@ case 52:
             var6 = var8.bind(var4)(var6, var5);
             _fun0004_ip = 55; continue _fun0004;
 case 54:
-            var11 = _closure1_slot12;
+            var12 = _closure1_slot12;
             var8 = _closure1_slot6;
             var5 = {};
-            var12 = {};
-            var12['uri'] = var13;
-            var5['source'] = var12;
-            var12 = var9.imageBackground;
-            var5['style'] = var12;
-            var6 = var11.bind(var4)(var8, var5);
+            var13 = {};
+            var13['uri'] = var14;
+            var5['source'] = var13;
+            var13 = var9.imageBackground;
+            var5['style'] = var13;
+            var6 = var12.bind(var4)(var8, var5);
 case 55:
             var5 = new Array(3);
             var5[0] = var6;
             var14 = _closure1_slot13;
             var8 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var6 = 32;
-            var6 = var11[var6];
+            var6 = var12[var6];
             var6 = var8.bind(var4)(var6);
             var13 = var6.SafeAreaPaddingView;
             var12 = {'style': null, 'top': true, 'bottom': true, 'left': true, 'right': true};
@@ -1074,22 +1074,22 @@ case 55:
             var6 = new Array(2);
             var6[0] = var8;
             var8 = {};
-            var11 = undefined;
-            if(!var15) { _fun0004_ip = 56; continue _fun0004 }
+            var15 = undefined;
+            if(!var16) { _fun0004_ip = 56; continue _fun0004 }
 case 57:
-            var11 = 'rgba(0, 0, 0, 0.3)';
+            var15 = 'rgba(0, 0, 0, 0.3)';
 case 56:
-            var8['backgroundColor'] = var11;
+            var8['backgroundColor'] = var15;
             var6[1] = var8;
             var12['style'] = var6;
-            var11 = _closure1_slot13;
+            var15 = _closure1_slot13;
             var8 = _closure1_slot8;
             var6 = {};
-            var15 = var9.header;
-            var6['style'] = var15;
-            var20 = _closure1_slot12;
-            var19 = _closure1_slot17;
-            var15 = {};
+            var16 = var9.header;
+            var6['style'] = var16;
+            var26 = _closure1_slot12;
+            var20 = _closure1_slot17;
+            var16 = {};
             var43 = var24 == var42;
             var41 = undefined;
             if(var43) { _fun0004_ip = 58; continue _fun0004 }
@@ -1100,44 +1100,44 @@ case 59:
 case 58:
             if(!(var24 != var41)) { _fun0004_ip = 60; continue _fun0004 }
 case 61:
-            var30 = var41;
+            var40 = var41;
 case 60:
-            var15['tintColor'] = var30;
-            var19 = var20.bind(var4)(var19, var15);
-            var15 = new Array(2);
-            var15[0] = var19;
-            if(!var16) { _fun0004_ip = 62; continue _fun0004 }
+            var16['tintColor'] = var40;
+            var20 = var26.bind(var4)(var20, var16);
+            var16 = new Array(2);
+            var16[0] = var20;
+            if(!var17) { _fun0004_ip = 62; continue _fun0004 }
 case 63:
-            var16 = var18;
+            var17 = var19;
 case 62:
-            if(!var16) { _fun0004_ip = 64; continue _fun0004 }
+            if(!var17) { _fun0004_ip = 64; continue _fun0004 }
 case 65:
-            var20 = _closure1_slot12;
-            var19 = _closure1_slot0;
-            var30 = _closure1_slot2;
-            var18 = 33;
-            var18 = var30[var18];
-            var18 = var19.bind(var4)(var18);
-            var19 = var18.BalanceWidgetPill;
-            var18 = {};
-            var18['initialRenderedBalance'] = var28;
-            var18['balance'] = var26;
-            var16 = var20.bind(var4)(var19, var18);
+            var26 = _closure1_slot12;
+            var20 = _closure1_slot0;
+            var40 = _closure1_slot2;
+            var19 = 33;
+            var19 = var40[var19];
+            var19 = var20.bind(var4)(var19);
+            var20 = var19.BalanceWidgetPill;
+            var19 = {};
+            var19['initialRenderedBalance'] = var30;
+            var19['balance'] = var28;
+            var17 = var26.bind(var4)(var20, var19);
 case 64:
-            var15[1] = var16;
-            var6['children'] = var15;
-            var6 = var11.bind(var4)(var8, var6);
+            var16[1] = var17;
+            var6['children'] = var16;
+            var6 = var15.bind(var4)(var8, var6);
             var15 = new Array(3);
             var15[0] = var6;
             var16 = _closure1_slot13;
             var8 = _closure1_slot7;
             var6 = {};
-            var11 = {};
-            var11['flex'] = var17;
-            var6['style'] = var11;
-            var11 = var9.body;
-            var6['contentContainerStyle'] = var11;
-            var6['alwaysBounceVertical'] = var35;
+            var17 = {};
+            var17['flex'] = var18;
+            var6['style'] = var17;
+            var17 = var9.body;
+            var6['contentContainerStyle'] = var17;
+            var6['alwaysBounceVertical'] = var11;
             var20 = _closure1_slot12;
             var19 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -1194,57 +1194,57 @@ case 73:
 case 75:
             var31 = _closure1_slot12;
             var30 = _closure1_slot0;
-            var41 = _closure1_slot2;
+            var40 = _closure1_slot2;
             var29 = 38;
-            var29 = var41[var29];
+            var29 = var40[var29];
             var29 = var30.bind(var4)(var29);
             var30 = var29.NameplatePreview;
             var29 = {};
-            var29['user'] = var39;
-            var41 = var37.items;
-            var41 = var41[var40];
-            var29['nameplate'] = var41;
+            var29['user'] = var38;
+            var40 = var37.items;
+            var40 = var40[var39];
+            var29['nameplate'] = var40;
             var29['animate'] = var21;
             var28 = var31.bind(var4)(var30, var29);
             _fun0004_ip = 74; continue _fun0004;
 case 72:
             var31 = _closure1_slot12;
             var30 = _closure1_slot1;
-            var41 = _closure1_slot2;
+            var40 = _closure1_slot2;
             var29 = 37;
-            var29 = var41[var29];
+            var29 = var40[var29];
             var30 = var30.bind(var4)(var29);
             var29 = {};
-            var29['user'] = var39;
-            var41 = var37.items;
-            var41 = var41[var40];
-            var29['profileFrame'] = var41;
+            var29['user'] = var38;
+            var40 = var37.items;
+            var40 = var40[var39];
+            var29['profileFrame'] = var40;
             var28 = var31.bind(var4)(var30, var29);
             _fun0004_ip = 74; continue _fun0004;
 case 70:
             var31 = _closure1_slot12;
             var30 = _closure1_slot1;
-            var41 = _closure1_slot2;
+            var40 = _closure1_slot2;
             var29 = 36;
-            var29 = var41[var29];
+            var29 = var40[var29];
             var30 = var30.bind(var4)(var29);
             var29 = {};
-            var29['user'] = var39;
-            var39 = var37.items;
-            var39 = var39[var40];
-            var29['profileEffect'] = var39;
+            var29['user'] = var38;
+            var38 = var37.items;
+            var38 = var38[var39];
+            var29['profileEffect'] = var38;
             var28 = var31.bind(var4)(var30, var29);
             _fun0004_ip = 74; continue _fun0004;
 case 68:
             var31 = _closure1_slot12;
             var30 = _closure1_slot1;
-            var39 = _closure1_slot2;
+            var38 = _closure1_slot2;
             var29 = 35;
-            var29 = var39[var29];
+            var29 = var38[var29];
             var30 = var30.bind(var4)(var29);
             var29 = {};
-            var29['item'] = var38;
-            var29['size'] = var36;
+            var29['item'] = var36;
+            var29['size'] = var35;
             var29['avatarSource'] = var33;
             var32 = !var32;
             var29['animate'] = var32;
@@ -1257,12 +1257,11 @@ case 66:
             var32 = var9.previewBundle;
             var29['style'] = var32;
             var33 = _closure1_slot1;
-            var36 = _closure1_slot2;
+            var35 = _closure1_slot2;
             var32 = 34;
-            var32 = var36[var32];
+            var32 = var35[var32];
             var33 = var33.bind(var4)(var32);
             var32 = {};
-            var32['isPurchased'] = var35;
             var35 = var34.firstAvatarDecoration;
             var32['deco'] = var35;
             var35 = var34.firstProfileEffect;

@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = 'function GuildPowerupsProgressBarTsx1(){const{animatedFillPercent}=this.__closure;return{width:animatedFillPercent.get()+"%",opacity:animatedFillPercent.get()>0?1:0};}';
     var6['code'] = var9;
     var _closure1_slot12 = var6;
-    var6 = 19;
+    var6 = 20;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -337,15 +337,20 @@ case 12:
             var2 = new Array(1);
             var2[0] = var6;
             var1 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
                 var1 = 13;
-                var2 = var2[var1];
+                var2 = var6[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
+                var3 = var5.bind(var1)(var2);
                 var2 = {};
                 var4 = _closure2_slot0;
                 var2['guildId'] = var4;
+                var4 = 14;
+                var4 = var6[var4];
+                var4 = var5.bind(var1)(var4);
+                var4 = var4.GUILD_BOOSTING_SIDEBAR_DISPLAY;
+                var2['analyticsLocation'] = var4;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
@@ -354,13 +359,13 @@ case 12:
 case 15:
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 14;
+            var1 = 15;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var6 = var1.intl;
             var3 = var6.formatToPlainString;
             var2 = _closure1_slot1;
-            var1 = 15;
+            var1 = 16;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1["/rbPDs"];
@@ -372,13 +377,13 @@ case 15:
 case 14:
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 14;
+            var1 = 15;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var6 = var1.intl;
             var3 = var6.formatToPlainString;
             var2 = _closure1_slot1;
-            var1 = 15;
+            var1 = 16;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Ehpq+7;
@@ -389,20 +394,20 @@ case 16:
             var3 = _closure1_slot7;
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var1 = var10[var1];
             var1 = var11.bind(var4)(var1);
             var2 = var1.PressableScale;
             var1 = {};
             var6 = 'button';
             var1['accessibilityRole'] = var6;
-            var16 = 14;
+            var16 = 15;
             var6 = var10[var16];
             var6 = var11.bind(var4)(var6);
             var8 = var6.intl;
             var7 = var8.string;
             var9 = _closure1_slot1;
-            var21 = 15;
+            var21 = 16;
             var6 = var10[var21];
             var6 = var9.bind(var4)(var6);
             var6 = var6.NI6Ihe;
@@ -442,7 +447,7 @@ case 16:
             var9 = {};
             var14 = var15.textContainer;
             var9['style'] = var14;
-            var14 = 17;
+            var14 = 18;
             var10 = var10[var14];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;
@@ -504,7 +509,7 @@ case 19:
             var15 = var17.bind(var4)(var15, var14);
             var14 = new Array(2);
             var14[0] = var15;
-            var15 = 18;
+            var15 = 19;
             var15 = var20[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.ChevronSmallRightIcon;

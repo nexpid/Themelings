@@ -87,6 +87,8 @@ case 5:
 case 7:
             var5 = var6.bind(var7)(var5);
             var1['accessibilityLabel'] = var5;
+            var5 = 1.5;
+            var1['maxFontSizeMultiplier'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

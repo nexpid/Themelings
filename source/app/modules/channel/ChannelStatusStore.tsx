@@ -338,12 +338,12 @@ case 41:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(2);
+        var1 = new Array(3);
         var1[0] = var5;
         var5 = {};
         var7 = 'getChannelStatus';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var2 = arg1;
@@ -367,38 +367,33 @@ case 42:
                 var5 = undefined;
                 return var5;
 case 45:
-                var7 = _closure1_slot8;
-                var6 = var7.has;
-                var5 = var2.guild_id;
-                var5 = var6.bind(var7)(var5);
-                if(var5) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
-                var7 = _closure1_slot8;
-                var6 = var7.add;
-                var5 = var2.guild_id;
-                var5 = var6.bind(var7)(var5);
-                var6 = _closure1_slot7;
-                var5 = var6.getSocket;
-                var7 = var5.bind(var6)();
-                var6 = var7.requestChannelStatuses;
-                var5 = var2.guild_id;
-                var5 = var6.bind(var7)(var5);
-case 46:
                 var5 = _closure1_slot9;
                 var3 = var2.guild_id;
                 var3 = var5[var3];
                 var4 = var4 == var3;
                 var1 = undefined;
-                if(var4) { _fun0006_ip = 48; continue _fun0006 }
-case 18:
+                if(var4) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
                 var2 = var2.id;
                 var1 = var3[var2];
-case 48:
+case 46:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[1] = var5;
+        var5 = {};
+        var7 = 'hasRequestedStatuses';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var3 = _closure1_slot8;
+            var2 = var3.has;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[2] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -421,13 +416,13 @@ case 0:
             var3 = var1.guildId;
             var4 = var4[var3];
             var3 = null;
-            if(!(var3 == var4)) { _fun0007_ip = 49; continue _fun0007 }
-case 50:
+            if(!(var3 == var4)) { _fun0007_ip = 48; continue _fun0007 }
+case 49:
             var5 = _closure1_slot9;
             var4 = var1.guildId;
             var3 = {};
             var5[var4] = var3;
-case 49:
+case 48:
             var3 = _closure1_slot9;
             var2 = var1.guildId;
             var3 = var3[var2];
@@ -439,38 +434,47 @@ case 49:
         }
     };
     var2['VOICE_CHANNEL_STATUS_UPDATE'] = var9;
-    var4 = function handleChannelStatuses(arg1) {
+    var9 = function handleChannelInfo(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var6 = arg1;
-            var3 = _closure1_slot9;
-            var2 = var6.guildId;
+            var1 = arg1;
+            var6 = var1.guildId;
+            var3 = var1.channels;
+            var2 = _closure1_slot9;
             var1 = {};
-            var3[var2] = var1;
-            var3 = _closure1_slot11;
-            var2 = var6.channels;
+            var2[var6] = var1;
+            var2 = _closure1_slot11;
             var1 = undefined;
-            var4 = var3.bind(var1)(var2);
+            var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
+            if(var2) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
             var2 = var3.value;
             var8 = var2.id;
             var7 = var2.status;
-            var9 = _closure1_slot9;
-            var2 = var6.guildId;
-            var2 = var9[var2];
+            var2 = _closure1_slot9;
+            var2 = var2[var6];
             var2[var8] = var7;
             var7 = var4.bind(var1)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0008_ip = 52; continue _fun0008 }
-case 51:
+            if(!var2) { _fun0008_ip = 51; continue _fun0008 }
+case 50:
             return var1;
         }
     };
-    var2['CHANNEL_STATUSES'] = var4;
+    var2['CHANNEL_INFO'] = var9;
+    var4 = function handleFetchChannelInfo(arg1) {
+        var1 = arg1;
+        var3 = var1.guildId;
+        var2 = _closure1_slot8;
+        var1 = var2.add;
+        var1 = var1.bind(var2)(var3);
+        var1 = undefined;
+        return var1;
+    };
+    var2['FETCH_CHANNEL_INFO'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var16 = var4;

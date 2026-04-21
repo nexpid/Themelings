@@ -182,7 +182,7 @@ case 35:
         }
     };
     var _closure1_slot5 = var1;
-    var1 = function computeWindowDimensions(arg1, arg2, arg3, arg4) {
+    var1 = function computeWindowDimensions(arg1, arg2, arg3, arg4, arg5) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -197,9 +197,10 @@ case 0:
             var2 = 3;
             var3 = var3[var2];
             var2 = undefined;
-            var6 = var6.bind(var2)(var3);
-            var3 = var6.getSafeAreaInsets;
-            var3 = var3.bind(var6)();
+            var7 = var6.bind(var2)(var3);
+            var6 = var7.getSafeAreaInsets;
+            var3 = arg5;
+            var3 = var6.bind(var7)(var3);
             var11 = var4;
             var7 = var5;
             if(!(var7 === var12)) { _fun0004_ip = 36; continue _fun0004 }
@@ -224,7 +225,7 @@ case 36:
             var10 = arg2;
             var3 = 0;
             if(var10) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+case 15:
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
             var9 = 4;
@@ -238,10 +239,10 @@ case 38:
             var5 = null;
             var5 = var5 == var1;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 40; continue _fun0004 }
-case 22:
-            var2 = var1.width;
+            if(var5) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
+            var2 = var1.width;
+case 39:
             if(!(var2 === var4)) { _fun0004_ip = 41; continue _fun0004 }
 case 42:
             var2 = var1.height;
@@ -259,29 +260,29 @@ case 43:
     var1 = function getDimensionsStoreStateForEntry(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var6 = arg1;
+            var12 = arg1;
             var1 = arg2;
             var11 = {};
             var5 = _closure1_slot2;
             var4 = var5.get;
             var2 = 'window';
-            var14 = var4.bind(var5)(var2);
-            var15 = var11;
-            var2 = copyDataProperties(var15, var14);
+            var16 = var4.bind(var5)(var2);
+            var17 = var11;
+            var2 = copyDataProperties(var17, var16);
             var5 = _closure1_slot0;
-            var7 = _closure1_slot1;
+            var6 = _closure1_slot1;
             var4 = 2;
-            var8 = var7[var4];
+            var7 = var6[var4];
             var2 = undefined;
-            var9 = var5.bind(var2)(var8);
-            var8 = var9.readWindowSizeForAppEntry;
-            var14 = var8.bind(var9)(var6);
-            var15 = var11;
-            var8 = copyDataProperties(var15, var14);
-            var4 = var7[var4];
+            var8 = var5.bind(var2)(var7);
+            var7 = var8.readWindowSizeForAppEntry;
+            var16 = var7.bind(var8)(var12);
+            var17 = var11;
+            var7 = copyDataProperties(var17, var16);
+            var4 = var6[var4];
             var5 = var5.bind(var2)(var4);
             var4 = var5.readScreenSizeForAppEntry;
-            var10 = var4.bind(var5)(var6);
+            var10 = var4.bind(var5)(var12);
             var7 = null;
             if(!(var7 == var10)) { _fun0005_ip = 44; continue _fun0005 }
 case 45:
@@ -307,41 +308,43 @@ case 49:
             var9 = var1.windowDimensionsIgnoringKeyboard;
 case 48:
             var8 = _closure1_slot6;
-            var14 = false;
-            var16 = undefined;
-            var15 = var4;
-            var13 = var11;
-            var12 = var10;
-            var4 = var16[var8](var15, var14, var13, var12, var11);
-            var14 = true;
-            var15 = var9;
-            var13 = var11;
-            var12 = var10;
-            var3 = var16[var8](var15, var14, var13, var12, var11);
+            var16 = false;
+            var18 = undefined;
+            var17 = var4;
+            var15 = var11;
+            var14 = var10;
+            var13 = var12;
+            var4 = var18[var8](var17, var16, var15, var14, var13, var12);
+            var16 = true;
+            var17 = var9;
+            var15 = var11;
+            var14 = var10;
+            var13 = var12;
+            var3 = var18[var8](var17, var16, var15, var14, var13, var12);
             var7 = var7 == var1;
             var2 = undefined;
-            if(var7) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
-            var2 = var1.windowDimensions;
+            if(var7) { _fun0005_ip = 41; continue _fun0005 }
 case 50:
-            if(!(var2 === var4)) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
-            var2 = var1.windowDimensionsIgnoringKeyboard;
-            if(!(var2 === var3)) { _fun0005_ip = 52; continue _fun0005 }
-case 54:
-            var2 = var1.fontScale;
-            if(!(var2 === var6)) { _fun0005_ip = 52; continue _fun0005 }
-case 55:
-            var2 = var1.screenIsLandscape;
-            if(!(var2 !== var5)) { _fun0005_ip = 56; continue _fun0005 }
+            var2 = var1.windowDimensions;
+case 41:
+            if(!(var2 === var4)) { _fun0005_ip = 51; continue _fun0005 }
 case 52:
+            var2 = var1.windowDimensionsIgnoringKeyboard;
+            if(!(var2 === var3)) { _fun0005_ip = 51; continue _fun0005 }
+case 53:
+            var2 = var1.fontScale;
+            if(!(var2 === var6)) { _fun0005_ip = 51; continue _fun0005 }
+case 54:
+            var2 = var1.screenIsLandscape;
+            if(!(var2 !== var5)) { _fun0005_ip = 55; continue _fun0005 }
+case 51:
             var2 = {};
             var2['fontScale'] = var6;
             var2['screenIsLandscape'] = var5;
             var2['windowDimensions'] = var4;
             var2['windowDimensionsIgnoringKeyboard'] = var3;
             var1 = var2;
-case 56:
+case 55:
             return var1;
         }
     };
@@ -367,40 +370,40 @@ case 0:
             var7 = var6;
             var6 = var4;
             var4 = var6;
-            if(var5) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
+            if(var5) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
             var14 = var7.value;
             var12 = _closure1_slot7;
             var13 = var2 == var1;
             var5 = undefined;
-            if(var13) { _fun0006_ip = 59; continue _fun0006 }
-case 60:
+            if(var13) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
             var13 = var1.byAppEntry;
             var5 = var13[var14];
-case 59:
+case 58:
             var12 = var12.bind(var10)(var14, var5);
             var3[var14] = var12;
             var13 = var2 == var1;
             var5 = undefined;
-            if(var13) { _fun0006_ip = 61; continue _fun0006 }
-case 62:
+            if(var13) { _fun0006_ip = 60; continue _fun0006 }
+case 61:
             var13 = var1.byAppEntry;
             var5 = var13[var14];
-case 61:
-            if(!(var5 !== var12)) { _fun0006_ip = 63; continue _fun0006 }
-case 64:
-            var6 = false;
+case 60:
+            if(!(var5 !== var12)) { _fun0006_ip = 62; continue _fun0006 }
 case 63:
+            var6 = false;
+case 62:
             var13 = var9.bind(var10)();
             var5 = var13.done;
             var7 = var13;
             var4 = var6;
-            if(!var5) { _fun0006_ip = 58; continue _fun0006 }
-case 57:
-            if(!var4) { _fun0006_ip = 65; continue _fun0006 }
-case 66:
-            if(!(var2 == var1)) { _fun0006_ip = 48; continue _fun0006 }
+            if(!var5) { _fun0006_ip = 57; continue _fun0006 }
+case 56:
+            if(!var4) { _fun0006_ip = 64; continue _fun0006 }
 case 65:
+            if(!(var2 == var1)) { _fun0006_ip = 48; continue _fun0006 }
+case 64:
             var2 = {};
             var2['byAppEntry'] = var3;
             var1 = var2;
@@ -465,14 +468,15 @@ case 48:
     var _closure1_slot3 = var2;
     var7 = 8;
     var7 = var6[var7];
-    var10 = var10.bind(var1)(var7);
+    var11 = var10.bind(var1)(var7);
+    var10 = var11.subscribe;
     var7 = function() {
         var2 = _closure1_slot9;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
     };
-    var7 = var10.bind(var1)(var7);
+    var7 = var10.bind(var11)(var7);
     var7 = function() {
         var2 = _closure1_slot9;
         var1 = undefined;

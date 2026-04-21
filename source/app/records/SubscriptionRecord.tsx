@@ -469,12 +469,19 @@ case 25:
         var7 = 'isPurchasedViaApple';
         var6['key'] = var7;
         var7 = function get() {
-            var1 = this;
-            var2 = var1.paymentGateway;
-            var1 = _closure1_slot10;
-            var1 = var1.APPLE;
-            var1 = var2 === var1;
-            return var1;
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var2 = this;
+                var3 = var2.paymentGateway;
+                var1 = _closure1_slot10;
+                var1 = var1.APPLE;
+                var1 = var3 === var1;
+                if(var1) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
+                var1 = var2.isACOM;
+case 25:
+                return var1;
+            }
         };
         var6['get'] = var7;
         var2[8] = var6;
@@ -495,11 +502,11 @@ case 25:
         var7 = 'isPurchasedExternally';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.isPurchasedViaApple;
-                if(var1) { _fun0006_ip = 27; continue _fun0006 }
+                if(var1) { _fun0007_ip = 27; continue _fun0007 }
 case 23:
                 var1 = var2.isPurchasedViaGoogle;
 case 27:
@@ -512,11 +519,11 @@ case 27:
         var7 = 'isOnPlatformMatchingExternalPaymentGateway';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.isPurchasedViaApple;
-                if(!var1) { _fun0007_ip = 28; continue _fun0007 }
+                if(!var1) { _fun0008_ip = 28; continue _fun0008 }
 case 23:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -527,10 +534,10 @@ case 23:
                 var3 = var4.isIOS;
                 var1 = var3.bind(var4)();
 case 28:
-                if(var1) { _fun0007_ip = 29; continue _fun0007 }
+                if(var1) { _fun0008_ip = 29; continue _fun0008 }
 case 20:
                 var2 = var2.isPurchasedViaGoogle;
-                if(!var2) { _fun0007_ip = 30; continue _fun0007 }
+                if(!var2) { _fun0008_ip = 30; continue _fun0008 }
 case 31:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -552,17 +559,17 @@ case 29:
         var7 = 'hasExternalPlanChange';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.isPurchasedExternally;
-                if(!var1) { _fun0008_ip = 32; continue _fun0008 }
+                if(!var1) { _fun0009_ip = 32; continue _fun0009 }
 case 23:
                 var4 = var2.renewalMutations;
                 var3 = null;
                 var1 = var3 != var4;
 case 32:
-                if(!var1) { _fun0008_ip = 33; continue _fun0008 }
+                if(!var1) { _fun0009_ip = 33; continue _fun0009 }
 case 34:
                 var3 = var2.paymentGatewayPlanId;
                 var2 = var2.renewalMutations;
@@ -652,14 +659,14 @@ case 33:
         var7 = 'isPausedForFractionalPremium';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var3 = this;
                 var4 = var3.status;
                 var1 = _closure1_slot11;
                 var1 = var1.PAUSED;
                 var1 = var4 === var1;
-                if(!var1) { _fun0009_ip = 35; continue _fun0009 }
+                if(!var1) { _fun0010_ip = 35; continue _fun0010 }
 case 36:
                 var3 = var3.pauseReason;
                 var2 = _closure1_slot14;
@@ -675,14 +682,14 @@ case 35:
         var7 = 'isPausedAllowsUpdatesButNotResume';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var2 = this;
                 var4 = var2.status;
                 var1 = _closure1_slot11;
                 var1 = var1.PAUSED;
                 var1 = var4 === var1;
-                if(!var1) { _fun0010_ip = 7; continue _fun0010 }
+                if(!var1) { _fun0011_ip = 7; continue _fun0011 }
 case 36:
                 var3 = _closure1_slot15;
                 var4 = var3.CAN_MAKE_SUBSCRIPTION_UPDATES;
@@ -699,19 +706,19 @@ case 7:
         var7 = 'isPausedAllowsResumeButNotUpdates';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var3 = this;
                 var2 = var3.status;
                 var1 = _closure1_slot11;
                 var1 = var1.PAUSED;
                 var1 = var2 === var1;
-                if(!var1) { _fun0011_ip = 37; continue _fun0011 }
+                if(!var1) { _fun0012_ip = 37; continue _fun0012 }
 case 36:
                 var5 = var3.pauseReason;
                 var2 = null;
                 var2 = var2 === var5;
-                if(var2) { _fun0011_ip = 5; continue _fun0011 }
+                if(var2) { _fun0012_ip = 5; continue _fun0012 }
 case 38:
                 var4 = _closure1_slot15;
                 var5 = var4.CAN_MAKE_SUBSCRIPTION_UPDATES;
@@ -744,7 +751,7 @@ case 37:
         var7 = 'endedAt';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var3 = this;
                 var5 = var3.status;
@@ -752,19 +759,19 @@ case 0:
                 var2 = var1.ENDED;
                 var4 = null;
                 var1 = null;
-                if(!(var5 === var2)) { _fun0012_ip = 8; continue _fun0012 }
+                if(!(var5 === var2)) { _fun0013_ip = 8; continue _fun0013 }
 case 26:
                 var5 = var3.metadata;
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0012_ip = 20; continue _fun0012 }
+                if(var6) { _fun0013_ip = 20; continue _fun0013 }
 case 21:
                 var2 = var5.ended_at;
 case 20:
-                if(!(var4 == var2)) { _fun0012_ip = 39; continue _fun0012 }
+                if(!(var4 == var2)) { _fun0013_ip = 39; continue _fun0013 }
 case 7:
                 var2 = var3.currentPeriodEnd;
-                _fun0012_ip = 40; continue _fun0012;
+                _fun0013_ip = 40; continue _fun0013;
 case 39:
                 var4 = global;
                 var5 = var4.Date;
@@ -800,18 +807,18 @@ case 8:
         var7 = 'hasActiveTrial';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.trialId;
                 var4 = null;
                 var1 = var4 != var1;
-                if(!var1) { _fun0013_ip = 36; continue _fun0013 }
+                if(!var1) { _fun0014_ip = 36; continue _fun0014 }
 case 27:
                 var3 = var2.trialEndsAt;
                 var1 = var4 != var3;
 case 36:
-                if(!var1) { _fun0013_ip = 24; continue _fun0013 }
+                if(!var1) { _fun0014_ip = 24; continue _fun0014 }
 case 41:
                 var3 = global;
                 var3 = var3.Date;
@@ -832,12 +839,12 @@ case 24:
         var7 = 'premiumSince';
         var6['key'] = var7;
         var7 = function get() {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.streakStartedAt;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0014_ip = 42; continue _fun0014 }
+                if(!(var3 == var1)) { _fun0015_ip = 42; continue _fun0015 }
 case 43:
                 var1 = var2.createdAt;
 case 42:
@@ -890,7 +897,7 @@ case 42:
         var7 = 'hasPremiumAtLeast';
         var6['key'] = var7;
         var7 = function value(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var3 = this;
                 var1 = arg1;
@@ -898,7 +905,7 @@ case 0:
                 var1 = var3.isPremium;
                 var4 = !var1;
                 var1 = !var4;
-                if(var4) { _fun0015_ip = 33; continue _fun0015 }
+                if(var4) { _fun0016_ip = 33; continue _fun0016 }
 case 34:
                 var4 = var3.items;
                 var3 = var4.some;
@@ -930,7 +937,7 @@ case 33:
         var7 = 'createFromServer';
         var6['key'] = var7;
         var1 = function value(arg1) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var2 = arg1;
                 var3 = _closure2_slot0;
@@ -952,7 +959,7 @@ case 0:
                 var4 = null;
                 var6 = var4 != var5;
                 var5 = null;
-                if(!var6) { _fun0016_ip = 44; continue _fun0016 }
+                if(!var6) { _fun0017_ip = 44; continue _fun0017 }
 case 45:
                 var9 = var7.Date;
                 var13 = var2.canceled_at;
@@ -994,7 +1001,7 @@ case 44:
                 var5 = var2.trial_ends_at;
                 var6 = var4 != var5;
                 var5 = null;
-                if(!var6) { _fun0016_ip = 46; continue _fun0016 }
+                if(!var6) { _fun0017_ip = 46; continue _fun0017 }
 case 47:
                 var9 = var7.Date;
                 var13 = var2.trial_ends_at;
@@ -1013,7 +1020,7 @@ case 46:
                 var6 = var2.renewal_mutations;
                 var8 = var4 != var6;
                 var6 = null;
-                if(!var8) { _fun0016_ip = 48; continue _fun0016 }
+                if(!var8) { _fun0017_ip = 48; continue _fun0017 }
 case 49:
                 var8 = {};
                 var9 = var2.renewal_mutations;
@@ -1031,7 +1038,7 @@ case 48:
                 var6 = var2.streak_started_at;
                 var8 = var4 != var6;
                 var6 = null;
-                if(!var8) { _fun0016_ip = 50; continue _fun0016 }
+                if(!var8) { _fun0017_ip = 50; continue _fun0017 }
 case 51:
                 var10 = var7.Date;
                 var13 = var2.streak_started_at;
@@ -1047,7 +1054,7 @@ case 50:
                 var6 = var2.pause_ends_at;
                 var8 = var4 != var6;
                 var6 = null;
-                if(!var8) { _fun0016_ip = 52; continue _fun0016 }
+                if(!var8) { _fun0017_ip = 52; continue _fun0017 }
 case 53:
                 var9 = var7.Date;
                 var13 = var2.pause_ends_at;
@@ -1069,10 +1076,10 @@ case 52:
                 var6 = var2.user_id;
                 var1['userId'] = var6;
                 var6 = var2.latest_invoice;
-                if(!(var4 == var6)) { _fun0016_ip = 54; continue _fun0016 }
+                if(!(var4 == var6)) { _fun0017_ip = 54; continue _fun0017 }
 case 55:
                 var6 = {};
-                _fun0016_ip = 56; continue _fun0016;
+                _fun0017_ip = 56; continue _fun0017;
 case 54:
                 var7 = {};
                 var10 = _closure1_slot9;
@@ -1088,7 +1095,7 @@ case 56:
                 var6 = var2.eligible_payment_gateways;
                 var8 = var4 != var6;
                 var7 = null;
-                if(!var8) { _fun0016_ip = 57; continue _fun0016 }
+                if(!var8) { _fun0017_ip = 57; continue _fun0017 }
 case 58:
                 var7 = var6;
 case 57:
@@ -1097,7 +1104,7 @@ case 57:
                 var6 = var2.price_change;
                 var6 = var4 != var6;
                 var4 = null;
-                if(!var6) { _fun0016_ip = 59; continue _fun0016 }
+                if(!var6) { _fun0017_ip = 59; continue _fun0017 }
 case 60:
                 var6 = _closure1_slot8;
                 var5 = var6.createFromServer;

@@ -152,7 +152,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(21);
+        var1 = new Array(20);
         var1[0] = var5;
         var5 = {};
         var7 = 'voiceStateUpdate';
@@ -735,28 +735,6 @@ case 40:
         var5['value'] = var7;
         var1[16] = var5;
         var5 = {};
-        var7 = 'requestChannelStatuses';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var5 = this;
-            var4 = var5.send;
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 6;
-            var2 = var2[var1];
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            var2 = var2.Opcode;
-            var3 = var2.REQUEST_CHANNEL_STATUSES;
-            var2 = {};
-            var6 = arg1;
-            var2['guild_id'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[17] = var5;
-        var5 = {};
         var7 = 'requestChannelInfo';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
@@ -779,7 +757,7 @@ case 40:
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'requestChannelMemberCount';
         var5['key'] = var7;
@@ -803,7 +781,7 @@ case 40:
             return var1;
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'remoteCommand';
         var5['key'] = var7;
@@ -827,7 +805,7 @@ case 40:
             return var1;
         };
         var5['value'] = var6;
-        var1[20] = var5;
+        var1[19] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

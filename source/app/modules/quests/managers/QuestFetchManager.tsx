@@ -260,33 +260,22 @@ case 9:
                         };
                         var1 = var8.bind(var9)(var1, var6);
                         var7['initialFetchTimerId'] = var1;
-                        var9 = _closure1_slot0;
-                        var10 = _closure1_slot2;
-                        var7 = 8;
-                        var8 = var10[var7];
+                        var8 = _closure1_slot0;
+                        var7 = _closure1_slot2;
+                        var1 = 8;
+                        var7 = var7[var1];
                         var1 = undefined;
-                        var8 = var9.bind(var1)(var8);
-                        var13 = var8.QuestHomeHeroRolloutExperiment;
-                        var12 = var13.getConfig;
-                        var8 = {};
-                        var11 = _closure1_slot9;
-                        var14 = var11.QUESTS_MANAGER;
-                        var8['location'] = var14;
-                        var8 = var12.bind(var13)(var8);
-                        var8 = var8.enabled;
-                        var7 = var10[var7];
-                        var7 = var9.bind(var1)(var7);
-                        var10 = var7.FetchQuestHomeHeroOnConnectionOpenExperiment;
-                        var9 = var10.getConfig;
+                        var7 = var8.bind(var1)(var7);
+                        var9 = var7.FetchQuestHomeHeroOnConnectionOpenExperiment;
+                        var8 = var9.getConfig;
                         var7 = {};
-                        var11 = var11.QUESTS_MANAGER;
-                        var7['location'] = var11;
-                        var7 = var9.bind(var10)(var7);
+                        var10 = _closure1_slot9;
+                        var10 = var10.QUESTS_MANAGER;
+                        var7['location'] = var10;
+                        var7 = var8.bind(var9)(var7);
                         var7 = var7.enabled;
-                        if(!var8) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
                         if(!var7) { _fun0003_ip = 12; continue _fun0003 }
-case 14:
+case 13:
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
                         var7 = 9;
@@ -295,7 +284,7 @@ case 14:
                         var7 = var8.getIsEligibleForQuests;
                         var7 = var7.bind(var8)();
                         if(!var7) { _fun0003_ip = 12; continue _fun0003 }
-case 15:
+case 14:
                         var8 = var4.Math;
                         var7 = var8.floor;
                         var10 = var4.Math;
@@ -329,19 +318,19 @@ case 0: // try_start_0
                                 var2 = 10;
                                 var2 = var5[var2];
                                 var2 = var3.bind(var4)(var2);
-                                if(var1) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
+                                if(var1) { _fun0006_ip = 15; continue _fun0006 }
+case 16:
                                 var1 = var2.fetchQuestHomeHero;
                                 var1 = var1.bind(var2)();
-                                _fun0006_ip = 18; continue _fun0006;
-case 16:
+                                _fun0006_ip = 17; continue _fun0006;
+case 15:
                                 var1 = var2.fetchQuestHomeHeroDecision;
                                 var1 = var1.bind(var2)();
-case 18: // try_end0
-                                _fun0006_ip = 19; continue _fun0006;
-case 20: // catch_target0
+case 17: // try_end0
+                                _fun0006_ip = 18; continue _fun0006;
+case 19: // catch_target0
                                 CatchBlockStart(arg_register=0);
-case 19:
+case 18:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -369,16 +358,16 @@ case 0:
                         var1 = 'localization';
                         var4 = var1 in var4;
                         var1 = !var4;
-                        if(!var4) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
-                        var1 = !var3;
+                        if(!var4) { _fun0007_ip = 20; continue _fun0007 }
 case 21:
-                        if(var1) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
-                        var1 = var2;
+                        var1 = !var3;
+case 20:
+                        if(var1) { _fun0007_ip = 22; continue _fun0007 }
 case 23:
-                        if(var1) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+                        var1 = var2;
+case 22:
+                        if(var1) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                         var2 = global;
                         var3 = var2.Date;
                         var2 = var3.now;
@@ -388,9 +377,9 @@ case 26:
                         var3 = var3 - var2;
                         var2 = _closure1_slot13;
                         var1 = var3 <= var2;
-case 25:
-                        if(var1) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+case 24:
+                        if(var1) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
                         var3 = _closure3_slot0;
                         var1 = global;
                         var2 = var1.Date;
@@ -400,7 +389,7 @@ case 28:
                         var2 = var3._fetch;
                         var1 = 'user_settings';
                         var1 = var2.bind(var3)(var1);
-case 27:
+case 26:
                         var1 = undefined;
                         return var1;
                     }
@@ -465,14 +454,14 @@ case 0:
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.getIsEligibleForQuests;
                 var2 = var2.bind(var3)();
-                if(!var2) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
+                if(!var2) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
                 var3 = _closure1_slot8;
                 var3 = var3.isFetchingCurrentQuests;
                 var2 = !var3;
-case 29:
-                if(!var2) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
+case 28:
+                if(!var2) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 10;
@@ -485,8 +474,8 @@ case 32:
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isMac;
                 var3 = var3.bind(var5)();
-                if(!var3) { _fun0008_ip = 33; continue _fun0008 }
-case 34:
+                if(!var3) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 12;
@@ -496,9 +485,9 @@ case 34:
                 var6 = var5.bind(var6)();
                 var5 = 'focused';
                 var3 = var5 !== var6;
-case 33:
-                if(var3) { _fun0008_ip = 35; continue _fun0008 }
-case 36:
+case 32:
+                if(var3) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 13;
@@ -510,9 +499,9 @@ case 36:
                 var5['location'] = var8;
                 var5 = var6.bind(var7)(var5);
                 var3 = var5.enableNewRequestBehavior;
-case 35:
-                if(var3) { _fun0008_ip = 31; continue _fun0008 }
-case 37:
+case 34:
+                if(var3) { _fun0008_ip = 30; continue _fun0008 }
+case 36:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = var6[var2];
@@ -525,7 +514,7 @@ case 37:
                 var3 = var2.MOBILE_HOME_DOCK_AREA;
                 var2 = arg1;
                 var2 = var4.bind(var5)(var3, var2);
-case 31:
+case 30:
                 return var1;
             }
         };

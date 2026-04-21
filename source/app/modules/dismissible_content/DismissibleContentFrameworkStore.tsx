@@ -611,54 +611,38 @@ case 37:
     };
     var2['DCF_HANDLE_DC_SHOWN'] = var9;
     var9 = function handleDCDismissed(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-            var1 = arg1;
-            var3 = var1.dismissibleContent;
-            var6 = var1.guildId;
-            var4 = _closure1_slot9;
-            var2 = {};
-            var2['content'] = var3;
-            var5 = null;
-            var7 = var5 != var6;
-            if(!var7) { _fun0007_ip = 53; continue _fun0007 }
-case 54:
-            var5 = var6;
-case 53:
-            var2['guildId'] = var5;
-            var4['lastDismissed'] = var2;
-            var1 = _closure1_slot9;
-            var2 = var1.renderedAtTimestamps;
-            var1 = var2.delete;
-            var1 = var1.bind(var2)(var3);
-            var1 = undefined;
-            return var1;
-        }
+        var1 = arg1;
+        var3 = var1.dismissibleContent;
+        var5 = var1.guildId;
+        var4 = _closure1_slot9;
+        var2 = {};
+        var2['content'] = var3;
+        var2['guildId'] = var5;
+        var4['lastDismissed'] = var2;
+        var1 = _closure1_slot9;
+        var2 = var1.renderedAtTimestamps;
+        var1 = var2.delete;
+        var1 = var1.bind(var2)(var3);
+        var1 = undefined;
+        return var1;
     };
     var2['DCF_HANDLE_DC_DISMISSED'] = var9;
     var9 = function handleResetLastDCDismissed(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
-            var6 = var1.dismissibleContent;
-            var5 = var1.guildId;
+            var5 = var1.dismissibleContent;
+            var4 = var1.guildId;
             var2 = _closure1_slot9;
-            var4 = null;
-            var3 = var4 != var6;
             var1 = null;
-            if(!var3) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
+            var3 = var1 != var5;
+            if(!var3) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
             var3 = {};
-            var3['content'] = var6;
-            var6 = var4 != var5;
-            var4 = null;
-            if(!var6) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
-            var4 = var5;
-case 57:
+            var3['content'] = var5;
             var3['guildId'] = var4;
             var1 = var3;
-case 55:
+case 53:
             var2['lastDismissed'] = var1;
             var1 = undefined;
             return var1;

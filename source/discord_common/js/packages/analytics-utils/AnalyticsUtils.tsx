@@ -110,8 +110,10 @@ case 2:
     var3['isThrottled'] = var4;
     var2 = function(arg1) {
         var2 = arg1;
-        var3 = var2.analyticEventConfigs;
+        var3 = var2.addBreadcrumb;
         var _closure2_slot0 = var3;
+        var3 = var2.analyticEventConfigs;
+        var _closure2_slot1 = var3;
         var5 = var2.dispatcher;
         var4 = var2.TRACK_ACTION_NAME;
         var6 = _closure1_slot1;
@@ -122,7 +124,7 @@ case 2:
         var3 = var6.bind(var2)(var3);
         var2 = var3.queueTrackingEventMaker;
         var2 = var2.bind(var3)(var5, var4);
-        var _closure2_slot1 = var2;
+        var _closure2_slot2 = var2;
         var1 = function track(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -135,37 +137,37 @@ case 5:
                 var4 = {};
 case 4:
                 var1 = _closure1_slot0;
-                var2 = var1.isServerRendering;
-                var1 = null;
-                if(!(var1 != var2)) { _fun0002_ip = 6; continue _fun0002 }
+                var1 = var1.isServerRendering;
+                var8 = null;
+                if(!(var8 != var1)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                var2 = _closure1_slot0;
-                var7 = var2.isServerRendering;
-                var2 = true;
-                if(!(var2 !== var7)) { _fun0002_ip = 8; continue _fun0002 }
+                var1 = _closure1_slot0;
+                var2 = var1.isServerRendering;
+                var1 = true;
+                if(!(var1 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
 case 6:
-                var11 = var5;
-                if(!(var1 == var11)) { _fun0002_ip = 9; continue _fun0002 }
+                var12 = var5;
+                if(!(var8 == var12)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                var11 = {};
+                var12 = {};
 case 9:
-                var7 = _closure2_slot0;
-                var9 = var7[var6];
-                var12 = 'function';
-                var10 = typeof var9;
-                var7 = var9;
-                if(!(var12 === var10)) { _fun0002_ip = 11; continue _fun0002 }
+                var1 = _closure2_slot1;
+                var1 = var1[var6];
+                var11 = 'function';
+                var10 = typeof var1;
+                var7 = var1;
+                if(!(var11 === var10)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                var10 = var9.bind(var3)(var11);
-                var12 = var1 != var10;
-                var9 = null;
-                if(!var12) { _fun0002_ip = 13; continue _fun0002 }
+                var10 = var1.bind(var3)(var12);
+                var11 = var8 != var10;
+                var1 = null;
+                if(!var11) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-                var9 = var10;
+                var1 = var10;
 case 13:
-                var7 = var9;
+                var7 = var1;
 case 11:
-                if(!(var1 != var7)) { _fun0002_ip = 15; continue _fun0002 }
+                if(!(var8 != var7)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
                 var1 = 'throttlePeriod';
                 var1 = var1 in var7;
@@ -175,84 +177,90 @@ case 18:
                 var1 = var1 in var7;
                 if(var1) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
-                var9 = _closure1_slot2;
-                var10 = _closure1_slot3;
+                var10 = _closure1_slot2;
+                var11 = _closure1_slot3;
                 var1 = 4;
-                var1 = var10[var1];
-                var10 = var9.bind(var3)(var1);
+                var1 = var11[var1];
+                var11 = var10.bind(var3)(var1);
                 var1 = global;
                 var1 = var1.HermesInternal;
-                var9 = var1.concat;
+                var10 = var1.concat;
                 var1 = 'Unsupported analytics event config: ';
-                var9 = var9.bind(var1)(var7);
+                var10 = var10.bind(var1)(var7);
                 var1 = false;
-                var1 = var10.bind(var3)(var1, var9);
+                var1 = var11.bind(var3)(var1, var10);
                 _fun0002_ip = 15; continue _fun0002;
 case 19:
                 var1 = global;
-                var10 = var1.Math;
-                var9 = var10.random;
-                var10 = var9.bind(var10)();
-                var9 = var7.throttlePercent;
-                if(!(var10 > var9)) { _fun0002_ip = 15; continue _fun0002 }
+                var11 = var1.Math;
+                var10 = var11.random;
+                var11 = var10.bind(var11)();
+                var10 = var7.throttlePercent;
+                if(!(var11 > var10)) { _fun0002_ip = 15; continue _fun0002 }
 case 21:
-                var9 = var1.Promise;
-                var1 = var9.resolve;
-                var1 = var1.bind(var9)();
+                var10 = var1.Promise;
+                var1 = var10.resolve;
+                var1 = var1.bind(var10)();
                 return var1;
 case 17:
-                var10 = new Array(1);
-                var10[0] = var6;
+                var11 = new Array(1);
+                var11[0] = var6;
                 var1 = var7.throttleKeys;
-                var16 = var1.bind(var7)(var11);
-                var15 = 1;
-                var17 = var10;
-                var1 = arraySpread(var17, var16, var15);
-                var9 = var10.join;
+                var17 = var1.bind(var7)(var12);
+                var16 = 1;
+                var18 = var11;
+                var1 = arraySpread(var18, var17, var16);
+                var10 = var11.join;
                 var1 = '_';
-                var9 = var9.bind(var10)(var1);
+                var10 = var10.bind(var11)(var1);
                 var1 = _closure1_slot6;
-                var1 = var1.bind(var3)(var9);
+                var1 = var1.bind(var3)(var10);
                 if(var1) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
                 var1 = var7.throttlePercent;
-                var10 = 'number';
+                var11 = 'number';
                 var1 = typeof var1;
-                if(!(var10 === var1)) { _fun0002_ip = 24; continue _fun0002 }
+                if(!(var11 === var1)) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
                 var1 = global;
-                var12 = var1.Math;
-                var10 = var12.random;
-                var12 = var10.bind(var12)();
-                var10 = var7.throttlePercent;
-                if(!(!(var12 > var10))) { _fun0002_ip = 26; continue _fun0002 }
+                var13 = var1.Math;
+                var11 = var13.random;
+                var13 = var11.bind(var13)();
+                var11 = var7.throttlePercent;
+                if(!(!(var13 > var11))) { _fun0002_ip = 26; continue _fun0002 }
 case 24:
-                var10 = var7.deduplicate;
-                if(!var10) { _fun0002_ip = 27; continue _fun0002 }
+                var11 = var7.deduplicate;
+                if(!var11) { _fun0002_ip = 27; continue _fun0002 }
 case 28:
-                var10 = _closure1_slot5;
-                var12 = var10[var9];
-                var13 = _closure1_slot2;
-                var14 = _closure1_slot3;
-                var10 = 3;
-                var10 = var14[var10];
-                var10 = var13.bind(var3)(var10);
-                var10 = var10.bind(var3)(var12, var11);
-                if(var10) { _fun0002_ip = 29; continue _fun0002 }
+                var11 = _closure1_slot5;
+                var13 = var11[var10];
+                var14 = _closure1_slot2;
+                var15 = _closure1_slot3;
+                var11 = 3;
+                var11 = var15[var11];
+                var11 = var14.bind(var3)(var11);
+                var11 = var11.bind(var3)(var13, var12);
+                if(var11) { _fun0002_ip = 29; continue _fun0002 }
 case 30:
-                var10 = _closure1_slot5;
-                var10[var9] = var11;
+                var11 = _closure1_slot5;
+                var11[var10] = var12;
 case 27:
-                var8 = _closure1_slot4;
-                var10 = global;
-                var11 = var10.Date;
-                var10 = var11.now;
-                var10 = var10.bind(var11)();
+                var9 = _closure1_slot4;
+                var11 = global;
+                var12 = var11.Date;
+                var11 = var12.now;
+                var11 = var11.bind(var12)();
                 var7 = var7.throttlePeriod;
-                var7 = var10 + var7;
-                var8[var9] = var7;
+                var7 = var11 + var7;
+                var9[var10] = var7;
 case 15:
-                var2 = _closure2_slot1;
+                var7 = _closure2_slot0;
+                if(!(var8 != var7)) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
+                var7 = _closure2_slot0;
+                var7 = var7.bind(var3)(var6);
+case 31:
+                var2 = _closure2_slot2;
                 var2 = var2.bind(var3)(var6, var5, var4);
                 return var2;
 case 29:

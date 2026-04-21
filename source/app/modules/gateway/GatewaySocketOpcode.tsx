@@ -114,10 +114,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SEARCH_RECENT_MEMBERS'] = var5;
     var1 = 'SEARCH_RECENT_MEMBERS';
     var2[var5] = var1;
-    var5 = 36;
-    var2['REQUEST_CHANNEL_STATUSES'] = var5;
-    var1 = 'REQUEST_CHANNEL_STATUSES';
-    var2[var5] = var1;
     var5 = 37;
     var2['GUILD_SUBSCRIPTIONS_BULK'] = var5;
     var1 = 'GUILD_SUBSCRIPTIONS_BULK';

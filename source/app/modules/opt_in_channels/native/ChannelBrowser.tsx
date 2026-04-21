@@ -678,6 +678,7 @@ case 33:
             var18 = var18.id;
             var19['channelId'] = var18;
             var18 = true;
+            var19['shouldCloseModal'] = var18;
             var18 = var20.bind(var21)(var22, var18, var19);
             var15['children'] = var18;
             var14 = var17.bind(var5)(var16, var15);

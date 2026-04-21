@@ -75,6 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var14.BACKGROUND_BRAND;
     var11['borderColor'] = var14;
     var7['selected'] = var11;
+    var11 = {};
+    var14 = 0.4;
+    var11['opacity'] = var14;
+    var7['claimed'] = var11;
     var11 = {'position': 'absolute', 'opacity': 1, 'fontWeight': 'bold'};
     var7['checkmark'] = var11;
     var11 = {'position': 'absolute', 'top': 10, 'zIndex': 3, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'width': '100%', 'height': '75%'};
@@ -183,17 +187,25 @@ case 6:
             var8 = _closure1_slot7;
             var7 = _closure1_slot4;
             var6 = {};
-            var9 = var10.overlayContainer;
+            var11 = var10.overlayContainer;
+            var9 = new Array(2);
+            var9[0] = var11;
+            var11 = var14;
+            if(!var14) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var11 = var10.claimed;
+case 8:
+            var9[1] = var11;
             var6['style'] = var9;
             var9 = _closure1_slot6;
             var9 = var9.bind(var5)(var17);
-            if(var9) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = _closure1_slot5;
             var11 = var9.bind(var5)(var17);
             var9 = undefined;
-            if(!var11) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var11) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var13 = _closure1_slot7;
             var12 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -207,9 +219,9 @@ case 11:
             var11['animate'] = var16;
             var11['avatarSource'] = var19;
             var9 = var13.bind(var5)(var12, var11);
+case 12:
+            _fun0001_ip = 14; continue _fun0001;
 case 10:
-            _fun0001_ip = 12; continue _fun0001;
-case 8:
             var13 = _closure1_slot7;
             var12 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -218,17 +230,16 @@ case 8:
             var12 = var12.bind(var5)(var11);
             var11 = {};
             var11['item'] = var17;
-            var11['isPurchased'] = var14;
             var11['animate'] = var16;
             var9 = var13.bind(var5)(var12, var11);
-case 12:
+case 14:
             var6['children'] = var9;
             var7 = var8.bind(var5)(var7, var6);
             var6 = new Array(3);
             var6[0] = var7;
             var7 = var14;
-            if(!var7) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!var7) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var11 = _closure1_slot7;
             var9 = _closure1_slot4;
             var8 = {};
@@ -248,7 +259,7 @@ case 14:
             var12 = var11.bind(var5)(var13, var12);
             var8['children'] = var12;
             var7 = var11.bind(var5)(var9, var8);
-case 13:
+case 15:
             var6[1] = var7;
             var9 = _closure1_slot8;
             var8 = _closure1_slot4;
@@ -282,15 +293,15 @@ case 13:
             var15 = var19[var15];
             var15 = var18.bind(var5)(var15);
             var15 = var15.t;
-            if(var14) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(var14) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var14 = var15.QQsaCc;
             var14 = var16.bind(var17)(var14);
-            _fun0001_ip = 17; continue _fun0001;
-case 15:
+            _fun0001_ip = 19; continue _fun0001;
+case 17:
             var15 = var15["6cfuDj"];
             var14 = var16.bind(var17)(var15);
-case 17:
+case 19:
             var11['children'] = var14;
             var11 = var13.bind(var5)(var12, var11);
             var10[1] = var11;

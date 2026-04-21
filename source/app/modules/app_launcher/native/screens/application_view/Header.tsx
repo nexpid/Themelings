@@ -80,8 +80,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var16 + var17;
     var11['borderRadius'] = var16;
     var6['appIconMask'] = var11;
-    var11 = {'height': 56, 'justifyContent': 'space-between', 'alignItems': 'center', 'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'flexDirection': 'row'};
-    var11['padding'] = var15;
+    var11 = {'height': 56, 'justifyContent': 'space-between', 'alignItems': 'center', 'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'flexDirection': 'row', 'paddingHorizontal': null, 'paddingTop': 16};
+    var11['paddingHorizontal'] = var15;
+    var15 = var8[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_12;
+    var11['paddingBottom'] = var15;
     var6['collapsedHeaderBanner'] = var11;
     var11 = {'backgroundColor': 'black', 'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
     var6['collapsedHeaderBannerOverlay'] = var11;
@@ -727,6 +732,8 @@ case 24:
             var17 = var17.XWDihq;
             var17 = var18.bind(var19)(var17);
             var10['accessibilityLabel'] = var17;
+            var17 = 1.5;
+            var10['maxFontSizeMultiplier'] = var17;
             var11 = var13.bind(var4)(var11, var10);
             var10 = new Array(2);
             var10[0] = var11;

@@ -537,16 +537,10 @@ case 56:
     var2['CHANNEL_INFO'] = var9;
     var4 = function handleFetchChannelInfo(arg1) {
         var1 = arg1;
-        var4 = var1.guildId;
-        var3 = _closure1_slot9;
-        var2 = var3.add;
-        var2 = var2.bind(var3)(var4);
-        var2 = _closure1_slot8;
-        var1 = var2.getSocket;
-        var3 = var1.bind(var2)();
-        var2 = var3.requestChannelInfo;
-        var1 = ['status', 'voice_start_time'];
-        var1 = var2.bind(var3)(var4, var1);
+        var3 = var1.guildId;
+        var2 = _closure1_slot9;
+        var1 = var2.add;
+        var1 = var1.bind(var2)(var3);
         var1 = undefined;
         return var1;
     };

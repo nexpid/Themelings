@@ -185,51 +185,6 @@ case 33:
             _fun0001_ip = 32; continue _fun0001;
         }
 case 34:
-        var3 = 12;
-        var2 = var8[var3];
-        var6 = var10.bind(var1)(var2);
-        for(var2 in var6)
-case 35:
-        {
-case 36:
-            var12 = var2;
-            var11 = var8[var3];
-            var11 = var10.bind(var1)(var11);
-            var11 = var11[var12];
-            var9[var12] = var11;
-            _fun0001_ip = 35; continue _fun0001;
-        }
-case 37:
-        var3 = 13;
-        var2 = var8[var3];
-        var6 = var10.bind(var1)(var2);
-        for(var2 in var6)
-case 38:
-        {
-case 39:
-            var12 = var2;
-            var11 = var8[var3];
-            var11 = var10.bind(var1)(var11);
-            var11 = var11[var12];
-            var9[var12] = var11;
-            _fun0001_ip = 38; continue _fun0001;
-        }
-case 40:
-        var3 = 14;
-        var2 = var8[var3];
-        var6 = var10.bind(var1)(var2);
-        for(var2 in var6)
-case 41:
-        {
-case 42:
-            var12 = var2;
-            var11 = var8[var3];
-            var11 = var10.bind(var1)(var11);
-            var11 = var11[var12];
-            var9[var12] = var11;
-            _fun0001_ip = 41; continue _fun0001;
-        }
-case 43:
         return var1;
     }
 })();
