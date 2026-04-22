@@ -431,6 +431,15 @@
       }
     ]
   },
+  "CARD_BORDER_DEFAULT": {
+    "14": [
+      "#6c6f7c1f",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
+  },
   "CARD_GRADIENT_BG": {
     "14": [
       "#00000066",

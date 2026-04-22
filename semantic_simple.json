@@ -143,6 +143,9 @@
   "CARD_BACKGROUND_DEFAULT": {
     "14": "#26272f"
   },
+  "CARD_BORDER_DEFAULT": {
+    "14": "#6c6f7c1f"
+  },
   "CARD_GRADIENT_BG": {
     "14": "#00000066"
   },
