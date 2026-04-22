@@ -94,7 +94,7 @@ case 4:
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.Routes;
+    var4 = var4.ME;
     var _closure1_slot12 = var4;
     var4 = 9;
     var4 = var6[var4];
@@ -323,14 +323,10 @@ case 20:
                         var1 = 18;
                         var3 = var4[var1];
                         var1 = undefined;
-                        var7 = var5.bind(var1)(var3);
-                        var6 = var7.transitionTo;
+                        var6 = var5.bind(var1)(var3);
+                        var5 = var6.transitionToGuild;
                         var3 = _closure1_slot12;
-                        var5 = var3.ME;
-                        var3 = {};
-                        var8 = true;
-                        var3['navigationReplace'] = var8;
-                        var3 = var6.bind(var7)(var5, var3);
+                        var3 = var5.bind(var6)(var3);
                         var3 = _closure1_slot1;
                         var2 = 19;
                         var2 = var4[var2];
@@ -357,35 +353,31 @@ case 0:
 case 23:
                         var1 = _closure1_slot15;
                         var1 = var1.LOGIN;
-                        if(!(var1 !== var3)) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+                        if(!(var1 !== var3)) { _fun0006_ip = 5; continue _fun0006 }
+case 24:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var1 = 18;
                         var3 = var3[var1];
                         var1 = undefined;
-                        var5 = var4.bind(var1)(var3);
-                        var4 = var5.transitionTo;
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.transitionToGuild;
                         var1 = _closure1_slot12;
-                        var3 = var1.ME;
-                        var1 = {};
-                        var6 = true;
-                        var1['navigationReplace'] = var6;
-                        var1 = var4.bind(var5)(var3, var1);
-                        _fun0006_ip = 26; continue _fun0006;
-case 24:
+                        var1 = var3.bind(var4)(var1);
+                        _fun0006_ip = 25; continue _fun0006;
+case 5:
                         var3 = _closure3_slot0;
                         var1 = var3.handleLoginWithConnection;
                         var1 = var1.bind(var3)();
                         var1 = _closure1_slot9;
                         var4 = var1.DCDSKAdNetworkManager;
                         var1 = null;
-                        if(!(var1 != var4)) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+                        if(!(var1 != var4)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
                         var3 = var4.updateConversionValue;
                         var1 = 10;
                         var1 = var3.bind(var4)(var1);
-                        _fun0006_ip = 26; continue _fun0006;
+                        _fun0006_ip = 25; continue _fun0006;
 case 22:
                         var3 = _closure3_slot0;
                         var1 = var3.handleRegisterWithConnection;
@@ -393,12 +385,12 @@ case 22:
                         var1 = _closure1_slot9;
                         var4 = var1.DCDSKAdNetworkManager;
                         var1 = null;
-                        if(!(var1 != var4)) { _fun0006_ip = 26; continue _fun0006 }
-case 28:
+                        if(!(var1 != var4)) { _fun0006_ip = 25; continue _fun0006 }
+case 19:
                         var3 = var4.updateConversionValue;
                         var1 = 1;
                         var1 = var3.bind(var4)(var1);
-case 26:
+case 25:
                         var1 = null;
                         _closure1_slot16 = var1;
                         var1 = undefined;
@@ -420,11 +412,11 @@ case 0:
                         var2 = _closure1_slot9;
                         var3 = var2.DCDShortcutManager;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+                        if(!(var2 != var3)) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                         var2 = var3.handleLogout;
                         var2 = var2.bind(var3)();
-case 29:
+case 27:
                         return var1;
                     }
                 };

@@ -119,6 +119,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2;
     var4 = copyDataProperties(var10, var9);
     var4 = 21;
+    var4 = var5[var4];
+    var9 = var6.bind(var1)(var4);
+    var10 = var2;
+    var4 = copyDataProperties(var10, var9);
+    var4 = 22;
     var5 = var5[var4];
     var4 = require;
     var6 = var4.bind(var1)(var5);

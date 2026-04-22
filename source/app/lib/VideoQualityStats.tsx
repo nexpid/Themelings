@@ -253,6 +253,8 @@ case 28:
     var11['NVIDIA_CUDA'] = var9;
     var9 = 'nvidia_direct_3d';
     var11['NVIDIA_DIRECT_3D'] = var9;
+    var9 = 'nvidia_vulkan';
+    var11['NVIDIA_VULKAN'] = var9;
     var9 = 'openh264';
     var11['OPENH264'] = var9;
     var22 = 'videotoolbox';
@@ -265,6 +267,8 @@ case 28:
     var11['INTEL'] = var9;
     var9 = 'intel_direct_3d';
     var11['INTEL_DIRECT_3D'] = var9;
+    var9 = 'intel_vaapi';
+    var11['INTEL_VAAPI'] = var9;
     var21 = 'vp8_libvpx';
     var11['VP8_LIBVPX'] = var21;
     var20 = 'exynos';
@@ -314,12 +318,16 @@ case 28:
     var9['nvidia: cuda'] = var19;
     var19 = var11.NVIDIA_DIRECT_3D;
     var9['nvidia: direct3d'] = var19;
+    var19 = var11.NVIDIA_VULKAN;
+    var9['nvidia: vulkan'] = var19;
     var19 = var11.AMD_DIRECT_3D;
     var9['amd: direct3d'] = var19;
     var19 = var11.AMD_VAAPI;
     var9['amd: vaapi'] = var19;
     var19 = var11.INTEL_DIRECT_3D;
     var9['intel: direct3d'] = var19;
+    var19 = var11.INTEL_VAAPI;
+    var9['intel: vaapi'] = var19;
     var19 = var11.INTEL;
     var9['intel'] = var19;
     var19 = var11.VIDEOTOOLBOX;

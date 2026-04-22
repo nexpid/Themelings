@@ -386,8 +386,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFT_INVENTORY_CATEGORY'] = var1;
     var1 = 'gift_code_redemption_setting';
     var2['GIFT_CODE_REDEMPTION_SETTING'] = var1;
-    var1 = 'gift_quest_notices_setting';
-    var2['GIFT_QUEST_NOTICES_SETTING'] = var1;
     var1 = 'gift_inventory_list_setting';
     var2['GIFT_INVENTORY_LIST_SETTING'] = var1;
     var1 = 'gift_blocked_payments_setting';

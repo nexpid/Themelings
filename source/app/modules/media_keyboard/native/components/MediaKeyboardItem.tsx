@@ -812,12 +812,12 @@ case 56:
     var15 = var10[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.REDESIGN_BUTTON_TERTIARY_BACKGROUND;
+    var15 = var15.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
     var7['backgroundColor'] = var15;
     var13 = var10[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.REDESIGN_BUTTON_TERTIARY_PRESSED_BACKGROUND;
+    var13 = var13.CONTROL_SECONDARY_BACKGROUND_ACTIVE;
     var7['pressedBackgroundColor'] = var13;
     var7 = var8.bind(var12)(var7);
     var _closure1_slot16 = var7;

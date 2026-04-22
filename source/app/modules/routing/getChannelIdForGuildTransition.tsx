@@ -33,10 +33,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ME;
+    var _closure1_slot7 = var4;
+    var4 = 6;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.StaticChannelRoute;
-    var _closure1_slot6 = var4;
-    var4 = 7;
+    var _closure1_slot8 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -60,59 +69,80 @@ case 0:
 case 3:
             var3 = var5.id;
 case 2:
-            var5 = _closure1_slot6;
-            var5 = var5.GUILD_ONBOARDING;
-            if(!(var1 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var2 == var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var6 = _closure1_slot7;
+            var5 = undefined;
+            if(!(var7 === var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var9 = _closure1_slot6;
+            var6 = var9.getPrivateChannelIds;
+            var10 = var6.bind(var9)();
+            var6 = var10.length;
+            var9 = 0;
+            var11 = var6 > var9;
+            var6 = undefined;
+            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var6 = var10[var9];
+case 8:
+            var5 = var6;
+case 6:
+            var3 = var5;
+case 4:
+            var5 = _closure1_slot8;
+            var5 = var5.GUILD_ONBOARDING;
+            if(!(var1 === var5)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var6 = _closure1_slot2;
             var5 = var6.shouldShowOnboarding;
             var5 = var5.bind(var6)(var7);
-            if(var5) { _fun0001_ip = 4; continue _fun0001 }
-case 6:
+            if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
             return var3;
-case 4:
-            var5 = _closure1_slot6;
+case 10:
+            var5 = _closure1_slot8;
             var5 = var5.GUILD_HOME;
-            if(!(var1 === var5)) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(!(var1 === var5)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var5 = 5;
+            var5 = 7;
             var5 = var9[var5];
             var6 = var6.bind(var8)(var5);
             var5 = var6.canSeeOnboardingHome;
             var5 = var5.bind(var6)(var7);
-            if(var5) { _fun0001_ip = 7; continue _fun0001 }
-case 9:
+            if(var5) { _fun0001_ip = 13; continue _fun0001 }
+case 15:
             return var3;
-case 7:
-            var5 = _closure1_slot6;
+case 13:
+            var5 = _closure1_slot8;
             var5 = var5.GAME_SHOP;
-            if(!(var1 === var5)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!(var1 === var5)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var5 = 6;
+            var5 = 8;
             var5 = var9[var5];
             var6 = var6.bind(var8)(var5);
             var5 = var6.canSeeGameShop;
             var5 = var5.bind(var6)(var7);
-            if(var5) { _fun0001_ip = 12; continue _fun0001 }
-case 10:
+            if(var5) { _fun0001_ip = 18; continue _fun0001 }
+case 16:
             var5 = _closure1_slot3;
             var4 = var5.getChannel;
             var4 = var4.bind(var5)(var1);
-            if(!(var2 != var4)) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!(var2 != var4)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var2 = var4.isGuildVocal;
             var4 = var2.bind(var4)();
             var2 = var1;
-            if(!var4) { _fun0001_ip = 15; continue _fun0001 }
-case 13:
+            if(!var4) { _fun0001_ip = 21; continue _fun0001 }
+case 19:
             var2 = var3;
-case 15:
+case 21:
             return var2;
-case 12:
+case 18:
             return var1;
         }
     };

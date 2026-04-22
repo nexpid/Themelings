@@ -24,10 +24,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var4];
     var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
-    var4 = 2;
-    var4 = var6[var4];
+    var9 = 2;
+    var4 = var6[var9];
     var4 = var5.bind(var1)(var4);
-    var13 = var4.StyleSheet;
+    var14 = var4.StyleSheet;
     var4 = var4.View;
     var _closure1_slot4 = var4;
     var4 = 3;
@@ -44,46 +44,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.COLLECTIBLES_SHOP_CARD_HEIGHT;
+    var11 = 6;
+    var4 = var6[var11];
+    var4 = var12.bind(var1)(var4);
+    var4 = var4.spacing;
+    var4 = var4.PX_16;
+    var4 = var9 * var4;
+    var13 = var8 - var4;
+    var _closure1_slot8 = var13;
+    var4 = 7;
+    var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
     var10 = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden', 'height': '100%', 'width': '100%'};
-    var15 = 'center';
-    var14 = '100%';
-    var11 = 6;
-    var16 = var6[var11];
-    var16 = var12.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.sm;
-    var10['borderRadius'] = var16;
+    var16 = 'center';
+    var15 = '100%';
+    var17 = var6[var11];
+    var17 = var12.bind(var1)(var17);
+    var17 = var17.radii;
+    var17 = var17.sm;
+    var10['borderRadius'] = var17;
     var4['assetContainer'] = var10;
     var10 = {};
-    var18 = var13.absoluteFillObject;
-    var19 = var10;
-    var13 = copyDataProperties(var19, var18);
-    var13 = 'justifyContent';
-    var10[12] = var15;
-    var13 = 'alignItems';
-    var10[12] = var15;
-    var13 = 'width';
-    var10[12] = var14;
-    var14 = '75%';
-    var13 = 'height';
-    var10[12] = var14;
+    var19 = var14.absoluteFillObject;
+    var20 = var10;
+    var14 = copyDataProperties(var20, var19);
+    var14 = 'justifyContent';
+    var10[13] = var16;
+    var14 = 'alignItems';
+    var10[13] = var16;
+    var14 = 'width';
+    var10[13] = var15;
+    var15 = '75%';
+    var14 = 'height';
+    var10[13] = var15;
     var4['overlayContainer'] = var10;
     var10 = {'width': '100%', 'height': '100%'};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOW;
-    var10['backgroundColor'] = var13;
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var14;
     var4['profileEffectContainer'] = var10;
-    var10 = {'width': '100%', 'height': '100%', 'alignItems': 'center'};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_16;
-    var10['paddingVertical'] = var13;
+    var10 = {'width': '100%', 'height': null, 'alignItems': 'center'};
+    var10['height'] = var13;
     var4['profileFrameContainer'] = var10;
     var10 = {'width': 80, 'height': 80, 'resizeMode': 'contain'};
     var4['externalProductImage'] = var10;
@@ -99,9 +106,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['color'] = var11;
     var4['overlayIcon'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = function PurchasedAssetOverlay() {
-        var1 = _closure1_slot8;
+        var1 = _closure1_slot9;
         var4 = undefined;
         var7 = var1.bind(var4)();
         var3 = _closure1_slot6;
@@ -111,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['style'] = var6;
         var6 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var5 = 7;
+        var5 = 8;
         var5 = var8[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.CheckmarkLargeBoldIcon;
@@ -125,9 +132,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = function DisabledAssetOverlay() {
-        var1 = _closure1_slot8;
+        var1 = _closure1_slot9;
         var4 = undefined;
         var7 = var1.bind(var4)();
         var3 = _closure1_slot6;
@@ -137,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['style'] = var6;
         var6 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var5 = 8;
+        var5 = 9;
         var5 = var8[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.LockIcon;
@@ -151,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = function ProductPreview(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -159,13 +166,13 @@ case 0:
             var8 = var1.product;
             var7 = var1.isPurchased;
             var11 = var1.isDisabled;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var4 = undefined;
             var10 = var1.bind(var4)();
             var2 = var8.type;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var6 = 9;
+            var6 = 10;
             var1 = var1[var6];
             var1 = var3.bind(var4)(var1);
             var1 = var1.CollectiblesItemType;
@@ -213,7 +220,7 @@ case 8:
             var6[2] = var7;
             var1['style'] = var6;
             var7 = _closure1_slot6;
-            var6 = _closure1_slot12;
+            var6 = _closure1_slot13;
             var5 = {};
             var5['product'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -222,18 +229,18 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = function ProductPreviewInner(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.product;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var4 = undefined;
             var9 = var3.bind(var4)();
             var10 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var5 = 10;
+            var5 = 11;
             var5 = var3[var5];
             var6 = var10.bind(var4)(var5);
             var5 = var6.useShopProductItems;
@@ -242,7 +249,7 @@ case 0:
             var7 = var5.firstAvatarDecoration;
             var5 = var5.firstNameplate;
             var8 = var2.type;
-            var12 = 9;
+            var12 = 10;
             var3 = var3[var12];
             var3 = var10.bind(var4)(var3);
             var3 = var3.CollectiblesItemType;
@@ -251,7 +258,7 @@ case 0:
 case 11:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 11;
+            var3 = 12;
             var3 = var10[var3];
             var8 = var8.bind(var4)(var3);
             var3 = var8.isValidCollectiblesBundle;
@@ -333,13 +340,13 @@ case 22:
             var2['style'] = var11;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var11 = 18;
+            var11 = 19;
             var11 = var16[var11];
             var12 = var15.bind(var4)(var11);
             var11 = {};
             var11['profileFrame'] = var10;
             var14 = _closure1_slot0;
-            var13 = 19;
+            var13 = 5;
             var13 = var16[var13];
             var13 = var14.bind(var4)(var13);
             var14 = var13.COLLECTIBLES_SHOP_CARD_WIDTH;
@@ -350,6 +357,8 @@ case 22:
             var13 = var13.PX_32;
             var13 = var14 - var13;
             var11['previewWidth'] = var13;
+            var13 = _closure1_slot8;
+            var11['previewHeight'] = var13;
             var11 = var8.bind(var4)(var12, var11);
             var2['children'] = var11;
             var2 = var8.bind(var4)(var3, var2);
@@ -362,7 +371,7 @@ case 20:
             var2['style'] = var11;
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var11 = 17;
+            var11 = 18;
             var11 = var13[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
@@ -377,7 +386,7 @@ case 18:
             var8 = _closure1_slot6;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 16;
+            var2 = 17;
             var2 = var11[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -390,12 +399,12 @@ case 14:
             var8 = _closure1_slot6;
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var2 = 13;
+            var2 = 14;
             var2 = var13[var2];
             var3 = var12.bind(var4)(var2);
             var2 = {};
             var10 = {};
-            var11 = 15;
+            var11 = 16;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var10['uri'] = var11;
@@ -408,12 +417,12 @@ case 13:
             var8 = _closure1_slot6;
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var2 = 13;
+            var2 = 14;
             var2 = var13[var2];
             var3 = var12.bind(var4)(var2);
             var2 = {};
             var10 = {};
-            var11 = 14;
+            var11 = 15;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var10['uri'] = var11;
@@ -426,7 +435,7 @@ case 12:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var1 = var8[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -439,7 +448,7 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = function AssetTileInternal(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -451,7 +460,7 @@ case 0:
 case 27:
             var11 = false;
 case 26:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var6 = var2.bind(var4)();
             var8 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -495,7 +504,7 @@ case 28:
             return var1;
         }
     };
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -519,11 +528,11 @@ case 0:
             var1 = var2.getSelectedProduct;
             var11 = var1.bind(var2)(var9, var3);
             var3 = _closure1_slot7;
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot14;
             var1 = {};
             var1['solidBackground'] = var5;
             var10 = _closure1_slot6;
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot12;
             var5 = {};
             var5['product'] = var11;
             var5['isPurchased'] = var8;
@@ -535,7 +544,7 @@ case 0:
             if(!var9) { _fun0004_ip = 5; continue _fun0004 }
 case 30:
             var12 = _closure1_slot6;
-            var11 = _closure1_slot9;
+            var11 = _closure1_slot10;
             var10 = {};
             var9 = var12.bind(var4)(var11, var10);
 case 5:
@@ -547,7 +556,7 @@ case 31:
             if(!var6) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
             var9 = _closure1_slot6;
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot11;
             var7 = {};
             var6 = var9.bind(var4)(var8, var7);
 case 33:

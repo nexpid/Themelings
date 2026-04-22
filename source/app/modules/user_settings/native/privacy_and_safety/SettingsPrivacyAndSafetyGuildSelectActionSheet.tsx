@@ -438,6 +438,8 @@ case 13:
                 return var1;
             };
             var1['itemAccessibilityLabel'] = var5;
+            var5 = false;
+            var1['allowEmpty'] = var5;
             var5 = true;
             var1['expanded'] = var5;
             var1 = var3.bind(var4)(var2, var1);

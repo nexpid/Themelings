@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['buttonContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 25;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -493,6 +493,11 @@ case 6:
                 var11 = _closure2_slot1;
                 var10 = var11.emptyContainer;
                 var6['containerStyle'] = var10;
+                var10 = 22;
+                var10 = var19[var10];
+                var10 = var18.bind(var1)(var10);
+                var10 = var10.WumpusCouchSpotIllustration;
+                var6['illustration'] = var10;
                 var10 = _closure1_slot4;
                 var9 = {};
                 var12 = var11.buttonContainer;
@@ -503,7 +508,7 @@ case 6:
                 var12['paddingBottom'] = var16;
                 var11[1] = var12;
                 var9['style'] = var11;
-                var11 = 22;
+                var11 = 23;
                 var11 = var19[var11];
                 var11 = var18.bind(var1)(var11);
                 var12 = var11.Button;
@@ -555,7 +560,7 @@ case 6:
         var1 = {};
         var1['value'] = var8;
         var8 = _closure1_slot7;
-        var5 = 23;
+        var5 = 24;
         var5 = var9[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};
@@ -571,7 +576,7 @@ case 6:
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;
-        var6 = 24;
+        var6 = 25;
         var6 = var9[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.TTIFirstContentfulPaint;

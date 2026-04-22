@@ -227,9 +227,20 @@ case 35:
         };
         var _closure2_slot0 = var3;
         var1 = {};
-        var2 = 'addSample';
+        var2 = 'getSamples';
         var1['key'] = var2;
-        var2 = function value(arg1) {
+        var2 = function value() {
+            var1 = this;
+            var1 = var1.samples;
+            return var1;
+        };
+        var1['value'] = var2;
+        var2 = new Array(5);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'addSample';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var7 = arg1;
@@ -267,22 +278,78 @@ case 36:
                 return var1;
             }
         };
-        var1['value'] = var2;
-        var2 = new Array(2);
-        var2[0] = var1;
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'addSamples';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var7 = arg1;
+                var6 = arguments[1];
+                var2 = this;
+                var1 = undefined;
+                if(!(var6 === var1)) { _fun0005_ip = 29; continue _fun0005 }
+case 38:
+                var6 = 1;
+case 29:
+                var _closure3_slot0 = var6;
+                var4 = var2.total;
+                var8 = var7.reduce;
+                var5 = function(arg1, arg2) {
+                    var2 = _closure3_slot0;
+                    var1 = arg2;
+                    var2 = var1 * var2;
+                    var1 = arg1;
+                    var1 = var1 + var2;
+                    return var1;
+                };
+                var3 = 0;
+                var3 = var8.bind(var7)(var5, var3);
+                var3 = var4 + var3;
+                var2['total'] = var3;
+                var4 = var2.totalWeight;
+                var3 = var7.length;
+                var3 = var6 * var3;
+                var3 = var4 + var3;
+                var2['totalWeight'] = var3;
+                var4 = var2.samples;
+                var3 = var7.length;
+                var3 = var4 + var3;
+                var2['samples'] = var3;
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var3 = 2;
+                var3 = var5[var3];
+                var3 = var4.bind(var1)(var3);
+                var3 = var3.TDigest;
+                var3 = var3.prototype;
+                var5 = var3.push;
+                var4 = var5.call;
+                var3 = var2.digest;
+                var3 = var4.bind(var5)(var3, var7, var6);
+                var3 = var2.digest;
+                var2 = var3.check_continuous;
+                var2 = var2.bind(var3)();
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[2] = var1;
         var1 = {};
         var6 = 'getReport';
         var1['key'] = var6;
-        var5 = function value() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        var6 = function value() {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var3 = arguments[0];
                 var2 = this;
                 var9 = undefined;
-                if(!(var3 === var9)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                if(!(var3 === var9)) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
                 var3 = [25, 50, 75, 90, 95];
-case 38:
+case 39:
                 var4 = {};
                 var1 = _closure1_slot4;
                 var8 = var1.bind(var9)(var3);
@@ -291,7 +358,7 @@ case 38:
                 var7 = 100;
                 var5 = null;
                 var3 = 0;
-                if(var1) { _fun0005_ip = 40; continue _fun0005 }
+                if(var1) { _fun0006_ip = 41; continue _fun0006 }
 case 4:
                 var10 = var6.value;
                 var12 = var2.digest;
@@ -300,26 +367,26 @@ case 4:
                 var11 = var11.bind(var12)(var1);
                 var12 = var5 != var11;
                 var1 = 0;
-                if(!var12) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                if(!var12) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
                 var1 = var11;
-case 41:
+case 42:
                 var4[var10] = var1;
                 var10 = var8.bind(var9)();
                 var1 = var10.done;
                 var6 = var10;
-                if(!var1) { _fun0005_ip = 4; continue _fun0005 }
-case 40:
+                if(!var1) { _fun0006_ip = 4; continue _fun0006 }
+case 41:
                 var1 = {};
                 var7 = var2.digest;
                 var6 = var7.percentile;
                 var7 = var6.bind(var7)(var3);
                 var8 = var5 != var7;
                 var6 = 0;
-                if(!var8) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                if(!var8) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
                 var6 = var7;
-case 43:
+case 44:
                 var1['min'] = var6;
                 var8 = var2.digest;
                 var7 = var8.percentile;
@@ -327,8 +394,8 @@ case 43:
                 var7 = var7.bind(var8)(var6);
                 var8 = var5 != var7;
                 var6 = 0;
-                if(!var8) { _fun0005_ip = 16; continue _fun0005 }
-case 45:
+                if(!var8) { _fun0006_ip = 16; continue _fun0006 }
+case 46:
                 var6 = var7;
 case 16:
                 var1['max'] = var6;
@@ -337,29 +404,54 @@ case 16:
                 var6 = var6.bind(var7)();
                 var7 = var5 != var6;
                 var5 = 0;
-                if(!var7) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+                if(!var7) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
                 var5 = var6;
-case 46:
+case 47:
                 var1['count'] = var5;
                 var1['percentiles'] = var4;
                 var4 = var2.totalWeight;
                 var4 = var4 > var3;
                 var3 = 0;
-                if(!var4) { _fun0005_ip = 48; continue _fun0005 }
+                if(!var4) { _fun0006_ip = 49; continue _fun0006 }
 case 21:
                 var5 = var2.total;
                 var4 = var2.totalWeight;
                 var3 = var5 / var4;
-case 48:
+case 49:
                 var1['mean'] = var3;
                 var2 = var2.samples;
                 var1['samples'] = var2;
                 return var1;
             }
         };
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'getPercentile';
+        var1['key'] = var6;
+        var5 = function value(arg1) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                var1 = this;
+                var3 = var1.digest;
+                var2 = var3.percentile;
+                var4 = arg1;
+                var1 = 100;
+                var1 = var4 / var1;
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var3 = var1 != var2;
+                var1 = 0;
+                if(!var3) { _fun0007_ip = 50; continue _fun0007 }
+case 51:
+                var1 = var2;
+case 50:
+                return var1;
+            }
+        };
         var1['value'] = var5;
-        var2[1] = var1;
+        var2[4] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

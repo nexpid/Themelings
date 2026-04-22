@@ -1,12 +1,12 @@
 // app/modules/parent_tools/FamilyCenterRestrictedHoursUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
+    var8 = require;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var8;
+    var _closure1_slot2 = var9;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -183,7 +183,7 @@ case 35:
         }
     };
     var _closure1_slot8 = var1;
-    var4 = function formatTime(arg1) {
+    var5 = function formatTime(arg1) {
         var1 = arg1;
         var4 = global;
         var2 = var4.Intl;
@@ -217,7 +217,7 @@ case 35:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot9 = var4;
+    var _closure1_slot9 = var5;
     var1 = function setsEqual(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -255,93 +255,125 @@ case 36:
         }
     };
     var _closure1_slot10 = var1;
-    var6 = global;
-    var10 = var6.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
+    var4 = function getScheduleRuleDateRange(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var2 = arg1;
+            var1 = var2.startTime;
+            var4 = null;
+            var3 = var4 != var1;
+            var6 = '';
+            var1 = var6;
+            if(!var3) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
+            var3 = var2.endTime;
+            var3 = var4 != var3;
+            var1 = var6;
+            if(!var3) { _fun0005_ip = 40; continue _fun0005 }
+case 42:
+            var4 = _closure1_slot9;
+            var5 = var2.startTime;
+            var3 = undefined;
+            var5 = var4.bind(var3)(var5);
+            var2 = var2.endTime;
+            var4 = var4.bind(var3)(var2);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = ' – ';
+            var1 = var3.bind(var6)(var5, var2, var4);
+case 40:
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var4;
+    var7 = global;
+    var11 = var7.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
     var1 = true;
-    var5['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
-    var9 = 0;
-    var5 = var8[var9];
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var10 = 0;
+    var6 = var9[var10];
     var1 = undefined;
-    var5 = var7.bind(var1)(var5);
-    var5 = var5.DayOfWeek;
-    var10 = var5.SUNDAY;
-    var5 = new Array(7);
-    var5[0] = var10;
-    var10 = var8[var9];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.DayOfWeek;
-    var10 = var10.MONDAY;
-    var5[1] = var10;
-    var10 = var8[var9];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.DayOfWeek;
-    var10 = var10.TUESDAY;
-    var5[2] = var10;
-    var10 = var8[var9];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.DayOfWeek;
-    var10 = var10.WEDNESDAY;
-    var5[3] = var10;
-    var10 = var8[var9];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.DayOfWeek;
-    var10 = var10.THURSDAY;
-    var5[4] = var10;
-    var10 = var8[var9];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.DayOfWeek;
-    var10 = var10.FRIDAY;
-    var5[5] = var10;
-    var10 = var8[var9];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.DayOfWeek;
-    var10 = var10.SATURDAY;
-    var5[6] = var10;
-    var _closure1_slot3 = var5;
-    var13 = var6.Set;
-    var12 = var5.slice;
-    var11 = 1;
-    var10 = 6;
-    var16 = var12.bind(var5)(var11, var10);
-    var12 = var13.prototype;
-    var12 = Object.create(var12, {constructor: {value: var13}});
-    var17 = var12;
-    var11 = new var17[var13](var16, var15);
-    var11 = var11 instanceof Object ? var11 : var12;
-    var _closure1_slot4 = var11;
-    var11 = var6.Set;
-    var12 = var5[var9];
-    var9 = new Array(2);
-    var9[0] = var12;
-    var10 = var5[var10];
-    var9[1] = var10;
-    var10 = var11.prototype;
-    var10 = Object.create(var10, {constructor: {value: var11}});
+    var6 = var8.bind(var1)(var6);
+    var6 = var6.DayOfWeek;
+    var11 = var6.SUNDAY;
+    var6 = new Array(7);
+    var6[0] = var11;
+    var11 = var9[var10];
+    var11 = var8.bind(var1)(var11);
+    var11 = var11.DayOfWeek;
+    var11 = var11.MONDAY;
+    var6[1] = var11;
+    var11 = var9[var10];
+    var11 = var8.bind(var1)(var11);
+    var11 = var11.DayOfWeek;
+    var11 = var11.TUESDAY;
+    var6[2] = var11;
+    var11 = var9[var10];
+    var11 = var8.bind(var1)(var11);
+    var11 = var11.DayOfWeek;
+    var11 = var11.WEDNESDAY;
+    var6[3] = var11;
+    var11 = var9[var10];
+    var11 = var8.bind(var1)(var11);
+    var11 = var11.DayOfWeek;
+    var11 = var11.THURSDAY;
+    var6[4] = var11;
+    var11 = var9[var10];
+    var11 = var8.bind(var1)(var11);
+    var11 = var11.DayOfWeek;
+    var11 = var11.FRIDAY;
+    var6[5] = var11;
+    var11 = var9[var10];
+    var11 = var8.bind(var1)(var11);
+    var11 = var11.DayOfWeek;
+    var11 = var11.SATURDAY;
+    var6[6] = var11;
+    var _closure1_slot3 = var6;
+    var14 = var7.Set;
+    var13 = var6.slice;
+    var12 = 1;
+    var11 = 6;
+    var17 = var13.bind(var6)(var12, var11);
+    var13 = var14.prototype;
+    var13 = Object.create(var13, {constructor: {value: var14}});
+    var18 = var13;
+    var12 = new var18[var14](var17, var16);
+    var12 = var12 instanceof Object ? var12 : var13;
+    var _closure1_slot4 = var12;
+    var12 = var7.Set;
+    var13 = var6[var10];
+    var10 = new Array(2);
+    var10[0] = var13;
+    var11 = var6[var11];
+    var10[1] = var11;
+    var11 = var12.prototype;
+    var11 = Object.create(var11, {constructor: {value: var12}});
+    var18 = var11;
     var17 = var10;
-    var16 = var9;
-    var9 = new var17[var11](var16, var15);
-    var9 = var9 instanceof Object ? var9 : var10;
-    var _closure1_slot5 = var9;
-    var6 = var6.Set;
-    var9 = var6.prototype;
-    var9 = Object.create(var9, {constructor: {value: var6}});
-    var17 = var9;
-    var16 = var5;
-    var6 = new var17[var6](var16, var15);
-    var6 = var6 instanceof Object ? var6 : var9;
-    var _closure1_slot6 = var6;
-    var6 = 3;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/parent_tools/FamilyCenterRestrictedHoursUtils.tsx';
-    var6 = var7.bind(var8)(var6);
-    var3['DAYS_ORDERED'] = var5;
-    var5 = function getShortDayLabels(arg1) {
+    var10 = new var18[var12](var17, var16);
+    var10 = var10 instanceof Object ? var10 : var11;
+    var _closure1_slot5 = var10;
+    var7 = var7.Set;
+    var10 = var7.prototype;
+    var10 = Object.create(var10, {constructor: {value: var7}});
+    var18 = var10;
+    var17 = var6;
+    var7 = new var18[var7](var17, var16);
+    var7 = var7 instanceof Object ? var7 : var10;
+    var _closure1_slot6 = var7;
+    var7 = 3;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/parent_tools/FamilyCenterRestrictedHoursUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['DAYS_ORDERED'] = var6;
+    var6 = function getShortDayLabels(arg1) {
         var2 = global;
         var2 = var2.Intl;
         var6 = var2.DateTimeFormat;
@@ -386,10 +418,10 @@ case 36:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['getShortDayLabels'] = var5;
-    var3['formatTime'] = var4;
-    var4 = function formatDays(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+    var3['getShortDayLabels'] = var6;
+    var3['formatTime'] = var5;
+    var5 = function formatDays(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = global;
             var5 = var3.Set;
@@ -404,18 +436,18 @@ case 0:
             var4 = _closure1_slot6;
             var5 = undefined;
             var4 = var6.bind(var5)(var7, var4);
-            if(var4) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(var4) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
             var6 = _closure1_slot10;
             var4 = _closure1_slot4;
             var4 = var6.bind(var5)(var7, var4);
-            if(var4) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(var4) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var6 = _closure1_slot10;
             var4 = _closure1_slot5;
             var4 = var6.bind(var5)(var7, var4);
-            if(var4) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+            if(var4) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var3 = var3.Intl;
             var7 = var3.DateTimeFormat;
             var4 = _closure1_slot0;
@@ -438,15 +470,15 @@ case 45:
             var6 = _closure1_slot3;
             var4 = var6.map;
             var3 = function(arg1, arg2) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var4 = _closure2_slot0;
                     var3 = var4.has;
                     var1 = arg1;
                     var3 = var3.bind(var4)(var1);
                     var1 = null;
-                    if(!var3) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+                    if(!var3) { _fun0007_ip = 49; continue _fun0007 }
+case 41:
                     var4 = _closure2_slot1;
                     var3 = var4.format;
                     var2 = global;
@@ -462,7 +494,7 @@ case 47:
                     var2 = new var12[var8](var11, var10, var9, var8);
                     var2 = var2 instanceof Object ? var2 : var5;
                     var1 = var3.bind(var4)(var2);
-case 46:
+case 49:
                     return var1;
                 }
             };
@@ -479,7 +511,7 @@ case 46:
             var2 = ', ';
             var2 = var3.bind(var4)(var2);
             return var2;
-case 44:
+case 47:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 1;
@@ -494,7 +526,7 @@ case 44:
             var2 = var2["6lTTJ+"];
             var2 = var3.bind(var4)(var2);
             return var2;
-case 42:
+case 45:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 1;
@@ -509,7 +541,7 @@ case 42:
             var2 = var2["4dr9L9"];
             var2 = var3.bind(var4)(var2);
             return var2;
-case 40:
+case 43:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 1;
@@ -526,8 +558,8 @@ case 40:
             return var1;
         }
     };
-    var3['formatDays'] = var4;
-    var4 = function timeToMinutes(arg1) {
+    var3['formatDays'] = var5;
+    var5 = function timeToMinutes(arg1) {
         var1 = arg1;
         var3 = var1.hours;
         var2 = 60;
@@ -536,9 +568,9 @@ case 40:
         var1 = var2 + var1;
         return var1;
     };
-    var3['timeToMinutes'] = var4;
-    var4 = function formatDuration(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+    var3['timeToMinutes'] = var5;
+    var5 = function formatDuration(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = arg1;
             var1 = 60;
@@ -559,7 +591,7 @@ case 0:
             var2 = 2;
             var2 = var9[var2];
             var2 = var3.bind(var8)(var2);
-            if(var1) { _fun0007_ip = 48; continue _fun0007 }
+            if(var1) { _fun0008_ip = 50; continue _fun0008 }
 case 37:
             var3 = var2.wcrXLM;
             var1 = {};
@@ -568,48 +600,17 @@ case 37:
             var7 = var7.bind(var8)(var6);
             var1['hours'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0007_ip = 49; continue _fun0007;
-case 48:
+            _fun0008_ip = 51; continue _fun0008;
+case 50:
             var3 = var2.hFDcmZ;
             var2 = {};
             var2['hours'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 49:
-            return var1;
-        }
-    };
-    var3['formatDuration'] = var4;
-    var4 = function getScheduleRuleDateRange(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-            var2 = arg1;
-            var1 = var2.startTime;
-            var4 = null;
-            var3 = var4 != var1;
-            var6 = '';
-            var1 = var6;
-            if(!var3) { _fun0008_ip = 50; continue _fun0008 }
-case 47:
-            var3 = var2.endTime;
-            var3 = var4 != var3;
-            var1 = var6;
-            if(!var3) { _fun0008_ip = 50; continue _fun0008 }
 case 51:
-            var4 = _closure1_slot9;
-            var5 = var2.startTime;
-            var3 = undefined;
-            var5 = var4.bind(var3)(var5);
-            var2 = var2.endTime;
-            var4 = var4.bind(var3)(var2);
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var3 = var2.concat;
-            var2 = ' – ';
-            var1 = var3.bind(var6)(var5, var2, var4);
-case 50:
             return var1;
         }
     };
+    var3['formatDuration'] = var5;
     var3['getScheduleRuleDateRange'] = var4;
     var4 = function sortRulesByStartTime(arg1) {
         var2 = arg1;
@@ -631,10 +632,10 @@ case 31:
 case 52:
                 var8 = var5 != var7;
                 var2 = 0;
-                if(!var8) { _fun0009_ip = 51; continue _fun0009 }
+                if(!var8) { _fun0009_ip = 42; continue _fun0009 }
 case 53:
                 var2 = var7;
-case 51:
+case 42:
                 var7 = 60;
                 var2 = var7 * var2;
                 var1 = var1.startTime;
@@ -687,7 +688,7 @@ case 64:
         return var1;
     };
     var3['sortRulesByStartTime'] = var4;
-    var2 = function toTimeProto(arg1) {
+    var4 = function toTimeProto(arg1) {
         var2 = arg1;
         var1 = {};
         var3 = var2.hours;
@@ -699,6 +700,64 @@ case 64:
         var1['nanos'] = var2;
         return var1;
     };
-    var3['toTimeProto'] = var2;
+    var3['toTimeProto'] = var4;
+    var2 = function computeOverlappingInfo(arg1, arg2, arg3) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
+        var2 = new Array(0);
+        var _closure2_slot3 = var2;
+        var4 = _closure1_slot3;
+        var3 = var4.forEach;
+        var1 = function(arg1, arg2) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+                var5 = arg1;
+                var _closure3_slot0 = var5;
+                var3 = _closure2_slot0;
+                var2 = var3.has;
+                var2 = var2.bind(var3)(var5);
+                if(!var2) { _fun0010_ip = 66; continue _fun0010 }
+case 52:
+                var3 = _closure2_slot1;
+                var2 = var3.find;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var3 = var1.days;
+                    var2 = var3.includes;
+                    var1 = _closure3_slot0;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var6 = var2.bind(var3)(var1);
+                var1 = null;
+                if(!(var1 != var6)) { _fun0010_ip = 66; continue _fun0010 }
+case 28:
+                var3 = _closure2_slot3;
+                var2 = var3.push;
+                var1 = {};
+                var5 = _closure2_slot2;
+                var4 = arg2;
+                var4 = var5[var4];
+                var1['dayLabel'] = var4;
+                var5 = _closure1_slot11;
+                var4 = undefined;
+                var4 = var5.bind(var4)(var6);
+                var1['timeRange'] = var4;
+                var1 = var2.bind(var3)(var1);
+case 66:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var1 = var3.bind(var4)(var1);
+        var1 = {};
+        var1['conflictingEntries'] = var2;
+        return var1;
+    };
+    var3['computeOverlappingInfo'] = var2;
     return var1;
 })();

@@ -523,6 +523,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var19.bind(var20)(var18);
     var18 = 300;
     var3['USER_PROFILE_TOOLTIP_DELAY'] = var18;
+    var18 = 'guild_booster_lvl';
+    var3['GUILD_BOOSTER_BADGE_PREFIX'] = var18;
     var18 = 'user-profile-popout';
     var3['USER_PROFILE_POPOUT_KEY'] = var18;
     var3['UserProfileSections'] = var17;

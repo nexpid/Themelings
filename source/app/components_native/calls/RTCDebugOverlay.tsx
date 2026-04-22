@@ -615,8 +615,8 @@ case 0:
             var3 = var6.bind(var3)(var8);
             var8 = null;
             var6 = var3;
-            if(!(var8 != var9)) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(!(var8 != var9)) { _fun0006_ip = 15; continue _fun0006 }
+case 27:
             var8 = var9.toString;
             var10 = var8.bind(var9)();
             var2 = var2.HermesInternal;
@@ -625,7 +625,7 @@ case 28:
             var2 = ')';
             var2 = var9.bind(var8)(var10, var2);
             var6 = var3 + var2;
-case 27:
+case 15:
             var3 = _closure1_slot14;
             var2 = _closure1_slot23;
             var1 = {};

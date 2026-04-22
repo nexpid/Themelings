@@ -177,6 +177,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['END'] = var2;
     var2 = 'Backspace';
     var4['BACKSPACE'] = var2;
+    var2 = 'Delete';
+    var4['DELETE'] = var2;
     var2 = ',';
     var4['COMMA'] = var2;
     var2 = {};

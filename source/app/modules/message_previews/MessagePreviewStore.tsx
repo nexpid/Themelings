@@ -1014,25 +1014,25 @@ case 0:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0018_ip = 19; continue _fun0018 }
-case 81:
+                if(var2) { _fun0018_ip = 81; continue _fun0018 }
+case 82:
                 var9 = var3.value;
                 var8 = var5.isLatest;
                 var7 = var9.channel_id;
                 var2 = var6.generation;
                 var2 = var8.bind(var5)(var7, var2);
-                if(var2) { _fun0018_ip = 82; continue _fun0018 }
-case 83:
+                if(var2) { _fun0018_ip = 83; continue _fun0018 }
+case 84:
                 var8 = var5.put;
                 var7 = var9.channel_id;
                 var2 = var6.generation;
                 var2 = var8.bind(var5)(var7, var9, var2);
-case 82:
+case 83:
                 var7 = var4.bind(var1)();
                 var2 = var7.done;
                 var3 = var7;
-                if(!var2) { _fun0018_ip = 81; continue _fun0018 }
-case 19:
+                if(!var2) { _fun0018_ip = 82; continue _fun0018 }
+case 81:
                 return var1;
             }
         };
@@ -1072,8 +1072,8 @@ case 0:
                 var7 = 2;
                 var6 = 0;
                 var5 = 1;
-                if(var2) { _fun0019_ip = 84; continue _fun0019 }
-case 85:
+                if(var2) { _fun0019_ip = 85; continue _fun0019 }
+case 86:
                 var11 = var4.value;
                 var2 = _closure1_slot3;
                 var2 = var2.bind(var1)(var11, var7);
@@ -1081,16 +1081,16 @@ case 85:
                 var11 = var2[var5];
                 var2 = var3.has;
                 var2 = var2.bind(var3)(var12);
-                if(var2) { _fun0019_ip = 86; continue _fun0019 }
-case 87:
+                if(var2) { _fun0019_ip = 87; continue _fun0019 }
+case 88:
                 var2 = var3.put;
                 var2 = var2.bind(var3)(var12, var11, var8);
-case 86:
+case 87:
                 var11 = var9.bind(var1)();
                 var2 = var11.done;
                 var4 = var11;
-                if(!var2) { _fun0019_ip = 85; continue _fun0019 }
-case 84:
+                if(!var2) { _fun0019_ip = 86; continue _fun0019 }
+case 85:
                 var2 = false;
                 var3['localNeeded'] = var2;
                 return var1;

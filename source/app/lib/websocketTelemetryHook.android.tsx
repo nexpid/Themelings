@@ -252,11 +252,11 @@ case 54:
 case 9:
             var5 = var3.WebSocket;
 case 55:
-            if(!(var6 != var5)) { _fun0001_ip = 56; continue _fun0001 }
-case 57:
+            if(!(var6 != var5)) { _fun0001_ip = 14; continue _fun0001 }
+case 56:
             var5 = var3.__discordWebsocketTelemetryPatched;
-            if(var5) { _fun0001_ip = 56; continue _fun0001 }
-case 58:
+            if(var5) { _fun0001_ip = 14; continue _fun0001 }
+case 57:
             var6 = var3.WebSocket;
             var _closure2_slot1 = var6;
             var2 = function PatchedWebSocket(arg1) {
@@ -277,18 +277,18 @@ case 0:
                     var4 = var2[var3];
                     var5 = 'string';
                     var4 = typeof var4;
-                    if(!(var5 !== var4)) { _fun0003_ip = 59; continue _fun0003 }
-case 60:
+                    if(!(var5 !== var4)) { _fun0003_ip = 58; continue _fun0003 }
+case 59:
                     var5 = var1.url;
                     var4 = null;
                     var6 = var4 != var5;
                     var4 = '';
-                    if(!var6) { _fun0003_ip = 61; continue _fun0003 }
+                    if(!var6) { _fun0003_ip = 60; continue _fun0003 }
 case 50:
                     var4 = var5;
-case 61:
+case 60:
                     _fun0003_ip = 3; continue _fun0003;
-case 59:
+case 58:
                     var4 = var2[var3];
 case 3:
                     var3 = function attachListener(arg1, arg2) {
@@ -301,7 +301,7 @@ case 0:
                             var3 = 'function';
                             var2 = typeof var2;
                             if(!(var3 === var2)) { _fun0004_ip = 51; continue _fun0004 }
-case 62:
+case 61:
                             var3 = var4.addEventListener;
                             var2 = 'message';
                             var1 = function(arg1) {
@@ -314,10 +314,10 @@ case 0:
                                     var6 = var1 == var5;
                                     var1 = undefined;
                                     var2 = undefined;
-                                    if(var6) { _fun0005_ip = 63; continue _fun0005 }
-case 64:
-                                    var2 = var5.data;
+                                    if(var6) { _fun0005_ip = 62; continue _fun0005 }
 case 63:
+                                    var2 = var5.data;
+case 62:
                                     var2 = var4.bind(var1)(var3, var2);
                                     return var1;
                                 }
@@ -341,7 +341,7 @@ case 51:
             var3['WebSocket'] = var2;
             var2 = true;
             var3['__discordWebsocketTelemetryPatched'] = var2;
-case 56:
+case 14:
             return var1;
         }
     };

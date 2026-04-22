@@ -94,7 +94,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-    var19 = new Array(11);
+    var19 = new Array(12);
     var19[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -146,6 +146,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.SLAYER_STOREFRONT_VC_GIFTING_PANEL_APP_WIDGET_CTA;
     var19[10] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.COLLECTIBLES_SHOP_SLAYER_STOREFRONT_PROMOTIONAL_BANNER;
+    var19[11] = var14;
     var _closure1_slot0 = var19;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

@@ -34,33 +34,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.View;
     var _closure1_slot6 = var7;
-    var7 = var4.Image;
-    var _closure1_slot7 = var7;
     var4 = var4.ScrollView;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var11.bind(var1)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.HubEmailConnectionSteps;
-    var _closure1_slot10 = var7;
+    var _closure1_slot9 = var7;
     var4 = var4.INVITE_ROUTING_HUB_GUILD_ID;
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.MarketingURLs;
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot13 = var7;
+    var _closure1_slot12 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot14 = var4;
+    var _closure1_slot13 = var4;
     var4 = 8;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -70,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 16;
     var9['paddingHorizontal'] = var10;
     var4['container'] = var9;
-    var9 = {'marginBottom': 16, 'alignSelf': 'center'};
+    var9 = {'marginTop': 16, 'marginBottom': 16, 'alignSelf': 'center'};
     var4['header'] = var9;
     var9 = {};
     var9['flexGrow'] = var12;
@@ -107,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['paddingHorizontal'] = var10;
     var4['buttonContainer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -122,7 +120,7 @@ case 0:
             var _closure2_slot0 = var2;
             var6 = var1.invite;
             var _closure2_slot1 = var6;
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var4 = undefined;
             var13 = var1.bind(var4)();
             var5 = _closure1_slot0;
@@ -211,7 +209,7 @@ case 5:
                             var6 = var4;
                             if(!(var7 == var4)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                            var13 = _closure1_slot9;
+                            var13 = _closure1_slot8;
                             var10 = var13.getChannel;
                             var4 = _closure2_slot1;
                             var15 = var7 == var4;
@@ -249,7 +247,7 @@ case 17:
                             var6 = var2;
 case 16:
                             var9 = var6;
-                            var2 = _closure1_slot11;
+                            var2 = _closure1_slot10;
                             if(!(var6 === var2)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
                             var9 = undefined;
@@ -289,7 +287,7 @@ case 28:
 case 30:
                             var14 = _closure2_slot2;
                             var10 = var14.push;
-                            var6 = _closure1_slot10;
+                            var6 = _closure1_slot9;
                             var7 = var6.SELECT_SCHOOL;
                             var6 = {};
                             var15 = _closure2_slot3;
@@ -320,7 +318,7 @@ case 33:
 case 35:
                             var11 = _closure2_slot2;
                             var10 = var11.push;
-                            var7 = _closure1_slot10;
+                            var7 = _closure1_slot9;
                             var8 = var7.VERIFY_PIN;
                             var7 = {};
                             var14 = _closure2_slot3;
@@ -340,7 +338,7 @@ case 34: // try_end0 // try_end2
 case 27: // try_start_1 // try_start_3
                             var10 = _closure2_slot2;
                             var8 = var10.push;
-                            var6 = _closure1_slot10;
+                            var6 = _closure1_slot9;
                             var7 = var6.SUBMIT_SCHOOL;
                             var6 = {};
                             var11 = _closure2_slot3;
@@ -352,7 +350,7 @@ case 27: // try_start_1 // try_start_3
 case 26:
                             var8 = _closure2_slot2;
                             var7 = var8.push;
-                            var4 = _closure1_slot10;
+                            var4 = _closure1_slot9;
                             var6 = var4.VERIFY_PIN;
                             var4 = {};
                             var10 = _closure2_slot3;
@@ -437,7 +435,7 @@ case 24:
 case 41:
             var1 = var6.guild;
             var3 = var1.id;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot10;
             var26 = var2;
             if(!(var3 !== var1)) { _fun0001_ip = 40; continue _fun0001 }
 case 42:
@@ -468,7 +466,7 @@ case 45:
             var1['count'] = var6;
             var26 = var3.bind(var5)(var2, var1);
 case 40:
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
             var1 = 15;
@@ -476,8 +474,8 @@ case 40:
             var1 = var22.bind(var4)(var1);
             var2 = var1.HubEmailConnectionScreen;
             var1 = {};
-            var7 = _closure1_slot14;
-            var6 = _closure1_slot8;
+            var7 = _closure1_slot13;
+            var6 = _closure1_slot7;
             var5 = {};
             var5['ref'] = var8;
             var9 = var13.scrollViewContainer;
@@ -499,15 +497,19 @@ case 40:
             var8 = {};
             var10 = var13.container;
             var8['style'] = var10;
-            var11 = _closure1_slot7;
             var10 = {};
-            var25 = 16;
-            var25 = var23[var25];
-            var25 = var16.bind(var4)(var25);
-            var10['source'] = var25;
-            var25 = var13.header;
-            var10['style'] = var25;
-            var11 = var3.bind(var4)(var11, var10);
+            var11 = var13.header;
+            var10['style'] = var11;
+            var11 = 16;
+            var11 = var23[var11];
+            var11 = var22.bind(var4)(var11);
+            var25 = var11.StudyGroupsSpotIllustration;
+            var11 = {};
+            var27 = 0.75;
+            var11['scale'] = var27;
+            var11 = var3.bind(var4)(var25, var11);
+            var10['children'] = var11;
+            var11 = var3.bind(var4)(var9, var10);
             var10 = new Array(4);
             var10[0] = var11;
             var11 = 17;
@@ -595,7 +597,7 @@ case 40:
             var24 = var24.t;
             var25 = var24.RPT0vj;
             var24 = {};
-            var28 = _closure1_slot12;
+            var28 = _closure1_slot11;
             var29 = var28.TERMS;
             var24['termsURL'] = var29;
             var28 = var28.PRIVACY;
@@ -675,7 +677,7 @@ case 48:
             var9 = var7.bind(var4)(var9, var8);
             var8 = new Array(3);
             var8[0] = var9;
-            var11 = _closure1_slot13;
+            var11 = _closure1_slot12;
             var10 = _closure1_slot6;
             var9 = {};
             var16 = var13.growSpacing;

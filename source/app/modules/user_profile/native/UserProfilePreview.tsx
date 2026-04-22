@@ -58,7 +58,7 @@ case 0:
             var5 = arg2;
             var4 = arg3;
             var1 = {};
-            var2 = {'maxHeight': '100%', 'position': 'relative', 'width': '100%'};
+            var2 = {'position': 'relative', 'width': '100%'};
             var3 = null;
             var6 = var3 != var4;
             var3 = 263;
@@ -364,8 +364,9 @@ case 31:
             var53 = var38;
             var3 = arraySpread(var53, var52, var51);
             var11 = _closure1_slot4;
-            var3 = var11.useState;
-            var13 = var3.bind(var11)(var8);
+            var12 = var11.useState;
+            var3 = {'width': 0, 'height': 0};
+            var13 = var12.bind(var11)(var3);
             var12 = _closure1_slot3;
             var3 = 2;
             var3 = var12.bind(var4)(var13, var3);
@@ -376,15 +377,24 @@ case 31:
             _closure2_slot4 = var3;
             var12 = var11.useCallback;
             var8 = function(arg1) {
-                var3 = _closure2_slot4;
-                var1 = global;
-                var4 = var1.Math;
-                var2 = var4.floor;
                 var1 = arg1;
+                var3 = _closure2_slot4;
+                var2 = {};
+                var4 = global;
+                var7 = var4.Math;
+                var6 = var7.floor;
+                var5 = var1.nativeEvent;
+                var5 = var5.layout;
+                var5 = var5.width;
+                var5 = var6.bind(var7)(var5);
+                var2['width'] = var5;
+                var5 = var4.Math;
+                var4 = var5.floor;
                 var1 = var1.nativeEvent;
                 var1 = var1.layout;
-                var1 = var1.width;
-                var2 = var2.bind(var4)(var1);
+                var1 = var1.height;
+                var1 = var4.bind(var5)(var1);
+                var2['height'] = var1;
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;
@@ -394,7 +404,8 @@ case 31:
             var8 = var11.useMemo;
             var3 = new Array(2);
             var3[0] = var16;
-            var3[1] = var14;
+            var12 = var14.width;
+            var3[1] = var12;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -412,6 +423,7 @@ case 33:
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
                     var1 = _closure2_slot3;
+                    var1 = var1.width;
                     var1 = var2.bind(var3)(var1);
                     var8 = var1.overflowTop;
                     var4 = var1.overflowBottom;
@@ -519,7 +531,10 @@ case 42:
             var18 = var18.ProfileFrameLayerOrder;
             var18 = var18.BACK;
             var9['frameOrder'] = var18;
-            var9['containerWidth'] = var14;
+            var18 = var14.width;
+            var9['containerWidth'] = var18;
+            var18 = var14.height;
+            var9['containerHeight'] = var18;
             var11 = var13.bind(var4)(var12, var9);
 case 41:
             var9 = new Array(3);
@@ -742,7 +757,10 @@ case 62:
             var15 = var15.ProfileFrameLayerOrder;
             var15 = var15.FRONT;
             var11['frameOrder'] = var15;
-            var11['containerWidth'] = var14;
+            var15 = var14.width;
+            var11['containerWidth'] = var15;
+            var14 = var14.height;
+            var11['containerHeight'] = var14;
             var10 = var13.bind(var4)(var12, var11);
 case 61:
             var9[2] = var10;

@@ -122,10 +122,6 @@ case 0:
             var2['gap'] = var8;
             var1['badgeContent'] = var2;
             var2 = {};
-            var8 = '#97979f33';
-            var2['backgroundColor'] = var8;
-            var1['badgeCompleted'] = var2;
-            var2 = {};
             var8 = 'uppercase';
             var2['textTransform'] = var8;
             var8 = var6[var3];
@@ -134,13 +130,6 @@ case 0:
             var8 = var8.CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT;
             var2['color'] = var8;
             var1['badgeText'] = var2;
-            var2 = {};
-            var8 = var6[var3];
-            var8 = var5.bind(var4)(var8);
-            var8 = var8.colors;
-            var8 = var8.WHITE;
-            var2['color'] = var8;
-            var1['badgeTextCompleted'] = var2;
             var2 = {};
             var2['position'] = var7;
             var7 = var6[var3];
@@ -491,90 +480,71 @@ case 28:
                 var11 = _closure1_slot8;
                 var9 = _closure1_slot6;
                 var8 = {};
-                var12 = var19.badge;
-                var10 = new Array(2);
-                var10[0] = var12;
-                var12 = var20;
-                if(!var20) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
-                var12 = var19.badgeCompleted;
-case 30:
-                var10[1] = var12;
+                var10 = var19.badge;
                 var8['style'] = var10;
-                var21 = _closure1_slot9;
-                var13 = _closure1_slot6;
+                var13 = _closure1_slot9;
                 var12 = {};
                 var10 = var19.badgeContent;
                 var12['style'] = var10;
                 var10 = var20;
-                if(!var20) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
-                var23 = _closure1_slot8;
-                var22 = _closure1_slot0;
-                var26 = _closure1_slot2;
+                if(!var10) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
+                var22 = _closure1_slot8;
+                var21 = _closure1_slot0;
+                var25 = _closure1_slot2;
                 var17 = 13;
-                var17 = var26[var17];
-                var17 = var22.bind(var4)(var17);
-                var22 = var17.CheckmarkSmallBoldIcon;
+                var17 = var25[var17];
+                var17 = var21.bind(var4)(var17);
+                var21 = var17.CheckmarkSmallBoldIcon;
                 var17 = {};
-                var24 = 'xxs';
-                var17['size'] = var24;
-                var25 = _closure1_slot1;
-                var24 = 6;
-                var24 = var26[var24];
-                var24 = var25.bind(var4)(var24);
-                var24 = var24.colors;
-                var24 = var24.WHITE;
-                var17['color'] = var24;
-                var10 = var23.bind(var4)(var22, var17);
-case 32:
-                var22 = new Array(2);
-                var22[0] = var10;
-                var25 = _closure1_slot8;
-                var23 = _closure1_slot0;
-                var17 = _closure1_slot2;
+                var23 = 'xxs';
+                var17['size'] = var23;
+                var24 = _closure1_slot1;
+                var23 = 6;
+                var23 = var25[var23];
+                var23 = var24.bind(var4)(var23);
+                var23 = var23.colors;
+                var23 = var23.CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT;
+                var17['color'] = var23;
+                var10 = var22.bind(var4)(var21, var17);
+case 30:
+                var21 = new Array(2);
+                var21[0] = var10;
+                var24 = _closure1_slot8;
+                var26 = _closure1_slot0;
+                var25 = _closure1_slot2;
                 var10 = 14;
-                var17 = var17[var10];
-                var17 = var23.bind(var4)(var17);
-                var24 = var17.Text;
-                var23 = {};
+                var17 = var25[var10];
+                var17 = var26.bind(var4)(var17);
+                var23 = var17.Text;
+                var22 = {};
                 var17 = 'text-xs/bold';
-                var23['variant'] = var17;
-                var26 = var19.badgeText;
-                var17 = new Array(2);
-                var17[0] = var26;
-                var26 = var20;
-                if(!var26) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
-                var26 = var19.badgeTextCompleted;
-case 34:
-                var17[1] = var26;
-                var23['style'] = var17;
-                var27 = _closure1_slot0;
-                var26 = _closure1_slot2;
+                var22['variant'] = var17;
+                var17 = var19.badgeText;
+                var22['style'] = var17;
                 var17 = 15;
-                var26 = var26[var17];
-                var26 = var27.bind(var4)(var26);
-                var28 = var26.intl;
-                var27 = var28.string;
-                var29 = _closure1_slot0;
-                var26 = _closure1_slot2;
-                var26 = var26[var17];
-                var26 = var29.bind(var4)(var26);
-                var29 = var26.t;
-                if(var20) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
-                var26 = var29.fFIJ/9;
-                _fun0002_ip = 38; continue _fun0002;
-case 36:
-                var26 = var29.vlGTLf;
-case 38:
-                var26 = var27.bind(var28)(var26);
-                var23['children'] = var26;
-                var23 = var25.bind(var4)(var24, var23);
-                var22[1] = var23;
-                var12['children'] = var22;
-                var12 = var21.bind(var4)(var13, var12);
+                var25 = var25[var17];
+                var25 = var26.bind(var4)(var25);
+                var27 = var25.intl;
+                var26 = var27.string;
+                var28 = _closure1_slot0;
+                var25 = _closure1_slot2;
+                var25 = var25[var17];
+                var25 = var28.bind(var4)(var25);
+                var28 = var25.t;
+                if(var20) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
+                var25 = var28.fFIJ/9;
+                _fun0002_ip = 34; continue _fun0002;
+case 32:
+                var25 = var28.vlGTLf;
+case 34:
+                var25 = var26.bind(var27)(var25);
+                var22['children'] = var25;
+                var22 = var24.bind(var4)(var23, var22);
+                var21[1] = var22;
+                var12['children'] = var21;
+                var12 = var13.bind(var4)(var9, var12);
                 var8['children'] = var12;
                 var8 = var11.bind(var4)(var9, var8);
                 var7[2] = var8;
@@ -592,12 +562,6 @@ case 38:
                 var12 = {};
                 var21 = 'secondary-overlay';
                 var12['variant'] = var21;
-                if(var20) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
-                var20 = var15.cta;
-                var20 = var20.buttonLabel;
-                _fun0002_ip = 41; continue _fun0002;
-case 39:
                 var24 = _closure1_slot0;
                 var21 = _closure1_slot2;
                 var22 = var21[var17];
@@ -607,9 +571,15 @@ case 39:
                 var21 = var21[var17];
                 var21 = var24.bind(var4)(var21);
                 var21 = var21.t;
+                if(var20) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
+                var20 = var21.LhlgY9;
+                var20 = var22.bind(var23)(var20);
+                _fun0002_ip = 37; continue _fun0002;
+case 35:
                 var21 = var21["9UtZAY"];
                 var20 = var22.bind(var23)(var21);
-case 41:
+case 37:
                 var12['text'] = var20;
                 var12['onPress'] = var16;
                 var12 = var11.bind(var4)(var13, var12);
@@ -640,10 +610,10 @@ case 41:
                 var15 = var15.advertiserName;
                 var16 = var14 != var15;
                 var14 = '';
-                if(!var16) { _fun0002_ip = 42; continue _fun0002 }
-case 43:
+                if(!var16) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
                 var14 = var15;
-case 42:
+case 38:
                 var11['children'] = var14;
                 var12 = var13.bind(var4)(var12, var11);
                 var11 = new Array(2);

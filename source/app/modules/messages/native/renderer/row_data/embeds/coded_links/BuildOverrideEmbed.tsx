@@ -296,23 +296,12 @@ case 18:
             var8 = var6.uri;
             var6 = 'thumbnailUrl';
             var5[5] = var8;
-            if(var7) { _fun0001_ip = 28; continue _fun0001 }
+            var8 = 'primary';
+            if(!var7) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
-            var8 = var4.acceptLabelGreenColor;
-            _fun0001_ip = 30; continue _fun0001;
+            var8 = 'destructive';
 case 28:
-            var8 = var4.clearLabelRedColor;
-case 30:
-            var6 = 'acceptLabelColor';
-            var5[5] = var8;
-            if(var7) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
-            var8 = var4.acceptLabelGreenBackgroundColor;
-            _fun0001_ip = 33; continue _fun0001;
-case 31:
-            var8 = var4.clearLabelRedBackgroundColor;
-case 33:
-            var6 = 'acceptLabelBackgroundColor';
+            var6 = 'acceptButtonVariant';
             var5[5] = var8;
             var10 = _closure1_slot0;
             var6 = _closure1_slot3;
@@ -323,15 +312,15 @@ case 33:
             var6 = var6[var12];
             var6 = var10.bind(var11)(var6);
             var6 = var6.t;
-            if(var7) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(var7) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var7 = var6.nOunHC;
             var7 = var8.bind(var9)(var7);
-            _fun0001_ip = 36; continue _fun0001;
-case 34:
+            _fun0001_ip = 32; continue _fun0001;
+case 30:
             var6 = var6.tX4xrt;
             var7 = var8.bind(var9)(var6);
-case 36:
+case 32:
             var6 = 'acceptLabelText';
             var5[5] = var7;
             var7 = true;

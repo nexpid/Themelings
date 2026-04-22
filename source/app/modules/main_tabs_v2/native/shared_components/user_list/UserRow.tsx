@@ -1973,6 +1973,9 @@ case 125:
                 var6[3] = var12;
                 var4 = 'subLabel';
                 var6[3] = var9;
+                var9 = '100%';
+                var4 = 'height';
+                var6[3] = var9;
                 var4 = _closure1_slot11;
                 var4 = var4.TOGGLE;
                 if(!(var8 !== var4)) { _fun0006_ip = 127; continue _fun0006 }

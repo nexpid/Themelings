@@ -2038,10 +2038,30 @@ case 216:
         }
     };
     var3['getSelectPlaceholder'] = var6;
+    var6 = function canSelectBeEmpty(arg1, arg2) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.minValues;
+            var2 = var1.required;
+            var4 = 'modal';
+            var1 = arg2;
+            if(!(var4 !== var1)) { _fun0014_ip = 218; continue _fun0014 }
+case 219:
+            var1 = 0;
+            var1 = var1 === var3;
+            _fun0014_ip = 220; continue _fun0014;
+case 218:
+            var1 = !var2;
+case 220:
+            return var1;
+        }
+    };
+    var3['canSelectBeEmpty'] = var6;
     var3['flattenComponents'] = var5;
     var3['findChildComponent'] = var4;
     var4 = function getAllTextDisplayContent(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var4 = _closure1_slot8;
             var3 = undefined;
@@ -2081,10 +2101,10 @@ case 0:
             var2 = var2.bind(var3)(var1);
             var3 = '';
             var1 = null;
-            if(!(var3 !== var2)) { _fun0014_ip = 218; continue _fun0014 }
-case 219:
+            if(!(var3 !== var2)) { _fun0015_ip = 221; continue _fun0015 }
+case 222:
             var1 = var2;
-case 218:
+case 221:
             return var1;
         }
     };
@@ -2093,12 +2113,12 @@ case 218:
         var2 = arg2;
         var _closure2_slot0 = var2;
         var3 = function search(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var4 = arguments[1];
                 var12 = undefined;
-                if(!(var4 === var12)) { _fun0015_ip = 217; continue _fun0015 }
-case 220:
+                if(!(var4 === var12)) { _fun0016_ip = 217; continue _fun0016 }
+case 223:
                 var4 = new Array(0);
 case 217:
                 var2 = _closure1_slot6;
@@ -2109,8 +2129,8 @@ case 217:
                 var3 = 1;
                 var1 = null;
                 var8 = var5;
-                if(var2) { _fun0015_ip = 48; continue _fun0015 }
-case 221:
+                if(var2) { _fun0016_ip = 48; continue _fun0016 }
+case 224:
                 var5 = var8.value;
                 var2 = _closure1_slot11;
                 var7 = var2.bind(var12)(var5);
@@ -2125,8 +2145,8 @@ case 221:
                 };
                 var6 = var6.bind(var7)(var2);
                 var2 = new Array(1);
-                if(var6) { _fun0015_ip = 222; continue _fun0015 }
-case 223:
+                if(var6) { _fun0016_ip = 225; continue _fun0016 }
+case 226:
                 var6 = _closure2_slot1;
                 var2[0] = var5;
                 var17 = var2;
@@ -2134,17 +2154,17 @@ case 223:
                 var15 = var3;
                 var14 = arraySpread(var17, var16, var15);
                 var6 = var6.bind(var12)(var7, var2);
-                if(!(var1 == var6)) { _fun0015_ip = 224; continue _fun0015 }
-case 225:
+                if(!(var1 == var6)) { _fun0016_ip = 227; continue _fun0016 }
+case 228:
                 var14 = var10.bind(var12)();
                 var7 = var14.done;
                 var8 = var14;
-                if(var7) { _fun0015_ip = 48; continue _fun0015 }
-case 226:
-                _fun0015_ip = 221; continue _fun0015;
-case 224:
+                if(var7) { _fun0016_ip = 48; continue _fun0016 }
+case 229:
+                _fun0016_ip = 224; continue _fun0016;
+case 227:
                 return var6;
-case 222:
+case 225:
                 var2[0] = var5;
                 var17 = var2;
                 var16 = var4;
@@ -2163,7 +2183,7 @@ case 48:
     };
     var3['getParents'] = var4;
     var4 = function makeComponentUploadId(arg1) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var3 = {};
             var1 = 'component-upload';
@@ -2177,13 +2197,13 @@ case 0:
             var5 = var4 == var2;
             var6 = undefined;
             var2 = undefined;
-            if(var5) { _fun0016_ip = 227; continue _fun0016 }
-case 228:
+            if(var5) { _fun0017_ip = 230; continue _fun0017 }
+case 231:
             var7 = var1.crypto;
             var5 = var7.randomUUID;
             var2 = var5.bind(var7)();
-case 227:
-            if(!(var4 == var2)) { _fun0016_ip = 219; continue _fun0016 }
+case 230:
+            if(!(var4 == var2)) { _fun0017_ip = 222; continue _fun0017 }
 case 30:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -2192,7 +2212,7 @@ case 30:
             var5 = var5.bind(var6)(var4);
             var4 = var5.v4;
             var2 = var4.bind(var5)();
-case 219:
+case 222:
             var3['uniqueId'] = var2;
             var2 = var1.JSON;
             var1 = var2.stringify;
@@ -2202,11 +2222,11 @@ case 219:
     };
     var3['makeComponentUploadId'] = var4;
     var4 = function deserializeComponentUploadId(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
             var2 = undefined;
-case 229: // try_start_0
+case 232: // try_start_0
             var3 = global;
             var5 = var3.JSON;
             var3 = var5.parse;
@@ -2215,32 +2235,32 @@ case 229: // try_start_0
             var5 = null;
             var1 = var5 == var1;
             var4 = undefined;
-            if(var1) { _fun0017_ip = 2; continue _fun0017 }
-case 230:
+            if(var1) { _fun0018_ip = 2; continue _fun0018 }
+case 233:
             var1 = var2;
             var4 = var1.type;
 case 2:
             var3 = 'component-upload';
             var1 = null;
-            if(!(var3 === var4)) { _fun0017_ip = 231; continue _fun0017 }
-case 232:
+            if(!(var3 === var4)) { _fun0018_ip = 234; continue _fun0018 }
+case 235:
             var3 = var2;
             var3 = var3.containerId;
             var4 = 'string';
             var3 = typeof var3;
             var1 = null;
-            if(!(var4 === var3)) { _fun0017_ip = 231; continue _fun0017 }
+            if(!(var4 === var3)) { _fun0018_ip = 234; continue _fun0018 }
 case 207:
             var3 = var2;
             var3 = var3.uniqueId;
             var3 = typeof var3;
             var1 = null;
-            if(!(var4 === var3)) { _fun0017_ip = 231; continue _fun0017 }
-case 233:
+            if(!(var4 === var3)) { _fun0018_ip = 234; continue _fun0018 }
+case 236:
             var1 = var2;
-case 231: // try_end0
+case 234: // try_end0
             return var1;
-case 218: // catch_target0
+case 221: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;

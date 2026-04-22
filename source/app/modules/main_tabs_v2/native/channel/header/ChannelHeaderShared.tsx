@@ -572,10 +572,10 @@ case 49:
 case 48:
             var1['variant'] = var7;
             var7 = 'text-muted';
-            if(!var10) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
-            var7 = 'text-subtle';
+            if(!var10) { _fun0006_ip = 5; continue _fun0006 }
 case 50:
+            var7 = 'text-subtle';
+case 5:
             var1['color'] = var7;
             var6 = var6.parentChannelName;
             var1['style'] = var6;
@@ -670,23 +670,23 @@ case 0:
             var2 = {'flex': 1, 'flexShrink': 1, 'justifyContent': 'center'};
             var5 = undefined;
             var6 = undefined;
-            if(!var3) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
-            var6 = 4;
+            if(!var3) { _fun0007_ip = 51; continue _fun0007 }
 case 52:
+            var6 = 4;
+case 51:
             var2['marginTop'] = var6;
             var1['channelContent'] = var2;
             var2 = {'flexDirection': 'row', 'alignItems': 'center', 'flexShrink': 1};
             var1['nameWithArrow'] = var2;
             var2 = {};
             var2['flexShrink'] = var4;
-            if(var3) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
-            var3 = {'fontSize': 18, 'lineHeight': 24};
-            _fun0007_ip = 56; continue _fun0007;
+            if(var3) { _fun0007_ip = 53; continue _fun0007 }
 case 54:
+            var3 = {'fontSize': 18, 'lineHeight': 24};
+            _fun0007_ip = 55; continue _fun0007;
+case 53:
             var3 = {};
-case 56:
+case 55:
             var9 = var2;
             var8 = var3;
             var3 = copyDataProperties(var9, var8);
@@ -749,18 +749,18 @@ case 56:
 case 0:
             var1 = arguments[1];
             var4 = undefined;
-            if(!(var1 === var4)) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
-            var1 = {};
+            if(!(var1 === var4)) { _fun0008_ip = 56; continue _fun0008 }
 case 57:
+            var1 = {};
+case 56:
             var10 = var1.accessibleTitle;
             var9 = var1.subtitle;
             var2 = var1.disableArrow;
             var8 = var4 !== var2;
-            if(!var8) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
-            var8 = var2;
+            if(!var8) { _fun0008_ip = 58; continue _fun0008 }
 case 59:
+            var8 = var2;
+case 58:
             var7 = var1.userId;
             var6 = var1.guildId;
             var5 = var1.icon;
@@ -830,10 +830,10 @@ case 0:
             var9 = null;
             var10 = var9 == var8;
             var9 = undefined;
-            if(var10) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
-            var9 = var8.rulesChannelId;
+            if(var10) { _fun0009_ip = 60; continue _fun0009 }
 case 61:
+            var9 = var8.rulesChannelId;
+case 60:
             var8 = var7.id;
             var8 = var9 === var8;
             var1['isRulesChannel'] = var8;
@@ -850,16 +850,16 @@ case 0:
             var7 = arg2;
             var6 = arguments[2];
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0010_ip = 63; continue _fun0010 }
-case 64:
-            var6 = false;
+            if(!(var6 === var5)) { _fun0010_ip = 62; continue _fun0010 }
 case 63:
+            var6 = false;
+case 62:
             var1 = null;
             if(!(var1 == var8)) { _fun0010_ip = 8; continue _fun0010 }
-case 65:
+case 64:
             var2 = var1 == var7;
             var1 = null;
-            if(var2) { _fun0010_ip = 66; continue _fun0010 }
+            if(var2) { _fun0010_ip = 65; continue _fun0010 }
 case 8:
             var4 = _closure1_slot9;
             var3 = _closure1_slot19;
@@ -868,7 +868,7 @@ case 8:
             var2['memberCount'] = var7;
             var2['withSeparator'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 66:
+case 65:
             return var1;
         }
     };

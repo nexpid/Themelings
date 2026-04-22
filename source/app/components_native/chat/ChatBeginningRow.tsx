@@ -978,6 +978,8 @@ case 42:
     var9 = {};
     var9['marginRight'] = var10;
     var4['appDMButtonIcon'] = var9;
+    var9 = {'width': 32, 'height': 32};
+    var4['formCtaIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot45 = var4;
     var4 = function ChatBeginningRowIcon(arg1) {
@@ -1804,24 +1806,26 @@ case 0:
             var1 = arg1;
             var10 = var1.guild;
             var _closure2_slot0 = var10;
-            var18 = var1.channel;
-            var _closure2_slot1 = var18;
+            var19 = var1.channel;
+            var _closure2_slot1 = var19;
             var1 = var10.id;
             var _closure2_slot2 = var1;
+            var1 = _closure1_slot45;
+            var4 = undefined;
+            var16 = var1.bind(var4)();
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 54;
             var2 = var13[var1];
-            var4 = undefined;
             var3 = var12.bind(var4)(var2);
             var2 = var3.useCompletedStates;
             var2 = var2.bind(var3)(var10);
             var15 = var2.guildPopulated;
-            var17 = var2.guildPersonalized;
+            var18 = var2.guildPersonalized;
             var1 = var13[var1];
             var2 = var12.bind(var4)(var1);
             var1 = var2.usePermissions;
-            var1 = var1.bind(var2)(var18, var10);
+            var1 = var1.bind(var2)(var19, var10);
             var2 = var1.canInvite;
             var3 = var1.canManageGuild;
             var5 = 43;
@@ -1865,15 +1869,15 @@ case 0:
             var6 = var13[var6];
             var11 = var12.bind(var4)(var6);
             var6 = var11.isPrivateGuildChannel;
-            var11 = var6.bind(var11)(var18);
+            var11 = var6.bind(var11)(var19);
             var6 = 57;
             var6 = var13[var6];
-            var18 = var12.bind(var4)(var6);
-            var6 = var18.useIsEligibleForGuildProgress;
-            var6 = var6.bind(var18)(var10);
+            var19 = var12.bind(var4)(var6);
+            var6 = var19.useIsEligibleForGuildProgress;
+            var6 = var6.bind(var19)(var10);
             var5 = var13[var5];
-            var18 = var12.bind(var4)(var5);
-            var13 = var18.useStateFromStoresObject;
+            var19 = var12.bind(var4)(var5);
+            var13 = var19.useStateFromStoresObject;
             var5 = _closure1_slot11;
             var12 = new Array(1);
             var12[0] = var5;
@@ -1883,10 +1887,10 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var5 = var13.bind(var18)(var12, var5);
+            var5 = var13.bind(var19)(var12, var5);
             var _closure2_slot3 = var5;
-            var18 = _closure1_slot5;
-            var13 = var18.useLayoutEffect;
+            var19 = _closure1_slot5;
+            var13 = var19.useLayoutEffect;
             var5 = var5.message;
             var12 = new Array(1);
             var12[0] = var5;
@@ -1913,7 +1917,7 @@ case 35:
                     return var1;
                 }
             };
-            var5 = var13.bind(var18)(var5, var12);
+            var5 = var13.bind(var19)(var5, var12);
             var12 = undefined;
             if(!var3) { _fun0015_ip = 103; continue _fun0015 }
 case 104:
@@ -1993,51 +1997,55 @@ case 101:
                 };
                 return var1;
             };
-            var18 = var3.bind(var4)();
+            var19 = var3.bind(var4)();
             var13 = _closure1_slot42;
-            var19 = _closure1_slot1;
-            var22 = _closure1_slot2;
+            var21 = _closure1_slot1;
+            var23 = _closure1_slot2;
             var3 = 61;
-            var3 = var22[var3];
-            var5 = var19.bind(var4)(var3);
+            var3 = var23[var3];
+            var5 = var21.bind(var4)(var3);
             var3 = {};
-            var3['onPress'] = var18;
-            var18 = 62;
-            var18 = var22[var18];
-            var18 = var19.bind(var4)(var18);
-            var3['source'] = var18;
-            var21 = _closure1_slot0;
-            var18 = 29;
-            var19 = var22[var18];
-            var19 = var21.bind(var4)(var19);
-            var20 = var19.intl;
-            var19 = var20.string;
-            var18 = var22[var18];
-            var18 = var21.bind(var4)(var18);
-            var18 = var18.t;
-            var18 = var18.Yhi9/N;
-            var18 = var19.bind(var20)(var18);
-            var3['title'] = var18;
-            var3['isCompleted'] = var17;
-            var17 = _closure1_slot39;
-            var17 = var17.CHANNEL_WELCOME;
-            var3['analyticsSetupType'] = var17;
-            var17 = _closure1_slot38;
-            var17 = var17.PERSONALIZE_SERVER;
-            var3['analyticsAction'] = var17;
+            var3['onPress'] = var19;
+            var19 = {};
+            var20 = 62;
+            var20 = var23[var20];
+            var20 = var21.bind(var4)(var20);
+            var19['uri'] = var20;
+            var3['source'] = var19;
+            var19 = var16.formCtaIcon;
+            var3['iconStyle'] = var19;
+            var22 = _closure1_slot0;
+            var19 = 29;
+            var20 = var23[var19];
+            var20 = var22.bind(var4)(var20);
+            var21 = var20.intl;
+            var20 = var21.string;
+            var19 = var23[var19];
+            var19 = var22.bind(var4)(var19);
+            var19 = var19.t;
+            var19 = var19.Yhi9/N;
+            var19 = var20.bind(var21)(var19);
+            var3['title'] = var19;
+            var3['isCompleted'] = var18;
+            var18 = _closure1_slot39;
+            var18 = var18.CHANNEL_WELCOME;
+            var3['analyticsSetupType'] = var18;
+            var18 = _closure1_slot38;
+            var18 = var18.PERSONALIZE_SERVER;
+            var3['analyticsAction'] = var18;
             var12 = var13.bind(var4)(var5, var3);
 case 103:
             var13 = undefined;
             if(!var2) { _fun0015_ip = 111; continue _fun0015 }
 case 112:
             var5 = _closure1_slot42;
-            var17 = _closure1_slot1;
+            var19 = _closure1_slot1;
             var20 = _closure1_slot2;
             var2 = 61;
             var2 = var20[var2];
-            var3 = var17.bind(var4)(var2);
+            var3 = var19.bind(var4)(var2);
             var2 = {};
-            var16 = function onPress() {
+            var17 = function onPress() {
                 _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var1 = _closure2_slot0;
@@ -2077,11 +2085,15 @@ case 115:
                     return var1;
                 }
             };
-            var2['onPress'] = var16;
-            var16 = 64;
-            var16 = var20[var16];
-            var16 = var17.bind(var4)(var16);
-            var2['source'] = var16;
+            var2['onPress'] = var17;
+            var17 = {};
+            var18 = 64;
+            var18 = var20[var18];
+            var18 = var19.bind(var4)(var18);
+            var17['uri'] = var18;
+            var2['source'] = var17;
+            var16 = var16.formCtaIcon;
+            var2['iconStyle'] = var16;
             var19 = _closure1_slot0;
             var16 = 29;
             var17 = var20[var16];
@@ -3743,10 +3755,10 @@ case 192:
             var19 = new Array(2);
             var19[0] = var20;
             var20 = null;
-            if(var23) { _fun0026_ip = 194; continue _fun0026 }
-case 195:
-            var20 = var21.gdmShareInviteLinkNoRelationships;
+            if(var23) { _fun0026_ip = 122; continue _fun0026 }
 case 194:
+            var20 = var21.gdmShareInviteLinkNoRelationships;
+case 122:
             var19[1] = var20;
             var13['style'] = var19;
             var13['onPress'] = var17;
@@ -3778,13 +3790,13 @@ case 194:
             var17 = var19.bind(var20)(var17);
             var13['subtitle'] = var17;
             var17 = null;
-            if(!var18) { _fun0026_ip = 196; continue _fun0026 }
-case 197:
+            if(!var18) { _fun0026_ip = 195; continue _fun0026 }
+case 196:
             var20 = _closure1_slot42;
             var19 = _closure1_slot6;
             var18 = {};
             var17 = var20.bind(var4)(var19, var18);
-case 196:
+case 195:
             var13['trailing'] = var17;
             var13 = var16.bind(var4)(var14, var13);
             var10[1] = var13;
@@ -3793,8 +3805,8 @@ case 196:
             var13 = var13.IS_JOIN_REQUEST_INTERVIEW_CHANNEL;
             var13 = var14.bind(var15)(var13);
             var11 = null;
-            if(!var13) { _fun0026_ip = 198; continue _fun0026 }
-case 199:
+            if(!var13) { _fun0026_ip = 197; continue _fun0026 }
+case 198:
             var14 = _closure1_slot42;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -3805,7 +3817,7 @@ case 199:
             var15 = var15.id;
             var12['channelId'] = var15;
             var11 = var14.bind(var4)(var13, var12);
-case 198:
+case 197:
             var10[2] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
@@ -3867,40 +3879,40 @@ case 0:
                 return var1;
             };
             var11 = var7.bind(var8)(var5, var2);
-            if(!var3) { _fun0030_ip = 200; continue _fun0030 }
-case 201:
-            var2 = null;
-            var3 = var2 != var9;
+            if(!var3) { _fun0030_ip = 199; continue _fun0030 }
 case 200:
             var2 = null;
+            var3 = var2 != var9;
+case 199:
+            var2 = null;
             var5 = null;
-            if(!var3) { _fun0030_ip = 202; continue _fun0030 }
+            if(!var3) { _fun0030_ip = 201; continue _fun0030 }
 case 44:
             var8 = _closure1_slot13;
             var7 = var8.has;
             var3 = var9.type;
             var3 = var7.bind(var8)(var3);
-            if(var3) { _fun0030_ip = 203; continue _fun0030 }
+            if(var3) { _fun0030_ip = 202; continue _fun0030 }
 case 101:
             var3 = var9.isDM;
             var3 = var3.bind(var9)();
-            if(var3) { _fun0030_ip = 204; continue _fun0030 }
-case 205:
+            if(var3) { _fun0030_ip = 203; continue _fun0030 }
+case 204:
             var3 = var9.isGroupDM;
             var3 = var3.bind(var9)();
             if(var3) { _fun0030_ip = 91; continue _fun0030 }
-case 206:
+case 205:
             var3 = var2 != var11;
             var2 = null;
-            if(!var3) { _fun0030_ip = 207; continue _fun0030 }
-case 208:
+            if(!var3) { _fun0030_ip = 206; continue _fun0030 }
+case 207:
             var8 = _closure1_slot42;
             var7 = _closure1_slot51;
             var3 = {};
             var3['guild'] = var11;
             var3['channel'] = var9;
             var2 = var8.bind(var4)(var7, var3);
-case 207:
+case 206:
             _fun0030_ip = 12; continue _fun0030;
 case 91:
             var8 = _closure1_slot42;
@@ -3910,7 +3922,7 @@ case 91:
             var2 = var8.bind(var4)(var7, var3);
 case 12:
             _fun0030_ip = 16; continue _fun0030;
-case 204:
+case 203:
             var8 = _closure1_slot42;
             var7 = _closure1_slot53;
             var3 = {};
@@ -3918,16 +3930,16 @@ case 204:
             var3['showingSpamBanner'] = var10;
             var2 = var8.bind(var4)(var7, var3);
 case 16:
-            _fun0030_ip = 209; continue _fun0030;
-case 203:
+            _fun0030_ip = 208; continue _fun0030;
+case 202:
             var8 = _closure1_slot42;
             var7 = _closure1_slot49;
             var3 = {};
             var3['channel'] = var9;
             var2 = var8.bind(var4)(var7, var3);
-case 209:
+case 208:
             var5 = var2;
-case 202:
+case 201:
             var3 = _closure1_slot42;
             var2 = _closure1_slot7;
             var1 = {};

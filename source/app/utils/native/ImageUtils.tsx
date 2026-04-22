@@ -174,8 +174,8 @@ case 23:
             var2 = var2.bind(var5)(var6, var10);
             var6 = var8;
             var5 = var7;
-            if(!(var2 < var10)) { _fun0003_ip = 13; continue _fun0003 }
-case 24:
+            if(!(var2 < var10)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
             var13 = var11.Math;
             var12 = var13.ceil;
             var10 = var8 * var2;
@@ -184,7 +184,7 @@ case 24:
             var11 = var12.ceil;
             var2 = var7 * var2;
             var5 = var11.bind(var12)(var2);
-case 13:
+case 24:
             var2 = _closure1_slot10;
             var1 = {};
             var1['src'] = var9;

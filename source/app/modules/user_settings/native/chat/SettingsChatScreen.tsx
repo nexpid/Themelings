@@ -295,7 +295,7 @@ case 0:
                     var4 = var11[var6];
                     var4 = var10.bind(var7)(var4);
                     var4 = var4.t;
-                    var4 = var4.U68Dgp;
+                    var4 = var4["9nyle0"];
                     var4 = var8.bind(var12)(var4);
                     var5['label'] = var4;
                     var8 = _closure1_slot7;
@@ -417,13 +417,19 @@ case 0:
                     var5['settings'] = var9;
                     var9 = var11[var6];
                     var9 = var10.bind(var7)(var9);
-                    var13 = var9.intl;
-                    var12 = var13.string;
+                    var14 = var9.intl;
+                    var13 = var14.format;
                     var9 = var11[var6];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9["20dvuQ"];
-                    var9 = var12.bind(var13)(var9);
+                    var12 = var9.GejoQK;
+                    var9 = {};
+                    var15 = function emojiHook(arg1) {
+                        var1 = arg1;
+                        return var1;
+                    };
+                    var9['emojiHook'] = var15;
+                    var9 = var13.bind(var14)(var12, var9);
                     var5['subLabel'] = var9;
                     var4[5] = var5;
                     var5 = {};

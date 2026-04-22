@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = 'padding';
     var11[13] = var15;
     var6['fillContainer'] = var11;
-    var11 = {'height': '100%', 'borderRadius': null, 'borderWidth': 1, 'borderColor': 'rgba(255, 115, 250, 0.2)'};
+    var11 = {'height': '100%', 'minWidth': 26, 'borderRadius': null, 'borderWidth': 1, 'borderColor': 'rgba(255, 115, 250, 0.2)'};
     var14 = var8[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.radii;

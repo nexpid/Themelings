@@ -1134,8 +1134,8 @@ case 85:
                 var1 = var7.getName;
                 var9 = var1.bind(var7)();
 case 84:
-                if(!(var6 == var9)) { _fun0014_ip = 73; continue _fun0014 }
-case 86:
+                if(!(var6 == var9)) { _fun0014_ip = 86; continue _fun0014 }
+case 87:
                 var8 = var2.storeToken;
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -1143,23 +1143,23 @@ case 86:
                 var3 = 'unknown(token:';
                 var1 = ')';
                 var9 = var4.bind(var3)(var8, var1);
-case 73:
+case 86:
                 var1 = var6 == var7;
                 var8 = undefined;
-                if(var1) { _fun0014_ip = 87; continue _fun0014 }
-case 88:
+                if(var1) { _fun0014_ip = 88; continue _fun0014 }
+case 89:
                 var1 = var7.getMode;
                 var8 = var1.bind(var7)();
-case 87:
+case 88:
                 var1 = global;
                 var4 = var1.Error;
                 var3 = var2.error;
                 var10 = var6 != var3;
                 var2 = 'unknown store error';
-                if(!var10) { _fun0014_ip = 89; continue _fun0014 }
-case 90:
+                if(!var10) { _fun0014_ip = 90; continue _fun0014 }
+case 91:
                 var2 = var3;
-case 89:
+case 90:
                 var3 = var4.prototype;
                 var3 = Object.create(var3, {constructor: {value: var4}});
                 var22 = var3;
@@ -1194,8 +1194,8 @@ case 89:
                 var10['tags'] = var13;
                 var10 = var11.bind(var12)(var2, var10);
                 var10 = 'typescript-libdiscore-dual-read';
-                if(!(var10 === var8)) { _fun0014_ip = 91; continue _fun0014 }
-case 92:
+                if(!(var10 === var8)) { _fun0014_ip = 92; continue _fun0014 }
+case 93:
                 var12 = _closure1_slot8;
                 var11 = var12.warn;
                 var10 = var1.HermesInternal;
@@ -1204,13 +1204,13 @@ case 92:
                 var10 = ' had unexpected error in Rust implementation, disabling moving forward';
                 var10 = var14.bind(var13)(var9, var10);
                 var10 = var11.bind(var12)(var10);
-                if(!(var6 != var7)) { _fun0014_ip = 93; continue _fun0014 }
-case 94:
+                if(!(var6 != var7)) { _fun0014_ip = 94; continue _fun0014 }
+case 48:
                 var6 = var7.disableDualReadValidation;
                 var6 = var6.bind(var7)();
-case 93:
+case 94:
                 return var5;
-case 91:
+case 92:
                 if(!(var4 !== var8)) { _fun0014_ip = 95; continue _fun0014 }
 case 96:
                 var6 = var1.Error;

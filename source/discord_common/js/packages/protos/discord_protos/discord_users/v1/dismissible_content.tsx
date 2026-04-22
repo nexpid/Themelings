@@ -2170,6 +2170,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NOTIFICATION_NUDGE_POST_REACTION_BANNER'] = var2;
     var1 = 'NOTIFICATION_NUDGE_POST_REACTION_BANNER';
     var4[var2] = var1;
+    var2 = 743;
+    var4['NEW_GIFTING_BADGES_COACHMARK'] = var2;
+    var1 = 'NEW_GIFTING_BADGES_COACHMARK';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

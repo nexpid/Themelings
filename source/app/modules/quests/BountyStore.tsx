@@ -150,7 +150,7 @@ case 8:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'questHomeBounties';
@@ -176,15 +176,34 @@ case 8:
         var5 = {};
         var7 = 'isClaimingBountyReward';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             var3 = _closure1_slot3;
             var2 = var3.has;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'areAllBountiesCompleted';
+        var5['key'] = var7;
+        var6 = function value() {
+            var3 = _closure1_slot1;
+            var2 = var3.every;
+            var1 = function(arg1) {
+                var3 = _closure1_slot2;
+                var2 = var3.has;
+                var1 = arg1;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -344,7 +344,7 @@ case 20:
             }
         };
         var6['value'] = var2;
-        var2 = new Array(28);
+        var2 = new Array(29);
         var2[0] = var6;
         var6 = {};
         var7 = 'isPremium';
@@ -804,6 +804,20 @@ case 8:
         var6['get'] = var7;
         var2[22] = var6;
         var6 = {};
+        var7 = 'statusAllowsPerks';
+        var6['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot12;
+            var3 = var1.ALLOW_PERKS;
+            var2 = var3.has;
+            var1 = this;
+            var1 = var1.status;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var6['get'] = var7;
+        var2[23] = var6;
+        var6 = {};
         var7 = 'hasActiveTrial';
         var6['key'] = var7;
         var7 = function get() {
@@ -834,7 +848,7 @@ case 24:
             }
         };
         var6['get'] = var7;
-        var2[23] = var6;
+        var2[24] = var6;
         var6 = {};
         var7 = 'premiumSince';
         var6['key'] = var7;
@@ -852,7 +866,7 @@ case 42:
             }
         };
         var6['get'] = var7;
-        var2[24] = var6;
+        var2[25] = var6;
         var6 = {};
         var7 = 'hasAnyPremiumNitro';
         var6['key'] = var7;
@@ -872,7 +886,7 @@ case 42:
             return var1;
         };
         var6['get'] = var7;
-        var2[25] = var6;
+        var2[26] = var6;
         var6 = {};
         var7 = 'hasAnyPremiumGroup';
         var6['key'] = var7;
@@ -892,7 +906,7 @@ case 42:
             return var1;
         };
         var6['get'] = var7;
-        var2[26] = var6;
+        var2[27] = var6;
         var6 = {};
         var7 = 'hasPremiumAtLeast';
         var6['key'] = var7;
@@ -932,7 +946,7 @@ case 33:
             }
         };
         var6['value'] = var7;
-        var2[27] = var6;
+        var2[28] = var6;
         var6 = {};
         var7 = 'createFromServer';
         var6['key'] = var7;

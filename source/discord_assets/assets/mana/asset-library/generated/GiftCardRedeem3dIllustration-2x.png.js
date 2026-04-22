@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/GiftCardRedeem3dIllustration-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/0e75d07649c834580bbf649b8e9a4af1f698c8185d6ae7433f8a51f3749a0cb4.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/1c0a519f63c88bd820d238f27d5134c2d11462c3f49e1c9d7820317ba8de2427.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 125011;
+    var4 = 122608;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

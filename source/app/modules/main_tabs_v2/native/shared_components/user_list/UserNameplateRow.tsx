@@ -235,6 +235,8 @@ case 12:
             var8 = var12.bind(var5)(var8);
             var12 = var8.TableRowInner;
             var8 = {};
+            var24 = '100%';
+            var8['height'] = var24;
             var8['label'] = var23;
             var8['subLabel'] = var22;
             var8['icon'] = var11;

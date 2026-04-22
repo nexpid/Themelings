@@ -641,6 +641,8 @@ case 66:
             var10 = {};
             var17 = var17.clear;
             var10['onPress'] = var17;
+            var17 = 'button';
+            var10['accessibilityRole'] = var17;
             var17 = 19;
             var17 = var27[var17];
             var17 = var26.bind(var5)(var17);

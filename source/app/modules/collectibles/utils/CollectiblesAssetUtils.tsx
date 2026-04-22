@@ -20,14 +20,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['STATIC'] = var1;
     var1 = 'video';
     var4['VIDEO'] = var1;
-    var1 = 2;
+    var1 = 1;
     var5 = var7[var1];
     var1 = undefined;
     var9 = var6.bind(var1)(var5);
     var8 = var9.fileFinishedImporting;
     var5 = 'modules/collectibles/utils/CollectiblesAssetUtils.tsx';
     var5 = var8.bind(var9)(var5);
-    var5 = 3;
+    var5 = 2;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.parseSkuIdFromServerData;
@@ -40,27 +40,15 @@ case 0:
             var9 = var1.skuId;
             var8 = var1.assetFormat;
             var10 = var1.assetId;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 0;
-            var1 = var4[var1];
-            var5 = undefined;
-            var4 = var3.bind(var5)(var1);
-            var3 = var4.getIsCollectiblesNewAssetUrlEnabled;
-            var1 = 'getCollectiblesItemAssetUrl';
-            var3 = var3.bind(var4)(var1);
-            var4 = null;
             var1 = null;
-            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = var1 == var9;
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = var4 != var9;
-            var1 = null;
-            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var2 = 1;
+            var2 = 0;
             var2 = var4[var2];
+            var5 = undefined;
             var3 = var3.bind(var5)(var2);
             var2 = var3.isDiscordBackendDevelopment;
             var2 = var2.bind(var3)();
@@ -68,16 +56,16 @@ case 4:
             var4 = var3.Boolean;
             var4 = var4.bind(var5)(var10);
             var6 = '';
-            if(var2) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var6;
-            if(!var4) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var3.HermesInternal;
             var5 = var2.concat;
             var2 = '/';
             var12 = var5.bind(var6)(var10, var2);
-case 7:
+case 6:
             var2 = var3.HermesInternal;
             var11 = var2.concat;
             var19 = 'https://cdn.discordapp.com/';
@@ -89,16 +77,16 @@ case 7:
             var14 = var12;
             var13 = var8;
             var2 = var19[var11](var18, var17, var16, var15, var14, var13, var12);
-            _fun0001_ip = 9; continue _fun0001;
-case 5:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var7 = var6;
-            if(!var4) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var4) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var4 = var3.HermesInternal;
             var5 = var4.concat;
             var4 = '/';
             var7 = var5.bind(var6)(var10, var4);
-case 10:
+case 9:
             var3 = var3.HermesInternal;
             var6 = var3.concat;
             var19 = 'http://localhost:3000/_storage/';
@@ -110,7 +98,7 @@ case 10:
             var14 = var7;
             var13 = var8;
             var2 = var19[var6](var18, var17, var16, var15, var14, var13, var12);
-case 9:
+case 8:
             var1 = var2;
 case 2:
             return var1;

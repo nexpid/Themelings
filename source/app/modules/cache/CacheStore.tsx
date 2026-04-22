@@ -2522,7 +2522,7 @@ case 172:
                     var12 = var3;
                     var12 = var12.bind(var5)();
                     if(var11) { _fun0022_ip = 173; continue _fun0022 }
-case 94:
+case 174:
                     var11 = function dontLoadLateLazyCache() {
                         var3 = _closure1_slot32;
                         var2 = undefined;
@@ -2549,12 +2549,12 @@ case 94:
                     };
                     var11 = var11.bind(var5)();
                     SaveGenerator(address=333);
-case 174:
+case 175:
                     return var11;
 case 25:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(!var12) { _fun0022_ip = 175; continue _fun0022 }
-case 176: // try_end0
+                    if(!var12) { _fun0022_ip = 176; continue _fun0022 }
+case 177: // try_end0
                     return var11;
 case 173: // try_start_1
                     var20 = var10;
@@ -2574,18 +2574,18 @@ case 173: // try_start_1
                     var21 = undefined;
                     var7 = var21[var7](var20, var19, var18, var17, var16);
                     SaveGenerator(address=369);
-case 177:
-                    return var7;
 case 178:
-                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0022_ip = 179; continue _fun0022 }
-case 175: // try_end1
-                    _fun0022_ip = 180; continue _fun0022;
+                    return var7;
 case 179:
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
+                    if(var8) { _fun0022_ip = 180; continue _fun0022 }
+case 176: // try_end1
+                    _fun0022_ip = 181; continue _fun0022;
+case 180:
                     return var7;
 case 171:
                     return var6;
-case 181: // catch_target0 // catch_target1
+case 182: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=9);
                     var9 = _closure1_slot18;
                     var8 = var9.error;
@@ -2614,7 +2614,7 @@ case 181: // catch_target0 // catch_target1
                     var9['action'] = var10;
                     var6['args'] = var9;
                     var6 = var7.bind(var8)(var6);
-case 180:
+case 181:
                     return var5;
 case 168:
                     var6 = _closure1_slot1;
@@ -2637,7 +2637,7 @@ case 0:
                             var5 = var2 == var3;
                             var1 = undefined;
                             if(var5) { _fun0023_ip = 68; continue _fun0023 }
-case 182:
+case 183:
                             var3 = var3.dispatcher;
                             var2 = var2 == var3;
                             var1 = undefined;

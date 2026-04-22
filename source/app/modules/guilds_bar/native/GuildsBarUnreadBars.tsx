@@ -391,7 +391,7 @@ case 67:
             var27 = var14;
             var26 = var13;
             if(!(!(var31 < var23))) { _fun0005_ip = 68; continue _fun0005 }
-case 26:
+case 27:
             var32 = var12.type;
             var33 = _closure1_slot0;
             var31 = _closure1_slot2;

@@ -1,4 +1,4 @@
-// app/modules/people/FriendRequestMessageExperiment.tsx
+// app/modules/presence/ContentClassificationPresenceFilterExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,12 +16,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'kind': 'user', 'name': '2026-03-friend-request-message'};
+    var2 = {'kind': 'user', 'name': '2026-02-content-classification-presence-filter'};
     var8 = {};
-    var9 = false;
-    var8['enabled'] = var9;
+    var11 = false;
+    var8['enabled'] = var11;
     var2['defaultConfig'] = var8;
     var8 = {};
+    var9 = {};
+    var9['enabled'] = var11;
+    var8[0] = var9;
     var9 = {};
     var9['enabled'] = var10;
     var8[1] = var9;
@@ -31,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/people/FriendRequestMessageExperiment.tsx';
+    var4 = 'modules/presence/ContentClassificationPresenceFilterExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var3['ContentClassificationPresenceFilterExperiment'] = var2;
     return var1;
 })();

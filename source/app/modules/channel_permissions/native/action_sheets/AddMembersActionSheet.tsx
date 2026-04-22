@@ -475,14 +475,14 @@ case 35:
 case 34:
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var1 = 26;
+            var1 = 25;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var9 = var1.BottomSheetScrollView;
 case 36:
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var1 = 27;
+            var1 = 26;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             if(var2) { _fun0002_ip = 37; continue _fun0002 }
@@ -503,7 +503,7 @@ case 39:
             var26 = _closure1_slot17;
             var25 = _closure1_slot1;
             var28 = _closure1_slot3;
-            var24 = 28;
+            var24 = 27;
             var24 = var28[var24];
             var25 = var25.bind(var4)(var24);
             var24 = {};
@@ -530,7 +530,7 @@ case 39:
                 var3 = var1 === var2;
                 var6 = _closure1_slot1;
                 var2 = _closure1_slot3;
-                var1 = 29;
+                var1 = 28;
                 var2 = var2[var1];
                 var1 = undefined;
                 var9 = var6.bind(var1)(var2);
@@ -667,34 +667,35 @@ case 0:
                     if(!(var2 !== var1)) { _fun0005_ip = 46; continue _fun0005 }
 case 47:
                     var4 = _closure1_slot17;
-                    var2 = _closure1_slot1;
+                    var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
                     var1 = 24;
                     var1 = var3[var1];
                     var3 = undefined;
-                    var2 = var2.bind(var3)(var1);
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.ChannelOverwritesCheckboxItem;
                     var1 = {};
-                    var7 = _closure2_slot9;
-                    var7 = var7 === var11;
-                    if(var7) { _fun0005_ip = 48; continue _fun0005 }
+                    var9 = _closure2_slot9;
+                    var9 = var9 === var11;
+                    if(var9) { _fun0005_ip = 48; continue _fun0005 }
 case 49:
-                    var8 = _closure2_slot11;
-                    var7 = var8 === var11;
+                    var10 = _closure2_slot11;
+                    var9 = var10 === var11;
 case 48:
-                    var1['start'] = var7;
-                    var7 = _closure2_slot10;
-                    var7 = var7 === var11;
-                    if(var7) { _fun0005_ip = 50; continue _fun0005 }
+                    var1['start'] = var9;
+                    var9 = _closure2_slot10;
+                    var9 = var9 === var11;
+                    if(var9) { _fun0005_ip = 50; continue _fun0005 }
 case 51:
-                    var8 = _closure2_slot12;
-                    var7 = var8 === var11;
+                    var10 = _closure2_slot12;
+                    var9 = var10 === var11;
 case 50:
-                    var1['end'] = var7;
+                    var1['end'] = var9;
                     var1['item'] = var6;
-                    var7 = _closure2_slot0;
-                    var7 = var7.id;
-                    var1['guildId'] = var7;
-                    var5 = function onPress() {
+                    var9 = _closure2_slot0;
+                    var9 = var9.id;
+                    var1['guildId'] = var9;
+                    var8 = function onPress() {
                         var3 = _closure3_slot0;
                         var2 = function updatePendingAdditions(arg1) {
                             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -829,22 +830,12 @@ case 52:
                         var2 = var2.bind(var1)(var3);
                         return var1;
                     };
-                    var1['onPress'] = var5;
-                    var8 = _closure1_slot17;
-                    var7 = _closure1_slot0;
-                    var11 = _closure1_slot3;
-                    var5 = 25;
-                    var5 = var11[var5];
-                    var5 = var7.bind(var3)(var5);
-                    var7 = var5.FormCheckbox;
-                    var5 = {};
-                    var10 = _closure1_slot23;
-                    var10 = var10.bind(var3)(var6);
-                    var9 = _closure2_slot1;
-                    var9 = var10 in var9;
-                    var5['checked'] = var9;
-                    var5 = var8.bind(var3)(var7, var5);
-                    var1['trailing'] = var5;
+                    var1['onPress'] = var8;
+                    var7 = _closure1_slot23;
+                    var7 = var7.bind(var3)(var6);
+                    var5 = _closure2_slot1;
+                    var5 = var7 in var5;
+                    var1['checked'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     _fun0005_ip = 65; continue _fun0005;
 case 46:
@@ -887,7 +878,7 @@ case 45:
             var10 = var14.bind(var4)(var10);
             var11 = var10.EmptyState;
             var10 = {};
-            var16 = 30;
+            var16 = 29;
             var16 = var13[var16];
             var16 = var14.bind(var4)(var16);
             var16 = var16.NoResultsAlt;
@@ -1053,7 +1044,7 @@ case 66:
     var5['adminWarning'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot21 = var5;
-    var5 = 39;
+    var5 = 38;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1125,7 +1116,7 @@ case 73:
                                     var3 = var5.push;
                                     var7 = _closure1_slot0;
                                     var6 = _closure1_slot3;
-                                    var2 = 32;
+                                    var2 = 31;
                                     var6 = var6[var2];
                                     var2 = undefined;
                                     var8 = var7.bind(var2)(var6);
@@ -1144,7 +1135,7 @@ case 71:
                                     var2 = var3.push;
                                     var6 = _closure1_slot0;
                                     var5 = _closure1_slot3;
-                                    var4 = 32;
+                                    var4 = 31;
                                     var5 = var5[var4];
                                     var4 = undefined;
                                     var6 = var6.bind(var4)(var5);
@@ -1163,7 +1154,7 @@ case 69:
 case 74: // try_start_0
                             var8 = _closure1_slot0;
                             var7 = _closure1_slot3;
-                            var5 = 33;
+                            var5 = 32;
                             var7 = var7[var5];
                             var5 = undefined;
                             var8 = var8.bind(var5)(var7);
@@ -1180,7 +1171,7 @@ case 76:
 case 78:
                             var8 = _closure1_slot0;
                             var6 = _closure1_slot3;
-                            var7 = 34;
+                            var7 = 33;
                             var7 = var6[var7];
                             var9 = var8.bind(var5)(var7);
                             var8 = var9.memberOrRoleAddedToast;
@@ -1188,7 +1179,7 @@ case 78:
                             var4 = _closure5_slot1;
                             var4 = var8.bind(var9)(var7, var4);
                             var4 = _closure1_slot1;
-                            var3 = 35;
+                            var3 = 34;
                             var3 = var6[var3];
                             var4 = var4.bind(var5)(var3);
                             var3 = var4.hideActionSheet;
@@ -1262,7 +1253,7 @@ case 82:
             };
             var16 = var6.bind(var7)(var2, var1);
             var2 = _closure1_slot1;
-            var1 = 31;
+            var1 = 30;
             var1 = var4[var1];
             var1 = var2.bind(var5)(var1);
             var12 = true;
@@ -1285,13 +1276,13 @@ case 87:
             var4 = _closure1_slot17;
             var21 = _closure1_slot0;
             var22 = _closure1_slot3;
-            var2 = 36;
+            var2 = 35;
             var2 = var22[var2];
             var2 = var21.bind(var5)(var2);
             var3 = var2.BottomSheet;
             var2 = {'scrollable': true, 'header': null, 'startExpanded': true};
             var8 = _closure1_slot17;
-            var6 = 37;
+            var6 = 36;
             var6 = var22[var6];
             var6 = var21.bind(var5)(var6);
             var7 = var6.BottomSheetTitleHeader;
@@ -1309,7 +1300,7 @@ case 87:
             var6['title'] = var18;
             var6['subtitle'] = var17;
             var18 = _closure1_slot17;
-            var17 = 38;
+            var17 = 37;
             var17 = var22[var17];
             var17 = var21.bind(var5)(var17);
             var17 = var17.Button;
@@ -1370,7 +1361,7 @@ case 90:
             var20 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
-                var1 = 35;
+                var1 = 34;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);

@@ -1022,7 +1022,7 @@ case 96:
 case 98:
                     var2 = var4.cleanDatabaseAsync;
                     var2 = var2.bind(var4)(var3, var6);
-                    SaveGenerator(address=119);
+                    SaveGenerator(address=121);
 case 99:
                     return var2;
 case 100:
@@ -1032,25 +1032,25 @@ case 97:
                     var6 = var4.steps;
                     var3 = var6.optimize;
                     var3 = var3.bind(var6)();
-                    SaveGenerator(address=145);
-case 102:
-                    return var3;
+                    SaveGenerator(address=147);
 case 80:
+                    return var3;
+case 102:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
                     if(var6) { _fun0015_ip = 103; continue _fun0015 }
 case 104:
                     var6 = var4.steps;
                     var4 = var6.deleteExtraDatabases;
                     var4 = var4.bind(var6)();
-                    SaveGenerator(address=171);
-case 17:
-                    return var4;
+                    SaveGenerator(address=173);
 case 105:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0015_ip = 106; continue _fun0015 }
-case 107:
-                    return var5;
+                    return var4;
 case 106:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    if(var6) { _fun0015_ip = 84; continue _fun0015 }
+case 16:
+                    return var5;
+case 84:
                     return var4;
 case 103:
                     return var3;
@@ -1086,7 +1086,7 @@ case 0:
                     StartGenerator();
                     var5 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0016_ip = 104; continue _fun0016 }
+                    if(var2) { _fun0016_ip = 107; continue _fun0016 }
 case 73:
                     var4 = arg1;
                     var3 = arg2;
@@ -1100,10 +1100,10 @@ case 54:
                     return var2;
 case 55:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0016_ip = 99; continue _fun0016 }
+                    if(var6) { _fun0016_ip = 109; continue _fun0016 }
 case 5:
-                    if(!var3) { _fun0016_ip = 109; continue _fun0016 }
-case 110:
+                    if(!var3) { _fun0016_ip = 110; continue _fun0016 }
+case 111:
                     var7 = var5.steps;
                     var6 = var7.deleteDeprecatedKeyspaces;
                     var3 = var4;
@@ -1113,24 +1113,24 @@ case 39:
                     return var3;
 case 38:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0016_ip = 111; continue _fun0016 }
-case 112:
+                    if(var6) { _fun0016_ip = 112; continue _fun0016 }
+case 113:
                     var6 = var5.steps;
                     var5 = var6.trimLowDisk;
                     var4 = var5.bind(var6)(var4);
                     SaveGenerator(address=103);
-case 98:
-                    return var4;
-case 113:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0016_ip = 114; continue _fun0016 }
-case 109: // try_end0
-                    _fun0016_ip = 115; continue _fun0016;
 case 114:
                     return var4;
-case 111:
+case 98:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(var5) { _fun0016_ip = 115; continue _fun0016 }
+case 110: // try_end0
+                    _fun0016_ip = 116; continue _fun0016;
+case 115:
+                    return var4;
+case 112:
                     return var3;
-case 99:
+case 109:
                     return var2;
 case 62: // catch_target0
                     CatchBlockStart(arg_register=4);
@@ -1138,10 +1138,10 @@ case 62: // catch_target0
                     var3 = var4.warn;
                     var2 = "couldn't clean database:";
                     var2 = var3.bind(var4)(var2, var5);
-case 115:
+case 116:
                     var2 = undefined;
                     return var2;
-case 104:
+case 107:
                     return var1;
                 }
             };
