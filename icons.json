@@ -5149,16 +5149,6 @@
         "width": 32,
         "height": 32
     },
-    "ic_mobile_status": {
-        "file": "app/images/native/icons/ic_mobile_status.png",
-        "hash": "d1c9950177a9a61ab5c99ff150fac191",
-        "scales": [
-            1,
-            2
-        ],
-        "width": 14,
-        "height": 20
-    },
     "ic_moderator": {
         "file": "app/modules/stage_channels/native/images/ic_moderator.png",
         "hash": "98e013109b389eb9fdfad5277cb35b88",
@@ -9781,6 +9771,16 @@
         "width": 24,
         "height": 24
     },
+    "MobilePhoneShareIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/MobilePhoneShareIcon.png",
+        "hash": "726a6162987ac31e9ff3daafd465ccca",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ModerationIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ModerationIcon.png",
         "hash": "44367cf78a4a6bf3f05d89256b2c8ccd",
@@ -10707,15 +10707,6 @@
         ],
         "width": 150.5,
         "height": 156
-    },
-    "redesign-hub-back-to-school": {
-        "file": "app/modules/hub/native/images/redesign-hub-back-to-school.png",
-        "hash": "aee42b95aca1633a595e5eedfcbc589c",
-        "scales": [
-            3
-        ],
-        "width": 200.33333333333334,
-        "height": 139.33333333333334
     },
     "RedoIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/RedoIcon.png",
@@ -12867,17 +12858,6 @@
         ],
         "width": 120,
         "height": 120
-    },
-    "wumpus_cleaning": {
-        "file": "app/images/native/empties/wumpus_cleaning.png",
-        "hash": "c81fce570b5d7f70b84e1873506f14ac",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 251,
-        "height": 153
     },
     "wumpus_couch_gaming": {
         "file": "app/modules/quests/images/wumpus_couch_gaming.png",
