@@ -611,34 +611,18 @@ case 50:
     };
     var3['isTrialUserEligibleToSeeOutboundPromotion'] = var4;
     var2 = function isRecurringPromotion(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-            var1 = arg1;
-            var5 = var1.promotionPartner;
-            var3 = var1.promotionType;
-            var7 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var6 = 18;
-            var1 = var1[var6];
-            var4 = undefined;
-            var1 = var7.bind(var4)(var1);
-            var1 = var1.PromotionTypes;
-            var1 = var1.THIRD_PARTY_OUTBOUND_RECURRING;
-            var1 = var3 === var1;
-            if(var1) { _fun0011_ip = 52; continue _fun0011 }
-case 53:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var6];
-            var2 = var3.bind(var4)(var2);
-            var4 = var2.RECURRING_PARTNER_IDS;
-            var3 = var4.has;
-            var2 = var5.toLocaleLowerCase;
-            var2 = var2.bind(var5)();
-            var1 = var3.bind(var4)(var2);
-case 52:
-            return var1;
-        }
+        var1 = arg1;
+        var2 = var1.promotionType;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 18;
+        var3 = var3[var1];
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3);
+        var1 = var1.PromotionTypes;
+        var1 = var1.THIRD_PARTY_OUTBOUND_RECURRING;
+        var1 = var2 === var1;
+        return var1;
     };
     var3['isRecurringPromotion'] = var2;
     return var1;

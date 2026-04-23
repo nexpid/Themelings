@@ -427,7 +427,8 @@ case 32:
                 var1['name'] = var13;
                 var13 = var8.summary;
                 var1['summary'] = var13;
-                var1['styles'] = var2;
+                var13 = var8.primaryCollectionStyles;
+                var1['styles'] = var13;
                 var1['type'] = var12;
                 var15 = var7.premiumType;
                 var14 = _closure1_slot14;
@@ -459,10 +460,10 @@ case 38:
                 var13 = var5 != var11;
                 var10 = '';
                 var7 = var10;
-                if(!var13) { _fun0005_ip = 18; continue _fun0005 }
-case 40:
+                if(!var13) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var7 = var11;
-case 18:
+case 40:
                 var1['categorySkuId'] = var7;
                 var13 = _closure1_slot13;
                 var11 = var13.some;
@@ -486,7 +487,7 @@ case 18:
                 var7 = var7.CollectiblesItemType;
                 var11 = var7.VARIANTS_GROUP;
                 var7 = undefined;
-                if(!(var12 === var11)) { _fun0005_ip = 41; continue _fun0005 }
+                if(!(var12 === var11)) { _fun0005_ip = 22; continue _fun0005 }
 case 42:
                 var12 = var8.skus;
                 var11 = var12.map;
@@ -564,13 +565,13 @@ case 53:
                         var15 = var9.premiumType;
                         var14 = _closure1_slot14;
                         var13 = null;
-                        if(!(var15 !== var14)) { _fun0006_ip = 55; continue _fun0006 }
-case 36:
-                        var13 = var9.premiumType;
+                        if(!(var15 !== var14)) { _fun0006_ip = 36; continue _fun0006 }
 case 55:
+                        var13 = var9.premiumType;
+case 36:
                         var2['premiumType'] = var13;
                         if(!(var1 == var11)) { _fun0006_ip = 18; continue _fun0006 }
-case 39:
+case 56:
                         var14 = new Array(1);
                         var14[0] = var12;
                         var13 = var14.filter;
@@ -585,16 +586,16 @@ case 18:
                         var2['items'] = var11;
                         var10 = _closure3_slot0;
                         var10 = var10.primaryCollectionId;
-                        if(!(var1 == var10)) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+                        if(!(var1 == var10)) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
                         var10 = var9.categorySkuId;
-case 56:
+case 57:
                         var11 = var1 != var10;
                         var9 = var8;
-                        if(!var11) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+                        if(!var11) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
                         var9 = var10;
-case 58:
+case 59:
                         var2['categorySkuId'] = var9;
                         var10 = _closure1_slot13;
                         var9 = var10.some;
@@ -611,8 +612,8 @@ case 58:
                         var6 = var5.prices;
                         var2['prices'] = var6;
                         var5 = var5.googleSkuIds;
-                        if(!(var1 == var5)) { _fun0006_ip = 60; continue _fun0006 }
-case 61:
+                        if(!(var1 == var5)) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
                         var6 = {};
                         var7 = _closure1_slot15;
                         var9 = var7.MOBILE;
@@ -620,7 +621,7 @@ case 61:
                         var7 = var7.MOBILE_PREMIUM_TIER_2;
                         var6[6] = var8;
                         var5 = var6;
-case 60:
+case 61:
                         var2['googleSkuIds'] = var5;
                         var2['eligibleOffers'] = var3;
                         var2['variants'] = var3;
@@ -645,11 +646,11 @@ case 45:
                     return var1;
                 };
                 var7 = var11.bind(var12)(var8);
-case 41:
+case 22:
                 var1['variants'] = var7;
                 var7 = var6.googleSkuIds;
-                if(!(var5 == var7)) { _fun0005_ip = 62; continue _fun0005 }
-case 63:
+                if(!(var5 == var7)) { _fun0005_ip = 63; continue _fun0005 }
+case 64:
                 var8 = {};
                 var9 = _closure1_slot15;
                 var11 = var9.MOBILE;
@@ -657,14 +658,14 @@ case 63:
                 var9 = var9.MOBILE_PREMIUM_TIER_2;
                 var8[8] = var10;
                 var7 = var8;
-case 62:
+case 63:
                 var1['googleSkuIds'] = var7;
                 var1['eligibleOffers'] = var2;
                 var7 = var6.bundledSkus;
                 var5 = var5 == var7;
                 var2 = undefined;
-                if(var5) { _fun0005_ip = 64; continue _fun0005 }
-case 65:
+                if(var5) { _fun0005_ip = 65; continue _fun0005 }
+case 66:
                 var6 = var7.map;
                 var5 = function(arg1) {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -674,14 +675,14 @@ case 0:
                         var5 = null;
                         var2 = var5 == var1;
                         var6 = undefined;
-                        if(var2) { _fun0007_ip = 66; continue _fun0007 }
-case 67:
+                        if(var2) { _fun0007_ip = 67; continue _fun0007 }
+case 68:
                         var6 = var1.collectibles;
-case 66:
+case 67:
                         var2 = var5 == var6;
                         var1 = null;
-                        if(var2) { _fun0007_ip = 68; continue _fun0007 }
-case 69:
+                        if(var2) { _fun0007_ip = 69; continue _fun0007 }
+case 70:
                         var4 = _closure1_slot10;
                         var2 = {};
                         var8 = var6.type;
@@ -689,10 +690,10 @@ case 69:
                         var8 = var6.premiumType;
                         var7 = _closure1_slot14;
                         var5 = null;
-                        if(!(var8 !== var7)) { _fun0007_ip = 70; continue _fun0007 }
-case 71:
+                        if(!(var8 !== var7)) { _fun0007_ip = 71; continue _fun0007 }
+case 72:
                         var5 = var6.premiumType;
-case 70:
+case 71:
                         var2['premiumType'] = var5;
                         var5 = var3.name;
                         var2['name'] = var5;
@@ -708,7 +709,7 @@ case 70:
                         var9 = var2;
                         var2 = new var10[var4](var9, var8);
                         var1 = var2 instanceof Object ? var2 : var3;
-case 68:
+case 69:
                         return var1;
                     }
                 };
@@ -721,7 +722,7 @@ case 68:
                     return var1;
                 };
                 var2 = var5.bind(var6)(var4);
-case 64:
+case 65:
                 var1['bundledProducts'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

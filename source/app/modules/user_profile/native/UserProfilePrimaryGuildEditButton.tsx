@@ -112,8 +112,8 @@ case 2:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var17 = var10.bind(var12)(var9, var1, var8);
-            _closure2_slot1 = var17;
+            var18 = var10.bind(var12)(var9, var1, var8);
+            _closure2_slot1 = var18;
             var1 = 7;
             var1 = var4[var1];
             var2 = var2.bind(var5)(var1);
@@ -143,13 +143,13 @@ case 2:
 case 10:
             if(!var2) { _fun0001_ip = 9; continue _fun0001 }
 case 11:
-            var2 = var1 == var17;
+            var2 = var1 == var18;
             var13 = undefined;
             if(var2) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var13 = var17.profile;
+            var13 = var18.profile;
 case 12:
-            var12 = var1 != var17;
+            var12 = var1 != var18;
             if(!var12) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var3 = _closure1_slot0;
@@ -158,7 +158,7 @@ case 15:
             var2 = var4[var2];
             var9 = var3.bind(var5)(var2);
             var8 = var9.getGuildTagBadgeUrl;
-            var4 = var17.id;
+            var4 = var18.id;
             var3 = var1 == var13;
             var2 = undefined;
             if(var3) { _fun0001_ip = 16; continue _fun0001 }
@@ -175,7 +175,7 @@ case 18:
             var2 = var2.SIZE_24;
             var12 = var8.bind(var9)(var4, var3, var2);
 case 14:
-            var8 = var1 != var17;
+            var8 = var1 != var18;
             if(var8) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
             var9 = _closure1_slot0;
@@ -192,7 +192,7 @@ case 21:
             var9 = var3.bind(var4)(var2);
             _fun0001_ip = 22; continue _fun0001;
 case 20:
-            var9 = var17.name;
+            var9 = var18.name;
 case 22:
             var10 = var9;
             if(!(var1 != var13)) { _fun0001_ip = 23; continue _fun0001 }
@@ -232,17 +232,17 @@ case 25:
             var2 = var21.bind(var5)(var2);
             var3 = var2.UserProfileEditFormButton;
             var2 = {};
-            var18 = 10;
-            var19 = var22[var18];
+            var17 = 10;
+            var19 = var22[var17];
             var19 = var21.bind(var5)(var19);
             var20 = var19.intl;
             var19 = var20.string;
-            var18 = var22[var18];
-            var18 = var21.bind(var5)(var18);
-            var18 = var18.t;
-            var18 = var18.DUD+5n;
-            var18 = var19.bind(var20)(var18);
-            var2['label'] = var18;
+            var17 = var22[var17];
+            var17 = var21.bind(var5)(var17);
+            var17 = var17.t;
+            var17 = var17.DUD+5n;
+            var17 = var19.bind(var20)(var17);
+            var2['label'] = var17;
             var2['buttonText'] = var9;
             var9 = {};
             var9['text'] = var10;
@@ -289,12 +289,18 @@ case 27:
 case 30:
             var10 = _closure1_slot5;
             var9 = _closure1_slot1;
-            var18 = _closure1_slot2;
-            var8 = 17;
-            var8 = var18[var8];
+            var19 = _closure1_slot2;
+            var17 = 17;
+            var8 = var19[var17];
             var9 = var9.bind(var5)(var8);
             var8 = {};
-            var8['guild'] = var17;
+            var8['guild'] = var18;
+            var18 = _closure1_slot0;
+            var17 = var19[var17];
+            var17 = var18.bind(var5)(var17);
+            var17 = var17.GuildIconSizes;
+            var17 = var17.LARGE;
+            var8['size'] = var17;
             var7 = var10.bind(var5)(var9, var8);
 case 29:
             var2['leading'] = var7;

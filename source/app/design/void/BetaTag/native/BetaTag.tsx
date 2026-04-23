@@ -28,15 +28,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 2;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var2 = var2.jsx;
+    var2 = var2.Gradients;
     var _closure1_slot4 = var2;
     var2 = 3;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot5 = var2;
+    var2 = 4;
     var2 = var7[var2];
     var8 = var6.bind(var1)(var2);
     var5 = var8.createStyles;
     var2 = {};
     var9 = {'backgroundColor': null, 'borderRadius': null, 'marginLeft': 8, 'paddingHorizontal': 8, 'justifyContent': 'center'};
-    var10 = 4;
+    var10 = 5;
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
@@ -53,14 +58,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['textTransform'] = var10;
     var2['text'] = var9;
     var2 = var5.bind(var8)(var2);
-    var _closure1_slot5 = var2;
+    var _closure1_slot6 = var2;
     var2 = {};
     var5 = 'small';
     var2['SMALL'] = var5;
     var5 = 'medium';
     var2['MEDIUM'] = var5;
-    var _closure1_slot6 = var2;
-    var5 = 9;
+    var _closure1_slot7 = var2;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -76,7 +81,7 @@ case 0:
             var5 = undefined;
             if(!(var3 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot7;
             var3 = var2.MEDIUM;
 case 2:
             var1 = var1.gradient;
@@ -84,21 +89,21 @@ case 2:
 case 5:
             var1 = false;
 case 4:
-            var2 = _closure1_slot5;
-            var8 = var2.bind(var5)();
             var2 = _closure1_slot6;
+            var8 = var2.bind(var5)();
+            var2 = _closure1_slot7;
             var2 = var2.SMALL;
             var10 = 'text-xs/bold';
             if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot7;
             var2 = var2.MEDIUM;
             var10 = undefined;
             if(!(var2 === var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 8:
             var10 = 'text-sm/bold';
 case 6:
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot5;
             if(var1) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
             var2 = _closure1_slot3;
@@ -110,7 +115,7 @@ case 10:
             var1['style'] = var3;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var3 = 7;
+            var3 = 8;
             var3 = var16[var3];
             var3 = var15.bind(var5)(var3);
             var7 = var3.Text;
@@ -123,7 +128,7 @@ case 10:
             var12[0] = var13;
             var12[1] = var9;
             var3['style'] = var12;
-            var12 = 8;
+            var12 = 9;
             var13 = var16[var12];
             var13 = var15.bind(var5)(var13);
             var14 = var13.intl;
@@ -141,7 +146,7 @@ case 10:
 case 9:
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var2 = var12[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -151,23 +156,21 @@ case 9:
             var7[1] = var11;
             var2['style'] = var7;
             var11 = _closure1_slot0;
-            var6 = 6;
-            var7 = var12[var6];
-            var7 = var11.bind(var5)(var7);
-            var7 = var7.HorizontalGradient;
-            var7 = var7.START;
-            var2['start'] = var7;
-            var7 = var12[var6];
+            var7 = 7;
+            var13 = var12[var7];
+            var13 = var11.bind(var5)(var13);
+            var13 = var13.HorizontalGradient;
+            var13 = var13.START;
+            var2['start'] = var13;
+            var7 = var12[var7];
             var7 = var11.bind(var5)(var7);
             var7 = var7.HorizontalGradient;
             var7 = var7.END;
             var2['end'] = var7;
-            var6 = var12[var6];
-            var6 = var11.bind(var5)(var6);
-            var6 = var6.Gradients;
+            var6 = _closure1_slot4;
             var6 = var6.PREMIUM_TIER_2_TRI_COLOR;
             var2['colors'] = var6;
-            var6 = 7;
+            var6 = 8;
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
             var7 = var6.Text;
@@ -180,7 +183,7 @@ case 9:
             var8[0] = var10;
             var8[1] = var9;
             var6['style'] = var8;
-            var8 = 8;
+            var8 = 9;
             var9 = var12[var8];
             var9 = var11.bind(var5)(var9);
             var10 = var9.intl;

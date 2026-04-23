@@ -36,6 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = _closure1_slot1;
         var2 = var1 * var4;
         var1 = {};
+        var1['scale'] = var4;
         var5 = 2;
         var5 = var5 * var2;
         var5 = var6 + var5;

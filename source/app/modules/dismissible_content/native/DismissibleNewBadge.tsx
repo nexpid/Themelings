@@ -23,15 +23,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.HorizontalGradient;
-    var _closure1_slot3 = var7;
     var4 = var4.Gradients;
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -55,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginLeft'] = var10;
     var4['newTagContainer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 9;
+    var _closure1_slot5 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -76,11 +74,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot4 = var2;
         var1 = var1.variantOverride;
         var _closure2_slot5 = var1;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var4 = undefined;
         var2 = var2.bind(var4)();
         var _closure2_slot6 = var2;
-        var3 = _closure1_slot5;
+        var3 = _closure1_slot4;
         var2 = _closure1_slot1;
         var6 = _closure1_slot2;
         var1 = 5;
@@ -123,22 +121,29 @@ case 8:
                 if(var1) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
                 var1 = _closure2_slot3;
-                var8 = _closure1_slot5;
+                var8 = _closure1_slot4;
                 if(var1) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
                 var3 = _closure1_slot1;
-                var4 = _closure1_slot2;
+                var11 = _closure1_slot2;
                 var1 = 8;
-                var1 = var4[var1];
+                var1 = var11[var1];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var1);
                 var1 = {};
                 var5 = _closure2_slot6;
                 var5 = var5.newTagContainer;
                 var1['style'] = var5;
-                var5 = _closure1_slot3;
-                var10 = var5.START;
-                var1['start'] = var10;
+                var10 = _closure1_slot0;
+                var5 = 9;
+                var12 = var11[var5];
+                var12 = var10.bind(var4)(var12);
+                var12 = var12.HorizontalGradient;
+                var12 = var12.START;
+                var1['start'] = var12;
+                var5 = var11[var5];
+                var5 = var10.bind(var4)(var5);
+                var5 = var5.HorizontalGradient;
                 var5 = var5.END;
                 var1['end'] = var5;
                 var5 = _closure2_slot4;
@@ -163,7 +168,7 @@ case 13:
                 var5 = _closure2_slot4;
 case 15:
                 var1['colors'] = var5;
-                var10 = _closure1_slot5;
+                var10 = _closure1_slot4;
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var5 = 7;
@@ -194,14 +199,14 @@ case 11:
                 var3['containerStyle'] = var9;
                 var9 = true;
                 var3['gradient'] = var9;
-                var9 = _closure1_slot4;
+                var9 = _closure1_slot3;
                 var9 = var9.PREMIUM_TIER_2_TRI_COLOR;
                 var3['colors'] = var9;
                 var1 = var8.bind(var5)(var4, var3);
 case 16:
                 _fun0001_ip = 17; continue _fun0001;
 case 9:
-                var5 = _closure1_slot5;
+                var5 = _closure1_slot4;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 7;

@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function BountiesModalEndedCtaButtonsTsx1(){const{withTiming,visible,timingStandard}=this.__closure;return{opacity:withTiming(visible?1:0,timingStandard)};}';
     var4['code'] = var7;
     var _closure1_slot6 = var4;
-    var4 = 10;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -59,8 +59,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var9 = var1.bounty;
+            var _closure2_slot0 = var9;
             var1 = var1.visible;
-            var _closure2_slot0 = var1;
+            var _closure2_slot1 = var1;
             var2 = _closure1_slot5;
             var5 = undefined;
             var7 = var2.bind(var5)();
@@ -81,7 +82,7 @@ case 0:
                     var7 = undefined;
                     var5 = var4.bind(var7)(var3);
                     var4 = var5.withTiming;
-                    var6 = _closure2_slot0;
+                    var6 = _closure2_slot1;
                     var3 = 0;
                     if(!var6) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
@@ -145,7 +146,44 @@ case 5:
             var13 = var13.buttonLabel;
             var6['text'] = var13;
             var10 = function onPress() {
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var1 = 8;
+                var2 = var8[var1];
                 var1 = undefined;
+                var5 = var7.bind(var1)(var2);
+                var4 = var5.openAdGameLinkDirectly;
+                var3 = {};
+                var2 = _closure2_slot0;
+                var6 = var2.id;
+                var3['adContentId'] = var6;
+                var6 = 9;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var6 = var6.AdCreativeType;
+                var6 = var6.BOUNTY;
+                var3['adCreativeType'] = var6;
+                var2 = var2.cta;
+                var3['cta'] = var2;
+                var2 = {};
+                var6 = 10;
+                var9 = var8[var6];
+                var9 = var7.bind(var1)(var9);
+                var9 = var9.QuestContent;
+                var9 = var9.VIDEO_MODAL_END_CARD;
+                var2['content'] = var9;
+                var9 = 11;
+                var9 = var8[var9];
+                var9 = var7.bind(var1)(var9);
+                var9 = var9.QuestContentCTA;
+                var9 = var9.OPEN_GAME_LINK;
+                var2['ctaContent'] = var9;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var6 = var6.QuestContent;
+                var6 = var6.QUEST_HOME_MOBILE_CAROUSEL;
+                var2['sourceQuestContent'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
             var6['onPress'] = var10;
@@ -156,7 +194,7 @@ case 5:
             var7 = var15.bind(var5)(var7);
             var8 = var7.Button;
             var7 = {'variant': 'secondary-overlay', 'text': null, 'size': 'lg'};
-            var10 = 8;
+            var10 = 12;
             var13 = var12[var10];
             var13 = var15.bind(var5)(var13);
             var14 = var13.intl;
@@ -167,7 +205,7 @@ case 5:
             var10 = var10.cpT0Cq;
             var10 = var13.bind(var14)(var10);
             var7['text'] = var10;
-            var10 = 9;
+            var10 = 13;
             var10 = var12[var10];
             var10 = var11.bind(var5)(var10);
             var10 = var10.hideModal;

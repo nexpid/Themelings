@@ -390,6 +390,9 @@ case 29:
             var3 = var3.users;
             var3 = var4.bind(var6)(var3);
             var1['clip_participant_ids'] = var3;
+            var3 = var2.clip;
+            var3 = var3.remoteClipId;
+            var1['clip_remote_id'] = var3;
 case 28:
             var3 = 'item';
             var3 = var3 in var2;

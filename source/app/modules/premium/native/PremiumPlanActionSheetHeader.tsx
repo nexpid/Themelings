@@ -35,11 +35,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot6 = var7;
-    var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var4 = var4.getPremiumGradientColor;
+    var _closure1_slot6 = var4;
     var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot7 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot8 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -66,8 +71,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginTop'] = var10;
     var4['discountPill'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 18;
+    var _closure1_slot9 = var4;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -81,7 +86,7 @@ case 0:
             var _closure2_slot0 = var14;
             var23 = var2.trialOffer;
             var20 = var2.discountOffer;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var4 = undefined;
             var12 = var2.bind(var4)();
             var9 = function getClouds() {
@@ -105,7 +110,7 @@ case 7:
 case 6:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 6;
+                    var2 = 7;
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
@@ -116,7 +121,7 @@ case 4:
 case 2:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 5;
+                    var1 = 6;
                     var2 = var2[var1];
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
@@ -136,7 +141,7 @@ case 11:
 case 10:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var5[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.getSkuIdForPremiumType;
@@ -145,7 +150,7 @@ case 10:
 case 8:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var7 = 7;
+            var7 = 8;
             var1 = var1[var7];
             var3 = var2.bind(var4)(var1);
             var2 = var3.getPlanIdForPremiumType;
@@ -166,22 +171,20 @@ case 15:
 case 14:
             var16 = var1;
 case 12:
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var6 = var12.header;
             var1['style'] = var6;
+            var6 = _closure1_slot6;
+            var6 = var6.bind(var4)(var14);
+            var1['colors'] = var6;
             var6 = _closure1_slot0;
-            var8 = var5[var7];
-            var10 = var6.bind(var4)(var8);
-            var8 = var10.getPremiumGradientColor;
-            var8 = var8.bind(var10)(var14);
-            var1['colors'] = var8;
-            var8 = 9;
+            var8 = 10;
             var10 = var5[var8];
             var10 = var6.bind(var4)(var10);
             var10 = var10.HorizontalGradient;
@@ -204,10 +207,10 @@ case 12:
             var6 = var9.bind(var4)();
             if(!var6) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var5 = 10;
+            var5 = 11;
             var5 = var10[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
@@ -217,15 +220,15 @@ case 17:
 case 16:
             var5 = new Array(3);
             var5[0] = var6;
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot8;
             var7 = _closure1_slot3;
             var6 = {};
             var9 = var12.logoContainer;
             var6['style'] = var9;
-            var21 = _closure1_slot6;
+            var21 = _closure1_slot7;
             var13 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var10 = 10;
+            var10 = 11;
             var9 = var9[var10];
             var17 = var13.bind(var4)(var9);
             var13 = {};
@@ -244,21 +247,21 @@ case 21:
 case 23:
             var24 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var22 = 13;
+            var22 = 14;
             var22 = var25[var22];
             var9 = var24.bind(var4)(var22);
             _fun0001_ip = 22; continue _fun0001;
 case 20:
             var24 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var22 = 12;
+            var22 = 13;
             var22 = var25[var22];
             var9 = var24.bind(var4)(var22);
             _fun0001_ip = 22; continue _fun0001;
 case 18:
             var24 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var22 = 11;
+            var22 = 12;
             var22 = var25[var22];
             var9 = var24.bind(var4)(var22);
 case 22:
@@ -271,10 +274,10 @@ case 22:
             var17 = null;
             if(!var18) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var22 = _closure1_slot6;
+            var22 = _closure1_slot7;
             var21 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var18 = 14;
+            var18 = 15;
             var18 = var24[var18];
             var18 = var21.bind(var4)(var18);
             var21 = var18.PremiumPill;
@@ -291,10 +294,10 @@ case 24:
             var15 = null;
             if(!var16) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var18 = _closure1_slot6;
+            var18 = _closure1_slot7;
             var17 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var16 = 14;
+            var16 = 15;
             var16 = var21[var16];
             var16 = var17.bind(var4)(var16);
             var17 = var16.PremiumPill;
@@ -311,7 +314,7 @@ case 26:
             var6['children'] = var13;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
             var6 = var6[var10];
@@ -332,21 +335,21 @@ case 31:
 case 33:
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var13 = 17;
+            var13 = 18;
             var13 = var16[var13];
             var10 = var15.bind(var4)(var13);
             _fun0001_ip = 32; continue _fun0001;
 case 30:
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var13 = 16;
+            var13 = 17;
             var13 = var16[var13];
             var10 = var15.bind(var4)(var13);
             _fun0001_ip = 32; continue _fun0001;
 case 28:
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var13 = 15;
+            var13 = 16;
             var13 = var16[var13];
             var10 = var15.bind(var4)(var13);
 case 32:

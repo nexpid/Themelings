@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'height': 50, 'width': 50, 'borderRadius': null, 'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center', 'paddingBottom': 4};
+    var9 = {'height': 48, 'width': 48, 'borderRadius': null, 'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center', 'paddingBottom': 4};
     var10 = 7;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);

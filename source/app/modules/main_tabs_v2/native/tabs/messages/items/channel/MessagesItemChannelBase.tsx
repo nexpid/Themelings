@@ -699,6 +699,7 @@ case 28:
             var28['channel'] = var24;
             var28['muted'] = var21;
             var28['userStatus'] = var27;
+            var28['isFavorite'] = var22;
             var28 = var29.bind(var30)(var28);
             var5['accessibilityHint'] = var28;
             var28 = var26.rowActive;

@@ -1369,32 +1369,32 @@ case 0:
                 var6 = 'isInRestrictedHours';
                 var2['location'] = var6;
                 var2 = var3.bind(var4)(var2);
-                if(var2) { _fun0022_ip = 67; continue _fun0022 }
-case 27:
+                if(var2) { _fun0022_ip = 64; continue _fun0022 }
+case 22:
                 var2 = false;
                 return var2;
-case 67:
+case 64:
                 var2 = _closure1_slot10;
                 var1 = var2.getCurrentUser;
                 var3 = var1.bind(var2)();
                 var1 = null;
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0022_ip = 68; continue _fun0022 }
-case 69:
+                if(var4) { _fun0022_ip = 67; continue _fun0022 }
+case 68:
                 var4 = var3.restrictedSchedule;
                 var3 = var1 == var4;
                 var2 = undefined;
-                if(var3) { _fun0022_ip = 68; continue _fun0022 }
-case 70:
+                if(var3) { _fun0022_ip = 67; continue _fun0022 }
+case 69:
                 var3 = var4.isInRestrictedHours;
                 var2 = var3.bind(var4)();
-case 68:
+case 67:
                 var1 = var1 != var2;
-                if(!var1) { _fun0022_ip = 71; continue _fun0022 }
-case 72:
-                var1 = var2;
+                if(!var1) { _fun0022_ip = 70; continue _fun0022 }
 case 71:
+                var1 = var2;
+case 70:
                 return var1;
             }
         };

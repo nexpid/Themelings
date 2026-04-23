@@ -209,6 +209,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['SEND_REPLY_AVATAR'] = var5;
     var5 = 'PRESS_SWITCH_ACCOUNTS';
     var11['PRESS_SWITCH_ACCOUNTS'] = var5;
+    var5 = 'PRESS_CLIPS';
+    var11['PRESS_CLIPS'] = var5;
     var5 = 'PRESS_SET_FRIEND_NICKNAME';
     var11['PRESS_SET_FRIEND_NICKNAME'] = var5;
     var5 = 'PRESS_INVITE_TO_SERVER';

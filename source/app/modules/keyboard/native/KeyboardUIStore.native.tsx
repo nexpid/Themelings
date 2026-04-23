@@ -9,144 +9,539 @@ case 0:
         var _closure1_slot0 = var6;
         var _closure1_slot1 = var8;
         var _closure1_slot2 = var7;
-        var1 = function getCustomKeyboardHeight(arg1, arg2, arg3) {
+        var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var10 = arg1;
-                var4 = arg3;
-                var2 = _closure1_slot0;
-                var1 = _closure1_slot2;
-                var9 = 4;
-                var1 = var1[var9];
-                var5 = undefined;
-                var1 = var2.bind(var5)(var1);
-                var7 = var1.Storage;
-                var6 = var7.get;
-                var1 = _closure1_slot6;
-                var2 = 253;
-                var1 = var6.bind(var7)(var1, var2);
-                var6 = null;
-                var6 = var6 != var1;
-                if(!var6) { _fun0002_ip = 2; continue _fun0002 }
+                var3 = arg1;
+                var _closure2_slot0 = var3;
+                var5 = global;
+                var2 = var5.Symbol;
+                var4 = 'undefined';
+                var2 = typeof var2;
+                var2 = var4 !== var2;
+                if(!var2) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                var2 = var1;
+                var4 = var5.Symbol;
+                var4 = var4.iterator;
+                var2 = var3[var4];
 case 2:
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var1 = 5;
-                var1 = var7[var1];
-                var1 = var6.bind(var5)(var1);
-                var1 = var1.KeyboardTypes;
-                var6 = var1.SYSTEM;
-                var1 = arg2;
-                if(!(var1 === var6)) { _fun0002_ip = 4; continue _fun0002 }
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var6 = 0;
-                if(!(var6 !== var10)) { _fun0002_ip = 4; continue _fun0002 }
-case 6:
-                var1 = global;
-                var8 = var1.Math;
-                var7 = var8.max;
-                var1 = 200;
-                var1 = var7.bind(var8)(var10, var1);
-                if(!(var1 !== var2)) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-                var8 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var7 = var7[var9];
-                var7 = var8.bind(var5)(var7);
-                var9 = var7.Storage;
-                var8 = var9.set;
-                var7 = _closure1_slot6;
-                var7 = var8.bind(var9)(var7, var1);
-case 7:
-                var6 = 0;
-                if(!var4) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var7 = 6;
-                var7 = var9[var7];
-                var8 = var8.bind(var5)(var7);
-                var7 = var8.getSafeAreaInsets;
-                var7 = var7.bind(var8)();
-                var6 = var7.bottom;
-case 9:
-                var1 = var1 - var6;
-                return var1;
+                var2 = var3["@@iterator"];
 case 4:
-                var1 = 0;
-                if(!var4) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-                var4 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var3 = 6;
-                var3 = var6[var3];
-                var4 = var4.bind(var5)(var3);
-                var3 = var4.getSafeAreaInsets;
-                var3 = var3.bind(var4)();
-                var1 = var3.bottom;
+                if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                var6 = var5.Array;
+                var4 = var6.isArray;
+                var6 = var4.bind(var6)(var3);
+                var4 = var2;
+                if(var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+                var8 = undefined;
+                var6 = undefined;
+                if(!var3) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-                var1 = var2 - var1;
+                var9 = 'string';
+                var7 = typeof var3;
+                if(!(var9 !== var7)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+                var7 = {};
+                var9 = var7.toString;
+                var7 = var9.call;
+                var11 = var7.bind(var9)(var3);
+                var10 = var11.slice;
+                var9 = 8;
+                var7 = -1;
+                var9 = var10.bind(var11)(var9, var7);
+                var7 = 'Object';
+                var7 = var7 === var9;
+                if(!var7) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+                var7 = var3.constructor;
+case 14:
+                var10 = var9;
+                if(!var7) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+                var7 = var3.constructor;
+                var10 = var7.name;
+case 16:
+                var7 = 'Map';
+                if(!(var7 !== var10)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+                var7 = 'Set';
+                if(!(var7 !== var10)) { _fun0002_ip = 18; continue _fun0002 }
+case 20:
+                var7 = 'Arguments';
+                if(!(var7 !== var10)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+                var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
+                var7 = var9.test;
+                var9 = var7.bind(var9)(var10);
+                var7 = undefined;
+                if(!var9) { _fun0002_ip = 23; continue _fun0002 }
+case 21:
+                var9 = _closure1_slot11;
+                var7 = var9.bind(var8)(var3, var8);
+case 23:
+                _fun0002_ip = 24; continue _fun0002;
+case 18:
+                var10 = var5.Array;
+                var9 = var10.from;
+                var7 = var9.bind(var10)(var3);
+case 24:
+                var6 = var7;
+                _fun0002_ip = 10; continue _fun0002;
+case 12:
+                var7 = _closure1_slot11;
+                var6 = var7.bind(var8)(var3, var8);
+case 10:
+                var4 = var6;
+                if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 25:
+                var7 = var5.TypeError;
+                var5 = var7.prototype;
+                var6 = Object.create(var5, {constructor: {value: var7}});
+                var13 = 'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.';
+                var14 = var6;
+                var5 = new var14[var7](var13, var12);
+                var5 = var5 instanceof Object ? var5 : var6;
+                throw var5;
+case 8:
+                if(!var4) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+                _closure2_slot0 = var4;
+case 26:
+                var4 = 0;
+                var _closure2_slot1 = var4;
+                var1 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var2 = _closure2_slot1;
+                        var1 = _closure2_slot0;
+                        var1 = var1.length;
+                        if(!(!(var2 >= var1))) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
+                        var1 = {};
+                        var2 = false;
+                        var1['done'] = var2;
+                        var3 = _closure2_slot0;
+                        var2 = _closure2_slot1;
+                        var2 = parseFloat(var2);
+                        var4 = var2 + 1;
+                        _closure2_slot1 = var4;
+                        var2 = var3[var2];
+                        var1['value'] = var2;
+                        _fun0003_ip = 30; continue _fun0003;
+case 28:
+                        var2 = {};
+                        var3 = true;
+                        var2['done'] = var3;
+                        var1 = var2;
+case 30:
+                        return var1;
+                    }
+                };
+                return var1;
+case 6:
+                var1 = var2.call;
+                var3 = var1.bind(var2)(var3);
+                var2 = var3.next;
+                var1 = var2.bind;
+                var1 = var1.bind(var2)(var3);
                 return var1;
             }
         };
         var _closure1_slot10 = var1;
-        var1 = function getSystemKeyboardHeight(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        var1 = function _arrayLikeToArray(arg1, arg2) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var1 = arg1;
-                var4 = var1.keyboardHeight;
-                var5 = var1.excludeSafeAreaInsets;
-                var3 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var1 = 7;
-                var1 = var6[var1];
-                var7 = undefined;
-                var3 = var3.bind(var7)(var1);
-                var1 = var3.isAndroid;
-                var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-                var1 = 0;
-                if(!(var1 !== var4)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                var4 = arg1;
+                var1 = null;
+                var3 = undefined;
+                var1 = var1 == var3;
+                if(var1) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
+                var2 = var4.length;
+                var1 = var3 > var2;
+case 31:
+                var2 = undefined;
+                if(!var1) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
+                var2 = var4.length;
+case 33:
+                var1 = global;
+                var1 = var1.Array;
+                var1 = var1.bind(var3)(var2);
                 var3 = 0;
-                if(!var5) { _fun0003_ip = 17; continue _fun0003 }
-case 3:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var6 = 6;
-                var6 = var9[var6];
-                var8 = var8.bind(var7)(var6);
-                var6 = var8.getSafeAreaInsets;
-                var6 = var6.bind(var8)();
-                var3 = var6.bottom;
-case 17:
-                var1 = var4 - var3;
-case 15:
-                _fun0003_ip = 18; continue _fun0003;
-case 13:
-                var4 = _closure1_slot1;
-                var8 = _closure1_slot2;
-                var3 = 8;
-                var3 = var8[var3];
-                var4 = var4.bind(var7)(var3);
-                var3 = var4.getImeInsets;
-                var6 = _closure1_slot0;
-                var2 = 9;
-                var2 = var8[var2];
-                var2 = var6.bind(var7)(var2);
-                var2 = var2.DEFAULT_APP_ENTRY_KEY;
-                var1 = var3.bind(var4)(var5, var2);
-case 18:
+                var5 = var3 < var2;
+                if(!var5) { _fun0004_ip = 35; continue _fun0004 }
+case 4:
+                var5 = var4[var3];
+                var1[var3] = var5;
+                var3 = var3 + 1;
+                if(var3 < var2) { _fun0004_ip = 4; continue _fun0004 }
+case 35:
                 return var1;
             }
         };
         var _closure1_slot11 = var1;
-        var1 = function updateSystemKeyboardStoreState(arg1) {
+        var1 = function getCustomKeyboardHeight(arg1, arg2, arg3, arg4) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var11 = arg1;
+                var4 = arg3;
+                var5 = arg4;
+                var2 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var10 = 4;
+                var1 = var1[var10];
+                var6 = undefined;
+                var1 = var2.bind(var6)(var1);
+                var8 = var1.Storage;
+                var7 = var8.get;
+                var1 = _closure1_slot6;
+                var2 = 253;
+                var1 = var7.bind(var8)(var1, var2);
+                var7 = null;
+                var7 = var7 != var1;
+                if(!var7) { _fun0005_ip = 35; continue _fun0005 }
+case 30:
+                var2 = var1;
+case 35:
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var1 = 5;
+                var1 = var8[var1];
+                var1 = var7.bind(var6)(var1);
+                var1 = var1.KeyboardTypes;
+                var7 = var1.SYSTEM;
+                var1 = arg2;
+                if(!(var1 === var7)) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
+                var7 = 0;
+                if(!(var7 !== var11)) { _fun0005_ip = 36; continue _fun0005 }
+case 38:
+                var1 = global;
+                var9 = var1.Math;
+                var8 = var9.max;
+                var1 = 200;
+                var1 = var8.bind(var9)(var11, var1);
+                if(!(var1 !== var2)) { _fun0005_ip = 16; continue _fun0005 }
+case 39:
+                var9 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var8 = var8[var10];
+                var8 = var9.bind(var6)(var8);
+                var10 = var8.Storage;
+                var9 = var10.set;
+                var8 = _closure1_slot6;
+                var8 = var9.bind(var10)(var8, var1);
+case 16:
+                var7 = 0;
+                if(!var4) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var8 = 6;
+                var8 = var10[var8];
+                var9 = var9.bind(var6)(var8);
+                var8 = var9.getSafeAreaInsets;
+                var8 = var8.bind(var9)(var5);
+                var7 = var8.bottom;
+case 40:
+                var1 = var1 - var7;
+                return var1;
+case 36:
+                var1 = 0;
+                if(!var4) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
+                var4 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var3 = 6;
+                var3 = var7[var3];
+                var4 = var4.bind(var6)(var3);
+                var3 = var4.getSafeAreaInsets;
+                var3 = var3.bind(var4)(var5);
+                var1 = var3.bottom;
+case 42:
+                var1 = var2 - var1;
+                return var1;
+            }
+        };
+        var _closure1_slot12 = var1;
+        var1 = function getSystemKeyboardHeight(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var1 = arg1;
+                var7 = var1.keyboardHeight;
+                var5 = var1.excludeSafeAreaInsets;
+                var4 = var1.appEntryKey;
+                var3 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var1 = var6[var1];
+                var6 = undefined;
+                var3 = var3.bind(var6)(var1);
+                var1 = var3.isAndroid;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
+                var1 = 0;
+                if(!(var1 !== var7)) { _fun0006_ip = 13; continue _fun0006 }
+case 46:
+                var3 = 0;
+                if(!var5) { _fun0006_ip = 47; continue _fun0006 }
+case 35:
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var8 = 6;
+                var8 = var10[var8];
+                var9 = var9.bind(var6)(var8);
+                var8 = var9.getSafeAreaInsets;
+                var8 = var8.bind(var9)(var4);
+                var3 = var8.bottom;
+case 47:
+                var1 = var7 - var3;
+case 13:
+                _fun0006_ip = 48; continue _fun0006;
+case 44:
+                var3 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var2 = 8;
+                var2 = var7[var2];
+                var3 = var3.bind(var6)(var2);
+                var2 = var3.getImeInsets;
+                var1 = var2.bind(var3)(var5, var4);
+case 48:
+                return var1;
+            }
+        };
+        var _closure1_slot13 = var1;
+        var1 = function computeEntryState(arg1, arg2, arg3) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                var1 = arg1;
+                var12 = arg2;
+                var11 = arg3;
+                var10 = var12.keyboardDuration;
+                var15 = null;
+                if(!(var15 == var10)) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
+                var10 = var1.keyboardDuration;
+case 49:
+                var4 = _closure1_slot13;
+                var3 = {};
+                var5 = var12.keyboardHeight;
+                if(!(var15 == var5)) { _fun0007_ip = 51; continue _fun0007 }
+case 2:
+                var5 = var1.keyboardHeight;
+case 51:
+                var3['keyboardHeight'] = var5;
+                var17 = false;
+                var3['excludeSafeAreaInsets'] = var17;
+                var3['appEntryKey'] = var11;
+                var13 = undefined;
+                var9 = var4.bind(var13)(var3);
+                var4 = _closure1_slot13;
+                var3 = {};
+                var5 = var12.keyboardHeight;
+                if(!(var15 == var5)) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
+                var5 = var1.keyboardHeight;
+case 52:
+                var3['keyboardHeight'] = var5;
+                var7 = true;
+                var3['excludeSafeAreaInsets'] = var7;
+                var3['appEntryKey'] = var11;
+                var8 = var4.bind(var13)(var3);
+                var3 = var12.keyboardType;
+                var4 = var15 == var3;
+                var6 = undefined;
+                if(var4) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
+                var6 = var3.type;
+case 54:
+                if(!(var15 == var6)) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
+                var6 = var1.keyboardType;
+case 56:
+                var3 = var1.keyboardType;
+                if(!(var6 === var3)) { _fun0007_ip = 58; continue _fun0007 }
+case 59:
+                var5 = var1.keyboardTypePrevious;
+                _fun0007_ip = 60; continue _fun0007;
+case 58:
+                var5 = var1.keyboardType;
+case 60:
+                var3 = _closure1_slot12;
+                var25 = undefined;
+                var24 = var9;
+                var23 = var6;
+                var22 = false;
+                var21 = var11;
+                var4 = var25[var3](var24, var23, var22, var21, var20);
+                var24 = var9;
+                var23 = var6;
+                var22 = true;
+                var21 = var11;
+                var3 = var25[var3](var24, var23, var22, var21, var20);
+                var7 = var1.keyboardContexts;
+                var16 = var7[var6];
+                var11 = var12.keyboardType;
+                var14 = var15 == var11;
+                var7 = undefined;
+                if(var14) { _fun0007_ip = 61; continue _fun0007 }
+case 62:
+                var7 = var11.context;
+case 61:
+                var14 = var16;
+                if(!(var15 != var7)) { _fun0007_ip = 63; continue _fun0007 }
+case 23:
+                var14 = var7;
+case 63:
+                var11 = 'object';
+                var7 = typeof var16;
+                if(!(var11 === var7)) { _fun0007_ip = 64; continue _fun0007 }
+case 65:
+                var7 = typeof var14;
+                if(!(var11 !== var7)) { _fun0007_ip = 66; continue _fun0007 }
+case 64:
+                var11 = var16 !== var14;
+                _fun0007_ip = 67; continue _fun0007;
+case 66:
+                var18 = _closure1_slot1;
+                var19 = _closure1_slot2;
+                var7 = 9;
+                var7 = var19[var7];
+                var7 = var18.bind(var13)(var7);
+                var7 = var7.bind(var13)(var16, var14);
+                var11 = !var7;
+case 67:
+                var16 = _closure1_slot0;
+                var18 = _closure1_slot2;
+                var7 = 7;
+                var7 = var18[var7];
+                var16 = var16.bind(var13)(var7);
+                var7 = var16.isAndroid;
+                var7 = var7.bind(var16)();
+                if(var7) { _fun0007_ip = 68; continue _fun0007 }
+case 69:
+                var7 = var12.systemKeyboardOpen;
+                if(!(var15 == var7)) { _fun0007_ip = 70; continue _fun0007 }
+case 71:
+                var7 = var1.systemKeyboardOpen;
+case 70:
+                _fun0007_ip = 72; continue _fun0007;
+case 68:
+                var16 = 0;
+                var7 = var9 > var16;
+case 72:
+                var18 = var1.keyboardContexts;
+                var19 = _closure1_slot0;
+                var16 = _closure1_slot2;
+                var20 = 5;
+                var16 = var16[var20];
+                var16 = var19.bind(var13)(var16);
+                var16 = var16.KeyboardTypes;
+                var16 = var16.SYSTEM;
+                var16 = var18[var16];
+                var16 = var16.keyboardWillOpen;
+                if(!var16) { _fun0007_ip = 73; continue _fun0007 }
+case 74:
+                var12 = var12.systemKeyboardOpen;
+                if(!(var15 == var12)) { _fun0007_ip = 75; continue _fun0007 }
+case 73:
+                var15 = var1.keyboardContexts;
+                if(var11) { _fun0007_ip = 76; continue _fun0007 }
+case 77:
+                var11 = var15;
+                _fun0007_ip = 78; continue _fun0007;
+case 76:
+                var12 = {};
+                var24 = var12;
+                var23 = var15;
+                var15 = copyDataProperties(var24, var23);
+                var12[5] = var14;
+                var11 = var12;
+case 78:
+                _fun0007_ip = 79; continue _fun0007;
+case 75:
+                var12 = {};
+                var23 = var1.keyboardContexts;
+                var24 = var12;
+                var14 = copyDataProperties(var24, var23);
+                var19 = _closure1_slot0;
+                var16 = _closure1_slot2;
+                var14 = var16[var20];
+                var14 = var19.bind(var13)(var14);
+                var14 = var14.KeyboardTypes;
+                var15 = var14.SYSTEM;
+                var14 = {};
+                var18 = var1.keyboardContexts;
+                var16 = var16[var20];
+                var16 = var19.bind(var13)(var16);
+                var16 = var16.KeyboardTypes;
+                var16 = var16.SYSTEM;
+                var23 = var18[var16];
+                var24 = var14;
+                var16 = copyDataProperties(var24, var23);
+                var16 = 'keyboardWillOpen';
+                var14[15] = var17;
+                var12[14] = var14;
+                var11 = var12;
+case 79:
+                var12 = _closure1_slot1;
+                var14 = _closure1_slot2;
+                var2 = 9;
+                var2 = var14[var2];
+                var12 = var12.bind(var13)(var2);
+                var2 = var1.keyboardContexts;
+                var2 = var12.bind(var13)(var2, var11);
+                var2 = !var2;
+                var12 = var1.keyboardDuration;
+                if(!(var12 === var10)) { _fun0007_ip = 80; continue _fun0007 }
+case 81:
+                if(var2) { _fun0007_ip = 80; continue _fun0007 }
+case 82:
+                var2 = var1.keyboardHeight;
+                if(!(var2 === var9)) { _fun0007_ip = 80; continue _fun0007 }
+case 83:
+                var2 = var1.keyboardHeightExcludingSafeAreaInsets;
+                if(!(var2 === var8)) { _fun0007_ip = 80; continue _fun0007 }
+case 84:
+                var2 = var1.keyboardType;
+                if(!(var2 === var6)) { _fun0007_ip = 80; continue _fun0007 }
+case 85:
+                var2 = var1.customKeyboardHeight;
+                if(!(var2 === var4)) { _fun0007_ip = 80; continue _fun0007 }
+case 86:
+                var2 = var1.customKeyboardHeightExcludingSafeAreaInsets;
+                if(!(var2 === var3)) { _fun0007_ip = 80; continue _fun0007 }
+case 87:
+                var2 = var1.systemKeyboardOpen;
+                if(!(var2 !== var7)) { _fun0007_ip = 88; continue _fun0007 }
+case 80:
+                var2 = {};
+                var2['keyboardContexts'] = var11;
+                var2['keyboardDuration'] = var10;
+                var2['keyboardHeight'] = var9;
+                var2['keyboardHeightExcludingSafeAreaInsets'] = var8;
+                var2['systemKeyboardOpen'] = var7;
+                var2['keyboardType'] = var6;
+                var2['keyboardTypePrevious'] = var5;
+                var2['customKeyboardHeight'] = var4;
+                var2['customKeyboardHeightExcludingSafeAreaInsets'] = var3;
+                var1 = var2;
+case 88:
+                return var1;
+            }
+        };
+        var _closure1_slot14 = var1;
+        var1 = function updateKeyboardStoreState(arg1, arg2) {
             var1 = arg1;
             var _closure2_slot0 = var1;
+            var1 = arg2;
+            var _closure2_slot1 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 10;
@@ -158,201 +553,67 @@ case 18:
                 var3 = _closure1_slot9;
                 var2 = var3.setState;
                 var1 = function(arg1) {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                         var1 = arg1;
-                        var2 = _closure2_slot0;
-                        var10 = var2.keyboardDuration;
-                        var15 = null;
-                        if(!(var15 == var10)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-                        var10 = var1.keyboardDuration;
-case 19:
-                        var4 = _closure1_slot11;
-                        var3 = {};
-                        var5 = _closure2_slot0;
-                        var5 = var5.keyboardHeight;
-                        if(!(var15 == var5)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                        var5 = var1.keyboardHeight;
-case 21:
-                        var3['keyboardHeight'] = var5;
-                        var17 = false;
-                        var3['excludeSafeAreaInsets'] = var17;
-                        var13 = undefined;
-                        var9 = var4.bind(var13)(var3);
-                        var4 = _closure1_slot11;
-                        var3 = {};
-                        var5 = _closure2_slot0;
-                        var5 = var5.keyboardHeight;
-                        if(!(var15 == var5)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
-                        var5 = var1.keyboardHeight;
-case 23:
-                        var3['keyboardHeight'] = var5;
-                        var7 = true;
-                        var3['excludeSafeAreaInsets'] = var7;
-                        var8 = var4.bind(var13)(var3);
-                        var3 = _closure2_slot0;
-                        var3 = var3.keyboardType;
-                        var4 = var15 == var3;
-                        var6 = undefined;
-                        if(var4) { _fun0004_ip = 25; continue _fun0004 }
-case 8:
-                        var6 = var3.type;
-case 25:
-                        if(!(var15 == var6)) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
-                        var6 = var1.keyboardType;
-case 26:
-                        var3 = var1.keyboardType;
-                        if(!(var6 === var3)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
-                        var5 = var1.keyboardTypePrevious;
-                        _fun0004_ip = 30; continue _fun0004;
-case 28:
-                        var5 = var1.keyboardType;
-case 30:
-                        var3 = _closure1_slot10;
-                        var4 = var3.bind(var13)(var9, var6, var17);
-                        var3 = var3.bind(var13)(var9, var6, var7);
-                        var7 = var1.keyboardContexts;
-                        var16 = var7[var6];
-                        var7 = _closure2_slot0;
-                        var11 = var7.keyboardType;
-                        var14 = var15 == var11;
-                        var7 = undefined;
-                        if(var14) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
-                        var7 = var11.context;
-case 31:
-                        var14 = var16;
-                        if(!(var15 != var7)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
-                        var14 = var7;
-case 33:
-                        var11 = 'object';
-                        var7 = typeof var16;
-                        if(!(var11 === var7)) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
-                        var7 = typeof var14;
-                        if(!(var11 !== var7)) { _fun0004_ip = 37; continue _fun0004 }
-case 35:
-                        var11 = var16 !== var14;
-                        _fun0004_ip = 38; continue _fun0004;
-case 37:
-                        var18 = _closure1_slot1;
-                        var19 = _closure1_slot2;
-                        var7 = 11;
-                        var7 = var19[var7];
-                        var7 = var18.bind(var13)(var7);
-                        var7 = var7.bind(var13)(var16, var14);
-                        var11 = !var7;
-case 38:
-                        var7 = _closure2_slot0;
-                        var7 = var7.systemKeyboardOpen;
-                        if(!(var15 == var7)) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-                        var7 = var1.systemKeyboardOpen;
-case 39:
-                        var18 = var1.keyboardContexts;
-                        var19 = _closure1_slot0;
-                        var16 = _closure1_slot2;
-                        var20 = 5;
-                        var16 = var16[var20];
-                        var16 = var19.bind(var13)(var16);
-                        var16 = var16.KeyboardTypes;
-                        var16 = var16.SYSTEM;
-                        var16 = var18[var16];
-                        var16 = var16.keyboardWillOpen;
-                        if(!var16) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
-                        var12 = _closure2_slot0;
-                        var12 = var12.systemKeyboardOpen;
-                        if(!(var15 == var12)) { _fun0004_ip = 43; continue _fun0004 }
-case 41:
-                        var15 = var1.keyboardContexts;
-                        if(var11) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
-                        var11 = var15;
-                        _fun0004_ip = 46; continue _fun0004;
-case 44:
-                        var12 = {};
-                        var23 = var12;
-                        var22 = var15;
-                        var15 = copyDataProperties(var23, var22);
-                        var12[5] = var14;
-                        var11 = var12;
-case 46:
-                        _fun0004_ip = 47; continue _fun0004;
-case 43:
-                        var12 = {};
-                        var22 = var1.keyboardContexts;
-                        var23 = var12;
-                        var14 = copyDataProperties(var23, var22);
-                        var19 = _closure1_slot0;
-                        var16 = _closure1_slot2;
-                        var14 = var16[var20];
-                        var14 = var19.bind(var13)(var14);
-                        var14 = var14.KeyboardTypes;
-                        var15 = var14.SYSTEM;
-                        var14 = {};
-                        var18 = var1.keyboardContexts;
-                        var16 = var16[var20];
-                        var16 = var19.bind(var13)(var16);
-                        var16 = var16.KeyboardTypes;
-                        var16 = var16.SYSTEM;
-                        var22 = var18[var16];
-                        var23 = var14;
-                        var16 = copyDataProperties(var23, var22);
-                        var16 = 'keyboardWillOpen';
-                        var14[15] = var17;
-                        var12[14] = var14;
-                        var11 = var12;
-case 47:
-                        var12 = _closure1_slot1;
-                        var14 = _closure1_slot2;
+                        var3 = _closure2_slot1;
+                        var2 = null;
+                        if(!(var2 == var3)) { _fun0008_ip = 5; continue _fun0008 }
+case 89:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
                         var2 = 11;
-                        var2 = var14[var2];
-                        var12 = var12.bind(var13)(var2);
-                        var2 = var1.keyboardContexts;
-                        var2 = var12.bind(var13)(var2, var11);
-                        var2 = !var2;
-                        var12 = var1.keyboardDuration;
-                        if(!(var12 === var10)) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-                        if(var2) { _fun0004_ip = 48; continue _fun0004 }
-case 50:
-                        var2 = var1.keyboardHeight;
-                        if(!(var2 === var9)) { _fun0004_ip = 48; continue _fun0004 }
-case 51:
-                        var2 = var1.keyboardHeightExcludingSafeAreaInsets;
-                        if(!(var2 === var8)) { _fun0004_ip = 48; continue _fun0004 }
-case 52:
-                        var2 = var1.keyboardType;
-                        if(!(var2 === var6)) { _fun0004_ip = 48; continue _fun0004 }
-case 53:
-                        var2 = var1.customKeyboardHeight;
-                        if(!(var2 === var4)) { _fun0004_ip = 48; continue _fun0004 }
-case 54:
-                        var2 = var1.customKeyboardHeightExcludingSafeAreaInsets;
-                        if(!(var2 === var3)) { _fun0004_ip = 48; continue _fun0004 }
-case 55:
-                        var2 = var1.systemKeyboardOpen;
-                        if(!(var2 !== var7)) { _fun0004_ip = 56; continue _fun0004 }
-case 48:
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var2 = var4.bind(var2)(var3);
+                        var4 = var2.APP_ENTRY_KEYS;
+                        _fun0008_ip = 90; continue _fun0008;
+case 5:
+                        var3 = _closure2_slot1;
+                        var2 = new Array(1);
+                        var2[0] = var3;
+                        var4 = var2;
+case 90:
+                        var3 = var1.byAppEntry;
+                        var2 = _closure1_slot10;
+                        var7 = undefined;
+                        var6 = var2.bind(var7)(var4);
+                        var4 = var6.bind(var7)();
+                        var2 = var4.done;
+                        var5 = var4;
+                        var4 = var3;
+                        var3 = var4;
+                        if(var2) { _fun0008_ip = 91; continue _fun0008 }
+case 92:
+                        var12 = var5.value;
+                        var2 = var4[var12];
+                        var11 = _closure1_slot14;
+                        var10 = _closure2_slot0;
+                        var11 = var11.bind(var7)(var2, var10, var12);
+                        var10 = var4;
+                        if(!(var2 !== var11)) { _fun0008_ip = 93; continue _fun0008 }
+case 94:
                         var2 = {};
-                        var2['keyboardContexts'] = var11;
-                        var2['keyboardDuration'] = var10;
-                        var2['keyboardHeight'] = var9;
-                        var2['keyboardHeightExcludingSafeAreaInsets'] = var8;
-                        var2['systemKeyboardOpen'] = var7;
-                        var2['keyboardType'] = var6;
-                        var2['keyboardTypePrevious'] = var5;
-                        var2['customKeyboardHeight'] = var4;
-                        var2['customKeyboardHeightExcludingSafeAreaInsets'] = var3;
+                        var16 = var2;
+                        var15 = var4;
+                        var13 = copyDataProperties(var16, var15);
+                        var2[11] = var11;
+                        var10 = var2;
+case 93:
+                        var11 = var6.bind(var7)();
+                        var2 = var11.done;
+                        var4 = var10;
+                        var5 = var11;
+                        var3 = var4;
+                        if(!var2) { _fun0008_ip = 92; continue _fun0008 }
+case 91:
+                        var2 = var1.byAppEntry;
+                        if(!(var3 !== var2)) { _fun0008_ip = 95; continue _fun0008 }
+case 19:
+                        var2 = {};
+                        var2['byAppEntry'] = var3;
                         var1 = var2;
-case 56:
+case 95:
                         return var1;
                     }
                 };
@@ -362,7 +623,95 @@ case 56:
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var _closure1_slot12 = var1;
+        var _closure1_slot15 = var1;
+        var1 = function createInitialEntryState(arg1) {
+            var9 = arg1;
+            var1 = {};
+            var12 = _closure1_slot12;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 5;
+            var6 = var5[var2];
+            var3 = undefined;
+            var6 = var4.bind(var3)(var6);
+            var6 = var6.KeyboardTypes;
+            var16 = var6.SYSTEM;
+            var8 = 0;
+            var6 = false;
+            var18 = undefined;
+            var17 = 0;
+            var15 = false;
+            var14 = var9;
+            var10 = var18[var12](var17, var16, var15, var14, var13);
+            var1['customKeyboardHeight'] = var10;
+            var10 = var5[var2];
+            var10 = var4.bind(var3)(var10);
+            var10 = var10.KeyboardTypes;
+            var16 = var10.SYSTEM;
+            var15 = true;
+            var18 = undefined;
+            var17 = 0;
+            var14 = var9;
+            var10 = var18[var12](var17, var16, var15, var14, var13);
+            var1['customKeyboardHeightExcludingSafeAreaInsets'] = var10;
+            var10 = {};
+            var11 = var5[var2];
+            var11 = var4.bind(var3)(var11);
+            var11 = var11.KeyboardTypes;
+            var12 = var11.SYSTEM;
+            var11 = {};
+            var11['keyboardWillOpen'] = var6;
+            var10[11] = var11;
+            var11 = var5[var2];
+            var11 = var4.bind(var3)(var11);
+            var11 = var11.KeyboardTypes;
+            var12 = var11.EXPRESSION;
+            var11 = _closure1_slot4;
+            var11 = var11.EMOJI;
+            var10[11] = var11;
+            var11 = var5[var2];
+            var11 = var4.bind(var3)(var11);
+            var11 = var11.KeyboardTypes;
+            var12 = var11.MEDIA;
+            var11 = {};
+            var13 = _closure1_slot5;
+            var13 = var13.CHAT;
+            var11['target'] = var13;
+            var10[11] = var11;
+            var11 = var5[var2];
+            var11 = var4.bind(var3)(var11);
+            var11 = var11.KeyboardTypes;
+            var12 = var11.APP_LAUNCHER;
+            var11 = {};
+            var13 = _closure1_slot3;
+            var13 = var13.HOME;
+            var11['initialRouteName'] = var13;
+            var10[11] = var11;
+            var1['keyboardContexts'] = var10;
+            var1['keyboardDuration'] = var8;
+            var8 = _closure1_slot13;
+            var7 = {'keyboardHeight': 0, 'excludeSafeAreaInsets': false};
+            var7['appEntryKey'] = var9;
+            var7 = var8.bind(var3)(var7);
+            var1['keyboardHeight'] = var7;
+            var7 = {'keyboardHeight': 0, 'excludeSafeAreaInsets': true};
+            var7['appEntryKey'] = var9;
+            var7 = var8.bind(var3)(var7);
+            var1['keyboardHeightExcludingSafeAreaInsets'] = var7;
+            var1['systemKeyboardOpen'] = var6;
+            var6 = var5[var2];
+            var6 = var4.bind(var3)(var6);
+            var6 = var6.KeyboardTypes;
+            var6 = var6.SYSTEM;
+            var1['keyboardType'] = var6;
+            var2 = var5[var2];
+            var2 = var4.bind(var3)(var2);
+            var2 = var2.KeyboardTypes;
+            var2 = var2.SYSTEM;
+            var1['keyboardTypePrevious'] = var2;
+            return var1;
+        };
+        var _closure1_slot16 = var1;
         var4 = global;
         var10 = var4.Object;
         var9 = var10.defineProperty;
@@ -413,98 +762,35 @@ case 56:
         var5 = var9.isAndroid;
         var5 = var5.bind(var9)();
         var12 = 'keyboardWillShow';
-        if(!var5) { _fun0001_ip = 57; continue _fun0001 }
-case 58:
+        if(!var5) { _fun0001_ip = 96; continue _fun0001 }
+case 97:
         var12 = 'keyboardDidShow';
-case 57:
+case 96:
         var4 = var7[var4];
         var5 = var6.bind(var1)(var4);
         var4 = var5.isAndroid;
         var4 = var4.bind(var5)();
         var10 = 'keyboardWillHide';
-        if(!var4) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
+        if(!var4) { _fun0001_ip = 98; continue _fun0001 }
+case 99:
         var10 = 'keyboardDidHide';
-case 59:
+case 98:
         var4 = 12;
         var4 = var7[var4];
         var9 = var6.bind(var1)(var4);
         var5 = var9.create;
         var4 = function() {
             var1 = {};
-            var11 = _closure1_slot10;
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 5;
-            var6 = var5[var2];
-            var3 = undefined;
-            var6 = var4.bind(var3)(var6);
-            var6 = var6.KeyboardTypes;
-            var9 = var6.SYSTEM;
-            var8 = 0;
-            var6 = false;
-            var9 = var11.bind(var3)(var8, var9, var6);
-            var1['customKeyboardHeight'] = var9;
-            var9 = var5[var2];
-            var9 = var4.bind(var3)(var9);
-            var9 = var9.KeyboardTypes;
-            var10 = var9.SYSTEM;
-            var9 = true;
-            var9 = var11.bind(var3)(var8, var10, var9);
-            var1['customKeyboardHeightExcludingSafeAreaInsets'] = var9;
-            var9 = {};
-            var10 = var5[var2];
-            var10 = var4.bind(var3)(var10);
-            var10 = var10.KeyboardTypes;
-            var11 = var10.SYSTEM;
-            var10 = {};
-            var10['keyboardWillOpen'] = var6;
-            var9[10] = var10;
-            var10 = var5[var2];
-            var10 = var4.bind(var3)(var10);
-            var10 = var10.KeyboardTypes;
-            var11 = var10.EXPRESSION;
-            var10 = _closure1_slot4;
-            var10 = var10.EMOJI;
-            var9[10] = var10;
-            var10 = var5[var2];
-            var10 = var4.bind(var3)(var10);
-            var10 = var10.KeyboardTypes;
-            var11 = var10.MEDIA;
-            var10 = {};
-            var12 = _closure1_slot5;
-            var12 = var12.CHAT;
-            var10['target'] = var12;
-            var9[10] = var10;
-            var10 = var5[var2];
-            var10 = var4.bind(var3)(var10);
-            var10 = var10.KeyboardTypes;
-            var11 = var10.APP_LAUNCHER;
-            var10 = {};
-            var12 = _closure1_slot3;
-            var12 = var12.HOME;
-            var10['initialRouteName'] = var12;
-            var9[10] = var10;
-            var1['keyboardContexts'] = var9;
-            var1['keyboardDuration'] = var8;
-            var8 = _closure1_slot11;
-            var7 = {'keyboardHeight': 0, 'excludeSafeAreaInsets': false};
-            var7 = var8.bind(var3)(var7);
-            var1['keyboardHeight'] = var7;
-            var7 = {'keyboardHeight': 0, 'excludeSafeAreaInsets': true};
-            var7 = var8.bind(var3)(var7);
-            var1['keyboardHeightExcludingSafeAreaInsets'] = var7;
-            var1['systemKeyboardOpen'] = var6;
-            var6 = var5[var2];
-            var6 = var4.bind(var3)(var6);
-            var6 = var6.KeyboardTypes;
-            var6 = var6.SYSTEM;
-            var1['keyboardType'] = var6;
-            var2 = var5[var2];
-            var2 = var4.bind(var3)(var2);
-            var2 = var2.KeyboardTypes;
-            var2 = var2.SYSTEM;
-            var1['keyboardTypePrevious'] = var2;
+            var2 = {};
+            var5 = _closure1_slot16;
+            var4 = undefined;
+            var3 = 'main';
+            var3 = var5.bind(var4)(var3);
+            var2['main'] = var3;
+            var3 = 'share';
+            var3 = var5.bind(var4)(var3);
+            var2['share'] = var3;
+            var1['byAppEntry'] = var2;
             return var1;
         };
         var4 = var5.bind(var9)(var4);
@@ -524,7 +810,7 @@ case 59:
             var4 = var8.reactNativeKeyboardDidShow;
             var3 = 'KeyboardUIStore';
             var3 = var4.bind(var8)(var7, var3);
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot15;
             var3 = {};
             var3['keyboardHeight'] = var7;
             var3['keyboardDuration'] = var5;
@@ -561,7 +847,7 @@ case 59:
             var4 = var5.reactNativeKeyboardDidHide;
             var3 = 'KeyboardUIStore';
             var3 = var4.bind(var5)(var3);
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot15;
             var5 = false;
             var3 = {'keyboardHeight': 0, 'systemKeyboardOpen': false};
             var3 = var4.bind(var1)(var3);
@@ -586,19 +872,17 @@ case 59:
         var5 = var9.bind(var11)(var10, var5);
         var5 = 15;
         var5 = var7[var5];
-        var8 = var8.bind(var1)(var5);
-        var5 = function(arg1) {
-            var1 = arg1;
-            var1 = var1.bottom;
-            var3 = _closure1_slot12;
-            var2 = {};
-            var2['keyboardImeInsetBottom'] = var1;
+        var9 = var8.bind(var1)(var5);
+        var8 = var9.subscribe;
+        var5 = function() {
+            var3 = _closure1_slot15;
             var1 = undefined;
+            var2 = {};
             var2 = var3.bind(var1)(var2);
             return var1;
         };
-        var5 = var8.bind(var1)(var5);
-        var5 = 16;
+        var5 = var8.bind(var9)(var5);
+        var5 = 17;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;
@@ -606,60 +890,76 @@ case 59:
         var5 = var6.bind(var7)(var5);
         var3['default'] = var4;
         var4 = function setKeyboardType(arg1) {
-            var1 = arg1;
-            var _closure2_slot0 = var1;
-            var6 = _closure1_slot7;
-            var5 = var6.forEach;
-            var4 = function(arg1) {
-                var3 = _closure2_slot0;
-                var2 = arg1;
-                var1 = undefined;
-                var1 = var2.bind(var1)(var3);
-                return var1;
-            };
-            var4 = var5.bind(var6)(var4);
-            var5 = _closure1_slot8;
-            var4 = var5.forEach;
-            var3 = function(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-                    var2 = _closure2_slot0;
-                    var4 = var2.type;
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 5;
-                    var2 = var3[var2];
-                    var3 = undefined;
-                    var2 = var5.bind(var3)(var2);
-                    var2 = var2.KeyboardTypes;
-                    var2 = var2.SYSTEM;
-                    var2 = var4 === var2;
-                    if(!var2) { _fun0005_ip = 61; continue _fun0005 }
-case 62:
-                    var1 = _closure2_slot0;
-                    var1 = var1.context;
-                    var4 = null;
-                    var5 = var4 == var1;
-                    var4 = undefined;
-                    if(var5) { _fun0005_ip = 63; continue _fun0005 }
-case 64:
-                    var4 = var1.keyboardWillOpen;
-case 63:
-                    var1 = true;
-                    var2 = var1 === var4;
-case 61:
-                    var1 = arg1;
-                    var1 = var1.bind(var3)(var2);
+                var5 = arg1;
+                var4 = arguments[1];
+                var _closure2_slot0 = var5;
+                var1 = undefined;
+                if(!(var4 === var1)) { _fun0009_ip = 100; continue _fun0009 }
+case 101:
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var2 = 16;
+                var2 = var7[var2];
+                var2 = var6.bind(var1)(var2);
+                var4 = var2.DEFAULT_APP_ENTRY_KEY;
+case 100:
+                var _closure2_slot1 = var4;
+                var8 = _closure1_slot7;
+                var7 = var8.forEach;
+                var6 = function(arg1) {
+                    var4 = _closure2_slot0;
+                    var3 = _closure2_slot1;
+                    var2 = arg1;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)(var4, var3);
                     return var1;
-                }
-            };
-            var3 = var4.bind(var5)(var3);
-            var3 = _closure1_slot12;
-            var2 = {};
-            var2['keyboardType'] = var1;
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            return var1;
+                };
+                var6 = var7.bind(var8)(var6);
+                var7 = _closure1_slot8;
+                var6 = var7.forEach;
+                var3 = function(arg1) {
+                    _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+                        var2 = _closure2_slot0;
+                        var3 = var2.type;
+                        var5 = _closure1_slot0;
+                        var4 = _closure1_slot2;
+                        var2 = 5;
+                        var2 = var4[var2];
+                        var4 = undefined;
+                        var2 = var5.bind(var4)(var2);
+                        var2 = var2.KeyboardTypes;
+                        var2 = var2.SYSTEM;
+                        var3 = var3 === var2;
+                        if(!var3) { _fun0010_ip = 102; continue _fun0010 }
+case 28:
+                        var2 = _closure2_slot0;
+                        var2 = var2.context;
+                        var5 = null;
+                        var6 = var5 == var2;
+                        var5 = undefined;
+                        if(var6) { _fun0010_ip = 103; continue _fun0010 }
+case 104:
+                        var5 = var2.keyboardWillOpen;
+case 103:
+                        var2 = true;
+                        var3 = var2 === var5;
+case 102:
+                        var2 = _closure2_slot1;
+                        var1 = arg1;
+                        var1 = var1.bind(var4)(var3, var2);
+                        return var1;
+                    }
+                };
+                var3 = var6.bind(var7)(var3);
+                var3 = _closure1_slot15;
+                var2 = {};
+                var2['keyboardType'] = var5;
+                var2 = var3.bind(var1)(var2, var4);
+                return var1;
+            }
         };
         var3['setKeyboardType'] = var4;
         var4 = function addKeyboardWillOpenChangedListener(arg1) {

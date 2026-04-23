@@ -351,7 +351,7 @@ case 12:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(16);
+        var1 = new Array(14);
         var1[0] = var5;
         var5 = {};
         var8 = 'handleRTCUsersUpdate';
@@ -1078,7 +1078,7 @@ case 80:
         var5 = {};
         var7 = 'applyStreamRecording';
         var5['key'] = var7;
-        var7 = function value(arg1, arg2) {
+        var6 = function value(arg1, arg2) {
             _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var6 = arg1;
@@ -1115,26 +1115,8 @@ case 24:
                 return var1;
             }
         };
-        var5['value'] = var7;
-        var1[13] = var5;
-        var5 = {};
-        var7 = 'handleMessageCreate';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = undefined;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[14] = var5;
-        var5 = {};
-        var7 = 'handleRemoteClipTrigger';
-        var5['key'] = var7;
-        var6 = function value() {
-            var1 = undefined;
-            return var1;
-        };
         var5['value'] = var6;
-        var1[15] = var5;
+        var1[13] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -221,7 +221,7 @@ case 20:
         var11 = {};
         var10 = var3;
         var9 = var2;
-        var10 = copyDataProperties(var11, var10, var9);
+        var5 = copyDataProperties(var11, var10, var9);
         var2 = _closure1_slot8;
         var4 = undefined;
         var6 = var2.bind(var4)();
@@ -245,7 +245,12 @@ case 20:
             return var1;
         };
         var1['backImage'] = var6;
+        var6 = var5.label;
+        var1['truncatedLabel'] = var6;
+        var6 = var5.label;
+        var1['accessibilityLabel'] = var6;
         var11 = var1;
+        var10 = var5;
         var5 = copyDataProperties(var11, var10);
         var1 = var3.bind(var4)(var2, var1);
         return var1;

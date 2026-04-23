@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -70,27 +70,36 @@ case 10:
             var _closure2_slot3 = var7;
             var _closure2_slot4 = var7;
             var _closure2_slot5 = var7;
+            var _closure2_slot6 = var7;
             var6 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var4 = 5;
-            var4 = var10[var4];
+            var4 = var11[var4];
             var4 = var6.bind(var7)(var4);
             var4 = var4.bind(var7)();
+            var10 = _closure1_slot0;
+            var6 = 6;
+            var6 = var11[var6];
+            var10 = var10.bind(var7)(var6);
+            var6 = var10.useAppEntryKey;
+            var11 = var6.bind(var10)();
+            _closure2_slot3 = var11;
             var12 = _closure1_slot4;
             var10 = var12.useCallback;
-            var6 = new Array(3);
-            var6[0] = var3;
-            var6[1] = var8;
-            var6[2] = var5;
+            var6 = new Array(4);
+            var6[0] = var11;
+            var6[1] = var3;
+            var6[2] = var8;
+            var6[3] = var5;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var4 = 6;
-                    var1 = var1[var4];
-                    var5 = undefined;
-                    var2 = var2.bind(var5)(var1);
+                    var3 = 7;
+                    var1 = var1[var3];
+                    var6 = undefined;
+                    var2 = var2.bind(var6)(var1);
                     var1 = var2.isIOS;
                     var1 = var1.bind(var2)();
                     if(!var1) { _fun0002_ip = 12; continue _fun0002 }
@@ -103,8 +112,8 @@ case 14:
 case 12:
                     var2 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var1 = var1[var4];
-                    var2 = var2.bind(var5)(var1);
+                    var1 = var1[var3];
+                    var2 = var2.bind(var6)(var1);
                     var1 = var2.isAndroid;
                     var1 = var1.bind(var2)();
                     if(!var1) { _fun0002_ip = 15; continue _fun0002 }
@@ -116,41 +125,46 @@ case 17:
                     return var1;
 case 15:
                     var2 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var1 = 7;
-                    var1 = var4[var1];
-                    var2 = var2.bind(var5)(var1);
-                    var1 = var2.getSystemKeyboardHeight;
-                    var1 = var1.bind(var2)();
-                    var6 = 0;
-                    if(!(var6 === var1)) { _fun0002_ip = 18; continue _fun0002 }
+                    var3 = _closure1_slot2;
+                    var1 = 8;
+                    var1 = var3[var1];
+                    var5 = var2.bind(var6)(var1);
+                    var2 = var5.getSystemKeyboardHeight;
+                    var1 = {};
+                    var7 = _closure2_slot3;
+                    var1['appEntryKey'] = var7;
+                    var1 = var2.bind(var5)(var1);
+                    var7 = 0;
+                    if(!(var7 === var1)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-                    var4 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var2 = 8;
-                    var2 = var8[var2];
-                    var7 = var4.bind(var5)(var2);
-                    var2 = var7.getKeyboardType;
-                    var7 = var2.bind(var7)();
+                    var5 = _closure1_slot0;
+                    var9 = _closure1_slot2;
                     var2 = 9;
-                    var2 = var8[var2];
-                    var2 = var4.bind(var5)(var2);
+                    var2 = var9[var2];
+                    var10 = var5.bind(var6)(var2);
+                    var8 = var10.getKeyboardType;
+                    var2 = _closure2_slot3;
+                    var8 = var8.bind(var10)(var2);
+                    var2 = 10;
+                    var2 = var9[var2];
+                    var2 = var5.bind(var6)(var2);
                     var2 = var2.KeyboardTypes;
-                    var4 = var2.SYSTEM;
+                    var5 = var2.SYSTEM;
                     var2 = 0;
-                    if(!(var7 !== var4)) { _fun0002_ip = 20; continue _fun0002 }
+                    if(!(var8 !== var5)) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-                    var4 = _closure2_slot2;
+                    var5 = _closure2_slot2;
                     var2 = 0;
-                    if(!var4) { _fun0002_ip = 20; continue _fun0002 }
+                    if(!var5) { _fun0002_ip = 20; continue _fun0002 }
 case 22:
-                    var4 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 10;
-                    var3 = var6[var3];
-                    var4 = var4.bind(var5)(var3);
-                    var3 = var4.getCustomKeyboardHeight;
-                    var2 = var3.bind(var4)();
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var4 = 11;
+                    var4 = var7[var4];
+                    var5 = var5.bind(var6)(var4);
+                    var4 = var5.getCustomKeyboardHeight;
+                    var3 = _closure2_slot3;
+                    var2 = var4.bind(var5)(var3);
 case 20:
                     var1 = var2;
 case 18:
@@ -158,11 +172,11 @@ case 18:
                 }
             };
             var13 = var10.bind(var12)(var3, var6);
-            _closure2_slot3 = var13;
+            _closure2_slot4 = var13;
             var6 = var12.useRef;
             var3 = var13.bind(var7)();
             var3 = var6.bind(var12)(var3);
-            _closure2_slot4 = var3;
+            _closure2_slot5 = var3;
             var6 = var12.useState;
             var3 = var3.current;
             var10 = var6.bind(var12)(var3);
@@ -173,7 +187,7 @@ case 18:
             var3 = var11[var6];
             var10 = 1;
             var10 = var11[var10];
-            _closure2_slot5 = var10;
+            _closure2_slot6 = var10;
             var11 = var12.useEffect;
             var10 = new Array(3);
             var10[0] = var13;
@@ -185,16 +199,16 @@ case 18:
                 var1 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                        var3 = _closure2_slot3;
+                        var3 = _closure2_slot4;
                         var1 = undefined;
                         var3 = var3.bind(var1)();
-                        var4 = _closure2_slot4;
+                        var4 = _closure2_slot5;
                         var4 = var4.current;
                         if(!(var4 !== var3)) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
-                        var4 = _closure2_slot4;
+                        var4 = _closure2_slot5;
                         var4['current'] = var3;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.bind(var1)(var3);
 case 23:
                         return var1;
@@ -215,7 +229,7 @@ case 25:
 case 28:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var9 = 6;
+            var9 = 7;
             var9 = var11[var9];
             var10 = var10.bind(var7)(var9);
             var9 = var10.isAndroid;

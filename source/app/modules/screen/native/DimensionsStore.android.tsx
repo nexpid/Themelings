@@ -188,7 +188,8 @@ case 0:
             var1 = arg1;
             var3 = arg3;
             var2 = arg4;
-            var12 = var3.width;
+            var12 = arg5;
+            var13 = var3.width;
             var10 = var3.height;
             var4 = var2.width;
             var5 = var2.height;
@@ -197,13 +198,12 @@ case 0:
             var2 = 3;
             var3 = var3[var2];
             var2 = undefined;
-            var7 = var6.bind(var2)(var3);
-            var6 = var7.getSafeAreaInsets;
-            var3 = arg5;
-            var3 = var6.bind(var7)(var3);
+            var6 = var6.bind(var2)(var3);
+            var3 = var6.getSafeAreaInsets;
+            var3 = var3.bind(var6)(var12);
             var11 = var4;
             var7 = var5;
-            if(!(var7 === var12)) { _fun0004_ip = 36; continue _fun0004 }
+            if(!(var7 === var13)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var11 = var5;
             var7 = var4;
@@ -212,9 +212,9 @@ case 36:
             var8 = var5.Math;
             var6 = var8.min;
             var4 = var3.left;
-            var12 = var12 + var4;
+            var13 = var13 + var4;
             var4 = var3.right;
-            var4 = var12 + var4;
+            var4 = var13 + var4;
             var4 = var6.bind(var8)(var4, var11);
             var6 = var5.Math;
             var5 = var6.min;
@@ -230,9 +230,11 @@ case 15:
             var11 = _closure1_slot1;
             var9 = 4;
             var9 = var11[var9];
-            var10 = var10.bind(var2)(var9);
-            var9 = var10.getSystemKeyboardHeight;
-            var3 = var9.bind(var10)();
+            var11 = var10.bind(var2)(var9);
+            var10 = var11.getSystemKeyboardHeight;
+            var9 = {};
+            var9['appEntryKey'] = var12;
+            var3 = var10.bind(var11)(var9);
 case 38:
             var3 = var8 - var3;
             var3 = var5.bind(var6)(var3, var7);
@@ -323,28 +325,28 @@ case 48:
             var3 = var18[var8](var17, var16, var15, var14, var13, var12);
             var7 = var7 == var1;
             var2 = undefined;
-            if(var7) { _fun0005_ip = 41; continue _fun0005 }
-case 50:
-            var2 = var1.windowDimensions;
-case 41:
-            if(!(var2 === var4)) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
-            var2 = var1.windowDimensionsIgnoringKeyboard;
-            if(!(var2 === var3)) { _fun0005_ip = 51; continue _fun0005 }
-case 53:
-            var2 = var1.fontScale;
-            if(!(var2 === var6)) { _fun0005_ip = 51; continue _fun0005 }
-case 54:
-            var2 = var1.screenIsLandscape;
-            if(!(var2 !== var5)) { _fun0005_ip = 55; continue _fun0005 }
+            if(var7) { _fun0005_ip = 50; continue _fun0005 }
 case 51:
+            var2 = var1.windowDimensions;
+case 50:
+            if(!(var2 === var4)) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
+            var2 = var1.windowDimensionsIgnoringKeyboard;
+            if(!(var2 === var3)) { _fun0005_ip = 52; continue _fun0005 }
+case 54:
+            var2 = var1.fontScale;
+            if(!(var2 === var6)) { _fun0005_ip = 52; continue _fun0005 }
+case 55:
+            var2 = var1.screenIsLandscape;
+            if(!(var2 !== var5)) { _fun0005_ip = 56; continue _fun0005 }
+case 52:
             var2 = {};
             var2['fontScale'] = var6;
             var2['screenIsLandscape'] = var5;
             var2['windowDimensions'] = var4;
             var2['windowDimensionsIgnoringKeyboard'] = var3;
             var1 = var2;
-case 55:
+case 56:
             return var1;
         }
     };
@@ -370,40 +372,40 @@ case 0:
             var7 = var6;
             var6 = var4;
             var4 = var6;
-            if(var5) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+            if(var5) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
             var14 = var7.value;
             var12 = _closure1_slot7;
             var13 = var2 == var1;
             var5 = undefined;
-            if(var13) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+            if(var13) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
             var13 = var1.byAppEntry;
             var5 = var13[var14];
-case 58:
+case 59:
             var12 = var12.bind(var10)(var14, var5);
             var3[var14] = var12;
             var13 = var2 == var1;
             var5 = undefined;
-            if(var13) { _fun0006_ip = 60; continue _fun0006 }
-case 61:
+            if(var13) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
             var13 = var1.byAppEntry;
             var5 = var13[var14];
-case 60:
-            if(!(var5 !== var12)) { _fun0006_ip = 62; continue _fun0006 }
-case 63:
+case 61:
+            if(!(var5 !== var12)) { _fun0006_ip = 63; continue _fun0006 }
+case 64:
             var6 = false;
-case 62:
+case 63:
             var13 = var9.bind(var10)();
             var5 = var13.done;
             var7 = var13;
             var4 = var6;
-            if(!var5) { _fun0006_ip = 57; continue _fun0006 }
-case 56:
-            if(!var4) { _fun0006_ip = 64; continue _fun0006 }
-case 65:
+            if(!var5) { _fun0006_ip = 58; continue _fun0006 }
+case 57:
+            if(!var4) { _fun0006_ip = 65; continue _fun0006 }
+case 66:
             if(!(var2 == var1)) { _fun0006_ip = 48; continue _fun0006 }
-case 64:
+case 65:
             var2 = {};
             var2['byAppEntry'] = var3;
             var1 = var2;

@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function BountiesModalAdvertiserCtaTsx2(){const{runOnJS,animationCallbackJSThread}=this.__closure;runOnJS(animationCallbackJSThread)();}';
     var4['code'] = var7;
     var _closure1_slot11 = var4;
-    var4 = 14;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -157,11 +157,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var4 = var1.bounty;
+            var _closure2_slot0 = var4;
             var1 = var1.visible;
-            var _closure2_slot0 = var1;
+            var _closure2_slot1 = var1;
             var5 = undefined;
-            var _closure2_slot2 = var5;
             var _closure2_slot3 = var5;
+            var _closure2_slot4 = var5;
             var2 = _closure1_slot9;
             var16 = var2.bind(var5)();
             var3 = _closure1_slot0;
@@ -182,7 +183,7 @@ case 0:
             var3 = var4[var15];
             var2 = 1;
             var6 = var4[var2];
-            var _closure2_slot1 = var6;
+            var _closure2_slot2 = var6;
             var4 = var10.useState;
             var4 = var4.bind(var10)(var1);
             var4 = var8.bind(var5)(var4, var7);
@@ -197,26 +198,26 @@ case 4:
             var4 = var6.bind(var5)(var4);
 case 2:
             var14 = function animationCallbackJSThread() {
-                var3 = _closure2_slot1;
+                var3 = _closure2_slot2;
                 var1 = undefined;
                 var2 = false;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            _closure2_slot2 = var14;
+            _closure2_slot3 = var14;
             var15 = 0;
             if(!var1) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var15 = var2;
 case 5:
-            _closure2_slot3 = var15;
+            _closure2_slot4 = var15;
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 7;
             var4 = var10[var2];
             var7 = var11.bind(var5)(var4);
             var6 = var7.useAnimatedStyle;
-            var4 = function O() {
+            var4 = function J() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -227,8 +228,8 @@ case 0:
                     var9 = undefined;
                     var15 = var3.bind(var9)(var2);
                     var14 = var15.withTiming;
-                    var13 = _closure2_slot3;
-                    var4 = _closure2_slot0;
+                    var13 = _closure2_slot4;
+                    var4 = _closure2_slot1;
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var10 = 9;
@@ -249,7 +250,7 @@ case 9:
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.runOnJS;
-                        var2 = _closure2_slot2;
+                        var2 = _closure2_slot3;
                         var2 = var3.bind(var4)(var2);
                         var2 = var2.bind(var1)();
                         return var1;
@@ -262,7 +263,7 @@ case 9:
                     var16 = var8.bind(var9)(var16);
                     var16 = var16.runOnJS;
                     var3['runOnJS'] = var16;
-                    var16 = _closure2_slot2;
+                    var16 = _closure2_slot3;
                     var3['animationCallbackJSThread'] = var16;
                     var6['__closure'] = var3;
                     var3 = 1692146836569.0;
@@ -283,11 +284,11 @@ case 9:
                     var4 = var11[var4];
                     var13 = var8.bind(var9)(var4);
                     var12 = var13.interpolate;
-                    var11 = _closure2_slot3;
+                    var11 = _closure2_slot4;
                     var8 = [0, 1];
                     var4 = [8, 0];
                     var4 = var12.bind(var13)(var11, var8, var4);
-                    var2 = _closure2_slot0;
+                    var2 = _closure2_slot1;
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var7 = var7[var10];
@@ -421,7 +422,44 @@ case 16:
             var13 = var13.buttonLabel;
             var10['text'] = var13;
             var12 = function onPress() {
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var1 = 14;
+                var2 = var8[var1];
                 var1 = undefined;
+                var5 = var7.bind(var1)(var2);
+                var4 = var5.openAdGameLinkDirectly;
+                var3 = {};
+                var2 = _closure2_slot0;
+                var6 = var2.id;
+                var3['adContentId'] = var6;
+                var6 = 15;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var6 = var6.AdCreativeType;
+                var6 = var6.BOUNTY;
+                var3['adCreativeType'] = var6;
+                var2 = var2.cta;
+                var3['cta'] = var2;
+                var2 = {};
+                var6 = 16;
+                var9 = var8[var6];
+                var9 = var7.bind(var1)(var9);
+                var9 = var9.QuestContent;
+                var9 = var9.VIDEO_MODAL_MOBILE;
+                var2['content'] = var9;
+                var9 = 17;
+                var9 = var8[var9];
+                var9 = var7.bind(var1)(var9);
+                var9 = var9.QuestContentCTA;
+                var9 = var9.OPEN_GAME_LINK;
+                var2['ctaContent'] = var9;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var6 = var6.QuestContent;
+                var6 = var6.QUEST_HOME_MOBILE_CAROUSEL;
+                var2['sourceQuestContent'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
             var10['onPress'] = var12;

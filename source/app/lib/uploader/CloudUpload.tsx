@@ -3778,199 +3778,219 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0037_ip = 323; continue _fun0037 }
 case 225:
-                    var17 = arg1;
-                    var15 = arg2;
+                    var21 = arg1;
+                    var19 = arg2;
                     var3 = arg3;
                     var9 = undefined;
                     var8 = undefined;
                     var10 = undefined;
                     var11 = undefined;
+                    var12 = undefined;
                     var7 = undefined;
                     var5 = undefined;
+                    var20 = undefined;
+                    var18 = undefined;
+                    var15 = undefined;
                     var16 = undefined;
-                    var13 = undefined;
                     var6 = undefined;
-                    var12 = _closure1_slot0;
+                    var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var2 = 30;
                     var2 = var14[var2];
-                    var14 = var12.bind(var9)(var2);
-                    var12 = var14.getImageAttachmentMezzanineV2Config;
+                    var14 = var13.bind(var9)(var2);
+                    var13 = var14.getImageAttachmentMezzanineV2Config;
                     var2 = {};
-                    var18 = 'CloudUpload.maybeConvertToWebP';
-                    var2['location'] = var18;
-                    var12 = var12.bind(var14)(var2);
-                    var2 = var12.enabled;
-                    if(var2) { _fun0037_ip = 13; continue _fun0037 }
-case 324:
-                    var18 = _closure1_slot18;
-                    var14 = var18.warn;
-                    var21 = var3;
+                    var17 = 'CloudUpload.maybeConvertToWebP';
+                    var2['location'] = var17;
+                    var13 = var13.bind(var14)(var2);
+                    var2 = var13.enabled;
+                    if(var2) { _fun0037_ip = 131; continue _fun0037 }
+case 69:
+                    var17 = _closure1_slot18;
+                    var14 = var17.warn;
+                    var24 = var3;
                     var2 = global;
                     var2 = var2.HermesInternal;
-                    var20 = var2.concat;
-                    var19 = 'webp conversion skipped for ';
+                    var23 = var2.concat;
+                    var22 = 'webp conversion skipped for ';
                     var2 = ': not enabled';
-                    var2 = var20.bind(var19)(var21, var2);
-                    var2 = var14.bind(var18)(var2);
+                    var2 = var23.bind(var22)(var24, var2);
+                    var2 = var14.bind(var17)(var2);
                     var2 = null;
                     return var2;
-case 13:
-                    var14 = var17;
+case 131:
+                    var14 = var21;
                     var2 = null;
-                    if(!(var2 != var14)) { _fun0037_ip = 325; continue _fun0037 }
-case 326:
-                    var14 = var12.maxFileSizeBytes;
-                    if(!(var2 != var14)) { _fun0037_ip = 327; continue _fun0037 }
-case 328:
-                    var14 = var17;
+                    if(!(var2 != var14)) { _fun0037_ip = 324; continue _fun0037 }
+case 325:
+                    var14 = var13.maxFileSizeBytes;
+                    if(!(var2 != var14)) { _fun0037_ip = 104; continue _fun0037 }
+case 50:
+                    var14 = var21;
                     var14 = var14.size;
-                    var12 = var12.maxFileSizeBytes;
-                    if(!(!(var14 > var12))) { _fun0037_ip = 329; continue _fun0037 }
-case 327:
-                    var12 = var15;
-                    var12 = var12.bind(var9)();
-                    if(var12) { _fun0037_ip = 330; continue _fun0037 }
-case 19:
+                    var13 = var13.maxFileSizeBytes;
+                    if(!(!(var14 > var13))) { _fun0037_ip = 326; continue _fun0037 }
+case 104:
+                    var13 = var19;
+                    var13 = var13.bind(var9)();
+                    if(var13) { _fun0037_ip = 327; continue _fun0037 }
+case 328:
                     var14 = global;
-                    var18 = var14.performance;
-                    var12 = var18.now;
-                    var7 = var12.bind(var18)();
-                    var12 = {};
-                    var18 = 0;
-                    var12['compressTimeMs'] = var18;
-                    var5 = var12;
-case 331: // try_start_0
-                    var18 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var19 = 31;
-                    var12 = var12[var19];
-                    var20 = var18.bind(var9)(var12);
-                    var18 = var20.maybeConvertToWebP;
-                    var12 = var17;
-                    var12 = var18.bind(var20)(var12);
-                    SaveGenerator(address=267);
+                    var17 = var14.performance;
+                    var13 = var17.now;
+                    var7 = var13.bind(var17)();
+                    var13 = {};
+                    var17 = 0;
+                    var13['compressTimeMs'] = var17;
+                    var5 = var13;
+case 141: // try_start_0
+                    var22 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var17 = 32;
+                    var17 = var13[var17];
+                    var22 = var22.bind(var9)(var17);
+                    var17 = 31;
+                    var17 = var13[var17];
+                    var13 = var13.paths;
+                    var13 = var22.bind(var9)(var17, var13);
+                    SaveGenerator(address=277);
+case 329:
+                    return var13;
+case 330:
+                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=16);
+                    if(var17) { _fun0037_ip = 151; continue _fun0037 }
+case 331:
+                    var12 = var13.ConversionFailureReason;
+                    var22 = var13.maybeConvertToWebP;
+                    var17 = var21;
+                    var17 = var22.bind(var13)(var17);
+                    SaveGenerator(address=310);
+case 203:
+                    return var17;
 case 332:
-                    return var12;
-case 73:
-                    ResumeGenerator(result_out_reg=11, return_bool_out_reg=17);
-                    if(var18) { _fun0037_ip = 333; continue _fun0037 }
-case 305:
-                    var11 = var12;
-                    var15 = var15.bind(var9)();
-                    if(var15) { _fun0037_ip = 334; continue _fun0037 }
-case 200:
-                    var15 = var11;
-                    var15 = var15.success;
-                    if(!var15) { _fun0037_ip = 335; continue _fun0037 }
-case 307:
-                    var15 = var11;
-                    var15 = var15.convertedBlob;
-                    if(!(var2 == var15)) { _fun0037_ip = 148; continue _fun0037 }
+                    ResumeGenerator(result_out_reg=16, return_bool_out_reg=21);
+                    if(var22) { _fun0037_ip = 155; continue _fun0037 }
+case 333:
+                    var11 = var17;
+                    var19 = var19.bind(var9)();
+                    if(var19) { _fun0037_ip = 156; continue _fun0037 }
+case 334:
+                    var19 = var11;
+                    var19 = var19.success;
+                    if(!var19) { _fun0037_ip = 335; continue _fun0037 }
+case 164:
+                    var19 = var11;
+                    var19 = var19.convertedBlob;
+                    if(!(var2 == var19)) { _fun0037_ip = 336; continue _fun0037 }
 case 335:
-                    var15 = var11;
-                    var15 = var15.reason;
-                    var13 = var15;
-                    if(!(var2 == var15)) { _fun0037_ip = 146; continue _fun0037 }
-case 336:
-                    var18 = _closure1_slot0;
-                    var15 = _closure1_slot2;
-                    var15 = var15[var19];
-                    var15 = var18.bind(var9)(var15);
-                    var15 = var15.ConversionFailureReason;
-                    var15 = var15.UNKNOWN_ERROR;
-                    _fun0037_ip = 337; continue _fun0037;
-case 146:
-                    var15 = var13;
+                    var19 = var11;
+                    var19 = var19.reason;
+                    var18 = var19;
+                    if(!(var2 == var19)) { _fun0037_ip = 337; continue _fun0037 }
+case 83:
+                    var19 = var12;
+                    var19 = var19.UNKNOWN_ERROR;
+                    _fun0037_ip = 119; continue _fun0037;
 case 337:
-                    var19 = _closure1_slot18;
-                    var18 = var19.log;
+                    var19 = var18;
+case 119:
+                    var23 = _closure1_slot18;
+                    var22 = var23.log;
+                    var26 = var3;
+                    var18 = var14.HermesInternal;
+                    var25 = var18.concat;
+                    var24 = 'webp conversion skipped for ';
+                    var18 = ': ';
+                    var18 = var25.bind(var24)(var26, var18, var19);
+                    var18 = var22.bind(var23)(var18);
+                    var18 = var5;
+                    var18['conversionFailureReason'] = var19;
+                    _fun0037_ip = 338; continue _fun0037;
+case 336:
+                    var23 = _closure1_slot18;
+                    var22 = var23.log;
+                    var32 = var3;
+                    var18 = var11;
+                    var38 = var18.sizeBefore;
+                    var36 = var18.sizeAfter;
+                    var25 = var18.compressionRatio;
+                    var24 = var25.toFixed;
+                    var19 = 2;
+                    var34 = var24.bind(var25)(var19);
+                    var19 = var14.HermesInternal;
+                    var28 = var19.concat;
+                    var41 = 'webp conversion worked for ';
+                    var39 = ': ';
+                    var37 = ' -> ';
+                    var35 = ' bytes (';
+                    var33 = 'x)';
+                    var40 = var32;
+                    var19 = var41[var28](var40, var39, var38, var37, var36, var35, var34, var33, var32);
+                    var19 = var22.bind(var23)(var19);
+                    var19 = var5;
+                    var26 = var14.File;
+                    var22 = var18.convertedBlob;
+                    var25 = new Array(1);
+                    var25[0] = var22;
+                    var23 = var21;
+                    var39 = var23.name;
+                    var22 = {};
+                    var21 = 'image/webp';
+                    var22['type'] = var21;
+                    var23 = var23.lastModified;
+                    var22['lastModified'] = var23;
+                    var23 = var26.prototype;
+                    var23 = Object.create(var23, {constructor: {value: var26}});
+                    var41 = var23;
+                    var40 = var25;
+                    var38 = var22;
+                    var22 = new var41[var26](var40, var39, var38, var37);
+                    var22 = var22 instanceof Object ? var22 : var23;
+                    var19['convertedFile'] = var22;
+                    var19['convertedMimeType'] = var21;
+                    var18 = var18.hashTimeMs;
+                    var20 = var18;
+                    var21 = var2 != var18;
+                    var18 = undefined;
+                    if(!var21) { _fun0037_ip = 153; continue _fun0037 }
+case 339:
+                    var18 = var20;
+case 153:
+                    var19['hashTimeMs'] = var18;
+case 338: // try_end0
+                    _fun0037_ip = 340; continue _fun0037;
+case 156:
+                    return var2;
+case 155:
+                    return var17;
+case 151:
+                    return var13;
+case 124: // catch_target0
+                    CatchBlockStart(arg_register=18);
+                    var18 = _closure1_slot18;
+                    var17 = var18.warn;
                     var22 = var3;
                     var13 = var14.HermesInternal;
                     var21 = var13.concat;
-                    var20 = 'webp conversion skipped for ';
-                    var13 = ': ';
-                    var13 = var21.bind(var20)(var22, var13, var15);
-                    var13 = var18.bind(var19)(var13);
+                    var20 = 'webp conversion failed for ';
+                    var13 = ':';
+                    var13 = var21.bind(var20)(var22, var13);
+                    var13 = var17.bind(var18)(var13, var19);
                     var13 = var5;
-                    var13['conversionFailureReason'] = var15;
-                    _fun0037_ip = 219; continue _fun0037;
-case 148:
-                    var19 = _closure1_slot18;
-                    var18 = var19.log;
-                    var28 = var3;
-                    var13 = var11;
-                    var34 = var13.sizeBefore;
-                    var32 = var13.sizeAfter;
-                    var21 = var13.compressionRatio;
-                    var20 = var21.toFixed;
-                    var15 = 2;
-                    var30 = var20.bind(var21)(var15);
-                    var15 = var14.HermesInternal;
-                    var24 = var15.concat;
-                    var37 = 'webp conversion worked for ';
-                    var35 = ': ';
-                    var33 = ' -> ';
-                    var31 = ' bytes (';
-                    var29 = 'x)';
-                    var36 = var28;
-                    var15 = var37[var24](var36, var35, var34, var33, var32, var31, var30, var29, var28);
-                    var15 = var18.bind(var19)(var15);
-                    var15 = var5;
-                    var22 = var14.File;
-                    var18 = var13.convertedBlob;
-                    var21 = new Array(1);
-                    var21[0] = var18;
-                    var19 = var17;
-                    var35 = var19.name;
-                    var18 = {};
-                    var17 = 'image/webp';
-                    var18['type'] = var17;
-                    var19 = var19.lastModified;
-                    var18['lastModified'] = var19;
-                    var19 = var22.prototype;
-                    var19 = Object.create(var19, {constructor: {value: var22}});
-                    var37 = var19;
-                    var36 = var21;
-                    var34 = var18;
-                    var18 = new var37[var22](var36, var35, var34, var33);
-                    var18 = var18 instanceof Object ? var18 : var19;
-                    var15['convertedFile'] = var18;
-                    var15['convertedMimeType'] = var17;
-                    var13 = var13.hashTimeMs;
-                    var16 = var13;
-                    var17 = var2 != var13;
-                    var13 = undefined;
-                    if(!var17) { _fun0037_ip = 338; continue _fun0037 }
-case 339:
-                    var13 = var16;
-case 338:
-                    var15['hashTimeMs'] = var13;
-case 219: // try_end0
-                    _fun0037_ip = 340; continue _fun0037;
-case 334:
-                    return var2;
-case 333:
-                    return var12;
-case 341: // catch_target0
-                    CatchBlockStart(arg_register=15);
-                    var15 = _closure1_slot18;
-                    var13 = var15.warn;
-                    var19 = var3;
-                    var12 = var14.HermesInternal;
-                    var18 = var12.concat;
-                    var17 = 'webp conversion failed for ';
-                    var12 = ':';
-                    var12 = var18.bind(var17)(var19, var12);
-                    var12 = var13.bind(var15)(var12, var16);
-                    var13 = var5;
-                    var15 = _closure1_slot0;
-                    var16 = _closure1_slot2;
-                    var12 = 31;
-                    var12 = var16[var12];
-                    var12 = var15.bind(var9)(var12);
-                    var12 = var12.ConversionFailureReason;
-                    var12 = var12.UNKNOWN_ERROR;
+                    var16 = var12;
+                    var17 = var2 == var12;
+                    var12 = undefined;
+                    if(var17) { _fun0037_ip = 341; continue _fun0037 }
+case 342:
+                    var12 = var16.UNKNOWN_ERROR;
+case 341:
+                    var15 = var12;
+                    var16 = var2 != var12;
+                    var12 = 'unknown_error';
+                    if(!var16) { _fun0037_ip = 343; continue _fun0037 }
+case 344:
+                    var12 = var15;
+case 343:
                     var13['conversionFailureReason'] = var12;
 case 340:
                     var13 = var14.Math;
@@ -3984,22 +4004,22 @@ case 340:
                     var10 = var11;
                     var11 = var2 == var11;
                     var9 = undefined;
-                    if(var11) { _fun0037_ip = 342; continue _fun0037 }
-case 343:
-                    var9 = var10.compressTimeMs;
-case 342:
-                    var8 = var9;
-                    if(!(var2 == var9)) { _fun0037_ip = 344; continue _fun0037 }
-case 345:
-                    _fun0037_ip = 346; continue _fun0037;
-case 344:
-                    var6 = var8;
+                    if(var11) { _fun0037_ip = 345; continue _fun0037 }
 case 346:
+                    var9 = var10.compressTimeMs;
+case 345:
+                    var8 = var9;
+                    if(!(var2 == var9)) { _fun0037_ip = 347; continue _fun0037 }
+case 348:
+                    _fun0037_ip = 349; continue _fun0037;
+case 347:
+                    var6 = var8;
+case 349:
                     var7['compressTimeMs'] = var6;
                     return var5;
-case 330:
+case 327:
                     return var2;
-case 329:
+case 326:
                     var7 = _closure1_slot18;
                     var6 = var7.warn;
                     var10 = var3;
@@ -4011,7 +4031,7 @@ case 329:
                     var5 = var9.bind(var8)(var10, var5);
                     var5 = var6.bind(var7)(var5);
                     return var2;
-case 325:
+case 324:
                     var5 = _closure1_slot18;
                     var4 = var5.warn;
                     var8 = var3;
@@ -4051,8 +4071,8 @@ case 323:
 case 0:
                 var3 = arg1;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0038_ip = 347; continue _fun0038 }
-case 348:
+                if(!(var1 != var3)) { _fun0038_ip = 350; continue _fun0038 }
+case 351:
                 var4 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 18;
@@ -4070,7 +4090,7 @@ case 348:
                 var1 = var1 - var3;
                 var1 = var1 > var2;
                 return var1;
-case 347:
+case 350:
                 var1 = true;
                 return var1;
             }
@@ -4081,7 +4101,7 @@ case 347:
         return var1;
     };
     var2 = var2.bind(var1)(var6);
-    var6 = 32;
+    var6 = 33;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

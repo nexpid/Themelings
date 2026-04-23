@@ -30,7 +30,7 @@ case 3:
                     var9 = var5[var2];
                     var2 = var5.paths;
                     var9 = var10.bind(var8)(var9, var2);
-                    var2 = new Array(40);
+                    var2 = new Array(42);
                     var2[0] = var9;
                     var9 = var5[var6];
                     var11 = var7.bind(var8)(var9);
@@ -298,13 +298,27 @@ case 3:
                     var9 = var5.paths;
                     var9 = var11.bind(var8)(var10, var9);
                     var2[38] = var9;
+                    var9 = var5[var6];
+                    var11 = var7.bind(var8)(var9);
+                    var9 = 41;
+                    var10 = var5[var9];
+                    var9 = var5.paths;
+                    var9 = var11.bind(var8)(var10, var9);
+                    var2[39] = var9;
+                    var9 = var5[var6];
+                    var11 = var7.bind(var8)(var9);
+                    var9 = 42;
+                    var10 = var5[var9];
+                    var9 = var5.paths;
+                    var9 = var11.bind(var8)(var10, var9);
+                    var2[40] = var9;
                     var6 = var5[var6];
                     var7 = var7.bind(var8)(var6);
-                    var6 = 41;
+                    var6 = 43;
                     var6 = var5[var6];
                     var5 = var5.paths;
                     var5 = var7.bind(var8)(var6, var5);
-                    var2[39] = var5;
+                    var2[41] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var2;
 case 2:
@@ -337,7 +351,7 @@ case 2:
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
-    var4 = 42;
+    var4 = 44;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

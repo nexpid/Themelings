@@ -39,11 +39,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot8 = var7;
-    var4 = var4.jsxs;
-    var _closure1_slot9 = var4;
+    var4 = var4.Gradients;
+    var _closure1_slot8 = var4;
     var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot9 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot10 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -56,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'lineHeight': 18, 'textAlign': 'center'};
     var4['text'] = var9;
     var9 = {'padding': 2, 'borderRadius': null, 'marginTop': 8};
-    var11 = 6;
+    var11 = 7;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.radii;
@@ -78,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginTop'] = var10;
     var4['successInfo'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var7 = {};
     var4 = 'entry';
     var7['ENTRY'] = var4;
@@ -91,40 +96,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var7.IDLE;
     var8 = {'BEG': 180, 'END': 360};
     var4[8] = var8;
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = function PremiumPaymentGuildAnimation(arg1) {
         var1 = arg1;
         var10 = var1.nextScene;
         var9 = var1.onSceneComplete;
         var8 = var1.loop;
-        var1 = _closure1_slot10;
+        var1 = _closure1_slot11;
         var4 = undefined;
         var6 = var1.bind(var4)();
-        var3 = _closure1_slot8;
+        var3 = _closure1_slot9;
         var2 = _closure1_slot1;
         var7 = _closure1_slot2;
-        var1 = 7;
+        var1 = 8;
         var1 = var7[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
         var1['nextScene'] = var10;
         var1['onSceneComplete'] = var9;
         var1['loop'] = var8;
-        var8 = _closure1_slot11;
+        var8 = _closure1_slot12;
         var1['sceneSegments'] = var8;
         var6 = var6.animation;
         var1['style'] = var6;
         var6 = _closure1_slot0;
-        var5 = 8;
+        var5 = 9;
         var5 = var7[var5];
         var5 = var6.bind(var4)(var5);
         var1['source'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4['Scenes'] = var7;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -140,11 +145,11 @@ case 0:
             var4 = undefined;
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot11;
             var19 = var1.bind(var4)();
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var5[var1];
             var6 = var2.bind(var4)(var1);
             var5 = var6.useStateFromStores;
@@ -188,7 +193,7 @@ case 7:
 case 6:
             var10 = _closure1_slot4;
             var3 = var10.useState;
-            var6 = _closure1_slot12;
+            var6 = _closure1_slot13;
             var1 = var6.Scenes;
             var1 = var1.ENTRY;
             var1 = var3.bind(var10)(var1);
@@ -208,19 +213,19 @@ case 6:
             _closure2_slot2 = var1;
             var9 = _closure1_slot1;
             var23 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var23[var1];
             var1 = var9.bind(var4)(var1);
             var18 = var1.bind(var4)();
-            var3 = _closure1_slot9;
-            var1 = 11;
+            var3 = _closure1_slot10;
+            var1 = 12;
             var1 = var23[var1];
             var2 = var9.bind(var4)(var1);
             var1 = {};
             var5 = var19.wrapper;
             var1['style'] = var5;
             var16 = _closure1_slot0;
-            var22 = 12;
+            var22 = 13;
             var5 = var23[var22];
             var5 = var16.bind(var4)(var5);
             var12 = var5.intl;
@@ -234,14 +239,14 @@ case 6:
             var5 = function onConfirm() {
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var3 = var4[var1];
                 var1 = undefined;
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.close;
                 var3 = var3.bind(var5)();
                 var3 = _closure1_slot0;
-                var2 = 14;
+                var2 = 15;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.closeApplyBoostModal;
@@ -249,7 +254,7 @@ case 6:
                 return var1;
             };
             var1['onConfirm'] = var5;
-            var10 = _closure1_slot8;
+            var10 = _closure1_slot9;
             var5 = {};
             var5['nextScene'] = var11;
             var5['loop'] = var8;
@@ -257,12 +262,12 @@ case 6:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = arg1;
-                    var2 = _closure1_slot12;
+                    var2 = _closure1_slot13;
                     var2 = var2.Scenes;
                     var2 = var2.ENTRY;
                     if(!(var2 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                    var2 = _closure1_slot12;
+                    var2 = _closure1_slot13;
                     var2 = var2.Scenes;
                     var2 = var2.IDLE;
                     if(!(var2 !== var3)) { _fun0002_ip = 10; continue _fun0002 }
@@ -277,7 +282,7 @@ case 10:
                     return var2;
 case 8:
                     var3 = _closure2_slot1;
-                    var1 = _closure1_slot12;
+                    var1 = _closure1_slot13;
                     var1 = var1.Scenes;
                     var2 = var1.IDLE;
                     var1 = undefined;
@@ -291,26 +296,24 @@ case 8:
             var5[0] = var6;
             var7 = _closure1_slot5;
             var6 = {};
-            var8 = 15;
+            var8 = 16;
             var8 = var23[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
             var11 = var19.activated;
             var8['style'] = var11;
-            var11 = 16;
+            var11 = 17;
             var12 = var23[var11];
             var12 = var16.bind(var4)(var12);
             var12 = var12.HorizontalGradient;
             var12 = var12.START;
             var8['start'] = var12;
-            var12 = var23[var11];
-            var12 = var16.bind(var4)(var12);
-            var12 = var12.HorizontalGradient;
-            var12 = var12.END;
-            var8['end'] = var12;
             var11 = var23[var11];
             var11 = var16.bind(var4)(var11);
-            var11 = var11.Gradients;
+            var11 = var11.HorizontalGradient;
+            var11 = var11.END;
+            var8['end'] = var11;
+            var11 = _closure1_slot8;
             var11 = var11.PREMIUM_GUILD;
             var8['colors'] = var11;
             var11 = {};
@@ -320,7 +323,7 @@ case 8:
             var12 = {};
             var15 = var19.activatedImage;
             var12['style'] = var15;
-            var15 = 17;
+            var15 = 18;
             var15 = var23[var15];
             var16 = var16.bind(var4)(var15);
             var15 = var16.isThemeLight;
@@ -329,12 +332,12 @@ case 8:
             var23 = _closure1_slot2;
             if(var15) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var15 = 19;
+            var15 = 20;
             var15 = var23[var15];
             var15 = var18.bind(var4)(var15);
             _fun0001_ip = 14; continue _fun0001;
 case 12:
-            var16 = 18;
+            var16 = 19;
             var16 = var23[var16];
             var15 = var18.bind(var4)(var16);
 case 14:
@@ -346,15 +349,15 @@ case 14:
             var9 = var10.bind(var4)(var9, var8);
             var8 = new Array(2);
             var8[0] = var9;
-            var11 = _closure1_slot9;
+            var11 = _closure1_slot10;
             var10 = _closure1_slot5;
             var9 = {};
             var12 = var19.successInfo;
             var9['style'] = var12;
-            var16 = _closure1_slot8;
+            var16 = _closure1_slot9;
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var13 = 20;
+            var13 = 21;
             var12 = var12[var13];
             var12 = var15.bind(var4)(var12);
             var15 = var12.Text;
@@ -385,7 +388,7 @@ case 17:
             var15 = var16.bind(var4)(var15, var12);
             var12 = new Array(2);
             var12[0] = var15;
-            var15 = _closure1_slot8;
+            var15 = _closure1_slot9;
             var17 = _closure1_slot0;
             var16 = _closure1_slot2;
             var13 = var16[var13];

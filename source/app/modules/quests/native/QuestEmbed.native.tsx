@@ -128,11 +128,6 @@ case 6:
             var7 = var7.QuestContent;
             var7 = var7.QUEST_EMBED_MOBILE;
             var1['sourceQuestContent'] = var7;
-            var7 = function connectedConsoleLinkOnClick() {
-                var1 = undefined;
-                return var1;
-            };
-            var1['connectedConsoleLinkOnClick'] = var7;
             var7 = null;
             var7 = var7 != var6;
             if(!var7) { _fun0002_ip = 7; continue _fun0002 }

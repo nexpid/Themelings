@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
-            var11 = var4.message;
+            var13 = var4.message;
             var8 = var4.theme;
             var6 = var4.roleStyle;
             var5 = _closure1_slot1;
@@ -39,102 +39,126 @@ case 0:
             var1 = var7[var1];
             var3 = undefined;
             var1 = var5.bind(var3)(var1);
-            var13 = var1.bind(var3)(var8);
+            var15 = var1.bind(var3)(var8);
             var8 = _closure1_slot0;
             var1 = 2;
             var1 = var7[var1];
             var8 = var8.bind(var3)(var1);
             var1 = var8.getMessageAuthorWithProcessedColor;
-            var14 = var1.bind(var8)(var11);
+            var16 = var1.bind(var8)(var13);
             var1 = 3;
             var1 = var7[var1];
             var5 = var5.bind(var3)(var1);
             var1 = {};
-            var1['message'] = var11;
-            var1['author'] = var14;
+            var1['message'] = var13;
+            var1['author'] = var16;
             var1['roleStyle'] = var6;
-            var10 = var5.bind(var3)(var1);
-            var1 = {};
-            var7 = _closure1_slot3;
-            var6 = var7.getChannel;
-            var5 = var11.channel_id;
-            var7 = var6.bind(var7)(var5);
-            var12 = null;
-            var6 = var12 == var7;
-            var5 = undefined;
-            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+            var12 = var5.bind(var3)(var1);
+            var6 = _closure1_slot3;
+            var5 = var6.getChannel;
+            var1 = var13.channel_id;
+            var6 = var5.bind(var6)(var1);
+            var14 = null;
+            var5 = var14 == var6;
+            var1 = undefined;
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = var7.isGroupDM;
-            var6 = var12 == var6;
-            var5 = undefined;
-            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = var6.isGroupDM;
+            var5 = var14 == var5;
+            var1 = undefined;
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var6 = var7.isGroupDM;
-            var5 = var6.bind(var7)();
+            var5 = var6.isGroupDM;
+            var1 = var5.bind(var6)();
 case 2:
-            if(!(var12 != var5)) { _fun0001_ip = 5; continue _fun0001 }
+            var6 = var14 != var1;
+            if(!var6) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            if(var5) { _fun0001_ip = 7; continue _fun0001 }
+            var6 = var1;
 case 5:
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var5 = 4;
-            var7 = var9[var5];
-            var7 = var6.bind(var3)(var7);
-            var8 = var7.intl;
-            var7 = var8.formatToParts;
-            var5 = var9[var5];
-            var5 = var6.bind(var3)(var5);
-            var5 = var5.t;
-            var6 = var5.wypJZ0;
-            var5 = {};
-            var9 = var14.nick;
-            var5['username'] = var9;
-            var5['usernameOnClick'] = var10;
-            var5 = var7.bind(var8)(var6, var5);
-            _fun0001_ip = 8; continue _fun0001;
-case 7:
-            var7 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var6 = 4;
-            var8 = var15[var6];
-            var8 = var7.bind(var3)(var8);
-            var9 = var8.intl;
-            var8 = var9.formatToParts;
-            var6 = var15[var6];
-            var6 = var7.bind(var3)(var6);
-            var6 = var6.t;
-            var7 = var6.hfeYXC;
-            var6 = {};
-            var14 = var14.nick;
-            var6['username'] = var14;
-            var6['usernameOnClick'] = var10;
-            var10 = {};
-            var14 = 'bindOpenGdmCustomizeActionSheet';
-            var10['action'] = var14;
-            var14 = var12 == var13;
-            var12 = undefined;
-            if(var14) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var12 = var13.linkColor;
-case 9:
-            var10['linkColor'] = var12;
-            var11 = var11.channel_id;
-            var10['messageChannelId'] = var11;
-            var11 = true;
-            var10['medium'] = var11;
-            var6['onEditGroup'] = var10;
-            var5 = var8.bind(var9)(var7, var6);
+            var1 = {};
+            var8 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var7 = 4;
+            var9 = var5[var7];
+            var9 = var8.bind(var3)(var9);
+            var11 = var9.intl;
+            var10 = var11.formatToParts;
+            var5 = var5[var7];
+            var5 = var8.bind(var3)(var5);
+            var8 = var5.t;
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
+            var9 = var8.wypJZ0;
+            var5 = {};
+            var17 = var16.nick;
+            var5['username'] = var17;
+            var5['usernameOnClick'] = var12;
+            var5 = var10.bind(var11)(var9, var5);
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
+            var9 = var8.hfeYXC;
+            var8 = {};
+            var16 = var16.nick;
+            var8['username'] = var16;
+            var8['usernameOnClick'] = var12;
+            var12 = {};
+            var16 = 'bindOpenGdmCustomizeActionSheet';
+            var12['action'] = var16;
+            var16 = var14 == var15;
+            var14 = undefined;
+            if(var16) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var14 = var15.linkColor;
+case 10:
+            var12['linkColor'] = var14;
+            var13 = var13.channel_id;
+            var12['messageChannelId'] = var13;
+            var13 = true;
+            var12['medium'] = var13;
+            var8['onEditGroup'] = var12;
+            var5 = var10.bind(var11)(var9, var8);
+case 9:
             var1['content'] = var5;
+            var5 = undefined;
+            if(!var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var6 = {};
+            var8 = {};
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var11 = var10[var7];
+            var11 = var9.bind(var3)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
+            var7 = var10[var7];
+            var7 = var9.bind(var3)(var7);
+            var7 = var7.t;
+            var7 = var7["5Q9+/L"];
+            var7 = var11.bind(var12)(var7);
+            var8['label'] = var7;
+            var7 = 5;
+            var7 = var10[var7];
+            var7 = var9.bind(var3)(var7);
+            var7 = var7.MessageAccessibilityAction;
+            var7 = var7.EDIT_GDM;
+            var8['name'] = var7;
+            var7 = new Array(1);
+            var7[0] = var8;
+            var6['accessibilityActions'] = var7;
+            var5 = var6;
+case 12:
+            var19 = var1;
+            var18 = var5;
+            var5 = copyDataProperties(var19, var18);
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
-            var16 = var2.bind(var3)(var4);
-            var17 = var1;
-            var2 = copyDataProperties(var17, var16);
+            var18 = var2.bind(var3)(var4);
+            var19 = var1;
+            var2 = copyDataProperties(var19, var18);
             return var1;
         }
     };

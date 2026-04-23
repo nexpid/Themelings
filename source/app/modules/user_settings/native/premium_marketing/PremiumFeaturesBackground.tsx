@@ -23,20 +23,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.PremiumTypes;
+    var4 = var4.Gradients;
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.PremiumTypes;
     var _closure1_slot4 = var4;
     var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'display': 'flex', 'borderRadius': null, 'flexDirection': 'column', 'justifyContent': 'space-between', 'overflow': 'hidden'};
-    var10 = 4;
+    var10 = 5;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.radii;
@@ -44,8 +49,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var10;
     var4['cardContainer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 8;
+    var _closure1_slot6 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -73,27 +78,17 @@ case 2:
             var14 = var7;
             var13 = var5;
             var5 = copyDataProperties(var15, var14, var13);
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot6;
             var10 = var2.bind(var4)();
-            var2 = _closure1_slot3;
+            var2 = _closure1_slot4;
             var2 = var2.TIER_0;
             if(!(var3 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 5;
-            var2 = var8[var2];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.Gradients;
+            var2 = _closure1_slot3;
             var3 = var2.PREMIUM_TIER_2_TRI_COLOR;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var8 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var2 = 5;
-            var2 = var12[var2];
-            var2 = var8.bind(var4)(var2);
-            var2 = var2.Gradients;
+            var2 = _closure1_slot3;
             var3 = var2.PREMIUM_TIER_0;
 case 6:
             var2 = 1;
@@ -119,7 +114,7 @@ case 8:
             };
             var8 = var2.bind(var3)(var1);
 case 7:
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 7;
@@ -133,7 +128,7 @@ case 7:
             var1['style'] = var10;
             var1['colors'] = var8;
             var8 = _closure1_slot0;
-            var7 = 5;
+            var7 = 8;
             var10 = var9[var7];
             var10 = var8.bind(var4)(var10);
             var10 = var10.HorizontalGradient;

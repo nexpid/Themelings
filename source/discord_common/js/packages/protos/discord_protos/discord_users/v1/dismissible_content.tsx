@@ -2174,6 +2174,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NEW_GIFTING_BADGES_COACHMARK'] = var2;
     var1 = 'NEW_GIFTING_BADGES_COACHMARK';
     var4[var2] = var1;
+    var2 = 744;
+    var4['PREMIUM_GROUP_GIFT_SELECTION_UPSELL'] = var2;
+    var1 = 'PREMIUM_GROUP_GIFT_SELECTION_UPSELL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';
