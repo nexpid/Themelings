@@ -9543,17 +9543,6 @@
         "width": 24,
         "height": 24
     },
-    "megaphone": {
-        "file": "app/images/native/soundboard/megaphone.png",
-        "hash": "8613656ff2e88907eeec6eb47ca5fa81",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 20,
-        "height": 20
-    },
     "member_list_badge_16px": {
         "file": "app/images/native/premium/guild_boosting/member_list_badge_16px.png",
         "hash": "3b34529117c1d3db6d78cba92e0c94bb",
