@@ -6576,6 +6576,16 @@
         "width": 24,
         "height": 24
     },
+    "ImageSparkleIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/ImageSparkleIcon.png",
+        "hash": "4f5dc667b92ff05a99d9028260a9bf5b",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ImageTextIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImageTextIcon.png",
         "hash": "b191595a7f3df6e7807ea696cffe591c",
@@ -11376,6 +11386,16 @@
         "width": 18,
         "height": 15
     },
+    "SparklesIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/SparklesIcon.png",
+        "hash": "49797bf2e9feeabeb3ed3af5b9cf8473",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "speaker": {
         "file": "app/modules/video_calls/native/images/speaker.png",
         "hash": "72af9903f630d67fa106808d11ca96fb",
@@ -12726,6 +12746,16 @@
         ],
         "width": 18,
         "height": 18
+    },
+    "WaveformIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/WaveformIcon.png",
+        "hash": "07392a850e043822a5c8062588fbfbb4",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "webhook_empty_dark": {
         "file": "app/images/native/empties/webhook_empty_dark.png",
